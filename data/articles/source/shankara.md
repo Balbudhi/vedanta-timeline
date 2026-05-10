@@ -19,7 +19,7 @@ This reader is built around a corrective the textual record itself demands. Ther
 The actual Śaṅkara:
 
 - Distinguishes *mithyā* (sublatable, dependent) from *asat* (non-existent). A son of a barren woman is *asat*; a pot is *mithyā*-from-the-standpoint-of-clay — empirically real, holds water, breaks when dropped.
-- Calls divine creation *līlā-kaivalyam* — "sheer play" — at [BSB 2.1.33](cite://sankara/brahma-sutra-bhasya/2.1.33). Creation flows from Brahman's *plenitude* (*āpta-kāmatva*), not deficiency.
+- Calls divine creation *līlā-kaivalyam* — "sheer play" — at BSB 2.1.33. Creation flows from Brahman's *plenitude* (*āpta-kāmatva*), not deficiency.
 - Operates with a three-tier ontology — *pāramārthika* (ultimate), *vyāvahārika* (empirical), *prātibhāsika* (apparent-illusory). The empirical world is not collapsed into the third tier.
 - Does not actually use *vivarta* as a developed technical term. *Vivartavāda* is a sub-school crystallisation due primarily to Padmapāda's *Pañcapādikā* and Prakāśātman's *Pañcapādikā-Vivaraṇa*. Sureśvara, Śaṅkara's most theologically conservative direct disciple, avoids the term. Śaṅkara himself uses *brahma-pariṇāma*-language qualified by *Chāndogya* 6.1.4's *vācārambhaṇa* argument.
 - Takes *bheda-śrutis* seriously. He does not always reduce them to *artha-vāda*; portions of the BSB treat difference-language as applicable at the *vyāvahārika* level.
@@ -106,9 +106,9 @@ This is why the AB is, in our submission, the *opposite* of a world-denial argum
 
 Generalising the substratum-requirement: the mutual superimposition of subject and object *requires* a real, unchanging, luminous *sākṣi-cetana* that is itself not subject to *adhyāsa*. The Vedāntins hold that there is an innermost *pratyak-cetana* / *sākṣin* serving as the *adhiṣṭhāna* for all superimposition, never itself superimposed upon.
 
-The decisive textual nexus locking *sākṣin* and *aham-pratyaya* together is the bhāṣya on [BSB 1.1.4](cite://sankara/brahma-sutra-bhasya/1.1.4) — the *aupaniṣada-puruṣa* passage:
+The decisive textual nexus locking *sākṣin* and *aham-pratyaya* together is the bhāṣya on BSB 1.1.4 — the *aupaniṣada-puruṣa* passage:
 
-At [BSB 1.1.4](cite://sankara/brahma-sutra-bhasya/1.1.4), Śaṅkara says that the Upaniṣadic Puruṣa is the true content of the "I"-cognition.
+At BSB 1.1.4, Śaṅkara says that the Upaniṣadic Puruṣa is the true content of the "I"-cognition.
 
 **Word-for-word.** *aham-pratyaya-viṣayaḥ* — "having the 'I'-cognition as its content"; *aupaniṣadaḥ puruṣaḥ* — "the Puruṣa of the Upaniṣads."
 
@@ -129,13 +129,13 @@ The *aham-pratyaya* is the experiential index of this witness. The ordinary *aha
 
 ---
 
-## Part II — [BSB 2.1.14](cite://sankara/brahma-sutra-bhasya/2.1.14): *Tad-ananyatva* and the Clay-Pot Argument
+## Part II — BSB 2.1.14: *Tad-ananyatva* and the Clay-Pot Argument
 
-We move now from the prolegomenon (the AB) to the most ontologically central sūtra of the BSB for the question of cause-effect non-difference. [BSB 2.1.14](cite://sankara/brahma-sutra-bhasya/2.1.14) is the sūtra that establishes — in dialogue with *Chāndogya* 6.1.4 — the ontological structure of *ananyatva* (non-difference) of effect from cause. This is the sūtra at which the textbook caricature most often crystallises into the world-as-illusion picture, and it is also the sūtra at which the careful reader sees most clearly that the caricature is wrong.
+We move now from the prolegomenon (the AB) to the most ontologically central sūtra of the BSB for the question of cause-effect non-difference. BSB 2.1.14 is the sūtra that establishes — in dialogue with *Chāndogya* 6.1.4 — the ontological structure of *ananyatva* (non-difference) of effect from cause. This is the sūtra at which the textbook caricature most often crystallises into the world-as-illusion picture, and it is also the sūtra at which the careful reader sees most clearly that the caricature is wrong.
 
 ### The Sūtra
 
-The sūtra at [BSB 2.1.14](cite://sankara/brahma-sutra-bhasya/2.1.14) states, in English, that the effect is non-other than the cause, as shown by the "basis" passage and similar scriptural texts.
+The sūtra at BSB 2.1.14 states, in English, that the effect is non-other than the cause, as shown by the "basis" passage and similar scriptural texts.
 
 **Word-for-word.** *tat* — "that" (= the effect); *ananyatvam* — "non-otherness, non-difference" (literally, *an-anya-tvam*, the abstract noun of "not-other-ness"); *ārambhaṇa-śabdādibhyaḥ* (ablative plural) — "from the words used for creation/beginning, etc."
 
@@ -171,14 +171,14 @@ The hinge phrase *vācārambhaṇaṁ vikāro nāmadheyam* attributes to the mod
 
 Generalising: the world is *ananya* from Brahman — Brahman's being articulated in name-and-form. *Brahma-jñāna* delivers not the world's disappearance but the recognition that what seemed an independent secondness is Brahman expressing itself. *Idaṁ sarvaṁ brahma* and *neha nānāsti kiñcana* (BU 4.4.19) say the same thing: the apparent independent secondness is not ultimate, while the apparent world *as appearance / articulation / expression* is precisely Brahman's being.
 
-**For T2 and T7.** The variety of *nāma-rūpa* is not error but Brahman's expressive mode. What is removed is not the variety but the misperception of it as independent self-established secondnesses. Bhāskara's *bhedābheda*, Madhva's emphasis on *bheda*, Caitanya's *acintya-bhedābheda*, Aurobindo's Realistic Advaita — none is excluded by [BSB 2.1.14](cite://sankara/brahma-sutra-bhasya/2.1.14) carefully read; they are excluded only by the caricature in which *ananyatva* is collapsed into *abhāva*.
+**For T2 and T7.** The variety of *nāma-rūpa* is not error but Brahman's expressive mode. What is removed is not the variety but the misperception of it as independent self-established secondnesses. Bhāskara's *bhedābheda*, Madhva's emphasis on *bheda*, Caitanya's *acintya-bhedābheda*, Aurobindo's Realistic Advaita — none is excluded by BSB 2.1.14 carefully read; they are excluded only by the caricature in which *ananyatva* is collapsed into *abhāva*.
 
 
 ---
 
-## Part III — [BSB 2.1.33–36](cite://sankara/brahma-sutra-bhasya/2.1.33-36): *Lokavat Tu Līlā-Kaivalyam* — the Līlā Sūtras
+## Part III — BSB 2.1.33–36: *Lokavat Tu Līlā-Kaivalyam* — the Līlā Sūtras
 
-If the AB is the foundation of Śaṅkara's argument and [BSB 2.1.14](cite://sankara/brahma-sutra-bhasya/2.1.14) is its ontological centre, then [BSB 2.1.33](cite://sankara/brahma-sutra-bhasya/2.1.33) is its theological-cosmological heart. This is the sūtra at which the textbook caricature most catastrophically fails: the same Śaṅkara who is supposed to have denied the world here gives that world its most explicit and most jubilant theological licence — the world is Brahman's *līlā-kaivalyam*, sheer play, and play arises from the *plenitude* of one whose desires are fulfilled.
+If the AB is the foundation of Śaṅkara's argument and BSB 2.1.14 is its ontological centre, then BSB 2.1.33 is its theological-cosmological heart. This is the sūtra at which the textbook caricature most catastrophically fails: the same Śaṅkara who is supposed to have denied the world here gives that world its most explicit and most jubilant theological licence — the world is Brahman's *līlā-kaivalyam*, sheer play, and play arises from the *plenitude* of one whose desires are fulfilled.
 
 This is the textual anchor for the user's T7 (divine play through willful self-ignorance), T9 (divine purpose as unity-in-apparent-multiplicity), T10 (surrender from fullness, not poverty), and T12 (decentralised philosophy, with *līlā* as the modality of the divine's freedom). Without these sūtras, the user's thesis would have to be argued against Śaṅkara; with them, it is argued in continuity with Śaṅkara, as the natural extension of his own scriptural commentary.
 
@@ -186,9 +186,9 @@ This is the textual anchor for the user's T7 (divine play through willful self-i
 
 The *pūrva-pakṣa*: if Brahman is *āpta-kāma* (one whose desires are fulfilled), why create at all? Creation presupposes need or external purpose; Brahman has neither. Therefore either (a) Brahman cannot create (*nirīśvaravāda*); or (b) some purpose drives creation, contradicting *āpta-kāmatva*; or (c) creation is a defect from a perfect being. The same dilemma Plotinus, Hegel, and Christian theologians face. Bādarāyaṇa and Śaṅkara's answer is *līlā*.
 
-### [BSB 2.1.32](cite://sankara/brahma-sutra-bhasya/2.1.32) — The Objection Stated
+### BSB 2.1.32 — The Objection Stated
 
-[BSB 2.1.32](cite://sankara/brahma-sutra-bhasya/2.1.32) states the objection in English: Brahman cannot create because action would require some purpose.
+BSB 2.1.32 states the objection in English: Brahman cannot create because action would require some purpose.
 
 **Word-for-word.** *na* — "not"; *prayojanavattvāt* — "because of [requiring] purpose."
 
@@ -196,9 +196,9 @@ The *pūrva-pakṣa*: if Brahman is *āpta-kāma* (one whose desires are fulfill
 
 The sūtra states the objection in sharpest form: a *kṛta-kṛtya* has no motive; without motive, no action. Śaṅkara accepts that on the standard *kāma-prayojana* analysis of action, Brahman's creating is impossible. The resolution requires a different analysis — one that does not presuppose external purpose. That is what 2.1.33 supplies.
 
-### [BSB 2.1.33](cite://sankara/brahma-sutra-bhasya/2.1.33) — The Decisive Sūtra
+### BSB 2.1.33 — The Decisive Sūtra
 
-[BSB 2.1.33](cite://sankara/brahma-sutra-bhasya/2.1.33) gives the reply in English: as in ordinary life, creation is sheer play and nothing else.
+BSB 2.1.33 gives the reply in English: as in ordinary life, creation is sheer play and nothing else.
 
 **Word-for-word.**
 - *lokavat* — "as in the world"; the *-vat* indicates analogy with empirical observation.
@@ -234,9 +234,9 @@ The activity is *līlā-kaivalyam* — sheer play, no surplus motive. *Lokavat*:
 
 **Move 4 — The thesis.** *Līlā-kaivalyam* is not concession but positive thesis. Brahman creates because it is Brahman's nature to express, manifest, play — not from need. The world is the natural expression of Brahman's fullness; *brahmaṇaḥ līlā-mātraṁ*. This is the anchor for T7 and T9: *māyā* is not foreign defect but the modality of the divine's play-activity. The textbook caricature suppresses this — glossing past 2.1.33, treating *līlā* as figure of speech, or as concession to popular religion. None survives careful reading. *Līlā-kaivalyam* is the *siddhānta*.
 
-### [BSB 2.1.34](cite://sankara/brahma-sutra-bhasya/2.1.34) — Brahman's Plenitude
+### BSB 2.1.34 — Brahman's Plenitude
 
-[BSB 2.1.34](cite://sankara/brahma-sutra-bhasya/2.1.34) adds that Brahman is endowed with every power, as scripture shows.
+BSB 2.1.34 adds that Brahman is endowed with every power, as scripture shows.
 
 **Word-for-word.** *sarvopetā* — "endowed with everything"; *tad-darśanāt* — "from scripture's seeing of that."
 
@@ -244,17 +244,17 @@ The activity is *līlā-kaivalyam* — sheer play, no surplus motive. *Lokavat*:
 
 The sūtra establishes the *plenitude* from which the *līlā* flows. Brahman is *sarva-śaktimat*, *sarva-jña*, *sarva-kāraka*. The *līlā* is the sport of plenitude — a being that lacks nothing plays not to gain but because play expresses fullness. This anchors T10 (*surrender from fullness, not poverty*); Abhinavagupta's *pūrṇatva-icchā* is structurally present in Śaṅkara already.
 
-### [BSB 2.1.35–36](cite://sankara/brahma-sutra-bhasya/2.1.35-36) — Variety, Suffering, and the *Karma* Account
+### BSB 2.1.35–36 — Variety, Suffering, and the *Karma* Account
 
-[BSB 2.1.35](cite://sankara/brahma-sutra-bhasya/2.1.35) handles the charge of *vaiṣamya* (partiality) and *nairghṛṇya* (cruelty); 2.1.36 the charge that Brahman destroys its creation-children.
+BSB 2.1.35 handles the charge of *vaiṣamya* (partiality) and *nairghṛṇya* (cruelty); 2.1.36 the charge that Brahman destroys its creation-children.
 
-[BSB 2.1.35](cite://sankara/brahma-sutra-bhasya/2.1.35) says that the charges of partiality and cruelty do not apply, because Brahman's dispensation is conditioned by karma, as scripture shows.
+BSB 2.1.35 says that the charges of partiality and cruelty do not apply, because Brahman's dispensation is conditioned by karma, as scripture shows.
 
 **English (Gambhirananda).** "[The charges of] partiality and cruelty do not apply, because of [Brahman's] dependence [on karma]; thus scripture declares."
 
 At the *vyāvahārika* level, world-variety is explained by *karma*-variety. Brahman as *jagat-kāraṇa* is *sāpekṣa* on *jīva-karma* when allotting empirical conditions; differences are grounded in karmic precedents the *jīvas* themselves established.
 
-[BSB 2.1.36](cite://sankara/brahma-sutra-bhasya/2.1.36) adds that the absence of a first differentiated karma is no objection, because the cycle is beginningless.
+BSB 2.1.36 adds that the absence of a first differentiated karma is no objection, because the cycle is beginningless.
 
 **English (Gambhirananda).** "If it be objected that [karma cannot ground variety because] there is no karma-distinction at the original creation, no — because of beginninglessness."
 
@@ -272,13 +272,13 @@ Once 2.1.33 is read non-deflationarily, the alleged opposition between Śaṅkar
 
 ---
 
-## Part IV — [BSB 1.1.4](cite://sankara/brahma-sutra-bhasya/1.1.4): *Tat Tu Samanvayāt* — the Harmonisation Sūtra
+## Part IV — BSB 1.1.4: *Tat Tu Samanvayāt* — the Harmonisation Sūtra
 
-We turn back from *adhyāya* 2 to the opening of the bhāṣya, to the sūtra that establishes Śaṅkara's *method* of reading scripture. [BSB 1.1.4](cite://sankara/brahma-sutra-bhasya/1.1.4) is the *samanvaya-adhikaraṇa* — the section establishing that all the apparently divergent statements of the Upaniṣads converge upon a single purport: the knowledge of Brahman. The methodological doctrine here developed is structurally the foundation of the user's T1 (the darśana register thesis): different textual registers are harmonised under a single *tātparya* without eliminating any.
+We turn back from *adhyāya* 2 to the opening of the bhāṣya, to the sūtra that establishes Śaṅkara's *method* of reading scripture. BSB 1.1.4 is the *samanvaya-adhikaraṇa* — the section establishing that all the apparently divergent statements of the Upaniṣads converge upon a single purport: the knowledge of Brahman. The methodological doctrine here developed is structurally the foundation of the user's T1 (the darśana register thesis): different textual registers are harmonised under a single *tātparya* without eliminating any.
 
 ### The Sūtra
 
-[BSB 1.1.4](cite://sankara/brahma-sutra-bhasya/1.1.4) states that Brahman is established from the convergence of the Upaniṣadic texts.
+BSB 1.1.4 states that Brahman is established from the convergence of the Upaniṣadic texts.
 
 **Word-for-word.** *tat* — "that" (= Brahman, set up by 1.1.1); *tu* — "but" (adversative, marking *siddhānta*); *samanvayāt* — "from convergence-of-meaning."
 
@@ -324,7 +324,7 @@ T1 and T4 generalise *samanvaya* from text-registers to *darśana*-registers: Ad
 
 ---
 
-## Part V — [BSB 3.2.21](cite://sankara/brahma-sutra-bhasya/3.2.21): *Neha Nānāsti Kiñcana* — *Bādhita* vs *Abhāva*
+## Part V — BSB 3.2.21: *Neha Nānāsti Kiñcana* — *Bādhita* vs *Abhāva*
 
 The third major BSB locus we examine is the area around 3.2.21, where Śaṅkara handles the *Bṛhadāraṇyaka Upaniṣad* 4.4.19 statement *neha nānāsti kiñcana* — "here there is no manyness whatsoever." This is the passage that the realist critics (Madhva, Rāmānuja) seize on as evidence that Advaita collapses the world into nothing. It is also the passage at which the *bādhita*-vs-*abhāva* distinction is most consequential.
 
@@ -425,11 +425,11 @@ This is exactly what the user's T3 (*vijñāna* returns to the stairs after reac
 
 A few texual anchors where Śaṅkara's affirmation of *vyāvahārika-sattā* is unmistakable:
 
-**[BSB 1.1](cite://sankara/brahma-sutra-bhasya/1.1).2** (*janmādy asya yataḥ*): Śaṅkara's bhāṣya on the sūtra defining Brahman as the source of the world's *janma* (birth), *sthiti* (sustenance), *laya* (dissolution). Śaṅkara does not *deny* these events. He affirms them and asks: what is the source of this real threefold process? The source is Brahman.
+**BSB 1.1.2** (*janmādy asya yataḥ*): Śaṅkara's bhāṣya on the sūtra defining Brahman as the source of the world's *janma* (birth), *sthiti* (sustenance), *laya* (dissolution). Śaṅkara does not *deny* these events. He affirms them and asks: what is the source of this real threefold process? The source is Brahman.
 
-**[BSB 2.1](cite://sankara/brahma-sutra-bhasya/2.1).14** (the clay-pot argument, examined in Part II): the world is *vyāvahārika-satya* in the cause-effect analysis. The pot made of clay is real at the empirical level; the clay's being is what the pot's being ultimately *is*.
+**BSB 2.1.14** (the clay-pot argument, examined in Part II): the world is *vyāvahārika-satya* in the cause-effect analysis. The pot made of clay is real at the empirical level; the clay's being is what the pot's being ultimately *is*.
 
-**[BSB 2.1](cite://sankara/brahma-sutra-bhasya/2.1).33** (*līlā-kaivalyam*, examined in Part III): the world is Brahman's *līlā* — play is *real activity* of a *real agent*. Non-real play is not play. The *līlā*-framing presupposes the world is operatively real for the play to occur.
+**BSB 2.1.33** (*līlā-kaivalyam*, examined in Part III): the world is Brahman's *līlā* — play is *real activity* of a *real agent*. Non-real play is not play. The *līlā*-framing presupposes the world is operatively real for the play to occur.
 
 **Standard Śaṅkara move in dialectical objections:** when an opponent presses "if the world is unreal, how do you eat, walk, speak?", Śaṅkara's response (well-attested across the BSB) is *vyāvahārika-sattāyāṁ na kaścid doṣaḥ* — "at the level of empirical being, there is no defect [in the world's reality]." Practical transactions (language, cognition, perception, action) are all *vyāvahārika-satya* and the Advaitin does not deny them. What is denied is *only* their *pāramārthika* independence — their claim to being-other-than-Brahman at the ultimate level.
 
@@ -468,7 +468,7 @@ The two doctrines are not equivalent. *Pariṇāmavāda* gives the world *real o
 
 This is the philologically decisive point. Śaṅkara himself in the BSB *does not use the term vivarta as a developed technical metaphysical category*. The word *vivarta* occurs in the BSB; the verbal root *vṛt* with the prefix *vi-* gives "to turn around, to revolve, to appear as something else." But the noun *vivarta* in the developed technical sense — the contrast-term to *pariṇāma*, the doctrine that Brahman undergoes no real change — is *not* Śaṅkara's settled vocabulary.
 
-In [BSB 2.1.14](cite://sankara/brahma-sutra-bhasya/2.1.14) (the cause-effect *adhikaraṇa*) and surrounding passages, Śaṅkara's primary vocabulary is the *pariṇāma-vāda* framework, *qualified* by the *vācārambhaṇa* argument from *Chāndogya* 6.1.4. That is: Brahman's creative activity is described in transformation-language, and then immediately the transformation is qualified as *vācārambhaṇam vikāro nāmadheyam* — the modification is "verbal-designation," only a name. The qualification of *pariṇāma* by *vācārambhaṇa* is *not yet vivartavāda*; it is a careful middle position.
+In BSB 2.1.14 (the cause-effect *adhikaraṇa*) and surrounding passages, Śaṅkara's primary vocabulary is the *pariṇāma-vāda* framework, *qualified* by the *vācārambhaṇa* argument from *Chāndogya* 6.1.4. That is: Brahman's creative activity is described in transformation-language, and then immediately the transformation is qualified as *vācārambhaṇam vikāro nāmadheyam* — the modification is "verbal-designation," only a name. The qualification of *pariṇāma* by *vācārambhaṇa* is *not yet vivartavāda*; it is a careful middle position.
 
 What does this middle position say? It says: Brahman is the *upādāna-kāraṇa* (material cause) of the world; the world is a *vikāra* (modification) of Brahman; *but* the *vikāra* has no *independent self-established being* — its being is Brahman's being expressed in *nāma-rūpa*. This is *not* the same as saying the world is unreal; it is saying the world is real-as-Brahman-articulated, which is the *ananyatva* doctrine of 2.1.14.
 
@@ -524,13 +524,13 @@ The classical dilemma:
 - If avidyā resides in Brahman, then Brahman is ignorant — contradicting Brahman's omniscience (*sarva-jñatva*).
 - If avidyā resides in the *jīva*, then the *jīva* is itself a product of avidyā — circular (avidyā produces its own locus, presupposing what it is supposed to ground).
 
-This is *Rāmānuja's saptavidhānupapatti* (seven-fold impossibility, [*Śrī-Bhāṣya* 1.1.1](cite://ramanuja/shri-bhasya/1.1.1)) compressed into its most compact form. Rāmānuja's full seven-fold critique unpacks the dilemma along several axes — locus, content, concealment-mechanism, removal-mechanism, sublatability, and so on — but its philosophical core is this: the Advaita posit of avidyā with both *āśraya* and *viṣaya* in Brahman generates structural incoherences that Advaita has no formal solution for.
+This is *Rāmānuja's saptavidhānupapatti* (seven-fold impossibility, *Śrī-Bhāṣya* 1.1.1) compressed into its most compact form. Rāmānuja's full seven-fold critique unpacks the dilemma along several axes — locus, content, concealment-mechanism, removal-mechanism, sublatability, and so on — but its philosophical core is this: the Advaita posit of avidyā with both *āśraya* and *viṣaya* in Brahman generates structural incoherences that Advaita has no formal solution for.
 
 ### Śaṅkara's Own Handling
 
 Śaṅkara in the BSB does not give a fully systematised answer to this dilemma. He handles specific objections contextually and deploys several characteristic moves.
 
-**(1) *Anāditva* (beginninglessness) as deflection.** In the area of [BSB 2.1.35–36](cite://sankara/brahma-sutra-bhasya/2.1.35-36) and the avidyā-passages of *adhyāya* 2 generally, Śaṅkara's standard move is: avidyā is *anādi* — beginningless. Therefore asking "when did avidyā begin?" or "what produced the locus before avidyā began?" is unanswerable because the question presupposes a temporal starting point that *anādi*-avidyā does not have.
+**(1) *Anāditva* (beginninglessness) as deflection.** In the area of BSB 2.1.35–36 and the avidyā-passages of *adhyāya* 2 generally, Śaṅkara's standard move is: avidyā is *anādi* — beginningless. Therefore asking "when did avidyā begin?" or "what produced the locus before avidyā began?" is unanswerable because the question presupposes a temporal starting point that *anādi*-avidyā does not have.
 
 The standard formulation here is that the world's material basis is name-and-form projected by beginningless *avidyā*. This is a widely used Advaita formula, even where the exact BSB locus for the wording remains to be pinned down in the project's verification workflow.
 
@@ -572,7 +572,7 @@ But the Vivaraṇa school's standard reading takes this in a *deflationary* dire
 
 In Kashmir Shaivism's terms: *Cit-Śakti, by her own free will (svātantrya), unfolds the universe upon her own canvas* (Pratyabhijñā-Hṛdayam, sūtra 2). The "canvas" *is* the locus (Brahman / Śiva); the "unfolding" *is* the avidyā-modification. The Vivaraṇa structure is preserved; the evaluation is non-deflationary: the unfolding is itself the divine's joyful expressive activity, not a defect.
 
-This converts the metaphysical achievement of the Vivaraṇa school (locating avidyā in Brahman without contaminating Brahman's purity) into the user's thesis (Maya as the divine's own willed self-veiling, structurally identical to the *līlā-kaivalyam* of [BSB 2.1.33](cite://sankara/brahma-sutra-bhasya/2.1.33) read non-deflationarily).
+This converts the metaphysical achievement of the Vivaraṇa school (locating avidyā in Brahman without contaminating Brahman's purity) into the user's thesis (Maya as the divine's own willed self-veiling, structurally identical to the *līlā-kaivalyam* of BSB 2.1.33 read non-deflationarily).
 
 ### Madhusūdana's *Advaita-Siddhi*: The Bhāvarūpa Argument
 
@@ -792,9 +792,9 @@ We can now state the actual Śaṅkara cleanly, in eight propositions.
 
 **(2) The world is *vyāvahārika-sat*, not *abhāva*.** At the empirical level of being, the world has its own reality — operative, causally efficacious, ethically engaged-with. Pots hold water. People act and suffer. *Karma* operates lawfully. The world is not nothing.
 
-**(3) The relation of (1) and (2) is *ananyatva*, not *abheda* and not *bheda*.** The world is *non-other-than* Brahman, in the sense established by [BSB 2.1.14](cite://sankara/brahma-sutra-bhasya/2.1.14) and the *vācārambhaṇa* argument: the world's being is Brahman's being, articulated in *nāma-rūpa*, with no independent self-establishment — but also no obliteration of empirical articulation.
+**(3) The relation of (1) and (2) is *ananyatva*, not *abheda* and not *bheda*.** The world is *non-other-than* Brahman, in the sense established by BSB 2.1.14 and the *vācārambhaṇa* argument: the world's being is Brahman's being, articulated in *nāma-rūpa*, with no independent self-establishment — but also no obliteration of empirical articulation.
 
-**(4) Brahman's creating-activity is *līlā-kaivalyam* — sheer play, expressing fullness.** [BSB 2.1.33](cite://sankara/brahma-sutra-bhasya/2.1.33) and 2.1.34 establish that creation flows from *plenitude*, not deficiency. The world is the natural expression of Brahman's *pūrṇatva* (fullness), not a problem to be solved. *Līlā* is the *siddhānta* doctrine of the entire creation-*adhikaraṇa*.
+**(4) Brahman's creating-activity is *līlā-kaivalyam* — sheer play, expressing fullness.** BSB 2.1.33 and 2.1.34 establish that creation flows from *plenitude*, not deficiency. The world is the natural expression of Brahman's *pūrṇatva* (fullness), not a problem to be solved. *Līlā* is the *siddhānta* doctrine of the entire creation-*adhikaraṇa*.
 
 **(5) *Adhyāsa* — the structural superimposition of object on subject — is the cognitive predicament that Vedāntic inquiry exists to address.** The cure is *jñāna* — direct cognition of the witness-Self as Brahman. The cure is *recognition*, not annihilation. The world remains; what changes is the recognition of what the world *is* — Brahman articulated.
 
@@ -832,7 +832,7 @@ The user's resolution of the locus problem follows Aurobindo and the Vivaraṇa 
 
 **(3) Refine via Kashmir-Shaiva *svātantrya*.** The Vivaraṇa thesis (Brahman-as-locus) is read non-deflationarily. Brahman / Śiva, in *sovereign freedom* (*svātantrya*), expresses freedom *as* voluntary self-limitation. Avidyā is not a defect imposed *on* Brahman; avidyā is *Brahman's own free expression of self-veiling*. The *omniscience-objection* is met not by distinguishing levels of consciousness within Brahman but by recognising that omniscience *includes* the freedom to self-veil. A being with *full svātantrya* can choose to play at being limited; that is what *sovereignty* includes.
 
-**(4) Tie this to *līlā-kaivalyam*.** The self-veiling activity is itself the *līlā* of [BSB 2.1.33](cite://sankara/brahma-sutra-bhasya/2.1.33). *Māyā* as the divine's willed self-veiling is *līlā* read at the cognitive register; *līlā* as Brahman's expressive activity is *māyā* read at the cosmological register. They are the same divine activity from different angles. The *līlā-kaivalyam* of [BSB 2.1.33](cite://sankara/brahma-sutra-bhasya/2.1.33) and the *bhāvarūpa avidyā* of Madhusūdana, joined by Kashmir-Shaiva *svātantrya*, form a single coherent doctrine.
+**(4) Tie this to *līlā-kaivalyam*.** The self-veiling activity is itself the *līlā* of BSB 2.1.33. *Māyā* as the divine's willed self-veiling is *līlā* read at the cognitive register; *līlā* as Brahman's expressive activity is *māyā* read at the cosmological register. They are the same divine activity from different angles. The *līlā-kaivalyam* of BSB 2.1.33 and the *bhāvarūpa avidyā* of Madhusūdana, joined by Kashmir-Shaiva *svātantrya*, form a single coherent doctrine.
 
 **(5) Ground in Aurobindo's supermind.** The *vidyā-avidyā-mayī māyā* of Aurobindo's *Life Divine* — māyā composed of both knowledge-mode and apparent-ignorance-mode, the supermind's self-projection in name-and-form — is the *Saccidānanda*-level resolution. Avidyā at the human-cognitive level is the *involuted form* of the supermind's *self-articulating-as-many*. The same divine activity that at the supramental level is *vidyā-māyā* (knowledge-māyā, perfect self-articulation) appears at the human-mental level as *avidyā* (apparent ignorance, partial self-veiling). The two are not in opposition; they are degrees of one self-veiling-and-self-revealing activity.
 
@@ -844,7 +844,7 @@ This is the user's T7 in its fullest form: *Maya is itself a manifestation of th
 
 ### How to Read
 
-Recommended sequence: (1) *Adhyāsa-Bhāṣya* with Gambhirananda (note: subject-object opposition, *adhyāsa* definition, substratum requirement, *sākṣi-cetana* = Brahman). (2) [BSB 2.1.14](cite://sankara/brahma-sutra-bhasya/2.1.14) with *Chāndogya* 6.1.4 (note: *ananyatva* ≠ *abhāva*; *vācārambhaṇa*-qualified *pariṇāma* is not yet *vivartavāda*). (3) [BSB 2.1.32–36](cite://sankara/brahma-sutra-bhasya/2.1.32-36) — the *līlā* sūtras (siddhānta, not concession). (4) [BSB 1.1.4](cite://sankara/brahma-sutra-bhasya/1.1.4) — *samanvayāt* (register-distinctions). (5) [BSB 3.2.21](cite://sankara/brahma-sutra-bhasya/3.2.21) area — *neha nānāsti kiñcana* (*bādhya* ≠ *abhāva*). (6) Upaniṣad-bhāṣyas: Māṇḍūkya with Gauḍapāda; BU 2.4/4.5; Chāndogya 6–7; Taittirīya's *Bhṛguvallī*. (7) *Bhaja Govindam* — register-shift. (8) Sub-commentaries (*Bhāmatī*, *Pañcapādikā-Vivaraṇa*). (9) Madhusūdana's *Advaita-Siddhi*. (10) Madhva and Rāmānuja in counterpoint — register-corrections, not refutations. (11) Aurobindo, *Life Divine* I.4–6 — natural completion of *līlā-kaivalyam*.
+Recommended sequence: (1) *Adhyāsa-Bhāṣya* with Gambhirananda (note: subject-object opposition, *adhyāsa* definition, substratum requirement, *sākṣi-cetana* = Brahman). (2) BSB 2.1.14 with *Chāndogya* 6.1.4 (note: *ananyatva* ≠ *abhāva*; *vācārambhaṇa*-qualified *pariṇāma* is not yet *vivartavāda*). (3) BSB 2.1.32–36 — the *līlā* sūtras (siddhānta, not concession). (4) BSB 1.1.4 — *samanvayāt* (register-distinctions). (5) BSB 3.2.21 area — *neha nānāsti kiñcana* (*bādhya* ≠ *abhāva*). (6) Upaniṣad-bhāṣyas: Māṇḍūkya with Gauḍapāda; BU 2.4/4.5; Chāndogya 6–7; Taittirīya's *Bhṛguvallī*. (7) *Bhaja Govindam* — register-shift. (8) Sub-commentaries (*Bhāmatī*, *Pañcapādikā-Vivaraṇa*). (9) Madhusūdana's *Advaita-Siddhi*. (10) Madhva and Rāmānuja in counterpoint — register-corrections, not refutations. (11) Aurobindo, *Life Divine* I.4–6 — natural completion of *līlā-kaivalyam*.
 
 ### Closing Note: Śaṅkara as the *Jñāna*-Register Base
 
@@ -852,4 +852,4 @@ Without Śaṅkara, there is no *jñāna* register; without it, no climb-up; wit
 
 The actual Śaṅkara distinguishes *mithyā* from *asat*, makes *līlā-kaivalyam* the centre of creation-doctrine, operates with three-tier register-discrimination, takes *bheda-śrutis* seriously at *vyāvahārika*, and writes *Bhaja Govindam* without contradicting his BSB. He is the *jñāna*-register base on which Bhartṛprapañca, Bhāskara, Madhva, Caitanya, and Aurobindo build successive register-recoveries.
 
-*Brahma satyaṁ jagan mithyā jīvo brahmaiva nāparaḥ* — "Brahman is real; the world is sublatable-dependent; the *jīva* is none other than Brahman." The same Govinda is the *līlā-kaivalyam* of [BSB 2.1.33](cite://sankara/brahma-sutra-bhasya/2.1.33) and the *Brahman* of the *Adhyāsa-Bhāṣya*'s witness-substrate. Different names, different registers, same Real.
+*Brahma satyaṁ jagan mithyā jīvo brahmaiva nāparaḥ* — "Brahman is real; the world is sublatable-dependent; the *jīva* is none other than Brahman." The same Govinda is the *līlā-kaivalyam* of BSB 2.1.33 and the *Brahman* of the *Adhyāsa-Bhāṣya*'s witness-substrate. Different names, different registers, same Real.

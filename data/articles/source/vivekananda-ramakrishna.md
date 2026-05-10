@@ -810,7 +810,7 @@ The user's recommended order, restated with the reasons:
 
 **5. Optionally — Medhananda 2021 *Religions* paper "Cutting the Knot."** The systematic case against doctrinaire mayavada, drawing on Aurobindo. Open access; brief; rewarding.
 
-**6. Then move to Aurobindo.** [*The Life Divine* I.16](cite://aurobindo/the-life-divine/I.16) (triple status of Supermind); *Synthesis of Yoga* (the praxis-architecture); the *Letters on Yoga* selectively. The user's reader has *10_aurobindo.md* and supporting documents in `sources/modern/`.
+**6. Then move to Aurobindo.** *The Life Divine* I.16 (triple status of Supermind); *Synthesis of Yoga* (the praxis-architecture); the *Letters on Yoga* selectively. The user's reader has *10_aurobindo.md* and supporting documents in `sources/modern/`.
 
 ### Closing — the philosophical core
 
