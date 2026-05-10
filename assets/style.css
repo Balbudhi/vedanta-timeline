@@ -1115,17 +1115,21 @@ body.is-reading-mode .passage-card .english { font-size: 18px; }
   .lane-row.lane-row--sub .lane-name { font-size: 11px; }
   .filter-drawer-inner { padding: 12px 14px 14px; }
   .close-btn {
-    background: rgba(255,255,255,0.92);
-    backdrop-filter: blur(4px);
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(6px);
     border: 1px solid var(--rule);
     border-radius: 50%;
     width: 36px; height: 36px;
     font-size: 22px;
-    top: 10px;
+    top: calc(var(--topbar-h) + 10px);
     right: 12px;
     left: auto;
     margin-right: 0;
     position: fixed;
+    z-index: 30;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    display: flex; align-items: center; justify-content: center;
+    padding: 0; line-height: 1;
   }
   .compclaim-card .pair { margin-right: 0; padding-bottom: 32px; }
   .verdict-pill { top: auto; bottom: 14px; right: 14px; }
