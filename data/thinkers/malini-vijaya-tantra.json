@@ -6,7 +6,7 @@
   "dates_low": 600,
   "dates_high": 850,
   "dates_tier": "consensus-textual",
-  "dates_notes": "This is a position-entry, not an author-entry. The Mālinī-Vijaya-Tantra is anonymous and is internally datable to the seventh–ninth centuries CE on the basis of (i) Abhinavagupta's tenth-century treatment of it as the foundational scriptural authority of Trika, (ii) its position as a developed Bhairava-tantra within the standard taxonomy of the Śaiva canon (associated with Sanderson and Hatley; their works are not on disk in our corpus, cited via field-standard summary), and (iii) its absorption of pre-existing Trika cosmological vocabulary already present in the Siddha-Yogeśvarī-Mata. Modern scholarship — Sanderson, Vasudeva, Hatley; none on disk in our corpus — places it in the seventh–ninth century range.",
+  "dates_notes": "This is a position-entry, not an author-entry. The Mālinī-Vijaya-Tantra is anonymous and is internally datable to the seventh–ninth centuries CE on the basis of (i) Abhinavagupta's tenth-century treatment of it as the foundational scriptural authority of Trika, (ii) its position as a developed Bhairava-tantra within the standard taxonomy of the Śaiva canon (associated with Sanderson and Hatley), and (iii) its absorption of pre-existing Trika cosmological vocabulary already present in the Siddha-Yogeśvarī-Mata. Modern scholarship — Sanderson, Vasudeva, Hatley — places it in the seventh–ninth century range.",
   "school": "Bhairava-tantra",
   "school_color_token": "bhairava-tantra-comparator",
   "sub_school": "Trika source-tantras",
