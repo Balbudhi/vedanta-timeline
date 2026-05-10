@@ -3,32 +3,296 @@
   "term_iast": "avidyā",
   "term_devanagari": "अविद्या",
   "literal": "non-knowledge; absence of *vidyā*; from a- (negative) + √vid 'to know'",
-  "aliases": ["avidya", "avidyā", "Avidyā", "avidyāyāḥ", "avidyāyām", "avidyayā", "ajnana", "ajñāna"],
+  "aliases": [
+    "avidya",
+    "avidyā",
+    "Avidyā",
+    "avidyāyāḥ",
+    "avidyāyām",
+    "avidyayā",
+    "ajnana",
+    "ajñāna"
+  ],
   "invariant_definition": "A condition of mis-taking that sustains bondage. In Sanskrit philosophical usage *avidyā* is rarely mere lack of information; it names the operative failure by which a subject mislocates self, object, and means of valid cognition. It therefore stands beside *vidyā*, presupposes a *pramāṇa* theory, and in Vedānta is tied to *adhyāsa* and the debate over error: Nyāya's *anyathā-khyāti*, Prābhākara *akhyāti*, Bhāṭṭa *viparīta-khyāti*, Yogācāra *ātma-khyāti*, and Advaita *anirvacanīya-khyāti*. Buddhist sources use *avidyā* as the first *nidāna* in dependent origination, while Yogācāra links its continuity to the latent dispositions carried in *ālaya-vijñāna*. Vedāntic schools disagree more radically: Advaita makes *avidyā* a beginningless positive factor with concealment and projection functions; Viśiṣṭādvaita treats bondage instead as contraction of the soul's cognitive reach caused by *karma*; Tattva-vāda (the school often labeled Dvaita) refuses any positive ignorance-substance and relocates the issue in real dependence, error, and divine governance. In practice the term names what must be removed, counteracted, or rendered non-operative by disciplined inquiry, right cognition, and, in the theistic schools, grace.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Avidyā* is beginningless, *bhāvarūpa*, and *anirvacanīya*: not mere absence of knowledge, yet not *sat* in the way *brahman* is *sat*. It functions as *āvaraṇa* and *vikṣepa*, concealing the *adhiṣṭhāna* and projecting the experienced manifold; from it follow *adhyāsa* and the standard misidentifications of self and non-self. Later Advaita divides over locus: Bhāmatī places *avidyā* in the *jīva*; Vivaraṇa makes *brahman* both locus and object. Madhusūdana defends its positive status by arguing that sheer absence could not account for the positive content of error.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1 (adhyāsa-bhāṣya)", "Bhāmatī ad Brahma-Sūtra-Bhāṣya 1.1.1", "Pañcapādikā-Vivaraṇa, varṇaka 4", "Advaita-Siddhi, avidyā-pariccheda [NOT YET RETRIEVED]"]
+      "definition": "Advaita treats avidyā as anirvacanīyā rather than as mere abhāva, since error and vyavahāra require a positive explanatory factor and cannot be grounded in sheer non-being [[BS 1.1](cite://mandana/brahma-siddhi/1.1.1--opening-prose-on-avidy)] [[SB 1](cite://madhusudana/siddhanta-bindu/1.prathamo vibhāgaḥ.1)] [[IṢ 1.1](cite://vimuktatman/ista-siddhi/1.Prapañcasyānirvacanīyatvam)]. Within that register it is spoken of as jaḍātmikā avidyā-śakti and as ayathā-vastv-avidyā, the misapprehension whose nivṛtti is mokṣa through jñāna alone [[PañcP V.15–VI.16](cite://padmapada/pancapadika/V–VI.15–16)] [[NS 1.55-56](cite://sureshvara/naishkarmya-siddhi/1.55-56)] [[UpS I.17.7-9](cite://sankara/upadesa-sahasri/I.17.7-9)].",
+      "primary_loci": [
+        "Brahma-Siddhi 1.1 (opening prose on avidyā)",
+        "Siddhānta-Bindu, Prathamo Vibhāgaḥ, prose under verse 1",
+        "Pañcapādikā V.15–VI.16",
+        "Naiṣkarmya-Siddhi 1.55-56",
+        "Upadeśa-Sāhasrī I.17.7-9",
+        "Iṣṭa-Siddhi 1.1"
+      ],
+      "citations": [
+        {
+          "cite": "cite://mandana/brahma-siddhi/1.1.1--opening-prose-on-avidy",
+          "locus_short": "BS 1.1"
+        },
+        {
+          "cite": "cite://madhusudana/siddhanta-bindu/1.prathamo vibhāgaḥ.1",
+          "locus_short": "SB 1"
+        },
+        {
+          "cite": "cite://vimuktatman/ista-siddhi/1.Prapañcasyānirvacanīyatvam",
+          "locus_short": "IṢ 1.1"
+        },
+        {
+          "cite": "cite://padmapada/pancapadika/V–VI.15–16",
+          "locus_short": "PañcP V.15–VI.16"
+        },
+        {
+          "cite": "cite://sureshvara/naishkarmya-siddhi/1.55-56",
+          "locus_short": "NS 1.55-56"
+        },
+        {
+          "cite": "cite://sankara/upadesa-sahasri/I.17.7-9",
+          "locus_short": "UpS I.17.7-9"
+        }
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "Rāmānuja rejects *anirvacanīya avidyā* as an incoherent pseudo-entity. What binds the *jīva* is not a positive darkness laid over reality but the real contraction of *dharmabhūta-jñāna* caused by beginningless *karma*. Error, finite embodiment, and restricted knowledge are therefore explained within a realist ontology: the soul is real, the world is real, and the obscuration belongs to the soul's presently constricted cognitive power. The famous seven *anupapattis* attack the Advaitin attempt to assign a locus, object, status, and remover to *avidyā*.",
-      "primary_loci": ["Śrī-Bhāṣya 1.1.1 (sapta-anupapatti)", "Vedārtha-Saṅgraha §§14–35", "Śrī-Bhāṣya 2.3.42–53"]
+      "definition": "Viśiṣṭādvaita refuses the thesis that Brahman itself is ignorant, deluded, or overrun by alien upādhis; that picture is treated as mohana lacking śruti- and nyāya-support [[VS §2](cite://ramanuja/vedartha-samgraha/§2)]. Accordingly, bondage belongs to the jīva's beginningless karmic entanglement and the resulting mistaken dehābhimāna, while Vedānta restores knowledge of the dehātirikta self and of Nārāyaṇa as antaryāmin through upāsanā grounded in tattva-jñāna [[VS §4](cite://ramanuja/vedartha-samgraha/§4)] [[VS §3](cite://ramanuja/vedartha-samgraha/§3)].",
+      "primary_loci": [
+        "Vedārtha-Saṃgraha §2",
+        "Vedārtha-Saṃgraha §3",
+        "Vedārtha-Saṃgraha §4"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§2",
+          "locus_short": "VS §2"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§3",
+          "locus_short": "VS §3"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§4",
+          "locus_short": "VS §4"
+        }
+      ]
     },
     {
       "school": "Tattva-vāda",
-      "definition": "Madhva and his successors deny that bondage requires a *bhāvarūpa avidyā*. Error is real error by a real finite knower; bondage is the soul's beginningless dependence under *karma* and its lack of saving *aparokṣa-jñāna* until Viṣṇu grants it. The target of Tattva-vāda polemic is precisely the Advaitin attempt to place an indeterminable ignorance over a reality that is otherwise said to be pure consciousness. Tattva-vāda therefore treats *avidyā* functionally rather than as an ontological middle-term between being and non-being.",
-      "primary_loci": ["Madhva, Māyāvāda-Khaṇḍana §§1–8", "Anu-Vyākhyāna 2.1", "Vyāsatīrtha, Nyāyāmṛta, avidyā-bhaṅga [NOT YET RETRIEVED]"]
+      "definition": "Tattva-vāda denies that real bheda can arise from ajñāna: to make ignorance the cause of duality yields regress or mutual dependence, and no ajñāna can function as an āvaraṇa over what is already established [[UK 3](cite://madhva/upadhi-khandana/3)] [[MKh p. 238](cite://madhva/mayavada-khandana/can serve as a covering ignorance)] [[UK 15](cite://madhva/upadhi-khandana/15)]. The school instead places ajñāna, bodha, bandha, and āvṛti within the real order governed by Viṣṇu, so bondage is the dependent condition of the jīva within that order rather than the effect of an anirvacanīya ignorance-substance [[TS 10](cite://madhva/tattva-sankhyana/10)] [[TS 11](cite://madhva/tattva-sankhyana/11)].",
+      "primary_loci": [
+        "Upādhi-Khaṇḍana 3",
+        "Upādhi-Khaṇḍana 15",
+        "Māyāvāda-Khaṇḍana, 'Nothing can serve as a covering ignorance'",
+        "Tattva-Saṅkhyāna 10-11"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/upadhi-khandana/3",
+          "locus_short": "UK 3"
+        },
+        {
+          "cite": "cite://madhva/mayavada-khandana/can serve as a covering ignorance",
+          "locus_short": "MKh p. 238"
+        },
+        {
+          "cite": "cite://madhva/upadhi-khandana/15",
+          "locus_short": "UK 15"
+        },
+        {
+          "cite": "cite://madhva/tattva-sankhyana/10",
+          "locus_short": "TS 10"
+        },
+        {
+          "cite": "cite://madhva/tattva-sankhyana/11",
+          "locus_short": "TS 11"
+        }
+      ]
     },
     {
-      "school": "Buddhist",
-      "definition": "*Avidyā* is the first link in dependent origination: not seeing things as they are, especially with respect to impermanence, suffering, and non-self. In Yogācāra this ignorance is not a freestanding substance but a beginningless distortion carried by latent seeds and the *ālaya-vijñāna*, which supports the continuing appearance of subject-object duality. The comparison with Advaita is structurally useful because both traditions treat ordinary experience as systematically distorted, but the Buddhist analysis avoids a permanent self and avoids a single metaphysical ignorance-substratum.",
-      "primary_loci": ["Saṃyutta-Nikāya 12.1", "Vasubandhu, Triṃśikā 1–3"]
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "In Gauḍīya usage, the operative equivalent of avidyā is the jīva's māyā-mohitatva under Bhagavān's external śakti; the difference between Bhagavān and jīva is fixed precisely by his being māyāśraya and the jīva being māyā-mohita [[ParamS §44](cite://jiva-gosvami/sat-sandarbha/§44)]. Its undoing is therefore not the cancellation of relation but ceto-darpaṇa-mārjana through bhajana and nāma-saṅkīrtana, which extinguishes bhava and reorients the self toward service [[Śikṣ 1](cite://caitanya/shikshashtakam/1)] [[ParamS §44](cite://jiva-gosvami/sat-sandarbha/§44)].",
+      "primary_loci": [
+        "Paramātma-Sandarbha §44",
+        "Śikṣāṣṭakam 1"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§44",
+          "locus_short": "ParamS §44"
+        },
+        {
+          "cite": "cite://caitanya/shikshashtakam/1",
+          "locus_short": "Śikṣ 1"
+        }
+      ]
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "For Nimbārka, the bound jīva is anādimāyā-pariyukta: a real aṇu-cit dependent on Hari yet enmeshed in beginningless māyā [[DaŚ 1](cite://nimbarka/dasa-shloki/1)] [[DaŚ 2](cite://nimbarka/dasa-shloki/2)]. The practical force of avidyā is the continuing ajñāna-tamas removed through constant upāsanā of Kṛṣṇa [[DaŚ 6](cite://nimbarka/dasa-shloki/6)].",
+      "primary_loci": [
+        "Daśa-Ślokī 1",
+        "Daśa-Ślokī 2",
+        "Daśa-Ślokī 6"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nimbarka/dasa-shloki/1",
+          "locus_short": "DaŚ 1"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/2",
+          "locus_short": "DaŚ 2"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/6",
+          "locus_short": "DaŚ 6"
+        }
+      ]
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "Śuddhādvaita speaks of avidyā chiefly through its nivṛtti: brahmajñāna removes ignorance and restores the jīva's svarūpa-yogyatā for Puruṣottama-prāpti [[AṇuBh 1.1.12-19](cite://vallabha/anu-bhasya/1.1.12-19)]. That removal is not yet the whole of release, since bhakti under Bhagavān's choosing supplies the sahakāri-yogyatā by which attainment of Puruṣottama is consummated [[AṇuBh 1.1.12-19](cite://vallabha/anu-bhasya/1.1.12-19)].",
+      "primary_loci": [
+        "Aṇu-Bhāṣya on Brahma-Sūtra 1.1.12-19"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.1.12-19",
+          "locus_short": "AṇuBh 1.1.12-19"
+        }
+      ]
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yoga",
+      "definition": "Yoga places avidyā at the head of the kleśa-series that structures saṃsāric involvement; it belongs with asmitā, rāga, dveṣa, and abhiniveśa, whereas Īśvara as puruṣa-viśeṣa is untouched by the whole chain of kleśa-karma-vipāka-āśaya [[YV 1.24](cite://vijnanabhiksu/yoga-varttika/1.24)]. Accordingly, avidyā is treated as a practical source of afflicted cognition to be neutralized within samādhi-sādhana, not as a separate world-projecting substance [[YV 1.24](cite://vijnanabhiksu/yoga-varttika/1.24)].",
+      "primary_loci": [
+        "Yoga-Vārttika on Yoga-Sūtra 1.24"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vijnanabhiksu/yoga-varttika/1.24",
+          "locus_short": "YV 1.24"
+        }
+      ]
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "In Mādhyamaka, what functions as avidyā is svabhāva-grāha: the failure to see that no dharma possesses own-being either in itself or in dependence-relations [[MMK 1.3](cite://nagarjuna/mula-madhyamaka-karika/1.3)]. Karma and kleśa arise from vikalpa and prapañca, and prapañca comes to rest only in śūnyatā; hence liberation is the cessation of proliferative misconstrual, taught through the two truths [[MMK 18.5](cite://nagarjuna/mula-madhyamaka-karika/18.5)] [[MMK 24.8](cite://nagarjuna/mula-madhyamaka-karika/24.8)] [[MMK 24.10](cite://nagarjuna/mula-madhyamaka-karika/24.10)].",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 1.3",
+        "Mūla-Madhyamaka-Kārikā 18.5",
+        "Mūla-Madhyamaka-Kārikā 24.8",
+        "Mūla-Madhyamaka-Kārikā 24.10"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/1.3",
+          "locus_short": "MMK 1.3"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/18.5",
+          "locus_short": "MMK 18.5"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.8",
+          "locus_short": "MMK 24.8"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.10",
+          "locus_short": "MMK 24.10"
+        }
+      ]
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "Yogācāra locates the continuity of bondage in vijñāna-pariṇāma: imputations of self and dharmas arise within cognition, whose ālaya-form bears the sarvabīja continuity of maturation [[Triṃ 1](cite://vasubandhu/trimsika/1)] [[Triṃ 2](cite://vasubandhu/trimsika/2)]. Ignorance is thus operative as ātmamoha, as the grāhadvaya-vāsanā that renews karmic maturation, and as the anuśaya that endures until cognition is established in vijñaptimātratā [[Triṃ 6](cite://vasubandhu/trimsika/6)] [[Triṃ 17](cite://vasubandhu/trimsika/17)] [[Triṃ 19](cite://vasubandhu/trimsika/19)] [[Triṃ 26](cite://vasubandhu/trimsika/26)].",
+      "primary_loci": [
+        "Triṃśikā 1-2",
+        "Triṃśikā 6",
+        "Triṃśikā 17",
+        "Triṃśikā 19",
+        "Triṃśikā 26"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/trimsika/1",
+          "locus_short": "Triṃ 1"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/2",
+          "locus_short": "Triṃ 2"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/6",
+          "locus_short": "Triṃ 6"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/17",
+          "locus_short": "Triṃ 17"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/19",
+          "locus_short": "Triṃ 19"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/26",
+          "locus_short": "Triṃ 26"
+        }
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Jainism",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     }
   ],
-  "see_also": ["vidya", "maya", "adhyasa", "jnana", "samsara", "anyatha-khyati", "akhyati"],
+  "see_also": [
+    "vidya",
+    "maya",
+    "adhyasa",
+    "jnana",
+    "samsara",
+    "anyatha-khyati",
+    "akhyati"
+  ],
   "translator_note": "The lazy gloss is 'ignorance.' That English word suggests a merely psychological lack, as though one simply had not yet learned some fact. In these debates *avidyā* carries causal, epistemic, and soteriological weight: it structures misidentification, error, and bondage. One must also avoid importing Augustinian privation-talk. Advaita explicitly denies that *avidyā* is mere absence; Viśiṣṭādvaita and Tattva-vāda reject the Advaitin positive-entity account but still do not mean ordinary ignorance in the thin modern sense.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus"
+  "last_verified_by": "glossary-wave1-codex54"
 }
