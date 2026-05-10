@@ -1,0 +1,17 @@
+{
+  "term_key": "stotra",
+  "term_iast": "stotra",
+  "term_devanagari": "स्तोत्र",
+  "literal": "hymn of praise; from √stu 'to praise'",
+  "aliases": ["stotra", "Stotra", "stotraṃ", "stotrasya", "stotrāṇi"],
+  "invariant_definition": "A devotional hymn of praise. *Stotra* is a major genre across all Vedāntic schools, especially the Vaiṣṇava and Śaiva: Yāmuna's *Stotra-Ratna*, Rāmānuja's *Śaraṇāgati-Gadya* (a prose *stotra*), Madhva's *Dvādaśa-Stotra*, the *Śivānanda-Laharī* (Śaṅkara-attributed), the *Soundarya-Laharī* (Śaṅkara-attributed). *Stotra*s often contain compressed doctrinal claims and are sometimes the most accessible doctrinal documents of a school.",
+  "per_school": [
+    {
+      "school": "All Vedānta",
+      "definition": "*Stotra* is universal genre. Its doctrinal weight varies: in the Vaiṣṇava traditions *stotra*s often carry primary-text status; in Advaita they are sometimes treated as second-tier (though several *stotra*s are attributed to Śaṅkara).",
+      "primary_loci": ["Yāmuna, Stotra-Ratna", "Madhva, Dvādaśa-Stotra", "Śaṅkara (attrib.), Daksināmūrti-Stotra"]
+    }
+  ],
+  "see_also": ["bhakti", "kirtana", "namasankirtana"],
+  "translator_note": "'Hymn' acceptable."
+}

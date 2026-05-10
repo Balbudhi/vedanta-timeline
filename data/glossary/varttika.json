@@ -1,0 +1,17 @@
+{
+  "term_key": "varttika",
+  "term_iast": "vārttika",
+  "term_devanagari": "वार्त्तिक",
+  "literal": "an explanatory verse-commentary on what was said, considered, and left unsaid; from vṛtta",
+  "aliases": ["varttika", "vārttika", "Vārttika", "vārttikam"],
+  "invariant_definition": "A second-order commentary that elaborates a *bhāṣya* by considering (a) what was said (*ukta*), (b) what was unsaid (*anukta*), and (c) what was wrongly said (*durukta*). Sureśvara's *Bṛhadāraṇyaka-Vārttika* and *Naiṣkarmya-Siddhi*, Vāchaspati Miśra's *Bhāmatī* (technically a *ṭīkā* but functionally vārttika-like), Padmapāda's *Pañcapādikā*, and Anandagiri's *Tīkā* are foundational Vedāntic vārttika-tradition works.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Vārttika*-tradition is highly developed: Sureśvara's *Bṛhadāraṇyaka-Vārttika* and *Taittirīya-Vārttika* are constitutive of the school's exegetical apparatus.",
+      "primary_loci": ["Sureśvara, Bṛhadāraṇyaka-Vārttika", "Sureśvara, Taittirīya-Vārttika", "Sureśvara, Naiṣkarmya-Siddhi"]
+    }
+  ],
+  "see_also": ["bhasya", "tika", "vivarana", "sub-commentary"],
+  "translator_note": "'Sub-commentary' acceptable but loses the technical genre-content."
+}

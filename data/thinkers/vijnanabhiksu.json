@@ -11,7 +11,11 @@
   "school_color_token": "avibhaga",
   "sub_school": "Avibhāga-Advaita",
   "sub_school_shade": 3,
-  "lineage_in": ["isvara-krsna", "vyasa-bhasya", "patanjali"],
+  "lineage_in": [
+    "isvara-krsna",
+    "vyasa-bhasya",
+    "patanjali"
+  ],
   "lineage_out": [],
   "lineage_polemical": [
     {
@@ -30,7 +34,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
@@ -45,11 +52,16 @@
       "work_id": "yoga-varttika",
       "title": "Yoga-Varttika",
       "title_iast": "Yoga-Vārttika",
-      "alternate_titles": ["Yoga-Sāra-Saṅgraha"],
+      "alternate_titles": [
+        "Yoga-Sāra-Saṅgraha"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored vārttika on the Yoga-Sūtras.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "varttika",
       "language": "sanskrit",
@@ -68,7 +80,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
@@ -809,5 +824,8 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave2-codex"
+  "last_verified_by": "wave2-codex",
+  "polemic_chain_ids": [
+    "brahma-sutra-bhasya-samkhya-refutation"
+  ]
 }

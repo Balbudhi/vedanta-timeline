@@ -11,7 +11,11 @@
   "school_color_token": "trika-comparator",
   "sub_school": "Trika school-summarizing",
   "sub_school_shade": 3,
-  "lineage_in": ["abhinavagupta", "vasugupta", "bhatta-kallata"],
+  "lineage_in": [
+    "abhinavagupta",
+    "vasugupta",
+    "bhatta-kallata"
+  ],
   "lineage_out": [],
   "lineage_polemical": [],
   "core_thesis": "Non-Vedāntin comparator (non-dual Śaiva, Trika/Pratyabhijñā). Kṣemarāja, the direct disciple of Abhinavagupta, is the great consolidator and pedagogue of the Trika synthesis: he distills the *Pratyabhijñā* and *Spanda* traditions into compact, teaching-grade texts whose structure has shaped how the school is read ever since. The single reality is *Cit* — Śiva-as-consciousness — possessed of *svātantrya*; the universe is its own free *unmeṣa* (unfolding), and *spanda* is the unbroken pulsation by which manifestation as a whole occurs (not a single guṇa, but the dynamism of *prakṛti* / *mahāmāyā*-scale taken as Śiva's own pulse). The signature architecture is *Pratyabhijñā-Hṛdaya* sūtra 4: *cit eva … saṃkucita-citta-rūpā* — \"consciousness *itself*, by its own *svātantrya*, contracts itself into the limited subject (*cetana*).\" Bondage is therefore Śiva's voluntary self-contraction, never an external imposition; liberation is the recognition (*pratyabhijñā*) of one's own consciousness as that very self-contracting Śiva. The pedagogical aim is to make this recognition operative in a single concentrated reading.",
@@ -24,7 +28,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored compact summary of Pratyabhijñā doctrine.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -40,7 +47,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored commentary on the Spanda-Kārikā.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -59,7 +69,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored compact commentary on the first verse of the Spanda-Kārikā.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -78,7 +91,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored commentary on Bhaṭṭa Nārāyaṇa's Stava-Cintāmaṇi.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -94,7 +110,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored commentary on the Śiva-Sūtras.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -108,5 +127,9 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1-cleanup-opus"
+  "last_verified_by": "wave1-cleanup-opus",
+  "polemic_chain_ids": [
+    "brahma-sutra-bhasya-buddhism-refutation",
+    "brahma-sutra-bhasya-vaisesika-refutation"
+  ]
 }

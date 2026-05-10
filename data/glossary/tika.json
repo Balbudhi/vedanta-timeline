@@ -1,0 +1,17 @@
+{
+  "term_key": "tika",
+  "term_iast": "ṭīkā",
+  "term_devanagari": "टीका",
+  "literal": "a gloss, a commentary; word origin disputed",
+  "aliases": ["tika", "ṭīkā", "Ṭīkā", "ṭīkām", "tika-grantha"],
+  "invariant_definition": "A word-by-word gloss on a *bhāṣya* or *vārttika* — the third-order genre. Vāchaspati Miśra's *Bhāmatī* on Śaṅkara's *Brahma-Sūtra-Bhāṣya* is the most famous Vedāntic *ṭīkā*. The *ṭīkā*-tradition is what produces the school's micro-architecture and what later sub-schools fork from.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "Two principal *ṭīkā*-traditions on Śaṅkara's *Brahma-Sūtra-Bhāṣya*: *Bhāmatī* (Vāchaspati Miśra) and *Pañcapādikā-Vivaraṇa* (Padmapāda's *Pañcapādikā* with Prakāśātman's *Vivaraṇa*). These define the two principal Advaita sub-schools (Bhāmatī and Vivaraṇa), differing on the locus of *avidyā* and other technical matters.",
+      "primary_loci": ["Vāchaspati Miśra, Bhāmatī", "Padmapāda, Pañcapādikā", "Prakāśātman, Pañcapādikā-Vivaraṇa"]
+    }
+  ],
+  "see_also": ["bhasya", "varttika", "vivarana", "bhamati", "vivarana-school"],
+  "translator_note": "'Gloss' or 'sub-commentary' acceptable."
+}

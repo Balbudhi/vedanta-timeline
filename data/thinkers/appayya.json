@@ -21,7 +21,10 @@
   "school_color_token": "advaita",
   "sub_school": "Trans-school Advaita synthesist",
   "sub_school_shade": 4,
-  "lineage_in": ["vidyaranya", "vacaspati"],
+  "lineage_in": [
+    "vidyaranya",
+    "vacaspati"
+  ],
   "lineage_out": [],
   "lineage_polemical": [],
   "core_thesis": "Appayya Dīkṣita is the great trans-school Advaita synthesist of the late sixteenth century. In the *Parimala* sub-commentary he writes as a *Bhāmatī*-line Advaitin; in the *Śivārka-Maṇi-Dīpikā* as a Śiva-Advaitin within Śrīkaṇṭha's framework; in the *Siddhānta-Leśa-Saṅgraha* as the canonical doxographer of intra-Advaita disagreement, cataloguing twenty-eight Advaitic disputes without forced reconciliation. His distinctive contribution is methodological. Intra-Advaita differences — *Bhāmatī* vs. Vivaraṇa on the locus of *avidyā*, *avaccheda-* vs. *pratibimba-vāda*, the alternative analyses of the Mahāvākya's mode of operation — are treated not as defects to be ironed out but as legitimate *prakriyā*-level alternatives within a single *siddhānta*. His prolific output, traditionally numbered at 104 works across six *darśanas* and reaching into Śaiva-Vedānta, Pūrva-Mīmāṃsā, Alaṅkāra-śāstra, and devotional poetics, earns him the epithet *Sarva-Tantra-Svatantra*. He is the single most important late-medieval source for the structured comparative reading of competing Advaita sub-positions.",
@@ -34,7 +37,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored; catalogues internal Advaita disagreements.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -50,7 +56,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored sub-commentary on Vāchaspati's Bhāmatī (via Amalānanda's Kalpataru).",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -66,7 +75,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Śiva-Advaita commentary on Śrīkaṇṭha's Brahma-Sūtra-Bhāṣya.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -85,8 +97,14 @@
       "ascription_tier": "traditionally-ascribed",
       "ascription_notes": "Traditionally ascribed to Appayya within the Śrīvidyā commentarial tradition; modern academic ascription accepts it as part of his Śaiva-devotional corpus though without the same documentary support as the Parimala or Siddhānta-Leśa-Saṃgraha.",
       "ascription_evidence": [
-        {"kind": "school-acceptance", "description": "Received within the Śrīvidyā and Śiva-Advaita commentarial traditions."},
-        {"kind": "manuscript-tradition", "description": "Manuscript transmission alongside other Śaiva works of Appayya."}
+        {
+          "kind": "school-acceptance",
+          "description": "Received within the Śrīvidyā and Śiva-Advaita commentarial traditions."
+        },
+        {
+          "kind": "manuscript-tradition",
+          "description": "Manuscript transmission alongside other Śaiva works of Appayya."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -100,5 +118,9 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1-cleanup-opus"
+  "last_verified_by": "wave1-cleanup-opus",
+  "polemic_chain_ids": [
+    "kumarila-mandana-jnana-karma-samuccaya",
+    "shatadusani"
+  ]
 }

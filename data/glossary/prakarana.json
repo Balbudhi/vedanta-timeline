@@ -1,0 +1,17 @@
+{
+  "term_key": "prakarana",
+  "term_iast": "prakaraṇa",
+  "term_devanagari": "प्रकरण",
+  "literal": "a topical treatise, a section; from pra- + √kṛ 'to make'",
+  "aliases": ["prakarana", "prakaraṇa", "Prakaraṇa", "prakaraṇaṃ", "prakaraṇa-grantha"],
+  "invariant_definition": "A topically-organized stand-alone treatise (as distinct from a *bhāṣya*'s text-following structure). *Prakaraṇa-grantha*s are concise expositions of school doctrine designed for direct study (as opposed to sūtra-following exposition). Important examples: *Vivekacūḍāmaṇi*, *Upadeśa-Sāhasrī*, *Vedānta-Sāra*, *Vedānta-Paribhāṣā*, *Tattva-Saṅkhyāna*, *Yatīndra-Mata-Dīpikā*.",
+  "per_school": [
+    {
+      "school": "All Vedānta",
+      "definition": "*Prakaraṇa-grantha*s function as introductory or systematic-overview texts for each school.",
+      "primary_loci": ["Vedānta-Sāra (Sadānanda — Advaita)", "Yatīndra-Mata-Dīpikā (Śrīnivāsadāsa — Viśiṣṭādvaita)", "Tattva-Saṅkhyāna (Madhva — Dvaita)"]
+    }
+  ],
+  "see_also": ["bhasya", "sutra", "grantha"],
+  "translator_note": "'Treatise' or 'manual' acceptable."
+}

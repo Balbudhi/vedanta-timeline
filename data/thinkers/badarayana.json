@@ -85,5 +85,10 @@
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-audit-fix-opus"
+  "last_verified_by": "wave-audit-fix-opus",
+  "polemic_chain_ids": [
+    "brahma-sutra-bhasya-buddhism-refutation",
+    "brahma-sutra-bhasya-samkhya-refutation",
+    "brahma-sutra-bhasya-vaisesika-refutation"
+  ]
 }

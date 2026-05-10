@@ -2,7 +2,9 @@
   "id": "vyasatirtha",
   "name": "Vyasatirtha",
   "name_iast": "Vyāsatīrtha",
-  "alternate_names": ["Vyāsa Rāya"],
+  "alternate_names": [
+    "Vyāsa Rāya"
+  ],
   "dates_low": 1460,
   "dates_high": 1539,
   "dates_tier": "confirmed-from-records",
@@ -21,8 +23,13 @@
   "school_color_token": "dvaita",
   "sub_school": "Navya-Dvaita",
   "sub_school_shade": 4,
-  "lineage_in": ["jayatirtha", "gangesa"],
-  "lineage_out": ["vijayindra"],
+  "lineage_in": [
+    "jayatirtha",
+    "gangesa"
+  ],
+  "lineage_out": [
+    "vijayindra"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "madhusudana",
@@ -45,7 +52,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored; the most sophisticated Dvaita critique of Advaitic mithyātva.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
@@ -61,7 +71,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Navya-Nyāya engagement.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
@@ -82,7 +95,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored sub-commentary on Jayatīrtha's Tattva-Prakāśikā.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -223,8 +239,16 @@
         }
       ],
       "why_this_passage": "This opening verse is not merely devotional ornament: it condenses Vyāsatīrtha's epistemic and theological commitments in one place, making Veda self-valid and authorless while presenting the Lord as the bearer of infinite auspicious qualities. Given that the accessible on-disk corpus for this run is commentary-inclusive and not a clean critical base text throughout, the work's own invocatory verse is one of the safest representative loci to anchor the selection.",
-      "topic_tags": ["epistemology", "ontology", "ethics-devotion"],
-      "sub_axes": ["status-of-sruti", "status-of-personal-lord", "number-and-status-of-pramanas"],
+      "topic_tags": [
+        "epistemology",
+        "ontology",
+        "ethics-devotion"
+      ],
+      "sub_axes": [
+        "status-of-sruti",
+        "status-of-personal-lord",
+        "number-and-status-of-pramanas"
+      ],
       "cited_in_comparative_claims": [],
       "parallel_passages": [],
       "source_edition": "GRETIL plaintext (`sa_vyAsatIrtha-tarkatANDava-comm.txt`), converted 2020-07-31 from the Sansknet Project source; includes Rāghavendra Tīrtha's Nyāyadīpa commentary.",
@@ -499,8 +523,15 @@
         }
       ],
       "why_this_passage": "This opening dispute-triad is the clearest available map of the work's argumentative front: intrinsic validity, Vedic authorlessness, and the Veda-grounded proof of a fully qualified Lord. Because the on-disk source is commentary-inclusive, I use this locus explicitly as the file's own framing of Vyāsatīrtha's first pariccheda rather than pretending it is an isolated aphorism torn from context.",
-      "topic_tags": ["epistemology", "ontology"],
-      "sub_axes": ["status-of-sruti", "number-and-status-of-pramanas", "status-of-personal-lord"],
+      "topic_tags": [
+        "epistemology",
+        "ontology"
+      ],
+      "sub_axes": [
+        "status-of-sruti",
+        "number-and-status-of-pramanas",
+        "status-of-personal-lord"
+      ],
       "cited_in_comparative_claims": [],
       "parallel_passages": [],
       "source_edition": "GRETIL plaintext (`sa_vyAsatIrtha-tarkatANDava-comm.txt`), converted 2020-07-31 from the Sansknet Project source; includes Rāghavendra Tīrtha's Nyāyadīpa commentary.",
@@ -561,8 +592,12 @@
         }
       ],
       "why_this_passage": "This compressed lakṣaṇa is worth selecting because it states Vyāsatīrtha's positive thesis without dialectical scaffolding: for him, intrinsic validity at the level of origination means that no extra validity-producing factor beyond the cognition's own producer is required. It is not a famous ornamental line but a load-bearing definition inside the prāmāṇyavāda.",
-      "topic_tags": ["epistemology"],
-      "sub_axes": ["number-and-status-of-pramanas"],
+      "topic_tags": [
+        "epistemology"
+      ],
+      "sub_axes": [
+        "number-and-status-of-pramanas"
+      ],
       "cited_in_comparative_claims": [],
       "parallel_passages": [],
       "source_edition": "GRETIL plaintext (`sa_vyAsatIrtha-tarkatANDava-comm.txt`), converted 2020-07-31 from the Sansknet Project source; includes Rāghavendra Tīrtha's Nyāyadīpa commentary.",
@@ -781,8 +816,13 @@
         }
       ],
       "why_this_passage": "This is the work's most explicit compact inferential defense of svato-grāhyatva, and so it shows Vyāsatīrtha doing what makes him distinctive: casting a Dvaita epistemic thesis in sharp Navya-style inferential form. It fairly represents the text because the surrounding section is devoted precisely to defending intrinsic validity against Naiyāyika externalism.",
-      "topic_tags": ["epistemology"],
-      "sub_axes": ["number-and-status-of-pramanas", "status-of-anubhava"],
+      "topic_tags": [
+        "epistemology"
+      ],
+      "sub_axes": [
+        "number-and-status-of-pramanas",
+        "status-of-anubhava"
+      ],
       "cited_in_comparative_claims": [],
       "parallel_passages": [],
       "source_edition": "GRETIL plaintext (`sa_vyAsatIrtha-tarkatANDava-comm.txt`), converted 2020-07-31 from the Sansknet Project source; includes Rāghavendra Tīrtha's Nyāyadīpa commentary.",
@@ -794,5 +834,12 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave2-codex"
+  "last_verified_by": "wave2-codex",
+  "polemic_chain_ids": [
+    "acintya-shakti-defense",
+    "advaita-siddhi-replies",
+    "mayavada-khandana",
+    "nyayamrta-arguments",
+    "saptavidhanupapatti"
+  ]
 }

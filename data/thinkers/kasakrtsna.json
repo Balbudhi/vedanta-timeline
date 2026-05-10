@@ -13,7 +13,9 @@
   "sub_school": "Proto-Advaita-leaning",
   "sub_school_shade": 2,
   "lineage_in": [],
-  "lineage_out": ["badarayana"],
+  "lineage_out": [
+    "badarayana"
+  ],
   "lineage_polemical": [],
   "core_thesis": "Kāśakṛtsna's position is preserved in two words at Brahma-Sūtra 1.4.22: *avasthiter iti kāśakṛtsnaḥ* — 'because of [Brahman's] standing-in [the *jīva*], says Kāśakṛtsna.' The single technical term *avasthiti* (locative-stative, from *ava-sthā*, 'to abide, to stand within') carries the entire doctrinal claim. The grammar is genitive-object: the supreme Brahman *abides in* the *jīva* — not as a part of the *jīva*, not as a manifestation that contrasts with an unmanifest source, but as the standing-condition of the *jīva*'s being. The contrast with the two preceding voices is exact. Āśmarathya at 1.4.20 says the *jīva* is non-different by *abhivyakti* (manifestation, with the asymmetry of source and manifest); Auḍulomi at 1.4.21 says non-difference is the truth of the liberated state. Kāśakṛtsna at 1.4.22 says Brahman *stands within* the *jīva* always, in both bound and liberated phases, with the apparent distinctness an artefact of conditioning rather than a feature of Brahman's relation to the self.\n\nThe doctrinal force of *avasthiti* is contested in a way the citation cannot resolve. Śaṅkara's *Bhāṣya* on 1.4.22 reads *avasthiti* as full-strength identity: Brahman abides in the *jīva* in the way that one and the same thing abides as itself, the apparent distinctness being only *upādhi*-conditioned superimposition. On this reading, Kāśakṛtsna is the proto-Advaitin within the *Brahma-Sūtra* itself, and Bādarāyaṇa's silence after 1.4.22 — no further sūtra adjudicates — counts as endorsement. Modern scholarship qualifies this. Nakamura (vol. I, 1949) and Sharma (1965) note that *avasthiti* is grammatically ambiguous between strict identity (Brahman *is* the *jīva*'s being) and inherent presence (Brahman is *located in* the *jīva* without being numerically the same). The first reading underwrites Advaita; the second reading is compatible with a Viśiṣṭādvaita-style inner-controllership doctrine, where Brahman as *antaryāmin* abides in but is not identical with the *jīva*. The historical Kāśakṛtsna cannot be made to disambiguate; what he held with certainty is the standing-condition relation, and the dispute over its modal force is post-citation.\n\nWhat the position commits to, on the weaker reading, is already philosophically substantial. Brahman's *avasthiti* in the *jīva* makes the *jīva*'s consciousness, agency, and very being constitutively Brahman-grounded; it is not that the *jīva* is one thing and Brahman another that happens to oversee it, but that the *jīva*'s standing-as-self is the standing-as-self of Brahman within it. This is incompatible with any *bhedābheda* in which *bheda* and *abheda* are equally fundamental, since *avasthiti* is asymmetric: Brahman abides in the *jīva*, not vice versa. It is also incompatible with the strong dualism Madhva will later develop, since *avasthiti* is not the relation of one independent substance to another. The position occupies, on the citation-evidence, a coherent middle: weaker than Śaṅkara's strict identity, stronger than any *bhedābheda* that treats *bheda* as ontologically primary, and recognizable as the structural ancestor of the inner-self / inner-controller doctrines that both Advaita and Viśiṣṭādvaita will systematize.\n\nWhat the citation does not preserve is Kāśakṛtsna's argument. We have *avasthiteḥ* — the abstract noun in genitive — as the reason; we do not have the dialectical demonstration. The reading that treats Bādarāyaṇa's silence as endorsement (Śaṅkara) and the reading that treats it as merely the closing of the *adhikaraṇa* (Bhāskara) cannot be settled by the text. What the text settles is narrower: Kāśakṛtsna held the *avasthiti* thesis, and the thesis is structurally the strongest position in the cluster.",
   "engaged_works": [
@@ -36,5 +38,10 @@
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-deep-engagement-opus"
+  "last_verified_by": "wave-deep-engagement-opus",
+  "polemic_chain_ids": [
+    "brahma-sutra-bhasya-buddhism-refutation",
+    "brahma-sutra-bhasya-samkhya-refutation",
+    "brahma-sutra-bhasya-vaisesika-refutation"
+  ]
 }

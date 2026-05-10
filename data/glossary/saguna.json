@@ -1,0 +1,27 @@
+{
+  "term_key": "saguna",
+  "term_iast": "saguṇa",
+  "term_devanagari": "सगुण",
+  "literal": "with qualities; sa- 'with' + guṇa 'quality'",
+  "aliases": ["saguna", "saguṇa", "Saguṇa", "saguṇa-brahman"],
+  "invariant_definition": "Possessing qualities. *Saguṇa brahman* is *brahman* described under qualifying attributes — preeminently as the personal Lord (*Īśvara* / Bhagavān). The *saguṇa*-*nirguṇa* opposition is a fundamental Advaita technical apparatus; non-Advaita schools either reject the opposition (Viśiṣṭādvaita: *brahman* is always *saguṇa*; *nirguṇa* texts deny *heya-guṇas*) or modify it (Dvaita: Viṣṇu has infinite real *kalyāṇa-guṇas*; *nirguṇa* texts deny *prākṛta-guṇas* only).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Saguṇa brahman* is *brahman* with *māyā*-upādhi — the cosmic Lord who creates, sustains, dispenses *karma*-fruits. Real for *vyāvahārika* and devotional standpoints; sublatable in *nirguṇa brahman*-realization. *Saguṇa* is therefore the lower (apara) but real description.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.11ff", "Brahma-Sūtra-Bhāṣya 3.2.11ff (saguna-nirguna)"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Brahman* is always *saguṇa* — there is no higher *nirguṇa* description. *Nirguṇa* texts deny only *heya-guṇas* (defects).",
+      "primary_loci": ["Vedārtha-Saṅgraha §§91–137", "Śrī-Bhāṣya 1.1.13"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "Viṣṇu possesses infinite real *kalyāṇa-guṇas* (auspicious qualities); *nirguṇa* texts deny only *prākṛta-guṇas* (the qualities of inert matter).",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1"]
+    }
+  ],
+  "see_also": ["nirguna", "isvara", "brahman", "guna", "kalyana-guna"],
+  "translator_note": "'Qualified' or 'with-qualities' acceptable. Note: *saguṇa* is *not* simply 'personal' in the Christian-theological sense — *saguṇa brahman* in Advaita is a metaphysical category, not a relational one."
+}

@@ -2,7 +2,9 @@
   "id": "sureshvara",
   "name": "Sureshvara",
   "name_iast": "Sureśvara",
-  "alternate_names": ["Viśvarūpa (per traditional identification)"],
+  "alternate_names": [
+    "Viśvarūpa (per traditional identification)"
+  ],
   "dates_low": 720,
   "dates_high": 770,
   "dates_tier": "consensus-textual",
@@ -11,8 +13,13 @@
   "school_color_token": "advaita",
   "sub_school": "Sureśvara-line proto-Vivaraṇa",
   "sub_school_shade": 3,
-  "lineage_in": ["sankara", "sundara-pandya"],
-  "lineage_out": ["sarvajnatman"],
+  "lineage_in": [
+    "sankara",
+    "sundara-pandya"
+  ],
+  "lineage_out": [
+    "sarvajnatman"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "mandana",
@@ -978,5 +985,11 @@
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1-rewrite-opus"
+  "last_verified_by": "wave1-rewrite-opus",
+  "polemic_chain_ids": [
+    "bhaskara-pracchanna-bauddha",
+    "kumarila-mandana-jnana-karma-samuccaya",
+    "saptavidhanupapatti",
+    "shatadusani"
+  ]
 }

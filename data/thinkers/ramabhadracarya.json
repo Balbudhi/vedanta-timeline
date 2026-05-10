@@ -3,7 +3,11 @@
   "name": "Jagadguru Ramabhadracharya",
   "name_iast": "Jagadguru Rāmabhadrācārya",
   "name_devanagari": "जगद्गुरु रामभद्राचार्य",
-  "alternate_names": ["Giridhar Mishra (birth name)", "Giridhara Miśra", "Jagadguru Rāmānandācārya"],
+  "alternate_names": [
+    "Giridhar Mishra (birth name)",
+    "Giridhara Miśra",
+    "Jagadguru Rāmānandācārya"
+  ],
   "dates_low": 1950,
   "dates_high": 2026,
   "dates_tier": "confirmed-from-records",
@@ -26,7 +30,9 @@
   "school_color_token": "vishishtadvaita",
   "sub_school": "Rāmānanda Sampradāya / Rāma-Viśiṣṭādvaita",
   "sub_school_shade": 4,
-  "lineage_in": ["ramanuja"],
+  "lineage_in": [
+    "ramanuja"
+  ],
   "lineage_out": [],
   "lineage_polemical": [],
   "core_thesis": "Rāmabhadrācārya, jagadguru of the Rāmānanda Sampradāya, gives Viśiṣṭādvaita a Rāma-centric formulation. The *parabrahman* of the Upaniṣads is *Sītā-Rāma*; the *śarīra-śarīri-bhāva* of Rāmānuja is preserved with Rāma as *śarīrin* and *cit* and *acit* as his real body. His *Śrīrāghavakṛpā-Bhāṣyam* (released 1998) is the first Sanskrit commentary on the entire *prasthāna-trayī* in roughly five centuries and the second in the Rāmānanda Sampradāya after Rāmānanda's own *Ānanda-Bhāṣya*. Methodologically he insists that Rāma is the supreme reality (*pratipādya*) of every Upaniṣad and every *sūtra* of Bādarāyaṇa, reading the *mahā-vākyas* through the body-soul template Rāmānuja established. His engagement with the school's formal architecture is therefore continuous with Vaḍakalai Viśiṣṭādvaita on the metaphysics of *apṛthak-siddhi*; the distinctive move is the Rāma-iṣṭadevatā exegesis. Blind from infancy and never having used Braille, he composes by dictation. His oeuvre — 240+ books in Sanskrit, Hindi, and other languages — includes a verse-commentary on Pāṇini's *Aṣṭādhyāyī*, four Sanskrit *mahā-kāvyas*, and Hindi commentaries on Tulsīdās.",
@@ -42,7 +48,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Sanskrit commentary; Rāmānanda Sampradāya school commentary on the Brahma-Sūtra.",
       "ascription_evidence": [
-        {"kind": "manuscript-colophon", "description": "Tulsī Pīṭha publication colophon, 1998 first edition."}
+        {
+          "kind": "manuscript-colophon",
+          "description": "Tulsī Pīṭha publication colophon, 1998 first edition."
+        }
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
@@ -61,7 +70,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Sanskrit commentary.",
       "ascription_evidence": [
-        {"kind": "manuscript-colophon", "description": "Tulsī Pīṭha publication colophon, 1998 first edition."}
+        {
+          "kind": "manuscript-colophon",
+          "description": "Tulsī Pīṭha publication colophon, 1998 first edition."
+        }
       ],
       "genre": "gita-bhashya",
       "language": "sanskrit",
@@ -80,7 +92,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Sanskrit commentaries on the eleven principal Upaniṣads.",
       "ascription_evidence": [
-        {"kind": "manuscript-colophon", "description": "Tulsī Pīṭha publication colophon, 1998 first edition."}
+        {
+          "kind": "manuscript-colophon",
+          "description": "Tulsī Pīṭha publication colophon, 1998 first edition."
+        }
       ],
       "genre": "upanisad-bhashya",
       "language": "sanskrit",
@@ -99,7 +114,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Sanskrit commentary on Nārada's Bhakti-Sūtra.",
       "ascription_evidence": [
-        {"kind": "manuscript-colophon", "description": "Tulsī Pīṭha publication colophon, 1998 first edition."}
+        {
+          "kind": "manuscript-colophon",
+          "description": "Tulsī Pīṭha publication colophon, 1998 first edition."
+        }
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
@@ -118,7 +136,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Sanskrit verse-commentary on Pāṇini's Aṣṭādhyāyī.",
       "ascription_evidence": [
-        {"kind": "manuscript-colophon", "description": "Tulsī Pīṭha publication records."}
+        {
+          "kind": "manuscript-colophon",
+          "description": "Tulsī Pīṭha publication records."
+        }
       ],
       "genre": "varttika",
       "language": "sanskrit",
@@ -132,5 +153,8 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-corpus-v2-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-corpus-v2-opus"
+  "last_verified_by": "wave-corpus-v2-opus",
+  "polemic_chain_ids": [
+    "govinda-bhasya-defense"
+  ]
 }

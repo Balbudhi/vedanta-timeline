@@ -1,0 +1,17 @@
+{
+  "term_key": "bhasya",
+  "term_iast": "bhāṣya",
+  "term_devanagari": "भाष्य",
+  "literal": "exposition, commentary; from √bhāṣ 'to speak'",
+  "aliases": ["bhasya", "bhāṣya", "Bhāṣya", "bhāṣyaṃ", "bhāṣyasya", "bhasyam"],
+  "invariant_definition": "A primary commentary on a *sūtra* or *śāstra*. The *bhāṣya* is the school-defining exegetical work; in Vedānta, every school is constituted by a *bhāṣya* on the *Brahma-Sūtra* (Śaṅkara, Bhāskara, Yādava-Prakāśa, Rāmānuja, Madhva, Nimbārka, Vallabha, Baladeva, Vijñānabhikṣu). A *bhāṣya* is more than a paraphrase — it constructs the doctrinal architecture of the school. Every later genre (*vārttika*, *ṭīkā*, *vivaraṇa*) presupposes and elaborates a *bhāṣya*.",
+  "per_school": [
+    {
+      "school": "All Vedānta",
+      "definition": "Each Vedāntic school is constituted by its founder's *Brahma-Sūtra-Bhāṣya*. Auxiliary *bhāṣya*s on the *Bhagavad-Gītā* and on the principal *Upaniṣads* (the *prasthāna-traya* commentaries) further fix doctrine.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Śaṅkara, Rāmānuja, Madhva, etc.)"]
+    }
+  ],
+  "see_also": ["sutra", "varttika", "tika", "vivarana", "prasthana-traya"],
+  "translator_note": "'Commentary' is acceptable; the precise genre-hierarchy (*bhāṣya* > *vārttika* > *ṭīkā* > *upaṭīkā*, etc.) has no English equivalent and should be preserved."
+}

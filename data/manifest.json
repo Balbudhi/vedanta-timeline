@@ -103,6 +103,21 @@
     "yamuna.json"
   ],
   "comparative_claims": [],
-  "schemas_version": "0.1.0",
-  "wave": "wave-corpus-v2-completed"
+  "polemic_chains": [
+    "acintya-shakti-defense.json",
+    "advaita-siddhi-replies.json",
+    "bhaskara-pracchanna-bauddha.json",
+    "brahma-sutra-bhasya-buddhism-refutation.json",
+    "brahma-sutra-bhasya-samkhya-refutation.json",
+    "brahma-sutra-bhasya-vaisesika-refutation.json",
+    "govinda-bhasya-defense.json",
+    "kumarila-mandana-jnana-karma-samuccaya.json",
+    "mayavada-khandana.json",
+    "nyayamrta-arguments.json",
+    "saptavidhanupapatti.json",
+    "shatadusani.json"
+  ],
+  "polemic_chains_field_doc": "Each thinker JSON may carry an optional 'polemic_chain_ids' string-array listing chain_ids in which the thinker is engaged as attacker, target, or responder. The canonical chain definitions live in data/polemic_chains/<chain-id>.json; these are argument-by-argument reconstructions (premise → inference → conclusion) of major Vedāntic refutations, with explicit 'what_it_touches' analysis of which earlier positions the polemic actually engages versus leaves intact. The field is parallel to comparative_claim_ids but tracks a different unit (a multi-argument polemic chain rather than a single pairwise claim).",
+  "schemas_version": "0.2.0",
+  "wave": "wave-polemic-completed"
 }

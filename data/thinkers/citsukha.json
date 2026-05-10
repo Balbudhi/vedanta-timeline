@@ -11,8 +11,13 @@
   "school_color_token": "advaita",
   "sub_school": "Vivaraṇa-Advaita",
   "sub_school_shade": 4,
-  "lineage_in": ["anandabodha"],
-  "lineage_out": ["madhusudana", "dharmaraja"],
+  "lineage_in": [
+    "anandabodha"
+  ],
+  "lineage_out": [
+    "madhusudana",
+    "dharmaraja"
+  ],
   "lineage_polemical": [],
   "core_thesis": "Citsukha brings Vivaraṇa-Advaita to its dialectical maturity. Ānandabodha's inferential apparatus is refashioned into a comprehensive *khaṇḍana* of every realist alternative on offer: pre-Gaṅgeśa Nyāya, Mīmāṃsā, Bhedābheda, and the proto-Dvaita and Viśiṣṭādvaita positions then crystallising. Four technical doctrines anchor the work. First, *cit* / *ātman* is *svaprakāśa*, self-luminous: defined as that which is *aparokṣa-vyavahāra-yogya* (fit for direct cognitive employment) without depending on a further cognition. Second, the world is *anirvacanīya-mithyā*, established by formal *anumāna*; *mithyā* is throughout *sad-asad-vilakṣaṇa* (different from both real and unreal) and never collapses into *asat*. Third, avidyā is *bhāva-rūpā* with Brahman as both locus and object. Fourth, the Nyāya category-scheme is destroyed: *sāmānya*, *viśeṣa*, *samavāya*, and *bheda* itself are shown to be analytically indeterminable. The destruction proceeds by dilemma — for each category, a binary characterisation is exhausted and shown self-defeating, leaving the category itself unintelligible. Citsukha works throughout in the technical idiom of the pre-Gaṅgeśa Naiyāyikas, beating them on their own turf. The *Tattva-Pradīpikā* becomes the standard Advaita reference for the dialectic of *mithyātva* and is presupposed by the entire *Advaita-Siddhi* / *Nyāyāmṛta* exchange.",
   "engaged_works": [
@@ -20,11 +25,16 @@
       "work_id": "tattva-pradipika",
       "title": "Tattva-Pradipika",
       "title_iast": "Tattva-Pradīpikā",
-      "alternate_titles": ["Citsukhī"],
+      "alternate_titles": [
+        "Citsukhī"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
@@ -38,5 +48,10 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1b-opus"
+  "last_verified_by": "wave1b-opus",
+  "polemic_chain_ids": [
+    "nyayamrta-arguments",
+    "saptavidhanupapatti",
+    "shatadusani"
+  ]
 }

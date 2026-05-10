@@ -1263,5 +1263,14 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-audit-fix-opus"
+  "last_verified_by": "wave-audit-fix-opus",
+  "polemic_chain_ids": [
+    "acintya-shakti-defense",
+    "advaita-siddhi-replies",
+    "bhaskara-pracchanna-bauddha",
+    "mayavada-khandana",
+    "nyayamrta-arguments",
+    "saptavidhanupapatti",
+    "shatadusani"
+  ]
 }
