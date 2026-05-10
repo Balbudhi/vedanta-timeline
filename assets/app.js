@@ -1092,13 +1092,19 @@ function escape(s) {
 function md(s) {
   if (s == null) return "";
   let out = escape(s);
-  // bold first (longer match), then italic
-  out = out.replace(/\*\*([^*]+?)\*\*/g, "<strong>$1</strong>");
-  out = out.replace(/(^|[\s(\[—,;:])\*([^*\n]+?)\*(?=[\s.,;:!?)\]—]|$)/g, "$1<em>$2</em>");
+  // Bold first (longer match), then italic. Inline-italic uses lookbehind/lookahead
+  // to forbid whitespace adjacent to the asterisk (avoids math-like "2 * 3"),
+  // but does NOT require surrounding punctuation — so "*foo*-bar" or "(*foo*)" both work.
+  out = out.replace(/\*\*([^*\n]+?)\*\*/g, "<strong>$1</strong>");
+  out = out.replace(/\*(?!\s)([^*\n]+?)(?<!\s)\*/g, "<em>$1</em>");
   out = out.replace(/`([^`]+?)`/g, "<code>$1</code>");
-  // glossary tagging — wrap matched terms in clickable spans
+  // glossary tagging — wrap matched terms in clickable spans (after italics so we don't double-wrap inside <em>)
   if (state.glossaryRegex) {
-    out = out.replace(state.glossaryRegex, (m) => `<span class="term" data-term="${escape(m)}">${m}</span>`);
+    out = out.replace(state.glossaryRegex, (m, _g, offset, full) => {
+      // Don't wrap if we're already inside a span (e.g., inside <em>...</em> the term will still render correctly without click)
+      // Actually we want clicks to work everywhere, so wrap unconditionally.
+      return `<span class="term" data-term="${escape(m)}">${m}</span>`;
+    });
   }
   return out;
 }
@@ -1110,9 +1116,9 @@ function renderMarkdown(s) {
     .replace(/^## (.+)$/gm, "<h2>$1</h2>")
     .replace(/^### (.+)$/gm, "<h3>$1</h3>")
     .replace(/^&gt; (.+)$/gm, "<blockquote>$1</blockquote>")
-    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
-    .replace(/\*(.+?)\*/g, "<em>$1</em>")
-    .replace(/`(.+?)`/g, "<code>$1</code>")
+    .replace(/\*\*([^*\n]+?)\*\*/g, "<strong>$1</strong>")
+    .replace(/\*(?!\s)([^*\n]+?)(?<!\s)\*/g, "<em>$1</em>")
+    .replace(/`([^`]+?)`/g, "<code>$1</code>")
     .replace(/\n\n+/g, "</p><p>")
     .replace(/^/, "<p>") + "</p>";
 }
@@ -1344,8 +1350,8 @@ function renderMarkdownFull(src) {
     .replace(/^# (.+)$/gm, "<h1>$1</h1>")
     .replace(/^&gt; (.+)$/gm, "<blockquote>$1</blockquote>")
     .replace(/^> (.+)$/gm, "<blockquote>$1</blockquote>")
-    .replace(/\*\*([^*]+?)\*\*/g, "<strong>$1</strong>")
-    .replace(/(^|[\s(\[—,;:])\*([^*\n]+?)\*(?=[\s.,;:!?)\]—]|$)/g, "$1<em>$2</em>")
+    .replace(/\*\*([^*\n]+?)\*\*/g, "<strong>$1</strong>")
+    .replace(/\*(?!\s)([^*\n]+?)(?<!\s)\*/g, "<em>$1</em>")
     .replace(/`([^`]+?)`/g, "<code>$1</code>")
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
     // paragraph splits
