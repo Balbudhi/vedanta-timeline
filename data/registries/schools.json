@@ -2,187 +2,373 @@
   "advaita": {
     "display_name": "Advaita",
     "color_hex": "#2563eb",
-    "color_palette": ["#dbeafe", "#93c5fd", "#3b82f6", "#2563eb", "#1e3a8a"],
+    "color_palette": [
+      "#dbeafe",
+      "#93c5fd",
+      "#3b82f6",
+      "#2563eb",
+      "#1e3a8a"
+    ],
     "short_description": "Non-dualism: Brahman alone is ultimately real; the world's plurality is vyāvahārika and ultimately mithyā (neither sat nor asat)."
   },
   "vishishtadvaita": {
     "display_name": "Viśiṣṭādvaita",
     "color_hex": "#059669",
-    "color_palette": ["#d1fae5", "#6ee7b7", "#10b981", "#059669", "#064e3b"],
+    "color_palette": [
+      "#d1fae5",
+      "#6ee7b7",
+      "#10b981",
+      "#059669",
+      "#064e3b"
+    ],
     "short_description": "Qualified non-dualism: one Brahman (Viṣṇu) qualified by real cit and acit modes, with the śarīra-śarīri-bhāva relating souls and world to the Lord."
   },
   "dvaita": {
     "display_name": "Dvaita (Tattvavāda)",
     "color_hex": "#d97706",
-    "color_palette": ["#fef3c7", "#fcd34d", "#f59e0b", "#d97706", "#78350f"],
+    "color_palette": [
+      "#fef3c7",
+      "#fcd34d",
+      "#f59e0b",
+      "#d97706",
+      "#78350f"
+    ],
     "short_description": "Tattvavāda: Viṣṇu alone is svatantra (independent); all else is paratantra (dependent), with five eternal real distinctions (pañca-bheda)."
   },
   "bhedabheda": {
     "display_name": "Bhedābheda",
     "color_hex": "#9333ea",
-    "color_palette": ["#f3e8ff", "#d8b4fe", "#a855f7", "#9333ea", "#581c87"],
+    "color_palette": [
+      "#f3e8ff",
+      "#d8b4fe",
+      "#a855f7",
+      "#9333ea",
+      "#581c87"
+    ],
     "short_description": "Difference-and-non-difference: Brahman is intrinsically both identical with and distinct from souls and world; classical (aupādhika) and natural (svābhāvika) variants."
   },
   "acintya": {
     "display_name": "Acintya-Bhedābheda",
     "color_hex": "#db2777",
-    "color_palette": ["#fce7f3", "#f9a8d4", "#ec4899", "#db2777", "#831843"],
+    "color_palette": [
+      "#fce7f3",
+      "#f9a8d4",
+      "#ec4899",
+      "#db2777",
+      "#831843"
+    ],
     "short_description": "Inconceivable difference-and-non-difference: the Gauḍīya thesis that Bhagavān's simultaneous identity-and-difference with souls and world is irreducibly acintya."
   },
   "shuddha": {
     "display_name": "Śuddhādvaita",
     "color_hex": "#be123c",
-    "color_palette": ["#ffe4e6", "#fda4af", "#f43f5e", "#be123c", "#4c0519"],
+    "color_palette": [
+      "#ffe4e6",
+      "#fda4af",
+      "#f43f5e",
+      "#be123c",
+      "#4c0519"
+    ],
     "short_description": "Pure non-dualism: Brahman and world are non-different without invoking māyā; world is an avikṛta-pariṇāma of Brahman's essential nature."
   },
   "avibhaga": {
     "display_name": "Avibhāgādvaita",
     "color_hex": "#0891b2",
-    "color_palette": ["#cffafe", "#67e8f9", "#06b6d4", "#0891b2", "#164e63"],
+    "color_palette": [
+      "#cffafe",
+      "#67e8f9",
+      "#06b6d4",
+      "#0891b2",
+      "#164e63"
+    ],
     "short_description": "Non-difference-without-identity: Vijñānabhikṣu's harmonizing thesis that Brahman and world are inseparable yet not numerically one."
   },
   "proto": {
     "display_name": "Proto-Vedānta",
     "color_hex": "#6b7280",
-    "color_palette": ["#f3f4f6", "#d1d5db", "#9ca3af", "#6b7280", "#1f2937"],
+    "color_palette": [
+      "#f3f4f6",
+      "#d1d5db",
+      "#9ca3af",
+      "#6b7280",
+      "#1f2937"
+    ],
     "short_description": "Pre-Śaṅkara figures known mostly through citation by later authors, evidencing a plural Vedāntic field before the extant bhāṣyas."
   },
   "trika-comparator": {
-    "display_name": "Pratyabhijñā / Trika (comparator)",
+    "display_name": "Pratyabhijñā / Trika",
     "color_hex": "#475569",
-    "color_palette": ["#f1f5f9", "#cbd5e1", "#94a3b8", "#475569", "#1e293b"],
+    "color_palette": [
+      "#f1f5f9",
+      "#cbd5e1",
+      "#94a3b8",
+      "#475569",
+      "#1e293b"
+    ],
     "short_description": "Kashmir Śaiva recognition-school: included as a structural comparator (svātantrya, divine self-veiling) and not as a Vedāntic school."
   },
   "kashmir-shaiva-dualist": {
-    "display_name": "Kashmir Śaiva-Siddhānta (dualist comparator)",
+    "display_name": "Kashmir Śaiva-Siddhānta",
     "color_hex": "#4338ca",
-    "color_palette": ["#e0e7ff", "#a5b4fc", "#6366f1", "#4338ca", "#1e1b4b"],
+    "color_palette": [
+      "#e0e7ff",
+      "#a5b4fc",
+      "#6366f1",
+      "#4338ca",
+      "#1e1b4b"
+    ],
     "short_description": "The dualist Kashmirian Saiddhāntika tradition (Sadyojyotis, Bhaṭṭa Rāmakaṇṭha): pati, paśu, and pāśa as three eternally distinct realities, defended against the non-dual Pratyabhijñā position; distinct from the southern Tamil Śaiva-Siddhānta."
   },
   "shakta-srividya": {
-    "display_name": "Śākta — Śrīvidyā (comparator)",
+    "display_name": "Śākta — Śrīvidyā",
     "color_hex": "#be185d",
-    "color_palette": ["#fce7f3", "#f9a8d4", "#ec4899", "#be185d", "#500724"],
+    "color_palette": [
+      "#fce7f3",
+      "#f9a8d4",
+      "#ec4899",
+      "#be185d",
+      "#500724"
+    ],
     "short_description": "The Śrīvidyā Śākta tradition centred on Tripurā-Sundarī, the śrī-cakra, and the Lalitā-Sahasranāma; in its early-modern form synthesised with Advaita Vedānta by Bhāskararāya."
   },
   "shakta-kalakula": {
-    "display_name": "Śākta — Krama / Kālīkula (comparator)",
+    "display_name": "Śākta — Krama / Kālīkula",
     "color_hex": "#9d174d",
-    "color_palette": ["#fbcfe8", "#f472b6", "#db2777", "#9d174d", "#3f0a25"],
+    "color_palette": [
+      "#fbcfe8",
+      "#f472b6",
+      "#db2777",
+      "#9d174d",
+      "#3f0a25"
+    ],
     "short_description": "The Krama / Kālīkula Śākta tradition (Mahārtha lineage): worship of Kālī as the sequenced (krama) self-display of consciousness, systematised in the South by Maheśvarānanda."
   },
   "cross-tradition": {
     "display_name": "Cross-tradition",
     "color_hex": "#475569",
-    "color_palette": ["#f1f5f9", "#cbd5e1", "#94a3b8", "#475569", "#1e293b"],
+    "color_palette": [
+      "#f1f5f9",
+      "#cbd5e1",
+      "#94a3b8",
+      "#475569",
+      "#1e293b"
+    ],
     "short_description": "Non-Vedāntic figures (e.g., Bhartṛhari) included only insofar as their thought feeds Vedāntic argument."
   },
   "samkhya-comparator": {
-    "display_name": "Sāṃkhya (comparator)",
+    "display_name": "Sāṃkhya",
     "color_hex": "#16a34a",
-    "color_palette": ["#dcfce7", "#86efac", "#22c55e", "#16a34a", "#14532d"],
+    "color_palette": [
+      "#dcfce7",
+      "#86efac",
+      "#22c55e",
+      "#16a34a",
+      "#14532d"
+    ],
     "short_description": "The dualist enumerationist school: twenty-five tattvas, satkārya-vāda, puruṣa-prakṛti dualism; the Vedānta-Sūtra's first major opponent at BS 2.1.1 ff."
   },
   "nyaya-comparator": {
-    "display_name": "Nyāya (comparator)",
+    "display_name": "Nyāya",
     "color_hex": "#ca8a04",
-    "color_palette": ["#fef9c3", "#fde047", "#eab308", "#ca8a04", "#713f12"],
+    "color_palette": [
+      "#fef9c3",
+      "#fde047",
+      "#eab308",
+      "#ca8a04",
+      "#713f12"
+    ],
     "short_description": "The classical realist epistemology: sixteen padārthas, four pramāṇas, five-membered inference; the standard Vedāntic dialogue partner on perception and inference."
   },
   "navya-nyaya-comparator": {
-    "display_name": "Navya-Nyāya (comparator)",
+    "display_name": "Navya-Nyāya",
     "color_hex": "#a16207",
-    "color_palette": ["#fef3c7", "#fcd34d", "#d97706", "#a16207", "#451a03"],
+    "color_palette": [
+      "#fef3c7",
+      "#fcd34d",
+      "#d97706",
+      "#a16207",
+      "#451a03"
+    ],
     "short_description": "Gaṅgeśa's reformed Nyāya: technical idiom of vyāpti, avacchedaka, paryāpti that becomes the dialectical lingua franca of late Vedāntic polemic from the fourteenth century onward."
   },
   "mimamsa-comparator": {
-    "display_name": "Pūrva-Mīmāṃsā (comparator)",
+    "display_name": "Pūrva-Mīmāṃsā",
     "color_hex": "#7c3aed",
-    "color_palette": ["#ede9fe", "#c4b5fd", "#8b5cf6", "#7c3aed", "#3b0764"],
+    "color_palette": [
+      "#ede9fe",
+      "#c4b5fd",
+      "#8b5cf6",
+      "#7c3aed",
+      "#3b0764"
+    ],
     "short_description": "The ritual-exegetical realist tradition (Jaimini, Śabara, Bhāṭṭa, Prābhākara) on śabda as autonomous pramāṇa and self-validating cognition; sister-darśana whose categories Vedānta both inherits and contests."
   },
   "yoga-comparator": {
-    "display_name": "Yoga (comparator)",
+    "display_name": "Yoga",
     "color_hex": "#14b8a6",
-    "color_palette": ["#ccfbf1", "#5eead4", "#2dd4bf", "#14b8a6", "#134e4a"],
+    "color_palette": [
+      "#ccfbf1",
+      "#5eead4",
+      "#2dd4bf",
+      "#14b8a6",
+      "#134e4a"
+    ],
     "short_description": "Pātañjala-Yoga: the praxis-darśana that holds the Sāṃkhya twenty-five-tattva ontology within an eight-limbed disciplinary frame, admits īśvara as a special puruṣa, and supplies the standard pre-modern phenomenology of samādhi inherited by every Vedāntic school."
   },
   "vaisesika-comparator": {
-    "display_name": "Vaiśeṣika (comparator)",
+    "display_name": "Vaiśeṣika",
     "color_hex": "#6d28d9",
-    "color_palette": ["#ede9fe", "#c4b5fd", "#8b5cf6", "#6d28d9", "#2e1065"],
+    "color_palette": [
+      "#ede9fe",
+      "#c4b5fd",
+      "#8b5cf6",
+      "#6d28d9",
+      "#2e1065"
+    ],
     "short_description": "The categorial-realist atomist darśana: the six (later seven) padārthas — dravya, guṇa, karma, sāmānya, viśeṣa, samavāya (and abhāva) — and a paramāṇu-causal cosmology refuted at Brahma-Sūtra 2.2.11–17 yet redeployed positively by Madhva."
   },
   "jaina-comparator": {
-    "display_name": "Jaina (comparator)",
+    "display_name": "Jaina",
     "color_hex": "#65a30d",
-    "color_palette": ["#ecfccb", "#bef264", "#84cc16", "#65a30d", "#365314"],
+    "color_palette": [
+      "#ecfccb",
+      "#bef264",
+      "#84cc16",
+      "#65a30d",
+      "#365314"
+    ],
     "short_description": "The Jaina tradition: anekānta-vāda, syād-vāda, and the two-naya structure (vyavahāra/niścaya) whose formal parallel with the Advaita vyāvahārika/pāramārthika distinction is structurally instructive and is engaged at Brahma-Sūtra-Bhāṣya 2.2.33–36."
   },
   "carvaka-comparator": {
-    "display_name": "Cārvāka / Lokāyata (comparator)",
+    "display_name": "Cārvāka / Lokāyata",
     "color_hex": "#57534e",
-    "color_palette": ["#f5f5f4", "#d6d3d1", "#a8a29e", "#57534e", "#1c1917"],
+    "color_palette": [
+      "#f5f5f4",
+      "#d6d3d1",
+      "#a8a29e",
+      "#57534e",
+      "#1c1917"
+    ],
     "short_description": "The reconstructed position holding pratyakṣa as sole pramāṇa, denying inference's reliability and the post-mortem soul; preserved only through hostile citation in Mādhava's Sarva-Darśana-Saṅgraha and in Jayarāśi's Tattvopaplava-Siṃha."
   },
   "madhyamaka-comparator": {
-    "display_name": "Mādhyamaka (comparator)",
+    "display_name": "Mādhyamaka",
     "color_hex": "#7c2d12",
-    "color_palette": ["#fef2e9", "#fbd5b5", "#d97757", "#7c2d12", "#3f1206"],
+    "color_palette": [
+      "#fef2e9",
+      "#fbd5b5",
+      "#d97757",
+      "#7c2d12",
+      "#3f1206"
+    ],
     "short_description": "Nāgārjuna's middle-way Buddhism: śūnyatā-as-pratītya-samutpāda, the catuṣkoṭi as load-bearing dialectical apparatus, and the two-truths (saṃvṛti / paramārtha) whose structural homology with Advaita's vyāvahārika / pāramārthika drives the pracchanna-bauddha charge against Śaṅkara."
   },
   "yogacara-comparator": {
-    "display_name": "Yogācāra (comparator)",
+    "display_name": "Yogācāra",
     "color_hex": "#155e75",
-    "color_palette": ["#ecfeff", "#a5f3fc", "#22d3ee", "#155e75", "#083344"],
+    "color_palette": [
+      "#ecfeff",
+      "#a5f3fc",
+      "#22d3ee",
+      "#155e75",
+      "#083344"
+    ],
     "short_description": "The Buddhist cognition-only school of Asaṅga and Vasubandhu: trisvabhāva (parikalpita / paratantra / pariniṣpanna), ālaya-vijñāna as transformative substrate, and vijñapti-mātratā — refuted at Brahma-Sūtra-Bhāṣya 2.2.28–32 and engaged extensively by Yāmuna's Saṃvit-Siddhi."
   },
   "buddhist-pramana-comparator": {
-    "display_name": "Buddhist Pramāṇa (comparator)",
+    "display_name": "Buddhist Pramāṇa",
     "color_hex": "#3f3f46",
-    "color_palette": ["#f4f4f5", "#d4d4d8", "#71717a", "#3f3f46", "#18181b"],
+    "color_palette": [
+      "#f4f4f5",
+      "#d4d4d8",
+      "#71717a",
+      "#3f3f46",
+      "#18181b"
+    ],
     "short_description": "The Dignāga–Dharmakīrti epistemological school: the pramāṇa-dvaya thesis (only pratyakṣa and anumāna), apoha-vāda for concept-formation, the svalakṣaṇa / sāmānya-lakṣaṇa distinction, and trairūpya for the inferential mark; the principal Buddhist dialogue partner of Naiyāyikas Uddyotakara, Vāchaspati, Udayana, and Gaṅgeśa."
   },
   "sarvastivada-comparator": {
-    "display_name": "Sarvāstivāda / Sautrāntika (comparator)",
+    "display_name": "Sarvāstivāda / Sautrāntika",
     "color_hex": "#92400e",
-    "color_palette": ["#fef3c7", "#fcd34d", "#d97706", "#92400e", "#451a03"],
+    "color_palette": [
+      "#fef3c7",
+      "#fcd34d",
+      "#d97706",
+      "#92400e",
+      "#451a03"
+    ],
     "short_description": "The Abhidharmic schools whose foundational thesis sarvam asti (past, present, and future dharmas exist as such, in their respective temporal modes) is the principal target of the Vedāntic refutation at Brahma-Sūtra 2.2.18–20; the Sautrāntika critique (Vasubandhu's auto-commentary) and Saṅghabhadra's orthodox Vaibhāṣika defence (Nyāyānusāra) constitute the internal Buddhist debate the Vedāntic critique inherits."
   },
   "theravada-comparator": {
-    "display_name": "Theravāda (comparator)",
+    "display_name": "Theravāda",
     "color_hex": "#b45309",
-    "color_palette": ["#fef3c7", "#fde68a", "#f59e0b", "#b45309", "#451a03"],
+    "color_palette": [
+      "#fef3c7",
+      "#fde68a",
+      "#f59e0b",
+      "#b45309",
+      "#451a03"
+    ],
     "short_description": "The Pāli Theravāda tradition systematised by Buddhaghosa (Visuddhimagga, Aṭṭhasālinī, Sumaṅgala-Vilāsinī): anattā as the eliminative refutation of substance-self, the paramattha-sacca / sammuti-sacca distinction, and the twelve-link paṭicca-samuppāda chain; minimally engaged by Vedāntic authors directly but indispensable as the southern-Buddhist comparator for understanding what is and is not at stake in Mādhyamaka and Yogācāra readings of dependent origination."
   },
   "tathagatagarbha-comparator": {
-    "display_name": "Tathāgatagarbha / Buddha-nature (comparator)",
+    "display_name": "Tathāgatagarbha / Buddha-nature",
     "color_hex": "#0e7490",
-    "color_palette": ["#cffafe", "#67e8f9", "#06b6d4", "#0e7490", "#083344"],
+    "color_palette": [
+      "#cffafe",
+      "#67e8f9",
+      "#06b6d4",
+      "#0e7490",
+      "#083344"
+    ],
     "short_description": "The Buddha-nature literature (Ratna-Gotra-Vibhāga / Uttara-Tantra-Śāstra and the Maitreya-attributed corpus; the Laṅkāvatāra-Sūtra) articulating tathāgatagarbha as universally present, prakṛti-prabhāsvara-citta (naturally luminous mind), and the eka-yāna doctrine; not a substantialist self but a non-substantialist account of the cognitive ground of awakening, decisive for understanding Pratyabhijñā / Trika's inheritance into Kashmir Śaivism and Vedānta-Deśika's Śatadūṣaṇī engagement."
   },
   "pasupata-comparator": {
-    "display_name": "Pāśupata (comparator)",
+    "display_name": "Pāśupata",
     "color_hex": "#b91c1c",
-    "color_palette": ["#fee2e2", "#fca5a5", "#ef4444", "#b91c1c", "#450a0a"],
+    "color_palette": [
+      "#fee2e2",
+      "#fca5a5",
+      "#ef4444",
+      "#b91c1c",
+      "#450a0a"
+    ],
     "short_description": "The earliest organised Śaiva sect, theorising Śiva as the efficient cause (nimitta-kāraṇa) of a real world distinct from the bound soul (paśu) and from the bond (pāśa); the dualist-theist position refuted at Brahma-Sūtra 2.2.37 as the pāśupata-pakṣa, attested through Lakulīśa's Pāśupata-Sūtra and Kauṇḍinya's Pañcārtha-Bhāṣya."
   },
   "pancaratra-comparator": {
     "display_name": "Pāñcarātra (Vaiṣṇava-Tantric comparator)",
     "color_hex": "#1e40af",
-    "color_palette": ["#dbeafe", "#93c5fd", "#3b82f6", "#1e40af", "#172554"],
+    "color_palette": [
+      "#dbeafe",
+      "#93c5fd",
+      "#3b82f6",
+      "#1e40af",
+      "#172554"
+    ],
     "short_description": "The Vaiṣṇava-Tantric tradition of the Lakṣmī-Tantra and the Sātvata-, Pauṣkara-, Jayākhya-, and Ahirbudhnya-Saṃhitās: the four-fold vyūha of Vāsudeva, Saṅkarṣaṇa, Pradyumna, and Aniruddha, the doctrine of śuddha-sattva, and the vibhava descents; critiqued at Brahma-Sūtra 2.2.42–45 and defended from within Viśiṣṭādvaita by Yāmuna's Āgama-Prāmāṇya and Vedānta-Deśika's Pāñcarātra-Rakṣā."
   },
   "virashaiva-comparator": {
     "display_name": "Vīraśaiva (Bhakti-tradition comparator)",
     "color_hex": "#831843",
-    "color_palette": ["#fce7f3", "#f9a8d4", "#db2777", "#831843", "#3a0a23"],
+    "color_palette": [
+      "#fce7f3",
+      "#f9a8d4",
+      "#db2777",
+      "#831843",
+      "#3a0a23"
+    ],
     "short_description": "The twelfth-century Karnataka movement of Basavaṇṇa and the Śaraṇas, organised around iṣṭa-liṅga worship, the aṣṭāvaraṇa, and an oral-poetic vacana literature in Old-Kannada; operates outside the classical Vedānta-darśana grid as a Bhakti-tradition but is engaged by Madhva (anti-Vīraśaiva sections of the Tattva-Saṅkhyāna) and by Appayya's Śivārka-Maṇi-Dīpikā."
   },
   "bhairava-tantra-comparator": {
-    "display_name": "Bhairava-tantra (comparator)",
+    "display_name": "Bhairava-tantra",
     "color_hex": "#4c1d95",
-    "color_palette": ["#ede9fe", "#c4b5fd", "#8b5cf6", "#4c1d95", "#1e1065"],
+    "color_palette": [
+      "#ede9fe",
+      "#c4b5fd",
+      "#8b5cf6",
+      "#4c1d95",
+      "#1e1065"
+    ],
     "short_description": "The wider Bhairava-tantra textual tradition that supplies the scriptural ground of Trika — Mālinī-Vijaya-Tantra, Siddha-Yogeśvarī-Mata, Rudra-Yāmala — with its 36-tattva ladder, Śiva-Śakti-Nara triad, and kuṇḍalinī-cakra cosmology: the corpus Abhinavagupta engages from within rather than as an outside opponent."
   }
 }

@@ -28,11 +28,33 @@
       <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M2.5 3h4a2 2 0 0 1 2 2v8a1.5 1.5 0 0 0-1.5-1.5h-4.5zM13.5 3h-4a2 2 0 0 0-2 2v8a1.5 1.5 0 0 1 1.5-1.5h4.5z" stroke="currentColor" stroke-width="1.2" fill="none" stroke-linejoin="round"/></svg>
       <span class="btn-text">Reading</span>
     </button>
+    <button class="topbar-btn topbar-btn--icon" id="articlesBtn" type="button" aria-label="Articles" title="Articles">
+      <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 2.5h7.5l2 2v9a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5v-11A.5.5 0 0 1 3 2.5z" stroke="currentColor" stroke-width="1.2" fill="none" stroke-linejoin="round"/><path d="M5 6.5h6M5 8.5h6M5 10.5h4" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/></svg>
+      <span class="btn-text">Articles</span>
+    </button>
     <button class="topbar-btn topbar-btn--icon" id="aboutBtn" type="button" aria-label="About this site" title="About">
       <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.2" fill="none"/><path d="M8 7v4M8 4.8v.4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
       <span class="btn-text">About</span>
     </button>
   </header>
+
+  <div class="articles-modal" id="articlesModal" aria-hidden="true">
+    <div class="articles-modal-inner">
+      <button class="close-btn" id="closeArticles" aria-label="Close">×</button>
+      <h2>Articles</h2>
+      <p class="articles-intro">Essays, perspectives-driven re-readings, and comparative analyses. The timeline is the school-on-its-own-terms presentation; these articles flush out the philosophical arguments and apply explicit interpretive frameworks.</p>
+      <div class="articles-list" id="articlesList"></div>
+    </div>
+  </div>
+
+  <div class="article-reader" id="articleReader" aria-hidden="true">
+    <div class="article-reader-bar">
+      <button class="back-to-articles" id="backToArticles" aria-label="Back to articles list">← Articles</button>
+      <span class="article-reader-title" id="articleReaderTitle"></span>
+      <button class="close-btn" id="closeArticleReader" aria-label="Close">×</button>
+    </div>
+    <div class="article-reader-content" id="articleReaderContent"></div>
+  </div>
 
   <div class="filter-drawer" id="filterDrawer" aria-hidden="true">
     <div class="filter-drawer-inner">

@@ -13,7 +13,13 @@
   "sub_school_shade": 5,
   "lineage_in": ["abhinavagupta"],
   "lineage_out": [],
-  "lineage_polemical": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "malini-vijaya-tantra",
+      "direction": "mutual",
+      "note": "Jayaratha's Tantrāloka-Viveka — the principal commentary on Abhinavagupta's Tantrāloka — preserves the Mālinī-Vijaya citations and traces the Mālinī-Vijaya-Tantra's place in the Trika scriptural canon. Jayaratha is the late Kashmirian commentarial vehicle through which the Mālinī-Vijaya's authority is preserved into the medieval period."
+    }
+  ],
   "core_thesis": "Non-Vedāntin comparator (mature Trika commentator). Jayaratha is the great commentator of Abhinavagupta's *Tantrāloka*, working two centuries after the author and producing the *Tantrāloka-Viveka* that is the indispensable companion to the Tantrāloka itself. Without the *Viveka*, much of the Tantrāloka's compressed scriptural and ritual reference becomes unrecoverable; with it, the *Tantrāloka* is readable as the encyclopedic synthesis Abhinavagupta intended (the integrative claim is staked at *Tantrāloka-Viveka* on *TĀ* 1.1, the opening *bhūmikā*). Jayaratha works strictly within the Trika non-dual frame — the supreme reality is *Anuttara*-consciousness (*TĀV* on *TĀ* 1.1–50), manifestation occurs by *svātantrya* through *ābhāsa* (*TĀV* on *TĀ* 3.1–67), the *upāya*-hierarchy is graded from *anupāya* (*TĀV* on *TĀ* 2) through *śāmbhava* (*TĀV* on *TĀ* 3), *śākta* (*TĀV* on *TĀ* 4), and *āṇava* (*TĀV* on *TĀ* 5) — but his contribution is principally philological and structural rather than constructively philosophical: he identifies citations, supplies missing ritual context, traces scriptural antecedents in the Tantras the *Tantrāloka* presupposes — *Mālinī-Vijaya* (cited throughout, esp. *TĀV* on *TĀ* 1.17–18), *Siddha-Yogeśvarī-Mata*, *Trika-Sāra* (*TĀV* on *TĀ* 4.110ff.) — and reconstructs the lineage's living memory of how each *āhnika*'s argument is to be read. The *Viveka* is for that reason a primary source on the school's mature self-understanding in the period after Kṣemarāja and before the disruption of the Kashmirian tradition.",
   "engaged_works": [
     {

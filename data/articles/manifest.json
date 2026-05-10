@@ -1,0 +1,56 @@
+{
+  "version": "1",
+  "articles": [
+    {
+      "slug": "hegel-preface",
+      "title": "Hegel's Preface to the Phenomenology — and the Vedāntic parallels",
+      "subtitle": "Substanz als Subjekt, Aufhebung, the speculative proposition — placed against Bhartṛprapañca, Madhva, Vyāsatīrtha, Jīva Gosvāmī, Vidyāraṇya.",
+      "kind": "comparative",
+      "source_doc": "docs/HEGEL_PREFACE_REPORT.md",
+      "tags": ["Hegel", "Bhartṛprapañca", "Madhva", "Jīva Gosvāmī", "Vidyāraṇya", "speculative-proposition", "Aufhebung"],
+      "word_count_approx": 2500,
+      "date": "2026-05-09"
+    },
+    {
+      "slug": "mimamsa-aurobindo-v1",
+      "title": "Mīmāṃsā as externalized yogic process — first investigation",
+      "subtitle": "Testing three precisifications of the hypothesis that Pūrva-Mīmāṃsā ritual is the externalized form of an inner Vedic yogic process Aurobindo decodes in *The Secret of the Veda*.",
+      "kind": "perspective-investigation",
+      "source_doc": "docs/MIMAMSA_AUROBINDO_HYPOTHESIS.md",
+      "tags": ["Mīmāṃsā", "Jaimini", "Śabara", "Aurobindo", "Sureśvara", "yajña", "apūrva"],
+      "word_count_approx": 4600,
+      "date": "2026-05-09"
+    },
+    {
+      "slug": "mimamsa-aurobindo-v2",
+      "title": "Mīmāṃsā as externalized yogic process — re-investigation defending the Integral-Yoga thesis",
+      "subtitle": "Re-doing the investigation with the user's critique: the Integral-Yoga = modern Mīmāṃsā thesis defended directly, secondary literature consulted, Sureśvara's structural-incapability argument re-engaged.",
+      "kind": "perspective-investigation",
+      "source_doc": "docs/MIMAMSA_AUROBINDO_HYPOTHESIS_v2.md",
+      "tags": ["Mīmāṃsā", "Jaimini", "Aurobindo", "Integral-Yoga", "bhāvanā", "depth-reading"],
+      "word_count_approx": 5000,
+      "date": "2026-05-09",
+      "status": "in-progress"
+    },
+    {
+      "slug": "primitive-model",
+      "title": "An analytic-primitive model of Vedāntic and adjacent positions",
+      "subtitle": "Nine structural primitives — substrate-independence, mode-status, identity-relation, causation, locus-of-avidyā, bheda-count, epistemic-authority, mokṣa-state, bhakti-role — and the derivation table per school.",
+      "kind": "framework",
+      "source_doc": "docs/PRIMITIVE_MODEL.md",
+      "tags": ["primitive-model", "comparative-framework", "Madhva", "Advaita", "perspectivism"],
+      "word_count_approx": 4000,
+      "date": "2026-05-09"
+    },
+    {
+      "slug": "comparative-claims-framework",
+      "title": "The comparative-claims framework — methodology",
+      "subtitle": "Four-verdict schema for cross-school comparison: shared-presupposition / parallel-structure / terminological-equivalence / genuine-disagreement / contested. Five claim categories. Anti-pattern guards.",
+      "kind": "methodology",
+      "source_doc": "docs/COMPARATIVE_CLAIMS_FRAMEWORK.md",
+      "tags": ["methodology", "comparative", "perspectivism"],
+      "word_count_approx": 3500,
+      "date": "2026-05-09"
+    }
+  ]
+}
