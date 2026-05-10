@@ -1,0 +1,123 @@
+{
+  "id": "maitreya-attributed",
+  "name": "Maitreya-attributed corpus",
+  "name_iast": "Maitreya-attributed corpus",
+  "alternate_names": ["Maitreyanātha", "Byams-pa (Tibetan)", "the Five Treatises of Maitreya"],
+  "dates_low": 270,
+  "dates_high": 380,
+  "dates_tier": "contested",
+  "dates_notes": "The corpus is traditionally ascribed in the Tibetan transmission to the bodhisattva Maitreya (channeled by Asaṅga); modern scholarship divides on whether the texts are the work of (a) a historical figure named Maitreya / Maitreyanātha distinct from Asaṅga but the latter's teacher (Ui, Frauwallner Geschichte II), (b) Asaṅga himself with traditional ascription functioning as an authority-marker (Tucci, Schmithausen 1969), or (c) several authors of the early Yogācāra-Tathāgatagarbha milieu redacted under the Maitreya-name (Mathes 2008). The c. 270–380 CE window covers any reconstruction that pre-dates Vasubandhu's Yogācāra phase and the Maitreya-corpus's reception in Asaṅga's settled writings. The five treatises (Pañca-Maitreya-Granthāḥ) standardly listed in the Tibetan tradition are: Ratna-Gotra-Vibhāga (Uttara-Tantra-Śāstra), Mahāyāna-Sūtra-Alaṃkāra, Madhyānta-Vibhāga, Dharma-Dharmatā-Vibhāga, Abhisamayālaṃkāra. The Chinese tradition includes the Yogācāra-Bhūmi-Śāstra in Maitreya's authorship; the Tibetan tradition assigns it to Asaṅga.",
+  "school": "Cross-tradition",
+  "school_color_token": "tathagatagarbha-comparator",
+  "sub_school": "Tathāgatagarbha-foundational",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": ["asanga"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "vedanta-desika",
+      "direction": "is-refuted-by",
+      "note": "Vedānta Deśika's Śatadūṣaṇī engages the tathāgatagarbha doctrine (transmitted into the Indian polemical milieu primarily through the Laṅkāvatāra-Sūtra and the Ratna-Gotra-Vibhāga transmission) in the course of refuting the Advaita identity-thesis: the criticism is that any doctrine of universal Buddha-nature, like any doctrine of universal Brahman-identity, fails to preserve the asymmetric dependence-relation (paratantra-svatantra) the Vedāntic realist holds essential."
+    },
+    {
+      "thinker_id": "utpaladeva",
+      "direction": "mutual",
+      "note": "Pratyabhijñā / Trika in Kashmir inherits the Tathāgatagarbha emphasis on prakṛti-prabhāsvara-citta (naturally luminous mind) into its own articulation of the always-already-Śiva nature of awareness. The relation is one of structural inheritance through shared northern-Buddhist doctrinal milieu rather than direct polemical engagement; recent scholarship (Sanderson, Torella, Ratié) has shown that Utpaladeva's epistemological apparatus is in sustained dialogue with the Buddhist Pramāṇa school but the metaphysical inheritance from Tathāgatagarbha is more diffuse."
+    },
+    {
+      "thinker_id": "abhinavagupta",
+      "direction": "mutual",
+      "note": "Abhinavagupta's articulation of cit as svaprakāśa and as pūrṇāhantā draws structurally on both the Pratyabhijñā inheritance and the broader northern-Indian doctrinal milieu in which the Maitreya-corpus's prakṛti-prabhāsvara-citta is operative. The non-substantialist phrasing of Buddha-nature in the Ratna-Gotra-Vibhāga (the garbha is not a substance but a pure potential for awakening realised through removal of adventitious defilements) parallels the Trika's account of mala as adventitious."
+    }
+  ],
+  "core_thesis": "The Maitreya-attributed corpus articulates the Tathāgatagarbha doctrine in its foundational systematic form. The decisive thesis is that all sentient beings possess tathāgatagarbha — the Buddha-embryo or Buddha-nature — universally and from beginningless time. This is not the assertion of a substantial self surreptitiously reintroduced under another name; the Ratna-Gotra-Vibhāga (Uttara-Tantra-Śāstra) is at pains to distinguish tathāgatagarbha from the ātman of the heretical schools. Tathāgatagarbha is not a substance (dravya) underlying experience but the natural luminosity (prakṛti-prabhāsvaratā) of citta itself, obscured only by adventitious defilements (āgantuka-kleśa) that do not belong to its nature. Awakening is therefore not the production of a new state but the removal of obscurations on what was always already present. Three further commitments are systematically developed across the corpus. First, the Mahāyāna-Sūtra-Alaṃkāra develops the bodhisattva-path and the gotra (lineage-disposition) doctrine, articulating the conditions under which the universal garbha actualises in particular practitioners. Second, the Madhyānta-Vibhāga supplies the analytic articulation of the relation between the conditioned and the unconditioned through the trisvabhāva (parikalpita / paratantra / pariniṣpanna) framework, anticipating the Asaṅga-Vasubandhu Yogācāra systematisation. Third, the Abhisamayālaṃkāra structures the entire path to Buddhahood under the Prajñāpāramitā literature, treating the eight realisations and the seventy points of practice. The decisive doctrinal move that distinguishes the Tathāgatagarbha tradition from both the Mādhyamaka emphasis on śūnyatā and from the Yogācāra emphasis on ālaya-vijñāna as karmically-conditioned substrate is the affirmation that the cognitive ground of awakening is itself non-defiled and luminous, with the conditioned cognitive flow being the locus of obscuration rather than the locus of identity. The corpus also articulates the eka-yāna (one vehicle) doctrine: the apparent distinction between the śrāvaka, pratyekabuddha, and bodhisattva paths is provisional, all paths ultimately culminating in Buddhahood. The doctrinal architecture is decisive both for understanding Pratyabhijñā / Trika's later inheritance into Kashmir Śaivism and for understanding the Vedāntic resistance to the Buddhist articulation of universal cognitive ground.",
+  "engaged_works": [
+    {
+      "work_id": "ratna-gotra-vibhaga",
+      "title": "Ratna-Gotra-Vibhaga",
+      "title_iast": "Ratna-Gotra-Vibhāga",
+      "alternate_titles": ["Uttara-Tantra-Śāstra", "Mahāyāna-Uttara-Tantra-Śāstra", "RGV"],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed to Maitreya in the Tibetan transmission (with Asaṅga as channel); the prose commentary (vyākhyā) is generally ascribed to Asaṅga or to one of his immediate circle. Sanskrit text recovered in 1934 by Rāhula Sāṃkṛtyāyana from Tibet, edited by E. H. Johnston 1950.",
+      "ascription_evidence": [
+        {"kind": "scholarly-dispute", "description": "Takasaki 1966, A Study on the Ratnagotravibhāga; Mathes 2008, A Direct Path to the Buddha Within; Ruegg 1969, La théorie du tathāgatagarbha et du gotra."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The foundational Tathāgatagarbha treatise, structured in five chapters (the seven vajra-padas) treating the Buddha, the Dharma, the Saṅgha, the dhātu (synonymous with tathāgatagarbha), bodhi, the Buddha-qualities, and the Buddha-activities. Chapter 1 articulates the central thesis that all sentient beings possess tathāgatagarbha (verses I.27–28 are the locus classicus: 'The Buddha-body is universally present, the suchness is undifferentiated, all beings possess the gotra — therefore all beings always have the Buddha-essence'). The treatment carefully distinguishes tathāgatagarbha from the ātman of the heretical schools (verses I.36–41): the garbha is not a substance but the natural luminosity of citta, obscured by adventitious defilements (āgantuka-kleśa) that are not intrinsic to its nature. The famous nine similes (RGV I.96–125) — the Buddha within a withered lotus, the honey within a swarm, the kernel within a husk, the gold within filth, etc. — supply the imaginative articulation of the obscured-but-present structure. The treatise is the principal foundational text for the entire Tathāgatagarbha tradition, transmitted into East Asia (the Awakening of Faith builds on it) and into Tibet (the gzhan-stong / rang-stong debate is in significant part about how to read it).",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "mahayana-sutra-alamkara",
+      "title": "Mahayana-Sutra-Alamkara",
+      "title_iast": "Mahāyāna-Sūtra-Alaṃkāra",
+      "alternate_titles": ["MSA", "Sūtra-Alaṃkāra"],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed to Maitreya; the prose commentary (bhāṣya) is by Vasubandhu. Sanskrit text edited by Sylvain Lévi 1907 (with French translation 1911).",
+      "ascription_evidence": [
+        {"kind": "scholarly-dispute", "description": "Lévi 1907; Mathes 2008; Frauwallner Geschichte II; Schmithausen 1969."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The systematic treatise on the Mahāyāna path organised in twenty-one chapters covering the bodhisattva-vehicle from the awakening of bodhicitta through to Buddhahood. The treatise articulates the gotra (lineage-disposition) doctrine, the six pāramitās, the ten bhūmis, and the conditions under which the universal Tathāgatagarbha actualises in particular practitioners through bodhisattva-praxis. Chapter 9 (Bodhi-adhikāra) treats the Buddha-bodies and the qualities of awakening; chapter 11 (Dharma-paryeṣṭi-adhikāra) treats the seeking of the dharma. The text is one of the principal early sources for the integration of the Tathāgatagarbha doctrine with the Yogācāra trisvabhāva framework that Asaṅga and Vasubandhu would later systematise, and it is the principal source for understanding how the Maitreya-corpus connects the Tathāgatagarbha doctrine to the bodhisattva-praxis-architecture.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "madhyanta-vibhaga",
+      "title": "Madhyanta-Vibhaga",
+      "title_iast": "Madhyānta-Vibhāga",
+      "alternate_titles": ["MAV", "Madhyānta-Vibhāga-Kārikā"],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed to Maitreya; the bhāṣya is by Vasubandhu and the ṭīkā by Sthiramati. Sanskrit text edited by Pandeya 1971; Nagao 1964.",
+      "ascription_evidence": [
+        {"kind": "scholarly-dispute", "description": "Nagao 1964; Stcherbatsky 1936."}
+      ],
+      "genre": "verse-summary",
+      "language": "sanskrit",
+      "summary": "The compact treatise (in five short chapters of verse) articulating the discrimination of middle-and-extremes: the avoidance of the extremes of substantialism and nihilism through the trisvabhāva (parikalpita / paratantra / pariniṣpanna) framework. The treatise is the principal early source for the technical articulation of the trisvabhāva apparatus that Asaṅga's Mahāyāna-Saṅgraha and Vasubandhu's Yogācāra-phase writings will systematise. Chapter 1 (Lakṣaṇa) treats the defining-characteristics of the three natures with particular attention to abhūta-parikalpa (unreal imagination) as the locus of the parikalpita; chapter 3 (Tattva) articulates the three natures' relation to the four noble truths and to the levels of Dharma-realisation. The text supplies the Tathāgatagarbha tradition's analytic apparatus for distinguishing the unconditioned luminosity of citta from the conditioned cognitive flow within which it operates.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "dharma-dharmata-vibhaga",
+      "title": "Dharma-Dharmata-Vibhaga",
+      "title_iast": "Dharma-Dharmatā-Vibhāga",
+      "alternate_titles": ["DDV"],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed to Maitreya. Recovered by Sāṃkṛtyāyana from Tibet; Sanskrit fragments edited by Lévi; complete text preserved in Tibetan translation. Standard study Mathes 1996.",
+      "ascription_evidence": [
+        {"kind": "scholarly-dispute", "description": "Mathes 1996, Unterscheidung der Gegebenheiten von ihrem wahren Wesen."}
+      ],
+      "genre": "verse-summary",
+      "language": "sanskrit",
+      "summary": "The shortest treatise in the Maitreya corpus, articulating the distinction between dharma (the conditioned phenomena of saṃsāric experience) and dharmatā (the unconditioned suchness that is the true nature of those phenomena). The text supplies the technical apparatus by which the Tathāgatagarbha tradition distinguishes the conditioned cognitive flow from its own unconditioned ground without reifying the latter as a substantial self. The articulation of āśraya-parāvṛtti (transformation of the basis) — the practitioner's transition from conditioned to unconditioned — is the principal soteriological category, providing the path-architecture by which the universal Tathāgatagarbha is actualised in particular practitioners.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "abhisamayalamkara",
+      "title": "Abhisamayalamkara",
+      "title_iast": "Abhisamayālaṃkāra",
+      "alternate_titles": ["AA", "Ornament of Clear Realisation"],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed to Maitreya. The standard Sanskrit edition is Stcherbatsky and Obermiller 1929. The work is the principal Tibetan curriculum-text for Prajñāpāramitā studies.",
+      "ascription_evidence": [
+        {"kind": "scholarly-dispute", "description": "Conze 1954, Abhisamayālaṅkāra; Sparham 2006–2012, four-volume translation."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The systematic treatise structuring the entire Prajñāpāramitā literature under the eight categories of clear realisation (abhisamaya): omniscience of all aspects (sarvākārajñatā), path-omniscience (mārgajñatā), all-omniscience (sarvajñatā), the application of all aspects (sarvākārābhisambodha), the culminating application (mūrdhābhisamaya), the serial application (anupūrvābhisamaya), the instantaneous application (ekakṣaṇābhisambodha), and the dharma-body (dharma-kāya). The treatise structures the path to Buddhahood under seventy points of practice, organised through the bodhisattva-bhūmis. Decisive for the Tathāgatagarbha tradition because it supplies the path-architecture under which the universal Buddha-nature actualises through Prajñāpāramitā discipline. The Abhisamayālaṃkāra is the principal curriculum-text for Prajñāpāramitā studies in Tibetan monastic education and the principal textual locus for the eka-yāna doctrine in its developed form.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "The Maitreya-corpus's Indian reception is principally through Asaṅga's Mahāyāna-Saṅgraha (which integrates the trisvabhāva apparatus into the Yogācāra system) and through Vasubandhu's bhāṣyas on the Madhyānta-Vibhāga and Mahāyāna-Sūtra-Alaṃkāra. The Tathāgatagarbha-specific transmission into the Kashmir milieu, where it informs the Pratyabhijñā / Trika articulation of the always-already-Śiva nature of awareness, is more diffuse and is primarily through the Laṅkāvatāra-Sūtra and through general Mahāyāna doctrinal absorption rather than through the Maitreya-corpus directly. The Vedāntic engagement is similarly mediated: Vedānta Deśika's Śatadūṣaṇī treats the tathāgatagarbha doctrine as a structural variant of the Advaita identity-thesis to be refuted on the same grounds (failure to preserve asymmetric dependence). The most extensive modern scholarly literature is Takasaki 1966, Ruegg 1969, Mathes 1996 and 2008, and the Tibetan gzhan-stong / rang-stong debate transmitted through Khenpo Tsultrim Gyamtso, Dzongsar Khyentse, and Mathes's translation work.",
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-buddhist-comparators-extension-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-buddhist-comparators-extension-opus"
+}

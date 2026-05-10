@@ -1,0 +1,27 @@
+{
+  "term_key": "svalaksana",
+  "term_iast": "svalakṣaṇa",
+  "term_devanagari": "स्वलक्षण",
+  "literal": "own-mark, own-characteristic; from sva 'own' + lakṣaṇa 'mark, characteristic, defining feature'",
+  "aliases": ["svalaksana", "svalakṣaṇa", "Svalakṣaṇa", "svalakṣaṇāḥ", "svalakṣaṇena"],
+  "invariant_definition": "*Svalakṣaṇa* is the Dignāga–Dharmakīrti term for the bare particular *qua* causally efficacious momentary entity — the proper object of *pratyakṣa* (perception). Paired with *sāmānya-lakṣaṇa* (the universal-as-conceptually-constructed, which is the proper object of *anumāna*), it supplies the load-bearing distinction in the Buddhist epistemological account of cognition: perception in its pure moment grasps only the *svalakṣaṇa*, while every concept-bearing cognition belongs to *anumāna* and operates on the *sāmānya-lakṣaṇa*. The criterion of the *svalakṣaṇa*'s reality is *artha-kriyā* (causal efficacy): only the momentary entity has the determinate efficacy that distinguishes the real from the merely conceptually-constructed. The doctrine is foundational for the Buddhist defence of *kṣaṇika-vāda* and is the principal Buddhist alternative to the Naiyāyika *jāti*-realist account on which the proper objects of perception are *jāti*-instantiating substance-quality-action complexes.",
+  "per_school": [
+    {
+      "school": "Buddhist Pramāṇa (Dignāga–Dharmakīrti)",
+      "definition": "Foundational doctrine. Dignāga's *Pramāṇa-Samuccaya* chapter 1 (*pratyakṣa*) introduces the *svalakṣaṇa* / *sāmānya-lakṣaṇa* distinction: the *svalakṣaṇa* is the proper object of *pratyakṣa*, the *sāmānya-lakṣaṇa* of *anumāna*; the two are categorically different and cannot be grasped by the same *pramāṇa*. Dharmakīrti's *Pramāṇa-Vārttika* chapter 3 (*pratyakṣa*) develops the analysis with the *artha-kriyā* criterion: the *svalakṣaṇa* is the *paramārtha-sat* because only it has determinate causal efficacy; the *sāmānya-lakṣaṇa* is *saṃvṛti-sat* — conceptually-constructed and lacking determinate efficacy.",
+      "primary_loci": ["Dignāga, Pramāṇa-Samuccaya 1.2", "Dharmakīrti, Pramāṇa-Vārttika 3.1–53"]
+    },
+    {
+      "school": "Nyāya",
+      "definition": "Refused on the grounds that perception delivers determinate cognitions of *jāti*-bearing substance-quality-action complexes, not bare particulars. The Naiyāyika *savikalpaka-pratyakṣa* is precisely the determinate-perception that delivers (e.g.) 'this is a cow' with the *jāti*-content built in; the Buddhist *kalpanā-apoḍha-pratyakṣa* is, on the Naiyāyika reading, an artificial reconstruction that does not correspond to any actual cognition.",
+      "primary_loci": ["Uddyotakara, Nyāya-Vārttika ad NS 1.1.4 (the savikalpaka-defence)", "Vāchaspati, Nyāya-Vārttika-Tātparya-Ṭīkā"]
+    },
+    {
+      "school": "Vedānta",
+      "definition": "Vedāntic engagement with the *svalakṣaṇa* / *sāmānya-lakṣaṇa* distinction is mostly indirect, through the Naiyāyika engagement and the Madhva pramāṇa-paddhati. The Advaita Vedānta-Paribhāṣā treats *pratyakṣa* as delivering determinate content (*viṣaya-vyāpti* of the *vṛtti*), implicitly siding with the Naiyāyika analysis against the Dignāgan; the Mādhva analysis in Jayatīrtha's *Pramāṇa-Paddhati* engages the Buddhist position more directly.",
+      "primary_loci": ["Dharmarāja, Vedānta-Paribhāṣā pratyakṣa-pariccheda", "Jayatīrtha, Pramāṇa-Paddhati"]
+    }
+  ],
+  "see_also": ["samanyalaksana", "pratyaksa", "pramana-dvaya", "apoha", "ksanika", "artha-kriya", "kalpana"],
+  "translator_note": "'Particular' is the standard gloss but understates the technical force: *svalakṣaṇa* is not merely a particular but a momentary causally-efficacious particular, and it is the criterion of the real on the Buddhist account. 'Bare particular' is acceptable; 'unique particular' (Hattori) and 'momentary particular' (Dreyfus) emphasise different aspects. The Sanskrit *sva-lakṣaṇa* is the entity characterised only by its own (*sva*) defining feature (*lakṣaṇa*), as distinct from being characterised by any shared *jāti*-feature."
+}

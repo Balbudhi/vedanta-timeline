@@ -1,0 +1,58 @@
+{
+  "id": "mallisena",
+  "name": "Mallisena",
+  "name_iast": "Malliṣeṇa",
+  "alternate_names": ["Malliṣeṇa Sūri"],
+  "dates_low": 1230,
+  "dates_high": 1295,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Dated by the colophon of the Syādvāda-Mañjarī to Vikrama saṃvat 1349 (= 1292 CE) and by the school's testimony; modern scholarship (Dhruva 1933, Cort) accepts the late-thirteenth-century date. The Yāpanīya / Śvetāmbara sectarian affiliation is contested but the text's reception has been overwhelmingly Śvetāmbara.",
+  "school": "Jaina",
+  "school_color_token": "jaina-comparator",
+  "sub_school": "Śvetāmbara syādvāda-systematic",
+  "sub_school_shade": 3,
+  "lineage_in": ["umasvati", "haribhadra", "hemacandra"],
+  "lineage_out": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "madhusudana",
+      "direction": "is-refuted-by",
+      "note": "Madhusūdana's Advaita-Siddhi engages anekānta-vāda in the developed form Malliṣeṇa systematises: the Syādvāda-Mañjarī is the canonical thirteenth-century exposition of the seven-fold predication and is the form in which the Jaina position the Advaita-Siddhi refutes is most accessible to a sixteenth-century Vedāntic reader; Madhusūdana's argument that anekānta either collapses into self-contradiction or trivialises into innocuous pluralism takes its target from this systematic statement."
+    },
+    {
+      "thinker_id": "madhva",
+      "direction": "is-refuted-by",
+      "note": "Madhva's Tattva-Saṅkhyāna and the anti-Jaina sections of his Brahma-Sūtra-Bhāṣya engage anekānta-vāda; the position Madhva refutes is the developed syād-vāda of the Hemacandra-Malliṣeṇa systematisation, and Malliṣeṇa is the philosopher whose Mañjarī presents the Jaina position with the most analytic clarity in the early-medieval period."
+    }
+  ],
+  "core_thesis": "Malliṣeṇa's *Syādvāda-Mañjarī* (\"the bouquet of *syād-vāda*\"), composed in 1292 CE, is the canonical Sanskrit-language commentary on Hemacandra's *Anya-Yoga-Vyavaccheda-Dvātriṃśikā* — Hemacandra's thirty-two-verse *stuti* refuting the rival *darśanas*. The work has become the standard Jaina exposition of *anekānta-vāda* as a meta-philosophical position covering all rival schools' positive theses. Each verse of Hemacandra's *dvātriṃśikā* targets one rival doctrine — Cārvāka's body-self thesis, Buddhist *anātma* and *kṣaṇika*, Vaiśeṣika atomism, Sāṃkhya-Yoga's *prakṛti-puruṣa* dualism, Nyāya's *paramāṇu*-cosmology, Mīmāṃsā's eternal *śabda*, Advaita's *māyā-vāda* — and Malliṣeṇa's commentary unfolds each refutation with full dialectical apparatus. The strategic move is to show that each rival position fails by absolutising one *naya* and denying the others; the Jaina position is the *anekānta* synthesis that admits each *naya* in its proper standpoint and denies none. The seven-fold *bhaṅga*-predication (*syād asti*, *syād nāsti*, *syād asti nāsti*, *syād avaktavyaḥ*, *syād asty avaktavyaḥ*, *syād nāsty avaktavyaḥ*, *syād asti nāsty avaktavyaḥ*) is presented not as relativism but as a logically rigorous schema for tracking which standpoint a predication operates under. Anekānta-vāda commits the Jaina to the *substantial-modal* (*dravya-paryāya*) account of reality but does not commit the Jaina to the relativist thesis that contradictory predicates can be predicated of the same subject under the same standpoint. The work is the form in which Brahmanical Vedāntic refutations of Jainism (Madhusūdana, Madhva, Appayya) most often meet *anekānta-vāda*, and is the principal text in which a modern reader can recover what *syād-vāda* commits to and what it does not.",
+  "engaged_works": [
+    {
+      "work_id": "syadvada-manjari",
+      "title": "Syadvada-Manjari",
+      "title_iast": "Syādvāda-Mañjarī",
+      "alternate_titles": ["Anya-Yoga-Vyavaccheda-Dvātriṃśikā-Vṛtti", "Anya-Yoga-Vyavaccheda-Bouquet"],
+      "composition_dates_low": 1292,
+      "composition_dates_high": 1292,
+      "composition_dates_notes": "Colophon dates the work precisely to Vikrama saṃvat 1349, equivalent to 1292 CE; the colophon is among the most secure dating-evidence in the Jaina commentarial tradition.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Malliṣeṇa by his own colophon and by uniform Śvetāmbara tradition; the Yāpanīya / Śvetāmbara sectarian affiliation of the author is disputed but the Śvetāmbara reception has been canonical.",
+      "ascription_evidence": [
+        {"kind": "manuscript-colophon", "description": "Colophon-date in the standard editions (Bombay 1933 ed. by Dhruva)."},
+        {"kind": "scholarly-consensus", "description": "Cort (Jains in the World); Soni; Dundas (1992, The Jains)."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "A verse-by-verse Sanskrit prose commentary on Hemacandra's *Anya-Yoga-Vyavaccheda-Dvātriṃśikā* (\"thirty-two-verse refutation of other doctrines\"), composed by Malliṣeṇa in 1292 CE. The source-text is a *stuti* — a hymn of praise to Mahāvīra — whose praise consists in exposing the failures of the rival *darśanas*; Malliṣeṇa's commentary unfolds each verse's polemical content with full dialectical apparatus. The opening verses target Cārvāka's body-self thesis (refuted by the impossibility of consciousness arising from acetana materials), Buddhist *anātma* and *kṣaṇika-vāda* (refuted by the incoherence of momentariness with respect to memory and recognition), the *vijñāna-vāda* and *śūnya-vāda* (refuted as forms of one-sided absolutising), Vaiśeṣika atomism (refuted by the regress of partless atoms aggregating into perceptible matter), Sāṃkhya-Yoga *prakṛti-puruṣa* dualism (refuted as failing to account for the relation), Nyāya's *Īśvara*-as-creator (refuted by the standard objections), Mīmāṃsā eternal *śabda* (refuted as conflating linguistic universal with phonetic particular), and Advaita's *māyā-vāda* (refuted as a form of *kṣaṇika*-by-other-name in its denial of the world's reality). The commentary develops the seven-fold *bhaṅga*-predication and the *naya*-doctrine as the *anekānta* synthesis that admits each rival's positive thesis in its proper standpoint while refusing each rival's absolutising claim. The work is the principal Jaina exposition of *anekānta-vāda* as a meta-philosophical position and is the form in which Brahmanical Vedāntic refutations of Jainism most often engage the developed *syād-vāda*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "The Syādvāda-Mañjarī becomes the standard Sanskrit-language Jaina exposition of anekānta-vāda for Brahmanical and Buddhist readers. It is the form in which Madhusūdana's Advaita-Siddhi, Madhva's anti-anekānta sections of the Tattva-Saṅkhyāna, and Appayya's polemical works most often meet the Jaina position. In modern scholarship Dhruva's 1933 edition has been the standard; Cort has discussed the work's place in the Śvetāmbara dialectical curriculum.",
+  "entry_status": "draft",
+  "entry_owner_agent": "non-vedic-comparator-extension-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "non-vedic-comparator-extension-opus"
+}
