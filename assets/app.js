@@ -1219,12 +1219,10 @@ function renderPerspectivesBlock(t) {
   const list = (perspectivesManifest && perspectivesManifest.perspectives) || [];
   const matches = list.filter((p) => Array.isArray(p.for_thinker_ids) && p.for_thinker_ids.includes(t.id));
   if (!matches.length) {
-    // Trigger a background load and re-render once available.
+    // Trigger a background load and re-open the thinker once available so handlers re-bind.
     if (!perspectivesManifest) {
       ensurePerspectivesLoaded().then(() => {
-        if (state.activeId === t.id) {
-          detailContent.innerHTML = renderDetail(t);
-        }
+        if (state.activeId === t.id) openThinker(t.id);
       });
     }
     return "";
