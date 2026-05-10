@@ -2267,11 +2267,10 @@ async function selectSourceFile(path) {
 
   // Decide rendering strategy from `format` (set by build_site_sources.py).
   // - markdown    → renderMarkdownFull (sanskrit-aside, GFM tables, headings)
-  // - text-with-locus-marker / plain-text → render line-preserving with `# `
+  // - plain-text / text-with-locus-marker → render line-preserving with `# `
   //   headings promoted to <h2>/<h3> so users see styled headings, not raw
   //   `#` characters. We do NOT eat asterisks in plain text: they may be
-  //   editorial markup (e.g. footnote markers in djvu OCR) the user wants to
-  //   see verbatim.
+  //   editorial markup (footnote markers in djvu OCR) the user wants verbatim.
   const fmt = (meta.format || "plain-text");
   const body = document.createElement("div");
   body.className = "csv-body" + (fmt === "markdown" ? " csv-body--md" : " csv-body--pre");
@@ -2285,12 +2284,11 @@ async function selectSourceFile(path) {
   dpSourceViewer.scrollTop = 0;
 }
 
-// Render a plain-text source (most files in data/sources/ are line-oriented
-// GRETIL-style verse text or djvu OCR with editorial `# Heading` markers):
-// preserve linebreaks, recognize `# Heading` / `## Subheading` lines so they
-// render as styled headings, but otherwise leave content verbatim. Group
-// consecutive verse lines into <pre> blocks separated by headings so the user
-// can read in chunks.
+// Render a plain-text source: preserve linebreaks (most files in
+// data/sources/ are line-oriented GRETIL verse text or djvu OCR), recognize
+// `# Heading` / `## Subheading` lines so they render as styled headings, but
+// leave content otherwise verbatim. Group consecutive verse lines into <pre>
+// blocks separated by headings so the user can read in chunks.
 function renderPlainSourceText(text) {
   const lines = (text || "").split(/\r?\n/);
   const out = [];
@@ -2344,12 +2342,12 @@ function escape(s) {
   return String(s).replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 }
 
-// Minimal inline-only markdown for short strings (titles, headwords,
-// attributions, locus labels, etc.). Renders **bold** → <strong>,
-// *italic* → <em>, _italic_ → <em>, `code` → <code>. HTML-escapes everything
-// else. No paragraph splitting, no block elements, no glossary tagging — keep
-// it cheap and predictable. Use for any short string that comes from a JSON
-// manifest authored with markdown emphasis (which is most of them).
+// Inline-only markdown for short strings (titles, headwords, attributions,
+// locus labels). Renders **bold** → <strong>, *italic* → <em>, _italic_ → <em>,
+// `code` → <code>. HTML-escapes everything else. No paragraph splitting, no
+// block elements, no glossary tagging — keep it cheap and predictable. Use
+// for any short string that comes from a JSON manifest authored with markdown
+// emphasis (most of them).
 function inlineMarkdown(s) {
   if (s == null) return "";
   let out = escape(s);
