@@ -1,0 +1,78 @@
+{
+  "id": "heidegger",
+  "name": "Martin Heidegger",
+  "name_iast": "Martin Heidegger",
+  "dates_low": 1889,
+  "dates_high": 1976,
+  "school": "Phenomenology",
+  "school_color_token": "cross-tradition",
+  "summary": "Martin Heidegger is represented here by a minimal backlog stub so routed on-disk source texts can surface in the Source tab pending fuller review.",
+  "engaged_works": [
+    {
+      "work_id": "being-and-time-martin-heidegger-1962",
+      "title": "Being And Time Martin Heidegger 1962",
+      "title_iast": "Being And Time Martin Heidegger 1962",
+      "language": "english",
+      "source_status": "clean-on-disk",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Routed from the 2026-05-10 Tier-1 publication backlog as an on-disk source witness.",
+      "genre": "monograph",
+      "summary": "This on-disk text is being wired into the Source tab as a citation witness for Martin Heidegger, Being And Time Martin Heidegger 1962. The entry is intentionally minimal: it records the routed file and basic bibliographic shape so the site can surface the source while fuller review waits. A later pass should tighten the title, edition, and passage coverage against the on-disk witness.",
+      "entry_status": "wired-on-disk",
+      "key_passage_ids": []
+    },
+    {
+      "work_id": "martin-heidegger-ser-y-tiempo-sein-und-zeit-1927",
+      "title": "Martin Heidegger Ser Y Tiempo Sein Und Zeit 1927",
+      "title_iast": "Martin Heidegger Ser Y Tiempo Sein Und Zeit 1927",
+      "language": "german",
+      "source_status": "clean-on-disk",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Routed from the 2026-05-10 Tier-1 publication backlog as an on-disk source witness.",
+      "genre": "monograph",
+      "summary": "This on-disk text is being wired into the Source tab as a citation witness for Martin Heidegger, Martin Heidegger Ser Y Tiempo Sein Und Zeit 1927. The entry is intentionally minimal: it records the routed file and basic bibliographic shape so the site can surface the source while fuller review waits. A later pass should tighten the title, edition, and passage coverage against the on-disk witness.",
+      "entry_status": "wired-on-disk",
+      "key_passage_ids": []
+    },
+    {
+      "work_id": "heideggermartinseinundzeit-20200121",
+      "title": "Sein und Zeit",
+      "title_iast": "Sein und Zeit",
+      "language": "german",
+      "source_status": "clean-on-disk",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Routed from the 2026-05-10 Tier-1 publication backlog as an on-disk source witness.",
+      "genre": "monograph",
+      "summary": "This on-disk text is being wired into the Source tab as a citation witness for Martin Heidegger, Sein und Zeit. The entry is intentionally minimal: it records the routed file and basic bibliographic shape so the site can surface the source while fuller review waits. A later pass should tighten the title, edition, and passage coverage against the on-disk witness.",
+      "entry_status": "wired-on-disk",
+      "key_passage_ids": []
+    },
+    {
+      "work_id": "martinheideggerparmenides",
+      "title": "Parmenides",
+      "title_iast": "Parmenides",
+      "language": "german",
+      "source_status": "clean-on-disk",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Routed from the 2026-05-10 Tier-1 publication backlog as an on-disk source witness.",
+      "genre": "monograph",
+      "summary": "This on-disk text is being wired into the Source tab as a citation witness for Martin Heidegger, Parmenides. The entry is intentionally minimal: it records the routed file and basic bibliographic shape so the site can surface the source while fuller review waits. A later pass should tighten the title, edition, and passage coverage against the on-disk witness.",
+      "entry_status": "wired-on-disk",
+      "key_passage_ids": []
+    },
+    {
+      "work_id": "heidegger-what-is-metaphysics-1928",
+      "title": "Heidegger What Is Metaphysics 1928",
+      "title_iast": "Heidegger What Is Metaphysics 1928",
+      "language": "german",
+      "source_status": "clean-on-disk",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Routed from the 2026-05-10 Tier-1 publication backlog as an on-disk source witness.",
+      "genre": "monograph",
+      "summary": "This on-disk text is being wired into the Source tab as a citation witness for Martin Heidegger, Heidegger What Is Metaphysics 1928. The entry is intentionally minimal: it records the routed file and basic bibliographic shape so the site can surface the source while fuller review waits. A later pass should tighten the title, edition, and passage coverage against the on-disk witness.",
+      "entry_status": "wired-on-disk",
+      "key_passage_ids": []
+    }
+  ],
+  "entry_status": "stub-from-backlog"
+}

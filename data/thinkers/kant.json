@@ -1,0 +1,65 @@
+{
+  "id": "kant",
+  "name": "Immanuel Kant",
+  "name_iast": "Immanuel Kant",
+  "dates_low": 1724,
+  "dates_high": 1804,
+  "school": "German Idealism",
+  "school_color_token": "cross-tradition",
+  "summary": "Immanuel Kant is represented here by a minimal backlog stub so routed on-disk source texts can surface in the Source tab pending fuller review.",
+  "engaged_works": [
+    {
+      "work_id": "grundlegung",
+      "title": "Grundlegung",
+      "title_iast": "Grundlegung",
+      "language": "german",
+      "source_status": "clean-on-disk",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Routed from the 2026-05-10 Tier-1 publication backlog as an on-disk source witness.",
+      "genre": "monograph",
+      "summary": "This on-disk text is being wired into the Source tab as a citation witness for Immanuel Kant, Grundlegung. The entry is intentionally minimal: it records the routed file and basic bibliographic shape so the site can surface the source while fuller review waits. A later pass should tighten the title, edition, and passage coverage against the on-disk witness.",
+      "entry_status": "wired-on-disk",
+      "key_passage_ids": []
+    },
+    {
+      "work_id": "kritik-der-praktischen-vernunft",
+      "title": "Kritik Der Praktischen Vernunft",
+      "title_iast": "Kritik Der Praktischen Vernunft",
+      "language": "german",
+      "source_status": "clean-on-disk",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Routed from the 2026-05-10 Tier-1 publication backlog as an on-disk source witness.",
+      "genre": "monograph",
+      "summary": "This on-disk text is being wired into the Source tab as a citation witness for Immanuel Kant, Kritik Der Praktischen Vernunft. The entry is intentionally minimal: it records the routed file and basic bibliographic shape so the site can surface the source while fuller review waits. A later pass should tighten the title, edition, and passage coverage against the on-disk witness.",
+      "entry_status": "wired-on-disk",
+      "key_passage_ids": []
+    },
+    {
+      "work_id": "kritik-der-reinen-vernunft",
+      "title": "Kritik Der Reinen Vernunft",
+      "title_iast": "Kritik Der Reinen Vernunft",
+      "language": "german",
+      "source_status": "clean-on-disk",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Routed from the 2026-05-10 Tier-1 publication backlog as an on-disk source witness.",
+      "genre": "monograph",
+      "summary": "This on-disk text is being wired into the Source tab as a citation witness for Immanuel Kant, Kritik Der Reinen Vernunft. The entry is intentionally minimal: it records the routed file and basic bibliographic shape so the site can surface the source while fuller review waits. A later pass should tighten the title, edition, and passage coverage against the on-disk witness.",
+      "entry_status": "wired-on-disk",
+      "key_passage_ids": []
+    },
+    {
+      "work_id": "kritik-der-urteilskraft",
+      "title": "Kritik Der Urteilskraft",
+      "title_iast": "Kritik Der Urteilskraft",
+      "language": "german",
+      "source_status": "clean-on-disk",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Routed from the 2026-05-10 Tier-1 publication backlog as an on-disk source witness.",
+      "genre": "monograph",
+      "summary": "This on-disk text is being wired into the Source tab as a citation witness for Immanuel Kant, Kritik Der Urteilskraft. The entry is intentionally minimal: it records the routed file and basic bibliographic shape so the site can surface the source while fuller review waits. A later pass should tighten the title, edition, and passage coverage against the on-disk witness.",
+      "entry_status": "wired-on-disk",
+      "key_passage_ids": []
+    }
+  ],
+  "entry_status": "stub-from-backlog"
+}
