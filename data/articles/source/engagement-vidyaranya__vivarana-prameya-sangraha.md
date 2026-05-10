@@ -8,7 +8,7 @@
 
 Engaged at depth: the whole currently retrievable opening unit of the text, namely maṅgala verses 1-3 and Digests 1-15, i.e. eighteen verses total, preserved in the on-disk extracted witness at lines 19-789. This includes close reading of the text’s self-description, its definition of *śravaṇa* and *manana*, its account of *nididhyāsana*, and its crucial claims about sentence-born *vṛtti*, *brahma-vijñāna*, and *ajñāna-nāśa*.
 
-Structural summary only: the immediate prose continuation as described by the same extracted witness, which says that the first *varṇaka* goes on to debate whether *śravaṇa* is a *vidhi*, to read *Brahma-Sūtra* 1.1.1, and to treat bondage as *avidyātmaka*; and that later opening loci take up *adhyāsa*, *pramāṇa*, and the Vivaraṇa treatment of ignorance (lines 11-13, 793-795).
+Structural summary only: the immediate prose continuation as described by the same extracted witness, which says that the first *varṇaka* goes on to debate whether *śravaṇa* is a *vidhi*, to read [*Brahma-Sūtra* 1.1.1](cite://badarayana/brahma-sutra/1.1.1), and to treat bondage as *avidyātmaka*; and that later opening loci take up *adhyāsa*, *pramāṇa*, and the Vivaraṇa treatment of ignorance (lines 11-13, 793-795).
 
 Not engaged: the remainder of the 284-page archive PDF as a directly readable Sanskrit witness. The PDF is on disk, and its page count is recoverable, but its embedded text layer is not usable enough to support page-by-page structural claims. Wherever a fuller claim would require that unreadable portion, I mark it [NOT YET RETRIEVED].
 
