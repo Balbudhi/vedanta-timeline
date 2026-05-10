@@ -897,12 +897,17 @@ body.is-reading-mode .passage-card .english { font-size: 18px; }
   border-radius: 4px;
   box-shadow: var(--shadow-md);
   padding: 16px 20px 18px;
-  max-width: 380px;
+  max-width: 420px;
+  width: 420px;
+  max-height: min(70vh, 640px);
+  overflow-y: auto;
   z-index: 150;
   font-family: var(--serif);
   font-size: 14px;
   line-height: 1.55;
 }
+.glossary-popover::-webkit-scrollbar { width: 6px; }
+.glossary-popover::-webkit-scrollbar-thumb { background: #d8d8d8; border-radius: 3px; }
 .glossary-popover .gp-close {
   position: absolute; top: 6px; right: 8px;
   background: none; border: none;
