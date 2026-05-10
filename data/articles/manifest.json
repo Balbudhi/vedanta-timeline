@@ -7,7 +7,15 @@
       "subtitle": "Substanz als Subjekt, Aufhebung, the speculative proposition — placed against Bhartṛprapañca, Madhva, Vyāsatīrtha, Jīva Gosvāmī, Vidyāraṇya.",
       "kind": "comparative",
       "source_doc": "docs/HEGEL_PREFACE_REPORT.md",
-      "tags": ["Hegel", "Bhartṛprapañca", "Madhva", "Jīva Gosvāmī", "Vidyāraṇya", "speculative-proposition", "Aufhebung"],
+      "tags": [
+        "Hegel",
+        "Bhartṛprapañca",
+        "Madhva",
+        "Jīva Gosvāmī",
+        "Vidyāraṇya",
+        "speculative-proposition",
+        "Aufhebung"
+      ],
       "word_count_approx": 2500,
       "date": "2026-05-09"
     },
@@ -17,7 +25,15 @@
       "subtitle": "Testing three precisifications of the hypothesis that Pūrva-Mīmāṃsā ritual is the externalized form of an inner Vedic yogic process Aurobindo decodes in *The Secret of the Veda*.",
       "kind": "perspective-investigation",
       "source_doc": "docs/MIMAMSA_AUROBINDO_HYPOTHESIS.md",
-      "tags": ["Mīmāṃsā", "Jaimini", "Śabara", "Aurobindo", "Sureśvara", "yajña", "apūrva"],
+      "tags": [
+        "Mīmāṃsā",
+        "Jaimini",
+        "Śabara",
+        "Aurobindo",
+        "Sureśvara",
+        "yajña",
+        "apūrva"
+      ],
       "word_count_approx": 4600,
       "date": "2026-05-09"
     },
@@ -27,7 +43,17 @@
       "subtitle": "Re-do with stronger verdict: the Mīmāṃsaka apparatus has substantial interior content (Śabara on MS 1.1.2: *so 'rthaḥ puruṣaṃ niḥśreyasena saṃyunaktīti pratijānīmahe*) that the first pass underweighted. Clooney 2022's *Mīmāṃsā as Introspective Literature and as Philosophy* provides academic precedent. Sureśvara *NS* 1.67's structural-incapability critique lands against the externalized form, not the original integral form.",
       "kind": "perspective-investigation",
       "source_doc": "docs/MIMAMSA_AUROBINDO_HYPOTHESIS_v2.md",
-      "tags": ["Mīmāṃsā", "Jaimini", "Śabara", "Aurobindo", "Integral-Yoga", "bhāvanā", "apūrva", "depth-reading", "Clooney"],
+      "tags": [
+        "Mīmāṃsā",
+        "Jaimini",
+        "Śabara",
+        "Aurobindo",
+        "Integral-Yoga",
+        "bhāvanā",
+        "apūrva",
+        "depth-reading",
+        "Clooney"
+      ],
       "word_count_approx": 5870,
       "date": "2026-05-09",
       "status": "superseded",
@@ -40,10 +66,25 @@
       "subtitle": "Replaces v2's diagnostic-decline framing. The classical Mīmāṃsakas externalised the rite because the symbol-environment they inhabited carried the depth in lived practice; the school is coherent on its own terms. Clooney's *Thinking Ritually* (1990) and 2022 \"Mīmāṃsā as Introspective Literature and as Philosophy\" are engaged substantively (codanā, bhāvanā, adhikāra, apūrva, the karmin as reflective subject). Aurobindo's *Secret of the Veda* and *Synthesis of Yoga* are reframed as a hermeneutic for the contemporary reader at distance from the original symbol-environment — amplification, not correction.",
       "kind": "perspective-investigation",
       "source_doc": "data/articles/source/mimamsa-aurobindo-v3.md",
-      "tags": ["Mīmāṃsā", "Jaimini", "Śabara", "Kumārila", "Prabhākara", "Aurobindo", "Clooney", "bhāvanā", "codanā", "apūrva", "contemporary-reader"],
+      "tags": [
+        "Mīmāṃsā",
+        "Jaimini",
+        "Śabara",
+        "Kumārila",
+        "Prabhākara",
+        "Aurobindo",
+        "Clooney",
+        "bhāvanā",
+        "codanā",
+        "apūrva",
+        "contemporary-reader"
+      ],
       "word_count_approx": 5400,
       "date": "2026-05-10",
-      "supersedes": ["mimamsa-aurobindo-v1", "mimamsa-aurobindo-v2"],
+      "supersedes": [
+        "mimamsa-aurobindo-v1",
+        "mimamsa-aurobindo-v2"
+      ],
       "status": "superseded",
       "superseded": "true",
       "superseded_by": "mimamsa-aurobindo-v4",
@@ -55,10 +96,28 @@
       "subtitle": "Reinstates v2's symbolism-shift thesis cleanly, in its proper register, while retaining v3's correct insistence on Mīmāṃsā's coherence on its own terms. The school worked for the practitioners who inhabited the original symbol-environment; the symbol-environment changed across centuries as a structural cultural-historical fact (Religionsgeschichte, not moral decline); for participants outside the original substrate, the rite's operations remain analysable on the school's own terms but no longer carry their original immediate spiritual-symbolic register; Aurobindo's hermeneutic is amplification of what was once lived for the contemporary reader, not correction of a defective school. §5 explicitly rejects the school-internal decline narrative (Brahmin corruption, Sanskrit-fluency decay, kali-yuga) as a misdiagnosis of structural-cultural change as moral failure.",
       "kind": "perspective-investigation",
       "source_doc": "data/articles/source/mimamsa-aurobindo-v4.md",
-      "tags": ["Mīmāṃsā", "Jaimini", "Śabara", "Kumārila", "Prabhākara", "Aurobindo", "Clooney", "symbol-environment", "Religionsgeschichte", "bhāvanā", "codanā", "apūrva", "contemporary-reader"],
+      "tags": [
+        "Mīmāṃsā",
+        "Jaimini",
+        "Śabara",
+        "Kumārila",
+        "Prabhākara",
+        "Aurobindo",
+        "Clooney",
+        "symbol-environment",
+        "Religionsgeschichte",
+        "bhāvanā",
+        "codanā",
+        "apūrva",
+        "contemporary-reader"
+      ],
       "word_count_approx": 6100,
       "date": "2026-05-10",
-      "supersedes": ["mimamsa-aurobindo-v1", "mimamsa-aurobindo-v2", "mimamsa-aurobindo-v3"]
+      "supersedes": [
+        "mimamsa-aurobindo-v1",
+        "mimamsa-aurobindo-v2",
+        "mimamsa-aurobindo-v3"
+      ]
     },
     {
       "slug": "primitive-model",
@@ -66,7 +125,13 @@
       "subtitle": "Nine structural primitives — substrate-independence, mode-status, identity-relation, causation, locus-of-avidyā, bheda-count, epistemic-authority, mokṣa-state, bhakti-role — and the derivation table per school.",
       "kind": "framework",
       "source_doc": "docs/PRIMITIVE_MODEL.md",
-      "tags": ["primitive-model", "comparative-framework", "Madhva", "Advaita", "perspectivism"],
+      "tags": [
+        "primitive-model",
+        "comparative-framework",
+        "Madhva",
+        "Advaita",
+        "perspectivism"
+      ],
       "word_count_approx": 4000,
       "date": "2026-05-09"
     },
@@ -76,9 +141,256 @@
       "subtitle": "Four-verdict schema for cross-school comparison: shared-presupposition / parallel-structure / terminological-equivalence / genuine-disagreement / contested. Five claim categories. Anti-pattern guards.",
       "kind": "methodology",
       "source_doc": "docs/COMPARATIVE_CLAIMS_FRAMEWORK.md",
-      "tags": ["methodology", "comparative", "perspectivism"],
+      "tags": [
+        "methodology",
+        "comparative",
+        "perspectivism"
+      ],
       "word_count_approx": 3500,
       "date": "2026-05-09"
+    },
+    {
+      "slug": "engagement-madhva__brahma-sutra-bhasya",
+      "title": "Engagement: Madhva's *Brahma-Sūtra-Bhāṣya* with Tattva-Prakāśikā, Tātparya-Candrikā, Nyāya-Sudhā, Parimaḷa",
+      "subtitle": "A walk-through of Madhva's BSB across three commentarial layers — the bheda-pañcaka of Tattvavāda, the realism-recovery move on BS 1.1.1, the constructive thesis that *mithyā ≠ asat*.",
+      "kind": "engagement",
+      "source_doc": "data/articles/source/engagement-madhva__brahma-sutra-bhasya.md",
+      "tags": [
+        "Madhva",
+        "Tattvavāda",
+        "Brahma-Sūtra",
+        "Jayatīrtha",
+        "Vyāsatīrtha",
+        "Rāghavendra",
+        "realism",
+        "bheda-pañcaka"
+      ],
+      "word_count_approx": 2463,
+      "date": "2026-05-10",
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/madhva_brahma_sutra_bhasya_3comm_vol{1,2,3}_archive_djvu.txt"
+    },
+    {
+      "slug": "engagement-madhva__bhagavata-tatparya-nirnaya",
+      "title": "Engagement: Madhva's *Bhāgavata-Tātparya-Nirṇaya*",
+      "subtitle": "Madhva's settling-of-purport reading of the *Bhāgavata Purāṇa* — the bhakti axis of Tattvavāda, the gradation of jīvas, the locus of Viṣṇu's primacy in scripture.",
+      "kind": "engagement",
+      "source_doc": "data/articles/source/engagement-madhva__bhagavata-tatparya-nirnaya.md",
+      "tags": [
+        "Madhva",
+        "Bhāgavata",
+        "tātparya",
+        "bhakti",
+        "Vaiṣṇavism"
+      ],
+      "word_count_approx": 2330,
+      "date": "2026-05-10",
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/madhva_bhagavata_tatparya_nirnaya_archive_djvu.txt"
+    },
+    {
+      "slug": "engagement-madhva__mayavada-khandana",
+      "title": "Engagement: Madhva's *Māyāvāda-Khaṇḍana*",
+      "subtitle": "The polemical demolition of Advaitic māyāvāda — Madhva's argument that *mithyā* construed as ontological non-existence is incoherent, and the constructive corollary for the realism-recovery trajectory.",
+      "kind": "engagement",
+      "source_doc": "data/articles/source/engagement-madhva__mayavada-khandana.md",
+      "tags": [
+        "Madhva",
+        "māyāvāda",
+        "polemic",
+        "mithyā",
+        "realism",
+        "anti-Advaita"
+      ],
+      "word_count_approx": 2314,
+      "date": "2026-05-10",
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/madhva_mayavada_khandanam_archive_djvu.txt"
+    },
+    {
+      "slug": "engagement-nimbarka_srinivasa__vedanta-parijata-saurabha-kaustubha",
+      "title": "Engagement: Nimbārka's *Vedānta-Pārijāta-Saurabha* with Śrīnivāsa's *Vedānta-Kaustubha*",
+      "subtitle": "Dvaitādvaita's parallel-realism reading of the Brahma-Sūtras — bheda and abheda as equiprimordial, the cit-acit-Brahman triad, and where Nimbārka sits between Rāmānuja and Madhva.",
+      "kind": "engagement",
+      "source_doc": "data/articles/source/engagement-nimbarka_srinivasa__vedanta-parijata-saurabha-kaustubha.md",
+      "tags": [
+        "Nimbārka",
+        "Śrīnivāsa",
+        "Dvaitādvaita",
+        "Brahma-Sūtra",
+        "bhedābheda"
+      ],
+      "word_count_approx": 2284,
+      "date": "2026-05-10",
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/nimbarka_brahmasutra_3comm_vrindavan_archive_djvu.txt"
+    },
+    {
+      "slug": "engagement-vallabha__anu-bhasya",
+      "title": "Engagement: Vallabha's *Aṇu-Bhāṣya* on the Brahma-Sūtras",
+      "subtitle": "Śuddhādvaita as a third realism-Vedānta — the world as Brahman's *avirbhāva-tirobhāva* (manifestation-veiling), the rejection of pariṇāma and vivarta, and the bhakti-axis of pure non-duality.",
+      "kind": "engagement",
+      "source_doc": "data/articles/source/engagement-vallabha__anu-bhasya.md",
+      "tags": [
+        "Vallabha",
+        "Śuddhādvaita",
+        "Brahma-Sūtra",
+        "avirbhāva",
+        "puṣṭi-bhakti"
+      ],
+      "word_count_approx": 2487,
+      "date": "2026-05-10",
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/vallabha_anubhasya_text_1921_mumbai_archive_djvu.txt"
+    },
+    {
+      "slug": "engagement-vedanta-desika__pancaratra-raksha",
+      "title": "Engagement: Vedānta-Deśika's *Pāñcarātra-Rakṣā*",
+      "subtitle": "Deśika's defence of the scriptural authority of the Pāñcarātra against Mīmāṃsaka and Smārta attack — the tantric-Vaiṣṇava locus of Viśiṣṭādvaita's ritual ontology.",
+      "kind": "engagement",
+      "source_doc": "data/articles/source/engagement-vedanta-desika__pancaratra-raksha.md",
+      "tags": [
+        "Vedānta-Deśika",
+        "Viśiṣṭādvaita",
+        "Pāñcarātra",
+        "tantra",
+        "scriptural-authority"
+      ],
+      "word_count_approx": 2429,
+      "date": "2026-05-10",
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/vedanta_desika_pancaratra_raksha_adyar_archive_djvu.txt"
+    },
+    {
+      "slug": "engagement-raghavendra__nyaya-sudha-parimala",
+      "title": "Engagement: Rāghavendra's *Nyāya-Sudhā-Parimaḷa* (4 vols)",
+      "subtitle": "Rāghavendra's gloss on Jayatīrtha's *Nyāya-Sudhā* on Madhva's *Anuvyākhyāna* — the late-Mādhva polemic apparatus deployed across all four adhyāyas of the Brahma-Sūtra.",
+      "kind": "engagement",
+      "source_doc": "data/articles/source/engagement-raghavendra__nyaya-sudha-parimala.md",
+      "tags": [
+        "Rāghavendra",
+        "Jayatīrtha",
+        "Madhva",
+        "Anuvyākhyāna",
+        "Tattvavāda",
+        "polemic-apparatus"
+      ],
+      "word_count_approx": 2301,
+      "date": "2026-05-10",
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/raghavendra_nyaya_sudha_parimala_ad{1,2,3,4}_krishnacharya_1895_archive_djvu.txt"
+    },
+    {
+      "slug": "engagement-raghavendra__tantra-dipika",
+      "title": "Engagement: Rāghavendra's *Tantra-Dīpikā*",
+      "subtitle": "Rāghavendra's commentary on Madhva's *Tantra-Sāra-Saṅgraha* — the Mādhva ritual-philosophical interface, mantra ontology, and the bhakti-jñāna integration.",
+      "kind": "engagement",
+      "source_doc": "data/articles/source/engagement-raghavendra__tantra-dipika.md",
+      "tags": [
+        "Rāghavendra",
+        "Madhva",
+        "Tantra-Sāra",
+        "ritual",
+        "mantra"
+      ],
+      "word_count_approx": 2394,
+      "date": "2026-05-10",
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/tantra_dipika_raghavendra_archive_djvu.txt"
+    },
+    {
+      "slug": "engagement-vidyaranya__vivarana-prameya-sangraha",
+      "title": "Engagement: Vidyāraṇya's *Vivaraṇa-Prameya-Saṅgraha*",
+      "subtitle": "The Vivaraṇa-school digest — śravaṇa as ascertainment of textual purport, manana, nididhyāsana, the *mānasī-vṛtti* whose object is *pratyag-brahmaikya*, and the locus of Brahman as both *āśraya* and *viṣaya* of avidyā.",
+      "kind": "engagement",
+      "source_doc": "data/articles/source/engagement-vidyaranya__vivarana-prameya-sangraha.md",
+      "tags": [
+        "Vidyāraṇya",
+        "Vivaraṇa-school",
+        "Advaita",
+        "avidyā",
+        "Prakāśātman",
+        "Padmapāda"
+      ],
+      "word_count_approx": 2399,
+      "date": "2026-05-10",
+      "source_text_path": "materials/primary_texts/sanskrit/vedanta/full_corpus/vidyaranya_vivarana_prameya_sangraha_1893_archive.pdf"
+    },
+    {
+      "slug": "engagement-vijnanabhiksu__vijnanamrta-bhasya",
+      "title": "Engagement: Vijñānabhikṣu's *Vijñānāmṛta-Bhāṣya* on the Brahma-Sūtras",
+      "subtitle": "Vijñānabhikṣu's avibhāgādvaita — non-duality-by-non-difference rather than identity, the synthesis of Sāṃkhya and Vedānta, and the late-medieval reframing of jīva-Brahman relation.",
+      "kind": "engagement",
+      "source_doc": "data/articles/source/engagement-vijnanabhiksu__vijnanamrta-bhasya.md",
+      "tags": [
+        "Vijñānabhikṣu",
+        "avibhāgādvaita",
+        "Brahma-Sūtra",
+        "Sāṃkhya-Vedānta-synthesis"
+      ],
+      "word_count_approx": 2406,
+      "date": "2026-05-10",
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/vijnanabhiksu_vijnanamrta_bhasya_1979_archive_djvu.txt"
+    },
+    {
+      "slug": "engagement-vijnanabhiksu__yoga-varttika",
+      "title": "Engagement: Vijñānabhikṣu's *Yoga-Vārttika*",
+      "subtitle": "Vijñānabhikṣu's gloss on Vyāsa's *Yoga-Bhāṣya* — the practice-philosophy of Pātañjala Yoga read into Vedāntic ontology, the place of Īśvara, the kleśa-vāsanā architecture.",
+      "kind": "engagement",
+      "source_doc": "data/articles/source/engagement-vijnanabhiksu__yoga-varttika.md",
+      "tags": [
+        "Vijñānabhikṣu",
+        "Yoga-Sūtra",
+        "Vyāsa-bhāṣya",
+        "Yoga",
+        "Īśvara"
+      ],
+      "word_count_approx": 2491,
+      "date": "2026-05-10",
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/vijnanabhiksu_yoga_varttika_1884_archive_djvu.txt"
+    },
+    {
+      "slug": "engagement-yamuna__agama-pramanya",
+      "title": "Engagement: Yāmuna's *Āgama-Prāmāṇya*",
+      "subtitle": "Yāmuna's defence of the Pāñcarātra Āgama as scripturally authoritative — the founding text of the Viśiṣṭādvaita line, refuting the Mīmāṃsaka rejection of non-Vedic ritual literature.",
+      "kind": "engagement",
+      "source_doc": "data/articles/source/engagement-yamuna__agama-pramanya.md",
+      "tags": [
+        "Yāmuna",
+        "Āgama-Prāmāṇya",
+        "Pāñcarātra",
+        "Viśiṣṭādvaita",
+        "scriptural-authority"
+      ],
+      "word_count_approx": 2212,
+      "date": "2026-05-10",
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/yamuna_agama_pramanya_rama_mishra_1937_archive_djvu.txt"
+    },
+    {
+      "slug": "engagement-madhusudana__bhakti-rasayana",
+      "title": "Engagement: Madhusūdana Sarasvatī's *Bhakti-Rasāyana*",
+      "subtitle": "Madhusūdana's reconciliation of bhakti with Advaitic non-dualism — bhakti as a *rasa* and a distinct *puruṣārtha*, the relation to *Bhāgavata*, and the bridge from Madhusūdana's *Advaita-Siddhi* to a non-dual devotionalism.",
+      "kind": "engagement",
+      "source_doc": "data/articles/source/engagement-madhusudana__bhakti-rasayana.md",
+      "tags": [
+        "Madhusūdana-Sarasvatī",
+        "bhakti",
+        "rasa",
+        "Advaita",
+        "Bhāgavata"
+      ],
+      "word_count_approx": 2437,
+      "date": "2026-05-10",
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/madhusudana_bhakti_rasayana_pandey_archive_djvu.txt"
+    },
+    {
+      "slug": "engagement-ramanuja__sri-bhasya",
+      "title": "Engagement: Rāmānuja's *Śrī-Bhāṣya*",
+      "subtitle": "The full Viśiṣṭādvaita reading of the Brahma-Sūtras — the *mahā-pūrva-pakṣa* against Advaita on BS 1.1.1, the *aprākṛta śarīraka* construal of jīva-Brahman, and the architecture of qualified non-duality.",
+      "kind": "engagement",
+      "source_doc": "data/articles/source/engagement-ramanuja__sri-bhasya.md",
+      "tags": [
+        "Rāmānuja",
+        "Viśiṣṭādvaita",
+        "Brahma-Sūtra",
+        "śarīra-śarīrin",
+        "mahā-pūrva-pakṣa"
+      ],
+      "word_count_approx": 2097,
+      "date": "2026-05-10",
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/ramanuja_sribhashya_archive_djvu.txt"
     }
   ]
 }

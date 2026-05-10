@@ -2,7 +2,7 @@
 
 ## 1. What the text is
 
-*Pāñcarātra-Rakṣā* is an independent Śrīvaiṣṇava defence-text by Vedānta-Deśika (Veṅkaṭanātha, traditionally 1268-1369 CE), standing squarely in the Yāmuna-Rāmānuja-Deśika line rather than functioning as a bhāṣya on a single mūla-text. Its school-location is unambiguous: it presupposes the Viśiṣṭādvaita defence of Pāñcarātra already staged in Yāmuna’s *Āgamaprāmāṇya* and in Rāmānuja’s handling of the *Pāñcarātrādhikaraṇa*, and it turns that defence into a stricter intra-traditional settlement of ritual authority and daily practice. The Adyar edition in the file has extensive editorial preface and indices, but the main work itself is arranged in three `adhikāras`: `siddhānta-vyavasthāpana` (pp. 1-44), `nityānuṣṭhāna-vyavasthāpana` (pp. 45-80 [inferred from the third `adhikāra` opening at p. 81]), and `nityavyākhyāna` (pp. 81-181).
+*Pāñcarātra-Rakṣā* is an independent Śrīvaiṣṇava defence-text by Vedānta-Deśika (Veṅkaṭanātha, traditionally 1268-1369 CE). It presupposes the Viśiṣṭādvaita defence of Pāñcarātra already staged in Yāmuna’s *Āgamaprāmāṇya* and in Rāmānuja’s handling of the *Pāñcarātrādhikaraṇa*, and turns that defence into a stricter intra-traditional settlement of ritual authority and daily practice. The Adyar edition in the file has extensive editorial preface and indices, but the main work itself is arranged in three `adhikāras`: `siddhānta-vyavasthāpana` (pp. 1-44), `nityānuṣṭhāna-vyavasthāpana` (pp. 45-80 [inferred from the third `adhikāra` opening at p. 81]), and `nityavyākhyāna` (pp. 81-181).
 
 ## 2. Sampling and scope statement
 
@@ -44,7 +44,7 @@ The late third `adhikāra` (pp. 139-181) tightens the spiritual typology. Deśik
 
 **Engagement:** This is the text’s axial classificatory sentence. Deśika’s defence of the Pāñcarātra is not achieved by collapsing internal variation into a flat “all this is one anyway.” On the contrary, he legitimates the corpus by insisting that its plurality is rule-governed plurality. The analogy to Vedic `śākhā`s is the decisive move: plurality is admissible, but only as canonically articulated plurality.
 
-This matters philosophically because it blocks two opposite mistakes at once. Against external critics, it says internal differentiation does not destroy authority. Against internal laxity, it says authority does not abolish differentiation. Deśika’s realism here is not primarily metaphysical; it is grammatical and institutional.
+This blocks two opposite mistakes at once: internal differentiation does not destroy authority, and authority does not abolish differentiation.
 
 2. **Locus:** `Prathamo'dhikāra`, p. 12-13, lines 1313-1325.
 
@@ -76,11 +76,13 @@ Grammatically the important point is the repeated transformation of act into tec
 
 This is also where the text’s late severity comes from. Once the end is non-instrumental, `devatāntara` worship is no longer a harmless supplement; it becomes a crack in the very form of `ekānta`.
 
-**Pāṇinian-rich treatment:** `paramaikāntaḥ` is explicitly analysed by Deśika himself as a compound from `paramaḥ` + `ekāntaḥ`; it functions as a `karmadhāraya`, not as a loose epithet. `paramaikāntī` is then a possessive derivative: `saḥ asti asya iti`, “one for whom this exists,” effectively a `bahuvrīhi`-like possessive formation in sense. In `ananyopāyatvānanyaprayojanatvayoḥ`, the two abstract nouns are in the genitive dual; `samuccayāt` is ablative of reason, “because of the conjunction of the two.” The understood predicate of `pāramyam` is `bhavati`. The load-bearing grammar is therefore not incidental. Deśika makes the spiritual type by etymological narrowing: not “devotion in general,” but a possession-term defined by a dual restriction.
+**Pāṇinian-rich treatment:** Line 1, word by word: `paramaḥ` = supreme; `ca` = and; `asau` = this; `ekāntaḥ` = exclusive orientation; `ca` = and; `iti` = thus; `paramaikāntaḥ` = the “supreme-exclusive” state. Line 2: `saḥ` = that; `asti` = exists; `asya` = for him / belongs to him; `iti` = thus; `paramaikāntī` = the person who possesses `paramaikānta`. The first compound is given by Deśika’s own `vigraha`: `paramaś cāsau ekāntaś ca`. The second is possessive in force: the practitioner is named from possession of that state.
+
+For the abstract pair, `ananyopāyatva` = `ananya upāyaḥ yasya tat-tvam`, “the condition of having no other means”; `ananyaprayojanatva` = `ananyaṃ prayojanaṃ yasya tat-tvam`, “the condition of having no other end.” Grammatically these stand in the genitive dual, `ananyopāyatvānanyaprayojanatvayoḥ`, governed by `samuccayāt`, an ablative of reason: “because of the conjunction of the two.” The principal finite verb in the definitional core is `asti` in `so 'sty asyeti`; `saḥ` is the syntactic subject, while `asya` is a possessive genitive functioning where English prefers “the one for whom this exists.” Deśika’s point is built out of that grammar. `Paramaikāntin` is not generic fervour. It is a technical state defined through a double exclusion, one on the side of saving means and one on the side of desired end.
 
 5. **Locus:** `Tṛtīyo'dhikāra`, pp. 177-179, lines 5684-5702.
 
-**Sanskrit (IAST):** `ajñānād athavā jñānād aparādheṣu satsu api / prāyaścittaṃ kṣamasveti prārthanā-kaiva kevalam // ... arcanādiṣv anarhatvān na kathañcid aparādhyati [OCR?] / ... kṛpayaivāsya devasya sarvo 'py arhati tat-kriyām.`
+**Sanskrit (IAST):** `ajñānād athavā jñānād aparādheṣu satsu api / prāyaścittaṃ kṣamasveti prārthanā [OCR?] eva kevalam // ... arcanādiṣv anarhatvān na kathañcid aparādhyati [OCR?] / ... kṛpayaivāsya devasya sarvo 'py arhati tat-kriyām.`
 
 **Close English:** “Whether through ignorance or through knowledge, even when offences are present, the atonement is simply this prayer alone: ‘Forgive.’ ... In worship and the like, no one altogether avoids offence [OCR?] ... By the compassion of this God, everyone is fit for his act.”
 
@@ -94,13 +96,13 @@ This text belongs directly to the Yāmuna-Rāmānuja-Vedānta-Deśika chain, and
 
 Its named opponents are not mainly Advaitins. The file shows Deśika arguing against anti-Pāñcarātra prooftexts, against charges of non-Vedicity, against conflation with Vaikhānasa procedures, and against the amateur universalism that mixes `siddhāntas` and `tantras` because all are “really Vaiṣṇava anyway.” Much of the text’s `pūrvapakṣa` material is anonymous or citation-driven. So on T7, the Vivaraṇa school, `bhāvarūpa avidyā`, and Madhusūdana’s dilemma, this text is largely silent. It does not directly enter that battlefield.
 
-On T11 the bearing is again indirect but real. The whole third `adhikāra` is an ontology of practice rather than an abstract phenomenology: waking, washing, gathering, chanting, studying, sleeping, even error and apology, are scripted as modes of relation to the divine. That is not Aurobindonian involution-evolution, and one should not pretend otherwise. But it is a robust example of a non-world-denying non-dual-adjacent religious grammar in which ordinary life is progressively divinized without being dissolved.
+On T11 the bearing is again indirect. The whole third `adhikāra` is an ontology of practice rather than an abstract phenomenology: waking, washing, gathering, chanting, studying, sleeping, even error and apology, are scripted as modes of relation to the divine. That is not Aurobindonian involution-evolution, but it is a strong example of ordinary life being progressively divinized without being dissolved.
 
 The sharpest friction with the position is methodological. The position wants cross-darśanic synthesis under a higher reconciliation. Deśika, here, repeatedly warns that not every combination is innocent. `Saṅkara` is not always synthesis; often it is confusion. That warning does not refute the position, but it does require the position to distinguish carefully between metaphysical reconciliation and procedural flattening. This text is therefore more useful as a check on sloppy synthesis than as a direct source for the position’s more expansive integrative moves.
 
 ## 6. What the user can productively take
 
-This text gives the corpus a first-rate primary source for a specifically Viśiṣṭādvaita form of realism that is not exhausted by anti-Advaita rhetoric. It shows, from inside a major scholastic lineage, that divine forms, temple procedures, daily bodily acts, and differentiated relations are not symbolic conveniences but parts of the real order of service. That is valuable evidence for any claim that Vaiṣṇava critique of world-negating readings is not merely emotional or sectarian.
+This text gives the corpus a first-rate primary source for a specifically Viśiṣṭādvaita form of realism that is not exhausted by anti-Advaita rhetoric. It shows that divine forms, temple procedures, daily bodily acts, and differentiated relations are not symbolic conveniences but parts of the real order of service.
 
 It also gives the position a needed caution. If the larger synthesis is to survive contact with strong traditional sources, it must answer Deśika’s anti-`saṅkara` principle. One cannot simply say that because multiple grammars terminate in Viṣṇu or Brahman they may be mixed at will. Deśika’s insistence that lineage-specific forms are truth-bearing forms is a live challenge.
 
