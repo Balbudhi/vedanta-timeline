@@ -336,6 +336,8 @@ function colorFor(thinker, paletteIdx = 2) {
     "jaina-comparator": "#65a30d", "carvaka-comparator": "#57534e",
     "madhyamaka-comparator": "#7c2d12", "yogacara-comparator": "#155e75",
     "buddhist-pramana-comparator": "#3f3f46",
+    "sarvastivada-comparator": "#92400e", "theravada-comparator": "#b45309",
+    "tathagatagarbha-comparator": "#0e7490",
   };
   return base[token] || "#6b7280";
 }

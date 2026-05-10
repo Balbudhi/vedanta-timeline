@@ -1,0 +1,32 @@
+{
+  "term_key": "sunyata",
+  "term_iast": "śūnyatā",
+  "term_devanagari": "शून्यता",
+  "literal": "emptiness, voidness; from śūnya 'empty' + -tā 'abstract noun suffix'",
+  "aliases": ["sunyata", "śūnyatā", "Śūnyatā", "śūnyatāyāḥ", "śūnyatāṃ", "śūnya", "shunyata"],
+  "invariant_definition": "*Śūnyatā* names the absence of *svabhāva* (own-being). It is *not* the assertion of *asat* (non-existence), nor the claim that nothing exists, nor a metaphysical reality behind appearances. The Mādhyamaka identification at MMK 24.18 — *yaḥ pratītya-samutpādaḥ śūnyatāṃ tāṃ pracakṣmahe* — fixes the term: emptiness is what dependent co-arising itself amounts to. To say a thing is *śūnya* is to say that what it is depends entirely on conditions other than itself, and so it lacks the kind of self-contained being that would make it a candidate for having a *svabhāva*. Vedāntic engagement with the term is sustained, primarily polemical, and turns on whether *śūnyatā* can be distinguished from a flat denial of the world.",
+  "per_school": [
+    {
+      "school": "Mādhyamaka",
+      "definition": "The absence of *svabhāva* in any candidate entity, identical with *pratītya-samutpāda* (MMK 24.18). The *catuṣkoṭi* refutes the four corners (P, ¬P, P∧¬P, ¬(P∧¬P)) for any *svabhāva*-positing thesis. The two-truths apparatus (*saṃvṛti-satya* / *paramārtha-satya*, MMK 24.8–10) preserves ordinary discourse as conventional usage that need not be vindicated metaphysically. Candrakīrti's Prāsaṅgika reading insists that even the conventional posit must be refused; Bhāviveka's Svātantrika admits *svatantra-anumāna* at the conventional level.",
+      "primary_loci": ["Mūla-Madhyamaka-Kārikā 24.18", "Mūla-Madhyamaka-Kārikā 24.8–10", "Vigraha-Vyāvartanī (auto-commentary on verse 29)"]
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "*Śūnyatā* in Yogācāra usage is the absence of subject-object duality (*grāhya-grāhaka-śūnyatā*) within the cognitive flow. The *parikalpita-svabhāva* — the imagined duality projected on the *paratantra* — is what is empty; the *paratantra* itself is real *qua* dependently-arisen cognitive flow. The *pariniṣpanna* is the *paratantra* purified of *parikalpita*, and so 'empty of duality' rather than 'empty of being'. Bhāviveka rejects this as covertly reintroducing *svabhāva* at the *paratantra* level.",
+      "primary_loci": ["Vasubandhu, Triṃśikā 17–25", "Asaṅga, Mahāyāna-Saṅgraha 2", "Trisvabhāva-Nirdeśa"]
+    },
+    {
+      "school": "Advaita",
+      "definition": "*Śūnyatā* is rejected as Buddhist and as a *vaināśika* (annihilationist) doctrine at Brahma-Sūtra-Bhāṣya 2.2.32, where Śaṅkara dismisses the *śūnyavādin* with unusual brevity. The Advaita *anirvacanīya* status of the world (neither *sat* nor *asat* nor both nor neither) bears a structural resemblance to the *catuṣkoṭi*-form, but the substantive claim differs: Advaita affirms the *pāramārthika*-real *brahman* as the substrate of which the world is *anirvacanīya* appearance, while Mādhyamaka denies any such *svabhāva*-bearing substrate. Bhāskara's *pracchanna-bauddha* charge against Śaṅkara presses that the structural homology amounts to identity; later Advaita defenders (Madhusūdana, the Vivaraṇa scholastics) press the substantive distinction.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.2.32", "Bhāmatī ad BSB 2.2.32"]
+    },
+    {
+      "school": "Vaiṣṇava (Madhva, Rāmānuja)",
+      "definition": "*Śūnyatā* is read as functionally equivalent to *asat* and treated as the limit-case of *nāstika* error. Madhva's *Tattva-Saṅkhyāna* and the *Māyāvāda-Khaṇḍana* triad treat the *śūnyavādin* position as the doctrinal extreme towards which any *māyā*-line position trends; the Vedāntic project must hold the world as *svatantra-paratantra-tattva* and refuse the *catuṣkoṭi*-style refusal of all four positions on any matter of ontology. Rāmānuja's *Śrī-Bhāṣya* engages the *vaināśika*-pakṣa similarly. The polemical equation of *śūnya* with *asat* is doctrinally productive even though it is technically a misreading of Mādhyamaka.",
+      "primary_loci": ["Madhva, Tattva-Saṅkhyāna", "Rāmānuja, Śrī-Bhāṣya 2.2.30–32"]
+    }
+  ],
+  "see_also": ["pratitya-samutpada", "catuskoti", "paramartha-satya", "samvrti-satya", "anirvacaniya", "asat", "svatantra", "paratantra", "mithya"],
+  "translator_note": "The standard gloss 'emptiness' is acceptable but invites the misreading that *śūnyatā* is a metaphysical *something* — a void as opposed to a plenum. The doctrine is precisely the opposite: it asserts the absence of any *svabhāva*-bearing substance, void or plenum. The user's project requires that *śūnyatā* never be flattened to nihilism. The Mādhyamaka position is that ordinary causal and conventional discourse is preserved unchanged, what is denied is only the *svabhāva*-realist interpretation of that discourse."
+}

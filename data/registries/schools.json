@@ -160,5 +160,29 @@
     "color_hex": "#0e7490",
     "color_palette": ["#cffafe", "#67e8f9", "#06b6d4", "#0e7490", "#083344"],
     "short_description": "The Buddha-nature literature (Ratna-Gotra-Vibhāga / Uttara-Tantra-Śāstra and the Maitreya-attributed corpus; the Laṅkāvatāra-Sūtra) articulating tathāgatagarbha as universally present, prakṛti-prabhāsvara-citta (naturally luminous mind), and the eka-yāna doctrine; not a substantialist self but a non-substantialist account of the cognitive ground of awakening, decisive for understanding Pratyabhijñā / Trika's inheritance into Kashmir Śaivism and Vedānta-Deśika's Śatadūṣaṇī engagement."
+  },
+  "pasupata-comparator": {
+    "display_name": "Pāśupata (comparator)",
+    "color_hex": "#b91c1c",
+    "color_palette": ["#fee2e2", "#fca5a5", "#ef4444", "#b91c1c", "#450a0a"],
+    "short_description": "The earliest organised Śaiva sect, theorising Śiva as the efficient cause (nimitta-kāraṇa) of a real world distinct from the bound soul (paśu) and from the bond (pāśa); the dualist-theist position refuted at Brahma-Sūtra 2.2.37 as the pāśupata-pakṣa, attested through Lakulīśa's Pāśupata-Sūtra and Kauṇḍinya's Pañcārtha-Bhāṣya."
+  },
+  "pancaratra-comparator": {
+    "display_name": "Pāñcarātra (Vaiṣṇava-Tantric comparator)",
+    "color_hex": "#1e40af",
+    "color_palette": ["#dbeafe", "#93c5fd", "#3b82f6", "#1e40af", "#172554"],
+    "short_description": "The Vaiṣṇava-Tantric tradition of the Lakṣmī-Tantra and the Sātvata-, Pauṣkara-, Jayākhya-, and Ahirbudhnya-Saṃhitās: the four-fold vyūha of Vāsudeva, Saṅkarṣaṇa, Pradyumna, and Aniruddha, the doctrine of śuddha-sattva, and the vibhava descents; critiqued at Brahma-Sūtra 2.2.42–45 and defended from within Viśiṣṭādvaita by Yāmuna's Āgama-Prāmāṇya and Vedānta-Deśika's Pāñcarātra-Rakṣā."
+  },
+  "virashaiva-comparator": {
+    "display_name": "Vīraśaiva (Bhakti-tradition comparator)",
+    "color_hex": "#831843",
+    "color_palette": ["#fce7f3", "#f9a8d4", "#db2777", "#831843", "#3a0a23"],
+    "short_description": "The twelfth-century Karnataka movement of Basavaṇṇa and the Śaraṇas, organised around iṣṭa-liṅga worship, the aṣṭāvaraṇa, and an oral-poetic vacana literature in Old-Kannada; operates outside the classical Vedānta-darśana grid as a Bhakti-tradition but is engaged by Madhva (anti-Vīraśaiva sections of the Tattva-Saṅkhyāna) and by Appayya's Śivārka-Maṇi-Dīpikā."
+  },
+  "bhairava-tantra-comparator": {
+    "display_name": "Bhairava-tantra (comparator)",
+    "color_hex": "#4c1d95",
+    "color_palette": ["#ede9fe", "#c4b5fd", "#8b5cf6", "#4c1d95", "#1e1065"],
+    "short_description": "The wider Bhairava-tantra textual tradition that supplies the scriptural ground of Trika — Mālinī-Vijaya-Tantra, Siddha-Yogeśvarī-Mata, Rudra-Yāmala — with its 36-tattva ladder, Śiva-Śakti-Nara triad, and kuṇḍalinī-cakra cosmology: the corpus Abhinavagupta engages from within rather than as an outside opponent."
   }
 }
