@@ -13,7 +13,18 @@
   "sub_school_shade": 4,
   "lineage_in": ["citsukha", "madhusudana"],
   "lineage_out": [],
-  "lineage_polemical": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "dignaga",
+      "direction": "refutes",
+      "note": "The Vedānta-Paribhāṣā's defence of the six Bhāṭṭa pramāṇas at the vyāvahārika level is structurally a refusal of the Buddhist pramāṇa-dvaya thesis: Advaita inherits from Mīmāṃsā the autonomy of śabda as a separate pramāṇa, since brahman can be established only by śabda, and the Buddhist reduction of śabda to anumāna would make the Vedāntic project impossible."
+    },
+    {
+      "thinker_id": "dharmakirti",
+      "direction": "refutes",
+      "note": "The Vedānta-Paribhāṣā's pratyakṣa-pariccheda defends the determinate (savikalpaka) construal of perception via vṛtti-vyāpti analysis against the Buddhist kalpanā-apoḍha account inherited from Dignāga and developed by Dharmakīrti; the anumāna-pariccheda likewise sides with the Naiyāyika realist analysis of inferential mark against the Buddhist svabhāva-pratibandha apparatus."
+    }
+  ],
   "core_thesis": "Dharmarāja Adhvarīndra is the great pedagogical systematiser of Vivaraṇa-Advaita epistemology. Working downstream of Citsukha (*Tattva-Pradīpikā* prathama-paricheda) and Madhusūdana (*Advaita-Siddhi* prathama-paricheda), he organises the Advaitic theory of *pramāṇas* into a single teachable architecture in the technical idiom of pre-Gaṅgeśa and early Navya-Nyāya (so the Bhāṭṭa-Mīmāṃsā categorial frame of Kumārila's *Ślokavārttika*, *codanā-sūtra* section, adapted in *Vedānta-Paribhāṣā* paricheda 1). Four positions anchor the system. First, Advaita accepts the six Bhāṭṭa *pramāṇas* — *pratyakṣa*, *anumāna*, *upamāna*, *śabda*, *arthāpatti*, *anupalabdhi* — at the *vyāvahārika* level (*Vedānta-Paribhāṣā*, paricchedas 1–6, one per *pramāṇa*). Second, *pratyakṣa* is analysed by *vṛtti-vyāpti*: the *antaḥkaraṇa-vṛtti* extends through the senses to the object, and the consciousness underlying the *vṛtti* (*vṛtti-caitanya*) becomes non-different from the consciousness underlying the object (*viṣaya-caitanya*) (*Vedānta-Paribhāṣā* pratyakṣa-pariccheda, opening *vṛtti-vyāpti* analysis). Third, only the Mahāvākya is *brahma-pramāṇa*; it generates the *akhaṇḍākāra-vṛtti* whose function is to remove *avidyā*, though knowledge itself is never produced (*Vedānta-Paribhāṣā* śabda-pariccheda, on *tattvamasi* and the *akhaṇḍa-vākyārtha*; cf. Sureśvara, *Naiṣkarmya-Siddhi* 2.81–95). Fourth, the Naiyāyika analyses of *pratyakṣa*, *anumāna*, and erroneous cognition are refuted in detail (*Vedānta-Paribhāṣā* pratyakṣa-pariccheda, against the *indriya-sannikarṣa* theory of Gautama, *Nyāya-Sūtra* 1.1.4; anumāna-pariccheda against Gaṅgeśa's *Tattva-Cintāmaṇi* anumāna-khaṇḍa). Dharmarāja stands firmly in the Vivaraṇa line on the locus-of-avidyā question (*Vedānta-Paribhāṣā* śabda-pariccheda, locating *avidyā* in Brahman, following Prakāśātman's *Pañca-Pādikā-Vivaraṇa* on *Brahma-Sūtra* 1.1.1) and writes downstream of Citsukha and Madhusūdana.",
   "engaged_works": [
     {

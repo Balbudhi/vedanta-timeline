@@ -1,0 +1,100 @@
+{
+  "id": "malini-vijaya-tantra",
+  "name": "Malini-Vijaya-Tantra (position-entry)",
+  "name_iast": "Mālinī-Vijaya-Tantra",
+  "alternate_names": ["Mālinī-Vijayottara-Tantra", "Mālinī-Vijaya"],
+  "dates_low": 600,
+  "dates_high": 850,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "This is a position-entry, not an author-entry. The Mālinī-Vijaya-Tantra is anonymous and is internally datable to the seventh–ninth centuries CE on the basis of (i) Abhinavagupta's tenth-century treatment of it as the foundational scriptural authority of Trika, (ii) its position as a developed Bhairava-tantra within the Sanderson-Hatley taxonomy of the Śaiva canon, and (iii) its absorption of pre-existing Trika cosmological vocabulary already present in the Siddha-Yogeśvarī-Mata. Modern scholarship (Sanderson, Vasudeva, Hatley) places it in the seventh–ninth century range.",
+  "school": "Bhairava-tantra",
+  "school_color_token": "bhairava-tantra-comparator",
+  "sub_school": "Trika source-tantras",
+  "sub_school_shade": 4,
+  "lineage_in": [],
+  "lineage_out": ["abhinavagupta", "ksemaraja", "jayaratha"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "abhinavagupta",
+      "direction": "mutual",
+      "note": "Abhinavagupta's Mālinī-Vijaya-Vārttika is the principal verse-commentary on the Mālinī-Vijaya-Tantra and the document that establishes the tantra as the scriptural ground of Trika; the Tantrāloka — Abhinavagupta's Trika summa — is structured throughout as an exposition of the Mālinī-Vijaya, citing it more often than any other source. The tantra's tattva-ladder, trika structure, and kuṇḍalinī-cakra cosmology are precisely what Abhinavagupta is doing the philosophy of. The relation is engaged-from-within: Abhinavagupta is not refuting the tantra but doing its philosophy."
+    },
+    {
+      "thinker_id": "ksemaraja",
+      "direction": "mutual",
+      "note": "Kṣemarāja's Pratyabhijñā-Hṛdaya and Spanda-Nirṇaya rest on the same Bhairava-tantra scriptural ground; the Mālinī-Vijaya is one of the source-tantras that Kṣemarāja's compact summaries presuppose, and his Svacchanda-Tantra-Uddyota (commentary on the Svacchanda-Tantra) develops the wider Bhairava-tantra reading."
+    },
+    {
+      "thinker_id": "jayaratha",
+      "direction": "mutual",
+      "note": "Jayaratha's Tantrāloka-Viveka — the principal commentary on Abhinavagupta's Tantrāloka — preserves the Mālinī-Vijaya citations and traces the Mālinī-Vijaya-Tantra's place in the Trika scriptural canon. Jayaratha is the late Kashmirian commentarial vehicle through which the Mālinī-Vijaya's authority is preserved into the medieval period."
+    }
+  ],
+  "core_thesis": "The *Mālinī-Vijaya-Tantra* is the foundational Bhairava-tantra Abhinavagupta singles out as the principal scriptural source for the Trika system. The text is anonymous, composed in the seventh–ninth centuries CE, and survives in twenty-three *adhyāyas* (a substantial recension; the Mālinī-Vijayottara-Tantra is a related but textually distinct continuation). The work's central commitments are three. First, the *36-tattva* ladder — the developed Śaiva enumeration extending the Sāṃkhya twenty-five *tattvas* upward through the *śuddha-vidyā*, *īśvara*, *sadāśiva*, *śakti*, and *śiva tattvas*, with the kāñcukas (the five contractive sheaths: *kalā*, *vidyā*, *rāga*, *kāla*, *niyati*) and the *māyā-tattva* mediating between *śuddha* (pure) and *aśuddha* (impure) categories. The Mālinī-Vijaya is a principal source of this enumeration. Second, the *trika* structure proper — Śiva, Śakti, Nara as three irreducible ontological-experiential modes, manifesting in the three *upāyas* (means of liberation): *śāmbhava-upāya* (the supreme Śiva-means, recognition without effort), *śākta-upāya* (the Śakti-means, contemplation of the rising and falling of states), *āṇava-upāya* (the individual-soul means, ritual and *yoga* and breath-work). Third, the *kuṇḍalinī*-and-*cakra* cosmology — the rising of *kuṇḍalinī* through the central channel, the seed-syllable *mātṛkā*-arrangement (the *mālinī*-arrangement of the alphabet that gives the tantra its name), the relation between *mantra*-syllable and *tattva*-cosmology. The tantra also articulates the *dīkṣā* (initiation) ritual in extensive detail. The strategic significance for understanding Trika is that Abhinavagupta's *Tantrāloka* is structured throughout as an exposition of the *Mālinī-Vijaya*; without the tantra, the Tantrāloka's organisation and citations are unintelligible. The work is a tantra-position-entry, not an author-entry: it is the scriptural authority Trika is the philosophy of, and the Mālinī-Vijaya-Vārttika and Tantrāloka are the principal interpretive vehicles.",
+  "engaged_works": [
+    {
+      "work_id": "malini-vijaya-tantra-text",
+      "title": "Malini-Vijaya-Tantra",
+      "title_iast": "Mālinī-Vijaya-Tantra",
+      "alternate_titles": ["Mālinī-Vijayottara-Tantra"],
+      "composition_dates_low": 600,
+      "composition_dates_high": 850,
+      "composition_dates_notes": "Anonymous; dated by Abhinavagupta's tenth-century treatment as the established scriptural authority of Trika and by the developed character of its Bhairava-tantra apparatus.",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Anonymous; ascribed by tradition to Bhairava revelation. The text presents itself as a dialogue between Bhairava and the goddess.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Sanderson (essays on the Śaiva canon); Vasudeva (The Yoga of the Mālinīvijayottaratantra, 2004 critical edition of yoga-chapters); Hatley (essays on early Bhairava-tantras)."}
+      ],
+      "genre": "rahasya",
+      "language": "sanskrit",
+      "summary": "Twenty-three *adhyāyas* in dialogue between Bhairava and the goddess, articulating the Trika cosmology, ritual, and yoga. The opening *adhyāyas* (1–4) develop the *36-tattva* ladder and the *trika* (Śiva, Śakti, Nara) ontology. The middle *adhyāyas* (5–10) develop the *mantra*-cosmology and the *mālinī* arrangement of the alphabet (the Sanskrit alphabet rearranged in a non-standard sequence beginning *na-ṛ-ṝ-ḷ-ḹ-tha-ca-dha...* — the arrangement that makes the *mātṛkā* a power-tool rather than a phonetic catalogue). The *adhyāyas* on *yoga* (11–17) articulate the *kuṇḍalinī*-and-*cakra* cosmology, the three *upāyas* (*śāmbhava*, *śākta*, *āṇava*), and the *prāṇa*-discipline (these chapters are critically edited and translated in Vasudeva 2004). The closing *adhyāyas* (18–23) develop the *dīkṣā* ritual structure and the post-initiatic disciplines. The work is the foundational Trika scriptural authority and is the document Abhinavagupta's *Mālinī-Vijaya-Vārttika* and *Tantrāloka* are the philosophy of. The recension known as the *Mālinī-Vijayottara-Tantra* (the standard published form) is a substantial continuation; modern scholarship treats it and the related *Mālinī-Vijaya* recensions as the source-text complex Abhinavagupta is engaging.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "malini-vijaya-varttika",
+      "title": "Malini-Vijaya-Varttika (Abhinavagupta)",
+      "title_iast": "Mālinī-Vijaya-Vārttika",
+      "composition_dates_low": 990,
+      "composition_dates_high": 1010,
+      "composition_dates_notes": "Composed by Abhinavagupta in the same period as the Tantrāloka.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Abhinavagupta; the principal verse-commentary on the Mālinī-Vijaya-Tantra and the document through which the tantra's philosophy is articulated for Trika.",
+      "ascription_evidence": [
+        {"kind": "manuscript-tradition", "description": "Preserved in the Kashmir Sanskrit manuscript tradition; KSTS edition."},
+        {"kind": "scholarly-consensus", "description": "Sanderson; Hanneder (the principal modern scholar of the Mālinī-Vijaya-Vārttika)."}
+      ],
+      "genre": "varttika",
+      "language": "sanskrit",
+      "summary": "Abhinavagupta's verse-commentary on the *Mālinī-Vijaya-Tantra*, in two extensive *adhikāras*. The work is treated here under the Mālinī-Vijaya-Tantra position-entry as the principal interpretive vehicle through which the tantra's philosophy is articulated for the Trika tradition. The *vārttika* unfolds the tantra's *tattva*-ladder, *trika* structure, *upāya*-doctrine, and *mantra*-cosmology with full Trika philosophical apparatus, integrating the *Pratyabhijñā* recognition-thesis (inherited from Utpaladeva and Somānanda) with the Bhairava-tantra scriptural ground. The *Mālinī-Vijaya-Vārttika* is the document that fixes the Trika reading of its source-tantra and is the principal source for understanding how Abhinavagupta moves between scriptural authority and philosophical analysis. Hanneder's modern scholarship is the principal point of access for non-Kashmirian readers.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "tantraloka-on-malini-vijaya",
+      "title": "Tantraloka (as exposition of Mālinī-Vijaya)",
+      "title_iast": "Tantrāloka (Mālinī-Vijaya-vyākhyāna-rūpaḥ)",
+      "composition_dates_low": 990,
+      "composition_dates_high": 1010,
+      "composition_dates_notes": "Composed by Abhinavagupta in the late tenth / early eleventh century as the Trika summa.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Abhinavagupta; treated here under the Mālinī-Vijaya-Tantra position-entry because the Tantrāloka is structured throughout as an exposition of the Mālinī-Vijaya.",
+      "ascription_evidence": [
+        {"kind": "manuscript-tradition", "description": "Kashmir manuscript tradition; KSTS edition with Jayaratha's Viveka."},
+        {"kind": "scholarly-consensus", "description": "Sanderson; Padoux; Silburn; the standard modern editorial tradition."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Abhinavagupta's monumental thirty-seven-chapter Trika summa, treated here under the Mālinī-Vijaya-Tantra position-entry because the *Tantrāloka* is structured throughout as an exposition of the *Mālinī-Vijaya*: it cites the source-tantra more often than any other authority, takes its *tattva*-ladder, *trika*-structure, and *upāya*-doctrine from the source-tantra, and follows the source-tantra's organisation in its principal sections on cosmology, ritual, and yoga. The *Tantrāloka* is the most extensive single document of the Bhairava-tantra interpretive tradition and the form in which the Mālinī-Vijaya's philosophy receives its mature exposition. Jayaratha's *Tantrāloka-Viveka* is the principal sub-commentary, indispensable for the mature Trika.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "The Mālinī-Vijaya-Tantra is treated by Abhinavagupta as the foundational scriptural authority of Trika, and the Mālinī-Vijaya-Vārttika and Tantrāloka are the principal interpretive vehicles through which the tantra's philosophy is articulated. Jayaratha's Tantrāloka-Viveka preserves the Mālinī-Vijaya's place in the late Kashmirian commentarial tradition. Modern scholarship — Sanderson's essays on the Śaiva canon, Vasudeva's 2004 critical edition of the yoga-chapters of the Mālinī-Vijayottara-Tantra, Hanneder on the Mālinī-Vijaya-Vārttika, Padoux on Trika and Tantra in general, Silburn on the Spanda and Pratyabhijñā traditions — has established the tantra as the central scriptural source for understanding Trika as a philosophy that is doing the work of a Bhairava-tantra rather than refuting one. The wider Bhairava-tantra textual tradition (Siddha-Yogeśvarī-Mata, Triśirobhairava, Rudra-Yāmala) supplies the immediate scriptural context within which the Mālinī-Vijaya's authority is fixed.",
+  "entry_status": "draft",
+  "entry_owner_agent": "non-vedic-comparator-extension-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "non-vedic-comparator-extension-opus"
+}
