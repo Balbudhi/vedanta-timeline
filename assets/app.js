@@ -75,6 +75,21 @@ const LANE_DISPLAY = {
   "cross-tradition": "Cross-tradition",
 };
 
+// Compact labels for narrow viewports.
+const LANE_DISPLAY_COMPACT = {
+  "dvaita": "Dvaita",
+  "acintya": "Acintya-Bhed.",
+  "avibhaga": "Avibhāgādv.",
+};
+const COMPARATOR_GROUP_LABEL_COMPACT = "Other";
+function isNarrowViewport() {
+  return window.matchMedia && window.matchMedia("(max-width: 720px)").matches;
+}
+function laneDisplayName(tok) {
+  if (isNarrowViewport() && LANE_DISPLAY_COMPACT[tok]) return LANE_DISPLAY_COMPACT[tok];
+  return state.schools[tok]?.display_name || LANE_DISPLAY[tok] || tok;
+}
+
 // Vedāntic schools always render as their own lanes.
 const VEDANTA_LANES = new Set([
   "proto", "advaita", "bhedabheda", "vishishtadvaita",
@@ -376,11 +391,15 @@ function renderLaneRail() {
       row.setAttribute("role", "button");
       row.setAttribute("tabindex", "0");
       row.setAttribute("aria-expanded", lane.expanded ? "true" : "false");
+      const groupLabel = isNarrowViewport() ? COMPARATOR_GROUP_LABEL_COMPACT : COMPARATOR_GROUP_LABEL;
+      const groupCount = isNarrowViewport()
+        ? `${comparatorTotal} · ${COMPARATOR_LANES.length}`
+        : `${comparatorTotal} thinkers · ${COMPARATOR_LANES.length} schools`;
       row.innerHTML = `
         <span class="swatch-bar"></span>
         <div class="lane-meta">
-          <span class="lane-name">${escape(COMPARATOR_GROUP_LABEL)}</span>
-          <span class="lane-count">${comparatorTotal} thinkers · ${COMPARATOR_LANES.length} schools</span>
+          <span class="lane-name">${escape(groupLabel)}</span>
+          <span class="lane-count">${escape(groupCount)}</span>
         </div>
         <span class="lane-chevron" aria-hidden="true">▸</span>
       `;
@@ -391,7 +410,7 @@ function renderLaneRail() {
       });
     } else {
       const tok = lane.token;
-      const display = state.schools[tok]?.display_name || LANE_DISPLAY[tok] || tok;
+      const display = laneDisplayName(tok);
       const swatch = state.schools[tok]?.color_palette?.[2]
                   || state.schools[tok]?.color_hex
                   || colorFor({ school_color_token: tok }, 2);
@@ -1193,5 +1212,26 @@ function navigateByDate(dir) {
   if (next) openThinker(next.id);
 }
 
+// ---------- responsive: re-render on viewport breakpoint changes -----------
+let _lastLaneH = LANE_H;
+let _lastRailW = LANE_RAIL_W;
+let _resizeTimer = null;
+window.addEventListener("resize", () => {
+  clearTimeout(_resizeTimer);
+  _resizeTimer = setTimeout(() => {
+    refreshLayoutConstants();
+    if (LANE_H !== _lastLaneH || LANE_RAIL_W !== _lastRailW) {
+      _lastLaneH = LANE_H;
+      _lastRailW = LANE_RAIL_W;
+      renderAll();
+    }
+  }, 120);
+});
+
 // ---------- boot -----------
-loadAll().then(() => wirePanZoom());
+loadAll().then(() => {
+  refreshLayoutConstants();
+  _lastLaneH = LANE_H;
+  _lastRailW = LANE_RAIL_W;
+  wirePanZoom();
+});
