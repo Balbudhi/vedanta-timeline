@@ -2246,6 +2246,14 @@ function renderMarkdownFull(src) {
   // panes can be rendered recursively without any of the outer-pass regexes
   // touching them.
   const asides = [];
+<<<<<<< HEAD
+  src = src.replace(/^::: sanskrit-aside\s*\n([\s\S]*?)\n:::\s*$/gm, (_m, body) => {
+    const skMatch = body.match(/:::: sanskrit\s*\n([\s\S]*?)(?=\n:::: english|\s*$)/);
+    const enMatch = body.match(/:::: english\s*\n([\s\S]*?)$/);
+    const sk = skMatch ? skMatch[1].trim() : "";
+    const en = enMatch ? enMatch[1].trim() : "";
+    asides.push({ sk, en });
+=======
   // The convention accepts ":::: <lang>" as the label for the left pane.
   // Recognised lang tokens: sanskrit, german, french, latin, greek, pali,
   // tibetan, arabic, hebrew. Anything else is rendered as-is, capitalised.
@@ -2258,6 +2266,7 @@ function renderMarkdownFull(src) {
     const sk = skMatch ? skMatch[1].trim() : "";
     const en = enMatch ? enMatch[1].trim() : "";
     asides.push({ sk, en, sourceLang });
+>>>>>>> 4f5db13 (Auto: 5 file(s) updated)
     return ` SKASIDE${asides.length - 1} `;
   });
   // Pull out fenced code blocks (preserve verbatim).
@@ -2330,8 +2339,12 @@ function renderMarkdownFull(src) {
     const a = asides[+i];
     // Recursively render each pane so inline markdown / cite links / glossary
     // tagging work inside the panes.
+<<<<<<< HEAD
+    return `<div class="sk-aside"><div class="sk-aside-pane sk-aside-sanskrit"><div class="sk-aside-label">Sanskrit</div>${renderMarkdownFull(a.sk)}</div><div class="sk-aside-pane sk-aside-english"><div class="sk-aside-label">English</div>${renderMarkdownFull(a.en)}</div></div>`;
+=======
     const langLabel = a.sourceLang ? a.sourceLang[0].toUpperCase() + a.sourceLang.slice(1) : "Sanskrit";
     return `<div class="sk-aside"><div class="sk-aside-pane sk-aside-sanskrit"><div class="sk-aside-label">${langLabel}</div>${renderMarkdownFull(a.sk)}</div><div class="sk-aside-pane sk-aside-english"><div class="sk-aside-label">English</div>${renderMarkdownFull(a.en)}</div></div>`;
+>>>>>>> 4f5db13 (Auto: 5 file(s) updated)
   });
   // Don't wrap headings / blockquotes / tables / asides in <p>.
   out = out.replace(/<p>(\s*)(<h[123]|<blockquote|<table|<pre|<ul|<ol|<div class="sk-aside)/g, "$1$2");
