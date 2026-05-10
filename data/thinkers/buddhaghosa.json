@@ -1,0 +1,75 @@
+{
+  "id": "buddhaghosa",
+  "name": "Buddhaghosa",
+  "name_iast": "Buddhaghosa",
+  "alternate_names": ["Bhadanta Buddhaghosa", "Visuddhācariya"],
+  "dates_low": 370,
+  "dates_high": 450,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Buddhaghosa's dates are conventionally fixed in the early-to-mid fifth century CE on the basis of the Mahāvaṃsa account of his arrival at the Mahāvihāra in Anurādhapura under King Mahānāma's reign and on internal evidence in the Visuddhimagga's framing materials. Norman (Pāli Literature, 1983, pp. 120–130) and Hinüber (Handbook of Pāli Literature, 1996, §§207–227) accept c. 370–450 CE. Some traditional materials (the much later Buddhaghosuppatti) are largely hagiographic and not load-bearing for the dating; the philological consensus rests on the Mahāvihāra commentarial colophons.",
+  "school": "Cross-tradition",
+  "school_color_token": "theravada-comparator",
+  "sub_school": "Theravāda-Mahāvihāra",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Buddhaghosa is the commentator who fixes Theravāda doctrine in its definitive Pāli form. The Visuddhimagga (the Path of Purification) is the canonical systematization of the entire Theravāda path under the threefold heading of sīla (moral discipline), samādhi (concentration), and paññā (wisdom), and is the principal doctrinal compendium of the school for the subsequent fifteen centuries. Three doctrinal moves are decisive for the comparative project. First, anattā (Pāli, equivalent to Sanskrit anātman) is articulated as the eliminative refutation of any persisting substance-self (atta): the five khandhas (rūpa, vedanā, saññā, saṅkhāra, viññāṇa) are exhaustively analysed as impermanent, suffering-prone, and not-self; no remainder beyond the khandha-stream needs to be posited, and any positing of such remainder is the very avijjā the path dissolves. The position is not the metaphysical denial of consciousness — viññāṇa and the citta-vīthi (cognitive process) are treated with great phenomenological care — but the refutation of the inference from the unity of cognition to the existence of a substantial substratum of cognition. Second, the two-truths distinction is given in its Theravāda form as sammuti-sacca (conventional truth) and paramattha-sacca (ultimate truth): conventional discourse traffics in persons, chariots, and selves as workable designations; ultimate analysis (the Abhidhamma) shows that what corresponds to the conventional designations is the dynamic configuration of citta, cetasika, rūpa, and nibbāna. The two truths are not levels of being but levels of discourse, and ultimate-truth discourse does not invalidate conventional-truth discourse for its proper purposes. Third, paṭicca-samuppāda (dependent origination) is articulated as the twelve-link causal chain (avijjā → saṅkhāra → viññāṇa → nāmarūpa → saḷāyatana → phassa → vedanā → taṇhā → upādāna → bhava → jāti → jarāmaraṇa), with detailed explanation in the Visuddhimagga chapter XVII of how each link conditions the next without invoking either a substantial agent or pure chance. The Theravāda reading of paṭicca-samuppāda as a determinate twelve-fold causal series stands in sharp contrast to the Mādhyamaka reading (Nāgārjuna MMK 24.18) according to which pratītya-samutpāda just is śūnyatā; the contrast is structurally important for the comparative project and is preserved as a genuine doctrinal difference rather than collapsed.",
+  "engaged_works": [
+    {
+      "work_id": "visuddhimagga",
+      "title": "Visuddhimagga",
+      "title_iast": "Visuddhimagga",
+      "alternate_titles": ["The Path of Purification"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Buddhaghosa at the Mahāvihāra in Anurādhapura. The standard PTS edition is Rhys Davids 1920–1921; the standard English translation is Ñāṇamoli 1956 (revised 1975).",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Norman 1983, Pāli Literature; Hinüber 1996, Handbook of Pāli Literature; Bond 1988."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The principal systematic treatise of Theravāda Buddhism, structured in twenty-three chapters under the threefold heading of sīla (chs. 1–2), samādhi (chs. 3–13), and paññā (chs. 14–23). The samādhi chapters supply the most detailed pre-modern Indian phenomenology of meditative attainment available, treating the forty kammaṭṭhāna meditation-objects, the four jhānas, the four arūpa-jhānas, and the iddhi (psychic powers); the paññā chapters supply the systematic doctrinal exposition treating the khandhas, āyatanas, dhātus, the four noble truths, and the twelve links of paṭicca-samuppāda. Chapter XVII (Paññā-Bhūmi-Niddesa) is the canonical Theravāda treatment of dependent origination as a twelve-link causal series; chapter XVIII (Diṭṭhi-Visuddhi-Niddesa) treats the purification of view through the elimination of the substance-self; chapters XIX–XXII treat the path-knowledges culminating in nibbāna. The text is the principal source for understanding Theravāda doctrine as a unified system. Note: the text is in Pāli, not Sanskrit; the language field reflects the lexical-categorial heritage but the actual morphology is Pāli (sukhaṁ, dukkhaṁ, anattā rather than sukham, duḥkham, anātmā).",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "atthasalini",
+      "title": "Atthasalini",
+      "title_iast": "Aṭṭhasālinī",
+      "alternate_titles": ["Dhammasaṅgaṇī-Aṭṭhakathā", "The Expositor"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Buddhaghosa as the commentary on the Dhammasaṅgaṇī (the first book of the Pāli Abhidhamma-piṭaka). Edited by Müller for PTS 1897, translated by Pe Maung Tin 1920–1921 (revised by Rhys Davids).",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Hinüber 1996, §215."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "Buddhaghosa's commentary on the Dhammasaṅgaṇī, the foundational Theravāda Abhidhamma text that enumerates and analyses the dhammas (mental and material constituents of experience). The commentary supplies the systematic exposition of the four paramattha-dhammas (citta, cetasika, rūpa, nibbāna) that the Theravāda Abhidhamma takes to be the constituents of all conditioned and unconditioned reality, and articulates in detail the eighty-nine cittas (states of consciousness) and fifty-two cetasikas (mental factors) on which the school's analysis of cognition rests. The treatment of the citta-vīthi (cognitive process) and of the bhavaṅga (life-continuum) is the principal source for understanding the Theravāda phenomenology of consciousness as a stream of momentary cittas without a persisting substratum, and supplies the technical apparatus underlying the anattā-doctrine articulated more compendiously in the Visuddhimagga. The text is in Pāli.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "sumangala-vilasini",
+      "title": "Sumangala-Vilasini",
+      "title_iast": "Sumaṅgala-Vilāsinī",
+      "alternate_titles": ["Dīgha-Nikāya-Aṭṭhakathā"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Buddhaghosa as the commentary on the Dīgha-Nikāya. PTS edition Rhys Davids and Carpenter 1886–1932.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Hinüber 1996, §214."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "Buddhaghosa's commentary on the Dīgha-Nikāya, the collection of the longer suttas in the Sutta-piṭaka. The commentary supplies sustained doctrinal exposition where the suttas themselves are programmatic rather than systematic, and is the principal source for understanding how the school reads its scriptural inheritance. The treatment of the Brahmajāla-Sutta (DN 1) supplies the school's classification of the sixty-two diṭṭhi (views) — including the eternalist and annihilationist views the Buddha refused — and supplies the framing within which the anattā-doctrine is to be understood: not as the annihilationist denial of an existing self but as the refusal to posit substance-self as the ground of the khandha-stream. The treatment of the Mahāparinibbāna-Sutta (DN 16) supplies the canonical exposition of the parinibbāna and of nibbāna-dhātu as paramattha-dhamma. The text is in Pāli.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Buddhaghosa is minimally engaged in surviving Vedāntic literature. The Brahma-Sūtra-Bhāṣya tradition's Buddhist polemic targets the Sarvāstivāda, Yogācāra, and Mādhyamaka positions specifically (BS 2.2.18–32) and does not engage the Theravāda-Mahāvihāra position by name; the Theravāda was geographically and linguistically isolated from the principal Indian darśana-debates by the time the Vedāntic refutations were composed. The historical importance of Buddhaghosa for the present project is therefore comparative-structural rather than directly polemical: the Theravāda reading of anattā (eliminative-of-substance, not eliminative-of-consciousness), of the two-truths (paramattha / sammuti as discourse-levels rather than ontological levels), and of paṭicca-samuppāda (the determinate twelve-link causal series) supplies the southern-Buddhist baseline against which the Mādhyamaka and Yogācāra reformulations the Vedāntic critic engages can be situated. Modern scholarly engagement: Norman 1983, Hinüber 1996, Gethin 1998 (The Foundations of Buddhism), Bodhi 2000 (The Connected Discourses of the Buddha) and 2012 (The Numerical Discourses), Anālayo 2003.",
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-buddhist-comparators-extension-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-buddhist-comparators-extension-opus"
+}

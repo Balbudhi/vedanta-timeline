@@ -1,0 +1,27 @@
+{
+  "term_key": "trisvabhava",
+  "term_iast": "trisvabhāva",
+  "term_devanagari": "त्रिस्वभाव",
+  "literal": "three-natures, three-own-beings; from tri 'three' + svabhāva 'own-being, intrinsic nature'",
+  "aliases": ["trisvabhava", "trisvabhāva", "Trisvabhāva", "trisvabhāvāḥ", "tri-svabhāva"],
+  "invariant_definition": "*Trisvabhāva* is the Yogācāra doctrine of three natures structuring every cognition. *Parikalpita-svabhāva* (imagined nature) — the falsely projected subject-object duality, which is what the doctrine declares non-existent. *Paratantra-svabhāva* (dependent nature) — the dependently-arisen cognitive flow itself, the substrate on which both the *parikalpita* deception and the *pariniṣpanna* realisation rest. *Pariniṣpanna-svabhāva* (consummate nature) — the *paratantra* purified of the *parikalpita*, which is the realised *tathatā*. The doctrine is the principal Yogācāra analytical apparatus and the central object of Mādhyamaka critique: Bhāviveka argues at length that the *paratantra* covertly reintroduces *svabhāva* — a real *paratantra*-cognition cannot itself be *niḥsvabhāva* — and the corresponding *triḥ-niḥsvabhāvatā* doctrine in the Yogācāra is the Yogācāra reply.",
+  "per_school": [
+    {
+      "school": "Yogācāra (founding)",
+      "definition": "The principal analytic apparatus of Asaṅga's *Mahāyāna-Saṅgraha* and Vasubandhu's *Triṃśikā* / *Trisvabhāva-Nirdeśa*. The *paratantra* is foregrounded as the load-bearing nature: it is the substrate of both deception (when overlaid with *parikalpita*) and realisation (when purified into *pariniṣpanna*). The magician-illusion analogy of the *Trisvabhāva-Nirdeśa* is the canonical illustration: a magician (*māyāvin*) creates the appearance of an elephant; the *parikalpita* is the apparent elephant; the *paratantra* is the *māyā*-substrate; the *pariniṣpanna* is the recognition that what appears as elephant is *māyā*.",
+      "primary_loci": ["Asaṅga, Mahāyāna-Saṅgraha 2", "Vasubandhu, Triṃśikā 21–25", "Vasubandhu, Trisvabhāva-Nirdeśa 1–28"]
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "Refused as covertly reintroducing *svabhāva* at the *paratantra* level: a real *paratantra*-cognition cannot itself be *niḥsvabhāva* and so the doctrine fails as a Mahāyāna alternative to Mādhyamaka. Bhāviveka's *Madhyamaka-Hṛdaya* chapter 5 develops the refutation at length; Candrakīrti's *Madhyamakāvatāra* chapter 6 supplies the Prāsaṅgika version.",
+      "primary_loci": ["Bhāviveka, Madhyamaka-Hṛdaya 5 (Yogācāra-tattva-viniścaya)", "Candrakīrti, Madhyamakāvatāra 6.45–97"]
+    },
+    {
+      "school": "Vedānta",
+      "definition": "The *trisvabhāva* analysis is rarely engaged by name in Vedāntic sources. The Vedāntic engagement with Yogācāra at Brahma-Sūtra 2.2.28–32 targets the *vijñapti-mātratā* thesis directly without working through the *trisvabhāva* apparatus. Yāmuna's *Saṃvit-Siddhi* engages the position similarly. Some structural parallels with Advaita's *adhyāsa* / *adhiṣṭhāna* / *brahman* triad have been noted in modern comparative scholarship, but the parallels are not load-bearing in classical Vedāntic exegesis.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Śaṅkara) 2.2.28–32", "Yāmuna, Saṃvit-Siddhi"]
+    }
+  ],
+  "see_also": ["sunyata", "vijnapti-matrata", "alaya-vijnana", "paratantra", "parikalpita", "parinispanna", "tathata", "adhyasa"],
+  "translator_note": "'Three natures' is the standard gloss; 'three own-beings' would more literally translate *svabhāva* but reads awkwardly. The doctrine is widely misread as a Yogācāra metaphysics of three parallel layers of reality; it is more accurately read as three modes under which the same cognitive flow is to be analysed — *parikalpita* as how it falsely appears, *paratantra* as how it dependently arises, *pariniṣpanna* as how it is when correctly seen. The *triḥ-niḥsvabhāvatā* doctrine (each of the three is itself *niḥsvabhāva* in the Mahāyāna sense) is the Yogācāra resource for answering the Mādhyamaka critique."
+}

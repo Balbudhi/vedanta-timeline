@@ -31,7 +31,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
-      "summary": "Independent treatise organised by *pramāṇa* into four *khaṇḍas*: *Pratyakṣa-Khaṇḍa*, *Anumāna-Khaṇḍa*, *Upamāna-Khaṇḍa*, *Śabda-Khaṇḍa*. Each *khaṇḍa* opens with a *maṅgala* establishing the methodological standard, advances through systematic *pūrvapakṣa*-and-*uttarapakṣa* on every disputed sub-question, and concludes with a constructive Navya-Nyāya formulation. The *Anumāna-Khaṇḍa* is the longest and the most influential. Its first section, *Vyāpti-Pañcaka*, gives the five candidate definitions of *vyāpti* and the rigorous tests by which the standard definition is selected; the section on *avacchedaka* establishes the technical idiom that the entire later school presupposes; the section on *paryāpti* introduces the relation that distinguishes joint-locating from distributive-locating predications. The *Pratyakṣa-Khaṇḍa* refines the perceptual analysis to handle Advaitin pressure on the *adhyāsa*-doctrine and Buddhist pressure on *nirvikalpaka* perception. The *Śabda-Khaṇḍa* defends *śābda*-bodha (sentence-cognition) on a Naiyāyika realist basis against the Mīmāṃsā analysis of *anvitābhidhāna*. The *Cintāmaṇi* is the most-commented text in late-medieval Sanskrit philosophy; Raghunātha Śiromaṇi's *Dīdhiti* and Mathurānātha's *Māthurī* are the standard Navadvīpa sub-commentaries.",
+      "summary": "Independent treatise organised by *pramāṇa* into four *khaṇḍas*: *Pratyakṣa-Khaṇḍa*, *Anumāna-Khaṇḍa*, *Upamāna-Khaṇḍa*, *Śabda-Khaṇḍa*. Each *khaṇḍa* opens with a *maṅgala* establishing the methodological standard, advances through systematic *pūrvapakṣa*-and-*uttarapakṣa* on every disputed sub-question, and concludes with a constructive Navya-Nyāya formulation. The *Anumāna-Khaṇḍa* is the longest and the most influential. Its first section (*Tattva-Cintāmaṇi*, *Anumāna-Khaṇḍa*, *vyāpti-pañcaka-prakaraṇa*) gives the five candidate definitions of *vyāpti* and the rigorous tests by which the standard definition is selected; the *avacchedakatva-prakaraṇa* establishes the technical idiom that the entire later school presupposes; the *paryāpti-vāda* introduces the relation that distinguishes joint-locating from distributive-locating predications. The *Pratyakṣa-Khaṇḍa* refines the perceptual analysis (in the *pratyakṣa-lakṣaṇa-prakaraṇa*) to handle Advaitin pressure on the *adhyāsa*-doctrine (against Śaṅkara's *Brahma-Sūtra-Bhāṣya* preamble) and Buddhist pressure on *nirvikalpaka* perception. The *Śabda-Khaṇḍa* defends *śābda*-bodha on a Naiyāyika realist basis against the Mīmāṃsā analysis of *anvitābhidhāna* (Prabhākara, *Bṛhatī* on Mīmāṃsā-Sūtra 1.1.24–25). The *Cintāmaṇi* is the most-commented text in late-medieval Sanskrit philosophy; Raghunātha Śiromaṇi's *Dīdhiti* and Mathurānātha's *Māthurī* are the standard Navadvīpa sub-commentaries.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     }
@@ -41,5 +41,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-comparators-opus"
+  "last_verified_by": "wave-citation-batch3-opus"
 }
