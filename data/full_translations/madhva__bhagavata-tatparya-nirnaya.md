@@ -19,7 +19,7 @@ That is why this recoverable slice is the natural unit to translate. It is the s
 ### Bhāg. 1.1.2
 
 **Sanskrit (IAST):**
-> *yaṃ pravrajantam anupetam apetakṛtyaṃ dvaipāyano virahakātara ājuhāva | putreti tan-mayataya taravo 'bhinedus taṃ sarvabhūtahṛdayaṃ munim ānato 'smi ||*
+> *yaṃ pravrajantam anupetam apetakṛtyaṃ dvaipāyano virahakātara ājuhāva | putreti tan-mayatayā taravo 'bhineduḥ taṃ sarvabhūtahṛdayaṃ munim ānato 'smi ||*
 
 **English (line-by-line):**
 > I bow to that sage, the heart of all beings, who was going forth, unaccompanied, his obligations left behind.  
@@ -39,7 +39,7 @@ That is why this recoverable slice is the natural unit to translate. It is the s
 | ājuhāva | ā-√hvā | liṭ, 3 sg, parasmaipada, active | called out |
 | putra | putra | voc sg masc | son |
 | iti | iti | indecl | thus |
-| tan-mayatāyā | tan-mayatā | instr sg fem | by total absorption in him |
+| tan-mayatayā | tan-mayatā | instr sg fem | by total absorption in him |
 | taravaḥ | taru | nom pl masc | the trees |
 | abhineduḥ | abhi-√nad | liṭ/aoristic perfect-like form, 3 pl, parasmaipada, active | resounded, answered back |
 | tam | tad | acc sg masc | that one |
@@ -57,7 +57,7 @@ That is why this recoverable slice is the natural unit to translate. It is the s
 - kartṛ: *dvaipāyanaḥ*
 - karman: *yaṃ ... munim*
 - uddiśya-vocana: *putra*
-- sahakārī-bhāva / hetu: *tan-mayatāyā*
+- sahakārī-bhāva / hetu: *tan-mayatayā*
 
 **Verbal modality:**
 - *ājuhāva*: liṭ / parasmaipada / active
@@ -229,7 +229,7 @@ This is a distinctly Mādhva move. The appositional epithet is not left devotion
 **Kāraka structure:**
 - kartṛ: *yaḥ*
 - karman: *purāṇaguhyam*
-- sampradāna-like उद्देश्य group: *saṃsāriṇām atititīrṣatām*
+- beneficiary-group: *saṃsāriṇām atititīrṣatām*
 - karaṇa / hetu: *karuṇayā*
 - object of approach: *taṃ vyāsasūnum gurum*
 
@@ -554,7 +554,7 @@ This is a fine doctrinal compression. Madhva excludes a merely accidental uttera
 ### Bhāg. 1.1.18
 
 **Sanskrit (IAST):**
-> *athākhyāhi harer dhīmann avatārakathāḥ śubhāḥ | īlā vidadhataḥ svairam īśvarasyātmamāyayā ||*
+> *athākhyāhi harer dhīmann avatārakathāḥ śubhāḥ | līlā vidadhataḥ svairam īśvarasyātmamāyayā ||*
 
 **English (line-by-line):**
 > So now, wise one, tell the auspicious tales of Hari's descents,  
@@ -570,7 +570,7 @@ This is a fine doctrinal compression. Madhva excludes a merely accidental uttera
 | dhīman | dhīmant | voc sg masc | wise one |
 | avatārakathāḥ | avatāra-kathā | acc pl fem | tales of descents |
 | śubhāḥ | śubha | acc pl fem | auspicious |
-| īlāḥ | īlā | acc pl fem | sportive acts, plays |
+| līlāḥ | līlā | acc pl fem | sportive acts, plays |
 | vidadhataḥ | vi-√dhā | pres act ptcp gen sg masc | of the one performing |
 | svairam | svairam | indecl adverb | freely, at will |
 | īśvarasya | īśvara | gen sg masc | of the Lord |
