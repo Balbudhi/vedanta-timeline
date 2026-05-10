@@ -1554,17 +1554,41 @@ async function ensureArticlesLoaded() {
     return;
   }
   articlesList.innerHTML = "";
-  for (const a of articlesManifest.articles) {
-    const row = document.createElement("div");
-    row.className = "article-row";
-    row.dataset.slug = a.slug;
-    row.innerHTML = `
-      <p class="article-title">${escape(a.title)}${a.status === "in-progress" ? ' <em style="color:#92400e;font-weight:500">(in progress)</em>' : ""}</p>
-      <p class="article-subtitle">${md(a.subtitle || "")}</p>
-      <p class="article-meta">${escape(a.kind || "")} · ~${a.word_count_approx || "?"} words${a.date ? " · " + escape(a.date) : ""}</p>
-    `;
-    row.addEventListener("click", () => openArticle(a));
-    articlesList.appendChild(row);
+  // Hide superseded articles; only show the latest of each lineage.
+  const visible = articlesManifest.articles.filter((a) => a.status !== "superseded");
+  const sectionOrder = ["perspective-investigation", "comparative", "framework", "methodology", "essay", "engagement", "other"];
+  const sectionLabels = {
+    "perspective-investigation": "Perspectives",
+    "comparative": "Comparative readings",
+    "framework": "Frameworks & methodology",
+    "methodology": "Frameworks & methodology",
+    "essay": "Per-thinker essays",
+    "engagement": "Text engagements",
+    "other": "Other",
+  };
+  const groups = {};
+  for (const a of visible) {
+    const k = sectionOrder.includes(a.kind) ? a.kind : "other";
+    (groups[k] = groups[k] || []).push(a);
+  }
+  for (const k of sectionOrder) {
+    if (!groups[k] || !groups[k].length) continue;
+    const head = document.createElement("p");
+    head.className = "articles-section-head";
+    head.textContent = sectionLabels[k];
+    articlesList.appendChild(head);
+    for (const a of groups[k]) {
+      const row = document.createElement("div");
+      row.className = "article-row";
+      row.dataset.slug = a.slug;
+      row.innerHTML = `
+        <p class="article-title">${escape(a.title)}${a.status === "in-progress" ? ' <em style="color:#92400e;font-weight:500">(in progress)</em>' : ""}</p>
+        ${a.subtitle ? `<p class="article-subtitle">${md(a.subtitle)}</p>` : ""}
+        <p class="article-meta">${a.word_count_approx ? "~" + a.word_count_approx + " words" : ""}${a.date ? " · " + escape(a.date) : ""}</p>
+      `;
+      row.addEventListener("click", () => openArticle(a));
+      articlesList.appendChild(row);
+    }
   }
 }
 

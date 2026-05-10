@@ -1402,3 +1402,313 @@ The horse image ridicules the opponent’s dialectical posture. He depends on co
 
 ---
 
+### MMK 24.16
+
+**Sanskrit (IAST):**
+> *svabhāvād yadi bhāvānāṃ sadbhāvam anupaśyasi*  
+> *ahetupratyayān bhāvāṃs tvam evaṃ sati paśyasi*
+
+**English (line-by-line):**
+> If you see the existent status of entities as coming from own-being,  
+> then, in that case, you see entities as without causes and conditions.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| svabhāvāt | sva-bhāva | abl. sg. m. | from own-being |
+| yadi | yadi | indecl. | if |
+| bhāvānām | bhāva | gen. pl. m. | of entities |
+| sadbhāvam | sad-bhāva | acc. sg. m. | existent status / real being |
+| anupaśyasi | anu-√paś | laṭ, 2nd sg. parasmaipada | you see / regard |
+| ahetu-pratyayān | a-hetu-pratyaya | acc. pl. m. | without causes and conditions |
+| bhāvān | bhāva | acc. pl. m. | entities |
+| tvam | tvad | nom. sg. pronoun | you |
+| evam | evam | indecl. | thus |
+| sati | sat | loc. sg. n. abs. form | that being so |
+| paśyasi | √paś | laṭ, 2nd sg. parasmaipada | you see |
+
+**Compound resolution (samāsa-vigraha):**
+- *sadbhāvam* [karmadhāraya/tatpuruṣa]: “being as existent.”
+- *ahetupratyayān* [nañ-dvandva/tatpuruṣa]: “without causes and conditions.”
+
+**Kāraka structure:**
+- sambandha: *bhāvānām*
+- karman: *sadbhāvam*, *bhāvān*
+- hetu denied: *ahetupratyayān*
+
+**Verbal modality:**
+- *anupaśyasi*, *paśyasi*: laṭ / parasmaipada / present
+
+**Note:**
+This is the decisive turn against the opponent. To attribute *svabhāva* is precisely to make dependent arising impossible, since what is self-grounded cannot genuinely depend.
+
+---
+
+### MMK 24.17
+
+**Sanskrit (IAST):**
+> *kāryaṃ ca kāraṇaṃ caiva kartāraṃ karaṇaṃ kriyām*  
+> *utpādaṃ ca nirodhaṃ ca phalaṃ ca pratibādhase*
+
+**English (line-by-line):**
+> You negate effect and cause, agent, instrument, and action,  
+> and also arising, cessation, and result.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| kāryam | kārya | acc. sg. n. | effect |
+| ca | ca | indecl. | and |
+| kāraṇam | kāraṇa | acc. sg. n. | cause |
+| ca | ca | indecl. | and |
+| eva | eva | indecl. | indeed |
+| kartāram | kartṛ | acc. sg. m. | agent |
+| karaṇam | karaṇa | acc. sg. n. | instrument |
+| kriyām | kriyā | acc. sg. f. | action |
+| utpādam | utpāda | acc. sg. m. | arising |
+| ca | ca | indecl. | and |
+| nirodham | nirodha | acc. sg. m. | cessation |
+| ca | ca | indecl. | and |
+| phalam | phala | acc. sg. n. | result |
+| ca | ca | indecl. | and |
+| pratibādhase | prati-√bādh | laṭ, 2nd sg. ātmanepada | you deny / obstruct |
+
+**Compound resolution (samāsa-vigraha):**
+- none
+
+**Kāraka structure:**
+- karman: *kāryam*, *kāraṇam*, *kartāram*, *karaṇam*, *kriyām*, *utpādam*, *nirodham*, *phalam*
+- kartṛ: implicit *tvam*
+
+**Verbal modality:**
+- *pratibādhase*: laṭ / ātmanepada / present
+
+**Note:**
+The list names exactly what the opponent thinks emptiness destroys. Nāgārjuna’s reply is that *svabhāva*, not emptiness, is what would make these impossible.
+
+---
+
+### MMK 24.18
+
+**Sanskrit (IAST):**
+> *yaḥ pratītyasamutpādaḥ śūnyatāṃ tāṃ pracakṣmahe*  
+> *sā prajñaptir upādāya pratipat saiva madhyamā*
+
+**English (line-by-line):**
+> That dependent arising, we declare, is emptiness.  
+> That is a designation dependent on something taken up; that itself is the middle way.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| yaḥ | yad | nom. sg. m. relative pronoun | that which |
+| pratītya-samutpādaḥ | pratītya-samutpāda | nom. sg. m. | dependent arising |
+| śūnyatām | śūnyatā | acc. sg. f. | emptiness |
+| tām | tad | acc. sg. f. | that |
+| pracakṣmahe | pra-√cakṣ | laṭ, 1st pl. ātmanepada | we declare / we call |
+| sā | tad | nom. sg. f. | that |
+| prajñaptiḥ | pra-√jñap / prajñapti | nom. sg. f. | designation / dependent imputation |
+| upādāya | upa-ā-√dā | absolutive / indeclinable adverbial use | depending upon / by taking up |
+| pratipat | pratipad / pratipat | nom. sg. f. | approach / course / understanding |
+| sā | tad | nom. sg. f. | that |
+| eva | eva | indecl. | itself |
+| madhyamā | madhyamā | nom. sg. f. | middle / middle way |
+
+**Compound resolution (samāsa-vigraha):**
+- *pratītyasamutpādaḥ* [absolutive + kṛdanta compound]: *pratītya samutpādaḥ*, “arising in dependence.”
+
+**Kāraka structure:**
+- kartṛ: implicit *vayam* in *pracakṣmahe*; then *sā* in second half
+- karman: *śūnyatām tām*
+- āśraya/instrumental dependence: *upādāya*
+
+**Verbal modality:**
+- *pracakṣmahe*: laṭ / ātmanepada / declarative present
+- *upādāya*: absolutive with doctrinally technical force
+
+**Note:**
+This is the load-bearing identity-verse of the MMK. *Śūnyatā* is not something over and above dependent arising; it is the same dependent status understood without reification. Compare MMK 24.19, *Śūnyatā-Saptati* 68–69 on dependent origination, and the anti-thesis stance of *Vigraha-Vyāvartanī*.
+
+---
+
+### MMK 24.19
+
+**Sanskrit (IAST):**
+> *apratītya samutpanno dharmaḥ kaścin na vidyate*  
+> *yasmāt tasmād aśūnyo hi dharmaḥ kaścin na vidyate*
+
+**English (line-by-line):**
+> No dharma whatever is found to have arisen without dependence.  
+> Therefore no dharma whatever is found to be non-empty.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| a-pratītya | a-pratītya | indeclinable negative absolutive form | without depending |
+| samutpannaḥ | sam-ut-√pad | nom. sg. m. PPP | arisen |
+| dharmaḥ | dharma | nom. sg. m. | dharma / entity |
+| kaścit | kaścit | nom. sg. m. | any whatever |
+| na | na | indecl. | not |
+| vidyate | √vid | laṭ, 3rd sg. ātmanepada | is found |
+| yasmāt | yasmāt | abl. sg. relative | because / from which |
+| tasmāt | tasmāt | abl. sg. correlative | therefore |
+| aśūnyaḥ | a-śūnya | nom. sg. m. | non-empty |
+| hi | hi | indecl. | indeed |
+| dharmaḥ | dharma | nom. sg. m. | dharma / entity |
+| kaścit | kaścit | nom. sg. m. | any whatever |
+| na | na | indecl. | not |
+| vidyate | √vid | laṭ, 3rd sg. ātmanepada | is found |
+
+**Compound resolution (samāsa-vigraha):**
+- *aśūnyaḥ* [nañ-tatpuruṣa]: “not empty / non-empty.”
+
+**Kāraka structure:**
+- kartṛ: *dharmaḥ kaścit*
+- hetu-correlative: *yasmāt ... tasmāt*
+
+**Verbal modality:**
+- *vidyate* (twice): laṭ / ātmanepada / existential-present
+- *samutpannaḥ*: PPP used predicatively
+
+**Note:**
+Verse 24.19 is the immediate gloss on 24.18. The argument is inferential: whatever is dependently arisen is empty; whatever is not empty would have to be non-dependent, but no such thing is found.
+
+---
+
+### MMK 24.20
+
+**Sanskrit (IAST):**
+> *yady aśūnyam idaṃ sarvam udayo nāsti na vyayaḥ*  
+> *caturṇām āryasatyānām abhāvas te prasajyate*
+
+**English (line-by-line):**
+> If all this were non-empty, there would be no arising and no passing away.  
+> Then the absence of the four noble truths would follow for you.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| yadi | yadi | indecl. | if |
+| aśūnyam | a-śūnya | nom./acc. sg. n. | non-empty |
+| idam | idam | nom./acc. sg. n. | this |
+| sarvam | sarva | nom./acc. sg. n. | all |
+| udayaḥ | udaya | nom. sg. m. | arising |
+| na | na | indecl. | not |
+| asti | √as | laṭ, 3rd sg. parasmaipada | is |
+| na | na | indecl. | not |
+| vyayaḥ | vyaya | nom. sg. m. | passing away / loss |
+| caturṇām | catur | gen. pl. | of the four |
+| ārya-satyānām | ārya-satya | gen. pl. n. | noble truths |
+| abhāvaḥ | abhāva | nom. sg. m. | absence |
+| te | tvad | gen./dat. sg. pronoun | for you |
+| prasajyate | pra-√saj | laṭ, 3rd sg. ātmanepada | follows / would ensue |
+
+**Compound resolution (samāsa-vigraha):**
+- *āryasatyānām* [karmadhāraya]: “of the noble truths.”
+
+**Kāraka structure:**
+- kartṛ: *udayaḥ*, *vyayaḥ*, *abhāvaḥ*
+- sambandha: *āryasatyānām*
+- beneficiary/opponent-frame: *te*
+
+**Verbal modality:**
+- *asti*, *prasajyate*: laṭ / present
+
+**Note:**
+The opponent had accused emptiness of abolishing Buddhism. Nāgārjuna reverses the charge: deny emptiness, and the four truths become impossible because arising and cessation would be blocked.
+
+---
+
+### MMK 24.21
+
+**Sanskrit (IAST):**
+> *apratītya samutpannaṃ kuto duḥkhaṃ bhaviṣyati*  
+> *anityam uktaṃ duḥkhaṃ hi tat svābhāvye na vidyate*
+
+**English (line-by-line):**
+> How could suffering exist if it had arisen without dependence?  
+> For suffering is said to be impermanent; that is not found under the regime of own-being.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| apratītya | a-pratītya | indeclinable negative absolutive form | without dependence |
+| samutpannam | sam-ut-√pad | nom./acc. sg. n. PPP | arisen |
+| kutaḥ | kutaḥ | indecl. interrogative | how / whence |
+| duḥkham | duḥkha | nom./acc. sg. n. | suffering |
+| bhaviṣyati | √bhū | lṛṭ, 3rd sg. parasmaipada | will be / could be |
+| anityam | a-nitya | nom./acc. sg. n. | impermanent |
+| uktam | √vac | nom./acc. sg. n. PPP | said |
+| duḥkham | duḥkha | nom./acc. sg. n. | suffering |
+| hi | hi | indecl. | for |
+| tat | tad | nom./acc. sg. n. | that |
+| svābhāvye | svābhāvya | loc. sg. n. | in essential own-being |
+| na | na | indecl. | not |
+| vidyate | √vid | laṭ, 3rd sg. ātmanepada | is found |
+
+**Compound resolution (samāsa-vigraha):**
+- *anityam* [nañ-tatpuruṣa]: “not permanent.”
+- *svābhāvye* [abstract derivative from *svabhāva*]: “in own-beinghood / under essentiality.”
+
+**Kāraka structure:**
+- kartṛ: *duḥkham*
+- adhikaraṇa: *svābhāvye*
+
+**Verbal modality:**
+- *bhaviṣyati*: lṛṭ / parasmaipada / future with argumentative force
+- *vidyate*: laṭ / ātmanepada / present
+- *uktam*: PPP used predicatively
+
+**Note:**
+The logic is exact: suffering must be impermanent to be Buddhist suffering at all, but what has *svabhāva* cannot be genuinely impermanent. So the denial of emptiness undermines the first noble truth.
+
+---
+
+### MMK 24.22
+
+**Sanskrit (IAST):**
+> *svabhāvato vidyamānaṃ kiṃ punaḥ samudeṣyate*  
+> *tasmāt samudayo nāsti śūnyatāṃ pratibādhataḥ*
+
+**English (line-by-line):**
+> What already exists by own-being, how would it arise again?  
+> Therefore origination does not stand if emptiness is denied.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| svabhāvataḥ | sva-bhāva | abl. sg. used adverbially | by own-being / from intrinsic nature |
+| vidyamānam | vidyamāna | nom./acc. sg. n. pres. part. | already existing |
+| kim | kim | indecl. interrogative | how / what |
+| punaḥ | punaḥ | indecl. | again |
+| samudeṣyate | sam-ud-√i / future middle form | lṛṭ, 3rd sg. ātmanepada | would arise forth |
+| tasmāt | tasmāt | abl. sg. indeclinable use | therefore |
+| samudayaḥ | samudaya | nom. sg. m. | origination |
+| na | na | indecl. | not |
+| asti | √as | laṭ, 3rd sg. parasmaipada | is |
+| śūnyatām | śūnyatā | acc. sg. f. | emptiness |
+| pratibādhataḥ | prati-√bādh / verbal abstract | abl. sg. m. | through denying / by obstructing |
+
+**Compound resolution (samāsa-vigraha):**
+- none beyond lexical derivatives
+
+**Kāraka structure:**
+- kartṛ: *samudayaḥ*
+- hetu: *śūnyatāṃ pratibādhataḥ*
+
+**Verbal modality:**
+- *samudeṣyate*: lṛṭ / ātmanepada / future-potential force
+- *asti*: laṭ / parasmaipada / present
+
+**Note:**
+This is the decisive consequence for the second noble truth. If things are already fixed in *svabhāva*, there is no room for arising; emptiness is therefore the condition of the intelligibility of origination, not its cancellation.
+
+---
+
