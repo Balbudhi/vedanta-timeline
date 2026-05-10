@@ -148,51 +148,157 @@
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "For Sāṃkhya, *guṇa* names the constitutive strands of *prakṛti* itself, not adventitious predicates of an underlying substrate: the manifest and the unmanifest are both *triguṇa*, whereas *puruṣa* is their contrary [[SK 11-14](cite://isvarakrsna/samkhya-karika/11-14)]. The guṇas are internally dynamic powers marked by mutual overpowering, support, generation, and coupling, and they are specified as *sattva*, *rajas*, and *tamas* through the functions of illumination, activity, and obscuration [[SK 12-13](cite://isvarakrsna/samkhya-karika/11-14)]. Because the effect is constituted by the guṇas of its cause, the whole evolute series is *traiguṇya*; liberation therefore depends on discriminating the *aguṇa* puruṣa for whose sake guṇa-endowed prakṛti continues to operate [[SK 14](cite://isvarakrsna/samkhya-karika/11-14)] [[SK 60](cite://isvarakrsna/samkhya-karika/60)].",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 11-14",
+        "Sāṃkhya-Kārikā 60"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/11-14",
+          "locus_short": "SK 11-14"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/60",
+          "locus_short": "SK 60"
+        }
+      ]
     },
     {
       "school": "Yoga",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Yoga inherits the Sāṃkhya sense of *guṇa* but places it directly within the discipline of liberation: higher dispassion is defined as *guṇavaitṛṣṇya*, indifference to the whole guṇic field once *puruṣa-khyāti* has arisen [[YS 1.16](cite://patanjali/yoga-sutra/1.16)]. The dṛśya is the triguṇa complex itself, articulated as *prakāśa-kriyā-sthiti* and unfolded through the stages called the *guṇaparvāṇi* [[YS 2.18-19](cite://patanjali/yoga-sutra/2.18-19)] [[YBh on YS 2.18](cite://vyasa/yoga-bhasya/2.18)]. Kaivalya is therefore the *pratiprasava* of the guṇas when they have become purposeless for puruṣa, not an annihilation of consciousness but its non-mixture with guṇic process [[YS 4.32-34](cite://patanjali/yoga-sutra/4.32-34)].",
+      "primary_loci": [
+        "Yoga-Sūtra 1.16",
+        "Yoga-Sūtra 2.18-19",
+        "Vyāsa-Bhāṣya on Yoga-Sūtra 2.18",
+        "Yoga-Sūtra 4.32-34"
+      ],
+      "citations": [
+        {
+          "cite": "cite://patanjali/yoga-sutra/1.16",
+          "locus_short": "YS 1.16"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/2.18-19",
+          "locus_short": "YS 2.18-19"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/2.18",
+          "locus_short": "YBh on YS 2.18"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/4.32-34",
+          "locus_short": "YS 4.32-34"
+        }
+      ]
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Nyāya-Vaiśeṣika, *guṇa* is a dependent *padārtha*: it resides in a substance, is itself *aguṇavat*, and is not a cause of conjunction and disjunction [[VS 1.1.15](cite://kanada/vaisesika-sutra/1.1.15)]. Nyāya applies the category through its account of the elements and the senses, treating smell, taste, color, touch, and sound as the guṇas that function as objective properties of earth and the other elemental substrates [[NS 1.1.14](cite://aksapada/nyaya-sutra/1.1.14)]. Vātsyāyana extends the same categorial logic to psychical features such as desire, holding that these too are guṇas and that their dravya-āśraya is the self [[NB p.156-157](cite://vatsyayana/nyaya-bhasya/p.156-157)].",
+      "primary_loci": [
+        "Vaiśeṣika-Sūtra 1.1.15",
+        "Nyāya-Sūtra 1.1.14",
+        "Nyāya-Bhāṣya, p. 156-157"
+      ],
+      "citations": [
+        {
+          "cite": "cite://kanada/vaisesika-sutra/1.1.15",
+          "locus_short": "VS 1.1.15"
+        },
+        {
+          "cite": "cite://aksapada/nyaya-sutra/1.1.14",
+          "locus_short": "NS 1.1.14"
+        },
+        {
+          "cite": "cite://vatsyayana/nyaya-bhasya/p.156-157",
+          "locus_short": "NB p.156-157"
+        }
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Pūrva-Mīmāṃsā, *guṇa* is not a free-standing metaphysical quality-category but a subordinate ritual accessory whose very nature is *parārtha* with respect to a principal act [[MS 1.4.16](cite://jaimini/mimamsa-sutra/1.4.16)]. Accordingly, a *guṇavidhi* does not automatically carry further dharmas from one occurrence to another; it ordinarily enjoins only that accessory, precisely because the accessory stands on a level coordinate with the competing occurrence under dispute [[MS 7.3.17](cite://jaimini/mimamsa-sutra/7.3.17)]. When Jaimini says *guṇānām abhidhānatvāt*, the point is hermeneutic: accessory-features can function as denotative delimiters of the intended performance because they are dependent qualifiers of the principal sacrifice rather than autonomous ritual ends [[MS 7.3.34](cite://jaimini/mimamsa-sutra/7.3.34)].",
+      "primary_loci": [
+        "Mīmāṃsā-Sūtra 1.4.16",
+        "Mīmāṃsā-Sūtra 7.3.17",
+        "Mīmāṃsā-Sūtra 7.3.34"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/1.4.16",
+          "locus_short": "MS 1.4.16"
+        },
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/7.3.17",
+          "locus_short": "MS 7.3.17"
+        },
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/7.3.34",
+          "locus_short": "MS 7.3.34"
+        }
+      ]
     },
     {
       "school": "Mādhyamaka",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Mādhyamaka does not admit *guṇa* as an ultimately real category distinct from the thing qualified; after the sevenfold chariot-analysis, parts, wholes, qualities, and quality-bearers are all unfound as *svabhāva*-siddha entities [[MAv 6.167](cite://candrakirti/madhyamakavatara/6.167)]. Guṇa-language is therefore retained only at the level of *lokaprasiddhi*: ordinary discourse may speak of qualities and bearers, but ultimate analysis dissolves both into dependent designation [[MAv 6.167](cite://candrakirti/madhyamakavatara/6.167)].",
+      "primary_loci": [
+        "Madhyamakāvatāra 6.167"
+      ],
+      "citations": [
+        {
+          "cite": "cite://candrakirti/madhyamakavatara/6.167",
+          "locus_short": "MAv 6.167"
+        }
+      ]
     },
     {
       "school": "Yogācāra",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In the Yogācāra epistemological wing, *guṇa* is not an independently apprehended property inhering in a separate substratum; Dharmakīrti argues that what is taken as *guṇa* and *pradhāna*, or as *viśeṣaṇa* and *viśeṣya*, depends on conceptual orientation within a single cognition [[PV 2.226-229](cite://dharmakirti/pramana-varttika/2.226-229)]. Hence no further *guṇin* needs to be posited behind the appearing feature-set, and attempts to explain error by attaching an additional guṇa merely redescribe the cognitive construction rather than disclose an independently given object-structure [[PV 2.228-229](cite://dharmakirti/pramana-varttika/2.226-229)] [[PV 3.44-45](cite://dharmakirti/pramana-varttika/3.44-45)].",
+      "primary_loci": [
+        "Pramāṇavārttika 2.226-229",
+        "Pramāṇavārttika 3.44-45"
+      ],
+      "citations": [
+        {
+          "cite": "cite://dharmakirti/pramana-varttika/2.226-229",
+          "locus_short": "PV 2.226-229"
+        },
+        {
+          "cite": "cite://dharmakirti/pramana-varttika/3.44-45",
+          "locus_short": "PV 3.44-45"
+        }
+      ]
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Trika accepts a *guṇa*-level within the lower tattva-cascade, placing the *guṇa-saṃjñita* domain below *buddhi* and above the manifest evolutes of *prakṛti* [[TA 8.253-254](cite://abhinavagupta/tantraloka/8.253-259)]. Abhinavagupta nevertheless criticizes the Sāṃkhya account of a self-originating disturbance of guṇa-equilibrium, insisting that the kṣobha of prakṛti is grounded in the will of the free Lord rather than in guṇas operating autonomously [[TA 8.255-259](cite://abhinavagupta/tantraloka/8.253-259)]. Accordingly, *avyakta*, *prakṛti*, *pradhāna*, and even *guṇakāraṇa* are treated as names within the māyā-born lower ontology, not as an ultimate explanatory principle independent of Śiva's *svātantrya* [[TA 8.272-274](cite://abhinavagupta/tantraloka/8.272-274)].",
+      "primary_loci": [
+        "Tantrāloka 8.253-259",
+        "Tantrāloka 8.272-274"
+      ],
+      "citations": [
+        {
+          "cite": "cite://abhinavagupta/tantraloka/8.253-259",
+          "locus_short": "TA 8.253-259"
+        },
+        {
+          "cite": "cite://abhinavagupta/tantraloka/8.272-274",
+          "locus_short": "TA 8.272-274"
+        }
+      ]
     },
     {
       "school": "Jainism",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "For Jainism, substance is intrinsically *guṇa-paryāyavat*: *dravya* is never a bare substrate but always accompanied by attributes and modes [[TS 5.37](cite://umasvati/tattvartha-sutra/5.37-39)]. Guṇas depend on *dravya*, yet are not themselves bearers of further guṇas, and change is named *pariṇāma* as the becoming of just those dependent determinations [[TS 5.38-39](cite://umasvati/tattvartha-sutra/5.37-39)].",
+      "primary_loci": [
+        "Tattvārtha-Sūtra 5.37-39"
+      ],
+      "citations": [
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/5.37-39",
+          "locus_short": "TS 5.37-39"
+        }
+      ]
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",
@@ -218,5 +324,5 @@
   ],
   "translator_note": "Translating *guṇa* uniformly as 'quality' is the foundational lazy collapse from which a chain of downstream errors follows. The Sāṃkhya-derived register — where *guṇa* names a constitutive strand of *prakṛti* — is the dominant Vedāntic register. In that register *guṇa* is no more a 'quality' than a strand of a rope is a 'quality' of the rope. When the gloss 'quality' is then carried into *nirguṇa* and *saguṇa*, the resulting English ('without qualities', 'with qualities') reads as a flat predicate-logic claim and severs the term from the metaphysics it lives in. Acceptable practice: leave *guṇa* untranslated; on first use specify the register (Sāṃkhya-strand vs. Vaiśeṣika-padārtha vs. Vaiṣṇava-kalyāṇa); never translate *guṇātīta* as 'beyond qualities' (use 'beyond the three *guṇa*s' or 'beyond the strands of *prakṛti*'); never gloss *nirguṇa* as 'qualityless' or *saguṇa* as 'qualified' without qualification.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54"
+  "last_verified_by": "glossary-wave2-codex54"
 }
