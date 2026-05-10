@@ -4,19 +4,26 @@
   "term_devanagari": "शरीर-शरीरि-भाव",
   "literal": "the body-and-ensouler relation; śarīra (body) + śarīrin (ensouler) + bhāva (relation, condition)",
   "aliases": ["sarira-saririn-bhava", "śarīra-śarīrī-bhāva", "śarīra-śarīrin-bhāva", "śarīra-ātma-bhāva"],
-  "invariant_definition": "A doctrine specific to Viśiṣṭādvaita: the relation between the embodied conscious *jīva* and the body it ensouls is taken as the analogy for the relation between *brahman* and the universe (*cit* + *acit*) which is *brahman*'s body. The classical definition (Rāmānuja, *Vedārtha-Saṅgraha*): *yasya cetanasya yad dravyaṃ sarvātmanā svārthe niyantum śakyaṃ tac-cheṣataika-svarūpaṃ ca tat tasya śarīram* — the body of a conscious being is that substance which can be wholly controlled by him for his own purpose and whose intrinsic nature is to be his subordinate. *Brahman* is therefore the cosmic *śarīrī* of which the entire universe is *śarīra*; this is the metaphysical structure of *aprthak-siddhi*.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "The body-ensouler relation. In Viśiṣṭādvaita this is not a metaphor borrowed from devotion but the working ontology of the *brahman*-world relation. Rāmānuja defines body functionally: what a conscious self supports, controls, and uses for its own end is its body. On that basis every *cit* and *acit* entity is the body of *brahman*, who is their inner self. The doctrine explains scriptural co-reference, divine immanence, ontological dependence, and world-reality at once: the world is not outside God, not numerically identical with God without remainder, and not illusory. It also governs the practical register of *śeṣatva*: the *jīva* is rightly lived as belonging to the Lord whose body it is. The term therefore presupposes *apṛthak-siddhi*, *antaryāmin*, and *śeṣa-śeṣi-bhāva*. 'Body-soul relation' is tolerable only if one avoids the Cartesian picture of two substances externally joined; the intended model is of inner control, dependence, and purposive subordination.",
   "per_school": [
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "Central doctrine. The *śarīra-śarīrī-bhāva* relation has three structural features: (1) *ādhāra-ādheya-bhāva* — substrate-supportee; (2) *niyāmya-niyantṛ-bhāva* — controlled-controller; (3) *śeṣa-śeṣi-bhāva* — subordinate-master. All three obtain between *brahman* and the universe. *Brahman* is the *antaryāmin* (inner controller) of every *cit* and *acit*; the universe is *brahman*'s *vibhūti* (manifest glory).",
-      "primary_loci": ["Vedārtha-Saṅgraha §§81–88, 117–137", "Śrī-Bhāṣya 1.1.1", "Śrī-Bhāṣya 2.1.9", "Yatīndra-Mata-Dīpikā 4"]
+      "definition": "This is the central metaphysical grammar of the school. The body is that which is supported, controlled, and used by a conscious self for its purposes; accordingly all selves and all matter form the body of Brahman, who is their *śarīrī* and *antaryāmin*. The doctrine yields the three familiar relations of controlled to controller, subordinate to principal, and supported to supporter. It is the ontological basis for reading Upaniṣadic identity passages without erasing plurality.",
+      "primary_loci": ["Bṛhadāraṇyaka-Upaniṣad 3.7.3-23", "Vedārtha-Saṅgraha 81-88", "Vedārtha-Saṅgraha 117-137", "Śrī-Bhāṣya 1.1.1", "Śrī-Bhāṣya 2.1.9"]
     },
     {
-      "school": "Other Schools (use)",
-      "definition": "Not adopted as a positive doctrine elsewhere; in Dvaita the *jīva* is *paratantra* but not *brahman*'s body in this sense (the body-grammar would compromise Viṣṇu's transcendence).",
-      "primary_loci": []
+      "school": "Advaita",
+      "definition": "Advaita accepts the language of indwelling control at the level of *Īśvara* and empirical teaching, but not as the final structure of reality. The relation between controller and controlled remains within the domain of *nāma-rūpa* and *avidyā*; ultimate inquiry dissolves that relational grammar into non-dual identity. Hence *śarīra-śarīrī-bhāva* is pedagogically useful but not metaphysically ultimate.",
+      "primary_loci": ["Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 3.7", "Brahma-Sūtra-Bhāṣya 1.2.18-20", "Chāndogya-Upaniṣad-Bhāṣya 6.8.7"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "Dvaita accepts that Viṣṇu indwells and controls all dependent realities, but does not collapse that into the Viśiṣṭādvaita claim that the universe is His body in a strict ontological sense. The point of indwelling is sovereignty, not qualified identity. The real difference between Lord, souls, and matter must remain intact if devotion and dependence are to be more than verbal.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.2.18-20 [NOT YET RETRIEVED]", "Mahābhārata-Tātparya-Nirṇaya 1.85-95 [NOT YET RETRIEVED]"]
     }
   ],
   "see_also": ["aprthak-siddhi", "antaryamin", "visesa", "sesa-sesi-bhava", "visistadvaita"],
-  "translator_note": "'Body-soul relation' is too coarse — the precise three-fold structure (substrate / controlled / subordinate) is essential. The doctrine is closer to Stoic / Spinozist 'body of God' theology than to anything in classical Western theism, with the difference that the universe is real, not merely modal."
+  "translator_note": "The lazy gloss is 'body-soul relation.' In English that often imports a dualist picture of two independently intelligible substances later joined together. Rāmānuja's use is stricter and more structural: body means what is controlled, supported, and exists for the sake of the indwelling self. If that functional definition is dropped, the doctrine is reduced to pious metaphor and its metaphysical force disappears."
 }

@@ -2,31 +2,55 @@
   "term_key": "pati-pasu-pasa",
   "term_iast": "pati-paśu-pāśa",
   "term_devanagari": "पतिपशुपाश",
-  "literal": "Lord-soul-bond; from pati (\"Lord\"), paśu (\"bound soul; literally 'animal'\"), pāśa (\"bond; tether\")",
-  "aliases": ["pati-pasu-pasa", "pati-paśu-pāśa", "patipaśupāśa", "trika-tattva (in early Śaiva usage)"],
-  "invariant_definition": "The triadic ontology of the Pāśupata Śaiva tradition (and, in inherited form, of the dualist Kashmirian Saiddhāntika tradition): three eternally distinct categories — *pati* (the Lord, identified with Śiva, the *nimitta-kāraṇa* or efficient cause of the manifest world), *paśu* (the bound soul, possessed of its own *cetanā* and *kartṛtva* and *bhoktṛtva*, eternally distinct from *pati* and from other *paśus*), *pāśa* (the bond, comprising *karma*, *māyā*, and embodiment, that binds the *paśu* to the cycle of births). The triad is the position the *Brahma-Sūtra* refutes at 2.2.37 as the *pāśupata-pakṣa*. The Vedāntic refutation argues that Śiva-as-*nimitta-kāraṇa*-only (without being *upādāna-kāraṇa*) fails to give a coherent account of the Lord's relation to the world: either world arises without material cause, or some other material cause is needed (in which case the Lord's lordship is qualified), or the Lord himself is *upādāna* (in which case the Pāśupata position collapses into a Vedāntic position). The Saiddhāntika (Sadyojyotis, Bhaṭṭa Rāmakaṇṭha) inherit the *pati-paśu-pāśa* triad and develop it with the *kalā-tattva* apparatus.",
+  "literal": "Lord, bound soul, and bond",
+  "aliases": [
+    "pati-pasu-pasa",
+    "pati-paśu-pāśa",
+    "patipaśupāśa"
+  ],
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "The threefold Śaiva ontology of Lord, bound soul, and bondage. The triad is especially important in Pāśupata and Śaiva Siddhānta contexts, where *pati* is Śiva as Lord, *paśu* is the finite conscious self in bondage, and *pāśa* is the bond that keeps the self under contraction, embodiment, and transmigratory dependence. The term therefore presupposes more than a devotional contrast between God and creature. It organizes causality, soteriology, and anthropology: who creates or governs, who is bound, what the bond consists in, and what liberation removes. In later Śaiva Siddhānta, *pāśa* is commonly analyzed through *mala*, *karma*, and *māyā*; in non-dual Kashmir Śaivism the triad is re-read as a differentiated display within one Śiva-consciousness rather than as an ultimate threefold division. Vedānta chiefly encounters the triad polemically when refuting a Lord who is only an efficient cause and not also the world's ontological ground.",
   "per_school": [
     {
-      "school": "Pāśupata (Lakulīśa-Kauṇḍinya foundational)",
-      "definition": "*Pati* is Śiva, the *nimitta-kāraṇa* of the world; *paśu* is the bound soul, eternally distinct; *pāśa* is the bond. The end-state (*sāyujya*) is proximity to Śiva and the acquisition of the eight *aiśvaryas*, but not identity. The Pāśupata-Sūtra opens with this triad as the structural axis of the discipline.",
-      "primary_loci": ["Pāśupata-Sūtra 1.1ff", "Pañcārtha-Bhāṣya (Kauṇḍinya) ad loc."]
+      "school": "Pāśupata",
+      "definition": "The triad structures the classical Pāśupata system. Śiva is *pati*, the Lord and governor; the self is *paśu*, a finite experiencer and agent; and bondage is the condition from which the self must be freed. Liberation yields nearness to and participation in the Lord's powers without collapsing the difference between Lord and soul.",
+      "primary_loci": [
+        "Pāśupata-Sūtra 1.1-5",
+        "Pañcārtha-Bhāṣya ad Pāśupata-Sūtra 1.1"
+      ]
     },
     {
-      "school": "Kashmir Śaiva-Siddhānta (dualist)",
-      "definition": "*Pati*, *paśu*, *pāśa* are the three padārthas of the Saiddhāntika ontology, with *pāśa* analysed into the *kalā*-complex (the five contractive sheaths plus *māyā* plus *karma*). Bhaṭṭa Rāmakaṇṭha's mature commentaries develop the triad against Pratyabhijñā non-dualism.",
-      "primary_loci": ["Mokṣa-Kārikā (Sadyojyotis)", "Mataṅga-Vṛtti (Bhaṭṭa Rāmakaṇṭha)"]
+      "school": "Śaiva Siddhānta",
+      "definition": "Śaiva Siddhānta develops *pati-paśu-pāśa* into a precise metaphysical grammar. The soul is real, conscious, and distinct from Śiva, yet its knowledge and power are constricted by the bonds of impurity, karmic accumulation, and objectifying materiality. Liberation requires Śiva's grace and the removal of those bonds, not simple recognition of an identity already fully manifest.",
+      "primary_loci": [
+        "Mṛgendrāgama, Vidyāpāda [NOT YET RETRIEVED]",
+        "Śivajñānabodha [NOT YET RETRIEVED]"
+      ]
     },
     {
-      "school": "Pratyabhijñā / Trika (refutation)",
-      "definition": "Somānanda, Utpaladeva, and Abhinavagupta argue that the three-fold separation of *pati*, *paśu*, *pāśa* cannot survive analysis of self-awareness and *svātantrya*: the *paśu*'s separation from *pati* is itself a moment of Śiva's self-limiting *māyā-śakti*, and the apparent triad is the differentiated self-display of one Śiva-consciousness. The Pratyabhijñā non-dualism is the Trika alternative to the Pāśupata-Saiddhāntika triad.",
-      "primary_loci": ["Śiva-Dṛṣṭi 1.1–48", "Īśvara-Pratyabhijñā-Kārikā 4.1ff", "Tantrāloka 9–10"]
+      "school": "Pratyabhijñā / Trika",
+      "definition": "Non-dual Kashmir Śaivism reinterprets the triad internally. Lord, bound self, and bond are not three ultimate realities but three moments in Śiva's own self-limiting and self-revealing play. *Pāśa* is thus a mode of contraction generated within *svātantrya*; *paśu* is Śiva under self-concealment; and liberation is *pratyabhijñā*, the recognition that the triad never stood outside the one consciousness.",
+      "primary_loci": [
+        "Pratyabhijñā-Hṛdaya 5-9",
+        "Tantrāloka 9-10"
+      ]
     },
     {
       "school": "Vedānta (refutation)",
-      "definition": "*Brahma-Sūtra* 2.2.37 refutes the *pāśupata-pakṣa*: Śiva-as-*nimitta-kāraṇa* without being *upādāna-kāraṇa* fails to give a coherent account of the Lord's relation to the world. Śaṅkara, Rāmānuja, and Madhva all develop the argument with the Lakulīśa-Kauṇḍinya position in view.",
-      "primary_loci": ["Brahma-Sūtra 2.2.37", "Brahma-Sūtra-Bhāṣya (Śaṅkara) 2.2.37", "Śrī-Bhāṣya (Rāmānuja) 2.2.37", "Brahma-Sūtra-Bhāṣya (Madhva) 2.2.37"]
+      "definition": "Vedānta takes aim at versions of the triad that make Śiva only an efficient cause while locating the material side of the world elsewhere. The objection is that such a Lord cannot explain total dependence or the full causal relation between ultimate reality and world. This is why the *Brahma-Sūtra* treats the Pāśupata position as metaphysically inadequate rather than merely sectarianly mistaken.",
+      "primary_loci": [
+        "Brahma-Sūtra 2.2.37",
+        "Brahma-Sūtra-Bhāṣya 2.2.37"
+      ]
     }
   ],
-  "see_also": ["siva", "svatantrya", "upadhi"],
-  "translator_note": "'Lord-soul-bond' is the standard English rendering; the literal 'animal' for *paśu* is misleading in modern English (the Sanskrit term denotes a bound being, with the etymological 'tethered animal' connotation acceptable only with explanation). Western readers should not assimilate the Pāśupata position to monotheism without qualification — the Pāśupata Lord is *nimitta*-only, not the creator-substrate of the world."
+  "see_also": [
+    "siva",
+    "sakti",
+    "svatantrya",
+    "maya",
+    "karma"
+  ],
+  "translator_note": "\"Lord, soul, and bond\" is workable, but the English \"soul\" and \"bond\" can become too generic. *Paśu* means the finite self precisely as bound, and *pāśa* is the concrete complex of impurities, karmic conditions, and limiting structures, not merely a vague psychological attachment."
 }

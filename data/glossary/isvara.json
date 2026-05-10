@@ -2,31 +2,69 @@
   "term_key": "isvara",
   "term_iast": "Īśvara",
   "term_devanagari": "ईश्वर",
-  "literal": "lord, ruler, the one who rules; from √īś 'to rule'",
-  "aliases": ["isvara", "Īśvara", "īśvara", "Iśvara", "īśvaraḥ", "īśvarasya", "ishvara", "ishwar"],
-  "invariant_definition": "The Lord — *brahman* under the aspect of cosmic ruler, sustainer, dispenser of *karma*-fruits, and object of *upāsana*. All Vedāntic schools accept the existence of *Īśvara* and identify him with one of the personal deities (Viṣṇu in the Vaiṣṇava traditions, Śiva in Śaiva-influenced contexts). They differ on whether *Īśvara* is the highest description of *brahman* (Viśiṣṭādvaita, Dvaita, Vaiṣṇava bhedābheda — yes, the personal Lord is the highest reality) or a *saguṇa* description sublatable in the realization of *nirguṇa brahman* (Advaita).",
+  "literal": "lord, ruler, master; from √īś, \"to rule\"",
+  "aliases": [
+    "isvara",
+    "Īśvara",
+    "īśvara",
+    "Iśvara",
+    "īśvaraḥ",
+    "īśvarasya",
+    "ishvara",
+    "ishwar"
+  ],
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "The Lord as governing consciousness: the principle that rules, orders, and dispenses. In Sanskrit philosophical use, *Īśvara* does more work than the English \"God.\" It is the term around which disputes about causality, providence, *karma*-fruition, worship, and scriptural authority are organized. Vedānta asks whether *Īśvara* is merely the efficient cause or both efficient and material cause of the world, whether *Īśvara* is the highest description of reality or a conditioned one, and how the Lord stands to *māyā*, *prakṛti*, and bound selves. Yoga uses the term differently again: there *Īśvara* is a special *puruṣa*, untouched by affliction and karmic residue, and functions as a meditative and salvific ideal without needing the full Vedāntic creator-theology. The invariant core is therefore rule, sovereignty, and spiritual authority; the surrounding metaphysical commitments differ sharply. Any translation has to keep that causal and soteriological structure in view.",
   "per_school": [
     {
-      "school": "Advaita",
-      "definition": "*Īśvara* is *saguṇa brahman* — *brahman* associated with *māyā* (under its *sattva*-pradhāna *upādhi*). *Īśvara* is the cosmic creator, sustainer, dissolver, and dispenser of *karma*-fruits. Real for the *vyāvahārika* and devotional standpoints; sublated in the realization of *nirguṇa brahman*. *Īśvara* is the proper object of *upāsana* but not the proper object of liberating *jñāna*.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.2 (janmādy asya yataḥ)", "Brahma-Sūtra-Bhāṣya 2.1.13 (Īśvara as cause)", "Pañcadaśī 6.130–145 (Īśvara as māyā-upādhi-Brahman)"]
+      "school": "Yoga",
+      "definition": "*Īśvara* is a special *puruṣa* untouched by affliction, action, karmic fruition, and latent deposits. Patañjali does not define Īśvara through world-creation but through unsurpassed spiritual status and meditative efficacy; *Īśvara-praṇidhāna* becomes a direct yogic discipline. This is one of the clearest cases where the Sanskrit term is not equivalent to the creator-God of later Vedānta.",
+      "primary_loci": [
+        "Yoga-Sūtra 1.23-29"
+      ]
+    },
+    {
+      "school": "Advaita Vedānta",
+      "definition": "*Īśvara* is *brahman* associated with *māyā*, especially as omniscient ruler, creator, sustainer, and dispenser of the fruits of *karma*. Īśvara is fully real at the *vyāvahārika* level and is the proper object of worship and scriptural meditation, but Advaita denies that this conditioned lordship is the final description of reality. The distinction between *Īśvara* and *nirguṇa brahman* is therefore structural, not devotional window-dressing.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 1.1.2",
+        "Brahma-Sūtra-Bhāṣya 2.1.14"
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Īśvara* IS *brahman* in his highest description: Viṣṇu-Nārāyaṇa, possessing infinite auspicious qualities, with *cit* and *acit* as his body, the soul of all souls. There is no higher *nirguṇa* description; *nirguṇa* texts deny only *heya-guṇas*.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§91–137", "Śrī-Bhāṣya 1.1.1, 1.1.13"]
+      "definition": "*Īśvara* is Nārāyaṇa, the highest *brahman* itself, not a conditioned appearance of something beyond personality. The Lord is both the inner ruler and the substantive whole whose body is the totality of *cit* and *acit*. Hence providence, worship, world-causality, and liberation all terminate in one and the same personal absolute.",
+      "primary_loci": [
+        "Śrī-Bhāṣya 1.1.1",
+        "Śrī-Bhāṣya 1.1.13"
+      ]
     },
     {
-      "school": "Dvaita",
-      "definition": "*Īśvara* is the unique *svatantra* — Viṣṇu, the only independent reality, on whom all else depends. Identified strictly with Viṣṇu against the Śaiva and other identifications.",
-      "primary_loci": ["Tattva-Saṅkhyāna 1–4", "Viṣṇu-Tattva-Vinirṇaya"]
+      "school": "Dvaita Vedānta",
+      "definition": "*Īśvara* is Viṣṇu, the uniquely independent reality. Lordship here means ontological independence, absolute sovereignty, and real difference from every dependent entity. The term is therefore inseparable from the *svatantra/paratantra* distinction and from Madhva's rejection of any view that would collapse the Lord into souls, matter, or a higher impersonal absolute.",
+      "primary_loci": [
+        "Tattva-Saṅkhyāna 1-4",
+        "Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1"
+      ]
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "*Īśvara* is Kṛṣṇa as *svayaṃ-bhagavān*; Viṣṇu in his various forms is *Īśvara* as *paramātman*; impersonal *brahman* is the *brahmajyoti* (Kṛṣṇa's bodily effulgence). A graded ontology: *brahman* < *paramātman* < *bhagavān* (Kṛṣṇa).",
-      "primary_loci": ["Bhagavat-Sandarbha §§1–7", "Kṛṣṇa-Sandarbha §28"]
+      "definition": "*Īśvara* names the personal ruling aspect of the absolute, but Gauḍīya theology differentiates the Lord's manifestations: impersonal *brahman*, indwelling *Paramātman*, and fully relational *Bhagavān*. Kṛṣṇa is the supreme source, while Viṣṇu forms function as cosmic rulers and indwellers. The term therefore belongs to a graded theology of manifestation rather than to a simple personal/impersonal divide.",
+      "primary_loci": [
+        "Bhāgavata-Purāṇa 1.2.11",
+        "Kṛṣṇa-Sandarbha 28"
+      ]
     }
   ],
-  "see_also": ["brahman", "bhagavan", "saguna", "nirguna", "visnu", "siva", "paramatman"],
-  "translator_note": "'God' is the conventional gloss; bears the same risks flagged for *brahman* (Christian-monotheist resonance). 'The Lord' is closer (it preserves the rulership-sense of √īś). Note: in Advaita, calling *brahman* 'God' (as if *Īśvara* exhausts the highest description) is precisely the misreading — *nirguṇa brahman* exceeds *Īśvara*."
+  "see_also": [
+    "brahman",
+    "bhagavan",
+    "paramatman",
+    "maya",
+    "karma",
+    "visnu",
+    "siva"
+  ],
+  "translator_note": "\"God\" is often too blunt. It imports Abrahamic assumptions about creation, personality, and uniqueness that fit some uses of *Īśvara* but not others, especially Yoga and Advaita. \"The Lord\" is usually safer because it preserves the rulership sense and leaves open the school-specific metaphysics."
 }

@@ -2,26 +2,33 @@
   "term_key": "mahavakya",
   "term_iast": "mahāvākya",
   "term_devanagari": "महावाक्य",
-  "literal": "great-statement; mahā (great) + vākya (sentence)",
+  "literal": "great statement; mahā (great) + vākya (sentence)",
   "aliases": ["mahavakya", "mahāvākya", "Mahāvākya", "mahāvākyāni", "mahavakyas"],
-  "invariant_definition": "A 'great statement' of the Upaniṣads — one of the four canonical Vedāntic Mahāvākyas: *prajñānam brahma* (Aitareya 3.1.3), *aham brahmāsmi* (Bṛhadāraṇyaka 1.4.10), *tat tvam asi* (Chāndogya 6.8.7), *ayam ātmā brahma* (Māṇḍūkya 2). Each is associated with one of the four *Vedas*. Their interpretation is a school-defining matter: Advaita reads them as identity-statements producing *akhaṇḍākāra-vṛtti*; Viśiṣṭādvaita as *sāmānādhikaraṇya* under *aprthak-siddhi*; Dvaita reanalyzes them (e.g. *atat tvam asi*) or interprets as *sādṛśya*.",
+  "invariant_definition": "A *mahāvākya* is not merely an inspiring slogan from the Upaniṣads. It is a sentence-locus treated by Vedānta as doctrinally decisive because sentence meaning, not isolated word meaning, carries the settled purport of *śruti*. The later pedagogical canon usually names four such loci: *prajñānam brahma* (Aitareya Upaniṣad 3.1.3), *aham brahmāsmi* (Bṛhadāraṇyaka Upaniṣad 1.4.10), *tat tvam asi* (Chāndogya Upaniṣad 6.8.7), and *ayam ātmā brahma* (Māṇḍūkya Upaniṣad 2). Their interpretation presupposes an entire hermeneutic apparatus: *śabda-pramāṇa*, *tātparya-liṅga*, *sāmānādhikaraṇya*, and, where needed, *lakṣaṇā*. The schools therefore disagree not over whether these sentences matter, but over what sort of sentence they are. Are they identity statements, qualified co-reference claims, dependence statements, or resemblance statements? That dispute is one of the cleanest places where a school's larger metaphysics shows itself at the level of grammar.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Mahāvākyas* are identity-statements (*akhaṇḍārtha*); their hearing produces *akhaṇḍākāra-vṛtti* and removes *avidyā*. The *jahad-ajahallakṣaṇā* construction is required for *tat tvam asi*.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.4", "Upadeśa-Sāhasrī 18", "Saṅkṣepa-Śārīraka 1"]
+      "definition": "*Mahāvākyas* are identity-statements whose undivided purport is the identity of *ātman* and *brahman*. In the classic case of *tat tvam asi*, literal word-meanings conflict, so *bhāga-tyāga-lakṣaṇā* is invoked: the adjunct-bound aspects are dropped and the shared consciousness-essence retained. Hearing the sentence in a prepared mind gives rise to the liberating *akhaṇḍākāra-vṛtti*. The sentence does not enjoin an action; it discloses what is already the case.",
+      "primary_loci": ["Chāndogya-Upaniṣad-Bhāṣya 6.8.7", "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 1.4.10", "Brahma-Sūtra-Bhāṣya 1.1.4", "Upadeśa-Sāhasrī prose 18"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Mahāvākyas* are *sāmānādhikaraṇya* (co-reference) under *aprthak-siddhi*; *tat* and *tvam* refer to one complex (Brahman-with-jīva-as-body), not to identical referents.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§4–10"]
+      "definition": "The great Upaniṣadic sentences are authoritative, but they do not assert numerical identity between finite self and *brahman*. Their force is read through *sāmānādhikaraṇya* under *apṛthak-siddhi*: the self and the Lord are inseparably related as body and indwelling self. Thus *tat tvam asi* teaches dependence and intimate inclusion, not the cancellation of difference. The sentence's greatness lies in disclosing the true relation of the self to Nārāyaṇa.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§4–10", "Śrī-Bhāṣya 1.1.1", "Śrī-Bhāṣya 1.1.13"]
     },
     {
       "school": "Dvaita",
-      "definition": "*Tat tvam asi* parsed as *atat tvam asi* (sandhi reanalysis) or read as *sādṛśya*; never as identity.",
-      "primary_loci": ["Madhva, Tat tvam asi-Khaṇḍana", "Viṣṇu-Tattva-Vinirṇaya §§30–40"]
+      "definition": "The *mahāvākya*s cannot be allowed to overturn the reality of difference. Madhva and later Dvaitins therefore offer anti-identity readings: in some contexts by sandhi reanalysis such as *atat tvam asi*, in others by reading the sentence as teaching dependence, resemblance, or subordinate relation rather than identity. The doctrinal point is constant even where the grammatical strategy varies: the finite self never becomes or is identical with Viṣṇu.",
+      "primary_loci": ["Madhva, Tat tvam asi-Khaṇḍana [NOT YET RETRIEVED]", "Viṣṇu-Tattva-Vinirṇaya §§30–40", "Chāndogya-Upaniṣad-Bhāṣya (Madhva) 6.8.7 [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Bhedābheda (Bhāskara)",
+      "definition": "The great sentences teach real identity-in-difference. They do not reduce plurality to illusion, but neither do they permit a purely external relation between self and absolute. The interpretive pressure falls on preserving both sides of the sentence without Advaita's elimination of adjuncts and without Dvaita's hard separation.",
+      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 1.1.4", "Bhāskara, Brahma-Sūtra-Bhāṣya 2.1.14 [NOT YET RETRIEVED]"]
     }
   ],
-  "see_also": ["tat-tvam-asi", "aham-brahmasmi", "laksana", "samanadhikaranya", "akhandakara-vrtti"],
-  "translator_note": "'Great statement' is the standard gloss. The four Mahāvākyas are technical units; they should be cited untranslated (with gloss) rather than paraphrased."
+  "see_also": ["tat-tvam-asi", "aham-brahmasmi", "laksana", "samanadhikaranya", "akhandakara-vrtti", "sabda"],
+  "translator_note": "'Great saying' or 'great statement' is acceptable only if the reader is told that the issue is not rhetorical grandeur but sentence-function within *śruti*. Treating a *mahāvākya* as a motto strips away the hermeneutic apparatus that gives it force. English paraphrases such as 'you are God' or 'I am the Absolute' are especially misleading because they import modern theistic or idealist baggage and erase the school-specific debates over grammar, reference, and sentence meaning.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

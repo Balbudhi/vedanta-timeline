@@ -4,34 +4,36 @@
   "term_devanagari": "भक्ति",
   "literal": "sharing, participation, attachment-to; from √bhaj 'to share, to partake of'",
   "aliases": ["bhakti", "Bhakti", "bhaktiḥ", "bhaktyā", "bhakter", "bhakta", "bhaktaḥ", "bhaktas"],
-  "invariant_definition": "Devotional cognition-and-affect directed toward *brahman* understood personally (as Viṣṇu, Kṛṣṇa, Śiva, or the chosen *iṣṭa-devatā*). All Vedāntic schools acknowledge *bhakti* as a real path-element; the disagreement is on its place — whether it is preparatory to *jñāna* (Advaita), constitutes liberating *jñāna* itself (Viśiṣṭādvaita), is the lifelong relational mode of the *jīva* to its master (Dvaita), or is the highest state above and beyond *mokṣa* (Acintya-Bhedābheda). All schools that elevate *bhakti* trace it to the *Bhakti-Sūtra*s of Nārada and Śāṇḍilya, to *Bhāgavata-Purāṇa* 11, and to the personal-deity passages of the Upaniṣads (Śvetāśvatara, Kaṭha).",
+  "invariant_definition": "*Bhakti* is participatory devotion to a real Lord. Because the root √*bhaj* means to share, partake, or belong-to, the term is wider than 'devotion' in the sense of private feeling. It includes cognition, affect, ritual address, remembrance, praise, service, and self-offering ordered toward Viṣṇu, Kṛṣṇa, Śiva, Devī, or another genuinely divine *iṣṭa-devatā* according to the school. *Bhakti* lives alongside terms such as *upāsanā*, *smaraṇa*, *kīrtana*, *arcana*, *dāsya*, *prema*, and sometimes *prapatti* or *rasa*. The main disputes concern what sort of state it is: preparatory discipline, continuous contemplative remembrance, the soul's abiding relational mode, or the highest end beyond liberation conceived as mere release. In practice it names things one does and undergoes, not just a sentiment one has. Because the deity is real for the traditions that foreground *bhakti*, the term should not be flattened into symbolism or reduced to emotional piety.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Bhakti* is a *citta-śuddhi*-producing *upāya*, valuable preparatorily but not itself liberating. The realized *jñāni*'s *bhakti* (*nirupādhika-bhakti*, in Madhusūdana's analysis) is the spontaneous loving recognition of *brahman* as one's own self. Madhusūdana Sarasvatī in the *Bhakti-Rasāyana* and *Gūḍhārtha-Dīpikā* develops the strongest Advaita doctrine of *bhakti* as itself a *rasa* — but always within the framework that *jñāna* alone produces *mokṣa*.",
-      "primary_loci": ["Bhagavad-Gītā-Bhāṣya 12, 18.65", "Madhusūdana, Bhakti-Rasāyana 1", "Madhusūdana, Gūḍhārtha-Dīpikā 12"]
+      "definition": "Classical Advaita usually treats *bhakti* as a powerful aid to *citta-śuddhi* and *ekāgratā*, preparing the mind for liberating knowledge. It is therefore not denied, but subordinated to *jñāna* as the proximate cause of *mokṣa*. Later Advaitins, especially Madhusūdana Sarasvatī, deepen the category by treating devotion to Kṛṣṇa as a genuine *rasa* and by allowing a post-realization form of devotion that is no longer grounded in ignorance. Even then, the metaphysical framework remains non-dual.",
+      "primary_loci": ["Bhagavad-Gītā-Bhāṣya 12.2-12", "Bhagavad-Gītā-Bhāṣya 18.54-55", "Madhusūdana Sarasvatī, Bhakti-Rasāyana 1"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Bhakti* in its mature form (*para-bhakti, para-jñāna, parama-bhakti*) IS the liberating *upāsana*. It is defined as *dhruvānusmṛti* — uninterrupted continuous remembrance — equivalent to the highest *jñāna*. Beside this main path Rāmānuja accepts *prapatti* (total surrender) as a parallel *upāya* for those incapable of sustained *bhakti*-sādhana.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§137–144", "Śrī-Bhāṣya 1.1.1 (bhakti as vidyā)", "Śaraṇāgati-Gadya"]
+      "definition": "*Bhakti-yoga* is sustained contemplative devotion culminating in direct God-orientation. Rāmānuja interprets it as continuous remembrance, *dhruvānusmṛti*, nourished by knowledge, discipline, and ritual life. Mature *bhakti* develops through stages often described as *para-bhakti*, *para-jñāna*, and *parama-bhakti*. It is not merely emotional reverence but the principal liberating discipline for one capable of maintaining it, with *prapatti* recognized for those unable to undertake the full path.",
+      "primary_loci": ["Vedārtha-Saṅgraha 121-130 [NOT YET RETRIEVED]", "Śrī-Bhāṣya 4.1.12 [NOT YET RETRIEVED]", "Bhagavad-Gītā-Bhāṣya (Rāmānuja) 12.2"]
     },
     {
       "school": "Dvaita",
-      "definition": "*Bhakti* — defined by Madhva as *māhātmya-jñāna-pūrvaka-niranter-prema-pravāha* (continuous flow of love preceded by knowledge of greatness) — is the eternal mode of the *jīva*'s relation to Viṣṇu, both in *sādhana* and in *mokṣa*. It is graded by *taratamya* among souls; only certain souls (*mukti-yogya*) are constitutively capable of liberating *bhakti*.",
-      "primary_loci": ["Mahābhārata-Tātparya-Nirṇaya 1.110ff", "Anu-Vyākhyāna 3.3", "Bhāgavata-Tātparya-Nirṇaya 1"]
+      "definition": "*Bhakti* is inseparable from right knowledge of Viṣṇu's supremacy and from the soul's dependent status. It is not merely a means but the proper relational form of the *jīva* both in practice and in liberation. Devotion matures into *aparokṣa-jñāna*, yet even direct realization does not dissolve the distinction between devotee and Lord. Because souls are graded, the capacity for liberating devotion is also graded; *bhakti* is real relation under *tāratamya*, not a universal state identical in all persons.",
+      "primary_loci": ["Anu-Vyākhyāna 3.3", "Bhāgavata-Tātparya-Nirṇaya 1 [NOT YET RETRIEVED]", "Mahābhārata-Tātparya-Nirṇaya 1.110 [NOT YET RETRIEVED]"]
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "*Bhakti* — specifically *prema-bhakti* in one of the five *rasas* — is itself the highest end, *parama-puruṣārtha*, above and beyond *mokṣa*. Rūpa Gosvāmī's *Bhakti-Rasāmṛta-Sindhu* systematizes its taxonomy: *sādhana-bhakti* (*vaidhī* and *rāgānugā*), *bhāva-bhakti*, *prema-bhakti*. The *prema-bhakti* in *mādhurya-rasa* is the supreme; Rādhā is its *ādarśa*.",
-      "primary_loci": ["Bhakti-Sandarbha §§310–340", "Bhakti-Rasāmṛta-Sindhu 1.1–4", "Caitanya-Caritāmṛta, Madhya 19"]
+      "definition": "*Bhakti* is the highest *puruṣārtha*, surpassing liberation conceived as mere cessation of bondage. Rūpa Gosvāmī defines *uttamā-bhakti* as devotion free from ulterior desire and coverings of *jñāna* and *karma*, then maps its development through *sādhana*, *bhāva*, and *prema*. Here the category is explicitly aesthetic as well as theological: devotion flowers in *rasa*, and the highest consummation is intimate loving participation in Kṛṣṇa's līlā rather than undifferentiated release.",
+      "primary_loci": ["Bhakti-Rasāmṛta-Sindhu 1.1.11", "Bhakti-Sandarbha 310-340", "Caitanya-Caritāmṛta, Madhya 19.167-178 [NOT YET RETRIEVED]"]
     },
     {
       "school": "Śuddhādvaita (Vallabha)",
-      "definition": "*Puṣṭi-bhakti* — devotion that proceeds from Kṛṣṇa's grace and is itself a gift, not a *sādhana*. Distinguished from *maryādā-bhakti* (devotion-as-injunction-following) and *pravāha-bhakti* (devotion-as-worldly-current). The *puṣṭi*-mode is the highest because it is unmotivated and unconditioned.",
-      "primary_loci": ["Tattvārtha-Dīpa-Nibandha, Bhāgavatārtha-Prakaraṇa", "Puṣṭi-Pravāha-Maryādā-Bheda"]
+      "definition": "Vallabha distinguishes forms of devotion by their governing relation to grace. *Puṣṭi-bhakti* arises from Kṛṣṇa's nourishing favor and is superior to merely rule-governed devotion. The *bhakta* does not seek liberation apart from loving service, and the world need not be denied as illusory in order for devotion to be ultimate. Here *bhakti* is grounded in real manifestation and divine play rather than in escape from an unreal cosmos.",
+      "primary_loci": ["Tattvārtha-Dīpa-Nibandha, Bhāgavatārtha-Prakaraṇa [NOT YET RETRIEVED]", "Puṣṭi-Pravāha-Maryādā-Bheda [NOT YET RETRIEVED]"]
     }
   ],
   "see_also": ["jnana", "prapatti", "sraddha", "para-bhakti", "prema", "rasa", "pusti-bhakti"],
-  "translator_note": "Translating *bhakti* as 'devotion' or 'faith' loses several layers. (1) The root √bhaj is one of *participation* — the *bhakta* shares in the deity, not merely directs feeling at it. (2) *Bhakti* is a cognitive state, not (only) an affective one — it has a knowledge-content. (3) The *rasa*-saturated *bhakti* of the Vaiṣṇava traditions is technically aesthetic in Abhinavagupta's sense (cf. Madhusūdana's deliberate adaptation of *rasa*-theory). The user's position-brief connects *bhakti* (specifically *viraha-bhakti* and *pūrṇatva-icchā*) directly to Abhinavagupta's *rasa* — see the entry on *rasa*."
+  "translator_note": "English 'devotion' is often too affective and too inward, while 'faith' imports Protestant and creed-centered assumptions. *Bhakti* includes cognition, ritual performance, remembrance, service, and loving participation in relation to a real deity. Where the tradition uses the term technically, it does not mean vague religiosity or mere sentiment.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

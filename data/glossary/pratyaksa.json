@@ -2,21 +2,38 @@
   "term_key": "pratyaksa",
   "term_iast": "pratyakṣa",
   "term_devanagari": "प्रत्यक्ष",
-  "literal": "before-the-eyes, present-to-the-senses; from prati- + akṣa 'eye, sense'",
+  "literal": "before the eyes; present to direct awareness",
   "aliases": ["pratyaksa", "pratyakṣa", "Pratyakṣa", "pratyakṣaṃ", "pratyakṣasya", "pratyakshe"],
-  "invariant_definition": "Perception — the *pramāṇa* that arises through sense-object contact. All Vedāntic schools accept *pratyakṣa* as a *pramāṇa*; differ on its scope (whether it includes *sākṣi-pratyakṣa* — the soul's self-luminous awareness — as a distinct sub-mode, as Dvaita holds) and on its status vis-à-vis *śabda* (no school holds *pratyakṣa* superior to *śabda* on *brahman*; all hold it sufficient on its proper objects).",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "*Pratyakṣa* is direct cognition, paradigmatically perception, but the term is broader than bare sensation. It names the cognition that arises in immediate presentation rather than through a sign-relation, and its analysis depends on each school's account of contact, conceptuality, and self-awareness. Nyāya makes *indriyārtha-sannikarṣa* central; Advaita redescribes perception through *antaḥkaraṇa-vṛtti*, *vṛtti-vyāpti*, and *phala-vyāpti*; Dvaita sharply distinguishes sense-perception from *sākṣi-pratyakṣa*; Buddhist epistemologists restrict genuine perception to the non-conceptual grasp of the particular. The term therefore sits at the junction of ontology and cognitive theory: what counts as directly present depends on what kind of real there is to be present. In Vedānta *pratyakṣa* is indispensable for ordinary life and argument, but it does not by itself disclose *brahman*; even when realization is called immediate, the schools do not mean that liberated knowledge is just another sensory episode.",
   "per_school": [
     {
+      "school": "Nyāya",
+      "definition": "Nyāya defines *pratyakṣa* through sense-object contact and treats it as the foundational realist *pramāṇa*. Classical Nyāya distinguishes indeterminate and determinate perception, and later Naiyāyikas refine the account of qualifier-qualified structure, relational apprehension, and error. The point is not merely phenomenological. Perception establishes that real substances, properties, motions, and absences are directly knowable.",
+      "primary_loci": ["Nyāya-Sūtra 1.1.4", "Vātsyāyana, Nyāya-Bhāṣya ad Nyāya-Sūtra 1.1.4", "Gaṅgeśa, Tattva-Cintāmaṇi, pratyakṣa-khaṇḍa"]
+    },
+    {
       "school": "Advaita",
-      "definition": "*Pratyakṣa* is one of the six *pramāṇas* and operates by the *vṛtti* of the *antaḥkaraṇa* extending through the sense-organ to the object. *Vedānta-Paribhāṣā* gives the canonical analysis (*vṛtti-vyāptiḥ phala-vyāptiḥ*).",
-      "primary_loci": ["Vedānta-Paribhāṣā, pratyakṣa-pariccheda"]
+      "definition": "Advaita keeps perception valid within *vyavahāra* but analyzes it through the movement of the inner instrument. A perceptual *vṛtti* takes the form of the object, reaches it through the sense-organ, and manifests it by *vṛtti-vyāpti* and *phala-vyāpti*. This preserves empirical realism at the transactional level while allowing the whole structure to be sublatable when non-dual knowledge arises.",
+      "primary_loci": ["Dharmarāja, Vedānta-Paribhāṣā, pratyakṣa-pariccheda", "Pañcadaśī 1.18-25 [NOT YET RETRIEVED]", "Brahma-Sūtra-Bhāṣya 2.1.14 [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Viśiṣṭādvaita treats perception as direct disclosure of a real qualified object, not as a mental screen standing in for it. The world is the body of Brahman, so perceptual knowledge of plurality is not later cancelled as false. What *śruti* adds is not a correction of worldly unreality but disclosure of the deeper dependence-relation among the reals already encountered in experience.",
+      "primary_loci": ["Rāmānuja, Śrī-Bhāṣya 1.1.1", "Vedārtha-Saṅgraha §§58-67 [NOT YET RETRIEVED]", "Yatīndra-Mata-Dīpikā 1"]
     },
     {
       "school": "Dvaita",
-      "definition": "*Pratyakṣa* has two sub-modes: *indriya-pratyakṣa* (sense-perception) and *sākṣi-pratyakṣa* (the soul's intrinsic self-luminous awareness, the distinctive Dvaita posit). *Sākṣi-pratyakṣa* delivers immediate knowledge of pleasure, pain, time, and one's own existence — never erring. This is one of Dvaita's signature epistemological moves.",
-      "primary_loci": ["Jayatīrtha, Pramāṇa-Paddhati, sākṣi-pratyakṣa-section", "Madhva, Pramāṇa-Lakṣaṇa"]
+      "definition": "Dvaita divides *pratyakṣa* into *indriya-pratyakṣa* and *sākṣi-pratyakṣa*. The former gives the external world; the latter is the soul's immediate awareness of pleasure, pain, effort, temporal succession, and its own existence. This move is structurally important because it secures immediate self-awareness without collapsing the *jīva* into an all-pervading witness-consciousness.",
+      "primary_loci": ["Madhva, Pramāṇa-Lakṣaṇa", "Jayatīrtha, Pramāṇa-Paddhati, sākṣi-pratyakṣa-section", "Vyāsatīrtha, Tarka-Tāṇḍava, pratyakṣa-section [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Buddhist Pramāṇa",
+      "definition": "For Dignāga and Dharmakīrti, *pratyakṣa* is *kalpanāpoḍha*, free from conceptual construction, and its proper object is the *svalakṣaṇa* alone. Universals, classificatory content, and linguistic structure belong to thought, not perception. The account narrows the domain of immediacy in order to preserve a sharp distinction between the real particular and the conceptual overlay imposed by language and habit.",
+      "primary_loci": ["Dignāga, Pramāṇa-Samuccaya 1.3", "Dharmakīrti, Nyāya-Bindu 1.4-7", "Dharmakīrti, Pramāṇa-Vārttika 3.194-210 [NOT YET RETRIEVED]"]
     }
   ],
-  "see_also": ["pramana", "anumana", "sabda", "saksi-pratyaksa", "indriya"],
-  "translator_note": "'Perception' is acceptable. The Dvaita *sākṣi-pratyakṣa* needs special care — Western readers will assume 'perception' means 'sense-perception' and miss the distinctive Dvaita extension."
+  "see_also": ["pramana", "anumana", "sabda", "anubhava", "saksin", "jnana"],
+  "translator_note": "The lazy gloss 'perception' is usable only if one does not smuggle in a modern picture of private sense-data. *Pratyakṣa* carries specific commitments about contact, conceptual content, and what counts as directly present. It is not automatically equivalent to empiricist sensation, nor is every immediate cognition in Indian philosophy sensory."
 }

@@ -2,26 +2,38 @@
   "term_key": "amsa",
   "term_iast": "aṃśa",
   "term_devanagari": "अंश",
-  "literal": "portion, part",
+  "literal": "portion, part, share",
   "aliases": ["amsa", "aṃśa", "amśa", "Aṃśa", "aṃśaḥ", "aṃśasya", "amshas", "vibhinnamsa", "vibhinnāṃśa"],
-  "invariant_definition": "A portion — a part of a whole. The technical use is principally in the Vaiṣṇava bhedābheda schools, where the *jīva* is described as an *aṃśa* of *brahman*. In Caitanya's school the *jīva* is *vibhinnāṃśa* (separated portion) of Kṛṣṇa, distinct from *svāṃśa* (own-portion, e.g. Viṣṇu's *avatāras*). The *aṃśa*-relation is the structural alternative to numerical-identity (Advaita) and to absolute-distinction (Dvaita): the *jīva* is part of Kṛṣṇa without being numerically identical or wholly separate.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "Part, portion, or share. In Vedānta the term becomes a controlled way of saying that a dependent reality belongs to *brahman* or Bhagavān without immediately collapsing into strict identity. It therefore sits beside *prakāra*, *śakti*, *apṛthak-siddhi*, and the many forms of *bhedābheda*. A major scriptural driver is *Bhagavad-Gītā* 15.7, *mamaivāṃśo jīvaloke jīvabhūtaḥ sanātanaḥ*: the eternal *jīva* is 'my very own *aṃśa*.' Schools then ask what sort of partness this can be. Is the self a literal part of the Lord, a mode inseparable from Him, a dependent energy, or only figuratively called a part because of similarity or subordination? Gauḍīya Vaiṣṇavas distinguish *svāṃśa* manifestations of Bhagavān from *vibhinnāṃśa* selves; Bhāskara reads partness through real transformation; Advaita refuses literal partness because *brahman* is partless; Dvaita rejects it because the *jīva* is eternally distinct. 'Part' is thus never enough by itself; one must specify the metaphysics of the whole.",
   "per_school": [
     {
-      "school": "Acintya-Bhedābheda",
-      "definition": "Two kinds of *aṃśa*: *svāṃśa* (own-portions: Kṛṣṇa's own forms — Viṣṇu, Rāma, etc.) and *vibhinnāṃśa* (separated portions: the *jīva*s, parts of Kṛṣṇa's *taṭasthā-śakti*). The *jīva*-as-*vibhinnāṃśa* explains both the *abheda* (real partness) and the *bheda* (separability under *māyā*).",
-      "primary_loci": ["Paramātma-Sandarbha §§19, 28", "Caitanya-Caritāmṛta, Madhya 20.108"]
+      "school": "Advaita",
+      "definition": "Scriptural talk of the self as an *aṃśa* of the Lord is interpreted non-literally. Since *brahman* is partless, no real division can occur in it. Part-language therefore belongs to the empirical standpoint in which consciousness appears delimited by adjuncts, or to a pedagogical mode of speech marking dependence on *Īśvara*. The verse cannot establish real ontological segmentation in the absolute.",
+      "primary_loci": ["Bhagavad-Gītā-Bhāṣya 15.7", "Chāndogya-Upaniṣad-Bhāṣya 6.8.7 [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "The self may be called an *aṃśa* of Brahman, but not as a detachable part. The intended sense is modal and inseparable: the *jīva* is a real mode of *brahman*, belonging to Him as body to soul. This preserves scriptural dependence language without making Brahman a composite substance divisible into pieces. The term is therefore subordinated to *apṛthak-siddhi* and *śarīra-śarīrī-bhāva*.",
+      "primary_loci": ["Śrī-Bhāṣya 2.3.43", "Vedārtha-Saṅgraha 82-88", "Gītā-Bhāṣya (Rāmānuja) 15.7"]
     },
     {
       "school": "Bhedābheda (Bhāskara)",
-      "definition": "*Jīva* as *aṃśa* of *brahman* in real *pariṇāma* — a real portion produced by real transformation under *upādhi*.",
-      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 2.3.42ff"]
+      "definition": "The self is a real *aṃśa* of *brahman* because the world and selves are real transformations of Brahman. The difference is genuine, yet the transformed entity is not outside its source. *Aṃśa* here therefore does real ontological work: it articulates difference within a still-real identity and rejects the Advaita move of treating difference as merely apparent.",
+      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 2.3.43", "Bhāskara, Bhagavad-Gītā-Bhāṣya 15.7 [NOT YET RETRIEVED]"]
     },
     {
       "school": "Dvaita",
-      "definition": "The *aṃśa*-relation is rejected for *jīva*-Brahman; the *jīva* is not a part of Viṣṇu but an eternally distinct *paratantra*. *Aṃśa*-talk in *śruti* is read as *sādṛśya* or *sambandha*.",
-      "primary_loci": ["Viṣṇu-Tattva-Vinirṇaya §§30–40"]
+      "definition": "The *jīva* is not a literal part of Viṣṇu. Part-language in scripture is explained through dependence, similarity, or belonging, never through actual ontological part-whole inclusion. Madhva's realism requires eternal difference between the Lord and the dependent self; if the self were truly a part of Viṣṇu, the distinction central to devotion and liberation would collapse.",
+      "primary_loci": ["Bhagavad-Gītā-Tātparya-Nirṇaya 15.7 [NOT YET RETRIEVED]", "Viṣṇu-Tattva-Vinirṇaya 30-40 [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "The distinction between *svāṃśa* and *vibhinnāṃśa* is basic. Bhagavān's own plenary manifestations are *svāṃśa*; the innumerable *jīvas* are *vibhinnāṃśa*, separated portions belonging to the *taṭasthā-śakti*. This permits real belonging to Kṛṣṇa without erasing the soul's smallness, fallibility, and recoverable servitude. *Aṃśa* is therefore read through *śakti*-ontology rather than through simple part-whole metaphysics.",
+      "primary_loci": ["Paramātma-Sandarbha 19, 28, 37", "Caitanya-Caritāmṛta, Madhya 20.108-109", "Bhagavad-Gītā 15.7"]
     }
   ],
   "see_also": ["svamsa", "vibhinnamsa", "bhedabheda", "tatastha-sakti"],
-  "translator_note": "'Part' or 'portion' acceptable. The *svāṃśa*-*vibhinnāṃśa* distinction is structurally important and should be preserved untranslated."
+  "translator_note": "The lazy gloss is 'part.' In English that usually suggests a detachable piece cut from a larger whole. Most Sanskrit debates are precisely about refusing that picture while still preserving dependence, derivation, or manifestation. Translating *aṃśa* without noting whether the school means mode, power, transformation, or only figurative belonging imports a crude mereology the texts are arguing over."
 }

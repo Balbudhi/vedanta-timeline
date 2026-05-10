@@ -4,14 +4,16 @@
   "term_devanagari": "तमोयोग्य",
   "literal": "fit-for-darkness; tamas (darkness) + yogya (fit)",
   "aliases": ["tamo-yogya", "tamoyogya", "Tamo-yogya"],
-  "invariant_definition": "One of three intrinsic classes of *jīva* in Madhva's *taratamya*-doctrine. *Tamo-yogya* souls are constitutively fated to descend to *andha-tamas* (eternal darkness — Madhva's analogue of permanent hell). The classification is intrinsic, not earned. This is the most controversial of Madhva's doctrines and the principal Indian philosophical analogue to Calvinist double predestination — though arrived at on quite different metaphysical premises (*taratamya* of *svarūpa*, not divine election).",
+  "invariant_definition": "In Dvaita, *tamo-yogya* names the class of souls whose intrinsic nature culminates in *andha-tamas*, the state of irrevocable darkness. Like *mukti-yogya* and *nitya-saṃsārī*, the term belongs to Madhva's doctrine of graded souls and cannot be understood apart from *tāratamya*, *svarūpa-bheda*, and the realist reading of scriptural difference. The point is not that a once-neutral soul is arbitrarily condemned by divine whim, nor that temporary moral failure mechanically produces eternal ruin. Rather, a soul's karmic history manifests a prior metaphysical alignment. In practice the category explains why scriptural warnings about demonic or darkness-bound beings are read literally in the Mādhva tradition. The claim is severe, but its severity lies precisely in its metaphysical rather than merely punitive character.",
   "per_school": [
     {
       "school": "Dvaita",
-      "definition": "*Tamo-yogya* souls' fate is *andha-tamas* — eternal darkness, the Mādhva equivalent of permanent damnation. The doctrine is grounded in metaphysical *taratamya*: just as some souls are intrinsically *mukti-yogya*, some are intrinsically *tamo-yogya*. The doctrine has been a perennial polemical target across Indian philosophy.",
-      "primary_loci": ["Mahābhārata-Tātparya-Nirṇaya 1.85–95", "Anu-Vyākhyāna 3.4", "Brahma-Sūtra-Bhāṣya (Madhva) 3.1"]
+      "definition": "*Tamo-yogya* souls are those whose destiny is *andha-tamas*. Their descent is not a late judicial add-on to an otherwise uniform class of souls, but the outworking of intrinsic constitution within a world of real difference. Madhva links the category with radical opposition to Viṣṇu and with the lower end of the hierarchy of dependent beings. The doctrine is one reason Dvaita resists universalist readings of liberation and insists that scriptural language of darkness and exclusion has ontological force.",
+      "primary_loci": ["Mahābhārata-Tātparya-Nirṇaya 1.85-95", "Anu-Vyākhyāna 3.4", "Brahma-Sūtra-Bhāṣya (Madhva) 3.1 [NOT YET RETRIEVED]"]
     }
   ],
   "see_also": ["mukti-yogya", "nitya-samsari", "taratamya", "andha-tamas"],
-  "translator_note": "'Fit-for-darkness' is the literal gloss. The doctrine of constitutive eternal damnation should not be softened — it is precisely what Madhva asserts and what most Vedāntic schools reject."
+  "translator_note": "'Fit for darkness' is literal but can sound metaphorical in English. In Madhva's technical usage the term names an intrinsic orientation toward a final state, not merely a tendency toward ignorance or a period of moral obscurity. Glosses such as 'evil soul' are therefore too moralized and too weak.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

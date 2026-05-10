@@ -2,16 +2,28 @@
   "term_key": "vibhu",
   "term_iast": "vibhu",
   "term_devanagari": "विभु",
-  "literal": "all-pervading, omnipresent; from vi- + √bhū",
+  "literal": "all-pervading, pervasive, extensive; from vi- + √bhū",
   "aliases": ["vibhu", "Vibhu", "vibhuḥ", "vibhutva", "vibhu-parimāṇa"],
-  "invariant_definition": "All-pervading. The *jīva*'s size is one of the principal Vedāntic disagreements: Advaita holds the *jīva* (qua *ātman*) is *vibhu* like *brahman*; Viśiṣṭādvaita and Dvaita hold the *jīva* is *aṇu* (atomic). The opposition is not merely terminological — it determines whether the multiplicity of *jīva*s is real (V, D — *aṇu*) or illusory (A — many appearances of one *vibhu*). *Brahma-Sūtra* 2.3.18 (*aṇur ātmā*) is the locus of dispute.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "All-pervading as a mode of presence or size-category, not merely very large. The term stands inside a classical dispute over what it is for a self, cause, or deity to be present where cognitions and actions occur. Advaita applies *vibhu* to the *ātman*: consciousness is not spatially parceled, and the appearance of localization belongs to *upādhi*, *antaḥkaraṇa*, and *cidābhāsa*. Viśiṣṭādvaita and Dvaita deny this of the *jīva*, arguing that if the individual self were literally all-pervading, embodied plurality, karma-specific experience, and distinct liberation would be unintelligible. Nyāya-Vaiśeṣika often treats the self as all-pervading while making cognition episodic through the atomic *manas*, so the issue is wider than Vedānta. *Vibhu* therefore belongs with debates over *aṇu*, *parimāṇa*, contact, and the localization of awareness. 'Omnipresent' can be misleading because it imports Abrahamic theology; many discussions are not about divine omnipresence but about whether a self is spatially delimited at all.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Jīva* qua *ātman* is *vibhu* like *brahman*; the appearance of localization is *upādhi*-borne. *Brahma-Sūtra* 2.3.18 is read as referring to the *upādhi* (subtle body), not the *ātman* itself.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.3.18ff"]
+      "definition": "The *ātman* is *vibhu*, indeed non-spatial in the strictest sense, because it is identical with *brahman*. Apparent localization belongs to the adjunct-complex: the subtle body, the mind, and reflected consciousness. Hence scriptural passages that speak of the self as minute are read as referring to the embodied condition or to the intellect in which consciousness is reflected, not to the self as such. The point is soteriological as much as ontological: liberation removes false delimitation rather than moving a soul from one place to another.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.3.18-32", "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 4.3.7-8 [NOT YET RETRIEVED]", "Pañcadaśī 2.84-96 [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Brahman* is all-pervading, but the *jīva* is not. The self is atomic, while its *dharmabhūta-jñāna* can expand beyond the body's limits and contract in bondage. This distinction lets the school preserve both the self's individuality and the wide reach of cognition without making the self itself *vibhu*. The Advaita reading of the self as all-pervading is rejected because it would undermine the reality of distinct selves and distinct karmic careers.",
+      "primary_loci": ["Śrī-Bhāṣya 2.3.18-32", "Śrī-Bhāṣya 2.3.42-53", "Vedārtha-Saṅgraha 82-88"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "Strict all-pervasiveness belongs to Viṣṇu, the unique independent reality. The *jīva* is atomic and dependent, not an all-pervading self merely appearing delimited. Madhva accepts scriptural language about divine pervasion while insisting that the plurality of selves and their karmic differentiation are real. The issue is therefore tied to the *svatantra* and *paratantra* distinction: only the Lord is pervasive without qualification; the soul is never a disguised universal consciousness.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 2.3.18-32 [NOT YET RETRIEVED]", "Tattva-Saṅkhyāna 1-4", "Anu-Vyākhyāna 2.3 [NOT YET RETRIEVED]"]
     }
   ],
   "see_also": ["anu", "atman", "jiva"],
-  "translator_note": "'All-pervading' or 'omnipresent' acceptable."
+  "translator_note": "The lazy gloss is 'omnipresent' or 'infinite.' Those are sometimes usable, but they import theological or quantitative baggage. *Vibhu* is often a technical answer to a specific dispute about the size and presence of the self. In that context it does not mean 'morally exalted,' 'cosmically great,' or even necessarily 'God-like'; it means not spatially atomic or delimited in the way rival schools claim."
 }

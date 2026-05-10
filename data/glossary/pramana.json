@@ -2,26 +2,43 @@
   "term_key": "pramana",
   "term_iast": "pramāṇa",
   "term_devanagari": "प्रमाण",
-  "literal": "instrument-of-knowing; from pra- + √mā 'to measure, to know' + -ana (instrumental suffix)",
+  "literal": "instrument of knowing; from *pra-* + √*mā* 'to measure, ascertain' + *-ana*",
   "aliases": ["pramana", "pramāṇa", "Pramāṇa", "pramāṇasya", "pramāṇāni", "pramāṇāt", "pramane"],
-  "invariant_definition": "An instrument of valid cognition; a means by which true knowledge (*pramā*) is produced. The standard Vedāntic enumerations vary: Advaita and Bhāṭṭa Mīmāṃsā accept six (*pratyakṣa*, *anumāna*, *upamāna*, *śabda*, *arthāpatti*, *anupalabdhi*); Viśiṣṭādvaita follows three (*pratyakṣa*, *anumāna*, *śabda*); Dvaita three (*pratyakṣa*, *anumāna*, *āgama*) plus a distinctive *sākṣi-pratyakṣa*. All Vedāntic schools agree that *śabda* (verbal testimony, especially of *śruti*) is the unique *pramāṇa* for *brahman* — perception and inference cannot establish it.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "A *pramāṇa* is the operative means by which a cognition counts as *pramā* rather than *apramā*. The term belongs inside a larger epistemic fourfold: *pramātṛ* (knower), *pramāṇa* (means), *prameya* (object), and *pramiti* or *pramā* (resulting true cognition). It is therefore closer to an efficacious cognitive instrument than to 'evidence' in the modern sense. Disputes over *pramāṇa* are never merely about counting. Nyāya, Mīmāṃsā, Buddhist epistemology, and Vedānta disagree because they disagree about what kinds of objects there are, how cognition relates to them, whether absence-knowledge or postulation is reducible to inference, and whether testimony is autonomous. In Vedānta the decisive claim is that ordinary perception and inference govern *vyavahāra*, but *brahman* is disclosed only by *śabda-pramāṇa*, above all *śruti*. Hence debates about the autonomy of testimony, *svataḥ-prāmāṇya* versus *parataḥ-prāmāṇya*, and the exact relation between cognition and liberation are load-bearing parts of metaphysics, not scholastic appendices.",
   "per_school": [
     {
+      "school": "Nyāya",
+      "definition": "Nyāya standardly accepts four *pramāṇas*: *pratyakṣa*, *anumāna*, *upamāna*, and *śabda*. A *pramāṇa* is what produces a non-errant cognition of a real object, and its analysis is tied to external realism, causal contact, and the distinction between valid and defective cognition. Later Navya-Nyāya refines the account with highly explicit relation-language, but the basic fourfold scheme remains classical.",
+      "primary_loci": ["Nyāya-Sūtra 1.1.3-7", "Vātsyāyana, Nyāya-Bhāṣya ad Nyāya-Sūtra 1.1.3-7", "Gaṅgeśa, Tattva-Cintāmaṇi, pratyakṣa-khaṇḍa"]
+    },
+    {
+      "school": "Mīmāṃsā",
+      "definition": "Mīmāṃsā treats *pramāṇa* within a ritual-hermeneutic framework. Bhāṭṭas accept six and Prābhākaras five, because Vedic injunction, postulation, and absence-cognition cannot be reduced without damaging the authority of *codanā*. The debate over *pramāṇa* is thus inseparable from *dharma*: if *śabda* were not autonomous, Vedic prescription would collapse into human report or inference.",
+      "primary_loci": ["Jaimini-Sūtra 1.1.2-5", "Kumārila, Ślokavārttika, pratyakṣa-, anumāna-, and śabda-paricchedas", "Prabhākara, Bṛhatī [NOT YET RETRIEVED]"]
+    },
+    {
       "school": "Advaita",
-      "definition": "Six *pramāṇas* (after Bhāṭṭa Mīmāṃsā). The technical apparatus is most fully articulated in Dharmarāja's *Vedānta-Paribhāṣā*. *Śabda-pramāṇa* is the unique source of *brahma-jñāna*; the *mahāvākyas* function as identity-statements producing *akhaṇḍākāra-vṛtti*.",
-      "primary_loci": ["Vedānta-Paribhāṣā (whole work)", "Brahma-Sūtra-Bhāṣya 1.1.4"]
+      "definition": "Advaita usually accepts six *pramāṇas*, following Bhāṭṭa Mīmāṃsā, but orders them around a stricter soteriological claim: only *śruti* can generate liberating knowledge, because *brahman* is never an object of ordinary objectifying cognition. The other *pramāṇas* remain valid within *vyavahāra*. Post-Śaṅkara manuals such as *Vedānta-Paribhāṣā* make the apparatus explicit and relate it to *vṛtti*, *phala*, and *akhaṇḍākāra-vṛtti*.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.3-4", "Dharmarāja, Vedānta-Paribhāṣā, pramāṇa-paricchedas", "Upadeśa-Sāhasrī 18.64-73 [NOT YET RETRIEVED]"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "Three *pramāṇas*: *pratyakṣa*, *anumāna*, *śabda*. *Śabda* is supreme on Brahman; *pratyakṣa* and *anumāna* establish the world's reality.",
-      "primary_loci": ["Yatīndra-Mata-Dīpikā 1", "Nyāya-Pariśuddhi (Vedānta-Deśika)"]
+      "definition": "Viśiṣṭādvaita usually works with three *pramāṇas*: *pratyakṣa*, *anumāna*, and *śabda*. This is not an anti-rational minimalism. It reflects the claim that perception and inference genuinely disclose a real, qualified world, while *śruti* alone discloses the highest truth of *brahman* as qualified by all real modes. The epistemic scheme is coordinated with the ontology of *cit*, *acit*, and Īśvara.",
+      "primary_loci": ["Rāmānuja, Śrī-Bhāṣya 1.1.1 and 1.1.3", "Vedānta Deśika, Nyāya-Pariśuddhi 1 [NOT YET RETRIEVED]", "Yatīndra-Mata-Dīpikā 1"]
     },
     {
       "school": "Dvaita",
-      "definition": "Three *pramāṇas*: *pratyakṣa* (with *sākṣi-pratyakṣa* — the soul's intrinsic self-luminous awareness — recognized as a distinct sub-mode), *anumāna*, *āgama*. The Dvaita epistemology, developed in Jayatīrtha's *Pramāṇa-Paddhati* and Vyāsatīrtha's *Tarka-Tāṇḍava*, foregrounds *sākṣi-pratyakṣa* against the Advaita reflection-account.",
-      "primary_loci": ["Jayatīrtha, Pramāṇa-Paddhati", "Vyāsatīrtha, Tarka-Tāṇḍava", "Madhva, Pramāṇa-Lakṣaṇa"]
+      "definition": "Dvaita standardly teaches three *pramāṇas*: *pratyakṣa*, *anumāna*, and *āgama* or *śabda*, while also insisting on a robust account of *sākṣi-pratyakṣa*. The system is aggressively realist: difference, dependence, and hierarchy are genuinely knowable, not merely pragmatically posited. Jayatīrtha and Vyāsatīrtha develop the epistemology polemically against Advaita and in sustained dialogue with Navya-Nyāya.",
+      "primary_loci": ["Madhva, Pramāṇa-Lakṣaṇa", "Jayatīrtha, Pramāṇa-Paddhati", "Vyāsatīrtha, Tarka-Tāṇḍava, pramāṇa-sections [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Buddhist Pramāṇa",
+      "definition": "Dignāga and Dharmakīrti reduce the field to two *pramāṇas*, *pratyakṣa* and *anumāna*, because they reduce the field of objects to *svalakṣaṇa* and conceptual construction. Testimony, comparison, postulation, and absence are treated as derivative. The reduction is inseparable from Buddhist nominalism, apoha-theory, and the denial that Vedic speech has autonomous authority.",
+      "primary_loci": ["Dignāga, Pramāṇa-Samuccaya 1.2", "Dharmakīrti, Nyāya-Bindu 1.3", "Dharmakīrti, Pramāṇa-Vārttika 2.1-7 [NOT YET RETRIEVED]"]
     }
   ],
-  "see_also": ["pratyaksa", "anumana", "sabda", "agama", "saksi-pratyaksa", "prama"],
-  "translator_note": "Translating *pramāṇa* as 'proof' or 'evidence' or 'source of knowledge' all lose precision. *Pramāṇa* is the *instrument* (karaṇa) that produces *pramā* (valid cognition) — a technical category of Indian epistemology with no exact Western counterpart. 'Means of valid cognition' is the standard scholarly gloss."
+  "see_also": ["pratyaksa", "anumana", "sabda", "pramana-dvaya", "anubhava", "jnana"],
+  "translator_note": "Lazy glosses to avoid: 'proof', 'evidence', and 'source of knowledge'. 'Proof' imports a narrowly formal or mathematical model; 'evidence' imports a post-Lockean evidentialist psychology; 'source of knowledge' is too vague to show the *karaṇa*-function. A *pramāṇa* is the causally efficacious means by which a cognition becomes *pramā* within a larger knower-means-object-result structure."
 }

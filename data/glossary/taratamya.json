@@ -4,19 +4,26 @@
   "term_devanagari": "तारतम्य",
   "literal": "gradation, ranking; abstract noun from tara-tama (more-most)",
   "aliases": ["taratamya", "tāratamya", "Tāratamya", "tāratamya-bheda"],
-  "invariant_definition": "Gradation — Madhva's distinctive doctrine that *jīva*s and even *muktas* are intrinsically ranked. *Tāratamya* is one of the most original and most often misread of Madhva's doctrines: souls are not equal in their constitutive natures, even after liberation. The *taratamya* hierarchy runs from Lakṣmī (highest *paratantra*) down through Brahmā, Vāyu, and the senior gods to the human *muktas* and on through the *nitya-saṃsārī* class to the *tamo-yogya* class fated for *andha-tamas*. *Tāratamya* is metaphysically primitive: not a function of *karma*, not a phase of cosmic evolution, but the eternal structure of the *paratantra* tattvas.",
+  "invariant_definition": "Gradation or hierarchy. In Madhva's usage, *tāratamya* names the intrinsic ranking of dependent realities, especially *jīvas*, deities, and liberated beings. It is not a temporary moral scale produced by accumulated *karma*, nor merely a practical hierarchy for ritual address. It belongs to the very *svarūpa* of things. This is why the doctrine links immediately to *svatantra/paratantra*, *pañca-bheda*, and the threefold classification of souls as *mukti-yogya*, *nitya-saṃsārī*, and *tamo-yogya*. The hierarchy extends into liberation: equality of all liberated selves is denied, and bliss itself is enjoyed in graded measure. In practice *tāratamya* governs worship, exegesis, and the interpretation of epic and Purāṇic personae; it explains why some deities mediate grace, why Vāyu occupies a privileged role, and why scriptural praise is not distributed uniformly. The term therefore names a metaphysical ranking, not just a social or devotional one.",
   "per_school": [
     {
       "school": "Dvaita",
-      "definition": "*Tāratamya* is intrinsic, eternal, and primitive. It applies even in *mokṣa*: liberated souls enjoy *ānanda* in proportion to their constitutive nature (*ānanda-taratamya*), and equality of liberated souls is denied. Madhva's *Mahābhārata-Tātparya-Nirṇaya* devotes extensive treatment to the gradation of major figures (Bhīma > Arjuna > Yudhiṣṭhira; Vāyu as the highest *jīva*; etc.).",
-      "primary_loci": ["Mahābhārata-Tātparya-Nirṇaya 1.85–95", "Anu-Vyākhyāna 3.4", "Brahma-Sūtra-Bhāṣya (Madhva) 4.4"]
+      "definition": "*Tāratamya* is eternal and primitive. Lakṣmī is the highest dependent reality, followed by Brahmā, Vāyu, and the descending orders of gods and souls. The hierarchy persists in *mokṣa*: liberated beings do not become equal in nature or enjoyment, but receive bliss proportionate to their intrinsic capacity. Madhva also uses *tāratamya* as a hermeneutic principle for ranking scriptural speakers, deities, and heroes. The doctrine thus joins ontology, devotion, and textual interpretation.",
+      "primary_loci": ["Mahābhārata-Tātparya-Nirṇaya 1.85-95", "Anu-Vyākhyāna 3.4", "Brahma-Sūtra-Bhāṣya (Madhva) 4.4 [NOT YET RETRIEVED]"]
     },
     {
-      "school": "Other Schools",
-      "definition": "Strongly rejected. Advaita: all *jīva*s are the one *ātman*, equality at the *pāramārthika* level. Viśiṣṭādvaita: liberated souls are equal in *bhoga* of *brahman*. Acintya-Bhedābheda: gradation is by *rasa* (the *bhakta*'s relational mode), not by intrinsic nature.",
-      "primary_loci": ["Śrī-Bhāṣya 4.4 (against tāratamya)"]
+      "school": "Viśiṣṭādvaita",
+      "definition": "Viśiṣṭādvaita preserves real distinctions among souls, but does not accept Madhva's thesis that liberated selves are intrinsically unequal in beatitude by nature. Hierarchy belongs to embodied condition, office, and divine economy, not to an immutable scale of worth carried unchanged into liberation. The *jīva* remains dependent and distinct from Nārāyaṇa, yet the decisive emphasis falls on shared service and vision of the Lord rather than on a metaphysically ranked enjoyment that mirrors *saṃsāric* status.",
+      "primary_loci": ["Śrī-Bhāṣya 4.4 [NOT YET RETRIEVED]", "Vedārtha-Saṅgraha [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "Gauḍīya Vaiṣṇavism recognizes gradation in devotional relation, but relocates it from intrinsic metaphysical worth to *rasa*, intimacy, and function within Kṛṣṇa's līlā. There are higher and lower devotional moods, and divine manifestations are hierarchically ordered, yet the decisive criterion is relational flavor rather than a fixed threefold destiny of souls. The contrast with Madhva is therefore sharp: hierarchy remains, but its governing category is aesthetic-devotional rather than ontological in the same sense.",
+      "primary_loci": ["Bhakti-Rasāmṛta-Sindhu 2.5 [NOT YET RETRIEVED]", "Bhagavat-Sandarbha [NOT YET RETRIEVED]", "Caitanya-Caritāmṛta, Madhya 8 [NOT YET RETRIEVED]"]
     }
   ],
   "see_also": ["mukti-yogya", "nitya-samsari", "tamo-yogya", "panca-bheda", "ananda-taratamya"],
-  "translator_note": "'Hierarchy' or 'gradation' acceptable. Note: Madhva's *taratamya* is metaphysically realist — souls *really differ* in constitutive worth. Western readers will find this jarring; the user's project explicitly forbids softening it."
+  "translator_note": "'Hierarchy' and 'gradation' are both possible, but either can sound merely social or pedagogical in English. Madhva's term is stronger: it states that dependent beings differ intrinsically and eternally in rank and capacity. Translating it loosely as 'order' or 'relative importance' imports a weaker, contextual notion that misses the metaphysical claim.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

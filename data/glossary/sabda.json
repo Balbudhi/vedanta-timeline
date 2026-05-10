@@ -2,21 +2,43 @@
   "term_key": "sabda",
   "term_iast": "śabda",
   "term_devanagari": "शब्द",
-  "literal": "sound, word; the verbal testimony as pramāṇa",
+  "literal": "word, sound; verbal cognition",
   "aliases": ["sabda", "śabda", "Śabda", "śabdaḥ", "śabdasya", "śabde", "śabda-pramāṇa", "sabda-pramana", "shabda"],
-  "invariant_definition": "Verbal testimony as a means of valid cognition — the words of a reliable speaker (*āpta*) producing knowledge in the hearer. In Vedānta the relevant *śabda-pramāṇa* is preeminently *śruti*. All Vedāntic schools accept *śabda* as a distinct and irreducible *pramāṇa* (against Cārvāka denial and Buddhist reduction-to-inference) and as the unique *pramāṇa* for *brahman*. Schools differ on whether *śabda* is reducible to inference from speaker-reliability (Naiyāyika view, accepted by some) or is intrinsically valid (Mīmāṃsā-Advaita view).",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "As an epistemic term, *śabda* is verbal testimony that yields valid cognition. It is not merely 'language' in the abstract, nor merely scriptural quotation. The category covers the cognition produced by a meaningful utterance under the right conditions, and therefore sits amid wider disputes about sentence meaning, speaker intention, reliability, and the authority of the Veda. Nyāya grounds testimonial force in the utterance of a trustworthy speaker; Mīmāṃsā insists that Vedic *śabda* is autonomous and not reducible to any speaker; Buddhist epistemology tries to reduce testimony to inference; Vedānta inherits the Mīmāṃsā defense because *brahman* is known only through *śruti*. In practice this means that *śabda* is not a decorative supplement to perception and inference. It is the decisive *pramāṇa* in every domain where the object is not perceptually available and not inferable from worldly marks, especially in the interpretation of Upaniṣadic sentences and *mahāvākyas*.",
   "per_school": [
     {
-      "school": "Advaita",
-      "definition": "*Śabda*-pramāṇa is intrinsically valid (*svataḥ-prāmāṇya*); *śruti*'s authority on *brahman* is independent of any author or external corroboration. The *mahāvākyas* are *jñāna-janaka* — directly producing the liberating cognition.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.3", "Brahma-Sūtra-Bhāṣya 1.1.4", "Vedānta-Paribhāṣā, śabda-pariccheda"]
+      "school": "Nyāya",
+      "definition": "Nyāya accepts *śabda* as an independent *pramāṇa* defined by the utterance of a reliable speaker. Testimony is not collapsed into bare acoustic reception; what matters is an *āpta* whose statement is competent and sincere. The account keeps ordinary testimony and scriptural testimony on a common epistemic model, even when later Naiyāyikas elaborate the causal details.",
+      "primary_loci": ["Nyāya-Sūtra 1.1.7", "Vātsyāyana, Nyāya-Bhāṣya ad Nyāya-Sūtra 1.1.7", "Udayana, Nyāya-Kusumāñjali 1 [NOT YET RETRIEVED]"]
     },
     {
-      "school": "Viśiṣṭādvaita / Dvaita",
-      "definition": "*Śabda*-pramāṇa is intrinsically valid; *śruti*'s authority on Viṣṇu is unique. Dvaita explicitly defends *śabda*'s irreducibility to inference (Vyāsatīrtha *Tarka-Tāṇḍava*, *śabda-pramāṇa-section*).",
-      "primary_loci": ["Yatīndra-Mata-Dīpikā 1", "Vyāsatīrtha, Tarka-Tāṇḍava"]
+      "school": "Mīmāṃsā",
+      "definition": "Mīmāṃsā makes *śabda* doctrinally central because *dharma* is known only from Vedic injunction. The Veda is *apauruṣeya*, so testimonial force cannot depend on a speaker's psychology. Bhāṭṭas and Prābhākaras disagree about sentence meaning, but both defend the autonomy of Vedic verbal cognition against reduction to inference. This is the background Vedānta inherits whenever it argues for scriptural authority.",
+      "primary_loci": ["Jaimini-Sūtra 1.1.2-5", "Śabara-Bhāṣya ad Jaimini-Sūtra 1.1.2-5", "Kumārila, Ślokavārttika, śabda-pariccheda"]
+    },
+    {
+      "school": "Advaita",
+      "definition": "Advaita treats *śabda*, specifically Upaniṣadic *śruti*, as the unique *pramāṇa* for *brahman*. The issue is not pious deference to scripture but a claim about object-type: non-dual reality is not available to objectifying perception or inference. Hence *mahāvākya*s are *jñāna-janaka*; they produce the liberating cognition that later Advaita explains through *akhaṇḍākāra-vṛtti*.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.3-4", "Dharmarāja, Vedānta-Paribhāṣā, śabda-pariccheda", "Upadeśa-Sāhasrī 18.64-73 [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Viśiṣṭādvaita equally insists that *śruti* is decisive for Brahman, but reads the Veda as uniformly teaching a qualified, personal absolute. *Śabda* does not cancel the world disclosed by perception; it redescribes that world as the body of the Lord. Scriptural testimony therefore completes rather than overturns realist cognition.",
+      "primary_loci": ["Rāmānuja, Śrī-Bhāṣya 1.1.1 and 1.1.3", "Vedārtha-Saṅgraha §§91-100", "Vedānta Deśika, Nyāya-Pariśuddhi 1 [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "Dvaita gives *śabda* or *āgama* decisive authority while interpreting it through an uncompromising theistic realism. Testimony is not reduced to inference, and the content of revelation is read as consistently affirming Viṣṇu's supremacy, real plurality, and hierarchy among beings. Later Mādhva polemic defends the autonomy of testimony with considerable logical sophistication.",
+      "primary_loci": ["Madhva, Pramāṇa-Lakṣaṇa", "Jayatīrtha, Pramāṇa-Paddhati", "Vyāsatīrtha, Tarka-Tāṇḍava, śabda-section [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Buddhist Pramāṇa",
+      "definition": "Buddhist epistemologists deny that *śabda* is an autonomous *pramāṇa*. Testimonial cognition is treated as inferential, depending on signs of speaker competence, convention, and intention. The reduction is not incidental. It blocks the brahmanical move from autonomous Vedic speech to binding metaphysical or ritual authority.",
+      "primary_loci": ["Dharmakīrti, Nyāya-Bindu 2.19-27 [NOT YET RETRIEVED]", "Dharmakīrti, Pramāṇa-Vārttika 2.1-50 [NOT YET RETRIEVED]"]
     }
   ],
-  "see_also": ["pramana", "pratyaksa", "anumana", "sruti", "apauruseya", "svatah-pramanya"],
-  "translator_note": "'Verbal testimony' is the standard scholarly gloss and is acceptable. Note: *śabda* in the broader Indian semantic tradition (especially Bhartṛhari's *Vākyapadīya*) also names the eternal Word — *Śabda-Brahman* — which is an ontological-metaphysical concept distinct from *śabda* as *pramāṇa*; context determines which sense is operative."
+  "see_also": ["pramana", "pratyaksa", "anumana", "sruti", "pramana-dvaya", "jnana"],
+  "translator_note": "Lazy glosses to avoid: 'word', 'language', and even unqualified 'testimony'. 'Word' misses the epistemic function; 'language' invites a modern linguistic abstraction; 'testimony' can import a courtroom model of evidence. In these traditions *śabda* names a specific kind of valid cognition-producing utterance, and in Vedānta it carries the full burden of disclosing *brahman*."
 }

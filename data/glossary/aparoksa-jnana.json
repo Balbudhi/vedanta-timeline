@@ -2,21 +2,33 @@
   "term_key": "aparoksa-jnana",
   "term_iast": "aparokṣa-jñāna",
   "term_devanagari": "अपरोक्षज्ञान",
-  "literal": "non-mediated cognition; a- + parokṣa (mediated, indirect) + jñāna",
+  "literal": "non-mediated cognition; cognition not at a remove",
   "aliases": ["aparoksa-jnana", "aparokṣa-jñāna", "aparokṣajñāna", "Aparokṣa-jñāna", "aparoksa"],
-  "invariant_definition": "Direct (non-mediated) cognition. The term is the Dvaita technical equivalent of Advaita's *akhaṇḍākāra-vṛtti* / *anubhava* — but with substantive metaphysical differences. *Aparokṣa-jñāna* in Dvaita is the direct cognition of Viṣṇu's supremacy and the soul's eternal dependence, bestowed by Viṣṇu's grace on the qualified soul. It is the proximate condition of *mokṣa*.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "*Aparokṣa-jñāna* is cognition that is not merely indirect, report-based, or inferential. The contrast term is *parokṣa*: knowledge at a remove, whether by testimony, inference, or conceptual mediation. Across schools the term marks the shift from knowing that something is so to having it directly present. But what counts as such presence is contested. Advaita uses the language for immediate knowledge of *brahman* as one's own self; Dvaita uses it for direct cognition of Viṣṇu and of one's dependence on him; devotional schools often reserve the strongest non-mediated language for grace-saturated realization rather than for discursive theology. The term therefore cannot be translated by a generic 'intuition' without distortion. It belongs to a disciplined epistemology in which immediacy is produced, purified, or bestowed through specific practices and doctrinal commitments.",
   "per_school": [
     {
-      "school": "Dvaita",
-      "definition": "*Aparokṣa-jñāna* is bestowed by Viṣṇu on the *bhakti*-qualified soul; it is the soul's direct cognition of Viṣṇu, not an identity-realization. Distinct from *parokṣa-jñāna* (mediated cognition through *śabda* or *anumāna*).",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1", "Anu-Vyākhyāna 1.1, 3.3"]
+      "school": "Advaita",
+      "definition": "Advaita uses *aparokṣa-jñāna* for the liberating immediacy in which *brahman* is known as the very self. The knowledge is not inferential and not merely scriptural at second hand, even though *śruti* is the indispensable *pramāṇa* that generates it. Later Advaita commonly articulates the transition through *akhaṇḍākāra-vṛtti* and the removal of *avidyā*.",
+      "primary_loci": ["Aparokṣānubhūti 1-12", "Brahma-Sūtra-Bhāṣya 1.1.4", "Dharmarāja, Vedānta-Paribhāṣā, śabda-pariccheda [NOT YET RETRIEVED]"]
     },
     {
-      "school": "Advaita",
-      "definition": "*Aparokṣa-jñāna* is sometimes used as a name for the liberating *brahma-jñāna* — *brahman* directly cognized as one's own self. Compare *Aparokṣānubhūti* (a short text attributed to Śaṅkara on direct realization).",
-      "primary_loci": ["Aparokṣānubhūti (attrib. Śaṅkara)"]
+      "school": "Dvaita",
+      "definition": "Dvaita gives the term a distinctively theistic sense. *Aparokṣa-jñāna* is direct cognition of Viṣṇu's supremacy and of the soul's eternal dependence, granted by Viṣṇu's grace to the qualified devotee. It is thus the proximate condition of liberation, but it is never an identity-realization and never erases difference between Lord and soul.",
+      "primary_loci": ["Madhva, Brahma-Sūtra-Bhāṣya 1.1.1", "Madhva, Anu-Vyākhyāna 1.1 and 3.3", "Jayatīrtha, Pramāṇa-Paddhati [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Viśiṣṭādvaita does not usually center this exact term the way Advaita and Dvaita do, but the functional equivalent is the immediate God-realization reached through sustained *upāsanā*, *para-bhakti*, and *para-jñāna*. The directness is relational rather than identitarian: the Lord becomes present as the soul's inner ruler and final beloved.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§121-144", "Rāmānuja, Śrī-Bhāṣya 3.2.24-29 [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "Gauḍīya usage typically values direct realization, but subordinates mere undifferentiated spiritual immediacy to devotional encounter. Knowledge that remains impersonal is spiritually inferior to direct relation with Bhagavān. Thus non-mediated cognition is not denied; it is ranked according to whether it culminates in personal devotion.",
+      "primary_loci": ["Jīva Gosvāmī, Bhakti-Sandarbha §§111-117", "Caitanya-Caritāmṛta, Madhya 19.149-169"]
     }
   ],
-  "see_also": ["paroksa-jnana", "anubhava", "saksatkara", "akhandakara-vrtti"],
-  "translator_note": "'Direct cognition' is the standard gloss. The Sanskrit *parokṣa* (literally 'beyond-the-eye, mediated') vs. *aparokṣa* (non-mediated) is a precise epistemological distinction without exact Western equivalent."
+  "see_also": ["anubhava", "saksatkara", "jnana", "akhandakara-vrtti", "sabda"],
+  "translator_note": "Lazy glosses to avoid: 'intuition' and unqualified 'direct knowledge'. 'Intuition' imports modern psychological or Romantic baggage. *Aparokṣa* means not-at-a-remove, but each school specifies differently what mediation is being overcome and what kind of directness results."
 }

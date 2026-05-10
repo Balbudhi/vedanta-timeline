@@ -2,31 +2,33 @@
   "term_key": "anu",
   "term_iast": "aṇu",
   "term_devanagari": "अणु",
-  "literal": "atomic, minute; from a root meaning 'fine, subtle'",
+  "literal": "minute, atomic, exceedingly small",
   "aliases": ["anu", "aṇu", "Aṇu", "aṇuḥ", "aṇu-jīva", "aṇu-parimāṇa"],
-  "invariant_definition": "Atomic — possessing the smallest measurable size. The term has two principal Vedāntic uses: (1) describing the *jīva*'s size in Viśiṣṭādvaita and Dvaita (against Advaita's *vibhu*-doctrine of all-pervading *ātman*); (2) Vaiśeṣika's atomism (atoms of earth, water, fire, air as the ultimate material constituents). The *jīva*-as-*aṇu* doctrine is structurally important — it is what allows the *jīva* to be eternally distinct and individual without occupying the cosmic role of *brahman*.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "Minute or atomic: a category of size and ontological minimality rather than a reference to modern physical atoms. In Vedānta the term often concerns the *jīva*, not gross matter. Viśiṣṭādvaita and Dvaita insist that the individual self is *aṇu* so that embodiment, karmic individuation, and plurality are real. The reach of cognition is then explained not by the self's size but by a further apparatus: *dharmabhūta-jñāna* in Viśiṣṭādvaita, or divinely ordered cognition in Dvaita. In Nyāya-Vaiśeṣika and related atomisms, by contrast, *aṇu* and *paramāṇu* name the smallest material constituents and the atomic *manas* that mediates episodic awareness. The same word thus spans debates about conscious-substance size and about physical constitution. It is best read together with *vibhu*, *parimāṇa*, *paramāṇu*, and the dispute over whether a self can be all-pervading while still having body-specific experience.",
   "per_school": [
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Jīva* is *aṇu* — atomic in size. Defended at *Brahma-Sūtra* 2.3.18ff. The *jīva*'s *dharmabhūta-jñāna* extends and contracts; the *jīva*-substance is itself atomic.",
-      "primary_loci": ["Śrī-Bhāṣya 2.3.18–32", "Vedārtha-Saṅgraha §82"]
+      "definition": "The *jīva* is atomic in size. Its knowledge is not atomic, because *dharmabhūta-jñāna* extends beyond the self and contracts or expands according to karmic condition. This lets the school preserve the self's individuality and body-specific bondage while still accounting for wide cognitive reach. Scriptural passages on minuteness are therefore taken literally of the self, not merely of an adjunct.",
+      "primary_loci": ["Śrī-Bhāṣya 2.3.18-32", "Śrī-Bhāṣya 2.3.42-53", "Vedārtha-Saṅgraha 82-88"]
     },
     {
       "school": "Dvaita",
-      "definition": "*Jīva* is *aṇu*. Madhva accepts the same against Advaita's *vibhu* and against Bhāskara's *aṃśa-pariṇāma* readings.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 2.3.18ff", "Anu-Vyākhyāna 2.3"]
+      "definition": "The *jīva* is atomic and eternally distinct from other selves and from Viṣṇu. Madhva uses the doctrine against Advaita's all-pervading self, arguing that real bondage, real plurality, and real dependence require genuinely distinct individual selves. Atomicity thus belongs to Dvaita's broader realism, not to a merely physical model of the person.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 2.3.18-32 [NOT YET RETRIEVED]", "Anu-Vyākhyāna 2.3 [NOT YET RETRIEVED]", "Tattva-Saṅkhyāna 4-8"]
     },
     {
       "school": "Advaita",
-      "definition": "*Jīva* is *vibhu* (all-pervading) like *brahman*; the appearance of localization is *upādhi*-borne. The *aṇu*-doctrine of *Brahma-Sūtra* 2.3.18 is read as referring to the *upādhi* (subtle body), not to the *ātman* itself.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.3.18ff"]
+      "definition": "Passages describing the self as minute are interpreted as referring to the subtle body, intellect, or empirically delimited knower, not to the self in its own nature. The true self is not atomic but all-pervading, indeed not reducible to spatial measure at all. The *aṇu* description belongs to the transactional level in which consciousness appears tied to a body by adjuncts.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.3.18-32", "Chāndogya-Upaniṣad-Bhāṣya 8.1.1 [NOT YET RETRIEVED]"]
     },
     {
       "school": "Vaiśeṣika",
-      "definition": "*Aṇu* is the partless atom — eternal, indivisible — of which earth, water, fire, and air are constituted. The *dvyaṇuka* and *tryaṇuka* aggregates produce perceptible matter.",
-      "primary_loci": ["Vaiśeṣika-Sūtra 4.1.1ff", "Praśastapāda-Bhāṣya"]
+      "definition": "In atomistic ontology, *aṇu* and *paramāṇu* name the partless, eternal minima from which perceptible composites arise. The theory applies to the material elements and is paired with an atomic *manas* that connects the self to one cognition at a time. This is a different use from the Vedāntic doctrine of an atomic self, though later Vedāntins regularly argue in awareness of it.",
+      "primary_loci": ["Vaiśeṣika-Sūtra 7.1 [NOT YET RETRIEVED]", "Praśastapāda-Bhāṣya, dravya-pariccheda [NOT YET RETRIEVED]"]
     }
   ],
   "see_also": ["jiva", "vibhu", "atman", "paramanu"],
-  "translator_note": "'Atomic' acceptable but Western readers should not import the modern physics-atom; *aṇu* in Vedānta is a *size-category* of the conscious self, not a physical particle."
+  "translator_note": "The lazy gloss is 'atom.' Without qualification that invites modern physics and makes readers imagine a tiny material pellet. In classical usage *aṇu* is a size-category and often a metaphysical thesis about the self. Even where it does refer to material atoms, the issues are partlessness, combination, and causal constitution, not modern atomic theory."
 }

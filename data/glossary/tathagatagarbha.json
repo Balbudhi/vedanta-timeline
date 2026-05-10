@@ -2,31 +2,28 @@
   "term_key": "tathagatagarbha",
   "term_iast": "tathāgatagarbha",
   "term_devanagari": "तथागतगर्भ",
-  "literal": "the embryo / womb / matrix of the Tathāgata; the Buddha-nature; the natural luminosity of citta as the cognitive ground of awakening",
+  "literal": "embryo, womb, or matrix of the Tathāgata; the concealed Buddha-nature present in sentient beings",
   "aliases": ["tathagatagarbha", "tathāgatagarbha", "tathāgata-garbha", "Tathāgatagarbha", "tathāgatagarbhaḥ", "garbha", "Buddha-nature", "Buddha-embryo"],
-  "invariant_definition": "The doctrine, foundational to the Mahāyāna Tathāgatagarbha tradition (Ratna-Gotra-Vibhāga, Laṅkāvatāra-Sūtra, Mahāyāna-Sūtra-Alaṃkāra), that all sentient beings universally possess, from beginningless time, the cognitive ground of awakening — the *tathāgatagarbha* or Buddha-nature. The doctrine is articulated in non-substantialist terms: the *garbha* is not a *dravya* (substance) underlying experience but the natural luminosity (*prakṛti-prabhāsvaratā*) of *citta* itself, obscured only by adventitious defilements (*āgantuka-kleśa*) that do not belong to its nature. Awakening is therefore not the production of a new state but the removal of obscurations on what was always already present. The Ratna-Gotra-Vibhāga is at pains to distinguish *tathāgatagarbha* from the *ātman* of the heretical schools (RGV I.36–41): it is precisely the non-substantialist alternative offered to those whose grasping at *ātman* prevents the realisation of *anātman*.",
+  "invariant_definition": "*Tathāgatagarbha* names the Mahāyāna doctrine that all sentient beings possess the basis or potential for Buddhahood already within the stream of their being. The term does more than say that awakening is possible. It says that what makes awakening possible is not imported from outside and is not created for the first time at enlightenment. This is why the doctrine is tied to natural luminosity, adventitious defilements, and the promise of a single final vehicle. At the same time, the tradition knows its own danger: positive language about an inner Buddha can sound like a disguised *ātman*. Major texts therefore frame the doctrine as pedagogically strategic and doctrinally careful. The *garbha* is not a substance-self under the aggregates. It is the obscured but real capacity or ground of awakening, expressed through metaphors of embryo, treasure, kernel, and hidden gold. The practical use of the doctrine is to explain confidence in practice: purification uncovers what is already structurally present.",
   "per_school": [
     {
-      "school": "Tathāgatagarbha-foundational (Maitreya-attributed corpus)",
-      "definition": "*Tathāgatagarbha* is the universal Buddha-nature present in all sentient beings, articulated through the seven vajra-padas of the Ratna-Gotra-Vibhāga and through the nine similes (Buddha within the withered lotus, honey within the swarm, kernel within the husk, gold within filth, etc., RGV I.96–125). The treatise distinguishes it from heretical *ātman*-doctrines and from Mādhyamaka *śūnyatā*: it is the positive content of the Buddha's awakening, the dharma-element (*dharma-dhātu*) considered as the cognitive ground of practitioners.",
-      "primary_loci": ["Ratna-Gotra-Vibhāga I.27–28, I.36–41, I.96–125", "Mahāyāna-Sūtra-Alaṃkāra IX (Bodhi-adhikāra)"]
+      "school": "Ratna-Gotra-Vibhāga tradition",
+      "definition": "The *Ratna-Gotra-Vibhāga* systematizes Buddha-nature as the universal basis of awakening and repeatedly distinguishes it from a heretical self-doctrine. Its similes emphasize a pattern: what is hidden is not absent, and what covers it is not essential to it. The treatise also integrates *tathāgatagarbha* with the language of *dharma-dhātu* and *dharmakāya*, so that the doctrine is not merely anthropological but cosmological and soteriological at once.",
+      "primary_loci": ["Ratna-Gotra-Vibhāga 1.27–28", "Ratna-Gotra-Vibhāga 1.36–41", "Ratna-Gotra-Vibhāga 1.96–125"]
     },
     {
-      "school": "Buddha-nature-Mahāyāna (Laṅkāvatāra-Sūtra)",
-      "definition": "*Tathāgatagarbha* is identified with the eighth consciousness (*ālaya-vijñāna*) in its undefiled aspect: the conditioned cognitive flow is the locus of obscuration, and the unconditioned ground (the *tathāgatagarbha-ālaya*) is the locus of awakening. The sūtra's chapter 6 (Tathāgatagarbha-parivarta) explicitly addresses Mahāmati's question whether *tathāgatagarbha* is just *ātman* under another name, and the Buddha's response is that it is taught precisely to lead beings beyond *ātman*-grasping.",
-      "primary_loci": ["Laṅkāvatāra-Sūtra ch. 2 (108 questions and citta-mātra exposition)", "Laṅkāvatāra-Sūtra ch. 6 (Tathāgatagarbha-parivarta)"]
+      "school": "Laṅkāvatāra / Buddha-nature Mahāyāna",
+      "definition": "The *Laṅkāvatāra* presents *tathāgatagarbha* in close relation to *ālaya-vijñāna* and directly answers the charge that it is just *ātman* under another name. Its reply is therapeutic and doctrinal: Buddha-nature language is used to draw beings away from nihilistic fear of emptiness, but the intended realization still exceeds all self-grasping. The doctrine is therefore a strategic positive idiom deployed within a fundamentally anti-essentialist path.",
+      "primary_loci": ["Laṅkāvatāra-Sūtra 2 [NOT YET RETRIEVED]", "Laṅkāvatāra-Sūtra 10.748–750"]
     },
     {
-      "school": "Pratyabhijñā / Trika (structural inheritance)",
-      "definition": "The Tathāgatagarbha emphasis on *prakṛti-prabhāsvara-citta* and on the always-already-present cognitive ground of awakening is structurally inherited (without direct citation) into the Pratyabhijñā articulation of the always-already-Śiva nature of awareness. The *mala* (defilements) of the Trika tradition function structurally as the *āgantuka-kleśa* of the Tathāgatagarbha tradition: adventitious obscurations on a ground that is not itself contaminated.",
-      "primary_loci": ["Īśvara-Pratyabhijñā-Kārikā 1.5", "Tantrāloka 9 (mala-prakaraṇa)"]
-    },
-    {
-      "school": "Viśiṣṭādvaita (refutation)",
-      "definition": "Vedānta Deśika's Śatadūṣaṇī treats the *tathāgatagarbha* doctrine as a structural variant of the Advaita identity-thesis to be refuted on the same grounds: any doctrine of universal cognitive ground (whether the Tathāgatagarbha's universal Buddha-nature or the Advaitin's universal Brahman-identity) fails to preserve the asymmetric *paratantra* / *svatantra* dependence-relation the Vedāntic realist holds essential.",
-      "primary_loci": ["Śatadūṣaṇī (selected vādas engaging Buddhist universalist positions)"]
+      "school": "Trika / Pratyabhijñā",
+      "definition": "Trika is not a Buddha-nature school, but it offers a structurally parallel use of positive interior language: the ground of awareness is always already Śiva, obscured by contraction and recoverable through recognition. The comparison is useful only if the metaphysical difference is kept clear. Tathāgatagarbha texts labor to avoid substantial self-talk; Trika openly identifies the luminous ground with the supreme Lord's own self-manifesting consciousness.",
+      "primary_loci": ["Īśvara-Pratyabhijñā-Kārikā 1.5.1–3", "Tantrāloka 9.1–18"]
     }
   ],
   "see_also": ["prakrti-prabhasvara-citta", "ekayana", "alaya-vijnana", "anatman", "atman", "sunyata"],
-  "translator_note": "Translating *tathāgatagarbha* as 'Buddha-nature' is acceptable but loses the specifically embryological metaphor of *garbha* (womb / embryo); translating as 'Buddha-embryo' preserves the metaphor at the cost of awkwardness. The decisive point for any translation is to preserve the non-substantialist phrasing: it is not a substance underlying experience but the cognitive ground itself in its natural luminosity. Western readers should not collapse the doctrine into either a substance-self that the Buddha would have refuted or into a vacuous *śūnyatā*-formula. The Sanskrit term carries both the embryological metaphor (something present in potency that develops into something fully manifest) and the matrix metaphor (something within which something else is contained), and the Mahāyāna literature exploits both."
+  "translator_note": "\"Buddha-nature\" is conventional and often necessary, but it can import a modern essence-language that makes the doctrine sound like a hidden metaphysical self. \"Buddha-embryo\" and \"Buddha-matrix\" preserve the *garbha* metaphor more literally, but they can sound biologized or mystical in English. The important point is neither merely potential nor substance: the doctrine says that awakening has an already-present basis obscured by what is adventitious, while still refusing a brahmanical *ātman* reading.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

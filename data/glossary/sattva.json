@@ -4,24 +4,31 @@
   "term_devanagari": "सत्त्व",
   "literal": "being-ness, beingness; from sat + abstract suffix -tva. In guṇa-context: the luminous, light, ordered guṇa",
   "aliases": ["sattva", "Sattva", "sattvaṃ", "sattvasya", "sattve", "sattvika", "sāttvika"],
-  "invariant_definition": "The first of the three *guṇas* of *prakṛti* — the luminous, lucid, light, ordered constituent. *Sattva* is associated with knowledge (*jñāna*), clarity, and equipoise; in psychology it predominates in the *buddhi* and is the *guṇa* in which knowledge of *brahman* is achievable. All Vedāntic schools that engage Sāṅkhya's *guṇa*-scheme (i.e., effectively all of them) accept *sattva* as constitutionally enabling for spiritual practice. They differ on the ontological status of the *guṇas* themselves — real material constituents (Viśiṣṭādvaita, Dvaita) or *vyāvahārika* (Advaita).",
+  "invariant_definition": "*Sattva* is the lucid and light-bearing strand of *prakṛti*. In the *guṇa* theory it is the factor of disclosure, balance, and intelligibility, not merely a moral predicate like 'goodness'. Because cognition requires manifestation, *sattva* becomes the psychological condition of knowledge: a *buddhi* dominated by *sattva* is transparent enough to present things clearly, whereas *rajas* agitates and *tamas* obscures. This is why *sattva-śuddhi* matters across schools and practices. Ritual discipline, ethical restraint, diet, meditation, and devotion are repeatedly valued because they alter the *guṇa*-balance of the inner instrument. The term therefore stands at once in ontology, psychology, and soteriology. Schools diverge on whether the *guṇa*s are ultimately real or only *vyāvahārika*, and Vaiṣṇava traditions further distinguish worldly mixed *sattva* from supramundane *śuddha-sattva*. Still, they agree that *sattva* is the material-psychological condition under which truth becomes most available to finite embodied knowers.",
   "per_school": [
     {
+      "school": "Sāṃkhya / Yoga",
+      "definition": "*Sattva* is the illuminating constituent of *prakṛti* and is most evident in *buddhi* and in the refined states of *citta*. Yoga's practical program can be read as a progressive reduction of *rajas* and *tamas* so that the *sāttvika* transparency of the mind reflects *puruṣa* without distortion. Even there, however, *sattva* remains a constituent of nature, not consciousness itself.",
+      "primary_loci": ["Sāṃkhya-Kārikā 12–13", "Yoga-Sūtra-Bhāṣya 1.2", "Yoga-Sūtra-Bhāṣya 1.47–51 [NOT YET RETRIEVED]"]
+    },
+    {
       "school": "Advaita",
-      "definition": "*Sattva* is the *guṇa* whose predominance in the *antaḥkaraṇa* makes liberating *jñāna* possible. *Karma-yoga* and *bhakti* are valued largely as means of *sattva-śuddhi* — purification toward *sāttvika* dominance.",
-      "primary_loci": ["Bhagavad-Gītā-Bhāṣya 14, 17, 18", "Vivekacūḍāmaṇi 119"]
+      "definition": "*Sattva* is the dominant *guṇa* required for *antaḥkaraṇa-śuddhi* and the rise of liberating knowledge. A *sāttvika* mind can host the *akhaṇḍākāra-vṛtti* because it is relatively free of agitation and obscuration. Yet *sattva* still belongs to *māyā*-*prakṛti*, not to *brahman* itself. Hence Advaita values it instrumentally and then sublates even that instrument in realization.",
+      "primary_loci": ["Bhagavad-Gītā-Bhāṣya 14.6, 14.11–17", "Bhagavad-Gītā-Bhāṣya 18.30", "Vivekacūḍāmaṇi 16–19 [NOT YET RETRIEVED]"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Sattva* is a real material constituent of *prakṛti*. *Śuddha-sattva* — pure *sattva* — is recognized as a distinct ontological mode constituting the bodies of the Lord and of the *muktas* in Vaikuṇṭha; it is qualitatively distinct from the *miśra-sattva* of bound embodiment.",
-      "primary_loci": ["Yatīndra-Mata-Dīpikā 5", "Śrī-Bhāṣya 3.2"]
+      "definition": "*Sattva* is a real constituent of *prakṛti*, but Śrīvaiṣṇava thought distinguishes mixed worldly *sattva* from *śuddha-sattva*, the non-material luminous substance of the Lord's body, the *muktas*, and Vaikuṇṭha. This prevents the common mistake of treating divine form as symbolic. The Lord's form is real because it is constituted by *śuddha-sattva*, not by the mixed tri-*guṇa* order of bondage.",
+      "primary_loci": ["Yatīndra-Mata-Dīpikā 5", "Vedārtha-Saṅgraha §§126–130 [NOT YET RETRIEVED]", "Pādma-Saṃhitā [NOT YET RETRIEVED]"]
     },
     {
       "school": "Dvaita",
-      "definition": "*Sattva* is a real material constituent, intrinsically associated with the *taratamya* of souls — *mukti-yogya* souls have constitutive *sāttvika* affinity, *tamo-yogya* souls *tāmasic* affinity. The *guṇa*-scheme has metaphysical, not merely psychological, force.",
-      "primary_loci": ["Anu-Vyākhyāna 3.3"]
+      "definition": "*Sattva* is a real constituent of the material order and also figures in Madhva's hierarchical anthropology. The spiritually fit souls are marked by *sāttvika* orientation, whereas the other classes are aligned otherwise. The point is not merely ethical temperament but a realist metaphysical hierarchy in which forms of receptivity to truth differ among souls.",
+      "primary_loci": ["Mahābhārata-Tātparya-Nirṇaya 1.85–95", "Anu-Vyākhyāna 3.3 [NOT YET RETRIEVED]"]
     }
   ],
   "see_also": ["rajas", "tamas", "guna", "prakrti", "antahkarana", "buddhi", "suddha-sattva"],
-  "translator_note": "'Goodness' is a frequent gloss; misleading. *Sattva* is not a moral category but a metaphysical-psychological one. 'Lucidity' or 'clarity' is closer; best left untranslated."
+  "translator_note": "'Goodness' is the lazy English gloss to avoid. It moralizes a term whose primary function is metaphysical and psychological: *sattva* is the luminous and equilibrating strand of the material order. 'Clarity' or 'lucidity' is often better, but even these can miss its ontological role within the *guṇa* theory. In Vaiṣṇava contexts, collapsing *sattva* and *śuddha-sattva* erases the distinction between worldly refinement and the non-material substance of divine manifestation.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

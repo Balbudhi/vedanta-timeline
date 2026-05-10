@@ -2,21 +2,38 @@
   "term_key": "anumana",
   "term_iast": "anumāna",
   "term_devanagari": "अनुमान",
-  "literal": "after-measuring, inference; from anu- + √mā 'to measure'",
+  "literal": "subsequent measuring; inference",
   "aliases": ["anumana", "anumāna", "Anumāna", "anumānasya", "anumāne"],
-  "invariant_definition": "Inference — the *pramāṇa* that produces cognition of an unperceived object on the basis of an invariable relation (*vyāpti*) between a known mark (*liṅga*) and the inferred object (*sādhya*). The Nyāya five-membered syllogism (*pratijñā*, *hetu*, *udāharaṇa*, *upanaya*, *nigamana*) is the standard form. All Vedāntic schools accept *anumāna* as a *pramāṇa*; the schools differ on whether *anumāna* can establish *brahman* (no school says yes; *brahman* requires *śabda*) and on the technical analysis of inference (Dvaita develops a distinctive treatment in Vyāsatīrtha's *Tarka-Tāṇḍava*).",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "*Anumāna* is cognition generated through a sign-relation rather than direct presentation. Its classical Nyāya form presupposes *pakṣa* (the subject under consideration), *sādhya* (what is to be established), *hetu* or *liṅga* (the inferential mark), and *vyāpti* (invariable concomitance), typically secured through agreement in presence and absence across *sapakṣa* and *vipakṣa* cases. The public five-member form of inference is pedagogical; the deeper issue is what licenses the transition from observed sign to unobserved fact. Navya-Nyāya sharpens this with *avacchedaka* language; Buddhist logic recasts it through *trairūpya*; Vedānta uses it extensively in polemic while denying that *brahman* is inferable as just one more unperceived object. The term therefore belongs to a large inferential apparatus, not merely to 'reasoning' in general. In practice, *anumāna* governs everything from fire-from-smoke cases to anti-Sāṃkhya and anti-Buddhist arguments about causality, selfhood, and scriptural authority.",
   "per_school": [
     {
-      "school": "Advaita / Viśiṣṭādvaita",
-      "definition": "*Anumāna* operates on its proper objects (e.g., the existence of fire from smoke); cannot establish *brahman*; can refute opposing positions (Sāṅkhya-pradhāna, etc.) by showing internal incoherence.",
-      "primary_loci": ["Vedānta-Paribhāṣā, anumāna-pariccheda", "Yatīndra-Mata-Dīpikā 1"]
+      "school": "Nyāya",
+      "definition": "Nyāya treats *anumāna* as a rigorously structured *pramāṇa* whose immediate cause is *parāmarśa*: the apprehension that the inferential mark, present in the subject, is pervaded by the probandum. The familiar five-member syllogism externalizes that structure for debate, but the theory's core lies in *vyāpti* and *pakṣadharmatā*. Later Navya-Nyāya makes the account maximally explicit through relational and delimitor analysis.",
+      "primary_loci": ["Nyāya-Sūtra 1.1.5", "Vātsyāyana, Nyāya-Bhāṣya ad Nyāya-Sūtra 1.1.5", "Gaṅgeśa, Tattva-Cintāmaṇi, anumāna-khaṇḍa"]
+    },
+    {
+      "school": "Advaita",
+      "definition": "Advaita grants full legitimacy to inference within empirical life and philosophical controversy, but denies that *brahman* is the kind of object inference can establish. Inference can remove rival doctrines, expose incoherence, and prepare the mind for *śruti*, yet the final non-dual cognition is not inferential. This keeps *anumāna* powerful but subordinate to revelatory testimony in the highest matter.",
+      "primary_loci": ["Dharmarāja, Vedānta-Paribhāṣā, anumāna-pariccheda", "Brahma-Sūtra-Bhāṣya 1.1.4", "Brahma-Sūtra-Bhāṣya 2.2.1-10"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Viśiṣṭādvaita uses inference to defend a realist, qualified ontology and to reject the idea that ultimate reality is devoid of attributes. Inference can establish dependence, order, and purposive structure, but it does not supersede *śruti* on the nature of Brahman. Its role is confirmatory and polemical, not revelatory in the strict sense.",
+      "primary_loci": ["Rāmānuja, Śrī-Bhāṣya 1.1.1", "Vedānta Deśika, Nyāya-Pariśuddhi 1 [NOT YET RETRIEVED]", "Yatīndra-Mata-Dīpikā 1"]
     },
     {
       "school": "Dvaita",
-      "definition": "*Anumāna* receives a sophisticated treatment in the post-Madhva tradition (Jayatīrtha, Vyāsatīrtha) responding to Navya-Nyāya. *Tarka-Tāṇḍava* is the principal Dvaita treatise on inference and a major contribution to Indian logic.",
-      "primary_loci": ["Vyāsatīrtha, Tarka-Tāṇḍava", "Jayatīrtha, Pramāṇa-Paddhati"]
+      "definition": "Dvaita develops one of the strongest late inferential cultures in Vedānta. Jayatīrtha and Vyāsatīrtha use *anumāna* to defend real difference, ontological hierarchy, and the irreducibility of devotional theism, while also engaging Navya-Nyāya technicalities at high precision. Inference does not generate *aparokṣa-jñāna* of Viṣṇu, but it does major argumentative work in clearing rival positions.",
+      "primary_loci": ["Jayatīrtha, Pramāṇa-Paddhati", "Vyāsatīrtha, Tarka-Tāṇḍava", "Madhva, Anu-Vyākhyāna 1.1 [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Buddhist Pramāṇa",
+      "definition": "Buddhist logicians analyze *anumāna* through the three characteristics of a valid reason and distinguish inference for oneself from inference for others. Since universals are conceptual constructions, inferential knowledge belongs to the constructed domain rather than to bare perception. The theory is designed to preserve logical force without granting realist universals or autonomous scriptural testimony.",
+      "primary_loci": ["Dignāga, Pramāṇa-Samuccaya 3.1-2", "Dharmakīrti, Nyāya-Bindu 2.1-18", "Dharmakīrti, Pramāṇa-Vārttika 1.1-12 [NOT YET RETRIEVED]"]
     }
   ],
-  "see_also": ["pramana", "pratyaksa", "sabda", "vyapti", "linga", "hetu"],
-  "translator_note": "'Inference' is the standard gloss. The Indian theory of inference (especially the *vyāpti*-grounded structure) is technically distinct from the Aristotelian syllogism — *anumāna* requires an empirically established invariable concomitance, not merely formal validity."
+  "see_also": ["pramana", "pratyaksa", "sabda", "pramana-dvaya", "jnana"],
+  "translator_note": "The lazy gloss 'inference' is acceptable only if one does not equate it with a generic Aristotelian syllogism or with modern formal entailment. *Anumāna* is tied to *vyāpti*, sign-cognition, and a debated theory of how a universal relation is known. Translating it as mere 'reasoning' removes the entire inferential machinery the schools are arguing over."
 }

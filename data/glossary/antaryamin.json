@@ -4,24 +4,31 @@
   "term_devanagari": "अन्तर्यामिन्",
   "literal": "the inner controller; antar (within) + yāmin (controller, from √yam)",
   "aliases": ["antaryamin", "antaryāmin", "Antaryāmin", "antaryāmī", "antaryami"],
-  "invariant_definition": "The inner controller — the divine indwelling in every conscious and unconscious being, controlling from within. The locus classicus is the *Antaryāmi-Brāhmaṇa* (Bṛhadāraṇyaka 3.7), which describes Brahman as the inner controller of every element, every sense, and every soul. All Vedāntic schools accept the doctrine; they differ on whether the *antaryāmin* is identical with the *jīva*'s *ātman* (Advaita: yes, ultimately) or really distinct from it (Viśiṣṭādvaita: yes — Brahman is *antaryāmin* of the *jīva* who is His body; Dvaita: yes — Viṣṇu is *antaryāmin* of every *paratantra*).",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "The inner controller: the indwelling ruler described in the *Antaryāmi-Brāhmaṇa* as standing within earth, waters, senses, self, and mind, unknown by the controlled entity, yet ruling it from within. The term joins ontology, causality, and practice. It does not mean mere omnipresence or generic immanence. It means that the ultimate reality can be interior to a thing as its regulator, support, and inner knower while remaining more than that thing. Viśiṣṭādvaita makes this passage foundational for *śarīra-śarīrī-bhāva*; Dvaita uses it to mark Viṣṇu's real sovereignty over dependent beings; Advaita reads it at the level of *Īśvara*, with the distinction between controller and controlled finally sublated in non-dual realization. In Vaiṣṇava theology the term often converges with *paramātman*. 'Indwelling Lord' captures the devotional tone, but the philosophical point is stronger: divine interiority is a real mode of governance and presence, not a metaphor for moral influence.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Antaryāmin* is *Īśvara* — *saguṇa brahman* under the cosmic-control aspect. In *pāramārthika* analysis the *antaryāmin* is *brahman* and is identical with the *ātman* of the controlled.",
-      "primary_loci": ["Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 3.7", "Brahma-Sūtra-Bhāṣya 1.2.18ff"]
+      "definition": "*Antaryāmin* is *Īśvara* as the ruler of the empirical order. The Upaniṣadic descriptions of inward control are accepted, but they belong to the level on which there still appear controlled entities, elements, and selves. In final analysis the controller is none other than the self of the controlled, because the distinction between Lord and inner self is sublated in non-dual knowledge. The term thus names a genuine teaching-stage, not the highest unrevisable description.",
+      "primary_loci": ["Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 3.7", "Brahma-Sūtra-Bhāṣya 1.2.18-20"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Antaryāmin* is Viṣṇu indwelling every *jīva* and every material object as their *śarīrī* (ensouler). The *antaryāmin*-*jīva* relation is the paradigm of *śarīra-śarīrī-bhāva*.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§81–88", "Śrī-Bhāṣya 1.2.18ff"]
+      "definition": "The *antaryāmin* is Nārāyaṇa indwelling every self and every material entity as their *śarīrī*. The *Antaryāmi-Brāhmaṇa* is read literally and systematically: the one within each thing is distinct from it, controls it, and has it as body. This becomes a decisive proof-text for the school's account of divine immanence without identity-collapse. The doctrine is therefore inseparable from *apṛthak-siddhi* and *śarīra-śarīrī-bhāva*.",
+      "primary_loci": ["Bṛhadāraṇyaka-Upaniṣad 3.7.3-23", "Śrī-Bhāṣya 1.2.18-20", "Vedārtha-Saṅgraha 81-88"]
     },
     {
       "school": "Dvaita",
-      "definition": "*Antaryāmin* is Viṣṇu indwelling every *paratantra* tattva, controlling from within while remaining eternally distinct.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.2.18ff"]
+      "definition": "Viṣṇu is the inner controller of every dependent reality while remaining eternally distinct from it. The point of the doctrine is not qualified identity but lordship: every *paratantra* entity exists and acts under the inward governance of the independent Lord. This supports Dvaita's realist pluralism, because dependence on Viṣṇu is real without canceling the distinct existence of the governed self or object.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.2.18-20 [NOT YET RETRIEVED]", "Anu-Vyākhyāna 1.2.18-20 [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "The *antaryāmin* is the *paramātman* aspect of Bhagavān, the indwelling overseer present in all beings and in the cosmos. Gauḍīya theology distinguishes this aspect from Kṛṣṇa's supreme personal fullness without making it unreal or secondary in the sense of mere symbol. The indwelling Lord governs karma and memory while the *jīva* remains a tiny dependent *vibhinnāṃśa*.",
+      "primary_loci": ["Paramātma-Sandarbha 1-16", "Bhagavad-Gītā 15.15", "Bhāgavata-Purāṇa 2.2.8 [NOT YET RETRIEVED]"]
     }
   ],
   "see_also": ["isvara", "sarira-saririn-bhava", "paramatman"],
-  "translator_note": "'Inner controller' or 'indwelling Lord' both acceptable. The Christian-theological 'immanent God' captures part of it but loses the *control*-dimension."
+  "translator_note": "The lazy gloss is 'indwelling God' or 'immanent deity.' Those are not wrong, but they can reduce the term to devotional feeling or a vague theology of presence. *Antaryāmin* carries a sharper claim about governance from within. It is not simply that God is everywhere; it is that the inner ruler orders, supports, and knows each dependent being without becoming identical with it in the same way across all schools."
 }

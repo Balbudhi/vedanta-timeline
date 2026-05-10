@@ -4,19 +4,31 @@
   "term_devanagari": "रजस्",
   "literal": "in Vedic usage 'mist, dust, atmospheric region'; in Sāṅkhya: the active, passionate, energizing guṇa",
   "aliases": ["rajas", "Rajas", "rajasaḥ", "rajasi", "rajasā", "rājasa", "rājasika", "rajasika"],
-  "invariant_definition": "The second of the three *guṇas* of *prakṛti* — the active, energizing, passion-producing constituent. *Rajas* is associated with desire (*kāma*), striving (*pravṛtti*), and motion. Its predominance in the *antaḥkaraṇa* produces attachment, restlessness, and *karma*-driven action. All Vedāntic schools that engage the *guṇa*-scheme accept *rajas* as constitutionally obstructive to *jñāna* (though instrumentally necessary for action and motion).",
+  "invariant_definition": "*Rajas* is the activating and agitating strand of *prakṛti*. It is what drives motion, striving, propulsion, and outward-directed engagement. In psychological terms it expresses itself as restlessness, appetite, ambition, irritation, and the inability to remain gathered. In causal terms it is what keeps the machinery of *karma* turning, since action requires impulse, projection, and dissatisfaction with the present state. This is why *rajas* is never treated as simply bad: without it nothing moves, no ritual is performed, no discipline is undertaken, and no embodied life proceeds. But because it binds through attachment to action and result, it is also a principal obstacle to contemplative steadiness and liberating knowledge. The practical question across schools is therefore not how to annihilate *rajas* outright but how to subordinate and transmute it so that it serves *dharma*, *bhakti*, or disciplined inquiry rather than restless self-projection.",
   "per_school": [
     {
-      "school": "Advaita",
-      "definition": "*Rajas* in the *antaḥkaraṇa* obstructs *brahma-jñāna*. *Sādhana* aims to convert *rajas* and *tamas* to *sattva*-dominance.",
-      "primary_loci": ["Bhagavad-Gītā-Bhāṣya 14, 17, 18"]
+      "school": "Sāṃkhya / Yoga",
+      "definition": "*Rajas* is the kinetic factor that disturbs the equilibrium of the *guṇa*s and thereby enables manifestation. In Yoga it is the source of distraction and outward movement in *citta*, but it is also the energy that can be redirected through practice. The problem is not motion as such, but motion ungoverned by discriminative insight.",
+      "primary_loci": ["Sāṃkhya-Kārikā 12–13", "Yoga-Sūtra-Bhāṣya 1.2", "Yoga-Sūtra 1.30–31"]
     },
     {
-      "school": "Viśiṣṭādvaita / Dvaita",
-      "definition": "*Rajas* is a real material constituent of *prakṛti*; in Dvaita's *taratamya* it correlates with the *jīva*'s metaphysical type.",
-      "primary_loci": ["Yatīndra-Mata-Dīpikā 5", "Anu-Vyākhyāna 3.3"]
+      "school": "Advaita",
+      "definition": "*Rajas* is the *guṇa* most directly connected with *vikṣepa*, the projective restlessness that keeps the mind turned toward objects, projects doership, and sustains fruit-oriented action. Advaita therefore treats many disciplines as methods for reducing *rājasa* turbulence so that the mind becomes fit for *śravaṇa*, *manana*, and *nididhyāsana*. The goal is not torpor but lucid steadiness.",
+      "primary_loci": ["Bhagavad-Gītā-Bhāṣya 14.7, 14.12, 14.17", "Bhagavad-Gītā-Bhāṣya 18.24, 18.31", "Vivekacūḍāmaṇi 17–19 [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Rajas* is a real constituent of material existence and explains why bound life is driven by desire, effort, and fruit-seeking action. The spiritual task is not to deny action but to reorient it as *bhagavad-ārādhana*. Hence action can remain intense while ceasing to be *rājasa* in the binding sense, because its teleology has been transformed.",
+      "primary_loci": ["Gītā-Bhāṣya (Rāmānuja) 14.7, 14.12", "Gītā-Bhāṣya (Rāmānuja) 18.24"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Rajas* is a real constituent of the world-order and has metaphysical significance in Madhva's graded anthropology. It marks a type of worldly propulsion and attachment different from *sāttvika* receptivity and *tāmasa* obscuration. Because Dvaita retains real agency and real difference, the regulation of *rajas* belongs to a realist ethics of devotion rather than to the dissolving of an illusory doer.",
+      "primary_loci": ["Mahābhārata-Tātparya-Nirṇaya 1.85–95", "Gītā-Tātparya 14 [NOT YET RETRIEVED]"]
     }
   ],
-  "see_also": ["sattva", "tamas", "guna", "prakrti"],
-  "translator_note": "'Passion' or 'activity' are the standard glosses; both miss the metaphysical dimension. *Rajas* is best left untranslated."
+  "see_also": ["sattva", "tamas", "guna", "prakrti", "karma", "pravrtti"],
+  "translator_note": "'Passion' and 'activity' are both too flat. The first psychologizes the term; the second removes the bondage-producing force of craving and projection. *Rajas* is the activating strand of the material order, and in soteriological contexts it names the restless energy that keeps agency tied to fruits. It is better left untranslated unless the explanatory frame is made explicit.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

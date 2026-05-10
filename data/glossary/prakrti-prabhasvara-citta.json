@@ -2,31 +2,33 @@
   "term_key": "prakrti-prabhasvara-citta",
   "term_iast": "prakṛti-prabhāsvara-citta",
   "term_devanagari": "प्रकृतिप्रभास्वरचित्त",
-  "literal": "naturally luminous mind; consciousness whose intrinsic nature is luminosity",
+  "literal": "naturally luminous mind; mind whose own condition is luminosity",
   "aliases": ["prakrti-prabhasvara-citta", "prakṛti-prabhāsvara-citta", "prabhāsvara-citta", "naturally luminous mind", "prakṛti-prabhāsvaratā"],
-  "invariant_definition": "The doctrine, articulated principally in the Tathāgatagarbha literature (Ratna-Gotra-Vibhāga, Laṅkāvatāra-Sūtra, the Maitreya-corpus generally) and earlier intimated in the Pāli Aṅguttara-Nikāya (AN 1.49–52: *pabhassaram idaṁ bhikkhave cittaṁ*), that *citta* (mind / consciousness) is by its own nature (*prakṛti*) luminous (*prabhāsvara*), and that the apparent obscuration is the work of adventitious defilements (*āgantuka-kleśa*) that do not belong to *citta*'s nature. The doctrine is constitutive of the Tathāgatagarbha account of the cognitive ground of awakening: liberation is not the production of a new state but the removal of obscurations on what is already luminous. The doctrine is to be distinguished from the substance-self (*ātman*) doctrines: the natural luminosity is not a substance underlying experience but is *citta* itself in its proper nature, and is therefore non-substantialist in exactly the way the Buddhist tradition requires.",
+  "invariant_definition": "The doctrine that mind is luminous by nature and obscured only by adventitious defilements. In Buddhist use this is not a loose metaphor for psychological optimism but a precise claim about the relation between cognition and affliction: obscurations are real, but they do not belong to mind's defining nature. That is why awakening can be described as purification, uncovering, or basis-transformation rather than as the production of an entirely alien state. The term sits at the intersection of early Buddhist reflection on the mind's luminosity, Yogācāra analyses of cognitive flow, and Tathāgatagarbha accounts of Buddha-nature. Its practical register is central: meditation removes what is adventitious; it does not create luminosity ex nihilo. The main doctrinal danger is obvious. If natural luminosity is spoken of too strongly, it can sound like a hidden *ātman*. Buddhist texts that use the expression therefore repeatedly insist that luminosity is not a self-substance underlying experience but the purified condition of cognition itself.",
   "per_school": [
     {
-      "school": "Tathāgatagarbha-foundational",
-      "definition": "The natural luminosity of *citta* is identified with *tathāgatagarbha* itself: the universal Buddha-nature is the natural luminosity of consciousness considered as the cognitive ground of awakening. The Ratna-Gotra-Vibhāga articulates the relation between natural luminosity and adventitious defilements through the nine similes (RGV I.96–125), each of which figures the relation as one in which the obscuration is non-essential to the obscured.",
-      "primary_loci": ["Ratna-Gotra-Vibhāga I (especially I.36–63)", "Mahāyāna-Sūtra-Alaṃkāra IX"]
+      "school": "Early Buddhist antecedent",
+      "definition": "The canonical antecedent appears in the Pāli statement that the mind is luminous but defiled by adventitious impurities. The point is practical and diagnostic: defilement is neither the whole of mind nor an eternal stain. This antecedent does not yet amount to a full Buddha-nature doctrine, but it provides the scriptural basis later traditions use when arguing that purification reveals what was already structurally available.",
+      "primary_loci": ["Aṅguttara-Nikāya 1.49–52"]
     },
     {
-      "school": "Buddha-nature-Mahāyāna (Laṅkāvatāra-Sūtra)",
-      "definition": "The natural luminosity is the *ālaya-vijñāna* in its undefiled aspect: the eighth consciousness considered as the cognitive ground of awakening rather than as the karmically-conditioned storehouse. The sūtra distinguishes *prakṛti-prabhāsvara-citta* from heretical *ātman*-doctrines (chapter 6) by emphasising that the luminosity is not a substance but the proper nature of the cognitive flow itself.",
-      "primary_loci": ["Laṅkāvatāra-Sūtra ch. 2 and ch. 6"]
+      "school": "Tathāgatagarbha tradition",
+      "definition": "Here natural luminosity becomes a major metaphysical-soteriological claim. The mind's luminosity is identified with the Buddha-nature obscured by *āgantuka-kleśa*s. The point is not merely that mind can become clear, but that the capacity for awakening is universal because luminosity is not imported from outside. The standard similes emphasize that impurity covers but does not define what is covered.",
+      "primary_loci": ["Ratna-Gotra-Vibhāga 1.51–63", "Ratna-Gotra-Vibhāga 1.96–125"]
     },
     {
-      "school": "Pratyabhijñā / Trika (structural inheritance)",
-      "definition": "The Tathāgatagarbha emphasis on natural luminosity is structurally inherited into the Trika articulation of *cit* as *svaprakāśa* (self-luminous): consciousness is luminous of itself without requiring an external illuminator, and the *mala* (defilements) are adventitious obscurations on this self-luminosity. The Trika develops this further with the doctrine of *vimarśa* (reflexive self-awareness) as the dynamic side of *prakāśa* (luminosity).",
-      "primary_loci": ["Īśvara-Pratyabhijñā-Kārikā 1.1.1–5", "Tantrāloka 1, 9"]
+      "school": "Laṅkāvatāra / Yogācāra-inflected Mahāyāna",
+      "definition": "The doctrine is coordinated with the language of *ālaya-vijñāna* and *tathāgatagarbha*. The text uses natural luminosity to explain how the very basis of saṃsāric cognition can be the site of awakening once dualistic construction ceases. This is a more explicit attempt than the early Buddhist sources to hold continuity, obscuration, and awakening inside one cognitive account.",
+      "primary_loci": ["Laṅkāvatāra-Sūtra 10.750", "Laṅkāvatāra-Sūtra 2 [NOT YET RETRIEVED]"]
     },
     {
-      "school": "Advaita Vedānta (structural parallel)",
-      "definition": "The Advaitin doctrine of *cit* as *svaprakāśa* (self-luminous) and as the natural light of consciousness shares the structural emphasis on natural luminosity but sets it within a substantialist Brahman-identity framework that the Tathāgatagarbha tradition refuses. The relation is one of structural parallel, not of doctrinal identity.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1 (adhyāsa-bhāṣya)", "Pañcadaśī 1, 6"]
+      "school": "Trika / Pratyabhijñā",
+      "definition": "Trika does not borrow the Buddhist doctrine wholesale, but it develops a structurally comparable claim: consciousness is self-luminous, and bondage consists in adventitious contraction rather than in any loss of the basic power of awareness. The difference is decisive. In Trika the luminous ground is Śiva's own *prakāśa-vimarśa*, openly metaphysical and theistic, not a carefully non-substantialist Buddhist account.",
+      "primary_loci": ["Īśvara-Pratyabhijñā-Kārikā 1.1.1–5", "Tantrāloka 1.59–75"]
     }
   ],
   "see_also": ["tathagatagarbha", "alaya-vijnana", "saksin", "svatantrya", "vimarsa"],
-  "translator_note": "'Naturally luminous mind' is the standard English rendering. 'Luminosity' (*prabhāsvaratā*) here is technical: it does not denote literal optical brightness but the cognitive transparency that allows experience to manifest at all. The doctrine is non-substantialist; readers should not import substance-self connotations from Western philosophy of mind. The Pāli antecedent (*pabhassaraṁ idaṁ bhikkhave cittaṁ*, AN 1.49) is the canonical source the Mahāyāna Tathāgatagarbha tradition treats as scriptural warrant for the doctrine."
+  "translator_note": "\"Luminosity\" here does not mean literal brightness, and \"mind\" here should not invite a modern psychologized reading. The doctrine is about the manifestness of cognition and the non-essential status of defilement. English renderings that make it sound like an eternal soul or a merely upbeat doctrine of inner goodness import exactly the baggage the texts are trying to avoid.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }
