@@ -2,7 +2,10 @@
   "id": "vedanta-desika",
   "name": "Vedanta Deshika",
   "name_iast": "Vedānta Deśika",
-  "alternate_names": ["Veṅkaṭanātha", "Svāmi Deśika"],
+  "alternate_names": [
+    "Veṅkaṭanātha",
+    "Svāmi Deśika"
+  ],
   "dates_low": 1268,
   "dates_high": 1369,
   "dates_tier": "confirmed-from-records",
@@ -21,8 +24,14 @@
   "school_color_token": "vishishtadvaita",
   "sub_school": "Vaḍakalai",
   "sub_school_shade": 3,
-  "lineage_in": ["ramanuja", "sudarsana"],
-  "lineage_out": [],
+  "lineage_in": [
+    "ramanuja",
+    "sudarsana"
+  ],
+  "lineage_out": [
+    "rangaramanuja-muni",
+    "uttamur-viraraghavacharya"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "pillai-lokacarya",
@@ -40,7 +49,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Viśiṣṭādvaita systematic verse-treatise.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "varttika",
       "language": "sanskrit",
@@ -60,7 +72,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Sanskrit prose auto-commentary on the Tattva-Muktā-Kalāpa.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus; manuscript transmission inseparable from Tattva-Muktā-Kalāpa."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus; manuscript transmission inseparable from Tattva-Muktā-Kalāpa."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -76,7 +91,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Maṇipravāḷa rahasya-treatise.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "rahasya",
       "language": "tamil-manipravala",
@@ -92,7 +110,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored defense of Pāñcarātra ritual practice.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
@@ -112,7 +133,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Viśiṣṭādvaita logic-treatise.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
@@ -128,7 +152,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored systematic Viśiṣṭādvaita treatise.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -144,7 +171,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored anti-Advaita polemic in 100 dūṣaṇa-s.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
@@ -163,7 +193,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored verse-summary of the Brahma-Sūtra adhikaraṇas in Vaḍakalai Viśiṣṭādvaita perspective.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "verse-summary",
       "language": "sanskrit",
@@ -644,5 +677,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave2-codex"
+  "last_verified_by": "wave-audit-fix-opus"
 }

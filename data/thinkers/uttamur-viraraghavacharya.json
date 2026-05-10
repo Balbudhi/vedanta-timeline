@@ -2,7 +2,12 @@
   "id": "uttamur-viraraghavacharya",
   "name": "Uttamur Viraraghavacharya",
   "name_iast": "Uttamūr Vīrarāghavācārya",
-  "alternate_names": ["U. Ve. Uttamur T. Viraraghavachariar", "Abhinava Deśika", "Abhinava Deśikācārya", "Uthamur Swami"],
+  "alternate_names": [
+    "U. Ve. Uttamur T. Viraraghavachariar",
+    "Abhinava Deśika",
+    "Abhinava Deśikācārya",
+    "Uthamur Swami"
+  ],
   "dates_low": 1903,
   "dates_high": 1995,
   "dates_tier": "confirmed-from-records",
@@ -21,7 +26,12 @@
   "school_color_token": "vishishtadvaita",
   "sub_school": "Vaḍakalai (modern systematic)",
   "sub_school_shade": 4,
-  "lineage_in": ["vedanta-desika", "ramanuja", "sudarsana"],
+  "lineage_in": [
+    "vedanta-desika",
+    "ramanuja",
+    "sudarsana",
+    "rangaramanuja-muni"
+  ],
   "lineage_out": [],
   "lineage_polemical": [],
   "core_thesis": "Uttamūr Vīrarāghavācārya, honoured as *Abhinava Deśika*, is the twentieth-century consolidator of Vaḍakalai Viśiṣṭādvaita scholasticism. His approximately 185 Sanskrit and Tamil works re-articulate the school across the entire technical front. The magnum opus *Paramārtha-Bhūṣaṇa* defends Vedānta-Deśika's positions against later Advaita and Tenkalai criticism. The *Sarvārtha-Siddhi-Vyākhyā* glosses Deśika's auto-commentary on the *Tattva-Muktā-Kalāpa*; the *Śrī-Bhāṣyārtha-Darpaṇa* glosses Rāmānuja's *Śrī-Bhāṣya*; the commentaries on the *Nyāya-Pariśuddhi*, on Yāmuna, and on Nadādūr Ammāḷ extend the work backward through the Śrīvaiṣṭha lineage. Three distinctive emphases run throughout. First, the Navya-Nyāya logical apparatus is integrated into Viśiṣṭādvaita exegesis to a degree no earlier modern commentator attempted (his commentaries on Udayana's *Nyāya-Kusumāñjali* and on Kaṇāda's *Vaiśeṣika-Sūtra* exhibit the technical command involved). Second, the pre-Deśika sources are systematically recovered. Third, *upāya-vaibhava* — works rather than effortless surrender — is defended as the Vaḍakalai soteriological backbone against the Tenkalai *mārjāra-nyāya* alternative.",
@@ -37,7 +47,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored magnum opus.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus; Centenary Trust publication records."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus; Centenary Trust publication records."
+        }
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
@@ -53,7 +66,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored sub-commentary on Rāmānuja's Śrī-Bhāṣya.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -69,7 +85,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored sub-commentary on Vedānta-Deśika's Sarvārtha-Siddhi (auto-commentary on Tattva-Muktā-Kalāpa).",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -85,7 +104,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored commentary on Vedānta-Deśika's Nyāya-Pariśuddhi.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -101,7 +123,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored commentary on Udayana's Nyāya-Kusumāñjali.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -117,7 +142,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored commentary on Kaṇāda's Vaiśeṣika-Sūtra.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -133,7 +161,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored commentary on Āpadeva's Mīmāṃsā-Nyāya-Prakāśa.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -149,7 +180,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Tamil-Manipravala commentary on the Nālāyira-Divya-Prabandham.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "tamil-manipravala",
@@ -163,5 +197,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-corpus-v2-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-corpus-v2-opus"
+  "last_verified_by": "wave-audit-fix-opus"
 }

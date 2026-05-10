@@ -11,8 +11,13 @@
   "school_color_token": "bhedabheda",
   "sub_school": "Aupādhika-Bhedābheda",
   "sub_school_shade": 3,
-  "lineage_in": ["bhartrprapanca"],
-  "lineage_out": ["yadava-prakasa"],
+  "lineage_in": [
+    "bhartrprapanca",
+    "badarayana"
+  ],
+  "lineage_out": [
+    "yadava-prakasa"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "sankara",
@@ -30,7 +35,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored; the earliest extant Bhedābhedin commentary on the Brahma-Sūtra.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
@@ -57,5 +65,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1e-opus"
+  "last_verified_by": "wave-audit-fix-opus"
 }

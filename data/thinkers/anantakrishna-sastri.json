@@ -2,7 +2,10 @@
   "id": "anantakrishna-sastri",
   "name": "Anantakrishna Sastri",
   "name_iast": "Anantakṛṣṇa Śāstrī",
-  "alternate_names": ["Mahāmahopādhyāya N. S. Anantakrishna Sastri", "Śāstra-Ratnākara"],
+  "alternate_names": [
+    "Mahāmahopādhyāya N. S. Anantakrishna Sastri",
+    "Śāstra-Ratnākara"
+  ],
   "dates_low": 1879,
   "dates_high": 1953,
   "dates_tier": "confirmed-from-records",
@@ -21,13 +24,21 @@
   "school_color_token": "advaita",
   "sub_school": "Vivaraṇa (modern editorial-polemical)",
   "sub_school_shade": 5,
-  "lineage_in": ["madhusudana", "brahmananda"],
+  "lineage_in": [
+    "madhusudana",
+    "brahmananda"
+  ],
   "lineage_out": [],
   "lineage_polemical": [
     {
       "thinker_id": "vyasatirtha",
       "direction": "refutes",
       "note": "His Śatabhūṣaṇī defends Advaita against Viśiṣṭādvaita and against the Vyāsatīrtha-line Dvaita critique mediated through Madhusūdana's polemical horizon."
+    },
+    {
+      "thinker_id": "satchidanandendra",
+      "direction": "mutual",
+      "note": "Twentieth-century intra-Advaita polemic; Anantakṛṣṇa Śāstrī defends the post-Śaṅkara scholastic apparatus (mūlāvidyā as positive material-cause; the Vivaraṇa and Bhāmatī accounts of avidyā's locus) against the Holenarsipur revisionism that traces only to Śaṅkara's own bhāṣyas."
     }
   ],
   "core_thesis": "Anantakṛṣṇa Śāstrī, Mahāmahopādhyāya and Śāstra-Ratnākara, is the modern editor and defender of late-Advaita scholasticism whose critical editions made the *Advaita-Siddhi* / *Nyāyāmṛta* / *Tarka-Tāṇḍava* dialectical exchange newly readable in the twentieth century. His own polemical writings — *Śatabhūṣaṇī* against Viśiṣṭādvaita, *Advaita-Tattva-Sudhā*, *Advaita-Dīpikā*, *Vedānta-Rakṣā-Maṇi* — defend the Vivaraṇa Brahman-as-locus-of-avidyā position against rival Vedāntic schools and against the modern Śuddha-Śāṅkara reformism of Satchidānandendra. His critical editions of the *Vedānta-Paribhāṣā*, of the *Advaita-Siddhi* with *Laghu-Candrikā*, and of the full *Nyāyāmṛta-Advaita-Siddhi* polemical exchange remain the standard texts in the modern pāṭhaśālā curriculum. He is the principal editorial conduit through whom Madhusūdana, Brahmānanda, Vyāsatīrtha, and the late-scholastic Advaita-Dvaita debate reach contemporary scholarship. The doctrinal contribution is therefore double: the texts themselves are recovered, and the post-Madhusūdana Vivaraṇa position is restated for the modern reader.",
@@ -40,7 +51,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored polemical treatise.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
@@ -56,7 +70,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -72,11 +89,14 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
-      "summary": "A shorter Sanskrit *prakaraṇa* on Advaita doctrine, structured for the intermediate student. Where the *Advaita-Tattva-Sudhā* gives the systematic exposition, the *Advaita-Dīpikā* compresses the same material into a teaching-ready format. The work is one of several pedagogical instruments Anantakṛṣṇa Śāstrī produced for the modern Advaita pāṭhaśālā network and stands alongside his critical editions as a contribution to the school's reproductive infrastructure rather than to its philosophical frontier.",
+      "summary": "A shorter Sanskrit *prakaraṇa* on Advaita doctrine, structured for the intermediate student. Where the *Advaita-Tattva-Sudhā* gives the systematic exposition, the *Advaita-Dīpikā* compresses the same material into a teaching-ready format. The work is one of several pedagogical instruments Anantakṛṣṇa Śāstrī produced for the modern Advaita pāṭhaśālā network and stands alongside his critical editions as a contribution to the school's reproductive infrastructure rather than to its philosophical frontier. The doctrinal content covers the standard agenda — Brahman as *nirguṇa*, *māyā* as the *upādhi* of *Īśvara*, *jīva-Brahma* identity by *jahad-ajahal-lakṣaṇā* on *tat tvam asi*, *jñāna-niṣṭhā* as the proximate cause of *mokṣa* — and supplies the conservative Vivaraṇa-line treatment of each. The treatise is part of the standard pedagogy at Advaita centres aligned with the post-Madhusūdana scholastic stream.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     },
@@ -88,7 +108,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored polemical treatise.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
@@ -104,7 +127,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored editorial labour; distinguished from authorship of the underlying texts. The editions establish the standard modern textus receptus for the Madhusūdana-Vyāsatīrtha-Brahmānanda polemical exchange.",
       "ascription_evidence": [
-        {"kind": "manuscript-colophon", "description": "Nirṇaya Sāgara Press and Meharchand Lachhmandas printing colophons."}
+        {
+          "kind": "manuscript-colophon",
+          "description": "Nirṇaya Sāgara Press and Meharchand Lachhmandas printing colophons."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -120,7 +146,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored editorial labour.",
       "ascription_evidence": [
-        {"kind": "manuscript-colophon", "description": "Standard modern Vedānta-Paribhāṣā printing colophons."}
+        {
+          "kind": "manuscript-colophon",
+          "description": "Standard modern Vedānta-Paribhāṣā printing colophons."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -134,5 +163,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-corpus-v2-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-corpus-v2-opus"
+  "last_verified_by": "wave-audit-fix-opus"
 }

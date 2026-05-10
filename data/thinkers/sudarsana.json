@@ -11,8 +11,14 @@
   "school_color_token": "vishishtadvaita",
   "sub_school": "Viśiṣṭādvaita scholastic",
   "sub_school_shade": 3,
-  "lineage_in": ["ramanuja"],
-  "lineage_out": ["vedanta-desika"],
+  "lineage_in": [
+    "ramanuja"
+  ],
+  "lineage_out": [
+    "vedanta-desika",
+    "rangaramanuja-muni",
+    "uttamur-viraraghavacharya"
+  ],
   "lineage_polemical": [],
   "core_thesis": "Sudarśana Sūri is the principal *vyākhyātṛ* of Rāmānuja's *Śrī-Bhāṣya* and the figure through whom the school's exegetical tradition is stabilised in the generation between Rāmānuja and Vedānta Deśika. The contribution is interpretive rather than doctrinal: he proposes no new thesis. What he does — and what makes him indispensable — is settle, at contested point after contested point, what the *Śrī-Bhāṣya* actually says. The settlements concern four nodes. First, the precise force of each step of Rāmānuja's *sapta-vidhānupapatti* against avidyā, including the Advaitin replies the *Śrī-Bhāṣya* leaves implicit. Second, the construal of *sāmānādhikaraṇya* in *tat tvam asi* on the body-soul model, against alternative readings (numerical identity, *aupādhika* difference, *bhedābheda*) that the bare *Bhāṣya* does not always rule out word-by-word. Third, the *jīva*–*Īśvara* relation under the *śarīra-śarīrin* construal, particularly how *apṛthak-siddhi* differs from inherence (*samavāya*) and from mere conjunction. Fourth, the relation between *bhakti-yoga* and *prapatti* as *upāya*-s. Sudarśana stands prior to the formal Vaḍakalai-Tenkalai split, and so both schools claim him authoritatively. The constraint runs the other way: his readings determine what later Vaḍakalai (Vedānta Deśika) and Tenkalai (Pillai-Lokācārya) can say while still claiming to read the *Śrī-Bhāṣya*.",
   "engaged_works": [
@@ -24,7 +30,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored sub-commentary on the Śrī-Bhāṣya.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -38,5 +47,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1c-opus"
+  "last_verified_by": "wave-audit-fix-opus"
 }

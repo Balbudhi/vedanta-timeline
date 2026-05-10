@@ -11,8 +11,15 @@
   "school_color_token": "advaita",
   "sub_school": "Bhāmatī-Advaita",
   "sub_school_shade": 2,
-  "lineage_in": ["brahmadatta", "bhartrhari", "kumarila"],
-  "lineage_out": ["vacaspati"],
+  "lineage_in": [
+    "brahmadatta",
+    "bhartrhari",
+    "kumarila",
+    "sundara-pandya"
+  ],
+  "lineage_out": [
+    "vacaspati"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "sureshvara",
@@ -1158,5 +1165,5 @@
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1-rewrite-opus"
+  "last_verified_by": "wave-audit-fix-opus"
 }

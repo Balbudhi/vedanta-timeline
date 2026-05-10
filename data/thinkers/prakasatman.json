@@ -11,8 +11,14 @@
   "school_color_token": "advaita",
   "sub_school": "Vivaraṇa-Advaita",
   "sub_school_shade": 4,
-  "lineage_in": ["padmapada", "sarvajnatman"],
-  "lineage_out": ["vidyaranya", "madhusudana"],
+  "lineage_in": [
+    "padmapada",
+    "sarvajnatman"
+  ],
+  "lineage_out": [
+    "vidyaranya",
+    "madhusudana"
+  ],
   "lineage_polemical": [],
   "core_thesis": "Prakāśātman is the system-builder of *Vivaraṇa*-Advaita: the sub-school takes its name from his *Pañcapādikā-Vivaraṇa* and defines itself against Vāchaspati's *Bhāmatī* on every load-bearing question. The intra-school disagreement is one of formal locus, not vocabulary. Vāchaspati located *avidyā* in the *jīva* on the analysis at BSB 1.4.3 and 4.1.3; Prakāśātman, glossing the same *sūtras*, locates it in Brahman. Brahman is at once the *āśraya* and the *viṣaya* of avidyā — the *brahmāśrita-avidyā-vāda*. Avidyā is *bhāva-rūpā* (positively existent) yet *anirvacanīya* (indeterminable as either *sat* or *asat*). The *jīva* is *cidābhāsa*, a *pratibimba* of Brahman in this beginningless ignorance. Three further commitments fall out. The Mahāvākya, qua *śabda-pramāṇa*, generates an *akhaṇḍākāra-vṛtti* whose function is to remove avidyā, though knowledge itself is never produced. *Jñāna-karma-samuccaya* is firmly rejected: *karma* purifies but cannot occasion *jñāna*. Error is analysed as *anirvacanīya-khyāti*. With Sarvajñātman's *Saṃkṣepa-Śārīraka* upstream and Vidyāraṇya's *Vivaraṇa-Prameya-Saṃgraha* downstream, Prakāśātman supplies the technical vocabulary in which most subsequent Advaita debate is conducted.",
   "engaged_works": [
@@ -982,5 +988,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave2-codex"
+  "last_verified_by": "wave-audit-fix-opus"
 }

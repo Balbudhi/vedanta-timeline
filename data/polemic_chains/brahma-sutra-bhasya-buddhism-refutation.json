@@ -1,0 +1,130 @@
+{
+  "chain_id": "brahma-sutra-bhasya-buddhism-refutation",
+  "title": "Brahma-Sūtra refutation of Buddhist schools (Sarvāstivāda, Yogācāra, Mādhyamika)",
+  "attacker": "badarayana",
+  "attacker_text": "Brahma-Sūtra 2.2.18–32, with Śaṅkara's bhāṣya as the principal unfolding; especially BSB 2.2.28–32 against the vijñānavāda/yogācāra and BSB 2.2.31–32 against the śūnyavāda/mādhyamika",
+  "target_school_token": "cross-tradition",
+  "target_position_summary": "Three Buddhist schools engaged sequentially: (i) Sarvāstivāda/Vaibhāṣika realism about momentary dharmas (BS 2.2.18–27); (ii) Yogācāra/vijñānavāda idealism, holding that vijñāna is the only reality and external objects are vijñāna-content (BS 2.2.28–30); (iii) Mādhyamika/śūnyavāda, holding that all phenomena lack svabhāva (BS 2.2.31–32). The polemic refutes each in turn, with Yogācāra and Mādhyamika receiving the most sustained engagement.",
+  "arguments": [
+    {
+      "name": "argument-1: BS 2.2.18–20 — momentariness (kṣaṇikatva) cannot account for memory and recognition",
+      "premises": [
+        "Sarvāstivāda holds that all dharmas (including consciousness-moments) are momentary — they arise and perish in a single kṣaṇa.",
+        "Memory requires a continuant: an item-now must be cognised as the-same-as-an-item-then, which presupposes a single experiencer present at both moments.",
+        "Recognition (pratyabhijñā: 'this is the very thing I saw before') requires the same continuant.",
+        "On strict momentariness, there is no continuant; the present cogniser is not numerically the same as the past cogniser.",
+        "Therefore memory and recognition are unaccounted-for on strict momentariness."
+      ],
+      "inference": "Strict momentariness is incompatible with the basic phenomenology of memory.",
+      "conclusion": "A continuant cogniser (ātman or Brahman) is required; momentariness fails.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "kasakrtsna",
+            "position": "Sarvāstivāda/Vaibhāṣika cosmology and momentariness."
+          }
+        ],
+        "positions_left_intact": [],
+        "later_responses": [
+          {
+            "thinker_id": "ksemaraja",
+            "response_text": "Buddhist schools respond to this by various continuant-substitutes (ālaya-vijñāna in Yogācāra; pudgala in Vātsīputrīya; santāna as a series in classical Sautrāntika)",
+            "verdict": "each response addresses the symptom while preserving the no-substantial-self thesis at the cost of admitting some structural continuant; the polemic's force is to expose this trade-off."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive on the metaphysics of personal identity over time. The disagreement is real and persists in modern philosophy of mind."
+    },
+    {
+      "name": "argument-2: BS 2.2.28 — Yogācāra idealism cannot deny external objects without self-defeating",
+      "premises": [
+        "Yogācāra holds that there are no external objects; all cognition is of vijñāna-content (cittamātra).",
+        "But the very claim 'there are no external objects' presupposes the distinction between (a) what is internal and (b) what would be external — the latter must be intelligible for the denial to have content.",
+        "Cognitive presentation distinguishes 'this' (a phenomenally located object) from 'I' (the cognising subject); this distinction is internal to even idealist phenomenology.",
+        "If the distinction is preserved, then objects-qua-distinct-from-cogniser are admitted; the external/internal distinction collapses into a within-cognition distinction, but the structure of object-pretension is preserved.",
+        "If the distinction is denied, then cognition cannot be cognition-of-anything, contrary to its phenomenology."
+      ],
+      "inference": "Yogācāra idealism either preserves the structure it denies or evacuates cognition of object-directedness.",
+      "conclusion": "External objects (or at least an object/subject distinction independent of any single cognising act) must be admitted.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "kasakrtsna",
+            "position": "Yogācāra/vijñānavāda."
+          }
+        ],
+        "positions_left_intact": [],
+        "later_responses": [
+          {
+            "thinker_id": "ksemaraja",
+            "response_text": "Yogācāra reply (in the Vasubandhu-Dignāga-Dharmakīrti tradition): the object/subject distinction is itself an internal cognitive structure (grāhya-grāhaka-bheda), and its dissolution is the realisation of paramārtha; the polemic operates at the saṃvṛti level only",
+            "verdict": "the reply preserves the doctrine by adopting a two-level ontology (saṃvṛti/paramārtha) structurally similar to Advaita's vyāvahārika/pāramārthika. Note: this is one of the textual bases for Bhāskara's pracchanna-bauddha charge against Advaita."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive. The disagreement concerns whether intentionality requires object-realism. Important: the structural similarity between Yogācāra's saṃvṛti/paramārtha and Advaita's vyāvahārika/pāramārthika is exactly the textual fact that makes Bhāskara's pracchanna-bauddha polemic dialectically pressing — and Śaṅkara's vehement anti-Yogācāra polemic (BSB 2.2.28–30) is partly a defensive distancing-move."
+    },
+    {
+      "name": "argument-3: BS 2.2.31–32 — Mādhyamika śūnyavāda is self-defeating",
+      "premises": [
+        "Mādhyamika holds that all phenomena lack svabhāva and are, in their final analysis, śūnya.",
+        "But the very thesis 'all phenomena are śūnya' is itself a phenomenon (a thesis with content).",
+        "If the thesis is śūnya, it is contentless and cannot establish its own conclusion.",
+        "If the thesis is not śūnya, it is itself a counterexample to its own claim.",
+        "Either way, śūnyavāda is self-defeating."
+      ],
+      "inference": "Universal śūnyatva cannot be coherently asserted.",
+      "conclusion": "Some non-śūnya reality must be admitted; on Vedānta, this is Brahman.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "kasakrtsna",
+            "position": "Mādhyamika/śūnyavāda."
+          }
+        ],
+        "positions_left_intact": [],
+        "later_responses": [
+          {
+            "thinker_id": "ksemaraja",
+            "response_text": "Mādhyamika reply (Nāgārjuna's catuṣkoṭi and prasaṅga method): śūnyatā itself is śūnya (śūnyatāyāḥ śūnyatā); the thesis is not asserted as a positive doctrine but as the dialectical exhaustion of all positive doctrines",
+            "verdict": "the prasaṅga-method response preserves the doctrine by denying that śūnyavāda is a thesis at all in the standard sense. The disagreement reduces to whether dialectical exhaustion-without-positive-thesis is a coherent intellectual operation. Modern dialectical philosophy (especially in continental and pragmatist traditions) takes this question seriously."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive on a real philosophical question (whether self-application of a universal thesis is necessarily self-defeating). The Mādhyamika reply is genuine and the disagreement persists."
+    }
+  ],
+  "user_thesis_summary": "The Vedāntic anti-Buddhist polemic is sustained, multi-front, and genuinely engaged at the philosophical level. Three observations bear on the user's perspectivism hypothesis. First, all major Vedāntic schools (Advaita, Viśiṣṭādvaita, Dvaita) accept the polemic's substantive conclusion (Buddhist schools fail to account for the basic phenomenology of cognition without admitting some Brahman-like principle), so this is another locus of inter-Vedāntic alignment. Second, the structural similarity between Yogācāra's saṃvṛti/paramārtha and Advaita's vyāvahārika/pāramārthika is precisely the fact that licenses Bhāskara's pracchanna-bauddha charge — and Śaṅkara's anti-Yogācāra polemic at BSB 2.2.28–30 reads partly as a defensive distancing-move attempting to differentiate Advaita from Yogācāra at the very point where they look most similar. Third, Mādhyamika's prasaṅga-method response to BS 2.2.31–32 is the philosophically most serious Buddhist reply, and the resulting disagreement does not dissolve under register-clarification. Verdict: substantive; the target schools have substantive replies; not directly relevant to inter-Vedāntic perspectivism but illuminates why the pracchanna-bauddha charge between Vedāntic schools has dialectical force.",
+  "primary_source_loci": [
+    "Brahma-Sūtra 2.2.18–32 (the systematic anti-Buddhist section)",
+    "Śaṅkara, BSB 2.2.18–32",
+    "Rāmānuja, Śrī-Bhāṣya 2.2.18–32 (extends Śaṅkara's anti-Buddhist arguments)",
+    "Vedānta Deśika, Nyāya-Pariśuddhi (constructive engagement with Buddhist epistemology)"
+  ],
+  "scholarly_apparatus": [
+    {
+      "scholar": "Daniel Ingalls",
+      "work": "Śaṃkara's Arguments against the Buddhists (Philosophy East and West, 1954)",
+      "page_or_section": "the article",
+      "position": "The standard reconstruction of Śaṅkara's BSB 2.2.18–32 anti-Buddhist polemic; Ingalls argues that Śaṅkara's vehemence partly reflects the structural similarity Bhāskara would later turn against Advaita itself."
+    },
+    {
+      "scholar": "Richard King",
+      "work": "Early Advaita Vedānta and Buddhism (SUNY, 1995)",
+      "page_or_section": "chs. 4–5",
+      "position": "Documents the close textual relationship between Gauḍapāda's Māṇḍūkya-Kārikā and Mādhyamika sources, providing textual basis for the broader question of Buddhist influence on Advaita."
+    },
+    {
+      "scholar": "Mark Siderits",
+      "work": "Buddhism as Philosophy (Ashgate, 2007)",
+      "page_or_section": "ch. on Mādhyamika",
+      "position": "Provides analytic-philosophical reconstruction of the Mādhyamika prasaṅga-method response to self-defeat charges; engages the philosophical question on its own terms."
+    }
+  ],
+  "entry_status": "reviewed",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-polemic-opus"
+}

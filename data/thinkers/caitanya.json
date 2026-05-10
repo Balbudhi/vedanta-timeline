@@ -2,7 +2,11 @@
   "id": "caitanya",
   "name": "Caitanya Mahaprabhu",
   "name_iast": "Caitanya Mahāprabhu",
-  "alternate_names": ["Viśvambhara", "Gauraṅga", "Kṛṣṇa-Caitanya"],
+  "alternate_names": [
+    "Viśvambhara",
+    "Gauraṅga",
+    "Kṛṣṇa-Caitanya"
+  ],
   "dates_low": 1486,
   "dates_high": 1534,
   "dates_tier": "confirmed-from-records",
@@ -21,8 +25,14 @@
   "school_color_token": "acintya",
   "sub_school": "Gauḍīya (school-founding)",
   "sub_school_shade": 3,
-  "lineage_in": ["madhva", "kesava-kasmiri"],
-  "lineage_out": ["rupa-gosvami", "sanatana-gosvami", "jiva-gosvami"],
+  "lineage_in": [
+    "madhva"
+  ],
+  "lineage_out": [
+    "rupa-gosvami",
+    "sanatana-gosvami",
+    "jiva-gosvami"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "kesava-kasmiri",
@@ -40,7 +50,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored eight-verse hymn — the only text indisputably authored by Caitanya himself.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "stotra",
       "language": "sanskrit",
@@ -67,5 +80,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1e-opus"
+  "last_verified_by": "wave-audit-fix-opus"
 }

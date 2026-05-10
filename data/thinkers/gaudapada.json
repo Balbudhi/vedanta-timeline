@@ -12,7 +12,9 @@
   "sub_school": "Proto-Advaita",
   "sub_school_shade": 1,
   "lineage_in": [],
-  "lineage_out": ["sankara"],
+  "lineage_out": [
+    "sankara"
+  ],
   "lineage_polemical": [],
   "core_thesis": "Gauḍapāda's central thesis is *ajāti-vāda*: the doctrine of non-origination. He argues it within a verse-exegesis of the Māṇḍūkya-Upaniṣad's four-fold *ātman* — *vaiśvānara* (waking), *taijasa* (dream), *prājña* (deep sleep), *turīya* (the fourth). *Turīya* corresponds to the silent *amātra* fourth of *Oṃ* and is the non-dual ground. The first major argumentative move is the *vaitathya* (unreality) argument of *prakaraṇa* 2: the *jāgrat* and *svapna* states are epistemically symmetrical because both are mind-projected, and what is not present at the beginning and end is also not present in the middle (MK 2.6). *Turīya* alone is *advaita*, free of cause and effect, *ajaḥ* (unborn). The second major move is causal: in MK 3.19–21 he argues that if the unborn deathless were really differentiated, it would have to become mortal — which is impossible. Hence MK 4.71's conclusion that no *jīva* is ever truly born. The third move is the *alāta-cakra* analogy: apparent multiplicity is the trace of an unmoving consciousness, as a firebrand whirled in a circle traces a fiery ring that has no real existence. Mahāyāna analytic vocabulary (*catuṣkoṭi*, the dialectic of origination) appears throughout, but the unborn ground here is *ātman*-*brahman*, positively asserted, not the Mādhyamika *śūnya*. Liberation is *pratibodha* — recognition of one's identity with the unborn fourth — not a process of becoming.",
   "engaged_works": [
@@ -20,7 +22,10 @@
       "work_id": "mandukya-karika",
       "title": "Mandukya-Karika",
       "title_iast": "Māṇḍūkya-Kārikā",
-      "alternate_titles": ["Āgama-Śāstra", "Gauḍapāda-Kārikā"],
+      "alternate_titles": [
+        "Āgama-Śāstra",
+        "Gauḍapāda-Kārikā"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored as a unified work, though authorship of the four prakaraṇas individually has been disputed; modern consensus accepts Gauḍapādan authorship of all four.",
       "ascription_evidence": [
@@ -55,78 +60,380 @@
       "sanskrit_iast": "anādimāyayā supto yadā jīvaḥ prabudhyate\najam anidram asvapnam advaitaṃ budhyate tadā //\n\nprapañco yadi vidyeta nivarteta na saṃśayaḥ\nmāyāmātram idaṃ dvaitam advaitaṃ paramārthataḥ //\n\nvikalpo vinivarteta kalpito yadi kenacit\nupadeśād ayaṃ vādo jñāte dvaitaṃ na vidyate //",
       "panini_breakdown": {
         "pada_analysis": [
-          {"pada": "anādimāyayā", "stem": "anādimāyā", "pratyaya": "ā", "morphology": "instr sg fem", "gloss": "by beginningless māyā"},
-          {"pada": "suptaḥ", "stem": "supta", "pratyaya": "kta", "morphology": "nom sg masc ppp", "gloss": "asleep"},
-          {"pada": "yadā", "stem": "yadā", "morphology": "indecl", "gloss": "when"},
-          {"pada": "jīvaḥ", "stem": "jīva", "pratyaya": "a", "morphology": "nom sg masc", "gloss": "the living self"},
-          {"pada": "prabudhyate", "stem": "pra-√budh", "morphology": "3sg pres ind Ā", "gloss": "awakens"},
-          {"pada": "ajam", "stem": "aja", "pratyaya": "a", "morphology": "acc sg neut", "gloss": "the unborn"},
-          {"pada": "anidram", "stem": "anidra", "pratyaya": "a", "morphology": "acc sg neut", "gloss": "sleepless"},
-          {"pada": "asvapnam", "stem": "asvapna", "pratyaya": "a", "morphology": "acc sg neut", "gloss": "dreamless"},
-          {"pada": "advaitam", "stem": "advaita", "pratyaya": "a", "morphology": "acc sg neut", "gloss": "the non-dual"},
-          {"pada": "budhyate", "stem": "√budh", "morphology": "3sg pres ind Ā", "gloss": "comes to know"},
-          {"pada": "tadā", "stem": "tadā", "morphology": "indecl", "gloss": "then"},
-          {"pada": "prapañcaḥ", "stem": "prapañca", "pratyaya": "a", "morphology": "nom sg masc", "gloss": "the manifold world"},
-          {"pada": "yadi", "stem": "yadi", "morphology": "indecl", "gloss": "if"},
-          {"pada": "vidyeta", "stem": "√vid", "morphology": "3sg vidhi-liṅ Ā", "gloss": "were to exist"},
-          {"pada": "nivarteta", "stem": "ni-√vṛt", "morphology": "3sg vidhi-liṅ Ā", "gloss": "would cease"},
-          {"pada": "na", "stem": "na", "morphology": "indecl", "gloss": "not"},
-          {"pada": "saṃśayaḥ", "stem": "saṃśaya", "pratyaya": "a", "morphology": "nom sg masc", "gloss": "doubt"},
-          {"pada": "māyāmātram", "stem": "māyāmātra", "pratyaya": "a", "morphology": "nom sg neut", "gloss": "mere māyā"},
-          {"pada": "idam", "stem": "idam", "morphology": "nom sg neut pron", "gloss": "this"},
-          {"pada": "dvaitam", "stem": "dvaita", "pratyaya": "a", "morphology": "nom sg neut", "gloss": "duality"},
-          {"pada": "advaitam", "stem": "advaita", "pratyaya": "a", "morphology": "nom sg neut", "gloss": "non-duality"},
-          {"pada": "paramārthataḥ", "stem": "paramārtha", "morphology": "indecl abl-adv", "gloss": "in ultimate truth"},
-          {"pada": "vikalpaḥ", "stem": "vikalpa", "pratyaya": "a", "morphology": "nom sg masc", "gloss": "conceptual construction"},
-          {"pada": "vinivarteta", "stem": "vi-ni-√vṛt", "morphology": "3sg vidhi-liṅ Ā", "gloss": "would cease completely"},
-          {"pada": "kalpitaḥ", "stem": "kalpita", "pratyaya": "kta", "morphology": "nom sg masc ppp", "gloss": "projected"},
-          {"pada": "yadi", "stem": "yadi", "morphology": "indecl", "gloss": "if"},
-          {"pada": "kenacit", "stem": "kim", "morphology": "instr sg pron", "gloss": "by anyone"},
-          {"pada": "upadeśāt", "stem": "upadeśa", "pratyaya": "a", "morphology": "abl sg masc", "gloss": "from instruction"},
-          {"pada": "ayam", "stem": "ayam", "morphology": "nom sg masc pron", "gloss": "this"},
-          {"pada": "vādaḥ", "stem": "vāda", "pratyaya": "a", "morphology": "nom sg masc", "gloss": "doctrinal statement"},
-          {"pada": "jñāte", "stem": "jñāta", "pratyaya": "kta", "morphology": "loc sg neut ppp", "gloss": "when it is known"},
-          {"pada": "dvaitam", "stem": "dvaita", "pratyaya": "a", "morphology": "nom sg neut", "gloss": "duality"},
-          {"pada": "na", "stem": "na", "morphology": "indecl", "gloss": "not"},
-          {"pada": "vidyate", "stem": "√vid", "morphology": "3sg pres ind Ā", "gloss": "is found"}
+          {
+            "pada": "anādimāyayā",
+            "stem": "anādimāyā",
+            "pratyaya": "ā",
+            "morphology": "instr sg fem",
+            "gloss": "by beginningless māyā"
+          },
+          {
+            "pada": "suptaḥ",
+            "stem": "supta",
+            "pratyaya": "kta",
+            "morphology": "nom sg masc ppp",
+            "gloss": "asleep"
+          },
+          {
+            "pada": "yadā",
+            "stem": "yadā",
+            "morphology": "indecl",
+            "gloss": "when"
+          },
+          {
+            "pada": "jīvaḥ",
+            "stem": "jīva",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "the living self"
+          },
+          {
+            "pada": "prabudhyate",
+            "stem": "pra-√budh",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "awakens"
+          },
+          {
+            "pada": "ajam",
+            "stem": "aja",
+            "pratyaya": "a",
+            "morphology": "acc sg neut",
+            "gloss": "the unborn"
+          },
+          {
+            "pada": "anidram",
+            "stem": "anidra",
+            "pratyaya": "a",
+            "morphology": "acc sg neut",
+            "gloss": "sleepless"
+          },
+          {
+            "pada": "asvapnam",
+            "stem": "asvapna",
+            "pratyaya": "a",
+            "morphology": "acc sg neut",
+            "gloss": "dreamless"
+          },
+          {
+            "pada": "advaitam",
+            "stem": "advaita",
+            "pratyaya": "a",
+            "morphology": "acc sg neut",
+            "gloss": "the non-dual"
+          },
+          {
+            "pada": "budhyate",
+            "stem": "√budh",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "comes to know"
+          },
+          {
+            "pada": "tadā",
+            "stem": "tadā",
+            "morphology": "indecl",
+            "gloss": "then"
+          },
+          {
+            "pada": "prapañcaḥ",
+            "stem": "prapañca",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "the manifold world"
+          },
+          {
+            "pada": "yadi",
+            "stem": "yadi",
+            "morphology": "indecl",
+            "gloss": "if"
+          },
+          {
+            "pada": "vidyeta",
+            "stem": "√vid",
+            "morphology": "3sg vidhi-liṅ Ā",
+            "gloss": "were to exist"
+          },
+          {
+            "pada": "nivarteta",
+            "stem": "ni-√vṛt",
+            "morphology": "3sg vidhi-liṅ Ā",
+            "gloss": "would cease"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "saṃśayaḥ",
+            "stem": "saṃśaya",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "doubt"
+          },
+          {
+            "pada": "māyāmātram",
+            "stem": "māyāmātra",
+            "pratyaya": "a",
+            "morphology": "nom sg neut",
+            "gloss": "mere māyā"
+          },
+          {
+            "pada": "idam",
+            "stem": "idam",
+            "morphology": "nom sg neut pron",
+            "gloss": "this"
+          },
+          {
+            "pada": "dvaitam",
+            "stem": "dvaita",
+            "pratyaya": "a",
+            "morphology": "nom sg neut",
+            "gloss": "duality"
+          },
+          {
+            "pada": "advaitam",
+            "stem": "advaita",
+            "pratyaya": "a",
+            "morphology": "nom sg neut",
+            "gloss": "non-duality"
+          },
+          {
+            "pada": "paramārthataḥ",
+            "stem": "paramārtha",
+            "morphology": "indecl abl-adv",
+            "gloss": "in ultimate truth"
+          },
+          {
+            "pada": "vikalpaḥ",
+            "stem": "vikalpa",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "conceptual construction"
+          },
+          {
+            "pada": "vinivarteta",
+            "stem": "vi-ni-√vṛt",
+            "morphology": "3sg vidhi-liṅ Ā",
+            "gloss": "would cease completely"
+          },
+          {
+            "pada": "kalpitaḥ",
+            "stem": "kalpita",
+            "pratyaya": "kta",
+            "morphology": "nom sg masc ppp",
+            "gloss": "projected"
+          },
+          {
+            "pada": "yadi",
+            "stem": "yadi",
+            "morphology": "indecl",
+            "gloss": "if"
+          },
+          {
+            "pada": "kenacit",
+            "stem": "kim",
+            "morphology": "instr sg pron",
+            "gloss": "by anyone"
+          },
+          {
+            "pada": "upadeśāt",
+            "stem": "upadeśa",
+            "pratyaya": "a",
+            "morphology": "abl sg masc",
+            "gloss": "from instruction"
+          },
+          {
+            "pada": "ayam",
+            "stem": "ayam",
+            "morphology": "nom sg masc pron",
+            "gloss": "this"
+          },
+          {
+            "pada": "vādaḥ",
+            "stem": "vāda",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "doctrinal statement"
+          },
+          {
+            "pada": "jñāte",
+            "stem": "jñāta",
+            "pratyaya": "kta",
+            "morphology": "loc sg neut ppp",
+            "gloss": "when it is known"
+          },
+          {
+            "pada": "dvaitam",
+            "stem": "dvaita",
+            "pratyaya": "a",
+            "morphology": "nom sg neut",
+            "gloss": "duality"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "vidyate",
+            "stem": "√vid",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "is found"
+          }
         ],
         "samasa_vigrahas": [
-          {"compound": "anādimāyayā", "type": "negative-tatpurusha", "resolution": "anādi ca sā māyā ca; tayā", "note": "māyā characterized as without beginning"},
-          {"compound": "anidram", "type": "negative-tatpurusha", "resolution": "na nidrā yasmin tat", "note": "qualifies the realized non-dual reality"},
-          {"compound": "asvapnam", "type": "negative-tatpurusha", "resolution": "na svapnaḥ yasmin tat", "note": "absence of dream or misperception"},
-          {"compound": "advaitam", "type": "negative-tatpurusha", "resolution": "na dvaitam iti", "note": "non-dual reality"},
-          {"compound": "māyāmātram", "type": "tatpurusha", "resolution": "māyāyāḥ mātram", "note": "nothing more than māyā"},
-          {"compound": "paramārthataḥ", "type": "karmadharaya", "resolution": "paramaḥ arthaḥ yasmin saḥ paramārthaḥ; tataḥ", "note": "adverbial ablative: from the standpoint of ultimate reality"},
-          {"compound": "vikalpaḥ", "type": "other", "resolution": "viśeṣeṇa kalpyate iti vikalpaḥ", "note": "conceptual differentiation"}
+          {
+            "compound": "anādimāyayā",
+            "type": "negative-tatpurusha",
+            "resolution": "anādi ca sā māyā ca; tayā",
+            "note": "māyā characterized as without beginning"
+          },
+          {
+            "compound": "anidram",
+            "type": "negative-tatpurusha",
+            "resolution": "na nidrā yasmin tat",
+            "note": "qualifies the realized non-dual reality"
+          },
+          {
+            "compound": "asvapnam",
+            "type": "negative-tatpurusha",
+            "resolution": "na svapnaḥ yasmin tat",
+            "note": "absence of dream or misperception"
+          },
+          {
+            "compound": "advaitam",
+            "type": "negative-tatpurusha",
+            "resolution": "na dvaitam iti",
+            "note": "non-dual reality"
+          },
+          {
+            "compound": "māyāmātram",
+            "type": "tatpurusha",
+            "resolution": "māyāyāḥ mātram",
+            "note": "nothing more than māyā"
+          },
+          {
+            "compound": "paramārthataḥ",
+            "type": "karmadharaya",
+            "resolution": "paramaḥ arthaḥ yasmin saḥ paramārthaḥ; tataḥ",
+            "note": "adverbial ablative: from the standpoint of ultimate reality"
+          },
+          {
+            "compound": "vikalpaḥ",
+            "type": "other",
+            "resolution": "viśeṣeṇa kalpyate iti vikalpaḥ",
+            "note": "conceptual differentiation"
+          }
         ],
         "karaka_structure": [
-          {"role": "kartṛ", "pada": "jīvaḥ", "note": "agent of awakening"},
-          {"role": "karaṇa", "pada": "anādimāyayā", "note": "instrumental/circumstantial condition of sleep"},
-          {"role": "karman", "pada": "ajam anidram asvapnam advaitam", "note": "object known upon awakening"},
-          {"role": "kartṛ", "pada": "prapañcaḥ", "note": "subject of hypothetical existence and cessation"},
-          {"role": "kartṛ", "pada": "vikalpaḥ", "note": "subject of cessation in the conditional claim"},
-          {"role": "karaṇa", "pada": "upadeśāt", "note": "instruction as the basis for this teaching"},
-          {"role": "kartṛ", "pada": "dvaitam", "note": "subject of the existential negation after knowledge"}
+          {
+            "role": "kartṛ",
+            "pada": "jīvaḥ",
+            "note": "agent of awakening"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "anādimāyayā",
+            "note": "instrumental/circumstantial condition of sleep"
+          },
+          {
+            "role": "karman",
+            "pada": "ajam anidram asvapnam advaitam",
+            "note": "object known upon awakening"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "prapañcaḥ",
+            "note": "subject of hypothetical existence and cessation"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "vikalpaḥ",
+            "note": "subject of cessation in the conditional claim"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "upadeśāt",
+            "note": "instruction as the basis for this teaching"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "dvaitam",
+            "note": "subject of the existential negation after knowledge"
+          }
         ],
         "verb_modality": [
-          {"pada": "prabudhyate", "lakara": "laṭ", "pada_PA": "atmanepada", "voice": "middle"},
-          {"pada": "budhyate", "lakara": "laṭ", "pada_PA": "atmanepada", "voice": "middle"},
-          {"pada": "vidyeta", "lakara": "vidhi-liṅ", "pada_PA": "atmanepada", "voice": "middle"},
-          {"pada": "nivarteta", "lakara": "vidhi-liṅ", "pada_PA": "atmanepada", "voice": "middle"},
-          {"pada": "vinivarteta", "lakara": "vidhi-liṅ", "pada_PA": "atmanepada", "voice": "middle"},
-          {"pada": "vidyate", "lakara": "laṭ", "pada_PA": "atmanepada", "voice": "middle"}
+          {
+            "pada": "prabudhyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "middle"
+          },
+          {
+            "pada": "budhyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "middle"
+          },
+          {
+            "pada": "vidyeta",
+            "lakara": "vidhi-liṅ",
+            "pada_PA": "atmanepada",
+            "voice": "middle"
+          },
+          {
+            "pada": "nivarteta",
+            "lakara": "vidhi-liṅ",
+            "pada_PA": "atmanepada",
+            "voice": "middle"
+          },
+          {
+            "pada": "vinivarteta",
+            "lakara": "vidhi-liṅ",
+            "pada_PA": "atmanepada",
+            "voice": "middle"
+          },
+          {
+            "pada": "vidyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "middle"
+          }
         ]
       },
       "english_close": "When the jīva, asleep through beginningless māyā, awakens, then it comes to know the unborn, sleepless, dreamless non-dual. If the manifold world were real, it would cease; there is no doubt. This duality is mere māyā; non-duality is the ultimate reality. Conceptual construction would cease, if it had been projected by anyone; this teaching is by way of instruction. When That is known, duality is not found.",
       "preserved_terms": [
-        {"term_iast": "māyā", "first_use_gloss": "(roughly: beginningless appearance-producing power of misapprehension)"},
-        {"term_iast": "advaita", "first_use_gloss": "(roughly: non-duality)"},
-        {"term_iast": "prapañca", "first_use_gloss": "(roughly: the manifold articulated world)"},
-        {"term_iast": "upadeśa", "first_use_gloss": "(roughly: liberating instruction)"}
+        {
+          "term_iast": "māyā",
+          "first_use_gloss": "(roughly: beginningless appearance-producing power of misapprehension)"
+        },
+        {
+          "term_iast": "advaita",
+          "first_use_gloss": "(roughly: non-duality)"
+        },
+        {
+          "term_iast": "prapañca",
+          "first_use_gloss": "(roughly: the manifold articulated world)"
+        },
+        {
+          "term_iast": "upadeśa",
+          "first_use_gloss": "(roughly: liberating instruction)"
+        }
       ],
       "why_this_passage": "These verses are representative because they tie together Gauḍapāda's account of bondage, awakening, the status of duality, and the pedagogical function of teaching in one compact sequence. This is not a detached slogan: it shows how non-duality is recognized, how the world is classified, and why Vedāntic instruction still operates within that framework.",
-      "topic_tags": ["ontology", "epistemology", "soteriology"],
-      "sub_axes": ["status-of-world", "ontological-tier-structure", "saving-cognition-status", "identity-of-liberated-state"],
+      "topic_tags": [
+        "ontology",
+        "epistemology",
+        "soteriology"
+      ],
+      "sub_axes": [
+        "status-of-world",
+        "ontological-tier-structure",
+        "saving-cognition-status",
+        "identity-of-liberated-state"
+      ],
       "cited_in_comparative_claims": [],
       "parallel_passages": [],
       "source_edition": "Vinayaka Ganesha Apate, ed., Āgamaśāstra / Gauḍapādakārikā (Pune: Anandasrama Sanskrit Series 10, 1921), as transcribed in /orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/vedanta/full_corpus/gaudapada_mandukya_karika_gretil.txt (GRETIL version dated 2020-07-31).",
@@ -146,62 +453,279 @@
       "sanskrit_iast": "svapnajāgaritasthāne hy ekam āhur manīṣiṇaḥ\nbhedānāṃ hi samatvena prasiddhenaiva hetunā //\n\nādāv ante ca yan nāsti vartamāne 'pi tat tathā\nvitathaiḥ sadṛśāḥ santo avitathā iva lakṣitāḥ //",
       "panini_breakdown": {
         "pada_analysis": [
-          {"pada": "svapnajāgaritasthāne", "stem": "svapnajāgaritasthāna", "pratyaya": "a", "morphology": "loc sg neut", "gloss": "in the domain of dream and waking"},
-          {"pada": "hi", "stem": "hi", "morphology": "indecl", "gloss": "indeed"},
-          {"pada": "ekam", "stem": "eka", "pratyaya": "a", "morphology": "acc sg neut", "gloss": "as one"},
-          {"pada": "āhuḥ", "stem": "√ah", "morphology": "3pl liṭ P", "gloss": "have said"},
-          {"pada": "manīṣiṇaḥ", "stem": "manīṣin", "pratyaya": "in", "morphology": "nom pl masc", "gloss": "the wise"},
-          {"pada": "bhedānām", "stem": "bheda", "pratyaya": "a", "morphology": "gen pl masc", "gloss": "of the differentiations"},
-          {"pada": "hi", "stem": "hi", "morphology": "indecl", "gloss": "indeed"},
-          {"pada": "samatvena", "stem": "samatva", "pratyaya": "tva", "morphology": "instr sg neut", "gloss": "by parity"},
-          {"pada": "prasiddhena", "stem": "prasiddha", "pratyaya": "kta", "morphology": "instr sg neut", "gloss": "well-known"},
-          {"pada": "eva", "stem": "eva", "morphology": "indecl", "gloss": "just"},
-          {"pada": "hetunā", "stem": "hetu", "pratyaya": "u", "morphology": "instr sg masc", "gloss": "by the reason"},
-          {"pada": "ādāv", "stem": "ādi", "morphology": "loc sg masc", "gloss": "at the beginning"},
-          {"pada": "ante", "stem": "anta", "pratyaya": "a", "morphology": "loc sg masc", "gloss": "at the end"},
-          {"pada": "ca", "stem": "ca", "morphology": "indecl", "gloss": "and"},
-          {"pada": "yat", "stem": "yad", "morphology": "nom sg neut rel-pron", "gloss": "what"},
-          {"pada": "na", "stem": "na", "morphology": "indecl", "gloss": "not"},
-          {"pada": "asti", "stem": "√as", "morphology": "3sg pres ind P", "gloss": "is"},
-          {"pada": "vartamāne", "stem": "vartamāna", "pratyaya": "śatṛ", "morphology": "loc sg neut pres ptc Ā", "gloss": "in the present"},
-          {"pada": "api", "stem": "api", "morphology": "indecl", "gloss": "also"},
-          {"pada": "tat", "stem": "tad", "morphology": "nom sg neut pron", "gloss": "that"},
-          {"pada": "tathā", "stem": "tathā", "morphology": "indecl", "gloss": "thus"},
-          {"pada": "vitathaiḥ", "stem": "vitatha", "pratyaya": "a", "morphology": "instr pl masc", "gloss": "with unreal things"},
-          {"pada": "sadṛśāḥ", "stem": "sadṛśa", "pratyaya": "a", "morphology": "nom pl masc", "gloss": "similar"},
-          {"pada": "santaḥ", "stem": "sat", "pratyaya": "śatṛ", "morphology": "nom pl masc pres ptc", "gloss": "being"},
-          {"pada": "avitathāḥ", "stem": "avitatha", "pratyaya": "a", "morphology": "nom pl masc", "gloss": "not unreal, as though real"},
-          {"pada": "iva", "stem": "iva", "morphology": "indecl", "gloss": "as if"},
-          {"pada": "lakṣitāḥ", "stem": "lakṣita", "pratyaya": "kta", "morphology": "nom pl masc ppp", "gloss": "are marked / perceived"}
+          {
+            "pada": "svapnajāgaritasthāne",
+            "stem": "svapnajāgaritasthāna",
+            "pratyaya": "a",
+            "morphology": "loc sg neut",
+            "gloss": "in the domain of dream and waking"
+          },
+          {
+            "pada": "hi",
+            "stem": "hi",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "ekam",
+            "stem": "eka",
+            "pratyaya": "a",
+            "morphology": "acc sg neut",
+            "gloss": "as one"
+          },
+          {
+            "pada": "āhuḥ",
+            "stem": "√ah",
+            "morphology": "3pl liṭ P",
+            "gloss": "have said"
+          },
+          {
+            "pada": "manīṣiṇaḥ",
+            "stem": "manīṣin",
+            "pratyaya": "in",
+            "morphology": "nom pl masc",
+            "gloss": "the wise"
+          },
+          {
+            "pada": "bhedānām",
+            "stem": "bheda",
+            "pratyaya": "a",
+            "morphology": "gen pl masc",
+            "gloss": "of the differentiations"
+          },
+          {
+            "pada": "hi",
+            "stem": "hi",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "samatvena",
+            "stem": "samatva",
+            "pratyaya": "tva",
+            "morphology": "instr sg neut",
+            "gloss": "by parity"
+          },
+          {
+            "pada": "prasiddhena",
+            "stem": "prasiddha",
+            "pratyaya": "kta",
+            "morphology": "instr sg neut",
+            "gloss": "well-known"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "just"
+          },
+          {
+            "pada": "hetunā",
+            "stem": "hetu",
+            "pratyaya": "u",
+            "morphology": "instr sg masc",
+            "gloss": "by the reason"
+          },
+          {
+            "pada": "ādāv",
+            "stem": "ādi",
+            "morphology": "loc sg masc",
+            "gloss": "at the beginning"
+          },
+          {
+            "pada": "ante",
+            "stem": "anta",
+            "pratyaya": "a",
+            "morphology": "loc sg masc",
+            "gloss": "at the end"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "yat",
+            "stem": "yad",
+            "morphology": "nom sg neut rel-pron",
+            "gloss": "what"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "asti",
+            "stem": "√as",
+            "morphology": "3sg pres ind P",
+            "gloss": "is"
+          },
+          {
+            "pada": "vartamāne",
+            "stem": "vartamāna",
+            "pratyaya": "śatṛ",
+            "morphology": "loc sg neut pres ptc Ā",
+            "gloss": "in the present"
+          },
+          {
+            "pada": "api",
+            "stem": "api",
+            "morphology": "indecl",
+            "gloss": "also"
+          },
+          {
+            "pada": "tat",
+            "stem": "tad",
+            "morphology": "nom sg neut pron",
+            "gloss": "that"
+          },
+          {
+            "pada": "tathā",
+            "stem": "tathā",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "vitathaiḥ",
+            "stem": "vitatha",
+            "pratyaya": "a",
+            "morphology": "instr pl masc",
+            "gloss": "with unreal things"
+          },
+          {
+            "pada": "sadṛśāḥ",
+            "stem": "sadṛśa",
+            "pratyaya": "a",
+            "morphology": "nom pl masc",
+            "gloss": "similar"
+          },
+          {
+            "pada": "santaḥ",
+            "stem": "sat",
+            "pratyaya": "śatṛ",
+            "morphology": "nom pl masc pres ptc",
+            "gloss": "being"
+          },
+          {
+            "pada": "avitathāḥ",
+            "stem": "avitatha",
+            "pratyaya": "a",
+            "morphology": "nom pl masc",
+            "gloss": "not unreal, as though real"
+          },
+          {
+            "pada": "iva",
+            "stem": "iva",
+            "morphology": "indecl",
+            "gloss": "as if"
+          },
+          {
+            "pada": "lakṣitāḥ",
+            "stem": "lakṣita",
+            "pratyaya": "kta",
+            "morphology": "nom pl masc ppp",
+            "gloss": "are marked / perceived"
+          }
         ],
         "samasa_vigrahas": [
-          {"compound": "svapnajāgaritasthāne", "type": "other", "resolution": "svapnaṃ ca jāgaritaṃ ca tayoḥ sthānam", "note": "nested dvandva plus tatpurusha"},
-          {"compound": "samatvena", "type": "other", "resolution": "sama-bhāvaḥ samatvam; tena", "note": "abstract noun from sama"},
-          {"compound": "avitathāḥ", "type": "negative-tatpurusha", "resolution": "na vitathāḥ", "note": "appearing as though not false"}
+          {
+            "compound": "svapnajāgaritasthāne",
+            "type": "other",
+            "resolution": "svapnaṃ ca jāgaritaṃ ca tayoḥ sthānam",
+            "note": "nested dvandva plus tatpurusha"
+          },
+          {
+            "compound": "samatvena",
+            "type": "other",
+            "resolution": "sama-bhāvaḥ samatvam; tena",
+            "note": "abstract noun from sama"
+          },
+          {
+            "compound": "avitathāḥ",
+            "type": "negative-tatpurusha",
+            "resolution": "na vitathāḥ",
+            "note": "appearing as though not false"
+          }
         ],
         "karaka_structure": [
-          {"role": "adhikaraṇa", "pada": "svapnajāgaritasthāne", "note": "domain under discussion"},
-          {"role": "karman", "pada": "ekam", "note": "what the wise say dream and waking to be"},
-          {"role": "kartṛ", "pada": "manīṣiṇaḥ", "note": "agents of the statement"},
-          {"role": "karaṇa", "pada": "samatvena prasiddhenaiva hetunā", "note": "instrumental reason: parity of the differentiations"},
-          {"role": "kartṛ", "pada": "yat / tat", "note": "subject of the existential proposition"},
-          {"role": "adhikaraṇa", "pada": "ādāv ante vartamāne", "note": "temporal locations structuring the argument"}
+          {
+            "role": "adhikaraṇa",
+            "pada": "svapnajāgaritasthāne",
+            "note": "domain under discussion"
+          },
+          {
+            "role": "karman",
+            "pada": "ekam",
+            "note": "what the wise say dream and waking to be"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "manīṣiṇaḥ",
+            "note": "agents of the statement"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "samatvena prasiddhenaiva hetunā",
+            "note": "instrumental reason: parity of the differentiations"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "yat / tat",
+            "note": "subject of the existential proposition"
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "ādāv ante vartamāne",
+            "note": "temporal locations structuring the argument"
+          }
         ],
         "verb_modality": [
-          {"pada": "āhuḥ", "lakara": "liṭ", "pada_PA": "parasmaipada", "voice": "active"},
-          {"pada": "asti", "lakara": "laṭ", "pada_PA": "parasmaipada", "voice": "active"}
+          {
+            "pada": "āhuḥ",
+            "lakara": "liṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          },
+          {
+            "pada": "asti",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          }
         ]
       },
       "english_close": "The wise have said that dream and waking are one, indeed, because of the well-known reason consisting in the parity of the differentiations. What is not at the beginning and at the end is likewise so in the present; being similar to unreal things, they are perceived as if they were not unreal.",
       "preserved_terms": [
-        {"term_iast": "vaitathya", "first_use_gloss": "(roughly: unreality or falsity disclosed by analysis)"},
-        {"term_iast": "bheda", "first_use_gloss": "(roughly: differentiation or divided objecthood)"},
-        {"term_iast": "svapna", "first_use_gloss": "(roughly: dream-state)"},
-        {"term_iast": "jāgarita", "first_use_gloss": "(roughly: waking-state)"}
+        {
+          "term_iast": "vaitathya",
+          "first_use_gloss": "(roughly: unreality or falsity disclosed by analysis)"
+        },
+        {
+          "term_iast": "bheda",
+          "first_use_gloss": "(roughly: differentiation or divided objecthood)"
+        },
+        {
+          "term_iast": "svapna",
+          "first_use_gloss": "(roughly: dream-state)"
+        },
+        {
+          "term_iast": "jāgarita",
+          "first_use_gloss": "(roughly: waking-state)"
+        }
       ],
       "why_this_passage": "This is a fair selection because it gives Gauḍapāda's reasoning for the dream-waking parity claim rather than only the later conclusion that everything is unreal. The verse pair makes visible the argumentative move that destabilizes ordinary realism and grounds the rest of the text's non-dual analysis.",
-      "topic_tags": ["ontology", "epistemology"],
-      "sub_axes": ["status-of-world", "theory-of-error", "status-of-vyavaharika"],
+      "topic_tags": [
+        "ontology",
+        "epistemology"
+      ],
+      "sub_axes": [
+        "status-of-world",
+        "theory-of-error",
+        "status-of-vyavaharika"
+      ],
       "cited_in_comparative_claims": [],
       "parallel_passages": [],
       "source_edition": "Vinayaka Ganesha Apate, ed., Āgamaśāstra / Gauḍapādakārikā (Pune: Anandasrama Sanskrit Series 10, 1921), as transcribed in /orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/vedanta/full_corpus/gaudapada_mandukya_karika_gretil.txt (GRETIL version dated 2020-07-31).",
@@ -221,104 +745,539 @@
       "sanskrit_iast": "ātmā hy ākāśavaj jīvair ghaṭākāśair ivoditaḥ\nghaṭādivac ca saṃghātair jātāv etan nidarśanam //\n\nghaṭādiṣu pralīneṣu ghaṭākāśādayo yathā\nākāśe saṃpralīyante tadvaj jīvā ihātmani //\n\nyathaikasmin ghaṭākāśe rajodhūmādibhir yute\nna sarve saṃprayujyante tadvaj jīvāḥ sukhādibhiḥ //\n\nrūpakāryasamākhyāś ca bhidyante tatra tatra vai\nākāśasya na bhedo 'sti tadvaj jīveṣu nirṇayaḥ //\n\nnākāśasya ghaṭākāśo vikārāvayavau yathā\nnaivātmanaḥ sadā jīvo vikārāvayavau tathā //",
       "panini_breakdown": {
         "pada_analysis": [
-          {"pada": "ātmā", "stem": "ātman", "morphology": "nom sg masc", "gloss": "the Self"},
-          {"pada": "hi", "stem": "hi", "morphology": "indecl", "gloss": "indeed"},
-          {"pada": "ākāśavat", "stem": "ākāśa", "pratyaya": "vat", "morphology": "indecl similative", "gloss": "like space"},
-          {"pada": "jīvaiḥ", "stem": "jīva", "pratyaya": "a", "morphology": "instr pl masc", "gloss": "by the jīvas"},
-          {"pada": "ghaṭākāśaiḥ", "stem": "ghaṭākāśa", "pratyaya": "a", "morphology": "instr pl masc", "gloss": "as by pot-spaces"},
-          {"pada": "iva", "stem": "iva", "morphology": "indecl", "gloss": "as if"},
-          {"pada": "uditaḥ", "stem": "udita", "pratyaya": "kta", "morphology": "nom sg masc ppp", "gloss": "is presented / appears"},
-          {"pada": "ghaṭādivat", "stem": "ghaṭādi", "pratyaya": "vat", "morphology": "indecl similative", "gloss": "as in pots and the like"},
-          {"pada": "ca", "stem": "ca", "morphology": "indecl", "gloss": "and"},
-          {"pada": "saṃghātaiḥ", "stem": "saṃghāta", "pratyaya": "a", "morphology": "instr pl masc", "gloss": "by aggregates"},
-          {"pada": "jātau", "stem": "jāti", "pratyaya": "i", "morphology": "loc sg fem", "gloss": "in origination"},
-          {"pada": "etat", "stem": "etad", "morphology": "nom sg neut pron", "gloss": "this"},
-          {"pada": "nidarśanam", "stem": "nidarśana", "pratyaya": "a", "morphology": "nom sg neut", "gloss": "illustration"},
-          {"pada": "ghaṭādiṣu", "stem": "ghaṭādi", "morphology": "loc pl masc", "gloss": "when pots and the like"},
-          {"pada": "pralīneṣu", "stem": "pralīna", "pratyaya": "kta", "morphology": "loc pl masc ppp", "gloss": "have dissolved"},
-          {"pada": "ghaṭākāśādayaḥ", "stem": "ghaṭākāśādi", "morphology": "nom pl masc", "gloss": "pot-space and the like"},
-          {"pada": "yathā", "stem": "yathā", "morphology": "indecl", "gloss": "just as"},
-          {"pada": "ākāśe", "stem": "ākāśa", "pratyaya": "a", "morphology": "loc sg neut", "gloss": "into space"},
-          {"pada": "saṃpralīyante", "stem": "sam-pra-√lī", "morphology": "3pl pres ind Ā", "gloss": "merge completely"},
-          {"pada": "tadvat", "stem": "tad", "pratyaya": "vat", "morphology": "indecl similative", "gloss": "so likewise"},
-          {"pada": "jīvāḥ", "stem": "jīva", "pratyaya": "a", "morphology": "nom pl masc", "gloss": "jīvas"},
-          {"pada": "iha", "stem": "iha", "morphology": "indecl", "gloss": "here"},
-          {"pada": "ātmani", "stem": "ātman", "morphology": "loc sg masc", "gloss": "in the Self"},
-          {"pada": "yathā", "stem": "yathā", "morphology": "indecl", "gloss": "just as"},
-          {"pada": "ekasmin", "stem": "eka", "pratyaya": "a", "morphology": "loc sg masc", "gloss": "in one"},
-          {"pada": "ghaṭākāśe", "stem": "ghaṭākāśa", "pratyaya": "a", "morphology": "loc sg masc", "gloss": "pot-space"},
-          {"pada": "rajodhūmādibhiḥ", "stem": "rajodhūmādi", "morphology": "instr pl masc", "gloss": "with dust, smoke, and the like"},
-          {"pada": "yute", "stem": "yuta", "pratyaya": "kta", "morphology": "loc sg masc ppp", "gloss": "being associated"},
-          {"pada": "na", "stem": "na", "morphology": "indecl", "gloss": "not"},
-          {"pada": "sarve", "stem": "sarva", "pratyaya": "a", "morphology": "nom pl masc", "gloss": "all"},
-          {"pada": "saṃprayujyante", "stem": "sam-pra-√yuj", "morphology": "3pl pres ind Ā", "gloss": "become associated"},
-          {"pada": "tadvat", "stem": "tad", "pratyaya": "vat", "morphology": "indecl similative", "gloss": "so likewise"},
-          {"pada": "jīvāḥ", "stem": "jīva", "pratyaya": "a", "morphology": "nom pl masc", "gloss": "jīvas"},
-          {"pada": "sukhādibhiḥ", "stem": "sukhādi", "morphology": "instr pl neut", "gloss": "with pleasure and the like"},
-          {"pada": "rūpakāryasamākhyāḥ", "stem": "rūpakāryasamākhyā", "morphology": "nom pl fem", "gloss": "forms, functions, and names"},
-          {"pada": "ca", "stem": "ca", "morphology": "indecl", "gloss": "and"},
-          {"pada": "bhidyante", "stem": "√bhid", "morphology": "3pl pres ind Ā", "gloss": "differ"},
-          {"pada": "tatra", "stem": "tatra", "morphology": "indecl", "gloss": "there"},
-          {"pada": "tatra", "stem": "tatra", "morphology": "indecl", "gloss": "from place to place"},
-          {"pada": "vai", "stem": "vai", "morphology": "indecl", "gloss": "indeed"},
-          {"pada": "ākāśasya", "stem": "ākāśa", "pratyaya": "a", "morphology": "gen sg neut", "gloss": "of space"},
-          {"pada": "na", "stem": "na", "morphology": "indecl", "gloss": "not"},
-          {"pada": "bhedaḥ", "stem": "bheda", "pratyaya": "a", "morphology": "nom sg masc", "gloss": "difference"},
-          {"pada": "asti", "stem": "√as", "morphology": "3sg pres ind P", "gloss": "is"},
-          {"pada": "tadvat", "stem": "tad", "pratyaya": "vat", "morphology": "indecl similative", "gloss": "so likewise"},
-          {"pada": "jīveṣu", "stem": "jīva", "pratyaya": "a", "morphology": "loc pl masc", "gloss": "with respect to jīvas"},
-          {"pada": "nirṇayaḥ", "stem": "nirṇaya", "pratyaya": "a", "morphology": "nom sg masc", "gloss": "the conclusion"},
-          {"pada": "na", "stem": "na", "morphology": "indecl", "gloss": "not"},
-          {"pada": "ākāśasya", "stem": "ākāśa", "pratyaya": "a", "morphology": "gen sg neut", "gloss": "of space"},
-          {"pada": "ghaṭākāśaḥ", "stem": "ghaṭākāśa", "pratyaya": "a", "morphology": "nom sg masc", "gloss": "pot-space"},
-          {"pada": "vikārāvayavau", "stem": "vikārāvayava", "morphology": "nom du masc", "gloss": "a modification and a part"},
-          {"pada": "yathā", "stem": "yathā", "morphology": "indecl", "gloss": "just as"},
-          {"pada": "na", "stem": "na", "morphology": "indecl", "gloss": "not"},
-          {"pada": "eva", "stem": "eva", "morphology": "indecl", "gloss": "indeed"},
-          {"pada": "ātmanaḥ", "stem": "ātman", "morphology": "gen sg masc", "gloss": "of the Self"},
-          {"pada": "sadā", "stem": "sadā", "morphology": "indecl", "gloss": "ever"},
-          {"pada": "jīvaḥ", "stem": "jīva", "pratyaya": "a", "morphology": "nom sg masc", "gloss": "the jīva"},
-          {"pada": "vikārāvayavau", "stem": "vikārāvayava", "morphology": "nom du masc", "gloss": "a modification and a part"},
-          {"pada": "tathā", "stem": "tathā", "morphology": "indecl", "gloss": "so"}
+          {
+            "pada": "ātmā",
+            "stem": "ātman",
+            "morphology": "nom sg masc",
+            "gloss": "the Self"
+          },
+          {
+            "pada": "hi",
+            "stem": "hi",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "ākāśavat",
+            "stem": "ākāśa",
+            "pratyaya": "vat",
+            "morphology": "indecl similative",
+            "gloss": "like space"
+          },
+          {
+            "pada": "jīvaiḥ",
+            "stem": "jīva",
+            "pratyaya": "a",
+            "morphology": "instr pl masc",
+            "gloss": "by the jīvas"
+          },
+          {
+            "pada": "ghaṭākāśaiḥ",
+            "stem": "ghaṭākāśa",
+            "pratyaya": "a",
+            "morphology": "instr pl masc",
+            "gloss": "as by pot-spaces"
+          },
+          {
+            "pada": "iva",
+            "stem": "iva",
+            "morphology": "indecl",
+            "gloss": "as if"
+          },
+          {
+            "pada": "uditaḥ",
+            "stem": "udita",
+            "pratyaya": "kta",
+            "morphology": "nom sg masc ppp",
+            "gloss": "is presented / appears"
+          },
+          {
+            "pada": "ghaṭādivat",
+            "stem": "ghaṭādi",
+            "pratyaya": "vat",
+            "morphology": "indecl similative",
+            "gloss": "as in pots and the like"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "saṃghātaiḥ",
+            "stem": "saṃghāta",
+            "pratyaya": "a",
+            "morphology": "instr pl masc",
+            "gloss": "by aggregates"
+          },
+          {
+            "pada": "jātau",
+            "stem": "jāti",
+            "pratyaya": "i",
+            "morphology": "loc sg fem",
+            "gloss": "in origination"
+          },
+          {
+            "pada": "etat",
+            "stem": "etad",
+            "morphology": "nom sg neut pron",
+            "gloss": "this"
+          },
+          {
+            "pada": "nidarśanam",
+            "stem": "nidarśana",
+            "pratyaya": "a",
+            "morphology": "nom sg neut",
+            "gloss": "illustration"
+          },
+          {
+            "pada": "ghaṭādiṣu",
+            "stem": "ghaṭādi",
+            "morphology": "loc pl masc",
+            "gloss": "when pots and the like"
+          },
+          {
+            "pada": "pralīneṣu",
+            "stem": "pralīna",
+            "pratyaya": "kta",
+            "morphology": "loc pl masc ppp",
+            "gloss": "have dissolved"
+          },
+          {
+            "pada": "ghaṭākāśādayaḥ",
+            "stem": "ghaṭākāśādi",
+            "morphology": "nom pl masc",
+            "gloss": "pot-space and the like"
+          },
+          {
+            "pada": "yathā",
+            "stem": "yathā",
+            "morphology": "indecl",
+            "gloss": "just as"
+          },
+          {
+            "pada": "ākāśe",
+            "stem": "ākāśa",
+            "pratyaya": "a",
+            "morphology": "loc sg neut",
+            "gloss": "into space"
+          },
+          {
+            "pada": "saṃpralīyante",
+            "stem": "sam-pra-√lī",
+            "morphology": "3pl pres ind Ā",
+            "gloss": "merge completely"
+          },
+          {
+            "pada": "tadvat",
+            "stem": "tad",
+            "pratyaya": "vat",
+            "morphology": "indecl similative",
+            "gloss": "so likewise"
+          },
+          {
+            "pada": "jīvāḥ",
+            "stem": "jīva",
+            "pratyaya": "a",
+            "morphology": "nom pl masc",
+            "gloss": "jīvas"
+          },
+          {
+            "pada": "iha",
+            "stem": "iha",
+            "morphology": "indecl",
+            "gloss": "here"
+          },
+          {
+            "pada": "ātmani",
+            "stem": "ātman",
+            "morphology": "loc sg masc",
+            "gloss": "in the Self"
+          },
+          {
+            "pada": "yathā",
+            "stem": "yathā",
+            "morphology": "indecl",
+            "gloss": "just as"
+          },
+          {
+            "pada": "ekasmin",
+            "stem": "eka",
+            "pratyaya": "a",
+            "morphology": "loc sg masc",
+            "gloss": "in one"
+          },
+          {
+            "pada": "ghaṭākāśe",
+            "stem": "ghaṭākāśa",
+            "pratyaya": "a",
+            "morphology": "loc sg masc",
+            "gloss": "pot-space"
+          },
+          {
+            "pada": "rajodhūmādibhiḥ",
+            "stem": "rajodhūmādi",
+            "morphology": "instr pl masc",
+            "gloss": "with dust, smoke, and the like"
+          },
+          {
+            "pada": "yute",
+            "stem": "yuta",
+            "pratyaya": "kta",
+            "morphology": "loc sg masc ppp",
+            "gloss": "being associated"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "sarve",
+            "stem": "sarva",
+            "pratyaya": "a",
+            "morphology": "nom pl masc",
+            "gloss": "all"
+          },
+          {
+            "pada": "saṃprayujyante",
+            "stem": "sam-pra-√yuj",
+            "morphology": "3pl pres ind Ā",
+            "gloss": "become associated"
+          },
+          {
+            "pada": "tadvat",
+            "stem": "tad",
+            "pratyaya": "vat",
+            "morphology": "indecl similative",
+            "gloss": "so likewise"
+          },
+          {
+            "pada": "jīvāḥ",
+            "stem": "jīva",
+            "pratyaya": "a",
+            "morphology": "nom pl masc",
+            "gloss": "jīvas"
+          },
+          {
+            "pada": "sukhādibhiḥ",
+            "stem": "sukhādi",
+            "morphology": "instr pl neut",
+            "gloss": "with pleasure and the like"
+          },
+          {
+            "pada": "rūpakāryasamākhyāḥ",
+            "stem": "rūpakāryasamākhyā",
+            "morphology": "nom pl fem",
+            "gloss": "forms, functions, and names"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "bhidyante",
+            "stem": "√bhid",
+            "morphology": "3pl pres ind Ā",
+            "gloss": "differ"
+          },
+          {
+            "pada": "tatra",
+            "stem": "tatra",
+            "morphology": "indecl",
+            "gloss": "there"
+          },
+          {
+            "pada": "tatra",
+            "stem": "tatra",
+            "morphology": "indecl",
+            "gloss": "from place to place"
+          },
+          {
+            "pada": "vai",
+            "stem": "vai",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "ākāśasya",
+            "stem": "ākāśa",
+            "pratyaya": "a",
+            "morphology": "gen sg neut",
+            "gloss": "of space"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "bhedaḥ",
+            "stem": "bheda",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "difference"
+          },
+          {
+            "pada": "asti",
+            "stem": "√as",
+            "morphology": "3sg pres ind P",
+            "gloss": "is"
+          },
+          {
+            "pada": "tadvat",
+            "stem": "tad",
+            "pratyaya": "vat",
+            "morphology": "indecl similative",
+            "gloss": "so likewise"
+          },
+          {
+            "pada": "jīveṣu",
+            "stem": "jīva",
+            "pratyaya": "a",
+            "morphology": "loc pl masc",
+            "gloss": "with respect to jīvas"
+          },
+          {
+            "pada": "nirṇayaḥ",
+            "stem": "nirṇaya",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "the conclusion"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "ākāśasya",
+            "stem": "ākāśa",
+            "pratyaya": "a",
+            "morphology": "gen sg neut",
+            "gloss": "of space"
+          },
+          {
+            "pada": "ghaṭākāśaḥ",
+            "stem": "ghaṭākāśa",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "pot-space"
+          },
+          {
+            "pada": "vikārāvayavau",
+            "stem": "vikārāvayava",
+            "morphology": "nom du masc",
+            "gloss": "a modification and a part"
+          },
+          {
+            "pada": "yathā",
+            "stem": "yathā",
+            "morphology": "indecl",
+            "gloss": "just as"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "ātmanaḥ",
+            "stem": "ātman",
+            "morphology": "gen sg masc",
+            "gloss": "of the Self"
+          },
+          {
+            "pada": "sadā",
+            "stem": "sadā",
+            "morphology": "indecl",
+            "gloss": "ever"
+          },
+          {
+            "pada": "jīvaḥ",
+            "stem": "jīva",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "the jīva"
+          },
+          {
+            "pada": "vikārāvayavau",
+            "stem": "vikārāvayava",
+            "morphology": "nom du masc",
+            "gloss": "a modification and a part"
+          },
+          {
+            "pada": "tathā",
+            "stem": "tathā",
+            "morphology": "indecl",
+            "gloss": "so"
+          }
         ],
         "samasa_vigrahas": [
-          {"compound": "ghaṭākāśaiḥ", "type": "tatpurusha", "resolution": "ghaṭe ākāśaḥ", "note": "space as delimited by a pot"},
-          {"compound": "ghaṭādiṣu", "type": "other", "resolution": "ghaṭaḥ ādiḥ yeṣu teṣu", "note": "pots and the like"},
-          {"compound": "ghaṭākāśādayaḥ", "type": "other", "resolution": "ghaṭākāśaḥ ādiḥ ye te", "note": "pot-space etc."},
-          {"compound": "rajodhūmādibhiḥ", "type": "other", "resolution": "rajaḥ ca dhūmaḥ ca ādi ca taiḥ", "note": "dust, smoke, and similar adjuncts"},
-          {"compound": "sukhādibhiḥ", "type": "other", "resolution": "sukhaṃ ca ādi ca taiḥ", "note": "pleasure and other experiential qualifiers"},
-          {"compound": "rūpakāryasamākhyāḥ", "type": "dvandva", "resolution": "rūpaṃ ca kāryaṃ ca samākhyā ca", "note": "form, function, and designation"},
-          {"compound": "ghaṭākāśaḥ", "type": "tatpurusha", "resolution": "ghaṭe ākāśaḥ", "note": "the space seemingly delimited by a pot"},
-          {"compound": "vikārāvayavau", "type": "dvandva", "resolution": "vikāraś ca avayavaś ca", "note": "paired predicates denied of pot-space and jīva"}
+          {
+            "compound": "ghaṭākāśaiḥ",
+            "type": "tatpurusha",
+            "resolution": "ghaṭe ākāśaḥ",
+            "note": "space as delimited by a pot"
+          },
+          {
+            "compound": "ghaṭādiṣu",
+            "type": "other",
+            "resolution": "ghaṭaḥ ādiḥ yeṣu teṣu",
+            "note": "pots and the like"
+          },
+          {
+            "compound": "ghaṭākāśādayaḥ",
+            "type": "other",
+            "resolution": "ghaṭākāśaḥ ādiḥ ye te",
+            "note": "pot-space etc."
+          },
+          {
+            "compound": "rajodhūmādibhiḥ",
+            "type": "other",
+            "resolution": "rajaḥ ca dhūmaḥ ca ādi ca taiḥ",
+            "note": "dust, smoke, and similar adjuncts"
+          },
+          {
+            "compound": "sukhādibhiḥ",
+            "type": "other",
+            "resolution": "sukhaṃ ca ādi ca taiḥ",
+            "note": "pleasure and other experiential qualifiers"
+          },
+          {
+            "compound": "rūpakāryasamākhyāḥ",
+            "type": "dvandva",
+            "resolution": "rūpaṃ ca kāryaṃ ca samākhyā ca",
+            "note": "form, function, and designation"
+          },
+          {
+            "compound": "ghaṭākāśaḥ",
+            "type": "tatpurusha",
+            "resolution": "ghaṭe ākāśaḥ",
+            "note": "the space seemingly delimited by a pot"
+          },
+          {
+            "compound": "vikārāvayavau",
+            "type": "dvandva",
+            "resolution": "vikāraś ca avayavaś ca",
+            "note": "paired predicates denied of pot-space and jīva"
+          }
         ],
         "karaka_structure": [
-          {"role": "kartṛ", "pada": "ātmā", "note": "subject of the analogy as presented"},
-          {"role": "karaṇa", "pada": "jīvair ghaṭākāśair iva", "note": "instrumental comparison through apparent multiplicity"},
-          {"role": "karaṇa", "pada": "saṃghātaiḥ", "note": "aggregates as the comparative instrument for origination language"},
-          {"role": "kartṛ", "pada": "ghaṭākāśādayaḥ", "note": "subjects that merge in the analogy"},
-          {"role": "adhikaraṇa", "pada": "ākāśe", "note": "locus into which they merge"},
-          {"role": "kartṛ", "pada": "sarve", "note": "all pot-spaces are the subject of non-association"},
-          {"role": "karaṇa", "pada": "rajodhūmādibhiḥ", "note": "adjuncts that do not transfer to all"},
-          {"role": "kartṛ", "pada": "rūpakāryasamākhyāḥ", "note": "plural factors that differ from case to case"},
-          {"role": "sambandha", "pada": "ākāśasya / ātmanaḥ", "note": "genitives governing the denial of difference, modification, and parthood"}
+          {
+            "role": "kartṛ",
+            "pada": "ātmā",
+            "note": "subject of the analogy as presented"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "jīvair ghaṭākāśair iva",
+            "note": "instrumental comparison through apparent multiplicity"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "saṃghātaiḥ",
+            "note": "aggregates as the comparative instrument for origination language"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "ghaṭākāśādayaḥ",
+            "note": "subjects that merge in the analogy"
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "ākāśe",
+            "note": "locus into which they merge"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "sarve",
+            "note": "all pot-spaces are the subject of non-association"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "rajodhūmādibhiḥ",
+            "note": "adjuncts that do not transfer to all"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "rūpakāryasamākhyāḥ",
+            "note": "plural factors that differ from case to case"
+          },
+          {
+            "role": "sambandha",
+            "pada": "ākāśasya / ātmanaḥ",
+            "note": "genitives governing the denial of difference, modification, and parthood"
+          }
         ],
         "verb_modality": [
-          {"pada": "saṃpralīyante", "lakara": "laṭ", "pada_PA": "atmanepada", "voice": "middle"},
-          {"pada": "saṃprayujyante", "lakara": "laṭ", "pada_PA": "atmanepada", "voice": "passive"},
-          {"pada": "bhidyante", "lakara": "laṭ", "pada_PA": "atmanepada", "voice": "passive"},
-          {"pada": "asti", "lakara": "laṭ", "pada_PA": "parasmaipada", "voice": "active"}
+          {
+            "pada": "saṃpralīyante",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "middle"
+          },
+          {
+            "pada": "saṃprayujyante",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive"
+          },
+          {
+            "pada": "bhidyante",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive"
+          },
+          {
+            "pada": "asti",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          }
         ]
       },
       "english_close": "The Self, indeed, is presented as like space by reference to jīvas, as if by pot-spaces; and, with respect to origination from aggregates as from pots and the like, this is the illustration. Just as, when pots and the like have dissolved, pot-space and the rest merge into space, so do jīvas here into the Self. Just as, when one pot-space is associated with dust, smoke, and the like, all are not thereby associated, so likewise jīvas are not all connected with pleasures and the like. Forms, functions, and names differ here and there; there is no difference in space: so is the conclusion with respect to jīvas. As pot-space is not a modification or a part of space, so the jīva is never a modification or a part of the Self.",
       "preserved_terms": [
-        {"term_iast": "jīva", "first_use_gloss": "(roughly: the empirically individuated living self)"},
-        {"term_iast": "ghaṭākāśa", "first_use_gloss": "(roughly: pot-space, the classic image of apparently delimited space)"},
-        {"term_iast": "ātman", "first_use_gloss": "(roughly: the Self, ultimate subjectivity)"},
-        {"term_iast": "saṃghāta", "first_use_gloss": "(roughly: aggregate or composite body-mind complex)"}
+        {
+          "term_iast": "jīva",
+          "first_use_gloss": "(roughly: the empirically individuated living self)"
+        },
+        {
+          "term_iast": "ghaṭākāśa",
+          "first_use_gloss": "(roughly: pot-space, the classic image of apparently delimited space)"
+        },
+        {
+          "term_iast": "ātman",
+          "first_use_gloss": "(roughly: the Self, ultimate subjectivity)"
+        },
+        {
+          "term_iast": "saṃghāta",
+          "first_use_gloss": "(roughly: aggregate or composite body-mind complex)"
+        }
       ],
       "why_this_passage": "This passage is representative because Gauḍapāda does not merely assert identity; he works out, through the pot-space analogy, how plurality, dissolution, adjunct-specific experience, and non-parthood are all to be understood together. The sequence is a core Advaita-prakaraṇa exposition of the jīva/ātman relation, not a detachable ornament.",
-      "topic_tags": ["ontology"],
-      "sub_axes": ["jiva-brahman-relation", "status-of-individual-selves", "number-of-fundamental-existents"],
+      "topic_tags": [
+        "ontology"
+      ],
+      "sub_axes": [
+        "jiva-brahman-relation",
+        "status-of-individual-selves",
+        "number-of-fundamental-existents"
+      ],
       "cited_in_comparative_claims": [],
       "parallel_passages": [],
       "source_edition": "Vinayaka Ganesha Apate, ed., Āgamaśāstra / Gauḍapādakārikā (Pune: Anandasrama Sanskrit Series 10, 1921), as transcribed in /orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/vedanta/full_corpus/gaudapada_mandukya_karika_gretil.txt (GRETIL version dated 2020-07-31).",
@@ -338,81 +1297,397 @@
       "sanskrit_iast": "māyayā bhidyate hy etan nānyathājaṃ kathaṃcana\ntattvato bhidyamāne hi martyatām amṛtaṃ vrajet //\n\najātasyaiva bhāvasya jātim icchanti vādinaḥ\najāto hy amṛto bhāvo martyatāṃ katham eṣyati //\n\nna bhavaty amṛtaṃ martyaṃ na martyam amṛtaṃ tathā\nprakṛter anyathābhāvo na kathaṃcid bhaviṣyati //",
       "panini_breakdown": {
         "pada_analysis": [
-          {"pada": "māyayā", "stem": "māyā", "pratyaya": "ā", "morphology": "instr sg fem", "gloss": "by māyā"},
-          {"pada": "bhidyate", "stem": "√bhid", "morphology": "3sg pres ind Ā", "gloss": "is differentiated"},
-          {"pada": "hi", "stem": "hi", "morphology": "indecl", "gloss": "indeed"},
-          {"pada": "etat", "stem": "etad", "morphology": "acc sg neut pron", "gloss": "this"},
-          {"pada": "na", "stem": "na", "morphology": "indecl", "gloss": "not"},
-          {"pada": "anyathā", "stem": "anyathā", "morphology": "indecl", "gloss": "otherwise"},
-          {"pada": "ajam", "stem": "aja", "pratyaya": "a", "morphology": "acc sg neut", "gloss": "the unborn"},
-          {"pada": "kathaṃcana", "stem": "kathaṃcana", "morphology": "indecl", "gloss": "in any way at all"},
-          {"pada": "tattvataḥ", "stem": "tattva", "morphology": "indecl abl-adv", "gloss": "in reality"},
-          {"pada": "bhidyamāne", "stem": "bhidyamāna", "pratyaya": "śānac", "morphology": "loc sg neut pres ptc Ā", "gloss": "if being differentiated"},
-          {"pada": "hi", "stem": "hi", "morphology": "indecl", "gloss": "indeed"},
-          {"pada": "martyatām", "stem": "martyatā", "pratyaya": "tā", "morphology": "acc sg fem", "gloss": "mortality"},
-          {"pada": "amṛtam", "stem": "amṛta", "pratyaya": "a", "morphology": "nom sg neut", "gloss": "the deathless"},
-          {"pada": "vrajet", "stem": "√vraj", "morphology": "3sg vidhi-liṅ P", "gloss": "would pass into"},
-          {"pada": "ajātasya", "stem": "ajāta", "pratyaya": "kta", "morphology": "gen sg neut", "gloss": "of the unborn"},
-          {"pada": "eva", "stem": "eva", "morphology": "indecl", "gloss": "itself"},
-          {"pada": "bhāvasya", "stem": "bhāva", "pratyaya": "a", "morphology": "gen sg masc", "gloss": "of the reality"},
-          {"pada": "jātim", "stem": "jāti", "pratyaya": "i", "morphology": "acc sg fem", "gloss": "birth"},
-          {"pada": "icchanti", "stem": "√iṣ", "morphology": "3pl pres ind P", "gloss": "desire / posit"},
-          {"pada": "vādinaḥ", "stem": "vādin", "pratyaya": "in", "morphology": "nom pl masc", "gloss": "the disputants"},
-          {"pada": "ajātaḥ", "stem": "ajāta", "pratyaya": "kta", "morphology": "nom sg masc", "gloss": "unborn"},
-          {"pada": "hi", "stem": "hi", "morphology": "indecl", "gloss": "indeed"},
-          {"pada": "amṛtaḥ", "stem": "amṛta", "pratyaya": "a", "morphology": "nom sg masc", "gloss": "deathless"},
-          {"pada": "bhāvaḥ", "stem": "bhāva", "pratyaya": "a", "morphology": "nom sg masc", "gloss": "reality"},
-          {"pada": "martyatām", "stem": "martyatā", "pratyaya": "tā", "morphology": "acc sg fem", "gloss": "mortality"},
-          {"pada": "katham", "stem": "katham", "morphology": "indecl", "gloss": "how"},
-          {"pada": "eṣyati", "stem": "√i", "morphology": "3sg lṛṭ P", "gloss": "will go to"},
-          {"pada": "na", "stem": "na", "morphology": "indecl", "gloss": "not"},
-          {"pada": "bhavati", "stem": "√bhū", "morphology": "3sg pres ind P", "gloss": "becomes"},
-          {"pada": "amṛtam", "stem": "amṛta", "pratyaya": "a", "morphology": "nom sg neut", "gloss": "the deathless"},
-          {"pada": "martyam", "stem": "martya", "pratyaya": "a", "morphology": "acc sg neut predicative", "gloss": "mortal"},
-          {"pada": "na", "stem": "na", "morphology": "indecl", "gloss": "nor"},
-          {"pada": "martyam", "stem": "martya", "pratyaya": "a", "morphology": "nom sg neut", "gloss": "the mortal"},
-          {"pada": "amṛtam", "stem": "amṛta", "pratyaya": "a", "morphology": "acc sg neut predicative", "gloss": "deathless"},
-          {"pada": "tathā", "stem": "tathā", "morphology": "indecl", "gloss": "likewise"},
-          {"pada": "prakṛteḥ", "stem": "prakṛti", "pratyaya": "i", "morphology": "gen sg fem", "gloss": "of intrinsic nature"},
-          {"pada": "anyathābhāvaḥ", "stem": "anyathābhāva", "pratyaya": "a", "morphology": "nom sg masc", "gloss": "becoming otherwise"},
-          {"pada": "na", "stem": "na", "morphology": "indecl", "gloss": "not"},
-          {"pada": "kathaṃcit", "stem": "kathaṃcit", "morphology": "indecl", "gloss": "in any way"},
-          {"pada": "bhaviṣyati", "stem": "√bhū", "morphology": "3sg lṛṭ P", "gloss": "will occur"}
+          {
+            "pada": "māyayā",
+            "stem": "māyā",
+            "pratyaya": "ā",
+            "morphology": "instr sg fem",
+            "gloss": "by māyā"
+          },
+          {
+            "pada": "bhidyate",
+            "stem": "√bhid",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "is differentiated"
+          },
+          {
+            "pada": "hi",
+            "stem": "hi",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "etat",
+            "stem": "etad",
+            "morphology": "acc sg neut pron",
+            "gloss": "this"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "anyathā",
+            "stem": "anyathā",
+            "morphology": "indecl",
+            "gloss": "otherwise"
+          },
+          {
+            "pada": "ajam",
+            "stem": "aja",
+            "pratyaya": "a",
+            "morphology": "acc sg neut",
+            "gloss": "the unborn"
+          },
+          {
+            "pada": "kathaṃcana",
+            "stem": "kathaṃcana",
+            "morphology": "indecl",
+            "gloss": "in any way at all"
+          },
+          {
+            "pada": "tattvataḥ",
+            "stem": "tattva",
+            "morphology": "indecl abl-adv",
+            "gloss": "in reality"
+          },
+          {
+            "pada": "bhidyamāne",
+            "stem": "bhidyamāna",
+            "pratyaya": "śānac",
+            "morphology": "loc sg neut pres ptc Ā",
+            "gloss": "if being differentiated"
+          },
+          {
+            "pada": "hi",
+            "stem": "hi",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "martyatām",
+            "stem": "martyatā",
+            "pratyaya": "tā",
+            "morphology": "acc sg fem",
+            "gloss": "mortality"
+          },
+          {
+            "pada": "amṛtam",
+            "stem": "amṛta",
+            "pratyaya": "a",
+            "morphology": "nom sg neut",
+            "gloss": "the deathless"
+          },
+          {
+            "pada": "vrajet",
+            "stem": "√vraj",
+            "morphology": "3sg vidhi-liṅ P",
+            "gloss": "would pass into"
+          },
+          {
+            "pada": "ajātasya",
+            "stem": "ajāta",
+            "pratyaya": "kta",
+            "morphology": "gen sg neut",
+            "gloss": "of the unborn"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "itself"
+          },
+          {
+            "pada": "bhāvasya",
+            "stem": "bhāva",
+            "pratyaya": "a",
+            "morphology": "gen sg masc",
+            "gloss": "of the reality"
+          },
+          {
+            "pada": "jātim",
+            "stem": "jāti",
+            "pratyaya": "i",
+            "morphology": "acc sg fem",
+            "gloss": "birth"
+          },
+          {
+            "pada": "icchanti",
+            "stem": "√iṣ",
+            "morphology": "3pl pres ind P",
+            "gloss": "desire / posit"
+          },
+          {
+            "pada": "vādinaḥ",
+            "stem": "vādin",
+            "pratyaya": "in",
+            "morphology": "nom pl masc",
+            "gloss": "the disputants"
+          },
+          {
+            "pada": "ajātaḥ",
+            "stem": "ajāta",
+            "pratyaya": "kta",
+            "morphology": "nom sg masc",
+            "gloss": "unborn"
+          },
+          {
+            "pada": "hi",
+            "stem": "hi",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "amṛtaḥ",
+            "stem": "amṛta",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "deathless"
+          },
+          {
+            "pada": "bhāvaḥ",
+            "stem": "bhāva",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "reality"
+          },
+          {
+            "pada": "martyatām",
+            "stem": "martyatā",
+            "pratyaya": "tā",
+            "morphology": "acc sg fem",
+            "gloss": "mortality"
+          },
+          {
+            "pada": "katham",
+            "stem": "katham",
+            "morphology": "indecl",
+            "gloss": "how"
+          },
+          {
+            "pada": "eṣyati",
+            "stem": "√i",
+            "morphology": "3sg lṛṭ P",
+            "gloss": "will go to"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "bhavati",
+            "stem": "√bhū",
+            "morphology": "3sg pres ind P",
+            "gloss": "becomes"
+          },
+          {
+            "pada": "amṛtam",
+            "stem": "amṛta",
+            "pratyaya": "a",
+            "morphology": "nom sg neut",
+            "gloss": "the deathless"
+          },
+          {
+            "pada": "martyam",
+            "stem": "martya",
+            "pratyaya": "a",
+            "morphology": "acc sg neut predicative",
+            "gloss": "mortal"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "nor"
+          },
+          {
+            "pada": "martyam",
+            "stem": "martya",
+            "pratyaya": "a",
+            "morphology": "nom sg neut",
+            "gloss": "the mortal"
+          },
+          {
+            "pada": "amṛtam",
+            "stem": "amṛta",
+            "pratyaya": "a",
+            "morphology": "acc sg neut predicative",
+            "gloss": "deathless"
+          },
+          {
+            "pada": "tathā",
+            "stem": "tathā",
+            "morphology": "indecl",
+            "gloss": "likewise"
+          },
+          {
+            "pada": "prakṛteḥ",
+            "stem": "prakṛti",
+            "pratyaya": "i",
+            "morphology": "gen sg fem",
+            "gloss": "of intrinsic nature"
+          },
+          {
+            "pada": "anyathābhāvaḥ",
+            "stem": "anyathābhāva",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "becoming otherwise"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "kathaṃcit",
+            "stem": "kathaṃcit",
+            "morphology": "indecl",
+            "gloss": "in any way"
+          },
+          {
+            "pada": "bhaviṣyati",
+            "stem": "√bhū",
+            "morphology": "3sg lṛṭ P",
+            "gloss": "will occur"
+          }
         ],
         "samasa_vigrahas": [
-          {"compound": "amṛtam / amṛtaḥ", "type": "negative-tatpurusha", "resolution": "na mṛtaḥ", "note": "deathless"},
-          {"compound": "ajātasya / ajam / ajātaḥ", "type": "negative-tatpurusha", "resolution": "na jātaḥ", "note": "unborn"},
-          {"compound": "tattvataḥ", "type": "other", "resolution": "tattvasya bhāvaḥ tattvam; tataḥ", "note": "adverbial ablative: in reality"},
-          {"compound": "anyathābhāvaḥ", "type": "avyayibhava", "resolution": "anyathā bhāvaḥ", "note": "becoming otherwise than one's nature"}
+          {
+            "compound": "amṛtam / amṛtaḥ",
+            "type": "negative-tatpurusha",
+            "resolution": "na mṛtaḥ",
+            "note": "deathless"
+          },
+          {
+            "compound": "ajātasya / ajam / ajātaḥ",
+            "type": "negative-tatpurusha",
+            "resolution": "na jātaḥ",
+            "note": "unborn"
+          },
+          {
+            "compound": "tattvataḥ",
+            "type": "other",
+            "resolution": "tattvasya bhāvaḥ tattvam; tataḥ",
+            "note": "adverbial ablative: in reality"
+          },
+          {
+            "compound": "anyathābhāvaḥ",
+            "type": "avyayibhava",
+            "resolution": "anyathā bhāvaḥ",
+            "note": "becoming otherwise than one's nature"
+          }
         ],
         "karaka_structure": [
-          {"role": "karaṇa", "pada": "māyayā", "note": "instrument of apparent differentiation"},
-          {"role": "karman", "pada": "etat ajam", "note": "object said to be differentiated only by māyā"},
-          {"role": "kartṛ", "pada": "amṛtam", "note": "subject that would enter mortality if real differentiation occurred"},
-          {"role": "karman", "pada": "jātim", "note": "birth posited by the disputants"},
-          {"role": "kartṛ", "pada": "vādinaḥ", "note": "agents who posit origination"},
-          {"role": "kartṛ", "pada": "bhāvaḥ", "note": "subject of the rhetorical future eṣyati"},
-          {"role": "sambandha", "pada": "prakṛteḥ", "note": "genitive constraining the denied alteration of nature"}
+          {
+            "role": "karaṇa",
+            "pada": "māyayā",
+            "note": "instrument of apparent differentiation"
+          },
+          {
+            "role": "karman",
+            "pada": "etat ajam",
+            "note": "object said to be differentiated only by māyā"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "amṛtam",
+            "note": "subject that would enter mortality if real differentiation occurred"
+          },
+          {
+            "role": "karman",
+            "pada": "jātim",
+            "note": "birth posited by the disputants"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "vādinaḥ",
+            "note": "agents who posit origination"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "bhāvaḥ",
+            "note": "subject of the rhetorical future eṣyati"
+          },
+          {
+            "role": "sambandha",
+            "pada": "prakṛteḥ",
+            "note": "genitive constraining the denied alteration of nature"
+          }
         ],
         "verb_modality": [
-          {"pada": "bhidyate", "lakara": "laṭ", "pada_PA": "atmanepada", "voice": "passive"},
-          {"pada": "vrajet", "lakara": "vidhi-liṅ", "pada_PA": "parasmaipada", "voice": "active"},
-          {"pada": "icchanti", "lakara": "laṭ", "pada_PA": "parasmaipada", "voice": "active"},
-          {"pada": "eṣyati", "lakara": "lṛṭ", "pada_PA": "parasmaipada", "voice": "active"},
-          {"pada": "bhavati", "lakara": "laṭ", "pada_PA": "parasmaipada", "voice": "active"},
-          {"pada": "bhaviṣyati", "lakara": "lṛṭ", "pada_PA": "parasmaipada", "voice": "active"}
+          {
+            "pada": "bhidyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive"
+          },
+          {
+            "pada": "vrajet",
+            "lakara": "vidhi-liṅ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          },
+          {
+            "pada": "icchanti",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          },
+          {
+            "pada": "eṣyati",
+            "lakara": "lṛṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          },
+          {
+            "pada": "bhavati",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          },
+          {
+            "pada": "bhaviṣyati",
+            "lakara": "lṛṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          }
         ]
       },
       "english_close": "This unborn reality is differentiated by māyā, indeed, not otherwise in any way; for, if it were being differentiated in reality, the deathless would pass into mortality. The disputants posit birth for a reality that is itself unborn; yet how would an unborn, deathless reality go to mortality? The deathless does not become mortal, nor likewise the mortal deathless; becoming otherwise than one's intrinsic nature will not occur in any way.",
       "preserved_terms": [
-        {"term_iast": "ajāti", "first_use_gloss": "(roughly: non-origination)"},
-        {"term_iast": "māyā", "first_use_gloss": "(roughly: appearance-producing differentiation that does not alter reality itself)"},
-        {"term_iast": "prakṛti", "first_use_gloss": "(roughly: intrinsic nature)"},
-        {"term_iast": "bhāva", "first_use_gloss": "(roughly: the reality or existent under discussion)"}
+        {
+          "term_iast": "ajāti",
+          "first_use_gloss": "(roughly: non-origination)"
+        },
+        {
+          "term_iast": "māyā",
+          "first_use_gloss": "(roughly: appearance-producing differentiation that does not alter reality itself)"
+        },
+        {
+          "term_iast": "prakṛti",
+          "first_use_gloss": "(roughly: intrinsic nature)"
+        },
+        {
+          "term_iast": "bhāva",
+          "first_use_gloss": "(roughly: the reality or existent under discussion)"
+        }
       ],
       "why_this_passage": "These verses are a fair basis for Gauḍapāda's causal metaphysics because they argue for ajāti by showing what real origination would entail: the deathless would have to become mortal, which is impossible. The passage therefore captures the logic of non-origination rather than only citing the famous conclusion that nothing is born.",
-      "topic_tags": ["ontology", "causation"],
-      "sub_axes": ["ajati-vada", "type-of-cause", "causation-satkarya-vs-asatkarya"],
+      "topic_tags": [
+        "ontology",
+        "causation"
+      ],
+      "sub_axes": [
+        "ajati-vada",
+        "type-of-cause",
+        "causation-satkarya-vs-asatkarya"
+      ],
       "cited_in_comparative_claims": [],
       "parallel_passages": [],
       "source_edition": "Vinayaka Ganesha Apate, ed., Āgamaśāstra / Gauḍapādakārikā (Pune: Anandasrama Sanskrit Series 10, 1921), as transcribed in /orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/vedanta/full_corpus/gaudapada_mandukya_karika_gretil.txt (GRETIL version dated 2020-07-31).",
@@ -424,5 +1699,5 @@
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1-rewrite-opus"
+  "last_verified_by": "wave-audit-fix-opus"
 }

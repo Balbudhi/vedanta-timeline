@@ -11,7 +11,10 @@
   "school_color_token": "bhedabheda",
   "sub_school": "Svābhāvika-Bhedābheda (Dvaitādvaita)",
   "sub_school_shade": 4,
-  "lineage_in": ["srinivasa"],
+  "lineage_in": [
+    "srinivasa",
+    "nimbarka"
+  ],
   "lineage_out": [],
   "lineage_polemical": [
     {
@@ -30,7 +33,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "rahasya",
       "language": "sanskrit",
@@ -52,7 +58,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -68,7 +77,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored sub-commentary on the Vedānta-Kaustubha.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -872,5 +884,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave2-codex"
+  "last_verified_by": "wave-audit-fix-opus"
 }

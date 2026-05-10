@@ -1,0 +1,17 @@
+{
+  "term_key": "satkarya-vada",
+  "term_iast": "satkārya-vāda",
+  "term_devanagari": "सत्कार्यवाद",
+  "literal": "the doctrine that the effect (kārya) is real (sat) [in the cause]",
+  "aliases": ["satkarya-vada", "satkārya-vāda", "satkāryavāda", "Satkārya-vāda", "sat-karya-vada"],
+  "invariant_definition": "The doctrine that the effect pre-exists in the cause and is therefore real before its production (against *asatkārya-vāda* — the Nyāya-Vaiśeṣika view that the effect is genuinely new at production). Sāṅkhya and all Vedāntic schools accept some form of *satkārya-vāda* against the Nyāya-Vaiśeṣika *ārambha-vāda*. The schools differ on what kind of *satkārya-vāda* — *vivarta* (Advaita), real *pariṇāma* (Bhāskara, V, D), or *avikṛta-pariṇāma* (Vallabha).",
+  "per_school": [
+    {
+      "school": "All Vedānta",
+      "definition": "*Satkārya-vāda* is universally accepted in some form against Nyāya-Vaiśeṣika *asatkārya-vāda*. The dispute is internal to *satkārya-vādins* on what kind of pre-existence and what kind of production.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.1.14ff (where Śaṅkara argues for satkārya-vāda en route to vivarta)", "Sāṅkhya-Kārikā 9 (the classical satkārya-vāda argument)"]
+    }
+  ],
+  "see_also": ["asatkarya-vada", "vivarta", "parinama", "avikrta-parinama"],
+  "translator_note": "'Pre-existent-effect doctrine' or 'doctrine of real effect-in-cause' both acceptable. The doctrine has no Western analogue; Aristotelian potency-actuality is the closest distant relative."
+}

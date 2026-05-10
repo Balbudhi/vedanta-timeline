@@ -11,8 +11,13 @@
   "school_color_token": "advaita",
   "sub_school": "Sureśvara-line proto-Vivaraṇa",
   "sub_school_shade": 3,
-  "lineage_in": ["sureshvara"],
-  "lineage_out": ["prakasatman", "vimuktatman"],
+  "lineage_in": [
+    "sureshvara"
+  ],
+  "lineage_out": [
+    "prakasatman",
+    "vimuktatman"
+  ],
   "lineage_polemical": [],
   "core_thesis": "Sarvajñātman, claiming descent from Sureśvara through Devasvāmin, builds the proto-*Vivaraṇa* Advaita that Prakāśātman will later systematise. The locus of *avidyā* is Brahman — pure *cit* — and not the *jīva*. The *jīva* is itself *cidābhāsa*, a reflection (*pratibimba*) of Brahman cast in beginningless ignorance. Sarvajñātman gives this *bimba-pratibimba-vāda* its first systematic Advaitic statement, with the standard analogy: one face appears reflected in many mirrors without being multiplied, and so the Brahman-*bimba* appears as plural *jīva-pratibimbas* without compromising non-duality. From this root three further commitments follow. The Mahāvākya is the unique *pramāṇa* productive of *akhaṇḍākāra-vṛtti*. *Karma* and *upāsanā* remove *vikṣepa* and *mala* but never produce *jñāna* directly; any strong *samuccaya* doctrine is therefore rejected. Liberation is the *nivṛtti* of avidyā by knowledge alone. Prakāśātman takes these positions over and refines them in the *Vivaraṇa*; they form the structural backbone of the post-Padmapāda Advaita line.",
   "engaged_works": [
@@ -837,5 +842,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave2-codex"
+  "last_verified_by": "wave-audit-fix-opus"
 }

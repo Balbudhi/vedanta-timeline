@@ -2,7 +2,9 @@
   "id": "bhaktivinoda",
   "name": "Bhaktivinoda Thakura",
   "name_iast": "Bhaktivinoda Ṭhākura",
-  "alternate_names": ["Kedarnath Datta"],
+  "alternate_names": [
+    "Kedarnath Datta"
+  ],
   "dates_low": 1838,
   "dates_high": 1914,
   "dates_tier": "confirmed-from-records",
@@ -17,8 +19,12 @@
   "school_color_token": "acintya",
   "sub_school": "Gauḍīya modern",
   "sub_school_shade": 5,
-  "lineage_in": ["baladeva"],
-  "lineage_out": [],
+  "lineage_in": [
+    "baladeva"
+  ],
+  "lineage_out": [
+    "bhaktisiddhanta"
+  ],
   "lineage_polemical": [],
   "core_thesis": "Bhaktivinoda Ṭhākura (Kedarnāth Datta, 1838–1914) is the modern Bengali Vaiṣṇava theologian who systematized Caitanya-Gauḍīya thought in modern philosophical idiom and effectively founded the modern Gauḍīya revival. His settled position is the inherited *acintya-bhedābheda*: Bhagavān (Kṛṣṇa) is the one supreme reality, infinitely powerful (*śakti-mān*), whose manifold *śaktis* — *svarūpa*, *taṭasthā* (the *jīva*-energy), and *māyā* — produce a real world and real *jīvas* whose simultaneous identity-and-distinction with Bhagavān is *acintya* (beyond rational determination, but not contradictory). Distinctive emphases: a layered epistemology (*pramāṇa* / *prameya* / *adhokṣaja-jñāna*) that grounds devotional knowledge as a self-standing cognitive mode beyond *pratyakṣa* and *anumāna*; a strong doctrine of the eternal individual *jīva* whose constitutional position (*svarūpa*) is *kṛṣṇa-dāsa*; *bhakti* as both the means and the end (*sādhana-bhakti* maturing into *prema*); and *rāgānuga-sādhana* under guidance of the inner *siddha-deha*. He argues, against contemporary impersonalism and Brahmo-Samāja reformism, that Caitanya's school is fully rational, fully Vedāntic, and modern.",
   "engaged_works": [
@@ -30,7 +36,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored systematic Gauḍīya doctrinal novel.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "dialogue",
       "language": "bengali",
@@ -46,7 +55,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Vedāntic-doctrinal sūtra-text.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -62,7 +74,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Brahma-Sūtra adhikaraṇa-summary.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -81,7 +96,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored anthology of Bhāgavata-verses with commentary.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -93,14 +111,19 @@
       "work_id": "tattva-viveka",
       "title": "Tattva-Viveka",
       "title_iast": "Tattva-Viveka",
-      "alternate_titles": ["Sac-cid-ānanda-Anubhūti"],
+      "alternate_titles": [
+        "Sac-cid-ānanda-Anubhūti"
+      ],
       "composition_dates_low": 1893,
       "composition_dates_high": 1893,
       "composition_dates_notes": "Published 1893; one of Bhaktivinoda's mid-career systematic treatises.",
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Bengali philosophical primer.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "bengali",
@@ -119,7 +142,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored / edited; Bhaktivinoda founded and was the principal contributing editor of this Vaiṣṇava periodical.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus on the periodical's editorial history."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus on the periodical's editorial history."
+        }
       ],
       "genre": "dialogue",
       "language": "bengali",
@@ -133,5 +159,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1-cleanup-opus"
+  "last_verified_by": "wave-audit-fix-opus"
 }

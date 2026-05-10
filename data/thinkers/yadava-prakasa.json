@@ -11,8 +11,14 @@
   "school_color_token": "bhedabheda",
   "sub_school": "Bhedābheda transitional to Viśiṣṭādvaita",
   "sub_school_shade": 2,
-  "lineage_in": ["bhaskara", "bhartrprapanca"],
-  "lineage_out": ["nimbarka", "ramanuja"],
+  "lineage_in": [
+    "bhaskara",
+    "bhartrprapanca"
+  ],
+  "lineage_out": [
+    "nimbarka",
+    "ramanuja"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "ramanuja",
@@ -41,5 +47,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1e-opus"
+  "last_verified_by": "wave-audit-fix-opus"
 }

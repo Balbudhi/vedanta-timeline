@@ -2,7 +2,10 @@
   "id": "vidyaranya",
   "name": "Vidyaranya",
   "name_iast": "Vidyāraṇya",
-  "alternate_names": ["Mādhava", "Mādhavācārya"],
+  "alternate_names": [
+    "Mādhava",
+    "Mādhavācārya"
+  ],
   "dates_low": 1296,
   "dates_high": 1386,
   "dates_tier": "confirmed-from-records",
@@ -21,8 +24,15 @@
   "school_color_token": "advaita",
   "sub_school": "Vivaraṇa-Advaita",
   "sub_school_shade": 4,
-  "lineage_in": ["prakasatman", "vimuktatman"],
-  "lineage_out": ["madhusudana", "appayya"],
+  "lineage_in": [
+    "prakasatman",
+    "vimuktatman"
+  ],
+  "lineage_out": [
+    "madhusudana",
+    "appayya",
+    "karpatri"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "utpaladeva",
@@ -45,7 +55,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -65,7 +78,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -81,7 +97,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored compendium of Prakāśātman's Vivaraṇa.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -728,5 +747,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave2-codex"
+  "last_verified_by": "wave-audit-fix-opus"
 }

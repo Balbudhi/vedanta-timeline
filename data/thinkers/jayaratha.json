@@ -1,0 +1,43 @@
+{
+  "id": "jayaratha",
+  "name": "Jayaratha",
+  "name_iast": "Jayaratha",
+  "alternate_names": ["Rājānaka Jayaratha"],
+  "dates_low": 1175,
+  "dates_high": 1250,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Late twelfth- to mid-thirteenth-century Kashmirian commentator; dated by internal references in the Tantrāloka-Viveka and by his standing in the Kashmirian Trika lineage.",
+  "school": "Pratyabhijñā/Trika",
+  "school_color_token": "trika-comparator",
+  "sub_school": "Trika Tantrāloka-commentarial",
+  "sub_school_shade": 5,
+  "lineage_in": ["abhinavagupta"],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Non-Vedāntin comparator (mature Trika commentator). Jayaratha is the great commentator of Abhinavagupta's *Tantrāloka*, working two centuries after the author and producing the *Tantrāloka-Viveka* that is the indispensable companion to the Tantrāloka itself. Without the *Viveka*, much of the Tantrāloka's compressed scriptural and ritual reference becomes unrecoverable; with it, the *Tantrāloka* is readable as the encyclopedic synthesis Abhinavagupta intended. Jayaratha works strictly within the Trika non-dual frame — the supreme reality is *Anuttara*-consciousness, manifestation occurs by *svātantrya* through *ābhāsa*, the *upāya*-hierarchy is graded from *anupāya* through *śāmbhava*, *śākta*, and *āṇava* — but his contribution is principally philological and structural rather than constructively philosophical: he identifies citations, supplies missing ritual context, traces scriptural antecedents in the Tantras the *Tantrāloka* presupposes (*Mālinī-Vijaya*, *Siddha-Yogeśvarī-Mata*, *Trika-Sāra*), and reconstructs the lineage's living memory of how each *āhnika*'s argument is to be read. The *Viveka* is for that reason a primary source on the school's mature self-understanding in the period after Kṣemarāja and before the disruption of the Kashmirian tradition.",
+  "engaged_works": [
+    {
+      "work_id": "tantraloka-viveka",
+      "title": "Tantraloka-Viveka",
+      "title_iast": "Tantrāloka-Viveka",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; the principal commentary on Abhinavagupta's Tantrāloka.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus; KSTS edition (Madhusūdan Kaul et al.) prints the Viveka inline with the Tantrāloka throughout."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "The principal commentary on Abhinavagupta's *Tantrāloka* — the encyclopedic Trika compendium in 37 *āhnikas* — and a work of comparable bulk to the *Tantrāloka* itself. Jayaratha works through every verse, identifying the Tantras and earlier Trika authorities Abhinavagupta is drawing on (often without attribution), supplying the ritual procedural detail Abhinavagupta omits, glossing the school's technical vocabulary as it has developed two centuries after Abhinavagupta's own time, and adjudicating among competing readings preserved in the school's commentarial memory. The *Viveka* is the indispensable companion to the *Tantrāloka*: the *Tantrāloka*'s elliptical scriptural and procedural references would for the most part be unrecoverable without it. Doctrinally Jayaratha is a strict Trika non-dualist, working within the framework Abhinavagupta consummated; his contribution is philological and lineage-preserving rather than independently philosophical. The *Viveka* is also a primary source for the post-Abhinavaguptan history of the Kashmirian Trika before its disruption: through Jayaratha's citations, much of the lost intermediate commentarial tradition can be reconstructed.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Jayaratha's Tantrāloka-Viveka is the indispensable companion to Abhinavagupta's Tantrāloka; the standard KSTS edition prints them inline together throughout, and modern scholarship (André Padoux, Alexis Sanderson, the Tantric Studies project) consistently reads the two together. Without the Viveka, the Tantrāloka becomes inaccessible at the level of scriptural and ritual reference; with it, the Tantrāloka stands as the great Trika encyclopedia Abhinavagupta intended.",
+  "entry_status": "draft",
+  "entry_owner_agent": "trika-shakta-extension-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "trika-shakta-extension-opus"
+}

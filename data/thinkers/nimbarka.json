@@ -2,7 +2,9 @@
   "id": "nimbarka",
   "name": "Nimbarka",
   "name_iast": "Nimbārka",
-  "alternate_names": ["Niyamānanda"],
+  "alternate_names": [
+    "Niyamānanda"
+  ],
   "dates_low": 1130,
   "dates_high": 1300,
   "dates_tier": "contested",
@@ -11,8 +13,14 @@
   "school_color_token": "bhedabheda",
   "sub_school": "Svābhāvika-Bhedābheda (Dvaitādvaita)",
   "sub_school_shade": 4,
-  "lineage_in": ["yadava-prakasa"],
-  "lineage_out": ["srinivasa", "kesava-kasmiri"],
+  "lineage_in": [
+    "yadava-prakasa",
+    "badarayana"
+  ],
+  "lineage_out": [
+    "srinivasa",
+    "kesava-kasmiri"
+  ],
   "lineage_polemical": [],
   "core_thesis": "Nimbārka's position turns on a single qualifier: *svābhāvika*. Difference (*bheda*) and non-difference (*abheda*) between Brahman, *cit*, and *acit* are both real, but they are intrinsic to the relata themselves, not produced by any limiting adjunct or by any external condition. *Svābhāva* is the term: of-its-own-nature. Where Bhāskara had qualified *bheda* as *aupādhika*, holding it to depend on *upādhi* and to fall away when adjuncts drop, Nimbārka refuses the qualification. The *bheda* of the *jīva* from Brahman is not adventitious; it is constitutive. The *abheda* is equally constitutive. Neither reduces to the other.\n\nThe *Daśa-Ślokī* and the *Vedānta-Pārijāta-Saurabha* state this directly. The *jīva* is *jñāna-svarūpa*, *aṇu*, *pratidehabhinna* — atomic in measure, distinct in each body — and *hareḥ adhīna*, dependent on Hari; the dependence is asymmetric, the distinctness is real, and both hold simultaneously in the *jīva*'s very nature.\n\nThree reals are accordingly co-eternal: Brahman as Kṛṣṇa accompanied by Rādhā, the plural *cit* of sentient selves, and *acit* as insentient nature. *Jīva* and world are *aṃśa* of Brahman in the substantial sense — dependent, controlled, non-different in essence — yet inalienably distinct as the parts of a whole that has parts of its own nature. The doxographic label *dvaitādvaita* is later usage; the school's own term is *svābhāvika-bhedābheda*, and the technical work is done by *svābhāvika*.\n\nThe operative soteriology is *bhakti-prapatti* to Kṛṣṇa within the Sanaka-sampradāya. Liberation preserves the *jīva*'s real distinctness; it does not absorb the devotee into the deity. The position therefore refuses two alternatives at once: Bhāskara's *aupādhika* qualification on one side, on which difference would dissolve at liberation; and any Advaitic resolution of plurality at the limit, on which the *jīva*'s independence would prove to have been *vyāvahārika* throughout.",
   "engaged_works": [
@@ -24,7 +32,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Brahma-Sūtra commentary; the Sanaka-sampradāya's school-defining bhāṣya.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
@@ -40,7 +51,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored ten-verse summary of Nimbārka's doctrine.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "verse-summary",
       "language": "sanskrit",
@@ -723,5 +737,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave2-codex"
+  "last_verified_by": "wave-audit-fix-opus"
 }

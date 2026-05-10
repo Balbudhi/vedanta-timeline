@@ -11,8 +11,18 @@
   "school_color_token": "advaita",
   "sub_school": "Vivaraṇa-Advaita",
   "sub_school_shade": 4,
-  "lineage_in": ["prakasatman", "vidyaranya", "gangesa"],
-  "lineage_out": ["brahmananda"],
+  "lineage_in": [
+    "prakasatman",
+    "vidyaranya",
+    "gangesa",
+    "citsukha"
+  ],
+  "lineage_out": [
+    "brahmananda",
+    "anantakrishna-sastri",
+    "dharmaraja",
+    "karpatri"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "vyasatirtha",
@@ -40,7 +50,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored; the direct refutation of Vyāsatīrtha's Nyāyāmṛta.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
@@ -56,7 +69,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored; gloss on Śaṅkara's Daśa-Ślokī.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -75,7 +91,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored; the Advaita defense of bhakti as a saving aesthesis.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -94,7 +113,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Gītā-commentary.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "gita-bhashya",
       "language": "sanskrit",
@@ -1236,5 +1258,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave2-codex"
+  "last_verified_by": "wave-audit-fix-opus"
 }

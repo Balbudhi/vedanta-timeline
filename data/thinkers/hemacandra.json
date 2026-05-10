@@ -1,0 +1,74 @@
+{
+  "id": "hemacandra",
+  "name": "Hemacandra Suri",
+  "name_iast": "Hemacandra Sūri",
+  "alternate_names": ["Kalikāla-Sarvajña", "Hemacandrācārya"],
+  "dates_low": 1089,
+  "dates_high": 1172,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Dates confirmed by court-records of the Caulukya court of Gujarat — Hemacandra was court-pundit to King Jayasiṃha Siddharāja (r. 1092–1141) and later King Kumārapāla (r. 1143–1172) — and by Prabhācandra's Prabhāvaka-Carita (early thirteenth century), the principal Jaina prosopographical source.",
+  "dates_evidence": [
+    {
+      "kind": "court-record",
+      "description": "Hemacandra's official position at the Caulukya court of Gujarat under Jayasiṃha Siddharāja and Kumārapāla.",
+      "source_citation": "Dundas (1992, The Jains); Granoff & Shinohara (1988, Monks and Magicians)."
+    },
+    {
+      "kind": "sectarian-chronicle",
+      "description": "Prabhācandra, Prabhāvaka-Carita, early thirteenth century, the principal Jaina source for Hemacandra's biography.",
+      "source_citation": "Standard Jaina prosopographical literature."
+    }
+  ],
+  "school": "Jaina",
+  "school_color_token": "jaina-comparator",
+  "sub_school": "Śvetāmbara polymath",
+  "sub_school_shade": 5,
+  "lineage_in": ["umasvati", "haribhadra"],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Hemacandra Sūri — the *Kalikāla-Sarvajña* (\"omniscient of the Kali age\"), Caulukya court-pundit, and the most influential Śvetāmbara figure of the medieval period — produces a Jaina synthesis across grammar, lexicography, poetics, narrative, philosophy, and yoga. Two works are decisive for the comparative *darśana*-context. The *Pramāṇa-Mīmāṃsā* — modelled formally on the founding *sūtras* of the other *darśanas* and structured as a *sūtra*-with-auto-*vṛtti* — gives the most systematic Jaina *pramāṇa*-theory: two pramāṇas are recognised (*pratyakṣa* and *parokṣa*, with *anumāna*, *upamāna*, *āgama*, and *arthāpatti* subsumed under *parokṣa*), and the work engages Buddhist (Dharmakīrti) and Naiyāyika positions extensively. The *anekānta*-frame is preserved and defended against the Buddhist *kṣaṇika-vāda* and the Vedāntic *advaita*-position. The *Yoga-Śāstra* — twelve *prakāśas*, with auto-commentary — gives the standard medieval Jaina yoga-manual, organised around the *triratna* (right vision, knowledge, conduct), the lay-vows, and the eight *aṅgas* of Pātañjala-yoga reread through Jaina categories. The work also contains a long autobiographical account of Hemacandra's instruction of King Kumārapāla in Jaina ethics, a rare instance of Jaina engagement with active royal practice. Hemacandra's polymathic range (the *Siddha-Hema-Śabdānuśāsana* grammar, the *Abhidhāna-Cintāmaṇi* lexicon, the *Kāvyānuśāsana* poetics, the *Triṣaṣṭi-Śalākā-Puruṣa-Caritra* narrative cycle) makes him the standard reference-point for late-medieval Jaina scholarship and the figure through whom Jaina philosophy enters early-modern Gujarat as a living court-tradition.",
+  "engaged_works": [
+    {
+      "work_id": "pramana-mimamsa",
+      "title": "Pramana-Mimamsa",
+      "title_iast": "Pramāṇa-Mīmāṃsā",
+      "composition_dates_low": 1140,
+      "composition_dates_high": 1170,
+      "composition_dates_notes": "Composed in Hemacandra's mature period under Kumārapāla's patronage.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Hemacandra Sūri by colophon and by uniform Jaina tradition; the work is incomplete, breaking off in the second adhyāya.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Mookerjee & Tatia's edition with translation; Dundas (1992, The Jains)."}
+      ],
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "summary": "An incomplete two-adhyāya treatise on Jaina *pramāṇa*-theory, composed as *sūtras* with Hemacandra's own *vṛtti*. The first *adhyāya* establishes the two-fold *pramāṇa*-classification: *pratyakṣa* (perception, sub-divided into *sāṃvyavahārika* — ordinary perception of empirical objects — and *pāramārthika* — the *kevalin*'s direct unmediated cognition) and *parokṣa* (mediated cognition, sub-divided into *smṛti*, *pratyabhijñā*, *tarka*, *anumāna*, *āgama*). The work engages Dharmakīrti's Buddhist *pramāṇa*-theory in detail, defending the Jaina position against the *kṣaṇika-vāda* on the requirement of substance-continuity for *pratyabhijñā*, and against the Buddhist exclusion of *āgama* as an autonomous *pramāṇa*. The second *adhyāya*, which breaks off in transmission, addresses *anumāna* in detail. The work is the most technically sophisticated Jaina *pramāṇa*-treatise of the pre-Yaśovijaya era and is the principal source for the Jaina engagement with the developed Buddhist epistemology.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "yoga-shastra",
+      "title": "Yoga-Shastra",
+      "title_iast": "Yoga-Śāstra",
+      "composition_dates_low": 1140,
+      "composition_dates_high": 1160,
+      "composition_dates_notes": "Composed for King Kumārapāla's instruction in Jaina ethics and yoga.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Hemacandra Sūri by colophon, with auto-commentary (svopajña-vṛtti).",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Qvarnström's edition and translation (Handbook of Jain Yoga); Dundas (1992, The Jains)."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Twelve *prakāśas* with Hemacandra's auto-commentary (*svopajña-vṛtti*). The first four *prakāśas* establish the *triratna* and the lay-vows (*aṇuvratas*) and ascetic-vows (*mahāvratas*). *Prakāśas* 5–11 give the medieval Jaina yoga-curriculum: *dharma-dhyāna* and *śukla-dhyāna* as the two soteriologically-effective *dhyāna*-types, the *prāṇāyāma* practices (rejected as *mokṣa*-instrumental but permitted for *aiśvarya*), the *praty­āhāra* and *dhāraṇā* practices, and a long account of *kuṇḍalinī*-yoga and *cakra*-meditation that shows the absorption of Tantric materials into the medieval Jaina yoga-corpus. The twelfth *prakāśa* gives Hemacandra's autobiographical account of his instruction of King Kumārapāla, ending with an account of the king's adoption of Jaina vows. The work is the standard medieval Jaina yoga-manual and is the principal evidence for the late-medieval Jaina-Pātañjala synthesis.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-comparators-darsana-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-comparators-darsana-opus"
+}

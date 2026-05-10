@@ -2,7 +2,10 @@
   "id": "badarayana",
   "name": "Badarayana",
   "name_iast": "Bādarāyaṇa",
-  "alternate_names": ["Vyāsa", "Veda-Vyāsa"],
+  "alternate_names": [
+    "Vyāsa",
+    "Veda-Vyāsa"
+  ],
   "dates_low": -200,
   "dates_high": 200,
   "dates_tier": "contested",
@@ -11,8 +14,20 @@
   "school_color_token": "proto",
   "sub_school": "Sūtra-author",
   "sub_school_shade": 3,
-  "lineage_in": [],
-  "lineage_out": ["sankara", "ramanuja", "madhva", "bhaskara", "nimbarka", "vallabha", "baladeva"],
+  "lineage_in": [
+    "asmarathya",
+    "audulomi",
+    "kasakrtsna"
+  ],
+  "lineage_out": [
+    "sankara",
+    "ramanuja",
+    "madhva",
+    "bhaskara",
+    "nimbarka",
+    "vallabha",
+    "baladeva"
+  ],
   "lineage_polemical": [],
   "core_thesis": "What discipline does a Vedāntic inquirer enter, and on what authority? Bādarāyaṇa answers in his first two *sūtras*. *Athāto brahma-jijñāsā* (1.1.1) — \"now, therefore, the inquiry into *brahman*\" — opens the discipline, and *janmādy asya yataḥ* (1.1.2) defines its object as \"that from which the origin and the rest of this [world]\" proceeds. *Brahman* is thus introduced under one descriptive function: the *jagat-kāraṇa*, world-cause. The work then unfolds across four *adhyāyas* whose headings name four argumentative moves: *samanvaya* (harmonization of *śruti* texts as teaching *brahman*), *avirodha* (rebuttal of rival cosmologies), *sādhana* (the means: meditative *upāsanā*, Vedic *karma*'s relation to knowledge), *phala* (the fruit: *mokṣa* and the trajectory of the *jīva* after death). On the *jīva*–*brahman* relation Bādarāyaṇa cites three earlier ācāryas — Auḍulomi, Āśmarathya, Kāśakṛtsna — without adjudicating their dispute. The compressed style of the *sūtra* genre forces every later reader to supply a *bhāṣya*; this is why a single text becomes the shared ground of Advaita, Viśiṣṭādvaita, Dvaita, and Bhedābheda. Whether Bādarāyaṇa's underdetermination is deliberate or merely the inheritance of an oral *sūtra*-corpus is itself an open question.",
   "engaged_works": [
@@ -20,11 +35,17 @@
       "work_id": "brahma-sutra",
       "title": "Brahma-Sūtra",
       "title_iast": "Brahma-Sūtra",
-      "alternate_titles": ["Vedānta-Sūtra", "Śārīraka-Sūtra"],
+      "alternate_titles": [
+        "Vedānta-Sūtra",
+        "Śārīraka-Sūtra"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored as a compiled text; the work is multi-layered and likely incorporates earlier sūtra-material.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus accepts the Brahma-Sūtra as a unified compiled text traditionally ascribed to Bādarāyaṇa, with internal-style evidence of multi-layered sūtra-material."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus accepts the Brahma-Sūtra as a unified compiled text traditionally ascribed to Bādarāyaṇa, with internal-style evidence of multi-layered sūtra-material."
+        }
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
@@ -38,5 +59,5 @@
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1-rewrite-opus"
+  "last_verified_by": "wave-audit-fix-opus"
 }

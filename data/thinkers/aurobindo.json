@@ -3,7 +3,10 @@
   "name": "Sri Aurobindo",
   "name_iast": "Śrī Aravinda",
   "name_devanagari": "श्री अरविन्द",
-  "alternate_names": ["Aurobindo Ghose", "Aravinda Ghoṣa"],
+  "alternate_names": [
+    "Aurobindo Ghose",
+    "Aravinda Ghoṣa"
+  ],
   "dates_low": 1872,
   "dates_high": 1950,
   "dates_tier": "confirmed-from-records",
@@ -48,7 +51,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored; the systematic metaphysics of Pūrṇa-Advaita.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "CWSA editorial consensus; universal modern attribution."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "CWSA editorial consensus; universal modern attribution."
+        }
       ],
       "genre": "prakarana",
       "language": "english",
@@ -67,7 +73,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "CWSA editorial consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "CWSA editorial consensus."
+        }
       ],
       "genre": "gita-bhashya",
       "language": "english",
@@ -86,7 +95,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "CWSA editorial consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "CWSA editorial consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "english",
@@ -98,14 +110,19 @@
       "work_id": "the-secret-of-the-veda",
       "title": "The Secret of the Veda",
       "title_iast": "The Secret of the Veda",
-      "alternate_titles": ["Hymns to the Mystic Fire"],
+      "alternate_titles": [
+        "Hymns to the Mystic Fire"
+      ],
       "composition_dates_low": 1914,
       "composition_dates_high": 1917,
       "composition_dates_notes": "Serialised in Arya 1914–1917.",
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "CWSA editorial consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "CWSA editorial consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "english",
@@ -124,7 +141,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "CWSA editorial consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "CWSA editorial consensus."
+        }
       ],
       "genre": "upanisad-bhashya",
       "language": "english",
@@ -143,7 +163,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "CWSA editorial consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "CWSA editorial consensus."
+        }
       ],
       "genre": "upanisad-bhashya",
       "language": "english",
@@ -162,7 +185,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored; translations and short commentaries.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "CWSA editorial consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "CWSA editorial consensus."
+        }
       ],
       "genre": "upanisad-bhashya",
       "language": "english",
@@ -181,7 +207,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored verse-epic; doctrinal exposition in epic form.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "CWSA editorial consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "CWSA editorial consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "english",
@@ -195,5 +224,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-corpus-v2-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-corpus-v2-opus"
+  "last_verified_by": "wave-audit-fix-opus"
 }

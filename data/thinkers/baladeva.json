@@ -11,8 +11,16 @@
   "school_color_token": "acintya",
   "sub_school": "Gauḍīya formal-Vedāntic",
   "sub_school_shade": 5,
-  "lineage_in": ["visvanatha", "madhva"],
-  "lineage_out": ["bhaktivinoda"],
+  "lineage_in": [
+    "visvanatha",
+    "madhva",
+    "badarayana",
+    "jiva-gosvami"
+  ],
+  "lineage_out": [
+    "bhaktivinoda",
+    "bhaktisiddhanta"
+  ],
   "lineage_polemical": [],
   "core_thesis": "Baladeva Vidyābhūṣaṇa is the formal Vedāntist of the Gauḍīya school. The Six Gosvāmīs' *acintya-bhedābheda* is preserved without doctrinal alteration — Kṛṣṇa as *svayaṃ-bhagavān*, the threefold *śakti* with *acintya-śakti* as load-bearing concept, the *jīva* as eternal *taṭastha-aṃśa*, *bhakti* and *prema* as *abhidheya* and *prayojana*. The contribution is the institutional achievement the school had previously lacked: a complete Brahma-Sūtra commentary in classical Vedāntic form.\n\nThe doctrinal framing draws openly on the Madhva *paramparā*. Baladeva was trained in Mādhva Vedānta before his Gauḍīya commitment, and the *Govinda-Bhāṣya* accordingly reads with a Dvaita-inflected emphasis on the irreducibility of *bheda* — clearer in places than the Gosvāmīs themselves had pressed it — while preserving the *acintya-śakti* qualification that distinguishes the Gauḍīya position from straight Madhva-Dvaita. The hybridity is structural rather than incidental, and Baladeva makes it explicit by formally embedding the Gauḍīya line in the *brahma-mādhva-gauḍīya paramparā*.\n\nWith the *Prameya-Ratnāvalī* and the *Siddhānta-Ratnam*, the school's doctrinal profile is set out in the standard scholastic forms — *bhāṣya*, *prakaraṇa*, catechetical verse with auto-commentary — by which one is recognised as a legitimate *sampradāya* in late-medieval inter-Vedāntic discourse. The *Govinda-Bhāṣya*'s successful presentation at the eighteenth-century Galta debate and the consequent admission of the Gauḍīyas to the recognised *catur-sampradāya* register the achievement institutionally. The transition completed under Baladeva is from a tradition organised around Vraja-experience and *bhakti-rasa* into one that also meets the standard expectations of pan-Indian Vedāntic legitimacy on those expectations' own terms.",
   "engaged_works": [
@@ -24,7 +32,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored formal Gauḍīya Brahma-Sūtra commentary.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
@@ -40,7 +51,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Gauḍīya doctrinal compendium.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -56,7 +70,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored summary of Gauḍīya prameyas.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -70,5 +87,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1e-opus"
+  "last_verified_by": "wave-audit-fix-opus"
 }

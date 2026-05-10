@@ -1,0 +1,22 @@
+{
+  "term_key": "sat",
+  "term_iast": "sat",
+  "term_devanagari": "सत्",
+  "literal": "being, existing; present participle of √as 'to be'",
+  "aliases": ["sat", "Sat", "satya", "satyam", "satsya", "sad-rupa"],
+  "invariant_definition": "Being, that-which-is. In Vedānta technical usage *sat* names the highest mode of reality — that which is real in the most demanding sense (uncaused, eternal, unsublatable). *Brahman* is *sat* on every Vedāntic account. The contrast is with *asat* (non-existent: the son of a barren woman) and (in Advaita) with *mithyā* (sublatable, neither *sat* nor *asat*). Schools agree on *brahman*'s being *sat*; they differ on whether the world is *sat* (Viśiṣṭādvaita, Dvaita, Vaiṣṇava bhedābheda — yes, the world is *satya* even if dependent) or *mithyā* (Advaita).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "Only *brahman* is *sat* in the strict sense (*sad-eva idam agra āsīt*, Chāndogya 6.2.1). The world is *mithyā* — not *sat*, not *asat*. *Sat* is one of the three constitutive aspects of *brahman*: *sat-cit-ānanda*.",
+      "primary_loci": ["Chāndogya-Upaniṣad-Bhāṣya 6.2.1", "Brahma-Sūtra-Bhāṣya 2.1.14"]
+    },
+    {
+      "school": "Viśiṣṭādvaita / Dvaita / Acintya-Bhedābheda",
+      "definition": "*Brahman* is *sat* in the highest sense; *cit* and *acit* are *sat* in the dependent sense. The world is *satya* (real, not *mithyā*); the demand of Advaita that real-status requires *brahman*-mode existence is rejected.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§14–25", "Tattva-Saṅkhyāna 4–8"]
+    }
+  ],
+  "see_also": ["asat", "mithya", "saccidananda", "satya", "anirvacaniya"],
+  "translator_note": "'Being' or 'existence' are acceptable but English collapses *sat* (the real-substantial), *satya* (truth/the-true), and *vidyamāna* (occurring) into one word. The Sanskrit distinguishes."
+}

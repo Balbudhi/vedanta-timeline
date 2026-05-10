@@ -21,8 +21,16 @@
   "school_color_token": "acintya",
   "sub_school": "Gauḍīya systematic philosophy",
   "sub_school_shade": 4,
-  "lineage_in": ["rupa-gosvami", "sanatana-gosvami"],
-  "lineage_out": ["visvanatha", "baladeva"],
+  "lineage_in": [
+    "rupa-gosvami",
+    "sanatana-gosvami",
+    "caitanya"
+  ],
+  "lineage_out": [
+    "visvanatha",
+    "baladeva",
+    "bhaktisiddhanta"
+  ],
   "lineage_polemical": [],
   "core_thesis": "Jīva Gosvāmī is the Gauḍīya school's systematic theologian. The *Ṣaṭ-Sandarbha* raises Caitanya's experiential teaching and the doctrinal motifs distributed across the Gosvāmī corpus into a single, fully argued *acintya-bhedābheda* metaphysics, with *pramāṇa*-theory, ontology, and soteriology articulated together rather than separately. The treatise organises itself around three working questions: by what evidence (*pramāṇa*) is the doctrine known; what is its ontological commitment; and what is the *prayojana* the doctrine licenses.\n\nOn *pramāṇa*, the *Tattva-Sandarbha* argues that *śabda* — scriptural testimony — is the operative *pramāṇa* for the matter at hand, since the relations under investigation exceed *pratyakṣa* and are not derivable by *tarka* alone. Within *śabda*, the *Bhāgavata-Purāṇa* is established as the natural commentary on the *Brahma-Sūtras* and the highest scriptural authority for the school. On ontology, the *Bhagavat-Sandarbha* sets out the threefold *śakti*-doctrine: *svarūpa-śakti* (*cit*, the inner power), *jīva-śakti* (*taṭasthā*, the boundary power), *māyā-śakti* (*bahiraṅgā*, the external power). On soteriology, the *Bhakti-Sandarbha* establishes *bhakti* as the unique *abhidheya* and the *Prīti-Sandarbha* establishes *prema* — *prīti* — as the *prayojana*, the highest *puruṣārtha*.\n\nThe load-bearing concept is *acintya-śakti*. The argument is given at *Tattva-Sandarbha* §51 ff. and developed across the subsequent *Sandarbhas*. *Tarka* — dialectical reasoning — adjudicates relations of *bheda* and *abheda* by exclusion: of two terms in some respect, either they are non-identical or identical. The relation of *śakti* to *śaktimat* is one in which both *bheda* (the power is functionally distinct from its possessor) and *abheda* (the power is not a separate substance) hold non-trivially in the same respect. *Acintya-śakti* names this structural feature: the inconceivable-by-*tarka* character of the *śakti–śaktimat* relation when the *śaktimat* is Bhagavān. The *acintya* qualifier is therefore not a dodge but a positive metaphysical commitment about the limits of dialectic relative to ontology, warranted by *śabda*.\n\nThe *jīva* falls out of this structure as eternal, atomic (*aṇu*), and *taṭastha* — constitutively oriented for relation to Bhagavān, neither identical with him nor fully separable from him. *Prema*, especially in *mādhurya-rasa*, is the actualisation of this relation in its most intense form. The *Sarva-Saṃvādinī* sharpens the *Sandarbhas*' positions against rival Vedānta schools — Advaita, Viśiṣṭādvaita, Madhva-Dvaita, the Nimbārka and Bhāskara *bhedābheda* lines — and demonstrates that *acintya-bhedābheda* survives technical cross-examination on its own *pramāṇa*-theoretic and ontological terms.",
   "engaged_works": [
@@ -30,11 +38,21 @@
       "work_id": "sat-sandarbha",
       "title": "Sat-Sandarbha",
       "title_iast": "Ṣaṭ-Sandarbha",
-      "alternate_titles": ["Tattva-Sandarbha", "Bhagavat-Sandarbha", "Paramātma-Sandarbha", "Kṛṣṇa-Sandarbha", "Bhakti-Sandarbha", "Prīti-Sandarbha"],
+      "alternate_titles": [
+        "Tattva-Sandarbha",
+        "Bhagavat-Sandarbha",
+        "Paramātma-Sandarbha",
+        "Kṛṣṇa-Sandarbha",
+        "Bhakti-Sandarbha",
+        "Prīti-Sandarbha"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored six-fold systematic Gauḍīya exposition.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -50,7 +68,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Gauḍīya doctrinal compendium.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -64,5 +85,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1e-opus"
+  "last_verified_by": "wave-audit-fix-opus"
 }

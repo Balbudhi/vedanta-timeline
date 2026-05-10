@@ -2,17 +2,27 @@
   "id": "vacaspati",
   "name": "Vachaspati Misra",
   "name_iast": "Vāchaspati Miśra",
-  "alternate_names": ["Vācaspati"],
+  "alternate_names": [
+    "Vācaspati"
+  ],
   "dates_low": 900,
   "dates_high": 980,
   "dates_tier": "consensus-textual",
-  "dates_notes": "Polymath; dates fixed by his own colophons; commented across six darśanas.",
+  "dates_notes": "Polymath; dates fixed by his own colophons; commented across six darśanas. The Nyāya-Sūcī-Nibandha colophon gives a date readable as either 841 CE (Vikrama era) or 976 CE (Śaka era); modern scholarship (Stcherbatsky; Potter) splits, with the corpus adopting the later reading consistent with Mīmāṃsā citations.",
   "school": "Advaita",
   "school_color_token": "advaita",
   "sub_school": "Bhāmatī-Advaita",
   "sub_school_shade": 2,
-  "lineage_in": ["mandana", "uddyotakara", "vyasa-bhasya", "kumarila"],
-  "lineage_out": ["appayya", "udayana"],
+  "lineage_in": [
+    "mandana",
+    "uddyotakara",
+    "vyasa-bhasya",
+    "kumarila"
+  ],
+  "lineage_out": [
+    "appayya",
+    "udayana"
+  ],
   "lineage_polemical": [],
   "core_thesis": "Where does *avidyā* (positive ignorance) reside? Vāchaspati Miśra's answer founds the *Bhāmatī* sub-school: the *jīva* is its locus (*āśraya*); *Brahman* is only its content (*viṣaya*). Ignorances are accordingly plural, one per *jīva*, and the *jīva* functions as the immediate seat of *adhyāsa* (superimposition) even though it is ultimately non-different from Brahman. Two consequences follow that the rival Vivaraṇa line will spend centuries contesting. First, Īśvara's cosmic *māyā* and the *jīva*'s individual avidyā are analytically distinct, since their loci differ. Second, *karma* enters the path to liberation in a qualified way: it cannot produce *jñāna*, but the prepared *antaḥkaraṇa* without which *śravaṇa* fails to mature into *aparokṣa-jñāna* is itself a karmic achievement, and *manana* and *nididhyāsana* are read as *prasaṅkhyāna*-like cultivations that ripen the rise of immediate cognition. Vāchaspati's commentaries across six *darśanas* — Advaita, Yoga, Nyāya, Mīmāṃsā, Sāṃkhya, Vyākaraṇa — earn him the epithet *Ṣaḍ-Darśanī-Vallabha*; the *Bhāmatī* itself sets the agenda for the post-Śaṅkara dialectic.",
   "engaged_works": [
@@ -46,7 +56,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored sub-commentary on Vyāsa's Yoga-Bhāṣya on Patañjali's Yoga-Sūtras.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -65,7 +78,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored sub-commentary on Uddyotakara's Nyāya-Vārttika; foundational to later Naiyāyika scholasticism.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -79,5 +95,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1-cleanup-opus"
+  "last_verified_by": "wave-audit-fix-opus"
 }

@@ -2,7 +2,9 @@
   "id": "vallabha",
   "name": "Vallabhacharya",
   "name_iast": "Vallabhācārya",
-  "alternate_names": ["Vallabha"],
+  "alternate_names": [
+    "Vallabha"
+  ],
   "dates_low": 1479,
   "dates_high": 1531,
   "dates_tier": "confirmed-from-records",
@@ -21,8 +23,12 @@
   "school_color_token": "shuddha",
   "sub_school": "Śuddhādvaita (school-defining)",
   "sub_school_shade": 3,
-  "lineage_in": [],
-  "lineage_out": ["vitthalanatha"],
+  "lineage_in": [
+    "badarayana"
+  ],
+  "lineage_out": [
+    "vitthalanatha"
+  ],
   "lineage_polemical": [],
   "core_thesis": "Vallabha's *śuddhādvaita* — pure non-dualism — turns on a single technical claim: *avikṛta-pariṇāma-vāda*, transformation without modification. Brahman, identified with Kṛṣṇa, is the sole reality and is absolutely non-dual; the world and the *jīvas* are equally real, precisely as Brahman's own *aṃśas*; and the relation between Brahman and world is one of genuine *pariṇāma* in which Brahman is nevertheless *avikṛta* — un-modified, undiminished, not changed in itself by what proceeds from it.\n\nThe *Aṇu-Bhāṣya* on *Brahma-Sūtra* 1.4.26 (*ātmakṛteḥ pariṇāmāt*) is the load-bearing text. Vallabha reads the sūtra as licensing *pariṇāma* directly: the world is the real transformation of Brahman by self-action (*ātmakṛti*). The qualifier *avikṛta* does the structural work that distinguishes the position from its rivals. It is not Sāṃkhya *pariṇāma*, in which *prakṛti* is genuinely modified; *prakṛti*-style modification would compromise Brahman's *paripūrṇa*, undiminishable nature. It is not Advaita *vivarta*, in which the world is a non-real appearance of an unmodified substrate; the world is *satya*, not *mithyā*. It is *avikṛta-pariṇāma*: Brahman really transforms, and Brahman is really not modified, and these are co-tenable because the transformation is of an order in which *sat-cit-ānanda* are unfolded (*āvirbhāva*) and refolded (*tirobhāva*) as conditions on Brahman's own qualities, not as alterations of Brahman itself.\n\nThe ontology of *jīva* and *jagat* falls out of this directly. *Jīva* is *aṃśa* of Brahman manifesting *sat* and *cit* with *ānanda* concealed (*tirohita*). *Jagat* is *aṃśa* manifesting *sat* with *cit* and *ānanda* concealed. Liberation is not the realisation of an acosmic identity but the *āvirbhāva* of *ānanda* in the *jīva* — concealed quality unfolded — through Bhagavān's *anugraha*.\n\nSoteriologically the school's distinctive path is *Puṣṭi-Mārga*, the path of grace. Liberation is bestowed by Kṛṣṇa's free *anugraha* on the *bhakta* he selects. *Seva* — Deity-service — is the operative practice. The position should not be conflated with Śaṅkara's Advaita despite the shared *advaita* label; *śuddhādvaita* and Advaita differ exactly on the world's status, and the difference is structural, not verbal.",
   "engaged_works": [
@@ -34,7 +40,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored for the portion Vallabha himself completed; the third-pāda-onward continuation was by his son Viṭṭhalanātha.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
@@ -55,7 +64,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored systematic exposition of Śuddhādvaita.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -71,7 +83,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Bhāgavata commentary; Vallabha completed a portion, with Viṭṭhalanātha continuing.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -87,7 +102,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored sixteen short treatises foundational for the Puṣṭimārga.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -279,7 +297,10 @@
         }
       ],
       "why_this_passage": "This is a fair doctrinal center of Vallabha's ontology because it states, in compressed form, why Brahman is not merely an external maker but the world's real constitutive cause. It also shows the hallmark Śuddhādvaita move: names and forms are derivative effect-properties, while the underlying reality remains Brahman's own sat-cit-ānanda.",
-      "topic_tags": ["ontology", "causation"],
+      "topic_tags": [
+        "ontology",
+        "causation"
+      ],
       "sub_axes": [
         "status-of-the-world",
         "type-of-cause",
@@ -557,7 +578,10 @@
         }
       ],
       "why_this_passage": "This is a fair selection because it does not isolate a merely devotional flourish; it shows the actual Śuddhādvaita sequence by which brahmajñāna removes ignorance, yet bhakti and divine choosing complete Puruṣottama-attainment. It also comes from the Vallabha-authored early portion of the bhāṣya, so it represents his own soteriological architecture rather than only later Puṣṭimārga elaboration.",
-      "topic_tags": ["soteriology", "ethics-devotion"],
+      "topic_tags": [
+        "soteriology",
+        "ethics-devotion"
+      ],
       "sub_axes": [
         "effective-means-of-moksa",
         "role-of-bhakti",
@@ -778,7 +802,10 @@
         }
       ],
       "why_this_passage": "This is one of the most representative places to see why Vallabha cannot be collapsed into Advaita's vivarta theory: he explicitly insists on real pariṇāma while preserving Brahman's avikṛtatva. The gold analogy is not an ornamental example here; it is the doctrinal mechanism by which Śuddhādvaita makes the world genuinely real without making Brahman compromised or diminished.",
-      "topic_tags": ["causation", "ontology"],
+      "topic_tags": [
+        "causation",
+        "ontology"
+      ],
       "sub_axes": [
         "type-of-cause",
         "vivarta-vs-parinama",
@@ -1015,7 +1042,9 @@
         }
       ],
       "why_this_passage": "This is the cleanest short statement of Vallabha's jīva-Brahman relation in the accessible authored corpus: the soul is a real aṃśa, and the doctrine is anchored in scriptural designation rather than reduced to an empirical category. That makes it a fair representative passage for Śuddhādvaita's refusal both of absolute identity without remainder and of total separateness.",
-      "topic_tags": ["ontology"],
+      "topic_tags": [
+        "ontology"
+      ],
       "sub_axes": [
         "jiva-brahman-relation",
         "status-of-individual-selves",
@@ -1032,5 +1061,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave2-codex"
+  "last_verified_by": "wave-audit-fix-opus"
 }

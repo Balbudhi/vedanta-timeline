@@ -2,7 +2,9 @@
   "id": "brahmananda",
   "name": "Brahmananda Sarasvati",
   "name_iast": "Brahmānanda Sarasvatī",
-  "alternate_names": ["Gauḍa-Brahmānanda"],
+  "alternate_names": [
+    "Gauḍa-Brahmānanda"
+  ],
   "dates_low": 1650,
   "dates_high": 1750,
   "dates_tier": "consensus-textual",
@@ -11,8 +13,12 @@
   "school_color_token": "advaita",
   "sub_school": "Vivaraṇa-Advaita",
   "sub_school_shade": 4,
-  "lineage_in": ["madhusudana"],
-  "lineage_out": [],
+  "lineage_in": [
+    "madhusudana"
+  ],
+  "lineage_out": [
+    "anantakrishna-sastri"
+  ],
   "lineage_polemical": [],
   "core_thesis": "Gauḍa-Brahmānanda Sarasvatī (c. 1650–1750) is the great defender of Madhusūdana within the *Advaita-Siddhi* tradition. Standing in Madhusūdana's disciple-line, he writes the *Laghu-Candrikā* (also called the *Gauḍa-Brahmānandī*) as a sustained reply to the second-stage Mādhva attack on Advaita launched by the Vyāsatīrtha school — most notably the *Nyāyāmṛta-Tarangiṇī* sub-commentary tradition that targets the *Advaita-Siddhi* point by point. He inherits the Vivaraṇa positions in their Madhusūdana-refined form: Brahman as locus of *bhāva-rūpā-anirvacanīya-avidyā*; *anirvacanīya-mithyātva*; *jīva* as *cidābhāsa*. He develops them with the technical resources of mature Navya-Nyāya, matching the Mādhva opponents' terminological precision. His reply makes the *Advaita-Siddhi* / *Nyāyāmṛta* exchange tri-generational — Madhusūdana, then Vyāsatīrtha's school, then Brahmānanda — and keeps the polemic live; both sides are preserved and read together to this day. He is to be sharply distinguished from the modern Brahmānanda Sarasvatī (1871–1953), Śaṅkarācārya of Jyotirmath.",
   "engaged_works": [
@@ -24,7 +30,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored sub-commentary on the Advaita-Siddhi.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -40,7 +49,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored extended sub-commentary on the Advaita-Siddhi.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -54,5 +66,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1b-opus"
+  "last_verified_by": "wave-audit-fix-opus"
 }

@@ -2,7 +2,9 @@
   "id": "jayatirtha",
   "name": "Jayatirtha",
   "name_iast": "Jayatīrtha",
-  "alternate_names": ["Ṭīkācārya"],
+  "alternate_names": [
+    "Ṭīkācārya"
+  ],
   "dates_low": 1345,
   "dates_high": 1388,
   "dates_tier": "consensus-textual",
@@ -11,8 +13,13 @@
   "school_color_token": "dvaita",
   "sub_school": "Dvaita scholastic",
   "sub_school_shade": 2,
-  "lineage_in": ["madhva"],
-  "lineage_out": ["vyasatirtha"],
+  "lineage_in": [
+    "madhva"
+  ],
+  "lineage_out": [
+    "vyasatirtha",
+    "bannanje"
+  ],
   "lineage_polemical": [],
   "core_thesis": "Jayatīrtha (called *Ṭīkācārya*, \"Master of Sub-Commentary\") is the systematiser through whom Madhva's *Tattvavāda* becomes a fully scholastic *darśana*. He introduces no new doctrine. What he supplies is dialectical apparatus: each Madhva position is restated in formal *pramāṇa*-and-*anumāna* form, each contested *adhikaraṇa* of the *Brahma-Sūtra-Bhāṣya* and each contested *kārikā* of the *Anuvyākhyāna* is fixed against alternative construals, and the school's standard answers to its principal opponents are engineered.\n\nFour interpretive choices govern the corpus. First, *bheda* (difference) is *svarūpa-svabhāva*, constitutive of the natures of the relata, and not an additional entity attached to those natures. The standard regress-objection (\"if *A* differs from *B*, a further *bheda* is needed to differentiate *A*'s *bheda* from *B*'s *bheda*, and so on\") fails because it presupposes that *bheda* is the kind of item that needs further differentiation; on the *svarūpa-svabhāva* construal it is not.\n\nSecond, *viśeṣa* is a self-distinguishing relational element that grounds intra-substantial differentiation without numerical multiplication of substances. Where Madhva had introduced the device, Jayatīrtha specifies the conditions under which it can be appealed to and the inferences in which it can do work.\n\nThird, *sākṣi* (witness-consciousness) is a *pramāṇa* in its own right; its verdicts are not subject to *bādha* (sublation) by mediated cognition. The asymmetry runs in one direction only: inference may be corrected by *sākṣi*, but not the reverse.\n\nFourth, the *jīva*'s relation to Viṣṇu as *bimba-pratibimba* (original-and-image) is asymmetric. The image owes everything to the original; the original owes nothing to the image. Reciprocity here is excluded.\n\nVyāsatīrtha's *Nyāyāmṛta* and Rāghavendra's *Pariṃala* both presuppose this scaffolding.",
   "engaged_works": [
@@ -24,7 +31,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored sub-commentary on Madhva's Anuvyākhyāna.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -40,7 +50,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored sub-commentary on Madhva's Brahma-Sūtra-Bhāṣya.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -56,7 +69,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored polemical compendium.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
@@ -70,5 +86,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1d-opus"
+  "last_verified_by": "wave-audit-fix-opus"
 }

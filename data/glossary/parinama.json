@@ -1,0 +1,37 @@
+{
+  "term_key": "parinama",
+  "term_iast": "pariṇāma",
+  "term_devanagari": "परिणाम",
+  "literal": "transformation, real change-into-another-form; from pari- + √nam 'to bend'",
+  "aliases": ["parinama", "pariṇāma", "Pariṇāma", "pariṇāmaḥ", "parinama-vada", "pariṇāma-vāda"],
+  "invariant_definition": "Real transformation — the substrate genuinely changes into the new form (as milk into curd). Sāṅkhya is the paradigm *pariṇāma-vādin*: *prakṛti* really evolves into the manifest world. In Vedānta, *pariṇāma-vāda* is the position of Bhāskara, Viśiṣṭādvaita (with respect to *acit*), Dvaita (Viṣṇu causes real transformations of *prakṛti*), and Acintya-Bhedābheda. Advaita rejects *pariṇāma-vāda* in favor of *vivarta-vāda*. Vallabha modifies it as *avikṛta-pariṇāma* — transformation without modification of essence.",
+  "per_school": [
+    {
+      "school": "Bhedābheda (Bhāskara)",
+      "definition": "*Pariṇāma-vāda* in the strong sense: *brahman* really transforms (under *upādhi*) into the world. The world is *brahman*'s real product, not its appearance.",
+      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 2.1.14"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Pariṇāma* applies to *acit* (matter) — *prakṛti* really evolves into the manifest world under the Lord's will. *Brahman*-essential nature does not undergo *pariṇāma*; it remains immutable as *cit*-essence.",
+      "primary_loci": ["Śrī-Bhāṣya 2.1.14, 2.3"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "Real *pariṇāma* of *prakṛti* under Viṣṇu's causal will. *Brahman* (Viṣṇu) does not undergo modification; *prakṛti* does.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 2.1ff"]
+    },
+    {
+      "school": "Advaita",
+      "definition": "*Pariṇāma-vāda* is rejected: *brahman* cannot really transform, since it is partless and immutable. What looks like transformation is *vivarta*.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.1.14"]
+    },
+    {
+      "school": "Śuddhādvaita (Vallabha)",
+      "definition": "*Avikṛta-pariṇāma* — transformation without modification: a third position between *vivarta* and ordinary *pariṇāma*.",
+      "primary_loci": ["Aṇu-Bhāṣya 1.1.2"]
+    }
+  ],
+  "see_also": ["vivarta", "avikrta-parinama", "satkarya-vada", "prakrti"],
+  "translator_note": "'Real transformation' is the standard gloss. The *pariṇāma*-*vivarta* opposition is fundamental and should be flagged in English exposition."
+}

@@ -2,7 +2,10 @@
   "id": "ramanuja",
   "name": "Ramanuja",
   "name_iast": "Rāmānuja",
-  "alternate_names": ["Yatirāja", "Bhāṣyakāra"],
+  "alternate_names": [
+    "Yatirāja",
+    "Bhāṣyakāra"
+  ],
   "dates_low": 1017,
   "dates_high": 1137,
   "dates_tier": "contested",
@@ -11,8 +14,21 @@
   "school_color_token": "vishishtadvaita",
   "sub_school": "Viśiṣṭādvaita (school-defining)",
   "sub_school_shade": 3,
-  "lineage_in": ["yamuna", "bodhayana"],
-  "lineage_out": ["sudarsana", "vedanta-desika", "pillai-lokacarya"],
+  "lineage_in": [
+    "yamuna",
+    "bodhayana",
+    "badarayana",
+    "upavarsa",
+    "yadava-prakasa"
+  ],
+  "lineage_out": [
+    "sudarsana",
+    "vedanta-desika",
+    "pillai-lokacarya",
+    "ramabhadracarya",
+    "rangaramanuja-muni",
+    "uttamur-viraraghavacharya"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "yadava-prakasa",
@@ -35,7 +51,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored; the school-defining commentary on the Brahma-Sūtra.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
@@ -51,7 +70,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored independent treatise.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -67,7 +89,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored compact commentary on the Brahma-Sūtra.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
@@ -83,7 +108,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored shorter commentary on the Brahma-Sūtra.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
@@ -99,7 +127,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Gītā-commentary.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "gita-bhashya",
       "language": "sanskrit",
@@ -111,7 +142,11 @@
       "work_id": "gadya-trayam",
       "title": "Gadya-Trayam",
       "title_iast": "Gadya-Trayam",
-      "alternate_titles": ["Śaraṇāgati-Gadya", "Śrīraṅga-Gadya", "Vaikuṇṭha-Gadya"],
+      "alternate_titles": [
+        "Śaraṇāgati-Gadya",
+        "Śrīraṅga-Gadya",
+        "Vaikuṇṭha-Gadya"
+      ],
       "ascription_tier": "traditionally-ascribed",
       "ascription_notes": "Traditionally ascribed and accepted in tradition; modern scholarship occasionally questions individual passages.",
       "genre": "stotra",
@@ -139,5 +174,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1c-opus"
+  "last_verified_by": "wave-audit-fix-opus"
 }
