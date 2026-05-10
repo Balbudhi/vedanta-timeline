@@ -1104,6 +1104,35 @@ function scrollDotIntoView(t) {
 function closeDetailPane() { closePanel(); }
 closeDetail.addEventListener("click", closePanel);
 
+// Click-on-empty-timeline-area closes the panel. Lets the user "click back
+// to the map" instead of hunting for the close button. Drag/pan and clicks
+// on interactive timeline elements (dots, edges, lane rail, era strip,
+// axis, view-toggle, etc.) are exempted so existing flows still work.
+(function wireTimelineDismiss() {
+  if (!scroller) return;
+  let downX = 0, downY = 0, downOnScroller = false;
+  scroller.addEventListener("pointerdown", (e) => {
+    if (e.button !== 0 && e.pointerType === "mouse") { downOnScroller = false; return; }
+    downX = e.clientX; downY = e.clientY;
+    downOnScroller = true;
+  });
+  scroller.addEventListener("pointerup", (e) => {
+    if (!downOnScroller) return;
+    downOnScroller = false;
+    if (!document.body.classList.contains("is-detail-open")) return;
+    // Drag threshold: if the pointer moved >4px between down and up,
+    // treat it as a pan, not a click.
+    if (Math.abs(e.clientX - downX) + Math.abs(e.clientY - downY) > 4) return;
+    // Don't dismiss when the user clicked an interactive timeline target;
+    // their own handlers (openThinker, lineage hover, etc.) take precedence.
+    const target = e.target;
+    if (target && target.closest && target.closest(
+      ".thinker-dot, .lineage-edge, .lane-row, .lane-rail, .era-strip, .timeline-axis, button, a, input, [role='tab']"
+    )) return;
+    closePanel();
+  });
+})();
+
 // ---------- detail rendering -----------
 function renderDetail(t) {
   return [
