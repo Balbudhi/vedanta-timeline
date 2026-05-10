@@ -3,27 +3,242 @@
   "term_iast": "pratītya-samutpāda",
   "term_devanagari": "प्रतीत्यसमुत्पाद",
   "literal": "dependent co-arising; from prati-i 'to depend on, to come back to' + sam-ut-√pad 'to arise together'",
-  "aliases": ["pratitya-samutpada", "pratītya-samutpāda", "Pratītya-Samutpāda", "pratītya-samutpādaḥ"],
+  "aliases": [
+    "pratitya-samutpada",
+    "pratītya-samutpāda",
+    "Pratītya-Samutpāda",
+    "pratītya-samutpādaḥ"
+  ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus",
+  "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "*Pratītya-samutpāda* names the principle that nothing arises in isolation — every existent is the joint outcome of conditions other than itself. In the early Buddhist *abhidharma* the principle is given concrete form in the twelve-membered chain (*dvādaśa-aṅga*: *avidyā* → *saṃskāra* → *vijñāna* → *nāma-rūpa* → *ṣaḍ-āyatana* → *sparśa* → *vedanā* → *tṛṣṇā* → *upādāna* → *bhava* → *jāti* → *jarā-maraṇa*). In Nāgārjuna's Mādhyamaka the principle is identified with *śūnyatā* itself: at MMK 24.18, *yaḥ pratītya-samutpādaḥ śūnyatāṃ tāṃ pracakṣmahe* — \"that which is dependent co-arising, that we declare to be emptiness.\" The identification fixes the Mādhyamaka reading of emptiness: to lack *svabhāva* is precisely to arise in dependence on conditions, and the doctrine of dependent arising is not a doctrine of how *svabhāva* bearing entities causally produce one another but a doctrine that there are no *svabhāva* bearing entities to do the producing.",
   "per_school": [
     {
+      "school": "Advaita",
+      "definition": "Advaita engages *pratītya-samutpāda* at *Brahma-Sūtra-Bhāṣya* 2.2.18-25 as the Buddhist thesis that *citta-caitta*-s arise by depending on causal conditions within a *kṣaṇika-santāna*, and Śaṅkara argues that such a model either abandons momentariness or destroys determinate causal order. [cite://sankara/brahma-sutra-bhasya/2.2.22-vainasika-nirodha] The decisive objection is *pratyabhijñā* and *anusmṛti*: the judgment `aham ado 'drākṣam idaṃ paśyāmi` requires an enduring subject, so a merely dependently serial succession cannot account for experience, memory, or mokṣa. [cite://sankara/brahma-sutra-bhasya/2.2.25-anusmrti]",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 2.2.18-25"
+      ],
+      "citations": [
+        {
+          "cite": "cite://sankara/brahma-sutra-bhasya/2.2.22-vainasika-nirodha",
+          "locus_short": "BSBh 2.2.22"
+        },
+        {
+          "cite": "cite://sankara/brahma-sutra-bhasya/2.2.25-anusmrti",
+          "locus_short": "BSBh 2.2.25"
+        }
+      ]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Vedārtha-Saṅgraha",
+        "Śrī-Bhāṣya 2.2"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "Madhva reconstructs the Buddhist position as a momentary world and an aggregate of atoms conditioned by time and karma, with the five-skandha continuum treated as the locus of bondage and release. [cite://madhva/anuvyakhyana/2.2.172-175-bauddha-paksa] Tattva-vāda rejects this by appeal to *pratyabhijñā* and the inferable stability of entities, and it further treats *śūnyavāda* as a nirviśeṣa conclusion that cannot sustain real difference. [cite://madhva/anuvyakhyana/2.2.184-pratyabhijna] [cite://madhva/anuvyakhyana/2.2.230-sunyavada]",
+      "primary_loci": [
+        "Anuvyākhyāna 2.2.172-184",
+        "Anuvyākhyāna 2.2.229-230"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/anuvyakhyana/2.2.172-175-bauddha-paksa",
+          "locus_short": "Anuvy. 2.2.172-175"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/2.2.184-pratyabhijna",
+          "locus_short": "Anuvy. 2.2.184"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/2.2.230-sunyavada",
+          "locus_short": "Anuvy. 2.2.230"
+        }
+      ]
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Bhāskara materials",
+        "Yādava-Prakāśa materials"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Paramātma-Sandarbha §§42-45",
+        "Baladeva materials"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Daśa-Ślokī",
+        "Vedānta-Pārijāta-Saurabha"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Aṇu-Bhāṣya"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "Sāṃkhya construes origination through *satkāryavāda*: the effect is real as precontained in its cause, so production is manifestation or *pariṇāma* rather than the rise of an intrinsically new, condition-only event. [cite://isvarakrsna/samkhya-karika/9] The *Sāṃkhya-Sūtra* accordingly rejects *kṣaṇikatva*, *vijñānamātra*, and *śūnyatā* by appeal to *pratyabhijñā*, the impossibility of a stable effect under sheer momentariness, and the givenness of external objects. [cite://kapila/samkhya-sutra/1.34-1.44-kṣaṇikatva-vijñānamātra-śūnyatā]",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 9",
+        "Sāṃkhya-Sūtra 1.34-1.44"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/9",
+          "locus_short": "SK 9"
+        },
+        {
+          "cite": "cite://kapila/samkhya-sutra/1.34-1.44-kṣaṇikatva-vijñānamātra-śūnyatā",
+          "locus_short": "SS 1.34-1.44"
+        }
+      ]
+    },
+    {
+      "school": "Yoga",
+      "definition": "Where Yoga confronts the Buddhist thesis of momentary dependent cognition, Vyāsa argues that a *citta* made of `pratyayamātra` and `kṣaṇika` episodes would make *ekāgratā*, *vikṣepa*, memory, and *karmāśaya* continuity unintelligible. [cite://vyasa/yoga-bhasya/1.32-kṣaṇika-citta-nirāsa] Yoga therefore explains continuity through one enduring *citta*'s *pariṇāma*-s rather than through a merely serial production of mutually vanishing moments. [cite://vyasa/yoga-bhasya/1.32-kṣaṇika-citta-nirāsa]",
+      "primary_loci": [
+        "Yoga-Bhāṣya on Yoga-Sūtra 1.32"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vyasa/yoga-bhasya/1.32-kṣaṇika-citta-nirāsa",
+          "locus_short": "YBh 1.32"
+        }
+      ]
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "Nyāya-Vaiśeṣika addresses the Buddhist background of *pratītya-samutpāda* by opening a *kṣaṇabhaṅga* examination and by later rejecting *sarvaśūnyatā* through the insistence that *bhāva*-s are established by *svabhāva*. [cite://gautama/nyaya-sutra/3.2.10-17-kṣaṇabhaṅga] [cite://gautama/nyaya-sutra/4.1.37-40] Vātsyāyana's bhāṣya makes the same point against momentariness: if entities were utterly momentary, causal regularity and realist ontology could not be maintained. [cite://vatsyayana/nyaya-bhasya/3.2.10-kṣaṇikatva]",
+      "primary_loci": [
+        "Nyāya-Sūtra 3.2.10-17",
+        "Nyāya-Sūtra 4.1.37-40",
+        "Nyāya-Bhāṣya on Nyāya-Sūtra 3.2.10"
+      ],
+      "citations": [
+        {
+          "cite": "cite://gautama/nyaya-sutra/3.2.10-17-kṣaṇabhaṅga",
+          "locus_short": "NS 3.2.10-17"
+        },
+        {
+          "cite": "cite://gautama/nyaya-sutra/4.1.37-40",
+          "locus_short": "NS 4.1.37-40"
+        },
+        {
+          "cite": "cite://vatsyayana/nyaya-bhasya/3.2.10-kṣaṇikatva",
+          "locus_short": "NBh 3.2.10"
+        }
+      ]
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Śabara-Bhāṣya",
+        "Ślokavārttika anti-Buddhist loci"
+      ],
+      "citations": []
+    },
+    {
       "school": "Mādhyamaka",
-      "definition": "Identical with *śūnyatā* (MMK 24.18). The Mādhyamaka *catuṣkoṭi* refutes *svabhāva* realist construals of every link of the *dvādaśa-aṅga*: arising from self, from other, from both, and from neither are all rejected at MMK 1, with the conclusion that *pratītya-samutpāda* is the very content of emptiness.",
-      "primary_loci": ["Mūla-Madhyamaka-Kārikā 1 (pratyaya-parīkṣā)", "Mūla-Madhyamaka-Kārikā 24.18", "Mūla-Madhyamaka-Kārikā 26 (dvādaśa-aṅga-parīkṣā)"]
+      "definition": "For Mādhyamaka, *pratītya-samutpāda* is precisely *śūnyatā*, since whatever arises dependently is devoid of *svabhāva* and is therefore only *upādāya-prajñapti* within the *madhyamā pratipad*. [cite://nagarjuna/mula-madhyamaka-karika/24.18] [cite://nagarjuna/mula-madhyamaka-karika/24.19] [cite://nagarjuna/vigraha-vyavartani/22] Nāgārjuna accordingly treats seeing dependent arising as seeing duḥkha, samudaya, nirodha, and mārga themselves, not as discovering an occult causal substrate beneath phenomena. [cite://nagarjuna/mula-madhyamaka-karika/24.40]",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 24.18-19, 24.40",
+        "Vigraha-Vyāvartanī 22"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.18",
+          "locus_short": "MMK 24.18"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.19",
+          "locus_short": "MMK 24.19"
+        },
+        {
+          "cite": "cite://nagarjuna/vigraha-vyavartani/22",
+          "locus_short": "VV 22"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.40",
+          "locus_short": "MMK 24.40"
+        }
+      ]
     },
     {
       "school": "Yogācāra",
-      "definition": "*Pratītya-samutpāda* characterises the *paratantra-svabhāva* (the dependently arisen cognitive flow) of the *trisvabhāva* analysis. The *ālaya-vijñāna* substrate carries *vāsanā* seeds across moments, and the dependent arising of cognitive content is grounded in the karmic shaping of the *ālaya* stream rather than in interactions among extra-cognitive entities.",
-      "primary_loci": ["Asaṅga, Mahāyāna-Saṅgraha 1–2", "Vasubandhu, Triṃśikā 1–17"]
+      "definition": "Yogācāra internalizes dependent arising as *paratantra-svabhāva*: the flow of *vikalpa* is *pratyayodbhava*, arising from conditions rather than from self-grounded external substances. [cite://vasubandhu/trimsika/21] The perfected nature is just the perpetual absence within that dependent stream of the imagined duality, so *pratītya-samutpāda* is read through the *trisvabhāva* analysis rather than through external causal realism. [cite://vasubandhu/trimsika/20] [cite://vasubandhu/trimsika/22]",
+      "primary_loci": [
+        "Triṃśikā 20-22"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/trimsika/20",
+          "locus_short": "Tr 20"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/21",
+          "locus_short": "Tr 21"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/22",
+          "locus_short": "Tr 22"
+        }
+      ]
     },
     {
-      "school": "Vedānta (Bādarāyaṇa, Śaṅkara)",
-      "definition": "The Vedāntic refutation at Brahma-Sūtra 2.2.18–32 engages the *pratītya-samutpāda* principle as the load-bearing thesis of the Buddhist *vaināśika-pakṣa*: a chain of momentary dependently arisen factors cannot ground continuity of self, *karma* and *phala*, or *mokṣa* without an enduring substrate. The Vedāntic reply is not a denial of dependence but the insistence that dependence requires an enduring substrate — *brahman* as the *jagat-kāraṇa* — for the dependently arisen world to be intelligible at all.",
-      "primary_loci": ["Brahma-Sūtra 2.2.18–32", "Brahma-Sūtra-Bhāṣya (Śaṅkara) 2.2.20–25"]
+      "school": "Pratyabhijñā / Trika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Īśvara-Pratyabhijñā-Vimarśinī anti-Buddhist loci",
+        "Pratyabhijñā-Hṛdayam"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Jainism",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Tattvārtha-Sūtra"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "No on-disk grammatical primaries were supplied for this phase, and the school is not being indexed here as having a distinct substantive doctrine under the specifically Buddhist heading `pratītya-samutpāda`."
     }
   ],
-  "see_also": ["sunyata", "catuskoti", "svatantra", "paratantra", "alaya-vijnana", "trisvabhava", "samvrti-satya"],
+  "see_also": [
+    "sunyata",
+    "catuskoti",
+    "svatantra",
+    "paratantra",
+    "alaya-vijnana",
+    "trisvabhava",
+    "samvrti-satya"
+  ],
   "translator_note": "The standard glosses 'dependent origination' and 'dependent arising' are both acceptable; 'co-arising' captures the *sam* prefix. The principle is widely misread in popular sources as a Buddhist doctrine of universal causation; in its Mādhyamaka use the *positive* causal claim is precisely what the doctrine refuses, since causation in any *svabhāva* realist sense would presuppose entities whose *svabhāva* the doctrine denies."
 }
