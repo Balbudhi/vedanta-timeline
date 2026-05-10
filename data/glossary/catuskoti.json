@@ -1,0 +1,27 @@
+{
+  "term_key": "catuskoti",
+  "term_iast": "catuṣkoṭi",
+  "term_devanagari": "चतुष्कोटि",
+  "literal": "four-cornered, four-pointed; from catur 'four' + koṭi 'corner, extreme, alternative'",
+  "aliases": ["catuskoti", "catuṣkoṭi", "Catuṣkoṭi", "catuṣkoṭiḥ", "catuṣkoṭyāḥ", "chatuskoti"],
+  "invariant_definition": "The *catuṣkoṭi* is the four-position dialectical schema by which Nāgārjuna prosecutes Mādhyamaka analysis. For any candidate metaphysical thesis P, the four corners are: (i) P, (ii) ¬P, (iii) P ∧ ¬P, (iv) ¬(P ∧ ¬P) — equivalently ¬P ∧ ¬¬P. Nāgārjuna's *prasaṅga* (consequence-refutation) argument refutes each corner in turn, leaving no positive thesis advanced. The structure is most explicitly applied to the case of *nirvāṇa* (MMK 25), where it is shown that *nirvāṇa* cannot coherently be characterised as existent, non-existent, both, or neither. The *catuṣkoṭi* is *not* a violation of classical bivalence (it does not assert P ∧ ¬P); it is a refusal to take any *svabhāva*-realist position on the topic to which it is applied. Vedāntic engagement with the *catuṣkoṭi* takes two forms: explicit refutation (Bādarāyaṇa, Madhva) and structural appropriation (Advaita's *anirvacanīya* — neither *sat* nor *asat* nor both nor neither — bears formal resemblance to the *catuṣkoṭi*-form, which is what makes the *pracchanna-bauddha* charge against Śaṅkara productive).",
+  "per_school": [
+    {
+      "school": "Mādhyamaka",
+      "definition": "The principal dialectical instrument of Nāgārjuna's *prasaṅga*-method. Applied across the MMK to motion (chapter 2), the senses (chapter 3), the agent (chapter 8), the self (chapter 18), the *tathāgata* (chapter 22), and most explicitly *nirvāṇa* (chapter 25). The four-corner refusal is the load-bearing apparatus that secures Nāgārjuna's *na me kācana pratijñā asti* commitment: refuting all four corners is not the assertion of a fifth position but the refusal of *svabhāva*-realist commitment in any of the four available forms.",
+      "primary_loci": ["Mūla-Madhyamaka-Kārikā 18.8", "Mūla-Madhyamaka-Kārikā 22.11", "Mūla-Madhyamaka-Kārikā 25.4–18", "Vigraha-Vyāvartanī 29 (auto-commentary)"]
+    },
+    {
+      "school": "Classical Indian inferential vyāpti-tradition",
+      "definition": "The *catuṣkoṭi* is structurally distinct from classical *vyāpti*-based *anumāna*. In the Naiyāyika frame, valid inference proceeds by establishing an invariable concomitance (*vyāpti*) between *hetu* and *sādhya*, and the conclusion is the assertion of a positive thesis on the strength of that concomitance. The *catuṣkoṭi* refuses to conclude in any positive thesis at all — the refutation of all four corners is the entire content of the argument. From the Naiyāyika side this is what makes Nāgārjuna's position appear self-undercutting (the Vigraha-Vyāvartanī objection); Nāgārjuna's reply is that his *prasaṅga*-argument does not require *vyāpti*-style positive ground because it draws out only the consequences of the opponent's commitments.",
+      "primary_loci": ["Vigraha-Vyāvartanī 1–4 (the opponent's objection) and 21–29 (Nāgārjuna's reply)", "Nyāya-Sūtra 1.1.32 (the canonical pañcāvayava-anumāna)"]
+    },
+    {
+      "school": "Advaita",
+      "definition": "Advaita's *anirvacanīya* characterisation of the world (neither *sat* nor *asat* nor both nor neither) bears formal resemblance to the *catuṣkoṭi*-form. The substantive position differs: Advaita affirms the *pāramārthika*-real *brahman* as the substrate of which the world is *anirvacanīya* appearance, whereas Mādhyamaka denies any such *svabhāva*-bearing substrate. The Vivaraṇa-line scholasticism (Padmapāda, Prakāśātman, Madhusūdana) makes the substantive distinction load-bearing in defending Advaita against the *pracchanna-bauddha* charge. Bhāskara presses the formal homology as identity.",
+      "primary_loci": ["Padmapāda, Pañca-Pādikā", "Prakāśātman, Vivaraṇa", "Bhāskara, Brahma-Sūtra-Bhāṣya 1.1.1–4"]
+    }
+  ],
+  "see_also": ["sunyata", "pratitya-samutpada", "paramartha-satya", "samvrti-satya", "anirvacaniya", "anumana", "vyapti", "prasanga"],
+  "translator_note": "Modern logicians have proposed paraconsistent or four-valued formal reconstructions of the *catuṣkoṭi* (Priest, Westerhoff). The classical Indian sources do not require such a reconstruction: the *catuṣkoṭi* is best read as a *meta*-level refusal of positive thesis-advancement rather than a non-classical truth-value assignment. The point is not that contradictions are sometimes true; the point is that no *svabhāva*-realist construal of the topic at hand survives examination, and the four corners exhaust the available realist construals."
+}

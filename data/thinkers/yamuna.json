@@ -82,7 +82,7 @@
       ],
       "genre": "stotra",
       "language": "sanskrit",
-      "summary": "A four-verse Sanskrit hymn to Śrī (Lakṣmī), foundational for Śrīvaiṣṇava *Śrī-tattva* — the doctrine of the goddess as eternal, inseparable consort and mediatrix of Nārāyaṇa. The four verses fix four points. First, Śrī's eternity and ontological inseparability from Nārāyaṇa, together with her personal distinctness as a relatum within the divine pair. Second, her status as universal mother (*jaganmātṛ*) whose mercy (*kṛpā*) is the operative principle of grace. Third, her role as *puruṣakāra* — the one who solicits the Lord's compassion on behalf of the surrendered *jīva*. Fourth, the surrendering self's place at her feet as the proper attitude of *prapatti*. The text becomes doctrinally load-bearing two centuries later: the Vaḍakalai-Tenkalai split is partly a quarrel over its construal. The Tenkalai (Pillai-Lokācārya, Maṇavāḷa Māmunigaḷ) reads it as making Śrī herself an *upāya* in concert with Nārāyaṇa; the Vaḍakalai (Vedānta Deśika) reads it as fixing her as *puruṣakāra* — mediating advocate enabling Nārāyaṇa's grace — without making her an independent means. Both schools accept the text as canonical; their divergence is exegetical.",
+      "summary": "A four-verse Sanskrit hymn to Śrī (Lakṣmī), foundational for Śrīvaiṣṇava *Śrī-tattva* — the doctrine of the goddess as eternal, inseparable consort and mediatrix of Nārāyaṇa. The four verses fix four points. First, Śrī's eternity and ontological inseparability from Nārāyaṇa, together with her personal distinctness as a relatum within the divine pair (*Catuḥ-Ślokī* 1, *kāntas te puruṣottamaḥ*). Second, her status as universal mother (*jaganmātṛ*) whose mercy (*kṛpā*) is the operative principle of grace (*Catuḥ-Ślokī* 2). Third, her role as *puruṣakāra* — the one who solicits the Lord's compassion on behalf of the surrendered *jīva* (*Catuḥ-Ślokī* 3, *yasyāḥ kaṭākṣa-mātreṇa*). Fourth, the surrendering self's place at her feet as the proper attitude of *prapatti* (*Catuḥ-Ślokī* 4). The text becomes doctrinally load-bearing two centuries later: the Vaḍakalai-Tenkalai split is partly a quarrel over its construal. The Tenkalai (Pillai-Lokācārya, *Śrī-Vacana-Bhūṣaṇa*; Maṇavāḷa Māmunigaḷ's commentary) reads it as making Śrī herself an *upāya* in concert with Nārāyaṇa; the Vaḍakalai (Vedānta Deśika, *Rahasya-Traya-Sāra* and *Catuḥ-Ślokī-Bhāṣya*) reads it as fixing her as *puruṣakāra* — mediating advocate enabling Nārāyaṇa's grace — without making her an independent means. Both schools accept the text as canonical; their divergence is exegetical.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     }
@@ -1390,5 +1390,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave3-pada-fix-codex"
+  "last_verified_by": "wave-citation-batch2-opus"
 }
