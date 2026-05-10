@@ -1147,7 +1147,8 @@ body.is-reading-mode .passage-card .english { font-size: 18px; }
   width: 460px;
   max-height: min(72vh, 720px);
   overflow-y: auto;
-  z-index: 150;
+  /* Stays above the article reader (z-index 220) and articles modal (200). */
+  z-index: 240;
   font-family: var(--serif);
   font-size: 14px;
   line-height: 1.55;
@@ -1271,7 +1272,7 @@ body.is-reading-mode .passage-card .english { font-size: 18px; }
     display: block;
     position: fixed; inset: 0;
     background: rgba(20,20,20,0.35);
-    z-index: 149;
+    z-index: 239;
     animation: gloss-scrim-in 200ms ease;
   }
 }
