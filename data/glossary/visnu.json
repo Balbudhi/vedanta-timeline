@@ -14,40 +14,153 @@
     "viṣṇau"
   ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus",
+  "last_verified_by": "glossary-wave1-codex54",
   "invariant_definition": "A divine name that becomes, in the Vaiṣṇava Vedāntic schools, a primary designation of the highest reality. The root sense of pervasion matters: Viṣṇu is the indwelling, world-sustaining, and world-governing Lord, not merely a mythic preserver opposed to a creator and destroyer. The term sits within a technical network that includes *Nārāyaṇa*, *Paramātman*, *Bhagavān*, *antaryāmin*, and *avatāra*. Viśiṣṭādvaita and Tattva-vāda (Dvaita) identify Viṣṇu-Nārāyaṇa straightforwardly with *brahman* and *Īśvara*; Gauḍīya Vaiṣṇavism places Viṣṇu within a fuller theology in which Kṛṣṇa is *svayaṃ-bhagavān* and Viṣṇu is a real divine expansion, not a lesser fiction. Advaita accepts Viṣṇu as a real form of *Īśvara* and a proper object of *upāsanā*, but not as the unique final description of *nirguṇa brahman*. The term therefore cannot be translated by the mythology-manual phrase \"god of preservation\" without erasing the metaphysical claims actually made around it.",
   "per_school": [
     {
-      "school": "Advaita Vedānta",
-      "definition": "Viṣṇu is a real and authoritative form of *saguṇa brahman*, suitable for *upāsanā*, devotion, and scriptural meditation. Advaita does not deny Viṣṇu's reality at the transactional level; it denies only that any single divine form exhausts the highest, attribute-free description of *brahman*. Viṣṇu thus functions as a fully real devotional and cosmological Lord within the register from which liberating knowledge eventually passes beyond form-distinction.",
+      "school": "Advaita",
+      "definition": "In Madhusūdana's Advaita, Viṣṇu can be named as the very *satya-jñāna-sukha* reality that shines when *mithyā-bandha* is shaken off; the personal name does not obstruct *akhaṇḍa-brahman* but serves as one of its theologically potent designators [[AS 1](cite://madhusudana/advaita-siddhi/1)]. Devotion to Mukunda is likewise treated as a genuine *parama-puruṣārtha* within the Advaita economy, so Viṣṇu is not reduced to a merely dispensable pedagogical fiction within *upāsanā*-language [[BR 1.1](cite://madhusudana/bhakti-rasayana/1.1)].",
       "primary_loci": [
-        "Bhagavad-Gītā-Bhāṣya 10.20",
-        "Viṣṇu-Sahasranāma-Bhāṣya [NOT YET RETRIEVED]"
+        "Advaita-Siddhi, Maṅgalāśloka 1",
+        "Bhakti-Rasāyana 1.1"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhusudana/advaita-siddhi/1",
+          "locus_short": "AS 1"
+        },
+        {
+          "cite": "cite://madhusudana/bhakti-rasayana/1.1",
+          "locus_short": "BR 1.1"
+        }
       ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "Viṣṇu-Nārāyaṇa is the highest *brahman*, the inner ruler whose body is the totality of conscious selves and matter. The term therefore carries both ontological and devotional force: Viṣṇu is not a sectarian choice laid over a neutral absolute, but the very reality to which Upaniṣadic inquiry points. His qualities, forms, and gracious accessibility are real and eternal, not lower projections upon an impersonal substrate.",
+      "definition": "Rāmānuja's opening salutation already names Viṣṇu as the one qualified by the entirety of *cit* and *acit* and as the repository of *nirmalānantakalyāṇa-guṇa*s [[VS §1](cite://ramanuja/vedartha-samgraha/§1)]. The same treatise states that Vedāntic sentences aim to disclose the *antaryāmin*, explicitly glossed as the one Nārāyaṇa, together with the self's *upāsanā* of him and the blissful *brahmānubhava* that follows [[VS §4](cite://ramanuja/vedartha-samgraha/§4)]. Viṣṇu-Nārāyaṇa is therefore the *sarvātman*, *parama-brahman*, and *puruṣottama* whose relation to *cit* and *acit* is articulated through *antaryāmitva* and *śarīra-śarīrin* *sāmānādhikaraṇya* [[VS §6](cite://ramanuja/vedartha-samgraha/§6)].",
       "primary_loci": [
-        "Śrī-Bhāṣya 1.1.1",
-        "Vedārtha-Saṅgraha 91-137"
+        "Vedārtha-Saṅgraha §1",
+        "Vedārtha-Saṅgraha §4",
+        "Vedārtha-Saṅgraha §6"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§1",
+          "locus_short": "VS §1"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§4",
+          "locus_short": "VS §4"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§6",
+          "locus_short": "VS §6"
+        }
       ]
     },
     {
       "school": "Tattva-vāda",
-      "definition": "Viṣṇu alone is *svatantra*, the independent reality on whom all else depends. The identity of *brahman*, *Īśvara*, and Viṣṇu is therefore strict, and the hierarchy of gods, souls, and worlds is organized around that unique supremacy. Madhva's realism about difference is inseparable from this Viṣṇu-theology: if Viṣṇu is uniquely independent, then all other beings, however exalted, are irreducibly dependent.",
+      "definition": "Madhva makes Viṣṇu the single *svatantra-tattva*; all other reality falls on the *paratantra* side of the basic ontological divide [[TS 1](cite://madhva/tattva-sankhyana/1)]. This dependence is not merely cosmological but soteriological: Viṣṇu gives knowledge to the ignorant, liberation to knowers, and bliss to the liberated [[Anuvy. 1.1.13-15](cite://madhva/anuvyakhyana/1.1.13-15)]. In the *Viṣṇu-Tattva-Vinirṇaya*, Viṣṇu is *nirdoṣa*, *nityapūrṇākhilaguṇa*, and one whose *guṇa* and *kriyā* are his very *svarūpa* rather than adventitious predicates [[VTV 3.1](cite://madhva/visnu-tattva-vinirnaya/3.1)] [[VTV 3.12](cite://madhva/visnu-tattva-vinirnaya/3.12)]. Liberation is accordingly proximity to Viṣṇu as the all-*guṇa*-full lord, never absorption that annuls the hierarchy between the independent Lord and dependent selves [[VTV 3.24](cite://madhva/visnu-tattva-vinirnaya/3.24)] [[TS 11](cite://madhva/tattva-sankhyana/11)].",
       "primary_loci": [
-        "Tattva-Saṅkhyāna 1-4",
-        "Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1"
+        "Tattva-Saṅkhyāna 1",
+        "Anuvyākhyāna 1.1.13-15",
+        "Viṣṇu-Tattva-Vinirṇaya 3.1",
+        "Viṣṇu-Tattva-Vinirṇaya 3.12",
+        "Viṣṇu-Tattva-Vinirṇaya 3.24",
+        "Tattva-Saṅkhyāna 11"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/tattva-sankhyana/1",
+          "locus_short": "TS 1"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/1.1.13-15",
+          "locus_short": "Anuvy. 1.1.13-15"
+        },
+        {
+          "cite": "cite://madhva/visnu-tattva-vinirnaya/3.1",
+          "locus_short": "VTV 3.1"
+        },
+        {
+          "cite": "cite://madhva/visnu-tattva-vinirnaya/3.12",
+          "locus_short": "VTV 3.12"
+        },
+        {
+          "cite": "cite://madhva/visnu-tattva-vinirnaya/3.24",
+          "locus_short": "VTV 3.24"
+        },
+        {
+          "cite": "cite://madhva/tattva-sankhyana/11",
+          "locus_short": "TS 11"
+        }
       ]
     },
     {
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
       "school": "Acintya-Bhedābheda",
-      "definition": "Viṣṇu is fully divine and fully real, but is situated within a more articulated theology of manifestation: Kṛṣṇa is *svayaṃ-bhagavān*, while forms such as Nārāyaṇa and Viṣṇu are genuine expansions of the same supreme reality. The distinction is not between real and unreal deity, but between the source form and its expansions. Viṣṇu therefore remains an object of worship, ontology, and scriptural exegesis, not a symbolic intermediary.",
-      "primary_loci": [
-        "Bhāgavata-Purāṇa 1.3.28",
-        "Kṛṣṇa-Sandarbha 28"
-      ]
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yoga",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     }
   ],
   "see_also": [
