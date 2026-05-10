@@ -1079,6 +1079,9 @@ body.is-reading-mode .passage-card .english { font-size: 18px; }
   .topbar .subtitle { display: none; }
   .topbar-btn--icon { padding: 7px 8px; }
   .topbar-btn--icon .btn-text { display: none; }
+  /* In reading mode, expose the "Back to timeline" label so the user can find their way back. */
+  body.is-reading-mode #readingModeBtn .btn-text { display: inline; }
+  body.is-reading-mode #readingModeBtn { padding: 7px 11px; }
   #detailContent { padding: 22px 16px 80px; }
   .detail-hero h2 { font-size: 24px; }
   .thesis { font-size: 18px; padding-left: 14px; }

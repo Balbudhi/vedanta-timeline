@@ -1080,7 +1080,13 @@ function showEmptyState(msg) {
 // ---------- reading mode -----------
 function setReadingMode(on) {
   document.body.classList.toggle("is-reading-mode", on);
-  readingModeBtn.textContent = on ? "Back to timeline" : "Reading mode";
+  // Update only the .btn-text span; preserve the icon SVG.
+  const txt = readingModeBtn.querySelector(".btn-text");
+  const label = on ? "Back to timeline" : "Reading";
+  if (txt) txt.textContent = label;
+  else readingModeBtn.textContent = label;
+  readingModeBtn.setAttribute("aria-label", on ? "Back to timeline" : "Reading mode");
+  readingModeBtn.classList.toggle("is-active", on);
   if (on && !state.activeId && state.thinkers.length) {
     const sorted = [...state.thinkers].sort((a, b) => (a.dates_low + a.dates_high)/2 - (b.dates_low + b.dates_high)/2);
     openThinker(sorted[0].id);
