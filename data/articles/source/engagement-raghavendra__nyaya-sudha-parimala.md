@@ -2,7 +2,7 @@
 
 ## 1. What the text is
 
-Rāghavendra Tīrtha’s *Nyāya-Sudhā-Parimaḷa* is a seventeenth-century Tattvavādin sub-commentary on Jayatīrtha’s *Nyāya-Sudhā*, itself a commentary on Madhva’s *Anuvyākhyāna* on the *Brahma-Sūtras*. The work therefore sits three layers deep inside the Madhva exegetical tradition: *Brahma-Sūtra* -> Madhva -> Jayatīrtha -> Rāghavendra. The four on-disk volumes correspond to the four *adhyāyas* of the *Brahma-Sūtras*, each internally divided into four *pādas*; the text is not merely expository, but polemical at every stage, using lexical, grammatical, and inferential detail to force disputed śruti-loci back into a Viṣṇu/Nārāyaṇa-centred reading and to rebut rival Vedāntic and non-Vedāntic positions.
+Rāghavendra Tīrtha’s *Nyāya-Sudhā-Parimaḷa* is a seventeenth-century Tattvavādin sub-commentary on Jayatīrtha’s *Nyāya-Sudhā*, itself a commentary on Madhva’s *Anuvyākhyāna* on the *Brahma-Sūtras*. The work therefore sits three layers deep inside the Madhva exegetical tradition: *Brahma-Sūtra* -> Madhva -> Jayatīrtha -> Rāghavendra. The four on-disk volumes correspond to the four *adhyāyas* of the *Brahma-Sūtras*, each with four *pādas*; the text is polemical throughout, using lexical, grammatical, and inferential detail to force disputed śruti-loci back into a Viṣṇu/Nārāyaṇa-centred reading.
 
 ## 2. Sampling and scope statement
 
@@ -12,41 +12,41 @@ Depth-engaged: six loci across all four *adhyāyas* were read closely, translite
 
 ### Adhyāya 1
 
-- **Pāda 1** (ad1 opening; first-*pāda* colophon at pure line 6093). The first *pāda* establishes the governing theological grammar of the whole work: *brahman* is to be read as Nārāyaṇa/Hari, the *janmādy asya* causal mark is taken as a positive *lakṣaṇa*, and Veda is defended as an authoritative disclosure of that reality. The polemical architecture is already visible here: Rāghavendra excludes lower-deity readings, merely ritual construals, and any reading on which scriptural language fails to reach a fully qualified supreme.
+- **Pāda 1** (ad1 opening; first-*pāda* colophon at pure line 6093). The first *pāda* establishes the governing grammar of the whole work: *brahman* is Nārāyaṇa/Hari, *janmādy asya* is a positive *lakṣaṇa*, and Veda is a trustworthy disclosure of that reality. Polemically, it excludes lower-deity and merely ritual construals.
 
-- **Pāda 2** (second-*pāda* close at ad1 archive 6540). This *pāda* handles classic samanvaya cruxes such as *antar*, *vaiśvānara*, and *ānandamaya*; the strategy is to show that the strongest lexical and contextual force of these terms lies in the supreme Viṣṇu rather than in a merely interior self, elemental fire, or generalized bliss-principle. The constructive work is hermeneutic consolidation; the polemical work is against rival Vedāntic reallocations of these words.
+- **Pāda 2** (second-*pāda* close at ad1 archive 6540). This *pāda* handles cruxes such as *antar*, *vaiśvānara*, and *ānandamaya*, arguing that their strongest lexical and contextual force lies in the supreme Viṣṇu. Its work is hermeneutic consolidation against rival Vedāntic reallocations.
 
-- **Pāda 3** (third-*pāda* close at ad1 archive 6879). Here the text continues the lexical campaign through terms such as *bhūman* and *akṣara*, treating apparently open-textured Upaniṣadic language as requiring a highest-personal referent. The architecture is cumulative: every ambiguous high term is pulled into the same theological centre, reducing the space for impersonalist or merely generic *brahman* readings.
+- **Pāda 3** (third-*pāda* close at ad1 archive 6879). The text continues the lexical campaign through terms such as *bhūman* and *akṣara*, treating apparently open-textured Upaniṣadic language as requiring a highest-personal referent. The cumulative effect is to reduce the space for impersonalist readings.
 
-- **Pāda 4** (fourth-*pāda* close at ad1 archive 10242). The last *pāda* of ad1 gathers further disputed expressions such as *jyotis* and *pañcajana* and finishes the samanvaya programme. By the end of ad1, the text has argued not merely that Viṣṇu can be read into the śruti, but that the highest scriptural vocabulary reaches its proper completion only in that reading.
+- **Pāda 4** (fourth-*pāda* close at ad1 archive 10242). The last *pāda* gathers further disputed expressions such as *jyotis* and *pañcajana* and finishes the samanvaya programme. By the end of ad1, the highest scriptural vocabulary has been systematically recentred on Viṣṇu.
 
 ### Adhyāya 2
 
-- **Pāda 1** (ad2 opening to the second-*pāda* start at archive line 4943). This opening *pāda* turns from samanvaya to *avirodha*: the point is to show that the first adhyāya’s doctrinal determinations do not collapse under counter-reading or inferential pressure. Large stretches are technically concerned with pramāṇa, language, and the handling of contradiction; the polemical burden is to clear the field before the named school-refutations begin.
+- **Pāda 1** (ad2 opening to the second-*pāda* start at archive line 4943). This opening *pāda* turns from samanvaya to *avirodha*: the point is to show that the first adhyāya’s determinations do not collapse under counter-reading or inferential pressure. Large stretches are technically concerned with pramāṇa and contradiction-management.
 
-- **Pāda 2** (opens at archive 4943; second-*pāda* colophon at 10012-10013). This is the most explicit school-polemic in the retrieved witness: it names Vaiśeṣika, repeatedly argues against Sāṃkhya *prakṛti* and its teleology, and elsewhere in the same adhyāya crosses into Bauddha and Māyāvāda terrain. Its constructive thesis is negative but decisive: the world’s causal ground cannot be inert matter, atoms, or indeterminate illusion; it must remain dependent on an intelligent supreme cause.
+- **Pāda 2** (opens at archive 4943; second-*pāda* colophon at 10012-10013). This is the most explicit school-polemic in the retrieved witness: it names Vaiśeṣika, repeatedly argues against Sāṃkhya *prakṛti*, and elsewhere crosses into Bauddha and Māyāvāda terrain. Its decisive claim is that the world’s ground cannot be inert matter, atoms, or illusion.
 
-- **Pāda 3** (opens at archive 10040; third-*pāda* colophon at 11086-11087). The third *pāda* moves into finer cosmological and anthropological disputes: the origination of elements, the status of *prāṇa*, and the condition of the individual self, with rival readings including Rāmānuja retrieved by name. Polemically it narrows the space for alternate dependence-ontologies; constructively it keeps causality, hierarchy, and ontological difference intact.
+- **Pāda 3** (opens at archive 10040; third-*pāda* colophon at 11086-11087). The third *pāda* moves into finer disputes on elements, *prāṇa*, and the individual self, with rival readings including Rāmānuja retrieved by name. It keeps causality, hierarchy, and ontological difference intact.
 
-- **Pāda 4** (opens immediately after the third-*pāda* close; final ad2 colophon at 11118). The fourth *pāda* is marked as *adhyātma*-oriented in the archive witness and reads as a concluding inward turn after the heavier cosmological combat. Its function is to prevent the earlier anti-rival metaphysics from dissolving the embodied subject into an undifferentiated principle; jīva, body, faculties, and supreme remain carefully distinguished.
+- **Pāda 4** (opens immediately after the third-*pāda* close; final ad2 colophon at 11118). The fourth *pāda* is marked as *adhyātma*-oriented in the archive witness and reads as a concluding inward turn after the heavier cosmological combat. Jīva, body, faculties, and supreme remain carefully distinguished.
 
 ### Adhyāya 3
 
 - **Pāda 1** (opening declaration at ad3 archive 25-27; pure first-*pāda* close at line 34). Rāghavendra explicitly says this adhyāya will expound the nature of the means, and he marks *vairāgya* as first because it is causally prior to *bhakti* and the rest. The architecture is constructive rather than merely adversarial: one must order the inner life before one can speak well about knowledge.
 
-- **Pāda 2** (pure second-*pāda* close at 1165-1166). The second *pāda* elaborates the relation among upāsanā, knowledge, divine dependence, and fruition, including the insistence that the Lord remains the giver of the result. Polemically it pushes back against any account on which practice becomes self-validating or causally self-sufficient.
+- **Pāda 2** (pure second-*pāda* close at 1165-1166). The second *pāda* elaborates the relation among upāsanā, knowledge, divine dependence, and fruition, insisting that the Lord remains the giver of the result. It pushes back against any self-sufficient account of practice.
 
-- **Pāda 3** (third-*pāda* colophon at archive 4284 / 4311). This *pāda* is where the text becomes especially explicit about graded devotion, scriptural hierarchy, and the ordering of *bhakti* toward Bhagavān and then toward subordinate deities in rank-appropriate form. The constructive thesis is not a flattening universal devotion but a *tāratamya*-structured devotional ontology.
+- **Pāda 3** (third-*pāda* colophon at archive 4284 / 4311). This *pāda* is especially explicit about graded devotion, scriptural hierarchy, and the ordering of *bhakti* toward Bhagavān and then toward subordinate deities. The result is a *tāratamya*-structured devotional ontology.
 
-- **Pāda 4** (pure close at 3147). The fourth *pāda* gathers the relation of *śravaṇa*, *manana*, *nididhyāsana*, *bhakti*, and *aparokṣa-jñāna*, while also touching eligibility, result, and the status of opposing views of liberation. Its polemical role is to stop both ritual reduction and purely mentalist reduction; its constructive role is to show that knowledge is never isolated from devotional and soteriological ordering.
+- **Pāda 4** (pure close at 3147). The fourth *pāda* gathers *śravaṇa*, *manana*, *nididhyāsana*, *bhakti*, and *aparokṣa-jñāna*, while also touching eligibility and result. Its point is to show that knowledge is never isolated from devotional and soteriological ordering.
 
 ### Adhyāya 4
 
 - **Pāda 1** (pure lines 1-22; second-*pāda* marker later at pure 378). The opening of ad4 announces the final *puruṣārtha* horizon but begins, significantly, with the repeated performance of the means: hearing and contemplative practice must recur. The architecture is transitional: before mokṣa is described, the text insists on the disciplined reiteration that produces the relevant knowledge.
 
-- **Pāda 2** (second-*pāda* marker at pure 378; close at 864-865). This *pāda* continues to regulate the transition from practice to release, including disputes over what is shed, what remains, and how ignorance, merit, and demerit are handled. In polemical terms it resists both underdescribed release and any easy dissolutionist account of liberation.
+- **Pāda 2** (second-*pāda* marker at pure 378; close at 864-865). This *pāda* regulates the transition from practice to release, including disputes over what is shed, what remains, and how merit and demerit are handled. It resists underdescribed release and easy dissolutionism.
 
-- **Pāda 3** (third-*pāda* marker at pure 885; archive 1921 notes “devas’ liberation and departure” as this *pāda*’s topic). This is the *utkrānti* and path-section: the movement of the released being, the status of divine beings, and the reaching of Viṣṇu/Vaikuṇṭha are thematized. The polemical architecture is anti-absorptionist; liberation is not an anonymous melting away.
+- **Pāda 3** (third-*pāda* marker at pure 885; archive 1921 notes “devas’ liberation and departure” as this *pāda*’s topic). This is the *utkrānti* and path-section: the movement of the released being, the status of divine beings, and the reaching of Viṣṇu/Vaikuṇṭha are thematized. Liberation is not an anonymous melting away.
 
 - **Pāda 4** (final colophon at archive 2191). The last *pāda* treats the nature of mokṣa itself and explicitly enters into later doctrinal combat, including *bhēdābhēda* and related views. Its constructive upshot is a liberated state that preserves ordered reality, divine supremacy, and differentiated consummation, rather than collapsing liberation into a bare negation of suffering.
 
@@ -80,24 +80,7 @@ This matters for the entire *Parimaḷa*. The first move is not “there is some
 
 The principal predication is `lakṣaṇam proktam`. The instrumental `sūtreṇa` gives the means; the dative `guṇa-sarvasva-siddhaye` gives the purpose; the genitive `brahmaṇaḥ` marks what is being defined. The sentence is therefore not merely descriptive but architectonic: the sūtra’s causal wording is subordinated to a wider purpose-clause that yields a rich, quality-full Brahman.
 
-### 2. *Ānandamaya* must be read chiefly in the supreme
-
-**Locus:** Adhyāya 1, pāda 2, archive ad1 lines 6537-6540.
-
-**Sanskrit (IAST):**
-
-```text
-ānandamaye iti śabda-pravṛtti-hetūnāṃ tasmin
-mukhya-samanvayāt ...
-```
-
-**Close English:** “In the case of ‘ānandamaya’, because the grounds for the word’s application have their primary coordination in him ...”
-
-**Engagement:** The operative word is `mukhya`. Rāghavendra’s hermeneutic is not that rival referents are impossible in every secondary sense; it is that the principal force of the word converges on the supreme. That is a distinctively commentarial move: he wins not by lexical stipulation alone, but by ranking semantic fitnesses.
-
-This is one of the characteristic gestures of the text. Whenever a high Upaniṣadic word can be dispersed across several ontological levels, the *Parimaḷa* asks where its semantic grounds are fullest. The answer is repeatedly: in Viṣṇu, not in a lower entity and not in an impersonal abstraction.
-
-### 3. The second adhyāya’s polemical self-understanding
+### 2. The second adhyāya’s polemical self-understanding
 
 **Locus:** Adhyāya 2, pāda 2, archive ad2 lines 4943-4949.
 
@@ -114,7 +97,7 @@ samasta-śruti-samanvaya-ghaṭanāya vā uktaṃ
 
 The phrase `ghaṭanāya` is important: Rāghavendra is not merely collecting scriptural statements, but making them fit together. The anti-rival project is therefore not ancillary polemics; it is the negative labour required for a stable theological synthesis.
 
-### 4. Vairāgya is first because it causes bhakti and the rest
+### 3. Vairāgya is first because it causes bhakti and the rest
 
 **Locus:** Adhyāya 3, pāda 1, archive ad3 lines 25-27.
 
@@ -132,7 +115,7 @@ prāthamyam ucitam iti sūcitam
 
 The phrase `bhakty-ādya-hetutvāt` is especially revealing. Bhakti, hearing, reflection, meditation, and knowledge are not a heap of equal practices. They are sequenced through dependence-relations. The text’s devotionalism is therefore not anti-intellectual; rather, it places the intellect inside a hierarchy of prior purification and orientation.
 
-### 5. Devotion itself is graded
+### 4. Devotion itself is graded
 
 **Locus:** Adhyāya 3, pāda 4, pure-Sanskrit ad3 lines 3104-3105.
 
@@ -149,7 +132,7 @@ devatādi-bhakteḥ kartavyate tāratamyena kāryatve cāgamayuktyor uktiḥ
 
 This makes ad3 more than a generic means-chapter. It builds a devotional metaphysics in which worship tracks reality’s internal order. That is one reason the work is so resistant to later synthetic flattenings.
 
-### 6. Repetition of hearing is mandatory, not optional
+### 5. Repetition of hearing is mandatory, not optional
 
 **Locus:** Adhyāya 4, pāda 1, pure-Sanskrit ad4 lines 21-22.
 
@@ -168,18 +151,18 @@ That insistence is philosophically important. It shows that for Rāghavendra, ev
 
 ## 5. The text’s relation to the position
 
-This text sits squarely at the Madhva node of the realism-recovery chain. It is therefore highly relevant to the Bhartṛprapañca -> Bhāskara -> Madhva -> Caitanya -> Aurobindo trajectory, but in a very specific way: it supplies hard primary-source ballast for the anti-illusionist and anti-flattening side of that trajectory, not a soft bridge into later integralisms. Against the Vivaraṇa line of Padmapāda, Prakāśātman, Vidyāraṇya, and Madhusūdana, it is unambiguously adversarial; the retrieved witness repeatedly targets Māyāvāda, mithyātva-style manoeuvres, and non-difference readings. With Yāmuna-Rāmānuja-Vedānta Deśika it is a rival realism rather than an ally; Rāmānuja/Rāmānujīya positions are retrieved as live competitors, not as co-builders. Vallabha and Nimbārka are not clearly retrieved by name in the loci I read, so any tighter claim there should be marked `[NOT YET RETRIEVED]`; still, the anti-Māyāvāda pressure would obviously matter to both.
+This text sits squarely at the Madhva node of the realism-recovery chain. It is highly relevant to the Bhartṛprapañca -> Bhāskara -> Madhva -> Caitanya -> Aurobindo trajectory, but in a specific way: it supplies hard primary-source ballast for the anti-illusionist side of that trajectory, not a soft bridge into later integralisms. Against the Vivaraṇa line of Padmapāda, Prakāśātman, Vidyāraṇya, and Madhusūdana, it is plainly adversarial. With Yāmuna-Rāmānuja-Vedānta Deśika it is a rival realism rather than an ally. Vallabha and Nimbārka are not clearly retrieved by name in the loci I read, so any tighter claim there should be marked `[NOT YET RETRIEVED]`.
 
-The text refutes by name or near-name Sāṃkhya, Vaiśeṣika, Bauddha (including Vaibhāṣika material in the ad2 runs), Māyāvāda, Bhāskara, Bhēdābhēda positions, and Rāmānujīya alternatives. It also spends long stretches fighting anonymous *pūrva-pakṣins* whose function is to destabilize word-reference, causality, or the possibility of a fully qualified supreme. Its constructive thesis is consistent across the four *adhyāyas*: Vedic high terms converge on Viṣṇu/Nārāyaṇa; the world’s causal dependence is real; sādhanas are hierarchical and mutually ordered; liberation culminates not in anonymous extinction but in differentiated consummation under Viṣṇu.
+The text refutes by name or near-name Sāṃkhya, Vaiśeṣika, Bauddha, Māyāvāda, Bhāskara, Bhēdābhēda positions, and Rāmānujīya alternatives. It also spends long stretches fighting anonymous *pūrva-pakṣins* who destabilize word-reference or causality. Its constructive thesis is consistent: Vedic high terms converge on Viṣṇu/Nārāyaṇa; the world’s dependence is real; sādhanas are hierarchical; liberation culminates in differentiated consummation under Viṣṇu.
 
 For the position’s specific theses, the support is strongest for T2 and T9. On T2, the text is a powerful witness that anti-Māyāvāda realism inside Vedānta is not a late embarrassment but a technically sophisticated scriptural project. It does not treat *mithyā* as *asat*; rather, it attacks the whole explanatory direction in which the world’s status is evacuated by appeal to indeterminable illusion. On T9, it gives a strong Vaiṣṇava critique of any non-duality that abolishes relation, hierarchy, and divine objecthood. On T7, however, it is more resistant than helpful: it does not furnish a positive Vivaraṇa-style account of *avidyā* as *bhāvarūpa*, nor any willingness to say that Brahman is both *āśraya* and *viṣaya* of *avidyā*. Its use for T7 is therefore indirect: it sharpens the pressure that any such account must answer. On T11, the text does tether phenomenology to ontology, especially in the means-and-mokṣa sections; but it offers no Aurobindonian involution-evolution grammar. Its world is hierarchically full, not evolutionary in that sense.
 
-The main friction is exact and should not be blurred. The text’s realism is theistic, hierarchical, and difference-preserving all the way down; it does not leave open the kind of non-dual return-language the position wants to retain. So the text is invaluable where the position needs anti-Māyāvāda force, semantic realism, and a robust account of divine forms and relations; it resists the position wherever the position wants a higher-order synthesis that keeps these while also preserving stronger non-dual resources.
+The main friction is exact. The text’s realism is theistic, hierarchical, and difference-preserving all the way down; it does not leave open the kind of non-dual return-language the position wants to retain. It is thus invaluable where the position needs anti-Māyāvāda force and semantic realism, and resistant where the position wants a higher-order synthesis preserving stronger non-dual resources.
 
 ## 6. What the user can productively take
 
-- This text gives the corpus a technically dense Madhva-side primary witness for anti-Māyāvāda realism; it is especially useful where a claim needs more than broad doctrinal summary.
-- It supplies strong citations for the claim that semantic convergence in śruti is not neutral: high Upaniṣadic words are fought over, and Rāghavendra’s whole project is to prevent their evacuation into generic impersonalism.
-- It strengthens the position’s use of Vaiṣṇava critique against world-negating readings, especially on relation, hierarchy, and the reality of devotional objecthood.
+- This text gives the corpus a technically dense Madhva-side primary witness for anti-Māyāvāda realism.
+- It supplies strong citations for the claim that semantic convergence in śruti is not neutral.
+- It strengthens the position’s use of Vaiṣṇava critique against world-negating readings.
 - It forces caution on T7-style synthesis: if the position wants to retain Vivaraṇa-style or broader non-dual resources, it must answer the sort of pressure this text brings against illusion-talk, not merely cite friendlier sources elsewhere.
-- It adds a valuable soteriological sequence to the corpus: vairāgya -> bhakti -> repeated hearing/reflection/contemplation -> knowledge -> mokṣa. That order should matter when the corpus speaks about practice, not only when it speaks about metaphysics.
+- It adds a valuable soteriological sequence to the corpus: vairāgya -> bhakti -> repeated hearing/reflection/contemplation -> knowledge -> mokṣa.

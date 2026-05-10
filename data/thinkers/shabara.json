@@ -38,7 +38,7 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely ascribed to Śabara Svāmin by colophon and by uniform citation across Kumārila, Prabhākara, and the entire later Mīmāṃsā tradition. The bhāṣya itself incorporates earlier Vṛttikāra-material that Śabara cites and discusses, including a long Vṛttikāra-passage at the opening of the codanā-adhikaraṇa.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Frauwallner (1968, Materialien zur ältesten Erkenntnislehre der Karmamīmāṃsā) reconstructs the layered structure including the embedded Vṛttikāra-grantha; Clooney (1990, Thinking Ritually)."}
+        {"kind": "scholarly-consensus", "description": "Frauwallner 1968 Materialien zur ältesten Erkenntnislehre der Karmamīmāṃsā reconstructs the layered structure including the embedded Vṛttikāra-grantha; Clooney 1990 Thinking Ritually is the standard English-language reference. Neither work is on disk in our corpus; both cited via field-standard summary."}
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
@@ -52,5 +52,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-darsana-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-secondary-citation-audit-opus"
 }
