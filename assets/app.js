@@ -978,13 +978,87 @@ function wirePanZoom() {
   // touch / trackpad two-finger pan handled natively by the browser
 }
 
-// ---------- detail pane -----------
+// ---------- unified right-side panel (tabs) -----------
+// Single panel hosts five tabs: Thinker / Translation / Article / Citation / Source.
+// One tab is active at a time; the others retain their last-rendered content.
+const PANEL_TABS = ["thinker", "translation", "article", "citation", "source"];
+const panelState = {
+  open: false,
+  activeTab: "thinker",
+  // content-loaded flags so we can show "(empty)" placeholders when
+  // a tab is opened directly without an upstream load.
+  loaded: { thinker: false, translation: false, article: false, citation: false, source: false },
+  // For mobile (≤720 px): Citation falls back to the legacy bottom-sheet
+  // popover so a one-line locus check doesn't take over the screen.
+};
+
+function isPanelMobile() {
+  return window.matchMedia("(max-width: 720px)").matches;
+}
+
+function openPanel(tab) {
+  panelState.open = true;
+  document.body.classList.add("is-detail-open");
+  detailPane.setAttribute("aria-hidden", "false");
+  if (tab) setPanelTab(tab);
+}
+
+function closePanel() {
+  panelState.open = false;
+  document.body.classList.remove("is-detail-open");
+  detailPane.setAttribute("aria-hidden", "true");
+  state.activeId = null;
+  document.querySelectorAll(".thinker-dot").forEach((d) => d.classList.remove("is-active"));
+  document.querySelectorAll(".lineage-edge").forEach((el) => el.classList.remove("is-lit"));
+}
+
+function setPanelTab(tab) {
+  if (!PANEL_TABS.includes(tab)) return;
+  panelState.activeTab = tab;
+  // Tab buttons
+  if (dpTabBar) {
+    dpTabBar.querySelectorAll(".dp-tab").forEach((btn) => {
+      const isActive = btn.dataset.pane === tab;
+      btn.classList.toggle("is-active", isActive);
+      btn.setAttribute("aria-selected", isActive ? "true" : "false");
+    });
+  }
+  // Panes
+  for (const t of PANEL_TABS) {
+    const pane = document.getElementById("dpPane" + t[0].toUpperCase() + t.slice(1));
+    if (!pane) continue;
+    const isActive = t === tab;
+    pane.classList.toggle("is-active", isActive);
+    pane.hidden = !isActive;
+    pane.setAttribute("aria-hidden", isActive ? "false" : "true");
+  }
+  if (tab === "source") ensureSourceTreeRendered();
+  try { localStorage.setItem("vedanta-panel-tab", tab); } catch (_) {}
+}
+
+function showTab(tab) {
+  // Show the tab button (some tabs are hidden until first use, e.g.
+  // Translation, Article, Citation — exposed by an action that loads
+  // content into them).
+  if (!dpTabBar) return;
+  const btn = dpTabBar.querySelector(`.dp-tab[data-pane="${tab}"]`);
+  if (btn) btn.hidden = false;
+}
+
+if (dpTabBar) {
+  dpTabBar.querySelectorAll(".dp-tab").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const t = btn.dataset.pane;
+      if (t) setPanelTab(t);
+    });
+  });
+}
+
+// ---------- detail pane (Thinker tab) -----------
 function openThinker(id) {
   const t = state.thinkersById.get(id);
   if (!t) return;
   state.activeId = id;
-  document.body.classList.add("is-detail-open");
-  detailPane.setAttribute("aria-hidden", "false");
   document.querySelectorAll(".thinker-dot").forEach((d) => {
     d.classList.toggle("is-active", d.dataset.id === id);
   });
@@ -994,7 +1068,9 @@ function openThinker(id) {
   detailContent.style.setProperty("--dot-color", colorFor(t, 2));
   detailContent.style.setProperty("--school-light", colorFor(t, 1));
   detailContent.innerHTML = renderDetail(t);
-  detailPane.scrollTop = 0;
+  panelState.loaded.thinker = true;
+  detailContent.scrollTop = 0;
+  openPanel("thinker");
   scrollDotIntoView(t);
   // wire read-full buttons
   detailContent.querySelectorAll("[data-read-full]").forEach((btn) => {
@@ -1024,14 +1100,9 @@ function scrollDotIntoView(t) {
   scroller.scrollTo({ left: desiredLeft, top: desiredTop, behavior: "smooth" });
 }
 
-function closeDetailPane() {
-  document.body.classList.remove("is-detail-open");
-  detailPane.setAttribute("aria-hidden", "true");
-  state.activeId = null;
-  document.querySelectorAll(".thinker-dot").forEach((d) => d.classList.remove("is-active"));
-  document.querySelectorAll(".lineage-edge").forEach((el) => el.classList.remove("is-lit"));
-}
-closeDetail.addEventListener("click", closeDetailPane);
+// Legacy alias for the close handler — close the entire unified panel.
+function closeDetailPane() { closePanel(); }
+closeDetail.addEventListener("click", closePanel);
 
 // ---------- detail rendering -----------
 function renderDetail(t) {
@@ -1283,19 +1354,31 @@ document.addEventListener("click", (e) => {
   }
 });
 
-// ---------- reader modal (full work translation) -----------
+// ---------- Translation tab (full work translation, in the unified panel) -----------
 async function openReader(workId, thinkerId) {
   const t = state.thinkersById.get(thinkerId);
   if (!t) return;
   const work = (t.engaged_works || []).find((w) => w.work_id === workId);
   if (!work) return;
+  // Show the tab + open it immediately with a spinner so the click feels responsive.
+  showTab("translation");
+  if (dpTranslationHead) {
+    dpTranslationHead.innerHTML = `
+      <p class="dp-eyebrow">Translation</p>
+      <p class="dp-title">${escape(work.title_iast || work.title)}</p>
+      <p class="dp-attrib">${escape(t.name_iast || t.name)} · ${escape((work.genre || "").replace(/-/g, " "))} · ${escape(work.language || "sanskrit")}</p>
+    `;
+  }
+  if (dpTranslationBody) dpTranslationBody.innerHTML = "<article><p style=\"padding:0 8px;color:var(--muted);font-style:italic\">Loading…</p></article>";
+  openPanel("translation");
+
   const url = `data/full_translations/${thinkerId}__${workId}.md`;
   const r = await fetch(url);
   let body;
   if (r.ok) {
     body = await r.text();
   } else {
-    // No extended translation file yet — synthesize a placeholder using what IS in the JSON.
+    // No extended translation on disk — synthesize a placeholder from key_passages.
     const passages = (t.key_passages || []).filter((p) => p.work_id === workId);
     const passagesBlock = passages.length
       ? "## Engaged passages\n\n" + passages.map((p) => {
@@ -1305,10 +1388,7 @@ async function openReader(workId, thinkerId) {
           return `### ${p.locus_long || p.locus_short || ""}\n\n${sk}\n\n${en}${why}`;
         }).join("\n\n---\n\n")
       : "";
-    body = `# ${work.title_iast || work.title}
-**by ${t.name_iast || t.name}** · ${(work.genre || "").replace(/-/g, " ")} · ${work.language || "sanskrit"}
-
-${work.summary || ""}
+    body = `${work.summary || ""}
 
 ---
 
@@ -1325,14 +1405,12 @@ For the cited-but-not-fully-translated portions: where a standard scholarly Engl
 
 ${passagesBlock}`;
   }
-  readerContent.innerHTML = renderMarkdownFull(body);
-  readerModal.classList.add("is-open");
-  readerModal.setAttribute("aria-hidden", "false");
+  if (dpTranslationBody) {
+    dpTranslationBody.innerHTML = `<article>${renderMarkdownFull(body)}</article>`;
+    dpTranslationBody.scrollTop = 0;
+  }
+  panelState.loaded.translation = true;
 }
-closeReader.addEventListener("click", () => {
-  readerModal.classList.remove("is-open");
-  readerModal.setAttribute("aria-hidden", "true");
-});
 
 // ---------- glossary popover -----------
 function buildGlossaryRegex() {

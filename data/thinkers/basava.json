@@ -2,14 +2,25 @@
   "id": "basava",
   "name": "Basava",
   "name_iast": "Basavaṇṇa",
-  "alternate_names": ["Basava", "Basaveśvara", "Basavarāja", "Basappa"],
+  "alternate_names": [
+    "Basava",
+    "Basaveśvara",
+    "Basavarāja",
+    "Basappa"
+  ],
   "dates_low": 1131,
   "dates_high": 1167,
   "dates_tier": "confirmed-from-records",
   "dates_notes": "Dated from the Kalyāṇa-Cālukya court records (Basava served as chief minister and treasurer to the Kalacuri king Bijjala II at Kalyāṇa from c. 1156 to 1167) and from his own dated vacanas; modern Karnataka historical scholarship (Nandimath, Ishwaran, Ramanujan) accepts c. 1131–1167 CE.",
   "dates_evidence": [
-    {"kind": "court-record", "description": "Kalyāṇa-Cālukya / Kalacuri court records of Basava's tenure as chief minister and treasurer to Bijjala II."},
-    {"kind": "manuscript-tradition", "description": "Vacanas with internal dating-references; Cennabasavapurāṇa as the principal Vīraśaiva hagiographic chronicle."}
+    {
+      "kind": "court-record",
+      "description": "Kalyāṇa-Cālukya / Kalacuri court records of Basava's tenure as chief minister and treasurer to Bijjala II."
+    },
+    {
+      "kind": "manuscript-tradition",
+      "description": "Vacanas with internal dating-references; Cennabasavapurāṇa as the principal Vīraśaiva hagiographic chronicle."
+    }
   ],
   "school": "Vīraśaiva",
   "school_color_token": "virashaiva-comparator",
@@ -35,22 +46,31 @@
       "work_id": "basava-vacanas",
       "title": "Basava Vacanas",
       "title_iast": "Basava-vacanagaḷu",
-      "alternate_titles": ["Vacana-Sāhitya (Basava's portion)", "Basava-Vacana-Saṅgraha"],
+      "alternate_titles": [
+        "Vacana-Sāhitya (Basava's portion)",
+        "Basava-Vacana-Saṅgraha"
+      ],
       "composition_dates_low": 1150,
       "composition_dates_high": 1167,
       "composition_dates_notes": "Composed orally during Basava's Kalyāṇa period; subsequently collected into vacana-saṅgrahas by the Vīraśaiva tradition.",
       "ascription_tier": "school-ascribed",
-      "ascription_notes": "The Vīraśaiva tradition ascribes a corpus of vacanas to Basava (the figures vary — Nandimath's standard reference catalogues c. 1500–2500 vacanas under Basava's signature-line 'kūḍala-saṅgama-deva'); modern critical scholarship (Ishwaran, Ramanujan, Sreenivasamurthy) treats some as Basava's own compositions and others as later ascriptions in his style. The signature-line — each vacana ending with the address kūḍala-saṅgama-deva ('Lord of the meeting rivers') — is the standard authentication-marker.",
+      "ascription_notes": "The Vīraśaiva tradition ascribes a corpus of vacanas to Basava (the figures vary — Nandimath's standard reference catalogues c. 1500–2500 vacanas under Basava's signature-line 'kūḍala-saṅgama-deva'); modern critical scholarship (Ishwaran, Ramanujan, Sreenivasamurthy) treats some as Basava's own compositions and others as later ascriptions in his style. The signature-line — each vacana ending with the address kūḍala-saṅgama-deva ('Lord of the meeting rivers') — is the standard authentication-marker. Wave-10: A.K. Ramanujan Speaking of Śiva (Penguin 1973) text-PDF acquired; Kannada-with-English translation, text-extractable.",
       "ascription_evidence": [
-        {"kind": "school-acceptance", "description": "Vīraśaiva tradition's authentication via the kūḍala-saṅgama-deva signature; Cennabasavapurāṇa as principal hagiographic source."},
-        {"kind": "scholarly-dispute", "description": "Nandimath (A Handbook of Vīraśaivism); Ishwaran (Religion and Society Among the Lingāyats); Ramanujan (Speaking of Śiva, the principal English-language anthology); Sreenivasamurthy (Karnataka university editions)."}
+        {
+          "kind": "school-acceptance",
+          "description": "Vīraśaiva tradition's authentication via the kūḍala-saṅgama-deva signature; Cennabasavapurāṇa as principal hagiographic source."
+        },
+        {
+          "kind": "scholarly-dispute",
+          "description": "Nandimath (A Handbook of Vīraśaivism); Ishwaran (Religion and Society Among the Lingāyats); Ramanujan (Speaking of Śiva, the principal English-language anthology); Sreenivasamurthy (Karnataka university editions)."
+        }
       ],
       "genre": "stotra",
       "language": "kannada",
       "summary": "An oral-poetic corpus of short prose-poems in Old-Kannada (Halegannada), each ending with the signature-address *kūḍala-saṅgama-deva* (\"Lord of the meeting rivers\" — a Śiva-form Basava had worshipped at Kūḍala-saṅgama in his youth). The vacanas are not metrical verse but prose-poetry built on parallelism, repetition, and rhythmic close. Their themes cover the entire Vīraśaiva doctrinal-disciplinary frame: the *iṣṭa-liṅga* worship, the *aṣṭāvaraṇa*, the *pañcācāra* (the five disciplines: *liṅgācāra*, *sadācāra*, *śivācāra*, *bhṛtyācāra*, *gaṇācāra*), the *kāyaka* doctrine that all honest labour is sacred, the *dāsoha* doctrine that wealth belongs to the community of Śaraṇas, the *anubhava-maṇṭapa*'s anti-caste anti-gender-hierarchy ethical vision. The polemical edge — directed against caste-Brahmanism, temple-priestly intermediation, and Vedic-ritualist exclusion of non-twice-born from the Śaiva path — is sharp throughout: 'making the river that goes by your house holy / making the trees in your yard sacred / how about the worship in the heart?' (a representative Basava-style vacana on internal worship versus external Brahmanical purity). The vacana-corpus is the principal source for Vīraśaiva theology and the form in which the Vīraśaiva movement enters the textual record. A.K. Ramanujan's *Speaking of Śiva* (1973) is the standard English-language anthology and remains the principal point of access for non-Kannada readers. Note on language: the morphological analysis of these texts follows Old-Kannada (Halegannada) grammar (verbal forms in *-uvenu*, *-uttide*, etc.; the agglutinative case-system of Kannada with eight cases including the *prathamā / dvitīyā / tṛtīyā* paradigm in the Kannada inflectional pattern) rather than Pāṇinian Sanskrit grammar.",
       "key_passage_ids": [],
       "entry_status": "reviewed",
-      "source_status": "primary-text-not-in-corpus"
+      "source_status": "acceptable-on-disk"
     }
   ],
   "key_passages": [],

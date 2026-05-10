@@ -2,7 +2,9 @@
   "id": "kaundinya",
   "name": "Kaundinya",
   "name_iast": "Kauṇḍinya",
-  "alternate_names": ["Rāśīkara"],
+  "alternate_names": [
+    "Rāśīkara"
+  ],
   "dates_low": 350,
   "dates_high": 500,
   "dates_tier": "consensus-textual",
@@ -11,7 +13,9 @@
   "school_color_token": "pasupata-comparator",
   "sub_school": "Pāśupata-foundational",
   "sub_school_shade": 3,
-  "lineage_in": ["lakulisha"],
+  "lineage_in": [
+    "lakulisha"
+  ],
   "lineage_out": [],
   "lineage_polemical": [
     {
@@ -31,22 +35,31 @@
       "work_id": "pancartha-bhasya",
       "title": "Pancartha-Bhasya",
       "title_iast": "Pañcārtha-Bhāṣya",
-      "alternate_titles": ["Rāśīkara-Bhāṣya", "Pāśupata-Sūtra-Bhāṣya"],
+      "alternate_titles": [
+        "Rāśīkara-Bhāṣya",
+        "Pāśupata-Sūtra-Bhāṣya"
+      ],
       "composition_dates_low": 350,
       "composition_dates_high": 500,
       "composition_dates_notes": "Composition placed in the fourth–fifth century CE on the basis of Kauṇḍinya's use of Patañjali's grammatical apparatus and the work's pre-Mīmāṃsā-Vārttika character; the bhāṣya is the only complete pre-medieval Pāśupata commentary to survive.",
       "ascription_tier": "securely-authored",
-      "ascription_notes": "Securely ascribed to Kauṇḍinya by uniform Pāśupata tradition; the alternative name Rāśīkara appears in some sources as the author's name and in others as a separate teacher.",
+      "ascription_notes": "Securely ascribed to Kauṇḍinya by uniform Pāśupata tradition; the alternative name Rāśīkara appears in some sources as the author's name and in others as a separate teacher. Wave-10: Pāśupata-Sūtra with Pañcārtha-Bhāṣya (Ananthakrishna Sastri 1940, Trivandrum) PDF acquired; awaiting Churro-3B OCR.",
       "ascription_evidence": [
-        {"kind": "manuscript-tradition", "description": "Preserved in continuous manuscript tradition with the Pāśupata-Sūtra; published in Trivandrum Sanskrit Series 143 (1940) by R. Anantakrishna Sastri."},
-        {"kind": "scholarly-consensus", "description": "Bhandarkar (1913); Hara (Pāśupata Studies); Bisschop (Early Śaivism and the Skandapurāṇa); Sanderson (essays on early Śaivism)."}
+        {
+          "kind": "manuscript-tradition",
+          "description": "Preserved in continuous manuscript tradition with the Pāśupata-Sūtra; published in Trivandrum Sanskrit Series 143 (1940) by R. Anantakrishna Sastri."
+        },
+        {
+          "kind": "scholarly-consensus",
+          "description": "Bhandarkar (1913); Hara (Pāśupata Studies); Bisschop (Early Śaivism and the Skandapurāṇa); Sanderson (essays on early Śaivism)."
+        }
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
       "summary": "A complete Sanskrit prose commentary on Lakulīśa's *Pāśupata-Sūtra* in five chapters tracking the source-text. The commentary develops the five *padārthas* (whence the alternative title *Pañcārtha-Bhāṣya*): *kārya* (the effect, the *guṇas* the Pāśupata acquires), *kāraṇa* (the cause, *pati*-Śiva), *yoga* (the discipline of union), *vidhi* (the rules of practice including the provocation-disciplines that have given the Pāśupata sect its reputation for antinomianism), *duḥkha-anta* (the cessation of suffering as the end-state of the path). The metaphysical core — the *pati-paśu-pāśa* triad as three eternally distinct categories with Śiva as *nimitta-kāraṇa* but not *upādāna* — is articulated through the commentary's gloss of the opening *sūtra*. The chapters on *vidhi* (II–III) develop the famous Pāśupata provocation-practices: the *avamāna-pratiṣṭhā* (the establishment of dishonour), the *kapota-vṛtti* (the dove's begging), the simulation of madness (*unmatta-vat*), the deliberate solecism designed to attract censure and so dissolve attachment to *yaśas*. The commentary on chapter V develops the end-state — *sāyujya* with Śiva, the acquisition of the eight Śaiva *aiśvaryas* — and is explicit that the end-state is proximity, not identity. The work is the principal extant document of the Pāśupata position and the form in which Pāśupata Śaivism is recoverable for the modern reader.",
       "key_passage_ids": [],
       "entry_status": "reviewed",
-      "source_status": "primary-text-not-in-corpus"
+      "source_status": "degraded-on-disk"
     }
   ],
   "key_passages": [],

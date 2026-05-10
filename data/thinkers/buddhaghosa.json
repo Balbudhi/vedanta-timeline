@@ -2,7 +2,10 @@
   "id": "buddhaghosa",
   "name": "Buddhaghosa",
   "name_iast": "Buddhaghosa",
-  "alternate_names": ["Bhadanta Buddhaghosa", "Visuddhācariya"],
+  "alternate_names": [
+    "Bhadanta Buddhaghosa",
+    "Visuddhācariya"
+  ],
   "dates_low": 370,
   "dates_high": 450,
   "dates_tier": "consensus-textual",
@@ -20,15 +23,20 @@
       "work_id": "visuddhimagga",
       "title": "Visuddhimagga",
       "title_iast": "Visuddhimagga",
-      "alternate_titles": ["The Path of Purification"],
+      "alternate_titles": [
+        "The Path of Purification"
+      ],
       "ascription_tier": "securely-authored",
-      "ascription_notes": "Securely authored by Buddhaghosa at the Mahāvihāra in Anurādhapura. The standard PTS edition is Rhys Davids 1920–1921; the standard English translation is Ñāṇamoli 1956 (revised 1975).",
+      "ascription_notes": "Securely authored by Buddhaghosa at the Mahāvihāra in Anurādhapura. The standard PTS edition is Rhys Davids 1920–1921; the standard English translation is Ñāṇamoli 1956 (revised 1975). Wave-10: Bhikkhu Ñāṇamoli English (BPS 2011) text-PDF acquired; clean text-extractable. Pali via SuttaCentral bilara-data clone at /orcd/pool/008/eeshan/philosophy_corpus/suttacentral_bilara/.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Norman 1983, Pāli Literature; Hinüber 1996, Handbook of Pāli Literature; Bond 1988."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Norman 1983, Pāli Literature; Hinüber 1996, Handbook of Pāli Literature; Bond 1988."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
-      "source_status": "primary-text-not-in-corpus",
+      "source_status": "acceptable-on-disk",
       "summary": "The principal systematic treatise of Theravāda Buddhism, structured in twenty-three chapters under the threefold heading of sīla (chs. 1–2), samādhi (chs. 3–13), and paññā (chs. 14–23). The samādhi chapters supply the most detailed pre-modern Indian phenomenology of meditative attainment available, treating the forty kammaṭṭhāna meditation-objects, the four jhānas, the four arūpa-jhānas, and the iddhi (psychic powers); the paññā chapters supply the systematic doctrinal exposition treating the khandhas, āyatanas, dhātus, the four noble truths, and the twelve links of paṭicca-samuppāda. Chapter XVII (Paññā-Bhūmi-Niddesa) is the canonical Theravāda treatment of dependent origination as a twelve-link causal series; chapter XVIII (Diṭṭhi-Visuddhi-Niddesa) treats the purification of view through the elimination of the substance-self; chapters XIX–XXII treat the path-knowledges culminating in nibbāna. The text is the principal source for understanding Theravāda doctrine as a unified system. Note: the text is in Pāli, not Sanskrit; the language field reflects the lexical-categorial heritage but the actual morphology is Pāli (sukhaṁ, dukkhaṁ, anattā rather than sukham, duḥkham, anātmā).",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -37,11 +45,17 @@
       "work_id": "atthasalini",
       "title": "Atthasalini",
       "title_iast": "Aṭṭhasālinī",
-      "alternate_titles": ["Dhammasaṅgaṇī-Aṭṭhakathā", "The Expositor"],
+      "alternate_titles": [
+        "Dhammasaṅgaṇī-Aṭṭhakathā",
+        "The Expositor"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored by Buddhaghosa as the commentary on the Dhammasaṅgaṇī (the first book of the Pāli Abhidhamma-piṭaka). Edited by Müller for PTS 1897, translated by Pe Maung Tin 1920–1921 (revised by Rhys Davids).",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Hinüber 1996, §215."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Hinüber 1996, §215."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -54,11 +68,16 @@
       "work_id": "sumangala-vilasini",
       "title": "Sumangala-Vilasini",
       "title_iast": "Sumaṅgala-Vilāsinī",
-      "alternate_titles": ["Dīgha-Nikāya-Aṭṭhakathā"],
+      "alternate_titles": [
+        "Dīgha-Nikāya-Aṭṭhakathā"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored by Buddhaghosa as the commentary on the Dīgha-Nikāya. PTS edition Rhys Davids and Carpenter 1886–1932.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Hinüber 1996, §214."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Hinüber 1996, §214."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
