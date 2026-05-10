@@ -3,42 +3,325 @@
   "term_iast": "satkārya-vāda",
   "term_devanagari": "सत्कार्यवाद",
   "literal": "the doctrine that the effect (*kārya*) is real (*sat*) [in the cause]",
-  "aliases": ["satkarya-vada", "satkārya-vāda", "satkāryavāda", "Satkārya-vāda", "sat-karya-vada"],
+  "aliases": [
+    "satkarya-vada",
+    "satkārya-vāda",
+    "satkāryavāda",
+    "Satkārya-vāda",
+    "sat-karya-vada"
+  ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus",
+  "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "*Satkārya-vāda* is the thesis that the effect does not come from sheer non-being but pre-exists in its cause in some determinable way. The classical opponent is Nyāya-Vaiśeṣika *ārambha-vāda* or *asatkārya-vāda*, according to which production is the genuine beginning of a previously non-existent effect. Sāṅkhya makes the foundational argument: what is wholly absent cannot be produced; production is manifestation, differentiation, or transformation of what was already causally present. Vedāntins broadly inherit that anti-ex-nihilo commitment, but they disagree sharply over how the effect pre-exists. For some the cause really transforms into its effect; for Advaita the effect is only an apparent manifestation on an unchanged substrate; for Vallabha the manifestation is real without entailing corruption of the cause. The doctrine is therefore not one single theory but the causal battlefield on which *pariṇāma*, *vivarta*, and *avikṛta-pariṇāma* are distinguished.",
   "per_school": [
     {
-      "school": "Sāṅkhya",
-      "definition": "The effect pre-exists in *prakṛti* and production is its manifestation. The classical arguments appeal to the impossibility of producing something from nothing, to the need for material continuity, and to the fact that only what is causally fitted can emerge. *Satkārya-vāda* thus grounds Sāṅkhya cosmology: the world is the real unfolding of *prakṛti*.",
-      "primary_loci": ["Sāṅkhya-Kārikā 9-11"]
-    },
-    {
       "school": "Advaita",
-      "definition": "Advaita accepts *satkārya-vāda* against ex nihilo production, but cashes it out through *vivarta*. The world depends on *brahman* as substrate and cannot arise from sheer non-being, yet the effect is not a real transformation of *brahman*. Pre-existence therefore means dependence on, and appearance upon, the real cause rather than literal modification of it.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.1.14", "Chāndogya-Upaniṣad-Bhāṣya 6.1.4-6"]
+      "definition": "Advaita accepts kāryakāraṇānanyatva: the world has no being apart from Brahman, and the clay-pot illustration is read to show that the effect is not independently real over against its cause. [cite://sankara/brahma-sutra-bhasya/2.1.14] Yet Śaṅkara simultaneously treats vikāra as mere nāmadheya and anṛta, so satkārya here culminates not in a real pariṇāma of Brahman but in the dependent appearance of effect upon an unchanged cause. [cite://sankara/brahma-sutra-bhasya/2.1.14]",
+      "primary_loci": [
+        "Śaṅkara, Brahma-Sūtra-Bhāṣya 2.1.14"
+      ],
+      "citations": [
+        {
+          "cite": "cite://sankara/brahma-sutra-bhasya/2.1.14",
+          "locus_short": "BSBh 2.1.14"
+        }
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "The effect pre-exists in the causal state of *brahman* as its body, and production is the real manifestation of previously subtle *cit* and *acit* modes. Rāmānuja rejects both sheer novelty and illusory appearance: the world is real, continuous with its cause, and dependent on the Lord whose essential nature remains uncorrupted.",
-      "primary_loci": ["Śrī-Bhāṣya 2.1.14-20", "Vedārtha-Saṅgraha §§91-95"]
+      "definition": "Viśiṣṭādvaita reads `sad eva` as teaching that the world already exists in Brahman in subtle condition, and the clay example establishes kāryakāraṇānanyatva because the effect is nothing apart from its material cause. [cite://ramanuja/vedartha-samgraha/§15; cite://ramanuja/vedartha-samgraha/§16] The effect is nevertheless real and articulated: the cit-acit cosmos is taught as Brahman's own body, so manifestation is a real emergence of modes rather than an illusory appearance or a severance from the cause. [cite://ramanuja/vedartha-samgraha/§6; cite://ramanuja/vedartha-samgraha/§18]",
+      "primary_loci": [
+        "Rāmānuja, Vedārtha-Saṃgraha §§6, 15-16, 18"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§6",
+          "locus_short": "VedSa §6"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§15",
+          "locus_short": "VedSa §15"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§16",
+          "locus_short": "VedSa §16"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§18",
+          "locus_short": "VedSa §18"
+        }
+      ]
     },
     {
       "school": "Tattva-vāda",
-      "definition": "Tattva-vāda (the school often labeled Dvaita) rejects creation from nothing and accepts real causal continuity, but it does not collapse cause and effect into identity. The world emerges from real dependent material principles under Viṣṇu's efficient causality. The effect is thus precontained in the causal order while remaining really distinct from Viṣṇu and from other entities.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 2.1.14 [NOT YET RETRIEVED]", "Anu-Vyākhyāna 2.1 [NOT YET RETRIEVED]"]
+      "definition": "Tattva-vāda does not admit causal non-difference between Brahman and the world, because the fivefold difference is real, beginningless, and not sublated by liberation. [cite://madhva/anuvyakhyana/1.4.111-112] Still, dravya, karma, kāla, svabhāva, and jīva subsist only through Hari's anugraha, while abheda-language is restricted to likeness, predominance, or dependence rather than svarūpābheda. [cite://madhva/anuvyakhyana/1.1.13-15; cite://madhva/anuvyakhyana/2.3.66-69]",
+      "primary_loci": [
+        "Madhva, Anuvyākhyāna 1.1.13-15",
+        "Madhva, Anuvyākhyāna 1.4.111-112",
+        "Madhva, Anuvyākhyāna 2.3.66-69"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/anuvyakhyana/1.1.13-15",
+          "locus_short": "Anuvy. 1.1.13-15"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/1.4.111-112",
+          "locus_short": "Anuvy. 1.4.111-112"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/2.3.66-69",
+          "locus_short": "Anuvy. 2.3.66-69"
+        }
+      ]
     },
     {
-      "school": "Bhedābheda (Bhāskara)",
-      "definition": "Bhāskara defends *satkārya-vāda* through real *pariṇāma*. The world is a genuine transformation of *brahman* and not a merely apparent manifestation. Cause and effect are therefore both identical and different: identical in substance, different in manifested condition.",
-      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 2.1.14"]
+      "school": "Bhedābheda",
+      "definition": "In the available corpus, Bhedābheda is recoverable through Rāmānuja's report of positions for which Brahman, when connected with an upādhi, undergoes bondage, release, and manifold impure transformations, or is by nature both different and non-different while serving as the locus of cosmic transformation. [cite://ramanuja/vedartha-samgraha/§8; cite://ramanuja/vedartha-samgraha/§9] On that witness, the school treats the world as a real pariṇāma of Brahman and therefore affirms an effect already grounded in its cause without reducing plurality to illusion. [cite://ramanuja/vedartha-samgraha/§8; cite://ramanuja/vedartha-samgraha/§9]",
+      "primary_loci": [
+        "Rāmānuja, Vedārtha-Saṃgraha §§8-9"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§8",
+          "locus_short": "VedSa §8"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§9",
+          "locus_short": "VedSa §9"
+        }
+      ]
     },
     {
-      "school": "Śuddhādvaita (Vallabha)",
-      "definition": "Vallabha also accepts *satkārya-vāda*, but refuses both Advaita's non-transformative appearance theory and ordinary *pariṇāma* that seems to damage the cause. The effect pre-exists in *brahman* and emerges as a real manifestation without loss of the cause's fullness. This is formulated as *avikṛta-pariṇāma*.",
-      "primary_loci": ["Aṇu-Bhāṣya 1.1.2", "Tattvārtha-Dīpa-Nibandha, Śāstrārtha-Prakaraṇa [NOT YET RETRIEVED]"]
+      "school": "Acintya-Bhedābheda",
+      "definition": "Jīva Gosvāmin construes the abheda-texts through Bhagavān's svābhāvika acintya-śakti, so that the jīva-samūha stands to him as ray-atoms to the sun and is therefore neither simply identical nor simply separate. [cite://jiva-gosvami/sat-sandarbha/§43] Precisely because bheda remains alongside abheda, bhajana of Bhagavān becomes the abhidheya, and ontological dependence is preserved without collapse into bare identity. [cite://jiva-gosvami/sat-sandarbha/§43; cite://jiva-gosvami/sat-sandarbha/§44]",
+      "primary_loci": [
+        "Jīva Gosvāmin, Sat-Sandarbha §§43-44"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§43",
+          "locus_short": "Sat Sand. §43"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§44",
+          "locus_short": "Sat Sand. §44"
+        }
+      ]
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "Nimbārka construes bheda and abheda as svābhāvika: the jīva is atomic, knowing, transmigratory, and dependent on Hari, so difference and non-difference are both intrinsic to the relation. [cite://nimbarka/dasa-shloki/1] Because the triadic reality of cit, acit, and Brahman is affirmed as `brahmātmakatva` without cancellation of distinction, effectual plurality is a real dependent manifestation rather than an independent second principle. [cite://nimbarka/dasa-shloki/7; cite://nimbarka/vedanta-parijata-saurabha/2.3.42]",
+      "primary_loci": [
+        "Nimbārka, Daśa-Ślokī 1, 7",
+        "Nimbārka, Vedānta-Pārijāta-Saurabha 2.3.42"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nimbarka/dasa-shloki/1",
+          "locus_short": "DaŚ 1"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/7",
+          "locus_short": "DaŚ 7"
+        },
+        {
+          "cite": "cite://nimbarka/vedanta-parijata-saurabha/2.3.42",
+          "locus_short": "VPS 2.3.42"
+        }
+      ]
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "Vallabha explicitly makes Brahman the samavāyi cause and places nāma and rūpa on the effect-side as kārya-dharmas. [cite://vallabha/anubhasya/1.1.4a; cite://vallabha/anubhasya/1.1.4d] The world is thus a real pariṇāma in kāryākāra, yet Brahman remains avikṛta; this is the school's avikṛta-pariṇāma construal of satkārya. [cite://vallabha/anubhasya/1.4.26a; cite://vallabha/anubhasya/1.4.26b; cite://vallabha/anubhasya/1.4.26c]",
+      "primary_loci": [
+        "Vallabha, Aṇu-Bhāṣya 1.1.4",
+        "Vallabha, Aṇu-Bhāṣya 1.4.26"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anubhasya/1.1.4a",
+          "locus_short": "AṇuBh 1.1.4a"
+        },
+        {
+          "cite": "cite://vallabha/anubhasya/1.1.4d",
+          "locus_short": "AṇuBh 1.1.4d"
+        },
+        {
+          "cite": "cite://vallabha/anubhasya/1.4.26a",
+          "locus_short": "AṇuBh 1.4.26a"
+        },
+        {
+          "cite": "cite://vallabha/anubhasya/1.4.26b",
+          "locus_short": "AṇuBh 1.4.26b"
+        },
+        {
+          "cite": "cite://vallabha/anubhasya/1.4.26c",
+          "locus_short": "AṇuBh 1.4.26c"
+        }
+      ]
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "Sāṃkhya states satkārya directly: the effect is existent because the non-existent is not produced, a material cause must be taken up, not everything arises from everything, the potent produces only the producible, and effect follows the nature of its cause. [cite://isvara-krsna/samkhya-karika/9] Those five reasons make production a manifestation of what the upādāna already holds, not the origination of an entity that was wholly absent. [cite://isvara-krsna/samkhya-karika/9]",
+      "primary_loci": [
+        "Īśvarakṛṣṇa, Sāṃkhya-Kārikā 9"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvara-krsna/samkhya-karika/9",
+          "locus_short": "SK 9"
+        }
+      ]
+    },
+    {
+      "school": "Yoga",
+      "definition": "Yoga frames causal emergence through pariṇāma of dharmin and dharmas, so the effect belongs to an ongoing continuum of transformation rather than to sheer origination from non-being. [cite://patanjali/yoga-sutra/3.13; cite://patanjali/yoga-sutra/3.14] Vyāsa then states that past and future dharmas exist in their own form, and that causal conditions make an already-grounded result present instead of producing an unprecedented entity. [cite://vyasa-bhasya/yoga-sutra-bhasya/4.12]",
+      "primary_loci": [
+        "Yoga-Sūtra 3.13-14",
+        "Yoga-Sūtra-Bhāṣya on YS 4.12"
+      ],
+      "citations": [
+        {
+          "cite": "cite://patanjali/yoga-sutra/3.13",
+          "locus_short": "YS 3.13"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/3.14",
+          "locus_short": "YS 3.14"
+        },
+        {
+          "cite": "cite://vyasa-bhasya/yoga-sutra-bhasya/4.12",
+          "locus_short": "YBh on YS 4.12"
+        }
+      ]
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "Nyāya-Vaiśeṣika defines cause as what antecedently exists with reference to the effect and defines the effect as the counterpositive of prior non-existence, so its model is ārambha rather than satkārya. [cite://annambhatta/tarka-sangraha/38; cite://annambhatta/tarka-sangraha/39] Production terminates prāgabhāva and yields a new kārya, even while the causal nexus remains ordered through samavāyi, asamavāyi, and nimitta causes. [cite://annambhatta/tarka-sangraha/80; cite://annambhatta/tarka-sangraha/40]",
+      "primary_loci": [
+        "Annambhaṭṭa, Tarka-Saṅgraha 38-40, 80"
+      ],
+      "citations": [
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/38",
+          "locus_short": "AnTs 38"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/39",
+          "locus_short": "AnTs 39"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/40",
+          "locus_short": "AnTs 40"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/80",
+          "locus_short": "AnTs 80"
+        }
+      ]
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [
+        "Jaimini-Mīmāṃsā-Sūtra and available on-disk commentarial corpus inspected"
+      ],
+      "citations": [],
+      "not_applicable_reason": "In the available Jaimini-Śabara-Kumārila corpus, the school's technical concern is ritual efficacy, codanā, and apūrva rather than a distinct satkārya-vāda doctrine."
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "Mādhyamaka does not replace satkārya-vāda with another realist account of production, but denies under svabhāva-analysis that entities ever arise from self, other, both, or no cause. [cite://nagarjuna/mula-madhyamaka-karika/1.1] Nāgārjuna further says that causal conditioning is coherent neither for the existent nor for the non-existent, so pre-existent effect and freshly produced effect are alike rejected at the level of ultimate analysis. [cite://nagarjuna/mula-madhyamaka-karika/1.6]",
+      "primary_loci": [
+        "Nāgārjuna, Mūla-Madhyamaka-Kārikā 1.1, 1.6"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/1.1",
+          "locus_short": "MMK 1.1"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/1.6",
+          "locus_short": "MMK 1.6"
+        }
+      ]
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "Yogācāra redescribes causality as vijñānapariṇāma: the operative transformations are transformations of consciousness itself. [cite://vasubandhu/trimsika/1] The ālaya as sarvabījaka and the paratantra nature as pratyayodbhava show that the effect arises through conditioned unfolding of an already-seeded stream rather than through external material origination ex nihilo. [cite://vasubandhu/trimsika/18; cite://vasubandhu/trimsika/21]",
+      "primary_loci": [
+        "Vasubandhu, Triṃśikā 1, 18, 21"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/trimsika/1",
+          "locus_short": "Triṃś 1"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/18",
+          "locus_short": "Triṃś 18"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/21",
+          "locus_short": "Triṃś 21"
+        }
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "Kṣemarāja states that autonomous consciousness alone is the cause of the manifestation, maintenance, and reabsorption of the world. [cite://ksemaraja/pratyabhijna-hrdayam/1] He then glosses `unmīlana` as the making-manifest of what is already situated on consciousness's own surface, so causal production is disclosure of a pre-contained universe rather than origination from an external material. [cite://ksemaraja/pratyabhijna-hrdayam/2]",
+      "primary_loci": [
+        "Kṣemarāja, Pratyabhijñā-Hṛdayam 1-2"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ksemaraja/pratyabhijna-hrdayam/1",
+          "locus_short": "PH 1"
+        },
+        {
+          "cite": "cite://ksemaraja/pratyabhijna-hrdayam/2",
+          "locus_short": "PH 2"
+        }
+      ]
+    },
+    {
+      "school": "Jainism",
+      "definition": "Jain ontology defines the real as endowed with origination, decay, and permanence, and defines substance as possessed of qualities and modes. [cite://umasvati/tattvartha-sutra/sat-dravya-lakshanam; cite://umasvati/tattvartha-sutra/guna-paryayavat-dravyam] Accordingly, change is `pariṇāma` of an abiding dravya, so effectual becoming is neither sheer annihilation nor origination from what was wholly absent. [cite://umasvati/tattvartha-sutra/tad-bhavah-parinamah]",
+      "primary_loci": [
+        "Umāsvāti, Tattvārtha-Sūtra, Pañcamo'dhyāya, sat-dravya-lakṣaṇa",
+        "Umāsvāti, Tattvārtha-Sūtra, Pañcamo'dhyāya, guṇa-paryāyavat dravyam",
+        "Umāsvāti, Tattvārtha-Sūtra, Pañcamo'dhyāya, tadbhāvaḥ pariṇāmaḥ"
+      ],
+      "citations": [
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/sat-dravya-lakshanam",
+          "locus_short": "TS 5, sat-dravya-lakṣaṇa"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/guna-paryayavat-dravyam",
+          "locus_short": "TS 5, guṇa-paryāyavat dravyam"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/tad-bhavah-parinamah",
+          "locus_short": "TS 5, tadbhāvaḥ pariṇāmaḥ"
+        }
+      ]
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "No substantive school treatment of satkārya-vāda is retrievable from the available on-disk grammatical corpus, and the key Vaiyākaraṇa primaries named for such a judgment are not present here."
     }
   ],
-  "see_also": ["parinama", "vivarta", "avikrta-parinama", "prakrti", "brahman"],
+  "see_also": [
+    "parinama",
+    "vivarta",
+    "avikrta-parinama",
+    "prakrti",
+    "brahman"
+  ],
   "translator_note": "Avoid flattening *satkārya-vāda* to a generic 'conservation' thesis or to Aristotelian potency without comment. Those comparisons help only at a distance. The doctrine concerns how effecthood is already grounded in the cause within Indian debates over manifestation, transformation, and dependence."
 }
