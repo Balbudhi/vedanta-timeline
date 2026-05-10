@@ -247,6 +247,20 @@ async function loadAll() {
   state.thinkers = thinkers.filter(Boolean);
   state.thinkers.forEach((t) => state.thinkersById.set(t.id, t));
 
+  // Set of "<thinker_id>__<work_id>" identifiers for which a full translation
+  // markdown lives on disk under data/full_translations/. Used by
+  // renderWorkCard to choose between full-translation framing and
+  // "engaged passages (full work pending)" framing. Falls back to empty.
+  state.fullTranslationSet = new Set();
+  try {
+    const ftIdx = await loadJSON("data/full_translations/index.json");
+    if (ftIdx && Array.isArray(ftIdx.files)) {
+      for (const fname of ftIdx.files) {
+        state.fullTranslationSet.add(String(fname).replace(/\.md$/, ""));
+      }
+    }
+  } catch (_) {}
+
   const claims = await Promise.all(
     (manifest.comparative_claims || []).map((f) => loadJSON(`data/comparative_claims/${f}`))
   );
@@ -1218,6 +1232,9 @@ function closePanel() {
   state.activeId = null;
   document.querySelectorAll(".thinker-dot").forEach((d) => d.classList.remove("is-active"));
   document.querySelectorAll(".lineage-edge").forEach((el) => el.classList.remove("is-lit"));
+  if (!router._suspendSerialize) {
+    try { history.replaceState(null, "", location.pathname + location.search); } catch (_) {}
+  }
 }
 
 function setPanelTab(tab) {
@@ -1257,12 +1274,149 @@ if (dpTabBar) {
   dpTabBar.querySelectorAll(".dp-tab").forEach((btn) => {
     btn.addEventListener("click", () => {
       const t = btn.dataset.pane;
-      if (t) setPanelTab(t);
+      if (!t) return;
+      setPanelTab(t);
+      // When the user clicks a tab directly, reflect the active surface in
+      // the URL so back / forward / reload restores the same view.
+      if (t === "thinker" && state.activeId) {
+        router.push({ kind: "thinker", thinkerId: state.activeId });
+      } else if (t === "source" && sourceTabState.activeFilePath) {
+        router.push({ kind: "source", thinkerId: state.activeId || "", sourcePath: sourceTabState.activeFilePath });
+      } else if (t === "citation" && sourceTabState.activeCiteKey) {
+        router.push({ kind: "citation", thinkerId: state.activeId || sourceTabState.activeCiteKey.split("/")[0], citeKey: sourceTabState.activeCiteKey });
+      }
     });
   });
 }
 
 // ---------- detail pane (Thinker tab) -----------
+// ---------- URL hash router (Fix 3) -----------
+// Every navigable state change is mirrored in the URL hash so back / forward
+// / reload / share work. Format:
+//   #/thinker/<id>
+//   #/thinker/<id>/translation/<work_id>
+//   #/thinker/<id>/citation/<thinker>/<work>/<locus...>
+//   #/thinker/<id>/source/<file_path...>
+//   #/article/<slug>
+//   #/perspective/<slug>
+// The router is reentrancy-guarded: when we apply a parsed hash we set a
+// flag so the open* handlers do not push a redundant hash update back.
+const router = {
+  _suspendSerialize: false,
+
+  parse(hash) {
+    const h = (hash || "").replace(/^#\/?/, "").replace(/^\/+/, "");
+    if (!h) return null;
+    const parts = h.split("/").filter(Boolean).map((s) => {
+      try { return decodeURIComponent(s); } catch (_) { return s; }
+    });
+    if (parts[0] === "thinker" && parts[1]) {
+      const tid = parts[1];
+      if (parts[2] === "translation" && parts[3]) {
+        return { kind: "translation", thinkerId: tid, workId: parts[3] };
+      }
+      if (parts[2] === "citation" && parts[3]) {
+        return { kind: "citation", thinkerId: tid, citeKey: parts.slice(3).join("/") };
+      }
+      if (parts[2] === "source" && parts[3]) {
+        return { kind: "source", thinkerId: tid, sourcePath: parts.slice(3).join("/") };
+      }
+      return { kind: "thinker", thinkerId: tid };
+    }
+    if (parts[0] === "article" && parts[1]) {
+      return { kind: "article", slug: parts[1] };
+    }
+    if (parts[0] === "perspective" && parts[1]) {
+      return { kind: "perspective", slug: parts[1] };
+    }
+    if (parts[0] === "source" && parts[1]) {
+      return { kind: "source", sourcePath: parts.slice(1).join("/") };
+    }
+    return null;
+  },
+
+  serialize(state) {
+    if (!state) return "";
+    const enc = (s) => encodeURIComponent(s || "").replace(/%2F/gi, "/");
+    if (state.kind === "thinker") return `#/thinker/${enc(state.thinkerId)}`;
+    if (state.kind === "translation") return `#/thinker/${enc(state.thinkerId)}/translation/${enc(state.workId)}`;
+    if (state.kind === "citation") {
+      const tid = state.thinkerId || (state.citeKey || "").split("/")[0] || "";
+      const keyParts = (state.citeKey || "").split("/").map(enc).join("/");
+      return `#/thinker/${enc(tid)}/citation/${keyParts}`;
+    }
+    if (state.kind === "source") {
+      const tid = state.thinkerId || "";
+      const pathParts = (state.sourcePath || "").split("/").map(enc).join("/");
+      return tid
+        ? `#/thinker/${enc(tid)}/source/${pathParts}`
+        : `#/source/${pathParts}`;
+    }
+    if (state.kind === "article") return `#/article/${enc(state.slug)}`;
+    if (state.kind === "perspective") return `#/perspective/${enc(state.slug)}`;
+    return "";
+  },
+
+  push(state) {
+    if (this._suspendSerialize) return;
+    const target = this.serialize(state);
+    if (!target) return;
+    if (location.hash === target) return;
+    try {
+      history.replaceState(null, "", target);
+    } catch (_) {
+      location.hash = target.replace(/^#/, "");
+    }
+  },
+
+  apply(parsed) {
+    if (!parsed) return;
+    this._suspendSerialize = true;
+    try {
+      if (parsed.kind === "thinker") {
+        openThinker(parsed.thinkerId);
+      } else if (parsed.kind === "translation") {
+        openThinker(parsed.thinkerId);
+        openReader(parsed.workId, parsed.thinkerId);
+      } else if (parsed.kind === "citation") {
+        openThinker(parsed.thinkerId);
+        openCitationPanel(parsed.citeKey, null);
+      } else if (parsed.kind === "source") {
+        if (parsed.thinkerId) openThinker(parsed.thinkerId);
+        setPanelTab("source");
+        ensureSourceTreeRendered().then(() => {
+          if (parsed.sourcePath) selectSourceFile(parsed.sourcePath);
+        });
+      } else if (parsed.kind === "article" || parsed.kind === "perspective") {
+        const list = parsed.kind === "perspective"
+          ? ((perspectivesManifest && perspectivesManifest.perspectives) || [])
+          : ((articlesManifest && articlesManifest.articles) || []);
+        const found = list.find((a) => a.slug === parsed.slug);
+        if (found) {
+          openArticle({ ...found, kind: parsed.kind });
+        } else if (parsed.kind === "article") {
+          ensureArticlesLoaded().then(() => {
+            const a = (articlesManifest && articlesManifest.articles || []).find((x) => x.slug === parsed.slug);
+            if (a) openArticle(a);
+          });
+        } else {
+          ensurePerspectivesLoaded().then(() => {
+            const p = (perspectivesManifest && perspectivesManifest.perspectives || []).find((x) => x.slug === parsed.slug);
+            if (p) openArticle({ ...p, kind: "perspective" });
+          });
+        }
+      }
+    } finally {
+      this._suspendSerialize = false;
+    }
+  },
+};
+
+window.addEventListener("hashchange", () => {
+  const parsed = router.parse(location.hash);
+  if (parsed) router.apply(parsed);
+});
+
 function openThinker(id) {
   const t = state.thinkersById.get(id);
   if (!t) return;
@@ -1293,6 +1447,7 @@ function openThinker(id) {
       if (p) openArticle({ ...p, kind: "perspective" });
     });
   });
+  router.push({ kind: "thinker", thinkerId: id });
 }
 
 function scrollDotIntoView(t) {
@@ -1361,6 +1516,16 @@ function renderHero(t) {
     "oral-tradition-only": "Oral tradition only",
   }[t.dates_tier] || (t.dates_tier || "");
   const subSchool = t.sub_school ? " · " + escape(t.sub_school) : "";
+  // Number citations in the core thesis. The footnote counter is local to
+  // the hero block; engaged-works cards each start their own counter so
+  // numbering does not balloon across the whole entry.
+  const heroCtr = { n: 0 };
+  const heroRendered = numberCitations(
+    md(t.core_thesis || "Core thesis: not yet written."),
+    heroCtr,
+  );
+  const heroThesisHtml = heroRendered.html;
+  const heroFootnotes = renderFootnoteList(heroRendered.footnotes);
   return `
     <div class="detail-hero">
       <h2>${escape(t.name_iast || t.name || t.id)}</h2>
@@ -1370,7 +1535,8 @@ function renderHero(t) {
         ${tierLabel ? `<span class="tier-pill">${escape(tierLabel)}</span>` : ""}
       </div>
       <p class="dates-line">${escape(formatDatesLong(t))}${t.dates_notes ? " · " + md(t.dates_notes) : ""}</p>
-      <div class="thesis">${md(t.core_thesis || "Core thesis: not yet written.")}</div>
+      <div class="thesis">${heroThesisHtml}</div>
+      ${heroFootnotes}
     </div>
   `;
 }
@@ -1403,6 +1569,14 @@ function renderEngagedWorks(t) {
   const allPassages = t.key_passages || [];
   const cards = works.map((w) => {
     const passages = allPassages.filter((p) => p.work_id === w.work_id);
+    // Flag whether a full translation .md is on disk so the work card can
+    // decide between "Read the full work in translation" + suppressed
+    // passage list, or surfacing the key passages with an honest
+    // "(full work pending)" framing.
+    const txKey = `${t.id}__${w.work_id}`;
+    w.__hasFullTranslation = state.fullTranslationSet
+      ? state.fullTranslationSet.has(txKey)
+      : false;
     return renderWorkCard(w, passages, t.id);
   }).join("");
   return `<h3 class="section-head">Engaged works</h3>${cards}`;
@@ -1421,21 +1595,44 @@ function renderWorkCard(w, passages, thinkerId) {
     "tamil-original": "Tamil original",
   }[status] || "";
   const statusKind = (status === "primary-text-not-in-corpus" || status === "degraded-on-disk") ? "missing" : "present";
+  // Number citations in the work summary + ascription notes. One counter
+  // per card so the user sees [1] [2] … fresh in each work.
+  const workCtr = { n: 0 };
+  const summaryRendered = numberCitations(md(w.summary || ""), workCtr);
+  const ascrRendered = w.ascription_notes
+    ? numberCitations(md(w.ascription_notes), workCtr)
+    : { html: "", footnotes: [] };
+  const allFootnotes = summaryRendered.footnotes.concat(ascrRendered.footnotes);
+  // Passages section framing — depends on whether a full translation is on
+  // disk. When the full work is available the user reads it via the
+  // "Read the full work in translation" button; the partial passage cards
+  // would be redundant. When only key_passages exist on disk, surface them
+  // under an honest "Engaged passages (full work pending)" header so the
+  // user knows these are selected loci, not a representative sample.
+  const hasFullTx = !!w.__hasFullTranslation;
+  let passagesBlock = "";
+  if (passages.length && !hasFullTx) {
+    passagesBlock = `
+      <div class="passages-nested">
+        <p class="nested-head">Engaged passages <span class="nested-sub">(full work pending)</span></p>
+        ${passages.map(renderPassageCard).join("")}
+      </div>`;
+  }
+  const readLabel = hasFullTx
+    ? "Read the full work in translation"
+    : "Open Translation tab (status + engaged passages)";
   return `
     <div class="work-card" data-work-id="${escape(w.work_id)}" data-source-status="${escape(status)}">
       <div class="title-line">
         <span class="title">${escape(w.title_iast || w.title || w.work_id)}</span>
         ${ascr ? `<span class="ascr">${escape(ascr)}</span>` : ""}
       </div>
-      <p class="summary">${md(w.summary || "")}</p>
-      ${w.ascription_notes ? `<p class="ascr-notes">${md(w.ascription_notes)}</p>` : ""}
+      <p class="summary">${summaryRendered.html}</p>
+      ${ascrRendered.html ? `<p class="ascr-notes">${ascrRendered.html}</p>` : ""}
       ${statusLabel ? `<p class="source-status source-status--${statusKind}"><span class="dot"></span>${escape(statusLabel)}</p>` : ""}
-      <button class="read-full-link" data-read-full="${escape(w.work_id)}" data-thinker="${escape(thinkerId)}">Read the full work in translation</button>
-      ${passages.length ? `
-        <div class="passages-nested">
-          <p class="nested-head">Passages from this work</p>
-          ${passages.map(renderPassageCard).join("")}
-        </div>` : ""}
+      <button class="read-full-link" data-read-full="${escape(w.work_id)}" data-thinker="${escape(thinkerId)}">${readLabel}</button>
+      ${renderFootnoteList(allFootnotes)}
+      ${passagesBlock}
     </div>
   `;
 }
@@ -1648,6 +1845,7 @@ ${passagesBlock}`;
     wireTranslationDisclosures(dpTranslationBody, { thinkerId, workId });
   }
   panelState.loaded.translation = true;
+  router.push({ kind: "translation", thinkerId, workId });
 }
 
 // ---------- Translation document parser + reading-first renderer -----------
@@ -1980,6 +2178,83 @@ function wireTranslationDisclosures(root, ctx) {
   });
 }
 
+// ---------- popover drag helper (Fix 2) -----------
+// Shared between the glossary popover and the citation popover. Adds:
+//   • A drag handle (an element matching .pop-drag, or the popover itself)
+//     that lets the user reposition the popover by pointer-drag.
+//   • Bounds clamping so the popover stays at least partially on-screen.
+//   • Optional session persistence: pass a storageKey to remember the user's
+//     preferred placement across opens (via localStorage).
+// Skipped on mobile (≤720 px): the popover is a bottom-sheet there and the
+// drag would conflict with the sheet's CSS-fixed positioning.
+function makePopoverDraggable(pop, opts) {
+  const isMobile = window.matchMedia("(max-width: 720px)").matches;
+  if (isMobile) return;
+  const handle = pop.querySelector(".pop-drag") || pop;
+  let dragging = false;
+  let startX = 0, startY = 0, startLeft = 0, startTop = 0;
+
+  function clampLeft(x, el) {
+    const w = el.offsetWidth || 400;
+    const minLeft = -w + 100;                       // keep ≥100 px visible
+    const maxLeft = window.innerWidth - 100;
+    return Math.max(minLeft, Math.min(maxLeft, x));
+  }
+  function clampTop(y, el) {
+    const minTop = 8;
+    const maxTop = window.innerHeight - 80;
+    return Math.max(minTop, Math.min(maxTop, y));
+  }
+
+  const key = opts && opts.storageKey;
+  if (key) {
+    try {
+      const raw = localStorage.getItem(key);
+      if (raw) {
+        const saved = JSON.parse(raw);
+        if (saved && typeof saved.left === "number" && typeof saved.top === "number") {
+          pop.style.left = clampLeft(saved.left, pop) + "px";
+          pop.style.top = clampTop(saved.top, pop) + "px";
+        }
+      }
+    } catch (_) {}
+  }
+
+  handle.addEventListener("pointerdown", (e) => {
+    if (e.target.closest("button, a, input, select, textarea")) return;
+    dragging = true;
+    startX = e.clientX;
+    startY = e.clientY;
+    const r = pop.getBoundingClientRect();
+    startLeft = r.left;
+    startTop = r.top;
+    try { handle.setPointerCapture(e.pointerId); } catch (_) {}
+    pop.classList.add("is-dragging");
+    e.preventDefault();
+  });
+  handle.addEventListener("pointermove", (e) => {
+    if (!dragging) return;
+    const dx = e.clientX - startX;
+    const dy = e.clientY - startY;
+    pop.style.left = clampLeft(startLeft + dx, pop) + "px";
+    pop.style.top = clampTop(startTop + dy, pop) + "px";
+  });
+  const endDrag = (e) => {
+    if (!dragging) return;
+    dragging = false;
+    pop.classList.remove("is-dragging");
+    try { handle.releasePointerCapture(e.pointerId); } catch (_) {}
+    if (key) {
+      try {
+        const r = pop.getBoundingClientRect();
+        localStorage.setItem(key, JSON.stringify({ left: r.left, top: r.top }));
+      } catch (_) {}
+    }
+  };
+  handle.addEventListener("pointerup", endDrag);
+  handle.addEventListener("pointercancel", endDrag);
+}
+
 // ---------- glossary popover -----------
 // IAST-aware word boundary. Native `\b` treats IAST diacritics
 // (ā, ī, ū, ṛ, ṝ, ḷ, ḹ, ṅ, ñ, ṭ, ḍ, ṇ, ś, ṣ, ṃ, ḥ) as word breaks, so
@@ -2014,6 +2289,7 @@ function openGlossary(termKey, anchorEl) {
     ? `<div class="gp-translator"><span class="gp-label">Translator note</span><div>${md(entry.translator_note)}</div></div>`
     : "";
   pop.innerHTML = `
+    <div class="pop-drag gp-drag" aria-hidden="true"></div>
     <button class="gp-close" aria-label="Close">×</button>
     <div class="gp-term">${escape(entry.term_iast || termKey)}</div>
     ${entry.literal ? `<div class="gp-literal">Literally: <em>${escape(entry.literal)}</em></div>` : ""}
@@ -2054,6 +2330,7 @@ function openGlossary(termKey, anchorEl) {
   // defer outside-click handler to next tick so it doesn't fire on the opening click
   setTimeout(() => document.addEventListener("click", outsideClose), 0);
   document.addEventListener("keydown", escClose);
+  makePopoverDraggable(pop, { storageKey: "vedanta-gloss-popover-pos" });
 }
 
 // ---------- citation popover (clickable primary-source citations) -----------
@@ -2133,7 +2410,7 @@ async function openCitationPopover(key, anchorEl) {
     `;
   }
 
-  pop.innerHTML = `<button class="cp-close" aria-label="Close">×</button>${bodyHtml}`;
+  pop.innerHTML = `<div class="pop-drag cp-drag" aria-hidden="true"></div><button class="cp-close" aria-label="Close">×</button>${bodyHtml}`;
 
   let scrim = null;
   if (isMobile) {
@@ -2174,6 +2451,7 @@ async function openCitationPopover(key, anchorEl) {
   }
   setTimeout(() => document.addEventListener("click", outsideClose), 0);
   document.addEventListener("keydown", escClose);
+  makePopoverDraggable(pop, { storageKey: "vedanta-cite-popover-pos" });
 }
 
 // ---------- Citation tab + Source tab (in the unified panel) -----------
@@ -2200,6 +2478,7 @@ async function openCitationPanel(key, anchorEl) {
   showTab("citation");
   openPanel("citation");
   panelState.loaded.citation = true;
+  router.push({ kind: "citation", thinkerId: state.activeId || (key.split("/")[0] || ""), citeKey: key });
 }
 
 function renderCitationTab(key) {
@@ -2490,6 +2769,7 @@ async function selectSourceFile(path) {
   const loading = dpSourceViewer.querySelector(".csv-loading");
   if (loading) loading.replaceWith(body);
   dpSourceViewer.scrollTop = 0;
+  router.push({ kind: "source", thinkerId: state.activeId || "", sourcePath: path });
 }
 
 // Render a plain-text source: preserve linebreaks (most files in
@@ -2629,6 +2909,51 @@ function md(s) {
     return `<a href="cite://${c.key}" class="cite-link">${c.visible}</a>`;
   });
   return out;
+}
+
+// Post-process rendered HTML: convert in-prose `<a class="cite-link" href="cite://…">…</a>`
+// into a paired superscript `<sup class="cite-fn">[N]</sup>` link. The inline
+// anchor text is preserved (so the reader still sees the locus inline); the
+// superscript follows immediately. The N counter is local to one call — pass
+// a shared counter object across multiple prose blocks for continuous
+// numbering across a section. Returns `{ html, footnotes }` so the caller can
+// choose where to render the footnote list (or skip it entirely).
+function numberCitations(html, counter) {
+  if (!html) return { html: "", footnotes: [] };
+  const ctr = counter || { n: 0 };
+  const footnotes = [];
+  const out = html.replace(
+    /<a([^>]*?)class="cite-link"([^>]*?)href="cite:\/\/([^"]+)"([^>]*?)>([\s\S]*?)<\/a>/g,
+    (_m, pre, mid, key, post, visible) => {
+      ctr.n += 1;
+      const idx = ctr.n;
+      footnotes.push({ idx, key, visible });
+      return `<a${pre}class="cite-link"${mid}href="cite://${key}"${post}>${visible}</a>` +
+        `<sup class="cite-fn"><a href="cite://${key}" class="cite-fn-link" data-fn-idx="${idx}" aria-label="Footnote ${idx}">[${idx}]</a></sup>`;
+    }
+  );
+  return { html: out, footnotes };
+}
+
+// Render a tidy footnote list, given the array produced by numberCitations.
+// Each row is a numbered locus that links back into the Citation tab.
+function renderFootnoteList(footnotes) {
+  if (!footnotes || !footnotes.length) return "";
+  const rows = footnotes.map((f) => {
+    const parts = f.key.split("/");
+    const tid = parts[0] || "";
+    const wid = parts[1] || "";
+    const loc = parts.slice(2).join("/");
+    const t = state.thinkersById.get(tid);
+    const thinkerName = t ? (t.name_iast || t.name || tid) : tid;
+    let workTitle = wid;
+    if (t) {
+      const w = (t.engaged_works || []).find((x) => x.work_id === wid);
+      if (w) workTitle = w.title_iast || w.title || wid;
+    }
+    return `<li class="cite-fn-row" id="cite-fn-${f.idx}"><span class="cite-fn-num">[${f.idx}]</span> <a href="cite://${f.key}" class="cite-link cite-fn-rowlink"><em>${escape(workTitle)}</em> ${escape(loc)}</a> <span class="cite-fn-attrib">— ${escape(thinkerName)}</span></li>`;
+  }).join("");
+  return `<ol class="cite-fn-list">${rows}</ol>`;
 }
 
 function renderMarkdown(s) {
@@ -3061,6 +3386,7 @@ async function openArticle(a) {
     dpArticleBody.scrollTop = 0;
   }
   panelState.loaded.article = true;
+  router.push({ kind: a.kind === "perspective" ? "perspective" : "article", slug: a.slug });
 }
 
 // Markdown renderer for the article reader. Beyond standard inline markdown +
@@ -3295,4 +3621,7 @@ loadAll().then(() => {
   wirePanZoom();
   wireViewToggle();
   wireDetailPaneResize();
+  // Deep-link / reload / share: apply any hash present at boot.
+  const initialParsed = router.parse(location.hash);
+  if (initialParsed) router.apply(initialParsed);
 });
