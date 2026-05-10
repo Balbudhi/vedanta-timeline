@@ -1,0 +1,37 @@
+{
+  "term_key": "bhakti",
+  "term_iast": "bhakti",
+  "term_devanagari": "भक्ति",
+  "literal": "sharing, participation, attachment-to; from √bhaj 'to share, to partake of'",
+  "aliases": ["bhakti", "Bhakti", "bhaktiḥ", "bhaktyā", "bhakter", "bhakta", "bhaktaḥ", "bhaktas"],
+  "invariant_definition": "Devotional cognition-and-affect directed toward *brahman* understood personally (as Viṣṇu, Kṛṣṇa, Śiva, or the chosen *iṣṭa-devatā*). All Vedāntic schools acknowledge *bhakti* as a real path-element; the disagreement is on its place — whether it is preparatory to *jñāna* (Advaita), constitutes liberating *jñāna* itself (Viśiṣṭādvaita), is the lifelong relational mode of the *jīva* to its master (Dvaita), or is the highest state above and beyond *mokṣa* (Acintya-Bhedābheda). All schools that elevate *bhakti* trace it to the *Bhakti-Sūtra*s of Nārada and Śāṇḍilya, to *Bhāgavata-Purāṇa* 11, and to the personal-deity passages of the Upaniṣads (Śvetāśvatara, Kaṭha).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Bhakti* is a *citta-śuddhi*-producing *upāya*, valuable preparatorily but not itself liberating. The realized *jñāni*'s *bhakti* (*nirupādhika-bhakti*, in Madhusūdana's analysis) is the spontaneous loving recognition of *brahman* as one's own self. Madhusūdana Sarasvatī in the *Bhakti-Rasāyana* and *Gūḍhārtha-Dīpikā* develops the strongest Advaita doctrine of *bhakti* as itself a *rasa* — but always within the framework that *jñāna* alone produces *mokṣa*.",
+      "primary_loci": ["Bhagavad-Gītā-Bhāṣya 12, 18.65", "Madhusūdana, Bhakti-Rasāyana 1", "Madhusūdana, Gūḍhārtha-Dīpikā 12"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Bhakti* in its mature form (*para-bhakti, para-jñāna, parama-bhakti*) IS the liberating *upāsana*. It is defined as *dhruvānusmṛti* — uninterrupted continuous remembrance — equivalent to the highest *jñāna*. Beside this main path Rāmānuja accepts *prapatti* (total surrender) as a parallel *upāya* for those incapable of sustained *bhakti*-sādhana.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§137–144", "Śrī-Bhāṣya 1.1.1 (bhakti as vidyā)", "Śaraṇāgati-Gadya"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Bhakti* — defined by Madhva as *māhātmya-jñāna-pūrvaka-niranter-prema-pravāha* (continuous flow of love preceded by knowledge of greatness) — is the eternal mode of the *jīva*'s relation to Viṣṇu, both in *sādhana* and in *mokṣa*. It is graded by *taratamya* among souls; only certain souls (*mukti-yogya*) are constitutively capable of liberating *bhakti*.",
+      "primary_loci": ["Mahābhārata-Tātparya-Nirṇaya 1.110ff", "Anu-Vyākhyāna 3.3", "Bhāgavata-Tātparya-Nirṇaya 1"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Bhakti* — specifically *prema-bhakti* in one of the five *rasas* — is itself the highest end, *parama-puruṣārtha*, above and beyond *mokṣa*. Rūpa Gosvāmī's *Bhakti-Rasāmṛta-Sindhu* systematizes its taxonomy: *sādhana-bhakti* (*vaidhī* and *rāgānugā*), *bhāva-bhakti*, *prema-bhakti*. The *prema-bhakti* in *mādhurya-rasa* is the supreme; Rādhā is its *ādarśa*.",
+      "primary_loci": ["Bhakti-Sandarbha §§310–340", "Bhakti-Rasāmṛta-Sindhu 1.1–4", "Caitanya-Caritāmṛta, Madhya 19"]
+    },
+    {
+      "school": "Śuddhādvaita (Vallabha)",
+      "definition": "*Puṣṭi-bhakti* — devotion that proceeds from Kṛṣṇa's grace and is itself a gift, not a *sādhana*. Distinguished from *maryādā-bhakti* (devotion-as-injunction-following) and *pravāha-bhakti* (devotion-as-worldly-current). The *puṣṭi*-mode is the highest because it is unmotivated and unconditioned.",
+      "primary_loci": ["Tattvārtha-Dīpa-Nibandha, Bhāgavatārtha-Prakaraṇa", "Puṣṭi-Pravāha-Maryādā-Bheda"]
+    }
+  ],
+  "see_also": ["jnana", "prapatti", "sraddha", "para-bhakti", "prema", "rasa", "pusti-bhakti"],
+  "translator_note": "Translating *bhakti* as 'devotion' or 'faith' loses several layers. (1) The root √bhaj is one of *participation* — the *bhakta* shares in the deity, not merely directs feeling at it. (2) *Bhakti* is a cognitive state, not (only) an affective one — it has a knowledge-content. (3) The *rasa*-saturated *bhakti* of the Vaiṣṇava traditions is technically aesthetic in Abhinavagupta's sense (cf. Madhusūdana's deliberate adaptation of *rasa*-theory). The user's position-brief connects *bhakti* (specifically *viraha-bhakti* and *pūrṇatva-icchā*) directly to Abhinavagupta's *rasa* — see the entry on *rasa*."
+}

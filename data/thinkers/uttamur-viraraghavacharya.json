@@ -1,0 +1,167 @@
+{
+  "id": "uttamur-viraraghavacharya",
+  "name": "Uttamur Viraraghavacharya",
+  "name_iast": "Uttamūr Vīrarāghavācārya",
+  "alternate_names": ["U. Ve. Uttamur T. Viraraghavachariar", "Abhinava Deśika", "Abhinava Deśikācārya", "Uthamur Swami"],
+  "dates_low": 1903,
+  "dates_high": 1995,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Born at Uttamanallur (Uthamur), Madhurāntakam taluk, Tamil Nadu; died 1995. First recipient of the Government of India President's Award for Sanskrit scholarship (1960). Honoured with the title Abhinava Deśika for his Vedānta-Deśika commentaries. Some biographical sources give 1897–1983; the 1903–1995 range follows the centenary-trust publication records.",
+  "dates_evidence": [
+    {
+      "kind": "court-record",
+      "description": "Government of India President's Award for Sanskrit scholarship, 1960 (first-ever recipient)."
+    },
+    {
+      "kind": "manuscript-colophon",
+      "description": "Sri Uttamur Viraraghavachariar Centenary Trust publication records (1997 onward)."
+    }
+  ],
+  "school": "Viśiṣṭādvaita",
+  "school_color_token": "vishishtadvaita",
+  "sub_school": "Vaḍakalai (modern systematic)",
+  "sub_school_shade": 4,
+  "lineage_in": ["vedanta-desika", "ramanuja", "sudarsana"],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Uttamūr Vīrarāghavācārya, honoured as *Abhinava Deśika*, is the twentieth-century consolidator of Vaḍakalai Viśiṣṭādvaita scholasticism. His approximately 185 Sanskrit and Tamil works re-articulate the school across the entire technical front. The magnum opus *Paramārtha-Bhūṣaṇa* defends Vedānta-Deśika's positions against later Advaita and Tenkalai criticism. The *Sarvārtha-Siddhi-Vyākhyā* glosses Deśika's auto-commentary on the *Tattva-Muktā-Kalāpa*; the *Śrī-Bhāṣyārtha-Darpaṇa* glosses Rāmānuja's *Śrī-Bhāṣya*; the commentaries on the *Nyāya-Pariśuddhi*, on Yāmuna, and on Nadādūr Ammāḷ extend the work backward through the Śrīvaiṣṭha lineage. Three distinctive emphases run throughout. First, the Navya-Nyāya logical apparatus is integrated into Viśiṣṭādvaita exegesis to a degree no earlier modern commentator attempted (his commentaries on Udayana's *Nyāya-Kusumāñjali* and on Kaṇāda's *Vaiśeṣika-Sūtra* exhibit the technical command involved). Second, the pre-Deśika sources are systematically recovered. Third, *upāya-vaibhava* — works rather than effortless surrender — is defended as the Vaḍakalai soteriological backbone against the Tenkalai *mārjāra-nyāya* alternative.",
+  "engaged_works": [
+    {
+      "work_id": "paramartha-bhushana",
+      "title": "Paramartha-Bhushana",
+      "title_iast": "Paramārtha-Bhūṣaṇa",
+      "alternate_titles": [],
+      "composition_dates_low": 1940,
+      "composition_dates_high": 1980,
+      "composition_dates_notes": "Composed across his mature scholarly period.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored magnum opus.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus; Centenary Trust publication records."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "An extensive Sanskrit polemical *prakaraṇa* defending Vedānta-Deśika's Vaḍakalai positions against later Advaita criticism (especially the Madhusūdana-line and the modern Holenarsipur revisionism) and against the Tenkalai *prapatti*-doctrine. The treatise is organised by topic — ontology, *pramāṇa*-theory, *upāya*, the status of Śrī, the relation between the Lord and the *jīva* — and runs each topic as a *pūrvapakṣa*-*siddhānta* dialectic. The doctrinal payoff is the explicit re-establishment of Deśika's three-*pramāṇa* epistemology, of *yathārtha-khyāti*, and of *apṛthak-siddhi*, against challenges raised across six centuries of post-Deśika debate. The work is the school's modern reference text for Vaḍakalai apologetics, and is the principal evidence supporting Vīrarāghavācārya's *Abhinava Deśika* honorific.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "shri-bhashyartha-darpana",
+      "title": "Shri-Bhashyartha-Darpana",
+      "title_iast": "Śrī-Bhāṣyārtha-Darpaṇa",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored sub-commentary on Rāmānuja's Śrī-Bhāṣya.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "A Sanskrit *ṭīkā* on Rāmānuja's *Śrī-Bhāṣya*. The work proceeds *adhikaraṇa* by *adhikaraṇa* and supplies the Vaḍakalai modern reading at each contested locus, often in dialogue with Sudarśana Sūri's earlier *Śruta-Prakāśikā*. Three exegetical fronts dominate. First, the *samanvaya-adhyāya* loci that have always been the school's contested ground with Advaita — *tat tvam asi*, *neha nānāsti kiñcana*, *sarvaṃ khalv idaṃ brahma* — are read by the *ghaṭaka-śruti* method that lets identity-predication carry the body-soul relation rather than flat numerical identity. Second, the *avirodha-adhyāya* refutations of rival schools are updated against modern Advaita reformulations, especially Madhusūdana's *Advaita-Siddhi*. Third, the *sādhanādhyāya*'s treatment of *bhakti-yoga* is connected forward to Vedānta-Deśika's *Rahasya-Traya-Sāra* on the Vaḍakalai side of the *upāya*-question.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "sarvartha-siddhi-vyakhya",
+      "title": "Sarvartha-Siddhi-Vyakhya",
+      "title_iast": "Sarvārtha-Siddhi-Vyākhyā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored sub-commentary on Vedānta-Deśika's Sarvārtha-Siddhi (auto-commentary on Tattva-Muktā-Kalāpa).",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "A Sanskrit sub-commentary on Vedānta-Deśika's *Sarvārtha-Siddhi*, the auto-commentary on the *Tattva-Muktā-Kalāpa*. The work is the school's modern reference for Vaḍakalai ontology. Each of the *sara*-chapters of the *Tattva-Muktā-Kalāpa* — on *jaḍa-dravya*, *jīva-dravya*, *Īśvara-dravya*, *nitya-vibhūti*, *dharma-bhūta-jñāna* — is glossed with the doctrinal disambiguations the modern reader requires. The treatment of *apṛthak-siddhi* is unusually detailed and engages later scholastic objections (especially from the Madhva-line on whether *apṛthak-siddhi* collapses into either *samavāya* or *saṃyoga*). The *vyākhyā* is the natural counterpart to Vīrarāghavācārya's *Śrī-Bhāṣyārtha-Darpaṇa* on the *sūtra*-bhāṣya side: together they cover the school's two systematic load-bearing texts.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "nyaya-parishuddhi-vyakhya",
+      "title": "Nyaya-Parishuddhi-Vyakhya",
+      "title_iast": "Nyāya-Pariśuddhi-Vyākhyā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored commentary on Vedānta-Deśika's Nyāya-Pariśuddhi.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "A Sanskrit commentary on Vedānta-Deśika's *Nyāya-Pariśuddhi*. The work supplies the modern Vaḍakalai treatment of the school's epistemology — the three-*pramāṇa* scheme, the reduction of *upamāna* and *arthāpatti* to *anumāna*, the rejection of *anupalabdhi*, the defense of *yathārtha-khyāti* against *anyathā-khyāti* and *anirvacanīya-khyāti*, the doctrine of *svataḥ-prāmāṇya* of *śabda*. Vīrarāghavācārya's distinctive contribution is the engagement with twentieth-century Navya-Nyāya scholarship on *vyāpti* and *parāmarśa*, which lets the Viśiṣṭādvaita epistemology argue on equal terms with the still-living Naiyāyika pāṭhaśālā tradition.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "nyaya-kusumanjali-vyakhya",
+      "title": "Nyaya-Kusumanjali-Vyakhya",
+      "title_iast": "Nyāya-Kusumāñjali-Vyākhyā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored commentary on Udayana's Nyāya-Kusumāñjali.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "A Sanskrit commentary on Udayana's *Nyāya-Kusumāñjali*. The work belongs to Vīrarāghavācārya's broader project of making Navya-Nyāya technical resources available within the Viśiṣṭādvaita pāṭhaśālā curriculum. Udayana's five *stabaka*-s on the *Īśvara*-inference are commented on with explicit alignment to Viśiṣṭādvaita ontology, where appropriate, and with explicit demarcation where Udayana's Naiyāyika premises diverge from the school's. The commentary is one of the principal pieces of evidence for the technical Navya-Nyāya competence on which Vīrarāghavācārya's reputation rests.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "vaisheshika-rasayana",
+      "title": "Vaisheshika-Rasayana",
+      "title_iast": "Vaiśeṣika-Rasāyana",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored commentary on Kaṇāda's Vaiśeṣika-Sūtra.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "A Sanskrit commentary on Kaṇāda's *Vaiśeṣika-Sūtra*. The work makes the Vaiśeṣika categorial scheme available to Viśiṣṭādvaita exegesis as a precise technical contrast-class. Where the *Tattva-Muktā-Kalāpa* fixes the school's ontology by argued contrast with rival category-schemes, the *Vaiśeṣika-Rasāyana* supplies the rival scheme in its own internal articulation. The *padārtha* enumeration, the atomism, the doctrine of *samavāya*, and the analysis of perceptible quality each receive Vaḍakalai disambiguation. The work is unusual in twentieth-century Viśiṣṭādvaita literature for treating the Vaiśeṣika sympathetically as a precisely-constructed alternative rather than dismissively.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "mimamsa-nyaya-prakasha-vyakhya",
+      "title": "Mimamsa-Nyaya-Prakasha-Vyakhya",
+      "title_iast": "Mīmāṃsā-Nyāya-Prakāśa-Vyākhyā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored commentary on Āpadeva's Mīmāṃsā-Nyāya-Prakāśa.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "A Sanskrit commentary on Āpadeva's standard Pūrva-Mīmāṃsā primer. The work supplies the Vaḍakalai modern handling of the *vidhi*-*niṣedha*-*arthavāda* analysis the school inherits from its Mīmāṃsā background, and clarifies how Viśiṣṭādvaita differs from orthodox Pūrva-Mīmāṃsā on the relative authority of *karma-kāṇḍa* and *jñāna-kāṇḍa*. The commentary is part of the school's modern Sanskrit pedagogy at the *pāṭhaśālā* level.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "prabandha-raksha",
+      "title": "Prabandha-Raksha",
+      "title_iast": "Prabandha-Rakṣā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Tamil-Manipravala commentary on the Nālāyira-Divya-Prabandham.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "tamil-manipravala",
+      "summary": "A Tamil-Maṇipravāḷa commentary on the *Nālāyira-Divya-Prabandham* — the Āḻvār Tamil-poetic corpus that constitutes one half of the Śrīvaiṣṇava *ubhaya-Vedānta*. The work matters because the Vaḍakalai school must defend the equal scriptural status of the Tamil Prabandham alongside the Sanskrit Veda, and a substantial Sanskrit-trained commentator on the Prabandham is therefore part of the school's apologetic apparatus. Vīrarāghavācārya's commentary integrates the Tamil-poetic devotional material with the Sanskrit-Vedāntic doctrinal vocabulary established in his other works, and supplies the modern Vaḍakalai bridge between the two registers of the school's authoritative corpus.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-corpus-v2-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-corpus-v2-opus"
+}

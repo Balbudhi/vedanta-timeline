@@ -1,0 +1,125 @@
+{
+  "id": "rangaramanuja-muni",
+  "name": "Rangaramanuja Muni",
+  "name_iast": "Raṅgarāmānuja Muni",
+  "alternate_names": ["Upaniṣad-Bhāṣyakāra", "Raṅga-Rāmānuja"],
+  "dates_low": 1550,
+  "dates_high": 1650,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Late sixteenth to mid-seventeenth century; pupil of Pañcamabhañjana Tāta-deśika and Vatsya Anantācārya; dated by manuscript chronology and gurupāramparā lists. No firm civil records are extant.",
+  "school": "Viśiṣṭādvaita",
+  "school_color_token": "vishishtadvaita",
+  "sub_school": "Vaḍakalai (Upaniṣad-bhāṣya tradition)",
+  "sub_school_shade": 3,
+  "lineage_in": ["vedanta-desika", "sudarsana", "ramanuja"],
+  "lineage_out": ["uttamur-viraraghavacharya"],
+  "lineage_polemical": [],
+  "core_thesis": "Raṅgarāmānuja Muni, honoured in his school as *Upaniṣad-Bhāṣyakāra*, is the first ācārya of the Viśiṣṭādvaita tradition to compose Sanskrit *bhāṣyas* on the principal Upaniṣads — a corpus Rāmānuja himself never wrote. Working in the post-Vedānta-Deśika Vaḍakalai milieu, he produced commentaries on the Kena, Kaṭha, Praśna, Muṇḍaka, Māṇḍūkya, Taittirīya, Chāndogya, Bṛhadāraṇyaka, Mantrika, Kauṣītaki, Śvetāśvatara, and Mahā-Nārāyaṇa Upaniṣads, fitting the Upaniṣadic teaching at each contested locus to the *śarīra-śarīrin* template Rāmānuja had established for the *Brahma-Sūtra*. The exegetical method is consistent across the corpus: identity-predications are read by the *ghaṭaka-śruti* method, *neti-neti* is read as fixing inexhaustibility rather than unreality, *antaryāmin*-passages are read as the inner-controller relation. His *Viṣaya-Vākya-Dīpikā* glosses the Upaniṣadic *vākyas* quoted in the *Śrī-Bhāṣya*; his *Śārīraka-Śāstra-Dīpikā* compresses Rāmānuja's full *sūtra*-system; his *Siddhānta-Sāra* states the school's tenets compendiously. The work fills the most conspicuous gap in the school's pre-modern *bhāṣya*-coverage.",
+  "engaged_works": [
+    {
+      "work_id": "upanishad-bhashyas",
+      "title": "Upanishad-Bhashyas (twelve principal Upanishads)",
+      "title_iast": "Upaniṣad-Bhāṣyāḥ",
+      "alternate_titles": [],
+      "composition_dates_low": 1570,
+      "composition_dates_high": 1640,
+      "composition_dates_notes": "Composed across his mature scholarly period.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored bundle of Sanskrit bhāṣyas on twelve principal Upaniṣads.",
+      "ascription_evidence": [
+        {"kind": "manuscript-tradition", "description": "Stable Vaḍakalai manuscript tradition; printed editions Madras and Mysore presses, late nineteenth and early twentieth century."}
+      ],
+      "genre": "upanisad-bhashya",
+      "language": "sanskrit",
+      "summary": "Sanskrit *bhāṣyas* on twelve principal Upaniṣads — Kena, Kaṭha, Praśna, Muṇḍaka, Māṇḍūkya, Taittirīya, Chāndogya, Bṛhadāraṇyaka, Mantrika, Kauṣītaki, Śvetāśvatara, and Mahā-Nārāyaṇa. Bundled here as a single work-entry; sub-loci are the per-Upaniṣad commentaries. The interpretive method applies the *śarīra-śarīrin* doctrine across the corpus. The Chāndogya commentary handles the *Sad-Vidyā* and the *tat tvam asi*-locus by the *ghaṭaka-śruti* method, against the standard Advaitin reading of *jahad-ajahal-lakṣaṇā*. The Bṛhadāraṇyaka commentary, the longest of the set, treats the *antaryāmin-brāhmaṇa* and the *Maitreyī-brāhmaṇa* as the locus classicus for the inner-controller relation. The Māṇḍūkya commentary, against the Gauḍapāda-Śaṅkara reading, is constructed to defend the realist Viśiṣṭādvaita ontology of the four *avasthā*-s. The Kena commentary takes up the question of the Upaniṣad's allegory of Brahman appearing to Indra, Agni, and Vāyu. The work fills the bhāṣya-coverage gap of the Viśiṣṭādvaita school, which had Rāmānuja's *Brahma-Sūtra-Bhāṣya* and *Gītā-Bhāṣya* but no comprehensive Upaniṣadic commentaries.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "vishaya-vakya-dipika",
+      "title": "Vishaya-Vakya-Dipika",
+      "title_iast": "Viṣaya-Vākya-Dīpikā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "manuscript-tradition", "description": "Stable Vaḍakalai manuscript tradition."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "A Sanskrit *ṭīkā* glossing the *viṣaya-vākyas* — the Upaniṣadic passages quoted at each *adhikaraṇa* of Rāmānuja's *Śrī-Bhāṣya* as the topic-establishing scriptural lemmas. The work is the natural complement to Raṅgarāmānuja's Upaniṣad-bhāṣyas: the latter give the Upaniṣadic passages their place within the source-Upaniṣad's economy; the *Viṣaya-Vākya-Dīpikā* gives the same passages their place within the *sūtra*-bhāṣya economy. The result is a doubled exegetical apparatus that lets the school read each contested *adhikaraṇa* through both the Upaniṣadic context and the *sūtra*-bhāṣya argument. The work has been heavily relied on by later Vaḍakalai commentators including Vīrarāghavācārya.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "sruta-prakashika-bhava-prakashika",
+      "title": "Shruta-Prakashika-Bhava-Prakashika",
+      "title_iast": "Śruta-Prakāśikā-Bhāva-Prakāśikā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored sub-commentary on Sudarśana Sūri's Śruta-Prakāśikā.",
+      "ascription_evidence": [
+        {"kind": "manuscript-tradition", "description": "Stable Vaḍakalai manuscript tradition."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "A Sanskrit sub-commentary on Sudarśana Sūri's *Śruta-Prakāśikā*, itself the school's standard sub-commentary on Rāmānuja's *Śrī-Bhāṣya*. Raṅgarāmānuja's work is therefore a third-order commentary: *bhāṣya* (Rāmānuja) → first sub-commentary (Sudarśana) → second sub-commentary (Raṅgarāmānuja). The function is to make Sudarśana's compressed dialectic readable for a later pāṭhaśālā audience and to update the polemical front against post-Sudarśana Advaita reformulations.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "nyaya-siddhanjana-vyakhya",
+      "title": "Nyaya-Siddhanjana-Vyakhya",
+      "title_iast": "Nyāya-Siddhāñjana-Vyākhyā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored commentary on Vedānta-Deśika's Nyāya-Siddhāñjana.",
+      "ascription_evidence": [
+        {"kind": "manuscript-tradition", "description": "Stable Vaḍakalai manuscript tradition."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "A Sanskrit commentary on Vedānta-Deśika's *Nyāya-Siddhāñjana*, the school's compendium of Viśiṣṭādvaita-compatible *padārtha*-theory. Raṅgarāmānuja's gloss extends Deśika's category-scheme into a fuller dialectic with the post-Deśika Navya-Nyāya environment. Where Deśika fixed the school's *padārtha*-list and the doctrine of *apṛthak-siddhi*, Raṅgarāmānuja addresses post-Deśika Naiyāyika challenges to those positions, and supplies the modern argumentative resources the school needed by the seventeenth century.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "shariraka-shastra-dipika",
+      "title": "Shariraka-Shastra-Dipika",
+      "title_iast": "Śārīraka-Śāstra-Dīpikā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored compendium of Rāmānuja's sūtra-system.",
+      "ascription_evidence": [
+        {"kind": "manuscript-tradition", "description": "Stable Vaḍakalai manuscript tradition."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "A Sanskrit compendium that compresses Rāmānuja's full *sūtra*-system into a single readable treatise. The work proceeds *adhikaraṇa* by *adhikaraṇa* through the *Brahma-Sūtra* in the order of Rāmānuja's *Śrī-Bhāṣya* but at greatly reduced length, fixing each *adhikaraṇa*'s topic, *pūrvapakṣa*, *siddhānta*, and Viśiṣṭādvaita doctrinal payoff. The function is pedagogical: where the *Śrī-Bhāṣya* is the school's primary reference and the *Śruta-Prakāśikā* its standard sub-commentary, the *Śārīraka-Śāstra-Dīpikā* is the entry-point for advanced students approaching the system as a whole.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "siddhanta-sara",
+      "title": "Siddhanta-Sara",
+      "title_iast": "Siddhānta-Sāra",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored compendium of Viśiṣṭādvaita tenets.",
+      "ascription_evidence": [
+        {"kind": "manuscript-tradition", "description": "Stable Vaḍakalai manuscript tradition."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Raṅgarāmānuja's one independent Sanskrit *prakaraṇa*. The work states the school's tenets — Brahman as Nārāyaṇa-with-Śrī, the *cit* / *acit* / *Īśvara* triad, the body-soul relation as *apṛthak-siddhi*, the three-*pramāṇa* epistemology, the *bhakti-yoga* path — in compendious form. The treatise is shorter than the *Śārīraka-Śāstra-Dīpikā* and is constructed not as a *sūtra*-by-*sūtra* compression but as a topical exposition. It functions as the school's modern handbook in the seventeenth-century Vaḍakalai pāṭhaśālā tradition.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-corpus-v2-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-corpus-v2-opus"
+}

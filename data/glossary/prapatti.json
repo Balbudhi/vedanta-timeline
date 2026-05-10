@@ -1,0 +1,27 @@
+{
+  "term_key": "prapatti",
+  "term_iast": "prapatti",
+  "term_devanagari": "प्रपत्ति",
+  "literal": "falling-toward, taking-refuge, surrender; from pra- + √pad 'to fall, to go'",
+  "aliases": ["prapatti", "Prapatti", "prapattiḥ", "prapadyate", "saranagati", "śaraṇāgati", "śaraṇam"],
+  "invariant_definition": "Total surrender to the Lord, taking refuge with him as one's sole means and goal. *Prapatti* is principally a Viśiṣṭādvaita and broader Vaiṣṇava category; it does not have a developed counterpart in Advaita or Dvaita's analytic apparatus, though all schools acknowledge the practice. It is structured by six classical *aṅgas* (*ānukūlyasya saṃkalpaḥ*, *prātikūlyasya varjanam*, *rakṣiṣyatīti viśvāsaḥ*, *goptṛtva-varaṇam*, *ātma-nikṣepaḥ*, *kārpaṇyam*) — six commitments / dispositions that define the act. Schools that develop the doctrine diverge on whether *prapatti* is an *upāya* (means) parallel to *bhakti* or whether it is the only *upāya* with *bhakti* itself dispensable, and on whether the post-*prapatti* soul retains agency in further *sādhana* (*Vaḍagalai* vs. *Teṅgalai* dispute).",
+  "per_school": [
+    {
+      "school": "Viśiṣṭādvaita (Vaḍagalai — Vedānta-Deśika)",
+      "definition": "*Prapatti* is one of two *upāyas* (the other being *bhakti-yoga*); it is independently efficacious for those incapable of full *bhakti-sādhana* but does not abolish the *prapanna*'s ongoing duty to perform enjoined *karma* and to cooperate with the Lord's grace. The *markaṭa-nyāya* (monkey-clinging-to-mother analogy) describes the *prapanna*'s active grasp.",
+      "primary_loci": ["Vedānta-Deśika, Rahasya-Traya-Sāra, prapatti-prakaraṇa", "Vedānta-Deśika, Nyāsa-Daśaka", "Rāmānuja, Śaraṇāgati-Gadya"]
+    },
+    {
+      "school": "Viśiṣṭādvaita (Teṅgalai — Pillai Lokācārya, Maṇavāḷa Māmunigaḷ)",
+      "definition": "*Prapatti* is the sole *upāya*; *bhakti* itself is regarded as needlessly arduous. Once surrendered, the *prapanna* is wholly receptive — *upeya* IS the *upāya* (*siddhopāya*), and the soul's continued effort is in fact an obstacle. The *mārjāra-nyāya* (kitten-carried-by-mother analogy) describes the *prapanna*'s pure passivity.",
+      "primary_loci": ["Pillai Lokācārya, Mumukṣuppaṭi", "Pillai Lokācārya, Śrī-Vacana-Bhūṣaṇa", "Maṇavāḷa Māmunigaḷ, Mumukṣuppaṭi-Vyākhyāna"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Śaraṇāgati* is the entry-condition for *bhakti*-sādhana; the term is used but not as a developed alternative path to *bhakti* in the way Vaḍagalai/Teṅgalai dispute over it. Once surrendered, the soul takes up *vaidhī-bhakti* and ascends to *rāgānugā* and *prema*.",
+      "primary_loci": ["Bhakti-Sandarbha §§236–240"]
+    }
+  ],
+  "see_also": ["bhakti", "saranagati", "siddhopaya", "upeya", "upaya", "prasada"],
+  "translator_note": "'Surrender' is the standard English gloss and is acceptable, but it carries military / capitulation connotations that misread the *bhakti*-affective texture. *Prapatti* is closer to a child's letting-go into a parent's care: total trust as positive act. Note: the word is mostly absent from Advaita and Dvaita technical apparatus; if you see it, you are almost certainly reading a Viśiṣṭādvaita or Vaiṣṇava text."
+}

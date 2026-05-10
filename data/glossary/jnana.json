@@ -1,0 +1,32 @@
+{
+  "term_key": "jnana",
+  "term_iast": "jñāna",
+  "term_devanagari": "ज्ञान",
+  "literal": "knowing, knowledge; from √jñā 'to know' (cognate with Greek *gignōskō*, Latin *gnoscō*)",
+  "aliases": ["jnana", "jñāna", "Jñāna", "jñānaṃ", "jñānena", "jñānasya", "jnani", "jñānin", "jñānī"],
+  "invariant_definition": "Knowledge in the cognitive-event sense (as distinct from *vidyā*, which more often names a body of teaching or a meditation-program). All Vedāntic schools accept that *jñāna* of *brahman* is necessary for *mokṣa*; that ordinary *jñāna* (perception, inference) is constituted by *vṛtti*s of the *antaḥkaraṇa* and is bound by *avidyā*; and that liberating *jñāna* differs in kind from ordinary *jñāna*. Schools diverge on whether liberating *jñāna* is itself the *vṛtti* of an *antaḥkaraṇa* (Advaita's *akhaṇḍākāra-vṛtti*) or is the soul's own intrinsic substantive luminosity (Viśiṣṭādvaita's *dharmabhūta-jñāna*); on whether *jñāna* alone is sufficient for *mokṣa* (Advaita: yes) or must be conjoined with or subordinate to *bhakti* (Viśiṣṭādvaita, Dvaita, Vaiṣṇava bhedābheda).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Jñāna* in the strict liberating sense is *akhaṇḍākāra-vṛtti* — an integral cognition that takes *brahman* as undivided whole-object, arising from the *mahāvākya*. It removes *avidyā* and is itself sublated in the resulting non-dual realization. *Jñāna* is the sole proximate cause of *mokṣa*; *karma* and *bhakti* are at most *citta-śuddhi*-producing preparations.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.4", "Bhagavad-Gītā-Bhāṣya, upodghāta", "Naiṣkarmya-Siddhi 1–4", "Vedānta-Paribhāṣā, ākāśādi-pariccheda (akhaṇḍākāra-vṛtti)"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Jñāna* is two-sided: (i) *dharmi-jñāna* — the soul's substantive self-luminosity (the soul *as* a knowing substance); (ii) *dharmabhūta-jñāna* — the substantive-knowledge that is itself a substance qualifying the soul, contracting under *karma* and expanding at *mokṣa*. Liberating *jñāna* is *dharmabhūta-jñāna* fully expanded toward the Lord, indistinguishable from mature *bhakti*.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§76–88", "Śrī-Bhāṣya 2.3.42–53 (dharmabhūta-jñāna)", "Yatīndra-Mata-Dīpikā 8"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Aparokṣa-jñāna* — the direct (non-mediated) cognition of Viṣṇu's supremacy and the soul's eternal dependence — is the proximate condition of *mokṣa*, but is itself bestowed by Viṣṇu's grace through the soul's *bhakti*. *Jñāna* and *bhakti* are not separable: liberating *jñāna* presupposes mature *bhakti* and culminates in eternal devotional service.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1", "Anu-Vyākhyāna 1.1", "Mahābhārata-Tātparya-Nirṇaya 1.110ff"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Jñāna* in the sense of impersonal cognition (*brahma-jñāna* as merger) is regarded as low; *bhakti*-saturated *jñāna* — *bhakti-miśra-jñāna* and beyond — is what conduces to *prema*. Pure *jñāna* uncoupled from *bhakti* terminates in *brahmajyoti*-realization, which is real but spiritually inferior.",
+      "primary_loci": ["Bhakti-Sandarbha §§111–117", "Caitanya-Caritāmṛta, Madhya 19.149–169"]
+    }
+  ],
+  "see_also": ["vidya", "bhakti", "karma", "akhandakara-vrtti", "dharma-bhuta-jnana", "aparoksa-jnana", "saksatkara"],
+  "translator_note": "*Jñāna* is best left untranslated or rendered 'gnosis' to flag that it is not propositional knowledge of facts but a transformative cognitive event. 'Knowledge' is acceptable only with the warning that its modern English sense (information / justified true belief) misses the existential character of *jñāna*."
+}
