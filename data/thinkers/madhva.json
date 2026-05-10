@@ -50,6 +50,16 @@
       "note": "Madhva's Māyāvāda-Khaṇḍana / Mithyātvānumāna-Khaṇḍana / Upādhi-Khaṇḍana triad explicitly targets the Advaitic position attributed to Śaṅkara."
     },
     {
+      "thinker_id": "mallisena",
+      "direction": "refutes",
+      "note": "Madhva's Tattva-Saṅkhyāna and the anti-Jaina sections of his Brahma-Sūtra-Bhāṣya engage anekānta-vāda; the position Madhva refutes is the developed syād-vāda of the Hemacandra-Malliṣeṇa systematisation."
+    },
+    {
+      "thinker_id": "basava",
+      "direction": "refutes",
+      "note": "The anti-Vīraśaiva sections of the Tattva-Saṅkhyāna engage Basavaṇṇa's twelfth-century movement: the iṣṭa-liṅga theology and the rejection of caste-bound Vedic ritual are the principal targets, and the polemic is one of the few cases of a Vedāntic school engaging a Bhakti-tradition operating outside the classical darśana grid."
+    },
+    {
       "thinker_id": "carvaka",
       "direction": "refutes",
       "note": "Madhva's Brahma-Sūtra-Bhāṣya and Tattva-Viveka treat the Cārvāka position as the limit-case of nāstika error: the denial of post-mortem soul, of inference, and of śabda-pramāṇa together constitute the most thorough rejection of the Vedāntic frame."
