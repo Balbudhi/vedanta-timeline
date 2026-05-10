@@ -1,0 +1,32 @@
+{
+  "term_key": "tathagatagarbha",
+  "term_iast": "tathāgatagarbha",
+  "term_devanagari": "तथागतगर्भ",
+  "literal": "the embryo / womb / matrix of the Tathāgata; the Buddha-nature; the natural luminosity of citta as the cognitive ground of awakening",
+  "aliases": ["tathagatagarbha", "tathāgatagarbha", "tathāgata-garbha", "Tathāgatagarbha", "tathāgatagarbhaḥ", "garbha", "Buddha-nature", "Buddha-embryo"],
+  "invariant_definition": "The doctrine, foundational to the Mahāyāna Tathāgatagarbha tradition (Ratna-Gotra-Vibhāga, Laṅkāvatāra-Sūtra, Mahāyāna-Sūtra-Alaṃkāra), that all sentient beings universally possess, from beginningless time, the cognitive ground of awakening — the *tathāgatagarbha* or Buddha-nature. The doctrine is articulated in non-substantialist terms: the *garbha* is not a *dravya* (substance) underlying experience but the natural luminosity (*prakṛti-prabhāsvaratā*) of *citta* itself, obscured only by adventitious defilements (*āgantuka-kleśa*) that do not belong to its nature. Awakening is therefore not the production of a new state but the removal of obscurations on what was always already present. The Ratna-Gotra-Vibhāga is at pains to distinguish *tathāgatagarbha* from the *ātman* of the heretical schools (RGV I.36–41): it is precisely the non-substantialist alternative offered to those whose grasping at *ātman* prevents the realisation of *anātman*.",
+  "per_school": [
+    {
+      "school": "Tathāgatagarbha-foundational (Maitreya-attributed corpus)",
+      "definition": "*Tathāgatagarbha* is the universal Buddha-nature present in all sentient beings, articulated through the seven vajra-padas of the Ratna-Gotra-Vibhāga and through the nine similes (Buddha within the withered lotus, honey within the swarm, kernel within the husk, gold within filth, etc., RGV I.96–125). The treatise distinguishes it from heretical *ātman*-doctrines and from Mādhyamaka *śūnyatā*: it is the positive content of the Buddha's awakening, the dharma-element (*dharma-dhātu*) considered as the cognitive ground of practitioners.",
+      "primary_loci": ["Ratna-Gotra-Vibhāga I.27–28, I.36–41, I.96–125", "Mahāyāna-Sūtra-Alaṃkāra IX (Bodhi-adhikāra)"]
+    },
+    {
+      "school": "Buddha-nature-Mahāyāna (Laṅkāvatāra-Sūtra)",
+      "definition": "*Tathāgatagarbha* is identified with the eighth consciousness (*ālaya-vijñāna*) in its undefiled aspect: the conditioned cognitive flow is the locus of obscuration, and the unconditioned ground (the *tathāgatagarbha-ālaya*) is the locus of awakening. The sūtra's chapter 6 (Tathāgatagarbha-parivarta) explicitly addresses Mahāmati's question whether *tathāgatagarbha* is just *ātman* under another name, and the Buddha's response is that it is taught precisely to lead beings beyond *ātman*-grasping.",
+      "primary_loci": ["Laṅkāvatāra-Sūtra ch. 2 (108 questions and citta-mātra exposition)", "Laṅkāvatāra-Sūtra ch. 6 (Tathāgatagarbha-parivarta)"]
+    },
+    {
+      "school": "Pratyabhijñā / Trika (structural inheritance)",
+      "definition": "The Tathāgatagarbha emphasis on *prakṛti-prabhāsvara-citta* and on the always-already-present cognitive ground of awakening is structurally inherited (without direct citation) into the Pratyabhijñā articulation of the always-already-Śiva nature of awareness. The *mala* (defilements) of the Trika tradition function structurally as the *āgantuka-kleśa* of the Tathāgatagarbha tradition: adventitious obscurations on a ground that is not itself contaminated.",
+      "primary_loci": ["Īśvara-Pratyabhijñā-Kārikā 1.5", "Tantrāloka 9 (mala-prakaraṇa)"]
+    },
+    {
+      "school": "Viśiṣṭādvaita (refutation)",
+      "definition": "Vedānta Deśika's Śatadūṣaṇī treats the *tathāgatagarbha* doctrine as a structural variant of the Advaita identity-thesis to be refuted on the same grounds: any doctrine of universal cognitive ground (whether the Tathāgatagarbha's universal Buddha-nature or the Advaitin's universal Brahman-identity) fails to preserve the asymmetric *paratantra* / *svatantra* dependence-relation the Vedāntic realist holds essential.",
+      "primary_loci": ["Śatadūṣaṇī (selected vādas engaging Buddhist universalist positions)"]
+    }
+  ],
+  "see_also": ["prakrti-prabhasvara-citta", "ekayana", "alaya-vijnana", "anatman", "atman", "sunyata"],
+  "translator_note": "Translating *tathāgatagarbha* as 'Buddha-nature' is acceptable but loses the specifically embryological metaphor of *garbha* (womb / embryo); translating as 'Buddha-embryo' preserves the metaphor at the cost of awkwardness. The decisive point for any translation is to preserve the non-substantialist phrasing: it is not a substance underlying experience but the cognitive ground itself in its natural luminosity. Western readers should not collapse the doctrine into either a substance-self that the Buddha would have refuted or into a vacuous *śūnyatā*-formula. The Sanskrit term carries both the embryological metaphor (something present in potency that develops into something fully manifest) and the matrix metaphor (something within which something else is contained), and the Mahāyāna literature exploits both."
+}

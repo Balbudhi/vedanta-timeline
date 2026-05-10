@@ -1,0 +1,58 @@
+{
+  "id": "lakulisha",
+  "name": "Lakulisha",
+  "name_iast": "Lakulīśa",
+  "alternate_names": ["Lakulīśvara", "Nakulīśa", "the Club-Bearer"],
+  "dates_low": 100,
+  "dates_high": 200,
+  "dates_tier": "contested",
+  "dates_notes": "Lakulīśa is half-historical, half-mythological. The Kāyāvarohaṇa (modern Karvan, Gujarat) tradition treats him as a historical teacher (often dated c. 150 CE), and Mathurā pillar-inscriptions of the Gupta period (380 CE) name disciples at four removes from Lakulīśa, which on the standard generational reckoning places his floruit at c. 100–200 CE. The Pāśupata tradition treats him as the twenty-eighth incarnation of Śiva. Modern scholarship (Bhandarkar 1913, Hara, Bisschop) accepts the c. second-century historical kernel.",
+  "school": "Pāśupata",
+  "school_color_token": "pasupata-comparator",
+  "sub_school": "Pāśupata-foundational",
+  "sub_school_shade": 2,
+  "lineage_in": [],
+  "lineage_out": ["kaundinya"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "badarayana",
+      "direction": "is-refuted-by",
+      "note": "Brahma-Sūtra 2.2.37 (the pati-pāśupata-pakṣa sūtra: 'patyur asāmañjasyāt') refutes the Pāśupata position on the ground that Śiva-as-efficient-cause-only fails to account for the relation between Lord and world: if Śiva is only the nimitta-kāraṇa and not the upādāna, then either world arises without material cause or some other material cause is needed, in which case the Lord's lordship is qualified. The position the sūtra refutes is the Lakulīśa-Pāśupata pati-paśu-pāśa triad."
+    },
+    {
+      "thinker_id": "sankara",
+      "direction": "is-refuted-by",
+      "note": "Brahma-Sūtra-Bhāṣya 2.2.37 develops Bādarāyaṇa's argument: Śaṅkara argues that the Pāśupata pati-paśu-pāśa account either makes Śiva incompetent (if external pāśa-bonds limit him) or makes Śiva cruel (if he himself binds the paśu); either way the Pāśupata theology fails to give a coherent account of the relation between Lord and world. The argument applies to the Lakulīśa-Kauṇḍinya position."
+    }
+  ],
+  "core_thesis": "Lakulīśa is the foundational figure of organised Pāśupata Śaivism — the earliest reconstructible Śaiva sect, predating both the dualist Kashmirian Saiddhāntika and the non-dual Trika lineages. The *Pāśupata-Sūtra* in five short chapters (*adhyāyas*) gives the doctrine and discipline. The metaphysics is a thoroughgoing dualist theism: *pati* (Śiva, the Lord) is *nimitta-kāraṇa* (efficient cause) of the world but not its *upādāna-kāraṇa* (material cause); *paśu* (the bound soul) is eternally distinct from *pati* and from other *paśus*; *pāśa* (the bond — *karma*, ignorance, embodiment) is what binds the *paśu* and what *yoga* dissolves. The *pati-paśu-pāśa* triad, three eternally distinct ontological categories, is the position the *Brahma-Sūtra* refutes at 2.2.37 as the *pāśupata-pakṣa*. The discipline is articulated through the five *padārthas* of Pāśupata practice — *vidhi* (rules of behaviour, including the famous *kāpālika*-style provocation-practices: deliberate solecism, cross-dressing, simulating madness, in order to attract censure and so dissolve attachment to social *yaśas*), *dvāra* (the gateways: ash-bath, sleep on the ash, laughter, song, and *huḍuk-kāra*), *yoga* (union with Śiva through *dhyāna* and *japa*), *vidhi-niṣedha* (the prohibitions), and *duḥkha-anta* (the cessation of suffering, identified with the *paśu*'s acquisition of Śiva's *aiśvarya*-powers). The end-state (*sāyujya*) is not identity with Śiva but proximity, with the bound soul retaining its eternal distinctness while acquiring the eight Śaiva *aiśvaryas*. Lakulīśa's significance for Vedāntic engagement is that the *Brahma-Sūtra*'s *pāśupata-pakṣa* refutation is one of the few places the *sūtra* engages a Śaiva theological position in extenso; the position refuted is concretely the Lakulīśa-Kauṇḍinya synthesis.",
+  "engaged_works": [
+    {
+      "work_id": "pasupata-sutra",
+      "title": "Pasupata-Sutra",
+      "title_iast": "Pāśupata-Sūtra",
+      "alternate_titles": ["Pāñcārtha-Sūtra"],
+      "composition_dates_low": 100,
+      "composition_dates_high": 200,
+      "composition_dates_notes": "Composition placed in Lakulīśa's period (c. second century CE); the text is preserved with Kauṇḍinya's Pañcārtha-Bhāṣya (c. fourth–fifth century) which fixes it as a settled authority by that date.",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Uniformly ascribed to Lakulīśa by the Pāśupata tradition; modern scholarship treats the historical-Lakulīśa ascription as plausible but unprovable (the text's compressed sūtra-form is consistent with multiple authorial possibilities).",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Bhandarkar (1913, Vaiṣṇavism, Śaivism, and Minor Religious Systems); Hara (Pāśupata Studies); Bisschop (Early Śaivism and the Skandapurāṇa)."},
+        {"kind": "manuscript-tradition", "description": "Preserved in continuous manuscript tradition with Kauṇḍinya's Pañcārtha-Bhāṣya."}
+      ],
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "summary": "Five short chapters (*adhyāyas*) of compressed *sūtras* articulating the Pāśupata doctrine and discipline. *Adhyāya* 1 opens with *atha-ataḥ paśu-pati-pāśa-kāryanāmasaṃyogavidhiṃ vyākhyāsyāmaḥ* ('now, accordingly, we shall expound the rule of the connection of *paśu*, *pati*, *pāśa*, *kārya*, and *nāma*'), establishing the triadic ontology and the discipline as an integrated whole. The chapter develops the five *padārthas* of Pāśupata practice: *kārya* (the work, including *jñāna*, *tapas*, *nityatva*, *sthiti*, *śuddhi*), *kāraṇa* (the cause, identified with *pati*), *yoga* (union with Śiva), *vidhi* (the rules of practice), and *duḥkha-anta* (the cessation of suffering). *Adhyāya* 2 develops the *vidhi*: the ash-bath, the sleep on the ash, the silent practice (*upakāra-rahita*), the *japa*. *Adhyāya* 3 develops the provocation-practices — the deliberate solecism, the simulation of madness, the courting of insult — as the *avamāna-pratiṣṭhā* discipline that dissolves attachment to *yaśas*. *Adhyāya* 4 develops the *yoga* and the praxis of *dhyāna*. *Adhyāya* 5 establishes the end-state — *sāyujya* with Śiva, the acquisition of the eight Śaiva *aiśvaryas*, the *duḥkha-anta*. The text is the foundational document of the Pāśupata sect and is the position the *Brahma-Sūtra*'s 2.2.37 refutation engages.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Lakulīśa's Pāśupata sect is the earliest organised Śaiva sect and the seedbed from which both the dualist Kashmirian Saiddhāntika and (indirectly) the non-dual Trika lineages descend. The Pāśupata-Sūtra and Kauṇḍinya's Pañcārtha-Bhāṣya are the principal pre-Saiddhāntika Śaiva texts; the position they articulate is what the Brahma-Sūtra refutes at 2.2.37 as the pāśupata-pakṣa. Modern scholarship (Bhandarkar, Hara, Bisschop, Sanderson) has reconstructed the sect's history through the Mathurā inscriptions, the Skandapurāṇa, and the surviving sūtra-bhāṣya pair. The four sub-divisions of later Pāśupata Śaivism — Pāśupata, Kālāmukha, Kāpālika, Mahāvrata — all trace ancestry to Lakulīśa.",
+  "entry_status": "draft",
+  "entry_owner_agent": "non-vedic-comparator-extension-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "non-vedic-comparator-extension-opus"
+}

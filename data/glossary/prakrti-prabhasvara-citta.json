@@ -1,0 +1,32 @@
+{
+  "term_key": "prakrti-prabhasvara-citta",
+  "term_iast": "prakṛti-prabhāsvara-citta",
+  "term_devanagari": "प्रकृतिप्रभास्वरचित्त",
+  "literal": "naturally luminous mind; consciousness whose intrinsic nature is luminosity",
+  "aliases": ["prakrti-prabhasvara-citta", "prakṛti-prabhāsvara-citta", "prabhāsvara-citta", "naturally luminous mind", "prakṛti-prabhāsvaratā"],
+  "invariant_definition": "The doctrine, articulated principally in the Tathāgatagarbha literature (Ratna-Gotra-Vibhāga, Laṅkāvatāra-Sūtra, the Maitreya-corpus generally) and earlier intimated in the Pāli Aṅguttara-Nikāya (AN 1.49–52: *pabhassaram idaṁ bhikkhave cittaṁ*), that *citta* (mind / consciousness) is by its own nature (*prakṛti*) luminous (*prabhāsvara*), and that the apparent obscuration is the work of adventitious defilements (*āgantuka-kleśa*) that do not belong to *citta*'s nature. The doctrine is constitutive of the Tathāgatagarbha account of the cognitive ground of awakening: liberation is not the production of a new state but the removal of obscurations on what is already luminous. The doctrine is to be distinguished from the substance-self (*ātman*) doctrines: the natural luminosity is not a substance underlying experience but is *citta* itself in its proper nature, and is therefore non-substantialist in exactly the way the Buddhist tradition requires.",
+  "per_school": [
+    {
+      "school": "Tathāgatagarbha-foundational",
+      "definition": "The natural luminosity of *citta* is identified with *tathāgatagarbha* itself: the universal Buddha-nature is the natural luminosity of consciousness considered as the cognitive ground of awakening. The Ratna-Gotra-Vibhāga articulates the relation between natural luminosity and adventitious defilements through the nine similes (RGV I.96–125), each of which figures the relation as one in which the obscuration is non-essential to the obscured.",
+      "primary_loci": ["Ratna-Gotra-Vibhāga I (especially I.36–63)", "Mahāyāna-Sūtra-Alaṃkāra IX"]
+    },
+    {
+      "school": "Buddha-nature-Mahāyāna (Laṅkāvatāra-Sūtra)",
+      "definition": "The natural luminosity is the *ālaya-vijñāna* in its undefiled aspect: the eighth consciousness considered as the cognitive ground of awakening rather than as the karmically-conditioned storehouse. The sūtra distinguishes *prakṛti-prabhāsvara-citta* from heretical *ātman*-doctrines (chapter 6) by emphasising that the luminosity is not a substance but the proper nature of the cognitive flow itself.",
+      "primary_loci": ["Laṅkāvatāra-Sūtra ch. 2 and ch. 6"]
+    },
+    {
+      "school": "Pratyabhijñā / Trika (structural inheritance)",
+      "definition": "The Tathāgatagarbha emphasis on natural luminosity is structurally inherited into the Trika articulation of *cit* as *svaprakāśa* (self-luminous): consciousness is luminous of itself without requiring an external illuminator, and the *mala* (defilements) are adventitious obscurations on this self-luminosity. The Trika develops this further with the doctrine of *vimarśa* (reflexive self-awareness) as the dynamic side of *prakāśa* (luminosity).",
+      "primary_loci": ["Īśvara-Pratyabhijñā-Kārikā 1.1.1–5", "Tantrāloka 1, 9"]
+    },
+    {
+      "school": "Advaita Vedānta (structural parallel)",
+      "definition": "The Advaitin doctrine of *cit* as *svaprakāśa* (self-luminous) and as the natural light of consciousness shares the structural emphasis on natural luminosity but sets it within a substantialist Brahman-identity framework that the Tathāgatagarbha tradition refuses. The relation is one of structural parallel, not of doctrinal identity.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1 (adhyāsa-bhāṣya)", "Pañcadaśī 1, 6"]
+    }
+  ],
+  "see_also": ["tathagatagarbha", "alaya-vijnana", "saksin", "svatantrya", "vimarsa"],
+  "translator_note": "'Naturally luminous mind' is the standard English rendering. 'Luminosity' (*prabhāsvaratā*) here is technical: it does not denote literal optical brightness but the cognitive transparency that allows experience to manifest at all. The doctrine is non-substantialist; readers should not import substance-self connotations from Western philosophy of mind. The Pāli antecedent (*pabhassaraṁ idaṁ bhikkhave cittaṁ*, AN 1.49) is the canonical source the Mahāyāna Tathāgatagarbha tradition treats as scriptural warrant for the doctrine."
+}
