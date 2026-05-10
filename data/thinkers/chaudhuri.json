@@ -1,0 +1,39 @@
+{
+  "id": "chaudhuri",
+  "name": "Haridas Chaudhuri",
+  "name_iast": "Haridāsa Caudhurī",
+  "dates_low": 1913,
+  "dates_high": 1975,
+  "school": "Integral Yoga",
+  "school_color_token": "advaita",
+  "summary": "Haridas Chaudhuri is represented here by a minimal backlog stub so routed on-disk source texts can surface in the Source tab pending fuller review.",
+  "engaged_works": [
+    {
+      "work_id": "dli-ernet-528659",
+      "title": "$£ , STT5T «Tf Tf T WT^ft shot^h araroft M",
+      "title_iast": "$£ , STT5T «Tf Tf T WT^ft shot^h araroft M",
+      "language": "english",
+      "source_status": "acceptable-on-disk",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Routed from the 2026-05-10 Tier-1 publication backlog as an on-disk source witness.",
+      "genre": "monograph",
+      "summary": "This on-disk text is being wired into the Source tab as a citation witness for Haridas Chaudhuri, $£ , STT5T «Tf Tf T WT^ft shot^h araroft M. The entry is intentionally minimal: it records the routed file and basic bibliographic shape so the site can surface the source while fuller review waits. A later pass should tighten the title, edition, and passage coverage against the on-disk witness.",
+      "entry_status": "wired-on-disk",
+      "key_passage_ids": []
+    },
+    {
+      "work_id": "dli-ernet-425542",
+      "title": "The Philosophy of Integralism",
+      "title_iast": "The Philosophy of Integralism",
+      "language": "english",
+      "source_status": "acceptable-on-disk",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Routed from the 2026-05-10 Tier-1 publication backlog as an on-disk source witness.",
+      "genre": "monograph",
+      "summary": "This on-disk text is being wired into the Source tab as a citation witness for Haridas Chaudhuri, The Philosophy of Integralism. The entry is intentionally minimal: it records the routed file and basic bibliographic shape so the site can surface the source while fuller review waits. A later pass should tighten the title, edition, and passage coverage against the on-disk witness.",
+      "entry_status": "wired-on-disk",
+      "key_passage_ids": []
+    }
+  ],
+  "entry_status": "stub-from-backlog"
+}

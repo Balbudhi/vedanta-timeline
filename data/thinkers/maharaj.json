@@ -1,0 +1,26 @@
+{
+  "id": "maharaj",
+  "name": "Ayon Maharaj",
+  "name_iast": "Ayon Maharaj",
+  "dates_low": 1970,
+  "dates_high": 2026,
+  "school": "Modern Vedanta",
+  "school_color_token": "advaita",
+  "summary": "Ayon Maharaj is represented here by a minimal backlog stub so routed on-disk source texts can surface in the Source tab pending fuller review.",
+  "engaged_works": [
+    {
+      "work_id": "maharaj-2018-infinite-paths-to-infinite-reality",
+      "title": "Maharaj 2018 Infinite Paths To Infinite Reality",
+      "title_iast": "Maharaj 2018 Infinite Paths To Infinite Reality",
+      "language": "english",
+      "source_status": "clean-on-disk",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Routed from the 2026-05-10 Tier-1 publication backlog as an on-disk source witness.",
+      "genre": "monograph",
+      "summary": "This on-disk text is being wired into the Source tab as a citation witness for Ayon Maharaj, Maharaj 2018 Infinite Paths To Infinite Reality. The entry is intentionally minimal: it records the routed file and basic bibliographic shape so the site can surface the source while fuller review waits. A later pass should tighten the title, edition, and passage coverage against the on-disk witness.",
+      "entry_status": "wired-on-disk",
+      "key_passage_ids": []
+    }
+  ],
+  "entry_status": "stub-from-backlog"
+}
