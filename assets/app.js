@@ -1067,7 +1067,7 @@ function openThinker(id) {
   });
   detailContent.style.setProperty("--dot-color", colorFor(t, 2));
   detailContent.style.setProperty("--school-light", colorFor(t, 1));
-  detailContent.innerHTML = renderDetail(t);
+  detailContent.innerHTML = numberCitations(renderDetail(t), { appendList: true });
   panelState.loaded.thinker = true;
   detailContent.scrollTop = 0;
   openPanel("thinker");
@@ -1367,12 +1367,28 @@ document.addEventListener("click", (e) => {
     openThinker(a.dataset.thinkerLink);
     return;
   }
-  // citation panel / popover (clickable primary-source citations)
+  // citation panel / popover (clickable primary-source citations).
+  // Demoted citations (verified: false) open a small popover explaining the
+  // audit finding rather than the Citation tab, so a reader can't mistake
+  // the locus for a clean primary passage.
   const cite = e.target.closest("a[href^='cite://']");
   if (cite) {
     e.preventDefault();
     const key = cite.getAttribute("href").replace(/^cite:\/\//, "");
-    openCitationPanel(key, cite);
+    const fnEl = cite.closest(".cite-fn");
+    if (fnEl && fnEl.classList.contains("cite-fn--demoted")) {
+      openDemotedCitePopover(key, cite);
+    } else {
+      openCitationPanel(key, cite);
+    }
+    return;
+  }
+  // secondary citations (book-only references — never on disk).
+  const sec = e.target.closest("a[href^='secondary://']");
+  if (sec) {
+    e.preventDefault();
+    const ref = sec.getAttribute("href").replace(/^secondary:\/\//, "");
+    openSecondaryCitePopover(ref, sec);
     return;
   }
   // glossary popovers
@@ -1435,7 +1451,7 @@ For the cited-but-not-fully-translated portions: where a standard scholarly Engl
 ${passagesBlock}`;
   }
   if (dpTranslationBody) {
-    dpTranslationBody.innerHTML = `<article>${renderMarkdownFull(body)}</article>`;
+    dpTranslationBody.innerHTML = `<article>${numberCitations(renderMarkdownFull(body), { appendList: true })}</article>`;
     dpTranslationBody.scrollTop = 0;
   }
   panelState.loaded.translation = true;
@@ -1463,14 +1479,16 @@ function openGlossary(termKey, anchorEl) {
   const translatorNote = entry.translator_note
     ? `<div class="gp-translator"><span class="gp-label">Translator note</span><div>${md(entry.translator_note)}</div></div>`
     : "";
-  pop.innerHTML = `
+  // Glossary definitions can include cite:// links; let the footnote numbering
+  // post-processor convert them to compact superscripts in the popover body.
+  pop.innerHTML = numberCitations(`
     <button class="gp-close" aria-label="Close">×</button>
     <div class="gp-term">${escape(entry.term_iast || termKey)}</div>
     ${entry.literal ? `<div class="gp-literal">Literally: <em>${escape(entry.literal)}</em></div>` : ""}
     <div class="gp-invariant"><span class="gp-label">${entry.invariant_definition && entry.invariant_definition.toLowerCase().includes("no shared invariant") ? "No invariant" : "Invariant"}</span><div>${md(entry.invariant_definition || "")}</div></div>
     ${perSchool ? `<div class="gp-perschool"><span class="gp-label">By school</span>${perSchool}</div>` : ""}
     ${translatorNote}
-  `;
+  `, { appendList: false });
   let scrim = null;
   if (isMobile) {
     scrim = document.createElement("div");
@@ -1698,9 +1716,15 @@ function renderCitationTab(key) {
   // the Sanskrit and the close English so a not-yet-verified passage can't
   // be mistaken for a quotation. The same panel surfaces the verification
   // note so the reader can see exactly what the audit found.
-  const anchorHtml = entry
-    ? (entry.verified === false
-        ? `
+  // Verified-flag dispatch:
+  //   true                  → show Sanskrit + close English (defendable).
+  //   false                 → show locus + audit note (passage withheld).
+  //   "pending-acquisition" → show locus + acquisition note (passage on the
+  //                           way; differentiates from a hallucination).
+  //   "unknown" / missing   → show what the entry has, but no audit endorsement.
+  let anchorHtml;
+  if (entry && entry.verified === false) {
+    anchorHtml = `
       <div class="cite-passage-anchor cite-passage-anchor--unverified">
         <div class="cpa-locus">Locus · ${escape(entry.locus_short || locusDisplay)}</div>
         <div class="cpa-pending">
@@ -1710,20 +1734,36 @@ function renderCitationTab(key) {
           primary text. ${entry.verification_note ? `<em>${escape(entry.verification_note)}</em>` : ""}
         </div>
       </div>
-    `
-        : `
+    `;
+  } else if (entry && entry.verified === "pending-acquisition") {
+    anchorHtml = `
+      <div class="cite-passage-anchor cite-passage-anchor--pending">
+        <div class="cpa-locus">Locus · ${escape(entry.locus_short || locusDisplay)}</div>
+        <div class="cpa-pending">
+          The cited primary text is not yet on disk in clean form, so the
+          passage cannot be verified against the source file. Locus and
+          attribution are preserved as a primary-source pointer; the passage
+          will be back-filled once the work is acquired.
+          ${entry.verification_note ? `<em>${escape(entry.verification_note)}</em>` : ""}
+        </div>
+      </div>
+    `;
+  } else if (entry) {
+    anchorHtml = `
       <div class="cite-passage-anchor">
         <div class="cpa-locus">Locus · ${escape(entry.locus_short || locusDisplay)}</div>
         ${entry.sanskrit_iast ? `<div class="cpa-sk">${escape(entry.sanskrit_iast).replace(/\n/g, "<br>")}</div>` : ""}
         ${entry.english_close ? `<div class="cpa-en">${md(entry.english_close)}</div>` : ""}
       </div>
-    `)
-    : `
+    `;
+  } else {
+    anchorHtml = `
       <div class="cite-passage-anchor">
         <div class="cpa-locus">Locus · ${escape(locusDisplay)}</div>
         <div class="cpa-pending">Passage not yet extracted into the on-disk corpus. The locus is named in this entry; the surrounding work has not been transcribed line-by-line yet. Open the thinker entry to see what <em>is</em> currently engaged.</div>
       </div>
     `;
+  }
 
   const noContextNote = entry && !before.length && !after.length
     ? `<p class="ccb-note">No surrounding key-passages indexed for this work yet.</p>`
@@ -1951,6 +1991,202 @@ function guessSourceFileForCitation(thinkerId, workId) {
   return bestScore >= 3 ? best.path : null;
 }
 
+// ---------- citation footnote post-processor -----------
+// Convert <a class="cite-link" href="cite://KEY">visible</a> anchors (and
+// secondary-source <a href="secondary://REF">visible</a> anchors) into
+// numbered superscripts. Numbering is per-call (per render-context); a key
+// reused inside the same view gets the same number.
+//
+// The original `visible` text — which is usually the locus, e.g. "BSB 1.1.1"
+// — is preserved on a data attribute so the optional footnote-list at the
+// bottom of the view can render it. The visible text in the prose is replaced
+// by the footnote number.
+//
+// The audit's `verified` flag (true | false | "unknown" | "pending-acquisition")
+// drives a class modifier so the CSS can render demoted citations with
+// gray/strikethrough and pending-acquisition with a subtler treatment.
+function numberCitations(html, options) {
+  if (!html) return html;
+  const opts = options || {};
+  const idx = state.citationIndex;
+  const lookup = (key) => {
+    if (!idx) return null;
+    if (idx.entries && idx.entries[key]) return idx.entries[key];
+    const aliasTo = idx.aliases && idx.aliases[key];
+    return aliasTo && idx.entries ? idx.entries[aliasTo] : null;
+  };
+
+  // counter + key→number map (reuse-same-number rule)
+  const order = [];
+  const seen = new Map();
+  const numberFor = (key) => {
+    if (seen.has(key)) return seen.get(key);
+    const n = order.length + 1;
+    seen.set(key, n);
+    order.push(key);
+    return n;
+  };
+
+  // primary citations. The visible text may include rendered <em>/<strong>/
+  // <span class="term"> markup (italics, glossary tags) so we match
+  // non-greedy up to the nearest closing </a>. Citations don't nest, so
+  // .*? is safe here.
+  const cite = /<a\s+href="cite:\/\/([^"]+)"\s+class="cite-link">([\s\S]*?)<\/a>/g;
+  let out = html.replace(cite, (_m, key, visible) => {
+    const entry = lookup(key);
+    const verified = entry ? entry.verified : "unknown";
+    const n = numberFor(key);
+    let cls = "cite-fn";
+    let title = visible.trim() || key;
+    if (verified === false) {
+      cls += " cite-fn--demoted";
+      title += " — passage absent from on-disk source (flagged by audit)";
+    } else if (verified === "pending-acquisition") {
+      cls += " cite-fn--pending";
+      title += " — primary text not yet on disk (pending acquisition)";
+    } else if (verified === "unknown") {
+      cls += " cite-fn--unknown";
+    }
+    return `<sup class="${cls}" data-cite-key="${key}" data-cite-visible="${escapeAttr(visible)}">` +
+      `<a href="cite://${key}" data-fn-num="${n}" title="${escapeAttr(title)}">[${n}]</a></sup>`;
+  });
+
+  // secondary citations — small bracketed inline reference, opens popover.
+  const sec = /<a\s+href="secondary:\/\/([^"]+)"\s+class="cite-link">([\s\S]*?)<\/a>/g;
+  out = out.replace(sec, (_m, ref, visible) => {
+    return `<a href="secondary://${ref}" class="cite-secondary" data-ref="${ref}" ` +
+      `title="Secondary source — passage not on disk">[${visible}]</a>`;
+  });
+
+  if (!opts.appendList || order.length === 0) return out;
+
+  // Footnote list at end of view.
+  const items = order.map((key, i) => {
+    const entry = lookup(key);
+    const n = i + 1;
+    const parts = key.split("/");
+    const tid = parts[0] || "";
+    const wid = parts[1] || "";
+    const loc = parts.slice(2).join("/");
+    const t = state.thinkersById && state.thinkersById.get(tid);
+    const thinkerName = t ? (t.name_iast || t.name) : tid;
+    let workTitle = wid;
+    if (t) {
+      const w = (t.engaged_works || []).find((x) => x.work_id === wid);
+      if (w) workTitle = w.title_iast || w.title || wid;
+    }
+    const locus = entry ? (entry.locus_short || entry.locus || loc) : (loc || key);
+    const verified = entry ? entry.verified : "unknown";
+    let badge = "";
+    if (verified === false) {
+      badge = ` <span class="cite-fn-list-badge cite-fn-list-badge--demoted">verified absent</span>`;
+    } else if (verified === "pending-acquisition") {
+      badge = ` <span class="cite-fn-list-badge cite-fn-list-badge--pending">pending acquisition</span>`;
+    } else if (verified === "unknown") {
+      badge = ` <span class="cite-fn-list-badge cite-fn-list-badge--unknown">unverified</span>`;
+    }
+    return `<li id="cite-fn-${n}"><span class="cite-fn-list-num">[${n}]</span> ` +
+      `<a href="cite://${key}" class="cite-fn-list-locus">${escape(locus)}</a> · ` +
+      `${escape(thinkerName)}${workTitle ? ` · <em>${escape(workTitle)}</em>` : ""}${badge}</li>`;
+  }).join("");
+  return out + `<aside class="cite-fn-list"><h3>Footnotes</h3><ol>${items}</ol></aside>`;
+}
+
+function escapeAttr(s) {
+  if (s == null) return "";
+  return String(s).replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+
+// Popover shown when a demoted (verified: false) citation is clicked.
+// Honest acknowledgment: locus + audit finding + offer to open citation tab.
+function openDemotedCitePopover(key, anchorEl) {
+  document.querySelectorAll(".citation-popover, .glossary-popover, .gloss-scrim, .cite-scrim, .cite-secondary-popover").forEach((el) => el.remove());
+  const entry = lookupCitationEntry(key);
+  const parts = key.split("/");
+  const tid = parts[0] || "";
+  const wid = parts[1] || "";
+  const t = state.thinkersById.get(tid);
+  const thinkerName = t ? (t.name_iast || t.name) : tid;
+  let workTitle = wid;
+  if (t) {
+    const w = (t.engaged_works || []).find((x) => x.work_id === wid);
+    if (w) workTitle = w.title_iast || w.title || wid;
+  }
+  const locus = entry ? (entry.locus_short || entry.locus || parts.slice(2).join("/")) : parts.slice(2).join("/");
+  const note = entry && entry.verification_note ? entry.verification_note : "";
+  const pop = document.createElement("div");
+  pop.className = "citation-popover citation-popover--demoted";
+  pop.innerHTML = `
+    <button class="cp-close" aria-label="Close">×</button>
+    <div class="cp-header">
+      <div class="cp-locus">${escape(locus)}</div>
+      <div class="cp-attrib">${escape(thinkerName)}${workTitle ? ` · <em>${escape(workTitle)}</em>` : ""}</div>
+    </div>
+    <div class="cp-block cp-pending">
+      <p><strong>Citation flagged.</strong> The Sanskrit passage referenced here was not located in the on-disk primary text by the most recent citation audit. The locus and attribution are preserved, but the passage text is withheld until verification.${note ? ` <em>${escape(note)}</em>` : ""}</p>
+    </div>
+  `;
+  positionPopover(pop, anchorEl);
+  wirePopoverDismiss(pop, anchorEl);
+}
+
+// Popover for secondary citations. Books that are not on disk in clean form;
+// surfaced as scholarly attestation, not as a defendable primary passage.
+function openSecondaryCitePopover(ref, anchorEl) {
+  document.querySelectorAll(".citation-popover, .glossary-popover, .gloss-scrim, .cite-scrim, .cite-secondary-popover").forEach((el) => el.remove());
+  const pop = document.createElement("div");
+  pop.className = "cite-secondary-popover";
+  const visible = anchorEl.textContent ? anchorEl.textContent.replace(/^\[|\]$/g, "") : ref;
+  pop.innerHTML = `
+    <button class="cp-close" aria-label="Close">×</button>
+    <div class="cp-header">
+      <div class="cp-locus">Secondary source</div>
+      <div class="cp-attrib">${escape(visible)}</div>
+    </div>
+    <div class="cp-block cp-pending">
+      <p>Cited as scholarly attestation. The passage is not on disk in clean primary-text form, so the Citation tab does not open here. Read the bracketed reference as a footnote to the academic literature.</p>
+    </div>
+  `;
+  positionPopover(pop, anchorEl);
+  wirePopoverDismiss(pop, anchorEl);
+}
+
+function positionPopover(pop, anchorEl) {
+  const isMobile = window.matchMedia("(max-width: 720px)").matches;
+  if (isMobile) {
+    const scrim = document.createElement("div");
+    scrim.className = "cite-scrim";
+    document.body.appendChild(scrim);
+    document.body.appendChild(pop);
+    scrim.addEventListener("click", () => { pop.remove(); scrim.remove(); });
+    pop._scrim = scrim;
+  } else {
+    document.body.appendChild(pop);
+    const r = anchorEl.getBoundingClientRect();
+    pop.style.position = "fixed";
+    const popH = pop.offsetHeight || 240;
+    const placeBelow = (r.bottom + popH + 8) < window.innerHeight;
+    pop.style.top = (placeBelow ? r.bottom + 8 : Math.max(10, r.top - popH - 8)) + "px";
+    pop.style.left = Math.max(10, Math.min(r.left, window.innerWidth - 460)) + "px";
+  }
+}
+
+function wirePopoverDismiss(pop, anchorEl) {
+  const close = () => {
+    pop.remove();
+    if (pop._scrim) pop._scrim.remove();
+    document.removeEventListener("click", outside);
+    document.removeEventListener("keydown", esc);
+  };
+  const outside = (e) => {
+    if (!pop.contains(e.target) && e.target !== anchorEl && !anchorEl.contains(e.target)) close();
+  };
+  const esc = (e) => { if (e.key === "Escape") close(); };
+  pop.querySelector(".cp-close").addEventListener("click", close);
+  setTimeout(() => document.addEventListener("click", outside), 0);
+  document.addEventListener("keydown", esc);
+}
+
 // ---------- markdown helpers -----------
 function escape(s) {
   if (s == null) return "";
@@ -1974,7 +2210,17 @@ function md(s) {
     /\[([^\]]+?)\]\(cite:\/\/([^)\n]+)\)/g,
     (_m, visible, key) => {
       const i = citeStash.length;
-      citeStash.push({ visible, key });
+      citeStash.push({ kind: "cite", visible, key });
+      return `CITE${i}`;
+    },
+  );
+  // Secondary citations: [Author Year](secondary://author-year-pN) — book
+  // references not on disk; rendered as a small bracketed inline marker.
+  out = out.replace(
+    /\[([^\]]+?)\]\(secondary:\/\/([^)\n]+)\)/g,
+    (_m, visible, ref) => {
+      const i = citeStash.length;
+      citeStash.push({ kind: "secondary", visible, ref });
       return `CITE${i}`;
     },
   );
@@ -1988,6 +2234,9 @@ function md(s) {
   // had italics applied; the key is HTML-safe (no entities expected).
   out = out.replace(/CITE(\d+)/g, (_m, i) => {
     const c = citeStash[+i];
+    if (c.kind === "secondary") {
+      return `<a href="secondary://${c.ref}" class="cite-link">${c.visible}</a>`;
+    }
     return `<a href="cite://${c.key}" class="cite-link">${c.visible}</a>`;
   });
   return out;
@@ -2304,7 +2553,7 @@ async function openArticle(a) {
   }
   const text = await r.text();
   if (dpArticleBody) {
-    dpArticleBody.innerHTML = `<article>${renderMarkdownFull(text)}</article>`;
+    dpArticleBody.innerHTML = `<article>${numberCitations(renderMarkdownFull(text), { appendList: true })}</article>`;
     dpArticleBody.scrollTop = 0;
   }
   panelState.loaded.article = true;
@@ -2360,7 +2609,15 @@ function renderMarkdownFull(src) {
     /\[([^\]]+?)\]\(cite:\/\/([^)\n]+)\)/g,
     (_m, visible, key) => {
       const i = citeStash.length;
-      citeStash.push({ visible, key });
+      citeStash.push({ kind: "cite", visible, key });
+      return ` CITESTASH${i} `;
+    },
+  );
+  src = src.replace(
+    /\[([^\]]+?)\]\(secondary:\/\/([^)\n]+)\)/g,
+    (_m, visible, ref) => {
+      const i = citeStash.length;
+      citeStash.push({ kind: "secondary", visible, ref });
       return ` CITESTASH${i} `;
     },
   );
@@ -2395,6 +2652,9 @@ function renderMarkdownFull(src) {
   // Re-inflate citation + link placeholders.
   out = out.replace(/ CITESTASH(\d+) /g, (_m, i) => {
     const c = citeStash[+i];
+    if (c.kind === "secondary") {
+      return `<a href="secondary://${c.ref}" class="cite-link">${c.visible}</a>`;
+    }
     return `<a href="cite://${c.key}" class="cite-link">${c.visible}</a>`;
   });
   out = out.replace(/ LINKSTASH(\d+) /g, (_m, i) => {
