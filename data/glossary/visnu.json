@@ -14,7 +14,7 @@
     "viṣṇau"
   ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54",
+  "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "A divine name that becomes, in the Vaiṣṇava Vedāntic schools, a primary designation of the highest reality. The root sense of pervasion matters: Viṣṇu is the indwelling, world-sustaining, and world-governing Lord, not merely a mythic preserver opposed to a creator and destroyer. The term sits within a technical network that includes *Nārāyaṇa*, *Paramātman*, *Bhagavān*, *antaryāmin*, and *avatāra*. Viśiṣṭādvaita and Tattva-vāda (Dvaita) identify Viṣṇu-Nārāyaṇa straightforwardly with *brahman* and *Īśvara*; Gauḍīya Vaiṣṇavism places Viṣṇu within a fuller theology in which Kṛṣṇa is *svayaṃ-bhagavān* and Viṣṇu is a real divine expansion, not a lesser fiction. Advaita accepts Viṣṇu as a real form of *Īśvara* and a proper object of *upāsanā*, but not as the unique final description of *nirguṇa brahman*. The term therefore cannot be translated by the mythology-manual phrase \"god of preservation\" without erasing the metaphysical claims actually made around it.",
   "per_school": [
     {
@@ -104,63 +104,206 @@
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Jīva's Gauḍīya theology, the supreme destination named by the Bhāgavata's *nārāyaṇa-pada* is glossed as the lotus feet of Śrī Kṛṣṇa in Vaikuṇṭha, so Viṣṇu-Nārāyaṇa is not a rival absolute to Kṛṣṇa but a real divine name gathered into Kṛṣṇa's status as the highest Bhagavān [[JS §273](cite://jiva-gosvami/sat-sandarbha/§273)]. Jīva can therefore gloss \"Viṣṇu\" itself as Śrī Kṛṣṇa manifest everywhere, while still treating Bhagavān alone as the object of *parama-prema* and final attainment [[JS BhP 10.35 gloss](cite://jiva-gosvami/sat-sandarbha/bhp-10.35.16-17-gloss)] [[PS §45](cite://jiva-gosvami/sat-sandarbha/§45)].",
+      "primary_loci": [
+        "Ṣaṭ-Sandarbha [273] on Bhāgavata-Purāṇa 1.15.46-48",
+        "Ṣaṭ-Sandarbha gloss on Bhāgavata-Purāṇa 10.35.16-17",
+        "Paramātma-Sandarbha §45"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§273",
+          "locus_short": "JS §273"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/bhp-10.35.16-17-gloss",
+          "locus_short": "JS BhP 10.35 gloss"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§45",
+          "locus_short": "PS §45"
+        }
+      ]
     },
     {
       "school": "Dvaitādvaita",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Nimbārka does not leave the highest Brahman under an indeterminate title: the *Daśa-Ślokī* identifies the faultless, all-auspicious supreme Brahman directly as Kṛṣṇa-Hari, with the *vyūha*s as his forms and Rādhā abiding at his left side [[DaŚ 4](cite://nimbarka/dasa-shloki/4)] [[DaŚ 5](cite://nimbarka/dasa-shloki/5)]. The same dossier makes the *jīva* *hareḥ adhīna*, so Viṣṇu-Hari is not merely the recipient of worship but the independent Lord to whom the sentient plurality stands in *svābhāvika-bhedābheda* dependence [[DaŚ 1](cite://nimbarka/dasa-shloki/1)] [[VPS 2.3.42](cite://nimbarka/vedanta-parijata-saurabha/2.3.42)].",
+      "primary_loci": [
+        "Daśa-Ślokī 1",
+        "Daśa-Ślokī 4",
+        "Daśa-Ślokī 5",
+        "Vedānta-Pārijāta-Saurabha on Brahma-Sūtra 2.3.42"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nimbarka/dasa-shloki/1",
+          "locus_short": "DaŚ 1"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/4",
+          "locus_short": "DaŚ 4"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/5",
+          "locus_short": "DaŚ 5"
+        },
+        {
+          "cite": "cite://nimbarka/vedanta-parijata-saurabha/2.3.42",
+          "locus_short": "VPS 2.3.42"
+        }
+      ]
     },
     {
       "school": "Śuddhādvaita",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Vallabha's *śuddhādvaita*, the functional place occupied elsewhere by Viṣṇu is borne by Brahman as Puruṣottama: Brahman is the *samavāyi-kāraṇa* of the world, the *jīva* is Brahman's own *aṃśa*, and liberation is attainment of Puruṣottama rather than absorption into an attribute-free absolute [[AB 1.1.4a](cite://vallabha/anubhasya/1.1.4a)] [[AB 2.3.43-45a](cite://vallabha/anubhasya/2.3.43-45a)] [[AB 1.1.12-19a](cite://vallabha/anubhasya/1.1.12-19a)]. The school's specific ontological move is *avikṛta-pariṇāma*: the Lord really manifests the world without undergoing intrinsic modification [[AB 1.4.26a](cite://vallabha/anubhasya/1.4.26a)].",
+      "primary_loci": [
+        "Aṇu-Bhāṣya 1.1.4a",
+        "Aṇu-Bhāṣya 1.1.12-19a",
+        "Aṇu-Bhāṣya 1.4.26a",
+        "Aṇu-Bhāṣya 2.3.43-45a"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anubhasya/1.1.4a",
+          "locus_short": "AB 1.1.4a"
+        },
+        {
+          "cite": "cite://vallabha/anubhasya/1.1.12-19a",
+          "locus_short": "AB 1.1.12-19a"
+        },
+        {
+          "cite": "cite://vallabha/anubhasya/1.4.26a",
+          "locus_short": "AB 1.4.26a"
+        },
+        {
+          "cite": "cite://vallabha/anubhasya/2.3.43-45a",
+          "locus_short": "AB 2.3.43-45a"
+        }
+      ]
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Classical Sāṃkhya does not give Viṣṇu a doctrinal role; its nearest analogue is the rejected hypothesis of Īśvara [[SS 1.92](cite://kapila/samkhya-sutra/1.92)]. The *Sāṃkhya-Sūtra* says both that the fruition of results does not depend on an Īśvara-overseer because karma itself suffices, and that Īśvara is not established for lack of pramāṇa [[SS 5.2](cite://kapila/samkhya-sutra/5.2)] [[SS 5.10](cite://kapila/samkhya-sutra/5.10)].",
+      "primary_loci": [
+        "Sāṃkhya-Sūtra 1.92",
+        "Sāṃkhya-Sūtra 5.2",
+        "Sāṃkhya-Sūtra 5.10"
+      ],
+      "citations": [
+        {
+          "cite": "cite://kapila/samkhya-sutra/1.92",
+          "locus_short": "SS 1.92"
+        },
+        {
+          "cite": "cite://kapila/samkhya-sutra/5.2",
+          "locus_short": "SS 5.2"
+        },
+        {
+          "cite": "cite://kapila/samkhya-sutra/5.10",
+          "locus_short": "SS 5.10"
+        }
+      ]
     },
     {
       "school": "Yoga",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Yoga's functional analogue to Viṣṇu is Īśvara: a *puruṣa-viśeṣa* untouched by *kleśa*, *karma*, *vipāka*, and *āśaya*, whose signifier is praṇava [[YS 1.24](cite://patanjali/yoga-sutra/1.24)] [[YS 1.27](cite://patanjali/yoga-sutra/1.27)]. Vyāsa then construes *īśvarapraṇidhāna* as a *bhakti-viśeṣa* by which the yogin is favored by Īśvara and rapidly gains samādhi, so the school admits a real Lord without technically identifying that Lord as Viṣṇu in the core sūtra-bhāṣya dossier [[YBh 1.23](cite://vyasa/yoga-bhasya/1.23)] [[YBh 1.24](cite://vyasa/yoga-bhasya/1.24)].",
+      "primary_loci": [
+        "Yoga-Sūtra 1.24",
+        "Yoga-Sūtra 1.27",
+        "Vyāsa-Yoga-Bhāṣya 1.23",
+        "Vyāsa-Yoga-Bhāṣya 1.24"
+      ],
+      "citations": [
+        {
+          "cite": "cite://patanjali/yoga-sutra/1.24",
+          "locus_short": "YS 1.24"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/1.27",
+          "locus_short": "YS 1.27"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/1.23",
+          "locus_short": "YBh 1.23"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/1.24",
+          "locus_short": "YBh 1.24"
+        }
+      ]
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Nyāya-Vaiśeṣika likewise works with Īśvara-Bhagavān rather than a sectarian Viṣṇu-term: Udayana says that Bhagavān is known by scripture and inference, directly seen by some, and sought by sages through sacrifice, tapas, yama, niyama, and yoga [[NK 5.685-689](cite://udayana/nyaya-kusumanjali/5.685-689)]. The school's concern is thus the prameya-status of a rationally defensible Lord, not a separate technical ontology built around the divine name Viṣṇu [[NK 5.685-689](cite://udayana/nyaya-kusumanjali/5.685-689)].",
+      "primary_loci": [
+        "Nyāya-Kusumāñjali 5.685-689"
+      ],
+      "citations": [
+        {
+          "cite": "cite://udayana/nyaya-kusumanjali/5.685-689",
+          "locus_short": "NK 5.685-689"
+        }
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Pūrva-Mīmāṃsā does not treat Viṣṇu as a supreme metaphysical lord; it subordinates deity-language to ritual injunction [[MS 1.1.2](cite://jaimini/mimamsa-sutra/1.1.2)] [[MS 9.1.9](cite://jaimini/mimamsa-sutra/9.1.9)]. Jaimini defines *dharma* as what is characterized by *codanā* and grounds it in *śabda*, while also stating that the sacrifice-act is primary and that the *devatā*-text has *guṇa*-status relative to the rite [[MS 1.1.2](cite://jaimini/mimamsa-sutra/1.1.2)] [[MS 1.3.1](cite://jaimini/mimamsa-sutra/1.3.1)] [[MS 9.1.9](cite://jaimini/mimamsa-sutra/9.1.9)]. The relevant analogue to a Viṣṇu-doctrine is therefore negative: even where a deity is named, its role is functionally tied to sacrificial performance rather than installed as the independent object of final metaphysical inquiry [[MS 6.3.18-19](cite://jaimini/mimamsa-sutra/6.3.18-19)] [[MS 9.1.9](cite://jaimini/mimamsa-sutra/9.1.9)].",
+      "primary_loci": [
+        "Mīmāṃsā-Sūtra 1.1.2",
+        "Mīmāṃsā-Sūtra 1.3.1",
+        "Mīmāṃsā-Sūtra 6.3.18-19",
+        "Mīmāṃsā-Sūtra 9.1.9"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/1.1.2",
+          "locus_short": "MS 1.1.2"
+        },
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/1.3.1",
+          "locus_short": "MS 1.3.1"
+        },
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/6.3.18-19",
+          "locus_short": "MS 6.3.18-19"
+        },
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/9.1.9",
+          "locus_short": "MS 9.1.9"
+        }
+      ]
     },
     {
       "school": "Mādhyamaka",
-      "definition": "[NOT YET RETRIEVED]",
+      "definition": "NOT-APPLICABLE",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "not_applicable_reason": "The listed Mādhyamaka texts treat emptiness, dependent arising, and dialectic; Viṣṇu or a positive theistic analogue is not a load-bearing category in this dossier."
     },
     {
       "school": "Yogācāra",
-      "definition": "[NOT YET RETRIEVED]",
+      "definition": "NOT-APPLICABLE",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "not_applicable_reason": "The listed Yogācāra and Buddhist epistemological texts analyze vijñapti, cognition, and pramāṇa rather than Viṣṇu or any school-defining theistic analogue."
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Trika assigns Viṣṇu a definite but subordinate place within the graded manifestation of consciousness [[ĪPV 3.1.2](cite://abhinavagupta/ipv/3.1.2-comment)] [[ĪPV 3.2.1](cite://abhinavagupta/ipv/3.2.1-comment)]. Abhinavagupta warns that the upāsya deities called Sadāśiva and Īśvara are not to be confused with Brahmā or Viṣṇu merely on the strength of name-similarity, since those latter belong to a distinct lower order of manifestation [[ĪPV 3.1.2](cite://abhinavagupta/ipv/3.1.2-comment)]. He then states more exactly that Rudra presides over the recollective condition of pramātṛtā, whereas in the outward spread of differentiated objects the *adhiṣṭhātṛ-devatā* is Viṣṇu; Viṣṇu therefore names a real phase of manifestation, not the absolute itself [[ĪPV 3.2.1](cite://abhinavagupta/ipv/3.2.1-comment)].",
+      "primary_loci": [
+        "Īśvara-Pratyabhijñā-Vivṛti-Vimarśinī on Ipk 3.1.2",
+        "Īśvara-Pratyabhijñā-Vivṛti-Vimarśinī on Ipk 3.2.1"
+      ],
+      "citations": [
+        {
+          "cite": "cite://abhinavagupta/ipv/3.1.2-comment",
+          "locus_short": "ĪPV 3.1.2"
+        },
+        {
+          "cite": "cite://abhinavagupta/ipv/3.2.1-comment",
+          "locus_short": "ĪPV 3.2.1"
+        }
+      ]
     }
   ],
   "see_also": [
