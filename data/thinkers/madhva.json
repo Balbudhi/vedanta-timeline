@@ -480,6 +480,12 @@
             "gloss": "without"
           },
           {
+            "pada": "narte",
+            "stem": "na + ṛte",
+            "morphology": "sandhi form (na + ṛte)",
+            "gloss": "without"
+          },
+          {
             "pada": "tvat",
             "stem": "tvam",
             "morphology": "abl sg pron",
@@ -537,6 +543,12 @@
             "gloss": "even"
           },
           {
+            "pada": "pi",
+            "stem": "api",
+            "morphology": "particle (apocope of api)",
+            "gloss": "even/also"
+          },
+          {
             "pada": "syāt",
             "stem": "as",
             "morphology": "3sg opt ind P",
@@ -560,6 +572,12 @@
             "stem": "api",
             "morphology": "indecl",
             "gloss": "at all"
+          },
+          {
+            "pada": "kasyāpi",
+            "stem": "kasya + api",
+            "morphology": "sandhi form (gen sg masc/neut pron + particle)",
+            "gloss": "for anyone at all"
           },
           {
             "pada": "hi",
@@ -813,6 +831,12 @@
             "gloss": "indeed"
           },
           {
+            "pada": "caiva",
+            "stem": "ca + eva",
+            "morphology": "sandhi form (particle + particle)",
+            "gloss": "and indeed"
+          },
+          {
             "pada": "jaḍeśvarabhidā",
             "stem": "jaḍeśvarabhidā",
             "morphology": "nom sg fem",
@@ -848,6 +872,12 @@
             "stem": "eva",
             "morphology": "indecl",
             "gloss": "indeed"
+          },
+          {
+            "pada": "caiva",
+            "stem": "ca + eva",
+            "morphology": "sandhi form (particle + particle)",
+            "gloss": "and indeed"
           },
           {
             "pada": "jaḍajīvabhidā",
@@ -1368,6 +1398,12 @@
             "gloss": "and"
           },
           {
+            "pada": "sādṛśyācca",
+            "stem": "sādṛśyāt + ca",
+            "morphology": "sandhi form (abl sg neut + particle)",
+            "gloss": "and from similarity"
+          },
+          {
             "pada": "pradhānatvāt",
             "stem": "pradhānatva",
             "pratyaya": "-āt",
@@ -1632,6 +1668,12 @@
             "gloss": "worshipful contemplation"
           },
           {
+            "pada": "tenopāsā",
+            "stem": "tena + upāsā",
+            "morphology": "sandhi form (inst sg neut pron + nom sg fem)",
+            "gloss": "thereby worshipful contemplation"
+          },
+          {
             "pada": "yadā",
             "stem": "yadā",
             "morphology": "indecl",
@@ -1654,6 +1696,12 @@
             "pada": "bhavet",
             "stem": "bhū",
             "morphology": "3sg opt ind P",
+            "gloss": "comes to be"
+          },
+          {
+            "pada": "bhaved",
+            "stem": "bhū",
+            "morphology": "3sg opt ind P (surface sandhi form of bhavet)",
             "gloss": "comes to be"
           },
           {
@@ -1775,7 +1823,7 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-translation-audit-opus",
+  "last_verified_by": "wave3-pada-fix-codex",
   "polemic_chain_ids": [
     "acintya-shakti-defense",
     "advaita-siddhi-replies",

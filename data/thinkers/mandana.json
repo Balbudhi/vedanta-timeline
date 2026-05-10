@@ -83,10 +83,10 @@
       "panini_breakdown": {
         "pada_analysis": [
           {
-            "pada": "tasmāt",
+            "pada": "tasmād",
             "stem": "tad",
             "pratyaya": "-smāt",
-            "morphology": "abl sg neut used adverbially",
+            "morphology": "abl sg neut used adverbially (surface sandhi of tasmāt before ātma-)",
             "gloss": "therefore, from this"
           },
           {
@@ -501,7 +501,7 @@
           {
             "pada": "na",
             "stem": "na",
-            "morphology": "indecl",
+            "morphology": "indecl; split from surface nāvidyā",
             "gloss": "not"
           },
           {
@@ -526,7 +526,7 @@
           {
             "pada": "na",
             "stem": "na",
-            "morphology": "indecl",
+            "morphology": "indecl; split from surface nārthāntaraṃ",
             "gloss": "not"
           },
           {
@@ -538,7 +538,7 @@
           {
             "pada": "na",
             "stem": "na",
-            "morphology": "indecl",
+            "morphology": "indecl; split from surface nātyantam",
             "gloss": "not"
           },
           {
@@ -556,14 +556,14 @@
           {
             "pada": "na",
             "stem": "na",
-            "morphology": "indecl",
+            "morphology": "indecl; split from surface nāpi",
             "gloss": "not"
           },
           {
             "pada": "api",
             "stem": "api",
-            "morphology": "indecl",
-            "gloss": "also, even"
+            "morphology": "particle; split from surface nāpi",
+            "gloss": "even/also"
           },
           {
             "pada": "satī",
@@ -580,13 +580,13 @@
           {
             "pada": "eva",
             "stem": "eva",
-            "morphology": "indecl",
-            "gloss": "indeed"
+            "morphology": "particle; split from surface eveyam",
+            "gloss": "only/just/itself"
           },
           {
             "pada": "iyam",
             "stem": "idam",
-            "morphology": "nom sg fem",
+            "morphology": "nom sg fem; split from surface eveyam",
             "gloss": "this"
           },
           {
@@ -644,10 +644,10 @@
             "gloss": "a member of practical transaction"
           },
           {
-            "pada": "tasmāt",
+            "pada": "tasmād",
             "stem": "tad",
             "pratyaya": "-smāt",
-            "morphology": "abl sg neut used adverbially",
+            "morphology": "abl sg neut used adverbially (surface sandhi of tasmāt before anirvacanīyā)",
             "gloss": "therefore"
           },
           {
@@ -665,14 +665,14 @@
           {
             "pada": "tu",
             "stem": "tu",
-            "morphology": "indecl",
-            "gloss": "however"
+            "morphology": "particle",
+            "gloss": "but"
           },
           {
             "pada": "kasya",
             "stem": "ka",
             "pratyaya": "-sya",
-            "morphology": "gen sg",
+            "morphology": "gen sg; split from surface kasyāvidyeti",
             "gloss": "of whom"
           },
           {
@@ -1062,8 +1062,14 @@
             "pada": "viniścitabrahmātmabhāvenāpi",
             "stem": "viniścitabrahmātmabhāva",
             "pratyaya": "-ena + api",
-            "morphology": "instr sg masc with indeclitic api",
-            "gloss": "even with the state of Brahman-self-identity being ascertained"
+            "morphology": "instr sg masc; surface sandhi-bundle of viniścitabrahmātmabhāvena + api",
+            "gloss": "with the state of Brahman-self-identity being ascertained"
+          },
+          {
+            "pada": "api",
+            "stem": "api",
+            "morphology": "particle",
+            "gloss": "even/also"
           },
           {
             "pada": "sādhanāni",
@@ -1170,7 +1176,7 @@
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-audit-fix-opus",
+  "last_verified_by": "wave3-pada-fix-codex",
   "polemic_chain_ids": [
     "bhaskara-pracchanna-bauddha",
     "kumarila-mandana-jnana-karma-samuccaya"

@@ -360,11 +360,18 @@
             "gloss": "just as"
           },
           {
-            "pada": "muñjāt",
+            "pada": "muñjād",
             "stem": "muñja",
             "pratyaya": "āt",
-            "morphology": "abl sg masc",
+            "morphology": "abl sg masc (surface stop-sandhi form)",
             "gloss": "from muñja grass"
+          },
+          {
+            "pada": "iveṣīkām",
+            "stem": "iva + iṣīkā",
+            "pratyaya": "— + ām",
+            "morphology": "particle + acc sg fem (sandhi form: iva + iṣīkām)",
+            "gloss": "like the inner fibre"
           },
           {
             "pada": "iva",
@@ -401,10 +408,10 @@
             "gloss": "drawn out, extracted"
           },
           {
-            "pada": "śarīratritayāt",
+            "pada": "śarīratritayād",
             "stem": "śarīratritaya",
             "pratyaya": "āt",
-            "morphology": "abl sg neut",
+            "morphology": "abl sg neut (surface stop-sandhi form)",
             "gloss": "from the triad of bodies"
           },
           {
@@ -602,10 +609,10 @@
             "gloss": "having left aside"
           },
           {
-            "pada": "kramāt",
+            "pada": "kramād",
             "stem": "krama",
             "pratyaya": "āt",
-            "morphology": "abl sg masc",
+            "morphology": "abl sg masc (surface stop-sandhi form)",
             "gloss": "step by step"
           },
           {
@@ -747,5 +754,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-translation-audit-opus"
+  "last_verified_by": "wave3-pada-fix-codex"
 }

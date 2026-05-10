@@ -997,32 +997,58 @@ function buildGlossaryRegex() {
 function openGlossary(termKey, anchorEl) {
   const entry = state.glossary.get(termKey);
   if (!entry) return;
-  // close any existing popover
-  document.querySelectorAll(".glossary-popover").forEach((el) => el.remove());
+  // close any existing popover + scrim
+  document.querySelectorAll(".glossary-popover, .gloss-scrim").forEach((el) => el.remove());
+  const isMobile = window.matchMedia("(max-width: 720px)").matches;
   const pop = document.createElement("div");
   pop.className = "glossary-popover";
   const perSchool = (entry.per_school || []).map((s) =>
     `<div class="gp-row"><span class="gp-school">${escape(s.school)}</span><span class="gp-def">${md(s.definition)}</span></div>`
   ).join("");
+  const translatorNote = entry.translator_note
+    ? `<div class="gp-translator"><span class="gp-label">Translator note</span><div>${md(entry.translator_note)}</div></div>`
+    : "";
   pop.innerHTML = `
     <button class="gp-close" aria-label="Close">×</button>
     <div class="gp-term">${escape(entry.term_iast || termKey)}</div>
     ${entry.literal ? `<div class="gp-literal">Literally: <em>${escape(entry.literal)}</em></div>` : ""}
-    <div class="gp-invariant"><span class="gp-label">Invariant</span><div>${md(entry.invariant_definition || "")}</div></div>
+    <div class="gp-invariant"><span class="gp-label">${entry.invariant_definition && entry.invariant_definition.toLowerCase().includes("no shared invariant") ? "No invariant" : "Invariant"}</span><div>${md(entry.invariant_definition || "")}</div></div>
     ${perSchool ? `<div class="gp-perschool"><span class="gp-label">By school</span>${perSchool}</div>` : ""}
+    ${translatorNote}
   `;
-  document.body.appendChild(pop);
-  const r = anchorEl.getBoundingClientRect();
-  pop.style.position = "fixed";
-  pop.style.top = (r.bottom + 8) + "px";
-  pop.style.left = Math.max(10, r.left) + "px";
-  pop.querySelector(".gp-close").addEventListener("click", () => pop.remove());
-  document.addEventListener("click", function once(e) {
-    if (!pop.contains(e.target) && e.target !== anchorEl) {
-      pop.remove();
-      document.removeEventListener("click", once);
+  let scrim = null;
+  if (isMobile) {
+    scrim = document.createElement("div");
+    scrim.className = "gloss-scrim";
+    document.body.appendChild(scrim);
+    document.body.appendChild(pop);
+    // mobile uses CSS-positioned fixed bottom-sheet (see style.css @media block)
+    scrim.addEventListener("click", () => closeGloss());
+  } else {
+    document.body.appendChild(pop);
+    const r = anchorEl.getBoundingClientRect();
+    pop.style.position = "fixed";
+    const popH = pop.offsetHeight || 240;
+    const placeBelow = (r.bottom + popH + 8) < window.innerHeight;
+    pop.style.top = (placeBelow ? r.bottom + 8 : Math.max(10, r.top - popH - 8)) + "px";
+    pop.style.left = Math.max(10, Math.min(r.left, window.innerWidth - 400)) + "px";
+  }
+  function closeGloss() {
+    pop.remove();
+    if (scrim) scrim.remove();
+    document.removeEventListener("click", outsideClose);
+    document.removeEventListener("keydown", escClose);
+  }
+  function outsideClose(e) {
+    if (!pop.contains(e.target) && e.target !== anchorEl && e.target !== scrim) {
+      closeGloss();
     }
-  });
+  }
+  function escClose(e) { if (e.key === "Escape") closeGloss(); }
+  pop.querySelector(".gp-close").addEventListener("click", closeGloss);
+  // defer outside-click handler to next tick so it doesn't fire on the opening click
+  setTimeout(() => document.addEventListener("click", outsideClose), 0);
+  document.addEventListener("keydown", escClose);
 }
 
 // ---------- markdown helpers -----------

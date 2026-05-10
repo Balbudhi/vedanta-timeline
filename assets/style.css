@@ -932,6 +932,16 @@ body.is-reading-mode .passage-card .english { font-size: 18px; }
 }
 .glossary-popover .gp-invariant { margin-bottom: 12px; }
 .glossary-popover .gp-perschool { border-top: 1px solid var(--rule); padding-top: 10px; }
+.glossary-popover .gp-translator {
+  margin-top: 14px;
+  border-top: 1px solid var(--rule);
+  padding-top: 10px;
+  background: #fffaf0;
+  margin-left: -20px; margin-right: -20px;
+  padding-left: 20px; padding-right: 20px; padding-bottom: 10px;
+  border-radius: 0 0 4px 4px;
+}
+.glossary-popover .gp-translator .gp-label { color: #92400e; }
 .glossary-popover .gp-row {
   margin: 6px 0;
   font-size: 13px;
@@ -952,6 +962,65 @@ body.is-reading-mode .passage-card .english { font-size: 18px; }
   text-decoration: none;
 }
 .term:hover { border-bottom-style: solid; }
+
+/* mobile: glossary popover becomes a centered bottom-sheet, not a positioned popover */
+@media (max-width: 720px) {
+  .glossary-popover {
+    position: fixed !important;
+    left: 0 !important;
+    right: 0 !important;
+    top: auto !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    border-radius: 14px 14px 0 0;
+    border: none;
+    border-top: 1px solid var(--rule);
+    box-shadow: 0 -8px 24px rgba(0,0,0,0.12);
+    padding: 22px 22px 32px;
+    max-height: 70vh;
+    overflow-y: auto;
+    font-size: 15px;
+    line-height: 1.6;
+    animation: gloss-slide-up 240ms cubic-bezier(.4,.0,.2,1);
+  }
+  .glossary-popover::before {
+    content: "";
+    display: block;
+    width: 36px; height: 4px;
+    background: var(--rule);
+    border-radius: 2px;
+    margin: -10px auto 14px;
+  }
+  .glossary-popover .gp-close {
+    top: 14px; right: 14px;
+    font-size: 24px;
+    width: 32px; height: 32px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .glossary-popover .gp-term { font-size: 22px; }
+  .glossary-popover .gp-row { font-size: 14px; }
+}
+@keyframes gloss-slide-up {
+  from { transform: translateY(100%); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+/* mobile: scrim behind the bottom sheet for tap-out-to-close */
+.gloss-scrim {
+  display: none;
+}
+@media (max-width: 720px) {
+  .gloss-scrim {
+    display: block;
+    position: fixed; inset: 0;
+    background: rgba(20,20,20,0.35);
+    z-index: 149;
+    animation: gloss-scrim-in 200ms ease;
+  }
+}
+@keyframes gloss-scrim-in {
+  from { opacity: 0; } to { opacity: 1; }
+}
 
 /* =============================================================
    READER MODAL (full-translation viewer)

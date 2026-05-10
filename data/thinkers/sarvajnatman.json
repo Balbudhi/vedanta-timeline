@@ -87,8 +87,8 @@
           {
             "pada": "eva",
             "stem": "eva",
-            "morphology": "indecl",
-            "gloss": "indeed, alone"
+            "morphology": "particle",
+            "gloss": "only/just/itself"
           },
           {
             "pada": "kevalā",
@@ -105,8 +105,8 @@
           {
             "pada": "hi",
             "stem": "hi",
-            "morphology": "indecl",
-            "gloss": "for"
+            "morphology": "particle",
+            "gloss": "for/indeed"
           },
           {
             "pada": "paścimaḥ",
@@ -117,7 +117,7 @@
           {
             "pada": "na",
             "stem": "na",
-            "morphology": "indecl",
+            "morphology": "indecl; split from surface nāśrayo",
             "gloss": "not"
           },
           {
@@ -135,14 +135,14 @@
           {
             "pada": "na",
             "stem": "na",
-            "morphology": "indecl",
+            "morphology": "indecl; split from surface nāpi",
             "gloss": "not"
           },
           {
             "pada": "api",
             "stem": "api",
-            "morphology": "indecl",
-            "gloss": "also"
+            "morphology": "particle; split from surface nāpi",
+            "gloss": "even/also"
           },
           {
             "pada": "gocaraḥ",
@@ -257,9 +257,9 @@
             "gloss": "attains, goes to"
           },
           {
-            "pada": "tadvat",
+            "pada": "tadvad",
             "stem": "tadvat",
-            "morphology": "indecl",
+            "morphology": "indecl; sandhi form of tadvat",
             "gloss": "likewise"
           },
           {
@@ -434,7 +434,7 @@
           {
             "pada": "ca",
             "stem": "ca",
-            "morphology": "indecl",
+            "morphology": "particle",
             "gloss": "and"
           },
           {
@@ -492,10 +492,10 @@
             "gloss": "in the meaning of 'tvam'"
           },
           {
-            "pada": "api",
+            "pada": "pi",
             "stem": "api",
-            "morphology": "indecl",
-            "gloss": "also"
+            "morphology": "particle; apocope of api",
+            "gloss": "even/also"
           },
           {
             "pada": "catuṣṭayam",
@@ -572,7 +572,7 @@
           {
             "pada": "ca",
             "stem": "ca",
-            "morphology": "indecl",
+            "morphology": "particle",
             "gloss": "and"
           }
         ],
@@ -714,9 +714,9 @@
             "gloss": "here, in this case"
           },
           {
-            "pada": "tadvat",
+            "pada": "tadvad",
             "stem": "tadvat",
-            "morphology": "indecl",
+            "morphology": "indecl; sandhi form of tadvat",
             "gloss": "likewise"
           },
           {
@@ -842,7 +842,7 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-translation-audit-opus",
+  "last_verified_by": "wave3-pada-fix-codex",
   "polemic_chain_ids": [
     "mayavada-khandana",
     "saptavidhanupapatti"

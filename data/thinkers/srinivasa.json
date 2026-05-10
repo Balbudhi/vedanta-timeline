@@ -88,6 +88,12 @@
             "gloss": "connected"
           },
           {
+            "pada": "yatrānvitaḥ",
+            "stem": "yatra + anvita",
+            "morphology": "sandhi form (yatra + anvitaḥ); indecl + nom sg masc ppp",
+            "gloss": "connected with which"
+          },
+          {
             "pada": "śrutigaṇaḥ",
             "stem": "śrutigaṇa",
             "pratyaya": "a",
@@ -527,6 +533,12 @@
             "gloss": "this"
           },
           {
+            "pada": "nāyaṃ",
+            "stem": "na + ayam",
+            "morphology": "sandhi form (na + ayam); indecl + nom sg masc pron",
+            "gloss": "this is not"
+          },
+          {
             "pada": "jīvaḥ",
             "stem": "jīva",
             "pratyaya": "a",
@@ -538,6 +550,13 @@
             "stem": "śrīpuruṣottama",
             "pratyaya": "a",
             "morphology": "abl sg masc",
+            "gloss": "from Śrī Puruṣottama"
+          },
+          {
+            "pada": "śrīpuruṣottamād",
+            "stem": "śrīpuruṣottama",
+            "pratyaya": "a",
+            "morphology": "abl sg masc; final -t > -d by sandhi before following vowel",
             "gloss": "from Śrī Puruṣottama"
           },
           {
@@ -557,6 +576,12 @@
             "stem": "api",
             "morphology": "indecl",
             "gloss": "also"
+          },
+          {
+            "pada": "nāpy",
+            "stem": "na + api",
+            "morphology": "sandhi form (na + api); indecl + particle",
+            "gloss": "nor also"
           },
           {
             "pada": "atyantābhinnaḥ",
@@ -594,6 +619,12 @@
             "pada": "hi",
             "stem": "hi",
             "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "hy",
+            "stem": "hi",
+            "morphology": "particle; sandhi form of hi before vowel",
             "gloss": "indeed"
           },
           {
@@ -786,5 +817,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-translation-audit-opus"
+  "last_verified_by": "wave3-pada-fix-codex"
 }

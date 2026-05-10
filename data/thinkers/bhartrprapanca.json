@@ -263,28 +263,16 @@
             "gloss": "and"
           },
           {
-            "pada": "na",
-            "stem": "na",
-            "morphology": "indecl",
-            "gloss": "not"
+            "pada": "neti",
+            "stem": "na + iti",
+            "morphology": "quoted indecl sandhi form",
+            "gloss": "not this / not thus"
           },
           {
-            "pada": "iti",
-            "stem": "iti",
-            "morphology": "indecl",
-            "gloss": "thus"
-          },
-          {
-            "pada": "na",
-            "stem": "na",
-            "morphology": "indecl",
-            "gloss": "not"
-          },
-          {
-            "pada": "iti",
-            "stem": "iti",
-            "morphology": "indecl",
-            "gloss": "thus"
+            "pada": "neti",
+            "stem": "na + iti",
+            "morphology": "quoted indecl sandhi form",
+            "gloss": "not this / not thus"
           }
         ],
         "samasa_vigrahas": [
@@ -354,16 +342,10 @@
             "gloss": "I"
           },
           {
-            "pada": "brahma",
-            "stem": "brahman",
-            "morphology": "nom sg neut",
-            "gloss": "Brahman"
-          },
-          {
-            "pada": "asmi",
-            "stem": "as",
-            "morphology": "1sg pres ind P",
-            "gloss": "am"
+            "pada": "brahmāsmi",
+            "stem": "brahman + as",
+            "morphology": "1sg pres ind P sandhi form",
+            "gloss": "am Brahman"
           },
           {
             "pada": "atha",
@@ -402,9 +384,9 @@
             "gloss": "other"
           },
           {
-            "pada": "asau",
+            "pada": "sāv",
             "stem": "adas",
-            "morphology": "nom sg masc",
+            "morphology": "nom sg masc (surface avagraha-sandhi form)",
             "gloss": "that one"
           },
           {
@@ -420,16 +402,10 @@
             "gloss": "I"
           },
           {
-            "pada": "asmi",
-            "stem": "as",
-            "morphology": "1sg pres ind P",
-            "gloss": "am"
-          },
-          {
-            "pada": "iti",
-            "stem": "iti",
-            "morphology": "indecl",
-            "gloss": "thus"
+            "pada": "asmīti",
+            "stem": "asmi + iti",
+            "morphology": "quoted finite form",
+            "gloss": "'I am,' thus"
           },
           {
             "pada": "na",
@@ -663,5 +639,5 @@
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-deep-engagement-opus"
+  "last_verified_by": "wave3-pada-fix-codex"
 }

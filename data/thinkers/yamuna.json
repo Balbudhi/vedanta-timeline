@@ -274,10 +274,10 @@
             "gloss": "because of being an object of knowledge"
           },
           {
-            "pada": "padārthatvāt",
+            "pada": "padārthatvād",
             "stem": "padārthatva",
             "pratyaya": "tasil",
-            "morphology": "abl sg neut",
+            "morphology": "abl sg neut (surface sandhi of padārthatvāt before gh-)",
             "gloss": "because of being a real entity/thing"
           },
           {
@@ -309,6 +309,12 @@
             "stem": "eka",
             "morphology": "instr sg masc",
             "gloss": "by one"
+          },
+          {
+            "pada": "ekenābhiṣṭhitāḥ",
+            "stem": "ekena + abhiṣṭhita",
+            "morphology": "sandhi-bundle of instr sg masc + nom pl masc past passive participle",
+            "gloss": "presided over by one"
           },
           {
             "pada": "abhiṣṭhitāḥ",
@@ -365,9 +371,9 @@
             "gloss": "world"
           },
           {
-            "pada": "cetanācetanātmatvāt",
+            "pada": "cetanācetanātmatvād",
             "stem": "cetana-acetana-ātmatva",
-            "morphology": "abl sg neut",
+            "morphology": "abl sg neut (surface sandhi of cetanācetanātmatvāt before ekarājakadeśavat)",
             "gloss": "because of consisting of conscious and non-conscious factors"
           },
           {
@@ -514,7 +520,7 @@
       "transcription_verified_by": "wave2-codex",
       "entry_status": "reviewed",
       "last_verified_at": "2026-05-09",
-      "last_verified_by": "wave2-codex"
+      "last_verified_by": "wave3-pada-fix-codex"
     },
     {
       "passage_id": "samvitsiddhi-31-35__advitiya-not-world-negation",
@@ -582,6 +588,12 @@
             "gloss": "also"
           },
           {
+            "pada": "cāpy",
+            "stem": "ca + api",
+            "morphology": "sandhi-bundle of particle + particle (api in apocope form)",
+            "gloss": "and also"
+          },
+          {
             "pada": "anumoditaḥ",
             "stem": "anu-mud",
             "morphology": "nom sg masc past passive participle",
@@ -610,6 +622,12 @@
             "stem": "iti",
             "morphology": "indeclinable",
             "gloss": "thus"
+          },
+          {
+            "pada": "brahmeti",
+            "stem": "brahma + iti",
+            "morphology": "sandhi-bundle of nom sg neut + quotative particle",
+            "gloss": "\"Brahman\" thus"
           },
           {
             "pada": "śruteḥ",
@@ -654,6 +672,12 @@
             "gloss": "was"
           },
           {
+            "pada": "nāsīd",
+            "stem": "na + āsīt",
+            "morphology": "sandhi-bundle of negative particle + 3sg imperfect ind P",
+            "gloss": "was not"
+          },
+          {
             "pada": "asti",
             "stem": "as",
             "morphology": "3sg pres ind P",
@@ -694,6 +718,12 @@
             "stem": "idam",
             "morphology": "gen sg neut",
             "gloss": "to it, of it"
+          },
+          {
+            "pada": "vāsya",
+            "stem": "vā + asya",
+            "morphology": "sandhi-bundle of particle + gen sg neut pronoun",
+            "gloss": "or of it"
           },
           {
             "pada": "yaḥ",
@@ -851,7 +881,7 @@
       "transcription_verified_by": "wave2-codex",
       "entry_status": "reviewed",
       "last_verified_at": "2026-05-09",
-      "last_verified_by": "wave2-codex"
+      "last_verified_by": "wave3-pada-fix-codex"
     },
     {
       "passage_id": "stotra-ratna-22-24__prapatti-from-helplessness",
@@ -1075,6 +1105,12 @@
             "gloss": "in front"
           },
           {
+            "pada": "tavāgre",
+            "stem": "tava + agre",
+            "morphology": "sandhi-bundle of gen sg pronoun + loc sg neut",
+            "gloss": "before you"
+          },
+          {
             "pada": "nimajjataḥ",
             "stem": "ni-majj",
             "morphology": "gen sg masc present participle",
@@ -1121,6 +1157,12 @@
             "stem": "as",
             "morphology": "2sg pres ind P",
             "gloss": "you are"
+          },
+          {
+            "pada": "ivāsi",
+            "stem": "iva + asi",
+            "morphology": "sandhi-bundle of particle + 2sg pres ind P",
+            "gloss": "are like"
           },
           {
             "pada": "labdhaḥ",
@@ -1341,12 +1383,12 @@
       "transcription_verified_by": "wave2-codex",
       "entry_status": "reviewed",
       "last_verified_at": "2026-05-09",
-      "last_verified_by": "wave2-codex"
+      "last_verified_by": "wave3-pada-fix-codex"
     }
   ],
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-translation-audit-opus"
+  "last_verified_by": "wave3-pada-fix-codex"
 }

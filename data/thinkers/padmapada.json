@@ -96,14 +96,14 @@
           {
             "pada": "mithyeti",
             "stem": "mithyā + iti",
-            "morphology": "indecl",
+            "morphology": "indecl; sandhi of mithyā + iti",
             "gloss": "\"mithyā\" thus"
           },
           {
             "pada": "anirvacanīyatocyate",
             "stem": "anirvacanīyatā + √vac",
             "pratyaya": "-tā; -ya-te",
-            "morphology": "3sg pres ind Ā passive",
+            "morphology": "3sg pres ind Ā passive; sandhi of anirvacanīyatā + ucyate",
             "gloss": "indefinability is stated"
           },
           {
@@ -134,7 +134,7 @@
             "pada": "jñānaparyudāsenocyate",
             "stem": "jñāna-paryudāsa + √vac",
             "pratyaya": "-ena; -ya-te",
-            "morphology": "3sg pres ind Ā passive",
+            "morphology": "3sg pres ind Ā passive; sandhi of jñānaparyudāsena + ucyate",
             "gloss": "is stated by exclusion of knowledge"
           },
           {
@@ -189,7 +189,7 @@
             "pada": "atrocyate",
             "stem": "atra + √vac",
             "pratyaya": "-ya-te",
-            "morphology": "3sg pres ind Ā passive",
+            "morphology": "3sg pres ind Ā passive; sandhi of atra + ucyate",
             "gloss": "here it is said"
           },
           {
@@ -536,16 +536,10 @@
             "gloss": "thou"
           },
           {
-            "pada": "asi",
-            "stem": "√as",
-            "morphology": "2sg pres ind P",
-            "gloss": "art"
-          },
-          {
-            "pada": "iti",
-            "stem": "iti",
-            "morphology": "indecl",
-            "gloss": "thus"
+            "pada": "asīti",
+            "stem": "√as + iti",
+            "morphology": "2sg pres ind P + quotative particle; sandhi of asi + iti",
+            "gloss": "\"you are\" thus"
           },
           {
             "pada": "syāt",
@@ -572,16 +566,10 @@
             "gloss": "thou"
           },
           {
-            "pada": "asi",
-            "stem": "√as",
-            "morphology": "2sg pres ind P",
-            "gloss": "art"
-          },
-          {
-            "pada": "iti",
-            "stem": "iti",
-            "morphology": "indecl",
-            "gloss": "thus"
+            "pada": "asīti",
+            "stem": "√as + iti",
+            "morphology": "2sg pres ind P + quotative particle; sandhi of asi + iti",
+            "gloss": "\"you are\" thus"
           },
           {
             "pada": "bhavet",
@@ -602,22 +590,10 @@
             "gloss": "silver"
           },
           {
-            "pada": "asti",
-            "stem": "√as",
-            "morphology": "3sg pres ind P",
-            "gloss": "is"
-          },
-          {
-            "pada": "iti",
-            "stem": "iti",
-            "morphology": "indecl",
-            "gloss": "thus"
-          },
-          {
-            "pada": "vat",
-            "stem": "vat",
-            "morphology": "indecl",
-            "gloss": "like"
+            "pada": "astītivat",
+            "stem": "√as + iti + vat",
+            "morphology": "3sg pres ind P + quotative particle + indecl comparative; sandhi of asti + iti + vat",
+            "gloss": "like [the expression] \"it is\""
           }
         ],
         "samasa_vigrahas": [],
@@ -692,5 +668,5 @@
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-translation-audit-opus"
+  "last_verified_by": "wave3-pada-fix-codex"
 }

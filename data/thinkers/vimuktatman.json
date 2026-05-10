@@ -241,10 +241,10 @@
             "gloss": "indeterminable in speech"
           },
           {
-            "pada": "avidyā",
+            "pada": "avidyocyate",
             "stem": "avidyā",
             "pratyaya": "ā",
-            "morphology": "nom sg fem",
+            "morphology": "nom sg fem; in sandhi with following ucyate",
             "gloss": "ignorance"
           },
           {
@@ -373,10 +373,10 @@
             "gloss": "rather / again"
           },
           {
-            "pada": "avācyā",
+            "pada": "avācyeti",
             "stem": "avācya",
             "pratyaya": "ṇyat",
-            "morphology": "nom sg fem",
+            "morphology": "nom sg fem; in sandhi with following iti",
             "gloss": "simply unsayable"
           },
           {
@@ -515,9 +515,9 @@
             "gloss": "whatever extent / whatever"
           },
           {
-            "pada": "kiñcit",
+            "pada": "kiñcid",
             "stem": "kimcit",
-            "morphology": "nom sg neut pron",
+            "morphology": "nom sg neut pron; sandhi form before bh-",
             "gloss": "anything at all"
           },
           {
@@ -692,9 +692,9 @@
       "panini_breakdown": {
         "pada_analysis": [
           {
-            "pada": "tasmāt",
+            "pada": "tasmād",
             "stem": "tad",
-            "morphology": "abl sg pron",
+            "morphology": "abl sg pron; sandhi form before vowel",
             "gloss": "therefore"
           },
           {
@@ -704,10 +704,10 @@
             "gloss": "in the Self"
           },
           {
-            "pada": "eva",
+            "pada": "evāvidyā",
             "stem": "eva",
-            "morphology": "indecl",
-            "gloss": "alone"
+            "morphology": "particle; in sandhi with following avidyā",
+            "gloss": "only / alone"
           },
           {
             "pada": "avidyā",
@@ -741,9 +741,9 @@
             "gloss": "not"
           },
           {
-            "pada": "tu",
+            "pada": "tv",
             "stem": "tu",
-            "morphology": "indecl",
+            "morphology": "particle (apocope before following vowel)",
             "gloss": "but"
           },
           {
@@ -759,9 +759,9 @@
             "gloss": "in a non-self"
           },
           {
-            "pada": "ca",
+            "pada": "ceti",
             "stem": "ca",
-            "morphology": "indecl",
+            "morphology": "particle; in sandhi with following iti",
             "gloss": "and"
           },
           {
@@ -1061,5 +1061,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-translation-audit-opus"
+  "last_verified_by": "wave3-pada-fix-codex"
 }
