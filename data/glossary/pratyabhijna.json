@@ -10,23 +10,257 @@
     "pratyabhijñānam"
   ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus",
+  "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "Recognition, in ordinary Sanskrit epistemic usage, is the cognition \"this is that very one\" formed through the conjunction of present awareness and prior trace. Kashmir Śaivism radicalizes that familiar structure into its central soteriological concept. Liberation is not the production of a new object nor the arrival of consciousness at something external to itself; it is the recognition that the finite knower was always Śiva. The term therefore sits on technical scaffolding supplied by ordinary theories of recognition, memory, and self-awareness. Its force in Trika lies in the claim that the self's contraction is a condition of non-recognition, not a loss of its real nature. Because of that, *pratyabhijñā* also resists overly impersonal descriptions of liberation: what is recovered is not blank witnesshood alone but the self-aware, agentive, and expressive \"I\" of consciousness in its unrestricted form. The term is thus more exact than the simple gloss \"realization.\"",
   "per_school": [
     {
-      "school": "Epistemic background",
-      "definition": "In ordinary philosophical usage, *pratyabhijñā* is recognition-cognition: the judgment that a presently encountered object is identical with one encountered before. That background matters because the Trika school deliberately lifts this familiar structure into metaphysics. The model is not acquisition of a new datum, but the re-cognition of what was already there but unacknowledged.",
+      "school": "Advaita",
+      "definition": "In Advaita, pratyabhijñāna is an admissible identity-cognition by which one and the same Brahman is re-identified across scriptural passages even when the relational expression changes, so that differing upadeśas do not force a second referent (cite://sankara/brahma-sutra-bhasya/1.1.27). Śaṅkara likewise says that the very same supreme puruṣa is recognized again under a later description, which shows that pratyabhijñā belongs to ascertainment of an already-given vastu rather than production of something new (cite://sankara/brahma-sutra-bhasya/1.3.13).",
       "primary_loci": [
-        "[NOT YET RETRIEVED]"
+        "Śaṅkara, Brahma-Sūtra-Bhāṣya 1.1.27",
+        "Śaṅkara, Brahma-Sūtra-Bhāṣya 1.3.13"
+      ],
+      "citations": [
+        {
+          "cite": "cite://sankara/brahma-sutra-bhasya/1.1.27",
+          "locus_short": "BSBh 1.1.27"
+        },
+        {
+          "cite": "cite://sankara/brahma-sutra-bhasya/1.3.13",
+          "locus_short": "BSBh 1.3.13"
+        }
+      ]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Rāmānuja treats the paradigm 'so 'yaṃ devadattaḥ' as a genuine cognition of one entity qualified by past and present relations, not as a forced lakṣaṇā that strips both terms down to a featureless core (cite://ramanuja/vedartha-samgraha/25). Accordingly, recognition for Viśiṣṭādvaita proceeds through prakāra-identity, and Rāmānuja deploys that structure to explain sāmānādhikaraṇya without conceding nirviśeṣa-vāda (cite://ramanuja/vedartha-samgraha/63).",
+      "primary_loci": [
+        "Rāmānuja, Vedārtha-Saṅgraha 25",
+        "Rāmānuja, Vedārtha-Saṅgraha 63"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/25",
+          "locus_short": "VedS 25"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/63",
+          "locus_short": "VedS 63"
+        }
+      ]
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "Tattva-vāda treats pratyabhijñā as evidence for the stability of entities, since Madhva explicitly appeals to what is recognized in experience to block a universal kṣaṇika reading of things (cite://madhva/anuvyakhyana/2.2.184). He also grants pratyabhijñā pramāṇa-status in its own right, as a cognition spanning past and present and therefore irreducible to a merely present-bound perception (cite://madhva/anuvyakhyana/3.2.82).",
+      "primary_loci": [
+        "Madhva, Anuvyākhyāna 2.2.184",
+        "Madhva, Anuvyākhyāna 3.2.82"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/anuvyakhyana/2.2.184",
+          "locus_short": "AnuVy 2.2.184"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/3.2.82",
+          "locus_short": "AnuVy 3.2.82"
+        }
+      ]
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Bhāskara, Brahma-Sūtra-Bhāṣya [no on-disk primary available here]",
+        "Yādava-Prakāśa, lost Brahma-Sūtra commentary"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "In the Gauḍīya register represented by Jīva Gosvāmī, pratyabhijñā is not an impersonal collapse into nirviśeṣa-brahman but the bhakta's re-cognition of Bhagavān as the very paraṃ ātma-tattva now manifest before awareness (cite://jiva-gosvami/sat-sandarbha/line-3532). The same passage makes recognition inseparable from rati, since mere cognition is said not to suffice unless it flowers into affective relation toward that recognized Bhagavān (cite://jiva-gosvami/sat-sandarbha/line-3532).",
+      "primary_loci": [
+        "Jīva Gosvāmī, Sat-Sandarbha, line 3532"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/line-3532",
+          "locus_short": "SatS 3532"
+        }
+      ]
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [
+        "Nimbārka, Vedānta-Pārijāta-Saurabha (searched)",
+        "Nimbārka, Daśa-Ślokī (searched)"
+      ],
+      "citations": [],
+      "not_applicable_reason": "No substantive school-specific treatment of pratyabhijñā was located in the available Nimbārka corpus on disk; in the searched materials the term does not function as a technical category of the school."
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [
+        "Vallabha, Aṇu-Bhāṣya (searched)"
+      ],
+      "citations": [],
+      "not_applicable_reason": "No substantive school-specific treatment of pratyabhijñā was located in the available Vallabha materials on disk; in the searched corpus the term does not appear as a technical item of Śuddhādvaita."
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā (searched)",
+        "Sāṃkhya-Sūtra (searched)"
+      ],
+      "citations": [],
+      "not_applicable_reason": "In the available Sāṃkhya-Kārikā and Sāṃkhya-Sūtra materials on disk, pratyabhijñā does not appear as a distinct technical category or school-defining topic."
+    },
+    {
+      "school": "Yoga",
+      "definition": "Yoga does not name pratyabhijñā in the sūtra itself, but the dharmī of YS 3.14 is enduring precisely because Vyāsa appeals to vastupratyabhijñāna to show that changing dharmas still belong to one anvayin (cite://patanjali/yoga-sutra/3.14 cite://vyasa/yoga-bhasya/3.14). Recognition here functions as evidence that transformation is bhāvānyathātva rather than dravyānyathātva, since the same thing is re-identified through temporal variation (cite://vyasa/yoga-bhasya/3.14).",
+      "primary_loci": [
+        "Yoga-Sūtra 3.14",
+        "Vyāsa-Bhāṣya on Yoga-Sūtra 3.14"
+      ],
+      "citations": [
+        {
+          "cite": "cite://patanjali/yoga-sutra/3.14",
+          "locus_short": "YS 3.14"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/3.14",
+          "locus_short": "YBh 3.14"
+        }
+      ]
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "Nyāya-Vaiśeṣika treats pratyabhijñā as a distinct present cognition assisted by saṃskāra, paradigmatically 'so 'yaṃ devadattaḥ,' and not as bare smṛti (cite://annambhatta/tarka-sangraha-comm/recognition-devadatta). It also uses recognition to secure a single self across different sensory episodes, as in 'yo 'ham adrākṣaṃ so 'ham idānīṃ spṛśāmi,' which would be impossible on an indriya-self theory (cite://annambhatta/tarka-sangraha-comm/recognition-cross-modal).",
+      "primary_loci": [
+        "Annambhaṭṭa, Tarka-Saṅgraha-Dīpikā on pratyabhijñā",
+        "Annambhaṭṭa, Tarka-Saṅgraha-Dīpikā on cross-modal recognition"
+      ],
+      "citations": [
+        {
+          "cite": "cite://annambhatta/tarka-sangraha-comm/recognition-devadatta",
+          "locus_short": "TSaṅgComm, pratyabhijñā"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha-comm/recognition-cross-modal",
+          "locus_short": "TSaṅgComm, cross-modal"
+        }
+      ]
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "Pūrva-Mīmāṃsā uses pratyabhijñā to defend the re-identification of the same word across repeated utterances, and Śabara explicitly insists that competent speakers apprehend 'sa evāyam' rather than mere similarity (cite://shabara/mimamsa-sutra-bhasya/1.1.20). Later Mīmāṃsā extends the same recognition-structure to ritual exegesis, where karmābheda can be maintained across śākhā-variation by ananyathāsiddha-rūpa-pratyabhijñā (cite://madhava/jaimini-nyaya-mala/2.4.3-4).",
+      "primary_loci": [
+        "Śabara-Bhāṣya on Mīmāṃsā-Sūtra 1.1.20",
+        "Mādhava, Jaiminīya-Nyāya-Mālā 2.4.3-4"
+      ],
+      "citations": [
+        {
+          "cite": "cite://shabara/mimamsa-sutra-bhasya/1.1.20",
+          "locus_short": "ŚBh on MS 1.1.20"
+        },
+        {
+          "cite": "cite://madhava/jaimini-nyaya-mala/2.4.3-4",
+          "locus_short": "JNM 2.4.3-4"
+        }
+      ]
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [
+        "Nāgārjuna, Mūla-Madhyamaka-Kārikā (searched)",
+        "Nāgārjuna, Vigraha-Vyāvartanī (searched)",
+        "Candrakīrti, Madhyamakāvatāra (searched)"
+      ],
+      "citations": [],
+      "not_applicable_reason": "In the available Nāgārjuna and Candrakīrti texts on disk, pratyabhijñā does not function as a positive technical category of the school; no substantive school-owned treatment was located."
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "Dharmakīrti treats pratyabhijñāna critically, arguing that moment-to-moment difference blocks any genuine recognition of a numerically identical viśeṣa (cite://dharmakirti/pramana-varttika/2.118). Accordingly, the judgment 'sa evāyam' is denied as a perception of strict identity and is explained instead through memory and superimposition, so pratyabhijñā cannot establish enduring unity of varṇa or object (cite://dharmakirti/pramana-varttika/2.505-506).",
+      "primary_loci": [
+        "Dharmakīrti, Pramāṇavārttika 2.118",
+        "Dharmakīrti, Pramāṇavārttika 2.505-506"
+      ],
+      "citations": [
+        {
+          "cite": "cite://dharmakirti/pramana-varttika/2.118",
+          "locus_short": "PV 2.118"
+        },
+        {
+          "cite": "cite://dharmakirti/pramana-varttika/2.505-506",
+          "locus_short": "PV 2.505-506"
+        }
       ]
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "Utpaladeva and Abhinavagupta make *pratyabhijñā* the name of liberating knowledge. The finite subject recognizes itself as the very Śiva whose freedom, power, and consciousness seemed elsewhere located. This recognition is not mere memory, yet memory-structure helps explain it: one and the same consciousness is first dimly known under contraction and then explicitly known as unrestricted. The school uses that model to distinguish its path from both ritualism alone and from a purely witness-centered non-dualism.",
+      "definition": "For Utpaladeva, pratyabhijñā is the path itself: he opens the system by establishing that recognition and closes by saying that one attains siddhi through constant immersion in one's own Śiva-nature as thus recognized (cite://utpaladeva/isvara-pratyabhijna-karika/1.1.1 cite://utpaladeva/isvara-pratyabhijna-karika/4.16-17). He therefore grounds the entire soteriological extension of the term in a prior epistemic claim, since smṛti by itself does not disclose the prior object and recognition requires an enduring self-aware subject (cite://utpaladeva/isvara-pratyabhijna-karika/1.3.1-2). Kṣemarāja condenses the doctrine by declaring free Cit to be the cause of world-manifestation and the limited cognizer to be Cit under saṃkoca, so liberation is the recovery of that already-present identity rather than the production of something absent (cite://ksemaraja/pratyabhijna-hrdayam/1 cite://ksemaraja/pratyabhijna-hrdayam/4).",
       "primary_loci": [
-        "Īśvara-Pratyabhijñā-Kārikā 1.1.1-5",
-        "Pratyabhijñā-Hṛdaya 1-3"
+        "Īśvara-Pratyabhijñā-Kārikā 1.1.1",
+        "Īśvara-Pratyabhijñā-Kārikā 1.3.1-2",
+        "Īśvara-Pratyabhijñā-Kārikā 4.16-17",
+        "Pratyabhijñā-Hṛdaya 1",
+        "Pratyabhijñā-Hṛdaya 4"
+      ],
+      "citations": [
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/1.1.1",
+          "locus_short": "ĪPK 1.1.1"
+        },
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/1.3.1-2",
+          "locus_short": "ĪPK 1.3.1-2"
+        },
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/4.16-17",
+          "locus_short": "ĪPK 4.16-17"
+        },
+        {
+          "cite": "cite://ksemaraja/pratyabhijna-hrdayam/1",
+          "locus_short": "PH 1"
+        },
+        {
+          "cite": "cite://ksemaraja/pratyabhijna-hrdayam/4",
+          "locus_short": "PH 4"
+        }
       ]
+    },
+    {
+      "school": "Jainism",
+      "definition": "Jainism classifies pratyabhijñā among the parokṣa cognitions, alongside smṛti, tarka, anumāna, and āgama, rather than collapsing it into simple memory (cite://hemacandra/pramana-mimamsa/1.2.1-2). Hemacandra then uses pratyabhijñā polemically against kṣaṇikavāda, since recognition requires enough dravya-continuity for a previously encountered entity to be re-cognized as that very one (cite://hemacandra/pramana-mimamsa/1.2.4-8).",
+      "primary_loci": [
+        "Hemacandra, Pramāṇa-Mīmāṃsā 1.2.1-2",
+        "Hemacandra, Pramāṇa-Mīmāṃsā 1.2.4-8"
+      ],
+      "citations": [
+        {
+          "cite": "cite://hemacandra/pramana-mimamsa/1.2.1-2",
+          "locus_short": "PM 1.2.1-2"
+        },
+        {
+          "cite": "cite://hemacandra/pramana-mimamsa/1.2.4-8",
+          "locus_short": "PM 1.2.4-8"
+        }
+      ]
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Aṣṭādhyāyī [not on disk]",
+        "Mahābhāṣya [not on disk]",
+        "Vākyapadīya [not on disk]"
+      ],
+      "citations": []
     }
   ],
   "see_also": [
