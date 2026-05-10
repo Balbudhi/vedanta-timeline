@@ -14,7 +14,7 @@
     "shakti"
   ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54",
+  "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "Power, efficacy, or capacity belonging to something and explaining what it can do. The term ranges across several technical registers, and the depth of an entry depends on keeping those registers distinct. In semantics, *śakti* is a word's denotative power. In metaphysics and theology, it is a real efficacy belonging to a cause or to the divine. In Śākta and Kashmir Śaiva thought, *Śakti* can be spoken of as the very self-manifesting power of the absolute, inseparable from Śiva. In Gauḍīya Vaiṣṇava theology, *śakti* becomes a systematic taxonomy of the Lord's internal, marginal, and external powers. Across these uses, one recurrent issue is the relation between *śakti* and *śaktimat*, power and power-bearer: are they strictly identical, really distinct, inseparable, or analyzable only by scripture? A flat English rendering like \"energy\" obscures that the term often functions as a precise causal or theological category rather than a diffuse vital force.",
   "per_school": [
     {
@@ -129,33 +129,102 @@
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Sāṃkhya, *śakti* is first of all causal capacity: the cause brings forth only what it is competent to bring forth, and this thesis is one of the stock grounds for *satkāryavāda* [[SK 9](cite://isvarakrsna/samkhya-karika/9)]. The same vocabulary reappears negatively as *aśakti*, a formal division of the *pratyayasarga*, where incapacity is mapped through defects of the instruments and the buddhi-complex [[SK 46-49](cite://isvarakrsna/samkhya-karika/46-49)].",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 9",
+        "Sāṃkhya-Kārikā 46-49"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/9",
+          "locus_short": "SK 9"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/46-49",
+          "locus_short": "SK 46-49"
+        }
+      ]
     },
     {
       "school": "Yoga",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Yoga, *śakti* articulates the differentiated powers whose confusion makes experience possible: *puruṣa* is *dṛkśakti*, while buddhi is *darśanaśakti*, and bondage turns on their apparent ekātmatā [[YBh 2.6](cite://vyasa/yoga-bhasya/2.6)]. At the soteriological limit, kaivalya is the abiding of *citiśakti* in its own form once the guṇas have exhausted their purposiveness, while the siddhi-section can still speak locally of suspending an object's *grāhyaśakti* [[YBh 4.34](cite://vyasa/yoga-bhasya/4.34)][[YBh 3.21](cite://vyasa/yoga-bhasya/3.21)].",
+      "primary_loci": [
+        "Vyāsa-Bhāṣya on Yoga-Sūtra 2.6",
+        "Vyāsa-Bhāṣya on Yoga-Sūtra 4.34",
+        "Vyāsa-Bhāṣya on Yoga-Sūtra 3.21"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vyasa/yoga-bhasya/2.6",
+          "locus_short": "YBh 2.6"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/4.34",
+          "locus_short": "YBh 4.34"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/3.21",
+          "locus_short": "YBh 3.21"
+        }
+      ]
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Nyāya-Vaiśeṣika, *śakti* is canonically a word's denotative capacity: a *pada* is *śakta* when, by Īśvara's convention, a determinate meaning is to be understood from it [[TSa 59](cite://annambhatta/tarka-sangraha/59)]. In causal analysis, the same term marks the efficacy that underwrites regulated production, since otherwise no fixed inference from effect to cause could be sustained [[NKus 1.116-117](cite://udayana/nyaya-kusumanjali/1.116-117)]. Where overt factors do not suffice, Udayana is prepared to posit an *atīndriya śakti* in order to preserve that causal regulation against overgeneration and breakdown [[NKus 1.130](cite://udayana/nyaya-kusumanjali/1.130)].",
+      "primary_loci": [
+        "Tarka-Saṅgraha 59",
+        "Nyāya-Kusumāñjali 1.116-117",
+        "Nyāya-Kusumāñjali 1.130"
+      ],
+      "citations": [
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/59",
+          "locus_short": "TSa 59"
+        },
+        {
+          "cite": "cite://udayana/nyaya-kusumanjali/1.116-117",
+          "locus_short": "NKus 1.116-117"
+        },
+        {
+          "cite": "cite://udayana/nyaya-kusumanjali/1.130",
+          "locus_short": "NKus 1.130"
+        }
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Pūrva-Mīmāṃsā, *śakti* is the operative denotative capacity of words, not a surplus force lodged in the sentence as a whole. Śabara argues that words first denote their own *padārthas* and that the *vākyārtha* is then reached through those already-grasped padārthas, so no unseen *śakti* of the *padasamudāya* need be postulated [[ŚBh on MS 1.1.25-26](cite://sabara/mimamsa-bhasya/1.1.25-26)]. He likewise explains forms such as *gāvī* by derivative usage and resemblance to the established *go*-word, which is precisely to say that their apparent efficacy is secondary and *anurūpa* rather than grounded in an independent eternal word-meaning connection [[ŚBh on MS 1.3.28](cite://sabara/mimamsa-bhasya/1.3.28)].",
+      "primary_loci": [
+        "Śabara-Bhāṣya on Mīmāṃsā-Sūtra 1.1.25-26",
+        "Śabara-Bhāṣya on Mīmāṃsā-Sūtra 1.3.28"
+      ],
+      "citations": [
+        {
+          "cite": "cite://sabara/mimamsa-bhasya/1.1.25-26",
+          "locus_short": "ŚBh on MS 1.1.25-26"
+        },
+        {
+          "cite": "cite://sabara/mimamsa-bhasya/1.3.28",
+          "locus_short": "ŚBh on MS 1.3.28"
+        }
+      ]
     },
     {
       "school": "Mādhyamaka",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Mādhyamaka, *śakti* cannot survive ultimate analysis as an independently real productive potency. Candrakīrti argues that no such power can be found either in what is already arisen or in what is not yet arisen, and that appeal to an unmanifest future power simply generates mutual dependence and non-establishment [[MAv 6.57-58](cite://candrakirti/madhyamakavatara/6.57-58)]. If one then appeals to a ripened or transferred power, causal regularity collapses, since the door is opened to the thesis that anything could arise from anything [[MAv 6.59](cite://candrakirti/madhyamakavatara/6.59)].",
+      "primary_loci": [
+        "Madhyamakāvatāra 6.57-59"
+      ],
+      "citations": [
+        {
+          "cite": "cite://candrakirti/madhyamakavatara/6.57-58",
+          "locus_short": "MAv 6.57-58"
+        },
+        {
+          "cite": "cite://candrakirti/madhyamakavatara/6.59",
+          "locus_short": "MAv 6.59"
+        }
+      ]
     },
     {
       "school": "Yogācāra",
@@ -177,9 +246,26 @@
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Pratyabhijñā/Trika, *śakti* is not an external attribute but the Lord's own self-manifesting nature. Utpaladeva says that the determinative awareness 'this is a pot' is, beyond bare name and form, *pareśaśakti* itself appearing as the very Self rather than as an objectified 'this' [[ĪPK 1.5.20](cite://utpaladeva/isvara-pratyabhijna-karika/1.5.20)]. The same *anantaśakti* becomes the Lord's kriyā or *nirmātṛtā* in manifestation and, under contraction, appears as *vidyāśakti* and *māyāśakti* in the staging of finite experience [[ĪPK 2.4.1](cite://utpaladeva/isvara-pratyabhijna-karika/2.4.1)][[ĪPK 3.1.7-8](cite://utpaladeva/isvara-pratyabhijna-karika/3.1.7-8)].",
+      "primary_loci": [
+        "Īśvara-Pratyabhijñā-Kārikā 1.5.20",
+        "Īśvara-Pratyabhijñā-Kārikā 2.4.1",
+        "Īśvara-Pratyabhijñā-Kārikā 3.1.7-8"
+      ],
+      "citations": [
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/1.5.20",
+          "locus_short": "ĪPK 1.5.20"
+        },
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/2.4.1",
+          "locus_short": "ĪPK 2.4.1"
+        },
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/3.1.7-8",
+          "locus_short": "ĪPK 3.1.7-8"
+        }
+      ]
     },
     {
       "school": "Jainism",

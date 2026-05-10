@@ -15,7 +15,7 @@
     "vibhinnāṃśa"
   ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54",
+  "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "Part, portion, or share. In Vedānta the term becomes a controlled way of saying that a dependent reality belongs to *brahman* or Bhagavān without immediately collapsing into strict identity. It therefore sits beside *prakāra*, *śakti*, *apṛthak-siddhi*, and the many forms of *bhedābheda*. A major scriptural driver is *Bhagavad-Gītā* 15.7, *mamaivāṃśo jīvaloke jīvabhūtaḥ sanātanaḥ*: the eternal *jīva* is 'my very own *aṃśa*.' Schools then ask what sort of partness this can be. Is the self a literal part of the Lord, a mode inseparable from Him, a dependent energy, or only figuratively called a part because of similarity or subordination? Gauḍīya Vaiṣṇavas distinguish *svāṃśa* manifestations of Bhagavān from *vibhinnāṃśa* selves; Bhāskara reads partness through real transformation; Advaita refuses literal partness because *brahman* is partless; Tattva-vāda (the school often labeled Dvaita) rejects it because the *jīva* is eternally distinct. 'Part' is thus never enough by itself; one must specify the metaphysics of the whole.",
   "per_school": [
     {
@@ -120,57 +120,119 @@
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Sāṃkhya the manifest (*vyakta*) is expressly *sāvayava*, while the unmanifest source is its contrary; part-structure therefore belongs to produced multiplicity rather than to the causal equilibrium of *avyakta* [[SK 10](cite://isvarakrsna/samkhya-karika/10)]. The school's use of part-language is thus ontological rather than merely lexical: what is *hetumat*, *anekam*, *āśritam*, and *paratantra* is also what is composite, whereas the causal source is *niravayava* [[SK 10](cite://isvarakrsna/samkhya-karika/10)].",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 10"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/10",
+          "locus_short": "SK 10"
+        }
+      ]
     },
     {
       "school": "Yoga",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Vyāsa's analysis of *bhūtajaya*, *dravya* is a *samūha* carried by differentiated *avayava*s and *bhāga*s, and the yogin's *saṃyama* proceeds by penetrating this layered constitution of the elements [[YBh 3.44](cite://vyasa/yoga-bhasya/3.44)]. Part-language here is technical: both *yutasiddha* and *ayutasiddha* composites are distinguished, and even the atomic-tanmātric level is described through avayava-structure within the analysis of the bhūtas [[YBh 3.44](cite://vyasa/yoga-bhasya/3.44)].",
+      "primary_loci": [
+        "Vyāsa-Bhāṣya on Yoga-Sūtra 3.44"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vyasa/yoga-bhasya/3.44",
+          "locus_short": "YBh 3.44"
+        }
+      ]
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Nyāya refuses the reduction of perception to bare part-apprehension: although an opponent appeals to *ekadeśagrahaṇa*, the sūtras reply that the whole (*avayavin*) is real and is established precisely through such perception, as shown by support and traction [[NS 2.1.31-37](cite://aksapada/nyaya-sutra/2.1.31-37)]. Later Nyāya-Vaiśeṣika states the relation through *samavāya*: part and whole are *ayutasiddha*, since one member cannot remain as what it is apart from its inseparable dependence on the other [[Tarka-Saṅgraha 79](cite://annambhatta/tarka-sangraha/79)].",
+      "primary_loci": [
+        "Nyāya-Sūtra 2.1.31-37",
+        "Tarka-Saṅgraha 79"
+      ],
+      "citations": [
+        {
+          "cite": "cite://aksapada/nyaya-sutra/2.1.31-37",
+          "locus_short": "NS 2.1.31-37"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/79",
+          "locus_short": "Tarka-Saṅgraha 79"
+        }
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Pūrva-Mīmāṃsā, part-language functions hermeneutically within the preservation of *vākyaikya*: where multiple guṇas would otherwise fracture a unitary injunction, praise may proceed 'through a part to the whole' (*aṃśadvārā aṃśisaṃstutiḥ*) [[JNM 1.4.35](cite://madhava/jaimini-nyaya-mala/1.4.35)]. The point is not a free-standing mereology, but the control of *vākyabheda*: a subordinate feature can commend the principal rite without generating additional, independent enjoinments [[JNM 1.4.35](cite://madhava/jaimini-nyaya-mala/1.4.35)].",
+      "primary_loci": [
+        "Jaimini-Nyāya-Mālā 1.4.35"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhava/jaimini-nyaya-mala/1.4.35",
+          "locus_short": "JNM 1.4.35"
+        }
+      ]
     },
     {
       "school": "Mādhyamaka",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Nāgārjuna, *ekadeśa*-reasoning serves as a *prasaṅga* against mixed ontological predication: if something were divine in one part and human in another, or finite in one part and infinite in another, incompatible determinations would attach to a single supposed entity [[MMK 27.17-26](cite://nagarjuna/mula-madhyamaka-karika/27.17-26)]. The school's engagement with part-language is therefore aporetic: partition into portions cannot rescue *svabhāva* by distributing contrary states across the same thing [[MMK 27.17-26](cite://nagarjuna/mula-madhyamaka-karika/27.17-26)].",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 27.17-26"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/27.17-26",
+          "locus_short": "MMK 27.17-26"
+        }
+      ]
     },
     {
       "school": "Yogācāra",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Vasubandhu turns *aṃśa-bhāga* reasoning against atomism: if a paramāṇu can stand in simultaneous relation to six directions, it must have six parts, but once directional differentiation is admitted, strict atomic unity collapses [[Viṃśikā 12-14](cite://vasubandhu/vimsatika/12-14)]. The point is epistemological and ontological at once: divisibility shows that the imagined external atom cannot serve as the ultimately real basis of perceptual extension [[Viṃśikā 12-14](cite://vasubandhu/vimsatika/12-14)].",
+      "primary_loci": [
+        "Viṃśikā 12-14"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/vimsatika/12-14",
+          "locus_short": "Viṃśikā 12-14"
+        }
+      ]
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Kṣemarāja explains the contracted state of consciousness by saying that, even when veiled in māyā, *citi* still scorches and appropriates its object only 'by a part' (*aṃśena*), not yet through total reabsorption [[PH 14](cite://ksemaraja/pratyabhijna-hrdayam/14)]. Here *aṃśa* marks a limited manifestation of the one *cit-śakti*: contraction is partial self-assimilation within consciousness itself, not the severance of a detachable piece from an external whole [[PH 14](cite://ksemaraja/pratyabhijna-hrdayam/14)].",
+      "primary_loci": [
+        "Pratyabhijñāhṛdayam 14"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ksemaraja/pratyabhijna-hrdayam/14",
+          "locus_short": "PH 14"
+        }
+      ]
     },
     {
       "school": "Jainism",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Jain ontology articulates partness through *pradeśa* and *bhāga*: dharma, adharma, and each individual jīva possess innumerable spatial units, while pudgala is divisible into one, numerable, and innumerable regions [[TS, pradeśa section](cite://umasvati/tattvartha-sutra/pradesa-bhajya-pradipavat)]. The jīva's occupation of extension is then described by contraction and expansion of those pradeśas 'like a lamp', so part-structure is intrinsic to embodied substances without cancelling their persistence as dravyas [[TS, pradeśa section](cite://umasvati/tattvartha-sutra/pradesa-bhajya-pradipavat)].",
+      "primary_loci": [
+        "Tattvārtha-Sūtra, pradeśa-bhāga section (Chapter 5)"
+      ],
+      "citations": [
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/pradesa-bhajya-pradipavat",
+          "locus_short": "TS, pradeśa section"
+        }
+      ]
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",
-      "definition": "[NOT YET RETRIEVED]",
+      "definition": "NOT-APPLICABLE",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "not_applicable_reason": "The Pāṇinian-Vaiyākaraṇa tradition certainly uses technical notions such as *ekadeśa* in grammar, but *aṃśa* is not, in the present doctrinal sense, a school-defining metaphysical topic; and the requisite primary grammatical corpus is not on disk."
     }
   ],
   "see_also": [

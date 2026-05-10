@@ -3,37 +3,218 @@
   "term_iast": "kriyā",
   "term_devanagari": "क्रिया",
   "literal": "doing, performing, the verbal action itself; from √kṛ",
-  "aliases": ["kriya", "kriyā", "Kriyā", "kriyāyāḥ", "kriyāyām", "kriyayā", "kriyāḥ"],
+  "aliases": [
+    "kriya",
+    "kriyā",
+    "Kriyā",
+    "kriyāyāḥ",
+    "kriyāyām",
+    "kriyayā",
+    "kriyāḥ"
+  ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus",
+  "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "*Kriyā* names the verbal action itself — the dynamic process expressed by a finite verb — as distinct from its agent (*kartṛ*), instrument (*karaṇa*), or patient (*karman*/*kārya*). In Pāṇinian grammar a sentence is built around a *kriyā* whose role-relations are filled by the *kāraka*s; *kriyā* is therefore the relational center that the *kāraka*-roles surround. In ritual and Vedāntic discourse *kriyā* often picks out enjoined ritual performance under *codanā* (Pūrva-Mīmāṃsā) — but the term is broader, covering any process intelligible through agent-instrument-patient analysis. The *kriyā / kāraka / phala* triad shows how the Indian schools refused to treat 'action' as a primitive: every action is already a relational structure with its grammar and its causal residue. In Tantric and Śaiva contexts *kriyā* further names the *kriyā-pāda* of the Āgamas — the ritual-procedural section, contrasted with *jñāna-pāda* (doctrinal), *yoga-pāda* (meditative), and *caryā-pāda* (conduct). Vedāntic schools differ on whether *kriyā* in its ritual sense is co-instrumental in liberation (the *jñāna-karma-samuccaya* dispute), but they all accept the Pāṇinian grammatical analysis as the descriptive baseline for what an action is.",
   "per_school": [
     {
-      "school": "Pāṇinian grammar / Vyākaraṇa",
-      "definition": "*Kriyā* is the verbal action expressed by the finite verb (*tiṅanta*); the *kāraka* roles are its participants. Bhartṛhari's *Vākyapadīya* analyzes *kriyā* as a sequence (*krama*) of phases unified under a single *sādhya*; the apparently temporally-spread action is grasped as a single relational structure by the hearer's *pratibhā*.",
-      "primary_loci": ["Aṣṭādhyāyī 1.3.1ff (the *dhātu*-based action sense)", "Aṣṭādhyāyī 1.4.23 (*kārake*) introducing the role-frame", "Vākyapadīya 3.8 (Sādhana-Samuddeśa)", "Vākyapadīya 3.9 (Kriyā-Samuddeśa)"]
-    },
-    {
-      "school": "Pūrva-Mīmāṃsā",
-      "definition": "*Kriyā* is paradigmatically the Veda-enjoined ritual act, intelligible through *bhāvanā* (the productive force connecting *codanā* — the injunction — to *phala*, the result). Mīmāṃsā distinguishes *śabda-bhāvanā* (the urge-producing force of the verb-ending) from *artha-bhāvanā* (the act's own causal contribution). *Apūrva* is posited to bridge the temporally completed *kriyā* and its later *phala*.",
-      "primary_loci": ["Jaimini-Sūtra 2.1.1ff (the *karma*-section)", "Śabara-Bhāṣya on Jaimini-Sūtra 2.1.5 [NOT YET RETRIEVED]", "Kumārila, Tantra-Vārttika on bhāvanā [NOT YET RETRIEVED]"]
-    },
-    {
       "school": "Advaita",
-      "definition": "All *kriyā* presupposes the agent-object division (*kartṛtva-bhoktṛtva*) constituted under *avidyā*; therefore no *kriyā*, however elevated, can directly produce the unproduced — namely the *ātman*'s self-knowledge. *Kriyā* nevertheless serves as *citta-śuddhi-upāya*. Bhartṛhari's analysis is accepted descriptively: the verb-centred relational structure is the right account of what action is at the *vyāvahārika* level.",
-      "primary_loci": ["Bhagavad-Gītā-Bhāṣya 18.66", "Brahma-Sūtra-Bhāṣya 1.1.4 (*jñānam akriyā* arc)", "Naiṣkarmya-Siddhi 1"]
+      "definition": "In Advaita, kriyā belongs to the body-linga-self imagined through vāsanā and therefore cannot be predicated of the ātman disclosed by `neti neti`. (cite://sankara/upadesa-sahasri/I.11.14) Vedic and Smārta kriyā retain a preparatory place only insofar as they subserve ātmalābha; they are not co-instrumental with liberating knowledge. (cite://sankara/upadesa-sahasri/I.17.4)",
+      "primary_loci": [
+        "Upadeśa-Sāhasrī I.11.14",
+        "Upadeśa-Sāhasrī I.17.4"
+      ],
+      "citations": [
+        {
+          "cite": "cite://sankara/upadesa-sahasri/I.11.14",
+          "locus_short": "UpS I.11.14"
+        },
+        {
+          "cite": "cite://sankara/upadesa-sahasri/I.17.4",
+          "locus_short": "UpS I.17.4"
+        }
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Kriyā* — including ritual *kriyā* — is real and continues for the realized as *bhagavad-ārādhana*. Rejecting Advaita's *jñāna-karma-samuccaya-nirāsa*, Rāmānuja treats *kriyā* offered to the Lord as itself an aspect of *bhakti-yoga*.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§137–143", "Śrī-Bhāṣya 3.4.26–27"]
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     },
     {
-      "school": "Trika / Kashmir Śaivism",
-      "definition": "*Kriyā* is one of the three foundational *śakti*s of Śiva — *icchā* (will), *jñāna* (cognition), *kriyā* (action) — and is the energy through which differentiated manifestation actually unfolds. The Āgamic *kriyā-pāda* is correspondingly the ritual-procedural division. Crucially, *kriyā* is not a fall from *jñāna* but its enacted side; the realized *yogin*'s *spanda* itself is *kriyā-śakti* in undifferentiated freedom.",
-      "primary_loci": ["Tantrāloka 1.108ff (icchā-jñāna-kriyā triad)", "Īśvara-Pratyabhijñā-Kārikā 2.1.1ff [NOT YET RETRIEVED]", "Spanda-Kārikā 1.1–2"]
+      "school": "Tattva-vāda",
+      "definition": "In Tattva-vāda, no kriyā proceeds independently of Hari, and the very occurrence of action is read under divine dependence. (cite://madhva/anuvyakhyana/1.1.14) The same locus is deployed against the thesis that mokṣa could arise from jñāna-svabhāva alone, so kriyā and its fruit remain theistically governed rather than autonomous. (cite://madhva/anuvyakhyana/1.1.14)",
+      "primary_loci": [
+        "Anuvyākhyāna 1.1.14"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/anuvyakhyana/1.1.14",
+          "locus_short": "Anuvy. 1.1.14"
+        }
+      ]
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "In Sāṃkhya, kriyā marks the side of the vyakta: the manifest is characterized as `sakriya`, alongside being caused, impermanent, composite, and dependent. (cite://isvarakrsna/samkhya-karika/10) The school also uses ordinary `kriyāsu` as a teleological analogue for prakṛti's own pravṛtti, which proceeds for the sake of puruṣa's release. (cite://isvarakrsna/samkhya-karika/58)",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 10",
+        "Sāṃkhya-Kārikā 58"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/10",
+          "locus_short": "SK 10"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/58",
+          "locus_short": "SK 58"
+        }
+      ]
+    },
+    {
+      "school": "Yoga",
+      "definition": "In Yoga, `kriyā` first appears soteriologically as `kriyā-yoga`, namely tapas, svādhyāya, and īśvarapraṇidhāna. (cite://patanjali/yoga-sutra/2.1) It also appears cosmologically in the definition of the dṛśya as `prakāśa-kriyā-sthiti-śīla`, where activity names the rājasic moment within the guṇa-complex oriented to bhoga and apavarga. (cite://patanjali/yoga-sutra/2.18)",
+      "primary_loci": [
+        "Yoga-Sūtra 2.1",
+        "Yoga-Sūtra 2.18"
+      ],
+      "citations": [
+        {
+          "cite": "cite://patanjali/yoga-sutra/2.1",
+          "locus_short": "YS 2.1"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/2.18",
+          "locus_short": "YS 2.18"
+        }
+      ]
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "In Nyāya-Vaiśeṣika, kriyā is treated under the padārtha `karma`, enumerated as five motions: upward movement, downward movement, contraction, expansion, and locomotion. (cite://kanada/vaisesika-sutra/1.1.6) This karma is a distinct real inhering in a single substance and functioning as the cause of conjunction and disjunction. (cite://kanada/vaisesika-sutra/1.1.16)",
+      "primary_loci": [
+        "Vaiśeṣika-Sūtra 1.1.6",
+        "Vaiśeṣika-Sūtra 1.1.16"
+      ],
+      "citations": [
+        {
+          "cite": "cite://kanada/vaisesika-sutra/1.1.6",
+          "locus_short": "VS 1.1.6"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/1.1.16",
+          "locus_short": "VS 1.1.16"
+        }
+      ]
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "In Pūrva-Mīmāṃsā, dharma is the artha marked by codanā, so action is grasped under the regime of Vedic injunction rather than as a merely physical happening. (cite://jaimini/mimamsa-sutra/1.1.2) Śabara makes the point explicit by glossing codanā as speech that impels kriyā, with the agent seen saying `ācāryacoditaḥ karomi`. (cite://shabara/mimamsa-bhasya/1.1.2)",
+      "primary_loci": [
+        "Mīmāṃsā-Sūtra 1.1.2",
+        "Śabara-Bhāṣya on Mīmāṃsā-Sūtra 1.1.2"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/1.1.2",
+          "locus_short": "MS 1.1.2"
+        },
+        {
+          "cite": "cite://shabara/mimamsa-bhasya/1.1.2",
+          "locus_short": "ŚBh on MS 1.1.2"
+        }
+      ]
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "For Mādhyamaka, kriyā does not stand as an independently established entity either with conditions or without them. (cite://nagarjuna/mula-madhyamaka-karika/1.4) Accordingly, action belongs with agent, instrument, cause, effect, arising, cessation, and fruit among the dependently designated items whose svabhāva is denied. (cite://nagarjuna/mula-madhyamaka-karika/24.17)",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 1.4",
+        "Mūla-Madhyamaka-Kārikā 24.17"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/1.4",
+          "locus_short": "MMK 1.4"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.17",
+          "locus_short": "MMK 24.17"
+        }
+      ]
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "In Yogācāra, the decisive question is `kṛtyakriyā`, practical efficacy: without it, bare appearance could not count as an object. (cite://vasubandhu/vimsatika/2) Vasubandhu nevertheless argues that such efficacy can be established within consciousness-only, as dream-affection and hell-experience show, so kriyā need not secure external-object realism. (cite://vasubandhu/vimsatika/and Hell)",
+      "primary_loci": [
+        "Vimśatikā 2",
+        "Vimśatikā 4 (dream-efficacy / hell reply)"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/vimsatika/2",
+          "locus_short": "Vvs 2"
+        }
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "In Pratyabhijñā / Trika, kriyā is a śakti of consciousness itself: when cit contracts into the bound state, kriyā-śakti contracts from universal agency into limited doership. (cite://ksemaraja/pratyabhijna-hrdayam/9-vrtti) The same contraction yields the karmic field as `śubhāśubhānuṣṭānamayaṃ kārmaṃ malam`, so action is read as a diminished mode of Śiva's own svātantrya rather than as something external to consciousness. (cite://ksemaraja/pratyabhijna-hrdayam/9-vrtti)",
+      "primary_loci": [
+        "Pratyabhijñā-Hṛdayam, vṛtti on sūtra 9"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ksemaraja/pratyabhijna-hrdayam/9-vrtti",
+          "locus_short": "PH 9 vṛtti"
+        }
+      ]
+    },
+    {
+      "school": "Jainism",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     }
   ],
-  "see_also": ["karma", "kartr", "karana", "karya", "satkarya-vada", "spanda", "sakti"],
+  "see_also": [
+    "karma",
+    "kartr",
+    "karana",
+    "karya",
+    "satkarya-vada",
+    "spanda",
+    "sakti"
+  ],
   "translator_note": "'Action' for *kriyā* is acceptable but loses the verb-centred relational structure that Pāṇinian and Mīmāṃsā analysis presuppose. 'Process' is sometimes better. The standard mistranslation collapses *kriyā* and *karma* into a single English 'action,' whereas in technical Sanskrit they are distinct: *kriyā* is the verbal process; *karman* is the patient role within it (or, derivatively, the residue the action produces). Translators who flatten the distinction destroy the entire *kāraka*-grammar argument."
 }

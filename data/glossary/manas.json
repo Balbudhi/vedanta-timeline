@@ -3,37 +3,266 @@
   "term_iast": "manas",
   "term_devanagari": "मनस्",
   "literal": "thought-organ; from √man 'to think' (cognate with Latin *mens*, Greek *menos*, English 'mind')",
-  "aliases": ["manas", "Manas", "manasaḥ", "manasi", "manasā", "manaḥ"],
+  "aliases": [
+    "manas",
+    "Manas",
+    "manasaḥ",
+    "manasi",
+    "manasā",
+    "manaḥ"
+  ],
   "invariant_definition": "*Manas* is the coordinating and oscillating inner organ that gathers sensory data, attends, compares, doubts, imagines, and turns toward one option rather than another. It is therefore not equivalent to the whole of 'mind'. In the standard fourfold analysis, *manas* presents and wavers, *buddhi* determines, *ahaṅkāra* appropriates, and *citta* retains. Nyāya-Vaiśeṣika sharpens one side of this picture by treating *manas* as an atomic internal sense whose serial contact explains why cognitions occur one at a time; Yogācāra repurposes the term for a self-grasping consciousness in its own way. Vedānta usually preserves the Sāṃkhya-style functional analysis and relies on *manas* to explain distraction, indecision, fantasy, and the need for meditative restraint. In practice, instruction aimed at concentration and recollection works first on *manas*, because it is where the senses are gathered or scattered and where an intention is either stabilized or lost.",
   "per_school": [
     {
-      "school": "Sāṃkhya / Yoga",
-      "definition": "*Manas* is one of the internal organs produced from *ahaṅkāra* and functions chiefly as coordinator of the senses and site of *saṅkalpa-vikalpa*. Yoga's disciplines of concentration, restraint, and recollection repeatedly target this oscillating inner organ, since unsteady *manas* prevents the stilling of *citta*.",
-      "primary_loci": ["Sāṃkhya-Kārikā 27", "Yoga-Sūtra 1.30–32", "Yoga-Sūtra 3.1–3"]
-    },
-    {
       "school": "Advaita",
-      "definition": "*Manas* is part of the *antaḥkaraṇa-upādhi* and is the seat of doubt, option-weighing, and sensory coordination. It does not know by itself; it is an instrument illumined by reflected consciousness. A distracted *manas* blocks *śravaṇa* and *manana*, while a gathered one becomes fit for inquiry and contemplation.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.4.1–4", "Vedānta-Paribhāṣā, pratyakṣa-pariccheda", "Bhagavad-Gītā-Bhāṣya 6.34–35"]
+      "definition": "In Advaita, *manas* is a vṛtti-bearing instrument rather than self-luminous consciousness: Madhusūdana defines *bhakti* as the mind's assuming Bhagavat's form and *brahma-vidyā* as a distinct *mano-vṛtti* directed to the non-dual self. [cite://madhusudana/bhakti-rasayana/1.ṭīkā.1] Advaita therefore treats *manas* as part of the inner apparatus from which the self must be discriminated, since body, senses, and mind alike can appear under the appropriation of the \"I\"-cognition. [cite://madhusudana/siddhanta-bindu/4] Its restraint as *śama* is accordingly defined as the settled abiding of *manas* in its proper aim after repeated dispassion toward objects. [cite://sankara/vivekacudamani/22]",
+      "primary_loci": [
+        "Bhakti-Rasāyana 1.1 ṭīkā",
+        "Siddhānta-Bindu, Upodghāta 4",
+        "Vivekacūḍāmaṇi 22"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhusudana/bhakti-rasayana/1.ṭīkā.1",
+          "locus_short": "BR 1.1 ṭīkā"
+        },
+        {
+          "cite": "cite://madhusudana/siddhanta-bindu/4",
+          "locus_short": "Siddhānta-Bindu Upodghāta 4"
+        },
+        {
+          "cite": "cite://sankara/vivekacudamani/22",
+          "locus_short": "Vivekacūḍāmaṇi 22"
+        }
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Manas* is a real internal instrument of the embodied self. Its wandering and contraction belong to the karmically conditioned state of the *jīva*, not to the Lord or to pure selfhood as such. Spiritual discipline therefore redirects rather than denies *manas*, orienting it toward remembrance and service of Nārāyaṇa.",
-      "primary_loci": ["Śrī-Bhāṣya 2.4.6–7 [NOT YET RETRIEVED]", "Gītā-Bhāṣya (Rāmānuja) 6.34–35", "Yatīndra-Mata-Dīpikā 5"]
+      "definition": "Viśiṣṭādvaita distinguishes the self from body, senses, *manas*, vital breaths, and cognitions; *manas* accordingly belongs to the embodied apparatus rather than to the *jīva*'s essential nature. [cite://yamuna/siddhi-trayam/3] When karmically produced differentiations are removed, the self remains *jñāna-svarūpa*; mental fluctuation is therefore adventitious to saṃsāric embodiment and not constitutive of the self's own essence. [cite://ramanuja/vedartha-samgraha/§5]",
+      "primary_loci": [
+        "Ātma-Siddhi 3",
+        "Vedārtha-Saṅgraha §5"
+      ],
+      "citations": [
+        {
+          "cite": "cite://yamuna/siddhi-trayam/3",
+          "locus_short": "ĀS 3"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§5",
+          "locus_short": "Vedārtha-Saṅgraha §5"
+        }
+      ]
     },
     {
       "school": "Tattva-vāda",
-      "definition": "*Manas* is a real instrument used by a real, distinct self. Madhva thus preserves the practical analysis of wavering, attention, and restraint while refusing any collapse of the knower into a single consciousness-substrate. Control of *manas* matters because the finite soul's orientation can be rightly or wrongly fixed toward Viṣṇu.",
-      "primary_loci": ["Tattva-Saṅkhyāna 5–7", "Gītā-Tātparya 6 [NOT YET RETRIEVED]"]
+      "definition": "Madhva counts *manas* among the dependent tattvas together with *buddhi*, the ten senses, the subtle elements, and the gross elements. [cite://madhva/tattva-sankhyana/9] He also preserves the Kaṭha hierarchy in which *manas* stands above the senses and their objects but below *buddhi*; it is therefore a real internal instrument and not the conscious self itself. [cite://madhva/mayavada-khandana/Upaniṣad 1.3.10, cite://madhva/tattva-sankhyana/9]",
+      "primary_loci": [
+        "Tattva-Saṅkhyāna 9",
+        "Kaṭha Upaniṣad 1.3.10 as cited in Māyāvāda-Khaṇḍana"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/tattva-sankhyana/9",
+          "locus_short": "Tattva-Saṅkhyāna 9"
+        }
+      ]
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "In classical Sāṃkhya, *manas* is *ubhayātmaka*: it counts as an *indriya* and its distinctive function is *saṃkalpa*. [cite://isvara-krsna/samkhya-karika/27] Because it stands in the same sāttvika line as the other faculties, it mediates both cognitive and active operations without being the determining *buddhi* or the witnessing *puruṣa*. [cite://isvara-krsna/samkhya-karika/27]",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 27"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvara-krsna/samkhya-karika/27",
+          "locus_short": "SK 27"
+        }
+      ]
+    },
+    {
+      "school": "Yoga",
+      "definition": "Yoga treats *manas* under the discipline of stabilization: an arisen objective cognition may become *manasaḥ sthitinibandhanī*, a binding of the mind to steadiness. [cite://patanjali/yoga-sutra/1.35] Prāṇāyāma and the subsequent limbs make *manas* fit for *dhāraṇā*, so yogic practice works directly on the mind's steadiness and availability for concentration. [cite://patanjali/yoga-sutra/2.53]",
+      "primary_loci": [
+        "Yoga-Sūtra 1.35",
+        "Yoga-Sūtra 2.53"
+      ],
+      "citations": [
+        {
+          "cite": "cite://patanjali/yoga-sutra/1.35",
+          "locus_short": "YS 1.35"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/2.53",
+          "locus_short": "YS 2.53"
+        }
+      ]
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "*Manas* is an atomic internal sense-organ whose contact with self and external senses is required for cognition. This doctrine explains the seriality of awareness and gives *manas* a more sharply ontological status than in the fourfold Vedāntic functional model.",
-      "primary_loci": ["Vaiśeṣika-Sūtra 3.2.1–3 [NOT YET RETRIEVED]", "Nyāya-Sūtra 3.2 [NOT YET RETRIEVED]"]
+      "definition": "Nyāya-Vaiśeṣika treats *manas* as an internal sense serving the apprehension of pleasure and the rest, one for each self, eternal, and atomic. [cite://annambhatta/tarka-sangraha/18, cite://kanada/vaisesika-sutra/7.1.23] Its existence is inferred from the non-simultaneity of cognitions, and precisely that seriality grounds the theses that there is only one *manas* per self and that it is minute rather than pervasive. [cite://aksapada/nyaya-sutra/1.1.16, cite://aksapada/nyaya-sutra/3.2.56-59, cite://kanada/vaisesika-sutra/3.2.1-3]",
+      "primary_loci": [
+        "Tarka-Saṅgraha 18",
+        "Nyāya-Sūtra 1.1.16",
+        "Nyāya-Sūtra 3.2.56-59",
+        "Vaiśeṣika-Sūtra 3.2.1-3",
+        "Vaiśeṣika-Sūtra 7.1.23"
+      ],
+      "citations": [
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/18",
+          "locus_short": "AnTS 18"
+        },
+        {
+          "cite": "cite://aksapada/nyaya-sutra/1.1.16",
+          "locus_short": "NS 1.1.16"
+        },
+        {
+          "cite": "cite://aksapada/nyaya-sutra/3.2.56-59",
+          "locus_short": "NS 3.2.56-59"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/3.2.1-3",
+          "locus_short": "VS 3.2.1-3"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/7.1.23",
+          "locus_short": "VS 7.1.23"
+        }
+      ]
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "In the Bhāṭṭa Mīmāṃsā discussion of *vyāpti*, Kumārila rejects the proposal that pervasion is grasped by *manas* independently, insisting that mind is not autonomous in cognition of external objects. [cite://kumarila/sloka-varttika/3.14] The denial is principled: if *manas* were externally autonomous, everyone would in effect perceive everything, so mental operation must remain conditioned by other epistemic factors rather than function as an all-reaching inner sense. [cite://kumarila/sloka-varttika/3.14]",
+      "primary_loci": [
+        "Śloka-Vārttika, vyāpti discussion (3,14)"
+      ],
+      "citations": [
+        {
+          "cite": "cite://kumarila/sloka-varttika/3.14",
+          "locus_short": "ŚV 3,14"
+        }
+      ]
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "Nāgārjuna lists *manas* alongside seeing, hearing, smelling, tasting, and touching as the sixth *indriya*. [cite://nagarjuna/mula-madhyamaka-karika/3.1] Because chapter 3 subjects these faculties and their objects alike to Madhyamaka analysis, *manas* is admitted only as a conventional sense-faculty and not as a self-established inner subject. [cite://nagarjuna/mula-madhyamaka-karika/3.1, cite://nagarjuna/mula-madhyamaka-karika/3.9]",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 3.1",
+        "Mūla-Madhyamaka-Kārikā 3.9"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/3.1",
+          "locus_short": "MMK 3.1"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/3.9",
+          "locus_short": "MMK 3.9"
+        }
+      ]
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "Yogācāra gives *manas* a specialized role: Vasubandhu calls it the consciousness named *manas*, whose nature is *manana* and which proceeds taking the *ālaya* as its object. [cite://vasubandhu/trimsika/5] In the broader *vijñaptimātra* register, however, *citta*, *manas*, *vijñāna*, and *vijñapti* can be deployed as near-synonyms, so context determines whether the term names the seventh consciousness specifically or consciousness-language more generally. [cite://vasubandhu/vimsatika/Proem]",
+      "primary_loci": [
+        "Triṃśikā 5",
+        "Viṃśatikā Proem"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/trimsika/5",
+          "locus_short": "Triṃśikā 5"
+        },
+        {
+          "cite": "cite://vasubandhu/vimsatika/Proem",
+          "locus_short": "Viṃśatikā Proem"
+        }
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "In Abhinavagupta's Pratyabhijñā exegesis, *manas* is the locus of *saṃkalpa* when cognition is conditioned by an indistinct object, in contrast to *jñāna* through the external senses and *adhyavasāya* through *buddhi*. [cite://abhinavagupta/ishvara-pratyabhijna-vimarshini/1.5.18] He accordingly counts *manas* within the threefold *antaḥkaraṇa* of the finite subject as the instrument of *saṃkalpa* and related operations, not as ultimate *cit* itself. [cite://abhinavagupta/ishvara-pratyabhijna-vimarshini/3.1.11]",
+      "primary_loci": [
+        "Īśvara-Pratyabhijñā-Vimarśinī on ĪPK 1.5.18",
+        "Īśvara-Pratyabhijñā-Vimarśinī on ĪPK 3.1.11"
+      ],
+      "citations": [
+        {
+          "cite": "cite://abhinavagupta/ishvara-pratyabhijna-vimarshini/1.5.18",
+          "locus_short": "ĪPV 1.5.18"
+        },
+        {
+          "cite": "cite://abhinavagupta/ishvara-pratyabhijna-vimarshini/3.1.11",
+          "locus_short": "ĪPV 3.1.11"
+        }
+      ]
+    },
+    {
+      "school": "Jainism",
+      "definition": "Jainism incorporates mind into its taxonomy of cognition by distinguishing *mati-jñāna* as arising from sensory and non-sensory conditions and by recognizing *manaḥparyaya-jñāna* as a distinct form of knowledge. [cite://umasvati/tattvartha-sutra/1.9-14, cite://umasvati/tattvartha-sutra/1.23-29] The division of embodied beings into *samanaska* and *amanaska* shows that possession of mind is a differentiating feature within saṃsāra rather than the defining essence of *jīva* as such. [cite://umasvati/tattvartha-sutra/2.11]",
+      "primary_loci": [
+        "Tattvārtha-Sūtra 1.9-14",
+        "Tattvārtha-Sūtra 1.23-29",
+        "Tattvārtha-Sūtra 2.11"
+      ],
+      "citations": [
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/1.9-14",
+          "locus_short": "TS 1.9-14"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/1.23-29",
+          "locus_short": "TS 1.23-29"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/2.11",
+          "locus_short": "TS 2.11"
+        }
+      ]
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     }
   ],
-  "see_also": ["antahkarana", "buddhi", "citta", "ahankara", "indriya", "atman", "sankalpa-vikalpa"],
+  "see_also": [
+    "antahkarana",
+    "buddhi",
+    "citta",
+    "ahankara",
+    "indriya",
+    "atman",
+    "sankalpa-vikalpa"
+  ],
   "translator_note": "'Mind' is too broad and usually wrong if left unqualified. *Manas* is one function within a larger inner apparatus; it does not cover the whole mental life and certainly not pure consciousness. Translating it as 'mind' without noting the contrast with *buddhi*, *citta*, and *ahaṅkāra* imports a modern unitary notion of mind that the Sanskrit psychological models explicitly resist.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus"
+  "last_verified_by": "glossary-wave2-codex54"
 }

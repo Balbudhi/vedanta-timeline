@@ -32,10 +32,6 @@
           "locus_short": "BS 1.1"
         },
         {
-          "cite": "cite://madhusudana/siddhanta-bindu/1.prathamo vibhāgaḥ.1",
-          "locus_short": "SB 1"
-        },
-        {
           "cite": "cite://vimuktatman/ista-siddhi/1.Prapañcasyānirvacanīyatvam",
           "locus_short": "IṢ 1.1"
         },
@@ -89,10 +85,6 @@
         {
           "cite": "cite://madhva/upadhi-khandana/3",
           "locus_short": "UK 3"
-        },
-        {
-          "cite": "cite://madhva/mayavada-khandana/can serve as a covering ignorance",
-          "locus_short": "MKh p. 238"
         },
         {
           "cite": "cite://madhva/upadhi-khandana/15",
@@ -170,9 +162,26 @@
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Sāṃkhya, the operative equivalent of `avidyā` is `viparyaya` or `ajñāna`: bondage is opposed to `tattvajñāna`, and the commentary on Kārikā 44 glosses this contrary cognition as the self-misidentification \"I am admirable, I am the enjoyer,\" by which one binds oneself into embodied existence (cite://isvarakrsna/samkhya-karika/44, cite://isvarakrsna/samkhya-karika-with-commentary/44--viparyaya-as-ajñana). The Sāṃkhya-Sūtra tradition makes the point polemically explicit by denying that bondage can arise from `avidyā` as a distinct non-real factor, so the school's explanatory burden falls on false identification and its removal by discriminative knowledge rather than on an `avidyā`-substance (cite://kapila/samkhya-sutra/1.20--na-avidyato-py-avastuna-bandhayogat).",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 44",
+        "Sāṃkhya-Kārikā commentary on 44",
+        "Sāṃkhya-Sūtra 1.20"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/44",
+          "locus_short": "SK 44"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika-with-commentary/44--viparyaya-as-ajñana",
+          "locus_short": "SKK 44"
+        },
+        {
+          "cite": "cite://kapila/samkhya-sutra/1.20--na-avidyato-py-avastuna-bandhayogat",
+          "locus_short": "SS 1.20"
+        }
+      ]
     },
     {
       "school": "Yoga",
@@ -189,15 +198,39 @@
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Nyāya treats `avidyā` in the form of `mithyājñāna` or `moha`, not as the mere absence of knowledge: Vātsyāyana defines it as the erroneous grasp of self in what is not self, `anātmany ātmagrahaḥ`, and makes that error the `saṃsārabīja` whose removal requires `tattvajñāna` of the relevant objects (cite://vatsyayana/nyaya-bhasya/4.2.1--mithyajnana-moha-anatmany-atmagrahah). Vaiśeṣika states the same register with greater brevity by classifying `avidyā` as defective cognition produced from `indriyadoṣa` and `saṃskāra`, while `vidyā` is the corresponding non-defective cognition (cite://kanada/vaisesika-sutra/9.25-27).",
+      "primary_loci": [
+        "Nyāya-Bhāṣya on Nyāya-Sūtra 4.2.1",
+        "Vaiśeṣika-Sūtra 9.25-27"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vatsyayana/nyaya-bhasya/4.2.1--mithyajnana-moha-anatmany-atmagrahah",
+          "locus_short": "NBh 4.2.1"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/9.25-27",
+          "locus_short": "VaiS 9.25-27"
+        }
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Pūrva-Mīmāṃsā does not posit `avidyā` as an independent ontological principle; its functional analogue is `mithyājñāna`, a `pramāṇa`-failure identified through `bādha` and traced to defects in sense, mind, or object (cite://shabara/mimamsa-sutra-bhasya/1.1.5--mithyajnana-from-dosa). Śābara accordingly defines unsupported seeing as `mithyādarśana` or `vyāmoha`, exemplified by shell-silver error, so ignorance is handled through `pramāṇa`, `bādha`, and `doṣa` rather than through a world-projecting nescience (cite://shabara/mimamsa-sutra-bhasya/3.8.24--mithyadarsana-vyamoha).",
+      "primary_loci": [
+        "Śābara-Bhāṣya on Mīmāṃsā-Sūtra 1.1.5",
+        "Śābara-Bhāṣya on Mīmāṃsā-Sūtra 3.8.24"
+      ],
+      "citations": [
+        {
+          "cite": "cite://shabara/mimamsa-sutra-bhasya/1.1.5--mithyajnana-from-dosa",
+          "locus_short": "ŚBh 1.1.5"
+        },
+        {
+          "cite": "cite://shabara/mimamsa-sutra-bhasya/3.8.24--mithyadarsana-vyamoha",
+          "locus_short": "ŚBh 3.8.24"
+        }
+      ]
     },
     {
       "school": "Mādhyamaka",
@@ -266,21 +299,56 @@
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Pratyabhijñā / Trika, `avidyā` is the `ajñāna-timira` by which the one self apprehends its own nature under the diversified polarity of `grāhya` and `grāhaka` (cite://abhinavagupta/paramartha-sara/25). At the saṃsāric level it is explicitly the `lokavyavahāra`-producing `avidyā` that binds beings to birth and death through `dharma` and `adharma`, while liberation is defined as the cutting of the knot of `ajñāna` and the manifestation of one's own `śakti` (cite://abhinavagupta/paramartha-sara/54, cite://abhinavagupta/paramartha-sara/60).",
+      "primary_loci": [
+        "Paramārtha-Sāra 25",
+        "Paramārtha-Sāra 54",
+        "Paramārtha-Sāra 60"
+      ],
+      "citations": [
+        {
+          "cite": "cite://abhinavagupta/paramartha-sara/25",
+          "locus_short": "PS 25"
+        },
+        {
+          "cite": "cite://abhinavagupta/paramartha-sara/54",
+          "locus_short": "PS 54"
+        },
+        {
+          "cite": "cite://abhinavagupta/paramartha-sara/60",
+          "locus_short": "PS 60"
+        }
+      ]
     },
     {
       "school": "Jainism",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Jainism handles the functional domain of `avidyā` through `viparyaya` and `mithyādarśana` rather than through a single metaphysical ignorance-principle: the Tattvārtha-Sūtra admits erroneous cognition in `mati`, `śruta`, and `avadhi`, and names false view, non-restraint, negligence, passions, and `yoga` as the causes of bondage (cite://umasvati/tattvartha-sutra/1.31, cite://umasvati/tattvartha-sutra/8.1). That bondage is concretized as karmic obscuration, above all the `jñānāvaraṇa` and `mohanīya` classes, so ignorance is treated as a morally efficacious distortion of cognition and orientation rather than as mere absence of knowledge (cite://umasvati/tattvartha-sutra/8.4).",
+      "primary_loci": [
+        "Tattvārtha-Sūtra 1.31",
+        "Tattvārtha-Sūtra 8.1",
+        "Tattvārtha-Sūtra 8.4"
+      ],
+      "citations": [
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/1.31",
+          "locus_short": "TS 1.31"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/8.1",
+          "locus_short": "TS 8.1"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/8.4",
+          "locus_short": "TS 8.4"
+        }
+      ]
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",
-      "definition": "[NOT YET RETRIEVED]",
+      "definition": "NOT-APPLICABLE",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "not_applicable_reason": "`avidyā` is not a school-defining doctrinal category of the Pāṇinian-Vaiyākaraṇa tradition in the way that terms like `śabda`, `sphoṭa`, or `vākya` are, and the available corpus here contains no grammatical treatment requiring acquisition."
     }
   ],
   "see_also": [
@@ -294,5 +362,5 @@
   ],
   "translator_note": "The lazy gloss is 'ignorance.' That English word suggests a merely psychological lack, as though one simply had not yet learned some fact. In these debates *avidyā* carries causal, epistemic, and soteriological weight: it structures misidentification, error, and bondage. One must also avoid importing Augustinian privation-talk. Advaita explicitly denies that *avidyā* is mere absence; Viśiṣṭādvaita and Tattva-vāda reject the Advaitin positive-entity account but still do not mean ordinary ignorance in the thin modern sense.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54"
+  "last_verified_by": "glossary-wave2-codex54"
 }

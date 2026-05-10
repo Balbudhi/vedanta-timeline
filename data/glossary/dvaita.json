@@ -117,10 +117,6 @@
         {
           "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.10",
           "locus_short": "BṛU 1.4.10"
-        },
-        {
-          "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.4.5, 1.4.15",
-          "locus_short": "BṛU 2.4.5, 1.4.15"
         }
       ]
     },
@@ -209,27 +205,96 @@
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Sāṃkhya, *dvaita* is not a school-name but the real difference that makes *puruṣa* and *prakṛti* intelligible as distinct principles: the subject exists because the aggregate is for another, and liberation is sought precisely as *kaivalya* from the guṇa-complex [[SK 17](cite://isvarakrsna/samkhya-karika/17)]. The school therefore rejects any undifferentiated self-nonduality, since the marks (*liṅga*) available in experience disclose the apprehension of the self's difference [[KapSS 5.61](cite://kapila/samkhya-sutra/5.61)]. Release is not fusion but the cessation of conjunction once *prakṛti* has displayed itself to the spectator *puruṣa* and withdraws from further production [[SK 59](cite://isvarakrsna/samkhya-karika/59)][[SK 65](cite://isvarakrsna/samkhya-karika/65)].",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 17, 59, 65",
+        "Sāṃkhya-Sūtra 5.61"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/17",
+          "locus_short": "SK 17"
+        },
+        {
+          "cite": "cite://kapila/samkhya-sutra/5.61",
+          "locus_short": "KapSS 5.61"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/59",
+          "locus_short": "SK 59"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/65",
+          "locus_short": "SK 65"
+        }
+      ]
     },
     {
       "school": "Yoga",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Yoga, duality is the operative structure of bondage: suffering has its cause in the conjunction of seer and seen, while the seen is the guṇa-complex ordered for experience and release [[YS 2.17](cite://patanjali/yoga-sutra/2.17)][[YS 2.18](cite://patanjali/yoga-sutra/2.18)]. The cessation of that conjunction is *hāna*, namely the *kaivalya* of the seer [[YS 2.25](cite://patanjali/yoga-sutra/2.25)]. More precisely, bhoga is the non-discrimination of *sattva* and *puruṣa* despite their utter non-mixture, and liberation depends on *anyatā-khyāti*, the discriminative knowledge of their difference [[YS 3.35](cite://patanjali/yoga-sutra/3.35)][[YS 3.55](cite://patanjali/yoga-sutra/3.55)].",
+      "primary_loci": [
+        "Yoga-Sūtra 2.17-18, 2.25",
+        "Yoga-Sūtra 3.35, 3.55"
+      ],
+      "citations": [
+        {
+          "cite": "cite://patanjali/yoga-sutra/2.17",
+          "locus_short": "YS 2.17"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/2.18",
+          "locus_short": "YS 2.18"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/2.25",
+          "locus_short": "YS 2.25"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/3.35",
+          "locus_short": "YS 3.35"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/3.55",
+          "locus_short": "YS 3.55"
+        }
+      ]
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Nyāya-Vaiśeṣika, *dvaita* is not a privileged slogan because plurality and difference are already built into the padārtha-ontology: *pṛthaktva* is a real guṇa, and *sāmānya* with *viśeṣa* articulate the one-over-many and the individuating difference of reals [[VS 1.1.5](cite://kanada/vaisesika-sutra/1.1.5)][[AnTS 77](cite://annambhatta/tarka-sangraha/77)]. Later synopsis states the same structure by enumerating the seven padārtha-s, defining *pṛthaktva* as the ground of separate cognition, and treating *samavāya* as the eternal relation obtaining between inseparable relata [[AnTS 2](cite://annambhatta/tarka-sangraha/2)][[AnTS 26](cite://annambhatta/tarka-sangraha/26)][[AnTS 79](cite://annambhatta/tarka-sangraha/79)]. The school's realism therefore does not reduce plurality to appearance: universals are one yet present in many, and concrete individuals remain numerically distinct [[AnTS 77](cite://annambhatta/tarka-sangraha/77)][[AnTS 26](cite://annambhatta/tarka-sangraha/26)].",
+      "primary_loci": [
+        "Vaiśeṣika-Sūtra 1.1.5",
+        "Tarka-Saṅgraha 2, 26, 77, 79"
+      ],
+      "citations": [
+        {
+          "cite": "cite://kanada/vaisesika-sutra/1.1.5",
+          "locus_short": "VS 1.1.5"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/2",
+          "locus_short": "AnTS 2"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/26",
+          "locus_short": "AnTS 26"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/77",
+          "locus_short": "AnTS 77"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/79",
+          "locus_short": "AnTS 79"
+        }
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
-      "definition": "[NOT YET RETRIEVED]",
+      "definition": "NOT-APPLICABLE",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "not_applicable_reason": "In the on-disk Mīmāṃsā corpus, cognate forms such as *dvaidhaṃ* function as classificatory or ritual-analytic markers (for example in guṇa/pradhāna and aṅga/aṅgin analysis), not as a substantive doctrinal category named *dvaita*."
     },
     {
       "school": "Mādhyamaka",
@@ -315,15 +380,61 @@
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Pratyabhijñā / Trika, duality is a mode of manifestation (*ābhāsa*) within consciousness, not a second principle outside *prakāśa*: the differentiated can appear only in and as the light of awareness itself [[ĪPK 1.6.2](cite://utpaladeva/isvara-pratyabhijna-karika/1.6.2)]. Even where externality and practical differentiation are admitted, their efficacy turns on differentiated appearances within that one luminous field, so *bheda* is real as manifestation but not as absolute severance [[ĪPK 1.8.6](cite://utpaladeva/isvara-pratyabhijna-karika/1.8.6)][[ĪPK 2.2.7](cite://utpaladeva/isvara-pratyabhijna-karika/2.2.7)]. Hence the liberated subject grasps the common object as non-different from its own self, whereas the bound subject apprehends it under the aspect of radical difference [[ĪPK 4.13](cite://utpaladeva/isvara-pratyabhijna-karika/4.13)].",
+      "primary_loci": [
+        "Īśvara-Pratyabhijñā-Kārikā 1.6.2, 1.8.6",
+        "Īśvara-Pratyabhijñā-Kārikā 2.2.7",
+        "Īśvara-Pratyabhijñā-Kārikā 4.13"
+      ],
+      "citations": [
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/1.6.2",
+          "locus_short": "ĪPK 1.6.2"
+        },
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/1.8.6",
+          "locus_short": "ĪPK 1.8.6"
+        },
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/2.2.7",
+          "locus_short": "ĪPK 2.2.7"
+        },
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/4.13",
+          "locus_short": "ĪPK 4.13"
+        }
+      ]
     },
     {
       "school": "Jainism",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Jainism, *dvaita* is not the governing label, because the tradition works with a broader plural analysis of *tattva* and *dravya*: the field begins with *jīva*, *ajīva*, influx, bondage, stoppage, shedding, and liberation [[TS 1.4](cite://umasvati/tattvartha-sutra/1.4)]. The *jīva* is marked by *upayoga* and exists either as *saṃsārin* or as *mukta* [[TS 2.8](cite://umasvati/tattvartha-sutra/2.8)][[TS 2.10](cite://umasvati/tattvartha-sutra/2.10)]. On the non-living side, *ajīva*-kāyas such as dharma, adharma, space, and matter are real substances, so the school's ontology is irreducibly plural rather than reducible to a single self-world dichotomy [[TS 5.1](cite://umasvati/tattvartha-sutra/5.1)][[TS 5.2](cite://umasvati/tattvartha-sutra/5.2)].",
+      "primary_loci": [
+        "Tattvārtha-Sūtra 1.4",
+        "Tattvārtha-Sūtra 2.8, 2.10",
+        "Tattvārtha-Sūtra 5.1-2"
+      ],
+      "citations": [
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/1.4",
+          "locus_short": "TS 1.4"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/2.8",
+          "locus_short": "TS 2.8"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/2.10",
+          "locus_short": "TS 2.10"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/5.1",
+          "locus_short": "TS 5.1"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/5.2",
+          "locus_short": "TS 5.2"
+        }
+      ]
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",
@@ -343,5 +454,5 @@
   ],
   "translator_note": "Rendering *Tattva-vāda* as 'dualism' is usually too crude. It imports Cartesian and other binary frameworks in which the issue is two opposed kinds of substance. Madhva's term instead names a dependence-structured plural realism with one independent reality and many dependent ones. In most contexts it is better to retain *Tattva-vāda* and gloss the underlying metaphysics explicitly.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54"
+  "last_verified_by": "glossary-wave2-codex54"
 }

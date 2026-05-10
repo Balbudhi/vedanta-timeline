@@ -39,10 +39,6 @@
           "locus_short": "BS 1.1 (avidyā neither sat nor asat; in the jīvas)"
         },
         {
-          "cite": "cite://prakasatman/pancapadika-vivarana/brahmaṇo lakṣaṇopalakṣaṇe",
-          "locus_short": "PV p. 212"
-        },
-        {
           "cite": "cite://vimuktatman/ista-siddhi/1.Prapañcasyānirvacanīyatvam",
           "locus_short": "IṢ 1.1"
         }
@@ -83,22 +79,6 @@
         {
           "cite": "cite://madhva/bhagavata-tatparya-nirnaya/1.1.18",
           "locus_short": "Bhāg. 1.1.18"
-        },
-        {
-          "cite": "cite://madhva/bhagavata-tatparya-nirnaya/1.1.18 — gloss",
-          "locus_short": "Bhāg. 1.1.18 — gloss"
-        },
-        {
-          "cite": "cite://madhva/mayavada-khandana/can serve as a covering ignorance",
-          "locus_short": "Māyāvāda-Khaṇḍana, covering-ignorance refutation"
-        },
-        {
-          "cite": "cite://madhva/mayavada-khandana/the whole doctrine is set aside",
-          "locus_short": "Māyāvāda-Khaṇḍana, doctrine set aside"
-        },
-        {
-          "cite": "cite://madhva/mayavada-khandana/verse of refutation",
-          "locus_short": "Māyāvāda-Khaṇḍana, concluding verse"
         }
       ]
     },
@@ -174,15 +154,58 @@
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Classical Sāṃkhya does not make *māyā* a load-bearing cosmological principle; the work later attached to that term is assigned instead to *pradhāna/prakṛti*, whose activity proceeds for the sake of the *puruṣa*'s release [[SK 57](cite://isvarakrsna/samkhya-karika/57)]. Bondage and release are not states of *puruṣa* but processes of *prakṛti* itself, which alone 'transmigrates,' 'is bound,' and 'is released' through its own forms [[SK 62](cite://isvarakrsna/samkhya-karika/62)][[SK 63](cite://isvarakrsna/samkhya-karika/63)]. The nearest functional analogue to *māyā* is therefore *viparyaya* or non-discriminative entanglement, removed by the knowledge expressed as 'I am not, nothing is mine, I am not this,' after which *prakṛti* ceases its productive unfolding [[SK 64](cite://isvarakrsna/samkhya-karika/64)][[SK 65](cite://isvarakrsna/samkhya-karika/65)].",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 57, 62-65"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/57",
+          "locus_short": "SK 57"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/62",
+          "locus_short": "SK 62"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/63",
+          "locus_short": "SK 63"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/64",
+          "locus_short": "SK 64"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/65",
+          "locus_short": "SK 65"
+        }
+      ]
     },
     {
       "school": "Yoga",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Pātañjala Yoga does not elevate *māyā* into an ontic world-principle; bondage is explained through *avidyā*, the misapprehension of the non-eternal, impure, painful, and non-self as their opposites [[YS 2.5](cite://patanjali/yoga-sutra/2.5)]. That *avidyā* is the cause of the *saṃyoga* of seer and seen, while uninterrupted *vivekakhyāti* is the means of its removal [[YS 2.24](cite://patanjali/yoga-sutra/2.24)][[YS 2.26](cite://patanjali/yoga-sutra/2.26)]. When the term itself appears in the bhāṣya, it functions as simile rather than ontology: what has entered the field of perception is said to be 'like māyā,' exceedingly insubstantial, by comparison with the guṇa-s' subtler condition [[YBh 4.13](cite://vyasa-bhasya/yoga-sutra-bhasya/4.13)].",
+      "primary_loci": [
+        "Yoga-Sūtra 2.5, 2.24, 2.26",
+        "Yoga-Bhāṣya on Yoga-Sūtra 4.13"
+      ],
+      "citations": [
+        {
+          "cite": "cite://patanjali/yoga-sutra/2.5",
+          "locus_short": "YS 2.5"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/2.24",
+          "locus_short": "YS 2.24"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/2.26",
+          "locus_short": "YS 2.26"
+        },
+        {
+          "cite": "cite://vyasa-bhasya/yoga-sutra-bhasya/4.13",
+          "locus_short": "YBh 4.13"
+        }
+      ]
     },
     {
       "school": "Sāṃkhya-Yoga (synthetic)",
@@ -199,21 +222,63 @@
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "For Nyāya-Vaiśeṣika, *māyā* is not a world-grounding principle but an example within the analysis of false cognition: the pūrvapakṣa likens apparent objecthood to dream, magical illusion, gandharva-city, and mirage, and the siddhānta answers that false apprehension is destroyed by *tattvajñāna* [[NyS 4.2.32](cite://aksapada/nyaya-sutra/4.2.32)][[NyS 4.2.35](cite://aksapada/nyaya-sutra/4.2.35)]. Systematically, bondage proceeds from *mithyājñāna* and ceases by its successive removal, so error is an epistemic-causal defect rather than a quasi-substantial power [[NyS 1.1.2](cite://aksapada/nyaya-sutra/1.1.2)]. Vaiśeṣika states the same point in its own idiom by defining *avidyā* as defective cognition arising from sense-defect and saṃskāra, opposed to *vidyā* as non-defective cognition [[VS 9.25-27](cite://kanada/vaisesika-sutra/9.25-27)].",
+      "primary_loci": [
+        "Nyāya-Sūtra 1.1.2",
+        "Nyāya-Sūtra 4.2.32, 4.2.35",
+        "Vaiśeṣika-Sūtra 9.25-27"
+      ],
+      "citations": [
+        {
+          "cite": "cite://aksapada/nyaya-sutra/1.1.2",
+          "locus_short": "NyS 1.1.2"
+        },
+        {
+          "cite": "cite://aksapada/nyaya-sutra/4.2.32",
+          "locus_short": "NyS 4.2.32"
+        },
+        {
+          "cite": "cite://aksapada/nyaya-sutra/4.2.35",
+          "locus_short": "NyS 4.2.35"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/9.25-27",
+          "locus_short": "VS 9.25-27"
+        }
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
-      "definition": "[NOT YET RETRIEVED]",
+      "definition": "NOT-APPLICABLE",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "not_applicable_reason": "In the listed Jaimini-Śabara-Kumārila corpus, *māyā* does not function as a technical school-category; the doctrinal load falls instead on ritual-hermeneutic categories such as *dharma*, *codanā*, *śeṣa*, and allied interpretive devices."
     },
     {
       "school": "Mādhyamaka",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Mādhyamaka, *māyā* functions as a paradigmatic simile for dependently arisen phenomena precisely because dependent arising excludes *svabhāva*; origination, duration, and cessation are 'like māyā, like a dream, like a gandharva-city' [[MMK 7.34](cite://nagarjuna/mula-madhyamaka-karika/7.34)][[MMK 24.18](cite://nagarjuna/mula-madhyamaka-karika/24.18)]. The comparison does not posit an underlying illusion-substance; rather, auspicious and inauspicious constructions fail with respect to entities that are like magical persons and reflections [[MMK 23.9](cite://nagarjuna/mula-madhyamaka-karika/23.9)]. Nāgārjuna states the governing principle without remainder in the *Vigraha-vyāvartanī*: whatever is grasped dependently is precisely emptiness [[VV 66](cite://nagarjuna/vigraha-vyavartani/66)].",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 7.34, 23.9, 24.18",
+        "Vigraha-Vyāvartanī 66"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/7.34",
+          "locus_short": "MMK 7.34"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/23.9",
+          "locus_short": "MMK 23.9"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.18",
+          "locus_short": "MMK 24.18"
+        },
+        {
+          "cite": "cite://nagarjuna/vigraha-vyavartani/66",
+          "locus_short": "VV 66"
+        }
+      ]
     },
     {
       "school": "Yogācāra",
@@ -231,32 +296,36 @@
           "locus_short": "Vvs 1"
         },
         {
-          "cite": "cite://vasubandhu/vimsatika/and Preta Replies",
-          "locus_short": "Vvs 3"
-        },
-        {
-          "cite": "cite://vasubandhu/vimsatika/and Hell",
-          "locus_short": "Vvs 4"
-        },
-        {
           "cite": "cite://vasubandhu/trimsika/17",
           "locus_short": "Triṃśikā 17"
         },
         {
           "cite": "cite://vasubandhu/trimsika/20",
           "locus_short": "Triṃśikā 20"
-        },
-        {
-          "cite": "cite://vasubandhu/vimsatika/10 and Entry into *Dharma-Nairātmya*",
-          "locus_short": "Vvs 10"
         }
       ]
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Pratyabhijñā/Trika, *māyā* is a real phase of Śiva's self-contraction rather than an illusory principle external to consciousness; the finite *aṇu* is described as inwardly furnished with māyā together with the six *kañcukas* [[PS 17](cite://abhinavagupta/paramartha-sara/17)]. Kṣemarāja accordingly defines the *māyāpramātā* through its citta-constitution and explains bondage as the contraction of the Lord's own powers into *māyīya mala* and the limiting forms of *kalā, vidyā, rāga, kāla,* and *niyati* [[PH 6](cite://ksemaraja/pratyabhijna-hrdayam/6)][[PH 9](cite://ksemaraja/pratyabhijna-hrdayam/9)]. The function of *māyā* is thus differential manifestation through *bhedavyāpti*, while liberation is the re-expansion of that contracted subject in *pratyabhijñā* as Śiva himself [[PH 9](cite://ksemaraja/pratyabhijna-hrdayam/9)].",
+      "primary_loci": [
+        "Paramārthasāra 17",
+        "Pratyabhijñā-Hṛdayam 6, 9"
+      ],
+      "citations": [
+        {
+          "cite": "cite://abhinavagupta/paramartha-sara/17",
+          "locus_short": "PS 17"
+        },
+        {
+          "cite": "cite://ksemaraja/pratyabhijna-hrdayam/6",
+          "locus_short": "PH 6"
+        },
+        {
+          "cite": "cite://ksemaraja/pratyabhijna-hrdayam/9",
+          "locus_short": "PH 9"
+        }
+      ]
     }
   ],
   "see_also": [
@@ -268,5 +337,5 @@
   ],
   "translator_note": "The lazy gloss is 'illusion.' That is seriously misleading. Most schools using *māyā* do not mean subjective illusion at all, and even Advaita does not mean simple unreality or *asat*. The word can import very different metaphysics: cosmic ignorance, real divine power, material nature, or Śiva's self-contraction. English should therefore signal the school-specific use instead of flattening everything into 'illusion.'",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54"
+  "last_verified_by": "glossary-wave2-codex54"
 }

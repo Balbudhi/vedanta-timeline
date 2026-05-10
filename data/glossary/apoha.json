@@ -3,27 +3,175 @@
   "term_iast": "apoha",
   "term_devanagari": "अपोह",
   "literal": "exclusion, exclusion-by-removal; the setting aside of what does not belong",
-  "aliases": ["apoha", "Apoha", "anyāpoha", "apohaḥ", "apohasya"],
+  "aliases": [
+    "apoha",
+    "Apoha",
+    "anyāpoha",
+    "apohaḥ",
+    "apohasya"
+  ],
   "invariant_definition": "*Apoha* is the Buddhist account of how concepts and words function without committing one to real universals. A word such as \"cow\" does not latch onto a positive *jāti* inhering in many particulars; it works by excluding what is other than cow. The doctrine therefore sits inside the Dignāga-Dharmakīrti *pramāṇa-dvaya* apparatus. Perception grasps only the causally efficacious *svalakṣaṇa*; conceptual cognition and language work at the level of *sāmānya-lakṣaṇa*; *apoha* explains how that conceptual level can still be usable and even epistemically valid without positing a real universal. The doctrine is not merely a semantic trick. It is a strategy for preserving Buddhist nominal anti-essentialism in logic, language, and inference. Its critics immediately press the central problem: exclusion seems to presuppose what it claims to replace, since excluding non-cows appears already to require some grasp of cowness. The history of *apoha* is largely the history of Buddhist attempts to answer that charge and realist attempts to show that the answer fails.",
   "per_school": [
     {
-      "school": "Buddhist Pramāṇa",
-      "definition": "Dignāga introduces *apoha* to explain general cognition and word use without accepting real universals. Dharmakīrti deepens the view by tying exclusion to causal fitness, conceptual habit, and latent disposition, so that the apparent positivity of concepts is explained as a function of how cognition is trained and perfumed. The doctrine thus supports not only semantics but the Buddhist distinction between perceptual particulars and inferentially constructed generalities.",
-      "primary_loci": ["Dignāga, Pramāṇa-Samuccaya 5", "Dharmakīrti, Pramāṇa-Vārttika 1.40–185"]
+      "school": "Advaita",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Madhusūdana, Advaita-Siddhi (thinker dossier notes apoha-engagement; no on-disk key-passage matching the term was retrievable)"
+      ],
+      "citations": []
     },
     {
-      "school": "Nyāya",
-      "definition": "Nyāya rejects *apoha* because it takes universals to be real and perceptually or inferentially available. The standard charge is circularity: if one must exclude non-cows, one must already know what counts as a cow and what does not. The Naiyāyika therefore reads *apoha* as a failed surrogate for *jāti* and *samavāya*, unable to explain determinacy of reference or the shared content of classification.",
-      "primary_loci": ["Nyāya-Sūtra 2.2.65", "Uddyotakara, Nyāya-Vārttika ad Nyāya-Sūtra 2.2.65", "Gaṅgeśa, Tattva-Cintāmaṇi, Sāmānya-khaṇḍa [NOT YET RETRIEVED]"]
+      "school": "Viśiṣṭādvaita",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "In the supplied Viśiṣṭādvaita materials for this phase, apoha does not appear as a distinct school-defining technical category, and no substantive on-disk locus was retrievable."
     },
     {
-      "school": "Mīmāṃsā",
-      "definition": "Mīmāṃsā also rejects *apoha*, but from the standpoint of scriptural semantics and the positive power of words to convey class-character. Kumārila argues that exclusion cannot ground the stable relation between word and object presupposed by ordinary and Vedic usage. The practical complaint is the same as Nyāya's: command, injunction, and recognition require more than a purely negative differentiator.",
-      "primary_loci": ["Kumārila, Ślokavārttika, Apoha-vāda 1–176"]
+      "school": "Tattva-vāda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Madhva thinker dossier (apoha-vāda engagement noted; no on-disk key-passage matching the term was retrievable)",
+        "Vyāsatīrtha, Tarka-Tāṇḍava thinker dossier (apoha-grounded sāmānya-analysis noted; no on-disk key-passage matching the term was retrievable)",
+        "Jayatīrtha / Rāghavendra materials searched at dossier level; no apoha locus retrieved"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The supplied Bhedābheda dossiers did not yield a distinct apoha-treatment or a school-defining use of the term for this phase."
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The supplied Acintya-Bhedābheda materials did not yield a distinct apoha-treatment or a school-defining use of the term for this phase."
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The supplied Dvaitādvaita materials did not yield a distinct apoha-treatment or a school-defining use of the term for this phase."
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The supplied Śuddhādvaita materials did not yield a distinct apoha-treatment or a school-defining use of the term for this phase."
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "In the searchable Sāṃkhya primaries on disk, apoha does not function as a technical account of word-meaning or conceptual determination for the school."
+    },
+    {
+      "school": "Yoga",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "In the searchable Yoga primaries on disk, apoha does not function as a technical account of word-meaning or conceptual determination for the school."
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "Vācaspati Miśra states the standard Nyāya objection that positive terms such as dravya and sat cannot coherently be reduced to anyāpoha, because that would destroy their vidhirūpa force and make sāmānādhikaraṇya unintelligible. [cite://vacaspati/nyaya-varttika-tatparya-tika/2.2.65-anyapoha-vs-jati] He also reports the Buddhist thesis that words and concepts proceed as anyāpohagopacara, only to reject it in favor of real universals and real jātimatī vyakti as the object of śabda and vikalpa. [cite://vacaspati/nyaya-varttika-tatparya-tika/2.2.65-anyapoha-vs-jati]",
+      "primary_loci": [
+        "Nyāyavārttikatātparyaṭīkā on Nyāya-Sūtra 2.2.65"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vacaspati/nyaya-varttika-tatparya-tika/2.2.65-anyapoha-vs-jati",
+          "locus_short": "NVTT ad NS 2.2.65"
+        }
+      ]
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "Sucaritamiśra, in the Kāśikā on the Ślokavārttika, explicitly lists sādṛśyarūpa and apoharūpa as rival accounts of sāmānya to be rejected from the Mīmāṃsā standpoint. [cite://sucaritamisra/mimamsa-slokavarttika-kasika/2.135-137-apoharupa-samanya] He further argues that exclusion cannot operate upon what is absolutely nonexistent, so an apoha-based account cannot ground the cognition of word-meaning that the school requires. [cite://sucaritamisra/mimamsa-slokavarttika-kasika/2.135-137-apoharupa-samanya]",
+      "primary_loci": [
+        "Mīmāṃsāślokavārttika-Kāśikā 2.135-137"
+      ],
+      "citations": [
+        {
+          "cite": "cite://sucaritamisra/mimamsa-slokavarttika-kasika/2.135-137-apoharupa-samanya",
+          "locus_short": "MŚV Kāśikā 2.135-137"
+        }
+      ]
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "In the supplied Mādhyamaka primaries for this phase, apoha does not appear as a distinct school-defining technical category, and no substantive locus was retrievable."
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "Within the Dharmakīrtian wing of Yogācāra, the inferential sign is explicitly said to have an apohaviṣaya, since grasping one property in a real thing does not by itself amount to grasping the whole object. [cite://dharmakirti/pramana-varttika/3.46-47-apohavisaya-lingam] Apoha therefore marks the conceptual object of inference and verbal determination, rather than a positively real universal inhering in particulars. [cite://dharmakirti/pramana-varttika/3.46-47-apohavisaya-lingam]",
+      "primary_loci": [
+        "Pramāṇavārttika 3.46-47"
+      ],
+      "citations": [
+        {
+          "cite": "cite://dharmakirti/pramana-varttika/3.46-47-apohavisaya-lingam",
+          "locus_short": "PrV 3.46-47"
+        }
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "Pratyabhijñā does not deploy apoha as a Buddhist denial of universals; rather, it internalizes apohana as a power of unitary consciousness and makes exclusion constitutive of vikalpa. [cite://utpaladeva/isvara-pratyabhijna-karika/1.3.7-jnana-smrti-apohana] [cite://utpaladeva/isvara-pratyabhijna-karika/1.6.3-5-anyavyapohana] Utpaladeva accordingly states that the determination 'ghaṭa' arises through atad-vyapohana, and that the body-bound aham-vimarśa is itself a vikalpa generated by anyavyapohana. [cite://utpaladeva/isvara-pratyabhijna-karika/1.6.3-5-anyavyapohana]",
+      "primary_loci": [
+        "Īśvara-Pratyabhijñā-Kārikā 1.3.7",
+        "Īśvara-Pratyabhijñā-Kārikā 1.6.3-5"
+      ],
+      "citations": [
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/1.3.7-jnana-smrti-apohana",
+          "locus_short": "ĪPK 1.3.7"
+        },
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/1.6.3-5-anyavyapohana",
+          "locus_short": "ĪPK 1.6.3-5"
+        }
+      ]
+    },
+    {
+      "school": "Jainism",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Akalaṅka thinker dossier (sustained anti-apoha engagement noted; no on-disk key-passage matching the term was retrievable)",
+        "Tattvārtha-Sūtra searched; no apoha locus found"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Aṣṭādhyāyī / Mahābhāṣya / Vākyapadīya [not on disk for this phase]"
+      ],
+      "citations": []
     }
   ],
-  "see_also": ["svalaksana", "samanyalaksana", "pramana-dvaya", "anumana", "samanya", "jati", "samavaya", "vyapti"],
+  "see_also": [
+    "svalaksana",
+    "samanyalaksana",
+    "pramana-dvaya",
+    "anumana",
+    "samanya",
+    "jati",
+    "samavaya",
+    "vyapti"
+  ],
   "translator_note": "\"Exclusion\" is standard, but it can sound too thin if read in ordinary English. The doctrine is not just saying that words are vague or contrastive. It is a full alternative to realist universal theory. Calling it simply \"nominalism\" is also lazy: that imports a Western debate while hiding the specifically Buddhist links to *svalakṣaṇa*, *sāmānya-lakṣaṇa*, *artha-kriyā*, and karmically conditioned conceptuality.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus"
+  "last_verified_by": "glossary-wave2-codex54"
 }

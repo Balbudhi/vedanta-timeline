@@ -13,7 +13,7 @@
     "pramane"
   ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54",
+  "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "A *pramāṇa* is the operative means by which a cognition counts as *pramā* rather than *apramā*. The term belongs inside a larger epistemic fourfold: *pramātṛ* (knower), *pramāṇa* (means), *prameya* (object), and *pramiti* or *pramā* (resulting true cognition). It is therefore closer to an efficacious cognitive instrument than to 'evidence' in the modern sense. Disputes over *pramāṇa* are never merely about counting. Nyāya, Mīmāṃsā, Buddhist epistemology, and Vedānta disagree because they disagree about what kinds of objects there are, how cognition relates to them, whether absence-knowledge or postulation is reducible to inference, and whether testimony is autonomous. In Vedānta the decisive claim is that ordinary perception and inference govern *vyavahāra*, but *brahman* is disclosed only by *śabda-pramāṇa*, above all *śruti*. Hence debates about the autonomy of testimony, *svataḥ-prāmāṇya* versus *parataḥ-prāmāṇya*, and the exact relation between cognition and liberation are load-bearing parts of metaphysics, not scholastic appendices.",
   "per_school": [
     {
@@ -38,10 +38,6 @@
         {
           "cite": "cite://sankara/upadesa-sahasri/I.17.7-9",
           "locus_short": "UpS I.17.7-9"
-        },
-        {
-          "cite": "cite://prakasatman/pancapadika-vivarana/brahma-vicāre kim-ānantaryam atha-śabdāvagamyam",
-          "locus_short": "PV p. 164"
         },
         {
           "cite": "cite://prakasatman/pancapadika-vivarana/mahāvākyasyāparokṣa-prayojakatvam",
@@ -96,16 +92,8 @@
           "locus_short": "BBsBh 1.1.1.15"
         },
         {
-          "cite": "cite://madhva/mithyatvanumana-khandana/239, clause 11",
-          "locus_short": "p. 239, clause 11"
-        },
-        {
           "cite": "cite://madhva/tattvodyota/Pramāṇābhāvopapādanam",
           "locus_short": "Anirvacanīye Pramāṇābhāvopapādanam"
-        },
-        {
-          "cite": "cite://madhva/mithyatvanumana-khandana/239, clause 14",
-          "locus_short": "p. 239, clause 14"
         },
         {
           "cite": "cite://vyasatirtha/tarka-tandava/1.5",
@@ -125,9 +113,25 @@
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Acintya-Bhedābheda begins its system by asking after *pramāṇa* because the objects at issue are *alaukika* and *acintya*; owing to the *jīva*'s four defects, *pratyakṣa* and the rest are *sadoṣa* for that domain [[TS §9](cite://jiva-gosvami/sat-sandarbha/§9)][[TS §10](cite://jiva-gosvami/sat-sandarbha/§10)]. For inquiry into the all-transcending, all-supporting, inconceivable reality, Jīva therefore makes the Veda as *aprākṛta-vacana* the decisive *pramāṇa* [[TS §10](cite://jiva-gosvami/sat-sandarbha/§10)]. Within that *śabda*-domain, the *Sandarbha* proceeds by taking the *Bhāgavata* itself as the text to be examined for the determination of *parama-niḥśreyasa* [[TS §27](cite://jiva-gosvami/sat-sandarbha/§27)].",
+      "primary_loci": [
+        "Tattva-Sandarbha §§9-10",
+        "Tattva-Sandarbha §27"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§9",
+          "locus_short": "TS §9"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§10",
+          "locus_short": "TS §10"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§27",
+          "locus_short": "TS §27"
+        }
+      ]
     },
     {
       "school": "Dvaitādvaita",
@@ -137,39 +141,123 @@
     },
     {
       "school": "Śuddhādvaita",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Śuddhādvaita insists that Brahman is not established anywhere in ordinary experience as either partless or partite; that issue is settled only because Brahman is *vedaika-samadhigamya* [[BSB 2.3.43-45](cite://vallabha/anu-bhasya/2.3.43-45)]. The same *Aṇu-Bhāṣya* accordingly treats *brahmajñāna* as what renders the soul fit for *puruṣottama-prāpti*, so the decisive authority for Brahman is *śruti*-backed knowledge rather than any merely laukika route [[BSB 1.1.12-19](cite://vallabha/anu-bhasya/1.1.12-19)].",
+      "primary_loci": [
+        "Aṇu-Bhāṣya on Brahma-Sūtra 2.3.43-45",
+        "Aṇu-Bhāṣya on Brahma-Sūtra 1.1.12-19"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anu-bhasya/2.3.43-45",
+          "locus_short": "BSB 2.3.43-45"
+        },
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.1.12-19",
+          "locus_short": "BSB 1.1.12-19"
+        }
+      ]
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Sāṃkhya admits three *pramāṇas* only: *dṛṣṭa* or *pratyakṣa*, *anumāna*, and *āptavacana*, since *prameya-siddhi* depends on *pramāṇa* and no excess is needed beyond this triad [[SK 4](cite://isvarakrsna/samkhya-karika/4)][[SS 1.87-1.101](cite://kapila/samkhya-sutra/1.87-1.101)]. The commented *Kārikā* tradition explicitly absorbs *arthāpatti*, *sambhava*, *abhāva*, *upamāna*, *aitihya*, and the like into inference, thereby preserving a formally threefold economy of epistemic means [[SK 4 comm.](cite://isvarakrsna/samkhya-karika/4-commentary)].",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 4",
+        "Sāṃkhya-Sūtra 1.87-1.101"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/4",
+          "locus_short": "SK 4"
+        },
+        {
+          "cite": "cite://kapila/samkhya-sutra/1.87-1.101",
+          "locus_short": "SS 1.87-1.101"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/4-commentary",
+          "locus_short": "SK 4 comm."
+        }
+      ]
     },
     {
       "school": "Yoga",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Yoga, *pramāṇa* is not a generic name for all valid cognition but one determinate class of *citta-vṛtti*, listed alongside *viparyaya*, *vikalpa*, *nidrā*, and *smṛti* [[YS 1.6-1.7](cite://patanjali/yoga-sutra/1.6-1.7)]. Its three members are *pratyakṣa*, *anumāna*, and *āgama*, and Vyāsa glosses them functionally as determinate object-contact, universal ascertainment through relation, and trustworthy verbal transmission from an *āpta* [[YBh 1.7](cite://vyasa/yoga-bhasya/1.7)].",
+      "primary_loci": [
+        "Yoga-Sūtra 1.6-1.7",
+        "Vyāsa-Bhāṣya on Yoga-Sūtra 1.7"
+      ],
+      "citations": [
+        {
+          "cite": "cite://patanjali/yoga-sutra/1.6-1.7",
+          "locus_short": "YS 1.6-1.7"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/1.7",
+          "locus_short": "YBh 1.7"
+        }
+      ]
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Nyāya canonically enumerates four *pramāṇas* — *pratyakṣa*, *anumāna*, *upamāna*, and *śabda* — and the opening sūtras define each as a distinct route to object-knowledge [[NS 1.1.3-7](cite://gautama/nyaya-sutra/1.1.3-7)]. Later Nyāya-Vaiśeṣika handbooks preserve this fourfold structure both at the level of valid cognition and at the level of instrument, while distinguishing Vaidika *śabda* from merely human testimony by appeal to *āptavākya* and *īśvarokti* [[TSa 36](cite://annambhatta/tarka-sangraha/36)][[TSa 62](cite://annambhatta/tarka-sangraha/62)]. Classical Vaiśeṣika, however, still tends to fold *śābda* into *laiṅgika* and to articulate *āmnāya-prāmāṇya* within that leaner inferential economy [[VS 9.18-20, 10.19-21](cite://kanada/vaisesika-sutra/9.18-20,10.19-21)].",
+      "primary_loci": [
+        "Nyāya-Sūtra 1.1.3-7",
+        "Tarka-Saṅgraha 36 and 62",
+        "Vaiśeṣika-Sūtra 9.18-20, 10.19-21"
+      ],
+      "citations": [
+        {
+          "cite": "cite://gautama/nyaya-sutra/1.1.3-7",
+          "locus_short": "NS 1.1.3-7"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/36",
+          "locus_short": "TSa 36"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/62",
+          "locus_short": "TSa 62"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/9.18-20,10.19-21",
+          "locus_short": "VS 9.18-20, 10.19-21"
+        }
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Pūrva-Mīmāṃsā grounds *pramāṇa*-theory in the claim that the word-meaning relation is *autpattika* and that, where the object is not otherwise available, that verbal connection itself is *pramāṇa* [[MS 1.1.5](cite://jaimini/mimamsa-sutra/1.1.5)]. In the specific domain of *dharma*, which is *śabdamūla*, the *aśabda* is not to be expected, and even a proposed *anumāna* is set aside when it conflicts with the *śāstric* basis of that domain [[MS 1.3.1](cite://jaimini/mimamsa-sutra/1.3.1)][[MS 1.3.2-3](cite://jaimini/mimamsa-sutra/1.3.2-3)].",
+      "primary_loci": [
+        "Mīmāṃsā-Sūtra 1.1.5",
+        "Mīmāṃsā-Sūtra 1.3.1-3"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/1.1.5",
+          "locus_short": "MS 1.1.5"
+        },
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/1.3.1",
+          "locus_short": "MS 1.3.1"
+        },
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/1.3.2-3",
+          "locus_short": "MS 1.3.2-3"
+        }
+      ]
     },
     {
       "school": "Mādhyamaka",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In the Mādhyamaka attack on *svabhāva*, *pramāṇas* cannot serve as self-grounding foundations for the establishment of things, because the very claim that *prameyas* are established by *pramāṇas* immediately raises the question of how the *pramāṇas* themselves are established [[VV 31-33](cite://nagarjuna/vigraha-vyavartani/31-33)]. If they are established by further *pramāṇas*, *anavasthā* follows; if they are granted establishment without *pramāṇa*, the thesis that objects depend on *pramāṇa* collapses into *vaiṣamya* [[VV 31-33](cite://nagarjuna/vigraha-vyavartani/31-33)].",
+      "primary_loci": [
+        "Vigraha-Vyāvartanī 31-33"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nagarjuna/vigraha-vyavartani/31-33",
+          "locus_short": "VV 31-33"
+        }
+      ]
     },
     {
       "school": "Yogācāra",
@@ -198,15 +286,44 @@
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Pratyabhijñā internalizes *pramāṇa* into the very self-manifestation of consciousness: in recollection, the self-awareness present there is itself the *pramāṇa* for the prior self-experience, not some external *liṅga* [[ĪPK 1.7.5](cite://utpaladeva/isvara-pratyabhijna-karika/1.7.5)]. More generally, Utpaladeva defines *pramāṇa* as the fresh self-appearance whereby a thing is determinately fixed, while *pramiti* is the unbaffled ascertainment that follows upon that reflexive manifestation [[ĪPK 2.3.1-2](cite://utpaladeva/isvara-pratyabhijna-karika/2.3.1-2)]. At the highest level, however, the ever-luminous *pramātṛ* does not require a separate *pramāṇa* for its own *siddhi*; the need for *pramāṇa* belongs to the appearing novelties within consciousness, not to the abiding Lord-conscious subject itself [[ĪPK 2.3.16](cite://utpaladeva/isvara-pratyabhijna-karika/2.3.16)].",
+      "primary_loci": [
+        "Īśvara-Pratyabhijñā-Kārikā 1.7.5",
+        "Īśvara-Pratyabhijñā-Kārikā 2.3.1-2",
+        "Īśvara-Pratyabhijñā-Kārikā 2.3.16"
+      ],
+      "citations": [
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/1.7.5",
+          "locus_short": "ĪPK 1.7.5"
+        },
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/2.3.1-2",
+          "locus_short": "ĪPK 2.3.1-2"
+        },
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/2.3.16",
+          "locus_short": "ĪPK 2.3.16"
+        }
+      ]
     },
     {
       "school": "Jainism",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Jainism pairs *pramāṇa* with *naya* from the outset: the *tattvas* are to be apprehended by *pramāṇas* and standpoints, so full cognition is at once many-sided and perspectivally articulated [[TAS 1.6](cite://umasvati/tattvartha-sutra/1.6)]. The *Tattvārtha-Sūtra* then classifies knowledge as fivefold and treats those five knowledges as *pramāṇas*, with *mati* and *śruta* as *parokṣa* and the remainder as *pratyakṣa* [[TAS 1.9-12](cite://umasvati/tattvartha-sutra/1.9-12)].",
+      "primary_loci": [
+        "Tattvārtha-Sūtra 1.6",
+        "Tattvārtha-Sūtra 1.9-12"
+      ],
+      "citations": [
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/1.6",
+          "locus_short": "TAS 1.6"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/1.9-12",
+          "locus_short": "TAS 1.9-12"
+        }
+      ]
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",

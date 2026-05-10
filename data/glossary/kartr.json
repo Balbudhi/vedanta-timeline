@@ -15,7 +15,7 @@
     "kartari"
   ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54",
+  "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "*Kartṛ* is the agent-role within Pāṇinian *kāraka* analysis, defined at Aṣṭādhyāyī 1.4.54 as *svatantraḥ kartā* — 'the agent is the independent one' — namely the participant in the action whose self-direction (*svatantratva*) coordinates the other *kāraka*-roles toward the *kriyā*. The grammatical definition is doctrinally explosive: it makes *kartṛtva* (agency) consist in *svātantrya* (independence). Because the schools disagree radically about *who or what is independent*, the analysis of *kartṛ* becomes the fault-line for Indian theories of self, freedom, and divine causality. The abstract noun *kartṛtva* names the property of being-an-agent. The classic dispute: in Sāṃkhya, *prakṛti*-derived *buddhi* is the *kartṛ* — *puruṣa* is impassible witness; in Advaita, *kartṛtva* is *avidyā*-imposed superimposition on the actionless *ātman*; in Viśiṣṭādvaita and Tattva-vāda (Dvaita), the *jīva* is a real *kartṛ* whose agency is nevertheless dependent (*paratantra*) on the Lord; in Trika, the only true *kartṛ* is Śiva, and finite agency is the contracted self-recognition of his *svātantrya-śakti*. The *kartṛtva-bhoktṛtva* (agent-experiencer) doublet appears in nearly every Vedānta school as the marker of bound *jīva*-status; *mokṣa* is variously the dissolution, transformation, or perfection of *kartṛtva*. The grammatical-philosophical point: agency is not a brute given but a *role* in a structured analysis, whose attribution requires identifying the locus of independence.",
   "per_school": [
     {
@@ -180,27 +180,114 @@
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Sāṃkhya, the conscious *puruṣa* is a witness and seer whose essential status is *sākṣitva*, *draṣṭṛtva*, and *akartṛbhāva*; the guṇas are the ones that function as agents [[SK 19-20](cite://isvarakrsna/samkhya-karika/19-20)]. The commentarial tradition makes the point explicit: *mahadādi-liṅga* performs cognitive and conative functions, while the puruṣa is called a doer only by conjunction, *kartṛsaṃsargāt karteva*, though in truth it is *akartā* [[SK Comm. 20](cite://isvarakrsna/samkhya-karika-comm/20)]. Accordingly bondage, transmigration, and release strictly belong to *prakṛti* and its evolutes, not to the puruṣa itself [[SK Comm. 62](cite://isvarakrsna/samkhya-karika-comm/62)].",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 19-20",
+        "Sāṃkhya-Kārikā commentary on 20",
+        "Sāṃkhya-Kārikā commentary on 62"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/19-20",
+          "locus_short": "SK 19-20"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika-comm/20",
+          "locus_short": "SK Comm. 20"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika-comm/62",
+          "locus_short": "SK Comm. 62"
+        }
+      ]
     },
     {
       "school": "Yoga",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Yoga, the *dṛśya* made of guṇas is what acts, while the puruṣa is *draṣṭṛ*, pure seeing, to whom the products of buddhi are only secondarily attributed because it is the experiencer of their fruit [[YBh 2.18](cite://vyasa/yoga-bhasya/2.18)][[YS 2.20](cite://patanjali/yoga-sutra/2.20)]. Vyāsa states the point without ambiguity: the three guṇas are *kartṛs*, puruṣa is *akartṛ*, and bondage and release occur in buddhi though they are spoken of as belonging to puruṣa as *bhoktṛ* [[YBh 2.18](cite://vyasa/yoga-bhasya/2.18)]. Hence the language of action applied to puruṣa is only a *vyapadeśa* imposed on a *niṣkriya* subject [[YBh 1.9](cite://vyasa/yoga-bhasya/1.9)].",
+      "primary_loci": [
+        "Yoga-Bhāṣya on Yoga-Sūtra 2.18",
+        "Yoga-Sūtra 2.20",
+        "Yoga-Bhāṣya on Yoga-Sūtra 1.9"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vyasa/yoga-bhasya/2.18",
+          "locus_short": "YBh 2.18"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/2.20",
+          "locus_short": "YS 2.20"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/1.9",
+          "locus_short": "YBh 1.9"
+        }
+      ]
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "For Nyāya-Vaiśeṣika, the self is a real substance whose presence is inferred from desire, aversion, effort, pleasure, pain, and cognition; these are the marks of the self rather than of body alone [[NS 1.1.10](cite://gautama/nyaya-sutra/1.1.10)][[VS 3.2.4](cite://kanada/vaisesika-sutra/3.2.4)]. Agency is therefore anchored in the self through *prayatna*: bodily motion occurs from the conjunction of self and effort, and ethically charged activity proceeds from desire and aversion [[VS 5.1.1](cite://kanada/vaisesika-sutra/5.1.1)][[VS 6.2.17](cite://kanada/vaisesika-sutra/6.2.17)]. In later compendious idiom, *ātmā* is the substrate of cognition and *prayatna* is simply *kṛti*; *kartṛtva* thus belongs to an enduring self that initiates action through its qualities and connections [[AnTS 17](cite://annambhatta/tarka-sangraha/17)][[AnTS 70](cite://annambhatta/tarka-sangraha/70)].",
+      "primary_loci": [
+        "Nyāya-Sūtra 1.1.10",
+        "Vaiśeṣika-Sūtra 3.2.4",
+        "Vaiśeṣika-Sūtra 5.1.1",
+        "Vaiśeṣika-Sūtra 6.2.17",
+        "Tarka-Saṅgraha 17, 70"
+      ],
+      "citations": [
+        {
+          "cite": "cite://gautama/nyaya-sutra/1.1.10",
+          "locus_short": "NS 1.1.10"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/3.2.4",
+          "locus_short": "VS 3.2.4"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/5.1.1",
+          "locus_short": "VS 5.1.1"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/6.2.17",
+          "locus_short": "VS 6.2.17"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/17",
+          "locus_short": "AnTS 17"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/70",
+          "locus_short": "AnTS 70"
+        }
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Pūrva-Mīmāṃsā, the relevant *kartṛ* is the ritual *puruṣa* or *yajamāna* to whom the फल belongs, while the sacrifice's limbs are ordered as *śeṣa* for the sake of that *puruṣārtha* [[MS 3.1.5-6](cite://jaimini/mimamsa-sutra/3.1.5-6)]. Śabara makes the agentive semantics explicit when glossing *dharma*: whoever is the doer of something is designated by that, so the act that yokes a person to *niḥśreyasa* is what receives the name *dharma* [[ŚBh on MS 1.1.2](cite://shabara/mimamsa-sutra-bhasya/1.1.2)]. At the level of ritual interpretation, *yaj* is parsed through its connection with dravya, phala, and bhoktṛ; agency is thus the authorized performance of a Vedic act that produces *apūrva* for the entitled performer [[MS 2.3.14](cite://jaimini/mimamsa-sutra/2.3.14)][[ŚBh on MS 7.4.1](cite://shabara/mimamsa-sutra-bhasya/7.4.1)].",
+      "primary_loci": [
+        "Mīmāṃsā-Sūtra 3.1.5-6",
+        "Śabara-Bhāṣya on Mīmāṃsā-Sūtra 1.1.2",
+        "Mīmāṃsā-Sūtra 2.3.14",
+        "Śabara-Bhāṣya on Mīmāṃsā-Sūtra 7.4.1"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/3.1.5-6",
+          "locus_short": "MS 3.1.5-6"
+        },
+        {
+          "cite": "cite://shabara/mimamsa-sutra-bhasya/1.1.2",
+          "locus_short": "ŚBh on MS 1.1.2"
+        },
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/2.3.14",
+          "locus_short": "MS 2.3.14"
+        },
+        {
+          "cite": "cite://shabara/mimamsa-sutra-bhasya/7.4.1",
+          "locus_short": "ŚBh on MS 7.4.1"
+        }
+      ]
     },
     {
       "school": "Mādhyamaka",
@@ -249,15 +336,59 @@
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Pratyabhijñā/Trika, *kartṛtva* in the strict sense is identical with Śiva's *svātantrya*: the five acts of manifestation, maintenance, withdrawal, concealment, and grace are themselves the mark of conscious lordship [[AbhT 14.24-27](cite://abhinavagupta/tantraloka/14.24-27)]. Because *asvatantrasya kartṛtvaṃ na hi jātūpapadyate*, potter-like efficient agency is secondary; primary agency is sovereign consciousness itself [[AbhT 9.8](cite://abhinavagupta/tantraloka/9.8)][[PH 34](cite://ksemaraja/pratyabhijna-hrdayam/34)]. Finite agency is contracted Śiva-agency: when *kriyāśakti* shrinks from *sarvakartṛtva* into *kiṃcitkartṛtva*, the saṃsārin emerges, and reawakening carries even the instruments back into *kartṛtā* [[PH 9-10](cite://ksemaraja/pratyabhijna-hrdayam/9-10)][[AbhT 30.2-3](cite://abhinavagupta/tantraloka/30.2-3)].",
+      "primary_loci": [
+        "Tantrāloka 14.24-27",
+        "Tantrāloka 9.8",
+        "Pratyabhijñā-Hṛdayam 34",
+        "Pratyabhijñā-Hṛdayam 9-10",
+        "Tantrāloka 30.2-3"
+      ],
+      "citations": [
+        {
+          "cite": "cite://abhinavagupta/tantraloka/14.24-27",
+          "locus_short": "AbhT 14.24-27"
+        },
+        {
+          "cite": "cite://abhinavagupta/tantraloka/9.8",
+          "locus_short": "AbhT 9.8"
+        },
+        {
+          "cite": "cite://ksemaraja/pratyabhijna-hrdayam/34",
+          "locus_short": "PH 34"
+        },
+        {
+          "cite": "cite://ksemaraja/pratyabhijna-hrdayam/9-10",
+          "locus_short": "PH 9-10"
+        },
+        {
+          "cite": "cite://abhinavagupta/tantraloka/30.2-3",
+          "locus_short": "AbhT 30.2-3"
+        }
+      ]
     },
     {
       "school": "Jainism",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Jainism, the soul is characterized by *upayoga*, and its karmically decisive activity is analyzed as *yoga*, the operations of body, speech, and mind [[TS 2.8](cite://umasvati/tattvartha-sutra/2.8)][[TS 6.1-2](cite://umasvati/tattvartha-sutra/6.1-2)]. These yogas are the channels of *āsrava*, and when accompanied by *kaṣāya* the jīva appropriates karmically fit pudgalas, which is precisely *bandha* [[TS 8.1-2](cite://umasvati/tattvartha-sutra/8.1-2)]. The Jain analogue of *kartṛtva*, then, is the soul's own passion-conditioned activity and appropriation, not an inactive witnessing consciousness [[TS 6.1-2](cite://umasvati/tattvartha-sutra/6.1-2)][[TS 8.1-2](cite://umasvati/tattvartha-sutra/8.1-2)].",
+      "primary_loci": [
+        "Tattvārtha-Sūtra 2.8",
+        "Tattvārtha-Sūtra 6.1-2",
+        "Tattvārtha-Sūtra 8.1-2"
+      ],
+      "citations": [
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/2.8",
+          "locus_short": "TS 2.8"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/6.1-2",
+          "locus_short": "TS 6.1-2"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/8.1-2",
+          "locus_short": "TS 8.1-2"
+        }
+      ]
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",

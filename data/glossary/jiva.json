@@ -44,10 +44,6 @@
           "locus_short": "BS 1.1"
         },
         {
-          "cite": "cite://prakasatman/pancapadika-vivarana/jīvasya brahma-pratibimbatvāpādanam",
-          "locus_short": "PV p. 65"
-        },
-        {
           "cite": "cite://sarvajnatman/samksepa-sariraka/3.278",
           "locus_short": "SS III.278"
         },
@@ -195,27 +191,88 @@
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Sāṃkhya, what later inter-school idiom often calls *jīva* is the *puruṣa*: a plurality of conscious subjects established from enjoyership, superintendence, and the very orientation toward *kaivalya* [[SK 17-19](cite://isvarakrsna/samkhya-karika/17-19)]. The commerce of bondage, transmigration, and release belongs strictly to *prakṛti* and its evolutes; the *puruṣa* is neither agent nor patient, but the spectator for whose sake *prakṛti* binds, displays itself, and withdraws [[SK 62-65](cite://isvarakrsna/samkhya-karika/62-65)].",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 17-19",
+        "Sāṃkhya-Kārikā 62-65"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/17-19",
+          "locus_short": "SK 17-19"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/62-65",
+          "locus_short": "SK 62-65"
+        }
+      ]
     },
     {
       "school": "Yoga",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Yoga construes the empirical self as the *draṣṭṛ* or *puruṣa* conjoined with the *dṛśya* through *avidyā*: though pure seeing alone, it appears as a witness of mental presentations and enters *bhoga* under that conjunction [[YS 2.17-25](cite://patanjali/yoga-sutra/2.17-25)]. Vyāsa sharpens the point by saying that *kleśa*, *karma*, *vipāka*, and *āśaya* reside in mind yet are ascribed to puruṣa because it is the *bhoktṛ*; the bound self is thus puruṣa under karmically loaded appropriation, whereas Īśvara is the puruṣa untouched by such appropriation [[YBh 1.24](cite://vyasa/yoga-bhasya/1.24)].",
+      "primary_loci": [
+        "Yoga-Sūtra 2.17-25",
+        "Vyāsa-Bhāṣya on Yoga-Sūtra 1.24"
+      ],
+      "citations": [
+        {
+          "cite": "cite://patanjali/yoga-sutra/2.17-25",
+          "locus_short": "YS 2.17-25"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/1.24",
+          "locus_short": "YBh 1.24"
+        }
+      ]
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Nyāya-Vaiśeṣika, the individual self is a real *ātman* distinct from body, senses, and mind, known by its marks: desire, aversion, effort, pleasure, pain, and cognition [[NS 1.1.9-10](cite://aksapada/nyaya-sutra/1.1.9-10)][[VaiS 3.2.4](cite://kanada/vaisesika-sutra/3.2.4)]. Later scholastic synopsis states the point in explicit *jīvātman* idiom: there is one eternal, all-pervasive individual self for each body, distinct from the one omniscient Paramātman, while mind is atomic and privately tied to each self [[TSg 17](cite://annambhatta/tarka-sangraha/17)]. Liberation is the complete cessation of the painful conjunction-complex, described as *apavarga* in Nyāya and as *mokṣa* in Vaiśeṣika [[NS 1.1.22](cite://aksapada/nyaya-sutra/1.1.22)][[VaiS 5.2.20](cite://kanada/vaisesika-sutra/5.2.20)].",
+      "primary_loci": [
+        "Nyāya-Sūtra 1.1.9-10, 1.1.22",
+        "Tarka-Saṅgraha 17",
+        "Vaiśeṣika-Sūtra 3.2.4, 5.2.20"
+      ],
+      "citations": [
+        {
+          "cite": "cite://aksapada/nyaya-sutra/1.1.9-10",
+          "locus_short": "NS 1.1.9-10"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/17",
+          "locus_short": "TSg 17"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/3.2.4",
+          "locus_short": "VaiS 3.2.4"
+        },
+        {
+          "cite": "cite://aksapada/nyaya-sutra/1.1.22",
+          "locus_short": "NS 1.1.22"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/5.2.20",
+          "locus_short": "VaiS 5.2.20"
+        }
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Pūrva-Mīmāṃsā does not privilege a Vedāntic *jīva*-vocabulary, but it does posit an enduring ritual subject, the *puruṣa* or *yajamāna*, whom dharma joins to *niḥśreyasa* and whom Vedic injunction alone can orient toward supersensible results [[ŚBh 1.1.2](cite://sabara/shabara-bhasya/1.1.2)]. Later Bhāṭṭa discussion makes the same structure explicit: injunctional language is unintelligible unless there is a conscious doer of action and a later *paralokaphalabhoktṛ*, so ritual theory presupposes a self surviving the performed act and its bodily moment [[ŚV 5.9.11-15](cite://kumarila/sloka-varttika/5.9.11-15)].",
+      "primary_loci": [
+        "Śabara-Bhāṣya on Mīmāṃsā-Sūtra 1.1.2",
+        "Ślokavārttika 5.9.11-15 (commentarial discussion)"
+      ],
+      "citations": [
+        {
+          "cite": "cite://sabara/shabara-bhasya/1.1.2",
+          "locus_short": "ŚBh 1.1.2"
+        },
+        {
+          "cite": "cite://kumarila/sloka-varttika/5.9.11-15",
+          "locus_short": "ŚV 5.9.11-15"
+        }
+      ]
     },
     {
       "school": "Mādhyamaka",
@@ -276,14 +333,6 @@
           "locus_short": "Triṃśikā 17"
         },
         {
-          "cite": "cite://vasubandhu/vimsatika/9 and Entry into *Pudgala-Nairātmya*",
-          "locus_short": "Viṃśatikā 9"
-        },
-        {
-          "cite": "cite://vasubandhu/vimsatika/10 and Entry into *Dharma-Nairātmya*",
-          "locus_short": "Viṃśatikā 10"
-        },
-        {
           "cite": "cite://vasubandhu/trimsika/29",
           "locus_short": "Triṃśikā 29"
         },
@@ -295,15 +344,39 @@
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Pratyabhijñā/Trika, what appears as the *jīva* is consciousness under self-contraction: *jīvatā* is constituted by *jñāna* and *kriyā*, yet the self's own lordly nature is occluded by māyā [[ĪPK 1.1.4-5](cite://utpaladeva/isvara-pratyabhijna-karika/1.1.4-5)]. The bound subject is therefore the *pramātṛ* blinded by māyā, enmeshed in *karmabandha* and reduced to the condition of *paśu* when reality appears as divided; liberation is the recovery of innate *aiśvarya* through recognition, not the production of a new self [[ĪPK 3.2.2-4](cite://utpaladeva/isvara-pratyabhijna-karika/3.2.2-4)].",
+      "primary_loci": [
+        "Īśvara-Pratyabhijñā-Kārikā 1.1.4-5",
+        "Īśvara-Pratyabhijñā-Kārikā 3.2.2-4"
+      ],
+      "citations": [
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/1.1.4-5",
+          "locus_short": "ĪPK 1.1.4-5"
+        },
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/3.2.2-4",
+          "locus_short": "ĪPK 3.2.2-4"
+        }
+      ]
     },
     {
       "school": "Jainism",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Jainism, *jīva* is itself a fundamental *tattva*, not a derivative designation for a temporarily embodied self [[TattvS 1.4](cite://umasvati/tattvartha-sutra/1.4)]. Its defining mark is *upayoga*, and it exists in two principal conditions, *saṃsārin* and *mukta*; bondage and release therefore name real states of a soul-substance rather than mere epistemic appearance [[TattvS 2.8-10](cite://umasvati/tattvartha-sutra/2.8-10)].",
+      "primary_loci": [
+        "Tattvārtha-Sūtra 1.4",
+        "Tattvārtha-Sūtra 2.8-10"
+      ],
+      "citations": [
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/1.4",
+          "locus_short": "TattvS 1.4"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/2.8-10",
+          "locus_short": "TattvS 2.8-10"
+        }
+      ]
     }
   ],
   "see_also": [
@@ -320,5 +393,5 @@
   ],
   "translator_note": "Avoid flattening *jīva* to 'soul' or even to 'individual self'. 'Soul' imports Christian substance-language, while 'individual self' can sound like a modern psychological ego. The Sanskrit term ordinarily means the living bearer of embodiment, agency, and karmic continuity. It is therefore close to neither a bare metaphysical substance nor a merely autobiographical person, and it is not simply interchangeable with *ātman*.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54"
+  "last_verified_by": "glossary-wave2-codex54"
 }

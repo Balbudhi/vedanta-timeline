@@ -33,10 +33,6 @@
         {
           "cite": "cite://sankara/mandukya-bhasya/upaniṣad.7",
           "locus_short": "MāṇḍU 7"
-        },
-        {
-          "cite": "cite://madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1a",
-          "locus_short": "AdvS 1a"
         }
       ]
     },
@@ -90,18 +86,6 @@
         {
           "cite": "cite://madhva/visnu-tattva-vinirnaya/3.2",
           "locus_short": "VTV 3.2"
-        },
-        {
-          "cite": "cite://madhva/mayavada-khandana/the loss of non-duality stands apart from the self's nature",
-          "locus_short": "MāyK p. 238a"
-        },
-        {
-          "cite": "cite://madhva/mayavada-khandana/it does not stand apart",
-          "locus_short": "MāyK p. 238b"
-        },
-        {
-          "cite": "cite://madhva/mayavada-khandana/the whole doctrine is set aside",
-          "locus_short": "MāyK p. 238c"
         }
       ]
     },
@@ -126,10 +110,6 @@
         {
           "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.3",
           "locus_short": "BṛU 2.3"
-        },
-        {
-          "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.4.5, 1.4.15",
-          "locus_short": "BṛU 2.4.5, 1.4.15"
         }
       ]
     },
@@ -212,21 +192,91 @@
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Here `advaita` is refused at the level of the self, since the plurality of puruṣas is established from the ordered distribution of birth, death, and embodiment [[SS 1.149](cite://kapila/samkhya-sutra/1.149)], [[SK 18](cite://isvarakrsna/samkhya-karika/18)]. The `advaita`-śrutis are read as `jāti-parā`, so they do not cancel numerical difference among knowers [[SS 1.154](cite://kapila/samkhya-sutra/1.154)]. Sāṃkhya therefore rejects `ātmādvaita`: the marks of the self disclose difference, and if plurality were reduced to `upādhi` duality would simply return; liberation is instead `kaivalya`, the discriminative isolation of puruṣa from prakṛti [[SS 5.61](cite://kapila/samkhya-sutra/5.61)], [[SS 6.46](cite://kapila/samkhya-sutra/6.46)], [[SK 19](cite://isvarakrsna/samkhya-karika/19)].",
+      "primary_loci": [
+        "Sāṃkhya-Sūtra 1.149",
+        "Sāṃkhya-Sūtra 1.154",
+        "Sāṃkhya-Sūtra 5.61",
+        "Sāṃkhya-Sūtra 6.46",
+        "Sāṃkhya-Kārikā 18-19"
+      ],
+      "citations": [
+        {
+          "cite": "cite://kapila/samkhya-sutra/1.149",
+          "locus_short": "SS 1.149"
+        },
+        {
+          "cite": "cite://kapila/samkhya-sutra/1.154",
+          "locus_short": "SS 1.154"
+        },
+        {
+          "cite": "cite://kapila/samkhya-sutra/5.61",
+          "locus_short": "SS 5.61"
+        },
+        {
+          "cite": "cite://kapila/samkhya-sutra/6.46",
+          "locus_short": "SS 6.46"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/18",
+          "locus_short": "SK 18"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/19",
+          "locus_short": "SK 19"
+        }
+      ]
     },
     {
       "school": "Yoga",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Yoga does not formulate release as `advaita` but as `kaivalya`, the cessation of saṃyoga and the isolation of the seer when avidyā falls away [[YS 2.25](cite://patanjali/yoga-sutra/2.25)], [[YBh 4.34](cite://vyasa/yoga-bhasya/4.34)]. Vyāsa glosses this as the `atyantika guṇaviyoga` of puruṣa and as the standing of pure `citiśakti` in its own form, not as merger into a single undifferentiated substance [[YBh 3.50](cite://vyasa/yoga-bhasya/3.50)], [[YBh 4.34](cite://vyasa/yoga-bhasya/4.34)]. The closest analogue to non-duality is thus perfected `sattva-puruṣa-anyatā` and the exhaustion of kleśa, after which the puruṣa remains `kevalī` [[YBh 3.55](cite://vyasa/yoga-bhasya/3.55)].",
+      "primary_loci": [
+        "Yoga-Sūtra 2.25",
+        "Yoga-Bhāṣya on YS 3.50",
+        "Yoga-Bhāṣya on YS 3.55",
+        "Yoga-Bhāṣya on YS 4.34"
+      ],
+      "citations": [
+        {
+          "cite": "cite://patanjali/yoga-sutra/2.25",
+          "locus_short": "YS 2.25"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/3.50",
+          "locus_short": "YBh 3.50"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/3.55",
+          "locus_short": "YBh 3.55"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/4.34",
+          "locus_short": "YBh 4.34"
+        }
+      ]
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Nyāya-Vaiśeṣika does not admit `advaita` as the erasure of real difference, because `anya` and `ananya` are mutually dependent notions and `ananyatā` cannot be made to abolish `anyatā` [[NBh 2.2.31](cite://vatsyayana/nyaya-bhasya/2.2.31)], [[NBh 2.2.32](cite://vatsyayana/nyaya-bhasya/2.2.32)]. Vātsyāyana accordingly treats a thesis such as `sarvam ekam` as dialectically self-defeating: once everything is collapsed into one, no distinct `sādhanabhūta avayava` remains available for proof [[NBh 4.1.43](cite://vatsyayana/nyaya-bhasya/4.1.43)]. The school's operative categories are therefore `anyatā`, `pṛthaktva`, and real ontic differentiation among substances and selves, not a final `advaita` [[NBh 2.2.31](cite://vatsyayana/nyaya-bhasya/2.2.31)], [[NBh 4.1.43](cite://vatsyayana/nyaya-bhasya/4.1.43)].",
+      "primary_loci": [
+        "Nyāya-Bhāṣya on NS 2.2.31",
+        "Nyāya-Bhāṣya on NS 2.2.32",
+        "Nyāya-Bhāṣya on NS 4.1.43"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vatsyayana/nyaya-bhasya/2.2.31",
+          "locus_short": "NBh 2.2.31"
+        },
+        {
+          "cite": "cite://vatsyayana/nyaya-bhasya/2.2.32",
+          "locus_short": "NBh 2.2.32"
+        },
+        {
+          "cite": "cite://vatsyayana/nyaya-bhasya/4.1.43",
+          "locus_short": "NBh 4.1.43"
+        }
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
@@ -311,9 +361,31 @@
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Trika speaks positively of non-duality as `paramādvaita`: `vidyā` is the very form of its realization, and the consummation of practice is the recognition `śivo 'ham advitīyo 'ham` [[ŚSV 2.3.1](cite://ksemaraja/siva-sutra-varttika/2.3.1)], [[ŚSV 3.6.18](cite://ksemaraja/siva-sutra-varttika/3.6.18)]. This `advaita` is not a negation of manifestation, for Abhinavagupta describes all this as one `cinmātratattva` in which the universe stands reflected within autonomous self-luminous consciousness [[TS 2.4](cite://abhinavagupta/tantrasara/2.4)], [[TS 3.1-3.8](cite://abhinavagupta/tantrasara/3.1-3.8)]. Difference is accordingly a mode of self-articulation within one `prakāśa-vimarśa` reality, not a second thing outside Śiva [[TS 3.1-3.8](cite://abhinavagupta/tantrasara/3.1-3.8)], [[ŚSV 2.3.1](cite://ksemaraja/siva-sutra-varttika/2.3.1)].",
+      "primary_loci": [
+        "Tantrasāra 2.4",
+        "Tantrasāra 3.1-3.8",
+        "Śiva-Sūtra-Vārttika 2.3.1",
+        "Śiva-Sūtra-Vārttika 3.6.18"
+      ],
+      "citations": [
+        {
+          "cite": "cite://abhinavagupta/tantrasara/2.4",
+          "locus_short": "TS 2.4"
+        },
+        {
+          "cite": "cite://abhinavagupta/tantrasara/3.1-3.8",
+          "locus_short": "TS 3.1-3.8"
+        },
+        {
+          "cite": "cite://ksemaraja/siva-sutra-varttika/2.3.1",
+          "locus_short": "ŚSV 2.3.1"
+        },
+        {
+          "cite": "cite://ksemaraja/siva-sutra-varttika/3.6.18",
+          "locus_short": "ŚSV 3.6.18"
+        }
+      ]
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",
@@ -334,5 +406,5 @@
   ],
   "translator_note": "'Non-duality' is the least bad English gloss, but it still imports modern monism-talk and can suggest a flat denial of plurality. The Sanskrit is more exact: denial of a second independent reality. That denial is then filled out differently by Śaṅkara, Rāmānuja, Vallabha, and Caitanya-line thinkers. Translating *advaita* as 'monism' is especially misleading because it silently imports a Western substance-monism debate and obscures the Indian questions about *bheda*, *upādhi*, *pariṇāma*, and *sublation*.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54"
+  "last_verified_by": "glossary-wave2-codex54"
 }

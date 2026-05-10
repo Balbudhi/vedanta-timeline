@@ -14,7 +14,7 @@
     "karmān"
   ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54",
+  "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "*Karma* is much broader than the English word 'action.' Its background lies in the grammar of agency: Pāṇinian *kāraka* theory analyzes a process through roles such as *kartṛ*, *karaṇa*, and *karman*, so *karma* already belongs to a structured account of who acts, by what means, and upon what. Philosophical schools then extend that grammar into causal theory. Mīmāṃsā treats *karma* as Veda-enjoined performance under *codanā* and *bhāvanā*, with *apūrva* explaining delayed ritual efficacy. Yoga and Vedānta foreground the sequence of action, residual trace, and fruition - *karma*, *saṃskāra*, and *vipāka* - while Nyāya-Vaiśeṣika often speaks of *adṛṣṭa* as the unseen carryover connecting deed and result. Thus *karma* can name the act, the ritual performance, the residual deposit left by action, or the whole economy by which embodied life is steered. Buddhists reconfigure it around intention and conditioned continuity without a permanent self; Jains construe it as karmic matter binding the *jīva*. Vedānta inherits that whole apparatus and classifies karmic residue as *sañcita*, *prārabdha*, and *āgāmi* while disputing whether *jñāna*, *bhakti*, or disciplined action is decisive for release.",
   "per_school": [
     {
@@ -39,10 +39,6 @@
         {
           "cite": "cite://sureshvara/naishkarmya-siddhi/1.98-99",
           "locus_short": "NS 1.98-99"
-        },
-        {
-          "cite": "cite://prakasatman/pancapadika-vivarana/brahma-vicāre kim-ānantaryam atha-śabdāvagamyam",
-          "locus_short": "PV p. 164"
         },
         {
           "cite": "cite://sarvajnatman/samksepa-sariraka/1.327",
@@ -87,22 +83,6 @@
         {
           "cite": "cite://madhva/anuvyakhyana/1.1.13-15",
           "locus_short": "Anuvy. 1.1.13-15"
-        },
-        {
-          "cite": "cite://madhva/karma-nirnaya/p. 257a",
-          "locus_short": "KN p. 257a"
-        },
-        {
-          "cite": "cite://madhva/karma-nirnaya/p. 257c",
-          "locus_short": "KN p. 257c"
-        },
-        {
-          "cite": "cite://madhva/karma-nirnaya/p. 257b",
-          "locus_short": "KN p. 257b"
-        },
-        {
-          "cite": "cite://madhva/karma-nirnaya/p. 257e",
-          "locus_short": "KN p. 257e"
         }
       ]
     },
@@ -139,9 +119,26 @@
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "*Karma* in Sāṃkhya is absorbed into the economy of the *liṅga* and its *bhāvas*: the subtle body transmigrates as permeated by dispositions, while *dharma* and cognate states are counted among the operative *bhāvas* rooted in the internal apparatus [[SK 40](cite://isvarakrsna/samkhya-karika/40)] [[SK 43](cite://isvarakrsna/samkhya-karika/43)]. The vertical ordering of rebirth is then specified through *dharma* and *adharma*: the former carries one upward, the latter downward, whereas bondage persists through *viparyaya* and ceases only through *jñāna* [[SK 44](cite://isvarakrsna/samkhya-karika/44)]. Accordingly, karmic efficacy belongs to prakṛti's saṃsāric machinery rather than to *puruṣa*, whose liberation is the result of discriminative knowledge rather than of action as such [[SK 40](cite://isvarakrsna/samkhya-karika/40)] [[SK 44](cite://isvarakrsna/samkhya-karika/44)].",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 40",
+        "Sāṃkhya-Kārikā 43",
+        "Sāṃkhya-Kārikā 44"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/40",
+          "locus_short": "SK 40"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/43",
+          "locus_short": "SK 43"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/44",
+          "locus_short": "SK 44"
+        }
+      ]
     },
     {
       "school": "Yoga",
@@ -162,15 +159,69 @@
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "*Karma* in Nyāya-Vaiśeṣika has a double technical life: it is, first, the *padārtha* of motion, the cause of conjunction and disjunction inhering in a single substance, and, second, the morally consequential activity whose continuation keeps the chain of birth and suffering in place [[VS 1.1.16](cite://kanada/vaisesika-sutra/1.1.16)] [[NyS 1.1.2](cite://gautama/nyaya-sutra/1.1.2)]. Desire and aversion generate *dharma* and *adharma*; from these follow renewed conjunction and disjunction, while release is described as the non-arising of such connections [[VS 6.2.17-19](cite://kanada/vaisesika-sutra/6.2.17-19)] [[VS 5.2.20](cite://kanada/vaisesika-sutra/5.2.20)]. Later Vaiśeṣika synopsis makes the moral sense fully explicit by defining *dharma* and *adharma* as effects of enjoined and prohibited action, so karmic causality remains a real determinant of the self's history [[TSaṅg 71-72](cite://annambhatta/tarka-sangraha/71-72)].",
+      "primary_loci": [
+        "Nyāya-Sūtra 1.1.2",
+        "Vaiśeṣika-Sūtra 1.1.16",
+        "Vaiśeṣika-Sūtra 5.2.20",
+        "Vaiśeṣika-Sūtra 6.2.17-19",
+        "Tarka-Saṅgraha 71-72"
+      ],
+      "citations": [
+        {
+          "cite": "cite://kanada/vaisesika-sutra/1.1.16",
+          "locus_short": "VS 1.1.16"
+        },
+        {
+          "cite": "cite://gautama/nyaya-sutra/1.1.2",
+          "locus_short": "NyS 1.1.2"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/6.2.17-19",
+          "locus_short": "VS 6.2.17-19"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/5.2.20",
+          "locus_short": "VS 5.2.20"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/71-72",
+          "locus_short": "TSaṅg 71-72"
+        }
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "For Pūrva-Mīmāṃsā, *karma* is paradigmatically Veda-enjoined *kriyā*: Jaimini defines *dharma* through *codanā* and then states that *karma*-terms have *bhāva* as their meaning, from which the act itself is understood [[MS 1.1.2](cite://jaimini/mimamsa-sutra/1.1.2)] [[MS 2.1.1](cite://jaimini/mimamsa-sutra/2.1.1)]. Because the Veda is *kriyārtha*, ritual action cannot be reduced to a merely descriptive occurrence, and its fruit depends on the specifically injunction-grounded novelty called *apūrva* [[MS 1.2.1](cite://jaimini/mimamsa-sutra/1.2.1)] [[MS 1.2.19](cite://jaimini/mimamsa-sutra/1.2.19)]. Śabara makes the temporal structure explicit: sacrifice produces *apūrva*, and from that *apūrva* the fruit arises later, which is why correctly configured performance remains the primary bearer of *dharma* and *phala* [[ŚBh on MS 7.4.1](cite://shabara/mimamsa-sutra-bhasya/7.4.1-apurva)].",
+      "primary_loci": [
+        "Mīmāṃsā-Sūtra 1.1.2",
+        "Mīmāṃsā-Sūtra 1.2.1",
+        "Mīmāṃsā-Sūtra 1.2.19",
+        "Mīmāṃsā-Sūtra 2.1.1",
+        "Śabara Bhāṣya on Mīmāṃsā-Sūtra 7.4.1"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/1.1.2",
+          "locus_short": "MS 1.1.2"
+        },
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/2.1.1",
+          "locus_short": "MS 2.1.1"
+        },
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/1.2.1",
+          "locus_short": "MS 1.2.1"
+        },
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/1.2.19",
+          "locus_short": "MS 1.2.19"
+        },
+        {
+          "cite": "cite://shabara/mimamsa-sutra-bhasya/7.4.1-apurva",
+          "locus_short": "ŚBh on MS 7.4.1"
+        }
+      ]
     },
     {
       "school": "Mādhyamaka",
@@ -196,24 +247,64 @@
         {
           "cite": "cite://vasubandhu/trimsika/19",
           "locus_short": "Triṃ 19"
-        },
-        {
-          "cite": "cite://vasubandhu/vimsatika/Karma, Vāsanā, and Scriptural Objection",
-          "locus_short": "Vvs 6-8"
         }
       ]
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Pratyabhijñā-Trika, the bound subject is *karmabandhana* because its own *svātantrya* has contracted under māyā and no longer shines as unrestricted lordship [[ĪPK 3.2.2](cite://utpaladeva/isvara-pratyabhijna-karika/3.2.2)]. The school's specific category is *kārma-mala*: when agency falls into *abodha*, karma becomes the limited producer of *janma* and *bhoga* within differentiated experience [[ĪPK 3.2.5](cite://utpaladeva/isvara-pratyabhijna-karika/3.2.5)] [[ĪPV 3.2.5](cite://abhinavagupta/isvara-pratyabhijna-vimarshini/3.2.5)]. Kṣemarāja accordingly glosses *kārma-mala* as the contraction of *kriyā-śakti* into *śubhāśubhānuṣṭhāna*, so karma is a diminished form of Śiva's own *kartṛtva*, not an ultimate principle independent of consciousness [[PH 9](cite://ksemaraja/pratyabhijna-hrdayam/9)].",
+      "primary_loci": [
+        "Īśvara-Pratyabhijñā-Kārikā 3.2.2",
+        "Īśvara-Pratyabhijñā-Kārikā 3.2.5",
+        "Īśvara-Pratyabhijñā-Vimarśinī on 3.2.5",
+        "Pratyabhijñā-Hṛdayam 9"
+      ],
+      "citations": [
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/3.2.2",
+          "locus_short": "ĪPK 3.2.2"
+        },
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/3.2.5",
+          "locus_short": "ĪPK 3.2.5"
+        },
+        {
+          "cite": "cite://abhinavagupta/isvara-pratyabhijna-vimarshini/3.2.5",
+          "locus_short": "ĪPV 3.2.5"
+        },
+        {
+          "cite": "cite://ksemaraja/pratyabhijna-hrdayam/9",
+          "locus_short": "PH 9"
+        }
+      ]
     },
     {
       "school": "Jainism",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Jainism, karma is karmically efficacious *pudgala* entering the *jīva* through the activities of body, speech, and mind; these yogas are the very form of *āsrava* [[TS 6.1-2](cite://umasvati/tattvartha-sutra/6.1-2)]. Bondage arises because the passion-laden soul appropriates pudgalas fit for karma, and that bondage is analyzed through *prakṛti*, *sthiti*, *anubhava*, and *pradeśa* [[TS 8.1-3](cite://umasvati/tattvartha-sutra/8.1-3)]. Liberation is the total release from karma, reached through *saṃvara* and *nirjarā* and completed as the exhaustive dissociation from karmic matter [[TS 9.1-3](cite://umasvati/tattvartha-sutra/9.1-3)] [[TS 10.2](cite://umasvati/tattvartha-sutra/10.2)].",
+      "primary_loci": [
+        "Tattvārtha-Sūtra 6.1-2",
+        "Tattvārtha-Sūtra 8.1-3",
+        "Tattvārtha-Sūtra 9.1-3",
+        "Tattvārtha-Sūtra 10.2"
+      ],
+      "citations": [
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/6.1-2",
+          "locus_short": "TS 6.1-2"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/8.1-3",
+          "locus_short": "TS 8.1-3"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/9.1-3",
+          "locus_short": "TS 9.1-3"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/10.2",
+          "locus_short": "TS 10.2"
+        }
+      ]
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",

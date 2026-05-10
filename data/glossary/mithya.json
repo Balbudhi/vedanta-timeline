@@ -33,18 +33,6 @@
         {
           "cite": "cite://padmapada/pancapadika/VI.16.5",
           "locus_short": "PañcP VI.16.5"
-        },
-        {
-          "cite": "cite://prakasatman/pancapadika-vivarana/p. 164c",
-          "locus_short": "PV p. 164c"
-        },
-        {
-          "cite": "cite://madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1a",
-          "locus_short": "AS 1a"
-        },
-        {
-          "cite": "cite://madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1k",
-          "locus_short": "AS 1k"
         }
       ]
     },
@@ -80,22 +68,6 @@
         "Madhva, Viṣṇu-Tattva-Vinirṇaya 3.10"
       ],
       "citations": [
-        {
-          "cite": "cite://madhva/mithyatvanumana-khandana/239, clause 3",
-          "locus_short": "MKh 239.3"
-        },
-        {
-          "cite": "cite://madhva/mithyatvanumana-khandana/239, clause 4",
-          "locus_short": "MKh 239.4"
-        },
-        {
-          "cite": "cite://madhva/tattvodyota/Word *Mithyā* Does Not Help",
-          "locus_short": "Tattvodyota, Mithyā"
-        },
-        {
-          "cite": "cite://madhva/tattvodyota/Shared Universal of *Mithyātva*",
-          "locus_short": "Tattvodyota, No Shared Universal"
-        },
         {
           "cite": "cite://vyasatirtha/nyayamrta/1",
           "locus_short": "Nyāyāmṛta 1"
@@ -151,10 +123,6 @@
           "locus_short": "VPS 2.3.42"
         },
         {
-          "cite": "cite://nimbarka/vedanta-parijata-saurabha/Upaniṣad 3.12.6",
-          "locus_short": "ChU 3.12.6"
-        },
-        {
           "cite": "cite://nimbarka/vedanta-parijata-saurabha/15.7a",
           "locus_short": "Gītā 15.7a"
         }
@@ -201,45 +169,158 @@
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Sāṃkhya does not deploy *mithyā* as a third ontological status; its operative category is *viparyaya*, since bondage is said to arise from *viparyaya* and release from *jñāna* [[SK 44](cite://isvarakrsna/samkhya-karika/44)]]. The *pratyayasarga* is accordingly classified under *viparyaya*, *aśakti*, *tuṣṭi*, and *siddhi*, with *viparyaya* itself divided into the five heads of *tamas*, *moha*, *mahāmoha*, *tāmisra*, and *andhatāmisra* [[SK 46-48](cite://isvarakrsna/samkhya-karika/46-48)]]. The counter-cognition is *aviparyaya*: through *tattvābhyāsa* there arises a *viśuddha*, *kevala* jñāna, i.e. discriminative knowledge of *guṇa* and *puruṣa* [[SK 64](cite://isvarakrsna/samkhya-karika/64)]].",
+      "primary_loci": [
+        "Īśvarakṛṣṇa, Sāṃkhya-Kārikā 44, 46–48, 64"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/44",
+          "locus_short": "SK 44"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/46-48",
+          "locus_short": "SK 46-48"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/64",
+          "locus_short": "SK 64"
+        }
+      ]
     },
     {
       "school": "Yoga",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Yoga makes the term explicit: *viparyaya* is *mithyājñāna*, a *vṛtti* established in what is not that object's form [[YS 1.8](cite://patanjali/yoga-sutra/1.8)]]. Vyāsa explains that such cognition is *apramāṇa* because it is sublated by *pramāṇa*, exemplified by the cognition of two moons, and he subsumes it under the kleśa-structure of *avidyā* [[YBh 1.8](cite://vyasa/yoga-bhasya/1.8)]]. At the root, *avidyā* itself is *viparyasta-khyāti*, taking the *anitya*, *aśuci*, *duḥkha*, and *anātman* as *nitya*, *śuci*, *sukha*, and *ātman*; its removal is through *aviplava-vivekakhyāti* [[YS 2.5](cite://patanjali/yoga-sutra/2.5)]][[YS 2.26](cite://patanjali/yoga-sutra/2.26)]].",
+      "primary_loci": [
+        "Patañjali, Yoga-Sūtra 1.8, 2.5, 2.26",
+        "Vyāsa, Yoga-Bhāṣya on YS 1.8"
+      ],
+      "citations": [
+        {
+          "cite": "cite://patanjali/yoga-sutra/1.8",
+          "locus_short": "YS 1.8"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/1.8",
+          "locus_short": "YBh 1.8"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/2.5",
+          "locus_short": "YS 2.5"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/2.26",
+          "locus_short": "YS 2.26"
+        }
+      ]
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "For Nyāya, *mithyājñāna* is the first member in the causal series binding beings to saṃsāra, and *apavarga* follows when *mithyājñāna*, *doṣa*, *pravṛtti*, *janma*, and *duḥkha* are successively removed [[NS 1.1.2](cite://aksapada/nyaya-sutra/1.1.2)]]. Vātsyāyana makes the content explicit: *mithyājñāna* ranges across the entire *prameya*-list, taking the non-self as self, duḥkha as sukha, the anitya as nitya, and so on, while *tattvajñāna* is just its *viparyaya* [[NBh 1.1.2](cite://vatsyayana/nyaya-bhasya/1.1.2-prose-on-mithyajnana)]]. In the later Nyāya-Vaiśeṣika synthesis, Annambhaṭṭa defines *viparyaya* simply as *mithyājñāna*, exemplified by shell-silver, and the Vaiśeṣika sūtras reduce *avidyā* to defective cognition arising from *indriyadoṣa* and *saṃskāra* [[AnTS 64](cite://annambhatta/tarka-sangraha/64)]][[KVS 9.25-27](cite://kanada/vaisesika-sutra/9.25-27)]].",
+      "primary_loci": [
+        "Akṣapāda, Nyāya-Sūtra 1.1.2",
+        "Vātsyāyana, Nyāya-Bhāṣya on NS 1.1.2",
+        "Annambhaṭṭa, Tarka-Saṅgraha 64",
+        "Kaṇāda, Vaiśeṣika-Sūtra 9.25–27"
+      ],
+      "citations": [
+        {
+          "cite": "cite://aksapada/nyaya-sutra/1.1.2",
+          "locus_short": "NS 1.1.2"
+        },
+        {
+          "cite": "cite://vatsyayana/nyaya-bhasya/1.1.2-prose-on-mithyajnana",
+          "locus_short": "NBh 1.1.2"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/64",
+          "locus_short": "AnTS 64"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/9.25-27",
+          "locus_short": "KVS 9.25-27"
+        }
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Pūrva-Mīmāṃsā treats *mithyā* as an epistemic defect, not as a mode of being. Śabara defines *mithyāpratyaya* as a cognition later sublated by \"naitad evam\", and invokes that model precisely to deny that Vedic injunctions are revisable in this way [[ŚBh on MS 1.1.2](cite://shabara/mimamsa-sutra-bhasya/1.1.2-prose-on-mithyapratyaya)]]. When he turns to perceptual error, *mithyājñāna* is traced to impairment in *manas*, *indriya*, or *viṣaya* and corrected by *bādhakajñāna*; the category remains one of *pramā* and *aprāmāṇya*, not ontology [[ŚBh on MS 1.1.5](cite://shabara/mimamsa-sutra-bhasya/1.1.5-prose-on-mithyajnana)]].",
+      "primary_loci": [
+        "Śabara, Śabara-Bhāṣya on MS 1.1.2",
+        "Śabara, Śabara-Bhāṣya on MS 1.1.5"
+      ],
+      "citations": [
+        {
+          "cite": "cite://shabara/mimamsa-sutra-bhasya/1.1.2-prose-on-mithyapratyaya",
+          "locus_short": "ŚBh on MS 1.1.2"
+        },
+        {
+          "cite": "cite://shabara/mimamsa-sutra-bhasya/1.1.5-prose-on-mithyajnana",
+          "locus_short": "ŚBh on MS 1.1.5"
+        }
+      ]
     },
     {
       "school": "Mādhyamaka",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Mādhyamaka does not posit *mithyā* as a third ontological kind; conditioned things are called *mṛṣā* because they are *moṣadharma*, deceptive and dependently arisen [[MMK 13.1](cite://nagarjuna/mula-madhyamaka-karika/13.1)]]. The positive framework is the two truths: *dharmadeśanā* proceeds by *lokasaṃvṛtisatya* and *paramārthasatya*, and *paramārtha* is not taught apart from *vyavahāra* [[MMK 24.8](cite://nagarjuna/mula-madhyamaka-karika/24.8)]][[MMK 24.10](cite://nagarjuna/mula-madhyamaka-karika/24.10)]]. Accordingly, falsehood lies in *mithyāgrāha*, the naive grasp of *svabhāva*, which Nāgārjuna compares to taking mirage-water as real water [[VV 13](cite://nagarjuna/vigraha-vyavartani/13)]].",
+      "primary_loci": [
+        "Nāgārjuna, Mūla-Madhyamaka-Kārikā 13.1, 24.8–10",
+        "Nāgārjuna, Vigraha-Vyāvartanī 13"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/13.1",
+          "locus_short": "MMK 13.1"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.8",
+          "locus_short": "MMK 24.8"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.10",
+          "locus_short": "MMK 24.10"
+        },
+        {
+          "cite": "cite://nagarjuna/vigraha-vyavartani/13",
+          "locus_short": "VV 13"
+        }
+      ]
     },
     {
       "school": "Yogācāra",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Yogācāra treats false appearance through *vijñapti* and *vitathavikalpa* rather than through an ontological category of *mithyātva*. In the *Viṃśatikā*, the stock objection notes that dream-objects and the *gandharvanagara* appear as if external although no corresponding external object performs the relevant function, and Vasubandhu replies that *deśa-kāla-niyama* can be secured *svapnavat* without external objects [[VVi on 2](cite://vasubandhu/vimsatika/on Vvs 2)]][[VVi 3](cite://vasubandhu/vimsatika/and Preta Replies)]]. The deeper point comes at VVi 17: the unawakened subject does not grasp the absence of the dream-object, and the worldling, asleep through *vitathavikalpābhyāsavāsanā*, likewise sees *abhūtārtha* until corrected by *lokottara-nirvikalpajñāna* [[VVi 17](cite://vasubandhu/vimsatika/17-dream-awakening)]].",
+      "primary_loci": [
+        "Vasubandhu, Viṃśatikā on 2–4, 17"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/vimsatika/17-dream-awakening",
+          "locus_short": "VVi 17"
+        }
+      ]
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Pratyabhijñā treats *mithyā* as a defective apprehension within the play of *ābhāsa*, not as an unreal world outside consciousness. Utpaladeva's shell-silver example says that the *rajata-buddhi* is *bhrāntā* or *mithyā* because the *vimarśa* fails *deśa/upādhi-saṃvāda*, while the appearance itself still occurs within the one *pramātṛ* [[ĪPK 2.3.13](cite://utpaladeva/isvara-pratyabhijna-karika/2.3.13-with-ipv)]]. More fundamentally, *māyīya mala* is the *viparyāsa* by which an originally non-different *vedyam* appears as *bhinna*, producing *janma* and *bhoga* under the Lord's *māyāśakti* [[ĪPK 3.2.5](cite://utpaladeva/isvara-pratyabhijna-karika/3.2.5-with-ipv)]]. Abhinavagupta accordingly compares *mithyājñāna* to *timira*: the defect stains the seeing, while the luminous field itself remains *vimalam* [[TA 1.331](cite://abhinavagupta/tantraloka/1.331)]].",
+      "primary_loci": [
+        "Utpaladeva, Īśvara-Pratyabhijñā-Kārikā 2.3.13 with ĪPV",
+        "Utpaladeva, Īśvara-Pratyabhijñā-Kārikā 3.2.5 with ĪPV",
+        "Abhinavagupta, Tantrāloka 1.331"
+      ],
+      "citations": [
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/2.3.13-with-ipv",
+          "locus_short": "ĪPK 2.3.13"
+        },
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/3.2.5-with-ipv",
+          "locus_short": "ĪPK 3.2.5"
+        },
+        {
+          "cite": "cite://abhinavagupta/tantraloka/1.331",
+          "locus_short": "TA 1.331"
+        }
+      ]
     }
   ],
   "see_also": [
@@ -254,5 +335,5 @@
   ],
   "translator_note": "Do not translate *mithyā* as 'non-existent'. Usually avoid the unqualified glosses 'unreal' and 'illusory' as well, because they import either nihilism or a merely psychological notion of illusion. In Advaita the term marks a specific metaphysical status: experientially and transactionally operative, yet not ultimately real in the way *brahman* is. 'Sublatable' is often safer than 'illusory', or else leave the Sanskrit in place and explain it.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54"
+  "last_verified_by": "glossary-wave2-codex54"
 }

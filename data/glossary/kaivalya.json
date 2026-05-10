@@ -3,32 +3,268 @@
   "term_iast": "kaivalya",
   "term_devanagari": "कैवल्य",
   "literal": "aloneness, isolation; from *kevala*, 'alone, sole'",
-  "aliases": ["kaivalya", "Kaivalya", "kaivalyam"],
+  "aliases": [
+    "kaivalya",
+    "Kaivalya",
+    "kaivalyam"
+  ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus",
+  "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "*Kaivalya* does not mean loneliness. It is the technical state of being \"alone\" in the sense of standing free of what had been falsely or contingently associated with one. In Sāṅkhya and Yoga, that means the isolation of *puruṣa* from *prakṛti* through discriminative knowledge: the guṇas withdraw to their source and consciousness abides in its own form. In Vedāntic usage the term can widen or shift. Some Advaita texts use it nearly synonymously with *mokṣa*, meaning exclusive abiding as *brahman*. Vaiṣṇava theologians, by contrast, often narrow it to a lower attainment in which the self enjoys its own conscious nature apart from matter but without full *bhagavat-prāpti*. The term therefore sits at the junction of ontology and soteriology: whether the highest end is self-isolation, identity with the absolute, or eternal relation to the Lord. Its practical force depends on that larger frame.",
   "per_school": [
     {
-      "school": "Sāṅkhya / Yoga",
-      "definition": "*Kaivalya* is the final separation of *puruṣa* from *prakṛti*. The logic is set by *viveka-khyāti*: once the distinction between witness and seen is stabilized, the guṇas no longer function for that *puruṣa* and return to quiescence. Yoga formulates the state both negatively, as the end of conjunction, and positively, as *svarūpa-pratiṣṭhā* or the establishment of consciousness in itself.",
-      "primary_loci": ["Yoga-Sūtra 2.25", "Yoga-Sūtra 4.34", "Sāṅkhya-Kārikā 62, 68"]
-    },
-    {
       "school": "Advaita",
-      "definition": "In Advaita, *kaivalya* commonly names exclusive abiding as *brahman* rather than a dualistic isolation of one principle from another. The difference from Sāṅkhya is fundamental: there are not many *puruṣas* each cut off from *prakṛti*, but one non-dual reality misidentified through *avidyā*. When the term is used positively, it indicates the non-relational status of realized being, not the self-enjoyment of a finite soul.",
-      "primary_loci": ["Kaivalya-Upaniṣad 10-16", "Kaivalya-Upaniṣad 23", "Brahma-Sūtra-Bhāṣya 2.2.1-10"]
+      "definition": "Advaita uses `kaivalya` as a name for brahman-realization: the *Kaivalya Upaniṣad* presents it as the fruit of knowing the Self, and the *Vivekacūḍāmaṇi* likewise makes it the release won by knowledge of the paramātman. (cite://anonymous/kaivalya-upanishad/24) (cite://sankara/vivekacudamani/124) Its consummation is `videha-kaivalya` as `sanmātratva` and `brahmabhāva`, so the term here denotes non-dual abiding rather than the plurality-preserving isolation of separate `puruṣa`s. (cite://sankara/vivekacudamani/567)",
+      "primary_loci": [
+        "Kaivalya Upaniṣad 24",
+        "Vivekacūḍāmaṇi 124",
+        "Vivekacūḍāmaṇi 567"
+      ],
+      "citations": [
+        {
+          "cite": "cite://anonymous/kaivalya-upanishad/24",
+          "locus_short": "KU 24"
+        },
+        {
+          "cite": "cite://sankara/vivekacudamani/124",
+          "locus_short": "VC 124"
+        },
+        {
+          "cite": "cite://sankara/vivekacudamani/567",
+          "locus_short": "VC 567"
+        }
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Kaivalya* is admitted as a real but lower end: the self's enjoyment of its own consciousness after release from material bondage, without the fuller attainment of the Lord's intimate service. This is precisely why the school distinguishes *ātma-anubhava* from *bhagavad-anubhava*. The contrast with Sāṅkhya matters: the issue is not the metaphysical independence of *puruṣa*, but the evaluative inferiority of self-directed bliss when compared with God-directed fulfillment.",
-      "primary_loci": ["Yatīndra-Mata-Dīpikā 9", "Rahasya-Traya-Sāra, Kaivalya-paddhati [NOT YET RETRIEVED]"]
+      "definition": "Rāmānuja explicitly distinguishes `kaivalyārthin`s and describes their attainment as the self's own condition once disjoined from `prakṛti`, marked by `apunarāvṛtti`. (cite://ramanuja/gita-bhasya/8.20-21) He nevertheless treats `ātmakaivalya` as a merely self-directed aim, distinct from the fuller orientation to the `paramaprāpya` Bhagavān. (cite://ramanuja/gita-bhasya/13-intro) `Kaivalya` is therefore a real liberated self-abidance in this school, but not the highest consummation of `bhagavad-anubhava`. (cite://ramanuja/gita-bhasya/8.20-21) (cite://ramanuja/gita-bhasya/13-intro)",
+      "primary_loci": [
+        "Gītā-Bhāṣya on Bhagavad-Gītā 8.20-21",
+        "Gītā-Bhāṣya, introduction to chapter 13"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ramanuja/gita-bhasya/8.20-21",
+          "locus_short": "BhG Bhāṣya 8.20-21"
+        },
+        {
+          "cite": "cite://ramanuja/gita-bhasya/13-intro",
+          "locus_short": "BhG Bhāṣya 13 intro"
+        }
+      ]
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "Jayatīrtha glosses `kaivalya` as `duḥkhāpyayādi-rūpa` and states that it comes from Viṣṇu alone, not from any other source. (cite://jayatirtha/nyaya-sudha/duhkhapyaya-kaivalya) Madhva's *Anuvyākhyāna* likewise makes Viṣṇu the giver of liberation and bliss, while maintaining that even in mokṣa the jīva retains only similarity, never essential identity, with the Lord. (cite://madhva/anuvyakhyana/1.1.13-15) (cite://madhva/anuvyakhyana/2.3.66-69)",
+      "primary_loci": [
+        "Nyāya-Sudhā near Manu 3.2.105cd",
+        "Anuvyākhyāna 1.1.13-15",
+        "Anuvyākhyāna 2.3.66-69"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jayatirtha/nyaya-sudha/duhkhapyaya-kaivalya",
+          "locus_short": "NSudhā ad Manu 3.2.105"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/1.1.13-15",
+          "locus_short": "Anuvy. 1.1.13-15"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/2.3.66-69",
+          "locus_short": "Anuvy. 2.3.66-69"
+        }
+      ]
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "site/data/thinkers/bhaskara.json",
+        "site/data/thinkers/yadava-prakasa.json"
+      ],
+      "citations": []
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "Gauḍīya Vaiṣṇavas treat *kaivalya* as a spiritually limited attainment because it lacks the positive relational fullness of *prema*. The issue is not whether release from matter is real; it is whether such release, absent Kṛṣṇa-service, deserves to count as the highest good. On this view, self-rest without *rasa* is metaphysically thin and affectively incomplete.",
-      "primary_loci": ["Bhakti-Rasāmṛta-Sindhu 1.1.17", "Bhakti-Sandarbha §§78-117"]
+      "definition": "Rūpa Gosvāmin cites the Bhāgavata to say that the Lord's exclusive devotees do not desire even `kaivalya`, though it be granted by Bhagavān and free from rebirth. (cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.2.41) Jīva Gosvāmin accordingly excludes `brahma-kaivalya` for bhaktas and glosses the same Bhāgavata expression as `ātyantika-kaivalya`, thereby acknowledging the attainment while ranking it below bhakti's positive end. (cite://jiva-gosvami/sat-sandarbha/brahma-kaivalya) (cite://jiva-gosvami/sat-sandarbha/11.20.34-tika)",
+      "primary_loci": [
+        "Bhakti-Rasāmṛta-Sindhu 1.2.41",
+        "Sat-Sandarbha, discussion of bhakta-aparādha",
+        "Sat-Sandarbha, gloss on Bhāgavata 11.20.34"
+      ],
+      "citations": [
+        {
+          "cite": "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.2.41",
+          "locus_short": "BRS 1.2.41"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/brahma-kaivalya",
+          "locus_short": "Sat-Sandarbha 93"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/11.20.34-tika",
+          "locus_short": "Sat-Sandarbha on BhP 11.20.34"
+        }
+      ]
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Daśa-Ślokī",
+        "Vedānta-Pārijāta-Saurabha"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "The available *Aṇu-Bhāṣya* locus treats `kaivalya` as a recognized soteriological end but rejects the view that bare knowledge independently produces it, since that would conflict with the scriptural `yam evaiṣa vṛṇute`. (cite://vallabha/anu-bhasya/gater-athevatvam) `Kaivalya` is thus not denied, but its attainment remains inseparable from Bhagavat's own initiative rather than from autonomous `jñāna` alone. (cite://vallabha/anu-bhasya/gater-athevatvam)",
+      "primary_loci": [
+        "Aṇu-Bhāṣya, gater athevatvam adhikaraṇa"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anu-bhasya/gater-athevatvam",
+          "locus_short": "AṇuBh gater athevatvam"
+        }
+      ]
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "Īśvarakṛṣṇa defines `kaivalya` as the `puruṣa`'s `mādhyasthya`, `draṣṭṛtva`, and `akartṛbhāva`, that is, pure witnesshood in separation from the operations of `prakṛti`. (cite://isvara-krsna/samkhya-karika/19) When the body-complex has served its purpose and `pradhāna` ceases its activity, the `puruṣa` attains `kaivalya` in the double sense of `aikāntika` and `ātyantika` finality. (cite://isvara-krsna/samkhya-karika/68)",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 19",
+        "Sāṃkhya-Kārikā 68"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvara-krsna/samkhya-karika/19",
+          "locus_short": "SK 19"
+        },
+        {
+          "cite": "cite://isvara-krsna/samkhya-karika/68",
+          "locus_short": "SK 68"
+        }
+      ]
+    },
+    {
+      "school": "Yoga",
+      "definition": "Yoga defines `kaivalya` through the cessation of `saṃyoga`: with the disappearance of `adarśana`, the conjunction of buddhi and `puruṣa` ends, and for the seer this is `kaivalya` as `amiśrībhāva` and non-contact with the `guṇa`s. (cite://vyasa/yoga-bhasya/2.25) Vyāsa further states that `kaivalya` is the `pratiprasava` of `guṇa`s now devoid of `puruṣārtha` and, positively, the `citiśakti`'s establishment in its own form. (cite://vyasa/yoga-bhasya/4.34)",
+      "primary_loci": [
+        "Yoga-Bhāṣya on Yoga-Sūtra 2.25",
+        "Yoga-Bhāṣya on Yoga-Sūtra 4.34"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vyasa/yoga-bhasya/2.25",
+          "locus_short": "YBh 2.25"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/4.34",
+          "locus_short": "YBh 4.34"
+        }
+      ]
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [
+        "Nyāya-Sūtra 1.1.22",
+        "Vaiśeṣika-Sūtra 5.2.20"
+      ],
+      "citations": [],
+      "not_applicable_reason": "The inspected Nyāya-Vaiśeṣika primaries formulate liberation under `apavarga` and `mokṣa`, not under `kaivalya`. (cite://gautama/nyaya-sutra/1.1.22) (cite://kanada/vaisesika-sutra/5.2.20)"
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "Sucaritamiśra explicitly defines `kaivalya` as `mokṣa`, namely the state of one whose prior and posterior karmas have ceased and whose apparatus of enjoyment has fallen away. (cite://sucaritamisra/sloka-varttika/166) He also insists that this `kaivalya` is not the dissolution of the world-process, but the released condition of the self once karmic sequence has been cut off. (cite://sucaritamisra/sloka-varttika/166)",
+      "primary_loci": [
+        "Ślokavārttika commentary, verse 166 discussion"
+      ],
+      "citations": [
+        {
+          "cite": "cite://sucaritamisra/sloka-varttika/166",
+          "locus_short": "ŚV comm. 166"
+        }
+      ]
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 25.19"
+      ],
+      "citations": [],
+      "not_applicable_reason": "The inspected Mādhyamaka primary presents the school's final end under `nirvāṇa`, not under `kaivalya`. (cite://nagarjuna/mula-madhyamaka-karika/25.19)"
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [
+        "Triṃśikā 29-30"
+      ],
+      "citations": [],
+      "not_applicable_reason": "The inspected Yogācāra primary formulates the consummation as `āśraya-parāvṛtti`, `anāsrava-dhātu`, and `vimuktikāya`, not under the term `kaivalya`. (cite://vasubandhu/trimsika/29-30)"
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "The *Śiva-Sūtra* exegesis uses `bhūta-kaivalya` for the yogic withdrawal of consciousness from the elements, glossing it as `bhūtebhyaḥ kaivalyaṃ` and correlating `pṛthaktva` with a stainless self-identity. (cite://ksemaraja/siva-sutra-varttika/3.5) Abhinavagupta, however, describes `kaivalya` as attained simultaneously with knowledge and denies that it is a movement to some external locus, redescribing it as `cidānandaika-ghana` `kevalatā`. (cite://abhinavagupta/paramartha-sara/83) (cite://abhinavagupta/paramartha-sara-comm/83)",
+      "primary_loci": [
+        "Śiva-Sūtra-Vārttika on Śiva-Sūtra 3.5",
+        "Paramārtha-Sāra 83",
+        "Paramārtha-Sāra commentary on 83"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ksemaraja/siva-sutra-varttika/3.5",
+          "locus_short": "ŚSV 3.5"
+        },
+        {
+          "cite": "cite://abhinavagupta/paramartha-sara/83",
+          "locus_short": "PS 83"
+        },
+        {
+          "cite": "cite://abhinavagupta/paramartha-sara-comm/83",
+          "locus_short": "PS comm. 83"
+        }
+      ]
+    },
+    {
+      "school": "Jainism",
+      "definition": "The *Tattvārtha-Sūtra* characterizes the cognate ideal through `kevala`: it counts `kevala` among the modes of knowledge and states that it arises through the destruction of delusion and the obscuring karmas. (cite://umasvati/tattvartha-sutra/1.9) (cite://umasvati/tattvartha-sutra/10.1-2) Mokṣa is then total release from karma, so the operative Jain register here is `kevala` or `kevalajñāna` rather than the abstract noun `kaivalya`. (cite://umasvati/tattvartha-sutra/10.1-2)",
+      "primary_loci": [
+        "Tattvārtha-Sūtra 1.9",
+        "Tattvārtha-Sūtra 10.1-2"
+      ],
+      "citations": [
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/1.9",
+          "locus_short": "TS 1.9"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/10.1-2",
+          "locus_short": "TS 10.1-2"
+        }
+      ]
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [
+        "No on-disk Aṣṭādhyāyī, Mahābhāṣya, or Vākyapadīya corpus in scope"
+      ],
+      "citations": [],
+      "not_applicable_reason": "No substantive term-doctrine for `kaivalya` is retrievable for this school from the on-disk materials available in this phase, and the missing grammatical primaries are not being used here as evidence of a philosophical `kaivalya` position."
     }
   ],
-  "see_also": ["moksa", "purusa", "prakrti", "prema", "jnana", "bhakti"],
+  "see_also": [
+    "moksa",
+    "purusa",
+    "prakrti",
+    "prema",
+    "jnana",
+    "bhakti"
+  ],
   "translator_note": "'Isolation' is literally correct but misleading if read psychologically. In these traditions *kaivalya* is a technical soteriological state, not alienation. Rendering it simply as 'liberation' is also too quick, because the term often marks a specific theory of liberation and, in Vaiṣṇava usage, can even name a lower goal."
 }

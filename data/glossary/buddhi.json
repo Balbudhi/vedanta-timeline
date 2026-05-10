@@ -29,10 +29,6 @@
         {
           "cite": "cite://sankara/vivekacudamani/26",
           "locus_short": "VC 26"
-        },
-        {
-          "cite": "cite://vidyaranya/jivanmukti-viveka/citation on *viśrānti*",
-          "locus_short": "JMV, viśrānti citation"
         }
       ]
     },
@@ -68,10 +64,6 @@
           "locus_short": "TS 9"
         },
         {
-          "cite": "cite://madhva/mayavada-khandana/Upaniṣad 1.3.10",
-          "locus_short": "Kaṭha 1.3.10"
-        },
-        {
           "cite": "cite://madhva/upadhi-khandana/5",
           "locus_short": "UpK 5"
         }
@@ -103,27 +95,110 @@
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Sāṃkhya, *buddhi* is explicitly glossed as *adhyavasāya*, determinative ascertainment [[KapSS 2.13](cite://kapila/samkhya-sutra/2.13)] [[SK 23](cite://isvarakrsna/samkhya-karika/23)]. It is the inner instrument that takes in the whole field of objects and thereby makes possible the *puruṣa*'s experience [[SK 35](cite://isvarakrsna/samkhya-karika/35)] [[SK 37](cite://isvarakrsna/samkhya-karika/37)]. Its *sāttvika* condition is marked by *dharma*, *jñāna*, *vairāgya*, and *aiśvarya*, so the determinative and discriminative work of *buddhi* is structurally central to Sāṃkhya's path of discernment [[SK 23](cite://isvarakrsna/samkhya-karika/23)].",
+      "primary_loci": [
+        "Sāṃkhya-Sūtra 2.13",
+        "Sāṃkhya-Kārikā 23",
+        "Sāṃkhya-Kārikā 35",
+        "Sāṃkhya-Kārikā 37"
+      ],
+      "citations": [
+        {
+          "cite": "cite://kapila/samkhya-sutra/2.13",
+          "locus_short": "KapSS 2.13"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/23",
+          "locus_short": "SK 23"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/35",
+          "locus_short": "SK 35"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/37",
+          "locus_short": "SK 37"
+        }
+      ]
     },
     {
       "school": "Yoga",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Yoga, *buddhi* is the mutable cognitive principle whose seeming identity with *puruṣa* constitutes *asmitā*, while the sūtra tradition also describes cognition as the self's awareness of its own buddhi-state [[YBh 2.6](cite://vyasa/yoga-bhasya/2.6)] [[YS 4.22](cite://patanjali/yoga-sutra/4.22)]. When *nirvicāra-samādhi* becomes clear, the rajasic and tamasic obscurations of *buddhisattva* fall away and there arises *adhyātmaprasāda* with a lucid *prajñā* [[YBh 1.47](cite://vyasa/yoga-bhasya/1.47)]. Bhoga and apavarga are accordingly worked out in *buddhi* itself, though they are figuratively predicated of the witnessing *puruṣa* as the enjoyer of their result [[YBh 2.18](cite://vyasa/yoga-bhasya/2.18)].",
+      "primary_loci": [
+        "Vyāsa Bhāṣya on Yoga-Sūtra 2.6",
+        "Yoga-Sūtra 4.22",
+        "Vyāsa Bhāṣya on Yoga-Sūtra 1.47",
+        "Vyāsa Bhāṣya on Yoga-Sūtra 2.18"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vyasa/yoga-bhasya/2.6",
+          "locus_short": "YBh 2.6"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/4.22",
+          "locus_short": "YS 4.22"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/1.47",
+          "locus_short": "YBh 1.47"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/2.18",
+          "locus_short": "YBh 2.18"
+        }
+      ]
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Nyāya-Vaiśeṣika, *buddhi* is not a separate inner organ but a cognition, expressly synonymous with *upalabdhi* and *jñāna* [[NS 1.1.15](cite://gautama/nyaya-sutra/1.1.15)] [[TSaṅg 34](cite://annambhatta/tarka-sangraha/34)]. It is counted among the *guṇas*, belongs to the self by *pariśeṣa*, and is non-eternal, perishing through the rise of a subsequent cognition [[TSaṅg 4](cite://annambhatta/tarka-sangraha/4)] [[NS 3.2.24](cite://gautama/nyaya-sutra/3.2.24)] [[NS 3.2.39](cite://gautama/nyaya-sutra/3.2.39)]. Later synopsis divides it into *smṛti* and *anubhava*, and then distinguishes *yathārtha* from *ayathārtha* cognition, so the school's *buddhi*-theory is fundamentally a theory of cognitive episodes and their truth-conditions [[TSaṅg 34-35](cite://annambhatta/tarka-sangraha/34-35)].",
+      "primary_loci": [
+        "Nyāya-Sūtra 1.1.15",
+        "Tarka-Saṅgraha 4",
+        "Nyāya-Sūtra 3.2.24",
+        "Nyāya-Sūtra 3.2.39",
+        "Tarka-Saṅgraha 34-35"
+      ],
+      "citations": [
+        {
+          "cite": "cite://gautama/nyaya-sutra/1.1.15",
+          "locus_short": "NS 1.1.15"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/4",
+          "locus_short": "TSaṅg 4"
+        },
+        {
+          "cite": "cite://gautama/nyaya-sutra/3.2.24",
+          "locus_short": "NS 3.2.24"
+        },
+        {
+          "cite": "cite://gautama/nyaya-sutra/3.2.39",
+          "locus_short": "NS 3.2.39"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/34-35",
+          "locus_short": "TSaṅg 34-35"
+        }
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In the early Pūrva-Mīmāṃsā materials on disk, *buddhi* appears chiefly as a cognition-event: Śabara glosses perception as the arising of *buddhi* when sense and object stand in contact [[ŚBh on MS 1.1.4](cite://shabara/mimamsa-sutra-bhasya/1.1.4-pratyaksa-buddhijanma)]. Within that same pramāṇa framework, Vedic *śabda* is said to produce a non-belying cognition of supersensible dharma by virtue of the *autpattika* relation between word and meaning [[ŚBh on MS 1.1.5](cite://shabara/mimamsa-sutra-bhasya/1.1.5-sabda-pramana-jñāna)]. The operative use of *buddhi* here is therefore epistemic rather than cosmological: it marks the arising awareness by which objects are apprehended and injunctions become actionable [[ŚBh on MS 1.1.4](cite://shabara/mimamsa-sutra-bhasya/1.1.4-pratyaksa-buddhijanma)] [[ŚBh on MS 1.1.5](cite://shabara/mimamsa-sutra-bhasya/1.1.5-sabda-pramana-jñāna)].",
+      "primary_loci": [
+        "Śabara Bhāṣya on Mīmāṃsā-Sūtra 1.1.4",
+        "Śabara Bhāṣya on Mīmāṃsā-Sūtra 1.1.5"
+      ],
+      "citations": [
+        {
+          "cite": "cite://shabara/mimamsa-sutra-bhasya/1.1.4-pratyaksa-buddhijanma",
+          "locus_short": "ŚBh on MS 1.1.4"
+        },
+        {
+          "cite": "cite://shabara/mimamsa-sutra-bhasya/1.1.5-sabda-pramana-jñāna",
+          "locus_short": "ŚBh on MS 1.1.5"
+        }
+      ]
     },
     {
       "school": "Mādhyamaka",
@@ -153,15 +228,44 @@
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Pratyabhijñā-Trika, what appears as *jñāna*, *saṃkalpa*, *adhyavasāya*, and even *manobuddhi* is a differentiated manifestation of one *citi* under the veiling power of māyā [[ĪPK 1.5.18](cite://utpaladeva/isvara-pratyabhijna-karika/1.5.18)]. Utpaladeva therefore refuses to allow *adhyavasāya* or *buddhi* to stand as an autonomous inert determiner of objects, since what is merely insentient cannot ground the manifestation of an object at all [[ĪPK 1.3.5](cite://utpaladeva/isvara-pratyabhijna-karika/1.3.5)]. The doctrinal force of the term lies in this reduction of the determinative function back into reflexive consciousness: *buddhi* is contracted *citi*, not a self-subsistent knower alongside it [[ĪPK 1.5.18](cite://utpaladeva/isvara-pratyabhijna-karika/1.5.18)].",
+      "primary_loci": [
+        "Īśvara-Pratyabhijñā-Kārikā 1.3.5",
+        "Īśvara-Pratyabhijñā-Kārikā 1.5.18"
+      ],
+      "citations": [
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/1.3.5",
+          "locus_short": "ĪPK 1.3.5"
+        },
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/1.5.18",
+          "locus_short": "ĪPK 1.5.18"
+        }
+      ]
     },
     {
       "school": "Jainism",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "The nearest Jain analogue to *buddhi* is *mati-jñāna*, the first member of the hierarchy of knowledges [[TS 1.9](cite://umasvati/tattvartha-sutra/1.9)] [[TS 1.11-12](cite://umasvati/tattvartha-sutra/1.11-12)]. Umāsvāti glosses this *mati* through *smṛti*, *saṃjñā*, *cintā*, and *abhinibodha*, and then analyzes it through *avagraha*, *īhā*, *avāya*, and *dhāraṇā* [[TS 1.13-15](cite://umasvati/tattvartha-sutra/1.13-15)]. The determinative function elsewhere assigned to *buddhi* is thus handled in Jainism as a structured class of cognitions within *mati-jñāna*, not as a distinct ontic organ [[TS 1.13-15](cite://umasvati/tattvartha-sutra/1.13-15)].",
+      "primary_loci": [
+        "Tattvārtha-Sūtra 1.9",
+        "Tattvārtha-Sūtra 1.11-12",
+        "Tattvārtha-Sūtra 1.13-15"
+      ],
+      "citations": [
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/1.9",
+          "locus_short": "TS 1.9"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/1.11-12",
+          "locus_short": "TS 1.11-12"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/1.13-15",
+          "locus_short": "TS 1.13-15"
+        }
+      ]
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",
@@ -181,5 +285,5 @@
   ],
   "translator_note": "'Intellect' is serviceable but can import specifically modern faculty-psychology assumptions. *Buddhi* is the determinative function or settled cognition-point within a wider inner apparatus, and in Nyāya it can even mean cognition as a quality. Translating every occurrence as 'reason' is especially misleading because much of what *buddhi* does is pre-theoretical determination rather than discursive inference.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54"
+  "last_verified_by": "glossary-wave2-codex54"
 }

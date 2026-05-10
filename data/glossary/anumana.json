@@ -3,37 +3,304 @@
   "term_iast": "anumāna",
   "term_devanagari": "अनुमान",
   "literal": "subsequent measuring; inference",
-  "aliases": ["anumana", "anumāna", "Anumāna", "anumānasya", "anumāne"],
+  "aliases": [
+    "anumana",
+    "anumāna",
+    "Anumāna",
+    "anumānasya",
+    "anumāne"
+  ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus",
+  "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "*Anumāna* is cognition generated through a sign-relation rather than direct presentation. Its classical Nyāya form presupposes *pakṣa* (the subject under consideration), *sādhya* (what is to be established), *hetu* or *liṅga* (the inferential mark), and *vyāpti* (invariable concomitance), typically secured through agreement in presence and absence across *sapakṣa* and *vipakṣa* cases. The public five-member form of inference is pedagogical; the deeper issue is what licenses the transition from observed sign to unobserved fact. Navya-Nyāya sharpens this with *avacchedaka* language; Buddhist logic recasts it through *trairūpya*; Vedānta uses it extensively in polemic while denying that *brahman* is inferable as just one more unperceived object. The term therefore belongs to a large inferential apparatus, not merely to 'reasoning' in general. In practice, *anumāna* governs everything from fire-from-smoke cases to anti-Sāṃkhya and anti-Buddhist arguments about causality, selfhood, and scriptural authority.",
   "per_school": [
     {
-      "school": "Nyāya",
-      "definition": "Nyāya treats *anumāna* as a rigorously structured *pramāṇa* whose immediate cause is *parāmarśa*: the apprehension that the inferential mark, present in the subject, is pervaded by the probandum. The familiar five-member syllogism externalizes that structure for debate, but the theory's core lies in *vyāpti* and *pakṣadharmatā*. Later Navya-Nyāya makes the account maximally explicit through relational and delimitor analysis.",
-      "primary_loci": ["Nyāya-Sūtra 1.1.5", "Vātsyāyana, Nyāya-Bhāṣya ad Nyāya-Sūtra 1.1.5", "Gaṅgeśa, Tattva-Cintāmaṇi, anumāna-khaṇḍa"]
-    },
-    {
       "school": "Advaita",
-      "definition": "Advaita grants full legitimacy to inference within empirical life and philosophical controversy, but denies that *brahman* is the kind of object inference can establish. Inference can remove rival doctrines, expose incoherence, and prepare the mind for *śruti*, yet the final non-dual cognition is not inferential. This keeps *anumāna* powerful but subordinate to revelatory testimony in the highest matter.",
-      "primary_loci": ["Dharmarāja, Vedānta-Paribhāṣā, anumāna-pariccheda", "Brahma-Sūtra-Bhāṣya 1.1.4", "Brahma-Sūtra-Bhāṣya 2.2.1-10"]
+      "definition": "Advaita accepts anumāna among the operative vyāvahārika pramāṇas, but reserves final brahmajñāna to Veda as the sole pramāṇa in that matter (cite://sankara/upadesa-sahasri/I.17.7-9). Inference and anvaya-vyatireka reasoning therefore serve to remove error, prepare sentence-meaning, and articulate non-dual teaching, without independently yielding the akhaṇḍārtha of brahman (cite://sureshvara/naishkarmya-siddhi/2.9-10).",
+      "primary_loci": [
+        "Śaṅkara, Upadeśa-Sāhasrī I.17.7-9",
+        "Sureśvara, Naiṣkarmya-Siddhi 2.9-10"
+      ],
+      "citations": [
+        {
+          "cite": "cite://sankara/upadesa-sahasri/I.17.7-9",
+          "locus_short": "UpS I.17.7-9"
+        },
+        {
+          "cite": "cite://sureshvara/naishkarmya-siddhi/2.9-10",
+          "locus_short": "NS 2.9-10"
+        }
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "Viśiṣṭādvaita uses inference to defend a realist, qualified ontology and to reject the idea that ultimate reality is devoid of attributes. Inference can establish dependence, order, and purposive structure, but it does not supersede *śruti* on the nature of Brahman. Its role is confirmatory and polemical, not revelatory in the strict sense.",
-      "primary_loci": ["Rāmānuja, Śrī-Bhāṣya 1.1.1", "Vedānta Deśika, Nyāya-Pariśuddhi 1 [NOT YET RETRIEVED]", "Yatīndra-Mata-Dīpikā 1"]
+      "definition": "Viśiṣṭādvaita deploys anumāna positively in siddhi-literature, as Yāmuna's Īśvara-Siddhi constructs a staged inference from the ordered, embodied, and composite character of the world to a single governing puruṣa (cite://yamuna/isvara-siddhi/16 cite://yamuna/isvara-siddhi/17 cite://yamuna/isvara-siddhi/18). At the same time, the school treats such inference as confirmatory rather than scripturally substitutive, since Brahman is finally known in harmony with śruti rather than as a merely inferable unperceived object (cite://ramanuja/shri-bhasya/1.1.1).",
+      "primary_loci": [
+        "Yāmuna, Īśvara-Siddhi 16-18",
+        "Rāmānuja, Śrī-Bhāṣya 1.1.1"
+      ],
+      "citations": [
+        {
+          "cite": "cite://yamuna/isvara-siddhi/16",
+          "locus_short": "ĪS 16"
+        },
+        {
+          "cite": "cite://yamuna/isvara-siddhi/17",
+          "locus_short": "ĪS 17"
+        },
+        {
+          "cite": "cite://yamuna/isvara-siddhi/18",
+          "locus_short": "ĪS 18"
+        },
+        {
+          "cite": "cite://ramanuja/shri-bhasya/1.1.1",
+          "locus_short": "ŚrīBh 1.1.1"
+        }
+      ]
     },
     {
       "school": "Tattva-vāda",
-      "definition": "Tattva-vāda (the school often labeled Dvaita) develops one of the strongest late inferential cultures in Vedānta. Jayatīrtha and Vyāsatīrtha use *anumāna* to defend real difference, ontological hierarchy, and the irreducibility of devotional theism, while also engaging Navya-Nyāya technicalities at high precision. Inference does not generate *aparokṣa-jñāna* of Viṣṇu, but it does major argumentative work in clearing rival positions.",
-      "primary_loci": ["Jayatīrtha, Pramāṇa-Paddhati", "Vyāsatīrtha, Tarka-Tāṇḍava", "Madhva, Anu-Vyākhyāna 1.1 [NOT YET RETRIEVED]"]
+      "definition": "Tattva-vāda gives anumāna an aggressive polemical role, especially in dismantling rival inferences such as the Advaitin's mithyātvānumāna, whose pakṣa and qualifying terms Madhva attacks as aprasiddha (cite://madhva/tattvodyota/Anumānanirāsaḥ cite://madhva/tattvodyota/Pakṣa Bears an Unestablished Predicate). In later scholastic form it also internalizes Navya-Nyāya inferential machinery, as Vyāsatīrtha explicitly formulates svato-grāhyatva by full anumāna-structure (cite://vyasatirtha/tarka-tandava/Prāmāṇyavāda, first svato-grāhyatvānumāna).",
+      "primary_loci": [
+        "Madhva, Tattvodyota, Anumānanirāsaḥ",
+        "Madhva, Tattvodyota, 'anumānasya cāprasiddhaviśeṣaṇaḥ pakṣaḥ'",
+        "Vyāsatīrtha, Tarka-Tāṇḍava, first svato-grāhyatvānumāna"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/tattvodyota/Anumānanirāsaḥ",
+          "locus_short": "Tattvodyota, Anumānanirāsaḥ"
+        }
+      ]
     },
     {
-      "school": "Buddhist Pramāṇa",
-      "definition": "Buddhist logicians analyze *anumāna* through the three characteristics of a valid reason and distinguish inference for oneself from inference for others. Since universals are conceptual constructions, inferential knowledge belongs to the constructed domain rather than to bare perception. The theory is designed to preserve logical force without granting realist universals or autonomous scriptural testimony.",
-      "primary_loci": ["Dignāga, Pramāṇa-Samuccaya 3.1-2", "Dharmakīrti, Nyāya-Bindu 2.1-18", "Dharmakīrti, Pramāṇa-Vārttika 1.1-12 [NOT YET RETRIEVED]"]
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Bhāskara, Brahma-Sūtra-Bhāṣya",
+        "Yādava-Prakāśa, lost Brahma-Sūtra commentary"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "Acintya-Bhedābheda does not reject inference, but it construes tarka and nyāya as subordinate to scriptural coordination when the śakti-śaktimat relation is at stake (cite://jiva-gosvami/sat-sandarbha/§42). Jīva Gosvāmī's paired reasoning removes contradiction only by preserving both difference and non-difference under acintya-śakti, so anumāna functions up to the point where exclusive bheda or abheda alternatives would misdescribe the object (cite://jiva-gosvami/sat-sandarbha/§43).",
+      "primary_loci": [
+        "Jīva Gosvāmī, Paramātma-Sandarbha §§42-43"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§42",
+          "locus_short": "Paramātma-S §42"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§43",
+          "locus_short": "Paramātma-S §43"
+        }
+      ]
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Nimbārka, Vedānta-Pārijāta-Saurabha",
+        "Nimbārka, Daśa-Ślokī"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "Śuddhādvaita employs reasoning in doctrinal exposition, but it denies that Brahman can be fixed by ordinary inferential categories such as partless or possessed-of-parts, since Brahman is vedaika-samadhigamya (cite://vallabha/anubhasya/2.3.43-45c). Its use of yukti is therefore supportive and exegetical, for example when samanvaya and ātmakṛti are invoked to articulate avikṛta-pariṇāma without reducing Brahman to a mutable substrate (cite://vallabha/anubhasya/1.1.4b cite://vallabha/anubhasya/1.4.26a cite://vallabha/anubhasya/1.4.26b).",
+      "primary_loci": [
+        "Vallabha, Aṇu-Bhāṣya 2.3.43-45",
+        "Vallabha, Aṇu-Bhāṣya 1.1.4",
+        "Vallabha, Aṇu-Bhāṣya 1.4.26"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anubhasya/2.3.43-45c",
+          "locus_short": "AṇuBh 2.3.43-45c"
+        },
+        {
+          "cite": "cite://vallabha/anubhasya/1.1.4b",
+          "locus_short": "AṇuBh 1.1.4b"
+        },
+        {
+          "cite": "cite://vallabha/anubhasya/1.4.26a",
+          "locus_short": "AṇuBh 1.4.26a"
+        },
+        {
+          "cite": "cite://vallabha/anubhasya/1.4.26b",
+          "locus_short": "AṇuBh 1.4.26b"
+        }
+      ]
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "Sāṃkhya accepts three pramāṇas: dṛṣṭa, anumāna, and āptavacana (cite://isvarakrsna/samkhya-karika/4). It defines anumāna as liṅga-liṅgi-pūrvaka and assigns it a specific task in reaching atīndriya objects that are not available to perception (cite://isvarakrsna/samkhya-karika/5 cite://isvarakrsna/samkhya-karika/6). The Sāṃkhya-Sūtra gives the same pramāṇa a tighter logical definition as cognition of the correlated item from apprehended pratibandha (cite://kapila/samkhya-sutra/1.100).",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 4-6",
+        "Sāṃkhya-Sūtra 1.100"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/4",
+          "locus_short": "SK 4"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/5",
+          "locus_short": "SK 5"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/6",
+          "locus_short": "SK 6"
+        },
+        {
+          "cite": "cite://kapila/samkhya-sutra/1.100",
+          "locus_short": "SS 1.100"
+        }
+      ]
+    },
+    {
+      "school": "Yoga",
+      "definition": "Yoga counts anumāna among the five cittavṛttis under the pramāṇa-class, alongside pratyakṣa and āgama (cite://patanjali/yoga-sutra/1.7). Vyāsa defines it as the vṛtti whose core is a general ascertainment grounded in a relation that recurs among similar cases and is excluded from dissimilar ones, thereby giving Yoga an explicitly inferential epistemology within its soteriological psychology (cite://vyasa/yoga-bhasya/1.7).",
+      "primary_loci": [
+        "Yoga-Sūtra 1.7",
+        "Vyāsa-Bhāṣya on Yoga-Sūtra 1.7"
+      ],
+      "citations": [
+        {
+          "cite": "cite://patanjali/yoga-sutra/1.7",
+          "locus_short": "YS 1.7"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/1.7",
+          "locus_short": "YBh 1.7"
+        }
+      ]
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "Nyāya classifies anumāna as a threefold pramāṇa proceeding from what is preceded by a prior cognition of relation, namely pūrvavat, śeṣavat, and sāmānyato dṛṣṭa (cite://aksapada/nyaya-sutra/1.1.5). The later Nyāya-Vaiśeṣika digest tradition makes its efficient cause parāmarśa, defined as cognition of pakṣadharmatā qualified by vyāpti, and it distinguishes svārthānumāna from parārthānumāna in the standard smoke-fire case (cite://annambhatta/tarka-sangraha/44 cite://annambhatta/tarka-sangraha/45).",
+      "primary_loci": [
+        "Nyāya-Sūtra 1.1.5",
+        "Tarka-Saṅgraha 44-45"
+      ],
+      "citations": [
+        {
+          "cite": "cite://aksapada/nyaya-sutra/1.1.5",
+          "locus_short": "NS 1.1.5"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/44",
+          "locus_short": "TSaṅg 44"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/45",
+          "locus_short": "TSaṅg 45"
+        }
+      ]
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "Pūrva-Mīmāṃsā does not deny anumāna, but it refuses to let it displace Vedic śabda in the ascertainment of dharma, whose object is supersensible and fixed by the sentence-meaning of codanā (cite://jaimini/mimamsa-sutra/1.1.5). Śabara explicitly rejects the move from the fallibility of human utterance to an inference of Vedic fallibility, so inference here remains a secondary pramāṇa whose scope does not overrun apauruṣeya śabda (cite://shabara/mimamsa-sutra-bhasya/1.1.2-anumana).",
+      "primary_loci": [
+        "Mīmāṃsā-Sūtra 1.1.5",
+        "Śabara-Bhāṣya on Mīmāṃsā-Sūtra 1.1.2"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/1.1.5",
+          "locus_short": "MS 1.1.5"
+        },
+        {
+          "cite": "cite://shabara/mimamsa-sutra-bhasya/1.1.2-anumana",
+          "locus_short": "ŚBh on MS 1.1.2"
+        }
+      ]
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "Mādhyamaka does not build its final position on a self-standing inferential thesis; Nāgārjuna instead blocks the conversion of emptiness into a svabhāva-backed sādhya, rejecting the opponent's hetu as sādhyasama while allowing only conventional transaction (cite://nagarjuna/vigraha-vyavartani/28). Since he claims no independent pratijñā of his own, anumāna is admitted only under saṃvyavahāra and not as an ultimately self-grounding instrument (cite://nagarjuna/vigraha-vyavartani/29).",
+      "primary_loci": [
+        "Vigraha-Vyāvartanī 28-29"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nagarjuna/vigraha-vyavartani/28",
+          "locus_short": "VV 28"
+        },
+        {
+          "cite": "cite://nagarjuna/vigraha-vyavartani/29",
+          "locus_short": "VV 29"
+        }
+      ]
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "In the Yogācāra-pramāṇa line, pramāṇa is twofold because the knowable is twofold, and inference belongs to the conceptual side rather than to bare svalakṣaṇa-perception (cite://dharmakirti/pramana-varttika/2.1 cite://dharmakirti/pramana-varttika/2.75). Dharmakīrti accordingly grounds anumāna in liṅga through anvaya-vyatireka, with the inferential mark functioning only where a non-deviant relation to the probandum has been secured (cite://dharmakirti/pramana-varttika/2.67).",
+      "primary_loci": [
+        "Pramāṇavārttika 2.1",
+        "Pramāṇavārttika 2.67",
+        "Pramāṇavārttika 2.75"
+      ],
+      "citations": [
+        {
+          "cite": "cite://dharmakirti/pramana-varttika/2.1",
+          "locus_short": "PV 2.1"
+        },
+        {
+          "cite": "cite://dharmakirti/pramana-varttika/2.67",
+          "locus_short": "PV 2.67"
+        },
+        {
+          "cite": "cite://dharmakirti/pramana-varttika/2.75",
+          "locus_short": "PV 2.75"
+        }
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "Pratyabhijñā accepts anumāna as reflective construction from a presently manifested sign toward what is not yet manifest, and Abhinavagupta glosses it precisely as such vimarśa (cite://utpaladeva/isvara-pratyabhijna-karika/1.5.8). Yet the same discussion denies that external objects are thereby established, so inference is real as a cognitive operation but limited with respect to siddhi of bāhyārtha (cite://utpaladeva/isvara-pratyabhijna-karika/1.5.9).",
+      "primary_loci": [
+        "Īśvara-Pratyabhijñā-Kārikā 1.5.8-9 with ĪPV gloss"
+      ],
+      "citations": [
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/1.5.8",
+          "locus_short": "ĪPK 1.5.8"
+        },
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/1.5.9",
+          "locus_short": "ĪPK 1.5.9"
+        }
+      ]
+    },
+    {
+      "school": "Jainism",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Tattvārtha-Sūtra 1.6",
+        "Hemacandra, Pramāṇa-Mīmāṃsā 2.1 [not on disk]"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Mahābhāṣya [not on disk]",
+        "Vākyapadīya [not on disk]"
+      ],
+      "citations": []
     }
   ],
-  "see_also": ["pramana", "pratyaksa", "sabda", "pramana-dvaya", "jnana"],
+  "see_also": [
+    "pramana",
+    "pratyaksa",
+    "sabda",
+    "pramana-dvaya",
+    "jnana"
+  ],
   "translator_note": "The lazy gloss 'inference' is acceptable only if one does not equate it with a generic Aristotelian syllogism or with modern formal entailment. *Anumāna* is tied to *vyāpti*, sign-cognition, and a debated theory of how a universal relation is known. Translating it as mere 'reasoning' removes the entire inferential machinery the schools are arguing over."
 }

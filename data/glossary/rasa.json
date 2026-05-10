@@ -12,7 +12,7 @@
     "rasānubhava"
   ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54",
+  "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "*Rasa* is not merely \"flavor.\" It is the technical savoring of a stabilized affective configuration. In poetics, the classic formula is that *rasa* arises from the conjunction of *vibhāva*, *anubhāva*, and *vyabhicāri-bhāva* in relation to a *sthāyi-bhāva*. Abhinavagupta's crucial move is to explain how such savoring becomes universalized rather than merely private, and why its relish is structurally akin to contemplative bliss. Later Vedāntic and devotional authors redeploy this aesthetic apparatus rather than abandoning it. Madhusūdana reads devotion through *rasa*; Gauḍīya theologians make *rasa* constitutive of the eternal relation between *jīva* and Bhagavān. The term therefore carries an entire theoretical scaffold: cause, expression, stable affect, relish, universalization, and the ontological status of the enjoyed object. In devotional use especially, Bhagavān is not a symbol used for aesthetic transport but the real object around which the affective world is organized.",
   "per_school": [
     {
@@ -28,38 +28,29 @@
         {
           "cite": "cite://madhusudana/bhakti-rasayana/1.1",
           "locus_short": "BR 1.1"
-        },
-        {
-          "cite": "cite://madhusudana/bhakti-rasayana/1.1 ṭīkā.10",
-          "locus_short": "BR 1.1 ṭīkā.10"
-        },
-        {
-          "cite": "cite://madhusudana/bhakti-rasayana/1.1 ṭīkā.14",
-          "locus_short": "BR 1.1 ṭīkā.14"
-        },
-        {
-          "cite": "cite://madhusudana/bhakti-rasayana/1.1 ṭīkā.16",
-          "locus_short": "BR 1.1 ṭīkā.16"
         }
       ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "[NOT YET RETRIEVED]",
+      "definition": "NOT-APPLICABLE",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "not_applicable_reason": "The on-disk Rāmānuja corpus treats bhakti, upāsanā, and kaiṅkarya extensively, but it does not present a distinct Viśiṣṭādvaitin technical doctrine of rasa."
     },
     {
       "school": "Tattva-vāda",
-      "definition": "[NOT YET RETRIEVED]",
+      "definition": "NOT-APPLICABLE",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "not_applicable_reason": "The available Madhva, Jayatīrtha-, Vyāsatīrtha-, and Rāghavendra-linked materials on disk do not deploy rasa as a distinct Tattva-vādin technical category rather than as ordinary vocabulary for devotion or sensible taste."
     },
     {
       "school": "Bhedābheda",
-      "definition": "[NOT YET RETRIEVED]",
+      "definition": "NOT-APPLICABLE",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "not_applicable_reason": "The surviving on-disk Bhāskara and Yādava-Prakāśa materials are ontological reconstructions and do not witness a distinct Bhedābheda doctrine of rasa."
     },
     {
       "school": "Acintya-Bhedābheda",
@@ -115,45 +106,133 @@
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "*Rasa* in Sāṃkhya is a sensible object within the bhogya-side of prakṛti rather than an autonomous aesthetic absolute: the system counts *rasana* among the eleven indriyas and thereby fixes taste as one determinate domain of experience [[SK 26](cite://isvarakrsna/samkhya-karika/26)]. The commentarial tradition makes the point explicit by invoking the six tastes as evidence that enjoyed objects require a distinct *bhoktṛ* over against the aggregate of the enjoyed [[SK 17 comm.](cite://isvarakrsna/samkhya-karika/17-commentary)]. At the level of emanation, *rasa-tanmātra* is the subtle determinant from which water emerges in the standard series of bhūta-production [[SK 22 comm.](cite://isvarakrsna/samkhya-karika/22-commentary)].",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 26",
+        "Sāṃkhya-Kārikā 17 commentary",
+        "Sāṃkhya-Kārikā 22 commentary"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/26",
+          "locus_short": "SK 26"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/17-commentary",
+          "locus_short": "SK 17 comm."
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/22-commentary",
+          "locus_short": "SK 22 comm."
+        }
+      ]
     },
     {
       "school": "Yoga",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Yoga, *rasa* enters the praxis of concentration as *rasasaṃvit*, a yogically induced taste-cognition that steadies the citta, removes doubt, and opens onto samādhi-prajñā [[YBh 1.35](cite://patanjali/yoga-sutra/1.35-bhasya)]. The same ontology classifies *rasa-tanmātra* as the subtle object corresponding to water, so taste belongs to the graded sequence from gross sensory support to subtle viṣaya traversed by yogic samāpatti [[YBh 1.45](cite://patanjali/yoga-sutra/1.45-bhasya)].",
+      "primary_loci": [
+        "Yoga-Sūtra 1.35 (Vyāsa Bhāṣya)",
+        "Yoga-Sūtra 1.45 (Vyāsa Bhāṣya)"
+      ],
+      "citations": [
+        {
+          "cite": "cite://patanjali/yoga-sutra/1.35-bhasya",
+          "locus_short": "YBh 1.35"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/1.45-bhasya",
+          "locus_short": "YBh 1.45"
+        }
+      ]
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Nyāya-Vaiśeṣika, *rasa* is a real *guṇa* and an irreducible viṣaya-domain, not a merely derivative aspect of some wider sensible whole [[VS 1.1.5](cite://kanada/vaisesika-sutra/1.1.5); [NS 3.1.56-62](cite://aksapada/nyaya-sutra/3.1.56-62)]. Vaiśeṣika assigns taste to earth and water within its dravya-guṇa analysis, while Nyāya correlates that objective domain with a distinct *rasana* among the indriyas [[VS 2.1.1-2](cite://kanada/vaisesika-sutra/2.1.1-2); [NS 1.1.12](cite://aksapada/nyaya-sutra/1.1.12)].",
+      "primary_loci": [
+        "Vaiśeṣika-Sūtra 1.1.5",
+        "Vaiśeṣika-Sūtra 2.1.1-2",
+        "Nyāya-Sūtra 1.1.12",
+        "Nyāya-Sūtra 3.1.56-62"
+      ],
+      "citations": [
+        {
+          "cite": "cite://kanada/vaisesika-sutra/1.1.5",
+          "locus_short": "VS 1.1.5"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/2.1.1-2",
+          "locus_short": "VS 2.1.1-2"
+        },
+        {
+          "cite": "cite://aksapada/nyaya-sutra/1.1.12",
+          "locus_short": "NS 1.1.12"
+        },
+        {
+          "cite": "cite://aksapada/nyaya-sutra/3.1.56-62",
+          "locus_short": "NS 3.1.56-62"
+        }
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Pūrva-Mīmāṃsā, *rasa* is not an aesthetic endpoint but a determinate sensory object deployed in pramāṇa-theory and ritual exegesis [[ŚV comm. line 3846](cite://kumarila/sloka-varttika/commentary-line-3846); [ŚBh 4.1.23](cite://shabara/mimamsa-sutra-bhasya/4.1.23)]. Kumārila treats cognitions of taste as part of the class of cases for which the self-mind conjunction is too generic to explain a specific perceptual episode, so the relevant indriya must be fixed through its *asādhāraṇa* causal role [[ŚV comm. line 3846](cite://kumarila/sloka-varttika/commentary-line-3846)]. Śabara, in turn, uses perceptible savor as an inferential marker in deciding ritual classification, distinguishing *āmikṣā* from *vājina* through the taste that reveals the milk-curd mixture [[ŚBh 4.1.23](cite://shabara/mimamsa-sutra-bhasya/4.1.23)].",
+      "primary_loci": [
+        "Śloka-Vārttika commentary line 3846",
+        "Śabara-Bhāṣya on Mīmāṃsā-Sūtra 4.1.23"
+      ],
+      "citations": [
+        {
+          "cite": "cite://kumarila/sloka-varttika/commentary-line-3846",
+          "locus_short": "ŚV comm. line 3846"
+        },
+        {
+          "cite": "cite://shabara/mimamsa-sutra-bhasya/4.1.23",
+          "locus_short": "ŚBh 4.1.23"
+        }
+      ]
     },
     {
       "school": "Mādhyamaka",
-      "definition": "[NOT YET RETRIEVED]",
+      "definition": "NOT-APPLICABLE",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "not_applicable_reason": "The on-disk Mādhyamaka sources mention rasana only incidentally in standard lists of faculties and do not develop a specifically Mādhyamika doctrine of rasa itself."
     },
     {
       "school": "Yogācāra",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Dharmakīrti's epistemological Yogācāra, *rasa* functions as a momentary sensible effect within a causal complex rather than as a persisting substrate-quality [[PV 3.9-10](cite://dharmakirti/pramana-varttika/3.9-10)]. One may move from tasted quality to an unseen co-effect such as form because both depend on one causal assemblage; the inferential force lies in causal efficacy and common production, not in the endurance of a single substance bearing multiple properties [[PV 3.9-10](cite://dharmakirti/pramana-varttika/3.9-10)].",
+      "primary_loci": [
+        "Pramāṇa-Vārttika 3.9-10"
+      ],
+      "citations": [
+        {
+          "cite": "cite://dharmakirti/pramana-varttika/3.9-10",
+          "locus_short": "PV 3.9-10"
+        }
+      ]
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Pratyabhijñā / Trika, *rasa* is refunctioned as the savor of consciousness itself: Kṣemarāja speaks of manifestation as an expansion marked by *cid-rasa-śyānatā*, the saturation of tattva, bhuvana, and pramātṛ series by consciousness' own plenitude [[PH 4 vṛtti](cite://ksemaraja/pratyabhijna-hrdayam/4-vrtti)]. In the yogic register, this same logic becomes practical instruction: the yogin is to soak waking and the intervening states with *turya*-bliss-rasa and enter through the inward *camatkāra-rasa* of reflective absorption [[ŚSV 3.20.6](cite://ksemaraja/shiva-sutra-vimarshini/3.20.6); [ŚSV 3.21.3-4](cite://ksemaraja/shiva-sutra-vimarshini/3.21.3-4)].",
+      "primary_loci": [
+        "Pratyabhijñā-Hṛdayam 4 vṛtti",
+        "Śiva-Sūtra-Vimarśinī 3.20.6",
+        "Śiva-Sūtra-Vimarśinī 3.21.3-4"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ksemaraja/pratyabhijna-hrdayam/4-vrtti",
+          "locus_short": "PH 4 vṛtti"
+        },
+        {
+          "cite": "cite://ksemaraja/shiva-sutra-vimarshini/3.20.6",
+          "locus_short": "ŚSV 3.20.6"
+        },
+        {
+          "cite": "cite://ksemaraja/shiva-sutra-vimarshini/3.21.3-4",
+          "locus_short": "ŚSV 3.21.3-4"
+        }
+      ]
     }
   ],
   "see_also": [

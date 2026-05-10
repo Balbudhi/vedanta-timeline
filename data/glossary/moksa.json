@@ -15,7 +15,7 @@
     "apavarga"
   ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54",
+  "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "Release from bondage, but not a bare escape from existence. *Mokṣa* names the final state appropriate to what a school takes bondage to be: the nexus of *karma*, rebirth, embodiment, ignorance, misidentification, or estrangement from the Lord. It is therefore defined against adjacent terms such as *saṃsāra*, *bandha*, *apavarga*, and *kaivalya*. In the Mīmāṃsā background, the point is that no finite ritual act can simply manufacture *mokṣa* as a produced result; in the Vedāntic setting, the issue becomes what sort of cognition, devotion, surrender, or divine grace removes the condition that makes rebirth possible. The practical register is inseparable from the metaphysics: Advaita ties *mokṣa* to the removal of *avidyā* through *śravaṇa-manana-nididhyāsana*; Viśiṣṭādvaita and Tattva-vāda (Dvaita) tie it to God-directed knowledge and devotion; Gauḍīya Vaiṣṇavism treats even ordinary *mokṣa* as lower than *prema*. What remains invariant is this: *mokṣa* is the non-returning condition in which the structures that sustain saṃsāric agency, enjoyment, and compulsory embodiment no longer bind.",
   "per_school": [
     {
@@ -191,21 +191,72 @@
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Sāṃkhya treats liberation as the end for which prakṛti's entire evolution is undertaken with respect to each distinct puruṣa, so that the cosmos is teleologically ordered toward vimokṣa rather than toward a single collective consummation [[SK 56](cite://isvarakrsna/samkhya-karika/56)]. The decisive means is repeated analysis of the tattvas, which issues in a pure and non-errant discriminative knowledge expressed as the total withdrawal of self-ascription from prakṛti and its products [[SK 64](cite://isvarakrsna/samkhya-karika/64)]. When that knowledge has done its work and the body finally falls away, the result is kaivalya in the strict sense: both certain and final [[SK 68](cite://isvarakrsna/samkhya-karika/68)].",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 56",
+        "Sāṃkhya-Kārikā 64",
+        "Sāṃkhya-Kārikā 68"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/56",
+          "locus_short": "SK 56"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/64",
+          "locus_short": "SK 64"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/68",
+          "locus_short": "SK 68"
+        }
+      ]
     },
     {
       "school": "Yoga",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Yoga, liberation is kaivalya, the hāna that consists in the cessation of puruṣa-prakṛti saṃyoga once avidyā is absent [[YS 2.25](cite://patanjali/yoga-sutra/2.25)]. Its immediate upāya is aviplavā vivekakhyāti, an unbroken discriminative discernment rather than mere episodic insight [[YS 2.26](cite://patanjali/yoga-sutra/2.26)]. At the culmination, kaivalya is described as the pratiprasava of the guṇas once they are empty of further puruṣārtha, or equally as citiśakti abiding in its own svarūpa [[YS 4.34](cite://patanjali/yoga-sutra/4.34)].",
+      "primary_loci": [
+        "Yoga-Sūtra 2.25",
+        "Yoga-Sūtra 2.26",
+        "Yoga-Sūtra 4.34"
+      ],
+      "citations": [
+        {
+          "cite": "cite://patanjali/yoga-sutra/2.25",
+          "locus_short": "YS 2.25"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/2.26",
+          "locus_short": "YS 2.26"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/4.34",
+          "locus_short": "YS 4.34"
+        }
+      ]
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Nyāya defines apavarga through the reverse cessation of the saṃsāric chain: when mithyājñāna is undone, doṣa, pravṛtti, janma, and duḥkha successively fall away [[NS 1.1.2](cite://aksapada/nyaya-sutra/1.1.2)]. The state itself is atyantavimokṣa, total and non-recurrent release [[NS 1.1.22](cite://aksapada/nyaya-sutra/1.1.22)]. Vaiśeṣika frames the same end from the side of causal ontology: when the conditions generating fresh conjunction are absent, there is non-manifestation, and that condition is mokṣa [[VS 5.2.20](cite://kanada/vaisesika-sutra/5.2.20)].",
+      "primary_loci": [
+        "Nyāya-Sūtra 1.1.2",
+        "Nyāya-Sūtra 1.1.22",
+        "Vaiśeṣika-Sūtra 5.2.20"
+      ],
+      "citations": [
+        {
+          "cite": "cite://aksapada/nyaya-sutra/1.1.2",
+          "locus_short": "NS 1.1.2"
+        },
+        {
+          "cite": "cite://aksapada/nyaya-sutra/1.1.22",
+          "locus_short": "NS 1.1.22"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/5.2.20",
+          "locus_short": "VS 5.2.20"
+        }
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
@@ -238,27 +289,83 @@
     },
     {
       "school": "Yogācāra",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In the Yogācāra materials available here, the functional equivalent of mokṣa is āśrayasya parāvṛtti, the turning-about of the basis that coincides with supramundane cognition after the abandonment of the twofold dauṣṭhulya [[Triṃśikā 29](cite://vasubandhu/trimsika/29)]. That very transformation is the anāsrava dhātu, stable and wholesome, and as the Mahāmune's dharmakāya it is also called the vimuktikāya [[Triṃśikā 30](cite://vasubandhu/trimsika/30)].",
+      "primary_loci": [
+        "Triṃśikā 29-30"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/trimsika/29",
+          "locus_short": "Triṃśikā 29"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/30",
+          "locus_short": "Triṃśikā 30"
+        }
+      ]
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "For the Pratyabhijñā, bondage is the condition of the pramātṛ blinded by māyā and bound by karma, whereas liberation is the recovery of aiśvarya through vidyā, the recognition of oneself as cidghana rather than as a contracted subject [[ĪPK 3.2.2](cite://utpaladeva/ishvara-pratyabhijna-karika/3.2.2)]. The liberated subject accordingly does not meet the common object as radically other, but apprehends it under svātmābheda, whereas the bound subject cognizes it under atyantabheda [[ĪPK 4.13](cite://utpaladeva/ishvara-pratyabhijna-karika/4.13)]. The path therefore culminates in continuous immersion in śivatā through the recognition of the self's own world-creating lordship [[ĪPK 4.16](cite://utpaladeva/ishvara-pratyabhijna-karika/4.16)].",
+      "primary_loci": [
+        "Īśvara-Pratyabhijñā-Kārikā 3.2.2",
+        "Īśvara-Pratyabhijñā-Kārikā 4.13",
+        "Īśvara-Pratyabhijñā-Kārikā 4.16"
+      ],
+      "citations": [
+        {
+          "cite": "cite://utpaladeva/ishvara-pratyabhijna-karika/3.2.2",
+          "locus_short": "ĪPK 3.2.2"
+        },
+        {
+          "cite": "cite://utpaladeva/ishvara-pratyabhijna-karika/4.13",
+          "locus_short": "ĪPK 4.13"
+        },
+        {
+          "cite": "cite://utpaladeva/ishvara-pratyabhijna-karika/4.16",
+          "locus_short": "ĪPK 4.16"
+        }
+      ]
     },
     {
       "school": "Jainism",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Jainism defines the path to liberation through the triad of samyagdarśana, samyagjñāna, and samyakcāritra, and it places mokṣa within the basic ontology of jīva, ajīva, āsrava, bandha, saṃvara, nirjarā, and mokṣa [[TS 1.1](cite://umasvati/tattvartha-sutra/1.1); [TS 1.4](cite://umasvati/tattvartha-sutra/1.4)]. The operative discipline is the stoppage of karmic influx by saṃvara together with the shedding of accumulated karma by nirjarā [[TS 9.1](cite://umasvati/tattvartha-sutra/9.1); [TS 9.3](cite://umasvati/tattvartha-sutra/9.3)]. Mokṣa itself is the complete release from all karma through the absence of the causes of bondage together with nirjarā [[TS 10.2](cite://umasvati/tattvartha-sutra/10.2)].",
+      "primary_loci": [
+        "Tattvārtha-Sūtra 1.1",
+        "Tattvārtha-Sūtra 1.4",
+        "Tattvārtha-Sūtra 9.1",
+        "Tattvārtha-Sūtra 9.3",
+        "Tattvārtha-Sūtra 10.2"
+      ],
+      "citations": [
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/1.1",
+          "locus_short": "TS 1.1"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/1.4",
+          "locus_short": "TS 1.4"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/9.1",
+          "locus_short": "TS 9.1"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/9.3",
+          "locus_short": "TS 9.3"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/10.2",
+          "locus_short": "TS 10.2"
+        }
+      ]
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",
-      "definition": "[NOT YET RETRIEVED]",
+      "definition": "NOT-APPLICABLE",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "not_applicable_reason": "The Pāṇinian-Vaiyākaraṇa tradition's distinctive doctrinal apparatus is grammatical and semantic rather than a school-specific soteriology of mokṣa, so this term is not a native glossary target for that school."
     }
   ],
   "see_also": [

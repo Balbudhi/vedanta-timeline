@@ -3,32 +3,248 @@
   "term_iast": "citta",
   "term_devanagari": "चित्त",
   "literal": "what-has-been-thought, the thinking-substance; past-passive participle of √cit 'to be aware, to think'",
-  "aliases": ["citta", "Citta", "cittasya", "citte", "cittena", "citta-vṛtti", "cittavrtti"],
+  "aliases": [
+    "citta",
+    "Citta",
+    "cittasya",
+    "citte",
+    "cittena",
+    "citta-vṛtti",
+    "cittavrtti"
+  ],
   "invariant_definition": "*Citta* operates in two related but non-identical registers that must be kept apart. In Yoga it names the entire mutable mental field whose *vṛtti*s are to be stilled: memory, imagination, error, sleep, and valid cognition all belong to *citta*. In later Vedāntic psychology it more often names one functional aspect of the *antaḥkaraṇa*: the retaining, dwelling, and recollective layer in which impressions persist as *saṃskāra* and *vāsanā*. The overlap between the two is significant. In both cases *citta* is the operative field in which latent dispositions mature into present cognition and future action. That is why *citta-śuddhi* is a practical constant across schools. Without purification of this field, one remains governed by sedimented tendencies rather than by knowledge. The term must also be distinguished from *cit* or *caitanya*: *citta* is not pure consciousness but the mutable, impression-bearing medium in which consciousness is reflected or through which it operates.",
   "per_school": [
     {
-      "school": "Yoga",
-      "definition": "*Citta* is the total mental field whose modifications constitute ordinary experience and whose stilling is yoga. It stores *saṃskāra*s, generates *vṛtti*s, and is reshaped by practice until discriminative insight becomes stable. The practical core of Yoga can be read as a science of transformation of *citta*.",
-      "primary_loci": ["Yoga-Sūtra 1.2", "Yoga-Sūtra 1.5–11", "Yoga-Sūtra-Bhāṣya 1.2–5"]
-    },
-    {
       "school": "Advaita",
-      "definition": "*Citta* names the memory-bearing aspect of the inner instrument and the field that bears *vāsanā*s. Its purification is indispensable because hearing of the *mahāvākya* cannot stabilize in a field saturated by contrary impressions. Later Advaita therefore treats *citta-śuddhi* as a real preparatory achievement while denying that *citta* is itself consciousness. What is purified is an instrument, not the self.",
-      "primary_loci": ["Vedāntasāra 96–99 [NOT YET RETRIEVED]", "Pañcadaśī 1.14–25", "Bhagavad-Gītā-Bhāṣya 18.51–53"]
+      "definition": "In Advaita, karma is for `cittasya śuddhaye`, because the mutable inner field rather than the self requires purification before inquiry can disclose reality. [cite://sankara/vivekacudamani/11-local] When that citta is purified, knowledge shines in it like a reflection in a clean mirror, and `samādhāna` is therefore defined not as indulging citta but as fixing the intellect in Brahman. [cite://sankara/upadesa-sahasri/17.22-citte-adarsavat] [cite://sankara/vivekacudamani/26-local]",
+      "primary_loci": [
+        "Vivekacūḍāmaṇi 11, 26",
+        "Upadeśa-Sāhasrī 17.22"
+      ],
+      "citations": [
+        {
+          "cite": "cite://sankara/vivekacudamani/11-local",
+          "locus_short": "VC 11"
+        },
+        {
+          "cite": "cite://sankara/upadesa-sahasri/17.22-citte-adarsavat",
+          "locus_short": "US 17.22"
+        },
+        {
+          "cite": "cite://sankara/vivekacudamani/26-local",
+          "locus_short": "VC 26"
+        }
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Citta* is a real internal function through which karmic impressions persist and recollection operates. Its conditioning power is real, but it does not exhaust the self's nature. Devotional practice, remembrance, and disciplined action transform this field by reorienting stored tendencies toward the Lord.",
-      "primary_loci": ["Yatīndra-Mata-Dīpikā 5", "Gītā-Bhāṣya (Rāmānuja) 8.6", "Śrī-Bhāṣya 2.3.42–53"]
+      "definition": "In Viśiṣṭādvaita, `citta` is the controllable inner organ whose restraint and concentration are required for `ātma-viśuddhi` and `ātmāvalokana`. [cite://ramanuja/gita-bhasya/6.11-12-yatacittendriya] Its discipline culminates not in autonomous mental stillness but in God-oriented contemplation, since the yogin is `maccitta` and reaches peace by fixing the mind in the Lord who is its auspicious support. [cite://ramanuja/gita-bhasya/6.14-19-maccitto]",
+      "primary_loci": [
+        "Gītā-Bhāṣya on Bhagavad-Gītā 6.11-19"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ramanuja/gita-bhasya/6.11-12-yatacittendriya",
+          "locus_short": "BhGR 6.11-12"
+        },
+        {
+          "cite": "cite://ramanuja/gita-bhasya/6.14-19-maccitto",
+          "locus_short": "BhGR 6.14-19"
+        }
+      ]
     },
     {
       "school": "Tattva-vāda",
-      "definition": "*Citta* is a real impression-bearing aspect of embodied mentality. The residues stored there help explain continuity of character and devotion across karmic existence, but they belong to an instrument of a distinct soul rather than to a universal consciousness-field. Tattva-vāda (the school often labeled Dvaita) thus keeps the practical importance of *citta* without weakening ontological plurality.",
-      "primary_loci": ["Tattva-Saṅkhyāna 5–7", "Gītā-Tātparya 8 [NOT YET RETRIEVED]"]
+      "definition": "In Tattva-vāda, Jayatīrtha uses `cittavṛtti` for the operative modes of embodied subjectivity, analyzing them as experience, desire, and effort in his discussion of `pravṛtti`. [cite://jayatirtha/nyaya-sudha/cittavrtti-pravrtti] The same school can then treat `cittavṛttinirodha` as a contemplative effect of upāsanā while preserving the difference between the mental instrument and the soul that employs it. [cite://jayatirtha/nyaya-sudha/cittavrttinirodha-upasana]",
+      "primary_loci": [
+        "Nyāya-Sudhā, opening prayojana / pravṛtti discussion",
+        "Nyāya-Sudhā, upāsanā discussion"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jayatirtha/nyaya-sudha/cittavrtti-pravrtti",
+          "locus_short": "NS opening"
+        },
+        {
+          "cite": "cite://jayatirtha/nyaya-sudha/cittavrttinirodha-upasana",
+          "locus_short": "NS 10.77"
+        }
+      ]
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Bhāskara materials",
+        "Yādava-Prakāśa materials"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "In Acintya-Bhedābheda, Jīva Gosvāmin explicitly accepts the idiom that Brahman manifests in a `śuddha-citta-vṛtti`, while arguing that Bhagavān's self-manifest form shines there with greater determinacy than an undifferentiated brahman-appearance. [cite://jiva-gosvami/sat-sandarbha/suddha-citta-vrtti] He also cites the Viṣṇu-Purāṇa formula `śubhāśrayaḥ sa cittasya` to construe Bhagavān as the auspicious support of the mind, so that bhakti redirects and stabilizes citta toward direct theistic manifestation. [cite://jiva-gosvami/sat-sandarbha/subhasraya-cittasya]",
+      "primary_loci": [
+        "Sat-Sandarbha, BhP 3.15.43 discussion",
+        "Sat-Sandarbha, ViP 6.7.76 discussion"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/suddha-citta-vrtti",
+          "locus_short": "SatS 3557"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/subhasraya-cittasya",
+          "locus_short": "SatS 3900"
+        }
+      ]
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Daśa-Ślokī",
+        "Vedānta-Pārijāta-Saurabha"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Aṇu-Bhāṣya"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "In the searchable Sāṃkhya corpus, `citta` appears at the level of contemplative discipline rather than as the primary taxonomic term for the inner organ, the Sāṃkhya-Sūtra requiring non-dispersion of a single citta for samādhi. [cite://kapila/samkhya-sutra/4.14-ekacitta] This points to a late Sāṃkhya-Yoga register in which one-pointed citta is a condition of stabilization, even though the older analytic vocabulary remains centered on `buddhi`, `ahaṃkāra`, and `manas`. [cite://kapila/samkhya-sutra/4.14-ekacitta]",
+      "primary_loci": [
+        "Sāṃkhya-Sūtra 4.14"
+      ],
+      "citations": [
+        {
+          "cite": "cite://kapila/samkhya-sutra/4.14-ekacitta",
+          "locus_short": "SS 4.14"
+        }
+      ]
+    },
+    {
+      "school": "Yoga",
+      "definition": "In Yoga, `citta` is the mutable mental field whose `vṛtti`s are to be brought to cessation, and Vyāsa accordingly classifies its `bhūmi`s from `kṣipta` through `niruddha`. [cite://patanjali/yoga-sutra/1.2-local] [cite://vyasa-bhasya/yoga-bhasya/1.1-citta-bhumayah] Its disciplined transformation is tracked as `samādhi-pariṇāma` and `ekāgratā-pariṇāma`, so the Yoga project is literally a science of citta's reconfiguration. [cite://patanjali/yoga-sutra/3.11-12-local]",
+      "primary_loci": [
+        "Yoga-Sūtra 1.2",
+        "Yoga-Bhāṣya on YS 1.1",
+        "Yoga-Sūtra 3.11-12"
+      ],
+      "citations": [
+        {
+          "cite": "cite://patanjali/yoga-sutra/1.2-local",
+          "locus_short": "YS 1.2"
+        },
+        {
+          "cite": "cite://vyasa-bhasya/yoga-bhasya/1.1-citta-bhumayah",
+          "locus_short": "YBh 1.1"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/3.11-12-local",
+          "locus_short": "YS 3.11-12"
+        }
+      ]
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "In the searchable Nyāya and Vaiśeṣika primaries on disk, cognition is analyzed through ātman, manas, buddhi / jñāna, guṇa, and saṃskāra; `citta` does not function as a school-defining technical category."
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "Searchable hits in the on-disk Mīmāṃsā corpus are only false positives from `prāyaścitta`; the school's technical vocabulary here is not organized around a distinct doctrinal category of `citta`."
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "For Mādhyamaka, the ultimately real is precisely what exceeds `cittagocara`; `dharmatā`, like nirvāṇa, is unarisen and unceased when the field of discursivity has fallen away. [cite://nagarjuna/mula-madhyamaka-karika/18.7] Nāgārjuna can therefore speak of the sage's citta turning back from teaching a doctrine so difficult to penetrate, which reinforces that mind is a conventional and pedagogical register rather than an ultimate substrate. [cite://nagarjuna/mula-madhyamaka-karika/24.12]",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 18.7",
+        "Mūla-Madhyamaka-Kārikā 24.12"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/18.7",
+          "locus_short": "MMK 18.7"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.12",
+          "locus_short": "MMK 24.12"
+        }
+      ]
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "In Yogācāra, `citta`, `manas`, `vijñāna`, and `vijñapti` are explicitly aligned in the mind-only analysis, so `citta` names the representational continuum together with its associates rather than an externally object-correlated substrate. [cite://vasubandhu/vimsatika/Proem] Dharmakīrti's epistemological wing continues this usage by treating cognitive distortion as arising from defects deposited in citta and its ālaya-based continuum. [cite://dharmakirti/pramana-varttika/2.522-cittenahita-vaigunya]",
+      "primary_loci": [
+        "Viṃśatikā Proem",
+        "Pramāṇa-Vārttika 2.522"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/vimsatika/Proem",
+          "locus_short": "Vvs Proem"
+        },
+        {
+          "cite": "cite://dharmakirti/pramana-varttika/2.522-cittenahita-vaigunya",
+          "locus_short": "PrV 2.522"
+        }
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "In Trika, `citta` is not an entity other than consciousness but consciousness itself under contraction: `citir eva ... saṃkocinī cittam`. [cite://ksemaraja/pratyabhijna-hrdayam/5-citireva-cittam] Practice therefore does not annihilate citta; when suffused by the worshipper's realization it is regathered into Śiva's own mode and disclosed as intrinsically `śivadharmiṇaḥ`. [cite://vasugupta/spanda-karika/2.2-saharadhakacittena] [cite://ksemaraja/pratyabhijna-hrdayam/5-citireva-cittam]",
+      "primary_loci": [
+        "Pratyabhijñā-Hṛdayam 5",
+        "Spanda-Kārikā 2.2"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ksemaraja/pratyabhijna-hrdayam/5-citireva-cittam",
+          "locus_short": "PH 5"
+        },
+        {
+          "cite": "cite://vasugupta/spanda-karika/2.2-saharadhakacittena",
+          "locus_short": "SK 2.2"
+        }
+      ]
+    },
+    {
+      "school": "Jainism",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The on-disk Jain primary supplied for this phase, the Tattvārtha-Sūtra, does not treat `citta` as a distinct technical heading for its psychology; the system is organized through other categories."
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "No on-disk grammatical primaries were supplied for this phase, and the school is not being indexed here as having a distinct philosophical doctrine of `citta` comparable to the darśana traditions above."
     }
   ],
-  "see_also": ["antahkarana", "manas", "buddhi", "ahankara", "samskara", "vasana", "vrtti", "cit"],
+  "see_also": [
+    "antahkarana",
+    "manas",
+    "buddhi",
+    "ahankara",
+    "samskara",
+    "vasana",
+    "vrtti",
+    "cit"
+  ],
   "translator_note": "'Consciousness' is usually the wrong translation. It collapses *citta* into *cit* and erases the distinction between mutable mental field and pure awareness. 'Mind-stuff' captures the Yoga register tolerably well, and 'memory-field' or 'impression-bearing mind' can help in the Vedāntic register. The key point is that *citta* is what carries traces, not what shines by its own nature.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus"
+  "last_verified_by": "glossary-wave2-codex54"
 }

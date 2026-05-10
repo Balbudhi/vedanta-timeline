@@ -10,40 +10,192 @@
     "Anekāntavāda"
   ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus",
+  "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "The Jaina doctrine that no existent is exhausted by a single predication or standpoint. Its metaphysical basis is the Jaina account of reality as simultaneously enduring and changing: a thing is a *dravya* with persistent identity, but it is also a stream of *paryāyas* or modes. Because predication tracks some aspect, relation, time, or practical standpoint, any true judgment is true under a determinate *naya* rather than as an unqualified total description. *Anekānta-vāda* therefore presupposes the paired apparatus of *naya* (standpoint-analysis) and *syād-vāda* (conditional predication). It is not the claim that contradictions are simply true together, nor the modern thesis that all opinions are equally valid. The doctrine instead blocks one-sided metaphysical absolutization: the Nyāya realist, Buddhist momentarist, and Vedāntin monist are each said to seize one feature of things and elevate it into the whole account. The load-bearing commitment is ontological and logical together: reality is many-sided, so assertion must mark the aspect under which it speaks.",
   "per_school": [
     {
-      "school": "Jaina (foundational)",
-      "definition": "*Anekānta* rests on two classical claims: things are known through *pramāṇa* and *naya*, and whatever is real exhibits origination, cessation, and persistence together. The first claim blocks a single exhaustive viewpoint; the second gives the ontological ground for conditioned predication. A substance can be permanent as substance and changing as mode without contradiction, because the predicates are keyed to different respects.",
+      "school": "Advaita",
+      "definition": "Advaita rejects the Jaina conjunction of contrary predicates in one dharmin, since `sat` and `asat` cannot be simultaneously instantiated in the same locus any more than heat and cold. [cite://sankara/brahma-sutra-bhasya/2.2.33-36] Śaṅkara further argues that once `anekāntatva` is universalized, even determinate cognition, scripture, and liberating practice lose fixity, so the position defeats `pramāṇa` rather than refining it. [cite://sankara/brahma-sutra-bhasya/2.2.33-36]",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 2.2.33-36"
+      ],
+      "citations": [
+        {
+          "cite": "cite://sankara/brahma-sutra-bhasya/2.2.33-36",
+          "locus_short": "BSB 2.2.33-36"
+        }
+      ]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Viśiṣṭādvaita rejects the Jaina claim that one vastu is affirmable as existent and non-existent through a sevenfold scheme, because mutually opposed predicates do not inhere together in a single thing. [cite://ramanuja/shri-bhasya/2.2.33-36] Rāmānuja accordingly distinguishes his own structured Brahman-world relation from Jaina `anekānta`: Brahman's relation to `cit` and `acit` is ordered through `śarīra-śarīrin`, not through oscillating assertion and negation of the same predicate. [cite://ramanuja/shri-bhasya/2.2.33-36]",
+      "primary_loci": [
+        "Śrī-Bhāṣya 2.2.33-36"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ramanuja/shri-bhasya/2.2.33-36",
+          "locus_short": "ŚrīBh 2.2.33-36"
+        }
+      ]
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Madhva, Brahma-Sūtra-Bhāṣya 2.2.33-36 [expected anti-Jaina locus; no clean retrievable passage secured in this pass]",
+        "Madhva thinker dossier notes anti-Jaina engagement in Brahma-Sūtra-Bhāṣya and Tattva-Saṅkhyāna"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Bhāskara, Brahma-Sūtra-Bhāṣya 2.2.33-36 [school-relevant locus, but no approved clean primary from the assigned corpus pointers]",
+        "Yādava-Prakāśa dossier searched; no on-disk primary locus matching the term was retrievable"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Baladeva, Govinda-Bhāṣya 2.2.33-36 [expected Vedānta anti-Jaina locus; no clean retrievable Sanskrit passage secured in this pass]",
+        "Jīva Gosvāmin / Caitanya materials searched; no direct anekānta-locus retrieved"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "Nimbārka rejects the Jaina `saptabhaṅgī` because a single dharmin cannot bear `asti` and `nāsti` in the same respect, and a merely standpoint-driven vacillation would undercut determinate knowledge. [cite://nimbarka/vedanta-parijata-saurabha/2.2.33-36] He nonetheless distinguishes his own `svābhāvika-bhedābheda` from that target: Brahman and world are non-different through dependence and inseparability, while their difference remains intrinsic rather than viewpoint-conditional. [cite://nimbarka/vedanta-parijata-saurabha/2.2.33-36] [cite://nimbarka/vedanta-parijata-saurabha/2.3.42]",
+      "primary_loci": [
+        "Vedānta-Pārijāta-Saurabha 2.2.33-36",
+        "Vedānta-Pārijāta-Saurabha 2.3.42"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nimbarka/vedanta-parijata-saurabha/2.2.33-36",
+          "locus_short": "VPS 2.2.33-36"
+        },
+        {
+          "cite": "cite://nimbarka/vedanta-parijata-saurabha/2.3.42",
+          "locus_short": "VPS 2.3.42"
+        }
+      ]
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "Vallabha dismisses Jaina sevenfold predication as contradictory when imposed on one entity, and he rejects the appeal to `paryāya` because contraction and expansion of the self would still entail `vikāra`. [cite://vallabha/anu-bhasya/2.2.33-36] Śuddhādvaita therefore secures plurality within non-duality through `avikṛta-pariṇāma`, not through aspect-indexed coexistence of opposed predicates. [cite://vallabha/anu-bhasya/2.2.33-36] [cite://vallabha/anu-bhasya/1.4.26]",
+      "primary_loci": [
+        "Aṇu-Bhāṣya 2.2.33-36",
+        "Aṇu-Bhāṣya 1.4.26"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anu-bhasya/2.2.33-36",
+          "locus_short": "AṇuBh 2.2.33-36"
+        },
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.4.26",
+          "locus_short": "AṇuBh 1.4.26"
+        }
+      ]
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The assigned Sāṃkhya texts on disk do not develop or refute Jaina anekānta-vāda as a school-defining topic."
+    },
+    {
+      "school": "Yoga",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The assigned Yoga texts on disk do not develop or refute Jaina anekānta-vāda as a school-defining topic."
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "In the Nyāya-Vaiśeṣika materials on disk, `anekānta` is not the Jaina doctrine of many-sided predication but the defect of an inconclusive consideration whose force extends to opposed cases. [cite://aksapada/nyaya-sutra/2.1.20] [cite://aksapada/nyaya-sutra/3.2.17] Vātsyāyana explains that such `anekānta` arises when a dṛṣṭānta is advanced without a `viśeṣa-hetu`, so the example can be pressed on both sides and no determinate inference follows. [cite://vatsyayana/nyaya-sutra-bhasya/2.1.20]",
+      "primary_loci": [
+        "Nyāya-Sūtra 2.1.20",
+        "Nyāya-Sūtra 3.2.17",
+        "Nyāya-Bhāṣya 2.1.20"
+      ],
+      "citations": [
+        {
+          "cite": "cite://aksapada/nyaya-sutra/2.1.20",
+          "locus_short": "NS 2.1.20"
+        },
+        {
+          "cite": "cite://aksapada/nyaya-sutra/3.2.17",
+          "locus_short": "NS 3.2.17"
+        },
+        {
+          "cite": "cite://vatsyayana/nyaya-sutra-bhasya/2.1.20",
+          "locus_short": "NBh 2.1.20"
+        }
+      ]
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The assigned Pūrva-Mīmāṃsā materials did not yield a school-defining treatment of Jaina anekānta-vāda; isolated occurrences are lexically or polemically unrelated to this glossary sense."
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The assigned Mādhyamaka primaries on disk do not develop or refute Jaina anekānta-vāda as a school-defining topic."
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The assigned Yogācāra primaries on disk do not develop or refute Jaina anekānta-vāda as a school-defining topic."
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The assigned Pratyabhijñā / Trika materials contain no substantive school-level treatment of Jaina anekānta-vāda in the glossary sense."
+    },
+    {
+      "school": "Jainism",
+      "definition": "In Umāsvāti's foundational presentation, an object is grasped through `pramāṇa` and `naya`, so cognition does not absolutize one unqualified predication but proceeds through disciplined standpoint-analysis. [cite://umasvati/tattvartha-sutra/1.6] [cite://umasvati/tattvartha-sutra/1.34] The ontological ground is that the real is marked by origination, cessation, and persistence together, which allows substantial identity and modal variation to be jointly affirmed without collapsing into sheer contradiction. [cite://umasvati/tattvartha-sutra/5.29]",
       "primary_loci": [
         "Tattvārtha-Sūtra 1.6",
+        "Tattvārtha-Sūtra 1.34",
         "Tattvārtha-Sūtra 5.29"
+      ],
+      "citations": [
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/1.6",
+          "locus_short": "TS 1.6"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/1.34",
+          "locus_short": "TS 1.34"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/5.29",
+          "locus_short": "TS 5.29"
+        }
       ]
     },
     {
-      "school": "Jaina (systematic and dialectical)",
-      "definition": "Later Jaina logicians turn *anekānta* into a polemical method. Akalaṅka and Malliṣeṇa argue that rival schools err by absolutizing one admissible standpoint and denying the rest. The doctrine is thus not mere tolerance but a disciplined way of preserving determinate predication while refusing metaphysical one-sidedness. The seven *syād-vāda* forms are presented as the formal expression of this many-sided ontology.",
-      "primary_loci": [
-        "Tattvārtha-Vārttika ad Tattvārtha-Sūtra 1.6",
-        "Syādvāda-Mañjarī 1-5"
-      ]
-    },
-    {
-      "school": "Advaita Vedānta (refutation)",
-      "definition": "Advaita treats *anekānta-vāda* as unstable. If opposite predicates are asserted without qualification, the view is self-contradictory; if they are asserted only under distinct standpoints, the doctrine reduces to the harmless point that language tracks context. Śaṅkara and later Advaitins therefore deny that Jaina many-sidedness yields a superior metaphysics; on their reading, it either abandons non-contradiction or says less than it appears to say.",
-      "primary_loci": [
-        "Brahma-Sūtra 2.2.33-36",
-        "Brahma-Sūtra-Bhāṣya 2.2.33-36"
-      ]
-    },
-    {
-      "school": "Tattva-vāda (Dvaita) (refutation)",
-      "definition": "Tattva-vāda reads *anekānta* as a failure of ontological determination. Madhva's realism requires stable and irreducible difference, not predicates whose force is continually redistributed across standpoints. From that perspective, the Jaina strategy weakens the reality of *bheda* by making it viewpoint-indexed rather than ontologically basic.",
-      "primary_loci": [
-        "Brahma-Sūtra-Bhāṣya (Madhva) 2.2.33-36",
-        "[NOT YET RETRIEVED]"
-      ]
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "No on-disk Vaiyākaraṇa primary is available for this phase, and the school is not represented here with a substantive treatment of Jaina anekānta-vāda."
     }
   ],
   "see_also": [

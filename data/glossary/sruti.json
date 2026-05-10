@@ -171,15 +171,39 @@
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "For Sāṃkhya, *āptaśruti* or *āptāgama* is one member of the threefold *pramāṇa*-scheme, alongside perception and inference, and its authority is that of reliable testimony rather than of a sui generis revelatory organ [[SK 5](cite://isvarakrsna/samkhya-karika/5)]. Its proper field is the *parokṣa* and *atīndriya*: what is not secured by perception may still be established from the trustworthy tradition of the competent speaker [[SK 6](cite://isvarakrsna/samkhya-karika/6)].",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 5",
+        "Sāṃkhya-Kārikā 6"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/5",
+          "locus_short": "SK 5"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/6",
+          "locus_short": "SK 6"
+        }
+      ]
     },
     {
       "school": "Yoga",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Yoga accepts *āgama* as a *pramāṇa* when a trustworthy knower communicates a seen or inferred object for another's cognition; if the speaker lacks such warrant, the putative testimony simply 'floats' (*plavate*) [[YBh 1.7](cite://vyasa-bhasya/yoga-sutra-bhasya/1.7)]. Yet scriptural and inferential cognition remain *sāmānyaviṣaya*; the *viśeṣa* needed for yogic knowledge of subtle, remote, or inward realities is grasped only by *samādhi-prajñā*, whose object is other than that of *śruta* and *anumāna* [[YBh 1.49](cite://vyasa-bhasya/yoga-sutra-bhasya/1.49)].",
+      "primary_loci": [
+        "Yoga-Bhāṣya on Yoga-Sūtra 1.7",
+        "Yoga-Bhāṣya on Yoga-Sūtra 1.49"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vyasa-bhasya/yoga-sutra-bhasya/1.7",
+          "locus_short": "YBh 1.7"
+        },
+        {
+          "cite": "cite://vyasa-bhasya/yoga-sutra-bhasya/1.49",
+          "locus_short": "YBh 1.49"
+        }
+      ]
     },
     {
       "school": "Sāṃkhya-Yoga (synthetic)",
@@ -196,15 +220,44 @@
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "For Nyāya-Vaiśeṣika, the analogue of *śruti* is *śabda-pramāṇa* as *āptopadeśa*: authoritative testimony is the utterance of a competent speaker who has directly apprehended the relevant object and intends to communicate it truly [[NS 1.1.7](cite://aksapada/nyaya-sutra/1.1.7)] [[NBh on NS 1.1.7](cite://vatsyayana/nyaya-sutra-bhasya/1.1.7)]. Vedic injunctions concerning supersensible ends such as *svarga* are paradigmatic precisely where neither perception nor *liṅga*-based inference operates, so scripture functions there as an independent route to cognition [[NBh p.92](cite://vatsyayana/nyaya-sutra-bhasya/p92-agnihotra-juhuyat-svargakamah)].",
+      "primary_loci": [
+        "Nyāya-Sūtra 1.1.7",
+        "Nyāya-Bhāṣya on Nyāya-Sūtra 1.1.7",
+        "Nyāya-Bhāṣya, p.92 example on `agnihotra juhuyāt svargakāmaḥ`"
+      ],
+      "citations": [
+        {
+          "cite": "cite://aksapada/nyaya-sutra/1.1.7",
+          "locus_short": "NS 1.1.7"
+        },
+        {
+          "cite": "cite://vatsyayana/nyaya-sutra-bhasya/1.1.7",
+          "locus_short": "NBh on NS 1.1.7"
+        },
+        {
+          "cite": "cite://vatsyayana/nyaya-sutra-bhasya/p92-agnihotra-juhuyat-svargakamah",
+          "locus_short": "NBh p.92"
+        }
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Pūrva-Mīmāṃsā, *śruti* is first and foremost *codanā*: the Vedic injunction whose object is *dharma* and whose authority is irreducible to perception or inference [[MS 1.1.2](cite://jaimini/mimamsa-sutra/1.1.2)] [[ŚBh on MS 1.1.2](cite://shabara/shabara-bhasya/1.1.2)]. Because *dharma* is supersensible, the Veda alone discloses it; Śabara accordingly treats Vedic utterance as non-errant in its own sphere and refuses to assimilate it to fallible human speech [[ŚBh on MS 1.1.2](cite://shabara/shabara-bhasya/1.1.2)].",
+      "primary_loci": [
+        "Mīmāṃsā-Sūtra 1.1.2",
+        "Śābara-Bhāṣya on Mīmāṃsā-Sūtra 1.1.2"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/1.1.2",
+          "locus_short": "MS 1.1.2"
+        },
+        {
+          "cite": "cite://shabara/shabara-bhasya/1.1.2",
+          "locus_short": "ŚBh on MS 1.1.2"
+        }
+      ]
     },
     {
       "school": "Mādhyamaka",
@@ -214,27 +267,64 @@
     },
     {
       "school": "Yogācāra",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "For Yogācāra, the relevant analogue of *śruti* is Buddhist *āgama*, but its literal surface is governed by pedagogical intention (*abhiprāya*) [[Vv 8](cite://vasubandhu/vimsatika/8-abhiprayavasat)]. Vasubandhu argues that the Buddha's teaching of the existence of the sense-fields was delivered for disciples requiring that instruction, while its doctrinal import is re-read in terms of cognition and its own seeds rather than of external objects [[Vv 9](cite://vasubandhu/vimsatika/9-svabijad-vijnaptih)].",
+      "primary_loci": [
+        "Vimśatikā 8",
+        "Vimśatikā 9"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/vimsatika/8-abhiprayavasat",
+          "locus_short": "Vv 8"
+        },
+        {
+          "cite": "cite://vasubandhu/vimsatika/9-svabijad-vijnaptih",
+          "locus_short": "Vv 9"
+        }
+      ]
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Trika, the functional analogue of *śruti* is *āgama*: one revelation displayed by the all-seeing Lord and established across both the path of engagement and the path of withdrawal [[TĀ 35.23-24](cite://abhinavagupta/tantraloka/35.23-24)]. Because that one Śāmbhava āgama addresses differentiated fruits and adhikāras, it can prescribe diverse upāyas without contradiction, and other śāstras are placed as graded articulations within that wider revelatory order [[TĀ 35.23-24](cite://abhinavagupta/tantraloka/35.23-24)] [[TĀ 35.30](cite://abhinavagupta/tantraloka/35.30)].",
+      "primary_loci": [
+        "Tantrāloka 35.23-24",
+        "Tantrāloka 35.30"
+      ],
+      "citations": [
+        {
+          "cite": "cite://abhinavagupta/tantraloka/35.23-24",
+          "locus_short": "TĀ 35.23-24"
+        },
+        {
+          "cite": "cite://abhinavagupta/tantraloka/35.30",
+          "locus_short": "TĀ 35.30"
+        }
+      ]
     },
     {
       "school": "Jainism",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "The closest Jain analogue to *śruti* is *śruta-jñāna*, scriptural cognition [[TS 1.9-11](cite://umasvati/tattvartha-sutra/1.9-11)]. Umāsvāti counts *mati* and *śruta* among the five kinds of knowledge, classifies the first two as indirect (*parokṣa*), and defines *śruta* as arising on the basis of *mati* while ramifying into many divisions [[TS 1.9-11](cite://umasvati/tattvartha-sutra/1.9-11)] [[TS 1.20](cite://umasvati/tattvartha-sutra/1.20)].",
+      "primary_loci": [
+        "Tattvārtha-Sūtra 1.9-11",
+        "Tattvārtha-Sūtra 1.20"
+      ],
+      "citations": [
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/1.9-11",
+          "locus_short": "TS 1.9-11"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/1.20",
+          "locus_short": "TS 1.20"
+        }
+      ]
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",
-      "definition": "[NOT YET RETRIEVED]",
+      "definition": "NOT-APPLICABLE",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "not_applicable_reason": "Within this wave's acquisition rule, śruti is not a core Pāṇinian-Vaiyākaraṇa doctrinal term on the model of śabda, sphoṭa, or kāraka, and the on-disk grammatical primaries needed to argue otherwise are absent."
     }
   ],
   "see_also": [
@@ -248,5 +338,5 @@
   ],
   "translator_note": "The lazy gloss is 'scripture' or 'revelation.' Both import Abrahamic baggage: a historically delivered message authored by God or a prophet and bounded as a book. *Śruti* instead names an authorless heard corpus plus the Mīmāṃsā-Vedānta theory that such language is intrinsically valid and hermeneutically ordered. Leaving the term untranslated, or glossing it once as 'the heard Veda,' usually preserves the metaphysics better.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54"
+  "last_verified_by": "glossary-wave2-codex54"
 }

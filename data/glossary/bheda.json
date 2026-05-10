@@ -169,27 +169,90 @@
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "For Sāṃkhya, *bheda* is first the differentiated unfolding of *guṇa-pariṇāma*: plurality in the cognitive apparatus is explained through distinct transformations of the *guṇas* together with the difference of the objects grasped [[SK 27](cite://isvarakrsna/samkhya-karika/27)] [[SS 2.27](cite://kapila/samkhya-sutra/2.27)]. Bondage persists through *aviveka*, the failure to discriminate *pradhāna* from what is not it, so release requires a completed *viveka* rather than the erasure of plurality into an undifferentiated absolute [[SS 1.57](cite://kapila/samkhya-sutra/1.57)].",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 27",
+        "Sāṃkhya-Sūtra 1.57",
+        "Sāṃkhya-Sūtra 2.27"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/27",
+          "locus_short": "SK 27"
+        },
+        {
+          "cite": "cite://kapila/samkhya-sutra/1.57",
+          "locus_short": "SS 1.57"
+        },
+        {
+          "cite": "cite://kapila/samkhya-sutra/2.27",
+          "locus_short": "SS 2.27"
+        }
+      ]
     },
     {
       "school": "Yoga",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Yoga, the functional analogue of *bheda* is *sattva-puruṣānyatā-pratyaya*: *vivekakhyāti* is explicitly defined as the cognition that *sattva* and *puruṣa* are other than one another, and its unbroken stream is the direct means of cessation [[YBh 2.26](cite://vyasa/yoga-bhasya/2.26)]. At the summit of practice, buddhisattva is reduced to the bare office of manifesting the puruṣa's otherness, and kaivalya follows when the seer is no longer re-entangled with the guṇic presentation that had seemed to share its status [[YBh 3.49](cite://vyasa/yoga-bhasya/3.49)] [[YBh 3.55](cite://vyasa/yoga-bhasya/3.55)].",
+      "primary_loci": [
+        "Yoga-Bhāṣya on Yoga-Sūtra 2.26",
+        "Yoga-Bhāṣya on Yoga-Sūtra 3.49",
+        "Yoga-Bhāṣya on Yoga-Sūtra 3.55"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vyasa/yoga-bhasya/2.26",
+          "locus_short": "YBh 2.26"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/3.49",
+          "locus_short": "YBh 3.49"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/3.55",
+          "locus_short": "YBh 3.55"
+        }
+      ]
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Nyāya-Vaiśeṣika, the school's own equivalents for *bheda* are *pṛthaktva* and *viśeṣa*: separateness is a real guṇa, while *viśeṣa* names the ultimate differentiators that inhere in eternal substances [[VS 7.2.1](cite://kanada/vaisesika-sutra/7.2.1)] [[AnTS 78](cite://annambhatta/tarka-sangraha/78)]. Difference is therefore objective rather than merely conceptual, since the categorial order requires both the commonality of *sāmānya* and the non-collapse secured by *viśeṣa* beyond ordinary generic determination [[VS 1.2.3-6](cite://kanada/vaisesika-sutra/1.2.3-6)] [[AnTS 78](cite://annambhatta/tarka-sangraha/78)].",
+      "primary_loci": [
+        "Vaiśeṣika-Sūtra 1.2.3-6",
+        "Vaiśeṣika-Sūtra 7.2.1",
+        "Tarka-Saṅgraha 78"
+      ],
+      "citations": [
+        {
+          "cite": "cite://kanada/vaisesika-sutra/1.2.3-6",
+          "locus_short": "VS 1.2.3-6"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/7.2.1",
+          "locus_short": "VS 7.2.1"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/78",
+          "locus_short": "AnTS 78"
+        }
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Pūrva-Mīmāṃsā, *bheda* is principally *karmabheda*: the differentiated identity of injunctions and performances by which one determines whether a rite is repeated, transferred, or held distinct from another [[MS 2.2.19](cite://jaimini/mimamsa-sutra/2.2.19)] [[MS 2.4.8](cite://jaimini/mimamsa-sutra/2.4.8)]. A difference in wording, name, form, *dharmaviśeṣa*, recurrence, or allied markers is sufficient to fix distinct ritual obligations, because subsidiary dravya- and guṇa-relations cannot erase the identity of the act to which they belong [[MS 2.2.19](cite://jaimini/mimamsa-sutra/2.2.19)] [[MS 2.4.8](cite://jaimini/mimamsa-sutra/2.4.8)].",
+      "primary_loci": [
+        "Mīmāṃsā-Sūtra 2.2.19",
+        "Mīmāṃsā-Sūtra 2.4.8"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/2.2.19",
+          "locus_short": "MS 2.2.19"
+        },
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/2.4.8",
+          "locus_short": "MS 2.4.8"
+        }
+      ]
     },
     {
       "school": "Mādhyamaka",
@@ -224,15 +287,38 @@
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Pratyabhijñā, *bheda* is an *ābhāsa* of one consciousness under the power of *māyā*: the very cit of the Lord becomes a domain of distinct objects, cognitions, and determinations without ceasing to be itself [[ĪPK 1.5.18](cite://utpaladeva/isvara-pratyabhijna-karika/1.5.18)]. The distinction between bondage and liberation turns on how this differentiated field is taken: the bound subject treats the common object-world as radically other, while the liberated knower repossesses it in *svātmābheda* as the manifestation of Maheśvara [[ĪPK 4.13](cite://utpaladeva/isvara-pratyabhijna-karika/4.13)].",
+      "primary_loci": [
+        "Īśvarapratyabhijñākārikā 1.5.18",
+        "Īśvarapratyabhijñākārikā 4.13"
+      ],
+      "citations": [
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/1.5.18",
+          "locus_short": "ĪPK 1.5.18"
+        },
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/4.13",
+          "locus_short": "ĪPK 4.13"
+        }
+      ]
     },
     {
       "school": "Jainism",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Jainism, *bheda* is a real operation within *pudgala*: matter is characterized by divisibility, and atoms and aggregates arise through division and aggregation [[TS 5.24-28](cite://umasvati/tattvartha-sutra/5.24-28)]. Because the real is defined by origination, cessation, and persistence together, division does not annihilate substance; it marks modal transformation within enduring *dravya* [[TS 5.29-30](cite://umasvati/tattvartha-sutra/5.29-30)].",
+      "primary_loci": [
+        "Tattvārtha-Sūtra 5.24-30"
+      ],
+      "citations": [
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/5.24-28",
+          "locus_short": "TS 5.24-28"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/5.29-30",
+          "locus_short": "TS 5.29-30"
+        }
+      ]
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",
@@ -251,5 +337,5 @@
   ],
   "translator_note": "The lazy gloss is simply 'difference.' That can work, but only if one hears 'real distinction' rather than a weak conceptual contrast. Another common mistake is to turn Tattva-vāda's use of *bheda* into 'dualism' in a Cartesian sense. Madhva's view is not a flat two-term split but a graded realist plurality with permanent distinctions across many orders of being.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54"
+  "last_verified_by": "glossary-wave2-codex54"
 }

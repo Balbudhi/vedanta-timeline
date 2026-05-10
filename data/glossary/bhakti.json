@@ -39,10 +39,6 @@
         {
           "cite": "cite://madhusudana/bhakti-rasayana/1.1",
           "locus_short": "BR 1.1"
-        },
-        {
-          "cite": "cite://madhusudana/bhakti-rasayana/1.1 ṭīkā.20",
-          "locus_short": "BR 1.1 ṭīkā.20"
         }
       ]
     },
@@ -80,10 +76,6 @@
         {
           "cite": "cite://madhva/anuvyakhyana/3.3.1",
           "locus_short": "Anuvy. 3.3.1"
-        },
-        {
-          "cite": "cite://madhva/karma-nirnaya/p. 257a",
-          "locus_short": "Karma-Nirṇaya p. 257a"
         },
         {
           "cite": "cite://madhva/anuvyakhyana/1.1.13-15",
@@ -176,9 +168,10 @@
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
+      "definition": "NOT-APPLICABLE",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "not_applicable_reason": "In the available Sāṃkhya corpus, mokṣa is tied to tattvajñāna and the late upāsanā notices are ancillary or expressly non-liberating, so there is no developed Sāṃkhya doctrine of bhakti in the present sense."
     },
     {
       "school": "Yoga",
@@ -199,33 +192,54 @@
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
+      "definition": "NOT-APPLICABLE",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "not_applicable_reason": "In the available Nyāya-Vaiśeṣika texts, bhakti appears only in semantic discussions of gauṇa or bhākta usage, while the school's soteriology is organized around tattvajñāna and apavarga rather than a developed doctrine of bhakti."
     },
     {
       "school": "Pūrva-Mīmāṃsā",
-      "definition": "[NOT YET RETRIEVED]",
+      "definition": "NOT-APPLICABLE",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "not_applicable_reason": "In the available Pūrva-Mīmāṃsā corpus, bhakti is a technical term for secondary signification or derivative application, not a devotional soteriological category."
     },
     {
       "school": "Mādhyamaka",
-      "definition": "[NOT YET RETRIEVED]",
+      "definition": "NOT-APPLICABLE",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "not_applicable_reason": "The on-disk Mādhyamaka materials develop emptiness, two truths, bodhicitta, and mahākaruṇā, but they do not treat bhakti as a school-specific doctrinal category."
     },
     {
       "school": "Yogācāra",
-      "definition": "[NOT YET RETRIEVED]",
+      "definition": "NOT-APPLICABLE",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "not_applicable_reason": "The on-disk Yogācāra materials develop vijñapti-mātra, śraddhā, kalyāṇamitra, and the path-structure of cognition, but not bhakti as a distinct doctrinal category."
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Within Trika, bhakti toward Śiva is not treated as an independently self-generated sentiment: when free of fruit-seeking it is identified with śaktipāta itself, whereas fruit-seeking bhakti still depends on karma and allied means [[AbhT 13.118-119](cite://abhinavagupta/tantraloka/13.118-119)]. The tradition can therefore construe bhakti as the effect of prasāda and inner nirmalībhāva, by which Śiva becomes self-manifest in the adept and parā siddhi is attained [[AbhT 13.285-287](cite://abhinavagupta/tantraloka/13.285-287)]. Within initiation and discipline, steady devotion to deity and guru accompanies the nirbīja-dīkṣā whose liberative efficacy is otherwise immediate [[AbhT 15.31](cite://abhinavagupta/tantraloka/15.31)].",
+      "primary_loci": [
+        "Tantrāloka 13.118-119",
+        "Tantrāloka 13.285-287",
+        "Tantrāloka 15.31"
+      ],
+      "citations": [
+        {
+          "cite": "cite://abhinavagupta/tantraloka/13.118-119",
+          "locus_short": "AbhT 13.118-119"
+        },
+        {
+          "cite": "cite://abhinavagupta/tantraloka/13.285-287",
+          "locus_short": "AbhT 13.285-287"
+        },
+        {
+          "cite": "cite://abhinavagupta/tantraloka/15.31",
+          "locus_short": "AbhT 15.31"
+        }
+      ]
     }
   ],
   "see_also": [
@@ -239,5 +253,5 @@
   ],
   "translator_note": "English 'devotion' is often too affective and too inward, while 'faith' imports Protestant and creed-centered assumptions. *Bhakti* includes cognition, ritual performance, remembrance, service, and loving participation in relation to a real deity. Where the tradition uses the term technically, it does not mean vague religiosity or mere sentiment.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54"
+  "last_verified_by": "glossary-wave2-codex54"
 }
