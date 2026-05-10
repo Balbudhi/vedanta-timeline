@@ -1006,10 +1006,41 @@ async function openReader(workId, thinkerId) {
   if (!work) return;
   const url = `data/full_translations/${thinkerId}__${workId}.md`;
   const r = await fetch(url);
-  const body = r.ok
-    ? await r.text()
-    : `# ${work.title_iast || work.title}\n\nFull translation not yet produced. The corpus pipeline produces engaged-passage Pāṇinian translations first; a full translation of this work has not been generated.\n\nSee the engaged passages in the detail panel.`;
-  readerContent.innerHTML = renderMarkdown(body);
+  let body;
+  if (r.ok) {
+    body = await r.text();
+  } else {
+    // No extended translation file yet — synthesize a placeholder using what IS in the JSON.
+    const passages = (t.key_passages || []).filter((p) => p.work_id === workId);
+    const passagesBlock = passages.length
+      ? "## Engaged passages\n\n" + passages.map((p) => {
+          const sk = p.sanskrit_iast ? `> *${p.sanskrit_iast.replace(/\n/g, " ")}*` : "";
+          const en = p.english_close ? p.english_close : "";
+          const why = p.why_this_passage ? `\n*Why this passage:* ${p.why_this_passage}` : "";
+          return `### ${p.locus_long || p.locus_short || ""}\n\n${sk}\n\n${en}${why}`;
+        }).join("\n\n---\n\n")
+      : "";
+    body = `# ${work.title_iast || work.title}
+**by ${t.name_iast || t.name}** · ${(work.genre || "").replace(/-/g, " ")} · ${work.language || "sanskrit"}
+
+${work.summary || ""}
+
+---
+
+## Status of translation
+
+A complete extended-passage translation of this work — line-by-line with full Pāṇinian breakdown per line — has not yet been produced. The corpus dispatch pipeline produces these in waves; this work is queued for a future Codex 5.4 pass.
+
+What is currently engaged on the site:
+- The work-summary above (a 100-200 word account of what the work does and where it sits in the thinker's larger position).
+- ${passages.length ? `${passages.length} key-passage card${passages.length === 1 ? "" : "s"} below, each carrying the Sanskrit (IAST), a faithful English rendering, the *why-this-passage* justification, and a collapsed Pāṇinian breakdown table (pada-analysis, samāsa-vigraha, kāraka structure, verb modality).` : "No key-passage cards yet — the primary text is queued for Codex extraction."}
+- The thinker's *core thesis* (in the detail panel) cites this work where it is load-bearing.
+
+For the cited-but-not-fully-translated portions: where a standard scholarly English edition exists (Ganganatha Jha for Mīmāṃsā, Mayeda for *Upadeśa-Sāhasrī*, Thibaut / Gambhirananda for Brahma-Sūtra-Bhāṣya, Carman / Lester for Rāmānuja, Sharma for Madhva, etc.), it is referenced in the work-summary's *source_edition* field. The site does not redistribute those translations.
+
+${passagesBlock}`;
+  }
+  readerContent.innerHTML = renderMarkdownFull(body);
   readerModal.classList.add("is-open");
   readerModal.setAttribute("aria-hidden", "false");
 }
