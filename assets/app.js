@@ -265,7 +265,12 @@ function scrollToInitialFocus() {
   if (state.hasInitialScroll) return;
   const x = yearToX(INITIAL_FOCUS_YEAR);
   const paneW = scroller.clientWidth;
-  scroller.scrollLeft = Math.max(0, x - paneW / 2 + LANE_RAIL_W);
+  const railOffset = state.viewMode === "network" ? 0 : LANE_RAIL_W;
+  scroller.scrollLeft = Math.max(0, x - paneW / 2 + railOffset);
+  if (state.viewMode === "network") {
+    const paneH = scroller.clientHeight;
+    scroller.scrollTop = Math.max(0, NETWORK_CANVAS_H / 2 - paneH / 2 + ERA_STRIP_H);
+  }
   state.hasInitialScroll = true;
 }
 
@@ -685,18 +690,19 @@ function renderEraBands() {
   svg.appendChild(g);
 }
 
-// ---------- render: lineage edges (manhattan) -----------
+// ---------- render: lineage edges (view-aware) -----------
 function renderEdges() {
   const ns = "http://www.w3.org/2000/svg";
   const g = document.createElementNS(ns, "g");
   g.setAttribute("class", "edges");
+  const edgeFn = state.viewMode === "network" ? bezierEdge : manhattanEdge;
 
   for (const [, p] of state.layout) {
     const t = p.thinker;
     for (const targetId of (t.lineage_out || [])) {
       const target = state.layout.get(targetId);
       if (!target) continue;
-      const path = manhattanEdge(p, target);
+      const path = edgeFn(p, target);
       const el = document.createElementNS(ns, "path");
       el.setAttribute("class", "lineage-edge");
       el.setAttribute("d", path);
@@ -708,7 +714,7 @@ function renderEdges() {
     for (const pol of (t.lineage_polemical || [])) {
       const target = state.layout.get(pol.thinker_id);
       if (!target) continue;
-      const path = manhattanEdge(p, target);
+      const path = edgeFn(p, target);
       const el = document.createElementNS(ns, "path");
       el.setAttribute("class", "lineage-edge lineage-edge--polemical");
       el.setAttribute("d", path);
@@ -728,6 +734,19 @@ function manhattanEdge(a, b) {
   const stub = 8;
   const midX = x1 + 0.55 * (x2 - x1);
   return `M ${x1} ${y1} L ${x1} ${y1 + Math.sign(y2-y1)*stub} L ${midX} ${y1 + Math.sign(y2-y1)*stub} L ${midX} ${y2 - Math.sign(y2-y1)*stub} L ${x2} ${y2 - Math.sign(y2-y1)*stub} L ${x2} ${y2}`;
+}
+
+// Smooth cubic bezier for the network view: control points at the horizontal
+// midpoint, anchored to the source/target y. Reads as an organic flow.
+function bezierEdge(a, b) {
+  const x1 = a.x, y1 = a.y, x2 = b.x, y2 = b.y;
+  const dx = x2 - x1;
+  if (Math.abs(dx) < 2) {
+    return `M ${x1} ${y1} L ${x2} ${y2}`;
+  }
+  const cx1 = x1 + dx * 0.5;
+  const cx2 = x1 + dx * 0.5;
+  return `M ${x1} ${y1} C ${cx1} ${y1}, ${cx2} ${y2}, ${x2} ${y2}`;
 }
 
 // ---------- render: date-range bars (svg) -----------
@@ -834,19 +853,21 @@ function renderAxis() {
 function renderAll() {
   refreshLayoutConstants();
   computeRenderLanes();
-  // Reapply layout in case visibleLanes / expansion changed.
+  // Reapply layout in case visibleLanes / expansion / view-mode changed.
   computeLayout();
+  document.body.classList.toggle("view-network", state.viewMode === "network");
+  document.body.classList.toggle("view-lanes", state.viewMode === "lanes");
   const w = totalWidth();
   const h = totalHeight();
-  const laneCount = state.renderLanes.length;
+  const ph = plotHeight();
   canvas.style.width = w + "px";
   canvas.style.height = h + "px";
   dotsLayer.style.width = w + "px";
-  dotsLayer.style.height = (laneCount * LANE_H) + "px";
+  dotsLayer.style.height = ph + "px";
   svg.setAttribute("width", w);
-  svg.setAttribute("height", laneCount * LANE_H);
+  svg.setAttribute("height", ph);
   svg.style.width = w + "px";
-  svg.style.height = (laneCount * LANE_H) + "px";
+  svg.style.height = ph + "px";
   while (svg.firstChild) svg.removeChild(svg.firstChild);
 
   renderLaneRail();
@@ -856,6 +877,7 @@ function renderAll() {
   renderDateBars();
   renderDots();
   renderAxis();
+  renderNetworkLegend();
 }
 
 // Recompute lane order + filter and re-render. Preserves scroll position
@@ -1362,6 +1384,59 @@ readingModeBtn.addEventListener("click", () => {
   setReadingMode(on);
 });
 
+// ---------- view toggle (Lanes / Network) -----------
+function wireViewToggle() {
+  document.querySelectorAll(".view-toggle-btn").forEach((b) => {
+    const on = b.dataset.view === state.viewMode;
+    b.classList.toggle("is-active", on);
+    b.setAttribute("aria-selected", on ? "true" : "false");
+    b.addEventListener("click", () => setViewMode(b.dataset.view));
+  });
+}
+
+// ---------- network legend (school-color key, only in network view) -----------
+const networkLegendEl = document.getElementById("networkLegend");
+const networkLegendListEl = document.getElementById("networkLegendList");
+const networkLegendToggleEl = document.getElementById("networkLegendToggle");
+
+function renderNetworkLegend() {
+  if (!networkLegendEl) return;
+  if (state.viewMode !== "network") {
+    networkLegendEl.hidden = true;
+    networkLegendEl.setAttribute("aria-hidden", "true");
+    return;
+  }
+  networkLegendEl.hidden = false;
+  networkLegendEl.setAttribute("aria-hidden", "false");
+
+  // Build legend from schools that actually have visible thinkers.
+  const present = new Set();
+  for (const t of state.thinkers) {
+    if (!isThinkerVisible(t)) continue;
+    present.add(t.school_color_token || "proto");
+  }
+  // Stable order: Vedānta first (in LANE_ORDER), then comparators.
+  const ordered = LANE_ORDER.filter((tok) => present.has(tok));
+
+  networkLegendListEl.innerHTML = "";
+  for (const tok of ordered) {
+    const li = document.createElement("li");
+    const color = state.schools[tok]?.color_palette?.[2]
+               || state.schools[tok]?.color_hex
+               || colorFor({ school_color_token: tok }, 2);
+    const label = state.schools[tok]?.display_name || LANE_DISPLAY[tok] || tok;
+    li.innerHTML = `<span class="swatch" style="background:${color}"></span><span>${escape(label)}</span>`;
+    networkLegendListEl.appendChild(li);
+  }
+}
+
+if (networkLegendToggleEl) {
+  networkLegendToggleEl.addEventListener("click", () => {
+    const open = networkLegendEl.classList.toggle("is-open");
+    networkLegendToggleEl.setAttribute("aria-expanded", open ? "true" : "false");
+  });
+}
+
 // ---------- filter drawer (school visibility) -----------
 const filterBtn = document.getElementById("filterBtn");
 const filterDrawer = document.getElementById("filterDrawer");
@@ -1628,4 +1703,5 @@ loadAll().then(() => {
   _lastLaneH = LANE_H;
   _lastRailW = LANE_RAIL_W;
   wirePanZoom();
+  wireViewToggle();
 });
