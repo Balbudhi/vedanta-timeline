@@ -1,5 +1,5 @@
 # Hegel's *Phenomenology of Spirit*, Preface (1807)
-## A Reading of the First Ten Pages
+## A Reading of the Vorrede
 
 **Source.** G.W.F. Hegel, *Phänomenologie des Geistes* (1807). Reference edition: Suhrkamp Theorie-Werkausgabe (TWA) Vol. 3 (Frankfurt: Suhrkamp, 1970). English translation: A.V. Miller, *Hegel's Phenomenology of Spirit* (Oxford University Press, 1977). Quotations are given in Miller's English; technical German terms are noted in italics on first occurrence and then used in English thereafter. Page references are to TWA 3 unless noted.
 
