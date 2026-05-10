@@ -143,13 +143,13 @@
           {
             "pada": "ca",
             "stem": "ca",
-            "morphology": "indecl",
+            "morphology": "particle; first component of sandhi cānantam = ca + anantam",
             "gloss": "and"
           },
           {
             "pada": "anantam",
             "stem": "ananta",
-            "morphology": "acc sg masc",
+            "morphology": "acc sg masc; second component of sandhi cānantam = ca + anantam",
             "gloss": "endless; countless"
           },
           {
@@ -319,13 +319,13 @@
           {
             "pada": "atha",
             "stem": "atha",
-            "morphology": "indecl",
+            "morphology": "indecl; first component of sandhi athāpi = atha + api",
             "gloss": "further"
           },
           {
             "pada": "api",
             "stem": "api",
-            "morphology": "indecl",
+            "morphology": "particle; second component of sandhi athāpi = atha + api",
             "gloss": "also"
           },
           {
@@ -737,7 +737,7 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-translation-audit-opus",
+  "last_verified_by": "wave3-pada-fix-codex",
   "polemic_chain_ids": [
     "acintya-shakti-defense"
   ]

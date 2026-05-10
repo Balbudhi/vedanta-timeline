@@ -348,9 +348,9 @@
             "gloss": "very difficult to attain"
           },
           {
-            "pada": "tasmāt",
+            "pada": "tasmād",
             "stem": "tad",
-            "morphology": "abl sg neut",
+            "morphology": "abl sg neut (surface sandhi of tasmāt before y-)",
             "gloss": "therefore"
           },
           {
@@ -514,9 +514,9 @@
       "panini_breakdown": {
         "pada_analysis": [
           {
-            "pada": "bādhya-bādhaka-bhāvāt",
+            "pada": "bādhya-bādhaka-bhāvāc",
             "stem": "bādhya-bādhaka-bhāva",
-            "morphology": "abl sg masc",
+            "morphology": "abl sg masc (surface sandhi of bhāvāt before ca)",
             "gloss": "because of the relation of what is sublated and what sublates"
           },
           {
@@ -568,9 +568,9 @@
             "gloss": "ignorance consisting in misapprehending reality"
           },
           {
-            "pada": "syāt",
+            "pada": "syād",
             "stem": "as",
-            "morphology": "3sg vidhi-liṅ P",
+            "morphology": "3sg vidhi-liṅ P (surface sandhi of syāt before v-)",
             "gloss": "would be / is"
           },
           {
@@ -837,9 +837,9 @@
             "gloss": "would be / arises"
           },
           {
-            "pada": "jñānāt",
+            "pada": "jñānād",
             "stem": "jñāna",
-            "morphology": "abl sg neut",
+            "morphology": "abl sg neut (surface sandhi of jñānāt before eva)",
             "gloss": "from knowledge"
           },
           {
@@ -1003,7 +1003,7 @@
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-translation-audit-opus",
+  "last_verified_by": "wave3-pada-fix-codex",
   "polemic_chain_ids": [
     "bhaskara-pracchanna-bauddha",
     "kumarila-mandana-jnana-karma-samuccaya",
