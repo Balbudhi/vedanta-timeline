@@ -1,0 +1,17 @@
+{
+  "term_key": "sloka",
+  "term_iast": "śloka",
+  "term_devanagari": "श्लोक",
+  "literal": "verse, especially the 32-syllable anuṣṭubh meter; from √śru 'to hear' (originally 'praise, fame')",
+  "aliases": ["sloka", "śloka", "Śloka", "ślokaḥ", "ślokasya", "ślokāḥ", "shloka"],
+  "invariant_definition": "A verse — the unit of versified composition. The default *śloka* is in the *anuṣṭubh* meter (4 *pādas* of 8 syllables, with morae-rules on positions 5–7 of each *pāda*). Used for verse-philosophical works (the *Bhagavad-Gītā* in *anuṣṭubh*-with-occasional-*triṣṭubh*; Madhva's *Anu-Vyākhyāna*; Sarvajñātman's *Saṅkṣepa-Śārīraka*). *Śloka* is a unit of citation; works are typically referenced by *adhyāya.śloka* numbering.",
+  "per_school": [
+    {
+      "school": "All Vedānta",
+      "definition": "*Śloka* is the universal verse-unit; the *Brahma-Sūtra* is in *sūtra* form, but commentaries and most *prakaraṇa-grantha*s are in *śloka*.",
+      "primary_loci": ["Bhagavad-Gītā throughout", "Anu-Vyākhyāna (Madhva)", "Saṅkṣepa-Śārīraka (Sarvajñātman)"]
+    }
+  ],
+  "see_also": ["sutra", "anustubh", "padya"],
+  "translator_note": "'Verse' is acceptable. Note: 'śloka' in modern colloquial Hindi often means 'any sacred verse' regardless of meter; the technical Sanskrit sense is more precise."
+}

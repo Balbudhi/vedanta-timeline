@@ -1,0 +1,200 @@
+{
+  "chain_id": "kumarila-mandana-jnana-karma-samuccaya",
+  "title": "Naiṣkarmya-Siddhi — Sureśvara's destructive critique of jñāna-karma-samuccaya",
+  "attacker": "sureshvara",
+  "attacker_text": "Naiṣkarmya-Siddhi (esp. 1.55–56, 1.67–73, 1.98–99, and the systematic argument across the first prakaraṇa); supplementary engagements in the Bṛhadāraṇyakopaniṣad-Bhāṣya-Vārttika",
+  "target_school_token": "cross-tradition",
+  "target_position_summary": "The Bhāṭṭa Mīmāṃsā doctrine of jñāna-karma-samuccaya — the position that vedic karma (ritual action) and jñāna of Brahman jointly constitute the path to mokṣa — as crystallised by Kumārila Bhaṭṭa (Śloka-Vārttika, Tantra-Vārttika) and developed within the Vedāntic environment by Maṇḍana Miśra (Brahma-Siddhi). Maṇḍana, Sureśvara's principal Vedāntic interlocutor, retains a Mīmāṃsaka-derived role for karma alongside jñāna and treats the saving cognition as ripening through bhāvanā (cultivation), not as immediately liberating from the mahāvākya alone.",
+  "arguments": [
+    {
+      "name": "argument-1: Naiṣkarmya-Siddhi 1.55–56 — karma and jñāna stand as bādhya-bādhaka",
+      "premises": [
+        "Karma presupposes the agent-object structure: an agent performs an action on or toward an object.",
+        "Brahma-jñāna (the saving cognition) is precisely the dissolution of the agent-object distinction; in the cognitive moment of aham brahmāsmi, the kartṛ-karma division does not hold.",
+        "Bādhya (sublated) and bādhaka (sublator) cannot occupy one locus together; what is dissolved cannot simultaneously be in operation.",
+        "Therefore karma and jñāna cannot operate together as constituents of a single saving path; they are structurally exclusive at the moment of operation.",
+        "The samuccaya-position therefore confuses the preliminary preparation (where karma operates) with the saving event (where jñāna operates), conflating two distinct phases of the path."
+      ],
+      "inference": "Jñāna-karma-samuccaya is structurally incoherent: the two cannot be conjoined at the saving moment.",
+      "conclusion": "The path to mokṣa is jñāna-only at the saving moment; karma is preparatory but not constitutive.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "mandana",
+            "position": "Maṇḍana's Brahma-Siddhi position that bhāvanā-cultivation operates with jñāna as ripening discipline; hit on the bādhya-bādhaka structure."
+          },
+          {
+            "thinker_id": "bhaskara",
+            "position": "Bhāskara's full samuccaya-doctrine — explicitly engaged though Bhāskara is post-Sureśvara, Sureśvara's argument is the structural anticipation of the rejection of any samuccaya."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "ramanuja",
+            "position": "Rāmānuja's bhakti-yoga-as-constitutive-of-mokṣa is structurally distinct from the Mīmāṃsaka samuccaya: bhakti-yoga is itself the operative form of saving cognition, not karma alongside cognition. Sureśvara's argument does not directly engage the Viśiṣṭādvaita-style integration."
+          },
+          {
+            "thinker_id": "madhva",
+            "position": "Madhva's bhakti-mediated aparokṣa-jñāna similarly: bhakti is the modality of the saving cognition, not a separate karma alongside it."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "vacaspati",
+            "response_text": "Bhāmatī's defense of nididhyāsana-as-prasaṅkhyāna: cognitive ripening through repeated meditation is part of the saving path, occupying a position structurally between Maṇḍana's bhāvanā and Sureśvara's strict mahāvākya-only",
+            "verdict": "the Bhāmatī line takes a moderate position: cognitive cultivation is needed (concedes Maṇḍana's ripening-claim) but the cultivation operates at the cognitive register, not the karmic register (concedes Sureśvara's bādhya-bādhaka argument)."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive on a real soteriological-cognitive question. The disagreement is not register-effect: it concerns whether the saving cognition has internal structure that can accommodate karmic operation simultaneously, or whether it must be cognitively unified. The argument lands hard against Maṇḍana's specific position; it leaves the bhakti-Vedāntic positions largely untouched because they reframe the karma-jñāna relation through bhakti."
+    },
+    {
+      "name": "argument-2: Naiṣkarmya-Siddhi 1.67–73 — jñāna alone, not karma, has avidyā as its proximate counter-positive",
+      "premises": [
+        "Mokṣa is, by Advaita-Mīmāṃsaka shared definition, the cessation of saṃsāra.",
+        "Saṃsāra is, on analysis, the persistence of avidyā-rooted misidentification (adhyāsa).",
+        "What removes avidyā must be its proper counter-positive: knowledge.",
+        "Karma does not have avidyā as its counter-positive; karma operates within saṃsāra (it presupposes the very agent-object structure avidyā generates) and so cannot, by its own structural function, remove avidyā.",
+        "Therefore karma cannot, even in conjunction with jñāna, contribute to mokṣa qua avidyā-removal: at the saving moment, jñāna does the work, and karma's contribution is causally upstream (preparation of the antaḥkaraṇa) rather than constitutive."
+      ],
+      "inference": "Only jñāna removes avidyā; karma is at most preparatory.",
+      "conclusion": "Samuccaya as constitutive doctrine is incoherent; karma's role is preparatory-only.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "mandana",
+            "position": "Maṇḍana's position that karma and jñāna are coordinate disciplines."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "ramanuja",
+            "position": "Rāmānuja's account is unaffected: bhakti is not karma in the Mīmāṃsaka sense, and the saving cognition is constitutively bhakti-yoga-mature rather than separable into knowledge-and-action."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "vacaspati",
+            "response_text": "Bhāmatī accepts this argument's thrust and reframes karma's role as antaḥkaraṇa-purification leading up to (but not constitutive of) the saving cognition",
+            "verdict": "the Bhāmatī acceptance is the Advaitin internalisation of Sureśvara's argument; Maṇḍana's stronger samuccaya is rejected within Advaita itself."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive on the structural relation between cognitive transformation and ritual action. The argument has historical force: it largely settled the intra-Advaita debate against the Maṇḍana position, with Bhāmatī adopting the moderate view. The substantive disagreement persists with Bhāskara and the Mīmāṃsaka tradition."
+    },
+    {
+      "name": "argument-3: Naiṣkarmya-Siddhi 1.98–99 — mahāvākya-cognition is svatas-siddhārtha and immediately liberating",
+      "premises": [
+        "The mahāvākyas (tat tvam asi etc.) reveal a svatas-siddhārtha — a self-established reality, not a constructed or to-be-actualised content.",
+        "Where the content is svatas-siddhārtha, no arthāntara (additional content, e.g., the karmic state of the cogniser) can be projected into it without distortion.",
+        "Therefore the saving cognition arises jñānād eva — from knowledge alone — at the moment the mahāvākya is properly cognised.",
+        "Maṇḍana's bhāvanā-doctrine (that the cognition must be cultivated through repeated practice before it liberates) projects exactly the kind of arthāntara the svatas-siddhārtha character of the cognition forbids.",
+        "Hence Maṇḍana's bhāvanā-doctrine is structurally opposed to the very nature of the cognition it is meant to cultivate."
+      ],
+      "inference": "Bhāvanā-cultivation distorts the svatas-siddhārtha character of mahāvākya-cognition.",
+      "conclusion": "Mahāvākya-cognition is immediately liberating; bhāvanā is not necessary and is distorting if treated as constitutive.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "mandana",
+            "position": "Maṇḍana's bhāvanā-doctrine in Brahma-Siddhi."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "vacaspati",
+            "position": "Bhāmatī partially absorbs the argument: nididhyāsana is treated as cognitive ripening rather than bhāvanā-cultivation in the Mīmāṃsaka sense; the cognitive content is svatas-siddhārtha but the rise of the cognition is conditioned by antaḥkaraṇa-readiness. The position is between Maṇḍana and Sureśvara."
+          },
+          {
+            "thinker_id": "prakasatman",
+            "position": "Vivaraṇa's akhaṇḍākāra-vṛtti is structurally aligned with Sureśvara on this question."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "vacaspati",
+            "response_text": "Bhāmatī defends nididhyāsana-as-prasaṅkhyāna as compatible with svatas-siddhārtha — the prasaṅkhyāna ripens the antaḥkaraṇa, but does not project content into the cognition",
+            "verdict": "the moderate position becomes the Bhāmatī standard; Maṇḍana's bhāvanā-as-constitutive position is largely abandoned within Advaita."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive on a real cognitive-soteriological question (whether saving cognition is immediate or cultivated). The intra-Advaita disagreement (Sureśvara vs Maṇḍana vs Bhāmatī) persists across the tradition and is the locus classicus of the avidyā-locus disagreement (Brahman-locus for Sureśvara/Vivaraṇa, jīva-locus for Maṇḍana/Bhāmatī)."
+    },
+    {
+      "name": "argument-4: Maṇḍana's Mīmāṃsaka inheritance is incompatible with his Vedāntin commitments",
+      "premises": [
+        "Mīmāṃsā holds that the Veda is primarily prescriptive (vidhi-pradhāna): its function is to prescribe karma, and what is not karmically-actionable is exegetically subordinate.",
+        "Vedānta holds that the Veda's culminating teaching is the cognitive realisation of Brahman, which is not a karma at all.",
+        "Maṇḍana's attempt to retain the prescriptive function (via vidhi-niyukta-vākya readings of the mahāvākyas) imports the Mīmāṃsaka exegetical primacy into Vedānta.",
+        "But once Brahman is the saving cognition's content and the cognition is svatas-siddhārtha, the prescriptive reading collapses: there is nothing for the prescription to enjoin that the cognition does not already accomplish.",
+        "Hence Maṇḍana's intermediate position is unstable: the Mīmāṃsaka commitment and the Vedāntic commitment are not jointly satisfiable."
+      ],
+      "inference": "Maṇḍana's hybrid position is structurally unstable.",
+      "conclusion": "A consistent Advaita must abandon the Mīmāṃsaka prescriptive primacy at the saving moment; jñāna is not enjoined as a karma but realised as a cognition.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "mandana",
+            "position": "Maṇḍana's hybrid Mīmāṃsaka-Vedāntin position in toto."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "vacaspati",
+            "position": "Bhāmatī inherits Maṇḍana's apparatus but reframes the prescriptive function as preparatory-vidhi for the antaḥkaraṇa rather than as constitutive-vidhi for the saving cognition."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "appayya",
+            "response_text": "Appayya Dīkṣita's Siddhānta-Leśa-Saṅgraha surveys the Maṇḍana-Sureśvara disagreement and notes that the historical Advaita tradition largely sided with Sureśvara on the structural question, while preserving the Maṇḍana-Bhāmatī line on the avidyā-locus question",
+            "verdict": "the historical settlement is asymmetric: Sureśvara wins on jñāna-vs-samuccaya; Maṇḍana-Bhāmatī wins on jīva-vs-Brahman as locus of avidyā."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive on the question of whether prescriptive and constitutive functions can be jointly satisfied by mahāvākya-cognition. Real philosophical question; not register-effect."
+    }
+  ],
+  "user_thesis_summary": "The Naiṣkarmya-Siddhi's destructive critique of jñāna-karma-samuccaya is the paradigm intra-school polemic in Vedānta — Sureśvara is engaging Maṇḍana, both Advaitins, on the constitutive structure of the path. The polemic is substantive at every level: it concerns the cognitive-structural question of whether agent-object-presupposing actions and agent-object-dissolving cognition can be conjoined, the soteriological-mechanistic question of what removes avidyā, the cognitive-phenomenological question of whether the saving cognition is immediate or cultivated, and the exegetical question of whether Mīmāṃsaka prescriptive primacy can be preserved within Vedānta. Importantly, the polemic does not engage the bhakti-Vedānta schools (Rāmānuja, Madhva, Vallabha, Caitanya) adversarially: their reframing of the karma-jñāna relation through bhakti as constitutive saving discipline is structurally distinct from the Mīmāṃsaka samuccaya Sureśvara attacks. So the polemic is intra-Advaita-vs-Bhāṭṭa-Mīmāṃsā in its primary engagement, and the bhakti-Vedānta alternatives are largely untouched. The historical settlement was asymmetric — Sureśvara won on the structural question (jñāna-only at the saving moment), but Maṇḍana-Bhāmatī won on the avidyā-locus question (jīva, not Brahman) — which itself supports the user's perspectivism hypothesis at a fine-grained level: the same intra-school disagreement bifurcated into two distinct axes that received independent settlements. Verdict: substantive throughout; no register-clarification dissolves it; the bhakti-Vedānta alternatives offer a third way that the polemic does not engage and that is consistent with both poles of the intra-Advaita disagreement.",
+  "primary_source_loci": [
+    "Naiṣkarmya-Siddhi 1.55–56 (the bādhya-bādhaka argument)",
+    "Naiṣkarmya-Siddhi 1.67–73 (the avidyā-counter-positive argument)",
+    "Naiṣkarmya-Siddhi 1.98–99 (the svatas-siddhārtha argument)",
+    "Bṛhadāraṇyakopaniṣad-Bhāṣya-Vārttika ad Bṛh. 1.4 and 4.4 (the systematic exegetical defense)",
+    "Maṇḍana, Brahma-Siddhi — the principal target's positive statement",
+    "Kumārila, Tantra-Vārttika and Śloka-Vārttika — the Bhāṭṭa Mīmāṃsā background"
+  ],
+  "scholarly_apparatus": [
+    {
+      "scholar": "Allen Wright Thrasher",
+      "work": "The Advaita Vedānta of Brahma-Siddhi (Motilal, 1993)",
+      "page_or_section": "esp. chs. 4–6",
+      "position": "The standard scholarly reconstruction of Maṇḍana's Brahma-Siddhi and its dialectical engagement with the Sureśvara stream; documents that the historical settlement was asymmetric and that the two positions came to occupy two distinct axes."
+    },
+    {
+      "scholar": "Jonathan Bader",
+      "work": "Meditation in Śaṅkara's Vedānta (Aditya Prakashan, 1990)",
+      "page_or_section": "ch. on Sureśvara's anti-prasaṅkhyāna polemic",
+      "position": "Reads Sureśvara's polemic as decisively shaping the intra-Advaita debate against Maṇḍana's position."
+    },
+    {
+      "scholar": "Karl H. Potter (ed.)",
+      "work": "Encyclopedia of Indian Philosophies, vol. 11 (Advaita Vedānta from 800 to 1200)",
+      "page_or_section": "entries on Sureśvara and Maṇḍana",
+      "position": "The standard reference for the Sureśvara-Maṇḍana cycle; documents the asymmetric historical settlement."
+    },
+    {
+      "scholar": "Kanchana Natarajan",
+      "work": "The Vedic Source of the Vedānta (Motilal, 2001)",
+      "page_or_section": "ch. on Naiṣkarmya-Siddhi",
+      "position": "Provides analytic-philosophical reconstruction of the bādhya-bādhaka argument and its relation to the broader question of cognitive-structural compatibility."
+    }
+  ],
+  "entry_status": "reviewed",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-polemic-opus"
+}

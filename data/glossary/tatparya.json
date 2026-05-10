@@ -1,0 +1,17 @@
+{
+  "term_key": "tatparya",
+  "term_iast": "tātparya",
+  "term_devanagari": "तात्पर्य",
+  "literal": "settled-purport, the upshot, what-it-comes-to; from tat 'that' + para 'highest, ultimate'",
+  "aliases": ["tatparya", "tātparya", "Tātparya", "tātparyaṃ", "tatparyam", "tātparya-vrtti"],
+  "invariant_definition": "The settled purport of a text, determined by the convergent application of contextual indicators (the Mīmāṃsā six *liṅgas*). *Tātparya* is what the text is fundamentally about; it organizes the interpretation of every individual statement. *Brahma-Sūtra-Bhāṣya* 1.1.4 (*tat tu samanvayāt*) defends the thesis that *brahman* is the *tātparya* of all *śruti*; this thesis is contested by Mīmāṃsā (which holds *karma* the *tātparya* of *karma-kāṇḍa*) and refined by all Vedāntic schools (each holding that its identification of *brahman* — *nirguṇa*, *saviśeṣa*, Viṣṇu, Kṛṣṇa — is the *tātparya*).",
+  "per_school": [
+    {
+      "school": "All Vedānta",
+      "definition": "*Tātparya* of *śruti* is *brahman*; *Brahma-Sūtra* 1.1.4 establishes this against Mīmāṃsā. School-internal differences on what 'brahman' refers to (see *brahman* entry) translate into school-internal differences on *tātparya*-content.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.4 (Śaṅkara, Rāmānuja, Madhva — all comment on this sūtra)", "Mahābhārata-Tātparya-Nirṇaya (Madhva — title indicates the centrality)"]
+    }
+  ],
+  "see_also": ["abhipraya", "samanvaya", "upakrama-upasamhara", "linga"],
+  "translator_note": "'Settled purport' or 'overall import' acceptable. The Sanskrit term has no single English equivalent."
+}

@@ -1,0 +1,17 @@
+{
+  "term_key": "abhipraya",
+  "term_iast": "abhiprāya",
+  "term_devanagari": "अभिप्राय",
+  "literal": "intended-meaning, purport; from abhi- + pra- + √i 'to go'",
+  "aliases": ["abhipraya", "abhiprāya", "Abhiprāya", "abhiprāyasya", "abhipraya-bheda"],
+  "invariant_definition": "The intended meaning of a speaker (or of *śruti*). Distinguished from the literal sense (*abhidhā*) and from the contextually determined sense (*tātparya*). Vedānta exegesis universally distinguishes the *abhiprāya* (what was meant) from the *vacya* (what was said). Schools differ on what the *abhiprāya* of *śruti* is on contested loci (Brahman as *nirguṇa* or *saguṇa*; *jīva* as identical or distinct).",
+  "per_school": [
+    {
+      "school": "All Vedānta",
+      "definition": "Each school argues that its reading captures the *abhiprāya* of *śruti* against rival readings that miss it. The Mīmāṃsā six *liṅgas* (*upakrama-upasaṃhāra*, *abhyāsa*, *apūrvatā*, *phala*, *arthavāda*, *upapatti*) are the standard tools for *abhiprāya*-determination.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.4 (tat tu samanvayāt)", "Mīmāṃsā-Sūtra 1.4 commentary tradition"]
+    }
+  ],
+  "see_also": ["tatparya", "abhidha", "laksana", "upakrama-upasamhara"],
+  "translator_note": "'Intent' or 'purport' acceptable. The *abhiprāya*-*vacya* distinction is the standard exegetical tool of Indian textual hermeneutics."
+}

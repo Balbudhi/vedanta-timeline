@@ -1,0 +1,17 @@
+{
+  "term_key": "sutra",
+  "term_iast": "sūtra",
+  "term_devanagari": "सूत्र",
+  "literal": "thread, that which strings together; from √sīv 'to sew'",
+  "aliases": ["sutra", "sūtra", "Sūtra", "sūtraṃ", "sūtrasya", "sūtrāṇi"],
+  "invariant_definition": "An aphorism — the maximally compressed prose unit of foundational philosophical works. The classical definition (Vāyu-Purāṇa): *alpākṣaram asaṃdigdhaṃ sāra-vat viśvato-mukham | astobham anavadyaṃ ca sūtraṃ sūtra-vido viduḥ* (few-syllabled, unambiguous, essence-bearing, omni-directional, without filler, blameless — that is what the experts know as a *sūtra*). The *Brahma-Sūtra* of Bādarāyaṇa is the foundational *sūtra* of Vedānta. Vedānta is in part the long history of incompatible *bhāṣyas* on the same *sūtra*-text.",
+  "per_school": [
+    {
+      "school": "All Vedānta",
+      "definition": "The *Brahma-Sūtra* (also called *Vedānta-Sūtra*, *Śārīraka-Sūtra*, *Bhikṣu-Sūtra*, *Uttara-Mīmāṃsā-Sūtra*) is the school-defining *sūtra*. Each Vedāntic school's claim to legitimacy rests on its *bhāṣya* on this text.",
+      "primary_loci": ["Brahma-Sūtra (Bādarāyaṇa)", "Bhāṣyas: Śaṅkara, Bhāskara, Yādava-Prakāśa, Rāmānuja, Madhva, Nimbārka, Vallabha, Baladeva, etc."]
+    }
+  ],
+  "see_also": ["bhasya", "varttika", "tika", "brahma-sutra"],
+  "translator_note": "'Aphorism' is acceptable but loses the thread-metaphor. The *sūtra*-genre is structurally sui generis — designed for memorization-with-commentary, not for stand-alone reading."
+}
