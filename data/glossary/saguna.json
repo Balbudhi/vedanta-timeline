@@ -2,26 +2,33 @@
   "term_key": "saguna",
   "term_iast": "saguṇa",
   "term_devanagari": "सगुण",
-  "literal": "with qualities; sa- 'with' + guṇa 'quality'",
-  "aliases": ["saguna", "saguṇa", "Saguṇa", "saguṇa-brahman"],
-  "invariant_definition": "Possessing qualities. *Saguṇa brahman* is *brahman* described under qualifying attributes — preeminently as the personal Lord (*Īśvara* / Bhagavān). The *saguṇa*-*nirguṇa* opposition is a fundamental Advaita technical apparatus; non-Advaita schools either reject the opposition (Viśiṣṭādvaita: *brahman* is always *saguṇa*; *nirguṇa* texts deny *heya-guṇas*) or modify it (Dvaita: Viṣṇu has infinite real *kalyāṇa-guṇas*; *nirguṇa* texts deny *prākṛta-guṇas* only).",
+  "literal": "sa- (with, accompanied by) + guṇa. The lazy gloss 'with qualities' presupposes that guṇa = quality and that the relation in question is property-inherence — both presuppositions misread the metaphysics",
+  "aliases": ["saguna", "saguṇa", "Saguṇa", "saguṇa-brahman", "saguṇaṃ", "saguṇasya"],
+  "invariant_definition": "*Brahman* described under affirmation of *guṇa*. As with *nirguṇa*, the reading depends on which sense of *guṇa* is in play — and the schools differ on which sense is in play. The *saguṇa*–*nirguṇa* opposition is not a single shared apparatus across Vedānta; it is itself a disputed doctrinal structure.\n\nThree principal construals (see the *guṇa* and *nirguṇa* entries for background).\n\n(1) **Sāṃkhya-derived construal: *saguṇa* as 'in association with the three strands of *prakṛti*'.** *Brahman* described as creating, sustaining, dissolving the cosmos through the *guṇa*-mediated mechanism of *prakṛti*. The Bhagavad-Gītā passages on *guṇa-pravartana* and the Lord's relation to *prakṛti*'s strands belong here.\n\n(2) **Advaita-technical construal: *saguṇa* as *sopādhika* — *brahman* with the *upādhi* of *māyā*.** *Saguṇa brahman* is *brahman* described under its association with *māyā*-*upādhi*: the cosmic Lord who creates, sustains, dispenses *karma*-fruits. Real for the *vyāvahārika* and devotional standpoints; sublatable in *brahma-jñāna* into the *nirupādhika nirguṇa brahman*. *Saguṇa* in Advaita is thus a *cosmological-relational* description, not a property-attribution; the *guṇa*s in question are *upādhi*-borne, not intrinsic.\n\n(3) **Viśiṣṭādvaita construal: *saguṇa* as 'eternally qualified by essential *kalyāṇa-guṇa*s'.** Brahman is *saviśeṣa* — really differentiated by infinite essential auspicious attributes that are constitutive of the Lord's *svarūpa*. Here the *guṇa*s in question are real, eternal, intrinsic — closer to the Vaiśeṣika sense of *guṇa*-as-property, but lifted out of the property-substance binary by the *aprthak-siddhi* relation: *brahman* is not separable from its *kalyāṇa-guṇa*s as a substrate is separable in thought from its accidental properties. *Saguṇa* in this construal is the highest description, not a lower one.\n\nThe single English gloss 'with qualities' silently assimilates (1), (2), and (3); the resulting flat reading misrepresents every school.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Saguṇa brahman* is *brahman* with *māyā*-upādhi — the cosmic Lord who creates, sustains, dispenses *karma*-fruits. Real for *vyāvahārika* and devotional standpoints; sublatable in *nirguṇa brahman*-realization. *Saguṇa* is therefore the lower (apara) but real description.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.11ff", "Brahma-Sūtra-Bhāṣya 3.2.11ff (saguna-nirguna)"]
+      "definition": "*Saguṇa brahman* is *brahman* with *māyā*-*upādhi* — equivalent to *Īśvara*. The *guṇa*s here are *upādhi*-borne predicates (creator-ship, sustainer-ship, omniscience-as-cosmic-knowledge, etc.), real at the *vyāvahārika* level and sublated at the *pāramārthika* level. *Saguṇa* is thus the lower (*apara*) but real description, the proper object of *upāsana* and devotional *bhakti*. The *saguṇa*–*nirguṇa* hierarchy is foundational to Advaita and is set out in *Brahma-Sūtra-Bhāṣya* 3.2.11ff.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.11ff", "Brahma-Sūtra-Bhāṣya 3.2.11ff (saguṇa-nirguṇa-adhikaraṇa)", "Pañcadaśī 6.130–145 (Īśvara as māyā-upādhi-Brahman)"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Brahman* is always *saguṇa* — there is no higher *nirguṇa* description. *Nirguṇa* texts deny only *heya-guṇas* (defects).",
-      "primary_loci": ["Vedārtha-Saṅgraha §§91–137", "Śrī-Bhāṣya 1.1.13"]
+      "definition": "*Brahman* is always and only *saguṇa*; there is no higher *nirguṇa* description in the Advaita sense. The *guṇa*s are *kalyāṇa-guṇa*s — infinite real auspicious attributes (*ananta-kalyāṇa-guṇa*) — eternally constitutive of Brahman-as-Viṣṇu's *svarūpa*. The relation of Brahman to its *kalyāṇa-guṇa*s is *aprthak-siddhi*, not *samavāya*: the *guṇa*s are inseparably real, not contingent properties of an underlying bare substrate. *Saguṇa* texts are read literally; *nirguṇa* texts are restricted to denying *heya-guṇa*s and *prākṛta-guṇa*s.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§91–137", "Śrī-Bhāṣya 1.1.13", "Yatīndra-Mata-Dīpikā 4 (kalyāṇa-guṇa analysis)"]
     },
     {
       "school": "Dvaita",
-      "definition": "Viṣṇu possesses infinite real *kalyāṇa-guṇas* (auspicious qualities); *nirguṇa* texts deny only *prākṛta-guṇas* (the qualities of inert matter).",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1"]
+      "definition": "Viṣṇu eternally possesses infinite real *kalyāṇa-guṇa*s, each itself infinite (*ananta-ananta-kalyāṇa-guṇa*). *Saguṇa* in this sense is the only correct description of the supreme; the Advaita *saguṇa*-as-*sopādhika* construal is rejected together with the *upādhi*-doctrine. *Nirguṇa* texts deny only *prākṛta-guṇa*s.",
+      "primary_loci": ["Tattva-Saṅkhyāna 1–4", "Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1", "Viṣṇu-Tattva-Vinirṇaya §§1–10"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Saguṇa* texts describe Bhagavān (Kṛṣṇa as *svayaṃ-bhagavān*) in his *svarūpa* with *svarūpa-śakti* manifest — the highest reality. The *guṇa*s are not *prākṛta* but *aprākṛta* — Kṛṣṇa's eternal *līlā*-saturated *svarūpa-guṇa*s, of which the six *bhaga*s (sovereignty, valor, glory, prosperity, knowledge, dispassion) are the canonical enumeration.",
+      "primary_loci": ["Bhagavat-Sandarbha §§1–7", "Kṛṣṇa-Sandarbha §28"]
     }
   ],
-  "see_also": ["nirguna", "isvara", "brahman", "guna", "kalyana-guna"],
-  "translator_note": "'Qualified' or 'with-qualities' acceptable. Note: *saguṇa* is *not* simply 'personal' in the Christian-theological sense — *saguṇa brahman* in Advaita is a metaphysical category, not a relational one."
+  "see_also": ["nirguna", "guna", "isvara", "brahman", "kalyana-guna", "heya-guna", "prakrta-guna", "upadhi", "sopadhika", "aprthak-siddhi"],
+  "translator_note": "'With qualities', 'qualified', 'with-attributes' are the standard English glosses; all collapse the disputed metaphysics. The 'qualities' or 'attributes' in question are radically different across schools — *upādhi*-borne predicates (Advaita), *aprthak-siddhi*-related essential *kalyāṇa-guṇa*s (Viśiṣṭādvaita), eternal infinite real attributes (Dvaita), *aprākṛta svarūpa-guṇa*s (Acintya-Bhedābheda) — and 'with qualities' flattens them all into accidental property-inherence. The Sanskrit *saguṇa* must not be assimilated to the modern Western analytic notion of a 'qualified entity'. *Saguṇa* in Advaita is *not* simply 'personal' in the Christian-theological sense and *not* simply 'qualified' in the Russell-Strawson sense — it is *brahman* under cosmological-relational description by *upādhi*. *Saguṇa* in Viśiṣṭādvaita is *not* 'a substance with accidents' — it is the structurally-differentiated highest reality whose differentiations are constitutive of its identity. Best practice: leave *saguṇa* untranslated; on first use specify which school's reading is operative.",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-lazy-collapse-opus"
 }

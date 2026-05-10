@@ -2,26 +2,33 @@
   "term_key": "nirguna",
   "term_iast": "nirguṇa",
   "term_devanagari": "निर्गुण",
-  "literal": "without qualities; nir- (without) + guṇa",
-  "aliases": ["nirguna", "nirguṇa", "Nirguṇa", "nirguṇa-brahman"],
-  "invariant_definition": "Without qualities. *Nirguṇa brahman* is *brahman* in its highest description, beyond all qualifying attributes. This is the strict Advaita usage; non-Advaita schools restrict the scope of *nirguṇa* (Viśiṣṭādvaita: it denies *heya-guṇas* only; Dvaita: it denies *prākṛta-guṇas* only). The user's position-brief connects *nirguṇa brahman* to Aurobindo's static-aspect Saccidānanda and to Deleuze's univocal being — see T1 of the brief.",
+  "literal": "nir- (without, beyond) + guṇa (strand of prakṛti / property in the Vaiśeṣika padārtha-grid). The lazy gloss 'without qualities' presupposes that guṇa = quality, which is precisely the collapse the term resists",
+  "aliases": ["nirguna", "nirguṇa", "Nirguṇa", "nirguṇa-brahman", "nirguṇaṃ", "nirguṇasya"],
+  "invariant_definition": "*Brahman* described under negation of *guṇa*. The reading of the negation depends on which sense of *guṇa* is operative — and the schools differ on which sense is operative.\n\nTwo distinct construals must be held apart (see the *guṇa* entry for the registers).\n\n(1) **Sāṃkhya-derived construal: *guṇātīta* — beyond the three strands of *prakṛti*.** Here *nirguṇa* asserts that *brahman* is constitutively outside the tri-strand fabric of *prakṛti* (*sattva*, *rajas*, *tamas*) — that the strand-and-evolute grammar that governs the manifest order does not apply. This is the reading every Vedāntic school accepts at some level, because every Vedāntic school accepts that *brahman* is not a *prakṛti*-product. The Bhagavad-Gītā's *guṇātīta* description (Gītā 14.22–25) belongs in this register.\n\n(2) **Advaita-technical construal: *nirupādhika* — without *upādhi*-determined differentiating predicates.** Here *nirguṇa* asserts that the predicates that arise only because *brahman* is associated with *upādhi* (cosmic *māyā*-*upādhi* in the case of *Īśvara*, individual *antaḥkaraṇa*-*upādhi* in the case of *jīva*) do not characterize *brahman* in itself. This is *not* the claim that *brahman* has no being, no character, no reality — it is the claim that the predicate-grammar of the *vyāvahārika* standpoint does not reach the *pāramārthika* substrate. *Brahman* in this construal is *svaprakāśa* (self-luminous), *cit-svarūpa* (consciousness as essence), *ānanda-svarūpa* (bliss as essence) — these are not *upādhi*-borne *guṇa*s but the *svarūpa-lakṣaṇa* itself. The *neti neti* of *Bṛhadāraṇyaka* 2.3.6 is the *śruti* warrant.\n\nThe non-Advaita schools accept (1) and reject (2). They restrict the scope of *nirguṇa* by reading the relevant *śruti* passages as denying only certain classes of *guṇa* — *heya-guṇa*s (defects) and *prākṛta-guṇa*s (the strand-fabric of *prakṛti*) — while affirming *brahman*'s real *kalyāṇa-guṇa*s (essential auspicious attributes constitutive of the Lord's *svarūpa*).",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Nirguṇa brahman* is the highest description of *brahman* — partless, attribute-less, beyond determination. The *neti neti* (not-this, not-this) of Bṛhadāraṇyaka 2.3.6 expresses this. *Saguṇa brahman* is sublatable in *nirguṇa brahman*-realization.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 3.2.11ff", "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 2.3.6", "Vivekacūḍāmaṇi"]
+      "definition": "*Nirguṇa brahman* is the highest description of *brahman*. The negation operates on both registers simultaneously: *brahman* is *guṇātīta* (beyond *prakṛti*'s three strands) and *nirupādhika* (without the *upādhi*-borne predicates that constitute the *jīva*-*Īśvara*-*jagat* differentiations). Crucially, *nirguṇa* does NOT mean *brahman* is a propertyless logical posit; *brahman* is *cit-svarūpa* and *ānanda-svarūpa* — these are *svarūpa-lakṣaṇa* (essence-defining), not *taṭastha-lakṣaṇa* (extrinsic-defining) descriptions, and not *guṇa*s in either the Sāṃkhya-strand or the Vaiśeṣika-padārtha sense. The *neti neti* method removes superimposed predications; what remains is not nothing but *anubhava*-itself.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 3.2.11ff (saguṇa-nirguṇa-adhikaraṇa)", "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 2.3.6 (neti neti)", "Brahma-Sūtra-Bhāṣya 1.1.4", "Upadeśa-Sāhasrī 18 (nirguṇa-svarūpa)"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Nirguṇa* in *śruti* denies *heya-guṇas* (defects), not all qualities. Brahman is *nir-guṇa* in the sense of *nis-prākṛta-guṇa* (free of inert-matter-qualities) and *nir-doṣa* (free of defects).",
-      "primary_loci": ["Vedārtha-Saṅgraha §§91–137", "Śrī-Bhāṣya 1.1.13"]
+      "definition": "*Nirguṇa* texts deny only *heya-guṇa*s (defects: change, suffering, ignorance, etc.) and *prākṛta-guṇa*s (the three-strand fabric of *prakṛti* that does not constitute *brahman*'s own substance). They do not deny *kalyāṇa-guṇa*s — the infinite real auspicious attributes that are constitutive of Brahman-as-Viṣṇu's *svarūpa*. Brahman is therefore *nis-prākṛta-guṇa*, *nir-doṣa*, and *ananta-kalyāṇa-guṇa* simultaneously. Rāmānuja insists that an attribute-less reality is *avastu* — an unintelligible posit.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§91–137", "Śrī-Bhāṣya 1.1.13 (saguṇa defended; nirguṇa restricted)", "Śrī-Bhāṣya 3.2.11ff"]
     },
     {
       "school": "Dvaita",
-      "definition": "*Nirguṇa* denies only *prākṛta-guṇas*; Viṣṇu has infinite real auspicious qualities.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1"]
+      "definition": "*Nirguṇa* denies only *prākṛta-guṇa*s; Viṣṇu eternally possesses infinite real auspicious *guṇa*s (each itself infinite). The Advaita reading of *nirguṇa* as *nirupādhika* is rejected as part of the larger refutation of *upādhi*-doctrine in the *Upādhi-Khaṇḍana*.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1", "Madhva, Upādhi-Khaṇḍana", "Vyāsatīrtha, Nyāyāmṛta"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Nirguṇa* texts describe *brahman* in its impersonal *brahmajyoti* aspect — Kṛṣṇa's bodily effulgence — and deny *prākṛta-guṇa*s of the supreme. They do not describe Kṛṣṇa's highest reality (*svayaṃ-bhagavān*), which is saturated with *svarūpa-śakti* and is the locus of eternal *līlā*. *Nirguṇa* is therefore a partial true description of a subordinate aspect, not the highest description.",
+      "primary_loci": ["Bhagavat-Sandarbha §§1–7", "Caitanya-Caritāmṛta, Madhya 6 (nirguṇa as partial)"]
     }
   ],
-  "see_also": ["saguna", "brahman", "neti-neti", "heya-guna"],
-  "translator_note": "'Without qualities' or 'attributeless' acceptable. The Advaita *nirguṇa brahman* is structurally close to the *Deus absconditus* / negative-theology tradition (Eckhart, the *Cloud of Unknowing*) but with the difference that *nirguṇa* is what is realized in liberation, not merely posited beyond cognition."
+  "see_also": ["saguna", "guna", "brahman", "neti-neti", "heya-guna", "prakrta-guna", "kalyana-guna", "upadhi", "nirupadhika", "guna-atita"],
+  "translator_note": "'Without qualities' and 'attributeless' are the standard English glosses; both are defective and should be retired in serious work. They presuppose *guṇa* = 'quality' (a Western analytic predicate), and they then make *nirguṇa* sound like the bare logical posit 'a thing with no properties whatever' — which no Vedāntic school, including Advaita, defends. The correct policy: leave *nirguṇa* untranslated; on first use specify which sense of *guṇa* is being negated (the *prakṛti*-strands, in *guṇātīta*-style usage; the *upādhi*-borne predicates, in Advaita's *nirupādhika*-style usage; *heya-guṇa*s and *prākṛta-guṇa*s only, in Viśiṣṭādvaita and Dvaita). Acceptable English glosses include 'beyond the three *guṇa*s', 'without *upādhi*-determined predicates', 'free of defects and *prakṛti*-strand attributes' — never the flat 'without qualities'. The user's standing complaint is that the lazy gloss has been propagated through a generation of English-language Vedānta and contaminates every downstream usage.",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-lazy-collapse-opus"
 }
