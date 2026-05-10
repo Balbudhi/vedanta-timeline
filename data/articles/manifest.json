@@ -2,6 +2,28 @@
   "version": "1",
   "articles": [
     {
+      "slug": "mimamsa-symbolism-shift",
+      "title": "Mīmāṃsā under the symbolism-shift reading",
+      "subtitle": "An interpretive reading: what the corpus's contemporary-reader-encounter framing implies about Pūrva-Mīmāṃsā as a coherent practice-philosophy whose externalised form is intact while the symbol-environment that activated it has changed. The school's own self-understanding is preserved in the timeline thinker entries; this layer is explicitly extramural to that self-understanding.",
+      "kind": "perspective",
+      "source_doc": "data/perspectives/source/mimamsa-symbolism-shift.md",
+      "tags": [
+        "Mīmāṃsā",
+        "Jaimini",
+        "Śabara",
+        "Kumārila",
+        "Prabhākara",
+        "symbol-environment",
+        "Religionsgeschichte",
+        "Aurobindo-hermeneutic",
+        "contemporary-reader",
+        "interpretive-layer"
+      ],
+      "for_thinker_ids": ["jaimini", "shabara", "kumarila", "prabhakara"],
+      "word_count_approx": 4254,
+      "date": "2026-05-10"
+    },
+    {
       "slug": "vedanta-realist-history",
       "title": "Vedānta as a realist tradition — a dialectical history in the schools' own voices",
       "subtitle": "Pre-Śaṅkara through early-modern Vedānta as a chain of named polemics rather than a museum of labels: Bhartṛprapañca behind Śaṅkara, Maṇḍana and Sureśvara, the Padmapāda–Vācaspati–Prakāśātman quarrels over the locus of avidyā, Rāmānuja's *saptavidhānupapatti*, Madhva and Vyāsatīrtha forcing Advaita into formal self-defence, Madhusūdana's reply, the Gauḍīya *acintya-bhedābheda* reformulation, and Trika's structural convergence with Madhusūdana.",

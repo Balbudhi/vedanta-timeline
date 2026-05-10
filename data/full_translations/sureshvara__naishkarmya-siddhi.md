@@ -1,861 +1,203 @@
 # Naiṣkarmya-Siddhi — Extended Translation
 **By:** Sureśvara  
-**Locus scope:** Composite architectonic scope across Books 1, 2, and 4: NS 1.55-56, 1.98-99, 2.9-10, and 4.3. This composite scope is necessary because the work's indexed load-bearing passages are distributed across these loci rather than contained within a single chapter-unit.  
-**Source edition transcribed from:** A. J. Alston (trans.), *The Realization of the Absolute: The “Naiṣkarmya Siddhi” of Śrī Sureśvara*, Shanti Sadan, London, 1959; Sanskrit transcribed from the archive scan and checked against the matching OCR derivative.  
-**Translator:** Pāṇinian-rich extraction by Codex 5.4 (reasoning=high), 2026-05-09.
+**Locus scope:** Book 2, verses 9–12: the methodological hinge from *anvaya-vyatireka* to the first deha-*anātman* discrimination  
+**Source edition transcribed from:** A. J. Alston, *The Realization of the Absolute (The “Naiṣkarmya Siddhi” of Śrī Sureśvara)*, 2nd ed. (London: Shanti Sadan, 1971), whose romanized Sanskrit text follows Hiriyanna's edition with occasional deviations; the Sanskrit-only PDF present in the local corpus is image-only in this environment, so a few obvious OCR corruptions in the Alston archive have been normalized here.  
+**Translator:** Pāṇinian-rich extraction by Codex 5.4 (reasoning=high), 2026-05-10.
 
 ---
 
 ## Editorial introduction
 
-The *Naiṣkarmya-Siddhi* does not conceal its order. Book 1 denies that *karma* (ritual or performative action) can share the saving office of *jñāna* (liberating knowledge). Book 2 explains why the *mahāvākya* (great Upaniṣadic identity-sentence) must be understood through disciplined grasp of sentence-meaning. Book 4 restates, in compressed epistemic form, the dependence of every objectifiable *anātman* (not-Self) upon prior *ātman* (Self). The present file therefore takes a composite scope, not from convenience, but from necessity: the work's indexed doctrinal hinges lie at NS 1.55-56, 1.98-99, 2.9-10, and 4.3, and no single chapter-length unit contains them all. Taken together, these passages state the treatise's architectonic spine.
+These four verses occupy a decisive hinge in Book 2 of the *Naiṣkarmya-Siddhi*. Sureśvara has already insisted, in Book 1, that liberation comes from knowledge alone and not from any *jñāna-karma-samuccaya*; but that thesis would remain merely programmatic unless he now explains how liberating knowledge is actually generated. Verses 2.9–12 supply the opening answer. They state, first, that *anvaya-vyatireka* (agreement-and-difference reasoning) is required for the grasp of *vākyārtha* (sentence-meaning); second, that without such grasp there is no destruction of *ajñāna* (ignorance); and third, that the method immediately turns concrete, beginning with the body as food-effect and therefore as *anātman* (not-Self). The natural unity of this passage lies precisely in that transition from hermeneutics to discrimination: from the conditions for hearing the Upaniṣadic sentence rightly to the first disciplined undoing of bodily self-identification.
 
-First, NS 1.55-56 argues that knowledge and ignorance stand as *bādhaka* and *bādhya* (sublator and sublated), and that what cancels a domain cannot at the same time collaborate with what belongs to that domain. Second, NS 1.98-99 states the same thesis in hermeneutic form: sentences such as *tat tvam asi* reveal a *svatas-siddha* reality, one already established in itself, and therefore do not bear an injunctive or action-directing surplus meaning. Third, NS 2.9-10 blocks any lazy contrast between revelation and reasoning: without *anvaya-vyatireka* (concomitance-and-exclusion analysis), there is no genuine grasp of *vākyārtha* (sentence-meaning), and without that there is no removal of ignorance. Finally, NS 4.3 gives the ontological shorthand presupposed throughout: the not-Self is never manifest apart from prior Self-presence. These are not decorative summaries. They are the doctrinal joints by which Sureśvara's broader anti-*samuccaya* and anti-*prasaṅkhyāna* position holds together.
+This unit also clarifies a familiar misunderstanding about Sureśvara. He is not a quietist who opposes reasoning to revelation, nor a mere semantic theorist who reduces liberation to textual parsing. Rather, reasoning here has a preparatory and negative office: it clears the field so that the sentence may disclose what it alone can disclose. That larger claim is made with sharper explicitness later at NS 3.63–64, where *anvaya-vyatireka* is said to take one only so far, and the final destruction of ignorance is assigned to the *vākya* itself. The present verses are therefore best read as the methodological vestibule to the fuller treatment of *tat tvam asi* in Book 2 and of the sentence's consummating force in Books 3 and 4. In miniature, they show the whole Sureśvarian order: qualification, discrimination, sentence-meaning, and liberation.
 
 ---
 
 ## Translation
 
-### NS 1.55a
+### NS 2.9
 
 **Sanskrit (IAST):**
-> *bādhya-bādhaka-bhāvāc ca*
+> *anvaya-vyatirekābhyāṃ vinā vākyārtha-bodhanam*  
+> *na syāt tena vinājñāna-prahāṇaṃ nopapadyate*
 
 **English (line-by-line):**
-> And because they stand in the relation of what is sublated and what sublates.
+> Without *anvaya-vyatireka* (agreement-and-difference reasoning), there is no grasp of *vākyārtha* (sentence-meaning).  
+> Without that, the removal of *ajñāna* (ignorance) does not become possible.
 
 **Word-by-word:**
 
 | Pada | Stem / root | Pratyaya / morphology | Gloss |
 |---|---|---|---|
-| bādhya-bādhaka-bhāvāt | bādhya-bādhaka-bhāva | abl. sg. masc. | because of the relation of sublated and sublator |
-| ca | ca | indecl. | and |
+| anvaya-vyatirekābhyām | anvaya-vyatireka | instr dual masc | by agreement and difference |
+| vinā | vinā | indecl | without |
+| vākyārtha-bodhanam | vākyārtha-bodhana | nom sg neut | cognition of sentence-meaning |
+| na | na | indecl | not |
+| syāt | √as | liṅ, 3 sg, parasmaipada | would be / could be |
+| tena | tad | instr sg neut | by that / without that |
+| vinā | vinā | indecl | without |
+| ajñāna-prahāṇam | ajñāna-prahāṇa | nom sg neut | removal of ignorance |
+| na | na | indecl | not |
+| upapadyate | upa-√pad | laṭ, 3 sg, ātmanepada | is possible / is fittingly obtained |
 
 **Compound resolution (samāsa-vigraha):**
-- *bādhya-bādhaka-bhāvāt* [dvandva-tatpuruṣa]: *bādhyaś ca bādhakaś ca tayoḥ bhāvāt*.
+- *anvaya-vyatireka* [dvandva]: *anvayaś ca vyatirekaś ca*.
+- *vākyārtha-bodhanam* [ṣaṣṭhī-tatpuruṣa]: *vākyasya arthasya bodhanam*.
+- *ajñāna-prahāṇam* [ṣaṣṭhī-tatpuruṣa]: *ajñānasya prahāṇam*.
 
 **Kāraka structure:**
-- hetu / apādāna: *bādhya-bādhaka-bhāvāt*
+- karaṇa: *anvaya-vyatirekābhyām*
+- kartṛ (logical subject): *vākyārtha-bodhanam*
+- kartṛ (logical subject, second clause): *ajñāna-prahāṇam*
 
 **Verbal modality:**
-- none explicit; the causal ablative supports the negated predication completed in NS 1.55d.
-
-**Note:**
-Sureśvara begins with logical form, not exhortation. What sublates and what is sublated cannot be co-salvific without contradiction.
-
----
-
-### NS 1.55b
-
-**Sanskrit (IAST):**
-> *pañcāsyoraṇayor iva*
-
-**English (line-by-line):**
-> Like a lion and a sheep.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| pañcāsyoraṇayoḥ | pañcāsya-uraṇa | gen. dual masc. | of a lion and a sheep |
-| iva | iva | indecl. | like |
-
-**Compound resolution (samāsa-vigraha):**
-- *pañcāsyoraṇayoḥ* [dvandva]: *pañcāsyaś ca uraṇaś ca*.
-
-**Kāraka structure:**
-- upamāna: *pañcāsyoraṇayoḥ*
-
-**Verbal modality:**
-- none explicit; simile qualifying the exclusion asserted across NS 1.55a-d.
-
-**Note:**
-The image is intuitive rather than ornamental. It gives a sensuous model of mutual exclusion before the doctrinal conclusion is stated.
-
----
-
-### NS 1.55c
-
-**Sanskrit (IAST):**
-> *eka-deśānavasthānāt*
-
-**English (line-by-line):**
-> And because they do not abide in one and the same locus.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| eka-deśānavasthānāt | eka-deśa-anavasthāna | abl. sg. neut. | because of non-abiding in one place |
-
-**Compound resolution (samāsa-vigraha):**
-- *eka-deśānavasthānāt* [tatpuruṣa]: *eka-deśe anavasthānāt*.
-
-**Kāraka structure:**
-- hetu / apādāna: *eka-deśānavasthānāt*
-
-**Verbal modality:**
-- none explicit; second causal ablative completing the reasoning for NS 1.55d.
-
-**Note:**
-The adopted reading *eka-deśānavasthānāt* is philosophically necessary. Sureśvara's point is co-location: what cancels ignorance cannot inhabit the same locus as ignorance in the same respect.
-
----
-
-### NS 1.55d
-
-**Sanskrit (IAST):**
-> *na samuccayatā tayoḥ*
-
-**English (line-by-line):**
-> There is no conjunction of the two.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| na | na | indecl. | not |
-| samuccayatā | samuccayatā | nom. sg. fem. | conjunction, co-presence |
-| tayoḥ | tad | gen. dual | of the two |
-
-**Compound resolution (samāsa-vigraha):**
-- none.
-
-**Kāraka structure:**
-- kartṛ: *samuccayatā*
-- sambandha: *tayoḥ*
-
-**Verbal modality:**
-- none explicit; nominal negation with existential force.
-
-**Note:**
-This is the formal anti-*samuccaya* thesis. NS 1.98-99 will restate the same conclusion in explicitly hermeneutic and soteriological terms.
-
----
-
-### NS 1.56a
-
-**Sanskrit (IAST):**
-> *ayathā-vastv-avidyā syād*
-
-**English (line-by-line):**
-> Ignorance would be a misapprehension of reality.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| ayathā-vastv-avidyā | ayathā-vastu-avidyā | nom. sg. fem. | ignorance consisting in misapprehending what is real |
-| syād | as | 3rd sg. optative, parasmaipada | would be, is |
-
-**Compound resolution (samāsa-vigraha):**
-- *ayathā-vastv-avidyā* [tatpuruṣa]: *ayathā vastu yasmin sā avidyā*.
-
-**Kāraka structure:**
-- kartṛ: *ayathā-vastv-avidyā*
-
-**Verbal modality:**
-- *syād*: vidhi-liṅ / parasmaipada / active
-
-**Note:**
-By defining *avidyā* as misapprehension rather than sheer absence, Sureśvara keeps it within the very order that liberating knowledge cancels.
-
----
-
-### NS 1.56b
-
-**Sanskrit (IAST):**
-> *vidyā tasyā virodhinī*
-
-**English (line-by-line):**
-> Knowledge is opposed to that.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| vidyā | vidyā | nom. sg. fem. | knowledge |
-| tasyāḥ | tad | gen. sg. fem. | to that, of that |
-| virodhinī | virodhinī | nom. sg. fem. | opposed, antagonistic |
-
-**Compound resolution (samāsa-vigraha):**
-- none.
-
-**Kāraka structure:**
-- kartṛ: *vidyā*
-- sambandha: *tasyāḥ*
-
-**Verbal modality:**
-- none explicit; nominal predication.
-
-**Note:**
-The feminine agreement of *virodhinī* with *vidyā* sharpens the point. The grammar itself marks knowledge as the direct contradictory of ignorance.
-
----
-
-### NS 1.56c
-
-**Sanskrit (IAST):**
-> *samuccayas tayor evaṃ*
-
-**English (line-by-line):**
-> A conjunction of the two, then, would be thus.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| samuccayaḥ | samuccaya | nom. sg. masc. | conjunction |
-| tayoḥ | tad | gen. dual | of the two |
-| evam | evam | indecl. | thus, in this way |
-
-**Compound resolution (samāsa-vigraha):**
-- none.
-
-**Kāraka structure:**
-- kartṛ: *samuccayaḥ*
-- sambandha: *tayoḥ*
-
-**Verbal modality:**
-- none explicit; nominal clause anticipating the simile in NS 1.56d.
-
-**Note:**
-The line deliberately suspends completion. The impossibility is supplied in the next pāda by the sun-night comparison.
-
----
-
-### NS 1.56d
-
-**Sanskrit (IAST):**
-> *ravi-śarvarayor iva*
-
-**English (line-by-line):**
-> Like the conjunction of the sun and the night.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| ravi-śarvarayoḥ | ravi-śarvarī | gen. dual | of the sun and the night |
-| iva | iva | indecl. | like |
-
-**Compound resolution (samāsa-vigraha):**
-- *ravi-śarvarayoḥ* [dvandva]: *raviś ca śarvarī ca*.
-
-**Kāraka structure:**
-- upamāna: *ravi-śarvarayoḥ*
-
-**Verbal modality:**
-- none explicit; simile concluding the predication of NS 1.56c.
-
-**Note:**
-The cosmological image condenses the previous reasoning. What was argued structurally in NS 1.55a-c is now stated as a case of sheer mutual exclusion.
-
----
-
-### NS 1.98a
-
-**Sanskrit (IAST):**
-> *tat-tvam-asy-ādi-vākyānāṃ*
-
-**English (line-by-line):**
-> Of the sentences beginning with *tat tvam asi*.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| tat-tvam-asy-ādi-vākyānām | tat-tvam-asi-ādi-vākya | gen. pl. neut. | of the sentences beginning with "tat tvam asi" |
-
-**Compound resolution (samāsa-vigraha):**
-- *tat-tvam-asy-ādi-vākyānām* [tatpuruṣa]: *tat tvam asi iti ādi-vākyānām*.
-
-**Kāraka structure:**
-- sambandha: *tat-tvam-asy-ādi-vākyānām*
-
-**Verbal modality:**
-- none explicit; genitive opening completed in NS 1.98b-c.
-
-**Note:**
-The line poses the hermeneutic question sharply: what kind of sentence are the great identity-statements? Sureśvara's answer turns on what they already reveal in their primary force.
-
----
-
-### NS 1.98b
-
-**Sanskrit (IAST):**
-> *svatas-siddhārtha-bodhanāt*
-
-**English (line-by-line):**
-> Because they reveal a self-established reality.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| svatas-siddhārtha-bodhanāt | svatas-siddhārtha-bodhana | abl. sg. neut. | because of revealing a self-established referent |
-
-**Compound resolution (samāsa-vigraha):**
-- *svatas-siddhārtha-bodhanāt* [tatpuruṣa]: *svataḥ siddhasya arthasya bodhanāt*.
-
-**Kāraka structure:**
-- hetu / apādāna: *svatas-siddhārtha-bodhanāt*
-
-**Verbal modality:**
-- none explicit; causal ablative grounding the denial in NS 1.98c-d.
-
-**Note:**
-The decisive word is *svatas-siddha*. These sentences disclose what already is, not what must be produced by ritual or meditative performance.
-
----
-
-### NS 1.98c
-
-**Sanskrit (IAST):**
-> *arthāntaraṃ na saṃdraṣṭuṃ*
-
-**English (line-by-line):**
-> Another meaning cannot be projected into them.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| arthāntaram | artha-antara | acc. sg. neut. | another meaning, a different purport |
-| na | na | indecl. | not |
-| saṃdraṣṭum | sam-dṛś | infinitive | to construe, to project |
-
-**Compound resolution (samāsa-vigraha):**
-- *arthāntaram* [tatpuruṣa]: *anyaḥ arthaḥ*.
-
-**Kāraka structure:**
-- karman: *arthāntaram*
-
-**Verbal modality:**
-- *saṃdraṣṭum*: infinitive governed by the possibility statement completed in NS 1.98d.
-
-**Note:**
-Sureśvara denies any secondary injunctive surplus. Since the primary sense already lands on brahman, there is no grammatical room for an encoded command.
-
----
-
-### NS 1.98d
-
-**Sanskrit (IAST):**
-> *śakyate tridaśair api*
-
-**English (line-by-line):**
-> Not even by the gods is that possible.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| śakyate | śak | 3rd sg. pres. indicative, ātmanepada passive | is possible |
-| tridaśaiḥ | tridaśa | instr. pl. masc. | by the gods |
-| api | api | indecl. | even |
-
-**Compound resolution (samāsa-vigraha):**
-- none.
-
-**Kāraka structure:**
-- karaṇa / agent: *tridaśaiḥ*
-
-**Verbal modality:**
-- *śakyate*: laṭ / ātmanepada / passive
-
-**Note:**
-The appeal to the gods is hyperbolic but precise. No superior interpreter can force an action-meaning into a sentence whose force is declarative.
-
----
-
-### NS 1.99a
-
-**Sanskrit (IAST):**
-> *ataḥ sarvāśramāṇāṃ tu*
-
-**English (line-by-line):**
-> Hence, for members of every *āśrama*.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| ataḥ | tad | abl. sg. neut., indeclinable use | therefore, hence |
-| sarvāśramāṇām | sarva-āśrama | gen. pl. masc. | of all life-stations |
-| tu | tu | indecl. | but, now |
-
-**Compound resolution (samāsa-vigraha):**
-- *sarvāśramāṇām* [karmadhāraya]: *sarve āśramāḥ*.
-
-**Kāraka structure:**
-- sambandha: *sarvāśramāṇām*
-
-**Verbal modality:**
-- none explicit; inferential transition to the conclusion in NS 1.99c-d.
-
-**Note:**
-The scope is universalized. No ritual, social, or institutional station exempts one from the structure of the argument.
-
----
-
-### NS 1.99b
-
-**Sanskrit (IAST):**
-> *vāk-manaḥ-kāya-karmabhiḥ*
-
-**English (line-by-line):**
-> By acts of speech, mind, and body.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| vāk-manaḥ-kāya-karmabhiḥ | vāk-manas-kāya-karma | instr. pl. neut. | by acts of speech, mind, and body |
-
-**Compound resolution (samāsa-vigraha):**
-- *vāk-manaḥ-kāya-karmabhiḥ* [dvandva-tatpuruṣa]: *vācā manasā kāyena ca kriyamāṇaiḥ karmabhiḥ*.
-
-**Kāraka structure:**
-- karaṇa: *vāk-manaḥ-kāya-karmabhiḥ*
-
-**Verbal modality:**
-- none explicit; instrumental carried into NS 1.99c.
-
-**Note:**
-The triad is exhaustive. It covers the full field of executable discipline and therefore blocks the retreat to some subtler form of action.
-
----
-
-### NS 1.99c
-
-**Sanskrit (IAST):**
-> *svānuṣṭhitair na muktiḥ syāj*
-
-**English (line-by-line):**
-> Even when properly performed, liberation does not arise from them.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| svānuṣṭhitaiḥ | sva-anuṣṭhita | instr. pl. neut. | properly performed by oneself |
-| na | na | indecl. | not |
-| muktiḥ | mukti | nom. sg. fem. | liberation |
-| syāj | as | 3rd sg. optative, parasmaipada | would be, would arise |
-
-**Compound resolution (samāsa-vigraha):**
-- *svānuṣṭhitaiḥ* [tatpuruṣa]: *svayam anuṣṭhitaiḥ*.
-
-**Kāraka structure:**
-- karaṇa: *svānuṣṭhitaiḥ* (qualifying the instrumental acts of NS 1.99b)
-- kartṛ: *muktiḥ*
-
-**Verbal modality:**
-- *syāj*: vidhi-liṅ / parasmaipada / active
-
-**Note:**
-The denial is strongest because it grants the best case. Even faultlessly executed discipline is not the direct producer of release.
-
----
-
-### NS 1.99d
-
-**Sanskrit (IAST):**
-> *jñānād eva hi sā yataḥ*
-
-**English (line-by-line):**
-> For it is from knowledge alone.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| jñānāt | jñāna | abl. sg. neut. | from knowledge |
-| eva | eva | indecl. | alone |
-| hi | hi | indecl. | indeed, for |
-| sā | tad | nom. sg. fem. | it, that liberation |
-| yataḥ | yad | causal indeclinable use | because, for |
-
-**Compound resolution (samāsa-vigraha):**
-- none.
-
-**Kāraka structure:**
-- apādāna: *jñānāt*
-- kartṛ: *sā*
-
-**Verbal modality:**
-- none explicit; causal nominal conclusion.
-
-**Note:**
-This is Sureśvara's compact *jñānād eva* thesis. NS 2.9-10 will explain the interpretive conditions under which that knowledge becomes effective as ignorance-removal.
-
----
-
-### NS 2.9a
-
-**Sanskrit (IAST):**
-> *anvaya-vyatirekābhyāṃ vinā*
-
-**English (line-by-line):**
-> Without *anvaya-vyatireka*.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| anvaya-vyatirekābhyām | anvaya-vyatireka | instr. dual masc. | by concomitance and exclusion |
-| vinā | vinā | indecl. | without |
-
-**Compound resolution (samāsa-vigraha):**
-- *anvaya-vyatirekābhyām* [dvandva]: *anvayaś ca vyatirekaś ca*.
-
-**Kāraka structure:**
-- karaṇa (under negated absence-condition): *anvaya-vyatirekābhyām*
-
-**Verbal modality:**
-- none explicit; the phrase conditions the optative clause in NS 2.9b.
-
-**Note:**
-Sureśvara is not setting reasoning against revelation. He is specifying the reasoning without which revelation is not yet genuinely understood.
-
----
-
-### NS 2.9b
-
-**Sanskrit (IAST):**
-> *vākyārtha-bodhanaṃ na syāt*
-
-**English (line-by-line):**
-> There would be no understanding of sentence-meaning.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| vākyārtha-bodhanam | vākyārtha-bodhana | nom. sg. neut. | understanding of sentence-meaning |
-| na | na | indecl. | not |
-| syāt | as | 3rd sg. optative, parasmaipada | would be |
-
-**Compound resolution (samāsa-vigraha):**
-- *vākyārtha-bodhanam* [tatpuruṣa]: *vākyasya arthasya bodhanam*.
-
-**Kāraka structure:**
-- kartṛ: *vākyārtha-bodhanam*
-
-**Verbal modality:**
-- *syāt*: vidhi-liṅ / parasmaipada / active
-
-**Note:**
-The target is *vākyārtha*, not isolated lexical items. The sentence as sentence must be understood if the *mahāvākya* is to disclose what it discloses.
-
----
-
-### NS 2.9c
-
-**Sanskrit (IAST):**
-> *tena vinājñāna-prahāṇaṃ*
-
-**English (line-by-line):**
-> Without that, there is no removal of ignorance.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| tena | tad | instr. sg. neut. | without that, in the absence of that |
-| vinā | vinā | indecl. | without |
-| ajñāna-prahāṇam | ajñāna-prahāṇa | nom. sg. neut. | removal of ignorance |
-
-**Compound resolution (samāsa-vigraha):**
-- *ajñāna-prahāṇam* [tatpuruṣa]: *ajñānasya prahāṇam*.
-
-**Kāraka structure:**
-- kartṛ: *ajñāna-prahāṇam*
-- apādāna / absence-condition: *tena vinā*
-
-**Verbal modality:**
-- none explicit; subject carried into the finite impossibility claim of NS 2.9d.
-
-**Note:**
-The sandhi must be read as *vinā ajñāna-prahāṇam*. What fails without sentence-understanding is precisely ignorance-removal, not some later optional supplement.
-
----
-
-### NS 2.9d
-
-**Sanskrit (IAST):**
-> *nopapadyate*
-
-**English (line-by-line):**
-> It is not possible.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| na | na | indecl. | not |
-| upapadyate | upa-pad | 3rd sg. pres. indicative, ātmanepada | is possible, is tenable |
-
-**Compound resolution (samāsa-vigraha):**
-- none.
-
-**Kāraka structure:**
-- kartṛ: implied *ajñāna-prahāṇam* from NS 2.9c
-
-**Verbal modality:**
+- *syāt*: liṅ / parasmaipada / active
 - *upapadyate*: laṭ / ātmanepada / middle
 
 **Note:**
-The middle *upapadyate* marks principled impossibility, not mere practical difficulty. Sureśvara is stating a condition of intelligibility.
+Sureśvara does not make *anvaya-vyatireka* an independent liberator. Its office is preparatory: without it, the sentence is not understood as sentence. Later, at NS 3.63–64 and again at 4.16–18, he tightens the claim and says that discrimination by reasoning only clears the ground; the *vākya* destroys ignorance. The present verse states the antecedent condition for that stronger thesis.
 
 ---
 
-### NS 2.10a
+### NS 2.10
 
 **Sanskrit (IAST):**
-> *vinājñāna-prahāṇena*
+> *vinājñāna-prahāṇena puruṣārthaḥ su-durlabhaḥ*  
+> *tasmād yathokta-siddhy-arthaṃ paro grantho 'vatāryate*
 
 **English (line-by-line):**
-> Without the removal of ignorance.
+> Without the removal of ignorance, the human end is exceedingly difficult to attain.  
+> Therefore, for the sake of establishing what has just been stated, a further section of the treatise is introduced.
 
 **Word-by-word:**
 
 | Pada | Stem / root | Pratyaya / morphology | Gloss |
 |---|---|---|---|
-| vinā | vinā | indecl. | without |
-| ajñāna-prahāṇena | ajñāna-prahāṇa | instr. sg. neut. | by the removal of ignorance, with the removal of ignorance |
+| vinā | vinā | indecl | without |
+| ajñāna-prahāṇena | ajñāna-prahāṇa | instr sg neut | by the removal of ignorance |
+| puruṣārthaḥ | puruṣārtha | nom sg masc | the human end / final aim |
+| su-durlabhaḥ | su-durlabha | nom sg masc | very hard to obtain |
+| tasmāt | tad | abl sg | therefore / from that |
+| yathokta-siddhy-artham | yathokta-siddhy-artha | acc sg masc, purposive | for the sake of establishing what has been stated |
+| paraḥ | para | nom sg masc | further / subsequent |
+| granthaḥ | grantha | nom sg masc | section / textual treatment |
+| avatāryate | ava-√tṝ (caus./pass.) | laṭ, 3 sg, passive | is introduced / is set forth |
 
 **Compound resolution (samāsa-vigraha):**
-- *ajñāna-prahāṇena* [tatpuruṣa]: *ajñānasya prahāṇena*.
+- *ajñāna-prahāṇena* [ṣaṣṭhī-tatpuruṣa]: *ajñānasya prahāṇena*.
+- *puruṣārthaḥ* [ṣaṣṭhī-tatpuruṣa]: *puruṣasya arthaḥ*.
+- *yathokta-siddhy-artham* [complex tatpuruṣa]: *yathā uktasya siddheḥ artham*.
 
 **Kāraka structure:**
-- absence-condition: *vinā ajñāna-prahāṇena*
+- karaṇa-abhāva construction: *vinā ajñāna-prahāṇena*
+- kartṛ: *paraḥ granthaḥ*
+- prayojana: *yathokta-siddhy-artham*
 
 **Verbal modality:**
-- none explicit; conditional phrase completed by NS 2.10b.
+- *avatāryate*: laṭ / passive / passive
 
 **Note:**
-The argument now moves from hermeneutics to soteriology without changing order. No liberation is discussed apart from the prior destruction of ignorance.
+This is a programmatic transition-verse. Sureśvara marks the next movement of Book 2 as an argumentative necessity, not as ornamental excursus: if liberation is *jñānād eva* ("from knowledge alone," NS 1.98–99), then the genesis of that knowledge must be shown with equal care. The "further section" is thus the beginning of the disciplined unpacking of the *tvam*-term.
 
 ---
 
-### NS 2.10b
+### NS 2.11
 
 **Sanskrit (IAST):**
-> *puruṣārthaḥ su-durlabhaḥ*
+> *varcaskaṃ tv anna-kāryatvād yathānātmeti gamyate*  
+> *tad-bhāgaḥ sendriyo dehas tadvat kim iti nekṣyate*
 
 **English (line-by-line):**
-> The human end is very hard to attain.
+> Just as excrement is understood to be not-Self because it is an effect of food,  
+> why is the body, together with the senses, which is a portion of that very food, not seen in the same way?
 
 **Word-by-word:**
 
 | Pada | Stem / root | Pratyaya / morphology | Gloss |
 |---|---|---|---|
-| puruṣārthaḥ | puruṣārtha | nom. sg. masc. | the human end, final good |
-| su-durlabhaḥ | su-durlabha | nom. sg. masc. | very difficult to attain |
+| varcaskam | varcaska | nom sg neut | excrement |
+| tu | tu | indecl | but / now |
+| anna-kāryatvāt | anna-kāryatva | abl sg neut | because of being an effect of food |
+| yathā | yathā | indecl | just as |
+| anātmā | an-ātman | nom sg masc used predicatively | not-Self |
+| iti | iti | indecl | thus |
+| gamyate | √gam | laṭ, 3 sg, passive | is understood / is inferred |
+| tad-bhāgaḥ | tad-bhāga | nom sg masc | a part of that |
+| sendriyaḥ | sa-indriya | nom sg masc | together with the senses |
+| dehaḥ | deha | nom sg masc | body |
+| tadvat | tadvat | indecl | in that same way |
+| kim | kim | indecl interrogative | why |
+| iti | iti | indecl | thus |
+| na | na | indecl | not |
+| īkṣyate | √īkṣ | laṭ, 3 sg, ātmanepada | is seen / is regarded |
 
 **Compound resolution (samāsa-vigraha):**
-- *puruṣārthaḥ* [tatpuruṣa]: *puruṣasya arthaḥ*.
-- *su-durlabhaḥ* [upapada-like prefixal formation]: *suṣṭhu durlabhaḥ*.
+- *anna-kāryatva* [ṣaṣṭhī-tatpuruṣa]: *annasya kāryatvam*.
+- *tad-bhāgaḥ* [ṣaṣṭhī-tatpuruṣa]: *tasya bhāgaḥ*.
+- *sendriyaḥ* [saha-arthaka compound]: *indriyaiḥ saha*.
 
 **Kāraka structure:**
-- kartṛ: *puruṣārthaḥ*
+- hetu: *anna-kāryatvāt*
+- kartṛ (logical subject): *varcaskam*
+- kartṛ (logical subject, second clause): *sendriyo dehaḥ*
 
 **Verbal modality:**
-- none explicit; nominal predication.
+- *gamyate*: laṭ / passive / passive
+- *īkṣyate*: laṭ / ātmanepada / middle-passive
 
 **Note:**
-Here *puruṣārtha* means *mokṣa*, not some generic human good. The whole treatise keeps the final end in view.
+The local OCR is visibly damaged in this verse; the normalization to *yathā anātmā iti* is required by syntax, metre, and the correlative *tadvat*. Philosophically the move is exact: Sureśvara begins not with metaphysical declaration but with a plain inferential starting-point. What is food-effect is objectifiable and derivative; the body, being of the same order, cannot be the Self merely because intimacy produces appropriation.
 
 ---
 
-### NS 2.10c
+### NS 2.12
 
 **Sanskrit (IAST):**
-> *tasmād yathokta-siddhy-arthaṃ*
+> *prāg anātmaiva jagdhaṃ sad ātmatām eti avidyayā*  
+> *srag-ālepanavad dehaṃ tasmāt paśyed vivikta-dhīḥ*
 
 **English (line-by-line):**
-> Therefore, for the sake of establishing what has just been stated.
+> Before being eaten, it is simply not-Self; once eaten, it comes to the status of selfhood only through ignorance.  
+> Therefore the man of discriminating understanding should see the body as separate, as one would a garland or an unguent.
 
 **Word-by-word:**
 
 | Pada | Stem / root | Pratyaya / morphology | Gloss |
 |---|---|---|---|
-| tasmāt | tad | abl. sg. neut., indeclinable use | therefore |
-| yathokta-siddhy-artham | yathokta-siddhy-artha | acc. sg. masc. | for the sake of the accomplishment of what has been stated |
-
-**Compound resolution (samāsa-vigraha):**
-- *yathokta-siddhy-artham* [tatpuruṣa]: *yathoktasya siddheḥ artham*.
-
-**Kāraka structure:**
-- prayojana / purpose accusative: *yathokta-siddhy-artham*
-
-**Verbal modality:**
-- none explicit; purpose phrase completed by NS 2.10d.
-
-**Note:**
-Sureśvara explicitly frames the next discussion as continuation, not digression. The text advertises its own argumentative discipline.
-
----
-
-### NS 2.10d
-
-**Sanskrit (IAST):**
-> *paro grantho 'vatāryate*
-
-**English (line-by-line):**
-> A further section is introduced.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| paraḥ | para | nom. sg. masc. | further, subsequent |
-| granthaḥ | grantha | nom. sg. masc. | section, treatise |
-| avatāryate | ava-tṝ | 3rd sg. pres. indicative, ātmanepada passive | is introduced, is brought down into discussion |
-
-**Compound resolution (samāsa-vigraha):**
-- none.
-
-**Kāraka structure:**
-- kartṛ: *granthaḥ*
-
-**Verbal modality:**
-- *avatāryate*: laṭ / ātmanepada / passive
-
-**Note:**
-The passive marks a formal transition in śāstric exposition. Sureśvara signals that the ensuing analysis is required to secure the just-stated claim.
-
----
-
-### NS 4.3a
-
-**Sanskrit (IAST):**
-> *ātmānātmā ca loke 'smin*
-
-**English (line-by-line):**
-> In this world, the Self and the not-Self.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| ātmā | ātman | nom. sg. masc. | the Self |
-| anātmā | an-ātman | nom. sg. masc. | the not-Self |
-| ca | ca | indecl. | and |
-| loke | loka | loc. sg. masc. | in the world |
-| asmin | idam | loc. sg. masc. | in this |
+| prāk | prāk | indecl | before |
+| anātmā | an-ātman | nom sg masc/neut used predicatively | not-Self |
+| eva | eva | indecl | just / indeed |
+| jagdham | √ghas (PPP *jagdha*) | nom sg neut | eaten |
+| sat | √as (pres. part. *sat*) | nom sg neut | being |
+| ātmatām | ātmatā | acc sg fem | selfhood / the status of self |
+| eti | √i | laṭ, 3 sg, parasmaipada | goes to / reaches |
+| avidyayā | avidyā | instr sg fem | through ignorance |
+| srag-ālepanavat | srag-ālepanavat | acc sg masc, comparative | like a garland and an unguent |
+| deham | deha | acc sg masc | the body |
+| tasmāt | tad | abl sg | therefore |
+| paśyet | √paś | liṅ, 3 sg, parasmaipada | should see |
+| vivikta-dhīḥ | vivikta-dhī | nom sg masc | one whose understanding discriminates / the man of discernment |
 
 **Compound resolution (samāsa-vigraha):**
 - *anātmā* [nañ-tatpuruṣa]: *na ātmā*.
+- *srag-ālepanavat* [comparative compound]: *srag iva ālepanaṃ iva*, *bāhyopaskaraṇavat*.
+- *vivikta-dhīḥ* [bahuvrīhi]: *viviktā dhīr yasya saḥ*.
 
 **Kāraka structure:**
-- kartṛ: *ātmā*
-- kartṛ: *anātmā*
-- adhikaraṇa: *loke asmin*
+- karaṇa / nimitta: *avidyayā*
+- karman: *deham*
+- kartṛ: *vivikta-dhīḥ*
 
 **Verbal modality:**
-- none explicit; dual predication completed in NS 4.3b-c.
+- *eti*: laṭ / parasmaipada / active
+- *paśyet*: liṅ / parasmaipada / active
 
 **Note:**
-Book 4 begins from a shared experiential premise. Both Self and not-Self are somehow established, and the question is how that establishment is ordered.
-
----
-
-### NS 4.3b
-
-**Sanskrit (IAST):**
-> *pratyakṣādi-pramāṇataḥ*
-
-**English (line-by-line):**
-> By means of the *pramāṇas* beginning with perception.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| pratyakṣādi-pramāṇataḥ | pratyakṣādi-pramāṇa | abl. sg. neut. | from the means of knowledge beginning with perception |
-
-**Compound resolution (samāsa-vigraha):**
-- *pratyakṣādi-pramāṇataḥ* [tatpuruṣa]: *pratyakṣa-ādibhyaḥ pramāṇebhyaḥ*.
-
-**Kāraka structure:**
-- karaṇa / apādāna: *pratyakṣādi-pramāṇataḥ*
-
-**Verbal modality:**
-- none explicit; instrumental-ablative support for the predication completed in NS 4.3c.
-
-**Note:**
-Sureśvara first keeps the discussion within ordinary epistemic currency. The asymmetry between Self and not-Self is stated only after their ordinary establishment is granted.
-
----
-
-### NS 4.3c
-
-**Sanskrit (IAST):**
-> *siddhau tayor anātmā tu*
-
-**English (line-by-line):**
-> Though the two are established, the not-Self, however.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| siddhau | siddha | nom. dual masc. | are established |
-| tayoḥ | tad | gen. dual | of the two |
-| anātmā | an-ātman | nom. sg. masc. | the not-Self |
-| tu | tu | indecl. | but, however |
-
-**Compound resolution (samāsa-vigraha):**
-- *anātmā* [nañ-tatpuruṣa]: *na ātmā*.
-
-**Kāraka structure:**
-- kartṛ: implied dual *ātmā* and *anātmā* with *siddhau*
-- sambandha: *tayoḥ*
-- kartṛ (for the next predication): *anātmā*
-
-**Verbal modality:**
-- none finite; predicative participial usage in *siddhau* carries into the completion at NS 4.3d.
-
-**Note:**
-The adopted reading *siddhau* is necessary. The verse first grants dual establishment and only then ranks the two terms asymmetrically.
-
----
-
-### NS 4.3d
-
-**Sanskrit (IAST):**
-> *sarvatraivātma-pūrvakaḥ*
-
-**English (line-by-line):**
-> Is everywhere preceded by the Self.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| sarvatra | sarvatra | indecl. | everywhere |
-| eva | eva | indecl. | indeed, just |
-| ātma-pūrvakaḥ | ātma-pūrvaka | nom. sg. masc. | preceded by the Self, dependent on prior Self-presence |
-
-**Compound resolution (samāsa-vigraha):**
-- *ātma-pūrvakaḥ* [tatpuruṣa]: *ātmā pūrvaṃ yasya saḥ*.
-
-**Kāraka structure:**
-- kartṛ: implied *anātmā* from NS 4.3c
-
-**Verbal modality:**
-- none explicit; predicate completing NS 4.3c.
-
-**Note:**
-This is the ontological shorthand presupposed by the earlier anti-*samuccaya* argument. Objectivity never appears on its own; it arrives only within prior Self-presence.
+Sureśvara's grammar is philosophically exact. The eaten food does not truly become Self; it "reaches selfhood" only *avidyayā*, under the regime of misidentification. The comparison with garland and unguent matters for the same reason: the body is near, used, adorned, and appropriated, but it is still external to the Self in principle. Compare NS 4.3, where the not-Self is said to be everywhere dependent on prior Self-presence.
 
 ---
 
 ## Editorial closing
 
-These passages settle three issues. They settle, first, that liberating knowledge and action do not form a joint saving economy: the anti-*samuccaya* thesis is stated structurally at NS 1.55-56 and declaratively again at NS 1.98-99. They settle, second, that *mahāvākya*-cognition is not a brute auditory event, since NS 2.9-10 makes *anvaya-vyatireka* indispensable to genuine grasp of *vākyārtha*. They settle, third, that the object-side of experience never outruns the Self that discloses it, as NS 4.3 states with unusual compactness.
-
-What remains open here is not the thesis, but its fuller deployment. The extended polemic against *prasaṅkhyāna-vāda* belongs to Book 3, and the fuller existential treatment of the liberated knower belongs to the later movement of Book 4. Sureśvara's larger *Vārttikas* carry the same commitments into direct śruti-commentary. The present composite scope is therefore not a miscellany. It is the doctrinal skeleton to which the rest of the *Naiṣkarmya-Siddhi* and Sureśvara's wider corpus remain answerable.
+What this passage settles is the order of approach. Sureśvara will not allow the hearer either to bypass *anvaya-vyatireka* in the name of immediate mysticism or to absolutize it into a self-sufficient rationalism. The method is negative and preparatory; it yields the disciplined stripping away of bodily and psychical misidentification, and thereby makes the Upaniṣadic sentence graspable as sentence. What remains unsettled here is the more difficult semantic question: how exactly the *tvam*-term is purified, how its apparent contradiction with *tat* is overcome, and how the sentence then destroys ignorance rather than merely describing a doctrine. Those tasks are taken up in the ensuing stretches of Book 2, especially 2.22ff., 2.29ff., and 2.54–56, and are recast with sharper theoretical precision at 3.63–64 and 4.16–18. The present unit is therefore preliminary, but preliminary in Sureśvara's strong sense: it establishes the indispensable order without which the later non-dual disclosure would be verbally heard but not understood.
