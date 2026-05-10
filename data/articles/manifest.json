@@ -24,13 +24,12 @@
     {
       "slug": "mimamsa-aurobindo-v2",
       "title": "Mīmāṃsā as externalized yogic process — re-investigation defending the Integral-Yoga thesis",
-      "subtitle": "Re-doing the investigation with the user's critique: the Integral-Yoga = modern Mīmāṃsā thesis defended directly, secondary literature consulted, Sureśvara's structural-incapability argument re-engaged.",
+      "subtitle": "Re-do with stronger verdict: the Mīmāṃsaka apparatus has substantial interior content (Śabara on MS 1.1.2: *so 'rthaḥ puruṣaṃ niḥśreyasena saṃyunaktīti pratijānīmahe*) that the first pass underweighted. Clooney 2022's *Mīmāṃsā as Introspective Literature and as Philosophy* provides academic precedent. Sureśvara *NS* 1.67's structural-incapability critique lands against the externalized form, not the original integral form.",
       "kind": "perspective-investigation",
       "source_doc": "docs/MIMAMSA_AUROBINDO_HYPOTHESIS_v2.md",
-      "tags": ["Mīmāṃsā", "Jaimini", "Aurobindo", "Integral-Yoga", "bhāvanā", "depth-reading"],
-      "word_count_approx": 5000,
-      "date": "2026-05-09",
-      "status": "in-progress"
+      "tags": ["Mīmāṃsā", "Jaimini", "Śabara", "Aurobindo", "Integral-Yoga", "bhāvanā", "apūrva", "depth-reading", "Clooney"],
+      "word_count_approx": 5870,
+      "date": "2026-05-09"
     },
     {
       "slug": "primitive-model",

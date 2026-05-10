@@ -1,0 +1,64 @@
+{
+  "id": "hariraya",
+  "name": "Goswami Hariraya",
+  "name_iast": "Gosvāmī Hariraya",
+  "alternate_names": [
+    "Hariraya Mahāprabhu"
+  ],
+  "dates_low": 1591,
+  "dates_high": 1716,
+  "dates_tier": "contested",
+  "dates_notes": "Sectarian Puṣṭimārga chronicles; the received span (125 years) is implausibly long and is treated by the tradition as miraculous; modern scholarship places his active period across the seventeenth century. Great-grandson of Vallabha through Viṭṭhalanātha's eldest son Giridhara.",
+  "school": "Śuddhādvaita",
+  "school_color_token": "shuddha",
+  "sub_school": "Hariraya-Goswāmī-paramparā",
+  "sub_school_shade": 4,
+  "lineage_in": [
+    "vitthalanatha"
+  ],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Hariraya is the seventeenth-century *Puṣṭi-Mārga* theologian through whom Vallabha's and Viṭṭhalanātha's *śuddhādvaita* is transmitted in pastoral-letter form to the lay sectarian community. The doctrinal architecture is preserved without alteration: Brahman-as-Kṛṣṇa as the sole reality (Hariraya's *Vivaraṇa* on Vallabha's *Ṣoḍaśa-Granthāḥ*, on the *Siddhānta-Muktāvalī* §§1–7); *jīva* and *jagat* as real *aṃśas* through *āvirbhāva–tirobhāva* without *māyā* (*Vivaraṇa* on the *Sarva-Nirṇaya-Prakaraṇa* of Vallabha's *Tattvārtha-Dīpa-Nibandha*); *Puṣṭi* as divine grace operating through *anugraha* (Hariraya, *Śikṣā-Patra* §§1–41, the lay-pastoral letters; cf. Vallabha, *Puṣṭi-Pravāha-Maryādā-Bheda*); the threefold typology of *jīvas* (*puṣṭi*, *maryādā*, *pravāha*) in Hariraya's pastoral application (*Śikṣā-Patra* §§22–35).\n\nThe contribution is two-fold and is what fixes Hariraya's position in the school. First, the *Bhāṣya*-corpus: Hariraya supplies *vivaraṇas* on Vallabha's *Ṣoḍaśa-Granthāḥ* (the sixteen short doctrinal tracts that constitute Vallabha's pastoral-doctrinal handbook), opening their compressed verses to lay study (notably his *Vivaraṇa* on the *Siddhānta-Rahasya*, the *Navaratna*, the *Antaḥkaraṇa-Prabodha*, and the *Puṣṭi-Pravāha-Maryādā-Bheda*). The work fixes the lineage's reading of these short texts in the form they are still studied in Puṣṭimārga *bāl-pāṭhaśālā* curricula. Second, the *Śikṣā-Patra*: forty-one Sanskrit-and-Vraja-Bhāṣā letters of pastoral instruction addressed to a *vaiṣṇava* disciple (in the surviving recensions, to one Gopināth-jī), articulating *seva*-method, the inner discipline of *bhāva*, and the practical conduct of the householder *vaiṣṇava*. The *Śikṣā-Patra* are doctrinally indistinguishable from Vallabha and Viṭṭhalanātha but operate at a lower technical pitch: they are the form in which *śuddhādvaita* enters the daily life of the sectarian community.\n\nHariraya's significance is therefore the translation of Vallabha's *avikṛta-pariṇāma-vāda* into a transmissible pastoral idiom. The scholastic apparatus remains with Viṭṭhalanātha and Puruṣottama; Hariraya's apparatus is what makes the school operative as a continuous *seva*-tradition.",
+  "engaged_works": [
+    {
+      "work_id": "shiksha-patra",
+      "title": "Shiksha-Patra",
+      "title_iast": "Śikṣā-Patra",
+      "alternate_titles": [
+        "Hariraya-Śikṣā-Patra"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored within the Puṣṭimārga sectarian canon; preserved as forty-one numbered letters in standard editions of the Puṣṭimārga rahasya-corpus.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus within Puṣṭimārga textual tradition."}
+      ],
+      "genre": "epistolary-pastoral",
+      "language": "sanskrit-vraja-mixed",
+      "summary": "Forty-one pastoral letters of doctrinal-and-practical instruction, addressed (in the surviving recensions) to a disciple Gopināth-jī. Each letter takes a single topic and articulates it for the householder *vaiṣṇava*: *Śikṣā-Patra* §1 on the *praṇaya*-relation between *vaiṣṇava* and Bhagavān; §§2–14 on the *aṣṭa-yāma* (eightfold daily Deity-service) as Viṭṭhalanātha codified it, with detailed instruction on *śṛṅgāra*, *bhoga-rāga*, *ārati*, and the structure of *kīrtana*; §§15–21 on the inner conditions of *seva* (*bhāva-saṃskāra*, *praṇidhāna*, the avoidance of *aparādha*); §§22–35 on the threefold typology of *jīvas* — *puṣṭi*, *maryādā*, *pravāha* — applied pastorally to the disciple's self-recognition (cf. Vallabha, *Puṣṭi-Pravāha-Maryādā-Bheda*); §§36–41 on the conduct of the surrendered self in worldly affairs and on the *brahma-sambandha* initiation as the operative beginning of *anugraha* (Vallabha, *Siddhānta-Muktāvalī* §§9–14). The letters preserve Vallabha's *avikṛta-pariṇāma-vāda* and Viṭṭhalanātha's *seva*-codification without revision; the contribution is the move from scholastic articulation to lived pastoral instruction. Within Puṣṭimārga the *Śikṣā-Patra* function as the canonical handbook of householder *seva*, studied in tandem with the *Ṣoḍaśa-Granthāḥ* of Vallabha.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "hariraya-vivarana-on-shodasha-granthah",
+      "title": "Hariraya-Vivarana on Shodasha-Granthah",
+      "title_iast": "Hariraya-Vivaraṇa on Ṣoḍaśa-Granthāḥ",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored vivaraṇas on Vallabha's sixteen short tracts; circulated as a unified corpus within the Puṣṭimārga.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus within Puṣṭimārga textual tradition."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "A corpus of *vivaraṇas* on the *Ṣoḍaśa-Granthāḥ* — Vallabha's sixteen short tracts that together constitute the school's pastoral-doctrinal handbook (the *Yamunāṣṭakam*, *Bāla-Bodha*, *Siddhānta-Muktāvalī*, *Puṣṭi-Pravāha-Maryādā-Bheda*, *Siddhānta-Rahasya*, *Navaratna*, *Antaḥkaraṇa-Prabodha*, *Vivekadhairyāśraya*, *Kṛṣṇāśraya*, *Caturślokī*, *Bhakti-Vardhinī*, *Jala-Bheda*, *Pañca-Padyāni*, *Sannyāsa-Nirṇaya*, *Nirodha-Lakṣaṇa*, *Sevā-Phala*). The *vivaraṇas* are short, non-polemical, and pedagogic. Three are particularly load-bearing in Puṣṭimārga curriculum. The *vivaraṇa* on the *Siddhānta-Rahasya* fixes the school's reading of *brahma-sambandha* — the initiatory dedication of the self to Kṛṣṇa as the operative beginning of grace — in the form taught in modern Puṣṭimārga *bāl-pāṭhaśālās*. The *vivaraṇa* on the *Puṣṭi-Pravāha-Maryādā-Bheda* fixes the typology of *jīvas* (*puṣṭi* receiving direct *anugraha*, *maryādā* progressing through *vidhi-niyama*, *pravāha* immersed in *saṃsāra*) and clarifies the cross-categorial cases (*pravāha-puṣṭi* etc.) Vallabha leaves implicit. The *vivaraṇa* on the *Nirodha-Lakṣaṇa* fixes the reading of *nirodha* as the inward turning of the *manas* toward Bhagavān in *viraha*-suffering — a doctrinal point on which the lay-pastoral and the scholastic registers of the school converge. The corpus is the standard *Ṣoḍaśa-Granthāḥ* commentary in the post-Viṭṭhalanātha lineage and is read prior to study of Puruṣottama's higher scholastic apparatus.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-intra-school-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-intra-school-opus"
+}
