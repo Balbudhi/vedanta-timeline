@@ -1479,14 +1479,16 @@ function openGlossary(termKey, anchorEl) {
   const translatorNote = entry.translator_note
     ? `<div class="gp-translator"><span class="gp-label">Translator note</span><div>${md(entry.translator_note)}</div></div>`
     : "";
-  pop.innerHTML = `
+  // Glossary definitions can include cite:// links; let the footnote numbering
+  // post-processor convert them to compact superscripts in the popover body.
+  pop.innerHTML = numberCitations(`
     <button class="gp-close" aria-label="Close">×</button>
     <div class="gp-term">${escape(entry.term_iast || termKey)}</div>
     ${entry.literal ? `<div class="gp-literal">Literally: <em>${escape(entry.literal)}</em></div>` : ""}
     <div class="gp-invariant"><span class="gp-label">${entry.invariant_definition && entry.invariant_definition.toLowerCase().includes("no shared invariant") ? "No invariant" : "Invariant"}</span><div>${md(entry.invariant_definition || "")}</div></div>
     ${perSchool ? `<div class="gp-perschool"><span class="gp-label">By school</span>${perSchool}</div>` : ""}
     ${translatorNote}
-  `;
+  `, { appendList: false });
   let scrim = null;
   if (isMobile) {
     scrim = document.createElement("div");
@@ -1714,9 +1716,15 @@ function renderCitationTab(key) {
   // the Sanskrit and the close English so a not-yet-verified passage can't
   // be mistaken for a quotation. The same panel surfaces the verification
   // note so the reader can see exactly what the audit found.
-  const anchorHtml = entry
-    ? (entry.verified === false
-        ? `
+  // Verified-flag dispatch:
+  //   true                  → show Sanskrit + close English (defendable).
+  //   false                 → show locus + audit note (passage withheld).
+  //   "pending-acquisition" → show locus + acquisition note (passage on the
+  //                           way; differentiates from a hallucination).
+  //   "unknown" / missing   → show what the entry has, but no audit endorsement.
+  let anchorHtml;
+  if (entry && entry.verified === false) {
+    anchorHtml = `
       <div class="cite-passage-anchor cite-passage-anchor--unverified">
         <div class="cpa-locus">Locus · ${escape(entry.locus_short || locusDisplay)}</div>
         <div class="cpa-pending">
@@ -1726,20 +1734,36 @@ function renderCitationTab(key) {
           primary text. ${entry.verification_note ? `<em>${escape(entry.verification_note)}</em>` : ""}
         </div>
       </div>
-    `
-        : `
+    `;
+  } else if (entry && entry.verified === "pending-acquisition") {
+    anchorHtml = `
+      <div class="cite-passage-anchor cite-passage-anchor--pending">
+        <div class="cpa-locus">Locus · ${escape(entry.locus_short || locusDisplay)}</div>
+        <div class="cpa-pending">
+          The cited primary text is not yet on disk in clean form, so the
+          passage cannot be verified against the source file. Locus and
+          attribution are preserved as a primary-source pointer; the passage
+          will be back-filled once the work is acquired.
+          ${entry.verification_note ? `<em>${escape(entry.verification_note)}</em>` : ""}
+        </div>
+      </div>
+    `;
+  } else if (entry) {
+    anchorHtml = `
       <div class="cite-passage-anchor">
         <div class="cpa-locus">Locus · ${escape(entry.locus_short || locusDisplay)}</div>
         ${entry.sanskrit_iast ? `<div class="cpa-sk">${escape(entry.sanskrit_iast).replace(/\n/g, "<br>")}</div>` : ""}
         ${entry.english_close ? `<div class="cpa-en">${md(entry.english_close)}</div>` : ""}
       </div>
-    `)
-    : `
+    `;
+  } else {
+    anchorHtml = `
       <div class="cite-passage-anchor">
         <div class="cpa-locus">Locus · ${escape(locusDisplay)}</div>
         <div class="cpa-pending">Passage not yet extracted into the on-disk corpus. The locus is named in this entry; the surrounding work has not been transcribed line-by-line yet. Open the thinker entry to see what <em>is</em> currently engaged.</div>
       </div>
     `;
+  }
 
   const noContextNote = entry && !before.length && !after.length
     ? `<p class="ccb-note">No surrounding key-passages indexed for this work yet.</p>`
