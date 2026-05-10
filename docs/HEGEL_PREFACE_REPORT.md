@@ -1,9 +1,9 @@
 # Hegel — *Phänomenologie des Geistes*, Vorrede (1807)
 ## A Focused Report on the First Ten Pages
 
-**Source.** G.W.F. Hegel, *Phänomenologie des Geistes* (Bamberg/Würzburg: Goebhardt, 1807). Reference edition: Suhrkamp Theorie-Werkausgabe (TWA) Vol. 3 (Frankfurt: Suhrkamp, 1970). English: A.V. Miller, *Hegel's Phenomenology of Spirit* (Oxford UP, 1977). German verbatim is taken from the Marxists.org text mirrored in `materials/primary_texts/german/hegel/phaenomenologie_des_geistes.txt`; pagination follows TWA 3.
+**Source.** G.W.F. Hegel, *Phänomenologie des Geistes* (1807). Reference: Suhrkamp Theorie-Werkausgabe (TWA) Vol. 3 (Frankfurt: Suhrkamp, 1970). English: A.V. Miller, *Hegel's Phenomenology of Spirit* (Oxford UP, 1977). German verbatim from `materials/primary_texts/german/hegel/phaenomenologie_des_geistes.txt`; pagination per TWA 3.
 
-The Preface (*Vorrede*) was written last, after the body of the book was complete, in late 1806 and early 1807 — Napoleon's troops were entering Jena as Hegel finished. It is the densest programmatic statement Hegel ever published, and it is more or less self-contained. The opening ten pages contain almost every load-bearing formula of the mature system.
+The Preface (*Vorrede*) was written last, in late 1806 and early 1807, as Napoleon's troops were entering Jena. It is the densest programmatic statement Hegel ever published. The opening ten pages contain almost every load-bearing formula of the mature system.
 
 ---
 
@@ -63,12 +63,12 @@ The honest verdict: Hegel supplies the *form* of the perspectivist intuition —
 
 ## §4 — Citations and recommended next steps
 
-**To read next from Hegel.** First, the rest of the *Vorrede* (TWA 3, pp. 11–65) — the second half develops the speculative proposition in technical detail and contains the polemic against mathematical *räsonnierendes Denken*. Second, the chapter on Force and Understanding (*Kraft und Verstand*) in the body of the *Phänomenologie* (TWA 3, pp. 107–136) for the first concrete application of the dialectical method announced in the Vorrede. Third, the closing chapter on Absolute Knowing (*Das absolute Wissen*, TWA 3, pp. 575–591), where the architecture set out in the Vorrede returns as result. The *Wissenschaft der Logik*, Book I (TWA 5), the Anmerkung on *Aufheben* (pp. 113–114), is the technical sequel.
+**To read next from Hegel.** First, the rest of the *Vorrede* (TWA 3, pp. 11–65) — the second half develops the speculative proposition in technical detail. Second, *Kraft und Verstand* (TWA 3, pp. 107–136) for the first concrete application of the dialectical method. Third, *Das absolute Wissen* (TWA 3, pp. 575–591), where the Vorrede's architecture returns as result. The *Wissenschaft der Logik*, Anmerkung on *Aufheben* (TWA 5, pp. 113–114), is the technical sequel.
 
-**Where the Preface fits.** Hegel wrote it last and meant it to do the work of an introduction to the whole system, not only to the *Phänomenologie*. The system the Vorrede announces is the system the *Wissenschaft der Logik* and *Enzyklopädie* will later present categorially. This is why it can be read on its own and why it is more concentrated than anything in the body.
+**Where the Preface fits.** Hegel wrote it last and meant it as an introduction to the whole system, not only to the *Phänomenologie*. The system the Vorrede announces is the system the *Wissenschaft der Logik* and *Enzyklopädie* will later present categorially.
 
-**On adding Hegel as a `cross-tradition` comparator in the timeline corpus.** Recommended. Hegel is already developed in `reader/03_hegel.md` and in the German source extracts at `sources/german/02–04`, `15`, but he is not represented in the timeline JSONs. A `cross-tradition` entry keyed to the *Vorrede* (1807), with anchor passages on Substance-as-Subject, the speculative proposition, and *Aufhebung*, would enable structural comparison with the Vedāntic entries currently in the corpus. The entry should be marked explicitly as comparator, not as a thesis-source for the position taken in the project.
+**On adding Hegel as a `cross-tradition` comparator in the timeline corpus.** Recommended. Hegel is developed in `reader/03_hegel.md` and the German extracts at `sources/german/02–04`, `15`, but is absent from the timeline JSONs. A `cross-tradition` entry keyed to the *Vorrede* (1807), with anchor passages on Substance-as-Subject, the speculative proposition, and *Aufhebung*, would enable structural comparison with the Vedāntic entries. The entry should be marked as comparator, not as a thesis-source.
 
 ---
 
-*Word count: ~2,440. Citations follow TWA 3 unless otherwise noted. German verbatim from the Marxists.org / Projekt Gutenberg text on disk; Miller renderings adjusted lightly where the standard wording obscures structure.*
+*Citations follow TWA 3 unless otherwise noted; German verbatim from the on-disk Projekt Gutenberg text; Miller renderings adjusted lightly where standard wording obscures structure.*

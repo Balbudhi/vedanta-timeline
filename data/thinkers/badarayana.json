@@ -35,6 +35,21 @@
       "note": "Brahma-Sūtra 2.1.3 (etena yogaḥ pratyuktaḥ) extends the previous adhikaraṇa's Sāṃkhya-refutation to Yoga, on the grounds that Yoga shares the Sāṃkhya pradhāna-kāraṇa-vāda."
     },
     {
+      "thinker_id": "lakulisha",
+      "direction": "refutes",
+      "note": "Brahma-Sūtra 2.2.37 (the pati-pāśupata-pakṣa sūtra: 'patyur asāmañjasyāt') refutes the Pāśupata position: Śiva-as-nimitta-kāraṇa-only fails to give a coherent account of the Lord's relation to the world. The position the sūtra refutes is the Lakulīśa-Pāśupata pati-paśu-pāśa triad."
+    },
+    {
+      "thinker_id": "kaundinya",
+      "direction": "refutes",
+      "note": "Brahma-Sūtra 2.2.37 refutes the Pāśupata position; Kauṇḍinya's Pañcārtha-Bhāṣya is the principal interpretive vehicle that makes the Lakulīśa-Sūtra's compressed sūtras concrete enough for the Brahma-Sūtra to engage."
+    },
+    {
+      "thinker_id": "pancaratra-tradition",
+      "direction": "refutes",
+      "note": "Brahma-Sūtra 2.2.42–45 (the utpatty-asambhavādhikaraṇa) refutes the Pāñcarātra vyūha-doctrine on the ground that the production of one vyūha-form from another is incoherent (Saṅkarṣaṇa as jīva produced from Vāsudeva would be either created soul or eternal Lord, and either reading is problematic)."
+    },
+    {
       "thinker_id": "kanada",
       "direction": "refutes",
       "note": "Brahma-Sūtra 2.2.11–17 refutes the Vaiśeṣika paramāṇu-kāraṇa-vāda — the doctrine that atoms are the world-cause — through the structural impossibility of unconscious atoms initiating the first conjunction at sarga."
