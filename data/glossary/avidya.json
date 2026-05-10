@@ -4,7 +4,7 @@
   "term_devanagari": "अविद्या",
   "literal": "non-knowledge; absence of *vidyā*; from a- (negative) + √vid 'to know'",
   "aliases": ["avidya", "avidyā", "Avidyā", "avidyāyāḥ", "avidyāyām", "avidyayā", "ajnana", "ajñāna"],
-  "invariant_definition": "A condition of mis-taking that sustains bondage. In Sanskrit philosophical usage *avidyā* is rarely mere lack of information; it names the operative failure by which a subject mislocates self, object, and means of valid cognition. It therefore stands beside *vidyā*, presupposes a *pramāṇa* theory, and in Vedānta is tied to *adhyāsa* and the debate over error: Nyāya's *anyathā-khyāti*, Prābhākara *akhyāti*, Bhāṭṭa *viparīta-khyāti*, Yogācāra *ātma-khyāti*, and Advaita *anirvacanīya-khyāti*. Buddhist sources use *avidyā* as the first *nidāna* in dependent origination, while Yogācāra links its continuity to the latent dispositions carried in *ālaya-vijñāna*. Vedāntic schools disagree more radically: Advaita makes *avidyā* a beginningless positive factor with concealment and projection functions; Viśiṣṭādvaita treats bondage instead as contraction of the soul's cognitive reach caused by *karma*; Dvaita refuses any positive ignorance-substance and relocates the issue in real dependence, error, and divine governance. In practice the term names what must be removed, counteracted, or rendered non-operative by disciplined inquiry, right cognition, and, in the theistic schools, grace.",
+  "invariant_definition": "A condition of mis-taking that sustains bondage. In Sanskrit philosophical usage *avidyā* is rarely mere lack of information; it names the operative failure by which a subject mislocates self, object, and means of valid cognition. It therefore stands beside *vidyā*, presupposes a *pramāṇa* theory, and in Vedānta is tied to *adhyāsa* and the debate over error: Nyāya's *anyathā-khyāti*, Prābhākara *akhyāti*, Bhāṭṭa *viparīta-khyāti*, Yogācāra *ātma-khyāti*, and Advaita *anirvacanīya-khyāti*. Buddhist sources use *avidyā* as the first *nidāna* in dependent origination, while Yogācāra links its continuity to the latent dispositions carried in *ālaya-vijñāna*. Vedāntic schools disagree more radically: Advaita makes *avidyā* a beginningless positive factor with concealment and projection functions; Viśiṣṭādvaita treats bondage instead as contraction of the soul's cognitive reach caused by *karma*; Tattva-vāda (the school often labeled Dvaita) refuses any positive ignorance-substance and relocates the issue in real dependence, error, and divine governance. In practice the term names what must be removed, counteracted, or rendered non-operative by disciplined inquiry, right cognition, and, in the theistic schools, grace.",
   "per_school": [
     {
       "school": "Advaita",
@@ -17,8 +17,8 @@
       "primary_loci": ["Śrī-Bhāṣya 1.1.1 (sapta-anupapatti)", "Vedārtha-Saṅgraha §§14–35", "Śrī-Bhāṣya 2.3.42–53"]
     },
     {
-      "school": "Dvaita",
-      "definition": "Madhva and his successors deny that bondage requires a *bhāvarūpa avidyā*. Error is real error by a real finite knower; bondage is the soul's beginningless dependence under *karma* and its lack of saving *aparokṣa-jñāna* until Viṣṇu grants it. The target of Dvaita polemic is precisely the Advaitin attempt to place an indeterminable ignorance over a reality that is otherwise said to be pure consciousness. Dvaita therefore treats *avidyā* functionally rather than as an ontological middle-term between being and non-being.",
+      "school": "Tattva-vāda",
+      "definition": "Madhva and his successors deny that bondage requires a *bhāvarūpa avidyā*. Error is real error by a real finite knower; bondage is the soul's beginningless dependence under *karma* and its lack of saving *aparokṣa-jñāna* until Viṣṇu grants it. The target of Tattva-vāda polemic is precisely the Advaitin attempt to place an indeterminable ignorance over a reality that is otherwise said to be pure consciousness. Tattva-vāda therefore treats *avidyā* functionally rather than as an ontological middle-term between being and non-being.",
       "primary_loci": ["Madhva, Māyāvāda-Khaṇḍana §§1–8", "Anu-Vyākhyāna 2.1", "Vyāsatīrtha, Nyāyāmṛta, avidyā-bhaṅga [NOT YET RETRIEVED]"]
     },
     {
@@ -28,7 +28,7 @@
     }
   ],
   "see_also": ["vidya", "maya", "adhyasa", "jnana", "samsara", "anyatha-khyati", "akhyati"],
-  "translator_note": "The lazy gloss is 'ignorance.' That English word suggests a merely psychological lack, as though one simply had not yet learned some fact. In these debates *avidyā* carries causal, epistemic, and soteriological weight: it structures misidentification, error, and bondage. One must also avoid importing Augustinian privation-talk. Advaita explicitly denies that *avidyā* is mere absence; Viśiṣṭādvaita and Dvaita reject the Advaitin positive-entity account but still do not mean ordinary ignorance in the thin modern sense.",
+  "translator_note": "The lazy gloss is 'ignorance.' That English word suggests a merely psychological lack, as though one simply had not yet learned some fact. In these debates *avidyā* carries causal, epistemic, and soteriological weight: it structures misidentification, error, and bondage. One must also avoid importing Augustinian privation-talk. Advaita explicitly denies that *avidyā* is mere absence; Viśiṣṭādvaita and Tattva-vāda reject the Advaitin positive-entity account but still do not mean ordinary ignorance in the thin modern sense.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"
 }

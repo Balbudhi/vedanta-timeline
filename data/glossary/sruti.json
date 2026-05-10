@@ -4,7 +4,7 @@
   "term_devanagari": "श्रुति",
   "literal": "that which is heard; from √śru, 'to hear'",
   "aliases": ["sruti", "śruti", "Śruti", "śruteḥ", "śrutau", "shruti", "śruty"],
-  "invariant_definition": "*Śruti* is not merely a sacred book. It is the heard Vedic corpus taken, in Mīmāṃsā and most Vedānta, as *apauruṣeya* speech whose authority is intrinsic and whose sentences function as *śabda-pramāṇa* where perception and inference do not reach. The term therefore sits inside a larger apparatus: the distinction between *vidhi*, *mantra*, and *arthavāda*; the split between *karma-kāṇḍa* and *jñāna-kāṇḍa*; the need to establish a passage's settled purport (*tātparya*) by *samanvaya* rather than by isolated quotation; and the claim that Vedic language discloses real obligations and real metaphysical structure. In practice a thinker citing *śruti* is normally also presupposing a hermeneutic method for reconciling apparently divergent passages. The major disagreements concern what the corpus is finally about: injunction and *dharma* for Pūrva-Mīmāṃsā, *brahman* for Vedānta, qualified *brahman* for Viśiṣṭādvaita, Viṣṇu for Dvaita, and Kṛṣṇa as *svayaṃ-bhagavān* for Gauḍīya Vaiṣṇavism. Thus *śruti* names both a canon and a theory of revelatory language.",
+  "invariant_definition": "*Śruti* is not merely a sacred book. It is the heard Vedic corpus taken, in Mīmāṃsā and most Vedānta, as *apauruṣeya* speech whose authority is intrinsic and whose sentences function as *śabda-pramāṇa* where perception and inference do not reach. The term therefore sits inside a larger apparatus: the distinction between *vidhi*, *mantra*, and *arthavāda*; the split between *karma-kāṇḍa* and *jñāna-kāṇḍa*; the need to establish a passage's settled purport (*tātparya*) by *samanvaya* rather than by isolated quotation; and the claim that Vedic language discloses real obligations and real metaphysical structure. In practice a thinker citing *śruti* is normally also presupposing a hermeneutic method for reconciling apparently divergent passages. The major disagreements concern what the corpus is finally about: injunction and *dharma* for Pūrva-Mīmāṃsā, *brahman* for Vedānta, qualified *brahman* for Viśiṣṭādvaita, Viṣṇu for Tattva-vāda (the school often labeled Dvaita), and Kṛṣṇa as *svayaṃ-bhagavān* for Gauḍīya Vaiṣṇavism. Thus *śruti* names both a canon and a theory of revelatory language.",
   "per_school": [
     {
       "school": "Pūrva-Mīmāṃsā",
@@ -22,7 +22,7 @@
       "primary_loci": ["Vedārtha-Saṅgraha §§47–70", "Śrī-Bhāṣya 1.1.1", "Śrī-Bhāṣya 2.2.42"]
     },
     {
-      "school": "Dvaita",
+      "school": "Tattva-vāda",
       "definition": "*Śruti* is absolutely authoritative, but its settled purport is specifically Viṣṇu. Madhva's exegesis assumes that apparent non-dualist passages must be read in ways consistent with real difference, dependence, and *taratamya*. In practice *śruti* is read together with *itihāsa*, *purāṇa*, and *pañcarātra* as one coordinated revelatory field centered on Viṣṇu.",
       "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.1.3", "Viṣṇu-Tattva-Vinirṇaya 1", "Mahābhārata-Tātparya-Nirṇaya 1.1–12"]
     },

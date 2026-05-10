@@ -6,7 +6,7 @@
   "aliases": ["manana", "Manana", "mananam"],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
-  "invariant_definition": "*Manana* is reflective assimilation of what has been heard, carried out by reasoning that remains accountable to *śruti*. The point is not free speculation but the removal of *saṃśaya* and *asambhāvanā*: doubt, apparent contradiction, or inability to see how the teaching could be true. Thus *manana* sits at the junction of scriptural testimony and rational scrutiny. It presupposes the larger Indian epistemic setting in which *śabda*, *anumāna*, and *yukti* must be coordinated rather than played off against one another. In the practical register, *manana* is where a school's doctrinal architecture becomes explicit. Advaita uses it to dissolve objections to non-duality; Viśiṣṭādvaita uses it to consolidate a coherent theistic reading of the Upaniṣads; Dvaita uses it to establish real difference and rebut monistic reinterpretation. It is therefore more than \"reflection\" in the casual sense and less than unconstrained philosophizing.",
+  "invariant_definition": "*Manana* is reflective assimilation of what has been heard, carried out by reasoning that remains accountable to *śruti*. The point is not free speculation but the removal of *saṃśaya* and *asambhāvanā*: doubt, apparent contradiction, or inability to see how the teaching could be true. Thus *manana* sits at the junction of scriptural testimony and rational scrutiny. It presupposes the larger Indian epistemic setting in which *śabda*, *anumāna*, and *yukti* must be coordinated rather than played off against one another. In the practical register, *manana* is where a school's doctrinal architecture becomes explicit. Advaita uses it to dissolve objections to non-duality; Viśiṣṭādvaita uses it to consolidate a coherent theistic reading of the Upaniṣads; Tattva-vāda (Dvaita) uses it to establish real difference and rebut monistic reinterpretation. It is therefore more than \"reflection\" in the casual sense and less than unconstrained philosophizing.",
   "per_school": [
     {
       "school": "Advaita",
@@ -19,8 +19,8 @@
       "primary_loci": ["Bṛhadāraṇyaka-Upaniṣad 2.4.5", "Śrī-Bhāṣya 1.1.1", "Vedārtha-Saṅgraha §§82-95"]
     },
     {
-      "school": "Dvaita",
-      "definition": "*Manana* is doctrinal reasoning in support of real difference. It takes the heard scriptural corpus and shows, through consistent interpretation and polemic, that the plurality of selves, the reality of matter, and Viṣṇu's supremacy cannot be reduced to appearance. The argumentative edge of Dvaita is especially visible here, since reflection includes explicit refutation of rival schools.",
+      "school": "Tattva-vāda",
+      "definition": "*Manana* is doctrinal reasoning in support of real difference. It takes the heard scriptural corpus and shows, through consistent interpretation and polemic, that the plurality of selves, the reality of matter, and Viṣṇu's supremacy cannot be reduced to appearance. The argumentative edge of Tattva-vāda is especially visible here, since reflection includes explicit refutation of rival schools.",
       "primary_loci": ["Bṛhadāraṇyaka-Upaniṣad 2.4.5", "Anu-Vyākhyāna 1.1", "Nyāyāmṛta 1 [NOT YET RETRIEVED]"]
     }
   ],

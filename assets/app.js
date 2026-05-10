@@ -2270,6 +2270,26 @@ function renderMarkdownFull(src) {
     const body = rows.slice(2);
     return `<table><thead><tr>${head.map((c) => `<th>${esc(c)}</th>`).join("")}</tr></thead><tbody>${body.map((r) => `<tr>${r.map((c) => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table>`;
   });
+  // Stash citation + plain links *before* paragraph-splitting and glossary-
+  // tagging, so the tagger cannot touch tokens inside an href or anchor text.
+  const citeStash = [];
+  src = src.replace(
+    /\[([^\]]+?)\]\(cite:\/\/([^)\n]+)\)/g,
+    (_m, visible, key) => {
+      const i = citeStash.length;
+      citeStash.push({ visible, key });
+      return ` CITESTASH${i} `;
+    },
+  );
+  const linkStash = [];
+  src = src.replace(
+    /\[([^\]]+?)\]\(([^)\n]+)\)/g,
+    (_m, visible, href) => {
+      const i = linkStash.length;
+      linkStash.push({ visible, href });
+      return ` LINKSTASH${i} `;
+    },
+  );
   // Standard markdown
   let out = src
     .replace(/^### (.+)$/gm, "<h3>$1</h3>")
@@ -2280,20 +2300,35 @@ function renderMarkdownFull(src) {
     .replace(/\*\*([^*\n]+?)\*\*/g, "<strong>$1</strong>")
     .replace(/\*(?!\s)([^*\n]+?)(?<!\s)\*/g, "<em>$1</em>")
     .replace(/`([^`]+?)`/g, "<code>$1</code>")
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_m, visible, href) => {
-      if (/^cite:\/\//.test(href)) {
-        return `<a href="${href}" class="cite-link">${visible}</a>`;
-      }
-      return `<a href="${href}" target="_blank" rel="noopener">${visible}</a>`;
-    })
     // paragraph splits
     .replace(/\n\n+/g, "</p><p>");
   out = "<p>" + out + "</p>";
-  // restore code blocks
+  // Glossary tagging — parity with the thinker-prose md() path. Done
+  // after italics so we do not double-wrap inside <em>; before re-inflating
+  // the citation/link placeholders so we do not tag inside href text.
+  if (state.glossaryRegex) {
+    out = out.replace(state.glossaryRegex, (m) => `<span class="term" data-term="${escape(m)}">${m}</span>`);
+  }
+  // Re-inflate citation + link placeholders.
+  out = out.replace(/ CITESTASH(\d+) /g, (_m, i) => {
+    const c = citeStash[+i];
+    return `<a href="cite://${c.key}" class="cite-link">${c.visible}</a>`;
+  });
+  out = out.replace(/ LINKSTASH(\d+) /g, (_m, i) => {
+    const l = linkStash[+i];
+    return `<a href="${l.href}" target="_blank" rel="noopener">${l.visible}</a>`;
+  });
+  // restore code blocks and sanskrit-aside blocks
   out = out.replace(/ BLOCK(\d+) /g, (_, i) => blocks[+i]);
-  // Don't wrap headings/blockquotes/tables in <p>
-  out = out.replace(/<p>(\s*)(<h[123]|<blockquote|<table|<pre|<ul|<ol)/g, "$1$2");
-  out = out.replace(/(<\/h[123]>|<\/blockquote>|<\/table>|<\/pre>|<\/ul>|<\/ol>)(\s*)<\/p>/g, "$1$2");
+  out = out.replace(/ SKASIDE(\d+) /g, (_, i) => {
+    const a = asides[+i];
+    // Recursively render each pane so inline markdown / cite links / glossary
+    // tagging work inside the panes.
+    return `<div class="sk-aside"><div class="sk-aside-pane sk-aside-sanskrit"><div class="sk-aside-label">Sanskrit</div>${renderMarkdownFull(a.sk)}</div><div class="sk-aside-pane sk-aside-english"><div class="sk-aside-label">English</div>${renderMarkdownFull(a.en)}</div></div>`;
+  });
+  // Don't wrap headings / blockquotes / tables / asides in <p>.
+  out = out.replace(/<p>(\s*)(<h[123]|<blockquote|<table|<pre|<ul|<ol|<div class="sk-aside)/g, "$1$2");
+  out = out.replace(/(<\/h[123]>|<\/blockquote>|<\/table>|<\/pre>|<\/ul>|<\/ol>|<\/div>)(\s*)<\/p>/g, "$1$2");
   return out;
 }
 

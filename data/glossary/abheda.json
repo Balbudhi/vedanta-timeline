@@ -4,7 +4,7 @@
   "term_devanagari": "अभेद",
   "literal": "non-difference, non-separateness",
   "aliases": ["abheda", "Abheda", "abhedaḥ", "abhedasya", "abhede"],
-  "invariant_definition": "*Abheda* is non-difference in a technical, not merely lexical, sense. It asks in what respect two items fail to be really distinct: by numerical identity, inseparable dependence, shared substrate, or some other relation. For that reason the term is inseparable from debates about *bheda*, causality, part-whole relation, and the exegesis of identity-statements such as *tat tvam asi*. It also governs how cause and effect may be said to belong together without collapsing into bare sameness. No school treats *abheda* as vague oneness. Advaita takes it as strict non-duality at the highest level. Viśiṣṭādvaita reads non-difference through *aprthak-siddhi*: the mode is not separable from the substantive, though not identical with it. Bhedābheda schools insist that non-difference and difference are both real, while Dvaita subjects *abheda* passages to reinterpretation through dependence, similarity, or intimacy. In practice the term governs how one reads scripture, how one understands the relation between God and soul, and whether liberation culminates in identity, communion, or ordered dependence.",
+  "invariant_definition": "*Abheda* is non-difference in a technical, not merely lexical, sense. It asks in what respect two items fail to be really distinct: by numerical identity, inseparable dependence, shared substrate, or some other relation. For that reason the term is inseparable from debates about *bheda*, causality, part-whole relation, and the exegesis of identity-statements such as *tat tvam asi*. It also governs how cause and effect may be said to belong together without collapsing into bare sameness. No school treats *abheda* as vague oneness. Advaita takes it as strict non-duality at the highest level. Viśiṣṭādvaita reads non-difference through *aprthak-siddhi*: the mode is not separable from the substantive, though not identical with it. Bhedābheda schools insist that non-difference and difference are both real, while Tattva-vāda (Dvaita) subjects *abheda* passages to reinterpretation through dependence, similarity, or intimacy. In practice the term governs how one reads scripture, how one understands the relation between God and soul, and whether liberation culminates in identity, communion, or ordered dependence.",
   "per_school": [
     {
       "school": "Advaita",
@@ -17,8 +17,8 @@
       "primary_loci": ["Vedārtha-Saṅgraha §§76–88", "Śrī-Bhāṣya 2.1.15 [NOT YET RETRIEVED]", "Śrī-Bhāṣya 2.3.42–45"]
     },
     {
-      "school": "Dvaita",
-      "definition": "Dvaita denies real *abheda* between Viṣṇu and the soul, and between one soul and another. Identity-statements in scripture are accordingly read through dependence, proximity, similarity, or figurative usage, never through collapse of ontological distinction. This is part of Madhva's broader realist hierarchical pluralism: closeness to God, participation in his order, and dependence on him are real without erasing difference.",
+      "school": "Tattva-vāda",
+      "definition": "Tattva-vāda denies real *abheda* between Viṣṇu and the soul, and between one soul and another. Identity-statements in scripture are accordingly read through dependence, proximity, similarity, or figurative usage, never through collapse of ontological distinction. This is part of Madhva's broader realist hierarchical pluralism: closeness to God, participation in his order, and dependence on him are real without erasing difference.",
       "primary_loci": ["Viṣṇu-Tattva-Vinirṇaya §§30–40", "Tattva-Saṅkhyāna 1–8"]
     },
     {

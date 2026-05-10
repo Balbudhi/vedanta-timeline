@@ -4,7 +4,7 @@
   "term_devanagari": "भेद",
   "literal": "difference, distinction, division; from √bhid 'to split'",
   "aliases": ["bheda", "Bheda", "bhedaḥ", "bhedasya", "bhede", "bhedān"],
-  "invariant_definition": "*Bheda* is real difference or distinction, not just conceptual contrast. The term asks whether the world is finally articulated by irreducible distinctions between knower, known, means of knowledge, cause, effect, God, soul, and matter. It therefore stands at the center of Vedāntic metaphysics and scriptural interpretation. It also underwrites the grammar of devotion and inference, since worship, predication, and valid cognition all presuppose some standing distinction among their terms. Advaita treats *bheda* as empirically operative but ultimately sublatable under non-dual knowledge. Viśiṣṭādvaita affirms real distinctions within an organic whole ordered by Brahman. Dvaita radicalizes the point into *pañca-bheda*, five eternal distinctions, thereby defending a realist hierarchical pluralism rather than a crude two-substance dualism. Bhedābheda schools deny that difference can be eliminated, but refuse to let it exhaust reality. In practice *bheda* governs worship, ethics, agency, and causality: if real distinctions are only apparent, those domains must be re-described; if they are ultimate, they define the permanent structure of things.",
+  "invariant_definition": "*Bheda* is real difference or distinction, not just conceptual contrast. The term asks whether the world is finally articulated by irreducible distinctions between knower, known, means of knowledge, cause, effect, God, soul, and matter. It therefore stands at the center of Vedāntic metaphysics and scriptural interpretation. It also underwrites the grammar of devotion and inference, since worship, predication, and valid cognition all presuppose some standing distinction among their terms. Advaita treats *bheda* as empirically operative but ultimately sublatable under non-dual knowledge. Viśiṣṭādvaita affirms real distinctions within an organic whole ordered by Brahman. Tattva-vāda (the school often labeled Dvaita) radicalizes the point into *pañca-bheda*, five eternal distinctions, thereby defending a realist hierarchical pluralism rather than a crude two-substance dualism. Bhedābheda schools deny that difference can be eliminated, but refuse to let it exhaust reality. In practice *bheda* governs worship, ethics, agency, and causality: if real distinctions are only apparent, those domains must be re-described; if they are ultimate, they define the permanent structure of things.",
   "per_school": [
     {
       "school": "Advaita",
@@ -17,8 +17,8 @@
       "primary_loci": ["Śrī-Bhāṣya 2.1.15 [NOT YET RETRIEVED]", "Vedārtha-Saṅgraha §§76–88"]
     },
     {
-      "school": "Dvaita",
-      "definition": "*Bheda* is foundational. Madhva's *pañca-bheda* names five eternal distinctions: God-soul, God-matter, soul-soul, soul-matter, and matter-matter. These are not provisional pedagogic devices but intrinsic structures of reality, and they ground Dvaita's hierarchy of beings, devotion to Viṣṇu, and realist account of knowledge. The school is therefore better described as hierarchical pluralism than as a simplistic dualism of two disconnected realms.",
+      "school": "Tattva-vāda",
+      "definition": "*Bheda* is foundational. Madhva's *pañca-bheda* names five eternal distinctions: God-soul, God-matter, soul-soul, soul-matter, and matter-matter. These are not provisional pedagogic devices but intrinsic structures of reality, and they ground Tattva-vāda's hierarchy of beings, devotion to Viṣṇu, and realist account of knowledge. The school is therefore better described as hierarchical pluralism than as a simplistic dualism of two disconnected realms.",
       "primary_loci": ["Tattva-Saṅkhyāna 1–8", "Viṣṇu-Tattva-Vinirṇaya §§40–50"]
     },
     {
@@ -28,7 +28,7 @@
     }
   ],
   "see_also": ["abheda", "bhedabheda", "jiva", "brahman", "advaita", "dvaita"],
-  "translator_note": "The lazy gloss is simply 'difference.' That can work, but only if one hears 'real distinction' rather than a weak conceptual contrast. Another common mistake is to turn Dvaita's use of *bheda* into 'dualism' in a Cartesian sense. Madhva's view is not a flat two-term split but a graded realist plurality with permanent distinctions across many orders of being.",
+  "translator_note": "The lazy gloss is simply 'difference.' That can work, but only if one hears 'real distinction' rather than a weak conceptual contrast. Another common mistake is to turn Tattva-vāda's use of *bheda* into 'dualism' in a Cartesian sense. Madhva's view is not a flat two-term split but a graded realist plurality with permanent distinctions across many orders of being.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"
 }

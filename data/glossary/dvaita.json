@@ -4,11 +4,11 @@
   "term_devanagari": "द्वैत",
   "literal": "duality, two-ness; from dvi- 'two'",
   "aliases": ["dvaita", "Dvaita", "dvaitam", "tattva-vada", "tattvavāda"],
-  "invariant_definition": "As a school-name, *Dvaita* names Madhva's *Tattvavāda*, not a generic doctrine of two substances. Its native grammar is wider than the English word 'dualism' suggests. The school begins from the asymmetry between the one *svatantra* reality, Viṣṇu, and the plurality of *paratantra* realities, then articulates that plurality through *pañca-bheda*, *taratamya*, and intrinsic *svarūpa-bheda* among *jīvas*. The point is not merely that God and soul differ, but that all the major relations presupposed in scriptural language, action, devotion, bondage, and liberation are real and irreducible. Knowledge does not culminate in the cancellation of these relations, but in their correct apprehension under Viṣṇu's sovereignty. In practice this means that worshipper and Lord, agent and fruit, liberated soul and supreme deity remain distinct without becoming independent. Dvaita is therefore best understood as a hierarchical realist pluralism ordered by dependence, not as a flat binary metaphysics or a mind-body dualism.",
+  "invariant_definition": "As a school-name, *Tattva-vāda (the school often labeled Dvaita)* names Madhva's school, not a generic doctrine of two substances. Its native grammar is wider than the English word 'dualism' suggests. The school begins from the asymmetry between the one *svatantra* reality, Viṣṇu, and the plurality of *paratantra* realities, then articulates that plurality through *pañca-bheda*, *taratamya*, and intrinsic *svarūpa-bheda* among *jīvas*. The point is not merely that God and soul differ, but that all the major relations presupposed in scriptural language, action, devotion, bondage, and liberation are real and irreducible. Knowledge does not culminate in the cancellation of these relations, but in their correct apprehension under Viṣṇu's sovereignty. In practice this means that worshipper and Lord, agent and fruit, liberated soul and supreme deity remain distinct without becoming independent. Tattva-vāda is therefore best understood as a hierarchical realist pluralism ordered by dependence, not as a flat binary metaphysics or a mind-body dualism.",
   "per_school": [
     {
-      "school": "Dvaita (Madhva)",
-      "definition": "*Dvaita* is Madhva's *Tattvavāda*: a realism in which Viṣṇu alone is independent and all else is dependent, really existent, and mutually distinct. The doctrine is completed by *pañca-bheda* and *taratamya*: difference is not accidental to experience but constitutive of reality, and dependence itself is internally graded. Liberation gives *aparokṣa-jñāna* of Viṣṇu and eternal service, not identity with him. The school thus treats scriptural difference-statements as literal disclosures of ontology rather than provisional teaching devices.",
+      "school": "Tattva-vāda (Madhva)",
+      "definition": "*Tattva-vāda* is Madhva's school: a realism in which Viṣṇu alone is independent and all else is dependent, really existent, and mutually distinct. The doctrine is completed by *pañca-bheda* and *taratamya*: difference is not accidental to experience but constitutive of reality, and dependence itself is internally graded. Liberation gives *aparokṣa-jñāna* of Viṣṇu and eternal service, not identity with him. The school thus treats scriptural difference-statements as literal disclosures of ontology rather than provisional teaching devices.",
       "primary_loci": ["Tattva-Saṅkhyāna 1-8", "Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1-2", "Viṣṇu-Tattva-Vinirṇaya 1-12"]
     },
     {
@@ -23,7 +23,7 @@
     }
   ],
   "see_also": ["advaita", "bhedabheda", "tattvavada", "panca-bheda", "svatantra", "paratantra", "taratamya"],
-  "translator_note": "Rendering *Dvaita* as 'dualism' is usually too crude. It imports Cartesian and other binary frameworks in which the issue is two opposed kinds of substance. Madhva's term instead names a dependence-structured plural realism with one independent reality and many dependent ones. In most contexts it is better to retain *Dvaita* or *Tattvavāda* and gloss the underlying metaphysics explicitly.",
+  "translator_note": "Rendering *Tattva-vāda* as 'dualism' is usually too crude. It imports Cartesian and other binary frameworks in which the issue is two opposed kinds of substance. Madhva's term instead names a dependence-structured plural realism with one independent reality and many dependent ones. In most contexts it is better to retain *Tattva-vāda* and gloss the underlying metaphysics explicitly.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"
 }

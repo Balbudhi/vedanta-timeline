@@ -6,7 +6,7 @@
   "aliases": ["sravana", "śravaṇa", "Śravaṇa", "śravaṇaṃ", "shravana"],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
-  "invariant_definition": "*Śravaṇa* is the disciplined hearing of scripture as *śabda-pramāṇa*, not mere acoustic reception. Its canonical Vedāntic locus is the Bṛhadāraṇyaka command that the self is to be heard, reflected on, and meditated upon. In practice this means hearing *vedānta-vākya* from a competent teacher inside a hermeneutic lineage, so that the sentence-force, intended purport, and doctrinal context are properly grasped. The Mīmāṃsā background matters here: *śravaṇa* assumes that language can disclose what is not available to perception and inference, but it also assumes that disclosure requires disciplined interpretation rather than literalist passivity. Different schools therefore assign different weight to the act. Advaita treats *śravaṇa* as the proximate occasion for liberating cognition; Viśiṣṭādvaita and Dvaita embed it within a longer process of *upāsanā* or *bhakti*; Gauḍīya theology extends it into the devotional hearing of Bhagavān's names, qualities, and acts.",
+  "invariant_definition": "*Śravaṇa* is the disciplined hearing of scripture as *śabda-pramāṇa*, not mere acoustic reception. Its canonical Vedāntic locus is the Bṛhadāraṇyaka command that the self is to be heard, reflected on, and meditated upon. In practice this means hearing *vedānta-vākya* from a competent teacher inside a hermeneutic lineage, so that the sentence-force, intended purport, and doctrinal context are properly grasped. The Mīmāṃsā background matters here: *śravaṇa* assumes that language can disclose what is not available to perception and inference, but it also assumes that disclosure requires disciplined interpretation rather than literalist passivity. Different schools therefore assign different weight to the act. Advaita treats *śravaṇa* as the proximate occasion for liberating cognition; Viśiṣṭādvaita and Tattva-vāda (the school often labeled Dvaita) embed it within a longer process of *upāsanā* or *bhakti*; Gauḍīya theology extends it into the devotional hearing of Bhagavān's names, qualities, and acts.",
   "per_school": [
     {
       "school": "Advaita",
@@ -19,7 +19,7 @@
       "primary_loci": ["Bṛhadāraṇyaka-Upaniṣad 2.4.5", "Śrī-Bhāṣya 4.1.1-2", "Vedārtha-Saṅgraha §§137-144"]
     },
     {
-      "school": "Dvaita",
+      "school": "Tattva-vāda",
       "definition": "*Śravaṇa* is hearing the differentiating content of scripture: the supremacy of Viṣṇu, the reality of the world, the plurality of souls, and the hierarchy among them. The teacher's role is not to sublate difference but to establish correct *tattva-jñāna* that can mature into *bhakti*. Hearing is therefore inseparable from doctrinal discrimination and polemic against monistic misreading.",
       "primary_loci": ["Bṛhadāraṇyaka-Upaniṣad 2.4.5", "Brahma-Sūtra-Bhāṣya (Madhva) 4.1.1-2", "Anu-Vyākhyāna 1.1"]
     },
