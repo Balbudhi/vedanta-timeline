@@ -25,9 +25,9 @@
       "description": "Manuscript colophons across the Sarva-Mūla corpus."
     }
   ],
-  "school": "Dvaita",
+  "school": "Tattva-vāda",
   "school_color_token": "dvaita",
-  "sub_school": "Tattvavāda",
+  "sub_school": "Tattva-vāda",
   "sub_school_shade": 3,
   "lineage_in": [
     "badarayana"
@@ -47,7 +47,7 @@
     {
       "thinker_id": "madhusudana",
       "direction": "is-refuted-by",
-      "note": "The Tattvavāda position is the principal target of Madhusūdana's Advaita-Siddhi (via Vyāsatīrtha)."
+      "note": "The Tattva-vāda (the school often labeled Dvaita) position is the principal target of Madhusūdana's Advaita-Siddhi (via Vyāsatīrtha)."
     },
     {
       "thinker_id": "sankara",
@@ -82,7 +82,7 @@
     {
       "thinker_id": "candrakirti",
       "direction": "refutes",
-      "note": "Madhva's anti-Mādhyamaka polemic targets the Prāsaṅgika position as the limit-case: a position that refuses every conventional ontology cannot ground bheda, sākṣi-pratyakṣa, or the svatantra-paratantra hierarchy that Tattvavāda makes constitutive of reality."
+      "note": "Madhva's anti-Mādhyamaka polemic targets the Prāsaṅgika position as the limit-case: a position that refuses every conventional ontology cannot ground bheda, sākṣi-pratyakṣa, or the svatantra-paratantra hierarchy that Tattva-vāda makes constitutive of reality."
     },
     {
       "thinker_id": "dignaga",
@@ -92,7 +92,7 @@
     {
       "thinker_id": "vasubandhu-abhidharma",
       "direction": "refutes",
-      "note": "Madhva's Brahma-Sūtra-Bhāṣya and Anu-Vyākhyāna 2.2.18–20 extend the Vedāntic refutation of Sarvāstivāda in a realist direction: the Vaibhāṣika atomism and momentariness fail because dependent reality requires both eternal independent (svatantra) Brahman and eternally distinct dependent (paratantra) substances, neither of which the Sarvāstivāda momentary-dharma ontology can deliver. The position whose principal exposition is Vasubandhu's Kośa-Bhāṣya is therefore refuted not only on epistemological grounds (the pratyabhijñā argument) but on the grounds that it cannot ground the asymmetric paratantra-svatantra structure Tattvavāda requires."
+      "note": "Madhva's Brahma-Sūtra-Bhāṣya and Anu-Vyākhyāna 2.2.18–20 extend the Vedāntic refutation of Sarvāstivāda in a realist direction: the Vaibhāṣika atomism and momentariness fail because dependent reality requires both eternal independent (svatantra) Brahman and eternally distinct dependent (paratantra) substances, neither of which the Sarvāstivāda momentary-dharma ontology can deliver. The position whose principal exposition is Vasubandhu's Kośa-Bhāṣya is therefore refuted not only on epistemological grounds (the pratyabhijñā argument) but on the grounds that it cannot ground the asymmetric paratantra-svatantra structure Tattva-vāda requires."
     }
   ],
   "core_thesis": "Madhva organises Vedānta around one grammatical asymmetry. At [*Brahma-Sūtra-Bhāṣya* 1.1.2](cite://madhva/brahma-sutra-bhasya/1.1.2), he reads the sūtra *janmādyasya yataḥ* as fixing Viṣṇu's status as *svatantra* (independent-of-being, owing his being to nothing else) and everything else as *paratantra*, owing its being, knowing, and acting to him. The two terms are taken at face value. *Svatantra-bhāva* is not a Cartesian-substance claim about non-interaction; it is a claim about ontological asymmetry of dependence, expressed in the *bhāṣya* through the grammar of the genitive and the ablative. Whatever depends does not generate; whatever generates does not depend.\n\nThe second pillar is *pañca-bheda*: five differences (between *Brahman* and *jīva*, *Brahman* and *jaḍa* (insentient matter), *jīva* and *jīva*, *jīva* and *jaḍa*, and *jaḍa* and *jaḍa*) that are real, permanent, and undissolved in *mokṣa*. Madhva's argument is that no construal of any one of the five as merely conventional (*vyāvahārika*) is consistent with the asymmetric-dependence sūtras of [*Brahma-Sūtra* 2.3](cite://badarayana/brahma-sutra/2.3) read in their natural order. The five are not premises; they are what the *Sūtra*-text, taken word by word, requires.\n\nThe distinctive technical device is *viśeṣa*: a self-distinguishing relational element that allows real intra-substantial differentiation without positing further entities to do the differentiating. Madhva introduces *viśeṣa* in the *Anuvyākhyāna* and the *Tattva-Saṅkhyāna* to answer a precise objection: that to distinguish *guṇa* from *guṇin* one must either multiply substances or collapse them. *Viśeṣa* refuses both horns. It is the school's most original logical instrument and is what blocks the regress against which *bheda* would otherwise have to defend itself.\n\n*Jīvas* form a hierarchy of three classes: *mukti-yogya* (fit for release), *nitya-saṃsārī* (eternally transmigrating), *tamo-yogya* (fit for darkness). The classification is metaphysical, not pedagogical. Liberation is *aparokṣa-jñāna* (direct knowledge) of Viṣṇu, mediated by *bhakti* and never collapsing into identity. Madhva's frequent claim that \"you are not Viṣṇu\" (e.g. *Tattva-Saṅkhyāna*, *Mithyātvānumāna-Khaṇḍana*) is the denial of an identity-thesis under its specific Advaitin formulations, not a generic anti-monist slogan; what the denial accomplishes within Madhva's own dialectic should not be assimilated to what some later Advaitin denial of *ahaṅkāra*-identity accomplishes within its.",

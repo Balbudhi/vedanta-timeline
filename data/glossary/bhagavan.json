@@ -13,7 +13,7 @@
   ],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
-  "invariant_definition": "A loaded theological title, not a generic word for a god. Classical Vaiṣṇava usage, drawing especially on *Viṣṇu-Purāṇa* 6.5.74, treats *Bhagavān* as the possessor of plenary sovereignty, power, glory, beauty, knowledge, and detachment. The term therefore marks personal plenitude rather than mere rulership: *Bhagavān* is the supreme in a mode accessible to devotion, relation, and praise, yet without ceasing to be metaphysically ultimate. Different schools map it differently onto *brahman* and *Īśvara*. Advaita commonly treats *Bhagavān* as the personal Lord in the *saguṇa* register; Viśiṣṭādvaita and Dvaita treat it as a genuine name of the highest Lord; Gauḍīya Vaiṣṇavism makes the distinction among *brahman*, *Paramātman*, and *Bhagavān* structurally central and uses it to argue for Kṛṣṇa as *svayaṃ-bhagavān*. In all of these uses, the term should be read against theological debates about whether the personal absolute is ultimate or derivative.",
+  "invariant_definition": "A loaded theological title, not a generic word for a god. Classical Vaiṣṇava usage, drawing especially on *Viṣṇu-Purāṇa* 6.5.74, treats *Bhagavān* as the possessor of plenary sovereignty, power, glory, beauty, knowledge, and detachment. The term therefore marks personal plenitude rather than mere rulership: *Bhagavān* is the supreme in a mode accessible to devotion, relation, and praise, yet without ceasing to be metaphysically ultimate. Different schools map it differently onto *brahman* and *Īśvara*. Advaita commonly treats *Bhagavān* as the personal Lord in the *saguṇa* register; Viśiṣṭādvaita and Tattva-vāda (Dvaita) treat it as a genuine name of the highest Lord; Gauḍīya Vaiṣṇavism makes the distinction among *brahman*, *Paramātman*, and *Bhagavān* structurally central and uses it to argue for Kṛṣṇa as *svayaṃ-bhagavān*. In all of these uses, the term should be read against theological debates about whether the personal absolute is ultimate or derivative.",
   "per_school": [
     {
       "school": "Advaita Vedānta",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "school": "Dvaita Vedānta",
-      "definition": "*Bhagavān* is Viṣṇu, the uniquely independent Lord whose real qualities exceed all finite beings. The title marks ontological supremacy, not simply devotional esteem. Because Dvaita's pluralistic realism preserves real difference among God, souls, and matter, calling Viṣṇu Bhagavān is simultaneously a theological and a metaphysical claim about hierarchy and dependence.",
+      "school": "Tattva-vāda",
+      "definition": "*Bhagavān* is Viṣṇu, the uniquely independent Lord whose real qualities exceed all finite beings. The title marks ontological supremacy, not simply devotional esteem. Because Tattva-vāda's pluralistic realism preserves real difference among God, souls, and matter, calling Viṣṇu Bhagavān is simultaneously a theological and a metaphysical claim about hierarchy and dependence.",
       "primary_loci": [
         "Tattva-Saṅkhyāna 1-4",
         "Viṣṇu-Tattva-Vinirṇaya 1-10"

@@ -6,7 +6,7 @@
   "aliases": ["pratyaksa", "pratyakṣa", "Pratyakṣa", "pratyakṣaṃ", "pratyakṣasya", "pratyakshe"],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
-  "invariant_definition": "*Pratyakṣa* is direct cognition, paradigmatically perception, but the term is broader than bare sensation. It names the cognition that arises in immediate presentation rather than through a sign-relation, and its analysis depends on each school's account of contact, conceptuality, and self-awareness. Nyāya makes *indriyārtha-sannikarṣa* central; Advaita redescribes perception through *antaḥkaraṇa-vṛtti*, *vṛtti-vyāpti*, and *phala-vyāpti*; Dvaita sharply distinguishes sense-perception from *sākṣi-pratyakṣa*; Buddhist epistemologists restrict genuine perception to the non-conceptual grasp of the particular. The term therefore sits at the junction of ontology and cognitive theory: what counts as directly present depends on what kind of real there is to be present. In Vedānta *pratyakṣa* is indispensable for ordinary life and argument, but it does not by itself disclose *brahman*; even when realization is called immediate, the schools do not mean that liberated knowledge is just another sensory episode.",
+  "invariant_definition": "*Pratyakṣa* is direct cognition, paradigmatically perception, but the term is broader than bare sensation. It names the cognition that arises in immediate presentation rather than through a sign-relation, and its analysis depends on each school's account of contact, conceptuality, and self-awareness. Nyāya makes *indriyārtha-sannikarṣa* central; Advaita redescribes perception through *antaḥkaraṇa-vṛtti*, *vṛtti-vyāpti*, and *phala-vyāpti*; Tattva-vāda (Dvaita) sharply distinguishes sense-perception from *sākṣi-pratyakṣa*; Buddhist epistemologists restrict genuine perception to the non-conceptual grasp of the particular. The term therefore sits at the junction of ontology and cognitive theory: what counts as directly present depends on what kind of real there is to be present. In Vedānta *pratyakṣa* is indispensable for ordinary life and argument, but it does not by itself disclose *brahman*; even when realization is called immediate, the schools do not mean that liberated knowledge is just another sensory episode.",
   "per_school": [
     {
       "school": "Nyāya",
@@ -24,8 +24,8 @@
       "primary_loci": ["Rāmānuja, Śrī-Bhāṣya 1.1.1", "Vedārtha-Saṅgraha §§58-67 [NOT YET RETRIEVED]", "Yatīndra-Mata-Dīpikā 1"]
     },
     {
-      "school": "Dvaita",
-      "definition": "Dvaita divides *pratyakṣa* into *indriya-pratyakṣa* and *sākṣi-pratyakṣa*. The former gives the external world; the latter is the soul's immediate awareness of pleasure, pain, effort, temporal succession, and its own existence. This move is structurally important because it secures immediate self-awareness without collapsing the *jīva* into an all-pervading witness-consciousness.",
+      "school": "Tattva-vāda",
+      "definition": "Tattva-vāda divides *pratyakṣa* into *indriya-pratyakṣa* and *sākṣi-pratyakṣa*. The former gives the external world; the latter is the soul's immediate awareness of pleasure, pain, effort, temporal succession, and its own existence. This move is structurally important because it secures immediate self-awareness without collapsing the *jīva* into an all-pervading witness-consciousness.",
       "primary_loci": ["Madhva, Pramāṇa-Lakṣaṇa", "Jayatīrtha, Pramāṇa-Paddhati, sākṣi-pratyakṣa-section", "Vyāsatīrtha, Tarka-Tāṇḍava, pratyakṣa-section [NOT YET RETRIEVED]"]
     },
     {

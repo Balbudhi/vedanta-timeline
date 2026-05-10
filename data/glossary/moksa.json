@@ -6,7 +6,7 @@
   "aliases": ["moksa", "mokṣa", "Mokṣa", "mokṣaḥ", "mokṣaṃ", "mokṣasya", "mukti", "muktiḥ", "apavarga"],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
-  "invariant_definition": "Release from bondage, but not a bare escape from existence. *Mokṣa* names the final state appropriate to what a school takes bondage to be: the nexus of *karma*, rebirth, embodiment, ignorance, misidentification, or estrangement from the Lord. It is therefore defined against adjacent terms such as *saṃsāra*, *bandha*, *apavarga*, and *kaivalya*. In the Mīmāṃsā background, the point is that no finite ritual act can simply manufacture *mokṣa* as a produced result; in the Vedāntic setting, the issue becomes what sort of cognition, devotion, surrender, or divine grace removes the condition that makes rebirth possible. The practical register is inseparable from the metaphysics: Advaita ties *mokṣa* to the removal of *avidyā* through *śravaṇa-manana-nididhyāsana*; Viśiṣṭādvaita and Dvaita tie it to God-directed knowledge and devotion; Gauḍīya Vaiṣṇavism treats even ordinary *mokṣa* as lower than *prema*. What remains invariant is this: *mokṣa* is the non-returning condition in which the structures that sustain saṃsāric agency, enjoyment, and compulsory embodiment no longer bind.",
+  "invariant_definition": "Release from bondage, but not a bare escape from existence. *Mokṣa* names the final state appropriate to what a school takes bondage to be: the nexus of *karma*, rebirth, embodiment, ignorance, misidentification, or estrangement from the Lord. It is therefore defined against adjacent terms such as *saṃsāra*, *bandha*, *apavarga*, and *kaivalya*. In the Mīmāṃsā background, the point is that no finite ritual act can simply manufacture *mokṣa* as a produced result; in the Vedāntic setting, the issue becomes what sort of cognition, devotion, surrender, or divine grace removes the condition that makes rebirth possible. The practical register is inseparable from the metaphysics: Advaita ties *mokṣa* to the removal of *avidyā* through *śravaṇa-manana-nididhyāsana*; Viśiṣṭādvaita and Tattva-vāda (Dvaita) tie it to God-directed knowledge and devotion; Gauḍīya Vaiṣṇavism treats even ordinary *mokṣa* as lower than *prema*. What remains invariant is this: *mokṣa* is the non-returning condition in which the structures that sustain saṃsāric agency, enjoyment, and compulsory embodiment no longer bind.",
   "per_school": [
     {
       "school": "Advaita",
@@ -19,7 +19,7 @@
       "primary_loci": ["Śrī-Bhāṣya 4.3.1-16", "Śrī-Bhāṣya 4.4.1-22", "Vedārtha-Saṅgraha §§137-144"]
     },
     {
-      "school": "Dvaita",
+      "school": "Tattva-vāda",
       "definition": "*Mokṣa* is the soul's eternal, conscious service to Viṣṇu after the shedding of the *karma* body. It presupposes correct knowledge of Viṣṇu's supremacy, but this knowledge itself matures only through *bhakti* and divine grace. Madhva's position is realist and hierarchical: liberated souls remain eternally distinct from Viṣṇu and from one another, and their bliss is graded by intrinsic *taratamya*. This is not crude dualism but a structured pluralism in which dependence on the one *svatantra* reality, Viṣṇu, is fully manifest in liberation.",
       "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 4.4.1-21", "Anu-Vyākhyāna 4.4", "Mahābhārata-Tātparya-Nirṇaya 1.85-95"]
     },

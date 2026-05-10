@@ -4,7 +4,7 @@
   "term_devanagari": "बुद्धि",
   "literal": "the determining intellect; from √budh 'to wake, to know' (cognate with Buddha)",
   "aliases": ["buddhi", "Buddhi", "buddher", "buddheḥ", "buddhau", "buddhyā"],
-  "invariant_definition": "*Buddhi* is the determinative and discriminative function of the inner apparatus: the point at which a merely presented content becomes a judged or settled cognition. In Sāṃkhya it is the first evolute of *prakṛti* and is often identified with *mahat*, the great principle from which more articulated individuality emerges. In practical psychology it is the faculty of *adhyavasāya*, discrimination, resolve, and decision. That makes it central to epistemology and liberation alike. A cognition is not just sensed; it must be taken as this rather than that, true rather than false, to-be-pursued rather than to-be-avoided. Vedānta preserves this role and asks what exactly happens in *buddhi* when liberating knowledge arises. Advaita answers with *vṛtti* and *cidābhāsa*; Viśiṣṭādvaita and Dvaita treat it as the real instrument through which the self's knowledge functions. Nyāya-Vaiśeṣika uses *buddhi* differently again, as cognition considered as a quality rather than as an inner faculty. The term therefore sits at the junction of ontological psychology and formal epistemology.",
+  "invariant_definition": "*Buddhi* is the determinative and discriminative function of the inner apparatus: the point at which a merely presented content becomes a judged or settled cognition. In Sāṃkhya it is the first evolute of *prakṛti* and is often identified with *mahat*, the great principle from which more articulated individuality emerges. In practical psychology it is the faculty of *adhyavasāya*, discrimination, resolve, and decision. That makes it central to epistemology and liberation alike. A cognition is not just sensed; it must be taken as this rather than that, true rather than false, to-be-pursued rather than to-be-avoided. Vedānta preserves this role and asks what exactly happens in *buddhi* when liberating knowledge arises. Advaita answers with *vṛtti* and *cidābhāsa*; Viśiṣṭādvaita and Tattva-vāda (Dvaita) treat it as the real instrument through which the self's knowledge functions. Nyāya-Vaiśeṣika uses *buddhi* differently again, as cognition considered as a quality rather than as an inner faculty. The term therefore sits at the junction of ontological psychology and formal epistemology.",
   "per_school": [
     {
       "school": "Sāṃkhya / Yoga",
@@ -22,7 +22,7 @@
       "primary_loci": ["Śrī-Bhāṣya 2.3.42–53", "Yatīndra-Mata-Dīpikā 5", "Gītā-Bhāṣya (Rāmānuja) 18.30–32"]
     },
     {
-      "school": "Dvaita",
+      "school": "Tattva-vāda",
       "definition": "*Buddhi* is a real cognitive instrument distinct from the *jīva* but truly used by the *jīva*. Madhva's realism therefore blocks any reduction of cognition to appearance in a shared substrate. Right *buddhi* is knowledge aligned with Viṣṇu's supremacy and with the graded structure of reality; wrong *buddhi* is a real error of a real finite knower.",
       "primary_loci": ["Tattva-Saṅkhyāna 5–7", "Gītā-Tātparya 18 [NOT YET RETRIEVED]", "Anu-Vyākhyāna 1.1 [NOT YET RETRIEVED]"]
     },
