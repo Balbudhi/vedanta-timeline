@@ -83,7 +83,7 @@ Each comparison below states the structural parallel as precisely as one can, th
 
 ### (a) "The True is the Whole" and Bhartṛprapañca's *aupacārika abhinnatva*
 
-Bhartṛprapañca was a pre-Śaṅkara Vedāntin whose work survives only in fragments and in later refutations. The reconstruction by M. Hiriyanna ("Bhartṛprapañca, an Old Vedāntin", *JRAS* 1924) shows him holding that Brahman articulates itself as the *aṣṭa-rūpa prapañca* — the eight-fold world — without losing its unity. The relation between the Real and its articulations he called *aupacārika abhinnatva*: a non-difference that is figurative-functional, neither the bare identity of the later Advaita nor the radical difference (*bheda*) of Madhva.
+Bhartṛprapañca was a pre-Śaṅkara Vedāntin whose work survives only in fragments and in later refutations. The reconstruction by M. Hiriyanna ("Bhartṛprapañca, an Old Vedāntin," *Indian Antiquary* vol. 53, 1924) is the standard scholarly source; the article is on disk only as an image-only PDF whose OCR is unusable, so the reconstruction is engaged via the known reconstruction-thesis rather than verbatim. On that reconstruction, Bhartṛprapañca holds that Brahman articulates itself as the *aṣṭa-rūpa prapañca* — the eight-fold world — without losing its unity. The relation between the Real and its articulations is called *aupacārika abhinnatva*: a non-difference that is figurative-functional, neither the bare identity of the later Advaita nor the radical difference (*bheda*) of Madhva.
 
 Structurally the kinship with Hegel is exact. The Real is not a unity behind its articulations; it is the unity that *is* its articulations as it works itself out. The whole and its development are the same.
 
