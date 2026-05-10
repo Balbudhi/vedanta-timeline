@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Naiṣkarmya-Siddhi — Extended Translation
 **By:** Sureśvara  
 **Locus scope:** Book 2, verses 9–12: the methodological hinge from *anvaya-vyatireka* to the first deha-*anātman* discrimination  

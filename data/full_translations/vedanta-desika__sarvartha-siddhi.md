@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Sarvārtha-Siddhi — Extended Translation
 **By:** Vedānta Deśika  
 **Locus scope:** *Jaḍa-dravya-sara* 1.2 with *Sarvārtha-Siddhi* ad loc. (the first fully stable programmatic locus in the presently recoverable witnesses; 1.1 is excluded because its first hemistich remains corrupt in both the archive OCR and the modern web transcription)  

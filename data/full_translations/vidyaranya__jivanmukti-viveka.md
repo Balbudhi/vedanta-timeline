@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Jīvanmukti-Viveka — Extended Translation
 **By:** Vidyāraṇya  
 **Locus scope:** Caturtha-prakaraṇa, opening unit on the five *prayojanas* of *jīvanmukti* and the first of them, *jñāna-rakṣā* (Sanskrit text pp. 130–133 in the Adyar edition)  

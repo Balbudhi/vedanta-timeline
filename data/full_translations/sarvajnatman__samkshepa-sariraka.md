@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Saṃkṣepa-Śārīraka — Extended Translation
 **By:** Sarvajñātman  
 **Locus scope:** Composite doctrinal unit comprising Adhyāya I, verses 319 and 327, and Adhyāya III, verses 275–276 and 278; these are the work's existing load-bearing loci in the site data and together form the minimal architectonic set for Sarvajñātman's Brahman-locus thesis and his fourfold semantic analysis of the *mahāvākya*.  

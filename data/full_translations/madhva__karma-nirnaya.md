@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Karma-Nirṇaya — Extended Translation
 **By:** Madhva  
 **Locus scope:** Provisional closing citation-cluster of the printed *Karma-Nirṇaya* (approximately OCR pp. 257-258 of the off-disk tract witness); the local corpus does not contain an on-disk primary-text witness for this work.  

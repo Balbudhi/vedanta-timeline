@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Pañcadaśī — Extended Translation
 **By:** Vidyāraṇya  
 **Locus scope:** *Tattva-viveka-prakaraṇa* (chapter 1), the smallest coherent dispersed doctrinal arc containing all site-canonized Pañcadaśī passages: verses 15-17, 42-48, and 53-55.  

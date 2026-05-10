@@ -1,3 +1,8 @@
+---
+coverage: full
+coverage_evidence: 'locus-scope: \\bentire(?:\\s+(?:eleven|ten|eight|short)?-?verse)?\\s+(?:tract|hymn|work|compendium)\\b'
+---
+
 # Māyāvāda-Khaṇḍana — Extended Translation
 **By:** Madhva  
 **Locus scope:** The entire tract *Māyāvāda-Khaṇḍana* as preserved in the short-polemics collection; the work is itself a natural compact unit.  

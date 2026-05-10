@@ -1,3 +1,8 @@
+---
+coverage: full
+coverage_evidence: 'locus-scope: \\bentire(?:\\s+(?:eleven|ten|eight|short)?-?verse)?\\s+(?:tract|hymn|work|compendium)\\b'
+---
+
 # Catuḥ-Ślokī — Extended Translation
 **By:** Yāmunācārya  
 **Locus scope:** Entire hymn, verses 1-4 (YCs 1-4)  

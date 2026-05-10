@@ -1458,11 +1458,22 @@ ${passagesBlock}`;
 }
 
 // ---------- glossary popover -----------
+// IAST-aware word boundary. Native `\b` treats IAST diacritics
+// (ā, ī, ū, ṛ, ṝ, ḷ, ḹ, ṅ, ñ, ṭ, ḍ, ṇ, ś, ṣ, ṃ, ḥ) as word breaks, so
+// "karman" against the term "karma" matched as `karma|n`. We instead
+// require the preceding and following characters to be *not* a Latin
+// letter, IAST diacritic, or digit. This makes "karman" non-matching
+// for the term "karma" while keeping "karma," "karma." "(karma)"
+// "*karma*" and "karma-yoga" matchable.
+const IAST_LETTER_CLASS = "A-Za-z0-9āīūṛṝḷḹṅñṭḍṇśṣṃḥĀĪŪṚṜḶḸṄÑṬḌṆŚṢṂḤ";
 function buildGlossaryRegex() {
   if (state.glossary.size === 0) return;
   const keys = [...state.glossary.keys()].sort((a, b) => b.length - a.length);
   const escaped = keys.map((k) => k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
-  state.glossaryRegex = new RegExp(`\\b(${escaped.join("|")})\\b`, "g");
+  state.glossaryRegex = new RegExp(
+    `(?<![${IAST_LETTER_CLASS}])(${escaped.join("|")})(?![${IAST_LETTER_CLASS}])`,
+    "g",
+  );
 }
 
 function openGlossary(termKey, anchorEl) {

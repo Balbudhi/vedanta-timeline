@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Stotra-Ratna — Extended Translation
 **By:** Yāmunācārya  
 **Locus scope:** *Stotra-Ratna* verses 20-26, the natural *prapatti* arc from divine governance to direct surrender, confession, rescue, and non-abandonment.  

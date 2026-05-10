@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Bhāgavata-Tātparya-Nirṇaya — Extended Translation
 **By:** Madhva  
 **Locus scope:** *Prathama-skandha*, *prathamo'dhyāyaḥ*, recoverable opening citation-sequence: *Bhāg.* 1.1.2, 1.1.3, 1.1.4, 1.1.7, 1.1.8, 1.1.14, 1.1.18, together with Madhva's brief glosses. The local archive witness preserves the prefatory 1.1.1 *tātparya* block only in unstable OCR, so that opening block is not diplomatically extracted here.  

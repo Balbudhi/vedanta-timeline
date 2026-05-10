@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Vedānta-Pārijāta-Saurabha — Extended Translation
 **By:** Nimbārka  
 **Locus scope:** Recovery dossier for the *aṃśa*-cluster: BS 2.3.42-44 in the Bose/Wisdomlib segmentation of Nimbārka (equivalent to BS 2.3.43-45 in the standard absolute numbering), plus the explicit *śruti* and *smṛti* proof-texts cited there.  

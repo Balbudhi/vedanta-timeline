@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Vivekacūḍāmaṇi — Extended Translation
 **By:** Śaṅkara (school-ascribed)  
 **Locus scope:** Verses 18–34, the internally marked *sādhana-catuṣṭaya* unit culminating in the qualified approach to the guru  

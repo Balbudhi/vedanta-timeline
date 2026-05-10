@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Pāñcarātra-Rakṣā — Extended Translation
 **By:** Vedānta Deśika  
 **Locus scope:** *Prathamo'dhikāraḥ* — selected doctrinal hinge-passages from the *maṅgalācaraṇa* through the Vaikhānasa-Pāñcarātra *avirodha* settlement (printed pp. 1-24).  

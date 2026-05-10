@@ -1,3 +1,8 @@
+---
+coverage: full
+coverage_evidence: 'locus-scope: \\bentire(?:\\s+(?:eleven|ten|eight|short)?-?verse)?\\s+(?:tract|hymn|work|compendium)\\b'
+---
+
 # Daśa-Ślokī — Extended Translation
 **By:** Nimbārka  
 **Locus scope:** Entire ten-verse compendium (*Daśa-Ślokī* 1-10); this is the natural unit because the work itself is only ten verses, and the keyed passages for this work are distributed across the opening and middle verses in a way that presupposes the whole arc from ontology to *upāsanā* and *bhakti*.  

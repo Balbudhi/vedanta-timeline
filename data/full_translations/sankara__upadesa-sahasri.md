@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Upadeśa-Sāhasrī — Extended Translation
 **By:** Ādi Śaṅkara  
 **Locus scope:** Padya I, prakaraṇa 11 (vv. 14-16) and prakaraṇa 17 (vv. 4-9)  

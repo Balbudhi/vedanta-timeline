@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Māṇḍūkya-Kārikā — Extended Translation
 **By:** Gauḍapāda  
 **Locus scope:** Āgama-prakaraṇa 1.13-18; Vaitathya-prakaraṇa 2.1-6; Advaita-prakaraṇa 3.1-21  

@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Tattva-Muktā-Kalāpa — Extended Translation
 **By:** Vedānta Deśika  
 **Locus scope:** Opening prefatory cluster of the *Tattva-Muktā-Kalāpa*; source-constrained here to prefatory verse 1, since the broader opening unit survives on disk only as an image-only scan with corrupt OCR sidecars and cannot be established line-securely without fresh hand-OCR  

@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Pañcapādikā-Vivaraṇa — Extended Translation
 **By:** Prakāśātman  
 **Locus scope:** Composite doctrinal dossier from the extant opening *pañcapāda* commentary, comprising the four verified load-bearing discussions already keyed in the corpus: *jīvasya brahma-pratibimbatvāpādanam* (p. 65), *mahāvākyasyāparokṣa-prayojakatvam* (p. 103), the *samuccaya* discussion in *brahma-vicāre kim-ānantaryam atha-śabdāvagamyam* (pp. 164-165), and *brahmaṇo lakṣaṇopalakṣaṇe* (p. 212).  

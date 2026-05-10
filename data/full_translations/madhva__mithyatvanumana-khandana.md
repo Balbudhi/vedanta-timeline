@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Mithyātvānumāna-Khaṇḍana — Extended Translation
 **By:** Madhva  
 **Locus scope:** Entire short tract as transmitted on collected-edition p. 239, under the archive title *Prapañca-Mithyātvānumāna-Khaṇḍana*.  

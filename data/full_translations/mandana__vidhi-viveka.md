@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Vidhi-Viveka — Extended Translation
 **By:** Maṇḍana Miśra  
 **Locus scope:** No primary Sanskrit locus for *Vidhi-Viveka* is present in the local corpus. The natural first unit for translation, once the text is supplied, would be the opening discussion of *vidhi* and *bhāvanā*; no exact chapter or page range can be responsibly fixed from the materials now on disk.  

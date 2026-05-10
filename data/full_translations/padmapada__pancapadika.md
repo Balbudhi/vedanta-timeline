@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Pañcapādikā — Extended Translation
 **By:** Padmapāda  
 **Locus scope:** *Pañcapādikā* V.15–VI.16, the *mithyājñāna* / *avidyāśakti* argumentative unit within Padmapāda's opening exposition of Śaṅkara's *Adhyāsa-Bhāṣya*. Because no complete primary Sanskrit edition of the *Pañcapādikā* could be verified on disk in this run, the scope is confined to the smallest natural continuous unit for which the local project preserves continuous Sanskrit.  

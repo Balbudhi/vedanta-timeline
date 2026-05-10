@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Iṣṭa-Siddhi — Extended Translation
 **By:** Vimuktātman  
 **Locus scope:** Prathama-paricchedaḥ, keyed subsection-cluster: *Prapañcasyānirvacanīyatvam* (p. 35), *Anubandha-catuṣṭaya* (p. 38), *Jīvanmuktiḥ* (p. 77), *Jaḍe'py avidyāpādanam* (p. 212), and *Anirvacanīya-khyāti-vādopasaṃhāraḥ* (p. 229).  

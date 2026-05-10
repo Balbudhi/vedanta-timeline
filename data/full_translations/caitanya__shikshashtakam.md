@@ -1,3 +1,8 @@
+---
+coverage: full
+coverage_evidence: 'locus-scope: \\bentire(?:\\s+(?:eleven|ten|eight|short)?-?verse)?\\s+(?:tract|hymn|work|compendium)\\b'
+---
+
 # Śikṣāṣṭakam — Extended Translation
 **By:** Caitanya Mahāprabhu  
 **Locus scope:** Śikṣāṣṭakam 1-8 (the entire eight-verse hymn, treated as a single natural unit).  

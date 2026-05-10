@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Bṛhadāraṇyaka commentary fragments (reconstructed) — Extended Translation
 **By:** Bhartṛprapañca  
 **Locus scope:** Reconstruction dossier comprising the load-bearing Bṛhadāraṇyaka loci treated by Hiriyanna as doctrinal anchors: BṛU 1.4.7, 1.4.10, 1.4.15, 2.3.1, 2.3.6, 2.4.5.  
