@@ -157,7 +157,7 @@
       ],
       "genre": "gita-bhashya",
       "language": "sanskrit",
-      "source_status": "primary-text-not-in-corpus",
+      "source_status": "acceptable-on-disk",
       "summary": "Madhva's prose commentary on the *Bhagavad-Gītā*, paired with the separate *Gītā-Tātparya-Nirṇaya*. Where Śaṅkara had read the *Gītā* as a propaedeutic to *jñāna* whose identity-statements are taken in identity-mode, Madhva reads it as Kṛṣṇa speaking in Viṣṇu's voice about *svatantra-paratantra* dependence.\n\nThe interpretive choice is sharpest at the apparent identity-locutions. *Aham ātmā guḍākeśa sarva-bhūtāśaya-sthitaḥ* (*Gītā* 10.20) is glossed not as \"I am the self of all beings\" in an identity sense but as \"I am the self of all beings *as their inner controller and locus of dependence*\" — *bimba-pratibimba*, original and image. The grammar of the locative *sarva-bhūtāśaya-sthitaḥ* is taken to license dependence rather than identity. Similarly for *vāsudevaḥ sarvam iti* at *Gītā* 7.19: Vāsudeva is *all* in the sense that all depends on him, not in the sense that all is numerically identical with him.\n\n*Karma*, *jñāna*, and *bhakti* are read as ordered means with one terminus: *aparokṣa-jñāna* of Viṣṇu, mediated by *bhakti*. The relevant verses of *Gītā* 9 (*ananyāś cintayanto mām*) and *Gītā* 18 (*sarva-dharmān parityajya*) carry the burden. *Jñāna* alone does not suffice; *bhakti* is the engine.\n\nThe *bhāṣya* draws repeatedly on *Pañcarātra* and *Mahābhārata*-affiliated citations whose conventional acceptance was contested (the so-called *Madhva-quotations*). Appayya Dīkṣita's later *Madhva-Tantra-Mukha-Bhañjana* turned this into a polemical front, and Vijayīndra answered it. The doctrinal effect of the *bhāṣya* is to fix the school's reading of *Gītā* 7, 9, 10, 13, and 15, chapters Śaṅkara had read in identity-mode, as dependence-mode.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -282,7 +282,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
-      "source_status": "primary-text-not-in-corpus",
+      "source_status": "acceptable-on-disk",
       "summary": "Companion to the *Gītā-Bhāṣya*. Where the *bhāṣya* glosses verses, the *Tātparya-Nirṇaya* establishes what the *Gītā* as a whole purports. The genre is *tātparya-nirṇaya*: a determination of doctrinal point, made by selecting key verses across all eighteen chapters and showing that the alternative monist and *karma*-mīmāṃsaka constructions cannot account for the selection together.\n\nThe settled purport, on Madhva's reading, is fourfold. Kṛṣṇa is Viṣṇu/Nārāyaṇa, the *param-Brahman* of *śruti*. The *jīva* is *paratantra*, ontologically dependent by *bimba-pratibimba* (original-and-image). *Karma*, *jñāna*, and *bhakti* are ordered means whose terminus is *aparokṣa-jñāna* of Viṣṇu, mediated by *bhakti*. The *vibhūti*-chapter (10), the *viśva-rūpa* (11), and the *kṣetra-kṣetrajña-vibhāga* (13) are all read in *taratamya*-key — that is, as articulating a graded dependence-hierarchy among real beings, not as collapsing them into identity.\n\nThe *Tātparya* is the standard internal reference for fixing the school's reading of any disputed *Gītā* verse, and the text most cited when Mādhvas argue against Advaitic and Viśiṣṭādvaita readings. It belongs in genre and method with the *Bhāgavata-Tātparya-Nirṇaya* and the *Mahābhārata-Tātparya-Nirṇaya*.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -374,7 +374,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
-      "source_status": "primary-text-not-in-corpus",
+      "source_status": "acceptable-on-disk",
       "summary": "A short methodological text laying out the *nyāya* (the *yukti-paddhati*, or method of reasoned construction) by which the *Brahma-Sūtra-Bhāṣya* proceeds. The *bhāṣya* states conclusions in compressed form; the *Anuvyākhyāna* mounts the dialectic; the *Nyāya-Vivaraṇa* articulates the meta-method.\n\nFour topics are treated. First, how *adhikaraṇas* are parsed: the rules by which the five-fold *viṣaya–saṃśaya–pūrvapakṣa–siddhānta–saṅgati* structure is identified in a sequence of *sūtras*. Second, what counts as a *viṣaya-vākya* — the topic-statement that determines what an *adhikaraṇa* is about. Third, how *sūtras* function as *upakrama* (initial-frame) and *upasaṃhāra* (closing-frame) signals that fix the *tātparya* of intervening verses. Fourth, the conditions under which *śruti*, *yukti*, and *anubhava* converge as joint *pramāṇa*s, and what to do when they do not.\n\nMadhva gives particular attention to the difference-*sūtras* of [*Brahma-Sūtra* 2.3](cite://badarayana/brahma-sutra/2.3), on which his realist reading of the text most depends. The rule that *upakrama* and *upasaṃhāra* fix the purport of intervening passages is what underwrites his rejection of Śaṅkara's reading of 2.3.43 as identity-with-modification: the framing *sūtras* of the *adhikaraṇa* are dependence-statements, and the intervening verses must be read in their light.\n\nJayatīrtha's gloss makes the text operational for later scholastic use.",
       "key_passage_ids": [],
       "entry_status": "reviewed"

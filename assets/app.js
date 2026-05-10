@@ -1525,21 +1525,30 @@ function md(s) {
   out = out.replace(/\*\*([^*\n]+?)\*\*/g, "<strong>$1</strong>");
   out = out.replace(/\*(?!\s)([^*\n]+?)(?<!\s)\*/g, "<em>$1</em>");
   out = out.replace(/`([^`]+?)`/g, "<code>$1</code>");
-  // Citation links: [visible](cite://thinker/work/locus). The href is escaped
-  // (we already HTML-escaped earlier, so & became &amp; etc.), and we use a
-  // distinguishing class so the click handler can intercept.
+  // Citation links: [visible](cite://thinker/work/locus). Stash the rendered
+  // anchor in a placeholder so the glossary-regex pass below cannot tag tokens
+  // inside the href (which would break the markup).
+  const citeStash = [];
   out = out.replace(
-    /\[([^\]]+?)\]\(cite:\/\/([^)\s]+)\)/g,
-    (_m, visible, key) => `<a href="cite://${key}" class="cite-link">${visible}</a>`,
+    /\[([^\]]+?)\]\(cite:\/\/([^)\n]+)\)/g,
+    (_m, visible, key) => {
+      const i = citeStash.length;
+      citeStash.push({ visible, key });
+      return `CITE${i}`;
+    },
   );
   // glossary tagging — wrap matched terms in clickable spans (after italics so we don't double-wrap inside <em>)
   if (state.glossaryRegex) {
     out = out.replace(state.glossaryRegex, (m, _g, offset, full) => {
-      // Don't wrap if we're already inside a span (e.g., inside <em>...</em> the term will still render correctly without click)
-      // Actually we want clicks to work everywhere, so wrap unconditionally.
       return `<span class="term" data-term="${escape(m)}">${m}</span>`;
     });
   }
+  // Re-inflate citation links. The visible text was already HTML-escaped and
+  // had italics applied; the key is HTML-safe (no entities expected).
+  out = out.replace(/CITE(\d+)/g, (_m, i) => {
+    const c = citeStash[+i];
+    return `<a href="cite://${c.key}" class="cite-link">${c.visible}</a>`;
+  });
   return out;
 }
 
