@@ -3,37 +3,241 @@
   "term_iast": "bhakti",
   "term_devanagari": "भक्ति",
   "literal": "sharing, participation, attachment-to; from √bhaj 'to share, to partake of'",
-  "aliases": ["bhakti", "Bhakti", "bhaktiḥ", "bhaktyā", "bhakter", "bhakta", "bhaktaḥ", "bhaktas"],
+  "aliases": [
+    "bhakti",
+    "Bhakti",
+    "bhaktiḥ",
+    "bhaktyā",
+    "bhakter",
+    "bhakta",
+    "bhaktaḥ",
+    "bhaktas"
+  ],
   "invariant_definition": "*Bhakti* is participatory devotion to a real Lord. Because the root √*bhaj* means to share, partake, or belong-to, the term is wider than 'devotion' in the sense of private feeling. It includes cognition, affect, ritual address, remembrance, praise, service, and self-offering ordered toward Viṣṇu, Kṛṣṇa, Śiva, Devī, or another genuinely divine *iṣṭa-devatā* according to the school. *Bhakti* lives alongside terms such as *upāsanā*, *smaraṇa*, *kīrtana*, *arcana*, *dāsya*, *prema*, and sometimes *prapatti* or *rasa*. The main disputes concern what sort of state it is: preparatory discipline, continuous contemplative remembrance, the soul's abiding relational mode, or the highest end beyond liberation conceived as mere release. In practice it names things one does and undergoes, not just a sentiment one has. Because the deity is real for the traditions that foreground *bhakti*, the term should not be flattened into symbolism or reduced to emotional piety.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "Classical Advaita usually treats *bhakti* as a powerful aid to *citta-śuddhi* and *ekāgratā*, preparing the mind for liberating knowledge. It is therefore not denied, but subordinated to *jñāna* as the proximate cause of *mokṣa*. Later Advaitins, especially Madhusūdana Sarasvatī, deepen the category by treating devotion to Kṛṣṇa as a genuine *rasa* and by allowing a post-realization form of devotion that is no longer grounded in ignorance. Even then, the metaphysical framework remains non-dual.",
-      "primary_loci": ["Bhagavad-Gītā-Bhāṣya 12.2-12", "Bhagavad-Gītā-Bhāṣya 18.54-55", "Madhusūdana Sarasvatī, Bhakti-Rasāyana 1"]
+      "definition": "Within Advaita, *bhakti* can be glossed as *svasvarūpānusandhāna*, an inwardly sustained orientation to the Self, while its outward comportment is reverential service to the guru ordered toward liberating inquiry [[VC 31](cite://sankara/vivekacudamani/31); [VC 34](cite://sankara/vivekacudamani/34)]. Later Advaita, in Madhusūdana's hands, gives the category an explicitly theistic and affective precision: *bhakti* is the mind's *bhagavad-ākāratā*, a *savikalpaka-vṛtti* preceded by *dravī-bhāva*, and is not reducible to *brahma-vidyā* [[BR 1.1 ṭīkā](cite://madhusudana/bhakti-rasayana/1.ṭīkā.1)]. He further allows *bhakti-yoga* to be spoken of as a supreme *puruṣārtha* and as persisting even for the *jīvan-mukta* [[BR 1.1](cite://madhusudana/bhakti-rasayana/1.1); [BR 1.1 ṭīkā.20](cite://madhusudana/bhakti-rasayana/1.1 ṭīkā.20)].",
+      "primary_loci": [
+        "Vivekacūḍāmaṇi 31, 34",
+        "Bhakti-Rasāyana 1.1",
+        "Bhakti-Rasāyana 1.1 ṭīkā"
+      ],
+      "citations": [
+        {
+          "cite": "cite://sankara/vivekacudamani/31",
+          "locus_short": "VC 31"
+        },
+        {
+          "cite": "cite://sankara/vivekacudamani/34",
+          "locus_short": "VC 34"
+        },
+        {
+          "cite": "cite://madhusudana/bhakti-rasayana/1.ṭīkā.1",
+          "locus_short": "BR 1.1 ṭīkā"
+        },
+        {
+          "cite": "cite://madhusudana/bhakti-rasayana/1.1",
+          "locus_short": "BR 1.1"
+        },
+        {
+          "cite": "cite://madhusudana/bhakti-rasayana/1.1 ṭīkā.20",
+          "locus_short": "BR 1.1 ṭīkā.20"
+        }
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Bhakti-yoga* is sustained contemplative devotion culminating in direct God-orientation. Rāmānuja interprets it as continuous remembrance, *dhruvānusmṛti*, nourished by knowledge, discipline, and ritual life. Mature *bhakti* develops through stages often described as *para-bhakti*, *para-jñāna*, and *parama-bhakti*. It is not merely emotional reverence but the principal liberating discipline for one capable of maintaining it, with *prapatti* recognized for those unable to undertake the full path.",
-      "primary_loci": ["Vedārtha-Saṅgraha 121-130 [NOT YET RETRIEVED]", "Śrī-Bhāṣya 4.1.12 [NOT YET RETRIEVED]", "Bhagavad-Gītā-Bhāṣya (Rāmānuja) 12.2"]
+      "definition": "Viśiṣṭādvaita treats *bhakti* as *upāsanā* of the supreme Person, preceded by *jīva-paramātma-yāthātmyajñāna* and by the *itikartavyatā* of *varṇāśrama-dharma*, with attainment of the Lord as its fruit [[VS §3](cite://ramanuja/vedartha-samgraha/§3)]. The Vedāntic corpus is thus read as culminating not in bare cognition but in *tad-upāsanā* and in Brahman-experience preceded by the manifestation of the self's own nature [[VS §4](cite://ramanuja/vedartha-samgraha/§4)]. In Yāmuna's liturgical register, the same orientation contracts into *śaraṇāgati*: incapacity in *dharma*, self-knowledge, and devotion itself is confessed so that refuge at the Lord's feet becomes the operative form of dependence [[YStr 22-24](cite://yamuna/stotra-ratna/22-24)].",
+      "primary_loci": [
+        "Vedārtha-Saṅgraha §§3-4",
+        "Stotra-Ratna 22-24"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§3",
+          "locus_short": "VS §3"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§4",
+          "locus_short": "VS §4"
+        },
+        {
+          "cite": "cite://yamuna/stotra-ratna/22-24",
+          "locus_short": "YStr 22-24"
+        }
+      ]
     },
     {
       "school": "Tattva-vāda",
-      "definition": "*Bhakti* is inseparable from right knowledge of Viṣṇu's supremacy and from the soul's dependent status. It is not merely a means but the proper relational form of the *jīva* both in practice and in liberation. Devotion matures into *aparokṣa-jñāna*, yet even direct realization does not dissolve the distinction between devotee and Lord. Because souls are graded, the capacity for liberating devotion is also graded; *bhakti* is real relation under *tāratamya*, not a universal state identical in all persons.",
-      "primary_loci": ["Anu-Vyākhyāna 3.3", "Bhāgavata-Tātparya-Nirṇaya 1 [NOT YET RETRIEVED]", "Mahābhārata-Tātparya-Nirṇaya 1.110 [NOT YET RETRIEVED]"]
+      "definition": "Tattva-vāda makes *bhakti* inseparable from *vairāgya*, *upāsanā*, and Viṣṇu's gracious self-disclosure: firmness of devotion ripens into contemplative worship, and from that comes *aparokṣya* of Viṣṇu [[Anuvy. 3.3.1](cite://madhva/anuvyakhyana/3.3.1)]. Karma itself is to be undertaken only as preceded by *bhagavad-bhakti*, knowledge, and dispassion, so devotion is not a detachable ornament but part of the causal ordering of *sādhana* [[Karma-Nirṇaya p. 257a](cite://madhva/karma-nirnaya/p. 257a)]. Because Viṣṇu alone grants knowledge, liberation, and the bliss of the liberated, *bhakti* remains the *jīva*'s proper *paratantra* relation to the independent Lord rather than an episodic affect [[Anuvy. 1.1.13-15](cite://madhva/anuvyakhyana/1.1.13-15)].",
+      "primary_loci": [
+        "Anuvyākhyāna 3.3.1",
+        "Karma-Nirṇaya p. 257a",
+        "Anuvyākhyāna 1.1.13-15"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/anuvyakhyana/3.3.1",
+          "locus_short": "Anuvy. 3.3.1"
+        },
+        {
+          "cite": "cite://madhva/karma-nirnaya/p. 257a",
+          "locus_short": "Karma-Nirṇaya p. 257a"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/1.1.13-15",
+          "locus_short": "Anuvy. 1.1.13-15"
+        }
+      ]
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "*Bhakti* is the highest *puruṣārtha*, surpassing liberation conceived as mere cessation of bondage. Rūpa Gosvāmī defines *uttamā-bhakti* as devotion free from ulterior desire and coverings of *jñāna* and *karma*, then maps its development through *sādhana*, *bhāva*, and *prema*. Here the category is explicitly aesthetic as well as theological: devotion flowers in *rasa*, and the highest consummation is intimate loving participation in Kṛṣṇa's līlā rather than undifferentiated release.",
-      "primary_loci": ["Bhakti-Rasāmṛta-Sindhu 1.1.11", "Bhakti-Sandarbha 310-340", "Caitanya-Caritāmṛta, Madhya 19.167-178 [NOT YET RETRIEVED]"]
+      "definition": "Acintya-Bhedābheda defines *uttamā-bhakti* as *ānukūlyena kṛṣṇānuśīlana* free from alien desire and from the coverings of *jñāna* and *karma*; its admissibility-conditions are therefore both negative and positive [[BRS 1.1.11](cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.11); [BRS 1.1.12](cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.12)]. The school's developmental grammar then runs through *sādhana*, *bhāva*, and *prema*, with *bhakti-yoga* itself named the ultimate condition [[BRS 1.1.9](cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.9); [BRS 1.1.15](cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.15)]. In Caitanya's devotional idiom, its purified form is *ahaitukī bhakti* sought birth after birth, while Keśava Kāśmīri makes the same devotion the qualifying cause for relation to Hari and guru and the means by which mantra-practice reaches Murāri's pure abode [[Śikṣ 4](cite://caitanya/shikshashtakam/4); [KD 1.5](cite://kesava-kasmiri/krama-dipika/1.5); [KD 8.96](cite://kesava-kasmiri/krama-dipika/8.96)].",
+      "primary_loci": [
+        "Bhakti-Rasāmṛta-Sindhu 1.1.9-15",
+        "Śikṣāṣṭaka 4",
+        "Kramadīpikā 1.5, 8.96"
+      ],
+      "citations": [
+        {
+          "cite": "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.11",
+          "locus_short": "BRS 1.1.11"
+        },
+        {
+          "cite": "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.12",
+          "locus_short": "BRS 1.1.12"
+        },
+        {
+          "cite": "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.9",
+          "locus_short": "BRS 1.1.9"
+        },
+        {
+          "cite": "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.15",
+          "locus_short": "BRS 1.1.15"
+        },
+        {
+          "cite": "cite://caitanya/shikshashtakam/4",
+          "locus_short": "Śikṣ 4"
+        },
+        {
+          "cite": "cite://kesava-kasmiri/krama-dipika/1.5",
+          "locus_short": "KD 1.5"
+        },
+        {
+          "cite": "cite://kesava-kasmiri/krama-dipika/8.96",
+          "locus_short": "KD 8.96"
+        }
+      ]
     },
     {
-      "school": "Śuddhādvaita (Vallabha)",
-      "definition": "Vallabha distinguishes forms of devotion by their governing relation to grace. *Puṣṭi-bhakti* arises from Kṛṣṇa's nourishing favor and is superior to merely rule-governed devotion. The *bhakta* does not seek liberation apart from loving service, and the world need not be denied as illusory in order for devotion to be ultimate. Here *bhakti* is grounded in real manifestation and divine play rather than in escape from an unreal cosmos.",
-      "primary_loci": ["Tattvārtha-Dīpa-Nibandha, Bhāgavatārtha-Prakaraṇa [NOT YET RETRIEVED]", "Puṣṭi-Pravāha-Maryādā-Bheda [NOT YET RETRIEVED]"]
+      "school": "Dvaitādvaita",
+      "definition": "*Bhakti* in Dvaitādvaita is born from the Lord's *kṛpā* in one furnished with *dainya* and allied dispositions, and its mature form is marked by *premaviśeṣa* rather than by mere instrumental religiosity [[DaŚ 9](cite://nimbarka/dasa-shloki/9)]. Nimbārka accordingly distinguishes the higher devotion from the merely *sādhanarūpikā* lower form, and treats the savor of devotion as a further fruit of grace [[DaŚ 9](cite://nimbarka/dasa-shloki/9); [DaŚ 10](cite://nimbarka/dasa-shloki/10)]. The school also places constant *upāsanā* of Hari and refuge at Kṛṣṇa's feet at the center of practice, so *bhakti* names an enduring *upāsaka-upāsya* relation rather than a transitory mood [[DaŚ 6](cite://nimbarka/dasa-shloki/6); [DaŚ 8](cite://nimbarka/dasa-shloki/8)].",
+      "primary_loci": [
+        "Daśa-Ślokī 6, 8-10"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nimbarka/dasa-shloki/9",
+          "locus_short": "DaŚ 9"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/10",
+          "locus_short": "DaŚ 10"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/6",
+          "locus_short": "DaŚ 6"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/8",
+          "locus_short": "DaŚ 8"
+        }
+      ]
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "Śuddhādvaita makes attainment of *Puruṣottama* depend on more than the removal of *avidyā*: *brahmajñāna* prepares *svarūpa-yogyatā*, but fruition requires divine *varaṇa* together with *bhakti-bhāva* as its *sahakāri-yogyatā* [[BSB 1.1.12-19](cite://vallabha/anu-bhasya/1.1.12-19)]. Vallabha can therefore cite *bhaktyāham ekayā grāhyaḥ* from within the very account of Vedāntic attainment, making devotion internal to *prāpti* rather than external to it [[BSB 1.1.12-19](cite://vallabha/anu-bhasya/1.1.12-19)]. Because the Lord is to be attained as Puruṣottama who chooses the soul as his own, *bhakti* functions here under the sign of grace and belonging, not as a merely self-generated exercise [[BSB 1.1.12-19](cite://vallabha/anu-bhasya/1.1.12-19)].",
+      "primary_loci": [
+        "Aṇu-Bhāṣya on Brahma-Sūtra 1.1.12-19"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.1.12-19",
+          "locus_short": "BSB 1.1.12-19"
+        }
+      ]
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yoga",
+      "definition": "*Bhakti* enters the Yoga tradition through *īśvara-praṇidhāna*, which Vijñānabhikṣu refuses to reduce to *japa* alone and instead glosses as a distinctive cultivation of samādhi that becomes causal for *asaṃprajñāta* [[YV 1.23](cite://vijnanabhiksu/yoga-varttika/1.23)]. Its object is *Īśvara* as a *puruṣa-viśeṣa* untouched by *kleśa*, *karma*, *vipāka*, and *āśaya*, so devotional orientation is structurally tethered to Yoga's ontology of a unique Lord [[YV 1.24](cite://vijnanabhiksu/yoga-varttika/1.24)]. In this register, *bhakti* is not a free-standing emotional category but a concentration-producing *praṇidhāna* with direct yogic efficacy [[YV 1.23](cite://vijnanabhiksu/yoga-varttika/1.23)].",
+      "primary_loci": [
+        "Yoga-Vārttika on Yoga-Sūtra 1.23-24"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vijnanabhiksu/yoga-varttika/1.23",
+          "locus_short": "YV 1.23"
+        },
+        {
+          "cite": "cite://vijnanabhiksu/yoga-varttika/1.24",
+          "locus_short": "YV 1.24"
+        }
+      ]
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     }
   ],
-  "see_also": ["jnana", "prapatti", "sraddha", "para-bhakti", "prema", "rasa", "pusti-bhakti"],
+  "see_also": [
+    "jnana",
+    "prapatti",
+    "sraddha",
+    "para-bhakti",
+    "prema",
+    "rasa",
+    "pusti-bhakti"
+  ],
   "translator_note": "English 'devotion' is often too affective and too inward, while 'faith' imports Protestant and creed-centered assumptions. *Bhakti* includes cognition, ritual performance, remembrance, service, and loving participation in relation to a real deity. Where the tradition uses the term technically, it does not mean vague religiosity or mere sentiment.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus"
+  "last_verified_by": "glossary-wave1-codex54"
 }

@@ -3,42 +3,220 @@
   "term_iast": "guṇa",
   "term_devanagari": "गुण",
   "literal": "strand, cord, constituent (root sense: a strand of a rope); in later technical usage 'quality, attribute', but the Sāṃkhya register preserves the strand-of-prakṛti sense and the Vaiśeṣika register the property-of-substance sense — these are different metaphysical registers that English flattens",
-  "aliases": ["guna", "guṇa", "Guṇa", "guṇāḥ", "guṇān", "guṇasya", "guṇatraya", "guṇa-traya", "guṇātīta", "guṇa-atīta", "traiguṇya", "kalyāṇa-guṇa", "heya-guṇa", "prākṛta-guṇa"],
+  "aliases": [
+    "guna",
+    "guṇa",
+    "Guṇa",
+    "guṇāḥ",
+    "guṇān",
+    "guṇasya",
+    "guṇatraya",
+    "guṇa-traya",
+    "guṇātīta",
+    "guṇa-atīta",
+    "traiguṇya",
+    "kalyāṇa-guṇa",
+    "heya-guṇa",
+    "prākṛta-guṇa"
+  ],
   "invariant_definition": "A *guṇa* is not 'a quality' in the Western analytic sense of an accidental predicate inhering in a substance. Two distinct technical registers must be held apart, because the Vedāntic schools work primarily within the first while continuing to read texts that operate in the second.\n\n(1) **Sāṃkhya register (the dominant Vedāntic register).** The three *guṇas* — *sattva* (lucid, ordered, illuminating), *rajas* (active, energizing, passion-producing), *tamas* (heavy, obscuring, inertial) — are the three ontological strands or constituent fabrics of *prakṛti* itself. They are not properties *of* the world; they are what the world is made of. *Sāṃkhya-Kārikā* 11–13 describes their joint operation under the rope-strand metaphor: the manifest is woven from three strands that mutually suppress and support one another, the dominance-ratio at any locus determining the character of that locus. The *guṇas* are *bhautika* in a strict sense — substantial constituents, not adjectives. This is why *guṇa-traya*, *traiguṇya*, *guṇātīta*, *nirguṇa*, *saguṇa* all carry weight that 'three qualities', 'tri-quality', 'beyond qualities', 'without qualities', 'with qualities' cannot bear: the Sanskrit terms reach into the constitutive metaphysics of *prakṛti*, while the English glosses suggest mere predicate-logic.\n\n(2) **Nyāya-Vaiśeṣika register.** *Guṇa* is one of the six (or seven) *padārtha*s of Vaiśeṣika categorial ontology — a real but dependent property-substance inhering by *samavāya* in *dravya*. Here 'quality' is a defensible English gloss because the Vaiśeṣika grid of *padārtha*s is itself a property-of-substance scheme. The twenty-four *guṇa*s of classical Vaiśeṣika (color, taste, smell, touch, number, magnitude, separateness, conjunction, disjunction, priority, posteriority, weight, fluidity, viscidity, sound, *buddhi*, *sukha*, *duḥkha*, *icchā*, *dveṣa*, *prayatna*, *dharma*, *adharma*, *saṃskāra*) are inhering properties, not constitutive strands.\n\nIn Vedānta the two registers are constantly in play. When a school says *brahman* is *nirguṇa*, the question 'in which register?' is doctrinally decisive — see the entries on *nirguṇa* and *saguṇa* for the sub-school analysis.",
   "per_school": [
     {
-      "school": "Sāṃkhya / Yoga",
-      "definition": "The three *guṇas* are the constituents of *prakṛti*; their *sāmya-avasthā* (state of equipoise) is *avyakta* (unmanifest *prakṛti*), and their disequilibrium initiates manifestation through *mahat*, *ahaṅkāra*, and the rest of the twenty-four evolutes. *Puruṣa* is *guṇātīta* — beyond the *guṇa*s — but is not 'attributeless' in any predicate-logic sense; *puruṣa* stands outside the strand-fabric of *prakṛti*.",
-      "primary_loci": ["Sāṃkhya-Kārikā 11–13", "Sāṃkhya-Kārikā 16–17", "Yoga-Sūtra-Bhāṣya (Vyāsa) 2.18–19"]
-    },
-    {
       "school": "Advaita",
-      "definition": "The Sāṃkhya *guṇas* are admitted at the *vyāvahārika* level as constituents of *prakṛti* understood as *māyā*. Predominance of *sattva* in the *antaḥkaraṇa* is the cognitive pre-condition for *brahma-jñāna*. Crucially, when Advaita calls *brahman* *nirguṇa*, two things are meant simultaneously: (a) *brahman* is *guṇātīta* in the Sāṃkhya sense — beyond the three-strand fabric of *prakṛti*; (b) *brahman* is *nirupādhika* — free of predicates determined by *upādhi* that arise only at the *vyāvahārika* standpoint. The two senses coincide for Advaita because *upādhi* and *guṇa-māyā* are functionally one. *Brahman* is not 'qualityless' in a logical-positive sense; it is the substrate that the strand-and-upādhi grammar simply does not reach.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.4", "Bhagavad-Gītā-Bhāṣya 13.5–6", "Bhagavad-Gītā-Bhāṣya 14"]
+      "definition": "At the *vyāvahārika* level, Advaita treats *prakṛti* as *triguṇātmikā* and distinguishes *māyā* from *avidyā* through the purity and impurity of *sattva* within that same guṇic matrix [[Pañcadaśī 1.15-16](cite://vidyaranya/panchadashi/1.15-16)]. In Madhusūdana's devotional Advaita, hearing a text woven from the grandeur of Bhagavān's *guṇas* is the direct *sādhana* of *bhakti*, whereas the *mahāvākya* is the *sādhana* of *brahma-vidyā* [[BR 1.1 ṭīkā](cite://madhusudana/bhakti-rasayana/1.ṭīkā.1)] [[BR 1.1 ṭīkā.6](cite://madhusudana/bhakti-rasayana/1.1 ṭīkā.6)].",
+      "primary_loci": [
+        "Pañcadaśī 1.15-16",
+        "Bhakti-Rasāyana 1.1 ṭīkā"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vidyaranya/panchadashi/1.15-16",
+          "locus_short": "Pañcadaśī 1.15-16"
+        },
+        {
+          "cite": "cite://madhusudana/bhakti-rasayana/1.ṭīkā.1",
+          "locus_short": "BR 1.1 ṭīkā"
+        },
+        {
+          "cite": "cite://madhusudana/bhakti-rasayana/1.1 ṭīkā.6",
+          "locus_short": "BR 1.1 ṭīkā.6"
+        }
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "Two distinct uses. (i) The Sāṃkhya three-strand *guṇa*s constitute *acit* — real and eternally so; *miśra-sattva* characterizes the bound *jīva*'s embodiment, *śuddha-sattva* the eternal substance of Vaikuṇṭha and the bodies of the Lord and the *muktas*. (ii) *Brahman*'s *kalyāṇa-guṇa*s — the infinite auspicious *guṇa*s (*ananta-kalyāṇa-guṇa*) — are *not* Sāṃkhya-strand *guṇa*s but essential, eternal, real attributes constitutive of the Lord's *svarūpa*. *Nirguṇa* texts deny only *heya-guṇa*s (defects) and *prākṛta-guṇa*s (the three-strand fabric); the *kalyāṇa-guṇa*s are eternally affirmed.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§91–137", "Śrī-Bhāṣya 1.1.13", "Yatīndra-Mata-Dīpikā 4–5"]
+      "definition": "Rāmānuja takes *brahman* to denote *Puruṣottama*, whose *svarūpa* is intrinsically free from all *doṣa* and constituted by an unsurpassed, innumerable host of *kalyāṇa-guṇas*; even the lexical force of *brahman* is explained through greatness in *svarūpa* and in *guṇa* [[Śrī Bhāṣya 1.1.1, comm. 6-8](cite://ramanuja/shri-bhasya/6)] [[Śrī Bhāṣya 1.1.1, comm. 7](cite://ramanuja/shri-bhasya/7)] [[Śrī Bhāṣya 1.1.1, comm. 8](cite://ramanuja/shri-bhasya/8)]. The *jīva* is described as *jñānānandaika-guṇa*, while the *antaryāmin* Nārāyaṇa is the *anavadhikātiśayāsaṃkhyeya-kalyāṇa-guṇagaṇa* who qualifies and governs the whole *cid-acid*-complex by *sāmānādhikaraṇya* and inner-selfhood [[Vedārtha-Saṃgraha §5](cite://ramanuja/vedartha-samgraha/§5)] [[Vedārtha-Saṃgraha §6](cite://ramanuja/vedartha-samgraha/§6)].",
+      "primary_loci": [
+        "Śrī Bhāṣya 1.1.1, commentary 6-8",
+        "Vedārtha-Saṃgraha §§5-6"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ramanuja/shri-bhasya/6",
+          "locus_short": "Śrī Bhāṣya 1.1.1, comm. 6"
+        },
+        {
+          "cite": "cite://ramanuja/shri-bhasya/7",
+          "locus_short": "Śrī Bhāṣya 1.1.1, comm. 7"
+        },
+        {
+          "cite": "cite://ramanuja/shri-bhasya/8",
+          "locus_short": "Śrī Bhāṣya 1.1.1, comm. 8"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§5",
+          "locus_short": "Vedārtha-Saṃgraha §5"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§6",
+          "locus_short": "Vedārtha-Saṃgraha §6"
+        }
+      ]
     },
     {
-      "school": "Tattva-vāda (Madhva)",
-      "definition": "The three-strand *guṇa*s of *prakṛti* are real constituents — but, unlike in Viśiṣṭādvaita, they are tied to the *taratamya* of souls: the *mukti-yogya*, *nitya-saṃsārī*, and *tamo-yogya* classes are constitutionally aligned with *sāttvika*, *rājasa*, and *tāmasa* affinities respectively. Viṣṇu possesses infinite real *kalyāṇa-guṇa*s; *nirguṇa* texts deny only *prākṛta-guṇa*s.",
-      "primary_loci": ["Anu-Vyākhyāna 3.3", "Mahābhārata-Tātparya-Nirṇaya 1.85–95"]
+      "school": "Tattva-vāda",
+      "definition": "Madhva's school treats Viṣṇu as *sarvaguṇa-pūrṇa* and *doṣa-varjita*, and explicitly refuses any separation of divine *guṇa* from divine *svarūpa*: *guṇa-kriyādayo viṣṇoḥ svarūpam* [[BBsBh 1.1.1.1](cite://madhva/brahma-sutra-bhasya/1.1.1.1)] [[VTV 3.12](cite://madhva/visnu-tattva-vinirnaya/3.12)]. The Lord's displayed embodiment never compromises those pure auspicious *guṇas* [[VTV 3.9](cite://madhva/visnu-tattva-vinirnaya/3.9)]. The liberated *jīva* retains *cid-ānanda*-beginning *guṇas* only by *sādṛśya*, so *abheda*-language marks likeness and dependence, never *svarūpābheda* with Īśvara [[Anuvy. 2.3.66-69](cite://madhva/anuvyakhyana/2.3.66-69)] [[Anuvy. 2.3.67](cite://madhva/anuvyakhyana/2.3.67)].",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 1.1.1.1",
+        "Viṣṇu-Tattva-Vinirṇaya 3.9, 3.12",
+        "Anuvyākhyāna 2.3.66-69"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/brahma-sutra-bhasya/1.1.1.1",
+          "locus_short": "BBsBh 1.1.1.1"
+        },
+        {
+          "cite": "cite://madhva/visnu-tattva-vinirnaya/3.9",
+          "locus_short": "VTV 3.9"
+        },
+        {
+          "cite": "cite://madhva/visnu-tattva-vinirnaya/3.12",
+          "locus_short": "VTV 3.12"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/2.3.66-69",
+          "locus_short": "Anuvy. 2.3.66-69"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/2.3.67",
+          "locus_short": "Anuvy. 2.3.67"
+        }
+      ]
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "Jīva Gosvāmin construes the *jīva*-multitude as standing, by Bhagavān's *svābhāvika-tad-acintya-śakti*, in a relation of *guṇa-sthānīyatva* to him, like ray-atoms to the sun; *abheda-śāstra* therefore requires simultaneous preservation of *vyatireka* and *avyatireka* [[Paramātma-Sandarbha §43](cite://jiva-gosvami/sat-sandarbha/§43)]. Bhagavān alone is the final *prayojana* because he is *sarvādhika-guṇa-śālin*, the unsurpassed locus of supreme qualities and thus of *parama-prema* [[Paramātma-Sandarbha §45](cite://jiva-gosvami/sat-sandarbha/§45)].",
+      "primary_loci": [
+        "Paramātma-Sandarbha §§43, 45"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§43",
+          "locus_short": "Paramātma-Sandarbha §43"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§45",
+          "locus_short": "Paramātma-Sandarbha §45"
+        }
+      ]
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "Nimbārka's meditation-verse defines the supreme Brahman as Kṛṣṇa who is by nature devoid of all *doṣa* and the single mass of inexhaustible *kalyāṇa-guṇas* [[Daśa-Ślokī 4](cite://nimbarka/dasa-shloki/4)]. The Lord's *brahmatva*, *vyūha*-form, and auspicious *guṇa*-plenitude are presented together as one indivisible object of contemplation [[Daśa-Ślokī 4](cite://nimbarka/dasa-shloki/4)].",
+      "primary_loci": [
+        "Daśa-Ślokī 4"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nimbarka/dasa-shloki/4",
+          "locus_short": "DaŚ 4"
+        }
+      ]
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yoga",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "*Guṇa* is one of the *padārtha*s — a property-substance inhering by *samavāya* in *dravya*. Twenty-four *guṇa*s are enumerated. Here 'quality' is a defensible gloss because the categorial scheme is itself a substance-and-property scheme; the Sāṃkhya tri-strand metaphysics is absent.",
-      "primary_loci": ["Vaiśeṣika-Sūtra 1.1.5–6", "Padārtha-Dharma-Saṅgraha (Praśastapāda), guṇa-pariccheda"]
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     },
     {
-      "school": "Trika / Kashmir Śaivism",
-      "definition": "The three *guṇa*s appear within the *prakṛti-tattva* and below in the thirty-six-tattva scheme; they are the constituents of the lower manifest order under Śiva's *svātantrya*. They are not the highest metaphysical principle and do not exhaust the real, but their reality at their own level is preserved.",
-      "primary_loci": ["Tantrāloka 9 (tattva-analysis)", "Parā-Trīśikā-Vivaraṇa"]
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Jainism",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     }
   ],
-  "see_also": ["sattva", "rajas", "tamas", "prakrti", "purusa", "nirguna", "saguna", "upadhi", "kalyana-guna", "heya-guna", "prakrta-guna", "padartha", "guna-atita"],
+  "see_also": [
+    "sattva",
+    "rajas",
+    "tamas",
+    "prakrti",
+    "purusa",
+    "nirguna",
+    "saguna",
+    "upadhi",
+    "kalyana-guna",
+    "heya-guna",
+    "prakrta-guna",
+    "padartha",
+    "guna-atita"
+  ],
   "translator_note": "Translating *guṇa* uniformly as 'quality' is the foundational lazy collapse from which a chain of downstream errors follows. The Sāṃkhya-derived register — where *guṇa* names a constitutive strand of *prakṛti* — is the dominant Vedāntic register. In that register *guṇa* is no more a 'quality' than a strand of a rope is a 'quality' of the rope. When the gloss 'quality' is then carried into *nirguṇa* and *saguṇa*, the resulting English ('without qualities', 'with qualities') reads as a flat predicate-logic claim and severs the term from the metaphysics it lives in. Acceptable practice: leave *guṇa* untranslated; on first use specify the register (Sāṃkhya-strand vs. Vaiśeṣika-padārtha vs. Vaiṣṇava-kalyāṇa); never translate *guṇātīta* as 'beyond qualities' (use 'beyond the three *guṇa*s' or 'beyond the strands of *prakṛti*'); never gloss *nirguṇa* as 'qualityless' or *saguṇa* as 'qualified' without qualification.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus"
+  "last_verified_by": "glossary-wave1-codex54"
 }
