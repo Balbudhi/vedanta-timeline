@@ -346,6 +346,12 @@
             "note": "Reflexive possessive qualifying ātman."
           },
           {
+            "compound": "svātmani",
+            "type": "tatpurusha",
+            "resolution": "sve ātmani",
+            "note": "Locative form of the same compound: 'in [its] own self'."
+          },
+          {
             "compound": "andhatvādy-upetam",
             "type": "tatpurusha",
             "resolution": "andhatvādinā upetam",
