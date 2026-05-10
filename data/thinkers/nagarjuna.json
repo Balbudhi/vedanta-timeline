@@ -120,7 +120,7 @@
       ],
       "genre": "stotra",
       "language": "sanskrit",
-      "summary": "A cluster of four short hymns to the Buddha — *Niraupamya-stava* (incomparable), *Lokātīta-stava* (transcending the world), *Acintya-stava* (inconceivable), *Paramārtha-stava* (ultimate-truth) — that compress Mādhyamaka philosophy into devotional verse. The hymns develop the apophatic strand: the Buddha as beyond every dichotomy the catuṣkoṭi refutes, *paramārtha* as that which cannot be characterised by any of the four corners. The relation of the hymns to the technical treatises is the Mādhyamaka analogue of the *bhāṣya*-vs-*stotra* disambiguation that the user's project flags for Śaṅkara.",
+      "summary": "A cluster of four short hymns to the Buddha — *Niraupamya-stava* (incomparable), *Lokātīta-stava* (transcending the world), *Acintya-stava* (inconceivable), *Paramārtha-stava* (ultimate-truth) — that compress Mādhyamaka philosophy into devotional verse. The hymns develop the apophatic strand: the Buddha as beyond every dichotomy the catuṣkoṭi refutes, *paramārtha* as that which cannot be characterised by any of the four corners. The relation of the hymns to the technical treatises raises the same *bhāṣya*-vs-*stotra* attribution problem familiar from the Śaṅkara corpus: the doctrinal voice of the technical works and the devotional voice of the hymns can be coordinated only by reading the *catuṣkoṭi*-refusal as itself an apophatic praise.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     }
@@ -130,6 +130,6 @@
   "reception_notes": "Nāgārjuna is the load-bearing Buddhist interlocutor for the Vedāntic tradition from Bādarāyaṇa onward. The Brahma-Sūtra 2.2.18–32 sequence treats Mādhyamaka as one of the major rival darśanas. Śaṅkara's curt dismissal at BSB 2.2.32 belies the structural debt: the *vyāvahārika* / *pāramārthika* distinction is too close to *saṃvṛti* / *paramārtha* for accident, which is what fuels Bhāskara's *pracchanna-bauddha* charge and what Madhva's anti-Mādhyamaka treatises press relentlessly. The Yogācāra-influenced Sākāra readings of Vasubandhu enter Vedāntic awareness via Yāmuna's Saṃvit-Siddhi; Mādhyamaka enters via the BSB-anchored polemical chain.",
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-buddhist-comparators-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-buddhist-comparators-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-comparator-tone-opus"
 }
