@@ -1,0 +1,97 @@
+{
+  "id": "asanga",
+  "name": "Asanga",
+  "name_iast": "Asaṅga",
+  "alternate_names": ["Ārya Asaṅga", "Thogs-med"],
+  "dates_low": 310,
+  "dates_high": 390,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Asaṅga is conventionally placed in the fourth century on the basis of the dating of his half-brother Vasubandhu (whose Abhidharma-Kośa-Bhāṣya engages the developed Vasubandhu-Yogācāra) and Paramārtha's sixth-century Chinese hagiography. Frauwallner (Geschichte II, pp. 264–268) and Schmithausen (Ālayavijñāna, 1987) accept c. 310–390 CE.",
+  "school": "Cross-tradition",
+  "school_color_token": "yogacara-comparator",
+  "sub_school": "Yogācāra-founder",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": ["vasubandhu"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "bhaviveka",
+      "direction": "is-refuted-by",
+      "note": "Bhāviveka's Tarkajvālā chapter 5 refutes the Yogācāra trisvabhāva-and-vijñapti-mātratā position on the grounds that the paratantra reintroduces svabhāva, treating the Mahāyāna-Saṅgraha doctrine as the principal Yogācāra position to be answered."
+    },
+    {
+      "thinker_id": "badarayana",
+      "direction": "is-refuted-by",
+      "note": "Brahma-Sūtra 2.2.28–32 mounts the canonical Vedāntic refutation of the Yogācāra position; the developed Mahāyāna-Saṅgraha-and-trisvabhāva apparatus stands within the targeted vijñāna-vāda doctrines."
+    }
+  ],
+  "core_thesis": "Asaṅga is the founder of the Yogācāra school. His distinctive contribution is the systematic articulation of *vijñapti-mātratā* (cognition-only) within a *trisvabhāva* (three-natures) framework: every cognition has an *imagined* aspect (*parikalpita-svabhāva*) — the falsely projected subject-object duality; a *dependent* aspect (*paratantra-svabhāva*) — the dependently arisen cognitive flow itself; and a *consummate* aspect (*pariniṣpanna-svabhāva*) — the *paratantra* devoid of the *parikalpita*, which is the realised *tathatā*. The *Mahāyāna-Saṅgraha* is the principal text developing this analysis, with the *ālaya-vijñāna* (storehouse-consciousness) introduced as the substrate that carries karmic *vāsanā*-seeds across the moments of the cognitive flow and grounds the appearance of an enduring perceiver. The position is not a denial of objects in some commonsense sense; it is the claim that what *appears* to consciousness as an external object is itself a transformation (*pariṇāma*) of consciousness, and that no extra-cognitive object is required to explain experience. The *Bodhisattva-Bhūmi* supplies the praxis-frame within which the philosophical analysis sits: ten *bhūmi*s of progressive *prajñā*-development culminating in the realisation of *vijñapti-mātratā*. The Maitreya-attributed *Yogācāra-Bhūmi-Śāstra* — recovered by Asaṅga in the tradition's account — is the encyclopedic foundation on which the school's later systematisation rests.",
+  "engaged_works": [
+    {
+      "work_id": "mahayana-sangraha",
+      "title": "Mahayana-Sangraha",
+      "title_iast": "Mahāyāna-Saṅgraha",
+      "alternate_titles": ["Maha-S", "She-lun (Chinese transmission)"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Asaṅga; survives in Tibetan and in three Chinese translations (Buddhaśānta, Paramārtha, Xuanzang). The base text is foundational for East Asian Yogācāra (Faxiang).",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Lamotte 1938 critical edition; Schmithausen 1987."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The principal systematic Yogācāra treatise of Asaṅga, structured in ten chapters around the central thesis of *vijñapti-mātratā* developed through the *trisvabhāva* analysis. Chapter one introduces the *ālaya-vijñāna* as the substrate of cognitive flow and as the carrier of *vāsanā*-seeds; chapters two and three develop the *trisvabhāva* (*parikalpita* / *paratantra* / *pariniṣpanna*) as the analytic frame within which the *vijñapti-mātra* thesis is to be understood, with the *paratantra* explicitly characterised as both the locus of the *parikalpita* deception and the locus of the *pariniṣpanna* realisation. The remaining chapters develop the bodhisattva-praxis appropriate to the doctrine: the six *pāramitā*s, the ten *bhūmi*s, the three trainings (*śīla*, *samādhi*, *prajñā*), and the resulting *buddhatva*. The text is the principal Yogācāra source for the Mahāyāna-Saṅgraha-line transmission and the immediate target of Bhāviveka's anti-Yogācāra polemic.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "abhidharma-samuccaya",
+      "title": "Abhidharma-Samuccaya",
+      "title_iast": "Abhidharma-Samuccaya",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; survives in Sanskrit (Pradhan 1950 edition reconstructs from Tibetan and Chinese with later Sanskrit fragments) and in Tibetan and Chinese transmission.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Pradhan 1950; Rahula 1971 French translation."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Asaṅga's Yogācāra-aligned *abhidharma* compendium, structured around the standard *abhidharma* topics — *skandha*, *dhātu*, *āyatana*, the four noble truths, the *bodhipākṣika-dharma*s — but rewritten from the Mahāyāna and *vijñapti-mātratā* standpoint. The text supplies the bridge between Sarvāstivāda *abhidharma* (which the Vasubandhu of the *Kośa* still represents) and the Yogācāra *abhidharma* that the school requires for its own scholastic instruction. The treatment of *vijñāna* in particular is the formal locus where the *ālaya-vijñāna* doctrine enters the *abhidharma* category-system and is given systematic placement among the eight consciousnesses (six sense-consciousnesses, *manas* as the seventh, *ālaya* as the eighth).",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "bodhisattva-bhumi",
+      "title": "Bodhisattva-Bhumi",
+      "title_iast": "Bodhisattva-Bhūmi",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Asaṅga as one of the principal sections of the larger Yogācāra-Bhūmi-Śāstra. Sanskrit text edited by Wogihara 1930–1936.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The systematic treatise on bodhisattva-praxis structured around the ten *bhūmi*s, with extended treatments of the bodhisattva's *gotra* (lineage-disposition), the cultivation of the four *brahma-vihāra*s and six *pāramitā*s, the ethics of the bodhisattva (*śīla-paṭala*), and the realisation of *tathatā* through *vijñapti-mātra* analysis. The text supplies the praxis-frame within which the *Mahāyāna-Saṅgraha*'s philosophical analysis is to be implemented; together with the *Yogācāra-Bhūmi-Śāstra* to which it belongs, it is the encyclopedic foundation of Yogācāra as an integrated philosophy-and-praxis system.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "yogacara-bhumi-shastra",
+      "title": "Yogacara-Bhumi-Shastra",
+      "title_iast": "Yogācāra-Bhūmi-Śāstra",
+      "alternate_titles": ["YBh"],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed in Tibet to Maitreya (with Asaṅga as recipient-redactor) and in China to Asaṅga himself. Modern scholarship treats the text as the work of multiple hands within the early Yogācāra school, redacted by Asaṅga.",
+      "ascription_evidence": [
+        {"kind": "scholarly-dispute", "description": "Schmithausen 1987 treats it as a multi-stratum compilation; the Bodhisattva-Bhūmi section is securely Asaṅga's."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The encyclopedic foundation-text of Yogācāra in seventeen *bhūmi*s, of which the *Bodhisattva-Bhūmi* is one. The text supplies the systematic exposition of the entire Buddhist path from a Yogācāra standpoint: the analysis of *citta* and *caitta*, the path's progression through *bhāvanā* and *prajñā*, the integration of *abhidharma* analysis with *vijñapti-mātra* theory, and the final realisation of *tathatā*. The *Vastusaṅgrahaṇī* and the *Vinaya-Saṃgrahaṇī* sections embed the philosophy in scriptural-exegetical and disciplinary frames. The text is the principal source for the Yogācāra-Bhūmi-line transmission distinct from the *Mahāyāna-Saṅgraha*-line, and is the basis on which both Asaṅga's and Vasubandhu's later systematisations build.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Asaṅga's Yogācāra is engaged in Indian Vedāntic discourse principally through the *vijñāna-vāda* refutation at Brahma-Sūtra 2.2.28–32 and through Yāmuna's *Saṃvit-Siddhi*. The *trisvabhāva* analysis is rarely engaged by name in Vedāntic sources, but the *vijñapti-mātratā* thesis (especially in its Vasubandhu-formulation) is the standard Buddhist position the Vedāntic *anumāna*-realists refute when defending external-object realism.",
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-buddhist-comparators-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-buddhist-comparators-opus"
+}

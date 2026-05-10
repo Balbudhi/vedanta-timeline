@@ -65,7 +65,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
-      "summary": "The *Tattva-Prakāśikā* is Keśava-Kāśmīrī's commentary on the Bhagavad-Gītā from within Nimbārka *svābhāvika-bhedābheda*. Across the eighteen chapters the construal is consistent: Kṛṣṇa is *parabrahman* identical with the Brahman of the Upaniṣads; the *jīva* is eternally distinct-and-non-distinct *aṃśa*; the *prakṛti–puruṣa* exposition of chapters seven and thirteen licenses the school's three-real ontology rather than any *māyā*-driven reduction. Verses standardly recruited by Advaita to support *jagat-mithyātva* — for example 7.4–7 on the *aparā* and *parā* *prakṛti*s — are re-read so as to preserve world-reality and the *jīva*'s genuine ontological standing. The polemical horizon is twofold: Śaṅkara is engaged for collapsing difference, Bhāskara for treating it as adventitious. Where Śaṅkara is the more frequent target, Bhāskara's *aupādhika* qualification is the closer rival, and Keśava marks the demarcation carefully. The commentary is the principal Nimbārka-line *Gītā* reading and a key channel for the school's wider circulation in early-modern Vaiṣṇavism.",
+      "summary": "The *Tattva-Prakāśikā* is Keśava-Kāśmīrī's commentary on the Bhagavad-Gītā from within Nimbārka *svābhāvika-bhedābheda*. Across the eighteen chapters the construal is consistent: Kṛṣṇa is *parabrahman* identical with the Brahman of the Upaniṣads (ad *Gītā* 7.7; 10.8; 15.18); the *jīva* is eternally distinct-and-non-distinct *aṃśa* (ad *Gītā* 15.7); the *prakṛti–puruṣa* exposition of chapters seven and thirteen (ad *Gītā* 7.4–7; 13.2; 13.19–22) licenses the school's three-real ontology rather than any *māyā*-driven reduction. Verses standardly recruited by Advaita to support *jagat-mithyātva* — for example *Gītā* 7.4–7 on the *aparā* and *parā* *prakṛti*s — are re-read so as to preserve world-reality and the *jīva*'s genuine ontological standing. The polemical horizon is twofold: Śaṅkara is engaged for collapsing difference (sharpest at ad *Gītā* 2.12; 13.2), Bhāskara for treating it as adventitious. Where Śaṅkara is the more frequent target, Bhāskara's *aupādhika* qualification is the closer rival, and Keśava marks the demarcation carefully. The commentary is the principal Nimbārka-line *Gītā* reading and a key channel for the school's wider circulation in early-modern Vaiṣṇavism.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     },
@@ -84,7 +84,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
-      "summary": "The *Kaustubha-Prabhā* is Keśava-Kāśmīrī's gloss on Śrīnivāsa's *Vedānta-Kaustubha*, and so a sub-sub-commentary on Nimbārka's *Pārijāta-Saurabha*. It is the school's mature scholastic instrument. Where Śrīnivāsa had supplied the *pūrvapakṣa–uttarapakṣa* architecture absent from Nimbārka's terse bhāṣya, Keśava sharpens the technical defence against the post-Śaṅkara Advaitic mainstream of his own period — Vivaraṇa-line and Bhāmatī-line opponents whose apparatus is more developed than the *māyā-vāda* Nimbārka could have addressed in the twelfth century. The contested *adhikaraṇas* are those concerning *māyā*, *jīva*-plurality, and *Brahma-pariṇāma*. The school's signature commitment is preserved at every step: *bheda* and *abheda* are equally intrinsic, neither is reducible to the other, and Bhāskara's *aupādhika* qualification is refused as decisively as the Advaitic reduction of the *jīva* to appearance. The *Kaustubha-Prabhā* is the standard Sanaka-sampradāya reference at the level of fine-grained Vedāntic interpretation and the canonical late-medieval statement of the line.",
+      "summary": "The *Kaustubha-Prabhā* is Keśava-Kāśmīrī's gloss on Śrīnivāsa's *Vedānta-Kaustubha*, and so a sub-sub-commentary on Nimbārka's *Vedānta-Pārijāta-Saurabha*. It is the school's mature scholastic instrument. Where Śrīnivāsa had supplied the *pūrvapakṣa–uttarapakṣa* architecture absent from Nimbārka's terse bhāṣya, Keśava sharpens the technical defence against the post-Śaṅkara Advaitic mainstream of his own period — Vivaraṇa-line and Bhāmatī-line opponents whose apparatus is more developed than the *māyā-vāda* Nimbārka could have addressed in the twelfth century. The contested *adhikaraṇas* are those concerning *māyā* (ad Nimbārka on BS 2.1.14), *jīva*-plurality (ad Nimbārka on BS 2.3.43), and *Brahma-pariṇāma* (ad Nimbārka on BS 2.1.27–28). The school's signature commitment is preserved at every step: *bheda* and *abheda* are equally intrinsic, neither is reducible to the other (ad Nimbārka on BS 1.1.4 and 3.2.27), and Bhāskara's *aupādhika* qualification is refused as decisively as the Advaitic reduction of the *jīva* to appearance. The *Kaustubha-Prabhā* is the standard Sanaka-sampradāya reference at the level of fine-grained Vedāntic interpretation and the canonical late-medieval statement of the line.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     }
@@ -884,7 +884,7 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-translation-audit-opus",
+  "last_verified_by": "wave-citation-batch6-opus",
   "polemic_chain_ids": [
     "govinda-bhasya-defense"
   ]
