@@ -1748,14 +1748,23 @@ function collectSurroundingPassages(tid, wid, entry) {
 }
 
 // ---------- Source tab ----------
+// The Source tab browses the in-repo primary-text mirror at
+// `data/sources/`. The full corpus (~8 GB) lives outside the site repo;
+// `scripts/build_site_sources.py` syncs only the files referenced by
+// citation_index.json into `site/data/sources/`, and rewrites the manifest
+// to reflect what is actually shipped to GitHub Pages. Thus the manifest +
+// the fetch path must agree on `data/sources/<path>` (see fetch below).
+const SOURCE_FETCH_BASE = "data/sources/";
+
 async function ensureSourceTreeRendered() {
-  if (citePanel.manifestLoaded) return;
-  citeSourceTree.innerHTML = "<p class=\"cite-source-empty\" style=\"padding:8px 14px\">Loading manifest…</p>";
+  if (sourceTabState.manifestLoaded) return;
+  if (!dpSourceTree) return;
+  dpSourceTree.innerHTML = "<p class=\"dp-empty\" style=\"padding:8px 14px\">Loading manifest…</p>";
   const m = await loadJSON("data/primary_text_manifest.json");
-  citePanel.manifest = m;
-  citePanel.manifestLoaded = true;
-  if (!m || !Array.isArray(m.files)) {
-    citeSourceTree.innerHTML = "<p class=\"cite-source-empty\" style=\"padding:8px 14px\">No primary-text manifest found. Run scripts/build_primary_text_manifest.py.</p>";
+  sourceTabState.manifest = m;
+  sourceTabState.manifestLoaded = true;
+  if (!m || !Array.isArray(m.files) || m.files.length === 0) {
+    dpSourceTree.innerHTML = "<p class=\"dp-empty\" style=\"padding:8px 14px\">No primary-text manifest found. Run scripts/build_site_sources.py.</p>";
     return;
   }
   renderSourceTree("");
@@ -1766,7 +1775,7 @@ async function ensureSourceTreeRendered() {
 }
 
 function renderSourceTree(filter) {
-  const m = citePanel.manifest;
+  const m = sourceTabState.manifest;
   if (!m || !Array.isArray(m.files)) return;
   const f = (filter || "").trim().toLowerCase();
   const files = f
@@ -1799,7 +1808,7 @@ function renderSourceTree(filter) {
         (a.title || a.path).localeCompare(b.title || b.path));
       const leaves = fls.map((fl) => {
         const label = fl.title || fl.path.split("/").pop().replace(/\.[^.]+$/, "");
-        const isActive = fl.path === citePanel.activeFilePath ? " is-active" : "";
+        const isActive = fl.path === sourceTabState.activeFilePath ? " is-active" : "";
         return `<div class="cst-leaf${isActive}" data-path="${escape(fl.path)}" title="${escape(fl.path)}">${escape(label)}</div>`;
       }).join("");
       const catLabel = cat === "_root" ? "(top level)" : cat.replace(/_/g, " ");
@@ -1820,29 +1829,29 @@ function renderSourceTree(filter) {
     `;
   }).join("");
 
-  citeSourceTree.innerHTML = html || "<p class=\"cite-source-empty\" style=\"padding:8px 14px\">No matches.</p>";
-  citeSourceTree.querySelectorAll(".cst-leaf").forEach((el) => {
+  dpSourceTree.innerHTML = html || "<p class=\"dp-empty\" style=\"padding:8px 14px\">No matches.</p>";
+  dpSourceTree.querySelectorAll(".cst-leaf").forEach((el) => {
     el.addEventListener("click", () => selectSourceFile(el.dataset.path));
   });
 }
 
-let _citeSearchTimer = null;
-if (citeSourceSearch) {
-  citeSourceSearch.addEventListener("input", () => {
-    clearTimeout(_citeSearchTimer);
-    _citeSearchTimer = setTimeout(() => renderSourceTree(citeSourceSearch.value), 120);
+let _sourceSearchTimer = null;
+if (dpSourceSearch) {
+  dpSourceSearch.addEventListener("input", () => {
+    clearTimeout(_sourceSearchTimer);
+    _sourceSearchTimer = setTimeout(() => renderSourceTree(dpSourceSearch.value), 120);
   });
 }
 
 async function selectSourceFile(path) {
   if (!path) return;
-  citePanel.activeFilePath = path;
+  sourceTabState.activeFilePath = path;
   try { localStorage.setItem("vedanta-cite-panel-source-file", path); } catch (_) {}
-  citeSourceTree.querySelectorAll(".cst-leaf").forEach((el) => {
+  dpSourceTree.querySelectorAll(".cst-leaf").forEach((el) => {
     el.classList.toggle("is-active", el.dataset.path === path);
   });
-  const meta = (citePanel.manifest && citePanel.manifest.files || []).find((f) => f.path === path) || {};
-  citeSourceViewer.innerHTML = `
+  const meta = (sourceTabState.manifest && sourceTabState.manifest.files || []).find((f) => f.path === path) || {};
+  dpSourceViewer.innerHTML = `
     <div class="csv-head">
       <p class="csv-title">${escape(meta.title || path.split("/").pop())}</p>
       <div class="csv-meta">
@@ -1854,27 +1863,27 @@ async function selectSourceFile(path) {
     </div>
     <p class="csv-loading">Loading…</p>
   `;
-  let text = citePanel.fileCache.get(path);
+  let text = sourceTabState.fileCache.get(path);
   if (text == null) {
     try {
-      const r = await fetch(`materials/primary_texts/${path}`);
-      text = r.ok ? await r.text() : "[failed to load]";
+      const r = await fetch(SOURCE_FETCH_BASE + path);
+      text = r.ok ? await r.text() : "[failed to load — file not present in site/data/sources/]";
     } catch (_) {
       text = "[failed to load]";
     }
-    citePanel.fileCache.set(path, text);
+    sourceTabState.fileCache.set(path, text);
   }
-  if (citePanel.activeFilePath !== path) return;
+  if (sourceTabState.activeFilePath !== path) return;
   const pre = document.createElement("pre");
   pre.className = "csv-body";
   pre.textContent = text;
-  const loading = citeSourceViewer.querySelector(".csv-loading");
+  const loading = dpSourceViewer.querySelector(".csv-loading");
   if (loading) loading.replaceWith(pre);
-  citeSourceViewer.scrollTop = 0;
+  dpSourceViewer.scrollTop = 0;
 }
 
 function guessSourceFileForCitation(thinkerId, workId) {
-  const m = citePanel.manifest;
+  const m = sourceTabState.manifest;
   if (!m || !Array.isArray(m.files)) return null;
   const tid = (thinkerId || "").toLowerCase();
   const wid = (workId || "").toLowerCase().replace(/-/g, "_");
@@ -1894,13 +1903,6 @@ function guessSourceFileForCitation(thinkerId, workId) {
   }
   return bestScore >= 3 ? best.path : null;
 }
-
-(function bootCitePanelState() {
-  try {
-    const tab = localStorage.getItem("vedanta-cite-panel-tab");
-    if (tab === "source" || tab === "citation") citePanel.tab = tab;
-  } catch (_) {}
-})();
 
 // ---------- markdown helpers -----------
 function escape(s) {
@@ -2147,11 +2149,6 @@ const articlesBtn = document.getElementById("articlesBtn");
 const articlesModal = document.getElementById("articlesModal");
 const closeArticles = document.getElementById("closeArticles");
 const articlesList = document.getElementById("articlesList");
-const articleReader = document.getElementById("articleReader");
-const articleReaderTitle = document.getElementById("articleReaderTitle");
-const articleReaderContent = document.getElementById("articleReaderContent");
-const closeArticleReader = document.getElementById("closeArticleReader");
-const backToArticles = document.getElementById("backToArticles");
 
 let articlesManifest = null;
 
@@ -2231,40 +2228,40 @@ articlesModal.addEventListener("click", (e) => {
 });
 
 async function openArticle(a) {
+  // Articles render in the unified panel's Article tab. The articles
+  // chooser modal closes on selection (the user picked one already).
   articlesModal.classList.remove("is-open");
-  articleReader.classList.add("is-open");
-  articleReader.setAttribute("aria-hidden", "false");
-  // Add a PERSPECTIVE pill into the title for explicit kind-flagging.
-  if (a.kind === "perspective") {
-    articleReaderTitle.innerHTML = `<span class="perspective-pill perspective-pill--inline">PERSPECTIVE</span> ${escape(a.title)}`;
-  } else {
-    articleReaderTitle.textContent = a.title;
+  articlesModal.setAttribute("aria-hidden", "true");
+  showTab("article");
+  if (dpArticleHead) {
+    const pill = a.kind === "perspective"
+      ? '<span class="perspective-pill perspective-pill--inline">PERSPECTIVE</span> '
+      : "";
+    const eyebrowKind = a.kind === "perspective" ? "Perspective" : (a.kind || "Article");
+    dpArticleHead.innerHTML = `
+      <p class="dp-eyebrow">${escape(eyebrowKind.charAt(0).toUpperCase() + eyebrowKind.slice(1))}</p>
+      <p class="dp-title">${pill}${escape(a.title)}</p>
+      ${a.subtitle ? `<p class="dp-attrib">${md(a.subtitle)}</p>` : ""}
+    `;
   }
-  articleReaderContent.innerHTML = "<article><p>Loading…</p></article>";
-  // Resolve source path: prefer manifest's source_doc when given, else default convention.
+  if (dpArticleBody) dpArticleBody.innerHTML = "<article><p style=\"color:var(--muted);font-style:italic\">Loading…</p></article>";
+  openPanel("article");
+
   const path = a.source_doc || (a.kind === "perspective"
     ? `data/perspectives/source/${a.slug}.md`
     : `data/articles/source/${a.slug}.md`);
   const r = await fetch(path);
   if (!r.ok) {
-    articleReaderContent.innerHTML = `<article><h1>${escape(a.title)}</h1><p>Article body not yet uploaded.</p></article>`;
+    if (dpArticleBody) dpArticleBody.innerHTML = `<article><h1>${escape(a.title)}</h1><p>Article body not yet uploaded.</p></article>`;
     return;
   }
   const text = await r.text();
-  articleReaderContent.innerHTML = `<article>${renderMarkdownFull(text)}</article>`;
-  articleReaderContent.scrollTop = 0;
+  if (dpArticleBody) {
+    dpArticleBody.innerHTML = `<article>${renderMarkdownFull(text)}</article>`;
+    dpArticleBody.scrollTop = 0;
+  }
+  panelState.loaded.article = true;
 }
-
-closeArticleReader.addEventListener("click", () => {
-  articleReader.classList.remove("is-open");
-  articleReader.setAttribute("aria-hidden", "true");
-});
-backToArticles.addEventListener("click", () => {
-  articleReader.classList.remove("is-open");
-  articleReader.setAttribute("aria-hidden", "true");
-  articlesModal.classList.add("is-open");
-  articlesModal.setAttribute("aria-hidden", "false");
-});
 
 // Markdown renderer for the article reader. Beyond standard inline markdown +
 // GFM tables + fenced code, this renderer:
@@ -2375,24 +2372,16 @@ function renderMarkdownFull(src) {
 // ---------- keyboard nav -----------
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") {
-    if (articleReader.classList.contains("is-open")) {
-      articleReader.classList.remove("is-open");
-      articleReader.setAttribute("aria-hidden", "true");
-    } else if (articlesModal.classList.contains("is-open")) {
+    if (articlesModal.classList.contains("is-open")) {
       articlesModal.classList.remove("is-open");
       articlesModal.setAttribute("aria-hidden", "true");
     } else if (aboutModal.classList.contains("is-open")) {
       aboutModal.classList.remove("is-open");
       aboutModal.setAttribute("aria-hidden", "true");
-    } else if (readerModal.classList.contains("is-open")) {
-      readerModal.classList.remove("is-open");
-      readerModal.setAttribute("aria-hidden", "true");
-    } else if (citePanel.open) {
-      closeCitePanel();
     } else if (document.body.classList.contains("is-reading-mode")) {
       setReadingMode(false);
-    } else {
-      closeDetailPane();
+    } else if (panelState.open) {
+      closePanel();
     }
     return;
   }
