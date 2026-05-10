@@ -46,10 +46,36 @@
   ],
   "key_passages": [],
   "comparative_claim_ids": [],
+  "quoted_by": [
+    {
+      "thinker_id": "madhusudana",
+      "work_id": "advaita-siddhi",
+      "locus": "1, opening *paricheda*; *mithyātva-anumāna-paricheda*; *padārtha-khaṇḍana* sections",
+      "what_quoted": "Madhusūdana presupposes Citsukha's *Tattva-Pradīpikā* throughout the *Advaita-Siddhi*; Citsukha's formal *anumāna*-armature for *anirvacanīya-mithyātva*, his *svaprakāśa*-definition, and his *bheda-khaṇḍana* are the technical apparatus the *Advaita-Siddhi* both inherits and defends.",
+      "on_disk": true,
+      "on_disk_path": "/materials/new_sources/madhusudana_advaita_siddhi_anantakrishna_archive_djvu.txt; /materials/primary_texts/sanskrit/_kashmir_saivism/AdvaitasiddhiVsNyayamrta.txt"
+    },
+    {
+      "thinker_id": "vyasatirtha",
+      "work_id": "nyayamrta",
+      "locus": "*saptavidhānupapatti* and *mithyātva-khaṇḍana* sections",
+      "what_quoted": "Vyāsatīrtha's *Nyāyāmṛta* takes Citsukha's formal *mithyātva-anumāna* as the principal Advaitin position to refute.",
+      "on_disk": true,
+      "on_disk_path": "/materials/primary_texts/sanskrit/vedanta/full_corpus/vyasatirtha_nyayamrta_vol1_archive.pdf"
+    },
+    {
+      "thinker_id": "madhva",
+      "work_id": "anuvyakhyana",
+      "locus": "engagement with anti-Citsukha arguments in the polemical sections",
+      "what_quoted": "Madhva's *Anuvyākhyāna* engages the structurally same Advaita position that Citsukha later systematizes.",
+      "on_disk": true,
+      "on_disk_path": "/materials/primary_texts/sanskrit/vedanta/madhva_anuvyakhyana.txt"
+    }
+  ],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus",
+  "last_verified_by": "wave-claim-grounding-opus",
   "polemic_chain_ids": [
     "nyayamrta-arguments",
     "saptavidhanupapatti",
