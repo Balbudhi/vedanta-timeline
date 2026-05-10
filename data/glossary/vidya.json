@@ -1,0 +1,27 @@
+{
+  "term_key": "vidya",
+  "term_iast": "vidyā",
+  "term_devanagari": "विद्या",
+  "literal": "knowledge; from √vid 'to know'",
+  "aliases": ["vidya", "vidyā", "Vidyā", "vidyāyāḥ", "vidyāyām", "vidyayā", "brahmavidya", "brahmavidyā"],
+  "invariant_definition": "Knowledge in the strict sense: the cognition that liberates. Distinguished from ordinary information (*viṣaya-jñāna*) and from injunctive ritual-knowledge (*karma-vidyā*), *vidyā* in Vedānta technical usage refers either to the liberating cognition itself (*brahma-vidyā*) or to a specific Upaniṣadic meditation-program (*upāsana*) that conduces to it (e.g. *Madhu-vidyā*, *Daharā-vidyā*, *Pañcāgni-vidyā*). All schools agree that *vidyā* and *avidyā* are mutually exclusive cognitive states and that *vidyā* is the proximate condition of *mokṣa*. They diverge on the content of liberating *vidyā* (identity-cognition vs. cognition of the Lord as one's master vs. cognition of one's own ontological dependence) and on whether the various Upaniṣadic *vidyās* are alternatives or complements (the *Brahma-Sūtra*'s third *adhyāya* is largely concerned with this).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Brahma-vidyā* is *akhaṇḍākāra-vṛtti* — the integral cognition arising from the *mahāvākya* that takes *brahman* in its undivided wholeness as object. It is not a *kriyā* (action) and is therefore not subject to the *karma*-mechanism. It is *jñāna-niṣṭhā*, mutually exclusive with *karma-niṣṭhā*. The various Upaniṣadic *vidyās* are subordinate *upāsana*s, useful for purification but not themselves liberating.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.4", "Bhagavad-Gītā-Bhāṣya, upodghāta and 3.3", "Upadeśa-Sāhasrī 14"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Vidyā* is *bhakti* in its mature form — *para-bhakti*, *para-jñāna*, *parama-bhakti* — a continuous loving cognition of *brahman* as the Lord whose body one is. It is *upāsana* in the strong sense: a daily-renewed meditation, not a single sublating cognition. The various Upaniṣadic *vidyās* are alternative *upāsana*-modes leading to the same fruit.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§137–143", "Śrī-Bhāṣya 1.1.1 (definition of bhakti as vidyā)", "Śrī-Bhāṣya 3.3.1ff (vidyā-samuccaya)"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Vidyā* is *aparokṣa-jñāna* of Viṣṇu's supremacy and the soul's eternal dependence — bestowed by Viṣṇu when the soul is fit, mediated by *bhakti* and *guru*. The various Upaniṣadic *vidyās* are graded according to *adhikāra* and to the *taratamya* of the goal-deities meditated on.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 3.3.1ff", "Anu-Vyākhyāna 3.3"]
+    }
+  ],
+  "see_also": ["avidya", "jnana", "brahman", "upasana", "moksa", "akhandakara-vrtti", "para-bhakti"],
+  "translator_note": "*Vidyā* in Vedānta does not mean 'knowledge' in the modern propositional sense — a content-set possessed by a knower. It is a transformative cognitive event that *changes the knower's ontological status*, not merely his belief-state. Translating it as 'knowledge' without flagging this transformation-character misses the entire point."
+}

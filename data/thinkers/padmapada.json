@@ -14,7 +14,7 @@
   "lineage_in": ["sankara"],
   "lineage_out": ["prakasatman"],
   "lineage_polemical": [],
-  "core_thesis": "Padmapāda, Śaṅkara's direct disciple, is the founding figure of what becomes the *Vivaraṇa* sub-school of Advaita. He develops the *adhyāsa-bhāṣya* and the opening sūtras of the Brahma-Sūtra into a systematic positive ontology of *avidyā* (also called *māyā* and *mūla-prakṛti*): *avidyā* is a positive, beginningless (*anādi*) *bhāva-rūpa* (existence-natured) entity — not mere absence of knowledge — whose locus (*āśraya*) and object (*viṣaya*) are both *brahman*. *Avidyā* possesses two *śaktis*: *āvaraṇa* (concealment of *brahman*'s svarūpa) and *vikṣepa* (projection of the manifest world). The reflected-consciousness account of the *jīva* (*pratibimba-vāda*) — the *jīva* as a reflection (*pratibimba*) of *brahman* in the mirror of *avidyā* — originates here and is the structural alternative to Maṇḍana's *avaccheda-vāda* (limitation account) inherited by the *Bhāmatī* line. Padmapāda's positions on *avidyā*'s positivity, on *brahman*'s being its substrate, and on *pratibimba* are foundational for Prakāśātman's *Vivaraṇa* and the entire later *Vivaraṇa* tradition.",
+  "core_thesis": "Padmapāda, Śaṅkara's direct disciple, is the founding figure of what becomes the *Vivaraṇa* sub-school of Advaita. He takes the *adhyāsa-bhāṣya* and the opening *catuḥsūtrī* of Śaṅkara's *Brahma-Sūtra-Bhāṣya* and develops them into a positive ontology of *avidyā*. The decisive move is at *Pañcapādikā* V–VI, where he glosses the compound *mithyājñāna* as *mithyā ca tad ajñānaṃ ca* and identifies the *ajñāna*-component with a *jaḍātmikā avidyāśakti* — an ignorance-power whose nature is insentient — that must be admitted in connection with all internal and external things, otherwise the appearance of false objects would be impossible. *Avidyā* (also called *māyā* and *mūla-prakṛti*) is therefore a positive, beginningless (*anādi*) *bhāva-rūpa* entity, not mere absence of knowledge. Its locus (*āśraya*) and object (*viṣaya*) are both *brahman*. It possesses two *śaktis*: *āvaraṇa* (concealment of *brahman*'s *svarūpa*) and *vikṣepa* (projection of the manifest world). The *jīva* is a *pratibimba* (reflection) of *brahman* in the mirror of *avidyā* — the structural alternative to the *avaccheda-vāda* (limitation account) that the *Bhāmatī* line inherits from Maṇḍana. Padmapāda's positions on *avidyā*'s positivity, on *brahman* as its substrate, and on *pratibimba* are foundational for Prakāśātman's *Vivaraṇa* and the entire later *Vivaraṇa* tradition.",
   "engaged_works": [
     {
       "work_id": "pancapadika",
@@ -31,7 +31,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
-      "summary": "*Ṭīkā* on Śaṅkara's Brahma-Sūtra-Bhāṣya. The text-historical situation is critical: only the portion covering the first five *pādas* of the BSB survives — that is, the *adhyāsa-bhāṣya* and the *catuḥsūtrī* (BSB 1.1.1–4) plus a small additional stretch (the work's title literally means 'commentary on five *pādas*'). The traditional account holds that Padmapāda completed the *ṭīkā* on the entire BSB but the manuscript was destroyed; what survives is what was reconstructed from oral memory by Śaṅkara himself. Whatever the historical truth of that narrative, the surviving portion is doctrinally weight-bearing because it covers exactly the BSB's metaphysically densest passages — the *adhyāsa-bhāṣya* and *tat tu samanvayāt*. Padmapāda's elaboration of *avidyā* as *bhāva-rūpa*, his *pratibimba-vāda*, and his analysis of *adhyāsa* are taken up wholesale by Prakāśātman in the *Pañcapādikā-Vivaraṇa*, which becomes the founding text of the *Vivaraṇa* sub-school. Securely authored for the surviving portion.",
+      "summary": "*Ṭīkā* on Śaṅkara's *Brahma-Sūtra-Bhāṣya*. The text-historical situation is unusual and critical. Only a portion survives: the commentary on the first five *pādas* of the BSB — that is, the *adhyāsa-bhāṣya* and the *catuḥsūtrī* (BSB 1.1.1–4), plus a small additional stretch. The work's title literally means \"commentary on five *pādas*.\" The traditional account holds that Padmapāda completed a *ṭīkā* on the entire BSB but the manuscript was destroyed, and that Śaṅkara reconstructed what could be reconstructed from oral memory. Whatever the historical truth of that narrative, the surviving portion is doctrinally weight-bearing precisely because it covers the BSB's most metaphysically dense passages — the *adhyāsa-bhāṣya* and the analysis of *tat tu samanvayāt*. Three positions developed in this stretch are taken up wholesale by Prakāśātman in the *Pañcapādikā-Vivaraṇa*: *avidyā* as *bhāva-rūpa* (Pañcapādikā V–VI), the refined *adhyāsa* definition as *paratra pūrvadṛṣṭāvabhāsaḥ smṛtirūpaḥ* — \"the appearance elsewhere, in the form of memory, of what was previously seen\" (XIX.62–63) — and the *bimba-pratibimba* reading of *tat tvam asi* (XXIX.108). The *Pañcapādikā-Vivaraṇa* becomes the founding text of the sub-school. Securely authored for the surviving portion.",
       "key_passage_ids": [
         "v-15-vi-16__mithyajnana-is-avidya-shakti",
         "xix-62-63__adhyasa-definition-smrtirupa-paratra",
@@ -689,8 +689,8 @@
     }
   ],
   "comparative_claim_ids": [],
-  "entry_status": "reviewed",
+  "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave2-codex"
+  "last_verified_by": "wave1-rewrite-opus"
 }

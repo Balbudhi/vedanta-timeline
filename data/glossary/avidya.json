@@ -1,0 +1,32 @@
+{
+  "term_key": "avidya",
+  "term_iast": "avidyā",
+  "term_devanagari": "अविद्या",
+  "literal": "non-knowledge; absence-of-vidyā; from a- (negative) + √vid 'to know'",
+  "aliases": ["avidya", "avidyā", "Avidyā", "avidyāyāḥ", "avidyāyām", "avidyayā", "ajnana", "ajñāna"],
+  "invariant_definition": "The cognitive condition that holds the *jīva* in *saṃsāra* — a misidentification or mis-knowledge that must be removed for liberation. All Vedāntic schools agree that *avidyā* is what binds and that its removal (or its functional analogue) is necessary for *mokṣa*. The schools diverge fundamentally on whether *avidyā* is (a) a *positive* metaphysical entity (*bhāvarūpa*) of indeterminable status (*anirvacanīya*) — Advaita; (b) the constriction of the soul's *dharmabhūta-jñāna* by *karma*, a real but caused condition — Viśiṣṭādvaita; (c) simply Viṣṇu's withholding of *aparokṣa-jñāna* until the soul is fit, with no positive ignorance-substance posited — Dvaita; or (d) the operation of *māyā-śakti* on the *taṭasthā-śakti* — Acintya-Bhedābheda. There is no shared metaphysics here, only a shared diagnostic role.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Bhāvarūpa* (positively existent, not mere absence), *anirvacanīya* (indeterminable as either *sat* or *asat*), beginningless (*anādi*) but with end (*sānta*). It has two functions (*śakti*): *āvaraṇa* (concealment) and *vikṣepa* (projection). Madhusūdana's destructive dilemma in the *Advaita-Siddhi* establishes that *avidyā* must be *bhāvarūpa* against the Mādhva charge that mere absence cannot project. Locus-of-*avidyā* divides the school: Bhāmatī places it in the *jīva*; Vivaraṇa places it in *brahman* itself, with *brahman* as both *āśraya* (locus) and *viṣaya* (object).",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1 (adhyāsa-bhāṣya)", "Bhāmatī ad BSB 1.1.1", "Pañcapādikā-Vivaraṇa, varṇaka 4 (āśraya-viṣaya)", "Advaita-Siddhi, avidyā-pariccheda"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Avidyā* is not a positive ontological entity of indeterminable status. It is the *karma*-caused contraction of the *jīva*'s *dharmabhūta-jñāna*; the soul's intrinsic luminosity is real but veiled because its *jñāna*-substance has shrunk to the limits of the present body. Rāmānuja's *mahāsiddhānta* in the *Śrī-Bhāṣya* dismantles the Advaita doctrine of *anirvacanīya avidyā* through the seven *anupapattis* (untenabilities).",
+      "primary_loci": ["Śrī-Bhāṣya 1.1.1 (Mahāsiddhānta, sapta-anupapatti)", "Vedārtha-Saṅgraha §§14–35", "Śrī-Bhāṣya 2.3.42–53"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Avidyā* is not a positive *bhāvarūpa* substance. It is the soul's beginningless *karma*-bound condition under which Viṣṇu withholds *aparokṣa-jñāna* until the soul is intrinsically fit (*mukti-yogya*). Madhva and his successors (especially Vyāsatīrtha and Madhusūdana's contemporary Vyāsa-Tīrtha-corrected Vādirāja) deploy the *Nyāyāmṛta* and *Tarka-Tāṇḍava* to show that *avidyā* as *bhāvarūpa-anirvacanīya* is incoherent.",
+      "primary_loci": ["Madhva, Māyāvāda-Khaṇḍana §§1–8", "Vyāsatīrtha, Nyāyāmṛta, avidyā-bhaṅga", "Anu-Vyākhyāna 2.1"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "What looks like *avidyā* is the *jīva*'s being acted upon by *māyā-śakti* (specifically *jīva-māyā* as distinct from *guṇa-māyā*) when it turns from Kṛṣṇa. The condition is real but not metaphysically primitive; it is one of Kṛṣṇa's own *śaktis* operating on a *taṭasthā* particle.",
+      "primary_loci": ["Paramātma-Sandarbha §§47–55", "Bhakti-Sandarbha §§1–10"]
+    }
+  ],
+  "see_also": ["vidya", "maya", "adhyasa", "anirvacaniya", "asraya", "bhavarupa", "anyatha-khyati", "akhyati"],
+  "translator_note": "'Ignorance' is a passable English gloss but obscures the technical Advaita point: *avidyā* is not a privation (mere lack-of-knowledge, like Augustinian *privatio*) but a positive metaphysical entity that must be removed by a positive cognition. The other schools precisely deny that there is any such positive entity. Translating *avidyā* uniformly as 'ignorance' across schools collapses the fundamental disagreement."
+}
