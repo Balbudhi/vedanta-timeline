@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "generated_at": "2026-05-10T18:19:53Z",
+  "generated_at": "2026-05-10T18:30:52Z",
   "root": "data/sources/",
   "file_count": 78,
   "note": "Site-mirrored subset of the primary-text corpus. The full corpus (~8 GB) lives outside the repo at materials/primary_texts/; this manifest lists only the files shipped to GitHub Pages, which the Source tab fetches from data/sources/.",
