@@ -2,20 +2,35 @@
   "id": "yashovijaya",
   "name": "Yashovijaya",
   "name_iast": "Yaśovijaya",
-  "alternate_names": ["Yaśovijaya Upādhyāya", "Yaśovijayagaṇi", "Nyāya-Viśārada Yaśovijaya"],
+  "alternate_names": [
+    "Yaśovijaya Upādhyāya",
+    "Yaśovijayagaṇi",
+    "Nyāya-Viśārada Yaśovijaya"
+  ],
   "dates_low": 1624,
   "dates_high": 1688,
   "dates_tier": "confirmed-from-records",
   "dates_notes": "Dated by his own datable works (Saṃvat dates in colophons), by Vijayadevasūri's records of his Tapā-Gaccha investiture, and by his documented residence and study at Vārāṇasī under Brahmanical paṇḍitas in the 1640s; the dates 1624–1688 CE are settled in modern Jaina-historical scholarship (Tripāṭhī, Cort).",
   "dates_evidence": [
-    {"kind": "manuscript-colophon", "description": "Saṃvat colophon-dates in his own works fix the chronology."},
-    {"kind": "sectarian-chronicle", "description": "Tapā-Gaccha records of his initiation and investiture as Upādhyāya."}
+    {
+      "kind": "manuscript-colophon",
+      "description": "Saṃvat colophon-dates in his own works fix the chronology."
+    },
+    {
+      "kind": "sectarian-chronicle",
+      "description": "Tapā-Gaccha records of his initiation and investiture as Upādhyāya."
+    }
   ],
   "school": "Jaina",
   "school_color_token": "jaina-comparator",
   "sub_school": "Śvetāmbara — Navya-Nyāya-engaged",
   "sub_school_shade": 4,
-  "lineage_in": ["umasvati", "haribhadra", "hemacandra", "mallisena"],
+  "lineage_in": [
+    "umasvati",
+    "haribhadra",
+    "hemacandra",
+    "mallisena"
+  ],
   "lineage_out": [],
   "lineage_polemical": [
     {
@@ -47,8 +62,14 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely ascribed to Yaśovijaya by his own colophon and by uniform Tapā-Gaccha tradition.",
       "ascription_evidence": [
-        {"kind": "manuscript-colophon", "description": "Self-ascribed in the colophon."},
-        {"kind": "scholarly-consensus", "description": "Cort (Jains in the World); Tripāṭhī (modern editions of the Yaśovijaya corpus)."}
+        {
+          "kind": "manuscript-colophon",
+          "description": "Self-ascribed in the colophon."
+        },
+        {
+          "kind": "scholarly-consensus",
+          "description": "Cort (Jains in the World); Tripāṭhī (modern editions of the Yaśovijaya corpus)."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -60,15 +81,24 @@
       "work_id": "nyaya-loka",
       "title": "Nyaya-Loka",
       "title_iast": "Nyāya-Loka",
-      "alternate_titles": ["Nyāya-Khaṇḍa-Khādya", "Khaṇḍana-Khaṇḍa"],
+      "alternate_titles": [
+        "Nyāya-Khaṇḍa-Khādya",
+        "Khaṇḍana-Khaṇḍa"
+      ],
       "composition_dates_low": 1660,
       "composition_dates_high": 1685,
       "composition_dates_notes": "The most ambitious dialectical work of Yaśovijaya's mature period.",
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely ascribed to Yaśovijaya.",
       "ascription_evidence": [
-        {"kind": "manuscript-colophon", "description": "Self-ascribed."},
-        {"kind": "scholarly-consensus", "description": "Standard ascription in the Yaśovijaya canon."}
+        {
+          "kind": "manuscript-colophon",
+          "description": "Self-ascribed."
+        },
+        {
+          "kind": "scholarly-consensus",
+          "description": "Standard ascription in the Yaśovijaya canon."
+        }
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
@@ -86,7 +116,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely ascribed to Yaśovijaya.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Standard ascription; the work is canonical in the Śvetāmbara Adhyātma tradition."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Standard ascription; the work is canonical in the Śvetāmbara Adhyātma tradition."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -104,7 +137,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely ascribed to Yaśovijaya by Tapā-Gaccha tradition.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Standard ascription in the Yaśovijaya canon."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Standard ascription in the Yaśovijaya canon."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -119,5 +155,5 @@
   "entry_status": "draft",
   "entry_owner_agent": "non-vedic-comparator-extension-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "non-vedic-comparator-extension-opus"
+  "last_verified_by": "wave-editorializing-audit-opus"
 }

@@ -2,7 +2,10 @@
   "id": "candrasekhara-bharati",
   "name": "Chandrashekhara Bharati III",
   "name_iast": "Candraśekhara Bhāratī III",
-  "alternate_names": ["Narasiṃha Śāstrī (birth name)", "Jagadguru Śaṅkarācārya of Śṛṅgerī (1912–1954)"],
+  "alternate_names": [
+    "Narasiṃha Śāstrī (birth name)",
+    "Jagadguru Śaṅkarācārya of Śṛṅgerī (1912–1954)"
+  ],
   "dates_low": 1892,
   "dates_high": 1954,
   "dates_tier": "confirmed-from-records",
@@ -21,7 +24,10 @@
   "school_color_token": "advaita",
   "sub_school": "Śṛṅgerī-paṭṭa (modern living-Advaita)",
   "sub_school_shade": 4,
-  "lineage_in": ["sankara", "vidyaranya"],
+  "lineage_in": [
+    "sankara",
+    "vidyaranya"
+  ],
   "lineage_out": [],
   "lineage_polemical": [],
   "core_thesis": "Candraśekhara Bhāratī III, Jagadguru of the Śṛṅgerī Śāradā Pīṭha 1912–1954, embodies the twentieth-century continuity of the classical Advaita maṭha-tradition founded by Śaṅkara's disciple Sureśvara (Śṛṅgerī Śāradā Pīṭha *gurupāramparā* records, on the unbroken succession). His Sanskrit *Vivekacūḍāmaṇi-Bhāṣya* — a commentary on the school-ascribed *Vivekacūḍāmaṇi* — is the principal philosophical text he wrote, articulating the Advaita of the modern Śṛṅgerī curriculum, which draws on both Vivaraṇa and Bhāmatī sub-lines: *adhyāsa* of *jīva* on *Brahman* (*Vivekacūḍāmaṇi-Bhāṣya* on *VC* vv. 109–139, the *adhyāsa-vivekaḥ*; cf. Śaṅkara, *adhyāsa-bhāṣya* prefacing BSB 1.1.1), *māyā* as the *upādhi* of *Īśvara* (*VCB* on *VC* vv. 108, 197 *māyā-prakaraṇa*), *jñāna-niṣṭhā* as the operative *sādhana* (*VCB* on *VC* vv. 31–47 the *sādhana-catuṣṭaya* and vv. 56–58 on *brahma-jñāna* as *mokṣa-hetu*). His *Gururāja-Sūkti-Mālikā* — thirty-six short Sanskrit compositions in roughly four hundred pages — is the doctrinal-poetic record of his upadeśa to disciples (Sringeri Pīṭha publication colophon). Beyond his written corpus he is consequential as the embodied institutional witness that the unbroken Śṛṅgerī succession from Śaṅkara is doctrinally living rather than merely ceremonial — an essential datum for the timeline's modern terminus on the Advaita line. The doctrinal alignment is conservative orthodox Vivaraṇa-Bhāmatī Advaita, in continuity with the Śṛṅgerī curriculum of his predecessors and successors.",
@@ -34,7 +40,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Sanskrit commentary on the school-ascribed Vivekacūḍāmaṇi (whose attribution to Śaṅkara is itself contested; see the Śaṅkara entry).",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus; Sringeri publication colophon."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus; Sringeri publication colophon."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -50,7 +59,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Sanskrit doctrinal-poetic compositions.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus; Sringeri publication colophon."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus; Sringeri publication colophon."
+        }
       ],
       "genre": "stotra",
       "language": "sanskrit",
@@ -66,7 +78,10 @@
       "ascription_tier": "traditionally-ascribed",
       "ascription_notes": "Traditionally ascribed; transcribed by disciples and circulated in modern editions.",
       "ascription_evidence": [
-        {"kind": "school-acceptance", "description": "Sringeri publication tradition."}
+        {
+          "kind": "school-acceptance",
+          "description": "Sringeri publication tradition."
+        }
       ],
       "genre": "dialogue",
       "language": "sanskrit",
@@ -80,5 +95,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-corpus-v2-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-batch4-opus"
+  "last_verified_by": "wave-editorializing-audit-opus"
 }

@@ -2,7 +2,9 @@
   "id": "dharmakirti",
   "name": "Dharmakirti",
   "name_iast": "Dharmakīrti",
-  "alternate_names": ["Chos-kyi-grags-pa"],
+  "alternate_names": [
+    "Chos-kyi-grags-pa"
+  ],
   "dates_low": 600,
   "dates_high": 660,
   "dates_tier": "consensus-textual",
@@ -11,7 +13,9 @@
   "school_color_token": "buddhist-pramana-comparator",
   "sub_school": "Pramāṇa-vāda-mature",
   "sub_school_shade": 4,
-  "lineage_in": ["dignaga"],
+  "lineage_in": [
+    "dignaga"
+  ],
   "lineage_out": [],
   "lineage_polemical": [
     {
@@ -41,11 +45,16 @@
       "work_id": "pramana-varttika",
       "title": "Pramana-Varttika",
       "title_iast": "Pramāṇa-Vārttika",
-      "alternate_titles": ["PV"],
+      "alternate_titles": [
+        "PV"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored. Survives in Sanskrit with auto-commentary on the svārthānumāna chapter and with the commentaries of Devendrabuddhi, Manorathanandin, Prajñākaragupta, and others.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Frauwallner 1954–55; Sāṅkṛtyāyana 1938 critical edition."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Frauwallner 1954–55; Sāṅkṛtyāyana 1938 critical edition."
+        }
       ],
       "genre": "varttika",
       "language": "sanskrit",
@@ -57,11 +66,16 @@
       "work_id": "pramana-vinishchaya",
       "title": "Pramana-Vinishchaya",
       "title_iast": "Pramāṇa-Viniścaya",
-      "alternate_titles": ["PVin"],
+      "alternate_titles": [
+        "PVin"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored. Sanskrit original largely lost; survives complete in Tibetan; partial Sanskrit recovered in recent decades (Steinkellner critical editions).",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Steinkellner critical editions of chapters 1–3."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Steinkellner critical editions of chapters 1–3."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -73,7 +87,9 @@
       "work_id": "nyaya-bindu",
       "title": "Nyaya-Bindu",
       "title_iast": "Nyāya-Bindu",
-      "alternate_titles": ["Nb"],
+      "alternate_titles": [
+        "Nb"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored. The Sanskrit text survives complete with Dharmottara's Tīkā.",
       "genre": "prakarana",
@@ -125,5 +141,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-buddhist-comparators-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-buddhist-comparators-opus"
+  "last_verified_by": "wave-editorializing-audit-opus"
 }

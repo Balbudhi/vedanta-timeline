@@ -12,7 +12,10 @@
   "sub_school": "Spanda — founding",
   "sub_school_shade": 1,
   "lineage_in": [],
-  "lineage_out": ["bhatta-kallata", "ksemaraja"],
+  "lineage_out": [
+    "bhatta-kallata",
+    "ksemaraja"
+  ],
   "lineage_polemical": [],
   "core_thesis": "Non-Vedāntin comparator (founder of the Spanda lineage; revealer of the Śiva-Sūtra). Vasugupta is the figure to whom the *Śiva-Sūtra* — the founding revealed scripture of the Trika tradition after the Tantras themselves — is traditionally credited, on the account that Śiva revealed the seventy-seven sūtras to him on the rock of Mahādeva mountain in Kashmir. The sūtras are organised into three *unmeṣas* — *Śāmbhava* (*ŚS* 1.1–22), *Śākta* (*ŚS* 2.1–10), *Āṇava* (*ŚS* 3.1–45) — corresponding to three soteriological registers, and open with *caitanyam ātmā* (*ŚS* 1.1, \"the self is consciousness itself\"). The Spanda doctrine — that consciousness is intrinsically a pulsation (*spanda*) by which the entire manifest universe is continuously projected, sustained, and reabsorbed (*Spanda-Kārikā* 1.1, *yasyonmeṣa-nimeṣābhyāṃ jagataḥ pralayodayau*) — is on one tradition Vasugupta's own articulation in the *Spanda-Kārikā*; on another the *Kārikā* is the work of his disciple Kallaṭa. *Spanda* in either case names the dynamism of *manifestation as a whole*: closer in scope to *prakṛti* itself or to *mahāmāyā* than to any single *guṇa*, and definitively not equatable with *rajas* (the totality-scope is established by *SpK* 1.1 *jagataḥ* covering the entire cosmic field). Vasugupta thus founds the second of the three streams (Spanda, Pratyabhijñā, Kula / Krama) Abhinavagupta later draws on in the *Tantrāloka* (*Tantrāloka* 1.5 acknowledging the Spanda inheritance).",
   "engaged_works": [
@@ -24,8 +27,14 @@
       "ascription_tier": "traditionally-ascribed",
       "ascription_notes": "Traditionally ascribed to Vasugupta as the recipient of Śiva's revelation; the school's foundational scripture after the Tantras themselves. The traditional account is that Śiva revealed the sūtras to Vasugupta on the rock of Mahādeva mountain.",
       "ascription_evidence": [
-        {"kind": "school-acceptance", "description": "Universal acceptance within the Trika tradition; the ascription is constitutive of the school's self-understanding."},
-        {"kind": "internal-references", "description": "Kṣemarāja's Śiva-Sūtra-Vimarśinī presupposes Vasugupta's role as recipient."}
+        {
+          "kind": "school-acceptance",
+          "description": "Universal acceptance within the Trika tradition; the ascription is constitutive of the school's self-understanding."
+        },
+        {
+          "kind": "internal-references",
+          "description": "Kṣemarāja's Śiva-Sūtra-Vimarśinī presupposes Vasugupta's role as recipient."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -37,12 +46,20 @@
       "work_id": "spanda-karika",
       "title": "Spanda-Karika",
       "title_iast": "Spanda-Kārikā",
-      "alternate_titles": ["Spanda-Sūtra"],
+      "alternate_titles": [
+        "Spanda-Sūtra"
+      ],
       "ascription_tier": "disputed",
       "ascription_notes": "Authorship disputed within the school's own tradition: one tradition (followed by Kṣemarāja in the Spanda-Nirṇaya) credits the Kārikā to Vasugupta as a verse-distillation of the Spanda doctrine implicit in the Śiva-Sūtra; the other tradition credits the Kārikā to Vasugupta's disciple Bhaṭṭa Kallaṭa. The text itself is anonymous in its earliest manuscript witnesses. Modern scholarship is divided; Mark Dyczkowski's studies are the principal modern treatment of the question.",
       "ascription_evidence": [
-        {"kind": "scholarly-dispute", "description": "Two competing traditions of ascription, both with internal Trika support; the text's authorship cannot be settled on present evidence."},
-        {"kind": "school-acceptance", "description": "Both ascriptions are accepted as legitimate within different sub-strands of the Trika tradition."}
+        {
+          "kind": "scholarly-dispute",
+          "description": "Two competing traditions of ascription, both with internal Trika support; the text's authorship cannot be settled on present evidence."
+        },
+        {
+          "kind": "school-acceptance",
+          "description": "Both ascriptions are accepted as legitimate within different sub-strands of the Trika tradition."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -57,5 +74,5 @@
   "entry_status": "draft",
   "entry_owner_agent": "trika-shakta-extension-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-batch5-opus"
+  "last_verified_by": "wave-editorializing-audit-opus"
 }

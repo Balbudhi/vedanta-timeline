@@ -2,7 +2,9 @@
   "id": "bannanje",
   "name": "Bannanje Govindacharya",
   "name_iast": "Bannañje Govindācārya",
-  "alternate_names": ["Vidyāvācaspati Bannanje Govindācārya"],
+  "alternate_names": [
+    "Vidyāvācaspati Bannanje Govindācārya"
+  ],
   "dates_low": 1936,
   "dates_high": 2020,
   "dates_tier": "confirmed-from-records",
@@ -21,7 +23,11 @@
   "school_color_token": "dvaita",
   "sub_school": "Tattvavāda (modern philological-textual)",
   "sub_school_shade": 5,
-  "lineage_in": ["madhva", "raghavendra", "jayatirtha"],
+  "lineage_in": [
+    "madhva",
+    "raghavendra",
+    "jayatirtha"
+  ],
   "lineage_out": [],
   "lineage_polemical": [],
   "core_thesis": "Bannañje Govindācārya is the modern Mādhva scholar whose Sanskrit philological-philosophical output — approximately 4,000 pages of Sanskrit *vyākhyāna* across some 150 books — re-establishes Madhva's full *Sarva-Mūla-Granthāḥ* as a critically-edited, textually-stable corpus (Bannañje, ed., *Sarva-Mūla-Granthāḥ*, Pūrṇaprajña Vidyāpīṭha edition, 38 vols., general Introduction to vol. 1) and supplies Dvaita commentaries on the *Veda-Sūktas*, the principal Upaniṣads, the *Śata-Rudriya*, the *Brahma-Sūtra*, the *Bhagavad-Gītā*, the *Mahābhārata-Tātparya-Nirṇaya*, and the *Bhāgavata-Purāṇa* (cf. the *Sarva-Mūla* edition vols. on *Ṛg-Bhāṣya*, *Upaniṣad-bhāṣyas*, *Brahma-Sūtra-Bhāṣya*, *Gītā-Bhāṣya*, *Mahābhārata-Tātparya-Nirṇaya*, and *Bhāgavata-Tātparya-Nirṇaya*). Trained at Pūrṇaprajña Vidyāpīṭha, Bengaluru, he combined Mahāmahopādhyāya-grade traditional learning with modern critical-editorial method. Three distinctive emphases run through the work. First, the textual recovery of Madhva's intended readings against later scholastic accretion (Bannañje, *Sarva-Mūla* edition, Introductions to the *Brahma-Sūtra-Bhāṣya* and *Anuvyākhyāna* volumes). Second, the defense of the historical and philosophical priority of the *Bhāgavata*-tradition's Mādhva interpretation (Bannañje, *Bhāgavata-Vyākhyāna*, Introduction to vol. 1; cf. *Mahābhārata-Tātparya-Nirṇaya Sanskrit Vyākhyāna*, prefatory remarks). Third, work conducted simultaneously within the Udupi *aṣṭa-maṭha* sectarian apparatus and within academic Indology (Bannañje, *Ācārya Madhva: Baḍuku-Bareha*, Kannada, Sāgar Publications edition, 'Pīṭhike' / Introduction). He is the principal modern conduit through whom Madhva's full corpus reaches contemporary readers, and the Dvaita school's premier twentieth- and early-twenty-first-century philological figure.",
@@ -34,7 +40,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored editorial labour; the modern textus receptus for Madhva's full surviving Sanskrit corpus.",
       "ascription_evidence": [
-        {"kind": "manuscript-colophon", "description": "Pūrṇaprajña Vidyāpīṭha publication colophons."}
+        {
+          "kind": "manuscript-colophon",
+          "description": "Pūrṇaprajña Vidyāpīṭha publication colophons."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -50,7 +59,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Sanskrit commentary.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -66,7 +78,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Sanskrit commentary in the Mādhva exegetical tradition.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -82,7 +97,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored editorial-commentarial labour.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "upanisad-bhashya",
       "language": "sanskrit",
@@ -98,7 +116,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Kannada biographical-critical study.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus; Sāhitya Akademi recognition."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus; Sāhitya Akademi recognition."
+        }
       ],
       "genre": "prakarana",
       "language": "kannada",
@@ -114,7 +135,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Sanskrit commentary on Trivikrama Paṇḍita's Vāyu-Stuti.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -128,5 +152,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-corpus-v2-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-batch4-opus"
+  "last_verified_by": "wave-editorializing-audit-opus"
 }

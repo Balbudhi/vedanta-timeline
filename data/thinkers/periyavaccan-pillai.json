@@ -1,0 +1,86 @@
+{
+  "id": "periyavaccan-pillai",
+  "name": "Periyavaccan Pillai",
+  "name_iast": "Periyavāccān Piḷḷai",
+  "alternate_names": [
+    "Vyākhyā-Cakravartī",
+    "Kṛṣṇapāda"
+  ],
+  "dates_low": 1167,
+  "dates_high": 1262,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Senior contemporary of Pillai-Lokācārya; sectarian chronicles plus manuscript colophons. Honoured throughout the Tenkalai tradition as 'Vyākhyā-Cakravartī' — emperor among commentators — for the comprehensiveness of his Divya-Prabandham commentaries.",
+  "school": "Viśiṣṭādvaita",
+  "school_color_token": "vishishtadvaita",
+  "sub_school": "Tenkalai-vyākhyā-cakravarti",
+  "sub_school_shade": 4,
+  "lineage_in": [
+    "ramanuja",
+    "nathamuni"
+  ],
+  "lineage_out": [
+    "pillai-lokacarya",
+    "manavala-mamunigal"
+  ],
+  "lineage_polemical": [],
+  "core_thesis": "Periyavāccān Piḷḷai is the *vyākhyā-cakravarti* — the \"emperor among commentators\" — of the Tenkalai tradition, the figure through whom the Āḻvārs' *Divya-Prabandham* receives comprehensive Tamil-Maṇipravāḷa exposition for the first time. The Viśiṣṭādvaita doctrinal architecture is preserved without revision: Brahman as Nārāyaṇa-with-Śrī, qualified by *cit* and *acit* in *apṛthak-siddha* relation as his body (*Tiruvāymoḻi-Vyākhyāna*, on *Tiruvāymoḻi* 1.1.1, on *uyarvu-uyar nalam uṭaiyavan*); the *jīva* as eternal *aṃśa* with *jñātṛtva* and *kartṛtva* dependent on Bhagavān's *anumati* (*Tiruvāymoḻi-Vyākhyāna*, on *Tiruvāymoḻi* 7.1.1 ff.); the *prabandham* as *Drāviḍa-Veda*, *śruti*-equivalent in interpretive force (*Vyākhyāna-Avatārikā* on *Tiruvāymoḻi*).\n\nThe contribution that defines his place in the lineage is the comprehensiveness of the *vyākhyāna*-corpus. Periyavāccān is the only Śrīvaiṣṇava commentator to produce a complete Tamil-Maṇipravāḷa commentary on the entire *Nālāyira-Divya-Prabandham* — the four-thousand verse Āḻvār corpus including the *Tiruvāymoḻi*, the *Tiruviruttam*, the *Tiruvāciriyam*, the *Periya-Tiruvantāti*, the *Tiruppāvai*, the *Periyāḻvār Tirumoḻi*, the *Tiruppallāṇṭu*, and the remaining *prabandhas*. The standard commentaries on the *Tiruppāvai* (*Periyavāccān-Piḷḷai-Vyākhyāna* on Āṇṭāḷ's 30 verses), the *Tiruppallāṇṭu* (his *vyākhyāna* fixes the school's reading of Periyāḻvār's *maṅgala*-hymn), and the *Periya-Tirumoḻi* (his *vyākhyāna* on Tirumaṅgai-Āḻvār's verses) become the lineage's settled readings.\n\nThe commentaries are doctrinal in form: each Āḻvār-verse is opened first philologically, then doctrinally, with explicit cross-reference to the school's settled positions on *prapatti*, *bhāgavata-śeṣatva*, and *anugraha*. The work establishes the practice of reading the *Divya-Prabandham* as a doctrinal corpus in its own right — *Drāviḍa-Veda* with the same interpretive authority as the Sanskrit Upaniṣads — and is the textual base on which Pillai-Lokācārya's school-defining articulation of *prapatti*-soteriology and Maṇavāḷa Māmunigaḷ's later exposition both rest. Without Periyavāccān's *vyākhyāna*-corpus the *prabandham*-reading practice that defines the Tenkalai school would lack its commentarial foundation.",
+  "engaged_works": [
+    {
+      "work_id": "tiruvaymoli-vyakhyana-twenty-four-thousand",
+      "title": "Tiruvaymoli-Vyakhyana (Twenty-Four-Thousand-padi)",
+      "title_iast": "Tiruvāymoḻi-Vyākhyāna (Irupatti-nāl-āyira-paṭi)",
+      "alternate_titles": [
+        "24000-paṭi"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Tamil-Maṇipravāḷa commentary on Nāmmāḻvār's Tiruvāymoḻi, transmitted in the Śrīvaiṣṇava manuscript canon and recited in the school's daily kālakṣepam tradition.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."},
+        {"kind": "sectarian-chronicle", "description": "Continuous Śrīvaiṣṇava-paramparā transmission."}
+      ],
+      "genre": "tika",
+      "language": "tamil-manipravala",
+      "summary": "The *Twenty-Four-Thousand-paṭi* is Periyavāccān's Tamil-Maṇipravāḷa commentary on Nāmmāḻvār's *Tiruvāymoḻi* — the third of the four canonical *Tiruvāymoḻi*-commentaries (after Tirukkurukai-Pirān Piḷḷān's 6000-paṭi and Naṅjīyar's 9000-paṭi, and before Vaḍakkutiruvīdhi-Piḷḷai's 36000-paṭi), and the longest commentary on the *Tiruvāymoḻi* in the Śrīvaiṣṇava canon excepting only the *Īḍu*. The method is verse-by-verse exposition: each of the 1102 verses is opened first philologically (Tamil grammar, lexical glosses, syntactic resolution), then doctrinally (cross-reference to the school's settled positions on Brahman-as-Nārāyaṇa, on *prapatti*, on *bhāgavata-śeṣatva*), then devotionally (the *bhāva*-mode in which the Āḻvār is speaking). Particularly load-bearing are the openings: *Tiruvāymoḻi* 1.1.1 (*uyarvu-uyar nalam uṭaiyavan*) is read as the verse's own statement that Bhagavān's *kalyāṇa-guṇas* are infinite and not exhaustively enumerable, fixing the school's *para-tva* doctrine in Tamil. *Tiruvāymoḻi* 6.10.10 — the *carama-prapatti*-verse — is read as the Āḻvār's enactment of *śaraṇāgita* in the form Pillai-Lokācārya will later articulate scholastically. *Tiruvāymoḻi* 10.10.11 — the closing *phala-śruti* — is read as fixing the *bhāgavata-niṣṭhā* that Pillai-Lokācārya's *Śrī-Vacana-Bhūṣaṇa* §§406–438 will articulate as *bhāgavata-śeṣatva*. The commentary is the school's standard mid-length *Tiruvāymoḻi*-reading and is read in *kālakṣepam* (oral exposition) across the Tenkalai *maṭhas*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "tiruppavai-vyakhyana",
+      "title": "Tiruppavai-Vyakhyana",
+      "title_iast": "Tiruppāvai-Vyākhyāna",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Tamil-Maṇipravāḷa commentary on Āṇṭāḷ's Tiruppāvai.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "tamil-manipravala",
+      "summary": "Periyavāccān's commentary on Āṇṭāḷ's *Tiruppāvai* — the 30-verse Āḻvār-poem of the *mārgaḻi*-month *vrata* in which Āṇṭāḷ and her companion *gopīs* awaken Kṛṣṇa to receive their petition for *kaiṅkarya* (eternal service). The commentary establishes the school's settled reading of the *Tiruppāvai* and is the principal Śrīvaiṣṇava *vyākhyāna* on Āṇṭāḷ's poem. Three loci do the load-bearing doctrinal work. (i) The opening verse (*mārgaḻi tiṅkaḷ*) is read as Āṇṭāḷ's enactment of the *adhikārī*'s entry into *prapatti* through the *bhāgavata-saṃsarga* of the *gopīs*' company, fixing the school's reading of *prapatti* as community-mediated rather than as an individual act of cognition. (ii) Verses 24–28 (the *Govinda*-and-*Mādhava*-petitions) are read as the *prapanna*'s articulation of the *upāya*-and-*upeya* relation: Bhagavān is both means and end, and the petition asks for *kaiṅkarya* itself rather than for any subordinate *phala*. (iii) The closing verse (*vaṅkak-kaṭal*) is read as Āṇṭāḷ's self-identification of her *adhikāra* — she is Periyāḻvār's daughter, *bhāgavatī* by birth, and her *prapatti* is mediated through the *bhāgavata-paramparā*. The commentary is the standard Śrīvaiṣṇava reading of the *Tiruppāvai* and is recited in the school's daily *mārgaḻi*-month liturgy across the Śrīvaiṣṇava temples.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "stotra-ratna-vyakhyana",
+      "title": "Stotra-Ratna-Vyakhyana",
+      "title_iast": "Stotra-Ratna-Vyākhyāna",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Tamil-Maṇipravāḷa commentary on Yāmuna's Stotra-Ratna.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "tamil-manipravala",
+      "summary": "Periyavāccān's Tamil-Maṇipravāḷa commentary on Yāmuna's *Stotra-Ratna* — the 65-verse Sanskrit hymn that fixes in compressed lyric form the doctrinal architecture of pre-Rāmānuja Śrīvaiṣṇavism. The commentary opens Yāmuna's compressed verses for the school's reading, with particular attention to the verses Pillai-Lokācārya later treats as foundational for Tenkalai *prapatti*-doctrine. *Stotra-Ratna* v. 22 (*na dharma-niṣṭho 'smi*) is the locus classicus of the *ākiñcana*-stance — the surrendered self's recognition of his own incapacity, on which Pillai-Lokācārya's *Śrī-Vacana-Bhūṣaṇa* §83 will rest the entire *prapatti*-soteriology. Periyavāccān's commentary fixes the reading of the verse as a positive *adhikāra*-statement (incapacity is the *adhikāra* for *prapatti*, not merely an empirical condition), in the form Pillai-Lokācārya's articulation will presuppose. *Stotra-Ratna* v. 60 (the *Catuḥ-Ślokī*-anticipation) is read as Yāmuna's first articulation of Śrī's *upāya*-status (later developed in his *Catuḥ-Ślokī* and fixed by Pillai-Lokācārya in *Śrī-Vacana-Bhūṣaṇa* §§9–42). The commentary is the school's standard reading of Yāmuna's hymn and is read in the Tenkalai *kālakṣepam* tradition as the immediate precursor to Pillai-Lokācārya's rahasya-corpus.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-intra-school-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-intra-school-opus"
+}

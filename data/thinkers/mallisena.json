@@ -2,7 +2,9 @@
   "id": "mallisena",
   "name": "Mallisena",
   "name_iast": "Malliṣeṇa",
-  "alternate_names": ["Malliṣeṇa Sūri"],
+  "alternate_names": [
+    "Malliṣeṇa Sūri"
+  ],
   "dates_low": 1230,
   "dates_high": 1295,
   "dates_tier": "consensus-textual",
@@ -11,7 +13,11 @@
   "school_color_token": "jaina-comparator",
   "sub_school": "Śvetāmbara syādvāda-systematic",
   "sub_school_shade": 3,
-  "lineage_in": ["umasvati", "haribhadra", "hemacandra"],
+  "lineage_in": [
+    "umasvati",
+    "haribhadra",
+    "hemacandra"
+  ],
   "lineage_out": [],
   "lineage_polemical": [
     {
@@ -31,15 +37,24 @@
       "work_id": "syadvada-manjari",
       "title": "Syadvada-Manjari",
       "title_iast": "Syādvāda-Mañjarī",
-      "alternate_titles": ["Anya-Yoga-Vyavaccheda-Dvātriṃśikā-Vṛtti", "Anya-Yoga-Vyavaccheda-Bouquet"],
+      "alternate_titles": [
+        "Anya-Yoga-Vyavaccheda-Dvātriṃśikā-Vṛtti",
+        "Anya-Yoga-Vyavaccheda-Bouquet"
+      ],
       "composition_dates_low": 1292,
       "composition_dates_high": 1292,
       "composition_dates_notes": "Colophon dates the work precisely to Vikrama saṃvat 1349, equivalent to 1292 CE; the colophon is among the most secure dating-evidence in the Jaina commentarial tradition.",
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely ascribed to Malliṣeṇa by his own colophon and by uniform Śvetāmbara tradition; the Yāpanīya / Śvetāmbara sectarian affiliation of the author is disputed but the Śvetāmbara reception has been canonical.",
       "ascription_evidence": [
-        {"kind": "manuscript-colophon", "description": "Colophon-date in the standard editions (Bombay 1933 ed. by Dhruva)."},
-        {"kind": "scholarly-consensus", "description": "Cort (Jains in the World); Soni; Dundas (1992, The Jains)."}
+        {
+          "kind": "manuscript-colophon",
+          "description": "Colophon-date in the standard editions (Bombay 1933 ed. by Dhruva)."
+        },
+        {
+          "kind": "scholarly-consensus",
+          "description": "Cort (Jains in the World); Soni; Dundas (1992, The Jains)."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -54,5 +69,5 @@
   "entry_status": "draft",
   "entry_owner_agent": "non-vedic-comparator-extension-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "non-vedic-comparator-extension-opus"
+  "last_verified_by": "wave-editorializing-audit-opus"
 }

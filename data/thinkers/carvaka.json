@@ -2,7 +2,11 @@
   "id": "carvaka",
   "name": "Carvaka / Lokayata (position-entry)",
   "name_iast": "Cārvāka / Lokāyata",
-  "alternate_names": ["Lokāyatika", "Bārhaspatya", "Nāstika (in opponents' usage)"],
+  "alternate_names": [
+    "Lokāyatika",
+    "Bārhaspatya",
+    "Nāstika (in opponents' usage)"
+  ],
   "dates_low": -600,
   "dates_high": 1300,
   "dates_tier": "oral-tradition-only",
@@ -36,14 +40,19 @@
       "work_id": "barhaspatya-sutra-fragments",
       "title": "Barhaspatya-Sutra (fragmentary, hostile-source-only)",
       "title_iast": "Bārhaspatya-Sūtra (fragments)",
-      "alternate_titles": ["Lokāyata-Sūtra (alternative title used in some hostile sources)"],
+      "alternate_titles": [
+        "Lokāyata-Sūtra (alternative title used in some hostile sources)"
+      ],
       "composition_dates_low": -600,
       "composition_dates_high": 600,
       "composition_dates_notes": "Composition-date is essentially unconstrainable: the position is attested early (Pāyāsi-Suttanta) but the hypothetical Bārhaspatya-Sūtra survives only in fragments cited by later opponents.",
       "ascription_tier": "disputed",
       "ascription_notes": "The Bārhaspatya-Sūtra is traditionally ascribed to Bṛhaspati but no continuous text survives; the fragments cited in opponents may or may not derive from a single sūtra-text, and some are likely later doxographer-reconstructions of the position rather than authentic sūtra-citations.",
       "ascription_evidence": [
-        {"kind": "scholarly-dispute", "description": "Bhattacharya (Studies on the Cārvāka / Lokāyata, 2011) catalogues the surviving fragments and discusses the methodological question of which are likely authentic sūtra-citations."}
+        {
+          "kind": "scholarly-dispute",
+          "description": "Bhattacharya (Studies on the Cārvāka / Lokāyata, 2011) catalogues the surviving fragments and discusses the methodological question of which are likely authentic sūtra-citations."
+        }
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
@@ -58,5 +67,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-darsana-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-batch6-opus"
+  "last_verified_by": "wave-editorializing-audit-opus"
 }

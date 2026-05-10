@@ -2,7 +2,9 @@
   "id": "lakshmidhara",
   "name": "Lakshmidhara",
   "name_iast": "Lakṣmīdhara",
-  "alternate_names": ["Lakṣmīdharācārya"],
+  "alternate_names": [
+    "Lakṣmīdharācārya"
+  ],
   "dates_low": 1500,
   "dates_high": 1600,
   "dates_tier": "consensus-textual",
@@ -26,11 +28,17 @@
       "work_id": "saundarya-lahari-vrtti",
       "title": "Saundarya-Lahari-Vrtti",
       "title_iast": "Saundarya-Laharī-Vṛtti",
-      "alternate_titles": ["Lakṣmīdharā-Vṛtti", "Lakṣmīdharā"],
+      "alternate_titles": [
+        "Lakṣmīdharā-Vṛtti",
+        "Lakṣmīdharā"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored commentary; the standard South-Indian Smārta-aligned commentary on the Saundarya-Laharī.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus; the Lakṣmīdharā-Vṛtti is the principal South-Indian commentary by which the Saundarya-Laharī is read in Smārta tradition."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus; the Lakṣmīdharā-Vṛtti is the principal South-Indian commentary by which the Saundarya-Laharī is read in Smārta tradition."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -45,5 +53,5 @@
   "entry_status": "draft",
   "entry_owner_agent": "trika-shakta-extension-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-batch5-opus"
+  "last_verified_by": "wave-editorializing-audit-opus"
 }

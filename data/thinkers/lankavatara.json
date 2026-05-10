@@ -2,7 +2,10 @@
   "id": "lankavatara",
   "name": "Lankavatara-Sutra",
   "name_iast": "Laṅkāvatāra-Sūtra",
-  "alternate_names": ["Saddharma-Laṅkāvatāra-Sūtra", "LAS"],
+  "alternate_names": [
+    "Saddharma-Laṅkāvatāra-Sūtra",
+    "LAS"
+  ],
   "dates_low": 350,
   "dates_high": 450,
   "dates_tier": "contested",
@@ -36,11 +39,17 @@
       "work_id": "lankavatara-sutra",
       "title": "Lankavatara-Sutra",
       "title_iast": "Laṅkāvatāra-Sūtra",
-      "alternate_titles": ["Saddharma-Laṅkāvatāra-Sūtra", "LAS"],
+      "alternate_titles": [
+        "Saddharma-Laṅkāvatāra-Sūtra",
+        "LAS"
+      ],
       "ascription_tier": "school-ascribed",
       "ascription_notes": "School-ascribed Mahāyāna sūtra; not the work of an identified author but the redactional product of the early-to-mid Mahāyāna milieu in which the Tathāgatagarbha-Yogācāra synthesis was being articulated. Sanskrit edition Nanjio 1923; English translations Suzuki 1932, Red Pine 2012.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Suzuki 1930, Studies in the Lankavatara Sutra; Sutton 1991, Existence and Enlightenment in the Lankavatara-Sutra."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Suzuki 1930, Studies in the Lankavatara Sutra; Sutton 1991, Existence and Enlightenment in the Lankavatara-Sutra."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -55,5 +64,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-buddhist-comparators-extension-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-buddhist-comparators-extension-opus"
+  "last_verified_by": "wave-editorializing-audit-opus"
 }

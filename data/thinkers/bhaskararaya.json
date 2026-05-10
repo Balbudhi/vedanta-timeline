@@ -2,7 +2,11 @@
   "id": "bhaskararaya",
   "name": "Bhaskararaya",
   "name_iast": "Bhāskararāya Makhin",
-  "alternate_names": ["Bhāsurānanda Nātha", "Bhāskara-Bhāratī", "Bhāskararāya Bhāratī"],
+  "alternate_names": [
+    "Bhāsurānanda Nātha",
+    "Bhāskara-Bhāratī",
+    "Bhāskararāya Bhāratī"
+  ],
   "dates_low": 1690,
   "dates_high": 1785,
   "dates_tier": "consensus-textual",
@@ -27,7 +31,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored commentary on the Lalitā-Sahasranāma.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus; the Saubhāgya-Bhāskara is the standard Śrīvidyā commentary on the Lalitā-Sahasranāma in the Sanskrit tradition."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus; the Saubhāgya-Bhāskara is the standard Śrīvidyā commentary on the Lalitā-Sahasranāma in the Sanskrit tradition."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -39,14 +46,19 @@
       "work_id": "setubandha",
       "title": "Setubandha",
       "title_iast": "Setubandha",
-      "alternate_titles": ["Nityā-Ṣoḍaśikārṇava-Setubandha"],
+      "alternate_titles": [
+        "Nityā-Ṣoḍaśikārṇava-Setubandha"
+      ],
       "composition_dates_low": 1730,
       "composition_dates_high": 1740,
       "composition_dates_notes": "Composed ca. 1733 per manuscript colophons.",
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored commentary on the Nityā-ṣoḍaśikārṇava (the first part of the Vāmakeśvara-Tantra).",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -62,7 +74,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored independent treatise on Śrīvidyā worship; with Bhāskararāya's own auto-commentary, the Prakāśa.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -77,5 +92,5 @@
   "entry_status": "draft",
   "entry_owner_agent": "trika-shakta-extension-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-batch5-opus"
+  "last_verified_by": "wave-editorializing-audit-opus"
 }

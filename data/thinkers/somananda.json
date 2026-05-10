@@ -12,7 +12,9 @@
   "sub_school": "Pratyabhijñā founder",
   "sub_school_shade": 1,
   "lineage_in": [],
-  "lineage_out": ["utpaladeva"],
+  "lineage_out": [
+    "utpaladeva"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "bhartrhari",
@@ -40,7 +42,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored founding text of the Pratyabhijñā lineage; the first systematic non-dual Śaiva treatise of the Kashmirian tradition.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus (Nemec 2011 critical edition and translation of āhnikas 1–3 and 7; earlier KSTS edition of the whole)."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus (Nemec 2011 critical edition and translation of āhnikas 1–3 and 7; earlier KSTS edition of the whole)."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -55,5 +60,5 @@
   "entry_status": "draft",
   "entry_owner_agent": "trika-shakta-extension-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-batch5-opus"
+  "last_verified_by": "wave-editorializing-audit-opus"
 }

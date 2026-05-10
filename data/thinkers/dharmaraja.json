@@ -11,7 +11,10 @@
   "school_color_token": "advaita",
   "sub_school": "Vivaraṇa-pedagogical",
   "sub_school_shade": 4,
-  "lineage_in": ["citsukha", "madhusudana"],
+  "lineage_in": [
+    "citsukha",
+    "madhusudana"
+  ],
   "lineage_out": [],
   "lineage_polemical": [
     {
@@ -35,7 +38,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored; the standard manual of Advaita epistemology.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -49,5 +55,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-opus"
+  "last_verified_by": "wave-editorializing-audit-opus"
 }

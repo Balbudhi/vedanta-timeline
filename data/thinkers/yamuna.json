@@ -2,7 +2,9 @@
   "id": "yamuna",
   "name": "Yamunacharya",
   "name_iast": "Yāmunācārya",
-  "alternate_names": ["Āḷavandār"],
+  "alternate_names": [
+    "Āḷavandār"
+  ],
   "dates_low": 916,
   "dates_high": 1041,
   "dates_tier": "oral-tradition-only",
@@ -11,8 +13,12 @@
   "school_color_token": "vishishtadvaita",
   "sub_school": "Proto-systematic Viśiṣṭādvaita",
   "sub_school_shade": 2,
-  "lineage_in": ["nathamuni"],
-  "lineage_out": ["ramanuja"],
+  "lineage_in": [
+    "nathamuni"
+  ],
+  "lineage_out": [
+    "ramanuja"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "vasubandhu",
@@ -36,11 +42,18 @@
       "work_id": "siddhi-trayam",
       "title": "Siddhi-Trayam",
       "title_iast": "Siddhi-Trayam",
-      "alternate_titles": ["Ātma-Siddhi", "Īśvara-Siddhi", "Saṃvit-Siddhi"],
+      "alternate_titles": [
+        "Ātma-Siddhi",
+        "Īśvara-Siddhi",
+        "Saṃvit-Siddhi"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored triad of Siddhi-treatises (Ātma-, Īśvara-, Saṃvit-Siddhi).",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -60,7 +73,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored defense of Pāñcarātra agama-validity.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
@@ -76,7 +92,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored devotional hymn.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "stotra",
       "language": "sanskrit",
@@ -94,7 +113,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored four-verse hymn to Śrī.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "stotra",
       "language": "sanskrit",
@@ -1406,5 +1428,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-batch2-opus"
+  "last_verified_by": "wave-editorializing-audit-opus"
 }

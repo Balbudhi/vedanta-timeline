@@ -2,7 +2,10 @@
   "id": "bhatta-ramakantha",
   "name": "Bhatta Ramakantha II",
   "name_iast": "Bhaṭṭa Rāmakaṇṭha II",
-  "alternate_names": ["Rāmakaṇṭha", "Rāmakaṇṭha-Bhaṭṭa"],
+  "alternate_names": [
+    "Rāmakaṇṭha",
+    "Rāmakaṇṭha-Bhaṭṭa"
+  ],
   "dates_low": 950,
   "dates_high": 1000,
   "dates_tier": "consensus-textual",
@@ -11,7 +14,9 @@
   "school_color_token": "kashmir-shaiva-dualist",
   "sub_school": "Kashmir Śaiva-Siddhānta (mature commentarial)",
   "sub_school_shade": 4,
-  "lineage_in": ["sadyojyotis"],
+  "lineage_in": [
+    "sadyojyotis"
+  ],
   "lineage_out": [],
   "lineage_polemical": [
     {
@@ -36,11 +41,16 @@
       "work_id": "matanga-vrtti",
       "title": "Matanga-Vrtti",
       "title_iast": "Mataṅga-Vṛtti",
-      "alternate_titles": ["Mataṅga-Pārameśvara-Vṛtti"],
+      "alternate_titles": [
+        "Mataṅga-Pārameśvara-Vṛtti"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored commentary on the Mataṅga-Pārameśvara-Tantra; the principal Saiddhāntika scriptural commentary of its period.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus (N. R. Bhatt and Hélène Brunner editions; Watson and Goodall studies)."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus (N. R. Bhatt and Hélène Brunner editions; Watson and Goodall studies)."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -56,7 +66,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored commentary on the Kiraṇa-Tantra.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus (Goodall 1998 critical edition of Vidyā-pāda chapters 1–6)."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus (Goodall 1998 critical edition of Vidyā-pāda chapters 1–6)."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -72,7 +85,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored commentary on Sadyojyotis's Nareśvara-Parīkṣā; the principal mature dualist Saiddhāntika reply to the Pratyabhijñā non-dualism.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus (Watson 2006, The Self's Awareness of Itself)."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus (Watson 2006, The Self's Awareness of Itself)."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -84,11 +100,16 @@
       "work_id": "sardha-tri-shatika-lokulisvaragama-vrtti",
       "title": "Sardha-Tri-Shatika-Lokulisvaragama-Vrtti",
       "title_iast": "Sārdha-Tri-Śatikā-Lokulīśvarāgama-Vṛtti",
-      "alternate_titles": ["Sārdha-Tri-Śatika-Vṛtti"],
+      "alternate_titles": [
+        "Sārdha-Tri-Śatika-Vṛtti"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored commentary on the Lokulīśvarāgama (Lakulīśvarāgama) in three hundred and fifty verses; the standard dualist Saiddhāntika commentary on this Pāśupata-adjacent scripture.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -103,5 +124,5 @@
   "entry_status": "draft",
   "entry_owner_agent": "trika-shakta-extension-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-batch5-opus"
+  "last_verified_by": "wave-editorializing-audit-opus"
 }

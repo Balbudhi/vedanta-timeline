@@ -2,7 +2,11 @@
   "id": "lakulisha",
   "name": "Lakulisha",
   "name_iast": "Lakulīśa",
-  "alternate_names": ["Lakulīśvara", "Nakulīśa", "the Club-Bearer"],
+  "alternate_names": [
+    "Lakulīśvara",
+    "Nakulīśa",
+    "the Club-Bearer"
+  ],
   "dates_low": 100,
   "dates_high": 200,
   "dates_tier": "contested",
@@ -12,7 +16,9 @@
   "sub_school": "Pāśupata-foundational",
   "sub_school_shade": 2,
   "lineage_in": [],
-  "lineage_out": ["kaundinya"],
+  "lineage_out": [
+    "kaundinya"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "badarayana",
@@ -31,15 +37,23 @@
       "work_id": "pasupata-sutra",
       "title": "Pasupata-Sutra",
       "title_iast": "Pāśupata-Sūtra",
-      "alternate_titles": ["Pāñcārtha-Sūtra"],
+      "alternate_titles": [
+        "Pāñcārtha-Sūtra"
+      ],
       "composition_dates_low": 100,
       "composition_dates_high": 200,
       "composition_dates_notes": "Composition placed in Lakulīśa's period (c. second century CE); the text is preserved with Kauṇḍinya's Pañcārtha-Bhāṣya (c. fourth–fifth century) which fixes it as a settled authority by that date.",
       "ascription_tier": "traditionally-ascribed",
       "ascription_notes": "Uniformly ascribed to Lakulīśa by the Pāśupata tradition; modern scholarship treats the historical-Lakulīśa ascription as plausible but unprovable (the text's compressed sūtra-form is consistent with multiple authorial possibilities).",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Bhandarkar (1913, Vaiṣṇavism, Śaivism, and Minor Religious Systems); Hara (Pāśupata Studies); Bisschop (Early Śaivism and the Skandapurāṇa)."},
-        {"kind": "manuscript-tradition", "description": "Preserved in continuous manuscript tradition with Kauṇḍinya's Pañcārtha-Bhāṣya."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Bhandarkar (1913, Vaiṣṇavism, Śaivism, and Minor Religious Systems); Hara (Pāśupata Studies); Bisschop (Early Śaivism and the Skandapurāṇa)."
+        },
+        {
+          "kind": "manuscript-tradition",
+          "description": "Preserved in continuous manuscript tradition with Kauṇḍinya's Pañcārtha-Bhāṣya."
+        }
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
@@ -54,5 +68,5 @@
   "entry_status": "draft",
   "entry_owner_agent": "non-vedic-comparator-extension-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "non-vedic-comparator-extension-opus"
+  "last_verified_by": "wave-editorializing-audit-opus"
 }

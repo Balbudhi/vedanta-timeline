@@ -11,8 +11,14 @@
   "school_color_token": "trika-comparator",
   "sub_school": "Trika school-consummating",
   "sub_school_shade": 4,
-  "lineage_in": ["utpaladeva"],
-  "lineage_out": ["ksemaraja", "jayaratha", "mahesvarananda"],
+  "lineage_in": [
+    "utpaladeva"
+  ],
+  "lineage_out": [
+    "ksemaraja",
+    "jayaratha",
+    "mahesvarananda"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "bhatta-ramakantha",
@@ -45,7 +51,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored monumental Trika compendium.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -64,7 +73,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored prose digest of the Tantrāloka.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "verse-summary",
       "language": "sanskrit",
@@ -83,7 +95,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored verse-commentary on the Mālinī-Vijaya-Tantra.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "varttika",
       "language": "sanskrit",
@@ -99,7 +114,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored commentary on Utpaladeva's Kārikā.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -111,14 +129,20 @@
       "work_id": "isvara-pratyabhijna-vivrti-vimarsini",
       "title": "Ishvara-Pratyabhijna-Vivrti-Vimarshini",
       "title_iast": "Īśvara-Pratyabhijñā-Vivṛti-Vimarśinī",
-      "alternate_titles": ["Bṛhatī-Vimarśinī", "Ṭīkā"],
+      "alternate_titles": [
+        "Bṛhatī-Vimarśinī",
+        "Ṭīkā"
+      ],
       "composition_dates_low": 1000,
       "composition_dates_high": 1025,
       "composition_dates_notes": "Composed after the shorter Vimarśinī; Abhinavagupta's mature philosophical work.",
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored; the longer (*bṛhatī*) of the two Vimarśinīs on Utpaladeva's Kārikā.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -130,14 +154,19 @@
       "work_id": "dhvanyaloka-locana",
       "title": "Dhvanyaloka-Locana",
       "title_iast": "Dhvanyāloka-Locana",
-      "alternate_titles": ["Locana"],
+      "alternate_titles": [
+        "Locana"
+      ],
       "composition_dates_low": 980,
       "composition_dates_high": 1010,
       "composition_dates_notes": "An early-to-middle period work; companion to the Abhinava-Bhāratī in Abhinavagupta's aesthetic corpus.",
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored commentary on Ānandavardhana's Dhvanyāloka.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -153,7 +182,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored commentary on Bharata's Nāṭya-Śāstra; the locus classicus of rasa-theology in Trika idiom.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -169,7 +201,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored commentary on the Parātrīśikā tantra.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -183,5 +218,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-batch5-opus"
+  "last_verified_by": "wave-editorializing-audit-opus"
 }
