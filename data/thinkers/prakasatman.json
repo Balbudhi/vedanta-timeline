@@ -37,7 +37,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
-      "summary": "Massive gloss-of-a-gloss on Padmapāda's *Pañcapādikā*, itself a sub-commentary on the opening five *pādas* of Śaṅkara's *Brahma-Sūtra-Bhāṣya*. Padmapāda's compressed positions are here converted into a fully articulated metaphysics and epistemology; a sub-school is founded in the process. The principal contributions: the *brahmāśrita-avidyā-vāda* — Brahman is both *āśraya* and *viṣaya* of avidyā, contra Vāchaspati's *jīva*-locus analysis; the *bhāva-rūpā-anirvacanīya-avidyā* doctrine — ignorance is positively existent though indeterminable as either *sat* or *asat*; the *cidābhāsa* / *pratibimba* analysis of the *jīva*; the doctrine that the Mahāvākya, qua *śabda-pramāṇa*, produces an *akhaṇḍākāra-vṛtti* whose role is to dissolve avidyā; and a sustained refutation of *jñāna-karma-samuccaya*. The work generates the largest commentarial tradition in later Advaita: the *Vivaraṇa-Prameya-Saṃgraha* of Vidyāraṇya, the *Tātparya-Dīpikā* of Citsukha, the *Tattva-Dīpana* of Akhaṇḍānanda. It is the implicit interlocutor of nearly all post-thirteenth-century Advaita scholasticism.",
+      "summary": "Massive gloss-of-a-gloss on Padmapāda's *Pañcapādikā*, itself a sub-commentary on the opening five *pādas* of Śaṅkara's *Brahma-Sūtra-Bhāṣya* (BSB 1.1.1–4). Padmapāda's compressed positions are here converted into a fully articulated metaphysics and epistemology; a sub-school is founded in the process. The principal contributions: the *brahmāśrita-avidyā-vāda* — Brahman is both *āśraya* and *viṣaya* of avidyā, contra Vāchaspati's *jīva*-locus analysis (*Pañcapādikā-Vivaraṇa* on *Pañcapādikā* V–VI; cf. *Bhāmatī* on *Brahma-Sūtra-Bhāṣya* 1.4.3); the *bhāva-rūpā-anirvacanīya-avidyā* doctrine — ignorance is positively existent though indeterminable as either *sat* or *asat* (*Pañcapādikā-Vivaraṇa* on *Pañcapādikā* VI); the *cidābhāsa* / *pratibimba* analysis of the *jīva* (*Pañcapādikā-Vivaraṇa* on *Pañcapādikā* XXIX, *jīva-paricheda*); the doctrine that the Mahāvākya, qua *śabda-pramāṇa*, produces an *akhaṇḍākāra-vṛtti* whose role is to dissolve avidyā (*Pañcapādikā-Vivaraṇa* on *Pañcapādikā* XXVIII–XXIX); and a sustained refutation of *jñāna-karma-samuccaya* (*Pañcapādikā-Vivaraṇa*, ad *Brahma-Sūtra-Bhāṣya* 1.1.4). The work generates the largest commentarial tradition in later Advaita: the *Vivaraṇa-Prameya-Saṃgraha* of Vidyāraṇya, the *Tātparya-Dīpikā* of Citsukha, the *Tattva-Dīpana* of Akhaṇḍānanda. It is the implicit interlocutor of nearly all post-thirteenth-century Advaita scholasticism.",
       "key_passage_ids": [
         "pv-p212__anirvacaniya-maya-visista-karana-brahman",
         "pv-p65__jiva-brahma-pratibimba",
@@ -994,7 +994,7 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave3-pada-fix-codex",
+  "last_verified_by": "wave-citation-batch1-opus",
   "polemic_chain_ids": [
     "kumarila-mandana-jnana-karma-samuccaya",
     "mayavada-khandana",

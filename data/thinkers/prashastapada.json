@@ -42,7 +42,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
-      "summary": "A free systematic exposition of Vaiśeṣika in prose, organized by *padārtha*. The opening section gives the *maṅgala* and a brief restatement of the school's purpose. The first major division treats *dravya*: each of the nine substances (earth, water, fire, air, *ākāśa*, *kāla*, *dik*, *ātman*, *manas*) is defined by its characteristic *guṇas* and *karmas*; the *paramāṇu*-doctrine is unfolded as the analytical-recombinative cosmology, with *īśvara* introduced as the conscious initiator of *sarga* (creation) and *pralaya* (dissolution). The second division treats *guṇa* and gives the canonical Vaiśeṣika list of twenty-four qualities (later expanded). The third division treats *karma*. The fourth division treats *sāmānya*, distinguishing *para-sāmānya* (the highest universal, *sattā*) from *apara-sāmānya* (lower-ranked universals); *viśeṣa* and *samavāya* follow. The text concludes with epistemology: the *pramāṇa*-list is reduced to *pratyakṣa* and *anumāna*, with *śabda* subsumed under *anumāna* — the position Vedānta strenuously rejects. The principal pre-modern commentaries are Śrīdhara's *Nyāya-Kandalī* (tenth century) and Udayana's *Kiraṇāvalī* (eleventh century).",
+      "summary": "A free systematic exposition of Vaiśeṣika in prose, organized by *padārtha*. The opening section (*maṅgala* and *prayojana-prakaraṇa*) gives a brief restatement of the school's purpose. The first major division (*dravya-padārtha-nirūpaṇa*) treats *dravya*: each of the nine substances (earth, water, fire, air, *ākāśa*, *kāla*, *dik*, *ātman*, *manas*) is defined by its characteristic *guṇas* and *karmas*; the *paramāṇu*-doctrine is unfolded as the analytical-recombinative cosmology (in the *pṛthivī-* and *paramāṇu-prakaraṇa*), with *īśvara* introduced as the conscious initiator of *sarga* and *pralaya* in the *sṛṣṭi-saṃhāra-prakaraṇa*. The second division (*guṇa-padārtha-nirūpaṇa*) treats *guṇa* and gives the canonical Vaiśeṣika list of twenty-four qualities (later expanded). The third division (*karma-padārtha-nirūpaṇa*) treats *karma* and lists the five *karmas* (*utkṣepaṇa*, *avakṣepaṇa*, *ākuñcana*, *prasāraṇa*, *gamana*). The fourth division (*sāmānya-padārtha-nirūpaṇa*) treats *sāmānya*, distinguishing *para-sāmānya* (the highest universal, *sattā*) from *apara-sāmānya*; *viśeṣa* (*viśeṣa-padārtha-nirūpaṇa*) and *samavāya* (*samavāya-padārtha-nirūpaṇa*) follow. The text concludes with epistemology in the *buddhi-prakaraṇa*: the *pramāṇa*-list is reduced to *pratyakṣa* and *anumāna*, with *śabda* subsumed under *anumāna* — the position Vedānta strenuously rejects. The principal pre-modern commentaries are Śrīdhara's *Nyāya-Kandalī* (tenth century) and Udayana's *Kiraṇāvalī* (eleventh century).",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     }
@@ -52,5 +52,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-darsana-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-comparators-darsana-opus"
+  "last_verified_by": "wave-citation-batch3-opus"
 }
