@@ -185,7 +185,28 @@ const state = {
   renderLanes: [],
   laneToIndex: new Map(),
   hasInitialScroll: false,
+  // View mode: "lanes" (swim-lane cladogram) or "network" (free-form,
+  // date-ordered, lineage-gravity collision-avoidance layout).
+  viewMode: (function () {
+    try {
+      const v = localStorage.getItem("vedanta-view-mode");
+      return v === "network" ? "network" : "lanes";
+    } catch (_) { return "lanes"; }
+  })(),
 };
+
+function setViewMode(mode) {
+  if (mode !== "lanes" && mode !== "network") return;
+  if (state.viewMode === mode) return;
+  state.viewMode = mode;
+  try { localStorage.setItem("vedanta-view-mode", mode); } catch (_) {}
+  document.querySelectorAll(".view-toggle-btn").forEach((b) => {
+    const on = b.dataset.view === mode;
+    b.classList.toggle("is-active", on);
+    b.setAttribute("aria-selected", on ? "true" : "false");
+  });
+  rerender();
+}
 
 // ---------- loaders -----------
 async function loadJSON(path) {

@@ -20,6 +20,10 @@
     </h1>
     <span class="subtitle" id="subtitle">A timeline.</span>
     <span class="spacer"></span>
+    <div class="view-toggle" role="tablist" aria-label="Timeline view">
+      <button class="view-toggle-btn is-active" data-view="lanes" role="tab" aria-selected="true" type="button">Lanes</button>
+      <button class="view-toggle-btn" data-view="network" role="tab" aria-selected="false" type="button">Network</button>
+    </div>
     <button class="topbar-btn topbar-btn--icon" id="filterBtn" type="button" aria-label="Filter lanes" title="Filter schools">
       <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M2 4h12M4 8h8M6 12h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/></svg>
       <span class="btn-text">Schools</span>
@@ -84,6 +88,10 @@
           <div class="timeline-dots" id="timelineDots"></div>
           <div class="timeline-axis" id="timelineAxis"></div>
         </div>
+      </div>
+      <div class="network-legend" id="networkLegend" hidden aria-hidden="true">
+        <button class="network-legend-toggle" id="networkLegendToggle" type="button" aria-expanded="false">Schools</button>
+        <ul class="network-legend-list" id="networkLegendList"></ul>
       </div>
     </section>
 
