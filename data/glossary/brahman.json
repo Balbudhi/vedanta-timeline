@@ -205,15 +205,39 @@
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Where brahma-language appears in the Sāṃkhya commentarial corpus, it is glossed as avyakta/prakṛti, the bahudhātmaka unmanifest source from which mahat and the later evolutes proceed [[SK 22 comm.](cite://mathara/samkhya-karika-vrtti/22)]. Liberation therefore lies not in identity with a single brahman but in aikāntika, ātyantika kaivalya, attained when pradhāna has completed its puruṣārtha and no further body is produced for the knower [[SK 68 comm.](cite://mathara/samkhya-karika-vrtti/68)].",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 22, Māṭhara-vṛtti",
+        "Sāṃkhya-Kārikā 68, Māṭhara-vṛtti"
+      ],
+      "citations": [
+        {
+          "cite": "cite://mathara/samkhya-karika-vrtti/22",
+          "locus_short": "SK 22 comm."
+        },
+        {
+          "cite": "cite://mathara/samkhya-karika-vrtti/68",
+          "locus_short": "SK 68 comm."
+        }
+      ]
     },
     {
       "school": "Yoga",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Yoga does not install brahman as an undifferentiated world-ground; its highest positive principle is Īśvara, the puruṣa-viśeṣa eternally untouched by kleśa, karma, vipāka, and āśaya, and uniquely marked by unsurpassable sovereignty and omniscience [[YBh 1.24-1.25](cite://vyasa/yoga-bhasya/1.24-1.25)]. When the bhāṣya uses brahma-language, it does so within this psychology of witnessing consciousness: the sages discern the eternal brahma hidden in the cave in connection with the buddhivṛtti through which the unchanging seer is made manifest [[YBh 4.22](cite://vyasa/yoga-bhasya/4.22)].",
+      "primary_loci": [
+        "Yoga-Bhāṣya on Yoga-Sūtra 1.24-1.25",
+        "Yoga-Bhāṣya on Yoga-Sūtra 4.22"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vyasa/yoga-bhasya/1.24-1.25",
+          "locus_short": "YBh 1.24-1.25"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/4.22",
+          "locus_short": "YBh 4.22"
+        }
+      ]
     },
     {
       "school": "Sāṃkhya-Yoga (synthetic)",
@@ -244,33 +268,87 @@
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Nyāya-Vaiśeṣika's functional equivalent to brahman is Īśvara, not an undifferentiated absolute: the Lord is posited as cause because human action by itself does not account for the fruition of karmic results [[NS 4.1.19](cite://gautama/nyaya-sutra/4.1.19)]. Liberation, however, is defined as apavarga, the utter cessation of duḥkha and rebirth, which Vātsyāyana can describe as the fearless and deathless brahma-kṣemaprāpti [[NB 1.1.22](cite://vatsyayana/nyaya-bhasya/1.1.22)].",
+      "primary_loci": [
+        "Nyāya-Sūtra 4.1.19",
+        "Nyāya-Bhāṣya on Nyāya-Sūtra 1.1.22"
+      ],
+      "citations": [
+        {
+          "cite": "cite://gautama/nyaya-sutra/4.1.19",
+          "locus_short": "NS 4.1.19"
+        },
+        {
+          "cite": "cite://vatsyayana/nyaya-bhasya/1.1.22",
+          "locus_short": "NB 1.1.22"
+        }
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
-      "definition": "[NOT YET RETRIEVED]",
+      "definition": "NOT-APPLICABLE",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "not_applicable_reason": "In the on-disk Pūrva-Mīmāṃsā corpus, brahman-language is used for the Brahman priest, brahmasāman, or other ritual designata; the school's autonomous topic is dharma/apūrva rather than brahman as an ultimate reality."
     },
     {
       "school": "Mādhyamaka",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Mādhyamaka does not replace the Upaniṣadic brahman with another self-existent substrate; its functional analogue to ultimacy is paramārtha, taught only in dependence on saṃvṛti and reached only by passing through it [[MMK 24.8-10](cite://nagarjuna/mula-madhyamaka-karika/24.8-10)]. That paramārtha is dharmatā: unproduced, unceased, peaceful, free from prapañca and conceptual bifurcation, and Candrakīrti accordingly glosses nirvāṇa's very emptiness as pāramārthikī śūnyatā [[MMK 18.7-9](cite://nagarjuna/mula-madhyamaka-karika/18.7-9); [MAv 6.189-190](cite://candrakirti/madhyamakavatara/6.189-190)].",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 24.8-10",
+        "Mūla-Madhyamaka-Kārikā 18.7-9",
+        "Madhyamakāvatāra 6.189-190"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.8-10",
+          "locus_short": "MMK 24.8-10"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/18.7-9",
+          "locus_short": "MMK 18.7-9"
+        },
+        {
+          "cite": "cite://candrakirti/madhyamakavatara/6.189-190",
+          "locus_short": "MAv 6.189-190"
+        }
+      ]
     },
     {
       "school": "Yogācāra",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Yogācāra's closest analogue to brahman is not a permanent substance but the paramārtha of dharmas as tathatā, which Vasubandhu identifies with vijñaptimātratā itself [[Trimsikā 23-28](cite://vasubandhu/trimsika/23-28)]. The school therefore dissolves grāhya-grāhaka duality rather than uncovering a self-existent ground: vijñaptimātra is taught so that one enters dharma-nairātmya by seeing that the imagined svabhāva of object and subject is merely kalpita [[Viṃśatikā 10](cite://vasubandhu/vimsatika/10)].",
+      "primary_loci": [
+        "Triṃśikā 23-28",
+        "Viṃśatikā 10"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/trimsika/23-28",
+          "locus_short": "Trimsikā 23-28"
+        },
+        {
+          "cite": "cite://vasubandhu/vimsatika/10",
+          "locus_short": "Viṃśatikā 10"
+        }
+      ]
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Pratyabhijñā / Trika can use brahman-language, but it identifies the highest referent as a luminous, pure, peaceful nondual whole that rests in śakti rather than as a quiescent neuter absolute [[Paramārtha-Sāra 43](cite://abhinavagupta/paramartha-sara/43)]. Accordingly the tradition criticizes a merely brahmarūpa prakāśamātra devoid of vimarśa and svātantrya as inert; only consciousness endowed with spanda and self-referential lordship is fully adequate to the real [[Spanda comm. 1.5.11-14](cite://ksemaraja/spanda-karika-commentary/1.5.11-14)].",
+      "primary_loci": [
+        "Paramārtha-Sāra 43",
+        "Spanda-Kārikā commentary 1.5.11-14"
+      ],
+      "citations": [
+        {
+          "cite": "cite://abhinavagupta/paramartha-sara/43",
+          "locus_short": "Paramārtha-Sāra 43"
+        },
+        {
+          "cite": "cite://ksemaraja/spanda-karika-commentary/1.5.11-14",
+          "locus_short": "Spanda comm. 1.5.11-14"
+        }
+      ]
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",
@@ -292,5 +370,5 @@
   ],
   "translator_note": "Avoid lazy equivalences such as 'the Absolute' or 'God' without qualification. 'The Absolute' imports German-idealist baggage; 'God' imports a personal creator model that fits some Vedāntic schools and not others. The Sanskrit term carries a causal and soteriological apparatus: world-ground, object of liberating knowledge, and, in many schools, the real Lord of worship. Also keep the distinctions clear: *brahman* (neuter) is not *brahmā* (the creator deity) and not *brāhmaṇa* (the ritual-social designation).",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54"
+  "last_verified_by": "glossary-wave2-codex54"
 }
