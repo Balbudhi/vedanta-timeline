@@ -13,14 +13,15 @@ set -euo pipefail
 module purge
 module load gcc/12.2.0 cuda/12.9.1 cudnn/9.8.0.87-cuda12 miniforge/25.11.0-0
 
-export HF_HOME=/orcd/pool/008/eeshan/ocr/hf_cache
+export HF_HOME=/orcd/scratch/orcd/009/eeshan/hf_cache
 export TRANSFORMERS_CACHE="$HF_HOME"
-export VLLM_CACHE_ROOT=/orcd/pool/008/eeshan/ocr/cache_vllm
-export TORCH_HOME=/orcd/pool/008/eeshan/ocr/cache_torch
+export VLLM_CACHE_ROOT=/orcd/scratch/orcd/009/eeshan/cache_vllm
+export TORCH_HOME=/orcd/scratch/orcd/009/eeshan/cache_torch
 export TOKENIZERS_PARALLELISM=false
 export PYTHONUNBUFFERED=1
 
-source /orcd/pool/008/eeshan/ocr/venvs/ocr/bin/activate
+source /orcd/scratch/orcd/009/eeshan/venvs/ocr/bin/activate
+export PYTHONPATH=/orcd/home/002/eeshan/philosophy/site/src:${PYTHONPATH:-}
 
 # Default to Bhāskara p. 50 unless overridden.
 PDF="${PDF_PATH:-/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/_replaced/bhaskara_brahma_sutra_bhasya_dvivedi_1915_archive.pdf}"
