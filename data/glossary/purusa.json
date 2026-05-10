@@ -153,9 +153,37 @@
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Sāṃkhya, *puruṣa* is established as a real principle because the composite exists for another, because experience requires a subject, and because the striving for *kaivalya* would otherwise be unintelligible [[SK 17](cite://isvarakrsna/samkhya-karika/17)]. Puruṣa-s are many, and each is characterized as witness, neutral, seer, and non-agent, precisely in contrast to the *traiguṇya* structure of *prakṛti* [[SK 18](cite://isvarakrsna/samkhya-karika/18)][[SK 19](cite://isvarakrsna/samkhya-karika/19)]. Agency and world-process belong only by conjunction: although the guṇa-s act, the indifferent *puruṣa* appears as if agent, and creation proceeds for the sake of its seeing, until it stands apart like a spectator before a now-cessant *prakṛti* [[SK 20](cite://isvarakrsna/samkhya-karika/20)][[SK 21](cite://isvarakrsna/samkhya-karika/21)][[SK 65](cite://isvarakrsna/samkhya-karika/65)].",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 17-21",
+        "Sāṃkhya-Kārikā 65"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/17",
+          "locus_short": "SK 17"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/18",
+          "locus_short": "SK 18"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/19",
+          "locus_short": "SK 19"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/20",
+          "locus_short": "SK 20"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/21",
+          "locus_short": "SK 21"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/65",
+          "locus_short": "SK 65"
+        }
+      ]
     },
     {
       "school": "Yoga",
@@ -245,15 +273,60 @@
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Pratyabhijñā/Trika, the bound subject is not an ultimately independent witness called *puruṣa* over against a separate *prakṛti*; rather, the transmigrating condition is Śiva-consciousness under self-contraction, mala, and māyic limitation [[PH 9](cite://ksemaraja/pratyabhijna-hrdayam/9)][[PS 36](cite://abhinavagupta/paramartha-sara/36)]. Even in that contracted state, the subject continues to perform the five divine acts, so liberation comes through recognition that inward-turning cognition is itself *citi* and not through the isolation of an inert spectator [[PH 10](cite://ksemaraja/pratyabhijna-hrdayam/10)][[PH 13](cite://ksemaraja/pratyabhijna-hrdayam/13)]. Abhinavagupta accordingly distinguishes the dehāntarālaga *puruṣa* of transmigratory continuity from the *paraḥ puruṣaḥ* who remains untouched by the modifications of māyā [[PS 92](cite://abhinavagupta/paramartha-sara/92)][[PS 36](cite://abhinavagupta/paramartha-sara/36)].",
+      "primary_loci": [
+        "Pratyabhijñā-Hṛdayam 9-10, 13",
+        "Paramārthasāra 36, 92"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ksemaraja/pratyabhijna-hrdayam/9",
+          "locus_short": "PH 9"
+        },
+        {
+          "cite": "cite://ksemaraja/pratyabhijna-hrdayam/10",
+          "locus_short": "PH 10"
+        },
+        {
+          "cite": "cite://ksemaraja/pratyabhijna-hrdayam/13",
+          "locus_short": "PH 13"
+        },
+        {
+          "cite": "cite://abhinavagupta/paramartha-sara/36",
+          "locus_short": "PS 36"
+        },
+        {
+          "cite": "cite://abhinavagupta/paramartha-sara/92",
+          "locus_short": "PS 92"
+        }
+      ]
     },
     {
       "school": "Jainism",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Jainism, the functional analogue to *puruṣa* is *jīva* rather than a preferred *puruṣa*-vocabulary: the soul is defined by *upayoga* and can exist in either the worldly or liberated condition [[TS 2.8](cite://umasvati/tattvartha-sutra/2.8)][[TS 2.10](cite://umasvati/tattvartha-sutra/2.10)]. Bondage occurs when the passion-marked *jīva* appropriates karmically fit *pudgala*, and the doctrine accordingly treats a plurality of souls as standing in mutual relation rather than collapsing into a single cosmic subject [[TS 8.2](cite://umasvati/tattvartha-sutra/8.2)][[TS 5.21](cite://umasvati/tattvartha-sutra/5.21)].",
+      "primary_loci": [
+        "Tattvārtha-Sūtra 2.8, 2.10",
+        "Tattvārtha-Sūtra 5.21",
+        "Tattvārtha-Sūtra 8.2"
+      ],
+      "citations": [
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/2.8",
+          "locus_short": "TS 2.8"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/2.10",
+          "locus_short": "TS 2.10"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/5.21",
+          "locus_short": "TS 5.21"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/8.2",
+          "locus_short": "TS 8.2"
+        }
+      ]
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",
@@ -273,5 +346,5 @@
   ],
   "translator_note": "'Person', 'man', and 'spirit' all mislead if used without qualification. Modern English 'person' carries moral-legal and post-Lockean baggage; 'spirit' imports Christian and idealist associations. In Sāṃkhya, *puruṣa* is the witness distinct from the apparatus of action; in Vaiṣṇava and Vedāntic usage, it often names the supreme Person rather than the finite individual. The term should therefore be left untranslated unless the register is made explicit: witness-consciousness, cosmic Person, or supreme Person.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54"
+  "last_verified_by": "glossary-wave2-codex54"
 }
