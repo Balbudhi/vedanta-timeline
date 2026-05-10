@@ -1,0 +1,27 @@
+{
+  "term_key": "antahkarana",
+  "term_iast": "antaḥkaraṇa",
+  "term_devanagari": "अन्तःकरण",
+  "literal": "the inner instrument; from antar 'within' + karaṇa 'instrument'",
+  "aliases": ["antahkarana", "antaḥkaraṇa", "antaḥ-karaṇa", "Antaḥkaraṇa", "antaḥkaraṇasya", "antahkaranam"],
+  "invariant_definition": "The internal cognitive instrument — the seat of mental functions, distinguished from the external sensory instruments (*bāhya-karaṇas*). In Vedānta psychology *antaḥkaraṇa* is fourfold: *manas* (the coordinating-doubting function), *buddhi* (the determining-decisive function), *citta* (the memory-/dwelling function), *ahaṅkāra* (the I-making function). All schools accept this fourfold structure; Sāṅkhya's tripartite scheme (*manas*, *buddhi*, *ahaṅkāra*) is sometimes preserved. Schools differ on the ontological status of *antaḥkaraṇa* — *vyāvahārika* (Advaita) vs. real *prakṛti*-evolute (Viśiṣṭādvaita, Dvaita).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Antaḥkaraṇa* is the *upādhi* of the *jīva* — the limiting condition through which the one *ātman* appears as multiple *jīvas*. Its *vṛtti*s (modifications) are the substance of cognition; the *akhaṇḍākāra-vṛtti* is the special *vṛtti* that takes *brahman* as undivided whole-object. The *antaḥkaraṇa* is *vyāvahārika*; in *brahma-jñāna* its individuating function ceases.",
+      "primary_loci": ["Vedānta-Paribhāṣā, pratyakṣa-pariccheda", "Brahma-Sūtra-Bhāṣya 4.1.3", "Pañcadaśī 1.20–25"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Antaḥkaraṇa* is a real *prakṛti*-evolute through which the soul's *dharmabhūta-jñāna* operates. It contracts and limits *jñāna* under *karma*; at *mokṣa* it is dropped and *dharmabhūta-jñāna* operates without obstruction.",
+      "primary_loci": ["Yatīndra-Mata-Dīpikā 5", "Śrī-Bhāṣya 2.4"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Antaḥkaraṇa* is a real *prakṛti*-evolute distinct from the *jīva* itself. The *jīva*'s *svarūpa* is preserved across embodiments; what changes is its *antaḥkaraṇa*-association.",
+      "primary_loci": ["Tattva-Saṅkhyāna 5–7"]
+    }
+  ],
+  "see_also": ["manas", "buddhi", "citta", "ahankara", "upadhi", "vrtti"],
+  "translator_note": "'Mind' is too coarse — *antaḥkaraṇa* is the entire inner-instrument complex, of which *manas* is one part. 'Inner organ' or 'inner instrument' (literal) is preferable. The Anglo-American 'mind' has no precise Sanskrit equivalent."
+}

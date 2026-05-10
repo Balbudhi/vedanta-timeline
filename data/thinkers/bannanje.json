@@ -1,0 +1,132 @@
+{
+  "id": "bannanje",
+  "name": "Bannanje Govindacharya",
+  "name_iast": "Bannañje Govindācārya",
+  "alternate_names": ["Vidyāvācaspati Bannanje Govindācārya"],
+  "dates_low": 1936,
+  "dates_high": 2020,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Born 3 August 1936 in Bannañje, Udupi district, Karnataka; died 13 December 2020. Tulu-speaking Śivaḷḷi Brahmin Mādhva family. Padma Śrī 2009; Sāhitya Akademi awards.",
+  "dates_evidence": [
+    {
+      "kind": "court-record",
+      "description": "Government of India Padma Śrī award, 2009; Saṃskṛta-Sāhitya Akademi awards."
+    },
+    {
+      "kind": "manuscript-colophon",
+      "description": "Pūrṇaprajña Vidyāpīṭha publication colophons; Sāgar Publications colophons."
+    }
+  ],
+  "school": "Dvaita",
+  "school_color_token": "dvaita",
+  "sub_school": "Tattvavāda (modern philological-textual)",
+  "sub_school_shade": 5,
+  "lineage_in": ["madhva", "raghavendra", "jayatirtha"],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Bannañje Govindācārya is the modern Mādhva scholar whose Sanskrit philological-philosophical output — approximately 4,000 pages of Sanskrit *vyākhyāna* across some 150 books — re-establishes Madhva's full *Sarva-Mūla-Granthāḥ* as a critically-edited, textually-stable corpus and supplies Dvaita commentaries on the *Veda-Sūktas*, the principal Upaniṣads, the *Śata-Rudriya*, the *Brahma-Sūtra*, the *Bhagavad-Gītā*, the *Mahābhārata-Tātparya-Nirṇaya*, and the *Bhāgavata-Purāṇa*. Trained at Pūrṇaprajña Vidyāpīṭha, Bengaluru, he combined Mahāmahopādhyāya-grade traditional learning with modern critical-editorial method. Three distinctive emphases run through the work. First, the textual recovery of Madhva's intended readings against later scholastic accretion. Second, the defense of the historical and philosophical priority of the *Bhāgavata*-tradition's Mādhva interpretation. Third, a working reconciliation of the Udupi *aṣṭa-maṭha* sectarian apparatus with academic Indology. He is the principal modern conduit through whom Madhva's full corpus reaches contemporary readers, and the Dvaita school's premier twentieth- and early-twenty-first-century philological figure.",
+  "engaged_works": [
+    {
+      "work_id": "sarva-mula-grantha-edition",
+      "title": "Critical edition of Sarva-Mula-Granthah",
+      "title_iast": "Sarva-Mūla-Granthāḥ critical edition",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored editorial labour; the modern textus receptus for Madhva's full surviving Sanskrit corpus.",
+      "ascription_evidence": [
+        {"kind": "manuscript-colophon", "description": "Pūrṇaprajña Vidyāpīṭha publication colophons."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "A multi-volume critical edition of Madhva's surviving Sanskrit corpus — the *Brahma-Sūtra-Bhāṣya*, the *Anuvyākhyāna*, the *Gītā-Bhāṣya*, the Daśa-Prakaraṇa polemical treatises (*Tattvodyota*, *Māyāvāda-Khaṇḍana*, *Mithyātvānumāna-Khaṇḍana*, *Upādhi-Khaṇḍana*, *Viṣṇu-Tattva-Vinirṇaya*, *Kathā-Lakṣaṇa*, *Pramāṇa-Lakṣaṇa*, *Karma-Nirṇaya*, *Tattva-Saṅkhyāna*, *Tattva-Viveka*), the Upaniṣad-bhāṣyas, the *Ṛg-Bhāṣya*, the *Bhāgavata-Tātparya-Nirṇaya*, and the *Mahābhārata-Tātparya-Nirṇaya*. The editorial labour is the principal documentary infrastructure on which contemporary Dvaita scholarship depends. Each text is presented with manuscript collation, the textus receptus, and editorial notes; the introductions to several volumes function as short Mādhva *prakaraṇas* in their own right. The edition is the standard modern reference for the Mādhva corpus and supersedes earlier partial editions for textual stability.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "mahabharata-tatparya-nirnaya-vyakhyana",
+      "title": "Sanskrit Vyakhyana on Mahabharata-Tatparya-Nirnaya",
+      "title_iast": "Mahābhārata-Tātparya-Nirṇaya Sanskrit Vyākhyāna",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Sanskrit commentary.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "A multi-volume Sanskrit *vyākhyāna* on Madhva's *Mahābhārata-Tātparya-Nirṇaya*. The *Tātparya-Nirṇaya* is Madhva's verse-summary of the *Mahābhārata*'s doctrinal *tātparya*, on which the school's narrative theology rests; Bannañje's commentary is the principal modern reading, supplying both the philological apparatus and the Mādhva doctrinal disambiguation at each contested locus. The treatment of the Bhīṣma-parvan *Gītā* segments and of the *Sahasranāma*-segment is unusually detailed, and brings the *Tātparya-Nirṇaya* into explicit dialogue with the *Sarva-Mūla* polemical treatises. The work is the natural complement to the *Bhāgavata*-vyākhyāna on the Vaiṣṇava-narrative side.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "bhagavata-vyakhyana",
+      "title": "Sanskrit Vyakhyana on Bhagavata-Purana",
+      "title_iast": "Bhāgavata-Purāṇa Sanskrit Vyākhyāna",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Sanskrit commentary in the Mādhva exegetical tradition.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "A Sanskrit *vyākhyāna* on the *Bhāgavata-Purāṇa* in the Mādhva exegetical tradition. The work continues Madhva's *Bhāgavata-Tātparya-Nirṇaya* and supplies the modern Dvaita reading of the *Bhāgavata*'s contested loci — the *catuḥ-ślokī* of book 2, the *Uddhava-Gītā* of book 11, the cosmogonic passages of book 3, and the devotional theology of book 10. The Mādhva contention that the *Bhāgavata* is read decisively on the school's *svatantra*-*paratantra* ontology, with Viṣṇu as the *svatantra-tattva* and all other reality as *paratantra*, is sustained throughout. The commentary is one of the principal documentary instruments through which the Mādhva *Bhāgavata*-tradition contests the Gauḍīya and Śuddhādvaita readings.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "upanishad-bhashyas-edition-and-commentary",
+      "title": "Edition and Commentary on Madhva's Upanishad-Bhashyas",
+      "title_iast": "Madhva Upaniṣad-Bhāṣya Edition and Commentary",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored editorial-commentarial labour.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "upanisad-bhashya",
+      "language": "sanskrit",
+      "summary": "Critical editions of and Sanskrit commentaries on Madhva's Upaniṣad-bhāṣyas — the Īśa, Kaṭha, Kena, Praśna, Muṇḍaka, Māṇḍūkya, Aitareya, Taittirīya, Chāndogya, Bṛhadāraṇyaka, Talavakāra, and Ṣaṭpraśna commentaries that constitute the school's Upaniṣadic exegetical front. The work is the modern Mādhva reading of the same Upaniṣadic loci on which the Advaita and Viśiṣṭādvaita schools have built their rival readings, and supplies the textual base for any twentieth- or twenty-first-century comparative engagement with Madhva on Upaniṣadic interpretation.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "acharya-madhva-baduku-bareha",
+      "title": "Acharya Madhva: Baduku-Bareha",
+      "title_iast": "Ācārya Madhva: Baḍuku-Bareha",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Kannada biographical-critical study.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus; Sāhitya Akademi recognition."}
+      ],
+      "genre": "prakarana",
+      "language": "kannada",
+      "summary": "A Kannada biographical-critical study of Madhva's life and works, treating the Sumadhva-vijaya hagiographical tradition with critical sympathy and integrating the modern philological evidence on chronology, manuscript transmission, and the historical context of Madhva's polemical engagements. The work is the standard modern Mādhva biography in Kannada and supplies the school's principal vernacular interface between traditional sectarian narrative and modern Indological method.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "stuti-chandrika",
+      "title": "Stuti-Chandrika on Vayu-Stuti",
+      "title_iast": "Stuti-Candrikā on Vāyu-Stuti",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Sanskrit commentary on Trivikrama Paṇḍita's Vāyu-Stuti.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "A Sanskrit *ṭīkā* on Trivikrama Paṇḍita's *Vāyu-Stuti*, the school's canonical praise-poem on Madhva as the third *avatāra* of Vāyu (after Hanumān and Bhīma). The commentary fixes the standard modern Mādhva reading of the Vāyu-Madhva identification, which is doctrinally consequential for the school's theology of mediating consciousness: Vāyu as the *jīvottama* through whom the supreme Viṣṇu's grace reaches the *jīva*-world. The work integrates Bannañje's critical-editorial sensibility with the school's living devotional register, and shows the continuity between his philological labour on the *Sarva-Mūla* and his pastoral engagement with the Udupi devotional tradition.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-corpus-v2-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-corpus-v2-opus"
+}

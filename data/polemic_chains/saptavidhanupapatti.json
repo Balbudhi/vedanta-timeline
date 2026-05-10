@@ -1,0 +1,221 @@
+{
+  "chain_id": "saptavidhanupapatti",
+  "title": "Saptavidhānupapatti — the seven untenabilities of avidyā",
+  "attacker": "ramanuja",
+  "attacker_text": "Vedārtha-Saṃgraha §76 ff.; Śrī-Bhāṣya 1.1.1 (Mahā-Siddhānta)",
+  "target_school_token": "advaita",
+  "target_position_summary": "Post-Śaṅkara Advaita doctrine of *bhāvarūpa avidyā* — positively-existent, beginningless, indeterminable (*anirvacanīya*) ignorance — as the substratum of phenomenal multiplicity, located either in Brahman (Vivaraṇa: Prakāśātman, Sarvajñātman) or in the *jīva* (Bhāmatī: Vāchaspati). Rāmānuja's polemic operates argument-by-argument against the entire family of post-Śaṅkara avidyā-doctrines.",
+  "arguments": [
+    {
+      "name": "anupapatti-1: āśrayānupapatti — the locus-untenability",
+      "premises": [
+        "Avidyā, if posited, must have a locus (āśraya) in which it inheres.",
+        "The candidate loci are exhaustively three: Brahman, the jīva, or some third entity.",
+        "If Brahman is the locus: Brahman is by Advaita's own definition svayam-prakāśa cit — self-luminous consciousness whose svarūpa is jñāna. To locate avidyā in Brahman is to admit a positive non-cognition into the substance whose nature is cognition. The contradiction is internal to Advaita's own characterisation.",
+        "If the jīva is the locus: the jīva is itself, on Advaita's account, a product of avidyā (via cidābhāsa or upādhi-conditioning). Locating avidyā in what avidyā produces is anyonyāśraya — mutual dependence — and explanatorily circular.",
+        "There is no candidate third entity that is not itself either Brahman or jīva or a mode of one of them."
+      ],
+      "inference": "Therefore avidyā has no possible locus.",
+      "conclusion": "Therefore avidyā is incoherent at the most basic structural step (locating it), and the Advaitic doctrine that depends on it cannot get off the ground.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "vacaspati",
+            "position": "Bhāmatī locates avidyā in the jīva — directly hit by horn 2 (the circularity charge). Vāchaspati's reply that the jīva-as-locus is jīva-qua-cidābhāsa rather than jīva-as-product saves the formal distinction but at the cost of pushing the regress one step back: the cidābhāsa itself is then either avidyā-conditioned (regress) or self-standing (concession of a real-distinct locus, which Bhāmatī does not want)."
+          },
+          {
+            "thinker_id": "prakasatman",
+            "position": "Vivaraṇa locates avidyā in Brahman — directly hit by horn 1 (the pollution charge). Prakāśātman's reply that Brahman is locus-without-being-affected (āśraya-mātra, not viṣaya) presupposes that locus and content are separable in a way Rāmānuja's argument denies for any positive (bhāvarūpa) entity."
+          },
+          {
+            "thinker_id": "sarvajnatman",
+            "position": "Saṃkṣepa-Śārīraka explicitly defends Brahman-as-locus (extending Prakāśātman); receives the same horn-1 hit."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "sankara",
+            "position": "Śaṅkara himself does not commit at the bhāṣya-level to bhāvarūpa avidyā in the technical sense the post-Śaṅkara school developed. His adhyāsa-bhāṣya prefacing BSB 1.1.1 treats adhyāsa as a structural mistake of cognition (mithyā-jñāna-nimitta) rather than as a positive substance requiring an āśraya. Rāmānuja's locus-argument may target post-Śaṅkara extensions rather than Śaṅkara's own bhāṣya commitment, which is silent or non-committal on the locus-of-avidyā as a separate question."
+          },
+          {
+            "thinker_id": "anandabodha",
+            "position": "Ānandabodha's tritīya-padārtha move (avidyā as a third entity, neither identifiable with Brahman nor jīva, intrinsically anirvacanīya) is anticipated by Rāmānuja's third horn but not formally engaged at this level; Ānandabodha replies that the dichotomy locus = substance is itself the move under question."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "madhusudana",
+            "response_text": "Advaita-Siddhi prathama-paricheda 4 — the āśraya-anupapatti-khaṇḍana",
+            "verdict": "concedes the formal force of the argument under the locus-as-substance-relation grammar Rāmānuja presupposes, but argues the underlying assumption is false: since avidyā is itself anirvacanīya (indeterminable as either sat or asat), the standard substance-property locus-relation does not apply. Avidyā stands to its locus by anirvacanīya-tādātmya, not by samavāya. The reply preserves the doctrine but shifts the ontological grammar."
+          },
+          {
+            "thinker_id": "vyasatirtha",
+            "response_text": "Nyāyāmṛta — the bhāvarūpa-avidyā-khaṇḍana",
+            "verdict": "extends Rāmānuja's destructive argument by formalising the locus-question as a Navya-Nyāya inferential dilemma, denying Madhusūdana's anirvacanīya-tādātmya escape on the ground that an inference admitting an anirvacanīya middle term is not an inference at all."
+          }
+        ]
+      },
+      "user_thesis_test": "The polemic is substantive at the formal-ontological level for Bhāmatī and Vivaraṇa (both genuinely commit to a determinate locus, and Rāmānuja's dilemma is genuine on their terms). For Śaṅkara himself, the locus-discussion may not be a commitment at all, so the polemic does not reach him. For Madhusūdana, the polemic is met by a doctrinal move (anirvacanīya-tādātmya) that does not dissolve the disagreement but relocates it onto a different axis — whether the anirvacanīya category is itself coherent."
+    },
+    {
+      "name": "anupapatti-2: tirodhānānupapatti — the concealment-untenability",
+      "premises": [
+        "Avidyā, on the Advaitin's account, conceals (tirodhānaṃ karoti) Brahman.",
+        "Brahman is by Advaita's own definition svayam-prakāśa — self-luminous, that whose nature is to manifest itself.",
+        "Concealment is the obstruction of manifestation by some interposing factor.",
+        "The self-luminous, by its definition, is that for which no obstruction of manifestation is intelligible: light qua light cannot be concealed by darkness; if it were, it would not be light.",
+        "There is no third faculty in which concealment could be located, since the jīva's cognitive faculties are themselves products of the supposed concealment."
+      ],
+      "inference": "Therefore the supposed concealment of Brahman by avidyā is structurally unintelligible.",
+      "conclusion": "Therefore avidyā cannot perform its assigned explanatory function.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "prakasatman",
+            "position": "Vivaraṇa makes tirodhāna a defining function of bhāvarūpa-avidyā (āvaraṇa-śakti and vikṣepa-śakti as the two operative powers). Hit directly: the very śakti-analysis presupposes that something can stand in concealing relation to the self-luminous, which the polemic denies."
+          },
+          {
+            "thinker_id": "sarvajnatman",
+            "position": "Saṃkṣepa-Śārīraka's account of avidyā's two śaktis is the explicit target."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "sankara",
+            "position": "Śaṅkara's own bhāṣya does not develop the āvaraṇa-vikṣepa-śakti analysis as a doctrinal commitment; his preferred idiom is adhyāsa, which is a mis-attribution-structure rather than a concealment-mechanism. The argument's force on Śaṅkara depends on whether adhyāsa can be re-described as concealment, which Rāmānuja assumes but does not establish."
+          },
+          {
+            "thinker_id": "vacaspati",
+            "position": "Bhāmatī's jīva-locus framing partially evades the tirodhāna-charge: what is concealed is the jīva's cognition of Brahman-as-its-own-self, not Brahman tout court. The hit is partial."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "madhusudana",
+            "response_text": "Advaita-Siddhi prathama-paricheda 5 — tirodhāna-anupapatti-khaṇḍana",
+            "verdict": "argues that what is concealed is not Brahman's svarūpa-prakāśa but the jīva's vṛtti-pratibimbita-prakāśa — the reflected manifestation in cognitive modification. The svayam-prakāśa Brahman is unchanged; what is obstructed is the cognitive availability of that prakāśa to the jīva. The reply requires distinguishing svarūpa-prakāśa from vṛtti-prakāśa, a distinction Rāmānuja did not engage."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive against the Vivaraṇa āvaraṇa-vikṣepa apparatus, which is genuinely committed to Brahman-as-such being concealed. The Madhusūdana reply is doctrinally available and shifts the disagreement onto whether the svarūpa/vṛtti distinction is principled — a substantive metaphysical question, not a dissolved one."
+    },
+    {
+      "name": "anupapatti-4: anirvacanīyatva-anupapatti — the indeterminability-untenability",
+      "premises": [
+        "Advaita characterises avidyā as anirvacanīya — neither sat nor asat, indeterminable on the realist binary.",
+        "Any cognitive characterisation must place its object on one side of the contradictories sat / asat (and likewise for any binary that exhausts a domain).",
+        "If avidyā is neither sat nor asat, then it is not characterisable, and the very assertion that 'avidyā is anirvacanīya' is itself a characterisation, hence self-defeating.",
+        "Further: if avidyā is not asat, it must be sat; the third option violates the law of excluded middle as applied to existence-categories.",
+        "Therefore the anirvacanīya category is either redundant (if it collapses into sat) or impossible (if it does not)."
+      ],
+      "inference": "Therefore the very category by which avidyā is allegedly described is incoherent.",
+      "conclusion": "Therefore the doctrine of avidyā collapses at its definitional step.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "prakasatman",
+            "position": "Vivaraṇa's defining anirvacanīya-bhāva-rūpa-avidyā is hit at its root."
+          },
+          {
+            "thinker_id": "anandabodha",
+            "position": "Ānandabodha's elaborate defense of the anirvacanīya category in Nyāya-Makaranda and Pramāṇa-Mālā is the principal target."
+          },
+          {
+            "thinker_id": "citsukha",
+            "position": "Citsukha's Tattva-Pradīpikā defense of anirvacanīya as a third logical option is engaged head-on."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "sankara",
+            "position": "Śaṅkara uses anirvacanīya descriptively in places but does not erect it into a category-axiom; the elaborate logical defense is post-Śaṅkara work."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "madhusudana",
+            "response_text": "Advaita-Siddhi prathama-paricheda 1 — defends four successive lakṣaṇas of mithyātva, each crafted to evade the strict-bivalence horn",
+            "verdict": "the four mithyātva-definitions are the structural reply: each characterises mithyātva (and by extension avidyā's status) without committing to anirvacanīya as a primitive third value. Madhusūdana effectively concedes Rāmānuja's point that anirvacanīya as raw category-violation is indefensible, and replaces it with characterisations that are formally well-defined while preserving the doctrinal work."
+          },
+          {
+            "thinker_id": "vyasatirtha",
+            "response_text": "Nyāyāmṛta — the mithyātvānumāna-khaṇḍana presses the same charge that Rāmānuja makes here, with formal Navya-Nyāya rigour",
+            "verdict": "Vyāsatīrtha extends Rāmānuja's anirvacanīyatva-anupapatti by showing that none of Madhusūdana's four lakṣaṇas evades the underlying difficulty — each either smuggles in sat or smuggles in asat at a different point in the analysis."
+          }
+        ]
+      },
+      "user_thesis_test": "This is the most genuinely substantive of the seven. The disagreement does not dissolve under register-clarification; it concerns whether bivalence is universally valid for ontological categories or whether anirvacanīya names a real third logical option. Modern logicians would call this a question about non-classical logics for ontology. The polemic is substantive and the response is substantive; the disagreement is not merely terminological."
+    },
+    {
+      "name": "anupapatti-6: nivartakānupapatti — the removal-agent-untenability",
+      "premises": [
+        "Advaita holds that brahma-jñāna removes (nivartayati) avidyā.",
+        "Brahma-jñāna is, on Advaita's own analysis, a vṛtti — a cognitive modification — which is itself a product of the antaḥ-karaṇa, which is itself a product of avidyā.",
+        "If the removal-agent is itself a product of what it removes, then on the moment of removal the removal-agent ceases to exist (its productive cause having been removed), and the removal cannot be completed.",
+        "Alternatively, if brahma-jñāna is identical with Brahman's svarūpa-jñāna (not a vṛtti), then it has always been present and avidyā should never have arisen.",
+        "Either horn defeats the function of jñāna as nivartaka."
+      ],
+      "inference": "Therefore there is no coherent removal-agent for avidyā.",
+      "conclusion": "Therefore liberation, on the Advaita scheme, is structurally impossible.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "prakasatman",
+            "position": "Vivaraṇa's account of akhaṇḍākāra-vṛtti as nivartaka is precisely targeted: the vṛtti's status as both effect-of-avidyā and remover-of-avidyā is the structural contradiction the argument exhibits."
+          },
+          {
+            "thinker_id": "sureshvara",
+            "position": "Naiṣkarmya-Siddhi's account of mahāvākya-cognition as immediately liberating is hit on the second horn: if the cognition is identical with Brahman's svarūpa-jñāna, there is no temporal moment at which it removes anything."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "vacaspati",
+            "position": "Bhāmatī's account of nididhyāsana-ripened cognition as nivartaka through prasaṅkhyāna can absorb the criticism partially: the cognitive series is the agent, not a single vṛtti, and the series-as-such is causally efficient even if any one member ceases."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "madhusudana",
+            "response_text": "Advaita-Siddhi — uses the lamp-and-darkness analogy: a lamp is causally produced by an arrangement that includes prior darkness, yet on its arising removes that very darkness; the lamp's ceasing-to-be (when its oil exhausts) is independent of the darkness's removal",
+            "verdict": "the analogy preserves the doctrinal work by showing that the removal-agent need not be ontologically prior to its own productive conditions; the productive conditions can fall away with what they produce while the removal stands."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive but answerable. The Madhusūdana reply (lamp-darkness) is logically sound, though it imposes a non-trivial structural commitment about removal-relations. The disagreement does not dissolve but it is not catastrophic for Advaita. Partial-touch."
+    }
+  ],
+  "user_thesis_summary": "On balance, the saptavidhānupapatti is partly genuinely substantive (especially the anirvacanīyatva-anupapatti, which raises a real logical question) and partly addressable by post-Śaṅkara doctrinal moves that, while preserving the position, shift the disagreement onto further substantive axes (anirvacanīya-tādātmya, vṛtti-prakāśa vs svarūpa-prakāśa, lamp-darkness causation). The polemic does not dissolve under register-clarification. The residual disagreement after Madhusūdana's defensive moves concerns the legitimacy of three substantive metaphysical commitments: (i) whether anirvacanīya is a genuine third logical category or a placeholder for unresolved bivalence; (ii) whether substance-property grammar applies to ontologically-indeterminate items; (iii) whether self-luminosity admits of any concealment-relation. None of these is a register-disagreement; all are first-order. Importantly, the polemic does not reach Śaṅkara's own bhāṣya as cleanly as it reaches Vivaraṇa and Bhāmatī, since the elaborate avidyā-as-substance apparatus is post-Śaṅkara. Verdict: substantive, but with the surface targets being post-Śaṅkara extensions rather than Śaṅkara himself.",
+  "primary_source_loci": [
+    "Vedārtha-Saṃgraha §76–82 (the seven anupapatti-s sequentially)",
+    "Śrī-Bhāṣya 1.1.1 Mahā-Siddhānta",
+    "Śrī-Bhāṣya 2.2.27 (against māyā as māyāmaya)"
+  ],
+  "scholarly_apparatus": [
+    {
+      "scholar": "John B. Carman",
+      "work": "The Theology of Rāmānuja (Yale, 1974)",
+      "page_or_section": "ch. 5",
+      "position": "Reads the saptavidhānupapatti as primarily targeting the Vivaraṇa school as systematised in Prakāśātman; Rāmānuja's actual interlocutors among the Advaitins were the post-Sureśvara establishment, not Śaṅkara himself."
+    },
+    {
+      "scholar": "S. M. S. Chari",
+      "work": "Advaita and Viśiṣṭādvaita (Bombay, 1961)",
+      "page_or_section": "chs. 4–6",
+      "position": "Argues that the seven anupapatti-s, taken as a destructive cumulative argument, retain dialectical force only against bhāvarūpa-avidyā as a substance; against an adhyāsa-only construal of Śaṅkara, several of the seven do not engage."
+    },
+    {
+      "scholar": "Sara Grant",
+      "work": "Śaṅkarācārya's Concept of Relation",
+      "page_or_section": "esp. ch. 3",
+      "position": "Defends the view that Śaṅkara's adhyāsa-bhāṣya is structurally distinct from the post-Śaṅkara bhāvarūpa-avidyā doctrine, supporting the reading that several Rāmānuja anupapattis target the latter rather than Śaṅkara."
+    }
+  ],
+  "entry_status": "reviewed",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-polemic-opus"
+}

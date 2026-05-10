@@ -1,0 +1,22 @@
+{
+  "term_key": "tamas",
+  "term_iast": "tamas",
+  "term_devanagari": "तमस्",
+  "literal": "darkness; in Sāṅkhya: the heavy, obscuring, inertial guṇa",
+  "aliases": ["tamas", "Tamas", "tamasaḥ", "tamasi", "tamasā", "tāmasa", "tāmasika", "tamasika"],
+  "invariant_definition": "The third of the three *guṇas* of *prakṛti* — the heavy, obscuring, inertial constituent. *Tamas* is associated with delusion (*moha*), sleep, indolence, and concealment. Its predominance produces ignorance, confusion, and *adharma*. All Vedāntic schools that engage the *guṇa*-scheme treat *tamas* as the most spiritually obstructive *guṇa*; in Madhva's *taratamya* the *tamo-yogya* class is intrinsically dominated by *tamas* and is fated for the *andha-tamas* (eternal darkness).",
+  "per_school": [
+    {
+      "school": "Advaita / Viśiṣṭādvaita",
+      "definition": "*Tamas* is the principal obstacle to *jñāna* (Advaita) and to *bhakti* (Viśiṣṭādvaita); it is to be displaced by the rise of *sattva*.",
+      "primary_loci": ["Bhagavad-Gītā-Bhāṣya 14, 17, 18", "Gītā-Bhāṣya (Rāmānuja) 14"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Tamas* is constitutively dominant in the *tamo-yogya* class of souls; this is metaphysically primitive, not a function of choice or *karma*. The *andha-tamas* (eternal darkness) is the destiny of these souls — Madhva's most distinctive (and most controversial) doctrine.",
+      "primary_loci": ["Mahābhārata-Tātparya-Nirṇaya 1.85–95", "Anu-Vyākhyāna 3.4"]
+    }
+  ],
+  "see_also": ["sattva", "rajas", "guna", "prakrti", "tamo-yogya", "andha-tamas"],
+  "translator_note": "'Darkness' captures the literal sense; 'inertia' captures the technical psychological sense. Best left untranslated. Note especially that *tamas* in Madhva's metaphysics is not a behavioral tendency but an *intrinsic class-property* of certain souls."
+}

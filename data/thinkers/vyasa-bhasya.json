@@ -1,0 +1,45 @@
+{
+  "id": "vyasa-bhasya",
+  "name": "Vyasa (Yoga commentator)",
+  "name_iast": "Vyāsa",
+  "alternate_names": ["Veda-Vyāsa (traditional ascription)", "Pātañjala-Vyāsa"],
+  "dates_low": 350,
+  "dates_high": 500,
+  "dates_tier": "contested",
+  "dates_notes": "The author of the Yoga-Sūtra-Bhāṣya is conventionally named Vyāsa but is almost certainly distinct from the legendary Veda-Vyāsa; Maas (2013, 'A Concise Historiography of Classical Yoga Philosophy') argues for treating sūtras and bhāṣya together as a single composite work — Pātañjala-Yoga-Śāstra — with the bhāṣya as Patañjali's auto-commentary or contemporaneous redaction. Larson follows this. The historical Vyāsa-as-distinct-author hypothesis is the older view (Garbe; Wezler) and remains alive. Dates given here cover both readings.",
+  "school": "Sāṃkhya",
+  "school_color_token": "samkhya-comparator",
+  "sub_school": "Yoga-Sāṃkhya synthesis",
+  "sub_school_shade": 4,
+  "lineage_in": ["isvara-krsna"],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "The *Yoga-Sūtra-Bhāṣya* — the *Pātañjala-Yoga-Śāstra*'s only intra-traditional commentary — holds Sāṃkhya metaphysics within the Yoga frame and discharges what the *sūtras* leave compressed. The metaphysics is Sāṃkhya: twenty-five *tattvas*, *puruṣa*-*prakṛti* dualism, the three *guṇas* as constitutive of *prakṛti*, *satkārya-vāda* on causation. The Yoga additions are doctrinally consequential. *Citta-vṛtti-nirodha* — the cessation of mental modifications — is unfolded as a graded analysis of the five *vṛttis*, the four *samādhis* of the first *pāda*, and the eight *aṅgas* of *kriyā-yoga* in the second. *Īśvara* is admitted as a distinct *puruṣa-viśeṣa* untouched by *kleśa-karma-vipāka-āśaya* (the affliction-action-fruition-deposit chain): not a creator, but a perfect contemplative *puruṣa* whose *praṇidhāna* is one efficient route to *samādhi*. Two technical contributions matter for Vedānta. First, the analysis of *kaivalya* in the fourth *pāda* as the *guṇa*'s reabsorption into their source — a reading every Vedāntic *bhāṣyakāra* must position himself against. Second, the *bhāṣya*'s detailed phenomenology of *samādhi*, *dhyāna*, and *dhāraṇā*, which becomes the standard description of yogic praxis that later Advaitic, Viśiṣṭādvaitic, and Mādhva works inherit. The *bhāṣya* is the base text on which Vāchaspati Miśra (*Tattva-Vaiśāradī*) and Vijñānabhikṣu (*Yoga-Vārttika*) build the standard pre-modern reading of Patañjali.",
+  "engaged_works": [
+    {
+      "work_id": "yoga-sutra-bhasya",
+      "title": "Yoga-Sutra-Bhashya",
+      "title_iast": "Yoga-Sūtra-Bhāṣya",
+      "alternate_titles": ["Pātañjala-Yoga-Śāstra (composite-text reading)", "Vyāsa-Bhāṣya"],
+      "composition_dates_low": 350,
+      "composition_dates_high": 500,
+      "composition_dates_notes": "Dating depends on the composite-text question; the conventional fifth-century date stands either way.",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed to Vyāsa; modern scholarship (Maas 2013) increasingly treats the sūtras-with-bhāṣya as a single Pātañjala-Yoga-Śāstra. Either way the bhāṣya is the only intra-traditional commentary and is the base text for all later Yoga scholasticism.",
+      "ascription_evidence": [
+        {"kind": "scholarly-dispute", "description": "Author-identity debate: Maas (2013) defends single-authorship; Wezler and Bronkhorst defend distinct-bhāṣyakāra Vyāsa."}
+      ],
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "summary": "Prose commentary on Patañjali's *Yoga-Sūtra* across all four *pādas* — *samādhi*, *sādhana*, *vibhūti*, *kaivalya*. The *bhāṣya* installs the Sāṃkhya twenty-five-*tattva* ontology as the metaphysical frame within which Yoga praxis is intelligible. The first *pāda* receives the most exegetically dense treatment: the famous *yogaḥ citta-vṛtti-nirodhaḥ* opens out into a typology of the five *vṛttis*, an analysis of *abhyāsa* and *vairāgya*, and the doctrine of *samprajñāta* and *asamprajñāta-samādhi*. The second *pāda* unfolds *kriyā-yoga* (*tapas*, *svādhyāya*, *īśvara-praṇidhāna*) and the eight *aṅgas* (*yama*, *niyama*, *āsana*, *prāṇāyāma*, *pratyāhāra*, *dhāraṇā*, *dhyāna*, *samādhi*). The third *pāda* on *vibhūtis* treats the *saṃyama*-generated powers, with the warning that they obstruct *samādhi*. The fourth *pāda* on *kaivalya* gives the cleanest statement of the Yoga *mokṣa*-doctrine: liberation as the *puruṣa*'s isolation from *prakṛti* once the *guṇas* have been reabsorbed. Vāchaspati Miśra's *Tattva-Vaiśāradī* and Vijñānabhikṣu's *Yoga-Vārttika* are the two principal sub-commentaries through which Vedāntic readers received the *bhāṣya*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-comparators-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-comparators-opus"
+}

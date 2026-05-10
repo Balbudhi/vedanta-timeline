@@ -1,0 +1,27 @@
+{
+  "term_key": "ahankara",
+  "term_iast": "ahaṅkāra",
+  "term_devanagari": "अहङ्कार",
+  "literal": "the I-maker, ego-fabricator; from aham 'I' + √kṛ 'to make'",
+  "aliases": ["ahankara", "ahaṅkāra", "ahaṃkāra", "Ahaṅkāra", "ahaṅkārasya", "ahankar", "ahamkara"],
+  "invariant_definition": "The 'I-making' faculty — the cognitive function that fabricates the sense of being a particular bounded agent. In Sāṅkhya it is the third *tattva* in the evolutionary sequence (after *mahat/buddhi*); in Vedānta-psychology it is one of the four functions of the *antaḥkaraṇa* (with *manas*, *buddhi*, *citta*). All Vedāntic schools agree that *ahaṅkāra* is what falsely (or limitingly) identifies the *ātman* with the body-mind complex; its dis-identification is essential to *mokṣa*. They differ on whether *ahaṅkāra* is *vyāvahārika* and ultimately illusory (Advaita) or a real *prakṛti*-constituent that the *jīva* is genuinely associated with (Viśiṣṭādvaita, Dvaita, Vaiṣṇava bhedābheda).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Ahaṅkāra* is the principal vehicle of *adhyāsa*: it is what superimposes *anātman*-features on *ātman*. With the rise of *brahma-jñāna*, *ahaṅkāra* is dissolved (in the *jīvanmukta*'s case, *prārabdha*-residue maintains a non-binding apparent *ahaṅkāra*).",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1 (adhyāsa-bhāṣya)", "Vivekacūḍāmaṇi 105", "Pañcadaśī 7"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Ahaṅkāra* is a real *prakṛti*-tattva that the *jīva* is associated with under *karma*; it is one of the contracting conditions of *dharmabhūta-jñāna*. At *mokṣa* the *jīva* is freed from *prākṛta-ahaṅkāra* but its individual self-reference (*svayaṃ-jñāna*) persists eternally.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§82–88", "Yatīndra-Mata-Dīpikā 5"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Ahaṅkāra* is a real *prakṛti*-tattva. Crucially, the *jīva*'s self-reference is NOT itself *ahaṅkāra* in the pejorative sense — Madhva insists on the eternal individuality of the *jīva*; what binds is *prākṛta*-ahaṅkāra (matter-tinged ego), not the *jīva*'s ineliminable self-reference.",
+      "primary_loci": ["Tattva-Saṅkhyāna 5–7", "Brahma-Sūtra-Bhāṣya (Madhva) 2.4"]
+    }
+  ],
+  "see_also": ["antahkarana", "manas", "buddhi", "citta", "atman", "adhyasa"],
+  "translator_note": "'Ego' is the standard gloss but imports Freudian and modern-Western connotations. *Ahaṅkāra* is more precisely 'the I-making function' — a technical psychological-metaphysical category, not Freud's drive-balancing apparatus. The user's position-brief notes that *ahaṅkāra* is what blocks the divine 'in true form' (T6, T8); 'ego' captures only the affective-attachment side, missing the cognitive-fabrication side."
+}

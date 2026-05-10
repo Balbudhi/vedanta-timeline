@@ -1,0 +1,27 @@
+{
+  "term_key": "purusa",
+  "term_iast": "puruṣa",
+  "term_devanagari": "पुरुष",
+  "literal": "person, man, the Person; in Vedic usage often the cosmic Person (Puruṣa-Sūkta, Ṛgveda 10.90)",
+  "aliases": ["purusa", "puruṣa", "Puruṣa", "puruṣaḥ", "puruṣasya", "puruṣe", "puruṣottama", "purushottama"],
+  "invariant_definition": "The conscious principle. The term operates at three registers: (1) Vedic-cosmic — the *Puruṣa-Sūkta*'s primal Person from whose dismemberment the cosmos arises; (2) Sāṅkhya-technical — the conscious witness, contrasted with *prakṛti*, multiple in number; (3) Vedāntic — used variously, but most often in the *uttama-puruṣa* construction (*puruṣottama*) for the supreme Person. All Vedāntic schools accept the *Puruṣa-Sūkta*'s relevance to *brahman*-doctrine but differ on whether *puruṣa* in the strict sense is plural (Sāṅkhya, accepted by Viśiṣṭādvaita and Dvaita with modification) or singular (Advaita: only one *puruṣa*, identical with *brahman*).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Puruṣa* in the highest sense is *brahman* itself; the Sāṅkhya plurality of *puruṣas* is a *vyāvahārika* appearance reducible to the one *ātman*. *Puruṣottama* in Gītā 15 is read as *nirguṇa brahman* under the devotional aspect.",
+      "primary_loci": ["Bhagavad-Gītā-Bhāṣya 15.16–19", "Brahma-Sūtra-Bhāṣya 2.2.1ff"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Puruṣa* in the Sāṅkhya plural sense is accepted (as *jīva*s, the *kṣetrajña-puruṣas* of Gītā 13). *Puruṣottama* is the supreme Person, Viṣṇu — distinct from and superior to both the *kṣara* (perishable, embodied) *puruṣa*s and the *akṣara* (imperishable, *mukta*) *puruṣa*s of Gītā 15.",
+      "primary_loci": ["Gītā-Bhāṣya (Rāmānuja) 15.16–19", "Vedārtha-Saṅgraha §§82–88"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Puruṣa* plural = the *jīva*s, eternally distinct. *Puruṣottama* = Viṣṇu, the unique *svatantra*. The Sāṅkhya scheme is accepted with the correction that *prakṛti* is *paratantra*, not independent.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 2.2.1ff", "Gītā-Tātparya 15"]
+    }
+  ],
+  "see_also": ["prakrti", "purusottama", "brahman", "atman", "ksara", "aksara"],
+  "translator_note": "Translating *puruṣa* as 'person' is misleading because the modern English 'person' is constituted by the post-Lockean / post-Kantian individual-subject grammar, while *puruṣa* in Sāṅkhya is precisely the *non-individuated witness* (each *puruṣa* in Sāṅkhya is qualitatively identical, distinguished only numerically by association with a different *prakṛti*-stream). 'Spirit' carries the wrong connotations. Best left untranslated, with context-specific gloss."
+}

@@ -1,0 +1,27 @@
+{
+  "term_key": "sattva",
+  "term_iast": "sattva",
+  "term_devanagari": "सत्त्व",
+  "literal": "being-ness, beingness; from sat + abstract suffix -tva. In guṇa-context: the luminous, light, ordered guṇa",
+  "aliases": ["sattva", "Sattva", "sattvaṃ", "sattvasya", "sattve", "sattvika", "sāttvika"],
+  "invariant_definition": "The first of the three *guṇas* of *prakṛti* — the luminous, lucid, light, ordered constituent. *Sattva* is associated with knowledge (*jñāna*), clarity, and equipoise; in psychology it predominates in the *buddhi* and is the *guṇa* in which knowledge of *brahman* is achievable. All Vedāntic schools that engage Sāṅkhya's *guṇa*-scheme (i.e., effectively all of them) accept *sattva* as constitutionally enabling for spiritual practice. They differ on the ontological status of the *guṇas* themselves — real material constituents (Viśiṣṭādvaita, Dvaita) or *vyāvahārika* (Advaita).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Sattva* is the *guṇa* whose predominance in the *antaḥkaraṇa* makes liberating *jñāna* possible. *Karma-yoga* and *bhakti* are valued largely as means of *sattva-śuddhi* — purification toward *sāttvika* dominance.",
+      "primary_loci": ["Bhagavad-Gītā-Bhāṣya 14, 17, 18", "Vivekacūḍāmaṇi 119"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Sattva* is a real material constituent of *prakṛti*. *Śuddha-sattva* — pure *sattva* — is recognized as a distinct ontological mode constituting the bodies of the Lord and of the *muktas* in Vaikuṇṭha; it is qualitatively distinct from the *miśra-sattva* of bound embodiment.",
+      "primary_loci": ["Yatīndra-Mata-Dīpikā 5", "Śrī-Bhāṣya 3.2"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Sattva* is a real material constituent, intrinsically associated with the *taratamya* of souls — *mukti-yogya* souls have constitutive *sāttvika* affinity, *tamo-yogya* souls *tāmasic* affinity. The *guṇa*-scheme has metaphysical, not merely psychological, force.",
+      "primary_loci": ["Anu-Vyākhyāna 3.3"]
+    }
+  ],
+  "see_also": ["rajas", "tamas", "guna", "prakrti", "antahkarana", "buddhi", "suddha-sattva"],
+  "translator_note": "'Goodness' is a frequent gloss; misleading. *Sattva* is not a moral category but a metaphysical-psychological one. 'Lucidity' or 'clarity' is closer; best left untranslated."
+}

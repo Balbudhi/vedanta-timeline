@@ -1,0 +1,22 @@
+{
+  "term_key": "rajas",
+  "term_iast": "rajas",
+  "term_devanagari": "रजस्",
+  "literal": "in Vedic usage 'mist, dust, atmospheric region'; in Sāṅkhya: the active, passionate, energizing guṇa",
+  "aliases": ["rajas", "Rajas", "rajasaḥ", "rajasi", "rajasā", "rājasa", "rājasika", "rajasika"],
+  "invariant_definition": "The second of the three *guṇas* of *prakṛti* — the active, energizing, passion-producing constituent. *Rajas* is associated with desire (*kāma*), striving (*pravṛtti*), and motion. Its predominance in the *antaḥkaraṇa* produces attachment, restlessness, and *karma*-driven action. All Vedāntic schools that engage the *guṇa*-scheme accept *rajas* as constitutionally obstructive to *jñāna* (though instrumentally necessary for action and motion).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Rajas* in the *antaḥkaraṇa* obstructs *brahma-jñāna*. *Sādhana* aims to convert *rajas* and *tamas* to *sattva*-dominance.",
+      "primary_loci": ["Bhagavad-Gītā-Bhāṣya 14, 17, 18"]
+    },
+    {
+      "school": "Viśiṣṭādvaita / Dvaita",
+      "definition": "*Rajas* is a real material constituent of *prakṛti*; in Dvaita's *taratamya* it correlates with the *jīva*'s metaphysical type.",
+      "primary_loci": ["Yatīndra-Mata-Dīpikā 5", "Anu-Vyākhyāna 3.3"]
+    }
+  ],
+  "see_also": ["sattva", "tamas", "guna", "prakrti"],
+  "translator_note": "'Passion' or 'activity' are the standard glosses; both miss the metaphysical dimension. *Rajas* is best left untranslated."
+}

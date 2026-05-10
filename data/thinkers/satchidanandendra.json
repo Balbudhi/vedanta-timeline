@@ -1,0 +1,135 @@
+{
+  "id": "satchidanandendra",
+  "name": "Satchidanandendra Saraswati",
+  "name_iast": "Saccidānandendra Sarasvatī",
+  "alternate_names": ["Subba Rao (birth name)", "Holenarsipur Swami"],
+  "dates_low": 1880,
+  "dates_high": 1975,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Born 5 January 1880; died 5 August 1975; founder of the Adhyātma-Prakāśa-Kāryālaya, Holenarsipur, Hassan district, Karnataka.",
+  "dates_evidence": [
+    {
+      "kind": "manuscript-colophon",
+      "description": "Adhyātma-Prakāśa-Kāryālaya publication records, 1929 onwards."
+    },
+    {
+      "kind": "sectarian-chronicle",
+      "description": "Holenarsipur monastic-institutional records."
+    }
+  ],
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Vivṛti-Pratyabhijñā Advaita",
+  "sub_school_shade": 5,
+  "lineage_in": ["sankara"],
+  "lineage_out": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "prakasatman",
+      "direction": "refutes",
+      "note": "Mūlāvidyā-Nirāsa argues that the doctrine of mūlāvidyā as positive material-cause is post-Śaṅkaran and absent from Śaṅkara's own bhāṣyas. The Vivaraṇa Brahman-as-locus-of-avidyā thesis is therefore rejected as un-Śaṅkaran."
+    },
+    {
+      "thinker_id": "vacaspati",
+      "direction": "refutes",
+      "note": "The Bhāmatī jīva-as-locus thesis is likewise rejected as un-Śaṅkaran. For Śaṅkara himself, on Satchidānandendra's reading, avidyā is adhyāsa (superimposition) rather than a substantive material cause requiring a locus."
+    },
+    {
+      "thinker_id": "anantakrishna-sastri",
+      "direction": "mutual",
+      "note": "Twentieth-century intra-Advaita polemic; the Anantakṛṣṇa Śāstrī line defends the post-Śaṅkara scholastic apparatus against the Holenarsipur revisionism."
+    }
+  ],
+  "core_thesis": "Satchidānandendra Sarasvatī, founder of the Adhyātma-Prakāśa-Kāryālaya at Holenarsipur, challenges the entire post-Śaṅkara scholastic edifice as a deviation from Śaṅkara's own *bhāṣya*-method. His *Mūlāvidyā-Nirāsa* (1929, Sanskrit) argues that the doctrine of *mūlāvidyā* as a positive material-cause of the world — central to Vivaraṇa Advaita and tacitly accepted by Bhāmatī — is foreign to Śaṅkara's *Brahma-Sūtra-Bhāṣya*, *Bṛhadāraṇyaka-Bhāṣya*, and *Upadeśa-Sāhasrī*. For Śaṅkara, on this reading, *avidyā* is *adhyāsa* (superimposition), not a substance whose locus must then be assigned. The argument is destructive: if *mūlāvidyā* were Śaṅkara's own doctrine, the *adhyāsa-bhāṣya* prefacing BSB 1.1.1 would be inexplicable. He systematises the recovery as the *Śuddha-Śāṅkara-Prakriyā* school. The extensive Sanskrit and Kannada output — *Vedānta-Prakriyā-Pratyabhijñā*, *Śuddha-Śāṅkara-Prakriyā-Bhāskara*, *Māṇḍūkya-Rahasya-Vivṛti* — re-reads the post-Śaṅkara tradition selectively, accepting Sureśvara, Padmapāda, Maṇḍana, Vāchaspati, and Prakāśātman only insofar as they conform to the *adhyāsa-bhāṣya* method. The intra-Advaita controversy he initiated remains live.",
+  "engaged_works": [
+    {
+      "work_id": "mulavidya-nirasa",
+      "title": "Mulavidya-Nirasa",
+      "title_iast": "Mūlāvidyā-Nirāsa",
+      "alternate_titles": [],
+      "composition_dates_low": 1929,
+      "composition_dates_high": 1929,
+      "composition_dates_notes": "Published 1929.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "manuscript-colophon", "description": "Adhyātma-Prakāśa-Kāryālaya 1929 first edition colophon."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "A Sanskrit polemical *prakaraṇa* arguing that the doctrine of *mūlāvidyā* — *avidyā* as a positive material cause of the world, requiring a locus (*āśraya*) and an object (*viṣaya*) — is absent from Śaṅkara's own *bhāṣya*-corpus. The argument proceeds passage by passage. Each canonical post-Śaṅkara text invoked in defense of *mūlāvidyā* is matched against the *Brahma-Sūtra-Bhāṣya*, the *Bṛhadāraṇyaka-Bhāṣya*, and the *Upadeśa-Sāhasrī*; in each case, on Satchidānandendra's reading, what Śaṅkara himself says is *adhyāsa*-talk, not *mūlāvidyā*-talk. The destructive moment of the argument is that the *adhyāsa-bhāṣya* prefacing BSB 1.1.1 is inexplicable if *avidyā* is a positively existing material cause: superimposition presupposes the cogniser already in place, not a substance from which the cogniser is generated. The work launches the Śuddha-Śāṅkara-Prakriyā movement and is the principal documentary source for the twentieth-century intra-Advaita controversy on the locus and ontological status of *avidyā*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "vedanta-prakriya-pratyabhijna",
+      "title": "Vedanta-Prakriya-Pratyabhijna",
+      "title_iast": "Vedānta-Prakriyā-Pratyabhijñā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "manuscript-colophon", "description": "Adhyātma-Prakāśa-Kāryālaya publication colophon."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "A constructive Sanskrit *prakaraṇa* setting out the *prakriyā* (method) of Śaṅkara's *bhāṣya*-corpus as Satchidānandendra reconstructs it, after the destructive work of the *Mūlāvidyā-Nirāsa*. The treatise treats *adhyāsa* as the load-bearing concept, the *mahā-vākyas* as direct *jñāna*-generating instruments rather than secondary supports for *mūlāvidyā*-removal, and *jñāna-niṣṭhā* as the *sādhana*-foreground. The work is the school's positive doctrinal handbook — what *Śuddha-Śāṅkara-Prakriyā* affirms, not just what it denies — and is the natural complement to the *Mūlāvidyā-Nirāsa* on the negative side.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "shuddha-shankara-prakriya-bhaskara",
+      "title": "Shuddha-Shankara-Prakriya-Bhaskara",
+      "title_iast": "Śuddha-Śāṅkara-Prakriyā-Bhāskara",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "manuscript-colophon", "description": "Adhyātma-Prakāśa-Kāryālaya publication colophon."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "A Sanskrit illuminator (*bhāskara*) of the *Śuddha-Śāṅkara-Prakriyā*. The work supplies the school's reading of each contested locus in the post-Śaṅkara tradition — Sureśvara on *avidyā*, Padmapāda on the *jīva-Brahma* superimposition, Maṇḍana on *vidhi*, Vāchaspati on the locus of *avidyā*, Prakāśātman on the *vivaraṇa* of the *Pañca-pādikā* — and indicates in each case which moves are continuous with the *adhyāsa-bhāṣya* method and which are doctrinal accretions. The treatise functions as the school's reception-history of post-Śaṅkara Advaita conducted on its own methodological criterion.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "mandukya-rahasya-vivriti",
+      "title": "Mandukya-Rahasya-Vivriti",
+      "title_iast": "Māṇḍūkya-Rahasya-Vivṛti",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "manuscript-colophon", "description": "Adhyātma-Prakāśa-Kāryālaya publication colophon."}
+      ],
+      "genre": "upanisad-bhashya",
+      "language": "sanskrit",
+      "summary": "A Sanskrit commentary on the *Māṇḍūkya Upaniṣad* together with Gauḍapāda's *Kārikās*. The reading is constructed to demonstrate that the *Māṇḍūkya*-Gauḍapāda-Śaṅkara stratum supports the *adhyāsa* analysis of *avidyā* and not the post-Śaṅkara *mūlāvidyā* doctrine. The four-*pāda* analysis of consciousness — *jāgrat*, *svapna*, *suṣupti*, *turīya* — is treated as the analytic structure within which *adhyāsa* operates, with *turīya* as the always-already-real consciousness that is mistakenly superimposed upon by the other three. The work is one of the school's principal Upaniṣadic exegeses and shows that the Śuddha-Śāṅkara-Prakriyā can be carried through on a textually contested base.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "salient-features-of-shankara-vedanta",
+      "title": "Salient Features of Shankara Vedanta",
+      "title_iast": "Salient Features of Śaṅkara-Vedānta",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored English summary intended for the modern reader.",
+      "ascription_evidence": [
+        {"kind": "manuscript-colophon", "description": "Adhyātma-Prakāśa-Kāryālaya publication colophon."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "An English exposition summarising the Śuddha-Śāṅkara-Prakriyā school's position for an audience without Sanskrit pāṭhaśālā training. The work compresses the doctrinal substance of the *Mūlāvidyā-Nirāsa*, the *Vedānta-Prakriyā-Pratyabhijñā*, and the *Śuddha-Śāṅkara-Prakriyā-Bhāskara* into a readable presentation, and supplies the school's principal entry-point for English-language readers. Its function is missionary-pedagogical rather than philosophical-frontier; the technical work is housed in the Sanskrit treatises.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-corpus-v2-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-corpus-v2-opus"
+}
