@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Tantra-Dīpikā — Extended Translation
 **By:** Rāghavendra Tīrtha  
 **Locus scope:** Adhyāya 1 doctrinal spine: the adhyāya-summary and the keyed loci TD 1.1 *bhedavyapadeśāc ca*, TD 1.3 *suṣuptyutkrāntyor bhedena*, and TD 1.4 *jñeyatvavacanāc ca*.  

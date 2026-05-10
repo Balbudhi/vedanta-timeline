@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Ātma-Siddhi — Extended Translation
 **By:** Yāmunācārya  
 **Locus scope:** Ātma-Siddhi verses 2–8 (programmatic statement of purpose, self-definition, and refutation of *dehātma-vāda*)  

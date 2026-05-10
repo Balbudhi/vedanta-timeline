@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Tarka-Tāṇḍava — Extended Translation
 **By:** Vyāsatīrtha  
 **Locus scope:** Pariccheda 1, *prāmāṇyavāda* — the foundational recoverable *mūla* statements preserved distinctly in the commentary-inclusive GRETIL witness: the programmatic verse (TT 1.5), the definitions of *jñapti*- and *utpatti*-*svatastva*, the clarification of *sākṣin*, the first inferential proof of intrinsic graspability, and the concluding bridge to the *vedāpauruṣeyatvavāda*.  

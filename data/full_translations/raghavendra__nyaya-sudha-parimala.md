@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Nyāya-Sudhā-Pariṃala — Extended Translation
 **By:** Rāghavendra Tīrtha  
 **Locus scope:** Adhyāya 1 opening *maṅgalācaraṇa* (verses 1–6) and the first prose framing sentence. This restricted unit is chosen because the on-disk witness is an image-only scan; beyond this opening, the available OCR becomes too unstable for a non-conjectural line-by-line Pāṇinian extraction.  

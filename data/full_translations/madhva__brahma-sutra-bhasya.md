@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Brahma-Sūtra-Bhāṣya — Extended Translation
 **By:** Madhva  
 **Locus scope:** Opening proem and first threshold of *Brahma-Sūtra* 1.1.1: BBsBh 1.1.1.1-20 (invocation, Vyāsa-origin frame, definition of the sūtra-form, statement of the opening sūtra, and initial gloss on *atha* and *ataḥ*).  

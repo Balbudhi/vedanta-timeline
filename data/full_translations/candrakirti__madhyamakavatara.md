@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Madhyamakāvatāra — Extended Translation
 **By:** Candrakīrti  
 **Locus scope:** *Prathamaścittotpādaḥ* (chapter 1), verses 1–17, extracted from the interleaved Sanskrit witness of the *Madhyamakāvatāra-Bhāṣya*  

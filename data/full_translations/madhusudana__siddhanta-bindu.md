@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Siddhānta-Bindu — Extended Translation
 **By:** Madhusūdana Sarasvatī  
 **Locus scope:** *Upodghāta* (entire introductory section, preceding *Prathamo Vibhāgaḥ*)  

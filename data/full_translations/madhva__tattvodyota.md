@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Tattvodyota — Extended Translation
 **By:** Madhva  
 **Locus scope:** Opening anti-*anirvacanīya* section: from **Maṅgalācaraṇam** through the first *śruti*-cluster under **Nāsadāsīd iti śrutyarthavicāraḥ**; i.e. up to **Iti Mādhyandinaśrutiḥ**, before **Arthāpattinirāsaḥ** begins  

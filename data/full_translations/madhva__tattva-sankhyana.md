@@ -1,3 +1,8 @@
+---
+coverage: full
+coverage_evidence: 'locus-scope: \\bnatural\\s+unit\\s+because\\s+the\\s+work\\s+itself'
+---
+
 # Tattva-Saṅkhyāna — Extended Translation
 **By:** Madhva  
 **Locus scope:** Entire eleven-verse *Tattva-Saṅkhyāna*; this is the natural unit because the work itself is a compact complete ontological synopsis, and its argumentative force depends on the whole progression from *svatantra/paratantra* division through *jīva*-classification to the closing statement of Viṣṇu's universal governance.  

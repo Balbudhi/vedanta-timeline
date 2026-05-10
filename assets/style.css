@@ -2227,190 +2227,245 @@ body.view-network .lineage-edge { stroke-width: 1.1px; }
 }
 
 /* =============================================================
-   FOOTNOTE-STYLE CITATIONS (superscript numbering)
-   - Replaces the inline [BSB 1.1.1] cite-link rendering with a
-     small numbered superscript per render-context. Numbers reuse
-     across the same view when the same key is cited again.
-   - Demoted (verified: false) entries render gray + strikethrough
-     to honestly signal that the audit could not locate the passage.
-   - Pending-acquisition entries render gray-italic to signal that
-     the primary text is not yet on disk in clean form.
+   Translation tab — reading-first render. Each verse card shows
+   the default-language translation prominently, IAST and
+   (optionally) Devanāgarī muted underneath, and hides the
+   word-by-word + samāsa-vigraha + kāraka + verbal-modality
+   apparatus behind a single disclosure. The Note stays inline
+   as a subtle italic aside. The data layer is multilingual-
+   ready: future Hindi/Bengali/Tamil/etc. files will use the
+   same default-language slot.
    ============================================================= */
-.cite-fn {
-  font-size: 0.74em;
-  line-height: 1;
-  vertical-align: super;
-  padding: 0 0.05em;
-}
-.cite-fn > a {
-  font-family: var(--mono, var(--sans));
-  font-variant-numeric: tabular-nums;
-  color: var(--ink-soft, var(--ink));
-  text-decoration: none;
-  border-bottom: 0.5px dotted var(--muted-soft, var(--muted));
-  cursor: pointer;
-  padding: 0 0.06em;
-}
-.cite-fn > a:hover { color: var(--ink); border-bottom-style: solid; }
 
-.cite-fn--demoted > a {
-  color: var(--muted, #888);
-  text-decoration: line-through;
-  text-decoration-thickness: 0.5px;
-  text-decoration-color: var(--muted, #888);
-  border-bottom: none;
-}
-.cite-fn--demoted > a:hover { color: var(--ink); }
-
-.cite-fn--pending > a {
-  color: var(--muted, #888);
-  font-style: italic;
-  border-bottom: 0.5px dotted var(--muted, #888);
-}
-.cite-fn--unknown > a {
-  /* Same as default but slightly muted — no audit endorsement. */
-  color: var(--ink-soft, var(--ink));
-  opacity: 0.86;
-}
-
-/* Inline secondary citation (book references not on disk).
-   Rendered as a small bracketed inline marker; clicks open a tiny popover. */
-.cite-secondary {
-  font-family: var(--sans);
-  font-size: 0.84em;
-  color: var(--muted, #777);
-  text-decoration: none;
-  border-bottom: 0.5px dotted var(--muted-soft, var(--muted));
-  cursor: pointer;
-  padding: 0 0.1em;
-}
-.cite-secondary:hover { color: var(--ink); border-bottom-style: solid; }
-
-.cite-secondary-popover {
-  background: var(--bg);
+.dp-translation-body .tx-coverage {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 0 0 28px;
+  padding: 12px 14px;
   border: 1px solid var(--rule);
   border-radius: 4px;
-  box-shadow: var(--shadow-md);
-  padding: 14px 18px 16px;
-  max-width: 380px;
-  width: 380px;
-  z-index: 240;
-  font-family: var(--serif);
-  font-size: 13.5px;
-  line-height: 1.5;
-  position: fixed;
-}
-.cite-secondary-popover .cp-close {
-  position: absolute; top: 6px; right: 8px;
-  background: none; border: none;
-  font-size: 18px; line-height: 1; cursor: pointer; color: var(--muted);
-}
-.cite-secondary-popover .cp-header {
-  border-bottom: 1px solid var(--rule);
-  padding-bottom: 8px;
-  margin-bottom: 10px;
-}
-.cite-secondary-popover .cp-locus {
+  background: var(--bg-warm);
   font-family: var(--sans);
-  font-size: 10px; font-weight: 700;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-  color: var(--muted);
-  margin-bottom: 3px;
-}
-.cite-secondary-popover .cp-attrib {
-  font-family: var(--serif);
-  font-size: 14.5px;
-  color: var(--ink);
-}
-.cite-secondary-popover .cp-pending p {
-  margin: 0;
-  color: var(--ink-soft, var(--ink));
-  font-style: italic;
-}
-
-/* Demoted-citation popover variant of the standard citation popover.
-   Reuses .citation-popover styling; just tints the header to flag the
-   audit-failure status. */
-.citation-popover--demoted .cp-locus { color: #b15a3c; }
-.citation-popover--demoted .cp-pending p { color: var(--ink); }
-
-/* Pending-acquisition treatment in Citation tab (parallel to --unverified). */
-.cite-passage-anchor--pending {
-  border-left: 2px dashed var(--muted-soft, var(--muted));
-  padding-left: 10px;
-  background: transparent;
-}
-.cite-passage-anchor--pending .cpa-locus {
-  color: var(--muted);
-  letter-spacing: 0.06em;
-}
-.cite-passage-anchor--pending .cpa-pending {
-  font-style: italic;
-  color: var(--ink-soft, var(--ink));
-}
-
-/* Footnote list at the end of a thinker / article / translation view. */
-.cite-fn-list {
-  margin-top: 28px;
-  padding-top: 14px;
-  border-top: 1px solid var(--rule);
-  font-family: var(--serif);
   font-size: 13px;
   line-height: 1.55;
-  color: var(--ink-soft, var(--ink));
+  color: var(--ink-soft);
 }
-.cite-fn-list h3 {
-  font-family: var(--sans);
-  font-size: 11px;
+.dp-translation-body .tx-coverage-tag {
+  flex-shrink: 0;
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 2px;
+  background: var(--bg-warmer);
+  font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--muted);
-  margin: 0 0 8px;
 }
-.cite-fn-list ol {
-  list-style: none;
-  margin: 0;
+.dp-translation-body .tx-coverage-full .tx-coverage-tag { color: #2f6f3a; background: #ecf5ee; }
+.dp-translation-body .tx-coverage-selection .tx-coverage-tag { color: #7a5500; background: #fbf1d9; }
+.dp-translation-body .tx-coverage-placeholder .tx-coverage-tag { color: #803333; background: #f7e6e2; }
+.dp-translation-body .tx-coverage em { font-style: italic; color: var(--ink); }
+.dp-translation-body .tx-coverage-source {
+  flex-shrink: 0;
+  margin-left: auto;
+  background: transparent;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 4px 10px;
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--muted);
+  cursor: pointer;
+}
+.dp-translation-body .tx-coverage-source:hover { color: var(--ink); border-color: var(--muted-soft); }
+
+.dp-translation-body .tx-preamble {
+  margin: 0 0 32px;
+  color: var(--ink-soft);
+}
+
+.dp-translation-body .tx-verse {
+  margin: 0 0 38px;
   padding: 0;
 }
-.cite-fn-list li {
-  padding: 3px 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  align-items: baseline;
+.dp-translation-body .tx-verse + .tx-verse {
+  border-top: 1px solid var(--hairline);
+  padding-top: 28px;
 }
-.cite-fn-list-num {
-  font-family: var(--mono, var(--sans));
-  font-variant-numeric: tabular-nums;
-  font-size: 11.5px;
-  color: var(--muted);
-  min-width: 28px;
+.dp-translation-body .tx-verse-head {
+  margin: 0 0 10px;
 }
-.cite-fn-list-locus {
-  color: var(--ink);
-  text-decoration: none;
-  border-bottom: 1px dotted var(--muted-soft, var(--muted));
-}
-.cite-fn-list-locus:hover { border-bottom-style: solid; }
-.cite-fn-list-badge {
+.dp-translation-body .tx-locus {
   font-family: var(--sans);
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 600;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  padding: 1px 6px;
-  border-radius: 2px;
-  background: var(--rule);
   color: var(--muted);
 }
-.cite-fn-list-badge--demoted { background: #efd3c7; color: #8b3a1f; }
-.cite-fn-list-badge--pending { background: #f0e7d4; color: #8a6a1c; }
-.cite-fn-list-badge--unknown { background: var(--rule); color: var(--muted); }
+
+/* Default-language translation: the primary readable surface. */
+.dp-translation-body .tx-default-lang {
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--ink);
+  margin: 0 0 14px;
+}
+.dp-translation-body .tx-default-lang p { margin: 0 0 10px; }
+.dp-translation-body .tx-default-lang p:last-child { margin-bottom: 0; }
+.dp-translation-body .tx-default-lang blockquote {
+  border-left: 2px solid var(--rule);
+  padding-left: 14px;
+  margin: 0 0 10px;
+  font-style: normal;
+  color: var(--ink);
+}
+
+/* IAST: secondary, italic, slightly muted. */
+.dp-translation-body .tx-iast {
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin: 0 0 8px;
+}
+.dp-translation-body .tx-iast blockquote {
+  border-left: 2px solid var(--rule-warm);
+  padding-left: 14px;
+  margin: 0;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+/* Devanāgarī: secondary, regular weight. */
+.dp-translation-body .tx-devanagari {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--ink-soft);
+  margin: 0 0 8px;
+}
+.dp-translation-body .tx-devanagari blockquote {
+  border-left: 2px solid var(--rule-warm);
+  padding-left: 14px;
+  margin: 0;
+  font-style: normal;
+  color: var(--ink-soft);
+}
+
+/* Note: subtle italic aside, inline with the reading flow. */
+.dp-translation-body .tx-note {
+  margin: 14px 0 0;
+  padding: 0 0 0 14px;
+  border-left: 2px solid var(--hairline);
+  font-style: italic;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+.dp-translation-body .tx-note p { margin: 0 0 6px; }
+.dp-translation-body .tx-note p:last-child { margin-bottom: 0; }
+
+/* Grammar disclosure: collapsed by default, expands inline. */
+.dp-translation-body .tx-grammar {
+  margin: 14px 0 0;
+  border: none;
+  padding: 0;
+}
+.dp-translation-body .tx-grammar > summary {
+  list-style: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px 4px 6px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: var(--bg-warm);
+  font-family: var(--sans);
+  font-size: 11.5px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  user-select: none;
+}
+.dp-translation-body .tx-grammar > summary:hover {
+  color: var(--ink);
+  border-color: var(--muted-soft);
+}
+.dp-translation-body .tx-grammar > summary::-webkit-details-marker { display: none; }
+.dp-translation-body .tx-grammar-caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 4px solid currentColor;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  transition: transform 160ms ease;
+}
+.dp-translation-body .tx-grammar[open] > summary .tx-grammar-caret {
+  transform: rotate(90deg);
+}
+.dp-translation-body .tx-grammar-body {
+  margin-top: 14px;
+  padding: 14px 16px 6px;
+  background: var(--bg-warm);
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+}
+.dp-translation-body .tx-morph-block {
+  margin: 0 0 14px;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+.dp-translation-body .tx-morph-block:last-child { margin-bottom: 0; }
+.dp-translation-body .tx-morph-label {
+  font-family: var(--sans);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 4px;
+}
+.dp-translation-body .tx-morph-sub {
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  color: var(--muted-soft);
+  font-style: italic;
+}
+.dp-translation-body .tx-morph-block ul {
+  margin: 4px 0 0;
+  padding-left: 20px;
+}
+.dp-translation-body .tx-morph-block li {
+  margin: 2px 0;
+}
+.dp-translation-body .tx-morph-block table {
+  margin: 4px 0 0;
+  font-size: 12.5px;
+}
+.dp-translation-body .tx-morph-block table th,
+.dp-translation-body .tx-morph-block table td {
+  padding: 4px 10px;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.dp-translation-body .tx-trailing {
+  margin-top: 36px;
+  padding-top: 24px;
+  border-top: 1px solid var(--rule);
+  color: var(--ink-soft);
+}
 
 @media (max-width: 720px) {
-  .cite-fn { font-size: 0.78em; }
-  .cite-fn-list { font-size: 12.5px; }
-  .cite-secondary-popover { width: calc(100vw - 24px); max-width: 380px; left: 12px !important; right: 12px; }
+  .dp-translation-body .tx-default-lang { font-size: 17px; }
+  .dp-translation-body .tx-coverage { font-size: 12.5px; padding: 10px 12px; }
+  .dp-translation-body .tx-coverage-source { margin-left: 0; margin-top: 4px; }
+  .dp-translation-body .tx-grammar-body { padding: 12px 12px 4px; }
 }
+

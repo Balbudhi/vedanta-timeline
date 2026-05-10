@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Mahābhāratatātparyanirṇaya — Extended Translation
 **By:** Madhva  
 **Locus scope:** *Mahābhāratatātparyanirṇaya* 1.1–1.6, the opening maṅgala and pre-creation deliberation of the *sarvaśāstratātparyanirṇaya* chapter  

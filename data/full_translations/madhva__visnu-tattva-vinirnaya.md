@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Viṣṇu-Tattva-Vinirṇaya — Extended Translation
 **By:** Madhva  
 **Locus scope:** *Tṛtīyaḥ paricchedaḥ* (the chapter establishing Nārāyaṇa as *nirdoṣa* and *aśeṣa-sadguṇa*)  

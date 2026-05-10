@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Vijñānāmṛta-Bhāṣya — Extended Translation
 **By:** Vijñānabhikṣu  
 **Locus scope:** Two non-contiguous load-bearing bhāṣya subunits required by the site's keyed loci: (1) the anti-*avidyā* construal of *māyā* in the gloss on *Brahma-Sūtra* 1.1.5 (*īkṣater nāśabdam*), culminating in the citation of *Śvetāśvatara Upaniṣad* 4.10; and (2) the *aṃśa* argument in 2.3.43 together with its scriptural support in 2.3.44.  

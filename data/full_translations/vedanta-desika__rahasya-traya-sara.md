@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Pradhāna-pratitantra-adhikāra Opening Kernel — Extended Translation
 **By:** Vedānta Deśika  
 **Locus scope:** *Rahasya-Traya-Sāra*, Pradhāna-pratitantra-adhikāra, opening doctrinal kernel (pp. 103–105 of the recoverable *mūlam* excerpt)  

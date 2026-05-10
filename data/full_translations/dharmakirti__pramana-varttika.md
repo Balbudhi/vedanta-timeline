@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Pramāṇa-Vārttika — Extended Translation
 **By:** Dharmakīrti  
 **Locus scope:** *Pratyakṣa*-pariccheda, opening definitional unit (`Pramāṇav_2.1–5` in the local corpus; often cited in modern scholarship as PV III 1-5 because of chapter-order variation)  

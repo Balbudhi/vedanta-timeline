@@ -1,3 +1,8 @@
+---
+coverage: full
+coverage_evidence: 'locus-scope: \\bthe\\s+entire\\s+\\*?[A-ZĀĪŪṚṜḶḸṄÑṬḌṆŚṢ][^*\\.\\n]{1,80}\\*?'
+---
+
 # Triṃśikā — Extended Translation
 **By:** Vasubandhu  
 **Locus scope:** The entire *Triṃśikā* (all thirty kārikās), taken as a single natural unit because the work is itself short and architectonically complete: verses 1–17 set out the threefold *vijñāna-pariṇāma* analysis, verses 18–25 map that analysis into *trisvabhāva* and *tri-niḥsvabhāvatā*, and verses 26–30 turn to the path and *āśraya-parāvṛtti*.  

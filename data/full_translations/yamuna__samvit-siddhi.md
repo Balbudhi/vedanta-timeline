@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Saṃvit-Siddhi — Extended Translation
 **By:** Yāmunācārya  
 **Locus scope:** Saṃvit-Siddhi verses 31-40, the conclusion of the *advitīya* exegesis and its opening royal analogy.  

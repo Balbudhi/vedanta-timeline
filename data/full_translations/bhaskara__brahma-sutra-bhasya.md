@@ -1,3 +1,8 @@
+---
+coverage: placeholder
+coverage_evidence: 'no IAST sections; status/acquisition stub'
+---
+
 # Brahma-Sūtra-Bhāṣya
 
 **By:** Bhāskara

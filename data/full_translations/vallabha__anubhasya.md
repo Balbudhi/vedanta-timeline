@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Aṇu-Bhāṣya — Extended Translation
 **By:** Vallabhācārya  
 **Locus scope:** Doctrinal dossier of the four load-bearing loci singled out in the thinker entry: BSB 1.1.4; 1.1.12-19; 1.4.26; 2.3.43-45  

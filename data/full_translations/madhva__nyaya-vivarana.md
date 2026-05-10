@@ -1,3 +1,8 @@
+---
+coverage: placeholder
+coverage_evidence: 'no IAST sections; status/acquisition stub'
+---
+
 # Nyāya-Vivaraṇa
 
 **By:** Madhva (Ānandatīrtha)

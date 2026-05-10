@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Krama-Dīpikā — Extended Translation
 **By:** Keśava-Kāśmīrī Bhaṭṭa  
 **Locus scope:** Distributed doctrinal spine: Paṭala 1.4–1.5; 2.16–2.18; 6.4–6.5 (with mantroddhāra); 8.95–8.96  

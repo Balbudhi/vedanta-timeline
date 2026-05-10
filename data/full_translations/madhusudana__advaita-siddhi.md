@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Advaita-Siddhi — Extended Translation
 **By:** Madhusūdana Sarasvatī  
 **Locus scope:** *Prathama-pariccheda*: opening *maṅgalācaraṇa* (vv. 1–4) and the first methodological section on *vipratipatti* (*vipratipatti-vākyasya vicārāṅgatvam*).  
