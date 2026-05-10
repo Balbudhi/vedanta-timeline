@@ -1258,12 +1258,12 @@ document.addEventListener("click", (e) => {
     openThinker(a.dataset.thinkerLink);
     return;
   }
-  // citation popovers (clickable primary-source citations)
+  // citation panel / popover (clickable primary-source citations)
   const cite = e.target.closest("a[href^='cite://']");
   if (cite) {
     e.preventDefault();
     const key = cite.getAttribute("href").replace(/^cite:\/\//, "");
-    openCitationPopover(key, cite);
+    openCitationPanel(key, cite);
     return;
   }
   // glossary popovers
@@ -1509,6 +1509,365 @@ async function openCitationPopover(key, anchorEl) {
   setTimeout(() => document.addEventListener("click", outsideClose), 0);
   document.addEventListener("keydown", escClose);
 }
+
+// ---------- citation panel (persistent right-side, Source + Citation tabs) -----------
+const citePanelEl = document.getElementById("citationPanel");
+const citePanelCloseBtn = document.getElementById("citePanelClose");
+const citeTabSourceBtn = document.getElementById("citeTabSource");
+const citeTabCitationBtn = document.getElementById("citeTabCitation");
+const citePaneSource = document.getElementById("citePaneSource");
+const citePaneCitation = document.getElementById("citePaneCitation");
+const citeSourceSearch = document.getElementById("citeSourceSearch");
+const citeSourceTree = document.getElementById("citeSourceTree");
+const citeSourceViewer = document.getElementById("citeSourceViewer");
+const citeCitationEmpty = document.getElementById("citeCitationEmpty");
+const citeCitationBody = document.getElementById("citeCitationBody");
+
+const citePanel = {
+  open: false,
+  tab: "citation",      // "source" | "citation"
+  manifestLoaded: false,
+  manifest: null,
+  fileCache: new Map(), // path -> text
+  activeFilePath: null,
+  activeCiteKey: null,
+};
+
+function isCitePanelMobile() {
+  return window.matchMedia("(max-width: 720px)").matches;
+}
+
+function openCitePanel(tab) {
+  if (isCitePanelMobile()) return;
+  if (tab) citePanel.tab = tab;
+  citePanel.open = true;
+  citePanelEl.classList.add("is-open");
+  citePanelEl.setAttribute("aria-hidden", "false");
+  setCitePanelTab(citePanel.tab);
+  try { localStorage.setItem("vedanta-cite-panel-tab", citePanel.tab); } catch (_) {}
+}
+
+function closeCitePanel() {
+  citePanel.open = false;
+  citePanelEl.classList.remove("is-open");
+  citePanelEl.setAttribute("aria-hidden", "true");
+}
+
+function setCitePanelTab(tab) {
+  if (tab !== "source" && tab !== "citation") return;
+  citePanel.tab = tab;
+  const isSrc = tab === "source";
+  citeTabSourceBtn.classList.toggle("is-active", isSrc);
+  citeTabSourceBtn.setAttribute("aria-selected", isSrc ? "true" : "false");
+  citeTabCitationBtn.classList.toggle("is-active", !isSrc);
+  citeTabCitationBtn.setAttribute("aria-selected", !isSrc ? "true" : "false");
+  citePaneSource.classList.toggle("is-active", isSrc);
+  citePaneSource.setAttribute("aria-hidden", isSrc ? "false" : "true");
+  citePaneSource.hidden = !isSrc;
+  citePaneCitation.classList.toggle("is-active", !isSrc);
+  citePaneCitation.setAttribute("aria-hidden", !isSrc ? "false" : "true");
+  citePaneCitation.hidden = isSrc;
+  if (isSrc) ensureSourceTreeRendered();
+  try { localStorage.setItem("vedanta-cite-panel-tab", tab); } catch (_) {}
+}
+
+if (citeTabSourceBtn) citeTabSourceBtn.addEventListener("click", () => setCitePanelTab("source"));
+if (citeTabCitationBtn) citeTabCitationBtn.addEventListener("click", () => setCitePanelTab("citation"));
+if (citePanelCloseBtn) citePanelCloseBtn.addEventListener("click", closeCitePanel);
+
+// Citation-tab entry point. Falls back to popover on mobile.
+async function openCitationPanel(key, anchorEl) {
+  if (isCitePanelMobile()) {
+    openCitationPopover(key, anchorEl);
+    return;
+  }
+  await loadCitationIndex();
+  citePanel.activeCiteKey = key;
+  try { localStorage.setItem("vedanta-cite-panel-cite-key", key); } catch (_) {}
+  renderCitationTab(key);
+  openCitePanel("citation");
+}
+
+function renderCitationTab(key) {
+  const entry = lookupCitationEntry(key);
+  const parts = (key || "").split("/");
+  const tid = parts[0] || "";
+  const wid = parts[1] || "";
+  const loc = parts.slice(2).join("/");
+  const t = state.thinkersById.get(tid);
+  const thinkerName = t ? (t.name_iast || t.name) : tid;
+  let workTitle = wid;
+  if (t) {
+    const w = (t.engaged_works || []).find((x) => x.work_id === wid);
+    if (w) workTitle = w.title_iast || w.title || wid;
+  }
+
+  const surrounding = collectSurroundingPassages(tid, wid, entry);
+  const before = surrounding.before;
+  const after = surrounding.after;
+
+  const locusDisplay = entry ? (entry.locus || entry.locus_short || loc) : (loc || key);
+
+  const renderContext = (passages, label) => {
+    if (!passages || !passages.length) return "";
+    const rows = passages.map((p) => {
+      const sk = p.sanskrit_iast
+        ? `<div class="ccr-sk">${escape(p.sanskrit_iast).replace(/\n/g, "<br>")}</div>`
+        : "";
+      const en = p.english_close
+        ? `<div class="ccr-en">${md(p.english_close)}</div>`
+        : "";
+      return `
+        <div class="cite-context-row">
+          <div class="ccr-locus">${escape(p.locus_short || p.locus_long || "")}</div>
+          ${sk}
+          ${en}
+        </div>
+      `;
+    }).join("");
+    return `<div class="ccb-context-label">${escape(label)}</div>${rows}`;
+  };
+
+  const anchorHtml = entry
+    ? `
+      <div class="cite-passage-anchor">
+        <div class="cpa-locus">Locus · ${escape(entry.locus_short || locusDisplay)}</div>
+        ${entry.sanskrit_iast ? `<div class="cpa-sk">${escape(entry.sanskrit_iast).replace(/\n/g, "<br>")}</div>` : ""}
+        ${entry.english_close ? `<div class="cpa-en">${md(entry.english_close)}</div>` : ""}
+      </div>
+    `
+    : `
+      <div class="cite-passage-anchor">
+        <div class="cpa-locus">Locus · ${escape(locusDisplay)}</div>
+        <div class="cpa-pending">Passage not yet extracted into the on-disk corpus. The locus is named in this entry; the surrounding work has not been transcribed line-by-line yet. Open the thinker entry to see what <em>is</em> currently engaged.</div>
+      </div>
+    `;
+
+  const noContextNote = entry && !before.length && !after.length
+    ? `<p class="ccb-note">No surrounding key-passages indexed for this work yet.</p>`
+    : "";
+
+  const actions = `
+    <div class="ccb-actions">
+      ${t ? `<button class="ccb-action ccb-action--primary" data-act="open-thinker" data-thinker-id="${escape(tid)}">Open ${escape(thinkerName)} →</button>` : ""}
+      <button class="ccb-action" data-act="open-source" data-thinker-id="${escape(tid)}" data-work-id="${escape(wid)}">Open in Source tab →</button>
+    </div>
+  `;
+
+  citeCitationBody.innerHTML = `
+    <div class="ccb-head">
+      <div class="ccb-locus">${escape(locusDisplay)}</div>
+      <div class="ccb-attrib">${escape(thinkerName)}${workTitle ? ` · <em>${escape(workTitle)}</em>` : ""}</div>
+    </div>
+    ${renderContext(before, "Preceding context")}
+    ${anchorHtml}
+    ${renderContext(after, "Following context")}
+    ${noContextNote}
+    ${actions}
+  `;
+  citeCitationBody.hidden = false;
+  citeCitationEmpty.hidden = true;
+  citeCitationBody.scrollTop = 0;
+
+  citeCitationBody.querySelectorAll(".ccb-action").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const act = btn.dataset.act;
+      if (act === "open-thinker") {
+        openThinker(btn.dataset.thinkerId);
+      } else if (act === "open-source") {
+        const guess = guessSourceFileForCitation(btn.dataset.thinkerId, btn.dataset.workId);
+        setCitePanelTab("source");
+        if (guess) selectSourceFile(guess);
+      }
+    });
+  });
+}
+
+// Pull preceding/following key_passages from the same thinker+work. The citation
+// entry's `source` field points at thinker_jsons/<id>.json#key_passages[N]; we
+// use that index when available, else match by locus.
+function collectSurroundingPassages(tid, wid, entry) {
+  const empty = { before: [], after: [] };
+  const t = state.thinkersById.get(tid);
+  if (!t || !Array.isArray(t.key_passages)) return empty;
+  const sameWork = t.key_passages.filter((p) => p.work_id === wid);
+  if (sameWork.length <= 1) return empty;
+  let idx = -1;
+  if (entry && entry.source) {
+    const m = /key_passages\[(\d+)\]/.exec(entry.source);
+    if (m) {
+      const globalIdx = parseInt(m[1], 10);
+      const target = t.key_passages[globalIdx];
+      if (target) idx = sameWork.indexOf(target);
+    }
+  }
+  if (idx < 0 && entry) {
+    idx = sameWork.findIndex((p) =>
+      (p.locus_short && entry.locus_short && p.locus_short === entry.locus_short) ||
+      (p.locus_long && entry.locus && p.locus_long === entry.locus));
+  }
+  if (idx < 0) return empty;
+  const N = 2;
+  return {
+    before: sameWork.slice(Math.max(0, idx - N), idx),
+    after:  sameWork.slice(idx + 1, idx + 1 + N),
+  };
+}
+
+// ---------- Source tab ----------
+async function ensureSourceTreeRendered() {
+  if (citePanel.manifestLoaded) return;
+  citeSourceTree.innerHTML = "<p class=\"cite-source-empty\" style=\"padding:8px 14px\">Loading manifest…</p>";
+  const m = await loadJSON("data/primary_text_manifest.json");
+  citePanel.manifest = m;
+  citePanel.manifestLoaded = true;
+  if (!m || !Array.isArray(m.files)) {
+    citeSourceTree.innerHTML = "<p class=\"cite-source-empty\" style=\"padding:8px 14px\">No primary-text manifest found. Run scripts/build_primary_text_manifest.py.</p>";
+    return;
+  }
+  renderSourceTree("");
+  try {
+    const last = localStorage.getItem("vedanta-cite-panel-source-file");
+    if (last && m.files.some((f) => f.path === last)) selectSourceFile(last);
+  } catch (_) {}
+}
+
+function renderSourceTree(filter) {
+  const m = citePanel.manifest;
+  if (!m || !Array.isArray(m.files)) return;
+  const f = (filter || "").trim().toLowerCase();
+  const files = f
+    ? m.files.filter((fl) =>
+        fl.path.toLowerCase().includes(f) ||
+        (fl.title || "").toLowerCase().includes(f))
+    : m.files;
+
+  const groups = {};
+  for (const fl of files) {
+    const lang = fl.language || "other";
+    const cat = fl.category || "_root";
+    if (!groups[lang]) groups[lang] = {};
+    if (!groups[lang][cat]) groups[lang][cat] = [];
+    groups[lang][cat].push(fl);
+  }
+
+  const langOrder = ["sanskrit", "english", "german", "french", "latin", "tibetan"];
+  const langs = Object.keys(groups).sort((a, b) => {
+    const ai = langOrder.indexOf(a);
+    const bi = langOrder.indexOf(b);
+    return (ai < 0 ? 99 : ai) - (bi < 0 ? 99 : bi) || a.localeCompare(b);
+  });
+
+  const html = langs.map((lang) => {
+    const cats = Object.keys(groups[lang]).sort();
+    const catCount = cats.reduce((n, c) => n + groups[lang][c].length, 0);
+    const catsHtml = cats.map((cat) => {
+      const fls = groups[lang][cat].slice().sort((a, b) =>
+        (a.title || a.path).localeCompare(b.title || b.path));
+      const leaves = fls.map((fl) => {
+        const label = fl.title || fl.path.split("/").pop().replace(/\.[^.]+$/, "");
+        const isActive = fl.path === citePanel.activeFilePath ? " is-active" : "";
+        return `<div class="cst-leaf${isActive}" data-path="${escape(fl.path)}" title="${escape(fl.path)}">${escape(label)}</div>`;
+      }).join("");
+      const catLabel = cat === "_root" ? "(top level)" : cat.replace(/_/g, " ");
+      const open = f ? " open" : "";
+      return `
+        <details class="cst-group"${open}>
+          <summary><span class="cst-group-label">${escape(catLabel)}</span><span class="cst-count">${fls.length}</span></summary>
+          ${leaves}
+        </details>
+      `;
+    }).join("");
+    const open = f ? " open" : (lang === "sanskrit" ? " open" : "");
+    return `
+      <details class="cst-group"${open}>
+        <summary><span class="cst-group-label">${escape(lang)}</span><span class="cst-count">${catCount}</span></summary>
+        ${catsHtml}
+      </details>
+    `;
+  }).join("");
+
+  citeSourceTree.innerHTML = html || "<p class=\"cite-source-empty\" style=\"padding:8px 14px\">No matches.</p>";
+  citeSourceTree.querySelectorAll(".cst-leaf").forEach((el) => {
+    el.addEventListener("click", () => selectSourceFile(el.dataset.path));
+  });
+}
+
+let _citeSearchTimer = null;
+if (citeSourceSearch) {
+  citeSourceSearch.addEventListener("input", () => {
+    clearTimeout(_citeSearchTimer);
+    _citeSearchTimer = setTimeout(() => renderSourceTree(citeSourceSearch.value), 120);
+  });
+}
+
+async function selectSourceFile(path) {
+  if (!path) return;
+  citePanel.activeFilePath = path;
+  try { localStorage.setItem("vedanta-cite-panel-source-file", path); } catch (_) {}
+  citeSourceTree.querySelectorAll(".cst-leaf").forEach((el) => {
+    el.classList.toggle("is-active", el.dataset.path === path);
+  });
+  const meta = (citePanel.manifest && citePanel.manifest.files || []).find((f) => f.path === path) || {};
+  citeSourceViewer.innerHTML = `
+    <div class="csv-head">
+      <p class="csv-title">${escape(meta.title || path.split("/").pop())}</p>
+      <div class="csv-meta">
+        <span>${escape(meta.language || "")}</span>
+        ${meta.category ? `<span>${escape(meta.category)}</span>` : ""}
+        ${meta.edition ? `<span>${escape(meta.edition)}</span>` : ""}
+        ${meta.line_count ? `<span>${meta.line_count} lines</span>` : ""}
+      </div>
+    </div>
+    <p class="csv-loading">Loading…</p>
+  `;
+  let text = citePanel.fileCache.get(path);
+  if (text == null) {
+    try {
+      const r = await fetch(`materials/primary_texts/${path}`);
+      text = r.ok ? await r.text() : "[failed to load]";
+    } catch (_) {
+      text = "[failed to load]";
+    }
+    citePanel.fileCache.set(path, text);
+  }
+  if (citePanel.activeFilePath !== path) return;
+  const pre = document.createElement("pre");
+  pre.className = "csv-body";
+  pre.textContent = text;
+  const loading = citeSourceViewer.querySelector(".csv-loading");
+  if (loading) loading.replaceWith(pre);
+  citeSourceViewer.scrollTop = 0;
+}
+
+function guessSourceFileForCitation(thinkerId, workId) {
+  const m = citePanel.manifest;
+  if (!m || !Array.isArray(m.files)) return null;
+  const tid = (thinkerId || "").toLowerCase();
+  const wid = (workId || "").toLowerCase().replace(/-/g, "_");
+  const score = (fl) => {
+    const p = fl.path.toLowerCase();
+    let s = 0;
+    if (tid && p.includes(tid)) s += 3;
+    if (wid && p.includes(wid)) s += 5;
+    if (fl.language === "sanskrit") s += 1;
+    return s;
+  };
+  let best = null;
+  let bestScore = 0;
+  for (const fl of m.files) {
+    const s = score(fl);
+    if (s > bestScore) { bestScore = s; best = fl; }
+  }
+  return bestScore >= 3 ? best.path : null;
+}
+
+(function bootCitePanelState() {
+  try {
+    const tab = localStorage.getItem("vedanta-cite-panel-tab");
+    if (tab === "source" || tab === "citation") citePanel.tab = tab;
+  } catch (_) {}
+})();
 
 // ---------- markdown helpers -----------
 function escape(s) {
@@ -1918,6 +2277,8 @@ document.addEventListener("keydown", (e) => {
     } else if (readerModal.classList.contains("is-open")) {
       readerModal.classList.remove("is-open");
       readerModal.setAttribute("aria-hidden", "true");
+    } else if (citePanel.open) {
+      closeCitePanel();
     } else if (document.body.classList.contains("is-reading-mode")) {
       setReadingMode(false);
     } else {
