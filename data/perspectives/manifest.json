@@ -1,0 +1,27 @@
+{
+  "version": "1",
+  "perspectives": [
+    {
+      "slug": "mimamsa-symbolism-shift",
+      "title": "Mīmāṃsā under the symbolism-shift reading",
+      "subtitle": "An interpretive reading: what the corpus's contemporary-reader-encounter framing implies about Pūrva-Mīmāṃsā as a coherent practice-philosophy whose externalised form is intact while the symbol-environment that activated it has changed. The school's own self-understanding is preserved in the timeline thinker entries; this layer is explicitly extramural to that self-understanding.",
+      "for_thinker_ids": ["jaimini", "shabara", "kumarila", "prabhakara"],
+      "kind": "perspective",
+      "source_doc": "data/perspectives/source/mimamsa-symbolism-shift.md",
+      "tags": [
+        "Mīmāṃsā",
+        "Jaimini",
+        "Śabara",
+        "Kumārila",
+        "Prabhākara",
+        "symbol-environment",
+        "Religionsgeschichte",
+        "Aurobindo-hermeneutic",
+        "contemporary-reader",
+        "interpretive-layer"
+      ],
+      "word_count_approx": 3600,
+      "date": "2026-05-10"
+    }
+  ]
+}

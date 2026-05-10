@@ -1,8 +1,8 @@
 # Saṃvit-Siddhi — Extended Translation
 **By:** Yāmunācārya  
 **Locus scope:** Saṃvit-Siddhi verses 31-40, the conclusion of the *advitīya* exegesis and its opening royal analogy.  
-**Source edition transcribed from:** Roque Mesquita (ed.), *Saṃvitsiddhi* (Vienna: Verlag der Oesterreichischen Akademie der Wissenschaften, 1988), as transcribed in the GRETIL plaintext `yamuna_samvit_siddhi_gretil.txt`.  
-**Translator:** Pāṇinian-rich extraction by Codex 5.4 (reasoning=high), 2026-05-09.
+**Source edition transcribed from:** Roque Mesquita (ed.), *Saṃvitsiddhi* (Wien: Verlag der Oesterreichischen Akademie der Wissenschaften, 1988), as transcribed in the local GRETIL plaintext `yamuna_samvit_siddhi_gretil.txt` (input Somadeva Vasudeva; line numbering follows the edition).  
+**Translator:** Pāṇinian-rich extraction by Codex 5.4 (reasoning=high), 2026-05-10.
 
 ---
 
@@ -130,8 +130,8 @@ The instrumental *tena* marks inference from the prior semantic discussion, not 
 > *dvitīyagaṇanāyogyo nāsīd asti bhaviṣyati*
 
 **English (line-by-line):**
-> Anything fit to be counted as a second did not exist, does not exist,  
-> and will not exist.
+> No being fit to be counted as a second has existed, exists,  
+> or will exist.
 
 **Word-by-word:**
 
@@ -144,7 +144,7 @@ The instrumental *tena* marks inference from the prior semantic discussion, not 
 | bhaviṣyati | √bhū | 3sg simple fut ind parasmaipada | will be; will exist |
 
 **Compound resolution (samāsa-vigraha):**
-- *dvitīyagaṇanāyogyaḥ* [ṣaṣṭhī-tatpuruṣa]: *dvitīyāyāḥ gaṇanāyāḥ yogyaḥ*.
+- *dvitīyagaṇanāyogyaḥ* [saptamī-tatpuruṣa]: *dvitīyagaṇanāyāṃ yogyaḥ*.
 
 **Kāraka structure:**
 - kartṛ: *dvitīyagaṇanāyogyaḥ* (understood entity)
@@ -204,8 +204,8 @@ This is the limiting clause that prevents the denial from expanding into absolut
 > *yato 'sya vibhavavyūhakalāmātram idaṃ jagat*
 
 **English (line-by-line):**
-> For this world is merely a fragment of the *vibhava-vyūha*  
-> (the ordered manifestation of his power and glory).
+> For this world is merely a fraction of the deployment of his manifested glory  
+> and power.
 
 **Word-by-word:**
 
@@ -229,7 +229,7 @@ This is the limiting clause that prevents the denial from expanding into absolut
 - No finite verb is expressed; a present copula (*asti*) is understood in a nominal sentence.
 
 **Note:**
-Yāmuna does not retreat from plurality here; he reclassifies it. The world is neither a rival to Brahman nor an illusion opposed to him. It is a dependent fraction of his manifested majesty, anticipating the explicit formulation *brāhmī vibhūtiḥ* at Svs 66-67.
+Yāmuna does not retreat from plurality here; he reclassifies it. The world is neither a rival to Brahman nor an illusion opposed to him. It is a dependent fraction of divine manifestation, anticipating the explicit *vibhūti* language at Svs 66-67. Whether one hears *vyūha* here in a specifically Pāñcarātra register or in the broader sense of ordered deployment, the polemical point is the same: dependence does not amount to rivalry.
 
 ---
 
