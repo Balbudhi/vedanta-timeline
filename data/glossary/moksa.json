@@ -3,37 +3,273 @@
   "term_iast": "mokṣa",
   "term_devanagari": "मोक्ष",
   "literal": "release, liberation; from √muc 'to release'",
-  "aliases": ["moksa", "mokṣa", "Mokṣa", "mokṣaḥ", "mokṣaṃ", "mokṣasya", "mukti", "muktiḥ", "apavarga"],
+  "aliases": [
+    "moksa",
+    "mokṣa",
+    "Mokṣa",
+    "mokṣaḥ",
+    "mokṣaṃ",
+    "mokṣasya",
+    "mukti",
+    "muktiḥ",
+    "apavarga"
+  ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus",
+  "last_verified_by": "glossary-wave1-codex54",
   "invariant_definition": "Release from bondage, but not a bare escape from existence. *Mokṣa* names the final state appropriate to what a school takes bondage to be: the nexus of *karma*, rebirth, embodiment, ignorance, misidentification, or estrangement from the Lord. It is therefore defined against adjacent terms such as *saṃsāra*, *bandha*, *apavarga*, and *kaivalya*. In the Mīmāṃsā background, the point is that no finite ritual act can simply manufacture *mokṣa* as a produced result; in the Vedāntic setting, the issue becomes what sort of cognition, devotion, surrender, or divine grace removes the condition that makes rebirth possible. The practical register is inseparable from the metaphysics: Advaita ties *mokṣa* to the removal of *avidyā* through *śravaṇa-manana-nididhyāsana*; Viśiṣṭādvaita and Tattva-vāda (Dvaita) tie it to God-directed knowledge and devotion; Gauḍīya Vaiṣṇavism treats even ordinary *mokṣa* as lower than *prema*. What remains invariant is this: *mokṣa* is the non-returning condition in which the structures that sustain saṃsāric agency, enjoyment, and compulsory embodiment no longer bind.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Mokṣa* is not a produced state but the recognition of an always-already accomplished identity of *ātman* and *brahman*. The operative contrast is with Mīmāṃsā: ritual *karma* can produce only a finite result, whereas liberating *jñāna* removes *avidyā*. Hence *mokṣa* is *nitya-siddha*, not a new *kārya*. The realized person may be a *jīvanmukta*: the body and its *prārabdha-karma* continue in *vyavahāra*, but the binding identification with them is gone. *Videhamukti* is only the exhaustion of the remaining embodied appearance.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.4", "Brahma-Sūtra-Bhāṣya 4.1.13-15", "Brahma-Sūtra-Bhāṣya 4.4.6-7", "Naiṣkarmya-Siddhi 4"]
+      "definition": "*Mokṣa* is *ajñāna-nivṛtti*, not a *kārya* produced by ritual action; since action itself belongs within the economy of ignorance, liberation depends on *jñāna* alone [[UpS I.11.15](cite://sankara/upadesa-sahasri/I.11.15); [NS 1.98-99](cite://sureshvara/naishkarmya-siddhi/1.98-99)]. More exactly, *anyadṛṣṭi* is *avidyā*, and the destruction of that misapprehension through the sentence-meaning of the Upaniṣadic *mahāvākya* is what is called *mokṣa* [[UpS I.17.7-9](cite://sankara/upadesa-sahasri/I.17.7-9)]. Accordingly, liberation is present at the very rise of self-knowledge: when the *ātmajñānāgni* burns the seed of saṃsāra without remainder, the knower is already *vimukta* [[IṢ 1.9](cite://vimuktatman/ista-siddhi/1.Jīvanmuktiḥ)].",
+      "primary_loci": [
+        "Upadeśa-Sāhasrī I.11.15",
+        "Upadeśa-Sāhasrī I.17.7-9",
+        "Naiṣkarmya-Siddhi 1.98-99",
+        "Iṣṭa-Siddhi 1.9 (Jīvanmuktiḥ)"
+      ],
+      "citations": [
+        {
+          "cite": "cite://sankara/upadesa-sahasri/I.11.15",
+          "locus_short": "UpS I.11.15"
+        },
+        {
+          "cite": "cite://sureshvara/naishkarmya-siddhi/1.98-99",
+          "locus_short": "NS 1.98-99"
+        },
+        {
+          "cite": "cite://sankara/upadesa-sahasri/I.17.7-9",
+          "locus_short": "UpS I.17.7-9"
+        },
+        {
+          "cite": "cite://vimuktatman/ista-siddhi/1.Jīvanmuktiḥ",
+          "locus_short": "IṢ 1.9"
+        }
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Mokṣa* is the soul's release from karmic embodiment and arrival at the Lord's abode through the *arcirādi-mārga*. The liberated *jīva* does not lose individuality; rather, its contracted *dharmabhūta-jñāna* expands fully and it enters uninterrupted *bhagavad-anubhava* and service. The central contrast with Advaita is decisive: liberation is not self-identity without remainder, but the perfected relation of the real *jīva* to the real Lord. *Jīvanmukti* in the strong Advaita sense is therefore denied.",
-      "primary_loci": ["Śrī-Bhāṣya 4.3.1-16", "Śrī-Bhāṣya 4.4.1-22", "Vedārtha-Saṅgraha §§137-144"]
+      "definition": "Vedānta teaches release by making known the *jīva* as distinct from body, the *antaryāmin* Paramātman, the *upāsanā* of him, and the ensuing manifestation of the self together with an unsurpassed experience of Brahmanic bliss [[VS §3](cite://ramanuja/vedartha-samgraha/§3); [VS §4](cite://ramanuja/vedartha-samgraha/§4)]. When *karma*-generated differentiations such as deva-, manuṣya-, and the like are removed, the self's own *svarūpa* remains a *jñānānandaika-guṇa* reality, beyond verbal objectification yet not annihilated [[VS §5](cite://ramanuja/vedartha-samgraha/§5)]. The practical stance toward this release is *prapatti*: the *akiñcana* who is *ananyagati* takes refuge at the Lord's feet as the sole shore beyond *bhavārṇava* [[YStr 22-24](cite://yamuna/stotra-ratna/22-24)].",
+      "primary_loci": [
+        "Vedārtha-Saṅgraha §§3-5",
+        "Stotra-Ratna 22-24"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§3",
+          "locus_short": "VS §3"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§4",
+          "locus_short": "VS §4"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§5",
+          "locus_short": "VS §5"
+        },
+        {
+          "cite": "cite://yamuna/stotra-ratna/22-24",
+          "locus_short": "YStr 22-24"
+        }
+      ]
     },
     {
       "school": "Tattva-vāda",
-      "definition": "*Mokṣa* is the soul's eternal, conscious service to Viṣṇu after the shedding of the *karma* body. It presupposes correct knowledge of Viṣṇu's supremacy, but this knowledge itself matures only through *bhakti* and divine grace. Madhva's position is realist and hierarchical: liberated souls remain eternally distinct from Viṣṇu and from one another, and their bliss is graded by intrinsic *taratamya*. This is not crude dualism but a structured pluralism in which dependence on the one *svatantra* reality, Viṣṇu, is fully manifest in liberation.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 4.4.1-21", "Anu-Vyākhyāna 4.4", "Mahābhārata-Tātparya-Nirṇaya 1.85-95"]
+      "definition": "*Mokṣa* is not yielded by knowledge as an autonomous natural power; Viṣṇu himself gives knowledge to the ignorant, liberation to the knowers, and bliss to the liberated [[Anuvy. 1.1.13-15](cite://madhva/anuvyakhyana/1.1.13-15)]. The *jīva* never becomes essentially identical with Īśvara: even in liberation its consciousness and bliss remain as qualities similar to the Lord's, while *jīveśvara-bheda* stands firm by the force of śruti [[Anuvy. 2.3.66-69](cite://madhva/anuvyakhyana/2.3.66-69)]. The soteriological sequence is *vairāgya* -> *bhakti-dārḍhya* -> *upāsanā* -> *Viṣṇv-aparokṣya*, so liberation is inseparable from contemplative devotion [[Anuvy. 3.3.1](cite://madhva/anuvyakhyana/3.3.1)]. Among the liberated there is enduring *taratamya*: those fit for release rejoice in graded degrees of excellence rather than in an undifferentiated sameness [[VTV 3.27](cite://madhva/visnu-tattva-vinirnaya/3.27)].",
+      "primary_loci": [
+        "Anuvyākhyāna 1.1.13-15",
+        "Anuvyākhyāna 2.3.66-69",
+        "Anuvyākhyāna 3.3.1",
+        "Viṣṇu-Tattva-Vinirṇaya 3.27"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/anuvyakhyana/1.1.13-15",
+          "locus_short": "Anuvy. 1.1.13-15"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/2.3.66-69",
+          "locus_short": "Anuvy. 2.3.66-69"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/3.3.1",
+          "locus_short": "Anuvy. 3.3.1"
+        },
+        {
+          "cite": "cite://madhva/visnu-tattva-vinirnaya/3.27",
+          "locus_short": "VTV 3.27"
+        }
+      ]
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "Ordinary *mokṣa* is real but not ultimate. The school distinguishes liberation from the higher end of *prema*: release from saṃsāra may culminate in nearness to Bhagavān, but the supreme goal is active participation in Kṛṣṇa's eternal relational life. Rūpa Gosvāmī's formula that devotion makes even *mokṣa* seem slight is programmatic here. The decisive contrast is with impersonal release: the consummation sought is not merger but an eternal devotional identity within a particular *rasa*.",
-      "primary_loci": ["Bhakti-Rasāmṛta-Sindhu 1.1.17", "Bhakti-Sandarbha §§78-117", "Caitanya-Caritāmṛta, Madhya 19.149-169"]
+      "definition": "Because the *jīva* is related to Bhagavān by simultaneous *bheda* and *abheda* under his *acintya-śakti*, the *abheda-śāstras* are to be coordinated only after contradiction has been removed by affirming both difference from and non-difference from him [[Paramātma-Sandarbha §43](cite://jiva-gosvami/sat-sandarbha/§43)]. Once Bhagavān and the *māyā-mohita* jīva stand thus distinguished, his *bhajana* alone has the status of *abhidheya*, and *parama-prema* for Bhagavān is fixed as the *prayojana* [[Paramātma-Sandarbha §44](cite://jiva-gosvami/sat-sandarbha/§44); [§45](cite://jiva-gosvami/sat-sandarbha/§45)]. Accordingly, even *sālokya*, *sārṣṭi*, *sāmīpya*, *sārūpya*, and *ekatva* are refused apart from *mat-sevana*, while pure *uttamā-bhakti* is unoverlaid by *jñāna* and *karma* [[BRS 1.1.11](cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.11); [BRS 1.1.14](cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.14); [BRS 1.1.16](cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.16)].",
+      "primary_loci": [
+        "Paramātma-Sandarbha §§43-45",
+        "Bhakti-Rasāmṛta-Sindhu 1.1.11, 1.1.14-16"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§43",
+          "locus_short": "Paramātma-Sandarbha §43"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§44",
+          "locus_short": "Paramātma-Sandarbha §44"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§45",
+          "locus_short": "Paramātma-Sandarbha §45"
+        },
+        {
+          "cite": "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.11",
+          "locus_short": "BRS 1.1.11"
+        },
+        {
+          "cite": "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.14",
+          "locus_short": "BRS 1.1.14"
+        },
+        {
+          "cite": "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.16",
+          "locus_short": "BRS 1.1.16"
+        }
+      ]
     },
     {
-      "school": "Trika / Kashmir Śaivism",
-      "definition": "*Mokṣa* is *pratyabhijñā*, the recognition that the finite subject was never other than Śiva. Bondage is not caused by an independent ignorance-substance but by contracted self-awareness under Śiva's own powers. Liberation is therefore not world-negation but the recovery of universal agency and awareness. The liberated knower can remain embodied and active, since what changes is the recognition of the world's status as one's own unfolded consciousness.",
-      "primary_loci": ["Pratyabhijñā-Hṛdaya 1, 12, 17-18", "Tantrāloka 1.21ff"]
+      "school": "Dvaitādvaita",
+      "definition": "The jīva is *jñāna-svarūpa*, atomic, a knower, and dependent on Hari, being fit for both conjunction with and disjunction from embodiment [[DaŚ 1](cite://nimbarka/dasa-shloki/1)]. Its bondage is beginningless conjunction with *māyā*, whereas its released condition is known by Bhagavān's grace; the same self is spoken of as bound, liberated, and devoted according to its condition [[DaŚ 2](cite://nimbarka/dasa-shloki/2)]. Hence the jīva is neither absolutely different from nor absolutely non-different from Śrī Puruṣottama, but an *aṃśa* understood as his dependent *śakti* [[VK 2.3.42](cite://srinivasa/vedanta-kaustubha/2.3.42)]. The consummation sought is a *kṛpā-phala* beyond mere release, namely the *bhakti-rasa* of the worshipper in relation to the worshipped Lord [[DaŚ 10](cite://nimbarka/dasa-shloki/10)].",
+      "primary_loci": [
+        "Daśa-Ślokī 1-2, 10",
+        "Vedānta-Kaustubha on Brahma-Sūtra 2.3.42"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nimbarka/dasa-shloki/1",
+          "locus_short": "DaŚ 1"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/2",
+          "locus_short": "DaŚ 2"
+        },
+        {
+          "cite": "cite://srinivasa/vedanta-kaustubha/2.3.42",
+          "locus_short": "VK 2.3.42"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/10",
+          "locus_short": "DaŚ 10"
+        }
+      ]
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "Brahman is the *samavāyi-kāraṇa* of the world as *sat-cit-ānanda*, and the jīva is truly Brahman's *aṃśa* rather than an adventitious superimposition [[BSB 1.1.4](cite://vallabha/anu-bhasya/1.1.4); [BSB 2.3.43-45](cite://vallabha/anu-bhasya/2.3.43-45)]. With Brahman-knowledge and the cessation of *avidyā*, fitness for one's own *svarūpa* is accomplished for the attainment of Puruṣottama; when the soul is accepted as his own, *bhakti* functions as the necessary *sahakāri* for that attainment [[BSB 1.1.12-19](cite://vallabha/anu-bhasya/1.1.12-19)].",
+      "primary_loci": [
+        "Aṇu-Bhāṣya 1.1.4",
+        "Aṇu-Bhāṣya 1.1.12-19",
+        "Aṇu-Bhāṣya 2.3.43-45"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.1.4",
+          "locus_short": "BSB 1.1.4"
+        },
+        {
+          "cite": "cite://vallabha/anu-bhasya/2.3.43-45",
+          "locus_short": "BSB 2.3.43-45"
+        },
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.1.12-19",
+          "locus_short": "BSB 1.1.12-19"
+        }
+      ]
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yoga",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "*Mokṣa* is the exhaustion of *karma* and *kleśa*, and these in turn depend upon *vikalpa* and *prapañca*; when proliferative elaboration is stilled in *śūnyatā*, the whole bondage-series collapses [[MMK 18.5](cite://nagarjuna/mula-madhyamaka-karika/18.5)]. That *śūnyatā* is not a separate absolute but dependent arising itself, the *madhyamā pratipad* articulated without *svabhāva*-reification [[MMK 24.18](cite://nagarjuna/mula-madhyamaka-karika/24.18)]. Accordingly, *nirvāṇa* or *mokṣa* cannot be coherently stated as a positive entity, an absence, or a hybrid of the two [[MMK 25.11](cite://nagarjuna/mula-madhyamaka-karika/25.11)].",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 18.5",
+        "Mūla-Madhyamaka-Kārikā 24.18",
+        "Mūla-Madhyamaka-Kārikā 25.11"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/18.5",
+          "locus_short": "MMK 18.5"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.18",
+          "locus_short": "MMK 24.18"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/25.11",
+          "locus_short": "MMK 25.11"
+        }
+      ]
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Jainism",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     }
   ],
-  "see_also": ["jivanmukta", "videhamukti", "samsara", "jnana", "bhakti", "kaivalya", "prarabdha", "prema"],
+  "see_also": [
+    "jivanmukta",
+    "videhamukti",
+    "samsara",
+    "jnana",
+    "bhakti",
+    "kaivalya",
+    "prarabdha",
+    "prema"
+  ],
   "translator_note": "'Liberation' is the least bad English gloss, but it easily imports a modern picture of escape, privacy, or merely negative freedom. *Mokṣa* is not one uniform postmortem reward, and it is not always an exit from the world as such. The Sanskrit term carries the metaphysical dispute inside it: whether what is removed is *avidyā*, karmic embodiment, distance from Bhagavān, or contracted self-recognition."
 }
