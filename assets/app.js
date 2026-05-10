@@ -2233,10 +2233,28 @@ backToArticles.addEventListener("click", () => {
   articlesModal.setAttribute("aria-hidden", "false");
 });
 
-// Slightly richer markdown renderer for articles (handles tables, blockquotes, lists).
+// Markdown renderer for the article reader. Beyond standard inline markdown +
+// GFM tables + fenced code, this renderer:
+//  (1) parses the project-local `::: sanskrit-aside` block convention and
+//      emits a side-by-side panel that collapses to stacked at <=720 px;
+//  (2) tags glossary terms with <span class="term"> so the global delegation
+//      handler can open the glossary popover (parity with thinker prose);
+//  (3) preserves cite:// links so the citation popover / panel handler fires.
 function renderMarkdownFull(src) {
   const esc = (s) => s.replace(/[&<>]/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
-  // Pull out fenced code blocks first (preserve verbatim)
+  // Sanskrit-aside blocks — extracted before any other processing so the inner
+  // panes can be rendered recursively without any of the outer-pass regexes
+  // touching them.
+  const asides = [];
+  src = src.replace(/^::: sanskrit-aside\s*\n([\s\S]*?)\n:::\s*$/gm, (_m, body) => {
+    const skMatch = body.match(/:::: sanskrit\s*\n([\s\S]*?)(?=\n:::: english|\s*$)/);
+    const enMatch = body.match(/:::: english\s*\n([\s\S]*?)$/);
+    const sk = skMatch ? skMatch[1].trim() : "";
+    const en = enMatch ? enMatch[1].trim() : "";
+    asides.push({ sk, en });
+    return ` SKASIDE${asides.length - 1} `;
+  });
+  // Pull out fenced code blocks (preserve verbatim).
   const blocks = [];
   src = src.replace(/```([\s\S]*?)```/g, (_, body) => {
     blocks.push(`<pre><code>${esc(body)}</code></pre>`);
