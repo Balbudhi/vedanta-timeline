@@ -2066,3 +2066,363 @@ The argument parallels 25.6, but now for absence. An absence is never sheer, con
 
 ---
 
+### MMK 25.9
+
+**Sanskrit (IAST):**
+> *ya ājavaṃjavībhāva upādāya pratītya vā*  
+> *so 'pratītyānupādāya nirvāṇam upadiśyate*
+
+**English (line-by-line):**
+> That continuum called *ājavaṃjavībhāva*, whether designated in dependence or as dependently arisen,  
+> is taught as nirvāṇa when it is without dependence and without appropriation.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| yaḥ | yad | nom. sg. m. relative pronoun | that which |
+| ājavaṃjavībhāvaḥ | ājavaṃjavī-bhāva | nom. sg. m. | the “straight-crooked” continuum / cyclic process |
+| upādāya | upa-ā-√dā | absolutive | depending on / taking up |
+| pratītya | prati-√i | absolutive | depending on |
+| vā | vā | indecl. | or |
+| saḥ | tad | nom. sg. m. | that |
+| a-pratītya-anupādāya | a-pratītya-anupādāya | indeclinable compound | without dependence and without taking-up |
+| nirvāṇam | nirvāṇa | acc. sg. n. | nirvāṇa |
+| upadiśyate | upa-√diś | laṭ, 3rd sg. passive | is taught |
+
+**Compound resolution (samāsa-vigraha):**
+- *ājavaṃjavībhāvaḥ* [textually difficult compound]: the transmitted expression is opaque; Candrakīrti glosses it as the continuum of coming-going, becoming, birth, and death.
+- *apratītyānupādāya* [negative coordinative compound]: “without dependence and without taking-up.”
+
+**Kāraka structure:**
+- kartṛ: *yaḥ ... saḥ*
+- karman: *nirvāṇam*
+- adverbial dependence: *upādāya*, *pratītya*, *apratītyānupādāya*
+
+**Verbal modality:**
+- *upadiśyate*: laṭ / passive / present
+- *upādāya*, *pratītya*: absolutives
+
+**Note:**
+The first pāda is textually difficult in the GRETIL file. The translation follows Candrakīrti’s explanatory sense: the saṃsāric continuum, insofar as it no longer proceeds by dependent appropriation, is what is called nirvāṇa.
+
+---
+
+### MMK 25.10
+
+**Sanskrit (IAST):**
+> *prahāṇaṃ cābravīc chāstā bhavasya vibhavasya ca*  
+> *tasmān na bhāvo nābhāvo nirvāṇam iti yujyate*
+
+**English (line-by-line):**
+> The Teacher spoke of the abandonment of becoming and of non-becoming.  
+> Therefore it is not fitting to say that nirvāṇa is either a positive entity or an absence.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| prahāṇam | prahāṇa | acc. sg. n. | abandonment |
+| ca | ca | indecl. | and |
+| abravīt | √brū | imperfect, 3rd sg. parasmaipada | said |
+| śāstā | śāstṛ | nom. sg. m. | the Teacher |
+| bhavasya | bhava | gen. sg. m. | of becoming |
+| vibhavasya | vibhava | gen. sg. m. | of non-becoming / extinction-view |
+| ca | ca | indecl. | and |
+| tasmāt | tasmāt | abl. sg. indeclinable use | therefore |
+| na | na | indecl. | not |
+| bhāvaḥ | bhāva | nom. sg. m. | positive entity |
+| na | na | indecl. | not |
+| abhāvaḥ | abhāva | nom. sg. m. | absence |
+| nirvāṇam | nirvāṇa | nom./acc. sg. n. | nirvāṇa |
+| iti | iti | indecl. quotative | thus |
+| yujyate | √yuj | laṭ, 3rd sg. ātmanepada | is fitting / is tenable |
+
+**Compound resolution (samāsa-vigraha):**
+- none
+
+**Kāraka structure:**
+- kartṛ: *śāstā*
+- karman: *prahāṇam*
+- sambandha: *bhavasya*, *vibhavasya*
+
+**Verbal modality:**
+- *abravīt*: imperfect / parasmaipada / past assertion
+- *yujyate*: laṭ / ātmanepada / present propriety
+
+**Note:**
+The appeal is now scriptural and dialectical at once: the Buddha rejects attachment both to becoming and to sheer negation. Nirvāṇa therefore cannot be captured by either pole.
+
+---
+
+### MMK 25.11
+
+**Sanskrit (IAST):**
+> *bhaved abhāvo bhāvaś ca nirvāṇam ubhayaṃ yadi*  
+> *bhaved abhāvo bhāvaś ca mokṣas tac ca na yujyate*
+
+**English (line-by-line):**
+> If nirvāṇa were both absence and positive entity,  
+> liberation too would be both absence and positive entity; and that is not tenable.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| bhavet | √bhū | liṅ, 3rd sg. parasmaipada | would be |
+| abhāvaḥ | abhāva | nom. sg. m. | absence |
+| bhāvaḥ | bhāva | nom. sg. m. | positive entity |
+| ca | ca | indecl. | and |
+| nirvāṇam | nirvāṇa | nom./acc. sg. n. | nirvāṇa |
+| ubhayam | ubhaya | nom./acc. sg. n. | both |
+| yadi | yadi | indecl. | if |
+| bhavet | √bhū | liṅ, 3rd sg. parasmaipada | would be |
+| abhāvaḥ | abhāva | nom. sg. m. | absence |
+| bhāvaḥ | bhāva | nom. sg. m. | positive entity |
+| ca | ca | indecl. | and |
+| mokṣaḥ | mokṣa | nom. sg. m. | liberation |
+| tat | tad | nom./acc. sg. n. | that |
+| ca | ca | indecl. | and |
+| na | na | indecl. | not |
+| yujyate | √yuj | laṭ, 3rd sg. ātmanepada | is tenable |
+
+**Compound resolution (samāsa-vigraha):**
+- *ubhayam* is a simple pronominal adjective; no compound resolution needed
+
+**Kāraka structure:**
+- predicate set: *abhāvaḥ*, *bhāvaḥ*, *ubhayam*
+- kartṛ: *nirvāṇam*, *mokṣaḥ*
+
+**Verbal modality:**
+- *bhavet* (twice): liṅ / parasmaipada / potential
+- *yujyate*: laṭ / present
+
+**Note:**
+The third corner now fails. A both-and ontology does not save the account; it merely carries forward the defects of the first two positions together.
+
+---
+
+### MMK 25.12
+
+**Sanskrit (IAST):**
+> *bhaved abhāvo bhāvaś ca nirvāṇam ubhayaṃ yadi*  
+> *nānupādāya nirvāṇam upādāyobhayaṃ hi tat*
+
+**English (line-by-line):**
+> If nirvāṇa were both absence and positive entity,  
+> nirvāṇa would not be without dependence, for both of those are dependent on something taken up.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| bhavet | √bhū | liṅ, 3rd sg. parasmaipada | would be |
+| abhāvaḥ | abhāva | nom. sg. m. | absence |
+| bhāvaḥ | bhāva | nom. sg. m. | positive entity |
+| ca | ca | indecl. | and |
+| nirvāṇam | nirvāṇa | nom./acc. sg. n. | nirvāṇa |
+| ubhayam | ubhaya | nom./acc. sg. n. | both |
+| yadi | yadi | indecl. | if |
+| na | na | indecl. | not |
+| anupādāya | an-upādāya | indecl. | without dependence |
+| nirvāṇam | nirvāṇa | nom./acc. sg. n. | nirvāṇa |
+| upādāya | upa-ā-√dā | absolutive / indecl. | depending upon |
+| ubhayam | ubhaya | nom./acc. sg. n. | both |
+| hi | hi | indecl. | for |
+| tat | tad | nom./acc. sg. n. | that |
+
+**Compound resolution (samāsa-vigraha):**
+- none
+
+**Kāraka structure:**
+- kartṛ: *nirvāṇam*
+- adverbial dependence: *anupādāya*, *upādāya*
+
+**Verbal modality:**
+- *bhavet*: liṅ / parasmaipada / potential
+
+**Note:**
+The objection to the third corner is now sharpened by the *upādāya* logic. If both *bhāva* and *abhāva* are relationally dependent, then their conjunction cannot name an independent nirvāṇa.
+
+---
+
+### MMK 25.13
+
+**Sanskrit (IAST):**
+> *bhaved abhāvo bhāvaś ca nirvāṇam ubhayaṃ katham*  
+> *asaṃskṛtaṃ hi nirvāṇaṃ bhāvābhāvau ca saṃskṛtau*
+
+**English (line-by-line):**
+> How could nirvāṇa be both absence and positive entity?  
+> For nirvāṇa is unconditioned, whereas positive entity and absence are conditioned.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| bhavet | √bhū | liṅ, 3rd sg. parasmaipada | could be |
+| abhāvaḥ | abhāva | nom. sg. m. | absence |
+| bhāvaḥ | bhāva | nom. sg. m. | positive entity |
+| ca | ca | indecl. | and |
+| nirvāṇam | nirvāṇa | nom./acc. sg. n. | nirvāṇa |
+| ubhayam | ubhaya | nom./acc. sg. n. | both |
+| katham | katham | indecl. | how |
+| asaṃskṛtam | a-saṃskṛta | nom./acc. sg. n. | unconditioned |
+| hi | hi | indecl. | for |
+| nirvāṇam | nirvāṇa | nom./acc. sg. n. | nirvāṇa |
+| bhāva-abhāvau | bhāva-abhāva | nom. dual m. | positive entity and absence |
+| ca | ca | indecl. | and |
+| saṃskṛtau | saṃskṛta | nom. dual m. | conditioned |
+
+**Compound resolution (samāsa-vigraha):**
+- *asaṃskṛtam* [nañ-tatpuruṣa]: “unconditioned.”
+- *bhāvābhāvau* [dvandva]: “positive entity and absence.”
+
+**Kāraka structure:**
+- kartṛ: *nirvāṇam*, *bhāvābhāvau*
+- predicate: *asaṃskṛtam*, *saṃskṛtau*
+
+**Verbal modality:**
+- *bhavet*: liṅ / parasmaipada / potential
+
+**Note:**
+Verse 25.13 restates the anti-ubhaya argument ontologically. The third corner collapses because its members belong to the conditioned order, while nirvāṇa is precisely not to be placed there.
+
+---
+
+### MMK 25.14
+
+**Sanskrit (IAST):**
+> *bhaved abhāvo bhāvaś ca nirvāṇa ubhayaṃ katham*  
+> *tayor abhāvo hy ekatra prakāśatamasor iva*
+
+**English (line-by-line):**
+> How could nirvāṇa be both absence and positive entity?  
+> For the two do not occur together in one place, like light and darkness.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| bhavet | √bhū | liṅ, 3rd sg. parasmaipada | could be |
+| abhāvaḥ | abhāva | nom. sg. m. | absence |
+| bhāvaḥ | bhāva | nom. sg. m. | positive entity |
+| ca | ca | indecl. | and |
+| nirvāṇe | nirvāṇa | loc. sg. n. sense supplied by commentators; transmitted line compresses relation | in nirvāṇa |
+| ubhayam | ubhaya | nom./acc. sg. n. | both |
+| katham | katham | indecl. | how |
+| tayoḥ | tad | gen. dual | of those two |
+| abhāvaḥ | abhāva | nom. sg. m. | non-presence / incompatibility |
+| hi | hi | indecl. | for |
+| ekatra | ekatra | indecl. adverb | in one place |
+| prakāśa-tamasoḥ | prakāśa-tamas | gen. dual m. | of light and darkness |
+| iva | iva | indecl. | like |
+
+**Compound resolution (samāsa-vigraha):**
+- *prakāśatamasoḥ* [dvandva]: “of light and darkness.”
+
+**Kāraka structure:**
+- adhikaraṇa: *ekatra*
+- sambandha: *tayoḥ*, *prakāśatamasoḥ*
+
+**Verbal modality:**
+- *bhavet*: liṅ / parasmaipada / potential
+
+**Note:**
+The transmitted line is compressed; the governing sense, made explicit by Candrakīrti, is that the two opposed predicates cannot coexist in one locus. The simile of light and darkness makes the incompatibility vivid.
+
+---
+
+### MMK 25.15
+
+**Sanskrit (IAST):**
+> *naivābhāvo naiva bhāvo nirvāṇam iti yā 'ñjanā*  
+> *abhāve caiva bhāve ca sā siddhe sati sidhyati*
+
+**English (line-by-line):**
+> The construal “nirvāṇa is neither absence nor positive entity”  
+> is established only if absence and positive entity are themselves established.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| na eva | na + eva | indecl. + particle | neither indeed |
+| abhāvaḥ | abhāva | nom. sg. m. | absence |
+| na eva | na + eva | indecl. + particle | nor indeed |
+| bhāvaḥ | bhāva | nom. sg. m. | positive entity |
+| nirvāṇam | nirvāṇa | nom./acc. sg. n. | nirvāṇa |
+| iti | iti | indecl. quotative | thus |
+| yā | yad | nom. sg. f. relative pronoun | which |
+| añjanā | añjanā / textually difficult | nom. sg. f. | construal / apprehension |
+| abhāve | abhāva | loc. sg. m. | when absence |
+| ca | ca | indecl. | and |
+| eva | eva | indecl. | indeed |
+| bhāve | bhāva | loc. sg. m. | when positive entity |
+| ca | ca | indecl. | and |
+| sā | tad | nom. sg. f. | that |
+| siddhe | siddha | loc. sg. m./n. | being established |
+| sati | sat | loc. sg. n. abs. form | when there is |
+| sidhyati | √sidh | laṭ, 3rd sg. parasmaipada | is established |
+
+**Compound resolution (samāsa-vigraha):**
+- none
+
+**Kāraka structure:**
+- adhikaraṇa: *abhāve*, *bhāve*, *siddhe sati*
+- kartṛ: *yā añjanā ... sā*
+
+**Verbal modality:**
+- *sidhyati*: laṭ / parasmaipada / present
+
+**Note:**
+The fourth corner is now shown to be parasitic on the first two. The transmitted noun *añjanā* is textually difficult; the commentarial sense is plainly “conceptual construal” or “calculated apprehension.”
+
+---
+
+### MMK 25.16
+
+**Sanskrit (IAST):**
+> *naivābhāvo naiva bhāvo nirvāṇaṃ yadi vidyate*  
+> *naivābhāvo naiva bhāva iti kena tad ajyate*
+
+**English (line-by-line):**
+> If nirvāṇa existed as neither absence nor positive entity,  
+> by what would it be apprehended or specified as “neither absence nor positive entity”?
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| na eva | na + eva | indecl. + particle | neither indeed |
+| abhāvaḥ | abhāva | nom. sg. m. | absence |
+| na eva | na + eva | indecl. + particle | nor indeed |
+| bhāvaḥ | bhāva | nom. sg. m. | positive entity |
+| nirvāṇam | nirvāṇa | nom./acc. sg. n. | nirvāṇa |
+| yadi | yadi | indecl. | if |
+| vidyate | √vid | laṭ, 3rd sg. ātmanepada | exists / is found |
+| na eva | na + eva | indecl. + particle | neither indeed |
+| abhāvaḥ | abhāva | nom. sg. m. | absence |
+| na eva | na + eva | indecl. + particle | nor indeed |
+| bhāvaḥ | bhāva | nom. sg. m. | positive entity |
+| iti | iti | indecl. quotative | thus |
+| kena | kim | instr. sg. | by what |
+| tat | tad | nom./acc. sg. n. | that |
+| ajyate | ajyate / textually difficult transmitted form | laṭ-like passive/middle form | is apprehended / indicated |
+
+**Compound resolution (samāsa-vigraha):**
+- none
+
+**Kāraka structure:**
+- karaṇa: *kena*
+- kartṛ/karman frame: *tat*
+
+**Verbal modality:**
+- *vidyate*: laṭ / ātmanepada / present
+- *ajyate*: transmitted present form; commentarial sense “is apprehended / made known”
+
+**Note:**
+The GRETIL reading *ajyate* is difficult; Candrakīrti’s exposition shows the intended sense unmistakably: if nirvāṇa were a “neither-nor” object, by what cognition or designation would that status be fixed? Thus the fourth corner fails too.
+
+---
+
