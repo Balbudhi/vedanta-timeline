@@ -1067,7 +1067,7 @@ function openThinker(id) {
   });
   detailContent.style.setProperty("--dot-color", colorFor(t, 2));
   detailContent.style.setProperty("--school-light", colorFor(t, 1));
-  detailContent.innerHTML = renderDetail(t);
+  detailContent.innerHTML = numberCitations(renderDetail(t), { appendList: true });
   panelState.loaded.thinker = true;
   detailContent.scrollTop = 0;
   openPanel("thinker");
@@ -1451,7 +1451,7 @@ For the cited-but-not-fully-translated portions: where a standard scholarly Engl
 ${passagesBlock}`;
   }
   if (dpTranslationBody) {
-    dpTranslationBody.innerHTML = `<article>${renderMarkdownFull(body)}</article>`;
+    dpTranslationBody.innerHTML = `<article>${numberCitations(renderMarkdownFull(body), { appendList: true })}</article>`;
     dpTranslationBody.scrollTop = 0;
   }
   panelState.loaded.translation = true;
@@ -2526,7 +2526,7 @@ async function openArticle(a) {
   }
   const text = await r.text();
   if (dpArticleBody) {
-    dpArticleBody.innerHTML = `<article>${renderMarkdownFull(text)}</article>`;
+    dpArticleBody.innerHTML = `<article>${numberCitations(renderMarkdownFull(text), { appendList: true })}</article>`;
     dpArticleBody.scrollTop = 0;
   }
   panelState.loaded.article = true;
