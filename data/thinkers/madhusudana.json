@@ -56,7 +56,10 @@
       "genre": "tika",
       "language": "sanskrit",
       "summary": "Compact independent gloss (*bindu* — 'drop') on Śaṅkara's *Daśa-Ślokī* (the ten verses summarising Advaita), expanded into a self-contained Advaita primer. Madhusūdana works through the standard Vivaraṇa architecture — *Brahman* as locus of *avidyā*, the *avaccheda-* / *pratibimba*-vāda alternatives for the *jīva* (with characteristic non-partisan exposition), *anirvacanīya-bhāva-rūpā-avidyā*, the role of the Mahāvākya in producing *akhaṇḍākāra-vṛtti*, and *jīvanmukti* — and is one of the standard pedagogical condensations through which advanced students enter the *Vivaraṇa* technical idiom. Several sub-commentaries (Brahmānanda's *Nyāya-Ratnāvalī*, Pūrṇānanda's *Siddhānta-Bindu-Tippaṇī*) attest its central place in the post-Madhusūdana curriculum.",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "siddhanta-bindu-upodghata__mahavakya-eva-pramapakam",
+        "siddhanta-bindu-1__anirvacyam-ajnanam-eva-tat"
+      ],
       "entry_status": "reviewed"
     },
     {
@@ -72,7 +75,10 @@
       "genre": "prakarana",
       "language": "sanskrit",
       "summary": "Independent treatise (*Bhakti-Rasāyana* — 'the elixir of *bhakti*') in three chapters that integrates *bhakti* into the Advaita framework via the *rasa*-theoretic vocabulary of Sanskrit poetics. Madhusūdana defines *bhakti* as a *rasa* — specifically the *bhagavad-rasa*, a *sthāyibhāva* of love-for-Bhagavat developed by *vibhāva*, *anubhāva*, and *vyabhicāri-bhāva* — whose effect is to *liquefy* (*drāvayati*) the *citta* into the form (*ākāra*) of *Bhagavat*. The work argues that *bhakti* is not opposed to Advaita but is its proper preparatory and ornamental aesthesis: *jñāna* yields *mokṣa*, but *bhakti* is itself a *paramapuruṣārtha* of a distinctive kind. It draws extensively on the *Bhāgavata-Purāṇa* and is in critical conversation with the Gauḍīya analysis of *bhakti-rasa* (Rūpa Gosvāmī's *Bhakti-Rasāmṛta-Sindhu*) — Madhusūdana respects the affective phenomenology while subordinating it metaphysically to *brahmātmaikya*. The *Bhakti-Rasāyana* is a key source for the Advaita treatment of devotion that does not collapse it into mere preliminary purification.",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "bhakti-rasayana-1-1__bhakti-yoga-parama-pumartha",
+        "bhakti-rasayana-1-1-tika__bhakti-brahmavidya-vailakshanya"
+      ],
       "entry_status": "reviewed"
     },
     {
@@ -92,10 +98,1138 @@
       "entry_status": "reviewed"
     }
   ],
-  "key_passages": [],
+  "key_passages": [
+    {
+      "passage_id": "siddhanta-bindu-upodghata__mahavakya-eva-pramapakam",
+      "work_id": "siddhanta-bindu",
+      "locus_short": "SB Upodghāta",
+      "locus_long": "Siddhānta-Bindu, Upodghāta, on the mahāvākyas as the pramāṇa of ātmatattva",
+      "locus_structured": {
+        "section": "upodghāta"
+      },
+      "sanskrit_iast": "tasya cātmatattvasya \"tattvam asi\" \"ahaṃ brahmāsmi\"\nityādivedāntamahāvākyam eva pramāpakam /\nvākyaṃ ca padārthajñānadvāreṇaiva jñāpakam iti\ntattvampadārthayoḥ prakṛtavākyānukūlayor anyato 'siddhatvāt\ntāv api śāstreṇaiva pramātavyau yūpāhavanīyapadārthavat //",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "tasya",
+            "stem": "tad",
+            "pratyaya": "-sya",
+            "morphology": "gen sg neut",
+            "gloss": "of that"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "ātmatattvasya",
+            "stem": "ātmatattva",
+            "pratyaya": "-sya",
+            "morphology": "gen sg neut",
+            "gloss": "of the reality of the self"
+          },
+          {
+            "pada": "tattvam",
+            "stem": "tad",
+            "morphology": "nom sg neut",
+            "gloss": "that"
+          },
+          {
+            "pada": "asi",
+            "stem": "as",
+            "morphology": "2sg pres ind P",
+            "gloss": "are"
+          },
+          {
+            "pada": "ahaṃ",
+            "stem": "asmad",
+            "morphology": "nom sg",
+            "gloss": "I"
+          },
+          {
+            "pada": "brahmāsmi",
+            "stem": "brahman + as",
+            "morphology": "1sg pres ind P",
+            "gloss": "am Brahman"
+          },
+          {
+            "pada": "ityādivedāntamahāvākyam",
+            "stem": "vedānta-mahāvākya",
+            "morphology": "nom sg neut",
+            "gloss": "the great Vedāntic sentence beginning thus"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "alone"
+          },
+          {
+            "pada": "pramāpakam",
+            "stem": "pramāpaka",
+            "pratyaya": "-am",
+            "morphology": "nom sg neut",
+            "gloss": "the means of valid cognition"
+          },
+          {
+            "pada": "vākyaṃ",
+            "stem": "vākya",
+            "pratyaya": "-am",
+            "morphology": "nom sg neut",
+            "gloss": "a sentence"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "padārthajñānadvāreṇaiva",
+            "stem": "padārthajñānadvāra",
+            "pratyaya": "-eṇa",
+            "morphology": "instr sg neut",
+            "gloss": "only by way of knowledge of the word-meanings"
+          },
+          {
+            "pada": "jñāpakam",
+            "stem": "jñāpaka",
+            "pratyaya": "-am",
+            "morphology": "nom sg neut",
+            "gloss": "is revelatory"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "tattvampadārthayoḥ",
+            "stem": "tattvampadārtha",
+            "pratyaya": "-yoḥ",
+            "morphology": "gen du masc",
+            "gloss": "of the meanings of the word 'tat' and the word 'tvam'"
+          },
+          {
+            "pada": "prakṛtavākyānukūlayoḥ",
+            "stem": "prakṛtavākyānukūla",
+            "pratyaya": "-yoḥ",
+            "morphology": "gen du masc",
+            "gloss": "suited to the sentence at hand"
+          },
+          {
+            "pada": "anyato",
+            "stem": "anyatas",
+            "morphology": "abl sg indecl",
+            "gloss": "from elsewhere"
+          },
+          {
+            "pada": "'siddhatvāt",
+            "stem": "asiddhatva",
+            "pratyaya": "-āt",
+            "morphology": "abl sg neut",
+            "gloss": "because of not being established"
+          },
+          {
+            "pada": "tāv",
+            "stem": "tad",
+            "morphology": "nom du masc",
+            "gloss": "those two"
+          },
+          {
+            "pada": "api",
+            "stem": "api",
+            "morphology": "indecl",
+            "gloss": "also"
+          },
+          {
+            "pada": "śāstreṇaiva",
+            "stem": "śāstra",
+            "pratyaya": "-eṇa",
+            "morphology": "instr sg neut",
+            "gloss": "by scripture alone"
+          },
+          {
+            "pada": "pramātavyau",
+            "stem": "pra-√mā",
+            "pratyaya": "-tavya",
+            "morphology": "nom du masc gerundive",
+            "gloss": "must be known"
+          },
+          {
+            "pada": "yūpāhavanīyapadārthavat",
+            "stem": "yūpāhavanīyapadārthavat",
+            "morphology": "indecl comparative",
+            "gloss": "like the meanings of 'yūpa' and 'āhavanīya'"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "ātmatattva",
+            "type": "tatpurusha",
+            "resolution": "ātmanaḥ tattvam",
+            "note": "genitive tatpuruṣa"
+          },
+          {
+            "compound": "vedāntamahāvākya",
+            "type": "karmadharaya",
+            "resolution": "vedāntikaṃ mahāvākyam"
+          },
+          {
+            "compound": "padārthajñānadvāra",
+            "type": "tatpurusha",
+            "resolution": "padārthajñānasya dvāram"
+          },
+          {
+            "compound": "tattvampadārtha",
+            "type": "tatpurusha",
+            "resolution": "'tat'-padasya ca 'tvam'-padasya ca arthaḥ"
+          },
+          {
+            "compound": "prakṛtavākyānukūla",
+            "type": "tatpurusha",
+            "resolution": "prakṛtasya vākyasya anukūlaḥ"
+          },
+          {
+            "compound": "yūpāhavanīyapadārtha",
+            "type": "dvandva",
+            "resolution": "yūpasya āhavanīyasya ca padārthau"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "sambandha",
+            "pada": "tasya",
+            "note": "genitive dependent on ātmatattvasya"
+          },
+          {
+            "role": "sambandha",
+            "pada": "ātmatattvasya",
+            "note": "genitive governed by the predicate pramāpakam"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "ityādivedāntamahāvākyam",
+            "note": "subject of the implied copula in 'pramāpakam'"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "padārthajñānadvāreṇaiva",
+            "note": "instrumental specifying the means by which a sentence reveals"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "vākyaṃ",
+            "note": "subject of the implied copula in 'jñāpakam'"
+          },
+          {
+            "role": "sambandha",
+            "pada": "tattvampadārthayoḥ",
+            "note": "genitive pair whose referents are to be known"
+          },
+          {
+            "role": "sambandha",
+            "pada": "prakṛtavākyānukūlayoḥ",
+            "note": "further qualifies the two padārthas"
+          },
+          {
+            "role": "apādāna",
+            "pada": "anyato 'siddhatvāt",
+            "note": "reason: because they are not established from another source"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "śāstreṇaiva",
+            "note": "instrumental of the means by which the two padārthas are known"
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "asi",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "finite verb inside the quoted mahāvākya"
+          },
+          {
+            "pada": "brahmāsmi",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "finite verb inside the quoted mahāvākya"
+          }
+        ]
+      },
+      "english_close": "And of that reality of the self, the great Vedāntic sentences 'That thou art' and 'I am Brahman' alone are the means of valid cognition. And a sentence is revelatory only by way of knowledge of the word-meanings; therefore, since the meanings of the words 'tat' and 'tvam', suited to the sentence in question, are not established from elsewhere, those two too must be known from scripture alone, like the meanings of 'yūpa' and 'āhavanīya'.",
+      "english_paraphrase": "The Upaniṣadic identity-sentences are the decisive pramāṇa here, and even the meanings of their key terms have to be learned from śruti rather than from some independent source.",
+      "preserved_terms": [
+        {
+          "term_iast": "mahāvākya",
+          "first_use_gloss": "the 'great sentence' of the Upaniṣads that discloses identity"
+        },
+        {
+          "term_iast": "pramāpakam",
+          "first_use_gloss": "that which yields valid knowledge"
+        },
+        {
+          "term_iast": "padārtha",
+          "first_use_gloss": "the meaning borne by a word"
+        }
+      ],
+      "why_this_passage": "This is not a detached anthology line but the Upodghāta's programmatic statement of how the whole text will proceed: the mahāvākya is the operative pramāṇa, and its key terms must be interpreted within śruti. That makes it a fair and central witness to Madhusūdana's epistemology of liberation.",
+      "topic_tags": [
+        "epistemology",
+        "soteriology"
+      ],
+      "sub_axes": [
+        "status-of-sruti",
+        "saving-cognition-status",
+        "effective-means-of-moksa"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Divānji (ed.), Siddhāntabindu, Baroda: Oriental Institute, 1933; transcribed from the local GRETIL file madhusudana_siddhanta_bindu_gretil.txt.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "siddhanta-bindu-1__anirvacyam-ajnanam-eva-tat",
+      "work_id": "siddhanta-bindu",
+      "locus_short": "SB 1",
+      "locus_long": "Siddhānta-Bindu, Prathamo Vibhāgaḥ, prose under verse 1, defining anirvācyam ajñānam",
+      "locus_structured": {
+        "chapter": 1,
+        "section": "prathamo vibhāgaḥ",
+        "verse": 1,
+        "other": {
+          "commentary_unit": "prose definition of ajñāna"
+        }
+      },
+      "sanskrit_iast": "tasmāt pariśeṣād bhrāntir iyam iti sthite\ntatkāraṇam api yogyaṃ kiñcit kalpanīyam /\nkalpyamānaṃ ca tadātmany adhyastatayaiva\ndharmigrāhakamānena sidhyatīti na jānāmīti\nsākṣipratītisiddham anirvācyam ajñānam eva tat /\nna cedam abhāvarūpaṃ\njñānasya nityatvena tadabhāvānupapatter uktatvāt //",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "tasmāt",
+            "stem": "tad",
+            "pratyaya": "-smāt",
+            "morphology": "abl sg neut",
+            "gloss": "therefore"
+          },
+          {
+            "pada": "pariśeṣād",
+            "stem": "pariśeṣa",
+            "pratyaya": "-āt",
+            "morphology": "abl sg masc",
+            "gloss": "from elimination"
+          },
+          {
+            "pada": "bhrāntiḥ",
+            "stem": "bhrānti",
+            "pratyaya": "-ḥ",
+            "morphology": "nom sg fem",
+            "gloss": "error"
+          },
+          {
+            "pada": "iyam",
+            "stem": "idam",
+            "morphology": "nom sg fem",
+            "gloss": "this"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "sthite",
+            "stem": "sthita",
+            "pratyaya": "-e",
+            "morphology": "loc sg neut",
+            "gloss": "when it has been established"
+          },
+          {
+            "pada": "tatkāraṇam",
+            "stem": "tatkāraṇa",
+            "pratyaya": "-am",
+            "morphology": "nom sg neut",
+            "gloss": "its cause"
+          },
+          {
+            "pada": "api",
+            "stem": "api",
+            "morphology": "indecl",
+            "gloss": "also"
+          },
+          {
+            "pada": "yogyam",
+            "stem": "yogya",
+            "pratyaya": "-am",
+            "morphology": "nom sg neut",
+            "gloss": "appropriate"
+          },
+          {
+            "pada": "kiñcit",
+            "stem": "kiñcit",
+            "morphology": "acc sg neut",
+            "gloss": "something"
+          },
+          {
+            "pada": "kalpanīyam",
+            "stem": "kalpanīya",
+            "pratyaya": "-am",
+            "morphology": "nom sg neut gerundive",
+            "gloss": "must be posited"
+          },
+          {
+            "pada": "kalpyamānam",
+            "stem": "√kḷp",
+            "pratyaya": "śānac",
+            "morphology": "nom sg neut pres pass part",
+            "gloss": "being posited"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "tadātmany",
+            "stem": "tadātman",
+            "morphology": "loc sg masc",
+            "gloss": "in that self"
+          },
+          {
+            "pada": "adhyastatayaiva",
+            "stem": "adhyastatā",
+            "pratyaya": "-ayā",
+            "morphology": "instr sg fem",
+            "gloss": "precisely as superimposed"
+          },
+          {
+            "pada": "dharmigrāhakamānena",
+            "stem": "dharmigrāhakamāna",
+            "pratyaya": "-ena",
+            "morphology": "instr sg neut",
+            "gloss": "by the cognition that grasps the substrate"
+          },
+          {
+            "pada": "sidhyatīti",
+            "stem": "√sidh",
+            "morphology": "3sg pres ind P",
+            "gloss": "is established thus"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "jānāmi",
+            "stem": "√jñā",
+            "morphology": "1sg pres ind P",
+            "gloss": "I know"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "sākṣipratītisiddham",
+            "stem": "sākṣipratītisiddha",
+            "pratyaya": "-am",
+            "morphology": "nom sg neut",
+            "gloss": "established by witness-cognition"
+          },
+          {
+            "pada": "anirvācyam",
+            "stem": "anirvācya",
+            "pratyaya": "-am",
+            "morphology": "nom sg neut",
+            "gloss": "indefinable"
+          },
+          {
+            "pada": "ajñānam",
+            "stem": "ajñāna",
+            "pratyaya": "-am",
+            "morphology": "nom sg neut",
+            "gloss": "ignorance"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "tat",
+            "stem": "tad",
+            "morphology": "nom sg neut",
+            "gloss": "that"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "idam",
+            "stem": "idam",
+            "morphology": "nom sg neut",
+            "gloss": "this"
+          },
+          {
+            "pada": "abhāvarūpam",
+            "stem": "abhāvarūpa",
+            "pratyaya": "-am",
+            "morphology": "nom sg neut",
+            "gloss": "of the nature of an absence"
+          },
+          {
+            "pada": "jñānasya",
+            "stem": "jñāna",
+            "pratyaya": "-sya",
+            "morphology": "gen sg neut",
+            "gloss": "of knowledge"
+          },
+          {
+            "pada": "nityatvena",
+            "stem": "nityatva",
+            "pratyaya": "-ena",
+            "morphology": "instr sg neut",
+            "gloss": "because of eternality"
+          },
+          {
+            "pada": "tadabhāvānupapatter",
+            "stem": "tadabhāvānupapatti",
+            "pratyaya": "-eḥ",
+            "morphology": "abl sg fem",
+            "gloss": "because the non-existence of that is untenable"
+          },
+          {
+            "pada": "uktatvāt",
+            "stem": "uktatva",
+            "pratyaya": "-āt",
+            "morphology": "abl sg neut",
+            "gloss": "because it has been stated"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "tatkāraṇa",
+            "type": "tatpurusha",
+            "resolution": "tasya kāraṇam"
+          },
+          {
+            "compound": "dharmigrāhakamāna",
+            "type": "upapada",
+            "resolution": "dharminaṃ grāhakaṃ mānam"
+          },
+          {
+            "compound": "sākṣipratītisiddha",
+            "type": "tatpurusha",
+            "resolution": "sākṣi-pratītyā siddham"
+          },
+          {
+            "compound": "abhāvarūpa",
+            "type": "tatpurusha",
+            "resolution": "abhāvasya rūpam"
+          },
+          {
+            "compound": "tadabhāvānupapatti",
+            "type": "tatpurusha",
+            "resolution": "tasya abhāvasya anupapattiḥ"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "adhikaraṇa",
+            "pada": "sthite",
+            "note": "locative absolute: 'when this has been settled'"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "bhrāntiḥ",
+            "note": "subject within the locative-absolute frame"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "tatkāraṇam",
+            "note": "subject of the gerundive construction 'kalpanīyam'"
+          },
+          {
+            "role": "karman",
+            "pada": "kiñcit",
+            "note": "the 'something' to be posited as cause"
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "tadātmany",
+            "note": "locus in which the posited entity is established as superimposed"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "adhyastatayaiva",
+            "note": "instrumental of manner: precisely in the mode of superimposition"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "dharmigrāhakamānena",
+            "note": "the cognition by which that superimposed entity is established"
+          },
+          {
+            "role": "sambandha",
+            "pada": "jñānasya",
+            "note": "genitive governing nityatvena"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "nityatvena",
+            "note": "reason why ajñāna cannot be mere absence"
+          },
+          {
+            "role": "apādāna",
+            "pada": "tadabhāvānupapatter uktatvāt",
+            "note": "stated reason: the absence of eternal knowledge is untenable"
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "sidhyati",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "reported in quotation as sidhyatīti"
+          },
+          {
+            "pada": "jānāmi",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "first-person cognition quoted in na jānāmīti"
+          }
+        ]
+      },
+      "english_close": "Therefore, when it has been established by elimination that this is an error, some suitable cause for it must also be posited. And what is posited is established, precisely as superimposed on that self, by the cognition that grasps the substrate, 'I do not know'; that indeed is indefinable ignorance, established by witness-cognition. And this is not of the nature of an absence, because, knowledge being eternal, the absence of that has already been shown to be untenable.",
+      "english_paraphrase": "Madhusūdana argues that error requires a positive but indefinable ignorance disclosed in the witness-backed awareness 'I do not know'; it cannot be reduced to sheer non-existence.",
+      "preserved_terms": [
+        {
+          "term_iast": "ajñāna",
+          "first_use_gloss": "ignorance, here the explanatory basis of superimposition"
+        },
+        {
+          "term_iast": "anirvācyam",
+          "first_use_gloss": "indefinable as either simply real or simply unreal"
+        },
+        {
+          "term_iast": "sākṣin",
+          "first_use_gloss": "the witnessing consciousness that underlies experience"
+        }
+      ],
+      "why_this_passage": "This compact prose definition comes in the middle of Madhusūdana's actual argument against rival accounts of error and ignorance, not as a later summary slogan. It fairly represents his mature Advaita by making visible the positive, anirvācya status of ajñāna that underwrites superimposition without collapsing mithyā into sheer non-being.",
+      "topic_tags": [
+        "ontology",
+        "epistemology",
+        "causation"
+      ],
+      "sub_axes": [
+        "locus-of-avidya",
+        "mithya-vs-asat",
+        "theory-of-error"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Divānji (ed.), Siddhāntabindu, Baroda: Oriental Institute, 1933; transcribed from the local GRETIL file madhusudana_siddhanta_bindu_gretil.txt.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "bhakti-rasayana-1-1__bhakti-yoga-parama-pumartha",
+      "work_id": "bhakti-rasayana",
+      "locus_short": "BR 1.1",
+      "locus_long": "Bhakti-Rasāyana, Prathama Ullāsa, kārikā 1",
+      "locus_structured": {
+        "chapter": 1,
+        "verse": 1
+      },
+      "sanskrit_iast": "nava-rasa-militaṃ vā kevalaṃ vā pumarthaṃ\nparamam iha mukunde bhakti-yogaṃ vadanti /\nnirupama-sukha-saṃvid-rūpam aspṛṣṭa-duḥkhaṃ\ntam aham akhila-tuṣṭyai śāstra-dṛṣṭyā vyanajmi //",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "nava-rasa-militaṃ",
+            "stem": "nava-rasa-milita",
+            "pratyaya": "-am",
+            "morphology": "acc sg masc",
+            "gloss": "mixed with the nine rasas"
+          },
+          {
+            "pada": "vā",
+            "stem": "vā",
+            "morphology": "indecl",
+            "gloss": "or"
+          },
+          {
+            "pada": "kevalaṃ",
+            "stem": "kevala",
+            "pratyaya": "-am",
+            "morphology": "acc sg masc",
+            "gloss": "pure, by itself"
+          },
+          {
+            "pada": "vā",
+            "stem": "vā",
+            "morphology": "indecl",
+            "gloss": "or"
+          },
+          {
+            "pada": "pumarthaṃ",
+            "stem": "pumartha",
+            "pratyaya": "-am",
+            "morphology": "acc sg masc",
+            "gloss": "human end"
+          },
+          {
+            "pada": "paramam",
+            "stem": "parama",
+            "pratyaya": "-am",
+            "morphology": "acc sg masc",
+            "gloss": "supreme"
+          },
+          {
+            "pada": "iha",
+            "stem": "iha",
+            "morphology": "indecl",
+            "gloss": "here"
+          },
+          {
+            "pada": "mukunde",
+            "stem": "mukunda",
+            "pratyaya": "-e",
+            "morphology": "loc sg masc",
+            "gloss": "in Mukunda"
+          },
+          {
+            "pada": "bhakti-yogaṃ",
+            "stem": "bhakti-yoga",
+            "pratyaya": "-am",
+            "morphology": "acc sg masc",
+            "gloss": "the discipline of devotion"
+          },
+          {
+            "pada": "vadanti",
+            "stem": "√vad",
+            "morphology": "3pl pres ind P",
+            "gloss": "they say"
+          },
+          {
+            "pada": "nirupama-sukha-saṃvid-rūpam",
+            "stem": "nirupama-sukha-saṃvid-rūpa",
+            "pratyaya": "-am",
+            "morphology": "acc sg masc",
+            "gloss": "having the form of incomparable bliss-consciousness"
+          },
+          {
+            "pada": "aspṛṣṭa-duḥkhaṃ",
+            "stem": "aspṛṣṭa-duḥkha",
+            "pratyaya": "-am",
+            "morphology": "acc sg masc",
+            "gloss": "untouched by sorrow"
+          },
+          {
+            "pada": "tam",
+            "stem": "tad",
+            "morphology": "acc sg masc",
+            "gloss": "that"
+          },
+          {
+            "pada": "aham",
+            "stem": "asmad",
+            "morphology": "nom sg",
+            "gloss": "I"
+          },
+          {
+            "pada": "akhila-tuṣṭyai",
+            "stem": "akhila-tuṣṭi",
+            "pratyaya": "-ai",
+            "morphology": "dat sg fem",
+            "gloss": "for the satisfaction of all"
+          },
+          {
+            "pada": "śāstra-dṛṣṭyā",
+            "stem": "śāstra-dṛṣṭi",
+            "pratyaya": "-yā",
+            "morphology": "instr sg fem",
+            "gloss": "by the vision of scripture"
+          },
+          {
+            "pada": "vyanajmi",
+            "stem": "vi-√añj",
+            "morphology": "1sg pres ind P",
+            "gloss": "I manifest"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "nava-rasa-milita",
+            "type": "tatpurusha",
+            "resolution": "navaiḥ rasaiḥ militaḥ"
+          },
+          {
+            "compound": "pumartha",
+            "type": "tatpurusha",
+            "resolution": "puṃsām arthaḥ"
+          },
+          {
+            "compound": "bhakti-yoga",
+            "type": "tatpurusha",
+            "resolution": "bhaktyā yukto yogaḥ"
+          },
+          {
+            "compound": "nirupama-sukha-saṃvid-rūpa",
+            "type": "tatpurusha",
+            "resolution": "nirupamā sukhasaṃvit yasya rūpam"
+          },
+          {
+            "compound": "aspṛṣṭa-duḥkha",
+            "type": "negative-tatpurusha",
+            "resolution": "aspṛṣṭaṃ duḥkhaṃ yena tat"
+          },
+          {
+            "compound": "akhila-tuṣṭi",
+            "type": "tatpurusha",
+            "resolution": "akhilasya tuṣṭiḥ"
+          },
+          {
+            "compound": "śāstra-dṛṣṭi",
+            "type": "tatpurusha",
+            "resolution": "śāstrasya dṛṣṭiḥ"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "karman",
+            "pada": "bhakti-yogaṃ",
+            "note": "direct object of vadanti, further qualified as the supreme human end"
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "mukunde",
+            "note": "locative specifying the devotional object"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "aham",
+            "note": "speaker of vyanajmi"
+          },
+          {
+            "role": "karman",
+            "pada": "tam",
+            "note": "object of vyanajmi, referring to bhakti-yoga"
+          },
+          {
+            "role": "sampradāna",
+            "pada": "akhila-tuṣṭyai",
+            "note": "for whose satisfaction the manifestation is made"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "śāstra-dṛṣṭyā",
+            "note": "instrumental of means or standpoint"
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "vadanti",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          },
+          {
+            "pada": "vyanajmi",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          }
+        ]
+      },
+      "english_close": "They call bhakti-yoga in Mukunda here the supreme human end, either mixed with the nine rasas or by itself, having the form of incomparable bliss-consciousness and untouched by sorrow. That I manifest, by the vision of scripture, for the satisfaction of all.",
+      "english_paraphrase": "The work opens by declaring devotion to Mukunda to be a highest end in its own right, and by promising to establish that claim scripturally.",
+      "preserved_terms": [
+        {
+          "term_iast": "bhakti-yoga",
+          "first_use_gloss": "the disciplined cultivation of devotion"
+        },
+        {
+          "term_iast": "rasa",
+          "first_use_gloss": "aesthetic savor, here folded into devotional experience"
+        },
+        {
+          "term_iast": "Mukunda",
+          "first_use_gloss": "Kṛṣṇa/Viṣṇu as the giver of liberation"
+        }
+      ],
+      "why_this_passage": "This is the programmatic opening verse of the Bhakti-Rasāyana, so it states the work's thesis rather than a detachable flourish. It is therefore the fairest possible starting point for Madhusūdana's claim that bhakti is a supreme end and not merely a preliminary discipline.",
+      "topic_tags": [
+        "ethics-devotion",
+        "soteriology"
+      ],
+      "sub_axes": [
+        "role-of-bhakti",
+        "rasa-as-saving-aesthesis",
+        "effective-means-of-moksa"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Janardan Shastri Pandeya (ed.), Śrī-Bhagavad-Bhakti-Rasāyaṇam, Vidyabhavan Prācya-Vidyā-Grantha-Mālā 91, Varanasi: Chowkhamba Vidyabhavan, 3rd ed. 1998; transcribed from the local archive PDF text layer.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "bhakti-rasayana-1-1-tika__bhakti-brahmavidya-vailakshanya",
+      "work_id": "bhakti-rasayana",
+      "locus_short": "BR 1.1 ṭīkā",
+      "locus_long": "Bhakti-Rasāyana, Prathama Ullāsa, commentary on kārikā 1, distinguishing bhakti from brahma-vidyā",
+      "locus_structured": {
+        "chapter": 1,
+        "verse": 1,
+        "section": "ṭīkā"
+      },
+      "sanskrit_iast": "dravī-bhāva-pūrvikā hi manaso bhagavad-ākāratā\nsavikalpaka-vṛtti-rūpā bhaktiḥ /\ndravī-bhāvānupetādvitīyātma-mātra-gocarā\nnirvikalpaka-mano-vṛttir brahma-vidyā /\nbhagavad-guṇa-garimā-granthana-rūpa-grantha-śravaṇaṃ\nbhakti-sādhanam /\ntat tvam asyādi vedānta-mahā-vākyaṃ\nbrahma-vidyā-sādhanam //",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "dravī-bhāva-pūrvikā",
+            "stem": "dravībhāvapūrvikā",
+            "morphology": "nom sg fem",
+            "gloss": "preceded by melting emotion"
+          },
+          {
+            "pada": "hi",
+            "stem": "hi",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "manaso",
+            "stem": "manas",
+            "pratyaya": "-as",
+            "morphology": "gen sg neut",
+            "gloss": "of the mind"
+          },
+          {
+            "pada": "bhagavad-ākāratā",
+            "stem": "bhagavadākāratā",
+            "morphology": "nom sg fem",
+            "gloss": "the state of taking the form of Bhagavat"
+          },
+          {
+            "pada": "savikalpaka-vṛtti-rūpā",
+            "stem": "savikalpakavṛttirūpa",
+            "morphology": "nom sg fem",
+            "gloss": "having the form of a determinate mental modification"
+          },
+          {
+            "pada": "bhaktiḥ",
+            "stem": "bhakti",
+            "morphology": "nom sg fem",
+            "gloss": "devotion"
+          },
+          {
+            "pada": "dravī-bhāvānupetādvitīyātma-mātra-gocarā",
+            "stem": "dravībhāvānupetādvitīyātmamātragocarā",
+            "morphology": "nom sg fem",
+            "gloss": "having as object only the non-dual self, unaccompanied by melting emotion"
+          },
+          {
+            "pada": "nirvikalpaka-mano-vṛttiḥ",
+            "stem": "nirvikalpakamanovṛtti",
+            "morphology": "nom sg fem",
+            "gloss": "an indeterminate mental modification"
+          },
+          {
+            "pada": "brahma-vidyā",
+            "stem": "brahmavidyā",
+            "morphology": "nom sg fem",
+            "gloss": "knowledge of Brahman"
+          },
+          {
+            "pada": "bhagavad-guṇa-garimā-granthana-rūpa-grantha-śravaṇaṃ",
+            "stem": "bhagavadguṇagarimāgranthanarūpagranthaśravaṇa",
+            "morphology": "nom sg neut",
+            "gloss": "hearing a text whose form is the setting forth of the majesty of Bhagavat's qualities"
+          },
+          {
+            "pada": "bhakti-sādhanam",
+            "stem": "bhaktisādhana",
+            "morphology": "nom sg neut",
+            "gloss": "the means of bhakti"
+          },
+          {
+            "pada": "tat",
+            "stem": "tad",
+            "morphology": "nom sg neut",
+            "gloss": "that"
+          },
+          {
+            "pada": "tvam",
+            "stem": "tvad",
+            "morphology": "nom sg",
+            "gloss": "thou"
+          },
+          {
+            "pada": "asyādi",
+            "stem": "asyādi",
+            "morphology": "indecl compound",
+            "gloss": "beginning with 'asi'"
+          },
+          {
+            "pada": "vedānta-mahā-vākyaṃ",
+            "stem": "vedāntamahāvākya",
+            "morphology": "nom sg neut",
+            "gloss": "the great Vedāntic sentence"
+          },
+          {
+            "pada": "brahma-vidyā-sādhanam",
+            "stem": "brahmavidyāsādhana",
+            "morphology": "nom sg neut",
+            "gloss": "the means of brahma-vidyā"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "dravī-bhāva-pūrvikā",
+            "type": "tatpurusha",
+            "resolution": "dravībhāvaḥ pūrvaṃ yasyāḥ sā"
+          },
+          {
+            "compound": "bhagavad-ākāratā",
+            "type": "tatpurusha",
+            "resolution": "bhagavata ākāratā"
+          },
+          {
+            "compound": "savikalpaka-vṛtti-rūpā",
+            "type": "tatpurusha",
+            "resolution": "savikalpakā vṛttiḥ rūpaṃ yasyāḥ sā"
+          },
+          {
+            "compound": "dravī-bhāvānupetādvitīyātma-mātra-gocarā",
+            "type": "other",
+            "resolution": "dravībhāvena anupetā, advitīya ātmā eva mātraṃ gocaro yasyāḥ sā",
+            "note": "stacked compound combining privative qualification with object-specification"
+          },
+          {
+            "compound": "nirvikalpaka-mano-vṛtti",
+            "type": "tatpurusha",
+            "resolution": "nirvikalpikā mano-vṛttiḥ"
+          },
+          {
+            "compound": "brahma-vidyā",
+            "type": "tatpurusha",
+            "resolution": "brahmaṇaḥ vidyā"
+          },
+          {
+            "compound": "bhagavad-guṇa-garimā-granthana-rūpa-grantha-śravaṇa",
+            "type": "other",
+            "resolution": "bhagavato guṇānāṃ garimṇo granthanaṃ rūpaṃ yasya granthasya tat śravaṇam",
+            "note": "long serial tatpuruṣa chain"
+          },
+          {
+            "compound": "bhakti-sādhanam",
+            "type": "tatpurusha",
+            "resolution": "bhakteḥ sādhanam"
+          },
+          {
+            "compound": "vedānta-mahā-vākya",
+            "type": "karmadharaya",
+            "resolution": "vedāntikaṃ mahāvākyam"
+          },
+          {
+            "compound": "brahma-vidyā-sādhanam",
+            "type": "tatpurusha",
+            "resolution": "brahma-vidyāyāḥ sādhanam"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "sambandha",
+            "pada": "manaso",
+            "note": "genitive dependent on bhagavad-ākāratā"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "bhaktiḥ",
+            "note": "subject of the implied copula in the first nominal sentence"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "brahma-vidyā",
+            "note": "subject of the implied copula in the second nominal sentence"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "bhagavad-guṇa-garimā-granthana-rūpa-grantha-śravaṇaṃ",
+            "note": "subject of the implied copula in 'bhakti-sādhanam'"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "vedānta-mahā-vākyaṃ",
+            "note": "subject of the implied copula in 'brahma-vidyā-sādhanam'"
+          }
+        ],
+        "verb_modality": []
+      },
+      "english_close": "Bhakti is the mind's taking on the form of Bhagavat, preceded by melting emotion, and having the form of a determinate mental modification. Brahma-vidyā is an indeterminate mental modification, unaccompanied by melting emotion, whose object is only the non-dual self. Hearing a text whose form is the setting forth of the majesty of Bhagavat's qualities is the means of bhakti. The great Vedāntic sentence beginning with 'tat tvam asi' is the means of brahma-vidyā.",
+      "english_paraphrase": "Madhusūdana sharply distinguishes devotional cognition from liberating Brahman-knowledge: they differ in affective tone, intentional object, and textual trigger, even though both matter within his Advaita framework.",
+      "preserved_terms": [
+        {
+          "term_iast": "dravī-bhāva",
+          "first_use_gloss": "the melting or liquefaction of the inner instrument in devotion"
+        },
+        {
+          "term_iast": "savikalpaka-vṛtti",
+          "first_use_gloss": "a determinate cognition with articulated content"
+        },
+        {
+          "term_iast": "brahma-vidyā",
+          "first_use_gloss": "the liberating knowledge whose object is Brahman alone"
+        }
+      ],
+      "why_this_passage": "This prose is one of the clearest places where Madhusūdana explicitly differentiates bhakti from brahma-vidyā in terms of phenomenology, object, and scriptural means. It is therefore representative rather than selective: the passage shows how his Advaita integration of devotion works structurally, not just rhetorically.",
+      "topic_tags": [
+        "ethics-devotion",
+        "epistemology",
+        "soteriology"
+      ],
+      "sub_axes": [
+        "role-of-bhakti",
+        "saving-cognition-status",
+        "effective-means-of-moksa",
+        "rasa-as-saving-aesthesis"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Janardan Shastri Pandeya (ed.), Śrī-Bhagavad-Bhakti-Rasāyaṇam, Vidyabhavan Prācya-Vidyā-Grantha-Mālā 91, Varanasi: Chowkhamba Vidyabhavan, 3rd ed. 1998; transcribed from the local archive PDF text layer.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    }
+  ],
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1b-opus"
+  "last_verified_by": "wave2-codex"
 }

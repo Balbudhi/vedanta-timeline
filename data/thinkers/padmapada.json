@@ -32,14 +32,665 @@
       "genre": "tika",
       "language": "sanskrit",
       "summary": "*Ṭīkā* on Śaṅkara's Brahma-Sūtra-Bhāṣya. The text-historical situation is critical: only the portion covering the first five *pādas* of the BSB survives — that is, the *adhyāsa-bhāṣya* and the *catuḥsūtrī* (BSB 1.1.1–4) plus a small additional stretch (the work's title literally means 'commentary on five *pādas*'). The traditional account holds that Padmapāda completed the *ṭīkā* on the entire BSB but the manuscript was destroyed; what survives is what was reconstructed from oral memory by Śaṅkara himself. Whatever the historical truth of that narrative, the surviving portion is doctrinally weight-bearing because it covers exactly the BSB's metaphysically densest passages — the *adhyāsa-bhāṣya* and *tat tu samanvayāt*. Padmapāda's elaboration of *avidyā* as *bhāva-rūpa*, his *pratibimba-vāda*, and his analysis of *adhyāsa* are taken up wholesale by Prakāśātman in the *Pañcapādikā-Vivaraṇa*, which becomes the founding text of the *Vivaraṇa* sub-school. Securely authored for the surviving portion.",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "v-15-vi-16__mithyajnana-is-avidya-shakti",
+        "xix-62-63__adhyasa-definition-smrtirupa-paratra",
+        "xxix-108__tat-tvam-asi-pratibimba-reading"
+      ],
       "entry_status": "reviewed"
     }
   ],
-  "key_passages": [],
+  "key_passages": [
+    {
+      "passage_id": "v-15-vi-16__mithyajnana-is-avidya-shakti",
+      "work_id": "pancapadika",
+      "locus_short": "PañcP V.15–VI.16",
+      "locus_long": "Pañcapādikā, V.15–VI.16, on mithyājñāna, avidyā-śakti, and the beginningless status of superimposition",
+      "locus_structured": {
+        "chapter": "V–VI",
+        "section": "15–16",
+        "other": {
+          "varnaka": "V–VI"
+        }
+      },
+      "sanskrit_iast": "mithyā ca tad ajñānaṃ ca mithyājñānam |\nmithyeti anirvacanīyatocyate |\najñānam iti ca jaḍātmikāvidyāśaktiḥ\njñānaparyudāsenocyate |\ntannimittaḥ tadupādāna ity arthaḥ |\nkathaṃ punar naimittikavyavahārasya naisargikatvam |\natrocyate |\navaśyam eṣā avidyāśaktir bāhyādhyātmikeṣu vastuṣu\ntatsvarūpasattāmātrānubandhinī abhyupagantavyā\nanyathā mithyārthāvabhāsānupapatteḥ |",
+      "text_critical_note": "The dispatched local corpus is an English translation; this Sanskrit sentence is transcribed from a secondary scholarly citation of the Pañcapādikā locus and normalized only for obvious sandhi spacing.",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "mithyā",
+            "stem": "mithyā",
+            "morphology": "indecl",
+            "gloss": "indefinably / falsely"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "tad",
+            "stem": "tad",
+            "morphology": "acc sg neut",
+            "gloss": "that"
+          },
+          {
+            "pada": "ajñānam",
+            "stem": "ajñāna",
+            "morphology": "acc sg neut",
+            "gloss": "ignorance"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "mithyājñānam",
+            "stem": "mithyājñāna",
+            "morphology": "nom sg neut",
+            "gloss": "mithyā-ignorance / indefinable ignorance"
+          },
+          {
+            "pada": "mithyeti",
+            "stem": "mithyā + iti",
+            "morphology": "indecl",
+            "gloss": "\"mithyā\" thus"
+          },
+          {
+            "pada": "anirvacanīyatocyate",
+            "stem": "anirvacanīyatā + √vac",
+            "pratyaya": "-tā; -ya-te",
+            "morphology": "3sg pres ind Ā passive",
+            "gloss": "indefinability is stated"
+          },
+          {
+            "pada": "ajñānam",
+            "stem": "ajñāna",
+            "morphology": "nom sg neut",
+            "gloss": "\"ignorance\""
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "jaḍātmikāvidyāśaktiḥ",
+            "stem": "jaḍātmikāvidyāśakti",
+            "morphology": "nom sg fem",
+            "gloss": "the ignorance-power whose nature is insentient"
+          },
+          {
+            "pada": "jñānaparyudāsenocyate",
+            "stem": "jñāna-paryudāsa + √vac",
+            "pratyaya": "-ena; -ya-te",
+            "morphology": "3sg pres ind Ā passive",
+            "gloss": "is stated by exclusion of knowledge"
+          },
+          {
+            "pada": "tannimittaḥ",
+            "stem": "tad-nimitta",
+            "morphology": "nom sg masc",
+            "gloss": "having that as its cause"
+          },
+          {
+            "pada": "tadupādāna",
+            "stem": "tad-upādāna",
+            "morphology": "nom sg masc",
+            "gloss": "having that as its material cause"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "arthaḥ",
+            "stem": "artha",
+            "morphology": "nom sg masc",
+            "gloss": "the meaning"
+          },
+          {
+            "pada": "kathaṃ",
+            "stem": "katham",
+            "morphology": "indecl",
+            "gloss": "how"
+          },
+          {
+            "pada": "punar",
+            "stem": "punar",
+            "morphology": "indecl",
+            "gloss": "again"
+          },
+          {
+            "pada": "naimittikavyavahārasya",
+            "stem": "naimittikavyavahāra",
+            "morphology": "gen sg masc",
+            "gloss": "of a causally occasioned transaction"
+          },
+          {
+            "pada": "naisargikatvam",
+            "stem": "naisargikatva",
+            "morphology": "nom sg neut",
+            "gloss": "beginninglessness / naturalness"
+          },
+          {
+            "pada": "atrocyate",
+            "stem": "atra + √vac",
+            "pratyaya": "-ya-te",
+            "morphology": "3sg pres ind Ā passive",
+            "gloss": "here it is said"
+          },
+          {
+            "pada": "avaśyam",
+            "stem": "avaśyam",
+            "morphology": "indecl",
+            "gloss": "necessarily"
+          },
+          {
+            "pada": "eṣā",
+            "stem": "etad",
+            "morphology": "nom sg fem",
+            "gloss": "this"
+          },
+          {
+            "pada": "avidyāśaktiḥ",
+            "stem": "avidyāśakti",
+            "morphology": "nom sg fem",
+            "gloss": "the power of ignorance"
+          },
+          {
+            "pada": "bāhyādhyātmikeṣu",
+            "stem": "bāhyādhyātmika",
+            "morphology": "loc pl neut",
+            "gloss": "in external-and-internal"
+          },
+          {
+            "pada": "vastuṣu",
+            "stem": "vastu",
+            "morphology": "loc pl neut",
+            "gloss": "things"
+          },
+          {
+            "pada": "tatsvarūpasattāmātrānubandhinī",
+            "stem": "tatsvarūpasattāmātrānubandhinī",
+            "morphology": "nom sg fem",
+            "gloss": "connected only with their very own existence-nature"
+          },
+          {
+            "pada": "abhyupagantavyā",
+            "stem": "abhi-upa-√gam",
+            "pratyaya": "-tavya",
+            "morphology": "gerundive nom sg fem",
+            "gloss": "to be admitted"
+          },
+          {
+            "pada": "anyathā",
+            "stem": "anyathā",
+            "morphology": "indecl",
+            "gloss": "otherwise"
+          },
+          {
+            "pada": "mithyārthāvabhāsānupapatteḥ",
+            "stem": "mithyārthāvabhāsānupapatti",
+            "morphology": "abl sg fem",
+            "gloss": "because of the impossibility of the appearance of false objects"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "mithyājñānam",
+            "type": "other",
+            "resolution": "mithyā ca tad ajñānaṃ ca iti mithyājñānam",
+            "note": "Padmapāda himself explicitly decomposes the expression this way."
+          },
+          {
+            "compound": "jaḍātmikāvidyāśaktiḥ",
+            "type": "tatpurusha",
+            "resolution": "jaḍātmikāyā avidyāyāḥ śaktiḥ",
+            "note": "The internal qualifier jaḍātmikā functions karmadhāraya-like within the larger tatpuruṣa."
+          },
+          {
+            "compound": "jñānaparyudāsa",
+            "type": "tatpurusha",
+            "resolution": "jñānasya paryudāsaḥ",
+            "note": "Exclusion or negation with respect to knowledge."
+          },
+          {
+            "compound": "tannimittaḥ",
+            "type": "tatpurusha",
+            "resolution": "tat nimittaṃ yasya saḥ",
+            "note": "Bahuvrīhi-like semantics are compressed into a determinative expression."
+          },
+          {
+            "compound": "tadupādāna",
+            "type": "tatpurusha",
+            "resolution": "tat upādānaṃ yasya saḥ",
+            "note": "Again, the sense is 'having that as material cause'."
+          },
+          {
+            "compound": "naimittikavyavahāra",
+            "type": "tatpurusha",
+            "resolution": "nimittena pravṛtto vyavahāraḥ",
+            "note": "A practice or transaction dependent on an occasioning cause."
+          },
+          {
+            "compound": "avidyāśaktiḥ",
+            "type": "tatpurusha",
+            "resolution": "avidyāyāḥ śaktiḥ"
+          },
+          {
+            "compound": "bāhyādhyātmikeṣu",
+            "type": "dvandva",
+            "resolution": "bāhyeṣu cādhyātmikeṣu ca"
+          },
+          {
+            "compound": "tatsvarūpasattāmātrānubandhinī",
+            "type": "tatpurusha",
+            "resolution": "teṣāṃ svarūpabhūtāyāḥ sattāyā mātre anubandhinī",
+            "note": "The power adheres only to sheer existence, not to a fully articulated real essence."
+          },
+          {
+            "compound": "mithyārthāvabhāsānupapattiḥ",
+            "type": "tatpurusha",
+            "resolution": "mithyasyārthasya avabhāsasya anupapattiḥ"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "kartṛ",
+            "pada": "anirvacanīyatā",
+            "note": "Nominative subject of the passive ucyate in the gloss on mithyā."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "jaḍātmikā avidyāśaktiḥ",
+            "note": "Nominative subject of the passive ucyate in the gloss on ajñāna."
+          },
+          {
+            "role": "karman",
+            "pada": "eṣā avidyāśaktiḥ",
+            "note": "Entity to be admitted in abhyupagantavyā."
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "bāhyādhyātmikeṣu vastuṣu",
+            "note": "Domain in which the avidyā-śakti must be admitted."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "ucyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive",
+            "note": "Occurs in anirvacanīyatocyate."
+          },
+          {
+            "pada": "ucyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive",
+            "note": "Occurs in jñānaparyudāsenocyate."
+          },
+          {
+            "pada": "ucyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive",
+            "note": "Occurs in atrocyate."
+          }
+        ]
+      },
+      "english_close": "\"Mithyājñāna\" is that which is both mithyā and ajñāna. By \"mithyā,\" indefinability is stated. And by \"ajñāna,\" the power of avidyā, whose nature is insentient, is stated by exclusion of knowledge. \"Having that as its cause\" means: having that as its material cause. How again can a transactional practice that has an occasioning cause be beginningless by nature? Here it is said: this very power of avidyā must necessarily be admitted, with respect to external and internal things, as connected only with the mere existence that is their own nature; otherwise the manifestation of false objects would be impossible.",
+      "preserved_terms": [
+        {
+          "term_iast": "mithyājñāna",
+          "first_use_gloss": "indefinable ignorance; not mere false judgment but ignorance construed as the stuff of superimposition"
+        },
+        {
+          "term_iast": "avidyā-śakti",
+          "first_use_gloss": "the power of ignorance, treated here as a positive explanatory factor"
+        }
+      ],
+      "why_this_passage": "This is not a famous isolated slogan; it is the place where Padmapāda explicitly glosses mithyājñāna as an avidyā-śakti and immediately argues that empirical superimposition is therefore beginningless yet causally grounded. That is the decisive doctrinal move from Śaṅkara's adhyāsa-language toward the later Vivaraṇa-style positive ontology of avidyā, and the choice is constrained by the dispatched local corpus being an English translation only.",
+      "topic_tags": [
+        "causation",
+        "ontology"
+      ],
+      "sub_axes": [
+        "locus-of-avidya",
+        "where-causal-power-locates",
+        "mithya-vs-asat"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Padmapāda, Pañcapādikā V.15–VI.16; locus selected against D. Venkataramiah, trans., The Pancapadika of Padmapada (Baroda: Oriental Institute, 1948), pp. 11–12; Sanskrit wording recovered from a scholarly citation of the Pañcapādikā because the dispatched local corpus is an English translation.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "xix-62-63__adhyasa-definition-smrtirupa-paratra",
+      "work_id": "pancapadika",
+      "locus_short": "PañcP XIX.62–63",
+      "locus_long": "Pañcapādikā, XIX.62–63, refining the definition of adhyāsa",
+      "locus_structured": {
+        "chapter": "XIX",
+        "section": "62–63",
+        "other": {
+          "varnaka": "XIX"
+        }
+      },
+      "sanskrit_iast": "paratra pūrvadṛṣṭāvabhāsaḥ |\nparatra smṛtirūpāvabhāsaḥ |\nsmṛtirūpaḥ paratra pūrvadṛṣṭāvabhāsaḥ |",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "paratra",
+            "stem": "paratra",
+            "morphology": "indecl",
+            "gloss": "elsewhere / in another locus"
+          },
+          {
+            "pada": "pūrvadṛṣṭāvabhāsaḥ",
+            "stem": "pūrvadṛṣṭāvabhāsa",
+            "morphology": "nom sg masc",
+            "gloss": "the appearing of what was seen before"
+          },
+          {
+            "pada": "paratra",
+            "stem": "paratra",
+            "morphology": "indecl",
+            "gloss": "elsewhere"
+          },
+          {
+            "pada": "smṛtirūpāvabhāsaḥ",
+            "stem": "smṛtirūpāvabhāsa",
+            "morphology": "nom sg masc",
+            "gloss": "appearance having the form of memory"
+          },
+          {
+            "pada": "smṛtirūpaḥ",
+            "stem": "smṛtirūpa",
+            "morphology": "nom sg masc",
+            "gloss": "having the form of memory"
+          },
+          {
+            "pada": "paratra",
+            "stem": "paratra",
+            "morphology": "indecl",
+            "gloss": "elsewhere"
+          },
+          {
+            "pada": "pūrvadṛṣṭāvabhāsaḥ",
+            "stem": "pūrvadṛṣṭāvabhāsa",
+            "morphology": "nom sg masc",
+            "gloss": "the appearing of what was seen before"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "pūrvadṛṣṭāvabhāsaḥ",
+            "type": "tatpurusha",
+            "resolution": "pūrvaṃ dṛṣṭasya avabhāsaḥ"
+          },
+          {
+            "compound": "smṛtirūpāvabhāsaḥ",
+            "type": "tatpurusha",
+            "resolution": "smṛter rūpam iva avabhāsaḥ",
+            "note": "The appearance is memory-like, not straightforward recollection."
+          },
+          {
+            "compound": "smṛtirūpaḥ",
+            "type": "karmadharaya",
+            "resolution": "smṛtisadṛśaṃ rūpaṃ yasya saḥ"
+          }
+        ],
+        "karaka_structure": [],
+        "verb_modality": []
+      },
+      "english_close": "The appearance elsewhere of what was seen before; the appearance elsewhere of what has the form of memory; [thus, adhyāsa is] the appearance elsewhere, in the form of memory, of what was previously seen.",
+      "preserved_terms": [
+        {
+          "term_iast": "adhyāsa",
+          "first_use_gloss": "superimposition; the erroneous placing of one thing's content in another"
+        },
+        {
+          "term_iast": "smṛtirūpa",
+          "first_use_gloss": "memory-formed; presenting itself in the mode of recollection without being literal recollection"
+        }
+      ],
+      "why_this_passage": "This definition is the load-bearing epistemic core of Padmapāda's long adhyāsa analysis. It fairly represents his position because the surrounding discussion tests and refines each limb of the formula rather than merely repeating Śaṅkara's opening phrase, and the local translation volume preserves the Sanskrit definition itself in transliteration.",
+      "topic_tags": [
+        "epistemology"
+      ],
+      "sub_axes": [
+        "theory-of-error"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Padmapāda, Pañcapādikā XIX.62–63, definition as transliterated in D. Venkataramiah, trans., The Pancapadika of Padmapada (Baroda: Oriental Institute, 1948), pp. 43–44.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "xxix-108__tat-tvam-asi-pratibimba-reading",
+      "work_id": "pancapadika",
+      "locus_short": "PañcP XXIX.108",
+      "locus_long": "Pañcapādikā, XXIX.108, reading tat tvam asi through the bimba-pratibimba relation",
+      "locus_structured": {
+        "chapter": "XXIX",
+        "section": "108",
+        "other": {
+          "varnaka": "XXIX"
+        }
+      },
+      "sanskrit_iast": "tat tvam asi |\nna tat tvam asīti syāt |\nkintu na tvam asīti bhavet\nna rajatam astītivat |",
+      "text_critical_note": "The dispatched local corpus gives this argument only in English translation; the Sanskrit clause is restored from a secondary citation of PP 22.21–23, with minimal OCR normalization (bhavet for scan-snippet bhaven).",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "tat",
+            "stem": "tad",
+            "morphology": "nom sg neut",
+            "gloss": "that"
+          },
+          {
+            "pada": "tvam",
+            "stem": "tvad",
+            "morphology": "nom sg 2nd pers",
+            "gloss": "thou"
+          },
+          {
+            "pada": "asi",
+            "stem": "√as",
+            "morphology": "2sg pres ind P",
+            "gloss": "art"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "tat",
+            "stem": "tad",
+            "morphology": "nom sg neut",
+            "gloss": "that"
+          },
+          {
+            "pada": "tvam",
+            "stem": "tvad",
+            "morphology": "nom sg 2nd pers",
+            "gloss": "thou"
+          },
+          {
+            "pada": "asi",
+            "stem": "√as",
+            "morphology": "2sg pres ind P",
+            "gloss": "art"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "syāt",
+            "stem": "√as",
+            "morphology": "3sg opt P",
+            "gloss": "would be"
+          },
+          {
+            "pada": "kintu",
+            "stem": "kintu",
+            "morphology": "indecl",
+            "gloss": "rather"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "tvam",
+            "stem": "tvad",
+            "morphology": "nom sg 2nd pers",
+            "gloss": "thou"
+          },
+          {
+            "pada": "asi",
+            "stem": "√as",
+            "morphology": "2sg pres ind P",
+            "gloss": "art"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "bhavet",
+            "stem": "√bhū",
+            "morphology": "3sg opt P",
+            "gloss": "would become / would amount to"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "rajatam",
+            "stem": "rajata",
+            "morphology": "nom sg neut",
+            "gloss": "silver"
+          },
+          {
+            "pada": "asti",
+            "stem": "√as",
+            "morphology": "3sg pres ind P",
+            "gloss": "is"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "vat",
+            "stem": "vat",
+            "morphology": "indecl",
+            "gloss": "like"
+          }
+        ],
+        "samasa_vigrahas": [],
+        "karaka_structure": [
+          {
+            "role": "kartṛ",
+            "pada": "tvam",
+            "note": "Subject of asi in the mahāvākya."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "tvam",
+            "note": "Subject in the counterfactual negated reading na tvam asi."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "asi",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          },
+          {
+            "pada": "syāt",
+            "lakara": "vidhi-liṅ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          },
+          {
+            "pada": "bhavet",
+            "lakara": "vidhi-liṅ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          },
+          {
+            "pada": "asti",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          }
+        ]
+      },
+      "english_close": "\"Tat tvam asi\": otherwise it would not be 'That thou art'; rather, it would amount to 'Thou art not,' like 'There is no silver.'",
+      "preserved_terms": [
+        {
+          "term_iast": "pratibimba",
+          "first_use_gloss": "reflection; the image-side of the jīva in Padmapāda's model"
+        },
+        {
+          "term_iast": "bimba",
+          "first_use_gloss": "prototype; the original of which the jīva is the reflection"
+        }
+      ],
+      "why_this_passage": "This is the point where the reflection model is made to do semantic work on the mahāvākya itself, not merely illustrative work. It therefore fairly represents Padmapāda's account of the jīva-Brahman relation and of liberating recognition through tat tvam asi; the choice is again constrained by the dispatched local corpus being an English translation.",
+      "topic_tags": [
+        "ontology",
+        "soteriology"
+      ],
+      "sub_axes": [
+        "jiva-brahman-relation",
+        "status-of-individual-selves",
+        "saving-cognition-status"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Padmapāda, Pañcapādikā XXIX.108; locus selected against D. Venkataramiah, trans., The Pancapadika of Padmapada (Baroda: Oriental Institute, 1948), p. 74; Sanskrit clause verified from a secondary citation of PP 22.21–23 because the dispatched local corpus is an English translation.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    }
+  ],
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1a-opus"
+  "last_verified_by": "wave2-codex"
 }

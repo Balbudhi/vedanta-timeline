@@ -43,10 +43,7 @@
       "genre": "sutra-bhashya",
       "language": "sanskrit",
       "summary": "The school-defining *bhāṣya* on Bādarāyaṇa's Brahma-Sūtra, organized by the four *adhyāyas* and their *pādas*. The work opens with the *adhyāsa-bhāṣya* — Śaṅkara's prefatory analysis of *adhyāsa* (superimposition) as the universal pre-philosophical condition that makes ordinary cognition and Vedic injunction possible. Major doctrinal loci: 1.1.4 (*tat tu samanvayāt*) — the argument that *brahman* is the *tātparya* (purport) of all Upaniṣadic statements, against Mīmāṃsaka *karma-pradhānya*; 2.1 — refutation of Sāṅkhya *pradhāna* and the *pariṇāma-vāda* alternative, defense of *vivarta*; 2.2 — refutation of Vaiśeṣika atomism, Buddhist schools (Vijñānavāda, Sautrāntika, Vaibhāṣika, Mādhyamika), Jaina *anekānta*, Pāśupata, Pāñcarātra; 3.2 — the analysis of *avasthā* (states) and the *jīva*'s identity with *brahman*; 4 — *kramamukti*, *jīvanmukti*, the trajectory of the knower. Securely authored; the cornerstone of every later Advaita sub-school.",
-      "key_passage_ids": [
-        "mandukya-7__turiya-negation-and-advaita",
-        "gk-2-32__paramarthika-non-origination"
-      ],
+      "key_passage_ids": [],
       "entry_status": "reviewed"
     },
     {
@@ -65,10 +62,7 @@
       "genre": "gita-bhashya",
       "language": "sanskrit",
       "summary": "Śaṅkara's prose *bhāṣya* on the *Bhagavad-Gītā* — the principal Vedānta Gītā-commentary and the textual anchor that establishes the *Gītā* as a *prasthāna* on equal footing with *Upaniṣad* and *Brahma-Sūtra*. The work opens with a celebrated *upodghāta* arguing that the *Gītā*'s purport (*tātparya*) is *jñāna*-mediated *mokṣa* and that *karma* and *jñāna* belong to mutually exclusive *adhikāra*-orders — *karma* being preparatory, never co-instrumental in the rise of liberating cognition. Major doctrinal loci include the analysis of *sāṃkhya*/*yoga* in chapter 2, the resolution of the apparent *karma*-injunction at 3.8 (*niyataṃ kuru karma*) as addressed to the still-unprepared seeker, the reading of *kṣetra-kṣetrajña* (chapter 13) as the *adhyāsa*-structure of cognition, and the chapter-15 analysis of the *puruṣottama* as identical to *nirguṇa Brahman* under devotional aspect. The *bhāṣya* fixes the *jñāna-niṣṭhā* / *karma-niṣṭhā* polarity that every later Vedāntin — Bhāskara, Rāmānuja, Madhva — must contest or accept.",
-      "key_passage_ids": [
-        "ups-i-11-15__moksa-jnana-hetutva",
-        "ups-i-17-7-9__avidya-veda-and-ekatva"
-      ],
+      "key_passage_ids": [],
       "entry_status": "reviewed"
     },
     {
@@ -182,7 +176,10 @@
       "genre": "upanisad-bhashya",
       "language": "sanskrit",
       "summary": "Unified commentary on the twelve mantras of the Māṇḍūkya-Upaniṣad together with the four *prakaraṇas* of Gauḍapāda's *Māṇḍūkya-Kārikā* (*Āgama*, *Vaitathya*, *Advaita*, *Alātaśānti*). Śaṅkara treats the Upaniṣad's analysis of the four *pādas* of *oṃ* — corresponding to *jāgrat*, *svapna*, *suṣupti*, and *turīya* — as the canonical structural map of consciousness, with *turīya* as the non-relational *ātman* whose recognition is *mokṣa*. On the Kārikā he gives his most extended exposition of *ajāti-vāda* (the doctrine that nothing has ever truly come into being), of the *vaitathya* (unreality) of waking and dream as parallel *vyāvahārika* orders, and of the *alāta-cakra* (firebrand-circle) analogy by which apparent multiplicity is shown to be the trace of an unmoving consciousness. The text is the principal Advaita document on the four states and on the limit-doctrine of *ajāti*; modern scholarship (Hacker, King) has questioned the unity of the four *prakaraṇas* but Śaṅkara reads them as a single integrated treatise. Doctrinally pivotal for the analysis of *mithyā* as neither *sat* nor *asat* but as cognitively sublatable.",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "mandukya-7__turiya-negation-and-advaita",
+        "gk-2-32__paramarthika-non-origination"
+      ],
       "entry_status": "reviewed"
     },
     {
@@ -239,7 +236,10 @@
       "genre": "prakarana",
       "language": "sanskrit",
       "summary": "Śaṅkara's only securely authored independent (non-commentarial) *prakaraṇa*, in two parts: a *gadya* (prose) section in three chapters, often treated as the doctrinal core, and a *padya* (metrical) section in nineteen chapters that develops particular topics in verse. The work is pedagogically structured: it presents the teacher–pupil dialogue as the *sāmpradāyika* (lineage-transmitted) means of liberating instruction. Central topics: the analysis of *aham*-cognition, the *dṛk*–*dṛśya* discrimination (consciousness as *sākṣin* vs. its objects), the *adhyāsa* of *anātman* on *ātman*, the dismantling of the *kartṛtva*–*bhoktṛtva* attribution to the *ātman*, and the role of *mahāvākya*-instruction. Mayeda's 1973 critical edition (Tokyo) is the standard text; Mayeda's translation and analytic apparatus are the basis of modern academic engagement with what Śaṅkara himself counts as direct doctrinal exposition (rather than *bhāṣya*-occasioned commentary).",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "ups-i-11-15__moksa-jnana-hetutva",
+        "ups-i-17-7-9__avidya-veda-and-ekatva"
+      ],
       "entry_status": "reviewed"
     },
     {

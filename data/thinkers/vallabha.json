@@ -39,7 +39,12 @@
       "genre": "sutra-bhashya",
       "language": "sanskrit",
       "summary": "The *Aṇu-Bhāṣya* is Vallabha's Brahma-Sūtra commentary and the school-defining bhāṣya of *śuddhādvaita*. \"Aṇu\" (\"small\") refers both to its terse glossing style and to its self-presentation alongside the lost or projected *Bṛhad-Bhāṣya*. Vallabha completed roughly the first two and a half *adhyāyas* before his death; the remainder was supplied by his son Viṭṭhalanātha. Doctrinally the bhāṣya construes the *sūtras* throughout as licensing *avikṛta-pariṇāma-vāda*: Brahman is the substantial cause of the world by genuine but unmodifying transformation, the *jīva* is *aṃśa* with *ānanda* concealed, *jagat* is *aṃśa* with *cit* and *ānanda* concealed, and *māyā-vāda* is rejected. Polemically the work targets both Śaṅkara — for treating the world as *mithyā* and Brahman as inactive — and Rāmānuja — for the *śarīra-śarīrin* qualification that Vallabha takes as superfluous once *avikṛta-pariṇāma* is admitted. It is the canonical Puṣṭimārga doctrinal reference.",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "bsb-1-1-4__samanvaya-samavayi-cause",
+        "bsb-1-1-12-19__brahmajnana-bhakti-purusottama-prapti",
+        "bsb-1-4-26__atmakrteh-avikrta-parinama",
+        "bsb-2-3-43-45__jiva-as-amsha"
+      ],
       "entry_status": "reviewed"
     },
     {
@@ -91,10 +96,941 @@
       "entry_status": "reviewed"
     }
   ],
-  "key_passages": [],
+  "key_passages": [
+    {
+      "passage_id": "bsb-1-1-4__samanvaya-samavayi-cause",
+      "work_id": "anu-bhasya",
+      "locus_short": "BSB 1.1.4",
+      "locus_long": "Aṇu-Bhāṣya on Brahma-Sūtra 1.1.4, \"tattu samanvayāt\"",
+      "locus_structured": {
+        "chapter": 1,
+        "section": 1,
+        "verse": 4
+      },
+      "sanskrit_iast": "tat brahmaiva samavāyi kāraṇam.\nkutaḥ? samanvayāt samyag-anugatatvāt.\nasti bhāti priyatvena sac-cid-ānanda-rūpeṇānvayāt.\nnāma-rūpayoḥ kārya-dharmatvāt.",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "tat",
+            "stem": "tad",
+            "morphology": "nom sg neut pron",
+            "gloss": "that"
+          },
+          {
+            "pada": "brahma",
+            "stem": "brahman",
+            "morphology": "nom sg neut",
+            "gloss": "Brahman"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "indeed; itself"
+          },
+          {
+            "pada": "samavāyi",
+            "stem": "samavāyin",
+            "morphology": "nom sg neut adj",
+            "gloss": "inhering; materially constitutive"
+          },
+          {
+            "pada": "kāraṇam",
+            "stem": "kāraṇa",
+            "morphology": "nom sg neut",
+            "gloss": "cause"
+          },
+          {
+            "pada": "kutaḥ",
+            "stem": "kim",
+            "morphology": "abl sg indeclinable-use pron",
+            "gloss": "why; from what reason"
+          },
+          {
+            "pada": "samanvayāt",
+            "stem": "samanvaya",
+            "morphology": "abl sg masc",
+            "gloss": "from coherent pervasion; from systematic connection"
+          },
+          {
+            "pada": "samyag-anugatatvāt",
+            "stem": "samyag-anugatatva",
+            "morphology": "abl sg neut",
+            "gloss": "because of proper pervasion"
+          },
+          {
+            "pada": "asti",
+            "stem": "as",
+            "morphology": "3sg pres ind P",
+            "gloss": "is"
+          },
+          {
+            "pada": "bhāti",
+            "stem": "bhā",
+            "morphology": "3sg pres ind P",
+            "gloss": "shines; appears"
+          },
+          {
+            "pada": "priyatvena",
+            "stem": "priyatva",
+            "morphology": "instr sg neut",
+            "gloss": "as dearness"
+          },
+          {
+            "pada": "sat-cid-ānanda-rūpeṇa",
+            "stem": "sat-cid-ānanda-rūpa",
+            "morphology": "instr sg neut",
+            "gloss": "in the form of being, consciousness, and bliss"
+          },
+          {
+            "pada": "anvayāt",
+            "stem": "anvaya",
+            "morphology": "abl sg masc",
+            "gloss": "from pervasion; from inherence-throughout"
+          },
+          {
+            "pada": "nāma-rūpayoḥ",
+            "stem": "nāma-rūpa",
+            "morphology": "gen dual neut",
+            "gloss": "of name and form"
+          },
+          {
+            "pada": "kārya-dharmatvāt",
+            "stem": "kārya-dharmatva",
+            "morphology": "abl sg neut",
+            "gloss": "because of having the status of effect-properties"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "samyag-anugatatva",
+            "type": "other",
+            "resolution": "samyak anugatam iti tad-bhāvaḥ",
+            "note": "Adverb + past participial base + abstract -tva."
+          },
+          {
+            "compound": "sat-cid-ānanda-rūpa",
+            "type": "other",
+            "resolution": "sat ca cit cānandaś ca rūpaṃ yasya tat",
+            "note": "Dvandva base embedded in a possessive/tatpurusha-style formation."
+          },
+          {
+            "compound": "nāma-rūpa",
+            "type": "dvandva",
+            "resolution": "nāma ca rūpaṃ ca",
+            "note": "Canonical pair for manifest differentiations."
+          },
+          {
+            "compound": "kārya-dharmatva",
+            "type": "tatpurusha",
+            "resolution": "kāryasya dharmatvaṃ",
+            "note": "The condition of being a property belonging to an effect."
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "kartṛ",
+            "pada": "tat brahma",
+            "note": "Subject of the predicative claim and of the finite verbs asti and bhāti."
+          },
+          {
+            "role": "karaṇa",
+            "pada": "priyatvena",
+            "note": "Mode/instrumental expression of how the pervasion is encountered."
+          },
+          {
+            "role": "karaṇa",
+            "pada": "sat-cid-ānanda-rūpeṇa",
+            "note": "Instrumental of form: Brahman's pervasion as sat, cit, and ānanda."
+          },
+          {
+            "role": "sambandha",
+            "pada": "nāma-rūpayoḥ",
+            "note": "Genitive relation to kārya-dharmatva: name and form belong on the effect side."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "asti",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "Finite copular verb in present indicative."
+          },
+          {
+            "pada": "bhāti",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "Present indicative: Brahman shines forth as the pervading reality."
+          }
+        ]
+      },
+      "english_close": "That Brahman itself is the inhering cause. Why? Because of coherent pervasion, from its proper pervasion as being, shining, and dear, in the form of sat-cit-ānanda; and because name and form have the status of properties belonging to the effect.",
+      "english_paraphrase": "Vallabha argues that Brahman is the world's real material cause because the whole world is pervaded by Brahman's sat-cit-ānanda, while differentiated names and forms belong only to the level of effected manifestation.",
+      "preserved_terms": [
+        {
+          "term_iast": "samavāyi-kāraṇa",
+          "first_use_gloss": "inhering/material cause; that cause whose own being persists in the effect"
+        },
+        {
+          "term_iast": "sat-cit-ānanda",
+          "first_use_gloss": "being-consciousness-bliss; Brahman's constitutive triad"
+        }
+      ],
+      "why_this_passage": "This is a fair doctrinal center of Vallabha's ontology because it states, in compressed form, why Brahman is not merely an external maker but the world's real constitutive cause. It also shows the hallmark Śuddhādvaita move: names and forms are derivative effect-properties, while the underlying reality remains Brahman's own sat-cit-ānanda.",
+      "topic_tags": ["ontology", "causation"],
+      "sub_axes": [
+        "status-of-the-world",
+        "type-of-cause",
+        "upadana-vs-nimitta-cause",
+        "avikrta-parinama"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Anubhasyam. Calcutta: Asiatic Society, Bibliotheca Indica, 1897; transcribed from materials/primary_texts/sanskrit/vedanta/full_corpus/vallabha_anubhasya_1897_archive.pdf, checked against the same scan's Internet Archive OCR sidecars (anubhasyam00vall).",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "bsb-1-1-12-19__brahmajnana-bhakti-purusottama-prapti",
+      "work_id": "anu-bhasya",
+      "locus_short": "BSB 1.1.12-19",
+      "locus_long": "Aṇu-Bhāṣya on Brahma-Sūtra 1.1.12-19, ānandamaya discussion",
+      "locus_structured": {
+        "chapter": 1,
+        "section": 1,
+        "verse": "12-19"
+      },
+      "sanskrit_iast": "atra brahmajñānenāvidyā-nivṛttyā puruṣottama-prāptau svarūpa-yogyatā sampādyate.\ntato jīve svīyatvena varaṇe bhakti-bhāvāt sahakāri-yogyatā-sampādya puruṣottama-prāptir bhavatīti nirṇeyate.\nbhaktyāham ekayā grāhyaḥ.",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "atra",
+            "stem": "atra",
+            "morphology": "indecl",
+            "gloss": "here; in this connection"
+          },
+          {
+            "pada": "brahmajñānena",
+            "stem": "brahmajñāna",
+            "morphology": "instr sg neut",
+            "gloss": "by Brahman-knowledge"
+          },
+          {
+            "pada": "avidyā-nivṛttyā",
+            "stem": "avidyā-nivṛtti",
+            "morphology": "instr sg fem",
+            "gloss": "by the cessation of ignorance"
+          },
+          {
+            "pada": "puruṣottama-prāptau",
+            "stem": "puruṣottama-prāpti",
+            "morphology": "loc sg fem",
+            "gloss": "with respect to attaining Puruṣottama"
+          },
+          {
+            "pada": "svarūpa-yogyatā",
+            "stem": "svarūpa-yogyatā",
+            "morphology": "nom sg fem",
+            "gloss": "fitness of one's own true condition"
+          },
+          {
+            "pada": "sampādyate",
+            "stem": "sam-pad",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "is brought about; is accomplished"
+          },
+          {
+            "pada": "tataḥ",
+            "stem": "tatas",
+            "morphology": "indecl",
+            "gloss": "then; thereafter"
+          },
+          {
+            "pada": "jīve",
+            "stem": "jīva",
+            "morphology": "loc sg masc",
+            "gloss": "in the soul"
+          },
+          {
+            "pada": "svīyatvena",
+            "stem": "svīyatva",
+            "morphology": "instr sg neut",
+            "gloss": "through being made His own"
+          },
+          {
+            "pada": "varaṇe",
+            "stem": "varaṇa",
+            "morphology": "loc sg neut",
+            "gloss": "in being chosen; in divine choosing"
+          },
+          {
+            "pada": "bhakti-bhāvāt",
+            "stem": "bhakti-bhāva",
+            "morphology": "abl sg masc",
+            "gloss": "from the state of devotion"
+          },
+          {
+            "pada": "sahakāri-yogyatā-sampādya",
+            "stem": "sahakāri-yogyatā-sampādya",
+            "morphology": "abs ger",
+            "gloss": "having brought about the auxiliary fitness"
+          },
+          {
+            "pada": "puruṣottama-prāptiḥ",
+            "stem": "puruṣottama-prāpti",
+            "morphology": "nom sg fem",
+            "gloss": "attainment of Puruṣottama"
+          },
+          {
+            "pada": "bhavati",
+            "stem": "bhū",
+            "morphology": "3sg pres ind P",
+            "gloss": "comes to be; occurs"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "nirṇeyate",
+            "stem": "nir-ṇī",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "is determined; is concluded"
+          },
+          {
+            "pada": "bhaktyā",
+            "stem": "bhakti",
+            "morphology": "instr sg fem",
+            "gloss": "by devotion"
+          },
+          {
+            "pada": "aham",
+            "stem": "asmad",
+            "morphology": "nom sg",
+            "gloss": "I"
+          },
+          {
+            "pada": "ekayā",
+            "stem": "eka",
+            "morphology": "instr sg fem",
+            "gloss": "by one alone; by exclusive"
+          },
+          {
+            "pada": "grāhyaḥ",
+            "stem": "grah",
+            "morphology": "nom sg masc gerundive",
+            "gloss": "to be grasped; attainable"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "brahmajñāna",
+            "type": "tatpurusha",
+            "resolution": "brahmaṇaḥ jñānam",
+            "note": "Knowledge whose object is Brahman."
+          },
+          {
+            "compound": "avidyā-nivṛtti",
+            "type": "tatpurusha",
+            "resolution": "avidyāyā nivṛttiḥ",
+            "note": "Cessation of ignorance."
+          },
+          {
+            "compound": "puruṣottama-prāpti",
+            "type": "tatpurusha",
+            "resolution": "puruṣottamasya prāptiḥ",
+            "note": "Attainment of Puruṣottama."
+          },
+          {
+            "compound": "svarūpa-yogyatā",
+            "type": "tatpurusha",
+            "resolution": "svarūpasya yogyatā",
+            "note": "Fitness for one's own proper state."
+          },
+          {
+            "compound": "bhakti-bhāva",
+            "type": "tatpurusha",
+            "resolution": "bhakteḥ bhāvaḥ",
+            "note": "The condition/state of devotion."
+          },
+          {
+            "compound": "sahakāri-yogyatā-sampādya",
+            "type": "tatpurusha",
+            "resolution": "sahakāriṇī yogyatā sampādya",
+            "note": "Gerund built on a causative accomplishment of an assisting qualification."
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "karaṇa",
+            "pada": "brahmajñānena",
+            "note": "Instrument by which initial qualification is achieved."
+          },
+          {
+            "role": "karaṇa",
+            "pada": "avidyā-nivṛttyā",
+            "note": "Co-instrument: removal of ignorance."
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "puruṣottama-prāptau",
+            "note": "Domain with respect to which the qualification is relevant."
+          },
+          {
+            "role": "karman",
+            "pada": "svarūpa-yogyatā",
+            "note": "What is accomplished in the first sentence."
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "jīve",
+            "note": "Location: in the soul."
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "varaṇe",
+            "note": "Condition/context of divine choosing."
+          },
+          {
+            "role": "apādāna",
+            "pada": "bhakti-bhāvāt",
+            "note": "From the devotional state the assisting qualification follows."
+          },
+          {
+            "role": "karman",
+            "pada": "puruṣottama-prāptiḥ",
+            "note": "Resulting attainment named as the conclusion."
+          },
+          {
+            "role": "karaṇa",
+            "pada": "bhaktyā",
+            "note": "Exclusive instrument in the final citation."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "aham",
+            "note": "Subject of the predicative gerundive grāhyaḥ."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "sampādyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive",
+            "note": "Present passive: the qualification is accomplished."
+          },
+          {
+            "pada": "bhavati",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "Present indicative: attainment comes to be."
+          },
+          {
+            "pada": "nirṇeyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive",
+            "note": "Present passive: this doctrinal conclusion is determined."
+          }
+        ]
+      },
+      "english_close": "Here, by Brahman-knowledge and by the cessation of ignorance, fitness for one's own true state is accomplished with respect to the attainment of Puruṣottama. Then, when the soul is chosen as His own, and with devotion as its disposition, having brought about the assisting fitness, attainment of Puruṣottama comes to be: thus it is determined. 'I am to be grasped by devotion alone.'",
+      "english_paraphrase": "For Vallabha, knowledge removes ignorance and prepares the soul, but actual attainment of Puruṣottama is completed in and through bhakti under divine choosing.",
+      "preserved_terms": [
+        {
+          "term_iast": "puruṣottama",
+          "first_use_gloss": "the supreme Person; Vallabha's fully personal Brahman identified with Kṛṣṇa"
+        },
+        {
+          "term_iast": "bhakti",
+          "first_use_gloss": "devotional participation and attachment to Bhagavān, not mere sentiment"
+        },
+        {
+          "term_iast": "svarūpa-yogyatā",
+          "first_use_gloss": "fitness for one's own proper spiritual condition"
+        }
+      ],
+      "why_this_passage": "This is a fair selection because it does not isolate a merely devotional flourish; it shows the actual Śuddhādvaita sequence by which brahmajñāna removes ignorance, yet bhakti and divine choosing complete Puruṣottama-attainment. It also comes from the Vallabha-authored early portion of the bhāṣya, so it represents his own soteriological architecture rather than only later Puṣṭimārga elaboration.",
+      "topic_tags": ["soteriology", "ethics-devotion"],
+      "sub_axes": [
+        "effective-means-of-moksa",
+        "role-of-bhakti",
+        "role-of-grace-vs-effort",
+        "saving-cognition-status",
+        "status-of-personal-lord"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Anubhasyam. Calcutta: Asiatic Society, Bibliotheca Indica, 1897; transcribed from materials/primary_texts/sanskrit/vedanta/full_corpus/vallabha_anubhasya_1897_archive.pdf, checked against the same scan's Internet Archive OCR sidecars (anubhasyam00vall).",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "bsb-1-4-26__atmakrteh-avikrta-parinama",
+      "work_id": "anu-bhasya",
+      "locus_short": "BSB 1.4.26",
+      "locus_long": "Aṇu-Bhāṣya on Brahma-Sūtra 1.4.26, \"ātmakṛteḥ pariṇāmāt\"",
+      "locus_structured": {
+        "chapter": 1,
+        "section": 4,
+        "verse": 26
+      },
+      "sanskrit_iast": "tad ātmānaṃ svayam akuruta iti svasyaiva kartṛ-bhāvāt avikṛtatva-śravaṇāc cālaukikatvam.\ntathāpi pariṇamate kāryākāreṇa.\navikṛtam eva pariṇamate suvarṇaṃ sarvāṇi ca tejasāni.",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "tad",
+            "stem": "tad",
+            "morphology": "nom/acc sg neut pron",
+            "gloss": "that"
+          },
+          {
+            "pada": "ātmānam",
+            "stem": "ātman",
+            "morphology": "acc sg masc",
+            "gloss": "self"
+          },
+          {
+            "pada": "svayam",
+            "stem": "svayam",
+            "morphology": "indecl",
+            "gloss": "itself"
+          },
+          {
+            "pada": "akuruta",
+            "stem": "kṛ",
+            "morphology": "3sg impf ind Ā",
+            "gloss": "made"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "svasya-eva",
+            "stem": "sva",
+            "morphology": "gen sg masc/neut + indecl",
+            "gloss": "of itself alone"
+          },
+          {
+            "pada": "kartṛ-bhāvāt",
+            "stem": "kartṛ-bhāva",
+            "morphology": "abl sg masc",
+            "gloss": "because of the condition of being agent"
+          },
+          {
+            "pada": "avikṛtatva-śravaṇāt",
+            "stem": "avikṛtatva-śravaṇa",
+            "morphology": "abl sg neut",
+            "gloss": "because of the scriptural hearing of unmodifiedness"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "alaukikatvam",
+            "stem": "alaukikatva",
+            "morphology": "nom sg neut",
+            "gloss": "non-ordinariness"
+          },
+          {
+            "pada": "tathāpi",
+            "stem": "tathā api",
+            "morphology": "indecl",
+            "gloss": "even so; nevertheless"
+          },
+          {
+            "pada": "pariṇamate",
+            "stem": "pari-ṇam",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "transforms"
+          },
+          {
+            "pada": "kāryākāreṇa",
+            "stem": "kāryākāra",
+            "morphology": "instr sg masc",
+            "gloss": "into the form of the effect"
+          },
+          {
+            "pada": "avikṛtam",
+            "stem": "avikṛta",
+            "morphology": "nom sg neut adj",
+            "gloss": "unmodified"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "pariṇamate",
+            "stem": "pari-ṇam",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "transforms"
+          },
+          {
+            "pada": "suvarṇam",
+            "stem": "suvarṇa",
+            "morphology": "nom sg neut",
+            "gloss": "gold"
+          },
+          {
+            "pada": "sarvāṇi",
+            "stem": "sarva",
+            "morphology": "acc pl neut",
+            "gloss": "all"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "tejasāni",
+            "stem": "tejas",
+            "morphology": "acc pl neut",
+            "gloss": "luminous/golden products"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "kartṛ-bhāva",
+            "type": "tatpurusha",
+            "resolution": "kartur bhāvaḥ",
+            "note": "State or condition of being the agent."
+          },
+          {
+            "compound": "avikṛtatva-śravaṇa",
+            "type": "tatpurusha",
+            "resolution": "avikṛtatvasya śravaṇam",
+            "note": "Scriptural hearing/statement that the cause remains unmodified."
+          },
+          {
+            "compound": "kāryākāra",
+            "type": "tatpurusha",
+            "resolution": "kāryasya ākāraḥ",
+            "note": "The form or configuration of the effect."
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "karman",
+            "pada": "ātmānam",
+            "note": "Object of the quoted verb akuruta."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "tad",
+            "note": "Subject of akuruta and of the subsequent pariṇamate claim."
+          },
+          {
+            "role": "sambandha",
+            "pada": "svasya-eva",
+            "note": "Genitive qualifying the agentive condition: its own agency."
+          },
+          {
+            "role": "karaṇa",
+            "pada": "kāryākāreṇa",
+            "note": "Instrumental of form: transformation as effect-form."
+          },
+          {
+            "role": "karman",
+            "pada": "sarvāṇi tejasāni",
+            "note": "Range of products exemplified by the gold analogy."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "akuruta",
+            "lakara": "lāṅ",
+            "pada_PA": "atmanepada",
+            "voice": "middle",
+            "note": "Imperfect middle in the Upaniṣadic citation 'it made itself'."
+          },
+          {
+            "pada": "pariṇamate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "middle",
+            "note": "Present middle: the cause transforms into effect-form."
+          }
+        ]
+      },
+      "english_close": "'It made itself as itself': because there is the state of its own agency, and because scripture speaks of its being unmodified, this is non-ordinary. Even so, it transforms into the form of the effect. Gold, while itself unmodified, indeed transforms into all golden products.",
+      "english_paraphrase": "Vallabha's point is that Brahman's causality is a real manifestation, but not a loss of intrinsic nature: the gold remains gold while appearing as many ornaments.",
+      "preserved_terms": [
+        {
+          "term_iast": "avikṛta-pariṇāma",
+          "first_use_gloss": "real manifestation or transformation without intrinsic alteration"
+        }
+      ],
+      "why_this_passage": "This is one of the most representative places to see why Vallabha cannot be collapsed into Advaita's vivarta theory: he explicitly insists on real pariṇāma while preserving Brahman's avikṛtatva. The gold analogy is not an ornamental example here; it is the doctrinal mechanism by which Śuddhādvaita makes the world genuinely real without making Brahman compromised or diminished.",
+      "topic_tags": ["causation", "ontology"],
+      "sub_axes": [
+        "type-of-cause",
+        "vivarta-vs-parinama",
+        "avikrta-parinama",
+        "status-of-the-world"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Anubhasyam. Calcutta: Asiatic Society, Bibliotheca Indica, 1897; transcribed from materials/primary_texts/sanskrit/vedanta/full_corpus/vallabha_anubhasya_1897_archive.pdf, checked against the same scan's Internet Archive OCR sidecars (anubhasyam00vall).",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "bsb-2-3-43-45__jiva-as-amsha",
+      "work_id": "anu-bhasya",
+      "locus_short": "BSB 2.3.43-45",
+      "locus_long": "Aṇu-Bhāṣya on Brahma-Sūtra 2.3.43-45, aṃśa discussion",
+      "locus_structured": {
+        "chapter": 2,
+        "section": 3,
+        "verse": "43-45"
+      },
+      "sanskrit_iast": "jīvo nāma brahmaṇo 'ṃśaḥ.\nkutaḥ? nānāvyapadeśāt.\nna hi brahma niraṃśaṃ sāṃśam iti vā kvacid loke siddhaṃ, vedaika-samadhigamyatvāt.\nmamaivāṃśo jīvaloke jīvabhūtaḥ sanātana iti smaryate.",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "jīvaḥ",
+            "stem": "jīva",
+            "morphology": "nom sg masc",
+            "gloss": "the individual self"
+          },
+          {
+            "pada": "nāma",
+            "stem": "nāma",
+            "morphology": "indecl",
+            "gloss": "namely; indeed"
+          },
+          {
+            "pada": "brahmaṇaḥ",
+            "stem": "brahman",
+            "morphology": "gen sg neut",
+            "gloss": "of Brahman"
+          },
+          {
+            "pada": "aṃśaḥ",
+            "stem": "aṃśa",
+            "morphology": "nom sg masc",
+            "gloss": "part; portion"
+          },
+          {
+            "pada": "kutaḥ",
+            "stem": "kim",
+            "morphology": "abl sg indeclinable-use pron",
+            "gloss": "why; on what ground"
+          },
+          {
+            "pada": "nānāvyapadeśāt",
+            "stem": "nānā-vyapadeśa",
+            "morphology": "abl sg masc",
+            "gloss": "because of manifold scriptural designation"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "hi",
+            "stem": "hi",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "brahma",
+            "stem": "brahman",
+            "morphology": "nom/acc sg neut",
+            "gloss": "Brahman"
+          },
+          {
+            "pada": "niraṃśam",
+            "stem": "niraṃśa",
+            "morphology": "nom/acc sg neut adj",
+            "gloss": "partless"
+          },
+          {
+            "pada": "sāṃśam",
+            "stem": "sāṃśa",
+            "morphology": "nom/acc sg neut adj",
+            "gloss": "possessing parts"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "vā",
+            "stem": "vā",
+            "morphology": "indecl",
+            "gloss": "or"
+          },
+          {
+            "pada": "kvacid",
+            "stem": "kvacid",
+            "morphology": "indecl",
+            "gloss": "anywhere"
+          },
+          {
+            "pada": "loke",
+            "stem": "loka",
+            "morphology": "loc sg masc",
+            "gloss": "in ordinary experience"
+          },
+          {
+            "pada": "siddham",
+            "stem": "siddha",
+            "morphology": "nom/acc sg neut past part",
+            "gloss": "established"
+          },
+          {
+            "pada": "vedaika-samadhigamyatvāt",
+            "stem": "vedaika-samadhigamyatva",
+            "morphology": "abl sg neut",
+            "gloss": "because it is knowable only through the Veda"
+          },
+          {
+            "pada": "mama-eva-aṃśaḥ",
+            "stem": "mad / eva / aṃśa",
+            "morphology": "gen sg + indecl + nom sg masc",
+            "gloss": "a part of Me alone"
+          },
+          {
+            "pada": "jīvaloke",
+            "stem": "jīva-loka",
+            "morphology": "loc sg masc",
+            "gloss": "in the world of living beings"
+          },
+          {
+            "pada": "jīvabhūtaḥ",
+            "stem": "jīva-bhūta",
+            "morphology": "nom sg masc past part",
+            "gloss": "having become a living self"
+          },
+          {
+            "pada": "sanātanaḥ",
+            "stem": "sanātana",
+            "morphology": "nom sg masc",
+            "gloss": "eternal"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "smaryate",
+            "stem": "smṛ",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "is remembered in smṛti"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "nānāvyapadeśa",
+            "type": "tatpurusha",
+            "resolution": "nānāvidhaḥ vyapadeśaḥ",
+            "note": "Multiple designations across scripture."
+          },
+          {
+            "compound": "vedaika-samadhigamyatva",
+            "type": "tatpurusha",
+            "resolution": "vedena eva samadhigamyatvam",
+            "note": "The condition of being ascertainable only through Veda."
+          },
+          {
+            "compound": "jīvaloka",
+            "type": "tatpurusha",
+            "resolution": "jīvānāṃ lokaḥ",
+            "note": "The realm/world of embodied living beings."
+          },
+          {
+            "compound": "jīvabhūta",
+            "type": "tatpurusha",
+            "resolution": "jīvaḥ bhūtaḥ",
+            "note": "Having become/being an individual self."
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "sambandha",
+            "pada": "brahmaṇaḥ",
+            "note": "Genitive relation: the jīva is a part of Brahman."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "jīvaḥ",
+            "note": "Subject of the initial predicative sentence."
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "loke",
+            "note": "Location of ordinary, non-scriptural ascertainment."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "mamaivāṃśaḥ ... sanātanaḥ",
+            "note": "Quoted smṛti predication about the eternal jīva."
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "jīvaloke",
+            "note": "Locative framing for the Gītā citation."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "smaryate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive",
+            "note": "Present passive: the point is supported by smṛti."
+          }
+        ]
+      },
+      "english_close": "The jīva indeed is a part of Brahman. Why? Because of manifold designation. For Brahman is not established anywhere in ordinary experience as either partless or as having parts; it is knowable only through the Veda. 'An eternal part of Me in the world of living beings, having become a jīva' is remembered in smṛti.",
+      "english_paraphrase": "Vallabha does not treat the jīva's relation to Brahman as a mere metaphor: the self is a real aṃśa, and that relation is fixed by scriptural teaching rather than by prior worldly categories.",
+      "preserved_terms": [
+        {
+          "term_iast": "aṃśa",
+          "first_use_gloss": "real part or portion; not a merely figurative emanation"
+        }
+      ],
+      "why_this_passage": "This is the cleanest short statement of Vallabha's jīva-Brahman relation in the accessible authored corpus: the soul is a real aṃśa, and the doctrine is anchored in scriptural designation rather than reduced to an empirical category. That makes it a fair representative passage for Śuddhādvaita's refusal both of absolute identity without remainder and of total separateness.",
+      "topic_tags": ["ontology"],
+      "sub_axes": [
+        "jiva-brahman-relation",
+        "status-of-individual-selves",
+        "number-of-fundamental-existents"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Anubhasyam. Calcutta: Asiatic Society, Bibliotheca Indica, 1897; transcribed from materials/primary_texts/sanskrit/vedanta/full_corpus/vallabha_anubhasya_1897_archive.pdf, checked against the same scan's Internet Archive OCR sidecars (anubhasyam00vall).",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    }
+  ],
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1e-opus"
+  "last_verified_by": "wave2-codex"
 }

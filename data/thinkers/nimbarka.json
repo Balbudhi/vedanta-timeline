@@ -45,14 +45,683 @@
       "genre": "verse-summary",
       "language": "sanskrit",
       "summary": "The *Daśa-Ślokī* (also called *Siddhānta-Ratna*) is Nimbārka's ten-verse doctrinal compendium and functions as the catechetical statement of *svābhāvika-bhedābheda*. In tightly compressed Sanskrit verse it names the three eternally real categories — *cit*, *acit*, and *Īśvara* (Kṛṣṇa with Rādhā) — and asserts their simultaneous, intrinsic difference and non-difference; it identifies *bhakti* and *prapatti* as the means of liberation; and it delineates the *jīva* as eternally an *aṃśa* of Brahman, never merging into and never being severed from its source. Because the *Vedānta-Pārijāta-Saurabha* is so terse, the *Daśa-Ślokī* serves as the school's portable doctrinal kernel — memorised, recited, and used as the structural template for later sub-commentaries by Śrīnivāsa, Keśava-Kāśmīrī, and the Sanaka-sampradāya tradition. It is the most direct first-person statement of Nimbārka's settled view available to readers.",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "dasa-shloki-1__jiva-svarupa-harer-adhina",
+        "dasa-shloki-2__anadi-maya-prabheda-bahulya",
+        "dasa-shloki-4__krsna-param-brahma",
+        "dasa-shloki-5__radha-vama-bhaga"
+      ],
       "entry_status": "reviewed"
     }
   ],
-  "key_passages": [],
+  "key_passages": [
+    {
+      "passage_id": "dasa-shloki-1__jiva-svarupa-harer-adhina",
+      "work_id": "dasa-shloki",
+      "locus_short": "DaŚ 1",
+      "locus_long": "Daśa-Ślokī, verse 1",
+      "locus_structured": {
+        "verse": 1
+      },
+      "sanskrit_iast": "jñānasvarūpaṃ ca harer adhīnaṃ\nśarīrasaṃyogaviyogayogyam |\naṇuṃ hi jīvaṃ pratidehabhinnaṃ\njñātṛtvavantaṃ cānantam āhuḥ || 1 ||",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "jñānasvarūpam",
+            "stem": "jñāna-svarūpa",
+            "morphology": "acc sg masc",
+            "gloss": "whose nature is knowledge"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "hareḥ",
+            "stem": "hari",
+            "morphology": "gen sg masc",
+            "gloss": "of Hari"
+          },
+          {
+            "pada": "adhīnam",
+            "stem": "adhīna",
+            "morphology": "acc sg masc",
+            "gloss": "dependent"
+          },
+          {
+            "pada": "śarīrasaṃyogaviyogayogyam",
+            "stem": "śarīra-saṃyoga-viyoga-yogya",
+            "morphology": "acc sg masc",
+            "gloss": "fit for conjunction with and disjunction from a body"
+          },
+          {
+            "pada": "aṇum",
+            "stem": "aṇu",
+            "morphology": "acc sg masc",
+            "gloss": "atomic"
+          },
+          {
+            "pada": "hi",
+            "stem": "hi",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "jīvam",
+            "stem": "jīva",
+            "morphology": "acc sg masc",
+            "gloss": "the individual self"
+          },
+          {
+            "pada": "pratidehabhinnam",
+            "stem": "pratideha-bhinna",
+            "morphology": "acc sg masc",
+            "gloss": "distinct in each body"
+          },
+          {
+            "pada": "jñātṛtvavantam",
+            "stem": "jñātṛtva-vant",
+            "morphology": "acc sg masc",
+            "gloss": "possessing knowership"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "anantam",
+            "stem": "ananta",
+            "morphology": "acc sg masc",
+            "gloss": "endless; countless"
+          },
+          {
+            "pada": "āhuḥ",
+            "stem": "ah",
+            "morphology": "3pl pres ind P",
+            "gloss": "they say"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "jñānasvarūpa",
+            "type": "karmadharaya",
+            "resolution": "jñānaṃ svarūpaṃ yasya saḥ"
+          },
+          {
+            "compound": "śarīrasaṃyogaviyogayogya",
+            "type": "tatpurusha",
+            "resolution": "śarīreṇa saṃyogāya viyogāya ca yogyaḥ"
+          },
+          {
+            "compound": "pratidehabhinna",
+            "type": "avyayibhava",
+            "resolution": "prati dehaṃ bhinnaḥ"
+          },
+          {
+            "compound": "jñātṛtvavant",
+            "type": "other",
+            "resolution": "jñātṛtvaṃ yasya saḥ"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "karman",
+            "pada": "jīvam",
+            "note": "Object of āhuḥ; all accusative qualifiers agree with it."
+          },
+          {
+            "role": "sambandha",
+            "pada": "hareḥ",
+            "note": "Genitive dependent on adhīnam."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "āhuḥ",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "The speaking subject is unexpressed."
+          }
+        ]
+      },
+      "english_close": "They say that the jīva is of the nature of knowledge, dependent on Hari, fit for conjunction with and disjunction from a body, atomic, distinct in each body, possessed of knowership, and countless.",
+      "preserved_terms": [
+        {
+          "term_iast": "jīva",
+          "first_use_gloss": "(roughly: the individual self)"
+        },
+        {
+          "term_iast": "Hari",
+          "first_use_gloss": "(roughly: Kṛṣṇa as the Lord)"
+        },
+        {
+          "term_iast": "saṃyoga-viyoga",
+          "first_use_gloss": "(roughly: conjunction and disjunction)"
+        }
+      ],
+      "why_this_passage": "This is the Daśa-Ślokī's compact definition of the jīva: dependence on Hari, atomicity, plurality, bodily embodiment, and knowership are all stated without polemical overloading. Given that the on-disk bhāṣya volumes do not expose a clean OCRable Sanskrit layer, this is the fairest securely transcribable locus for Nimbārka's ontology of the self.",
+      "topic_tags": [
+        "ontology",
+        "epistemology"
+      ],
+      "sub_axes": [
+        "status-of-individual-selves",
+        "jiva-brahman-relation"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Nimbārka, Daśa-Ślokī with Laghu-Mañjūṣā, ed. Paṇḍit Dhundhiraj Śāstrī, Chowkhamba Sanskrit Series 358 (Benares, 1927); transcribed from materials/primary_texts/sanskrit/vedanta/full_corpus/nimbarka_dasasloki_archive.pdf.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "dasa-shloki-2__anadi-maya-prabheda-bahulya",
+      "work_id": "dasa-shloki",
+      "locus_short": "DaŚ 2",
+      "locus_long": "Daśa-Ślokī, verse 2",
+      "locus_structured": {
+        "verse": 2
+      },
+      "sanskrit_iast": "anādimāyāpariyuktarūpam\nenaṃ vidur vai bhagavatprasādāt |\nmuktaṃ ca bhaktaṃ kila baddham uktaṃ\nprabhedabāhulyam athāpi bodhyam || 2 ||",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "anādimāyāpariyuktarūpam",
+            "stem": "anādi-māyā-pariyukta-rūpa",
+            "morphology": "acc sg masc",
+            "gloss": "whose form is associated with beginningless māyā"
+          },
+          {
+            "pada": "enam",
+            "stem": "etad",
+            "morphology": "acc sg masc",
+            "gloss": "this one"
+          },
+          {
+            "pada": "viduḥ",
+            "stem": "vid",
+            "morphology": "3pl pres ind P",
+            "gloss": "they know"
+          },
+          {
+            "pada": "vai",
+            "stem": "vai",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "bhagavatprasādāt",
+            "stem": "bhagavat-prasāda",
+            "morphology": "abl sg masc",
+            "gloss": "through the Lord's grace"
+          },
+          {
+            "pada": "muktam",
+            "stem": "mukta",
+            "morphology": "acc sg masc",
+            "gloss": "liberated"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "bhaktam",
+            "stem": "bhakta",
+            "morphology": "acc sg masc",
+            "gloss": "devoted; belonging to the bhakta-class"
+          },
+          {
+            "pada": "kila",
+            "stem": "kila",
+            "morphology": "indecl",
+            "gloss": "indeed; it is said"
+          },
+          {
+            "pada": "baddham",
+            "stem": "baddha",
+            "morphology": "acc sg masc",
+            "gloss": "bound"
+          },
+          {
+            "pada": "uktam",
+            "stem": "ukta",
+            "morphology": "acc sg masc",
+            "gloss": "said; called"
+          },
+          {
+            "pada": "prabhedabāhulyam",
+            "stem": "prabheda-bāhulya",
+            "morphology": "acc sg neut",
+            "gloss": "abundance of subdivisions"
+          },
+          {
+            "pada": "atha",
+            "stem": "atha",
+            "morphology": "indecl",
+            "gloss": "further"
+          },
+          {
+            "pada": "api",
+            "stem": "api",
+            "morphology": "indecl",
+            "gloss": "also"
+          },
+          {
+            "pada": "bodhyam",
+            "stem": "bodhya",
+            "morphology": "gerundive acc sg neut",
+            "gloss": "to be understood"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "anādimāyāpariyuktarūpa",
+            "type": "bahuvrihi",
+            "resolution": "anādyā māyayā pariyuktaṃ rūpaṃ yasya tam"
+          },
+          {
+            "compound": "bhagavatprasāda",
+            "type": "tatpurusha",
+            "resolution": "bhagavataḥ prasādaḥ"
+          },
+          {
+            "compound": "prabhedabāhulya",
+            "type": "tatpurusha",
+            "resolution": "prabhedānāṃ bāhulyam"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "karman",
+            "pada": "enam",
+            "note": "Object of viduḥ; muktaṃ, bhaktaṃ, and baddham are predicated of it."
+          },
+          {
+            "role": "karaṇa",
+            "pada": "bhagavatprasādāt",
+            "note": "Ablative expressing causal means: knowledge arises through the Lord's grace."
+          },
+          {
+            "role": "karman",
+            "pada": "prabhedabāhulyam",
+            "note": "Object governed by the gerundive bodhyam."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "viduḥ",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          }
+        ]
+      },
+      "english_close": "By the Lord's grace they indeed know this one, whose form is associated with beginningless māyā, as liberated, as bhakta, and as called bound; and its abundance of sub-distinctions is also to be understood.",
+      "preserved_terms": [
+        {
+          "term_iast": "māyā",
+          "first_use_gloss": "(roughly: the beginningless power of concealment and projection)"
+        },
+        {
+          "term_iast": "bhagavat-prasāda",
+          "first_use_gloss": "(roughly: the Lord's grace)"
+        },
+        {
+          "term_iast": "bhakta",
+          "first_use_gloss": "(roughly: a devotee; here a distinct soul-condition within the taxonomy)"
+        }
+      ],
+      "why_this_passage": "This verse is representative because it does not merely state that souls exist; it states how they become knowable, through grace, and insists on enduring distinctions among liberated, devotional, and bound conditions. That combination makes it a fair doctrinal summary of Nimbārka's anti-collapsing soteriology rather than a famous isolated line.",
+      "topic_tags": [
+        "soteriology",
+        "epistemology",
+        "ontology"
+      ],
+      "sub_axes": [
+        "saving-cognition-status",
+        "role-of-grace-vs-effort",
+        "persistence-of-jiva-individuality-post-mukti"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Nimbārka, Daśa-Ślokī with Laghu-Mañjūṣā, ed. Paṇḍit Dhundhiraj Śāstrī, Chowkhamba Sanskrit Series 358 (Benares, 1927); transcribed from materials/primary_texts/sanskrit/vedanta/full_corpus/nimbarka_dasasloki_archive.pdf.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "dasa-shloki-4__krsna-param-brahma",
+      "work_id": "dasa-shloki",
+      "locus_short": "DaŚ 4",
+      "locus_long": "Daśa-Ślokī, verse 4",
+      "locus_structured": {
+        "verse": 4
+      },
+      "sanskrit_iast": "svabhāvato 'pāstasamastadoṣam\naśeṣakalyāṇaguṇaikarāśim |\nvyūhāṅginaṃ brahma paraṃ vareṇyaṃ\ndhyāyema kṛṣṇaṃ kamalekṣaṇaṃ harim || 4 ||",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "svabhāvataḥ",
+            "stem": "svabhāva",
+            "morphology": "abl sg masc used adverbially",
+            "gloss": "by its own nature"
+          },
+          {
+            "pada": "apāstasamastadoṣam",
+            "stem": "apāsta-samasta-doṣa",
+            "morphology": "acc sg masc",
+            "gloss": "from whom all faults are removed"
+          },
+          {
+            "pada": "aśeṣakalyāṇaguṇaikarāśim",
+            "stem": "aśeṣa-kalyāṇa-guṇa-eka-rāśi",
+            "morphology": "acc sg masc",
+            "gloss": "the single mass of endless auspicious qualities"
+          },
+          {
+            "pada": "vyūhāṅginam",
+            "stem": "vyūha-aṅgin",
+            "morphology": "acc sg masc",
+            "gloss": "having the vyūhas as limbs"
+          },
+          {
+            "pada": "brahma",
+            "stem": "brahman",
+            "morphology": "acc sg neut",
+            "gloss": "Brahman"
+          },
+          {
+            "pada": "param",
+            "stem": "para",
+            "morphology": "acc sg neut",
+            "gloss": "supreme"
+          },
+          {
+            "pada": "vareṇyam",
+            "stem": "vareṇya",
+            "morphology": "acc sg neut",
+            "gloss": "worthy of choice and worship"
+          },
+          {
+            "pada": "dhyāyema",
+            "stem": "dhyai",
+            "morphology": "1pl opt Ā",
+            "gloss": "let us meditate upon"
+          },
+          {
+            "pada": "kṛṣṇam",
+            "stem": "kṛṣṇa",
+            "morphology": "acc sg masc",
+            "gloss": "Kṛṣṇa"
+          },
+          {
+            "pada": "kamalekṣaṇam",
+            "stem": "kamala-īkṣaṇa",
+            "morphology": "acc sg masc",
+            "gloss": "lotus-eyed"
+          },
+          {
+            "pada": "harim",
+            "stem": "hari",
+            "morphology": "acc sg masc",
+            "gloss": "Hari"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "apāstasamastadoṣa",
+            "type": "bahuvrihi",
+            "resolution": "apāstāḥ samastā doṣāḥ yasmāt tam"
+          },
+          {
+            "compound": "aśeṣakalyāṇaguṇaikarāśi",
+            "type": "bahuvrihi",
+            "resolution": "aśeṣāṇāṃ kalyāṇaguṇānām ekaḥ rāśiḥ yasya tam"
+          },
+          {
+            "compound": "vyūhāṅgin",
+            "type": "bahuvrihi",
+            "resolution": "vyūhā aṅgāni yasya tam"
+          },
+          {
+            "compound": "kamalekṣaṇa",
+            "type": "bahuvrihi",
+            "resolution": "kamale iva īkṣaṇe yasya tam"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "karman",
+            "pada": "kṛṣṇam",
+            "note": "Primary object of dhyāyema; the remaining accusatives stand in apposition and describe the same object."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "dhyāyema",
+            "lakara": "vidhi-liṅ",
+            "pada_PA": "atmanepada",
+            "voice": "middle"
+          }
+        ]
+      },
+      "english_close": "Let us meditate on Kṛṣṇa, lotus-eyed Hari, the supreme Brahman, worthy of worship, possessed of vyūhas as limbs, from whom all faults are removed by nature, [and who is] the single mass of endless auspicious qualities.",
+      "preserved_terms": [
+        {
+          "term_iast": "vyūha",
+          "first_use_gloss": "(roughly: the ordered divine emanational forms such as Vāsudeva and Saṅkarṣaṇa)"
+        },
+        {
+          "term_iast": "Brahman",
+          "first_use_gloss": "(roughly: the supreme reality)"
+        }
+      ],
+      "why_this_passage": "This is the Daśa-Ślokī's direct identification of Brahman with Kṛṣṇa and therefore an essential witness for Nimbārka's theology, not a merely liturgical embellishment. It is also where the text most compactly joins auspicious qualities, supreme status, and vyūha-theology in a single doctrinal sentence.",
+      "topic_tags": [
+        "ontology",
+        "ethics-devotion"
+      ],
+      "sub_axes": [
+        "status-of-personal-lord",
+        "role-of-bhakti"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Nimbārka, Daśa-Ślokī with Laghu-Mañjūṣā, ed. Paṇḍit Dhundhiraj Śāstrī, Chowkhamba Sanskrit Series 358 (Benares, 1927); transcribed from materials/primary_texts/sanskrit/vedanta/full_corpus/nimbarka_dasasloki_archive.pdf.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "dasa-shloki-5__radha-vama-bhaga",
+      "work_id": "dasa-shloki",
+      "locus_short": "DaŚ 5",
+      "locus_long": "Daśa-Ślokī, verse 5",
+      "locus_structured": {
+        "verse": 5
+      },
+      "sanskrit_iast": "aṅke tu vāme vṛṣabhānujāṃ sadā\nvirājamānām anurūpasaubhagām |\nsakhīsahasraiḥ parisevitāṃ mudā\nsmaret sadā devīṃ sakaleṣṭakāmadām || 5 ||",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "aṅke",
+            "stem": "aṅka",
+            "morphology": "loc sg masc",
+            "gloss": "on the lap; on the side"
+          },
+          {
+            "pada": "tu",
+            "stem": "tu",
+            "morphology": "indecl",
+            "gloss": "but; now"
+          },
+          {
+            "pada": "vāme",
+            "stem": "vāma",
+            "morphology": "loc sg masc",
+            "gloss": "on the left"
+          },
+          {
+            "pada": "vṛṣabhānujām",
+            "stem": "vṛṣabhānu-jā",
+            "morphology": "acc sg fem",
+            "gloss": "the daughter of Vṛṣabhānu"
+          },
+          {
+            "pada": "sadā",
+            "stem": "sadā",
+            "morphology": "indecl",
+            "gloss": "always"
+          },
+          {
+            "pada": "virājamānām",
+            "stem": "vi-rāj",
+            "morphology": "acc sg fem pres part Ā",
+            "gloss": "shining; resplendently abiding"
+          },
+          {
+            "pada": "anurūpasaubhagām",
+            "stem": "anurūpa-saubhaga",
+            "morphology": "acc sg fem",
+            "gloss": "having beauty proportionate [to him]"
+          },
+          {
+            "pada": "sakhīsahasraiḥ",
+            "stem": "sakhī-sahasra",
+            "morphology": "instr pl neut",
+            "gloss": "with thousands of companions"
+          },
+          {
+            "pada": "parisevitām",
+            "stem": "pari-sev",
+            "morphology": "acc sg fem ppp",
+            "gloss": "attended; served"
+          },
+          {
+            "pada": "mudā",
+            "stem": "mud",
+            "morphology": "instr sg fem",
+            "gloss": "with delight"
+          },
+          {
+            "pada": "smaret",
+            "stem": "smṛ",
+            "morphology": "3sg opt P",
+            "gloss": "one should remember"
+          },
+          {
+            "pada": "sadā",
+            "stem": "sadā",
+            "morphology": "indecl",
+            "gloss": "always"
+          },
+          {
+            "pada": "devīm",
+            "stem": "devī",
+            "morphology": "acc sg fem",
+            "gloss": "the Goddess"
+          },
+          {
+            "pada": "sakaleṣṭakāmadām",
+            "stem": "sakala-iṣṭa-kāma-dā",
+            "morphology": "acc sg fem",
+            "gloss": "granting every desired good"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "vṛṣabhānujā",
+            "type": "tatpurusha",
+            "resolution": "vṛṣabhānoḥ jā"
+          },
+          {
+            "compound": "anurūpasaubhaga",
+            "type": "bahuvrihi",
+            "resolution": "anurūpaṃ saubhagaṃ yasyāḥ tām"
+          },
+          {
+            "compound": "sakhīsahasra",
+            "type": "dvigu",
+            "resolution": "sakhīnām sahasrāṇi"
+          },
+          {
+            "compound": "sakaleṣṭakāmadā",
+            "type": "upapada",
+            "resolution": "sakalaṃ iṣṭaṃ kāmaṃ dadāti yā tām"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "adhikaraṇa",
+            "pada": "aṅke",
+            "note": "Locus of Rādhā's placement, further specified by vāme."
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "vāme",
+            "note": "Left-side specification of the locus."
+          },
+          {
+            "role": "karaṇa",
+            "pada": "sakhīsahasraiḥ",
+            "note": "Instrumental of accompanying service."
+          },
+          {
+            "role": "karaṇa",
+            "pada": "mudā",
+            "note": "Instrumental of manner."
+          },
+          {
+            "role": "karman",
+            "pada": "devīm",
+            "note": "Object of smaret; the feminine accusative qualifiers agree with it."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "smaret",
+            "lakara": "vidhi-liṅ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          }
+        ]
+      },
+      "english_close": "One should always remember with delight the Goddess, the daughter of Vṛṣabhānu, abiding on the left side, resplendent with beauty proportionate [to him], attended by thousands of sakhīs, and granting every desired good.",
+      "preserved_terms": [
+        {
+          "term_iast": "Rādhā",
+          "first_use_gloss": "(roughly: the daughter of Vṛṣabhānu, inseparable from Kṛṣṇa in Nimbārka's theology)"
+        },
+        {
+          "term_iast": "sakhī",
+          "first_use_gloss": "(roughly: an intimate female companion in the divine retinue)"
+        }
+      ],
+      "why_this_passage": "This verse is representative because it makes Rādhā's place beside Kṛṣṇa part of the statement of the worship-worthy supreme, not a detachable later ornament. For Nimbārka's living doctrinal profile, where devotion is constitutive and not merely preparatory, that is a load-bearing claim.",
+      "topic_tags": [
+        "ethics-devotion",
+        "ontology"
+      ],
+      "sub_axes": [
+        "status-of-personal-lord",
+        "role-of-bhakti"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Nimbārka, Daśa-Ślokī with Laghu-Mañjūṣā, ed. Paṇḍit Dhundhiraj Śāstrī, Chowkhamba Sanskrit Series 358 (Benares, 1927); transcribed from materials/primary_texts/sanskrit/vedanta/full_corpus/nimbarka_dasasloki_archive.pdf.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    }
+  ],
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1e-opus"
+  "last_verified_by": "wave2-codex"
 }
