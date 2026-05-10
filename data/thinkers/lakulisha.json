@@ -59,7 +59,8 @@
       "language": "sanskrit",
       "summary": "Five short chapters (*adhyāyas*) of compressed *sūtras* articulating the Pāśupata doctrine and discipline. *Adhyāya* 1 opens with *atha-ataḥ paśu-pati-pāśa-kāryanāmasaṃyogavidhiṃ vyākhyāsyāmaḥ* ('now, accordingly, we shall expound the rule of the connection of *paśu*, *pati*, *pāśa*, *kārya*, and *nāma*'), establishing the triadic ontology and the discipline as an integrated whole. The chapter develops the five *padārthas* of Pāśupata practice: *kārya* (the work, including *jñāna*, *tapas*, *nityatva*, *sthiti*, *śuddhi*), *kāraṇa* (the cause, identified with *pati*), *yoga* (union with Śiva), *vidhi* (the rules of practice), and *duḥkha-anta* (the cessation of suffering). *Adhyāya* 2 develops the *vidhi*: the ash-bath, the sleep on the ash, the silent practice (*upakāra-rahita*), the *japa*. *Adhyāya* 3 develops the provocation-practices — the deliberate solecism, the simulation of madness, the courting of insult — as the *avamāna-pratiṣṭhā* discipline that dissolves attachment to *yaśas*. *Adhyāya* 4 develops the *yoga* and the praxis of *dhyāna*. *Adhyāya* 5 establishes the end-state — *sāyujya* with Śiva, the acquisition of the eight Śaiva *aiśvaryas*, the *duḥkha-anta*. The text is the foundational document of the Pāśupata sect.",
       "key_passage_ids": [],
-      "entry_status": "reviewed"
+      "entry_status": "reviewed",
+      "source_status": "primary-text-not-in-corpus"
     }
   ],
   "key_passages": [],
@@ -68,5 +69,5 @@
   "entry_status": "draft",
   "entry_owner_agent": "non-vedic-comparator-extension-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }
