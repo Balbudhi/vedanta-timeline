@@ -1,0 +1,107 @@
+{
+  "id": "bhatta-ramakantha",
+  "name": "Bhatta Ramakantha II",
+  "name_iast": "Bhaṭṭa Rāmakaṇṭha II",
+  "alternate_names": ["Rāmakaṇṭha", "Rāmakaṇṭha-Bhaṭṭa"],
+  "dates_low": 950,
+  "dates_high": 1000,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Mature dualist Saiddhāntika commentator active in Kashmir contemporaneously with Abhinavagupta; dated by his commentaries' references to Sadyojyotis (predecessor) and by his standing as the figure Abhinavagupta's school must answer.",
+  "school": "Cross-tradition",
+  "school_color_token": "kashmir-shaiva-dualist",
+  "sub_school": "Kashmir Śaiva-Siddhānta (mature commentarial)",
+  "sub_school_shade": 4,
+  "lineage_in": ["sadyojyotis"],
+  "lineage_out": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "utpaladeva",
+      "direction": "refutes",
+      "note": "Bhaṭṭa Rāmakaṇṭha's Nareśvara-Parīkṣā-Prakāśa is the principal mature dualist Saiddhāntika reply to the Pratyabhijñā position, defending the eternal real distinction of soul from Śiva against Utpaladeva's identity-recognition thesis."
+    },
+    {
+      "thinker_id": "abhinavagupta",
+      "direction": "mutual",
+      "note": "Bhaṭṭa Rāmakaṇṭha and Abhinavagupta are the two great Kashmirian Śaiva theologians of the late tenth century, working at the same place and moment but defending incompatible metaphysical commitments — eternal pluralism versus non-dual self-recognition."
+    },
+    {
+      "thinker_id": "somananda",
+      "direction": "refutes",
+      "note": "Rāmakaṇṭha's polemic targets the Pratyabhijñā lineage Somānanda founded; the Nareśvara-Parīkṣā-Prakāśa engages the school's analysis of self-awareness and its non-dual conclusions."
+    }
+  ],
+  "core_thesis": "Non-Vedāntin comparator (mature dualist Kashmir Śaiva-Siddhānta). Bhaṭṭa Rāmakaṇṭha II is the great mature commentator of the dualist Saiddhāntika tradition, working in Kashmir at the same time and place as Abhinavagupta and producing the principal philosophical defence of *bhedavāda* against the rising Pratyabhijñā non-dualism. He inherits Sadyojyotis's three-fold ontology of *pati*, *paśu*, and *pāśa* and reconstructs it under the new dialectical pressure of Buddhist epistemology and Pratyabhijñā idealism. His distinctive contribution is a rigorous account of the soul's *sva-saṃvedana* — its intrinsic, non-illuminated self-awareness — as belonging to the soul *itself*, not as a borrowed mode of a single divine consciousness. The soul is eternally a discrete, conscious *cit*-substance bound by *āṇavamala*; Śiva is eternally the supreme Lord; and *māyā* is a real material principle. Against Utpaladeva's *vimarśa* read as Śiva's universal self-awareness, Rāmakaṇṭha argues that self-awareness is a property of every individual soul taken as itself a substance. The polemical work is performed in his *Nareśvara-Parīkṣā-Prakāśa* and in his major scriptural commentaries on the *Mataṅga-Pārameśvara* and *Kiraṇa* tantras.",
+  "engaged_works": [
+    {
+      "work_id": "matanga-vrtti",
+      "title": "Matanga-Vrtti",
+      "title_iast": "Mataṅga-Vṛtti",
+      "alternate_titles": ["Mataṅga-Pārameśvara-Vṛtti"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored commentary on the Mataṅga-Pārameśvara-Tantra; the principal Saiddhāntika scriptural commentary of its period.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus (N. R. Bhatt and Hélène Brunner editions; Watson and Goodall studies)."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "The major commentary on the *Mataṅga-Pārameśvara-Tantra* — one of the cardinal scriptures of the Śaiva-Siddhānta tradition. The *Mataṅga* itself is a long Saiddhāntika tantra organised into *Vidyā-pāda* (philosophical doctrine), *Kriyā-pāda* (ritual), *Yoga-pāda* (yoga), and *Caryā-pāda* (conduct). Rāmakaṇṭha's *Vṛtti*, which survives in substantial form especially on the *Vidyā-pāda*, develops the dualist Saiddhāntika doctrine to its fullest commentarial articulation: the three-fold ontology of *pati / paśu / pāśa* as eternally real and irreducible; the *tattva*-cosmology read through a realist rather than emanationist lens; the soul's *sva-saṃvedana* as belonging to the soul itself; the *malas* as actual ontological obscurations rather than cognitive errors; and the necessity of Śiva-bestowed *dīkṣā* for liberation. The work is one of the principal sources for reconstructing the mature dualist Saiddhāntika system, the natural counterweight to Abhinavagupta's *Tantrāloka* in any structural account of the Kashmirian Śaiva field.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "kirana-vrtti",
+      "title": "Kirana-Vrtti",
+      "title_iast": "Kiraṇa-Vṛtti",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored commentary on the Kiraṇa-Tantra.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus (Goodall 1998 critical edition of Vidyā-pāda chapters 1–6)."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "The principal commentary on the *Kiraṇa-Tantra*'s *Vidyā-pāda* — one of the most-studied scriptures of the Śaiva-Siddhānta. The text is structurally a dialogue between the sage Garuḍa and Śiva on the nature of the bound soul, the bonds, and Śiva, and Rāmakaṇṭha's *Vṛtti* uses each *pāda* to articulate the school's philosophical position. Notable features include Rāmakaṇṭha's defence of the soul as *eternally* conscious (*nitya-cit*), against any reading on which the soul's consciousness is borrowed or derivative; his account of *āṇavamala* as a real obscuring substance that requires real removal; his treatment of *karma* and its fruits as ontologically real conditions of *bhoga*; and his arguments for the necessity of an omniscient supreme Śiva as the *prerakṛ* — the agent who, through grace and *dīkṣā*, conjoins soul and *māyā* for the soul's purification. The Goodall 1998 critical edition of the first six chapters has reset the field's understanding of the Kashmirian dualist Saiddhāntika in the late tenth century.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "naresvara-pariksa-prakasa",
+      "title": "Naresvara-Pariksa-Prakasa",
+      "title_iast": "Nareśvara-Parīkṣā-Prakāśa",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored commentary on Sadyojyotis's Nareśvara-Parīkṣā; the principal mature dualist Saiddhāntika reply to the Pratyabhijñā non-dualism.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus (Watson 2006, The Self's Awareness of Itself)."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "Bhaṭṭa Rāmakaṇṭha's commentary on Sadyojyotis's *Nareśvara-Parīkṣā* and his most significant philosophical work in its own right. The *Prakāśa* is structurally a *vṛtti*, but it is in effect an extended polemical treatise: Rāmakaṇṭha uses each of Sadyojyotis's verses as the occasion for a developed reply to the major rivals of late tenth-century Kashmir, with the rising Pratyabhijñā lineage of Utpaladeva and Abhinavagupta as the principal target. The central polemical argument concerns *sva-saṃvedana*: against the Pratyabhijñā doctrine that self-awareness (*vimarśa*) is the property of a single supreme consciousness whose contractions appear as bound subjects, Rāmakaṇṭha defends the position that *sva-saṃvedana* belongs intrinsically to each soul *as a substance*. The argument has two prongs: a regress argument against any mediated account of self-awareness, and a phenomenological argument that the unity of the experiential field is best explained by an enduring substantial self rather than by contraction-of-supreme-Self. The work is the high-water mark of the dualist Kashmirian theological tradition; Alex Watson's 2006 monograph (*The Self's Awareness of Itself*) is the definitive modern study.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "sardha-tri-shatika-lokulisvaragama-vrtti",
+      "title": "Sardha-Tri-Shatika-Lokulisvaragama-Vrtti",
+      "title_iast": "Sārdha-Tri-Śatikā-Lokulīśvarāgama-Vṛtti",
+      "alternate_titles": ["Sārdha-Tri-Śatika-Vṛtti"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored commentary on the Lokulīśvarāgama (Lakulīśvarāgama) in three hundred and fifty verses; the standard dualist Saiddhāntika commentary on this Pāśupata-adjacent scripture.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "Commentary on the *Lokulīśvarāgama* — a three-hundred-and-fifty-verse Śaiva scripture standing within the broader Pāśupata-adjacent Atimārga / Mantramārga interface that Rāmakaṇṭha reads firmly within the Saiddhāntika frame. The *Vṛtti* extends the dualist position into the territory of *yoga-praxis* and the soteriological role of *dīkṣā*: each chapter is read so as to confirm that the soul's purification is an objective ontological transformation, that *Śiva*'s grace operates through ritual rather than through identity-recognition, and that the path to liberation runs through the school's *dīkṣā*-system rather than through gnostic insight. Read together with the *Mataṅga-Vṛtti* and *Kiraṇa-Vṛtti*, the work establishes the breadth of Rāmakaṇṭha's commentarial range across the Saiddhāntika scriptural canon. Less philosophically ambitious than the *Nareśvara-Parīkṣā-Prakāśa*, but central to the school's living ritual tradition.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Rāmakaṇṭha is the great mature dualist Saiddhāntika theologian of Kashmir; his polemic against the Pratyabhijñā position is the principal philosophical alternative to the non-dualism that subsequently dominates the popular reception of Kashmir Śaivism. The modern recovery of his work — through Goodall's editions of the Kiraṇa, through Watson's monograph on the Nareśvara-Parīkṣā-Prakāśa, and through ongoing work in the École Française d'Extrême-Orient corpus — has made the dualist Saiddhāntika position visible as a serious metaphysical alternative within Kashmirian Śaivism, not as a 'preliminary' stage to the non-dual Trika.",
+  "entry_status": "draft",
+  "entry_owner_agent": "trika-shakta-extension-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "trika-shakta-extension-opus"
+}

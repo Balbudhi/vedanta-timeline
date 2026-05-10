@@ -1,0 +1,27 @@
+{
+  "term_key": "abheda",
+  "term_iast": "abheda",
+  "term_devanagari": "अभेद",
+  "literal": "non-difference; a- (negative) + bheda",
+  "aliases": ["abheda", "Abheda", "abhedaḥ", "abhedasya", "abhede"],
+  "invariant_definition": "Non-difference, identity. The complement of *bheda*. Advaita holds *abheda* between *jīva* and *brahman* to be the highest truth; Dvaita rejects all *abheda* between *brahman* and *jīva* and between *jīva* and *jīva*; Bhedābheda and Acintya-Bhedābheda hold *abheda* to be simultaneously real with *bheda*.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Abheda* of *jīva* and *brahman* is the *pāramārthika* truth. The *mahāvākyas* assert this *abheda*. *Bheda*-cognitions are *vyāvahārika*.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1", "Upadeśa-Sāhasrī 18"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Abheda* between Brahman and jīva is rejected; what looks like *abheda*-statements in *śruti* are read as *sādṛśya* (qualified similarity), *sambandha* (close relation), or *upacāra* (figurative reference).",
+      "primary_loci": ["Viṣṇu-Tattva-Vinirṇaya §§30–40"]
+    },
+    {
+      "school": "Bhedābheda / Acintya-Bhedābheda",
+      "definition": "*Abheda* is real, simultaneously with *bheda*. See *bhedabheda* entry.",
+      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 1.1.4", "Tattva-Sandarbha §§51–56"]
+    }
+  ],
+  "see_also": ["bheda", "bhedabheda", "advaita"],
+  "translator_note": "'Identity' or 'non-difference' both acceptable; 'unity' is misleading because it suggests numerical-one-from-many, while *abheda* is structural identity."
+}

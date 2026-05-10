@@ -1,0 +1,59 @@
+{
+  "id": "somananda",
+  "name": "Somananda",
+  "name_iast": "Somānanda",
+  "alternate_names": [],
+  "dates_low": 875,
+  "dates_high": 925,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Founder of the Pratyabhijñā lineage; teacher of Utpaladeva; dated by guru-paramparā with Utpaladeva and by his polemical engagement with Bhartṛhari.",
+  "school": "Pratyabhijñā/Trika",
+  "school_color_token": "trika-comparator",
+  "sub_school": "Pratyabhijñā founder",
+  "sub_school_shade": 1,
+  "lineage_in": [],
+  "lineage_out": ["utpaladeva"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "bhartrhari",
+      "direction": "refutes",
+      "note": "The Śiva-Dṛṣṭi devotes its second āhnika to a sustained polemic against Bhartṛhari's śabda-Brahman thesis: Somānanda argues that the supreme reality cannot be śabda-tattva (transcendent speech alone) but must be Śiva-as-consciousness whose svātantrya is logically prior to and includes the śabda-dimension."
+    },
+    {
+      "thinker_id": "sadyojyotis",
+      "direction": "refutes",
+      "note": "The Śiva-Dṛṣṭi inaugurates the Pratyabhijñā polemic against the dualist Saiddhāntika ontology of pati / paśu / pāśa for which Sadyojyotis is the early authoritative exponent: Somānanda argues that the three-fold separation cannot survive analysis of self-awareness and svātantrya."
+    },
+    {
+      "thinker_id": "bhatta-ramakantha",
+      "direction": "is-refuted-by",
+      "note": "Bhaṭṭa Rāmakaṇṭha II's Nareśvara-Parīkṣā-Prakāśa is the principal mature dualist Saiddhāntika reply to the Pratyabhijñā position Somānanda founds, defending the eternal real distinction of soul from Śiva against Somānanda's identity-thesis."
+    }
+  ],
+  "core_thesis": "Non-Vedāntin comparator (founder of Pratyabhijñā). Somānanda is the founder of the *Pratyabhijñā* (\"recognition\") lineage, prior to its analytic systematisation by his pupil Utpaladeva. The single reality is Śiva-as-consciousness, whose intrinsic *svātantrya* is the source of every appearance, and whose *vimarśa* is the structural form of all awareness. The signature thesis is that *every* manifest entity — pot, jar, pleasure, cognition — is itself Śiva: not a sublatable appearance superimposed on a featureless absolute, but a positive expression of Śiva's own *svātantrya*. The recognition (*pratyabhijñā*) the bound subject must perform is the recognition that this is so for everything, including itself. The *Śiva-Dṛṣṭi* unfolds this thesis across seven *āhnikas*; the second is the celebrated polemic against Bhartṛhari's *śabda-Brahman* thesis, on the ground that supreme reality cannot be language-as-such but must be the consciousness whose *svātantrya* is logically prior to and includes language. Somānanda thus inaugurates the *Pratyabhijñā* programme that Utpaladeva will give analytic form and Abhinavagupta will consummate.",
+  "engaged_works": [
+    {
+      "work_id": "shiva-drsti",
+      "title": "Shiva-Drsti",
+      "title_iast": "Śiva-Dṛṣṭi",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored founding text of the Pratyabhijñā lineage; the first systematic non-dual Śaiva treatise of the Kashmirian tradition.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus (Nemec 2011 critical edition and translation of āhnikas 1–3 and 7; earlier KSTS edition of the whole)."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The founding text of the *Pratyabhijñā* school, in seven *āhnikas*, with Utpaladeva's *Vṛtti* (the *Padasaṅgati*) preserving the school's authoritative reading. The first *āhnika* establishes the central thesis: Śiva-as-consciousness is the sole reality, and every manifest entity is Śiva by *svātantrya* — not the merely *appearing* of Śiva but Śiva *as* this very content. The second *āhnika* is Somānanda's celebrated polemic against Bhartṛhari's *śabda-Brahman*: the argument is that *śabda-tattva* cannot be ultimate reality because language presupposes a self-aware subject whose *vimarśa* is the condition of any *śabda*. The third *āhnika* engages other rival positions (Vijñāna-vāda Buddhism, Sāṃkhya). The seventh *āhnika* returns to the first thesis with a developed account of *svātantrya* as the form of all manifestation. The work is structurally less analytically concentrated than Utpaladeva's *Īśvara-Pratyabhijñā-Kārikā* — its register is closer to inspired declarative philosophical poetry — but the foundational theses are all present. John Nemec's 2011 critical edition has reset the modern study of the text.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Somānanda is the founder of the Pratyabhijñā tradition; his Śiva-Dṛṣṭi is the document that inaugurates the non-dual Kashmirian Śaiva tradition as a school with its own technical apparatus, distinct from both the dualist Saiddhāntika tradition and from the Buddhist epistemological tradition. Modern scholarship (Nemec, Torella, Ratié) has placed him at the centre of the school's intellectual genealogy. Vidyāraṇya's Sarva-Darśana-Saṅgraha treats the Pratyabhijñā chapter as the school Somānanda founded.",
+  "entry_status": "draft",
+  "entry_owner_agent": "trika-shakta-extension-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "trika-shakta-extension-opus"
+}

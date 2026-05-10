@@ -1,0 +1,56 @@
+{
+  "id": "umasvati",
+  "name": "Umasvati",
+  "name_iast": "Umāsvāti",
+  "alternate_names": ["Umāsvāmī (Digambara form)", "Vācaka Umāsvāti"],
+  "dates_low": 150,
+  "dates_high": 350,
+  "dates_tier": "contested",
+  "dates_notes": "Dated by his auto-commentary's mention as a settled work in early-fifth-century Jaina sources and by his absorption of pre-existing Āgama-material; Bronkhorst, Dundas (1992, The Jains), and Wiley converge on the second to fourth century CE. Both Digambara and Śvetāmbara sectarian traditions claim him; the modern scholarly view treats his date as bridging the sectarian split (formalised c. 79 CE) but with the surviving textual recensions reflecting later sub-traditions.",
+  "school": "Jaina",
+  "school_color_token": "jaina-comparator",
+  "sub_school": "Foundational Jaina (cross-sectarian)",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": ["kundakunda", "haribhadra", "hemacandra"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "badarayana",
+      "direction": "is-refuted-by",
+      "note": "Brahma-Sūtra 2.2.33–36 refutes the Jaina position broadly conceived: the anekānta thesis is rejected on the ground that contradictory predicates cannot belong to a single substance, and the doctrine of the soul's pradeśa-extension to body-size is rejected as incoherent. Umāsvāti is the foundational figure of the position refuted."
+    },
+    {
+      "thinker_id": "sankara",
+      "direction": "is-refuted-by",
+      "note": "Brahma-Sūtra-Bhāṣya 2.2.33–36 develops Bādarāyaṇa's anti-Jaina argument: Śaṅkara argues that anekānta-vāda either collapses into self-contradiction or trivializes into the unreal thesis that everything is somehow both A and not-A from different standpoints."
+    }
+  ],
+  "core_thesis": "Umāsvāti's *Tattvārtha-Sūtra* — the only Sanskrit-language foundational treatise of Jainism, composed in the *sūtra*-style of the other *darśanas* — is accepted as authoritative by both Digambara and Śvetāmbara sub-traditions, with minor textual variants. The work's first *sūtra* — *samyag-darśana-jñāna-cāritrāṇi mokṣa-mārgaḥ*, \"right vision, right knowledge, right conduct are the path to liberation\" — fixes the Jaina *triratna*. The metaphysics is articulated through the seven *tattvas*: *jīva* (soul), *ajīva* (non-soul), *āsrava* (karmic influx), *bandha* (bondage), *saṃvara* (stoppage), *nirjarā* (shedding), *mokṣa* (liberation). *Jīva* is plural, ontologically distinct, possessed of *upayoga* (consciousness in its cognitive-conative aspect) and *cetanā*; in the embodied state it is *pradeśa*-coextensive with the body. *Ajīva* decomposes into five categories: *pudgala* (matter, the only category with mass), *dharma* and *adharma* (the media of motion and rest), *ākāśa*, and *kāla*. The epistemology recognises five kinds of *jñāna* (*mati*, *śruta*, *avadhi*, *manaḥ-paryāya*, *kevala*) and is informed by *anekānta-vāda* (the doctrine of manifold standpoints) and *syād-vāda* (the doctrine that any predication must be qualified by *syāt*, \"in some respect\"). *Sarva-jña*-doctrine — that the *kevalin*'s knowledge is unrestricted in object — is articulated as the apex of cognitive perfection. The text is Jainism's ontology, epistemology, ethics, and soteriology compressed into a single shared sūtra-grammar.",
+  "engaged_works": [
+    {
+      "work_id": "tattvartha-sutra",
+      "title": "Tattvartha-Sutra",
+      "title_iast": "Tattvārtha-Sūtra",
+      "alternate_titles": ["Tattvārthādhigama-Sūtra", "Mokṣa-Śāstra"],
+      "composition_dates_low": 150,
+      "composition_dates_high": 350,
+      "composition_dates_notes": "Composition fixed by Pūjyapāda's Sarvārtha-Siddhi (sixth century, Digambara) and Siddhasenagaṇi's Bhāṣya (sixth century, Śvetāmbara) treating the text as a settled authority.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Umāsvāti by uniform Digambara and Śvetāmbara tradition; the Śvetāmbara recension also accepts an auto-commentary (the Tattvārtha-Bhāṣya), the Digambara recension treats only the sūtras as Umāsvāti's work and reads them through Pūjyapāda's commentary.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Dundas (1992, The Jains); Wiley; the cross-sectarian acceptance of the sūtras (with minor variants) is itself the strongest evidence."}
+      ],
+      "genre": "verse-summary",
+      "language": "sanskrit",
+      "summary": "Ten *adhyāyas* of compressed *sūtras* covering the entire Jaina *darśana*. *Adhyāya* 1 establishes the *triratna* (right vision, knowledge, conduct), the seven *tattvas*, the five kinds of *jñāna*, and the *naya* — *anekānta*-*syād-vāda* framework. *Adhyāya* 2 analyses *jīva* — its *upayoga*, the four *gatis* (states of existence), the *prāṇas*, *pradeśa*-extension. *Adhyāya* 3 treats the *adho-loka* (lower world). *Adhyāya* 4 treats the *deva-loka*. *Adhyāya* 5 treats *ajīva* — *pudgala*, *dharma*, *adharma*, *ākāśa*, *kāla* — and the analysis of *paramāṇus* and their aggregation. *Adhyāya* 6 treats *āsrava* (karmic influx) and the eight *karma-prakṛtis*. *Adhyāya* 7 treats the lay-vows (*aṇuvratas*) and the householder's path. *Adhyāya* 8 treats *bandha* (karmic bondage) and the duration, intensity, and quantity of bound *karma*. *Adhyāya* 9 treats *saṃvara* (stoppage) and *nirjarā* (shedding) — the disciplines of *gupti*, *samiti*, *parīṣaha-jaya*, *cāritra*, and the twelve *tapas*. *Adhyāya* 10 treats *mokṣa*: the *kevalin*'s state, the upward motion of the liberated *jīva* to the *siddha-loka*. The Digambara recension's *Sarvārtha-Siddhi* (Pūjyapāda) and the Śvetāmbara recension's *Tattvārtha-Bhāṣya* (Umāsvāti's auto-commentary) and *Bhāṣya-Ṭīkā* (Siddhasenagaṇi) are the principal pre-modern commentaries.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-comparators-darsana-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-comparators-darsana-opus"
+}

@@ -1,0 +1,93 @@
+{
+  "id": "kundakunda",
+  "name": "Kundakunda",
+  "name_iast": "Kundakunda",
+  "alternate_names": ["Padmanandi", "Elācārya", "Vakragrīva", "Gṛdhrapiccha"],
+  "dates_low": 100,
+  "dates_high": 400,
+  "dates_tier": "contested",
+  "dates_notes": "Traditional Digambara hagiography places Kundakunda in the first century BCE to first century CE, but the absence of citation in early Jaina sources and the developed character of the niścaya / vyavahāra dialectic argue for a later date. Modern scholarship (Dundas; Soni; Johnson) ranges from the second to the fourth or even fifth century CE; the Prākrit register (Śaurasenī) is a Digambara-area dialect of the southern Deccan.",
+  "school": "Jaina",
+  "school_color_token": "jaina-comparator",
+  "sub_school": "Digambara Jaina",
+  "sub_school_shade": 4,
+  "lineage_in": ["umasvati"],
+  "lineage_out": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "sankara",
+      "direction": "is-refuted-by",
+      "note": "Brahma-Sūtra-Bhāṣya 2.2.33–36's anti-Jaina argument applies with particular force to Kundakunda's position, since his Samaya-Sāra makes the niścaya / vyavahāra distinction structurally load-bearing — exactly the kind of two-tier framework Śaṅkara's vyāvahārika / pāramārthika scheme parallels and contests."
+    },
+    {
+      "thinker_id": "madhusudana",
+      "direction": "mutual",
+      "note": "The structural parallel between Kundakunda's vyavahāra-naya / niścaya-naya and Advaita's vyāvahārika / pāramārthika is striking and is engaged in the comparative-claims framework; Madhusūdana's Advaita-Siddhi nowhere cites Kundakunda directly but the formal correspondence makes Kundakunda the structural Jaina counterpart to Advaita's two-truths."
+    }
+  ],
+  "core_thesis": "Kundakunda's principal works — *Samaya-Sāra*, *Pravacana-Sāra*, *Pañcāstikāya*, *Niyama-Sāra* — articulate a distinctively Digambara Jaina position structured around the *naya*-pair *vyavahāra-naya* (the conventional standpoint, addressing the embodied *jīva* in karmic relationship) and *niścaya-naya* (the ultimate standpoint, addressing the *jīva* in its essential nature as pure consciousness). The *jīva* in *vyavahāra-naya* is bound by *karma*, located in a body, characterised by *rāga* (attachment), *dveṣa* (aversion), and the eight *karma-prakṛtis*. The *jīva* in *niścaya-naya* is *cid-rūpa*, *jñāna-svabhāva*, untouched by *karma* — *karma* is *pudgala*, the self is *cetana*, and *pudgala* cannot in its essential nature inhere in *cetana*. The *Samaya-Sāra* — Kundakunda's most influential text — develops this with exceptional force: in the *niścaya* register, the self is never the agent of bondage, never the recipient of *karma*'s fruit, never the doer of any *kriyā*; the appearance of bondage belongs to the *vyavahāra* register alone. *Mokṣa* is the recovery of the *niścaya*-truth that was always already true. The structural parallel with the Advaita *vyāvahārika*/*pāramārthika* distinction is striking and has not gone unremarked. Kundakunda's Prākrit (Śaurasenī) verses become the foundational authority for the Digambara mystical-philosophical tradition — Pūjyapāda, Amṛtacandra (whose *Ātmakhyāti* and *Tattva-Pradīpikā* are the standard commentaries), Banārasīdās, and the Adhyātma movement.",
+  "engaged_works": [
+    {
+      "work_id": "samaya-sara",
+      "title": "Samaya-Sara",
+      "title_iast": "Samaya-Sāra",
+      "alternate_titles": ["Samayaprābhṛta"],
+      "composition_dates_low": 100,
+      "composition_dates_high": 400,
+      "composition_dates_notes": "Composition fixed by Amṛtacandra's late-tenth-century commentary as a settled authority and by the developed character of the niścaya / vyavahāra dialectic.",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Uniformly ascribed to Kundakunda by the Digambara tradition; the corpus's internal coherence and shared technical vocabulary support single authorship of the four major works.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Dundas (1992, The Jains); Soni (Aspects of Jaina Philosophy); Johnson (Harmless Souls)."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "415 Prākrit (Śaurasenī) gāthās organised in nine adhyāyas — *jīva-ajīva-adhikāra*, *kartṛ-karma-adhikāra*, *puṇya-pāpa-adhikāra*, *āsrava-adhikāra*, *saṃvara-adhikāra*, *nirjarā-adhikāra*, *bandha-adhikāra*, *mokṣa-adhikāra*, *sarva-viśuddha-jñāna-adhikāra*. The opening *jīva-ajīva* division establishes the niścaya / vyavahāra distinction as the work's structural axis. The *kartṛ-karma* division is the most philosophically dense: in the niścaya register, the self is not the agent of karma's accumulation (the doctrine that *karma* is *pudgala* and cannot in its essential nature be performed by *cetana*); in the vyavahāra register, the apparent agency is real-as-vyavahāra. The successive adhikāras unfold the *tattva*-list of Umāsvāti through this niścaya / vyavahāra lens. The closing *sarva-viśuddha-jñāna-adhikāra* describes the kevalin's pure-knowledge state. The principal commentaries are Amṛtacandra's *Ātmakhyāti* (Sanskrit prose) and *Kalaśas* (Sanskrit verses interspersed) and Jayasena's *Tātparya-Vṛtti*. The work is the foundational text of the Digambara Adhyātma tradition and is arguably the most-studied Jaina philosophical work in the modern period.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "pravacana-sara",
+      "title": "Pravacana-Sara",
+      "title_iast": "Pravacana-Sāra",
+      "composition_dates_low": 100,
+      "composition_dates_high": 400,
+      "composition_dates_notes": "Composition contemporary with the Samaya-Sāra; the Pravacana-Sāra is generally treated as Kundakunda's exposition of jñāna-svabhāva and the kevalin's omniscience.",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Uniformly ascribed to Kundakunda by the Digambara tradition.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Dundas (1992, The Jains); Faddegon's edition with Amṛtacandra's commentary."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "275 Prākrit gāthās in three adhikāras — *jñāna-tattva-pradarśana*, *jñeya-tattva-prajñāpana*, *cāritra-tattva-prajñāpana*. The *jñāna-tattva* division articulates the doctrine of *jñāna-svabhāva* — that *cetanā* is the essential nature of the self and that the *kevalin*'s knowledge (*kevala-jñāna*) is the unobstructed self-luminous awareness intrinsic to the self once *jñānāvaraṇīya-karma* is exhausted. The *jñeya-tattva* division gives the ontology of *dravya*, *guṇa*, *paryāya* and analyses the *jīva* and *ajīva* substances under this triadic frame. The *cāritra-tattva* division gives the path of right conduct from the niścaya standpoint — the recovery of *svabhāva* through internal renunciation. Amṛtacandra's *Tattva-Pradīpikā* is the standard commentary.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "pancastikaya",
+      "title": "Pancastikaya",
+      "title_iast": "Pañcāstikāya",
+      "alternate_titles": ["Pañcāstikāya-Sāra"],
+      "composition_dates_low": 100,
+      "composition_dates_high": 400,
+      "composition_dates_notes": "Composition contemporary with the Samaya-Sāra and Pravacana-Sāra.",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Uniformly ascribed to Kundakunda by the Digambara tradition.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Dundas (1992, The Jains); Chakravarti's edition."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "173 Prākrit gāthās analysing the five *astikāyas* (extension-bodies) of Jaina ontology — *jīva*, *pudgala*, *dharma*, *adharma*, *ākāśa* — together with the non-extension category *kāla*. The work systematically develops the categorial structure that Umāsvāti's *Tattvārtha-Sūtra* gives in compressed form, and articulates the doctrine that the *jīva* in its niścaya-essential nature is *cid-svarūpa*, *avyaya*, *pradeśa-vān* (possessed of innumerable spatial points but not divisible). The text is the standard Digambara introduction to Jaina ontology.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-comparators-darsana-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-comparators-darsana-opus"
+}

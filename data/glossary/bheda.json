@@ -1,0 +1,32 @@
+{
+  "term_key": "bheda",
+  "term_iast": "bheda",
+  "term_devanagari": "भेद",
+  "literal": "splitting, difference, distinction; from √bhid 'to split'",
+  "aliases": ["bheda", "Bheda", "bhedaḥ", "bhedasya", "bhede", "bhedān"],
+  "invariant_definition": "Difference, distinction. A core Vedāntic term whose status is exactly the locus of school-disagreement: Advaita holds *bheda* to be ultimately illusory (the *bhedābhāva* — non-existence of difference — is the highest truth); Dvaita holds *bheda* to be eternally real and irreducible (the *pañca-bheda* doctrine); Bhedābheda holds *bheda* and *abheda* to be equally and simultaneously real. Madhva's metaphysics is sometimes summarized as *atyanta-bheda-vāda* — the doctrine of absolute difference.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Bheda* between *brahman* and *jīva* and between *jīva* and *jīva* is *vyāvahārika* only; in *pāramārthika* there is no *bheda*. The Upaniṣadic *neha nānāsti kiñcana* (Bṛhad. 4.4.19) is read as the absolute denial of difference.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.1.14", "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 4.4.19"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "The *pañca-bheda* — five eternal distinctions (Brahman–jīva, Brahman–matter, jīva–jīva, jīva–matter, matter–matter) — is foundational. *Bheda* is *svarūpa* (intrinsic), *anādi* (beginningless), *ananta* (endless), and *atyanta* (absolute).",
+      "primary_loci": ["Viṣṇu-Tattva-Vinirṇaya §§40–50", "Tattva-Saṅkhyāna 1–8 (implicit)"]
+    },
+    {
+      "school": "Bhedābheda (Bhāskara, Yādava-Prakāśa, Bhartṛprapañca)",
+      "definition": "*Bheda* and *abheda* are equally real, simultaneously obtaining. The opposition between them is not contradiction but the dialectical structure of reality itself.",
+      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 1.1.4", "Bhartṛprapañca fragments (cited in Śaṅkara's Bṛhadāraṇyaka-Bhāṣya)"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Bheda* and *abheda* simultaneously obtain *acintya* — beyond logical resolution; the relation is real but its logical structure exceeds reason. *Sākṣād-vacana* (direct scriptural utterance) is the only *pramāṇa* for it.",
+      "primary_loci": ["Tattva-Sandarbha §§51–56", "Caitanya-Caritāmṛta, Madhya 6, 20"]
+    }
+  ],
+  "see_also": ["abheda", "bhedabheda", "panca-bheda", "advaita", "dvaita"],
+  "translator_note": "'Difference' is the standard gloss. Critical: in technical Vedānta *bheda* is not weakly 'difference between' but ontological 'real distinction' — the question is whether reality at its base contains distinctions."
+}

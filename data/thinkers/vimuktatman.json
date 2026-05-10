@@ -11,10 +11,10 @@
   "school_color_token": "advaita",
   "sub_school": "Vivaraṇa-Advaita",
   "sub_school_shade": 4,
-  "lineage_in": ["sarvajnatman", "prakasatman"],
-  "lineage_out": ["vidyaranya"],
+  "lineage_in": ["sarvajnatman"],
+  "lineage_out": ["vidyaranya", "anandabodha"],
   "lineage_polemical": [],
-  "core_thesis": "Vimuktātman stands transitionally in the Vivaraṇa line, between Sarvajñātman and Prakāśātman upstream and Vidyāraṇya downstream. The principal contribution is a systematic defence of *anirvacanīya-bhāva-rūpā-avidyā* against the four standard alternative analyses of error: *anyathā-khyāti* (Naiyāyika), *asat-khyāti* (a Mādhyamika variant as Advaitically construed), *ātma-khyāti* (Vijñānavāda), and *akhyāti* (Prābhākara). The central claim is that avidyā is positively existent yet indeterminable as either *sat* or *asat*; that Brahman alone is its *āśraya*; and that the *jīva* is *cidābhāsa*, a reflection of Brahman in beginningless ignorance. The corresponding theory of error is *anirvacanīya-khyāti*: the object of erroneous cognition is itself indeterminable, neither real nor unreal. Vimuktātman's treatment of the *avaccheda-vāda* / *pratibimba-vāda* alternatives for the *jīva* helps fix the technical vocabulary that Vidyāraṇya, Madhusūdana, and later Vivaraṇa authors employ. The *Iṣṭa-Siddhi* is the standard internal Advaita reference on the metaphysics of avidyā and the analysis of *adhyāsa*.",
+  "core_thesis": "Vimuktātman stands transitionally in the Vivaraṇa line, with Sarvajñātman upstream and Ānandabodha and Vidyāraṇya downstream (Prakāśātman, on the late-13th-c. dating, is a later systematiser whose Vivaraṇa-vocabulary the *Iṣṭa-Siddhi* anticipates rather than presupposes). The principal contribution is a systematic defence of *anirvacanīya-bhāva-rūpā-avidyā* against the four standard alternative analyses of error: *anyathā-khyāti* (Naiyāyika), *asat-khyāti* (a Mādhyamika variant as Advaitically construed), *ātma-khyāti* (Vijñānavāda), and *akhyāti* (Prābhākara). The central claim is that avidyā is positively existent yet indeterminable as either *sat* or *asat*; that Brahman alone is its *āśraya*; and that the *jīva* is *cidābhāsa*, a reflection of Brahman in beginningless ignorance. The corresponding theory of error is *anirvacanīya-khyāti*: the object of erroneous cognition is itself indeterminable, neither real nor unreal. Vimuktātman's treatment of the *avaccheda-vāda* / *pratibimba-vāda* alternatives for the *jīva* helps fix the technical vocabulary that Vidyāraṇya, Madhusūdana, and later Vivaraṇa authors employ. The *Iṣṭa-Siddhi* is the standard internal Advaita reference on the metaphysics of avidyā and the analysis of *adhyāsa*.",
   "engaged_works": [
     {
       "work_id": "ista-siddhi",

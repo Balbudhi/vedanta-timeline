@@ -1,0 +1,22 @@
+{
+  "term_key": "svatantra",
+  "term_iast": "svatantra",
+  "term_devanagari": "स्वतन्त्र",
+  "literal": "self-extending, independent; from sva 'own' + tantra 'extension, system'",
+  "aliases": ["svatantra", "Svatantra", "svatantraḥ", "svatantra-tattva"],
+  "invariant_definition": "Independent — possessing existence and activity not derived from any other. The principal technical use is in Madhva's foundational ontology (*Tattva-Saṅkhyāna*): there is exactly one *svatantra-tattva* — Viṣṇu — and a vast plurality of *paratantra-tattvas*, including all *jīvas*, all *cetana* and *acetana* realities, time, space, the *guṇa*s, and the *Vedas* (the last on the question of authority). The *svatantra-paratantra* distinction is one of the *pañca-bheda* in implicit form. The term is central to Dvaita; functionally analogous distinctions exist in other schools but the technical term is principally Mādhva.",
+  "per_school": [
+    {
+      "school": "Dvaita",
+      "definition": "*Svatantra* / *paratantra* is the foundational ontological cut. *Tattva-Saṅkhyāna* opens: *svatantram paratantraṃ ca prameyam dvividhaṃ matam | svatantro bhagavān viṣṇur...* (Reality is twofold: independent and dependent. Independent is Bhagavān Viṣṇu; dependent is everything else, including the Lakṣmī...). This single cut organizes all of Madhva's metaphysics.",
+      "primary_loci": ["Tattva-Saṅkhyāna 1–3", "Brahma-Sūtra-Bhāṣya (Madhva) 1.1.2", "Anu-Vyākhyāna 1.1"]
+    },
+    {
+      "school": "Viśiṣṭādvaita / Acintya-Bhedābheda",
+      "definition": "The functional analogue: *brahman* is the only *self-existent*; *cit* and *acit* are *aprthak-siddha* with *brahman* (V); *jīva*s are *taṭasthā-śakti* of Kṛṣṇa (A-B). The technical term *svatantra* is not foregrounded.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§82–88"]
+    }
+  ],
+  "see_also": ["paratantra", "tattva", "panca-bheda", "visnu"],
+  "translator_note": "'Independent' is the standard gloss. The opposition *svatantra*-*paratantra* is structurally analogous to Spinoza's *substance*-*mode* but with the crucial difference that the *paratantra-tattvas* are real with their own existence, not modal expressions of substance."
+}

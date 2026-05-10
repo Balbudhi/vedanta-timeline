@@ -25,6 +25,14 @@ const LANE_ORDER = [
   "acintya",
   "shuddha",
   "avibhaga",
+  "samkhya-comparator",
+  "yoga-comparator",
+  "nyaya-comparator",
+  "navya-nyaya-comparator",
+  "vaisesika-comparator",
+  "mimamsa-comparator",
+  "jaina-comparator",
+  "carvaka-comparator",
   "trika-comparator",
   "cross-tradition",
 ];
@@ -38,6 +46,14 @@ const LANE_DISPLAY = {
   "acintya": "Acintya-Bhedābheda",
   "shuddha": "Śuddhādvaita",
   "avibhaga": "Avibhāgādvaita",
+  "samkhya-comparator": "Sāṃkhya",
+  "yoga-comparator": "Yoga",
+  "nyaya-comparator": "Nyāya",
+  "navya-nyaya-comparator": "Navya-Nyāya",
+  "vaisesika-comparator": "Vaiśeṣika",
+  "mimamsa-comparator": "Pūrva-Mīmāṃsā",
+  "jaina-comparator": "Jaina",
+  "carvaka-comparator": "Cārvāka",
   "trika-comparator": "Pratyabhijñā / Trika",
   "cross-tradition": "Cross-tradition",
 };
@@ -190,6 +206,10 @@ function colorFor(thinker, paletteIdx = 2) {
     bhedabheda: "#9333ea", acintya: "#db2777", shuddha: "#be123c",
     avibhaga: "#0891b2", "trika-comparator": "#475569",
     "cross-tradition": "#475569", proto: "#6b7280",
+    "samkhya-comparator": "#16a34a", "yoga-comparator": "#14b8a6",
+    "nyaya-comparator": "#ca8a04", "navya-nyaya-comparator": "#a16207",
+    "vaisesika-comparator": "#6d28d9", "mimamsa-comparator": "#7c3aed",
+    "jaina-comparator": "#65a30d", "carvaka-comparator": "#57534e",
   };
   return base[token] || "#6b7280";
 }

@@ -1,0 +1,17 @@
+{
+  "term_key": "paratantra",
+  "term_iast": "paratantra",
+  "term_devanagari": "परतन्त्र",
+  "literal": "other-extending, dependent on another; from para 'other' + tantra 'extension, system'",
+  "aliases": ["paratantra", "Paratantra", "paratantraḥ", "paratantra-tattva"],
+  "invariant_definition": "Dependent — possessing existence and activity derived from a *svatantra* source. In Madhva's ontology, *paratantra* names the entire ontological field outside Viṣṇu — including Lakṣmī (the highest *paratantra*), all *jīvas* in the *taratamya*-graded hierarchy, *prakṛti*, *kāla*, *karma*, the Vedas (in some uses), and all of inert matter. *Paratantra* is real; it is not modal or illusory. This is structurally distinct from both Spinozistic mode-doctrine and Christian creationism.",
+  "per_school": [
+    {
+      "school": "Dvaita",
+      "definition": "*Paratantra-tattva* is everything except Viṣṇu, and is graded internally by *taratamya*. Lakṣmī, then Brahmā and Vāyu, then the senior gods, then the senior *jīvas*, on down. The dependence is real: every *paratantra* requires Viṣṇu's continuous willing for its existence and activity. But this dependence does not erase the *paratantra*'s own real existence and own real activity (against Advaita).",
+      "primary_loci": ["Tattva-Saṅkhyāna 4–8", "Mahābhārata-Tātparya-Nirṇaya 1.85–95"]
+    }
+  ],
+  "see_also": ["svatantra", "tattva", "taratamya", "panca-bheda"],
+  "translator_note": "'Dependent' captures the essential. Note: *paratantra* in classical Madhva does NOT mean 'derivative' in the Spinozistic-modal sense; it is real-with-derived-existence."
+}
