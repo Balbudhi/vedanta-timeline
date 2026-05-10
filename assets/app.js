@@ -2361,8 +2361,15 @@ async function selectSourceFile(path) {
 // `# Heading` / `## Subheading` lines so they render as styled headings, but
 // leave content otherwise verbatim. Group consecutive verse lines into <pre>
 // blocks separated by headings so the user can read in chunks.
+//
+// GRETIL Sanskrit files begin with a boilerplate `# Header` block (license,
+// publisher, contribution metadata) before the actual `# Text`. The block
+// is useful for provenance but visually overwhelms the reader landing on
+// the file. We collapse it into a <details> element so the actual text is
+// what the user reads first.
 function renderPlainSourceText(text) {
-  const lines = (text || "").split(/\r?\n/);
+  text = collapseGretilHeader(text || "");
+  const lines = text.split(/\r?\n/);
   const out = [];
   let buf = [];
   const flush = () => {
@@ -2373,6 +2380,12 @@ function renderPlainSourceText(text) {
   };
   for (const raw of lines) {
     const line = raw.replace(/\s+$/, "");
+    if (line === "@@CSV_GRETIL_HEADER_PLACEHOLDER@@") {
+      flush();
+      out.push(_pendingGretilHeaderHtml);
+      _pendingGretilHeaderHtml = "";
+      continue;
+    }
     const m = /^(#{1,4})\s+(.+)$/.exec(line);
     if (m) {
       flush();
@@ -2384,6 +2397,22 @@ function renderPlainSourceText(text) {
   }
   flush();
   return out.join("\n");
+}
+
+let _pendingGretilHeaderHtml = "";
+function collapseGretilHeader(text) {
+  // Match the GRETIL `# Header` block: starts with `# Header` (anywhere in
+  // first 400 chars) and ends right before the next top-level `# ` heading.
+  const headIdx = text.search(/(^|\n)# Header\s*\n/);
+  if (headIdx < 0 || headIdx > 600) return text;
+  // Find the end: the next `\n# ` (a top-level heading other than this one).
+  const after = text.indexOf("\n# ", headIdx + 8);
+  if (after < 0) return text;
+  const block = text.slice(headIdx, after).replace(/^\n/, "");
+  const before = text.slice(0, headIdx);
+  const remainder = text.slice(after + 1); // keep the leading `# ` for the next heading
+  _pendingGretilHeaderHtml = `<details class="csv-gretil-header"><summary>GRETIL provenance &amp; license metadata</summary><pre class="csv-block">${escape(block)}</pre></details>`;
+  return before + "@@CSV_GRETIL_HEADER_PLACEHOLDER@@\n" + remainder;
 }
 
 function guessSourceFileForCitation(thinkerId, workId) {
@@ -3054,6 +3083,74 @@ window.addEventListener("resize", () => {
   }, 120);
 });
 
+// ---------- detail-pane resize handle -----------
+// Lets the user drag the left edge of the right-side panel to widen or
+// narrow it. The chosen width persists across reloads via localStorage.
+// Bounds: [360, viewport - 320 minimum canvas]. The CSS grid template
+// falls back to the original clamp when no width is set.
+function wireDetailPaneResize() {
+  if (!detailPane) return;
+  let handle = detailPane.querySelector(".dp-resize-handle");
+  if (!handle) {
+    handle = document.createElement("div");
+    handle.className = "dp-resize-handle";
+    handle.setAttribute("role", "separator");
+    handle.setAttribute("aria-orientation", "vertical");
+    handle.setAttribute("aria-label", "Resize panel");
+    handle.tabIndex = -1;
+    detailPane.insertBefore(handle, detailPane.firstChild);
+  }
+
+  function applyWidth(px) {
+    const vw = window.innerWidth;
+    const min = 360;
+    const max = Math.max(min, vw - 320);
+    const clamped = Math.min(max, Math.max(min, px));
+    document.body.style.setProperty("--pane-w-detail", clamped + "px");
+    return clamped;
+  }
+
+  try {
+    const saved = parseFloat(localStorage.getItem("dp-width-px"));
+    if (Number.isFinite(saved) && saved > 0) applyWidth(saved);
+  } catch (_) {}
+
+  let dragging = false;
+  let startX = 0;
+  let startW = 0;
+  handle.addEventListener("pointerdown", (e) => {
+    dragging = true;
+    startX = e.clientX;
+    startW = detailPane.getBoundingClientRect().width;
+    try { handle.setPointerCapture(e.pointerId); } catch (_) {}
+    handle.classList.add("is-dragging");
+    document.body.classList.add("is-resizing-pane");
+    e.preventDefault();
+  });
+  handle.addEventListener("pointermove", (e) => {
+    if (!dragging) return;
+    // Pane grows to the LEFT as the handle moves left.
+    const dx = startX - e.clientX;
+    applyWidth(startW + dx);
+  });
+  const endDrag = (e) => {
+    if (!dragging) return;
+    dragging = false;
+    handle.classList.remove("is-dragging");
+    document.body.classList.remove("is-resizing-pane");
+    try { handle.releasePointerCapture(e.pointerId); } catch (_) {}
+    const w = detailPane.getBoundingClientRect().width;
+    try { localStorage.setItem("dp-width-px", String(Math.round(w))); } catch (_) {}
+  };
+  handle.addEventListener("pointerup", endDrag);
+  handle.addEventListener("pointercancel", endDrag);
+
+  window.addEventListener("resize", () => {
+    const cur = parseFloat(getComputedStyle(detailPane).width);
+    if (Number.isFinite(cur)) applyWidth(cur);
+  });
+}
+
 // ---------- boot -----------
 loadAll().then(() => {
   refreshLayoutConstants();
@@ -3061,4 +3158,5 @@ loadAll().then(() => {
   _lastRailW = LANE_RAIL_W;
   wirePanZoom();
   wireViewToggle();
+  wireDetailPaneResize();
 });
