@@ -198,6 +198,12 @@
             "note": "Ablative expression: by means of the pramāṇas beginning with perception."
           },
           {
+            "compound": "anātmā",
+            "type": "negative-tatpurusha",
+            "resolution": "na ātmā iti anātmā",
+            "note": "naña-tatpuruṣa: the not-Self, defined privatively against the Self."
+          },
+          {
             "compound": "ātma-pūrvakaḥ",
             "type": "tatpurusha",
             "resolution": "ātmā pūrvaṃ yasya saḥ",
@@ -642,6 +648,12 @@
             "type": "dvandva",
             "resolution": "raviś ca śarvarī ca",
             "note": "Sun and night exclude one another just as knowledge and ignorance do."
+          },
+          {
+            "compound": "pañcāsyoraṇayoḥ",
+            "type": "dvandva",
+            "resolution": "pañcāsyaś ca uraṇaś ca tayoḥ",
+            "note": "Genitive dual of the pair 'lion and sheep' — used as the example of mutually-exclusive co-presence."
           }
         ],
         "karaka_structure": [
@@ -885,6 +897,12 @@
             "type": "tatpurusha",
             "resolution": "svayam anuṣṭhitaiḥ",
             "note": "Performed diligently by oneself."
+          },
+          {
+            "compound": "arthāntaram",
+            "type": "karmadharaya",
+            "resolution": "anyaḥ arthaḥ iti arthāntaram",
+            "note": "A meaning other [than the one the mahāvākya self-establishes]."
           }
         ],
         "karaka_structure": [
