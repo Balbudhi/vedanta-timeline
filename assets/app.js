@@ -1345,7 +1345,7 @@ function renderPerspectivesBlock(t) {
   const cards = matches.map((p) => `
     <div class="perspective-card" data-perspective-slug="${escape(p.slug)}">
       <span class="perspective-pill">PERSPECTIVE</span>
-      <p class="perspective-title">${escape(p.title)}</p>
+      <p class="perspective-title">${inlineMarkdown(p.title)}</p>
       ${p.subtitle ? `<p class="perspective-subtitle">${md(p.subtitle)}</p>` : ""}
       <p class="perspective-disclaimer"><em>Reading discipline.</em> An interpretive reading. The school's own self-understanding is preserved in this thinker entry; what follows is what the corpus's interpretive perspective implies about the tradition. The school may very well disagree.</p>
       <button class="perspective-open" data-perspective-slug="${escape(p.slug)}">Read perspective →</button>
@@ -2242,12 +2242,13 @@ async function selectSourceFile(path) {
   const meta = (sourceTabState.manifest && sourceTabState.manifest.files || []).find((f) => f.path === path) || {};
   dpSourceViewer.innerHTML = `
     <div class="csv-head">
-      <p class="csv-title">${escape(meta.title || path.split("/").pop())}</p>
+      <p class="csv-title">${inlineMarkdown(meta.title || path.split("/").pop())}</p>
       <div class="csv-meta">
         <span>${escape(meta.language || "")}</span>
         ${meta.category ? `<span>${escape(meta.category)}</span>` : ""}
         ${meta.edition ? `<span>${escape(meta.edition)}</span>` : ""}
         ${meta.line_count ? `<span>${meta.line_count} lines</span>` : ""}
+        ${meta.format ? `<span>${escape(meta.format)}</span>` : ""}
       </div>
     </div>
     <p class="csv-loading">Loading…</p>
@@ -2263,12 +2264,56 @@ async function selectSourceFile(path) {
     sourceTabState.fileCache.set(path, text);
   }
   if (sourceTabState.activeFilePath !== path) return;
-  const pre = document.createElement("pre");
-  pre.className = "csv-body";
-  pre.textContent = text;
+
+  // Decide rendering strategy from `format` (set by build_site_sources.py).
+  // - markdown    → renderMarkdownFull (sanskrit-aside, GFM tables, headings)
+  // - text-with-locus-marker / plain-text → render line-preserving with `# `
+  //   headings promoted to <h2>/<h3> so users see styled headings, not raw
+  //   `#` characters. We do NOT eat asterisks in plain text: they may be
+  //   editorial markup (e.g. footnote markers in djvu OCR) the user wants to
+  //   see verbatim.
+  const fmt = (meta.format || "plain-text");
+  const body = document.createElement("div");
+  body.className = "csv-body" + (fmt === "markdown" ? " csv-body--md" : " csv-body--pre");
+  if (fmt === "markdown") {
+    body.innerHTML = renderMarkdownFull(text);
+  } else {
+    body.innerHTML = renderPlainSourceText(text);
+  }
   const loading = dpSourceViewer.querySelector(".csv-loading");
-  if (loading) loading.replaceWith(pre);
+  if (loading) loading.replaceWith(body);
   dpSourceViewer.scrollTop = 0;
+}
+
+// Render a plain-text source (most files in data/sources/ are line-oriented
+// GRETIL-style verse text or djvu OCR with editorial `# Heading` markers):
+// preserve linebreaks, recognize `# Heading` / `## Subheading` lines so they
+// render as styled headings, but otherwise leave content verbatim. Group
+// consecutive verse lines into <pre> blocks separated by headings so the user
+// can read in chunks.
+function renderPlainSourceText(text) {
+  const lines = (text || "").split(/\r?\n/);
+  const out = [];
+  let buf = [];
+  const flush = () => {
+    while (buf.length && !buf[buf.length - 1].trim()) buf.pop();
+    if (!buf.length) return;
+    out.push(`<pre class="csv-block">${escape(buf.join("\n"))}</pre>`);
+    buf = [];
+  };
+  for (const raw of lines) {
+    const line = raw.replace(/\s+$/, "");
+    const m = /^(#{1,4})\s+(.+)$/.exec(line);
+    if (m) {
+      flush();
+      const level = Math.min(4, Math.max(2, m[1].length + 1));
+      out.push(`<h${level} class="csv-heading">${inlineMarkdown(m[2])}</h${level}>`);
+      continue;
+    }
+    buf.push(line);
+  }
+  flush();
+  return out.join("\n");
 }
 
 function guessSourceFileForCitation(thinkerId, workId) {
@@ -2297,6 +2342,22 @@ function guessSourceFileForCitation(thinkerId, workId) {
 function escape(s) {
   if (s == null) return "";
   return String(s).replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+
+// Minimal inline-only markdown for short strings (titles, headwords,
+// attributions, locus labels, etc.). Renders **bold** → <strong>,
+// *italic* → <em>, _italic_ → <em>, `code` → <code>. HTML-escapes everything
+// else. No paragraph splitting, no block elements, no glossary tagging — keep
+// it cheap and predictable. Use for any short string that comes from a JSON
+// manifest authored with markdown emphasis (which is most of them).
+function inlineMarkdown(s) {
+  if (s == null) return "";
+  let out = escape(s);
+  out = out.replace(/\*\*([^*\n]+?)\*\*/g, "<strong>$1</strong>");
+  out = out.replace(/\*(?!\s)([^*\n]+?)(?<!\s)\*/g, "<em>$1</em>");
+  out = out.replace(/(^|[\s(\[])_([^_\n\s][^_\n]*?[^_\n\s]|[^_\n\s])_(?=[\s).,!?;:\]]|$)/g, "$1<em>$2</em>");
+  out = out.replace(/`([^`\n]+?)`/g, "<code>$1</code>");
+  return out;
 }
 
 function md(s) {
