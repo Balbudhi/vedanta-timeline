@@ -1,0 +1,44 @@
+{
+  "id": "abhinanda",
+  "name": "Abhinanda Yogin",
+  "name_iast": "Abhinanda Yogin",
+  "alternate_names": ["Abhinanda"],
+  "dates_low": 950,
+  "dates_high": 1075,
+  "dates_tier": "contested",
+  "dates_notes": "South-Indian Krama figure of the Mahārtha lineage; dated by his standing as the source-author of the Mahārtha-Mañjarī verses on which Maheśvarānanda's thirteenth-century Parimala commentary builds. Earliest plausible terminus is shortly after Abhinavagupta's Tantrāloka; latest is just before Maheśvarānanda himself.",
+  "school": "Cross-tradition",
+  "school_color_token": "shakta-kalakula",
+  "sub_school": "Mahārtha (Krama) — source verses",
+  "sub_school_shade": 2,
+  "lineage_in": [],
+  "lineage_out": ["mahesvarananda"],
+  "lineage_polemical": [],
+  "core_thesis": "Non-Vedāntin comparator (Krama / Mahārtha source-verse author). Abhinanda is the figure who composed the seventy-one verses of the *Mahārtha-Mañjarī* — the principal South-Indian Krama text — in the Mahārāṣṭrī Prakrit that gives the work its distinctive register. The position is firmly within the *Krama* tradition: the supreme reality is *Cit* in the form of Kālī, who is the *kāla-saṅkarṣiṇī* — the devourer of time — whose worship through the *krama* (sequence) of twelve Kālīs is the path of recognition. The Krama metaphysics is non-dual but specifically *Śākta*: the supreme is articulated through the goddess as the dynamism of consciousness, and the soteriological focus is on the *krama* by which consciousness sequentially manifests, sustains, withdraws, and re-emerges its objects in each moment of cognition. The bound subject's task is to recognise this sequenced self-display as the goddess's own self-recognition, by attending to the rhythmic structure of awareness itself. Abhinanda's verses are the source-text on which Maheśvarānanda will later build his great *Parimala* auto-commentary, and so are the foundational document of the South-Indian Krama tradition that survives the disruption of the Kashmirian Krama lineage.",
+  "engaged_works": [
+    {
+      "work_id": "mahartha-manjari-verses",
+      "title": "Mahartha-Manjari (verses)",
+      "title_iast": "Mahārtha-Mañjarī (mūla-gāthās)",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored verses; Maheśvarānanda's Parimala commentary is constructed on Abhinanda's verses as its mūla-text, and the verse-text's authorship is consistently ascribed to Abhinanda within the Krama lineage's self-record.",
+      "ascription_evidence": [
+        {"kind": "school-acceptance", "description": "Universal acceptance within the South-Indian Krama lineage as the source-text on which Maheśvarānanda's commentary builds."},
+        {"kind": "internal-references", "description": "The Parimala consistently treats the verses as Abhinanda's authoritative composition."}
+      ],
+      "genre": "verse-summary",
+      "language": "sanskrit",
+      "summary": "The seventy-one Mahārāṣṭrī Prakrit verses (with intermixed Sanskrit) that constitute the *mūla*-text of the *Mahārtha-Mañjarī* — the principal source-text of the South-Indian Krama tradition. The verses unfold the Krama metaphysics in compact poetic form: Kālī as *kāla-saṅkarṣiṇī* (the devourer of time); the twelve-fold *krama* of Kālīs as the sequential self-display of consciousness in each moment of cognition (manifestation, sustaining, withdrawal, re-emergence, and the recursive levels of recognition that follow); the integration of *krama* practice with *spanda* and *Pratyabhijñā* doctrine; the soteriological focus on attentive recognition of the *krama*-rhythm as the goddess's own self-recognition. The Prakrit register is distinctive — most Trika and Krama literature is in Sanskrit — and gives the verses a folk-pedagogical accessibility that contrasts with the high scholastic register of the *Tantrāloka*. Maheśvarānanda's *Parimala* will, in the thirteenth century, build the school's authoritative auto-commentary on these verses, but the verses themselves stand as Abhinanda's foundational composition.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Abhinanda's Mahārtha-Mañjarī verses are the foundational document of the South-Indian Krama tradition and the source-text of Maheśvarānanda's Parimala. Modern scholarship on the Krama (Sanderson, Padoux, Silburn) treats the South-Indian Mahārtha lineage as the principal surviving Krama tradition after the disruption of the Kashmirian Krama lineage in the medieval period.",
+  "entry_status": "draft",
+  "entry_owner_agent": "trika-shakta-extension-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "trika-shakta-extension-opus"
+}

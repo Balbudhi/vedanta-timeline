@@ -28,7 +28,33 @@
     "vallabha",
     "baladeva"
   ],
-  "lineage_polemical": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "patanjali",
+      "direction": "refutes",
+      "note": "Brahma-Sūtra 2.1.3 (etena yogaḥ pratyuktaḥ) extends the previous adhikaraṇa's Sāṃkhya-refutation to Yoga, on the grounds that Yoga shares the Sāṃkhya pradhāna-kāraṇa-vāda."
+    },
+    {
+      "thinker_id": "kanada",
+      "direction": "refutes",
+      "note": "Brahma-Sūtra 2.2.11–17 refutes the Vaiśeṣika paramāṇu-kāraṇa-vāda — the doctrine that atoms are the world-cause — through the structural impossibility of unconscious atoms initiating the first conjunction at sarga."
+    },
+    {
+      "thinker_id": "umasvati",
+      "direction": "refutes",
+      "note": "Brahma-Sūtra 2.2.33–36 refutes the Jaina position broadly conceived: anekānta is rejected as collapsing into self-contradiction, and the doctrine of the soul's pradeśa-extension to body-size is rejected as incoherent. Umāsvāti is the foundational figure of the position refuted."
+    },
+    {
+      "thinker_id": "carvaka",
+      "direction": "refutes",
+      "note": "Brahma-Sūtra 3.3.53–54 engages the Lokāyata position that the self is identical with the body and refutes it; the engagement is the canonical Vedāntic acknowledgement of the position as a darśana to be answered."
+    },
+    {
+      "thinker_id": "jaimini",
+      "direction": "mutual",
+      "note": "Brahma-Sūtra 1.1.4 (tat tu samanvayāt) is read by every later Vedāntic bhāṣyakāra as Bādarāyaṇa's response to the Mīmāṃsā prioritization of the karma-kāṇḍa: śruti's tātparya converges on brahman, not merely on enjoined ritual action. The Brahma-Sūtra also cites Jaimini by name on several disputed adhikaraṇas (e.g., 1.2.31, 3.4.2, 4.4.5)."
+    }
+  ],
   "core_thesis": "What discipline does a Vedāntic inquirer enter, and on what authority? Bādarāyaṇa answers in his first two *sūtras*. *Athāto brahma-jijñāsā* (1.1.1) — \"now, therefore, the inquiry into *brahman*\" — opens the discipline, and *janmādy asya yataḥ* (1.1.2) defines its object as \"that from which the origin and the rest of this [world]\" proceeds. *Brahman* is thus introduced under one descriptive function: the *jagat-kāraṇa*, world-cause. The work then unfolds across four *adhyāyas* whose headings name four argumentative moves: *samanvaya* (harmonization of *śruti* texts as teaching *brahman*), *avirodha* (rebuttal of rival cosmologies), *sādhana* (the means: meditative *upāsanā*, Vedic *karma*'s relation to knowledge), *phala* (the fruit: *mokṣa* and the trajectory of the *jīva* after death). On the *jīva*–*brahman* relation Bādarāyaṇa cites three earlier ācāryas — Auḍulomi, Āśmarathya, Kāśakṛtsna — without adjudicating their dispute. The compressed style of the *sūtra* genre forces every later reader to supply a *bhāṣya*; this is why a single text becomes the shared ground of Advaita, Viśiṣṭādvaita, Dvaita, and Bhedābheda. Whether Bādarāyaṇa's underdetermination is deliberate or merely the inheritance of an oral *sūtra*-corpus is itself an open question.",
   "engaged_works": [
     {

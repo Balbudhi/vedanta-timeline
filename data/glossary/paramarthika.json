@@ -1,0 +1,17 @@
+{
+  "term_key": "paramarthika",
+  "term_iast": "pāramārthika",
+  "term_devanagari": "पारमार्थिक",
+  "literal": "pertaining to the highest meaning/reality; from parama 'highest' + artha 'object/meaning'",
+  "aliases": ["paramarthika", "pāramārthika", "Pāramārthika", "paramartha", "paramārtha"],
+  "invariant_definition": "An Advaita technical category — the highest level of reality in the *sattā-traya*. *Pāramārthika* truth is *brahman* alone; the *jīva*-*brahman* identity is *pāramārthika*; the world's *vyāvahārika* status is *pāramārthika*ally sublated. Non-Advaita schools do not adopt the three-level scheme; for them all that is real is *sat*, and the *paramārtha*-vyavahāra distinction collapses.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Pāramārthika sat* is *brahman* alone; *jīva*-*brahman* identity is *pāramārthika*; what is *pāramārthika* sublates *vyāvahārika* on the rise of *brahma-jñāna*.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.1.14", "Iṣṭa-Siddhi 1", "Pañcadaśī"]
+    }
+  ],
+  "see_also": ["vyavaharika", "pratibhasika", "satta-traya", "brahman"],
+  "translator_note": "'Ultimate' or 'absolute' acceptable; 'absolute' carries Hegelian baggage and should be flagged. 'Highest-meaning level' is closer to literal."
+}

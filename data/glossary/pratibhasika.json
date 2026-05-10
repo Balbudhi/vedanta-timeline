@@ -1,0 +1,17 @@
+{
+  "term_key": "pratibhasika",
+  "term_iast": "prātibhāsika",
+  "term_devanagari": "प्रातिभासिक",
+  "literal": "pertaining to mere appearance; from prati-bhāsa 'appearance against [something else]'",
+  "aliases": ["pratibhasika", "prātibhāsika", "Prātibhāsika", "pratibhasa", "pratibhāsa"],
+  "invariant_definition": "The lowest level of the Advaita *sattā-traya* — apparent-only reality such as the snake superimposed on the rope, the silver superimposed on the shell-piece, the dream-objects of dreaming-state cognition. *Prātibhāsika* objects are sublated in subsequent *vyāvahārika* cognition (the rope is seen as rope; one wakes up). Distinguished from *vyāvahārika* (which is sublated only in *brahma-jñāna*) and from *pāramārthika* (unsublated on any level).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Prātibhāsika* objects are *anirvacanīya* but more locally so than *vyāvahārika* objects: they appear only to the individual erring perceiver and are sublated within ordinary waking-state experience. The category is one of the principal Advaita defenses against the charge that *māyā*-doctrine reduces all cognition to dream-status — *prātibhāsika* (dream / illusion) is firmly distinct from *vyāvahārika* (ordinary world).",
+      "primary_loci": ["Iṣṭa-Siddhi 1", "Vedānta-Paribhāṣā, pratyakṣa-pariccheda"]
+    }
+  ],
+  "see_also": ["vyavaharika", "paramarthika", "satta-traya", "rajju-sarpa", "anirvacaniya"],
+  "translator_note": "'Apparent' or 'illusory' acceptable but the latter risks collapse with *mithyā* (which is the Advaita *vyāvahārika* status). Best: 'merely apparent' or *prātibhāsika* untranslated."
+}

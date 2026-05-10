@@ -1,0 +1,22 @@
+{
+  "term_key": "akhyati",
+  "term_iast": "akhyāti",
+  "term_devanagari": "अख्याति",
+  "literal": "non-appearance, non-cognition; a- + khyāti",
+  "aliases": ["akhyati", "akhyāti", "Akhyāti"],
+  "invariant_definition": "The Prābhākara Mīmāṃsā theory of erroneous cognition: in the rope-snake illusion there are *two* cognitions — a perception of the rope-shape and a memory of a snake from elsewhere — and the error consists in the *non-cognition* (*akhyāti*) of the distinction between them. There is no false cognition; only a failure to discriminate between the two real cognitions, which the agent then acts on. Sometimes called *vivekākhyāti*. Distinct from *anyathā-khyāti* (Nyāya) and *anirvacanīya-khyāti* (Advaita).",
+  "per_school": [
+    {
+      "school": "Prābhākara Mīmāṃsā",
+      "definition": "All cognition is intrinsically valid; what is called error is failure-to-distinguish two real cognitions. The agent acts as if the two cognitions referred to one object.",
+      "primary_loci": ["Bṛhatī (Prabhākara), pratyakṣa-pariccheda", "Prakaraṇa-Pañcikā (Śālikanātha), khyāti-section"]
+    },
+    {
+      "school": "Advaita / Nyāya",
+      "definition": "Rejected. The action-element of error (the agent reaching for the snake) requires a unitary cognitive object, not two disconnected cognitions. Both Advaita and Nyāya require error to be a positive cognitive event.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1 (against akhyāti)", "Nyāya-Vārttika 1.1.4"]
+    }
+  ],
+  "see_also": ["anyatha-khyati", "anirvacaniya-khyati", "khyati-vada"],
+  "translator_note": "'Theory that error is non-discrimination' is the standard gloss. Untranslatable in one English word."
+}

@@ -1,0 +1,44 @@
+{
+  "id": "mahesvarananda",
+  "name": "Mahesvarananda",
+  "name_iast": "Maheśvarānanda",
+  "alternate_names": ["Goraksa", "Maheśvarānanda Yogin"],
+  "dates_low": 1225,
+  "dates_high": 1300,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Thirteenth-century South-Indian Krama systematiser, working in the Cōla / early Pāṇḍya cultural sphere; dated by his own references to Abhinavagupta and Kṣemarāja and by his standing as the mature systematiser of the South-Indian Mahārtha lineage.",
+  "school": "Cross-tradition",
+  "school_color_token": "shakta-kalakula",
+  "sub_school": "Mahārtha (Krama) — systematic",
+  "sub_school_shade": 4,
+  "lineage_in": ["abhinanda", "abhinavagupta"],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Non-Vedāntin comparator (mature South-Indian Krama systematiser). Maheśvarānanda is the figure who brings the *Krama / Mahārtha* tradition into systematic form in the South in the thirteenth century. His *Mahārtha-Mañjarī* (with the auto-commentary *Parimala*) is the school's mature theological statement: a sustained articulation of the supreme reality as *Cit* in the form of Kālī as *kāla-saṅkarṣiṇī*, whose worship through the *krama* (sequence) of twelve Kālīs is the path of recognition. Maheśvarānanda integrates the South-Indian Krama tradition (built on Abhinanda's source-verses) with the Kashmirian Trika synthesis of Abhinavagupta and Kṣemarāja: the *krama*-doctrine is articulated within the *Pratyabhijñā* analysis of consciousness as *prakāśa-vimarśa*, and the *spanda*-doctrine is integrated as the dynamism of the *krama*-pulse. The signature thesis is that every cognitive moment exhibits the twelve-fold *krama* of Kālīs as the structure of consciousness's self-recognition: manifestation, sustaining, withdrawal, re-emergence, and the recursive levels of recognition that follow are themselves the goddess's own act of self-knowing. The work is the South-Indian Krama's most complete philosophical statement and the principal document by which the Krama tradition survives the disruption of its original Kashmirian context.",
+  "engaged_works": [
+    {
+      "work_id": "mahartha-manjari-with-parimala",
+      "title": "Mahartha-Manjari with Parimala",
+      "title_iast": "Mahārtha-Mañjarī with Parimala",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "The Parimala auto-commentary is securely authored by Maheśvarānanda; the underlying Mahārtha-Mañjarī verses are Abhinanda's, with Maheśvarānanda's Parimala constructed on them as their authoritative auto-commentary within the same lineage.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus (Cox, Sanderson, Silburn studies)."},
+        {"kind": "school-acceptance", "description": "Universal acceptance within the South-Indian Krama lineage as the school's authoritative systematic statement."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "Maheśvarānanda's commentary on the seventy-one *gāthās* of Abhinanda's *Mahārtha-Mañjarī*, organised so that the commentary works each verse into a systematic exposition of the *Krama / Mahārtha* tradition. The *Parimala* is the South-Indian Krama's most complete theological work. The *bhūmikā* establishes the foundational metaphysics: *Cit* in the form of Kālī as *kāla-saṅkarṣiṇī*; the integration of the *krama*-doctrine with the Kashmirian *Pratyabhijñā* and *Spanda* programmes (Maheśvarānanda is precise about his debts to Abhinavagupta and Kṣemarāja); the twelve-fold *krama* of Kālīs as the structure exhibited in every cognitive moment. Subsequent verses are commented to develop the school's distinctive doctrines: the Krama analysis of cognition's rising-sustaining-withdrawing-re-emerging rhythm; the soteriological *upāyas* by which the practitioner aligns awareness with the *krama*; the integration of devotional, ritual, and gnostic registers in the worship of Kālī. The work also preserves the school's living memory of the earlier Krama lineage — the Kashmirian Krama figures whom the South-Indian tradition received from but whose own works are largely lost — and is therefore one of the principal sources for the historical reconstruction of the Krama tradition as a whole. The Sanskrit register is mature scholastic, with the Prakrit *mūla* integrated through Maheśvarānanda's running gloss.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Maheśvarānanda is the mature systematiser of the South-Indian Krama tradition; his Mahārtha-Mañjarī with Parimala is the principal document by which the Krama survives into the medieval and early-modern periods after the disruption of the Kashmirian Krama lineage. Modern scholarship (Whitney Cox's monograph, Sanderson's Krama studies, Lilian Silburn's translations) has placed Maheśvarānanda at the centre of the South-Indian Krama lineage and treated the Mahārtha-Mañjarī as the school's standard reference.",
+  "entry_status": "draft",
+  "entry_owner_agent": "trika-shakta-extension-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "trika-shakta-extension-opus"
+}

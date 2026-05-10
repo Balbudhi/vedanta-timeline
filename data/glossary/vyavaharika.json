@@ -1,0 +1,22 @@
+{
+  "term_key": "vyavaharika",
+  "term_iast": "vyāvahārika",
+  "term_devanagari": "व्यावहारिक",
+  "literal": "transactional, pertaining to vyavahāra (worldly transaction); from vy-ava-√hṛ 'to deal-with, to transact'",
+  "aliases": ["vyavaharika", "vyāvahārika", "Vyāvahārika", "vyavahara", "vyavahāra"],
+  "invariant_definition": "An Advaita technical category — one of the three levels of reality (*sattā-traya*): *pāramārthika* (absolute/ultimate), *vyāvahārika* (transactional/empirical), *prātibhāsika* (apparent-only, like a dream-object or the rope-snake). The *vyāvahārika* level is the level of ordinary waking-state cognition — real for transactional purposes, sublatable in *brahma-jñāna*. The *vyāvahārika* status is essential to the Advaita response to the charge that *māyā*-doctrine reduces to subjective idealism: the world IS real at the *vyāvahārika* level. Non-Advaita schools do not adopt the three-level scheme.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Vyāvahārika* reality is intersubjective, lawful, empirically tractable, and *bhāvarūpa* — really there for transactional purposes. It is sublated only by *brahma-jñāna*, not by ordinary perception or by other *vyāvahārika* cognitions. *Īśvara*, *jīva*, the world of Vedic injunction, the *karma*-mechanism — all are *vyāvahārika*.",
+      "primary_loci": ["Iṣṭa-Siddhi 1", "Pañcadaśī 6.130–145", "Vivekacūḍāmaṇi"]
+    },
+    {
+      "school": "Other Schools",
+      "definition": "The three-level scheme is rejected; reality is single-level (*sat*), with degrees of dependence. The Advaita *vyāvahārika* category is read as a verbal evasion of full ontological commitment to the world's reality.",
+      "primary_loci": ["Vyāsatīrtha, Nyāyāmṛta", "Śrī-Bhāṣya 1.1.1"]
+    }
+  ],
+  "see_also": ["paramarthika", "pratibhasika", "satta-traya", "mithya"],
+  "translator_note": "'Empirical' is acceptable but loses the technical contrast with *prātibhāsika*. 'Transactional' is closer. The Advaita three-level scheme is structurally important and should be preserved as a distinct technical apparatus."
+}

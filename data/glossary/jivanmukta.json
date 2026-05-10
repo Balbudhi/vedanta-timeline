@@ -1,0 +1,27 @@
+{
+  "term_key": "jivanmukta",
+  "term_iast": "jīvan-mukta",
+  "term_devanagari": "जीवन्मुक्त",
+  "literal": "liberated-while-living; jīvan (present participle of √jīv 'living') + mukta 'liberated'",
+  "aliases": ["jivanmukta", "jīvan-mukta", "jīvanmukta", "Jīvanmukta", "jivanmukti", "jīvanmukti"],
+  "invariant_definition": "One who has attained liberation while still embodied. The doctrine is principally Advaita; in Advaita the *jīvanmukta* lives out *prārabdha-karma* in a body whose phenomenality has ceased to bind. *Jīvanmukti* is rejected as incoherent by Madhva (true *mokṣa* requires the dropping of the *karma*-body), and is sharply qualified by Viśiṣṭādvaita (the *prapanna* lives in unbroken devotion but is technically not 'liberated' until shedding the body and attaining Vaikuṇṭha).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "Central doctrine. The *jīvanmukta* is the *brahma-jñāni* whose *avidyā* has been removed but whose body persists due to *prārabdha-karma*. He acts spontaneously, without ego-arrogated agency, in continuing conformity with *dharma*. *Naiṣkarmya-Siddhi* and *Pañcadaśī* develop the doctrine systematically.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 4.1.13–15", "Naiṣkarmya-Siddhi 4 (jīvanmukti-prakaraṇa)", "Pañcadaśī 7", "Jīvanmukti-Viveka (Vidyāraṇya)"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Jīvanmukti* in the strong Advaita sense (final liberation while embodied) is rejected. The *prapanna* lives in unbroken devotion but final *mokṣa* (Vaikuṇṭha-attainment) is *videha* — post-mortem.",
+      "primary_loci": ["Śrī-Bhāṣya 4.4.1ff"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "Rejected. *Mokṣa* requires shedding the *karma*-body and ascending to Vaikuṇṭha; *jīvanmukti* is incoherent.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 4.1ff"]
+    }
+  ],
+  "see_also": ["videhamukti", "moksa", "prarabdha", "brahma-jnani"],
+  "translator_note": "'Living-liberated one' or 'liberated-while-living' both acceptable. The category is structurally central to Advaita and structurally absent from Mādhva Vedānta — this is one of the cleanest school-distinctions."
+}
