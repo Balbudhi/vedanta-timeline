@@ -1,0 +1,32 @@
+{
+  "term_key": "anatta",
+  "term_iast": "anattā",
+  "term_devanagari": "अनत्ता",
+  "literal": "non-self (Pāli); the refutation of substance-self as the ground of the khandha-stream",
+  "aliases": ["anatta", "anattā", "anattan", "anattatā", "Anattā", "non-self"],
+  "invariant_definition": "The Pāli form of the Buddhist doctrine of non-self, articulated in canonical form in the Anattalakkhaṇa-Sutta (SN 22.59) and in technical Theravāda detail in Buddhaghosa's Visuddhimagga (chs. XVII–XVIII) and Aṭṭhasālinī. The doctrine is the eliminative refutation of any persisting substance-self (*atta*) as the ground of the *khandha*-stream: the five *khandha*s (*rūpa*, *vedanā*, *saññā*, *saṅkhāra*, *viññāṇa*) are exhaustively analysed as impermanent (*anicca*), suffering-prone (*dukkha*), and not-self (*anattā*); no remainder beyond the *khandha*-stream needs to be posited, and any positing of such remainder is the very *avijjā* the path dissolves. The position is decisively *not* the metaphysical denial of consciousness or the annihilationist denial of the person — *viññāṇa* and the *citta-vīthi* (cognitive process) are treated with great phenomenological care, and the Brahmajāla-Sutta (DN 1) explicitly distinguishes *anattā* from the annihilationist views the Buddha rejected. *Anattā* is the refutation of the inference from the unity of cognition to the existence of a substantial substratum of cognition; it is not the refutation of cognition itself. Cross-reference: the Sanskrit cognate *anātman* in the Buddhist Abhidharma and Mādhyamaka traditions has the same eliminative-of-substance content, with the developed Mahāyāna articulation extending the analysis from the personal-self (*pudgala-nairātmya*) to all *dharma*s (*dharma-nairātmya*).",
+  "per_school": [
+    {
+      "school": "Theravāda",
+      "definition": "*Anattā* is one of the three marks (*ti-lakkhaṇa*) of all conditioned phenomena (*anicca*, *dukkha*, *anattā*). The five *khandha*s are exhaustively analysed: there is no remainder, and the apparent unity of cognition is the dynamic configuration of *citta*, *cetasika*, *rūpa* — not a substance-self underlying them. The Theravāda is uncompromising on *anattā* and refuses any reading that smuggles substance-self back in under another name (whether *pudgala*, *tathāgatagarbha*, or *ātman*).",
+      "primary_loci": ["Anattalakkhaṇa-Sutta SN 22.59", "Visuddhimagga XVII (paṭicca-samuppāda)", "Visuddhimagga XVIII (Diṭṭhi-Visuddhi-Niddesa)", "Aṭṭhasālinī (paramattha-dhamma analysis)"]
+    },
+    {
+      "school": "Sarvāstivāda (anātman as pudgala-nairātmya)",
+      "definition": "The Sarvāstivāda accepts *anātman* as *pudgala-nairātmya* (the non-self of persons) — the refutation of any substantial person-self underlying the *dharma*-stream. The position is articulated systematically in Vasubandhu's Pudgala-Pratiṣedha (the ninth chapter of the Abhidharma-Kośa-Bhāṣya), refuting the Vātsīputrīya *pudgala-vāda*. The Sarvāstivāda does *not* extend the analysis to *dharma-nairātmya* — *dharma*s are themselves real (*dravyasat*) constituents — and this is the principal doctrinal differentia between the Sarvāstivāda Abhidharma and the developed Mahāyāna position.",
+      "primary_loci": ["Abhidharma-Kośa-Bhāṣya ch. 9 (Pudgala-Pratiṣedha)"]
+    },
+    {
+      "school": "Mādhyamaka (extension to dharma-nairātmya)",
+      "definition": "Mādhyamaka extends the *anātman* analysis from *pudgala-nairātmya* to *dharma-nairātmya*: not only is there no substantial person-self, there is no *svabhāva* in any *dharma* whatsoever. The extension is articulated in Nāgārjuna's Mūla-Madhyamaka-Kārikā as the identification of *pratītya-samutpāda* with *śūnyatā* (MMK 24.18). The Mahāyāna *anātman* is therefore structurally more comprehensive than the Theravāda *anattā* but is not in opposition to it.",
+      "primary_loci": ["Mūla-Madhyamaka-Kārikā 18 (Ātma-Parīkṣā), 24 (Ārya-Satya-Parīkṣā)"]
+    },
+    {
+      "school": "Vedānta (refusal)",
+      "definition": "All Vedāntic schools refuse *anātman* / *anattā*: there is a real *ātman* (whether numerically identical with Brahman, as Advaita; a real mode of Brahman, as Viśiṣṭādvaita; or an eternally distinct dependent reality, as Dvaita). The Vedāntic refutation of the Buddhist position is concentrated at Brahma-Sūtra 2.2.18–32 (the Buddhist refutations) and is one of the foundational disputes between the Indian darśanas.",
+      "primary_loci": ["Brahma-Sūtra 2.2.18–32", "Brahma-Sūtra-Bhāṣya 2.2.18–32 (Śaṅkara)", "see also entry: atman"]
+    }
+  ],
+  "see_also": ["atman", "anatman", "khandha", "saksin", "tathagatagarbha"],
+  "translator_note": "'Non-self' is the standard English rendering, preferable to 'no-self' (which can suggest the annihilationist denial of the person that the Buddha explicitly refused). 'Not-self' is also acceptable. The decisive interpretive point is that *anattā* is the refutation of substance-self as ground of the *khandha*-stream, not the refutation of consciousness or of personal continuity at the conventional level. Western readers should not collapse *anattā* to 'atheism': it is a refutation of substance-self, not of consciousness. The Pāli *anattā* and Sanskrit *anātman* are doctrinally synonymous though philologically distinct; both should be preserved in their respective contexts."
+}

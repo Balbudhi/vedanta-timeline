@@ -1,0 +1,32 @@
+{
+  "term_key": "paticca-samuppada",
+  "term_iast": "paṭicca-samuppāda",
+  "term_devanagari": "पटिच्चसमुप्पाद",
+  "literal": "dependent origination (Pāli); the doctrine of conditioned co-arising",
+  "aliases": ["paticca-samuppada", "paṭicca-samuppāda", "paticcasamuppada", "paṭiccasamuppāda", "Paṭicca-samuppāda", "dependent origination", "dependent co-arising"],
+  "invariant_definition": "The Pāli form of the Buddhist doctrine of dependent origination, articulated in canonical form across the Sutta-piṭaka (esp. SN 12 Nidāna-Saṁyutta) and systematised in the Theravāda by Buddhaghosa in the Visuddhimagga (chapter XVII, the Paññā-Bhūmi-Niddesa). The Theravāda articulation is the determinate twelve-link causal chain: *avijjā* (ignorance) → *saṅkhāra* (volitional formations) → *viññāṇa* (consciousness) → *nāmarūpa* (name-and-form) → *saḷāyatana* (the six sense-bases) → *phassa* (contact) → *vedanā* (feeling) → *taṇhā* (craving) → *upādāna* (clinging) → *bhava* (becoming) → *jāti* (birth) → *jarāmaraṇa* (aging-and-death). The chain is articulated to explain the conditioned arising of suffering (*dukkha*) without invoking either a substantial agent (which would violate *anattā*) or pure chance (which would make practice impossible): each link conditions the next according to determinate conditioning-relations (*paccaya*) catalogued in the Paṭṭhāna. Cross-reference: the Sanskrit *pratītya-samutpāda* in the Mahāyāna tradition has the same formal twelve-link structure but is given a radically different metaphysical reading by Nāgārjuna (MMK 24.18: *yaḥ pratītya-samutpādaḥ śūnyatāṃ tāṃ pracakṣmahe*) — *pratītya-samutpāda* is identified with *śūnyatā*, the absence of *svabhāva*. The contrast between the Theravāda reading (a determinate twelve-fold causal series) and the Mādhyamaka reading (the very identification of dependent origination with emptiness) is structurally important and should not be collapsed.",
+  "per_school": [
+    {
+      "school": "Theravāda",
+      "definition": "*Paṭicca-samuppāda* is the determinate twelve-link causal chain (the *bhāva-cakka* / wheel of becoming) that explains the conditioned arising of suffering across the three lives (past, present, future) traditionally divided into past-cause / present-effect / present-cause / future-effect. The Visuddhimagga XVII supplies the canonical Theravāda exposition, supplementing the bare twelve-link chain with the twenty-four conditioning-relations (*paccaya*) catalogued in the Paṭṭhāna. The doctrine is the principal Theravāda articulation of how *anattā* and conditioned arising are jointly intelligible: there is no substantial agent, but the conditioning-relations are determinate.",
+      "primary_loci": ["Visuddhimagga XVII (Paññā-Bhūmi-Niddesa)", "SN 12 (Nidāna-Saṁyutta, esp. SN 12.1, 12.2)", "Paṭṭhāna (the seventh book of the Pāli Abhidhamma-piṭaka)"]
+    },
+    {
+      "school": "Sarvāstivāda",
+      "definition": "The Sarvāstivāda accepts the twelve-link chain in formally similar terms and articulates it within the *dravyasat* / *kāritra* framework: each link is a real *dharma* (or set of *dharma*s) standing in determinate conditioning-relations. Vasubandhu's Abhidharma-Kośa-Bhāṣya ch. 3 (Loka-Nirdeśa) supplies the Sarvāstivāda treatment, with the standard division across the three lives.",
+      "primary_loci": ["Abhidharma-Kośa-Bhāṣya ch. 3 (Loka-Nirdeśa)"]
+    },
+    {
+      "school": "Mādhyamaka (radical reading)",
+      "definition": "Nāgārjuna's Mūla-Madhyamaka-Kārikā 24.18 identifies *pratītya-samutpāda* with *śūnyatā*: *yaḥ pratītya-samutpādaḥ śūnyatāṃ tāṃ pracakṣmahe*. The twelve-link chain is preserved formally but is reinterpreted as the very recognition that no link in the chain bears *svabhāva*. The Mādhyamaka reading is therefore not in opposition to the Theravāda determinate-chain reading at the conventional level (Mādhyamaka does not refute conventional discourse) but supplies a radically different ultimate-level reading according to which dependent origination *is* the recognition of emptiness.",
+      "primary_loci": ["Mūla-Madhyamaka-Kārikā 24 (Ārya-Satya-Parīkṣā), esp. MMK 24.18"]
+    },
+    {
+      "school": "Vedānta (engagement)",
+      "definition": "The Vedāntic engagement with *pratītya-samutpāda* / *paṭicca-samuppāda* is principally through the refutation of *kṣaṇika-vāda* (momentariness) at Brahma-Sūtra 2.2.18–25 and through the broader refutation of the Buddhist position. Śaṅkara's Brahma-Sūtra-Bhāṣya thereon argues that the conditioning-relations the Buddhist invokes presuppose persisting substrata to relate, and therefore that the doctrine collapses into the very substantialism it sought to refuse.",
+      "primary_loci": ["Brahma-Sūtra 2.2.18–25", "Brahma-Sūtra-Bhāṣya 2.2.18–25 (Śaṅkara)"]
+    }
+  ],
+  "see_also": ["pratitya-samutpada", "anatta", "anatman", "ksanika", "sunyata", "khandha"],
+  "translator_note": "'Dependent origination' is the standard English rendering. 'Dependent co-arising' (favoured by Bodhi and others) preserves the *sam-* prefix's force of joint-arising. The Pāli *paṭicca-samuppāda* and Sanskrit *pratītya-samutpāda* are formally cognate but, as the per-school definitions show, the doctrinal content differs sharply between the Theravāda determinate-chain reading and the Mādhyamaka identification with *śūnyatā*. Translators should preserve both terminologies in their respective contexts and should not collapse the Theravāda twelve-link causal chain into the Mādhyamaka *śūnyatā*-formula or vice versa. The doctrine is foundational to both traditions but is read radically differently."
+}
