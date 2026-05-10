@@ -1,4 +1,4 @@
-# Madhva and Tattvavāda
+# Madhva and Tattva-vāda
 
 ## A Reader
 
@@ -8,7 +8,7 @@
 
 Madhvācārya — also called Ānandatīrtha and Pūrṇaprajña — was born near Udupi around 1238 CE and composed, before his disappearance into the Himalayas around 1317, the densest single corpus of polemical Vedānta in classical Sanskrit: thirty-seven works enumerated as the *Sarvamūla-granthāḥ*. The corpus includes the *Brahma-Sūtra-Bhāṣya*; the metrical auto-commentary *Anuvyākhyāna* (philosophically the most rigorous); the *Viṣṇu-Tattva-Vinirṇaya* (the most concentrated independent statement of *bheda*); the *Tattva-Saṅkhyāna*; the *Tattvodyota*; the *Khaṇḍana-Traya* (*Māyāvāda-*, *Upādhi-*, and *Mithyātva-Anumāna-Khaṇḍana*); ten *Upaniṣad-Bhāṣyas*; the *Gītā-Bhāṣya*; and the *Mahābhārata-Tātparya-Nirṇaya*.
 
-Within Vedānta historiography Madhva is traditionally called the founder of "Dvaita Vedānta." The label is misleading. Madhva's own technical name is *Tattvavāda* — the doctrine of *tattvas*, of realities. "Dualism" carries Cartesian, Manichean, and Zoroastrian connotations that are inappropriate: none of those models is asymmetric in the way Madhva's is. Madhva's structure is *one* independent reality (*svatantra*) — Viṣṇu — and a vast plurality of dependent realities (*asvatantra*) which are real in their own right but exist as continuously sustained modes of dependence. The structure is *aseity-and-participation-in-aseity*, closer in shape to Aquinas's *esse per se / esse per participationem* than to Sāṃkhya or Cartesianism.
+Within Vedānta historiography Madhva is traditionally called the founder of *Tattva-vāda* (often labeled Dvaita Vedānta). That label is misleading. Madhva's own technical name is *Tattva-vāda* — the doctrine of *tattvas*, of realities. "Dualism" carries Cartesian, Manichean, and Zoroastrian connotations that are inappropriate: none of those models is asymmetric in the way Madhva's is. Madhva's structure is *one* independent reality (*svatantra*) — Viṣṇu — and a vast plurality of dependent realities (*asvatantra*) which are real in their own right but exist as continuously sustained modes of dependence. The structure is *aseity-and-participation-in-aseity*, closer in shape to Aquinas's *esse per se / esse per participationem* than to Sāṃkhya or Cartesianism.
 
 Read in this light, the *viśeṣa* doctrine is not ad hoc patching but a serious technical contribution to the substance-attribute problem; the *māyā-vāda khaṇḍana* is not sectarian grumbling but a formal argument that identifies a real load-bearing problem in Śaṅkara's system, never answered on its own terms — only repositioned, by Madhusūdana, by Vivaraṇa-school authors, and (the user's reading) by Aurobindo.
 
@@ -152,7 +152,7 @@ Third leg, scriptural. Several *śruti*-passages are decisive once one reads the
 
 The basis is multifold. First, scripture distinguishes kinds of beings — *deva*, *manuṣya*, *asura*, *daitya* — and this is read by Madhva as not merely a *karmic* ranking (this *jīva* has accumulated this *karma*) but a *svabhāvic* one (this *jīva* is *constituted* with these dispositions). Second, felt experiential reality: I know my own *jīva* and the next person's is not interchangeable with mine. *Sākṣi-pratyakṣa* certifies this. Third, Viṣṇu's free sovereign creation creates intrinsically varied entities; mass-produced identical *cit* covered by varying *māyā* would be a *workmanlike* creation, not a sovereign one.
 
-Madhva goes further. He divides *jīvas* into three classes: *mukti-yogya* (constitutionally fit for liberation), *nitya-saṃsārin* (eternally caught in *saṃsāra*, never liberated), and *tamo-yogya* (constitutionally fit for *tamas* — eternal damnation, going to *andha-tamas* at the end of the cosmic cycle). This is the controversial *jīva-traividhya* (threefold *jīva*) doctrine, sometimes called the predestination thesis. It is the most commonly-attacked feature of Tattvavāda from inside Vaiṣṇavism. Caitanya, accepting Madhva's *svarūpa*-distinctness of *jīvas*, will reject the strong *tamo-yogya* version: the Caitanya tradition holds that any *jīva* can in principle be drawn to Kṛṣṇa by grace, and the eternally-damned class is not metaphysically necessary.
+Madhva goes further. He divides *jīvas* into three classes: *mukti-yogya* (constitutionally fit for liberation), *nitya-saṃsārin* (eternally caught in *saṃsāra*, never liberated), and *tamo-yogya* (constitutionally fit for *tamas* — eternal damnation, going to *andha-tamas* at the end of the cosmic cycle). This is the controversial *jīva-traividhya* (threefold *jīva*) doctrine, sometimes called the predestination thesis. It is the most commonly-attacked feature of Tattva-vāda from inside Vaiṣṇavism. Caitanya, accepting Madhva's *svarūpa*-distinctness of *jīvas*, will reject the strong *tamo-yogya* version: the Caitanya tradition holds that any *jīva* can in principle be drawn to Kṛṣṇa by grace, and the eternally-damned class is not metaphysically necessary.
 
 **Anticipated objection.** Does *jīva-traividhya* not make grace arbitrary? Reply: grace is given in accordance with the *jīva*'s *svarūpa*. The trajectory T2 does not require this doctrine; Caitanya preserves Madhva's *svarūpa-bheda* without the strong *tamo-yogya*, which suffices for T2.
 
@@ -160,7 +160,7 @@ Madhva goes further. He divides *jīvas* into three classes: *mukti-yogya* (cons
 
 **Claim.** *Jaḍa* and *jīva* are real, both *asvatantra*, but irreducibly different in kind. *Cit* is not a property that emerges from arrangements of *acetana*. Consciousness is ontologically primitive; matter is not.
 
-**Argument.** This is the structural anti-emergentism of Tattvavāda, and it has surprisingly direct contemporary resonance. The argument: whatever is *acetana* in itself cannot, by composition, become *cetana*. The properties of a complex system depend on the properties of its parts and the structure of their composition. If the parts are *acetana* and the structure is itself *acetana* (a structural property is not a *cit*-property), then no degree of complexity yields *cetana*. *Cetana* must already be present at some level for it to appear at any level.
+**Argument.** This is the structural anti-emergentism of Tattva-vāda, and it has surprisingly direct contemporary resonance. The argument: whatever is *acetana* in itself cannot, by composition, become *cetana*. The properties of a complex system depend on the properties of its parts and the structure of their composition. If the parts are *acetana* and the structure is itself *acetana* (a structural property is not a *cit*-property), then no degree of complexity yields *cetana*. *Cetana* must already be present at some level for it to appear at any level.
 
 The contemporary resonance: this is the structural form of the "hard problem" argument as advanced by Chalmers, and the panpsychist response (Strawson, Goff) is structurally Madhvic — there must be *cetana* somewhere fundamental in the ontology. Madhva's version places the *cetana* at the level of individual *jīvas*, not at the level of fundamental physical particles, but the formal point is the same: *cetana* cannot be derived from *acetana*; it must be in the basement.
 
@@ -188,7 +188,7 @@ Crucial for the user's reading: the five are right *at the level Madhva articula
 
 ## Part III — *Viśeṣa*: Real Distinction Without Pluralisation
 
-Without *viśeṣa*, Tattvavāda is incoherent. With it, Madhva has a technical instrument unique in classical Indian philosophy and the most direct precursor to Caitanya's *acintya-śakti* and Aurobindo's Real-Idea.
+Without *viśeṣa*, Tattva-vāda is incoherent. With it, Madhva has a technical instrument unique in classical Indian philosophy and the most direct precursor to Caitanya's *acintya-śakti* and Aurobindo's Real-Idea.
 
 ### The problem *viśeṣa* solves
 
@@ -284,7 +284,7 @@ First: Madhva's critique is *formal*, not theological. The argument is that Adva
 
 Second: the target is not Advaita-as-such but specifically the doctrine that the world is a *vivarta* of Brahman through *avidyā*. Madhva's formal arguments leave open Bhāskara's *bhedābheda*, Caitanya's *acintya-bhedābheda*, and the user's *avidyā* as *bhāvarūpa* divine self-veiling.
 
-Third — crucial for the user's reading — Madhva's diagnosis is correct but the prescription is too narrow. He sees that Advaita cannot locate *avidyā* and concludes that *avidyā* must be a real entity *other than* Brahman, hence Tattvavāda. A third option he does not consider: *avidyā* is *bhāvarūpa* and *Brahman's own self-veiling*. The arguments are valid as critique; the positive prescription prematurely closes off the supramental option.
+Third — crucial for the user's reading — Madhva's diagnosis is correct but the prescription is too narrow. He sees that Advaita cannot locate *avidyā* and concludes that *avidyā* must be a real entity *other than* Brahman, hence Tattva-vāda. A third option he does not consider: *avidyā* is *bhāvarūpa* and *Brahman's own self-veiling*. The arguments are valid as critique; the positive prescription prematurely closes off the supramental option.
 
 The argument runs in four stages: (V.1) the locus dilemma; (V.2) the *anirvacanīya* problem; (V.3) the Madhusūdana concession; (V.4) the *pratīti-bādha* problem.
 
@@ -360,13 +360,13 @@ A philological correction. The standard translation (Padmanabhachar; even Sharma
 
 Madhva's *māyā-vāda khaṇḍana* is *right* about the structural problem in pure Advaita. The locus of *avidyā* cannot be coherently assigned; *anirvacanīya* is an evasive non-answer; the two-level strategy generates explanatory circularity; the *pratīti-bādha* argument shows that Advaita's account of sublation is formally incomplete. Madhva names a load-bearing wall in Śaṅkara's system that cannot stand on its own.
 
-But Madhva draws the wrong conclusion. He infers: therefore *avidyā* is something Brahman did not produce; therefore reality has irreducibly multiple grounds; therefore Tattvavāda. This closes off a third option the formal arguments do not foreclose.
+But Madhva draws the wrong conclusion. He infers: therefore *avidyā* is something Brahman did not produce; therefore reality has irreducibly multiple grounds; therefore Tattva-vāda. This closes off a third option the formal arguments do not foreclose.
 
 The third option — the user's T7 — is that *avidyā* is *bhāvarūpa* because it is *Brahman's own self-expressive act of self-concealment*. This does not require a second real entity; it requires that Brahman's *svātantrya* include the freedom to self-veil. The Vivaraṇa move taken at its boldest, the Kashmir Śaiva *svātantrya* doctrine made structural, Madhusūdana's concession read as ontology rather than embarrassed retreat. The same instrument — *viśeṣa* — that Madhva uses internally to Viṣṇu can be extended (against Madhva's prohibition) to handle the relation between Brahman as veiled and Brahman as unveiled.
 
-The harder claim — which Sharma, Padmanabhachar, Buchta, and Stoker do not explicitly make: Madhva's critique is valid *and* Aurobindo's *bhāvarūpa avidyā* doctrine answers it. Strict Advaita cannot reply to Madhva. Strict Tattvavāda is the wrong positive answer to a real problem. The right answer: *avidyā* is real, *bhāvarūpa*, and Brahman's own.
+The harder claim — which Sharma, Padmanabhachar, Buchta, and Stoker do not explicitly make: Madhva's critique is valid *and* Aurobindo's *bhāvarūpa avidyā* doctrine answers it. Strict Advaita cannot reply to Madhva. Strict Tattva-vāda is the wrong positive answer to a real problem. The right answer: *avidyā* is real, *bhāvarūpa*, and Brahman's own.
 
-T7 is *forced* by Madhva's arguments if one is unwilling to accept Tattvavāda's pluralisation of grounds. Without Madhva's pressure, T7 looks like wishful reconciling theology; with it, T7 is the only consistent answer that preserves non-duality while accepting the *bhāvarūpa* status. Madhva's critique is, in this specific sense, T7's prosecutor.
+T7 is *forced* by Madhva's arguments if one is unwilling to accept Tattva-vāda's pluralisation of grounds. Without Madhva's pressure, T7 looks like wishful reconciling theology; with it, T7 is the only consistent answer that preserves non-duality while accepting the *bhāvarūpa* status. Madhva's critique is, in this specific sense, T7's prosecutor.
 
 ---
 
@@ -536,7 +536,7 @@ Jayatīrtha's exegesis is meticulous. He takes the verse as a *lakṣaṇa* (def
 
 The structural point: Madhva's opening verse is *not* mere devotion. It is a compressed definition of the *svatantra*. Jayatīrtha unpacks it as such. The *guṇaika-deha* clause asserts that Nārāyaṇa is *not composite of substance plus attributes* — his body *is* the totality of his *guṇas*; this is the *viśeṣa* doctrine in seed form, before the term itself appears. The *nirdoṣa* clause asserts *aseity* — Nārāyaṇa is free from *pāratantrya*, which is what makes him *svatantra*. The *āpyatama* clause sets the epistemology: the way to Nārāyaṇa is through *suvākyas* (the *pramāṇas* of *śabda*-tradition). The *udbhavādi* clause asserts causal asymmetry: Nārāyaṇa is the cause of *this* (the world), not vice versa.
 
-By Jayatīrtha's reading, the *maṅgala* alone contains the entire architecture of Tattvavāda: aseity, internal non-composition, causal asymmetry, and epistemic accessibility through *śabda*. Madhva does not *announce* the system in a separate prose introduction; he encodes it in the *maṅgala* and lets Jayatīrtha decode it.
+By Jayatīrtha's reading, the *maṅgala* alone contains the entire architecture of Tattva-vāda: aseity, internal non-composition, causal asymmetry, and epistemic accessibility through *śabda*. Madhva does not *announce* the system in a separate prose introduction; he encodes it in the *maṅgala* and lets Jayatīrtha decode it.
 
 ### Jayatīrtha on AV 1.1.13: from "exists by grace" to a full causal theology
 
@@ -640,7 +640,7 @@ So: Madhva's critique is *right*. Strict Advaita cannot answer it. The answer is
 
 Three subsidiary points sharpen this reading.
 
-First: the user's T7 is *forced* by Madhva's arguments if (and only if) one is unwilling to accept Tattvavāda's pluralisation of grounds. T7 is therefore not an arbitrary theological move; it is the only consistent answer that preserves non-duality while accepting the *bhāvarūpa* status of *avidyā* that Madhva forces. The trajectory's commitment to non-duality at the supramental level (T6, T11) is what selects T7 from among the options the formal arguments leave open.
+First: the user's T7 is *forced* by Madhva's arguments if (and only if) one is unwilling to accept Tattva-vāda's pluralisation of grounds. T7 is therefore not an arbitrary theological move; it is the only consistent answer that preserves non-duality while accepting the *bhāvarūpa* status of *avidyā* that Madhva forces. The trajectory's commitment to non-duality at the supramental level (T6, T11) is what selects T7 from among the options the formal arguments leave open.
 
 Second: Jayatīrtha's articulation of *avidyā* / *māyā* / *prakṛti* as a real *asvatantra dravya* under Viṣṇu's control (Part VIII) is the mirror-image of T7. Jayatīrtha establishes the formal slot — *avidyā* as *bhāvarūpa* — and then places it externally to Brahman as a real substance Viṣṇu wields. T7 takes the same slot and places *avidyā* internally to Brahman as Brahman's own self-veiling. The *formal move* is the same on both sides; the *locus assignment* differs. The Mādhva tradition therefore *anticipates the formal possibility* that T7 then re-purposes for non-dualism. Reading Jayatīrtha alongside the supramental literature exposes this kinship.
 
@@ -672,7 +672,7 @@ Trajectory-positioning: Aurobindo, *Life Divine* I.16; Caitanya-Caritāmṛta *M
 
 A small list, derived from the position-brief's forbidden moves:
 
-Do not treat Tattvavāda as crude dualism: Madhva has one independent reality and dependent plurality — aseity-plus-participation, not Cartesian dualism.
+Do not treat Tattva-vāda as crude dualism: Madhva has one independent reality and dependent plurality — aseity-plus-participation, not Cartesian dualism.
 
 Do not treat *mithyā* as *asat*. Madhva attacks the world's *sublatability*, not its existence; the distinction is preserved throughout.
 
