@@ -2267,11 +2267,10 @@ async function selectSourceFile(path) {
 
   // Decide rendering strategy from `format` (set by build_site_sources.py).
   // - markdown    → renderMarkdownFull (sanskrit-aside, GFM tables, headings)
-  // - text-with-locus-marker / plain-text → render line-preserving with `# `
+  // - plain-text / text-with-locus-marker → render line-preserving with `# `
   //   headings promoted to <h2>/<h3> so users see styled headings, not raw
   //   `#` characters. We do NOT eat asterisks in plain text: they may be
-  //   editorial markup (e.g. footnote markers in djvu OCR) the user wants to
-  //   see verbatim.
+  //   editorial markup (footnote markers in djvu OCR) the user wants verbatim.
   const fmt = (meta.format || "plain-text");
   const body = document.createElement("div");
   body.className = "csv-body" + (fmt === "markdown" ? " csv-body--md" : " csv-body--pre");
@@ -2285,12 +2284,11 @@ async function selectSourceFile(path) {
   dpSourceViewer.scrollTop = 0;
 }
 
-// Render a plain-text source (most files in data/sources/ are line-oriented
-// GRETIL-style verse text or djvu OCR with editorial `# Heading` markers):
-// preserve linebreaks, recognize `# Heading` / `## Subheading` lines so they
-// render as styled headings, but otherwise leave content verbatim. Group
-// consecutive verse lines into <pre> blocks separated by headings so the user
-// can read in chunks.
+// Render a plain-text source: preserve linebreaks (most files in
+// data/sources/ are line-oriented GRETIL verse text or djvu OCR), recognize
+// `# Heading` / `## Subheading` lines so they render as styled headings, but
+// leave content otherwise verbatim. Group consecutive verse lines into <pre>
+// blocks separated by headings so the user can read in chunks.
 function renderPlainSourceText(text) {
   const lines = (text || "").split(/\r?\n/);
   const out = [];
