@@ -422,7 +422,7 @@
       "sanskrit_iast": "na tato 'mṛtatāśāsti /\nkarmaṇo 'jñānahetutaḥ /\nmokṣasya jñānahetutvān /\nna tadanyad apekṣate //",
       "english_close": "From that, no hope of immortality exists. For action has ignorance as its cause. Mokṣa, by contrast, has knowledge as its cause. Therefore it does not depend on anything else.",
       "source": "thinker_jsons/sankara.json#key_passages[0]",
-      "verified": "pending-acquisition",
+      "verified": "unknown",
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/upadesa-sahasri/I.17.7-9": {
@@ -433,7 +433,7 @@
       "sanskrit_iast": "anyadṛṣṭis tv avidyā syāt /\ntannāśo mokṣa ucyate /\njñānenaiva tu so 'pi syād /\nvirodhitvān na karmaṇā //\n\nkarmakāryas tv anityaḥ syād /\navidyākāmakāraṇaḥ /\npramāṇaṃ veda evātra /\njñānasyādhigame smṛtaḥ //\n\njñānaikārthaparatvāt taṃ /\nvākyam ekaṃ tato viduḥ /\nekatvaṃ hy ātmano jñeyaṃ /\nvākyārthapratipattitaḥ //",
       "english_close": "The seeing of something other [than the self] would be avidyā. The destruction of that is what is called mokṣa. And that [destruction] too would come about only through jñāna. For karma, being its [logical] opponent, cannot accomplish it. What is produced by karma would be impermanent. Such a karma-effect has avidyā and desire as its causes. Here the Veda alone is held to be the pramāṇa. It is remembered as such with respect to the attainment of jñāna. Because [the Veda] is directed to a single purport — namely jñāna. They therefore know that mahā-vākya to be a single unified statement. For the oneness of the self is to be known. And it is known through the comprehension of the sentence-meaning.",
       "source": "thinker_jsons/sankara.json#key_passages[1]",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/mandukya-bhasya/upaniṣad.7": {
@@ -5927,7 +5927,7 @@
       "sanskrit_iast": "dehaliṅgātmanā kāryā vāsanārūpiṇā kriyā\nnetinetyātmarūpatvān na me kāryā kriyā kvacit",
       "english_close": "Action is to be done by one whose self is [taken to be] body and subtle body, by one constituted by latent dispositions. But because my nature is the self taught by \"not this, not this,\" no action at all is to be done by me.",
       "source": "full_translations/sankara__upadesa-sahasri.md#UpS I.11.14",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/upadesa-sahasri/I.11.16": {
@@ -5938,7 +5938,7 @@
       "sanskrit_iast": "amṛtaṃ cābhayaṃ nārtaṃ netītyātmā priyo mama\nviparītam ato 'nyad yat tyajet tat sakriyaṃ tataḥ",
       "english_close": "The self, taught as \"not this, not this,\" is immortal, fearless, untroubled, and dear to me. Therefore, whatever else is contrary to that, one should abandon, together with action.",
       "source": "full_translations/sankara__upadesa-sahasri.md#UpS I.11.16",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/upadesa-sahasri/I.17.4": {
@@ -5949,7 +5949,7 @@
       "sanskrit_iast": "ātmalābhāt paro nānyo lābhaḥ kaścana vidyate\nyadarthā vedavādāś ca smārtāś cāpi tu yāḥ kriyāḥ",
       "english_close": "No gain whatever exists higher than the attainment of the self. It is for the sake of that that the rites grounded in Vedic statement, and likewise those grounded in Smṛti, are [undertaken].",
       "source": "full_translations/sankara__upadesa-sahasri.md#UpS I.17.4",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/upadesa-sahasri/I.17.5": {
@@ -5960,7 +5960,7 @@
       "sanskrit_iast": "ātmārtho 'pi hi yo lābhaḥ sukhāyeṣṭo viparyayaḥ\nātmalābhaḥ paraḥ prokto nityatvād brahmavedibhiḥ",
       "english_close": "Even the gain that is desired for happiness as though it were for the self is a reversal. The attainment of the self is said by knowers of Brahman to be the highest, because it is permanent.",
       "source": "full_translations/sankara__upadesa-sahasri.md#UpS I.17.5",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/upadesa-sahasri/I.17.6": {
@@ -5971,7 +5971,7 @@
       "sanskrit_iast": "svayaṃ labdhasvabhāvatvāl lābhas tasya na cānyataḥ\nanyāpekṣas tu yo lābhaḥ so 'nyadṛṣṭisamudbhavaḥ",
       "english_close": "Because it is of the nature of something already obtained in oneself, its gain is not from elsewhere. But any gain that depends on another arises from seeing something as other.",
       "source": "full_translations/sankara__upadesa-sahasri.md#UpS I.17.6",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/upadesa-sahasri/I.17.7": {
@@ -5982,7 +5982,7 @@
       "sanskrit_iast": "anyadṛṣṭis tv avidyā syāt tannāśo mokṣa ucyate\njñānenaiva tu so 'pi syād virodhitvān na karmaṇā",
       "english_close": "The seeing of something other would be *avidyā*; the destruction of that is called liberation. And that too would come about only through knowledge, not through action, because action is its opposite.",
       "source": "full_translations/sankara__upadesa-sahasri.md#UpS I.17.7",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/upadesa-sahasri/I.17.8": {
@@ -5993,7 +5993,7 @@
       "sanskrit_iast": "karmakāryas tv anityaḥ syād avidyākāmakāraṇaḥ\npramāṇaṃ veda evātra jñānasyādhigame smṛtaḥ",
       "english_close": "What is produced by action would be impermanent, having ignorance and desire as its causes. Here the Veda alone is held to be the means of valid knowledge for the attainment of knowledge.",
       "source": "full_translations/sankara__upadesa-sahasri.md#UpS I.17.8",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/upadesa-sahasri/I.17.9": {
@@ -6004,7 +6004,7 @@
       "sanskrit_iast": "jñānaikārthaparatvāt taṃ vākyam ekaṃ tato viduḥ\nekatvaṃ hy ātmano jñeyaṃ vākyārthapratipattitaḥ",
       "english_close": "Because it is directed to a single purport, namely knowledge, they therefore know that sentence to be one. For the oneness of the self is what is to be known, and it is known from the apprehension of the sentence-meaning.",
       "source": "full_translations/sankara__upadesa-sahasri.md#UpS I.17.9",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/vivekacudamani/18": {
@@ -6015,8 +6015,8 @@
       "sanskrit_iast": "sādhanāny atra catvāri kathitāni manīṣibhiḥ / yeṣu satsv eva sanniṣṭhā yadabhāve na sidhyati //",
       "english_close": "Here four disciplines have been stated by the wise. Only when these are present does firm establishment attain completion; in the absence of any one of them, it does not succeed.",
       "source": "full_translations/sankara__vivekacudamani.md#Verse 18",
-      "verified": "pending-acquisition",
-      "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
+      "verified": false,
+      "verification_note": "IAST fragment not found in best-match source file (sanskrit/vedanta/full_corpus/shankara_vivekacudamani_gretil.txt)."
     },
     "sankara/vivekacudamani/19": {
       "thinker_id": "sankara",
@@ -6026,7 +6026,7 @@
       "sanskrit_iast": "ādau nityānityavastuvivekaḥ parigamyate\nihāmutraphalabhogavirāgastadanantaram\nśamādiṣaṭkasampattirmumukṣutvamiti sphuṭam //",
       "english_close": "First, discrimination between the eternal and the non-eternal reality is to be grasped. Thereafter comes dispassion toward enjoyment of fruits here and hereafter. Then the sixfold wealth beginning with *śama*; and then, plainly, the desire for liberation.",
       "source": "full_translations/sankara__vivekacudamani.md#Verse 19",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/vivekacudamani/20": {
@@ -6037,7 +6037,7 @@
       "sanskrit_iast": "brahma satyaṃ jaganmithyety evaṃrūpo viniścayaḥ / so 'yaṃ nityānityavastuvivekaḥ samudāhṛtaḥ //",
       "english_close": "“Brahman is real; the world is *mithyā*”: a determination of this form is what is here called discrimination between the eternal and the non-eternal.",
       "source": "full_translations/sankara__vivekacudamani.md#Verse 20",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/vivekacudamani/21": {
@@ -6048,7 +6048,7 @@
       "sanskrit_iast": "tadvairāgyaṃ jihāsā yā darśanaśravaṇādibhiḥ / dehādibrahmaparyante hyanitye bhogavastuni //",
       "english_close": "That dispassion is the wish to abandon the object of enjoyment that is impermanent, extending from the body up to Brahmā, through seeing, hearing, and the like.",
       "source": "full_translations/sankara__vivekacudamani.md#Verse 21",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/vivekacudamani/22": {
@@ -6059,7 +6059,7 @@
       "sanskrit_iast": "virajya viṣayavrātāddoṣadṛṣṭyā muhurmuhuḥ / svalakṣye niyatāvasthā manasaḥ śama ucyate //",
       "english_close": "Having become detached from the mass of objects, through repeated seeing of their defects again and again, the mind’s settled abiding in its own proper aim is called *śama*.",
       "source": "full_translations/sankara__vivekacudamani.md#Verse 22",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/vivekacudamani/23": {
@@ -6070,7 +6070,7 @@
       "sanskrit_iast": "viṣayebhyaḥ parāvartya sthāpanaṃ svasvagolake\nubhayeṣāmindriyāṇāṃ sa damaḥ parikīrtitaḥ\nbāhyānālambanaṃ vṛttereṣoparatiruttamā //",
       "english_close": "Turning them back from the objects, and placing each within its own proper sphere, that is declared to be *dama* for both classes of the senses. The mental modification’s non-reliance on external supports: this is the highest *uparati*.",
       "source": "full_translations/sankara__vivekacudamani.md#Verse 23",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/vivekacudamani/24": {
@@ -6081,7 +6081,7 @@
       "sanskrit_iast": "sahanaṃ sarvaduḥkhānāmapratīkārapūrvakam / cintāvilāparahitaṃ sā titikṣā nigadyate //",
       "english_close": "Endurance of all sufferings, not preceded by retaliatory counter-measures, and free from anxiety and lamentation: that is called *titikṣā*.",
       "source": "full_translations/sankara__vivekacudamani.md#Verse 24",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/vivekacudamani/25": {
@@ -6092,7 +6092,7 @@
       "sanskrit_iast": "śāstrasya guruvākyasya satyabuddhyavadhāraṇam / sā śraddhā kathitā sadbhiryayā vastūpalabhyate //",
       "english_close": "Determinate holding of scripture and the teacher’s word by means of the judgment “this is true”: that is called *śraddhā* by the good, by which the Reality is apprehended.",
       "source": "full_translations/sankara__vivekacudamani.md#Verse 25",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/vivekacudamani/26": {
@@ -6103,7 +6103,7 @@
       "sanskrit_iast": "sarvadā sthāpanaṃ buddheḥ śuddhe brahmaṇi sarvadā / tatsamādhānamityuktaṃ na tu cittasya lālanam //",
       "english_close": "The constant fixing of the intellect in the pure Brahman, always, is called *samādhāna*; not the pampering of the mind.",
       "source": "full_translations/sankara__vivekacudamani.md#Verse 26",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/vivekacudamani/27": {
@@ -6114,7 +6114,7 @@
       "sanskrit_iast": "ahaṃkārādidehāntān bandhānajñānakalpitān / svasvarūpāvabodhena moktumicchā mumukṣutā //",
       "english_close": "The desire to release the bonds, imagined by ignorance, extending from egoity to body, through the realization of one’s own true nature, is *mumukṣutva*.",
       "source": "full_translations/sankara__vivekacudamani.md#Verse 27",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/vivekacudamani/28": {
@@ -6125,7 +6125,7 @@
       "sanskrit_iast": "mandamadhyamarūpāpi vairāgyeṇa śamādinā / prasādena guroḥ seyaṃ pravṛddhā sūyate phalam //",
       "english_close": "Even if it is of weak or middling kind, this, when strengthened by dispassion, by *śama* and the rest, and by the teacher’s grace, bears fruit.",
       "source": "full_translations/sankara__vivekacudamani.md#Verse 28",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/vivekacudamani/29": {
@@ -6136,7 +6136,7 @@
       "sanskrit_iast": "vairāgyaṃ ca mumukṣutvaṃ tīvraṃ yasya tu vidyate / tasminnevārthavantaḥ syuḥ phalavantaḥ śamādayaḥ //",
       "english_close": "But in the one for whom dispassion and the desire for liberation are intense, in him alone the disciplines beginning with *śama* are meaningful and fruitful.",
       "source": "full_translations/sankara__vivekacudamani.md#Verse 29",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/vivekacudamani/30": {
@@ -6147,7 +6147,7 @@
       "sanskrit_iast": "etayor mandatā yatra viraktatvamumukṣayoḥ / marau salīlavattatra śamāderbhānamātratā //",
       "english_close": "Where these two are weak, namely dispassion and the desire for liberation, there the appearance of *śama* and the rest is only an appearance, like water in a desert.",
       "source": "full_translations/sankara__vivekacudamani.md#Verse 30",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/vivekacudamani/31": {
@@ -6158,7 +6158,7 @@
       "sanskrit_iast": "mokṣakāraṇasāmagryāṃ bhaktir eva garīyasī / svasvarūpānusandhānaṃ bhaktirityabhidhīyate //",
       "english_close": "Among the total assemblage of the causes of liberation, *bhakti* indeed is the weightiest. *Bhakti* is said to be sustained recollection and inquiry into one’s own true nature.",
       "source": "full_translations/sankara__vivekacudamani.md#Verse 31",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/vivekacudamani/32": {
@@ -6169,7 +6169,7 @@
       "sanskrit_iast": "svātmatattvānusandhānaṃ bhaktirityapare jaguḥ\nuktasādhanasaṃpannastattvajijñāsurātmanaḥ\nupasīdedguruṃ prājñyaṃ yasmādbandhavimokṣaṇam //",
       "english_close": "Others have said that *bhakti* is inquiry into the truth of one’s own Self. The seeker who desires knowledge of the Self’s truth, furnished with the disciplines already stated, should approach a wise teacher, from whom there is release from bondage.",
       "source": "full_translations/sankara__vivekacudamani.md#Verse 32",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/vivekacudamani/33": {
@@ -6180,7 +6180,7 @@
       "sanskrit_iast": "śrotriyo 'vṛjino 'kāmahato yo brahmavittamaḥ\nbrahmaṇy uparataḥ śānto nirindhana ivānalaḥ\nahetukadayāsindhurbandhurānamatāṃ satām //",
       "english_close": "He is one learned in scripture, sinless, not struck down by desire, the best knower of Brahman. Withdrawn into Brahman, peaceful, like a fire without fuel. An ocean of causeless compassion, a friend to the good who bow before him.",
       "source": "full_translations/sankara__vivekacudamani.md#Verse 33",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sankara/vivekacudamani/34": {
@@ -6191,7 +6191,7 @@
       "sanskrit_iast": "tamārādhya guruṃ bhaktyā prahvapraśrayasevanaiḥ / prasannaṃ tamanuprāpya pṛcchejjñātavyamātmanaḥ //",
       "english_close": "Having propitiated that teacher with *bhakti*, with bowed humility and with acts of service, and having found him gracious, one should ask what is to be known concerning the Self.",
       "source": "full_translations/sankara__vivekacudamani.md#Verse 34",
-      "verified": "pending-acquisition",
+      "verified": true,
       "verification_note": "Primary text not yet on disk in clean form; locus is preserved, passage awaits acquisition."
     },
     "sarvajnatman/samkshepa-sariraka/I.319": {
