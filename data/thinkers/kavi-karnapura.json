@@ -1,0 +1,81 @@
+{
+  "id": "kavi-karnapura",
+  "name": "Kavi Karnapura",
+  "name_iast": "Kavi-Karṇapūra",
+  "alternate_names": [
+    "Paramānanda-dāsa",
+    "Paramānanda Sena"
+  ],
+  "dates_low": 1524,
+  "dates_high": 1600,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Son of Śivānanda Sena, a close associate of Caitanya; born during Caitanya's lifetime; sectarian chronicles plus manuscript colophons.",
+  "school": "Acintya-Bhedābheda",
+  "school_color_token": "acintya",
+  "sub_school": "Gauḍīya rasa-theology",
+  "sub_school_shade": 4,
+  "lineage_in": [
+    "rupa-gosvami",
+    "sanatana-gosvami",
+    "caitanya"
+  ],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Kavi-Karṇapūra is the Caitanya-school *kavi* whose work integrates the Six Gosvāmīs' systematic theology of *acintya-bhedābheda* with the *kāvya*-and-*nāṭya* genres at the highest Sanskrit literary pitch. The doctrinal architecture is taken from Rūpa and Sanātana without revision: Kṛṣṇa as *svayaṃ-bhagavān* (*Caitanya-Candrodaya-Nāṭaka*, prologue *bharata-vākya*; *Ānanda-Vṛndāvana-Campū*, opening *avatārikā*); the *acintya-śakti* by which simultaneous identity and difference of *jīva* and Kṛṣṇa hold (presupposed in the *bhedābheda*-aware passages of the *Caitanya-Candrodaya* II.16–22, on Caitanya's exposition of *tattva* to Sārvabhauma); the threefold *śakti* — *antaraṅgā*, *taṭasthā*, *bahiraṅgā* (presupposed in the *līlā*-narration); *bhakti-rasa* in its five primary modes (*śānta*, *dāsya*, *sakhya*, *vātsalya*, *mādhurya*) following Rūpa's *Bhakti-Rasāmṛta-Sindhu* (*Alaṅkāra-Kaustubha* and *Caitanya-Candrodaya* draw on this taxonomy throughout).\n\nThe contribution is in three registers. First, the *Caitanya-Candrodaya-Nāṭaka* — a 10-act Sanskrit drama narrating Caitanya's life from the *avatāra* in Navadvīpa through *sannyāsa* and the Purī period, fixing the lineage's narrative-doctrinal account of Caitanya's life in the form transmitted by the Bengal Vaiṣṇava tradition (the work is contemporaneous with and complementary to Kṛṣṇadāsa Kavirāja's *Caitanya-Caritāmṛta* in Bengali). Particularly load-bearing are the dialogue scenes between Caitanya and Sārvabhauma (Act II), Caitanya and Rāmānanda Rāya (Act V), and Caitanya and Prakāśānanda Sarasvatī (Act VII), in which the school's doctrinal positions are articulated through Caitanya's reported speech — *acintya-bhedābheda* (Act II), the typology of *bhakti-rasa* (Act V), and the rejection of Advaita *māyā-vāda* (Act VII). Second, the *Ānanda-Vṛndāvana-Campū* — a *campū* (mixed verse-and-prose) narration of Kṛṣṇa's Vraja-*līlā* in 22 *stabakas*, doctrinally aligned with Rūpa's *Bhakti-Rasāmṛta-Sindhu* and serving as the school's *campū*-form *līlā*-text. Third, the *Alaṅkāra-Kaustubha* — a Sanskrit *alaṅkāra-śāstra* treatise that fixes the school's reading of *bhakti-rasa* within classical *rasa*-theory and demonstrates that *kṛṣṇa-prema* is a genuine *rasa* by the criteria of Bharata's *Nāṭya-Śāstra* and Mammaṭa's *Kāvya-Prakāśa*, against the standard Sanskrit-aesthetic objection that *bhakti* is a *bhāva* and not a *rasa*. The three works together establish the Caitanya-school's *kāvya*-presence in the Sanskrit literary world of the late sixteenth century and consolidate the school's settled positions in genres other than the *sandarbha*-treatises and the *vyākhyāna*-corpora.",
+  "engaged_works": [
+    {
+      "work_id": "caitanya-candrodaya-nataka",
+      "title": "Caitanya-Candrodaya-Nataka",
+      "title_iast": "Caitanya-Candrodaya-Nāṭaka",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Sanskrit drama in 10 acts.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "nataka",
+      "language": "sanskrit",
+      "summary": "A 10-act Sanskrit drama narrating Caitanya's life from the *avatāra* in Navadvīpa through *sannyāsa* and the Purī period. The work is doctrinal in form: the dramatic structure is used to articulate the school's settled positions through dialogue scenes attributed to Caitanya at decisive moments. Three scenes do the load-bearing doctrinal work. (i) Act II: Caitanya's exposition of *tattva* to Sārvabhauma Bhaṭṭācārya at Purī (*Caitanya-Candrodaya-Nāṭaka* II.16–22) fixes the lineage's reading of *acintya-bhedābheda* — that *jīva* and Kṛṣṇa are simultaneously identical (in being *cit*) and different (in being *aṃśa* and *aṃśin*), a simultaneity that is *acintya* because it is held by Kṛṣṇa's own *acintya-śakti* and is not subject to the standard logical objection that identity-and-difference are mutually exclusive. (ii) Act V: Caitanya's dialogue with Rāmānanda Rāya at Vidyānagara fixes the typology of *bhakti-rasa* in its five primary modes — *śānta*, *dāsya*, *sakhya*, *vātsalya*, *mādhurya* — following Rūpa's *Bhakti-Rasāmṛta-Sindhu*; *mādhurya* is fixed as the highest *rasa*, with the *gopīs*' *prema* (and Rādhā's *prema* most of all) as its consummate expression. (iii) Act VII: Caitanya's dialogue with Prakāśānanda Sarasvatī at Vārāṇasī fixes the school's polemical position against Advaita *māyā-vāda* — Bhagavān's *līlā* is real, the world is real, and *bhakti* (not *jñāna*) is the operative means to *prema*. The drama is the principal Sanskrit literary vehicle for Caitanya's life in the school's tradition and is contemporaneous with Kṛṣṇadāsa Kavirāja's *Caitanya-Caritāmṛta* in Bengali; the two works function as the school's narrative-doctrinal record of its founder.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "ananda-vrndavana-campu",
+      "title": "Ananda-Vrndavana-Campu",
+      "title_iast": "Ānanda-Vṛndāvana-Campū",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored campū-style līlā-narration in 22 stabakas.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "campu",
+      "language": "sanskrit",
+      "summary": "A *campū* — the mixed verse-and-prose genre — in 22 *stabakas* narrating Kṛṣṇa's Vraja-*līlā* from birth through the *rāsa-pañcādhyāyī* and beyond, doctrinally aligned with Rūpa's *Bhakti-Rasāmṛta-Sindhu* and Sanātana's *Bṛhad-Bhāgavatāmṛta*. The work serves as the school's *campū*-form *līlā*-text and is read alongside Jīva's *Gopāla-Campū* (which is later and longer) as the standard Sanskrit *campū*-narration of the Vraja-*līlā* in the school's curriculum. The doctrinal positions are the Six Gosvāmīs' settled positions: Kṛṣṇa as *svayaṃ-bhagavān* (*Ānanda-Vṛndāvana-Campū*, opening *avatārikā*); the *līlā* as the eternal *svarūpa-līlā* of Kṛṣṇa (not as historical event in the ordinary sense, *Ānanda-Vṛndāvana-Campū* on the *brahma-vimohana-līlā*); the *gopīs* as *nitya-siddha* with *mādhurya-rasa* as the apex (*Ānanda-Vṛndāvana-Campū* on the *rāsa-pañcādhyāyī*-stabakas, drawing on *Bhāgavata* 10.29–33). The contribution is the consolidation of *līlā*-narration in classical Sanskrit *campū* form at the highest literary pitch the school's first century achieves; the work demonstrates the school's settled doctrinal positions through narrative exposition rather than scholastic argument.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "alankara-kaustubha",
+      "title": "Alankara-Kaustubha",
+      "title_iast": "Alaṅkāra-Kaustubha",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Sanskrit alaṅkāra-śāstra treatise.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "alankara-shastra",
+      "language": "sanskrit",
+      "summary": "The *Alaṅkāra-Kaustubha* is Kavi-Karṇapūra's Sanskrit *alaṅkāra-śāstra* treatise — the school's principal contribution to the technical literature of Sanskrit poetics. The work proceeds in *kiraṇa*-divisions covering the standard topics of *alaṅkāra*: *vyañjanā*, *dhvani*, *rasa*, the inventory of figures of speech, and the conditions under which *kāvya* attains its highest form. The contribution that fixes the work's place in the Caitanya-school is the demonstration that *kṛṣṇa-prema* — and *bhakti-rasa* in its five Rūpa-typological modes (*śānta*, *dāsya*, *sakhya*, *vātsalya*, *mādhurya*) — is a genuine *rasa* by the criteria of Bharata's *Nāṭya-Śāstra* and Mammaṭa's *Kāvya-Prakāśa*. The standard Sanskrit-aesthetic position (going back to Bharata and consolidated by Mammaṭa) is that *rasa* is exhausted by the eight (with Mammaṭa, nine: adding *śānta*) classical *rasas*, and that *bhakti* is a *bhāva* (a transient emotional state) rather than a *rasa* (the stabilized aesthetic relish of a *bhāva*). Kavi-Karṇapūra answers this in two stages. First, the *Alaṅkāra-Kaustubha* argues on the criteria of the *Nāṭya-Śāstra* itself that the *vibhāva*-*anubhāva*-*vyabhicāri-bhāva*-structure is satisfied for *kṛṣṇa-prema* (Kṛṣṇa as *ālambana-vibhāva*, his *līlā* as *uddīpana-vibhāva*, the devotee's *anubhāvas* and *vyabhicāri-bhāvas* as enumerated in Rūpa's *Bhakti-Rasāmṛta-Sindhu*). Second, the work argues that *bhakti-rasa* is not merely a ninth *rasa* added to the classical eight but is the *rasa-rāja* of which the others are partial manifestations. The treatise is the school's standard contribution to Sanskrit poetics and is the principal vehicle through which Rūpa's *bhakti-rasa* taxonomy enters the wider Sanskrit *alaṅkāra-śāstra* discussion.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-intra-school-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-intra-school-opus"
+}
