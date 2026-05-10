@@ -3,32 +3,398 @@
   "term_iast": "anattā",
   "term_devanagari": "अनत्ता",
   "literal": "non-self (Pāli); the refusal of any persisting *atta* as owner, witness, or substrate of the aggregates",
-  "aliases": ["anatta", "anattā", "anattan", "anattatā", "Anattā", "non-self"],
+  "aliases": [
+    "anatta",
+    "anattā",
+    "anattan",
+    "anattatā",
+    "Anattā",
+    "non-self"
+  ],
   "invariant_definition": "The Pāli form of the Buddhist doctrine that no persisting self stands behind experience as owner, controller, or substance. In canonical presentation the target is the five *khandha*s: *rūpa*, *vedanā*, *saññā*, *saṅkhāra*, and *viññāṇa* are each to be seen as impermanent, suffering-prone, and not fit to be regarded as \"this is mine, this I am, this is my self.\" The doctrine therefore sits inside Buddhist *dharma* theory and dependent arising, not beside them. It blocks the move from continuity of memory, agency, or awareness to a substantial *ātman*. In practice it is a discipline of analysis: one examines the aggregates, the sense-bases, and the causal sequence of grasping until appropriation loosens. Mahāyāna developments preserve this personal non-self while extending the analysis from *pudgala-nairātmya* to *dharma-nairātmya*. The doctrine is not annihilationism: Buddhism does not deny the lived stream of consciousness or karmic continuity at the conventional level; it denies that those require a further self-substance.",
   "per_school": [
     {
       "school": "Theravāda",
-      "definition": "*Anattā* is one of the three marks and a principal object of *vipassanā*. The five *khandha*s and the causal series of dependent arising are analysed so that no remainder is left over as possessor of the stream. The practical use is diagnostic and liberative: by repeatedly seeing the aggregates as not-self, craving and identification lose their footing. Buddhaghosa's analysis makes the point in Abhidhamma terms: there are only conditioned *dhamma*s and their arising and ceasing, not a hidden subject behind them.",
-      "primary_loci": ["Saṃyutta-Nikāya 22.59 (Anattalakkhaṇa-Sutta)", "Dhammasaṅgaṇī §1ff", "Visuddhimagga XVIII.25–30"]
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     },
     {
       "school": "Sarvāstivāda",
-      "definition": "The Sarvāstivādin accepts non-self as *pudgala-nairātmya*: there is no person over and above the *dharma* stream. What remains real are the *dharma*s themselves, each with its own *svabhāva* across the three times. The school therefore rejects the Vātsīputrīya *pudgala* while refusing the later Mahāyāna extension to *dharma-nairātmya*. The target is the personal substrate, not the irreducible constituents recognized by Abhidharma analysis.",
-      "primary_loci": ["Abhidharma-Kośa-Bhāṣya 9.1–43", "Mahā-Vibhāṣā [NOT YET RETRIEVED]"]
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Advaita",
+      "definition": "Advaita does not admit *anattā* as a final ontology, since bondage and *avidyā* are intelligible only with reference to an enduring self and never with reference to a merely non-self substrate [cite://vimuktatman/ista-siddhi/1.Jaḍe'py avidyāpādanam.140]. The empirical manifold is sublated not because there is no self, but because the unborn non-dual *ātman* appears as differentiated under *māyā* while the *jīva* is never a real modification of that Self [cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.3-7] [cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.19-21].",
+      "primary_loci": [
+        "Māṇḍūkya-Kārikā 3.3-7",
+        "Māṇḍūkya-Kārikā 3.19-21",
+        "Iṣṭa-Siddhi 1.140"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vimuktatman/ista-siddhi/1.Jaḍe'py avidyāpādanam.140",
+          "locus_short": "IṢ 1.140"
+        },
+        {
+          "cite": "cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.3-7",
+          "locus_short": "MK 3.3-7"
+        },
+        {
+          "cite": "cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.19-21",
+          "locus_short": "MK 3.19-21"
+        }
+      ]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Viśiṣṭādvaita rejects *anattā* because the *ātman* is distinct from body, senses, mind, breath, and cognitions; it is self-manifest, eternal, and numerically distinct in each embodied locus [cite://yamuna/atma-siddhi/3] [cite://yamuna/atma-siddhi/5] [cite://yamuna/atma-siddhi/7]. What must be removed is not selfhood but dehātma-bhrama, so that the *jīva* may realize its dehātirikta-svarūpa and its dependence on the antaryāmin Paramātman [cite://ramanuja/vedartha-samgraha/§4] [cite://ramanuja/vedartha-samgraha/§5].",
+      "primary_loci": [
+        "Ātma-Siddhi 3, 5, 7",
+        "Vedārtha-Saṃgraha §§4-5"
+      ],
+      "citations": [
+        {
+          "cite": "cite://yamuna/atma-siddhi/3",
+          "locus_short": "ĀS 3"
+        },
+        {
+          "cite": "cite://yamuna/atma-siddhi/5",
+          "locus_short": "ĀS 5"
+        },
+        {
+          "cite": "cite://yamuna/atma-siddhi/7",
+          "locus_short": "ĀS 7"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§4",
+          "locus_short": "VŚ 4"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§5",
+          "locus_short": "VŚ 5"
+        }
+      ]
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "Tattva-vāda refuses *anattā* because the *jīva* is a real dependent entity under Hari, not a merely aggregate-based fiction or a witness reducible to conditioned processes [cite://madhva/anuvyakhyana/1.1.13-15] [cite://madhva/anuvyakhyana/2.3.66-69]. Even in liberation the *jīva* retains its own conscious nature, and essential difference between *jīva* and Īśvara is never cancelled [cite://madhva/anuvyakhyana/1.4.111-112] [cite://madhva/anuvyakhyana/2.3.66-69].",
+      "primary_loci": [
+        "Anuvyākhyāna 1.1.13-15",
+        "Anuvyākhyāna 1.4.111-112",
+        "Anuvyākhyāna 2.3.66-69"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/anuvyakhyana/1.1.13-15",
+          "locus_short": "Anuvy. 1.1.13-15"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/1.4.111-112",
+          "locus_short": "Anuvy. 1.4.111-112"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/2.3.66-69",
+          "locus_short": "Anuvy. 2.3.66-69"
+        }
+      ]
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "Acintya-Bhedābheda rejects *anattā* because the *jīva* is a real conscious principle related to Bhagavān by simultaneous difference and non-difference grounded in his inconceivable power [cite://jiva-gosvami/sat-sandarbha/§43] [cite://jiva-gosvami/sat-sandarbha/§44]. The path therefore purifies consciousness into servanthood rather than dissolving selfhood, as Caitanya's self-description as Bhagavān's *kiṅkara* makes explicit [cite://caitanya/shikshashtakam/5] [cite://jiva-gosvami/sat-sandarbha/§44].",
+      "primary_loci": [
+        "Paramātma-Sandarbha §§43-44",
+        "Śikṣāṣṭakam 5"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§43",
+          "locus_short": "PS §43"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§44",
+          "locus_short": "PS §44"
+        },
+        {
+          "cite": "cite://caitanya/shikshashtakam/5",
+          "locus_short": "Śikṣ 5"
+        }
+      ]
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "Dvaitādvaita rejects *anattā* because the *jīva* is an atomic knower, distinct in each body, yet dependent on Hari and fit for conjunction with and release from embodiment [cite://nimbarka/dasa-shloki/1]. Bondage belongs to the beginningless *māyā*-condition of that enduring *jīva*, so liberation is not disclosure of non-self but transformation of a real self into its liberated devotional condition [cite://nimbarka/dasa-shloki/2].",
+      "primary_loci": [
+        "Daśa-Ślokī 1-2"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nimbarka/dasa-shloki/1",
+          "locus_short": "DaŚ 1"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/2",
+          "locus_short": "DaŚ 2"
+        }
+      ]
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "Śuddhādvaita rejects *anattā* because the *jīva* is a real eternal *aṃśa* of Brahman and not a merely conventional designation supervening on a non-substantial stream [cite://vallabha/anubhasya/2.3.43-45a] [cite://vallabha/anubhasya/2.3.43-45d]. Since Brahman truly manifests itself as world and souls without ceasing to be itself, liberation concerns the jīva's attainment of Puruṣottama and not the elimination of selfhood [cite://vallabha/anu-bhasya/1.1.12-19] [cite://vallabha/anu-bhasya/1.4.26].",
+      "primary_loci": [
+        "Aṇu-Bhāṣya 1.1.12-19",
+        "Aṇu-Bhāṣya 1.4.26",
+        "Aṇu-Bhāṣya 2.3.43-45"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anubhasya/2.3.43-45a",
+          "locus_short": "BSB 2.3.43-45a"
+        },
+        {
+          "cite": "cite://vallabha/anubhasya/2.3.43-45d",
+          "locus_short": "BSB 2.3.43-45d"
+        },
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.1.12-19",
+          "locus_short": "BSB 1.1.12-19"
+        },
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.4.26",
+          "locus_short": "BSB 1.4.26"
+        }
+      ]
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "Sāṃkhya rejects *anattā* because the existence and plurality of *puruṣas* are inferred from enjoyership, from the for-anotherness of aggregates, and from the ordered distribution of embodiment and experience [cite://isvarakrsna/samkhya-karika/isk_17] [cite://isvarakrsna/samkhya-karika/isk_18]. The self is witness, seer, and non-agent, while bondage and release belong to prakṛti's relation to that *puruṣa*; liberation is therefore disentanglement from misidentification, not denial of selfhood [cite://isvarakrsna/samkhya-karika/isk_19] [cite://isvarakrsna/samkhya-karika/isk_59].",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 17-19",
+        "Sāṃkhya-Kārikā 59"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/isk_17",
+          "locus_short": "SK 17"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/isk_18",
+          "locus_short": "SK 18"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/isk_19",
+          "locus_short": "SK 19"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/isk_59",
+          "locus_short": "SK 59"
+        }
+      ]
+    },
+    {
+      "school": "Yoga",
+      "definition": "Yoga rejects *anattā* because the always-known status of mental *vṛttis* implies an unchanging *puruṣa* distinct from *citta*, since those vṛttis would be alternately known and unknown were the self itself *pariṇāmin* [cite://vyasa/yoga-bhasya/4.18]. Release is accordingly *kaivalya*, the state in which the *guṇas* have ceased to serve the *puruṣa* and *citiśakti* stands alone in its own form, not the disclosure that there was never any self at all [cite://vyasa/yoga-bhasya/4.34].",
+      "primary_loci": [
+        "Yoga-Bhāṣya on Yoga-Sūtra 4.18",
+        "Yoga-Bhāṣya on Yoga-Sūtra 4.34"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vyasa/yoga-bhasya/4.18",
+          "locus_short": "YBh 4.18"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/4.34",
+          "locus_short": "YBh 4.34"
+        }
+      ]
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "Nyāya-Vaiśeṣika rejects *anattā* because desire, aversion, effort, pleasure, pain, and cognition are marks of a real enduring self, and the cognition I directly discloses an inward subject distinct from body and non-self [cite://aksapada/nyaya-sutra/1.1.10] [cite://kanada/vaisesika-sutra/3.2.4] [cite://kanada/vaisesika-sutra/3.2.13]. Its analysis of bondage therefore targets not selfhood as such but the error of grasping the non-self as self, which Nyāya identifies as the *ahaṅkāra* that seeds saṃsāra [cite://vatsyayana/nyaya-bhasya/4.2.1].",
+      "primary_loci": [
+        "Nyāya-Sūtra 1.1.10",
+        "Vaiśeṣika-Sūtra 3.2.4",
+        "Vaiśeṣika-Sūtra 3.2.13",
+        "Nyāya-Bhāṣya on Nyāya-Sūtra 4.2.1"
+      ],
+      "citations": [
+        {
+          "cite": "cite://aksapada/nyaya-sutra/1.1.10",
+          "locus_short": "NS 1.1.10"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/3.2.4",
+          "locus_short": "VS 3.2.4"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/3.2.13",
+          "locus_short": "VS 3.2.13"
+        },
+        {
+          "cite": "cite://vatsyayana/nyaya-bhasya/4.2.1",
+          "locus_short": "NBh 4.2.1"
+        }
+      ]
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "Pūrva-Mīmāṃsā rejects *anattā* because Vedic action is for the sake of the person and links that enduring ritual subject to *niḥśreyasa* rather than dissolving it into a non-self continuum [cite://jaimini/mimamsa-sutra/4.1.3] [cite://shabara/mimamsa-bhasya/ms_1.1.2]. The self is also the locus of cognition, desire, and cross-temporal recognition, so the school's ritual and epistemic order presupposes an enduring *ātman* rather than an aggregate-series without owner or bearer [cite://shabara/mimamsa-bhasya/ms_1.1.4] [cite://shabara/mimamsa-bhasya/icchayātmānam-upalabhāmahe].",
+      "primary_loci": [
+        "Mīmāṃsā-Sūtra 4.1.3",
+        "Śabara-Bhāṣya on Mīmāṃsā-Sūtra 1.1.2",
+        "Śabara-Bhāṣya on Mīmāṃsā-Sūtra 1.1.4",
+        "Śabara-Bhāṣya, icchayātmānam discussion"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/4.1.3",
+          "locus_short": "MS 4.1.3"
+        },
+        {
+          "cite": "cite://shabara/mimamsa-bhasya/ms_1.1.2",
+          "locus_short": "ŚBh 1.1.2"
+        },
+        {
+          "cite": "cite://shabara/mimamsa-bhasya/ms_1.1.4",
+          "locus_short": "ŚBh 1.1.4"
+        },
+        {
+          "cite": "cite://shabara/mimamsa-bhasya/icchayātmānam-upalabhāmahe",
+          "locus_short": "ŚBh, icchayātmānam"
+        }
+      ]
     },
     {
       "school": "Mādhyamaka",
-      "definition": "Mādhyamaka retains personal non-self but radicalizes it into universal lack of *svabhāva*. The self is not absent because more basic *dharma*s do the real work; rather, both person and *dharma* are empty when analysed. This is the shift from *pudgala-nairātmya* to *dharma-nairātmya*. The practical consequence is that attachment to either a personal essence or a metaphysical building-block ontology is equally to be relinquished.",
-      "primary_loci": ["Mūla-Madhyamaka-Kārikā 18.1–12", "Mūla-Madhyamaka-Kārikā 24.18–19"]
+      "definition": "Mādhyamaka preserves the Buddhist teaching of non-self but radicalizes it: not only person but every putative *svabhāva* is empty [cite://nagarjuna/mula-madhyamaka-karika/18.6] [cite://nagarjuna/mula-madhyamaka-karika/24.18]. Non-self is therefore not a thesis that leaves ultimately real dharmas standing behind the person; it is the exhaustion of I-making and mine-making within the wider logic of emptiness and dependent origination [cite://nagarjuna/mula-madhyamaka-karika/18.4] [cite://nagarjuna/mula-madhyamaka-karika/18.6] [cite://nagarjuna/mula-madhyamaka-karika/24.18].",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 18.4-6",
+        "Mūla-Madhyamaka-Kārikā 24.18"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/18.4",
+          "locus_short": "MMK 18.4"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/18.6",
+          "locus_short": "MMK 18.6"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.18",
+          "locus_short": "MMK 24.18"
+        }
+      ]
     },
     {
-      "school": "Vedānta",
-      "definition": "Vedāntic schools reject *anattā* because they take the witness or self to be irreducible, not analyzable away into aggregates or momentary events. Their criticism is not merely verbal: it turns on the claim that recognition, memory, and karmic responsibility require an enduring subject. The Buddhist denial of self is therefore treated as one of the defining *nāstika* positions to be answered in the *Brahma-Sūtra* commentarial tradition.",
-      "primary_loci": ["Brahma-Sūtra 2.2.18–32", "Brahma-Sūtra-Bhāṣya 2.2.18–32"]
+      "school": "Yogācāra",
+      "definition": "Yogācāra accepts *pudgala-nairātmya*: the manifold attribution of self occurs only within the transformations of consciousness and the afflicted *manas*, not in a real *ātman* [cite://vasubandhu/trimsika/1] [cite://vasubandhu/trimsika/6]. It extends this into *dharma-nairātmya* by denying that grasper-grasped duality or externalized dharma-forms have the selfhood imagined by the childish, while still retaining *vijñaptimātra* as the explanatory basis [cite://vasubandhu/vimsatika/9 and Entry into *Pudgala-Nairātmya*] [cite://vasubandhu/vimsatika/10 and Entry into *Dharma-Nairātmya*] [cite://vasubandhu/trimsika/23].",
+      "primary_loci": [
+        "Triṃśikā 1, 6, 23",
+        "Viṃśatikā 9-10"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/trimsika/1",
+          "locus_short": "Triṃ 1"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/6",
+          "locus_short": "Triṃ 6"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/23",
+          "locus_short": "Triṃ 23"
+        },
+        {
+          "cite": "cite://vasubandhu/vimsatika/9 and Entry into *Pudgala-Nairātmya*",
+          "locus_short": "Viṃ 9"
+        },
+        {
+          "cite": "cite://vasubandhu/vimsatika/10 and Entry into *Dharma-Nairātmya*",
+          "locus_short": "Viṃ 10"
+        }
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "Trika rejects *anattā* because bondage is precisely the *anātmābhimāna* by which selfhood is projected onto body, breath, and the rest while the real self remains untouched as higher consciousness [cite://abhinavagupta/paramartha-sara/30-31] [cite://abhinavagupta/paramartha-sara/39]. Recognition overturns not selfhood but this inversion, since consciousness is intrinsically reflexive and sovereign and the saṃsārin is only that same consciousness under *śakti-saṃkoca* and *mala* [cite://utpaladeva/isvara-pratyabhijna-karika/1.5.13] [cite://ksemaraja/pratyabhijna-hrdayam/9].",
+      "primary_loci": [
+        "Paramārtha-Sāra 30-31, 39",
+        "Īśvarapratyabhijñākārikā 1.5.13",
+        "Pratyabhijñāhṛdayam 9"
+      ],
+      "citations": [
+        {
+          "cite": "cite://abhinavagupta/paramartha-sara/30-31",
+          "locus_short": "PS 30-31"
+        },
+        {
+          "cite": "cite://abhinavagupta/paramartha-sara/39",
+          "locus_short": "PS 39"
+        },
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/1.5.13",
+          "locus_short": "ĪPK 1.5.13"
+        },
+        {
+          "cite": "cite://ksemaraja/pratyabhijna-hrdayam/9",
+          "locus_short": "PH 9"
+        }
+      ]
+    },
+    {
+      "school": "Jainism",
+      "definition": "Jainism rejects *anattā* because *jīva* and *ajīva* are irreducible *tattvas*, and the defining mark of *jīva* is *upayoga*, the operative manifestation of consciousness [cite://umasvati/tattvartha-sutra/jiva-ajiva-tattvam] [cite://umasvati/tattvartha-sutra/upayogo-laksanam]. Bondage occurs when the passion-bearing *jīva* takes in karmically fit *pudgala*, so liberation is separation of an enduring conscious substance from karmic matter and not the denial of selfhood [cite://umasvati/tattvartha-sutra/bandha] [cite://umasvati/tattvartha-sutra/kevala-moksha].",
+      "primary_loci": [
+        "Tattvārtha-Sūtra 1.4",
+        "Tattvārtha-Sūtra 2.8",
+        "Tattvārtha-Sūtra 8.2",
+        "Tattvārtha-Sūtra 10.1-2"
+      ],
+      "citations": [
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/jiva-ajiva-tattvam",
+          "locus_short": "TS 1.4"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/upayogo-laksanam",
+          "locus_short": "TS 2.8"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/bandha",
+          "locus_short": "TS 8.2"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/kevala-moksha",
+          "locus_short": "TS 10.1-2"
+        }
+      ]
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     }
   ],
-  "see_also": ["atman", "anatman", "khandha", "saksin", "tathagatagarbha"],
+  "see_also": [
+    "atman",
+    "anatman",
+    "khandha",
+    "saksin",
+    "tathagatagarbha"
+  ],
   "translator_note": "\"Non-self\" is the least misleading English gloss. \"No-self\" often imports annihilationist baggage, as though Buddhism denied the empirical stream altogether; it does not. The doctrine rejects a substantial self behind the aggregates, not the conventional person, not karmic continuity, and not consciousness as experienced. English \"self\" also carries modern individualist and introspective assumptions that the Buddhist analysis is precisely designed to dismantle.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus"
+  "last_verified_by": "glossary-wave2-codex54"
 }
