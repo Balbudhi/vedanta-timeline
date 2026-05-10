@@ -397,6 +397,18 @@
             "note": "Following a single will."
           },
           {
+            "compound": "ekecchānuvidhāyīdam",
+            "type": "other",
+            "resolution": "ekecchānuvidhāyi + idam",
+            "note": "Surface sandhi-bundling of ekecchānuvidhāyin (nom sg neut) with the demonstrative idam — strictly two padas, joined by sandhi."
+          },
+          {
+            "compound": "vivādādhyāsitam",
+            "type": "tatpurusha",
+            "resolution": "vivāde adhyāsitam",
+            "note": "Locative-tatpuruṣa: 'placed in dispute', i.e., the contested subject."
+          },
+          {
             "compound": "svadehavat",
             "type": "tatpurusha",
             "resolution": "svaḥ dehaḥ iva",
