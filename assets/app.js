@@ -2252,7 +2252,7 @@ function renderMarkdownFull(src) {
     const sk = skMatch ? skMatch[1].trim() : "";
     const en = enMatch ? enMatch[1].trim() : "";
     asides.push({ sk, en });
-    return ` SKASIDE${asides.length - 1} `;
+    return ` SKASIDE${asides.length - 1} `;
   });
   // Pull out fenced code blocks (preserve verbatim).
   const blocks = [];
