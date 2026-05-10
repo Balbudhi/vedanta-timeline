@@ -173,6 +173,7 @@ const state = {
   comparativeClaims: [],
   glossary: new Map(),       // term-key → entry
   glossaryRegex: null,
+  citationIndex: null,       // {entries: {key: passage}, aliases: {key: targetKey}}
   range: { low: -800, high: 2050 },
   pxPerYear: PX_PER_YEAR_DEFAULT,
   layout: new Map(),         // id → {x, y, lane, shade, tier, barX1, barX2, name, label}
@@ -1250,6 +1251,14 @@ document.addEventListener("click", (e) => {
   if (a) {
     e.preventDefault();
     openThinker(a.dataset.thinkerLink);
+    return;
+  }
+  // citation popovers (clickable primary-source citations)
+  const cite = e.target.closest("a[href^='cite://']");
+  if (cite) {
+    e.preventDefault();
+    const key = cite.getAttribute("href").replace(/^cite:\/\//, "");
+    openCitationPopover(key, cite);
     return;
   }
   // glossary popovers
