@@ -605,6 +605,39 @@ body.is-detail-open .detail-pane {
   margin: 4px 0 8px;
 }
 
+.source-status {
+  display: flex; align-items: center; gap: 8px;
+  font-family: var(--sans);
+  font-size: 11px;
+  color: var(--muted);
+  margin: 8px 0 12px;
+  padding: 6px 10px;
+  border-radius: 3px;
+  background: var(--bg-warm);
+  font-weight: 500;
+}
+.source-status .dot {
+  display: inline-block;
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.source-status--present {
+  background: #f0fdf4;
+  color: #166534;
+}
+.source-status--present .dot { background: #16a34a; }
+.source-status--missing {
+  background: #fef3c7;
+  color: #92400e;
+}
+.source-status--missing .dot { background: #d97706; }
+/* Dim "Read full work" button when text is not in corpus — translation will be a placeholder */
+.work-card[data-source-status="primary-text-not-in-corpus"] .read-full-link,
+.work-card[data-source-status="degraded-on-disk"] .read-full-link {
+  opacity: 0.6;
+  font-style: italic;
+}
 .read-full-link {
   display: inline-flex; align-items: center; gap: 6px;
   font-family: var(--sans);

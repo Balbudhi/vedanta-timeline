@@ -1073,14 +1073,26 @@ function renderEngagedWorks(t) {
 
 function renderWorkCard(w, passages, thinkerId) {
   const ascr = (w.ascription_tier || "").replace(/-/g, " ");
+  const status = w.source_status || "";
+  const statusLabel = {
+    "clean-on-disk": "Sanskrit text in our corpus",
+    "acceptable-on-disk": "Sanskrit text in our corpus (OCR — usable)",
+    "degraded-on-disk": "Sanskrit text on disk but degraded — locus-only",
+    "primary-text-not-in-corpus": "Primary text not in our corpus",
+    "english-original": "English original",
+    "bengali-original": "Bengali original",
+    "tamil-original": "Tamil original",
+  }[status] || "";
+  const statusKind = (status === "primary-text-not-in-corpus" || status === "degraded-on-disk") ? "missing" : "present";
   return `
-    <div class="work-card" data-work-id="${escape(w.work_id)}">
+    <div class="work-card" data-work-id="${escape(w.work_id)}" data-source-status="${escape(status)}">
       <div class="title-line">
         <span class="title">${escape(w.title_iast || w.title || w.work_id)}</span>
         ${ascr ? `<span class="ascr">${escape(ascr)}</span>` : ""}
       </div>
       <p class="summary">${md(w.summary || "")}</p>
       ${w.ascription_notes ? `<p class="ascr-notes">${md(w.ascription_notes)}</p>` : ""}
+      ${statusLabel ? `<p class="source-status source-status--${statusKind}"><span class="dot"></span>${escape(statusLabel)}</p>` : ""}
       <button class="read-full-link" data-read-full="${escape(w.work_id)}" data-thinker="${escape(thinkerId)}">Read the full work in translation</button>
       ${passages.length ? `
         <div class="passages-nested">
