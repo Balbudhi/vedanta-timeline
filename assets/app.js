@@ -1597,22 +1597,9 @@ async function openCitationPopover(key, anchorEl) {
   document.addEventListener("keydown", escClose);
 }
 
-// ---------- citation panel (persistent right-side, Source + Citation tabs) -----------
-const citePanelEl = document.getElementById("citationPanel");
-const citePanelCloseBtn = document.getElementById("citePanelClose");
-const citeTabSourceBtn = document.getElementById("citeTabSource");
-const citeTabCitationBtn = document.getElementById("citeTabCitation");
-const citePaneSource = document.getElementById("citePaneSource");
-const citePaneCitation = document.getElementById("citePaneCitation");
-const citeSourceSearch = document.getElementById("citeSourceSearch");
-const citeSourceTree = document.getElementById("citeSourceTree");
-const citeSourceViewer = document.getElementById("citeSourceViewer");
-const citeCitationEmpty = document.getElementById("citeCitationEmpty");
-const citeCitationBody = document.getElementById("citeCitationBody");
-
-const citePanel = {
-  open: false,
-  tab: "citation",      // "source" | "citation"
+// ---------- Citation tab + Source tab (in the unified panel) -----------
+// Tab-shared state: manifest, file cache, active selections.
+const sourceTabState = {
   manifestLoaded: false,
   manifest: null,
   fileCache: new Map(), // path -> text
@@ -1620,59 +1607,20 @@ const citePanel = {
   activeCiteKey: null,
 };
 
-function isCitePanelMobile() {
-  return window.matchMedia("(max-width: 720px)").matches;
-}
-
-function openCitePanel(tab) {
-  if (isCitePanelMobile()) return;
-  if (tab) citePanel.tab = tab;
-  citePanel.open = true;
-  citePanelEl.classList.add("is-open");
-  citePanelEl.setAttribute("aria-hidden", "false");
-  setCitePanelTab(citePanel.tab);
-  try { localStorage.setItem("vedanta-cite-panel-tab", citePanel.tab); } catch (_) {}
-}
-
-function closeCitePanel() {
-  citePanel.open = false;
-  citePanelEl.classList.remove("is-open");
-  citePanelEl.setAttribute("aria-hidden", "true");
-}
-
-function setCitePanelTab(tab) {
-  if (tab !== "source" && tab !== "citation") return;
-  citePanel.tab = tab;
-  const isSrc = tab === "source";
-  citeTabSourceBtn.classList.toggle("is-active", isSrc);
-  citeTabSourceBtn.setAttribute("aria-selected", isSrc ? "true" : "false");
-  citeTabCitationBtn.classList.toggle("is-active", !isSrc);
-  citeTabCitationBtn.setAttribute("aria-selected", !isSrc ? "true" : "false");
-  citePaneSource.classList.toggle("is-active", isSrc);
-  citePaneSource.setAttribute("aria-hidden", isSrc ? "false" : "true");
-  citePaneSource.hidden = !isSrc;
-  citePaneCitation.classList.toggle("is-active", !isSrc);
-  citePaneCitation.setAttribute("aria-hidden", !isSrc ? "false" : "true");
-  citePaneCitation.hidden = isSrc;
-  if (isSrc) ensureSourceTreeRendered();
-  try { localStorage.setItem("vedanta-cite-panel-tab", tab); } catch (_) {}
-}
-
-if (citeTabSourceBtn) citeTabSourceBtn.addEventListener("click", () => setCitePanelTab("source"));
-if (citeTabCitationBtn) citeTabCitationBtn.addEventListener("click", () => setCitePanelTab("citation"));
-if (citePanelCloseBtn) citePanelCloseBtn.addEventListener("click", closeCitePanel);
-
-// Citation-tab entry point. Falls back to popover on mobile.
+// Citation-tab entry point. Falls back to the legacy bottom-sheet popover
+// on mobile (citations are short; full-screen overlay is overkill).
 async function openCitationPanel(key, anchorEl) {
-  if (isCitePanelMobile()) {
+  if (isPanelMobile()) {
     openCitationPopover(key, anchorEl);
     return;
   }
   await loadCitationIndex();
-  citePanel.activeCiteKey = key;
+  sourceTabState.activeCiteKey = key;
   try { localStorage.setItem("vedanta-cite-panel-cite-key", key); } catch (_) {}
   renderCitationTab(key);
-  openCitePanel("citation");
+  showTab("citation");
+  openPanel("citation");
+  panelState.loaded.citation = true;
 }
 
 function renderCitationTab(key) {
@@ -1741,7 +1689,7 @@ function renderCitationTab(key) {
     </div>
   `;
 
-  citeCitationBody.innerHTML = `
+  dpCitationBody.innerHTML = `
     <div class="ccb-head">
       <div class="ccb-locus">${escape(locusDisplay)}</div>
       <div class="ccb-attrib">${escape(thinkerName)}${workTitle ? ` · <em>${escape(workTitle)}</em>` : ""}</div>
@@ -1752,18 +1700,16 @@ function renderCitationTab(key) {
     ${noContextNote}
     ${actions}
   `;
-  citeCitationBody.hidden = false;
-  citeCitationEmpty.hidden = true;
-  citeCitationBody.scrollTop = 0;
+  dpCitationBody.scrollTop = 0;
 
-  citeCitationBody.querySelectorAll(".ccb-action").forEach((btn) => {
+  dpCitationBody.querySelectorAll(".ccb-action").forEach((btn) => {
     btn.addEventListener("click", () => {
       const act = btn.dataset.act;
       if (act === "open-thinker") {
         openThinker(btn.dataset.thinkerId);
       } else if (act === "open-source") {
         const guess = guessSourceFileForCitation(btn.dataset.thinkerId, btn.dataset.workId);
-        setCitePanelTab("source");
+        setPanelTab("source");
         if (guess) selectSourceFile(guess);
       }
     });
