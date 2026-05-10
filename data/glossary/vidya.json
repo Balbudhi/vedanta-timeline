@@ -2,26 +2,33 @@
   "term_key": "vidya",
   "term_iast": "vidyā",
   "term_devanagari": "विद्या",
-  "literal": "knowledge; from √vid 'to know'",
+  "literal": "knowledge, learning, a discipline of knowing; from √vid 'to know'",
   "aliases": ["vidya", "vidyā", "Vidyā", "vidyāyāḥ", "vidyāyām", "vidyayā", "brahmavidya", "brahmavidyā"],
-  "invariant_definition": "Knowledge in the strict sense: the cognition that liberates. Distinguished from ordinary information (*viṣaya-jñāna*) and from injunctive ritual-knowledge (*karma-vidyā*), *vidyā* in Vedānta technical usage refers either to the liberating cognition itself (*brahma-vidyā*) or to a specific Upaniṣadic meditation-program (*upāsana*) that conduces to it (e.g. *Madhu-vidyā*, *Daharā-vidyā*, *Pañcāgni-vidyā*). All schools agree that *vidyā* and *avidyā* are mutually exclusive cognitive states and that *vidyā* is the proximate condition of *mokṣa*. They diverge on the content of liberating *vidyā* (identity-cognition vs. cognition of the Lord as one's master vs. cognition of one's own ontological dependence) and on whether the various Upaniṣadic *vidyās* are alternatives or complements (the *Brahma-Sūtra*'s third *adhyāya* is largely concerned with this).",
+  "invariant_definition": "*Vidyā* is not 'knowledge' in the thin modern sense of possessing true propositions. In Sanskrit scholastic usage it can name a science, a taught discipline, an Upaniṣadic meditation-program, or the liberating cognition toward which such disciplines are ordered. It therefore sits inside the larger *pramāṇa* apparatus: a *vidyā* is normatively valid disclosure, often stabilized through recitation, hearing, reflection, and contemplative repetition, not raw information. In the Upaniṣadic and Brahma-Sūtra register one must distinguish named contemplative *vidyā*s such as *dahara-vidyā*, *madhu-vidyā*, and *pañcāgni-vidyā* from the culminating *brahma-vidyā*; much of *Brahma-Sūtra* 3.3 is about whether these are to be combined, repeated, or treated as alternatives. Advaita makes liberating *vidyā* a sublating cognition that cancels *adhyāsa*; Viśiṣṭādvaita and Dvaita integrate it with sustained *upāsanā*, *bhakti*, and divine disclosure; Mīmāṃsā uses the contrast between injunctive *karma* passages and contemplative or explanatory passages to define its scope. The term belongs as much to disciplined practice as to semantics.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Brahma-vidyā* is *akhaṇḍākāra-vṛtti* — the integral cognition arising from the *mahāvākya* that takes *brahman* in its undivided wholeness as object. It is not a *kriyā* (action) and is therefore not subject to the *karma*-mechanism. It is *jñāna-niṣṭhā*, mutually exclusive with *karma-niṣṭhā*. The various Upaniṣadic *vidyās* are subordinate *upāsana*s, useful for purification but not themselves liberating.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.4", "Bhagavad-Gītā-Bhāṣya, upodghāta and 3.3", "Upadeśa-Sāhasrī 14"]
+      "definition": "Liberating *vidyā* is *brahma-jñāna* arising from the *mahāvākyas*, commonly analyzed in later Advaita as an *akhaṇḍākāra-vṛtti* that sublates *adhyāsa*. It is not a ritual act and cannot be made one more *karma* within the *kartṛ-karaṇa-kārya* chain. Named Upaniṣadic *vidyā*s are generally treated as meditative aids that purify the mind or prepare for immediate knowledge, while the final remover of bondage is the non-dual cognition itself.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.4", "Bhagavad-Gītā-Bhāṣya 3.3", "Upadeśa-Sāhasrī 18"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Vidyā* is *bhakti* in its mature form — *para-bhakti*, *para-jñāna*, *parama-bhakti* — a continuous loving cognition of *brahman* as the Lord whose body one is. It is *upāsana* in the strong sense: a daily-renewed meditation, not a single sublating cognition. The various Upaniṣadic *vidyās* are alternative *upāsana*-modes leading to the same fruit.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§137–143", "Śrī-Bhāṣya 1.1.1 (definition of bhakti as vidyā)", "Śrī-Bhāṣya 3.3.1ff (vidyā-samuccaya)"]
+      "definition": "*Vidyā* is not a momentary sublating insight but sustained God-directed contemplation that matures as *para-bhakti*, *para-jñāna*, and *parama-bhakti*. The soul comes to know Brahman as the Lord whose body the universe is and whose service is the soul's end. Hence *vidyā* is structurally continuous with *upāsanā*: it must be repeated, lived, and carried by devotion until it culminates in direct realization. The various Upaniṣadic *vidyā*s are accepted as legitimate contemplative routes ordered to the same Lord.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§137–143", "Śrī-Bhāṣya 1.1.1", "Śrī-Bhāṣya 3.3.1–3"]
     },
     {
       "school": "Dvaita",
-      "definition": "*Vidyā* is *aparokṣa-jñāna* of Viṣṇu's supremacy and the soul's eternal dependence — bestowed by Viṣṇu when the soul is fit, mediated by *bhakti* and *guru*. The various Upaniṣadic *vidyās* are graded according to *adhikāra* and to the *taratamya* of the goal-deities meditated on.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 3.3.1ff", "Anu-Vyākhyāna 3.3"]
+      "definition": "True *vidyā* is right discrimination of the hierarchy of realities: Viṣṇu's supremacy, the soul's dependence, and the reality of *pañca-bheda*. Its perfected form is *aparokṣa-jñāna*, but that realization is not manufactured by human effort alone; it is mediated by scripture, teacher, devotion, and divine grace. Dvaita thus keeps *vidyā* within a realist epistemology and a theistic soteriology: one knows what is there, and one is saved by correctly knowing the Lord to whom one is eternally related.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 3.3.1–8", "Anu-Vyākhyāna 3.3", "Bhagavad-Gītā-Tātparya-Nirṇaya 18.54–66 [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Mīmāṃsā",
+      "definition": "Mīmāṃsā defines the field by contrast: what is authoritative for action is *codanā*, and so the central question is whether a passage enjoins something to be done or merely presents something to be known or contemplated. In that setting *vidyā* often names a contemplative or explanatory unit that is not itself a ritual act, even when it attaches to ritual performance by praise, specification, or meditative accompaniment. This distinction is one reason later Vedāntins inherit *vidyā* as a term wider than bare cognition yet narrower than action.",
+      "primary_loci": ["Jaimini-Sūtra 1.1.2", "Śabara-Bhāṣya ad Jaimini-Sūtra 1.1.2", "Brahma-Sūtra 3.4.1–17"]
     }
   ],
-  "see_also": ["avidya", "jnana", "brahman", "upasana", "moksa", "akhandakara-vrtti", "para-bhakti"],
-  "translator_note": "*Vidyā* in Vedānta does not mean 'knowledge' in the modern propositional sense — a content-set possessed by a knower. It is a transformative cognitive event that *changes the knower's ontological status*, not merely his belief-state. Translating it as 'knowledge' without flagging this transformation-character misses the entire point."
+  "see_also": ["avidya", "jnana", "upasana", "brahman", "moksa"],
+  "translator_note": "The lazy gloss is 'knowledge.' That imports a modern picture in which a knower stores correct propositions. *Vidyā* often names a transformative discipline or contemplative realization, not a detachable content-item. Translating every occurrence as 'knowledge' also hides the difference between a named Upaniṣadic *vidyā*, liberating *brahma-vidyā*, and ordinary subject-matter learning.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

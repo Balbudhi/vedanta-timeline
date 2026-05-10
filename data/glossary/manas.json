@@ -4,14 +4,36 @@
   "term_devanagari": "मनस्",
   "literal": "thought-organ; from √man 'to think' (cognate with Latin *mens*, Greek *menos*, English 'mind')",
   "aliases": ["manas", "Manas", "manasaḥ", "manasi", "manasā", "manaḥ"],
-  "invariant_definition": "The coordinating and doubting (*saṅkalpa-vikalpa*) function of the *antaḥkaraṇa*. *Manas* receives the data of the senses and presents them to the *buddhi* for determination; it is the locus of imagination, doubt, and indeterminate cognition. In Nyāya–Vaiśeṣika *manas* is also a substance (*dravya*) — the internal sense-organ atomic in size that conveys cognitions to the *ātman*. All Vedāntic schools accept *manas* as one of the *antaḥkaraṇa*'s four functions and as instrumental, not constitutive of consciousness — the *ātman* is the ultimate cognizer; *manas* is one of its instruments.",
+  "invariant_definition": "*Manas* is the coordinating and oscillating inner organ that gathers sensory data, attends, compares, doubts, imagines, and turns toward one option rather than another. It is therefore not equivalent to the whole of 'mind'. In the standard fourfold analysis, *manas* presents and wavers, *buddhi* determines, *ahaṅkāra* appropriates, and *citta* retains. Nyāya-Vaiśeṣika sharpens one side of this picture by treating *manas* as an atomic internal sense whose serial contact explains why cognitions occur one at a time; Yogācāra repurposes the term for a self-grasping consciousness in its own way. Vedānta usually preserves the Sāṃkhya-style functional analysis and relies on *manas* to explain distraction, indecision, fantasy, and the need for meditative restraint. In practice, instruction aimed at concentration and recollection works first on *manas*, because it is where the senses are gathered or scattered and where an intention is either stabilized or lost.",
   "per_school": [
     {
-      "school": "Advaita / Viśiṣṭādvaita / Dvaita",
-      "definition": "All accept *manas* as the *saṅkalpa-vikalpa* function and as an instrument of the *ātman*; differences in the broader status of *antaḥkaraṇa* (see *antaḥkaraṇa*) carry over here.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.4.1ff", "Yatīndra-Mata-Dīpikā 5", "Tattva-Saṅkhyāna 5–7"]
+      "school": "Sāṃkhya / Yoga",
+      "definition": "*Manas* is one of the internal organs produced from *ahaṅkāra* and functions chiefly as coordinator of the senses and site of *saṅkalpa-vikalpa*. Yoga's disciplines of concentration, restraint, and recollection repeatedly target this oscillating inner organ, since unsteady *manas* prevents the stilling of *citta*.",
+      "primary_loci": ["Sāṃkhya-Kārikā 27", "Yoga-Sūtra 1.30–32", "Yoga-Sūtra 3.1–3"]
+    },
+    {
+      "school": "Advaita",
+      "definition": "*Manas* is part of the *antaḥkaraṇa*-*upādhi* and is the seat of doubt, option-weighing, and sensory coordination. It does not know by itself; it is an instrument illumined by reflected consciousness. A distracted *manas* blocks *śravaṇa* and *manana*, while a gathered one becomes fit for inquiry and contemplation.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.4.1–4", "Vedānta-Paribhāṣā, pratyakṣa-pariccheda", "Bhagavad-Gītā-Bhāṣya 6.34–35"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Manas* is a real internal instrument of the embodied self. Its wandering and contraction belong to the karmically conditioned state of the *jīva*, not to the Lord or to pure selfhood as such. Spiritual discipline therefore redirects rather than denies *manas*, orienting it toward remembrance and service of Nārāyaṇa.",
+      "primary_loci": ["Śrī-Bhāṣya 2.4.6–7 [NOT YET RETRIEVED]", "Gītā-Bhāṣya (Rāmānuja) 6.34–35", "Yatīndra-Mata-Dīpikā 5"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Manas* is a real instrument used by a real, distinct self. Madhva thus preserves the practical analysis of wavering, attention, and restraint while refusing any collapse of the knower into a single consciousness-substrate. Control of *manas* matters because the finite soul's orientation can be rightly or wrongly fixed toward Viṣṇu.",
+      "primary_loci": ["Tattva-Saṅkhyāna 5–7", "Gītā-Tātparya 6 [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "*Manas* is an atomic internal sense-organ whose contact with self and external senses is required for cognition. This doctrine explains the seriality of awareness and gives *manas* a more sharply ontological status than in the fourfold Vedāntic functional model.",
+      "primary_loci": ["Vaiśeṣika-Sūtra 3.2.1–3 [NOT YET RETRIEVED]", "Nyāya-Sūtra 3.2 [NOT YET RETRIEVED]"]
     }
   ],
-  "see_also": ["antahkarana", "buddhi", "citta", "ahankara", "indriya", "atman"],
-  "translator_note": "'Mind' is the conventional gloss but is too broad. *Manas* is one specific function within the *antaḥkaraṇa*, not the entire mental life. 'Coordinating function' or 'lower mind' (in some yogic translations) are clearer."
+  "see_also": ["antahkarana", "buddhi", "citta", "ahankara", "indriya", "atman", "sankalpa-vikalpa"],
+  "translator_note": "'Mind' is too broad and usually wrong if left unqualified. *Manas* is one function within a larger inner apparatus; it does not cover the whole mental life and certainly not pure consciousness. Translating it as 'mind' without noting the contrast with *buddhi*, *citta*, and *ahaṅkāra* imports a modern unitary notion of mind that the Sanskrit psychological models explicitly resist.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

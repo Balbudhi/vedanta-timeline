@@ -2,16 +2,23 @@
   "term_key": "sloka",
   "term_iast": "śloka",
   "term_devanagari": "श्लोक",
-  "literal": "verse, especially the 32-syllable anuṣṭubh meter; from √śru 'to hear' (originally 'praise, fame')",
+  "literal": "verse; especially the standard epic verse-form",
   "aliases": ["sloka", "śloka", "Śloka", "ślokaḥ", "ślokasya", "ślokāḥ", "shloka"],
-  "invariant_definition": "A verse — the unit of versified composition. The default *śloka* is in the *anuṣṭubh* meter (4 *pādas* of 8 syllables, with morae-rules on positions 5–7 of each *pāda*). Used for verse-philosophical works (the *Bhagavad-Gītā* in *anuṣṭubh*-with-occasional-*triṣṭubh*; Madhva's *Anu-Vyākhyāna*; Sarvajñātman's *Saṅkṣepa-Śārīraka*). *Śloka* is a unit of citation; works are typically referenced by *adhyāya.śloka* numbering.",
+  "invariant_definition": "A *śloka* is a verse-unit, most commonly the thirty-two-syllable *anuṣṭubh* associated with epic, didactic, and philosophical composition. The term matters for more than meter. In Indian scholastic practice the *śloka* is also a memory-device, a citation-unit, and a way of compressing doctrine into portable form. A philosophical claim put into *śloka* can circulate across recitation, commentary, and debate much more readily than the same claim in extended prose. Works such as the *Bhagavad-Gītā*, *Saṅkṣepa-Śārīraka*, and many *stotra* and *prakaraṇa* texts rely on this compression. Thus *śloka* names a formal verse-shape, but also a practical mode of transmitting teaching through recitable, countable, and commentable units.",
   "per_school": [
     {
-      "school": "All Vedānta",
-      "definition": "*Śloka* is the universal verse-unit; the *Brahma-Sūtra* is in *sūtra* form, but commentaries and most *prakaraṇa-grantha*s are in *śloka*.",
-      "primary_loci": ["Bhagavad-Gītā throughout", "Anu-Vyākhyāna (Madhva)", "Saṅkṣepa-Śārīraka (Sarvajñātman)"]
+      "school": "Chandas / Poetics",
+      "definition": "In the metrical sciences the *śloka* is primarily a formal unit, usually identified with the epic *anuṣṭubh*. Its rules govern cadence, memorability, and permissible variation. This metrical discipline matters philosophically because many doctrines reach students first through recited verse rather than discursive prose.",
+      "primary_loci": ["Chandaḥśāstra 2.1–8 [NOT YET RETRIEVED]", "Bhagavad-Gītā 2.11 (example of didactic *śloka*)"]
+    },
+    {
+      "school": "Vedānta",
+      "definition": "Vedāntic traditions use *śloka* for teaching, summary, and polemic. A text in *śloka* form is easier to memorize and cite, and later commentaries often organize themselves around verse numbers. The result is that doctrinal transmission can proceed through short recitable units without sacrificing scholastic precision.",
+      "primary_loci": ["Bhagavad-Gītā 4.38", "Saṅkṣepa-Śārīraka 1.1–3", "Anu-Vyākhyāna 1.1"]
     }
   ],
   "see_also": ["sutra", "anustubh", "padya"],
-  "translator_note": "'Verse' is acceptable. Note: 'śloka' in modern colloquial Hindi often means 'any sacred verse' regardless of meter; the technical Sanskrit sense is more precise."
+  "translator_note": "The lazy gloss is simply 'verse.' That is not false, but it misses the term's practical life as a unit of memorization, recitation, and citation. In many settings a *śloka* is not just a line of poetry but the basic countable packet in which doctrine is stored and taught.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

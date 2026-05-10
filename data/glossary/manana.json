@@ -4,14 +4,26 @@
   "term_devanagari": "मनन",
   "literal": "thinking, reflection; from √man 'to think'",
   "aliases": ["manana", "Manana", "mananam"],
-  "invariant_definition": "The second stage of *śravaṇa-manana-nididhyāsana*: reflective thinking on what has been heard, removing doubts (*saṃśayas*) by *yukti* (reasoning) consistent with *śruti*. All Vedāntic schools accept *manana* as the doubt-removal stage; the differences reduce to those flagged under *śravaṇa*.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "*Manana* is reflective assimilation of what has been heard, carried out by reasoning that remains accountable to *śruti*. The point is not free speculation but the removal of *saṃśaya* and *asambhāvanā*: doubt, apparent contradiction, or inability to see how the teaching could be true. Thus *manana* sits at the junction of scriptural testimony and rational scrutiny. It presupposes the larger Indian epistemic setting in which *śabda*, *anumāna*, and *yukti* must be coordinated rather than played off against one another. In the practical register, *manana* is where a school's doctrinal architecture becomes explicit. Advaita uses it to dissolve objections to non-duality; Viśiṣṭādvaita uses it to consolidate a coherent theistic reading of the Upaniṣads; Dvaita uses it to establish real difference and rebut monistic reinterpretation. It is therefore more than \"reflection\" in the casual sense and less than unconstrained philosophizing.",
   "per_school": [
     {
-      "school": "Advaita / Viśiṣṭādvaita / Dvaita",
-      "definition": "*Manana* is the application of *yukti* (reasoning) consistent with *śruti* to remove doubts about what has been heard. Distinct from independent reasoning (*tarka*-alone), which Advaita explicitly limits.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 4.1.1–2", "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 2.4.5"]
+      "school": "Advaita",
+      "definition": "*Manana* is the use of *yukti* to remove doubts about the purport of the Upaniṣadic teaching after it has been heard. Typical targets are the seeming impossibility of identity between finite self and infinite *brahman*, or the conflict between non-dual teaching and everyday multiplicity. The reasoning is subordinate, not autonomous: it clarifies what *śruti* teaches and removes obstacles to stable cognition.",
+      "primary_loci": ["Bṛhadāraṇyaka-Upaniṣad 2.4.5", "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 2.4.5", "Brahma-Sūtra-Bhāṣya 4.1.1-2"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Manana* is reflective consolidation of the scripture's teaching that the self, world, and Lord are all real, with the latter as inner ruler and substantive whole. Its function is to remove readings that would collapse qualified unity into featureless identity. Reasoning therefore serves the interpretation of revelation and the stabilization of *upāsanā*, not the cancellation of relational ontology.",
+      "primary_loci": ["Bṛhadāraṇyaka-Upaniṣad 2.4.5", "Śrī-Bhāṣya 1.1.1", "Vedārtha-Saṅgraha §§82-95"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Manana* is doctrinal reasoning in support of real difference. It takes the heard scriptural corpus and shows, through consistent interpretation and polemic, that the plurality of selves, the reality of matter, and Viṣṇu's supremacy cannot be reduced to appearance. The argumentative edge of Dvaita is especially visible here, since reflection includes explicit refutation of rival schools.",
+      "primary_loci": ["Bṛhadāraṇyaka-Upaniṣad 2.4.5", "Anu-Vyākhyāna 1.1", "Nyāyāmṛta 1 [NOT YET RETRIEVED]"]
     }
   ],
-  "see_also": ["sravana", "nididhyasana", "tarka", "yukti"],
-  "translator_note": "'Reflection' or 'reflective inquiry' both acceptable."
+  "see_also": ["sravana", "nididhyasana", "jnana", "sadhana"],
+  "translator_note": "'Reflection' is acceptable only if one hears in it argumentative clarification. The term does not mean private musing, and it certainly does not mean autonomous reason replacing scripture. Its classical function is to make heard teaching intellectually tenable and objection-resistant."
 }

@@ -2,26 +2,33 @@
   "term_key": "sraddha",
   "term_iast": "śraddhā",
   "term_devanagari": "श्रद्धा",
-  "literal": "trust, confidence, faith; from śrad (cognate with Latin *cred*-) + √dhā 'to place'",
+  "literal": "trust, confidence, faith; from *śrad*, cognate with Latin *cred*, + √dhā 'to place'",
   "aliases": ["sraddha", "śraddhā", "Śraddhā", "śraddhāyāḥ", "śraddhāyām", "shraddha"],
-  "invariant_definition": "The trustful confidence in *śāstra* and *guru* that is the precondition of all serious philosophical-spiritual practice. All Vedāntic schools accept *śraddhā* as a *sādhana-catuṣṭaya* element (or its functional equivalent) and as a necessary condition of receiving *upadeśa*. The schools differ less in their definition of *śraddhā* than in what they take it to be confidence *in* (*śruti* alone vs. *śruti* through a particular *guru-paramparā*) and in whether *śraddhā* is itself transformed in the realized state.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "*Śraddhā* is trustful confidence that allows a discipline, teacher, or scripture to be taken up as cognitively serious. It is not blind assent and not mere pious feeling. The term belongs to the practical-epistemic threshold of Indian philosophy: before one can hear, reflect, and assimilate a teaching, one must treat it as worthy of disciplined uptake. That is why *śraddhā* sits near *adhikāra*, *guru*, and *śabda-pramāṇa*. The larger background includes Mīmāṃsā's defense of Vedic authority and the Gītā's insistence that a person's orientation tracks the kind of *śraddhā* they possess. Across Vedāntic schools, the object of trust shifts somewhat: Advaita emphasizes confidence in the *guru* and Vedāntic sentences; theistic schools emphasize confidence in Bhagavān, scripture, and lineage together. In devotional traditions, *śraddhā* is also the beginning of an affective trajectory that culminates in *prema*.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Śraddhā* is one of the *ṣaṭ-sampatti* — the six inner equipments of the qualified seeker (*adhikārī*) — between *śama-dama* and *samādhāna*. It is defined as *guru-vedānta-vākyeṣu viśvāsaḥ* — confidence in the words of the *guru* and of *vedānta*. It is preparatory; in the realized one it is fulfilled, not abolished.",
-      "primary_loci": ["Vivekacūḍāmaṇi 25", "Tattva-Bodha", "Vedānta-Sāra (Sadānanda) §§17–22"]
+      "definition": "*Śraddhā* is one of the six inner excellences and is commonly defined as confidence in the words of the *guru* and Vedānta. The point is methodological rather than anti-rational: one trusts the teaching enough to undergo its discipline and test its coherence through *śravaṇa*, *manana*, and *nididhyāsana*. Without that initial confidence, liberating inquiry never properly begins.",
+      "primary_loci": ["Vivekacūḍāmaṇi 25", "Tattva-Bodha [NOT YET RETRIEVED]", "Vedānta-Sāra §§19-22"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Śraddhā* is integral to *bhakti* and to *prapatti* — confidence in the Lord's protective intent (one of the six *aṅgas* of *prapatti*: *rakṣiṣyatīti viśvāsaḥ*). It is not merely preparatory; it persists and matures into *bhakti* proper.",
-      "primary_loci": ["Vedānta-Deśika, Rahasya-Traya-Sāra, prapatti-prakaraṇa", "Yatīndra-Mata-Dīpikā 9"]
+      "definition": "*Śraddhā* is confidence in the Lord, in scripture, and in the path of surrender. It does not disappear once practice begins, because it matures into the lived trust that supports *prapatti* and *bhakti-yoga*. The characteristic move here is to connect epistemic confidence with personal reliance on Bhagavān rather than to treat it as only a preparatory mental virtue.",
+      "primary_loci": ["Gītā-Bhāṣya (Rāmānuja) 4.39", "Gītā-Bhāṣya (Rāmānuja) 17.3", "Rahasya-Traya-Sāra, Prapatti-prakaraṇa [NOT YET RETRIEVED]"]
     },
     {
       "school": "Dvaita",
-      "definition": "*Śraddhā* in Viṣṇu's supremacy and in *guru* (specifically the Madhva *paramparā*) is constitutive of *adhikāra* for *bhakti-jñāna*. It is intrinsically graded among souls (*taratamya*).",
-      "primary_loci": ["Anu-Vyākhyāna 3.3"]
+      "definition": "*Śraddhā* is confidence in Viṣṇu's supremacy and in the reliability of the Madhva lineage's interpretation of scripture. It is therefore doctrinally thick: trust involves assent to a realist theology of difference and dependence. The virtue is not opposed to knowledge; it is the orientation that makes right knowledge and right devotion possible.",
+      "primary_loci": ["Bhagavad-Gītā 4.39", "Anu-Vyākhyāna 3.3", "Gītā-Tātparya-Nirṇaya 17 [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Śraddhā* is the first discernible stage of the path, preceding association with devotees and the regulated practice of *bhakti*. It is not yet *prema*, but it is already Kṛṣṇa-directed confidence strong enough to reorient life. Because the whole later sequence grows from it, Gauḍīya texts treat *śraddhā* as the practical beginning of devotional ontology, not merely a psychological precondition.",
+      "primary_loci": ["Bhakti-Rasāmṛta-Sindhu 1.4.15-16", "Caitanya-Caritāmṛta, Madhya 23.13-15"]
     }
   ],
-  "see_also": ["bhakti", "guru", "sadhana-catustaya", "adhikara", "viswasa"],
-  "translator_note": "'Faith' is the conventional gloss but imports Christian-theological resonance (faith vs. reason, *fides quaerens intellectum*) that does not map. *Śraddhā* is closer to 'trustful confidence' or 'cognitive trust' — a confident orientation that allows the teaching to do its work, not a leap into the absurd. The Sanskrit śrad-/Latin cred- cognate (*credo*) makes 'creedal faith' tempting but misleading."
+  "see_also": ["sadhana", "sravana", "bhakti", "prema", "prapatti", "jnana"],
+  "translator_note": "'Faith' is conventional but dangerous. In English it often suggests belief without sufficient reason, or a Christian opposition between faith and reason. *Śraddhā* is closer to disciplined trust or confidence: the orientation that lets authoritative teaching be heard and tested rather than dismissed in advance."
 }

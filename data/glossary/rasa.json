@@ -2,26 +2,28 @@
   "term_key": "rasa",
   "term_iast": "rasa",
   "term_devanagari": "रस",
-  "literal": "juice, essence, savor; from a root meaning 'to flow, to taste'",
+  "literal": "juice, essence, savor, taste",
   "aliases": ["rasa", "Rasa", "rasaḥ", "rasasya", "rase", "rasānubhava"],
-  "invariant_definition": "Aesthetic-experiential essence. Three principal Vedāntic-adjacent registers: (1) Bharata's *Nāṭya-Śāstra* and Abhinavagupta's *Abhinavabhāratī* and *Locana* — the eight (later nine) *rasa*s of poetics (*śṛṅgāra*, *vīra*, *karuṇa*, *adbhuta*, *hāsya*, *bhayānaka*, *bībhatsa*, *raudra*, with *śānta* added); (2) Madhusūdana Sarasvatī's *Bhakti-Rasāyana* — *bhakti* as a tenth *rasa* (or as *bhakti-rasa* synthesized into the existing scheme); (3) the Caitanya-school *Bhakti-Rasāmṛta-Sindhu* of Rūpa Gosvāmī — five *rasa*s (*śānta*, *dāsya*, *sakhya*, *vātsalya*, *mādhurya*) as devotional relational modes. Abhinavagupta's *rasāsvāda = brahmāsvāda-sahodara* (the savoring of *rasa* is sibling to the savoring of *brahman*) is a critical move connecting aesthetics to liberation.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "*Rasa* is not merely \"flavor.\" It is the technical savoring of a stabilized affective configuration. In poetics, the classic formula is that *rasa* arises from the conjunction of *vibhāva*, *anubhāva*, and *vyabhicāri-bhāva* in relation to a *sthāyi-bhāva*. Abhinavagupta's crucial move is to explain how such savoring becomes universalized rather than merely private, and why its relish is structurally akin to contemplative bliss. Later Vedāntic and devotional authors redeploy this aesthetic apparatus rather than abandoning it. Madhusūdana reads devotion through *rasa*; Gauḍīya theologians make *rasa* constitutive of the eternal relation between *jīva* and Bhagavān. The term therefore carries an entire theoretical scaffold: cause, expression, stable affect, relish, universalization, and the ontological status of the enjoyed object. In devotional use especially, Bhagavān is not a symbol used for aesthetic transport but the real object around which the affective world is organized.",
   "per_school": [
     {
-      "school": "Trika / Abhinavagupta",
-      "definition": "*Rasa* is the universalized aesthetic experience produced when *vibhāva* (cause) + *anubhāva* (consequent) + *vyabhicāri-bhāva* (transient) suggest a *sthāyi-bhāva* (stable emotion) in the qualified spectator. *Sādhāraṇīkaraṇa* (universalization) is the mechanism. *Śānta-rasa* is the highest, structurally adjacent to *brahmāsvāda*.",
-      "primary_loci": ["Abhinavabhāratī ad Nāṭya-Śāstra 6", "Locana ad Dhvanyāloka 2.4"]
+      "school": "Alaṅkāra / Abhinavagupta",
+      "definition": "*Rasa* is the universalized savor of a stable affect disclosed through aesthetic presentation. Bharata supplies the formal structure; Abhinavagupta supplies the decisive phenomenology. Through *sādhāraṇīkaraṇa*, what would otherwise be private emotion becomes relishable as transpersonal aesthetic experience. Abhinava's linkage of *rasāsvāda* to *brahmāsvāda* is the major bridge by which aesthetic theory becomes relevant to liberation discourse.",
+      "primary_loci": ["Nāṭya-Śāstra 6.31", "Abhinavabhāratī ad Nāṭya-Śāstra 6.31", "Dhvanyāloka-Locana 3 [NOT YET RETRIEVED]"]
     },
     {
       "school": "Advaita (Madhusūdana)",
-      "definition": "*Bhakti-rasa* as a tenth *rasa*, with *bhagavān* as *ālambana* and the *bhakta*'s relational mode as *sthāyi-bhāva*. Madhusūdana imports *rasa*-theory into Advaita devotional analysis.",
-      "primary_loci": ["Bhakti-Rasāyana 1"]
+      "definition": "Madhusūdana imports the *rasa* apparatus into an Advaita devotional framework. *Bhakti-rasa* is not a loose metaphor for religious feeling, but a formally analyzable savor in which Bhagavān functions as the objective support and the devotee's enduring disposition as the stable affect. This lets Advaita accommodate rich devotional life without abandoning the primacy of liberating *jñāna*.",
+      "primary_loci": ["Bhakti-Rasāyana 1", "Gūḍhārtha-Dīpikā 12 [NOT YET RETRIEVED]"]
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "Five *rasa*s structure the eternal relation of *jīva* to Kṛṣṇa: *śānta*, *dāsya*, *sakhya*, *vātsalya*, *mādhurya*. *Mādhurya-rasa* (the conjugal-love mode of the *gopī*s) is the supreme. The *jīva*'s *rasa* is its eternal *svarūpa* — its constitutional relational position.",
-      "primary_loci": ["Bhakti-Rasāmṛta-Sindhu 2 (the rasa-analysis)", "Ujjvala-Nīlamaṇi (mādhurya-rasa)"]
+      "definition": "*Rasa* is constitutive of the soul's eternal relation to Kṛṣṇa. The primary devotional modes such as *dāsya*, *sakhya*, *vātsalya*, and *mādhurya* are not temporary sentiments but enduring relational identities. Here the aesthetic and the theological fully interpenetrate: *rasa* is both the form of devotional experience and part of the metaphysical specification of liberated life.",
+      "primary_loci": ["Bhakti-Rasāmṛta-Sindhu 2 [NOT YET RETRIEVED]", "Ujjvala-Nīlamaṇi 1.1-5"]
     }
   ],
-  "see_also": ["bhakti", "sadharanikarana", "santa-rasa", "sthayi-bhava", "abhinavagupta"],
-  "translator_note": "'Aesthetic flavor' or 'savor' acceptable; the Sanskrit's polysemy (juice / taste / essence / aesthetic experience) is irreducible. The user's position-brief explicitly invokes *rasa* in connection with disinterested action and *līlā* (Auxiliary Integrations); *rasa*-theory is therefore structurally operative."
+  "see_also": ["prema", "bhakti", "anubhava", "lila"],
+  "translator_note": "'Flavor' and 'taste' are etymologically helpful but philosophically thin. They can suggest a merely subjective preference. *Rasa* names a technical aesthetics of relishable affect, and in devotional traditions it imports a theology in which the enjoyed object is real and personally specified."
 }

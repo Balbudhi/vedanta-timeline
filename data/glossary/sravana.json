@@ -4,19 +4,31 @@
   "term_devanagari": "श्रवण",
   "literal": "hearing, listening; from √śru 'to hear'",
   "aliases": ["sravana", "śravaṇa", "Śravaṇa", "śravaṇaṃ", "shravana"],
-  "invariant_definition": "The first stage of the threefold liberating practice (*śravaṇa-manana-nididhyāsana*) prescribed in *Bṛhadāraṇyaka* 2.4.5 (Yājñavalkya to Maitreyī). *Śravaṇa* is the receptive hearing of *vedānta-vākya* from a qualified *guru*. All Vedāntic schools accept the threefold sequence as the basic structure of *sādhana*; they differ in the relative emphasis (Advaita stresses *śravaṇa* as the proximate cause of *brahma-jñāna*; Viśiṣṭādvaita treats the entire sequence as *upāsana*; Dvaita treats *śravaṇa* as the entry-point to graded *bhakti-jñāna*).",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "*Śravaṇa* is the disciplined hearing of scripture as *śabda-pramāṇa*, not mere acoustic reception. Its canonical Vedāntic locus is the Bṛhadāraṇyaka command that the self is to be heard, reflected on, and meditated upon. In practice this means hearing *vedānta-vākya* from a competent teacher inside a hermeneutic lineage, so that the sentence-force, intended purport, and doctrinal context are properly grasped. The Mīmāṃsā background matters here: *śravaṇa* assumes that language can disclose what is not available to perception and inference, but it also assumes that disclosure requires disciplined interpretation rather than literalist passivity. Different schools therefore assign different weight to the act. Advaita treats *śravaṇa* as the proximate occasion for liberating cognition; Viśiṣṭādvaita and Dvaita embed it within a longer process of *upāsanā* or *bhakti*; Gauḍīya theology extends it into the devotional hearing of Bhagavān's names, qualities, and acts.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Śravaṇa* — receptive hearing of the *vedānta-vākya* through *guru*-mediation — is foregrounded as the proximate occasion for the *mahāvākya*-cognition that produces *akhaṇḍākāra-vṛtti*. *Manana* removes doubts; *nididhyāsana* removes obstructive *pratibandhakas* (residual identification with body-mind).",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 4.1.1–2", "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 2.4.5", "Naiṣkarmya-Siddhi 1"]
+      "definition": "*Śravaṇa* is the focused hearing of the *mahāvākya* and related Upaniṣadic sentences through the teacher's unfolding of their non-dual purport. It is not mere recital. Properly performed, it yields the *vṛtti* whose content is the identity of *ātman* and *brahman*; *manana* then removes doubts, and *nididhyāsana* removes contrary habitual identification. This is why Advaita can call *śravaṇa* the proximate cause of liberating knowledge without denying the need for the other two.",
+      "primary_loci": ["Bṛhadāraṇyaka-Upaniṣad 2.4.5", "Bṛhadāraṇyaka-Upaniṣad 4.5.6", "Brahma-Sūtra-Bhāṣya 4.1.1-2"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Śravaṇa-manana-nididhyāsana* together constitute *upāsana*; the entire sequence is the path, not just *śravaṇa*. Continuity and intensity matter more than any single moment.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§137–144", "Śrī-Bhāṣya 1.1.1"]
+      "definition": "*Śravaṇa* initiates the contemplative assimilation of the Lord's nature and attributes, but it is not treated as a single flash that by itself completes the path. Heard teaching is to be sustained as remembrance and meditation, and thus develops into *upāsanā* or *bhakti-yoga*. The contrast with Advaita is therefore one of soteriological pacing and content, not of scriptural authority.",
+      "primary_loci": ["Bṛhadāraṇyaka-Upaniṣad 2.4.5", "Śrī-Bhāṣya 4.1.1-2", "Vedārtha-Saṅgraha §§137-144"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Śravaṇa* is hearing the differentiating content of scripture: the supremacy of Viṣṇu, the reality of the world, the plurality of souls, and the hierarchy among them. The teacher's role is not to sublate difference but to establish correct *tattva-jñāna* that can mature into *bhakti*. Hearing is therefore inseparable from doctrinal discrimination and polemic against monistic misreading.",
+      "primary_loci": ["Bṛhadāraṇyaka-Upaniṣad 2.4.5", "Brahma-Sūtra-Bhāṣya (Madhva) 4.1.1-2", "Anu-Vyākhyāna 1.1"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Śravaṇa* is both an epistemic and devotional act. Within the ninefold *bhakti* taxonomy, hearing the Bhāgavata, the divine names, and the Lord's *līlā* is itself a constitutive limb of practice. The school therefore widens the Vedāntic sense of hearing scriptural truth into an affective-cognitive participation in Kṛṣṇa-centered discourse.",
+      "primary_loci": ["Bhāgavata-Purāṇa 7.5.23-24", "Bhakti-Sandarbha §§256-263 [NOT YET RETRIEVED]", "Caitanya-Caritāmṛta, Madhya 22.124"]
     }
   ],
-  "see_also": ["manana", "nididhyasana", "guru", "mahavakya", "upasana"],
-  "translator_note": "'Hearing' captures the literal sense. 'Receptive study' captures the technical sense. The threefold sequence should be preserved as a single technical apparatus."
+  "see_also": ["manana", "nididhyasana", "jnana", "bhakti", "sadhana"],
+  "translator_note": "'Hearing' is literal but incomplete. In English it can sound passive. *Śravaṇa* is closer to disciplined reception of authoritative discourse under an accepted theory of scriptural testimony. Translating it as mere 'listening' obscures the pramāṇa structure and the teacher-mediated unfolding that classical Vedānta presupposes."
 }

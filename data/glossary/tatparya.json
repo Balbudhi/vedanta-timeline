@@ -2,16 +2,33 @@
   "term_key": "tatparya",
   "term_iast": "tātparya",
   "term_devanagari": "तात्पर्य",
-  "literal": "settled-purport, the upshot, what-it-comes-to; from tat 'that' + para 'highest, ultimate'",
+  "literal": "settled purport, principal aim, what a discourse finally comes to",
   "aliases": ["tatparya", "tātparya", "Tātparya", "tātparyaṃ", "tatparyam", "tātparya-vrtti"],
-  "invariant_definition": "The settled purport of a text, determined by the convergent application of contextual indicators (the Mīmāṃsā six *liṅgas*). *Tātparya* is what the text is fundamentally about; it organizes the interpretation of every individual statement. *Brahma-Sūtra-Bhāṣya* 1.1.4 (*tat tu samanvayāt*) defends the thesis that *brahman* is the *tātparya* of all *śruti*; this thesis is contested by Mīmāṃsā (which holds *karma* the *tātparya* of *karma-kāṇḍa*) and refined by all Vedāntic schools (each holding that its identification of *brahman* — *nirguṇa*, *saviśeṣa*, Viṣṇu, Kṛṣṇa — is the *tātparya*).",
+  "invariant_definition": "*Tātparya* is the settled purport of a discourse established by considering the text as a whole rather than by isolating a sentence. The concept is central to Indian hermeneutics because authoritative corpora often contain many sentence-types and apparently divergent claims. A reader therefore asks not merely what a sentence can mean, but what the passage and corpus are finally trying to establish. The standard apparatus for this includes contextual indicators such as opening and conclusion, repetition, novelty, result, praise or censure, and supporting reasoning. In practice *tātparya* governs whether a passage is read as principal or subordinate, literal or secondary, injunctive or explanatory. The largest school-divisions in Mīmāṃsā and Vedānta are in part disputes over *tātparya*: whether the Veda's primary concern is ritual action, whether the Upaniṣads principally teach a non-dual *brahman*, a qualified Lord, or a theistic realism of real difference. *Tātparya* is therefore the hinge between textual interpretation and metaphysical commitment.",
   "per_school": [
     {
-      "school": "All Vedānta",
-      "definition": "*Tātparya* of *śruti* is *brahman*; *Brahma-Sūtra* 1.1.4 establishes this against Mīmāṃsā. School-internal differences on what 'brahman' refers to (see *brahman* entry) translate into school-internal differences on *tātparya*-content.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.4 (Śaṅkara, Rāmānuja, Madhva — all comment on this sūtra)", "Mahābhārata-Tātparya-Nirṇaya (Madhva — title indicates the centrality)"]
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "The dominant *tātparya* of Vedic discourse, especially in the *karma-kāṇḍa*, is injunction and therefore action. Statements not themselves injunctions are typically subordinated to ritual performance as praise, explanation, or auxiliary specification. This is why Mīmāṃsā resists Vedāntic attempts to treat metaphysical declarations as the corpus's central concern.",
+      "primary_loci": ["Mīmāṃsā-Sūtra 1.1.2", "Śabara-Bhāṣya on Mīmāṃsā-Sūtra 1.1.2"]
+    },
+    {
+      "school": "Advaita",
+      "definition": "Advaita argues that the Upaniṣads have a single settled purport: the identity of *ātman* and *brahman*. Individual passages that appear to teach action, plurality, or qualified divinity are read as preparatory, provisional, or lower-level discourse unless they can be absorbed into that non-dual purport. This is the force of *tat tu samanvayāt* in practice.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.4", "Chāndogya-Upaniṣad-Bhāṣya 6.8.7", "Upadeśa-Sāhasrī 18.118–120 [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Viśiṣṭādvaita agrees that the Upaniṣads centrally teach *brahman*, but denies that their *tātparya* is featureless identity. The settled purport is rather Nārāyaṇa as the qualified whole of which souls and matter are inseparable modes. Thus *tātparya* is fixed by a different account of sentence-unity and co-reference, not by rejecting hermeneutic discipline.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§1–10", "Śrī-Bhāṣya 1.1.1", "Śrī-Bhāṣya 1.1.4 [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "For Dvaita the settled purport of *śruti* is Viṣṇu's supremacy together with the reality of difference, dependence, and hierarchy. Passages sounding non-dual are therefore re-read under a prior commitment to realist plurality. *Tātparya* becomes an explicitly polemical instrument for refusing that apparent identity-texts have final interpretive authority.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.1.4", "Mahābhārata-Tātparya-Nirṇaya 1.1–12", "Viṣṇu-Tattva-Vinirṇaya 1–3"]
     }
   ],
   "see_also": ["abhipraya", "samanvaya", "upakrama-upasamhara", "linga"],
-  "translator_note": "'Settled purport' or 'overall import' acceptable. The Sanskrit term has no single English equivalent."
+  "translator_note": "The lazy gloss is 'theme' or 'message.' Those are too loose. *Tātparya* is a technical hermeneutic verdict about what a text finally establishes once its parts are weighed together. Translating it as 'overall meaning' without that background imports a modern reader-response looseness that the scholastic usage does not permit.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

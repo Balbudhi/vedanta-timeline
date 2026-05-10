@@ -2,31 +2,33 @@
   "term_key": "bheda",
   "term_iast": "bheda",
   "term_devanagari": "भेद",
-  "literal": "splitting, difference, distinction; from √bhid 'to split'",
+  "literal": "difference, distinction, division; from √bhid 'to split'",
   "aliases": ["bheda", "Bheda", "bhedaḥ", "bhedasya", "bhede", "bhedān"],
-  "invariant_definition": "Difference, distinction. A core Vedāntic term whose status is exactly the locus of school-disagreement: Advaita holds *bheda* to be ultimately illusory (the *bhedābhāva* — non-existence of difference — is the highest truth); Dvaita holds *bheda* to be eternally real and irreducible (the *pañca-bheda* doctrine); Bhedābheda holds *bheda* and *abheda* to be equally and simultaneously real. Madhva's metaphysics is sometimes summarized as *atyanta-bheda-vāda* — the doctrine of absolute difference.",
+  "invariant_definition": "*Bheda* is real difference or distinction, not just conceptual contrast. The term asks whether the world is finally articulated by irreducible distinctions between knower, known, means of knowledge, cause, effect, God, soul, and matter. It therefore stands at the center of Vedāntic metaphysics and scriptural interpretation. Advaita treats *bheda* as empirically operative but ultimately sublatable under non-dual knowledge. Viśiṣṭādvaita affirms real distinctions within an organic whole ordered by Brahman. Dvaita radicalizes the point into *pañca-bheda*, five eternal distinctions, thereby defending a realist hierarchical pluralism rather than a crude two-substance dualism. Bhedābheda schools deny that difference can be eliminated, but refuse to let it exhaust reality. In practice *bheda* governs worship, ethics, agency, and causality: if real distinctions are only apparent, those domains must be re-described; if they are ultimate, they define the permanent structure of things.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Bheda* between *brahman* and *jīva* and between *jīva* and *jīva* is *vyāvahārika* only; in *pāramārthika* there is no *bheda*. The Upaniṣadic *neha nānāsti kiñcana* (Bṛhad. 4.4.19) is read as the absolute denial of difference.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.1.14", "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 4.4.19"]
+      "definition": "*Bheda* is real enough for *vyavahāra* but not final. Scripture, action, devotion, bondage, and liberation all presuppose distinction so long as *adhyāsa* persists; yet the purport of the Upaniṣads is that no plurality stands at the highest level. Advaita therefore neither denies ordinary difference as a brute fact of experience nor grants it ultimate status. The point is sublatability, not annihilation of the empirical order.",
+      "primary_loci": ["Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 4.4.19", "Brahma-Sūtra-Bhāṣya 2.1.14"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Difference is real and ineradicable, but it is always a difference within Brahman's body. Souls, matter, and God are not collapsed into identity, nor are they externally juxtaposed independent substances. Real distinction is instead articulated through the body-soul model and *aprthak-siddhi*: the differentiated whole depends on Brahman while remaining genuinely many. This allows Viśiṣṭādvaita to preserve devotion, plurality, and scriptural identity-statements together.",
+      "primary_loci": ["Śrī-Bhāṣya 2.1.15 [NOT YET RETRIEVED]", "Vedārtha-Saṅgraha §§76–88"]
     },
     {
       "school": "Dvaita",
-      "definition": "The *pañca-bheda* — five eternal distinctions (Brahman–jīva, Brahman–matter, jīva–jīva, jīva–matter, matter–matter) — is foundational. *Bheda* is *svarūpa* (intrinsic), *anādi* (beginningless), *ananta* (endless), and *atyanta* (absolute).",
-      "primary_loci": ["Viṣṇu-Tattva-Vinirṇaya §§40–50", "Tattva-Saṅkhyāna 1–8 (implicit)"]
+      "definition": "*Bheda* is foundational. Madhva's *pañca-bheda* names five eternal distinctions: God-soul, God-matter, soul-soul, soul-matter, and matter-matter. These are not provisional pedagogic devices but intrinsic structures of reality, and they ground Dvaita's hierarchy of beings, devotion to Viṣṇu, and realist account of knowledge. The school is therefore better described as hierarchical pluralism than as a simplistic dualism of two disconnected realms.",
+      "primary_loci": ["Tattva-Saṅkhyāna 1–8", "Viṣṇu-Tattva-Vinirṇaya §§40–50"]
     },
     {
-      "school": "Bhedābheda (Bhāskara, Yādava-Prakāśa, Bhartṛprapañca)",
-      "definition": "*Bheda* and *abheda* are equally real, simultaneously obtaining. The opposition between them is not contradiction but the dialectical structure of reality itself.",
-      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 1.1.4", "Bhartṛprapañca fragments (cited in Śaṅkara's Bṛhadāraṇyaka-Bhāṣya)"]
-    },
-    {
-      "school": "Acintya-Bhedābheda",
-      "definition": "*Bheda* and *abheda* simultaneously obtain *acintya* — beyond logical resolution; the relation is real but its logical structure exceeds reason. *Sākṣād-vacana* (direct scriptural utterance) is the only *pramāṇa* for it.",
-      "primary_loci": ["Tattva-Sandarbha §§51–56", "Caitanya-Caritāmṛta, Madhya 6, 20"]
+      "school": "Bhedābheda / Acintya-Bhedābheda",
+      "definition": "*Bheda* is fully real, but it is not the whole story. Bhāskara, Nimbārka, and Gauḍīya authors all preserve real plurality while refusing to make difference ultimate in isolation from non-difference. The precise account varies: real transformation, natural difference-and-non-difference, or inconceivable relation between Kṛṣṇa and his powers. What unites them is the claim that scriptural language of identity does not erase real distinctions.",
+      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 1.1.4", "Vedānta-Pārijāta-Saurabha 1.1.1–4", "Tattva-Sandarbha §§51–56"]
     }
   ],
-  "see_also": ["abheda", "bhedabheda", "panca-bheda", "advaita", "dvaita"],
-  "translator_note": "'Difference' is the standard gloss. Critical: in technical Vedānta *bheda* is not weakly 'difference between' but ontological 'real distinction' — the question is whether reality at its base contains distinctions."
+  "see_also": ["abheda", "bhedabheda", "jiva", "brahman", "advaita", "dvaita"],
+  "translator_note": "The lazy gloss is simply 'difference.' That can work, but only if one hears 'real distinction' rather than a weak conceptual contrast. Another common mistake is to turn Dvaita's use of *bheda* into 'dualism' in a Cartesian sense. Madhva's view is not a flat two-term split but a graded realist plurality with permanent distinctions across many orders of being.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

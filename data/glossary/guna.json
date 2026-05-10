@@ -39,6 +39,6 @@
   ],
   "see_also": ["sattva", "rajas", "tamas", "prakrti", "purusa", "nirguna", "saguna", "upadhi", "kalyana-guna", "heya-guna", "prakrta-guna", "padartha", "guna-atita"],
   "translator_note": "Translating *guṇa* uniformly as 'quality' is the foundational lazy collapse from which a chain of downstream errors follows. The Sāṃkhya-derived register — where *guṇa* names a constitutive strand of *prakṛti* — is the dominant Vedāntic register. In that register *guṇa* is no more a 'quality' than a strand of a rope is a 'quality' of the rope. When the gloss 'quality' is then carried into *nirguṇa* and *saguṇa*, the resulting English ('without qualities', 'with qualities') reads as a flat predicate-logic claim and severs the term from the metaphysics it lives in. Acceptable practice: leave *guṇa* untranslated; on first use specify the register (Sāṃkhya-strand vs. Vaiśeṣika-padārtha vs. Vaiṣṇava-kalyāṇa); never translate *guṇātīta* as 'beyond qualities' (use 'beyond the three *guṇa*s' or 'beyond the *prakṛti*-strands'); never gloss *nirguṇa* as 'qualityless' or *saguṇa* as 'qualified' without qualification.",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-lazy-collapse-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

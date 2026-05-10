@@ -2,21 +2,28 @@
   "term_key": "akhyati",
   "term_iast": "akhyāti",
   "term_devanagari": "अख्याति",
-  "literal": "non-appearance, non-cognition; a- + khyāti",
+  "literal": "non-apprehension, non-discrimination; a- + khyāti",
   "aliases": ["akhyati", "akhyāti", "Akhyāti"],
-  "invariant_definition": "The Prābhākara Mīmāṃsā theory of erroneous cognition: in the rope-snake illusion there are *two* cognitions — a perception of the rope-shape and a memory of a snake from elsewhere — and the error consists in the *non-cognition* (*akhyāti*) of the distinction between them. There is no false cognition; only a failure to discriminate between the two real cognitions, which the agent then acts on. Sometimes called *vivekākhyāti*. Distinct from *anyathā-khyāti* (Nyāya) and *anirvacanīya-khyāti* (Advaita).",
+  "invariant_definition": "*Akhyāti* is the Prābhākara Mīmāṃsā account of error. In the stock rope-snake case there are not one false cognition and one later correction, but two true cognitive events operating together: a present perception of the rope-like substrate and a memory of a snake. Error consists in the non-apprehension of their difference. The theory therefore belongs inside a larger Prābhākara package that includes intrinsic validity of cognition and a reluctance to posit outright falsity at the point of awareness. Its practical point is clear: the agent acts on the conflated presentation because the distinction between present perception and remembered content has not been noticed. The term matters far beyond one school because Nyāya, Bhāṭṭa Mīmāṃsā, Advaita, and Buddhist authors define their own theories of error against it. It is one of the standard nodes in the *khyāti-vāda* map presupposed by later Vedāntic discussions of *adhyāsa* and *avidyā*.",
   "per_school": [
     {
       "school": "Prābhākara Mīmāṃsā",
-      "definition": "All cognition is intrinsically valid; what is called error is failure-to-distinguish two real cognitions. The agent acts as if the two cognitions referred to one object.",
-      "primary_loci": ["Bṛhatī (Prabhākara), pratyakṣa-pariccheda", "Prakaraṇa-Pañcikā (Śālikanātha), khyāti-section"]
+      "definition": "*Akhyāti* says that what is called error is really non-discrimination between a present percept and a remembered item. Because both constituent cognitions are valid in themselves, the school avoids positing a unitary false object at the point of experience. The explanatory burden falls on failure to distinguish, not on false presentation. This preserves the Prābhākara insistence that cognition as cognition is authoritative unless defeated at the level of later practical sorting.",
+      "primary_loci": ["Prabhākara, Bṛhatī [NOT YET RETRIEVED]", "Śālikanātha, Prakaraṇa-Pañcikā [NOT YET RETRIEVED]"]
     },
     {
-      "school": "Advaita / Nyāya",
-      "definition": "Rejected. The action-element of error (the agent reaching for the snake) requires a unitary cognitive object, not two disconnected cognitions. Both Advaita and Nyāya require error to be a positive cognitive event.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1 (against akhyāti)", "Nyāya-Vārttika 1.1.4"]
+      "school": "Nyāya",
+      "definition": "Nyāya rejects *akhyāti* because it thinks error must explain a unitary practical orientation toward an apparently present object. The frightened response to the supposed snake is not adequately captured, on the Naiyāyika view, by saying that a percept and a memory merely co-occurred without discrimination. Error requires a definite though mistaken presentational content, and Nyāya supplies that through *anyathā-khyāti*.",
+      "primary_loci": ["Nyāya-Sūtra 4.2.31–36", "Nyāya-Vārttika 1.1.4"]
+    },
+    {
+      "school": "Advaita",
+      "definition": "Advaita also rejects *akhyāti*. The point of objection is not only practical but ontological: a mere failure to distinguish cannot account for the positive appearing-content of illusion, and therefore cannot scale up to explain *adhyāsa* and bondage. Advaitins insist that erroneous appearance has a positive phenomenal character that must be accounted for, whether at the level of rope-snake or at the level of self-world confusion.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1", "Advaita-Siddhi, khyāti-vāda section [NOT YET RETRIEVED]"]
     }
   ],
-  "see_also": ["anyatha-khyati", "anirvacaniya-khyati", "khyati-vada"],
-  "translator_note": "'Theory that error is non-discrimination' is the standard gloss. Untranslatable in one English word."
+  "see_also": ["anyatha-khyati", "adhyasa", "avidya"],
+  "translator_note": "The lazy gloss is 'non-cognition.' That is too weak and too vague. The doctrine is not about blank absence of awareness, but about failure to discriminate two positively given cognitive factors. English should therefore keep the relation to error-theory visible, not reduce the term to mere not-knowing.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

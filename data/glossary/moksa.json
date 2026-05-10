@@ -4,34 +4,36 @@
   "term_devanagari": "मोक्ष",
   "literal": "release, liberation; from √muc 'to release'",
   "aliases": ["moksa", "mokṣa", "Mokṣa", "mokṣaḥ", "mokṣaṃ", "mokṣasya", "mukti", "muktiḥ", "apavarga"],
-  "invariant_definition": "The cessation of bondage to *saṃsāra* — the end of the cycle of rebirth and the attainment of the soul's highest state. All Vedāntic schools agree (a) that *mokṣa* is the *paramapuruṣārtha* (the highest of the four human goals); (b) that it is achieved by *brahma-jñāna* in some form (with *karma* preparatory but never of itself sufficient); (c) that the *Brahma-Sūtra*'s fourth *adhyāya* (*phala-adhyāya*) treats it. Schools diverge on the content of liberation: identity with *brahman* (Advaita), eternal blissful service to the Lord with retained individuality (Viśiṣṭādvaita, Dvaita, Acintya-Bhedābheda); on whether liberation occurs in the body (*jīvanmukti*, Advaita) or only after it (*videhamukti*, Dvaita disputes *jīvanmukti*); and on whether all four classical *mukti*-types (*sālokya*, *sāmīpya*, *sārūpya*, *sāyujya*) are real options, or only some.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "Release from bondage, but not a bare escape from existence. *Mokṣa* names the final state appropriate to what a school takes bondage to be: the nexus of *karma*, rebirth, embodiment, ignorance, misidentification, or estrangement from the Lord. It is therefore defined against adjacent terms such as *saṃsāra*, *bandha*, *apavarga*, and *kaivalya*. In the Mīmāṃsā background, the point is that no finite ritual act can simply manufacture *mokṣa* as a produced result; in the Vedāntic setting, the issue becomes what sort of cognition, devotion, surrender, or divine grace removes the condition that makes rebirth possible. The practical register is inseparable from the metaphysics: Advaita ties *mokṣa* to the removal of *avidyā* through *śravaṇa-manana-nididhyāsana*; Viśiṣṭādvaita and Dvaita tie it to God-directed knowledge and devotion; Gauḍīya Vaiṣṇavism treats even ordinary *mokṣa* as lower than *prema*. What remains invariant is this: *mokṣa* is the non-returning condition in which the structures that sustain saṃsāric agency, enjoyment, and compulsory embodiment no longer bind.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Mokṣa* is the realization of *ātman*'s pre-existing identity with *brahman*. Nothing is gained or attained; *avidyā* is removed and what already was is recognized. *Jīvanmukti* is admitted: the realized one lives out *prārabdha-karma* in a body whose phenomenality has ceased to bind. Final *videhamukti* is the falling-away of even the *prārabdha*-residue at the body's death. *Mokṣa* is *nityaṃ siddham* — eternally accomplished — not *kāryam* (a thing-to-be-produced).",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 4.1.13–15 (jīvanmukti)", "Brahma-Sūtra-Bhāṣya 4.4.1–7", "Naiṣkarmya-Siddhi 4 (jīvanmukti)", "Pañcadaśī 7"]
+      "definition": "*Mokṣa* is not a produced state but the recognition of an always-already accomplished identity of *ātman* and *brahman*. The operative contrast is with Mīmāṃsā: ritual *karma* can produce only a finite result, whereas liberating *jñāna* removes *avidyā*. Hence *mokṣa* is *nitya-siddha*, not a new *kārya*. The realized person may be a *jīvanmukta*: the body and its *prārabdha-karma* continue in *vyavahāra*, but the binding identification with them is gone. *Videhamukti* is only the exhaustion of the remaining embodied appearance.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.4", "Brahma-Sūtra-Bhāṣya 4.1.13-15", "Brahma-Sūtra-Bhāṣya 4.4.6-7", "Naiṣkarmya-Siddhi 4"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Mokṣa* is the soul's reaching Vaikuṇṭha (the Lord's transcendent abode) after death, where it enjoys eternal *bhoga* of *brahman* in the four *mukti*-modes (*sālokya*, *sāmīpya*, *sārūpya*, *sāyujya*) — *sāyujya* understood not as identity but as fullest intimacy. The *jīva*'s individuality is retained eternally; *dharmabhūta-jñāna* is fully expanded and unobstructed. *Jīvanmukti* in the strong Advaita sense is denied; what is admitted is *prapanna* (one who has surrendered) living out the body in unbroken devotion.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§137–144", "Śrī-Bhāṣya 4.4.1ff", "Yatīndra-Mata-Dīpikā 9"]
+      "definition": "*Mokṣa* is the soul's release from karmic embodiment and arrival at the Lord's abode through the *arcirādi-mārga*. The liberated *jīva* does not lose individuality; rather, its contracted *dharmabhūta-jñāna* expands fully and it enters uninterrupted *bhagavad-anubhava* and service. The central contrast with Advaita is decisive: liberation is not self-identity without remainder, but the perfected relation of the real *jīva* to the real Lord. *Jīvanmukti* in the strong Advaita sense is therefore denied.",
+      "primary_loci": ["Śrī-Bhāṣya 4.3.1-16", "Śrī-Bhāṣya 4.4.1-22", "Vedārtha-Saṅgraha §§137-144"]
     },
     {
       "school": "Dvaita",
-      "definition": "*Mokṣa* is the soul's eternal blissful service to Viṣṇu in Vaikuṇṭha. Crucially, the bliss enjoyed is *graded* (*ānanda-taratamya*) — each soul enjoys the *ānanda* proportional to its intrinsic nature; equality of liberated souls is denied. Only *mukti-yogya* souls reach *mokṣa*; *nitya-saṃsārī* souls cycle eternally; *tamo-yogya* souls reach the *andha-tamas* (eternal hell). *Jīvanmukti* is rejected as incoherent: liberation requires the dropping of the *karma*-body.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 4.4.1ff", "Anu-Vyākhyāna 4.4", "Mahābhārata-Tātparya-Nirṇaya 1.85–95 (taratamya in mukti)"]
+      "definition": "*Mokṣa* is the soul's eternal, conscious service to Viṣṇu after the shedding of the *karma* body. It presupposes correct knowledge of Viṣṇu's supremacy, but this knowledge itself matures only through *bhakti* and divine grace. Madhva's position is realist and hierarchical: liberated souls remain eternally distinct from Viṣṇu and from one another, and their bliss is graded by intrinsic *taratamya*. This is not crude dualism but a structured pluralism in which dependence on the one *svatantra* reality, Viṣṇu, is fully manifest in liberation.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 4.4.1-21", "Anu-Vyākhyāna 4.4", "Mahābhārata-Tātparya-Nirṇaya 1.85-95"]
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "*Mokṣa* in the impersonal Advaita sense (*sāyujya* as merger) is treated as low or even spiritually undesirable; the goal is *prema-bhakti* — eternal loving service to Kṛṣṇa in one of the five *rasas* in Goloka. The four classical *muktis* are accepted as graded options below *prema-bhakti*; *prema-bhakti* itself is not classified as one of them but stands above them.",
-      "primary_loci": ["Bhakti-Sandarbha §§78, 117", "Caitanya-Caritāmṛta, Madhya 19.149–169 (prema above mukti)"]
+      "definition": "Ordinary *mokṣa* is real but not ultimate. The school distinguishes liberation from the higher end of *prema*: release from saṃsāra may culminate in nearness to Bhagavān, but the supreme goal is active participation in Kṛṣṇa's eternal relational life. Rūpa Gosvāmī's formula that devotion makes even *mokṣa* seem slight is programmatic here. The decisive contrast is with impersonal release: the consummation sought is not merger but an eternal devotional identity within a particular *rasa*.",
+      "primary_loci": ["Bhakti-Rasāmṛta-Sindhu 1.1.17", "Bhakti-Sandarbha §§78-117", "Caitanya-Caritāmṛta, Madhya 19.149-169"]
     },
     {
       "school": "Trika / Kashmir Śaivism",
-      "definition": "*Mokṣa* is *pratyabhijñā* — recognition of one's identity with Śiva, the recognition that one *was already* Śiva. It is achievable in life; the realized one (*siddha*) lives in *jagad-ānanda* — the cosmic bliss in which the world is no longer over against him but is his own self-expression.",
-      "primary_loci": ["Pratyabhijñā-Hṛdaya, sūtras 1–20", "Tantrāloka 1.21ff"]
+      "definition": "*Mokṣa* is *pratyabhijñā*, the recognition that the finite subject was never other than Śiva. Bondage is not caused by an independent ignorance-substance but by contracted self-awareness under Śiva's own powers. Liberation is therefore not world-negation but the recovery of universal agency and awareness. The liberated knower can remain embodied and active, since what changes is the recognition of the world's status as one's own unfolded consciousness.",
+      "primary_loci": ["Pratyabhijñā-Hṛdaya 1, 12, 17-18", "Tantrāloka 1.21ff"]
     }
   ],
-  "see_also": ["jivanmukta", "videhamukti", "samsara", "jnana", "bhakti", "kaivalya", "vaikuntha", "pratyabhijna"],
-  "translator_note": "'Liberation' is acceptable as a gloss but obscures that the schools disagree on what one is liberated *into*. Translating *mokṣa* uniformly as 'liberation' across schools is fine if the reader understands that the post-liberation state varies from absolute identity (Advaita) to eternal blissful service (Viśiṣṇu schools) to recognized cosmic sovereignty (Trika)."
+  "see_also": ["jivanmukta", "videhamukti", "samsara", "jnana", "bhakti", "kaivalya", "prarabdha", "prema"],
+  "translator_note": "'Liberation' is the least bad English gloss, but it easily imports a modern picture of escape, privacy, or merely negative freedom. *Mokṣa* is not one uniform postmortem reward, and it is not always an exit from the world as such. The Sanskrit term carries the metaphysical dispute inside it: whether what is removed is *avidyā*, karmic embodiment, distance from Bhagavān, or contracted self-recognition."
 }

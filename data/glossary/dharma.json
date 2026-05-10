@@ -2,31 +2,43 @@
   "term_key": "dharma",
   "term_iast": "dharma",
   "term_devanagari": "धर्म",
-  "literal": "that which holds, sustains, supports; from √dhṛ 'to hold, to bear'",
+  "literal": "that which holds, supports, sustains; from √dhṛ 'to hold, to bear'",
   "aliases": ["dharma", "Dharma", "dharmaḥ", "dharmaṃ", "dharmasya", "dharmāḥ", "dharmān"],
-  "invariant_definition": "There is no single shared invariant — *dharma* is the most polysemic of all Vedāntic terms. The unifying root sense is 'that which holds together, that which sustains.' This produces multiple specialized uses: (1) the right ordering of action conformable to *śruti* and *smṛti* — the Mīmāṃsā / *dharmaśāstra* sense of enjoined duty; (2) the lawful order of the cosmos (*ṛta*-successor); (3) the constituent quality of a thing in technical Nyāya–Vaiśeṣika usage (a *dharma* of a *dharmin* = a property of its substance-bearer); (4) in Buddhist usage (relevant by polemical contact), the elementary phenomenal constituent. In Vedānta the principal contested sense is (1) and its relation to *mokṣa*: whether *dharma* is preparatory, continuous, or transcended in the realized state.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "*Dharma* is a load-bearing term across ritual theory, jurisprudence, ontology, yoga, and Buddhist phenomenology. The root sense is 'that which upholds,' but philosophical use immediately splits into several linked registers. In Mīmāṃsā, *dharma* is what is known through Vedic injunction and enacted through prescribed performance; the debate then turns on whether an act is *kratvartha* or *puruṣārtha*, and on how unseen efficacy connects action and result. In epic and social discourse, *dharma* becomes the right ordering of role, relation, and circumstance. In Nyāya-Vaiśeṣika, a *dharma* of a *dharmin* is a property borne by a substance. In Buddhism, *dharma* or *dhamma* can name both the teaching and the elementary factors analyzed as the constituents of experience. Vedānta inherits all these uses but reorders them around liberation: which *dharma* binds, which purifies, which continues as devotion, and whether the highest state lies beyond enjoinment or fulfills it.",
   "per_school": [
     {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "*Dharma* is that which is known from Vedic injunction and not from perception alone. Its paradigm form is enjoined action whose authority comes from *codanā*. The later distinction between *kratvartha* and *puruṣārtha* marks whether a prescription serves the integrity of the sacrifice itself or a human end. *Dharma* is thus fundamentally norm-governed performance, not private morality.",
+      "primary_loci": ["Jaimini-Sūtra 1.1.2", "Śabara-Bhāṣya on Jaimini-Sūtra 1.1.2 [NOT YET RETRIEVED]", "Tantravārttika on Jaimini-Sūtra 1.1.2 [NOT YET RETRIEVED]"]
+    },
+    {
       "school": "Advaita",
-      "definition": "*Dharma* in the *karma-kāṇḍa* sense (enjoined ritual and ethical action) is preparatory: it produces *citta-śuddhi* but cannot of itself produce *mokṣa*. The realized one is *atikrānta-vidhi-niṣedha* — beyond enjoinment and prohibition (Bṛhad-Bhāṣya 4.4) — though continuing externally to act in conformity with *dharma*. *Dharma* in the metaphysical-property sense (4 above) is what *brahman*, properly described, lacks (*nirdharmaka brahman*).",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.4", "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 4.4.22", "Bhagavad-Gītā-Bhāṣya 18.66 (sarva-dharmān parityajya)"]
+      "definition": "*Dharma* in the sense of enjoined action belongs to the preparatory sphere. It purifies the mind and stabilizes life, but it does not itself produce *mokṣa*, since liberation is not a product. The knower is beyond binding *vidhi* and *niṣedha*, though he may continue outwardly in dharmic conduct at the transactional level. Advaita also uses *dharma* in the property sense precisely to deny that *brahman* is a qualified bearer among other qualified things.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.4", "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 4.4.22", "Bhagavad-Gītā-Bhāṣya 18.66"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Dharma* in the enjoined-action sense remains binding even on the *prapanna* and on the liberated, because it is *bhagavad-ārādhana-rūpa* — itself a form of worship of the Lord. The *varṇa-āśrama-dharma* is permanently authoritative; the path of total surrender (*prapatti*) does not abolish but transfigures it.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§137–143", "Gītā-Bhāṣya (Rāmānuja) 18.66", "Śrī-Bhāṣya 3.4"]
+      "definition": "*Dharma* remains real obligation because the world and the self are real. Prescribed action, social role, and worship are not superseded by a realization that dissolves difference; they are gathered into *bhagavad-ārādhana*. The term also operates in technical ontology, as in *dharma-bhūta-jñāna*, where *dharma* keeps its sense of a real qualifying attribute inseparable from the self.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§137-143", "Śrī-Bhāṣya 3.4", "Bhagavad-Gītā-Bhāṣya (Rāmānuja) 18.66"]
     },
     {
       "school": "Dvaita",
-      "definition": "*Dharma* is the eternal lawful structure of the cosmos established and maintained by Viṣṇu. *Varṇa-āśrama-dharma* is metaphysically real and intrinsic to the *jīva*'s nature (*svabhāva*); transgression incurs real *karma* and real consequences in the *taratamya*-graded cosmos.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1", "Mahābhārata-Tātparya-Nirṇaya 1"]
+      "definition": "*Dharma* is the real normative order of a differentiated cosmos governed by Viṣṇu. Duties are not symbolic aids to be transcended into non-dual knowledge; they are objective demands fitted to the nature and station of real agents. Action in conformity with *dharma* therefore matters because difference, merit, and divine rule are all real.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1 [NOT YET RETRIEVED]", "Mahābhārata-Tātparya-Nirṇaya 1 [NOT YET RETRIEVED]"]
     },
     {
-      "school": "Acintya-Bhedābheda",
-      "definition": "Above all *varṇa-āśrama-dharma* stands *bhāgavata-dharma* — the dharma of devotion to Kṛṣṇa, accessible to all regardless of *varṇa* or *jāti*. Caitanya's revolutionary move is the public assertion that *bhāgavata-dharma* is everyone's *dharma* and that *varṇa-āśrama* is preparatory and dispensable for those whose *bhakti* has matured.",
-      "primary_loci": ["Bhakti-Sandarbha §§215–224", "Caitanya-Caritāmṛta, Madhya 8 (Rāmānanda-saṃvāda)"]
+      "school": "Yoga",
+      "definition": "Yoga uses *dharma* both in the general sense of lawful order and in the distinctive expression *dharma-megha-samādhi*. At that stage even attachment to extraordinary attainments and to merit falls away, and the yogin stands at the edge of *kaivalya*. The term therefore marks not only duty but the raining down or overflowing of the highest condition.",
+      "primary_loci": ["Yoga-Sūtra 4.29-31"]
+    },
+    {
+      "school": "Buddhism",
+      "definition": "*Dhamma* can mean the Buddha's teaching, the norm discovered in awakening, or the elementary conditioned factors out of which experience is analyzed. In Abhidharma this last sense becomes technical: persons are not irreducible substances but analyzable complexes of *dharmas*. The term therefore cannot be reduced either to 'religion' or to 'duty.'",
+      "primary_loci": ["Dhammacakkappavattana-Sutta (SN 56.11)", "Dhammasaṅgaṇī 1", "Saṃyutta-Nikāya 22.59"]
     }
   ],
-  "see_also": ["adharma", "varna", "asrama", "karma", "bhagavata-dharma", "sva-dharma", "dharma-bhuta-jnana"],
-  "translator_note": "Translating *dharma* as 'religion' is the standard colonial-era mistake (encoded in the British category 'the Hindu religion'). It is also wrongly translated as 'duty', 'law', 'righteousness', 'morality', or 'virtue' — each captures one slice. The correct policy is to leave *dharma* untranslated and to specify the sense from context. The user's position-brief is explicit: *dharma* is the lawful normative structure of cosmos and conduct, not 'religion' in the modern Western sense (which has no good Sanskrit equivalent and was constructed by 19th-century European Indologists)."
+  "see_also": ["karma", "jnana", "moksa", "samsara", "bhakti", "pramana"],
+  "translator_note": "Avoid the lazy glosses 'religion,' 'duty,' and 'law' when used without qualification. 'Religion' imports a modern confessional category; 'duty' narrows the term to ethics; 'law' can make it sound merely juridical. *Dharma* names whatever upholds a normative, ontological, or soteriological order, and context decides which register is active."
 }

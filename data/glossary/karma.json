@@ -2,31 +2,48 @@
   "term_key": "karma",
   "term_iast": "karma",
   "term_devanagari": "कर्म",
-  "literal": "action, deed, work; from √kṛ 'to do, to make'",
+  "literal": "action, deed, rite; from √kṛ 'to do, to make'",
   "aliases": ["karma", "Karma", "karman", "karmaṇaḥ", "karmaṇi", "karmaṇā", "karmas", "karmān"],
-  "invariant_definition": "Action — both the act itself and its causal consequence. In Vedānta technical usage *karma* names (a) ritual action enjoined by the *karma-kāṇḍa* of the Veda (Mīmāṃsā's domain); (b) the lawful causal residue of past action (*karmāśaya*) that determines the trajectory of *saṃsāra*; (c) action in general as opposed to *jñāna*. All schools agree that *karma* of type (b) binds the *jīva* to *saṃsāra*, that it has three classical divisions (*sañcita* — accumulated; *prārabdha* — fructifying; *āgāmī* — currently produced), and that its dissolution is necessary for *mokṣa*. Schools diverge on the relation of *karma* to *jñāna*-or-*bhakti* in the path to liberation: Advaita's *jñāna-karma-samuccaya-nirāsa* (rejection of conjoined-path), Viśiṣṭādvaita and Bhāskara's defense of *samuccaya*, Dvaita's view of *karma* as continuously needed for divine pleasing.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "*Karma* names more than deed or fate. In grammatical and causal analysis it belongs to the *kāraka* field: a *kartṛ* acts through *karaṇas* toward a *kārya*, and the performance is imputable as *karma* because it stands inside an ordered nexus of agency, instrumentality, and result. In Mīmāṃsā the paradigm case is Veda-enjoined ritual performance under *codanā* and *bhāvanā*, with *apūrva* as the unseen efficacy linking completed act to delayed *phala*. Yoga and Vedānta foreground the sequence of act, residual trace, and fruition - *karma*, *saṃskāra*, *vipāka* - while Nyāya-Vaiśeṣika often speaks instead of *adṛṣṭa* for the unseen residue carrying consequences forward. Thus *karma* can name the act itself, the ritual performance, the causal deposit left by action, or the whole economy by which embodied life is steered. Schools then disagree over what bears that deposit and how it matures: a persisting *jīva*, a momentary stream, or, in Jainism, karmic matter itself.",
   "per_school": [
     {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "The paradigm *karma* is Veda-enjoined ritual action. What matters is not bare motion but performance authorized by *codanā* and structured by *bhāvanā* toward a scripturally fixed result. Because the result can be temporally delayed, Mīmāṃsā posits *apūrva* as the unseen efficacy connecting completed rite and later *phala*. *Karma* is therefore intelligible only within a norm-governed structure of injunction, performer, materials, and result.",
+      "primary_loci": ["Jaimini-Sūtra 1.1.2", "Śabara-Bhāṣya on Jaimini-Sūtra 1.1.2 [NOT YET RETRIEVED]", "Kumārila, Ślokavārttika, codanā-sūtra section [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Yoga",
+      "definition": "*Karma* is the seed-bearing action stream whose deposits become *saṃskāra* and ripen as *vipāka* into birth, lifespan, and experience. The point is not a moral ledger detached from psychology, but a causal account of how afflictive action leaves traces in *citta* and structures future embodiment until discriminative knowledge burns the seed.",
+      "primary_loci": ["Yoga-Sūtra 2.12-14", "Yoga-Sūtra 4.7-8"]
+    },
+    {
       "school": "Advaita",
-      "definition": "*Karma* and *jñāna* are mutually exclusive paths (*jñāna-karma-samuccaya-nirāsa*). *Karma* presupposes the agent–object division (*kartṛtva-bhoktṛtva*) that *jñāna* dissolves; therefore *karma* cannot be co-instrumental in liberating cognition. *Karma* is preparatory: it produces *citta-śuddhi* (purification of the *antaḥkaraṇa*) which makes one fit for *jñāna*-pursuit. The *karma-yoga* of the Gītā is read as *cittasuddhi-upāya*, not as a parallel path to *mokṣa*.",
-      "primary_loci": ["Bhagavad-Gītā-Bhāṣya, upodghāta", "Bhagavad-Gītā-Bhāṣya 3.1, 3.3, 18.66", "Brahma-Sūtra-Bhāṣya 3.4.26–27", "Naiṣkarmya-Siddhi 1"]
+      "definition": "*Karma* belongs to the transactional order of agent, act, and result constituted under *avidyā*. It cannot directly yield *mokṣa*, because every action presupposes *kartṛtva* and aims at a produced result, whereas liberation is unproduced self-knowledge. Still, *karma* matters as discipline: performed without fruit-appropriation, it purifies the *antaḥkaraṇa* and prepares one for *jñāna*. Residual action is then sorted as *sañcita*, *prārabdha*, and *āgāmi*.",
+      "primary_loci": ["Bhagavad-Gītā-Bhāṣya 2.47", "Bhagavad-Gītā-Bhāṣya 3.3", "Bhagavad-Gītā-Bhāṣya 18.66", "Brahma-Sūtra-Bhāṣya 3.4.26-27"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Karma* and *jñāna* are not mutually exclusive but are conjoined under *bhakti* in the integrated path. *Karma* performed as *Bhagavat-ārādhana* (worship of the Lord) without attachment to fruits is itself an aspect of *bhakti-yoga* and continues even for the realized. *Niṣkāma-karma* + *jñāna* + *upāsana* = *bhakti* in the mature sense.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§137–143", "Śrī-Bhāṣya 3.4.26–27 (against Advaita samuccaya-nirāsa)", "Gītā-Bhāṣya (Rāmānuja) 3.3, 18.66"]
+      "definition": "*Karma* is real action performed by a real self within a real divine order sustained by Nārāyaṇa. Ritual and ethical action are not merely preliminary but can be integrated into *bhakti* when offered as *bhagavad-ārādhana*. The karmic deposit is real, but its fruition belongs to the Lord's just governance rather than to an autonomous mechanism standing outside him.",
+      "primary_loci": ["Bhagavad-Gītā-Bhāṣya (Rāmānuja) 3.9", "Bhagavad-Gītā-Bhāṣya (Rāmānuja) 18.46", "Śrī-Bhāṣya 3.4.26-27"]
     },
     {
       "school": "Dvaita",
-      "definition": "*Karma* offered to Viṣṇu as *parama-prabhu* is permanent — even for the liberated soul, who eternally serves Viṣṇu in Vaikuṇṭha through devotional *karma*. *Karma* is not merely preparatory but is the lifelong and after-life mode of the *jīva*'s relation to its master. *Karma* divorced from *bhakti-jñāna* binds; *karma* offered to Viṣṇu purifies.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 3.4.1ff", "Anu-Vyākhyāna 3.4", "Gītā-Tātparya 3.3"]
+      "definition": "*Karma* is real causal contribution by a dependent *jīva* in a hierarchy governed by Viṣṇu. Merit and demerit are objectively ordered; different souls have different intrinsic capacities; and action offered to Viṣṇu is part of the soul's permanent service rather than a merely provisional ladder. The residue of action is real, but never independent of the Lord's governance.",
+      "primary_loci": ["Gītā-Tātparya-Nirṇaya 3 [NOT YET RETRIEVED]", "Anu-Vyākhyāna 3.4 [NOT YET RETRIEVED]"]
     },
     {
-      "school": "Acintya-Bhedābheda",
-      "definition": "*Karma-kāṇḍa* and *jñāna-kāṇḍa* are both subordinated to *bhakti*. Once *prema-bhakti* arises, *karma* in the ritual sense is no longer obligatory; what remains is *bhakti-mayī kriyā* (action saturated by devotion). *Karma* in the metaphysical sense (the residue-mechanism) is dissolved by *bhakti*, not by *jñāna*.",
-      "primary_loci": ["Bhakti-Sandarbha §§213–224", "Bhakti-Rasāmṛta-Sindhu 1.1.11"]
+      "school": "Buddhism",
+      "definition": "*Kamma* is intention-centered conditioning, not action performed by an eternal self. The canonical formula says that intention is *kamma*; intentional formations feed dependent origination and condition future rebirth without requiring a persisting agent behind the stream. Later Abhidharma analyzes the chain in finer detail, but the core point remains that karmic continuity is lawful without a substantial doer.",
+      "primary_loci": ["Aṅguttara-Nikāya 6.63", "Saṃyutta-Nikāya 12.2"]
+    },
+    {
+      "school": "Jainism",
+      "definition": "*Karma* is literal subtle matter that flows toward and binds the *jīva*. Activity and passion open the channels of influx; bondage, stoppage, and shedding are treated as real causal processes. The doctrine is therefore stronger than the Vedāntic or Buddhist appeal to unseen residue: karma is not only a causal deposit but a material accretion obscuring the soul's natural omniscience.",
+      "primary_loci": ["Tattvārtha-Sūtra 6.1", "Tattvārtha-Sūtra 8.1-2"]
     }
   ],
-  "see_also": ["jnana", "dharma", "samsara", "samuccaya", "niskama-karma", "prarabdha", "sancita", "agami", "karma-kanda"],
-  "translator_note": "Translating *karma* as 'work' or as 'the law of cause and effect' both miss. 'Work' loses the technical force; 'cause and effect' makes it sound like a physical law rather than a normative-metaphysical doctrine about how the *jīva*'s actions shape its future embodiments. *Karma* is best left untranslated. The pop-cultural English 'karma' (= 'what goes around comes around') is a distant degradation of a precise technical term."
+  "see_also": ["niskama-karma", "prarabdha", "samsara", "dharma", "jnana", "moksa"],
+  "translator_note": "Avoid the lazy glosses 'work,' 'fate,' and 'what goes around comes around.' 'Work' strips away the causal and ritual apparatus; 'fate' turns *karma* into passive destiny; the popular proverb makes it sound like a vague moral boomerang. *Karma* names an action-structure and its residual efficacy inside a theory of agency, causation, and rebirth."
 }

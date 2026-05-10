@@ -4,19 +4,31 @@
   "term_devanagari": "चित्त",
   "literal": "what-has-been-thought, the thinking-substance; past-passive participle of √cit 'to be aware, to think'",
   "aliases": ["citta", "Citta", "cittasya", "citte", "cittena", "citta-vṛtti", "cittavrtti"],
-  "invariant_definition": "The memory-and-dwelling function of the *antaḥkaraṇa* — the substrate on which past cognitions are deposited as *saṃskāras* and from which they are recalled. In Yoga (Patañjali) *citta* is the entire mental field whose *nirodha* is the goal (*Yoga-Sūtra* 1.2: *yogaś citta-vṛtti-nirodhaḥ*). In Vedānta-psychology *citta* is one of the four *antaḥkaraṇa* functions, with *manas*, *buddhi*, and *ahaṅkāra*. All schools accept *citta* as the locus of *vāsanās* and *saṃskāras* — the latent dispositions that drive *karma*-bound action.",
+  "invariant_definition": "*Citta* operates in two related but non-identical registers that must be kept apart. In Yoga it names the entire mutable mental field whose *vṛtti*s are to be stilled: memory, imagination, error, sleep, and valid cognition all belong to *citta*. In later Vedāntic psychology it more often names one functional aspect of the *antaḥkaraṇa*: the retaining, dwelling, and recollective layer in which impressions persist as *saṃskāra* and *vāsanā*. The overlap between the two is significant. In both cases *citta* is the operative field in which latent dispositions mature into present cognition and future action. That is why *citta-śuddhi* is a practical constant across schools. Without purification of this field, one remains governed by sedimented tendencies rather than by knowledge. The term must also be distinguished from *cit* or *caitanya*: *citta* is not pure consciousness but the mutable, impression-bearing medium in which consciousness is reflected or through which it operates.",
   "per_school": [
     {
-      "school": "Advaita",
-      "definition": "*Citta* is the *vāsanā*-storehouse whose purification (*citta-śuddhi*) is the *karma-yoga*-fruit and the precondition of *jñāna*-pursuit. *Citta-nāśa* (cessation of *citta*) is admitted as the structural correlate of *jīvanmukti*.",
-      "primary_loci": ["Vivekacūḍāmaṇi", "Yoga-Vāsiṣṭha (where citta-doctrine is most developed)"]
+      "school": "Yoga",
+      "definition": "*Citta* is the total mental field whose modifications constitute ordinary experience and whose stilling is yoga. It stores *saṃskāra*s, generates *vṛtti*s, and is reshaped by practice until discriminative insight becomes stable. The practical core of Yoga can be read as a science of *citta*-transformation.",
+      "primary_loci": ["Yoga-Sūtra 1.2", "Yoga-Sūtra 1.5–11", "Yoga-Sūtra-Bhāṣya 1.2–5"]
     },
     {
-      "school": "Viśiṣṭādvaita / Dvaita",
-      "definition": "*Citta* is a real *prakṛti*-function whose *saṃskāras* are real causal residues structuring future embodiments.",
-      "primary_loci": ["Yatīndra-Mata-Dīpikā 5"]
+      "school": "Advaita",
+      "definition": "*Citta* names the memory- and *vāsanā*-bearing aspect of the inner instrument. Its purification is indispensable because *mahāvākya*-hearing cannot stabilize in a field saturated by contrary impressions. Later Advaita therefore treats *citta-śuddhi* as a real preparatory achievement while denying that *citta* is itself consciousness. What is purified is an instrument, not the self.",
+      "primary_loci": ["Vedāntasāra 96–99 [NOT YET RETRIEVED]", "Pañcadaśī 1.14–25", "Bhagavad-Gītā-Bhāṣya 18.51–53"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Citta* is a real internal function through which karmic impressions persist and recollection operates. Its conditioning power is real, but it does not exhaust the self's nature. Devotional practice, remembrance, and disciplined action transform this field by reorienting stored tendencies toward the Lord.",
+      "primary_loci": ["Yatīndra-Mata-Dīpikā 5", "Gītā-Bhāṣya (Rāmānuja) 8.6", "Śrī-Bhāṣya 2.3.42–53"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Citta* is a real impression-bearing aspect of embodied mentality. The residues stored there help explain continuity of character and devotion across karmic existence, but they belong to an instrument of a distinct soul rather than to a universal consciousness-field. Dvaita thus keeps the practical importance of *citta* without weakening ontological plurality.",
+      "primary_loci": ["Tattva-Saṅkhyāna 5–7", "Gītā-Tātparya 8 [NOT YET RETRIEVED]"]
     }
   ],
-  "see_also": ["antahkarana", "manas", "buddhi", "ahankara", "samskara", "vasana", "vrtti"],
-  "translator_note": "'Mind-stuff' is Vivekananda's coinage and is acceptable. 'Consciousness' is misleading — *citta* in technical usage is *not* pure consciousness (*caitanya*) but the *prakṛti*-side memory-substrate. The Sanskrit distinguishes *cit* (pure consciousness, *brahman*-side) from *citta* (mental substrate, *prakṛti*-side); English collapses both into 'consciousness'."
+  "see_also": ["antahkarana", "manas", "buddhi", "ahankara", "samskara", "vasana", "vrtti", "cit"],
+  "translator_note": "'Consciousness' is usually the wrong translation. It collapses *citta* into *cit* and erases the distinction between mutable mental field and pure awareness. 'Mind-stuff' captures the Yoga register tolerably well, and 'memory-field' or 'impression-bearing mind' can help in the Vedāntic register. The key point is that *citta* is what carries traces, not what shines by its own nature.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

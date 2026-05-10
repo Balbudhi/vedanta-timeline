@@ -2,31 +2,33 @@
   "term_key": "lila",
   "term_iast": "līlā",
   "term_devanagari": "लीला",
-  "literal": "play, sport, the spontaneous activity of one who needs nothing",
+  "literal": "play, sport, spontaneous activity of one who lacks nothing",
   "aliases": ["lila", "līlā", "Līlā", "līlāyāḥ", "līlāyām", "leela"],
-  "invariant_definition": "The Lord's purposeless creative activity — creation undertaken not from need, lack, or external compulsion but as the spontaneous overflow of fullness. The locus classicus for *līlā* in Vedānta is *Brahma-Sūtra* 2.1.33 (*lokavat tu līlā-kaivalyam*) — 'creation is mere play, as in the world.' All Vedāntic schools accept *līlā* as the answer to the problem of creation's *prayojana* (purpose); the schools differ on whether *līlā* is purely an aspect of the Lord (Viśiṣṭādvaita, Vaiṣṇava bhedābheda — and crucially Acintya-Bhedābheda where *līlā* is the entire substance of Kṛṣṇa's eternal Goloka-activity) or whether *līlā*-talk is itself *vyāvahārika* (Advaita — the question 'why creation' presupposes *avidyā*; in *pāramārthika* there is no creation).",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "*Līlā* names action without lack-driven necessity. In Vedāntic discussion it enters most sharply through the problem of divine motivation: if the Lord is complete, why create at all? The answer given by many traditions is not that creation serves an unmet need, but that it is play, expression, or overflow. That answer can itself be read in importantly different ways. For Advaita it functions mainly at the *vyāvahārika* level as a way of blocking the demand for external purpose. For theistic Vedānta it names a real mode of divine self-expression. In Trika Śaivism, the parallel notion is grounded in *svātantrya*, divine freedom to manifest and withdraw the universe. The term therefore presupposes a wider contrast between compelled action, teleological production, and free manifestation. It should also be linked to practical discourse: the divine act is *līlā* because it is uncoerced; human participation in *līlā* becomes intelligible when desire for fruit and compulsive agency are loosened.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Līlā* is the *vyāvahārika*-level answer to the Mīmāṃsaka / Naiyāyika challenge: why does *brahman*, complete in itself, manifest the world? *Brahma-Sūtra* 2.1.33 is read as removing the question rather than answering it: *līlā* names the absence of any *prayojana*-structure. In *pāramārthika* analysis there is no creation and therefore no question.",
+      "definition": "*Līlā* answers, at the empirical level, the question why the world appears without attributing deficiency to *brahman*. Śaṅkara's reading of the *Brahma-Sūtra* does not make divine play a robust causal psychology; it neutralizes the demand that creation must have an external purpose. Since ultimate analysis denies real creation altogether, *līlā* belongs to pedagogical and transactional discourse rather than to the final standpoint.",
       "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.1.33"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Līlā* is real: the Lord, complete in himself, undertakes creation as spontaneous expressive activity, parallel to the play of the perfectly satisfied. *Līlā* is therefore an integral feature of the Lord's nature, not a mere concession to the question.",
-      "primary_loci": ["Śrī-Bhāṣya 2.1.33", "Vedārtha-Saṅgraha §§91–95"]
+      "definition": "*Līlā* is a real feature of the Lord's activity. Creation is not driven by want, but it is genuinely performed by the complete Lord whose nature includes free and expressive manifestation. The world is real, so divine play cannot be reduced to a merely provisional explanation. The category therefore secures both divine fullness and the reality of creation.",
+      "primary_loci": ["Śrī-Bhāṣya 2.1.33", "Vedārtha-Saṅgraha §§91-95"]
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "*Līlā* is the entire substance of Kṛṣṇa's eternal activity in Goloka — the *aṣṭakāla-līlā* (the eight-fold daily round) of Kṛṣṇa with the *gopīs*. The temporal play in Vraja and the eternal play in Goloka are the *prakaṭa* (manifest) and *aprakaṭa* (unmanifest) phases of the same *līlā*. *Līlā*-realization is the highest devotional attainment; the *bhakta*'s eternal participation in Kṛṣṇa's *līlā* is *prema-mokṣa*.",
-      "primary_loci": ["Kṛṣṇa-Sandarbha §§148–170", "Caitanya-Caritāmṛta, Antya-līlā throughout", "Bhakti-Rasāmṛta-Sindhu 2"]
+      "definition": "*Līlā* is not peripheral but central. Kṛṣṇa's eternal activities in Goloka and their manifest earthly disclosures are the highest content of theology and devotion. The devotee does not merely admire divine play from outside; liberated devotional life is participation in it. This is why hearing and remembering *līlā* are major limbs of practice and why *prema* culminates in a specific relational place within Kṛṣṇa's play world.",
+      "primary_loci": ["Bhāgavata-Purāṇa 10.29-33", "Kṛṣṇa-Sandarbha §§148-170", "Caitanya-Caritāmṛta, Antya 1 [NOT YET RETRIEVED]"]
     },
     {
       "school": "Trika / Kashmir Śaivism",
-      "definition": "*Līlā* / *krīḍā* is Śiva's spontaneous self-disclosure — the cosmic process is Śiva's free play with himself through *svātantrya-śakti*. The five cosmic acts (*pañca-kṛtya*: *sṛṣṭi*, *sthiti*, *saṃhāra*, *nigraha*, *anugraha*) are the modes of this play.",
-      "primary_loci": ["Tantrāloka 1, 9", "Pratyabhijñā-Hṛdaya, sūtra 10"]
+      "definition": "The closest analogue to *līlā* is Śiva's free self-manifestation under *svātantrya-śakti*. The universe is produced, maintained, withdrawn, concealed, and graced through the five acts of the Lord. This is not illusionist language but an account of real manifestation as the expression of unimpeded divine freedom. The world is thus neither outside Śiva nor a mere symbolic fiction.",
+      "primary_loci": ["Pratyabhijñā-Hṛdaya 10", "Tantrāloka 1.21ff", "Tantrāloka 9 [NOT YET RETRIEVED]"]
     }
   ],
-  "see_also": ["prayojana", "svatantrya", "krsna", "goloka", "prema"],
-  "translator_note": "'Play' is acceptable but Western readers should not collapse it into 'mere amusement.' *Līlā* is the technical name for purposeless action — action arising from fullness, not from lack. The user's position-brief (T8, T9, T12) uses *līlā* as a constitutive term for the texture of divine manifestation; the connection to *niṣkāma karma* (action without desire-for-fruit) and to wu-wei is operative. 'Sport' (older English usage) is an acceptable archaism."
+  "see_also": ["prema", "rasa", "svatantrya", "moksa", "bhakti"],
+  "translator_note": "'Play' is acceptable only if one strips away the English suggestion of trivial amusement. *Līlā* names purposive action without need, or expression without deficiency. Translating it as if it meant mere fantasy or symbolism imports the wrong metaphysics, especially in the devotional and Śaiva schools where the divine acts and presences are treated as fully real."
 }

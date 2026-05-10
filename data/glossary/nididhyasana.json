@@ -2,21 +2,28 @@
   "term_key": "nididhyasana",
   "term_iast": "nididhyāsana",
   "term_devanagari": "निदिध्यासन",
-  "literal": "intense and continuous meditation; intensive form from ni- + √dhyai 'to meditate'",
+  "literal": "intense and continuous meditation; intensive form from *ni-* + √*dhyai* 'to meditate'",
   "aliases": ["nididhyasana", "nididhyāsana", "Nididhyāsana", "nididhyāsanam"],
-  "invariant_definition": "The third stage of *śravaṇa-manana-nididhyāsana*: intensive sustained meditation on what has been heard and reflected on, removing *pratibandhaka*s (residual obstructions, primarily *deha-ātma-buddhi* — the body-self identification) so that the cognition becomes existentially operative. All Vedāntic schools accept *nididhyāsana*; differences in framing track those at *śravaṇa* and *manana*.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "*Nididhyāsana* is the sustained contemplative assimilation of what has already been heard and thought through. It is not generic meditation and not an independent source of doctrine. Its role is to make the teaching existentially stable by weakening entrenched contrary habits, residual misidentification, or practical distraction. That is why the term sits beside *śravaṇa* and *manana* rather than replacing them. In Advaita, it is often described as removing *viparīta-bhāvanā* or *pratibandhaka*, the lived inertia of body-self identification that can survive even after conceptual clarity. In Viśiṣṭādvaita and other devotional schools, the same practical space is filled by continuous *upāsanā*, remembrance, or God-centered meditation. The term therefore belongs to the practice register in a precise way: it names the transition from understanding to settled orientation.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Nididhyāsana* removes *pratibandhakas* and stabilizes *brahma-jñāna* into *brahma-niṣṭhā*. In some Advaita texts (especially *Vivekacūḍāmaṇi* and *Pañcadaśī*) *nididhyāsana* is given a heavier weight than the bare *śravaṇa*-account suggests.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 4.1.1–2", "Vivekacūḍāmaṇi 364–369", "Pañcadaśī 9"]
+      "definition": "*Nididhyāsana* is the prolonged contemplative dwelling on the non-dual teaching after its meaning has been ascertained. It does not generate a new object, but it removes contrary conditioning and stabilizes *brahma-niṣṭhā*. Later Advaita often emphasizes this heavily, especially where the distinction between conceptual understanding and lived freedom is thematized. The target is not ignorance in the abstract alone, but the persistence of embodied self-habit.",
+      "primary_loci": ["Bṛhadāraṇyaka-Upaniṣad 2.4.5", "Bṛhadāraṇyaka-Upaniṣad 4.5.6", "Brahma-Sūtra-Bhāṣya 4.1.1-2", "Vivekacūḍāmaṇi 364-369"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Nididhyāsana* is essentially *upāsana* — the sustained meditational devotional stance that constitutes mature *bhakti*.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§137–144"]
+      "definition": "The functional analogue of *nididhyāsana* is sustained *upāsanā*: repeated, uninterrupted recollection of the Lord in accordance with scriptural description. The emphasis is not on dissolving a false identity claim, but on deepening a real devotional cognition until it becomes the dominant and continuous orientation of the self. Hence the school often absorbs the third member of the triad into mature *bhakti-yoga*.",
+      "primary_loci": ["Bṛhadāraṇyaka-Upaniṣad 2.4.5", "Śrī-Bhāṣya 4.1.1-12", "Vedārtha-Saṅgraha §§137-144"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Nididhyāsana* is continuous remembrance and meditation on Viṣṇu grounded in correct knowledge of difference. The contemplative act does not culminate in identity, but in ever clearer awareness of the self's dependence and the Lord's supremacy. Its practical role is stabilizing: heard and reasoned doctrine becomes constant devotional orientation.",
+      "primary_loci": ["Bṛhadāraṇyaka-Upaniṣad 2.4.5", "Brahma-Sūtra-Bhāṣya (Madhva) 4.1.1-2", "Anu-Vyākhyāna 4.1 [NOT YET RETRIEVED]"]
     }
   ],
-  "see_also": ["sravana", "manana", "dhyana", "upasana"],
-  "translator_note": "'Intensive meditation' or 'sustained contemplation' both acceptable."
+  "see_also": ["sravana", "manana", "sadhana", "jnana", "bhakti"],
+  "translator_note": "'Meditation' is too broad, and 'contemplation' can sound merely reflective. *Nididhyāsana* is a post-understanding stabilizing discipline. Translating it as if it were interchangeable with modern mindfulness practices imports a psychology that is foreign to the Vedāntic sequence."
 }

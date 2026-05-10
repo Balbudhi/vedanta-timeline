@@ -4,44 +4,46 @@
   "term_devanagari": "ब्रह्मन्",
   "literal": "from √bṛh, 'to grow, to swell, to expand'; the swelling-without-bound, the encompassing reality",
   "aliases": ["brahman", "Brahman", "brahma", "Brahma", "brahmaṇ", "brahmaṇaḥ", "brahmaṇi", "brahmano"],
-  "invariant_definition": "The ultimate reality of which the Upaniṣads speak, the *tātparya* (settled purport) of all Vedānta inquiry, the cause (in some sense — efficient, material, or both) of the world, and that whose knowledge is liberation. Every Vedāntic school agrees that *brahman* is the unique reality referred to by *Brahma-Sūtra* 1.1.2 (*janmādy asya yataḥ*), that it is *sat-cit-ānanda* (existence-consciousness-bliss), and that it is the unique object whose realization frees from *saṃsāra*. Schools diverge sharply on whether *brahman* is *nirviśeṣa* (without internal differentiation) or *saviśeṣa* (qualified by real internal differentiation), on whether *brahman* is the only reality or one reality among others ontologically dependent on it, and on whether *brahman* is best characterized impersonally (as *nirguṇa*) or personally (as the Lord, *Bhagavān*, identified with Viṣṇu, Śiva, or Kṛṣṇa).",
+  "invariant_definition": "The ultimate referent of Upaniṣadic inquiry and the target of *brahma-jijñāsā*. In Vedānta the term does not merely mean a highest being; it names that from which the world arises, by which it is sustained, into which it resolves, and on knowing which the bondage of *saṃsāra* is ended. The term therefore sits inside a technical matrix: *jagat-kāraṇatva*, debates over *upādāna* and *nimitta-kāraṇa*, the *sat-kārya* question of whether effects pre-exist in their cause, the opposition of *nirguṇa* and *saguṇa*, and the relation between *brahman*, *īśvara*, *paramātman*, and *bhagavān*. All Vedāntic schools agree that *brahman* is the purport of the Upaniṣads and the reality marked by *janmādy asya yataḥ*; they disagree on whether the world is a real mode, a real power, or an apparent manifestation of that reality, and on whether differentiation belongs to *brahman* itself or only to what depends on it. In practice the term also governs *upāsanā*: the realized object of liberating knowledge for Advaita, and the real Lord to be known, served, and loved for the theistic schools.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Brahman* is the sole reality (*ekam evādvitīyam*, Chāndogya 6.2.1). Properly described, *brahman* is *nirguṇa* (without determinate qualities) and *nirviśeṣa* (without internal differentiation); the *saguṇa brahman* of devotional practice is a lower (*apara*) standpoint, valid for the seeker but sublatable in *brahma-jñāna*. *Brahman* is identical with *ātman* (mahāvākya *tat tvam asi*, Chāndogya 6.8.7). The world's apparent emergence from *brahman* is *vivarta* (apparent transformation), not *pariṇāma* (real transformation): *brahman* is not modified.",
+      "definition": "*Brahman* alone is *pāramārthika-sat*: *ekam evādvitīyam* and identical with *ātman*. The world appears through *māyā-avidyā* and is grounded in *brahman* as *adhiṣṭhāna*, but *brahman* itself is not modified by the appearance; hence the preference for *vivarta* over real *pariṇāma*. *Saguṇa brahman* or *īśvara* is not a fiction but the same reality viewed through the cosmic *upādhi* of *māyā*, valid within *vyavahāra* and sublated only by *brahma-jñāna*.",
       "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1–4", "Chāndogya-Upaniṣad-Bhāṣya 6.2 and 6.8.7", "Brahma-Sūtra-Bhāṣya 2.1.14 (vivarta)", "Upadeśa-Sāhasrī 18"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Brahman* is *saviśeṣa* — eternally qualified by the totality of conscious selves (*cit*) and inert matter (*acit*) as His body (*śarīra*). *Nirguṇa* texts are read as denying *heya-guṇas* (defects), not all attributes. *Brahman* is identified with Viṣṇu/Nārāyaṇa, the personal Lord with infinite auspicious qualities (*ananta-kalyāṇa-guṇa*). The relation of *brahman* to *cit* and *acit* is *aprthak-siddhi* (inseparable establishment) — neither identity nor mere conjunction.",
+      "definition": "*Brahman* is Nārāyaṇa, a *saviśeṣa* reality eternally qualified by *cit* and *acit* as His body. The causal claim is strong: *brahman* is both material and efficient cause, but the effect is a real manifestation of His modes, not an illusion. *Nirguṇa* texts deny defects, not attributes. The key scaffold is *śarīra-śarīrī-bhāva*: selves and matter are inseparable from *brahman* yet not identical with Him, so world, devotion, and liberation all remain fully real.",
       "primary_loci": ["Vedārtha-Saṅgraha §§91–137", "Śrī-Bhāṣya 1.1.1", "Śrī-Bhāṣya 1.1.13 (saguṇa-brahman defended)", "Śrī-Bhāṣya 2.1.9 (śarīra-śarīrī-bhāva)"]
     },
     {
       "school": "Dvaita",
-      "definition": "*Brahman* is the unique *svatantra* (independent) reality, identified strictly with Viṣṇu. All else — *jīvas* and inert matter — is *paratantra* (dependent). The five real distinctions (*pañca-bheda*) — between *brahman* and *jīva*, *brahman* and matter, *jīva* and *jīva*, *jīva* and matter, matter and matter — are eternal and ontologically primitive. *Brahman* possesses infinite real qualities; the *nirguṇa* texts deny only *prākṛta-guṇas* (the qualities of inert matter).",
+      "definition": "*Brahman* is Viṣṇu, the only *svatantra* reality. Everything else is *paratantra* and really distinct from Him, so causality never erases *pañca-bheda*. The world depends totally on *brahman* without becoming identical to it, and the Lord's qualities are fully real rather than pedagogical concessions. Madhva's realism is therefore hierarchical rather than crude 'dualism': one independent reality, many dependent realities, all ordered under Viṣṇu.",
       "primary_loci": ["Tattva-Saṅkhyāna 1–4", "Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1–2", "Viṣṇu-Tattva-Vinirṇaya §§1–10"]
     },
     {
       "school": "Bhedābheda (Bhāskara, Yādava-Prakāśa)",
-      "definition": "*Brahman* is simultaneously identical with and different from the world; the difference is not illusory and the identity is not nominal. Bhāskara holds that *brahman* really transforms (*pariṇāma*) into the world without losing its essence — *vivarta-vāda* is rejected as a Buddhist smuggling. The *upādhi* (limiting condition) of embodiment is real, not illusory.",
+      "definition": "*Brahman* is both identical with and different from the world, and both sides of the relation are real. Bhāskara therefore rejects Advaita *vivarta* as a refusal to own the causal language of the Upaniṣads. The world is a real *pariṇāma* of *brahman*; embodiment and limitation are not merely imagined but belong to the actual way *brahman* appears as the many.",
       "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 1.1.4", "Bhāskara, Brahma-Sūtra-Bhāṣya 2.1.14 (against vivarta)"]
     },
     {
       "school": "Acintya-Bhedābheda (Caitanya / Jīva Gosvāmī)",
-      "definition": "*Brahman* is simultaneously and inconceivably (*acintya*) one with and different from its *śaktis* (powers, including jīvas and matter). The relation is *acintya* because logic cannot resolve it — it is a real metaphysical fact disclosed by *śabda*, not a contradiction. *Brahman* is identified with Kṛṣṇa (the *svayaṃ-bhagavān*), of whom impersonal *brahman* is the bodily effulgence (*brahmajyoti*) and *paramātman* the indwelling aspect.",
+      "definition": "*Brahman* is not the highest impersonal terminus but the radiance of Kṛṣṇa, who is *svayaṃ-bhagavān*. The relation between Kṛṣṇa and His *śaktis* is real and *acintya*: not a logical contradiction, but a relation that cannot be flattened into either sheer identity or sheer difference. This yields a three-register theology: impersonal *brahman* as effulgence, *paramātman* as indwelling regulator, and *bhagavān* as the fullest personal manifestation.",
       "primary_loci": ["Tattva-Sandarbha §§51–56", "Bhagavat-Sandarbha §§1–7", "Kṛṣṇa-Sandarbha §§28–29 (Kṛṣṇa as svayaṃ-bhagavān)"]
     },
     {
       "school": "Śuddhādvaita (Vallabha)",
-      "definition": "*Brahman* is identified with Kṛṣṇa, who is *sat-cit-ānanda* in His full nature. The world is a real *avikṛta-pariṇāma* (transformation without modification) of *brahman* — a transformation that produces real effects without diminishing the source. There is no *māyā* in the Advaita sense; the world's reality is undiminished.",
-      "primary_loci": ["Aṇu-Bhāṣya 1.1.2", "Tattvārtha-Dīpa-Nibandha, Śāstrārtha-Prakaraṇa"]
+      "definition": "*Brahman* is Kṛṣṇa in full *sat-cit-ānanda* plenitude. The world is His real manifestation by *avikṛta-pariṇāma*: a genuine emergence that does not diminish or corrupt the source. Vallabha therefore rejects any need for *māyā* as an ontological downgrading device; the world is real because it is *brahman*'s own self-expression.",
+      "primary_loci": ["Aṇu-Bhāṣya 1.1.2"]
     },
     {
       "school": "Dvaitādvaita (Nimbārka)",
-      "definition": "*Brahman* is naturally both one with and different from the *jīva* and the world; the difference and the identity are equally real and equally primary, not derived from each other. *Brahman* is identified with Kṛṣṇa accompanied by Rādhā.",
-      "primary_loci": ["Vedānta-Pārijāta-Saurabha 1.1.1–4", "Daśa-Ślokī"]
+      "definition": "*Brahman* is Kṛṣṇa, naturally one with and different from selves and world. The relation is not a later epistemic correction but the original metaphysical structure: dependence grounds identity, distinctness grounds plurality. Nimbārka thus preserves real devotion, real plurality, and real dependence without adopting Advaita's sublation model.",
+      "primary_loci": ["Vedānta-Pārijāta-Saurabha 1.1.1–4", "Daśa-Ślokī 1–2"]
     }
   ],
   "see_also": ["atman", "saguna", "nirguna", "saccidananda", "isvara", "bhagavan", "para-brahman", "vivarta", "parinama"],
-  "translator_note": "*Brahman* is conventionally translated 'the Absolute' or 'God', both misleading. 'The Absolute' carries Hegelian and German-idealist freight that does not belong to the Sanskrit; 'God' implies a personal creator-deity, which is true only on some Vedāntic readings (Viśiṣṭādvaita, Dvaita, the Vaiṣṇava bhedābheda schools) and explicitly denied as the highest description on others (Advaita's *nirguṇa brahman*). The root sense — 'that which expands without bound' — is closer to the Sanskrit. Note also: *brahman* (neuter) ≠ *brahmā* (masculine, the four-faced creator-deity of the Trimūrti), ≠ *brāhmaṇa* (member of the priestly varṇa). English script collapses all three; Sanskrit does not."
+  "translator_note": "Avoid lazy equivalences such as 'the Absolute' or 'God' without qualification. 'The Absolute' imports German-idealist baggage; 'God' imports a personal creator model that fits some Vedāntic schools and not others. The Sanskrit term carries a causal and soteriological apparatus: world-ground, object of liberating knowledge, and, in many schools, the real Lord of worship. Also keep the distinctions clear: *brahman* (neuter) is not *brahmā* (the creator deity) and not *brāhmaṇa* (the ritual-social designation).",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

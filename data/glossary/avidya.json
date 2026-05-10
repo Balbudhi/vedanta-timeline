@@ -2,31 +2,33 @@
   "term_key": "avidya",
   "term_iast": "avidyā",
   "term_devanagari": "अविद्या",
-  "literal": "non-knowledge; absence-of-vidyā; from a- (negative) + √vid 'to know'",
+  "literal": "non-knowledge; absence of *vidyā*; from a- (negative) + √vid 'to know'",
   "aliases": ["avidya", "avidyā", "Avidyā", "avidyāyāḥ", "avidyāyām", "avidyayā", "ajnana", "ajñāna"],
-  "invariant_definition": "The cognitive condition that holds the *jīva* in *saṃsāra* — a misidentification or mis-knowledge that must be removed for liberation. All Vedāntic schools agree that *avidyā* is what binds and that its removal (or its functional analogue) is necessary for *mokṣa*. The schools diverge fundamentally on whether *avidyā* is (a) a *positive* metaphysical entity (*bhāvarūpa*) of indeterminable status (*anirvacanīya*) — Advaita; (b) the constriction of the soul's *dharmabhūta-jñāna* by *karma*, a real but caused condition — Viśiṣṭādvaita; (c) simply Viṣṇu's withholding of *aparokṣa-jñāna* until the soul is fit, with no positive ignorance-substance posited — Dvaita; or (d) the operation of *māyā-śakti* on the *taṭasthā-śakti* — Acintya-Bhedābheda. There is no shared metaphysics here, only a shared diagnostic role.",
+  "invariant_definition": "A condition of mis-taking that sustains bondage. In Sanskrit philosophical usage *avidyā* is rarely mere lack of information; it names the operative failure by which a subject mislocates self, object, and means of valid cognition. It therefore stands beside *vidyā*, presupposes a *pramāṇa* theory, and in Vedānta is tied to *adhyāsa* and the debate over error: Nyāya's *anyathā-khyāti*, Prābhākara *akhyāti*, Bhāṭṭa *viparīta-khyāti*, Yogācāra *ātma-khyāti*, and Advaita *anirvacanīya-khyāti*. Buddhist sources use *avidyā* as the first *nidāna* in dependent origination, while Yogācāra links its continuity to the latent dispositions carried in *ālaya-vijñāna*. Vedāntic schools disagree more radically: Advaita makes *avidyā* a beginningless positive factor with concealment and projection functions; Viśiṣṭādvaita treats bondage instead as the *karma*-caused contraction of the soul's cognitive reach; Dvaita refuses any positive ignorance-substance and relocates the issue in real dependence, error, and divine governance. In practice the term names what must be removed, counteracted, or rendered non-operative by disciplined inquiry, right cognition, and, in the theistic schools, grace.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Bhāvarūpa* (positively existent, not mere absence), *anirvacanīya* (indeterminable as either *sat* or *asat*), beginningless (*anādi*) but with end (*sānta*). It has two functions (*śakti*): *āvaraṇa* (concealment) and *vikṣepa* (projection). Madhusūdana's destructive dilemma in the *Advaita-Siddhi* establishes that *avidyā* must be *bhāvarūpa* against the Mādhva charge that mere absence cannot project. Locus-of-*avidyā* divides the school: Bhāmatī places it in the *jīva*; Vivaraṇa places it in *brahman* itself, with *brahman* as both *āśraya* (locus) and *viṣaya* (object).",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1 (adhyāsa-bhāṣya)", "Bhāmatī ad BSB 1.1.1", "Pañcapādikā-Vivaraṇa, varṇaka 4 (āśraya-viṣaya)", "Advaita-Siddhi, avidyā-pariccheda"]
+      "definition": "*Avidyā* is beginningless, *bhāvarūpa*, and *anirvacanīya*: not mere absence of knowledge, yet not *sat* in the way *brahman* is *sat*. It functions as *āvaraṇa* and *vikṣepa*, concealing the *adhiṣṭhāna* and projecting the experienced manifold; from it follow *adhyāsa* and the standard misidentifications of self and non-self. Later Advaita divides over locus: Bhāmatī places *avidyā* in the *jīva*; Vivaraṇa makes *brahman* both locus and object. Madhusūdana defends its positive status by arguing that sheer absence could not account for the positive content of error.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1 (adhyāsa-bhāṣya)", "Bhāmatī ad Brahma-Sūtra-Bhāṣya 1.1.1", "Pañcapādikā-Vivaraṇa, varṇaka 4", "Advaita-Siddhi, avidyā-pariccheda [NOT YET RETRIEVED]"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Avidyā* is not a positive ontological entity of indeterminable status. It is the *karma*-caused contraction of the *jīva*'s *dharmabhūta-jñāna*; the soul's intrinsic luminosity is real but veiled because its *jñāna*-substance has shrunk to the limits of the present body. Rāmānuja's *mahāsiddhānta* in the *Śrī-Bhāṣya* dismantles the Advaita doctrine of *anirvacanīya avidyā* through the seven *anupapattis* (untenabilities).",
-      "primary_loci": ["Śrī-Bhāṣya 1.1.1 (Mahāsiddhānta, sapta-anupapatti)", "Vedārtha-Saṅgraha §§14–35", "Śrī-Bhāṣya 2.3.42–53"]
+      "definition": "Rāmānuja rejects *anirvacanīya avidyā* as an incoherent pseudo-entity. What binds the *jīva* is not a positive darkness laid over reality but the real contraction of *dharmabhūta-jñāna* caused by beginningless *karma*. Error, finite embodiment, and restricted knowledge are therefore explained within a realist ontology: the soul is real, the world is real, and the obscuration belongs to the soul's presently constricted cognitive power. The famous seven *anupapattis* attack the Advaitin attempt to assign a locus, object, status, and remover to *avidyā*.",
+      "primary_loci": ["Śrī-Bhāṣya 1.1.1 (sapta-anupapatti)", "Vedārtha-Saṅgraha §§14–35", "Śrī-Bhāṣya 2.3.42–53"]
     },
     {
       "school": "Dvaita",
-      "definition": "*Avidyā* is not a positive *bhāvarūpa* substance. It is the soul's beginningless *karma*-bound condition under which Viṣṇu withholds *aparokṣa-jñāna* until the soul is intrinsically fit (*mukti-yogya*). Madhva and his successors (especially Vyāsatīrtha and Madhusūdana's contemporary Vyāsa-Tīrtha-corrected Vādirāja) deploy the *Nyāyāmṛta* and *Tarka-Tāṇḍava* to show that *avidyā* as *bhāvarūpa-anirvacanīya* is incoherent.",
-      "primary_loci": ["Madhva, Māyāvāda-Khaṇḍana §§1–8", "Vyāsatīrtha, Nyāyāmṛta, avidyā-bhaṅga", "Anu-Vyākhyāna 2.1"]
+      "definition": "Madhva and his successors deny that bondage requires a *bhāvarūpa avidyā*. Error is real error by a real finite knower; bondage is the soul's beginningless dependence under *karma* and its lack of saving *aparokṣa-jñāna* until Viṣṇu grants it. The target of Dvaita polemic is precisely the Advaitin attempt to place an indeterminable ignorance over a reality that is otherwise said to be pure consciousness. Dvaita therefore treats *avidyā* functionally rather than as an ontological middle-term between being and non-being.",
+      "primary_loci": ["Madhva, Māyāvāda-Khaṇḍana §§1–8", "Anu-Vyākhyāna 2.1", "Vyāsatīrtha, Nyāyāmṛta, avidyā-bhaṅga [NOT YET RETRIEVED]"]
     },
     {
-      "school": "Acintya-Bhedābheda",
-      "definition": "What looks like *avidyā* is the *jīva*'s being acted upon by *māyā-śakti* (specifically *jīva-māyā* as distinct from *guṇa-māyā*) when it turns from Kṛṣṇa. The condition is real but not metaphysically primitive; it is one of Kṛṣṇa's own *śaktis* operating on a *taṭasthā* particle.",
-      "primary_loci": ["Paramātma-Sandarbha §§47–55", "Bhakti-Sandarbha §§1–10"]
+      "school": "Buddhist",
+      "definition": "*Avidyā* is the first link in dependent origination: not seeing things as they are, especially with respect to impermanence, suffering, and non-self. In Yogācāra this ignorance is not a freestanding substance but a beginningless distortion carried by latent seeds and the *ālaya-vijñāna*, which supports the continuing appearance of subject-object duality. The comparison with Advaita is structurally useful because both traditions treat ordinary experience as systematically distorted, but the Buddhist analysis avoids a permanent self and avoids a single metaphysical ignorance-substratum.",
+      "primary_loci": ["Saṃyutta-Nikāya 12.1", "Vasubandhu, Triṃśikā 1–3"]
     }
   ],
-  "see_also": ["vidya", "maya", "adhyasa", "anirvacaniya", "asraya", "bhavarupa", "anyatha-khyati", "akhyati"],
-  "translator_note": "'Ignorance' is a passable English gloss but obscures the technical Advaita point: *avidyā* is not a privation (mere lack-of-knowledge, like Augustinian *privatio*) but a positive metaphysical entity that must be removed by a positive cognition. The other schools precisely deny that there is any such positive entity. Translating *avidyā* uniformly as 'ignorance' across schools collapses the fundamental disagreement."
+  "see_also": ["vidya", "maya", "adhyasa", "jnana", "samsara", "anyatha-khyati", "akhyati"],
+  "translator_note": "The lazy gloss is 'ignorance.' That English word suggests a merely psychological lack, as though one simply had not yet learned some fact. In these debates *avidyā* carries causal, epistemic, and soteriological weight: it structures misidentification, error, and bondage. One must also avoid importing Augustinian privation-talk. Advaita explicitly denies that *avidyā* is mere absence; Viśiṣṭādvaita and Dvaita reject the Advaitin positive-entity account but still do not mean ordinary ignorance in the thin modern sense.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

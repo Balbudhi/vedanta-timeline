@@ -2,16 +2,28 @@
   "term_key": "avikrta-parinama",
   "term_iast": "avikṛta-pariṇāma",
   "term_devanagari": "अविकृतपरिणाम",
-  "literal": "transformation-without-modification; a-vikṛta (unmodified) + pariṇāma",
+  "literal": "transformation without modification; a-vikṛta (unmodified) + pariṇāma",
   "aliases": ["avikrta-parinama", "avikṛta-pariṇāma", "avikṛta-pariṇāmavāda", "Avikṛta-pariṇāma"],
-  "invariant_definition": "Vallabha's distinctive doctrine: *brahman* really transforms into the world without itself being modified. A precisely-articulated third option between Advaita's *vivarta* (no real transformation) and ordinary *pariṇāma* (transformation with modification). The world is therefore real (*satya*) and one with *brahman* (no second reality), but *brahman*-essence is not changed by the transformation. The doctrine is the metaphysical core of Śuddhādvaita.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "*Avikṛta-pariṇāma* is Vallabha's attempt to keep both sides of the causal problem: the world must be a real manifestation of *brahman*, yet divine fullness must not be damaged by production. The doctrine therefore rejects two rival options. Against Advaita, it denies that worldhood is merely apparent. Against ordinary *pariṇāma-vāda*, it denies that real manifestation requires corruption, depletion, or alteration in the cause's essential nature. The world is *brahman* manifest, but not *brahman* diminished. This becomes a signature move of Śuddhādvaita, where *māyā* is not an indeterminable illusion-principle and creation is not a second-order concession to ignorance. Instead, manifestation is real and the cause remains fully itself throughout.",
   "per_school": [
     {
       "school": "Śuddhādvaita (Vallabha)",
-      "definition": "*Avikṛta-pariṇāma* is the foundational metaphysical posit. *Brahman* (Kṛṣṇa) really emanates the world from itself without being modified — analogous to a lamp emitting light without losing its luminosity. Both *māyā* (in the Advaita sense) and ordinary *pariṇāma* are rejected.",
-      "primary_loci": ["Aṇu-Bhāṣya 1.1.2", "Tattvārtha-Dīpa-Nibandha, Śāstrārtha-Prakaraṇa §§30–50"]
+      "definition": "*Avikṛta-pariṇāma* is the foundational causal doctrine of Vallabha's system. *Brahman* really manifests as world and souls without losing fullness, purity, or bliss. The usual contrast is with milk becoming curd: Vallabha wants real emergence without a damaged cause, and so reaches for analogies of radiance or self-manifestation rather than material corruption.",
+      "primary_loci": ["Aṇu-Bhāṣya 1.1.2", "Tattvārtha-Dīpa-Nibandha, Śāstrārtha-Prakaraṇa [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Advaita (contrast)",
+      "definition": "Advaita rejects the Vallabha move because, from its perspective, any real transformation of the cause introduces change into the absolute. The pressure that Vallabha answers by *avikṛta-pariṇāma* is answered in Advaita by *vivarta*: keep the substrate untouched by treating worldhood as empirically real yet ultimately sublatable appearance.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.1.14", "Pañcadaśī 6.130-145"]
+    },
+    {
+      "school": "Viśiṣṭādvaita (contrast)",
+      "definition": "Viśiṣṭādvaita shares Vallabha's insistence that the world is real, but it does not frame the solution as *avikṛta-pariṇāma*. Instead, manifestation is real transformation of the Lord's modes or body while the Lord remains internally unchanged as their ruler. The contrast shows how close realism about the world can coexist with different causal models.",
+      "primary_loci": ["Śrī-Bhāṣya 2.1.14-20", "Vedārtha-Saṅgraha §§91-95"]
     }
   ],
-  "see_also": ["vivarta", "parinama", "suddhadvaita", "vallabha"],
-  "translator_note": "'Transformation-without-modification' is the standard scholarly gloss. The doctrine has no clean Western analogue; perhaps closest is the patristic *processio* of the divine persons in some readings, but this is distant."
+  "see_also": ["parinama", "vivarta", "satkarya-vada", "brahman", "maya"],
+  "translator_note": "'Transformation without modification' is the least bad English gloss, but it can sound self-contradictory unless the metaphysical target is stated. The phrase is designed precisely to deny that real manifestation requires damage to the cause."
 }

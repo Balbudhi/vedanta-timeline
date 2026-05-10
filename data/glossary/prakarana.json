@@ -2,16 +2,28 @@
   "term_key": "prakarana",
   "term_iast": "prakaraṇa",
   "term_devanagari": "प्रकरण",
-  "literal": "a topical treatise, a section; from pra- + √kṛ 'to make'",
+  "literal": "topical arrangement, thematic treatise, organized section",
   "aliases": ["prakarana", "prakaraṇa", "Prakaraṇa", "prakaraṇaṃ", "prakaraṇa-grantha"],
-  "invariant_definition": "A topically-organized stand-alone treatise (as distinct from a *bhāṣya*'s text-following structure). *Prakaraṇa-grantha*s are concise expositions of school doctrine designed for direct study (as opposed to sūtra-following exposition). Important examples: *Vivekacūḍāmaṇi*, *Upadeśa-Sāhasrī*, *Vedānta-Sāra*, *Vedānta-Paribhāṣā*, *Tattva-Saṅkhyāna*, *Yatīndra-Mata-Dīpikā*.",
+  "invariant_definition": "A *prakaraṇa* is a topical treatise that presents a doctrine in pedagogical or argumentative order rather than following the sequence of an inherited source-text. This makes it one of the main teaching genres of Indian philosophy. Where a *bhāṣya* must move with the base text, a *prakaraṇa* can begin where the teacher judges the student should begin: with qualifications for study, the nature of the self, the means to liberation, a proof-structure, or a summary taxonomy. In practice *prakaraṇa-grantha*s are the bridge between dense scholastic architecture and actual study. They are often the texts by which students first learn a school's vocabulary, and they are also where later authors systematize dispersed material into a teachable sequence. The term therefore signals a shift from commentary to organized exposition.",
   "per_school": [
     {
-      "school": "All Vedānta",
-      "definition": "*Prakaraṇa-grantha*s function as introductory or systematic-overview texts for each school.",
-      "primary_loci": ["Vedānta-Sāra (Sadānanda — Advaita)", "Yatīndra-Mata-Dīpikā (Śrīnivāsadāsa — Viśiṣṭādvaita)", "Tattva-Saṅkhyāna (Madhva — Dvaita)"]
+      "school": "Advaita",
+      "definition": "Advaita uses the *prakaraṇa* genre to stage the student's movement from *adhikāritva* to *brahma-jñāna*. Texts such as *Upadeśa-Sāhasrī*, *Viveka-Cūḍāmaṇi*, *Vedānta-Sāra*, and *Vedānta-Paribhāṣā* are not merely summaries; they reorganize the tradition around eligibility, method, epistemology, and realization in a form suited for instruction and internal clarification.",
+      "primary_loci": ["Upadeśa-Sāhasrī, prose 1.1–1.4", "Vedānta-Sāra §§17–34", "Vedānta-Paribhāṣā, Pratyakṣa-pariccheda"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Viśiṣṭādvaita *prakaraṇa* works condense the larger scriptural and *bhāṣya* corpus into doctrinally ordered manuals focused on the relation of *cit*, *acit*, and Īśvara, the structure of *bhakti* and *prapatti*, and the conditions of liberation. Their practical role is pedagogical and liturgical at once.",
+      "primary_loci": ["Yatīndra-Mata-Dīpikā 1.1–10", "Rahasya-Traya-Sāra, upodghāta", "Vedārtha-Saṅgraha §§1–10"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "Dvaita uses concise *prakaraṇa* texts to state its realist pluralism in direct, reusable form. Madhva's *Tattva-Saṅkhyāna* and allied manuals classify realities, dependence-relations, and soul-types with a compactness suited to debate and instruction. The genre thus serves as a doctrinal map for the larger commentarial corpus.",
+      "primary_loci": ["Tattva-Saṅkhyāna 1–10", "Tattvodyota 1 [NOT YET RETRIEVED]", "Prameya-Dīpikā [NOT YET RETRIEVED]"]
     }
   ],
   "see_also": ["bhasya", "sutra", "grantha"],
-  "translator_note": "'Treatise' or 'manual' acceptable."
+  "translator_note": "The lazy gloss is 'treatise' or 'manual.' Those are serviceable, but they miss the pedagogical contrast with commentary. A *prakaraṇa* does not just treat a topic; it reorders material so that a doctrine can actually be learned, taught, and defended. That pedagogical function is part of the term's force.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

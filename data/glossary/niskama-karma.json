@@ -4,19 +4,31 @@
   "term_devanagari": "निष्कामकर्म",
   "literal": "desireless action; niḥ- (without) + kāma (desire) + karma (action)",
   "aliases": ["niskama-karma", "niṣkāma-karma", "niṣkāmakarma", "niskama", "niṣkāma"],
-  "invariant_definition": "Action performed without attachment to its fruits — the central teaching of the *Bhagavad-Gītā*'s *karma-yoga* chapters (especially 2–4, 18). All Vedāntic schools accept *niṣkāma-karma* as the right form of action; they differ on its place: Advaita (preparation for *jñāna* via *citta-śuddhi*); Viśiṣṭādvaita (one aspect of integral *bhakti-yoga*); Dvaita (continuous mode of devotion to Viṣṇu). The user's position-brief (T8) makes *niṣkāma karma* structurally central — it is the action-grammar of the *sākṣi-caitanya* mode and connects to *līlā*, wu-wei, and the disinterestedness of Kant and Abhinavagupta's *rasa*.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "*Niṣkāma-karma* is not action without motive, still less action without care. It is action stripped of *phala-abhisaṃdhi* - the agent's appropriation of a determinate result as 'for me.' The term presupposes the wider grammar of *karma*: *kartṛ*, *adhikāra*, *yajña*, *phala*, and *saṅga*. In the *Bhagavad-Gītā* it names the discipline of doing what ought to be done because it ought to be done, while surrendering ownership of both act and outcome. The performance remains fully deliberate; what is removed is acquisitive attachment. Later Vedāntins disagree over where that discipline sits in the path. For Advaita it prepares the mind for liberating knowledge. For Viśiṣṭādvaita and Dvaita it is already devotionally configured action, since relinquishing fruit is inseparable from offering action to the Lord.",
   "per_school": [
     {
+      "school": "Pūrva-Mīmāṃsā (background)",
+      "definition": "Mīmāṃsā does not build its system around the Gītā phrase *niṣkāma-karma*, but it supplies the background grammar. One acts because Vedic injunction authorizes and requires action, not because private preference creates normativity. The Gītā inherits this norm-governed structure and reorients it away from fruit-hunting and toward detached performance.",
+      "primary_loci": ["Jaimini-Sūtra 1.1.2", "Śabara-Bhāṣya on Jaimini-Sūtra 1.1.2 [NOT YET RETRIEVED]"]
+    },
+    {
       "school": "Advaita",
-      "definition": "*Niṣkāma-karma* is *cittasuddhi*-yielding; it does not itself produce *mokṣa*. The Gītā's *karma-yoga* is read as *cittasuddhi-upāya*, parallel-but-not-equal to *jñāna*.",
-      "primary_loci": ["Bhagavad-Gītā-Bhāṣya 2.47, 3.19, 18.66"]
+      "definition": "*Niṣkāma-karma* is *citta-śuddhi*-yielding discipline, not itself the producer of *mokṣa*. By loosening identification with agency and result, it prepares the *antaḥkaraṇa* for *śravaṇa*, *manana*, and *nididhyāsana*. Śaṅkara therefore reads the Gītā's *karma-yoga* as preparatory and rejects any final *jñāna-karma-samuccaya*.",
+      "primary_loci": ["Bhagavad-Gītā-Bhāṣya 2.47", "Bhagavad-Gītā-Bhāṣya 3.19", "Bhagavad-Gītā-Bhāṣya 3.30", "Brahma-Sūtra-Bhāṣya 3.4.26-27"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Niṣkāma-karma* offered as *bhagavad-ārādhana* is itself an aspect of *bhakti-yoga*. The opposition Advaita draws between *karma* and *jñāna* is rejected; *karma* under *bhakti* continues for the realized.",
-      "primary_loci": ["Gītā-Bhāṣya (Rāmānuja) 2.47, 3.19", "Vedārtha-Saṅgraha §§137–143"]
+      "definition": "*Niṣkāma-karma* is action offered as *bhagavad-ārādhana*. Renouncing fruit does not mean downplaying action; it means relocating its telos in service to Nārāyaṇa. Such action belongs inside the integrated discipline of *karma*, *jñāna*, and *upāsanā* that matures into *bhakti-yoga*.",
+      "primary_loci": ["Bhagavad-Gītā-Bhāṣya (Rāmānuja) 2.47", "Bhagavad-Gītā-Bhāṣya (Rāmānuja) 3.19", "Vedārtha-Saṅgraha §§137-143"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Niṣkāma-karma* is action freed from selfish appropriation and directed to Viṣṇu. Since the soul is permanently dependent, detached action is not a temporary technique but the right standing form of conduct for a servant of the Lord. Fruit-renunciation therefore intensifies devotional realism rather than dissolving agency into impersonal knowledge.",
+      "primary_loci": ["Bhagavad-Gītā-Tātparya-Nirṇaya 2-3 [NOT YET RETRIEVED]", "Anu-Vyākhyāna 3.4 [NOT YET RETRIEVED]"]
     }
   ],
-  "see_also": ["karma", "karma-yoga", "lila", "saksin", "bhakti"],
-  "translator_note": "'Desireless action' or 'action without attachment to fruits' both acceptable. Note: *niṣkāma* does not mean 'without motivation' — the action has a motive (the prescribed duty, devotion to the Lord), but lacks attachment to *its specific outcome for the agent*."
+  "see_also": ["karma", "dharma", "jnana", "bhakti", "saksin", "moksa"],
+  "translator_note": "Avoid hearing *niṣkāma-karma* as 'unmotivated action' or 'apathy.' Those glosses import a modern psychological picture in which desirelessness means lack of interest. The term means absence of possessive fruit-orientation, not absence of norm, devotion, or purpose."
 }

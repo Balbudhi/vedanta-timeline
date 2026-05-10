@@ -2,31 +2,33 @@
   "term_key": "bhedabheda",
   "term_iast": "bhedābheda",
   "term_devanagari": "भेदाभेद",
-  "literal": "difference-and-non-difference; bheda + abheda",
+  "literal": "difference and non-difference",
   "aliases": ["bhedabheda", "bhedābheda", "Bhedābheda", "bheda-abheda", "bhedabheda-vada"],
-  "invariant_definition": "The doctrinal position that *bheda* and *abheda* between *brahman* and the world (especially between *brahman* and *jīva*) are equally and simultaneously real. The earliest known proponent is Bhartṛprapañca (cited but not extant); Bhāskara (8th–9th c.) is the principal classical exponent; Yādava-Prakāśa (Rāmānuja's teacher), Nimbārka (Dvaitādvaita as a variant), Caitanya / Jīva Gosvāmī (Acintya-Bhedābheda as the developed Vaiṣṇava form). The position is structurally distinct from Advaita (which makes *abheda* alone real) and from Dvaita (which makes *bheda* alone real). Schools differ on whether the simultaneity is rationally articulable (Bhāskara: yes, via real *upādhi*-borne *pariṇāma*) or is *acintya*, beyond logical resolution (Caitanya tradition).",
+  "invariant_definition": "*Bhedābheda* names a family of positions, not a single formula. What unites them is the claim that the relation between Brahman, world, and soul cannot be captured either by strict identity alone or by strict difference alone. The world is not a second independent reality over against Brahman, but neither is it reducible to a merely apparent overlay. Different exponents then supply different metaphysical machinery: Bhāskara uses real *pariṇāma* and real conditioning factors; Nimbārka treats difference and non-difference as natural; Gauḍīya authors shift the emphasis to the relation between Kṛṣṇa and his *śaktis* and call the structure *acintya*. The term therefore belongs to debates about causality, the status of manifestation, and the exegesis of identity statements. It is also a practical doctrine: it preserves worship, devotion, and moral difference while still allowing one to say that all things are grounded in, dependent on, or expressive of Brahman. What varies is how tightly reason can articulate that double claim.",
   "per_school": [
     {
       "school": "Bhedābheda (Bhāskara)",
-      "definition": "*Bheda* arises from real *upādhi*-borne *pariṇāma*; *abheda* obtains in the underlying substrate. *Brahman* really transforms into the world through *upādhi*-conditions; the world is therefore really one with *brahman* (in substrate) and really different (in *upādhi*-condition).",
-      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 1.1.4, 2.1.14"]
+      "definition": "Bhāskara explains *bhedābheda* through real transformation. Brahman truly becomes world and souls under real conditions, so non-difference is preserved at the level of substrate while difference is preserved at the level of manifested form and function. Because the transformation is real, the doctrine rejects Advaita's *vivarta*; because the substrate is one, it rejects a fully external pluralism. The relation is difficult but not irrational: both poles are metaphysically grounded.",
+      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 1.1.4", "Bhāskara, Brahma-Sūtra-Bhāṣya 2.1.14"]
+    },
+    {
+      "school": "Yādava-Prakāśa",
+      "definition": "Yādava-Prakāśa represents an early Vedāntic bhedābheda tendency in which the world and individual selves are neither simply identical with Brahman nor wholly separate from it. The surviving evidence is indirect and mostly mediated through later polemical report, but it is enough to show a formative stage of the tradition prior to Bhāskara's more explicit systematization. His importance is genealogical: he marks how the problem was already framed before the major classical Vedānta divisions hardened.",
+      "primary_loci": ["[NOT YET RETRIEVED]"]
     },
     {
       "school": "Dvaitādvaita (Nimbārka)",
-      "definition": "*Bheda* and *abheda* between *brahman* and *jīva* / *jagat* are both natural (*svābhāvika*) — neither derived from the other, both equally primary. *Brahman* is identified with Kṛṣṇa.",
-      "primary_loci": ["Vedānta-Pārijāta-Saurabha 1.1.1–4", "Daśa-Ślokī"]
+      "definition": "Nimbārka makes difference and non-difference equally natural (*svābhāvika*). The soul and world differ from Brahman because they have their own characteristics and functions, yet they are non-different because they cannot exist independently of Brahman and are grounded in him. The relation is neither imposed by ignorance nor reduced to mere rhetoric. This gives Nimbārka a stable middle position between Advaita's sublation of plurality and Dvaita's insistence on absolute difference.",
+      "primary_loci": ["Vedānta-Pārijāta-Saurabha 1.1.1–4", "Daśa-Ślokī 5–6 [NOT YET RETRIEVED]"]
     },
     {
-      "school": "Acintya-Bhedābheda (Caitanya / Jīva Gosvāmī)",
-      "definition": "*Bheda* and *abheda* between Kṛṣṇa and his *śakti*s (including *jīva*s) obtain simultaneously and *acintya* — beyond logical resolution. The relation is real but its logical structure exceeds reason; *śabda* is the only *pramāṇa* for it.",
+      "school": "Acintya-Bhedābheda",
+      "definition": "Gauḍīya authors preserve the double claim by relocating it in the Lord-*śakti* relation. Kṛṣṇa and his powers are really non-different because the powers belong inseparably to him; they are really different because they are operative and distinguishable as *svarūpa-śakti*, *taṭasthā-śakti*, and *bahiraṅgā-śakti*. The relation is called *acintya* because discursive reason cannot exhaustively formalize it, not because it is arbitrary or irrational. The doctrine secures both devotional realism and metaphysical dependence.",
       "primary_loci": ["Tattva-Sandarbha §§51–56", "Bhagavat-Sandarbha §§78–117", "Caitanya-Caritāmṛta, Madhya 20"]
-    },
-    {
-      "school": "Position-Brief Note",
-      "definition": "The user's thesis identifies the *bhedābheda* trajectory (Bhartṛprapañca → Bhāskara → Madhva → Caitanya) as a self-correcting recovery of the realism implicit in the *Brahma-Sūtra* — see T2 of the position-brief. *Bhedābheda* is thus structurally central to the user's position, not a peripheral school.",
-      "primary_loci": []
     }
   ],
-  "see_also": ["bheda", "abheda", "advaita", "dvaita", "acintya", "parinama", "upadhi"],
-  "translator_note": "'Difference-and-non-difference' is the standard scholarly translation and is correct. The doctrine has no clean Western analogue; the closest is perhaps Spinoza's *Deus sive natura* with the substance-mode relation, but *bhedābheda* refuses Spinoza's modal-reduction of the world to substance."
+  "see_also": ["bheda", "abheda", "maya", "parinama", "jiva", "brahman"],
+  "translator_note": "The lazy gloss is 'difference-in-identity' or some other quick paradox-phrase. That makes the doctrine sound like a slogan rather than a worked-out metaphysical family. There is no clean Western equivalent waiting to be imported. Each version specifies how difference and non-difference co-obtain: by real transformation, natural dependence, or *śakti*-relation beyond full conceptual capture.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

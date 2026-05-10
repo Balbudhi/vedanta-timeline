@@ -4,19 +4,26 @@
   "term_devanagari": "प्रेम",
   "literal": "love; from √prī 'to please, to delight'",
   "aliases": ["prema", "Prema", "premā", "premṇaḥ", "premabhakti", "prema-bhakti"],
-  "invariant_definition": "Love — specifically the matured devotional love that exceeds ordinary *bhakti*. In Caitanya's school *prema* is the highest stage of *bhakti* development: *śraddhā* → *sādhu-saṅga* → *bhajana-kriyā* → *anartha-nivṛtti* → *niṣṭhā* → *ruci* → *āsakti* → *bhāva* → *prema*. *Prema-bhakti* in *mādhurya-rasa* is the supreme attainment, exceeding even *mokṣa*. Prior to Caitanya the term *prema* is used more generally; after, it acquires this technical depth.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "*Prema* can mean love in ordinary Sanskrit, but in devotional theology it often names a terminal, technically specified intensification of *bhakti*. The term sits inside the apparatus of *bhāva*, *sthāyi-bhāva*, *rasa*, and the distinction between the divine object of love and the devotee who bears that love. In Gauḍīya Vaiṣṇavism especially, *prema* is not a mood added to doctrine; it is the perfected relational state in which cognition, affect, and practice have ripened into irreversible God-directed attachment. That is why the famous sequence from *śraddhā* to *prema* is so important: it tracks a transformation of the whole person, not the sudden arrival of an emotion. The term also marks a polemical contrast with accounts of liberation that terminate in mere self-rest or impersonal absorption. *Prema* names a positive, enduring relation whose metaphysical content depends on a real Bhagavān and a real devotee.",
   "per_school": [
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "*Prema* is the supreme attainment — the eternal loving relation with Kṛṣṇa in one of the five *rasa*s, with *mādhurya-prema* (Rādhā's love) the supreme. *Prema* is itself *parama-puruṣārtha*, exceeding *mokṣa*.",
-      "primary_loci": ["Bhakti-Rasāmṛta-Sindhu 1.4 (prema-analysis)", "Caitanya-Caritāmṛta, Madhya 19", "Ujjvala-Nīlamaṇi"]
+      "definition": "*Prema* is the perfected state of devotion and the true *parama-puruṣārtha*. Rūpa Gosvāmī places it at the end of the sequence beginning with *śraddhā* and passing through *bhāva*. In this state the devotee's stable emotional disposition becomes fully ripe within a determinate *rasa*, with *mādhurya* treated as supreme. The contrast with ordinary *mokṣa* is explicit: the goal is not release alone but eternal, affectively charged participation in Kṛṣṇa's *līlā*.",
+      "primary_loci": ["Bhakti-Rasāmṛta-Sindhu 1.4.1-16", "Caitanya-Caritāmṛta, Madhya 23.13-15", "Ujjvala-Nīlamaṇi 1.1-5"]
     },
     {
       "school": "Advaita (Madhusūdana)",
-      "definition": "*Prema* as the matured *bhakti-rasa*'s *sthāyi-bhāva*; valued, but not above *jñāna* on the path to *mokṣa*.",
-      "primary_loci": ["Bhakti-Rasāyana 1"]
+      "definition": "Madhusūdana appropriates *prema* through the language of *bhakti-rasa*, giving it real contemplative and affective dignity without surrendering the Advaita claim that *jñāna* alone liberates. In this register, *prema* is the mature devotional stabilization of God-directed love and can coexist with non-dual metaphysics. The term therefore expands beyond bare emotionality but does not become a distinct end higher than *mokṣa*.",
+      "primary_loci": ["Bhakti-Rasāyana 1", "Gūḍhārtha-Dīpikā 12 [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "The more characteristic vocabulary is *bhakti*, *parabhakti*, and *prīti*, but the conceptual space overlaps strongly with *prema*: the ripened God-directed affection that culminates in direct enjoyment of the Lord. The decisive point is relational continuity. What matures is not an impersonal cognition but an affectively charged knowledge of and surrender to Bhagavān.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§137-144", "Gītā-Bhāṣya (Rāmānuja) 12.2-12"]
     }
   ],
-  "see_also": ["bhakti", "rasa", "madhurya-rasa", "bhava-bhakti", "premabhakti"],
-  "translator_note": "'Love' is correct but loses the technical depth (eight-stage development). 'Devotional love' or 'mature devotional love' are clearer."
+  "see_also": ["bhakti", "rasa", "sraddha", "lila", "moksa"],
+  "translator_note": "'Love' is too weak and too modern if left unqualified. It can suggest sentiment, romance, or private feeling. In these traditions *prema* is often a technically matured devotional state structured by ontology, practice, and aesthetic theory. 'Devotional love' is better, but even that needs the warning that the term can name a full soteriological consummation."
 }

@@ -2,21 +2,28 @@
   "term_key": "videhamukti",
   "term_iast": "videha-mukti",
   "term_devanagari": "विदेहमुक्ति",
-  "literal": "bodiless liberation; videha (without body) + mukti",
+  "literal": "bodiless liberation; *videha* 'without body' + *mukti*",
   "aliases": ["videhamukti", "videha-mukti", "videhamukta", "Videhamukti"],
-  "invariant_definition": "Liberation attained at the falling-away of the body — the standard *post-mortem* liberation of all schools. In Advaita, *videha-mukti* is the second moment of liberation following *jīvanmukti* (the *prārabdha*-residue exhausts itself with the body). In Viśiṣṭādvaita, Dvaita, and Vaiṣṇava bhedābheda, *videha-mukti* is the only liberation; the soul ascends to Vaikuṇṭha or its analogue.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "*Videhamukti* is liberation at or after the falling away of the body. The term matters because classical Indian schools do not treat embodiment as a neutral container. The body is the visible locus of karmic continuation, agency, enjoyment, and limitation. To speak of liberation without body is therefore to ask whether the binding causal sequence has been fully exhausted, whether the soul travels by a determinate route such as the *arcirādi-mārga*, and whether liberation is best conceived as postmortem arrival, disembodied abiding, or the final cessation of even residual appearance. Advaita distinguishes *jīvanmukti* from *videhamukti* and so treats the latter as a second-stage completion after knowledge has already freed the knower. Viśiṣṭādvaita and Dvaita reject that division and make postmortem release the only full liberation. The term thus marks a major fault line in how the relation between knowledge, karma, and embodiment is understood.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "The exhaustion of *prārabdha-karma* with the body's death; for the *jīvanmukta* this is merely the cessation of phenomenal continuance. For the non-*jīvanmukta jñāni* it is the moment of liberation proper.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 4.1.15", "Naiṣkarmya-Siddhi 4"]
+      "definition": "For Advaita, *videhamukti* is the end of the residual bodily appearance sustained by *prārabdha-karma*. If liberation has already occurred as *jīvanmukti*, bodily death adds no new knowledge and produces no new ontological state; it is only the cessation of the already non-binding embodied continuum. In discussions where *jīvanmukti* is not foregrounded, the term can also mark the point at which the final non-return becomes publicly complete.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 4.1.15", "Brahma-Sūtra-Bhāṣya 4.4.6-7", "Naiṣkarmya-Siddhi 4"]
     },
     {
-      "school": "Viśiṣṭādvaita / Dvaita",
-      "definition": "The unique liberation: the soul leaves the body, traverses the *arcirādi-mārga* (the path of light), and reaches Vaikuṇṭha (V) or the appropriate *taratamya*-graded abode (D).",
-      "primary_loci": ["Śrī-Bhāṣya 4.3, 4.4", "Brahma-Sūtra-Bhāṣya (Madhva) 4.3"]
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Videhamukti* is the standard and only complete liberation. At death, the qualified soul departs by the path of light, reaches the Lord's realm, and enters unimpeded *bhagavad-anubhava* and service. The soul remains an individual knower and enjoyer, but now without karmic contraction. The postmortem transition is real and indispensable, not a mere external epilogue to an already complete realization.",
+      "primary_loci": ["Chāndogya-Upaniṣad 5.10.1-2", "Śrī-Bhāṣya 4.3.1-16", "Śrī-Bhāṣya 4.4.1-22"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "Liberation is necessarily *videha*. Only after the abandonment of the karmically conditioned body does the soul attain the appropriate liberated state under Viṣṇu's grace. The route, the differentiated status of souls, and the persistence of real plurality all remain intact. This is why Dvaita denies *jīvanmukti*: as long as bodily bondage remains, the liberated condition has not yet been reached.",
+      "primary_loci": ["Chāndogya-Upaniṣad 5.10.1-2", "Brahma-Sūtra-Bhāṣya (Madhva) 4.3.1-16", "Brahma-Sūtra-Bhāṣya (Madhva) 4.4.1-21"]
     }
   ],
-  "see_also": ["jivanmukta", "moksa", "prarabdha", "vaikuntha", "arciradi-marga"],
-  "translator_note": "'Post-mortem liberation' or 'bodiless liberation' both acceptable."
+  "see_also": ["jivanmukta", "moksa", "prarabdha", "samsara"],
+  "translator_note": "'Postmortem liberation' is often clearer than 'bodiless liberation,' since the latter can suggest a merely ghostly state. The Sanskrit term belongs to a doctrinal dispute about whether embodied life can already be free or whether bodily death is an essential soteriological event."
 }

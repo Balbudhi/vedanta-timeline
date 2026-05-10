@@ -2,16 +2,33 @@
   "term_key": "stotra",
   "term_iast": "stotra",
   "term_devanagari": "स्तोत्र",
-  "literal": "hymn of praise; from √stu 'to praise'",
+  "literal": "hymn of praise; from √stu, 'to praise'",
   "aliases": ["stotra", "Stotra", "stotraṃ", "stotrasya", "stotrāṇi"],
-  "invariant_definition": "A devotional hymn of praise. *Stotra* is a major genre across all Vedāntic schools, especially the Vaiṣṇava and Śaiva: Yāmuna's *Stotra-Ratna*, Rāmānuja's *Śaraṇāgati-Gadya* (a prose *stotra*), Madhva's *Dvādaśa-Stotra*, the *Śivānanda-Laharī* (Śaṅkara-attributed), the *Soundarya-Laharī* (Śaṅkara-attributed). *Stotra*s often contain compressed doctrinal claims and are sometimes the most accessible doctrinal documents of a school.",
+  "invariant_definition": "A *stotra* is a hymn of praise, petition, remembrance, or surrender addressed to a real deity. The genre therefore belongs not only to poetry but to liturgical and contemplative practice. In use a *stotra* may praise divine qualities, rehearse cosmology, invoke grace, state surrender, or condense a whole theology into recitable form. This is why *stotra* literature matters philosophically: schools often place their doctrine into praise-language so that what is affirmed in argument is also enacted in worship. A *stotra* is thus not merely ornamental devotion added after the real philosophy is done. It is one of the main places where a tradition's metaphysics, soteriology, and affective discipline are integrated in *prayoga*.",
   "per_school": [
     {
-      "school": "All Vedānta",
-      "definition": "*Stotra* is universal genre. Its doctrinal weight varies: in the Vaiṣṇava traditions *stotra*s often carry primary-text status; in Advaita they are sometimes treated as second-tier (though several *stotra*s are attributed to Śaṅkara).",
-      "primary_loci": ["Yāmuna, Stotra-Ratna", "Madhva, Dvādaśa-Stotra", "Śaṅkara (attrib.), Daksināmūrti-Stotra"]
+      "school": "Advaita",
+      "definition": "Advaita *stotra*s often function in a double register. They are addressed to a real deity at the *vyāvahārika* level and can at the same time train the mind toward non-dual recognition. Hymns attributed to Śaṅkara and later Advaitins therefore operate as devotional practice, doctrinal compression, and contemplative preparation rather than as mere literary ornament.",
+      "primary_loci": ["Dakṣiṇāmūrti-Stotra 1–4", "Bhaja Govindam 1–4", "Madhusūdana, Bhakti-Rasāyana 1.1–3"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "In Viśiṣṭādvaita the *stotra* can state *prapatti* itself. Praise, self-surrender, confession of dependence, and recollection of the Lord's auspicious qualities belong together. Yāmuna and Rāmānuja use the genre to enact the soul's relation to Nārāyaṇa, not just to describe it.",
+      "primary_loci": ["Yāmunācārya, Stotra-Ratna 1–5", "Rāmānuja, Śaraṇāgati-Gadya 1", "Varadarāja-Stava 1–3 [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "Dvaita hymnic practice is explicitly realist and hierarchical: Viṣṇu is praised as supreme, other deities in subordinate order, and the soul as dependent. The *stotra* thus rehearses *taratamya* and divine supremacy in a form suited to daily recitation and communal devotion.",
+      "primary_loci": ["Madhva, Dvādaśa-Stotra 1.1–4", "Hari-Vāyu-Stuti 1–5 [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "In Gauḍīya Vaiṣṇavism the *stotra* condenses *rasa*-theology, divine name practice, and surrender to Kṛṣṇa and Rādhā. The genre is woven into *bhakti* rather than standing beside it: recitation, remembrance, and affective transformation are all part of the hymn's use.",
+      "primary_loci": ["Śikṣāṣṭaka 1–8", "Stavāvalī 1.1–5 [NOT YET RETRIEVED]", "Bhakti-Rasāmṛta-Sindhu 1.2.233–234"]
     }
   ],
   "see_also": ["bhakti", "kirtana", "namasankirtana"],
-  "translator_note": "'Hymn' acceptable."
+  "translator_note": "The lazy gloss is 'hymn.' That is acceptable only if one remembers that a *stotra* is ordinarily performative: it praises, petitions, surrenders, and trains perception. It should not be treated as a merely symbolic poem about divinity, because for the traditions that use it the deity praised is real and the recitation is itself part of the path.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

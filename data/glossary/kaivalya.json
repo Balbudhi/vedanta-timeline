@@ -2,26 +2,33 @@
   "term_key": "kaivalya",
   "term_iast": "kaivalya",
   "term_devanagari": "कैवल्य",
-  "literal": "aloneness, isolation; from kevala 'alone, sole'",
+  "literal": "aloneness, isolation; from *kevala*, 'alone, sole'",
   "aliases": ["kaivalya", "Kaivalya", "kaivalyam"],
-  "invariant_definition": "Aloneness — the state of the *puruṣa* in Sāṅkhya / Yoga liberation: isolation of *puruṣa* from *prakṛti*, the *puruṣa* abiding in his own form (*svarūpa-pratiṣṭhā*). In Vedānta, *kaivalya* is sometimes used loosely for *mokṣa*, but in the technical Vaiṣṇava taxonomies it names a *lower* and structurally distinct attainment: the *jīva*'s self-isolation (the soul resting in its own *cit*-essence, separated from *prakṛti* but not yet united with the Lord). For Vaiṣṇava schools, *kaivalya* is therefore not the highest goal — it is *atma-rati* without *bhagavat-prīti*, sometimes called *ātmārāma*-state.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "*Kaivalya* does not mean loneliness. It is the technical state of being \"alone\" in the sense of standing free of what had been falsely or contingently associated with one. In Sāṅkhya and Yoga, that means the isolation of *puruṣa* from *prakṛti* through discriminative knowledge: the guṇas withdraw to their source and consciousness abides in its own form. In Vedāntic usage the term can widen or shift. Some Advaita texts use it nearly synonymously with *mokṣa*, meaning exclusive abiding as *brahman*. Vaiṣṇava theologians, by contrast, often narrow it to a lower attainment in which the self enjoys its own conscious nature apart from matter but without full *bhagavat-prāpti*. The term therefore sits at the junction of ontology and soteriology: whether the highest end is self-isolation, identity with the absolute, or eternal relation to the Lord. Its practical force depends on that larger frame.",
   "per_school": [
     {
       "school": "Sāṅkhya / Yoga",
-      "definition": "*Kaivalya* is the highest goal: *puruṣa*'s isolation from *prakṛti* through *viveka-khyāti* (the discriminative cognition that separates them).",
-      "primary_loci": ["Yoga-Sūtra 4.34", "Sāṅkhya-Kārikā 68"]
+      "definition": "*Kaivalya* is the final separation of *puruṣa* from *prakṛti*. The logic is set by *viveka-khyāti*: once the distinction between witness and seen is stabilized, the guṇas no longer function for that *puruṣa* and return to quiescence. Yoga formulates the state both negatively, as the end of conjunction, and positively, as *svarūpa-pratiṣṭhā* or the establishment of consciousness in itself.",
+      "primary_loci": ["Yoga-Sūtra 2.25", "Yoga-Sūtra 4.34", "Sāṅkhya-Kārikā 62, 68"]
     },
     {
       "school": "Advaita",
-      "definition": "*Kaivalya* often used as a synonym for *mokṣa* in the loose sense; structurally, *kaivalya* is *brahma-bhāva* — abiding as *brahman* alone.",
-      "primary_loci": ["Bhagavad-Gītā-Bhāṣya 18.66"]
+      "definition": "In Advaita, *kaivalya* commonly names exclusive abiding as *brahman* rather than a dualistic isolation of one principle from another. The difference from Sāṅkhya is fundamental: there are not many *puruṣas* each cut off from *prakṛti*, but one non-dual reality misidentified through *avidyā*. When the term is used positively, it indicates the non-relational status of realized being, not the self-enjoyment of a finite soul.",
+      "primary_loci": ["Kaivalya-Upaniṣad 10-16", "Kaivalya-Upaniṣad 23", "Brahma-Sūtra-Bhāṣya 2.2.1-10"]
     },
     {
-      "school": "Viśiṣṭādvaita / Acintya-Bhedābheda",
-      "definition": "*Kaivalya* is a distinct and *lower* attainment: the *jīva*'s self-rest in its own *cit*-essence, distinguished sharply from *bhagavat-prāpti* (attainment of the Lord). The *kaivalya-mukta* enjoys his own bliss but not the Lord's; this is held to be a real attainment but not the highest.",
-      "primary_loci": ["Vedānta-Deśika, Rahasya-Traya-Sāra (kaivalya-prakaraṇa)", "Bhakti-Sandarbha §§78–117"]
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Kaivalya* is admitted as a real but lower end: the self's enjoyment of its own consciousness after release from material bondage, without the fuller attainment of the Lord's intimate service. This is precisely why the school distinguishes *ātma-anubhava* from *bhagavad-anubhava*. The contrast with Sāṅkhya matters: the issue is not the metaphysical independence of *puruṣa*, but the evaluative inferiority of self-directed bliss when compared with God-directed fulfillment.",
+      "primary_loci": ["Yatīndra-Mata-Dīpikā 9", "Rahasya-Traya-Sāra, Kaivalya-paddhati [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "Gauḍīya Vaiṣṇavas treat *kaivalya* as a spiritually limited attainment because it lacks the positive relational fullness of *prema*. The issue is not whether release from matter is real; it is whether such release, absent Kṛṣṇa-service, deserves to count as the highest good. On this view, self-rest without *rasa* is metaphysically thin and affectively incomplete.",
+      "primary_loci": ["Bhakti-Rasāmṛta-Sindhu 1.1.17", "Bhakti-Sandarbha §§78-117"]
     }
   ],
-  "see_also": ["moksa", "atmarama", "bhagavat-prapti"],
-  "translator_note": "'Aloneness' or 'isolation' are correct but English readers will not understand why these would be a goal — the technical Sāṅkhya / Vedānta sense (*puruṣa*'s freedom from *prakṛti*'s bondage) needs gloss. In Vaiṣṇava contexts, note especially that *kaivalya* is *not* the highest — confusing the Sāṅkhya highest with the Vaiṣṇava lower will mislead."
+  "see_also": ["moksa", "purusa", "prakrti", "prema", "jnana", "bhakti"],
+  "translator_note": "'Isolation' is literally correct but misleading if read psychologically. In these traditions *kaivalya* is a technical soteriological state, not alienation. Rendering it simply as 'liberation' is also too quick, because the term often marks a specific theory of liberation and, in Vaiṣṇava usage, can even name a lower goal."
 }

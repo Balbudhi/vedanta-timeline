@@ -4,19 +4,31 @@
   "term_devanagari": "प्रारब्ध",
   "literal": "begun, set in motion; past passive participle of pra- + ā- + √rabh 'to begin'",
   "aliases": ["prarabdha", "prārabdha", "Prārabdha", "prārabdha-karma"],
-  "invariant_definition": "The portion of *karma* that has begun to fructify in the present life — distinct from *sañcita* (accumulated, not yet active) and *āgāmī* (currently being produced). All Vedāntic schools accept this three-fold *karma* division. The *prārabdha* is what the *jīvanmukta* (in Advaita) lives out: even after *brahma-jñāna* the body persists until *prārabdha-karma* is exhausted. Schools that reject *jīvanmukti* (Dvaita) hold that *brahma-jñāna* / *aparokṣa-jñāna* itself awaits the exhaustion of *prārabdha*.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "*Prārabdha* is the already-begun portion of karmic residue: the segment of prior action whose *vipāka* has entered the present embodiment and is now yielding body, lifespan, and principal field of experience. The term presupposes a larger architecture of residual action - what is still stored, what is now maturing, and what current action is newly generating. Yoga supplies the general model of karmic seed and fruition; Vedānta uses *prārabdha* to explain why embodiment and experience can continue even after decisive spiritual transformation. That makes the term central to debates over *jīvanmukti*: if liberating knowledge destroys ignorance, why does the knower's body persist? Advaita answers with *prārabdha*. Schools that reject strong *jīvanmukti* keep the same karmic vocabulary but deny that realization suspends embodiment before death.",
   "per_school": [
     {
-      "school": "Advaita",
-      "definition": "*Prārabdha-karma* is what sustains the *jīvanmukta*'s body after *avidyā*-removal. *Sañcita* and *āgāmī* are dissolved by *brahma-jñāna*; *prārabdha* runs its course.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 4.1.15", "Naiṣkarmya-Siddhi 4", "Pañcadaśī 7"]
+      "school": "Yoga (background)",
+      "definition": "The background model is karmic deposit ripening into birth, lifespan, and experience. Although the later threefold division into stored, begun, and newly generated karma is more explicit in Vedāntic usage, Yoga provides the causal framework in which a presently operative karmic seed is intelligible.",
+      "primary_loci": ["Yoga-Sūtra 2.12-13", "Yoga-Sūtra 4.8"]
     },
     {
-      "school": "Viśiṣṭādvaita / Dvaita",
-      "definition": "*Prārabdha* must also be exhausted; *mokṣa* (in V) or *aparokṣa-jñāna* (in D) does not exempt the soul from working through *prārabdha* until the body's natural end.",
-      "primary_loci": ["Śrī-Bhāṣya 4.1.15"]
+      "school": "Advaita",
+      "definition": "*Prārabdha* is what explains the persistence of the knower's body after *brahma-jñāna*. Knowledge destroys *sañcita* and blocks fresh *āgāmi* insofar as agency is sublated, but the karma already underway continues until bodily death. The doctrine protects *jīvanmukti* without making liberation into a bodily event.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 4.1.15", "Naiṣkarmya-Siddhi 4 [NOT YET RETRIEVED]", "Pañcadaśī 7 [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Prārabdha* is the currently fructifying portion of real karmic residue binding the *jīva* to a given embodiment. Liberation is not a matter of realizing that the body was never ultimately real; the soul genuinely works through karmic consequence under the Lord's governance until release at death.",
+      "primary_loci": ["Śrī-Bhāṣya 4.1.15", "Vedārtha-Saṅgraha §§137-143"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Prārabdha* names the karma already active in the present life and helps ground Dvaita's rejection of *jīvanmukti*. Direct realization of Viṣṇu does not annul the body's karmic course midstream; the soul remains embodied until the operative residue is exhausted and final release is bestowed.",
+      "primary_loci": ["Anu-Vyākhyāna 4.1 [NOT YET RETRIEVED]", "Brahma-Sūtra-Bhāṣya (Madhva) 4.1.15 [NOT YET RETRIEVED]"]
     }
   ],
-  "see_also": ["karma", "sancita", "agami", "jivanmukta"],
-  "translator_note": "'Operative karma' or 'fructifying karma' acceptable."
+  "see_also": ["karma", "niskama-karma", "samsara", "moksa", "jnana"],
+  "translator_note": "'Fructifying karma' is usually better than 'operative karma.' Avoid the picture of a fixed personal destiny already written in full. *Prārabdha* names the portion of prior action presently bearing fruit inside a larger causal stock, not an all-purpose doctrine of fatalism."
 }

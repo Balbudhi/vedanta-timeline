@@ -2,31 +2,28 @@
   "term_key": "apoha",
   "term_iast": "apoha",
   "term_devanagari": "अपोह",
-  "literal": "exclusion, removal, setting-aside; from apa-uh 'to push away, to exclude'",
+  "literal": "exclusion, exclusion-by-removal; the setting aside of what does not belong",
   "aliases": ["apoha", "Apoha", "anyāpoha", "apohaḥ", "apohasya"],
-  "invariant_definition": "*Apoha* is the Buddhist Dignāga–Dharmakīrti account of concept-formation: a concept like 'cow' does not pick out a positive *jāti*-reality (the universal cowhood) but functions by *exclusion* — \"not-non-cow\". Concepts are negative-functional rather than positive-referential, and the apparent positive content of universal-cognition is the result of the exclusion-function operating on the substrate of the *svalakṣaṇa*-flow (the bare particulars). The doctrine is the Buddhist alternative to Naiyāyika *jāti*-realism, in which *sāmānya* is a real category-entity inhering in the particulars by *samavāya*. The Naiyāyika reply (Uddyotakara, Vāchaspati, Udayana, Gaṅgeśa) is sustained: the *apoha*-account is circular because to exclude non-cows requires already grasping cowness, and the regress cannot be stopped without admitting positive *sāmānya*-grasp at some level.",
+  "invariant_definition": "*Apoha* is the Buddhist account of how concepts and words function without committing one to real universals. A word such as \"cow\" does not latch onto a positive *jāti* inhering in many particulars; it works by excluding what is other than cow. The doctrine therefore sits inside the Dignāga-Dharmakīrti *pramāṇa-dvaya* apparatus. Perception grasps only the causally efficacious *svalakṣaṇa*; conceptual cognition and language work at the level of *sāmānya-lakṣaṇa*; *apoha* explains how that conceptual level can still be usable and even epistemically valid without positing a real universal. The doctrine is not merely a semantic trick. It is a strategy for preserving Buddhist nominal anti-essentialism in logic, language, and inference. Its critics immediately press the central problem: exclusion seems to presuppose what it claims to replace, since excluding non-cows appears already to require some grasp of cowness. The history of *apoha* is largely the history of Buddhist attempts to answer that charge and realist attempts to show that the answer fails.",
   "per_school": [
     {
-      "school": "Buddhist Pramāṇa (Dignāga–Dharmakīrti)",
-      "definition": "Foundational doctrine. Dignāga's *Pramāṇa-Samuccaya* chapter 5 (*anyāpoha*) supplies the original statement: 'cow' = *anya-apoha* of *cow* = the exclusion of all non-cows. Dharmakīrti refines the analysis in the *Pramāṇa-Vārttika* (especially chapter 1, *svārthānumāna*) by distinguishing direct from indirect *apoha* and grounding the exclusion-function in *vāsanā*-rooted cognitive disposition. The *apoha-vāda* is the load-bearing Buddhist account of how concept-bearing cognition (which is *anumāna*-only and operates on the *sāmānya-lakṣaṇa*) can be epistemically valid without committing to a positive *jāti*-realist ontology.",
-      "primary_loci": ["Dignāga, Pramāṇa-Samuccaya 5", "Dharmakīrti, Pramāṇa-Vārttika 1.40–185 (the apoha-section of svārthānumāna)"]
+      "school": "Buddhist Pramāṇa",
+      "definition": "Dignāga introduces *apoha* to explain general cognition and word use without accepting real universals. Dharmakīrti deepens the view by tying exclusion to causal fitness, conceptual habit, and latent disposition, so that the apparent positivity of concepts is explained as a function of how cognition is trained and perfumed. The doctrine thus supports not only semantics but the Buddhist distinction between perceptual particulars and inferentially constructed generalities.",
+      "primary_loci": ["Dignāga, Pramāṇa-Samuccaya 5", "Dharmakīrti, Pramāṇa-Vārttika 1.40–185"]
     },
     {
-      "school": "Nyāya (Old and Navya)",
-      "definition": "Refused on circularity grounds. Uddyotakara's *Nyāya-Vārttika* and Vāchaspati's *Tātparya-Ṭīkā* press that to exclude *non-cows* requires already grasping *cowness* and so the *apoha*-account presupposes the *jāti*-realist content it was meant to replace. Udayana's *Ātma-Tattva-Viveka* and Gaṅgeśa's *Tattva-Cintāmaṇi sāmānya-vāda* develop the Naiyāyika defence of *jāti*-realism against the developed Buddhist position.",
-      "primary_loci": ["Uddyotakara, Nyāya-Vārttika ad NS 2.2.65", "Vāchaspati, Nyāya-Vārttika-Tātparya-Ṭīkā", "Udayana, Ātma-Tattva-Viveka", "Gaṅgeśa, Tattva-Cintāmaṇi (sāmānya-pramā section)"]
+      "school": "Nyāya",
+      "definition": "Nyāya rejects *apoha* because it takes universals to be real and perceptually or inferentially available. The standard charge is circularity: if one must exclude non-cows, one must already know what counts as a cow and what does not. The Naiyāyika therefore reads *apoha* as a failed surrogate for *jāti* and *samavāya*, unable to explain determinacy of reference or the shared content of classification.",
+      "primary_loci": ["Nyāya-Sūtra 2.2.65", "Uddyotakara, Nyāya-Vārttika ad Nyāya-Sūtra 2.2.65", "Gaṅgeśa, Tattva-Cintāmaṇi, Sāmānya-khaṇḍa [NOT YET RETRIEVED]"]
     },
     {
-      "school": "Mīmāṃsā (Bhāṭṭa)",
-      "definition": "Refused on similar grounds. Kumārila's *Ślokavārttika apohavāda-section* is the principal Mīmāṃsaka critique: the *apoha*-account fails to distinguish 'cow' from 'horse' since the exclusion of non-cows and the exclusion of non-horses both presuppose a positive grasp of which particulars are *to be* excluded.",
-      "primary_loci": ["Kumārila, Ślokavārttika apohavāda"]
-    },
-    {
-      "school": "Vedānta",
-      "definition": "Vedāntic engagement with *apoha* is mostly indirect, through the Naiyāyika reply that Vāchaspati and Udayana develop. Madhva engages *apoha* critically as a doctrine whose Buddhist provenance disqualifies it from Vedāntic appropriation. Madhusūdana's *Advaita-Siddhi* makes sophisticated use of *apoha*-style analysis without endorsing the Buddhist soteriology, treating the technique as available to the Advaitin defender of *anirvacanīya-mithyātva*.",
-      "primary_loci": ["Madhva, Pramāṇa-Lakṣaṇa", "Madhusūdana, Advaita-Siddhi"]
+      "school": "Mīmāṃsā",
+      "definition": "Mīmāṃsā also rejects *apoha*, but from the standpoint of scriptural semantics and the positive power of words to convey class-character. Kumārila argues that exclusion cannot ground the stable relation between word and object presupposed by ordinary and Vedic usage. The practical complaint is the same as Nyāya's: command, injunction, and recognition require more than a purely negative differentiator.",
+      "primary_loci": ["Kumārila, Ślokavārttika, Apoha-vāda [NOT YET RETRIEVED]"]
     }
   ],
   "see_also": ["svalaksana", "samanyalaksana", "pramana-dvaya", "anumana", "samanya", "jati", "samavaya", "vyapti"],
-  "translator_note": "'Exclusion' is the standard gloss; 'preclusion', 'differentiation', and 'negation' are alternative renderings. The doctrine has been the subject of extensive recent philosophical reconstruction (Siderits, Tillemans, Hayes); the consensus is that the bare *anyāpoha* of Dignāga is genuinely circular, and that Dharmakīrti's developed *vāsanā*-grounded *apoha* answers the circularity at the cost of depending on the doctrine of momentariness. The doctrine is widely misread as a Buddhist nominalism in the Western sense; the Buddhist position is more precisely a *trope-theoretic* account in which *svalakṣaṇas* (causally efficacious particulars) bear no shared properties but are functionally grouped by exclusion-relations grounded in karmic disposition."
+  "translator_note": "\"Exclusion\" is standard, but it can sound too thin if read in ordinary English. The doctrine is not just saying that words are vague or contrastive. It is a full alternative to realist universal theory. Calling it simply \"nominalism\" is also lazy: that imports a Western debate while hiding the specifically Buddhist links to *svalakṣaṇa*, *sāmānya-lakṣaṇa*, *artha-kriyā*, and karmically conditioned conceptuality.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }
