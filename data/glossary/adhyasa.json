@@ -1,0 +1,27 @@
+{
+  "term_key": "adhyasa",
+  "term_iast": "adhyāsa",
+  "term_devanagari": "अध्यास",
+  "literal": "superimposition, the placing-of-one-on-another; from adhi- + √as 'to throw, to place'",
+  "aliases": ["adhyasa", "adhyāsa", "Adhyāsa", "adhyāsaḥ", "adhyāsasya", "adhyāropa"],
+  "invariant_definition": "Superimposition — Śaṅkara's foundational analytic concept, presented in the *adhyāsa-bhāṣya* prefatory to *Brahma-Sūtra-Bhāṣya* 1.1.1. *Adhyāsa* is the cognitive event by which *anātman* and *ātman* are mutually superimposed: features of the body-mind complex are imposed on the *ātman* (producing 'I am fat,' 'I am suffering'); the *ātman*'s self-luminous *cit*-character is imposed on the body-mind complex (producing 'I am the body'). All transactional cognition presupposes this *adhyāsa*. The doctrine is foundational in Advaita; rejected by Madhva (*adhyāsa* in the Advaita sense is incoherent) and by Rāmānuja (*adhyāsa*-doctrine collapses on its own analysis — see Rāmānuja's *sapta-anupapatti*).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Adhyāsa* is the universal pre-philosophical condition that makes ordinary cognition (and Vedic injunction itself) possible. Two types: *artha-adhyāsa* (object-superimposition: the snake on the rope) and *jñāna-adhyāsa* (cognition-superimposition: the cognition 'this is a snake' superimposed on the cognition 'this is a rope'). Removed only by *brahma-jñāna*.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1 (adhyāsa-bhāṣya — the most famous prose passage in Advaita)", "Upadeśa-Sāhasrī 18 (adhyāsa-prakaraṇa)"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Rejected. Rāmānuja's *Mahāsiddhānta* (*Śrī-Bhāṣya* 1.1.1) contains the *sapta-anupapatti* (seven untenabilities), several of which target the *adhyāsa*-account directly: the locus, the object, the *avidyā*-substrate, the contradiction-with-*śruti*, and others.",
+      "primary_loci": ["Śrī-Bhāṣya 1.1.1 (sapta-anupapatti)"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "Rejected. The *adhyāsa*-account requires *avidyā* as *bhāvarūpa*-locus, which Madhva attacks at length. The phenomenal world is real, not the product of superimposition.",
+      "primary_loci": ["Madhva, Māyāvāda-Khaṇḍana", "Vyāsatīrtha, Nyāyāmṛta, adhyāsa-bhaṅga"]
+    }
+  ],
+  "see_also": ["anyatha-khyati", "akhyati", "avidya", "rajju-sarpa", "sapta-anupapatti"],
+  "translator_note": "'Superimposition' is the standard gloss. The Sanskrit *adhyāsa* is a technical term tied to Śaṅkara's specific analysis; English readers should not let 'superimposition' slide into 'projection' (a Freudian-loaded term) or 'illusion' (which evacuates the precise *bhāvarūpa* content)."
+}

@@ -1,0 +1,22 @@
+{
+  "term_key": "asat",
+  "term_iast": "asat",
+  "term_devanagari": "असत्",
+  "literal": "non-being, non-existent; a- + sat",
+  "aliases": ["asat", "Asat", "asatva", "asad-rupa"],
+  "invariant_definition": "Non-existent in the strictest sense — what cannot be the object of any cognition because it has no being whatever (the *vandhyā-suta*, son of a barren woman; the *gagana-kusuma*, sky-flower; the *śaśa-śṛṅga*, hare's horn). All Vedāntic schools agree on the standard examples and on *asat*'s strict meaning. The crucial Advaita point: the world is NOT *asat*; *mithyā* ≠ *asat*. The conflation of *mithyā* and *asat* is the canonical mistranslation the user's project is concerned to undo.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Asat* is sheer non-existence; the world is precisely NOT *asat* (it has *vyāvahārika* reality and is sublatable). The world is *mithyā* — *anirvacanīya*, neither *sat* nor *asat*.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.1.14", "Vivekacūḍāmaṇi"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "Standard examples accepted; the polemical use is to insist on the *sat-asat* binary against the Advaita *anirvacanīya* third option. The Mādhva position: the world is *sat* (real, dependent); there is no third ontological status.",
+      "primary_loci": ["Madhva, Mithyātva-Anumāna-Khaṇḍana"]
+    }
+  ],
+  "see_also": ["sat", "mithya", "anirvacaniya", "vandhya-suta"],
+  "translator_note": "'Non-existent' is the standard gloss. The user's position-brief explicitly forbids the conflation *mithyā* = *asat* — see *mithya* entry."
+}

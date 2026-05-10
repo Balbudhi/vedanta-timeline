@@ -1,0 +1,81 @@
+{
+  "id": "bhaskararaya",
+  "name": "Bhaskararaya",
+  "name_iast": "Bhāskararāya Makhin",
+  "alternate_names": ["Bhāsurānanda Nātha", "Bhāskara-Bhāratī", "Bhāskararāya Bhāratī"],
+  "dates_low": 1690,
+  "dates_high": 1785,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Early-modern Vārāṇasī Śrīvidyā theologian; dated by manuscript colophons of the Saubhāgya-Bhāskara (composed ca. 1729) and the Setubandha (composed ca. 1733).",
+  "school": "Cross-tradition",
+  "school_color_token": "shakta-srividya",
+  "sub_school": "Śrīvidyā — early-modern Advaita-aligned",
+  "sub_school_shade": 4,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Non-Vedāntin comparator (early-modern Śrīvidyā). Bhāskararāya is the major early-modern theologian of the *Śrīvidyā* tradition — the Śākta lineage centred on the goddess Tripurā-Sundarī, the *śrī-cakra*, and the recitation of the *Lalitā-Sahasranāma*. Working in Vārāṇasī in the early eighteenth century, he produces the canonical synthesis between Śrīvidyā ritual-philosophy and Advaita Vedānta: the goddess is identified as the *Cit-Śakti* of Brahman, *non-different* from Brahman in essence yet expressing herself as the entire manifest universe through her own *svātantrya*. The *śrī-cakra* is read as the diagrammatic articulation of this *svātantrya*: the *bindu* at the centre is *Cit*-Brahman, the surrounding *āvaraṇas* are the levels of manifestation, and the practitioner's progressive interiorisation of the *cakra* is the recognition of identity with the *Cit-Śakti*. Bhāskararāya is doctrinally aligned with the *kaula* rather than the *samaya* sub-tradition of Śrīvidyā — he defends the legitimacy of the full *pañca-makāra* ritual practice against more conservative Smārta-aligned readings — but works within an Advaitic metaphysical frame. The synthesis is not eclectic: Brahman *as* Tripurā-Sundarī is the position, not Brahman *and* Tripurā-Sundarī as separable; the goddess is not symbol but the active mode of the supreme Reality.",
+  "engaged_works": [
+    {
+      "work_id": "saubhagya-bhaskara",
+      "title": "Saubhagya-Bhaskara",
+      "title_iast": "Saubhāgya-Bhāskara",
+      "alternate_titles": [],
+      "composition_dates_low": 1725,
+      "composition_dates_high": 1735,
+      "composition_dates_notes": "Composed ca. 1729 per manuscript colophons.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored commentary on the Lalitā-Sahasranāma.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus; the Saubhāgya-Bhāskara is the standard Śrīvidyā commentary on the Lalitā-Sahasranāma in the Sanskrit tradition."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "The standard Śrīvidyā commentary on the *Lalitā-Sahasranāma* — the thousand-name hymn to the goddess Lalitā Tripurā-Sundarī from the *Brahmāṇḍa-Purāṇa*'s *Lalitopākhyāna*. Bhāskararāya works through each name as a doctrinally-saturated technical term, drawing simultaneously on Śrīvidyā Tantric scripture (*Vāmakeśvara-Tantra*, *Tantra-Rāja-Tantra*, *Yoginī-Hṛdaya*), on Advaita Vedānta sources (*Brahma-Sūtras*, the principal *Upaniṣads*, Śaṅkara's *Bhāṣyas*), and on the *śrī-cakra* iconography that the names presuppose. The integration is precise: each name is read so as to articulate, in liturgical voice, an aspect of the goddess's identity with *Cit*-Brahman and her free self-expression as the manifest universe. The commentary is the standard reference for *Lalitā-Sahasranāma* recitation in Smārta and Śrīvidyā traditions to the present day, and is the canonical document of the Bhāskararāya synthesis.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "setubandha",
+      "title": "Setubandha",
+      "title_iast": "Setubandha",
+      "alternate_titles": ["Nityā-Ṣoḍaśikārṇava-Setubandha"],
+      "composition_dates_low": 1730,
+      "composition_dates_high": 1740,
+      "composition_dates_notes": "Composed ca. 1733 per manuscript colophons.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored commentary on the Nityā-ṣoḍaśikārṇava (the first part of the Vāmakeśvara-Tantra).",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "The major commentary on the *Nityā-Ṣoḍaśikārṇava* — the first part of the *Vāmakeśvara-Tantra*, one of the principal scriptures of the *Śrīvidyā* tradition. The *Nityā-Ṣoḍaśikārṇava* sets out the doctrine of the sixteen *nityā* deities surrounding Tripurā-Sundarī in the *śrī-cakra*, the *pañcadaśākṣarī* and *ṣoḍaśākṣarī* mantras, and the ritual procedures of *śrī-vidyā* worship. Bhāskararāya's *Setubandha* — the \"bridge-building\" commentary — articulates the doctrinal and ritual content systematically and within an Advaita-aligned theological frame: the sixteen *nityās* are read as the differentiated self-expressions of the single supreme *Cit-Śakti*, and the *pañcadaśākṣarī* mantra as the phonemic articulation of her *svātantrya*. The work is the school's standard Tantra-commentary and is the principal source for understanding *Śrīvidyā* ritual at the level of doctrinal commentary rather than at the level of practical *paddhati*.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "varivasya-rahasya",
+      "title": "Varivasya-Rahasya",
+      "title_iast": "Varivasyā-Rahasya",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored independent treatise on Śrīvidyā worship; with Bhāskararāya's own auto-commentary, the Prakāśa.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "An independent verse-treatise (with Bhāskararāya's own *Prakāśa* commentary) devoted to the inner *rahasya* of *varivasyā* — the secret meaning of *Śrīvidyā* worship. Where the *Saubhāgya-Bhāskara* and *Setubandha* are commentaries on received scriptures, the *Varivasyā-Rahasya* is Bhāskararāya's own systematic statement of the school's doctrine. The treatise unfolds the *pañcadaśākṣarī* mantra (the fifteen-syllable *kādi-vidyā*) syllable by syllable as the phonemic articulation of the *Cit-Śakti*'s self-expression; gives the *bhāvanā* (meditative interiorisation) of the *śrī-cakra* as the practitioner's own progressive recognition of identity with the goddess; and articulates the integration of *mantra-japa*, *yantra-pūjā*, and *bhāvanā* as the threefold structure of *Śrīvidyā* practice. The work is the school's most concentrated single-volume statement and is the natural starting point for any structural study of early-modern Śrīvidyā theology in its Advaita-aligned form.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Bhāskararāya is the canonical early-modern Śrīvidyā theologian; his commentaries are the standard references for the school's living tradition. The Saubhāgya-Bhāskara is the standard commentary on the Lalitā-Sahasranāma in Smārta and Śrīvidyā recitation contexts to the present day. Modern scholarship (Brooks, Padoux, Sanderson) has placed Bhāskararāya at the centre of the early-modern Śākta-Vedānta synthesis, distinguishing his Vārāṇasī Advaita-aligned line from the more conservative Smārta-aligned line of Lakṣmīdhara.",
+  "entry_status": "draft",
+  "entry_owner_agent": "trika-shakta-extension-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "trika-shakta-extension-opus"
+}

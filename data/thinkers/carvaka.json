@@ -1,0 +1,62 @@
+{
+  "id": "carvaka",
+  "name": "Carvaka / Lokayata (position-entry)",
+  "name_iast": "Cārvāka / Lokāyata",
+  "alternate_names": ["Lokāyatika", "Bārhaspatya", "Nāstika (in opponents' usage)"],
+  "dates_low": -600,
+  "dates_high": 1300,
+  "dates_tier": "oral-tradition-only",
+  "dates_notes": "This is a position-entry, not an author-entry. The Cārvāka / Lokāyata position is attested already in the late Vedic and early Buddhist period (the Pāyāsi-Suttanta of the Dīgha Nikāya engages a recognisably Lokāyata interlocutor, c. fifth century BCE) and continues to be cited as a live opponent into the late medieval period (Mādhava's Sarva-Darśana-Saṅgraha, fourteenth century). No primary Cārvāka treatise survives. The hypothetical Bārhaspatya-Sūtra is cited only fragmentarily in opponents. Jayarāśi's Tattvopaplava-Siṃha (eighth century) is sometimes classified as Cārvāka and sometimes as a sui generis sceptical treatise. The date-range given here covers the period of the position's attested presence as a recognised darśana.",
+  "school": "Cārvāka",
+  "school_color_token": "carvaka-comparator",
+  "sub_school": "Lokāyata (reconstructed)",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "badarayana",
+      "direction": "is-refuted-by",
+      "note": "Brahma-Sūtra 3.3.53–54 engages the Lokāyata-position that the self is identical with the body and refutes it; the engagement is brief but is the canonical Vedāntic acknowledgement of the position as a darśana to be answered."
+    },
+    {
+      "thinker_id": "sankara",
+      "direction": "is-refuted-by",
+      "note": "Brahma-Sūtra-Bhāṣya 3.3.53 develops the anti-Lokāyata argument: Śaṅkara argues that consciousness cannot be reduced to a property of bodily elements because no material aggregate possesses cetanā in its constituent parts, and the supposed emergence of consciousness from acetana materials is unaccounted-for."
+    },
+    {
+      "thinker_id": "madhva",
+      "direction": "is-refuted-by",
+      "note": "Madhva's Brahma-Sūtra-Bhāṣya and Tattva-Viveka treat the Cārvāka position as the limit-case of nāstika error: the denial of post-mortem soul, of inference, and of śabda-pramāṇa together constitute the most thorough rejection of the Vedāntic frame."
+    }
+  ],
+  "core_thesis": "*Cārvāka* (also *Lokāyata*, *Bārhaspatya*) names a *darśana*-position rather than an author. No primary text survives. The position is preserved through hostile citation in opponents — most notably Mādhava's *Sarva-Darśana-Saṅgraha* (fourteenth century), the *Tattva-Saṅgraha* of Śāntarakṣita with Kamalaśīla's *Pañjikā* (eighth century), Haribhadra's *Ṣaḍ-Darśana-Samuccaya* with Guṇaratna's commentary (fourteenth century), and Jayanta Bhaṭṭa's *Nyāya-Mañjarī* (ninth century). Jayarāśi's *Tattvopaplava-Siṃha* (eighth century) is sometimes classified as Cārvāka but is more accurately a sui-generis sceptical treatise that uses Cārvāka-style arguments toward a destructive end. The reconstructible position holds four central theses. First, *pratyakṣa* (perception) is the sole *pramāṇa*; *anumāna* (inference) is rejected on the grounds that the *vyāpti*-relation between *hetu* and *sādhya* cannot itself be established without circularity, and *śabda* and *upamāna* are rejected as derivative. Second, the *ātman* is identified with the conscious body; consciousness arises from the conjunction of the four *mahā-bhūtas* (earth, water, fire, air) in the manner that intoxicating power arises from the fermentation of grains, and dissolves with bodily death — there is no post-mortem persistence of the soul. Third, *karma-phala-saṃbandha* and rebirth are rejected as inferential constructs without perceptual ground. Fourth, *puruṣārtha* is reduced to *kāma* and *artha*, with *dharma* and *mokṣa* rejected as either Vedic-instrumental fictions or unattainable. The popular characterisation as ethical hedonism is partly hostile-source-distortion: the surviving fragments support a sophisticated rejection-of-inference epistemology and a naturalistic philosophy of mind, alongside the hedonistic-sounding *ṛṇaṃ kṛtvā ghṛtaṃ pibet* (\"having taken on debt, drink ghee\") fragment. The position should not be assimilated to modern \"materialism\" without qualification — the modern category imports baggage (mechanistic reduction, scientific naturalism) that is not present in the classical position; what is present is a categorial restriction of the *pramāṇas* and an ontological restriction of *ātman*.",
+  "engaged_works": [
+    {
+      "work_id": "barhaspatya-sutra-fragments",
+      "title": "Barhaspatya-Sutra (fragmentary, hostile-source-only)",
+      "title_iast": "Bārhaspatya-Sūtra (fragments)",
+      "alternate_titles": ["Lokāyata-Sūtra (alternative title used in some hostile sources)"],
+      "composition_dates_low": -600,
+      "composition_dates_high": 600,
+      "composition_dates_notes": "Composition-date is essentially unconstrainable: the position is attested early (Pāyāsi-Suttanta) but the hypothetical Bārhaspatya-Sūtra survives only in fragments cited by later opponents.",
+      "ascription_tier": "disputed",
+      "ascription_notes": "The Bārhaspatya-Sūtra is traditionally ascribed to Bṛhaspati but no continuous text survives; the fragments cited in opponents may or may not derive from a single sūtra-text, and some are likely later doxographer-reconstructions of the position rather than authentic sūtra-citations.",
+      "ascription_evidence": [
+        {"kind": "scholarly-dispute", "description": "Bhattacharya (Studies on the Cārvāka / Lokāyata, 2011) catalogues the surviving fragments and discusses the methodological question of which are likely authentic sūtra-citations."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "No continuous text survives. The reconstructible position is preserved through hostile citation in (i) Mādhava's *Sarva-Darśana-Saṅgraha* chapter 1 (fourteenth century), the most extensive single source and the standard introduction to the position; (ii) the *Tattva-Saṅgraha* of Śāntarakṣita with Kamalaśīla's *Pañjikā* (eighth century), which engages Cārvāka *pramāṇa*-doctrine in the chapter on inference; (iii) Haribhadra's *Ṣaḍ-Darśana-Samuccaya* with Guṇaratna's *Tarka-Rahasya-Dīpikā* (fourteenth century); (iv) Jayanta Bhaṭṭa's *Nyāya-Mañjarī* (ninth century). Jayarāśi's *Tattvopaplava-Siṃha* (eighth century) is a related but methodologically distinct sceptical treatise. The fragments include the perception-as-sole-pramāṇa thesis, the body-self identification, the rejection of post-mortem soul and rebirth, the rejection of *karma-phala-saṃbandha*, the reduction of *puruṣārtha* to *kāma* and *artha*, and the famous *ṛṇaṃ kṛtvā ghṛtaṃ pibet* fragment. Modern reconstructive scholarship (Bhattacharya 2011, *Studies on the Cārvāka / Lokāyata*; Franco 1987, *Perception, Knowledge and Disbelief*) attempts to distinguish authentic *sūtra*-citations from later doxographer-additions. The position is engaged as a darśana — to be answered, not dismissed — by every later Vedāntic and Buddhist work down to the early-modern period.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "The Cārvāka position survives in tradition almost entirely as the *prima-facie* opponent (*pūrvapakṣa*) in opening chapters of polemical works — Mādhava's *Sarva-Darśana-Saṅgraha* opens with it; Haribhadra's *Ṣaḍ-Darśana-Samuccaya* engages it as the boundary-position; Vedāntic *bhāṣyas* engage it briefly at *Brahma-Sūtra* 3.3.53–54. The modern reception (Debiprasad Chattopadhyaya's *Lokāyata: A Study in Ancient Indian Materialism*, 1959) attempts to recover the position as Indian *materialism*; this reception is contested in current scholarship as importing modern materialist categories that distort the classical position.",
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-comparators-darsana-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-comparators-darsana-opus"
+}
