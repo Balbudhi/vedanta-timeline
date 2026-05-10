@@ -7,7 +7,7 @@
   "dates_high": -100,
   "dates_tier": "oral-tradition-only",
   "dates_notes": "Pre-Bādarāyaṇa; cited by name in the Brahma-Sūtra itself (e.g., 1.4.21, 4.4.6); no work survives.",
-  "dating_methodology": "No autograph or biographical record exists. The dating is bracketed by two evidential walls. Terminus ante quem: Auḍulomi must be earlier than the redaction of the *Brahma-Sūtra*, since Bādarāyaṇa cites him by name as one of three competing authorities at 1.4.20–22. The standard placement of the *Brahma-Sūtra* in roughly the second to first century BCE (Nakamura, *A History of Early Vedānta Philosophy*, 1949/1983, vol. I) therefore fixes a hard upper bound near 100 BCE. Terminus post quem: he must be late enough to engage the developed Upaniṣadic *jīva-Brahman* problem, which presupposes the principal Upaniṣads (*Bṛhadāraṇyaka*, *Chāndogya*) in something close to their final form — conventionally placed in the seventh to fifth centuries BCE. The window 400–100 BCE used here follows Nakamura's reconstruction, refined by Hajime Nakamura's identification of Auḍulomi as a member of the doxographic stratum that the *Brahma-Sūtra* presupposes as already canonical. Note (AI-generated audit): no primary biographical text supports any narrower estimate; the academic consensus dates him as a pre-Bādarāyaṇa teacher whose oral teaching circulated in identifiable form within the ritual-and-Vedānta schools, but every sharper claim is conjectural.",
+  "dating_methodology": "No autograph or biographical record exists. The dating is bracketed by two evidential walls. Terminus ante quem: Auḍulomi must be earlier than the redaction of the *Brahma-Sūtra*, since Bādarāyaṇa cites him by name as one of three competing authorities at 1.4.20–22. The standard placement of the *Brahma-Sūtra* in roughly the second to first century BCE (the standard reference is Nakamura, *A History of Early Vedānta Philosophy*, 1949/1983, vol. I; **the book is not on disk in our corpus, cited via field-standard summary**) therefore fixes a hard upper bound near 100 BCE. Terminus post quem: he must be late enough to engage the developed Upaniṣadic *jīva-Brahman* problem, which presupposes the principal Upaniṣads (*Bṛhadāraṇyaka*, *Chāndogya*) in something close to their final form — conventionally placed in the seventh to fifth centuries BCE. The window 400–100 BCE used here follows what is reported of Nakamura's reconstruction. Note (AI-generated audit): no primary biographical text supports any narrower estimate; the academic consensus dates him as a pre-Bādarāyaṇa teacher whose oral teaching circulated in identifiable form within the ritual-and-Vedānta schools, but every sharper claim is conjectural.",
   "school": "proto-Vedānta",
   "school_color_token": "proto",
   "sub_school": "Citation-only proto-Vedāntins",
@@ -38,7 +38,7 @@
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-opus",
+  "last_verified_by": "wave-secondary-citation-audit-opus",
   "polemic_chain_ids": [
     "brahma-sutra-bhasya-samkhya-refutation"
   ]

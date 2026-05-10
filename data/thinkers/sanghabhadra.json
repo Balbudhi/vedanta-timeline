@@ -6,7 +6,7 @@
   "dates_low": 380,
   "dates_high": 470,
   "dates_tier": "consensus-textual",
-  "dates_notes": "Saṅghabhadra is conventionally placed in the late fourth to mid-fifth century on the basis of his identification by Paramārtha and Xuanzang as Vasubandhu's principal Vaibhāṣika opponent and on internal evidence that the Nyāyānusāra and Abhidharma-Samaya-Pradīpikā respond to the Kośa-Bhāṣya verse-by-verse. Cox (Disputed Dharmas, 1995) and Frauwallner (Geschichte II, pp. 198–202) accept the c. 380–470 CE window. The Sanskrit originals of both treatises are lost; the works survive in Xuanzang's seventh-century Chinese translation.",
+  "dates_notes": "Saṅghabhadra is conventionally placed in the late fourth to mid-fifth century on the basis of his identification by Paramārtha and Xuanzang as Vasubandhu's principal Vaibhāṣika opponent and on internal evidence that the Nyāyānusāra and Abhidharma-Samaya-Pradīpikā respond to the Kośa-Bhāṣya verse-by-verse. Cox (Disputed Dharmas, 1995) and Frauwallner (Geschichte II, pp. 198–202) are the standard secondary references for the c. 380–470 CE window; neither work is on disk in our corpus, both cited via field-standard summary. The Sanskrit originals of both treatises are lost; the works survive in Xuanzang's seventh-century Chinese translation.",
   "school": "Cross-tradition",
   "school_color_token": "sarvastivada-comparator",
   "sub_school": "Sarvāstivāda-Vaibhāṣika",
@@ -30,11 +30,11 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored by Saṅghabhadra. Sanskrit original lost; preserved in Xuanzang's seventh-century Chinese translation (Taishō no. 1562, in eighty fascicles). The text is the principal source for orthodox Vaibhāṣika doctrine after the Mahā-Vibhāṣā itself.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Cox 1995, Disputed Dharmas; Dhammajoti 2007, Sarvāstivāda Abhidharma."}
+        {"kind": "scholarly-consensus", "description": "Cox 1995 Disputed Dharmas and Dhammajoti 2007 Sarvāstivāda Abhidharma are the standard scholarly references; neither is on disk in our corpus, both cited via field-standard summary."}
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
-      "summary": "Saṅghabhadra's principal treatise, structured as a verse-by-verse engagement with Vasubandhu's Kośa-Kārikās in which the orthodox Vaibhāṣika reading is defended against the Sautrāntika glosses Vasubandhu introduces in his own bhāṣya. The treatment of sarvam asti is the central polemical site: Saṅghabhadra defends Vasumitra's avasthā-anyathātva (modal-difference of state) account, distinguishes dravyasat from kāritra to meet the charge that past and future dharmas are unreal because inefficacious, and argues that the Sautrāntika alternative cannot account for the determinate intentional content of memory and prediction. The Nyāyānusāra also supplies the school's most systematic treatment of the conditioned-characteristics, the seventy-five dharmas, the kṣaṇika-vāda (defended as compatible with sarvam asti rather than collapsing into it), and the doctrine of conditions (pratyaya-vāda). Cox 1995 (Disputed Dharmas) is the principal modern study and partial translation; Dhammajoti 2007 supplies the wider doctrinal context.",
+      "summary": "Saṅghabhadra's principal treatise, structured as a verse-by-verse engagement with Vasubandhu's Kośa-Kārikās in which the orthodox Vaibhāṣika reading is defended against the Sautrāntika glosses Vasubandhu introduces in his own bhāṣya. The treatment of sarvam asti is the central polemical site: Saṅghabhadra defends Vasumitra's avasthā-anyathātva (modal-difference of state) account, distinguishes dravyasat from kāritra to meet the charge that past and future dharmas are unreal because inefficacious, and argues that the Sautrāntika alternative cannot account for the determinate intentional content of memory and prediction. The Nyāyānusāra also supplies the school's most systematic treatment of the conditioned-characteristics, the seventy-five dharmas, the kṣaṇika-vāda (defended as compatible with sarvam asti rather than collapsing into it), and the doctrine of conditions (pratyaya-vāda). Cox 1995 (Disputed Dharmas) is the standard modern study and partial translation; Dhammajoti 2007 supplies the wider doctrinal context. Neither work is on disk in our corpus; both cited via field-standard summary.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     },
@@ -46,7 +46,7 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored by Saṅghabhadra as a more compressed companion to the Nyāyānusāra. Sanskrit original lost; preserved in Xuanzang's Chinese translation (Taishō no. 1563, in forty fascicles).",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Cox 1995; Dhammajoti 2007."}
+        {"kind": "scholarly-consensus", "description": "Cox 1995 and Dhammajoti 2007; neither on disk in our corpus, cited via field-standard summary."}
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -57,9 +57,9 @@
   ],
   "key_passages": [],
   "comparative_claim_ids": [],
-  "reception_notes": "Saṅghabhadra is minimally engaged in surviving Vedāntic literature directly; the Vedāntic critic at Brahma-Sūtra-Bhāṣya 2.2.18–20 works from the Kośa-Bhāṣya (Vasubandhu's reformist version of the position) rather than from the Nyāyānusāra (the orthodox defence). The historical importance of Saṅghabhadra for the present project is therefore mediated: he supplies the textual basis for understanding what the Sarvāstivāda position actually was at the moment of the Vedāntic refutation, distinct from the polemical caricatures the Vedāntic sources transmit. Cox 1995 (Disputed Dharmas: Early Buddhist Theories on Existence) and Gold 2014 (Paving the Great Way: Vasubandhu's Unifying Buddhist Philosophy) are the principal modern reconstructions and are the route by which contemporary readers of Vedāntic anti-Sarvāstivāda polemic can recover the Buddhist position the polemic is engaging.",
+  "reception_notes": "Saṅghabhadra is minimally engaged in surviving Vedāntic literature directly; the Vedāntic critic at Brahma-Sūtra-Bhāṣya 2.2.18–20 works from the Kośa-Bhāṣya (Vasubandhu's reformist version of the position) rather than from the Nyāyānusāra (the orthodox defence). The historical importance of Saṅghabhadra for the present project is therefore mediated: he supplies the textual basis for understanding what the Sarvāstivāda position actually was at the moment of the Vedāntic refutation, distinct from the polemical caricatures the Vedāntic sources transmit. Cox 1995 (Disputed Dharmas: Early Buddhist Theories on Existence) and Gold 2014 (Paving the Great Way: Vasubandhu's Unifying Buddhist Philosophy) are the standard modern reconstructions, and are commonly cited as the route by which contemporary readers of Vedāntic anti-Sarvāstivāda polemic can recover the Buddhist position the polemic is engaging. **Neither work is on disk in our corpus; both cited via field-standard summary, not via direct engagement with the book bodies.**",
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-buddhist-comparators-extension-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-secondary-citation-audit-opus"
 }
