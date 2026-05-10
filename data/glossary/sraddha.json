@@ -1,0 +1,27 @@
+{
+  "term_key": "sraddha",
+  "term_iast": "śraddhā",
+  "term_devanagari": "श्रद्धा",
+  "literal": "trust, confidence, faith; from śrad (cognate with Latin *cred*-) + √dhā 'to place'",
+  "aliases": ["sraddha", "śraddhā", "Śraddhā", "śraddhāyāḥ", "śraddhāyām", "shraddha"],
+  "invariant_definition": "The trustful confidence in *śāstra* and *guru* that is the precondition of all serious philosophical-spiritual practice. All Vedāntic schools accept *śraddhā* as a *sādhana-catuṣṭaya* element (or its functional equivalent) and as a necessary condition of receiving *upadeśa*. The schools differ less in their definition of *śraddhā* than in what they take it to be confidence *in* (*śruti* alone vs. *śruti* through a particular *guru-paramparā*) and in whether *śraddhā* is itself transformed in the realized state.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Śraddhā* is one of the *ṣaṭ-sampatti* — the six inner equipments of the qualified seeker (*adhikārī*) — between *śama-dama* and *samādhāna*. It is defined as *guru-vedānta-vākyeṣu viśvāsaḥ* — confidence in the words of the *guru* and of *vedānta*. It is preparatory; in the realized one it is fulfilled, not abolished.",
+      "primary_loci": ["Vivekacūḍāmaṇi 25", "Tattva-Bodha", "Vedānta-Sāra (Sadānanda) §§17–22"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Śraddhā* is integral to *bhakti* and to *prapatti* — confidence in the Lord's protective intent (one of the six *aṅgas* of *prapatti*: *rakṣiṣyatīti viśvāsaḥ*). It is not merely preparatory; it persists and matures into *bhakti* proper.",
+      "primary_loci": ["Vedānta-Deśika, Rahasya-Traya-Sāra, prapatti-prakaraṇa", "Yatīndra-Mata-Dīpikā 9"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Śraddhā* in Viṣṇu's supremacy and in *guru* (specifically the Madhva *paramparā*) is constitutive of *adhikāra* for *bhakti-jñāna*. It is intrinsically graded among souls (*taratamya*).",
+      "primary_loci": ["Anu-Vyākhyāna 3.3"]
+    }
+  ],
+  "see_also": ["bhakti", "guru", "sadhana-catustaya", "adhikara", "viswasa"],
+  "translator_note": "'Faith' is the conventional gloss but imports Christian-theological resonance (faith vs. reason, *fides quaerens intellectum*) that does not map. *Śraddhā* is closer to 'trustful confidence' or 'cognitive trust' — a confident orientation that allows the teaching to do its work, not a leap into the absurd. The Sanskrit śrad-/Latin cred- cognate (*credo*) makes 'creedal faith' tempting but misleading."
+}

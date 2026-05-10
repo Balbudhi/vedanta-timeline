@@ -1,0 +1,32 @@
+{
+  "term_key": "prakrti",
+  "term_iast": "prakṛti",
+  "term_devanagari": "प्रकृति",
+  "literal": "the original substrate, the natural state; from pra- + √kṛ 'to make' (literally 'that from which makings proceed')",
+  "aliases": ["prakrti", "prakṛti", "Prakṛti", "prakṛter", "prakṛteḥ", "prakṛtau", "prakriti"],
+  "invariant_definition": "The material principle out of which the manifest world emerges. The category enters Vedānta from Sāṅkhya, where *prakṛti* is one of two ultimate principles (*puruṣa* the conscious witness, *prakṛti* the unconscious productive matter constituted by the three *guṇas*: *sattva*, *rajas*, *tamas*). Vedānta universally refuses Sāṅkhya's strict dualism and re-locates *prakṛti* under *brahman*, but the schools differ on how. All Vedāntic schools accept that *prakṛti* is constituted by the three *guṇas*; that the *jīva* in *saṃsāra* is associated with *prakṛti* through embodiment; that *prakṛti* is not the conscious principle. They differ on whether *prakṛti* is real (Viśiṣṭādvaita, Dvaita, Vaiṣṇava bhedābheda) or *vyāvahārika* (Advaita), and on whether it is identical with *māyā* (Advaita) or distinct from it (Vaiṣṇava schools that distinguish *prakṛti* as material from *māyā* as Lord's veiling power).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Prakṛti* is functionally identified with *māyā* in many contexts; it is the material principle as it appears under the *vyāvahārika* standpoint, but is *anirvacanīya*. Sāṅkhya's *pradhāna* — *prakṛti* as independent ultimate — is refuted at length in *Brahma-Sūtra-Bhāṣya* 2.2.1ff.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.4.3 (against Sāṅkhya pradhāna)", "Brahma-Sūtra-Bhāṣya 2.2.1–10", "Bhagavad-Gītā-Bhāṣya 13"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Prakṛti* is real, eternal, and is one of the three *tattvas* under *acit* (the unconscious side of *brahman*'s body). It really transforms (*pariṇāma*) into the manifest world; the world is therefore real, not apparent.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§91–95", "Śrī-Bhāṣya 1.4.3", "Yatīndra-Mata-Dīpikā 4 (acit-tattva)"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Prakṛti* is real, eternal, and one of Viṣṇu's *paratantra* (dependent) realities, distinct from *jīvas* and from Viṣṇu himself (one of the *pañca-bheda*: matter–matter difference, matter–jīva difference, matter–Viṣṇu difference). Its transformation into the world is real, governed by Viṣṇu's will.",
+      "primary_loci": ["Tattva-Saṅkhyāna 4–8", "Brahma-Sūtra-Bhāṣya (Madhva) 1.4.3"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Prakṛti* is the *guṇa-māyā* portion of Kṛṣṇa's *bahiraṅgā-śakti* — Kṛṣṇa's external power as material substrate. Distinct from *jīva-māyā* (which veils the *jīva* specifically). Real, but external — outside the eternal *Vaikuṇṭha* lila-substance.",
+      "primary_loci": ["Paramātma-Sandarbha §§47–55"]
+    }
+  ],
+  "see_also": ["purusa", "guna", "sattva", "rajas", "tamas", "maya", "acit"],
+  "translator_note": "'Nature' is the standard but inadequate translation. *Prakṛti* in technical Sāṅkhya-Vedānta usage is not 'the natural world' (a modern Western category) but the *material principle* — the unconscious productive substance constituted by the three *guṇas*. Modern English 'nature' (= the non-human, the biological, the not-cultural) is alien to the Sanskrit."
+}

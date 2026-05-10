@@ -1,0 +1,138 @@
+{
+  "id": "anantakrishna-sastri",
+  "name": "Anantakrishna Sastri",
+  "name_iast": "Anantakṛṣṇa Śāstrī",
+  "alternate_names": ["Mahāmahopādhyāya N. S. Anantakrishna Sastri", "Śāstra-Ratnākara"],
+  "dates_low": 1879,
+  "dates_high": 1953,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Born 1879 (some sources 1886), Nūrāṇi village, Pālakkad district, Kerala; died 1953. Trained at Chittoor pāṭhaśālā and under Harihara Śāstrī at Cidambaram from 1904; lived and taught in Kolkata; held the Mahāmahopādhyāya title.",
+  "dates_evidence": [
+    {
+      "kind": "manuscript-colophon",
+      "description": "Critical-edition colophons (Nirṇaya Sāgara Press; Meharchand Lachhmandas; Kāśī Sanskrit Series)."
+    },
+    {
+      "kind": "court-record",
+      "description": "Government of India Mahāmahopādhyāya award records."
+    }
+  ],
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Vivaraṇa (modern editorial-polemical)",
+  "sub_school_shade": 5,
+  "lineage_in": ["madhusudana", "brahmananda"],
+  "lineage_out": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "vyasatirtha",
+      "direction": "refutes",
+      "note": "His Śatabhūṣaṇī defends Advaita against Viśiṣṭādvaita and against the Vyāsatīrtha-line Dvaita critique mediated through Madhusūdana's polemical horizon."
+    }
+  ],
+  "core_thesis": "Anantakṛṣṇa Śāstrī, Mahāmahopādhyāya and Śāstra-Ratnākara, is the modern editor and defender of late-Advaita scholasticism whose critical editions made the *Advaita-Siddhi* / *Nyāyāmṛta* / *Tarka-Tāṇḍava* dialectical exchange newly readable in the twentieth century. His own polemical writings — *Śatabhūṣaṇī* against Viśiṣṭādvaita, *Advaita-Tattva-Sudhā*, *Advaita-Dīpikā*, *Vedānta-Rakṣā-Maṇi* — defend the Vivaraṇa Brahman-as-locus-of-avidyā position against rival Vedāntic schools and against the modern Śuddha-Śāṅkara reformism of Satchidānandendra. His critical editions of the *Vedānta-Paribhāṣā*, of the *Advaita-Siddhi* with *Laghu-Candrikā*, and of the full *Nyāyāmṛta-Advaita-Siddhi* polemical exchange remain the standard texts in the modern pāṭhaśālā curriculum. He is the principal editorial conduit through whom Madhusūdana, Brahmānanda, Vyāsatīrtha, and the late-scholastic Advaita-Dvaita debate reach contemporary scholarship. The doctrinal contribution is therefore double: the texts themselves are recovered, and the post-Madhusūdana Vivaraṇa position is restated for the modern reader.",
+  "engaged_works": [
+    {
+      "work_id": "shatabhushani",
+      "title": "Shatabhushani",
+      "title_iast": "Śatabhūṣaṇī",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored polemical treatise.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "A Sanskrit polemical *prakaraṇa* in one hundred numbered ornaments (*bhūṣaṇa*-s) defending Advaita against Viśiṣṭādvaita, organised as a counter to Vedānta-Deśika's *Śatadūṣaṇī* (one hundred *dūṣaṇa*-s against Advaita). Anantakṛṣṇa Śāstrī follows the same per-argument format and replies in turn to each of Deśika's principal contentions, with extensions to engage twentieth-century re-articulations by Vaḍakalai successors. The defended doctrines are the standard late-Advaita positions: *anirvacanīya-khyāti*, *bhāvarūpa avidyā*, the Vivaraṇa-line *Brahman-as-āśraya-and-viṣaya-of-avidyā* thesis, and the *jīvanmukti* doctrine. The work is the modern Advaita response to the Vaḍakalai polemical heritage and is treated within the school as the standard reference for contemporary apologetics against Viśiṣṭādvaita.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "advaita-tattva-sudha",
+      "title": "Advaita-Tattva-Sudha",
+      "title_iast": "Advaita-Tattva-Sudhā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "A systematic Sanskrit *prakaraṇa* expounding the Vivaraṇa-line tenets in topical order: ontology, *avidyā*-doctrine, *jīva-Brahma* identity, the path of *jñāna*, and *jīvanmukti*. The work is constructed as the school's modern doctrinal handbook and is the natural complement to the *Śatabhūṣaṇī*'s polemical face. Each chapter takes one canonical Vivaraṇa thesis and supplies the modern argumentative defenses without introducing the rival-school polemic that the *Śatabhūṣaṇī* houses. The treatise is part of the standard modern pāṭhaśālā curriculum at Advaita centres aligned with the post-Madhusūdana scholastic stream.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "advaita-dipika",
+      "title": "Advaita-Dipika",
+      "title_iast": "Advaita-Dīpikā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "A shorter Sanskrit *prakaraṇa* on Advaita doctrine, structured for the intermediate student. Where the *Advaita-Tattva-Sudhā* gives the systematic exposition, the *Advaita-Dīpikā* compresses the same material into a teaching-ready format. The work is one of several pedagogical instruments Anantakṛṣṇa Śāstrī produced for the modern Advaita pāṭhaśālā network and stands alongside his critical editions as a contribution to the school's reproductive infrastructure rather than to its philosophical frontier.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "vedanta-raksha-mani",
+      "title": "Vedanta-Raksha-Mani",
+      "title_iast": "Vedānta-Rakṣā-Maṇi",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored polemical treatise.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "A Sanskrit polemical *prakaraṇa* defending the post-Śaṅkara Vivaraṇa scholastic apparatus against the Holenarsipur Śuddha-Śāṅkara revisionism of Satchidānandendra Sarasvatī. The contested issue is the doctrine of *mūlāvidyā* as the positive material-cause of the world: Anantakṛṣṇa Śāstrī defends it as continuous with Śaṅkara's own *bhāṣya*-method, against Satchidānandendra's argument that it is a post-Śaṅkara accretion. The work is the principal documentary record of the twentieth-century intra-Advaita controversy from the conservative side, and is the natural pair to Satchidānandendra's *Mūlāvidyā-Nirāsa* read from the opposite direction.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "editions-of-advaita-siddhi-and-nyayamrita",
+      "title": "Critical editions of Advaita-Siddhi (with Laghu-Candrika) and Nyayamrita",
+      "title_iast": "Advaita-Siddhi (Laghu-Candrikā-sahitā) and Nyāyāmṛta editions",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored editorial labour; distinguished from authorship of the underlying texts. The editions establish the standard modern textus receptus for the Madhusūdana-Vyāsatīrtha-Brahmānanda polemical exchange.",
+      "ascription_evidence": [
+        {"kind": "manuscript-colophon", "description": "Nirṇaya Sāgara Press and Meharchand Lachhmandas printing colophons."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "Critical Sanskrit editions of the *Advaita-Siddhi* of Madhusūdana with Brahmānanda's *Laghu-Candrikā*, and of Vyāsatīrtha's *Nyāyāmṛta*, with the editor's introductions and apparatus. The work is editorial rather than authorial in the strict sense, but the editorial labour is doctrinally consequential. The *Advaita-Siddhi* / *Nyāyāmṛta* exchange is the late-medieval high-watermark of the Advaita-Dvaita polemical engagement, and the modern philosophical engagement with the exchange — including all twentieth-century scholarly literature on the dispute — depends on the Anantakṛṣṇa Śāstrī editions. The introductions and notes function as a third-order commentary that makes the exchange accessible to the modern reader without prior pāṭhaśālā training in the Madhusūdana-Brahmānanda dialectic.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "vedanta-paribhasha-edition",
+      "title": "Critical edition of Vedanta-Paribhasha",
+      "title_iast": "Vedānta-Paribhāṣā edition",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored editorial labour.",
+      "ascription_evidence": [
+        {"kind": "manuscript-colophon", "description": "Standard modern Vedānta-Paribhāṣā printing colophons."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "A critical edition of Dharmarāja Adhvarīndra's *Vedānta-Paribhāṣā* — the Vivaraṇa-pedagogical Advaita epistemology textbook that constitutes the standard modern pāṭhaśālā introduction to the school. The edition supplies the textus receptus and the editorial apparatus on which the modern teaching tradition depends, and is the natural epistemological complement to Anantakṛṣṇa Śāstrī's polemical and editorial work on the *Advaita-Siddhi* on the ontology side.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-corpus-v2-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-corpus-v2-opus"
+}

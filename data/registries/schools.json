@@ -58,5 +58,29 @@
     "color_hex": "#475569",
     "color_palette": ["#f1f5f9", "#cbd5e1", "#94a3b8", "#475569", "#1e293b"],
     "short_description": "Non-Vedāntic figures (e.g., Bhartṛhari) included only insofar as their thought feeds Vedāntic argument."
+  },
+  "samkhya-comparator": {
+    "display_name": "Sāṃkhya (comparator)",
+    "color_hex": "#16a34a",
+    "color_palette": ["#dcfce7", "#86efac", "#22c55e", "#16a34a", "#14532d"],
+    "short_description": "The dualist enumerationist school: twenty-five tattvas, satkārya-vāda, puruṣa-prakṛti dualism; the Vedānta-Sūtra's first major opponent at BS 2.1.1 ff."
+  },
+  "nyaya-comparator": {
+    "display_name": "Nyāya (comparator)",
+    "color_hex": "#ca8a04",
+    "color_palette": ["#fef9c3", "#fde047", "#eab308", "#ca8a04", "#713f12"],
+    "short_description": "The classical realist epistemology: sixteen padārthas, four pramāṇas, five-membered inference; the standard Vedāntic dialogue partner on perception and inference."
+  },
+  "navya-nyaya-comparator": {
+    "display_name": "Navya-Nyāya (comparator)",
+    "color_hex": "#a16207",
+    "color_palette": ["#fef3c7", "#fcd34d", "#d97706", "#a16207", "#451a03"],
+    "short_description": "Gaṅgeśa's reformed Nyāya: technical idiom of vyāpti, avacchedaka, paryāpti that becomes the dialectical lingua franca of late Vedāntic polemic from the fourteenth century onward."
+  },
+  "mimamsa-comparator": {
+    "display_name": "Pūrva-Mīmāṃsā (comparator)",
+    "color_hex": "#7c3aed",
+    "color_palette": ["#ede9fe", "#c4b5fd", "#8b5cf6", "#7c3aed", "#3b0764"],
+    "short_description": "The ritual-exegetical realist tradition (Bhāṭṭa and Prābhākara schools) on śabda as autonomous pramāṇa and self-validating cognition; sister-darśana whose categories Vedānta both inherits and contests."
   }
 }

@@ -306,5 +306,68 @@
     "shade": 3,
     "short_description": "Bhartṛhari's grammarian thesis that Brahman is essentially śabda; influences Maṇḍana but is not Vedāntic proper.",
     "representative_thinker_ids": ["bhartrhari"]
+  },
+  "samkhya-classical": {
+    "display_name": "Classical Sāṃkhya",
+    "parent_school_color_token": "samkhya-comparator",
+    "shade": 3,
+    "short_description": "Īśvarakṛṣṇa's Sāṃkhya-Kārikā: the canonical statement of the twenty-five tattvas, satkārya-vāda, and the three guṇas as constitutive of prakṛti.",
+    "representative_thinker_ids": ["isvara-krsna"]
+  },
+  "samkhya-classical-commentarial": {
+    "display_name": "Classical Sāṃkhya commentarial",
+    "parent_school_color_token": "samkhya-comparator",
+    "shade": 2,
+    "short_description": "The early commentary stratum on the Sāṃkhya-Kārikā (Gauḍapāda's Bhāṣya) that fixes the school's reading of the kārikās.",
+    "representative_thinker_ids": ["gaudapada-samkhya"]
+  },
+  "yoga-samkhya-synthesis": {
+    "display_name": "Yoga-Sāṃkhya synthesis",
+    "parent_school_color_token": "samkhya-comparator",
+    "shade": 4,
+    "short_description": "Vyāsa's Yoga-Sūtra-Bhāṣya: Sāṃkhya metaphysics held within the Pātañjala-Yoga frame, with īśvara as a special puruṣa untouched by kleśa-karma-vipāka-āśaya.",
+    "representative_thinker_ids": ["vyasa-bhasya"]
+  },
+  "aksapada-nyaya": {
+    "display_name": "Akṣapāda Nyāya",
+    "parent_school_color_token": "nyaya-comparator",
+    "shade": 1,
+    "short_description": "Akṣapāda Gautama's Nyāya-Sūtra: the foundational five-adhyāya treatise on the sixteen padārthas, the four pramāṇas, and the five-membered inference.",
+    "representative_thinker_ids": ["aksapada"]
+  },
+  "old-nyaya": {
+    "display_name": "Old-Nyāya (Prācīna-Nyāya)",
+    "parent_school_color_token": "nyaya-comparator",
+    "shade": 3,
+    "short_description": "The classical commentary stack — Vātsyāyana's Bhāṣya, Uddyotakara's Vārttika, Vāchaspati's Tātparya-Ṭīkā, Udayana's Pariśuddhi — through which Nyāya develops its mature realist epistemology against the Buddhist pramāṇa-tradition.",
+    "representative_thinker_ids": ["vatsyayana", "uddyotakara", "udayana"]
+  },
+  "navya-nyaya-founding": {
+    "display_name": "Navya-Nyāya (founding)",
+    "parent_school_color_token": "navya-nyaya-comparator",
+    "shade": 3,
+    "short_description": "Gaṅgeśa Upādhyāya's Tattva-Cintāmaṇi: the founding text that resets the standard of inferential rigour through formal vyāpti, avacchedaka, and paryāpti.",
+    "representative_thinker_ids": ["gangesa"]
+  },
+  "navya-nyaya-navadvipa": {
+    "display_name": "Navadvīpa Navya-Nyāya",
+    "parent_school_color_token": "navya-nyaya-comparator",
+    "shade": 4,
+    "short_description": "The Navadvīpa scholastic stratum that consolidates Navya-Nyāya — Raghunātha Śiromaṇi's Dīdhiti and Padārtha-Tattva-Nirūpaṇa, which reduces the Vaiśeṣika categories from seven to three.",
+    "representative_thinker_ids": ["raghunatha-siromani"]
+  },
+  "mimamsa-bhatta": {
+    "display_name": "Bhāṭṭa Mīmāṃsā",
+    "parent_school_color_token": "mimamsa-comparator",
+    "shade": 3,
+    "short_description": "Kumārila Bhaṭṭa's Mīmāṃsā: the realist-exegetical school whose theory of svataḥ-prāmāṇya and analysis of śabda-pramāṇa stand directly behind Maṇḍana and the Bhāmatī tradition.",
+    "representative_thinker_ids": ["kumarila"]
+  },
+  "mimamsa-prabhakara": {
+    "display_name": "Prābhākara Mīmāṃsā",
+    "parent_school_color_token": "mimamsa-comparator",
+    "shade": 4,
+    "short_description": "Prabhākara Miśra's Mīmāṃsā: the rival sub-school holding triputī-saṃvit (cognition is jointly self-, object-, and subject-revealing) and the kāryānvitābhidhāna theory of sentence-meaning.",
+    "representative_thinker_ids": ["prabhakara"]
   }
 }

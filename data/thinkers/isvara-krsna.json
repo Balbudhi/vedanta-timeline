@@ -1,0 +1,51 @@
+{
+  "id": "isvara-krsna",
+  "name": "Ishvarakrishna",
+  "name_iast": "Īśvarakṛṣṇa",
+  "alternate_names": ["Īśvarakṛṣṇa Sāṃkhyācārya"],
+  "dates_low": 320,
+  "dates_high": 450,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Dated by the terminus ante quem of Paramārtha's mid-sixth-century Chinese translation of the Sāṃkhya-Kārikā together with its commentary; Larson (1979, Classical Sāṃkhya) and Frauwallner (Geschichte der indischen Philosophie I) converge on the late fourth to mid-fifth century CE.",
+  "school": "Sāṃkhya",
+  "school_color_token": "samkhya-comparator",
+  "sub_school": "Classical Sāṃkhya",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": ["gaudapada-samkhya", "vyasa-bhasya"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "badarayana",
+      "direction": "is-refuted-by",
+      "note": "The Sāṃkhya pradhāna-kāraṇa-vāda is the principal pūrvapakṣa rejected at Brahma-Sūtra 2.1.1–2.1.11, whose engagement is the structural reason every later Vedāntic bhāṣya treats Sāṃkhya at length."
+    }
+  ],
+  "core_thesis": "Sāṃkhya is the doctrine that what arises is already, in some mode, in what it arises from: this is *satkārya-vāda*, the thesis that the effect (*kārya*) pre-exists in its cause (*kāraṇa*). Īśvarakṛṣṇa's *Sāṃkhya-Kārikā* gives this thesis its canonical statement and derives from it the school's characteristic enumerative metaphysics. Reality decomposes into twenty-five *tattvas*. Twenty-four are evolutes of *prakṛti* (primordial nature), built from the three *guṇas* — *sattva*, *rajas*, *tamas* — whose disequilibrium initiates manifestation. The twenty-fifth, *puruṣa* (pure consciousness), is plural, witnessing, and ontologically separate from *prakṛti*: liberation (*kaivalya*) is the *puruṣa*'s recognition of its non-involvement in what *prakṛti* does. The argumentative spine of the *Kārikā* is the inference for *prakṛti* from *vyakta-avyakta-sādharmya* (the shared properties of the manifest and the unmanifest) and the inference for *puruṣa* from the requirement of a witness for the assemblage that is *prakṛti*. Sāṃkhya is atheistic in the *Kārikā*'s formal statement (no creator-*īśvara* is required by the analysis); its acceptance of *īśvara* enters only through the Yoga synthesis. For Vedānta the *Kārikā* is the unavoidable interlocutor: Bādarāyaṇa's *Brahma-Sūtra* opens its second *adhyāya* with sustained refutation of Sāṃkhya at 2.1.1 ff., and every subsequent *bhāṣyakāra* — Śaṅkara, Rāmānuja, Madhva, Vijñānabhikṣu — must answer the *pradhāna-kāraṇa-vāda* before stating his own positive position.",
+  "engaged_works": [
+    {
+      "work_id": "samkhya-karika",
+      "title": "Samkhya-Karika",
+      "title_iast": "Sāṃkhya-Kārikā",
+      "alternate_titles": ["Sāṃkhya-Saptati"],
+      "composition_dates_low": 320,
+      "composition_dates_high": 450,
+      "composition_dates_notes": "Composition fixed by the terminus ante quem of Paramārtha's Chinese translation (c. 557–569 CE) along with its commentary.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Īśvarakṛṣṇa by colophon and by uniform commentarial attestation across Gauḍapāda, Māṭhara, Yuktidīpikā, and Vāchaspati Miśra.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus (Larson 1979; Frauwallner 1953)."}
+      ],
+      "genre": "verse-summary",
+      "language": "sanskrit",
+      "summary": "Seventy *āryā*-metre verses (counted as seventy-two in some recensions) that compress the entire Sāṃkhya system into a single transmittable text. The *Kārikā* opens with the threefold *duḥkha* (intrinsic, environmental, supernatural) as the motivating problem, then argues that ordinary remedies are insufficient and that the discriminating knowledge (*viveka-jñāna*) of *vyakta*, *avyakta*, and *jña* is the only secure remedy. The middle section establishes the inference for *prakṛti* from the homogeneity of cause and effect under *satkārya-vāda*, the inference for *puruṣa* from the requirement of a non-active witness, and the constitutive analysis of *prakṛti* as the equilibrium of *sattva*, *rajas*, and *tamas*. The enumeration of the twenty-five *tattvas* — *prakṛti*, *mahat* (*buddhi*), *ahaṃkāra*, the eleven *indriyas* (five *jñānendriyas*, five *karmendriyas*, *manas*), the five *tan-mātras*, the five *mahā-bhūtas*, and *puruṣa* — follows. The closing verses analyse *bhāva*-causation and the *liṅga-śarīra*, and define *kaivalya* as *puruṣa*'s recovery of its native isolation. The text is the locus classicus for Sāṃkhya across the next thousand years; it generates a major commentarial stack (Gauḍapāda, Māṭhara, Yuktidīpikā, Vāchaspati's *Tattva-Kaumudī*, Vijñānabhikṣu's *Sāṃkhya-Pravacana-Bhāṣya*).",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-comparators-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-comparators-opus"
+}

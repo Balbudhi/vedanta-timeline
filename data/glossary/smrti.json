@@ -1,0 +1,27 @@
+{
+  "term_key": "smrti",
+  "term_iast": "smṛti",
+  "term_devanagari": "स्मृति",
+  "literal": "that which is remembered; from √smṛ 'to remember'",
+  "aliases": ["smrti", "smṛti", "Smṛti", "smṛter", "smṛteḥ", "smṛtau"],
+  "invariant_definition": "The class of authoritative texts authored by named *ṛṣis* and remembered through the tradition — including the *Dharma-Śāstra* (Manu, Yājñavalkya, etc.), the *Itihāsas* (Mahābhārata, Rāmāyaṇa), the *Purāṇas*, and the *Sūtras* of the philosophical schools. All Vedāntic schools accept *smṛti* as authoritative on its proper subject-matter (especially *dharma*) but as derivative from and corrigible by *śruti*. They differ on the relative authority of particular *smṛti* texts (Vaiṣṇava schools elevate *Bhāgavata-Purāṇa* and *Pañcarātra* to functional parity with *śruti*; Advaita and Dvaita differ on *Mahābhārata* citation-density).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Smṛti* is corrigible by *śruti* on metaphysical matters (the *Brahma-Sūtra* itself is *smṛti* but is read as a coherent summary of the *Upaniṣads*'s *tātparya*). The Bhagavad-Gītā is treated as *smṛti* of high authority on *jñāna-niṣṭhā*; the *Manu-Smṛti* on *dharma*.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.3", "Brahma-Sūtra-Bhāṣya 2.1.1 (smṛti-pāda)", "Bhagavad-Gītā-Bhāṣya, upodghāta"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Smṛti* (especially *Pañcarātra* and *Viṣṇu-Purāṇa*) is treated as practically equivalent to *śruti* for the worship of Viṣṇu and for the architecture of the soul–Lord relation. The *Brahma-Sūtra* and the *Bhagavad-Gītā* are the *prasthāna-traya*'s smṛti members.",
+      "primary_loci": ["Śrī-Bhāṣya 2.2.42–45", "Vedārtha-Saṅgraha §§91–100"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Smṛti* — especially the *Bhāgavata*, *Pāñcarātra*, and *Mahābhārata* (whose *Tātparya-Nirṇaya* is one of Madhva's principal works) — is intensively used. Madhva also cites texts otherwise unknown (Brahma-Tarka, Pāramopaniṣads, etc.); these references are a major topic of modern scholarly debate.",
+      "primary_loci": ["Mahābhārata-Tātparya-Nirṇaya 1", "Bhāgavata-Tātparya-Nirṇaya 1"]
+    }
+  ],
+  "see_also": ["sruti", "sabda-pramana", "purana", "itihasa", "dharma-sastra", "prasthana-traya"],
+  "translator_note": "Often translated 'tradition' (in contrast to *śruti* = 'revelation'); this is acceptable but obscures that *smṛti* is itself textual and authoritative. The contrast is not 'revelation vs. tradition' (a Protestant grammar) but 'uncreated/heard vs. authored/remembered.'"
+}
