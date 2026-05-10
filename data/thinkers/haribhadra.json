@@ -37,6 +37,7 @@
       ],
       "genre": "verse-summary",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "87 verses (variously transmitted; the Guṇaratna recension has a longer text) that enumerate six *darśanas* and give each a fair-minded synoptic account: Bauddha at vv. 3–11 (with the four sub-schools — Vaibhāṣika, Sautrāntika, Yogācāra, Mādhyamika — identified at v. 4), Naiyāyika at vv. 12–28, Sāṃkhya at vv. 33–43 (with Yoga subsumed), Jaina at vv. 44–58, Vaiśeṣika at vv. 59–66, and Jaiminīya / Mīmāṃsaka at vv. 67–77. Each darśana is presented under three categories: its *deva* (or analogous foundational principle), its *tattva*-list, and its *pramāṇa*-doctrine. The Cārvāka / Lokāyata position is treated in some recensions at vv. 78–87, but is more usually given a brief refutational appendix. The Jaina position is presented last and as the *anekānta*-position that incorporates the partial truths of the others (*Ṣaḍ-Darśana-Samuccaya* vv. 55–58, the *anekānta*-summary). Guṇaratna's *Tarka-Rahasya-Dīpikā* is the standard commentary and substantially expands the synoptic accounts, making the work the principal pre-modern source for cross-darśana doxography. The text is the structural ancestor of Mādhava's *Sarva-Darśana-Saṅgraha* (fourteenth century) and remains the standard Jaina reference for inter-school comparison.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -55,6 +56,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "527 verses constructing a Jaina yoga-theory in dialogue with Pātañjala-Yoga. The work distinguishes five stages of yoga — *adhyātma*, *bhāvanā*, *dhyāna*, *samatā*, *vṛtti-saṅkṣaya* (*Yoga-Bindu* vv. 31–37, the foundational five-stage exposition) — corresponding to the soul's progressive purification from *karma* and movement toward *mokṣa*. Haribhadra engages Patañjali's *aṣṭāṅga*-yoga sympathetically (cf. *Yoga-Sūtra* 2.29), distinguishing his Jaina recasting of yogic praxis from the Sāṃkhya metaphysics that frames Patañjali (*Yoga-Bindu* vv. 200–250, on the demarcation from Sāṃkhya). The work is the principal pre-Hemacandra Jaina yoga-treatise and is one of the earliest Jaina works to engage Pātañjala-Yoga in detail rather than dismiss it.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -73,6 +75,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "228 verses giving an eight-stage progression of *dṛṣṭi* (yogic vision) — *mitrā*, *tārā*, *balā*, *dīprā*, *sthirā*, *kāntā*, *prabhā*, *parā* (*Yoga-Dṛṣṭi-Samuccaya* vv. 13–15, the formal enumeration; expanded individually at vv. 21–43 *mitrā*, vv. 44–56 *tārā*, vv. 57–69 *balā*, vv. 70–86 *dīprā*, vv. 153–162 *sthirā*, vv. 163–168 *kāntā*, vv. 169–175 *prabhā*, vv. 176–186 *parā*) — explicitly correlated with the eight *aṅgas* of Patañjali's *Yoga-Sūtra* 2.29 (*Yoga-Dṛṣṭi-Samuccaya* v. 13, the *aṣṭa-yoga-aṅga* alignment). The work is methodologically distinctive in defending an inclusive cross-traditional account: yogic progress is real for non-Jaina practitioners as well (*Yoga-Dṛṣṭi-Samuccaya* vv. 130–135 on the *kula-yogin* and *gotra-yogin*), and the eight *dṛṣṭis* are common to all traditions even where the metaphysical-doctrinal frame differs. The text is the most widely-read of Haribhadra's yoga-works in the modern period and is the principal evidence for his fair-minded engagement with rival traditions.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -83,5 +86,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-darsana-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }

@@ -57,6 +57,7 @@
       ],
       "genre": "stotra",
       "language": "sanskrit",
+      "source_status": "clean-on-disk",
       "summary": "The *Śikṣāṣṭakam* is the only text indisputably composed by Caitanya. Eight Sanskrit verses, preserved within Kṛṣṇadāsa Kavirāja's *Caitanya-Caritāmṛta*, do disproportionate doctrinal work. The first verse establishes the supremacy of *nāma-saṅkīrtana* — chanting the divine name — as the means of cleansing consciousness in the present *yuga*. The third lays out the devotional virtues by which alone the chanting bears fruit: humility lower than the blade of grass (*tṛṇād api sunīcena*), forbearance like the tree (*taror iva sahiṣṇunā*), absence of demand for self-honour, honour given to others. The fifth states the *jīva*'s status as eternal servant of Kṛṣṇa (*ayi nanda-tanuja kiṅkaraṃ*). The sixth and seventh treat the experiential intensity of *viraha* — separation from Kṛṣṇa — as itself a high mode of *bhakti*. The fourth refuses all selfish ends, including wealth, followers, and even *mokṣa* construed as personal release, in favour of *ahaitukī bhakti*: causeless, motiveless devotion. The Gosvāmīs read these verses as the doctrinal seed of the systematic Gauḍīya theology of *rasa* and *prema* they go on to construct, and the textual continuity is plausible: the *Śikṣāṣṭakam* states what they elaborate.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -70,6 +71,7 @@
       "ascription_notes": "Caitanya's doctrine survives mainly as recorded by Rūpa, Sanātana, Jīva, and the Caitanya-Caritāmṛta biographer Kṛṣṇadāsa Kavirāja.",
       "genre": "dialogue",
       "language": "bengali",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Caitanya's doctrine is preserved in three converging streams of disciple-record. The first is biographical: Kṛṣṇadāsa Kavirāja's *Caitanya-Caritāmṛta* and Vṛndāvana-dāsa's *Caitanya-Bhāgavata*, both in Bengali with embedded Sanskrit verse, transmit extended doctrinal dialogues. The most consequential are the conversation with Rāmānanda Rāya on the graded structure of *sādhana* and *rasa* (*Caitanya-Caritāmṛta*, *Madhya-līlā* 8), and the *daśa-mūla* teachings preserved at *Madhya-līlā* 6 (Caitanya–Sārvabhauma) and 20–25 (Caitanya–Sanātana, Caitanya–Rūpa, Caitanya–Prakāśānanda). The second is systematic-theological: the Six Gosvāmīs of Vṛndāvana — Rūpa, Sanātana, Jīva, and the others — articulate Caitanya's position under his commission as *acintya-bhedābheda*, with *acintya-śakti* the load-bearing concept (*Tattva-Sandarbha* §51 ff.) and Jīva Gosvāmī's *Ṣaṭ-Sandarbha* the canonical systematic statement. The third is liturgical-ritual: Sanātana's *Hari-Bhakti-Vilāsa* (twenty *vilāsas* on initiation, deity-worship, and the annual *vrata*-cycle) fixes the school's practice. Reading Caitanya's doctrine therefore requires triangulation across hagiographical, theological, and ritual sources, with the *Śikṣāṣṭakam* (eight verses, transmitted at *Caitanya-Caritāmṛta*, *Antya-līlā* 20) as the only fixed first-person datum. The methodological caution is real but not crippling: the Gosvāmīs treat themselves as drawing out what was settled in Caitanya's teaching, and the doctrinal coherence between the *Śikṣāṣṭakam* and the *Sandarbhas* gives independent warrant for that self-understanding.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -79,6 +81,6 @@
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-batch2-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus"
 }

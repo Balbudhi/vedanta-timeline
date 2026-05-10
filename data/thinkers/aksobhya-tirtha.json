@@ -41,6 +41,7 @@
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The *Tat-Tvam-Asi-Khaṇḍana* (\"refutation of the [Advaita reading of] *tat tvam asi*\") is Akṣobhya-Tīrtha's polemical *prakaraṇa* on the *Chāndogya* 6.8.7 *mahā-vākya*. The argument proceeds in three stages. (i) Contextual: the *mahā-vākya* is read within the *Chāndogya*'s own sequential frame (*Chāndogya* 6.8–6.16, the *Śvetaketu-Uddālaka* dialogue), where each occurrence of *tat tvam asi* (the verse is repeated nine times across 6.8.7–6.16.3) is preceded by a *dṛṣṭānta* — the *honey* analogy, the *rivers* analogy, the *banyan-seed* analogy, the *salt-in-water* analogy. The *dṛṣṭāntas* establish *sādṛśya* (similarity) and *avibhāga* (non-separation) within ontological dependence, not identity-from-eternity. (ii) Grammatical: *tat tvam asi* admits a *sāmānādhikaraṇya* construal (one referent, two co-referential terms — the Advaita reading) and a *sādṛśya-pratyāyaka* construal (two referents related by similarity-of-attribute — the Mādhva reading). Akṣobhya argues that the *sāmānādhikaraṇya* construal is grammatically possible but contextually excluded by the *dṛṣṭāntas*. (iii) Doctrinal: the verse establishes *Viṣṇor sādṛśya-jñāna* — the *jīva*'s recognition of similarity-of-attribute (*sat*, *cit*, *ānanda* in dependent form) to Viṣṇu within continued ontological dependence (*paratantrya*) — not identity, and not even *aupādhika*-identity. The work is the textual base for the *śāstrārtha* tradition records as Akṣobhya's victory over Vidyāraṇya at the Vijayanagara court (the verdict is famously commemorated in the Mādhva tradition by Vidyāraṇya's Sanskrit *muktaka* — *asminn aṣṭādaśe loke catur-daśa-nadī-pateḥ |* — accepting Akṣobhya's reading); it is the immediate ancestor of Vyāsatīrtha's later treatment of the *mahā-vākya*-question in the *Nyāyāmṛta*.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -50,6 +51,6 @@
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-intra-school-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-intra-school-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus"
 }

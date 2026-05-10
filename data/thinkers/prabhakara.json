@@ -37,6 +37,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Sub-commentary on Śabara's *Mīmāṃsā-Sūtra-Bhāṣya*, working through the *Sūtra* and *Bhāṣya* in the order in which they treat the analysis of *dharma*, *codanā*, *vidhi*, *arthavāda*, and the principles of ritual hermeneutics (covering MS 1.1–1.4 fully; with later *tantras* covering further *adhyāyas* in fragmentary form). The *Bṛhatī*'s philosophical innovations are concentrated in the early sections on *codanā* (MS 1.1.2) and *śabda-pramāṇa* (MS 1.1.5). The *triputī-saṃvit* doctrine is developed in the analysis of *jñāna*-self-luminosity (on MS 1.1.4–5). The *anvitābhidhāna* doctrine is developed in the analysis of how injunctive sentences produce *kārya*-cognition (on MS 1.1.24–25): the analysis turns on the observation that the child learning language acquires the meaning of *gām ānaya* (\"bring the cow\") not by first acquiring the isolated meanings of *gām* and *ānaya* and then combining them, but by hearing the sentence used in context and inferring the relational meaning directly. The *akhyāti* analysis of error is developed in the discussion of how injunctive cognition can be effective even when its phenomenological content is partly mistaken (on MS 1.1.4, *pratyakṣa-sūtra*). Śālikanātha Miśra's *Ṛju-Vimalā* and *Prakaraṇa-Pañcikā* are the two standard sub-commentaries through which the *Bṛhatī*'s positions reach later medieval Indian philosophy. Vāchaspati Miśra and Vijñānabhikṣu both engage Prābhākara positions critically.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -47,5 +48,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }

@@ -217,7 +217,8 @@
       "language": "sanskrit",
       "summary": "Extended commentary on the *Parātrīśikā* — a short tantric text appended to the *Rudra-Yāmala* — that Abhinavagupta uses as the occasion for one of his deepest expositions of *Anuttara* metaphysics. The *Vivaraṇa* unfolds the doctrine of the supreme *parā-vāc* (transcendent speech) as the subtle pulse (*spanda*) of consciousness from which the manifest universe emerges through *paśyantī* and *madhyamā* into *vaikharī* (*Parātrīśikā-Vivaraṇa* on *PT* 5–9, on the four-fold *vāc*); the entire tattva-hierarchy is read as the self-articulation of the supreme *aham* through its own *mātṛkā* (the phonemic energies; *PTV* on *PT* 5–9). The work develops in detail the *Anuttara*-as-*A* analysis — the first phoneme as the seed of the entire emanation (*PTV* on *PT* 1–2, the foundational *anuttara*-section) — the structure of *kula* and the *trika* of Parā–Parāparā–Aparā (*PTV* on *PT* 3–4), and the soteriological significance of recognizing one's own consciousness as already *parā-vāc* (*PTV* on *PT* 9–10 and concluding section). Among Abhinavagupta's writings this is the most concentrated text on the *spanda*/manifestation interface — directly relevant to comparative work on consciousness-as-engine-of-manifestation.",
       "key_passage_ids": [],
-      "entry_status": "draft"
+      "entry_status": "draft",
+      "source_status": "primary-text-not-in-corpus"
     }
   ],
   "key_passages": [],
@@ -225,5 +226,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }

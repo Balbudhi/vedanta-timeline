@@ -37,6 +37,7 @@
       ],
       "genre": "verse-summary",
       "language": "sanskrit",
+      "source_status": "clean-on-disk",
       "summary": "Twelve *adhyāyas*, each in four *pādas*, of about 2745 *sūtras* — the largest of the *darśanika* sūtra-corpora. Clooney's *Thinking Ritually* (1990) is the standard English-language secondary reading of the work as a coherent ritual-cum-reflective system (the work is not on disk in our corpus; cited via title-thesis and known scholarly summary). The first *adhyāya* establishes the foundational doctrines: *codanā* as the autonomous *pramāṇa* for *dharma*, the eternity of *śabda*, the four sentence-types (*vidhi*, *arthavāda*, *mantra*, *nāmadheya*), and the *svataḥ-prāmāṇya* of cognition. *Adhyāyas* 2–6 develop the analytical apparatus for ritual interpretation — the *sad-vidha-tātparya-liṅga* (the six marks of intended meaning), the *aṅga-aṅgi-vibhāga* (analysis of subordinate and principal ritual elements), and the procedure-rules (*prakaraṇa*, *sthāna*, *krama*, *samākhyā*). *Adhyāyas* 7–9 treat *atideśa* — the extension of one ritual's procedure to another — and *bādha*. *Adhyāya* 10 treats *ūha* (modification) and *bādha* (cancellation). *Adhyāya* 11 treats *tantra* (the unification of multiple ritual elements). *Adhyāya* 12 treats *prasaṅga* (the contingent extension of one ritual element to another). The work cites by name the ācāryas Bādari, Bādarāyaṇa, Lābukāyana, and others — direct evidence of an earlier oral *sūtra*-tradition. The text is unintelligible without commentary; the principal commentary is Śabara's *Śābara-Bhāṣya*.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -47,5 +48,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-darsana-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-secondary-citation-audit-opus"
+  "last_verified_by": "wave-rigor-opus"
 }

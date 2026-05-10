@@ -35,6 +35,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The *Sārārtha-Darśinī* is Viśvanātha's commentary on the *Bhāgavata-Purāṇa*. With Jīva's *Krama-Sandarbha* and Sanātana's tenth-book *Vaiṣṇava-Toṣaṇī*, it is one of the three principal Gauḍīya *Bhāgavata*-readings. The commentary works through the entire purāṇa, but the centre of gravity is the tenth book. There Viśvanātha distils Sanātana, Jīva, and earlier Vaiṣṇava commentators — notably Śrīdhara Svāmin — into a settled Gauḍīya reading of Vraja-*līlā*. The commentary's doctrinal positions are those of the school: Kṛṣṇa as *svayaṃ-bhagavān* (on *Bhāgavata* 1.3.28); the *gopīs*' *prema* as the apex of *mādhurya-rasa* (on *Bhāgavata* 10.29–33, the *Rāsa-pañcādhyāyī*; on 10.47, the *bhramara-gīta*); the *nitya-siddha* status of the residents of Vraja (on *Bhāgavata* 10.13–14, the *brahma-vimohana-līlā*). Its distinctive feature is the contemplative orientation. Many *līlā*-passages are glossed with explicit instructions for *smaraṇa* — meditative recollection — by the *rāgānugā* practitioner (notable on *Bhāgavata* 10.21, the *veṇu-gīta*; 10.30–31, the *gopīs*' search). The commentary therefore functions twice over: as authoritative exegesis and as the standard Gauḍīya devotional reader of the *Bhāgavata*.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -54,6 +55,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The *Mādhurya-Kādambinī* (\"cloud-bank of sweetness\") is Viśvanātha's eight-chapter manual of the developmental stages of *bhakti*. Each *amṛta-vṛṣṭi* (\"shower of nectar\") treats one stage of the canonical Gauḍīya progression: *śraddhā* (1), *sādhu-saṅga* (2), *bhajana-kriyā* (3), *anartha-nivṛtti* (4), *niṣṭhā* (5), *ruci* (6), *āsakti* (7), *bhāva* (8), and finally *prema* (8, concluding section). The sources are Rūpa's *Bhakti-Rasāmṛta-Sindhu* (especially 1.4.15–16, the *kramodaya* of *prema*) and Jīva's *Bhakti-Sandarbha* (§§310–342), but the contribution is genuinely new. Neither systematic predecessor offers what Viśvanātha here provides: a phenomenologically precise account of how *bhakti* matures in the practitioner — the obstacles characteristic of each stage (especially *anartha-nivṛtti* at *Mādhurya-Kādambinī* 4.5–13), the inner signs of progress, the points of regression, the conditions under which the practitioner moves from one stage to the next. The work is at once introspective psychology and metaphysical exposition, since the stages are read as the actualisation of the *jīva*'s eternal *taṭastha* constitution rather than as accidental psychological states. It is the standard Gauḍīya manual of devotional progress.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -73,6 +75,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The *Rāga-Vartma-Candrikā* (\"moonlight on the path of rāga\") is Viśvanātha's technical manual on *rāgānugā-bhakti*. The mode is precisely defined: the *sādhaka* follows the spontaneous love (*rāga*) of the eternal *parikaras* of Kṛṣṇa in Vraja, particularly the *gopīs* in *mādhurya-rasa*, and not the *gopīs*' outward conduct (*Rāga-Vartma-Candrikā* 1.5–10; cf. Rūpa Gosvāmī, *Bhakti-Rasāmṛta-Sindhu* 1.2.270–303). The text does three things. It clarifies the relation between *vaidhī* and *rāgānugā* practice — the former is not abandoned but is reframed within a different orientation (*Rāga-Vartma-Candrikā* 1.11–14). It specifies the conditions of *adhikāra* (eligibility) for *rāgānugā* (1.5–6), including the central distinction between *bāhya-aṅga* (external practice in the practitioner's present body) and *antaraṅga* (internal *smaraṇa* in one's *siddha-deha*) (*Rāga-Vartma-Candrikā* 2.6–8). It maps the morphology of *bhāva* as it ripens through *līlā*-meditation (1.7–10). The polemical edge is real and important: the work is the school's response to misunderstandings of *rāgānugā* as licensing physical or social imitation of the *gopīs*' outward life. With the *Mādhurya-Kādambinī*, it forms the practical core of late-Gauḍīya devotional theology and remains the canonical reference for the internal structure of *rāgānugā* contemplative practice.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -82,6 +85,6 @@
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-editorializing-audit-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus"
 }

@@ -42,6 +42,7 @@
       ],
       "genre": "verse-summary",
       "language": "sanskrit",
+      "source_status": "clean-on-disk",
       "summary": "Ten *adhyāyas* of compressed *sūtras* covering the entire Jaina *darśana*. *Adhyāya* 1 establishes the *triratna* (right vision, knowledge, conduct — *Tattvārtha-Sūtra* 1.1), the seven *tattvas* (1.4), the five kinds of *jñāna* (1.9–11), and the *naya* — *anekānta*-*syād-vāda* framework (1.6–8, 1.34–35). *Adhyāya* 2 analyses *jīva* — its *upayoga* (2.8–9), the four *gatis* (2.6), the *prāṇas* (2.14), *pradeśa*-extension. *Adhyāya* 3 treats the *adho-loka* (lower world). *Adhyāya* 4 treats the *deva-loka*. *Adhyāya* 5 treats *ajīva* (5.1–44) — *pudgala*, *dharma*, *adharma*, *ākāśa*, *kāla* — and the analysis of *paramāṇus* and their aggregation (5.25–28). *Adhyāya* 6 treats *āsrava* (karmic influx, 6.1–6) and the eight *karma-prakṛtis* (8.4–5). *Adhyāya* 7 treats the lay-vows (*aṇuvratas*, 7.1–2) and the householder's path. *Adhyāya* 8 treats *bandha* (karmic bondage, 8.1–26) and the duration, intensity, and quantity of bound *karma*. *Adhyāya* 9 treats *saṃvara* (stoppage, 9.1) and *nirjarā* (shedding, 9.3) — the disciplines of *gupti* (9.4), *samiti*, *parīṣaha-jaya* (9.8–17), *cāritra* (9.18), and the twelve *tapas* (9.19–20). *Adhyāya* 10 treats *mokṣa* (10.1–7): the *kevalin*'s state, the upward motion of the liberated *jīva* to the *siddha-loka* (10.5–6). The Digambara recension's *Sarvārtha-Siddhi* (Pūjyapāda) and the Śvetāmbara recension's *Tattvārtha-Bhāṣya* (Umāsvāti's auto-commentary) and *Bhāṣya-Ṭīkā* (Siddhasenagaṇi) are the principal pre-modern commentaries.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -52,5 +53,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-darsana-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }

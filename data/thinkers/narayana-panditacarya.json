@@ -34,6 +34,7 @@
       ],
       "genre": "mahakavya-hagiography",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The *Sumadhva-Vijaya* is a 16-*sarga* Sanskrit *mahākāvya* composed in elaborate metres (principally *vasantatilakā*, *mālinī*, *śārdūla-vikrīḍita*, and *sragdharā* in the descriptive sargas), narrating Madhva's life from birth in Pājakakṣetra through his three pilgrimages, his public *śāstrārthas* against the Advaita establishment, his composition of the *granthas* of the *Sarva-Mūla*, and his entry into Badarī (*Sumadhva-Vijaya* sarga 16). The work's doctrinal-narrative structure is fourfold. (i) The *avatāra*-frame (*Sumadhva-Vijaya* sarga 1, the *avatāra-prakaraṇa*) establishes Madhva as the third *avatāra* of Vāyu, after Hanumān and Bhīma, on the strength of the *Bālittha-sūkta* (*Ṛgveda* 1.141.1) read in the school's interpretive tradition. (ii) The early-life sargas (*Sumadhva-Vijaya* sargas 2–6) narrate the events of Madhva's birth, education, *sannyāsa*-ordination under Acyutaprekṣa, and early *adhyayana*; the narrative fixes the lineage's account of Madhva's relation to his immediate teacher and the manner of his *sannyāsa*. (iii) The polemical-encounter sargas (*Sumadhva-Vijaya* sargas 8–14) narrate Madhva's *śāstrārthas* against Advaita opponents on the three pilgrimages; the *bhāṣaṇa*-speeches that the work attributes to Madhva at decisive moments do doctrinal work — sarga 9 vv. 36–48 fixes the school's defence of *bheda* against the standard Advaita objections; sarga 11 fixes the *māyā-khaṇḍana*. (iv) The *grantha*-composition sargas (*Sumadhva-Vijaya* sargas 12–13) narrate the composition of the *Sarva-Mūla-Granthāḥ*, fixing the lineage's traditional account of the order in which Madhva composed his works. The *Sumadhva-Vijaya* is recited in *pārāyaṇa* across Mādhva *maṭhas* and is the principal source for what the school knows of Madhva's life. Nārāyaṇa-Paṇḍitācārya is also the author of the shorter *Maṇi-Mañjarī*-companion narrative-prose treatments of episodes from the *Sumadhva-Vijaya*, but the *Sumadhva-Vijaya* itself is his principal and load-bearing work.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -43,6 +44,6 @@
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-intra-school-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-intra-school-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus"
 }
