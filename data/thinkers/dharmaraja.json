@@ -45,6 +45,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The standard manual — *paribhāṣā*, 'technical-vocabulary handbook' — of Advaita epistemology, organised in eight *paricchedas*: one per *pramāṇa* (*pratyakṣa*, *anumāna*, *upamāna*, *āgama* / *śabda*, *arthāpatti*, *anupalabdhi*), plus *prameya* and *prayojana* (so the table of contents of the work itself; cf. Madhavananda, ed. and trans., *Vedānta-Paribhāṣā*, 1942, contents). Dharmarāja gives the canonical Advaitic *vṛtti-vyāpti* analysis of perception: the *antaḥkaraṇa* extends through the senses, conforms to the object's shape, and the consciousness underlying *vṛtti* becomes non-different from the consciousness underlying the object (*Vedānta-Paribhāṣā* pratyakṣa-pariccheda §§3–7). The Advaita treatment of *anumāna* is developed in the language of pre-Gaṅgeśa and early Navya-Nyāya (*Vedānta-Paribhāṣā* anumāna-pariccheda, deploying *vyāpti*-vocabulary in the post-*Tattva-Cintāmaṇi* form). The Mahāvākya is given the standard exposition as *brahma-pramāṇa* generating the *akhaṇḍākāra-vṛtti* (*Vedānta-Paribhāṣā* śabda-pariccheda, on *tattvamasi*). The doctrine of *prātibhāsika*, *vyāvahārika*, and *pāramārthika* levels of reality is formulated (*Vedānta-Paribhāṣā* viṣaya-pariccheda, the *sattā-traividhya* analysis). The work is the universal entry-point to technical Advaita epistemology in modern *Vedānta* curricula (Hiriyanna, *Outlines*, 1932, ch. on Advaita epistemology) and one of the most-commented texts of late Advaita. Rāmakṛṣṇa Adhvarī's *Śikhāmaṇi*, with the *Maṇiprabhā* sub-commentary of Amaradāsa, is the standard apparatus.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -54,6 +55,6 @@
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-editorializing-audit-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus"
 }

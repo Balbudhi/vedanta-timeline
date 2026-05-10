@@ -44,6 +44,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The *Gītā-Bhāṣya-Vivaraṇa* is Narahari-Tīrtha's sub-commentary on Madhva's *Gītā-Bhāṣya* — the school's earliest sub-commentary on the *Gītā*-commentary in the first generation of Madhva's disciples. The method is verse-by-verse exposition with the school's settled position fixed at each contested point. Three loci do the load-bearing work. (i) The *jīva-bheda*-passages (*Gītā-Bhāṣya-Vivaraṇa* on *Bhagavad-Gītā* 2.11–30, especially the *na tv evāhaṃ jātu nāsam* verse) fix the school's realist reading of the *jīvas*' eternal plurality, against Śaṅkara's reading of *Bhagavad-Gītā* 2.12 as licensing identity at the deeper level. (ii) The *mamaivāṃśo* verse (*Gītā-Bhāṣya-Vivaraṇa* on *Bhagavad-Gītā* 15.7) is read in the *bimba-pratibimba* sense with strict asymmetry — the *jīva* as image owing everything to Viṣṇu as original, against any reciprocal or pariṇāma-construal. (iii) The *carama-śloka*-pair (*Gītā-Bhāṣya-Vivaraṇa* on *Bhagavad-Gītā* 18.65–66, on *sarva-dharmān parityajya*) is read as fixing *bhakti* as the operative means with *jñāna* and *karma* subsumed within it; the *jīva*'s surrender is recognition of Viṣṇu's *svātantrya* against the agent's *paratantrya*. The work is the form in which the first-generation Mādhva community received the *Gītā-Bhāṣya*; Jayatīrtha's later *Prameya-Dīpikā* will refine and supersede for higher study, but the *Gītā-Bhāṣya-Vivaraṇa* remains in the school's manuscript canon as the earliest direct-disciple reading of Madhva on the *Gītā*.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -53,6 +54,6 @@
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-intra-school-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-intra-school-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus"
 }

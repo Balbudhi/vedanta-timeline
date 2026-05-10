@@ -47,6 +47,7 @@
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Bhāskara's *Brahma-Sūtra-Bhāṣya* — often called the *Bhāskarīya* — is the earliest extant *bhedābheda* commentary on Bādarāyaṇa's text and a direct rival to Śaṅkara's, very likely composed with Śaṅkara's reading already in view. Two argumentative tasks run through it. The first is constructive: each *adhikaraṇa* is read as licensing *aupādhika-bhedābheda*, with Brahman undergoing real *pariṇāma* into a real world (BSB 2.1.14–27) and *bheda* arising through *upādhi* rather than appearance (BSB 2.3.43–53). The second is polemical: the *bhāṣya* mounts the *pracchanna-bauddha* charge against *māyā-vāda* at BSB 1.4.25 onward, with the systematic *māyā*-refutation following at BSB 2.1.14 — the Advaitin who reduces the world to *mithyā* has covertly imported the *śūnyavādin*'s denial of own-being into Vedānta. Bhāskara also defends *jagat-satyatva* (BSB 2.1.14–20), the genuine plurality of embodied *jīvas* (BSB 2.3.43), and *jñāna-karma-samuccaya* (BSB 3.4.26–27) against the Advaitic insistence that knowledge alone suffices. Read against later *bhedābheda* developments, the *bhāṣya* preserves an early-medieval option in which neither Śaṅkara's *vivarta* nor the later Rāmānuja-line *śarīra-śarīrin* qualification governs the *sūtras*. The text is the foundational reference for any reconstruction of pre-Yādava Bhedābheda.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -60,6 +61,7 @@
       "ascription_notes": "Surviving in fragmentary form; ascription accepted but the text is incomplete.",
       "genre": "gita-bhashya",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "A *Gītā-Bhāṣya* is ascribed to Bhāskara but survives only in fragmentary citation, principally in Madhusūdana and in several Advaita and Bhedābheda doxographies. Where the fragments are doctrinally legible, they extend the programme of the *Brahma-Sūtra-Bhāṣya*. *Karma* and *jñāna* are read as jointly efficacious rather than as successive stages collapsing into pure *jñāna* (consonant with BSB 3.4.26–27). The *jīva* is taken as really, not illusorily, distinct from Brahman under embodied conditions (consonant with BSB 2.3.43). The *Gītā*'s theistic vocabulary is read at face value rather than as a concession to the unenlightened. Because the text is not preserved continuously, the responsible use is supplementary: as evidence for Bhāskara's reading-strategy on disputed verses (notably *Gītā* 2.12, 7.4–7, 13.2) rather than as an independent doctrinal source. The fragmentary state itself is historically informative; it marks how much of the pre-Rāmānuja Vaiṣṇava Vedānta record has been lost. [Direct citation of the surviving fragments NOT YET RETRIEVED.]",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -69,8 +71,8 @@
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-tone-audit-opus",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus",
   "polemic_chain_ids": [
     "acintya-shakti-defense",
     "bhaskara-pracchanna-bauddha",

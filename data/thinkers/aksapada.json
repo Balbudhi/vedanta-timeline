@@ -31,6 +31,7 @@
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
+      "source_status": "clean-on-disk",
       "summary": "The foundational *sūtra*-text of Nyāya in five *adhyāyas*, each divided into two *āhnikas*. *Adhyāya* 1 (NS 1.1–1.2) enumerates and defines the sixteen *padārthas* (NS 1.1.1) and develops the analysis of *pramāṇa* with a long treatment of *pratyakṣa* (NS 1.1.4), *anumāna* (NS 1.1.5), *upamāna* (NS 1.1.6), and *śabda* (NS 1.1.7–8). *Adhyāya* 2 (NS 2.1–2.2) examines *prameya* in twelve subtypes (NS 1.1.9, with detailed treatment in NS 3) — *ātman*, *śarīra*, *indriya*, *artha*, *buddhi*, *manas*, *pravṛtti*, *doṣa*, *pretyabhāva*, *phala*, *duḥkha*, *apavarga* — and includes the major *ātman*-existence proofs against Cārvāka and Buddhist no-self positions (NS 3.1.1–4 and 3.2.1–9). *Adhyāya* 3 (NS 3.1–3.2) treats the constitution of *buddhi* and the relations among *manas*, *indriya*, and *ātman*; this is where Nyāya pluralist-realism on the self is established (NS 3.2.18 ff.). *Adhyāya* 4 (NS 4.1–4.2) examines *pravṛtti*, *doṣa*, *pretyabhāva*, and *phala*, and gives the theory of *apavarga* (release) (NS 4.1.58–67); the second *āhnika* (NS 4.2) prosecutes the polemic against Buddhist *vijñāna-vāda*. *Adhyāya* 5 (NS 5.1–5.2) treats *vāda*, *jalpa*, *vitaṇḍā*, *jāti* (NS 5.1.1–43), and *nigraha-sthāna* (NS 5.2.1–24) — the polemical-debate machinery used to prosecute and defeat opponent positions. The *Sūtra* is the base on which the entire later Nyāya commentarial tradition (Vātsyāyana → Uddyotakara → Vāchaspati → Udayana → Gaṅgeśa) is constructed.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -41,5 +42,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }

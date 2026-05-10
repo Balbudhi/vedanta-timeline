@@ -31,6 +31,7 @@
       "ascription_notes": "Traditionally ascribed; few formal treatises survive — corpus consists chiefly of recorded discourses.",
       "genre": "dialogue",
       "language": "hindi",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Collected Hindi *satsaṅga* discourses delivered by Brahmānanda Sarasvatī during his tenure (1941–1953) as Śaṅkarācārya of Jyotirmath, recorded by disciples and circulated in modern editions. Doctrinally the discourses present orthodox Vivaraṇa-line Advaita in the vernacular pedagogical register: the unreality of the world as *vyāvahārika* (the canonical position at Śaṅkara, *Brahma-Sūtra-Bhāṣya*, *Adhyāsa-Bhāṣya*); the analytic non-difference of *jīva* and Brahman (Śaṅkara on *Bṛhadāraṇyaka-Upaniṣad-Bhāṣya* 4.4.20; *Brahma-Sūtra-Bhāṣya* 1.1.4); the roles of *karma*, *upāsanā*, *bhakti*, and *jñāna* in the path to *mokṣa* (Śaṅkara, *Bhagavad-Gītā-Bhāṣya* introduction; *Brahma-Sūtra-Bhāṣya* 3.4); the discipline of *śravaṇa-manana-nididhyāsana* (Sureśvara, *Naiṣkarmya-Siddhi* 4.41–44; the canonical formulation drawn from *Bṛhadāraṇyaka-Upaniṣad* 2.4.5); the necessity of a qualified *guru* (Śaṅkara, *Upadeśa-Sāhasrī* 1.1–4; *Vivekacūḍāmaṇi*, traditionally ascribed). They matter primarily as a witness to twentieth-century Daśanāmī Advaita pedagogy and to the transmission of orthodox *siddhānta* outside the technical Sanskrit *śāstra*-idiom. Specific discourse-locus citations within the modern Hindi corpus are [NOT YET RETRIEVED]. The corpus is foundational for several modern lineages claiming descent from the Jyotirmath seat. (NB: this is the modern Jyotirmath Śaṅkarācārya, distinct from the seventeenth-century Gauḍa-Brahmānanda Sarasvatī who authored the *Laghu-Candrikā*.)",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -40,6 +41,6 @@
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-batch6-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus"
 }

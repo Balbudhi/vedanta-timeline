@@ -39,6 +39,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The *Tattva-Pradīpa* (\"lamp on the truth\") is Trivikrama Paṇḍitācārya's sub-commentary on Madhva's *Brahma-Sūtra-Bhāṣya* — the earliest Mādhva sub-commentary on the *sūtra*-text. The method is *adhikaraṇa*-by-*adhikaraṇa* exposition with the school's settled position fixed at each contested point, in a form that predates Jayatīrtha's *Tattva-Prakāśikā* by approximately one generation. Three loci do the load-bearing work. (i) The opening *jijñāsādhikaraṇa* (*Tattva-Pradīpa* ad BS 1.1.1) reads the inquiry as inquiry into a real Viṣṇu, against Śaṅkara's *adhyāsa-bhāṣya* construal that takes the inquiry as into a Brahman identified with the *jīva*-self by superimposition; the *upodghāta* fixes the *prameya*-economy of the school. (ii) The *ānanda-mayādhikaraṇa* (*Tattva-Pradīpa* ad BS 1.1.12–19) is settled in favour of the realist reading of *ānandamaya* as Viṣṇu, against Śaṅkara's *jīva*-reading; the argument follows Madhva's *Bhāṣya* and clarifies the school's reading of the *taittirīya-upaniṣad* passage on which the *adhikaraṇa* turns. (iii) The *aṃśa-adhikaraṇa* (*Tattva-Pradīpa* ad BS 2.3.43), with its *ghaṭākāśa* (pot-and-space) analogy, is read as articulating asymmetric dependence (the *jīva* as part of Viṣṇu in the dependence-sense, *bimba-pratibimba* with strict asymmetry) rather than identity-with-modification. The *Tattva-Pradīpa* is the form in which the first-generation Mādhva community received Madhva's *sūtra*-commentary; Jayatīrtha's *Tattva-Prakāśikā* refines and supersedes for higher scholastic study, but the *Tattva-Pradīpa* remains in the school's manuscript canon as the earliest direct-disciple reading of the *sūtras*.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -59,6 +60,7 @@
       ],
       "genre": "stotra",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "A 41-verse Sanskrit hymn to Vāyu — in Madhva's theology, Viṣṇu's principal *bhakta* and the lineage-presider, identified by the school as having taken three *avatāras*: Hanumān (in the *Rāmāyaṇa*), Bhīma (in the *Mahābhārata*), and Madhva himself. The hymn opens with a *maṅgala*-frame addressed to Hari and Vāyu (\"Hari-Vāyu-Stuti\" — the title under which it circulates) and proceeds through 41 *sragdharā*-and-related-metre verses laying out the doctrine of the *Tāratamya* (the hierarchical ordering of beings under Viṣṇu, with Vāyu as next in rank) and the threefold-*avatāra* identification (*Vāyu-Stuti* vv. 39–41 are the locus classicus of the school's identification of Madhva as the third *avatāra* of Vāyu). The hymn is the principal Mādhva liturgical text addressed to the lineage-presider and is recited daily in every Mādhva *maṭha*; it functions doctrinally as the lineage's affirmation of the *Tāratamya* and devotionally as the standard *japa*-text. The *Vāyu-Stuti* is the most widely transmitted of Trivikrama's works and is the principal vehicle through which his name remains alive in the school's daily practice.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -68,6 +70,6 @@
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-intra-school-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-intra-school-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus"
 }

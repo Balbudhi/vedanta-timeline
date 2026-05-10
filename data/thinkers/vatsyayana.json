@@ -31,6 +31,7 @@
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
+      "source_status": "clean-on-disk",
       "summary": "The earliest surviving prose commentary on the *Nyāya-Sūtra*, structured as *sūtra*-by-*sūtra* exposition through all five *adhyāyas*. The *bhāṣya*'s historical importance is twofold. First, it transforms the *Sūtra*'s lapidary statements into a workable system: definitions are unpacked, technical distinctions are introduced, and the relations among the sixteen *padārthas* (NS 1.1.1) are made explicit. The treatment of *pratyakṣa* under NS 1.1.4 — including the *savikalpaka*–*nirvikalpaka* distinction and the analysis of perceptual cognition as *indriyārtha-saṃnikarṣa-janya* — is the locus classicus for the Naiyāyika theory of perception that all later commentators presuppose. Second, the *bhāṣya* opens the long polemic against Buddhist epistemology that defines the school's external posture for the next millennium: the defence of the *ātman* against *nairātmya-vāda* (NS 1.1.10 and 3.1.1 onward), the defence of extra-mental objects against the proto-Yogācāra denial (on NS 4.2.26–37), the defence of the *prāmāṇya* of perception against radical scepticism (on NS 2.1.8–20). The *bhāṣya* attracts Diṅnāga's *Pramāṇa-Samuccaya* (chapter 1, *pratyakṣa*; chapter 5, *apoha*) as its principal opponent; Uddyotakara's *Nyāya-Vārttika* in turn replies to Diṅnāga while extending the *bhāṣya*. The Vāchaspati Miśra → Udayana commentarial line is built on the *bhāṣya* as base.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -41,5 +42,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }

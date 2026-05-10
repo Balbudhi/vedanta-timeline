@@ -152,7 +152,8 @@
       "language": "sanskrit",
       "summary": "The longer (*bṛhatī*) of Abhinavagupta's two commentaries on the *Īśvara-Pratyabhijñā-Kārikā* — a sub-commentary that takes as its base not Utpaladeva's own short *Vṛtti* (as the shorter *Vimarśinī* does) but his long *Vivṛti* / *Ṭīkā* (now mostly lost, surviving largely through citation in this very text). The *Vivṛti-Vimarśinī* is the most extensive and philosophically demanding work of the entire Pratyabhijñā corpus: it elaborates in massive detail the *prakāśa-vimarśa* analysis of consciousness (*ĪPVV* on *ĪPK* 1.5.10–17), the *ābhāsa-vāda* (*ĪPVV* on *ĪPK* 1.5.18–21 and *ĪPK* 2.3), the *aham*-as-*pūrṇāhantā* doctrine (*ĪPVV* on *ĪPK* 1.5.13–14 and *ĪPK* 4.1), and the school's engagement with Buddhist epistemology — especially Dharmakīrti and Dharmottara (*ĪPVV* on *ĪPK* 1.2.1–11 and *ĪPK* 1.4) — and with Nyāya (*ĪPVV* on *ĪPK* 2.2.1–7). It is also the principal source for reconstructing the lost *Vivṛti* and therefore for understanding the full historical development of the Pratyabhijñā argumentation. The text is the school's most rigorous philosophical statement and the standard reference for any technical engagement with the *Pratyabhijñā* on its own analytic ground.",
       "key_passage_ids": [],
-      "entry_status": "reviewed"
+      "entry_status": "reviewed",
+      "source_status": "primary-text-not-in-corpus"
     },
     {
       "work_id": "dhvanyaloka-locana",
@@ -176,7 +177,8 @@
       "language": "sanskrit",
       "summary": "Commentary (*Locana*, \"Eye\") on Ānandavardhana's *Dhvanyāloka* — the foundational treatise of *dhvani*-theory, the doctrine that the soul of poetry is suggestion (*vyañjanā*) rather than direct denotation (*abhidhā*) or secondary indication (*lakṣaṇā*) (*Dhvanyāloka* 1.1 and *Locana* ad loc.). Abhinavagupta's *Locana* both defends Ānandavardhana's position against the then-influential anti-*dhvani* schools — Mukula Bhaṭṭa, the Mīmāṃsaka reductionists (*Locana* on *Dhvanyāloka* 1.4–13) — and develops *dhvani*-theory toward integration with *rasa*-theory: the deepest *dhvani*-effect is *rasa-dhvani*, the suggestion of *rasa* (*Locana* on *Dhvanyāloka* 2.1–4), and the appreciation of suggested *rasa* in the cultivated *sahṛdaya* is the structural counterpart to the soteriological *camatkāra* developed in the *Abhinava-Bhāratī*. The *Locana* is thus the bridge text between *dhvani* poetics and the Trika-grounded aesthetics of *rasa* — the *sthāyi-bhāva*'s *sādhāraṇī-karaṇa* (universalization) yielding aesthetic delight is, on Abhinavagupta's reading, a transparency of consciousness to its own intrinsic *ānanda* (*Locana* on *Dhvanyāloka* 2.4 on the *ānanda*-character of *rasa*-experience), the same recognition the *Pratyabhijñā* programme aims at by other means. Together with the *Abhinava-Bhāratī* it grounds all subsequent Sanskrit literary theory.",
       "key_passage_ids": [],
-      "entry_status": "reviewed"
+      "entry_status": "reviewed",
+      "source_status": "primary-text-not-in-corpus"
     },
     {
       "work_id": "abhinava-bharati",
@@ -193,9 +195,10 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
-      "summary": "The definitive commentary on Bharata's *Nāṭya-Śāstra* and the locus classicus of *rasa*-theory in its mature form. Abhinavagupta reviews and refutes the prior *rasa-sūtra* readings — Bhaṭṭa Lollaṭa, Śaṅkuka, Bhaṭṭa Nāyaka, all examined at *Abhinava-Bhāratī* on *Nāṭya-Śāstra* 6.31 (the *rasa-sūtra*) — and establishes his own *siddhānta* of *rasa* as a generalized (*sādhāraṇī-kṛta*) aesthetic apprehension in which the spectator's ordinary egoic *citta-vṛtti*s are momentarily suspended and the *sthāyi-bhāva* manifests in the consciousness of the cultivated *sahṛdaya* as savoured *camatkāra* (*Abhinava-Bhāratī* on *Nāṭya-Śāstra* 6.32–33). The deep claim — Trika in everything but vocabulary — is that aesthetic experience is structurally identical with the soteriological recognition: in both, the limited subject's contractions briefly drop and the *pūrṇāhantā* becomes self-luminous as wonder (*Abhinava-Bhāratī* on *NŚ* 6.31, the locus that grounds the *camatkāra–pratyabhijñā* identification). *Rasa* is thus not a property of the artwork but a transparency of consciousness to its own intrinsic delight (*ānanda*), making aesthetics a philosophical discipline continuous with *Pratyabhijñā* metaphysics. The text grounds all subsequent Sanskrit aesthetic theory.",
+      "summary": "The definitive commentary on Bharata's *Nāṭya-Śāstra* and the locus classicus of *rasa*-theory in its mature form. Abhinavagupta reviews and refutes the prior *rasa-sūtra* readings — Bhaṭṭa Lollaṭa (the *utpatti*-vāda: *rasa* arises in the character and the spectator infers it), Śaṅkuka (the *anumiti*-vāda: *rasa* is inferred from the actor's representation), Bhaṭṭa Nāyaka (the *bhukti*-vāda: *rasa* is enjoyed under the conditions of *sādhāraṇīkaraṇa* and *bhāvanā*), all examined at *Abhinava-Bhāratī* on *Nāṭya-Śāstra* 6.31 (the *rasa-sūtra*) — and establishes his own *abhivyakti*-vāda *siddhānta* of *rasa* as a generalized (*sādhāraṇī-kṛta*) aesthetic apprehension in which the spectator's ordinary egoic *citta-vṛtti*s are momentarily suspended and the *sthāyi-bhāva* manifests (*abhivyakta*) in the consciousness of the cultivated *sahṛdaya* as savoured *camatkāra* (*Abhinava-Bhāratī* on *Nāṭya-Śāstra* 6.32–33). The deep claim — Trika in everything but vocabulary — is that aesthetic experience is structurally identical with the soteriological recognition: in both, the limited subject's contractions briefly drop and the *pūrṇāhantā* becomes self-luminous as wonder (*Abhinava-Bhāratī* on *NŚ* 6.31, the locus that grounds the *camatkāra–pratyabhijñā* identification). *Rasa* is thus not a property of the artwork but a transparency of consciousness to its own intrinsic delight (*ānanda*), making aesthetics a philosophical discipline continuous with *Pratyabhijñā* metaphysics. The text grounds all subsequent Sanskrit aesthetic theory.",
       "key_passage_ids": [],
-      "entry_status": "draft"
+      "entry_status": "draft",
+      "source_status": "primary-text-not-in-corpus"
     },
     {
       "work_id": "paratrishika-vivarana",

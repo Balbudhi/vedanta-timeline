@@ -37,6 +37,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Compact ('*laghu*') sub-commentary on Madhusūdana's *Advaita-Siddhi*, written explicitly to defend Madhusūdana against the second-stage Mādhva critique launched in the *Tarangiṇī* tradition descended from Vyāsatīrtha. Brahmānanda works the *Advaita-Siddhi*'s arguments through the technical apparatus of mature Navya-Nyāya, matching the Mādhva opponents' precision. He supplies point-by-point replies on each contested sub-thesis: the *anirvacanīya* status of avidyā and of *mithyā* (*Laghu-Candrikā* on *Advaita-Siddhi* prathama-paricheda, *anirvacanīyatā-vicāra*); the *bhāva-rūpā* analysis of ignorance (*Laghu-Candrikā* on *Advaita-Siddhi* prathama-paricheda, *avidyā-svarūpa*); the *dṛśyatva-* and *jaḍatva-anumānas* (*Laghu-Candrikā* on *Advaita-Siddhi* dvitīya-paricheda, *mithyātva-anumāna-vicāra*); the analysis of *bheda* (*Laghu-Candrikā* on *Advaita-Siddhi* dvitīya-paricheda, *bheda-khaṇḍana-vicāra*); the locus of avidyā (*Laghu-Candrikā* on *Advaita-Siddhi* tṛtīya-paricheda, *āśraya-vicāra*). The *Laghu-Candrikā* extends the *Advaita-Siddhi* / *Nyāyāmṛta* polemic into a third generation. Together with Madhusūdana's reply to Vyāsatīrtha and the later Mādhva responses, it constitutes one of the most sustained and technically demanding multi-generational exchanges in Indian philosophy, with both sides preserved and read together to this day.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -56,6 +57,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The extended sub-commentary on Madhusūdana's *Advaita-Siddhi*, larger and more discursive than the *Laghu-Candrikā* (with which the title is sometimes used interchangeably in the manuscript tradition). Brahmānanda traces each of the *Advaita-Siddhi*'s arguments at length (*Gauḍa-Brahmānandī* on all four *parichedas*: prathama-, dvitīya-, tṛtīya-, caturtha-paricheda), integrates the *Laghu-Candrikā*'s replies to the *Tarangiṇī* tradition, and gives the most thorough single Vivaraṇa-line treatment of the *Advaita-Siddhi*'s technical positions. The work is the standard reference for advanced study of the *Advaita-Siddhi*. Any modern reading of the *Advaita-Siddhi* / *Nyāyāmṛta* exchange uses Brahmānanda's apparatus to navigate Madhusūdana's compressed dialectic, and most published editions carry the *Gauḍa-Brahmānandī* alongside the root text.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -65,8 +67,8 @@
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-editorializing-audit-opus",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus",
   "polemic_chain_ids": [
     "advaita-siddhi-replies",
     "nyayamrta-arguments"
