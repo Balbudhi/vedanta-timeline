@@ -4,29 +4,36 @@
   "term_devanagari": "आत्मन्",
   "literal": "self; reflexively, that which one refers to as 'I'; from a root meaning 'breath' (cf. Greek *atmos*) but used in classical Sanskrit purely for the self",
   "aliases": ["atman", "ātman", "ātmā", "atma", "Ātman", "ātmanaḥ", "ātmani", "ātmānam", "ātmanā"],
-  "invariant_definition": "The innermost reality of the conscious being, that which is referred to by 'I' when 'I' is used in its strictest sense (not the body, not the *manas*, not the *ahaṅkāra*). Every Vedāntic school agrees that *ātman* is *cit* (consciousness), is the witness of the three states (waking, dreaming, deep sleep), and is what survives across embodiments. Schools diverge on whether *ātman* is numerically identical with *brahman* (Advaita), is a mode of *brahman* really distinct from it (Viśiṣṭādvaita), or is an eternally distinct dependent reality (Dvaita). Note: *ātman* and *jīva* are often used interchangeably in school usage but technically *jīva* foregrounds the embodied locus while *ātman* foregrounds the inmost essence.",
+  "invariant_definition": "The self in the strict sense: not body, not sense-organ, not *manas*, not *ahaṅkāra*, but the subject for whom experience occurs and to whom ownership is ordinarily ascribed. The term carries a large technical burden. Upaniṣadic inquiry approaches it through negation (*neti neti*), through the three-state analysis of waking, dream, and deep sleep, and through the witness register later called *sākṣin*. Vedāntic debates then ask whether that witnessing self is identical with *brahman*, a mode of *brahman*, or an eternally distinct knower. The term is also sharpened polemically by nearby positions: Sāṃkhya's *puruṣa*, Nyāya's enduring self as substrate of cognition, and the Buddhist denial that any permanent *ātman* can be found behind the five aggregates. In practice, *ātman* is the term one reaches for when the question is not merely who lives this embodied life, but what the referent of 'I' really is once misidentification with body, role, and psychophysical process has been corrected.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Ātman* is numerically identical with *brahman*. The *mahāvākya tat tvam asi* (Chāndogya 6.8.7) and *ayam ātmā brahma* (Māṇḍūkya 2) are read as identity-statements (*akhaṇḍārtha*), not as relational predications. The apparent multiplicity of *ātmans* is a function of *upādhi*-superimposition; on liberation the *upādhis* fall away and there is realized to have been only one *ātman* throughout.",
+      "definition": "*Ātman* is identical with *brahman*, and the plurality of selves belongs only to *upādhi*-conditioned appearance. The key Advaita move is to distinguish the witness consciousness from the mind that reflects it; agency, enjoyership, and limitation belong to the empirical self, not to *ātman* as such. The *mahāvākyas* are therefore read as identity-statements, not as mere similarity or body-soul relations.",
       "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1 (adhyāsa-bhāṣya)", "Chāndogya-Upaniṣad-Bhāṣya 6.8.7", "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 4.3", "Upadeśa-Sāhasrī 18 (tat-tvam-asi-prakaraṇa)"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Ātman* is an eternally real, atomic (*aṇu*), self-luminous individual conscious substance that is a real mode (*prakāra*) of *brahman*. The unity asserted in *tat tvam asi* is *sāmānādhikaraṇya* (co-reference) under *aprthak-siddhi*: *tat* (Brahman as soul) and *tvam* (the embodied self) refer to the same reality only because the self is Brahman's body, not because they are numerically identical.",
+      "definition": "*Ātman* is an eternal, atomic, self-luminous conscious substance whose essential nature is distinct from body and mind but inseparable from *brahman* as His mode. The self's knowing power is expressed through *dharmabhūta-jñāna*, which contracts under bondage and expands in liberation. *Tat tvam asi* is interpreted through *sāmānādhikaraṇya* and *śarīra-śarīrī-bhāva*: the text teaches inseparable dependence on *brahman*, not numerical identity.",
       "primary_loci": ["Vedārtha-Saṅgraha §§4–10 (against Advaita reading of tat tvam asi)", "Śrī-Bhāṣya 2.3.18 (ātman atomic)", "Śrī-Bhāṣya 2.3.42–53"]
     },
     {
       "school": "Dvaita",
-      "definition": "*Ātman* is one of the eternally distinct dependent realities. It is *aṇu* (atomic), *paratantra* (dependent on Viṣṇu), and irreducibly distinct both from *brahman* and from every other *ātman*. *Tat tvam asi* is parsed as *atat tvam asi* ('thou art *not* that') by sandhi-reanalysis, or as predicating qualified similarity (*sādṛśya*), never identity.",
+      "definition": "*Ātman* is a real, atomic, dependent knower, eternally distinct from Viṣṇu and from every other self. Its identity is not dissolved at liberation; rather, liberation perfects its knowledge and service while preserving *bheda*. Madhva's readings of the identity-texts block any move from reflexive self-awareness to non-dual monism: *ātman* is a knower of God, never God Himself.",
       "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1", "Anu-Vyākhyāna 1.1", "Viṣṇu-Tattva-Vinirṇaya §§30–40 (against tat tvam asi as identity)"]
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "*Ātman* is a *vibhinnāṃśa* (separated portion) of Kṛṣṇa — an atomic conscious *aṃśa* of the *taṭasthā-śakti* (marginal power), eternally one with and different from Kṛṣṇa in a way that exceeds logical resolution. The *ātman*'s constitutional position is *dāsya* (servitude) under one of the five *rasas* (śānta, dāsya, sakhya, vātsalya, mādhurya).",
+      "definition": "*Ātman* is the conscious *vibhinnāṃśa* of Kṛṣṇa belonging to the *taṭasthā-śakti*. It is one with Kṛṣṇa as dependent energy and different from Him as a distinct servant. The practical implication is immediate: the self is not completed by abstract self-identity but by restored relation, expressed through *bhakti* and stabilized in one of the devotional *rasas*.",
       "primary_loci": ["Paramātma-Sandarbha §§19, 28", "Bhakti-Sandarbha §§1–5", "Caitanya-Caritāmṛta, Madhya 20 (jīva as taṭasthā-śakti)"]
+    },
+    {
+      "school": "Buddhist (opponent position)",
+      "definition": "Classical Buddhism treats *ātman* as precisely the wrong posit to project behind the five aggregates. What appears as a person is analyzable into dependently arisen aggregates, elements, and sense-bases, none of which is self. The term therefore functions polemically: the Upaniṣadic and Brahmanical search for a stable self is replaced by analysis of appropriation and the cessation of that appropriation.",
+      "primary_loci": ["Saṃyutta-Nikāya 22.59", "Milindapañha 2.1"]
     }
   ],
   "see_also": ["jiva", "brahman", "saksin", "kutastha", "antahkarana", "ahankara"],
-  "translator_note": "Translating *ātman* as 'soul' imports Christian-substance and resurrection-of-the-body connotations that distort what every Vedāntin means. Translating it as 'Self' (capitalized) is closer but risks confusing it with the Cartesian-modern individual subject, which is in fact what *ahaṅkāra* names. The Sanskrit *ātman* is the reflexive pronoun used for any being — including animals and inanimate objects in some Upaniṣadic uses — and so is structurally not 'the personal soul' but 'whatever the *I* really is, when correctly identified.'"
+  "translator_note": "Avoid both 'soul' and an unqualified modern 'self'. 'Soul' imports Christian substance and afterlife assumptions; modern 'self' often suggests personality, autobiography, or the ego-construct that Sanskrit more often names *ahaṅkāra*. *Ātman* names the strict referent of 'I' after the body-mind complex has been bracketed, and many debates turn on whether anything answering to that description exists in the first place.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

@@ -4,19 +4,31 @@
   "term_devanagari": "असत्",
   "literal": "non-being, non-existent; a- + sat",
   "aliases": ["asat", "Asat", "asatva", "asad-rupa"],
-  "invariant_definition": "Non-existent in the strictest sense — what cannot be the object of any cognition because it has no being whatever (the *vandhyā-suta*, son of a barren woman; the *gagana-kusuma*, sky-flower; the *śaśa-śṛṅga*, hare's horn). All Vedāntic schools agree on the standard examples and on *asat*'s strict meaning. The crucial Advaita point: the world is NOT *asat*; *mithyā* ≠ *asat*. The conflation of *mithyā* and *asat* is the canonical mistranslation the user's project is concerned to undo.",
+  "invariant_definition": "Non-being in the strict sense: what has no ontological standing and no possibility of manifestation, the stock examples being the barren woman's son, the sky-flower, and the hare's horn. The term matters not only as a negative label but inside causal debates. Sāṃkhya and Vedānta argue that a real effect cannot arise from sheer *asat*; Nyāya and Vaiśeṣika preserve the *sat*/*asat* binary while explaining production through prior absence rather than pre-existent effect. Advaita adds a further caution: the world is not *asat*. It appears, supports transaction, and is later sublated; that is why the school needs *mithyā* instead of collapsing appearance into sheer non-being. Any translation that turns *asat* into a vague 'unreal' risks erasing this entire three-way distinction among the real, the sublatable, and the absolutely non-existent.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Asat* is sheer non-existence; the world is precisely NOT *asat* (it has *vyāvahārika* reality and is sublatable). The world is *mithyā* — *anirvacanīya*, neither *sat* nor *asat*.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.1.14", "Vivekacūḍāmaṇi"]
+      "definition": "*Asat* is sheer non-existence and so cannot describe the world, which is experienced and transacted with before being sublated. Advaita insists on this point because otherwise its critique of naïve realism would collapse into nihilism. The world is instead *mithyā*, an apparent but not absolutely null order of presentation.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.1.14", "Chāndogya-Upaniṣad-Bhāṣya 6.2.2"]
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "*Asat* cannot generate a real effect. The classic *asad-akaraṇāt* argument denies production from sheer non-being and thereby grounds *sat-kārya-vāda*. What appears in production must already exist in causal form; otherwise causation would be unintelligible.",
+      "primary_loci": ["Sāṃkhya-Kārikā 9"]
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "Nyāya and Vaiśeṣika keep *asat* available in the theory of absences and prior non-existence while rejecting the Advaita third category. A pot before production is absent, not already present as a subtle effect in the clay. The world is real, and causal explanation does not require calling it *mithyā*.",
+      "primary_loci": ["Nyāya-Sūtra 2.1.18 [NOT YET RETRIEVED]", "Vaiśeṣika-Sūtra 1.1 [NOT YET RETRIEVED]"]
     },
     {
       "school": "Dvaita",
-      "definition": "Standard examples accepted; the polemical use is to insist on the *sat-asat* binary against the Advaita *anirvacanīya* third option. The Mādhva position: the world is *sat* (real, dependent); there is no third ontological status.",
-      "primary_loci": ["Madhva, Mithyātva-Anumāna-Khaṇḍana"]
+      "definition": "The *sat*/*asat* distinction is exhaustive. The world is fully real though dependent on Viṣṇu, and the Advaita appeal to a third status is rejected as conceptual evasion. Polemically, Dvaita uses *asat* to show what the world is not: it is no hare's horn, no fiction, and no merely apparent residue of ignorance.",
+      "primary_loci": ["Madhva, Mithyātva-Anumāna-Khaṇḍana", "Vyāsatīrtha, Nyāyāmṛta, mithyātva-bhaṅga"]
     }
   ],
   "see_also": ["sat", "mithya", "anirvacaniya", "vandhya-suta"],
-  "translator_note": "'Non-existent' is the standard gloss. The user's position-brief explicitly forbids the conflation *mithyā* = *asat* — see *mithya* entry."
+  "translator_note": "'Non-existent' is the safest gloss. Avoid the looser English 'unreal', which can blur *asat* together with dream, illusion, fiction, and the Advaita category *mithyā*. In these debates, *asat* is the strongest negative term, reserved for what has no being at all.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }
