@@ -3,42 +3,251 @@
   "term_iast": "kārya",
   "term_devanagari": "कार्य",
   "literal": "to be done; that which is to be effected; the effect; from √kṛ + suffix -ya (gerundive)",
-  "aliases": ["karya", "kārya", "Kārya", "kāryāṇi", "kāryasya", "kārye", "kāryāt"],
+  "aliases": [
+    "karya",
+    "kārya",
+    "Kārya",
+    "kāryāṇi",
+    "kāryasya",
+    "kārye",
+    "kāryāt"
+  ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus",
+  "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "*Kārya* is the gerundive of √kṛ — literally 'that which is to be done' or 'that which is to be effected.' In technical Indian usage it has two principal senses, both indispensable. (1) In Pāṇinian *kāraka* analysis it is one designation for the *karman*-role: the effect or result the agent's action terminates upon. (2) In causal theory — and this is where the great Indian metaphysical disputes live — *kārya* is the effect-side of the *kāraṇa-kārya* relation: the produced or unfolded result whose ontological status is contested. The *satkārya-vāda* of Sāṃkhya holds that the *kārya* pre-exists in the *kāraṇa* and that production is merely manifestation (*āvirbhāva*) of what was already latent (Sāṃkhya-Kārikā 9: *asad-akaraṇād upādāna-grahaṇāt sarva-sambhavābhāvāt śaktasya śakya-karaṇāt kāraṇa-bhāvāc ca sat kāryam*). The *asat-kārya-vāda* (or *ārambha-vāda*) of Nyāya-Vaiśeṣika holds the contrary: *kārya* is genuinely new, a fresh *samavāya*-bound entity not present in its causes prior to production. Vedānta inherits the *satkārya* side of the dispute and then bifurcates internally over what kind of *satkārya*: *vivarta-vāda* (Advaita — the *kārya* is only an apparent transformation of *brahman*), *pariṇāma-vāda* (Bhāskara, Rāmānuja, Madhva, with variations — real transformation of cause into effect), and *avikṛta-pariṇāma-vāda* (Vallabha — real transformation without modification). The deeper conceptual point: *kārya* is never just 'effect' — it is the metaphysically loaded ontological status of the produced, which carries with it commitments about novelty, identity, and persistence.",
   "per_school": [
     {
-      "school": "Sāṃkhya",
-      "definition": "*Satkārya-vāda*: the *kārya* pre-exists in the *kāraṇa* in unmanifest form (*avyakta*) and production is its *āvirbhāva*. Five arguments classically: from the impossibility of producing the non-existent; from the requirement of a determinate material cause; from the impossibility of universal producibility; from the fact that only the potent can produce; and from the cause-effect identity of *prakṛti* and its evolutes.",
-      "primary_loci": ["Sāṃkhya-Kārikā 9", "Sāṃkhya-Kārikā 14–16", "Yukti-Dīpikā on Sāṃkhya-Kārikā 9 [NOT YET RETRIEVED]"]
-    },
-    {
-      "school": "Nyāya-Vaiśeṣika",
-      "definition": "*Asat-kārya-vāda* / *ārambha-vāda*: the *kārya* is genuinely new — a fresh substance bound to its parts by *samavāya* (inherence), distinct from the parts taken severally. The whole (*avayavin*) is over-and-above its parts. This is the principal target of all *satkārya-vādins* in the post-Sāṃkhya tradition.",
-      "primary_loci": ["Vaiśeṣika-Sūtra 7.2.9 [NOT YET RETRIEVED]", "Nyāya-Sūtra 4.1.16ff [NOT YET RETRIEVED]", "Tarka-Saṅgraha §§37–42"]
-    },
-    {
       "school": "Advaita",
-      "definition": "*Vivarta-vāda*: *brahman* is the *upādāna-kāraṇa* of the world, but the world-*kārya* is only an apparent (*vivarta*) — not real (*pariṇāma*) — transformation of *brahman*. The *kārya* is *mithyā*: experienced, transactionally real, but ultimately sublatable in *brahma-jñāna*. Śaṅkara argues for *satkārya-vāda* against Vaiśeṣika in BSB 2.1.18 en route to the *vivarta* refinement.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.1.14–20", "Brahma-Sūtra-Bhāṣya 2.1.18 (against ārambha-vāda)", "Pañcadaśī 13.7–15"]
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "On-disk Advaita primaries inspected, but no explicit kārya-locus was secured for this extraction"
+      ],
+      "citations": []
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Pariṇāma-vāda* in modified form: the *kārya* — *cit* and *acit* in the world — is a real transformation of *brahman*'s *sūkṣma*-state into its *sthūla*-state. The Lord is the *upādāna-kāraṇa* with respect to his body (the world), but the transformation belongs to *cit-acit-viśiṣṭa-brahman*, not to the substantive Lord per se.",
-      "primary_loci": ["Śrī-Bhāṣya 1.4.23–27", "Vedārtha-Saṅgraha §§91–95"]
+      "definition": "Viśiṣṭādvaita treats the world's kāryatva as undeniable: earth and the rest are effects because they are composite, active, and marked by magnitude. [cite://yamuna/isvara-siddhi/14; cite://yamuna/isvara-siddhi/15] Precisely as kārya, the world and embodied agents ground the inference to one governing Īśvara, since the acit order follows one will and conscious agents act only under embodied conditions. [cite://yamuna/isvara-siddhi/16; cite://yamuna/isvara-siddhi/17; cite://yamuna/isvara-siddhi/18]",
+      "primary_loci": [
+        "Yāmuna, Īśvara-Siddhi 14-18"
+      ],
+      "citations": [
+        {
+          "cite": "cite://yamuna/isvara-siddhi/14",
+          "locus_short": "ĪS 14"
+        },
+        {
+          "cite": "cite://yamuna/isvara-siddhi/15",
+          "locus_short": "ĪS 15"
+        },
+        {
+          "cite": "cite://yamuna/isvara-siddhi/16",
+          "locus_short": "ĪS 16"
+        },
+        {
+          "cite": "cite://yamuna/isvara-siddhi/17",
+          "locus_short": "ĪS 17"
+        },
+        {
+          "cite": "cite://yamuna/isvara-siddhi/18",
+          "locus_short": "ĪS 18"
+        }
+      ]
     },
     {
-      "school": "Bhedābheda (Bhāskara) / Tattva-vāda (Madhva)",
-      "definition": "Bhāskara's straightforward *pariṇāma-vāda*: world-*kārya* is real transformation of *brahman* under conditioning *upādhi*. Madhva, by contrast, holds *kārya* as real but produced from real distinct material principles under Viṣṇu's controlling causality (*nimitta-kāraṇa*); *prakṛti* serves as material cause, Viṣṇu as efficient cause, retaining the categorial difference.",
-      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 2.1.14ff", "Brahma-Sūtra-Bhāṣya (Madhva) 2.1.14ff", "Tattva-Saṅkhyāna 4–8"]
+      "school": "Tattva-vāda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Madhva, Jayatīrtha, Vyāsatīrtha, and Rāghavendra materials inspected, but no explicit kārya-locus was secured for this extraction"
+      ],
+      "citations": []
     },
     {
-      "school": "Śuddhādvaita (Vallabha)",
-      "definition": "*Avikṛta-pariṇāma-vāda*: *brahman* really transforms into the world-*kārya* yet undergoes no modification (*vikāra*) — analogous to gold becoming ornaments while remaining fully gold. The *kārya* is real *and* the cause is unmodified.",
-      "primary_loci": ["Aṇu-Bhāṣya 2.1.14ff [NOT YET RETRIEVED]", "Tattva-Dīpa-Nibandha [NOT YET RETRIEVED]"]
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Bhāskara and Yādava Prakāśa materials inspected, but no explicit kārya-locus was secured for this extraction"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Jīva Gosvāmin, Baladeva, and Caitanya materials inspected, but no explicit kārya-locus was secured for this extraction"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Nimbārka materials inspected, but no explicit kārya-locus was secured for this extraction"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "Vallabha places nāma and rūpa on the effect-side: they are kārya-dharmas, while Brahman remains the samavāyi-kāraṇa throughout. [cite://vallabha/anu-bhasya/1.1.4] He then states that Brahman pariṇamates kāryākāreṇa without vikṛti, which is the school's avikṛta-pariṇāma account of the world as real effect. [cite://vallabha/anu-bhasya/1.4.26]",
+      "primary_loci": [
+        "Vallabha, Aṇu-Bhāṣya on Brahma-Sūtra 1.1.4",
+        "Vallabha, Aṇu-Bhāṣya on Brahma-Sūtra 1.4.26"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.1.4",
+          "locus_short": "BSB 1.1.4"
+        },
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.4.26",
+          "locus_short": "BSB 1.4.26"
+        }
+      ]
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "Sāṃkhya states satkārya-vāda explicitly: the kārya is sat because production does not bring an unreal thing into being, but manifests what is already grounded in its cause. [cite://isvara-krsna/samkhya-karika/9] The unmanifest is further established because the effect is constituted by the qualities of the cause, and because the system itself is articulated through the differentiation of kāraṇa and kārya within one evolving prakṛti. [cite://isvara-krsna/samkhya-karika/14-15]",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 9",
+        "Sāṃkhya-Kārikā 14-15"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvara-krsna/samkhya-karika/9",
+          "locus_short": "SK 9"
+        },
+        {
+          "cite": "cite://isvara-krsna/samkhya-karika/14-15",
+          "locus_short": "SK 14-15"
+        }
+      ]
+    },
+    {
+      "school": "Yoga",
+      "definition": "Yoga inherits the Sāṃkhya understanding of causation: the guṇas are a kārya-kāraṇātmaka continuum, and kaivalya is described through their reabsorption once their work for puruṣa is complete. [cite://vyasa-bhasya/yoga-sutra-bhasya/4.34] Accordingly, the effect-side is not eliminated as sheer non-being; it is resolved by pratiprasava when puruṣārtha is exhausted. [cite://vyasa-bhasya/yoga-sutra-bhasya/4.34]",
+      "primary_loci": [
+        "Yoga-Sūtra-Bhāṣya on YS 4.34"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vyasa-bhasya/yoga-sutra-bhasya/4.34",
+          "locus_short": "YBh on YS 4.34"
+        }
+      ]
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "Nyāya-Vaiśeṣika treats kārya as the produced and non-eternal side of the causal relation, and locates cause and effect in samavāya rather than in a merely latent identity. [cite://kanada/vaisesika-sutra/1.1.7; cite://kanada/vaisesika-sutra/7.2.29] Vātsyāyana glosses the produced item as what comes to be after prior non-being, exemplified by ghaṭa and other effects, which is the classical anti-satkārya orientation of the tradition. [cite://vatsyayana/nyaya-sutra-bhasya/5.1.37]",
+      "primary_loci": [
+        "Vaiśeṣika-Sūtra 1.1.7",
+        "Vaiśeṣika-Sūtra 7.2.29",
+        "Nyāya-Sūtra-Bhāṣya on 5.1.37"
+      ],
+      "citations": [
+        {
+          "cite": "cite://kanada/vaisesika-sutra/1.1.7",
+          "locus_short": "VS 1.1.7"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/7.2.29",
+          "locus_short": "VS 7.2.29"
+        },
+        {
+          "cite": "cite://vatsyayana/nyaya-sutra-bhasya/5.1.37",
+          "locus_short": "NSBh 5.1.37"
+        }
+      ]
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "In Pūrva-Mīmāṃsā, kārya is characteristically the śāstra-specified thing to be done: a ritual item or act has its own nirdiṣṭa kārya, so the term is primarily injunctive rather than a generic metaphysical label for produced objects. [cite://shabara/shabara-bhasya/7.3.31] Śabara accordingly frames sacrificial discussion as asking what is to be effected by the yāga and teaches the production of apūrva through sacrifice, which is the school's operative sense of ritual kārya. [cite://shabara/shabara-bhasya/7.4.1]",
+      "primary_loci": [
+        "Śabara-Bhāṣya on MS 7.3.31",
+        "Śabara-Bhāṣya on MS 7.4.1"
+      ],
+      "citations": [
+        {
+          "cite": "cite://shabara/shabara-bhasya/7.3.31",
+          "locus_short": "ŚBh on MS 7.3.31"
+        },
+        {
+          "cite": "cite://shabara/shabara-bhasya/7.4.1",
+          "locus_short": "ŚBh on MS 7.4.1"
+        }
+      ]
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "Mādhyamaka does not grant kārya independent svabhāva: to reify effect and cause is already to obstruct dependent origination. [cite://nagarjuna/mula-madhyamaka-karika/24.17; cite://nagarjuna/mula-madhyamaka-karika/24.18] Kārya therefore survives only as a dependent designation within pratītyasamutpāda, not as a self-grounded product. [cite://nagarjuna/mula-madhyamaka-karika/24.18; cite://nagarjuna/mula-madhyamaka-karika/24.19]",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 24.17-19"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.17",
+          "locus_short": "MMK 24.17"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.18",
+          "locus_short": "MMK 24.18"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.19",
+          "locus_short": "MMK 24.19"
+        }
+      ]
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "In the epistemological Yogācāra wing, Dharmakīrti ties what is accepted as svalakṣaṇa to causal efficacy: that which is designated as kārya-kāraṇa is the real particular, while exclusions are secondary conceptual constructions. [cite://dharmakirti/pramana-varttika/3.172] Thus kārya marks efficacy at the level of the particular, not a persisting universal substrate. [cite://dharmakirti/pramana-varttika/3.172]",
+      "primary_loci": [
+        "Pramāṇavārttika 3.172"
+      ],
+      "citations": [
+        {
+          "cite": "cite://dharmakirti/pramana-varttika/3.172",
+          "locus_short": "PV 3.172"
+        }
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "Utpaladeva recasts kāryakāraṇatā in terms of manifestation: the inert has no power to bring the existent forth from the non-manifest, so causality is referred back to conscious agency. [cite://utpaladeva/ishvara-pratyabhijna-karika/2.4.2] The ĪPV gloss therefore identifies kāraṇatva with kartṛtva and kāryatva with karmatva, making cause and effect moments within Śiva's self-expression rather than externally related things. [cite://utpaladeva/ishvara-pratyabhijna-karika/2.4.2]",
+      "primary_loci": [
+        "Īśvara-Pratyabhijñā-Kārikā 2.4.2 with ĪPV"
+      ],
+      "citations": [
+        {
+          "cite": "cite://utpaladeva/ishvara-pratyabhijna-karika/2.4.2",
+          "locus_short": "IPK 2.4.2"
+        }
+      ]
+    },
+    {
+      "school": "Jainism",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Tattvārtha-Sūtra inspected, but no explicit kārya-locus was secured for this extraction"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "The school genuinely treats kārya, but no on-disk Aṣṭādhyāyī, Mahābhāṣya, or Vākyapadīya locus is available in this corpus"
+      ],
+      "citations": []
     }
   ],
-  "see_also": ["karma", "kriya", "kartr", "karana", "satkarya-vada", "parinama", "vivarta", "avikrta-parinama"],
+  "see_also": [
+    "karma",
+    "kriya",
+    "kartr",
+    "karana",
+    "satkarya-vada",
+    "parinama",
+    "vivarta",
+    "avikrta-parinama"
+  ],
   "translator_note": "'Effect' is the standard gloss but disguises the ontological commitments. Saying 'effect' in English imports a Humean or post-Cartesian event-sequence picture; *kārya* is much more loaded — it presupposes a position on whether the produced is genuinely new (Vaiśeṣika) or pre-existed in latent form (Sāṃkhya/Vedānta). The other common error is conflating *kārya* with *karman*: *karman* is the patient-role within the act-grammar; *kārya* is the metaphysical effect-side of the cause-effect relation. They overlap (both are 'that which is to be done') but have different technical homes."
 }
