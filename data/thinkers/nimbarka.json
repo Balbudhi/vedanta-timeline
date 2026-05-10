@@ -65,7 +65,8 @@
         "dasa-shloki-4__krsna-param-brahma",
         "dasa-shloki-5__radha-vama-bhaga"
       ],
-      "entry_status": "reviewed"
+      "entry_status": "reviewed",
+      "source_status": "Sanskrit text not on disk in clean form; the wave-2 Vrindavan 1905 three-commentary edition does not contain the Dasa-Sloki separately. Citations should be sourced via Roma Bose 1940 Vedanta-Parijata-Saurabha vol 1 introduction, OR via Bhandarkar 1913, Vaisnavism, Saivism and Minor Religious Systems."
     }
   ],
   "key_passages": [
@@ -736,8 +737,8 @@
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-opus",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-acquisition-opus",
   "polemic_chain_ids": [
     "acintya-shakti-defense"
   ]

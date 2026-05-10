@@ -87,7 +87,8 @@
       "language": "sanskrit",
       "summary": "Independent *prakaraṇa* in five chapters devoted to the systematic exposition of *jīvanmukti*, liberation in this very life. Vidyāraṇya treats it as a precise technical state, not a metaphor. Avidyā has been removed by *brahma-jñāna*; *prārabdha-karma* sustains the body until exhausted; *vāsanā-kṣaya* and *manonāśa*, drawn programmatically from the *Yoga-Vāsiṣṭha*, are required for the cessation of residual mental activity. He distinguishes *vidvat-sannyāsa* (renunciation following the rise of knowledge) from *vividiṣā-sannyāsa* (renunciation as a means to its rise) and defends the legitimacy of *jīvanmukti* against opponents who would defer liberation to *videhamukti*. Yoga, *Yoga-Vāsiṣṭha*, and Pātañjala technical vocabulary are integrated into the Advaita framework. *Jīvanmukti* is treated as the proximate goal of spiritual practice. The work is the principal Advaita reference on the topic and the source for much of the modern Advaita understanding of the relation between knowledge, action, and continuing embodiment.",
       "key_passage_ids": [],
-      "entry_status": "reviewed"
+      "entry_status": "reviewed",
+      "source_status": "Sanskrit text not on disk in clean form; the Subrahmanya Sastri 1935/1978 Adyar Library edition is image-only on archive.org. Sanskrit-IAST verbatim citations are demoted to secondary-attestation via Andrew Fort, Jivanmukti in Transformation (SUNY 1998) or Robert A. Goodding, The Jivanmuktiviveka of Vidyaranya (Brill 2013)."
     },
     {
       "work_id": "vivarana-prameya-samgraha",
@@ -753,6 +754,6 @@
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-acquisition-opus"
 }

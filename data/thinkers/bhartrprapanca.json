@@ -13,7 +13,10 @@
   "sub_school": "Proto-Bhedābheda",
   "sub_school_shade": 1,
   "lineage_in": [],
-  "lineage_out": ["bhaskara", "yadava-prakasa"],
+  "lineage_out": [
+    "bhaskara",
+    "yadava-prakasa"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "sankara",
@@ -39,7 +42,8 @@
         "bu-1-4-10__aham-brahmasmi-and-no-radical-other",
         "bu-2-4-5-1-4-15__sravana-manana-nididhyasana-upasana"
       ],
-      "entry_status": "reviewed"
+      "entry_status": "reviewed",
+      "source_status": "Sanskrit text not on disk in clean form; every fragment is cited via Hiriyanna 1924 Indian Antiquary vol 53 reconstruction (image-only PDF on disk) and further-attested via Nakamura 1983, A History of Early Vedanta Philosophy I.7."
     }
   ],
   "key_passages": [
@@ -638,6 +642,6 @@
   "comparative_claim_ids": [],
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-acquisition-opus"
 }
