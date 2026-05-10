@@ -67,3 +67,14 @@ What can be said securely about Jayatīrtha at this locus comes from local paral
 ## Editorial closing
 
 What this opening settles, even in fallback form, is the orientation of the whole commentary. The inquiry announced at `BSB` 1.1.1 is not neutral between Vedāntic possibilities. In Jayatīrtha's local profile and in the parallel opening of the *Nyāya-Sudhā*, it already points toward a realist, Viṣṇu-centered reading of *brahman* and toward the scholastic fixing of Madhva's exegesis against rival construals. What it does not yet settle is the full scriptural and inferential case by which that reading will be carried through the commentary. Those later determinations are taken up, within the same work, at the *ānanda-mayādhikaraṇa* (`BSB` 1.1.12-19) and the *aṃśa-adhikaraṇa* (`BSB` 2.3.43). In Jayatīrtha's wider corpus the same architecture is formalized more fully in the *Nyāya-Sudhā* on *Anuvyākhyāna* 1.1 and 2.3.43-44, while Vyāsatīrtha's *Tātparya-Candrikā* presupposes this settlement when it builds the next layer of Mādhva exegesis on `BSB` 1.1.1 and `BSB` 2.3.43.
+
+---
+
+## Source-Quality Audit (v1, 2026-05-10)
+
+This file was reviewed in the v1 source-integrity audit (`site/docs/SOURCE_AUDIT_v1.md`).
+
+- The Sanskrit base witness for the root *Brahma-Sūtra* line (`vedanta/brahma_sutra_alt.txt`) is **CLEAN**.
+- The originally-cited Madhva *Brahma-Sūtra-Bhāṣya* archive PDFs (`madhva_brahma_sutra_bhasya_vol{1,2,3}_archive.pdf`) are **IMAGE-ONLY** under the embedded-text probe. They were preserved on disk, but no extraction can be claimed from them.
+- A replacement was acquired in `materials/primary_texts/sanskrit/_replaced/`: the Madhva BSB with three commentaries (Tattva-Prakāśikā by Jayatīrtha, Tātparya-Candrikā, Pariṃala) is now available as `madhva_brahma_sutra_bhasya_3comm_vol{1,2,3}_archive_djvu.txt` (Devanāgarī body recovered from archive.org djvu OCR; verse-level verification still required before any verbatim quotation).
+- The honest "Text-Recovery Status" already in this file reflects the source-state correctly. The recommended next step is a Codex-driven re-extraction of the *Tattva-Prakāśikā* opening adhikaraṇa from the new replacement files, with verse-level verification against a printed Bannanje or Govindacharya edition before publication.
