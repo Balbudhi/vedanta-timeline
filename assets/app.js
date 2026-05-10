@@ -205,7 +205,11 @@ function setViewMode(mode) {
     b.classList.toggle("is-active", on);
     b.setAttribute("aria-selected", on ? "true" : "false");
   });
-  rerender();
+  // Re-center on the dense period after layout swap.
+  state.hasInitialScroll = false;
+  renderAll();
+  renderFilterChips();
+  scrollToInitialFocus();
 }
 
 // ---------- loaders -----------
@@ -937,13 +941,14 @@ function wirePanZoom() {
       if (newPpy === oldPpy) return;
       // anchor zoom on cursor x position
       const rect = scroller.getBoundingClientRect();
-      const cursorX = e.clientX - rect.left + scroller.scrollLeft - LANE_RAIL_W;
+      const railOffset = state.viewMode === "network" ? 0 : LANE_RAIL_W;
+      const cursorX = e.clientX - rect.left + scroller.scrollLeft - railOffset;
       const yearAtCursor = state.range.low + cursorX / state.pxPerYear;
       state.pxPerYear = newPpy;
       computeLayout();
       renderAll();
       const newCursorX = (yearAtCursor - state.range.low) * state.pxPerYear;
-      scroller.scrollLeft = newCursorX - (e.clientX - rect.left) + LANE_RAIL_W;
+      scroller.scrollLeft = newCursorX - (e.clientX - rect.left) + railOffset;
     } else if (e.shiftKey) {
       e.preventDefault();
       scroller.scrollLeft += e.deltaY;
@@ -983,8 +988,9 @@ function scrollDotIntoView(t) {
   if (!p) return;
   const paneW = scroller.clientWidth;
   const paneH = scroller.clientHeight;
+  const railOffset = state.viewMode === "network" ? 0 : LANE_RAIL_W;
   // horizontal: center the dot
-  const desiredLeft = Math.max(0, p.x - paneW / 2 + LANE_RAIL_W);
+  const desiredLeft = Math.max(0, p.x - paneW / 2 + railOffset);
   // vertical: center the lane
   const desiredTop = Math.max(0, p.y - paneH / 2 + ERA_STRIP_H);
   scroller.scrollTo({ left: desiredLeft, top: desiredTop, behavior: "smooth" });
