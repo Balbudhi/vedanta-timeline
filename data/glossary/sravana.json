@@ -1,0 +1,22 @@
+{
+  "term_key": "sravana",
+  "term_iast": "śravaṇa",
+  "term_devanagari": "श्रवण",
+  "literal": "hearing, listening; from √śru 'to hear'",
+  "aliases": ["sravana", "śravaṇa", "Śravaṇa", "śravaṇaṃ", "shravana"],
+  "invariant_definition": "The first stage of the threefold liberating practice (*śravaṇa-manana-nididhyāsana*) prescribed in *Bṛhadāraṇyaka* 2.4.5 (Yājñavalkya to Maitreyī). *Śravaṇa* is the receptive hearing of *vedānta-vākya* from a qualified *guru*. All Vedāntic schools accept the threefold sequence as the basic structure of *sādhana*; they differ in the relative emphasis (Advaita stresses *śravaṇa* as the proximate cause of *brahma-jñāna*; Viśiṣṭādvaita treats the entire sequence as *upāsana*; Dvaita treats *śravaṇa* as the entry-point to graded *bhakti-jñāna*).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Śravaṇa* — receptive hearing of the *vedānta-vākya* through *guru*-mediation — is foregrounded as the proximate occasion for the *mahāvākya*-cognition that produces *akhaṇḍākāra-vṛtti*. *Manana* removes doubts; *nididhyāsana* removes obstructive *pratibandhakas* (residual identification with body-mind).",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 4.1.1–2", "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 2.4.5", "Naiṣkarmya-Siddhi 1"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Śravaṇa-manana-nididhyāsana* together constitute *upāsana*; the entire sequence is the path, not just *śravaṇa*. Continuity and intensity matter more than any single moment.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§137–144", "Śrī-Bhāṣya 1.1.1"]
+    }
+  ],
+  "see_also": ["manana", "nididhyasana", "guru", "mahavakya", "upasana"],
+  "translator_note": "'Hearing' captures the literal sense. 'Receptive study' captures the technical sense. The threefold sequence should be preserved as a single technical apparatus."
+}

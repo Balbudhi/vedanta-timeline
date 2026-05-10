@@ -1,0 +1,22 @@
+{
+  "term_key": "videhamukti",
+  "term_iast": "videha-mukti",
+  "term_devanagari": "विदेहमुक्ति",
+  "literal": "bodiless liberation; videha (without body) + mukti",
+  "aliases": ["videhamukti", "videha-mukti", "videhamukta", "Videhamukti"],
+  "invariant_definition": "Liberation attained at the falling-away of the body — the standard *post-mortem* liberation of all schools. In Advaita, *videha-mukti* is the second moment of liberation following *jīvanmukti* (the *prārabdha*-residue exhausts itself with the body). In Viśiṣṭādvaita, Dvaita, and Vaiṣṇava bhedābheda, *videha-mukti* is the only liberation; the soul ascends to Vaikuṇṭha or its analogue.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "The exhaustion of *prārabdha-karma* with the body's death; for the *jīvanmukta* this is merely the cessation of phenomenal continuance. For the non-*jīvanmukta jñāni* it is the moment of liberation proper.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 4.1.15", "Naiṣkarmya-Siddhi 4"]
+    },
+    {
+      "school": "Viśiṣṭādvaita / Dvaita",
+      "definition": "The unique liberation: the soul leaves the body, traverses the *arcirādi-mārga* (the path of light), and reaches Vaikuṇṭha (V) or the appropriate *taratamya*-graded abode (D).",
+      "primary_loci": ["Śrī-Bhāṣya 4.3, 4.4", "Brahma-Sūtra-Bhāṣya (Madhva) 4.3"]
+    }
+  ],
+  "see_also": ["jivanmukta", "moksa", "prarabdha", "vaikuntha", "arciradi-marga"],
+  "translator_note": "'Post-mortem liberation' or 'bodiless liberation' both acceptable."
+}

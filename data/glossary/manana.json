@@ -1,0 +1,17 @@
+{
+  "term_key": "manana",
+  "term_iast": "manana",
+  "term_devanagari": "मनन",
+  "literal": "thinking, reflection; from √man 'to think'",
+  "aliases": ["manana", "Manana", "mananam"],
+  "invariant_definition": "The second stage of *śravaṇa-manana-nididhyāsana*: reflective thinking on what has been heard, removing doubts (*saṃśayas*) by *yukti* (reasoning) consistent with *śruti*. All Vedāntic schools accept *manana* as the doubt-removal stage; the differences reduce to those flagged under *śravaṇa*.",
+  "per_school": [
+    {
+      "school": "Advaita / Viśiṣṭādvaita / Dvaita",
+      "definition": "*Manana* is the application of *yukti* (reasoning) consistent with *śruti* to remove doubts about what has been heard. Distinct from independent reasoning (*tarka*-alone), which Advaita explicitly limits.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 4.1.1–2", "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 2.4.5"]
+    }
+  ],
+  "see_also": ["sravana", "nididhyasana", "tarka", "yukti"],
+  "translator_note": "'Reflection' or 'reflective inquiry' both acceptable."
+}
