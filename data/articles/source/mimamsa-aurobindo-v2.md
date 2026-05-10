@@ -210,3 +210,9 @@ The integral-yoga thesis — that integral yoga is the modern Mīmāṃsā in th
 - Othmar Gächter, *Hermeneutics and Language in Pūrva-Mīmāṃsā*, Motilal 1990 (referenced; not on disk).
 - Daniel Arnold, *Buddhists, Brahmins, and Belief: Epistemology in South Asian Philosophy of Religion*, Columbia 2005 (referenced; not on disk).
 - Erich Frauwallner, *Geschichte der indischen Philosophie* (Bedekar tr. *History of Indian Philosophy* vol. II, Motilal 1973), on Mīmāṃsā as a metaphysics of action.
+
+---
+
+## Note on the secondary-literature spine
+
+Francis X. Clooney has been added to the corpus as a cross-tradition source (`data/thinkers/clooney.json`); his works can now be cited from any thinker entry. The secondary-literature spine of the present article — the case that Mīmāṃsā carries an interior register that the Vedāntic and modern academic receptions have systematically downplayed — is grounded in Clooney's reading of Pūrva-Mīmāṃsā in *Thinking Ritually* (1990) and the sharper 2022 encyclopedia identification of Mīmāṃsā as introspective literature. The depth-reading the article defends is not Clooney's; the academic precedent for treating the Mīmāṃsā corpus as having a substantive interior register, on which the depth-reading depends, is.
