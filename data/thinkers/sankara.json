@@ -43,7 +43,10 @@
       "genre": "sutra-bhashya",
       "language": "sanskrit",
       "summary": "The school-defining *bhāṣya* on Bādarāyaṇa's Brahma-Sūtra, organized by the four *adhyāyas* and their *pādas*. The work opens with the *adhyāsa-bhāṣya* — Śaṅkara's prefatory analysis of *adhyāsa* (superimposition) as the universal pre-philosophical condition that makes ordinary cognition and Vedic injunction possible. Major doctrinal loci: 1.1.4 (*tat tu samanvayāt*) — the argument that *brahman* is the *tātparya* (purport) of all Upaniṣadic statements, against Mīmāṃsaka *karma-pradhānya*; 2.1 — refutation of Sāṅkhya *pradhāna* and the *pariṇāma-vāda* alternative, defense of *vivarta*; 2.2 — refutation of Vaiśeṣika atomism, Buddhist schools (Vijñānavāda, Sautrāntika, Vaibhāṣika, Mādhyamika), Jaina *anekānta*, Pāśupata, Pāñcarātra; 3.2 — the analysis of *avasthā* (states) and the *jīva*'s identity with *brahman*; 4 — *kramamukti*, *jīvanmukti*, the trajectory of the knower. Securely authored; the cornerstone of every later Advaita sub-school.",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "mandukya-7__turiya-negation-and-advaita",
+        "gk-2-32__paramarthika-non-origination"
+      ],
       "entry_status": "reviewed"
     },
     {
@@ -62,7 +65,10 @@
       "genre": "gita-bhashya",
       "language": "sanskrit",
       "summary": "Śaṅkara's prose *bhāṣya* on the *Bhagavad-Gītā* — the principal Vedānta Gītā-commentary and the textual anchor that establishes the *Gītā* as a *prasthāna* on equal footing with *Upaniṣad* and *Brahma-Sūtra*. The work opens with a celebrated *upodghāta* arguing that the *Gītā*'s purport (*tātparya*) is *jñāna*-mediated *mokṣa* and that *karma* and *jñāna* belong to mutually exclusive *adhikāra*-orders — *karma* being preparatory, never co-instrumental in the rise of liberating cognition. Major doctrinal loci include the analysis of *sāṃkhya*/*yoga* in chapter 2, the resolution of the apparent *karma*-injunction at 3.8 (*niyataṃ kuru karma*) as addressed to the still-unprepared seeker, the reading of *kṣetra-kṣetrajña* (chapter 13) as the *adhyāsa*-structure of cognition, and the chapter-15 analysis of the *puruṣottama* as identical to *nirguṇa Brahman* under devotional aspect. The *bhāṣya* fixes the *jñāna-niṣṭhā* / *karma-niṣṭhā* polarity that every later Vedāntin — Bhāskara, Rāmānuja, Madhva — must contest or accept.",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "ups-i-11-15__moksa-jnana-hetutva",
+        "ups-i-17-7-9__avidya-veda-and-ekatva"
+      ],
       "entry_status": "reviewed"
     },
     {
@@ -340,10 +346,1150 @@
       "entry_status": "reviewed"
     }
   ],
-  "key_passages": [],
+  "key_passages": [
+    {
+      "passage_id": "ups-i-11-15__moksa-jnana-hetutva",
+      "work_id": "upadesa-sahasri",
+      "locus_short": "UpS I.11.15",
+      "locus_long": "Upadeśa-Sāhasrī, Padya I, prakaraṇa 11, verse 15",
+      "locus_structured": {
+        "chapter": "I",
+        "section": 11,
+        "verse": 15,
+        "other": {
+          "division": "padya"
+        }
+      },
+      "sanskrit_iast": "na tato 'mṛtatāśāsti /\nkarmaṇo 'jñānahetutaḥ /\nmokṣasya jñānahetutvān /\nna tadanyad apekṣate //",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "tataḥ",
+            "stem": "tad",
+            "pratyaya": "-tas",
+            "morphology": "abl sg neut used adverbially",
+            "gloss": "from that"
+          },
+          {
+            "pada": "amṛtatāśā",
+            "stem": "amṛtatā-āśā",
+            "pratyaya": "-ā",
+            "morphology": "nom sg fem",
+            "gloss": "hope for immortality"
+          },
+          {
+            "pada": "asti",
+            "stem": "as",
+            "pratyaya": "-ti",
+            "morphology": "3sg pres ind P",
+            "gloss": "is"
+          },
+          {
+            "pada": "karmaṇaḥ",
+            "stem": "karman",
+            "pratyaya": "-ṇaḥ",
+            "morphology": "abl sg neut",
+            "gloss": "from action"
+          },
+          {
+            "pada": "ajñānahetutaḥ",
+            "stem": "ajñāna-hetutā",
+            "morphology": "abl adv",
+            "gloss": "because it has ignorance as its cause"
+          },
+          {
+            "pada": "mokṣasya",
+            "stem": "mokṣa",
+            "pratyaya": "-sya",
+            "morphology": "gen sg masc",
+            "gloss": "of mokṣa"
+          },
+          {
+            "pada": "jñānahetutvāt",
+            "stem": "jñāna-hetutva",
+            "pratyaya": "-āt",
+            "morphology": "abl sg neut",
+            "gloss": "because of having knowledge as its cause"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "tadanyat",
+            "stem": "tad-anya",
+            "pratyaya": "-am",
+            "morphology": "acc sg neut",
+            "gloss": "anything else"
+          },
+          {
+            "pada": "apekṣate",
+            "stem": "apa-īkṣ",
+            "pratyaya": "-te",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "depends on"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "amṛtatāśā",
+            "type": "tatpurusha",
+            "resolution": "amṛtatāyā āśā"
+          },
+          {
+            "compound": "ajñānahetutaḥ",
+            "type": "tatpurusha",
+            "resolution": "ajñānaṃ hetur asya"
+          },
+          {
+            "compound": "jñānahetutvāt",
+            "type": "tatpurusha",
+            "resolution": "jñānaṃ hetur asya bhāvaḥ"
+          },
+          {
+            "compound": "tadanyat",
+            "type": "tatpurusha",
+            "resolution": "tat anyat"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "kartṛ",
+            "pada": "amṛtatāśā",
+            "note": "Subject of asti."
+          },
+          {
+            "role": "sambandha",
+            "pada": "karmaṇaḥ",
+            "note": "Ablative source-domain: 'from action'."
+          },
+          {
+            "role": "sambandha",
+            "pada": "ajñānahetutaḥ",
+            "note": "Ablative of reason explaining why karma cannot yield immortality."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "mokṣaḥ",
+            "note": "Implicit subject understood from mokṣasya in the second hemistich."
+          },
+          {
+            "role": "karman",
+            "pada": "tadanyat",
+            "note": "Object not depended upon."
+          },
+          {
+            "role": "sambandha",
+            "pada": "jñānahetutvāt",
+            "note": "Ablative of reason: mokṣa has jñāna as its causal condition."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "asti",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          },
+          {
+            "pada": "apekṣate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "middle"
+          }
+        ]
+      },
+      "english_close": "From that there is no hope of immortality, because action has ignorance as its cause; because mokṣa has knowledge as its cause, it does not depend on anything else.",
+      "preserved_terms": [
+        {
+          "term_iast": "karma",
+          "first_use_gloss": "(roughly: action, especially prescribed ritual or duty)"
+        },
+        {
+          "term_iast": "mokṣa",
+          "first_use_gloss": "(roughly: liberation from saṃsāra)"
+        },
+        {
+          "term_iast": "jñāna",
+          "first_use_gloss": "(roughly: liberating knowledge)"
+        }
+      ],
+      "why_this_passage": "This is not a stray maxim but a causal thesis in miniature: Śaṅkara explicitly ties karma to the ignorance-governed order and mokṣa to jñāna alone. It fairly represents his position because the denial of jñāna-karma-samuccaya is a standing commitment across his secure corpus, and here it is stated without dependence on later sub-school terminology.",
+      "topic_tags": [
+        "soteriology",
+        "ethics-devotion"
+      ],
+      "sub_axes": [
+        "effective-means-of-moksa",
+        "status-of-karma"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "GRETIL plaintext of Upadeśasāhasrī based on Sengaku Mayeda, Śaṅkara's Upadeśasāhasrī, vol. 1 (Delhi: Motilal Banarsidass, 2006; 1st ed. Tokyo, 1973), materials/primary_texts/sanskrit/vedanta/full_corpus/shankara_upadesa_sahasri_gretil.txt.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "ups-i-17-7-9__avidya-veda-and-ekatva",
+      "work_id": "upadesa-sahasri",
+      "locus_short": "UpS I.17.7-9",
+      "locus_long": "Upadeśa-Sāhasrī, Padya I, prakaraṇa 17, verses 7-9",
+      "locus_structured": {
+        "chapter": "I",
+        "section": 17,
+        "verse": "7-9",
+        "other": {
+          "division": "padya"
+        }
+      },
+      "sanskrit_iast": "anyadṛṣṭis tv avidyā syāt /\ntannāśo mokṣa ucyate /\njñānenaiva tu so 'pi syād /\nvirodhitvān na karmaṇā //\n\nkarmakāryas tv anityaḥ syād /\navidyākāmakāraṇaḥ /\npramāṇaṃ veda evātra /\njñānasyādhigame smṛtaḥ //\n\njñānaikārthaparatvāt taṃ /\nvākyam ekaṃ tato viduḥ /\nekatvaṃ hy ātmano jñeyaṃ /\nvākyārthapratipattitaḥ //",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "anyadṛṣṭiḥ",
+            "stem": "anya-dṛṣṭi",
+            "pratyaya": "-ḥ",
+            "morphology": "nom sg fem",
+            "gloss": "the seeing of something else"
+          },
+          {
+            "pada": "tu",
+            "stem": "tu",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "avidyā",
+            "stem": "avidyā",
+            "pratyaya": "-ā",
+            "morphology": "nom sg fem",
+            "gloss": "ignorance"
+          },
+          {
+            "pada": "syāt",
+            "stem": "as",
+            "pratyaya": "-yāt",
+            "morphology": "3sg opt P",
+            "gloss": "would be"
+          },
+          {
+            "pada": "tannāśaḥ",
+            "stem": "tat-nāśa",
+            "pratyaya": "-ḥ",
+            "morphology": "nom sg masc",
+            "gloss": "the destruction of that"
+          },
+          {
+            "pada": "mokṣaḥ",
+            "stem": "mokṣa",
+            "pratyaya": "-ḥ",
+            "morphology": "nom sg masc",
+            "gloss": "liberation"
+          },
+          {
+            "pada": "ucyate",
+            "stem": "vac",
+            "pratyaya": "-yate",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "is called"
+          },
+          {
+            "pada": "jñānena",
+            "stem": "jñāna",
+            "pratyaya": "-ena",
+            "morphology": "instr sg neut",
+            "gloss": "by knowledge"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "alone"
+          },
+          {
+            "pada": "tu",
+            "stem": "tu",
+            "morphology": "indecl",
+            "gloss": "but"
+          },
+          {
+            "pada": "saḥ",
+            "stem": "tad",
+            "pratyaya": "-ḥ",
+            "morphology": "nom sg masc",
+            "gloss": "that"
+          },
+          {
+            "pada": "api",
+            "stem": "api",
+            "morphology": "indecl",
+            "gloss": "also"
+          },
+          {
+            "pada": "syāt",
+            "stem": "as",
+            "pratyaya": "-yāt",
+            "morphology": "3sg opt P",
+            "gloss": "would come to be"
+          },
+          {
+            "pada": "virodhitvāt",
+            "stem": "virodhitva",
+            "pratyaya": "-āt",
+            "morphology": "abl sg neut",
+            "gloss": "because of opposition"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "karmaṇā",
+            "stem": "karman",
+            "pratyaya": "-ṇā",
+            "morphology": "instr sg neut",
+            "gloss": "by action"
+          },
+          {
+            "pada": "karmakāryaḥ",
+            "stem": "karma-kārya",
+            "pratyaya": "-ḥ",
+            "morphology": "nom sg masc",
+            "gloss": "what is produced by action"
+          },
+          {
+            "pada": "tu",
+            "stem": "tu",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "anityaḥ",
+            "stem": "anitya",
+            "pratyaya": "-ḥ",
+            "morphology": "nom sg masc",
+            "gloss": "impermanent"
+          },
+          {
+            "pada": "syāt",
+            "stem": "as",
+            "pratyaya": "-yāt",
+            "morphology": "3sg opt P",
+            "gloss": "would be"
+          },
+          {
+            "pada": "avidyākāmakāraṇaḥ",
+            "stem": "avidyā-kāma-kāraṇa",
+            "pratyaya": "-ḥ",
+            "morphology": "nom sg masc",
+            "gloss": "having ignorance and desire as its causes"
+          },
+          {
+            "pada": "pramāṇam",
+            "stem": "pramāṇa",
+            "pratyaya": "-am",
+            "morphology": "acc sg neut",
+            "gloss": "the means of valid knowledge"
+          },
+          {
+            "pada": "vedaḥ",
+            "stem": "veda",
+            "pratyaya": "-ḥ",
+            "morphology": "nom sg masc",
+            "gloss": "the Veda"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "alone"
+          },
+          {
+            "pada": "atra",
+            "stem": "atra",
+            "morphology": "indecl",
+            "gloss": "here"
+          },
+          {
+            "pada": "jñānasya",
+            "stem": "jñāna",
+            "pratyaya": "-sya",
+            "morphology": "gen sg neut",
+            "gloss": "of knowledge"
+          },
+          {
+            "pada": "adhigame",
+            "stem": "adhigama",
+            "pratyaya": "-e",
+            "morphology": "loc sg masc",
+            "gloss": "in the attainment"
+          },
+          {
+            "pada": "smṛtaḥ",
+            "stem": "smṛ",
+            "pratyaya": "-taḥ",
+            "morphology": "ppp nom sg masc",
+            "gloss": "is held"
+          },
+          {
+            "pada": "jñānaikārthaparatvāt",
+            "stem": "jñāna-eka-artha-paratva",
+            "pratyaya": "-āt",
+            "morphology": "abl sg neut",
+            "gloss": "because of being directed to one purport, namely knowledge"
+          },
+          {
+            "pada": "tam",
+            "stem": "tad",
+            "pratyaya": "-am",
+            "morphology": "acc sg neut",
+            "gloss": "that"
+          },
+          {
+            "pada": "vākyam",
+            "stem": "vākya",
+            "pratyaya": "-am",
+            "morphology": "acc sg neut",
+            "gloss": "sentence"
+          },
+          {
+            "pada": "ekam",
+            "stem": "eka",
+            "pratyaya": "-am",
+            "morphology": "acc sg neut",
+            "gloss": "one, unitary"
+          },
+          {
+            "pada": "tataḥ",
+            "stem": "tad",
+            "pratyaya": "-tas",
+            "morphology": "abl sg neut used adverbially",
+            "gloss": "therefore"
+          },
+          {
+            "pada": "viduḥ",
+            "stem": "vid",
+            "pratyaya": "-uḥ",
+            "morphology": "3pl pres ind P",
+            "gloss": "they know"
+          },
+          {
+            "pada": "ekatvam",
+            "stem": "ekatva",
+            "pratyaya": "-am",
+            "morphology": "acc sg neut",
+            "gloss": "oneness"
+          },
+          {
+            "pada": "hi",
+            "stem": "hi",
+            "morphology": "indecl",
+            "gloss": "for"
+          },
+          {
+            "pada": "ātmanaḥ",
+            "stem": "ātman",
+            "pratyaya": "-aḥ",
+            "morphology": "gen sg masc",
+            "gloss": "of the self"
+          },
+          {
+            "pada": "jñeyam",
+            "stem": "jñā",
+            "pratyaya": "-eyam",
+            "morphology": "gerundive acc sg neut",
+            "gloss": "to be known"
+          },
+          {
+            "pada": "vākyārthapratipattitaḥ",
+            "stem": "vākyārtha-pratipatti",
+            "pratyaya": "-tas",
+            "morphology": "abl sg fem used adverbially",
+            "gloss": "from understanding the sentence-meaning"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "anyadṛṣṭiḥ",
+            "type": "tatpurusha",
+            "resolution": "anyasya dṛṣṭiḥ"
+          },
+          {
+            "compound": "tannāśaḥ",
+            "type": "tatpurusha",
+            "resolution": "tasya nāśaḥ"
+          },
+          {
+            "compound": "karmakāryaḥ",
+            "type": "tatpurusha",
+            "resolution": "karmaṇaḥ kāryam"
+          },
+          {
+            "compound": "avidyākāmakāraṇaḥ",
+            "type": "other",
+            "resolution": "avidyā ca kāmaś ca kāraṇe yasya",
+            "note": "Serial causal compound qualifying karmakāryaḥ."
+          },
+          {
+            "compound": "jñānaikārthaparatvāt",
+            "type": "other",
+            "resolution": "jñānam eva eka arthaḥ; tasmin paratvaṃ yasya",
+            "note": "A compressed abstract compound: 'because it is oriented to the single purport of knowledge'."
+          },
+          {
+            "compound": "vākyārthapratipattitaḥ",
+            "type": "tatpurusha",
+            "resolution": "vākyasya arthasya pratipattitaḥ"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "kartṛ",
+            "pada": "anyadṛṣṭiḥ",
+            "note": "Subject of syāt."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "mokṣaḥ",
+            "note": "Predicate-nominative in passive with ucyate: 'is called mokṣa'."
+          },
+          {
+            "role": "karman",
+            "pada": "tannāśaḥ",
+            "note": "What is called mokṣa in the passive construction."
+          },
+          {
+            "role": "karaṇa",
+            "pada": "jñānena",
+            "note": "Instrument by which mokṣa comes about."
+          },
+          {
+            "role": "karaṇa",
+            "pada": "karmaṇā",
+            "note": "Excluded instrument: not by karma."
+          },
+          {
+            "role": "sambandha",
+            "pada": "virodhitvāt",
+            "note": "Ablative of reason: karma is opposed."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "karmakāryaḥ",
+            "note": "Subject of syāt in the second verse."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "vedaḥ",
+            "note": "Subject of the passive predicate smṛtaḥ."
+          },
+          {
+            "role": "sambandha",
+            "pada": "jñānasya",
+            "note": "Genitive relation with adhigame."
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "adhigame",
+            "note": "Domain in which the Veda functions as pramāṇa."
+          },
+          {
+            "role": "karman",
+            "pada": "tam vākyam ekam",
+            "note": "Object of viduḥ."
+          },
+          {
+            "role": "sambandha",
+            "pada": "vākyārthapratipattitaḥ",
+            "note": "Ablative source: from grasping the sentence-meaning."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "syāt",
+            "lakara": "vidhi-liṅ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "Occurs three times in the passage."
+          },
+          {
+            "pada": "ucyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive"
+          },
+          {
+            "pada": "viduḥ",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          }
+        ]
+      },
+      "english_close": "The seeing of something else would be avidyā; the destruction of that is called mokṣa, and that too would come only through jñāna, not through karma, because of the opposition [between them]. What is produced by karma would be impermanent, having avidyā and desire as its causes. Here the Veda alone is held to be the pramāṇa for the attainment of jñāna; because it is directed to a single purport, they therefore know that sentence to be one, for the oneness of the self is to be known from understanding the sentence-meaning.",
+      "preserved_terms": [
+        {
+          "term_iast": "avidyā",
+          "first_use_gloss": "(roughly: ignorance, misapprehension)"
+        },
+        {
+          "term_iast": "mokṣa",
+          "first_use_gloss": "(roughly: liberation from saṃsāra)"
+        },
+        {
+          "term_iast": "jñāna",
+          "first_use_gloss": "(roughly: liberating knowledge)"
+        },
+        {
+          "term_iast": "karma",
+          "first_use_gloss": "(roughly: action, especially prescribed ritual or duty)"
+        },
+        {
+          "term_iast": "pramāṇa",
+          "first_use_gloss": "(roughly: a valid means of knowledge)"
+        }
+      ],
+      "why_this_passage": "This passage is unusually useful because Śaṅkara connects four load-bearing claims in one place: difference-seeing is avidyā, mokṣa is its destruction, karma yields only the impermanent, and Vedic sentence-meaning is the pramāṇa for non-dual knowledge. That combination makes it a fair representation of his epistemology and not a cherry-picked slogan.",
+      "topic_tags": [
+        "epistemology",
+        "ontology",
+        "soteriology"
+      ],
+      "sub_axes": [
+        "number-and-status-of-pramanas",
+        "status-of-sruti",
+        "saving-cognition-status",
+        "jiva-brahman-relation"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "GRETIL plaintext of Upadeśasāhasrī based on Sengaku Mayeda, Śaṅkara's Upadeśasāhasrī, vol. 1 (Delhi: Motilal Banarsidass, 2006; 1st ed. Tokyo, 1973), materials/primary_texts/sanskrit/vedanta/full_corpus/shankara_upadesa_sahasri_gretil.txt.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "mandukya-7__turiya-negation-and-advaita",
+      "work_id": "mandukya-bhasya",
+      "locus_short": "MāṇḍU 7",
+      "locus_long": "Māṇḍūkya-Upaniṣad 7, as glossed in Śaṅkara's bhāṣya",
+      "locus_structured": {
+        "chapter": "upaniṣad",
+        "verse": 7,
+        "other": {
+          "text": "mantra"
+        }
+      },
+      "sanskrit_iast": "nāntaḥprajñaṃ na bahiḥprajñaṃ nobhayataḥprajñaṃ na prajñānaghanam /\nna prajñaṃ nāprajñam /\nadṛṣṭam avyavahāryam agrāhyam alakṣaṇam acintyam avyapadeśyam /\nekātmapratyayasāraṃ prapañcopaśamaṃ śāntaṃ śivam advaitaṃ caturthaṃ manyante /\nsa ātmā sa vijñeyaḥ //",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "antaḥprajñam",
+            "stem": "antaḥ-prajña",
+            "pratyaya": "-am",
+            "morphology": "acc sg neut",
+            "gloss": "inwardly cognizing"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "bahiḥprajñam",
+            "stem": "bahiḥ-prajña",
+            "pratyaya": "-am",
+            "morphology": "acc sg neut",
+            "gloss": "outwardly cognizing"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "ubhayataḥprajñam",
+            "stem": "ubhayataḥ-prajña",
+            "pratyaya": "-am",
+            "morphology": "acc sg neut",
+            "gloss": "cognizing both ways"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "prajñānaghanam",
+            "stem": "prajñāna-ghana",
+            "pratyaya": "-am",
+            "morphology": "acc sg neut",
+            "gloss": "a solid mass of cognition"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "prajñam",
+            "stem": "prajña",
+            "pratyaya": "-am",
+            "morphology": "acc sg neut",
+            "gloss": "cognizing"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "aprajñam",
+            "stem": "a-prajña",
+            "pratyaya": "-am",
+            "morphology": "acc sg neut",
+            "gloss": "non-cognizing"
+          },
+          {
+            "pada": "adṛṣṭam",
+            "stem": "a-dṛṣṭa",
+            "pratyaya": "-am",
+            "morphology": "acc sg neut",
+            "gloss": "unseen"
+          },
+          {
+            "pada": "avyavahāryam",
+            "stem": "a-vyavahārya",
+            "pratyaya": "-am",
+            "morphology": "acc sg neut",
+            "gloss": "not available for transaction"
+          },
+          {
+            "pada": "agrāhyam",
+            "stem": "a-grāhya",
+            "pratyaya": "-am",
+            "morphology": "acc sg neut",
+            "gloss": "not graspable"
+          },
+          {
+            "pada": "alakṣaṇam",
+            "stem": "a-lakṣaṇa",
+            "pratyaya": "-am",
+            "morphology": "acc sg neut",
+            "gloss": "without defining mark"
+          },
+          {
+            "pada": "acintyam",
+            "stem": "a-cintya",
+            "pratyaya": "-am",
+            "morphology": "acc sg neut",
+            "gloss": "unthinkable"
+          },
+          {
+            "pada": "avyapadeśyam",
+            "stem": "a-vyapadeśya",
+            "pratyaya": "-am",
+            "morphology": "acc sg neut",
+            "gloss": "not nameable"
+          },
+          {
+            "pada": "ekātmapratyayasāram",
+            "stem": "eka-ātma-pratyaya-sāra",
+            "pratyaya": "-am",
+            "morphology": "acc sg neut",
+            "gloss": "whose essence is the conviction of one self"
+          },
+          {
+            "pada": "prapañcopaśamam",
+            "stem": "prapañca-upaśama",
+            "pratyaya": "-am",
+            "morphology": "acc sg neut",
+            "gloss": "the cessation of phenomenal proliferation"
+          },
+          {
+            "pada": "śāntam",
+            "stem": "śānta",
+            "pratyaya": "-am",
+            "morphology": "acc sg neut",
+            "gloss": "peaceful"
+          },
+          {
+            "pada": "śivam",
+            "stem": "śiva",
+            "pratyaya": "-am",
+            "morphology": "acc sg neut",
+            "gloss": "auspicious"
+          },
+          {
+            "pada": "advaitam",
+            "stem": "a-dvaita",
+            "pratyaya": "-am",
+            "morphology": "acc sg neut",
+            "gloss": "non-dual"
+          },
+          {
+            "pada": "caturtham",
+            "stem": "caturtha",
+            "pratyaya": "-am",
+            "morphology": "acc sg neut",
+            "gloss": "the fourth"
+          },
+          {
+            "pada": "manyante",
+            "stem": "man",
+            "pratyaya": "-nte",
+            "morphology": "3pl pres ind Ā",
+            "gloss": "they consider"
+          },
+          {
+            "pada": "saḥ",
+            "stem": "tad",
+            "pratyaya": "-ḥ",
+            "morphology": "nom sg masc",
+            "gloss": "that"
+          },
+          {
+            "pada": "ātmā",
+            "stem": "ātman",
+            "pratyaya": "-ā",
+            "morphology": "nom sg masc",
+            "gloss": "self"
+          },
+          {
+            "pada": "saḥ",
+            "stem": "tad",
+            "pratyaya": "-ḥ",
+            "morphology": "nom sg masc",
+            "gloss": "that"
+          },
+          {
+            "pada": "vijñeyaḥ",
+            "stem": "vi-jñā",
+            "pratyaya": "-eyḥ",
+            "morphology": "gerundive nom sg masc",
+            "gloss": "is to be known"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "antaḥprajñam",
+            "type": "avyayibhava",
+            "resolution": "antaḥ prajñam"
+          },
+          {
+            "compound": "bahiḥprajñam",
+            "type": "avyayibhava",
+            "resolution": "bahiḥ prajñam"
+          },
+          {
+            "compound": "ubhayataḥprajñam",
+            "type": "avyayibhava",
+            "resolution": "ubhayataḥ prajñam"
+          },
+          {
+            "compound": "prajñānaghanam",
+            "type": "tatpurusha",
+            "resolution": "prajñānasya ghanaḥ"
+          },
+          {
+            "compound": "aprajñam",
+            "type": "negative-tatpurusha",
+            "resolution": "na prajñam"
+          },
+          {
+            "compound": "adṛṣṭam",
+            "type": "negative-tatpurusha",
+            "resolution": "na dṛṣṭam"
+          },
+          {
+            "compound": "avyavahāryam",
+            "type": "negative-tatpurusha",
+            "resolution": "na vyavahāryam"
+          },
+          {
+            "compound": "agrāhyam",
+            "type": "negative-tatpurusha",
+            "resolution": "na grāhyam"
+          },
+          {
+            "compound": "alakṣaṇam",
+            "type": "negative-tatpurusha",
+            "resolution": "na lakṣaṇam"
+          },
+          {
+            "compound": "acintyam",
+            "type": "negative-tatpurusha",
+            "resolution": "na cintyam"
+          },
+          {
+            "compound": "avyapadeśyam",
+            "type": "negative-tatpurusha",
+            "resolution": "na vyapadeśyam"
+          },
+          {
+            "compound": "ekātmapratyayasāram",
+            "type": "other",
+            "resolution": "eka ātmā iti pratyayaḥ sāraṃ yasya",
+            "note": "Śaṅkara's bhāṣya explicitly glosses this around the unwavering cognition 'eko 'yam ātmā'."
+          },
+          {
+            "compound": "prapañcopaśamam",
+            "type": "tatpurusha",
+            "resolution": "prapañcasya upaśamam"
+          },
+          {
+            "compound": "advaitam",
+            "type": "negative-tatpurusha",
+            "resolution": "na dvaitam"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "karman",
+            "pada": "caturtham",
+            "note": "Object-complement of manyante: the described reality is considered 'the fourth'."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "te",
+            "note": "Implicit subject of manyante."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "ātmā",
+            "note": "Subject of the final nominal sentence."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "manyante",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "middle"
+          }
+        ]
+      },
+      "english_close": "Not inwardly cognizing, not outwardly cognizing, not cognizing both ways, not a mass of cognition; not cognizing, not non-cognizing; unseen, not available for transaction, not graspable, without defining mark, unthinkable, not nameable; whose essence is the conviction of one self, the cessation of phenomenal proliferation, peaceful, auspicious, non-dual, they consider [that] the fourth. That is the self; that is to be known.",
+      "preserved_terms": [
+        {
+          "term_iast": "prapañca",
+          "first_use_gloss": "(roughly: the articulated phenomenal manifold)"
+        },
+        {
+          "term_iast": "advaita",
+          "first_use_gloss": "(roughly: non-duality)"
+        },
+        {
+          "term_iast": "ātmā",
+          "first_use_gloss": "(roughly: the self, the innermost subject)"
+        }
+      ],
+      "why_this_passage": "This mantra is famous because Śaṅkara makes it the apex-definition of the whole Māṇḍūkya teaching, not because later anthologies happened to favor it. In the supplied corpus it is the clearest compact locus for his strategy of denying every state-bound predicate while preserving the self as non-dual consciousness rather than collapsing it into non-being.",
+      "topic_tags": [
+        "ontology",
+        "epistemology"
+      ],
+      "sub_axes": [
+        "jiva-brahman-relation",
+        "ontological-tier-structure",
+        "status-of-individual-selves"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Existing local text / GRETIL plaintext, Māṇḍūkya-Upaniṣad with Māṇḍūkyamūlamantrabhāṣya, Gauḍapāda-Kārikā, and Śaṅkara bhāṣya, materials/primary_texts/sanskrit/vedanta/full_corpus/mandukya_upanisad_gaudapada_shankara_bhasya_existing.txt; header notes the mūla checked against V. P. Limaye and R. D. Vadekar (Poona, 1958) and the Kārikā text against A. V. Kathavate (Poona, 1890).",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "gk-2-32__paramarthika-non-origination",
+      "work_id": "mandukya-bhasya",
+      "locus_short": "GK 2.32",
+      "locus_long": "Gauḍapāda-Kārikā 2.32, as glossed in Śaṅkara's bhāṣya",
+      "locus_structured": {
+        "chapter": 2,
+        "verse": 32,
+        "other": {
+          "text": "kārikā"
+        }
+      },
+      "sanskrit_iast": "na nirodho na cotpattir /\nna baddho na ca sādhakaḥ /\nna mumukṣur na vai mukta /\nity eṣā paramārthatā //",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "nirodhaḥ",
+            "stem": "nirodha",
+            "pratyaya": "-ḥ",
+            "morphology": "nom sg masc",
+            "gloss": "cessation"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "utpattiḥ",
+            "stem": "utpatti",
+            "pratyaya": "-ḥ",
+            "morphology": "nom sg fem",
+            "gloss": "origination"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "baddhaḥ",
+            "stem": "baddha",
+            "pratyaya": "-ḥ",
+            "morphology": "nom sg masc",
+            "gloss": "bound"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "sādhakaḥ",
+            "stem": "sādhaka",
+            "pratyaya": "-ḥ",
+            "morphology": "nom sg masc",
+            "gloss": "practitioner"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "mumukṣuḥ",
+            "stem": "mumukṣu",
+            "pratyaya": "-ḥ",
+            "morphology": "nom sg masc",
+            "gloss": "seeker of liberation"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "vai",
+            "stem": "vai",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "muktaḥ",
+            "stem": "mukta",
+            "pratyaya": "-ḥ",
+            "morphology": "nom sg masc",
+            "gloss": "liberated"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "eṣā",
+            "stem": "etad",
+            "pratyaya": "-ā",
+            "morphology": "nom sg fem",
+            "gloss": "this"
+          },
+          {
+            "pada": "paramārthatā",
+            "stem": "paramārthatā",
+            "pratyaya": "-ā",
+            "morphology": "nom sg fem",
+            "gloss": "highest truth"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "paramārthatā",
+            "type": "tatpurusha",
+            "resolution": "paramo 'rthaḥ asyāḥ bhāvaḥ"
+          }
+        ],
+        "karaka_structure": [],
+        "verb_modality": []
+      },
+      "english_close": "There is no cessation and no origination; no one bound and no practitioner; no seeker of liberation, and indeed no liberated one: this is the highest truth.",
+      "preserved_terms": [
+        {
+          "term_iast": "paramārtha",
+          "first_use_gloss": "(roughly: ultimate truth, the highest standpoint)"
+        }
+      ],
+      "why_this_passage": "This verse is worth selecting because Śaṅkara's own gloss at the same locus unpacks each negation as paramārthika rather than merely rhetorical. It therefore fairly represents his ajāti reading of causation and his insistence that bondage, practice, and release belong to the empirical teaching context rather than to Brahman's ultimate status.",
+      "topic_tags": [
+        "causation",
+        "ontology",
+        "soteriology"
+      ],
+      "sub_axes": [
+        "ajati-vada",
+        "type-of-cause",
+        "identity-of-liberated-state"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Existing local text / GRETIL plaintext, Māṇḍūkya-Upaniṣad with Māṇḍūkyamūlamantrabhāṣya, Gauḍapāda-Kārikā, and Śaṅkara bhāṣya, materials/primary_texts/sanskrit/vedanta/full_corpus/mandukya_upanisad_gaudapada_shankara_bhasya_existing.txt; header notes the mūla checked against V. P. Limaye and R. D. Vadekar (Poona, 1958) and the Kārikā text against A. V. Kathavate (Poona, 1890).",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    }
+  ],
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1-cleanup-opus"
+  "last_verified_by": "wave2-codex"
 }
