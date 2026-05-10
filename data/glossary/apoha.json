@@ -1,0 +1,32 @@
+{
+  "term_key": "apoha",
+  "term_iast": "apoha",
+  "term_devanagari": "अपोह",
+  "literal": "exclusion, removal, setting-aside; from apa-uh 'to push away, to exclude'",
+  "aliases": ["apoha", "Apoha", "anyāpoha", "apohaḥ", "apohasya"],
+  "invariant_definition": "*Apoha* is the Buddhist Dignāga–Dharmakīrti account of concept-formation: a concept like 'cow' does not pick out a positive *jāti*-reality (the universal cowhood) but functions by *exclusion* — \"not-non-cow\". Concepts are negative-functional rather than positive-referential, and the apparent positive content of universal-cognition is the result of the exclusion-function operating on the substrate of the *svalakṣaṇa*-flow (the bare particulars). The doctrine is the Buddhist alternative to Naiyāyika *jāti*-realism, in which *sāmānya* is a real category-entity inhering in the particulars by *samavāya*. The Naiyāyika reply (Uddyotakara, Vāchaspati, Udayana, Gaṅgeśa) is sustained: the *apoha*-account is circular because to exclude non-cows requires already grasping cowness, and the regress cannot be stopped without admitting positive *sāmānya*-grasp at some level.",
+  "per_school": [
+    {
+      "school": "Buddhist Pramāṇa (Dignāga–Dharmakīrti)",
+      "definition": "Foundational doctrine. Dignāga's *Pramāṇa-Samuccaya* chapter 5 (*anyāpoha*) supplies the original statement: 'cow' = *anya-apoha* of *cow* = the exclusion of all non-cows. Dharmakīrti refines the analysis in the *Pramāṇa-Vārttika* (especially chapter 1, *svārthānumāna*) by distinguishing direct from indirect *apoha* and grounding the exclusion-function in *vāsanā*-rooted cognitive disposition. The *apoha-vāda* is the load-bearing Buddhist account of how concept-bearing cognition (which is *anumāna*-only and operates on the *sāmānya-lakṣaṇa*) can be epistemically valid without committing to a positive *jāti*-realist ontology.",
+      "primary_loci": ["Dignāga, Pramāṇa-Samuccaya 5", "Dharmakīrti, Pramāṇa-Vārttika 1.40–185 (the apoha-section of svārthānumāna)"]
+    },
+    {
+      "school": "Nyāya (Old and Navya)",
+      "definition": "Refused on circularity grounds. Uddyotakara's *Nyāya-Vārttika* and Vāchaspati's *Tātparya-Ṭīkā* press that to exclude *non-cows* requires already grasping *cowness* and so the *apoha*-account presupposes the *jāti*-realist content it was meant to replace. Udayana's *Ātma-Tattva-Viveka* and Gaṅgeśa's *Tattva-Cintāmaṇi sāmānya-vāda* develop the Naiyāyika defence of *jāti*-realism against the developed Buddhist position.",
+      "primary_loci": ["Uddyotakara, Nyāya-Vārttika ad NS 2.2.65", "Vāchaspati, Nyāya-Vārttika-Tātparya-Ṭīkā", "Udayana, Ātma-Tattva-Viveka", "Gaṅgeśa, Tattva-Cintāmaṇi (sāmānya-pramā section)"]
+    },
+    {
+      "school": "Mīmāṃsā (Bhāṭṭa)",
+      "definition": "Refused on similar grounds. Kumārila's *Ślokavārttika apohavāda-section* is the principal Mīmāṃsaka critique: the *apoha*-account fails to distinguish 'cow' from 'horse' since the exclusion of non-cows and the exclusion of non-horses both presuppose a positive grasp of which particulars are *to be* excluded.",
+      "primary_loci": ["Kumārila, Ślokavārttika apohavāda"]
+    },
+    {
+      "school": "Vedānta",
+      "definition": "Vedāntic engagement with *apoha* is mostly indirect, through the Naiyāyika reply that Vāchaspati and Udayana develop. Madhva engages *apoha* critically as a doctrine whose Buddhist provenance disqualifies it from Vedāntic appropriation. Madhusūdana's *Advaita-Siddhi* makes sophisticated use of *apoha*-style analysis without endorsing the Buddhist soteriology, treating the technique as available to the Advaitin defender of *anirvacanīya-mithyātva*.",
+      "primary_loci": ["Madhva, Pramāṇa-Lakṣaṇa", "Madhusūdana, Advaita-Siddhi"]
+    }
+  ],
+  "see_also": ["svalaksana", "samanyalaksana", "pramana-dvaya", "anumana", "samanya", "jati", "samavaya", "vyapti"],
+  "translator_note": "'Exclusion' is the standard gloss; 'preclusion', 'differentiation', and 'negation' are alternative renderings. The doctrine has been the subject of extensive recent philosophical reconstruction (Siderits, Tillemans, Hayes); the consensus is that the bare *anyāpoha* of Dignāga is genuinely circular, and that Dharmakīrti's developed *vāsanā*-grounded *apoha* answers the circularity at the cost of depending on the doctrine of momentariness. The doctrine is widely misread as a Buddhist nominalism in the Western sense; the Buddhist position is more precisely a *trope-theoretic* account in which *svalakṣaṇas* (causally efficacious particulars) bear no shared properties but are functionally grouped by exclusion-relations grounded in karmic disposition."
+}

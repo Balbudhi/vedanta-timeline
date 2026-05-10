@@ -1,0 +1,153 @@
+{
+  "id": "akalanka",
+  "name": "Akalanka",
+  "name_iast": "Akalaṅka",
+  "alternate_names": ["Akalaṅkadeva", "Bhaṭṭa Akalaṅka"],
+  "dates_low": 720,
+  "dates_high": 780,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Dated by his polemical engagement with Dharmakīrti's school (active early eighth century) and by his patronage at the Rāṣṭrakūṭa court of Kṛṣṇa I; the Mallikā-Sahasra-Nāma and later Digambara hagiography place him in the mid-eighth century, and modern scholarship (Dhaky, Granoff, Soni) converges on c. 720–780 CE.",
+  "school": "Jaina",
+  "school_color_token": "jaina-comparator",
+  "sub_school": "Digambara-dialectical",
+  "sub_school_shade": 5,
+  "lineage_in": ["umasvati"],
+  "lineage_out": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "vacaspati",
+      "direction": "is-refuted-by",
+      "note": "Vāchaspati's Tattva-Vaiśāradī (on Yoga-Sūtra-Bhāṣya 1.32) and Nyāya-Vārttika-Tātparya-Ṭīkā engage Jaina pramāṇa-theory at the level Akalaṅka had brought it to: the seven-fold syād-vāda predication and the Jaina doctrine of sarva-jña-omniscience are the principal targets, and the Jaina position the Brahmanical Naiyāyikas refute is the developed Akalaṅka-Vidyānanda position rather than Umāsvāti's compressed sūtras."
+    },
+    {
+      "thinker_id": "dharmakirti",
+      "direction": "refutes",
+      "note": "Akalaṅka's Aṣṭa-Sahasrī, Pramāṇa-Saṅgraha, and Siddhi-Viniścaya develop a sustained Jaina counter-attack on Dharmakīrti's pramāṇa-doctrine — the kṣaṇika-vāda of momentariness, the apoha theory of concept-formation, and the svabhāva-pratibandha foundation of inferential necessity are each refuted in turn; the Jaina insistence on the substantial-modal (dravya-paryāya) account of reality is defended against the Buddhist denial of substance."
+    },
+    {
+      "thinker_id": "madhusudana",
+      "direction": "is-refuted-by",
+      "note": "Madhusūdana's Advaita-Siddhi reaches the Jaina position in the developed Akalaṅka-Vidyānanda form, not in Umāsvāti's foundational form: the anekānta-vāda Madhusūdana refutes is the seven-fold syād-vāda apparatus that Akalaṅka systematised against Brahmanical opponents."
+    }
+  ],
+  "core_thesis": "Akalaṅka is the major Digambara dialectician of the eighth century and the figure who brings Jaina pramāṇa-theory and *anekānta-vāda* to the level of formal sophistication required for engagement with the Buddhist Pramāṇa school of Dharmakīrti. His *Aṣṭa-Sahasrī* — a sub-commentary on Vidyānanda's *Aṣṭa-Śatī*, itself a commentary on Samantabhadra's *Āpta-Mīmāṃsā* — is the most ambitious sustained defence of *syād-vāda* against Buddhist and Brahmanical critique. The seven-fold predication (*sapta-bhaṅgī*) is not relativism: each *bhaṅga* is a determinate predication conditioned by an explicit standpoint (*naya*), and contradictory predicates are not predicated of the same substance under the same standpoint. The substance-modal (*dravya-paryāya*) account of reality — that every existent has both a substantial aspect (*dravya*: persistence through change) and a modal aspect (*paryāya*: succession of states) — is the metaphysical ground that allows the seven-fold predication to be coherent. Akalaṅka's *Tattvārtha-Vārttika* (also called *Rāja-Vārttika*) is the principal Digambara verse-commentary on Umāsvāti's *Tattvārtha-Sūtra*; his *Laghīyastraya* and *Nyāya-Viniścaya* are compact treatises on Jaina logic and epistemology; his *Pramāṇa-Saṅgraha* and *Siddhi-Viniścaya* develop the analysis of perception, inference, and the Jaina account of *pramāṇa-phala*. The doctrine of the *kevalin*'s omniscience is defended on the ground that consciousness is essentially unrestricted and that the obstructions to omniscience are *karma*-borne and removable. The position the Brahmanical Vedāntic refutations of Jainism (Vāchaspati, Madhusūdana) actually engage is the developed Akalaṅka-Vidyānanda position, not Umāsvāti's foundational sūtras.",
+  "engaged_works": [
+    {
+      "work_id": "ashta-sahasri",
+      "title": "Ashta-Sahasri",
+      "title_iast": "Aṣṭa-Sahasrī",
+      "alternate_titles": ["Aṣṭa-Sahasrī-Tātparya"],
+      "composition_dates_low": 740,
+      "composition_dates_high": 780,
+      "composition_dates_notes": "Composition placed in Akalaṅka's mature period; the work is a commentary on Vidyānanda's Aṣṭa-Śatī, which is itself a commentary on Samantabhadra's Āpta-Mīmāṃsā.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Akalaṅka by uniform Digambara tradition; the text is treated as the authoritative defence of syād-vāda by the school.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Soni (Aspects of Jaina Philosophy); Granoff (essays on Jaina logic); Dhaky (the Vidyānanda-Akalaṅka chronology)."}
+      ],
+      "genre": "varttika",
+      "language": "sanskrit",
+      "summary": "Eight thousand verses (the title literally means 'the eight-thousand') of dense polemical scholastic commentary defending the *anekānta-vāda* and *syād-vāda* of Samantabhadra's *Āpta-Mīmāṃsā* against Buddhist (especially Dharmakīrti-school), Vaiśeṣika, and Mīmāṃsā opponents. The work is structured around the seven-fold predication (*sapta-bhaṅgī*): *syād asti* (in some respect, exists), *syād nāsti* (in some respect, does not exist), *syād asti nāsti* (in some respect, exists; in some respect, does not exist), *syād avaktavyaḥ* (in some respect, inexpressible), and the three remaining combined predicates. Akalaṅka's principal argumentative move is to show that each *bhaṅga* is a determinate predication conditioned by an explicit *naya* (standpoint), so that the seven-fold scheme is not the assertion of contradictory predicates of the same subject but the assertion of distinct predicates of distinct aspects of one substantial-modal complex. The polemic against the Buddhist Pramāṇa school engages the *kṣaṇika-vāda* of momentariness, the *apoha* theory of concept-formation, and the svabhāva-pratibandha account of inferential necessity. The work is the principal source for the developed Jaina engagement with Dharmakīrti and is the form in which Brahmanical Vedāntic refutations of Jainism actually meet the Jaina position.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "tattvartha-varttika",
+      "title": "Tattvartha-Varttika",
+      "title_iast": "Tattvārtha-Vārttika",
+      "alternate_titles": ["Rāja-Vārttika"],
+      "composition_dates_low": 720,
+      "composition_dates_high": 770,
+      "composition_dates_notes": "The principal Digambara verse-commentary on Umāsvāti's Tattvārtha-Sūtra, composed in Akalaṅka's mature period.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Akalaṅka by uniform Digambara tradition.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "The standard editions (Saraswati Bhavan, Bharatiya Jnanpith) treat the Akalaṅka ascription as settled; cited as Akalaṅka's by Vidyānanda and later Digambara authors."}
+      ],
+      "genre": "varttika",
+      "language": "sanskrit",
+      "summary": "An extensive verse-commentary (with prose-vārttikas) on Umāsvāti's *Tattvārtha-Sūtra*, organised by the ten *adhyāyas* of the source-text. Akalaṅka develops Umāsvāti's compressed sūtras with full philosophical apparatus: *adhyāya* 1's analysis of the five *jñānas* and the *naya*-doctrine receives extended treatment; the doctrine of *kevala-jñāna* (the *kevalin*'s omniscience) is defended on the ground that consciousness is essentially unrestricted in object and that the obstructions to omniscience are *karma*-borne and removable; the *anekānta* / *syād-vāda* framework is integrated with the *naya*-analysis of *Tattvārtha-Sūtra* 1.34–35; the analysis of *jīva* and *ajīva* in *adhyāya*s 2 and 5 receives the *dravya-paryāya* treatment that grounds Akalaṅka's metaphysics. The work supersedes Pūjyapāda's earlier *Sarvārtha-Siddhi* as the standard Digambara *Tattvārtha* commentary for dialectically engaged study, and is itself sub-commented by Vidyānanda's *Tattvārtha-Śloka-Vārttika*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "laghiyastraya",
+      "title": "Laghiyastraya",
+      "title_iast": "Laghīyastraya",
+      "composition_dates_low": 720,
+      "composition_dates_high": 770,
+      "composition_dates_notes": "Compact treatise of Akalaṅka's mature period.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Akalaṅka.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Cited by Vidyānanda and Mahendrakumar Jain (modern critical edition)."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "A 'lesser triad' of three short tracts — *Pramāṇa-Praveśa*, *Naya-Praveśa*, *Pravacana-Praveśa* — providing compressed Jaina expositions of (i) the theory of *pramāṇa* (analysing *pratyakṣa* and *parokṣa* and the Jaina five-fold subdivision of indirect cognition), (ii) the *naya* doctrine (the seven *nayas* — *naigama*, *saṅgraha*, *vyavahāra*, *ṛjusūtra*, *śabda*, *samabhirūḍha*, *evambhūta* — and their relation to *anekānta*), and (iii) the structure of Jaina scriptural exegesis. The *Laghīyastraya* serves as the school's introductory dialectical curriculum after the *Tattvārtha-Sūtra* and is the form in which Akalaṅka's logical apparatus enters the Digambara teaching tradition. The seven *naya*-classification's place in Akalaṅka's apparatus is what allows him to defend the seven-fold *bhaṅga*-predication against the charge of incoherence.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "nyaya-viniscaya",
+      "title": "Nyaya-Viniscaya",
+      "title_iast": "Nyāya-Viniścaya",
+      "composition_dates_low": 730,
+      "composition_dates_high": 780,
+      "composition_dates_notes": "Mature treatise of the Akalaṅka corpus; sub-commented by Vādirāja's Vivaraṇa.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Akalaṅka.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Cited as Akalaṅka's by Vādirāja and the Digambara dialectical tradition."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "A three-section treatise on perception (*pratyakṣa-viniścaya*), inference (*anumāna-viniścaya*), and the Jaina account of testimony (*pravacana-viniścaya*). The work develops the Jaina theory that *pratyakṣa* admits the distinction between *sāṃvyavahārika* (transactional, sensory) and *mukhya* (the kevalin's direct perception); inference is analysed through the *trairūpya-vyāpti* apparatus the Buddhists had developed, but with the Jaina insistence that *vyāpti* is grounded in the *dravya-paryāya* structure of reality rather than in *svabhāva-pratibandha*. The treatise's polemical voice engages Dharmakīrti directly. Vādirāja's *Nyāya-Viniścaya-Vivaraṇa* is the principal sub-commentary.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "pramana-sangraha",
+      "title": "Pramana-Sangraha",
+      "title_iast": "Pramāṇa-Saṅgraha",
+      "composition_dates_low": 730,
+      "composition_dates_high": 780,
+      "composition_dates_notes": "Compact dialectical compendium of Akalaṅka's mature period.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Akalaṅka.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Standard ascription in the Digambara dialectical canon."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "A condensed compendium of Jaina pramāṇa-theory in nine prakaraṇas. The work analyses the Jaina theory of pramāṇa-phala (the result-of-cognition), the relation between cognition and its object (the Jaina alternative to the Buddhist sākāra / nirākāra debate), and the doctrine of *pramāṇa*'s self-illumination (*sva-prakāśatva*) as compatible with object-illumination. The polemic against the Buddhist Pramāṇa-school is concentrated and direct: the *Saṅgraha* is closer to a polemical-tract than to a systematic exposition, and is read by the school as Akalaṅka's most pointed answer to Dharmakīrti.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "siddhi-viniscaya",
+      "title": "Siddhi-Viniscaya",
+      "title_iast": "Siddhi-Viniścaya",
+      "composition_dates_low": 730,
+      "composition_dates_high": 780,
+      "composition_dates_notes": "The Siddhi-Viniścaya is the most extensive of Akalaṅka's independent treatises and is the principal source for his developed metaphysics.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Akalaṅka; sub-commented by Anantavīrya's Siddhi-Viniścaya-Ṭīkā.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Anantavīrya's commentary fixes the Akalaṅka ascription; Mahendrakumar Jain's critical edition."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "A twelve-chapter treatise establishing the central Jaina dialectical positions: the existence of *jīva* against the Buddhist anātma-vāda (chapter 1), the *sva-prakāśa* nature of cognition (chapter 2), the seven-fold *bhaṅga*-predication (chapter 3), the omniscience of the *kevalin* against the Mīmāṃsā denial of *sarvajña* (chapter 4), the analysis of *pratyakṣa* and *parokṣa* (chapters 5–6), the analysis of *anumāna* and *vyāpti* (chapters 7–8), the analysis of *śabda*-pramāṇa (chapter 9), and the integration of *naya* and *pramāṇa* (chapters 10–12). The treatise is the most metaphysically ambitious work of the Akalaṅka corpus and is the source the later Digambara dialecticians (Vidyānanda, Anantavīrya, Vādirāja) build on. Its sustained engagement with Dharmakīrti's Pramāṇa-Vārttika makes it the principal Jaina answer to mature Buddhist epistemology.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Akalaṅka is the figure through whom Jaina pramāṇa-theory and anekānta-vāda enter the Sanskrit dialectical mainstream; his Aṣṭa-Sahasrī sets the standard for the school's defence of syād-vāda, and his Tattvārtha-Vārttika supersedes Pūjyapāda's Sarvārtha-Siddhi as the principal Digambara Tattvārtha-commentary for dialectically engaged study. Vidyānanda's Aṣṭa-Śatī-vārttika and Tattvārtha-Śloka-Vārttika continue Akalaṅka's programme; Vādirāja's Nyāya-Viniścaya-Vivaraṇa, Anantavīrya's Siddhi-Viniścaya-Ṭīkā, and Prabhācandra's Prameya-Kamala-Mārtaṇḍa carry it into the early-medieval period. The Jaina position the Brahmanical Vedāntic refutations engage — Vāchaspati's Tattva-Vaiśāradī, Madhusūdana's Advaita-Siddhi, the Naiyāyikas' anti-anekānta arguments — is the developed Akalaṅka position, not Umāsvāti's foundational sūtras.",
+  "entry_status": "draft",
+  "entry_owner_agent": "non-vedic-comparator-extension-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "non-vedic-comparator-extension-opus"
+}

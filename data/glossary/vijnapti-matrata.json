@@ -1,0 +1,27 @@
+{
+  "term_key": "vijnapti-matrata",
+  "term_iast": "vijñapti-mātratā",
+  "term_devanagari": "विज्ञप्तिमात्रता",
+  "literal": "cognition-only-ness, the state of being merely cognition; from vijñapti 'cognition, intimation' + mātra 'merely, only' + -tā 'abstract noun suffix'",
+  "aliases": ["vijnapti-matrata", "vijñapti-mātratā", "Vijñapti-Mātratā", "vijñapti-mātra", "cittamātra"],
+  "invariant_definition": "*Vijñapti-mātratā* is the central thesis of the Yogācāra school: what appears to consciousness as an external object is itself a transformation (*vijñāna-pariṇāma*) of consciousness, and no extra-cognitive object is required to explain experience. The doctrine is *not* a denial of objects in some commonsense sense (the chair appears, the chair is cognised, the chair functions as the object of cognition); it is the claim that the chair *qua* cognised object is itself a mode of cognitive flow rather than an independently-existing referent. The principal defence is in Vasubandhu's *Viṃśatikā* with its auto-commentary, which answers the four standard realist objections (*deśa-niyama*, *kāla-niyama*, *santāna-aniyama*, *kṛtya-kriyā*) by appeal to the karmic-shaping of cognitive flow through *ālaya*-stored *vāsanā*. The Vedāntic *vijñāna-vāda*-refutation at Brahma-Sūtra-Bhāṣya 2.2.28–32 targets this thesis directly.",
+  "per_school": [
+    {
+      "school": "Yogācāra",
+      "definition": "Foundational doctrine. Defended in Vasubandhu's *Viṃśatikā*: the four realist objections (spatial regularity, temporal regularity, intersubjective agreement, determinate efficacy of cognition) are answered by appeal to the karmic-shaping of cognitive flow through *ālaya*-stored *vāsanā*. The Sākāra-vijñānavāda holds that cognition bears an internal image-form (*ākāra*) of its content; the Nirākāra-vijñānavāda denies this and treats cognition as bare luminous awareness without form.",
+      "primary_loci": ["Vasubandhu, Viṃśatikā 1–22 with auto-commentary", "Vasubandhu, Triṃśikā", "Dignāga, Ālambana-Parīkṣā 1–8"]
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "Refused as covertly reintroducing *svabhāva* at the cognitive level. Bhāviveka argues that *vijñapti-mātratā* substitutes a cognition-realism for the external-object realism it had refuted; the Mādhyamaka answer is that cognition itself is *niḥsvabhāva* and therefore the *vijñapti-mātra* thesis cannot be advanced as a positive metaphysical claim. Candrakīrti's *Madhyamakāvatāra* chapter 6 develops the Prāsaṅgika version of the refutation.",
+      "primary_loci": ["Bhāviveka, Madhyamaka-Hṛdaya 5", "Candrakīrti, Madhyamakāvatāra 6.45–97"]
+    },
+    {
+      "school": "Vedānta",
+      "definition": "The principal Buddhist target of the Vedāntic *bāhyārtha-vāda* (external-object realism). Brahma-Sūtra-Bhāṣya 2.2.28–32: the very arising of the cognition 'this is a pillar' presupposes a referent extra-cognitive enough to ground the cognition's content; the Yogācāra dream-analogy fails because dreams are themselves explained by reference to waking-perception of external objects, and so the analogy presupposes what it was meant to refute. Yāmuna's *Saṃvit-Siddhi* develops the Viśiṣṭādvaita refutation. The Advaita position is more nuanced: the *cidābhāsa* doctrine and the Vivaraṇa-line *prātibhāsika*-analysis share some structural features with *vijñapti-mātra* analysis, while the school formally rejects *vijñapti-mātra* as Buddhist.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Śaṅkara) 2.2.28–32", "Rāmānuja, Śrī-Bhāṣya 2.2.27–30", "Yāmuna, Saṃvit-Siddhi"]
+    }
+  ],
+  "see_also": ["alaya-vijnana", "trisvabhava", "vasana", "akara", "sunyata", "saksin", "cidabhasa", "abhasa"],
+  "translator_note": "'Cognition-only', 'consciousness-only', and 'representation-only' are the standard glosses, each capturing one aspect of the doctrine. 'Mind-only' (*citta-mātra*) is occasionally used in Yogācāra texts and in modern paraphrase but is technically the broader category, of which *vijñapti-mātratā* is the more precise epistemological version. The doctrine is widely misread as a subjective idealism in the Berkeley sense; the Yogācāra position is more disciplined — it is a thesis about the structure of cognition (no extra-cognitive referent is needed to explain cognitive content) rather than a thesis about what exists (no chairs, only mind). The user's project requires that Yogācāra never be flattened to subjective idealism."
+}
