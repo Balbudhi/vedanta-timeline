@@ -35,7 +35,13 @@
       "genre": "rahasya",
       "language": "sanskrit",
       "summary": "The *Krama-Dīpikā* is Keśava-Kāśmīrī's manual of Kṛṣṇa-*upāsanā* and *mantra-rahasya*, organised as a graded (*krama*) exposition of the contemplative and ritual practices of the Nimbārka Sanaka-sampradāya. It works through *mantra*, *dhyāna*, *nyāsa*, and the structured *prapatti* sequence by which the practitioner is incorporated into Kṛṣṇa-with-Rādhā worship. Doctrinally, the text presupposes *svābhāvika-bhedābheda*: the *jīva*'s eternal status as *aṃśa* of Brahman is the precondition for *bhakti* being a real, mutual, non-collapsing relation rather than a provisional means whose truth is later cancelled. The work has been used widely outside the Nimbārka line — Gauḍīya practitioners cite it — and is one of the channels by which proto-Caitanya devotional vocabulary develops a continuous receiving lineage. Its Rādhā-tattva, in particular, prefigures motifs that Rūpa and Jīva will later raise to systematic theology.",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "kd-1-4__gopala-mantra-open-to-all",
+        "kd-1-5__bhakti-from-acyuta-glance",
+        "kd-2-18__gopijana-as-world-protecting-sakti",
+        "kd-6-5__mukunda-saranam-prapadye",
+        "kd-8-96__murari-eternally-pure-pada"
+      ],
       "entry_status": "reviewed"
     },
     {
@@ -71,10 +77,800 @@
       "entry_status": "reviewed"
     }
   ],
-  "key_passages": [],
+  "key_passages": [
+    {
+      "passage_id": "kd-1-4__gopala-mantra-open-to-all",
+      "work_id": "krama-dipika",
+      "locus_short": "KD 1.4",
+      "locus_long": "Kramadīpikā 1.4",
+      "locus_structured": {
+        "chapter": 1,
+        "verse": 4
+      },
+      "sanskrit_iast": "sarveṣu varṇeṣu tathāśrameṣu\nnārīṣu nānāhvaya-janmabheṣu |\ndātā phalānām abhivāñchitānāṃ\ndrāg eva gopālaka-mantra eṣaḥ ||",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "sarveṣu",
+            "stem": "sarva",
+            "morphology": "loc pl masc",
+            "gloss": "in all"
+          },
+          {
+            "pada": "varṇeṣu",
+            "stem": "varṇa",
+            "morphology": "loc pl masc",
+            "gloss": "classes"
+          },
+          {
+            "pada": "tathā",
+            "stem": "tathā",
+            "morphology": "indecl",
+            "gloss": "likewise"
+          },
+          {
+            "pada": "āśrameṣu",
+            "stem": "āśrama",
+            "morphology": "loc pl masc",
+            "gloss": "in the life-stages"
+          },
+          {
+            "pada": "nārīṣu",
+            "stem": "nārī",
+            "morphology": "loc pl fem",
+            "gloss": "among women"
+          },
+          {
+            "pada": "nānāhvaya-janmabheṣu",
+            "stem": "nānāhvaya-janmabha",
+            "morphology": "loc pl masc",
+            "gloss": "among those of various names and birth-stars"
+          },
+          {
+            "pada": "dātā",
+            "stem": "dātṛ",
+            "morphology": "nom sg masc",
+            "gloss": "giver"
+          },
+          {
+            "pada": "phalānām",
+            "stem": "phala",
+            "morphology": "gen pl neut",
+            "gloss": "of fruits"
+          },
+          {
+            "pada": "abhivāñchitānām",
+            "stem": "abhivāñchita",
+            "morphology": "gen pl neut",
+            "gloss": "of desired ones"
+          },
+          {
+            "pada": "drāg",
+            "stem": "drāg",
+            "morphology": "indecl",
+            "gloss": "quickly"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "gopālaka-mantra",
+            "stem": "gopālaka-mantra",
+            "morphology": "nom sg masc",
+            "gloss": "the Gopālaka mantra"
+          },
+          {
+            "pada": "eṣaḥ",
+            "stem": "etad",
+            "morphology": "nom sg masc",
+            "gloss": "this"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "nānāhvaya-janmabheṣu",
+            "type": "dvandva",
+            "resolution": "nānā āhvayāni ca nānā janmabhāni ca yeṣu teṣu",
+            "note": "The commentary explains this as covering differing names and birth-stars."
+          },
+          {
+            "compound": "gopālaka-mantra",
+            "type": "tatpurusha",
+            "resolution": "gopālakasya mantraḥ"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "adhikaraṇa",
+            "pada": "sarveṣu varṇeṣu",
+            "note": "sphere within which the mantra gives results"
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "āśrameṣu",
+            "note": "further sphere of applicability"
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "nārīṣu",
+            "note": "explicit inclusion of women"
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "nānāhvaya-janmabheṣu",
+            "note": "further extension across differing ritual-birth designations"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "gopālaka-mantra eṣaḥ",
+            "note": "the subject is expressed through a nominal predication with dātā"
+          },
+          {
+            "role": "sambandha",
+            "pada": "phalānām abhivāñchitānām",
+            "note": "genitive relation to dātā: giver of the desired fruits"
+          }
+        ],
+        "verb_modality": []
+      },
+      "english_close": "In all varṇas, and likewise in the āśramas, among women, and among those of various names and birth-stars, this Gopālaka-mantra is indeed the quick giver of the desired fruits.",
+      "english_paraphrase": "Keśava presents the Gopāla mantra as efficacious across ordinary social and ritual boundaries.",
+      "preserved_terms": [
+        {
+          "term_iast": "varṇa",
+          "first_use_gloss": "(roughly: social class-order)"
+        },
+        {
+          "term_iast": "āśrama",
+          "first_use_gloss": "(roughly: life-stage within the Brahmanical order)"
+        }
+      ],
+      "why_this_passage": "This is representative because the Krama-Dīpikā is not only a theology of Kṛṣṇa-worship but also a manual about who may receive and use the mantra. Keśava is defining the practical social reach of Gopāla-upāsanā here, so the verse captures a real doctrinal commitment of the text rather than an anthologized ornament.",
+      "topic_tags": [
+        "ethics-devotion"
+      ],
+      "sub_axes": [],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Sudhakar Malaviya (ed.), Keśavakāśmīri: Kramadīpikā with the commentary by Govindabhaṭṭācārya, Benares: Krishnadas Academy, 1989 (Krishnadas Sanskrit Series 119), via GRETIL e-text.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "kd-1-5__bhakti-from-acyuta-glance",
+      "work_id": "krama-dipika",
+      "locus_short": "KD 1.5",
+      "locus_long": "Kramadīpikā 1.5",
+      "locus_structured": {
+        "chapter": 1,
+        "verse": 5
+      },
+      "sanskrit_iast": "nūnam acyuta-kaṭākṣa-pātena\nkāraṇaṃ bhavati bhaktir añjasā |\ntac-catuṣṭaya-phalāptaye tato\nbhaktimān adhikṛto harau gurau ||",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "nūnam",
+            "stem": "nūnam",
+            "morphology": "indecl",
+            "gloss": "certainly"
+          },
+          {
+            "pada": "acyuta-kaṭākṣa-pātena",
+            "stem": "acyuta-kaṭākṣa-pāta",
+            "morphology": "instr sg masc",
+            "gloss": "by the fall of Acyuta's glance"
+          },
+          {
+            "pada": "kāraṇam",
+            "stem": "kāraṇa",
+            "morphology": "nom sg neut",
+            "gloss": "cause"
+          },
+          {
+            "pada": "bhavati",
+            "stem": "√bhū",
+            "morphology": "3sg pres ind P",
+            "gloss": "becomes"
+          },
+          {
+            "pada": "bhaktiḥ",
+            "stem": "bhakti",
+            "morphology": "nom sg fem",
+            "gloss": "devotion"
+          },
+          {
+            "pada": "añjasā",
+            "stem": "añjas",
+            "morphology": "indecl",
+            "gloss": "directly"
+          },
+          {
+            "pada": "tac-catuṣṭaya-phalāptaye",
+            "stem": "tac-catuṣṭaya-phalāpti",
+            "morphology": "dat sg fem",
+            "gloss": "for the attainment of that fourfold result"
+          },
+          {
+            "pada": "tataḥ",
+            "stem": "tataḥ",
+            "morphology": "indecl",
+            "gloss": "therefore"
+          },
+          {
+            "pada": "bhaktimān",
+            "stem": "bhaktimat",
+            "morphology": "nom sg masc",
+            "gloss": "one possessed of devotion"
+          },
+          {
+            "pada": "adhikṛtaḥ",
+            "stem": "adhi-√kṛ",
+            "morphology": "nom sg masc PPP",
+            "gloss": "qualified"
+          },
+          {
+            "pada": "harau",
+            "stem": "hari",
+            "morphology": "loc sg masc",
+            "gloss": "with respect to Hari"
+          },
+          {
+            "pada": "gurau",
+            "stem": "guru",
+            "morphology": "loc sg masc",
+            "gloss": "with respect to the guru"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "acyuta-kaṭākṣa-pātena",
+            "type": "tatpurusha",
+            "resolution": "acyutasya kaṭākṣasya pātena"
+          },
+          {
+            "compound": "tac-catuṣṭaya-phalāptaye",
+            "type": "tatpurusha",
+            "resolution": "tasya catuṣṭayasya phalānām āptaye",
+            "note": "The commentary identifies the fourfold result as the puruṣārtha-catuṣṭaya."
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "karaṇa",
+            "pada": "acyuta-kaṭākṣa-pātena",
+            "note": "instrumental cause of bhakti"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "bhaktiḥ",
+            "note": "subject of bhavati"
+          },
+          {
+            "role": "sampradāna",
+            "pada": "tac-catuṣṭaya-phalāptaye",
+            "note": "purpose/end expressed by the dative"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "bhaktimān",
+            "note": "subject of the implied predication with adhikṛtaḥ"
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "harau",
+            "note": "sphere of devotional qualification"
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "gurau",
+            "note": "paired sphere of devotional qualification"
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "bhavati",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          }
+        ]
+      },
+      "english_close": "Certainly, by the fall of Acyuta's glance, bhakti directly becomes the cause; therefore, for the attainment of that fourfold result, one possessed of bhakti is qualified with respect to Hari and the guru.",
+      "english_paraphrase": "Keśava says that divine grace gives rise to bhakti, and that bhakti is what authorizes the practitioner for disciplined relation to Hari and guru.",
+      "preserved_terms": [
+        {
+          "term_iast": "bhakti",
+          "first_use_gloss": "(roughly: devotional participation directed to the Lord)"
+        }
+      ],
+      "why_this_passage": "This verse is programmatic for the manual: grace initiates bhakti, and bhakti grounds ritual and spiritual eligibility before both Hari and guru. That sequence recurs throughout the text, so this is a fair statement of Keśava's operative soteriology rather than a detached devotional flourish.",
+      "topic_tags": [
+        "soteriology",
+        "ethics-devotion"
+      ],
+      "sub_axes": [
+        "role-of-grace-vs-effort",
+        "role-of-bhakti"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Sudhakar Malaviya (ed.), Keśavakāśmīri: Kramadīpikā with the commentary by Govindabhaṭṭācārya, Benares: Krishnadas Academy, 1989 (Krishnadas Sanskrit Series 119), via GRETIL e-text.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "kd-2-18__gopijana-as-world-protecting-sakti",
+      "work_id": "krama-dipika",
+      "locus_short": "KD 2.18",
+      "locus_long": "Kramadīpikā 2.18",
+      "locus_structured": {
+        "chapter": 2,
+        "verse": 18
+      },
+      "sanskrit_iast": "athavā gopījana iti samasta-jagad-vana-śakti-samudāyaḥ |\ntasya svānanyasya svāmī vallabha iti ha nirdiṣṭaḥ ||",
+      "text_critical_note": "The printed/GRETIL line reads `jagad-vana-śakti-samudāyaḥ`; Govindabhaṭṭācārya's commentary glosses the phrase as `sakala-viśva-rakṣaṇa-śakti-samudāyaḥ`, which fixes the intended sense as the aggregate of the powers that protect the whole world.",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "athavā",
+            "stem": "athavā",
+            "morphology": "indecl",
+            "gloss": "or else"
+          },
+          {
+            "pada": "gopījana",
+            "stem": "gopījana",
+            "morphology": "nom sg neut (quoted expression)",
+            "gloss": "\"gopījana\""
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "samasta-jagad-vana-śakti-samudāyaḥ",
+            "stem": "samasta-jagad-vana-śakti-samudāya",
+            "morphology": "nom sg masc",
+            "gloss": "the aggregate of the powers that protect the whole world"
+          },
+          {
+            "pada": "tasya",
+            "stem": "tad",
+            "morphology": "gen sg masc",
+            "gloss": "of that"
+          },
+          {
+            "pada": "svānanyasya",
+            "stem": "svānanya",
+            "morphology": "gen sg masc",
+            "gloss": "of what is non-other than himself"
+          },
+          {
+            "pada": "svāmī",
+            "stem": "svāmin",
+            "morphology": "nom sg masc",
+            "gloss": "lord"
+          },
+          {
+            "pada": "vallabhaḥ",
+            "stem": "vallabha",
+            "morphology": "nom sg masc",
+            "gloss": "Vallabha"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "ha",
+            "stem": "ha",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "nirdiṣṭaḥ",
+            "stem": "nir-√diś",
+            "morphology": "nom sg masc PPP",
+            "gloss": "indicated"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "gopījana",
+            "type": "tatpurusha",
+            "resolution": "gopīnām janaḥ",
+            "note": "Here the expression is being reinterpreted symbolically within the verse itself."
+          },
+          {
+            "compound": "samasta-jagad-vana-śakti-samudāyaḥ",
+            "type": "tatpurusha",
+            "resolution": "samastasya jagato 'vana-śaktīnāṃ samudāyaḥ"
+          },
+          {
+            "compound": "svānanyasya",
+            "type": "negative-tatpurusha",
+            "resolution": "svasmād ananyasya",
+            "note": "The commentary adds `svābhinnasya`, making the non-otherness explicit."
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "sambandha",
+            "pada": "tasya svānanyasya",
+            "note": "genitive relation: Vallabha is the lord of that power-aggregate, which is non-other than himself"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "vallabhaḥ",
+            "note": "subject of the implied predication with nirdiṣṭaḥ"
+          }
+        ],
+        "verb_modality": []
+      },
+      "english_close": "Or else, `gopījana` is the aggregate of the powers that protect the whole world; of that, which is non-other than himself, Vallabha is indeed indicated as the Lord.",
+      "english_paraphrase": "Keśava reads `gopījana` as the totality of divine world-sustaining powers and Kṛṣṇa as their Lord, without severing those powers from him.",
+      "preserved_terms": [
+        {
+          "term_iast": "svānanya",
+          "first_use_gloss": "(roughly: non-otherness, not being separate from its ground)"
+        },
+        {
+          "term_iast": "śakti",
+          "first_use_gloss": "(roughly: active power or potency)"
+        }
+      ],
+      "why_this_passage": "Because only the Kramadīpikā is available on disk in this run, explicit metaphysical lines like this matter disproportionately: here Keśava states, rather than merely presupposes, a Nimbārka-style non-separateness of divine power and its lord. That makes the verse a fair witness to his bhedābheda theology within a ritual text.",
+      "topic_tags": [
+        "ontology",
+        "ethics-devotion"
+      ],
+      "sub_axes": [
+        "status-of-the-world",
+        "status-of-personal-lord"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Sudhakar Malaviya (ed.), Keśavakāśmīri: Kramadīpikā with the commentary by Govindabhaṭṭācārya, Benares: Krishnadas Academy, 1989 (Krishnadas Sanskrit Series 119), via GRETIL e-text.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "kd-6-5__mukunda-saranam-prapadye",
+      "work_id": "krama-dipika",
+      "locus_short": "KD 6.5 mantroddhāra",
+      "locus_long": "Kramadīpikā 6.5, mantroddhāra of the aṣṭādaśākṣara Mukunda-mantra",
+      "locus_structured": {
+        "chapter": 6,
+        "verse": 5,
+        "other": {
+          "text_unit": "mantroddhara"
+        }
+      },
+      "sanskrit_iast": "śrī-mukunda-caraṇau sadā śaraṇam ahaṃ prapadye |",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "śrī-mukunda-caraṇau",
+            "stem": "śrī-mukunda-caraṇa",
+            "morphology": "acc du masc",
+            "gloss": "the two feet of Śrī Mukunda"
+          },
+          {
+            "pada": "sadā",
+            "stem": "sadā",
+            "morphology": "indecl",
+            "gloss": "always"
+          },
+          {
+            "pada": "śaraṇam",
+            "stem": "śaraṇa",
+            "morphology": "acc sg neut",
+            "gloss": "as refuge"
+          },
+          {
+            "pada": "ahaṃ",
+            "stem": "aham",
+            "morphology": "nom sg",
+            "gloss": "I"
+          },
+          {
+            "pada": "prapadye",
+            "stem": "pra-√pad",
+            "morphology": "1sg pres ind Ā",
+            "gloss": "resort"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "śrī-mukunda-caraṇau",
+            "type": "tatpurusha",
+            "resolution": "śrī-mukundasya caraṇau",
+            "note": "The honorific `śrī` is carried within the proper-name compound."
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "kartṛ",
+            "pada": "ahaṃ",
+            "note": "subject of prapadye"
+          },
+          {
+            "role": "karman",
+            "pada": "śrī-mukunda-caraṇau",
+            "note": "the object to which the speaker resorts"
+          },
+          {
+            "role": "karman",
+            "pada": "śaraṇam",
+            "note": "predicate accusative: the mode in which the feet are approached"
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "prapadye",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "middle"
+          }
+        ]
+      },
+      "english_close": "I always resort, as refuge, to the two feet of Śrī Mukunda.",
+      "english_paraphrase": "The mantra is explicitly framed as self-surrender at Mukunda's feet.",
+      "preserved_terms": [
+        {
+          "term_iast": "śaraṇam",
+          "first_use_gloss": "(roughly: refuge, protective resort)"
+        },
+        {
+          "term_iast": "prapadye",
+          "first_use_gloss": "(roughly: I surrender myself / resort fully)"
+        }
+      ],
+      "why_this_passage": "This is representative because the work does not treat mantra as bare phonetic formula: its explicit shape is surrender at Mukunda's feet. The line therefore captures the prapatti-current that runs through Keśava's manual and gives the surrounding ritual its theological orientation.",
+      "topic_tags": [
+        "soteriology",
+        "ethics-devotion"
+      ],
+      "sub_axes": [
+        "surrender-prapatti",
+        "effective-means-of-moksa"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Sudhakar Malaviya (ed.), Keśavakāśmīri: Kramadīpikā with the commentary by Govindabhaṭṭācārya, Benares: Krishnadas Academy, 1989 (Krishnadas Sanskrit Series 119), via GRETIL e-text.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "kd-8-96__murari-eternally-pure-pada",
+      "work_id": "krama-dipika",
+      "locus_short": "KD 8.96",
+      "locus_long": "Kramadīpikā 8.96",
+      "locus_structured": {
+        "chapter": 8,
+        "verse": 96
+      },
+      "sanskrit_iast": "manum imam atihṛdyaṃ yo bhajed bhakti-namro\njapa-huta-yajanādyair dhyānavān mantri-mukhyaḥ |\ntruṭita-sakala-karma-granthir udbuddha-cetāḥ\nvrajati sa tu padaṃ tan nitya-śuddhaṃ murāreḥ ||",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "manum",
+            "stem": "manu",
+            "morphology": "acc sg masc",
+            "gloss": "mantra"
+          },
+          {
+            "pada": "imam",
+            "stem": "idam",
+            "morphology": "acc sg masc",
+            "gloss": "this"
+          },
+          {
+            "pada": "atihṛdyam",
+            "stem": "atihṛdya",
+            "morphology": "acc sg masc",
+            "gloss": "very delightful"
+          },
+          {
+            "pada": "yaḥ",
+            "stem": "yad",
+            "morphology": "nom sg masc",
+            "gloss": "who"
+          },
+          {
+            "pada": "bhajed",
+            "stem": "√bhaj",
+            "morphology": "3sg opt P",
+            "gloss": "should honor"
+          },
+          {
+            "pada": "bhakti-namraḥ",
+            "stem": "bhakti-namra",
+            "morphology": "nom sg masc",
+            "gloss": "bowed by devotion"
+          },
+          {
+            "pada": "japa-huta-yajanādyaiḥ",
+            "stem": "japa-huta-yajana-ādi",
+            "morphology": "instr pl neut",
+            "gloss": "with recitation, oblation, worship, and the like"
+          },
+          {
+            "pada": "dhyānavān",
+            "stem": "dhyānavat",
+            "morphology": "nom sg masc",
+            "gloss": "possessed of meditation"
+          },
+          {
+            "pada": "mantri-mukhyaḥ",
+            "stem": "mantri-mukhya",
+            "morphology": "nom sg masc",
+            "gloss": "the foremost practitioner"
+          },
+          {
+            "pada": "truṭita-sakala-karma-granthiḥ",
+            "stem": "truṭita-sakala-karma-granthi",
+            "morphology": "nom sg masc",
+            "gloss": "one whose knot of all karma is broken"
+          },
+          {
+            "pada": "udbuddha-cetāḥ",
+            "stem": "udbuddha-cetas",
+            "morphology": "nom sg masc",
+            "gloss": "one whose consciousness is awakened"
+          },
+          {
+            "pada": "vrajati",
+            "stem": "√vraj",
+            "morphology": "3sg pres ind P",
+            "gloss": "goes"
+          },
+          {
+            "pada": "sa",
+            "stem": "tad",
+            "morphology": "nom sg masc",
+            "gloss": "he"
+          },
+          {
+            "pada": "tu",
+            "stem": "tu",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "padam",
+            "stem": "pada",
+            "morphology": "acc sg neut",
+            "gloss": "station"
+          },
+          {
+            "pada": "tan",
+            "stem": "tad",
+            "morphology": "acc sg neut",
+            "gloss": "that"
+          },
+          {
+            "pada": "nitya-śuddham",
+            "stem": "nitya-śuddha",
+            "morphology": "acc sg neut",
+            "gloss": "eternally pure"
+          },
+          {
+            "pada": "murāreḥ",
+            "stem": "murāri",
+            "morphology": "gen sg masc",
+            "gloss": "of Murāri"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "bhakti-namraḥ",
+            "type": "tatpurusha",
+            "resolution": "bhaktyā namraḥ"
+          },
+          {
+            "compound": "japa-huta-yajanādyaiḥ",
+            "type": "dvandva",
+            "resolution": "japena hutena yajanena ādibhiś ca"
+          },
+          {
+            "compound": "mantri-mukhyaḥ",
+            "type": "tatpurusha",
+            "resolution": "mantriṇāṃ mukhyaḥ"
+          },
+          {
+            "compound": "truṭita-sakala-karma-granthiḥ",
+            "type": "bahuvrihi",
+            "resolution": "truṭitaḥ sakala-karma-granthiḥ yasya saḥ"
+          },
+          {
+            "compound": "udbuddha-cetāḥ",
+            "type": "bahuvrihi",
+            "resolution": "udbuddhaṃ cetaḥ yasya saḥ"
+          },
+          {
+            "compound": "nitya-śuddham",
+            "type": "karmadharaya",
+            "resolution": "nityaṃ śuddham"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "kartṛ",
+            "pada": "yaḥ ... mantri-mukhyaḥ",
+            "note": "subject of both bhajed and vrajati"
+          },
+          {
+            "role": "karman",
+            "pada": "manum imam atihṛdyam",
+            "note": "object of bhajed"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "japa-huta-yajanādyaiḥ",
+            "note": "means by which the mantra is honored"
+          },
+          {
+            "role": "karman",
+            "pada": "padam tan nitya-śuddhaṃ",
+            "note": "goal attained through vrajati"
+          },
+          {
+            "role": "sambandha",
+            "pada": "murāreḥ",
+            "note": "genitive relation to padam"
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "bhajed",
+            "lakara": "vidhi-liṅ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          },
+          {
+            "pada": "vrajati",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          }
+        ]
+      },
+      "english_close": "The foremost practitioner, bowed by bhakti, who should honor this very delightful mantra with recitation, oblation, worship, and the like, being possessed of meditation, with the knot of all karma broken and consciousness awakened, indeed goes to that eternally pure station of Murāri.",
+      "english_paraphrase": "Keśava's mature promise is that devotionally enacted mantra-practice cuts karmic bondage and leads the practitioner to Murāri's pure abode.",
+      "preserved_terms": [
+        {
+          "term_iast": "karma-granthi",
+          "first_use_gloss": "(roughly: the binding knot formed by karmic entanglement)"
+        }
+      ],
+      "why_this_passage": "This is a fair capstone because it states the manual's mature promise in one place: mantra-bhajana, performed with devotion and meditation, breaks karmic bondage and leads to Murāri's pure state. Given that only the Kramadīpikā is available on disk for this run, this verse is especially useful as a concise witness to Keśava's soteriological endpoint.",
+      "topic_tags": [
+        "soteriology",
+        "ethics-devotion"
+      ],
+      "sub_axes": [
+        "effective-means-of-moksa",
+        "identity-of-liberated-state",
+        "role-of-bhakti"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Sudhakar Malaviya (ed.), Keśavakāśmīri: Kramadīpikā with the commentary by Govindabhaṭṭācārya, Benares: Krishnadas Academy, 1989 (Krishnadas Sanskrit Series 119), via GRETIL e-text.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    }
+  ],
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1e-opus"
+  "last_verified_by": "wave2-codex"
 }

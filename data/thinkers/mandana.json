@@ -38,14 +38,1120 @@
       "genre": "prakarana",
       "language": "sanskrit",
       "summary": "An independent *prakaraṇa* in four chapters (*kāṇḍas*): *Brahma-Kāṇḍa* (the nature of *brahman* and the *jīva*'s relation to it), *Tarka-Kāṇḍa* (epistemological defense — *pramāṇa* analysis, refutation of *bhedavāda*), *Niyoga-Kāṇḍa* (engagement with Mīmāṃsaka *niyoga*/injunction theory and the relation of Vedic action to liberating knowledge), *Siddhi-Kāṇḍa* (the consummation: realization, *prasaṅkhyāna*-method, *jīvanmukti*). The *prasaṅkhyāna-vāda* — that Upaniṣadic *mahāvākya*-cognition must be prolonged into meditative *bhāvanā* before liberating realization arises — is the work's signature, and is precisely what Sureśvara's Naiṣkarmya-Siddhi will reject. The text-historical question of whether Maṇḍana is identical to the pre-conversion Sureśvara/Viśvarūpa is contested: traditional Advaita sectarian sources affirm the identification, while Hiriyanna and most modern academics (Thrasher, Allen Thrasher's monograph) reject it on grounds of doctrinal divergence between the Brahma-Siddhi and Sureśvara's Naiṣkarmya-Siddhi.",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "bs-1-1__ananda-svabhava-atma",
+        "bs-1-1__maya-borne-plurality",
+        "bs-1-1__avidya-anirvacaniya-jivanam",
+        "bs-1-4__pratyaksa-vidhatr-not-niseddhr",
+        "bs-1-35-36__tattvadarsanabhyasa"
+      ],
       "entry_status": "reviewed"
     }
   ],
-  "key_passages": [],
+  "key_passages": [
+    {
+      "passage_id": "bs-1-1__ananda-svabhava-atma",
+      "work_id": "brahma-siddhi",
+      "locus_short": "BS 1.1 (opening ānanda discussion)",
+      "locus_long": "Brahma-Siddhi, opening prose on mbs_1.1, argument that Brahman/the self is bliss by nature",
+      "locus_structured": {
+        "chapter": 1,
+        "verse": "1.1",
+        "other": {
+          "segment": "opening prose discussion of ānanda",
+          "kks_page": 6
+        }
+      },
+      "sanskrit_iast": "tasmād ātmaprakāśaprakṛṣṭātmasvabhāvam eva brahma iti yuktam /\nevaṃ ca laukikānanda etasya mātrā iti yujyate, avacchedāt /\nitaś cānandasvabhāva ātmā, parapremāspadatvāt /",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "tasmāt",
+            "stem": "tad",
+            "pratyaya": "-smāt",
+            "morphology": "abl sg neut used adverbially",
+            "gloss": "therefore, from this"
+          },
+          {
+            "pada": "ātmaprakāśaprakṛṣṭātmasvabhāvam",
+            "stem": "ātmaprakāśaprakṛṣṭātmasvabhāva",
+            "pratyaya": "-am",
+            "morphology": "acc sg masc",
+            "gloss": "having supreme self-luminosity as intrinsic nature"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "indeed, precisely"
+          },
+          {
+            "pada": "brahma",
+            "stem": "brahman",
+            "morphology": "nom sg neut",
+            "gloss": "Brahman"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "yuktam",
+            "stem": "yukta",
+            "morphology": "nom sg neut",
+            "gloss": "fitting, reasonable"
+          },
+          {
+            "pada": "evaṃ",
+            "stem": "evaṃ",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "laukikānanda",
+            "stem": "laukikānanda",
+            "morphology": "nom sg masc",
+            "gloss": "worldly pleasure"
+          },
+          {
+            "pada": "etasya",
+            "stem": "etad",
+            "pratyaya": "-sya",
+            "morphology": "gen sg masc/neut",
+            "gloss": "of this"
+          },
+          {
+            "pada": "mātrā",
+            "stem": "mātrā",
+            "morphology": "nom sg fem",
+            "gloss": "mere measure, mere fraction"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "yujyate",
+            "stem": "yuj",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "is fittingly construed"
+          },
+          {
+            "pada": "avacchedāt",
+            "stem": "avaccheda",
+            "pratyaya": "-āt",
+            "morphology": "abl sg masc",
+            "gloss": "because of delimitation"
+          },
+          {
+            "pada": "itaḥ",
+            "stem": "idam",
+            "morphology": "abl sg neut used adverbially",
+            "gloss": "moreover, from this too"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "ānandasvabhāva",
+            "stem": "ānandasvabhāva",
+            "morphology": "nom sg masc",
+            "gloss": "having bliss as intrinsic nature"
+          },
+          {
+            "pada": "ātmā",
+            "stem": "ātman",
+            "morphology": "nom sg masc",
+            "gloss": "the self"
+          },
+          {
+            "pada": "parapremāspadatvāt",
+            "stem": "parapremāspadatva",
+            "pratyaya": "-āt",
+            "morphology": "abl sg neut",
+            "gloss": "because of being the locus of supreme love"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "ātmaprakāśaprakṛṣṭātmasvabhāva",
+            "type": "tatpurusha",
+            "resolution": "ātmaprakāśaś ca saḥ prakṛṣṭa ātmasvabhāvaś ca yasya tat",
+            "note": "A serial compound: self-luminosity qualifies the supreme intrinsic nature."
+          },
+          {
+            "compound": "laukikānanda",
+            "type": "karmadharaya",
+            "resolution": "laukika ānandaḥ"
+          },
+          {
+            "compound": "ānandasvabhāva",
+            "type": "tatpurusha",
+            "resolution": "ānandaḥ svabhāvo yasya saḥ"
+          },
+          {
+            "compound": "parapremāspadatva",
+            "type": "tatpurusha",
+            "resolution": "parasya premaṇa āspadatvam"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "kartṛ",
+            "pada": "laukikānanda",
+            "note": "Subject of yujyate."
+          },
+          {
+            "role": "sambandha",
+            "pada": "etasya",
+            "note": "Genitive relation: worldly pleasure is only a measure of this Brahman/self."
+          },
+          {
+            "role": "apādāna",
+            "pada": "avacchedāt",
+            "note": "Ablative used causally: worldly pleasure is only a delimited instance."
+          },
+          {
+            "role": "apādāna",
+            "pada": "parapremāspadatvāt",
+            "note": "Ablative of reason supporting the predication ānandasvabhāva ātmā."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "yujyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive",
+            "note": "Impersonal evaluative use: 'it is fitting / it is appropriate to construe'."
+          }
+        ]
+      },
+      "english_close": "Therefore it is fitting that Brahman is precisely of the nature of supreme self-luminosity. Thus worldly pleasure is appropriately understood as only a mere measure of this, because it is delimited. And moreover the self is of the nature of bliss, because it is the locus of supreme love.",
+      "preserved_terms": [
+        {
+          "term_iast": "ātmaprakāśa",
+          "first_use_gloss": "self-luminosity; self-revealing consciousness"
+        },
+        {
+          "term_iast": "ānandasvabhāva",
+          "first_use_gloss": "having bliss as intrinsic nature"
+        }
+      ],
+      "why_this_passage": "This is not a detachable flourish from the maṅgala verse; it is Mandana's own positive construal of Brahman and self as self-luminous and bliss-natured. It fairly represents his ontology because he here explains why ordinary pleasure is derivative and why ultimate reality must be understood as intrinsic ānanda rather than mere absence of pain.",
+      "topic_tags": [
+        "ontology",
+        "soteriology"
+      ],
+      "sub_axes": [
+        "number-of-fundamental-existents",
+        "identity-of-liberated-state"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "S. Kuppuswami Sastri (ed.), Brahma-Siddhi, Madras Government Oriental Series 4, Madras: Government Press, 1937, as represented in the GRETIL transcription (which notes a few adopted older readings).",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "bs-1-1__maya-borne-plurality",
+      "work_id": "brahma-siddhi",
+      "locus_short": "BS 1.1 (plurality as māyā-bound)",
+      "locus_long": "Brahma-Siddhi, opening prose on mbs_1.1, argument that plurality is apprehended only under māyā and denied by śruti",
+      "locus_structured": {
+        "chapter": 1,
+        "verse": "1.1",
+        "other": {
+          "segment": "opening prose on ekatva and māyā",
+          "kks_page": 7
+        }
+      },
+      "sanskrit_iast": "indro māyābhiḥ pururūpa īyate iti vyaktam eva nānārūpāvagamo māyānibandhano darśitaḥ /\ntathā vyakto nānātvaniṣedho neha nānāsti kiñcana iti /",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "indro",
+            "stem": "indra",
+            "morphology": "nom sg masc",
+            "gloss": "Indra"
+          },
+          {
+            "pada": "māyābhiḥ",
+            "stem": "māyā",
+            "pratyaya": "-bhiḥ",
+            "morphology": "instr pl fem",
+            "gloss": "by māyās, by powers of appearance"
+          },
+          {
+            "pada": "pururūpa",
+            "stem": "pururūpa",
+            "morphology": "nom sg masc",
+            "gloss": "many-formed"
+          },
+          {
+            "pada": "īyate",
+            "stem": "i",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "goes, appears as"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "vyaktam",
+            "stem": "vyakta",
+            "morphology": "nom sg neut used adverbially",
+            "gloss": "clearly"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "nānārūpāvagamaḥ",
+            "stem": "nānārūpāvagama",
+            "morphology": "nom sg masc",
+            "gloss": "the apprehension of manifold forms"
+          },
+          {
+            "pada": "māyānibandhano",
+            "stem": "māyānibandhana",
+            "morphology": "nom sg masc",
+            "gloss": "bound to māyā"
+          },
+          {
+            "pada": "darśitaḥ",
+            "stem": "darśita",
+            "morphology": "nom sg masc",
+            "gloss": "has been shown"
+          },
+          {
+            "pada": "tathā",
+            "stem": "tathā",
+            "morphology": "indecl",
+            "gloss": "likewise"
+          },
+          {
+            "pada": "vyakto",
+            "stem": "vyakta",
+            "morphology": "nom sg masc",
+            "gloss": "explicit"
+          },
+          {
+            "pada": "nānātvaniṣedhaḥ",
+            "stem": "nānātvaniṣedha",
+            "morphology": "nom sg masc",
+            "gloss": "the negation of plurality"
+          },
+          {
+            "pada": "neha",
+            "stem": "na + iha",
+            "morphology": "indecl sandhi",
+            "gloss": "not here"
+          },
+          {
+            "pada": "nānāsti",
+            "stem": "nānā + asti",
+            "morphology": "indecl + 3sg pres ind P sandhi",
+            "gloss": "there is plurality"
+          },
+          {
+            "pada": "kiñcana",
+            "stem": "kiñcana",
+            "morphology": "acc sg neut used with negative",
+            "gloss": "anything whatsoever"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "pururūpa",
+            "type": "bahuvrihi",
+            "resolution": "purūṇi rūpāṇi yasya saḥ"
+          },
+          {
+            "compound": "nānārūpāvagama",
+            "type": "tatpurusha",
+            "resolution": "nānārūpāṇām avagamaḥ"
+          },
+          {
+            "compound": "māyānibandhana",
+            "type": "tatpurusha",
+            "resolution": "māyā nibandhanaṃ yasya saḥ"
+          },
+          {
+            "compound": "nānātvaniṣedha",
+            "type": "tatpurusha",
+            "resolution": "nānātvasya niṣedhaḥ"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "kartṛ",
+            "pada": "indro",
+            "note": "Subject of īyate in the cited śruti."
+          },
+          {
+            "role": "karaṇa",
+            "pada": "māyābhiḥ",
+            "note": "Instrument by which the many-formed appearance proceeds."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "nānārūpāvagamaḥ",
+            "note": "Subject of darśitaḥ."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "īyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "middle",
+            "note": "The cited śruti verb: 'goes / appears as many-formed'."
+          },
+          {
+            "pada": "asti",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "Finite verb inside the quoted sentence neha nānā asti kiñcana."
+          }
+        ]
+      },
+      "english_close": "\"Indra goes as many-formed by māyās\": thus it has been clearly shown that the apprehension of manifold forms is bound to māyā. Likewise the negation of plurality is explicit: \"here there is not any plurality whatsoever.\"",
+      "preserved_terms": [
+        {
+          "term_iast": "māyā",
+          "first_use_gloss": "appearance-producing power; that on which plural manifestation depends"
+        }
+      ],
+      "why_this_passage": "This is a fair doctrinal center of gravity for Mandana's Advaita because it states, in his own argumentative prose, both halves of the claim together: plurality is māyā-bound, and śruti's non-duality language is straightforwardly prohibitive. It is more representative than extracting only a famous mahāvākya citation because it shows how he reads those citations philosophically.",
+      "topic_tags": [
+        "ontology",
+        "causation"
+      ],
+      "sub_axes": [
+        "status-of-the-world",
+        "modal-status-of-difference-itself",
+        "ontological-tier-structure"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "S. Kuppuswami Sastri (ed.), Brahma-Siddhi, Madras Government Oriental Series 4, Madras: Government Press, 1937, as represented in the GRETIL transcription (which notes a few adopted older readings).",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "bs-1-1__avidya-anirvacaniya-jivanam",
+      "work_id": "brahma-siddhi",
+      "locus_short": "BS 1.1 (avidyā neither sat nor asat; in the jīvas)",
+      "locus_long": "Brahma-Siddhi, opening prose on mbs_1.1, definition of avidyā as anirvacanīyā and statement that its locus is the jīvas",
+      "locus_structured": {
+        "chapter": 1,
+        "verse": "1.1",
+        "other": {
+          "segment": "opening prose on avidyā",
+          "kks_page": "10-11"
+        }
+      },
+      "sanskrit_iast": "nāvidyā brahmaṇaḥ svabhāvaḥ, nārthāntaraṃ, nātyantam asatī, nāpi satī /\nevam eveyam avidyā māyā mithyāvabhāsa ity ucyate /\natyantāsattve khapuṣpasadṛśī na vyavahārāṅgam /\ntasmād anirvacanīyā /\nyat tu kasyāvidyeti, jīvānām iti brūmaḥ /",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "avidyā",
+            "stem": "avidyā",
+            "morphology": "nom sg fem",
+            "gloss": "ignorance"
+          },
+          {
+            "pada": "brahmaṇaḥ",
+            "stem": "brahman",
+            "pratyaya": "-ṇaḥ",
+            "morphology": "gen sg neut",
+            "gloss": "of Brahman"
+          },
+          {
+            "pada": "svabhāvaḥ",
+            "stem": "svabhāva",
+            "morphology": "nom sg masc",
+            "gloss": "intrinsic nature"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "arthāntaram",
+            "stem": "arthāntara",
+            "morphology": "nom sg neut",
+            "gloss": "a different thing"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "atyantam",
+            "stem": "atyantam",
+            "morphology": "indecl",
+            "gloss": "absolutely, altogether"
+          },
+          {
+            "pada": "asatī",
+            "stem": "asat",
+            "morphology": "nom sg fem",
+            "gloss": "non-existent"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "api",
+            "stem": "api",
+            "morphology": "indecl",
+            "gloss": "also, even"
+          },
+          {
+            "pada": "satī",
+            "stem": "sat",
+            "morphology": "nom sg fem",
+            "gloss": "existent"
+          },
+          {
+            "pada": "evam",
+            "stem": "evam",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "iyam",
+            "stem": "idam",
+            "morphology": "nom sg fem",
+            "gloss": "this"
+          },
+          {
+            "pada": "avidyā",
+            "stem": "avidyā",
+            "morphology": "nom sg fem",
+            "gloss": "ignorance"
+          },
+          {
+            "pada": "māyā",
+            "stem": "māyā",
+            "morphology": "nom sg fem",
+            "gloss": "māyā"
+          },
+          {
+            "pada": "mithyāvabhāsa",
+            "stem": "mithyāvabhāsa",
+            "morphology": "nom sg masc",
+            "gloss": "false appearance"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "ucyate",
+            "stem": "vac",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "is called"
+          },
+          {
+            "pada": "atyantāsattve",
+            "stem": "atyantāsattva",
+            "morphology": "loc sg neut",
+            "gloss": "in the condition of absolute non-existence"
+          },
+          {
+            "pada": "khapuṣpasadṛśī",
+            "stem": "khapuṣpasadṛś",
+            "morphology": "nom sg fem",
+            "gloss": "like a sky-flower"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "vyavahārāṅgam",
+            "stem": "vyavahārāṅga",
+            "morphology": "nom sg neut",
+            "gloss": "a member of practical transaction"
+          },
+          {
+            "pada": "tasmāt",
+            "stem": "tad",
+            "pratyaya": "-smāt",
+            "morphology": "abl sg neut used adverbially",
+            "gloss": "therefore"
+          },
+          {
+            "pada": "anirvacanīyā",
+            "stem": "anirvacanīya",
+            "morphology": "nom sg fem",
+            "gloss": "indeterminable"
+          },
+          {
+            "pada": "yat",
+            "stem": "yad",
+            "morphology": "acc sg neut used adverbially",
+            "gloss": "as for what"
+          },
+          {
+            "pada": "tu",
+            "stem": "tu",
+            "morphology": "indecl",
+            "gloss": "however"
+          },
+          {
+            "pada": "kasya",
+            "stem": "ka",
+            "pratyaya": "-sya",
+            "morphology": "gen sg",
+            "gloss": "of whom"
+          },
+          {
+            "pada": "avidyā",
+            "stem": "avidyā",
+            "morphology": "nom sg fem",
+            "gloss": "ignorance"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "jīvānām",
+            "stem": "jīva",
+            "pratyaya": "-ānām",
+            "morphology": "gen pl masc",
+            "gloss": "of the jīvas"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "brūmaḥ",
+            "stem": "brū",
+            "morphology": "1pl pres ind P",
+            "gloss": "we say"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "arthāntara",
+            "type": "tatpurusha",
+            "resolution": "arthaḥ antaraṃ vā; anyaḥ arthaḥ"
+          },
+          {
+            "compound": "mithyāvabhāsa",
+            "type": "tatpurusha",
+            "resolution": "mithyā avabhāsaḥ"
+          },
+          {
+            "compound": "atyantāsattva",
+            "type": "tatpurusha",
+            "resolution": "atyantam asattvam"
+          },
+          {
+            "compound": "khapuṣpasadṛśī",
+            "type": "tatpurusha",
+            "resolution": "khapuṣpasya sadṛśī"
+          },
+          {
+            "compound": "vyavahārāṅga",
+            "type": "tatpurusha",
+            "resolution": "vyavahārasya aṅgam"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "sambandha",
+            "pada": "brahmaṇaḥ",
+            "note": "Genitive relation denied: avidyā is not Brahman's intrinsic nature."
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "atyantāsattve",
+            "note": "Locative specifying the counterfactual condition under which avidyā would be like a sky-flower."
+          },
+          {
+            "role": "sambandha",
+            "pada": "jīvānām",
+            "note": "Genitive marking the locus-possession answer to kasyā avidyā."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "ucyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive",
+            "note": "Naming / definitional passive."
+          },
+          {
+            "pada": "brūmaḥ",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "Authorial first-person plural."
+          }
+        ]
+      },
+      "english_close": "Avidyā is not Brahman's intrinsic nature, not a different thing, not absolutely non-existent, and not existent either. This very avidyā is called māyā, a false appearance. If it were absolutely non-existent, like a sky-flower, it would not enter into practical transaction. Therefore it is indeterminable. And as for the question \"whose avidyā is it?\", we say: of the jīvas.",
+      "preserved_terms": [
+        {
+          "term_iast": "anirvacanīyā",
+          "first_use_gloss": "indeterminable as either real or unreal"
+        },
+        {
+          "term_iast": "mithyāvabhāsa",
+          "first_use_gloss": "false appearance; an appearance not stable as ultimate fact"
+        }
+      ],
+      "why_this_passage": "This is one of the most position-defining places in the work because it gives Mandana's own compressed formula for avidyā: neither Brahman's nature nor a separate real thing, neither sat nor asat, and located in the jīvas. That cluster of claims is exactly what later marks the Bhāmatī line, so choosing it is representational rather than cherry-picked.",
+      "topic_tags": [
+        "ontology",
+        "causation",
+        "epistemology"
+      ],
+      "sub_axes": [
+        "locus-of-avidya",
+        "mithya-vs-asat",
+        "status-of-vyavaharika"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "S. Kuppuswami Sastri (ed.), Brahma-Siddhi, Madras Government Oriental Series 4, Madras: Government Press, 1937, as represented in the GRETIL transcription (which notes a few adopted older readings).",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "bs-1-4__pratyaksa-vidhatr-not-niseddhr",
+      "work_id": "brahma-siddhi",
+      "locus_short": "BS 1.4",
+      "locus_long": "Brahma-Siddhi, mbs_1.4, opening Tarka-kāṇḍa verse on perception and scripture",
+      "locus_structured": {
+        "chapter": 1,
+        "verse": "1.4",
+        "other": {
+          "segment": "Tarka-kāṇḍa opening verse"
+        }
+      },
+      "sanskrit_iast": "āhur vidhātṛ pratyakṣaṃ na niṣeddhṛ vipaścitaḥ /\nnaikatva āgamas tena pratyakṣeṇa virudhyate //",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "āhur",
+            "stem": "brū",
+            "morphology": "3pl liṭ P",
+            "gloss": "have said, say"
+          },
+          {
+            "pada": "vidhātṛ",
+            "stem": "vidhātṛ",
+            "morphology": "acc sg neut",
+            "gloss": "an establisher, what positively determines"
+          },
+          {
+            "pada": "pratyakṣam",
+            "stem": "pratyakṣa",
+            "morphology": "acc sg neut",
+            "gloss": "perception"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "niṣeddhṛ",
+            "stem": "niṣeddhṛ",
+            "morphology": "acc sg neut",
+            "gloss": "a negator, what cancels"
+          },
+          {
+            "pada": "vipaścitaḥ",
+            "stem": "vipaścit",
+            "morphology": "nom pl masc",
+            "gloss": "the wise"
+          },
+          {
+            "pada": "naikatva",
+            "stem": "ekatva",
+            "morphology": "nom sg neut with prefixed negative sandhi",
+            "gloss": "oneness, non-plurality"
+          },
+          {
+            "pada": "āgamas",
+            "stem": "āgama",
+            "morphology": "nom sg masc",
+            "gloss": "scriptural testimony"
+          },
+          {
+            "pada": "tena",
+            "stem": "tad",
+            "pratyaya": "-ena",
+            "morphology": "instr sg neut",
+            "gloss": "by that"
+          },
+          {
+            "pada": "pratyakṣeṇa",
+            "stem": "pratyakṣa",
+            "pratyaya": "-eṇa",
+            "morphology": "instr sg neut",
+            "gloss": "by perception"
+          },
+          {
+            "pada": "virudhyate",
+            "stem": "rudh",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "is contradicted"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "pratyakṣa",
+            "type": "avyayibhava",
+            "resolution": "akṣasya prati vartate iti pratyakṣam",
+            "note": "Standard lexical formation: what is before the eyes / immediately presented."
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "kartṛ",
+            "pada": "vipaścitaḥ",
+            "note": "Subject of āhur."
+          },
+          {
+            "role": "karman",
+            "pada": "pratyakṣam",
+            "note": "Object predicated as vidhātṛ and not niṣeddhṛ."
+          },
+          {
+            "role": "karaṇa",
+            "pada": "pratyakṣeṇa",
+            "note": "Instrument with reference to which contradiction is denied."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "āhur",
+            "lakara": "liṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "Perfect used gnomicly: 'the wise say'."
+          },
+          {
+            "pada": "virudhyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive",
+            "note": "Passive: the scripture is not contradicted."
+          }
+        ]
+      },
+      "english_close": "The wise say that perception is an establisher, not a negator. Therefore the scriptural teaching of oneness is not contradicted by that perception.",
+      "preserved_terms": [
+        {
+          "term_iast": "āgama",
+          "first_use_gloss": "authoritative scriptural testimony"
+        }
+      ],
+      "why_this_passage": "This verse cleanly states Mandana's governing epistemic claim for the Tarka-kāṇḍa: perception establishes its own field but does not have jurisdiction to cancel Vedāntic non-duality. That is a representative programmatic statement rather than an isolated flourish, since the surrounding prose spends many pages unpacking exactly this asymmetry.",
+      "topic_tags": [
+        "epistemology"
+      ],
+      "sub_axes": [
+        "status-of-sruti",
+        "number-and-status-of-pramanas"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "S. Kuppuswami Sastri (ed.), Brahma-Siddhi, Madras Government Oriental Series 4, Madras: Government Press, 1937, as represented in the GRETIL transcription (which notes a few adopted older readings).",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "bs-1-35-36__tattvadarsanabhyasa",
+      "work_id": "brahma-siddhi",
+      "locus_short": "BS 1.35-36",
+      "locus_long": "Brahma-Siddhi, mbs_1.35-36, argument that further contemplative practice is required even after scriptural certainty",
+      "locus_structured": {
+        "chapter": 1,
+        "verse": "1.35-36",
+        "other": {
+          "segment": "discussion of tattvadarśanābhyāsa",
+          "kks_page": "35-36"
+        }
+      },
+      "sanskrit_iast": "tannivṛttaye 'sty anyad apekṣyam /\ntac ca tattvadarśanābhyāso lokasiddhaḥ /\ntathā ca mantavyo nididhyāsitavya ity ucyate /\ntasmāt tannivṛttaye viniścitabrahmātmabhāvenāpi sādhanāny apekṣyāṇi /",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "tannivṛttaye",
+            "stem": "tannivṛtti",
+            "pratyaya": "-aye",
+            "morphology": "dat sg fem",
+            "gloss": "for the cessation of that"
+          },
+          {
+            "pada": "asti",
+            "stem": "as",
+            "morphology": "3sg pres ind P",
+            "gloss": "there is"
+          },
+          {
+            "pada": "anyat",
+            "stem": "anya",
+            "morphology": "nom sg neut",
+            "gloss": "something else, another factor"
+          },
+          {
+            "pada": "apekṣyam",
+            "stem": "apekṣya",
+            "morphology": "nom sg neut gerundive",
+            "gloss": "to be required"
+          },
+          {
+            "pada": "tac",
+            "stem": "tad",
+            "morphology": "nom sg neut",
+            "gloss": "that"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "tattvadarśanābhyāsaḥ",
+            "stem": "tattvadarśanābhyāsa",
+            "morphology": "nom sg masc",
+            "gloss": "repeated practice of seeing the truth"
+          },
+          {
+            "pada": "lokasiddhaḥ",
+            "stem": "lokasiddha",
+            "morphology": "nom sg masc",
+            "gloss": "well known in common experience"
+          },
+          {
+            "pada": "tathā",
+            "stem": "tathā",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "mantavyaḥ",
+            "stem": "mantavya",
+            "morphology": "nom sg masc gerundive",
+            "gloss": "to be reflected upon"
+          },
+          {
+            "pada": "nididhyāsitavyaḥ",
+            "stem": "nididhyāsitavya",
+            "morphology": "nom sg masc gerundive",
+            "gloss": "to be deeply contemplated"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "ucyate",
+            "stem": "vac",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "is said"
+          },
+          {
+            "pada": "tasmāt",
+            "stem": "tad",
+            "pratyaya": "-smāt",
+            "morphology": "abl sg neut used adverbially",
+            "gloss": "therefore"
+          },
+          {
+            "pada": "tannivṛttaye",
+            "stem": "tannivṛtti",
+            "pratyaya": "-aye",
+            "morphology": "dat sg fem",
+            "gloss": "for the cessation of that"
+          },
+          {
+            "pada": "viniścitabrahmātmabhāvenāpi",
+            "stem": "viniścitabrahmātmabhāva",
+            "pratyaya": "-ena + api",
+            "morphology": "instr sg masc with indeclitic api",
+            "gloss": "even with the state of Brahman-self-identity being ascertained"
+          },
+          {
+            "pada": "sādhanāni",
+            "stem": "sādhana",
+            "morphology": "nom pl neut",
+            "gloss": "means, disciplines"
+          },
+          {
+            "pada": "apekṣyāṇi",
+            "stem": "apekṣya",
+            "morphology": "nom pl neut gerundive",
+            "gloss": "required"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "tannivṛtti",
+            "type": "tatpurusha",
+            "resolution": "tasya nivṛttiḥ"
+          },
+          {
+            "compound": "tattvadarśanābhyāsa",
+            "type": "tatpurusha",
+            "resolution": "tattvasya darśanasya abhyāsaḥ"
+          },
+          {
+            "compound": "lokasiddha",
+            "type": "tatpurusha",
+            "resolution": "loke siddhaḥ"
+          },
+          {
+            "compound": "viniścitabrahmātmabhāva",
+            "type": "tatpurusha",
+            "resolution": "viniścitaḥ brahma-ātma-bhāvaḥ yasmin tena"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "sampradāna",
+            "pada": "tannivṛttaye",
+            "note": "Dative of purpose: for the cessation of residual false appearance."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "tattvadarśanābhyāsaḥ",
+            "note": "Predicate nominative identifying the 'other required factor'."
+          },
+          {
+            "role": "karaṇa",
+            "pada": "viniścitabrahmātmabhāvenāpi",
+            "note": "Instrumental concessive: even when Brahman-self-identity has already been ascertained."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "sādhanāni",
+            "note": "Subject of apekṣyāṇi."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "asti",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "Existential verb."
+          },
+          {
+            "pada": "ucyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive",
+            "note": "Cites the Upaniṣadic injunctional wording."
+          }
+        ]
+      },
+      "english_close": "For the cessation of that, something else is required. And that is repeated practice of seeing the truth, something well established in ordinary experience. And thus it is said: 'it is to be reflected upon; it is to be deeply contemplated.' Therefore, even when Brahman-self-identity has been ascertained, further disciplines are required for the cessation of that residual error.",
+      "preserved_terms": [
+        {
+          "term_iast": "tattvadarśanābhyāsa",
+          "first_use_gloss": "repeated contemplative assimilation of the truth already understood"
+        },
+        {
+          "term_iast": "nididhyāsitavya",
+          "first_use_gloss": "to be the object of sustained contemplative dwelling"
+        }
+      ],
+      "why_this_passage": "This is the most direct accessible formulation, in the text on disk, of Mandana's signature prasaṅkhyāna-style position: verbal certainty is not yet enough, because further contemplative assimilation is still required. It therefore fairly represents the doctrinal hinge by which Mandana differs from jñāna-alone Advaita lines without reducing him to a caricature of 'works plus knowledge.'",
+      "topic_tags": [
+        "soteriology",
+        "epistemology"
+      ],
+      "sub_axes": [
+        "saving-cognition-status",
+        "effective-means-of-moksa"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "S. Kuppuswami Sastri (ed.), Brahma-Siddhi, Madras Government Oriental Series 4, Madras: Government Press, 1937, as represented in the GRETIL transcription (which notes a few adopted older readings).",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    }
+  ],
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1a-opus"
+  "last_verified_by": "wave2-codex"
 }

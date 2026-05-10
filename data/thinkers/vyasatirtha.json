@@ -61,7 +61,12 @@
       "genre": "polemical-tract",
       "language": "sanskrit",
       "summary": "The *Tarka-Tāṇḍava* (\"Dance of Reasoning\") is Vyāsatīrtha's frontal engagement with *Navya-Nyāya* — most directly with the school of Gaṅgeśa and the *Tattva-Cintāmaṇi* tradition. The work is structured as a *prakaraṇa*-by-*prakaraṇa* critique of Naiyāyika positions on *pramāṇa-lakṣaṇa*, *pratyakṣa*, *anumāna* (especially *vyāpti-grahaṇa*), *upamāna*, and *śabda*, conducted in the same Navya-Nyāya idiom the opponents use. Vyāsatīrtha's most influential constructive moves include his treatment of *kevalānvayi* inferences, his analysis of *pratyakṣa* in terms compatible with *sākṣi-pramāṇa*, and his refusal to grant the Naiyāyika understanding of *abhāva* as an autonomous *padārtha* — *abhāva* on his account collapses into a mode of the *adhikaraṇa*, sparing the school the regress-problems it would otherwise inherit. The *Tarka-Tāṇḍava* is the natural companion of the *Nyāyāmṛta*: where the *Nyāyāmṛta* fights the Advaitins, the *Tāṇḍava* fights the Naiyāyikas, and together they make Vyāsatīrtha's *Navya-Dvaita* a genuine third party in the late-medieval dialectical landscape. Rāghavendra's *Pariṃala* is its principal sub-commentary.",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "tarka-tandava-1-5__svatah-pramanair-amnayair",
+        "tarka-tandava-1-pramanyavada__opening-vipratipatti-triad",
+        "tarka-tandava-1-pramanyavada__jnanajanaka-matradhina-janmatvam",
+        "tarka-tandava-1-pramanyavada__jnanapramanyam-svato-grahyam"
+      ],
       "entry_status": "reviewed"
     },
     {
@@ -81,10 +86,708 @@
       "entry_status": "reviewed"
     }
   ],
-  "key_passages": [],
+  "key_passages": [
+    {
+      "passage_id": "tarka-tandava-1-5__svatah-pramanair-amnayair",
+      "work_id": "tarka-tandava",
+      "locus_short": "TT 1.5",
+      "locus_long": "Tarka-Tāṇḍava, pariccheda 1, verse 5",
+      "locus_structured": {
+        "chapter": 1,
+        "verse": 5
+      },
+      "sanskrit_iast": "svataḥpramāṇairāmnāyair\nādareṇādivarjitaiḥ /\nākhyātānantakalyāṇaguṇaṃ\nśrīramaṇaṃ bhaje //",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "svataḥpramāṇaiḥ",
+            "stem": "svataḥpramāṇa",
+            "pratyaya": "sup-instr pl",
+            "morphology": "instr pl masc",
+            "gloss": "self-valid"
+          },
+          {
+            "pada": "āmnāyair",
+            "stem": "āmnāya",
+            "pratyaya": "sup-instr pl",
+            "morphology": "instr pl masc",
+            "gloss": "by the Vedas / transmitted scriptures"
+          },
+          {
+            "pada": "ādareṇa",
+            "stem": "ādara",
+            "pratyaya": "sup-instr sg",
+            "morphology": "instr sg masc",
+            "gloss": "with reverent regard"
+          },
+          {
+            "pada": "ādivarjitaiḥ",
+            "stem": "ādi-varjita",
+            "pratyaya": "sup-instr pl",
+            "morphology": "instr pl masc",
+            "gloss": "devoid of an originating author"
+          },
+          {
+            "pada": "ākhyātānantakalyāṇaguṇam",
+            "stem": "ākhyāta-ananta-kalyāṇa-guṇa",
+            "pratyaya": "sup-acc sg",
+            "morphology": "acc sg masc",
+            "gloss": "whose infinite auspicious qualities are declared"
+          },
+          {
+            "pada": "śrīramaṇam",
+            "stem": "śrī-ramaṇa",
+            "pratyaya": "sup-acc sg",
+            "morphology": "acc sg masc",
+            "gloss": "the consort of Śrī"
+          },
+          {
+            "pada": "bhaje",
+            "stem": "bhaj",
+            "pratyaya": "tiṅ 1sg laṭ Ā",
+            "morphology": "1sg pres ind Ā",
+            "gloss": "I worship"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "svataḥpramāṇa",
+            "type": "avyayibhava",
+            "resolution": "svata eva pramāṇam"
+          },
+          {
+            "compound": "ādivarjita",
+            "type": "tatpurusha",
+            "resolution": "ādiḥ yasmin nāsti saḥ"
+          },
+          {
+            "compound": "anantakalyāṇaguṇa",
+            "type": "karmadharaya",
+            "resolution": "anantāś ca te kalyāṇā guṇāḥ"
+          },
+          {
+            "compound": "ākhyātānantakalyāṇaguṇa",
+            "type": "bahuvrihi",
+            "resolution": "ākhyātā anantakalyāṇaguṇā yasya saḥ"
+          },
+          {
+            "compound": "śrīramaṇa",
+            "type": "tatpurusha",
+            "resolution": "śriyāḥ ramaṇaḥ"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "kartṛ",
+            "pada": "(aham)",
+            "note": "understood from bhaje"
+          },
+          {
+            "role": "karman",
+            "pada": "śrīramaṇam"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "āmnāyair",
+            "note": "instrument with ākhyāta-"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "ādareṇa",
+            "note": "adverbial instrument modifying bhaje"
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "bhaje",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "middle"
+          }
+        ]
+      },
+      "english_close": "I worship the consort of Śrī, whose infinite auspicious qualities are declared, with reverent regard, by self-valid Vedas devoid of an originating author.",
+      "preserved_terms": [
+        {
+          "term_iast": "āmnāya",
+          "first_use_gloss": "revealed Vedic transmission"
+        },
+        {
+          "term_iast": "kalyāṇa-guṇa",
+          "first_use_gloss": "auspicious attribute, free of defect"
+        }
+      ],
+      "why_this_passage": "This opening verse is not merely devotional ornament: it condenses Vyāsatīrtha's epistemic and theological commitments in one place, making Veda self-valid and authorless while presenting the Lord as the bearer of infinite auspicious qualities. Given that the accessible on-disk corpus for this run is commentary-inclusive and not a clean critical base text throughout, the work's own invocatory verse is one of the safest representative loci to anchor the selection.",
+      "topic_tags": ["epistemology", "ontology", "ethics-devotion"],
+      "sub_axes": ["status-of-sruti", "status-of-personal-lord", "number-and-status-of-pramanas"],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "GRETIL plaintext (`sa_vyAsatIrtha-tarkatANDava-comm.txt`), converted 2020-07-31 from the Sansknet Project source; includes Rāghavendra Tīrtha's Nyāyadīpa commentary.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "tarka-tandava-1-pramanyavada__opening-vipratipatti-triad",
+      "work_id": "tarka-tandava",
+      "locus_short": "TT 1, Prāmāṇyavāda opening triad",
+      "locus_long": "Tarka-Tāṇḍava, pariccheda 1, prāmāṇyavāda, opening Vedāntin–Naiyāyika dispute-triad",
+      "locus_structured": {
+        "chapter": 1,
+        "section": "prāmāṇyavāda",
+        "other": {
+          "subsection": "opening-vipratipatti-triad",
+          "source_lines": "154-160"
+        }
+      },
+      "sanskrit_iast": "prāmāṇyaṃ svata iti vedāntinaḥ /\nparata iti naiyāyikāḥ //\nvedāḥ apauruṣeyā nityāśceti vedāntinaḥ /\nīśvaroccaritā anityā iti naiyāyikāḥ //\nīśvarasya sārvajñyādikaṃ vedenaiva siddhyatīti vedāntinaḥ /\ndharmāgrāhakānumānair iti naiyāyikāḥ //",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "prāmāṇyam",
+            "stem": "prāmāṇya",
+            "pratyaya": "sup-acc sg",
+            "morphology": "acc sg neut",
+            "gloss": "validity"
+          },
+          {
+            "pada": "svataḥ",
+            "stem": "svataḥ",
+            "pratyaya": "indeclinable",
+            "morphology": "indecl",
+            "gloss": "intrinsically / from itself"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "pratyaya": "indeclinable",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "vedāntinaḥ",
+            "stem": "vedāntin",
+            "pratyaya": "sup-nom pl",
+            "morphology": "nom pl masc",
+            "gloss": "Vedāntins"
+          },
+          {
+            "pada": "parataḥ",
+            "stem": "parataḥ",
+            "pratyaya": "indeclinable",
+            "morphology": "indecl",
+            "gloss": "extrinsically / from another"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "pratyaya": "indeclinable",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "naiyāyikāḥ",
+            "stem": "naiyāyika",
+            "pratyaya": "sup-nom pl",
+            "morphology": "nom pl masc",
+            "gloss": "Naiyāyikas"
+          },
+          {
+            "pada": "vedāḥ",
+            "stem": "veda",
+            "pratyaya": "sup-nom pl",
+            "morphology": "nom pl masc",
+            "gloss": "the Vedas"
+          },
+          {
+            "pada": "apauruṣeyā",
+            "stem": "apauruṣeya",
+            "pratyaya": "sup-nom pl",
+            "morphology": "nom pl masc",
+            "gloss": "authorless"
+          },
+          {
+            "pada": "nityāḥ",
+            "stem": "nitya",
+            "pratyaya": "sup-nom pl",
+            "morphology": "nom pl masc",
+            "gloss": "eternal"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "pratyaya": "indeclinable",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "pratyaya": "indeclinable",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "vedāntinaḥ",
+            "stem": "vedāntin",
+            "pratyaya": "sup-nom pl",
+            "morphology": "nom pl masc",
+            "gloss": "Vedāntins"
+          },
+          {
+            "pada": "īśvaroccaritā",
+            "stem": "īśvaroccarita",
+            "pratyaya": "sup-nom pl",
+            "morphology": "nom pl masc",
+            "gloss": "uttered by God"
+          },
+          {
+            "pada": "anityāḥ",
+            "stem": "anitya",
+            "pratyaya": "sup-nom pl",
+            "morphology": "nom pl masc",
+            "gloss": "non-eternal"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "pratyaya": "indeclinable",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "naiyāyikāḥ",
+            "stem": "naiyāyika",
+            "pratyaya": "sup-nom pl",
+            "morphology": "nom pl masc",
+            "gloss": "Naiyāyikas"
+          },
+          {
+            "pada": "īśvarasya",
+            "stem": "īśvara",
+            "pratyaya": "sup-gen sg",
+            "morphology": "gen sg masc",
+            "gloss": "of the Lord"
+          },
+          {
+            "pada": "sārvajñyādikam",
+            "stem": "sārvajñya-ādika",
+            "pratyaya": "sup-acc sg",
+            "morphology": "acc sg neut",
+            "gloss": "omniscience and the rest"
+          },
+          {
+            "pada": "vedena",
+            "stem": "veda",
+            "pratyaya": "sup-instr sg",
+            "morphology": "instr sg masc",
+            "gloss": "by the Veda"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "pratyaya": "indeclinable",
+            "morphology": "indecl",
+            "gloss": "alone"
+          },
+          {
+            "pada": "siddhyati",
+            "stem": "sidh",
+            "pratyaya": "tiṅ 3sg laṭ P",
+            "morphology": "3sg pres ind P",
+            "gloss": "is established"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "pratyaya": "indeclinable",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "vedāntinaḥ",
+            "stem": "vedāntin",
+            "pratyaya": "sup-nom pl",
+            "morphology": "nom pl masc",
+            "gloss": "Vedāntins"
+          },
+          {
+            "pada": "dharmāgrāhakānumānaiḥ",
+            "stem": "dharma-agrāhaka-anumāna",
+            "pratyaya": "sup-instr pl",
+            "morphology": "instr pl neut",
+            "gloss": "by dharma-grasping inferences"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "pratyaya": "indeclinable",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "naiyāyikāḥ",
+            "stem": "naiyāyika",
+            "pratyaya": "sup-nom pl",
+            "morphology": "nom pl masc",
+            "gloss": "Naiyāyikas"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "apauruṣeya",
+            "type": "negative-tatpurusha",
+            "resolution": "na puruṣakṛtaḥ"
+          },
+          {
+            "compound": "īśvaroccarita",
+            "type": "tatpurusha",
+            "resolution": "īśvareṇa uccaritāḥ"
+          },
+          {
+            "compound": "sārvajñyādika",
+            "type": "tatpurusha",
+            "resolution": "sārvajñyaṃ cādikaṃ ca"
+          },
+          {
+            "compound": "dharmāgrāhakānumāna",
+            "type": "upapada",
+            "resolution": "dharmaṃ agrāhakāni anumānāni"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "sambandha",
+            "pada": "īśvarasya"
+          },
+          {
+            "role": "karman",
+            "pada": "sārvajñyādikam"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "vedena"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "dharmāgrāhakānumānaiḥ",
+            "note": "elliptically supplies the Naiyāyika side of the same predication"
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "siddhyati",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          }
+        ]
+      },
+      "english_close": "Vedāntins say: validity is intrinsic; Naiyāyikas: it is extrinsic. Vedāntins say: the Vedas are authorless and eternal; Naiyāyikas: they are uttered by God and non-eternal. Vedāntins say: the Lord's omniscience and the rest are established by the Veda alone; Naiyāyikas: by inferences that apprehend dharma.",
+      "preserved_terms": [
+        {
+          "term_iast": "apauruṣeya",
+          "first_use_gloss": "not authored by any person"
+        },
+        {
+          "term_iast": "sārvajñya",
+          "first_use_gloss": "omniscience"
+        }
+      ],
+      "why_this_passage": "This opening dispute-triad is the clearest available map of the work's argumentative front: intrinsic validity, Vedic authorlessness, and the Veda-grounded proof of a fully qualified Lord. Because the on-disk source is commentary-inclusive, I use this locus explicitly as the file's own framing of Vyāsatīrtha's first pariccheda rather than pretending it is an isolated aphorism torn from context.",
+      "topic_tags": ["epistemology", "ontology"],
+      "sub_axes": ["status-of-sruti", "number-and-status-of-pramanas", "status-of-personal-lord"],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "GRETIL plaintext (`sa_vyAsatIrtha-tarkatANDava-comm.txt`), converted 2020-07-31 from the Sansknet Project source; includes Rāghavendra Tīrtha's Nyāyadīpa commentary.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "tarka-tandava-1-pramanyavada__jnanajanaka-matradhina-janmatvam",
+      "work_id": "tarka-tandava",
+      "locus_short": "TT 1, Prāmāṇyavāda, utpatti-svatastva",
+      "locus_long": "Tarka-Tāṇḍava, pariccheda 1, prāmāṇyavāda, lakṣaṇa of svatastva in origination",
+      "locus_structured": {
+        "chapter": 1,
+        "section": "prāmāṇyavāda",
+        "other": {
+          "subsection": "utpattau-svatastva-lakṣaṇa",
+          "source_lines": "259, 296"
+        }
+      },
+      "sanskrit_iast": "jñānajanakamātrādhīnajanmatvaṃ svatastvam",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "jñānajanakamātrādhīnajanmatvam",
+            "stem": "jñāna-janaka-mātra-adhīna-janmatva",
+            "pratyaya": "sup-nom sg",
+            "morphology": "nom sg neut",
+            "gloss": "origination dependent solely on the producer of the cognition"
+          },
+          {
+            "pada": "svatastvam",
+            "stem": "svatastva",
+            "pratyaya": "sup-nom sg",
+            "morphology": "nom sg neut",
+            "gloss": "intrinsicness"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "jñānajanakamātrādhīnajanmatva",
+            "type": "tatpurusha",
+            "resolution": "jñānajanakasya mātrasya adhīnaṃ janma yasya tat"
+          },
+          {
+            "compound": "svatastva",
+            "type": "avyayibhava",
+            "resolution": "svataḥ bhāvaḥ"
+          }
+        ],
+        "karaka_structure": [],
+        "verb_modality": []
+      },
+      "english_close": "Svatastva is origination dependent solely on the producer of the cognition.",
+      "preserved_terms": [
+        {
+          "term_iast": "svatastva",
+          "first_use_gloss": "intrinsicness, non-derivation from a further external factor"
+        }
+      ],
+      "why_this_passage": "This compressed lakṣaṇa is worth selecting because it states Vyāsatīrtha's positive thesis without dialectical scaffolding: for him, intrinsic validity at the level of origination means that no extra validity-producing factor beyond the cognition's own producer is required. It is not a famous ornamental line but a load-bearing definition inside the prāmāṇyavāda.",
+      "topic_tags": ["epistemology"],
+      "sub_axes": ["number-and-status-of-pramanas"],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "GRETIL plaintext (`sa_vyAsatIrtha-tarkatANDava-comm.txt`), converted 2020-07-31 from the Sansknet Project source; includes Rāghavendra Tīrtha's Nyāyadīpa commentary.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "tarka-tandava-1-pramanyavada__jnanapramanyam-svato-grahyam",
+      "work_id": "tarka-tandava",
+      "locus_short": "TT 1, Prāmāṇyavāda, svato-grāhyatvānumāna",
+      "locus_long": "Tarka-Tāṇḍava, pariccheda 1, prāmāṇyavāda, inference for the intrinsic graspability of cognitive validity",
+      "locus_structured": {
+        "chapter": 1,
+        "section": "prāmāṇyavāda",
+        "other": {
+          "subsection": "svato-grāhyatvānumāna",
+          "source_lines": "1592-1593"
+        }
+      },
+      "sanskrit_iast": "jñānaprāmāṇyaṃ svato grāhyaṃ,\nparato 'gṛhyamāṇatve sati gṛhyamāṇatvāt /\nyadyad anyenāgṛhyamāṇatve sati grāhyaṃ\ntat tena grāhyaṃ,\nyathā cakṣur anyenāgṛhyamāṇaṃ rūpaṃ\ncakṣurgrāhyam //",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "jñānaprāmāṇyam",
+            "stem": "jñāna-prāmāṇya",
+            "pratyaya": "sup-nom sg",
+            "morphology": "nom sg neut",
+            "gloss": "the validity of a cognition"
+          },
+          {
+            "pada": "svataḥ",
+            "stem": "svataḥ",
+            "pratyaya": "indeclinable",
+            "morphology": "indecl",
+            "gloss": "intrinsically"
+          },
+          {
+            "pada": "grāhyam",
+            "stem": "grāhya",
+            "pratyaya": "sup-nom sg",
+            "morphology": "nom sg neut",
+            "gloss": "graspable"
+          },
+          {
+            "pada": "parataḥ",
+            "stem": "parataḥ",
+            "pratyaya": "indeclinable",
+            "morphology": "indecl",
+            "gloss": "by something else"
+          },
+          {
+            "pada": "agṛhyamāṇatve",
+            "stem": "a-gṛhyamāṇatva",
+            "pratyaya": "sup-loc sg",
+            "morphology": "loc sg neut",
+            "gloss": "in the state of not being grasped"
+          },
+          {
+            "pada": "sati",
+            "stem": "sat",
+            "pratyaya": "śatṛ-loc sg",
+            "morphology": "loc sg masc",
+            "gloss": "when there is"
+          },
+          {
+            "pada": "gṛhyamāṇatvāt",
+            "stem": "gṛhyamāṇatva",
+            "pratyaya": "sup-abl sg",
+            "morphology": "abl sg neut",
+            "gloss": "because of being grasped"
+          },
+          {
+            "pada": "yadyad",
+            "stem": "yat",
+            "pratyaya": "correlative pronoun",
+            "morphology": "nom sg neut",
+            "gloss": "whatever"
+          },
+          {
+            "pada": "anyena",
+            "stem": "anya",
+            "pratyaya": "sup-instr sg",
+            "morphology": "instr sg neut",
+            "gloss": "by another"
+          },
+          {
+            "pada": "agṛhyamāṇatve",
+            "stem": "a-gṛhyamāṇatva",
+            "pratyaya": "sup-loc sg",
+            "morphology": "loc sg neut",
+            "gloss": "in the state of not being grasped"
+          },
+          {
+            "pada": "sati",
+            "stem": "sat",
+            "pratyaya": "śatṛ-loc sg",
+            "morphology": "loc sg masc",
+            "gloss": "when there is"
+          },
+          {
+            "pada": "grāhyam",
+            "stem": "grāhya",
+            "pratyaya": "sup-nom sg",
+            "morphology": "nom sg neut",
+            "gloss": "graspable"
+          },
+          {
+            "pada": "tat",
+            "stem": "tad",
+            "pratyaya": "sup-nom sg",
+            "morphology": "nom sg neut",
+            "gloss": "that"
+          },
+          {
+            "pada": "tena",
+            "stem": "tad",
+            "pratyaya": "sup-instr sg",
+            "morphology": "instr sg neut",
+            "gloss": "by that"
+          },
+          {
+            "pada": "grāhyam",
+            "stem": "grāhya",
+            "pratyaya": "sup-nom sg",
+            "morphology": "nom sg neut",
+            "gloss": "is graspable"
+          },
+          {
+            "pada": "yathā",
+            "stem": "yathā",
+            "pratyaya": "indeclinable",
+            "morphology": "indecl",
+            "gloss": "just as"
+          },
+          {
+            "pada": "cakṣuḥ",
+            "stem": "cakṣus",
+            "pratyaya": "sup-nom sg",
+            "morphology": "nom sg neut",
+            "gloss": "the eye"
+          },
+          {
+            "pada": "anyena",
+            "stem": "anya",
+            "pratyaya": "sup-instr sg",
+            "morphology": "instr sg neut",
+            "gloss": "by another"
+          },
+          {
+            "pada": "agṛhyamāṇam",
+            "stem": "a-gṛhyamāṇa",
+            "pratyaya": "sup-acc sg",
+            "morphology": "acc sg neut",
+            "gloss": "not being grasped"
+          },
+          {
+            "pada": "rūpam",
+            "stem": "rūpa",
+            "pratyaya": "sup-acc sg",
+            "morphology": "acc sg neut",
+            "gloss": "form / visible object"
+          },
+          {
+            "pada": "cakṣurgrāhyam",
+            "stem": "cakṣus-grāhya",
+            "pratyaya": "sup-nom sg",
+            "morphology": "nom sg neut",
+            "gloss": "graspable by the eye"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "jñānaprāmāṇya",
+            "type": "tatpurusha",
+            "resolution": "jñānasya prāmāṇyam"
+          },
+          {
+            "compound": "cakṣurgrāhya",
+            "type": "tatpurusha",
+            "resolution": "cakṣuṣā grāhyam"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "kartṛ",
+            "pada": "jñānaprāmāṇyam",
+            "note": "predicate subject of the inferential statement"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "tena",
+            "note": "instrument in the universal concomitance clause"
+          },
+          {
+            "role": "karman",
+            "pada": "rūpam",
+            "note": "object of the illustrative eye-grasp case"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "cakṣuḥ",
+            "note": "understood instrument in the example; compacted in cakṣurgrāhyam"
+          }
+        ],
+        "verb_modality": []
+      },
+      "english_close": "The validity of a cognition is intrinsically graspable, because, while not being grasped by something else, it is nevertheless grasped. Whatever, while not being grasped by another, is grasped, that is grasped by that very thing itself; just as a visible form, not grasped by another, is grasped by the eye.",
+      "preserved_terms": [
+        {
+          "term_iast": "grāhya",
+          "first_use_gloss": "available to be apprehended"
+        },
+        {
+          "term_iast": "prāmāṇya",
+          "first_use_gloss": "cognitive validity or truth-status"
+        }
+      ],
+      "why_this_passage": "This is the work's most explicit compact inferential defense of svato-grāhyatva, and so it shows Vyāsatīrtha doing what makes him distinctive: casting a Dvaita epistemic thesis in sharp Navya-style inferential form. It fairly represents the text because the surrounding section is devoted precisely to defending intrinsic validity against Naiyāyika externalism.",
+      "topic_tags": ["epistemology"],
+      "sub_axes": ["number-and-status-of-pramanas", "status-of-anubhava"],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "GRETIL plaintext (`sa_vyAsatIrtha-tarkatANDava-comm.txt`), converted 2020-07-31 from the Sansknet Project source; includes Rāghavendra Tīrtha's Nyāyadīpa commentary.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    }
+  ],
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1d-opus"
+  "last_verified_by": "wave2-codex"
 }

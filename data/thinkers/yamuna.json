@@ -29,7 +29,11 @@
       "genre": "prakarana",
       "language": "sanskrit",
       "summary": "A triad of *prakaraṇa*-treatises — *Ātma-Siddhi*, *Īśvara-Siddhi*, *Saṃvit-Siddhi* — establishing in turn the reality of the individual self, of a personal *Īśvara*, and of self-luminous awareness. The *Ātma-Siddhi* defends the *jīva* as an atomic, eternal, knowing substance (*jñātṛ*), refuting Buddhist no-self doctrines and the Advaitic identification of *ātman* with undifferentiated *cit*: the self is essentially knower, not knowing-as-such. The *Īśvara-Siddhi* mounts a theistic *anumāna* for a personal omniscient creator, taking the Naiyāyika design-argument and rebuilding it on Vedic foundations against Mīmāṃsaka objections. The *Saṃvit-Siddhi*, the foundational Viśiṣṭādvaita epistemology, defends *dharmi-bhūta-jñāna* — awareness as itself a substance bearing attributes, self-revelatory (*svayam-prakāśa*) yet directed always to a content — against Buddhist *vijñāna-vāda* and against proto-Advaita opponents who would collapse the knower-known distinction into pure unqualified consciousness. The triad is the philosophical bedrock on which Rāmānuja's *Śrī-Bhāṣya* stands.",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "atmasiddhi-3__self-distinct-self-manifest",
+        "isvarasiddhi-16-18__world-under-one-principal-person",
+        "samvitsiddhi-31-35__advitiya-not-world-negation"
+      ],
       "entry_status": "reviewed"
     },
     {
@@ -61,7 +65,9 @@
       "genre": "stotra",
       "language": "sanskrit",
       "summary": "Sixty-five-verse Sanskrit hymn to Nārāyaṇa, the literary template for the entire Śrīvaiṣṇava *stotra*-tradition. Beneath its devotional surface the *Stotra-Ratna* enacts the doctrinal architecture of the *Siddhi-Trayam*: it addresses Nārāyaṇa as Brahman *saviśeṣa* (qualified by infinite auspicious attributes — *ananta-kalyāṇa-guṇa*), as the inner-controller (*antaryāmin*) whose body is the totality of *cit* and *acit*, and as the sole refuge to whom *prapatti* (utter self-surrender) is the natural response of the *ākiñcana* (one stripped of all other resource). Verses such as 22 (*na dharma-niṣṭho 'smi*) and 47–53 give the canonical Śrīvaiṣṇava articulation of *śaraṇāgati* — the surrendering self as agent only of recognising its own incapacity. The work matters because it shows that Yāmuna's philosophical *prakaraṇa-s* and his liturgical hymnody express one and the same position: *bhakti* is not subordinate to *jñāna* but is *jñāna* in its mature, relational form, terminating in surrender to the divine person.",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "stotra-ratna-22-24__prapatti-from-helplessness"
+      ],
       "entry_status": "reviewed"
     },
     {
@@ -81,10 +87,1261 @@
       "entry_status": "reviewed"
     }
   ],
-  "key_passages": [],
+  "key_passages": [
+    {
+      "passage_id": "atmasiddhi-3__self-distinct-self-manifest",
+      "work_id": "siddhi-trayam",
+      "locus_short": "ĀS 3",
+      "locus_long": "Ātma-Siddhi, verse 3",
+      "locus_structured": {
+        "verse": 3
+      },
+      "sanskrit_iast": "dehendriyamanaḥprāṇadhībhyo 'nyo 'nanyasādhanaḥ /\nnityo vyāpī pratikṣetram ātmā bhinnaḥ svataḥ sukhī //",
+      "text_critical_note": "The transmitted GRETIL text reads `ananyasādhanaḥ`. The attached commentary later rejects an older printed reading `hānasvabhāva` and explains `ananyasādhanaḥ` as self-manifestness (`ananyena svena sādhanaṃ siddhiḥ prakāśaḥ yasya`).",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "dehendriyamanaḥprāṇadhībhyaḥ",
+            "stem": "deha-indriya-manas-prāṇa-dhī",
+            "morphology": "abl pl mixed; dvandva compound used collectively",
+            "gloss": "from body, senses, mind, vital breaths, and cognitions"
+          },
+          {
+            "pada": "anyaḥ",
+            "stem": "anya",
+            "pratyaya": "su",
+            "morphology": "nom sg masc",
+            "gloss": "other, distinct"
+          },
+          {
+            "pada": "ananyasādhanaḥ",
+            "stem": "ananya-sādhana",
+            "pratyaya": "su",
+            "morphology": "nom sg masc",
+            "gloss": "not requiring another means of manifestation; self-manifest"
+          },
+          {
+            "pada": "nityaḥ",
+            "stem": "nitya",
+            "pratyaya": "su",
+            "morphology": "nom sg masc",
+            "gloss": "eternal"
+          },
+          {
+            "pada": "vyāpī",
+            "stem": "vyāpin",
+            "pratyaya": "su",
+            "morphology": "nom sg masc",
+            "gloss": "pervasive"
+          },
+          {
+            "pada": "pratikṣetram",
+            "stem": "prati-kṣetra",
+            "morphology": "indeclinable adverb",
+            "gloss": "in each body-field separately"
+          },
+          {
+            "pada": "ātmā",
+            "stem": "ātman",
+            "pratyaya": "su",
+            "morphology": "nom sg masc",
+            "gloss": "the self"
+          },
+          {
+            "pada": "bhinnaḥ",
+            "stem": "bhinna",
+            "pratyaya": "su",
+            "morphology": "nom sg masc past passive participle",
+            "gloss": "distinct"
+          },
+          {
+            "pada": "svataḥ",
+            "stem": "sva",
+            "morphology": "abl sg indeclinable usage",
+            "gloss": "by its own nature"
+          },
+          {
+            "pada": "sukhī",
+            "stem": "sukhin",
+            "pratyaya": "su",
+            "morphology": "nom sg masc",
+            "gloss": "blissful, happy"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "dehendriyamanaḥprāṇadhībhyaḥ",
+            "type": "dvandva",
+            "resolution": "dehebhyaḥ indriyebhyaḥ manasaḥ prāṇebhyaḥ dhībhyāś ca",
+            "note": "The verse compresses the non-self series into one ablative dvandva."
+          },
+          {
+            "compound": "ananyasādhanaḥ",
+            "type": "negative-tatpurusha",
+            "resolution": "na anyat sādhanaṃ yasya saḥ",
+            "note": "Under the commentary's explanation, this marks the self as not needing a second revealer."
+          },
+          {
+            "compound": "pratikṣetram",
+            "type": "avyayibhava",
+            "resolution": "prati kṣetram",
+            "note": "Distributive: 'with respect to each field/body'."
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "kartṛ",
+            "pada": "ātmā",
+            "note": "Subject of the implied copula."
+          },
+          {
+            "role": "apādāna",
+            "pada": "dehendriyamanaḥprāṇadhībhyaḥ",
+            "note": "The self is distinguished away from this non-self aggregate."
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "pratikṣetram",
+            "note": "Distributive locus: each bodily field."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "asti (understood)",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "Nominal verse with an implied present copula."
+          }
+        ]
+      },
+      "english_close": "The self, distinct from body, senses, mind, vital breaths, and cognitions, is self-manifest, eternal, pervasive, distinct in each bodily field, and by nature blissful.",
+      "preserved_terms": [
+        {
+          "term_iast": "ātman",
+          "first_use_gloss": "the self as enduring subject"
+        },
+        {
+          "term_iast": "ananyasādhana",
+          "first_use_gloss": "not requiring another revealer; self-manifest"
+        }
+      ],
+      "why_this_passage": "This is not just a slogan but Yāmuna's own compact thesis-verse for the self: it fixes the self against body-mind reduction, against momentariness, and against pure-consciousness monism in one place. It fairly represents the Ātma-Siddhi because the surrounding commentary unpacks exactly these predicates as the work's programmatic claims.",
+      "topic_tags": [
+        "ontology",
+        "epistemology"
+      ],
+      "sub_axes": [
+        "status-of-individual-selves",
+        "status-of-anubhava"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Atma Siddhi, Yamuna, GRETIL plaintext (materials/primary_texts/sanskrit/vedanta/full_corpus/yamuna_atma_siddhi_gretil.txt; corpus_meta.tsv).",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed",
+      "last_verified_at": "2026-05-09",
+      "last_verified_by": "wave2-codex"
+    },
+    {
+      "passage_id": "isvarasiddhi-16-18__world-under-one-principal-person",
+      "work_id": "siddhi-trayam",
+      "locus_short": "ĪS 16-18",
+      "locus_long": "Īśvara-Siddhi, verses 16-18",
+      "locus_structured": {
+        "verse": "16-18"
+      },
+      "sanskrit_iast": "pratyakṣaṃ tat prameyatvāt padārthatvād ghaṭādivat /\nekecchānuvidhāyīdam acaitanyāt svadehavat //\nekenābhiṣṭhitāḥ kāryaṃ kurvate sarvacetanāḥ /\ndehasambandhasāpekṣakāryakṛttvāt tvagādivat //\nekapradhānapuruṣaṃ vivādādhyāsitaṃ jagat /\ncetanācetanātmatvād ekarājakadeśavat //",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "pratyakṣam",
+            "stem": "pratyakṣa",
+            "morphology": "nom sg neut",
+            "gloss": "perceptible, directly manifest"
+          },
+          {
+            "pada": "tat",
+            "stem": "tad",
+            "morphology": "nom sg neut",
+            "gloss": "that"
+          },
+          {
+            "pada": "prameyatvāt",
+            "stem": "prameyatva",
+            "pratyaya": "tasil",
+            "morphology": "abl sg neut",
+            "gloss": "because of being an object of knowledge"
+          },
+          {
+            "pada": "padārthatvāt",
+            "stem": "padārthatva",
+            "pratyaya": "tasil",
+            "morphology": "abl sg neut",
+            "gloss": "because of being a real entity/thing"
+          },
+          {
+            "pada": "ghaṭādivat",
+            "stem": "ghaṭa-ādi",
+            "morphology": "indeclinable comparative",
+            "gloss": "like a pot and the like"
+          },
+          {
+            "pada": "ekecchānuvidhāyīdam",
+            "stem": "eka-icchā-anuvidhāyin-idam",
+            "morphology": "nom sg neut",
+            "gloss": "this, following one will"
+          },
+          {
+            "pada": "acaitanyāt",
+            "stem": "acaitanya",
+            "morphology": "abl sg neut",
+            "gloss": "because of non-consciousness"
+          },
+          {
+            "pada": "svadehavat",
+            "stem": "sva-deha",
+            "morphology": "indeclinable comparative",
+            "gloss": "like one's own body"
+          },
+          {
+            "pada": "ekena",
+            "stem": "eka",
+            "morphology": "instr sg masc",
+            "gloss": "by one"
+          },
+          {
+            "pada": "abhiṣṭhitāḥ",
+            "stem": "abhi-sthā",
+            "morphology": "nom pl masc past passive participle",
+            "gloss": "presided over, directed"
+          },
+          {
+            "pada": "kāryam",
+            "stem": "kārya",
+            "morphology": "acc sg neut",
+            "gloss": "work, action"
+          },
+          {
+            "pada": "kurvate",
+            "stem": "kṛ",
+            "morphology": "3pl pres ind Ā",
+            "gloss": "they do, perform"
+          },
+          {
+            "pada": "sarvacetanāḥ",
+            "stem": "sarva-cetana",
+            "morphology": "nom pl masc",
+            "gloss": "all conscious beings"
+          },
+          {
+            "pada": "dehasambandhasāpekṣakāryakṛttvāt",
+            "stem": "deha-sambandha-sāpekṣa-kārya-kṛttva",
+            "morphology": "abl sg neut",
+            "gloss": "because their acting depends on relation to a body"
+          },
+          {
+            "pada": "tvagādivat",
+            "stem": "tvac-ādi",
+            "morphology": "indeclinable comparative",
+            "gloss": "like skin and the rest"
+          },
+          {
+            "pada": "ekapradhānapuruṣam",
+            "stem": "eka-pradhāna-puruṣa",
+            "morphology": "acc sg masc",
+            "gloss": "having one principal person"
+          },
+          {
+            "pada": "vivādādhyāsitam",
+            "stem": "vivāda-adhyāsita",
+            "morphology": "acc sg neut past passive participle",
+            "gloss": "the disputed subject under discussion"
+          },
+          {
+            "pada": "jagat",
+            "stem": "jagat",
+            "morphology": "acc sg neut",
+            "gloss": "world"
+          },
+          {
+            "pada": "cetanācetanātmatvāt",
+            "stem": "cetana-acetana-ātmatva",
+            "morphology": "abl sg neut",
+            "gloss": "because of consisting of conscious and non-conscious factors"
+          },
+          {
+            "pada": "ekarājakadeśavat",
+            "stem": "eka-rāja-deśa",
+            "morphology": "indeclinable comparative",
+            "gloss": "like a country with one king"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "prameyatva",
+            "type": "other",
+            "resolution": "prameya-bhāvaḥ",
+            "note": "Abstract noun from `prameya`."
+          },
+          {
+            "compound": "padārthatva",
+            "type": "other",
+            "resolution": "padārtha-bhāvaḥ",
+            "note": "Abstract noun marking thinghood/entity-status."
+          },
+          {
+            "compound": "ekecchānuvidhāyin",
+            "type": "tatpurusha",
+            "resolution": "ekām icchām anu vidhāyī",
+            "note": "Following a single will."
+          },
+          {
+            "compound": "svadehavat",
+            "type": "tatpurusha",
+            "resolution": "svaḥ dehaḥ iva",
+            "note": "Comparative example: one's own body."
+          },
+          {
+            "compound": "sarvacetanāḥ",
+            "type": "karmadharaya",
+            "resolution": "sarve cetanāḥ",
+            "note": "All conscious agents."
+          },
+          {
+            "compound": "dehasambandhasāpekṣakāryakṛttva",
+            "type": "tatpurusha",
+            "resolution": "deha-sambandha-sāpekṣaṃ kārya-kṛttvam",
+            "note": "Acting that depends on embodiment."
+          },
+          {
+            "compound": "ekapradhānapuruṣam",
+            "type": "karmadharaya",
+            "resolution": "ekaḥ pradhānaḥ puruṣaḥ yasya tat",
+            "note": "Having one chief person."
+          },
+          {
+            "compound": "cetanācetanātmatva",
+            "type": "dvandva",
+            "resolution": "cetanaṃ cācetanaṃ cātmā yasya tasya bhāvaḥ",
+            "note": "The world's constitution as a conscious-nonconscious complex."
+          },
+          {
+            "compound": "ekarājakadeśavat",
+            "type": "tatpurusha",
+            "resolution": "ekaḥ rājā yasmin deśe saḥ iva",
+            "note": "A polity structured by one ruler."
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "kartṛ",
+            "pada": "sarvacetanāḥ",
+            "note": "Explicit subject of `kurvate`."
+          },
+          {
+            "role": "karaṇa",
+            "pada": "ekena",
+            "note": "Instrumental of the one presiding agent."
+          },
+          {
+            "role": "karman",
+            "pada": "kāryam",
+            "note": "Object performed."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "tat / idam / jagat",
+            "note": "Each inferential clause predicates a property of the world."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "kurvate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "middle",
+            "note": "Finite verb in verse 17."
+          },
+          {
+            "pada": "anumīyatām",
+            "lakara": "loṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive",
+            "note": "Imperatival passive from the immediately preceding argumentative sequence; the inferential thrust continues in this triad."
+          },
+          {
+            "pada": "asti (understood)",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "Implied copula in the nominal predications."
+          }
+        ]
+      },
+      "english_close": "That world is perceptible because it is an object of knowledge, because it is an entity, like a pot and the like. This world follows one will because it is non-conscious, like one's own body. All conscious beings, being directed by one, perform action because their agency depends on relation to a body, like skin and the rest. The disputed world has one principal person, because it consists of conscious and non-conscious factors, like a land with one king.",
+      "preserved_terms": [
+        {
+          "term_iast": "jagat",
+          "first_use_gloss": "the ordered world-process"
+        },
+        {
+          "term_iast": "cetana",
+          "first_use_gloss": "conscious being"
+        },
+        {
+          "term_iast": "acetana",
+          "first_use_gloss": "non-conscious entity"
+        }
+      ],
+      "why_this_passage": "These verses are useful precisely because they are not merely a devotional assertion: they condense Yāmuna's inferential strategy for a personal Lord who orders both conscious and non-conscious reality. That makes them a fair representative of the Īśvara-Siddhi's project of arguing toward a real, governing Īśvara rather than simply presupposing him.",
+      "topic_tags": [
+        "causation",
+        "ontology"
+      ],
+      "sub_axes": [
+        "where-causal-power-locates",
+        "status-of-personal-lord"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Isvara Siddhi, Yamuna, GRETIL plaintext (materials/primary_texts/sanskrit/vedanta/full_corpus/yamuna_isvara_siddhi_gretil.txt; corpus_meta.tsv).",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed",
+      "last_verified_at": "2026-05-09",
+      "last_verified_by": "wave2-codex"
+    },
+    {
+      "passage_id": "samvitsiddhi-31-35__advitiya-not-world-negation",
+      "work_id": "siddhi-trayam",
+      "locus_short": "Svs 31-35",
+      "locus_long": "Saṃvit-Siddhi, verses 31-35",
+      "locus_structured": {
+        "verse": "31-35"
+      },
+      "sanskrit_iast": "tasmāt prapañcasadbhāvo nādvaitaśrutibādhitaḥ //\nsvapramāṇabalāt siddhaḥ śrutyā cāpy anumoditaḥ //\ntenādvitīyaṃ brahmeti śruter artho 'yam ucyate //\ndvitīyagaṇanāyogyo nāsīd asti bhaviṣyati //\nsamo vābhyadiko vāsya yo dvitīyas tu gaṇyate //",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "tasmāt",
+            "stem": "tad",
+            "morphology": "abl sg neut indeclinable usage",
+            "gloss": "therefore"
+          },
+          {
+            "pada": "prapañcasadbhāvaḥ",
+            "stem": "prapañca-sad-bhāva",
+            "morphology": "nom sg masc",
+            "gloss": "the real existence of the world-manifold"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indeclinable",
+            "gloss": "not"
+          },
+          {
+            "pada": "advaitaśrutibādhitaḥ",
+            "stem": "advaita-śruti-bādhita",
+            "morphology": "nom sg masc past passive participle",
+            "gloss": "negated by non-duality scripture"
+          },
+          {
+            "pada": "svapramāṇabalāt",
+            "stem": "sva-pramāṇa-bala",
+            "morphology": "abl sg neut",
+            "gloss": "by the force of its own means of knowledge"
+          },
+          {
+            "pada": "siddhaḥ",
+            "stem": "siddha",
+            "morphology": "nom sg masc past passive participle",
+            "gloss": "established"
+          },
+          {
+            "pada": "śrutyā",
+            "stem": "śruti",
+            "morphology": "instr sg fem",
+            "gloss": "by scripture"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indeclinable",
+            "gloss": "and"
+          },
+          {
+            "pada": "api",
+            "stem": "api",
+            "morphology": "indeclinable",
+            "gloss": "also"
+          },
+          {
+            "pada": "anumoditaḥ",
+            "stem": "anu-mud",
+            "morphology": "nom sg masc past passive participle",
+            "gloss": "approved, endorsed"
+          },
+          {
+            "pada": "tena",
+            "stem": "tad",
+            "morphology": "instr sg neut",
+            "gloss": "therefore, by that"
+          },
+          {
+            "pada": "advitīyam",
+            "stem": "a-dvitīya",
+            "morphology": "nom sg neut",
+            "gloss": "without a second"
+          },
+          {
+            "pada": "brahma",
+            "stem": "brahman",
+            "morphology": "nom sg neut",
+            "gloss": "Brahman"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indeclinable",
+            "gloss": "thus"
+          },
+          {
+            "pada": "śruteḥ",
+            "stem": "śruti",
+            "morphology": "gen sg fem",
+            "gloss": "of the scripture"
+          },
+          {
+            "pada": "arthaḥ",
+            "stem": "artha",
+            "morphology": "nom sg masc",
+            "gloss": "meaning"
+          },
+          {
+            "pada": "ayam",
+            "stem": "idam",
+            "morphology": "nom sg masc",
+            "gloss": "this"
+          },
+          {
+            "pada": "ucyate",
+            "stem": "vac",
+            "morphology": "3sg pres ind Ā passive",
+            "gloss": "is said"
+          },
+          {
+            "pada": "dvitīyagaṇanāyogyaḥ",
+            "stem": "dvitīya-gaṇanā-ayogya",
+            "morphology": "nom sg masc",
+            "gloss": "not fit for counting as a second"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indeclinable",
+            "gloss": "not"
+          },
+          {
+            "pada": "āsīt",
+            "stem": "as",
+            "morphology": "3sg imperfect ind P",
+            "gloss": "was"
+          },
+          {
+            "pada": "asti",
+            "stem": "as",
+            "morphology": "3sg pres ind P",
+            "gloss": "is"
+          },
+          {
+            "pada": "bhaviṣyati",
+            "stem": "bhū",
+            "morphology": "3sg fut ind P",
+            "gloss": "will be"
+          },
+          {
+            "pada": "samaḥ",
+            "stem": "sama",
+            "morphology": "nom sg masc",
+            "gloss": "equal"
+          },
+          {
+            "pada": "vā",
+            "stem": "vā",
+            "morphology": "indeclinable",
+            "gloss": "or"
+          },
+          {
+            "pada": "abhyadhikaḥ",
+            "stem": "abhyadhika",
+            "morphology": "nom sg masc",
+            "gloss": "superior"
+          },
+          {
+            "pada": "vā",
+            "stem": "vā",
+            "morphology": "indeclinable",
+            "gloss": "or"
+          },
+          {
+            "pada": "asya",
+            "stem": "idam",
+            "morphology": "gen sg neut",
+            "gloss": "to it, of it"
+          },
+          {
+            "pada": "yaḥ",
+            "stem": "yad",
+            "morphology": "nom sg masc",
+            "gloss": "who"
+          },
+          {
+            "pada": "dvitīyaḥ",
+            "stem": "dvitīya",
+            "morphology": "nom sg masc",
+            "gloss": "a second"
+          },
+          {
+            "pada": "tu",
+            "stem": "tu",
+            "morphology": "indeclinable",
+            "gloss": "however"
+          },
+          {
+            "pada": "gaṇyate",
+            "stem": "gaṇ",
+            "morphology": "3sg pres ind Ā passive",
+            "gloss": "is counted"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "prapañcasadbhāvaḥ",
+            "type": "tatpurusha",
+            "resolution": "prapañcasya sadbhāvaḥ",
+            "note": "The real being of the world-manifold."
+          },
+          {
+            "compound": "advaitaśrutibādhitaḥ",
+            "type": "tatpurusha",
+            "resolution": "advaitaṃ vadantyā śrutyā bādhitaḥ",
+            "note": "Negated by the relevant scriptural sentence."
+          },
+          {
+            "compound": "svapramāṇabalāt",
+            "type": "tatpurusha",
+            "resolution": "svasya pramāṇasya balāt",
+            "note": "From the force of the world's own valid means of knowing."
+          },
+          {
+            "compound": "dvitīyagaṇanāyogyaḥ",
+            "type": "negative-tatpurusha",
+            "resolution": "dvitīyagaṇanāyā ayogyaḥ",
+            "note": "Unfit to enter a count as a co-equal second."
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "kartṛ",
+            "pada": "prapañcasadbhāvaḥ",
+            "note": "Subject of the first nominal predication."
+          },
+          {
+            "role": "karaṇa",
+            "pada": "svapramāṇabalāt",
+            "note": "Ground by which world-reality is established."
+          },
+          {
+            "role": "karaṇa",
+            "pada": "śrutyā",
+            "note": "Instrument of corroboration."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "arthaḥ ayam",
+            "note": "Subject of `ucyate`."
+          },
+          {
+            "role": "sambandha",
+            "pada": "śruteḥ",
+            "note": "Genitive relation: the meaning belonging to the scriptural statement."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "yaḥ ... dvitīyaḥ",
+            "note": "Relative subject in the final definition."
+          },
+          {
+            "role": "sambandha",
+            "pada": "asya",
+            "note": "Reference back to Brahman."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "ucyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive",
+            "note": "Present passive: 'is said'."
+          },
+          {
+            "pada": "āsīt",
+            "lakara": "lāṅ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "Past time member of the triad."
+          },
+          {
+            "pada": "asti",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "Present time member of the triad."
+          },
+          {
+            "pada": "bhaviṣyati",
+            "lakara": "lṛṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "Future time member of the triad."
+          },
+          {
+            "pada": "gaṇyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive",
+            "note": "Present passive: 'is counted'."
+          }
+        ]
+      },
+      "english_close": "Therefore the real existence of the world-manifold is not negated by the non-duality scripture: it is established by the force of its own means of knowledge, and is also approved by scripture. Thus the meaning of the scriptural statement 'Brahman is without a second' is said to be this: there was not, is not, and will not be anything countable as a second to it, whether equal to it or superior to it.",
+      "preserved_terms": [
+        {
+          "term_iast": "prapañca",
+          "first_use_gloss": "the articulated world-manifold"
+        },
+        {
+          "term_iast": "pramāṇa",
+          "first_use_gloss": "a valid means of knowledge"
+        },
+        {
+          "term_iast": "advitīya",
+          "first_use_gloss": "without a second in the sense of no equal or superior counterpart"
+        }
+      ],
+      "why_this_passage": "This is one of the clearest places where Yāmuna states that Upaniṣadic non-duality does not cancel the world's reality but only denies any equal or superior second to Brahman. It fairly represents his position because it is not an isolated flourish: it explicitly ties ontology to the force of ordinary and scriptural pramāṇas, which is exactly how the Saṃvit-Siddhi argues.",
+      "topic_tags": [
+        "ontology",
+        "epistemology"
+      ],
+      "sub_axes": [
+        "status-of-the-world",
+        "status-of-sruti"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Samvit Siddhi, Yamuna, GRETIL plaintext based on Roque Mesquita's 1988 edition (materials/primary_texts/sanskrit/vedanta/full_corpus/yamuna_samvit_siddhi_gretil.txt; corpus_meta.tsv).",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed",
+      "last_verified_at": "2026-05-09",
+      "last_verified_by": "wave2-codex"
+    },
+    {
+      "passage_id": "stotra-ratna-22-24__prapatti-from-helplessness",
+      "work_id": "stotra-ratna",
+      "locus_short": "YStr 22-24",
+      "locus_long": "Stotra-Ratna, verses 22-24",
+      "locus_structured": {
+        "verse": "22-24"
+      },
+      "sanskrit_iast": "na dharmaniṣṭho 'smi, na cātmavedī, na bhaktimāṃs tvaccaraṇāravinde |\nakiñcano 'nanyagatiḥ śaraṇya ! tvatpādamūlaṃ śaraṇaṃ prapadye ||\nna ninditaṃ karma tad asti loke sahasraśo yan na mayā vyadhāyi |\nso 'haṃ vipākāvasare mukunda ! krandāmi sampraty agatis tavāgre ||\nnimajjato 'nanta ! bhavārṇavāntaś cirāya me kūlam ivāsi labdhaḥ |\ntvayāpi labdhaṃ bhagavann idānīm anuttamaṃ pātram idaṃ dayāyāḥ ||",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indeclinable",
+            "gloss": "not"
+          },
+          {
+            "pada": "dharmaniṣṭhaḥ",
+            "stem": "dharma-niṣṭha",
+            "morphology": "nom sg masc",
+            "gloss": "steadfast in dharma"
+          },
+          {
+            "pada": "asmi",
+            "stem": "as",
+            "morphology": "1sg pres ind P",
+            "gloss": "I am"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indeclinable",
+            "gloss": "not"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indeclinable",
+            "gloss": "and"
+          },
+          {
+            "pada": "ātmavedī",
+            "stem": "ātma-vedin",
+            "morphology": "nom sg masc",
+            "gloss": "knower of the self"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indeclinable",
+            "gloss": "not"
+          },
+          {
+            "pada": "bhaktimān",
+            "stem": "bhaktimat",
+            "morphology": "nom sg masc",
+            "gloss": "possessed of devotion"
+          },
+          {
+            "pada": "tvaccaraṇāravinde",
+            "stem": "tvat-caraṇa-aravinda",
+            "morphology": "loc sg neut",
+            "gloss": "in your lotus-foot"
+          },
+          {
+            "pada": "akiñcanaḥ",
+            "stem": "akiñcana",
+            "morphology": "nom sg masc",
+            "gloss": "having nothing"
+          },
+          {
+            "pada": "ananyagatiḥ",
+            "stem": "ananya-gati",
+            "morphology": "nom sg masc",
+            "gloss": "having no other refuge"
+          },
+          {
+            "pada": "śaraṇya",
+            "stem": "śaraṇya",
+            "morphology": "voc sg masc",
+            "gloss": "O refuge-giver"
+          },
+          {
+            "pada": "tvatpādamūlam",
+            "stem": "tvat-pāda-mūla",
+            "morphology": "acc sg neut",
+            "gloss": "the root of your feet"
+          },
+          {
+            "pada": "śaraṇam",
+            "stem": "śaraṇa",
+            "morphology": "acc sg neut adverbial",
+            "gloss": "as refuge"
+          },
+          {
+            "pada": "prapadye",
+            "stem": "pra-pad",
+            "morphology": "1sg pres ind Ā",
+            "gloss": "I resort, I take refuge"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indeclinable",
+            "gloss": "not"
+          },
+          {
+            "pada": "ninditam",
+            "stem": "nindita",
+            "morphology": "acc sg neut past passive participle",
+            "gloss": "blameworthy"
+          },
+          {
+            "pada": "karma",
+            "stem": "karman",
+            "morphology": "acc sg neut",
+            "gloss": "action, deed"
+          },
+          {
+            "pada": "tat",
+            "stem": "tad",
+            "morphology": "nom sg neut",
+            "gloss": "that"
+          },
+          {
+            "pada": "asti",
+            "stem": "as",
+            "morphology": "3sg pres ind P",
+            "gloss": "exists"
+          },
+          {
+            "pada": "loke",
+            "stem": "loka",
+            "morphology": "loc sg masc",
+            "gloss": "in the world"
+          },
+          {
+            "pada": "sahasraśaḥ",
+            "stem": "sahasraśas",
+            "morphology": "indeclinable",
+            "gloss": "thousands of times"
+          },
+          {
+            "pada": "yat",
+            "stem": "yad",
+            "morphology": "acc sg neut",
+            "gloss": "which"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indeclinable",
+            "gloss": "not"
+          },
+          {
+            "pada": "mayā",
+            "stem": "asmad",
+            "morphology": "instr sg",
+            "gloss": "by me"
+          },
+          {
+            "pada": "vyadhāyi",
+            "stem": "vi-dhā",
+            "morphology": "3sg passive aorist",
+            "gloss": "was done"
+          },
+          {
+            "pada": "saḥ",
+            "stem": "tad",
+            "morphology": "nom sg masc",
+            "gloss": "that very one"
+          },
+          {
+            "pada": "aham",
+            "stem": "asmad",
+            "morphology": "nom sg",
+            "gloss": "I"
+          },
+          {
+            "pada": "vipākāvasare",
+            "stem": "vipāka-avasara",
+            "morphology": "loc sg masc",
+            "gloss": "at the time of fruition"
+          },
+          {
+            "pada": "mukunda",
+            "stem": "mukunda",
+            "morphology": "voc sg masc",
+            "gloss": "O Mukunda"
+          },
+          {
+            "pada": "krandāmi",
+            "stem": "krand",
+            "morphology": "1sg pres ind P",
+            "gloss": "I cry out"
+          },
+          {
+            "pada": "samprati",
+            "stem": "samprati",
+            "morphology": "indeclinable",
+            "gloss": "now"
+          },
+          {
+            "pada": "agatiḥ",
+            "stem": "a-gati",
+            "morphology": "nom sg masc",
+            "gloss": "without recourse"
+          },
+          {
+            "pada": "tava",
+            "stem": "tvad",
+            "morphology": "gen sg",
+            "gloss": "before you, of you"
+          },
+          {
+            "pada": "agre",
+            "stem": "agra",
+            "morphology": "loc sg neut",
+            "gloss": "in front"
+          },
+          {
+            "pada": "nimajjataḥ",
+            "stem": "ni-majj",
+            "morphology": "gen sg masc present participle",
+            "gloss": "of one sinking"
+          },
+          {
+            "pada": "ananta",
+            "stem": "ananta",
+            "morphology": "voc sg masc",
+            "gloss": "O Endless One"
+          },
+          {
+            "pada": "bhavārṇavāntaḥ",
+            "stem": "bhava-arṇava-antaḥ",
+            "morphology": "loc sg masc",
+            "gloss": "in the depth of the ocean of becoming"
+          },
+          {
+            "pada": "cirāya",
+            "stem": "cirāya",
+            "morphology": "indeclinable dative usage",
+            "gloss": "after a long time"
+          },
+          {
+            "pada": "me",
+            "stem": "asmad",
+            "morphology": "gen sg",
+            "gloss": "for me"
+          },
+          {
+            "pada": "kūlam",
+            "stem": "kūla",
+            "morphology": "nom sg neut",
+            "gloss": "a shore"
+          },
+          {
+            "pada": "iva",
+            "stem": "iva",
+            "morphology": "indeclinable",
+            "gloss": "as if, like"
+          },
+          {
+            "pada": "asi",
+            "stem": "as",
+            "morphology": "2sg pres ind P",
+            "gloss": "you are"
+          },
+          {
+            "pada": "labdhaḥ",
+            "stem": "labdha",
+            "morphology": "nom sg masc past passive participle",
+            "gloss": "found"
+          },
+          {
+            "pada": "tvayā",
+            "stem": "tvad",
+            "morphology": "instr sg",
+            "gloss": "by you"
+          },
+          {
+            "pada": "api",
+            "stem": "api",
+            "morphology": "indeclinable",
+            "gloss": "also"
+          },
+          {
+            "pada": "labdham",
+            "stem": "labdha",
+            "morphology": "nom sg neut past passive participle",
+            "gloss": "found"
+          },
+          {
+            "pada": "bhagavan",
+            "stem": "bhagavant",
+            "morphology": "voc sg masc",
+            "gloss": "O Blessed Lord"
+          },
+          {
+            "pada": "idānīm",
+            "stem": "idānīm",
+            "morphology": "indeclinable",
+            "gloss": "now"
+          },
+          {
+            "pada": "anuttamam",
+            "stem": "anuttama",
+            "morphology": "nom sg neut",
+            "gloss": "unsurpassed"
+          },
+          {
+            "pada": "pātram",
+            "stem": "pātra",
+            "morphology": "nom sg neut",
+            "gloss": "vessel, recipient"
+          },
+          {
+            "pada": "idam",
+            "stem": "idam",
+            "morphology": "nom sg neut",
+            "gloss": "this"
+          },
+          {
+            "pada": "dayāyāḥ",
+            "stem": "dayā",
+            "morphology": "gen sg fem",
+            "gloss": "of compassion"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "dharmaniṣṭhaḥ",
+            "type": "tatpurusha",
+            "resolution": "dharme niṣṭhaḥ",
+            "note": "One established in dharma."
+          },
+          {
+            "compound": "ātmavedī",
+            "type": "upapada",
+            "resolution": "ātmānaṃ veda iti",
+            "note": "Knower of the self."
+          },
+          {
+            "compound": "tvaccaraṇāravinde",
+            "type": "tatpurusha",
+            "resolution": "tava caraṇam eva aravindam asmin",
+            "note": "Lotus-foot; locative of devotional focus."
+          },
+          {
+            "compound": "akiñcanaḥ",
+            "type": "negative-tatpurusha",
+            "resolution": "na kiñcana yasya saḥ",
+            "note": "Possessing no resource."
+          },
+          {
+            "compound": "ananyagatiḥ",
+            "type": "negative-tatpurusha",
+            "resolution": "na anyā gatiḥ yasya saḥ",
+            "note": "Having no other recourse."
+          },
+          {
+            "compound": "tvatpādamūlam",
+            "type": "tatpurusha",
+            "resolution": "tava pādasya mūlam",
+            "note": "The base of the Lord's feet as refuge."
+          },
+          {
+            "compound": "vipākāvasare",
+            "type": "tatpurusha",
+            "resolution": "vipākasya avasare",
+            "note": "At the time of karmic fruition."
+          },
+          {
+            "compound": "bhavārṇavāntaḥ",
+            "type": "tatpurusha",
+            "resolution": "bhavasya arṇavasya antaḥ",
+            "note": "Inside the ocean of transmigratory becoming."
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "kartṛ",
+            "pada": "aham",
+            "note": "Subject of `asmi`, `prapadye`, and `krandāmi`."
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "tvaccaraṇāravinde",
+            "note": "Locus for the denied possession of bhakti."
+          },
+          {
+            "role": "karman",
+            "pada": "tvatpādamūlam",
+            "note": "Object approached in `prapadye`."
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "vipākāvasare",
+            "note": "Temporal locus for the cry of helplessness."
+          },
+          {
+            "role": "sambodhana",
+            "pada": "śaraṇya / mukunda / ananta / bhagavan",
+            "note": "Vocatives intensifying dependence on the Lord."
+          },
+          {
+            "role": "sambandha",
+            "pada": "dayāyāḥ",
+            "note": "Genitive relation: the speaker as recipient-vessel of compassion."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "asmi",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "Self-description in the present."
+          },
+          {
+            "pada": "prapadye",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "middle",
+            "note": "Reflexive taking-refuge formula."
+          },
+          {
+            "pada": "asti",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "Existential statement in verse 23."
+          },
+          {
+            "pada": "vyadhāyi",
+            "lakara": "luṅ",
+            "pada_PA": "atmanepada",
+            "voice": "passive",
+            "note": "Aorist passive: 'was done by me'."
+          },
+          {
+            "pada": "krandāmi",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "Present cry for refuge."
+          },
+          {
+            "pada": "asi",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "Identification of the Lord as the discovered shore."
+          }
+        ]
+      },
+      "english_close": "I am not one steadfast in dharma, nor a knower of the self, nor one possessed of devotion at your lotus-feet. Possessing nothing, with no other refuge, O refuge-giver, I take refuge in the root of your feet. There is no blameworthy deed in the world which I have not performed thousands of times. I, at the time of karmic fruition, O Mukunda, now cry out before you, bereft of recourse. For me, long sinking in the depth of the ocean of becoming, O Endless One, you are like a shore at last found; and by you too, O Lord, this unsurpassed vessel of compassion has now been found.",
+      "preserved_terms": [
+        {
+          "term_iast": "akiñcana",
+          "first_use_gloss": "one stripped of all resource"
+        },
+        {
+          "term_iast": "śaraṇa",
+          "first_use_gloss": "refuge, the act and state of resorting"
+        },
+        {
+          "term_iast": "prapadye",
+          "first_use_gloss": "I take refuge; the verbal core of prapatti"
+        }
+      ],
+      "why_this_passage": "Verse 22 is famous, but taking 22-24 together prevents cherry-picking: the surrender is embedded in confessed moral failure, karmic vulnerability, and the Lord's compassionate initiative. That is exactly how Yāmuna presents prapatti in the Stotra-Ratna, so this selection fairly represents the work rather than isolating a slogan.",
+      "topic_tags": [
+        "soteriology",
+        "ethics-devotion"
+      ],
+      "sub_axes": [
+        "effective-means-of-moksa",
+        "role-of-grace-vs-effort",
+        "surrender-prapatti"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Stotra Ratna, Yamuna, GRETIL plaintext (materials/primary_texts/sanskrit/vedanta/full_corpus/yamuna_stotra_ratna_gretil.txt; corpus_meta.tsv).",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed",
+      "last_verified_at": "2026-05-09",
+      "last_verified_by": "wave2-codex"
+    }
+  ],
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1c-opus"
+  "last_verified_by": "wave2-codex"
 }
