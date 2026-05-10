@@ -1,0 +1,32 @@
+{
+  "term_key": "isvara",
+  "term_iast": "Īśvara",
+  "term_devanagari": "ईश्वर",
+  "literal": "lord, ruler, the one who rules; from √īś 'to rule'",
+  "aliases": ["isvara", "Īśvara", "īśvara", "Iśvara", "īśvaraḥ", "īśvarasya", "ishvara", "ishwar"],
+  "invariant_definition": "The Lord — *brahman* under the aspect of cosmic ruler, sustainer, dispenser of *karma*-fruits, and object of *upāsana*. All Vedāntic schools accept the existence of *Īśvara* and identify him with one of the personal deities (Viṣṇu in the Vaiṣṇava traditions, Śiva in Śaiva-influenced contexts). They differ on whether *Īśvara* is the highest description of *brahman* (Viśiṣṭādvaita, Dvaita, Vaiṣṇava bhedābheda — yes, the personal Lord is the highest reality) or a *saguṇa* description sublatable in the realization of *nirguṇa brahman* (Advaita).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Īśvara* is *saguṇa brahman* — *brahman* associated with *māyā* (under its *sattva*-pradhāna *upādhi*). *Īśvara* is the cosmic creator, sustainer, dissolver, and dispenser of *karma*-fruits. Real for the *vyāvahārika* and devotional standpoints; sublated in the realization of *nirguṇa brahman*. *Īśvara* is the proper object of *upāsana* but not the proper object of liberating *jñāna*.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.2 (janmādy asya yataḥ)", "Brahma-Sūtra-Bhāṣya 2.1.13 (Īśvara as cause)", "Pañcadaśī 6.130–145 (Īśvara as māyā-upādhi-Brahman)"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Īśvara* IS *brahman* in his highest description: Viṣṇu-Nārāyaṇa, possessing infinite auspicious qualities, with *cit* and *acit* as his body, the soul of all souls. There is no higher *nirguṇa* description; *nirguṇa* texts deny only *heya-guṇas*.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§91–137", "Śrī-Bhāṣya 1.1.1, 1.1.13"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Īśvara* is the unique *svatantra* — Viṣṇu, the only independent reality, on whom all else depends. Identified strictly with Viṣṇu against the Śaiva and other identifications.",
+      "primary_loci": ["Tattva-Saṅkhyāna 1–4", "Viṣṇu-Tattva-Vinirṇaya"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Īśvara* is Kṛṣṇa as *svayaṃ-bhagavān*; Viṣṇu in his various forms is *Īśvara* as *paramātman*; impersonal *brahman* is the *brahmajyoti* (Kṛṣṇa's bodily effulgence). A graded ontology: *brahman* < *paramātman* < *bhagavān* (Kṛṣṇa).",
+      "primary_loci": ["Bhagavat-Sandarbha §§1–7", "Kṛṣṇa-Sandarbha §28"]
+    }
+  ],
+  "see_also": ["brahman", "bhagavan", "saguna", "nirguna", "visnu", "siva", "paramatman"],
+  "translator_note": "'God' is the conventional gloss; bears the same risks flagged for *brahman* (Christian-monotheist resonance). 'The Lord' is closer (it preserves the rulership-sense of √īś). Note: in Advaita, calling *brahman* 'God' (as if *Īśvara* exhausts the highest description) is precisely the misreading — *nirguṇa brahman* exceeds *Īśvara*."
+}

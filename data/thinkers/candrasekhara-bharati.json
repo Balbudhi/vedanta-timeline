@@ -1,0 +1,84 @@
+{
+  "id": "candrasekhara-bharati",
+  "name": "Chandrashekhara Bharati III",
+  "name_iast": "Candraśekhara Bhāratī III",
+  "alternate_names": ["Narasiṃha Śāstrī (birth name)", "Jagadguru Śaṅkarācārya of Śṛṅgerī (1912–1954)"],
+  "dates_low": 1892,
+  "dates_high": 1954,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Born 1892; sannyāsa-dīkṣā 7 April 1912 from Satyānanda Sarasvatī; jagadguru of Sringeri Śāradā Pīṭha 1912–1954.",
+  "dates_evidence": [
+    {
+      "kind": "sectarian-chronicle",
+      "description": "Sringeri Śāradā Pīṭha gurupāramparā records."
+    },
+    {
+      "kind": "manuscript-colophon",
+      "description": "Sringeri publication colophons; Vivekacūḍāmaṇi-Bhāṣya first-edition records."
+    }
+  ],
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Śṛṅgerī-paṭṭa (modern living-Advaita)",
+  "sub_school_shade": 4,
+  "lineage_in": ["sankara", "vidyaranya"],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Candraśekhara Bhāratī III, Jagadguru of the Śṛṅgerī Śāradā Pīṭha 1912–1954, embodies the twentieth-century continuity of the classical Advaita maṭha-tradition founded by Śaṅkara's disciple Sureśvara. His Sanskrit *Vivekacūḍāmaṇi-Bhāṣya* — a commentary on the school-ascribed *Vivekacūḍāmaṇi* — is the principal philosophical text he wrote, articulating the standard Vivaraṇa-Bhāmatī-synthesis Advaita of the modern Śṛṅgerī curriculum: *adhyāsa* of *jīva* on *Brahman*, *māyā* as the *upādhi* of *Īśvara*, *jñāna-niṣṭhā* as the operative *sādhana*. His *Gururāja-Sūkti-Mālikā* — thirty-six short Sanskrit compositions in roughly four hundred pages — is the doctrinal-poetic record of his upadeśa to disciples. Beyond his written corpus he is consequential as the embodied institutional witness that the unbroken Śṛṅgerī succession from Śaṅkara is doctrinally living rather than merely ceremonial — an essential datum for the timeline's modern terminus on the Advaita line. The doctrinal alignment is conservative orthodox Vivaraṇa-Bhāmatī Advaita, in continuity with the Śṛṅgerī curriculum of his predecessors and successors.",
+  "engaged_works": [
+    {
+      "work_id": "vivekachudamani-bhashya",
+      "title": "Sanskrit Bhashya on Vivekachudamani",
+      "title_iast": "Vivekacūḍāmaṇi-Bhāṣya",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Sanskrit commentary on the school-ascribed Vivekacūḍāmaṇi (whose attribution to Śaṅkara is itself contested; see the Śaṅkara entry).",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus; Sringeri publication colophon."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "A Sanskrit commentary on the *Vivekacūḍāmaṇi*, the verse-treatise traditionally ascribed to Śaṅkara and treated as authoritative within the Sringeri curriculum. The commentary is the principal modern Sringeri reading and articulates the standard Vivaraṇa-Bhāmatī-synthesis Advaita of the school in the early twentieth century. The treatment of *adhyāsa* — the *jīva*'s superimposition on *Brahman* — is built on the *adhyāsa-bhāṣya* prefacing BSB 1.1.1; *māyā* is treated as the *upādhi* of *Īśvara* in the Vivaraṇa manner; *jñāna-niṣṭhā* is the operative *sādhana*, with *karma* and *upāsanā* as preparatory. The doctrinal substance is conservative and continuous with the Sringeri curriculum; the work's significance is the documentary record of how the school reads its school-ascribed canon at the modern living-tradition terminus.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "gururaja-sukti-malika",
+      "title": "Gururaja-Sukti-Malika",
+      "title_iast": "Gururāja-Sūkti-Mālikā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Sanskrit doctrinal-poetic compositions.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus; Sringeri publication colophon."}
+      ],
+      "genre": "stotra",
+      "language": "sanskrit",
+      "summary": "A garland of thirty-six short Sanskrit compositions running to roughly four hundred pages in the standard edition. The compositions are doctrinal-poetic in register — *stotra* and *prakaraṇa* elements together — and record Candraśekhara Bhāratī's *upadeśa* to disciples. Each composition takes one doctrinal or *sādhana* topic and treats it in a single sustained Sanskrit movement: *adhyāsa*, *brahma-jñāna*, the *guru*-relation, *jīvanmukti*, the qualifications for *sannyāsa*. The work is the principal documentary record of the Jagadguru's pedagogical voice and is read within the Sringeri tradition as the modern complement to the *Upadeśa-Sāhasrī* on the *upadeśa* side.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "recorded-discourses",
+      "title": "Recorded oral discourses",
+      "title_iast": "Recorded oral discourses",
+      "alternate_titles": [],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed; transcribed by disciples and circulated in modern editions.",
+      "ascription_evidence": [
+        {"kind": "school-acceptance", "description": "Sringeri publication tradition."}
+      ],
+      "genre": "dialogue",
+      "language": "sanskrit",
+      "summary": "Transcribed oral *upadeśa* delivered by Candraśekhara Bhāratī to disciples and visiting scholars during his tenure as Jagadguru of Sringeri 1912–1954. The discourses cover the school's standard pedagogical topics — *adhyāsa*, *māyā*, *jñāna-niṣṭhā*, the path of *sannyāsa*, the qualifications for *brahma-jijñāsā*, the relation between *upāsanā* and *jñāna* — in a register accessible to disciples without full pāṭhaśālā Sanskrit training. The doctrinal substance is in continuity with the *Vivekacūḍāmaṇi-Bhāṣya* and the *Gururāja-Sūkti-Mālikā*; the work matters principally as documentary evidence of the embodied living-tradition pedagogy at the Sringeri terminus of the Advaita line.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-corpus-v2-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-corpus-v2-opus"
+}

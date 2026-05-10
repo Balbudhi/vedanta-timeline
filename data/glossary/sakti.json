@@ -1,0 +1,32 @@
+{
+  "term_key": "sakti",
+  "term_iast": "śakti",
+  "term_devanagari": "शक्ति",
+  "literal": "power, capacity, capability; from √śak 'to be able'",
+  "aliases": ["sakti", "śakti", "Śakti", "śaktiḥ", "śakter", "śakteḥ", "śaktyā", "shakti"],
+  "invariant_definition": "Power, in the technical sense of an inherent capacity belonging to a substance. In two principal Vedāntic-adjacent registers: (1) Mīmāṃsā semantics — *śakti* as the word's capacity-to-denote (*abhidhā-śakti*), the meaning-relation; (2) theological — *śakti* as the divine power, especially in (a) Śākta and Trika contexts where Śakti is hypostatized as the supreme Goddess/feminine pole of the divine, and (b) Vaiṣṇava bhedābheda contexts where Kṛṣṇa's *śakti*s are systematically catalogued (*svarūpa-śakti*, *jīva-śakti*/taṭasthā, *māyā-śakti*/bahiraṅgā). All schools accept *śakti* as a real category; they differ sharply on (a) whether *śakti* is ontologically inseparable from the *śaktimat* (the power-bearer) or distinguishable from it, and (b) whether the divine *śakti* is hypostatizable as the supreme reality (Śākta-Trika: yes) or is always the property of a *śaktimat* (most Vedānta: yes).",
+  "per_school": [
+    {
+      "school": "Trika / Kashmir Śaivism",
+      "definition": "Śakti is the *vimarśa*-aspect of Śiva, inseparable from him. The Goddess Parā-vāk is the supreme Śakti through whom Śiva self-cognizes. Śiva and Śakti are two aspects (*ardhanārīśvara*) of the one supreme reality. *Svātantrya-śakti* is Śiva's sovereign freedom — the power to self-veil and self-reveal; this is the core Trika doctrine and is the source the user's thesis draws on for T7 (Maya as divine *līlā*).",
+      "primary_loci": ["Tantrāloka 3 (parā-śakti)", "Īśvara-Pratyabhijñā-Vimarśinī 1.5", "Spanda-Kārikā 1.1"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "Kṛṣṇa's *śakti*s are systematically threefold: *svarūpa-śakti* (or *antaraṅgā* — internal: *sandhinī*, *saṃvit*, *hlādinī*; *hlādinī* manifests as Rādhā), *taṭasthā-śakti* (marginal: *jīva*s), *bahiraṅgā-śakti* (external: *māyā*; subdivided into *guṇa-māyā* and *jīva-māyā*). Śakti is never independent of Kṛṣṇa.",
+      "primary_loci": ["Bhagavat-Sandarbha §§78–117", "Caitanya-Caritāmṛta, Madhya 20"]
+    },
+    {
+      "school": "Viśiṣṭādvaita / Dvaita",
+      "definition": "*Śakti* is Viṣṇu's power of creation, sustenance, and dissolution; not hypostatized as an independent goddess. Lakṣmī (Śrī) is real and eternal but is Viṣṇu's *śakti*-personified consort, not a separate ultimate.",
+      "primary_loci": ["Yatīndra-Mata-Dīpikā 4", "Mahābhārata-Tātparya-Nirṇaya 1"]
+    },
+    {
+      "school": "Mīmāṃsā / Vyākaraṇa (semantics)",
+      "definition": "*Śakti* is the word's denotative capacity — the meaning-relation (*pada-padārtha-sambandha*). Bhartṛhari's *Vākyapadīya* develops *śakti* as the eternal denotative function; this directly bears on Vedānta's interpretation of *śabda-pramāṇa*.",
+      "primary_loci": ["Vākyapadīya 2", "Mīmāṃsā-Sūtra 1.1.5 commentary tradition"]
+    }
+  ],
+  "see_also": ["svatantrya", "spanda", "sabda-pramana", "lila", "svarupa-sakti", "taṭastha-sakti", "bahiraṅga-sakti"],
+  "translator_note": "Translating *śakti* uniformly as 'power' or 'energy' loses crucial distinctions. The Mīmāṃsā semantic *śakti*, the Trika divine *śakti*, and the Vaiṣṇava-bhedābheda technical *śakti*s are all called the same word but operate in entirely different registers. Modern occult / yogic English usage of 'shakti' (= raw spiritual energy) is a degraded gloss far from the technical metaphysical use."
+}

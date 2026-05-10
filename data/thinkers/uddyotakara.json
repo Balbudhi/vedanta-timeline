@@ -1,0 +1,45 @@
+{
+  "id": "uddyotakara",
+  "name": "Uddyotakara",
+  "name_iast": "Uddyotakara",
+  "alternate_names": ["Bhāradvāja Uddyotakara", "Pāśupatācārya Uddyotakara"],
+  "dates_low": 550,
+  "dates_high": 650,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Dated by his explicit replies to Diṅnāga (c. 480 CE) and by Dharmakīrti's (c. 600–660 CE) replies in turn; Vidyabhusana 1920 and Matilal 1977 converge on the late sixth or early seventh century. Uddyotakara identifies himself as a Pāśupata Śaiva in the colophon of the Vārttika.",
+  "school": "Nyāya",
+  "school_color_token": "nyaya-comparator",
+  "sub_school": "Old-Nyāya (Prācīna-Nyāya)",
+  "sub_school_shade": 3,
+  "lineage_in": ["aksapada", "vatsyayana"],
+  "lineage_out": ["udayana", "vacaspati"],
+  "lineage_polemical": [],
+  "core_thesis": "Uddyotakara's *Nyāya-Vārttika* defends Vātsyāyana's *Bhāṣya* against the Buddhist epistemological challenge mounted by Diṅnāga in the *Pramāṇa-Samuccaya*, and in doing so re-engineers Naiyāyika *pramāṇa*-doctrine into the form that becomes standard. Three contributions matter. First, the analysis of *anumāna*: Uddyotakara reformulates the *triple-mark* (*tri-rūpa-liṅga*) requirement on a Naiyāyika realist basis and develops the *hetv-ābhāsa* (fallacious reasons) classification that the school carries forward. The treatment of *sapakṣa* and *vipakṣa* — the relevant similar and dissimilar instances — is given here in the form Vāchaspati Miśra and Udayana inherit. Second, the defence of *jāti*: Uddyotakara's reply to Diṅnāga's *apoha-vāda* (the Buddhist nominalist thesis that 'cow' refers by exclusion of non-cows) is the locus classicus for the Naiyāyika realist position that universals are mind-independent samavāya-related entities cognised in perception itself. The *apoha-jāti* debate is centred at *Nyāya-Vārttika* on NS 2.2.66. Third, the analysis of *śabda-pramāṇa*: Uddyotakara's defence of testimony as an independent *pramāṇa* (against Buddhist reduction of testimony to inference) becomes the standard Naiyāyika position. The *Vārttika*'s historical importance is generative: Vāchaspati Miśra's *Tātparya-Ṭīkā* takes it as base, Udayana's *Tātparya-Pariśuddhi* sub-commentates Vāchaspati on the *Vārttika*, and the entire mature Old-Nyāya stack is the *Vārttika*-stream as preserved through these sub-commentaries.",
+  "engaged_works": [
+    {
+      "work_id": "nyaya-varttika",
+      "title": "Nyaya-Varttika",
+      "title_iast": "Nyāya-Vārttika",
+      "alternate_titles": [],
+      "composition_dates_low": 550,
+      "composition_dates_high": 650,
+      "composition_dates_notes": "Composition dated by explicit Diṅnāga-replies and by Dharmakīrti's later engagement.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored sub-commentary on Vātsyāyana's Bhāṣya; its colophon identifies Uddyotakara as a Pāśupata.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "varttika",
+      "language": "sanskrit",
+      "summary": "*Vārttika*-style sub-commentary on Vātsyāyana's *Nyāya-Sūtra-Bhāṣya*, working through the *Sūtra* and *Bhāṣya* together. The polemical occasion is Diṅnāga's *Pramāṇa-Samuccaya*: Uddyotakara opens with a *maṅgala* whose explicit purpose is to defend the *Bhāṣya* against the criticisms it has accumulated. The bulk of the polemical work happens at three loci. NS 1.1.4 on *pratyakṣa* — Uddyotakara reformulates the perceptual definition to handle Diṅnāga's objections about *kalpanāpoḍha* (free-of-conceptual-construction) perception. NS 1.1.5 on *anumāna* — the *tri-rūpa-liṅga* analysis is reset on a realist footing and the *hetv-ābhāsa* fivefold typology (*asiddha*, *viruddha*, *anaikāntika*, *prakaraṇa-sama*, *kālātīta*) is developed. NS 2.2.66 on *jāti* — the *apoha*-vs-realist-universal debate is centred here in its classical form. The *Vārttika*'s technical achievement is to absorb Buddhist epistemological pressure without conceding the realist ontology; its historical achievement is to fix the form in which the *Sūtra*-*Bhāṣya* are read in the medieval Nyāya school.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-comparators-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-comparators-opus"
+}

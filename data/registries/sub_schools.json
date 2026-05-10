@@ -369,5 +369,75 @@
     "shade": 4,
     "short_description": "Prabhākara Miśra's Mīmāṃsā: the rival sub-school holding triputī-saṃvit (cognition is jointly self-, object-, and subject-revealing) and the kāryānvitābhidhāna theory of sentence-meaning.",
     "representative_thinker_ids": ["prabhakara"]
+  },
+  "mimamsa-founding-sutra": {
+    "display_name": "Mīmāṃsā founding-sūtra",
+    "parent_school_color_token": "mimamsa-comparator",
+    "shade": 1,
+    "short_description": "Jaimini's Mīmāṃsā-Sūtra: the founding twelve-adhyāya treatise opening with athāto dharma-jijñāsā and establishing codanā (Vedic injunction) as the autonomous pramāṇa for dharma.",
+    "representative_thinker_ids": ["jaimini"]
+  },
+  "mimamsa-bhasyakara": {
+    "display_name": "Mīmāṃsā bhāṣyakāra",
+    "parent_school_color_token": "mimamsa-comparator",
+    "shade": 2,
+    "short_description": "Śabara Svāmin's Śābara-Bhāṣya: the first surviving major commentary on the Mīmāṃsā-Sūtra, on which both Bhāṭṭa and Prābhākara sub-schools build their divergent vārttikas.",
+    "representative_thinker_ids": ["shabara"]
+  },
+  "patanjala-yoga": {
+    "display_name": "Pātañjala-Yoga",
+    "parent_school_color_token": "yoga-comparator",
+    "shade": 3,
+    "short_description": "Patañjali's Yoga-Sūtra in four pādas (Samādhi, Sādhana, Vibhūti, Kaivalya): the founding treatise of classical Yoga whose received reading is mediated by the Vyāsa-Bhāṣya commentary tradition.",
+    "representative_thinker_ids": ["patanjali"]
+  },
+  "vaisesika-old": {
+    "display_name": "Old Vaiśeṣika",
+    "parent_school_color_token": "vaisesika-comparator",
+    "shade": 2,
+    "short_description": "Kaṇāda's Vaiśeṣika-Sūtra: the founding ten-adhyāya treatise establishing the six padārthas (dravya, guṇa, karma, sāmānya, viśeṣa, samavāya) and the atomistic causal account.",
+    "representative_thinker_ids": ["kanada"]
+  },
+  "vaisesika-classical": {
+    "display_name": "Classical Vaiśeṣika",
+    "parent_school_color_token": "vaisesika-comparator",
+    "shade": 4,
+    "short_description": "Praśastapāda's Padārtha-Dharma-Saṅgraha: the prose recasting that becomes the standard exposition of Vaiśeṣika and on which (disputedly with him or with later commentators) the seventh category abhāva is added.",
+    "representative_thinker_ids": ["prashastapada"]
+  },
+  "jaina-foundational": {
+    "display_name": "Foundational Jaina (cross-sectarian)",
+    "parent_school_color_token": "jaina-comparator",
+    "shade": 3,
+    "short_description": "Umāsvāti's Tattvārtha-Sūtra: the cross-sectarian foundational treatise accepted by both Digambara and Śvetāmbara, articulating sarva-jña-doctrine, anekānta-vāda, and syād-vāda.",
+    "representative_thinker_ids": ["umasvati"]
+  },
+  "jaina-digambara": {
+    "display_name": "Digambara Jaina",
+    "parent_school_color_token": "jaina-comparator",
+    "shade": 4,
+    "short_description": "Kundakunda's Digambara two-truths Jaina (vyavahāra-naya / niścaya-naya): the structural-parallel-to-Advaita whose formal correspondence with vyāvahārika/pāramārthika is engaged in the comparative claims.",
+    "representative_thinker_ids": ["kundakunda"]
+  },
+  "jaina-svetambara-doxographer": {
+    "display_name": "Śvetāmbara doxographer",
+    "parent_school_color_token": "jaina-comparator",
+    "shade": 2,
+    "short_description": "Haribhadra Sūri's Śvetāmbara position: author of the Ṣaḍ-Darśana-Samuccaya, the first systematic Indian doxography that engages the rival darśanas with disciplined fairness.",
+    "representative_thinker_ids": ["haribhadra"]
+  },
+  "jaina-svetambara-polymath": {
+    "display_name": "Śvetāmbara polymath",
+    "parent_school_color_token": "jaina-comparator",
+    "shade": 5,
+    "short_description": "Hemacandra Sūri's combination of Pramāṇa-Mīmāṃsā (Jaina pramāṇa-theory) and Yoga-Śāstra (Jaina yoga praxis) at the high scholastic level of late twelfth-century Gujarat.",
+    "representative_thinker_ids": ["hemacandra"]
+  },
+  "lokayata-reconstructed": {
+    "display_name": "Lokāyata (reconstructed)",
+    "parent_school_color_token": "carvaka-comparator",
+    "shade": 3,
+    "short_description": "The Cārvāka / Lokāyata position as reconstructible from hostile-citation: pratyakṣa as sole pramāṇa, the rejection of inference as evidentially unreliable, the rejection of the post-mortem soul.",
+    "representative_thinker_ids": ["carvaka"]
   }
 }

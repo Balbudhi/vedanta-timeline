@@ -1,0 +1,205 @@
+{
+  "chain_id": "nyayamrta-arguments",
+  "title": "Nyāyāmṛta — Vyāsatīrtha's Navya-Nyāya formal refutation of Advaitic mithyātva",
+  "attacker": "vyasatirtha",
+  "attacker_text": "Nyāyāmṛta (c. 1500); supplemented by Tarka-Tāṇḍava and Tātparya-Candrikā",
+  "target_school_token": "advaita",
+  "target_position_summary": "The technically systematised Vivaraṇa-Advaita as it stood in the late fifteenth century, particularly the formal mithyātvānumāna defended by Ānandabodha (Pramāṇa-Mālā), Citsukha (Tattva-Pradīpikā), Prakāśātman (Pañcapādikā-Vivaraṇa), and the broader anirvacanīya-bhāvarūpa-avidyā doctrinal apparatus. Vyāsatīrtha takes Madhva's earlier polemic (Khaṇḍana-traya) and re-engineers it in the formal idiom of Gaṅgeśa's Tattva-Cintāmaṇi: explicit vyāpti-statement, upādhi-test, avacchedaka-condition.",
+  "arguments": [
+    {
+      "name": "argument-1: against mithyātva-lakṣaṇa-1 (sva-āśrayatva-niṣṭha-atyantābhāva-pratiyogitva)",
+      "premises": [
+        "The first formal definition of mithyātva: 'being the counter-positive (pratiyogin) of an absolute absence (atyantābhāva) located in its own substrate (sva-āśraya).'",
+        "If mithyātva is so defined, then a real entity (e.g., a pot) located in a real space cannot be mithyā, since the pot is not absent from its own substrate.",
+        "Conversely, the world-as-such, on this definition, must have an absence located in its own substrate. But what is the substrate of the world? On Advaita, Brahman.",
+        "If absolute-absence-of-the-world is located in Brahman, this is either trivially true (Brahman lacks worldly properties) — in which case mithyātva is too cheaply established and applies even to things Advaita does not want to call mithyā — or it is the thesis at issue, in which case the definition is question-begging.",
+        "Further, the very property pratiyogitva (counter-positive-ness) is itself either real or mithyā: if real, it grounds a real distinction that contradicts non-duality; if mithyā, the definition recursively requires its own mithyātva to be established, generating regress."
+      ],
+      "inference": "The first lakṣaṇa is either too broad (catches non-mithyā items), too narrow (fails to catch the world without circularity), or self-referentially regressive.",
+      "conclusion": "Lakṣaṇa-1 fails as a formal definition of the property mithyātva.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "madhusudana",
+            "position": "Madhusūdana's first lakṣaṇa in Advaita-Siddhi prathama-paricheda 1, defended explicitly against this objection (which Madhusūdana anticipates from Vyāsatīrtha's earlier work)."
+          },
+          {
+            "thinker_id": "anandabodha",
+            "position": "The Pramāṇa-Mālā formulations Madhusūdana inherits."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "sankara",
+            "position": "Śaṅkara never offered a formal lakṣaṇa of mithyātva; the lakṣaṇa-apparatus is post-Śaṅkara scholastic construction, principally Citsukha-and-after."
+          },
+          {
+            "thinker_id": "vacaspati",
+            "position": "Bhāmatī's mithyā-discourse is exegetical-scriptural rather than technical-Navya-Nyāya; lakṣaṇa-1 critique does not engage Bhāmatī's idiom directly."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "madhusudana",
+            "response_text": "Advaita-Siddhi prathama-paricheda 1 — defends lakṣaṇa-1 by clarifying sva-āśrayatva as a determinable relation that does not require pratiyogitva itself to be real",
+            "verdict": "Madhusūdana concedes the regress threat and replies that pratiyogitva is itself anirvacanīya, not real-or-mithyā in any binary-determinate sense. The reply preserves the doctrine but, as Vyāsatīrtha notes in extending the polemic, requires the very anirvacanīya category whose coherence is at issue."
+          },
+          {
+            "thinker_id": "brahmananda",
+            "response_text": "Laghu-Candrikā — Brahmānanda Sarasvatī's defense of Madhusūdana against Vyāsatīrtha's extensions",
+            "verdict": "argues that Vyāsatīrtha's regress charge presupposes a level-distinction between the property and its predicate-property that Advaita does not accept; on Advaita's analysis, the relation is non-relational (anupahita-saṃbandha)."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive. The dialectic is genuine and runs three generations deep (Madhva → Vyāsatīrtha → Madhusūdana → Vyāsatīrtha-line → Brahmānanda). Each step is a real philosophical move. The disagreement is over the legitimacy of certain logical moves (anirvacanīya predicates, non-relational predication, regress-blocking by category-shift). These are first-order disagreements, not register-effects."
+    },
+    {
+      "name": "argument-2: against mithyātva-lakṣaṇa-3 (sad-vilakṣaṇatva — being other than the real)",
+      "premises": [
+        "The third lakṣaṇa: 'being other-than-real (sad-vilakṣaṇa) without being the unreal (asad-vilakṣaṇa).'",
+        "The lakṣaṇa requires a determinate sense of vilakṣaṇa (other-than).",
+        "If vilakṣaṇa is read as numerical-distinction, then mithyā items must be numerically distinct from sat — but distinct items are themselves either sat or asat (per bivalence), and the lakṣaṇa is question-begging.",
+        "If vilakṣaṇa is read as category-distinction (mithyā as a third category), the lakṣaṇa stipulates rather than establishes the third category; Vyāsatīrtha presses that no pramāṇa (including āgama) generates the third category as a primitive.",
+        "Further, the lakṣaṇa requires both (sad-vilakṣaṇa) AND (asad-vilakṣaṇa); the conjunction violates basic dichotomous principles unless mediated by the very anirvacanīya category whose justification is the disputed question."
+      ],
+      "inference": "Lakṣaṇa-3 either presupposes anirvacanīya (and thus cannot be used to establish it), or generates the same trilemma Madhva already exposed.",
+      "conclusion": "The 'other-than-real-without-being-unreal' formula is dialectically ineffective.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "madhusudana",
+            "position": "Lakṣaṇa-3 in Advaita-Siddhi prathama-paricheda 3."
+          },
+          {
+            "thinker_id": "citsukha",
+            "position": "Citsukha's defense of sad-asad-vilakṣaṇatva as the formally adequate characterisation."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "sankara",
+            "position": "Same as before: not Śaṅkara's idiom."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "madhusudana",
+            "response_text": "Advaita-Siddhi defends lakṣaṇa-3 by arguing that the conjunction (sad-vilakṣaṇa + asad-vilakṣaṇa) is not a violation of bivalence because mithyā is precisely the category-name for what the conjunction picks out — i.e., the conjunction is the lakṣaṇa, not a violation under it",
+            "verdict": "shifts the argument onto whether category-construction by negative conjunction is legitimate. The reply is doctrinally available; the underlying disagreement persists."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive. As with lakṣaṇa-1, the disagreement is over the legitimacy of certain category-construction moves. Real metaphysical question."
+    },
+    {
+      "name": "argument-3: against mithyātva-lakṣaṇa-4 (badhya-pratiyogitva — being object of cancelling cognition)",
+      "premises": [
+        "The fourth lakṣaṇa: 'being the counter-positive of the cancelling cognition (bādhaka-pratyaya) that arises with brahma-jñāna.'",
+        "This is a phenomenological-functional definition: mithyā = whatever-is-sublated-by-brahma-jñāna.",
+        "The lakṣaṇa is hostage to the question whether brahma-jñāna actually arises; it is therefore not establishable in advance of the soteriological event it presupposes.",
+        "Worse, it is circular: brahma-jñāna is identified as the cognition that sublates mithyā, and mithyā is identified as what brahma-jñāna sublates.",
+        "Further, the lakṣaṇa applies to too much: rope-snake sublation is a parallel structure, but the snake is asat (it never was), not mithyā. The lakṣaṇa fails to discriminate mithyā from asat at the very phenomenological level it is designed to discriminate them."
+      ],
+      "inference": "Lakṣaṇa-4 is circular and fails its own discrimination criterion.",
+      "conclusion": "Even the most phenomenologically modest of Madhusūdana's four lakṣaṇas does not survive technical examination.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "madhusudana",
+            "position": "Lakṣaṇa-4 in Advaita-Siddhi prathama-paricheda 4."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "sankara",
+            "position": "Bādha-pratyaya as a concept appears in the bhāṣyas but not as a formal lakṣaṇa of mithyātva."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "madhusudana",
+            "response_text": "Advaita-Siddhi: argues that the snake-rope counterexample fails because the snake-cognition's sublation is by perception (rope-cognition), not by jñāna in the strong sense. The structure of bādha is preserved across both cases but the type of bādhaka differs",
+            "verdict": "the reply requires a typology of sublation-relations Madhva's school does not accept as principled; the disagreement reduces to whether perceptual sublation and brahma-jñāna sublation are kind-different (Advaita) or not (Dvaita)."
+          },
+          {
+            "thinker_id": "raghavendra",
+            "response_text": "Pariṃala — extends Vyāsatīrtha's criticism by arguing that lakṣaṇa-4 cannot distinguish mithyā from asat phenomenologically because both are bādhya in the same formal sense",
+            "verdict": "raises the bar against the Advaita defense by demanding a non-phenomenological criterion."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive but more contestable than lakṣaṇas 1 and 3. The phenomenological definition is a real philosophical resource, and Madhusūdana's reply (kind-different sublation) is genuine. Disagreement is real but more tractable."
+    },
+    {
+      "name": "argument-4: positive bheda-anumāna — the constructive counter-inference",
+      "premises": [
+        "Vyāsatīrtha offers positive inferences for bheda (real difference) alongside the destructive arguments.",
+        "Inference: 'jīva and Brahman are really distinct, because each has properties the other lacks (e.g., jīva is duḥkha-anubhavī — experiencer of suffering; Brahman is not), like any two correctly-differentiated items.'",
+        "The Advaitin reply (Brahman is the substrate-witness, not the experiencer; experience is upādhi-conditioned) requires admitting either that the upādhi is real (concedes bheda at the upādhi-level) or that experience itself is mithyā (counter-intuitive and arguably defeats Advaita's own use of experience as evidence).",
+        "Either the upādhi-level admits bheda or the experiential level requires denial of the very experience that motivates the seeking of mokṣa."
+      ],
+      "inference": "The Advaitic non-difference thesis cannot be sustained without either conceding upādhi-level bheda or evacuating the experiential ground of soteriology.",
+      "conclusion": "Bheda is positively warranted; non-difference is dialectically untenable.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "prakasatman",
+            "position": "Vivaraṇa's upādhi-doctrine for jīva-individuation."
+          },
+          {
+            "thinker_id": "madhusudana",
+            "position": "Defended in the jīva-Brahman-aikya sections of Advaita-Siddhi."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "sankara",
+            "position": "Śaṅkara's adhyāsa-bhāṣya does not require the strong upādhi-doctrine the argument targets; the basic adhyāsa-account treats bheda-experience as the very mistake to be corrected, without committing to a substantive upādhi-mechanism."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "madhusudana",
+            "response_text": "Advaita-Siddhi argues that the inference fails the avacchedaka-test: the differentiating properties (duḥkha-anubhava etc.) are themselves upādhi-conditioned and so cannot ground a vyāpti at the level of svarūpa",
+            "verdict": "shifts the disagreement to whether upādhi-conditioned properties can ever ground svarūpa-level inferences. Substantive technical question."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive. Vyāsatīrtha's positive-inference move is the technical complement to the destructive arguments. The exchange is genuinely philosophical; neither side dissolves the disagreement."
+    }
+  ],
+  "user_thesis_summary": "The Nyāyāmṛta-Advaita-Siddhi cycle is the most rigorous and best-preserved sustained inter-school dialectic in Vedānta. Both sides operate in the technical idiom of post-Gaṅgeśa Navya-Nyāya, with explicit vyāpti-statements, upādhi-tests, and avacchedaka-conditions. The disagreement does not dissolve at any point; each generation of arguments opens new substantive sub-disagreements (the legitimacy of anirvacanīya predicates; the legitimacy of non-relational predication; the typology of sublation-relations; whether upādhi-conditioned properties can ground svarūpa-inferences). The polemic targets the technically-developed Vivaraṇa-Advaita rather than Śaṅkara's bhāṣya; against the latter, much of the apparatus does not engage because the latter does not commit to the formal lakṣaṇa-and-anumāna scaffolding the polemic requires. Verdict: substantive throughout; the dialectic is real philosophy. Moreover, the Vyāsatīrtha-Madhusūdana exchange is the canonical case where 'register-clarification' would be exactly the wrong diagnosis: both interlocutors have already done all the register-clarification possible within Navya-Nyāya, and the residual disagreement is what survives that maximally-rigorous mutual translation. This polemic is the strongest single piece of evidence against the user's perspectivism hypothesis at the inter-school level — at least at the technical-philosophical layer.",
+  "primary_source_loci": [
+    "Nyāyāmṛta — anumāna-pariccheda (the central destruction of mithyātvānumāna)",
+    "Nyāyāmṛta — bheda-pariccheda (positive bheda-anumāna)",
+    "Tarka-Tāṇḍava — extension to Naiyāyika positions",
+    "Tātparya-Candrikā — Vyāsatīrtha's commentary on Jayatīrtha's Tattva-Prakāśikā"
+  ],
+  "scholarly_apparatus": [
+    {
+      "scholar": "Karl H. Potter (ed.)",
+      "work": "Encyclopedia of Indian Philosophies, vol. 17 (Dvaita Vedānta)",
+      "page_or_section": "entries on Nyāyāmṛta and the Vyāsatīrtha-Madhusūdana cycle",
+      "position": "Reconstructs the formal arguments and their dialectical structure with full Navya-Nyāya apparatus."
+    },
+    {
+      "scholar": "Michael Williams",
+      "work": "Madhva and the Advaitins (recent scholarly work on the Nyāyāmṛta-Advaita-Siddhi exchange)",
+      "page_or_section": "passim",
+      "position": "Argues that the Vyāsatīrtha-Madhusūdana cycle is the high-water mark of inter-school technical philosophical engagement in classical India and that the disagreement does not reduce to register-difference at any point."
+    },
+    {
+      "scholar": "Daniel H. H. Ingalls",
+      "work": "Materials for the Study of Navya-Nyāya Logic (Harvard, 1951)",
+      "page_or_section": "ch. 4",
+      "position": "Provides the formal apparatus required to understand both sides; explicitly notes that the Vyāsatīrtha-Madhusūdana exchange operates at the highest technical level Navya-Nyāya supports."
+    }
+  ],
+  "entry_status": "reviewed",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-polemic-opus"
+}

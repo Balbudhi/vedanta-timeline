@@ -1,0 +1,27 @@
+{
+  "term_key": "siva",
+  "term_iast": "Śiva",
+  "term_devanagari": "शिव",
+  "literal": "the auspicious; from √śī 'to lie' (as in 'śī-vaḥ', the one in whom things rest) or independent root",
+  "aliases": ["siva", "Śiva", "śiva", "Shiva", "śivaḥ", "śivasya", "śive", "śivena"],
+  "invariant_definition": "The deity who in Śaiva theology is identified with *brahman* in its highest description, particularly in Kashmir Śaivism (Trika), Śaiva Siddhānta, and Vīraśaivism. In the Vaiṣṇava Vedāntic mainstream Śiva is treated as a *jīva* of exalted status (Advaita: *saguṇa brahman* under another form; Viśiṣṭādvaita and Dvaita: high but not supreme). The user's position-brief incorporates Trika substantially (T7's *svātantrya* doctrine, *spanda*, *pratyabhijñā*), so the Śaiva use of Śiva is technically operative in the project's framework.",
+  "per_school": [
+    {
+      "school": "Trika / Kashmir Śaivism",
+      "definition": "Śiva is the supreme reality — the unified *prakāśa-vimarśa* (luminous self-cognizing) consciousness, of whom Śakti is the inseparable *vimarśa*-aspect. The 36 *tattvas* descend from Śiva-Śakti through *sadāśiva*, *īśvara*, *śuddha-vidyā*, *māyā* and the five *kañcukas*, to *prakṛti* and the rest. *Mokṣa* is *pratyabhijñā* — recognition that one was always Śiva.",
+      "primary_loci": ["Pratyabhijñā-Hṛdaya, sūtras 1–20", "Tantrāloka 1, 6, 9", "Spanda-Kārikā 1.1–5"]
+    },
+    {
+      "school": "Advaita",
+      "definition": "Śiva is one form of *saguṇa brahman*; equal *iṣṭa-devatā* status with Viṣṇu in classical Advaita pañcāyatana practice. In *nirguṇa* analysis sublated alongside all forms.",
+      "primary_loci": ["Daksināmūrti-Stotra (attrib. Śaṅkara)"]
+    },
+    {
+      "school": "Viśiṣṭādvaita / Dvaita",
+      "definition": "Śiva is a high *jīva* — *muktās* serving Viṣṇu; not supreme. Madhva polemically establishes Viṣṇu's supremacy over Śiva (*Viṣṇu-Tattva-Vinirṇaya*).",
+      "primary_loci": ["Viṣṇu-Tattva-Vinirṇaya §§30–40"]
+    }
+  ],
+  "see_also": ["sakti", "brahman", "trika", "pratyabhijna", "spanda", "svatantrya"],
+  "translator_note": "Untranslatable proper noun. Resist 'the destroyer' as oversimplification (the Trimūrti-functional gloss is *not* the Śaiva-Vedāntic understanding). For Trika, Śiva is the unified consciousness that is everything; for Madhva-tradition Vaiṣṇavas, Śiva is a high but dependent *jīva*; for Advaita, Śiva is one form of *saguṇa brahman* equal in status to Viṣṇu."
+}

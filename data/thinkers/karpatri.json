@@ -1,0 +1,116 @@
+{
+  "id": "karpatri",
+  "name": "Swami Karpatri",
+  "name_iast": "Svāmī Karpātrī",
+  "alternate_names": ["Hariharānanda Sarasvatī (sannyāsa-name)", "Har Narayan Ojha (birth name)", "Karpātrī Mahārāja"],
+  "dates_low": 1907,
+  "dates_high": 1982,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Born 1907 (Vikrama Saṃvat 1964); died 1982. Founder of the Akhil Bhāratīya Rāma-Rājya Pariṣad (1948); active in the Banaras pāṭhaśālā Advaita network. Daśanāmī Sannyāsī of the Sarasvatī sub-order.",
+  "dates_evidence": [
+    {
+      "kind": "court-record",
+      "description": "Government of India Registrar of Political Parties: Akhil Bhāratīya Rāma-Rājya Pariṣad founding records (1948); commemorative postage-stamp records."
+    },
+    {
+      "kind": "manuscript-colophon",
+      "description": "Dharma Saṅgha publication colophons."
+    }
+  ],
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Daśanāmī-Sarasvatī (modern dharmic-political revivalism)",
+  "sub_school_shade": 4,
+  "lineage_in": ["sankara", "vidyaranya", "madhusudana"],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Svāmī Karpātrī, born Har Nārāyaṇa Ojha and ordained Hariharānanda Sarasvatī, is the twentieth-century Daśanāmī-Sarasvatī ascetic-scholar whose doctrinal-political mission combined orthodox Advaita Vedānta with vigorous public defense of *varṇāśrama-dharma* and *sanātana-dharma* against modern reformism. The ascetic name records the discipline: he ate only what he could hold in a single hand (*kar-pātra*). His Sanskrit and Hindi prose output spans Advaita doctrine (*Vedārtha-Pārijāta*, the *Vedānta-Mīmāṃsā* series), *bhakti*-doctrine (*Bhakti-Sudhā*, *Saṅkīrtana-Mīmāṃsā*), Mīmāṃsā-grounded ritualism (*Varṇāśrama-Maryādā*), and political theology (*Mārksavāda aur Rāmarājya*). The engagement is more polemical-revivalist than *bhāṣya*-grade scholasticism, and the philosophical position is conservative orthodox Advaita rather than original systematic. He is included here for completeness of the modern Advaita field and for his unmatched role in shaping post-independence orthodox Hindu public discourse. His doctrinal alignment is broadly with the post-Madhusūdana Vivaraṇa scholastic stream against the Holenarsipur Śuddha-Śāṅkara revisionism.",
+  "engaged_works": [
+    {
+      "work_id": "vedartha-parijata",
+      "title": "Vedartha-Parijata",
+      "title_iast": "Vedārtha-Pārijāta",
+      "alternate_titles": [],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed; the work circulates in the Dharma Saṅgha and Karpātrī-affiliated publishing tradition as Karpātrī's own composition, but no critical edition has yet been produced.",
+      "ascription_evidence": [
+        {"kind": "school-acceptance", "description": "Dharma Saṅgha and Karpātrī-affiliated publishing tradition."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "A Sanskrit *prakaraṇa* on the *artha* of the Veda. The treatise defends the orthodox Smārta-Mīmāṃsā position that the Veda's *karma-kāṇḍa* and *jñāna-kāṇḍa* are an integrated whole, with Vedāntic *jñāna* as the *tātparya* of the *jñāna-kāṇḍa*. The work is constructed against modern reformist readings of the Veda — both Western philological-naturalist readings and the Ārya Samāj reformulation — and reasserts the *bhāṣyakāra* tradition's authority. The doctrinal substance is conservative Advaita Vedānta with extensive Mīmāṃsā-ritual grounding; the treatise's distinctive contribution is the integration of the two registers in defense of the modern *pāṭhaśālā* and *yajña* tradition.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "vedanta-mimamsa-series",
+      "title": "Vedanta-Mimamsa series",
+      "title_iast": "Vedānta-Mīmāṃsā Series",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored multi-volume Hindi exposition with Sanskrit citation.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus; Dharma Saṅgha publication records."}
+      ],
+      "genre": "prakarana",
+      "language": "hindi",
+      "summary": "A multi-volume Hindi exposition of Advaita Vedānta with extensive Sanskrit citation. The work proceeds topic by topic through the school's standard agenda — ontology, epistemology, the *avidyā*-doctrine, the path of *jñāna*, the relation between *bhakti* and *jñāna*, *jīvanmukti* — and supplies the modern conservative Advaita position at each locus. The doctrinal alignment is with the post-Madhusūdana Vivaraṇa scholastic apparatus; the *mūlāvidyā* doctrine is defended against Satchidānandendra's revisionism. The work is the principal extended written record of Karpātrī's Advaita Vedānta and is the natural reference for his doctrinal position on contested issues.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "sankirtana-mimamsa",
+      "title": "Sankirtana-Mimamsa",
+      "title_iast": "Saṅkīrtana-Mīmāṃsā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus; Dharma Saṅgha publication records."}
+      ],
+      "genre": "prakarana",
+      "language": "hindi",
+      "summary": "A treatise on the *bhakti*-practice of *saṅkīrtana* (collective devotional chanting). The work integrates the Smārta-Advaita doctrinal position with the practice of devotional chanting that the Caitanya tradition had made famous in Bengal and that was spreading through North India in Karpātrī's period. The treatise is doctrinally interesting because it has to negotiate the tension between Advaita's standard subordination of *bhakti* to *jñāna* and the practical importance of devotional chanting in modern orthodox Hindu life; Karpātrī's resolution is broadly Madhusūdana-style — *bhakti* is treated as a preparatory and accompanying *sādhana* with its own intrinsic value, while not displacing *jñāna* as the proximate cause of *mokṣa*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "varnashrama-maryada",
+      "title": "Varnashrama-Maryada",
+      "title_iast": "Varṇāśrama-Maryādā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus; Dharma Saṅgha publication records."}
+      ],
+      "genre": "polemical-tract",
+      "language": "hindi",
+      "summary": "A polemical Hindi treatise defending the orthodox *varṇāśrama-dharma* tradition against modern reformist critique. The doctrinal substance is dharma-śāstra and Mīmāṃsā argument; the political register is mid-twentieth-century post-independence India. The work is included in the corpus not for its philosophical originality — its substance is conservative Mīmāṃsā-Smārta dharma-theory — but because it is doctrinally consequential as the principal documentary record of the conservative Daśanāmī-Sarasvatī position on social order in the modern period, and because Karpātrī's public theology cannot be separated cleanly from his Vedāntic doctrine.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "marxavad-aur-ramrajya",
+      "title": "Marxavad aur Ramrajya",
+      "title_iast": "Mārksavāda aur Rāmarājya",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Hindi political-theological treatise.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus; Dharma Saṅgha publication records."}
+      ],
+      "genre": "polemical-tract",
+      "language": "hindi",
+      "summary": "A Hindi treatise contrasting Marxism with the *Rāma-rājya* ideal of dharmic governance, written in the post-independence period when Marxist political organising was a significant force in North Indian public life. The work is included in the Vedāntic corpus only insofar as it bears on Karpātrī's public theology, which is doctrinally continuous with his Vedāntic position: the metaphysical reality of the Ātman, the moral order grounded in *dharma*, and the political-theological centrality of the *Rāma-rājya* pattern as the practical realisation of that order. The work is the principal documentary source for the political theology of the Akhil Bhāratīya Rāma-Rājya Pariṣad, the political organisation Karpātrī founded in 1948.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-corpus-v2-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-corpus-v2-opus"
+}

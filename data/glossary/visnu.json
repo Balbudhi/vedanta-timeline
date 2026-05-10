@@ -1,0 +1,32 @@
+{
+  "term_key": "visnu",
+  "term_iast": "Viṣṇu",
+  "term_devanagari": "विष्णु",
+  "literal": "the all-pervader; from √viṣ 'to pervade, to enter into'",
+  "aliases": ["visnu", "Viṣṇu", "viṣṇu", "Vishnu", "viṣṇoḥ", "viṣṇave", "viṣṇunā", "viṣṇau"],
+  "invariant_definition": "The deity who, in the Vaiṣṇava Vedāntic schools (Viśiṣṭādvaita, Dvaita, Acintya-Bhedābheda, Śuddhādvaita, Dvaitādvaita), is identified with *brahman* in its highest description. Originally one of the Vedic Ādityas, expanded in the *Itihāsas* and *Purāṇas* to the supreme cosmic deity manifesting through *avatāras* (Daśāvatāra, including Rāma and Kṛṣṇa). All Vedāntic schools accept Viṣṇu as a real divine power; the Vaiṣṇava schools elevate Viṣṇu to ultimate-reality status; Advaita and Śaiva-influenced schools treat Viṣṇu as one *iṣṭa-devatā* among others, all reducible to (or expressing) *brahman*.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "Viṣṇu is one *saguṇa* form of *brahman*; an excellent *iṣṭa-devatā* and object of *upāsana*, but not above other forms in the highest analysis (*nirguṇa brahman* exceeds all forms). Śaṅkara is reported to have practiced *pañcāyatana-pūjā* worshipping five forms (Śiva, Viṣṇu, Devī, Sūrya, Gaṇeśa) as equally valid.",
+      "primary_loci": ["Bhagavad-Gītā-Bhāṣya, upodghāta", "Viṣṇu-Sahasranāma-Bhāṣya"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Viṣṇu (= Nārāyaṇa) IS *brahman* in his highest description — possessor of infinite auspicious qualities, with *cit* and *acit* as his body. The exclusive identification is constitutive.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§91–137", "Śrī-Bhāṣya 1.1.1"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "Viṣṇu is the unique *svatantra* — the only independent reality. Madhva develops a Viṣṇu-supremacy thesis (*Viṣṇu-Tattva-Vinirṇaya*) against all rival identifications.",
+      "primary_loci": ["Viṣṇu-Tattva-Vinirṇaya §§1–10", "Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "Viṣṇu (in his various forms — Nārāyaṇa, Vāsudeva, etc.) is *paramātman*, an aspect of Kṛṣṇa who is *svayaṃ-bhagavān* (Bhāgavata 1.3.28). Kṛṣṇa is the *avatārī*; Viṣṇu and his *avatāras* are *avatāras*.",
+      "primary_loci": ["Kṛṣṇa-Sandarbha §28"]
+    }
+  ],
+  "see_also": ["brahman", "bhagavan", "krsna", "narayana", "paramatman", "avatara"],
+  "translator_note": "Untranslatable as a proper noun. Resist 'the Hindu god of preservation' (the schoolbook gloss) — for the Vaiṣṇava Vedāntins Viṣṇu is the unique highest reality, not one of three gods in a division-of-labor. The Trimūrti scheme (Brahmā-creator, Viṣṇu-preserver, Śiva-destroyer) is a Purāṇic mythological convention; it does NOT govern the Vaiṣṇava-Vedāntin metaphysics."
+}

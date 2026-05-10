@@ -1,0 +1,27 @@
+{
+  "term_key": "bhagavan",
+  "term_iast": "Bhagavān",
+  "term_devanagari": "भगवान्",
+  "literal": "the possessor-of-bhaga; bhaga = fortune, glory, opulence, lordliness; one who possesses the six excellences (aiśvarya, vīrya, yaśas, śrī, jñāna, vairāgya)",
+  "aliases": ["bhagavan", "Bhagavān", "bhagavān", "bhagavat", "bhagavataḥ", "bhagavate"],
+  "invariant_definition": "*Brahman* under the aspect of personal-relational fullness — possessed of the six *bhagas* (sovereignty, valor, glory, prosperity, knowledge, dispassion). The classical definition is given at *Viṣṇu-Purāṇa* 6.5.74 (*aiśvaryasya samagrasya...*). All schools that develop devotional theology accept *Bhagavān* as a name of the highest reality under personal aspect; the schools differ on whether *Bhagavān* is the highest description (Vaiṣṇava: yes — *kṛṣṇas tu bhagavān svayam*, *Bhāgavata-Purāṇa* 1.3.28) or a *saguṇa* register (Advaita).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Bhagavān* is *Īśvara* under the aspect of personal devotional approach; identified with *saguṇa brahman*. Real for *upāsana* and for the devotional *jñāni*'s mature *bhakti* (Madhusūdana's *Bhakti-Rasāyana*); sublated in *nirguṇa brahman*-realization.",
+      "primary_loci": ["Bhagavad-Gītā-Bhāṣya 10, 11", "Madhusūdana, Bhakti-Rasāyana 1"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Bhagavān* is the highest description of the highest reality — Kṛṣṇa as *svayaṃ-bhagavān* (literally 'Bhagavān-himself,' i.e., the source not derivative). The *Bhāgavata*-citation *kṛṣṇas tu bhagavān svayam* (1.3.28) is constitutive. *Brahman* and *Paramātman* are subordinate aspects of *Bhagavān*.",
+      "primary_loci": ["Tattva-Sandarbha §§51–56", "Bhagavat-Sandarbha §§1–7", "Kṛṣṇa-Sandarbha §28 (svayam-bhagavān doctrine)"]
+    },
+    {
+      "school": "Viśiṣṭādvaita / Dvaita",
+      "definition": "*Bhagavān* is a name of Viṣṇu (the highest reality) that emphasizes his fullness of qualities. Functionally equivalent to *Īśvara* in technical contexts.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§137–143", "Viṣṇu-Tattva-Vinirṇaya"]
+    }
+  ],
+  "see_also": ["isvara", "brahman", "krsna", "visnu", "svayam-bhagavan"],
+  "translator_note": "Translating *Bhagavān* as 'God' or 'the Lord' loses the technical content: *Bhagavān* is specifically the possessor of the six *bhagas* and is therefore an ontologically loaded title, not a generic divinity-term. In bhāṣya-prose the titles *Īśvara*, *Bhagavān*, *Paramātman*, and *Brahman* mean substantively different things and should not be conflated."
+}
