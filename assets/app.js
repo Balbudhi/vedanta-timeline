@@ -294,7 +294,13 @@ function totalWidth() {
   return PAD_LEFT + (state.range.high - state.range.low) * state.pxPerYear + PAD_RIGHT;
 }
 function totalHeight() {
+  if (state.viewMode === "network") return NETWORK_CANVAS_H + AXIS_H + 8;
   return state.renderLanes.length * LANE_H + AXIS_H + 8;
+}
+function plotHeight() {
+  // height of the dots / svg layer (excludes axis)
+  if (state.viewMode === "network") return NETWORK_CANVAS_H;
+  return state.renderLanes.length * LANE_H;
 }
 
 // Build the effective rendered lane order from filter + expansion state.
@@ -382,7 +388,55 @@ function shadeFor(thinker) {
   return 3;
 }
 
+// Network layout: vertical canvas height (used by totalHeight when in network mode).
+const NETWORK_CANVAS_H = 1200;
+const NETWORK_PAD_TOP = 40;
+const NETWORK_PAD_BOTTOM = 40;
+
+// Default y-band centroid for each school color token, normalized 0..1.
+// Vedāntic schools cluster in the central band; comparators above/below.
+// Hand-tuned so lineages naturally separate; greedy avoidance perturbs from here.
+const SCHOOL_BAND = {
+  // Comparators ABOVE (top third)
+  "samkhya-comparator":         0.08,
+  "yoga-comparator":            0.11,
+  "nyaya-comparator":           0.14,
+  "navya-nyaya-comparator":     0.17,
+  "vaisesika-comparator":       0.20,
+  "mimamsa-comparator":         0.23,
+  "jaina-comparator":           0.26,
+  "carvaka-comparator":         0.29,
+  // Buddhist family — upper-middle
+  "madhyamaka-comparator":      0.32,
+  "yogacara-comparator":        0.35,
+  "buddhist-pramana-comparator":0.36,
+  "sarvastivada-comparator":    0.32,
+  "theravada-comparator":       0.29,
+  "tathagatagarbha-comparator": 0.38,
+  // Vedānta — central band
+  "proto":                      0.50,
+  "advaita":                    0.45,
+  "bhedabheda":                 0.50,
+  "vishishtadvaita":            0.55,
+  "dvaita":                     0.60,
+  "acintya":                    0.66,
+  "shuddha":                    0.62,
+  "avibhaga":                   0.58,
+  // Śaiva / Tantra / Vaiṣṇava-tantra — lower band
+  "trika-comparator":           0.78,
+  "pasupata-comparator":        0.75,
+  "pancaratra-comparator":      0.72,
+  "virashaiva-comparator":      0.82,
+  "bhairava-tantra-comparator": 0.85,
+  "cross-tradition":            0.92,
+};
+
 function computeLayout() {
+  if (state.viewMode === "network") computeNetworkLayout();
+  else computeLanesLayout();
+}
+
+function computeLanesLayout() {
   state.layout.clear();
   const sorted = [...state.thinkers].sort((a, b) => {
     return ((a.dates_low + a.dates_high) / 2) - ((b.dates_low + b.dates_high) / 2);
@@ -422,9 +476,92 @@ function computeLayout() {
   }
 }
 
+// Greedy date-ordered placement with lineage gravity + per-school band centroids.
+// Deterministic given the input data. No external libs.
+//
+// For each thinker, in dates_low order:
+//   1. desired y = blend(school-band centroid, mean-y of already-placed lineage_in)
+//   2. step outward in 18 px increments from desired y until no other dot's
+//      bounding box intersects within ± xPad of x.
+//   3. clamp into [PAD_TOP, NETWORK_CANVAS_H - PAD_BOTTOM].
+function computeNetworkLayout() {
+  state.layout.clear();
+  const sorted = [...state.thinkers].sort((a, b) => {
+    const al = (typeof a.dates_low === "number") ? a.dates_low : 0;
+    const bl = (typeof b.dates_low === "number") ? b.dates_low : 0;
+    if (al !== bl) return al - bl;
+    return ((a.dates_low + a.dates_high) / 2) - ((b.dates_low + b.dates_high) / 2);
+  });
+
+  const placed = []; // [{x, y, r, id}]
+  const STEP = 18;
+  const X_PAD = 60;
+  const Y_PAD = 22;
+
+  const usableH = NETWORK_CANVAS_H - NETWORK_PAD_TOP - NETWORK_PAD_BOTTOM;
+  const yFromBand = (b) => NETWORK_PAD_TOP + b * usableH;
+
+  for (const t of sorted) {
+    if (!isThinkerVisible(t)) continue;
+    const tok = t.school_color_token || "proto";
+    const tier = tierOf(t);
+    const xMid = yearToX((t.dates_low + t.dates_high) / 2);
+    const x1 = yearToX(t.dates_low);
+    const x2 = yearToX(t.dates_high);
+
+    // Lineage gravity: average y of already-placed predecessors.
+    let lineageY = null;
+    let lineageN = 0;
+    let lineageSum = 0;
+    for (const inId of (t.lineage_in || [])) {
+      const p = state.layout.get(inId);
+      if (p) { lineageSum += p.y; lineageN++; }
+    }
+    if (lineageN > 0) lineageY = lineageSum / lineageN;
+
+    const bandY = yFromBand(SCHOOL_BAND[tok] != null ? SCHOOL_BAND[tok] : 0.5);
+    // Pull strongly toward lineage when present, else use band centroid.
+    const desiredY = lineageY != null ? (0.55 * lineageY + 0.45 * bandY) : bandY;
+
+    // Walk outward from desiredY in STEP increments, alternating sign,
+    // until we find a slot with no neighbor within (X_PAD x, Y_PAD y).
+    const dotR = tier === 1 ? 9 : (tier === 2 ? 6 : 4);
+    const minTop = NETWORK_PAD_TOP;
+    const maxTop = NETWORK_CANVAS_H - NETWORK_PAD_BOTTOM;
+    let chosenY = desiredY;
+    let found = false;
+    for (let k = 0; k <= 200 && !found; k++) {
+      const offsets = k === 0 ? [0] : [k * STEP, -k * STEP];
+      for (const off of offsets) {
+        const y = Math.max(minTop, Math.min(maxTop, desiredY + off));
+        let conflict = false;
+        for (const q of placed) {
+          if (Math.abs(q.x - xMid) < X_PAD && Math.abs(q.y - y) < (Y_PAD + (q.r + dotR) * 0.5)) {
+            conflict = true;
+            break;
+          }
+        }
+        if (!conflict) { chosenY = y; found = true; break; }
+      }
+    }
+
+    placed.push({ x: xMid, y: chosenY, r: dotR, id: t.id });
+    state.layout.set(t.id, {
+      thinker: t, x: xMid, y: chosenY,
+      lane: 0, shade: shadeFor(t), tier,
+      barX1: x1, barX2: x2,
+    });
+  }
+}
+
 // ---------- render: lane rail -----------
 function renderLaneRail() {
   laneRailEl.innerHTML = "";
+  if (state.viewMode === "network") {
+    // Network view collapses the rail; legend is shown instead.
+    laneRailEl.style.height = "0px";
+    return;
+  }
   // Per-token thinker counts (real schools only).
   const counts = new Map();
   for (const t of state.thinkers) {
@@ -507,6 +644,7 @@ function renderEraBands() {
   const ns = "http://www.w3.org/2000/svg";
   const g = document.createElementNS(ns, "g");
   g.setAttribute("class", "era-bands");
+  const h = plotHeight();
   for (const era of ERA_BANDS) {
     if (era.high < state.range.low || era.low > state.range.high) continue;
     const lo = Math.max(era.low, state.range.low);
@@ -518,20 +656,31 @@ function renderEraBands() {
     r.setAttribute("x", x);
     r.setAttribute("y", 0);
     r.setAttribute("width", w);
-    r.setAttribute("height", state.renderLanes.length * LANE_H);
+    r.setAttribute("height", h);
     r.setAttribute("fill", era.fill);
     r.setAttribute("fill-opacity", era.fillOpacity);
     g.appendChild(r);
   }
-  // lane separators
-  for (let i = 1; i < state.renderLanes.length; i++) {
-    const line = document.createElementNS(ns, "line");
-    line.setAttribute("class", "lane-separator");
-    line.setAttribute("x1", 0);
-    line.setAttribute("x2", totalWidth());
-    line.setAttribute("y1", i * LANE_H);
-    line.setAttribute("y2", i * LANE_H);
-    g.appendChild(line);
+  if (state.viewMode === "network") {
+    // Faint horizontal anchor at canvas vertical-midpoint.
+    const spine = document.createElementNS(ns, "line");
+    spine.setAttribute("class", "network-spine");
+    spine.setAttribute("x1", 0);
+    spine.setAttribute("x2", totalWidth());
+    spine.setAttribute("y1", h / 2);
+    spine.setAttribute("y2", h / 2);
+    g.appendChild(spine);
+  } else {
+    // lane separators
+    for (let i = 1; i < state.renderLanes.length; i++) {
+      const line = document.createElementNS(ns, "line");
+      line.setAttribute("class", "lane-separator");
+      line.setAttribute("x1", 0);
+      line.setAttribute("x2", totalWidth());
+      line.setAttribute("y1", i * LANE_H);
+      line.setAttribute("y2", i * LANE_H);
+      g.appendChild(line);
+    }
   }
   svg.appendChild(g);
 }
