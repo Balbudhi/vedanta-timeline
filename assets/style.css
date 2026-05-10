@@ -1699,19 +1699,31 @@ body.is-reading-mode .passage-card .english { font-size: 18px; }
   letter-spacing: 0.06em;
 }
 .articles-section-head {
+  margin: 28px 0 10px;
+  padding-top: 14px;
+  border-top: 1px solid var(--rule);
+}
+.articles-section-head:first-child {
+  border-top: none;
+  margin-top: 4px;
+  padding-top: 0;
+}
+.articles-section-head .articles-section-title {
   font-family: var(--sans);
   font-size: 11px; font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--muted);
-  margin: 22px 0 8px;
-  padding-top: 10px;
-  border-top: 1px solid var(--rule);
+  margin: 0 0 4px;
 }
-.articles-section-head:first-child {
-  border-top: none;
-  margin-top: 0;
-  padding-top: 0;
+.articles-section-head .articles-section-blurb {
+  font-family: var(--serif);
+  font-size: 13px;
+  font-style: italic;
+  color: var(--ink-soft);
+  line-height: 1.5;
+  margin: 0 0 6px;
+  max-width: 60ch;
 }
 
 .article-reader {
@@ -1809,6 +1821,63 @@ body.is-reading-mode .passage-card .english { font-size: 18px; }
   text-align: left;
   padding: 6px 12px;
   border-bottom: 1px solid var(--hairline);
+}
+
+/* Sanskrit-alongside-English block. Authored in markdown as
+     ::: sanskrit-aside
+     :::: sanskrit
+       <sanskrit text>
+     :::: english
+       <english translation>
+     :::
+   Renders side-by-side at desktop, stacks at <=720px.            */
+.article-reader-content .sk-aside {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin: 18px 0;
+  padding: 14px 16px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: var(--bg-warm);
+}
+.article-reader-content .sk-aside-pane {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+.article-reader-content .sk-aside-pane > p:first-of-type { margin-top: 0; }
+.article-reader-content .sk-aside-pane > p:last-of-type { margin-bottom: 0; }
+.article-reader-content .sk-aside-label {
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 2px;
+}
+.article-reader-content .sk-aside-sanskrit {
+  font-style: italic;
+  color: var(--ink);
+}
+.article-reader-content .sk-aside-english {
+  color: var(--ink);
+  border-left: 1px solid var(--rule);
+  padding-left: 18px;
+}
+@media (max-width: 720px) {
+  .article-reader-content .sk-aside {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .article-reader-content .sk-aside-english {
+    border-left: none;
+    padding-left: 0;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+  }
 }
 
 /* mobile: scrim behind the bottom sheet for tap-out-to-close */
