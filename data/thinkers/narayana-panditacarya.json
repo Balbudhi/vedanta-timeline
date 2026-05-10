@@ -1,0 +1,48 @@
+{
+  "id": "narayana-panditacarya",
+  "name": "Narayana Panditacharya",
+  "name_iast": "Nārāyaṇa-Paṇḍitācārya",
+  "alternate_names": [],
+  "dates_low": 1280,
+  "dates_high": 1360,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Son of Trivikrama Paṇḍitācārya; near-contemporary of Madhva (born within Madhva's lifetime); composes the Sumadhva-Vijaya as the school's near-contemporary biography. Sectarian chronicles plus the work's own internal evidence of personal acquaintance with Madhva.",
+  "school": "Dvaita",
+  "school_color_token": "dvaita",
+  "sub_school": "Madhva-paramparā-direct-disciple",
+  "sub_school_shade": 2,
+  "lineage_in": [
+    "trivikrama-pandita",
+    "madhva"
+  ],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Nārāyaṇa-Paṇḍitācārya is the son of Trivikrama Paṇḍitācārya and the author of the *Sumadhva-Vijaya* — the near-contemporary biography of Madhva and the foundational hagiographical text of the Mādhva *paramparā*. The doctrinal architecture is Madhva's, transmitted through narrative-doctrinal exposition rather than scholastic argument: Madhva as the third *avatāra* of Vāyu (after Hanumān and Bhīma) (*Sumadhva-Vijaya* sarga 1, the *avatāra-prakaraṇa*); the establishment of *Tattvavāda* as the recovery of the genuine Vedic tradition concealed under post-Śaṅkara Advaita's *māyā-vāda* (*Sumadhva-Vijaya* sarga 8 ff., the polemical encounters); the *Tāratamya* as the structure of beings under Viṣṇu (presupposed throughout); the *bimba-pratibimba* relation (presupposed in the *avatāra*-frame).\n\nThe contribution is the *Sumadhva-Vijaya* itself — a 16-*sarga* Sanskrit *mahākāvya* composed in elaborate metres, narrating Madhva's life from birth in Pājakakṣetra through his three pilgrimages, the public *śāstrārthas* against the Advaita establishment, the composition of his *granthas*, and his entry into Badarī. The work is doctrinal in form: each narrative episode is structured to fix a specific point of *Tattvavāda* in operation. The *avatāra*-frame (*Sumadhva-Vijaya* sarga 1) establishes Madhva as Vāyu's third *avatāra*, fixing the school's identification of its founder as continuous with Hanumān and Bhīma in the *Tāratamya* — the doctrine that Trivikrama's *Vāyu-Stuti* fixes liturgically and the *Sumadhva-Vijaya* fixes biographically. The polemical-encounter sargas (*Sumadhva-Vijaya* sargas 8–14) narrate Madhva's *śāstrārthas* against Advaita opponents; the conventions of the *mahākāvya* permit doctrinal exposition through the *bhāṣaṇa*-speeches that the work attributes to Madhva at decisive moments (*Sumadhva-Vijaya* sarga 9 vv. 36–48, on Madhva's defence of *bheda*; sarga 11, on the *māyā-khaṇḍana*). The *grantha*-composition sargas (*Sumadhva-Vijaya* sargas 12–13) fix the lineage's traditional account of how the *Sarva-Mūla-Granthāḥ* came to be composed.\n\nThe *Sumadhva-Vijaya* is the principal source for what the Mādhva tradition knows of Madhva's life and is the canonical narrative-doctrinal vehicle through which the school transmits its founder's biography. Without Nārāyaṇa-Paṇḍitācārya's work the school would lack a near-contemporary biographical record (the only other surviving near-contemporary source is the earlier *Maṇi-Mañjarī*, much shorter and presupposed by the *Sumadhva-Vijaya*).",
+  "engaged_works": [
+    {
+      "work_id": "sumadhva-vijaya",
+      "title": "Sumadhva-Vijaya",
+      "title_iast": "Sumadhva-Vijaya",
+      "alternate_titles": [
+        "Madhva-Vijaya"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored mahākāvya, preserved in the Mādhva manuscript canon and recited daily in the school's pārāyaṇa tradition.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."},
+        {"kind": "sectarian-chronicle", "description": "Continuous Mādhva-paramparā transmission as foundational hagiographical text."}
+      ],
+      "genre": "mahakavya-hagiography",
+      "language": "sanskrit",
+      "summary": "The *Sumadhva-Vijaya* is a 16-*sarga* Sanskrit *mahākāvya* composed in elaborate metres (principally *vasantatilakā*, *mālinī*, *śārdūla-vikrīḍita*, and *sragdharā* in the descriptive sargas), narrating Madhva's life from birth in Pājakakṣetra through his three pilgrimages, his public *śāstrārthas* against the Advaita establishment, his composition of the *granthas* of the *Sarva-Mūla*, and his entry into Badarī (*Sumadhva-Vijaya* sarga 16). The work's doctrinal-narrative structure is fourfold. (i) The *avatāra*-frame (*Sumadhva-Vijaya* sarga 1, the *avatāra-prakaraṇa*) establishes Madhva as the third *avatāra* of Vāyu, after Hanumān and Bhīma, on the strength of the *Bālittha-sūkta* (*Ṛgveda* 1.141.1) read in the school's interpretive tradition. (ii) The early-life sargas (*Sumadhva-Vijaya* sargas 2–6) narrate the events of Madhva's birth, education, *sannyāsa*-ordination under Acyutaprekṣa, and early *adhyayana*; the narrative fixes the lineage's account of Madhva's relation to his immediate teacher and the manner of his *sannyāsa*. (iii) The polemical-encounter sargas (*Sumadhva-Vijaya* sargas 8–14) narrate Madhva's *śāstrārthas* against Advaita opponents on the three pilgrimages; the *bhāṣaṇa*-speeches that the work attributes to Madhva at decisive moments do doctrinal work — sarga 9 vv. 36–48 fixes the school's defence of *bheda* against the standard Advaita objections; sarga 11 fixes the *māyā-khaṇḍana*. (iv) The *grantha*-composition sargas (*Sumadhva-Vijaya* sargas 12–13) narrate the composition of the *Sarva-Mūla-Granthāḥ*, fixing the lineage's traditional account of the order in which Madhva composed his works. The *Sumadhva-Vijaya* is recited in *pārāyaṇa* across Mādhva *maṭhas* and is the principal source for what the school knows of Madhva's life. Nārāyaṇa-Paṇḍitācārya is also the author of the shorter *Maṇi-Mañjarī*-companion narrative-prose treatments of episodes from the *Sumadhva-Vijaya*, but the *Sumadhva-Vijaya* itself is his principal and load-bearing work.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-intra-school-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-intra-school-opus"
+}
