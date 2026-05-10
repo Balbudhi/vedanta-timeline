@@ -1,0 +1,176 @@
+{
+  "chain_id": "mayavada-khandana",
+  "title": "Māyāvāda-Khaṇḍana, Upādhi-Khaṇḍana, and Mithyātvānumāna-Khaṇḍana — Madhva's three-front refutation of Advaita",
+  "attacker": "madhva",
+  "attacker_text": "Māyāvāda-Khaṇḍana; Upādhi-Khaṇḍana; Mithyātvānumāna-Khaṇḍana (the three Khaṇḍana-traya); supplemented by Tattvodyota and Viṣṇu-Tattva-Vinirṇaya",
+  "target_school_token": "advaita",
+  "target_position_summary": "Classical Advaita as crystallised by Śaṅkara and developed through Sureśvara, Padmapāda, and the Vivaraṇa school: Brahman alone is real (pāramārthika); the world is mithyā (anirvacanīya, neither sat nor asat); the jīva is non-different from Brahman in essence; māyā/avidyā as the principle of phenomenal multiplicity. Madhva attacks this position from three angles: the māyā-doctrine itself (Māyāvāda-Khaṇḍana), the upādhi-mechanism by which jīvas are differentiated (Upādhi-Khaṇḍana), and the formal inference for the world's mithyātva (Mithyātvānumāna-Khaṇḍana).",
+  "arguments": [
+    {
+      "name": "Māyāvāda-Khaṇḍana — argument-1: the disjunctive trap on māyā's ontological status",
+      "premises": [
+        "The Advaitin posits māyā as the principle of world-projection.",
+        "Māyā must be either sat (real), asat (unreal), or 'neither sat nor asat' (anirvacanīya).",
+        "If māyā is sat: there are two reals (Brahman and māyā), and the dvaita the Advaitin denies is conceded by the back door.",
+        "If māyā is asat: the asat cannot produce effects, and the world it allegedly produces is unaccounted for.",
+        "If māyā is anirvacanīya: this category is not constructed but stipulated; nothing in pramāṇa-experience licenses a third value beyond sat and asat."
+      ],
+      "inference": "Therefore on every available characterisation, māyā is either incompatible with non-dualism or explanatorily inert.",
+      "conclusion": "The Advaitic appeal to māyā as solvent of the apparent multiplicity is incoherent on its own terms.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "prakasatman",
+            "position": "Vivaraṇa's anirvacanīya-bhāvarūpa-māyā is hit at horn 3 and additionally at horn 1 (since bhāvarūpa-māyā is a positive item that competes with Brahman for ontological status)."
+          },
+          {
+            "thinker_id": "sarvajnatman",
+            "position": "Saṃkṣepa-Śārīraka's elaborate māyā-śakti analysis receives the same trilemma."
+          },
+          {
+            "thinker_id": "vacaspati",
+            "position": "Bhāmatī's jīva-located avidyā is hit through the parallel argument: avidyā as the productive cause of phenomenal experience faces the same trilemma."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "sankara",
+            "position": "Śaṅkara himself does not centrally deploy māyā as a positive principle in the BSB; māyā appears mainly in the Gītā-Bhāṣya and Upaniṣad-Bhāṣyas in scriptural-exegetical contexts. The polemic targets a doctrinal apparatus that is post-Śaṅkara in its developed form."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "madhusudana",
+            "response_text": "Advaita-Siddhi prathama-paricheda 1 (the four mithyātva-lakṣaṇas) and the māyā-vivecana sections",
+            "verdict": "argues that the trilemma assumes bivalence as a metaphysical principle rather than as a logical convenience; once bivalence is treated as itself open to investigation, anirvacanīya becomes a legitimate third option not disqualified by stipulation but warranted by the explanatory work it does (specifically: it accounts for the cognitively-real-but-sublatable status of the world). Concedes that simple stipulation is illegitimate; defends that anirvacanīya is functionally indispensable."
+          }
+        ]
+      },
+      "user_thesis_test": "The trilemma is genuinely substantive against the bhāvarūpa-māyā doctrine. Madhusūdana's reply is genuinely substantive in turn. The residual disagreement is over the legitimacy of non-classical (non-bivalent) ontology — a real philosophical question, not a register-difference. Substantive."
+    },
+    {
+      "name": "Upādhi-Khaṇḍana — the upādhi cannot generate real difference if difference is unreal",
+      "premises": [
+        "Advaita explains apparent jīva-multiplicity by upādhi (limiting adjuncts: bodies, sense-organs, antaḥkaraṇas) — the analogy is one space appearing as pot-space and jar-space.",
+        "The upādhis themselves are either real or mithyā.",
+        "If the upādhis are mithyā, they cannot ground the appearance of real differentiation — a mithyā-divider cannot produce a really-experienced division.",
+        "If the upādhis are real, then a real plurality of differentiating items is admitted, and the non-duality at the empirical level is conceded.",
+        "The space-pot analogy is misleading: pot-space and jar-space are differentiated by really-distinct pots, not by mithyā-pots."
+      ],
+      "inference": "Therefore the upādhi-mechanism cannot do what Advaita asks of it without smuggling in real difference.",
+      "conclusion": "Therefore the apparent jīva-multiplicity points to real jīva-multiplicity (pañca-bheda), not to upādhi-conditioned non-difference.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "prakasatman",
+            "position": "Vivaraṇa's upādhi-doctrine for jīva-Brahman differentiation is targeted directly."
+          },
+          {
+            "thinker_id": "vacaspati",
+            "position": "Bhāmatī's antaḥkaraṇa-upādhi for jīva-individuation is hit on horn 2."
+          },
+          {
+            "thinker_id": "bhaskara",
+            "position": "Bhāskara's aupādhika-bhedābheda is partially engaged, though Bhāskara's commitment to real-upādhi (the second horn of Madhva's dilemma) means the argument lands as half-concession rather than refutation."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "sankara",
+            "position": "Śaṅkara's bhāṣya uses the upādhi-analogy episodically rather than as a load-bearing differentiation-mechanism; the doctrine is more developed in Sureśvara and Vivaraṇa."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "madhusudana",
+            "response_text": "Advaita-Siddhi's defense of upādhi-vāda",
+            "verdict": "argues that the dilemma is false because mithyā does not entail explanatorily-inert: a mithyā-upādhi is cognitively-real-while-experienced (vyāvahārika-sat) and functions as a real-upādhi within the vyāvahārika domain. Madhva's argument requires that mithyā collapses to asat — a move the Advaitin explicitly denies. Defended doctrinally; the disagreement reduces to the mithyā vs asat distinction."
+          }
+        ]
+      },
+      "user_thesis_test": "The argument lands hard if and only if mithyā is read as asat. Madhva's polemical reading systematically does so. The user's hard constraint (mithyā ≠ asat) and the Advaitin's self-reading (mithyā = sad-asad-vilakṣaṇa) both reject this reading. The polemic is therefore substantive only against the version of Advaita that Madhva polemically constructs, not against Advaita as Madhusūdana defends it. Partially dissolves under register-clarification — but the residual question (whether mithyā can do the explanatory work without collapsing to asat) is itself substantive."
+    },
+    {
+      "name": "Mithyātvānumāna-Khaṇḍana — the inference for world's mithyātva is dialectically defective",
+      "premises": [
+        "The Advaitin formal inference is: 'The world is mithyā (sādhya), because it is dṛśya (perceived) (hetu), like the rope-snake (dṛṣṭānta).'",
+        "For the inference to succeed, the vyāpti (universal concomitance) 'whatever is perceived is mithyā' must be established.",
+        "The vyāpti has counterexamples: Brahman is allegedly cognised in brahma-jñāna (an act of cognition with Brahman as object), yet Brahman is not mithyā. Either Brahman is also a counterexample to its own non-mithyā status, or the hetu is too broad.",
+        "The dṛṣṭānta (rope-snake) is itself not a clean case: the snake-cognition is sublated by the rope-cognition because the rope is really there as the substrate; this presupposes a real substrate-realism that Advaita cannot universally deploy without conceding real substrates throughout the cognitive field.",
+        "Further, the hetu 'dṛśyatva' is asādhāraṇa (uncommon) under one specification and atvyāpta (over-extending) under another; no single specification supports the inference."
+      ],
+      "inference": "The formal inference for world-mithyātva is dialectically defective at both vyāpti and dṛṣṭānta levels.",
+      "conclusion": "The mithyātva-thesis lacks formal warrant; it survives, if at all, only as a stipulation, not a demonstrated proposition.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "prakasatman",
+            "position": "Vivaraṇa's formal mithyātvānumāna is the principal target."
+          },
+          {
+            "thinker_id": "sarvajnatman",
+            "position": "Saṃkṣepa-Śārīraka's mithyātva-arguments are systematically engaged."
+          },
+          {
+            "thinker_id": "anandabodha",
+            "position": "Ānandabodha's elaborate Pramāṇa-Mālā defenses of the mithyātva-inference receive direct hits."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "sankara",
+            "position": "Śaṅkara's bhāṣya does not deploy a formal mithyātvānumāna; the inferential apparatus is post-Śaṅkara, principally Vivaraṇa and the Khaṇḍana-Khaṇḍa-Khādya tradition."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "madhusudana",
+            "response_text": "Advaita-Siddhi prathama-paricheda 1–4 — defends four successive non-equivalent lakṣaṇas of mithyātva, each crafted to evade a distinct counterexample",
+            "verdict": "the four-lakṣaṇa strategy is precisely the structural reply to Madhva's vyāpti-counterexample charge: by offering multiple non-equivalent characterisations, Madhusūdana shows that the underlying property mithyātva can be reached by independent routes even if any one definition is locally defective. The disagreement reduces to whether disjunctive characterisations of a single ontological category are dialectically legitimate."
+          },
+          {
+            "thinker_id": "vyasatirtha",
+            "response_text": "Nyāyāmṛta — extends Madhva's mithyātvānumāna-khaṇḍana with full Navya-Nyāya rigour, applying it to each of Madhusūdana's four lakṣaṇas in turn",
+            "verdict": "Vyāsatīrtha's central claim is that none of the four lakṣaṇas survives technical examination; each either over-extends, fails its own dṛṣṭānta, or smuggles in a hidden bivalence-violation."
+          }
+        ]
+      },
+      "user_thesis_test": "Highly substantive. This is where Vedānta's most rigorous inter-school dialectic operates. Madhva opens the question, Madhusūdana replies with four lakṣaṇas, Vyāsatīrtha extends, Brahmānanda Sarasvatī's Laghu-Candrikā responds. None of these moves dissolves the disagreement; each is a substantive response. The disagreement is real and persists at the formal level."
+    }
+  ],
+  "user_thesis_summary": "Madhva's Khaṇḍana-traya is the locus classicus of substantive Vedāntic polemic. Of the three arguments, the Mithyātvānumāna-Khaṇḍana is the most genuinely substantive: it identifies a real formal weakness in the Advaitic inference, and the response (Madhusūdana's four lakṣaṇas) is a real reply that opens further substantive disagreement. The Māyāvāda-Khaṇḍana raises a real question about non-classical ontology but its sharpest formulations rest on reading mithyā as asat — a reading the user's framework prohibits and the Advaitin explicitly rejects. The Upādhi-Khaṇḍana similarly depends on the mithyā-as-asat reading at its sharpest. Where Madhva's polemic targets are post-Śaṅkara doctrinal extensions (Vivaraṇa's bhāvarūpa-māyā apparatus, the formal mithyātvānumāna), the polemic engages those extensions on their own terms and the disagreement is substantive. Where the polemic targets Śaṅkara himself, much of the apparatus it engages is not present in Śaṅkara's bhāṣya. Verdict: substantive against post-Śaṅkara Advaita, partially register-dependent against Śaṅkara, with the residual disagreements (anirvacanīya as logical category; mithyā vs asat; disjunctive lakṣaṇas) being real metaphysical questions, not dissolved ones.",
+  "primary_source_loci": [
+    "Māyāvāda-Khaṇḍana (full work; ~10 prakaraṇas)",
+    "Upādhi-Khaṇḍana (full work; ~5 sections)",
+    "Mithyātvānumāna-Khaṇḍana (full work)",
+    "Tattvodyota — Madhva's longer dialectical treatise complementing the Khaṇḍana-traya",
+    "Viṣṇu-Tattva-Vinirṇaya — the systematic positive statement against which the polemic operates",
+    "Anuvyākhyāna 1.1.1 — opening polemical engagement with the Advaita position"
+  ],
+  "scholarly_apparatus": [
+    {
+      "scholar": "B. N. K. Sharma",
+      "work": "Philosophy of Śrī Madhvācārya (Bombay, 1962)",
+      "page_or_section": "chs. 7–9",
+      "position": "Argues the Khaṇḍana-traya is primarily targeted at the Vivaraṇa school and Maṇḍana-Bhāmatī line; the explicit Śaṅkara-as-target reading is an over-extension. Sharma stresses Madhva's insistence that the Advaitin's own elaboration of mithyā exceeds anything Śaṅkara himself committed to in the bhāṣyas."
+    },
+    {
+      "scholar": "Deepak Sarma",
+      "work": "An Introduction to Mādhva Vedānta (Ashgate, 2003)",
+      "page_or_section": "chs. 3–4",
+      "position": "Reads the Khaṇḍana-traya as a coordinated dialectical project rather than three separate works; reconstructs the technical apparatus of the polemic in dialogue with the Madhusūdana-Vyāsatīrtha cycle."
+    },
+    {
+      "scholar": "Sharma Krishnamurthy",
+      "work": "The Madhva-Advaita Polemic (Bangalore, 1981)",
+      "page_or_section": "ch. 5",
+      "position": "Documents the historical evidence that Madhva's polemic is read by both schools as engaging the post-Śaṅkara Advaita establishment rather than Śaṅkara's own bhāṣya."
+    }
+  ],
+  "entry_status": "reviewed",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-polemic-opus"
+}

@@ -32,7 +32,12 @@
       "genre": "varttika",
       "language": "sanskrit",
       "summary": "Four-*adhyāya* metrical *vārttika* in over 2,200 *anuṣṭubh* verses, compressing and argumentatively reconstructing Śaṅkara's *Brahma-Sūtra-Bhāṣya*. Sureśvara's *Naiṣkarmya-Siddhi* and *Bṛhadāraṇyaka-Vārttika* establish the broad principles of the Sureśvara line; the *Saṃkṣepa-Śārīraka* welds them into a *Brahma-sūtra*-shaped system. Four positions are established. First, Brahman is the locus of *avidyā*, explicitly against what will become the *Bhāmatī* alternative. Second, the *jīva* is *cidābhāsa*, analysed by *bimba-pratibimba*. Third, the Mahāvākya is the unique productive *pramāṇa* of *akhaṇḍa-jñāna*. Fourth, *karma* has no role in producing knowledge but retains a purificatory function. The work generates a substantial commentarial tradition — Madhusūdana's *Saṃkṣepa-Śārīraka-Sāra-Saṃgraha*, Rāmatīrtha's *Anvayārtha-Prakāśikā*, Nṛsiṃhāśrama's *Tattvabodhinī* — and supplies the textual base with which later Advaita reckons.",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "samksepa-sariraka-1-319__partless-consciousness-alone-bears-avidya",
+        "samksepa-sariraka-1-327__reflected-consciousness-and-agency",
+        "samksepa-sariraka-3-275-276__fourfold-analysis-of-tat-and-tvam",
+        "samksepa-sariraka-3-278__tvam-term-and-jiva-as-reflection"
+      ],
       "entry_status": "reviewed"
     },
     {
@@ -49,10 +54,788 @@
       "entry_status": "reviewed"
     }
   ],
-  "key_passages": [],
+  "key_passages": [
+    {
+      "passage_id": "samksepa-sariraka-1-319__partless-consciousness-alone-bears-avidya",
+      "work_id": "samksepa-sariraka",
+      "locus_short": "SS I.319",
+      "locus_long": "Saṃkṣepa-Śārīraka, first adhyāya, verse 319",
+      "locus_structured": {
+        "chapter": 1,
+        "verse": 319
+      },
+      "sanskrit_iast": "āśrayatvaviṣayatvabhāginī nirvibhāgacitir eva kevalā |\npūrvasiddhatamaso hi paścimo nāśrayo bhavati nāpi gocaraḥ ||",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "āśrayatvaviṣayatvabhāginī",
+            "stem": "bhāginī",
+            "morphology": "nom sg fem",
+            "gloss": "sharing in locushood and objecthood"
+          },
+          {
+            "pada": "nirvibhāgacitiḥ",
+            "stem": "citi",
+            "morphology": "nom sg fem",
+            "gloss": "undivided consciousness"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "indeed, alone"
+          },
+          {
+            "pada": "kevalā",
+            "stem": "kevala",
+            "morphology": "nom sg fem",
+            "gloss": "only, exclusive"
+          },
+          {
+            "pada": "pūrvasiddhatamasaḥ",
+            "stem": "tamas",
+            "morphology": "gen sg neut",
+            "gloss": "of the darkness already established before"
+          },
+          {
+            "pada": "hi",
+            "stem": "hi",
+            "morphology": "indecl",
+            "gloss": "for"
+          },
+          {
+            "pada": "paścimaḥ",
+            "stem": "paścima",
+            "morphology": "nom sg masc",
+            "gloss": "the later one"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "āśrayaḥ",
+            "stem": "āśraya",
+            "morphology": "nom sg masc",
+            "gloss": "locus"
+          },
+          {
+            "pada": "bhavati",
+            "stem": "bhū",
+            "morphology": "3sg pres ind P",
+            "gloss": "becomes"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "api",
+            "stem": "api",
+            "morphology": "indecl",
+            "gloss": "also"
+          },
+          {
+            "pada": "gocaraḥ",
+            "stem": "gocara",
+            "morphology": "nom sg masc",
+            "gloss": "object, field of cognition"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "āśrayatvaviṣayatvabhāginī",
+            "type": "other",
+            "resolution": "āśrayatvasya viṣayatvasya ca bhāginī",
+            "note": "The compound compresses the two technical statuses of avidyā: locus and object."
+          },
+          {
+            "compound": "nirvibhāgacitiḥ",
+            "type": "karmadharaya",
+            "resolution": "nirvibhāgā citiḥ"
+          },
+          {
+            "compound": "pūrvasiddhatamasaḥ",
+            "type": "tatpurusha",
+            "resolution": "pūrvaṃ siddhasya tamasaḥ"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "kartṛ",
+            "pada": "paścimaḥ",
+            "note": "The later-arising conditioned self is the subject of bhavati."
+          },
+          {
+            "role": "sambandha",
+            "pada": "pūrvasiddhatamasaḥ",
+            "note": "Genitive relation: the darkness/avidyā that is prior to the later entity."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "bhavati",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          }
+        ]
+      },
+      "english_close": "Only undivided consciousness alone possesses the status of locus and object. For what is later-arising does not become, nor can it become, the locus or the object of the darkness that is already established before it.",
+      "english_paraphrase": "Avidyā belongs to partless consciousness itself; the conditioned jīva or Īśvara, which arise only after ignorance is operative, cannot bear it as its locus.",
+      "preserved_terms": [
+        {
+          "term_iast": "avidyā",
+          "first_use_gloss": "beginningless nescience that veils and projects"
+        },
+        {
+          "term_iast": "āśraya",
+          "first_use_gloss": "the locus in which something resides"
+        },
+        {
+          "term_iast": "gocara",
+          "first_use_gloss": "the object-field of a cognition"
+        }
+      ],
+      "why_this_passage": "This is Sarvajñātman's cleanest programmatic statement of the Brahman-locus thesis: partless consciousness, not the later conditioned self, bears avidyā as both locus and object. Later Vivaraṇa-line arguments repeatedly return to exactly this claim, so the verse fairly represents the line's own self-definition rather than a detachable flourish.",
+      "topic_tags": [
+        "ontology",
+        "causation"
+      ],
+      "sub_axes": [
+        "locus-of-avidya"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "N. Veezhinathan, The Samkṣepa-Śārīraka of Sarvajñātman: Critically Edited with Introduction, English Translation, Notes and Indexes, University of Madras, 1972 (archive scan: /orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/vedanta/full_corpus/sarvajnatman_sanksepa_sariraka_veezhinathan_1972_archive.pdf).",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "samksepa-sariraka-1-327__reflected-consciousness-and-agency",
+      "work_id": "samksepa-sariraka",
+      "locus_short": "SS I.327",
+      "locus_long": "Saṃkṣepa-Śārīraka, first adhyāya, verse 327",
+      "locus_structured": {
+        "chapter": 1,
+        "verse": 327
+      },
+      "sanskrit_iast": "sukṛtaduṣkṛtakarmaṇi kartṛtāṃ\nmatigatātmacitipratibimbakam |\nvrajati tadvad adaḥ paramātmano\njagati yāti tamaḥpratibimbakam ||",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "sukṛtaduṣkṛtakarmaṇi",
+            "stem": "karman",
+            "morphology": "loc sg neut",
+            "gloss": "in meritorious and demeritorious action"
+          },
+          {
+            "pada": "kartṛtām",
+            "stem": "kartṛtā",
+            "morphology": "acc sg fem",
+            "gloss": "agenthood"
+          },
+          {
+            "pada": "matigatātmacitipratibimbakam",
+            "stem": "pratibimbaka",
+            "morphology": "nom sg neut",
+            "gloss": "the reflection of self-consciousness that is in the intellect"
+          },
+          {
+            "pada": "vrajati",
+            "stem": "vraj",
+            "morphology": "3sg pres ind P",
+            "gloss": "attains, goes to"
+          },
+          {
+            "pada": "tadvat",
+            "stem": "tadvat",
+            "morphology": "indecl",
+            "gloss": "likewise"
+          },
+          {
+            "pada": "adaḥ",
+            "stem": "adas",
+            "morphology": "nom sg neut",
+            "gloss": "that"
+          },
+          {
+            "pada": "paramātmanaḥ",
+            "stem": "paramātman",
+            "morphology": "gen sg masc",
+            "gloss": "of the supreme self"
+          },
+          {
+            "pada": "jagati",
+            "stem": "jagat",
+            "morphology": "loc sg neut",
+            "gloss": "in relation to the world"
+          },
+          {
+            "pada": "yāti",
+            "stem": "yā",
+            "morphology": "3sg pres ind P",
+            "gloss": "goes, attains"
+          },
+          {
+            "pada": "tamaḥpratibimbakam",
+            "stem": "pratibimbaka",
+            "morphology": "nom sg neut",
+            "gloss": "the reflection in darkness"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "sukṛtaduṣkṛtakarmaṇi",
+            "type": "other",
+            "resolution": "sukṛte duṣkṛte ca karmaṇi"
+          },
+          {
+            "compound": "matigatātmacitipratibimbakam",
+            "type": "tatpurusha",
+            "resolution": "matau gatāyā ātmaciteḥ pratibimbakam",
+            "note": "The compound links consciousness to the mind/intellect as its reflecting medium."
+          },
+          {
+            "compound": "tamaḥpratibimbakam",
+            "type": "tatpurusha",
+            "resolution": "tamasi pratibimbakam"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "kartṛ",
+            "pada": "matigatātmacitipratibimbakam",
+            "note": "The intellect-reflection is the subject of vrajati."
+          },
+          {
+            "role": "karman",
+            "pada": "kartṛtām",
+            "note": "Goal state reached: agenthood."
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "sukṛtaduṣkṛtakarmaṇi",
+            "note": "The sphere in which agenthood is exercised."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "adaḥ ... tamaḥpratibimbakam",
+            "note": "The darkness-reflection of the supreme self is the subject of yāti."
+          },
+          {
+            "role": "sambandha",
+            "pada": "paramātmanaḥ",
+            "note": "Genitive relation: the reflection belongs to the supreme self."
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "jagati",
+            "note": "The field of worldly functioning."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "vrajati",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          },
+          {
+            "pada": "yāti",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          }
+        ]
+      },
+      "english_close": "The reflection of self-consciousness that is in the intellect attains agenthood in meritorious and demeritorious action. Likewise, that reflection in darkness, belonging to the supreme self, goes forth in relation to the world.",
+      "english_paraphrase": "Jīva is the intellect-conditioned reflection that becomes the doer of karma; Īśvara is the reflection in avidyā that stands in relation to the world-order.",
+      "preserved_terms": [
+        {
+          "term_iast": "pratibimba",
+          "first_use_gloss": "a reflected image, not an independent second original"
+        },
+        {
+          "term_iast": "mati",
+          "first_use_gloss": "the intellect/mind as reflecting medium"
+        },
+        {
+          "term_iast": "kartṛtā",
+          "first_use_gloss": "doership or agenthood"
+        }
+      ],
+      "why_this_passage": "This verse shows Sarvajñātman's reflection theory doing explanatory work: the jīva becomes a karmic agent through intellect-reflection, while the supreme self's darkness-reflection explains worldly lordship. It therefore represents not a decorative metaphor but the operational heart of his bimba-pratibimba model.",
+      "topic_tags": [
+        "ontology",
+        "causation"
+      ],
+      "sub_axes": [
+        "jiva-brahman-relation",
+        "status-of-individual-selves"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "N. Veezhinathan, The Samkṣepa-Śārīraka of Sarvajñātman: Critically Edited with Introduction, English Translation, Notes and Indexes, University of Madras, 1972 (archive scan: /orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/vedanta/full_corpus/sarvajnatman_sanksepa_sariraka_veezhinathan_1972_archive.pdf).",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "samksepa-sariraka-3-275-276__fourfold-analysis-of-tat-and-tvam",
+      "work_id": "samksepa-sariraka",
+      "locus_short": "SS III.275-276",
+      "locus_long": "Saṃkṣepa-Śārīraka, third adhyāya, verses 275–276",
+      "locus_structured": {
+        "chapter": 3,
+        "verse": "275-276"
+      },
+      "sanskrit_iast": "upādhim aupādhikam āntaraṃ cidābhāsanaṃ citpratibimbakaṃ ca /\ncidbimbam evaṃ caturaḥ padārthān vivicya jānīhi tadarthabhājaḥ //\ntathā tvamarthe 'pi catuṣṭayaṃ tad vivecanīyaṃ nipuṇena bhūtvā /\nmatiś cidābhāsanam evam asyāṃ bimbaṃ tadīyaṃ pratibimbakaṃ ca //",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "upādhim",
+            "stem": "upādhi",
+            "morphology": "acc sg masc",
+            "gloss": "limiting adjunct"
+          },
+          {
+            "pada": "aupādhikam",
+            "stem": "aupādhika",
+            "morphology": "acc sg neut",
+            "gloss": "what belongs to the adjunct"
+          },
+          {
+            "pada": "āntaram",
+            "stem": "āntara",
+            "morphology": "acc sg neut",
+            "gloss": "inner"
+          },
+          {
+            "pada": "cidābhāsanam",
+            "stem": "cidābhāsana",
+            "morphology": "acc sg neut",
+            "gloss": "manifestation of consciousness"
+          },
+          {
+            "pada": "citpratibimbakam",
+            "stem": "citpratibimbaka",
+            "morphology": "acc sg neut",
+            "gloss": "reflection of consciousness"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "cidbimbam",
+            "stem": "cidbimba",
+            "morphology": "acc sg neut",
+            "gloss": "the original consciousness-image"
+          },
+          {
+            "pada": "evam",
+            "stem": "evam",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "caturaḥ",
+            "stem": "catur",
+            "morphology": "acc pl masc",
+            "gloss": "four"
+          },
+          {
+            "pada": "padārthān",
+            "stem": "padārtha",
+            "morphology": "acc pl masc",
+            "gloss": "referents, entities meant by the word"
+          },
+          {
+            "pada": "vivicya",
+            "stem": "vi-√vic",
+            "morphology": "abs ger",
+            "gloss": "having discriminated"
+          },
+          {
+            "pada": "jānīhi",
+            "stem": "√jñā",
+            "morphology": "2sg imp P",
+            "gloss": "know"
+          },
+          {
+            "pada": "tadarthabhājaḥ",
+            "stem": "bhāj",
+            "morphology": "acc pl masc",
+            "gloss": "bearing the meaning of 'tat'"
+          },
+          {
+            "pada": "tathā",
+            "stem": "tathā",
+            "morphology": "indecl",
+            "gloss": "similarly"
+          },
+          {
+            "pada": "tvamarthe",
+            "stem": "tvamartha",
+            "morphology": "loc sg masc",
+            "gloss": "in the meaning of 'tvam'"
+          },
+          {
+            "pada": "api",
+            "stem": "api",
+            "morphology": "indecl",
+            "gloss": "also"
+          },
+          {
+            "pada": "catuṣṭayam",
+            "stem": "catuṣṭaya",
+            "morphology": "acc sg neut",
+            "gloss": "a fourfold set"
+          },
+          {
+            "pada": "tad",
+            "stem": "tad",
+            "morphology": "acc sg neut",
+            "gloss": "that"
+          },
+          {
+            "pada": "vivecanīyam",
+            "stem": "vivecanīya",
+            "morphology": "nom sg neut",
+            "gloss": "to be discriminated"
+          },
+          {
+            "pada": "nipuṇena",
+            "stem": "nipuṇa",
+            "morphology": "instr sg masc",
+            "gloss": "by one skilled, carefully"
+          },
+          {
+            "pada": "bhūtvā",
+            "stem": "√bhū",
+            "morphology": "abs ger",
+            "gloss": "having become"
+          },
+          {
+            "pada": "matiḥ",
+            "stem": "mati",
+            "morphology": "nom sg fem",
+            "gloss": "intellect"
+          },
+          {
+            "pada": "cidābhāsanam",
+            "stem": "cidābhāsana",
+            "morphology": "nom sg neut",
+            "gloss": "manifestation of consciousness"
+          },
+          {
+            "pada": "evam",
+            "stem": "evam",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "asyām",
+            "stem": "idam",
+            "morphology": "loc sg fem",
+            "gloss": "in this"
+          },
+          {
+            "pada": "bimbam",
+            "stem": "bimba",
+            "morphology": "nom sg neut",
+            "gloss": "prototype, original image"
+          },
+          {
+            "pada": "tadīyam",
+            "stem": "tadīya",
+            "morphology": "nom sg neut",
+            "gloss": "its own"
+          },
+          {
+            "pada": "pratibimbakam",
+            "stem": "pratibimbaka",
+            "morphology": "nom sg neut",
+            "gloss": "reflected image"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "cidābhāsanam",
+            "type": "tatpurusha",
+            "resolution": "citaḥ ābhāsanam"
+          },
+          {
+            "compound": "citpratibimbakam",
+            "type": "tatpurusha",
+            "resolution": "citaḥ pratibimbakam"
+          },
+          {
+            "compound": "cidbimbam",
+            "type": "tatpurusha",
+            "resolution": "citaḥ bimbam"
+          },
+          {
+            "compound": "tadarthabhājaḥ",
+            "type": "tatpurusha",
+            "resolution": "tadarthaṃ bhajante iti tadarthabhājaḥ"
+          },
+          {
+            "compound": "tvamarthe",
+            "type": "tatpurusha",
+            "resolution": "tvamaśabdasya arthe"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "karman",
+            "pada": "caturaḥ padārthān",
+            "note": "Objects of jānīhi in the first half."
+          },
+          {
+            "role": "karman",
+            "pada": "catuṣṭayaṃ tad",
+            "note": "The fourfold set in the meaning of tvam is what must be discriminated."
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "tvamarthe",
+            "note": "Semantic domain: the meaning of the word tvam."
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "asyām",
+            "note": "The consciousness-manifestation occurs in this intellect."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "jānīhi",
+            "lakara": "loṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          }
+        ]
+      },
+      "english_close": "Discriminate and know, thus, the four referents that bear the meaning of 'tat': the adjunct, the inner adjunct-conditioned manifestation of consciousness, the reflection of consciousness, and the original consciousness-image. Similarly, with regard to the meaning of 'tvam' also, that fourfold set is to be discriminated once one has become exact: the intellect, the manifestation of consciousness, the original in it, and its reflection.",
+      "english_paraphrase": "Before one states the identity taught by the mahāvākya, one must sort out the four layers involved on each side of the sentence.",
+      "preserved_terms": [
+        {
+          "term_iast": "upādhi",
+          "first_use_gloss": "a limiting adjunct that conditions appearance without altering the underlying reality"
+        },
+        {
+          "term_iast": "cidābhāsa",
+          "first_use_gloss": "manifested or apparent consciousness"
+        },
+        {
+          "term_iast": "bimba / pratibimba",
+          "first_use_gloss": "prototype and reflected image"
+        }
+      ],
+      "why_this_passage": "Rather than extracting only the conclusion of identity, this passage lays out the semantic furniture Sarvajñātman thinks must be distinguished before interpreting the mahāvākya. It is therefore a fair representative passage for his method, because ontology and sentence-meaning are coordinated from the outset instead of being treated as separate topics.",
+      "topic_tags": [
+        "ontology",
+        "epistemology"
+      ],
+      "sub_axes": [
+        "jiva-brahman-relation",
+        "status-of-sruti"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "N. Veezhinathan, The Samkṣepa-Śārīraka of Sarvajñātman: Critically Edited with Introduction, English Translation, Notes and Indexes, University of Madras, 1972 (archive scan: /orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/vedanta/full_corpus/sarvajnatman_sanksepa_sariraka_veezhinathan_1972_archive.pdf).",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "samksepa-sariraka-3-278__tvam-term-and-jiva-as-reflection",
+      "work_id": "samksepa-sariraka",
+      "locus_short": "SS III.278",
+      "locus_long": "Saṃkṣepa-Śārīraka, third adhyāya, verse 278",
+      "locus_structured": {
+        "chapter": 3,
+        "verse": 278
+      },
+      "sanskrit_iast": "upādhir antaḥkaraṇaṃ tvamarthe\njīvatvam ābhāsanam atra tadvat /\ntadanvitā cit pratibimbam evam\nananvitāṃ bimbam āhuḥ ||",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "upādhiḥ",
+            "stem": "upādhi",
+            "morphology": "nom sg masc",
+            "gloss": "limiting adjunct"
+          },
+          {
+            "pada": "antaḥkaraṇam",
+            "stem": "antaḥkaraṇa",
+            "morphology": "nom sg neut",
+            "gloss": "internal organ, intellect"
+          },
+          {
+            "pada": "tvamarthe",
+            "stem": "tvamartha",
+            "morphology": "loc sg masc",
+            "gloss": "in the meaning of 'tvam'"
+          },
+          {
+            "pada": "jīvatvam",
+            "stem": "jīvatva",
+            "morphology": "nom sg neut",
+            "gloss": "jīva-hood, individual-selfhood"
+          },
+          {
+            "pada": "ābhāsanam",
+            "stem": "ābhāsana",
+            "morphology": "nom sg neut",
+            "gloss": "manifestation, appearance"
+          },
+          {
+            "pada": "atra",
+            "stem": "atra",
+            "morphology": "indecl",
+            "gloss": "here, in this case"
+          },
+          {
+            "pada": "tadvat",
+            "stem": "tadvat",
+            "morphology": "indecl",
+            "gloss": "likewise"
+          },
+          {
+            "pada": "tadanvitā",
+            "stem": "tadanvita",
+            "morphology": "nom sg fem",
+            "gloss": "connected with that"
+          },
+          {
+            "pada": "cit",
+            "stem": "cit",
+            "morphology": "nom sg fem",
+            "gloss": "consciousness"
+          },
+          {
+            "pada": "pratibimbam",
+            "stem": "pratibimba",
+            "morphology": "nom sg neut",
+            "gloss": "reflected image"
+          },
+          {
+            "pada": "evam",
+            "stem": "evam",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "ananvitām",
+            "stem": "ananvita",
+            "morphology": "acc sg fem",
+            "gloss": "unconnected"
+          },
+          {
+            "pada": "bimbam",
+            "stem": "bimba",
+            "morphology": "acc sg neut",
+            "gloss": "prototype, original image"
+          },
+          {
+            "pada": "āhuḥ",
+            "stem": "√ah",
+            "morphology": "3pl perf ind P",
+            "gloss": "they say"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "antaḥkaraṇam",
+            "type": "tatpurusha",
+            "resolution": "antaḥ sthitaṃ karaṇam"
+          },
+          {
+            "compound": "tvamarthe",
+            "type": "tatpurusha",
+            "resolution": "tvamaśabdasya arthe"
+          },
+          {
+            "compound": "jīvatvam",
+            "type": "tatpurusha",
+            "resolution": "jīvasya bhāvaḥ"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "adhikaraṇa",
+            "pada": "tvamarthe",
+            "note": "The whole verse explains the referents included under the word tvam."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "āhuḥ",
+            "note": "Implicit authorities/teachers are the speaking subject."
+          },
+          {
+            "role": "karman",
+            "pada": "bimbam",
+            "note": "What is said to be the prototype."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "āhuḥ",
+            "lakara": "liṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "Perfect with present-force reporting an established doctrinal statement."
+          }
+        ]
+      },
+      "english_close": "In the meaning of 'tvam', the limiting adjunct is the internal organ; the manifestation there is jīva-hood, just as in that other case. Consciousness connected with that is the reflected image; consciousness unconnected with it, they say, is the original image.",
+      "english_paraphrase": "The jīva is not the original consciousness itself but consciousness as reflected through the internal organ and marked by individual-selfhood.",
+      "preserved_terms": [
+        {
+          "term_iast": "antaḥkaraṇa",
+          "first_use_gloss": "the internal organ of cognition, especially intellect"
+        },
+        {
+          "term_iast": "jīvatva",
+          "first_use_gloss": "the condition of being an individual embodied self"
+        },
+        {
+          "term_iast": "pratibimba",
+          "first_use_gloss": "reflected image"
+        }
+      ],
+      "why_this_passage": "This is the clearest compact statement in the available corpus of Sarvajñātman's account of the tvam-side: the jīva is consciousness reflected in the internal organ, while the original consciousness remains unassociated. It fairly represents his position because later discussion in the chapter expands this structure rather than replacing it with a different model.",
+      "topic_tags": [
+        "ontology",
+        "epistemology"
+      ],
+      "sub_axes": [
+        "jiva-brahman-relation",
+        "status-of-individual-selves"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "N. Veezhinathan, The Samkṣepa-Śārīraka of Sarvajñātman: Critically Edited with Introduction, English Translation, Notes and Indexes, University of Madras, 1972 (archive scan: /orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/vedanta/full_corpus/sarvajnatman_sanksepa_sariraka_veezhinathan_1972_archive.pdf).",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    }
+  ],
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1b-opus"
+  "last_verified_by": "wave2-codex"
 }

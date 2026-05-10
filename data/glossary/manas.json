@@ -1,0 +1,17 @@
+{
+  "term_key": "manas",
+  "term_iast": "manas",
+  "term_devanagari": "मनस्",
+  "literal": "thought-organ; from √man 'to think' (cognate with Latin *mens*, Greek *menos*, English 'mind')",
+  "aliases": ["manas", "Manas", "manasaḥ", "manasi", "manasā", "manaḥ"],
+  "invariant_definition": "The coordinating and doubting (*saṅkalpa-vikalpa*) function of the *antaḥkaraṇa*. *Manas* receives the data of the senses and presents them to the *buddhi* for determination; it is the locus of imagination, doubt, and indeterminate cognition. In Nyāya–Vaiśeṣika *manas* is also a substance (*dravya*) — the internal sense-organ atomic in size that conveys cognitions to the *ātman*. All Vedāntic schools accept *manas* as one of the *antaḥkaraṇa*'s four functions and as instrumental, not constitutive of consciousness — the *ātman* is the ultimate cognizer; *manas* is one of its instruments.",
+  "per_school": [
+    {
+      "school": "Advaita / Viśiṣṭādvaita / Dvaita",
+      "definition": "All accept *manas* as the *saṅkalpa-vikalpa* function and as an instrument of the *ātman*; differences in the broader status of *antaḥkaraṇa* (see *antaḥkaraṇa*) carry over here.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.4.1ff", "Yatīndra-Mata-Dīpikā 5", "Tattva-Saṅkhyāna 5–7"]
+    }
+  ],
+  "see_also": ["antahkarana", "buddhi", "citta", "ahankara", "indriya", "atman"],
+  "translator_note": "'Mind' is the conventional gloss but is too broad. *Manas* is one specific function within the *antaḥkaraṇa*, not the entire mental life. 'Coordinating function' or 'lower mind' (in some yogic translations) are clearer."
+}

@@ -1,0 +1,22 @@
+{
+  "term_key": "buddhi",
+  "term_iast": "buddhi",
+  "term_devanagari": "बुद्धि",
+  "literal": "the determining intellect; from √budh 'to wake, to know' (cognate with Buddha)",
+  "aliases": ["buddhi", "Buddhi", "buddher", "buddheḥ", "buddhau", "buddhyā"],
+  "invariant_definition": "The determining/decisive (*niścayātmikā*) function of the *antaḥkaraṇa*. *Buddhi* receives indeterminate data from *manas* and produces determinate cognition (*adhyavasāya*). In Sāṅkhya *buddhi* is the first evolute of *prakṛti*, the highest *prakṛti*-tattva; in Vedānta-psychology it is one of the four *antaḥkaraṇa* functions. All Vedāntic schools accept *buddhi* as the seat of *jñāna* (in the cognitive-event sense), as predominantly *sāttvika* in the qualified seeker, and as the principal locus through which the *ātman*'s consciousness is reflected (Advaita) or instrumentally exercised (Viśiṣṭādvaita, Dvaita).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Buddhi* is the *upādhi* in which the *cidābhāsa* — the reflection of *ātman*-consciousness — appears as the empirical knowing-subject. The *akhaṇḍākāra-vṛtti* arises in the *buddhi* and removes *avidyā*.",
+      "primary_loci": ["Vivekacūḍāmaṇi 96–110", "Vedānta-Paribhāṣā, pratyakṣa-pariccheda"]
+    },
+    {
+      "school": "Viśiṣṭādvaita / Dvaita",
+      "definition": "*Buddhi* is a real *prakṛti*-evolute; it is the instrument through which *dharmabhūta-jñāna* (V) or the soul's intrinsic cognitive activity (D) operates.",
+      "primary_loci": ["Yatīndra-Mata-Dīpikā 5", "Tattva-Saṅkhyāna 5–7"]
+    }
+  ],
+  "see_also": ["antahkarana", "manas", "citta", "ahankara", "vrtti", "akhandakara-vrtti"],
+  "translator_note": "'Intellect' or 'reason' are acceptable but Western-philosophical-loaded. *Buddhi* is best understood as 'the determining function' or 'the discriminating intelligence.' Not to be confused with *Buddha* (the awakened one), though they share the root."
+}

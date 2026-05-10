@@ -1,0 +1,27 @@
+{
+  "term_key": "saksin",
+  "term_iast": "sākṣin",
+  "term_devanagari": "साक्षिन्",
+  "literal": "the seer-with, the witness; from sa- 'with' + akṣa 'eye, sight'",
+  "aliases": ["saksin", "sākṣin", "Sākṣin", "sākṣī", "sāksī", "sākṣiṇaḥ", "sākṣi-caitanya", "saksi"],
+  "invariant_definition": "The witness-consciousness — the consciousness that simply illumines without participating in the transactional structure of agent-object-instrument. The *sākṣin* witnesses the three states (waking, dreaming, deep sleep), witnesses *avidyā* itself, and is unaffected by what it witnesses. All Vedāntic schools accept some witness-function; the foregrounded technical use is principally Advaita's. The user's position-brief (T8) puts *sākṣi-caitanya* against *pramāṇa-caitanya* — the witness-consciousness is what allows lawful unfolding without the 'epistemic-bully' assertion of the cognitive subject. This contrast is operative across schools that take *sākṣin* seriously.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Sākṣin* is the *kūṭastha caitanya* — the immutable witness-consciousness identical with *brahman*, distinguished from the *cidābhāsa* (the reflection-of-consciousness in *buddhi*). The *sākṣin* witnesses *avidyā* (in the Vivaraṇa account, *brahman* is both *āśraya* and *viṣaya* of *avidyā* through its *sākṣi*-mode), witnesses the absence in deep sleep, and is the unchanging ground of all transactional cognition.",
+      "primary_loci": ["Pañcadaśī 1.7, 6.130", "Vedānta-Paribhāṣā, pratyakṣa-pariccheda (sākṣi-vedyatva)", "Saṅkṣepa-Śārīraka 1.319"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Sākṣin* is the *jīva*'s self-luminous self-awareness (its *dharmi-jñāna*), which witnesses its own *dharmabhūta-jñāna* and the cognitions arising in it. Distinct from the Advaita *sākṣin* in that it is *aṇu* and individual, not the one *brahman*-consciousness.",
+      "primary_loci": ["Vedārtha-Saṅgraha §82", "Yatīndra-Mata-Dīpikā 8"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Sākṣin* is the *jīva*'s intrinsic self-awareness which provides immediate knowledge of pleasure, pain, and one's own existence — the *anuvyavasāya*-counterpart, recognized as a distinct *pramāṇa* (*sākṣi-pratyakṣa*). The *sākṣin* is NOT the one *brahman*-witness of Advaita; it is the *jīva*'s own.",
+      "primary_loci": ["Pramāṇa-Lakṣaṇa (Madhva)", "Brahma-Sūtra-Bhāṣya (Madhva) 3.2.18"]
+    }
+  ],
+  "see_also": ["kutastha", "atman", "cit", "cidabhasa", "pramana"],
+  "translator_note": "'Witness' is the standard gloss and is acceptable. The user's thesis-brief (T8) stresses that *sākṣi-caitanya* (witness-consciousness) is the right grammar of action: lawful unfolding without ego-arrogated cognitive mastery. This is opposed to *pramāṇa-caitanya* (epistemic-bully consciousness) — a coinage that has no exact technical Sanskrit antecedent but is structurally Advaita-Sāṅkhya."
+}

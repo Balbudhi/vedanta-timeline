@@ -323,7 +323,7 @@
   },
   "yoga-samkhya-synthesis": {
     "display_name": "Yoga-Sāṃkhya synthesis",
-    "parent_school_color_token": "samkhya-comparator",
+    "parent_school_color_token": "yoga-comparator",
     "shade": 4,
     "short_description": "Vyāsa's Yoga-Sūtra-Bhāṣya: Sāṃkhya metaphysics held within the Pātañjala-Yoga frame, with īśvara as a special puruṣa untouched by kleśa-karma-vipāka-āśaya.",
     "representative_thinker_ids": ["vyasa-bhasya"]

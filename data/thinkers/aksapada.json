@@ -1,0 +1,45 @@
+{
+  "id": "aksapada",
+  "name": "Akshapada Gautama",
+  "name_iast": "Akṣapāda Gautama",
+  "alternate_names": ["Gautama", "Dīrghatapas"],
+  "dates_low": 100,
+  "dates_high": 250,
+  "dates_tier": "contested",
+  "dates_notes": "The Nyāya-Sūtra is dated by Vidyabhusana (1920, A History of Indian Logic, pp. 50–55) to c. 150 CE on the basis of internal references and pre-Diṅnāga doctrinal stratum; Frauwallner (Geschichte II, pp. 36–46) and Matilal (1977, Nyāya-Vaiśeṣika, p. 77) accept a similar second-century date for the core layer while recognising later interpolation. The earliest layers may go back to the first century CE; the latest editorial layer is post-Buddhist-pramāṇa-vāda and may be as late as the third century.",
+  "school": "Nyāya",
+  "school_color_token": "nyaya-comparator",
+  "sub_school": "Akṣapāda Nyāya",
+  "sub_school_shade": 1,
+  "lineage_in": [],
+  "lineage_out": ["vatsyayana", "uddyotakara"],
+  "lineage_polemical": [],
+  "core_thesis": "Nyāya names sixteen *padārthas* (categories of discussion) the right discrimination of which yields *niḥśreyasa* (liberation): *pramāṇa*, *prameya*, *saṃśaya*, *prayojana*, *dṛṣṭānta*, *siddhānta*, *avayava*, *tarka*, *nirṇaya*, *vāda*, *jalpa*, *vitaṇḍā*, *hetv-ābhāsa*, *chala*, *jāti*, *nigraha-sthāna*. The foundational text is Akṣapāda Gautama's *Nyāya-Sūtra* in five *adhyāyas*, each *pāda* devoted to one or more of the *padārthas*. Three commitments structure the system. First, *pramāṇa-realism*: the four valid means of cognition — *pratyakṣa* (perception), *anumāna* (inference), *upamāna* (analogical identification), *śabda* (testimony) — are reliable insofar as they are *avyabhicārin* (non-deviating) from their objects. Perception in particular is defined as cognition arising from sense-object contact that is *avyapadeśya* (non-verbal), *avyabhicārin*, and *vyavasāyātmaka* (determinate). Second, the *pañcāvayava* canonical inference: *pratijñā* (thesis), *hetu* (reason), *udāharaṇa* (example), *upanaya* (application), *nigamana* (conclusion). The five-membered form is the public, persuasion-bearing inference distinguished from inference for oneself. Third, the doctrine of *abhāva* as a real and cognisable absence, recognised by *anupalabdhi*-licensed perception. The *Sūtra* embeds these epistemological commitments within an explicit *mokṣa*-soteriology: discriminating the sixteen *padārthas* breaks the *mithyā-jñāna* → *doṣa* → *pravṛtti* → *janma* → *duḥkha* chain (NS 1.1.2). For Vedānta, Nyāya's defence of perception against Buddhist *vijñāna-vāda* and its theory of *śabda-pramāṇa* are points of both inheritance and contest.",
+  "engaged_works": [
+    {
+      "work_id": "nyaya-sutra",
+      "title": "Nyaya-Sutra",
+      "title_iast": "Nyāya-Sūtra",
+      "alternate_titles": ["Nyāya-Darśana", "Akṣapāda-Sūtra"],
+      "composition_dates_low": 100,
+      "composition_dates_high": 300,
+      "composition_dates_notes": "Multi-layered composition; Vidyabhusana 1920 dates the core layer to c. 150 CE with later editorial accretion responding to Buddhist pramāṇa-vāda.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Akṣapāda Gautama by uniform commentarial attestation; the multi-layered character of the text is acknowledged but the ascription of the core to a single author is not in serious dispute.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus (Vidyabhusana 1920; Matilal 1977; Frauwallner 1956)."}
+      ],
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "summary": "The foundational *sūtra*-text of Nyāya in five *adhyāyas*, each divided into two *āhnikas*. *Adhyāya* 1 enumerates and defines the sixteen *padārthas* and develops the analysis of *pramāṇa* with a long treatment of *pratyakṣa*, *anumāna*, *upamāna*, and *śabda*. *Adhyāya* 2 examines *prameya* in twelve subtypes (*ātman*, *śarīra*, *indriya*, *artha*, *buddhi*, *manas*, *pravṛtti*, *doṣa*, *pretyabhāva*, *phala*, *duḥkha*, *apavarga*) and includes the major *ātman*-existence proofs against Cārvāka and Buddhist no-self positions. *Adhyāya* 3 treats the constitution of *buddhi* and the relations among *manas*, *indriya*, and *ātman*; this is where Nyāya pluralist-realism on the self is established. *Adhyāya* 4 examines *pravṛtti*, *doṣa*, *pretyabhāva*, and *phala*, and gives the theory of *apavarga* (release). *Adhyāya* 5 treats *vāda*, *jalpa*, *vitaṇḍā*, *jāti*, and *nigraha-sthāna* — the polemical-debate machinery used to prosecute and defeat opponent positions. The *Sūtra* is the base on which the entire later Nyāya commentarial tradition (Vātsyāyana → Uddyotakara → Vāchaspati → Udayana → Gaṅgeśa) is constructed.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-comparators-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-comparators-opus"
+}

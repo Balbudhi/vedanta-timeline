@@ -1,0 +1,122 @@
+{
+  "id": "bhaktisiddhanta",
+  "name": "Bhaktisiddhanta Saraswati",
+  "name_iast": "Bhaktisiddhānta Sarasvatī",
+  "alternate_names": ["Bimala Prasada (birth name)", "Bhaktisiddhānta Sarasvatī Ṭhākura Prabhupāda", "Siddhānta Sarasvatī"],
+  "dates_low": 1874,
+  "dates_high": 1937,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Born 6 February 1874 in Puri, Odisha; died 1 January 1937. Son of Bhaktivinoda Ṭhākura. Founder of the Gauḍīya Maṭha (1920). Dīkṣā from Gaurakiśora Dāsa Bābājī.",
+  "dates_evidence": [
+    {
+      "kind": "manuscript-colophon",
+      "description": "Gauḍīya Maṭha publication colophons, 1920–1937."
+    },
+    {
+      "kind": "sectarian-chronicle",
+      "description": "Caitanya Maṭha and Gauḍīya Maṭha institutional records."
+    }
+  ],
+  "school": "Acintya-Bhedābheda",
+  "school_color_token": "acintya",
+  "sub_school": "Gauḍīya Maṭha (modern systematic-institutional)",
+  "sub_school_shade": 5,
+  "lineage_in": ["bhaktivinoda", "jiva-gosvami", "baladeva"],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Bhaktisiddhānta Sarasvatī, son of Bhaktivinoda Ṭhākura and founder of the Gauḍīya Maṭha (1920), is the systematiser through whom Caitanya's *acintya-bhedābheda* enters institutional twentieth-century Vaiṣṇavism. His *Anubhāṣya* on the *Caitanya-Caritāmṛta* (1915) is the principal modern doctrinal commentary on Kṛṣṇadāsa Kavirāja's biography, articulating *acintya-śakti* as the load-bearing concept of Gauḍīya metaphysics: the Lord's *śakti* by which simultaneous identity-and-difference of Bhagavān, *jīva*, and world is grounded. His Sanskrit and Bengali commentary on the *Bhāgavata-Purāṇa* (1923–1935) re-reads the text through the *Ṣaṭ-Sandarbha* of Jīva Gosvāmī. His *Brahma-Saṃhitā* commentary fixes the school's modern reading of that pre-modern hymn. Three distinctive emphases run through the work. First, explicit polemic against Advaita as a deviation. Second, institutional codification of *vaiṣṇava-dīkṣā* outside hereditary lineages, against the *jāti-vaiṣṇava* practice of the late-nineteenth-century Bengali sahajiyā milieu. Third, vigorous use of print-publication as the *bṛhad-mṛdaṅga* — the great drum of Hari-saṅkīrtana. His direct disciple A. C. Bhaktivedānta Swāmī Prabhupāda extends the lineage globally.",
+  "engaged_works": [
+    {
+      "work_id": "anubhashya-caitanya-caritamrita",
+      "title": "Anubhashya on Caitanya-Caritamrita",
+      "title_iast": "Anubhāṣya on Caitanya-Caritāmṛta",
+      "alternate_titles": [],
+      "composition_dates_low": 1910,
+      "composition_dates_high": 1915,
+      "composition_dates_notes": "Composed 1910–1915; first published 1915.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "manuscript-colophon", "description": "Caitanya Maṭha 1915 first edition colophon."}
+      ],
+      "genre": "tika",
+      "language": "bengali",
+      "summary": "A Bengali commentary on Kṛṣṇadāsa Kavirāja's *Caitanya-Caritāmṛta*, the school's canonical biography of Caitanya. The commentary is the principal modern doctrinal reading of the *Caitanya-Caritāmṛta*, and articulates three load-bearing positions. First, *acintya-śakti* is the Lord's intrinsic power by which simultaneous identity-and-difference of Bhagavān, *jīva*, and world is grounded; the *acintya* qualifier is not an evasion of logical difficulty but a registration of the structural inadequacy of finite logic to the *parātpara* relation. Second, *prema-bhakti* is the *parā* mode and the proper end of the *jīva*'s existence; *jñāna-mokṣa* and *karma-lokottara* are subordinate. Third, the *Caitanya-Caritāmṛta* is on a par with *Veda*, *Brahma-Sūtra*, and *Bhāgavata* as authority for the school. The work fixes the modern Gauḍīya reading and is the natural starting point for any twentieth- or twenty-first-century engagement with the school's doctrine.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "bhagavata-commentary",
+      "title": "Bengali-Sanskrit Commentary on Bhagavata-Purana",
+      "title_iast": "Bhāgavata-Purāṇa Bengali-Sanskrit Commentary",
+      "alternate_titles": [],
+      "composition_dates_low": 1923,
+      "composition_dates_high": 1935,
+      "composition_dates_notes": "Serialised in Sajjana-Toṣaṇī and the Gauḍīya, 1923–1935.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "manuscript-colophon", "description": "Gauḍīya Maṭha publication colophons."}
+      ],
+      "genre": "tika",
+      "language": "bengali",
+      "summary": "A Bengali commentary with Sanskrit doctrinal apparatus on the *Bhāgavata-Purāṇa*. The reading is constructed through the *Ṣaṭ-Sandarbha* of Jīva Gosvāmī: the *Tattva*-, *Bhagavat*-, *Paramātmā*-, *Kṛṣṇa*-, *Bhakti*-, and *Prīti-Sandarbha* are taken as the school's canonical interpretive grid, and the *Bhāgavata*'s loci are read at each contested point through the relevant *Sandarbha*. The book-10 *līlā* material receives the school's modern devotional theology; the cosmogonic material of book 3 is read against Sāṅkhya-evolutionary alternatives; the *Uddhava-Gītā* of book 11 is treated as the practical-pedagogical complement to the Bhagavad-Gītā. The commentary is the modern Gauḍīya reference for *Bhāgavata*-exegesis and the principal documentary source for the school's twentieth-century doctrinal continuity.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "brahma-samhita-commentary",
+      "title": "Commentary on Brahma-Samhita",
+      "title_iast": "Brahma-Saṃhitā Commentary",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Bengali-Sanskrit commentary on the fifth chapter of the Brahma-Saṃhitā.",
+      "ascription_evidence": [
+        {"kind": "manuscript-colophon", "description": "Gauḍīya Maṭha publication colophon."}
+      ],
+      "genre": "tika",
+      "language": "bengali",
+      "summary": "A commentary on the fifth *adhyāya* of the *Brahma-Saṃhitā*, the cosmological hymn the school treats as the Brahmā-revealed scripture on the supreme Person. The doctrinal payoff is the school's reading of *Govinda*-Kṛṣṇa as the *parātpara* source from which all *avatāra*-modes proceed, and of the cosmological hierarchy — Goloka, Vaikuṇṭha, the *brahma-jyoti*, the *vyūha*-emanations — that follows. The commentary fixes the modern Gauḍīya reading of *Govinda* as the *ādi-puruṣa* against any account that subordinates Kṛṣṇa to a more abstract *para-brahman*, and is therefore doctrinally complementary to the *Anubhāṣya* on the *acintya-śakti* side.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "vaishnava-siddhanta-mala",
+      "title": "Vaishnava-Siddhanta-Mala",
+      "title_iast": "Vaiṣṇava-Siddhānta-Mālā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Bengali doctrinal compendium.",
+      "ascription_evidence": [
+        {"kind": "manuscript-colophon", "description": "Gauḍīya Maṭha publication colophon."}
+      ],
+      "genre": "prakarana",
+      "language": "bengali",
+      "summary": "A Bengali doctrinal compendium setting out the school's tenets in catechetical form. The work is constructed for the Gauḍīya Maṭha's institutional pedagogy and supplies the standard answers to the principal doctrinal questions about *acintya-śakti*, *prema-bhakti*, *vaiṣṇava-dīkṣā*, the relation of the school to *advaita-vāda*, and the soteriological status of the *jīva*. The treatise is the principal doctrinal handbook of the modern Gauḍīya Maṭha tradition and stands alongside the *Anubhāṣya* and the *Bhāgavata*-commentary in the school's twentieth-century reference apparatus.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "editions-and-translations-of-gosvami-corpus",
+      "title": "Editions and translations of the Gosvami corpus",
+      "title_iast": "Gosvāmī corpus editions and translations",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored editorial labour, distinguished from authorship of the underlying texts.",
+      "ascription_evidence": [
+        {"kind": "manuscript-colophon", "description": "Gauḍīya Maṭha publication colophons."}
+      ],
+      "genre": "tika",
+      "language": "bengali",
+      "summary": "Editions and translations of the Gauḍīya pre-modern corpus — Rūpa, Sanātana, Jīva, Viśvanātha, and Baladeva — published through the Gauḍīya Maṭha press. The editorial labour is the principal documentary infrastructure on which the school's modern teaching tradition depends, and is doctrinally consequential because the editions and translations are themselves carriers of the school's reading. Bhaktisiddhānta's editorial practice consistently foregrounds the *Ṣaṭ-Sandarbha* doctrinal grid and the *acintya-śakti* metaphysic, and lets the pre-modern corpus speak in the school's modern doctrinal voice.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-corpus-v2-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-corpus-v2-opus"
+}

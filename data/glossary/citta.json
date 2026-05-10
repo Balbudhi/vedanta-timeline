@@ -1,0 +1,22 @@
+{
+  "term_key": "citta",
+  "term_iast": "citta",
+  "term_devanagari": "चित्त",
+  "literal": "what-has-been-thought, the thinking-substance; past-passive participle of √cit 'to be aware, to think'",
+  "aliases": ["citta", "Citta", "cittasya", "citte", "cittena", "citta-vṛtti", "cittavrtti"],
+  "invariant_definition": "The memory-and-dwelling function of the *antaḥkaraṇa* — the substrate on which past cognitions are deposited as *saṃskāras* and from which they are recalled. In Yoga (Patañjali) *citta* is the entire mental field whose *nirodha* is the goal (*Yoga-Sūtra* 1.2: *yogaś citta-vṛtti-nirodhaḥ*). In Vedānta-psychology *citta* is one of the four *antaḥkaraṇa* functions, with *manas*, *buddhi*, and *ahaṅkāra*. All schools accept *citta* as the locus of *vāsanās* and *saṃskāras* — the latent dispositions that drive *karma*-bound action.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Citta* is the *vāsanā*-storehouse whose purification (*citta-śuddhi*) is the *karma-yoga*-fruit and the precondition of *jñāna*-pursuit. *Citta-nāśa* (cessation of *citta*) is admitted as the structural correlate of *jīvanmukti*.",
+      "primary_loci": ["Vivekacūḍāmaṇi", "Yoga-Vāsiṣṭha (where citta-doctrine is most developed)"]
+    },
+    {
+      "school": "Viśiṣṭādvaita / Dvaita",
+      "definition": "*Citta* is a real *prakṛti*-function whose *saṃskāras* are real causal residues structuring future embodiments.",
+      "primary_loci": ["Yatīndra-Mata-Dīpikā 5"]
+    }
+  ],
+  "see_also": ["antahkarana", "manas", "buddhi", "ahankara", "samskara", "vasana", "vrtti"],
+  "translator_note": "'Mind-stuff' is Vivekananda's coinage and is acceptable. 'Consciousness' is misleading — *citta* in technical usage is *not* pure consciousness (*caitanya*) but the *prakṛti*-side memory-substrate. The Sanskrit distinguishes *cit* (pure consciousness, *brahman*-side) from *citta* (mental substrate, *prakṛti*-side); English collapses both into 'consciousness'."
+}

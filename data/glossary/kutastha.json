@@ -1,0 +1,22 @@
+{
+  "term_key": "kutastha",
+  "term_iast": "kūṭastha",
+  "term_devanagari": "कूटस्थ",
+  "literal": "standing-firm-on-the-summit, immovable; from kūṭa 'peak, summit' + stha 'standing'",
+  "aliases": ["kutastha", "kūṭastha", "Kūṭastha", "kūṭasthaḥ", "kūṭasthe", "kutastha-caitanya"],
+  "invariant_definition": "The immutable, unchanging consciousness — primarily an Advaita technical term for the witness-*ātman* as not subject to the modifications (*vṛtti*) of *antaḥkaraṇa*. *Kūṭastha* contrasts with *cidābhāsa* (the reflection of consciousness in *buddhi*, which appears to undergo modification along with *buddhi*'s *vṛtti*s). The term is used outside Advaita less technically; in Gītā 6.8, 12.3, 15.16 it characterizes the unchanging *ātman*.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Kūṭastha caitanya* is the *ātman* under its aspect as immutable witness — the *sākṣin* in its *prakāśa*-essential nature, distinguished from the *cidābhāsa* which appears to undergo change along with *antaḥkaraṇa*-vṛtti.",
+      "primary_loci": ["Pañcadaśī 1.10–18 (kūṭastha-cidābhāsa-viveka)", "Pañcadaśī 7", "Bhagavad-Gītā-Bhāṣya 12.3, 15.16"]
+    },
+    {
+      "school": "Viśiṣṭādvaita / Dvaita",
+      "definition": "Used in Gītā-commentary contexts for the unchanging *jīva*-essence; the technical Advaita kūṭastha-cidābhāsa distinction is not adopted, since *cidābhāsa*-doctrine presupposes the Advaita reflection-account that these schools reject.",
+      "primary_loci": ["Gītā-Bhāṣya (Rāmānuja) 12.3, 15.16", "Gītā-Tātparya 12.3"]
+    }
+  ],
+  "see_also": ["saksin", "atman", "cidabhasa", "vrtti"],
+  "translator_note": "Often translated 'the immutable' or 'the unchanging.' Acceptable; the spatial metaphor of the original ('standing on the summit') is lost but probably not philosophically necessary."
+}
