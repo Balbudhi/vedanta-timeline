@@ -87,10 +87,21 @@
   ],
   "key_passages": [],
   "comparative_claim_ids": [],
+  "quoted_by": [
+    {
+      "thinker_id": "jiva-gosvami",
+      "work_id": "tattva-sandarbha",
+      "locus": "Baladeva's own *Tippaṇī* on the *Tattva-Sandarbha* circulates with the *Sat-Sandarbha* on disk; this is the closest in-corpus Baladeva text and confirms his Gauḍīya-Vedānta exegetical commitments.",
+      "what_quoted": "Baladeva's *Tattva-Sandarbha-Ṭippaṇī* (text-verified on disk: 'iti śrīmad-baladeva-vidyā-bhūṣaṇa-viracitā tattva-sandarbha-ṭippaṇī samāptā', GRETIL ed. line 1043) — extends Jīva's *acintya-bhedābheda* into systematic Vedāntic vocabulary.",
+      "on_disk": true,
+      "on_disk_path": "/materials/primary_texts/sanskrit/_replaced/gretil_sa_jiva-gosvami-satsamdarbha.txt",
+      "on_disk_note": "The *Govinda-Bhāṣya* itself is not text-searchable on disk (flagged primary-text-not-in-corpus). Baladeva's *Tippaṇī* on Jīva's *Tattva-Sandarbha* is on disk and constitutes the principal in-corpus textual evidence for his Gauḍīya-Vedānta program."
+    }
+  ],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus",
+  "last_verified_by": "wave-claim-grounding-opus",
   "polemic_chain_ids": [
     "acintya-shakti-defense",
     "govinda-bhasya-defense"

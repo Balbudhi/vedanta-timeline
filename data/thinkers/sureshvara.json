@@ -1003,10 +1003,36 @@
     }
   ],
   "comparative_claim_ids": [],
+  "quoted_by": [
+    {
+      "thinker_id": "madhusudana",
+      "work_id": "advaita-siddhi",
+      "locus": "passim",
+      "what_quoted": "Sureśvara's *brahman*-locus *avidyā* and *jñāna*-only theses are routinely deployed in the *Advaita-Siddhi* against Vyāsatīrtha's *Nyāyāmṛta*.",
+      "on_disk": true,
+      "on_disk_path": "/materials/new_sources/madhusudana_advaita_siddhi_anantakrishna_archive_djvu.txt"
+    },
+    {
+      "thinker_id": "vidyaranya",
+      "work_id": "vivarana-prameya-sangraha",
+      "locus": "passim",
+      "what_quoted": "Sureśvara's positions are foundational reference for the Vivaraṇa-school doxography.",
+      "on_disk": true,
+      "on_disk_path": "/materials/primary_texts/sanskrit/vedanta/full_corpus/vidyaranya_vivarana_prameya_sangraha_1893_archive.pdf"
+    },
+    {
+      "thinker_id": "sarvajnatman",
+      "work_id": "samkshepa-shariraka",
+      "locus": "passim",
+      "what_quoted": "Sarvajñātman explicitly succeeds Sureśvara's stream and systematizes his *brahman*-locus *avidyā* doctrine.",
+      "on_disk": true,
+      "on_disk_path": "/materials/primary_texts/sanskrit/vedanta/full_corpus/sarvajnatman_sanksepa_sariraka_veezhinathan_1972_archive.pdf"
+    }
+  ],
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus",
+  "last_verified_by": "wave-claim-grounding-opus",
   "polemic_chain_ids": [
     "bhaskara-pracchanna-bauddha",
     "kumarila-mandana-jnana-karma-samuccaya",
