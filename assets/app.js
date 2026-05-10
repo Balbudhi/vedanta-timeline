@@ -2575,13 +2575,32 @@ function renderCitationTab(key) {
   };
 
   // Honour the audit: entries flagged `verified: false` had their IAST
-  // fragment checked against the on-disk source and not found. We still
-  // show the locus + attribution (those are usually correct), but suppress
-  // the Sanskrit and the close English so a not-yet-verified passage can't
-  // be mistaken for a quotation. The same panel surfaces the verification
-  // note so the reader can see exactly what the audit found.
+  // fragment checked against the on-disk source and not found. Entries
+  // flagged `verified: "pending-acquisition"` point at a text we do not
+  // yet hold on disk (typically: a commentary whose on-disk record only
+  // covers the parent text it comments on). In either case we still show
+  // the locus + attribution, but suppress the Sanskrit and the close
+  // English so an unverified passage can't be mistaken for a quotation.
+  const isPending = entry && entry.verified === "pending-acquisition";
+  const pendingTargetWork = entry && (entry.pending_target_work || "");
+  const pendingTargetThinker = entry && (entry.pending_target_thinker || "");
+  const pendingNote = entry && (entry.pending_acquisition_note || entry.verification_note || "");
   const anchorHtml = entry
-    ? (entry.verified === false
+    ? (isPending
+        ? `
+      <div class="cite-passage-anchor cite-passage-anchor--pending">
+        <div class="cpa-locus">Locus · ${escape(entry.locus_short || locusDisplay)}</div>
+        <div class="cpa-pending">
+          <strong>Pending acquisition</strong>${pendingTargetWork
+            ? ` — <em>${escape(pendingTargetWork)}</em>${pendingTargetThinker ? ` (${escape(pendingTargetThinker)})` : ""} is not yet on disk in clean form.`
+            : "."} The claim above relies on this work; its acquisition is queued at <code>parishishta/notes/USER_NEEDED.md</code>. The cited text shown below is the locus on which it comments, included as context — not itself the attestation.
+          ${pendingNote ? `<div class="cpa-note"><em>${escape(pendingNote)}</em></div>` : ""}
+        </div>
+        ${entry.sanskrit_iast ? `<div class="cpa-sk cpa-sk--context">${escape(entry.sanskrit_iast).replace(/\n/g, "<br>")}</div>` : ""}
+        ${entry.english_close ? `<div class="cpa-en cpa-en--context">${md(entry.english_close)}</div>` : ""}
+      </div>
+    `
+        : entry.verified === false
         ? `
       <div class="cite-passage-anchor cite-passage-anchor--unverified">
         <div class="cpa-locus">Locus · ${escape(entry.locus_short || locusDisplay)}</div>
@@ -2618,9 +2637,14 @@ function renderCitationTab(key) {
     </div>
   `;
 
+  const pendingBadge = isPending
+    ? `<span class="ccb-pending-badge" title="The cited work is not yet on disk; context shown is the locus on which it comments.">Pending acquisition</span>`
+    : (entry && entry.verified === false
+        ? `<span class="ccb-pending-badge ccb-pending-badge--unverified" title="Passage IAST not located in the on-disk source.">Unverified</span>`
+        : "");
   dpCitationBody.innerHTML = `
     <div class="ccb-head">
-      <div class="ccb-locus">${escape(locusDisplay)}</div>
+      <div class="ccb-locus">${escape(locusDisplay)} ${pendingBadge}</div>
       <div class="ccb-attrib">${escape(thinkerName)}${workTitle ? ` · <em>${escape(workTitle)}</em>` : ""}</div>
     </div>
     ${renderContext(before, "Preceding context")}
