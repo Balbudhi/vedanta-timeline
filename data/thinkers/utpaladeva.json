@@ -86,7 +86,8 @@
       "language": "sanskrit",
       "summary": "The second treatise of the *Siddhitrayī*, in roughly twenty-three verses with auto-*vṛtti*, establishing the reality and analyzability of *sambandha* (relation) — most pivotally the relation of the *pramātṛ* to its objects, and the relation of cognition to its content (*Sambandha-Siddhi* vv. 1–8). Utpaladeva confronts the Dharmakīrtian dilemma that any real relation between two relata would have to itself stand in further relations to each, generating regress (*SamS* vv. 9–14, addressing Dharmakīrti's *Sambandha-Parīkṣā*); he argues that the regress is dissolved once relation is understood not as a third entity standing between independent relata but as a mode of the supreme self-aware *prakāśa* in which both relata are already manifest (*SamS* vv. 15–23). *Sambandha* is therefore intrinsic to *vimarśa* itself: consciousness's self-articulation as subject-related-to-object is not an addition to consciousness but its very form. The text supplies the relational metaphysics that makes *ābhāsa-vāda* possible — for *ābhāsas* (manifestations) to be coherent at all, they must be related within a single self-aware *prakāśa*, and the *Sambandha-Siddhi* shows this is logically tenable (the result presupposed at *ĪPK* 2.3.1–7).",
       "key_passage_ids": [],
-      "entry_status": "reviewed"
+      "entry_status": "reviewed",
+      "source_status": "primary-text-not-in-corpus"
     },
     {
       "work_id": "isvara-siddhi",
@@ -105,7 +106,8 @@
       "language": "sanskrit",
       "summary": "The third and culminating treatise of the *Siddhitrayī*, in roughly thirty-four verses with auto-*vṛtti*, establishing *Īśvara* — the supreme Lord, identified as Śiva-consciousness — by argued extension of the *ajaḍa-pramātṛ* and *sambandha* doctrines (*Īśvara-Siddhi* vv. 1–10, the foundational disposition). Utpaladeva argues that the unitary self-aware subject established in the first treatise, related to its world-content as established in the second, cannot be an arbitrarily individuated finite consciousness: the very structure of *vimarśa* — its *svātantrya* in projecting and recognizing its objects — requires that, at the limit, the subject be an unconditionally sovereign consciousness whose self-relating *aham* contains the entire manifestation (*ĪS* vv. 11–24). This is *Īśvara*: not a cosmic agent external to consciousness but consciousness in its own *pūrṇāhantā* (*ĪS* vv. 25–30). The bound *jīva* is then the same *Īśvara* under self-imposed *saṃkoca* (contraction) — the foundational claim (*ĪS* vv. 31–34) subsequently developed in the *Īśvara-Pratyabhijñā-Kārikā* (*ĪPK* 3.2.5–10) and consolidated in Kṣemarāja's *Pratyabhijñā-Hṛdaya* sūtra 4. The *Siddhitrayī* together constitutes the analytic propaedeutic to the school: subject established, relation established, supreme Subject established.",
       "key_passage_ids": [],
-      "entry_status": "reviewed"
+      "entry_status": "reviewed",
+      "source_status": "primary-text-not-in-corpus"
     },
     {
       "work_id": "shiva-stotravali",
@@ -121,7 +123,8 @@
       "language": "sanskrit",
       "summary": "A collection of approximately twenty stotras to Śiva that converts the technical *Pratyabhijñā* framework into first-person devotional address. The stotras are not separate from the philosophy: they enact, in liturgical voice, the recognition (*pratyabhijñā*) that the worshipping *aham* is itself the supreme *aham* of Śiva, and that *bhakti* is the natural condition of a self that has recognized its own *svātantrya* (*Śiva-Stotrāvalī* 1.1–4, the opening *Bhakti-Stotra*). Recurring themes include the impossibility of a real distance between worshipper and worshipped within a single non-dual consciousness (*Stotrāvalī* 5.5–13, *Sarvātmadarśana-Stotra*), the *camatkāra* (wonder) that arises when the limited subject glimpses its own infinite ground (*Stotrāvalī* 13.1–18 on the *camatkāra*-register), and the doctrine that worship, agency, and grace are all modes of Śiva's own self-relating *vimarśa* (*Stotrāvalī* 16.10–22). Kṣemarāja's *Stava-Cintāmaṇi* commentary tradition treats the *Stotrāvalī* as the affective and soteriological complement of the *Pratyabhijñā-Kārikā*. The text is an important comparator for Vaiṣṇava devotional metaphysics, since it demonstrates that strong non-dualism need not abolish *bhakti* but can re-ground it in self-recognition.",
       "key_passage_ids": [],
-      "entry_status": "draft"
+      "entry_status": "draft",
+      "source_status": "clean-on-disk"
     }
   ],
   "key_passages": [],
@@ -129,5 +132,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }

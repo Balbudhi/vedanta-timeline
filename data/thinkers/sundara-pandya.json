@@ -26,6 +26,7 @@
       "ascription_notes": "Verse-corpus is lost; preserved only as citations within Sureśvara's Naiṣkarmya-Siddhi.",
       "genre": "verse-summary",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Sundara-Pāṇḍya's literary corpus is lost. What survives is a set of verses (the most-cited cluster appears at *Naiṣkarmya-Siddhi* 1.66–69, where Sureśvara invokes them as authoritative against the *jñāna-karma-samuccaya* opponent) which Sureśvara introduces with explicit attribution and treats as authoritative on the side of immediate *jñāna* as the direct cause of *mokṣa*. The verses articulate three coupled theses. First, the essential non-difference of self and Brahman as the settled meaning of the upaniṣadic identity-statements (*Naiṣkarmya-Siddhi* 1.66). Second, the structural unfitness of *karma* to be a means to a liberation consisting in the cessation of agency-attribution: *karma* presupposes the *kartṛtva* whose cancellation is the very content of liberation, so *karma* cannot produce liberation (*Naiṣkarmya-Siddhi* 1.67–68). Third, the sufficiency of correct upaniṣadic apprehension to terminate ignorance, with the negative implication that no quantity of additional ritual cultivation contributes to that termination (*Naiṣkarmya-Siddhi* 1.69). The position is recognizably proto-Advaita: the structural commitments of the immediacy-school are present without the developed *māyā* (Śaṅkara, *Brahma-Sūtra-Bhāṣya* 2.1.14), *adhyāsa* (Śaṅkara, *Brahma-Sūtra-Bhāṣya* preamble), or *sākṣi-caitanya* (Sureśvara, *Naiṣkarmya-Siddhi* 2.86ff.) doctrines that mature Advaita systematizes. Sureśvara's appeal to Sundara-Pāṇḍya at *Naiṣkarmya-Siddhi* 1.66–69 is the principal evidence that the immediacy-thesis was contested in the immediately pre-Śaṅkara generation and that Sureśvara needed a pre-Śaṅkara authority to ground the position against the *bhāvanā*-school of Brahmadatta and Maṇḍana (cf. Maṇḍana's *Brahma-Siddhi* preamble). Vedānta Deśika's later mention of a Sundara-Pāṇḍya in the *Pāñcarātra-Rakṣā* probably refers to a different figure of the same regional name and is generally rejected as the same author by modern scholarship (Hiriyanna, *Outlines*, 1932; Sastri, ed., *Naiṣkarmya-Siddhi*, 1925, introduction). Nothing of his original work, its title, or its full extent can be recovered.",
       "key_passage_ids": [],
       "entry_status": "draft"
@@ -35,6 +36,6 @@
   "comparative_claim_ids": [],
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus"
 }

@@ -31,6 +31,7 @@
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
+      "source_status": "clean-on-disk",
       "summary": "Prose commentary on Patañjali's *Yoga-Sūtra* across all four *pādas* — *samādhi*, *sādhana*, *vibhūti*, *kaivalya*. The *bhāṣya* installs the Sāṃkhya twenty-five-*tattva* ontology as the metaphysical frame within which Yoga praxis is intelligible. The first *pāda* receives the most exegetically dense treatment: *yogaḥ citta-vṛtti-nirodhaḥ* (on YS 1.2) opens out into a typology of the five *vṛttis* (on YS 1.5–11), an analysis of *abhyāsa* and *vairāgya* (on YS 1.12–16), and the doctrine of *samprajñāta* and *asamprajñāta-samādhi* (on YS 1.17–18). The second *pāda* unfolds *kriyā-yoga* (on YS 2.1) and the eight *aṅgas* — *yama* (YS 2.30), *niyama* (YS 2.32), *āsana* (YS 2.46), *prāṇāyāma* (YS 2.49), *pratyāhāra* (YS 2.54), with *dhāraṇā*, *dhyāna*, *samādhi* deferred to the third *pāda*. The third *pāda* on *vibhūtis* treats the *saṃyama*-generated powers (on YS 3.16–48), with the warning at YS 3.37 that they obstruct *samādhi*. The fourth *pāda* on *kaivalya* gives the cleanest statement of the Yoga *mokṣa*-doctrine: liberation as the *puruṣa*'s isolation from *prakṛti* once the *guṇas* have been reabsorbed (on YS 4.32–34). Vāchaspati Miśra's *Tattva-Vaiśāradī* and Vijñānabhikṣu's *Yoga-Vārttika* are the two principal pre-modern sub-commentaries.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -41,5 +42,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }

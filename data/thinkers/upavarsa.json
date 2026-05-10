@@ -26,6 +26,7 @@
       "ascription_notes": "Work is lost; cited respectfully by Śaṅkara at Brahma-Sūtra-Bhāṣya 1.1.1 and 3.3.53, and claimed by Rāmānuja's school as well.",
       "genre": "sutra-bhashya",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Upavarṣa's commentary or commentaries are lost; what survives is a small set of named citations across the Mīmāṃsā and Vedānta corpora. Śaṅkara at *Brahma-Sūtra-Bhāṣya* 1.1.1 invokes Upavarṣa for the principle that the *Pūrva-Mīmāṃsā* and *Uttara-Mīmāṃsā* form a single *śāstra* whose subject is Vedic understanding as an integrated whole — a position that commits Vedānta to inheriting the Mīmāṃsā analytical apparatus (*vidhi*-analysis, *abhihitānvaya*, *pramāṇa*-theory) rather than developing a separate hermeneutic. At 3.3.53 Śaṅkara cites *bhagavān upavarṣaḥ* on the existence of the *ātman* as the directly evident, persistent conscious subject of cognition, against a Buddhist denial. The argument-form Upavarṣa supplies (on Śaṅkara's report) is one of cognitive immediacy: in any cognitive event the cognizer is given alongside the cognized as an unconstructed presence, irreducible to inferential reconstruction. This phenomenological-style argument supplies Śaṅkara with a pre-doctrinal foundation for the *sākṣi-caitanya* thesis. Śabara's *Mīmāṃsā-Sūtra-Bhāṣya* refers to a *Vṛttikāra* — by long tradition (Frauwallner, *Geschichte der indischen Philosophie*, vol. II, 1956; Verpoorten, *Mīmāṃsā Literature*, 1987) identified with Upavarṣa — for the analysis of *śabda* and *artha* (the *abhihitānvaya* doctrine, the rejection of the *sphoṭa* doctrine of an autonomous sentence-meaning entity). The combined position is a realist semantics in which words refer to genuine objects and sentences track real relations among them, structurally consistent with the *ātman*-directness thesis. Rāmānuja and his successors invoke Upavarṣa as a *sampradāya*-authority for Viśiṣṭādvaita; the Bhāmatī tradition invokes him for Advaita; both invocations are at the level of method and starting-point rather than developed doctrine. The actual scope, organization, and date of his work cannot be recovered from these scattered respectful references; the identification with Bodhāyana and with the Mīmāṃsā *Vṛttikāra* remains philologically unsettled.",
       "key_passage_ids": [],
       "entry_status": "draft"
@@ -35,6 +36,6 @@
   "comparative_claim_ids": [],
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus"
 }

@@ -105,6 +105,7 @@
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
+      "source_status": "clean-on-disk",
       "summary": "An aphoristic treatise: 555 *sūtras* in four *adhyāyas*, each subdivided into four *pādas*. *Adhyāya* 1 establishes *samanvaya* — that the disputed *śruti* passages all converge on *brahman* as their *tātparya*. The decisive sūtra here is 1.1.4, *tat tu samanvayāt*. *Adhyāya* 2 turns to *avirodha*: rival cosmologies are refuted in turn — Sāṅkhya *pradhāna* (2.1–2.2), Vaiśeṣika atomism, Buddhist schools (Sautrāntika, Vijñānavāda, Mādhyamika), Jaina *anekānta*, Pāśupata, Pāñcarātra. *Adhyāya* 3 treats *sādhana*: *upāsanā*, the *jīva*'s transmigration, the relation of *karma* to *vidyā*. *Adhyāya* 4 treats *phala*: *devayāna*, *kramamukti*, the condition of the *mukta-puruṣa*. The work cites by name the ācāryas Auḍulomi, Āśmarathya, Kāśakṛtsna, Bādari, Jaimini, and Kārṣṇājini; this is direct evidence that what survives is the consolidation of a prior oral *sūtra*-tradition. The text is unintelligible without a commentary, and this is precisely why it can serve as common ground for incompatible schools. Securely a compiled work; the question of single versus multi-author redaction remains open. Standard editions: Thibaut (SBE 34, 38), Deussen, and the Ānandāśrama series of the major *bhāṣyas*.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -114,8 +115,8 @@
   "comparative_claim_ids": [],
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-batch6-opus",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus",
   "polemic_chain_ids": [
     "brahma-sutra-bhasya-buddhism-refutation",
     "brahma-sutra-bhasya-samkhya-refutation",

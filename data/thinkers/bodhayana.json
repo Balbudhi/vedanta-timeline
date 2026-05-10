@@ -26,6 +26,7 @@
       "ascription_notes": "Work is lost; preserved only as fragments cited in Rāmānuja's Śrī-Bhāṣya, with substantial scholarly dispute over whether the cited material accurately reflects a single historical author.",
       "genre": "sutra-bhashya",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The *Brahma-Sūtra-Vṛtti* attributed to Bodhāyana is lost. Its existence and authority are asserted by Rāmānuja in the *mukha-bhūmikā* of the *Śrī-Bhāṣya*: *bhagavad-bodhāyana-kṛtāṃ vistīrṇāṃ brahma-sūtra-vṛttiṃ pūrvācāryāḥ saṃcikṣipuḥ; tan-mata-anusāreṇa sūtrākṣarāṇi vyākhyāsyante* — 'former teachers abridged the extensive Brahma-Sūtra-Vṛtti of Bhagavān Bodhāyana; the sūtras will here be expounded in accordance with his view.' Rāmānuja thereby grounds the entire Viśiṣṭādvaita reading of the sūtras in a pre-Śaṅkara textual authority. The fragments preserved by name (in the *Śrī-Bhāṣya* itself, in the *Vedārtha-Saṅgraha*, and in later Śrīvaiṣṇava commentaries by Sudarśana Sūri and Vedānta Deśika) affirm two doctrinal commitments: that Brahman is the inner self of all beings (*sarvāntaryāmin*), and that the *jīva* is a real *aṃśa* of Brahman, dependent on Brahman as a mode is dependent on its substance. These commitments are compatible with developed Viśiṣṭādvaita but also with *bhedābheda*; the distinguishing *śarīra-śarīrin* and *apṛthak-siddhi* analyses of Rāmānuja are not preserved in the Bodhāyana fragments themselves. The work's actual scope, date, and identity as a *Brahma-Sūtra* (rather than Mīmāṃsā) commentary are scholarly disputes (van Buitenen, *Rāmānuja's Vedārthasaṃgraha*, 1956; Carman, *The Theology of Rāmānuja*, 1974). Modern philology accepts that some pre-Śaṅkara *Vṛttikāra* tradition existed but cannot reconstruct its content beyond what Rāmānuja preserves. Whether Bodhāyana is the same as Upavarṣa or the Mīmāṃsā-*Vṛttikāra* whom Śabara summarizes is unsettled; the cited fragments do not match across the two traditions, weighing against identification.",
       "key_passage_ids": [],
       "entry_status": "draft"
@@ -35,6 +36,6 @@
   "comparative_claim_ids": [],
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus"
 }

@@ -31,6 +31,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "A *prakaraṇa* in three *kāṇḍas* — hence the alternative title *Trikāṇḍī*. Each *kāṇḍa* takes one stratum of grammatical philosophy. *Brahma-Kāṇḍa* (*Vākyapadīya* 1, also *Āgama-Samuccaya*) develops the metaphysics of *śabda-brahman* (1.1–22), the *sphoṭa* doctrine of meaning-bearing linguistic units (1.93–125), and the three levels of *vāk* (1.142–144). *Vākya-Kāṇḍa* (*Vākyapadīya* 2) defends the primacy of the integral sentence over its analytic parts (2.1–42), surveys competing theories of meaning (2.42–142), and gives the doctrine of *pratibhā* (the unified meaning-flash, at 2.143–152). *Pada-Kāṇḍa* (*Vākyapadīya* 3, also *Prakīrṇaka*) analyzes nominal categories one at a time across its fourteen *samuddeśa*-sections: *jāti* (3.1), *dravya* (3.2), *saṃbandha* (3.3), *sādhana* (3.7), *kriyā* (3.8), *kāla* (3.9), *puruṣa* (3.10), *saṃkhyā* (3.11). Bhartṛhari's own *vṛtti* survives on *kāṇḍas* 1 and 2; its authorship on *kāṇḍa* 1 is contested (Aklujkar treats it as Bhartṛhari's own; others remain skeptical). Two doctrinal moves of the *Vākyapadīya* propagate widely beyond grammatical philosophy. The *vivarta* terminology — *brahman* appearing as the manifold without itself undergoing real change (*Vākyapadīya* 1.1) — supplies the causal idiom that Maṇḍana and the later Advaitins prefer against *pariṇāma*. The conception of an undifferentiated linguistic absolute grounding all cognitive content (*Vākyapadīya* 1.131–134) supplies a model for an absolute that is the ground of *pramāṇa*-activity itself.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -41,5 +42,5 @@
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }

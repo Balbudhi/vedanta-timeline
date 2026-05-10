@@ -28,6 +28,7 @@
       "ascription_notes": "No work survives; the proto-identity-thesis is reconstructed solely from Brahma-Sūtra 1.4.22.",
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "A single sūtra preserves Kāśakṛtsna: Brahma-Sūtra 1.4.22 — *avasthiter iti kāśakṛtsnaḥ* — the third position in the cluster on the *jīva*'s relation to Brahman that begins with Āśmarathya's *abhivyakti*-thesis (1.4.20) and Auḍulomi's *mokṣa*-state non-difference (1.4.21). The technical term *avasthiti* (genitive *avasthiteḥ*, 'because of [Brahman's] abiding within') is the entire doctrinal content: Brahman stands within the *jīva* as the standing-condition of the *jīva*'s being. Śaṅkara reads this as strict identity: Brahman *qua* the *jīva*'s essential being is numerically one, the distinctness being *upādhi*-superimposed. Bhāskara and the *bhedābheda* commentators read it as identity-with-real-distinction: Brahman abides in the *jīva* without ceasing to be the cosmic source. Rāmānuja and Viśiṣṭādvaita read *avasthiti* as the *antaryāmin* relation: Brahman as inner controller abides in the *jīva* without numerical identity. The grammatical form does not settle the dispute; the abstract noun in the genitive of cause supplies the *because*-clause for Kāśakṛtsna's view but not the metaphysical specification of *how* Brahman abides. Modern philology (Nakamura, *A History of Early Vedānta Philosophy*, vol. I, 1949) reads the position as the dialectically resolutive third voice in the *adhikaraṇa* and treats Bādarāyaṇa's silence as either endorsement (Śaṅkara) or as conventional closure of the *adhikaraṇa* (Bhāskara). Beyond this single locus and its commentarial afterlife, nothing of Kāśakṛtsna survives. The *Mahābhāṣya*'s mention of a *Kāśakṛtsna-Mīmāṃsā* is suggestive but cannot be verified as the same author.",
       "key_passage_ids": [],
       "entry_status": "draft"
@@ -37,8 +38,8 @@
   "comparative_claim_ids": [],
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-opus",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus",
   "polemic_chain_ids": [
     "brahma-sutra-bhasya-buddhism-refutation",
     "brahma-sutra-bhasya-samkhya-refutation",

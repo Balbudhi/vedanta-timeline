@@ -31,6 +31,7 @@
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
+      "source_status": "clean-on-disk",
       "summary": "Verse-by-verse prose commentary on the *Sāṃkhya-Kārikā*. The text is brief and exegetically transparent: each *kārikā* is glossed phrase-by-phrase, the technical terms are defined in their first occurrence, and the inferential structure is made explicit where the verse compresses it. Three sections receive especially careful treatment. First, the *Kārikā*'s opening on the *duḥkha-traya* and the inadequacy of ordinary remedies (*Bhāṣya* on *Sāṃkhya-Kārikā* 1–2), which Gauḍapāda turns into a structured argument for the necessity of *viveka-jñāna*. Second, *Kārikā* 9–11 on *satkārya-vāda* (*Bhāṣya* on *Sāṃkhya-Kārikā* 9), where the *bhāṣya* lays out the five canonical proofs in the form that becomes standard. Third, the *Kārikā*'s closing verses on *bhāva*-causation and the *liṅga-śarīra* (*Bhāṣya* on *Sāṃkhya-Kārikā* 40–55), where the *bhāṣya*'s expository clarity rescues a notoriously compressed passage. The *bhāṣya*'s work is intra-traditional clarification rather than polemic, and the Sāṃkhya analysis is offered as complete in its own right.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -41,5 +42,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }
