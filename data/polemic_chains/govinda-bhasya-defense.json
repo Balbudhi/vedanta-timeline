@@ -4,7 +4,7 @@
   "attacker": "baladeva",
   "attacker_text": "Govinda-Bhāṣya (composed c. 1718–1725 in response to the Galta challenge); supplementary Prameya-Ratnāvalī and Siddhānta-Ratnam",
   "target_school_token": "cross-tradition",
-  "target_position_summary": "The eighteenth-century challenge from the orthodox Rāmānandī Vaiṣṇavas at Galta (Jaipur), arguing that the Gauḍīya Vaiṣṇavas were illegitimate as a Vedāntic sampradāya because they lacked a proper bhāṣya on the Brahma-Sūtras. The challenge implicitly rested on the assumption that doctrinal legitimacy in pan-Indian Vedānta required (i) a complete sūtra-bhāṣya in the established commentarial idiom, (ii) embedding in a recognised paramparā, and (iii) successful technical engagement with the Vivaraṇa, Bhāmatī, Śrī, and Madhva traditions. The Gauḍīyas' Sandarbha-tradition (Jīva Gosvāmī) was experiential-theological rather than sūtra-bhāṣya in form.",
+  "target_position_summary": "The eighteenth-century challenge from the orthodox Rāmānandī Vaiṣṇavas at Galta (Jaipur), arguing that the Gauḍīya Vaiṣṇavas were illegitimate as a Vedāntic sampradāya because they lacked a proper bhāṣya on the Brahma-Sūtras. The challenge implicitly rested on the assumption that doctrinal legitimacy in pan-Indian Vedānta required (i) a complete sūtra-bhāṣya in the established commentarial idiom, (ii) embedding in a recognized paramparā, and (iii) successful technical engagement with the Vivaraṇa, Bhāmatī, Śrī, and Madhva traditions. The Gauḍīyas' Sandarbha-tradition (Jīva Gosvāmī) was experiential-theological rather than sūtra-bhāṣya in form.",
   "arguments": [
     {
       "name": "argument-1: the Gauḍīya tradition is doctrinally complete and bhāṣya-capable",
@@ -37,7 +37,7 @@
         "later_responses": [
           {
             "thinker_id": "ramabhadracarya",
-            "response_text": "The successful presentation at Galta and the consequent admission of the Gauḍīyas to the recognised catur-sampradāya is the institutional response",
+            "response_text": "The successful presentation at Galta and the consequent admission of the Gauḍīyas to the recognized catur-sampradāya is the institutional response",
             "verdict": "the establishment accepts the doctrinal sufficiency of the Gauḍīya tradition for Vedāntic legitimacy."
           }
         ]
@@ -90,7 +90,7 @@
         "Hence bhakti is not an extra-Vedāntic addition but a legitimate Vedāntic reading of the sūtras' own upāsanā-material."
       ],
       "inference": "The Vedāntic legitimacy of bhakti as abhidheya is established by sūtra-exegesis.",
-      "conclusion": "The Gauḍīya soteriological centre (bhakti and prema) is doctrinally Vedāntic, not extra-Vedāntic.",
+      "conclusion": "The Gauḍīya soteriological center (bhakti and prema) is doctrinally Vedāntic, not extra-Vedāntic.",
       "premise_status": "primary-text-attested",
       "what_it_touches": {
         "positions_actually_attacked": [
@@ -144,7 +144,7 @@
       "scholar": "Frederick Smith",
       "work": "The Self Possessed (Columbia, 2006), and supplementary work on Vedāntic legitimacy",
       "page_or_section": "ch. on bhakti-Vedānta institutionalisation",
-      "position": "Reads Baladeva's project as the consolidation of bhakti-Vedānta as a recognised pan-Indian darśana-stream alongside the four established Vedāntic sampradāyas."
+      "position": "Reads Baladeva's project as the consolidation of bhakti-Vedānta as a recognized pan-Indian darśana-stream alongside the four established Vedāntic sampradāyas."
     },
     {
       "scholar": "Mans Broo",

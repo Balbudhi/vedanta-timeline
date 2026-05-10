@@ -168,8 +168,8 @@ The theological claim is double. The divine name is not an arbitrary sign, becau
 | taror | *taru* | abl. sg. masc.; sandhi form before *iva* | than a tree |
 | iva | *iva* | indeclinable particle | like |
 | sahiṣṇunā | *sahiṣṇu* | instr. sg. masc. | by one forbearing, patient |
-| amāninā | *a-mānin* | instr. sg. masc. | by one not seeking honour |
-| mānadena | *mānada* | instr. sg. masc. | by one giving honour |
+| amāninā | *a-mānin* | instr. sg. masc. | by one not seeking honor |
+| mānadena | *mānada* | instr. sg. masc. | by one giving honor |
 | kīrtanīyaḥ | *kīrt* | gerundive; nom. sg. masc. | to be chanted, to be praised |
 | sadā | *sadā* | indeclinable adverb | always |
 | hariḥ | *hari* | nom. sg. masc. | Hari |

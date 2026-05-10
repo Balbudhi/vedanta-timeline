@@ -16,17 +16,17 @@ The annus mirabilis was 1967, when in a single year he published the three found
 
 The 1970s expanded the apparatus into formally experimental texts: *La dissémination* (Seuil, 1972), *Marges de la philosophie* (Minuit, 1972) — collecting "La différance," "Ousia et grammè," "Le puits et la pyramide," "La mythologie blanche," "Signature événement contexte" — *Glas* (Galilée, 1974), and *La carte postale* (Aubier-Flammarion, 1980).
 
-The late period (1989–2004) turned visibly toward ethics and politics: *Force de loi* (Galilée, 1994); *Spectres de Marx* (Galilée, 1993); *Donner le temps* (Galilée, 1991) and *Donner la mort* (Galilée, 1999); *De l'hospitalité* (with Dufourmantelle, Calmann-Lévy, 1997); *Voyous* (Galilée, 2003). He died in Paris on 9 October 2004 of pancreatic cancer; the last published book was *Apprendre à vivre enfin* (Galilée/Le Monde, 2005).
+The late period (1989–2004) turned visibly toward ethics and politics: *Force de loi* (Galilée, 1994); *Specters de Marx* (Galilée, 1993); *Donner le temps* (Galilée, 1991) and *Donner la mort* (Galilée, 1999); *De l'hospitalité* (with Dufourmantelle, Calmann-Lévy, 1997); *Voyous* (Galilée, 2003). He died in Paris on 9 October 2004 of pancreatic cancer; the last published book was *Apprendre à vivre enfin* (Galilée/Le Monde, 2005).
 
 ### The arc — what to expect
 
-Derrida's *œuvre* is read in three phases. **Early (1962–1967):** the Husserl readings and the founding gesture. The work begins, chronologically and conceptually, *inside* phenomenology — the 1962 *Introduction* to *L'origine de la géométrie* is a long, deferential, and extraordinarily close reading of Husserl's late text, and Derrida always insisted that he did not arrive at his vocabulary against Husserl from outside but by following Husserl's own analyses to a point at which they exceeded their own framework. *La voix et le phénomène* (PUF, 1967) is the strict continuation of this immanent procedure: it works through Husserl's *Logische Untersuchungen* and the time-consciousness analyses to show that the *voix* — the silent self-presence of inner monologue — cannot be the locus of pure presence Husserl needs it to be. *De la grammatologie* (Minuit, 1967) then generalizes the diagnosis well beyond Husserl: the entire Western tradition from Plato through Saussure privileges *parole* over *écriture*, and this privileging is the operating procedure of what Derrida names the *metaphysics of presence*. *L'écriture et la différence* (Seuil, 1967) performs the operation on Foucault, Levinas, Freud, Bataille, Artaud, Jabès, and Lévi-Strauss.
+Derrida's *œuvre* is read in three phases. **Early (1962–1967):** the Husserl readings and the founding gesture. The work begins, chronologically and conceptually, *inside* phenomenology — the 1962 *Introduction* to *L'origine de la géométrie* is a long, deferential, and extraordinarily close reading of Husserl's late text, and Derrida always insisted that he did not arrive at his vocabulary against Husserl from outside but by following Husserl's own analyzes to a point at which they exceeded their own framework. *La voix et le phénomène* (PUF, 1967) is the strict continuation of this immanent procedure: it works through Husserl's *Logische Untersuchungen* and the time-consciousness analyzes to show that the *voix* — the silent self-presence of inner monologue — cannot be the locus of pure presence Husserl needs it to be. *De la grammatologie* (Minuit, 1967) then generalizes the diagnosis well beyond Husserl: the entire Western tradition from Plato through Saussure privileges *parole* over *écriture*, and this privileging is the operating procedure of what Derrida names the *metaphysics of presence*. *L'écriture et la différence* (Seuil, 1967) performs the operation on Foucault, Levinas, Freud, Bataille, Artaud, Jabès, and Lévi-Strauss.
 
 The chronology matters because it tells us where Derrida's vocabulary comes from. *Trace*, *différance*, *écriture*, *supplément*, *itérabilité*, *présence* are not free-standing positive concepts that Derrida coined and then applied to the tradition. They are precisely-shaped polemical instruments developed *against* specific positions — the silent voice of Husserl's inner monologue, the privilege of *parole* in Saussure's *Cours*, the ontological difference in Heidegger, the *parole pleine* of Rousseau. To read these terms as Derrida's "doctrines" — as if *différance* were the name of a thing Derrida is committed to — is already to misread him. They are moves, not theses. Each is shaped by the specific opposition it is meant to undo.
 
 **Middle (1968–1980):** the apparatus expands. The 1968 lecture *La différance* gives the operation its keyword; *Marges* extends the diagnosis to Heidegger ("Ousia et grammè"), Hegel ("Le puits et la pyramide"), and philosophical metaphor ("La mythologie blanche"); *Glas* and *La carte postale* push formal experiments.
 
-**Late (1989–2004):** justice, hospitality, the gift, the spectral. *Force de loi* distinguishes law (*droit*, deconstructible) from justice (undeconstructible, "perhaps the very experience of the impossible"). *Spectres de Marx* answers Fukuyama with *hantologie*. *Donner la mort* reads Genesis 22 with Kierkegaard, Patočka, Levinas. *De l'hospitalité* distinguishes *hospitalité de droit* from *hospitalité absolue* — impossible, the only one that would deserve the name.
+**Late (1989–2004):** justice, hospitality, the gift, the spectral. *Force de loi* distinguishes law (*droit*, deconstructible) from justice (undeconstructible, "perhaps the very experience of the impossible"). *Specters de Marx* answers Fukuyama with *hantologie*. *Donner la mort* reads Genesis 22 with Kierkegaard, Patočka, Levinas. *De l'hospitalité* distinguishes *hospitalité de droit* from *hospitalité absolue* — impossible, the only one that would deserve the name.
 
 ### The central thread
 
@@ -132,7 +132,7 @@ Part Two of *De la grammatologie* is the working laboratory. The diagnostic appa
 
 ### Chapter 1: "La violence de la lettre — de Lévi-Strauss à Rousseau"
 
-The chapter opens with two epigraphs. Rousseau (*Émile*): "Parlerai-je à présent de l'écriture? Non, j'ai honte de m'amuser à ces niaiseries dans un traité de l'éducation." [*"Shall I speak now of writing? No, I am ashamed to amuse myself with such trifles in a treatise on education."*] Lévi-Strauss (*Tristes tropiques*, the chapter "La leçon d'écriture"): "[Writing] seems to favour the exploitation of men before their enlightenment... Writing and perfidy penetrated to them in concert." Both citations stage writing as *moral threat* — a danger to be guarded against, a pollutant of the supposedly innocent oral society.
+The chapter opens with two epigraphs. Rousseau (*Émile*): "Parlerai-je à présent de l'écriture? Non, j'ai honte de m'amuser à ces niaiseries dans un traité de l'éducation." [*"Shall I speak now of writing? No, I am ashamed to amuse myself with such trifles in a treatise on education."*] Lévi-Strauss (*Tristes tropiques*, the chapter "La leçon d'écriture"): "[Writing] seems to favor the exploitation of men before their enlightenment... Writing and perfidy penetrated to them in concert." Both citations stage writing as *moral threat* — a danger to be guarded against, a pollutant of the supposedly innocent oral society.
 
 > Metaphysics constructed an exemplary system of defense against the threat of writing. What binds writing to violence, and what would violence have to be for anything in it to equal the operation of the trace?
 
@@ -200,7 +200,7 @@ The lecture *La différance* was delivered to the Société française de philos
 
 ### The opening: "I shall speak, then, of a letter"
 
-The lecture begins with what is, in retrospect, a perfectly judged piece of theatre. Derrida's audience is a roomful of professional philosophers, expecting a paper on some philosophical topic. He opens:
+The lecture begins with what is, in retrospect, a perfectly judged piece of theater. Derrida's audience is a roomful of professional philosophers, expecting a paper on some philosophical topic. He opens:
 
 > I shall speak, then, of a letter: the letter *a*, introduced into the writing of the word *difference* as a kind of gross spelling mistake within a writing on writing.
 
@@ -228,7 +228,7 @@ The pyramid figure is twofold. There is the upper-case *A* shaped like a pyramid
 
 > What I shall provisionally call the word or concept of *differance* is, literally, neither a word nor a concept. Even so, Derrida says, an approximate semantic analysis can still lead us toward the stakes.
 
-The disclaimer — *ni un mot ni un concept* — is technical. *Différance* cannot be a *word* in the Saussurean sense because Saussurean words are units in a phonological system, and the *a*/*e* difference of *différance* is precisely a difference that does *not* exist in the phonological system: spoken, the two words are indiscernible. *Différance* is a *graphism* — a written mark — that has no phonological analogue. And it cannot be a *concept* in the philosophical sense because concepts have determinate semantic content, and *différance* names *the play of differences that produces every effect of conceptual determinacy* — it cannot itself be conceptually determined without dragging in, prior to itself, the very play it was supposed to name. So *différance* is a *strategic indication*, deployed under erasure, marking a place rather than occupying one.
+The disclaimer — *ni un mot ni un concept* — is technical. *Différance* cannot be a *word* in the Saussurean sense because Saussurean words are units in a phonological system, and the *a*/*e* difference of *différance* is precisely a difference that does *not* exist in the phonological system: spoken, the two words are indiscernible. *Différance* is a *graphism* — a written mark — that has no phonological analog. And it cannot be a *concept* in the philosophical sense because concepts have determinate semantic content, and *différance* names *the play of differences that produces every effect of conceptual determinacy* — it cannot itself be conceptually determined without dragging in, prior to itself, the very play it was supposed to name. So *différance* is a *strategic indication*, deployed under erasure, marking a place rather than occupying one.
 
 ### The two senses of *différer*
 
@@ -365,9 +365,9 @@ The slogan: the *demand* that animates deconstruction — that the privileged te
 
 User's verdict: the diagnostic is shrewd — every juridical order has a contingent founding moment, every appeal to legality presupposes a non-legal grounding. The Indian polity tradition (Manu, *Arthaśāstra*) had no naïveté about this; *matsya-nyāya* — the law of fishes — names the originary violence that legitimate order suppresses. The disagreement is over what justice positively *is*. For Derrida, regulative idea with no positive content. For the user, *prevention of predation* — a real political telos articulable in *dharmic* terms.
 
-### *Spectres de Marx* (1993)
+### *Specters de Marx* (1993)
 
-Derrida's response to Fukuyama is *hantologie* — *ontologie* haunted by its homophone. There is no clean break from Marx; even those who proclaim Marx dead are haunted by his spectres. The "end of history" is itself a deeply Hegelian-Kojèvian-Marxian thesis. Inheritance is unavoidable; the only question is *how* one inherits. The *new International* is a non-party, non-sovereign political solidarity oriented toward a "messianic without messianism." Ten "plagues" of the new world order are catalogued.
+Derrida's response to Fukuyama is *hantologie* — *ontologie* haunted by its homophone. There is no clean break from Marx; even those who proclaim Marx dead are haunted by his specters. The "end of history" is itself a deeply Hegelian-Kojèvian-Marxian thesis. Inheritance is unavoidable; the only question is *how* one inherits. The *new International* is a non-party, non-sovereign political solidarity oriented toward a "messianic without messianism." Ten "plagues" of the new world order are cataloged.
 
 User's verdict: diagnostic right; positive content missing. The new International is a name for what is *not* sovereign, party, triumphalist — not for what *is* to be done.
 
@@ -407,7 +407,7 @@ A sympathetic comparison is sometimes drawn between *différance* and *śūnyat�
 
 ### Reading sequence
 
-**First, *La différance* (Marges pp. 1–29)** — most accessible. Bass (Chicago, 1982). **Second, *De la grammatologie* Part I** — *Avertissement*, *Exergue*, Chs. 1–3. Spivak (corrected ed. 1997). **Third, *La voix et le phénomène*** — Chs. 5–7. Lawlor (2011) preferred over Allison. **Fourth, *De la grammatologie* Part II** — Rousseau, Chs. 1–2. **Fifth, late ethical-political** — *Force de loi*, *Spectres de Marx*, *Donner la mort*. **Skip on a first reading**: *La dissémination*, *Glas*, *La carte postale*.
+**First, *La différance* (Marges pp. 1–29)** — most accessible. Bass (Chicago, 1982). **Second, *De la grammatologie* Part I** — *Avertissement*, *Exergue*, Chs. 1–3. Spivak (corrected ed. 1997). **Third, *La voix et le phénomène*** — Chs. 5–7. Lawlor (2011) preferred over Allison. **Fourth, *De la grammatologie* Part II** — Rousseau, Chs. 1–2. **Fifth, late ethical-political** — *Force de loi*, *Specters de Marx*, *Donner la mort*. **Skip on a first reading**: *La dissémination*, *Glas*, *La carte postale*.
 
 ### A final word on adhikāra
 

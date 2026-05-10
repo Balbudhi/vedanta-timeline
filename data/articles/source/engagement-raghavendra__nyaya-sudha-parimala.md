@@ -2,7 +2,7 @@
 
 ## 1. What the text is
 
-Rāghavendra Tīrtha’s *Nyāya-Sudhā-Parimaḷa* is a seventeenth-century Tattvavādin sub-commentary on Jayatīrtha’s *Nyāya-Sudhā*, itself a commentary on Madhva’s *Anuvyākhyāna* on the *Brahma-Sūtras*. The work therefore sits three layers deep inside the Madhva exegetical tradition: *Brahma-Sūtra* -> Madhva -> Jayatīrtha -> Rāghavendra. The four on-disk volumes correspond to the four *adhyāyas* of the *Brahma-Sūtras*, each with four *pādas*; the text is polemical throughout, using lexical, grammatical, and inferential detail to force disputed śruti-loci back into a Viṣṇu/Nārāyaṇa-centred reading.
+Rāghavendra Tīrtha’s *Nyāya-Sudhā-Parimaḷa* is a seventeenth-century Tattvavādin sub-commentary on Jayatīrtha’s *Nyāya-Sudhā*, itself a commentary on Madhva’s *Anuvyākhyāna* on the *Brahma-Sūtras*. The work therefore sits three layers deep inside the Madhva exegetical tradition: *Brahma-Sūtra* -> Madhva -> Jayatīrtha -> Rāghavendra. The four on-disk volumes correspond to the four *adhyāyas* of the *Brahma-Sūtras*, each with four *pādas*; the text is polemical throughout, using lexical, grammatical, and inferential detail to force disputed śruti-loci back into a Viṣṇu/Nārāyaṇa-centered reading.
 
 ## 2. Sampling and scope statement
 
@@ -18,7 +18,7 @@ Depth-engaged: six loci across all four *adhyāyas* were read closely, translite
 
 - **Pāda 3** (third-*pāda* close at ad1 archive 6879). The text continues the lexical campaign through terms such as *bhūman* and *akṣara*, treating apparently open-textured Upaniṣadic language as requiring a highest-personal referent. The cumulative effect is to reduce the space for impersonalist readings.
 
-- **Pāda 4** (fourth-*pāda* close at ad1 archive 10242). The last *pāda* gathers further disputed expressions such as *jyotis* and *pañcajana* and finishes the samanvaya programme. By the end of ad1, the highest scriptural vocabulary has been systematically recentred on Viṣṇu.
+- **Pāda 4** (fourth-*pāda* close at ad1 archive 10242). The last *pāda* gathers further disputed expressions such as *jyotis* and *pañcajana* and finishes the samanvaya program. By the end of ad1, the highest scriptural vocabulary has been systematically recentred on Viṣṇu.
 
 ### Adhyāya 2
 
@@ -95,7 +95,7 @@ samasta-śruti-samanvaya-ghaṭanāya vā uktaṃ
 
 **Engagement:** This is an unusually explicit statement of method. The text understands itself as doing two things at once: demolishing rival systems and building a total śruti-coherence. Those are not separate enterprises. Refutation is in service of *samanvaya*, and *samanvaya* is impossible without refutation.
 
-The phrase `ghaṭanāya` is important: Rāghavendra is not merely collecting scriptural statements, but making them fit together. The anti-rival project is therefore not ancillary polemics; it is the negative labour required for a stable theological synthesis.
+The phrase `ghaṭanāya` is important: Rāghavendra is not merely collecting scriptural statements, but making them fit together. The anti-rival project is therefore not ancillary polemics; it is the negative labor required for a stable theological synthesis.
 
 ### 3. Vairāgya is first because it causes bhakti and the rest
 

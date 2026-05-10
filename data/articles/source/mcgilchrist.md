@@ -10,7 +10,7 @@ McGilchrist is a psychiatrist and literary scholar whose work joins clinical neu
 
 ### The arc
 
-McGilchrist's central claim is structural. The two hemispheres are not equivalent processors dividing labour. They are two fundamentally different *ways of attending* — and through attending, of bringing a world into being. The left attends narrowly, focally, instrumentally, abstracting parts from wholes and operating on already-known representations. The right attends broadly, contextually, vigilantly, taking the whole as primary, open to whatever is novel, embodied, ambiguous, or implicit. The right *presents* the world; the left *re-presents* it. Both are necessary. They are not symmetric.
+McGilchrist's central claim is structural. The two hemispheres are not equivalent processors dividing labor. They are two fundamentally different *ways of attending* — and through attending, of bringing a world into being. The left attends narrowly, focally, instrumentally, abstracting parts from wholes and operating on already-known representations. The right attends broadly, contextually, vigilantly, taking the whole as primary, open to whatever is novel, embodied, ambiguous, or implicit. The right *presents* the world; the left *re-presents* it. Both are necessary. They are not symmetric.
 
 The asymmetry is captured in the title's parable: right is master, left emissary, and modernity is the emissary's usurpation. When the relation is ordered, the left serves what the right discloses; when the left declares sovereignty, the result is a hall of mirrors of representations referring to other representations.
 
@@ -24,7 +24,7 @@ Four points of structural confirmation:
 
 **T11 — Ontology of Phenomenology.** McGilchrist's account of "manner of attention," "betweenness," the right hemisphere's *Lichtung*-like openness, is a phenomenology of integral attention — patient, embodied, particular attentiveness in which a single human being sustains a relation to the real. Not Hegelian totalization but exactly what T11 demands: phenomenology of an *individual* (the *caitya puruṣa*) open onto the absolute, not of universal Spirit.
 
-**T1 — Darśana Register Thesis.** The hemispheric thesis is itself a register-distinction thesis. The two hemispheres do not give competing total theories; they give different *manners of attention*. This is structurally identical to the user's argument that the *darśanas* address different registers and are not competing totals. The hemispheres are register-distinct, non-collapsing, co-presented — not synthesised into a third that abolishes them.
+**T1 — Darśana Register Thesis.** The hemispheric thesis is itself a register-distinction thesis. The two hemispheres do not give competing total theories; they give different *manners of attention*. This is structurally identical to the user's argument that the *darśanas* address different registers and are not competing totals. The hemispheres are register-distinct, non-collapsing, co-presented — not synthesized into a third that abolishes them.
 
 **T9 — Unity-in-Apparent-Multiplicity.** Vol II's whole metaphysics defends opposites fulfilling themselves through one another without abolition. Division and union are both ontologically primary; reality is one-and-many in a structured asymmetry. This is the user's *unity-in-multiplicity* / Aurobindo's "diversity-in-unity" vindicated from cognitive neuroscience.
 
@@ -44,7 +44,7 @@ Part I rejects the caricature "left logical, right creative" and argues instead 
 
 Four moves: (i) hemispheres deliver *realities*, not just data; (ii) they are *fundamentally opposed*, not benignly complementary; (iii) both are *of ultimate importance*; (iv) there is a *power struggle* — one tends to overreach.
 
-Ch. 1 catalogues structural asymmetries in anatomy, neurochemistry, and connectivity. The guiding move is that both hemispheres do almost everything; the real difference is *how* they attend.
+Ch. 1 catalogs structural asymmetries in anatomy, neurochemistry, and connectivity. The guiding move is that both hemispheres do almost everything; the real difference is *how* they attend.
 
 ### Attention as constitutive
 
@@ -84,20 +84,20 @@ The strongest formulation, for the user's thesis, is that re-presentation is not
 
 Across Chapters 2–4 McGilchrist consolidates the empirical findings into a set of contrasts. They are usually cited as "the eight differences," though the canonical list shifts slightly between summaries. The substance is consistent:
 
-1. **New vs. familiar**: the right hemisphere preferentially attends to whatever is *new*; the left specialises in what is *already known*. New experience releases noradrenaline mainly in the right hemisphere; novel learning engages right-hemisphere structures even when the material is verbal; only after material has become familiar does processing migrate to the left.
-2. **Whole vs. part**: the right hemisphere apprehends the *Gestalt*, the whole as whole; the left atomises into parts and treats parts as primary. McGilchrist insists that this is not a matter of the right hemisphere doing "synthesis" of left-hemispheric parts — the right *never decomposed* the whole in the first place. *It is not that the right hemisphere connects — because what it reveals was never separated; it does not synthesise — what was never broken down into parts; it does not integrate — what was never less than whole.* (*M&E*, Ch. 5)
+1. **New vs. familiar**: the right hemisphere preferentially attends to whatever is *new*; the left specializes in what is *already known*. New experience releases noradrenaline mainly in the right hemisphere; novel learning engages right-hemisphere structures even when the material is verbal; only after material has become familiar does processing migrate to the left.
+2. **Whole vs. part**: the right hemisphere apprehends the *Gestalt*, the whole as whole; the left atomises into parts and treats parts as primary. McGilchrist insists that this is not a matter of the right hemisphere doing "synthesis" of left-hemispheric parts — the right *never decomposed* the whole in the first place. *It is not that the right hemisphere connects — because what it reveals was never separated; it does not synthesize — what was never broken down into parts; it does not integrate — what was never less than whole.* (*M&E*, Ch. 5)
 3. **Embodied vs. abstract**: the right hemisphere is the home of the body, of facial expression, of emotion read in the whole face, of the bodily basis of metaphor; the left tends toward disembodied abstraction.
 4. **Context vs. decontextualised**: the right hemisphere preserves things in their context — who said it, when, where, in what tone, with what expression; the left lifts content from context and treats decontextualised content as canonical.
-5. **Implicit vs. explicit**: metaphor, irony, humour, body language, tone — everything implicit — is the right hemisphere's domain. The left makes things explicit, which is essential, but it cannot then read the implicit again. Where the implicit grounds the explicit, the explicit forgets its grounding.
-6. **The living vs. the mechanical**: the right hemisphere recognises living things as living, persons as persons; the left tends to see machines, parts, mechanisms — and, characteristically, finds these *easier* to handle. There are clinical syndromes of right-hemisphere damage in which patients describe their own bodies as alien machines or other people as elaborate impostors (Capgras, Fregoli).
+5. **Implicit vs. explicit**: metaphor, irony, humor, body language, tone — everything implicit — is the right hemisphere's domain. The left makes things explicit, which is essential, but it cannot then read the implicit again. Where the implicit grounds the explicit, the explicit forgets its grounding.
+6. **The living vs. the mechanical**: the right hemisphere recognizes living things as living, persons as persons; the left tends to see machines, parts, mechanisms — and, characteristically, finds these *easier* to handle. There are clinical syndromes of right-hemisphere damage in which patients describe their own bodies as alien machines or other people as elaborate impostors (Capgras, Fregoli).
 7. **Uniqueness vs. category**: the right hemisphere apprehends *this very thing in front of me, never to recur*; the left places the thing into a category and treats the category as more real than the instance.
 8. **Betweenness vs. property**: the right hemisphere lives in *relations* — between this person and me, between this note and the next, between figure and ground; the left treats relations as derivative properties of relata that exist independently.
 
 Underlying all eight is the same structure: vigilant-open right attention is prior to narrow-focal left attention.
 
-These eight are not separate modules. They are recurrent expressions of one deeper difference in stance. A hemisphere open to the new will also privilege whole over part, living particular over category, context over extraction, relation over isolated property, and implicit significance over explicit handling. A hemisphere specialised for grasp and manipulation will tend, for the same reason, toward the familiar, the atomised, the mechanical, and the already named.
+These eight are not separate modules. They are recurrent expressions of one deeper difference in stance. A hemisphere open to the new will also privilege whole over part, living particular over category, context over extraction, relation over isolated property, and implicit significance over explicit handling. A hemisphere specialized for grasp and manipulation will tend, for the same reason, toward the familiar, the atomised, the mechanical, and the already named.
 
-McGilchrist is especially insistent that the right hemisphere does not "synthesise" fragments supplied by the left. It apprehends what had not yet been fragmented. The left then stabilises, extracts, and re-presents. The priority claim therefore does not mean the right is "better at integration" in some loose sense. It means wholeness comes first, and decomposition comes later. The earlier over-cut version preserved the list but not enough of this argument for why the list hangs together.
+McGilchrist is especially insistent that the right hemisphere does not "synthesize" fragments supplied by the left. It apprehends what had not yet been fragmented. The left then stabilises, extracts, and re-presents. The priority claim therefore does not mean the right is "better at integration" in some loose sense. It means wholeness comes first, and decomposition comes later. The earlier over-cut version preserved the list but not enough of this argument for why the list hangs together.
 
 The practical consequence is large. If the right-first order is true, then every philosophy that starts from isolated items and tries to reconstruct the whole from them is beginning too late. Atomism, contractarianism, sense-data theory, procedural ethics, computational theories of mind, and bureaucratic political forms all inherit the same mistake: they begin with units already detached from the field in which they first had meaning. McGilchrist's neuroscience does not mechanically refute those systems, but it gives a strong reason to distrust their point of departure.
 
@@ -105,7 +105,7 @@ The practical consequence is large. If the right-first order is true, then every
 
 > If the two hemispheres produce two worlds, which should we trust if we are after the truth about the world?... I believe that the relationship between the hemispheres is not equal, and that while both contribute to our knowledge of the world, which therefore needs to be synthesised, one hemisphere, the right hemisphere, has precedence, in that it underwrites the knowledge that the other comes to have, and is alone able to synthesise what both know into a usable whole. (*M&E*, Ch. 5)
 
-The argument for primacy: broad vigilant attention precedes focussing; wholeness precedes parts; novelty arrives first in the right; the explicit unfolds from the implicit; affect precedes cognition (Zajonc); we encounter relations before objects.
+The argument for primacy: broad vigilant attention precedes focusing; wholeness precedes parts; novelty arrives first in the right; the explicit unfolds from the implicit; affect precedes cognition (Zajonc); we encounter relations before objects.
 
 > Many things that are important to us simply cannot withstand being too closely attended to, since their nature is to be indirect or implicit. Forcing them into explicitness changes their nature completely, so that in such cases what we come to think we know 'certainly' is in fact not truly known at all. (*M&E*, Ch. 5)
 
@@ -117,7 +117,7 @@ In Deglin and Kinsbourne's split-brain experiments, "All trees sink in water; ba
 
 > The right hemisphere dismisses the false premises and deductions as absurd. But the left hemisphere sticks to the false conclusion, replying calmly to the effect that 'that's what it says here.' (*M&E*, Ch. 5)
 
-The pathology of the over-rationalised modern intellect is the left hemisphere's confidence in symbolic manipulation as substitute for contact with the real. *That's what it says here.*
+The pathology of the over-rationalized modern intellect is the left hemisphere's confidence in symbolic manipulation as substitute for contact with the real. *That's what it says here.*
 
 ### Triumph and betrayal
 
@@ -127,9 +127,9 @@ Ch. 6 spells out the asymmetry of *power* (distinct from priority). Right has pr
 
 The left is structurally prone to seeing the right as a threat — its silent priority as obscurantism to be overcome. This is, in compressed form, the relation between scientism and contemplative traditions, between analytic philosophy and phenomenology, between modernity and the wisdom traditions it has tried to extinguish.
 
-The phrase "asymmetry of power" is therefore decisive. The right is prior because it discloses, contextualises, and keeps relation with reality open; the left is stronger in institutions because public language, explicit procedure, repeatable method, and system-building belong more readily to it. Modern culture can thus become left-captured even where individual persons still possess right-hemisphere capacities. What can be defended, audited, and circulated in the public sphere is already biased toward the emissary's mode.
+The phrase "asymmetry of power" is therefore decisive. The right is prior because it discloses, contextualizes, and keeps relation with reality open; the left is stronger in institutions because public language, explicit procedure, repeatable method, and system-building belong more readily to it. Modern culture can thus become left-captured even where individual persons still possess right-hemisphere capacities. What can be defended, audited, and circulated in the public sphere is already biased toward the emissary's mode.
 
-This is the background of McGilchrist's "hall of mirrors" diagnosis. A culture can become trapped in representations that refer only to further representations, with no authorised route back to lived worldhood except the suspect route of intuition, art, reverence, or contemplative opening. For the user's thesis, this is one of the strongest explanations of why so much modern theory feels self-sealed: the seal is attentional before it is doctrinal.
+This is the background of McGilchrist's "hall of mirrors" diagnosis. A culture can become trapped in representations that refer only to further representations, with no authorized route back to lived worldhood except the suspect route of intuition, art, reverence, or contemplative opening. For the user's thesis, this is one of the strongest explanations of why so much modern theory feels self-sealed: the seal is attentional before it is doctrinal.
 
 It also explains why such cultures often become hostile to their own conditions of renewal. Poetry, liturgy, contemplative practice, eros, music, and symbolic form are tolerated only when they can be redescribed as private taste or therapeutic supplement. They cannot be admitted as sources of knowledge without threatening the emissary's monopoly. The result is not only philosophical narrowing but a systematic public downgrading of the practices by which contact with the real might be restored.
 
@@ -201,7 +201,7 @@ The same dismissive move is available against Indian thought: call it "Romantic"
 
 Romanticism matters because it is a partial recovery after the great narrowing. McGilchrist's long treatment of longing, melancholy, the sublime, half-light, distance, ruins, memory, and music-heard-from-afar is not decorative literary history. It is an account of what a right-hemisphere culture seeks once direct participation has been thinned. The attraction to the unfinished or half-seen is not irrationalism. It is a disciplined refusal to replace the thing with its sign.
 
-He repeatedly emphasises that profound significance is often available only where full explicitness is withheld. Mountains partly obscured by mist, sketches not fully closed, twilight rather than noon, remembered voices at a distance: these are not accidental Romantic motifs. They are forms that require receptive completion rather than passive consumption of explicit data. The point is hemispheric. The left wants capture and closure; the right can abide with what remains inexhaustible.
+He repeatedly emphasizes that profound significance is often available only where full explicitness is withheld. Mountains partly obscured by mist, sketches not fully closed, twilight rather than noon, remembered voices at a distance: these are not accidental Romantic motifs. They are forms that require receptive completion rather than passive consumption of explicit data. The point is hemispheric. The left wants capture and closure; the right can abide with what remains inexhaustible.
 
 This gives the Romantic moment a philosophical dignity often denied it. Romanticism is not simply reaction or sentimentality. It is a cultural memory of the forms in which reality exceeds appropriation. Its failures are real: nostalgia, self-dramatization, theatrical subjectivism. But the function it performs in McGilchrist's history is indispensable. It is the witness that something essential has been lost and that explicit control cannot replace it.
 
@@ -219,7 +219,7 @@ Postmodernism is *not* the reversal of modernism it advertises. It is the *compl
 
 The user's polemic against the Hegel-Lacan-Derrida-Foucault-Butler line finds here its precise neuroscientific articulation. The "monkey describing its own brain" is the left hemisphere describing its own representations.
 
-The Chapter 12 discussion of representation should be made explicit here. Once things are replaced by concepts, concepts become things. The symbolic map that should serve reality begins to replace it. McGilchrist's modern world is one in which re-presentation no longer returns to presentation for correction. It becomes self-authorising. That is why the postmodern declaration that "there is nothing outside the text" appears to him not as liberation but as the terminal form of the emissary's usurpation.
+The Chapter 12 discussion of representation should be made explicit here. Once things are replaced by concepts, concepts become things. The symbolic map that should serve reality begins to replace it. McGilchrist's modern world is one in which re-presentation no longer returns to presentation for correction. It becomes self-authorizing. That is why the postmodern declaration that "there is nothing outside the text" appears to him not as liberation but as the terminal form of the emissary's usurpation.
 
 The cultural importance of this move is hard to overstate. It means that even critique can become captive to the structure it criticizes. If all access to reality is redescribed as access only to discourse, then discourse becomes absolute by default. One remains inside the hall of mirrors while congratulating oneself on having exposed mirrors as mirrors. McGilchrist's critique of postmodernity is therefore not conservative nostalgia but a diagnosis of self-sealing reflexivity.
 
@@ -269,7 +269,7 @@ It is also a direct reply to the common objection that the hemispheric thesis is
 
 The right is dominant for living things, embodied movement, facial expression, prosody, texture, and multimodal binding; the left for categorisation and symbolic handling. Misidentification syndromes such as Capgras show what is lost when categorical recognition survives but living presence does not.
 
-McGilchrist opens the chapter with the statement that perception is "the act whereby we reach out from our cage of mental constructs to taste, smell, touch, hear and see the living world." This formulation matters because it makes perception the reopening of contact, not the passive reception of inputs to be later processed by thought. The left hemisphere's specialisation for re-presentation means it increasingly treats sensory material as support for symbolic handling; the right preserves richer contact with embodied, affective, contextualised particulars.
+McGilchrist opens the chapter with the statement that perception is "the act whereby we reach out from our cage of mental constructs to taste, smell, touch, hear and see the living world." This formulation matters because it makes perception the reopening of contact, not the passive reception of inputs to be later processed by thought. The left hemisphere's specialization for re-presentation means it increasingly treats sensory material as support for symbolic handling; the right preserves richer contact with embodied, affective, contextualized particulars.
 
 The empirical consequence is not simply that the right is "better with faces" or "better with music." In every sensory modality, he argues, the right hemisphere has an advantage where whole-pattern recognition, contextual uptake, or the living significance of a stimulus is concerned. The left can name and classify; the right more reliably situates what is given in the whole scene. Misidentification syndromes like Capgras are therefore philosophically central: the category survives, the person as living presence does not.
 
@@ -293,11 +293,11 @@ Judgment in this strong sense therefore includes tact, timing, salience, plausib
 
 Across apprehension, intelligence, and creativity, the pattern holds: the foundational mode is right, the articulating mode left, and modernity distorts the relation by privileging the latter.
 
-McGilchrist's linguistic contrast is exact: the left "ap-prehends," holding onto; the right "com-prehends," holding together. Tool-use pathology, ideomotor apraxia, gesture, and language all illustrate the point. The left is specialised for utilisation, for the available object, for the move that can be executed. The right preserves the larger task-world in which action is meaningful. Patients can sometimes retain fragments of sequence yet lose the integral act, which is why a merely procedural model of intelligence fails.
+McGilchrist's linguistic contrast is exact: the left "ap-prehends," holding onto; the right "com-prehends," holding together. Tool-use pathology, ideomotor apraxia, gesture, and language all illustrate the point. The left is specialized for utilization, for the available object, for the move that can be executed. The right preserves the larger task-world in which action is meaningful. Patients can sometimes retain fragments of sequence yet lose the integral act, which is why a merely procedural model of intelligence fails.
 
 He also states one of the book's strongest asymmetries here: left-hemisphere dysfunction does not usually change the experienced world radically; right-hemisphere dysfunction often does. That is empirical support for the larger thesis that the right underwrites the world in a way the left does not. The left is indispensable for articulation and use, but the fabric of reality is more deeply altered by damage to the right.
 
-The language-and-tool sections make the same point from the other side. A patient may lose names, fluent syntax, or the ability to use a simple object on command and still inhabit a broadly recognisable world. With right-hemisphere loss, names may remain while reality itself becomes bizarre. That cumulative asymmetry is one of the strongest empirical grounds for McGilchrist's metaphysical claims.
+The language-and-tool sections make the same point from the other side. A patient may lose names, fluent syntax, or the ability to use a simple object on command and still inhabit a broadly recognizable world. With right-hemisphere loss, names may remain while reality itself becomes bizarre. That cumulative asymmetry is one of the strongest empirical grounds for McGilchrist's metaphysical claims.
 
 Creativity follows the same pattern. The first arrival of the new is right-hemispheric: open, half-formed, implicit, not yet sayable. The left becomes crucial at the stage of execution, stabilization, and communicable shape. Cultures that overvalue only the latter mistake polish for creation. They preserve dissemination while losing origin. This distinction, too, matters for the user's thesis because many of the highest-order philosophical recognitions begin as modes of insight before they can be rendered into doctrine.
 
@@ -307,7 +307,7 @@ The structural pattern of schizophrenia — loss of the embodied contextual sens
 
 ### Means to truth: the closing argument of Volume I
 
-Vol I closes (Chs. 17–19) with a four-fold account of paths to truth: science, reason, intuition, imagination. Each is genuine; each becomes pathological when monopolised by left modes. *Scientism* (mistaking procedural rigour for exhaustive metaphysics) is the pathology, not science; the "science of life" chapter (Ch. 12) targets contemporary biology's left-hemispheric capture (organisms as machines, genes as tape, information as substance of life). *Logical paradox* (Liar, Russell, *Tractatus*-era preoccupations) is what reason produces when operating purely in left mode on closed symbol systems. *Intuition* is right-hemispheric apprehension — fast arrival by methods we cannot articulate (Bergson, James, Polanyi). *Imagination* is the right's capacity to apprehend what is not immediately given — the precondition of every act of understanding, including scientific. Real means to truth, plural, register-distinct, requiring all the resources of a complete human being.
+Vol I closes (Chs. 17–19) with a four-fold account of paths to truth: science, reason, intuition, imagination. Each is genuine; each becomes pathological when monopolised by left modes. *Scientism* (mistaking procedural rigor for exhaustive metaphysics) is the pathology, not science; the "science of life" chapter (Ch. 12) targets contemporary biology's left-hemispheric capture (organisms as machines, genes as tape, information as substance of life). *Logical paradox* (Liar, Russell, *Tractatus*-era preoccupations) is what reason produces when operating purely in left mode on closed symbol systems. *Intuition* is right-hemispheric apprehension — fast arrival by methods we cannot articulate (Bergson, James, Polanyi). *Imagination* is the right's capacity to apprehend what is not immediately given — the precondition of every act of understanding, including scientific. Real means to truth, plural, register-distinct, requiring all the resources of a complete human being.
 
 The internal relation among the four is crucial. McGilchrist is not offering four rival epistemologies from which one picks a favorite. Science depends on imagination for hypothesis and on intuition for salience; reason depends on a prior feel for relevance and fit; intuition without later articulation remains private; imagination without correction becomes fantasy. A culture that publically legitimizes only the explicitly formal moments eventually hollows out the very sciences and rational practices it claims to exalt.
 
@@ -403,7 +403,7 @@ This is structurally close to *nirguṇa Brahman* as ground rather than entity.
 
 The sacred chapter does more than reintroduce "religion" into philosophy. It argues that some dimensions of reality appear only under a posture of reverent, non-grasping attention. The sacred is not one more item added to an inventory of beings. It names a way in which worldhood itself becomes transparent to depth. Maimonides' "exists, but not through existence" strips the divine of thinghood without stripping reality of ultimacy.
 
-McGilchrist also quotes William James's line that the "'omnipotent' and 'omniscient' God of theology" is "a disease of the philosophy-shop." The point is not anti-theism; it is anti-reification. A God converted into a super-object with maximised predicates has already been reduced to left-hemisphere terms. McGilchrist's later metaphysics keeps trying to protect the ultimate from precisely that flattening.
+McGilchrist also quotes William James's line that the "'omnipotent' and 'omniscient' God of theology" is "a disease of the philosophy-shop." The point is not anti-theism; it is anti-reification. A God converted into a super-object with maximized predicates has already been reduced to left-hemisphere terms. McGilchrist's later metaphysics keeps trying to protect the ultimate from precisely that flattening.
 
 The exact James passage matters because it occurs in the middle of McGilchrist's attack on theological left-literalism:
 
@@ -413,7 +413,7 @@ McGilchrist immediately adds that it is not simply that God is *not* omniscient 
 
 This is also where the Maimonides line does its full work. "Exists, but not through existence" is not a mystical flourish. It blocks the slide by which the divine becomes one more existent, even the highest existent. Once God is treated as a super-entity, all the familiar modern objections follow almost automatically: why evil if omnipotent, why hiddenness if omniscient, why dependence if perfect. McGilchrist's answer is not to dodge those objections but to say that their grammar has already become misdirected. The sacred chapter tries to restore a mode of speech in which ultimacy can be affirmed without thinghood.
 
-He is equally concerned to protect ordinary reality from desacralised flattening. A world in which nothing can appear as holy will also be a world in which persons, places, and practices are increasingly available only as resources, functions, or data. The sacred chapter is therefore not detachable from the earlier neuroscience. It is the late ontological articulation of what a right-hemisphere world discloses when not colonised by the emissary's categories.
+He is equally concerned to protect ordinary reality from desacralised flattening. A world in which nothing can appear as holy will also be a world in which persons, places, and practices are increasingly available only as resources, functions, or data. The sacred chapter is therefore not detachable from the earlier neuroscience. It is the late ontological articulation of what a right-hemisphere world discloses when not colonized by the emissary's categories.
 
 This is also where McGilchrist is most useful as an ally for a realism that does not collapse into disenchantment. The sacred is not introduced as an optional add-on to a completed naturalism. It appears as what a certain kind of truthful attention discloses. That claim does not prove theology. It does, however, block the cheap modern move in which only what is objectifiable counts as real and everything else is relegated to projection. McGilchrist's late work is one of the strongest contemporary statements that reality may be richer than objecthood without ceasing to be reality.
 
@@ -423,7 +423,7 @@ The chapter also restores something modern thought repeatedly loses: gratitude a
 
 > For what it is worth, I do not believe in a God of love who is also omnipotent and omniscient... I cannot believe that God is either omniscient or omnipotent: but I also think God is not 'not omniscient', and not 'not omnipotent'. It's that the terms just don't apply... God is not in a left hemisphere sense, but in a right hemisphere sense, all-knowing and all-powerful... If God were to know everything, in the sense of 'knowing the facts', God would be importantly limited, because then Creation could no longer be truly free and with that the possibility for love – which depends on the free will of a true Other – would be lost. (*MWT* II, Ch. 28)
 
-The Kabbalistic *tzimtzum* material is McGilchrist's closest analogue to divine self-withdrawal that makes creation possible.
+The Kabbalistic *tzimtzum* material is McGilchrist's closest analog to divine self-withdrawal that makes creation possible.
 
 ### Lucifer rebels
 
@@ -507,7 +507,7 @@ Six incompletenesses remain.
 
 1. **No darśana-level differentiation.** McGilchrist does not distinguish Advaita, Viśiṣṭādvaita, Tattva-vāda (Dvaita), Bhedābheda, Trika, and Sāṃkhya as separate registers.
 
-2. **No phenomenology of the psychic being.** He offers a phenomenology of attention, not of the evolving individual centre comparable to the user's T11 requirement.
+2. **No phenomenology of the psychic being.** He offers a phenomenology of attention, not of the evolving individual center comparable to the user's T11 requirement.
 
 3. **No positive doctrine of divine self-veiling.** He approaches withdrawal and freedom but does not supply a formal account of self-concealment comparable to the user's T7 scaffolding.
 

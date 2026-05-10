@@ -68,7 +68,7 @@ This is one of the cleanest places where Nimbārka's line should be distinguishe
 
 **Engagement**: This is the anti-*mithyātva* thesis in its most direct form. The text does not merely say that the world is pragmatically useful or provisionally admissible; it says that Brahman-causation excludes ignorance-causation as the primary ontological story. The world is real as dependent effect.
 
-That also explains the commentary's handling of `māyā`: in this stretch it pushes toward `prakṛti` or `śakti`, not toward a world-cancelling doctrine of nescience. For the user's thesis this is a strong primary citation; for any synthesis that wants a positive ontology of ignorance, it is also a limit-case, because Śrīnivāsa is plainly blocking the Advaitin architecture in which *avidyā* bears the world.
+That also explains the commentary's handling of `māyā`: in this stretch it pushes toward `prakṛti` or `śakti`, not toward a world-canceling doctrine of nescience. For the user's thesis this is a strong primary citation; for any synthesis that wants a positive ontology of ignorance, it is also a limit-case, because Śrīnivāsa is plainly blocking the Advaitin architecture in which *avidyā* bears the world.
 
 ### Passage 4
 

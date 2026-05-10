@@ -4,7 +4,7 @@
   "attacker": "sureshvara",
   "attacker_text": "Naiṣkarmya-Siddhi (esp. 1.55–56, 1.67–73, 1.98–99, and the systematic argument across the first prakaraṇa); supplementary engagements in the Bṛhadāraṇyakopaniṣad-Bhāṣya-Vārttika",
   "target_school_token": "cross-tradition",
-  "target_position_summary": "The Bhāṭṭa Mīmāṃsā doctrine of jñāna-karma-samuccaya — the position that vedic karma (ritual action) and jñāna of Brahman jointly constitute the path to mokṣa — as crystallised by Kumārila Bhaṭṭa (Śloka-Vārttika, Tantra-Vārttika) and developed within the Vedāntic environment by Maṇḍana Miśra (Brahma-Siddhi). Maṇḍana, Sureśvara's principal Vedāntic interlocutor, retains a Mīmāṃsaka-derived role for karma alongside jñāna and treats the saving cognition as ripening through bhāvanā (cultivation), not as immediately liberating from the mahāvākya alone.",
+  "target_position_summary": "The Bhāṭṭa Mīmāṃsā doctrine of jñāna-karma-samuccaya — the position that vedic karma (ritual action) and jñāna of Brahman jointly constitute the path to mokṣa — as crystallized by Kumārila Bhaṭṭa (Śloka-Vārttika, Tantra-Vārttika) and developed within the Vedāntic environment by Maṇḍana Miśra (Brahma-Siddhi). Maṇḍana, Sureśvara's principal Vedāntic interlocutor, retains a Mīmāṃsaka-derived role for karma alongside jñāna and treats the saving cognition as ripening through bhāvanā (cultivation), not as immediately liberating from the mahāvākya alone.",
   "arguments": [
     {
       "name": "argument-1: Naiṣkarmya-Siddhi 1.55–56 — karma and jñāna stand as bādhya-bādhaka",
@@ -127,13 +127,13 @@
       "name": "argument-4: Maṇḍana's Mīmāṃsaka inheritance is incompatible with his Vedāntin commitments",
       "premises": [
         "Mīmāṃsā holds that the Veda is primarily prescriptive (vidhi-pradhāna): its function is to prescribe karma, and what is not karmically-actionable is exegetically subordinate.",
-        "Vedānta holds that the Veda's culminating teaching is the cognitive realisation of Brahman, which is not a karma at all.",
+        "Vedānta holds that the Veda's culminating teaching is the cognitive realization of Brahman, which is not a karma at all.",
         "Maṇḍana's attempt to retain the prescriptive function (via vidhi-niyukta-vākya readings of the mahāvākyas) imports the Mīmāṃsaka exegetical primacy into Vedānta.",
         "But once Brahman is the saving cognition's content and the cognition is svatas-siddhārtha, the prescriptive reading collapses: there is nothing for the prescription to enjoin that the cognition does not already accomplish.",
         "Hence Maṇḍana's intermediate position is unstable: the Mīmāṃsaka commitment and the Vedāntic commitment are not jointly satisfiable."
       ],
       "inference": "Maṇḍana's hybrid position is structurally unstable.",
-      "conclusion": "A consistent Advaita must abandon the Mīmāṃsaka prescriptive primacy at the saving moment; jñāna is not enjoined as a karma but realised as a cognition.",
+      "conclusion": "A consistent Advaita must abandon the Mīmāṃsaka prescriptive primacy at the saving moment; jñāna is not enjoined as a karma but realized as a cognition.",
       "premise_status": "primary-text-attested",
       "what_it_touches": {
         "positions_actually_attacked": [

@@ -230,7 +230,7 @@ The shortness is deliberate. Madhva has moved from a more elaborate diagnosis to
 - Nominal sentence.
 
 **Note:**
-The exact OCR of this line is imperfect; the normalization adopted here follows the internal logic of the sequence. Madhva's point is that once *anirvacanīya* itself is unestablished, the alleged analogue-class that should support the inference also disappears. The inferential mark then turns back against the claim it was meant to prove.
+The exact OCR of this line is imperfect; the normalization adopted here follows the internal logic of the sequence. Madhva's point is that once *anirvacanīya* itself is unestablished, the alleged analog-class that should support the inference also disappears. The inferential mark then turns back against the claim it was meant to prove.
 
 ---
 
@@ -790,6 +790,6 @@ This closing verse is the most textually uncertain point in the OCR witness; the
 
 ## Editorial closing
 
-This page settles one thing decisively: Madhva will not let the Advaitin move from appearance to unreality by formal momentum alone. The tract does not yet give the long metaphysical alternative; what it does is strip the adversary's proof of compulsion. That is why the ending matters. After the catalogue of defects comes a pocket logic-manual: *pakṣa*, *sapakṣa*, *vipakṣa*, *pratijñā*, *hetu*, *dṛṣṭānta*. The suggestion is unmistakable. The issue is not that inference as such is weak; the issue is that this inference is malformed.
+This page settles one thing decisively: Madhva will not let the Advaitin move from appearance to unreality by formal momentum alone. The tract does not yet give the long metaphysical alternative; what it does is strip the adversary's proof of compulsion. That is why the ending matters. After the catalog of defects comes a pocket logic-manual: *pakṣa*, *sapakṣa*, *vipakṣa*, *pratijñā*, *hetu*, *dṛṣṭānta*. The suggestion is unmistakable. The issue is not that inference as such is weak; the issue is that this inference is malformed.
 
 What remains open here is the larger constructive account of appearance, error, and dependence. Madhva addresses those elsewhere: the ontological side in the *Māyāvāda-Khaṇḍana* and *Tattvodyota*; the problem of adjunct-mediated identity in the *Upādhi-Khaṇḍana*; the broader architecture of dependence and difference in *Anuvyākhyāna* 1.1 and 1.4. Later Tattva-vāda scholasticism, especially Vyāsatīrtha's *Nyāyāmṛta* and *Tarka-tāṇḍava*, takes this page's compressed diagnostics and expands them into a full anti-Advaita inferential campaign. Madhusūdana's *Advaita-Siddhi* is, in one important respect, a reply to this very compression.

@@ -794,7 +794,7 @@ Nietzsche gives the critique: no perspective among perspectives becomes the view
 
 ### Where Nietzsche challenges
 
-**(g) Impersonalism.** GT §16's *Ur-Eine*, *Wille zur Macht* in §259, the eternal return, all non-personal. No Nietzschean analog to *caitya puruṣa* or Vaiṣṇava *jīva* theology. Response: the ego-as-grammatical-projection is correctly dissolved (GM I.13); what remains is the psychic being, not a fictional substantive subject but the centre of experiential coherence surviving ego-dissolution. Aurobindo's *ahaṃkāra* / *caitya puruṣa* distinction gives the technical resource.
+**(g) Impersonalism.** GT §16's *Ur-Eine*, *Wille zur Macht* in §259, the eternal return, all non-personal. No Nietzschean analog to *caitya puruṣa* or Vaiṣṇava *jīva* theology. Response: the ego-as-grammatical-projection is correctly dissolved (GM I.13); what remains is the psychic being, not a fictional substantive subject but the center of experiential coherence surviving ego-dissolution. Aurobindo's *ahaṃkāra* / *caitya puruṣa* distinction gives the technical resource.
 
 **(h) The master-philosopher / legislator-stance.** JGB §211; the *Übermensch*. Structurally opposed to the surrender-philosopher; T10 and T8 forbid the legislator-stance. Take the Deleuzean de-personalization of *Wille zur Macht* (drains imperatival content) and reject §211's rhetoric. The thesis takes a stand *against* Nietzsche here.
 
@@ -816,7 +816,7 @@ The mapping:
 | Dionysian (*Ur-Eine*, dissolution) | Comprehending — *partially* |
 | Tragedy as periodic reconciliation | Sustained simultaneity of all three poises |
 
-The asymmetry: GT's Dionysian is the *dissolution* of individuation into the *Ur-Eine*. The Aurobindonian comprehending poise is *not* dissolution but *non-destructive simultaneous holding* of individuation and the through-all. The Dionysian moment is *temporary* (one falls into the Ur-Eine, then returns); the comprehending poise is *sustained* (the supramental being lives continuously in the through-all without losing the individual centre).
+The asymmetry: GT's Dionysian is the *dissolution* of individuation into the *Ur-Eine*. The Aurobindonian comprehending poise is *not* dissolution but *non-destructive simultaneous holding* of individuation and the through-all. The Dionysian moment is *temporary* (one falls into the Ur-Eine, then returns); the comprehending poise is *sustained* (the supramental being lives continuously in the through-all without losing the individual center).
 
 GT's bilateral structure is what one would expect from a Schopenhauerian framework, where the *Ur-Eine* is the thing-in-itself behind the appearance. The Aurobindonian tripartite structure requires rejecting the appearance/ground dualism: one divine, three poises, all three equally divine and constitutive. The mature Nietzsche, having shed the Schopenhauerian dualism, moves toward a single dynamic differential force (with eternal return as cosmological structure), but does not articulate the tripartite structure. The Aurobindonian threefoldness has no precise analog in Nietzsche. The conceptual gap is real and must be filled by Aurobindo, not by Nietzsche.
 

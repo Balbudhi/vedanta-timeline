@@ -58,7 +58,7 @@ The source situation does not permit that here without fabrication. The only pri
 - *jayati*: laṭ / parasmaipada / active
 
 **Note:**
-The verse is architectonic. Deśika does not begin by stating a category-scheme; he begins by placing the whole enterprise under Rāmānuja as *ācārya*. The grammar enforces that placement. A single finite verb, *jayati*, governs four appositional nominatives, so that pedagogy, refuge, polemic, and Vedic exegesis appear not as separate achievements but as one triumphant presence. That opening orientation matters for the whole work. Chari's broader reconstruction of the *Tattva-Muktā-Kalāpa* confirms that Deśika's systematic metaphysics is never offered as free-standing ontology, but as Rāmānuja-line Viśiṣṭādvaita made scholastically explicit. The remaining opening verses would refine that programme, but the present source state does not justify pretending to have recovered them securely.
+The verse is architectonic. Deśika does not begin by stating a category-scheme; he begins by placing the whole enterprise under Rāmānuja as *ācārya*. The grammar enforces that placement. A single finite verb, *jayati*, governs four appositional nominatives, so that pedagogy, refuge, polemic, and Vedic exegesis appear not as separate achievements but as one triumphant presence. That opening orientation matters for the whole work. Chari's broader reconstruction of the *Tattva-Muktā-Kalāpa* confirms that Deśika's systematic metaphysics is never offered as free-standing ontology, but as Rāmānuja-line Viśiṣṭādvaita made scholastically explicit. The remaining opening verses would refine that program, but the present source state does not justify pretending to have recovered them securely.
 
 ---
 

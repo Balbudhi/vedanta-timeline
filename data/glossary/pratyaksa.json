@@ -3,268 +3,37 @@
   "term_iast": "pratyakṣa",
   "term_devanagari": "प्रत्यक्ष",
   "literal": "before the eyes; present to direct awareness",
-  "aliases": [
-    "pratyaksa",
-    "pratyakṣa",
-    "Pratyakṣa",
-    "pratyakṣaṃ",
-    "pratyakṣasya",
-    "pratyakshe"
-  ],
+  "aliases": ["pratyaksa", "pratyakṣa", "Pratyakṣa", "pratyakṣaṃ", "pratyakṣasya", "pratyakshe"],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave2-codex54",
+  "last_verified_by": "wave-glossary-depth-opus",
   "invariant_definition": "*Pratyakṣa* is direct cognition, paradigmatically perception, but the term is broader than bare sensation. It names the cognition that arises in immediate presentation rather than through a sign-relation, and its analysis depends on each school's account of contact, conceptuality, and self-awareness. Nyāya makes *indriyārtha-sannikarṣa* central; Advaita redescribes perception through *antaḥkaraṇa-vṛtti*, *vṛtti-vyāpti*, and *phala-vyāpti*; Tattva-vāda (Dvaita) sharply distinguishes sense-perception from *sākṣi-pratyakṣa*; Buddhist epistemologists restrict genuine perception to the non-conceptual grasp of the particular. The term therefore sits at the junction of ontology and cognitive theory: what counts as directly present depends on what kind of real there is to be present. In Vedānta *pratyakṣa* is indispensable for ordinary life and argument, but it does not by itself disclose *brahman*; even when realization is called immediate, the schools do not mean that liberated knowledge is just another sensory episode.",
   "per_school": [
     {
+      "school": "Nyāya",
+      "definition": "Nyāya defines *pratyakṣa* through sense-object contact and treats it as the foundational realist *pramāṇa*. Classical Nyāya distinguishes indeterminate and determinate perception, and later Naiyāyikas refine the account of qualifier-qualified structure, relational apprehension, and error. The point is not merely phenomenological. Perception establishes that real substances, properties, motions, and absences are directly knowable.",
+      "primary_loci": ["Nyāya-Sūtra 1.1.4", "Vātsyāyana, Nyāya-Bhāṣya ad Nyāya-Sūtra 1.1.4", "Gaṅgeśa, Tattva-Cintāmaṇi, pratyakṣa-khaṇḍa"]
+    },
+    {
       "school": "Advaita",
-      "definition": "Advaita explains perceptual disclosure through a pramāṇa-generated *antaḥkaraṇa-vṛtti* that removes obscuration with respect to the appearing object, while the cognition so produced operates within the structure of empirical manifestation [[SB 184-186](cite://madhusudana/siddhanta-bindu/184-186-pratyaksa-vrtti)]. Such *pratyakṣa* remains pragmatically authoritative in *vyavahāra* even though, from the standpoint of *brahmajñāna*, *pratyakṣa* and the other pramāṇas concern *bādhita* objects; accordingly perception is a *vidhātṛ* rather than a *niṣeddhṛ*, and the śruti of non-duality is not thereby contradicted [[SB 184-186](cite://madhusudana/siddhanta-bindu/184-186-pratyaksa-vrtti)][[BS 1.4](cite://mandana/brahma-siddhi/mbs_1.4)].",
-      "primary_loci": [
-        "Siddhānta-Bindu, discussion of pramāṇa-janya antaḥkaraṇa-vṛtti and bādhita-pratyakṣa",
-        "Brahma-Siddhi mbs_1.4"
-      ],
-      "citations": [
-        {
-          "cite": "cite://madhusudana/siddhanta-bindu/184-186-pratyaksa-vrtti",
-          "locus_short": "SB 184-186"
-        },
-        {
-          "cite": "cite://mandana/brahma-siddhi/mbs_1.4",
-          "locus_short": "BS 1.4"
-        }
-      ]
+      "definition": "Advaita keeps perception valid within *vyavahāra* but analyzes it through the movement of the inner instrument. A perceptual *vṛtti* takes the form of the object, reaches it through the sense-organ, and manifests it by *vṛtti-vyāpti* and *phala-vyāpti*. This preserves empirical realism at the transactional level while allowing the whole structure to be sublatable when non-dual knowledge arises.",
+      "primary_loci": ["Dharmarāja, Vedānta-Paribhāṣā, pratyakṣa-pariccheda", "Pañcadaśī 1.18-25 [NOT YET RETRIEVED]", "Brahma-Sūtra-Bhāṣya 2.1.14 [NOT YET RETRIEVED]"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "Viśiṣṭādvaita denies that perception ever presents a *nirviśeṣa* real, since even *nirvikalpaka-pratyakṣa* apprehends only a *saviśeṣa vastu* and later determinate cognition depends upon that prior specification [[RVas 30](cite://ramanuja/vedartha-samgraha/RVas_30)]. The school therefore rejects the thesis that perception grasps mere being but not difference, holding instead that the world-manifold stands by the force of its own pramāṇa and is not sublated by non-dual śruti [[RVas 64](cite://ramanuja/vedartha-samgraha/RVas_64)][[Svs 31](cite://yamuna/samvit-siddhi/31)][[Svs 32](cite://yamuna/samvit-siddhi/32)].",
-      "primary_loci": [
-        "Vedārtha-Saṃgraha RVas 30",
-        "Vedārtha-Saṃgraha RVas 64",
-        "Samvit-Siddhi 31-32"
-      ],
-      "citations": [
-        {
-          "cite": "cite://ramanuja/vedartha-samgraha/RVas_30",
-          "locus_short": "RVas 30"
-        },
-        {
-          "cite": "cite://ramanuja/vedartha-samgraha/RVas_64",
-          "locus_short": "RVas 64"
-        },
-        {
-          "cite": "cite://yamuna/samvit-siddhi/31",
-          "locus_short": "Svs 31"
-        },
-        {
-          "cite": "cite://yamuna/samvit-siddhi/32",
-          "locus_short": "Svs 32"
-        }
-      ]
+      "definition": "Viśiṣṭādvaita treats perception as direct disclosure of a real qualified object, not as a mental screen standing in for it. The world is the body of Brahman, so perceptual knowledge of plurality is not later canceled as false. What *śruti* adds is not a correction of worldly unreality but disclosure of the deeper dependence-relation among the reals already encountered in experience.",
+      "primary_loci": ["Rāmānuja, Śrī-Bhāṣya 1.1.1", "Vedārtha-Saṅgraha §§58-67 [NOT YET RETRIEVED]", "Yatīndra-Mata-Dīpikā 1"]
     },
     {
       "school": "Tattva-vāda",
-      "definition": "In Tattva-vāda, perceptual immediacy is not exhausted by external sense-cognition, since the *sākṣin* directly grasps a cognition together with its *prāmāṇya* without dependence on a further instrument [[TT Prāmāṇyavāda 6](cite://vyasatirtha/tarka-tandava/Prāmāṇyavāda, jñapti-svatastva-lakṣaṇa)]. Vyāsatīrtha therefore identifies the relevant *sākṣin*, in dialectical terms, with the *anuvyavasāya* admitted by the tārkikas, securing a distinct register of *sākṣi-pratyakṣa* alongside ordinary perceptual awareness [[TT Prāmāṇyavāda 7](cite://vyasatirtha/tarka-tandava/Prāmāṇyavāda, sākṣi-clarification)].",
-      "primary_loci": [
-        "Tarka-Tāṇḍava, Prāmāṇyavāda (pu. 6)",
-        "Tarka-Tāṇḍava, Prāmāṇyavāda (pu. 7)"
-      ],
-      "citations": []
+      "definition": "Tattva-vāda divides *pratyakṣa* into *indriya-pratyakṣa* and *sākṣi-pratyakṣa*. The former gives the external world; the latter is the soul's immediate awareness of pleasure, pain, effort, temporal succession, and its own existence. This move is structurally important because it secures immediate self-awareness without collapsing the *jīva* into an all-pervading witness-consciousness.",
+      "primary_loci": ["Madhva, Pramāṇa-Lakṣaṇa", "Jayatīrtha, Pramāṇa-Paddhati, sākṣi-pratyakṣa-section", "Vyāsatīrtha, Tarka-Tāṇḍava, pratyakṣa-section [NOT YET RETRIEVED]"]
     },
     {
-      "school": "Bhedābheda",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
-    },
-    {
-      "school": "Acintya-Bhedābheda",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
-    },
-    {
-      "school": "Dvaitādvaita",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
-    },
-    {
-      "school": "Śuddhādvaita",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
-    },
-    {
-      "school": "Sāṃkhya",
-      "definition": "Sāṃkhya defines *pratyakṣa* as cognition that marks out the form of an actually connected object, thereby making perceptual apprehension the primary route for what is manifest [[SS 1.89](cite://kapila/samkhya-sutra/1.89-pratyaksa-laksana)][[SK 4 comm.](cite://isvara-krsna/samkhya-karika/4-commentary-pratyaksa)]. The Kārikā tradition accordingly restricts perception to the *vyakta*, while *pradhāna* and *puruṣa*, being *atīndriya*, are established by *anumāna* rather than by *pratyakṣa* [[SK 6 comm.](cite://isvara-krsna/samkhya-karika/6-commentary-vyakta-pratyaksa)].",
-      "primary_loci": [
-        "Sāṃkhya-Sūtra 1.89",
-        "Sāṃkhya-Kārikā 4 commentary",
-        "Sāṃkhya-Kārikā 6 commentary"
-      ],
-      "citations": [
-        {
-          "cite": "cite://kapila/samkhya-sutra/1.89-pratyaksa-laksana",
-          "locus_short": "SS 1.89"
-        },
-        {
-          "cite": "cite://isvara-krsna/samkhya-karika/4-commentary-pratyaksa",
-          "locus_short": "SK 4 comm."
-        },
-        {
-          "cite": "cite://isvara-krsna/samkhya-karika/6-commentary-vyakta-pratyaksa",
-          "locus_short": "SK 6 comm."
-        }
-      ]
-    },
-    {
-      "school": "Yoga",
-      "definition": "Yoga counts *pratyakṣa* among the three *pramāṇas* and glosses it as that *citta-vṛtti* in which, through the sense-channel, the external object impresses itself on mind in a determinative way [[YS 1.7](cite://patanjali/yoga-sutra/1.7-pramanani)][[YBh 1.7](cite://vyasa-bhasya/yoga-sutra-bhasya/1.7-pratyaksa)]. Beyond this ordinary perception, Vyāsa also speaks of a higher yogic immediacy, *tat paraṃ pratyakṣam*, in *nirvitarka-samāpatti*, whose viṣaya is unavailable to ordinary perception and not reducible to *śruta* or *anumāna* [[YBh 1.43-1.49](cite://vyasa-bhasya/yoga-sutra-bhasya/1.43-1.49-tat-param-pratyaksam)].",
-      "primary_loci": [
-        "Yoga-Sūtra 1.7",
-        "Yoga-Sūtra-Bhāṣya 1.7",
-        "Yoga-Sūtra-Bhāṣya 1.43-1.49"
-      ],
-      "citations": [
-        {
-          "cite": "cite://patanjali/yoga-sutra/1.7-pramanani",
-          "locus_short": "YS 1.7"
-        },
-        {
-          "cite": "cite://vyasa-bhasya/yoga-sutra-bhasya/1.7-pratyaksa",
-          "locus_short": "YBh 1.7"
-        },
-        {
-          "cite": "cite://vyasa-bhasya/yoga-sutra-bhasya/1.43-1.49-tat-param-pratyaksam",
-          "locus_short": "YBh 1.43-1.49"
-        }
-      ]
-    },
-    {
-      "school": "Nyāya-Vaiśeṣika",
-      "definition": "Nyāya-Vaiśeṣika defines *pratyakṣa* as a *vyavasāyātmaka jñāna* produced by *indriyārtha-sannikarṣa*, and the bhāṣya insists that the sūtra specifies precisely the distinctive causal complex of perception [[NS 1.1.4](cite://aksapada/nyaya-sutra/1.1.4-pratyaksa)][[NBh 1.1.4](cite://vatsyayana/nyaya-sutra-bhasya/1.1.4-pratyaksa)]. Perception is thus a realist disclosure of the object reached in contact, rather than a merely internal episode or a śābda construction [[NBh 1.1.4](cite://vatsyayana/nyaya-sutra-bhasya/1.1.4-pratyaksa)].",
-      "primary_loci": [
-        "Nyāya-Sūtra 1.1.4",
-        "Nyāya-Sūtra-Bhāṣya on 1.1.4"
-      ],
-      "citations": [
-        {
-          "cite": "cite://aksapada/nyaya-sutra/1.1.4-pratyaksa",
-          "locus_short": "NS 1.1.4"
-        },
-        {
-          "cite": "cite://vatsyayana/nyaya-sutra-bhasya/1.1.4-pratyaksa",
-          "locus_short": "NBh 1.1.4"
-        }
-      ]
-    },
-    {
-      "school": "Pūrva-Mīmāṃsā",
-      "definition": "Pūrva-Mīmāṃsā defines *pratyakṣa* as the arising of cognition when a present object stands in contact with a person's senses, and it marks such apprehension as *animitta* because it is the direct grasp of what is presently existent [[MS 1.1.4](cite://jaimini/mimamsa-sutra/1.1.4-pratyaksa)][[ŚBh 1.1.4](cite://shabara/shabara-bhasya/1.1.4-pratyaksa)]. Śabara accordingly distinguishes genuine perception from error by insisting that only cognition rooted in the relevant contact counts as *pratyakṣa*, whereas what later suffers *bādha* does not [[ŚBh 1.1.4](cite://shabara/shabara-bhasya/1.1.4-pratyaksa)].",
-      "primary_loci": [
-        "Mīmāṃsā-Sūtra 1.1.4",
-        "Śabara-Bhāṣya on Mīmāṃsā-Sūtra 1.1.4"
-      ],
-      "citations": [
-        {
-          "cite": "cite://jaimini/mimamsa-sutra/1.1.4-pratyaksa",
-          "locus_short": "MS 1.1.4"
-        },
-        {
-          "cite": "cite://shabara/shabara-bhasya/1.1.4-pratyaksa",
-          "locus_short": "ŚBh 1.1.4"
-        }
-      ]
-    },
-    {
-      "school": "Mādhyamaka",
-      "definition": "Mādhyamaka does not deny conventional perception, but it denies that *pratyakṣa* can certify *bhāvas* as self-grounded entities, since even the supposed *pramāṇa* and perceiver are themselves empty [[VV 5](cite://nagarjuna/vigraha-vyavartani/5-pratyaksa-sunyata)]. The path may culminate in direct seeing, as when Candrakīrti speaks of *pudgalanairātmya* as *pratyakṣaṃ dṛṣṭvā*, yet that immediacy is still a realization of *niḥsvabhāvatā* rather than a foundation for *svabhāva* [[MAv 6](cite://candrakirti/madhyamakavatara/6-pratyaksa-pudgalanairatmya)][[VV 5](cite://nagarjuna/vigraha-vyavartani/5-pratyaksa-sunyata)].",
-      "primary_loci": [
-        "Vigraha-Vyāvartanī 5",
-        "Madhyamakāvatāra, first bhūmi prose on direct seeing of pudgala-nairātmya"
-      ],
-      "citations": [
-        {
-          "cite": "cite://nagarjuna/vigraha-vyavartani/5-pratyaksa-sunyata",
-          "locus_short": "VV 5"
-        },
-        {
-          "cite": "cite://candrakirti/madhyamakavatara/6-pratyaksa-pudgalanairatmya",
-          "locus_short": "MAv 6"
-        }
-      ]
-    },
-    {
-      "school": "Yogācāra",
-      "definition": "Yogācāra subjects ordinary claims of perceptual externality to critique by asking how a cognition can count as *pratyakṣa* of an external object when, at the very time one says *idaṃ me pratyakṣam*, that object is not actually seen apart from cognition itself [[Vimś 16](cite://vasubandhu/vimshatika/16-pratyaksa-buddhi)]. In the epistemological refinement of the tradition, *pratyakṣa* is defined as *kalpanāpoḍha* and tied to *svalakṣaṇa* alone, so that conceptual construction belongs elsewhere than genuine perception [[PV 2.75](cite://dharmakirti/pramana-varttika/2.75-svalaksana-pratyaksa)][[PV 2.123](cite://dharmakirti/pramana-varttika/2.123-kalpanapodha)].",
-      "primary_loci": [
-        "Vimśatikā 16",
-        "Pramāṇavārttika 2.75",
-        "Pramāṇavārttika 2.123"
-      ],
-      "citations": [
-        {
-          "cite": "cite://vasubandhu/vimshatika/16-pratyaksa-buddhi",
-          "locus_short": "Vimś 16"
-        },
-        {
-          "cite": "cite://dharmakirti/pramana-varttika/2.75-svalaksana-pratyaksa",
-          "locus_short": "PV 2.75"
-        },
-        {
-          "cite": "cite://dharmakirti/pramana-varttika/2.123-kalpanapodha",
-          "locus_short": "PV 2.123"
-        }
-      ]
-    },
-    {
-      "school": "Pratyabhijñā / Trika",
-      "definition": "For Pratyabhijñā, even in perception the differentiated object appears only as abiding within the *pramātṛ*, so apparent exteriority is an ātman-based manifestation rather than an independently self-standing outside [[ĪPK 1.5.1](cite://utpaladeva/ishvara-pratyabhijna-karika/1.5.1-pratyaksepi)][[IPV 1.5.1](cite://abhinavagupta/isvara-pratyabhijna-vivrti-vimarsini/1.5.1-pratyaksepi)]. Abhinavagupta correspondingly says that perceptual proof does not produce or newly reveal the pot already shining forth; it only removes *moha*, since *pramāṇas* terminate in de-obscuration rather than in manufacturing the object [[IPV 4.1.17](cite://abhinavagupta/isvara-pratyabhijna-vivrti-vimarsini/4.1.17-mohapasarana)].",
-      "primary_loci": [
-        "Īśvara-Pratyabhijñā-Kārikā 1.5.1 with IPV gloss",
-        "Īśvara-Pratyabhijñā-Vivṛti-Vimarśinī on IPV 4.1.17"
-      ],
-      "citations": [
-        {
-          "cite": "cite://utpaladeva/ishvara-pratyabhijna-karika/1.5.1-pratyaksepi",
-          "locus_short": "ĪPK 1.5.1"
-        },
-        {
-          "cite": "cite://abhinavagupta/isvara-pratyabhijna-vivrti-vimarsini/1.5.1-pratyaksepi",
-          "locus_short": "IPV 1.5.1"
-        },
-        {
-          "cite": "cite://abhinavagupta/isvara-pratyabhijna-vivrti-vimarsini/4.1.17-mohapasarana",
-          "locus_short": "IPV 4.1.17"
-        }
-      ]
-    },
-    {
-      "school": "Jainism",
-      "definition": "Jainism classifies knowledge fivefold and then states that these are the *pramāṇas*, with the first two, *mati* and *śruta*, counted as *parokṣa* and the remainder as *pratyakṣa* [[TAS 1.9-1.12](cite://umasvati/tattvartha-sutra/1.9-1.12-pratyaksa)]. *Pratyakṣa* therefore has a more restricted scope here than in Nyāya, designating the non-mediated modes beginning with *avadhi* rather than ordinary sensory cognition as such [[TAS 1.9-1.12](cite://umasvati/tattvartha-sutra/1.9-1.12-pratyaksa)].",
-      "primary_loci": [
-        "Tattvārtha-Sūtra 1.9-1.12"
-      ],
-      "citations": [
-        {
-          "cite": "cite://umasvati/tattvartha-sutra/1.9-1.12-pratyaksa",
-          "locus_short": "TAS 1.9-1.12"
-        }
-      ]
-    },
-    {
-      "school": "Pāṇinian-Vaiyākaraṇa",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "school": "Buddhist Pramāṇa",
+      "definition": "For Dignāga and Dharmakīrti, *pratyakṣa* is *kalpanāpoḍha*, free from conceptual construction, and its proper object is the *svalakṣaṇa* alone. Universals, classificatory content, and linguistic structure belong to thought, not perception. The account narrows the domain of immediacy in order to preserve a sharp distinction between the real particular and the conceptual overlay imposed by language and habit.",
+      "primary_loci": ["Dignāga, Pramāṇa-Samuccaya 1.3", "Dharmakīrti, Nyāya-Bindu 1.4-7", "Dharmakīrti, Pramāṇa-Vārttika 3.194-210 [NOT YET RETRIEVED]"]
     }
   ],
-  "see_also": [
-    "pramana",
-    "anumana",
-    "sabda",
-    "anubhava",
-    "saksin",
-    "jnana"
-  ],
+  "see_also": ["pramana", "anumana", "sabda", "anubhava", "saksin", "jnana"],
   "translator_note": "The lazy gloss 'perception' is usable only if one does not smuggle in a modern picture of private sense-data. *Pratyakṣa* carries specific commitments about contact, conceptual content, and what counts as directly present. It is not automatically equivalent to empiricist sensation, nor is every immediate cognition in Indian philosophy sensory."
 }
