@@ -50,6 +50,9 @@ const LANE_ORDER = [
   "mimamsa-comparator",
   "jaina-comparator",
   "carvaka-comparator",
+  "madhyamaka-comparator",
+  "yogacara-comparator",
+  "buddhist-pramana-comparator",
   "trika-comparator",
   "cross-tradition",
 ];
@@ -71,6 +74,9 @@ const LANE_DISPLAY = {
   "mimamsa-comparator": "Pūrva-Mīmāṃsā",
   "jaina-comparator": "Jaina",
   "carvaka-comparator": "Cārvāka",
+  "madhyamaka-comparator": "Mādhyamaka",
+  "yogacara-comparator": "Yogācāra",
+  "buddhist-pramana-comparator": "Buddhist Pramāṇa",
   "trika-comparator": "Pratyabhijñā / Trika",
   "cross-tradition": "Cross-tradition",
 };
@@ -99,7 +105,9 @@ const VEDANTA_LANES = new Set([
 const COMPARATOR_LANES = [
   "samkhya-comparator", "yoga-comparator", "nyaya-comparator",
   "navya-nyaya-comparator", "vaisesika-comparator", "mimamsa-comparator",
-  "jaina-comparator", "carvaka-comparator", "trika-comparator", "cross-tradition",
+  "jaina-comparator", "carvaka-comparator",
+  "madhyamaka-comparator", "yogacara-comparator", "buddhist-pramana-comparator",
+  "trika-comparator", "cross-tradition",
 ];
 const COMPARATOR_GROUP_KEY = "__comparator_group__";
 const COMPARATOR_GROUP_LABEL = "Other darśanas";
@@ -319,6 +327,8 @@ function colorFor(thinker, paletteIdx = 2) {
     "nyaya-comparator": "#ca8a04", "navya-nyaya-comparator": "#a16207",
     "vaisesika-comparator": "#6d28d9", "mimamsa-comparator": "#7c3aed",
     "jaina-comparator": "#65a30d", "carvaka-comparator": "#57534e",
+    "madhyamaka-comparator": "#7c2d12", "yogacara-comparator": "#155e75",
+    "buddhist-pramana-comparator": "#3f3f46",
   };
   return base[token] || "#6b7280";
 }
