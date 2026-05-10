@@ -1,0 +1,310 @@
+{
+  "bhamati-advaita": {
+    "display_name": "Bhāmatī-Advaita",
+    "parent_school_color_token": "advaita",
+    "shade": 2,
+    "short_description": "Advaita lineage descending from Maṇḍana through Vāchaspati holding the jīva as the locus of avidyā.",
+    "representative_thinker_ids": ["mandana", "vacaspati"]
+  },
+  "vivarana-advaita": {
+    "display_name": "Vivaraṇa-Advaita",
+    "parent_school_color_token": "advaita",
+    "shade": 4,
+    "short_description": "Advaita lineage descending from Padmapāda through Prakāśātman holding Brahman as both āśraya and viṣaya of avidyā.",
+    "representative_thinker_ids": ["padmapada", "prakasatman", "vidyaranya", "madhusudana"]
+  },
+  "suresvara-line": {
+    "display_name": "Sureśvara-line proto-Vivaraṇa",
+    "parent_school_color_token": "advaita",
+    "shade": 3,
+    "short_description": "The jñāna-only line from Sureśvara through Sarvajñātman that becomes the Brahman-as-locus-of-avidyā stream feeding Vivaraṇa.",
+    "representative_thinker_ids": ["sureshvara", "sarvajnatman"]
+  },
+  "proto-advaita": {
+    "display_name": "Proto-Advaita",
+    "parent_school_color_token": "advaita",
+    "shade": 1,
+    "short_description": "Pre-Śaṅkara identity-leaning currents (Gauḍapāda's ajāti-vāda; Sundara-Pāṇḍya's verses).",
+    "representative_thinker_ids": ["gaudapada", "sundara-pandya"]
+  },
+  "advaita-modern-revival": {
+    "display_name": "Modern Advaita revival",
+    "parent_school_color_token": "advaita",
+    "shade": 5,
+    "short_description": "Late-modern Advaita continuity through the Maṭha-pontifical tradition into the twentieth century.",
+    "representative_thinker_ids": ["brahmananda-saraswati"]
+  },
+  "advaita-school-defining": {
+    "display_name": "Advaita (school-defining)",
+    "parent_school_color_token": "advaita",
+    "shade": 3,
+    "short_description": "Śaṅkara's own bhāṣya-corpus, the school's definitional core before the Bhāmatī/Vivaraṇa fork.",
+    "representative_thinker_ids": ["sankara"]
+  },
+  "advaita-trans-school-synthesist": {
+    "display_name": "Trans-school Advaita synthesist",
+    "parent_school_color_token": "advaita",
+    "shade": 4,
+    "short_description": "Late-medieval Advaitins (Appayya) who synthesize across schools, especially with Śaiva-Advaita.",
+    "representative_thinker_ids": ["appayya"]
+  },
+  "advaita-vivarana-pedagogical": {
+    "display_name": "Vivaraṇa-pedagogical",
+    "parent_school_color_token": "advaita",
+    "shade": 4,
+    "short_description": "The pāṭhaśālā-curriculum stream (Dharmarāja's Vedānta-Paribhāṣā) crystallizing Advaita epistemology for teaching.",
+    "representative_thinker_ids": ["dharmaraja"]
+  },
+  "vadakalai": {
+    "display_name": "Vaḍakalai",
+    "parent_school_color_token": "vishishtadvaita",
+    "shade": 3,
+    "short_description": "Northern Śrīvaiṣṇava school stemming from Vedānta Deśika; emphasizes Sanskrit śāstra and a monkey-hold (markaṭa-nyāya) view of grace.",
+    "representative_thinker_ids": ["vedanta-desika"]
+  },
+  "tenkalai": {
+    "display_name": "Tenkalai",
+    "parent_school_color_token": "vishishtadvaita",
+    "shade": 4,
+    "short_description": "Southern Śrīvaiṣṇava school stemming from Pillai Lokācārya; emphasizes Tamil hymnody and a cat-hold (mārjāra-nyāya) view of grace and total surrender.",
+    "representative_thinker_ids": ["pillai-lokacarya", "manavala-mamunigal"]
+  },
+  "vishishtadvaita-pancaratra-grounded": {
+    "display_name": "Pāñcarātra-grounded Viśiṣṭādvaita",
+    "parent_school_color_token": "vishishtadvaita",
+    "shade": 1,
+    "short_description": "Earliest systematizing Śrīvaiṣṇava stratum (Nāthamuni) bridging Tamil Āḻvār hymnody and Sanskrit philosophy with Pāñcarātra ritual grounding.",
+    "representative_thinker_ids": ["nathamuni"]
+  },
+  "vishishtadvaita-proto-systematic": {
+    "display_name": "Proto-systematic Viśiṣṭādvaita",
+    "parent_school_color_token": "vishishtadvaita",
+    "shade": 2,
+    "short_description": "Yāmuna's pre-Rāmānuja systematization of Śrīvaiṣṇava Vedānta and defense of Pāñcarātra.",
+    "representative_thinker_ids": ["yamuna"]
+  },
+  "vishishtadvaita-school-defining": {
+    "display_name": "Viśiṣṭādvaita (school-defining)",
+    "parent_school_color_token": "vishishtadvaita",
+    "shade": 3,
+    "short_description": "Rāmānuja's own corpus that defines the school via the sapta-vidhā-anupapatti and śarīra-śarīri-bhāva.",
+    "representative_thinker_ids": ["ramanuja"]
+  },
+  "vishishtadvaita-scholastic": {
+    "display_name": "Viśiṣṭādvaita scholastic",
+    "parent_school_color_token": "vishishtadvaita",
+    "shade": 3,
+    "short_description": "Sub-commentarial scholasticism (Sudarśana Sūri's Śruta-Prakāśikā) that makes Rāmānuja's compressed dialectic readable.",
+    "representative_thinker_ids": ["sudarsana"]
+  },
+  "tattvavada": {
+    "display_name": "Tattvavāda",
+    "parent_school_color_token": "dvaita",
+    "shade": 3,
+    "short_description": "Madhva's own school-defining position: pañca-bheda and svatantra/paratantra as the structure of reality.",
+    "representative_thinker_ids": ["madhva"]
+  },
+  "dvaita-scholastic": {
+    "display_name": "Dvaita scholastic",
+    "parent_school_color_token": "dvaita",
+    "shade": 2,
+    "short_description": "The Jayatīrtha sub-commentary tradition that systematizes Madhva's prose.",
+    "representative_thinker_ids": ["jayatirtha"]
+  },
+  "navya-dvaita": {
+    "display_name": "Navya-Dvaita",
+    "parent_school_color_token": "dvaita",
+    "shade": 4,
+    "short_description": "The dialectical Dvaita of Vyāsatīrtha and Vijayīndra engaging Navya-Nyāya and Advaita at the highest formal level.",
+    "representative_thinker_ids": ["vyasatirtha", "vijayindra"]
+  },
+  "dvaita-scholastic-devotional": {
+    "display_name": "Dvaita scholastic-devotional",
+    "parent_school_color_token": "dvaita",
+    "shade": 5,
+    "short_description": "Rāghavendra's combination of high scholasticism with the living Mantrālaya devotional tradition.",
+    "representative_thinker_ids": ["raghavendra"]
+  },
+  "aupadhika-bhedabheda": {
+    "display_name": "Aupādhika-Bhedābheda",
+    "parent_school_color_token": "bhedabheda",
+    "shade": 3,
+    "short_description": "Bhāskara's adventitious-condition Bhedābheda: Brahman appears differentiated owing to upādhis, not by intrinsic nature.",
+    "representative_thinker_ids": ["bhaskara"]
+  },
+  "svabhavika-bhedabheda": {
+    "display_name": "Svābhāvika-Bhedābheda (Dvaitādvaita)",
+    "parent_school_color_token": "bhedabheda",
+    "shade": 4,
+    "short_description": "Nimbārka's natural-difference-and-non-difference: Brahman is intrinsically (not adventitiously) both same-as and distinct-from souls and world.",
+    "representative_thinker_ids": ["nimbarka", "srinivasa", "kesava-kasmiri"]
+  },
+  "proto-bhedabheda": {
+    "display_name": "Proto-Bhedābheda",
+    "parent_school_color_token": "bhedabheda",
+    "shade": 1,
+    "short_description": "Pre-Śaṅkara bhedābheda current attested only through citations (Bhartṛprapañca, Āśmarathya).",
+    "representative_thinker_ids": ["bhartrprapanca", "asmarathya"]
+  },
+  "bhedabheda-transitional": {
+    "display_name": "Bhedābheda transitional to Viśiṣṭādvaita",
+    "parent_school_color_token": "bhedabheda",
+    "shade": 2,
+    "short_description": "Yādava-Prakāśa's bhedābheda variant out of which Rāmānuja's Viśiṣṭādvaita emerged by polemical break.",
+    "representative_thinker_ids": ["yadava-prakasa"]
+  },
+  "bhedabheda-dvaitadvaita-scholastic": {
+    "display_name": "Dvaitādvaita scholastic",
+    "parent_school_color_token": "bhedabheda",
+    "shade": 4,
+    "short_description": "Śrīnivāsa's standard sub-commentary on Nimbārka, the Vedānta-Kaustubha, that fixes how the school is read in tradition.",
+    "representative_thinker_ids": ["srinivasa"]
+  },
+  "gaudiya-school-founding": {
+    "display_name": "Gauḍīya (school-founding)",
+    "parent_school_color_token": "acintya",
+    "shade": 3,
+    "short_description": "Caitanya's school-founding presence, propagated more by example and disciples than by his own treatise-writing.",
+    "representative_thinker_ids": ["caitanya"]
+  },
+  "gaudiya-rasa-theology": {
+    "display_name": "Gauḍīya rasa-theology",
+    "parent_school_color_token": "acintya",
+    "shade": 2,
+    "short_description": "Rūpa Gosvāmī's systematic application of rasa-theory to bhakti, codifying Gauḍīya devotional aesthetics.",
+    "representative_thinker_ids": ["rupa-gosvami"]
+  },
+  "gaudiya": {
+    "display_name": "Gauḍīya",
+    "parent_school_color_token": "acintya",
+    "shade": 3,
+    "short_description": "The Gauḍīya stream (Sanātana, Viśvanātha) consolidating practice, hermeneutics, and devotional manuals.",
+    "representative_thinker_ids": ["sanatana-gosvami", "visvanatha"]
+  },
+  "gaudiya-systematic-philosophy": {
+    "display_name": "Gauḍīya systematic philosophy",
+    "parent_school_color_token": "acintya",
+    "shade": 4,
+    "short_description": "Jīva Gosvāmī's Ṣaṭ-Sandarbha gives the Gauḍīya school its systematic philosophical exposition.",
+    "representative_thinker_ids": ["jiva-gosvami"]
+  },
+  "gaudiya-formal-vedantic": {
+    "display_name": "Gauḍīya formal-Vedāntic",
+    "parent_school_color_token": "acintya",
+    "shade": 5,
+    "short_description": "Baladeva Vidyābhūṣaṇa's Govinda-Bhāṣya formally seats the Caitanya tradition among the bhāṣyakāras.",
+    "representative_thinker_ids": ["baladeva"]
+  },
+  "gaudiya-modern": {
+    "display_name": "Gauḍīya modern",
+    "parent_school_color_token": "acintya",
+    "shade": 5,
+    "short_description": "Bhaktivinoda Ṭhākura's late-colonial Vedāntic reformulation of the Gauḍīya tradition.",
+    "representative_thinker_ids": ["bhaktivinoda"]
+  },
+  "shuddhadvaita-school-defining": {
+    "display_name": "Śuddhādvaita (school-defining)",
+    "parent_school_color_token": "shuddha",
+    "shade": 3,
+    "short_description": "Vallabha's pure non-dualism without māyā, defending Brahman-world identity through avikṛta-pariṇāma.",
+    "representative_thinker_ids": ["vallabha"]
+  },
+  "pushti-marga": {
+    "display_name": "Puṣṭi-Mārga",
+    "parent_school_color_token": "shuddha",
+    "shade": 4,
+    "short_description": "The path of grace: Vallabha's living tradition consolidated by Viṭṭhalanātha as a sectarian devotional community.",
+    "representative_thinker_ids": ["vitthalanatha"]
+  },
+  "pushti-marga-scholastic": {
+    "display_name": "Puṣṭimārga scholastic",
+    "parent_school_color_token": "shuddha",
+    "shade": 5,
+    "short_description": "Puruṣottama's standard scholastic apparatus on Vallabha's Aṇu-Bhāṣya, the form Puṣṭimārga is studied in today.",
+    "representative_thinker_ids": ["purusottama"]
+  },
+  "avibhaga-advaita": {
+    "display_name": "Avibhāga-Advaita",
+    "parent_school_color_token": "avibhaga",
+    "shade": 3,
+    "short_description": "Vijñānabhikṣu's harmonizing Vedānta + Sāṃkhya + Yoga thesis: Brahman and world are inseparable (avibhāga) yet not numerically identical.",
+    "representative_thinker_ids": ["vijnanabhiksu"]
+  },
+  "proto-vedanta-sutra-author": {
+    "display_name": "Sūtra-author",
+    "parent_school_color_token": "proto",
+    "shade": 3,
+    "short_description": "Bādarāyaṇa, the (multi-layered) author of the Brahma-Sūtra, the spine that every later school must commentate.",
+    "representative_thinker_ids": ["badarayana"]
+  },
+  "proto-vedanta-citation-only": {
+    "display_name": "Citation-only proto-Vedāntins",
+    "parent_school_color_token": "proto",
+    "shade": 2,
+    "short_description": "Pre-Bādarāyaṇa voices known only by name within the Brahma-Sūtra (Auḍulomi, Āśmarathya, Kāśakṛtsna).",
+    "representative_thinker_ids": ["audulomi", "asmarathya", "kasakrtsna"]
+  },
+  "proto-vedanta-claimed-by-vishishtadvaita": {
+    "display_name": "Claimed by Viśiṣṭādvaita",
+    "parent_school_color_token": "proto",
+    "shade": 2,
+    "short_description": "Lost-corpus figure (Bodhāyana the Vṛttikāra) whose authority the Śrīvaiṣṇava school claims as restored by Rāmānuja.",
+    "representative_thinker_ids": ["bodhayana"]
+  },
+  "proto-vedanta-claimed-by-both": {
+    "display_name": "Claimed by both Advaita and Viśiṣṭādvaita",
+    "parent_school_color_token": "proto",
+    "shade": 2,
+    "short_description": "Upavarṣa, cited respectfully by both Śaṅkara and Rāmānuja, contested between the schools.",
+    "representative_thinker_ids": ["upavarsa"]
+  },
+  "proto-vedanta-bhavana-jnana-hybrid": {
+    "display_name": "Bhāvanā/jñāna hybrid",
+    "parent_school_color_token": "proto",
+    "shade": 2,
+    "short_description": "Brahmadatta, a pre-Śaṅkara teacher of knowledge-as-bhāvanā cited by Sureśvara and Vāchaspati.",
+    "representative_thinker_ids": ["brahmadatta"]
+  },
+  "proto-advaita-asmarathya-leaning": {
+    "display_name": "Proto-bhedābheda-leaning",
+    "parent_school_color_token": "proto",
+    "shade": 2,
+    "short_description": "Āśmarathya's apparent proto-bhedābheda position cited approvingly by Bādarāyaṇa.",
+    "representative_thinker_ids": ["asmarathya"]
+  },
+  "proto-advaita-kasakrtsna-leaning": {
+    "display_name": "Proto-Advaita-leaning",
+    "parent_school_color_token": "proto",
+    "shade": 2,
+    "short_description": "Kāśakṛtsna's apparent proto-identity-thesis cited at Brahma-Sūtra 1.4.22.",
+    "representative_thinker_ids": ["kasakrtsna"]
+  },
+  "trika-recognition-school-founding": {
+    "display_name": "Pratyabhijñā founding text",
+    "parent_school_color_token": "trika-comparator",
+    "shade": 2,
+    "short_description": "Utpaladeva's Īśvara-Pratyabhijñā-Kārikā: liberation as recognition of the always-already-Śiva nature of awareness.",
+    "representative_thinker_ids": ["utpaladeva"]
+  },
+  "trika-school-consummating": {
+    "display_name": "Trika school-consummating",
+    "parent_school_color_token": "trika-comparator",
+    "shade": 4,
+    "short_description": "Abhinavagupta's towering synthesis of Trika tantra, recognition philosophy, and rasa-theology.",
+    "representative_thinker_ids": ["abhinavagupta"]
+  },
+  "trika-school-summarizing": {
+    "display_name": "Trika school-summarizing",
+    "parent_school_color_token": "trika-comparator",
+    "shade": 3,
+    "short_description": "Kṣemarāja's compact, accessible summary (Pratyabhijñā-Hṛdayam) of Pratyabhijñā doctrine.",
+    "representative_thinker_ids": ["ksemaraja"]
+  },
+  "shabda-advaita": {
+    "display_name": "Śabda-Advaita",
+    "parent_school_color_token": "cross-tradition",
+    "shade": 3,
+    "short_description": "Bhartṛhari's grammarian thesis that Brahman is essentially śabda; influences Maṇḍana but is not Vedāntic proper.",
+    "representative_thinker_ids": ["bhartrhari"]
+  }
+}

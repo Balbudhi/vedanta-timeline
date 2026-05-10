@@ -1,0 +1,90 @@
+{
+  "id": "yamuna",
+  "name": "Yamunacharya",
+  "name_iast": "Yāmunācārya",
+  "alternate_names": ["Āḷavandār"],
+  "dates_low": 916,
+  "dates_high": 1041,
+  "dates_tier": "oral-tradition-only",
+  "dates_notes": "Sectarian chronicle dating only; long lifespan in tradition is suspect.",
+  "school": "Viśiṣṭādvaita",
+  "school_color_token": "vishishtadvaita",
+  "sub_school": "Proto-systematic Viśiṣṭādvaita",
+  "sub_school_shade": 2,
+  "lineage_in": ["nathamuni"],
+  "lineage_out": ["ramanuja"],
+  "lineage_polemical": [],
+  "core_thesis": "Yāmuna is the first Śrīvaiṣṇava to give Viśiṣṭādvaita the form of an argued philosophical system rather than a liturgical-exegetical synthesis. His position is that Brahman — Nārāyaṇa-with-Śrī — is a *qualified* unity whose body (*śarīra*) consists of all conscious selves (*cit*) and all non-conscious matter (*acit*), each really distinct yet inseparable (*apṛthak-siddha*) from him as their inner controller (*antaryāmin*). Against the early *māyāvāda* he argues that the *jīva* is a substantial, atomic, eternally self-aware *jñātṛ*; against Buddhist *vijñāna-vāda* and against an undifferentiated-*cit* monism he defends *dharmi-bhūta-jñāna* — awareness as a self-revelatory substance bearing real attributes — and *yathārtha-khyāti*, the veridicality of all cognition (error being only partial apprehension, never the cognising of a non-existent). His specific innovations: a rigorous *Saṃvit-Siddhi* epistemology of self-luminous awareness; a Pāñcarātra-defence (*Āgama-Prāmāṇya*) integrating non-Vedic Vaiṣṇava revelation with *śruti-prāmāṇya*; and the elevation of *prapatti* — surrender to Śrī-Nārāyaṇa — to a recognised *upāya* alongside *bhakti-yoga*.",
+  "engaged_works": [
+    {
+      "work_id": "siddhi-trayam",
+      "title": "Siddhi-Trayam",
+      "title_iast": "Siddhi-Trayam",
+      "alternate_titles": ["Ātma-Siddhi", "Īśvara-Siddhi", "Saṃvit-Siddhi"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored triad of Siddhi-treatises (Ātma-, Īśvara-, Saṃvit-Siddhi).",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "A triad of *prakaraṇa*-treatises — *Ātma-Siddhi*, *Īśvara-Siddhi*, *Saṃvit-Siddhi* — establishing in turn the reality of the individual self, of a personal *Īśvara*, and of self-luminous awareness. The *Ātma-Siddhi* defends the *jīva* as an atomic, eternal, knowing substance (*jñātṛ*), refuting Buddhist no-self doctrines and the Advaitic identification of *ātman* with undifferentiated *cit*: the self is essentially knower, not knowing-as-such. The *Īśvara-Siddhi* mounts a theistic *anumāna* for a personal omniscient creator, taking the Naiyāyika design-argument and rebuilding it on Vedic foundations against Mīmāṃsaka objections. The *Saṃvit-Siddhi*, the foundational Viśiṣṭādvaita epistemology, defends *dharmi-bhūta-jñāna* — awareness as itself a substance bearing attributes, self-revelatory (*svayam-prakāśa*) yet directed always to a content — against Buddhist *vijñāna-vāda* and against proto-Advaita opponents who would collapse the knower-known distinction into pure unqualified consciousness. The triad is the philosophical bedrock on which Rāmānuja's *Śrī-Bhāṣya* stands.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "agama-pramanya",
+      "title": "Agama-Pramanya",
+      "title_iast": "Āgama-Prāmāṇya",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored defense of Pāñcarātra agama-validity.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "Polemical *prakaraṇa* defending the scriptural authority (*prāmāṇya*) of the Pāñcarātra *saṃhitā*-corpus against Mīmāṃsaka and Smārta objections that, being non-Vedic and authored by Bhagavān himself, the Pāñcarātra cannot count as *śruti* and its initiates fall outside the four *varṇa*-orders. Yāmuna's strategy is multi-pronged: (i) the Pāñcarātra is the direct utterance of Nārāyaṇa, who is the *vedasya kartā*, and so its authority is no weaker than that of the Veda; (ii) its prescriptions do not contradict *śruti* but specify what *śruti* leaves undetermined regarding Vaiṣṇava liturgy; (iii) Pāñcarātra-initiates (*bhāgavata*-s) are not a fifth *varṇa* but qualified *brāhmaṇa*-s under a particular *kalpa*. The work matters historically because it secured the legitimacy of the Śrīvaiṣṇava temple-cultus and theology as orthodox Vaidika, and philosophically because it formalises a layered theory of *prāmāṇya* that Rāmānuja and Vedānta Deśika later extend.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "stotra-ratna",
+      "title": "Stotra-Ratna",
+      "title_iast": "Stotra-Ratna",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored devotional hymn.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "stotra",
+      "language": "sanskrit",
+      "summary": "Sixty-five-verse Sanskrit hymn to Nārāyaṇa, the literary template for the entire Śrīvaiṣṇava *stotra*-tradition. Beneath its devotional surface the *Stotra-Ratna* enacts the doctrinal architecture of the *Siddhi-Trayam*: it addresses Nārāyaṇa as Brahman *saviśeṣa* (qualified by infinite auspicious attributes — *ananta-kalyāṇa-guṇa*), as the inner-controller (*antaryāmin*) whose body is the totality of *cit* and *acit*, and as the sole refuge to whom *prapatti* (utter self-surrender) is the natural response of the *ākiñcana* (one stripped of all other resource). Verses such as 22 (*na dharma-niṣṭho 'smi*) and 47–53 give the canonical Śrīvaiṣṇava articulation of *śaraṇāgati* — the surrendering self as agent only of recognising its own incapacity. The work matters because it shows that Yāmuna's philosophical *prakaraṇa-s* and his liturgical hymnody express one and the same position: *bhakti* is not subordinate to *jñāna* but is *jñāna* in its mature, relational form, terminating in surrender to the divine person.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "catuh-shloki",
+      "title": "Catuh-Shloki",
+      "title_iast": "Catuḥ-Ślokī",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored four-verse hymn to Śrī.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "stotra",
+      "language": "sanskrit",
+      "summary": "Four-verse Sanskrit hymn to Śrī (Lakṣmī), foundational for Śrīvaiṣṇava *Śrī-tattva* — the doctrine of the goddess as eternal, inseparable consort and co-mediatrix (*puruṣakāra*) of Nārāyaṇa. The four verses establish in compressed form: (i) Śrī's eternity and ontological non-difference yet personal distinction from Nārāyaṇa; (ii) her status as the universal mother (*jaganmātṛ*) whose mercy (*kṛpā*) is the operative principle of grace; (iii) her role as *puruṣakāra* — the one who solicits the Lord's compassion on behalf of the surrendered *jīva*; (iv) the surrendering self's place at her feet as the proper attitude of *prapatti*. The text is doctrinally load-bearing because the later Vaḍakalai-Tenkalai split is partly a quarrel over how to read it — whether Śrī is herself an *upāya* (Tenkalai) or only the mediating advocate enabling Nārāyaṇa's grace (Vaḍakalai). Both schools acknowledge the *Catuḥ-Ślokī* as canonical; their divergence is exegetical, not textual.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1c-opus"
+}

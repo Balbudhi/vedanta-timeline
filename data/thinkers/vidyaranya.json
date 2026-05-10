@@ -1,0 +1,97 @@
+{
+  "id": "vidyaranya",
+  "name": "Vidyaranya",
+  "name_iast": "Vidyāraṇya",
+  "alternate_names": ["Mādhava", "Mādhavācārya"],
+  "dates_low": 1296,
+  "dates_high": 1386,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Vijayanagara court records; dual identity as Mādhavācārya (administrator) and Vidyāraṇya (sannyāsin) attested.",
+  "dates_evidence": [
+    {
+      "kind": "court-record",
+      "description": "Vijayanagara royal records attest his administrative role and sannyāsa-name."
+    },
+    {
+      "kind": "manuscript-colophon",
+      "description": "Manuscript colophons of the Pañcadaśī, Sarva-Darśana-Saṃgraha, and other works confirm dual identity."
+    }
+  ],
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Vivaraṇa-Advaita",
+  "sub_school_shade": 4,
+  "lineage_in": ["prakasatman", "vimuktatman"],
+  "lineage_out": ["madhusudana", "appayya"],
+  "lineage_polemical": [],
+  "core_thesis": "Vidyāraṇya stands at the institutional and philosophical apex of fourteenth-century Advaita: as Mādhavācārya he served the early Vijayanagara court and (with his brother Sāyaṇa) presided over a comprehensive scholastic project; as Vidyāraṇya he became Śaṅkarācārya of Sṛṅgeri. Doctrinally he is firmly within the Vivaraṇa line: *Brahman* is the locus of *bhāva-rūpā-anirvacanīya-avidyā*, and the *jīva* is *cidābhāsa*. His distinctive synthetic contribution is the integration of two complementary technical analyses of the *jīva* — *pratibimba-vāda* (Sarvajñātman, Prakāśātman: the *jīva* as reflection of *Brahman*) and *avaccheda-vāda* (the *jīva* as *Brahman* delimited by *antaḥkaraṇa*) — treating them as genuine *prakriyā*-level alternatives within a single *Vivaraṇa* framework, and the systematic exposition of *jīvanmukti* as not a metaphor but an exact technical state in which *avidyā* is removed though the *prārabdha-karma* body persists. He combines high *advaita-siddhānta* with the practice-oriented *yogic* idiom of the *Yoga-Vāsiṣṭha*, giving the *Pañcadaśī* its enduring pedagogical role.",
+  "engaged_works": [
+    {
+      "work_id": "panchadashi",
+      "title": "Panchadashi",
+      "title_iast": "Pañcadaśī",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Independent didactic *prakaraṇa* in fifteen chapters, divided into three pentads (*pañcakas*) — *viveka-pañcaka* (analysis: *tattva-, mahāvākya-, pañcakośa-, dvaita-, mahāvākyārtha-viveka*), *dīpa-pañcaka* (illumination: *citra-, tṛpti-, kūṭastha-, dhyāna-, nāṭaka-dīpa*), and *ānanda-pañcaka* (bliss). Vidyāraṇya works through the *avasthā-traya* and *pañca-kośa-viveka* of the Upaniṣads, the analysis of the Mahāvākya, the integration of *avaccheda-vāda* and *pratibimba-vāda* analyses of the *jīva*, the cosmological and psychological role of *māyā* and *avidyā*, the metaphysics of *jīvanmukti*, and the experiential character of *brahmānanda*. Its accessibility — clear *anuṣṭubh* with worked illustrations from theatre, painting, and dream — has made it the principal pedagogical *prakaraṇa* of post-Śaṅkara Advaita; it is read as a primer alongside Śaṅkara's *Upadeśa-Sāhasrī* in modern *Vedānta* curricula and is foundational to the Advaita Vedānta articulated to general audiences from the eighteenth century onward.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "jivanmukti-viveka",
+      "title": "Jivanmukti-Viveka",
+      "title_iast": "Jīvanmukti-Viveka",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Independent *prakaraṇa* in five chapters dedicated to the systematic exposition of *jīvanmukti* — liberation in this very life. Vidyāraṇya treats *jīvanmukti* not as a metaphor but as a precise technical state: *avidyā* has been removed by *brahma-jñāna*, but *prārabdha-karma* sustains the body until its exhaustion; *vāsanā-kṣaya* and *manonāśa* (drawn programmatically from the *Yoga-Vāsiṣṭha*) are required for the cessation of residual mental activity. He distinguishes *vidvat-sannyāsa* (renunciation following the rise of knowledge) from *vividiṣā-sannyāsa* (renunciation as a means to its rise), defends the legitimacy and necessity of *jīvanmukti* against opponents who would defer liberation to *videhamukti*, integrates Yoga, *Yoga-Vāsiṣṭha*, and Pātañjala technical vocabulary into the Advaita framework, and treats *jīvanmukti* as the proximate goal of spiritual practice. The work is the principal Advaita reference for the topic and is the source for much of the modern Advaita understanding of the relation between knowledge, action, and continuing embodiment.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "vivarana-prameya-samgraha",
+      "title": "Vivarana-Prameya-Samgraha",
+      "title_iast": "Vivaraṇa-Prameya-Saṃgraha",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored compendium of Prakāśātman's Vivaraṇa.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "Topical compendium (*saṃgraha*) of the principal *prameyas* (substantive doctrines) of Prakāśātman's *Pañcapādikā-Vivaraṇa*, organised not as a running commentary but as a systematic *prameya*-by-*prameya* presentation. Vidyāraṇya extracts and re-presents the Vivaraṇa positions on *Brahman* as locus of *avidyā*, the *bhāva-rūpā-anirvacanīya-avidyā* doctrine, the *bimba-pratibimba* analysis of the *jīva*, the rejection of *jñāna-karma-samuccaya*, and the function of the Mahāvākya. The work matters as the canonical hand-list of *Vivaraṇa* tenets in compact form: it makes Prakāśātman's massive *Vivaraṇa* navigable for later students and is one of the standard references through which the Vivaraṇa positions enter post-fourteenth-century Advaita pedagogy and the *Advaita-Siddhi*-era polemics.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "sarva-darshana-samgraha",
+      "title": "Sarva-Darshana-Samgraha",
+      "title_iast": "Sarva-Darśana-Saṃgraha",
+      "alternate_titles": [],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed to Mādhava (= Vidyāraṇya); modern scholarship accepts the ascription though some debate the exact compositional role.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Doxographical *saṃgraha* presenting sixteen *darśanas* in ascending order of (claimed) approximation to truth, beginning with the Cārvāka and culminating in Śaṅkara's Advaita. Each chapter expounds a school in its own technical idiom — Bauddha, Jaina, Rāmānujīya, Pūrṇaprajña (Madhva), Nakulīśa-Pāśupata, Śaiva, Pratyabhijñā, Raseśvara, Aulūkya (Vaiśeṣika), Akṣapāda (Nyāya), Jaimini, Pāṇinīya, Sāṃkhya, Pātañjala, and finally Śāṅkara — and is universally cited as one of the principal Sanskrit sources for opposed-school positions. The work matters institutionally as the single most influential pre-modern Indian doxography and methodologically as a paradigm of *pūrvapakṣa*-fidelity: schools are presented in their own voice with their canonical citations before being relativised to the Advaita climax. Some modern scholars debate the exact compositional role of Mādhava versus collaborators, but the work is firmly within the Vidyāraṇya–Sāyaṇa Vijayanagara scholarly project.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1b-opus"
+}

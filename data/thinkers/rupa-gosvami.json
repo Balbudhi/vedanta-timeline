@@ -1,0 +1,84 @@
+{
+  "id": "rupa-gosvami",
+  "name": "Rupa Gosvami",
+  "name_iast": "Rūpa Gosvāmī",
+  "alternate_names": [],
+  "dates_low": 1489,
+  "dates_high": 1564,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Mughal court records (former finance minister); dates well-established.",
+  "dates_evidence": [
+    {
+      "kind": "court-record",
+      "description": "Mughal-period court records of his pre-conversion administrative role."
+    },
+    {
+      "kind": "manuscript-colophon",
+      "description": "Manuscript colophons across the Bhakti-Rasāmṛta-Sindhu and other works."
+    }
+  ],
+  "school": "Acintya-Bhedābheda",
+  "school_color_token": "acintya",
+  "sub_school": "Gauḍīya rasa-theology",
+  "sub_school_shade": 2,
+  "lineage_in": ["caitanya"],
+  "lineage_out": ["jiva-gosvami"],
+  "lineage_polemical": [],
+  "core_thesis": "Rūpa Gosvāmī's contribution to *acintya-bhedābheda* is to convert Caitanya's experiential teaching into a systematic *bhakti-rasa* theology that is at once Sanskrit aesthetics and metaphysics. He defines *bhakti* as *uttamā* — *anyābhilāṣitā-śūnyaṃ jñāna-karmādy-anāvṛtam* — devotion uncontaminated by any other desire and unobstructed by the alternative *puruṣārthas* of *karma* and *jñāna*. He extends classical *rasa*-theory by adding *bhakti-rasa* as the fifth and operative *puruṣārtha*, *prema* (divine love), with five primary *rasas* (*śānta*, *dāsya*, *sakhya*, *vātsalya*, *mādhurya*) graded by intimacy with Kṛṣṇa. The *jīva* is eternally a *taṭastha-śakti* of Bhagavān: distinct, non-different, and constitutively constituted for relational *prema*. *Sādhana-bhakti* (vaidhī and rāgānugā) leads to *bhāva* and finally *prema*; the goal is participation in Kṛṣṇa-līlā in one's *siddha-deha*, never absorption. Rūpa's framework is the doctrinal interface through which Caitanya's *acintya-bhedābheda* enters Sanskrit philosophical and aesthetic discourse.",
+  "engaged_works": [
+    {
+      "work_id": "bhakti-rasamrta-sindhu",
+      "title": "Bhakti-Rasamrta-Sindhu",
+      "title_iast": "Bhakti-Rasāmṛta-Sindhu",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored systematic Gauḍīya rasa-theology.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The *Bhakti-Rasāmṛta-Sindhu* is the Gauḍīya school's foundational systematic *bhakti-rasa* treatise, organised in four *vibhāgas* — *pūrva* (general nature of *bhakti*), *dakṣiṇa* (*sādhana-bhakti*, vaidhī and rāgānugā), *paścima* (*bhāva-bhakti*), and *uttara* (*prema-bhakti*) and the analysis of the five primary *rasas*. Rūpa transposes the classical Sanskrit *rasa-sūtra* of Bharata, Abhinavagupta, and Mammaṭa into a theological register: *vibhāva*, *anubhāva*, *sāttvika-bhāva*, and *vyabhicāri-bhāva* generate the *sthāyi-bhāva* of devotion in the qualified *bhakta*, who thereby relishes (*āsvāda*) Bhagavān as *rasa*. The work simultaneously serves as devotional manual, technical treatise, and metaphysical exposition: the *jīva*'s status as Bhagavān's eternal *aṃśa* is the precondition for *bhakti-rasa* being a real, eternal participation rather than a mood. The text becomes the principal Gauḍīya reference in all subsequent *rasa*-theological work and the structural basis for both Jīva's *Prīti-Sandarbha* and Viśvanātha Cakravartī's manuals.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "ujjvala-nilamani",
+      "title": "Ujjvala-Nilamani",
+      "title_iast": "Ujjvala-Nīlamaṇi",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored extension of Bhakti-Rasāmṛta-Sindhu on madhura-rasa.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The *Ujjvala-Nīlamaṇi* extends the *Bhakti-Rasāmṛta-Sindhu*'s *uttara-vibhāga* into a dedicated treatise on *madhura-rasa* — the supreme erotic-devotional mode in which Kṛṣṇa is related to as *priyatama* and the paradigmatic *bhaktas* are the *gopīs* of Vraja, with Rādhā as their crown. Rūpa supplies a granular technical taxonomy: classification of *nāyikā*-types and *nāyaka*-types adapted from classical poetics, the ten stages of *prema* (from *prema* through *mahābhāva*), the conditions and *anubhāvas* of *vipralambha* (love-in-separation) and *sambhoga* (union), and the structural place of *adhirūḍha-mahābhāva* in Rādhā alone. The work's metaphysical load is significant: it treats *mādhurya-rasa* not as one option among several but as the most complete actualisation of *acintya-bhedābheda*, in which the *jīva*'s real distinctness and real non-difference from Bhagavān are simultaneously most acute. It is the canonical Gauḍīya reference for Rādhā-Kṛṣṇa rasa-theology.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "laghu-bhagavatamrta",
+      "title": "Laghu-Bhagavatamrta",
+      "title_iast": "Laghu-Bhāgavatāmṛta",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored compendium of Bhāgavata-doctrine.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The *Laghu-Bhāgavatāmṛta* is Rūpa's compact but doctrinally dense compendium of *bhāgavata-tattva*, organised into two parts: *Kṛṣṇa-amṛta* (the nature of Bhagavān, his *avatāras*, and the doctrine of Kṛṣṇa as *svayaṃ-bhagavān*) and *Bhakta-amṛta* (the typology of devotees and the structure of *bhakti*). The work constructs the canonical Gauḍīya hierarchy of divine manifestation — *svayaṃ-rūpa*, *tad-ekātma-rūpa*, and *āveśa-rūpa* — and defends, by anchored *Bhāgavata* citation, the school-defining thesis that Kṛṣṇa is not an *avatāra* of Viṣṇu but *svayaṃ-bhagavān*, the source of all other manifestations including Viṣṇu. It supplies the typology of *bhakti*-stages and devotee-classes that Jīva will then expand in the *Bhagavat*-, *Kṛṣṇa*-, and *Bhakti-Sandarbhas*. Concise enough to be memorised and exegetically dense enough to license sub-commentary, the *Laghu-Bhāgavatāmṛta* functions as the school's portable doctrinal map of Bhagavān and his *bhaktas*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1e-opus"
+}

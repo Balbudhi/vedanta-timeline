@@ -1,0 +1,91 @@
+{
+  "id": "vijayindra",
+  "name": "Vijayindra Tirtha",
+  "name_iast": "Vijayīndra Tīrtha",
+  "alternate_names": [],
+  "dates_low": 1514,
+  "dates_high": 1595,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Pontifical and royal records.",
+  "dates_evidence": [
+    {
+      "kind": "sectarian-chronicle",
+      "description": "Mādhva pontifical succession records."
+    },
+    {
+      "kind": "court-record",
+      "description": "Royal-court records of the late Vijayanagara period."
+    }
+  ],
+  "school": "Dvaita",
+  "school_color_token": "dvaita",
+  "sub_school": "Navya-Dvaita",
+  "sub_school_shade": 4,
+  "lineage_in": ["vyasatirtha"],
+  "lineage_out": ["raghavendra"],
+  "lineage_polemical": [],
+  "core_thesis": "Vijayīndra Tīrtha is the principal late-Vijayanagara consolidator of Vyāsatīrtha's *Navya-Dvaita*, remembered for an extraordinarily prolific polemical corpus traditionally numbering more than a hundred works (the round figure of 104 is canonical). His doctrinal commitments are uniformly Mādhva — *svatantra-paratantra* taratamya, *pañca-bheda*, *viśeṣa*, *bimba-pratibimba*, the rejection of *mithyātva* under all five canonical *lakṣaṇas* — but his contribution is the systematic *digvijaya*-style extension of the school's polemic across all the rival darśanas it had not yet fully engaged: Viśiṣṭādvaita (most prominently the lengthy *Madhva-Tantra-Mukha-Mardana*, replying to Appayya Dīkṣita's *Madhva-Tantra-Mukha-Bhañjana*), Śrīkaṇṭha-Śaivism, Nimbārka, Vallabha-line *śuddhādvaita*, the various *Dharmaśāstra* and *Mīmāṃsā* opponents who challenged Mādhva ritual interpretation, and the Navya-Naiyāyikas successive to Gaṅgeśa. Methodologically he extends Vyāsatīrtha's *Navya-Nyāya* technique into ever-finer-grained *vyāpti*-analysis, especially in disputed inferences over *bheda*, *sākṣi-pramāṇic* status, and the *jīva*-classification *taratamya*. He is the bridge from Vyāsatīrtha to Rāghavendra — many of Rāghavendra's *Pariṃala*-passages presuppose Vijayīndra's prior dialectical work.",
+  "engaged_works": [
+    {
+      "work_id": "nyayadhva-dipika",
+      "title": "Nyayadhva-Dipika",
+      "title_iast": "Nyāyādhva-Dīpikā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored polemical treatise.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "The *Nyāyādhva-Dīpikā* (\"Lamp on the Path of Reasoning\") is one of Vijayīndra's central methodological *prakaraṇa*s — an exposition of the Mādhva doctrine of *pramāṇa* and *prameya* in *Navya-Dvaita* form, set as a *dīpikā* on the *nyāya* (here *yukti*-*paddhati*) by which the school proceeds. The work fixes the school's analysis of *anubhava*-*sākṣi* as a self-luminous *pramāṇa*, the conditions under which *anumāna* is and is not subject to *bādha*, and the *vyāpti*-conditions specific to inferences in which the *sādhya* is itself a relational property (e.g. *bheda*, *taratamya*, *bimbatva*). Vijayīndra here also defends, against Appayya-line and Vivaraṇa critics, the legitimacy of the Mādhva use of disputed *Pañcarātra* and *khila*-citations in *śabda-pramāṇa*, by arguing that *āpta-vākya* status is a function of the speaker's epistemic standing and not of the conventional acceptance of the textual corpus. The *Nyāyādhva-Dīpikā* is the natural complement to his polemical works: where they deploy the Mādhva method against opponents, this text articulates the method itself.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "madhva-tantra-mukha-mardana",
+      "title": "Madhva-Tantra-Mukha-Mardana",
+      "title_iast": "Madhva-Tantra-Mukha-Mardana",
+      "alternate_titles": [],
+      "composition_dates_low": 1560,
+      "composition_dates_high": 1595,
+      "composition_dates_notes": "Composed in direct response to Appayya Dīkṣita's Madhva-Tantra-Mukha-Bhañjana, locating the work in the late Vijayīndra period.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored polemic; the canonical Mādhva reply to Appayya Dīkṣita.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."},
+        {"kind": "manuscript-tradition", "description": "Stable manuscript transmission within the Mādhva maṭha system."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "Vijayīndra's lengthy and systematic reply to Appayya Dīkṣita's *Madhva-Tantra-Mukha-Bhañjana* (\"Smashing the Face of Madhva-Doctrine\") — Appayya having mounted, from a Śivādvaita-inflected Advaita position, a sustained attack on Madhva's authenticity as a Vedāntin and on his use of disputed scriptural citations. The *Madhva-Tantra-Mukha-Mardana* (\"Crushing the Face that Smashes Madhva-Doctrine\") proceeds objection by objection: (i) defending the *prāmāṇya* of the disputed *Pañcarātra*, *khila*, and *Bhāratīya*-affiliated citations on which Madhva's positive theology of Viṣṇu-as-supreme rests, by arguing that *āpta-vākya* status is fixed by the speaker's epistemic standing not by conventional textual canon; (ii) rebutting Appayya's specific *adhikaraṇa*-readings of the *Brahma-Sūtra* in which Śiva is identified as *param-Brahman*; (iii) refuting the Śivādvaita strategy by which Appayya seeks to absorb apparent Vaiṣṇava *śruti* under a higher Śaiva-monist key. The text is the principal late-medieval Mādhva engagement with Śivādvaita and the work in which Vijayīndra most clearly extends the school's polemic beyond its earlier Advaita and Viśiṣṭādvaita targets.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "nyayamrta-vyakhya",
+      "title": "Nyayamrta-Vyakhya",
+      "title_iast": "Nyāyāmṛta-Vyākhyā",
+      "alternate_titles": ["Nyāyāmṛta-Pariṃala"],
+      "composition_dates_low": 1540,
+      "composition_dates_high": 1590,
+      "composition_dates_notes": "Composed across Vijayīndra's mature period in dialogue with the developing Madhusūdana-line response to the Nyāyāmṛta.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored commentary on Vyāsatīrtha's Nyāyāmṛta.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "Commentary on Vyāsatīrtha's *Nyāyāmṛta* — the *Navya-Dvaita* magnum opus that gave the school's anti-Advaita polemic its definitive *Navya-Nyāya* form. Vijayīndra's *Vyākhyā* both clarifies and extends the *Nyāyāmṛta*'s arguments, working *parichcheda* by *parichcheda* through Vyāsatīrtha's refutation of the Advaitic doctrines of *mithyātva*, *bheda-niṣedha*, *avidyā*, *anirvacanīya-khyāti*, and *jīvanmukti*. Where Madhusūdana's *Advaita-Siddhi* had begun to appear as the formal Advaitic counter, Vijayīndra anticipates and rebuts the new objections in the *Vyākhyā*, maintaining the *Nyāyāmṛta*'s position with refined *vyāpti*-analysis and tighter *Navya-Nyāya* formulations. The text is the principal bridge between Vyāsatīrtha and Rāghavendra's later *Tarka-Tāṇḍava-Pariṃala* on the Naiyāyika side and *Nyāya-Sudhā-Pariṃala* on the *Anuvyākhyāna* side: many of Rāghavendra's settled positions presuppose Vijayīndra's prior dialectical work in this *Vyākhyā*. Together with the *Madhva-Tantra-Mukha-Mardana* it constitutes the spine of Vijayīndra's polemical output on the school's two most active fronts (Advaita and Śivādvaita) in the late sixteenth century.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1-cleanup-opus"
+}

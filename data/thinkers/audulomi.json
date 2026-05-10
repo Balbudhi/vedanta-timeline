@@ -1,0 +1,39 @@
+{
+  "id": "audulomi",
+  "name": "Audulomi",
+  "name_iast": "Auḍulomi",
+  "alternate_names": [],
+  "dates_low": -400,
+  "dates_high": -100,
+  "dates_tier": "oral-tradition-only",
+  "dates_notes": "Pre-Bādarāyaṇa; cited by name in the Brahma-Sūtra itself (e.g., 1.4.21, 4.4.6); no work survives.",
+  "school": "proto-Vedānta",
+  "school_color_token": "proto",
+  "sub_school": "Citation-only proto-Vedāntins",
+  "sub_school_shade": 2,
+  "lineage_in": [],
+  "lineage_out": ["badarayana"],
+  "lineage_polemical": [],
+  "core_thesis": "As reconstructed from later citations: Auḍulomi survives only as a name and a position invoked by Bādarāyaṇa at Brahma-Sūtra 1.4.21 and 4.4.6, with Śaṅkara's bhāṣya supplying the standard gloss. The doctrine attributed to him concerns the *jīva-Brahman* relation specifically at the moment of *mokṣa*: the liberated self becomes manifest only as pure consciousness (*caitanya-mātra*), so that the relation of *jīva* and Brahman is one of absolute non-difference (*abheda*) at liberation, whatever distinctions obtained in the embodied state. Bādarāyaṇa appears to endorse this as the upaniṣadic truth concerning the liberated state at 4.4.6 (*caitanyena ātmanā iti auḍulomiḥ*). Nothing else of the historical Auḍulomi is recoverable; the figure functions in the tradition as the name attached to a *mokṣa*-state non-difference thesis later absorbed into Advaita and partially echoed in *bhedābheda* readings of the embodied/liberated distinction.",
+  "engaged_works": [
+    {
+      "work_id": "bs-citation-fragments",
+      "title": "Positions reconstructed from Brahma-Sūtra citations",
+      "title_iast": "Brahma-Sūtra citation fragments",
+      "alternate_titles": [],
+      "ascription_tier": "disputed",
+      "ascription_notes": "No work survives; positions are reconstructed solely from Brahma-Sūtra references (1.4.21; 4.4.6).",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Two sūtra-loci preserve Auḍulomi's view. Brahma-Sūtra 1.4.21 cites him on the nature of the *jīva* in relation to Brahman (against Āśmarathya's mediated *bhedābheda* and alongside Kāśakṛtsna's identity-thesis). Brahma-Sūtra 4.4.6 (*caitanyena ātmanā iti auḍulomiḥ*) preserves the most-cited fragment: the liberated self stands forth purely *as* consciousness, the *upādhi*-bound distinctions of embodied life having dropped away. Śaṅkara's bhāṣya treats this as a statement about the liberated state's intrinsic nature, harmonizable with the larger non-difference thesis. Later Advaitins read Auḍulomi as a witness to the *mokṣa*-state identity reading; Viśiṣṭādvaita reads the same locus as compatible with a relational *abheda* preserving qualified distinctions. The historical position behind the citation cannot be recovered beyond this *mokṣa*-state non-difference claim.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1f-opus"
+}

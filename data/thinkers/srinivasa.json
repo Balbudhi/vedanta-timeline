@@ -1,0 +1,42 @@
+{
+  "id": "srinivasa",
+  "name": "Shrinivasa",
+  "name_iast": "Śrīnivāsa",
+  "alternate_names": [],
+  "dates_low": 1250,
+  "dates_high": 1350,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Post-Nimbārka by guru-paramparā; dated by manuscript chronology.",
+  "school": "Bhedābheda",
+  "school_color_token": "bhedabheda",
+  "sub_school": "Svābhāvika-Bhedābheda (Dvaitādvaita)",
+  "sub_school_shade": 4,
+  "lineage_in": ["nimbarka"],
+  "lineage_out": ["kesava-kasmiri"],
+  "lineage_polemical": [],
+  "core_thesis": "Śrīnivāsa preserves Nimbārka's *svābhāvika-bhedābheda* without doctrinal innovation, his role being principally architectural: to make the school's terse founding bhāṣya philosophically navigable. He affirms the simultaneous intrinsicality of *bheda* and *abheda*; the threefold reality of *cit*, *acit*, and *Īśvara* (Kṛṣṇa with Rādhā); the *jīva* as eternally an *aṃśa*; and *bhakti–prapatti* as the operative soteriology. Where his work is decisive is in supplying the *pūrvapakṣa–uttarapakṣa* structure absent from Nimbārka's compressed *sūtra*-glosses: he stages and answers Advaitic and Bhāskarīya objections that the *Pārijāta-Saurabha* leaves implicit, thereby making *svābhāvika-bhedābheda* defensible as a developed Vedāntic position rather than a doctrinal slogan. The Sanaka-sampradāya treats his reading as canonical, and post-Śrīnivāsa Nimbārka commentators (Keśava-Kāśmīrī, the *Kaustubha-Prabhā* tradition) build on his exegetical scaffolding rather than returning directly to Nimbārka's own text.",
+  "engaged_works": [
+    {
+      "work_id": "vedanta-kaustubha",
+      "title": "Vedanta-Kaustubha",
+      "title_iast": "Vedānta-Kaustubha",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored sub-commentary on Nimbārka's Pārijāta-Saurabha.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "The *Vedānta-Kaustubha* is Śrīnivāsa's *vyākhyā* on Nimbārka's *Vedānta-Pārijāta-Saurabha* and the canonical sub-commentary of the Sanaka-sampradāya. Where Nimbārka's bhāṣya is famously terse, the *Kaustubha* opens out the doctrinal *prameyas*: it explicates the *svābhāvika* — intrinsic, unconditioned — character of both *bheda* and *abheda* between Brahman, *cit*, and *acit*; it stages the *pūrvapakṣa* against *māyā-vāda* and *aupādhika-bhedābheda* and supplies the *uttarapakṣa* the founding bhāṣya only gestures at; and it elaborates the *aṃśa-aṃśin* relation by which *jīvas* are eternally portion-and-whole of Brahman without merger or severance. The work also clarifies the school's Vaiṣṇava theological commitments — Kṛṣṇa with Rādhā as *parabrahman*, *prapatti* and *bhakti* as the means of liberation — and supplies the structural template that Keśava-Kāśmīrī's *Kaustubha-Prabhā* will subsequently sub-comment in turn. It is, in effect, the operative doctrinal text of the Nimbārka-line tradition.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1e-opus"
+}

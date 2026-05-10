@@ -1,0 +1,96 @@
+{
+  "id": "pillai-lokacarya",
+  "name": "Pillai Lokacharya",
+  "name_iast": "Pillai Lokācārya",
+  "alternate_names": [],
+  "dates_low": 1264,
+  "dates_high": 1369,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Roughly contemporary with Vedānta Deśika; sectarian dating.",
+  "school": "Viśiṣṭādvaita",
+  "school_color_token": "vishishtadvaita",
+  "sub_school": "Tenkalai",
+  "sub_school_shade": 4,
+  "lineage_in": ["ramanuja"],
+  "lineage_out": ["manavala-mamunigal"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "vedanta-desika",
+      "direction": "mutual",
+      "note": "The Vaḍakalai-Tenkalai split formally crystallizes around Pillai-Lokācārya's cat-hold (mārjāra-nyāya) account vs. Vedānta Deśika's monkey-hold (markaṭa-nyāya)."
+    }
+  ],
+  "core_thesis": "Pillai Lokācārya is the school-defining figure of Tenkalai Śrīvaiṣṇavism, articulating in Tamil-Maṇipravāḷa what Vedānta Deśika contemporaneously articulates in Sanskrit Vaḍakalai. He preserves the canonical Viśiṣṭādvaita architecture — Brahman as Nārāyaṇa-with-Śrī, qualified by *cit* and *acit* in *apṛthak-siddha* relation as his body — but pushes the soteriology in a distinct direction. *Prapatti* (*śaraṇāgati*) is not one *upāya* among others requiring qualifications and conditions; it is the *only* operative *upāya*, and its essence is utter, conditionless surrender of the *ākiñcana* — the self stripped of all resource — to the Lord's spontaneous *kṛpā*. The six *aṅga*-s of the *Śaraṇāgati-Gadya* are descriptions of what surrender is, not conditions the agent must enact. Bhagavān's grace is the sole effective cause of liberation; the *jīva*'s contribution is to recognise its own incapacity (*kārpaṇya*). The image is the *mārjāra-nyāya* — the kitten that the mother cat carries by the scruff. Śrī herself functions as *upāya* in concert with Nārāyaṇa, not merely as *puruṣakāra*. The lived norm is the *prabandham*-grounded community of the *bhāgavata*-s, where *bhāgavata-śeṣatva* — service to the devotee — exceeds even direct service to the Lord.",
+  "engaged_works": [
+    {
+      "work_id": "shri-vacana-bhushana",
+      "title": "Shri-Vacana-Bhushana",
+      "title_iast": "Śrī-Vacana-Bhūṣaṇa",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Tenkalai school-defining rahasya-text.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "rahasya",
+      "language": "tamil-manipravala",
+      "summary": "Tamil-Maṇipravāḷa rahasya in 463 *cūrṇikā*-s — the school-defining text of Tenkalai Śrīvaiṣṇavism. The *Śrī-Vacana-Bhūṣaṇa* synthesises the Āḻvārs' Tamil *prabandham* with the doctrinal positions of Nāmmāḻvār, Nāthamuni, Yāmuna, and Rāmānuja into a single articulation of *prapatti*-soteriology. Its load-bearing claims: (i) *prapatti* is the only *upāya*; *bhakti-yoga* is unnecessary and even, for the *ākiñcana*, an obstacle; (ii) the operative cause of *mokṣa* is Bhagavān's spontaneous *kṛpā*, not any quality or action of the surrendered self; (iii) Śrī is *upāya* alongside Nārāyaṇa, not merely *puruṣakāra*; (iv) *bhāgavata-śeṣatva* — being for the sake of the devotee — is the highest ontological status, exceeding direct service to the Lord; (v) sin (*pāpa*) committed *after* surrender is not removed by penance but is itself an occasion for the Lord's forgiving love. The work matters as the canonical Tenkalai counterweight to Vedānta Deśika's *Rahasya-Traya-Sāra* — articulating in lived Maṇipravāḷa idiom a soteriology in which agency belongs entirely to grace and the surrendered self's only act is recognition of incapacity.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "mumukshuppadi",
+      "title": "Mumukshuppadi",
+      "title_iast": "Mumukṣuppadi",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored exposition of the three rahasyas (tirumantra, dvaya, caramaśloka).",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "rahasya",
+      "language": "tamil-manipravala",
+      "summary": "Tamil-Maṇipravāḷa rahasya in 278 *cūrṇikā*-s expounding the three Śrīvaiṣṇava esoteric *mantra*-s — the *tirumantra* (*aum namo nārāyaṇāya* / *aṣṭākṣara*), the *dvaya-mantra* (the surrender-formula in two clauses), and the *carama-śloka* (*Bhagavad-Gītā* 18.66). The exposition is structured to make the soteriological logic of *prapatti* unfold from the inner grammar of each *mantra*: the *tirumantra* discloses the surrendering self's *śeṣatva* (being-for-Bhagavān); the *dvaya-mantra* enacts surrender to the joint refuge of Nārāyaṇa and Śrī; the *carama-śloka* gives the divine assurance of liberation through that surrender alone. Pillai-Lokācārya's reading insists that *prapatti* is constitutively conditionless and that its supposed *aṅga*-s are descriptions of the surrendered state, not pre-conditions to be enacted. The work matters because it is the most widely recited Tenkalai rahasya, used in daily catechetical instruction; Maṇavāḷa Māmunigaḷ's commentary on it became the school's canonical theological textbook. It is the locus where the Tenkalai *mārjāra-nyāya* theology of grace receives its most sustained mantric grounding.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "tattva-trayam",
+      "title": "Tattva-Trayam",
+      "title_iast": "Tattva-Trayam",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored exposition of the three categories (cit, acit, Īśvara).",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "rahasya",
+      "language": "tamil-manipravala",
+      "summary": "Tamil-Maṇipravāḷa rahasya systematically expounding the three ontological categories of Viśiṣṭādvaita — *cit* (conscious selves), *acit* (non-conscious matter, including *prakṛti*, *kāla*, *śuddha-sattva*), and *Īśvara* (Nārāyaṇa-with-Śrī) — and the relations among them. Where Vedānta Deśika treats the same material in technical Sanskrit (*Tattva-Muktā-Kalāpa*, *Nyāya-Siddhāñjana*), Pillai-Lokācārya gives the doctrine in the Maṇipravāḷa idiom of the temple-community: *cit* is the eternal *jīva* whose essence is *jñātṛtva* and whose ontological status is *śeṣa* (subordinate-belonging) to Bhagavān; *acit* in its three modes constitutes the field of *jīva*-experience and the body of Bhagavān; *Īśvara* is the unique independent reality whose body is the totality of *cit* and *acit* and whose own essence is *ananta-kalyāṇa-guṇa* — infinite auspicious attributes — together with Śrī. The work matters as the Tenkalai school's catechetical ontology, paired with the *Mumukṣuppadi* on rahasya-meaning and the *Śrī-Vacana-Bhūṣaṇa* on soteriology to form the doctrinal triad on which Maṇavāḷa Māmunigaḷ later commented.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "artha-pancaka",
+      "title": "Artha-Panchaka",
+      "title_iast": "Artha-Pañcaka",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored exposition of the five-fold meaning.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "rahasya",
+      "language": "tamil-manipravala",
+      "summary": "Short Tamil-Maṇipravāḷa rahasya organising the entire Śrīvaiṣṇava soteriological program under five headings — the *artha-pañcaka*: (i) *para-svarūpa*, the nature of the supreme (Nārāyaṇa-with-Śrī as Brahman *saviśeṣa*); (ii) *sva-svarūpa*, the nature of the *jīva* (eternal, atomic, *śeṣa* to Bhagavān); (iii) *upāya-svarūpa*, the nature of the means (*prapatti* alone, on the Tenkalai reading); (iv) *puruṣārtha-svarūpa*, the nature of the goal (eternal *kaiṅkarya* in the *parama-pada*); (v) *virodhi-svarūpa*, the nature of the obstacles (the *jīva*'s misidentifications and false attachments). The five-fold scheme functions as the basic catechetical map by which a Tenkalai *bhāgavata* is instructed in the school's complete teaching. The work matters because it is the most compact and pedagogically central of the *aṣṭādaśa-rahasya* — the eighteen secret tracts attributed to Pillai-Lokācārya — and because the *artha-pañcaka* scheme structures the curriculum of Tenkalai catechesis to the present.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1c-opus"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "badarayana",
+  "name": "Badarayana",
+  "name_iast": "Bādarāyaṇa",
+  "alternate_names": ["Vyāsa", "Veda-Vyāsa"],
+  "dates_low": -200,
+  "dates_high": 200,
+  "dates_tier": "contested",
+  "dates_notes": "Date range spans four centuries; identity with Vyāsa is traditional, not academic; only the Brahma-Sūtra survives, and even its layers may be multi-author.",
+  "school": "proto-Vedānta",
+  "school_color_token": "proto",
+  "sub_school": "Sūtra-author",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": ["sankara", "ramanuja", "madhva", "bhaskara", "nimbarka", "vallabha", "baladeva"],
+  "lineage_polemical": [],
+  "core_thesis": "Bādarāyaṇa systematizes Upaniṣadic teaching into a four-*adhyāya* aphoristic argument whose declared aim (1.1.1: *athāto brahma-jijñāsā*) is *brahma-jijñāsā* — inquiry into *brahman* as the one *jagat-kāraṇa* (cause of the world; 1.1.2: *janmādy asya yataḥ*). The text proceeds by *samanvaya* (harmonization of śruti texts on *brahman*), *avirodha* (rebuttal of rival cosmologies — Sāṅkhya *pradhāna*, Vaiśeṣika atomism, Buddhist momentariness), *sādhana* (means: meditative *upāsanā*, Vedic karma's relation to knowledge), and *phala* (the discipline's fruit: *mokṣa*, the post-mortem trajectory of the *jīva*). On the *jīva*–*brahman* relation Bādarāyaṇa cites earlier ācāryas (Auḍulomi, Āśmarathya, Kāśakṛtsna) without fully resolving their dispute — a deliberate underdetermination that licenses the later school-formation (Advaita, Viśiṣṭādvaita, Dvaita, Bhedābheda) each of which reads the same sūtras through its own *bhāṣya* lens. The work is the foundational *prasthāna* of all later Vedānta.",
+  "engaged_works": [
+    {
+      "work_id": "brahma-sutra",
+      "title": "Brahma-Sūtra",
+      "title_iast": "Brahma-Sūtra",
+      "alternate_titles": ["Vedānta-Sūtra", "Śārīraka-Sūtra"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored as a compiled text; the work is multi-layered and likely incorporates earlier sūtra-material.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus accepts the Brahma-Sūtra as a unified compiled text traditionally ascribed to Bādarāyaṇa, with internal-style evidence of multi-layered sūtra-material."}
+      ],
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "summary": "555 *sūtras* in four *adhyāyas* (each with four *pādas*): *samanvaya* (1; harmonization of śruti as teaching *brahman*), *avirodha* (2; defense against rival schools — Sāṅkhya, Vaiśeṣika, Buddhist, Jaina, Pāśupata, Pāñcarātra), *sādhana* (3; *upāsanā*, the *jīva* in transmigration, the relation of *karma* to *vidyā*), *phala* (4; the path of the liberated knower — *devayāna*, *kramamukti*, the nature of the *mukta-puruṣa*). Internal citations to ācāryas Auḍulomi, Āśmarathya, Kāśakṛtsna, Bādari, Jaimini, and Kārṣṇājini show the work as the consolidation of an earlier oral *sūtra* tradition. Its compressed style is unintelligible without commentary; this very feature makes it the disputed common ground of every Vedāntic school. Securely a compiled work; the question of single vs. multi-author redaction is open. Modern critical edition: Thibaut (SBE), Deussen, and the Ānandāśrama editions of the major *bhāṣyas*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1a-opus"
+}

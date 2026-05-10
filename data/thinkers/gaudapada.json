@@ -1,0 +1,45 @@
+{
+  "id": "gaudapada",
+  "name": "Gaudapada",
+  "name_iast": "Gauḍapāda",
+  "alternate_names": [],
+  "dates_low": 500,
+  "dates_high": 600,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Traditionally Śaṅkara's parama-guru (teacher's teacher); academic dating from internal Buddhist-philosophical references.",
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Proto-Advaita",
+  "sub_school_shade": 1,
+  "lineage_in": [],
+  "lineage_out": ["sankara"],
+  "lineage_polemical": [],
+  "core_thesis": "Gauḍapāda articulates *ajāti-vāda* — the doctrine of non-origination — within an exegesis of the Māṇḍūkya-Upaniṣad's four-fold ātman: *vaiśvānara* (waking), *taijasa* (dream), *prājña* (deep sleep), and *turīya* (the fourth, the non-dual ground identical with *Oṃ*'s *amātra* silent fourth). The *jāgrat* and *svapna* states are epistemically symmetrical: both are mind-projected and equally unreal as *paramārtha*. *Turīya* alone is *advaita*, free of cause and effect, *ajaḥ* (unborn). Reasoning by *vaitathya* (the unreality argument) and the *alāta-cakra* (firebrand-circle) analogy, Gauḍapāda concludes that nothing whatever has ever genuinely originated (Kārikā 4.71: *na kaścij jāyate jīvaḥ*…). The doctrine is presented as Vedāntic — anchored in the *Mandūkya* and the broader Upaniṣadic corpus — while making free use of Mahāyāna analytic vocabulary (*catuṣkoṭi*, the dialectic of origination) without endorsing the Mādhyamika *śūnya-vāda*: the unborn ground is *ātman/brahman*, positively asserted, not an apophatic emptiness. Liberation is recognition (*pratibodha*) of one's identity with the unborn fourth, not a process of becoming.",
+  "engaged_works": [
+    {
+      "work_id": "mandukya-karika",
+      "title": "Mandukya-Karika",
+      "title_iast": "Māṇḍūkya-Kārikā",
+      "alternate_titles": ["Āgama-Śāstra", "Gauḍapāda-Kārikā"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored as a unified work, though authorship of the four prakaraṇas individually has been disputed; modern consensus accepts Gauḍapādan authorship of all four.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus on Gauḍapādan authorship of the unified four-prakaraṇa text."
+        }
+      ],
+      "genre": "varttika",
+      "language": "sanskrit",
+      "summary": "Also called *Āgama-Śāstra*. Four *prakaraṇas* of verse: (1) *Āgama-Prakaraṇa* — the most directly Upaniṣadic, glossing the twelve verses of the Māṇḍūkya on the four states of *ātman* and the *Oṃ*-quarters; (2) *Vaitathya-Prakaraṇa* — the unreality (*vaitathya*) argument, demonstrating waking and dream as epistemically equivalent mind-projections; (3) *Advaita-Prakaraṇa* — positive exposition of non-duality, the doctrine of *ajāti* (non-origination), the simile of space-in-pots (*ghaṭākāśa*); (4) *Alātaśānti-Prakaraṇa* — the firebrand-circle argument that all apparent arising is mind-vibration, plus engagement with Buddhist analytic categories. Authorship: traditionally a single Gauḍapāda (Śaṅkara's *parama-guru*); modern academic treatment has variously argued for separate authors of the four prakaraṇas (esp. that the fourth is by a Buddhist hand) — current consensus, following Bhattacharya, King, and others, broadly accepts unified Gauḍapādan authorship while recognizing the fourth prakaraṇa's heaviest Buddhist intertextuality. The work is the foundational pre-Śaṅkara Advaita treatise; Śaṅkara's commentary on it canonizes its place in the Advaita *prasthāna*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1a-opus"
+}

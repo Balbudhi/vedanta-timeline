@@ -1,0 +1,68 @@
+{
+  "id": "jiva-gosvami",
+  "name": "Jiva Gosvami",
+  "name_iast": "Jīva Gosvāmī",
+  "alternate_names": [],
+  "dates_low": 1513,
+  "dates_high": 1598,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Mughal-era; manuscripts well-attested.",
+  "dates_evidence": [
+    {
+      "kind": "manuscript-colophon",
+      "description": "Manuscript colophons across the Ṣaṭ-Sandarbha and Sarva-Saṃvādinī."
+    },
+    {
+      "kind": "sectarian-chronicle",
+      "description": "Mughal-period Gauḍīya sectarian chronicles."
+    }
+  ],
+  "school": "Acintya-Bhedābheda",
+  "school_color_token": "acintya",
+  "sub_school": "Gauḍīya systematic philosophy",
+  "sub_school_shade": 4,
+  "lineage_in": ["rupa-gosvami", "sanatana-gosvami"],
+  "lineage_out": ["visvanatha", "baladeva"],
+  "lineage_polemical": [],
+  "core_thesis": "Jīva Gosvāmī is the systematic theologian of the Gauḍīya school: he raises Caitanya's experiential teaching and the Gosvāmī corpus's doctrinal motifs into a fully argued *acintya-bhedābheda* metaphysics, complete with epistemology (*pramāṇa*-theory grounded in *śabda* and centred on the *Bhāgavata-Purāṇa*), ontology (*Bhagavān* as *svayaṃ-bhagavān* with three *śaktis* — *svarūpa-śakti* / *cit*, *jīva-śakti* / *taṭasthā*, and *māyā-śakti* / *bahiraṅgā*), and soteriology (*bhakti* as *abhidheya* and *prīti* / *prema* as *prayojana*). The signature concept is *acintya-śakti*: Bhagavān's inconceivable power, by which the *bheda* of *śakti* and *śaktimat* and the *abheda* of their identity in substance hold simultaneously without contradiction, since *acintya-śakti* is precisely what dialectical *tarka* cannot exhaustively adjudicate. The *jīva* is eternal, atomic, and *taṭastha* — constitutively oriented for relation to Bhagavān — neither identical with nor fully separable from him. *Prema*, especially in *mādhurya-rasa*, is the actualisation of this relation in its most intense form.",
+  "engaged_works": [
+    {
+      "work_id": "sat-sandarbha",
+      "title": "Sat-Sandarbha",
+      "title_iast": "Ṣaṭ-Sandarbha",
+      "alternate_titles": ["Tattva-Sandarbha", "Bhagavat-Sandarbha", "Paramātma-Sandarbha", "Kṛṣṇa-Sandarbha", "Bhakti-Sandarbha", "Prīti-Sandarbha"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored six-fold systematic Gauḍīya exposition.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The *Ṣaṭ-Sandarbha* is the foundational systematic statement of Caitanya-Vaiṣṇava theology, organised as six interlocking *sandarbhas* (\"essays\"): *Tattva-Sandarbha* establishes the *pramāṇa* foundation, arguing for *śabda*-pramāṇa with the *Bhāgavata-Purāṇa* as the natural commentary on the *Brahma-Sūtras* and the highest scriptural authority; *Bhagavat-Sandarbha* establishes Bhagavān, with the threefold *śakti*-doctrine — *svarūpa*, *taṭasthā*, *māyā* — and *acintya-śakti* as load-bearing concept; *Paramātma-Sandarbha* treats Bhagavān's immanent aspect as *antaryāmin*, the *jīva*'s ontological status, and the relation of *Brahman* to the cosmos; *Kṛṣṇa-Sandarbha* defends the school-defining *kṛṣṇas tu bhagavān svayam* — Kṛṣṇa as *svayaṃ-bhagavān*, not as *avatāra*; *Bhakti-Sandarbha* analyses *bhakti* as the unique *abhidheya*; *Prīti-Sandarbha* treats *prema* as *prayojana* and the highest *puruṣārtha*. The work is the canonical Gauḍīya systematic theology, the school's reference for every doctrinal question thereafter, and the principal channel by which Caitanya's teaching enters the Sanskrit philosophical mainstream.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "sarva-samvadini",
+      "title": "Sarva-Samvadini",
+      "title_iast": "Sarva-Saṃvādinī",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Gauḍīya doctrinal compendium.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The *Sarva-Saṃvādinī* is Jīva's auto-commentary and supplementary technical treatise on the first four *sandarbhas* of the *Ṣaṭ-Sandarbha*. Where the *sandarbhas* themselves are organised by topic and proceed by a combined doxographical and exegetical method, the *Sarva-Saṃvādinī* sharpens the points where Gauḍīya doctrine is exposed to technical objection from rival Vedānta schools — Advaita, Viśiṣṭādvaita, Madhva-Dvaita, the Nimbārka and Bhāskara *bhedābheda* lines — and supplies the formal *uttarapakṣa*. It engages closely with *pramāṇa*-theoretic and ontological controversies: the status of *śabda*, the nature of *Brahman*'s *śaktis*, the simultaneous *bheda*–*abheda* relation, the *jīva*'s *taṭastha* nature, and the metaphysics of *acintya-śakti*. Read alongside the *Sandarbhas* it forms the Gauḍīya school's mature philosophical instrument, demonstrating that *acintya-bhedābheda* is not a retreat from dialectic but a position that survives sustained Vedāntic cross-examination.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1e-opus"
+}

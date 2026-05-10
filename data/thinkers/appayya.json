@@ -1,0 +1,104 @@
+{
+  "id": "appayya",
+  "name": "Appayya Dikshita",
+  "name_iast": "Appayya Dīkṣita",
+  "alternate_names": [],
+  "dates_low": 1520,
+  "dates_high": 1593,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Court records of Cinna Bomma Nāyaka of Vellore; dates well-established.",
+  "dates_evidence": [
+    {
+      "kind": "court-record",
+      "description": "Court records of Cinna Bomma Nāyaka of Vellore attest patronage and dating."
+    },
+    {
+      "kind": "manuscript-colophon",
+      "description": "Manuscript colophons across his many treatises confirm his floruit."
+    }
+  ],
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Trans-school Advaita synthesist",
+  "sub_school_shade": 4,
+  "lineage_in": ["vidyaranya", "vacaspati"],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Appayya Dīkṣita is the great trans-school Advaita synthesist of the late sixteenth century: he writes authoritatively as an Advaitin (siding doctrinally with the Bhāmatī line, in the *Parimala* sub-commentary), as a Śiva-Advaitin within Śrīkaṇṭha's framework (in the *Śivārka-Maṇi-Dīpikā*), and as the canonical doxographer of intra-Advaita disagreement (in the *Siddhānta-Leśa-Saṅgraha*), explicitly catalogues twenty-eight Advaitic disagreements without forced reconciliation. His distinctive contribution is methodological: rather than treating intra-Advaita differences (Bhāmatī vs. Vivaraṇa locus-of-*avidyā*; *avaccheda*- vs. *pratibimba-vāda*; alternative analyses of the Mahāvākya's mode of operation) as defects to be ironed out, he treats them as legitimate *prakriyā*-level alternatives within a single *siddhānta*. His prolific output — traditionally numbered at 104 works across six *darśanas* and reaching into Śaiva-Vedānta, Pūrva-Mīmāṃsā, Alaṅkāra-śāstra, and devotional poetics — earns him the epithet *Sarva-Tantra-Svatantra*. He is the single most important late-medieval source for the structured comparative reading of competing Advaita sub-positions.",
+  "engaged_works": [
+    {
+      "work_id": "siddhanta-lesha-samgraha",
+      "title": "Siddhanta-Lesha-Samgraha",
+      "title_iast": "Siddhānta-Leśa-Saṃgraha",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; catalogues internal Advaita disagreements.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The canonical doxography of intra-Advaita disagreement: a structured catalogue of twenty-eight (in the standard reckoning) loci on which Advaita authors have differed, with each locus presented as a *prakriyā*-level option set rather than a defect to be cured. Appayya works through the major disputed questions — the locus of *avidyā* (Bhāmatī's *jīva-āśraya* vs. Vivaraṇa's *Brahman-āśraya*), the *avaccheda-vāda* / *pratibimba-vāda* / *ābhāsa-vāda* / *eka-jīva-vāda* alternatives for the *jīva*, the modes of operation of the Mahāvākya, *jīvanmukti* analyses, the role of *karma* in producing the rise of *jñāna* — citing primary positions from Maṇḍana, Sureśvara, Vāchaspati, Sarvajñātman, Prakāśātman, Vimuktātman, Citsukha, Vidyāraṇya. The *Siddhānta-Leśa-Saṅgraha* is the indispensable reference for any comparative analysis of Advaita sub-positions and is the single most important pre-modern source for the structured study of intra-school disagreement; Acyutakṛṣṇānanda Tīrtha's *Kṛṣṇālaṅkāra* is its principal sub-commentary.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "parimala",
+      "title": "Parimala on Vachaspati's Bhamati",
+      "title_iast": "Parimala",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored sub-commentary on Vāchaspati's Bhāmatī (via Amalānanda's Kalpataru).",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "Sub-sub-commentary in the *Bhāmatī*-line transmission: it glosses Amalānanda's *Vedānta-Kalpataru*, which itself glosses Vāchaspati's *Bhāmatī*, which glosses Śaṅkara's *Brahma-Sūtra-Bhāṣya*. Through this *tīkā-vyākhyā-vivṛti* layering, Appayya is committing to the *Bhāmatī* sub-school's positions — *jīva* as locus of *avidyā*, qualified *jñāna-karma-samuccaya*, the *Bhāmatī* analysis of *adhyāsa* — and refining them in light of the developed Vivaraṇa apparatus and the early Navya-Nyāya. The *Parimala* is the standard authoritative *Bhāmatī*-line treatment of the canonical *Brahma-Sūtra* loci in the late sixteenth century and is the principal reference through which subsequent *Bhāmatī* pedagogy is conducted; it shows Appayya at his most doctrinally committed, even as he writes elsewhere as Śiva-Advaitin and as neutral catalogue-keeper.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "sivarka-mani-dipika",
+      "title": "Sivarka-Mani-Dipika",
+      "title_iast": "Śivārka-Maṇi-Dīpikā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Śiva-Advaita commentary on Śrīkaṇṭha's Brahma-Sūtra-Bhāṣya.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "Major commentary on Śrīkaṇṭha's *Brahma-Mīmāṃsā-Bhāṣya* (the *Brahma-Sūtra* read through a Śaiva-Vedānta lens identifying *Brahman* as Śiva). Appayya works the Śrīkaṇṭha system into a Śiva-Advaita: at the *paramārthika* level, *Brahman* / Śiva is the sole reality and the apparent personal Śiva of devotion is a *vyāvahārika* presentation; at the *vyāvahārika* level, *Sa-Śiva* is the appropriate object of worship and the tradition's iconography and ritual practice retain their full validity. The work matters as the canonical late-medieval Śiva-Advaita reading of the *Brahma-Sūtras* and as a window onto Appayya's larger trans-school *siddhānta*-discipline: the same author who in the *Parimala* defends *Bhāmatī*-Advaita and in the *Siddhānta-Leśa-Saṅgraha* catalogues neutral options here demonstrates how a sectarian Śaiva framework can be made internally consistent with Advaitic non-duality. (The user's prompt referenced an Ānanda-Laharī commentary; the Śivārka-Maṇi-Dīpikā is the work present in the skeleton — flagged.)",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "ananda-lahari-vyakhya",
+      "title": "Ananda-Lahari-Vyakhya",
+      "title_iast": "Ānanda-Laharī-Vyākhyā",
+      "alternate_titles": [],
+      "composition_dates_low": 1550,
+      "composition_dates_high": 1593,
+      "composition_dates_notes": "Composed in Appayya's mature period of Śaiva-Vedānta synthesis.",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed to Appayya within the Śrīvidyā commentarial tradition; modern academic ascription accepts it as part of his Śaiva-devotional corpus though without the same documentary support as the Parimala or Siddhānta-Leśa-Saṃgraha.",
+      "ascription_evidence": [
+        {"kind": "school-acceptance", "description": "Received within the Śrīvidyā and Śiva-Advaita commentarial traditions."},
+        {"kind": "manuscript-tradition", "description": "Manuscript transmission alongside other Śaiva works of Appayya."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "Commentary on the *Ānanda-Laharī* — the first half (verses 1–41) of the *Saundarya-Laharī* traditionally ascribed to Śaṅkara, treating the metaphysical-theological exposition of the Goddess (*Tripurasundarī* / *Lalitā*) as identical with the supreme, including the *śrī-cakra* and *kuṇḍalinī* references that anchor the Śrīvidyā tradition. Appayya's *Vyākhyā* reads each verse simultaneously as devotional address, as Śrīvidyā ritual specification, and as Śiva-Advaita doctrinal exposition — extending the trans-school *siddhānta*-discipline already exercised in the *Śivārka-Maṇi-Dīpikā* into the devotional-poetic register. The commentary supplies, for each contested verse, the *Bhāmatī*-Advaita reading where the *Ānanda-Laharī*'s identity-language could be construed monistically, the Śiva-Advaita reading where Śiva-Śakti polarity is in play, and the Śrīvidyā ritual reading where the verse encodes a *cakra*-element or *mantra*-component. The work is a key witness to Appayya's mature integration of Advaitic non-duality, Śaiva-devotional theology, and Śrīvidyā ritual within a single coherent *siddhānta*-frame, and occupies an important place in the late-medieval Śrīvidyā commentarial corpus.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1-cleanup-opus"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "brahmananda",
+  "name": "Brahmananda Sarasvati",
+  "name_iast": "Brahmānanda Sarasvatī",
+  "alternate_names": ["Gauḍa-Brahmānanda"],
+  "dates_low": 1650,
+  "dates_high": 1750,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Disciple-line of Madhusūdana; dated by manuscript chronology to the 17th–18th c.",
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Vivaraṇa-Advaita",
+  "sub_school_shade": 4,
+  "lineage_in": ["madhusudana"],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Brahmānanda Sarasvatī ('Gauḍa-Brahmānanda') is the great defender of Madhusūdana within the *Advaita-Siddhi* tradition. Standing in Madhusūdana's disciple-line, he writes the *Laghu-Candrikā* and the larger *Gauḍa-Brahmānandī* as sustained replies to the second-stage attack on Advaita launched by Vyāsatīrtha's school — most notably the *Tarangiṇī* and the *Nyāyāmṛta-Tarangiṇī* sub-commentary tradition that targets the *Advaita-Siddhi*. He inherits the Vivaraṇa positions in their Madhusūdana-refined form (*Brahman* as locus of *bhāva-rūpā-anirvacanīya-avidyā*; *anirvacanīya-mithyātva*; *jīva* as *cidābhāsa*) and develops them with the technical resources of mature Navya-Nyāya, matching the Mādhva opponents' terminological precision. His reply makes the *Advaita-Siddhi* / *Nyāyāmṛta* exchange tri-generational (Madhusūdana ↔ Vyāsatīrtha ↔ Brahmānanda) and ensures that the polemic remains live; both sides of the debate are preserved and read together to this day.",
+  "engaged_works": [
+    {
+      "work_id": "laghu-candrika",
+      "title": "Laghu-Chandrika on Advaita-Siddhi",
+      "title_iast": "Laghu-Candrikā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored sub-commentary on the Advaita-Siddhi.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "Compact ('*laghu*') sub-commentary on Madhusūdana's *Advaita-Siddhi*, written explicitly to defend Madhusūdana against the second-stage Mādhva critique launched in the *Tarangiṇī*-tradition descended from Vyāsatīrtha. Brahmānanda works the *Advaita-Siddhi*'s arguments through the technical apparatus of mature Navya-Nyāya, matching the Mādhva opponents' precision and supplying point-by-point replies on each contested sub-thesis: the *anirvacanīya* status of *avidyā* and of *mithyā*; the *bhāva-rūpā* analysis of ignorance; the *dṛśyatva-* and *jaḍatva-anumānas*; the analysis of *bheda*; the locus of *avidyā*. The *Laghu-Candrikā* extends the *Advaita-Siddhi* / *Nyāyāmṛta* polemic into a third generation; together with Madhusūdana's reply to Vyāsatīrtha and the latter Mādhva responses, it constitutes one of the most sustained and technically demanding multi-generational exchanges in Indian philosophy, with both sides preserved and read together to this day.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "gauda-brahmanandi",
+      "title": "Gauda-Brahmanandi on Advaita-Siddhi",
+      "title_iast": "Gauḍa-Brahmānandī",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored extended sub-commentary on the Advaita-Siddhi.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "The extended sub-commentary on Madhusūdana's *Advaita-Siddhi*, larger and more discursive than the *Laghu-Candrikā*. Brahmānanda traces each of the *Advaita-Siddhi*'s arguments at length, integrates the *Laghu-Candrikā*'s replies to the *Tarangiṇī*-tradition, and gives the most thorough single Vivaraṇa-line treatment of the *Advaita-Siddhi*'s technical positions. The *Gauḍa-Brahmānandī* is the standard reference work for advanced study of the *Advaita-Siddhi*: any modern reading of the *Advaita-Siddhi* — *Nyāyāmṛta* exchange will use Brahmānanda's apparatus to navigate Madhusūdana's compressed dialectic, and most published editions carry the *Gauḍa-Brahmānandī* alongside the root text.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1b-opus"
+}

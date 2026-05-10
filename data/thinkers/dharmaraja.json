@@ -1,0 +1,42 @@
+{
+  "id": "dharmaraja",
+  "name": "Dharmaraja Adhvarindra",
+  "name_iast": "Dharmarāja Adhvarīndra",
+  "alternate_names": [],
+  "dates_low": 1580,
+  "dates_high": 1620,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Late 16th – early 17th c.; dated from manuscripts and citations.",
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Vivaraṇa-pedagogical",
+  "sub_school_shade": 4,
+  "lineage_in": ["citsukha", "madhusudana"],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Dharmarāja Adhvarīndra is the great pedagogical systematiser of Vivaraṇa-Advaita epistemology. Working downstream of Citsukha and Madhusūdana, he organises the Advaitic theory of *pramāṇas* into a single, teachable architecture in the technical idiom of pre-Gaṅgeśa and early-Navya Nyāya. His distinctive doctrines: (i) Advaita accepts the six Bhāṭṭa *pramāṇas* — *pratyakṣa, anumāna, upamāna, śabda, arthāpatti, anupalabdhi* — at the *vyāvahārika* level; (ii) *pratyakṣa* is analysed as the *antaḥkaraṇa-vṛtti*'s contact, via the sense-streams, with the object, with the consciousness underlying object (*viṣaya-caitanya*) and consciousness underlying *vṛtti* (*vṛtti-caitanya*) becoming non-different — the famous *vṛtti-vyāpti* analysis; (iii) the Mahāvākya alone is *brahma-pramāṇa*, generating the *akhaṇḍākāra-vṛtti* whose function is to remove *avidyā* though knowledge itself is never produced; (iv) sustained refutation of the Naiyāyika analyses of *pratyakṣa*, *anumāna*, and erroneous cognition. He is firmly within the *Vivaraṇa* line on the locus-of-*avidyā* question and writes downstream of Citsukha and Madhusūdana.",
+  "engaged_works": [
+    {
+      "work_id": "vedanta-paribhasha",
+      "title": "Vedanta-Paribhasha",
+      "title_iast": "Vedānta-Paribhāṣā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; the standard manual of Advaita epistemology.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The standard manual (*paribhāṣā* — 'technical-vocabulary handbook') of Advaita epistemology, organised in eight *paricchedas* — one per *pramāṇa* (*pratyakṣa, anumāna, upamāna, āgama* / *śabda, arthāpatti, anupalabdhi*) plus *prameya* and *prayojana*. Dharmarāja gives the canonical Advaitic *vṛtti-vyāpti* analysis of perception (the *antaḥkaraṇa* extends through the senses, conforms to the object's shape, and consciousness underlying *vṛtti* becomes non-different from consciousness underlying object); develops the Advaita treatment of *anumāna* in the language of pre-Gaṅgeśa and early Navya-Nyāya; gives the standard exposition of the Mahāvākya as *brahma-pramāṇa* generating the *akhaṇḍākāra-vṛtti*; and formulates the Advaita doctrine of *prātibhāsika*, *vyāvahārika*, and *pāramārthika* levels of reality. The work is the universal entry-point to technical Advaita epistemology in modern *Vedānta* curricula and one of the most-commented texts of late Advaita; Rāmakṛṣṇa Adhvarī's *Śikhāmaṇi* (with the *Maṇiprabhā* sub-commentary) is the standard apparatus.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1b-opus"
+}

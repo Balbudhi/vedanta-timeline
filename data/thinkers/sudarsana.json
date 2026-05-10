@@ -1,0 +1,42 @@
+{
+  "id": "sudarsana",
+  "name": "Sudarshana Suri",
+  "name_iast": "Sudarśana Sūri",
+  "alternate_names": [],
+  "dates_low": 1200,
+  "dates_high": 1260,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Pre-Vedānta-Deśika; dated by manuscript and citation chronology to c. 1230 CE.",
+  "school": "Viśiṣṭādvaita",
+  "school_color_token": "vishishtadvaita",
+  "sub_school": "Viśiṣṭādvaita scholastic",
+  "sub_school_shade": 3,
+  "lineage_in": ["ramanuja"],
+  "lineage_out": ["vedanta-desika"],
+  "lineage_polemical": [],
+  "core_thesis": "Sudarśana Sūri is the principal *vyākhyātṛ* of Rāmānuja's *Śrī-Bhāṣya* and the figure through whom the school's exegetical tradition is stabilised in the generation between Rāmānuja and Vedānta Deśika. He preserves and clarifies the canonical Viśiṣṭādvaita architecture — Brahman as Nārāyaṇa-with-Śrī, qualified by *cit* and *acit* in *apṛthak-siddha* relation as his body, *bhakti-yoga* as constitutive of *mokṣa*, *prapatti* as parallel *upāya* — without doctrinal innovation, but with great precision in fixing what the *Śrī-Bhāṣya* actually claims at contested points. His specific contribution is interpretive: in the *Śruta-Prakāśikā* he settles the school's reading of Rāmānuja's handling of *avidyā* (the *sapta-vidhā-anupapatti*), of the *sāmānādhikaraṇya* of *tat tvam asi* on the body-soul model, of the relation between *jīva* and *Īśvara* under the *śarīra-śarīrin* construal, and of the relation between *bhakti* and *prapatti*. He stands prior to the formal Vaḍakalai-Tenkalai split and so is claimed authoritatively by both schools — an exegete whose readings constrain what later Vaḍakalai (Deśika) and Tenkalai (Pillai-Lokācārya) can say.",
+  "engaged_works": [
+    {
+      "work_id": "shruta-prakashika",
+      "title": "Shruta-Prakashika on Shri-Bhashya",
+      "title_iast": "Śruta-Prakāśikā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored sub-commentary on the Śrī-Bhāṣya.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "The school's canonical sub-commentary (*vyākhyā*) on Rāmānuja's *Śrī-Bhāṣya*, traditionally said to have been composed at Rāmānuja's own request and so authoritative that Vedānta Deśika's *Tātparya-Candrikā* takes it as its base text, glossing the *Śruta-Prakāśikā* rather than the *Śrī-Bhāṣya* directly. The *Śruta-Prakāśikā* fixes the school's reading of every contested passage of the *Mahā-Siddhānta* on *sūtra* 1.1.1: the structure of the *Mahā-Pūrvapakṣa*'s statement of Advaita, the precise force of each step of the *sapta-vidhā-anupapatti*, the construal of *sāmānādhikaraṇya* in *tat tvam asi* on the body-soul model, and the analysis of *dharmi-bhūta-jñāna* implicit in Rāmānuja's epistemology. It also stabilises the school's construal of the *adhikaraṇa*-divisions and identifies the *pūrvapakṣa*-positions Rāmānuja is targeting at points where the *Śrī-Bhāṣya* is condensed. The work matters because every subsequent Viśiṣṭādvaita engagement with the *Brahma-Sūtra* — Vaḍakalai and Tenkalai alike — operates through the *Śruta-Prakāśikā*'s readings; it is the lens through which the school sees Rāmānuja.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1c-opus"
+}

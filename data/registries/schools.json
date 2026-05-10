@@ -1,0 +1,62 @@
+{
+  "advaita": {
+    "display_name": "Advaita",
+    "color_hex": "#2563eb",
+    "color_palette": ["#dbeafe", "#93c5fd", "#3b82f6", "#2563eb", "#1e3a8a"],
+    "short_description": "Non-dualism: Brahman alone is ultimately real; the world's plurality is vyāvahārika and ultimately mithyā (neither sat nor asat)."
+  },
+  "vishishtadvaita": {
+    "display_name": "Viśiṣṭādvaita",
+    "color_hex": "#059669",
+    "color_palette": ["#d1fae5", "#6ee7b7", "#10b981", "#059669", "#064e3b"],
+    "short_description": "Qualified non-dualism: one Brahman (Viṣṇu) qualified by real cit and acit modes, with the śarīra-śarīri-bhāva relating souls and world to the Lord."
+  },
+  "dvaita": {
+    "display_name": "Dvaita (Tattvavāda)",
+    "color_hex": "#d97706",
+    "color_palette": ["#fef3c7", "#fcd34d", "#f59e0b", "#d97706", "#78350f"],
+    "short_description": "Tattvavāda: Viṣṇu alone is svatantra (independent); all else is paratantra (dependent), with five eternal real distinctions (pañca-bheda)."
+  },
+  "bhedabheda": {
+    "display_name": "Bhedābheda",
+    "color_hex": "#9333ea",
+    "color_palette": ["#f3e8ff", "#d8b4fe", "#a855f7", "#9333ea", "#581c87"],
+    "short_description": "Difference-and-non-difference: Brahman is intrinsically both identical with and distinct from souls and world; classical (aupādhika) and natural (svābhāvika) variants."
+  },
+  "acintya": {
+    "display_name": "Acintya-Bhedābheda",
+    "color_hex": "#db2777",
+    "color_palette": ["#fce7f3", "#f9a8d4", "#ec4899", "#db2777", "#831843"],
+    "short_description": "Inconceivable difference-and-non-difference: the Gauḍīya thesis that Bhagavān's simultaneous identity-and-difference with souls and world is irreducibly acintya."
+  },
+  "shuddha": {
+    "display_name": "Śuddhādvaita",
+    "color_hex": "#be123c",
+    "color_palette": ["#ffe4e6", "#fda4af", "#f43f5e", "#be123c", "#4c0519"],
+    "short_description": "Pure non-dualism: Brahman and world are non-different without invoking māyā; world is an avikṛta-pariṇāma of Brahman's essential nature."
+  },
+  "avibhaga": {
+    "display_name": "Avibhāgādvaita",
+    "color_hex": "#0891b2",
+    "color_palette": ["#cffafe", "#67e8f9", "#06b6d4", "#0891b2", "#164e63"],
+    "short_description": "Non-difference-without-identity: Vijñānabhikṣu's harmonizing thesis that Brahman and world are inseparable yet not numerically one."
+  },
+  "proto": {
+    "display_name": "Proto-Vedānta",
+    "color_hex": "#6b7280",
+    "color_palette": ["#f3f4f6", "#d1d5db", "#9ca3af", "#6b7280", "#1f2937"],
+    "short_description": "Pre-Śaṅkara figures known mostly through citation by later authors, evidencing a plural Vedāntic field before the extant bhāṣyas."
+  },
+  "trika-comparator": {
+    "display_name": "Pratyabhijñā / Trika (comparator)",
+    "color_hex": "#475569",
+    "color_palette": ["#f1f5f9", "#cbd5e1", "#94a3b8", "#475569", "#1e293b"],
+    "short_description": "Kashmir Śaiva recognition-school: included as a structural comparator (svātantrya, divine self-veiling) and not as a Vedāntic school."
+  },
+  "cross-tradition": {
+    "display_name": "Cross-tradition",
+    "color_hex": "#475569",
+    "color_palette": ["#f1f5f9", "#cbd5e1", "#94a3b8", "#475569", "#1e293b"],
+    "short_description": "Non-Vedāntic figures (e.g., Bhartṛhari) included only insofar as their thought feeds Vedāntic argument."
+  }
+}

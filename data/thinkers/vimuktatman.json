@@ -1,0 +1,42 @@
+{
+  "id": "vimuktatman",
+  "name": "Vimuktatman",
+  "name_iast": "Vimuktātman",
+  "alternate_names": [],
+  "dates_low": 1050,
+  "dates_high": 1100,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Pre-Vidyāraṇya by citation; dated by internal references and citation chronology.",
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Vivaraṇa-Advaita",
+  "sub_school_shade": 4,
+  "lineage_in": ["sarvajnatman", "prakasatman"],
+  "lineage_out": ["vidyaranya"],
+  "lineage_polemical": [],
+  "core_thesis": "Vimuktātman is a key transitional figure in the Vivaraṇa line — between Sarvajñātman / Prakāśātman upstream and Vidyāraṇya downstream — whose principal contribution is a systematic defence of the *anirvacanīya-bhāva-rūpā-avidyā* doctrine against alternative analyses of *adhyāsa* (especially *anyathā-khyāti*, *asat-khyāti*, and *ātma-khyāti*). His central claim is that *avidyā* is positively existent (*bhāva-rūpā*) yet indeterminable as either *sat* or *asat*, that it has *Brahman* alone as its *āśraya*, and that the *jīva* is a *cidābhāsa*, a reflection (*pratibimba*) of *Brahman* in this beginningless ignorance. He gives careful Advaitic refutations of the realist *khyāti*-theories of error and defends the Advaitic *anirvacanīya-khyāti* — the object of erroneous cognition is itself indeterminable, neither real nor unreal. His treatment of the *avacchedavāda* / *pratibimbavāda* alternatives helps fix the technical vocabulary that Vidyāraṇya, Madhusūdana, and later Vivaraṇa authors will use; the *Iṣṭa-Siddhi* is the standard reference work cited within Advaita on the metaphysics of *avidyā* and the analysis of *adhyāsa*.",
+  "engaged_works": [
+    {
+      "work_id": "ista-siddhi",
+      "title": "Ishta-Siddhi",
+      "title_iast": "Iṣṭa-Siddhi",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Independent *prakaraṇa* in eight chapters whose stated purpose is to establish (*siddhi*) the *iṣṭa* — the desired tenet, namely *brahmātmaikya*. Vimuktātman's method is to take up each opposed analysis of *adhyāsa* and erroneous cognition (*ātma-khyāti* of the Vijñānavādins, *asat-khyāti* of the Mādhyamikas as Advaitically construed, *anyathā-khyāti* of the Naiyāyikas, *akhyāti* of the Prābhākaras) and show that each fails on its own terms, leaving *anirvacanīya-khyāti* as the only coherent account. He defends *bhāva-rūpā-anirvacanīya-avidyā* with *Brahman* as locus, examines the *avaccheda-vāda* and *pratibimba-vāda* analyses of the *jīva* and inclines toward the latter, and refutes Bhedābheda and the proto-realist alternatives of his day. Jñānottama's *Vivaraṇa* is its principal sub-commentary. The treatise is cited as authoritative by Vidyāraṇya in the *Vivaraṇa-Prameya-Saṃgraha* and by Madhusūdana in the *Advaita-Siddhi*, and supplies much of the technical machinery later Advaitins use to discuss *adhyāsa* and *avidyā*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1b-opus"
+}

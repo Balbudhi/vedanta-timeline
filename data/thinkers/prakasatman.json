@@ -1,0 +1,45 @@
+{
+  "id": "prakasatman",
+  "name": "Prakashatman",
+  "name_iast": "Prakāśātman",
+  "alternate_names": [],
+  "dates_low": 1200,
+  "dates_high": 1300,
+  "dates_tier": "contested",
+  "dates_notes": "Date heavily contested: traditional 10th c., modern Hacker / Potter 13th c.",
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Vivaraṇa-Advaita",
+  "sub_school_shade": 4,
+  "lineage_in": ["padmapada", "sarvajnatman"],
+  "lineage_out": ["vidyaranya", "madhusudana"],
+  "lineage_polemical": [],
+  "core_thesis": "Prakāśātman is the system-builder of *Vivaraṇa*-Advaita, the sub-school that takes its name from his *Pañcapādikā-Vivaraṇa* and that defines itself against the *Bhāmatī* on every load-bearing question. His central claim is the *brahmāśrita-avidyā-vāda*: *Brahman* itself, not the *jīva*, is the *āśraya* (locus) of *avidyā*, while *Brahman* is also its *viṣaya* (object) — *avidyā* is *bhāva-rūpā* (positively existent yet *anirvacanīya*), and the *jīva* is *cidābhāsa*, a *pratibimba* of *Brahman* in this beginningless ignorance. From this root he draws (i) the doctrine that the Mahāvākya, qua *śabda-pramāṇa*, generates an *akhaṇḍākāra-vṛtti* whose function is to remove *avidyā* though knowledge itself is never produced; (ii) a strong rejection of *jñāna-karma-samuccaya* — *karma* purifies but cannot occasion *jñāna*; (iii) the *anirvacanīya-khyāti* analysis of *adhyāsa*. With Sarvajñātman's *Saṃkṣepa-Śārīraka* upstream and Vidyāraṇya's *Vivaraṇa-Prameya-Saṃgraha* downstream, he supplies the technical vocabulary in which most subsequent Advaita debate is conducted.",
+  "engaged_works": [
+    {
+      "work_id": "pancapadika-vivarana",
+      "title": "Pancapadika-Vivarana",
+      "title_iast": "Pañcapādikā-Vivaraṇa",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; the school-defining text of Vivaraṇa-Advaita.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "Massive *vivaraṇa* (gloss-of-a-gloss) on Padmapāda's *Pañcapādikā*, itself a sub-commentary on the opening five *pādas* of Śaṅkara's *Brahma-Sūtra-Bhāṣya*. The work converts Padmapāda's compressed positions into a fully articulated metaphysics and epistemology, and in the process founds a sub-school. Its principal contributions: (i) the *brahmāśrita-avidyā-vāda* — *Brahman* is the *āśraya* and *viṣaya* of *avidyā*, sharply contra Vāchaspati's *jīva-locus* analysis; (ii) the *bhāva-rūpā-anirvacanīya-avidyā* doctrine — ignorance is positively existent though indeterminable as either *sat* or *asat*; (iii) the *cidābhāsa* / *pratibimba* analysis of the *jīva*; (iv) the doctrine that the Mahāvākya, qua *śabda-pramāṇa*, produces an *akhaṇḍākāra-vṛtti* whose role is to dissolve *avidyā*; and (v) a sustained refutation of *jñāna-karma-samuccaya*. The *Vivaraṇa* generates the largest commentarial tradition in later Advaita — the *Vivaraṇa-Prameya-Saṃgraha* of Vidyāraṇya, the *Tātparya-Dīpikā* of Citsukha, the *Tattva-Dīpana* of Akhaṇḍānanda — and is the implicit interlocutor of nearly all post-thirteenth-century Advaita scholasticism.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1b-opus"
+}

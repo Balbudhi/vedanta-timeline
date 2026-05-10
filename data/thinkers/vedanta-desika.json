@@ -1,0 +1,157 @@
+{
+  "id": "vedanta-desika",
+  "name": "Vedanta Deshika",
+  "name_iast": "Vedānta Deśika",
+  "alternate_names": ["Veṅkaṭanātha", "Svāmi Deśika"],
+  "dates_low": 1268,
+  "dates_high": 1369,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Sectarian chronicles plus manuscript colophons; dates well-established.",
+  "dates_evidence": [
+    {
+      "kind": "sectarian-chronicle",
+      "description": "Śrīvaiṣṇava sectarian chronicles document his birth, education, and demise dates."
+    },
+    {
+      "kind": "manuscript-colophon",
+      "description": "Manuscript colophons across his many works confirm his floruit and lineage."
+    }
+  ],
+  "school": "Viśiṣṭādvaita",
+  "school_color_token": "vishishtadvaita",
+  "sub_school": "Vaḍakalai",
+  "sub_school_shade": 3,
+  "lineage_in": ["ramanuja", "sudarsana"],
+  "lineage_out": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "pillai-lokacarya",
+      "direction": "mutual",
+      "note": "The Vaḍakalai-Tenkalai split formally crystallizes around Vedānta Deśika's monkey-hold (markaṭa-nyāya) account vs. Pillai-Lokācārya's cat-hold (mārjāra-nyāya)."
+    }
+  ],
+  "core_thesis": "Vedānta Deśika is the systematiser, logician, and Vaḍakalai polemicist of post-Rāmānuja Viśiṣṭādvaita. He preserves the school's core architecture — Brahman as Nārāyaṇa-with-Śrī, qualified by *cit* and *acit* as his body in *apṛthak-siddha* relation — and extends it on three fronts. (i) He completes the school's engagement with Navya-Nyāya logic and Nyāya-Vaiśeṣika categoriology, building (in the *Nyāya-Pariśuddhi* and *Nyāya-Siddhāñjana*) a Viśiṣṭādvaita-compatible *padārtha*-scheme and *pramāṇa*-theory that can stand against Gaṅgeśa's school. (ii) He produces in the *Śatadūṣaṇī* the most systematic anti-Advaita polemic the tradition possesses — one hundred *dūṣaṇa*-s targeting every load-bearing claim of post-Śaṅkara Advaita. (iii) On the *upāya*-question he defends the Vaḍakalai position: *bhakti-yoga* requires the surrendered self's continuing effort and qualifications, and *prapatti* itself is structured by the six *aṅga*-s as conditions to be enacted; grace cooperates with the agent's continuing co-action — the *markaṭa-nyāya* (monkey-baby that grips its mother) image, against the Tenkalai *mārjāra-nyāya* (kitten that the mother cat carries). He retains and defends Sanskritic Vedic learning as essential to the school.",
+  "engaged_works": [
+    {
+      "work_id": "tattva-mukta-kalapa",
+      "title": "Tattva-Mukta-Kalapa with Sarvartha-Siddhi",
+      "title_iast": "Tattva-Muktā-Kalāpa",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Viśiṣṭādvaita systematic verse-treatise with auto-commentary.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "varttika",
+      "language": "sanskrit",
+      "summary": "A 500-verse Sanskrit *kārikā*-treatise with the author's own prose auto-commentary *Sarvārtha-Siddhi*, organised by the Viśiṣṭādvaita ontology of *dravya* and *adravya* into *sara*-chapters on *jaḍa* (matter), *jīva* (self), *Īśvara*, *nitya-vibhūti* (the eternal divine realm), *dharma-bhūta-jñāna*, and so on. The *Tattva-Muktā-Kalāpa* is the school's mature systematic ontology: it argues each Viśiṣṭādvaita category against the alternatives — Sāṃkhya *prakṛti*, Naiyāyika *paramāṇu*-atomism, Buddhist momentariness, Advaitic *māyā*, Bhāskara's *aupādhika-bheda*, Madhva's unqualified *bheda* — fixing precisely how the school's *apṛthak-siddha* relation differs from each. The *Sarvārtha-Siddhi* is unusually rigorous in its handling of *dharmi-bhūta-jñāna* (substance-awareness as itself the *jīva*'s constitutive attribute) and of the *śarīra-śarīrin* relation as a sui generis ontological relation distinct from inherence (*samavāya*) and from mere conjunction. The work matters because it is the canonical reference for Vaḍakalai metaphysics — the *Tattva-Mukta-Kalāpa* with *Sarvārtha-Siddhi* is what later Viśiṣṭādvaita scholasticism quotes when fixing a category-boundary.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "rahasya-traya-sara",
+      "title": "Rahasya-Traya-Sara",
+      "title_iast": "Rahasya-Traya-Sāra",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Maṇipravāḷa rahasya-treatise.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "rahasya",
+      "language": "tamil-manipravala",
+      "summary": "A long Tamil-Maṇipravāḷa rahasya-treatise in 32 *adhikāra*-s expounding the three Śrīvaiṣṇava esoteric *mantra*-s (*tirumantra* / *aṣṭākṣara*, *dvaya*, *carama-śloka*) and through them the totality of Vaḍakalai soteriology. The *Rahasya-Traya-Sāra* is the canonical Vaḍakalai handling of the *upāya*-question: *prapatti* (*śaraṇāgati*) is enjoined for those incapable of sustained *bhakti-yoga* and is structured by the six *aṅga*-s as conditions the surrendered self must satisfy; the *jīva* retains real agency (*kartṛtva*) under the Lord's permission (*anumati*), and grace presupposes the surrendered self's continuing co-action — the *markaṭa-nyāya* image. Deśika carefully discriminates *prapatti* from *bhakti-yoga* without making them rivals, and articulates Śrī's role as *puruṣakāra* (mediating advocate) rather than as an independent *upāya*. The work matters because it is the polemical and pedagogical anchor of the entire Vaḍakalai school: every later Vaḍakalai position on grace, agency, qualification, and the status of Śrī cites the *Rahasya-Traya-Sāra* as authority. Composed in Maṇipravāḷa precisely to be accessible to non-Sanskritist Śrīvaiṣṇavas without ceding the field to the Tenkalai.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "pancaratra-raksha",
+      "title": "Pancharatra-Raksha",
+      "title_iast": "Pāñcarātra-Rakṣā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored defense of Pāñcarātra ritual practice.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "Sanskrit polemical *prakaraṇa* defending the *prāmāṇya* of the Pāñcarātra *saṃhitā*-s and the legitimacy of Vaiṣṇava temple-ritual, extending Yāmuna's *Āgama-Prāmāṇya* against later — especially Smārta and Advaita-aligned — challenges that resurfaced in the late-medieval period. Deśika argues *sūtra*-by-*sūtra* through the *Brahma-Sūtra*'s *Utpatti-Asambhava-Adhikaraṇa* (2.2.42–45) — the *adhikaraṇa* on which the orthodoxy of Pāñcarātra hinges — to show that, properly read, the *sūtra*-s do not refute Pāñcarātra cosmology but only one heterodox version of *vyūha*-doctrine, leaving the orthodox core intact and authoritative. He also argues for the equivalence of Pāñcarātra-initiates to Vedic *brāhmaṇa*-s for ritual purposes and defends specific Pāñcarātra liturgical elements (*pañca-saṃskāra*, image-installation, *mudrā*-s) against *Mīmāṃsā* objections. The work matters because it secured the institutional authority of the Śrīvaiṣṇava temple system — particularly Śrīraṅgam, Tirupati, and Kāñcī — at the precise moment when sectarian competition with Advaita-aligned Smārta institutions was intensifying.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "nyaya-parishuddhi",
+      "title": "Nyaya-Parishuddhi",
+      "title_iast": "Nyāya-Pariśuddhi",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Viśiṣṭādvaita logic-treatise.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "Comprehensive Viśiṣṭādvaita *pramāṇa*-treatise — the school's mature engagement with Nyāya logic and epistemology and its definitive *prāmāṇya*-theory. Organised around the three *pramāṇa*-s of Viśiṣṭādvaita (*pratyakṣa*, *anumāna*, *śabda* — *upamāna* and *arthāpatti* are reduced to *anumāna*; *anupalabdhi* is rejected as redundant), the *Nyāya-Pariśuddhi* defends *yathārtha-khyāti* (all cognition as veridical, error being only partial apprehension) against the *anyathā-* and *anirvacanīya-khyāti* alternatives; defends the *svataḥ-prāmāṇya* of *śabda*; and constructs a Viśiṣṭādvaita-compatible theory of *vyāpti* and *paramārśa* that engages directly with the early Navya-Nyāya of Gaṅgeśa. The work matters because before Deśika the school had Yāmuna's *Saṃvit-Siddhi* and Rāmānuja's scattered epistemological remarks but no comprehensive *pramāṇa*-treatise; the *Nyāya-Pariśuddhi* fills that gap and gives Viśiṣṭādvaita the technical resources to argue on equal logical footing with the dominant Naiyāyika and Advaita scholasticisms of the late thirteenth and fourteenth centuries.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "nyaya-siddhanjana",
+      "title": "Nyaya-Siddhanjana",
+      "title_iast": "Nyāya-Siddhāñjana",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored systematic Viśiṣṭādvaita treatise.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Systematic Viśiṣṭādvaita *prakaraṇa* on the seven categories — *dravya* (substance), *guṇa*, *karma*, *sāmānya*, *viśeṣa*, *samavāya*, *abhāva* — re-engineered against the Nyāya-Vaiśeṣika scheme to fit Viśiṣṭādvaita ontology. Substance is divided into *jaḍa* (*prakṛti*, *kāla*, *śuddha-sattva* of the eternal realm) and *ajaḍa* (*jīva*, *Īśvara*, *dharma-bhūta-jñāna*); the *jīva* is the substrate of its own attribute-awareness *dharma-bhūta-jñāna*, which expands and contracts under *karma* but is, in its essential nature, infinite; in *mokṣa* it expands to encompass Brahman and the eternal realm without merging the *jīva* into Brahman. Deśika here gives the most precise analytic statement of *apṛthak-siddhi* as a relation distinct from both *samavāya* (inherence) and conjunction (*saṃyoga*), and clarifies how *Īśvara* can be the *antaryāmin* of *jīva*-s and *acit* without being reducible to or identical with them. The work matters because it is the school's mature *padārtha*-systematisation, complementing the *Tattva-Mukta-Kalāpa* and providing the technical vocabulary used by Sudarśana Sūri's *Śruta-Prakāśikā* and the later commentarial tradition.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "shata-dushani",
+      "title": "Shata-Dushani",
+      "title_iast": "Śata-Dūṣaṇī",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored anti-Advaita polemic in 100 dūṣaṇa-s.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "*One hundred refutations of Advaita* — the most systematic anti-Advaita polemic of the entire Viśiṣṭādvaita tradition. The *Śatadūṣaṇī* targets every load-bearing thesis of post-Śaṅkara Advaita as developed by Maṇḍana, Sureśvara, Vācaspati, Padmapāda, Prakāśātman, Sarvajñātman, and Śrīharṣa: the doctrine of *avidyā* (extending and sharpening Rāmānuja's *sapta-vidhā-anupapatti*); the *anirvacanīya-khyāti* theory of error; the *dṛṣṭi-sṛṣṭi* and *sṛṣṭi-dṛṣṭi* cosmologies; the doctrine of *nirviśeṣa* Brahman; the Advaitic readings of *tat tvam asi* and *neti neti*; the *bimba-pratibimba* and *avaccheda* models of the *jīva*; the *māyā/avidyā* distinction in later Advaita; the use of *jahad-ajahal-lakṣaṇā*; and Śrīharṣa's *khaṇḍana*-style attacks on definitions. Against Śrīharṣa's anti-definitional moves Deśika reasserts that a coherent *padārtha*-scheme is possible and presupposed by every dialectical exchange. The work matters because it is the high-water mark of Vaḍakalai polemic and because every later Viśiṣṭādvaita engagement with Advaita — through Mahācārya, Śrīnivāsadāsa, and into the modern period — operates within the framework of objections the *Śatadūṣaṇī* established. Deśika did not finish the planned hundred *dūṣaṇa*-s in his lifetime; the tradition completed the count.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "adhikarana-saravali",
+      "title": "Adhikarana-Saravali",
+      "title_iast": "Adhikaraṇa-Sārāvalī",
+      "alternate_titles": [],
+      "composition_dates_low": 1295,
+      "composition_dates_high": 1360,
+      "composition_dates_notes": "Composed in Deśika's mature period; companion to the Tattva-Mukta-Kalāpa as a Brahma-Sūtra-organized doctrinal summary.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored verse-summary of the Brahma-Sūtra adhikaraṇas in Vaḍakalai Viśiṣṭādvaita perspective.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "verse-summary",
+      "language": "sanskrit",
+      "summary": "A verse-summary (*sārāvalī*, \"flow of essence\") of the *Brahma-Sūtra*'s 156 *adhikaraṇas*, organized sequentially through the four *adhyāyas* and giving for each *adhikaraṇa* the Vaḍakalai Viśiṣṭādvaita reading in compressed *anuṣṭubh* form. For each *adhikaraṇa* Deśika supplies the *viṣaya* (topic), the *saṃśaya* (doubt), the *pūrvapakṣa* (typically Advaita or Bhāskara), the *siddhānta* (the Rāmānuja-line conclusion as developed through Sudarśana Sūri's *Śruta-Prakāśikā*), and the *prayojana*. The work is the canonical Vaḍakalai pedagogical summary of the entire *Brahma-Sūtra* — what every Vaḍakalai pandit has memorized and what every Vaḍakalai composition presupposes. Doctrinally distinctive readings include the *ānanda-mayādhikaraṇa* (taking *ānandamaya* as Brahman, against Śaṅkara), the *jīva-pratibimbādhikaraṇa* (where Deśika fixes the *apṛthak-siddha* relation against the Advaitic *avaccheda* and Bhāskara's *aupādhika-bheda*), and the *adhyāya*-4 *bheda-sūtras* (read in *taratamya*-key consistent with Viśiṣṭādvaita's *jīva*-individuation). The work is the natural counterpart to the *Tattva-Mukta-Kalāpa*, reorganizing the same doctrinal architecture along the *Sūtra*'s own *adhikaraṇa*-skeleton.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1-cleanup-opus"
+}

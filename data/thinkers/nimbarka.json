@@ -1,0 +1,58 @@
+{
+  "id": "nimbarka",
+  "name": "Nimbarka",
+  "name_iast": "Nimbārka",
+  "alternate_names": ["Niyamānanda"],
+  "dates_low": 1130,
+  "dates_high": 1300,
+  "dates_tier": "contested",
+  "dates_notes": "Sectarian dates much earlier (some traditions place him in the 11th c. or earlier); academic consensus 12th–13th c.",
+  "school": "Bhedābheda",
+  "school_color_token": "bhedabheda",
+  "sub_school": "Svābhāvika-Bhedābheda (Dvaitādvaita)",
+  "sub_school_shade": 4,
+  "lineage_in": ["yadava-prakasa"],
+  "lineage_out": ["srinivasa", "kesava-kasmiri"],
+  "lineage_polemical": [],
+  "core_thesis": "Nimbārka's *svābhāvika-bhedābheda* — also called *dvaitādvaita* in later doxography — holds that *bheda* and *abheda* are both intrinsic (*svābhāvika*) and equally primordial in the relation of Brahman to *cit* and *acit*: neither difference nor non-difference is reducible, derivative, or caused by any *upādhi*. Three reals are co-eternal: Brahman (identified with Kṛṣṇa, accompanied by Rādhā), the *cit* (sentient *jīvas*), and the *acit* (insentient nature). The *jīva* and world are *aṃśa* of Brahman: dependent, controlled, and non-different in essence yet really and inalienably distinct as the parts of a substantial whole. This refuses both Bhāskara's *aupādhika* qualification (Nimbārka's bheda is not adventitious) and any Advaitic dissolution of plurality at the limit. *Bhakti* to Kṛṣṇa, conceived as *prapatti* and *sakhya* within the Sanaka-sampradāya, is the operative soteriology; liberation is unending devotional participation in Brahman, not absorption that erases the *jīva*'s real distinctness.",
+  "engaged_works": [
+    {
+      "work_id": "vedanta-parijata-saurabha",
+      "title": "Vedanta-Parijata-Saurabha",
+      "title_iast": "Vedānta-Pārijāta-Saurabha",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Brahma-Sūtra commentary; the Sanaka-sampradāya's school-defining bhāṣya.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "summary": "Nimbārka's *Vedānta-Pārijāta-Saurabha* is a notably terse Brahma-Sūtra-Bhāṣya — among the briefest of the major *sampradāya* commentaries — that nonetheless establishes the doctrinal core of *svābhāvika-bhedābheda*. Its method is to read each *sūtra* as licensing simultaneous and equally intrinsic *bheda* and *abheda* between Brahman and the threefold real of *cit*, *acit*, and *Īśvara*. The bhāṣya is identifiably Vaiṣṇava and Kṛṣṇa-centred: Brahman is named as Kṛṣṇa with Rādhā, and the consequent soteriology is *prapatti*-inflected *bhakti*. The compactness is doctrinal, not casual — it forces interpretation onto sub-commentary, particularly Śrīnivāsa's *Vedānta-Kaustubha*, which the Sanaka-sampradāya treats as the canonical reading. Polemically, the work positions itself against both *māyā-vāda* and the *aupādhika* qualification of Bhāskara, but does so largely by exegetical contrast rather than by extended *pūrvapakṣa-uttarapakṣa* construction. It is the school-defining text and remains the obligatory reference for Nimbārka-line Vedānta.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "dasa-shloki",
+      "title": "Dasha-Shloki",
+      "title_iast": "Daśa-Ślokī",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored ten-verse summary of Nimbārka's doctrine.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "verse-summary",
+      "language": "sanskrit",
+      "summary": "The *Daśa-Ślokī* (also called *Siddhānta-Ratna*) is Nimbārka's ten-verse doctrinal compendium and functions as the catechetical statement of *svābhāvika-bhedābheda*. In tightly compressed Sanskrit verse it names the three eternally real categories — *cit*, *acit*, and *Īśvara* (Kṛṣṇa with Rādhā) — and asserts their simultaneous, intrinsic difference and non-difference; it identifies *bhakti* and *prapatti* as the means of liberation; and it delineates the *jīva* as eternally an *aṃśa* of Brahman, never merging into and never being severed from its source. Because the *Vedānta-Pārijāta-Saurabha* is so terse, the *Daśa-Ślokī* serves as the school's portable doctrinal kernel — memorised, recited, and used as the structural template for later sub-commentaries by Śrīnivāsa, Keśava-Kāśmīrī, and the Sanaka-sampradāya tradition. It is the most direct first-person statement of Nimbārka's settled view available to readers.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1e-opus"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "yadava-prakasa",
+  "name": "Yadava-Prakasha",
+  "name_iast": "Yādava-Prakāśa",
+  "alternate_names": [],
+  "dates_low": 1050,
+  "dates_high": 1100,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Traditional teacher of Rāmānuja prior to the latter's break; dated by relative chronology.",
+  "school": "Bhedābheda",
+  "school_color_token": "bhedabheda",
+  "sub_school": "Bhedābheda transitional to Viśiṣṭādvaita",
+  "sub_school_shade": 2,
+  "lineage_in": ["bhaskara", "bhartrprapanca"],
+  "lineage_out": ["nimbarka", "ramanuja"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "ramanuja",
+      "direction": "is-refuted-by",
+      "note": "Rāmānuja famously broke from his teacher Yādava-Prakāśa; Viśiṣṭādvaita defines itself partly against this earlier bhedābheda."
+    }
+  ],
+  "core_thesis": "Yādava-Prakāśa's position, reconstructed largely from Rāmānuja's *Vedārtha-Saṃgraha* and *Śrī-Bhāṣya*, is a robust *bhedābheda* in which Brahman is one *substance* that genuinely undergoes triadic transformation into *cit* (sentient selves), *acit* (insentient matter), and *Īśvara* (the inner ruler). All three are real *avasthās* (states or modes) of one substance, so difference and non-difference are both ontological facts, not appearance. Crucially, on Rāmānuja's reading, Yādava treats Brahman itself — not merely a body or *upādhi* of Brahman — as undergoing the modifications that include suffering and impurity, which is precisely the consequence Rāmānuja will later refuse by introducing the *śarīra–śarīrin* relation. Yādava's *jīva* is neither illusorily nor adventitiously distinct from Brahman: it is a real *aṃśa*-like state of the one substance, its bondage and liberation being genuine alterations of that substance. This Vaiṣṇava-flavoured *bhedābheda* is the proximate target of Viśiṣṭādvaita's formation and a transitional figure between Bhāskara and Nimbārka.",
+  "engaged_works": [
+    {
+      "work_id": "lost-bhedabheda-corpus",
+      "title": "Lost Bhedabheda corpus",
+      "title_iast": "Lost Bhedābheda corpus",
+      "alternate_titles": [],
+      "ascription_tier": "disputed",
+      "ascription_notes": "Original works lost; positions reconstructed from Rāmānuja's polemic, especially the Vedārtha-Saṃgraha and Śrī-Bhāṣya.",
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "summary": "Yādava-Prakāśa's primary writings — including, by tradition, a Brahma-Sūtra commentary and the ascetic-conduct manual *Yatidharma-Samuccaya* — survive only in fragments and in later citation. His doctrine is therefore read principally through Rāmānuja's polemic, which is sustained, detailed, and adversarial: the *Vedārtha-Saṃgraha* and the opening *mahā-pūrvapakṣa* of the *Śrī-Bhāṣya* devote substantial space to refuting Yādava's view that Brahman as one substance undergoes real triadic transformation into *cit*, *acit*, and *Īśvara*. Reconstructed positions include real *pariṇāma* of Brahman into the world, the genuine ascription of suffering-states to Brahman-as-modified, and the rejection of *māyā-vāda*. The corpus's loss makes any reconstruction provisional, and the dependence on a hostile witness must be flagged at every step. The *Yatidharma-Samuccaya* ascription, though traditional, is itself sometimes contested. The figure remains pivotal as Rāmānuja's teacher and as the proximate Vaiṣṇava *bhedābheda* against which Viśiṣṭādvaita defines itself.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1e-opus"
+}

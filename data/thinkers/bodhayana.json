@@ -1,0 +1,39 @@
+{
+  "id": "bodhayana",
+  "name": "Bodhayana",
+  "name_iast": "Bodhāyana",
+  "alternate_names": ["Vṛttikāra"],
+  "dates_low": 300,
+  "dates_high": 500,
+  "dates_tier": "oral-tradition-only",
+  "dates_notes": "Identity disputed; cited by Rāmānuja as the Vṛttikāra whose lost commentary Rāmānuja's school claims as its authority.",
+  "school": "proto-Vedānta",
+  "school_color_token": "proto",
+  "sub_school": "Claimed by Viśiṣṭādvaita",
+  "sub_school_shade": 2,
+  "lineage_in": [],
+  "lineage_out": ["nathamuni", "ramanuja"],
+  "lineage_polemical": [],
+  "core_thesis": "As reconstructed from later citations: Bodhāyana — also called the *Vṛttikāra* — is named by Rāmānuja in the opening of the *Śrī-Bhāṣya* as the author of a pre-Śaṅkara *Brahma-Sūtra-Vṛtti* whose teaching Rāmānuja's school claims to recover and continue. The *Vṛtti* itself is wholly lost; what survives is Rāmānuja's framing claim that his own Viśiṣṭādvaita reading of the sūtras follows Bodhāyana's interpretation, supplemented by occasional fragmentary citations in later Viśiṣṭādvaita texts. The position attributed to him on the *jīva-Brahman* relation is qualified non-dualism: Brahman is the one Real whose *prakāra* (modes) include conscious selves and unconscious matter; the *jīva* is a real, dependent part-mode (*aṃśa*) of Brahman, never collapsed into illusory non-difference. Whether the historical Bodhāyana actually held this position, whether his work was a *Brahma-Sūtra-Vṛtti* or a Mīmāṃsā-Vṛtti, and whether he is the same person as Upavarṣa, are all genuinely disputed; the figure functions in Viśiṣṭādvaita as the named ancient authority across whom the school's continuity-claim is asserted.",
+  "engaged_works": [
+    {
+      "work_id": "brahma-sutra-vrtti",
+      "title": "Brahma-Sutra-Vrtti (lost)",
+      "title_iast": "Brahma-Sūtra-Vṛtti",
+      "alternate_titles": [],
+      "ascription_tier": "disputed",
+      "ascription_notes": "Work is lost; preserved only as fragments cited in Rāmānuja's Śrī-Bhāṣya, with substantial scholarly dispute over whether the cited material accurately reflects a single historical author.",
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "summary": "The *Brahma-Sūtra-Vṛtti* attributed to Bodhāyana is lost. Its existence and authority are asserted by Rāmānuja in the *mukha-bhūmikā* of the *Śrī-Bhāṣya*: *bhagavad-bodhāyana-kṛtāṃ vistīrṇāṃ brahma-sūtra-vṛttiṃ pūrvācāryāḥ saṃcikṣipuḥ; tan-mata-anusāreṇa sūtrākṣarāṇi vyākhyāsyante* (\"former teachers abridged the extensive *Brahma-Sūtra-Vṛtti* of Bhagavān Bodhāyana; the sūtras will be expounded here in accordance with his view\"). Rāmānuja thereby grounds the entire Viśiṣṭādvaita reading of the sūtras in this lost text. A small number of fragments are quoted by Rāmānuja and later Śrīvaiṣṇava commentators (Sudarśana Sūri, Vedānta Deśika); they affirm Brahman as the inner self of all (*sarvāntaryāmin*) and the *jīva* as real *aṃśa* of Brahman. The work's actual scope, date, and even its identity as a Vedāntic (rather than Mīmāṃsā) commentary remain scholarly disputes; modern philology generally accepts that *some* pre-Śaṅkara *Vṛttikāra* tradition existed but cannot reconstruct its content beyond what Rāmānuja preserves.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1f-opus"
+}

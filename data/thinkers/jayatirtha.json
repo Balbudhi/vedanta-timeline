@@ -1,0 +1,74 @@
+{
+  "id": "jayatirtha",
+  "name": "Jayatirtha",
+  "name_iast": "Jayatīrtha",
+  "alternate_names": ["Ṭīkācārya"],
+  "dates_low": 1345,
+  "dates_high": 1388,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Pontifical succession records; dated by manuscript and citation.",
+  "school": "Dvaita",
+  "school_color_token": "dvaita",
+  "sub_school": "Dvaita scholastic",
+  "sub_school_shade": 2,
+  "lineage_in": ["madhva"],
+  "lineage_out": ["vyasatirtha"],
+  "lineage_polemical": [],
+  "core_thesis": "Jayatīrtha — *Ṭīkācārya*, the \"Master of Sub-Commentary\" — is the systematiser through whom Madhva's *Tattvavāda* becomes a fully scholastic darśana. He does not introduce new doctrine; he secures Madhva's positions in formal *pramāṇa*-form, supplies the dialectical apparatus, and fixes the school's reading of every contested *adhikaraṇa* of the *Brahma-Sūtra-Bhāṣya* and every contested *kārikā* of the *Anuvyākhyāna*. His central interpretive choices are conservative-realist: *bheda* is *svarūpa-svabhāva* (constitutive of the natures of the relata), not an additional entity requiring a regress; *viśeṣa* is a self-distinguishing relational element that grounds intra-substantial differentiation without numerical multiplication; *sākṣi* (witness-consciousness) is a pramāṇa in its own right whose verdicts cannot be sublated by mediated cognition; and the *jīva*'s status as *bimba-pratibimba* of Viṣṇu requires asymmetric, never reciprocal, dependence. On this base he engineers the school's standard responses to Advaitic *mithyātva*-arguments and to Bhāskara-style *bhedābheda*. Vyāsatīrtha's later *Nyāyāmṛta* and Rāghavendra's *Parimala* are unintelligible without him.",
+  "engaged_works": [
+    {
+      "work_id": "nyaya-sudha",
+      "title": "Nyaya-Sudha",
+      "title_iast": "Nyāya-Sudhā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored sub-commentary on Madhva's Anuvyākhyāna.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "The *Nyāya-Sudhā* (\"Nectar of Reasoning\") is Jayatīrtha's massive prose *ṭīkā* on Madhva's verse-*vārttika* the *Anuvyākhyāna* — together they constitute the spinal text of Mādhva scholasticism. Working *kārikā* by *kārikā* across all four *adhyāyas*, Jayatīrtha reconstructs each of Madhva's compressed arguments as a fully formal *anumāna*-structure, identifies and answers every plausible *pūrvapakṣa* (Advaitic, Bhāskarīya, Naiyāyika, Buddhist, Mīmāṃsaka), and fixes the school's reading on every locus where Madhva's *Bhāṣya* admits more than one construal. The work is the source of the standard Mādhva treatments of *bheda* as *svarūpa-svabhāva*, of *viśeṣa* as the device that grounds intra-substantial distinction without regress, of *sākṣi* as a *pramāṇa*, and of the *bimba-pratibimba* relation between Viṣṇu and *jīva*. The *Nyāya-Sudhā* — not the *Bhāṣya* or *Anuvyākhyāna* directly — is the base-text on which Vyāsatīrtha builds the *Nyāyāmṛta* and Rāghavendra builds the *Parimala*; the saying *yadi sudhā na pīyeta, kaḥ sa-jīvet* (\"if one has not drunk the *Sudhā*, who can be said to live?\") indexes its standing in the tradition.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "tattva-prakashika",
+      "title": "Tattva-Prakashika on BSB",
+      "title_iast": "Tattva-Prakāśikā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored sub-commentary on Madhva's Brahma-Sūtra-Bhāṣya.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "Jayatīrtha's *ṭīkā* directly on Madhva's *Brahma-Sūtra-Bhāṣya*, where the *Nyāya-Sudhā* glosses the *Anuvyākhyāna*. Shorter and more closely word-locked than the *Sudhā*, the *Tattva-Prakāśikā* (\"Illuminator of the Real\") is the principal Mādhva *vyākhyāna* on the *Sūtra*-text itself, supplying the school's standard division into *adhikaraṇa*-units, the *viṣaya*–*saṃśaya*–*pūrvapakṣa*–*siddhānta*–*saṅgati* schema for each, and the philological resolution of contested *padacchedas*. It is on the *Tattva-Prakāśikā* in turn that Vyāsatīrtha builds the *Tātparya-Candrikā* (a sub-sub-commentary), and on the *Candrikā* that Rāghavendra builds further *Prakāśa* sub-commentaries — the layered structure that defines the school's textual life. Doctrinally the work is the locus where Jayatīrtha most directly answers Śaṅkara's reading of the *Sūtras* line by line, providing the Mādhva counter-construal of *athāto brahma-jijñāsā*, the *adhyāsa-bhāṣya*, the *ānanda-mayādhikaraṇa*, and the *ghaṭākāśa* analogy at *Brahma-Sūtra* 2.3.43.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "vadavali",
+      "title": "Vadavali",
+      "title_iast": "Vādāvalī",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored polemical compendium.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "An independent polemical *prakaraṇa* in which Jayatīrtha argues for the reality of *bheda* directly, outside the commentarial frame. The text proceeds by considering the principal positive theories on which *bheda* might be \"reduced\" — Advaitic *vivarta* with *bheda* as superimposed, Bhāskara-style *aupādhika-bheda*, Nyāya-style *bheda* as a separate *padārtha* — and shows in each case that the reduction either fails on its own terms or smuggles back in the very *svarūpa-bheda* it sought to eliminate. Jayatīrtha's central positive thesis is that *bheda* is *svarūpa-svabhāva*: difference is not an additional ontological item attached to a substance but is constitutive of what the substance *is*; hence the standard regress-arguments against *bheda* (that it would itself need a further *bheda*, *ad infinitum*) misconstrue the relation. The *Vādāvalī* is short, sharp, and is the immediate ancestor of Vyāsatīrtha's *Nyāyāmṛta*-treatment of *bheda*; it is also the most accessible single-volume entry to Jayatīrtha's mature dialectical style.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1d-opus"
+}

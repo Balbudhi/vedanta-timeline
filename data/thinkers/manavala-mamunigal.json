@@ -1,0 +1,100 @@
+{
+  "id": "manavala-mamunigal",
+  "name": "Manavala Mamunigal",
+  "name_iast": "Maṇavāḷa Māmunigaḷ",
+  "alternate_names": ["Varavaramuni", "Yatīndra-Pravaṇa"],
+  "dates_low": 1370,
+  "dates_high": 1443,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Sectarian chronicles plus manuscript colophons.",
+  "dates_evidence": [
+    {
+      "kind": "sectarian-chronicle",
+      "description": "Tenkalai sectarian chronicles document his life-dates."
+    },
+    {
+      "kind": "manuscript-colophon",
+      "description": "Manuscript colophons across his commentary corpus."
+    }
+  ],
+  "school": "Viśiṣṭādvaita",
+  "school_color_token": "vishishtadvaita",
+  "sub_school": "Tenkalai",
+  "sub_school_shade": 4,
+  "lineage_in": ["pillai-lokacarya"],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Maṇavāḷa Māmunigaḷ is the consolidator of the Tenkalai school: the figure through whom Pillai-Lokācārya's positions are stabilised into an enduring tradition by exhaustive Tamil-Maṇipravāḷa commentary on the *aṣṭādaśa-rahasya* and on Nāmmāḻvār's *Tiruvāymoḻi*. He preserves Pillai-Lokācārya's core architecture — Brahman as Nārāyaṇa-with-Śrī, qualified by *cit* and *acit* in *apṛthak-siddha* relation; *prapatti* as the sole *upāya*; Bhagavān's *kṛpā* as sole effective cause of *mokṣa*; *bhāgavata-śeṣatva* as the highest status — and develops two distinctive emphases. (i) The supreme integration of *prabandham*-veneration with rahasya-doctrine: the Āḻvārs' Tamil hymns (especially *Tiruvāymoḻi*) are not merely devotional but doctrinally authoritative *śruti*-equivalent texts. (ii) The doctrine of *ācārya-abhimāna* — the surrendered self's salvation is mediated by the *ācārya*'s love and is wholly inseparable from being grasped within the lineage. Liberation is enacted not by the *jīva*'s effort but by being received into the *ācārya-paramparā* whose origin is Nārāyaṇa himself. He is traditionally invoked as the second *ācārya* after Rāmānuja (\\\"Rāmānujāya namaḥ\\\" extended to \\\"Śrī Śailesa-dayā-pātram …\\\").",
+  "engaged_works": [
+    {
+      "work_id": "mumukshuppadi-vyakhyana",
+      "title": "Mumukshuppadi-Vyakhyana",
+      "title_iast": "Mumukṣuppadi-Vyākhyāna",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored commentary on Pillai-Lokācārya's Mumukṣuppadi.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "tamil-manipravala",
+      "summary": "Tamil-Maṇipravāḷa commentary on Pillai-Lokācārya's *Mumukṣuppadi*, became the canonical Tenkalai exposition of the three esoteric *mantra*-s (*tirumantra*, *dvaya-mantra*, *carama-śloka*) and the school's standard catechetical handbook. Māmunigaḷ glosses each of Pillai-Lokācārya's 278 *cūrṇikā*-s with exemplary care, supplementing the original with cross-references to the entire Āḻvār *prabandham*-corpus, with citations from Nāthamuni, Yāmuna, and Rāmānuja's Sanskrit works, and with the lineage's oral expositions transmitted through the post-Pillai-Lokācārya generations. The commentary fixes the Tenkalai reading of contested points — especially the conditionless construal of *prapatti*, the rejection of *bhakti-yoga* as a separate *upāya* for the *ākiñcana*, the joint *upāya*-status of Śrī alongside Nārāyaṇa, and the doctrine of *ācārya-abhimāna* as the operative mediation of grace. The work matters because it is through this commentary, not through the *Mumukṣuppadi* alone, that Tenkalai students learn the rahasya-tradition; the commentary is treated as inseparable from the original.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "yatindra-pravana-prabhava",
+      "title": "Yatindra-Pravana-Prabhava",
+      "title_iast": "Yatīndra-Pravaṇa-Prabhāva",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored hagiographic-doctrinal text on Rāmānuja.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "rahasya",
+      "language": "tamil-manipravala",
+      "summary": "Tamil-Maṇipravāḷa work on Rāmānuja (*Yatīndra* — \"king of ascetics\") and the lineage of *ācārya*-s flowing from him, fusing hagiography with doctrinal exposition: the lives of the *ācārya*-s are themselves arguments for the school's soteriology, since they exemplify the operation of *ācārya-abhimāna* and *kṛpā* in concrete generations. Māmunigaḷ traces the descent from Nāthamuni through Yāmuna to Rāmānuja and then through the post-Rāmānuja Tenkalai succession (Kūrattāḻvān, Mudaliyāṇḍān, Embār, Bhaṭṭar, Nañjīyar, Periyavāccān Piḷḷai, Vaḍakku-tiru-vīdhi-piḷḷai, Pillai-Lokācārya), establishing that *prapatti* is enacted in the *ācārya-paramparā* and that one's salvation is entirely a function of one's being received into it. The work matters because it institutionalises the Tenkalai self-conception as the authentic post-Rāmānuja lineage and provides the textual basis for the *paramparā*-veneration that orders Tenkalai community-life. It is also a major source for the school's reception-history of the *Śrīvaiṣṇava-Guru-Paramparā* tradition.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "rahasya-corpus-commentaries",
+      "title": "Commentaries on Pillai Lokacharya's rahasya corpus",
+      "title_iast": "Rahasya-corpus commentaries",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored commentaries on the aṣṭādaśa-rahasya.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "tamil-manipravala",
+      "summary": "Tamil-Maṇipravāḷa commentaries on Pillai-Lokācārya's *aṣṭādaśa-rahasya* — the eighteen secret tracts including *Tattva-Trayam*, *Artha-Pañcaka*, *Prameya-Śekhara*, *Sāra-Saṃgraha*, *Yādṛcchika-Padi*, *Prapanna-Paritrāṇa*, and culminating in the *Śrī-Vacana-Bhūṣaṇa*. Māmunigaḷ's commentary on *Śrī-Vacana-Bhūṣaṇa* in particular is foundational for the Tenkalai school: it fixes the school's reading of the most contested Pillai-Lokācārya theses — that *prapatti* is conditionless; that Bhagavān's *kṛpā* is the sole effective cause of *mokṣa*; that Śrī is *upāya* alongside Nārāyaṇa; that *bhāgavata-śeṣatva* exceeds direct *Bhāgavat-śeṣatva*; that sin after surrender is itself an occasion for the Lord's love. Together with the *Tiruvāymoḻi*-commentary, these constitute the largest single commentarial corpus in Tenkalai literature and the textual basis on which the school's distinct Tamil-Maṇipravāḷa scholasticism rests. The commentaries also include the canonical Tenkalai exposition of the *Tattva-Trayam* ontology, paralleling Vaḍakalai's Sanskrit *Tattva-Muktā-Kalāpa* tradition.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "tiruvaymoli-vyakhyana",
+      "title": "Tiruvāymoḻi commentary",
+      "title_iast": "Tiruvāymoḻi-Vyākhyāna",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Tamil-Maṇipravāḷa commentary on Nāmmāḻvār's Tiruvāymoḻi.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "tamil-manipravala",
+      "summary": "Tamil-Maṇipravāḷa commentary on Nāmmāḻvār's *Tiruvāymoḻi* — the 1,102-verse Tamil hymn-cycle traditionally regarded as the *Drāviḍa-Veda* and as doctrinally authoritative in the Tenkalai school. Māmunigaḷ's commentary stands in the line of the great earlier Tenkalai *vyākhyāna*-s (Tirukkurukai-pirān-piḷḷān's *Āṛāyirappaḍi*, Naṅjīyar's *Onpadināyirappaḍi*, Periyavāccān-piḷḷai's *Irupattu-nālāyirappaḍi*, Vaḍakku-tiru-vīdhi-piḷḷai's *Muppattāṛāyirappaḍi*) and synthesises their exegetical achievements while integrating the rahasya-doctrine of Pillai-Lokācārya. The commentary reads each *pāsuram* as simultaneously devotional, doctrinal, and soteriological — the Āḻvār's longing, separation, and surrender to Bhagavān at Śrīraṅgam are taken as the lived enactment of *prapatti* in its fullest form. The work matters because it cements the Tenkalai claim that Nāmmāḻvār's Tamil *prabandham* is *śruti*-equivalent and that the Āḻvār's experiential surrender is the operative paradigm of the school's soteriology, complementing — and on Tenkalai reading exceeding in directness — the Sanskrit Vedānta tradition.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1c-opus"
+}

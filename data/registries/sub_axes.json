@@ -1,0 +1,217 @@
+{
+  "two-tier-hierarchy-of-independent-vs-dependent-reality": {
+    "name": "Two-tier hierarchy of independent vs. dependent reality",
+    "category": "ontology",
+    "definition": "Whether the school carves reality into one independent and one or more dependent strata, e.g. Madhva's svatantra/paratantra and Advaita's pāramārthika/vyāvahārika."
+  },
+  "number-of-fundamental-existents": {
+    "name": "Number of fundamental existents",
+    "category": "ontology",
+    "definition": "Whether ultimate reality counts as one (Brahman alone), two (Brahman + souls), three (Brahman + souls + world), or more eternally distinct categories."
+  },
+  "status-of-the-world": {
+    "name": "Status of the world",
+    "category": "ontology",
+    "definition": "Whether the world is real, mithyā (sad-asad-vilakṣaṇa), an avikṛta-pariṇāma of Brahman, an aupādhika appearance, or acintya-bhedābhinna with Brahman."
+  },
+  "status-of-individual-selves": {
+    "name": "Status of individual selves",
+    "category": "ontology",
+    "definition": "Whether jīvas are numerically identical with Brahman, merely apparently distinct, eternally distinct aṃśas, bimba-pratibimba images, or acintya-bhedābhinna parts."
+  },
+  "modal-status-of-difference-itself": {
+    "name": "Modal status of difference itself",
+    "category": "ontology",
+    "definition": "Whether bheda is a positive entity (Madhva's pañca-bheda as svarūpa), a vyāvṛtti / mutual exclusion, or an aupādhika superimposition."
+  },
+  "jiva-brahman-relation": {
+    "name": "Jīva–Brahman relation",
+    "category": "ontology",
+    "definition": "Specific structural relation posited between the individual self and Brahman: identity, aṃśa, pratibimba, śarīra-śarīri, acintya-bhedābheda, abhinna-but-distinct."
+  },
+  "three-types-of-difference": {
+    "name": "Three types of difference (svagata, sajātīya, vijātīya)",
+    "category": "ontology",
+    "definition": "Which of the three classical kinds of difference — internal-to-substrate, between-things-of-same-kind, between-things-of-different-kind — Brahman is taken to admit or exclude."
+  },
+  "ontological-tier-structure": {
+    "name": "Ontological tier-structure",
+    "category": "ontology",
+    "definition": "Whether the school admits multiple ontological tiers (e.g., pāramārthika/vyāvahārika/prātibhāsika in Advaita), and what work each tier does."
+  },
+  "type-of-cause": {
+    "name": "Type of causation",
+    "category": "causation",
+    "definition": "Vivarta-vāda (apparent transformation), pariṇāma-vāda (real transformation), satkārya / asatkārya, ārambha-vāda (origination), and avikāra-pariṇāma (change-without-change)."
+  },
+  "causation-satkarya-vs-asatkarya": {
+    "name": "Satkārya vs. asatkārya",
+    "category": "causation",
+    "definition": "Whether the effect pre-exists in its cause (satkārya, accepted by Sāṃkhya/Vedānta) or is a fresh production from non-existence (asatkārya, Nyāya-Vaiśeṣika)."
+  },
+  "where-causal-power-locates": {
+    "name": "Where causal power locates",
+    "category": "causation",
+    "definition": "Whether causal power resides in Brahman alone, in māyā / prakṛti, in Lakṣmī as cit-śakti, in Śiva's svātantrya, or distributively across reals."
+  },
+  "upadana-vs-nimitta-cause": {
+    "name": "Upādāna vs. nimitta cause",
+    "category": "causation",
+    "definition": "Whether Brahman serves as both material (upādāna) and efficient (nimitta) cause, or only one, with the other located elsewhere."
+  },
+  "locus-of-avidya": {
+    "name": "Locus of avidyā",
+    "category": "causation",
+    "definition": "Whether avidyā is located in Brahman (Vivaraṇa), in the jīva (Bhāmatī), in both, or denied as a real third entity (Madhva's polemic)."
+  },
+  "status-of-vyavaharika": {
+    "name": "Status of vyāvahārika",
+    "category": "ontology",
+    "definition": "Whether the empirical-transactional level is a metaphysically substantive sub-tier of reality or a merely pragmatic rubric, and how it relates to pāramārthika and prātibhāsika."
+  },
+  "number-and-status-of-pramanas": {
+    "name": "Number and status of pramāṇas",
+    "category": "epistemology",
+    "definition": "Whether the school counts three (Advaita classical), six (Bhāṭṭa Mīmāṃsā / Advaita), or some other set as autonomous instruments of knowledge."
+  },
+  "status-of-sruti": {
+    "name": "Status of śabda / śruti",
+    "category": "epistemology",
+    "definition": "Whether scriptural testimony is self-validating, validated by something else, coordinate with or superior to perception and inference."
+  },
+  "status-of-anubhava": {
+    "name": "Status of anubhava (immediate experience)",
+    "category": "epistemology",
+    "definition": "Whether immediate experience confirms testimony, functions as an independent pramāṇa, or is itself an object reached via testimony."
+  },
+  "theory-of-error": {
+    "name": "Theory of error",
+    "category": "epistemology",
+    "definition": "Anyathā-khyāti (Nyāya), anirvacanīya-khyāti (Advaita), akhyāti (Mīmāṃsā), or yathārtha-khyāti (Madhva's all-cognitions-true thesis)."
+  },
+  "saving-cognition-status": {
+    "name": "Saving-cognition status",
+    "category": "epistemology",
+    "definition": "Whether the cognition that liberates is jñāna, bhāvanā, upāsanā, bhakti, prapatti, or the recognition (pratyabhijñā) of one's own ever-pure nature."
+  },
+  "identity-of-liberated-state": {
+    "name": "Identity of the liberated state",
+    "category": "soteriology",
+    "definition": "Whether mokṣa is ekatva (identity), sāyujya (communion), sālokya (co-residence), sārūpya (same-form), sārṣṭi (same-power), or graded krama-mukti."
+  },
+  "moksa-as-isolation-vs-union": {
+    "name": "Mokṣa as isolation vs. union",
+    "category": "soteriology",
+    "definition": "Whether liberation is isolation of the self from world-bondage (kaivalya-leaning) or eternal union/communion with the personal Lord (sāyujya-leaning)."
+  },
+  "persistence-of-jiva-individuality-post-mukti": {
+    "name": "Persistence of jīva-individuality post-mukti",
+    "category": "soteriology",
+    "definition": "Whether jīva-individuality is annihilated, preserved with full intrinsic ānanda, or preserved as an aṃśa within Brahman's body."
+  },
+  "jivanmukti-possibility": {
+    "name": "Possibility of jīvanmukti",
+    "category": "soteriology",
+    "definition": "Whether liberation is achievable while embodied (yes for Advaita; denied by strict Madhva; nuanced for others)."
+  },
+  "effective-means-of-moksa": {
+    "name": "Effective means of mokṣa",
+    "category": "soteriology",
+    "definition": "Whether liberation is achieved by jñāna alone, jñāna + karma, bhakti, prapatti, līlā-recognition, or some specified combination."
+  },
+  "role-of-grace-vs-effort": {
+    "name": "Role of grace vs. effort",
+    "category": "soteriology",
+    "definition": "The relative weight of divine kṛpā and human sādhana, including the Vaḍakalai monkey-hold and Tenkalai cat-hold positions on prapatti."
+  },
+  "role-of-bhakti": {
+    "name": "Role of bhakti",
+    "category": "ethics-devotion",
+    "definition": "Whether bhakti is a preliminary discipline, the saving cognition itself, superior to jñāna, or identical to jñāna under another aspect."
+  },
+  "status-of-karma": {
+    "name": "Status of karma",
+    "category": "ethics-devotion",
+    "definition": "Whether ritual / ethical action is purificatory, to be abandoned, to be performed niṣkāma, or to be performed as pūjā."
+  },
+  "status-of-dharma": {
+    "name": "Status of dharma",
+    "category": "ethics-devotion",
+    "definition": "Whether dharma is socially-instrumental, cosmologically-real, or a lakṣaṇā (indicator) of liberation."
+  },
+  "status-of-personal-lord": {
+    "name": "Status of the personal Lord (Iśvara)",
+    "category": "ethics-devotion",
+    "definition": "Whether the personal Lord is provisional (sopādhika), ultimate, identical to Brahman, or in some sense superior to nirguṇa-Brahman."
+  },
+  "surrender-prapatti": {
+    "name": "Surrender (prapatti / śaraṇāgati / ātma-nivedana)",
+    "category": "ethics-devotion",
+    "definition": "Whether surrender is supplementary to other paths (Vaḍakalai) or itself sufficient and total (Tenkalai); whether it issues from poverty or fullness."
+  },
+  "mithya-vs-asat": {
+    "name": "Mithyā vs. asat",
+    "category": "ontology",
+    "definition": "Whether mithyā collapses to non-existence (the Madhva polemic charge) or names sad-asad-vilakṣaṇa, neither sat nor asat (Advaita self-interpretation)."
+  },
+  "acintya-modal-operator": {
+    "name": "Acintya as modal operator",
+    "category": "ontology",
+    "definition": "Whether 'inconceivable' (acintya) functions as a serious modal qualifier on bhedābheda (Caitanya / Jīva) rather than as a confession of vagueness."
+  },
+  "sapta-vidha-anupapatti": {
+    "name": "Sapta-vidhā-anupapatti",
+    "category": "causation",
+    "definition": "Rāmānuja's seven untenabilities of avidyā, the Viśiṣṭādvaitin core polemic against Advaitic māyā."
+  },
+  "sarira-sariri-bhava": {
+    "name": "Śarīra-śarīri-bhāva",
+    "category": "ontology",
+    "definition": "The body-soul relation Rāmānuja takes between Brahman and the totality of cit-acit modes; the Viśiṣṭādvaitin alternative to Advaitic identity."
+  },
+  "svatantra-vs-paratantra": {
+    "name": "Svatantra vs. paratantra",
+    "category": "ontology",
+    "definition": "Madhva's structuring distinction between the one independent reality (Viṣṇu) and all dependent reals; structurally compared with Advaita's pāramārthika/vyāvahārika."
+  },
+  "panca-bheda": {
+    "name": "Pañca-bheda",
+    "category": "ontology",
+    "definition": "Madhva's five eternal distinctions (Viṣṇu–jīva, Viṣṇu–jaḍa, jīva–jīva, jīva–jaḍa, jaḍa–jaḍa) treated as ontologically real."
+  },
+  "bimba-pratibimba": {
+    "name": "Bimba-pratibimba",
+    "category": "ontology",
+    "definition": "The image-and-prototype relation Madhva takes between Viṣṇu and jīvas: structurally similar yet really distinct."
+  },
+  "ajati-vada": {
+    "name": "Ajāti-vāda",
+    "category": "causation",
+    "definition": "Gauḍapāda's non-origination thesis: nothing whatsoever ever comes into being; the deepest root of Advaita."
+  },
+  "vivarta-vs-parinama": {
+    "name": "Vivarta vs. pariṇāma",
+    "category": "causation",
+    "definition": "Whether the world is an apparent transformation (vivarta) of Brahman as in Advaita, or a real transformation (pariṇāma) of Brahman or its śakti."
+  },
+  "avikrta-parinama": {
+    "name": "Avikṛta-pariṇāma",
+    "category": "causation",
+    "definition": "Vallabha's thesis that Brahman undergoes real manifestation as the world without intrinsic alteration; the Śuddhādvaita alternative to vivarta."
+  },
+  "svatantrya-divine-self-veiling": {
+    "name": "Svātantrya / divine self-veiling",
+    "category": "causation",
+    "definition": "The Trika thesis that the manifest world is the absolute's sovereign free self-presentation/self-veiling; the comparator-axis for Vivaraṇa Brahman-as-locus-of-avidyā."
+  },
+  "rasa-as-saving-aesthesis": {
+    "name": "Rasa as saving aesthesis",
+    "category": "ethics-devotion",
+    "definition": "Whether aesthetic disinterested experience (rasa) is itself a path or analog of liberating cognition (Abhinavagupta, Rūpa Gosvāmī)."
+  },
+  "school-as-bhasya-vs-school-as-living-tradition": {
+    "name": "School-as-bhāṣya vs. school-as-living-tradition",
+    "category": "ethics-devotion",
+    "definition": "Whether a school is identified by its securely-authored bhāṣya corpus or by its living tradition including school-ascribed stotras and devotional practice."
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "sanatana-gosvami",
+  "name": "Sanatana Gosvami",
+  "name_iast": "Sanātana Gosvāmī",
+  "alternate_names": [],
+  "dates_low": 1488,
+  "dates_high": 1558,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Mughal court records (former finance official); dates well-established.",
+  "dates_evidence": [
+    {
+      "kind": "court-record",
+      "description": "Mughal-period court records of his pre-conversion administrative role."
+    },
+    {
+      "kind": "manuscript-colophon",
+      "description": "Manuscript colophons across his Bṛhad-Bhāgavatāmṛta and Hari-Bhakti-Vilāsa."
+    }
+  ],
+  "school": "Acintya-Bhedābheda",
+  "school_color_token": "acintya",
+  "sub_school": "Gauḍīya",
+  "sub_school_shade": 3,
+  "lineage_in": ["caitanya"],
+  "lineage_out": ["jiva-gosvami"],
+  "lineage_polemical": [],
+  "core_thesis": "Sanātana Gosvāmī works the *acintya-bhedābheda* doctrine into two complementary registers — narrative-theological and ritual-practical — that together establish the Gauḍīya tradition's institutional and contemplative form. He affirms with the school that Kṛṣṇa is *svayaṃ-bhagavān*, the *jīva* an eternal *taṭastha-śakti* simultaneously different and non-different from him by *acintya-śakti*, and *bhakti* the only *abhidheya* (means) and *prema* the only *prayojana* (end). His original contribution is to make this doctrine liveable: the *Bṛhad-Bhāgavatāmṛta* dramatises in two extended quests the search for the most exalted *bhakta* and the structure of Vraja-līlā as the goal-form of *prema-bhakti*, while the *Hari-Bhakti-Vilāsa* (commissioned by Caitanya) supplies the comprehensive *vaiṣṇava-smṛti* — *dīkṣā*, *arcana*, *vaidhī-sādhana*, calendar, *vrata*, and conduct — by which a *vaiṣṇava* community acquires durable form. Sanātana is therefore the Gauḍīya school's narrative theologian and its ritual codifier in one figure.",
+  "engaged_works": [
+    {
+      "work_id": "brhad-bhagavatamrta",
+      "title": "Brhad-Bhagavatamrta",
+      "title_iast": "Bṛhad-Bhāgavatāmṛta",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The *Bṛhad-Bhāgavatāmṛta* is Sanātana's two-part narrative-theological masterwork. The first part (*Pūrva-Khaṇḍa*, *Bhakta-Tattva*) follows the sage Nārada through a graded hierarchy of devotees — culminating in the *gopīs* of Vraja — to demonstrate by ascending example that *prema-bhakti* in *mādhurya-rasa* is the supreme form of devotion. The second part (*Uttara-Khaṇḍa*, *Goloka-Tattva*) follows the brāhmaṇa Gopa-Kumāra through the cosmography of devotional realms — Svarga, the *Brahmajyoti*, Vaikuṇṭha, Ayodhyā, Dvārakā, and finally Goloka-Vṛndāvana — to establish Kṛṣṇa-līlā as the highest-ranked attainment. The narrative form is doctrinally consequential: it embeds the technical *acintya-bhedābheda* claim that the eschatological *jīva* enters real, eternal, individuated relationship with Bhagavān, never dissolving into impersonal *brahmajyoti*. The work also carries Sanātana's own auto-commentary, the *Dig-Darśinī*, which makes it function simultaneously as theological *kāvya* and as systematic exposition of Gauḍīya soteriology.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "hari-bhakti-vilasa",
+      "title": "Hari-Bhakti-Vilasa",
+      "title_iast": "Hari-Bhakti-Vilāsa",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Gauḍīya manual of practice.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "rahasya",
+      "language": "sanskrit",
+      "summary": "The *Hari-Bhakti-Vilāsa* is the Gauḍīya school's comprehensive *vaiṣṇava-smṛti*, organised in twenty *vilāsas* and composed by Sanātana on Caitanya's commission (with Gopāla Bhaṭṭa Gosvāmī's collaboration on the practical-ritual material). It codifies the entire ritual life of a Gauḍīya practitioner: *dīkṣā* (initiation) and the *guru-paramparā*; *mantra*-structure; *arcana* of the *śāli-grāma* and Deity; daily, periodic, and seasonal observances (*nitya*, *naimittika*); the Vaiṣṇava calendar with its *vratas* and *utsavas*, especially the *Ekādaśī* observances; rules of personal conduct, food, and association; and the *prāyaścitta* (atonement) procedures. Doctrinally, the work assumes *acintya-bhedābheda* and treats *vaidhī-bhakti* as the structural scaffolding within which *rāgānugā-bhakti* matures. As the school's authoritative ritual code, the *Hari-Bhakti-Vilāsa* gave the Gauḍīya tradition the institutional form by which it survived and spread beyond Bengal.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "vaisnava-toshani",
+      "title": "Vaishnava-Toshani",
+      "title_iast": "Vaiṣṇava-Toṣaṇī",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Bhāgavata commentary.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "The *Vaiṣṇava-Toṣaṇī* is Sanātana's commentary on the tenth book of the *Bhāgavata-Purāṇa* — the central textual locus for Kṛṣṇa-līlā and therefore the most consequential single passage of scripture for the Gauḍīya school. Sanātana reads the tenth book as the *Bhāgavata*'s self-disclosed climax, with Vraja-līlā as its still centre. He systematically draws out the school's doctrinal commitments at the verses that have become school-defining: Kṛṣṇa as *svayaṃ-bhagavān* (e.g., 1.3.28); the ontological status of Vraja and its inhabitants as *nitya-siddha*; the *gopīs*' love as the paradigm of *mādhurya-rasa*; and the conditions of *līlā*-participation. Jīva Gosvāmī later abridges and supplements this work in his *Laghu-Vaiṣṇava-Toṣaṇī*, which becomes the more widely circulated form. Sanātana's commentary is thus both the school's first sustained tenth-book exegesis and the textual basis on which the Gauḍīya theology of Vraja is built.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1e-opus"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "mandana",
+  "name": "Mandana Misra",
+  "name_iast": "Maṇḍana Miśra",
+  "alternate_names": [],
+  "dates_low": 660,
+  "dates_high": 720,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Contemporary with Śaṅkara; legendary debate may be later hagiography but textual contemporaneity is solid.",
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Bhāmatī-Advaita",
+  "sub_school_shade": 2,
+  "lineage_in": ["brahmadatta", "bhartrhari"],
+  "lineage_out": ["vacaspati"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "sureshvara",
+      "direction": "mutual",
+      "note": "Maṇḍana's bhāvanā / jīva-as-locus-of-avidyā position is structurally opposed to Sureśvara's jñāna-only / Brahman-as-locus-of-avidyā stream."
+    }
+  ],
+  "core_thesis": "Maṇḍana defends *advaita* in a distinctive register shaped by his prior Mīmāṃsaka training. *Brahman* is one, of the nature of consciousness-bliss, and *avidyā* — the principle of apparent multiplicity — is located in the *jīvas* (not in *brahman*), is plural (one per *jīva*), and is *anirvacanīya* (indeterminable as either real or unreal). Knowledge of *brahman* arises from *mahāvākya*-cognition, but the cognition does not by itself terminate ignorance: liberating realization requires *prasaṅkhyāna* — sustained meditative *bhāvanā* on the truth, prolonged and repeated until the *aparokṣa* (immediate) realization stabilizes. This *jñāna-bhāvanā* doctrine and the *jīva*-locus account of *avidyā* are the two doctrinal hinges that distinguish the eventual *Bhāmatī* sub-school (transmitted via Vācaspati) from the Sureśvara-Vivaraṇa stream, which holds *avidyā* as one and located in *brahman* and which treats *vākya*-cognition as itself sufficient. Maṇḍana also takes *śabda* — following Bhartṛhari — as a primary route into *brahman*, integrating *śabda-advaita* into Vedānta proper.",
+  "engaged_works": [
+    {
+      "work_id": "brahma-siddhi",
+      "title": "Brahma-Siddhi",
+      "title_iast": "Brahma-Siddhi",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored. The traditional identification of pre-conversion Maṇḍana with Sureśvara is disputed (rejected by Hiriyanna; affirmed by traditional sectarian sources).",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern consensus accepts Maṇḍana's authorship of the Brahma-Siddhi."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "An independent *prakaraṇa* in four chapters (*kāṇḍas*): *Brahma-Kāṇḍa* (the nature of *brahman* and the *jīva*'s relation to it), *Tarka-Kāṇḍa* (epistemological defense — *pramāṇa* analysis, refutation of *bhedavāda*), *Niyoga-Kāṇḍa* (engagement with Mīmāṃsaka *niyoga*/injunction theory and the relation of Vedic action to liberating knowledge), *Siddhi-Kāṇḍa* (the consummation: realization, *prasaṅkhyāna*-method, *jīvanmukti*). The *prasaṅkhyāna-vāda* — that Upaniṣadic *mahāvākya*-cognition must be prolonged into meditative *bhāvanā* before liberating realization arises — is the work's signature, and is precisely what Sureśvara's Naiṣkarmya-Siddhi will reject. The text-historical question of whether Maṇḍana is identical to the pre-conversion Sureśvara/Viśvarūpa is contested: traditional Advaita sectarian sources affirm the identification, while Hiriyanna and most modern academics (Thrasher, Allen Thrasher's monograph) reject it on grounds of doctrinal divergence between the Brahma-Siddhi and Sureśvara's Naiṣkarmya-Siddhi.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1a-opus"
+}

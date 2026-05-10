@@ -1,0 +1,45 @@
+{
+  "id": "brahmananda-saraswati",
+  "name": "Brahmananda Sarasvati (Shankaracharya of Jyotirmath)",
+  "name_iast": "Brahmānanda Sarasvatī",
+  "alternate_names": ["Śaṅkarācārya of Jyotirmath (1941–1953)"],
+  "dates_low": 1871,
+  "dates_high": 1953,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Modern; well-documented.",
+  "dates_evidence": [
+    {
+      "kind": "sectarian-chronicle",
+      "description": "Jyotirmath Maṭha records and modern published biographies."
+    }
+  ],
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Modern Advaita revival",
+  "sub_school_shade": 5,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Brahmānanda Sarasvatī (1871–1953), Śaṅkarācārya of Jyotirmath from 1941 to 1953, is the modern revivalist face of orthodox Advaita Vedānta within the Daśanāmī monastic tradition. His project is the practical re-establishment of the Jyotirmath seat (long vacant) and the oral transmission of Śaṅkara's *siddhānta* in the vernacular registers of mid-twentieth-century North India. Doctrinally he is conservative Vivaraṇa-line Advaita: *Brahman* alone is real, the world is *vyāvahārika*, the *jīva* is non-different from *Brahman* though appearing as *cidābhāsa* under *avidyā*, and *brahma-jñāna* — prepared by *karma* and *upāsanā*, ripened by *śravaṇa-manana-nididhyāsana* — is the unique means of *mokṣa*. His distinctive contribution is institutional and pedagogical rather than scholastic: the consolidation of a modern Jyotirmath disciple-line and the translation of high *siddhānta* into accessible Hindi *satsaṅga* discourse. Almost no formal Sanskrit *prakaraṇas* survive; the corpus is principally his recorded discourses, transmitted by disciples.",
+  "engaged_works": [
+    {
+      "work_id": "discourses",
+      "title": "Recorded discourses",
+      "title_iast": "Recorded discourses",
+      "alternate_titles": [],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed; few formal treatises survive — corpus consists chiefly of recorded discourses.",
+      "genre": "dialogue",
+      "language": "hindi",
+      "summary": "Collected Hindi *satsaṅga* discourses delivered by Brahmānanda Sarasvatī during his tenure (1941–1953) as Śaṅkarācārya of Jyotirmath, recorded by disciples and circulated in modern editions. Doctrinally the discourses present orthodox Vivaraṇa-line Advaita in the vernacular pedagogical register: the unreality of the world as *vyāvahārika*, the analytic non-difference of *jīva* and *Brahman*, the role of *karma*, *upāsanā*, *bhakti*, and *jñāna* in the path to *mokṣa*, the discipline of *śravaṇa-manana-nididhyāsana*, and the necessity of a qualified *guru*. They matter primarily as a witness to twentieth-century Daśanāmī Advaita pedagogy and to the transmission of orthodox *siddhānta* outside the technical Sanskrit *śāstra*-idiom; the corpus is foundational for several modern lineages claiming descent from the Jyotirmath seat. (NB: this is the modern Jyotirmath Śaṅkarācārya, distinct from the seventeenth-century Gauḍa-Brahmānanda Sarasvatī who authored the *Laghu-Candrikā* — flagged as skeleton mapping mismatch with prompt.)",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1b-opus"
+}

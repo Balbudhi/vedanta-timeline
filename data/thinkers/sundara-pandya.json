@@ -1,0 +1,39 @@
+{
+  "id": "sundara-pandya",
+  "name": "Sundara-Pandya",
+  "name_iast": "Sundara-Pāṇḍya",
+  "alternate_names": [],
+  "dates_low": 600,
+  "dates_high": 700,
+  "dates_tier": "oral-tradition-only",
+  "dates_notes": "Pre-Śaṅkara; cited by Sureśvara in the Naiṣkarmya-Siddhi; verses preserved as quotations only.",
+  "school": "proto-Vedānta",
+  "school_color_token": "proto",
+  "sub_school": "Proto-Advaita",
+  "sub_school_shade": 1,
+  "lineage_in": [],
+  "lineage_out": ["sureshvara", "mandana"],
+  "lineage_polemical": [],
+  "core_thesis": "As reconstructed from later citations: Sundara-Pāṇḍya is a pre-Śaṅkara author known almost entirely through verses preserved as citations in Sureśvara's *Naiṣkarmya-Siddhi* (and a handful of other Advaita prakaraṇas). The corpus that survives — perhaps a dozen verses — is read by Sureśvara as a friendly, almost-Advaita authority: the verses defend the immediacy of *ātma-jñāna* as the direct cause of *mokṣa* against *jñāna-karma-samuccaya*, treat the *jīva* as not-other than Brahman in its essential nature, and articulate the inadequacy of *karma* and ritual to produce the liberating apprehension. He is therefore standardly classed by the tradition as a proto-Advaitin: not a fully developed Śaṅkara-style *māyāvādin*, but a Vedāntin whose verses already hold the structural commitments — non-difference, the directness of *jñāna*, the inertness of *karma* with respect to *mokṣa* — that Śaṅkara's school will systematize. Nothing of him beyond the cited verses is recoverable: not his school-affiliation, not his literary corpus, not his geographical or chronological context.",
+  "engaged_works": [
+    {
+      "work_id": "lost-verses",
+      "title": "Lost verses cited in Naishkarmya-Siddhi",
+      "title_iast": "Lost verses cited in Naiṣkarmya-Siddhi",
+      "alternate_titles": [],
+      "ascription_tier": "disputed",
+      "ascription_notes": "Verse-corpus is lost; preserved only as citations within Sureśvara's Naiṣkarmya-Siddhi.",
+      "genre": "verse-summary",
+      "language": "sanskrit",
+      "summary": "Sundara-Pāṇḍya's literary corpus is lost. What survives is a set of verses (the most-cited cluster appears in *Naiṣkarmya-Siddhi* book 1, where Sureśvara invokes them as authoritative against the *jñāna-karma-samuccaya* opponent) which Sureśvara introduces with explicit attribution and treats as authoritative on the side of immediate *jñāna* as the direct cause of *mokṣa*. The verses articulate (i) the essential non-difference of the self and Brahman as the upaniṣadic teaching's settled meaning, (ii) the structural unfitness of *karma* — bound to action, agency, and *kartṛtva*-falsity — to be a means to a liberation that consists in the cessation of all such superimpositions, and (iii) the sufficiency of correct upaniṣadic apprehension. This is the basis for the standard tradition-internal classification of Sundara-Pāṇḍya as a proto-Advaitin or near-Advaitin pre-Śaṅkara authority. Nothing of his original work, its title, or its full extent can be recovered.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1f-opus"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "upavarsa",
+  "name": "Upavarsa",
+  "name_iast": "Upavarṣa",
+  "alternate_names": ["Bhagavān Upavarṣa"],
+  "dates_low": 100,
+  "dates_high": 400,
+  "dates_tier": "oral-tradition-only",
+  "dates_notes": "Cited by Śaṅkara as Bhagavān Upavarṣa and sampradāya-vid; possibly identical with the Mīmāṃsā Vṛttikāra; no surviving Vedānta work.",
+  "school": "proto-Vedānta",
+  "school_color_token": "proto",
+  "sub_school": "Claimed by both Advaita and Viśiṣṭādvaita",
+  "sub_school_shade": 2,
+  "lineage_in": [],
+  "lineage_out": ["sankara", "ramanuja"],
+  "lineage_polemical": [],
+  "core_thesis": "As reconstructed from later citations: Upavarṣa — addressed by Śaṅkara as *bhagavān upavarṣaḥ* and as a *sampradāya-vid* — is a pre-Śaṅkara teacher cited as an authority on both Pūrva- and Uttara-Mīmāṃsā. He is named in Śaṅkara's *Brahma-Sūtra-Bhāṣya* at 1.1.1, 3.3.53, and elsewhere, almost always with respect and almost always on questions where Vedānta inherits Mīmāṃsā machinery: the unitary subject-matter of the two Mīmāṃsās, the nature of Vedic apprehension, the role of the *ātman* in cognition, the analysis of *śabda*. Tradition (and a substantial strand of modern scholarship) tentatively identifies him with the *Vṛttikāra* on Jaimini's sūtras whose work Śabara summarizes. The position firmly attestable to him on the *jīva-Brahman* relation is minimal: he is a Vedāntin who treats the Upaniṣads as a continuous Mīmāṃsā subject-matter with the karma-kāṇḍa, holds the *ātman* to be a real, conscious witness directly evident in cognition, and grounds the authority of *śabda* in something like the *abhihitānvaya* analysis. Both Advaita and Viśiṣṭādvaita claim him; nothing of his actual commentary survives.",
+  "engaged_works": [
+    {
+      "work_id": "lost-vedantic-citations",
+      "title": "Lost Vedantic citations",
+      "title_iast": "Lost Vedāntic citations",
+      "alternate_titles": [],
+      "ascription_tier": "disputed",
+      "ascription_notes": "Work is lost; cited respectfully by Śaṅkara at Brahma-Sūtra-Bhāṣya 1.1.1 and 3.3.53, and claimed by Rāmānuja's school as well.",
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "summary": "Upavarṣa's commentary or commentaries are lost; what survives is a small set of named citations across the Mīmāṃsā and Vedānta corpora. Śaṅkara at *Brahma-Sūtra-Bhāṣya* 1.1.1 invokes Upavarṣa for the principle that the *Pūrva-Mīmāṃsā* and *Uttara-Mīmāṃsā* form a single *śāstra* whose subject is Vedic understanding as a whole. At 3.3.53 Śaṅkara cites *bhagavān upavarṣaḥ* on the existence of the *ātman* as the directly-evident, persistent conscious subject of cognition (against a Buddhist denial). Śabara's *Bhāṣya* on the Mīmāṃsā-Sūtras refers to the *Vṛttikāra* — by long tradition identified with Upavarṣa — for the analysis of *śabda* and *artha* (the *abhihitānvaya* doctrine, the rejection of the *sphoṭa*). Rāmānuja and his successors invoke him as a *sampradāya*-authority for Viśiṣṭādvaita; Bhāmatī tradition invokes him for Advaita. The actual scope, organization, and date of his work cannot be recovered from these scattered respectful references.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1f-opus"
+}

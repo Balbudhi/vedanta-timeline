@@ -1,0 +1,47 @@
+{
+  "pratyaksa": {
+    "iast": "pratyakṣa",
+    "english": "perception",
+    "gloss": "Direct sensory cognition: knowledge arising from contact between sense-organ and object."
+  },
+  "anumana": {
+    "iast": "anumāna",
+    "english": "inference",
+    "gloss": "Knowledge of an unperceived object via a known invariable concomitance (vyāpti) with a perceived sign (liṅga)."
+  },
+  "sabda": {
+    "iast": "śabda",
+    "english": "verbal testimony",
+    "gloss": "Knowledge from a reliable utterance, paradigmatically apauruṣeya śruti for the Vedāntin."
+  },
+  "upamana": {
+    "iast": "upamāna",
+    "english": "comparison",
+    "gloss": "Knowledge of a thing's resemblance to a previously cognized object, accepted as an independent pramāṇa by Mīmāṃsā and Advaita epistemology."
+  },
+  "arthapatti": {
+    "iast": "arthāpatti",
+    "english": "postulation",
+    "gloss": "Knowledge by necessary supposition: the only explanation of an otherwise inexplicable fact (e.g., Devadatta is fat though he never eats by day, so he must eat by night)."
+  },
+  "anupalabdhi": {
+    "iast": "anupalabdhi",
+    "english": "non-apprehension",
+    "gloss": "Cognition of absence: knowledge of a thing's non-existence in a locus by the failure of a competent perception that would have apprehended it had it been present."
+  },
+  "smrti": {
+    "iast": "smṛti",
+    "english": "remembered authoritative texts",
+    "gloss": "Authoritative tradition derivative of (and consistent with) śruti; for the Vedāntin a derivative source of right cognition."
+  },
+  "sambhava": {
+    "iast": "sambhava",
+    "english": "inclusion",
+    "gloss": "Knowledge of a part-quantity from cognition of the larger whole that includes it (e.g., one hundred is in one thousand)."
+  },
+  "abhava": {
+    "iast": "abhāva",
+    "english": "non-existence",
+    "gloss": "When treated as a distinct pramāṇa (Bhāṭṭa Mīmāṃsā), the cognitive instrument for knowing absence; otherwise subsumed under anupalabdhi."
+  }
+}

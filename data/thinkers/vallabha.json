@@ -1,0 +1,100 @@
+{
+  "id": "vallabha",
+  "name": "Vallabhacharya",
+  "name_iast": "Vallabhācārya",
+  "alternate_names": ["Vallabha"],
+  "dates_low": 1479,
+  "dates_high": 1531,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Mughal-era court records and sectarian chronicles align.",
+  "dates_evidence": [
+    {
+      "kind": "court-record",
+      "description": "Mughal-period court records of his life and patronage."
+    },
+    {
+      "kind": "sectarian-chronicle",
+      "description": "Puṣṭimārga sectarian chronicles."
+    }
+  ],
+  "school": "Śuddhādvaita",
+  "school_color_token": "shuddha",
+  "sub_school": "Śuddhādvaita (school-defining)",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": ["vitthalanatha"],
+  "lineage_polemical": [],
+  "core_thesis": "Vallabha's *śuddhādvaita* — \"pure non-dualism\" — holds that Brahman, identified with Kṛṣṇa, is absolutely non-dual and the sole reality, and that the world and the *jīvas* are equally real precisely as Brahman's own *aṃśas*. Crucially, this is non-dualism *without* *māyā*: the world is not illusory appearance but a genuine *avirbhāva–tirobhāva* — manifestation and concealment — of Brahman's own *sat-cit-ānanda* qualities, sometimes labelled *avikṛta-pariṇāma-vāda* (transformation-without-mutation). *Jīva* manifests *sat* and *cit* with *ānanda* concealed; *jagat* manifests *sat* with *cit* and *ānanda* concealed. The world's reality is essential to the position and is the principal contrast with Śaṅkara's Advaita, with which *śuddhādvaita* should not be conflated. Liberation is not realisation of acosmic identity but the awakening of *bhakti* and entry into Bhagavān's *līlā*. The lineage's distinctive devotional path is *Puṣṭi-Mārga* — the path of grace — in which liberation is bestowed by Kṛṣṇa's free *anugraha* on the *bhakta* he selects, and *seva* (Deity-service) is the operative practice.",
+  "engaged_works": [
+    {
+      "work_id": "anu-bhasya",
+      "title": "Anu-Bhashya",
+      "title_iast": "Aṇu-Bhāṣya",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored for the portion Vallabha himself completed; the third-pāda-onward continuation was by his son Viṭṭhalanātha.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "summary": "The *Aṇu-Bhāṣya* is Vallabha's Brahma-Sūtra commentary and the school-defining bhāṣya of *śuddhādvaita*. \"Aṇu\" (\"small\") refers both to its terse glossing style and to its self-presentation alongside the lost or projected *Bṛhad-Bhāṣya*. Vallabha completed roughly the first two and a half *adhyāyas* before his death; the remainder was supplied by his son Viṭṭhalanātha. Doctrinally the bhāṣya construes the *sūtras* throughout as licensing *avikṛta-pariṇāma-vāda*: Brahman is the substantial cause of the world by genuine but unmodifying transformation, the *jīva* is *aṃśa* with *ānanda* concealed, *jagat* is *aṃśa* with *cit* and *ānanda* concealed, and *māyā-vāda* is rejected. Polemically the work targets both Śaṅkara — for treating the world as *mithyā* and Brahman as inactive — and Rāmānuja — for the *śarīra-śarīrin* qualification that Vallabha takes as superfluous once *avikṛta-pariṇāma* is admitted. It is the canonical Puṣṭimārga doctrinal reference.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "tattvartha-dipa-nibandha",
+      "title": "Tattvartha-Dipa-Nibandha",
+      "title_iast": "Tattvārtha-Dīpa-Nibandha",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored systematic exposition of Śuddhādvaita.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The *Tattvārtha-Dīpa-Nibandha* is Vallabha's three-part systematic exposition of *śuddhādvaita*, organised as commentary-cum-exposition on three *prasthāna* texts: *Śāstrārtha-Prakaraṇa* (which sets out the *prasthāna-traya* method and Vallabha's interpretive principles), *Sarva-Nirṇaya-Prakaraṇa* (which fixes the school's settled doctrinal positions across *Brahman*, *jīva*, *jagat*, *bandha*, *mokṣa*, and *bhakti*), and *Bhāgavata-Artha-Prakaraṇa* (which establishes the *Bhāgavata-Purāṇa* as the *pramāṇa-śiromaṇi* and reads its central themes through *śuddhādvaita*). The *Nibandha* is the school's most accessible synoptic statement, free from the *sūtra*-form constraints of the *Aṇu-Bhāṣya* and free from the verse-by-verse pacing of the *Subodhinī*. It establishes *avikṛta-pariṇāma-vāda* as the school's signature ontological thesis and *Puṣṭi-Mārga* as its operative soteriology, and provides the polemical framing against Advaita and Viśiṣṭādvaita that all later Puṣṭimārga scholasticism inherits.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "subodhini",
+      "title": "Subodhini on Bhagavata",
+      "title_iast": "Subodhinī",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Bhāgavata commentary; Vallabha completed a portion, with Viṭṭhalanātha continuing.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "The *Subodhinī* is Vallabha's verse-by-verse commentary on the *Bhāgavata-Purāṇa* and is the most extensive of his works. He reads the *Bhāgavata* as the *naijagama-bhāṣya* — the natural commentary on the *Brahma-Sūtras* and Upaniṣads — and so as the supreme *pramāṇa* for *śuddhādvaita*. Vallabha completed substantial portions (notably on books one through three and most of the tenth book) before his death; Viṭṭhalanātha continued the work. The commentary is doctrinally precise — Brahman as Kṛṣṇa with all *guṇas* manifest, *jīva* and *jagat* as *aṃśa* through *avirbhāva-tirobhāva*, the rejection of *māyā-vāda* — and is also a major work of devotional exegesis, especially on the tenth book, where Vraja-līlā is read as the central self-disclosure of Bhagavān and the model for *Puṣṭi-Mārga* *seva*. The *Subodhinī* is the principal Puṣṭimārga reference for *Bhāgavata*-interpretation and the spiritual heart of the lineage's textual practice.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "shodasha-granthah",
+      "title": "Shodasha-Granthah",
+      "title_iast": "Ṣoḍaśa-Granthāḥ",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored sixteen short treatises foundational for the Puṣṭimārga.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The *Ṣoḍaśa-Granthāḥ* are sixteen short Sanskrit tracts that together codify *Puṣṭi-Mārga* devotional practice and self-understanding. Among the most consequential are the *Yamunāṣṭakam* (eight verses on the river Yamunā as Kṛṣṇa-presence), *Bāla-Bodha* (an introductory doctrinal primer), *Siddhānta-Muktāvalī* (a verse summary of *śuddhādvaita*), *Puṣṭi-Pravāha-Maryādā* (on the typology of souls and the operation of *anugraha*), *Siddhānta-Rahasya* (the doctrinal foundation of the *brahma-saṃbandha* initiation that joins the *bhakta* to Kṛṣṇa), *Navaratnam* (\"nine jewels\" — a brief consolatory teaching on dependence on Kṛṣṇa), and the *Antaḥkaraṇa-Prabodha* and *Sarva-Nirṇaya* tracts on inner discernment. As a corpus the *Ṣoḍaśa-Granthāḥ* function as the lineage's portable devotional and doctrinal manual: short enough to be memorised, doctrinally precise, and addressed directly to the practitioner of *Puṣṭi-Mārga seva*. They are recited and studied in Puṣṭimārga households to this day.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1e-opus"
+}

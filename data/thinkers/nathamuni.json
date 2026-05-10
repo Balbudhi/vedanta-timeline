@@ -1,0 +1,52 @@
+{
+  "id": "nathamuni",
+  "name": "Nathamuni",
+  "name_iast": "Nāthamuni",
+  "alternate_names": ["Śrī Nāthamuni"],
+  "dates_low": 823,
+  "dates_high": 924,
+  "dates_tier": "oral-tradition-only",
+  "dates_notes": "Sectarian chronicles only; foundational figure who recovered the Āḻvārs' Tamil hymns.",
+  "school": "Viśiṣṭādvaita",
+  "school_color_token": "vishishtadvaita",
+  "sub_school": "Pāñcarātra-grounded Viśiṣṭādvaita",
+  "sub_school_shade": 1,
+  "lineage_in": ["bodhayana"],
+  "lineage_out": ["yamuna"],
+  "lineage_polemical": [],
+  "core_thesis": "Nāthamuni stands at the threshold of systematic Śrīvaiṣṇava Vedānta as the figure who sutured the Tamil *prabandham* of the *Āḻvārs* — recovered, according to tradition, by repeated meditative recitation of *Tiruvāymoḻi* at Kāṭṭu-maṇṇār-koyil — onto the Sanskritic frame of Pāñcarātra theology and *Brahma-Sūtra* exegesis. His contribution, so far as the lost *Nyāya-Tattva* fragments and tradition allow reconstruction, is the assertion that *bhakti* directed to Nārāyaṇa-with-Śrī is not a propaedeutic to liberation but its constitutive form, and that the *jīva* persists as a real, atomic, knowing self (*jñātṛ*) — distinct from but inseparable (*apṛthak-siddha*) from Brahman. He inaugurates the polemic against an emergent illusionism by insisting that determinate cognition (*saviśeṣa-jñāna*) is veridical and that the world's distinctions are ontologically grounded in Brahman's own qualified nature (*viśiṣṭa-svarūpa*). His specific innovation is institutional and architectural: the bilingual liturgical-philosophical synthesis on which Yāmuna and Rāmānuja later build.",
+  "engaged_works": [
+    {
+      "work_id": "nyaya-tattva",
+      "title": "Nyaya-Tattva (lost)",
+      "title_iast": "Nyāya-Tattva",
+      "alternate_titles": [],
+      "ascription_tier": "disputed",
+      "ascription_notes": "Work is lost; cited in later Śrīvaiṣṇava tradition only.",
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "Lost epistemological treatise reconstructible only from later citations in Yāmuna's *Siddhi-Trayam*, Rāmānuja, and Veṅkaṭanātha. The *Nyāya-Tattva* appears to have been a *prakaraṇa* on *pramāṇa* defending the validity of determinate cognition (*saviśeṣa-jñāna*) and the *jīva* as a substantial, atomic *jñātṛ* against early Buddhist *vijñāna-vāda* and against monist readings of cognition as undifferentiated *cit*. Surviving fragments suggest a critique of the *anyathā-khyāti* and *asat-khyāti* theories of error and an early articulation of *yathārtha-khyāti* (all cognition as veridical) — the position Rāmānuja inherits in the *Vedārtha-Saṃgraha*. The work matters because it is the textual fossil of Viśiṣṭādvaita's epistemological commitment that perception itself is irreducibly relational, that there is no grasping of pure unqualified being, and that this is why Brahman must be construed as *viśiṣṭa* rather than *nirviśeṣa*. Its loss is one of the gravest in Vedānta historiography.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "yoga-rahasya",
+      "title": "Yoga-Rahasya (lost)",
+      "title_iast": "Yoga-Rahasya",
+      "alternate_titles": [],
+      "ascription_tier": "disputed",
+      "ascription_notes": "Work is lost; ascription is sectarian.",
+      "genre": "rahasya",
+      "language": "sanskrit",
+      "summary": "Lost esoteric manual on *bhakti-yoga* and Pāñcarātra contemplative practice, ascribed to Nāthamuni in Śrīvaiṣṇava sectarian chronicles and quoted occasionally in later Maṇipravāḷa rahasya-literature. The reconstructible content centres on the cultivation of unbroken meditative remembrance of Nārāyaṇa (*dhruvānusmṛti*) as the operative form of *upāsanā* enjoined by the *Upaniṣad*-passages on *vidyā* (e.g., *Chāndogya* 7, *Taittirīya* 2), and on the integration of *aṣṭāṅga-yoga* into a theistic-devotional frame in which the goal is not isolation (*kaivalya*) but conscious participation in the divine. Its significance for the lineage is to ground the later Viśiṣṭādvaita claim — central to Yāmuna and Rāmānuja — that *bhakti* is itself a form of *jñāna*, namely *upāsanā* as enjoined meditative knowledge whose maturation issues directly in *mokṣa*. The Yoga-Rahasya is the missing bridge between Pāñcarātra ritual theology and Vedāntic *upāsanā*-doctrine.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1c-opus"
+}

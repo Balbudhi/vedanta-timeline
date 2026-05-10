@@ -1,0 +1,74 @@
+{
+  "id": "baladeva",
+  "name": "Baladeva Vidyabhushana",
+  "name_iast": "Baladeva Vidyābhūṣaṇa",
+  "alternate_names": [],
+  "dates_low": 1700,
+  "dates_high": 1793,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Late Mughal / early colonial; dates well-established by manuscript and inscriptional record.",
+  "school": "Acintya-Bhedābheda",
+  "school_color_token": "acintya",
+  "sub_school": "Gauḍīya formal-Vedāntic",
+  "sub_school_shade": 5,
+  "lineage_in": ["visvanatha", "madhva"],
+  "lineage_out": ["bhaktivinoda"],
+  "lineage_polemical": [],
+  "core_thesis": "Baladeva Vidyābhūṣaṇa is the formal Vedāntist of the Gauḍīya school. He preserves the Six Gosvāmīs' *acintya-bhedābheda* — Kṛṣṇa as *svayaṃ-bhagavān*, the threefold *śakti* with *acintya-śakti* as load-bearing concept, the *jīva* as eternal *taṭastha-aṃśa*, *bhakti* and *prema* as *abhidheya* and *prayojana* — and adds the institutional achievement the school had previously lacked: a complete Brahma-Sūtra commentary in classical Vedāntic form. Doctrinally his framing draws openly on the Madhva *paramparā* (he was trained in Mādhva Vedānta before his Gauḍīya commitment), so the *Govinda-Bhāṣya* often reads with a Dvaita-inflected emphasis on the irreducibility of *bheda*, while preserving the *acintya-śakti* qualification that distinguishes the Gauḍīya position. With the *Prameya-Ratnāvalī* and *Vaiṣṇava-Nandinī*, he completes the Gauḍīya school's transition from a movement organised around Vraja-experience and *bhakti-rasa* into one that meets the standard expectations of pan-Indian Vedāntic legitimacy.",
+  "engaged_works": [
+    {
+      "work_id": "govinda-bhasya",
+      "title": "Govinda-Bhashya",
+      "title_iast": "Govinda-Bhāṣya",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored formal Gauḍīya Brahma-Sūtra commentary.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "summary": "The *Govinda-Bhāṣya* is the Gauḍīya school's formal Brahma-Sūtra commentary, composed by Baladeva in eighteenth-century Jaipur in direct response to a challenge from the Rāmānanda-Sampradāya at the Galta court that the Caitanya-Vaiṣṇavas could not be admitted to the company of legitimate *sampradāyas* because they lacked a *bhāṣya* on the *Brahma-Sūtras*. The bhāṣya is therefore both a doctrinal text and a sectarian credential. Sectarian tradition reports that Baladeva produced it rapidly under inspiration from Govindajī himself — the story is part of the school's self-understanding and explains the bhāṣya's title. Doctrinally, Baladeva reads each *adhikaraṇa* through *acintya-bhedābheda*, with the threefold *śakti*-doctrine, Kṛṣṇa as *svayaṃ-bhagavān*, the *jīva* as *taṭastha-aṃśa*, and *bhakti–prema* as the operative path. The Madhva-inflected emphasis on real *bheda* gives the work its characteristic flavour. Its successful presentation at Galta secured Gauḍīya admission to the recognised *catur-sampradāya* lineage.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "siddhanta-ratnam",
+      "title": "Siddhanta-Ratnam",
+      "title_iast": "Siddhānta-Ratnam",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Gauḍīya doctrinal compendium.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The *Siddhānta-Ratnam* (sometimes circulated as the *Vaiṣṇava-Nandinī* tradition's doctrinal counterpart) is Baladeva's compendium of settled Gauḍīya philosophical positions, presented in the manner of a *prameya-saṅgraha*: the topics that any classical Vedānta school must take a stance on — *pramāṇa*-theory, the nature of *Brahman*, the *jīva*, *jagat*, the *Brahman*–*jīva*–*jagat* relation, *bandha* and *mokṣa*, the *upāya* and the *upeya* — are stated, defended, and demarcated against rival schools (Advaita, Viśiṣṭādvaita, Madhva-Dvaita, Nimbārka, and the *bhedābheda* lines). Where the *Govinda-Bhāṣya* is constrained by *sūtra*-form, the *Siddhānta-Ratnam* allows Baladeva to set out the Gauḍīya *acintya-bhedābheda* synoptically and polemically. It functions as the school's portable doctrinal reference and as the systematic supplement to the bhāṣya.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "prameya-ratnavali",
+      "title": "Prameya-Ratnavali",
+      "title_iast": "Prameya-Ratnāvalī",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored summary of Gauḍīya prameyas.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The *Prameya-Ratnāvalī* (\"jewelled necklace of established truths\") is Baladeva's tightly compressed catechetical summary of the nine Gauḍīya *prameyas*: the supremacy of Kṛṣṇa as *svayaṃ-bhagavān*; his being known by all the *Vedas*; the *Bhāgavata-Purāṇa* as the supreme *pramāṇa*; *bhakti* alone as *abhidheya*; *prema* as *prayojana*; the *jīva*'s natural condition as eternal servant of Kṛṣṇa; the simultaneous *bheda* and *abheda* of *jīva*–*Brahman* by *acintya-śakti*; the world as Bhagavān's real *pariṇāma* through *māyā-śakti*; and the *guru-paramparā*. The text is structured in clear verses with auto-commentary suitable for memorisation and instruction, and explicitly identifies its lineage with Madhva, embedding the Gauḍīya school within the *brahma-mādhva-gauḍīya* paramparā as Baladeva understands it. Together with the *Govinda-Bhāṣya*, it establishes the standard Gauḍīya doctrinal profile presented in inter-sectarian Vedāntic discourse.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1e-opus"
+}

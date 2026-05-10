@@ -1,0 +1,74 @@
+{
+  "id": "vijnanabhiksu",
+  "name": "Vijnanabhikshu",
+  "name_iast": "Vijñānabhikṣu",
+  "alternate_names": [],
+  "dates_low": 1550,
+  "dates_high": 1600,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Mughal-era; dated by manuscript.",
+  "school": "Avibhāgādvaita",
+  "school_color_token": "avibhaga",
+  "sub_school": "Avibhāga-Advaita",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Vijñānabhikṣu's *avibhāgādvaita* (\"non-dualism of non-separation\") holds that Brahman, *cit*, *acit*, and the plural *jīvas* are really differentiated during *sṛṣṭi* and really resolved into non-difference at *pralaya*: difference is ontologically real *while* manifestation lasts, but the underlying identity is recovered, not constructed, when the cycle returns. The position is consciously synthetic. Vijñānabhikṣu reconciles Sāṃkhya's *prakṛti*–*puruṣa* dualism with Vedānta's non-dualism by treating Sāṃkhya's *tattvas* and Yoga's *sādhana* as preparatory and partially valid descriptions within a single hierarchical ontology crowned by Brahman. He is sharply critical of post-Śaṅkara Advaita's *māyā-vāda*, which he reads as a *māyāvādin* deviation from genuine Vedānta and as covertly Buddhist; but he does not abandon non-dualism — he relocates it as the limit-state of an ontology that takes manifest difference seriously. The signature concept is *avibhāga*: not Śaṅkara's identity-from-eternity, but a non-separation that is genuinely achieved at *pralaya* and *mokṣa*, and that does not foreclose the reality of difference within manifestation.",
+  "engaged_works": [
+    {
+      "work_id": "vijnanamrta-bhasya",
+      "title": "Vijnanamrta-Bhashya on Brahma-Sutra",
+      "title_iast": "Vijñānāmṛta-Bhāṣya",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "summary": "The *Vijñānāmṛta-Bhāṣya* is Vijñānabhikṣu's commentary on the *Brahma-Sūtras* and the school-defining text of *avibhāgādvaita*. The bhāṣya construes the *sūtras* as licensing a hierarchical ontology in which Sāṃkhya's *prakṛti–puruṣa* analysis is preparatory and partially valid, theistic Vedānta is fuller, and the *avibhāga* of Brahman, *cit*, and *acit* at *pralaya* and *mokṣa* is the limit-state. Polemically the work is sustained: Vijñānabhikṣu mounts a head-on critique of post-Śaṅkara *māyā-vāda*, which he diagnoses as a deviation from genuine Vedānta and as *pracchanna-bauddha*, while distinguishing his own non-dualism — non-separation as achieved limit-state — from Śaṅkara's identity-from-eternity. He also engages Rāmānuja and the *bhedābheda* lines, reading their positions as partial truths absorbed into the hierarchical synthesis. The bhāṣya is the principal source for *avibhāgādvaita* and the most ambitious early-modern Vedānta–Sāṃkhya–Yoga reconciliation.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "yoga-varttika",
+      "title": "Yoga-Varttika",
+      "title_iast": "Yoga-Vārttika",
+      "alternate_titles": ["Yoga-Sāra-Saṅgraha"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored vārttika on the Yoga-Sūtras.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "varttika",
+      "language": "sanskrit",
+      "summary": "The *Yoga-Vārttika* is Vijñānabhikṣu's gloss on Vyāsa's *Yoga-Bhāṣya* on Patañjali's *Yoga-Sūtras*, and is paired with his shorter *Yoga-Sāra-Saṅgraha*. The works treat Patañjali's *Yoga-Darśana* as a serious *darśana* with its own technical contribution, particularly on *citta-vṛtti-nirodha*, *samādhi*, and *kaivalya*, while reading them within the hierarchical ontology developed in the *Vijñānāmṛta-Bhāṣya*. Vijñānabhikṣu defends the theistic reading of Patañjali — *Īśvara* as a special *puruṣa* contemplated in *Īśvara-praṇidhāna* — and uses the Yoga corpus to demonstrate that classical *darśanas* are stratified levels of one truth, with Vedānta crowning the hierarchy. The technical engagement with *kaivalya* in particular allows him to clarify *avibhāga* as ontological non-separation rather than mere isolation. The works are major early-modern contributions to the integrated Sāṃkhya–Yoga–Vedānta reading that defines Vijñānabhikṣu's project.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "samkhya-pravacana-bhasya",
+      "title": "Samkhya-Pravacana-Bhashya",
+      "title_iast": "Sāṃkhya-Pravacana-Bhāṣya",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "summary": "The *Sāṃkhya-Pravacana-Bhāṣya* is Vijñānabhikṣu's commentary on the *Sāṃkhya-Sūtras* and is the most influential pre-modern Sāṃkhya commentary alongside Gauḍapāda's and Vācaspati Miśra's. Doctrinally, it is significant for its theistic reading of Sāṃkhya — Vijñānabhikṣu defends a personal *Īśvara* as compatible with classical Sāṃkhya's *prakṛti–puruṣa* analysis, against the dominant a-theistic interpretation — and for its integration of Sāṃkhya into the wider hierarchical ontology of *avibhāgādvaita*. The classical Sāṃkhya plurality of *puruṣas* and the dualism of *puruṣa* and *prakṛti* are read as accurate descriptions of the manifest order, true within their domain, and resolved at *pralaya* into the non-separation that *avibhāgādvaita* identifies as the highest truth. The bhāṣya is also a major source on classical Sāṃkhya doctrine in its own right and is the standard reference for the post-classical Sāṃkhya–Vedānta synthesis.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1e-opus"
+}

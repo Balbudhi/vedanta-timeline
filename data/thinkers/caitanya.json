@@ -1,0 +1,71 @@
+{
+  "id": "caitanya",
+  "name": "Caitanya Mahaprabhu",
+  "name_iast": "Caitanya Mahāprabhu",
+  "alternate_names": ["Viśvambhara", "Gauraṅga", "Kṛṣṇa-Caitanya"],
+  "dates_low": 1486,
+  "dates_high": 1534,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Multiple near-contemporary biographies (Caitanya-Caritāmṛta, Caitanya-Bhāgavata); Mughal-period attestation.",
+  "dates_evidence": [
+    {
+      "kind": "sectarian-chronicle",
+      "description": "Near-contemporary Caitanya-Caritāmṛta and Caitanya-Bhāgavata biographies."
+    },
+    {
+      "kind": "manuscript-colophon",
+      "description": "Mughal-period manuscript colophons attest his biographical span."
+    }
+  ],
+  "school": "Acintya-Bhedābheda",
+  "school_color_token": "acintya",
+  "sub_school": "Gauḍīya (school-founding)",
+  "sub_school_shade": 3,
+  "lineage_in": ["madhva", "kesava-kasmiri"],
+  "lineage_out": ["rupa-gosvami", "sanatana-gosvami", "jiva-gosvami"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "kesava-kasmiri",
+      "direction": "mutual",
+      "note": "Reported debate-tradition with the Nimbārka-line scholar Keśava-Kāśmīrī."
+    }
+  ],
+  "core_thesis": "Caitanya's position — codified by his disciples as *acintya-bhedābheda* — holds that Brahman, identified with Kṛṣṇa, stands to the *jīva* and the world in a relation of simultaneous *bheda* and *abheda* that is *acintya* (inconceivable to dialectical reason) by virtue of *acintya-śakti*, the inconceivable power proper to Bhagavān. This is not an abandonment of logic but a positive metaphysical claim: dialectic, which works by *bheda*/*abheda* exclusion, cannot adjudicate at the level of the relation between absolute Bhagavān and his eternal *śaktis*; the relation is real, knowable through *bhakti* and *śabda*, but not derivable by *tarka* alone. *Bhagavān* alone is *svayaṃ-bhagavān* and his *śaktis* — *cit*, *jīva-māyā*, and *acit-māyā* — are simultaneously identical with him and irreducibly distinct. The operative soteriology is *bhakti-rasa* with *nāma-saṅkīrtana* as its principal mode; liberation is eternal devotional participation in Kṛṣṇa-līlā, structured by *rasa* (*śānta*, *dāsya*, *sakhya*, *vātsalya*, *mādhurya*), and never the dissolution of devotee into deity.",
+  "engaged_works": [
+    {
+      "work_id": "shikshashtakam",
+      "title": "Shikshashtakam",
+      "title_iast": "Śikṣāṣṭakam",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored eight-verse hymn — the only text indisputably authored by Caitanya himself.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "stotra",
+      "language": "sanskrit",
+      "summary": "The *Śikṣāṣṭakam* is the only text indisputably composed by Caitanya himself — eight Sanskrit verses preserved within the *Caitanya-Caritāmṛta* of Kṛṣṇadāsa Kavirāja. Compressed and personal, it is doctrinally consequential out of all proportion to its length: it states the supremacy of *nāma-saṅkīrtana* (the chanted divine name) as the means of cleansing consciousness in the present *yuga*; the devotional virtues of humility (*tṛṇād api sunīcena*), forbearance (*taror iva sahiṣṇunā*), absence of self-honour, and honour to others; the *jīva*'s status as eternal servant of Kṛṣṇa (*ayi nanda-tanuja kiṅkaraṃ*); the experiential intensity of *viraha* (separation) as itself a high mode of *bhakti*; and the refusal of all selfish ends — wealth, followers, even *mokṣa* construed as personal release — in favour of *ahaitukī bhakti*. The Gosvāmīs treat the verses as the doctrinal seed of the entire Gauḍīya theology of *rasa* and *prema* they go on to elaborate.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "doctrine-recorded-by-disciples",
+      "title": "Doctrine recorded by disciples and biographers",
+      "title_iast": "Doctrine recorded by disciples",
+      "alternate_titles": [],
+      "ascription_tier": "school-ascribed",
+      "ascription_notes": "Caitanya's doctrine survives mainly as recorded by Rūpa, Sanātana, Jīva, and the Caitanya-Caritāmṛta biographer Kṛṣṇadāsa Kavirāja.",
+      "genre": "dialogue",
+      "language": "bengali",
+      "summary": "Caitanya wrote no bhāṣya. His doctrine is preserved in three converging streams of disciple-record: (i) the biographical literature, principally Kṛṣṇadāsa Kavirāja's *Caitanya-Caritāmṛta* and Vṛndāvana-dāsa's *Caitanya-Bhāgavata*, both in Bengali with embedded Sanskrit verse, which preserve extended doctrinal dialogues — most famously the conversation with Rāmānanda Rāya on the gradation of *sādhana* and *rasa*, and the *daśa-mūla* teachings; (ii) the systematic theology of the Six Gosvāmīs of Vṛndāvana, who under Caitanya's commission articulate his position as *acintya-bhedābheda* with *acintya-śakti* as its load-bearing concept; and (iii) the liturgical and ritual code (Sanātana's *Hari-Bhakti-Vilāsa*) that fixes the school's practice. Reading Caitanya's doctrine therefore requires triangulation across hagiographical, theological, and ritual sources, with the *Śikṣāṣṭakam* as the only fixed first-person datum and Jīva's *Ṣaṭ-Sandarbha* as the canonical systematic articulation.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1e-opus"
+}

@@ -1,0 +1,349 @@
+{
+  "id": "sankara",
+  "name": "Adi Sankara",
+  "name_iast": "Ādi Śaṅkara",
+  "alternate_names": ["Ādi-Śaṅkarācārya", "Bhagavatpāda", "Śaṅkara Bhagavatpāda"],
+  "dates_low": 700,
+  "dates_high": 750,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Traditional dates from sectarian chronicles place him 788–820; academic consensus (Hacker, Mayeda) is somewhat earlier. The securely-authored corpus is much smaller than the traditional ascription set.",
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Advaita (school-defining)",
+  "sub_school_shade": 3,
+  "lineage_in": ["gaudapada", "upavarsa"],
+  "lineage_out": ["sureshvara", "padmapada", "hastamalaka", "totaka"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "bhaskara",
+      "direction": "mutual",
+      "note": "Bhāskara explicitly attacks Śaṅkara's māyā as a smuggled-in Buddhist concept; the polemic runs both directions in the commentarial tradition."
+    },
+    {
+      "thinker_id": "bhartrprapanca",
+      "direction": "refutes",
+      "note": "Śaṅkara's Bṛhadāraṇyaka-Bhāṣya is the principal vehicle for the refutation of Bhartṛprapañca's bhedābheda."
+    }
+  ],
+  "core_thesis": "Śaṅkara argues that *brahman* — *sat-cit-ānanda*, partless, attribute-free (*nirguṇa*) in its highest aspect — is the sole reality, and that the *jīva* is in essence non-different from it (*tat tvam asi*). The phenomenal world is *mithyā*: not non-existent (*asat*) and not existent in the way *brahman* is, but *anirvacanīya* — indeterminable as either real or unreal — and in any case sublatable in *brahma-jñāna*. The mechanism of apparent multiplicity is *adhyāsa* (superimposition), analyzed in the celebrated *adhyāsa-bhāṣya* prefacing Brahma-Sūtra-Bhāṣya 1.1.1: the *anātman* is mistakenly superimposed on *ātman* (and conversely), generating the entire transactional realm of *pramātṛ*-*pramāṇa*-*prameya*. Cosmologically Śaṅkara holds *vivarta-vāda* (apparent transformation), against the *pariṇāma-vāda* (real transformation) of Sāṅkhya and Bhāskara. Liberating cognition is *akhaṇḍākāra-vṛtti* arising from *mahāvākya*-instruction; *karma* is preparatory but cannot itself produce *mokṣa*, since *karma* and *jñāna* belong to incompatible epistemic orders. The *jīvanmukta* lives out the residue of *prārabdha-karma* in a body whose phenomenality is no longer cognitively binding.",
+  "engaged_works": [
+    {
+      "work_id": "brahma-sutra-bhasya",
+      "title": "Brahma-Sutra-Bhashya",
+      "title_iast": "Brahma-Sūtra-Bhāṣya",
+      "alternate_titles": ["Śārīraka-Bhāṣya"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; the school-defining commentary on the Brahma-Sūtra.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Universal modern consensus on Śaṅkara's authorship."
+        }
+      ],
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "summary": "The school-defining *bhāṣya* on Bādarāyaṇa's Brahma-Sūtra, organized by the four *adhyāyas* and their *pādas*. The work opens with the *adhyāsa-bhāṣya* — Śaṅkara's prefatory analysis of *adhyāsa* (superimposition) as the universal pre-philosophical condition that makes ordinary cognition and Vedic injunction possible. Major doctrinal loci: 1.1.4 (*tat tu samanvayāt*) — the argument that *brahman* is the *tātparya* (purport) of all Upaniṣadic statements, against Mīmāṃsaka *karma-pradhānya*; 2.1 — refutation of Sāṅkhya *pradhāna* and the *pariṇāma-vāda* alternative, defense of *vivarta*; 2.2 — refutation of Vaiśeṣika atomism, Buddhist schools (Vijñānavāda, Sautrāntika, Vaibhāṣika, Mādhyamika), Jaina *anekānta*, Pāśupata, Pāñcarātra; 3.2 — the analysis of *avasthā* (states) and the *jīva*'s identity with *brahman*; 4 — *kramamukti*, *jīvanmukti*, the trajectory of the knower. Securely authored; the cornerstone of every later Advaita sub-school.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "bhagavad-gita-bhasya",
+      "title": "Bhagavad-Gita-Bhashya",
+      "title_iast": "Bhagavad-Gītā-Bhāṣya",
+      "alternate_titles": ["Gītā-Bhāṣya"],
+      "composition_dates_low": 700,
+      "composition_dates_high": 750,
+      "composition_dates_notes": "Composed in Śaṅkara's mature period; relative chronology with the Brahma-Sūtra-Bhāṣya disputed but the two are clearly companion works.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; the school-defining Gītā commentary and one of the four uncontested *bhāṣyas* of Śaṅkara.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Universal modern consensus; Hacker, Mayeda, and Halbfass all treat it as authentic."}
+      ],
+      "genre": "gita-bhashya",
+      "language": "sanskrit",
+      "summary": "Śaṅkara's prose *bhāṣya* on the *Bhagavad-Gītā* — the principal Vedānta Gītā-commentary and the textual anchor that establishes the *Gītā* as a *prasthāna* on equal footing with *Upaniṣad* and *Brahma-Sūtra*. The work opens with a celebrated *upodghāta* arguing that the *Gītā*'s purport (*tātparya*) is *jñāna*-mediated *mokṣa* and that *karma* and *jñāna* belong to mutually exclusive *adhikāra*-orders — *karma* being preparatory, never co-instrumental in the rise of liberating cognition. Major doctrinal loci include the analysis of *sāṃkhya*/*yoga* in chapter 2, the resolution of the apparent *karma*-injunction at 3.8 (*niyataṃ kuru karma*) as addressed to the still-unprepared seeker, the reading of *kṣetra-kṣetrajña* (chapter 13) as the *adhyāsa*-structure of cognition, and the chapter-15 analysis of the *puruṣottama* as identical to *nirguṇa Brahman* under devotional aspect. The *bhāṣya* fixes the *jñāna-niṣṭhā* / *karma-niṣṭhā* polarity that every later Vedāntin — Bhāskara, Rāmānuja, Madhva — must contest or accept.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "chandogya-bhasya",
+      "title": "Chandogya-Upanisad-Bhashya",
+      "title_iast": "Chāndogya-Upaniṣad-Bhāṣya",
+      "alternate_titles": [],
+      "composition_dates_low": 700,
+      "composition_dates_high": 750,
+      "composition_dates_notes": "Companion to the Bṛhadāraṇyaka-Bhāṣya in the mature Upaniṣad-bhāṣya cycle.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; one of the ten principal Upaniṣad-bhāṣyas universally accepted as Śaṅkara's.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "upanisad-bhashya",
+      "language": "sanskrit",
+      "summary": "Commentary on the Chāndogya-Upaniṣad — the longest of the Sāmaveda Upaniṣads and the second-largest principal Upaniṣad after the Bṛhadāraṇyaka. Organized by *prapāṭhaka* and *khaṇḍa*, the *bhāṣya* treats the great pedagogical sequences of the text: the *Sad-Vidyā* of *Uddālaka* and *Śvetaketu* (chapter 6), with the celebrated *mahāvākya* *tat tvam asi* repeated nine times as the climactic instruction; the *Bhūma-Vidyā* of *Sanatkumāra* and *Nārada* (chapter 7); the *Dahara-Vidyā* of the heart-space (chapter 8); and the *Sāmavidyās* of the early chapters. Śaṅkara's analysis of *tat tvam asi* — particularly the *jahad-ajahal-lakṣaṇā* by which the apparently contradictory predication of *brahman* on *jīva* is resolved by partial-retention of meaning — is the *locus classicus* for the Advaitic doctrine of identity-instruction. The *bhāṣya* also stages a sustained refutation of *bhedābheda* readings of the *Sad-Vidyā* and rejects any *upādhi*-mediated reading that would soften the *aikya*-thesis. Sureśvara composed no separate *vārttika*; the *Bhāṣya* itself is the school's definitive treatment.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "aitareya-bhasya",
+      "title": "Aitareya-Upanisad-Bhashya",
+      "title_iast": "Aitareya-Upaniṣad-Bhāṣya",
+      "alternate_titles": [],
+      "composition_dates_low": 700,
+      "composition_dates_high": 750,
+      "composition_dates_notes": "Part of the standard ten-Upaniṣad cycle.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "upanisad-bhashya",
+      "language": "sanskrit",
+      "summary": "Short commentary on the Aitareya-Upaniṣad of the Ṛgveda, one of the briefer principal Upaniṣads. The text is in three *adhyāyas*: the cosmogonic opening (*ātman*'s creation of the *lokas* and the *loka-pālas*); the analysis of the threefold birth of the *jīva* (gestational, post-natal, and the eschatological re-birth into the next world); and the climactic *prajñānam brahma* identification — one of the four canonical *mahāvākyas*. Śaṅkara reads the cosmogony as figurative (*arthavāda*) attached to the doctrinal core, treats the threefold-birth analysis as preparatory dis-identification of the *jīva* from gross corporeal embodiment, and gives the *prajñānam brahma* equation his standard treatment: *prajñāna* (consciousness) is *brahman* not as an attribute (*viśeṣaṇa*) but as essential nature (*svarūpa-lakṣaṇa*), continuous with the *satyaṃ jñānam anantaṃ brahma* of Taittirīya. The *bhāṣya* is brief but doctrinally pivotal — it establishes the consciousness-identification reading of the *mahāvākya* against any *prajñā*-as-*guṇa* alternative.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "prasna-bhasya",
+      "title": "Prashna-Upanisad-Bhashya",
+      "title_iast": "Praśna-Upaniṣad-Bhāṣya",
+      "alternate_titles": [],
+      "composition_dates_low": 700,
+      "composition_dates_high": 750,
+      "composition_dates_notes": "Part of the standard ten-Upaniṣad cycle; companion to the Muṇḍaka-Bhāṣya in the Atharvavedic group.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "upanisad-bhashya",
+      "language": "sanskrit",
+      "summary": "Commentary on the Praśna-Upaniṣad, the Atharvavedic Upaniṣad organized as six *praśnas* (questions) put to the sage Pippalāda by six disciples. Each *praśna* takes up a major topic of upaniṣadic *vidyā*: the origin of *prajā*; the relative ranking of *prāṇa* and the senses; the genesis and operation of *prāṇa* itself; the four states of consciousness (*jāgrat*, *svapna*, *suṣupti*, and the implicit fourth); the meditative power of the *praṇava* (*oṃkāra*); and the doctrine of the *ṣoḍaśa-kala-puruṣa* (the sixteen-fold *puruṣa* whose *kalās* dissolve in *brahman*-knowledge). Śaṅkara's *bhāṣya* treats the text as a graded pedagogical sequence ascending from cosmology to *praṇava*-meditation to terminal *puruṣa-vidyā*; the analysis of the four states in the fourth *praśna* prefigures the longer treatment in the Māṇḍūkya-Bhāṣya, and the *ṣoḍaśa-kala* analysis is the *locus classicus* for the dissolution of *upādhis* in *brahman*-cognition.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "mundaka-bhasya",
+      "title": "Mundaka-Upanisad-Bhashya",
+      "title_iast": "Muṇḍaka-Upaniṣad-Bhāṣya",
+      "alternate_titles": [],
+      "composition_dates_low": 700,
+      "composition_dates_high": 750,
+      "composition_dates_notes": "Part of the standard ten-Upaniṣad cycle.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "upanisad-bhashya",
+      "language": "sanskrit",
+      "summary": "Commentary on the Muṇḍaka-Upaniṣad of the Atharvaveda, in three *muṇḍakas* of two *khaṇḍas* each. The Upaniṣad opens with the canonical *parā-vidyā* / *aparā-vidyā* distinction (1.1.4–5) — the higher knowledge by which the imperishable is known, the lower comprising the four Vedas with their auxiliaries — which Śaṅkara takes as decisive for the *jñāna* / *karma* hierarchy. The second *muṇḍaka* contains the celebrated *dvā suparṇā* verse (3.1.1, also at Ṛg-veda 1.164.20) of the two birds on one tree, which Śaṅkara reads as the *jīva*-*Īśvara* relation under *adhyāsa*: the eating bird is the apparently-distinct *jīva*, the watching bird is *brahman* as *sākṣin*, and *mokṣa* is the recognition that the eating bird is in truth the watching bird. The *bhāṣya* also fixes the Advaita reading of the *paramaṃ sāmyam* (Muṇḍaka 3.1.3) as identity rather than mere likeness. The text's compact verses make it pedagogically central in the Advaita curriculum.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "katha-bhasya",
+      "title": "Katha-Upanisad-Bhashya",
+      "title_iast": "Kaṭha-Upaniṣad-Bhāṣya",
+      "alternate_titles": [],
+      "composition_dates_low": 700,
+      "composition_dates_high": 750,
+      "composition_dates_notes": "Part of the standard ten-Upaniṣad cycle.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "upanisad-bhashya",
+      "language": "sanskrit",
+      "summary": "Commentary on the Kaṭha-Upaniṣad of the Kṛṣṇa-Yajurveda — the dialogue of *Naciketas* and *Yama* in two *adhyāyas* of three *vallīs* each. Śaṅkara reads the text as an integrated graded instruction: Yama's three boons stage the seeker's progressive renunciation of householder, heavenly, and finally self-knowledge goods; the central *vallīs* unfold the *ātma-vidyā* through the celebrated *rathakalpana* (chariot-allegory: *ātman* as rider, *buddhi* as charioteer, *manas* as reins, *indriyas* as horses, *viṣayas* as paths) and the analysis of the *aṅguṣṭha-mātra puruṣa*. The *bhāṣya* fixes the Advaita reading of *nāyam ātmā pravacanena labhyaḥ* (1.2.23) as the Upaniṣadic warrant for the doctrine that *ātma-jñāna* requires self-disclosure (*svayaṃ vivṛṇute tanūṃ svām*), not merely instructional or inferential effort — a *locus* for the school's later analyses of the role of grace and the spontaneity of *aparokṣa-jñāna*. The treatment of the *ātman*'s subtle quantification ('thumb-sized') as figurative rather than ontological is doctrinally pivotal.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "mandukya-bhasya",
+      "title": "Mandukya-Upanisad-Bhashya with Gaudapada-Karika-Bhashya",
+      "title_iast": "Māṇḍūkya-Upaniṣad-Bhāṣya (sa-Gauḍapāda-Kārikā-Bhāṣya)",
+      "alternate_titles": ["Āgama-Śāstra-Vivaraṇa"],
+      "composition_dates_low": 700,
+      "composition_dates_high": 750,
+      "composition_dates_notes": "Composed as a unified commentary on the twelve mantras of the Upaniṣad together with all four prakaraṇas of Gauḍapāda's Kārikā.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; the unified commentary on the Upaniṣad and Gauḍapāda's Kārikā is the school's principal source on the four states of consciousness and on *ajāti-vāda*.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "upanisad-bhashya",
+      "language": "sanskrit",
+      "summary": "Unified commentary on the twelve mantras of the Māṇḍūkya-Upaniṣad together with the four *prakaraṇas* of Gauḍapāda's *Māṇḍūkya-Kārikā* (*Āgama*, *Vaitathya*, *Advaita*, *Alātaśānti*). Śaṅkara treats the Upaniṣad's analysis of the four *pādas* of *oṃ* — corresponding to *jāgrat*, *svapna*, *suṣupti*, and *turīya* — as the canonical structural map of consciousness, with *turīya* as the non-relational *ātman* whose recognition is *mokṣa*. On the Kārikā he gives his most extended exposition of *ajāti-vāda* (the doctrine that nothing has ever truly come into being), of the *vaitathya* (unreality) of waking and dream as parallel *vyāvahārika* orders, and of the *alāta-cakra* (firebrand-circle) analogy by which apparent multiplicity is shown to be the trace of an unmoving consciousness. The text is the principal Advaita document on the four states and on the limit-doctrine of *ajāti*; modern scholarship (Hacker, King) has questioned the unity of the four *prakaraṇas* but Śaṅkara reads them as a single integrated treatise. Doctrinally pivotal for the analysis of *mithyā* as neither *sat* nor *asat* but as cognitively sublatable.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "kena-bhasya",
+      "title": "Kena-Upanisad-Bhashya (pada-bhashya and vakya-bhashya)",
+      "title_iast": "Kena-Upaniṣad-Bhāṣya (Pada-Bhāṣya and Vākya-Bhāṣya)",
+      "alternate_titles": ["Talavakāra-Upaniṣad-Bhāṣya"],
+      "composition_dates_low": 700,
+      "composition_dates_high": 750,
+      "composition_dates_notes": "Two distinct bhāṣyas on the same Upaniṣad; both transmitted under Śaṅkara's name.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Both *pada-bhāṣya* (word-by-word) and *vākya-bhāṣya* (sentence-by-sentence) are securely ascribed to Śaṅkara; the existence of two parallel commentaries on a single short Upaniṣad is itself unusual and characteristic of the text's importance in the school.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "upanisad-bhashya",
+      "language": "sanskrit",
+      "summary": "Two distinct *bhāṣyas* on the Kena-Upaniṣad of the Sāmaveda — the *pada-bhāṣya* (a word-by-word gloss) and the *vākya-bhāṣya* (a sentence-by-sentence and topically-organized exposition). The Upaniṣad opens with the celebrated questions *keneṣitaṃ patati preṣitaṃ manaḥ* — by what is the mind impelled to its target? — driving toward the recognition that the mover behind every cognitive faculty is *brahman* itself, knowable not as an object but only as the *pratyag-ātman* of every act of cognition. Śaṅkara's signature reading is *yan manasā na manute yenāhur mano matam* (1.5): *brahman* is *avijñātaṃ vijānatām*, unknown to those who think they know it, and *vijñātam avijānatām*, known to those who know themselves not to know it — the apophatic *locus classicus* for the school. The second half of the Upaniṣad's *Yakṣa* allegory (the failure of Agni, Vāyu, and Indra to comprehend the *Yakṣa*-Brahman) is read as the figurative dramatization of the same point: *brahman* is the ground of agency that no agent can objectify.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "isa-bhasya",
+      "title": "Isha-Upanisad-Bhashya",
+      "title_iast": "Īśa-Upaniṣad-Bhāṣya",
+      "alternate_titles": [],
+      "composition_dates_low": 700,
+      "composition_dates_high": 750,
+      "composition_dates_notes": "Part of the standard ten-Upaniṣad cycle.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "upanisad-bhashya",
+      "language": "sanskrit",
+      "summary": "Commentary on the Īśa-Upaniṣad — the shortest of the principal Upaniṣads, in eighteen mantras, and uniquely embedded within the Vājasaneyi-Saṃhitā of the Śukla-Yajurveda (whence its alternate name *Vājasaneyi-Saṃhitā-Upaniṣad*). Śaṅkara's *bhāṣya* gives the school's authoritative reading of the text's apparent prescription of *karma* alongside *vidyā* (mantras 9–11: *vidyāṃ ca avidyāṃ ca yas tad vedobhayaṃ saha*): he refuses the *jñāna-karma-samuccaya* construal advocated by Bhartṛprapañca and others, reading the *avidyā* / *vidyā* pair instead as *karma* and *upāsanā* — both preparatory disciplines belonging to the householder *adhikārin*, neither itself constituting *brahma-vidyā*. The work is thus the single most important short text for the school's *jñāna-karma-vibhāga* doctrine, and Śaṅkara's specific reading of *vidyā* in the contested mantras becomes the standard reference in every later debate on the question. Mantras 4–8 give the celebrated paradoxical descriptions of the *ātman* (*tad ejati tad naijati*), which Śaṅkara reads as *adhyāsa*-talk rather than as positive ontology.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "upadesa-sahasri",
+      "title": "Upadesha-Sahasri",
+      "title_iast": "Upadeśa-Sāhasrī",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; Mayeda's critical edition establishes a stable text.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Mayeda 1973 edition and modern consensus."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Śaṅkara's only securely authored independent (non-commentarial) *prakaraṇa*, in two parts: a *gadya* (prose) section in three chapters, often treated as the doctrinal core, and a *padya* (metrical) section in nineteen chapters that develops particular topics in verse. The work is pedagogically structured: it presents the teacher–pupil dialogue as the *sāmpradāyika* (lineage-transmitted) means of liberating instruction. Central topics: the analysis of *aham*-cognition, the *dṛk*–*dṛśya* discrimination (consciousness as *sākṣin* vs. its objects), the *adhyāsa* of *anātman* on *ātman*, the dismantling of the *kartṛtva*–*bhoktṛtva* attribution to the *ātman*, and the role of *mahāvākya*-instruction. Mayeda's 1973 critical edition (Tokyo) is the standard text; Mayeda's translation and analytic apparatus are the basis of modern academic engagement with what Śaṅkara himself counts as direct doctrinal exposition (rather than *bhāṣya*-occasioned commentary).",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "brhadaranyaka-bhasya",
+      "title": "Brhadaranyaka-Bhashya",
+      "title_iast": "Bṛhadāraṇyaka-Bhāṣya",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
+      ],
+      "genre": "upanisad-bhashya",
+      "language": "sanskrit",
+      "summary": "Śaṅkara's longest Upaniṣad-commentary, on the Bṛhadāraṇyaka — itself the largest of the principal Upaniṣads. Organized by *adhyāya* and *brāhmaṇa*; treats the great Yājñavalkya dialogues (with Maitreyī, Janaka, Gārgī, Uddālaka), the *neti neti* characterization of *ātman*, the *madhu-vidyā*, the *pañcāgni-vidyā* and the post-mortem trajectory of the *jīva*. The commentary is the principal vehicle for the refutation of Bhartṛprapañca's *bhedābheda* and *jñāna-karma-samuccaya*: Śaṅkara repeatedly stages and rebuts the *bhedābheda* reading of Yājñavalkya's enumerations, establishing the strict reading of *neti neti* as terminal apophasis, not as one wing of a dual-aspect doctrine. Śaṅkara's analysis of the three *avasthās* in the dialogue with Janaka (Bṛh. 4.3) is the *locus classicus* for the Advaita treatment of dream and deep-sleep epistemology. Sureśvara's massive *Vārttika* takes this *bhāṣya* as its base. Securely authored.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "taittiriya-bhasya",
+      "title": "Taittiriya-Bhashya",
+      "title_iast": "Taittirīya-Bhāṣya",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
+      ],
+      "genre": "upanisad-bhashya",
+      "language": "sanskrit",
+      "summary": "Commentary on the Taittirīya-Upaniṣad in three *vallīs*: *Śīkṣā-Vallī* (phonetics, *vidyās*, the introductory *anuvākas*), *Brahmānanda-Vallī* (*Ānanda-Mīmāṃsā*: the *pañca-kośa* analysis of *ātman* through five sheaths — *anna-maya*, *prāṇa-maya*, *mano-maya*, *vijñāna-maya*, *ānanda-maya* — and the famous *brahman*-defining text *satyaṃ jñānam anantaṃ brahma*), and *Bhṛgu-Vallī* (the dialogue between Varuṇa and Bhṛgu yielding the same *kośa*-progression as a meditative ascent). Śaṅkara's analysis of the *kośa* hierarchy is doctrinally pivotal: he treats *ānanda-maya-kośa* as still belonging to the order of upādhi, not as *brahman* itself — a reading explicitly opposed to Rāmānuja's later identification of *ānanda-maya* with the supreme. The exegesis of *satyaṃ jñānam anantaṃ brahma* (Tait. 2.1.1) is the standard Advaita *locus* for the doctrine that *brahman*'s positive characterizations (*sat*, *cit*, *ānanda*) are *svarūpa-lakṣaṇa*, not *guṇas* in the Vaiśeṣika sense. Sureśvara's *Taittirīya-Vārttika* is the standard sub-commentary.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "vivekacudamani",
+      "title": "Vivekachudamani",
+      "title_iast": "Vivekacūḍāmaṇi",
+      "alternate_titles": [],
+      "ascription_tier": "school-ascribed",
+      "ascription_notes": "Embraced by the Advaita living tradition; modern scholarship divided, with several scholars (e.g., Grimes' defense vs. Hacker's skepticism) actively debating authorship.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "School-ascribed *prakaraṇa* in approximately 580 verses (manuscript count varies), structured as the systematic instruction of a qualified seeker through the standard Advaita pedagogical sequence: *sādhana-catuṣṭaya* (the four prerequisites — *viveka*, *vairāgya*, the *ṣaṭ-sampatti*, *mumukṣutva*); *śravaṇa*–*manana*–*nididhyāsana*; the *pañca-kośa-viveka*; the *avasthā-traya-viveka*; the *dṛk*–*dṛśya-viveka*; the *mahāvākya* analysis culminating in *jīvanmukti*. The work is the single most influential Advaita primer in the living tradition. Academic ascription is divided: Hacker's stylometric work argues against Śaṅkara's authorship, while John Grimes (2004) defends it. The Advaita tradition embraces it as Śaṅkara's; the school-ascribed status here registers both that embrace and the academic doubt. School-ascribed; the Advaita tradition embraces this as Śaṅkara's; its devotional and meditatively-instructive register is part of how Advaita-as-living-tradition presents itself, distinct from the strictly *bhāṣya*-based academic Śaṅkara.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "aparoksanubhuti",
+      "title": "Aparokshanubhuti",
+      "title_iast": "Aparokṣānubhūti",
+      "alternate_titles": [],
+      "ascription_tier": "school-ascribed",
+      "ascription_notes": "Embraced by the Advaita living tradition; modern academic ascription divided.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "School-ascribed *prakaraṇa* in 144 verses on direct, immediate (*aparokṣa*) realization of *ātman*. Structurally compact: opens with the *sādhana-catuṣṭaya*, develops a sequence of *vicāra*-questions through which the seeker disidentifies the *ātman* from body, *prāṇa*, *manas*, *buddhi*, and *ahaṃkāra*, then sets out a fifteen-limbed (*pañcadaśa-aṅga*) *yoga* — explicitly described in *aṣṭāṅga*-style language but with each limb redefined non-dually (e.g., *yama* as restraint of organs in the recognition of *brahman*-identity, *āsana* as steadiness in *brahman*-cognition, *prāṇāyāma* as cessation of objectifying mental movement). The work's heavy use of *yogic* technical vocabulary in an Advaitic key is part of why academic scholarship has been hesitant to ascribe it to the *bhāṣya*-author, while the same feature is precisely what makes it valued by the Advaita tradition as a practical meditation manual. School-ascribed; the Advaita tradition embraces this as Śaṅkara's.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "saundarya-lahari",
+      "title": "Saundarya-Lahari",
+      "title_iast": "Saundarya-Laharī",
+      "alternate_titles": [],
+      "ascription_tier": "school-ascribed",
+      "ascription_notes": "Embraced by the Advaita and Śrīvidyā living traditions; academic opinion divided on authorship of part or all of the hymn.",
+      "genre": "stotra",
+      "language": "sanskrit",
+      "summary": "School-ascribed *stotra* in 100 verses (in the standard recension) addressed to the Goddess as *Tripurasundarī* / *Lalitā*, the supreme Śakti of the Śrīvidyā tradition. Traditionally divided into two halves: *Ānanda-Laharī* (verses 1–41) on the metaphysical-theological exposition of the Goddess as identical with the supreme, including *śrīcakra* and *kuṇḍalinī* references; and *Saundarya-Laharī* proper (42–100) on the *aṅga-varṇana* — limb-by-limb iconographic celebration of the Goddess's form. The text is the central liturgical poem of the Śrīvidyā tradition and a major Sanskrit *stotra* in its own right. Academic ascription is contested: many scholars argue at least the second half is post-Śaṅkara; the tradition embraces the whole as Śaṅkara's. School-ascribed; the Advaita tradition embraces this as Śaṅkara's; its Viśiṣṭādvaita-flavored devotional language and its embrace of a personal-theistic Śakti as supreme is a load-bearing piece of evidence for the comparative-claims framework about whether Advaita-as-living-tradition is as gap-distant from Viśiṣṭādvaita as Brahma-Sūtra-Bhāṣya alone suggests.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "bhaja-govindam",
+      "title": "Bhaja-Govindam",
+      "title_iast": "Bhaja-Govindam",
+      "alternate_titles": ["Mohamudgara"],
+      "ascription_tier": "school-ascribed",
+      "ascription_notes": "Embraced by the Advaita living tradition; uses Vaiṣṇava devotional idiom that the academic ascription set is wary of attributing to the bhāṣya-author.",
+      "genre": "stotra",
+      "language": "sanskrit",
+      "summary": "Also called *Mohamudgara* ('Hammer for Delusion'). A short *stotra* of approximately 31 verses (with sub-recensions ascribing the additional verses to Śaṅkara's twelve *śiṣyas*), framed as a teaching to a grammar-pedant overheard rote-drilling Pāṇinian rules in old age. The opening refrain — *bhaja govindaṃ bhaja govindaṃ govindaṃ bhaja mūḍha-mate / saṃprāpte sannihite kāle nahi nahi rakṣati ḍukṛñ-karaṇe* — explicitly subordinates technical learning to *Govinda*-*bhakti* in the face of mortality. The *vairāgya* register and the choice of *Govinda* (a Vaiṣṇava name) as the addressed deity are doctrinally pivotal: they show the Advaita tradition not merely tolerating but actively cultivating personal-theistic devotional address as a *sādhana*. School-ascribed; the Advaita tradition embraces this as Śaṅkara's; its Viśiṣṭādvaita-flavored devotional language is a load-bearing piece of evidence for the comparative-claims framework about whether Advaita-as-living-tradition is as gap-distant from Viśiṣṭādvaita as Brahma-Sūtra-Bhāṣya alone suggests.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "sivananda-lahari",
+      "title": "Sivananda-Lahari",
+      "title_iast": "Śivānanda-Laharī",
+      "alternate_titles": [],
+      "ascription_tier": "school-ascribed",
+      "ascription_notes": "Embraced by the Advaita and Śaiva living traditions; academic opinion divided.",
+      "genre": "stotra",
+      "language": "sanskrit",
+      "summary": "School-ascribed *stotra* in 100 verses to Śiva, in highly ornate Sanskrit (heavy use of *śleṣa*/double-meaning, elaborate metaphor cycles — the bee-and-lotus, the river-and-ocean — for the *bhakta*'s longing for and absorption into Śiva). Doctrinally the work is unambiguously *bhakti*-saturated: the speaker presents himself as *dāsa* of Śiva, repeatedly affirms the personal-theistic relation, and treats *Śivānanda* — the bliss of the personal Lord — as the seeker's *paramārtha*-fruit. The hymn is paired by tradition with the Saundarya-Laharī (Goddess) and Bhaja-Govindam (Viṣṇu/Govinda) as the school's three principal devotional anchors across the three theistic streams. School-ascribed; the Advaita tradition embraces this as Śaṅkara's; its Viśiṣṭādvaita-flavored devotional language and its frank embrace of *bhakti* as the operative *sādhana*-register is a load-bearing piece of evidence for the comparative-claims framework about whether Advaita-as-living-tradition is as gap-distant from Viśiṣṭādvaita as Brahma-Sūtra-Bhāṣya alone suggests.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1-cleanup-opus"
+}

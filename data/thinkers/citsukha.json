@@ -1,0 +1,42 @@
+{
+  "id": "citsukha",
+  "name": "Citsukha",
+  "name_iast": "Citsukha",
+  "alternate_names": [],
+  "dates_low": 1200,
+  "dates_high": 1240,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Dated by guru-paramparā and citation by datable later authors; commonly placed c. 1220 CE.",
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Vivaraṇa-Advaita",
+  "sub_school_shade": 4,
+  "lineage_in": ["anandabodha"],
+  "lineage_out": ["madhusudana", "dharmaraja"],
+  "lineage_polemical": [],
+  "core_thesis": "Citsukha brings Vivaraṇa-Advaita to its dialectical maturity by refashioning Ānandabodha's inferential apparatus into a comprehensive *khaṇḍana* of every realist alternative — pre-Gaṅgeśa Nyāya, Mīmāṃsā, Bhedābheda, and the proto-Dvaita and Viśiṣṭādvaita positions then crystallising. His core technical doctrines: (i) *svaprakāśatva* of *cit* / *ātman* — *cit* is self-luminous, defined as that which is *aparokṣa-vyavahāra-yogyatva* without depending on another cognition; (ii) the *anirvacanīya-mithyātva* of the world established by formal *anumānas*, with *mithyā* always *sad-asad-vilakṣaṇa* (different from both real and unreal) and never collapsible into *asat*; (iii) *bhāva-rūpā-avidyā* in *Brahman* as locus, *Brahman* as object; (iv) the destruction of the Nyāya category-scheme — *sāmānya, viśeṣa, samavāya*, and *bheda* itself are shown to be analytically indeterminable. He works in the technical idiom of pre-Gaṅgeśa Naiyāyikas, beating them on their own turf; the *Tattva-Pradīpikā* becomes the standard Advaita reference for the dialectic of *mithyātva* and is presupposed by the entire *Advaita-Siddhi*-*Nyāyāmṛta* exchange.",
+  "engaged_works": [
+    {
+      "work_id": "tattva-pradipika",
+      "title": "Tattva-Pradipika",
+      "title_iast": "Tattva-Pradīpikā",
+      "alternate_titles": ["Citsukhī"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "Vast polemical *prakaraṇa* — universally cited as the *Citsukhī* — organised in four *paricchedas* and devoted to the systematic defence of the central Vivaraṇa-Advaita theses against every available realist opponent. Citsukha (i) defines and defends *svaprakāśatva* (*cit* as self-luminous, characterised as *avedyatve sati aparokṣa-vyavahāra-yogyatva*); (ii) gives canonical formal *anumānas* for *anirvacanīya-mithyātva* — most famously the *dṛśyatvānumāna* — while insisting that *mithyā* is always *sad-asad-vilakṣaṇa*, never *asat*; (iii) defends *bhāva-rūpā-avidyā* with *Brahman* as locus and *Brahman* as object; (iv) deconstructs the Nyāya categories, showing that *sāmānya*, *viśeṣa*, *samavāya*, and *bheda* itself fail under analysis; and (v) refutes Bhedābheda and the early Madhva-line account of substantial difference. Pratyagrūpa's *Nayanaprasādinī* is its standard sub-commentary. The *Citsukhī* becomes the technical encyclopaedia presupposed by Madhusūdana's *Advaita-Siddhi*, by Vyāsatīrtha's *Nyāyāmṛta*, and by every later participant in the *mithyātva* debate.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1b-opus"
+}

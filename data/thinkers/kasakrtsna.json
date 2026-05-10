@@ -1,0 +1,39 @@
+{
+  "id": "kasakrtsna",
+  "name": "Kasakrtsna",
+  "name_iast": "Kāśakṛtsna",
+  "alternate_names": [],
+  "dates_low": -400,
+  "dates_high": -100,
+  "dates_tier": "oral-tradition-only",
+  "dates_notes": "Pre-Bādarāyaṇa; cited in Brahma-Sūtra 1.4.22; no work survives.",
+  "school": "proto-Vedānta",
+  "school_color_token": "proto",
+  "sub_school": "Proto-Advaita-leaning",
+  "sub_school_shade": 2,
+  "lineage_in": [],
+  "lineage_out": ["badarayana"],
+  "lineage_polemical": [],
+  "core_thesis": "As reconstructed from later citations: Kāśakṛtsna survives only as the named source of the position recorded at Brahma-Sūtra 1.4.22 — *avasthiter iti kāśakṛtsnaḥ* (\"the supreme self is established [in the *jīva* itself], says Kāśakṛtsna\"). The doctrine attributed to him on the *jīva-Brahman* relation is the strongest of the three sūtra-cluster views: the supreme Brahman is itself present *as* the *jīva*; difference is only an apparent product of conditioning, while the underlying ontology is one of identity. Śaṅkara explicitly takes Kāśakṛtsna's *avasthitiḥ* to anticipate the Advaita non-difference reading and treats Bādarāyaṇa's silence after this third option as endorsement. Later Advaitins therefore read him as the canonical proto-Advaitin within the Brahma-Sūtra itself; Bhāskara and the *bhedābheda* schools read his position more weakly, as identity-with-distinction. Nothing else of the historical Kāśakṛtsna is recoverable; his name designates a single sūtra-locus and the strong-identity reading attached to it.",
+  "engaged_works": [
+    {
+      "work_id": "bs-citation-fragments",
+      "title": "Positions reconstructed from Brahma-Sūtra citations",
+      "title_iast": "Brahma-Sūtra citation fragments",
+      "alternate_titles": [],
+      "ascription_tier": "disputed",
+      "ascription_notes": "No work survives; the proto-identity-thesis is reconstructed solely from Brahma-Sūtra 1.4.22.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "A single sūtra preserves Kāśakṛtsna: Brahma-Sūtra 1.4.22 (*avasthiter iti kāśakṛtsnaḥ*), the third position in the cluster on the *jīva*'s relation to Brahman that begins with Āśmarathya's *bhedābheda* (1.4.20) and Auḍulomi's *mokṣa*-state non-difference (1.4.21). Kāśakṛtsna's *avasthitiḥ* is glossed by Śaṅkara as the supreme Brahman's own being-present in the *jīva* itself — not a part, not a manifestation, not merely the *mokṣa*-state truth, but the standing condition. Śaṅkara reads Bādarāyaṇa's silence after this third option as decisive endorsement, making the sūtra a foundational scriptural authority for Advaita non-difference. *Bhedābheda* and Viśiṣṭādvaita commentators read *avasthitiḥ* less strongly — as Brahman's being-present-as-controller, not as identity. Beyond this single locus and its commentarial afterlife nothing of Kāśakṛtsna survives.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1f-opus"
+}

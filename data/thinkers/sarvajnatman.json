@@ -1,0 +1,58 @@
+{
+  "id": "sarvajnatman",
+  "name": "Sarvajnatman",
+  "name_iast": "Sarvajñātman",
+  "alternate_names": [],
+  "dates_low": 900,
+  "dates_high": 1100,
+  "dates_tier": "contested",
+  "dates_notes": "Disciple-tradition links to Sureśvara; modern dating varies between the 10th and 11th centuries.",
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Sureśvara-line proto-Vivaraṇa",
+  "sub_school_shade": 3,
+  "lineage_in": ["sureshvara"],
+  "lineage_out": ["prakasatman", "vimuktatman"],
+  "lineage_polemical": [],
+  "core_thesis": "Sarvajñātman, claiming descent from Sureśvara through Devasvāmin, builds an Advaita that is doctrinally proto-*Vivaraṇa*: *Brahman* — pure *cit* — is the sole *āśraya* of *avidyā*, and the *jīva* is to be understood as *cidābhāsa*, a *pratibimba* (reflection) of *Brahman* in *avidyā*, which itself is the original *bimba*. He gives the *bimba-pratibimba-vāda* its first systematic Advaitic treatment: just as one face appears reflected in many mirrors without being multiplied, so the *Brahman-bimba* appears as plural *jīva-pratibimbas* in beginningless *avidyā* without compromising its non-duality. He treats the Mahāvākya as the unique *pramāṇa* generating *akhaṇḍākāra-vṛtti*, reads *karma* and *upāsanā* as removing only *vikṣepa* and *malā* but never producing *jñāna* directly (against any strong *samuccaya*), and conceives liberation as the *nivṛtti* of *avidyā* by knowledge alone. His positions are taken up and refined by Prakāśātman in the *Vivaraṇa* and form the structural backbone of the post-Padmapāda Advaita line.",
+  "engaged_works": [
+    {
+      "work_id": "samksepa-sariraka",
+      "title": "Samkshepa-Shariraka",
+      "title_iast": "Saṃkṣepa-Śārīraka",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored verse-systematization of Śaṅkara's Brahma-Sūtra-Bhāṣya.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
+      ],
+      "genre": "varttika",
+      "language": "sanskrit",
+      "summary": "A four-*adhyāya* metrical *vārttika* (in over 2,200 *anuṣṭubh* verses) that compresses, rearranges, and argumentatively reconstructs Śaṅkara's *Brahma-Sūtra-Bhāṣya*. Where Sureśvara's *Naiṣkarmya-Siddhi* and *Bṛhadāraṇyaka-Vārttika* establish the Sureśvara-line's broad principles, the *Saṃkṣepa-Śārīraka* welds them into a tight *Brahma-sūtra*-shaped system. It establishes (i) *Brahman* as the locus of *avidyā* — explicitly contra what will become the *Bhāmatī* alternative; (ii) the *bimba-pratibimba* analysis of the *jīva* as *cidābhāsa* in *avidyā*; (iii) the Mahāvākya as the unique productive *pramāṇa* of *akhaṇḍa-jñāna*; and (iv) the rejection of any role for *karma* in producing knowledge, while granting it a purificatory function. The work generates a substantial commentarial tradition (Madhusūdana's *Saṃkṣepa-Śārīraka-Sāra-Saṃgraha*; Rāmatīrtha's *Anvayārtha-Prakāśikā*; Nṛsiṃhāśrama's *Tattvabodhinī*) and supplies the *Saṃkṣepa-Śārīraka* tradition with which later Advaita reckons.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "panca-prakriya",
+      "title": "Pancha-Prakriya",
+      "title_iast": "Pañca-Prakriyā",
+      "alternate_titles": [],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed; ascription is generally accepted in tradition with limited modern critical engagement.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Short pedagogical *prakaraṇa* organising the central themes of Sarvajñātman's Advaita under five *prakriyās* — heuristic procedures by which the student is led from ordinary self-misidentification to recognition of the *akhaṇḍa* identity *brahmātmaikya*. The five-fold rubric typically tracks (i) the *avasthā-traya-viveka* (analysis of waking, dream, and deep sleep to isolate the witness), (ii) the *pañca-kośa-viveka* (peeling the sheath-analyses of the *Taittirīya*), (iii) the analytic location of *avidyā* in *Brahman* qua *cit*, (iv) the *bimba-pratibimba* exposition of the *jīva*, and (v) the function of *Mahāvākya-vicāra* in producing the *akhaṇḍākāra-vṛtti*. The work matters chiefly as a compressed handbook of Sarvajñātman-line *prakriyā* whose categories recur in later Vivaraṇa pedagogy; modern critical engagement remains limited, and the ascription is traditional rather than colophon-secured.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1b-opus"
+}

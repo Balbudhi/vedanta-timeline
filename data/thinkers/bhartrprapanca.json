@@ -1,0 +1,45 @@
+{
+  "id": "bhartrprapanca",
+  "name": "Bhartrprapanca",
+  "name_iast": "Bhartṛprapañca",
+  "alternate_names": [],
+  "dates_low": 400,
+  "dates_high": 600,
+  "dates_tier": "oral-tradition-only",
+  "dates_notes": "Known only via Śaṅkara's polemic in the Bṛhadāraṇyaka-Bhāṣya; no surviving work; reconstruction by Hiriyanna 1924 from citation-fragments.",
+  "school": "Bhedābheda",
+  "school_color_token": "bhedabheda",
+  "sub_school": "Proto-Bhedābheda",
+  "sub_school_shade": 1,
+  "lineage_in": [],
+  "lineage_out": ["bhaskara", "yadava-prakasa"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "sankara",
+      "direction": "is-refuted-by",
+      "note": "Śaṅkara's Bṛhadāraṇyaka-Bhāṣya is the principal source for and refutation of Bhartṛprapañca's bhedābheda."
+    }
+  ],
+  "core_thesis": "Bhartṛprapañca, as reconstructed from later citations (principally Hiriyanna 1924, drawing on Śaṅkara's Bṛhadāraṇyaka-Bhāṣya, Sureśvara's Vārttika, and Ānandagiri's gloss), holds a *bhedābheda* (difference-and-non-difference) Vedānta in which *brahman* is intrinsically both one and many: the Upaniṣadic *neti neti* and the affirmative cosmogonic passages are together literal, not concessive. *Brahman* genuinely transforms (*pariṇāma*) into the world of names-and-forms (*nāma-rūpa*) while remaining the unitary substrate; the *jīva* is a real *aṃśa* of *brahman*, and *karma* combined with *jñāna* (the *jñāna-karma-samuccaya* doctrine) is the operative *sādhana* for liberation. *Mukti* is realization of one's identity as a real differentiated mode of *brahman*, not the cancellation of phenomenal multiplicity. What is firmly attested across the citation-fragments: (a) the dual-aspect ontology, (b) *jñāna-karma-samuccaya*, (c) the eight-aspect (*aṣṭa-rūpa*) account of *brahman*, and (d) the *jīva*'s real partial identity with *brahman*. Everything else in the reconstruction is conjectural.",
+  "engaged_works": [
+    {
+      "work_id": "brhadaranyaka-commentary-fragments",
+      "title": "Reconstructed Brhadaranyaka commentary fragments",
+      "title_iast": "Bṛhadāraṇyaka commentary fragments (reconstructed)",
+      "alternate_titles": [],
+      "ascription_tier": "disputed",
+      "ascription_notes": "No work survives; the corpus is a modern reconstruction (Hiriyanna 1924) from citations preserved in Śaṅkara, Sureśvara, and Ānandagiri.",
+      "genre": "upanisad-bhashya",
+      "language": "sanskrit",
+      "summary": "No work by Bhartṛprapañca survives. The corpus is a modern reconstruction — principally M. Hiriyanna, 'Bhartṛprapañca: An Old Vedāntin' (*Indian Historical Quarterly*, 1924), with later supplements — assembled from (i) Śaṅkara's Bṛhadāraṇyaka-Upaniṣad-Bhāṣya, where Bhartṛprapañca is the principal *pūrvapakṣin* across multiple chapters and is named explicitly; (ii) Sureśvara's Bṛhadāraṇyaka-Vārttika, which expands on Śaṅkara's refutations and preserves further fragments; (iii) Ānandagiri's sub-commentary, which sometimes labels otherwise-unattributed positions as Bhartṛprapañca's; and (iv) scattered references in later Vedāntic literature. The reconstruction yields a commentary that read the Bṛhadāraṇyaka as teaching *bhedābheda* with *jñāna-karma-samuccaya* — a *prima facie* plausible reading of that Upaniṣad's dual emphasis on cosmogonic affirmation (Yājñavalkya's enumerations) and apophatic limit (*neti neti*). The text-historical situation is irreducibly speculative: the cited fragments are filtered through opponents, and any 'doctrine' attributed to him is a Śaṅkaran summary, not an authorial voice.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1a-opus"
+}

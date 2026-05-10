@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2" />
+  <meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex" />
+  <meta name="googlebot" content="noindex,nofollow,noarchive,nosnippet,noimageindex" />
+  <meta name="referrer" content="no-referrer" />
+  <title>Vedānta — A Realist Tradition</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Vedānta — A Realist Tradition</h1>
+    <p class="subtitle">A timeline. Click any thinker.</p>
+    <div class="legend" id="legend"></div>
+  </header>
+
+  <main class="stage" id="stage">
+    <section class="timeline-pane" id="timelinePane">
+      <div class="timeline-scroller" id="timelineScroller">
+        <svg class="timeline-svg" id="timelineSvg" preserveAspectRatio="none"></svg>
+        <div class="timeline-axis" id="timelineAxis"></div>
+        <div class="timeline-dots" id="timelineDots"></div>
+      </div>
+    </section>
+
+    <aside class="detail-pane" id="detailPane" aria-hidden="true">
+      <button class="close-btn" id="closeDetail" aria-label="Close">×</button>
+      <article id="detailContent"></article>
+    </aside>
+  </main>
+
+  <div class="reader-modal" id="readerModal" aria-hidden="true">
+    <button class="close-btn" id="closeReader" aria-label="Close reader">×</button>
+    <div class="reader-content" id="readerContent"></div>
+  </div>
+
+  <script type="module" src="assets/app.js"></script>
+</body>
+</html>

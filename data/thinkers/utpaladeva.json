@@ -1,0 +1,115 @@
+{
+  "id": "utpaladeva",
+  "name": "Utpaladeva",
+  "name_iast": "Utpaladeva",
+  "alternate_names": [],
+  "dates_low": 900,
+  "dates_high": 950,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Dated by guru-paramparā with Somānanda and pre-Abhinavagupta.",
+  "school": "Pratyabhijñā/Trika",
+  "school_color_token": "trika-comparator",
+  "sub_school": "Pratyabhijñā founding text",
+  "sub_school_shade": 2,
+  "lineage_in": [],
+  "lineage_out": ["abhinavagupta"],
+  "lineage_polemical": [],
+  "core_thesis": "Non-Vedāntin comparator (non-dual Śaiva, Pratyabhijñā/Trika). Utpaladeva is the founder of the *Pratyabhijñā* (\"recognition\") system, which articulates a non-dual idealism in which the sole reality is Śiva-as-consciousness (*saṃvit*, *cit*), whose intrinsic nature is *svātantrya* — absolute, unconditioned sovereign freedom. *Svātantrya* is not a property added to consciousness; it *is* consciousness as self-luminous and self-aware (*prakāśa-vimarśa*-rūpā). The whole manifest world — including the limited subject, its objects, time, and causality — is *ābhāsa*, Śiva's own appearing, freely projected within himself by his own *svātantrya*. The bound condition of the *paśu* therefore consists not in any real ontological fall but in non-recognition (*akhyāti*) of the supreme *I*-consciousness (*pūrṇāhantā*) that is in fact already and inalienably one's own nature. Liberation accordingly is *pratyabhijñā*: not the production of a new state but the recognition that *one is already* Śiva. The corpus develops this through the technical apparatus of *ābhāsa-vāda*, *vimarśa*, and the *aham*-analysis. Compared to Vedānta this preserves a positive, dynamic agentive consciousness rather than a witnessing Brahman.",
+  "engaged_works": [
+    {
+      "work_id": "ishvara-pratyabhijna-karika",
+      "title": "Ishvara-Pratyabhijna-Karika",
+      "title_iast": "Īśvara-Pratyabhijñā-Kārikā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; the founding text of the Pratyabhijñā school.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "varttika",
+      "language": "sanskrit",
+      "summary": "The founding text of the Pratyabhijñā system, in roughly 190 verses divided into four *adhikāras* (*Jñāna*, *Kriyā*, *Āgama*, *Tattva-saṃgraha*), with Utpaladeva's own *Vṛtti* (and the longer lost *Ṭīkā*). Building on Somānanda's *Śivadṛṣṭi*, the work argues that the supreme reality is *cit* (consciousness) characterized by intrinsic *vimarśa* — self-aware reflexivity — and intrinsic *svātantrya*. The *Jñāna-adhikāra* establishes the structure of cognition (*prakāśa*-*vimarśa*) and the necessity of a unitary self-aware subject; the *Kriyā-adhikāra* shows that all action presupposes the same sovereign agent-consciousness; the *Āgama-adhikāra* coordinates the philosophical analysis with scriptural Trika; the *Tattva-saṃgraha* recapitulates the manifest world as *ābhāsa* projected by Śiva's *svātantrya*. The structural innovations — *ābhāsa-vāda* as a positive theory of manifestation, *aham*-as-*pūrṇāhantā*, the recognition-structure of liberation — set the agenda for all subsequent Pratyabhijñā literature, including Abhinavagupta's two *Vimarśinīs*. Comparative note for the user's project: structural homology with the *svātantrya*-element later Advaita absorbs into its account of Brahman's *māyā-śakti*, without collapsing the two schools.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "ajada-pramatr-siddhi",
+      "title": "Ajada-Pramatr-Siddhi",
+      "title_iast": "Ajaḍa-Pramātṛ-Siddhi",
+      "alternate_titles": [],
+      "composition_dates_low": 900,
+      "composition_dates_high": 950,
+      "composition_dates_notes": "First text of the Siddhitrayī, composed in the same period as the Īśvara-Pratyabhijñā-Kārikā.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; the first treatise of the *Siddhitrayī* — the three short philosophical *prakaraṇas* that establish the foundations of Pratyabhijñā.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The first of the three treatises constituting Utpaladeva's *Siddhitrayī* (\"Triad of Establishments\"), in approximately twenty-eight verses with the author's own *vṛtti*. The work establishes the *ajaḍatva* of the *pramātṛ* — the irreducibly non-inert (i.e., self-aware, conscious) character of the cognizing subject — against the Buddhist *jñāna-santāna* (cognition-stream) account that reduces the subject to a sequence of momentary cognitive events. Utpaladeva's central argument is that no series of momentary cognitions, however conjoined, can constitute the unitary self-awareness presupposed by every act of recognition (*pratyabhijñā*) — \"this is the same as what I saw before\". The persistent self-aware subject, possessing intrinsic *vimarśa*, is therefore *ajaḍa*: not an inert substrate but an active reflexive consciousness. This thesis is the load-bearing premise of the entire *Pratyabhijñā* programme: only an *ajaḍa-pramātṛ* can be the supreme Śiva-consciousness whose recognition constitutes liberation. The text is the analytic foundation that the *Īśvara-Pratyabhijñā-Kārikā* presupposes and elaborates.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "sambandha-siddhi",
+      "title": "Sambandha-Siddhi",
+      "title_iast": "Sambandha-Siddhi",
+      "alternate_titles": [],
+      "composition_dates_low": 900,
+      "composition_dates_high": 950,
+      "composition_dates_notes": "Second text of the Siddhitrayī.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; second treatise of the *Siddhitrayī*.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The second treatise of the *Siddhitrayī*, in roughly twenty-three verses with auto-*vṛtti*, establishing the reality and analyzability of *sambandha* (relation) — most pivotally the relation of the *pramātṛ* to its objects, and the relation of cognition to its content. Utpaladeva confronts the Dharmakīrtian dilemma that any real relation between two relata would have to itself stand in further relations to each, generating regress; he argues that the regress is dissolved once relation is understood not as a third entity standing between independent relata but as a mode of the supreme self-aware *prakāśa* in which both relata are already manifest. *Sambandha* is therefore intrinsic to *vimarśa* itself: consciousness's self-articulation as subject-related-to-object is not an addition to consciousness but its very form. The text supplies the relational metaphysics that makes *ābhāsa-vāda* possible — for *ābhāsas* (manifestations) to be coherent at all, they must be related within a single self-aware *prakāśa*, and the *Sambandha-Siddhi* shows this is logically tenable.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "isvara-siddhi",
+      "title": "Ishvara-Siddhi",
+      "title_iast": "Īśvara-Siddhi",
+      "alternate_titles": [],
+      "composition_dates_low": 900,
+      "composition_dates_high": 950,
+      "composition_dates_notes": "Third text of the Siddhitrayī.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; third and culminating treatise of the *Siddhitrayī*.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The third and culminating treatise of the *Siddhitrayī*, in roughly thirty-four verses with auto-*vṛtti*, establishing *Īśvara* — the supreme Lord, identified as Śiva-consciousness — by argued extension of the *ajaḍa-pramātṛ* and *sambandha* doctrines. Utpaladeva argues that the unitary self-aware subject established in the first treatise, related to its world-content as established in the second, cannot be an arbitrarily individuated finite consciousness: the very structure of *vimarśa* — its *svātantrya* in projecting and recognizing its objects — requires that, at the limit, the subject be an unconditionally sovereign consciousness whose self-relating *aham* contains the entire manifestation. This is *Īśvara*: not a cosmic agent external to consciousness but consciousness in its own *pūrṇāhantā*. The bound *jīva* is then the same *Īśvara* under self-imposed *saṃkoca* (contraction) — the foundational claim subsequently developed in the *Īśvara-Pratyabhijñā-Kārikā* and consolidated in Kṣemarāja's *Pratyabhijñā-Hṛdaya* sūtra 4. The *Siddhitrayī* together constitutes the analytic propaedeutic to the school: subject established, relation established, supreme Subject established.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "shiva-stotravali",
+      "title": "Shiva-Stotravali",
+      "title_iast": "Śiva-Stotrāvalī",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored devotional hymn-collection.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "stotra",
+      "language": "sanskrit",
+      "summary": "A collection of approximately twenty stotras to Śiva that converts the technical *Pratyabhijñā* framework into first-person devotional address. The stotras are not separate from the philosophy: they enact, in liturgical voice, the recognition (*pratyabhijñā*) that the worshipping *aham* is itself the supreme *aham* of Śiva, and that *bhakti* is the natural condition of a self that has recognized its own *svātantrya*. Recurring themes include the impossibility of a real distance between worshipper and worshipped within a single non-dual consciousness, the *camatkāra* (wonder) that arises when the limited subject glimpses its own infinite ground, and the doctrine that worship, agency, and grace are all modes of Śiva's own self-relating *vimarśa*. Kṣemarāja's *Stava-Cintāmaṇi* commentary tradition treats the *Stotrāvalī* as the affective and soteriological complement of the *Pratyabhijñā-Kārikā*. The text is an important comparator for Vaiṣṇava devotional metaphysics, since it demonstrates that strong non-dualism need not abolish *bhakti* but can re-ground it in self-recognition.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1-cleanup-opus"
+}

@@ -1,0 +1,166 @@
+{
+  "id": "abhinavagupta",
+  "name": "Abhinavagupta",
+  "name_iast": "Abhinavagupta",
+  "alternate_names": [],
+  "dates_low": 950,
+  "dates_high": 1025,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Manuscript colophons and self-references; very well-attested.",
+  "school": "Pratyabhijñā/Trika",
+  "school_color_token": "trika-comparator",
+  "sub_school": "Trika school-consummating",
+  "sub_school_shade": 4,
+  "lineage_in": ["utpaladeva"],
+  "lineage_out": ["ksemaraja"],
+  "lineage_polemical": [],
+  "core_thesis": "Non-Vedāntin comparator (non-dual Śaiva, Trika/Pratyabhijñā). Abhinavagupta consummates the Trika synthesis by integrating three currents: Utpaladeva's *Pratyabhijñā* idealism, the *Spanda* tradition (the dynamism of consciousness as pulse of manifestation), and the *Kula* / *Krama* tantric ritual systems. The single reality is *Anuttara* — Śiva-as-consciousness — whose intrinsic *svātantrya* and *vimarśa* freely manifest the entire continuum of *tattvas* by *ābhāsa*; *spanda* names this unbroken pulsation by which manifestation as a whole occurs (closer in scope to *prakṛti* or *mahāmāyā* than to any single *guṇa*). The bound subject's apparent limitation is *aṇavamala*, *māyīyamala*, *kārmamala* — three contractions of *pūrṇāhantā*, all themselves modes of Śiva's own *svātantrya*. Soteriology is graded across *upāyas* (*āṇava*, *śākta*, *śāmbhava*, *anupāya*) culminating in immediate *pratyabhijñā*. Aesthetic experience (*rasa*) is for him a window onto this same self-recognition: the *camatkāra* of poetic emotion is structurally identical with the *camatkāra* of liberation. Compared to Vedānta this is a positive non-dualism in which manifestation is real as Śiva's free expression, not as superimposition on a featureless absolute.",
+  "engaged_works": [
+    {
+      "work_id": "tantraloka",
+      "title": "Tantraloka",
+      "title_iast": "Tantrāloka",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored monumental Trika compendium.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The encyclopedic Trika compendium in 37 *āhnikas*, with Jayaratha's massive *Viveka* commentary. The first *āhnika* establishes the foundational metaphysics: a single *Anuttara*-consciousness whose *svātantrya* manifests the universe by *ābhāsa*; the soteriological architecture is then graded across *anupāya*, *śāmbhava*, *śākta*, and *āṇava-upāya* (later *āhnikas*). Subsequent sections systematize the *tattva*-hierarchy, the analysis of the *malas* as contractions of *pūrṇāhantā*, the doctrine of the *cakras* and the *mantra-vīrya*, the *Krama*-sequence of cognition's self-display, and the full ritual apparatus (*dīkṣā*, *yāga*, *homa*) read as enacted recognitions. The *Tantrāloka* is the locus classicus for Trika's claim that ritual, philosophy, aesthetics, and yoga are convergent paths to the same recognition. For comparative work it provides the most fully-articulated alternative to Vedāntic non-dualism: the universe as Śiva's freely-projected real manifestation, not as superimposition on a witnessing absolute.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "tantrasara",
+      "title": "Tantrasara",
+      "title_iast": "Tantrasāra",
+      "alternate_titles": [],
+      "composition_dates_low": 990,
+      "composition_dates_high": 1015,
+      "composition_dates_notes": "Composed after the Tantrāloka as its prose-summary digest.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored prose digest of the Tantrāloka.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "verse-summary",
+      "language": "sanskrit",
+      "summary": "Abhinavagupta's prose-mode digest of the *Tantrāloka*, organized in twenty-two *āhnikas* mirroring the structure of the larger work but omitting most of the elaborate ritual-procedural detail in favor of the philosophical and soteriological core. The *Tantrasāra* is the standard pedagogical entry into the *Tantrāloka*'s system: it establishes the metaphysics of *Anuttara*-consciousness and *svātantrya*; gives compact statements of the *upāya*-hierarchy (*anupāya*, *śāmbhava*, *śākta*, *āṇava*); explains the doctrine of the *malas* as *pūrṇāhantā*-contractions; and presents the *Krama*-sequence and *mantra-vīrya* doctrines in summary form. Where the *Tantrāloka* takes thirty-seven *āhnikas* and the entirety of Jayaratha's *Viveka* to be navigable, the *Tantrasāra* can be read in a single sitting and is therefore the canonical textbook for the school's living transmission. Doctrinally identical to the *Tantrāloka*, it is the *Tantrāloka*'s own author's recommendation for the practitioner who needs the system without the encyclopedic apparatus.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "malini-vijaya-varttika",
+      "title": "Malini-Vijaya-Varttika",
+      "title_iast": "Mālinī-Vijaya-Vārttika",
+      "alternate_titles": [],
+      "composition_dates_low": 985,
+      "composition_dates_high": 1010,
+      "composition_dates_notes": "Composed in the same period as the early Tantrāloka.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored verse-commentary on the Mālinī-Vijaya-Tantra.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "varttika",
+      "language": "sanskrit",
+      "summary": "Verse-*vārttika* on the *Mālinī-Vijaya-Tantra* — the scriptural source-text Abhinavagupta repeatedly identifies as the master tantra of the Trika system and on which the *Tantrāloka* is itself substantially built. The extant *Vārttika* covers principally the first *adhikāra* of the tantra (the work was likely never completed for the entire scripture) but in that range it gives Abhinavagupta's most direct exposition of the relation between Trika philosophical doctrine and tantric scripture: the metaphysical theses of *Anuttara*, *svātantrya*, the *tattva*-hierarchy, the structure of the *malas*, and the soteriological topography of the *upāyas* are shown to be already present, in compressed and ritually-coded form, in the *Mālinī-Vijaya* itself. The *Vārttika* is therefore the school's primary document on Trika hermeneutics: how revealed tantra is to be read as already philosophical. The text is also a rich source on the *mātṛkā* (phonemic energies) and on the *Mālinī*-arrangement of the Sanskrit phonemes that gives the tantra its name.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "ishvara-pratyabhijna-vimarshini",
+      "title": "Ishvara-Pratyabhijna-Vimarshini",
+      "title_iast": "Īśvara-Pratyabhijñā-Vimarśinī",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored commentary on Utpaladeva's Kārikā.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "The shorter (*laghvī*) of Abhinavagupta's two commentaries on Utpaladeva's *Īśvara-Pratyabhijñā-Kārikā*; a precise philosophical exposition of the *Pratyabhijñā* system in dialectical engagement with Buddhist epistemology (especially Dharmakīrti). The *Vimarśinī* sharpens the *prakāśa-vimarśa* analysis of consciousness, defends the necessity of a unitary self-aware subject against Yogācāra/Sautrāntika atomism of cognitive moments, articulates *ābhāsa-vāda* as a positive theory in which manifestation is the supreme consciousness's own self-display, and develops the *aham*-analysis (the *pūrṇāhantā* in which all objects are contained as the supreme *I*'s own *vimarśa*-content). The text thereby establishes Pratyabhijñā as a fully articulated philosophical school capable of debating epistemic Buddhists on their own ground. For comparative purposes it preserves the most rigorous defense of consciousness-as-self-aware-agent within the Indic tradition.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "isvara-pratyabhijna-vivrti-vimarsini",
+      "title": "Ishvara-Pratyabhijna-Vivrti-Vimarshini",
+      "title_iast": "Īśvara-Pratyabhijñā-Vivṛti-Vimarśinī",
+      "alternate_titles": ["Bṛhatī-Vimarśinī", "Ṭīkā"],
+      "composition_dates_low": 1000,
+      "composition_dates_high": 1025,
+      "composition_dates_notes": "Composed after the shorter Vimarśinī; Abhinavagupta's mature philosophical work.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; the longer (*bṛhatī*) of the two Vimarśinīs on Utpaladeva's Kārikā.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "The longer (*bṛhatī*) of Abhinavagupta's two commentaries on the *Īśvara-Pratyabhijñā-Kārikā* — a sub-commentary that takes as its base not Utpaladeva's own short *Vṛtti* (as the shorter *Vimarśinī* does) but his long *Vivṛti* / *Ṭīkā* (now mostly lost, surviving largely through citation in this very text). The *Vivṛti-Vimarśinī* is the most extensive and philosophically demanding work of the entire Pratyabhijñā corpus: it elaborates in massive detail the *prakāśa-vimarśa* analysis of consciousness, the *ābhāsa-vāda*, the *aham*-as-*pūrṇāhantā* doctrine, and the school's engagement with Buddhist epistemology (especially Dharmakīrti and Dharmottara) and with Nyāya. It is also the principal source for reconstructing the lost *Vivṛti* and therefore for understanding the full historical development of the Pratyabhijñā argumentation. The text is the school's most rigorous philosophical statement and the standard reference for any technical engagement with the *Pratyabhijñā* on its own analytic ground.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "dhvanyaloka-locana",
+      "title": "Dhvanyaloka-Locana",
+      "title_iast": "Dhvanyāloka-Locana",
+      "alternate_titles": ["Locana"],
+      "composition_dates_low": 980,
+      "composition_dates_high": 1010,
+      "composition_dates_notes": "An early-to-middle period work; companion to the Abhinava-Bhāratī in Abhinavagupta's aesthetic corpus.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored commentary on Ānandavardhana's Dhvanyāloka.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "Commentary (*Locana*, \"Eye\") on Ānandavardhana's *Dhvanyāloka* — the foundational treatise of *dhvani*-theory, the doctrine that the soul of poetry is suggestion (*vyañjanā*) rather than direct denotation (*abhidhā*) or secondary indication (*lakṣaṇā*). Abhinavagupta's *Locana* both defends Ānandavardhana's position against the then-influential anti-*dhvani* schools (Mukula Bhaṭṭa, the Mīmāṃsaka reductionists) and develops *dhvani*-theory toward integration with *rasa*-theory: the deepest *dhvani*-effect is *rasa-dhvani*, the suggestion of *rasa*, and the appreciation of suggested *rasa* in the cultivated *sahṛdaya* is the structural counterpart to the soteriological *camatkāra* developed in the *Abhinava-Bhāratī*. The *Locana* is thus the bridge text between *dhvani* poetics and the Trika-grounded aesthetics of *rasa* — the *sthāyi-bhāva*'s *sādhāraṇī-karaṇa* (universalization) yielding aesthetic delight is, on Abhinavagupta's reading, a transparency of consciousness to its own intrinsic *ānanda*, the same recognition the *Pratyabhijñā* programme aims at by other means. Together with the *Abhinava-Bhāratī* it grounds all subsequent Sanskrit literary theory.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "abhinava-bharati",
+      "title": "Abhinava-Bharati on Natya-Shastra",
+      "title_iast": "Abhinava-Bhāratī",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored commentary on Bharata's Nāṭya-Śāstra; the locus classicus of rasa-theology in Trika idiom.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "The definitive commentary on Bharata's *Nāṭya-Śāstra* and the locus classicus of *rasa*-theory in its mature form. Abhinavagupta synthesizes prior positions (especially Bhaṭṭa Lollaṭa, Śaṅkuka, Bhaṭṭa Nāyaka) and articulates *rasa* as a generalized (*sādhāraṇī-kṛta*) aesthetic apprehension in which the spectator's ordinary egoic *citta-vṛtti*s are momentarily suspended and the *sthāyi-bhāva* manifests in the consciousness of the cultivated *sahṛdaya* as savoured *camatkāra*. The deep claim — Trika in everything but vocabulary — is that aesthetic experience is structurally identical with the soteriological recognition: in both, the limited subject's contractions briefly drop and the *pūrṇāhantā* becomes self-luminous as wonder. *Rasa* is thus not a property of the artwork but a transparency of consciousness to its own intrinsic delight (*ānanda*), making aesthetics a philosophical discipline continuous with *Pratyabhijñā* metaphysics. The text grounds all subsequent Sanskrit aesthetic theory.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "paratrishika-vivarana",
+      "title": "Paratrishika-Vivarana",
+      "title_iast": "Parātrīśikā-Vivaraṇa",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored commentary on the Parātrīśikā tantra.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "Extended commentary on the *Parātrīśikā* — a short tantric text appended to the *Rudra-Yāmala* — that Abhinavagupta uses as the occasion for one of his deepest expositions of *Anuttara* metaphysics. The *Vivaraṇa* unfolds the doctrine of the supreme *parā-vāc* (transcendent speech) as the subtle pulse (*spanda*) of consciousness from which the manifest universe emerges through *paśyantī* and *madhyamā* into *vaikharī*; the entire tattva-hierarchy is read as the self-articulation of the supreme *aham* through its own *mātṛkā* (the phonemic energies). The work develops in detail the *Anuttara*-as-*A* analysis (the first phoneme as the seed of the entire emanation), the structure of *kula* and the *trika* of Parā-Parāparā-Aparā, and the soteriological significance of recognizing one's own consciousness as already *parā-vāc*. Among Abhinavagupta's writings this is the most concentrated text on the *spanda*/manifestation interface — directly relevant to comparative work on consciousness-as-engine-of-manifestation.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1-cleanup-opus"
+}

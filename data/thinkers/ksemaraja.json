@@ -1,0 +1,112 @@
+{
+  "id": "ksemaraja",
+  "name": "Kshemaraja",
+  "name_iast": "Kṣemarāja",
+  "alternate_names": [],
+  "dates_low": 1000,
+  "dates_high": 1050,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Direct disciple of Abhinavagupta; dated by lineage.",
+  "school": "Pratyabhijñā/Trika",
+  "school_color_token": "trika-comparator",
+  "sub_school": "Trika school-summarizing",
+  "sub_school_shade": 3,
+  "lineage_in": ["abhinavagupta"],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Non-Vedāntin comparator (non-dual Śaiva, Trika/Pratyabhijñā). Kṣemarāja, the direct disciple of Abhinavagupta, is the great consolidator and pedagogue of the Trika synthesis: he distills the *Pratyabhijñā* and *Spanda* traditions into compact, teaching-grade texts whose structure has shaped how the school is read ever since. The single reality is *Cit* — Śiva-as-consciousness — possessed of *svātantrya*; the universe is its own free *unmeṣa* (unfolding), and *spanda* is the unbroken pulsation by which manifestation as a whole occurs (not a single guṇa, but the dynamism of *prakṛti* / *mahāmāyā*-scale taken as Śiva's own pulse). The signature architecture is *Pratyabhijñā-Hṛdaya* sūtra 4: *cit eva … saṃkucita-citta-rūpā* — \"consciousness *itself*, by its own *svātantrya*, contracts itself into the limited subject (*cetana*).\" Bondage is therefore Śiva's voluntary self-contraction, never an external imposition; liberation is the recognition (*pratyabhijñā*) of one's own consciousness as that very self-contracting Śiva. The pedagogical aim is to make this recognition operative in a single concentrated reading.",
+  "engaged_works": [
+    {
+      "work_id": "pratyabhijna-hrdayam",
+      "title": "Pratyabhijna-Hrdayam",
+      "title_iast": "Pratyabhijñā-Hṛdayam",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored compact summary of Pratyabhijñā doctrine.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Twenty short sūtras with Kṣemarāja's own *Vṛtti*, designed as a single-sitting introduction to the entire *Pratyabhijñā* system. Sūtra 1 (*citiḥ svatantrā viśvasiddhi-hetuḥ*): consciousness, by its own *svātantrya*, is the cause of the manifestation of the universe. Sūtras 2–3 elaborate the *ābhāsa*-structure of manifestation. Sūtra 4 — the architectural heart of the work, and the reason it is canonical for comparative non-dualism — states that the *cetana* (limited subject) is itself nothing but consciousness *that has contracted* (*saṃkucita*) by its own *svātantrya*: the limited self is the unlimited supreme self in the mode of self-imposed contraction. Subsequent sūtras work out the consequences: the appearance of the world to the bound subject, the structure of bondage as forgetfulness of one's own *cit*-nature, the upward path of recognition (*pratyabhijñā*), and the residual condition of the *jīvanmukta* who acts within manifestation while knowing it as own self-display. The text is the standard pedagogical entry into Trika and the direct interlocutor with Vedāntic *māyā*-doctrines.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "spanda-nirnaya",
+      "title": "Spanda-Nirnaya",
+      "title_iast": "Spanda-Nirṇaya",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored commentary on the Spanda-Kārikā.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "Kṣemarāja's mature commentary on Vasugupta/Kallaṭa's *Spanda-Kārikā*, the foundational text of the *Spanda* tradition. The *Nirṇaya* takes *spanda* as the pulsation of consciousness by which the entire manifest universe is continuously projected, sustained, and reabsorbed — a dynamism intrinsic to *cit* and inseparable from its *svātantrya*. Crucially, *spanda* is the engine of *manifestation as a whole*: closer in scope to *prakṛti* itself or to *mahāmāyā* than to any single *guṇa*, and definitively not equatable with *rajas*. Kṣemarāja systematically integrates *Spanda* with *Pratyabhijñā*: the *spanda*-doctrine supplies the dynamism that the *Pratyabhijñā* idealism otherwise risks under-articulating; conversely the *Pratyabhijñā* supplies the analysis of subject-structure (*aham*, *vimarśa*, *ābhāsa*) that *Spanda* needs. The four *niṣyandas* of the original *Kārikā* are read as: the establishment of *spanda*, its operation in the bound subject, the practical *upāyas*, and the condition of full recognition. The text is the standard reference for *spanda*-doctrine in its developed form.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "spanda-sandoha",
+      "title": "Spanda-Sandoha",
+      "title_iast": "Spanda-Sandoha",
+      "alternate_titles": [],
+      "composition_dates_low": 1010,
+      "composition_dates_high": 1040,
+      "composition_dates_notes": "Composed before the Spanda-Nirṇaya as a focused commentary on the first Spanda-Kārikā.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored compact commentary on the first verse of the Spanda-Kārikā.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "A focused commentary on the first *kārikā* of the *Spanda-Kārikā* — *yasyonmeṣa-nimeṣābhyāṃ jagataḥ pralayodayau* (\"by whose unfolding and folding the world dissolves and arises\") — taken as a *bīja*-verse containing in compressed form the entire *spanda*-doctrine. Kṣemarāja unfolds the verse word by word, extracting the doctrine that *spanda* is the unbroken pulsation of *Cit* (consciousness) by which the manifest universe is continuously projected, sustained, and reabsorbed; *unmeṣa* and *nimeṣa* are not two opposed processes but the single rhythm of *cit*'s self-display and self-rest. The text serves as the analytic propaedeutic to the longer *Spanda-Nirṇaya*: where the *Nirṇaya* commentates the entire *Kārikā*, the *Sandoha* establishes the foundational interpretive frame within which the rest is to be read. *Spanda* is here precisely the dynamism of manifestation as a whole — closer in scope to *prakṛti* itself or to *mahāmāyā* than to any single *guṇa*, and definitively not equatable with *rajas*. The work is shorter and pedagogically more compact than the *Nirṇaya*, often used as an entry-text by the school's living tradition.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "stava-cintamani-tika",
+      "title": "Stava-Chintamani-Tika",
+      "title_iast": "Stava-Cintāmaṇi-Ṭīkā",
+      "alternate_titles": [],
+      "composition_dates_low": 1010,
+      "composition_dates_high": 1050,
+      "composition_dates_notes": "Composed in Kṣemarāja's mature period.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored commentary on Bhaṭṭa Nārāyaṇa's Stava-Cintāmaṇi.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "Commentary on Bhaṭṭa Nārāyaṇa's *Stava-Cintāmaṇi* — a Kashmirian Śaiva *stotra* in approximately 120 verses to Śiva, treated by the Trika tradition as a doctrinally-saturated devotional poem. Kṣemarāja's *Ṭīkā* reads the *Stava* simultaneously as devotional address and as compressed *Pratyabhijñā* exposition: each verse is shown to articulate, in liturgical voice, an aspect of the recognition (*pratyabhijñā*) that the worshipping *aham* is itself the supreme *aham* of Śiva. The commentary thereby continues the integration of *bhakti* and *pratyabhijñā* exemplified in Utpaladeva's *Śiva-Stotrāvalī* (which Kṣemarāja also commented on); together these works demonstrate that strong non-dualism within the Trika tradition does not abolish *bhakti* but re-grounds it in self-recognition. The text is a key witness to how the school understood its own devotional literature — not as ornamental adjunct to philosophy but as a parallel mode of the same self-recognition, with the *camatkāra* of devotional surrender structurally identical to the *camatkāra* of *pratyabhijñā*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "shiva-sutra-vimarshini",
+      "title": "Shiva-Sutra-Vimarshini",
+      "title_iast": "Śiva-Sūtra-Vimarśinī",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored commentary on the Śiva-Sūtras.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "Kṣemarāja's commentary on the *Śiva-Sūtras* attributed to Vasugupta — the revealed scriptural foundation of the Trika lineage. The *Vimarśinī* organizes the seventy-seven sūtras into the three *unmeṣas* (*Śāmbhava*, *Śākta*, *Āṇava*), corresponding to the three *upāyas* of progressively descending subtlety. The first *unmeṣa* opens with *caitanyam ātmā* (\"the self is consciousness itself\") and develops the immediate *Śāmbhava* path of recognition without method; the second works through the *Śākta* path of attentive *vimarśa* on the rising and subsiding of cognitions; the third treats the *Āṇava* path of breath, mantra, and meditative supports for those still bound to the limited subject. Throughout, Kṣemarāja reads each sūtra simultaneously as scriptural revelation, as Pratyabhijñā philosophy, and as practical instruction, making the *Vimarśinī* the standard integrative commentary on the school's foundational scripture. For comparative purposes, the work is the locus classicus for the Trika doctrine that scripture, philosophy, and practice are three faces of the single self-recognition of consciousness.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1-cleanup-opus"
+}

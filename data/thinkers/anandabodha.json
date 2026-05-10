@@ -1,0 +1,74 @@
+{
+  "id": "anandabodha",
+  "name": "Anandabodha",
+  "name_iast": "Ānandabodha",
+  "alternate_names": [],
+  "dates_low": 1100,
+  "dates_high": 1200,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Pre-Citsukha by quotation; dating from internal references.",
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Vivaraṇa-Advaita",
+  "sub_school_shade": 4,
+  "lineage_in": ["prakasatman"],
+  "lineage_out": ["citsukha"],
+  "lineage_polemical": [],
+  "core_thesis": "Ānandabodha consolidates Vivaraṇa-Advaita into a polemical-epistemological idiom by constructing rigorous *anumānas* (formal inferences) for the central Advaitic claims that earlier authors had defended chiefly by *śruti*. He inherits Prakāśātman's *brahmāśrita-bhāva-rūpā-avidyā* and the *cidābhāsa* analysis of the *jīva*, and turns the technical apparatus outward against the *Bhedavāda* opponents — Naiyāyikas, Mīmāṃsakas, and the rising Bhedābheda and proto-Dvaita schools. His signature is the development of the standard *mithyātva-anumānas* (especially the *dṛśyatvānumāna* and *jaḍatvānumāna*) demonstrating the *anirvacanīya-mithyātva* of the world; the careful articulation that *mithyā* signifies *sad-asad-vilakṣaṇa* — neither real nor unreal, never collapsing into *asat*; and a defense of *Brahman* as *svaprakāśa* (self-luminous) modelled on the *svayaṃ-prakāśatva* of *cit*. Citsukha's *Tattva-Pradīpikā* is essentially a deepening and tightening of Ānandabodha's program; his *anumānas* re-emerge two centuries later in the Advaita-Siddhi as the polemical core that Vyāsatīrtha must dismantle.",
+  "engaged_works": [
+    {
+      "work_id": "nyaya-makaranda",
+      "title": "Nyaya-Makaranda",
+      "title_iast": "Nyāya-Makaranda",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "Compact polemical *prakaraṇa* — its title 'flower-cluster (*makaranda*) of reasoned argument (*nyāya*)' announces its method — devoted to establishing the central Advaita theses by formal inference. Ānandabodha defends the *svayaṃ-prakāśatva* of *Brahman* / *ātman*, refutes the Nyāya analysis of cognition as known by inference (*jñāna-jñāne anumeyatva*), establishes the *anirvacanīya-mithyātva* of the world by the *dṛśyatvānumāna* (whatever is *dṛśya* is *mithyā*, like *śukti-rajata*), and refutes *bheda* (real difference) as itself indeterminable. The treatise is one of the principal sources from which Citsukha drew his *Tattva-Pradīpikā* and Madhusūdana drew the inferential machinery of the *Advaita-Siddhi*. It matters as the first Advaita work to be argued primarily in the technical idiom of *pramāṇa-vāda* rather than primarily by exegesis of *śruti*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "pramana-mala",
+      "title": "Pramana-Mala",
+      "title_iast": "Pramāṇa-Mālā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "Treatise — 'garland (*mālā*) of the *pramāṇas*' — that examines and accepts the six *pramāṇas* of the Bhāṭṭa Mīmāṃsā (*pratyakṣa, anumāna, upamāna, śabda, arthāpatti, anupalabdhi*) for transactional purposes while subordinating them all to *śabda* in the form of the Mahāvākya as the unique *brahma-pramāṇa*. Its expository contribution is the careful demarcation of the Advaita epistemological architecture later canonised by Dharmarāja's *Vedānta-Paribhāṣā*: each *pramāṇa* is *vyāvahārika*, valid until *bādha*; only *śabda* qua *Mahāvākya* generates the *akhaṇḍākāra-vṛtti* whose function is to remove *avidyā*. The work also extends the *mithyātva-anumānas* of the *Nyāya-Makaranda* and supplies refinements that recur in Citsukha and Madhusūdana.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "nyaya-dipavali",
+      "title": "Nyaya-Dipavali",
+      "title_iast": "Nyāya-Dīpāvalī",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "'Row of lamps (*dīpāvalī*) of reasoned argument' — a polemical *prakaraṇa* in which Ānandabodha sharpens the inferential program of the *Nyāya-Makaranda* with explicit attention to opponents' counter-positions. The text rehearses and tightens the *dṛśyatva* and *jaḍatva* inferences for *mithyātva*, defends *bhāva-rūpā-avidyā* against the Naiyāyika view that ignorance is mere absence (*abhāva*), refines the *svayaṃ-prakāśatva*-inference for *cit*, and works through standard objections (regress of cognitions, the locus problem for *avidyā*, the apparent reality of *bheda*) with formalised *anumāna*-structures. The work matters historically as a bridge text whose argument-templates are taken up directly by Citsukha and, later, by Madhusūdana — many of the *Advaita-Siddhi*'s opening *anumānas* are recognisably refinements of the *Dīpāvalī* line.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1b-opus"
+}

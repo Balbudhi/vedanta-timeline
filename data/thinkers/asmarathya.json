@@ -1,0 +1,39 @@
+{
+  "id": "asmarathya",
+  "name": "Asmarathya",
+  "name_iast": "Āśmarathya",
+  "alternate_names": [],
+  "dates_low": -400,
+  "dates_high": -100,
+  "dates_tier": "oral-tradition-only",
+  "dates_notes": "Pre-Bādarāyaṇa; cited in Brahma-Sūtra 1.2.29 and 1.4.20; no work survives.",
+  "school": "proto-Vedānta",
+  "school_color_token": "proto",
+  "sub_school": "Proto-bhedābheda-leaning",
+  "sub_school_shade": 2,
+  "lineage_in": [],
+  "lineage_out": ["badarayana"],
+  "lineage_polemical": [],
+  "core_thesis": "As reconstructed from later citations: Āśmarathya is named at Brahma-Sūtra 1.2.29, 1.4.20, and 4.4.6 as a pre-Bādarāyaṇa Vedānta teacher whose position on the *jīva-Brahman* relation is preserved only through Bādarāyaṇa's references and Śaṅkara's commentary. The view attributed to him is a *bhedābheda*-leaning thesis mediated by qualifying *upādhi*: the *jīva* is neither absolutely identical with Brahman nor absolutely different, but stands in a relation of partial identity-and-distinction grounded in the upaniṣadic teaching that Brahman is the source from which selves arise (sparks from a fire, in the standard simile). The relation is real on both sides; non-difference predominates ontologically (so that the upaniṣadic *aham brahmāsmi* type teachings are preserved) while the conventional distinctness of selves is also preserved through the *upādhi*-mediated structure. Nothing of the historical Āśmarathya beyond this is recoverable; his name designates the canonical proto-*bhedābheda* position within the sūtra-debate.",
+  "engaged_works": [
+    {
+      "work_id": "bs-citation-fragments",
+      "title": "Positions reconstructed from Brahma-Sūtra citations",
+      "title_iast": "Brahma-Sūtra citation fragments",
+      "alternate_titles": [],
+      "ascription_tier": "disputed",
+      "ascription_notes": "No work survives; the bhedābheda-leaning position is reconstructed from Brahma-Sūtra 1.2.29 and 1.4.20.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Three sūtra-loci preserve Āśmarathya. At Brahma-Sūtra 1.2.29 (*abhivyakter ity āśmarathyaḥ*) his name is invoked on the question of how Brahman can be both within and beyond the heart; the gloss takes him to teach a real manifestation of the supreme within the *jīva*. At 1.4.20 (*āśmarathyaḥ*), in the cluster on the *jīva*'s relation to Brahman in the *Madhu-Vidyā* and similar passages, his view is read as proto-*bhedābheda*: the self is partly identical with Brahman insofar as it is its manifestation, partly distinct insofar as it is conditioned. At 4.4.6 his view contrasts with Auḍulomi's *mokṣa*-state non-difference. Śaṅkara reads Āśmarathya's *bhedābheda* as a provisional teaching subordinate to the absolute non-difference thesis; later Bhāskara and Yādava take it as anticipating their own *bhedābheda* schools. Beyond these three loci nothing historical of him survives.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1f-opus"
+}

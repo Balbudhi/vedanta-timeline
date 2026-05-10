@@ -1,0 +1,74 @@
+{
+  "id": "purusottama",
+  "name": "Purushottama",
+  "name_iast": "Puruṣottama",
+  "alternate_names": [],
+  "dates_low": 1668,
+  "dates_high": 1781,
+  "dates_tier": "contested",
+  "dates_notes": "Sectarian dates yield an implausible 113-year span; most scholars adjust the bounds.",
+  "school": "Śuddhādvaita",
+  "school_color_token": "shuddha",
+  "sub_school": "Puṣṭimārga scholastic",
+  "sub_school_shade": 5,
+  "lineage_in": ["vitthalanatha"],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Puruṣottama is the principal scholastic of the post-Viṭṭhalanātha *Puṣṭi-Mārga*. He preserves Vallabha's *śuddhādvaita* — Brahman-as-Kṛṣṇa as the sole reality, *jīva* and *jagat* as real *aṃśas* through *avirbhāva-tirobhāva*, the rejection of *māyā-vāda* and *jagat-mithyātva*, *Puṣṭi* as the operative soteriological principle — and his contribution is technical: he produces the granular sub-commentaries and doxographical syntheses by which the school becomes systematically defensible in the matured polemical environment of late-medieval Vedānta. The *Avaraṇa-Bhaṅga* is his sustained refutation of Advaitic *māyā-vāda* on its own technical ground; the *Prasthāna-Ratnākara* is the encyclopaedic Puṣṭimārga doctrinal compendium gathering the school's positions across the *prasthāna-traya*; the *Bhāṣya-Prakāśa* is his sub-commentary on Vallabha's *Aṇu-Bhāṣya*. Throughout, his concern is to demonstrate that *śuddhādvaita* — non-dualism *with* a real world — is not a confused intermediate between Advaita and dualism but a settled, internally coherent Vedāntic option, distinct in particular from Śaṅkara's Advaita with which it is sometimes carelessly conflated.",
+  "engaged_works": [
+    {
+      "work_id": "prasthana-ratnakara",
+      "title": "Prasthana-Ratnakara",
+      "title_iast": "Prasthāna-Ratnākara",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Puṣṭimārga scholastic compendium.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The *Prasthāna-Ratnākara* (\"ocean of the prasthāna\") is Puruṣottama's encyclopaedic *Puṣṭi-Mārga* doctrinal compendium, organised as a systematic survey of the *prasthāna-traya* — Upaniṣads, Bhagavad-Gītā, Brahma-Sūtras — read consistently through *śuddhādvaita*. The work assembles Vallabha and Viṭṭhalanātha's settled positions, locates them in the wider Vedānta landscape, and stages the school's response to the standard objections from Advaita, Viśiṣṭādvaita, Madhva-Dvaita, the *bhedābheda* lines, and the Caitanya school. Topics treated include the *pramāṇa*-status of the *Bhāgavata*, the structure of *avikṛta-pariṇāma*, the *jīva*'s *aṃśa*-status with concealment of *ānanda*, the typology of *jīvas* (*puṣṭi*, *maryādā*, *pravāha*) and the operation of *anugraha*, and the conditions and stages of liberation. The text is the school's mature scholastic instrument and the principal Puṣṭimārga reference for any sustained inter-school doctrinal engagement after the early-modern period.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "avarana-bhanga",
+      "title": "Avarana-Bhanga",
+      "title_iast": "Avaraṇa-Bhaṅga",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored polemical treatise.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "The *Avaraṇa-Bhaṅga* (\"breaking of the veil\") is Puruṣottama's sustained polemical treatise against Advaitic *māyā-vāda*. The title is doctrinally exact: he undertakes to dismantle the Advaitic *avaraṇa-śakti* of *māyā* — the alleged power by which Brahman is concealed — and the *vivartavāda* it underwrites. Working through the central Advaitic moves with technical care, he argues that *māyā* as conceived by post-Śaṅkara Advaita is incoherent on its own terms (the *anirvacanīyatā* doctrine, the *dṛṣṭi-sṛṣṭi* mechanism, the relation between *avidyā* and *Brahman*) and is in any case unnecessary once Vallabha's *avikṛta-pariṇāma-vāda* is admitted, which preserves Brahman's non-dual status without making the world illusory. The work is important precisely because *śuddhādvaita* is sometimes confused with Advaita; the *Avaraṇa-Bhaṅga* enforces the demarcation. It is the most technically ambitious Puṣṭimārga polemical work and a key text in the school's late-medieval doctrinal self-positioning.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "bhasya-prakasha",
+      "title": "Bhashya-Prakasha on Anu-Bhashya",
+      "title_iast": "Bhāṣya-Prakāśa",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored sub-commentary on Vallabha's Aṇu-Bhāṣya.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "The *Bhāṣya-Prakāśa* is Puruṣottama's full sub-commentary on Vallabha's *Aṇu-Bhāṣya* on the Brahma-Sūtras. Where Vallabha's bhāṣya is famously terse — true to its name — Puruṣottama opens it out adhikaraṇa by adhikaraṇa, supplying the *pūrvapakṣa-uttarapakṣa* construction at full technical pitch, the precise demarcations against rival Vedānta interpretations, and the connections to the wider *śuddhādvaita* doctrinal corpus. The work also clarifies the doctrinal continuities between Vallabha's portion of the *Aṇu-Bhāṣya* and Viṭṭhalanātha's continuation, treating the bhāṣya as a unified Puṣṭimārga reading of the *sūtras*. The *Bhāṣya-Prakāśa* is the canonical late-Puṣṭimārga sub-commentary and the standard scholastic instrument for serious study of the school's Brahma-Sūtra commentary.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1e-opus"
+}

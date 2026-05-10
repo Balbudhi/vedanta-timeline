@@ -1,0 +1,290 @@
+{
+  "id": "madhva",
+  "name": "Madhva",
+  "name_iast": "Madhva",
+  "alternate_names": ["Ānandatīrtha", "Pūrṇaprajña", "Madhvācārya"],
+  "dates_low": 1238,
+  "dates_high": 1317,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Inscription, maṭha records, near-contemporary biographies (Maṇi-Mañjarī, Madhva-Vijaya); among the best-attested medieval Indian philosophers.",
+  "dates_evidence": [
+    {
+      "kind": "inscription",
+      "description": "Contemporary or near-contemporary inscriptions in the Tuluva region attest his lifetime."
+    },
+    {
+      "kind": "sectarian-chronicle",
+      "description": "Maṇi-Mañjarī and Madhva-Vijaya near-contemporary biographies."
+    },
+    {
+      "kind": "manuscript-colophon",
+      "description": "Manuscript colophons across the Sarva-Mūla corpus."
+    }
+  ],
+  "school": "Dvaita",
+  "school_color_token": "dvaita",
+  "sub_school": "Tattvavāda",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": ["jayatirtha"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "madhusudana",
+      "direction": "is-refuted-by",
+      "note": "The Tattvavāda position is the principal target of Madhusūdana's Advaita-Siddhi (via Vyāsatīrtha)."
+    },
+    {
+      "thinker_id": "sankara",
+      "direction": "refutes",
+      "note": "Madhva's Māyāvāda-Khaṇḍana / Mithyātvānumāna-Khaṇḍana / Upādhi-Khaṇḍana triad explicitly targets the Advaitic position attributed to Śaṅkara."
+    }
+  ],
+  "core_thesis": "Madhva's *Tattvavāda* is a fully realist Vedānta organised around an irreducible *taratamya* (graded hierarchy) of two ontological orders: *svatantra-tattva*, the one wholly independent reality, identified as Viṣṇu/Nārāyaṇa; and *paratantra-tattva*, all else, whose being, knowing, and acting depend asymmetrically on him. The grain of this realism is fixed by *pañca-bheda* — the five permanent differences between *Brahman* and *jīva*, *Brahman* and *jaḍa*, *jīva* and *jīva*, *jīva* and *jaḍa*, and *jaḍa* and *jaḍa* — none of which is *vyāvahārika* and none of which dissolves in *mokṣa*. Madhva's distinctive logical instrument is *viśeṣa*, a self-distinguishing relation that lets attributes be genuinely differentiated within a single substance without multiplying entities — the device by which he secures both the unity of Viṣṇu and the reality of his *guṇa*-distinctions. *Jīvas* themselves form a metaphysically real hierarchy of *mukti-yogya*, *nitya-saṃsārī*, and *tamo-yogya*; liberation is *bhakti*-mediated *aparokṣa-jñāna* of Viṣṇu, never identity with him.",
+  "engaged_works": [
+    {
+      "work_id": "brahma-sutra-bhasya",
+      "title": "Brahma-Sutra-Bhashya",
+      "title_iast": "Brahma-Sūtra-Bhāṣya",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "summary": "Madhva's prose *bhāṣya* on Bādarāyaṇa's *Brahma-Sūtra*, the foundational text of *Tattvavāda* and the smallest of the major Vedānta *sūtra-bhāṣyas*. Working *adhikaraṇa* by *adhikaraṇa*, Madhva re-reads the *Sūtra* against Śaṅkara and Bhāskara as a treatise on *svatantra-paratantra* dependence: *Brahman* is exclusively Viṣṇu, *jagat-kāraṇa* in a real sense, and *upādāna* only in the sense of being the locus on which the world depends, not its material constituent. Distinctive moves include the realist reading of *anandamaya* (Viṣṇu, not *jīva*), the rejection of any *upādhi*-mediated identity between *jīva* and *Brahman*, and the *taratamya* reading of the difference *sūtras*. Where Śaṅkara reads *neti neti* as eliminating distinction within *Brahman*, Madhva reads it as eliminating *defects* in *Brahman* — a small philological choice with vast systematic consequences. The *bhāṣya* is the seed-text on which the *Anuvyākhyāna*, *Tattva-Prakāśikā*, *Nyāya-Sudhā*, *Tātparya-Candrikā*, and *Parimala* successively build.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "anuvyakhyana",
+      "title": "Anuvyakhyana",
+      "title_iast": "Anuvyākhyāna",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored verse-commentary on the Brahma-Sūtra-Bhāṣya.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "varttika",
+      "language": "sanskrit",
+      "summary": "Madhva's verse-*vārttika* on his own *Brahma-Sūtra-Bhāṣya*, in roughly two thousand *anuṣṭubh* verses across four *adhyāyas*, written to expand, defend, and *prove* what the *Bhāṣya* asserts in compressed form. Where the *Bhāṣya* states the *Tattvavāda* reading of an *adhikaraṇa*, the *Anuvyākhyāna* mounts the full dialectical apparatus — *pūrvapakṣa* from Advaitins, Bhāskarīyas, Jainas, Buddhists, and Cārvākas, followed by *uttarapakṣa* with formal *anumāna*-structures and *śruti-yukti-anubhava* triangulation. The text is the indispensable scholastic spine of the school: every later Dvaita *ṭīkā*-tradition, beginning with Jayatīrtha's *Nyāya-Sudhā*, takes the *Anuvyākhyāna* rather than the *Bhāṣya* as its primary base-text. It contains the most developed Madhva-pen treatments of *pratibimba*-correction, *viśeṣa*, *sākṣi*-cognition, *bheda*-defence against the Advaitic mithyātva-inferences, and the *taratamya* of *jīvas*. It is to *Tattvavāda* what the *Vārttika* of Sureśvara is to *Advaita* — the school's argumentative source.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "gita-bhasya",
+      "title": "Gita-Bhashya",
+      "title_iast": "Gītā-Bhāṣya",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Gītā-commentary.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "gita-bhashya",
+      "language": "sanskrit",
+      "summary": "Madhva's prose *bhāṣya* on the *Bhagavad-Gītā*, paired with his separate *Gītā-Tātparya-Nirṇaya* (a doctrinal-summary work). Reading the *Gītā* as a *prasthāna* of *Tattvavāda*, Madhva interprets Kṛṣṇa as Viṣṇu speaking in his own voice and the text's apparent identity-statements (e.g. *aham ātmā guḍākeśa*) as statements of *bimba-pratibimba* dependence rather than non-difference. *Karma*, *jñāna*, and *bhakti* are read as ordered means within a single soteriology whose terminus is *aparokṣa-jñāna* of Viṣṇu and whose engine is *bhakti* — never *jñāna* alone. The *bhāṣya* repeatedly draws on otherwise-unknown *Pañcarātra* and *Mahābhārata*-affiliated citations (the so-called *Madhva-quotations*), which became a major target of Appayya Dīkṣita's later polemic and a perennial item of philological controversy. Doctrinally, the work fixes the school's reading of *Gītā* 7, 9, 10, 13, and 15 — passages Śaṅkara reads in identity-mode — as cosmological-dependence passages, supplying scriptural anchorage for *svatantra-paratantra* hierarchy.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "tattvodyota",
+      "title": "Tattvodyota",
+      "title_iast": "Tattvodyota",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "One of the *Daśa-Prakaraṇa*, the *Tattvodyota* (\"Light on the Real\") is a compact polemical *prakaraṇa* in which Madhva refutes a sequence of monist and quasi-monist positions — strict Advaita, Bhāskara-style *bhedābheda*, and *upādhi*-mediated identity — by argued sequences rather than aphoristic gesture. Its central move is to show that any *aikya* between *jīva* and *Brahman* compatible with experienced difference would have to be either accidental (which trivialises identity-*śruti*), or *upādhi*-based (which collapses into Bhāskarīyas already refuted), or *vivarta*-based (which requires an unprovable *mithyātva* of the world). Madhva's deployment of the *sākṣi* (witness-consciousness as a self-illuminating, jīva-particular faculty) here is among the cleanest in the corpus; the *Tattvodyota*'s economical structure made it the standard Dvaita textbook on *aikya-bhaṅga* and the natural object of Jayatīrtha's substantial *Tattvodyota-Ṭīkā*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "mayavada-khandana",
+      "title": "Mayavada-Khandana",
+      "title_iast": "Māyāvāda-Khaṇḍana",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored polemic against the Advaitic māyā-doctrine.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "The *Māyāvāda-Khaṇḍana*, also of the *Daśa-Prakaraṇa*, is Madhva's compact frontal assault on the Advaitic doctrine that the world is *māyika* — neither *sat* nor *asat*, *anirvacanīya*. Madhva proceeds by exhausting the disjunction: if *māyā* is *sat*, Advaita has two reals and self-refutes; if it is *asat*, it cannot produce appearances; if it is *anirvacanīya*, then either the predicate \"*anirvacanīya*\" is determinate (in which case *māyā* is determinate after all) or it is itself *anirvacanīya* (in which case the doctrine is unstateable). Madhva insists *mithyā* is not equivalent to *asat* — the standard target of his opponents' counter-charge — but argues that the Advaitin's *mithyātva* still requires a coherent positive characterisation he never supplies. The text is the immediate ancestor of the *Mithyātvānumāna-Khaṇḍana* (which targets the *anumāna*-form of the same doctrine) and the *Upādhi-Khaṇḍana* (which targets its *upādhi*-mediation strategy); together the three constitute Madhva's anti-Advaita triad, against which Madhusūdana's *Advaita-Siddhi* is the eventual reply.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "mithyatvanumana-khandana",
+      "title": "Mithyatvanumana-Khandana",
+      "title_iast": "Mithyātvānumāna-Khaṇḍana",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored polemic against the Advaitic inference for mithyātva.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "Targeting the formal *anumāna* by which Advaitins infer the *mithyātva* of the world — typically of the form *vimataṃ mithyā, dṛśyatvāt, śuktirūpyavat* — the *Mithyātvānumāna-Khaṇḍana* dissects the inference *hetu* by *hetu*. Madhva charges (i) that *dṛśyatva* (perceptibility) admits a counter-instance in *Brahman*'s self-perception within Advaita itself, (ii) that the *sapakṣa* (the silver-on-shell) is itself controvertible, since the sublation of error is only the rejection of a false predication, not the ontological annihilation of a *sat-asat-vilakṣaṇa* entity, and (iii) that the inferred *mithyātva* is itself either *satya* (and so a counter-example to its own conclusion) or *mithyā* (and so the inference is self-undermining — the *bādhita-viṣayatva* problem). Each *hetu* — *dṛśyatva*, *jaḍatva*, *paricchinnatva*, *bhāvarūpatva* — is taken in turn. The text supplies the technical scaffolding that Vyāsatīrtha's *Nyāyāmṛta* will later refine into Navya-Nyāya form and that Madhusūdana will labour to overturn in *Advaita-Siddhi*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "upadhi-khandana",
+      "title": "Upadhi-Khandana",
+      "title_iast": "Upādhi-Khaṇḍana",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored polemic against the upādhi-mediation strategy.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "The third panel of the anti-Advaita triad, the *Upādhi-Khaṇḍana* refutes the strategy — most fully developed in the Bhāskara/Yādava-Prakāśa families, but tacitly assumed by Advaitins in their *avaccheda*-vāda — that *jīva* is *Brahman*-as-conditioned-by-*upādhi*, with non-difference reasserted in *mokṣa* on the removal of conditioning. Madhva runs a dilemma: either the *upādhi* is real (in which case the resulting non-difference is merely verbal, since two genuinely conditioned things differ by their conditions and not by some prior identity), or it is *mithyā* (in which case the entire account presupposes a successful *mithyātva*-doctrine already refuted in the *Mithyātvānumāna-Khaṇḍana*). He further argues that *upādhi*-talk reduces either to *aupādhika-bheda* (which is just realist difference under a different name) or to a category-mistake about how *upādhis* function in Nyāya inference. The text is short, sharp, and effectively closes the regress route by which Advaitins escape the previous two *Khaṇḍanas*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "visnu-tattva-vinirnaya",
+      "title": "Vishnu-Tattva-Vinirnaya",
+      "title_iast": "Viṣṇu-Tattva-Vinirṇaya",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "The most-cited and arguably most influential of the *Daśa-Prakaraṇa*, the *Viṣṇu-Tattva-Vinirṇaya* (\"Determination of the Reality of Viṣṇu\") establishes by *pramāṇa*-analysis that Viṣṇu/Nārāyaṇa, and no other devatā, is the *param-Brahman* of *śruti*. Madhva first defends the authority and scope of *śabda-pramāṇa* — including disputed Pañcarātra and *Ṛg-veda-khila* materials — against Mīmāṃsaka and Nyāya delimitations, then deploys it together with *anumāna* and *anubhava* to show that every cosmologically maximal predicate (*sarva-jña*, *sarva-śaktimat*, *sarva-niyantṛ*, *svatantra*) attaches to Viṣṇu uniquely, and that no rival reading of *Brahman* (impersonal, attribute-less, or co-instantiated by other devas) survives. The work is also Madhva's most explicit positive theology of *taratamya* among devatās, with Brahmā-Vāyu, Sarasvatī-Bhāratī, etc., placed in the dependence-hierarchy. Its citation-fabric is dense and frequently controversial; it is the object of Jayatīrtha's important *Viṣṇu-Tattva-Vinirṇaya-Ṭīkā* and a recurring locus in inter-school polemic about the identity of the *Vedānta*-Brahman.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "gita-tatparya",
+      "title": "Gita-Tatparya-Nirnaya",
+      "title_iast": "Gītā-Tātparya-Nirṇaya",
+      "alternate_titles": ["Gītā-Tātparya"],
+      "composition_dates_low": 1260,
+      "composition_dates_high": 1300,
+      "composition_dates_notes": "Composed as the doctrinal-summary companion to the Gītā-Bhāṣya in Madhva's mature period.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored as part of the Sarva-Mūla-Granthāḥ; manuscript transmission and maṭha attestation uniform.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The doctrinal-summary companion to the *Gītā-Bhāṣya*: not a verse-by-verse re-commentary but a *tātparya-nirṇaya* establishing what the *Gītā* as a whole *purports*. Madhva selects key verses across all eighteen chapters and shows that, read against the alternative monist and *karma*-mīmāṃsaka constructions, the text's settled purport is *Tattvavāda*: Kṛṣṇa is identical with Viṣṇu/Nārāyaṇa, the *param-Brahman* of *śruti*; the *jīva* is *paratantra*, ontologically dependent on him by *bimba-pratibimba*; *karma*, *jñāna*, and *bhakti* are ordered means whose terminus is *aparokṣa-jñāna* mediated by *bhakti*; the *vibhūti*-chapter (10), the *viśva-rūpa* (11), and the *kṣetra-kṣetrajña-vibhāga* (13) are read in *taratamya*-key. The *Tātparya* is the standard internal Mādhva reference for fixing the school's reading of any disputed *Gītā* verse, and is the work most cited when Mādhvas argue against Advaitic and Viśiṣṭādvaita readings of the *Gītā*. Companion to the *Bhāgavata-Tātparya-Nirṇaya* and *Mahābhārata-Tātparya-Nirṇaya* in genre and method.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "mahabharata-tatparya-nirnaya",
+      "title": "Mahabharata-Tatparya-Nirnaya",
+      "title_iast": "Mahābhārata-Tātparya-Nirṇaya",
+      "alternate_titles": [],
+      "composition_dates_low": 1260,
+      "composition_dates_high": 1310,
+      "composition_dates_notes": "Late-mature work; one of Madhva's longest and most ambitious compositions.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; among the longest works of the Sarva-Mūla corpus.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "An ambitious 32-chapter verse work (approximately 5,000 verses) determining the doctrinal purport (*tātparya*) of the *Mahābhārata* — Madhva's most extensive treatment of any text outside the *Brahma-Sūtra*. Working selectively through the entire epic, Madhva reads the *Mahābhārata* as a *prasthāna*-text co-equal with *Upaniṣad*, *Brahma-Sūtra*, *Gītā*, and *Bhāgavata*, an unusual and consequential elevation. The narrative is read theologically: the *Pāṇḍavas* are exhibited as *taratamya*-graded *jīvas* under Kṛṣṇa-Viṣṇu's direct *anugraha*, with Bhīma identified as the *avatāra* of Vāyu (Madhva's distinctive *vāyu-tritaya* doctrine — Hanumān, Bhīma, Madhva himself as the three *avatāras* of Mukhya-Prāṇa). The work supplies the canonical Mādhva interpretation of contested epic episodes — the *Bhīṣma-Stuti*, the Kṛṣṇa-*viśva-rūpa*, the *Anugītā* — and incorporates many otherwise-unknown citations from *Bhāratīya*-affiliated and *Pañcarātra* sources whose authenticity has been a perennial item of philological controversy. Doctrinally pivotal because it makes the *Mahābhārata* itself a Mādhva *prasthāna* rather than a merely illustrative narrative.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "tattva-sankhyana",
+      "title": "Tattva-Sankhyana",
+      "title_iast": "Tattva-Saṅkhyāna",
+      "alternate_titles": [],
+      "composition_dates_low": 1260,
+      "composition_dates_high": 1300,
+      "composition_dates_notes": "One of the Daśa-Prakaraṇa.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; one of the *Daśa-Prakaraṇa* of the Sarva-Mūla corpus.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "An exceptionally compact *prakaraṇa* — under thirty verses in the standard recension — enumerating the categories (*tattvas*) of *Tattvavāda* in their *taratamya*-ordered hierarchy. The text states the school's foundational ontological division: *svatantra-tattva*, the one wholly independent reality (Viṣṇu); and *paratantra-tattva*, all else, sub-divided into *cetana* (sentient: *jīva*-classes graded as *mukti-yogya*, *nitya-saṃsārī*, *tamo-yogya*, with sub-orderings of *deva*, *ṛṣi*, *manuṣya*, etc.) and *acetana* (insentient: *prakṛti*, *kāla*, *karma*, *avidyā*-as-real-veiling, the *Vedas*, the *guṇa*-hierarchy, etc.). Despite its brevity the text is doctrinally dense: every term carries weight, and the ordering is itself argument. Jayatīrtha's *Tattva-Saṅkhyāna-Ṭīkā* unfolds it into a substantial scholastic treatment. The *Tattva-Saṅkhyāna* is the canonical Mādhva ontological summary, the obligatory reference for the school's classification of beings, and the structural counterpart to the polemical *Daśa-Prakaraṇa* texts (*Tattvodyota*, *Māyāvāda-Khaṇḍana*, etc.) — providing the positive ontology those texts presuppose.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "karma-nirnaya",
+      "title": "Karma-Nirnaya",
+      "title_iast": "Karma-Nirṇaya",
+      "alternate_titles": [],
+      "composition_dates_low": 1260,
+      "composition_dates_high": 1300,
+      "composition_dates_notes": "One of the Daśa-Prakaraṇa.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; one of the *Daśa-Prakaraṇa*.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Madhva's compact *prakaraṇa* on the doctrine of *karma* — its ontological status, the *karma-jñāna* relation, the conditions for *karmaphala*, and the precise sense in which *karma* is *paratantra* on Viṣṇu's *anumati* (permission). Against the Mīmāṃsaka treatment of *karma* as a self-sufficient *apūrva*-generating mechanism, Madhva insists that all *karma-phala* arises only by Viṣṇu's *anumati*, so that *karma* is real but never autonomous: the *jīva* is *kartā* in a real sense (against the Sāṃkhya denial of agency to the *puruṣa*) but only as instrument under the supreme *kartā*. Against the Advaitic subordination of *karma* as merely preparatory and ultimately *vyāvahārika*, Madhva insists that *karma* is *pāramārthikally* real and that the *karma-yoga* taught by the *Gītā* is constitutive, not merely propaedeutic. The text also fixes the school's analysis of *adṛṣṭa*, of *prārabdha*-versus-*sañcita-karma*, and of the *karma*-conditioned trajectory of *jīvas* under *taratamya*. Jayatīrtha's *Karma-Nirṇaya-Ṭīkā* is the standard sub-commentary.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "nyaya-vivarana",
+      "title": "Nyaya-Vivarana",
+      "title_iast": "Nyāya-Vivaraṇa",
+      "alternate_titles": [],
+      "composition_dates_low": 1260,
+      "composition_dates_high": 1300,
+      "composition_dates_notes": "Compact methodological gloss accompanying the Brahma-Sūtra-Bhāṣya.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; transmitted with the Brahma-Sūtra-Bhāṣya in the Sarva-Mūla manuscript tradition.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "A compact methodological text that lays out the *nyāya* — the *yukti*-paddhati, or method of reasoned construction — by which the *Brahma-Sūtra-Bhāṣya* proceeds. Where the *Bhāṣya* itself states conclusions in compressed form and the *Anuvyākhyāna* mounts the full dialectical apparatus, the *Nyāya-Vivaraṇa* articulates the *meta*-method: how *adhikaraṇas* are to be parsed, what counts as a *viṣaya-vākya*, how *sūtras* function as *upakrama* / *upasaṃhāra* signals, and the conditions under which *śruti*, *yukti*, and *anubhava* converge. Particular attention is given to the structure of the difference-*sūtras* (those Madhva reads as fixing *bheda* against the Advaitic *aikya*-construals) and to the rules by which *upakrama* and *upasaṃhāra* fix the *tātparya* of an *adhikaraṇa* against alternative readings of intervening verses. The text is the school's own statement of its hermeneutic discipline and is presupposed by the *Anuvyākhyāna*'s formal arguments; Jayatīrtha's gloss makes it operational for later scholastic use.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "bhagavata-tatparya-nirnaya",
+      "title": "Bhagavata-Tatparya-Nirnaya",
+      "title_iast": "Bhāgavata-Tātparya-Nirṇaya",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored doctrinal exposition of the Bhāgavata.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Not a verse-by-verse commentary but a *tātparya-nirṇaya* — a determination of the doctrinal purport of the *Bhāgavata-Purāṇa* — selecting and glossing key verses to show that the *Bhāgavata* teaches *Tattvavāda* rather than any monist reading. Madhva treats the *Bhāgavata* as a *prasthāna*-text co-equal with *Upaniṣad*, *Brahma-Sūtra*, and *Gītā*, an unusual elevation that anticipates by three centuries the Gauḍīya use of the same text. He reads the *Bhāgavata*'s identity-locutions (*ahaṁ sarvasya prabhavaḥ*, *vāsudevaḥ sarvam iti*) as cosmological-dependence, not metaphysical-identity, claims; the *līlās* of Kṛṣṇa as ontologically real and of one piece with Viṣṇu's *svarūpa*; and *bhakti* as the unique direct cause of *aparokṣa-jñāna*. Companion to the *Mahābhārata-Tātparya-Nirṇaya*, it forms the Mādhva canonisation of the great Vaiṣṇava narrative corpora as scriptural rather than illustrative, and supplies many of the verse-citations that anchor later Mādhva and Gauḍīya devotional metaphysics.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1-cleanup-opus"
+}

@@ -1,0 +1,90 @@
+{
+  "id": "vyasatirtha",
+  "name": "Vyasatirtha",
+  "name_iast": "Vyāsatīrtha",
+  "alternate_names": ["Vyāsa Rāya"],
+  "dates_low": 1460,
+  "dates_high": 1539,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Vijayanagara court records (Kṛṣṇadevarāya's preceptor); dates very well-established.",
+  "dates_evidence": [
+    {
+      "kind": "court-record",
+      "description": "Vijayanagara royal records, especially Kṛṣṇadevarāya's preceptor-status documents."
+    },
+    {
+      "kind": "manuscript-colophon",
+      "description": "Manuscript colophons across the Nyāyāmṛta and Tarka-Tāṇḍava."
+    }
+  ],
+  "school": "Dvaita",
+  "school_color_token": "dvaita",
+  "sub_school": "Navya-Dvaita",
+  "sub_school_shade": 4,
+  "lineage_in": ["jayatirtha"],
+  "lineage_out": ["vijayindra"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "madhusudana",
+      "direction": "is-refuted-by",
+      "note": "Vyāsatīrtha's Nyāyāmṛta is the structural target of Madhusūdana's Advaita-Siddhi."
+    }
+  ],
+  "core_thesis": "Vyāsatīrtha is the architect of *Navya-Dvaita*: Madhva's *Tattvavāda* re-stated in the technical idiom of *Navya-Nyāya* and pushed to its dialectical limit. His positive metaphysics is straightforwardly Mādhva — *svatantra-paratantra* hierarchy, *pañca-bheda*, *viśeṣa*, *bimba-pratibimba*, *sākṣi*-pramāṇic, with Viṣṇu as the only *svatantra-tattva*. His distinctive contribution is methodological: he engineers Mādhva positions as inferences in *Navya-Nyāya* form, with explicit *vyāpti*-statements, *upādhi*-tests, and *avacchedaka*-conditions, so that the school can engage Gaṅgeśa's tradition on equal technical footing. The *Nyāyāmṛta* is the resulting masterwork — a systematic dismantling of the Advaitic *mithyātva*-thesis under each of its five canonical definitions, accompanied by positive *anumāna*s for *bheda*. The *Tarka-Tāṇḍava* turns the same machinery against the Naiyāyikas. Together these texts elevate Dvaita from a regional commentarial tradition to a pan-Indian dialectical force; Madhusūdana's *Advaita-Siddhi* is precisely the response *Nyāyāmṛta* compelled, and the *Nyāyāmṛta–Advaita-Siddhi–Tarangiṇī–Laghu-Candrikā* cycle is the high-water polemic of late Vedānta.",
+  "engaged_works": [
+    {
+      "work_id": "nyayamrta",
+      "title": "Nyayamrta",
+      "title_iast": "Nyāyāmṛta",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; the most sophisticated Dvaita critique of Advaitic mithyātva.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "The *Nyāyāmṛta* (\"Nectar of Reasoning\") is the definitive Dvaita anti-Advaita polemic and the most technically sophisticated text the school produced. Structured in four *paricchedas*, it dismantles Advaitic *mithyātva* under each of its five canonical definitions — *sad-asad-vilakṣaṇatva*, *jñāna-nivartyatva*, *sat-pratiyogika-bheda*, *abhāva-vilakṣaṇatva*, *svāśraya-niṣṭha-atyantābhāva-pratiyogitva* — showing for each that the proposed *lakṣaṇa* either over-extends to *Brahman*, fails to apply to *prapañca*, or smuggles in a contradiction. Vyāsatīrtha then mounts positive *anumāna*s for *bheda* and against the Advaitic readings of *tat tvam asi*, *aham brahmāsmi*, and the *neti neti* passages, with full *Navya-Nyāya* apparatus (*vyāpti*, *upādhi*, *avacchedaka*, *paryāpti*). The work compelled Madhusūdana's *Advaita-Siddhi* as its structural reply; the resulting cycle (*Nyāyāmṛta* → *Advaita-Siddhi* → *Tarangiṇī* → *Laghu-Candrikā* → *Nyāyāmṛta-Kaṇṭakoddhāra*) is the longest sustained inter-school dialectical engagement in classical Indian philosophy. The text remains the obligatory base-text for any serious Dvaita training in *khaṇḍana*-dialectic.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "tarka-tandava",
+      "title": "Tarka-Tandava",
+      "title_iast": "Tarka-Tāṇḍava",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Navya-Nyāya engagement.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "The *Tarka-Tāṇḍava* (\"Dance of Reasoning\") is Vyāsatīrtha's frontal engagement with *Navya-Nyāya* — most directly with the school of Gaṅgeśa and the *Tattva-Cintāmaṇi* tradition. The work is structured as a *prakaraṇa*-by-*prakaraṇa* critique of Naiyāyika positions on *pramāṇa-lakṣaṇa*, *pratyakṣa*, *anumāna* (especially *vyāpti-grahaṇa*), *upamāna*, and *śabda*, conducted in the same Navya-Nyāya idiom the opponents use. Vyāsatīrtha's most influential constructive moves include his treatment of *kevalānvayi* inferences, his analysis of *pratyakṣa* in terms compatible with *sākṣi-pramāṇa*, and his refusal to grant the Naiyāyika understanding of *abhāva* as an autonomous *padārtha* — *abhāva* on his account collapses into a mode of the *adhikaraṇa*, sparing the school the regress-problems it would otherwise inherit. The *Tarka-Tāṇḍava* is the natural companion of the *Nyāyāmṛta*: where the *Nyāyāmṛta* fights the Advaitins, the *Tāṇḍava* fights the Naiyāyikas, and together they make Vyāsatīrtha's *Navya-Dvaita* a genuine third party in the late-medieval dialectical landscape. Rāghavendra's *Pariṃala* is its principal sub-commentary.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "tatparya-candrika",
+      "title": "Tatparya-Chandrika",
+      "title_iast": "Tātparya-Candrikā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored sub-commentary on Jayatīrtha's Tattva-Prakāśikā.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "Vyāsatīrtha's sub-sub-commentary on Jayatīrtha's *Tattva-Prakāśikā* — and so a third-order text on Madhva's *Brahma-Sūtra-Bhāṣya*. The *Tātparya-Candrikā* (\"Moon of Purport\") moves through the *Sūtras* *adhikaraṇa* by *adhikaraṇa*, taking each of Jayatīrtha's glosses and (a) defending it against opposed readings developed in the intervening generations (especially Appayya-line and Vivaraṇa critiques), (b) extending it into Navya-Nyāya form where Jayatīrtha had argued in older *prācīna* style, and (c) drawing connections to the *Anuvyākhyāna*–*Nyāya-Sudhā* sequence so that the school's commentarial layers can be read as a single argued position. The *Candrikā* is the final piece of the canonical Mādhva commentarial stack on the *Sūtra* (*Sūtra* → Madhva's *Bhāṣya* → Jayatīrtha's *Tattva-Prakāśikā* → Vyāsatīrtha's *Tātparya-Candrikā*), on which Rāghavendra builds the *Candrikā-Prakāśa* and other late *prakāśa*-glosses. Less polemical than the *Nyāyāmṛta* and *Tāṇḍava*, it is the indispensable text for the school's reading of the *Brahma-Sūtra* itself.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1d-opus"
+}

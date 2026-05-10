@@ -1,0 +1,45 @@
+{
+  "id": "padmapada",
+  "name": "Padmapada",
+  "name_iast": "Padmapāda",
+  "alternate_names": ["Sanandana"],
+  "dates_low": 720,
+  "dates_high": 770,
+  "dates_tier": "oral-tradition-only",
+  "dates_notes": "Direct disciple of Śaṅkara per tradition; only the first few pādas of his Pañcapādikā survive.",
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Vivaraṇa-Advaita",
+  "sub_school_shade": 4,
+  "lineage_in": ["sankara"],
+  "lineage_out": ["prakasatman"],
+  "lineage_polemical": [],
+  "core_thesis": "Padmapāda, Śaṅkara's direct disciple, is the founding figure of what becomes the *Vivaraṇa* sub-school of Advaita. He develops the *adhyāsa-bhāṣya* and the opening sūtras of the Brahma-Sūtra into a systematic positive ontology of *avidyā* (also called *māyā* and *mūla-prakṛti*): *avidyā* is a positive, beginningless (*anādi*) *bhāva-rūpa* (existence-natured) entity — not mere absence of knowledge — whose locus (*āśraya*) and object (*viṣaya*) are both *brahman*. *Avidyā* possesses two *śaktis*: *āvaraṇa* (concealment of *brahman*'s svarūpa) and *vikṣepa* (projection of the manifest world). The reflected-consciousness account of the *jīva* (*pratibimba-vāda*) — the *jīva* as a reflection (*pratibimba*) of *brahman* in the mirror of *avidyā* — originates here and is the structural alternative to Maṇḍana's *avaccheda-vāda* (limitation account) inherited by the *Bhāmatī* line. Padmapāda's positions on *avidyā*'s positivity, on *brahman*'s being its substrate, and on *pratibimba* are foundational for Prakāśātman's *Vivaraṇa* and the entire later *Vivaraṇa* tradition.",
+  "engaged_works": [
+    {
+      "work_id": "pancapadika",
+      "title": "Pancapadika",
+      "title_iast": "Pañcapādikā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored for the surviving portion (first five pādas of Śaṅkara's Brahma-Sūtra-Bhāṣya).",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus on Padmapāda's authorship of the surviving portion."
+        }
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "*Ṭīkā* on Śaṅkara's Brahma-Sūtra-Bhāṣya. The text-historical situation is critical: only the portion covering the first five *pādas* of the BSB survives — that is, the *adhyāsa-bhāṣya* and the *catuḥsūtrī* (BSB 1.1.1–4) plus a small additional stretch (the work's title literally means 'commentary on five *pādas*'). The traditional account holds that Padmapāda completed the *ṭīkā* on the entire BSB but the manuscript was destroyed; what survives is what was reconstructed from oral memory by Śaṅkara himself. Whatever the historical truth of that narrative, the surviving portion is doctrinally weight-bearing because it covers exactly the BSB's metaphysically densest passages — the *adhyāsa-bhāṣya* and *tat tu samanvayāt*. Padmapāda's elaboration of *avidyā* as *bhāva-rūpa*, his *pratibimba-vāda*, and his analysis of *adhyāsa* are taken up wholesale by Prakāśātman in the *Pañcapādikā-Vivaraṇa*, which becomes the founding text of the *Vivaraṇa* sub-school. Securely authored for the surviving portion.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1a-opus"
+}

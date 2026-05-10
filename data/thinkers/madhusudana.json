@@ -1,0 +1,101 @@
+{
+  "id": "madhusudana",
+  "name": "Madhusudana Sarasvati",
+  "name_iast": "Madhusūdana Sarasvatī",
+  "alternate_names": [],
+  "dates_low": 1540,
+  "dates_high": 1640,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Late Mughal period; dated from manuscripts and contemporary references.",
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Vivaraṇa-Advaita",
+  "sub_school_shade": 4,
+  "lineage_in": ["prakasatman", "vidyaranya"],
+  "lineage_out": ["brahmananda"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "vyasatirtha",
+      "direction": "is-refuted-by",
+      "note": "Madhusūdana's Advaita-Siddhi is the structural reply to Vyāsatīrtha's Nyāyāmṛta; the two together form the definitive Advaita–Dvaita dialectical exchange."
+    },
+    {
+      "thinker_id": "madhva",
+      "direction": "refutes",
+      "note": "Madhusūdana stands within the Advaitin defense against the Madhva-school polemic, especially the Mithyātvānumāna-Khaṇḍana / Māyāvāda-Khaṇḍana attacks."
+    }
+  ],
+  "core_thesis": "Madhusūdana Sarasvatī inherits and extends the Vivaraṇa-Advaita line — *Brahman* as the locus of *bhāva-rūpā-anirvacanīya-avidyā*, *jīva* as *cidābhāsa*, *anirvacanīya-mithyātva* of the world established by formal *anumāna* — and brings it to its highest dialectical pitch under direct pressure from Vyāsatīrtha's Mādhva critique in the *Nyāyāmṛta*. His *Advaita-Siddhi* is the Advaitin's structural reply, point for point, to the *Nyāyāmṛta*'s anti-Advaita arguments; the resulting *Advaita-Siddhi* / *Nyāyāmṛta* exchange (with Brahmānanda Sarasvatī's later *Laghu-Candrikā* in defence of Madhusūdana) is one of the high-water marks of Indian philosophical debate, with both sides preserved and read together to this day. Madhusūdana's second great contribution is the integration of *bhakti* into the Advaita framework: in the *Bhakti-Rasāyana* he treats *bhakti* as a *rasa* — a saving aesthesis that liquefies (*drāvayati*) the *citta* into the form of *Bhagavat* — and reads the *Bhāgavata* in Advaita keys without collapsing the affective register. He treats Madhva not as a 'crude dualist' but as a serious dialectical opponent whose arguments demand technical reply.",
+  "engaged_works": [
+    {
+      "work_id": "advaita-siddhi",
+      "title": "Advaita-Siddhi",
+      "title_iast": "Advaita-Siddhi",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; the direct refutation of Vyāsatīrtha's Nyāyāmṛta.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "The principal Advaita reply to Vyāsatīrtha's *Nyāyāmṛta* and one of the most technically demanding works in the Sanskrit polemical tradition. Structurally Madhusūdana follows the *Nyāyāmṛta*'s order, taking up each of Vyāsatīrtha's anti-Advaita arguments — against *anirvacanīya-mithyātva*, against *bhāva-rūpā-avidyā* with *Brahman* as locus, against the *dṛśyatva* and *jaḍatva-anumānas*, against the Advaitic analyses of *bheda* and *adhyāsa* — and constructs a counter-reply for each, drawing on the entire prior Advaita arsenal (Maṇḍana, Sureśvara, Sarvajñātman, Prakāśātman, Vimuktātman, Ānandabodha, Citsukha) and refining it. The work establishes that *mithyā* is *sad-asad-vilakṣaṇa* (never *asat*), defends *bhāva-rūpā-avidyā* with Brahman as locus and object, and rebuilds the *anumānas* for *mithyātva* against Vyāsatīrtha's *Nyāya*-grade refutations. The *Advaita-Siddhi* is the principal Advaita reply to the *Nyāyāmṛta*, and the *Advaita-Siddhi* / *Nyāyāmṛta* polemic across Madhusūdana, Vyāsatīrtha, and Brahmānanda Sarasvatī (*Laghu-Candrikā*) is one of the high-water marks of Indian philosophical debate, with both sides preserved and read together to this day.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "siddhanta-bindu",
+      "title": "Siddhanta-Bindu",
+      "title_iast": "Siddhānta-Bindu",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; gloss on Śaṅkara's Daśa-Ślokī.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "Compact independent gloss (*bindu* — 'drop') on Śaṅkara's *Daśa-Ślokī* (the ten verses summarising Advaita), expanded into a self-contained Advaita primer. Madhusūdana works through the standard Vivaraṇa architecture — *Brahman* as locus of *avidyā*, the *avaccheda-* / *pratibimba*-vāda alternatives for the *jīva* (with characteristic non-partisan exposition), *anirvacanīya-bhāva-rūpā-avidyā*, the role of the Mahāvākya in producing *akhaṇḍākāra-vṛtti*, and *jīvanmukti* — and is one of the standard pedagogical condensations through which advanced students enter the *Vivaraṇa* technical idiom. Several sub-commentaries (Brahmānanda's *Nyāya-Ratnāvalī*, Pūrṇānanda's *Siddhānta-Bindu-Tippaṇī*) attest its central place in the post-Madhusūdana curriculum.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "bhakti-rasayana",
+      "title": "Bhakti-Rasayana",
+      "title_iast": "Bhakti-Rasāyana",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; the Advaita defense of bhakti as a saving aesthesis.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Independent treatise (*Bhakti-Rasāyana* — 'the elixir of *bhakti*') in three chapters that integrates *bhakti* into the Advaita framework via the *rasa*-theoretic vocabulary of Sanskrit poetics. Madhusūdana defines *bhakti* as a *rasa* — specifically the *bhagavad-rasa*, a *sthāyibhāva* of love-for-Bhagavat developed by *vibhāva*, *anubhāva*, and *vyabhicāri-bhāva* — whose effect is to *liquefy* (*drāvayati*) the *citta* into the form (*ākāra*) of *Bhagavat*. The work argues that *bhakti* is not opposed to Advaita but is its proper preparatory and ornamental aesthesis: *jñāna* yields *mokṣa*, but *bhakti* is itself a *paramapuruṣārtha* of a distinctive kind. It draws extensively on the *Bhāgavata-Purāṇa* and is in critical conversation with the Gauḍīya analysis of *bhakti-rasa* (Rūpa Gosvāmī's *Bhakti-Rasāmṛta-Sindhu*) — Madhusūdana respects the affective phenomenology while subordinating it metaphysically to *brahmātmaikya*. The *Bhakti-Rasāyana* is a key source for the Advaita treatment of devotion that does not collapse it into mere preliminary purification.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "gudhartha-dipika",
+      "title": "Gudhartha-Dipika on the Gita",
+      "title_iast": "Gūḍhārtha-Dīpikā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Gītā-commentary.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "gita-bhashya",
+      "language": "sanskrit",
+      "summary": "Sustained Advaita Gītā-commentary ('illumination of the hidden meaning') that reads the *Bhagavad-Gītā* through the Vivaraṇa lens while preserving the *bhakti*-register Madhusūdana defends in the *Bhakti-Rasāyana*. The commentary integrates three *kāṇḍa*-correlations of the eighteen chapters (*karma*, *bhakti*, *jñāna* — six chapters each), treats Kṛṣṇa as *Saguṇa-Brahman* whose recognition as *Nirguṇa-Brahman* is the soteriological climax, and gives technically careful Advaita readings of the controversial verses (BG 18.66's *sarva-dharmān parityajya* read as *sannyāsa* enabling *jñāna-niṣṭhā*; BG 9 and 12 on *bhakti* read with full affective seriousness rather than reduced to *upāsanā*). The *Gūḍhārtha-Dīpikā* is one of the four classical Advaita Gītā-commentaries (with Śaṅkara, Ānandagiri, Nīlakaṇṭha) and is the standard reference for the post-fifteenth-century Advaita-with-*bhakti* synthesis.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1b-opus"
+}

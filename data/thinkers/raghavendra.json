@@ -1,0 +1,119 @@
+{
+  "id": "raghavendra",
+  "name": "Raghavendra Tirtha",
+  "name_iast": "Rāghavendra Tīrtha",
+  "alternate_names": ["Mantrālaya Rāyaru"],
+  "dates_low": 1595,
+  "dates_high": 1671,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Maṭha records, royal inscriptions, near-contemporary hagiography.",
+  "dates_evidence": [
+    {
+      "kind": "inscription",
+      "description": "Royal inscriptions in the Mantrālaya region."
+    },
+    {
+      "kind": "sectarian-chronicle",
+      "description": "Mādhva maṭha records and near-contemporary hagiography."
+    }
+  ],
+  "school": "Dvaita",
+  "school_color_token": "dvaita",
+  "sub_school": "Dvaita scholastic-devotional",
+  "sub_school_shade": 5,
+  "lineage_in": ["vijayindra"],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Rāghavendra Tīrtha is the late-classical synthesiser of Mādhva scholasticism, the figure through whom the school's commentarial stack reaches its definitive form. His doctrinal commitments are wholly continuous with Madhva, Jayatīrtha, and Vyāsatīrtha — *svatantra-paratantra* taratamya, *pañca-bheda*, *viśeṣa* as the device of intra-substantial differentiation, *bimba-pratibimba* as the structure of *jīva*-Viṣṇu dependence, *sākṣi* as a self-luminous *pramāṇa*, the rejection of *mithyātva* under all five *lakṣaṇas* — and his contribution is the writing of *prakāśa*-commentaries (\"illuminations\") on virtually every layer of the prior tradition, weaving them into a single mutually-consistent reading. He is also a major devotional theologian: alongside the technical *prakāśa*-corpus he composed the *Daśa-Avatāra-Stuti* and many other *stotras* in which the *Tattvavāda* metaphysics finds its liturgical voice. The *bhakti-yoga* of *Tattvavāda* — Viṣṇu as *svatantra*, *jīva* as ontologically subordinate but eternally individual, *aparokṣa-jñāna* mediated by graded *bhakti* — receives in Rāghavendra both its most refined scholastic articulation and its most fully developed devotional grammar.",
+  "engaged_works": [
+    {
+      "work_id": "tantra-dipika",
+      "title": "Tantra-Dipika",
+      "title_iast": "Tantra-Dīpikā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "The *Tantra-Dīpikā* is Rāghavendra's *prakāśa*-style commentary on the *Anuvyākhyāna* (Madhva's verse-*vārttika* on the *Brahma-Sūtra-Bhāṣya*), conducted through and in dialogue with Jayatīrtha's *Nyāya-Sudhā* — that is, it is a third-order commentary mediating Madhva and Jayatīrtha. Working *kārikā* by *kārikā*, Rāghavendra fixes the school's reading of the *Anuvyākhyāna* in light of intervening polemic: where Vijayīndra and others have answered Appayya- and Madhusūdana-line objections, the *Tantra-Dīpikā* records the resolved Mādhva position and integrates it into the commentarial flow. The text is especially valuable for its treatments of the *bheda*-arguments at the opening of *Anuvyākhyāna* 2, the *viśeṣa*-discussion, and the *bimba-pratibimba* arguments concerning the *jīva*'s relation to Viṣṇu. The *Tantra-Dīpikā* is the canonical late-medieval companion to the *Nyāya-Sudhā* and remains the obligatory point of reference for any modern Mādhva exegesis of the *Anuvyākhyāna*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "nyaya-sudha-parimala",
+      "title": "Nyaya-Sudha-Parimala",
+      "title_iast": "Nyāya-Sudhā-Parimala",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored sub-sub-commentary on Jayatīrtha's Nyāya-Sudhā.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "The *Pariṃala* (\"Fragrance\") is Rāghavendra's sub-sub-commentary on Jayatīrtha's *Nyāya-Sudhā* — a fourth-order text on Madhva's *Brahma-Sūtra-Bhāṣya*, composed in *Navya-Nyāya* idiom inherited from Vyāsatīrtha. Where Jayatīrtha had reconstructed each *Anuvyākhyāna*-argument in formal *anumāna*-form, Rāghavendra in the *Pariṃala* both records the school's settled response to objections developed in the intervening centuries (Appayya, Madhusūdana, Brahmānanda, the Vivaraṇa-line) and refines the technical apparatus where contemporary *Navya-Nyāya* had moved on. It is the most demanding and most complete of the late-Mādhva commentarial productions, and standardly considered the high-water mark of Mādhva scholasticism on the *Anuvyākhyāna*-*Sudhā* axis. (Rāghavendra's parallel *Pariṃala* on Vyāsatīrtha's *Tarka-Tāṇḍava* — sometimes counted as a separate work, sometimes grouped with this — performs the same function for the Naiyāyika engagement.) The *Pariṃala* is the natural terminus of the Madhva → Jayatīrtha → Vyāsatīrtha → Rāghavendra commentarial cascade.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "tarka-tandava-parimala",
+      "title": "Tarka-Tandava-Parimala",
+      "title_iast": "Tarka-Tāṇḍava-Pariṃala",
+      "alternate_titles": [],
+      "composition_dates_low": 1620,
+      "composition_dates_high": 1670,
+      "composition_dates_notes": "Composed in Rāghavendra's mature period as the school's response to the developing Navya-Nyāya scholasticism.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Pariṃala on Vyāsatīrtha's Tarka-Tāṇḍava.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "The *Pariṃala* on Vyāsatīrtha's *Tarka-Tāṇḍava* — the *Navya-Dvaita* engagement with Naiyāyika epistemology and dialectic, paralleling on the *tarka*-front what the *Nyāyāmṛta* accomplishes on the Advaita-front. Where the *Nyāya-Sudhā-Pariṃala* refines the school's *Anuvyākhyāna* exegesis in *Navya-Nyāya* idiom, the *Tarka-Tāṇḍava-Pariṃala* engages directly with Gaṅgeśa-line Navya-Nyāya itself: Rāghavendra works through Vyāsatīrtha's section-by-section critique of Naiyāyika doctrines (the analysis of *vyāpti*, the *paramārśa*-structure of *anumāna*, the treatment of *upādhi*, the analysis of *kevalānvayī* and *kevala-vyatirekī* inferences, the *prāmāṇya-vāda*) and brings the school's response up to date with the further developments in Navya-Nyāya since Vyāsatīrtha's composition (especially through Raghunātha Śiromaṇi and Gadādhara). The text is the late-Mādhva school's definitive engagement with Navya-Nyāya epistemology and the obligatory reference for any Mādhva *tarka*-shastraic work in the modern period. Together with the *Nyāya-Sudhā-Pariṃala* it completes Rāghavendra's *Pariṃala*-corpus on the school's two principal scholastic fronts.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "tatparya-dipika",
+      "title": "Tatparya-Dipika",
+      "title_iast": "Tātparya-Dīpikā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "The *Tātparya-Dīpikā* is Rāghavendra's *prakāśa* on Vyāsatīrtha's *Tātparya-Candrikā* — and so a fifth-order text on the *Brahma-Sūtra* (*Sūtra* → Madhva *Bhāṣya* → Jayatīrtha *Tattva-Prakāśikā* → Vyāsatīrtha *Tātparya-Candrikā* → Rāghavendra *Tātparya-Dīpikā*). The work documents the school's settled construal of every contested *adhikaraṇa* of the *Sūtra* in light of the full polemical history through the early seventeenth century; it functions both as a final running commentary on the *Sūtra*-text and as a *digest* of the prior commentarial layers. Particular attention is given to *adhikaraṇa*s where Vyāsatīrtha had introduced *Navya-Nyāya* refinements (the *ānanda-mayādhikaraṇa*, the *jīva-pratibimba* discussion at *BS* 2.3.43–53, the *bheda*-*sūtras* of *adhyāya* 4): Rāghavendra both glosses the refinements and shows how they cohere with Jayatīrtha and Madhva. Together with the *Pariṃala* and *Tantra-Dīpikā*, the *Tātparya-Dīpikā* completes the late-Mādhva commentarial architecture on the *Brahma-Sūtra*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "prakasha-sub-commentaries",
+      "title": "Multiple Prakasha sub-commentaries",
+      "title_iast": "Prakāśa sub-commentaries",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored sub-commentary corpus on the Madhva–Jayatīrtha tradition.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "Beyond the principal *Tantra-Dīpikā*, *Pariṃala*, and *Tātparya-Dīpikā*, Rāghavendra composed a wider corpus of *prakāśa*-style sub-commentaries that together comment on virtually every layer of the prior Mādhva tradition. These include glosses on Madhva's *Daśa-Prakaraṇa* texts (the *Tattvodyota*, *Māyāvāda-Khaṇḍana*, *Mithyātvānumāna-Khaṇḍana*, and *Upādhi-Khaṇḍana* triad), on the *Viṣṇu-Tattva-Vinirṇaya* and *Karma-Nirṇaya*, on the *Gītā-Bhāṣya* and *Gītā-Tātparya-Nirṇaya*, on portions of the *Bhāgavata-Tātparya-Nirṇaya* and *Mahābhārata-Tātparya-Nirṇaya*, and on several of Jayatīrtha's smaller *ṭīkās*. The unifying intent is to bring every Mādhva text into a single integrated reading consistent with the *Tantra-Dīpikā*–*Pariṃala*–*Tātparya-Dīpikā* spine. Rāghavendra's *prakāśa*-corpus, read together with his *stotra*-literature and his pontifical-pedagogical role, is the principal vehicle through which *Tattvavāda* enters its modern reception; almost every twentieth-century Dvaita exegesis works downstream of these glosses.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1-cleanup-opus"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "sureshvara",
+  "name": "Sureshvara",
+  "name_iast": "Sureśvara",
+  "alternate_names": ["Viśvarūpa (per traditional identification)"],
+  "dates_low": 720,
+  "dates_high": 770,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Direct disciple of Śaṅkara; identification with pre-conversion Maṇḍana is disputed (Hiriyanna negative; traditional sectarian sources affirmative).",
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Sureśvara-line proto-Vivaraṇa",
+  "sub_school_shade": 3,
+  "lineage_in": ["sankara", "sundara-pandya"],
+  "lineage_out": ["sarvajnatman"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "mandana",
+      "direction": "mutual",
+      "note": "Sureśvara's jñāna-only / Brahman-as-locus-of-avidyā position is structurally opposed to Maṇḍana's bhāvanā / jīva-as-locus-of-avidyā stream."
+    }
+  ],
+  "core_thesis": "Sureśvara, Śaṅkara's direct disciple, holds that *brahman*-knowledge — *akhaṇḍākāra-vṛtti* arising from *mahāvākya*-cognition (paradigmatically *tat tvam asi*) — is itself directly liberating, requiring no supplementary *prasaṅkhyāna* / repeated meditative *bhāvanā* (this is precisely the point on which he opposes Maṇḍana). *Avidyā* is one (not plural) and is located in *brahman* (not the *jīva*), since the *jīva* is itself a product of *avidyā* and cannot be its substrate without circularity. *Karma* and *jñāna* belong to incommensurable epistemic orders: *karma* presupposes the agent–object structure that *jñāna* dissolves, so any *jñāna-karma-samuccaya* (combination of knowledge and ritual action) as a path to *mokṣa* is incoherent — a position he develops at length against Maṇḍana's *Brahma-Siddhi* and against the Bhartṛprapañca stream. The pure *naiṣkarmya* (action-less) state of *jñāna* is *mokṣa* itself. This stream — *brahman*-locus *avidyā*, *vākya*-cognition as immediately sufficient, strict *jñāna*-only — is the proto-template that Padmapāda's Vivaraṇa lineage and Sarvajñātman will systematize into the *Vivaraṇa* sub-school.",
+  "engaged_works": [
+    {
+      "work_id": "naishkarmya-siddhi",
+      "title": "Naishkarmya-Siddhi",
+      "title_iast": "Naiṣkarmya-Siddhi",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Independent *prakaraṇa* in four chapters, mixed verse and prose, defending the *naiṣkarmya* (action-less) reading of liberation against the *jñāna-karma-samuccaya* alternative. Chapter 1 establishes *brahman*-knowledge as the sole means of *mokṣa* and refutes the view that Vedic action even of the most refined kind contributes to liberation. Chapter 2 analyzes the *mahāvākya tat tvam asi*, the *jahad-ajahad-lakṣaṇā* (joint inclusive-exclusive implication) by which the *vākya* is read non-dually, and the *adhyāsa*-mechanism. Chapter 3 takes up specific *pūrvapakṣa* objections — Maṇḍana's *prasaṅkhyāna-vāda* is the principal target — and argues that *vākya*-cognition itself is *aparokṣa* (immediate) and self-sufficient. Chapter 4 treats *jīvanmukti* and the residual conditions of the liberated knower. Securely authored; the work is the systematic doctrinal complement to Sureśvara's *Vārttikas*. Critical edition: Hino / R. Balasubramanian.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "brhadaranyaka-varttika",
+      "title": "Brhadaranyaka-Varttika",
+      "title_iast": "Bṛhadāraṇyaka-Vārttika",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored vārttika on Śaṅkara's Bṛhadāraṇyaka-Bhāṣya.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
+      ],
+      "genre": "varttika",
+      "language": "sanskrit",
+      "summary": "Massive *vārttika* in verse — over eleven thousand stanzas — on Śaṅkara's Bṛhadāraṇyaka-Upaniṣad-Bhāṣya, organized by *adhyāya* and *brāhmaṇa* following the underlying Upaniṣadic and *bhāṣya* structure. The *Sambandha-Vārttika* (the introductory portion glossing the *bhāṣya* preface) is doctrinally pivotal: Sureśvara uses it to develop, at length, the relation of *karma* to *jñāna*, the impossibility of *jñāna-karma-samuccaya*, and the *brahman*-locus of *avidyā* — positions for which there is *bhāṣya* warrant but which receive their first systematic exposition here. The work is the principal vehicle for the *Vivaraṇa*-stream's elaboration of Śaṅkara's positions and is the most cited *vārttika* in later Advaita literature. It also preserves substantial fragments of Bhartṛprapañca via the *pūrvapakṣa* portions. Securely authored; the standard Ānandāśrama edition is the working text.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "taittiriya-varttika",
+      "title": "Taittiriya-Varttika",
+      "title_iast": "Taittirīya-Vārttika",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored vārttika on Śaṅkara's Taittirīya-Bhāṣya.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
+      ],
+      "genre": "varttika",
+      "language": "sanskrit",
+      "summary": "Verse *vārttika* on Śaṅkara's Taittirīya-Upaniṣad-Bhāṣya, organized by the three *vallīs* of the underlying Upaniṣad. The most doctrinally fertile portion treats *Brahmānanda-Vallī*: Sureśvara develops at length the analysis of *satyaṃ jñānam anantaṃ brahma* (Tait. 2.1.1) as *svarūpa-lakṣaṇa* (definition by essential nature) rather than predication of independent *guṇas*; defends Śaṅkara's reading of *ānanda-maya-kośa* as still belonging to the *upādhi*-order rather than as identical with *brahman*; and elaborates the relation of the *kośa*-hierarchy to the *avasthā-traya* and to *adhyāsa*. The work is shorter and tighter than the Bṛhadāraṇyaka-Vārttika and is treated by later Advaita as the standard *vārttika* on the *pañca-kośa* analysis. Securely authored; standard Ānandāśrama edition. The Taittirīya- and Bṛhadāraṇyaka-Vārttikas together constitute Sureśvara's *vārttika* corpus on Śaṅkara's Upaniṣad-bhāṣyas.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1a-opus"
+}

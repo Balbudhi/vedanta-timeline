@@ -1,0 +1,59 @@
+{
+  "id": "totaka",
+  "name": "Totaka",
+  "name_iast": "Toṭaka",
+  "alternate_names": ["Troṭaka"],
+  "dates_low": 750,
+  "dates_high": 800,
+  "dates_tier": "oral-tradition-only",
+  "dates_notes": "One of the four chief disciples per tradition; the Toṭakāṣṭaka survives.",
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Advaita (school-defining)",
+  "sub_school_shade": 3,
+  "lineage_in": ["sankara"],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Toṭaka, traditionally one of Śaṅkara's four chief disciples, is best known through the *Toṭakāṣṭaka* — eight verses of *guru-stuti* in *toṭaka* metre (whence his received name) addressed to Śaṅkara as *Bhagavatpāda*. The hymn is doctrinally compressed but expresses the Advaita *guru-bhakti* register at its purest: the *guru* is the operative locus of *brahma-vidyā*, and surrender to the *guru* — *bhava śaṅkara deśika me śaraṇam* (refrain) — is the seeker's *paramārtha*-fruit, since the *guru*'s teaching is what makes *mahāvākya*-cognition arise. The longer (and substantially longer) *Śrutisāra-samuddharaṇa* — 'Extraction of the Essence of the Vedas' — traditionally ascribed to him is a more discursive verse-treatise summarizing core Advaita doctrine (the four *mahāvākyas*, *adhyāsa*, *avidyā*, the path of *jñāna*) but its ascription is less universally fixed than the *Aṣṭaka*. The figure of Toṭaka is, like Hastāmalaka, principally known through tradition and through this devotional poetry rather than through systematic doctrinal exposition.",
+  "engaged_works": [
+    {
+      "work_id": "totakashtaka",
+      "title": "Totakashtaka",
+      "title_iast": "Toṭakāṣṭaka",
+      "alternate_titles": [],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed; received by the Advaita maṭha tradition.",
+      "genre": "stotra",
+      "language": "sanskrit",
+      "summary": "Eight verses (*aṣṭaka*) in *toṭaka* metre — a tetrameter whose name the disciple is traditionally said to have received from the work itself — addressed in the second person to Śaṅkara. Each verse closes with the refrain *bhava śaṅkara deśika me śaraṇam* ('Be, Śaṅkara my preceptor, my refuge'). The verses successively present (i) reverence for Śaṅkara as the embodiment of *brahma-vidyā*, (ii) the disciple's incapacity without the *guru*'s grace, (iii) Śaṅkara's role as dispeller of the *saṃsāra*-illusion, (iv) the *guru* as the ocean of *kāruṇya*, and so on, culminating in the surrender-formula. The hymn is recited liturgically in Advaita *maṭha* contexts and is part of the standard *guru-paramparā* sequence of devotional recitation. Traditionally ascribed; received throughout the Advaita *maṭha* tradition. The longer *Śrutisāra-samuddharaṇa* is also traditionally ascribed to Toṭaka but is not represented as a separate entry in the present skeleton — see report.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "srutisara-samuddharana",
+      "title": "Shrutisara-Samuddharana",
+      "title_iast": "Śrutisāra-Samuddharaṇa",
+      "alternate_titles": [],
+      "composition_dates_low": 750,
+      "composition_dates_high": 850,
+      "composition_dates_notes": "If genuinely Toṭaka's, contemporary with Śaṅkara's mature period; some scholars place it later.",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed to Toṭaka by the Advaita maṭha tradition; some scholars dispute the ascription on stylistic and doctrinal grounds, with proposals ranging from a near-contemporary disciple to a later Advaita pedagogue who took Toṭaka's name.",
+      "ascription_evidence": [
+        {"kind": "school-acceptance", "description": "Received as Toṭaka's by the Advaita maṭha tradition."},
+        {"kind": "scholarly-dispute", "description": "Modern scholars (e.g. Pollock, Mahadevan) raise stylistic and chronological doubts."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "A substantial verse-*prakaraṇa* — \"Extraction of the Essence of the Vedas\" — traditionally ascribed to Toṭaka and treating, in compact verse-paragraphs, the core doctrinal architecture of Advaita: the four *mahāvākyas* with their *jahad-ajahal-lakṣaṇā* analyses, the *adhyāsa* doctrine of superimposition as the universal pre-philosophical condition, the structure of *avidyā* and its relation to *Brahman* and *jīva*, the *jñāna-niṣṭhā* / *karma-niṣṭhā* polarity, and the path of *śravaṇa-manana-nididhyāsana* culminating in *aparokṣa-jñāna*. The work is considerably longer than the *Toṭakāṣṭaka* and serves as a doctrinal complement to that hymn — supplying the systematic content the *Aṣṭaka*'s devotional surrender presupposes. The ascription is traditionally accepted within the Advaita *maṭha* lineages but disputed by parts of modern scholarship: stylistically the verses show some technical formulations more characteristic of post-Sureśvara Advaita than of an immediate Śaṅkara disciple, leading some to propose a later authorship under the same traditional name. The work is in any case the principal Advaita treatise associated with Toṭaka's lineage-figure in the school's living tradition.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1-cleanup-opus"
+}

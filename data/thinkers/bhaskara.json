@@ -1,0 +1,61 @@
+{
+  "id": "bhaskara",
+  "name": "Bhaskara",
+  "name_iast": "Bhāskara",
+  "alternate_names": [],
+  "dates_low": 750,
+  "dates_high": 800,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Roughly contemporary with Śaṅkara; dated from internal references and citation chronology.",
+  "school": "Bhedābheda",
+  "school_color_token": "bhedabheda",
+  "sub_school": "Aupādhika-Bhedābheda",
+  "sub_school_shade": 3,
+  "lineage_in": ["bhartrprapanca"],
+  "lineage_out": ["yadava-prakasa"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "sankara",
+      "direction": "mutual",
+      "note": "Bhāskara explicitly rejects Śaṅkara's māyā as a smuggled-in Buddhist concept; the polemic runs both directions through later commentary."
+    }
+  ],
+  "core_thesis": "Bhāskara's *aupādhika-bhedābheda* holds that *bheda* (difference) and *abheda* (non-difference) are equally real features of the Brahman–world relation, but that *bheda* arises through *upādhi* — the limiting adjuncts of body, mind, and the conditions of empirical existence — while *abheda* is the underlying ontological truth. Brahman genuinely transforms (*pariṇāma*) into the manifest world; the world is therefore real, not appearance. The individual *jīva* is non-different from Brahman in essence yet really different so long as adjuncts persist; liberation is the dropping of *upādhi*, not the discovery that difference was illusory. Bhāskara explicitly rejects Śaṅkara's *māyā-vāda* as a *pracchanna-bauddha* (covertly Buddhist) doctrine smuggled into Vedānta — the charge appears in his Brahma-Sūtra-Bhāṣya itself. He defends *jagat-satyatva* (the reality of the world) and *karma-jñāna-samuccaya* (the joint efficacy of action and knowledge for liberation) against the Advaitic insistence that knowledge alone, by exposing the world as *mithyā*, suffices.",
+  "engaged_works": [
+    {
+      "work_id": "brahma-sutra-bhasya",
+      "title": "Brahma-Sutra-Bhashya",
+      "title_iast": "Brahma-Sūtra-Bhāṣya",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; the earliest extant Bhedābhedin commentary on the Brahma-Sūtra.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "summary": "Bhāskara's *Brahma-Sūtra-Bhāṣya* (often called the *Bhāskarīya-Bhāṣya*) is the only major extant early Bhedābheda commentary on the *Brahma-Sūtras* and a direct rival to Śaṅkara's, possibly composed in dialogue with it. Its philosophical work is twofold: it constructs a positive *aupādhika-bhedābheda* reading of the *sūtras*, on which Brahman undergoes real transformation (*pariṇāma*) into a real world, with *bheda* arising through *upādhi*; and it mounts a sustained polemic against *māyā-vāda*, which Bhāskara famously diagnoses as a *pracchanna-bauddha* (covertly Buddhist) intrusion into Vedānta. Doctrines defended include *jagat-satyatva*, the reality and irreducibility of plural *jīvas* under embodied conditions, and *jñāna-karma-samuccaya* (knowledge and ritual action as jointly efficacious for liberation). The bhāṣya thereby preserves an alternative early-medieval Vedānta in which neither Śaṅkara's *vivarta* nor Rāmānuja's later *viśiṣṭādvaita* governs the reading of *śruti*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "gita-bhasya-fragments",
+      "title": "Gita-Bhashya fragments",
+      "title_iast": "Gītā-Bhāṣya fragments",
+      "alternate_titles": [],
+      "ascription_tier": "disputed",
+      "ascription_notes": "Surviving in fragmentary form; ascription accepted but the text is incomplete.",
+      "genre": "gita-bhashya",
+      "language": "sanskrit",
+      "summary": "A *Gītā-Bhāṣya* is ascribed to Bhāskara but survives only in fragmentary citations preserved by later commentators (notably Madhusūdana and several Advaita and Bhedābheda doxographies). The fragments, where doctrinally legible, extend the *aupādhika-bhedābheda* programme of the *Brahma-Sūtra-Bhāṣya*: *karma* and *jñāna* are read as jointly efficacious rather than as successive stages collapsing into pure *jñāna*; the *jīva* is taken as really, not illusorily, distinct from Brahman under the conditions of embodiment; and the *Gītā*'s theistic vocabulary is treated as straightforward rather than as an interim concession to the unenlightened. Because the text is not preserved as a continuous bhāṣya, scholars use it cautiously — as supplementary evidence for Bhāskara's reading-strategy on disputed verses (notably 2.12, 7.4–7, 13.2) rather than as an independent doctrinal source. The fragmentary state itself is significant for the history of pre-Rāmānuja Vaiṣṇava Vedānta.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1e-opus"
+}

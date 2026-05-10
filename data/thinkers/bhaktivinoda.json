@@ -1,0 +1,137 @@
+{
+  "id": "bhaktivinoda",
+  "name": "Bhaktivinoda Thakura",
+  "name_iast": "Bhaktivinoda Ṭhākura",
+  "alternate_names": ["Kedarnath Datta"],
+  "dates_low": 1838,
+  "dates_high": 1914,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Colonial-era court records; dates well-established.",
+  "dates_evidence": [
+    {
+      "kind": "court-record",
+      "description": "Colonial-era Bengal civil-service records of his administrative career."
+    }
+  ],
+  "school": "Acintya-Bhedābheda",
+  "school_color_token": "acintya",
+  "sub_school": "Gauḍīya modern",
+  "sub_school_shade": 5,
+  "lineage_in": ["baladeva"],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Bhaktivinoda Ṭhākura (Kedarnāth Datta, 1838–1914) is the modern Bengali Vaiṣṇava theologian who systematized Caitanya-Gauḍīya thought in modern philosophical idiom and effectively founded the modern Gauḍīya revival. His settled position is the inherited *acintya-bhedābheda*: Bhagavān (Kṛṣṇa) is the one supreme reality, infinitely powerful (*śakti-mān*), whose manifold *śaktis* — *svarūpa*, *taṭasthā* (the *jīva*-energy), and *māyā* — produce a real world and real *jīvas* whose simultaneous identity-and-distinction with Bhagavān is *acintya* (beyond rational determination, but not contradictory). Distinctive emphases: a layered epistemology (*pramāṇa* / *prameya* / *adhokṣaja-jñāna*) that grounds devotional knowledge as a self-standing cognitive mode beyond *pratyakṣa* and *anumāna*; a strong doctrine of the eternal individual *jīva* whose constitutional position (*svarūpa*) is *kṛṣṇa-dāsa*; *bhakti* as both the means and the end (*sādhana-bhakti* maturing into *prema*); and *rāgānuga-sādhana* under guidance of the inner *siddha-deha*. He argues, against contemporary impersonalism and Brahmo-Samāja reformism, that Caitanya's school is fully rational, fully Vedāntic, and modern.",
+  "engaged_works": [
+    {
+      "work_id": "jaiva-dharma",
+      "title": "Jaiva-Dharma",
+      "title_iast": "Jaiva-Dharma",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored systematic Gauḍīya doctrinal novel.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "dialogue",
+      "language": "bengali",
+      "summary": "The principal exposition of Bhaktivinoda's mature theology, a Bengali doctrinal novel in twenty-five chapters whose narrative frame (Vaiṣṇava elders in Navadvīpa instructing seekers from progressively more complex backgrounds) lets the doctrine unfold in graduated philosophical articulation. The early chapters establish *sanātana-dharma* as constituted by the eternal nature (*svarūpa*) of the *jīva* — *kṛṣṇa-dāsa* — distinguishing this *nitya-dharma* from the *naimittika-dharmas* of social-religious life. The middle chapters give a complete account of the *jīva*-tattva (*taṭasthā-śakti*, the eternal individuality of selves, the structure of bondage as *vimukha-svabhāva*), the *māyā*-tattva, and the *bhagavat-tattva* (Kṛṣṇa as the *svayaṃ-bhagavān*, with *svarūpa-śakti* analyzed into *hlādinī*, *sandhinī*, *saṃvit*). The later chapters develop *abhidheya* (sādhana-bhakti) and *prayojana* (prema), culminating in *rāgānuga-sādhana* and the meditation on the *siddha-deha*. The work is pitched simultaneously as systematic philosophy, sectarian apologetic against impersonalism, and pastoral guide.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "tattva-sutra",
+      "title": "Tattva-Sutra",
+      "title_iast": "Tattva-Sūtra",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Vedāntic-doctrinal sūtra-text.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "A short doctrinal sūtra-text with Bhaktivinoda's own gloss, presenting in compressed Sanskrit aphoristic form the same doctrinal architecture that the *Jaiva-Dharma* unfolds in Bengali narrative. The sūtras enumerate the *tattvas* — *bhagavat*, *jīva* (*taṭasthā-śakti*), *māyā* (*bahiraṅgā-śakti*), *svarūpa-śakti* (with its threefold *hlādinī*, *sandhinī*, *saṃvit*), and the eternal *līlā* — and articulate their relations under *acintya-bhedābheda*: simultaneous identity and distinction grounded in the *acintya-śakti* of Bhagavān. The work serves as the Sanskrit doctrinal scaffolding the Bengali theological writings presuppose, intended to demonstrate to a learned pandit audience that the Caitanya school has a fully formed sūtra-grade doctrinal core continuous with the *Vedānta*-tradition.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "vedanta-adhikarana-mala",
+      "title": "Vedanta-Adhikarana-Mala",
+      "title_iast": "Vedānta-Adhikaraṇa-Mālā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Brahma-Sūtra adhikaraṇa-summary.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "A summary of the *Brahma-Sūtra* organized by *adhikaraṇa* (topical clusters of sūtras), giving for each the Gauḍīya reading in the *Govinda-Bhāṣya* tradition of Baladeva Vidyābhūṣaṇa. Bhaktivinoda's purpose is to make the *acintya-bhedābheda* reading of the sūtras accessible at *adhikaraṇa*-resolution: each unit is paraphrased, the central *prameya* identified, and the Caitanya-school conclusion stated against the Advaita and Viśiṣṭādvaita alternatives. The work is the principal text in which Bhaktivinoda asserts the school's full standing as a *vedānta-darśana* with a coherent reading of every sūtra, not a sectarian devotional movement parasitic on others' philosophy. Together with the *Tattva-Sūtra* it constitutes the Sanskrit doctrinal armature behind the Bengali-language exposition of *Jaiva-Dharma*.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "bhagavatarka-marici-mala",
+      "title": "Bhagavatarka-Marichi-Mala",
+      "title_iast": "Bhāgavatārka-Marīci-Mālā",
+      "alternate_titles": [],
+      "composition_dates_low": 1880,
+      "composition_dates_high": 1895,
+      "composition_dates_notes": "Composed during Bhaktivinoda's mature period of doctrinal output.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored anthology of Bhāgavata-verses with commentary.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "An anthology (*mālā*, garland) of selected verses from the *Bhāgavata-Purāṇa* — the *marīcis* (rays) of the *Bhāgavata-arka* (Bhāgavata-sun) — organized by doctrinal topic and accompanied by Bhaktivinoda's own Sanskrit gloss. The work serves as a topical concordance to the *Bhāgavata* for Gauḍīya doctrinal use: under each topical heading (the nature of *bhagavat-tattva*, the structure of *jīva-tattva*, the *śakti*-doctrine, the *līlā*-tattva, *sādhana-bhakti*, *prema*) the relevant *Bhāgavata* verses are gathered with concise interpretive notes establishing the *acintya-bhedābheda* reading. The work is the sectarian successor to Sanātana Gosvāmī's *Bṛhad-Bhāgavatāmṛta* and Jīva Gosvāmī's *Krama-Sandarbha*, supplying a more compact and pedagogically focused tool for the modern Gauḍīya scholar-devotee. It demonstrates Bhaktivinoda's command of Sanskrit doctrinal exegesis (alongside his more famous Bengali theological writing) and his programmatic insistence that the Caitanya school is fully grounded in *Bhāgavata*-authority. The selection of verses is itself an interpretive act — fixing the school's *Bhāgavata*-canon in the modern period.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "tattva-viveka",
+      "title": "Tattva-Viveka",
+      "title_iast": "Tattva-Viveka",
+      "alternate_titles": ["Sac-cid-ānanda-Anubhūti"],
+      "composition_dates_low": 1893,
+      "composition_dates_high": 1893,
+      "composition_dates_notes": "Published 1893; one of Bhaktivinoda's mid-career systematic treatises.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Bengali philosophical primer.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "bengali",
+      "summary": "A Bengali philosophical primer in 48 verses with the author's own prose commentary, structured as an analytic discrimination (*viveka*) of the *tattvas*: *bhagavat-tattva*, *jīva-tattva*, and *māyā-tattva*, with their internal articulations. The work engages directly with the philosophical alternatives current in late-nineteenth-century Bengal — Brahmo-Samāja impersonalism, Advaita-derived monism, and the various reformist accommodations to Western theism — and argues that Caitanya's *acintya-bhedābheda* alone provides a coherent philosophical theology adequate to both rational scrutiny and the data of devotional experience. Distinctive features: a careful articulation of the *acintya* as a positive epistemic category (the proper object of *adhokṣaja-jñāna*, neither contradictory nor reducible to ordinary rational determination); a defense of the eternal individuality of the *jīva* against monist absorption-models; and an early statement of Bhaktivinoda's programmatic claim that Caitanya's school is fully *vedānta-darśana* and fully modern. The text is among the most accessible entry-points into Bhaktivinoda's mature theology and circulated widely among Bengali Vaiṣṇavas.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "sajjana-toshani",
+      "title": "Sajjana-Toshani",
+      "title_iast": "Sajjana-Toṣaṇī",
+      "alternate_titles": [],
+      "composition_dates_low": 1881,
+      "composition_dates_high": 1900,
+      "composition_dates_notes": "Founded 1881; Bhaktivinoda served as principal editor through approximately 1900.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored / edited; Bhaktivinoda founded and was the principal contributing editor of this Vaiṣṇava periodical.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus on the periodical's editorial history."}
+      ],
+      "genre": "dialogue",
+      "language": "bengali",
+      "summary": "The Bengali Vaiṣṇava periodical that Bhaktivinoda founded in 1881 and edited for approximately two decades — the principal organ of the modern Gauḍīya revival and the venue in which much of his theological output first appeared in serialized form (including portions of *Jaiva-Dharma*, doctrinal essays, polemical pieces against impersonalism and reformist Hinduism, biographical materials on Caitanya and the Six Gosvāmīs, and translations of older Sanskrit Gauḍīya works into accessible Bengali). The journal's title — \"That which gives joy to the *sajjana* (the virtuous, the spiritually qualified)\" — encodes its editorial program: not popular evangelism but the cultivation of a renewed scholarly-devotional Vaiṣṇavism among the Bengali educated classes. The *Sajjana-Toṣaṇī* is the documentary witness to the public-intellectual dimension of Bhaktivinoda's mission and the principal source for tracking the doctrinal development of his thought in real time. Subsequent Gauḍīya periodicals — *Gauḍīya*, *Bhāgavat-patrikā*, and others edited by his son Bhaktisiddhānta Sarasvatī and later successors — are direct continuations of this editorial lineage.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1-cleanup-opus"
+}

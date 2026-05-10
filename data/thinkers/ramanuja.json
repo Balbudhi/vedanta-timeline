@@ -1,0 +1,143 @@
+{
+  "id": "ramanuja",
+  "name": "Ramanuja",
+  "name_iast": "Rāmānuja",
+  "alternate_names": ["Yatirāja", "Bhāṣyakāra"],
+  "dates_low": 1017,
+  "dates_high": 1137,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Traditional 120-year lifespan suspect; academic consensus narrows the dates.",
+  "school": "Viśiṣṭādvaita",
+  "school_color_token": "vishishtadvaita",
+  "sub_school": "Viśiṣṭādvaita (school-defining)",
+  "sub_school_shade": 3,
+  "lineage_in": ["yamuna", "bodhayana"],
+  "lineage_out": ["sudarsana", "vedanta-desika", "pillai-lokacarya"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "yadava-prakasa",
+      "direction": "refutes",
+      "note": "Rāmānuja famously broke from his bhedābhedin teacher Yādava-Prakāśa; Viśiṣṭādvaita defines itself partly against this earlier position."
+    },
+    {
+      "thinker_id": "sankara",
+      "direction": "refutes",
+      "note": "Rāmānuja's Śrī-Bhāṣya is the principal Viśiṣṭādvaitin polemic against Advaitic māyā via the sapta-vidhā-anupapatti."
+    }
+  ],
+  "core_thesis": "Rāmānuja gives Viśiṣṣṭādvaita its school-defining articulation: Brahman — Nārāyaṇa-with-Śrī — is the sole independent reality, but its unity is *qualified* (*viśiṣṭa*), not undifferentiated. The infinite plurality of conscious selves (*cit*) and non-conscious matter (*acit*) constitute Brahman's body (*śarīra*); Brahman is their *śarīrin* and *antaryāmin*. *Cit* and *acit* are really distinct from one another and from Brahman, yet inseparable (*apṛthak-siddha*) — they cannot exist or be conceived apart from him as their inner controller. There is therefore *no* unqualified *nirviśeṣa* Brahman; the Upaniṣadic *neti neti* negates limiting attributes, not all distinction. Against Śaṅkara's *māyāvāda* he marshals the *sapta-vidhā-anupapatti* — seven untenabilities of Advaita's *avidyā* (its locus, its concealment of self-luminous Brahman, its nature, its indeterminability, its *pramāṇa*, its *nivartaka*, its cessation). The *jīva* is an atomic, eternal *jñātṛ* with *dharmi-bhūta-jñāna*; *mokṣa* is not the dissolution of personhood but its perfected, beatific service (*kaiṅkarya*) to Nārāyaṇa. *Bhakti-yoga* — meditative devotion as enjoined *upāsanā* — is the constitutive form of *mokṣa*, not a means to it; *prapatti* (utter self-surrender) is recognised as a parallel path open especially to those incapable of sustained *bhakti-yoga*.",
+  "engaged_works": [
+    {
+      "work_id": "shri-bhasya",
+      "title": "Shri-Bhashya",
+      "title_iast": "Śrī-Bhāṣya",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; the school-defining commentary on the Brahma-Sūtra.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "summary": "The school-defining commentary on Bādarāyaṇa's *Brahma-Sūtra*, written (per tradition) on the basis of Bodhāyana's *Vṛtti* and the Drāviḍa lineage. The *Mahā-Siddhānta* on *sūtra* 1.1.1 (*athāto brahma-jijñāsā*) opens with the *Mahā-Pūrvapakṣa* — an unusually fair and full statement of the Advaitic position — followed by the *sapta-vidhā-anupapatti*, the seven structural untenabilities of *avidyā*: where it resides, what it conceals (since Brahman is self-luminous), what its nature is, why it is indeterminable, what its *pramāṇa* could be, what removes it, and what its cessation amounts to. The *Śrī-Bhāṣya* then constructs the positive Viśiṣṭādvaita reading of the *sūtra*-s *sūtra* by *sūtra*: *samanvaya* establishes that all *śruti*-passages, including the *mahā-vākya* *tat tvam asi*, predicate Brahman *as qualified by* the world of *cit* and *acit* (the *sāmānādhikaraṇya* of body-soul reference), not as identical with the *jīva* in any unqualified sense. The work matters because it converts Yāmuna's positions into a complete, *sūtra*-anchored alternative to Śaṅkara within the same shared exegetical genre.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "vedartha-samgraha",
+      "title": "Vedartha-Samgraha",
+      "title_iast": "Vedārtha-Saṃgraha",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored independent treatise.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Independent *prakaraṇa* synthesising the Viśiṣṭādvaita reading of the *Upaniṣad*-corpus prior to and apart from the *sūtra*-frame. Its core target is the Advaitic exegesis of the *mahā-vākya* *tat tvam asi*: Rāmānuja shows that *tat* and *tvam*, being terms with determinate references (Brahman-as-qualified-by-the-world and the *jīva*-as-embodied-self respectively), can stand in *sāmānādhikaraṇya* — co-predication of one substratum — only on the body-soul model, where Brahman is *antaryāmin* of the self that *tvam* denotes. Hence the great-sentence teaches non-difference *as* the inseparability (*apṛthak-siddhi*) of self and inner-self, not numerical identity. The *Vedārtha-Saṃgraha* lays out the *sapta-vidhā-anupapatti* against *avidyā* and develops the doctrine of *dharmi-bhūta-jñāna* (substance-awareness bearing real attributes). It is also where Rāmānuja most explicitly engages and refutes Yādava-Prakāśa's *bhedābheda* and Bhāskara's *aupādhika* version of identity-difference. The work matters as the most accessible single statement of the school's positive metaphysics and its constructive scriptural hermeneutics.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "vedanta-dipa",
+      "title": "Vedanta-Dipa",
+      "title_iast": "Vedānta-Dīpa",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored compact commentary on the Brahma-Sūtra.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "summary": "A medium-length commentary on the *Brahma-Sūtra*, intended as a more compact exposition of the same Viśiṣṭādvaita reading developed in the *Śrī-Bhāṣya*. The *Vedānta-Dīpa* preserves the structural moves — *samanvaya* of *śruti* on *Brahman saviśeṣa*, the *śarīra-śarīrin* relation as the key to *sāmānādhikaraṇya*, the rejection of *nirviśeṣa* Brahman and *avidyā* — but trims the polemical *pūrvapakṣa* sections and the long Bhāskara-Yādava-Prakāśa engagements. It functions in the lineage as the bridge between the encyclopaedic *Śrī-Bhāṣya* and the still shorter *Vedānta-Sāra*, and was meant to serve advanced students who already grasped the framework. The work matters because Rāmānuja's willingness to recapitulate the entire *sūtra*-pāṭha three times at three lengths (*Bhāṣya*, *Dīpa*, *Sāra*) testifies to his pedagogical seriousness about transmission: the *Vedānta-Dīpa* is what the school used to *teach* the system once the *Śrī-Bhāṣya* had established it.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "vedanta-sara",
+      "title": "Vedanta-Sara",
+      "title_iast": "Vedānta-Sāra",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored shorter commentary on the Brahma-Sūtra.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "summary": "The shortest of Rāmānuja's three commentaries on the *Brahma-Sūtra* — a pithy *sūtra*-by-*sūtra* gloss giving only the bare Viśiṣṭādvaita reading, without extended *pūrvapakṣa* or polemical apparatus. Designed for memorisation and oral transmission, the *Vedānta-Sāra* serves as the entry-text by which a student internalises the school's *adhikaraṇa*-divisions and the determinate Viśiṣṭādvaita gloss of each *sūtra* before moving up to the *Dīpa* and finally the *Śrī-Bhāṣya*. Its brevity is itself a doctrinal statement: the school holds that the Viśiṣṭādvaita reading of the *sūtra*-s is the obvious one once the body-soul reading of *sāmānādhikaraṇya* is grasped, and so the basic gloss can be transmitted in compressed form. The work matters as the canonical pedagogical entry-point to Rāmānuja's *sūtra*-exegesis and as evidence of his deliberate structuring of the school's curriculum at three escalating levels of detail.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "gita-bhasya",
+      "title": "Gita-Bhashya",
+      "title_iast": "Gītā-Bhāṣya",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Gītā-commentary.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "gita-bhashya",
+      "language": "sanskrit",
+      "summary": "Commentary on the *Bhagavad-Gītā* organising the eighteen chapters into three *ṣaṭka*-s on the three *yoga*-s — *karma*, *jñāna*, *bhakti* — with *bhakti-yoga* as the culminating and highest. Against the Advaitic gloss that reads the *Gītā* as teaching *jñāna* to which devotion is an upāya, Rāmānuja argues that *bhakti-yoga* is itself the operative form of mature *upāsanā*: meditative devotion to Kṛṣṇa-as-Para-Brahman that, once intensified to the perspicuity of direct presence (*sākṣātkāra*), *is* the liberating cognition. The decisive moment is the gloss on *Gītā* 18.66 (*sarva-dharmān parityajya …*), the *carama-śloka*, which Rāmānuja reads as enjoining *prapatti* — utter self-surrender — as a parallel and equally efficacious path for those incapable of sustained *bhakti-yoga*. The work matters because it grounds the school's two-path soteriology in the *Gītā* itself and provides the definitive Vaiṣṇava counter-reading of every passage Śaṅkara had taken to teach world-renouncing monism.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "gadya-trayam",
+      "title": "Gadya-Trayam",
+      "title_iast": "Gadya-Trayam",
+      "alternate_titles": ["Śaraṇāgati-Gadya", "Śrīraṅga-Gadya", "Vaikuṇṭha-Gadya"],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed and accepted in tradition; modern scholarship occasionally questions individual passages.",
+      "genre": "stotra",
+      "language": "sanskrit",
+      "summary": "Three short Sanskrit prose-hymns — *Śaraṇāgati-Gadya*, *Śrīraṅga-Gadya*, *Vaikuṇṭha-Gadya* — traditionally said to have been composed at Śrīraṅgam on the Pañcamī of the bright fortnight of Phālguna, in which Rāmānuja enacts his own *prapatti* to Śrī-Raṅganātha and Śrī. The *Śaraṇāgati-Gadya* is the locus classicus for the school's articulation of *prapatti* as self-surrender qualified by the six *aṅga*-s (*ānukūlya-saṅkalpa*, *prātikūlya-varjana*, *rakṣiṣyatīti viśvāsa*, *goptṛtva-varaṇa*, *ātma-nikṣepa*, *kārpaṇya*) and as performed in the presence of Śrī as *puruṣakāra*. The *Śrīraṅga-Gadya* and *Vaikuṇṭha-Gadya* extend the act into ongoing kaiṅkarya and contemplation of the Lord's *parama-pada*. The texts matter doctrinally as the bridge between Rāmānuja the systematician and the school's lived devotional practice; the Tenkalai-Vaḍakalai split later turns substantially on how the *aṅga*-s of *Śaraṇāgati-Gadya* are interpreted — as conditions the surrendered self must enact (Vaḍakalai) or as descriptions of what surrender already is (Tenkalai).",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "nitya-grantha",
+      "title": "Nitya-Grantha",
+      "title_iast": "Nitya-Grantha",
+      "alternate_titles": [],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed manual of daily worship.",
+      "genre": "rahasya",
+      "language": "sanskrit",
+      "summary": "Short Sanskrit manual prescribing the daily *ārādhana* of Nārāyaṇa for the qualified Śrīvaiṣṇava — covering the morning *snāna*, *sandhyā*, *pūjā*, the five-fold *pañca-kāla* division of the day into Vaiṣṇava observances, and the *mantra*-recitation appropriate to each. The *Nitya-Grantha* operationalises the contemplative life implied by Rāmānuja's *bhakti-yoga*: meditative remembrance of Bhagavān is to be sustained not as an episodic spiritual exercise but as the form of every day's structure. It is also where Rāmānuja codifies the Pāñcarātra-derived *mantra*-system used in Śrīvaiṣṇava temple and household worship, integrating it with smārta *nitya-karma*. The work matters because it shows that for Rāmānuja Viśiṣṭādvaita is not merely a philosophical position but a *vidhi* — an enjoined form of life — and because it is the textual basis for the daily liturgy still in use in the Śrīvaiṣṇava temple system. The traditional ascription is secure; modern scholarship occasionally raises minor source-critical questions but accepts core authorship.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave0-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave1c-opus"
+}
