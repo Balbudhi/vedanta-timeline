@@ -563,6 +563,45 @@
       "summary": "This on-disk text is being wired into the Source tab as a citation witness for Sri Aurobindo, Vol 33 Savitri I. The entry is intentionally minimal: it records the routed file and basic bibliographic shape so the site can surface the source while fuller review waits. A later pass should tighten the title, edition, and passage coverage against the on-disk witness.",
       "entry_status": "wired-on-disk",
       "key_passage_ids": []
+    },
+    {
+      "work_id": "the-life-divine-standalone",
+      "title": "The Life Divine Standalone",
+      "title_iast": "The Life Divine Standalone",
+      "language": "english",
+      "source_status": "clean-on-disk",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Routed from the 2026-05-10 Tier-1 publication backlog as an on-disk source witness.",
+      "genre": "monograph",
+      "summary": "This on-disk text is being wired into the Source tab as a citation witness for Sri Aurobindo, The Life Divine Standalone. The entry is intentionally minimal: it records the routed file and basic bibliographic shape so the site can surface the source while fuller review waits. A later pass should tighten the title, edition, and passage coverage against the on-disk witness.",
+      "entry_status": "wired-on-disk",
+      "key_passage_ids": []
+    },
+    {
+      "work_id": "isha-upanishad-aurobindo-standalone",
+      "title": "Isha Upanishad Aurobindo Standalone",
+      "title_iast": "Isha Upanishad Aurobindo Standalone",
+      "language": "english",
+      "source_status": "clean-on-disk",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Routed from the 2026-05-10 Tier-1 publication backlog as an on-disk source witness.",
+      "genre": "upanisad-bhashya",
+      "summary": "This on-disk text is being wired into the Source tab as a citation witness for Sri Aurobindo, Isha Upanishad Aurobindo Standalone. The entry is intentionally minimal: it records the routed file and basic bibliographic shape so the site can surface the source while fuller review waits. A later pass should tighten the title, edition, and passage coverage against the on-disk witness.",
+      "entry_status": "wired-on-disk",
+      "key_passage_ids": []
+    },
+    {
+      "work_id": "secret-of-the-veda-standalone",
+      "title": "Secret Of The Veda Standalone",
+      "title_iast": "Secret Of The Veda Standalone",
+      "language": "english",
+      "source_status": "clean-on-disk",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Routed from the 2026-05-10 Tier-1 publication backlog as an on-disk source witness.",
+      "genre": "scripture",
+      "summary": "This on-disk text is being wired into the Source tab as a citation witness for Sri Aurobindo, Secret Of The Veda Standalone. The entry is intentionally minimal: it records the routed file and basic bibliographic shape so the site can surface the source while fuller review waits. A later pass should tighten the title, edition, and passage coverage against the on-disk witness.",
+      "entry_status": "wired-on-disk",
+      "key_passage_ids": []
     }
   ],
   "key_passages": [],
