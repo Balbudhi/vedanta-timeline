@@ -1,0 +1,32 @@
+{
+  "term_key": "bhedabheda",
+  "term_iast": "bhedābheda",
+  "term_devanagari": "भेदाभेद",
+  "literal": "difference-and-non-difference; bheda + abheda",
+  "aliases": ["bhedabheda", "bhedābheda", "Bhedābheda", "bheda-abheda", "bhedabheda-vada"],
+  "invariant_definition": "The doctrinal position that *bheda* and *abheda* between *brahman* and the world (especially between *brahman* and *jīva*) are equally and simultaneously real. The earliest known proponent is Bhartṛprapañca (cited but not extant); Bhāskara (8th–9th c.) is the principal classical exponent; Yādava-Prakāśa (Rāmānuja's teacher), Nimbārka (Dvaitādvaita as a variant), Caitanya / Jīva Gosvāmī (Acintya-Bhedābheda as the developed Vaiṣṇava form). The position is structurally distinct from Advaita (which makes *abheda* alone real) and from Dvaita (which makes *bheda* alone real). Schools differ on whether the simultaneity is rationally articulable (Bhāskara: yes, via real *upādhi*-borne *pariṇāma*) or is *acintya*, beyond logical resolution (Caitanya tradition).",
+  "per_school": [
+    {
+      "school": "Bhedābheda (Bhāskara)",
+      "definition": "*Bheda* arises from real *upādhi*-borne *pariṇāma*; *abheda* obtains in the underlying substrate. *Brahman* really transforms into the world through *upādhi*-conditions; the world is therefore really one with *brahman* (in substrate) and really different (in *upādhi*-condition).",
+      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 1.1.4, 2.1.14"]
+    },
+    {
+      "school": "Dvaitādvaita (Nimbārka)",
+      "definition": "*Bheda* and *abheda* between *brahman* and *jīva* / *jagat* are both natural (*svābhāvika*) — neither derived from the other, both equally primary. *Brahman* is identified with Kṛṣṇa.",
+      "primary_loci": ["Vedānta-Pārijāta-Saurabha 1.1.1–4", "Daśa-Ślokī"]
+    },
+    {
+      "school": "Acintya-Bhedābheda (Caitanya / Jīva Gosvāmī)",
+      "definition": "*Bheda* and *abheda* between Kṛṣṇa and his *śakti*s (including *jīva*s) obtain simultaneously and *acintya* — beyond logical resolution. The relation is real but its logical structure exceeds reason; *śabda* is the only *pramāṇa* for it.",
+      "primary_loci": ["Tattva-Sandarbha §§51–56", "Bhagavat-Sandarbha §§78–117", "Caitanya-Caritāmṛta, Madhya 20"]
+    },
+    {
+      "school": "Position-Brief Note",
+      "definition": "The user's thesis identifies the *bhedābheda* trajectory (Bhartṛprapañca → Bhāskara → Madhva → Caitanya) as a self-correcting recovery of the realism implicit in the *Brahma-Sūtra* — see T2 of the position-brief. *Bhedābheda* is thus structurally central to the user's position, not a peripheral school.",
+      "primary_loci": []
+    }
+  ],
+  "see_also": ["bheda", "abheda", "advaita", "dvaita", "acintya", "parinama", "upadhi"],
+  "translator_note": "'Difference-and-non-difference' is the standard scholarly translation and is correct. The doctrine has no clean Western analogue; the closest is perhaps Spinoza's *Deus sive natura* with the substance-mode relation, but *bhedābheda* refuses Spinoza's modal-reduction of the world to substance."
+}

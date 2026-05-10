@@ -1,0 +1,17 @@
+{
+  "term_key": "dvaita",
+  "term_iast": "dvaita",
+  "term_devanagari": "द्वैत",
+  "literal": "duality, two-ness; from dvi- 'two'",
+  "aliases": ["dvaita", "Dvaita", "dvaitam", "tattva-vada", "tattvavāda"],
+  "invariant_definition": "As a school-name, Dvaita refers to Madhva's lineage. The school's own preferred self-designation is *Tattvavāda* — the doctrine of (real) tattvas — *not* simply 'dualism.' The position is the strongest realist Vedānta: there is one *svatantra* reality (Viṣṇu) and an irreducible plurality of real *paratantra* realities, eternally distinct from Viṣṇu and from each other (*pañca-bheda*). The user's position-brief and CLAUDE.md explicitly forbid collapsing Madhva to 'dualism' — Dvaita is not Cartesian mind-body dualism, not Manichean good-evil dualism, not even *brahman*-*world* dualism; it is *svatantra-paratantra* asymmetric dependence-realism with *atyanta-bheda*.",
+  "per_school": [
+    {
+      "school": "Dvaita (Madhva)",
+      "definition": "*Tattvavāda*: real distinctions among real tattvas, governed by *svatantra-paratantra* asymmetry and *taratamya* gradation. The five-fold *bheda* (Brahman–jīva, Brahman–matter, jīva–jīva, jīva–matter, matter–matter) is foundational. The *jīva*s are intrinsically classed (*mukti-yogya*, *nitya-saṃsārī*, *tamo-yogya*).",
+      "primary_loci": ["Tattva-Saṅkhyāna 1–8", "Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1–2", "Viṣṇu-Tattva-Vinirṇaya §§40–50"]
+    }
+  ],
+  "see_also": ["advaita", "bhedabheda", "tattvavada", "panca-bheda", "svatantra", "paratantra", "taratamya"],
+  "translator_note": "Translating Dvaita simply as 'dualism' is the standard scholarly mistake the user's project explicitly forbids. Dvaita is *Tattvavāda* — pluralist dependence-realism with one independent and many dependent realities. 'Dualism' (Cartesian, Manichean, etc.) imposes a binary that Dvaita does not have. Use *Dvaita* or *Tattvavāda* untranslated."
+}

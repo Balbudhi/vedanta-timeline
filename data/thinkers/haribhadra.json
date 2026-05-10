@@ -1,0 +1,87 @@
+{
+  "id": "haribhadra",
+  "name": "Haribhadra Suri",
+  "name_iast": "Haribhadra Sūri",
+  "alternate_names": ["Yākinīsūnu Haribhadra", "Bhavavīrāha"],
+  "dates_low": 700,
+  "dates_high": 770,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Modern Jaina scholarship (Williams 1965, Jaina Yoga; Dundas 1992) places Haribhadra in the eighth century CE on the basis of internal references and the relative position to Akalaṅka (Digambara, c. 720–780); the older traditional date in the sixth century is rejected. The Yākinīsūnu-Haribhadra of the eighth century is to be distinguished from a later Haribhadra of c. twelfth century.",
+  "school": "Jaina",
+  "school_color_token": "jaina-comparator",
+  "sub_school": "Śvetāmbara doxographer",
+  "sub_school_shade": 2,
+  "lineage_in": ["umasvati"],
+  "lineage_out": ["hemacandra"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "vacaspati",
+      "direction": "mutual",
+      "note": "Haribhadra and Vāchaspati Miśra are near-contemporary cross-doxographic engagers — Vāchaspati's Nyāya-Vārttika-Tātparya-Ṭīkā and other doxographic works represent the Brahmanical equivalent of Haribhadra's Ṣaḍ-Darśana-Samuccaya, and the relation is mutual cross-traditional engagement on the methodology of fair-minded systematic exposition of rival darśanas."
+    }
+  ],
+  "core_thesis": "Haribhadra Sūri is a Śvetāmbara polymath whose work effects a methodological shift in Jaina engagement with rival *darśanas*. Three contributions are doctrinally and historiographically consequential. First, the *Ṣaḍ-Darśana-Samuccuya* — \"compendium of the six *darśanas*\" — is the first systematic Indian doxography. It enumerates and gives a fair-minded account of six schools (Bauddha, Naiyāyika, Sāṃkhya, Jaina, Vaiśeṣika, Mīmāṃsaka — Cārvāka added in some recensions; Yoga subsumed under Sāṃkhya) before stating Haribhadra's own Jaina position. Each darśana's *deva*, *tattva*, and *pramāṇa*-doctrine is presented, with the Jaina position then articulated as the *anekānta*-position that contains the partial truths of the others as *ekānta*-views. Second, the *Yoga-Bindu* and *Yoga-Dṛṣṭi-Samuccuya* construct a Jaina yoga-theory through engagement with Pātañjala-Yoga: the *Yoga-Dṛṣṭi-Samuccaya* in particular gives an eight-stage *dṛṣṭi*-progression (*mitrā*, *tārā*, *balā*, *dīprā*, *sthirā*, *kāntā*, *prabhā*, *parā*) explicitly correlated with Patañjali's eight *aṅgas*, and offers a generously cross-traditional account of the spiritual path. Third, the corpus as a whole exhibits a methodological commitment to *anekānta* applied to the historical-philosophical field itself: rival schools are taken seriously as carrying real partial insights, and Jaina superiority is defended only after each rival has been heard in its own idiom.",
+  "engaged_works": [
+    {
+      "work_id": "sad-darsana-samuccaya",
+      "title": "Sad-Darshana-Samuccaya",
+      "title_iast": "Ṣaḍ-Darśana-Samuccaya",
+      "alternate_titles": ["Saddarśana-Samuccaya"],
+      "composition_dates_low": 700,
+      "composition_dates_high": 770,
+      "composition_dates_notes": "Composition fixed by Guṇaratna's late-fourteenth-century commentary (Tarka-Rahasya-Dīpikā) treating the text as a settled authority and by internal references.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Haribhadra Sūri by colophon and by Guṇaratna's commentary.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Dundas (1992, The Jains); Folkert (Scripture and Community: Collected Essays on the Jains)."}
+      ],
+      "genre": "verse-summary",
+      "language": "sanskrit",
+      "summary": "87 verses (variously transmitted; the Guṇaratna recension has a longer text) that enumerate six *darśanas* and give each a fair-minded synoptic account: Bauddha (with the four sub-schools — Vaibhāṣika, Sautrāntika, Yogācāra, Mādhyamika — identified), Naiyāyika, Sāṃkhya (with Yoga subsumed), Jaina, Vaiśeṣika, and Jaiminīya / Mīmāṃsaka. Each darśana is presented under three categories: its *deva* (or analogous foundational principle), its *tattva*-list, and its *pramāṇa*-doctrine. The Cārvāka / Lokāyata position is treated in some recensions as a seventh, but is more usually given a brief refutational appendix. The Jaina position is presented last and as the *anekānta*-position that incorporates the partial truths of the others. Guṇaratna's *Tarka-Rahasya-Dīpikā* is the standard commentary and substantially expands the synoptic accounts, making the work the principal pre-modern source for cross-darśana doxography. The text is the structural ancestor of Mādhava's *Sarva-Darśana-Saṅgraha* (fourteenth century) and remains the standard Jaina reference for inter-school comparison.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "yoga-bindu",
+      "title": "Yoga-Bindu",
+      "title_iast": "Yoga-Bindu",
+      "composition_dates_low": 700,
+      "composition_dates_high": 770,
+      "composition_dates_notes": "Composition contemporary with the Yoga-Dṛṣṭi-Samuccaya.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Haribhadra Sūri by colophon.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Dixit's edition; Chapple's translation."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "527 verses constructing a Jaina yoga-theory in dialogue with Pātañjala-Yoga. The work distinguishes five stages of yoga — *adhyātma*, *bhāvanā*, *dhyāna*, *samatā*, *vṛtti-saṅkṣaya* — corresponding to the soul's progressive purification from *karma* and movement toward *mokṣa*. Haribhadra engages Patañjali's *aṣṭāṅga*-yoga sympathetically, distinguishing his Jaina recasting of yogic praxis from the Sāṃkhya metaphysics that frames Patañjali. The work is the principal pre-Hemacandra Jaina yoga-treatise and is one of the earliest Jaina works to engage Pātañjala-Yoga in detail rather than dismiss it.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "yoga-drsti-samuccaya",
+      "title": "Yoga-Drsti-Samuccaya",
+      "title_iast": "Yoga-Dṛṣṭi-Samuccaya",
+      "composition_dates_low": 700,
+      "composition_dates_high": 770,
+      "composition_dates_notes": "Composition contemporary with the Yoga-Bindu.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Haribhadra Sūri by colophon.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Chapple's edition and translation; Dundas."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "228 verses giving an eight-stage progression of *dṛṣṭi* (yogic vision) — *mitrā*, *tārā*, *balā*, *dīprā*, *sthirā*, *kāntā*, *prabhā*, *parā* — explicitly correlated with the eight *aṅgas* of Patañjali's *Yoga-Sūtra*. The work is methodologically distinctive in defending an inclusive cross-traditional account: yogic progress is real for non-Jaina practitioners as well, and the eight *dṛṣṭis* are common to all traditions even where the metaphysical-doctrinal frame differs. The text is the most widely-read of Haribhadra's yoga-works in the modern period and is the principal evidence for his fair-minded engagement with rival traditions.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-comparators-darsana-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-comparators-darsana-opus"
+}

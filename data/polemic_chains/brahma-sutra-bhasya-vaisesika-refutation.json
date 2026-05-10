@@ -1,0 +1,128 @@
+{
+  "chain_id": "brahma-sutra-bhasya-vaisesika-refutation",
+  "title": "Brahma-Sūtra refutation of Vaiśeṣika atomism",
+  "attacker": "badarayana",
+  "attacker_text": "Brahma-Sūtra 2.2.11–17, with Śaṅkara's bhāṣya as the principal unfolding; supplementary engagements in Rāmānuja's Śrī-Bhāṣya and Vedānta Deśika's Nyāya-Pariśuddhi",
+  "target_school_token": "cross-tradition",
+  "target_position_summary": "Classical Vaiśeṣika (the Kaṇāda-tradition as developed in Praśastapāda's Padārtha-Dharma-Saṃgraha): the world is composed of paramāṇus (eternal indivisible atoms) of four kinds (earth, water, fire, air); the manifest order arises by combination (saṃyoga) of atoms into dyads, triads, and larger composites; mokṣa is the cessation of qualities of the ātman.",
+  "arguments": [
+    {
+      "name": "argument-1: BS 2.2.11 — atoms cannot combine without an external principle",
+      "premises": [
+        "Vaiśeṣika holds that paramāṇus exist independently and combine to form composites.",
+        "Combination requires either (i) an internal disposition of the atoms toward combination, or (ii) an external principle that brings them together.",
+        "If (i): the disposition would be perpetually active (since atoms are eternal), and the world would never be in pralaya — contradicting the cyclical-cosmology Vaiśeṣika accepts.",
+        "If (ii): the external principle is itself either an atom (regress) or a non-atom (admits a non-atomic principle, contradicting strict atomism).",
+        "There is no third option."
+      ],
+      "inference": "Atoms cannot account for combination on Vaiśeṣika's own resources.",
+      "conclusion": "The atomic cosmology requires a non-atomic principle (Brahman or Īśvara) to function; either Vaiśeṣika collapses into theism or fails to explain manifestation.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "kasakrtsna",
+            "position": "Vaiśeṣika atomism generally; engaged at the dialectical level, not at the level of any specific Vaiśeṣika thinker."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "ramanuja",
+            "position": "Rāmānuja's bhāṣya extends the BS argument with additional considerations on the impossibility of partless atoms acquiring saṃyoga; the Viśiṣṭādvaita extension is largely concordant with Śaṅkara's."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "ksemaraja",
+            "response_text": "Late Vaiśeṣika and Naiyāyika responses (Udayana's Ātma-Tattva-Viveka) admit Īśvara as the external principle bringing atoms together; this concedes the polemic's force",
+            "verdict": "the historical Vaiśeṣika tradition develops Īśvara-vāda partly in response to such polemics, vindicating the argument's destructive force against strict non-theistic atomism."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive against strict non-theistic Vaiśeṣika. The historical concession (Udayana's Īśvara-Vaiśeṣika) shows the polemic's force; the disagreement does not dissolve but the target school largely concedes the central point."
+    },
+    {
+      "name": "argument-2: BS 2.2.13 — qualities (guṇas) cannot inhere in partless atoms",
+      "premises": [
+        "Vaiśeṣika atoms are partless (niravayava).",
+        "Qualities (e.g., colour, taste) are inherent (samavetā) in their substrate.",
+        "Inherence presupposes a substrate with parts in which the quality can locate.",
+        "A partless atom cannot serve as such a substrate without contradicting partlessness.",
+        "Hence the qualities Vaiśeṣika ascribes to atoms have no coherent ontological location."
+      ],
+      "inference": "Partless atoms cannot bear qualities.",
+      "conclusion": "Vaiśeṣika's substance-quality scheme breaks down at the atomic level.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "kasakrtsna",
+            "position": "Vaiśeṣika ontology generally."
+          }
+        ],
+        "positions_left_intact": [],
+        "later_responses": [
+          {
+            "thinker_id": "ksemaraja",
+            "response_text": "Later Vaiśeṣika argues that inherence is sui generis (samavāya as a distinct padārtha) and does not require part-whole structure; partless substrates can bear qualities by direct samavāya",
+            "verdict": "the reply requires accepting samavāya as a primitive non-mereological relation; the disagreement reduces to whether such a primitive is dialectically legitimate."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive on a specific ontological question (mereology of substrates). The disagreement does not dissolve."
+    },
+    {
+      "name": "argument-3: BS 2.2.17 — atomic combination cannot account for emergent qualities",
+      "premises": [
+        "Compounds bear qualities not present in their atomic components (e.g., a pot has bulk, shape, and use that single atoms do not).",
+        "Emergent qualities require either (i) the qualities to arise ex nihilo (against Vaiśeṣika's satkārya-asatkārya-vāda hybrid), or (ii) the qualities to derive from the compound's structure rather than its atomic components.",
+        "If (i): the emergence is unaccounted for and violates causation principles Vaiśeṣika accepts.",
+        "If (ii): structure is a non-atomic feature, again admitting a non-atomic principle."
+      ],
+      "inference": "Emergent qualities cannot be accounted for atomistically.",
+      "conclusion": "The world's manifest properties cannot be reduced to atomic substrates and their saṃyogas; a non-atomic ground is required.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "kasakrtsna",
+            "position": "Vaiśeṣika cosmology."
+          }
+        ],
+        "positions_left_intact": [],
+        "later_responses": [
+          {
+            "thinker_id": "ksemaraja",
+            "response_text": "Later Vaiśeṣika admits a doctrine of viśeṣa-guṇa-utpatti (emergence of compound-specific qualities) but does not satisfactorily ground it on strictly atomic terms",
+            "verdict": "the doctrinal patch addresses the symptom but not the underlying mereological problem."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive on the question of emergent properties — a question that recurs in modern philosophy of mind and physics. Genuine philosophical disagreement; no register-clarification dissolves it."
+    }
+  ],
+  "user_thesis_summary": "The anti-Vaiśeṣika polemic is methodologically destructive: it shows that strict atomism cannot account for combination, quality-bearing, or emergence on its own resources. The historical Vaiśeṣika tradition responded by admitting Īśvara as the external organising principle (Udayana) and by treating samavāya as a primitive non-mereological relation. These concessions vindicate the polemic's force without producing a perspectivist resolution. As with the anti-Sāṃkhya polemic, all major Vedāntic schools agree on the substantive conclusion (Vaiśeṣika atomism alone is insufficient), so the polemic is one of inter-Vedāntic alignment rather than inter-Vedāntic disagreement. The polemic does not bear directly on the perspectivism hypothesis among Vedāntic schools, but it illustrates the BS bhāṣya tradition's methodological commitment to refuting non-Vedāntic darśanas where they conflict with the śruti-attested account. Verdict: substantive; the target school historically concedes the central point. Not relevant to inter-Vedāntic perspectivism.",
+  "primary_source_loci": [
+    "Brahma-Sūtra 2.2.11–17 (the systematic anti-Vaiśeṣika section)",
+    "Śaṅkara, BSB ad loc.",
+    "Rāmānuja, Śrī-Bhāṣya ad loc.",
+    "Vedānta Deśika, Nyāya-Pariśuddhi (the constructive Viśiṣṭādvaita engagement with Naiyāyika and Vaiśeṣika ontology)"
+  ],
+  "scholarly_apparatus": [
+    {
+      "scholar": "Wilhelm Halbfass",
+      "work": "On Being and What There Is: Classical Vaiśeṣika and the History of Indian Ontology (SUNY, 1992)",
+      "page_or_section": "chs. 5–6",
+      "position": "Documents the historical evolution of Vaiśeṣika in response to its critics, including the BS polemic; reads Udayana's Ātma-Tattva-Viveka as the constructive Vaiśeṣika-Nyāya response that admits theism."
+    },
+    {
+      "scholar": "Karl H. Potter (ed.)",
+      "work": "Encyclopedia of Indian Philosophies, vol. 2 (Indian Metaphysics and Epistemology)",
+      "page_or_section": "Vaiśeṣika and Nyāya entries",
+      "position": "Standard reference for the Vaiśeṣika doctrines engaged by the BS polemic and the historical Vaiśeṣika responses."
+    }
+  ],
+  "entry_status": "reviewed",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-polemic-opus"
+}

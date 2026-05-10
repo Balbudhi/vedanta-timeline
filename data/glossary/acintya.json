@@ -1,0 +1,22 @@
+{
+  "term_key": "acintya",
+  "term_iast": "acintya",
+  "term_devanagari": "अचिन्त्य",
+  "literal": "unthinkable, beyond conception; a- (negative) + cintya (to-be-thought)",
+  "aliases": ["acintya", "Acintya", "acintyaḥ", "acintyatva", "acintya-bhedabheda", "acintya-bhedābheda"],
+  "invariant_definition": "Beyond logical conception — naming a relation or property that is real but exceeds the resolutions of reason. The principal technical use is in *acintya-bhedābheda* (Caitanya's school): the simultaneity of *bheda* and *abheda* is real but *acintya*. The term also appears in earlier Vaiṣṇava and Śaiva theology to characterize divine attributes that exceed conception (*acintya-śakti* — inconceivable power). *Acintya* is not 'unknowable' or 'mystical' in a vague sense; it is the technical claim that a particular relation (typically *bheda*-*abheda* simultaneity) cannot be reduced to logical consistency without distortion, and that *śabda* is the only *pramāṇa* for it.",
+  "per_school": [
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "Central technical category. The simultaneous *bheda* and *abheda* of Kṛṣṇa and his *śakti*s — including *jīva*s and the world — is *acintya* because logic forces a choice between *bheda* and *abheda* that the metaphysical fact does not make. Jīva Gosvāmī's *Sandarbhas* defend this against Advaita and Madhva by appeal to *śruti* and *Bhāgavata*.",
+      "primary_loci": ["Tattva-Sandarbha §§51–56", "Bhagavat-Sandarbha §§78–117", "Caitanya-Caritāmṛta, Madhya 20.108–113"]
+    },
+    {
+      "school": "Other Vaiṣṇava (general)",
+      "definition": "*Acintya-śakti* of the Lord — the inconceivable power by which the Lord can do what logic forbids (e.g. be wholly present in many forms, transform without modification, etc.) — is widely accepted in *Bhāgavata*-influenced theology.",
+      "primary_loci": ["Bhāgavata-Purāṇa 8.5.24, 10.87.25 (acintya-śakti contexts)"]
+    }
+  ],
+  "see_also": ["bhedabheda", "sakti", "para-sakti", "sastra-yonitva"],
+  "translator_note": "'Inconceivable' is the conventional gloss but English 'inconceivable' carries the connotation of 'impossible' — *acintya* is precisely *not* impossible; it is real-but-not-logically-resolvable. 'Beyond conception' or 'transrational' are closer."
+}

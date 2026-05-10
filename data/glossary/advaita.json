@@ -1,0 +1,27 @@
+{
+  "term_key": "advaita",
+  "term_iast": "advaita",
+  "term_devanagari": "अद्वैत",
+  "literal": "non-duality, non-secondness; a- (negative) + dvaita (duality)",
+  "aliases": ["advaita", "Advaita", "advaitam", "advayatva", "advaya"],
+  "invariant_definition": "Non-duality. As a school-name, Advaita refers principally to Śaṅkara's lineage and its commentarial tradition. As a doctrinal position, *advaita* is the claim that *brahman* is non-dual — without internal differentiation and without external second. The term is also used by other traditions in modified form (*viśiṣṭa-advaita* — the qualified non-duality of Rāmānuja; *śuddha-advaita* — the pure non-duality of Vallabha; *acintya-bhedābheda* — which can be read as a form of non-duality through *acintya-śakti*). The user's position-brief explicitly affirms a *paramādvaita* — a non-duality of duality and non-duality — that integrates rather than refutes the qualified positions.",
+  "per_school": [
+    {
+      "school": "Advaita (Śaṅkara)",
+      "definition": "*Brahman* is *eka eva advitīyam* (one only, without a second; Chāndogya 6.2.1). All apparent duality is *vyāvahārika*; *pāramārthika* truth is non-dual identity of *ātman* and *brahman*.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1", "Chāndogya-Upaniṣad-Bhāṣya 6.2.1"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Viśiṣṭa-advaita* — non-duality of the qualified. *Brahman* is one but is *viśiṣṭa* (qualified) by *cit* and *acit* as his body. The unity is real, the qualifications are real; this is genuinely non-dual because there is no second-substance over against *brahman*.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§82–95"]
+    },
+    {
+      "school": "Śuddhādvaita (Vallabha)",
+      "definition": "*Śuddha-advaita* — pure non-duality. The world is a real *avikṛta-pariṇāma* of *brahman*; *māyā* in the Advaita sense is rejected. Non-duality is preserved without illusion-doctrine.",
+      "primary_loci": ["Aṇu-Bhāṣya 1.1.2"]
+    }
+  ],
+  "see_also": ["dvaita", "bhedabheda", "visistadvaita", "suddhadvaita", "acintya"],
+  "translator_note": "'Non-duality' is the standard gloss. Note: *advaita* as a doctrinal modifier is more permissive than *advaita* as a school-name — the various qualified-advaitas are *advaita* in the structural sense (no second substance) without being *Advaita* in the Śaṅkara-school sense (numerical identity of *jīva* and *brahman*)."
+}

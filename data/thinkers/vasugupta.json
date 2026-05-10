@@ -1,0 +1,61 @@
+{
+  "id": "vasugupta",
+  "name": "Vasugupta",
+  "name_iast": "Vasugupta",
+  "alternate_names": [],
+  "dates_low": 800,
+  "dates_high": 850,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Founder of the Spanda lineage; teacher of Bhaṭṭa Kallaṭa; dated by guru-paramparā with Kallaṭa and by the traditional account of the revelation of the Śiva-Sūtra at Mahādeva mountain.",
+  "school": "Pratyabhijñā/Trika",
+  "school_color_token": "trika-comparator",
+  "sub_school": "Spanda — founding",
+  "sub_school_shade": 1,
+  "lineage_in": [],
+  "lineage_out": ["bhatta-kallata", "ksemaraja"],
+  "lineage_polemical": [],
+  "core_thesis": "Non-Vedāntin comparator (founder of the Spanda lineage; revealer of the Śiva-Sūtra). Vasugupta is the figure to whom the *Śiva-Sūtra* — the founding revealed scripture of the Trika tradition after the Tantras themselves — is traditionally credited, on the account that Śiva revealed the seventy-seven sūtras to him on the rock of Mahādeva mountain in Kashmir. The sūtras are organised into three *unmeṣas* (*Śāmbhava*, *Śākta*, *Āṇava*), corresponding to three soteriological registers. The first opens with *caitanyam ātmā* — \"the self is consciousness itself\" — and unfolds the immediate path of recognition without method. The second works through the path of attentive *vimarśa*. The third treats the path of breath, mantra, and meditative supports. The Spanda doctrine — that consciousness is intrinsically a pulsation (*spanda*) by which the entire manifest universe is continuously projected, sustained, and reabsorbed — is on one tradition Vasugupta's own articulation in the *Spanda-Kārikā*; on another the *Kārikā* is the work of his disciple Kallaṭa. *Spanda* in either case names the dynamism of *manifestation as a whole*: closer in scope to *prakṛti* itself or to *mahāmāyā* than to any single *guṇa*, and definitively not equatable with *rajas*. Vasugupta thus founds the second of the three streams (Spanda, Pratyabhijñā, Kula / Krama) Abhinavagupta later integrates into the mature Trika synthesis.",
+  "engaged_works": [
+    {
+      "work_id": "shiva-sutra",
+      "title": "Shiva-Sutra",
+      "title_iast": "Śiva-Sūtra",
+      "alternate_titles": [],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed to Vasugupta as the recipient of Śiva's revelation; the school's foundational scripture after the Tantras themselves. The traditional account is that Śiva revealed the sūtras to Vasugupta on the rock of Mahādeva mountain.",
+      "ascription_evidence": [
+        {"kind": "school-acceptance", "description": "Universal acceptance within the Trika tradition; the ascription is constitutive of the school's self-understanding."},
+        {"kind": "internal-references", "description": "Kṣemarāja's Śiva-Sūtra-Vimarśinī presupposes Vasugupta's role as recipient."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The seventy-seven sūtras of the Trika tradition's foundational scripture, organised into three *unmeṣas* corresponding to the three *upāyas* of progressively descending subtlety. The *Śāmbhava-unmeṣa* (1.1–1.22) opens with *caitanyam ātmā* (\"the self is consciousness itself\") and unfolds the immediate Śāmbhava path of recognition without method: the supreme self is identified, the bonds are identified as the contents of awareness, and liberation is identified as the immediate recognition of one's own consciousness as Śiva. The *Śākta-unmeṣa* (2.1–2.10) gives the path of attentive *vimarśa*: the practitioner works through cognition's rising-and-subsiding rhythm to discern the *spanda* that underlies it. The *Āṇava-unmeṣa* (3.1–3.45) gives the path of breath, mantra, and meditative supports for those still bound to the limited subject, including the famous sūtras on the *kuṇḍalinī*-pulse and on the structure of yogic awakening. The text is the canonical scripture on which the Spanda-Kārikā, Kṣemarāja's *Vimarśinī*, and the entire Trika living tradition are built.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "spanda-karika",
+      "title": "Spanda-Karika",
+      "title_iast": "Spanda-Kārikā",
+      "alternate_titles": ["Spanda-Sūtra"],
+      "ascription_tier": "disputed",
+      "ascription_notes": "Authorship disputed within the school's own tradition: one tradition (followed by Kṣemarāja in the Spanda-Nirṇaya) credits the Kārikā to Vasugupta as a verse-distillation of the Spanda doctrine implicit in the Śiva-Sūtra; the other tradition credits the Kārikā to Vasugupta's disciple Bhaṭṭa Kallaṭa. The text itself is anonymous in its earliest manuscript witnesses. Modern scholarship is divided; Mark Dyczkowski's studies are the principal modern treatment of the question.",
+      "ascription_evidence": [
+        {"kind": "scholarly-dispute", "description": "Two competing traditions of ascription, both with internal Trika support; the text's authorship cannot be settled on present evidence."},
+        {"kind": "school-acceptance", "description": "Both ascriptions are accepted as legitimate within different sub-strands of the Trika tradition."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The fifty-three verses of the foundational text of the *Spanda* tradition, organised into four *niṣyandas* (sections). The first establishes the doctrine of *spanda*: consciousness is intrinsically a pulsation (*spanda*) by which the entire manifest universe is continuously projected, sustained, and reabsorbed. *Spanda* is the dynamism of *manifestation as a whole* — closer in scope to *prakṛti* itself or to *mahāmāyā* than to any single *guṇa*, and definitively not equatable with *rajas*. The second *niṣyanda* analyses the operation of *spanda* in the bound subject: how the *spanda*-pulse appears as the rising and subsiding of cognitions, emotions, and the entire experiential field, and how attention to that pulse is the entry into recognition. The third *niṣyanda* gives the practical *upāyas* by which the practitioner aligns awareness with the *spanda*. The fourth gives the condition of full recognition, in which the practitioner's awareness and Śiva's *spanda* are identical. Authorship of the text is contested between Vasugupta and Bhaṭṭa Kallaṭa within the school's own tradition; the entry honours the dispute by listing the work under both authors with full ascription notes.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Vasugupta is the founding figure of the Spanda tradition and the recipient of the Śiva-Sūtra revelation that grounds the entire Trika lineage as a self-aware school. Kṣemarāja's Śiva-Sūtra-Vimarśinī is the standard commentary; the Spanda-Kārikā is read together with the Spanda-Nirṇaya and the Spanda-Sandoha. Modern scholarly recovery — Dyczkowski's studies on Spanda, Singh's translations of the Śiva-Sūtra, ongoing work in the Pondicherry School — has restored Vasugupta to his foundational place within the Trika genealogy.",
+  "entry_status": "draft",
+  "entry_owner_agent": "trika-shakta-extension-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "trika-shakta-extension-opus"
+}
