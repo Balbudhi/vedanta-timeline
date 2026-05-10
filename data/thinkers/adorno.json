@@ -1,0 +1,65 @@
+{
+  "id": "adorno",
+  "name": "Theodor W. Adorno",
+  "name_iast": "Theodor W. Adorno",
+  "dates_low": 1903,
+  "dates_high": 1969,
+  "school": "Critical Theory",
+  "school_color_token": "cross-tradition",
+  "summary": "Theodor W. Adorno is represented here by a minimal backlog stub so routed on-disk source texts can surface in the Source tab pending fuller review.",
+  "engaged_works": [
+    {
+      "work_id": "theodor-adorno-dialectica-negativa-1975",
+      "title": "Theodor Adorno Dialectica Negativa 1975",
+      "title_iast": "Theodor Adorno Dialectica Negativa 1975",
+      "language": "german",
+      "source_status": "clean-on-disk",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Routed from the 2026-05-10 Tier-1 publication backlog as an on-disk source witness.",
+      "genre": "monograph",
+      "summary": "This on-disk text is being wired into the Source tab as a citation witness for Theodor W. Adorno, Theodor Adorno Dialectica Negativa 1975. The entry is intentionally minimal: it records the routed file and basic bibliographic shape so the site can surface the source while fuller review waits. A later pass should tighten the title, edition, and passage coverage against the on-disk witness.",
+      "entry_status": "wired-on-disk",
+      "key_passage_ids": []
+    },
+    {
+      "work_id": "theodoradorno-negativedialektik",
+      "title": "Theodoradorno Negativedialektik",
+      "title_iast": "Theodoradorno Negativedialektik",
+      "language": "german",
+      "source_status": "clean-on-disk",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Routed from the 2026-05-10 Tier-1 publication backlog as an on-disk source witness.",
+      "genre": "monograph",
+      "summary": "This on-disk text is being wired into the Source tab as a citation witness for Theodor W. Adorno, Theodoradorno Negativedialektik. The entry is intentionally minimal: it records the routed file and basic bibliographic shape so the site can surface the source while fuller review waits. A later pass should tighten the title, edition, and passage coverage against the on-disk witness.",
+      "entry_status": "wired-on-disk",
+      "key_passage_ids": []
+    },
+    {
+      "work_id": "dialecticofenlightenmenttheodorw-adornomaxhorkheimer",
+      "title": "Dialecticofenlightenmenttheodorw.Adornomaxhorkheimer",
+      "title_iast": "Dialecticofenlightenmenttheodorw.Adornomaxhorkheimer",
+      "language": "english",
+      "source_status": "clean-on-disk",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Routed from the 2026-05-10 Tier-1 publication backlog as an on-disk source witness.",
+      "genre": "monograph",
+      "summary": "This on-disk text is being wired into the Source tab as a citation witness for Theodor W. Adorno, Dialecticofenlightenmenttheodorw.Adornomaxhorkheimer. The entry is intentionally minimal: it records the routed file and basic bibliographic shape so the site can surface the source while fuller review waits. A later pass should tighten the title, edition, and passage coverage against the on-disk witness.",
+      "entry_status": "wired-on-disk",
+      "key_passage_ids": []
+    },
+    {
+      "work_id": "adorno-jargon",
+      "title": "The Jargon of Authenticity",
+      "title_iast": "The Jargon of Authenticity",
+      "language": "german",
+      "source_status": "clean-on-disk",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Routed from the 2026-05-10 Tier-1 publication backlog as an on-disk source witness.",
+      "genre": "monograph",
+      "summary": "This on-disk text is being wired into the Source tab as a citation witness for Theodor W. Adorno, The Jargon of Authenticity. The entry is intentionally minimal: it records the routed file and basic bibliographic shape so the site can surface the source while fuller review waits. A later pass should tighten the title, edition, and passage coverage against the on-disk witness.",
+      "entry_status": "wired-on-disk",
+      "key_passage_ids": []
+    }
+  ],
+  "entry_status": "stub-from-backlog"
+}

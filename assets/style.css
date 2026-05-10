@@ -156,6 +156,37 @@ body.is-detail-open {
   overflow: hidden;
   background: var(--bg);
 }
+
+/* Reset-view button: visible only in Network mode. Re-frames the canvas at
+   default zoom and the initial focus year. */
+.reset-view-btn {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  z-index: 6;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background 140ms ease, border-color 140ms ease, color 140ms ease;
+}
+.reset-view-btn:hover {
+  background: var(--bg-warm);
+  color: var(--ink);
+  border-color: var(--ink-soft);
+}
+.reset-view-btn[hidden] { display: none; }
+
+/* Space-held: grab cursor everywhere over the timeline. */
+body.is-space-pan .timeline-scroller,
+body.is-space-pan .timeline-scroller * { cursor: grab !important; }
 .timeline-scroller {
   position: relative;
   height: 100%;
@@ -355,6 +386,33 @@ body.is-detail-open {
   outline-offset: 4px;
 }
 
+/* Cluster fan: when a tight cluster is hovered/focused, each member slides
+   horizontally by --fan-dx so every dot has its own clickable column. */
+.thinker-dot {
+  transition: transform 180ms ease;
+}
+.thinker-dot.is-fanned {
+  transform: translate(-50%, -50%) translateX(var(--fan-dx, 0px));
+  z-index: 6;
+}
+/* Tiny stack marker so users know more dots live behind this one. */
+.thinker-dot--in-cluster::after {
+  content: "";
+  position: absolute;
+  left: 50%; top: 50%;
+  width: 3px; height: 3px;
+  border-radius: 50%;
+  background: var(--dot-color);
+  transform: translate(8px, -10px);
+  opacity: 0.55;
+  pointer-events: none;
+  transition: opacity 160ms ease;
+}
+.thinker-dot--in-cluster.is-fanned::after { opacity: 0; }
+.timeline-dots.has-cluster-fan .thinker-dot:not(.is-fanned):not(.is-active) {
+  opacity: 0.35;
+}
+
 /* labels */
 .thinker-dot .label {
   position: absolute;
@@ -458,6 +516,33 @@ body.is-detail-open {
   pointer-events: none;
   min-height: 0;
   overflow: hidden;
+}
+
+/* Drag handle on the LEFT edge of the panel. Lets the reader widen the
+   pane for translation work or narrow it to give the canvas more room.
+   Width is committed via inline style on .detail-pane; see app.js. */
+.dp-resize-handle {
+  position: absolute;
+  top: 0; left: 0; bottom: 0;
+  width: 6px;
+  margin-left: -3px;
+  z-index: 5;
+  cursor: col-resize;
+  background: transparent;
+  transition: background 140ms ease;
+  touch-action: none;
+}
+.dp-resize-handle:hover,
+.dp-resize-handle.is-dragging {
+  background: var(--rule);
+}
+body.is-resizing-pane,
+body.is-resizing-pane * {
+  cursor: col-resize !important;
+  user-select: none !important;
+}
+body.is-resizing-pane .stage {
+  transition: none !important;
 }
 body.is-detail-open .detail-pane {
   opacity: 1;
@@ -614,6 +699,7 @@ body.is-detail-open .detail-pane {
   flex: 1;
   overflow-y: auto;
   min-height: 0;
+  font-size: 15.5px;
 }
 .dp-empty {
   color: var(--muted);
@@ -759,7 +845,7 @@ body.is-detail-open .detail-pane {
 }
 .work-card .summary {
   font-family: var(--serif);
-  font-size: 17px;
+  font-size: 15.5px;
   line-height: 1.6;
   margin: 6px 0 10px;
   color: var(--ink);
@@ -863,7 +949,7 @@ body.is-detail-open .detail-pane {
 }
 .passage-card .english {
   font-family: var(--serif);
-  font-size: 17px;
+  font-size: 15.5px;
   line-height: 1.6;
   margin: 0 0 12px;
   color: var(--ink);
@@ -1524,19 +1610,19 @@ body.is-reading-mode .passage-card .english { font-size: 18px; }
 .cite-passage-anchor .cpa-sk {
   font-family: var(--serif);
   font-style: italic;
-  font-size: 14px;
+  font-size: 13px;
   white-space: pre-wrap;
   margin-bottom: 8px;
   color: var(--ink);
 }
 .cite-passage-anchor .cpa-en {
   font-family: var(--serif);
-  font-size: 14px;
+  font-size: 13px;
   color: var(--ink);
 }
 .cite-passage-anchor .cpa-pending {
   font-family: var(--serif);
-  font-size: 13px;
+  font-size: 12px;
   color: var(--ink-soft);
 }
 .cite-passage-anchor--unverified {
@@ -1717,6 +1803,30 @@ body.is-reading-mode .passage-card .english { font-size: 18px; }
   line-height: 1.65;
   color: var(--ink);
   padding: 0;
+}
+/* GRETIL boilerplate header — collapsed by default. */
+.dp-source-viewer .csv-gretil-header {
+  margin: 6px 0 14px;
+  padding: 6px 10px;
+  border: 1px solid var(--rule);
+  background: var(--bg-warm);
+  border-radius: 3px;
+}
+.dp-source-viewer .csv-gretil-header > summary {
+  cursor: pointer;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  list-style: revert;
+}
+.dp-source-viewer .csv-gretil-header > summary:hover { color: var(--ink); }
+.dp-source-viewer .csv-gretil-header pre.csv-block {
+  margin: 8px 0 0;
+  font-size: 12px;
+  color: var(--ink-soft);
 }
 .dp-source-viewer .csv-body--md h1,
 .dp-source-viewer .csv-body--md h2,
@@ -2056,6 +2166,96 @@ body.is-reading-mode .passage-card .english { font-size: 18px; }
   font-weight: 600;
   border-style: dashed;
 }
+.filter-bulk-row { margin-top: -2px; }
+.filter-bulk-btn {
+  background: none;
+  border: none;
+  padding: 4px 2px;
+  cursor: pointer;
+  font-family: var(--sans);
+  font-size: 11.5px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--rule);
+  transition: color 140ms ease, text-decoration-color 140ms ease;
+}
+.filter-bulk-btn:hover {
+  color: var(--ink);
+  text-decoration-color: var(--ink);
+}
+/* Chip wrap groups the main toggle with its solo affordance. */
+.filter-chip-wrap {
+  display: inline-flex;
+  align-items: stretch;
+  border-radius: 999px;
+}
+.filter-chip-wrap .filter-chip {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: none;
+}
+.filter-chip-solo {
+  background: none;
+  border: 1px solid var(--rule);
+  border-left: 1px solid transparent;
+  border-top-right-radius: 999px;
+  border-bottom-right-radius: 999px;
+  padding: 0 9px;
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  cursor: pointer;
+  transition: color 140ms ease, background 140ms ease, border-color 140ms ease;
+}
+.filter-chip-wrap.is-on .filter-chip-solo {
+  border-color: var(--ink);
+  color: #cbd5e1;
+  background: var(--ink);
+  border-left-color: rgba(255,255,255,0.18);
+}
+.filter-chip-solo:hover {
+  color: var(--ink);
+  background: rgba(0,0,0,0.04);
+}
+.filter-chip-wrap.is-on .filter-chip-solo:hover {
+  color: #fff;
+  background: var(--ink);
+}
+/* Subtle pill shown in the topbar when solo-mode is active. */
+.filter-solo-pill {
+  display: inline-flex;
+  align-items: center;
+  height: 26px;
+  padding: 0 10px;
+  margin-left: -4px;
+  background: var(--ink);
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  font-family: var(--sans);
+  font-size: 11.5px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.filter-solo-pill[hidden] { display: none; }
+.filter-solo-pill:hover { background: #000; }
+.filter-solo-pill::before {
+  content: "";
+  display: inline-block;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: #fbbf24;
+  margin-right: 6px;
+}
 
 /* =============================================================
    RESPONSIVE
@@ -2076,6 +2276,8 @@ body.is-reading-mode .passage-card .english { font-size: 18px; }
     --topbar-h: 52px;
     --era-strip-h: 22px;
   }
+  .filter-chip-solo { padding: 0 7px; font-size: 9.5px; }
+  .filter-solo-pill { font-size: 11px; padding: 0 8px; height: 22px; }
   /* Mobile: panel takes the full screen as a top-layer overlay so the
      short-form lanes still scroll behind. The grid still allocates space
      to the timeline column (1fr) but the pane absolutely covers it. */

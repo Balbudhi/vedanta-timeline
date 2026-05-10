@@ -185,7 +185,8 @@ const state = {
   citationIndex: null,       // {entries: {key: passage}, aliases: {key: targetKey}}
   range: { low: -800, high: 2050 },
   pxPerYear: PX_PER_YEAR_DEFAULT,
-  layout: new Map(),         // id → {x, y, lane, shade, tier, barX1, barX2, name, label}
+  layout: new Map(),         // id → {x, y, lane, shade, subRow, tier, barX1, barX2}
+  clusters: [],              // [{ids: [...]}] groups of 3+ dots tight in x within a lane
   activeId: null,
   // Filter state: which top-level lane tokens are currently visible.
   // Comparator group is a single virtual lane until expanded.
@@ -464,43 +465,118 @@ function computeLayout() {
   else computeLanesLayout();
 }
 
+// Within-lane sub-row assignment.
+//
+// Each lane is divided into N vertical micro-rows. A thinker's preferred row
+// comes from its hand-tuned `sub_school_shade` (1..5 → rows around center).
+// If that row is already occupied at this x, we walk outward in alternating
+// up/down steps until we find a row whose nearest neighbor on that row sits
+// at least MIN_X_GAP away. This guarantees every dot has its own clickable
+// hit-target column without ever stacking on top of another.
+//
+// Output: the layout map stores y, lane, and the assigned sub-row. A second
+// pass detects residual tight clusters (>= 3 dots with very close x within
+// the same lane); the renderer offers hover-fan expansion for those.
+const SUB_ROW_STEP_DESKTOP = 14;
+const SUB_ROW_STEP_MOBILE = 11;
+const MIN_X_GAP = 22;          // ~ tier-1 dot diameter + breathing room
+const CLUSTER_X_THRESHOLD = 14;
+const CLUSTER_MIN_MEMBERS = 3;
+
 function computeLanesLayout() {
   state.layout.clear();
-  const sorted = [...state.thinkers].sort((a, b) => {
-    return ((a.dates_low + a.dates_high) / 2) - ((b.dates_low + b.dates_high) / 2);
-  });
+  state.clusters = [];
 
-  // for collision detection within same lane × shade, track placed dots
-  const occupancy = new Map();   // `${lane}_${shade}` → array of {x1, x2}
-
-  for (const t of sorted) {
+  // Bucket visible thinkers by lane index.
+  const byLane = new Map();
+  for (const t of state.thinkers) {
     if (!isThinkerVisible(t)) continue;
     const lane = laneIndex(t.school_color_token);
     if (lane < 0) continue;
-    const shade = shadeFor(t);
-    const tier = tierOf(t);
     const xMid = yearToX((t.dates_low + t.dates_high) / 2);
     const x1 = yearToX(t.dates_low);
     const x2 = yearToX(t.dates_high);
+    const entry = {
+      t, xMid, x1, x2,
+      tier: tierOf(t),
+      prefShade: shadeFor(t),
+    };
+    const arr = byLane.get(lane) || [];
+    arr.push(entry);
+    byLane.set(lane, arr);
+  }
 
-    const subOffset = (shade - 3) * 11;   // -22 .. +22
-    let nudge = 0;
-    const key = `${lane}_${shade}`;
-    const arr = occupancy.get(key) || [];
-    for (const o of arr) {
-      if (Math.abs(o.x - xMid) < 18) {
-        nudge += (nudge >= 0 ? 8 : -8);
+  const stepPx = LANE_H <= 72 ? SUB_ROW_STEP_MOBILE : SUB_ROW_STEP_DESKTOP;
+  // Tier-1 dots are 18 px, so a half-lane of ~48 px fits ~3 rows above and
+  // ~3 below center comfortably (with the dot's hit-box still inside the lane).
+  const MAX_OFFSET_STEPS = Math.max(2, Math.floor((LANE_H / 2 - 8) / stepPx));
+
+  for (const [lane, items] of byLane) {
+    items.sort((a, b) => a.xMid - b.xMid);
+
+    // occupancy[rowIdx] = last placed dot's xMid for that row.
+    const occupancy = new Map();
+
+    for (const item of items) {
+      // Preferred row from sub_school_shade (1..5 → -2..+2).
+      const prefRow = (item.prefShade || 3) - 3;
+
+      // Walk outward from the preferred row, alternating up/down so adjacent
+      // contemporaries fan symmetrically. Place into the first row that has
+      // enough horizontal clearance from its last occupant.
+      let chosen = prefRow;
+      let found = false;
+      for (let step = 0; step <= MAX_OFFSET_STEPS * 2 && !found; step++) {
+        const candidates = step === 0
+          ? [prefRow]
+          : [prefRow + step, prefRow - step];
+        for (const r of candidates) {
+          if (Math.abs(r) > MAX_OFFSET_STEPS) continue;
+          const last = occupancy.get(r);
+          if (last === undefined || (item.xMid - last) >= MIN_X_GAP) {
+            chosen = r;
+            found = true;
+            break;
+          }
+        }
       }
+      occupancy.set(chosen, item.xMid);
+
+      const y = lane * LANE_H + LANE_H / 2 + chosen * stepPx;
+
+      state.layout.set(item.t.id, {
+        thinker: item.t,
+        x: item.xMid,
+        y,
+        lane,
+        shade: item.prefShade,
+        subRow: chosen,
+        tier: item.tier,
+        barX1: item.x1,
+        barX2: item.x2,
+      });
     }
-    arr.push({ x: xMid });
-    occupancy.set(key, arr);
+  }
 
-    const y = lane * LANE_H + LANE_H / 2 + subOffset + nudge;
-
-    state.layout.set(t.id, {
-      thinker: t, x: xMid, y, lane, shade, tier,
-      barX1: x1, barX2: x2,
-    });
+  // Detect residual tight clusters. Greedy first-fit guarantees no two dots
+  // share both a row and an x within MIN_X_GAP, but a dense century can still
+  // stack 3+ dots into a vertical column whose xMids are within a few pixels.
+  // Those columns get a hover-fan affordance in renderDots().
+  for (const [, items] of byLane) {
+    if (items.length < CLUSTER_MIN_MEMBERS) continue;
+    let i = 0;
+    while (i < items.length) {
+      const groupIds = [items[i].t.id];
+      let j = i + 1;
+      while (j < items.length && (items[j].xMid - items[i].xMid) < CLUSTER_X_THRESHOLD) {
+        groupIds.push(items[j].t.id);
+        j++;
+      }
+      if (groupIds.length >= CLUSTER_MIN_MEMBERS) {
+        state.clusters.push({ ids: groupIds });
+      }
+      i = Math.max(j, i + 1);
+    }
   }
 }
 
@@ -809,8 +885,18 @@ function renderDateBars() {
 // ---------- render: dots -----------
 function renderDots() {
   dotsLayer.innerHTML = "";
-  // for label collision, place above by default; collect bands of placed labels
-  const placedAbove = []; // {y, x1, x2}
+
+  // Map each thinker id to its cluster index (if any). Only used in lanes view —
+  // network view does its own free-form placement and rarely produces stacks.
+  const clusterOf = new Map();
+  if (state.viewMode === "lanes" && Array.isArray(state.clusters)) {
+    state.clusters.forEach((c, idx) => {
+      for (const id of c.ids) clusterOf.set(id, idx);
+    });
+  }
+
+  // For label collision, place above by default; collect bands of placed labels.
+  const placedAbove = [];
   const placedBelow = [];
   for (const [, p] of state.layout) {
     const t = p.thinker;
@@ -828,6 +914,11 @@ function renderDots() {
     dot.dataset.school = t.school_color_token;
     dot.dataset.shade = p.shade;
     dot.dataset.tier = p.tier;
+    const cIdx = clusterOf.get(t.id);
+    if (cIdx !== undefined) {
+      dot.dataset.cluster = String(cIdx);
+      dot.classList.add("thinker-dot--in-cluster");
+    }
     dot.style.left = p.x + "px";
     dot.style.top = p.y + "px";
     dot.style.setProperty("--dot-color", colorFor(t, 2));
@@ -849,6 +940,51 @@ function renderDots() {
     dot.addEventListener("mouseleave", () => onDotHover(t.id, false));
     dotsLayer.appendChild(dot);
   }
+
+  // Cluster hover-fan: on hovering any dot belonging to a cluster, fan the
+  // whole cluster horizontally (alternating ± offsets from the cluster
+  // centroid) so each member is independently clickable. Plays on top of
+  // the greedy sub-row layout — most clusters disappear there, this is a
+  // safety net for the densest periods.
+  state.clusters.forEach((c, idx) => {
+    if (c.ids.length < 2) return;
+    const members = c.ids
+      .map((id) => ({ id, el: dotsLayer.querySelector(`.thinker-dot[data-id="${CSS.escape(id)}"]`) }))
+      .filter((m) => m.el);
+    if (members.length < 2) return;
+    const fanStep = 18;  // px between fanned dots
+    const centerIdx = (members.length - 1) / 2;
+    const enter = () => {
+      dotsLayer.classList.add("has-cluster-fan");
+      members.forEach((m, i) => {
+        const dx = (i - centerIdx) * fanStep;
+        m.el.classList.add("is-fanned");
+        m.el.style.setProperty("--fan-dx", dx + "px");
+      });
+    };
+    const leave = () => {
+      members.forEach((m) => {
+        m.el.classList.remove("is-fanned");
+        m.el.style.removeProperty("--fan-dx");
+      });
+      dotsLayer.classList.remove("has-cluster-fan");
+    };
+    members.forEach((m) => {
+      m.el.addEventListener("mouseenter", enter);
+      m.el.addEventListener("mouseleave", (e) => {
+        // Only collapse when the cursor truly leaves all cluster members.
+        const to = e.relatedTarget;
+        if (to && members.some((mm) => mm.el === to || mm.el.contains(to))) return;
+        leave();
+      });
+      m.el.addEventListener("focus", enter);
+      m.el.addEventListener("blur", (e) => {
+        const to = e.relatedTarget;
+        if (to && members.some((mm) => mm.el === to || mm.el.contains(to))) return;
+        leave();
+      });
+    });
+  });
 }
 
 function onDotHover(id, on) {
@@ -901,6 +1037,7 @@ function renderAll() {
   renderDots();
   renderAxis();
   renderNetworkLegend();
+  ensureResetViewButton();
 }
 
 // Recompute lane order + filter and re-render. Preserves scroll position
@@ -950,12 +1087,22 @@ function wirePanZoom() {
     }
   });
 
-  // wheel: vertical wheel pans Y; shift+wheel pans X; ctrl+wheel zooms
+  // wheel: vertical wheel pans Y; shift+wheel pans X; ctrl+wheel zooms.
+  // Zoom factor is delta-proportional so trackpad pinch (which fires many
+  // small ctrlKey-flagged wheel events) does not accumulate aggressively.
+  // Mouse-wheel ticks (deltaMode=DOM_DELTA_LINE, large discrete steps)
+  // still produce a perceptible zoom but a softer one than before.
   scroller.addEventListener("wheel", (e) => {
     if (e.ctrlKey || e.metaKey) {
       e.preventDefault();
       const oldPpy = state.pxPerYear;
-      const factor = e.deltaY < 0 ? 1.08 : 1/1.08;
+      // Normalize delta. deltaMode=1 (LINE) → multiply; deltaMode=0 (PIXEL,
+      // trackpad pinch) → use raw px. Clamp to keep one tick gentle.
+      const rawDelta = e.deltaMode === 1 ? e.deltaY * 16 : e.deltaY;
+      const clampedDelta = Math.max(-50, Math.min(50, rawDelta));
+      // Sensitivity: ~halved from previous 1.08 per tick. At 50px wheel,
+      // factor ≈ exp(50 * 0.0018) ≈ 1.094; at 4px trackpad nudge, ≈ 1.007.
+      const factor = Math.exp(-clampedDelta * 0.0018);
       const newPpy = Math.max(0.6, Math.min(6, oldPpy * factor));
       if (newPpy === oldPpy) return;
       // anchor zoom on cursor x position
@@ -975,7 +1122,68 @@ function wirePanZoom() {
     // otherwise: native vertical scroll behavior
   }, { passive: false });
 
-  // touch / trackpad two-finger pan handled natively by the browser
+  // Hold-Space → grab cursor + drag-pan everywhere (Figma / Sketch
+  // convention). The existing mousedown path already supports drag-pan on
+  // empty canvas; Space-mode extends it so the user can grab through dots
+  // and edges without accidentally opening a thinker entry.
+  let spaceHeld = false;
+  function setSpaceMode(on) {
+    if (spaceHeld === on) return;
+    spaceHeld = on;
+    document.body.classList.toggle("is-space-pan", on);
+    scroller.style.cursor = on ? "grab" : "";
+  }
+  window.addEventListener("keydown", (e) => {
+    if (e.code === "Space" && !e.repeat && document.activeElement === document.body) {
+      e.preventDefault();
+      setSpaceMode(true);
+    }
+  });
+  window.addEventListener("keyup", (e) => {
+    if (e.code === "Space") setSpaceMode(false);
+  });
+  window.addEventListener("blur", () => setSpaceMode(false));
+
+  // When Space is held, every mousedown becomes a pan-drag (even over dots).
+  scroller.addEventListener("mousedown", (e) => {
+    if (!spaceHeld && e.button !== 1) return; // middle-click also pans
+    isDragging = true;
+    didDrag = false;
+    dragStartX = e.clientX;
+    dragStartY = e.clientY;
+    scrollStartX = scroller.scrollLeft;
+    scrollStartY = scroller.scrollTop;
+    scroller.style.cursor = "grabbing";
+    scroller.style.userSelect = "none";
+    e.preventDefault();
+    e.stopPropagation();
+  }, true);
+}
+
+// ---------- Reset View button (Network mode) -----------
+// Frames the network at default zoom + initial focus year. Visible only in
+// network mode; positioned top-right of the timeline pane.
+function ensureResetViewButton() {
+  let btn = document.getElementById("resetViewBtn");
+  if (!btn) {
+    btn = document.createElement("button");
+    btn.id = "resetViewBtn";
+    btn.className = "reset-view-btn";
+    btn.type = "button";
+    btn.title = "Reset view (frames the network)";
+    btn.setAttribute("aria-label", "Reset view");
+    btn.textContent = "Reset view";
+    btn.addEventListener("click", () => {
+      state.pxPerYear = PX_PER_YEAR_DEFAULT;
+      state.hasInitialScroll = false;
+      computeLayout();
+      renderAll();
+      scrollToInitialFocus();
+    });
+    const pane = document.getElementById("timelinePane");
+    if (pane) pane.appendChild(btn);
+  }
+  btn.hidden = state.viewMode !== "network";
 }
 
 // ---------- unified right-side panel (tabs) -----------
@@ -2289,8 +2497,15 @@ async function selectSourceFile(path) {
 // `# Heading` / `## Subheading` lines so they render as styled headings, but
 // leave content otherwise verbatim. Group consecutive verse lines into <pre>
 // blocks separated by headings so the user can read in chunks.
+//
+// GRETIL Sanskrit files begin with a boilerplate `# Header` block (license,
+// publisher, contribution metadata) before the actual `# Text`. The block
+// is useful for provenance but visually overwhelms the reader landing on
+// the file. We collapse it into a <details> element so the actual text is
+// what the user reads first.
 function renderPlainSourceText(text) {
-  const lines = (text || "").split(/\r?\n/);
+  text = collapseGretilHeader(text || "");
+  const lines = text.split(/\r?\n/);
   const out = [];
   let buf = [];
   const flush = () => {
@@ -2301,6 +2516,12 @@ function renderPlainSourceText(text) {
   };
   for (const raw of lines) {
     const line = raw.replace(/\s+$/, "");
+    if (line === "@@CSV_GRETIL_HEADER_PLACEHOLDER@@") {
+      flush();
+      out.push(_pendingGretilHeaderHtml);
+      _pendingGretilHeaderHtml = "";
+      continue;
+    }
     const m = /^(#{1,4})\s+(.+)$/.exec(line);
     if (m) {
       flush();
@@ -2312,6 +2533,22 @@ function renderPlainSourceText(text) {
   }
   flush();
   return out.join("\n");
+}
+
+let _pendingGretilHeaderHtml = "";
+function collapseGretilHeader(text) {
+  // Match the GRETIL `# Header` block: starts with `# Header` (anywhere in
+  // first 400 chars) and ends right before the next top-level `# ` heading.
+  const headIdx = text.search(/(^|\n)# Header\s*\n/);
+  if (headIdx < 0 || headIdx > 600) return text;
+  // Find the end: the next `\n# ` (a top-level heading other than this one).
+  const after = text.indexOf("\n# ", headIdx + 8);
+  if (after < 0) return text;
+  const block = text.slice(headIdx, after).replace(/^\n/, "");
+  const before = text.slice(0, headIdx);
+  const remainder = text.slice(after + 1); // keep the leading `# ` for the next heading
+  _pendingGretilHeaderHtml = `<details class="csv-gretil-header"><summary>GRETIL provenance &amp; license metadata</summary><pre class="csv-block">${escape(block)}</pre></details>`;
+  return before + "@@CSV_GRETIL_HEADER_PLACEHOLDER@@\n" + remainder;
 }
 
 function guessSourceFileForCitation(thinkerId, workId) {
@@ -2506,37 +2743,105 @@ if (networkLegendToggleEl) {
 const filterBtn = document.getElementById("filterBtn");
 const filterDrawer = document.getElementById("filterDrawer");
 const filterChipsEl = document.getElementById("filterChips");
+const filterSoloPill = document.getElementById("filterSoloPill");
+
+// All toggleable lane keys (Vedānta schools + the comparator group).
+function allLaneKeys() {
+  const keys = [];
+  for (const tok of LANE_ORDER) {
+    if (VEDANTA_LANES.has(tok)) keys.push(tok);
+  }
+  keys.push(COMPARATOR_GROUP_KEY);
+  return keys;
+}
+
+function laneDisplayLabel(key) {
+  if (key === COMPARATOR_GROUP_KEY) return COMPARATOR_GROUP_LABEL;
+  return state.schools[key]?.display_name || LANE_DISPLAY[key] || key;
+}
+
+// "Solo" = exactly one lane is currently visible. Returns its key, or null.
+function currentSoloKey() {
+  if (state.visibleLanes.size !== 1) return null;
+  const [only] = state.visibleLanes;
+  return only;
+}
+
+function updateSoloIndicator() {
+  if (!filterSoloPill) return;
+  const solo = currentSoloKey();
+  if (solo) {
+    filterSoloPill.hidden = false;
+    filterSoloPill.textContent = `Solo: ${laneDisplayLabel(solo)}`;
+    filterSoloPill.setAttribute("aria-label", `Showing only ${laneDisplayLabel(solo)}. Click to show all.`);
+  } else {
+    filterSoloPill.hidden = true;
+    filterSoloPill.textContent = "";
+  }
+}
 
 function renderFilterChips() {
   if (!filterChipsEl) return;
   filterChipsEl.innerHTML = "";
 
-  // Preset row.
+  // Preset row (named presets).
   const presets = document.createElement("div");
   presets.className = "filter-chip-row";
   presets.innerHTML = `
-    <button class="filter-chip filter-chip--preset" data-preset="vedanta">Vedānta only</button>
-    <button class="filter-chip filter-chip--preset" data-preset="all">All schools</button>
-    <button class="filter-chip filter-chip--preset" data-preset="comparators">Comparators only</button>
+    <button class="filter-chip filter-chip--preset" data-preset="vedanta" type="button">Vedānta only</button>
+    <button class="filter-chip filter-chip--preset" data-preset="all" type="button">All schools</button>
+    <button class="filter-chip filter-chip--preset" data-preset="comparators" type="button">Comparators only</button>
   `;
   filterChipsEl.appendChild(presets);
 
-  // Per-school chips.
+  // Bulk-action row (deselect/select all). Plain text-buttons, no chip swatches.
+  const bulkRow = document.createElement("div");
+  bulkRow.className = "filter-chip-row filter-bulk-row";
+  bulkRow.innerHTML = `
+    <button class="filter-bulk-btn" data-bulk="none" type="button">Deselect all</button>
+    <button class="filter-bulk-btn" data-bulk="all" type="button">Select all</button>
+  `;
+  filterChipsEl.appendChild(bulkRow);
+
+  // Per-school chips: each chip has a main toggle and a small "solo" affordance.
   const chipsRow = document.createElement("div");
   chipsRow.className = "filter-chip-row";
   const makeChip = (key, label, color) => {
     const on = state.visibleLanes.has(key);
+    const wrap = document.createElement("span");
+    wrap.className = "filter-chip-wrap" + (on ? " is-on" : "");
+
     const btn = document.createElement("button");
     btn.className = "filter-chip" + (on ? " is-on" : "");
     btn.dataset.lane = key;
+    btn.type = "button";
     btn.style.setProperty("--chip-color", color);
     btn.innerHTML = `<span class="chip-swatch"></span>${escape(label)}`;
-    btn.addEventListener("click", () => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
       if (state.visibleLanes.has(key)) state.visibleLanes.delete(key);
       else state.visibleLanes.add(key);
       rerender();
     });
-    return btn;
+
+    const solo = document.createElement("button");
+    solo.className = "filter-chip-solo";
+    solo.type = "button";
+    solo.dataset.solo = key;
+    solo.setAttribute("aria-label", `Show only ${label}`);
+    solo.title = `Show only ${label}`;
+    solo.textContent = "solo";
+    solo.addEventListener("click", (e) => {
+      e.stopPropagation();
+      state.visibleLanes.clear();
+      state.visibleLanes.add(key);
+      if (key === COMPARATOR_GROUP_KEY) state.comparatorExpanded = true;
+      rerender();
+    });
+
+    wrap.appendChild(btn);
+    wrap.appendChild(solo);
+    return wrap;
   };
   for (const tok of LANE_ORDER) {
     if (!VEDANTA_LANES.has(tok)) continue;
@@ -2549,7 +2854,8 @@ function renderFilterChips() {
 
   // Wire presets.
   filterChipsEl.querySelectorAll("[data-preset]").forEach((btn) => {
-    btn.addEventListener("click", () => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
       const p = btn.dataset.preset;
       state.visibleLanes.clear();
       if (p === "vedanta") {
@@ -2564,21 +2870,67 @@ function renderFilterChips() {
       rerender();
     });
   });
+
+  // Wire bulk actions.
+  filterChipsEl.querySelectorAll("[data-bulk]").forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const action = btn.dataset.bulk;
+      state.visibleLanes.clear();
+      if (action === "all") {
+        for (const k of allLaneKeys()) state.visibleLanes.add(k);
+      }
+      rerender();
+    });
+  });
+
+  updateSoloIndicator();
+}
+
+function closeFilterDrawer() {
+  if (!filterDrawer) return;
+  filterDrawer.classList.remove("is-open");
+  filterDrawer.setAttribute("aria-hidden", "true");
+  if (filterBtn) filterBtn.classList.remove("is-active");
 }
 
 if (filterBtn) {
-  filterBtn.addEventListener("click", () => {
+  filterBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
     const open = filterDrawer.classList.toggle("is-open");
     filterDrawer.setAttribute("aria-hidden", open ? "false" : "true");
     filterBtn.classList.toggle("is-active", open);
   });
-  // Close drawer on outside click.
+  // Stop drawer-internal clicks from bubbling to the document handler. This is
+  // load-bearing: chip clicks call rerender(), which rebuilds the chip DOM.
+  // By the time the bubbling click reaches `document`, e.target is detached
+  // and `filterDrawer.contains(e.target)` is false, so the outside-click
+  // branch would otherwise (incorrectly) close the drawer.
+  if (filterDrawer) {
+    filterDrawer.addEventListener("click", (e) => { e.stopPropagation(); });
+  }
+  // Close drawer on outside click only.
   document.addEventListener("click", (e) => {
     if (!filterDrawer.classList.contains("is-open")) return;
     if (filterDrawer.contains(e.target) || filterBtn.contains(e.target)) return;
-    filterDrawer.classList.remove("is-open");
-    filterDrawer.setAttribute("aria-hidden", "true");
-    filterBtn.classList.remove("is-active");
+    closeFilterDrawer();
+  });
+  // Close on Esc.
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape") return;
+    if (!filterDrawer.classList.contains("is-open")) return;
+    closeFilterDrawer();
+  });
+}
+
+// Clicking the solo pill restores the full default selection.
+if (filterSoloPill) {
+  filterSoloPill.addEventListener("click", (e) => {
+    e.stopPropagation();
+    state.visibleLanes.clear();
+    for (const t of VEDANTA_LANES) state.visibleLanes.add(t);
+    state.visibleLanes.add(COMPARATOR_GROUP_KEY);
+    rerender();
   });
 }
 
@@ -2867,6 +3219,74 @@ window.addEventListener("resize", () => {
   }, 120);
 });
 
+// ---------- detail-pane resize handle -----------
+// Lets the user drag the left edge of the right-side panel to widen or
+// narrow it. The chosen width persists across reloads via localStorage.
+// Bounds: [360, viewport - 320 minimum canvas]. The CSS grid template
+// falls back to the original clamp when no width is set.
+function wireDetailPaneResize() {
+  if (!detailPane) return;
+  let handle = detailPane.querySelector(".dp-resize-handle");
+  if (!handle) {
+    handle = document.createElement("div");
+    handle.className = "dp-resize-handle";
+    handle.setAttribute("role", "separator");
+    handle.setAttribute("aria-orientation", "vertical");
+    handle.setAttribute("aria-label", "Resize panel");
+    handle.tabIndex = -1;
+    detailPane.insertBefore(handle, detailPane.firstChild);
+  }
+
+  function applyWidth(px) {
+    const vw = window.innerWidth;
+    const min = 360;
+    const max = Math.max(min, vw - 320);
+    const clamped = Math.min(max, Math.max(min, px));
+    document.body.style.setProperty("--pane-w-detail", clamped + "px");
+    return clamped;
+  }
+
+  try {
+    const saved = parseFloat(localStorage.getItem("dp-width-px"));
+    if (Number.isFinite(saved) && saved > 0) applyWidth(saved);
+  } catch (_) {}
+
+  let dragging = false;
+  let startX = 0;
+  let startW = 0;
+  handle.addEventListener("pointerdown", (e) => {
+    dragging = true;
+    startX = e.clientX;
+    startW = detailPane.getBoundingClientRect().width;
+    try { handle.setPointerCapture(e.pointerId); } catch (_) {}
+    handle.classList.add("is-dragging");
+    document.body.classList.add("is-resizing-pane");
+    e.preventDefault();
+  });
+  handle.addEventListener("pointermove", (e) => {
+    if (!dragging) return;
+    // Pane grows to the LEFT as the handle moves left.
+    const dx = startX - e.clientX;
+    applyWidth(startW + dx);
+  });
+  const endDrag = (e) => {
+    if (!dragging) return;
+    dragging = false;
+    handle.classList.remove("is-dragging");
+    document.body.classList.remove("is-resizing-pane");
+    try { handle.releasePointerCapture(e.pointerId); } catch (_) {}
+    const w = detailPane.getBoundingClientRect().width;
+    try { localStorage.setItem("dp-width-px", String(Math.round(w))); } catch (_) {}
+  };
+  handle.addEventListener("pointerup", endDrag);
+  handle.addEventListener("pointercancel", endDrag);
+
+  window.addEventListener("resize", () => {
+    const cur = parseFloat(getComputedStyle(detailPane).width);
+    if (Number.isFinite(cur)) applyWidth(cur);
+  });
+}
+
 // ---------- boot -----------
 loadAll().then(() => {
   refreshLayoutConstants();
@@ -2874,4 +3294,5 @@ loadAll().then(() => {
   _lastRailW = LANE_RAIL_W;
   wirePanZoom();
   wireViewToggle();
+  wireDetailPaneResize();
 });

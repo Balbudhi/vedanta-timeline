@@ -1,0 +1,52 @@
+{
+  "id": "freud",
+  "name": "Sigmund Freud",
+  "name_iast": "Sigmund Freud",
+  "dates_low": 1856,
+  "dates_high": 1939,
+  "school": "Psychoanalysis",
+  "school_color_token": "cross-tradition",
+  "summary": "Sigmund Freud is represented here by a minimal backlog stub so routed on-disk source texts can surface in the Source tab pending fuller review.",
+  "engaged_works": [
+    {
+      "work_id": "freud1919traumdeutung5tek",
+      "title": "Freud1919Traumdeutung5Tek",
+      "title_iast": "Freud1919Traumdeutung5Tek",
+      "language": "german",
+      "source_status": "clean-on-disk",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Routed from the 2026-05-10 Tier-1 publication backlog as an on-disk source witness.",
+      "genre": "monograph",
+      "summary": "This on-disk text is being wired into the Source tab as a citation witness for Sigmund Freud, Freud1919Traumdeutung5Tek. The entry is intentionally minimal: it records the routed file and basic bibliographic shape so the site can surface the source while fuller review waits. A later pass should tighten the title, edition, and passage coverage against the on-disk witness.",
+      "entry_status": "wired-on-disk",
+      "key_passage_ids": []
+    },
+    {
+      "work_id": "b3136696x",
+      "title": "The Interpretation of Dreams",
+      "title_iast": "The Interpretation of Dreams",
+      "language": "german",
+      "source_status": "clean-on-disk",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Routed from the 2026-05-10 Tier-1 publication backlog as an on-disk source witness.",
+      "genre": "monograph",
+      "summary": "This on-disk text is being wired into the Source tab as a citation witness for Sigmund Freud, The Interpretation of Dreams. The entry is intentionally minimal: it records the routed file and basic bibliographic shape so the site can surface the source while fuller review waits. A later pass should tighten the title, edition, and passage coverage against the on-disk witness.",
+      "entry_status": "wired-on-disk",
+      "key_passage_ids": []
+    },
+    {
+      "work_id": "freud-1900-die-traumdeutung-k",
+      "title": "Freud 1900 Die Traumdeutung K",
+      "title_iast": "Freud 1900 Die Traumdeutung K",
+      "language": "german",
+      "source_status": "clean-on-disk",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Routed from the 2026-05-10 Tier-1 publication backlog as an on-disk source witness.",
+      "genre": "monograph",
+      "summary": "This on-disk text is being wired into the Source tab as a citation witness for Sigmund Freud, Freud 1900 Die Traumdeutung K. The entry is intentionally minimal: it records the routed file and basic bibliographic shape so the site can surface the source while fuller review waits. A later pass should tighten the title, edition, and passage coverage against the on-disk witness.",
+      "entry_status": "wired-on-disk",
+      "key_passage_ids": []
+    }
+  ],
+  "entry_status": "stub-from-backlog"
+}
