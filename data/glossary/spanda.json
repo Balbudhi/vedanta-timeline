@@ -2,16 +2,39 @@
   "term_key": "spanda",
   "term_iast": "spanda",
   "term_devanagari": "स्पन्द",
-  "literal": "vibration, throb, subtle pulsation; from √spand 'to throb'",
-  "aliases": ["spanda", "Spanda", "spandaḥ", "spanda-tattva"],
-  "invariant_definition": "Vibration — Trika's term for the constitutive pulsation of Śiva-consciousness, the dynamic aspect of the unified *prakāśa-vimarśa*. *Spanda* is the metaphysical principle that the supreme is not static but constitutively pulsating; the world is the rhythm of this pulsation. Vasugupta's *Spanda-Kārikā* (or his disciple Kallaṭa's; the authorship is disputed) is the foundational text. The *spanda*-doctrine is what allows Trika to be a non-dualism without being a static-monism.",
+  "literal": "throb, pulsation, subtle quiver",
+  "aliases": [
+    "spanda",
+    "Spanda",
+    "spandaḥ",
+    "spanda-tattva"
+  ],
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "A central Kashmir Śaiva term for the intrinsic pulsation of consciousness. *Spanda* does not mean gross physical vibration. It names the fact that ultimate consciousness is not inert self-presence but living self-articulation: a throb of manifestation, withdrawal, recognition, and agency within one awareness. The term therefore sits between ontology and practice. Metaphysically, it protects non-dualism from collapsing into static monism by insisting that the real is intrinsically dynamic. Practically, it gives a way to interpret experience, breath, attention, and moments of intensified awareness as expressions of the same divine pulsation. The concept is closely linked to *svātantrya*, *vimarśa*, *unmeṣa*, and *pratyabhijñā*: sovereign freedom manifests as pulsation, and liberation is the recognition of one's own awareness as that pulsation. Translating *spanda* merely as vibration is often too mechanical unless the reader is told that the doctrine concerns consciousness before it concerns motion.",
   "per_school": [
     {
-      "school": "Trika / Kashmir Śaivism",
-      "definition": "*Spanda* is the subtle vibration that is Śiva-Śakti's constitutive activity. Distinguished from gross motion (which is in time) — *spanda* is timeless yet dynamic, the rhythm of the eternal. Recognition of one's own consciousness as *spanda* is one mode of *pratyabhijñā*.",
-      "primary_loci": ["Spanda-Kārikā 1.1–5", "Spanda-Nirṇaya (Kṣemarāja)", "Tantrāloka 4"]
+      "school": "Spanda school",
+      "definition": "In the *Spanda-Kārikā* tradition, *spanda* is the subtle and constant liveliness of consciousness that remains present even when mental states contract or expand. It is not temporal movement from one place to another, but the ever-operative capacity of awareness to manifest, withdraw, remember, intend, and know. Practice consists in discerning that subtle throb beneath changing cognitive states.",
+      "primary_loci": [
+        "Spanda-Kārikā 1.1-5",
+        "Spanda-Nirṇaya ad Spanda-Kārikā 1.1"
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika integration",
+      "definition": "Later Trika authors integrate *spanda* into the broader non-dual system by reading it as the experiential face of Śiva's *svātantrya* and *vimarśa*. What the Spanda school highlights as pulsation, the Pratyabhijñā school articulates as self-recognition and sovereign freedom. The doctrines are not competitors but different analytic entrances into the same Śaiva account of consciousness.",
+      "primary_loci": [
+        "Tantrāloka 4",
+        "Pratyabhijñā-Hṛdaya 18-19"
+      ]
     }
   ],
-  "see_also": ["svatantrya", "pratyabhijna", "sakti", "trika"],
-  "translator_note": "'Vibration' or 'pulsation' acceptable. Western readers should not import Bergson's *durée* (although there is structural resemblance) — *spanda* is metaphysical-cosmological, not phenomenological-temporal."
+  "see_also": [
+    "svatantrya",
+    "pratyabhijna",
+    "sakti",
+    "siva"
+  ],
+  "translator_note": "\"Pulsation\" is often better than \"vibration,\" and both need explanation. The lazy English gloss suggests a physical oscillation in space. The Sanskrit term instead names the self-articulating dynamism of consciousness itself."
 }

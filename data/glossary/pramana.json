@@ -2,7 +2,7 @@
   "term_key": "pramana",
   "term_iast": "pramāṇa",
   "term_devanagari": "प्रमाण",
-  "literal": "instrument of knowing; from *pra-* + √*mā* 'to measure, ascertain' + *-ana*",
+  "literal": "instrument of knowing; from prefix *pra*, root √*mā* 'to measure, ascertain', and suffix *-ana*",
   "aliases": ["pramana", "pramāṇa", "Pramāṇa", "pramāṇasya", "pramāṇāni", "pramāṇāt", "pramane"],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
@@ -40,5 +40,5 @@
     }
   ],
   "see_also": ["pratyaksa", "anumana", "sabda", "pramana-dvaya", "anubhava", "jnana"],
-  "translator_note": "Lazy glosses to avoid: 'proof', 'evidence', and 'source of knowledge'. 'Proof' imports a narrowly formal or mathematical model; 'evidence' imports a post-Lockean evidentialist psychology; 'source of knowledge' is too vague to show the *karaṇa*-function. A *pramāṇa* is the causally efficacious means by which a cognition becomes *pramā* within a larger knower-means-object-result structure."
+  "translator_note": "Lazy glosses to avoid: 'proof', 'evidence', and 'source of knowledge'. 'Proof' imports a narrowly formal or mathematical model; 'evidence' imports a post-Lockean evidentialist psychology; 'source of knowledge' is too vague to show the *karaṇa* function. A *pramāṇa* is the causally efficacious means by which a cognition becomes *pramā* within a larger knower-means-object-result structure."
 }

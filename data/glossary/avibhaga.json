@@ -2,16 +2,33 @@
   "term_key": "avibhaga",
   "term_iast": "avibhāga",
   "term_devanagari": "अविभाग",
-  "literal": "non-division, undividedness; a- + vibhāga",
+  "literal": "non-division, non-separation, undividedness",
   "aliases": ["avibhaga", "avibhāga", "Avibhāga", "avibhāga-darśana"],
-  "invariant_definition": "Non-division. In Vijñānabhikṣu's distinctive Vedānta-Sāṅkhya synthesis (*avibhāga-advaita* / *avibhāga-darśana*), the *jīva* and *brahman* are in a state of *avibhāga* — non-division — in *mokṣa*: not numerical identity (against Advaita) and not absolute distinction (against Dvaita) but undividedness analogous to the relation between water and water. Vijñānabhikṣu's position is a 16th-century synthesis attempting to reconcile Sāṅkhya, Yoga, and Vedānta.",
+  "invariant_definition": "*Avibhāga* means non-division or non-separation, but the philosophical force of the term depends on what kind of non-separation is at issue. The decisive Vedāntic locus is *Brahma-Sūtra* 4.4.4, *avibhāgena dṛṣṭatvāt*, where commentators debate how the liberated self stands to *brahman*. The term therefore sits beside *abheda*, *tādātmya*, *aprthak-siddhi*, *sāyujya*, and communion-language without being reducible to any one of them. In some uses *avibhāga* means numerical identity; in others, inseparable relation without collapse; in still others, an undivided state that remains short of absolute identity. The word matters precisely because it names a shared scriptural pressure-point across sharply different metaphysical systems. Translating it simply as 'identity' therefore prejudges the debate.",
   "per_school": [
     {
+      "school": "Advaita",
+      "definition": "At liberation the apparent division between *jīva* and *brahman* is sublated, and *avibhāga* is read as non-difference in the strongest sense. The *jīva* was never really separate; separation belonged to *avidyā* and its *upādhi*s. The sūtra is therefore taken to confirm identity, not mere nearness or communion.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 4.4.4", "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 4.4.6", "Chāndogya-Upaniṣad-Bhāṣya 6.8.7"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Avibhāga* does not mean collapse of the self into *brahman*. The liberated self remains distinct yet inseparable from the Lord, as a mode is inseparable from the substantive whole. The term therefore names intimate non-separation under *aprthak-siddhi*, not identity in Advaita's sense.",
+      "primary_loci": ["Śrī-Bhāṣya 4.4.4", "Vedārtha-Saṅgraha §§241–248 [NOT YET RETRIEVED]", "Bhagavad-Gītā 15.7"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "Dvaita rejects any reading of *avibhāga* that would erase the eternal distinction between Viṣṇu and the *jīva*. The liberated soul enjoys unobstructed presence, knowledge, and dependence, but never identity. The term is therefore constrained to mean non-separation in experience or relation, not ontological collapse.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 4.4.4", "Anu-Vyākhyāna 4.4.4 [NOT YET RETRIEVED]", "Tattva-Viveka [NOT YET RETRIEVED]"]
+    },
+    {
       "school": "Vijñānabhikṣu's Vedānta",
-      "definition": "*Avibhāga* in *mokṣa* — the *jīva* and *brahman* are in undivided union, not numerically identical. Vijñānabhikṣu's *Vijñāna-Amṛta* and *Sāṅkhya-Pravacana-Bhāṣya* develop the position.",
-      "primary_loci": ["Vijñāna-Amṛta-Bhāṣya on Brahma-Sūtra", "Sāṅkhya-Pravacana-Bhāṣya"]
+      "definition": "Vijñānabhikṣu turns *avibhāga* into a positive doctrinal label. Liberation is an undivided union of *jīva* and *brahman* that is neither sheer identity nor sheer difference. This lets him occupy a mediating space between Advaita and stronger difference-theories while coordinating Vedānta with Sāṅkhya-Yoga concerns.",
+      "primary_loci": ["Vijñānamṛta-Bhāṣya on Brahma-Sūtra 4.4.4", "Sāṅkhya-Pravacana-Bhāṣya 6.59 [NOT YET RETRIEVED]"]
     }
   ],
   "see_also": ["vijnanabhiksu", "bhedabheda", "samkhya"],
-  "translator_note": "'Undividedness' or 'non-division' acceptable. Vijñānabhikṣu's position is a distinct technical synthesis often misclassified in surveys."
+  "translator_note": "The lazy gloss is 'identity' or 'indistinguishability.' Both are too strong in many contexts. *Avibhāga* marks non-division, but the schools fight over whether that means absolute identity, inseparability, or undivided union without collapse. The English should therefore not settle the issue in advance.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

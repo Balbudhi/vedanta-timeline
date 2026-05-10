@@ -2,16 +2,38 @@
   "term_key": "pratyabhijna",
   "term_iast": "pratyabhijñā",
   "term_devanagari": "प्रत्यभिज्ञा",
-  "literal": "recognition (literally: knowing-toward-back); prati- + abhi- + √jñā",
-  "aliases": ["pratyabhijna", "pratyabhijñā", "Pratyabhijñā", "pratyabhijñānam"],
-  "invariant_definition": "Recognition — Trika's central term for the liberating cognition: the recognition that one *was already* Śiva. Distinguished from Advaita's *brahma-jñāna* in two ways: (a) it is *recognition* (*re*-cognition) of what was always already the case, foregrounding the temporal-existential structure of liberation; (b) it preserves the active-subjectivity character (*ahaṃ*-vimarśa) of the realized state, against Advaita's witness-only structure. Utpaladeva's *Īśvara-Pratyabhijñā-Kārikā* is the school-defining text; Abhinavagupta's *Vimarśinī* and *Vivṛti-Vimarśinī* the principal commentaries.",
+  "literal": "recognition; knowing again as the very same",
+  "aliases": [
+    "pratyabhijna",
+    "pratyabhijñā",
+    "Pratyabhijñā",
+    "pratyabhijñānam"
+  ],
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "Recognition, in ordinary Sanskrit epistemic usage, is the cognition \"this is that very one\" formed through the conjunction of present awareness and prior trace. Kashmir Śaivism radicalizes that familiar structure into its central soteriological concept. Liberation is not the production of a new object nor the arrival of consciousness at something external to itself; it is the recognition that the finite knower was always Śiva. The term therefore sits on technical scaffolding supplied by ordinary theories of recognition, memory, and self-awareness. Its force in Trika lies in the claim that the self's contraction is a condition of non-recognition, not a loss of its real nature. Because of that, *pratyabhijñā* also resists overly impersonal descriptions of liberation: what is recovered is not blank witnesshood alone but the self-aware, agentive, and expressive \"I\" of consciousness in its unrestricted form. The term is thus more exact than the simple gloss \"realization.\"",
   "per_school": [
     {
-      "school": "Trika / Pratyabhijñā",
-      "definition": "*Pratyabhijñā* is the liberating cognitive event. Utpaladeva's analogy: a girl who has heard of her future husband's qualities and then meets him — the recognition unifies the previously-separate cognitions. The *jīva* recognizes himself as Śiva; the recognition is not the production of a new fact but the unveiling of an old one.",
-      "primary_loci": ["Īśvara-Pratyabhijñā-Kārikā 1.1.1–5", "Pratyabhijñā-Hṛdaya, sūtras 1–20", "Tantrāloka 1"]
+      "school": "Epistemic background",
+      "definition": "In ordinary philosophical usage, *pratyabhijñā* is recognition-cognition: the judgment that a presently encountered object is identical with one encountered before. That background matters because the Trika school deliberately lifts this familiar structure into metaphysics. The model is not acquisition of a new datum, but the re-cognition of what was already there but unacknowledged.",
+      "primary_loci": [
+        "[NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "Utpaladeva and Abhinavagupta make *pratyabhijñā* the name of liberating knowledge. The finite subject recognizes itself as the very Śiva whose freedom, power, and consciousness seemed elsewhere located. This recognition is not mere memory, yet memory-structure helps explain it: one and the same consciousness is first dimly known under contraction and then explicitly known as unrestricted. The school uses that model to distinguish its path from both ritualism alone and from a purely witness-centered non-dualism.",
+      "primary_loci": [
+        "Īśvara-Pratyabhijñā-Kārikā 1.1.1-5",
+        "Pratyabhijñā-Hṛdaya 1-3"
+      ]
     }
   ],
-  "see_also": ["svatantrya", "spanda", "siva", "abhinavagupta", "trika"],
-  "translator_note": "'Recognition' is the standard gloss and is correct. The temporal-recognitive structure (*re*-cognition) is essential and absent from Advaita's structurally atemporal *brahma-jñāna*."
+  "see_also": [
+    "spanda",
+    "svatantrya",
+    "siva",
+    "sakti"
+  ],
+  "translator_note": "\"Recognition\" is better than the generic \"realization,\" but even \"recognition\" needs explanation. The English can sound merely psychological or mnemonic. In Trika the term marks a technical theory of liberation built on identity, memory-structure, and self-awareness."
 }
