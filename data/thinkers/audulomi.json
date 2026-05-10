@@ -28,6 +28,7 @@
       "ascription_notes": "No work survives; positions are reconstructed solely from Brahma-Sūtra references (1.4.21; 4.4.6).",
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Two sūtra-loci preserve Auḍulomi's view; both are short and grammatically pointed. At Brahma-Sūtra 4.4.6 — *caitanyena ātmanā iti auḍulomiḥ* — the construction is doubly instrumental and reads, with the predicative-instrumental supplied: 'as a self whose mode is consciousness, says Auḍulomi.' The claim is that at liberation the *ātman* manifests under the description *caitanya* alone; the embodied attributes that individuate the bound *jīva* are *upādhi*-conditions, not constituents of selfhood. The tight grammar makes the position unmistakable even in the absence of surrounding argument: liberation is not the addition of new properties but the standing-forth of the self in its essential mode. At Brahma-Sūtra 1.4.21, Auḍulomi appears as the second voice in the *jīva-Brahman* triad, between Āśmarathya's *bhedābheda*-leaning manifestation thesis and Kāśakṛtsna's identity-thesis. Śaṅkara reads the trio as ascending toward the strict non-difference reading; modern philology (Nakamura, *A History of Early Vedānta Philosophy*, vol. I, 1949) reads it as a genuine doxographic record of three distinct pre-Bādarāyaṇa positions, with Auḍulomi occupying the *mokṣa*-state non-difference position specifically. Bādarāyaṇa adjudicates at 4.4.7 (*evam apy upanyāsāt pūrvabhāvād avirodham bādarāyaṇaḥ*) by allowing both Jaimini's powers-description and Auḍulomi's bare-consciousness description as scripturally warranted under different aspects. The position firmly attributable to Auḍulomi is therefore the *svarūpa*-as-consciousness thesis; the further claim that this entails strict numerical identity with Brahman is Śaṅkara's reading, not Auḍulomi's preserved words.",
       "key_passage_ids": [],
       "entry_status": "draft"
@@ -37,8 +38,8 @@
   "comparative_claim_ids": [],
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-secondary-citation-audit-opus",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus",
   "polemic_chain_ids": [
     "brahma-sutra-bhasya-samkhya-refutation"
   ]

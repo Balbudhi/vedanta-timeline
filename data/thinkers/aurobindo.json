@@ -152,6 +152,7 @@
       ],
       "genre": "upanisad-bhashya",
       "language": "english",
+      "source_status": "english-original",
       "summary": "An English commentary on the eighteen-verse *Īśa Upaniṣad*. The opening hemistich — *īśāvāsyam idaṃ sarvaṃ yat kiñca jagatyāṃ jagat* — is read, against Śaṅkara, as a positive ontological claim that the manifest is to be *enveloped* by the Divine, not negated as unreal (Aurobindo, *Isha Upanishad*, comm. on verse 1). The famous antinomies of the text — *vidyā* and *avidyā* (verses 9–11), *sambhūti* and *asambhūti* (verses 12–14), action and renunciation (verses 1–2) — are read as complementary poles to be held together rather than as alternatives one of which is to be sublated (Aurobindo, *Isha Upanishad*, comm. on verses 9–14, with the analytical 'Conclusion' section). The commentary is short but is treated within the school as the methodological exemplar for Aurobindo's exegesis: a Sanskrit *bhāṣya*-style line-by-line treatment, conducted in English, which fixes the integral reading against the strictly *advaita-vāda* alternative (Aurobindo, *Isha Upanishad*, 'Analysis' and 'Conclusion'). It functions as a hinge text between *The Secret of the Veda* and the systematic exposition in *The Life Divine*.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -174,6 +175,7 @@
       ],
       "genre": "upanisad-bhashya",
       "language": "english",
+      "source_status": "english-original",
       "summary": "An English commentary on the *Kena Upaniṣad*'s four *khaṇḍas*. The text's central question — *kena iṣitam patati preṣitaṃ manaḥ* (by whom impelled does the mind alight?) — is taken as the prototype Upaniṣadic move: the determinable is referred back to a determining principle that is not itself an object of the senses or the mind (Aurobindo, *Kena Upanishad*, comm. on Kena 1.1; first *khaṇḍa* analysis). Aurobindo's reading, against the standard Advaitin one, takes the second-half allegory of Brahman appearing to Indra, Agni, and Vāyu (Kena 3.1–4.3) not as a parable of negation (the gods cannot grasp Brahman; therefore Brahman is beyond) but as a parable of *recognition* (the gods come to know that whatever power they have is Brahman's) (Aurobindo, *Kena Upanishad*, comm. on third and fourth *khaṇḍas*). The shift is small but consequential. It licenses the integral reading of the gods as real psychological powers participating in the Divine, rather than as figures whose reality is to be cancelled in the move to *nirguṇa* Brahman.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -196,6 +198,7 @@
       ],
       "genre": "upanisad-bhashya",
       "language": "english",
+      "source_status": "english-original",
       "summary": "Translations and short commentarial notes on the Īśa, Kena, Kaṭha, Muṇḍaka, Praśna, Māṇḍūkya, Aitareya, and Taittirīya Upaniṣads, gathered across the Arya years and after (collected in the CWSA *Kena and Other Upanishads* and *Isha Upanishad* volumes). The translations are distinguished by their philological literalism — Aurobindo refuses to smooth Upaniṣadic compression into modern English fluency where the compression is doctrinally load-bearing — and by his use of psychological glosses for the standard cosmological vocabulary (cf. the prefaces to the Kaṭha and Muṇḍaka translations). The collection matters for Pūrṇa-Advaita's exegetical practice: it shows how the integral reading is to be applied across the principal Upaniṣadic corpus, not just at the metaphysical apex (*Īśa Upaniṣad* commentary) or the apophatic apex (notes on *Māṇḍūkya* 1.1–7) but through the cosmological middle (*Aitareya Upaniṣad* 1.1–3 translation; *Taittirīya Upaniṣad* II.1–8 'Brahmānanda-Vallī' translation) and the ethical-pedagogical material (*Praśna Upaniṣad* 1–6 translation).",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -218,6 +221,7 @@
       ],
       "genre": "prakarana",
       "language": "english",
+      "source_status": "english-original",
       "summary": "An English blank-verse epic of approximately 24,000 lines, taking the *Mahābhārata* episode of Sāvitrī and Satyavān (Vana-Parvan 277–283) as its narrative armature. The epic is, doctrinally, the imaginative companion to *The Life Divine*: the same metaphysics is recapitulated in the registers of vision, descent, and trial (*Savitri* Book I 'The Book of Beginnings'; Book II 'The Book of the Traveller of the Worlds'). The work is best treated as a *prakaraṇa* in verse rather than as a *kāvya* in the *alaṃkāra*-śāstra sense, because the doctrinal content drives the structure: each book corresponds to a stratum of the descending-ascending series (*Savitri* Book II.10 'The Kingdoms and Godheads of the Little Mind'; II.13 'In the Self of Mind'; II.14 'The World-Soul'; II.15 'The Kingdoms of the Greater Knowledge'; Book III 'The Book of the Divine Mother') and stages the corresponding crisis (*Savitri* Book VII 'The Book of Yoga'; Book IX 'The Book of Eternal Night'; Book X 'The Book of the Double Twilight'). *Savitri*'s status within the school is unusual. It is not treated as authoritative on contested doctrinal points where the prose works are dispositive, but it is treated as the canonical site for the imaginative-experiential register that Aurobindo holds to be inseparable from full Vedāntic understanding (*Savitri* Book XI 'The Book of Everlasting Day'). It is included here because no inventory of his Vedāntic engagement is complete without it.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -227,6 +231,6 @@
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-corpus-v2-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-batch4-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus"
 }
