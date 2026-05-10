@@ -413,37 +413,59 @@ body.is-space-pan .timeline-scroller * { cursor: grab !important; }
   opacity: 0.35;
 }
 
-/* labels */
+/* labels — also a click target so users can select a thinker by tapping the
+   name tag, not just the small dot. Implemented as a <button> so it gets
+   native keyboard / a11y semantics. */
 .thinker-dot .label {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   white-space: nowrap;
-  pointer-events: none;
   text-align: center;
+  cursor: pointer;
+  /* Reset button defaults so it visually matches the old label. */
+  background: transparent;
+  border: 0;
+  padding: 3px 4px;        /* generous hit area around the text */
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  line-height: 1.1;
+  border-radius: 3px;
+  transition: background-color 140ms ease;
 }
-.thinker-dot.label-above .label { bottom: 12px; }
-.thinker-dot.label-below .label { top: 12px; }
+.thinker-dot .label:hover {
+  background: rgba(0,0,0,0.04);
+}
+.thinker-dot .label:focus-visible {
+  outline: 2px solid var(--dot-color);
+  outline-offset: 1px;
+}
+.thinker-dot.label-above .label { bottom: 10px; }
+.thinker-dot.label-below .label { top: 10px; }
 .thinker-dot .name {
   display: inline-block;
   font-family: var(--sans);
-  font-size: 12px; font-weight: 500;
+  font-size: 11px; font-weight: 500;
+  letter-spacing: -0.005em;
   color: var(--ink);
   background: rgba(255,255,255,0.92);
-  padding: 1px 5px;
+  padding: 1px 4px;
   border-radius: 2px;
+  pointer-events: none;     /* clicks go to the parent .label button */
 }
-.thinker-dot--tier-1 .name { font-size: 13px; font-weight: 600; }
+.thinker-dot--tier-1 .name { font-size: 11.5px; font-weight: 600; }
 .thinker-dot .dates {
   display: block;
   font-family: var(--serif);
   font-style: italic;
-  font-size: 11px;
+  font-size: 10px;
   color: var(--muted);
   margin-top: 1px;
   background: rgba(255,255,255,0.85);
   padding: 0 3px;
   border-radius: 2px;
+  pointer-events: none;
 }
 .thinker-dot.is-active .name {
   border: 1px solid var(--dot-color);
@@ -2317,16 +2339,18 @@ body.is-reading-mode .passage-card .english { font-size: 18px; }
   /* On narrow viewports, hide date subtitle inline; show only on active dot. */
   .thinker-dot:not(.is-active) .dates { display: none; }
   .thinker-dot .name {
-    font-size: 11px;
-    padding: 1px 4px;
-    max-width: 110px;
+    font-size: 10px;
+    padding: 1px 3px;
+    max-width: 104px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-  .thinker-dot--tier-1 .name { font-size: 11.5px; }
-  .thinker-dot.label-above .label { bottom: 11px; }
-  .thinker-dot.label-below .label { top: 11px; }
+  .thinker-dot--tier-1 .name { font-size: 10.5px; }
+  .thinker-dot.label-above .label { bottom: 9px; }
+  .thinker-dot.label-below .label { top: 9px; }
+  /* The label button on mobile keeps a comfortable tap area. */
+  .thinker-dot .label { padding: 4px 5px; }
   .lane-row .lane-name {
     font-size: 11.5px;
     letter-spacing: -0.012em;

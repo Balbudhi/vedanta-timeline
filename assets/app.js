@@ -936,9 +936,11 @@ function renderDots() {
   // Map each thinker id to its cluster index (if any). Only used in lanes view —
   // network view does its own free-form placement and rarely produces stacks.
   const clusterOf = new Map();
+  const denseClusters = new Set();  // clusters with 3+ members get the stack marker
   if (state.viewMode === "lanes" && Array.isArray(state.clusters)) {
     state.clusters.forEach((c, idx) => {
       for (const id of c.ids) clusterOf.set(id, idx);
+      if (c.ids.length >= 3) denseClusters.add(idx);
     });
   }
 
@@ -947,7 +949,7 @@ function renderDots() {
   const placedBelow = [];
   for (const [, p] of state.layout) {
     const t = p.thinker;
-    const labelW = (t.name || t.id).length * 7 + 16;
+    const labelW = (t.name || t.id).length * 6 + 14;
     let where = "above";
     const conflictsAbove = placedAbove.some((q) => Math.abs(q.y - p.y) < 24 && !(q.x2 < p.x - labelW/2 - 4 || q.x1 > p.x + labelW/2 + 4));
     if (conflictsAbove) where = "below";
@@ -964,7 +966,7 @@ function renderDots() {
     const cIdx = clusterOf.get(t.id);
     if (cIdx !== undefined) {
       dot.dataset.cluster = String(cIdx);
-      dot.classList.add("thinker-dot--in-cluster");
+      if (denseClusters.has(cIdx)) dot.classList.add("thinker-dot--in-cluster");
     }
     dot.style.left = p.x + "px";
     dot.style.top = p.y + "px";
@@ -1010,7 +1012,7 @@ function renderDots() {
       .map((id) => ({ id, el: dotsLayer.querySelector(`.thinker-dot[data-id="${CSS.escape(id)}"]`) }))
       .filter((m) => m.el);
     if (members.length < 2) return;
-    const fanStep = 18;  // px between fanned dots
+    const fanStep = 24;  // px between fanned dots — generous enough to clear labels
     const centerIdx = (members.length - 1) / 2;
     const enter = () => {
       dotsLayer.classList.add("has-cluster-fan");
