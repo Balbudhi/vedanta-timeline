@@ -14,7 +14,7 @@
     "ishwar"
   ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54",
+  "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "The Lord as governing consciousness: the principle that rules, orders, and dispenses. In Sanskrit philosophical use, *Īśvara* does more work than the English \"God.\" It is the term around which disputes about causality, providence, the fruits of *karma*, worship, and scriptural authority are organized. Vedānta asks whether *Īśvara* is merely the efficient cause or both efficient and material cause of the world, whether *Īśvara* is the highest description of reality or a conditioned one, and how the Lord stands to *māyā*, *prakṛti*, and bound selves. Yoga uses the term differently again: there *Īśvara* is a special *puruṣa*, untouched by affliction and karmic residue, and functions as a meditative and salvific ideal without needing the full Vedāntic creator-theology. The invariant core is therefore rule, sovereignty, and spiritual authority; the surrounding metaphysical commitments differ sharply. Any translation has to keep that causal and soteriological structure in view.",
   "per_school": [
     {
@@ -82,9 +82,21 @@
     },
     {
       "school": "Bhedābheda",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In the Bhedābheda position recoverable on disk through Rāmānuja's hostile reconstruction of Yādava-Prakāśa, lordship is not assigned to a second reality external to Brahman, but to Brahman itself as the one causal substance appearing in differentiated avasthās [[RVas 35](cite://ramanuja/vedartha-samgraha/RVas_35)] [[RVas 58-60](cite://ramanuja/vedartha-samgraha/RVas_58-60)]. The same reconstruction represents the view as exposing Īśvara to the fortunes of the world-process, since if the Lord himself stands as the differentiated forms of embodied beings, the pleasures and pains found in them would also accrue to him [[RVas 58-60](cite://ramanuja/vedartha-samgraha/RVas_58-60)].",
+      "primary_loci": [
+        "Vedārtha-Saṃgraha RVas_35",
+        "Vedārtha-Saṃgraha RVas_58-60"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/RVas_35",
+          "locus_short": "RVas 35"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/RVas_58-60",
+          "locus_short": "RVas 58-60"
+        }
+      ]
     },
     {
       "school": "Acintya-Bhedābheda",
@@ -160,9 +172,26 @@
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Sāṃkhya does not require Īśvara as a constitutive explanatory principle, and the Sāṃkhya-Sūtra states this negatively by declaring Īśvara unestablished, since the hypothesized Lord can be coherently identified as neither liberated nor unliberated [[SS 1.92-1.94](cite://kapila/samkhya-sutra/1.92-1.94)]. The dispensation of results is likewise not transferred to a divine governor, because karma itself is said to suffice for phalaniṣpatti, while ascent, descent, and release are explained through dharma, adharma, and discriminative knowledge [[SS 5.2-5.9](cite://kapila/samkhya-sutra/5.2-5.9)] [[SK 44](cite://isvarakrsna/samkhya-karika/44)].",
+      "primary_loci": [
+        "Sāṃkhya-Sūtra 1.92-1.94",
+        "Sāṃkhya-Sūtra 5.2-5.9",
+        "Sāṃkhya-Kārikā 44"
+      ],
+      "citations": [
+        {
+          "cite": "cite://kapila/samkhya-sutra/1.92-1.94",
+          "locus_short": "SS 1.92-1.94"
+        },
+        {
+          "cite": "cite://kapila/samkhya-sutra/5.2-5.9",
+          "locus_short": "SS 5.2-5.9"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/44",
+          "locus_short": "SK 44"
+        }
+      ]
     },
     {
       "school": "Yoga",
@@ -184,33 +213,93 @@
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Nyāya-Vaiśeṣika infers Īśvara as the regulator on whom karmaphala depends, because human effort is observably non-self-sufficient and therefore points to an overseeing cause of fruition [[NyBh 4.1.19-21](cite://vatsyayana/nyaya-bhasya/4.1.19-21)]. In later compendious Nyāya this lordship extends to śabda as well: the word-meaning saṃketa is assigned to Īśvara, the Veda is authoritative because spoken by him, and eternal cognition, desire, and effort are treated as his distinctive qualities [[TS 59-62](cite://annambhatta/tarka-sangraha/59-62)] [[TS 74](cite://annambhatta/tarka-sangraha/74)].",
+      "primary_loci": [
+        "Nyāya-Bhāṣya 4.1.19-21",
+        "Tarka-Saṅgraha 59-62",
+        "Tarka-Saṅgraha 74"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vatsyayana/nyaya-bhasya/4.1.19-21",
+          "locus_short": "NyBh 4.1.19-21"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/59-62",
+          "locus_short": "TS 59-62"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/74",
+          "locus_short": "TS 74"
+        }
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Pūrva-Mīmāṃsā does not ground dharma in a divine will, since dharma is that artha marked by codanā, and injunction alone is said to disclose the remote, subtle, and supersensible matters at stake in ritual action [[ŚBh on MS 1.1.2](cite://shabara/mimamsa-sutra-bhasya/1.1.2)]. Later Mīmāṃsā accordingly rejects the Naiyāyika construction of an Īśvara-author of the Veda as an unsupported kalpanā, insisting instead on the apauruṣeyatva of Veda and the sufficiency of the inherited śiṣyācārya-paramparā [[ŚVṬ 96-98](cite://sucaritamisra/sloka-varttika/1.96-98)].",
+      "primary_loci": [
+        "Śabara-Bhāṣya on Mīmāṃsā-Sūtra 1.1.2",
+        "Ślokavārttika commentary 96-98"
+      ],
+      "citations": [
+        {
+          "cite": "cite://shabara/mimamsa-sutra-bhasya/1.1.2",
+          "locus_short": "ŚBh on MS 1.1.2"
+        },
+        {
+          "cite": "cite://sucaritamisra/sloka-varttika/1.96-98",
+          "locus_short": "ŚVṬ 96-98"
+        }
+      ]
     },
     {
       "school": "Mādhyamaka",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Mādhyamaka does not deploy Īśvara as a positive ultimate explanatory category, since whatever is posited as svabhāva cannot coherently arise from causes, while whatever does arise from causes would be kṛtaka and therefore not svabhāva [[MMK 15.1](cite://nagarjuna/mula-madhyamaka-karika/15.1)]. An independent creator-kartṛ is likewise unstable under analysis, because once agent, act, and causal efficacy are examined, none stands by own-being [[MMK 8.2-4](cite://nagarjuna/mula-madhyamaka-karika/8.2-4)].",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 15.1",
+        "Mūla-Madhyamaka-Kārikā 8.2-4"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/15.1",
+          "locus_short": "MMK 15.1"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/8.2-4",
+          "locus_short": "MMK 8.2-4"
+        }
+      ]
     },
     {
       "school": "Yogācāra",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Yogācāra explains the manifest world through the paratantra-svabhāva, namely conceptual construction arising from conditions, rather than through an external sovereign creator [[Tr 21](cite://vasubandhu/trimsika/21-24)]. The same analysis is explicitly niḥsvabhāva, for the dependent nature is said to lack svayambhāva, and this leaves no explanatory role for a self-grounded Īśvara within the school's account of manifestation [[Tr 23-24](cite://vasubandhu/trimsika/21-24)].",
+      "primary_loci": [
+        "Triṃśikā 21-24"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/trimsika/21-24",
+          "locus_short": "Tr 21-24"
+        }
+      ]
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "For Pratyabhijñā / Trika, Īśvara names consciousness itself in its reflexive freedom: citi as pratyavamarśa is the aiśvarya of the paramātman, so lordship is intrinsic to self-luminous awareness rather than superadded to it [[IPK 1.5.13-16](cite://utpaladeva/isvara-pratyabhijna-karika/1.5.13-16)]. The universe is manifested by that same consciousness on its own bhitti through svecchā, and the finite subject is only a contracted form of that all-manifesting freedom [[PH 1-4](cite://ksemaraja/pratyabhijna-hrdayam/1-4)].",
+      "primary_loci": [
+        "Īśvara-Pratyabhijñā-Kārikā 1.5.13-16",
+        "Pratyabhijñāhṛdaya 1-4"
+      ],
+      "citations": [
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/1.5.13-16",
+          "locus_short": "IPK 1.5.13-16"
+        },
+        {
+          "cite": "cite://ksemaraja/pratyabhijna-hrdayam/1-4",
+          "locus_short": "PH 1-4"
+        }
+      ]
     },
     {
       "school": "Jainism",
@@ -220,9 +309,10 @@
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",
-      "definition": "[NOT YET RETRIEVED]",
+      "definition": "NOT-APPLICABLE",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "not_applicable_reason": "The Pāṇinian-Vaiyākaraṇa tradition has no school-defining doctrinal treatment of Īśvara as such, and the on-disk grammatical corpus required for any broader reconstruction is absent."
     }
   ],
   "see_also": [
