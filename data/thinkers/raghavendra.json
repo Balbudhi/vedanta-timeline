@@ -358,6 +358,12 @@
             "gloss": "the other"
           },
           {
+            "pada": "netara",
+            "stem": "na + itara",
+            "morphology": "sandhi form of indecl negation + nom sg masc",
+            "gloss": "not the other"
+          },
+          {
             "pada": "iti",
             "stem": "iti",
             "morphology": "indecl",
@@ -376,9 +382,9 @@
             "gloss": "from the ānandamaya"
           },
           {
-            "pada": "bhedavyapadeśāt",
+            "pada": "bhedavyapadeśāc",
             "stem": "bhedavyapadeśa",
-            "morphology": "abl sg masc",
+            "morphology": "abl sg masc (surface sandhi of bhedavyapadeśāt before c-)",
             "gloss": "because of the predication of difference"
           },
           {
@@ -405,6 +411,12 @@
             "stem": "itara",
             "morphology": "nom sg masc",
             "gloss": "the other"
+          },
+          {
+            "pada": "netara",
+            "stem": "na + itara",
+            "morphology": "sandhi form of indecl negation + nom sg masc",
+            "gloss": "not the other"
           },
           {
             "pada": "iti",
@@ -839,9 +851,9 @@
             "gloss": "alone"
           },
           {
-            "pada": "mumukṣu-jñeyatva-vacanāt",
+            "pada": "mumukṣu-jñeyatva-vacanād",
             "stem": "mumukṣu-jñeyatva-vacana",
-            "morphology": "abl sg neut",
+            "morphology": "abl sg neut (surface sandhi of mumukṣu-jñeyatva-vacanāt before ā-)",
             "gloss": "because of the statement that it is to be known by the seeker of liberation"
           },
           {
@@ -851,9 +863,9 @@
             "gloss": "from the inferential and the rest"
           },
           {
-            "pada": "jñeyatvāvacanāt",
+            "pada": "jñeyatvāvacanāc",
             "stem": "jñeyatvāvacana",
-            "morphology": "abl sg neut",
+            "morphology": "abl sg neut (surface sandhi of jñeyatvāvacanāt before c-)",
             "gloss": "because of the absence of any statement of knowability"
           },
           {
@@ -867,6 +879,12 @@
             "stem": "iti",
             "morphology": "indecl",
             "gloss": "thus"
+          },
+          {
+            "pada": "cety",
+            "stem": "ca + iti",
+            "morphology": "particle + indecl sandhi",
+            "gloss": "and thus"
           },
           {
             "pada": "arthaḥ",
@@ -1010,7 +1028,7 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-translation-audit-opus",
+  "last_verified_by": "wave3-pada-fix-codex",
   "polemic_chain_ids": [
     "advaita-siddhi-replies",
     "nyayamrta-arguments"

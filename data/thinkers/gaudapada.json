@@ -244,6 +244,13 @@
             "gloss": "from instruction"
           },
           {
+            "pada": "upadeśād",
+            "stem": "upadeśa",
+            "pratyaya": "a",
+            "morphology": "abl sg masc (surface sandhi of upadeśāt before ayaṃ)",
+            "gloss": "from instruction"
+          },
+          {
             "pada": "ayam",
             "stem": "ayam",
             "morphology": "nom sg masc pron",
@@ -467,6 +474,12 @@
             "gloss": "indeed"
           },
           {
+            "pada": "hy",
+            "stem": "hi",
+            "morphology": "particle (sandhi form of hi before vowel)",
+            "gloss": "for/indeed"
+          },
+          {
             "pada": "ekam",
             "stem": "eka",
             "pratyaya": "a",
@@ -564,6 +577,12 @@
             "gloss": "is"
           },
           {
+            "pada": "nāsti",
+            "stem": "na + √as",
+            "morphology": "indecl negation + 3sg pres ind P sandhi",
+            "gloss": "is not"
+          },
+          {
             "pada": "vartamāne",
             "stem": "vartamāna",
             "pratyaya": "śatṛ",
@@ -575,6 +594,12 @@
             "stem": "api",
             "morphology": "indecl",
             "gloss": "also"
+          },
+          {
+            "pada": "pi",
+            "stem": "api",
+            "morphology": "particle (apocope of api after vowel)",
+            "gloss": "even/also"
           },
           {
             "pada": "tat",
@@ -758,6 +783,12 @@
             "gloss": "indeed"
           },
           {
+            "pada": "hy",
+            "stem": "hi",
+            "morphology": "particle (sandhi form of hi before vowel)",
+            "gloss": "for/indeed"
+          },
+          {
             "pada": "ākāśavat",
             "stem": "ākāśa",
             "pratyaya": "vat",
@@ -792,6 +823,12 @@
             "gloss": "is presented / appears"
           },
           {
+            "pada": "ivoditaḥ",
+            "stem": "iva + udita",
+            "morphology": "particle + nom sg masc ppp sandhi",
+            "gloss": "as if presented"
+          },
+          {
             "pada": "ghaṭādivat",
             "stem": "ghaṭādi",
             "pratyaya": "vat",
@@ -816,6 +853,13 @@
             "stem": "jāti",
             "pratyaya": "i",
             "morphology": "loc sg fem",
+            "gloss": "in origination"
+          },
+          {
+            "pada": "jātāv",
+            "stem": "jāti",
+            "pratyaya": "i",
+            "morphology": "loc sg fem (surface sandhi of jātau before etan)",
             "gloss": "in origination"
           },
           {
@@ -907,6 +951,12 @@
             "pratyaya": "a",
             "morphology": "loc sg masc",
             "gloss": "in one"
+          },
+          {
+            "pada": "yathaikasmin",
+            "stem": "yathā + eka",
+            "morphology": "indecl + loc sg masc sandhi",
+            "gloss": "just as in one"
           },
           {
             "pada": "ghaṭākāśe",
@@ -1317,6 +1367,12 @@
             "gloss": "indeed"
           },
           {
+            "pada": "hy",
+            "stem": "hi",
+            "morphology": "particle (sandhi form of hi before vowel)",
+            "gloss": "for/indeed"
+          },
+          {
             "pada": "etat",
             "stem": "etad",
             "morphology": "acc sg neut pron",
@@ -1340,6 +1396,12 @@
             "pratyaya": "a",
             "morphology": "acc sg neut",
             "gloss": "the unborn"
+          },
+          {
+            "pada": "nānyathājaṃ",
+            "stem": "na + anyathā + aja",
+            "morphology": "indecl negation + indecl adverb + acc sg neut sandhi",
+            "gloss": "not otherwise, the unborn"
           },
           {
             "pada": "kathaṃcana",
@@ -1438,6 +1500,12 @@
             "stem": "hi",
             "morphology": "indecl",
             "gloss": "indeed"
+          },
+          {
+            "pada": "hy",
+            "stem": "hi",
+            "morphology": "particle (sandhi form of hi before vowel)",
+            "gloss": "for/indeed"
           },
           {
             "pada": "amṛtaḥ",
@@ -1699,7 +1767,7 @@
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-translation-audit-opus",
+  "last_verified_by": "wave3-pada-fix-codex",
   "polemic_chain_ids": [
     "bhaskara-pracchanna-bauddha"
   ]

@@ -197,13 +197,13 @@
           {
             "pada": "sat-cid-ānanda-rūpeṇa",
             "stem": "sat-cid-ānanda-rūpa",
-            "morphology": "instr sg neut",
+            "morphology": "instr sg neut; first member of sandhi-bundle sac-cid-ānanda-rūpeṇānvayāt",
             "gloss": "in the form of being, consciousness, and bliss"
           },
           {
             "pada": "anvayāt",
             "stem": "anvaya",
-            "morphology": "abl sg masc",
+            "morphology": "abl sg masc; second member of sandhi-bundle rūpeṇānvayāt = rūpeṇa + anvayāt",
             "gloss": "from pervasion; from inherence-throughout"
           },
           {
@@ -335,13 +335,13 @@
           {
             "pada": "brahmajñānena",
             "stem": "brahmajñāna",
-            "morphology": "instr sg neut",
+            "morphology": "instr sg neut; first member of sandhi-bundle brahmajñānenāvidyā-nivṛttyā",
             "gloss": "by Brahman-knowledge"
           },
           {
             "pada": "avidyā-nivṛttyā",
             "stem": "avidyā-nivṛtti",
-            "morphology": "instr sg fem",
+            "morphology": "instr sg fem; second member of sandhi-bundle brahmajñānenāvidyā-nivṛttyā",
             "gloss": "by the cessation of ignorance"
           },
           {
@@ -407,13 +407,13 @@
           {
             "pada": "bhavati",
             "stem": "bhū",
-            "morphology": "3sg pres ind P",
+            "morphology": "3sg pres ind P; first member of sandhi-bundle bhavatīti = bhavati + iti",
             "gloss": "comes to be; occurs"
           },
           {
             "pada": "iti",
             "stem": "iti",
-            "morphology": "indecl",
+            "morphology": "indecl; quotation-particle, here second member of bhavatīti",
             "gloss": "thus"
           },
           {
@@ -639,10 +639,16 @@
             "gloss": "thus"
           },
           {
-            "pada": "svasya-eva",
+            "pada": "svasya",
             "stem": "sva",
-            "morphology": "gen sg masc/neut + indecl",
-            "gloss": "of itself alone"
+            "morphology": "gen sg masc/neut pron",
+            "gloss": "of itself; of its own"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "particle",
+            "gloss": "only; just; itself"
           },
           {
             "pada": "kartṛ-bhāvāt",
@@ -669,10 +675,16 @@
             "gloss": "non-ordinariness"
           },
           {
-            "pada": "tathāpi",
-            "stem": "tathā api",
-            "morphology": "indecl",
-            "gloss": "even so; nevertheless"
+            "pada": "tathā",
+            "stem": "tathā",
+            "morphology": "indecl adverb",
+            "gloss": "thus; so"
+          },
+          {
+            "pada": "api",
+            "stem": "api",
+            "morphology": "particle",
+            "gloss": "even; also"
           },
           {
             "pada": "pariṇamate",
@@ -934,10 +946,22 @@
             "gloss": "because it is knowable only through the Veda"
           },
           {
-            "pada": "mama-eva-aṃśaḥ",
-            "stem": "mad / eva / aṃśa",
-            "morphology": "gen sg + indecl + nom sg masc",
-            "gloss": "a part of Me alone"
+            "pada": "mama",
+            "stem": "mad",
+            "morphology": "gen sg pron",
+            "gloss": "of Me; my"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "particle",
+            "gloss": "only; just; itself"
+          },
+          {
+            "pada": "aṃśaḥ",
+            "stem": "aṃśa",
+            "morphology": "nom sg masc",
+            "gloss": "part; portion"
           },
           {
             "pada": "jīvaloke",
@@ -1061,7 +1085,7 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-audit-fix-opus",
+  "last_verified_by": "wave3-pada-fix-codex",
   "polemic_chain_ids": [
     "govinda-bhasya-defense"
   ]

@@ -152,14 +152,14 @@
           {
             "pada": "ca",
             "stem": "ca",
-            "morphology": "indecl",
+            "morphology": "particle; first component of sandhi cātmatattvasya = ca + ātmatattvasya",
             "gloss": "and"
           },
           {
             "pada": "ātmatattvasya",
             "stem": "ātmatattva",
             "pratyaya": "-sya",
-            "morphology": "gen sg neut",
+            "morphology": "gen sg neut; second component of sandhi cātmatattvasya = ca + ātmatattvasya",
             "gloss": "of the reality of the self"
           },
           {
@@ -183,20 +183,20 @@
           {
             "pada": "brahmāsmi",
             "stem": "brahman + as",
-            "morphology": "1sg pres ind P",
+            "morphology": "1sg pres ind P sandhi form (brahma + asmi)",
             "gloss": "am Brahman"
           },
           {
             "pada": "ityādivedāntamahāvākyam",
             "stem": "vedānta-mahāvākya",
-            "morphology": "nom sg neut",
+            "morphology": "nom sg neut sandhi form (iti + ādi + vedānta-mahāvākyam)",
             "gloss": "the great Vedāntic sentence beginning thus"
           },
           {
             "pada": "eva",
             "stem": "eva",
-            "morphology": "indecl",
-            "gloss": "alone"
+            "morphology": "particle",
+            "gloss": "only"
           },
           {
             "pada": "pramāpakam",
@@ -215,15 +215,21 @@
           {
             "pada": "ca",
             "stem": "ca",
-            "morphology": "indecl",
+            "morphology": "particle",
             "gloss": "and"
           },
           {
-            "pada": "padārthajñānadvāreṇaiva",
+            "pada": "padārthajñānadvāreṇa",
             "stem": "padārthajñānadvāra",
             "pratyaya": "-eṇa",
-            "morphology": "instr sg neut",
-            "gloss": "only by way of knowledge of the word-meanings"
+            "morphology": "instr sg neut; first component of sandhi padārthajñānadvāreṇaiva = padārthajñānadvāreṇa + eva",
+            "gloss": "by way of knowledge of the word-meanings"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "particle; second component of sandhi padārthajñānadvāreṇaiva = padārthajñānadvāreṇa + eva",
+            "gloss": "only"
           },
           {
             "pada": "jñāpakam",
@@ -274,15 +280,21 @@
           {
             "pada": "api",
             "stem": "api",
-            "morphology": "indecl",
-            "gloss": "also"
+            "morphology": "particle",
+            "gloss": "even/also"
           },
           {
-            "pada": "śāstreṇaiva",
+            "pada": "śāstreṇa",
             "stem": "śāstra",
             "pratyaya": "-eṇa",
-            "morphology": "instr sg neut",
-            "gloss": "by scripture alone"
+            "morphology": "instr sg neut; first component of sandhi śāstreṇaiva = śāstreṇa + eva",
+            "gloss": "by scripture"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "particle; second component of sandhi śāstreṇaiva = śāstreṇa + eva",
+            "gloss": "only"
           },
           {
             "pada": "pramātavyau",
@@ -493,8 +505,8 @@
           {
             "pada": "api",
             "stem": "api",
-            "morphology": "indecl",
-            "gloss": "also"
+            "morphology": "particle",
+            "gloss": "even/also"
           },
           {
             "pada": "yogyam",
@@ -526,7 +538,7 @@
           {
             "pada": "ca",
             "stem": "ca",
-            "morphology": "indecl",
+            "morphology": "particle",
             "gloss": "and"
           },
           {
@@ -536,11 +548,17 @@
             "gloss": "in that self"
           },
           {
-            "pada": "adhyastatayaiva",
+            "pada": "adhyastatayā",
             "stem": "adhyastatā",
             "pratyaya": "-ayā",
-            "morphology": "instr sg fem",
-            "gloss": "precisely as superimposed"
+            "morphology": "instr sg fem; first component of sandhi adhyastatayaiva = adhyastatayā + eva",
+            "gloss": "as superimposed"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "particle; second component of sandhi adhyastatayaiva = adhyastatayā + eva",
+            "gloss": "only/just"
           },
           {
             "pada": "dharmigrāhakamānena",
@@ -550,10 +568,16 @@
             "gloss": "by the cognition that grasps the substrate"
           },
           {
-            "pada": "sidhyatīti",
+            "pada": "sidhyati",
             "stem": "√sidh",
-            "morphology": "3sg pres ind P",
-            "gloss": "is established thus"
+            "morphology": "3sg pres ind P; first component of sandhi sidhyatīti = sidhyati + iti",
+            "gloss": "is established"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl; second component of sandhi sidhyatīti = sidhyati + iti",
+            "gloss": "thus"
           },
           {
             "pada": "na",
@@ -564,13 +588,13 @@
           {
             "pada": "jānāmi",
             "stem": "√jñā",
-            "morphology": "1sg pres ind P",
+            "morphology": "1sg pres ind P; first component of sandhi jānāmīti = jānāmi + iti",
             "gloss": "I know"
           },
           {
             "pada": "iti",
             "stem": "iti",
-            "morphology": "indecl",
+            "morphology": "indecl; second component of sandhi jānāmīti = jānāmi + iti",
             "gloss": "thus"
           },
           {
@@ -597,8 +621,8 @@
           {
             "pada": "eva",
             "stem": "eva",
-            "morphology": "indecl",
-            "gloss": "indeed"
+            "morphology": "particle",
+            "gloss": "only"
           },
           {
             "pada": "tat",
@@ -615,13 +639,13 @@
           {
             "pada": "ca",
             "stem": "ca",
-            "morphology": "indecl",
+            "morphology": "particle; first component of sandhi cedam = ca + idam",
             "gloss": "and"
           },
           {
             "pada": "idam",
             "stem": "idam",
-            "morphology": "nom sg neut",
+            "morphology": "nom sg neut; second component of sandhi cedam = ca + idam",
             "gloss": "this"
           },
           {
@@ -1263,7 +1287,7 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-translation-audit-opus",
+  "last_verified_by": "wave3-pada-fix-codex",
   "polemic_chain_ids": [
     "acintya-shakti-defense",
     "advaita-siddhi-replies",

@@ -70,9 +70,9 @@
             "gloss": "of māyā and avidyā"
           },
           {
-            "pada": "sāmānādhikaraṇyāt",
+            "pada": "sāmānādhikaraṇyāc",
             "stem": "sāmānādhikaraṇya",
-            "morphology": "abl sg neut",
+            "morphology": "abl sg neut (sandhi form before ca)",
             "gloss": "because of co-reference / appositional identity"
           },
           {
@@ -82,28 +82,28 @@
             "gloss": "and"
           },
           {
-            "pada": "tasmāt",
+            "pada": "tasmād",
             "stem": "tad",
             "pratyaya": "-tas",
-            "morphology": "abl sg neut used adverbially",
+            "morphology": "abl sg neut used adverbially (sandhi form before vowel)",
             "gloss": "therefore, from that"
           },
           {
-            "pada": "anirvacanīya-māyā-viśiṣṭam",
+            "pada": "anirvacanīya-māyā-viśiṣṭaṃ",
             "stem": "anirvacanīya-māyā-viśiṣṭa",
             "morphology": "nom sg neut",
             "gloss": "qualified by indeterminable māyā"
           },
           {
-            "pada": "kāraṇam",
+            "pada": "kāraṇaṃ",
             "stem": "kāraṇa",
             "morphology": "nom sg neut",
             "gloss": "cause"
           },
           {
-            "pada": "brahma",
+            "pada": "brahme",
             "stem": "brahman",
-            "morphology": "nom sg neut",
+            "morphology": "nom sg neut (sandhi form in brahma + iti -> brahmeti)",
             "gloss": "Brahman"
           },
           {
@@ -206,9 +206,9 @@
       "panini_breakdown": {
         "pada_analysis": [
           {
-            "pada": "devadattaḥ",
+            "pada": "devadatto",
             "stem": "devadatta",
-            "morphology": "nom sg masc",
+            "morphology": "nom sg masc (sandhi form before hi)",
             "gloss": "Devadatta"
           },
           {
@@ -224,7 +224,7 @@
             "gloss": "his own self"
           },
           {
-            "pada": "andhatvādy-upetam",
+            "pada": "andhatvādy-upetaṃ",
             "stem": "andhatvādi-upeta",
             "morphology": "acc sg masc",
             "gloss": "endowed with blindness and the like"
@@ -236,9 +236,9 @@
             "gloss": "in a reflection"
           },
           {
-            "pada": "avagacchan",
+            "pada": "avagacchann",
             "stem": "ava-gam",
-            "morphology": "pres act part nom sg masc",
+            "morphology": "pres act part nom sg masc (surface form after avagraha)",
             "gloss": "cognizing"
           },
           {
@@ -248,15 +248,15 @@
             "gloss": "even though"
           },
           {
-            "pada": "tattva-jñānatvāt",
+            "pada": "tattva-jñānatvān",
             "stem": "tattva-jñānatva",
-            "morphology": "abl sg neut",
+            "morphology": "abl sg neut (sandhi form before na + anuśocati)",
             "gloss": "because of possessing true knowledge"
           },
           {
             "pada": "na",
             "stem": "na",
-            "morphology": "indecl",
+            "morphology": "indecl (sandhi gives nā before a-)",
             "gloss": "not"
           },
           {
@@ -274,7 +274,7 @@
           {
             "pada": "brahma",
             "stem": "brahman",
-            "morphology": "nom sg neut",
+            "morphology": "nom sg neut (in sandhi with api as brahmāpi)",
             "gloss": "Brahman"
           },
           {
@@ -302,15 +302,15 @@
             "gloss": "in the reflection"
           },
           {
-            "pada": "saṃsāram",
+            "pada": "saṃsāraṃ",
             "stem": "saṃsāra",
             "morphology": "acc sg masc",
             "gloss": "saṃsāra, worldly bondage"
           },
           {
-            "pada": "paśyat",
+            "pada": "paśyad",
             "stem": "paś",
-            "morphology": "pres act part nom sg neut",
+            "morphology": "pres act part nom sg neut (sandhi form)",
             "gloss": "seeing"
           },
           {
@@ -320,15 +320,15 @@
             "gloss": "even though"
           },
           {
-            "pada": "tattva-jñānatvāt",
+            "pada": "tattva-jñānatvān",
             "stem": "tattva-jñānatva",
-            "morphology": "abl sg neut",
+            "morphology": "abl sg neut (sandhi form before na + anuśocati)",
             "gloss": "because of possessing true knowledge"
           },
           {
             "pada": "na",
             "stem": "na",
-            "morphology": "indecl",
+            "morphology": "indecl (sandhi gives nā before a-)",
             "gloss": "not"
           },
           {
@@ -464,15 +464,15 @@
             "gloss": "in what is self-luminous"
           },
           {
-            "pada": "api",
+            "pada": "pi",
             "stem": "api",
-            "morphology": "indecl",
-            "gloss": "even"
+            "morphology": "particle (apocope of api after avagraha)",
+            "gloss": "even/also"
           },
           {
-            "pada": "mananādi-sahakāraiḥ",
+            "pada": "mananādi-sahakārair",
             "stem": "mananādi-sahakāra",
-            "morphology": "instr pl masc",
+            "morphology": "instr pl masc (surface form)",
             "gloss": "by auxiliaries such as reflection"
           },
           {
@@ -506,9 +506,9 @@
             "gloss": "itself"
           },
           {
-            "pada": "sarva-saṃvid-upādānatvāt",
+            "pada": "sarva-saṃvid-upādānatvād",
             "stem": "sarva-saṃvid-upādānatva",
-            "morphology": "abl sg neut",
+            "morphology": "abl sg neut (sandhi form before consonant)",
             "gloss": "because of being the substrate/material basis of every cognition"
           },
           {
@@ -518,15 +518,15 @@
             "gloss": "in the cognition generated by the verbal pramāṇa taking Brahman as its form"
           },
           {
-            "pada": "api",
+            "pada": "pi",
             "stem": "api",
-            "morphology": "indecl",
-            "gloss": "even"
+            "morphology": "particle (apocope of api after avagraha)",
+            "gloss": "even/also"
           },
           {
             "pada": "brahma",
             "stem": "brahman",
-            "morphology": "nom sg neut",
+            "morphology": "nom sg neut (in sandhi with api as brahmāpi)",
             "gloss": "Brahman"
           },
           {
@@ -560,9 +560,9 @@
             "gloss": "appears"
           },
           {
-            "pada": "tat",
+            "pada": "tac",
             "stem": "tad",
-            "morphology": "nom sg neut",
+            "morphology": "nom sg neut (sandhi form before ca)",
             "gloss": "that"
           },
           {
@@ -584,9 +584,9 @@
             "gloss": "because of extreme subtlety"
           },
           {
-            "pada": "viparyaya-saṃskāra-doṣāt",
+            "pada": "viparyaya-saṃskāra-doṣāc",
             "stem": "viparyaya-saṃskāra-doṣa",
-            "morphology": "abl sg masc",
+            "morphology": "abl sg masc (sandhi form before ca)",
             "gloss": "because of the defect of contrary latent impressions"
           },
           {
@@ -596,7 +596,7 @@
             "gloss": "and"
           },
           {
-            "pada": "pratibaddham",
+            "pada": "pratibaddhaṃ",
             "stem": "prati-bandh",
             "pratyaya": "kta",
             "morphology": "nom sg neut past pass part",
@@ -768,7 +768,7 @@
             "gloss": "by avidyā"
           },
           {
-            "pada": "mṛtyum",
+            "pada": "mṛtyuṃ",
             "stem": "mṛtyu",
             "morphology": "acc sg masc",
             "gloss": "death"
@@ -792,9 +792,9 @@
             "gloss": "immortality"
           },
           {
-            "pada": "aśnute",
+            "pada": "aśnuta",
             "stem": "aś",
-            "morphology": "3sg pres ind Ā",
+            "morphology": "3sg pres ind Ā (surface form in citation)",
             "gloss": "attains / partakes of"
           },
           {
@@ -810,10 +810,10 @@
             "gloss": "because scripture teaches a difference of fruits"
           },
           {
-            "pada": "tasmāt",
+            "pada": "tasmān",
             "stem": "tad",
             "pratyaya": "-tas",
-            "morphology": "abl sg neut used adverbially",
+            "morphology": "abl sg neut used adverbially (surface form before na)",
             "gloss": "therefore"
           },
           {
@@ -841,9 +841,9 @@
             "gloss": "is"
           },
           {
-            "pada": "sarvānarthopādānānādi-mithyājñāna-nivṛttiḥ",
+            "pada": "sarvānarthopādānānādi-mithyājñāna-nivṛttir",
             "stem": "sarvānarthopādānānādi-mithyājñāna-nivṛtti",
-            "morphology": "nom sg fem",
+            "morphology": "nom sg fem (sandhi form before eva)",
             "gloss": "the cessation of beginningless false cognition that is the substrate of all misfortune"
           },
           {
@@ -994,7 +994,7 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-translation-audit-opus",
+  "last_verified_by": "wave3-pada-fix-codex",
   "polemic_chain_ids": [
     "kumarila-mandana-jnana-karma-samuccaya",
     "mayavada-khandana",

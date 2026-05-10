@@ -114,10 +114,10 @@
             "gloss": "part"
           },
           {
-            "pada": "nānāvyapadeśāt",
+            "pada": "nānāvyapadeśād",
             "stem": "nānāvyapadeśa",
             "pratyaya": "a",
-            "morphology": "abl sg masc",
+            "morphology": "abl sg masc (surface sandhi form of nānāvyapadeśāt)",
             "gloss": "from the predication of multiplicity"
           },
           {
@@ -127,16 +127,22 @@
             "gloss": "otherwise"
           },
           {
+            "pada": "cāpi",
+            "stem": "ca + api",
+            "morphology": "sandhi form (ca + api)",
+            "gloss": "and also"
+          },
+          {
             "pada": "ca",
             "stem": "ca",
-            "morphology": "indecl",
+            "morphology": "particle",
             "gloss": "and"
           },
           {
             "pada": "api",
             "stem": "api",
-            "morphology": "indecl",
-            "gloss": "also"
+            "morphology": "particle",
+            "gloss": "even/also"
           },
           {
             "pada": "dāsakitavāditvam",
@@ -550,10 +556,10 @@
       "panini_breakdown": {
         "pada_analysis": [
           {
-            "pada": "īśvara-praṇidhānāt",
+            "pada": "īśvara-praṇidhānād",
             "stem": "īśvarapraṇidhāna",
             "pratyaya": "a",
-            "morphology": "abl sg neut",
+            "morphology": "abl sg neut (surface sandhi form of īśvara-praṇidhānāt)",
             "gloss": "from devotion-directing of oneself to the Lord"
           },
           {
@@ -582,9 +588,9 @@
             "gloss": "not"
           },
           {
-            "pada": "dvitīya-pādavat",
+            "pada": "dvitīya-pādavad",
             "stem": "dvitīyapādavat",
-            "morphology": "indecl",
+            "morphology": "indecl (surface sandhi form of dvitīya-pādavat)",
             "gloss": "as in the second pāda"
           },
           {
@@ -601,10 +607,10 @@
             "gloss": "but rather"
           },
           {
-            "pada": "tu",
+            "pada": "tv",
             "stem": "tu",
-            "morphology": "indecl",
-            "gloss": "indeed"
+            "morphology": "particle (surface sandhi/apocope form of tu)",
+            "gloss": "but"
           },
           {
             "pada": "asaṃprajñāta-kāraṇībhūta-samādhi-bhāvanā-viśeṣam",
@@ -824,7 +830,7 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-translation-audit-opus",
+  "last_verified_by": "wave3-pada-fix-codex",
   "polemic_chain_ids": [
     "brahma-sutra-bhasya-samkhya-refutation"
   ]

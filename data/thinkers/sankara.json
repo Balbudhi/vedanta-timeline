@@ -643,10 +643,10 @@
             "gloss": "the seeing of something else"
           },
           {
-            "pada": "tu",
+            "pada": "tv",
             "stem": "tu",
-            "morphology": "indecl",
-            "gloss": "indeed"
+            "morphology": "particle (surface form of tu before vowel)",
+            "gloss": "but"
           },
           {
             "pada": "avidyā",
@@ -710,16 +710,16 @@
             "gloss": "that"
           },
           {
-            "pada": "api",
+            "pada": "pi",
             "stem": "api",
-            "morphology": "indecl",
+            "morphology": "particle (apocope of api)",
             "gloss": "also"
           },
           {
-            "pada": "syāt",
+            "pada": "syād",
             "stem": "as",
             "pratyaya": "-yāt",
-            "morphology": "3sg opt P",
+            "morphology": "3sg opt P; surface sandhi form of syāt",
             "gloss": "would come to be"
           },
           {
@@ -750,10 +750,10 @@
             "gloss": "what is produced by action"
           },
           {
-            "pada": "tu",
+            "pada": "tv",
             "stem": "tu",
-            "morphology": "indecl",
-            "gloss": "indeed"
+            "morphology": "particle (surface form of tu before vowel)",
+            "gloss": "but"
           },
           {
             "pada": "anityaḥ",
@@ -763,10 +763,10 @@
             "gloss": "impermanent"
           },
           {
-            "pada": "syāt",
+            "pada": "syād",
             "stem": "as",
             "pratyaya": "-yāt",
-            "morphology": "3sg opt P",
+            "morphology": "3sg opt P; surface sandhi form of syāt",
             "gloss": "would be"
           },
           {
@@ -793,13 +793,13 @@
           {
             "pada": "eva",
             "stem": "eva",
-            "morphology": "indecl",
+            "morphology": "particle; split from surface token evātra with following atra",
             "gloss": "alone"
           },
           {
             "pada": "atra",
             "stem": "atra",
-            "morphology": "indecl",
+            "morphology": "indecl; split from surface token evātra with preceding eva",
             "gloss": "here"
           },
           {
@@ -873,9 +873,9 @@
             "gloss": "oneness"
           },
           {
-            "pada": "hi",
+            "pada": "hy",
             "stem": "hi",
-            "morphology": "indecl",
+            "morphology": "particle (surface form of hi before vowel)",
             "gloss": "for"
           },
           {
@@ -1439,14 +1439,14 @@
           {
             "pada": "ca",
             "stem": "ca",
-            "morphology": "indecl",
+            "morphology": "particle; split from surface token cotpattir with following utpattiḥ",
             "gloss": "and"
           },
           {
             "pada": "utpattiḥ",
             "stem": "utpatti",
             "pratyaya": "-ḥ",
-            "morphology": "nom sg fem",
+            "morphology": "nom sg fem; split from surface token cotpattir with preceding ca",
             "gloss": "origination"
           },
           {
@@ -1573,7 +1573,7 @@
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-translation-audit-opus",
+  "last_verified_by": "wave3-pada-fix-codex",
   "polemic_chain_ids": [
     "acintya-shakti-defense",
     "bhaskara-pracchanna-bauddha",
