@@ -6,7 +6,7 @@
   "dates_low": -300,
   "dates_high": -100,
   "dates_tier": "contested",
-  "dates_notes": "Jaimini is named in the Brahma-Sūtra as a Vedāntic ācārya and in the Mīmāṃsā-Sūtra as its compiler-author; the relative position of the two sūtra-corpora and their cross-references makes the dating mutually constraining. Frauwallner places Jaimini in the third to second century BCE; Clooney (1990, Thinking Ritually) reviews the range. The biographical figure is a name attached to the founding sūtra-text.",
+  "dates_notes": "Jaimini is named in the Brahma-Sūtra as a Vedāntic ācārya and in the Mīmāṃsā-Sūtra as its compiler-author; the relative position of the two sūtra-corpora and their cross-references makes the dating mutually constraining. Frauwallner's Geschichte der indischen Philosophie places Jaimini in the third to second century BCE (Frauwallner not on disk in our corpus; cited via field-standard summary). The biographical figure is a name attached to the founding sūtra-text.",
   "school": "Pūrva-Mīmāṃsā",
   "school_color_token": "mimamsa-comparator",
   "sub_school": "Mīmāṃsā founding-sūtra",
@@ -33,11 +33,11 @@
       "ascription_tier": "traditionally-ascribed",
       "ascription_notes": "Uniformly ascribed to Jaimini by tradition; the surviving twelve-adhyāya text is likely the consolidation of an earlier oral sūtra-tradition, paralleling the Brahma-Sūtra's compositional history.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Frauwallner (Geschichte der indischen Philosophie I); Clooney (1990, Thinking Ritually)."}
+        {"kind": "scholarly-consensus", "description": "Frauwallner Geschichte der indischen Philosophie I and Clooney 1990 Thinking Ritually are the standard scholarly references for the ascription; neither work is on disk in our corpus, cited via field-standard summary."}
       ],
       "genre": "verse-summary",
       "language": "sanskrit",
-      "summary": "Twelve *adhyāyas*, each in four *pādas*, of about 2745 *sūtras* — the largest of the *darśanika* sūtra-corpora; Clooney's *Thinking Ritually* (1990) is the standard English-language reading of the work as a coherent ritual-cum-reflective system. The first *adhyāya* establishes the foundational doctrines: *codanā* as the autonomous *pramāṇa* for *dharma*, the eternity of *śabda*, the four sentence-types (*vidhi*, *arthavāda*, *mantra*, *nāmadheya*), and the *svataḥ-prāmāṇya* of cognition. *Adhyāyas* 2–6 develop the analytical apparatus for ritual interpretation — the *sad-vidha-tātparya-liṅga* (the six marks of intended meaning), the *aṅga-aṅgi-vibhāga* (analysis of subordinate and principal ritual elements), and the procedure-rules (*prakaraṇa*, *sthāna*, *krama*, *samākhyā*). *Adhyāyas* 7–9 treat *atideśa* — the extension of one ritual's procedure to another — and *bādha*. *Adhyāya* 10 treats *ūha* (modification) and *bādha* (cancellation). *Adhyāya* 11 treats *tantra* (the unification of multiple ritual elements). *Adhyāya* 12 treats *prasaṅga* (the contingent extension of one ritual element to another). The work cites by name the ācāryas Bādari, Bādarāyaṇa, Lābukāyana, and others — direct evidence of an earlier oral *sūtra*-tradition. The text is unintelligible without commentary; the principal commentary is Śabara's *Śābara-Bhāṣya*.",
+      "summary": "Twelve *adhyāyas*, each in four *pādas*, of about 2745 *sūtras* — the largest of the *darśanika* sūtra-corpora. Clooney's *Thinking Ritually* (1990) is the standard English-language secondary reading of the work as a coherent ritual-cum-reflective system (the work is not on disk in our corpus; cited via title-thesis and known scholarly summary). The first *adhyāya* establishes the foundational doctrines: *codanā* as the autonomous *pramāṇa* for *dharma*, the eternity of *śabda*, the four sentence-types (*vidhi*, *arthavāda*, *mantra*, *nāmadheya*), and the *svataḥ-prāmāṇya* of cognition. *Adhyāyas* 2–6 develop the analytical apparatus for ritual interpretation — the *sad-vidha-tātparya-liṅga* (the six marks of intended meaning), the *aṅga-aṅgi-vibhāga* (analysis of subordinate and principal ritual elements), and the procedure-rules (*prakaraṇa*, *sthāna*, *krama*, *samākhyā*). *Adhyāyas* 7–9 treat *atideśa* — the extension of one ritual's procedure to another — and *bādha*. *Adhyāya* 10 treats *ūha* (modification) and *bādha* (cancellation). *Adhyāya* 11 treats *tantra* (the unification of multiple ritual elements). *Adhyāya* 12 treats *prasaṅga* (the contingent extension of one ritual element to another). The work cites by name the ācāryas Bādari, Bādarāyaṇa, Lābukāyana, and others — direct evidence of an earlier oral *sūtra*-tradition. The text is unintelligible without commentary; the principal commentary is Śabara's *Śābara-Bhāṣya*.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     }
@@ -47,5 +47,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-darsana-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-secondary-citation-audit-opus"
 }

@@ -2426,3 +2426,374 @@ The GRETIL reading *ajyate* is difficult; Candrakīrti’s exposition shows the 
 
 ---
 
+### MMK 25.17
+
+**Sanskrit (IAST):**
+> *paraṃ nirodhād bhagavān bhavatīty eva nājyate*  
+> *na bhavaty ubhayaṃ ceti nobhayaṃ ceti nājyate*
+
+**English (line-by-line):**
+> After final cessation, the Blessed One is not to be fixed as existing;  
+> nor as not existing, nor as both, nor as neither.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| param | param | indecl./acc. sg. n. used adverbially | finally / utterly |
+| nirodhāt | nirodha | abl. sg. m. | after cessation |
+| bhagavān | bhagavant | nom. sg. m. | the Blessed One |
+| bhavati | √bhū | laṭ, 3rd sg. parasmaipada | exists / is |
+| iti | iti | indecl. quotative | thus |
+| eva | eva | indecl. | indeed |
+| nājyate | transmitted form, cf. commentarial *nohyate* | present middle/passive-like | is not posited / fixed |
+| na | na | indecl. | not |
+| bhavati | √bhū | laṭ, 3rd sg. parasmaipada | exists |
+| ubhayam | ubhaya | nom./acc. sg. n. | both |
+| ca | ca | indecl. | and |
+| iti | iti | indecl. quotative | thus |
+| na | na | indecl. | not |
+| ubhayam | a-ubhaya / nobhayaṃ by sandhi | nom./acc. sg. n. | neither / not both |
+| ca | ca | indecl. | and |
+| iti | iti | indecl. quotative | thus |
+| nājyate | transmitted form, cf. commentarial *nohyate* | present middle/passive-like | is not posited |
+
+**Compound resolution (samāsa-vigraha):**
+- none
+
+**Kāraka structure:**
+- apādāna/time-frame: *paraṃ nirodhāt*
+- kartṛ: *bhagavān*
+- predicate options denied: *bhavati*, *na bhavati*, *ubhayaṃ*, *nobhayaṃ*
+
+**Verbal modality:**
+- *bhavati*: laṭ / parasmaipada / present
+- *nājyate*: transmitted present form; commentarial sense “is not supposed / not fixed”
+
+**Note:**
+The GRETIL text reads *nājyate*; Candrakīrti’s commentary witnesses *nohyate*, which makes the sense explicit. The doctrine is standard: after final cessation, the Tathāgata is not capturable under any of the four corners.
+
+---
+
+### MMK 25.18
+
+**Sanskrit (IAST):**
+> *tiṣṭhamāno 'pi bhagavān bhavatīty eva nājyate*  
+> *na bhavaty ubhayaṃ ceti nobhayaṃ ceti nājyate*
+
+**English (line-by-line):**
+> Even while remaining here, the Blessed One is not to be fixed as existing;  
+> nor as not existing, nor as both, nor as neither.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| tiṣṭhamānaḥ | √sthā | nom. sg. m. pres. mid. part. | remaining / standing |
+| api | api | indecl. | even |
+| bhagavān | bhagavant | nom. sg. m. | the Blessed One |
+| bhavati | √bhū | laṭ, 3rd sg. parasmaipada | exists |
+| iti | iti | indecl. quotative | thus |
+| eva | eva | indecl. | indeed |
+| nājyate | transmitted form, cf. commentarial *nohyate* | present middle/passive-like | is not posited |
+| na | na | indecl. | not |
+| bhavati | √bhū | laṭ, 3rd sg. parasmaipada | exists |
+| ubhayam | ubhaya | nom./acc. sg. n. | both |
+| ca | ca | indecl. | and |
+| iti | iti | indecl. quotative | thus |
+| na | na | indecl. | not |
+| ubhayam | a-ubhaya / nobhayaṃ by sandhi | nom./acc. sg. n. | neither / not both |
+| ca | ca | indecl. | and |
+| iti | iti | indecl. quotative | thus |
+| nājyate | transmitted form, cf. commentarial *nohyate* | present middle/passive-like | is not posited |
+
+**Compound resolution (samāsa-vigraha):**
+- none
+
+**Kāraka structure:**
+- kartṛ: *bhagavān*
+- predicate options denied: *bhavati*, *na bhavati*, *ubhayaṃ*, *nobhayaṃ*
+
+**Verbal modality:**
+- *tiṣṭhamānaḥ*: present middle participle
+- *bhavati*: laṭ / parasmaipada / present
+- *nājyate*: transmitted present form
+
+**Note:**
+The fourfold refusal applies not only to the post-parinirvāṇa question but also to the living Buddha. Compare the structurally parallel analysis of the Tathāgata in MMK 22.
+
+---
+
+### MMK 25.19
+
+**Sanskrit (IAST):**
+> *na saṃsārasya nirvāṇāt kiṃcid asti viśeṣaṇam*  
+> *na nirvāṇasya saṃsārāt kiṃcid asti viśeṣaṇam*
+
+**English (line-by-line):**
+> There is not the slightest distinguishing feature of saṃsāra apart from nirvāṇa.  
+> There is not the slightest distinguishing feature of nirvāṇa apart from saṃsāra.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| na | na | indecl. | not |
+| saṃsārasya | saṃsāra | gen. sg. m. | of saṃsāra |
+| nirvāṇāt | nirvāṇa | abl. sg. n. | from nirvāṇa / apart from nirvāṇa |
+| kiṃcit | kiṃcit | nom./acc. sg. n. | anything whatever |
+| asti | √as | laṭ, 3rd sg. parasmaipada | is |
+| viśeṣaṇam | viśeṣaṇa | nom./acc. sg. n. | distinguishing mark |
+| na | na | indecl. | not |
+| nirvāṇasya | nirvāṇa | gen. sg. n. | of nirvāṇa |
+| saṃsārāt | saṃsāra | abl. sg. m. | from saṃsāra / apart from saṃsāra |
+| kiṃcit | kiṃcit | nom./acc. sg. n. | anything whatever |
+| asti | √as | laṭ, 3rd sg. parasmaipada | is |
+| viśeṣaṇam | viśeṣaṇa | nom./acc. sg. n. | distinguishing mark |
+
+**Compound resolution (samāsa-vigraha):**
+- none
+
+**Kāraka structure:**
+- sambandha: *saṃsārasya*, *nirvāṇasya*
+- apādāna: *nirvāṇāt*, *saṃsārāt*
+- kartṛ: *viśeṣaṇam*
+
+**Verbal modality:**
+- *asti* (twice): laṭ / parasmaipada / present
+
+**Note:**
+This is one of the chapter’s culminating claims. The non-difference of saṃsāra and nirvāṇa does not collapse the two into an essence; it denies that an intrinsic boundary can be drawn between them.
+
+---
+
+### MMK 25.20
+
+**Sanskrit (IAST):**
+> *nirvāṇasya ca yā koṭiḥ koṭiḥ saṃsaraṇasya ca*  
+> *na tayor antaraṃ kiṃcit susūkṣmam api vidyate*
+
+**English (line-by-line):**
+> And the limit of nirvāṇa is the limit of saṃsāric wandering as well.  
+> Between the two, not even the subtlest interval is found.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| nirvāṇasya | nirvāṇa | gen. sg. n. | of nirvāṇa |
+| ca | ca | indecl. | and |
+| yā | yad | nom. sg. f. relative pronoun | which |
+| koṭiḥ | koṭi | nom. sg. f. | limit / extremity |
+| koṭiḥ | koṭi | nom. sg. f. | limit |
+| saṃsaraṇasya | saṃsaraṇa | gen. sg. n. | of wandering / transmigrating |
+| ca | ca | indecl. | and |
+| na | na | indecl. | not |
+| tayoḥ | tad | gen. dual | between those two |
+| antaram | antara | nom./acc. sg. n. | interval / difference |
+| kiṃcit | kiṃcit | nom./acc. sg. n. | anything whatever |
+| su-sūkṣmam | su-sūkṣma | nom./acc. sg. n. | very subtle |
+| api | api | indecl. | even |
+| vidyate | √vid | laṭ, 3rd sg. ātmanepada | is found |
+
+**Compound resolution (samāsa-vigraha):**
+- *susūkṣmam* [intensive prefix + adjective]: “very subtle.”
+
+**Kāraka structure:**
+- sambandha: *nirvāṇasya*, *saṃsaraṇasya*
+- relation: *tayoḥ*
+- kartṛ: *koṭiḥ*, *antaram*
+
+**Verbal modality:**
+- *vidyate*: laṭ / ātmanepada / present
+
+**Note:**
+Verse 25.20 restates 25.19 in the vocabulary of limit or extremity. The point is not identity of empirical states, but the absence of an essential interval between conditioned wandering and liberation when both are read without *svabhāva*.
+
+---
+
+### MMK 25.21
+
+**Sanskrit (IAST):**
+> *paraṃ nirodhād antādyāḥ śāśvatādyāś ca dṛṣṭayaḥ*  
+> *nirvāṇam aparāntaṃ ca pūrvāntaṃ ca samāśritāḥ*
+
+**English (line-by-line):**
+> The views beginning with “after final cessation” and the views beginning with “eternal”  
+> all rely on nirvāṇa, on the far limit, and on the near limit.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| param | param | indecl./acc. sg. n. adverbial | final / ultimate |
+| nirodhāt | nirodha | abl. sg. m. | after cessation |
+| anta-ādyāḥ | anta-ādi | nom. pl. f. | beginning with end-views |
+| śāśvata-ādyāḥ | śāśvata-ādi | nom. pl. f. | beginning with eternalist views |
+| ca | ca | indecl. | and |
+| dṛṣṭayaḥ | dṛṣṭi | nom. pl. f. | views |
+| nirvāṇam | nirvāṇa | acc. sg. n. | nirvāṇa |
+| aparāntam | aparānta | acc. sg. m./n. | far limit / future limit |
+| ca | ca | indecl. | and |
+| pūrvāntam | pūrvānta | acc. sg. m./n. | prior limit / past limit |
+| ca | ca | indecl. | and |
+| samāśritāḥ | sam-ā-√śri | nom. pl. f. PPP | relying upon |
+
+**Compound resolution (samāsa-vigraha):**
+- *antādyāḥ* [tatpuruṣa with *ādi*]: “those beginning with ‘end’.”
+- *śāśvatādyāḥ* [tatpuruṣa with *ādi*]: “those beginning with ‘eternal’.”
+- *aparāntam*, *pūrvāntam*: compounds of temporal limit.
+
+**Kāraka structure:**
+- kartṛ: *dṛṣṭayaḥ*
+- āśraya/karman: *nirvāṇam*, *aparāntam*, *pūrvāntam*
+
+**Verbal modality:**
+- *samāśritāḥ*: PPP used predicatively
+
+**Note:**
+Once nirvāṇa is made into a metaphysical endpoint, the old speculative views re-enter through it. Nāgārjuna’s point is that eschatological and eternalist views alike depend on reifying limits.
+
+---
+
+### MMK 25.22
+
+**Sanskrit (IAST):**
+> *śūnyeṣu sarvadharmeṣu kim anantaṃ kim antavat*  
+> *kim anantam antavac ca nānantaṃ nāntavac ca kim*
+
+**English (line-by-line):**
+> When all dharmas are empty, what is infinite and what has an end?  
+> What is both infinite and finite, and what is neither infinite nor finite?
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| śūnyeṣu | śūnya | loc. pl. m. | in the empty / when empty |
+| sarva-dharmeṣu | sarva-dharma | loc. pl. m. | in all dharmas |
+| kim | kim | indecl. interrogative | what |
+| anantam | an-anta | nom./acc. sg. n. | infinite |
+| kim | kim | indecl. | what |
+| antavat | anta-vat | nom./acc. sg. n. | finite / having an end |
+| kim | kim | indecl. | what |
+| anantam | an-anta | nom./acc. sg. n. | infinite |
+| anta-vat | anta-vat | nom./acc. sg. n. | finite |
+| ca | ca | indecl. | and |
+| na | na | indecl. | not |
+| anantam | an-anta | nom./acc. sg. n. | infinite |
+| na | na | indecl. | not |
+| antavat | anta-vat | nom./acc. sg. n. | finite |
+| ca | ca | indecl. | and |
+| kim | kim | indecl. | what |
+
+**Compound resolution (samāsa-vigraha):**
+- *sarvadharmeṣu* [karmadhāraya/tatpuruṣa]: “in all dharmas.”
+- *anantam* [nañ-tatpuruṣa]: “endless.”
+- *antavat* [matup-derivative]: “possessing an end.”
+
+**Kāraka structure:**
+- adhikaraṇa: *śūnyeṣu sarvadharmeṣu*
+- predicate options interrogated: *anantam*, *antavat*, *ubhaya*, *nobhaya*
+
+**Verbal modality:**
+- nominal catuṣkoṭi-interrogative; no finite verb expressed
+
+**Note:**
+The verse generalizes the preceding argument beyond nirvāṇa to cosmological predicates. Once all dharmas are empty, the four corners lose their ontological purchase here too.
+
+---
+
+### MMK 25.23
+
+**Sanskrit (IAST):**
+> *kiṃ tad eva kim anyat kiṃ śāśvataṃ kim aśāśvatam*  
+> *aśāśvataṃ śāśvataṃ ca kiṃ vā nobhayam apy atha*
+
+**English (line-by-line):**
+> What is the very same, what is different, what is eternal, what is non-eternal?  
+> What is both eternal and non-eternal, or again what is neither?
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| kim | kim | indecl. interrogative | what |
+| tat | tad | nom./acc. sg. n. | that |
+| eva | eva | indecl. | itself / the same |
+| kim | kim | indecl. | what |
+| anyat | anya | nom./acc. sg. n. | different |
+| kim | kim | indecl. | what |
+| śāśvatam | śāśvata | nom./acc. sg. n. | eternal |
+| kim | kim | indecl. | what |
+| aśāśvatam | a-śāśvata | nom./acc. sg. n. | non-eternal |
+| aśāśvatam | a-śāśvata | nom./acc. sg. n. | non-eternal |
+| śāśvatam | śāśvata | nom./acc. sg. n. | eternal |
+| ca | ca | indecl. | and |
+| kim | kim | indecl. | what |
+| vā | vā | indecl. | or |
+| na | na | indecl. | not |
+| ubhayam | ubhaya | nom./acc. sg. n. | both / either |
+| api | api | indecl. | even |
+| atha | atha | indecl. | again / then |
+
+**Compound resolution (samāsa-vigraha):**
+- *aśāśvatam* [nañ-tatpuruṣa]: “not eternal.”
+
+**Kāraka structure:**
+- predicate options interrogated throughout
+
+**Verbal modality:**
+- nominal catuṣkoṭi-interrogative; no finite verb expressed
+
+**Note:**
+Identity/difference and eternity/non-eternity are treated as structurally parallel pairs. The verse shows how quickly every metaphysical dyad is drawn into the four-cornered exhaustion once emptiness is granted.
+
+---
+
+### MMK 25.24
+
+**Sanskrit (IAST):**
+> *sarvopalambhopaśamaḥ prapañcopaśamaḥ śivaḥ*  
+> *na kva cit kasyacit kaścid dharmo buddhena deśitaḥ*
+
+**English (line-by-line):**
+> The pacification of all apprehension, the pacification of proliferation: that is the auspicious peace.  
+> No dharma whatsoever has been taught by the Buddha anywhere to anyone.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| sarva-upalambha-upaśamaḥ | sarvopalambhopaśama | nom. sg. m. | pacification of all apprehension |
+| prapañca-upaśamaḥ | prapañcopaśama | nom. sg. m. | pacification of proliferation |
+| śivaḥ | śiva | nom. sg. m. | auspicious / peaceful |
+| na | na | indecl. | not |
+| kva | kva | indecl. | anywhere |
+| cit | cit | indecl. enclitic | at all |
+| kasyacit | kaścit | gen. sg. | to anyone / of anyone |
+| kaścit | kaścit | nom. sg. m. | any whatever |
+| dharmaḥ | dharma | nom. sg. m. | dharma / thesis / thing |
+| buddhena | buddha | instr. sg. m. | by the Buddha |
+| deśitaḥ | √diś | nom. sg. m. PPP | taught |
+
+**Compound resolution (samāsa-vigraha):**
+- *sarvopalambhopaśamaḥ* [ṣaṣṭhī-tatpuruṣa chain]: “the pacification of all apprehension.”
+- *prapañcopaśamaḥ* [ṣaṣṭhī-tatpuruṣa]: “the pacification of proliferation.”
+
+**Kāraka structure:**
+- kartṛ: *śivaḥ*, *dharmaḥ*
+- karaṇa: *buddhena*
+- beneficiary/sambandha: *kasyacit*
+
+**Verbal modality:**
+- *deśitaḥ*: PPP used predicatively
+
+**Note:**
+The closing verse is not a denial that the Buddha conventionally teaches. It is the culmination of 24.8–10 and 25 as a whole: ultimately, no *svabhāva*-bearing thesis is taught, because apprehension and proliferation have been pacified.
+
+---
+
+## Editorial closing
+
+What this dossier settles is not a positive metaphysics but a disciplined philosophical grammar. Arising cannot be secured by any of the four causal corners (1.1–14); self and the predicates that cluster around “I” and “mine” collapse under the same pressure (18.4–12); the only way to preserve the four truths, causation, and liberation is to identify emptiness with dependent arising under the two-truths discipline (24.8–22); and *nirvāṇa* itself cannot be placed under being, non-being, both, or neither without relapse into reification (25.1–24). What remains open is the detailed defense of this anti-thesis method against the charge of self-referential incoherence. Nāgārjuna takes that up elsewhere, above all in the *Vigraha-Vyāvartanī* and in the compressed doctrinal restatements of the *Śūnyatā-Saptati* and *Yukti-Ṣaṣṭikā*. Within the MMK itself, Chapters 22 and 27 carry the same dialectic into the Tathāgata and the great speculative views. Later Vedāntic engagement repeatedly returns to these loci because the issue never changes: whether the denial of *svabhāva* leaves the world intelligible. Nāgārjuna’s answer, in these chapters, is that only such a denial does.

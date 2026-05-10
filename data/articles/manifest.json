@@ -43,7 +43,22 @@
       "tags": ["Mīmāṃsā", "Jaimini", "Śabara", "Kumārila", "Prabhākara", "Aurobindo", "Clooney", "bhāvanā", "codanā", "apūrva", "contemporary-reader"],
       "word_count_approx": 5400,
       "date": "2026-05-10",
-      "supersedes": ["mimamsa-aurobindo-v1", "mimamsa-aurobindo-v2"]
+      "supersedes": ["mimamsa-aurobindo-v1", "mimamsa-aurobindo-v2"],
+      "status": "superseded",
+      "superseded": "true",
+      "superseded_by": "mimamsa-aurobindo-v4",
+      "superseded_note": "v3 over-corrected v2's diagnostic-decline framing by retracting the symbolism-shift thesis entirely. v4 reinstates the symbolism-shift thesis as a structural-cultural fact, not a moral or school-internal decline narrative."
+    },
+    {
+      "slug": "mimamsa-aurobindo-v4",
+      "title": "Mīmāṃsā worked: the symbol-environment thesis and the contemporary reader's encounter",
+      "subtitle": "Reinstates v2's symbolism-shift thesis cleanly, in its proper register, while retaining v3's correct insistence on Mīmāṃsā's coherence on its own terms. The school worked for the practitioners who inhabited the original symbol-environment; the symbol-environment changed across centuries as a structural cultural-historical fact (Religionsgeschichte, not moral decline); for participants outside the original substrate, the rite's operations remain analysable on the school's own terms but no longer carry their original immediate spiritual-symbolic register; Aurobindo's hermeneutic is amplification of what was once lived for the contemporary reader, not correction of a defective school. §5 explicitly rejects the school-internal decline narrative (Brahmin corruption, Sanskrit-fluency decay, kali-yuga) as a misdiagnosis of structural-cultural change as moral failure.",
+      "kind": "perspective-investigation",
+      "source_doc": "data/articles/source/mimamsa-aurobindo-v4.md",
+      "tags": ["Mīmāṃsā", "Jaimini", "Śabara", "Kumārila", "Prabhākara", "Aurobindo", "Clooney", "symbol-environment", "Religionsgeschichte", "bhāvanā", "codanā", "apūrva", "contemporary-reader"],
+      "word_count_approx": 6100,
+      "date": "2026-05-10",
+      "supersedes": ["mimamsa-aurobindo-v1", "mimamsa-aurobindo-v2", "mimamsa-aurobindo-v3"]
     },
     {
       "slug": "primitive-model",
