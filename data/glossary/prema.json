@@ -1,0 +1,22 @@
+{
+  "term_key": "prema",
+  "term_iast": "prema",
+  "term_devanagari": "प्रेम",
+  "literal": "love; from √prī 'to please, to delight'",
+  "aliases": ["prema", "Prema", "premā", "premṇaḥ", "premabhakti", "prema-bhakti"],
+  "invariant_definition": "Love — specifically the matured devotional love that exceeds ordinary *bhakti*. In Caitanya's school *prema* is the highest stage of *bhakti* development: *śraddhā* → *sādhu-saṅga* → *bhajana-kriyā* → *anartha-nivṛtti* → *niṣṭhā* → *ruci* → *āsakti* → *bhāva* → *prema*. *Prema-bhakti* in *mādhurya-rasa* is the supreme attainment, exceeding even *mokṣa*. Prior to Caitanya the term *prema* is used more generally; after, it acquires this technical depth.",
+  "per_school": [
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Prema* is the supreme attainment — the eternal loving relation with Kṛṣṇa in one of the five *rasa*s, with *mādhurya-prema* (Rādhā's love) the supreme. *Prema* is itself *parama-puruṣārtha*, exceeding *mokṣa*.",
+      "primary_loci": ["Bhakti-Rasāmṛta-Sindhu 1.4 (prema-analysis)", "Caitanya-Caritāmṛta, Madhya 19", "Ujjvala-Nīlamaṇi"]
+    },
+    {
+      "school": "Advaita (Madhusūdana)",
+      "definition": "*Prema* as the matured *bhakti-rasa*'s *sthāyi-bhāva*; valued, but not above *jñāna* on the path to *mokṣa*.",
+      "primary_loci": ["Bhakti-Rasāyana 1"]
+    }
+  ],
+  "see_also": ["bhakti", "rasa", "madhurya-rasa", "bhava-bhakti", "premabhakti"],
+  "translator_note": "'Love' is correct but loses the technical depth (eight-stage development). 'Devotional love' or 'mature devotional love' are clearer."
+}

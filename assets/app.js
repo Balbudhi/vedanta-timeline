@@ -191,9 +191,20 @@ async function loadAll() {
   }
 
   computeRange();
+  computeRenderLanes();
   computeLayout();
   renderAll();
+  renderFilterChips();
   updateSubtitle();
+  scrollToInitialFocus();
+}
+
+function scrollToInitialFocus() {
+  if (state.hasInitialScroll) return;
+  const x = yearToX(INITIAL_FOCUS_YEAR);
+  const paneW = scroller.clientWidth;
+  scroller.scrollLeft = Math.max(0, x - paneW / 2 + LANE_RAIL_W);
+  state.hasInitialScroll = true;
 }
 
 function computeRange() {
@@ -313,7 +324,9 @@ function computeLayout() {
   const occupancy = new Map();   // `${lane}_${shade}` → array of {x1, x2}
 
   for (const t of sorted) {
+    if (!isThinkerVisible(t)) continue;
     const lane = laneIndex(t.school_color_token);
+    if (lane < 0) continue;
     const shade = shadeFor(t);
     const tier = tierOf(t);
     const xMid = yearToX((t.dates_low + t.dates_high) / 2);
@@ -324,7 +337,6 @@ function computeLayout() {
     let nudge = 0;
     const key = `${lane}_${shade}`;
     const arr = occupancy.get(key) || [];
-    const myWidth = (t.name || t.id).length * 7 + 40;
     for (const o of arr) {
       if (Math.abs(o.x - xMid) < 18) {
         nudge += (nudge >= 0 ? 8 : -8);
@@ -345,32 +357,58 @@ function computeLayout() {
 // ---------- render: lane rail -----------
 function renderLaneRail() {
   laneRailEl.innerHTML = "";
+  // Per-token thinker counts (real schools only).
   const counts = new Map();
   for (const t of state.thinkers) {
-    const k = laneIndex(t.school_color_token);
-    counts.set(k, (counts.get(k) || 0) + 1);
+    const tok = t.school_color_token || "proto";
+    counts.set(tok, (counts.get(tok) || 0) + 1);
   }
-  for (let i = 0; i < LANE_ORDER.length; i++) {
-    const tok = LANE_ORDER[i];
-    const display = state.schools[tok]?.display_name || LANE_DISPLAY[tok] || tok;
-    const swatch = state.schools[tok]?.color_palette?.[2]
-                || state.schools[tok]?.color_hex
-                || "#888";
-    const count = counts.get(i) || 0;
+  let comparatorTotal = 0;
+  for (const tok of COMPARATOR_LANES) comparatorTotal += counts.get(tok) || 0;
+
+  for (const lane of state.renderLanes) {
     const row = document.createElement("div");
-    row.className = "lane-row";
-    row.dataset.lane = tok;
     row.style.height = LANE_H + "px";
-    row.innerHTML = `
-      <span class="swatch-bar" style="background:${swatch}"></span>
-      <div class="lane-meta">
-        <span class="lane-name">${escape(display)}</span>
-        <span class="lane-count">${count} ${count === 1 ? "thinker" : "thinkers"}</span>
-      </div>
-    `;
+    row.dataset.lane = lane.key;
+
+    if (lane.kind === "group") {
+      row.className = "lane-row lane-row--group" + (lane.expanded ? " is-expanded" : "");
+      row.setAttribute("role", "button");
+      row.setAttribute("tabindex", "0");
+      row.setAttribute("aria-expanded", lane.expanded ? "true" : "false");
+      row.innerHTML = `
+        <span class="swatch-bar"></span>
+        <div class="lane-meta">
+          <span class="lane-name">${escape(COMPARATOR_GROUP_LABEL)}</span>
+          <span class="lane-count">${comparatorTotal} thinkers · ${COMPARATOR_LANES.length} schools</span>
+        </div>
+        <span class="lane-chevron" aria-hidden="true">▸</span>
+      `;
+      const toggle = () => { state.comparatorExpanded = !state.comparatorExpanded; rerender(); };
+      row.addEventListener("click", toggle);
+      row.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggle(); }
+      });
+    } else {
+      const tok = lane.token;
+      const display = state.schools[tok]?.display_name || LANE_DISPLAY[tok] || tok;
+      const swatch = state.schools[tok]?.color_palette?.[2]
+                  || state.schools[tok]?.color_hex
+                  || colorFor({ school_color_token: tok }, 2);
+      const count = counts.get(tok) || 0;
+      const subClass = lane.kind === "sub" ? " lane-row--sub" : "";
+      row.className = "lane-row" + subClass;
+      row.innerHTML = `
+        <span class="swatch-bar" style="background:${swatch}"></span>
+        <div class="lane-meta">
+          <span class="lane-name">${escape(display)}</span>
+          <span class="lane-count">${count} ${count === 1 ? "thinker" : "thinkers"}</span>
+        </div>
+      `;
+    }
     laneRailEl.appendChild(row);
   }
-  laneRailEl.style.height = (LANE_ORDER.length * LANE_H) + "px";
+  laneRailEl.style.height = (state.renderLanes.length * LANE_H) + "px";
 }
 
 // ---------- render: era strip -----------
@@ -408,13 +446,13 @@ function renderEraBands() {
     r.setAttribute("x", x);
     r.setAttribute("y", 0);
     r.setAttribute("width", w);
-    r.setAttribute("height", LANE_ORDER.length * LANE_H);
+    r.setAttribute("height", state.renderLanes.length * LANE_H);
     r.setAttribute("fill", era.fill);
     r.setAttribute("fill-opacity", era.fillOpacity);
     g.appendChild(r);
   }
   // lane separators
-  for (let i = 1; i < LANE_ORDER.length; i++) {
+  for (let i = 1; i < state.renderLanes.length; i++) {
     const line = document.createElementNS(ns, "line");
     line.setAttribute("class", "lane-separator");
     line.setAttribute("x1", 0);
@@ -573,16 +611,21 @@ function renderAxis() {
 
 // ---------- render: orchestrator -----------
 function renderAll() {
+  refreshLayoutConstants();
+  computeRenderLanes();
+  // Reapply layout in case visibleLanes / expansion changed.
+  computeLayout();
   const w = totalWidth();
   const h = totalHeight();
+  const laneCount = state.renderLanes.length;
   canvas.style.width = w + "px";
   canvas.style.height = h + "px";
   dotsLayer.style.width = w + "px";
-  dotsLayer.style.height = (LANE_ORDER.length * LANE_H) + "px";
+  dotsLayer.style.height = (laneCount * LANE_H) + "px";
   svg.setAttribute("width", w);
-  svg.setAttribute("height", LANE_ORDER.length * LANE_H);
+  svg.setAttribute("height", laneCount * LANE_H);
   svg.style.width = w + "px";
-  svg.style.height = (LANE_ORDER.length * LANE_H) + "px";
+  svg.style.height = (laneCount * LANE_H) + "px";
   while (svg.firstChild) svg.removeChild(svg.firstChild);
 
   renderLaneRail();
@@ -592,6 +635,15 @@ function renderAll() {
   renderDateBars();
   renderDots();
   renderAxis();
+}
+
+// Recompute lane order + filter and re-render. Preserves scroll position
+// horizontally; vertical position resets only when lane count changes meaningfully.
+function rerender() {
+  const prevLeft = scroller.scrollLeft;
+  renderAll();
+  scroller.scrollLeft = prevLeft;
+  renderFilterChips();
 }
 
 // ---------- canvas pan (drag) + wheel + zoom -----------
@@ -1019,6 +1071,86 @@ readingModeBtn.addEventListener("click", () => {
   const on = !document.body.classList.contains("is-reading-mode");
   setReadingMode(on);
 });
+
+// ---------- filter drawer (school visibility) -----------
+const filterBtn = document.getElementById("filterBtn");
+const filterDrawer = document.getElementById("filterDrawer");
+const filterChipsEl = document.getElementById("filterChips");
+
+function renderFilterChips() {
+  if (!filterChipsEl) return;
+  filterChipsEl.innerHTML = "";
+
+  // Preset row.
+  const presets = document.createElement("div");
+  presets.className = "filter-chip-row";
+  presets.innerHTML = `
+    <button class="filter-chip filter-chip--preset" data-preset="vedanta">Vedānta only</button>
+    <button class="filter-chip filter-chip--preset" data-preset="all">All schools</button>
+    <button class="filter-chip filter-chip--preset" data-preset="comparators">Comparators only</button>
+  `;
+  filterChipsEl.appendChild(presets);
+
+  // Per-school chips.
+  const chipsRow = document.createElement("div");
+  chipsRow.className = "filter-chip-row";
+  const makeChip = (key, label, color) => {
+    const on = state.visibleLanes.has(key);
+    const btn = document.createElement("button");
+    btn.className = "filter-chip" + (on ? " is-on" : "");
+    btn.dataset.lane = key;
+    btn.style.setProperty("--chip-color", color);
+    btn.innerHTML = `<span class="chip-swatch"></span>${escape(label)}`;
+    btn.addEventListener("click", () => {
+      if (state.visibleLanes.has(key)) state.visibleLanes.delete(key);
+      else state.visibleLanes.add(key);
+      rerender();
+    });
+    return btn;
+  };
+  for (const tok of LANE_ORDER) {
+    if (!VEDANTA_LANES.has(tok)) continue;
+    const label = state.schools[tok]?.display_name || LANE_DISPLAY[tok] || tok;
+    const color = state.schools[tok]?.color_palette?.[2] || colorFor({ school_color_token: tok }, 2);
+    chipsRow.appendChild(makeChip(tok, label, color));
+  }
+  chipsRow.appendChild(makeChip(COMPARATOR_GROUP_KEY, COMPARATOR_GROUP_LABEL, "#475569"));
+  filterChipsEl.appendChild(chipsRow);
+
+  // Wire presets.
+  filterChipsEl.querySelectorAll("[data-preset]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const p = btn.dataset.preset;
+      state.visibleLanes.clear();
+      if (p === "vedanta") {
+        for (const t of VEDANTA_LANES) state.visibleLanes.add(t);
+      } else if (p === "comparators") {
+        state.visibleLanes.add(COMPARATOR_GROUP_KEY);
+        state.comparatorExpanded = true;
+      } else {
+        for (const t of VEDANTA_LANES) state.visibleLanes.add(t);
+        state.visibleLanes.add(COMPARATOR_GROUP_KEY);
+      }
+      rerender();
+    });
+  });
+}
+
+if (filterBtn) {
+  filterBtn.addEventListener("click", () => {
+    const open = filterDrawer.classList.toggle("is-open");
+    filterDrawer.setAttribute("aria-hidden", open ? "false" : "true");
+    filterBtn.classList.toggle("is-active", open);
+  });
+  // Close drawer on outside click.
+  document.addEventListener("click", (e) => {
+    if (!filterDrawer.classList.contains("is-open")) return;
+    if (filterDrawer.contains(e.target) || filterBtn.contains(e.target)) return;
+    filterDrawer.classList.remove("is-open");
+    filterDrawer.setAttribute("aria-hidden", "true");
+    filterBtn.classList.remove("is-active");
+  });
+}
 
 // ---------- about modal -----------
 const aboutBtn = document.getElementById("aboutBtn");
