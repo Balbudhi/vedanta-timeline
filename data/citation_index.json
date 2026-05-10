@@ -7047,6 +7047,159 @@
       "sanskrit_iast": "nirāsakasyāpi na tāvad utsahe maheśa ! hātuṃ tava pādapaṅkajam\nruṣā nirasto 'pi śiśuḥ stanandhayo na jātu mātuś caraṇau jihāsati",
       "english_close": "Even as one cast off, I still do not dare, O great Lord, to abandon your lotus-foot. Even a suckling child, though pushed away in anger, never wishes to leave its mother's feet.",
       "source": "full_translations/yamuna__stotra-ratna.md#YStr 26"
+    },
+    "jaimini/mimamsa-sutra/1.1.1": {
+      "thinker_id": "jaimini",
+      "work_id": "mimamsa-sutra",
+      "locus": "Mīmāṃsā-Sūtra 1.1.1",
+      "locus_short": "MS 1.1.1",
+      "sanskrit_iast": "athāto dharmajijñāsā",
+      "english_close": "Now, therefore, the inquiry into dharma.",
+      "source": "materials/primary_texts/sanskrit/comparator/jaimini_mimamsa_sutra.txt#jaim_1,1.1"
+    },
+    "jaimini/mimamsa-sutra/1.1.2": {
+      "thinker_id": "jaimini",
+      "work_id": "mimamsa-sutra",
+      "locus": "Mīmāṃsā-Sūtra 1.1.2",
+      "locus_short": "MS 1.1.2",
+      "sanskrit_iast": "codanālakṣaṇo 'rtho dharmaḥ",
+      "english_close": "Dharma is the object characterized by injunction.",
+      "source": "materials/primary_texts/sanskrit/comparator/jaimini_mimamsa_sutra.txt#jaim_1,1.2"
+    },
+    "jaimini/mimamsa-sutra/1.3.1": {
+      "thinker_id": "jaimini",
+      "work_id": "mimamsa-sutra",
+      "locus": "Mīmāṃsā-Sūtra 1.3.1",
+      "locus_short": "MS 1.3.1",
+      "sanskrit_iast": "dharmasya śabdamūlatvād aśabdam anapekṣaṃ syāt",
+      "english_close": "Because dharma has language as its root, the non-verbal should not be expected there.",
+      "source": "materials/primary_texts/sanskrit/comparator/jaimini_mimamsa_sutra.txt#jaim_1,3.1"
+    },
+    "patanjali/yoga-sutra/3.13": {
+      "thinker_id": "patanjali",
+      "work_id": "yoga-sutra",
+      "locus": "Yoga-Sūtra 3.13",
+      "locus_short": "YS 3.13",
+      "sanskrit_iast": "etena bhūtendriyeṣu dharmalakṣaṇāvasthāpariṇāmā vyākhyātāḥ",
+      "english_close": "By this, the transformations of property, mark, and state in the elements and senses are explained.",
+      "source": "materials/primary_texts/sanskrit/comparator/patanjali_yoga_sutra.txt#ys_3.13"
+    },
+    "patanjali/yoga-sutra/3.14": {
+      "thinker_id": "patanjali",
+      "work_id": "yoga-sutra",
+      "locus": "Yoga-Sūtra 3.14",
+      "locus_short": "YS 3.14",
+      "sanskrit_iast": "śāntoditāvyapadeśyadharmānupātī dharmī",
+      "english_close": "The substrate conforms to properties that are quiescent, arisen, and unexpressed.",
+      "source": "materials/primary_texts/sanskrit/comparator/patanjali_yoga_sutra.txt#ys_3.14"
+    },
+    "patanjali/yoga-sutra/4.29": {
+      "thinker_id": "patanjali",
+      "work_id": "yoga-sutra",
+      "locus": "Yoga-Sūtra 4.29",
+      "locus_short": "YS 4.29",
+      "sanskrit_iast": "prasaṃkhyāne 'py akusīdasya sarvathā vivekakhyāter dharmameghaḥ samādhiḥ",
+      "english_close": "For one who is not attached even to discriminative knowledge, through complete discriminative insight, there is the samādhi called dharma-megha.",
+      "source": "materials/primary_texts/sanskrit/comparator/patanjali_yoga_sutra.txt#ys_4.29"
+    },
+    "isvarakrsna/samkhya-karika/40": {
+      "thinker_id": "isvarakrsna",
+      "work_id": "samkhya-karika",
+      "locus": "Sāṃkhya-Kārikā 40",
+      "locus_short": "SK 40",
+      "sanskrit_iast": "pūrvotpannam asaktaṃ niyataṃ mahadādisūkṣmaparyantam / saṃsarati nirupabhogaṃ bhāvair adhivāsitaṃ liṅgam //",
+      "english_close": "The subtle body, produced previously, unattached, fixed, extending from mahat down to the subtle elements, transmigrates without enjoyment, permeated by the bhāvas.",
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_40"
+    },
+    "isvarakrsna/samkhya-karika/43": {
+      "thinker_id": "isvarakrsna",
+      "work_id": "samkhya-karika",
+      "locus": "Sāṃkhya-Kārikā 43",
+      "locus_short": "SK 43",
+      "sanskrit_iast": "sāṃsiddhikāś ca bhāvāḥ prākṛtikā vaikṛtāś ca dharmādyāḥ / dṛṣṭāḥ karaṇāśrayiṇaḥ kāryāśrayiṇaś ca kalalādyāḥ //",
+      "english_close": "The states beginning with dharma are seen as innate, natural, and derivative; they rest in the instruments, and, like the embryonic stages and the rest, they also rest in the effect.",
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_43"
+    },
+    "isvarakrsna/samkhya-karika/44": {
+      "thinker_id": "isvarakrsna",
+      "work_id": "samkhya-karika",
+      "locus": "Sāṃkhya-Kārikā 44",
+      "locus_short": "SK 44",
+      "sanskrit_iast": "dharmeṇa gamanam ūrdhvaṃ gamanam adhastād bhavaty adharmeṇa / jñānena cāpavargo viparyayād iṣyate bandhaḥ //",
+      "english_close": "By dharma there is ascent upward; by adharma there is descent downward. By knowledge there is release; by the opposite, bondage is held to occur.",
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_44"
+    },
+    "kanada/vaisesika-sutra/1.1.1": {
+      "thinker_id": "kanada",
+      "work_id": "vaisesika-sutra",
+      "locus": "Vaiśeṣika-Sūtra 1.1.1",
+      "locus_short": "VS 1.1.1",
+      "sanskrit_iast": "athāto dharmaṃ vyākhyāsyāmaḥ",
+      "english_close": "Now, therefore, we shall explain dharma.",
+      "source": "materials/primary_texts/sanskrit/comparator/kanada_vaisesika_sutra.txt#kvs_1,1.1"
+    },
+    "kanada/vaisesika-sutra/1.1.2": {
+      "thinker_id": "kanada",
+      "work_id": "vaisesika-sutra",
+      "locus": "Vaiśeṣika-Sūtra 1.1.2",
+      "locus_short": "VS 1.1.2",
+      "sanskrit_iast": "yato 'bhyudayaniḥśreyasasiddhiḥ sa dharmaḥ",
+      "english_close": "That from which the accomplishment of flourishing and the highest good arises is dharma.",
+      "source": "materials/primary_texts/sanskrit/comparator/kanada_vaisesika_sutra.txt#kvs_1,1.2"
+    },
+    "kanada/vaisesika-sutra/1.1.15": {
+      "thinker_id": "kanada",
+      "work_id": "vaisesika-sutra",
+      "locus": "Vaiśeṣika-Sūtra 1.1.15",
+      "locus_short": "VS 1.1.15",
+      "sanskrit_iast": "dravyāśrayy aguṇavān saṃyogavibhāgeṣv akāraṇam anapekṣa iti guṇalakṣaṇam",
+      "english_close": "The mark of a quality is this: it resides in a substance, is not itself possessed of qualities, is not a cause with respect to conjunction and disjunction, and is non-dependent.",
+      "source": "materials/primary_texts/sanskrit/comparator/kanada_vaisesika_sutra.txt#kvs_1,1.15"
+    },
+    "kanada/vaisesika-sutra/1.1.16": {
+      "thinker_id": "kanada",
+      "work_id": "vaisesika-sutra",
+      "locus": "Vaiśeṣika-Sūtra 1.1.16",
+      "locus_short": "VS 1.1.16",
+      "sanskrit_iast": "ekadravyam aguṇaṃ saṃyogavibhāgeṣv anapekṣaṃ kāraṇam iti karmalakṣaṇam",
+      "english_close": "The mark of motion is this: it resides in a single substance, is without qualities, is non-dependent, and is a cause with respect to conjunction and disjunction.",
+      "source": "materials/primary_texts/sanskrit/comparator/kanada_vaisesika_sutra.txt#kvs_1,1.16"
+    },
+    "umasvati/tattvartha-sutra/5.1": {
+      "thinker_id": "umasvati",
+      "work_id": "tattvartha-sutra",
+      "locus": "Tattvārtha-Sūtra 5.1",
+      "locus_short": "TS 5.1",
+      "sanskrit_iast": "ajīvākāyā dharmādharmākāśapudgalāḥ",
+      "english_close": "The non-living extended entities are dharma, adharma, space, and matter.",
+      "source": "materials/primary_texts/sanskrit/comparator/umasvati_tattvartha_sutra.txt#adhyaya-5-sutra-1"
+    },
+    "umasvati/tattvartha-sutra/5.2": {
+      "thinker_id": "umasvati",
+      "work_id": "tattvartha-sutra",
+      "locus": "Tattvārtha-Sūtra 5.2",
+      "locus_short": "TS 5.2",
+      "sanskrit_iast": "dravyāṇi",
+      "english_close": "These are substances.",
+      "source": "materials/primary_texts/sanskrit/comparator/umasvati_tattvartha_sutra.txt#adhyaya-5-sutra-2"
+    },
+    "umasvati/tattvartha-sutra/5.17": {
+      "thinker_id": "umasvati",
+      "work_id": "tattvartha-sutra",
+      "locus": "Tattvārtha-Sūtra 5.17",
+      "locus_short": "TS 5.17",
+      "sanskrit_iast": "gatisthityupagrahau dharmādharmayor upakāraḥ",
+      "english_close": "The function of dharma and adharma is to assist motion and rest.",
+      "source": "materials/primary_texts/sanskrit/comparator/umasvati_tattvartha_sutra.txt#adhyaya-5-sutra-17"
+    },
+    "umasvati/tattvartha-sutra/10.8": {
+      "thinker_id": "umasvati",
+      "work_id": "tattvartha-sutra",
+      "locus": "Tattvārtha-Sūtra 10.8",
+      "locus_short": "TS 10.8",
+      "sanskrit_iast": "dharmāstikāyā bhāvāt",
+      "english_close": "Because the dharmāstikāya exists.",
+      "source": "materials/primary_texts/sanskrit/comparator/umasvati_tattvartha_sutra.txt#adhyaya-10-sutra-8"
     }
   },
   "aliases": {

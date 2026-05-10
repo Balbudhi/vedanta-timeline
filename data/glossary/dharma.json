@@ -3,42 +3,327 @@
   "term_iast": "dharma",
   "term_devanagari": "धर्म",
   "literal": "that which holds, supports, sustains; from √dhṛ 'to hold, to bear'",
-  "aliases": ["dharma", "Dharma", "dharmaḥ", "dharmaṃ", "dharmasya", "dharmāḥ", "dharmān"],
+  "aliases": [
+    "dharma",
+    "Dharma",
+    "dharmaḥ",
+    "dharmaṃ",
+    "dharmasya",
+    "dharmāḥ",
+    "dharmān"
+  ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus",
+  "last_verified_by": "glossary-wave1-codex54",
   "invariant_definition": "*Dharma* is a load-bearing term across ritual theory, jurisprudence, ontology, yoga, and Buddhist phenomenology. The root sense is 'that which upholds,' but philosophical use immediately splits into several linked registers. In Mīmāṃsā, *dharma* is what is known through Vedic injunction and enacted through prescribed performance; the debate then turns on whether an act is *kratvartha* or *puruṣārtha*, and on how unseen efficacy connects action and result. In epic and social discourse, *dharma* becomes the right ordering of role, relation, and circumstance. In Nyāya-Vaiśeṣika, a *dharma* of a *dharmin* is a property borne by a substance. In Buddhism, *dharma* or *dhamma* can name both the teaching and the elementary factors analyzed as the constituents of experience. Vedānta inherits all these uses but reorders them around liberation: which *dharma* binds, which purifies, which continues as devotion, and whether the highest state lies beyond enjoinment or fulfills it.",
   "per_school": [
     {
-      "school": "Pūrva-Mīmāṃsā",
-      "definition": "*Dharma* is that which is known from Vedic injunction and not from perception alone. Its paradigm form is enjoined action whose authority comes from *codanā*. The later distinction between *kratvartha* and *puruṣārtha* marks whether a prescription serves the integrity of the sacrifice itself or a human end. *Dharma* is thus fundamentally norm-governed performance, not private morality.",
-      "primary_loci": ["Jaimini-Sūtra 1.1.2", "Śabara-Bhāṣya on Jaimini-Sūtra 1.1.2 [NOT YET RETRIEVED]", "Tantravārttika on Jaimini-Sūtra 1.1.2 [NOT YET RETRIEVED]"]
-    },
-    {
       "school": "Advaita",
-      "definition": "*Dharma* in the sense of enjoined action belongs to the preparatory sphere. It purifies the mind and stabilizes life, but it does not itself produce *mokṣa*, since liberation is not a product. The knower is beyond binding *vidhi* and *niṣedha*, though he may continue outwardly in dharmic conduct at the transactional level. Advaita also uses *dharma* in the property sense precisely to deny that *brahman* is a qualified bearer among other qualified things.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.4", "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 4.4.22", "Bhagavad-Gītā-Bhāṣya 18.66"]
+      "definition": "Within Advaita, *svadharma* belongs to the preparatory economy of *adhikāra* and purification rather than to the immediate production of *mokṣa* [[BhR 1.1 ṭīkā 12](<cite://madhusudana/bhakti-rasayana/1.1 ṭīkā.12>)]. Madhusūdana accordingly cites the Bhāgavata to show that exclusive Hari-bhajana outranks mere perseverance in one’s own duty, since dharma pursued as karma does not by itself culminate in the highest end [[BhR 1.1 ṭīkā 12](<cite://madhusudana/bhakti-rasayana/1.1 ṭīkā.12>)].",
+      "primary_loci": [
+        "Bhakti-Rasāyana 1.1 ṭīkā 12"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhusudana/bhakti-rasayana/1.1 ṭīkā.12",
+          "locus_short": "BhR 1.1 ṭīkā 12"
+        }
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Dharma* remains real obligation because the world and the self are real. Prescribed action, social role, and worship are not superseded by a realization that dissolves difference; they are gathered into *bhagavad-ārādhana*. The term also operates in technical ontology, as in *dharma-bhūta-jñāna*, where *dharma* keeps its sense of a real qualifying attribute inseparable from the self.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§137-143", "Śrī-Bhāṣya 3.4", "Bhagavad-Gītā-Bhāṣya (Rāmānuja) 18.66"]
+      "definition": "*Dharma* retains binding reality because śāstra assigns distinct yet non-conflicting domains to Vedic and Pāñcarātra injunction, and Vedānta Deśika speaks of a normatively settled *dharma* governing their proper employment [[PR 1, Avirodhopayogābhyām](cite://vedanta-desika/pancaratra-raksha/1.vaikhānasa-pāñcarātra-avirodha)]. At the existential level, Yāmuna treats mere *dharma-niṣṭhā* as insufficient unless it matures into surrender at the Lord’s feet, so dharma is preserved but gathered into *prapatti* and *bhagavad-śeṣatva* [[YStr 22-24](cite://yamuna/stotra-ratna/22-24)].",
+      "primary_loci": [
+        "Pāñcarātra-Rakṣā 1, Avirodhopayogābhyām",
+        "Stotra-Ratna 22-24"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vedanta-desika/pancaratra-raksha/1.vaikhānasa-pāñcarātra-avirodha",
+          "locus_short": "PR 1, Avirodhopayogābhyām"
+        },
+        {
+          "cite": "cite://yamuna/stotra-ratna/22-24",
+          "locus_short": "YStr 22-24"
+        }
+      ]
     },
     {
       "school": "Tattva-vāda",
-      "definition": "*Dharma* is the real normative order of a differentiated cosmos governed by Viṣṇu. Duties are not symbolic aids to be transcended into non-dual knowledge; they are objective demands fitted to the nature and station of real agents. Action in conformity with *dharma* therefore matters because Tattva-vāda holds difference, merit, and divine rule to be all real.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1 [NOT YET RETRIEVED]", "Mahābhārata-Tātparya-Nirṇaya 1 [NOT YET RETRIEVED]"]
+      "definition": "Madhva uses *dharma* with full realist force: the *pakṣa*, *sapakṣa*, and *vipakṣa* are each specified through a borne property, so inferential practice tracks real *dharma*-relations rather than merely conceptual imputations [[MUK 239.15](<cite://madhva/mithyatvanumana-khandana/239, clause 15>)] [[MUK 239.16](<cite://madhva/mithyatvanumana-khandana/239, clause 16>)] [[MUK 239.17](<cite://madhva/mithyatvanumana-khandana/239, clause 17>)]. The same realism governs his anti-Buddhist polemic: the fault lies in treating *dharmas* as self-standing items, whereas their intelligibility depends upon the higher order of Viṣṇu’s governance and not upon isolated factor-ontology [[VTV 3.21](cite://madhva/visnu-tattva-vinirnaya/3.21)].",
+      "primary_loci": [
+        "Mithyātvānumāna-Khaṇḍana p. 239, clauses 15-17",
+        "Viṣṇu-Tattva-Vinirṇaya 3.21"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/mithyatvanumana-khandana/239, clause 15",
+          "locus_short": "MUK 239.15"
+        },
+        {
+          "cite": "cite://madhva/mithyatvanumana-khandana/239, clause 16",
+          "locus_short": "MUK 239.16"
+        },
+        {
+          "cite": "cite://madhva/mithyatvanumana-khandana/239, clause 17",
+          "locus_short": "MUK 239.17"
+        },
+        {
+          "cite": "cite://madhva/visnu-tattva-vinirnaya/3.21",
+          "locus_short": "VTV 3.21"
+        }
+      ]
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "In Vallabha’s ontology, *dharma* is retained in the strong sense of a real property: *nāma-rūpa* are *kārya-dharmas*, predicates of the manifested effect and not illusory overlays on Brahman [[BSB 1.1.4](cite://vallabha/anu-bhasya/1.1.4)] [[AB 1.1.4d](cite://vallabha/anubhasya/1.1.4d)]. Because the effect is Brahman’s own manifestation under *avikṛta-pariṇāma*, dharma-language marks real determinations within manifestation without compromising pure non-duality [[BSB 1.1.4](cite://vallabha/anu-bhasya/1.1.4)] [[AB 1.1.4d](cite://vallabha/anubhasya/1.1.4d)].",
+      "primary_loci": [
+        "Aṇu-Bhāṣya / Anubhāṣya on Brahma-Sūtra 1.1.4"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.1.4",
+          "locus_short": "BSB 1.1.4"
+        },
+        {
+          "cite": "cite://vallabha/anubhasya/1.1.4d",
+          "locus_short": "AB 1.1.4d"
+        }
+      ]
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "In Sāṃkhya, *dharma* is one of the *bhāvas* that inhabit the *liṅga* and condition transmigration, together with jñāna, vairāgya, and aiśvarya [[SK 40](cite://isvarakrsna/samkhya-karika/40)] [[SK 43](cite://isvarakrsna/samkhya-karika/43)]. Its causal valence is explicit: dharma carries the stream upward, adharma downward, and only jñāna terminates the process in *apavarga* [[SK 44](cite://isvarakrsna/samkhya-karika/44)].",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 40",
+        "Sāṃkhya-Kārikā 43-44"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/40",
+          "locus_short": "SK 40"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/43",
+          "locus_short": "SK 43"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/44",
+          "locus_short": "SK 44"
+        }
+      ]
     },
     {
       "school": "Yoga",
-      "definition": "Yoga uses *dharma* both in the general sense of lawful order and in the distinctive expression *dharma-megha-samādhi*. At that stage even attachment to extraordinary attainments and to merit falls away, and the yogin stands at the edge of *kaivalya*. The term therefore marks not only duty but the raining down or overflowing of the highest condition.",
-      "primary_loci": ["Yoga-Sūtra 4.29-31"]
+      "definition": "In Yoga, *dharma* names the determinable trait-structure through which a *dharmī* is followed across change; the transformations of property, temporal mark, and state are generalized from citta to the elements and senses [[YS 3.13](cite://patanjali/yoga-sutra/3.13)] [[YS 3.14](cite://patanjali/yoga-sutra/3.14)]. At the soteriological limit, however, the culminating concentration is *dharma-megha-samādhi*, where even attachment to discriminative knowledge is relinquished and the path stands on the threshold of final release [[YS 4.29](cite://patanjali/yoga-sutra/4.29)].",
+      "primary_loci": [
+        "Yoga-Sūtra 3.13-14",
+        "Yoga-Sūtra 4.29"
+      ],
+      "citations": [
+        {
+          "cite": "cite://patanjali/yoga-sutra/3.13",
+          "locus_short": "YS 3.13"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/3.14",
+          "locus_short": "YS 3.14"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/4.29",
+          "locus_short": "YS 4.29"
+        }
+      ]
     },
     {
-      "school": "Buddhism",
-      "definition": "*Dhamma* can mean the Buddha's teaching, the norm discovered in awakening, or the elementary conditioned factors out of which experience is analyzed. In Abhidharma this last sense becomes technical: persons are not irreducible substances but analyzable complexes of *dharmas*. The term therefore cannot be reduced either to 'religion' or to 'duty.'",
-      "primary_loci": ["Dhammacakkappavattana-Sutta (SN 56.11)", "Dhammasaṅgaṇī 1", "Saṃyutta-Nikāya 22.59"]
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "Kaṇāda opens Vaiśeṣika by defining *dharma* as that from which *abhyudaya* and *niḥśreyasa* are accomplished, so the term first names a real causal-normative principle and not merely social duty [[VS 1.1.1](cite://kanada/vaisesika-sutra/1.1.1)] [[VS 1.1.2](cite://kanada/vaisesika-sutra/1.1.2)]. Within the padārtha-analysis that follows, explanatory order is carried by *dravya*, *guṇa*, and *karma*; a guṇa is an *aguṇavat* attribute resting in a substance, which is why Nyāya-Vaiśeṣika can speak naturally of a *dharma* of a *dharmin* without leaving its ontological register [[VS 1.1.15](cite://kanada/vaisesika-sutra/1.1.15)] [[VS 1.1.16](cite://kanada/vaisesika-sutra/1.1.16)].",
+      "primary_loci": [
+        "Vaiśeṣika-Sūtra 1.1.1-2",
+        "Vaiśeṣika-Sūtra 1.1.15-16"
+      ],
+      "citations": [
+        {
+          "cite": "cite://kanada/vaisesika-sutra/1.1.1",
+          "locus_short": "VS 1.1.1"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/1.1.2",
+          "locus_short": "VS 1.1.2"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/1.1.15",
+          "locus_short": "VS 1.1.15"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/1.1.16",
+          "locus_short": "VS 1.1.16"
+        }
+      ]
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "Jaimini fixes *dharma* as the very object of inquiry: one turns to Mīmāṃsā not toward a highest substance but toward the ascertainment of what is to be done [[MS 1.1.1](cite://jaimini/mimamsa-sutra/1.1.1)]. Its lakṣaṇa is *codanā-lakṣaṇo 'rtho dharmaḥ*, and because dharma is rooted in *śabda* the non-verbal is not to be expected as an independent source for it [[MS 1.1.2](cite://jaimini/mimamsa-sutra/1.1.2)] [[MS 1.3.1](cite://jaimini/mimamsa-sutra/1.3.1)].",
+      "primary_loci": [
+        "Mīmāṃsā-Sūtra 1.1.1-2",
+        "Mīmāṃsā-Sūtra 1.3.1"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/1.1.1",
+          "locus_short": "MS 1.1.1"
+        },
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/1.1.2",
+          "locus_short": "MS 1.1.2"
+        },
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/1.3.1",
+          "locus_short": "MS 1.3.1"
+        }
+      ]
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "Nāgārjuna presses the term *dharma* to the point of de-reification: no dharma can be shown to arise as existent, non-existent, or both, and therefore no substantialist model of causal support survives analysis [[MMK 1.7](cite://nagarjuna/mula-madhyamaka-karika/1.7)] [[MMK 1.8](cite://nagarjuna/mula-madhyamaka-karika/1.8)] [[MMK 1.9](cite://nagarjuna/mula-madhyamaka-karika/1.9)]. Buddha-dharma itself is then articulated through the two truths: conventionally there is *dharmadeśanā*, but ultimately no dharma arises independently and therefore none is non-empty [[MMK 24.8](cite://nagarjuna/mula-madhyamaka-karika/24.8)] [[MMK 24.12](cite://nagarjuna/mula-madhyamaka-karika/24.12)] [[MMK 24.19](cite://nagarjuna/mula-madhyamaka-karika/24.19)]. When all dharmas are empty, nirvāṇa too is the pacification of all proliferations rather than the disclosure of a final dharma-substrate [[MMK 25.22](cite://nagarjuna/mula-madhyamaka-karika/25.22)] [[MMK 25.24](cite://nagarjuna/mula-madhyamaka-karika/25.24)] [[MMK 18.7](cite://nagarjuna/mula-madhyamaka-karika/18.7)].",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 1.7-9",
+        "Mūla-Madhyamaka-Kārikā 24.8, 24.12, 24.19",
+        "Mūla-Madhyamaka-Kārikā 25.22, 25.24"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/1.7",
+          "locus_short": "MMK 1.7"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/1.8",
+          "locus_short": "MMK 1.8"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/1.9",
+          "locus_short": "MMK 1.9"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/18.7",
+          "locus_short": "MMK 18.7"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.8",
+          "locus_short": "MMK 24.8"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.12",
+          "locus_short": "MMK 24.12"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.19",
+          "locus_short": "MMK 24.19"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/25.22",
+          "locus_short": "MMK 25.22"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/25.24",
+          "locus_short": "MMK 25.24"
+        }
+      ]
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "Vasubandhu treats ordinary imputations of self and dharma as moments internal to *vijñāna-pariṇāma*; what appears as a field of discrete dharmas is already representation-only [[Triṃś 1](cite://vasubandhu/trimsika/1)]. The school’s decisive move is *dharma-nairātmya*: the grāhya-grāhaka structure imagined in dharmas is denied as *kalpitātman*, not by abolishing all appearance but by redescribing it through the three natures and the threefold *niḥsvabhāvatā* [[Viṃś 10](<cite://vasubandhu/vimsatika/10 and Entry into *Dharma-Nairātmya*>)] [[Triṃś 23](cite://vasubandhu/trimsika/23)]. On that basis the ultimate among dharmas is *tathatā*, while the consummation of the path is spoken of as *dharmakāya* [[Triṃś 25](cite://vasubandhu/trimsika/25)] [[Triṃś 30](cite://vasubandhu/trimsika/30)].",
+      "primary_loci": [
+        "Triṃśikā 1, 23, 25, 30",
+        "Viṃśatikā 10 (Entry into Dharma-Nairātmya)"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/trimsika/1",
+          "locus_short": "Triṃś 1"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/23",
+          "locus_short": "Triṃś 23"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/25",
+          "locus_short": "Triṃś 25"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/30",
+          "locus_short": "Triṃś 30"
+        },
+        {
+          "cite": "cite://vasubandhu/vimsatika/10 and Entry into *Dharma-Nairātmya*",
+          "locus_short": "Viṃś 10"
+        }
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Jainism",
+      "definition": "Jainism gives *dharma* a sharply technical sense: alongside *adharma*, *ākāśa*, and *pudgala*, it is one of the *ajīva-kāyas* and therefore one of the real dravyas of the cosmos [[TS 5.1](cite://umasvati/tattvartha-sutra/5.1)] [[TS 5.2](cite://umasvati/tattvartha-sutra/5.2)]. Its distinctive function is not merit but motion-medium: *dharma* aids movement, *adharma* aids rest, and the liberated soul’s upward movement is possible because the *dharmāstikāya* exists [[TS 5.17](cite://umasvati/tattvartha-sutra/5.17)] [[TS 10.8](cite://umasvati/tattvartha-sutra/10.8)].",
+      "primary_loci": [
+        "Tattvārtha-Sūtra 5.1-2",
+        "Tattvārtha-Sūtra 5.17",
+        "Tattvārtha-Sūtra 10.8"
+      ],
+      "citations": [
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/5.1",
+          "locus_short": "TS 5.1"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/5.2",
+          "locus_short": "TS 5.2"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/5.17",
+          "locus_short": "TS 5.17"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/10.8",
+          "locus_short": "TS 10.8"
+        }
+      ]
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     }
   ],
-  "see_also": ["karma", "jnana", "moksa", "samsara", "bhakti", "pramana"],
+  "see_also": [
+    "karma",
+    "jnana",
+    "moksa",
+    "samsara",
+    "bhakti",
+    "pramana"
+  ],
   "translator_note": "Avoid the lazy glosses 'religion,' 'duty,' and 'law' when used without qualification. 'Religion' imports a modern confessional category; 'duty' narrows the term to ethics; 'law' can make it sound merely juridical. *Dharma* names whatever upholds a normative, ontological, or soteriological order, and context decides which register is active."
 }

@@ -3,32 +3,336 @@
   "term_iast": "advaita",
   "term_devanagari": "अद्वैत",
   "literal": "non-duality, non-secondness; a- (not) + dvaita (duality, twoness)",
-  "aliases": ["advaita", "Advaita", "advaitam", "advayatva", "advaya"],
+  "aliases": [
+    "advaita",
+    "Advaita",
+    "advaitam",
+    "advayatva",
+    "advaya"
+  ],
   "invariant_definition": "*Advaita* does not mean a generic 'all is one.' It names the denial of a second independent reality, but the force of that denial depends on what kind of difference is being rejected. In Vedānta the term sits inside disputes about *bheda* and *abheda*, cause and effect, the status of the world, and the relation between *brahman*, *jīva*, and *jagat*. Śaṅkara's Advaita makes non-duality numerical and ultimate: only *brahman* is *pāramārthika*, while plurality is *vyāvahārika* and sublatable. Viśiṣṭādvaita preserves non-duality by denying a second substance outside *brahman* while retaining real internal differentiation as *cit* and *acit*. Vallabha's *śuddhādvaita* preserves non-duality while rejecting *māyā* as illusory appearance: the world is a real manifestation of *brahman*. Nimbārka and Caitanya traditions keep non-duality and difference together by treating dependence on *brahman* as irreducible. The term therefore marks a family of claims about how plurality belongs, or fails to belong, within the real; it is not a free-floating synonym for monism.",
   "per_school": [
     {
-      "school": "Advaita (Śaṅkara)",
-      "definition": "*Advaita* means that *brahman* alone is unsublated reality: *ekam eva advitīyam*. The difference between knower, known, and knowing belongs to *avidyā* and survives only at the *vyāvahārika* level. The school therefore reads the *mahāvākya*s as identity-statements and treats creation-language as *taṭastha-lakṣaṇa*, not as a report of real transformation in *brahman*.",
-      "primary_loci": ["Chāndogya-Upaniṣad-Bhāṣya 6.2.1", "Brahma-Sūtra-Bhāṣya 1.1.4", "Brahma-Sūtra-Bhāṣya 2.1.14"]
+      "school": "Advaita",
+      "definition": "Advaita names the unborn, sleepless, dreamless reality known when beginningless māyā is undone; duality is *māyāmātra*, while *advaita* alone is *paramārtha* [[MK 1.16-18](cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18)], [[MK 3.19-21](cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.19-21)]. Turīya is *prapañcopaśama*, *śānta*, *śiva*, and *advaita*, the self to be known [[MāṇḍU 7](cite://sankara/mandukya-bhasya/upaniṣad.7)]. The later dialectical tradition accordingly begins by establishing *dvaita-mithyātva* as the preliminary to *advaita-siddhi* [[AdvS 1a](cite://madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1a)].",
+      "primary_loci": [
+        "Māṇḍūkya-Kārikā 1.16-18",
+        "Māṇḍūkya-Kārikā 3.19-21",
+        "Māṇḍūkya-Upaniṣad 7 with Śaṅkara-bhāṣya",
+        "Advaita-Siddhi, Prathama-pariccheda, Section 1a"
+      ],
+      "citations": [
+        {
+          "cite": "cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18",
+          "locus_short": "MK 1.16-18"
+        },
+        {
+          "cite": "cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.19-21",
+          "locus_short": "MK 3.19-21"
+        },
+        {
+          "cite": "cite://sankara/mandukya-bhasya/upaniṣad.7",
+          "locus_short": "MāṇḍU 7"
+        },
+        {
+          "cite": "cite://madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1a",
+          "locus_short": "AdvS 1a"
+        }
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Advaita* is accepted only in qualified form. There is no second substance outside *brahman*, because *cit* and *acit* exist as the body of the Lord and are inseparably established in him. But non-duality does not cancel real plurality; it orders plurality within a single *śarīra-śarīrī* structure. The polemical target is therefore Śaṅkara's *nirviśeṣa* reading, not non-duality as such.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§82–95", "Śrī-Bhāṣya 1.1.1", "Śrī-Bhāṣya 2.1.9"]
+      "definition": "*Advaita-śruti* does not sublate *prapañca-sadbhāva*; *advitīya* excludes only a second equal or superior to Brahman [[Svs 31-35](cite://yamuna/siddhi-trayam/31-35)]. Brahman is Nārāyaṇa qualified by the totality of *cit* and *acit*, and the śrutis proclaim him as the inner self of all beings and the ground of their ordered dependence [[VS §1](cite://ramanuja/vedartha-samgraha/§1)], [[VS §6](cite://ramanuja/vedartha-samgraha/§6)]. The term therefore marks the unsurpassed unity of the whole in which differentiated sentient and non-sentient reals abide as inseparable modes of the one Lord [[VS §4](cite://ramanuja/vedartha-samgraha/§4)], [[VS §6](cite://ramanuja/vedartha-samgraha/§6)].",
+      "primary_loci": [
+        "Saṃvit-Siddhi 31-35",
+        "Vedārtha-Saṅgraha §§1, 4, 6"
+      ],
+      "citations": [
+        {
+          "cite": "cite://yamuna/siddhi-trayam/31-35",
+          "locus_short": "Svs 31-35"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§1",
+          "locus_short": "VS §1"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§4",
+          "locus_short": "VS §4"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§6",
+          "locus_short": "VS §6"
+        }
+      ]
     },
     {
-      "school": "Śuddhādvaita (Vallabha)",
-      "definition": "*Advaita* means that *brahman* alone exists, but the world is its real manifestation rather than an illusory appearance. Vallabha preserves non-duality by construing the world as *avikṛta-pariṇāma*: an emergence of real plurality that does not diminish or falsify the source. The denial is directed against both absolute difference and the Advaitin claim that plurality is merely *mithyā*.",
-      "primary_loci": ["Aṇu-Bhāṣya 1.1.2", "Tattvārtha-Dīpa-Nibandha, Śāstrārtha-Prakaraṇa §§50–60"]
+      "school": "Tattva-vāda",
+      "definition": "Here *advaita* is rejected because reality is ordered as *svatantra* and *asvatantra*; only Viṣṇu is independent, while all other reals remain permanently dependent [[TS 1-2](cite://madhva/tattva-sankhyana/1)], [[VTV 3.1-3.2](cite://madhva/visnu-tattva-vinirnaya/3.1)]. The appeal to ignorance cannot ground a secondless self, since whether the loss of non-duality stands apart from the self or not, the doctrine fails on both sides and *māyāvāda* is set aside [[Māyāvāda-Khaṇḍana, advaita-hāni](cite://madhva/mayavada-khandana/the loss of non-duality stands apart from the self's nature)], [[Māyāvāda-Khaṇḍana, anatireke](cite://madhva/mayavada-khandana/it does not stand apart)], [[Māyāvāda-Khaṇḍana, tan-matam akhilam](cite://madhva/mayavada-khandana/the whole doctrine is set aside)].",
+      "primary_loci": [
+        "Tattva-Saṅkhyāna 1-2",
+        "Viṣṇu-Tattva-Vinirṇaya 3.1-3.2",
+        "Māyāvāda-Khaṇḍana, p. 238 sequence"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/tattva-sankhyana/1",
+          "locus_short": "TS 1"
+        },
+        {
+          "cite": "cite://madhva/tattva-sankhyana/2",
+          "locus_short": "TS 2"
+        },
+        {
+          "cite": "cite://madhva/visnu-tattva-vinirnaya/3.1",
+          "locus_short": "VTV 3.1"
+        },
+        {
+          "cite": "cite://madhva/visnu-tattva-vinirnaya/3.2",
+          "locus_short": "VTV 3.2"
+        },
+        {
+          "cite": "cite://madhva/mayavada-khandana/the loss of non-duality stands apart from the self's nature",
+          "locus_short": "MāyK p. 238a"
+        },
+        {
+          "cite": "cite://madhva/mayavada-khandana/it does not stand apart",
+          "locus_short": "MāyK p. 238b"
+        },
+        {
+          "cite": "cite://madhva/mayavada-khandana/the whole doctrine is set aside",
+          "locus_short": "MāyK p. 238c"
+        }
+      ]
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "Non-duality here is the real non-separateness of the differentiated manifold from Brahman, since the unmanifest becomes articulated by *nāma-rūpa* without ceasing to be Brahman [[BṛU 1.4.7](cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.7)], [[BṛU 1.4.10](cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.10)]. Brahman is taught as both formed and formless, and *ahaṃ brahmāsmi* states an *abheda* that remains compatible with genuine differentiation [[BṛU 2.3](cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.3)], [[BṛU 1.4.10](cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.10)]. The soteriology accordingly retains *śravaṇa*, *manana*, *nididhyāsana*, and *upāsanā* as jointly load-bearing disciplines [[BṛU 2.4.5, 1.4.15](cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.4.5, 1.4.15)].",
+      "primary_loci": [
+        "Bṛhadāraṇyaka commentary fragments on 1.4.7",
+        "Bṛhadāraṇyaka commentary fragments on 1.4.10",
+        "Bṛhadāraṇyaka commentary fragments on 2.3.1 and 2.3.6",
+        "Bṛhadāraṇyaka commentary fragments on 2.4.5 and 1.4.15"
+      ],
+      "citations": [
+        {
+          "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.7",
+          "locus_short": "BṛU 1.4.7"
+        },
+        {
+          "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.10",
+          "locus_short": "BṛU 1.4.10"
+        },
+        {
+          "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.3",
+          "locus_short": "BṛU 2.3"
+        },
+        {
+          "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.4.5, 1.4.15",
+          "locus_short": "BṛU 2.4.5, 1.4.15"
+        }
+      ]
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "Non-duality is preserved through inseparability from Bhagavān, while difference remains real because *jīva* and world are distinct *śakti*s. The relation is not reduced either to identity or to a logically tractable middle term; it is *acintya*. In practice this lets the school affirm Kṛṣṇa's supremacy, real devotion, and real plurality without conceding a second independent reality over against him.",
-      "primary_loci": ["Tattva-Sandarbha §§51–56", "Bhagavat-Sandarbha §§1–7", "Kṛṣṇa-Sandarbha §28"]
+      "definition": "The *abheda-śāstras* are to be read together with real *bheda*, because the aggregate of *jīvas* stands to Bhagavān through his *svābhāvika* and *acintya-śakti* as rays to the sun [[PS §43](cite://jiva-gosvami/sat-sandarbha/§43)], [[PS §45](cite://jiva-gosvami/sat-sandarbha/§45)]. Once Bhagavān is fixed as the locus of *māyā* and the *jīva* as that which is deluded by *māyā*, worship of him alone becomes the operative *abhidheya* [[PS §44](cite://jiva-gosvami/sat-sandarbha/§44)]. Non-duality here thus names the inseparability of *śakti* and *śaktimat*, with Bhagavān as the *parama-svarūpa* of all and *prema* as the final *prayojana* [[PS §42](cite://jiva-gosvami/sat-sandarbha/§42)], [[PS §45](cite://jiva-gosvami/sat-sandarbha/§45)].",
+      "primary_loci": [
+        "Paramātma-Sandarbha §§42-45"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§42",
+          "locus_short": "PS §42"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§43",
+          "locus_short": "PS §43"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§44",
+          "locus_short": "PS §44"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§45",
+          "locus_short": "PS §45"
+        }
+      ]
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "Advaita here is the *abheda* inseparable from *svābhāvika-bheda*: the *jīva* is of the nature of cognition and dependent on Hari, yet atomic and distinct in each body [[DaŚ 1](cite://nimbarka/dasa-shloki/1)], [[VPS 2.3.42](cite://nimbarka/vedanta-parijata-saurabha/2.3.42)]. Because every entity is *brahmātmaka* while the threefold order of reality remains scripturally established, non-duality and plurality are both rooted in the nature of the real itself [[DaŚ 7](cite://nimbarka/dasa-shloki/7)], [[DaŚ 2](cite://nimbarka/dasa-shloki/2)]. Refuge at Kṛṣṇa's feet therefore discloses a unity that preserves the *jīva*'s enduring *aṃśa*-status [[DaŚ 8](cite://nimbarka/dasa-shloki/8)], [[DaŚ 4](cite://nimbarka/dasa-shloki/4)].",
+      "primary_loci": [
+        "Daśa-Ślokī 1, 2, 4, 7, 8",
+        "Vedānta-Pārijāta-Saurabha on BS 2.3.42"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nimbarka/dasa-shloki/1",
+          "locus_short": "DaŚ 1"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/2",
+          "locus_short": "DaŚ 2"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/4",
+          "locus_short": "DaŚ 4"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/7",
+          "locus_short": "DaŚ 7"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/8",
+          "locus_short": "DaŚ 8"
+        },
+        {
+          "cite": "cite://nimbarka/vedanta-parijata-saurabha/2.3.42",
+          "locus_short": "VPS 2.3.42"
+        }
+      ]
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "*Advaita* means that Brahman alone is real, yet the world proceeds as Brahman's own *pariṇāma* without compromising Brahman's *avikṛtatva* [[BSB 1.4.26](cite://vallabha/anu-bhasya/1.4.26)]. The school's load-bearing claim is *avikṛta-pariṇāma*: Brahman becomes the effect-form while remaining fully itself, as gold remains unmodified in many ornaments [[BSB 1.4.26](cite://vallabha/anu-bhasya/1.4.26)]. Since attainment of Puruṣottama requires Brahma-knowledge together with devotion as assisting fitness, non-duality opens directly into *bhakti* and grace [[BSB 1.1.12-19](cite://vallabha/anu-bhasya/1.1.12-19)].",
+      "primary_loci": [
+        "Aṇu-Bhāṣya on BS 1.4.26",
+        "Aṇu-Bhāṣya on BS 1.1.12-19"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.4.26",
+          "locus_short": "BSB 1.4.26"
+        },
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.1.12-19",
+          "locus_short": "BSB 1.1.12-19"
+        }
+      ]
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yoga",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "*Advaya* is the quiescence of *prapañca* disclosed when dependent arising is seen as emptiness and reality is marked as *nirvikalpa* and *anānārtha* [[MMK 24.18](cite://nagarjuna/mula-madhyamaka-karika/24.18)], [[MMK 18.9](cite://nagarjuna/mula-madhyamaka-karika/18.9)]. Because appropriation through 'I' and 'mine' sustains *upādāna* and birth, non-dual wisdom is inseparable from the cessation of such appropriation [[MMK 18.4](cite://nagarjuna/mula-madhyamaka-karika/18.4)], [[MMK 18.5](cite://nagarjuna/mula-madhyamaka-karika/18.5)]. Candrakīrti accordingly places *advayabuddhi* alongside *karuṇā* and *bodhicitta* as a constitutive cause of the bodhisattva path [[MAv 1.1](cite://candrakirti/madhyamakavatara/1.1)], [[MAv 1.2](cite://candrakirti/madhyamakavatara/1.2)].",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 18.4-5, 18.9, 24.18",
+        "Madhyamakāvatāra 1.1-1.2"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/18.4",
+          "locus_short": "MMK 18.4"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/18.5",
+          "locus_short": "MMK 18.5"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/18.9",
+          "locus_short": "MMK 18.9"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.18",
+          "locus_short": "MMK 24.18"
+        },
+        {
+          "cite": "cite://candrakirti/madhyamakavatara/1.1",
+          "locus_short": "MAv 1.1"
+        },
+        {
+          "cite": "cite://candrakirti/madhyamakavatara/1.2",
+          "locus_short": "MAv 1.2"
+        }
+      ]
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "Non-duality is the cessation of *grāhya-grāhaka-dvaya* as cognition becomes established in *vijñapti-mātratā* [[Tr 19](cite://vasubandhu/trimsika/19)], [[Tr 26](cite://vasubandhu/trimsika/26)]. The dependent flow is overlaid by imagined construction, while the perfected nature is precisely the perpetual absence of that superimposed duality [[Tr 20](cite://vasubandhu/trimsika/20)], [[Tr 21](cite://vasubandhu/trimsika/21)], [[Tr 25](cite://vasubandhu/trimsika/25)]. When object-support is no longer apprehended, cognition turns at the basis into supramundane non-apprehension and the *dharmakāya* [[Tr 28](cite://vasubandhu/trimsika/28)], [[Tr 29](cite://vasubandhu/trimsika/29)], [[Tr 30](cite://vasubandhu/trimsika/30)].",
+      "primary_loci": [
+        "Triṃśikā 19-21, 25-30"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/trimsika/19",
+          "locus_short": "Tr 19"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/20",
+          "locus_short": "Tr 20"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/21",
+          "locus_short": "Tr 21"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/25",
+          "locus_short": "Tr 25"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/26",
+          "locus_short": "Tr 26"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/28",
+          "locus_short": "Tr 28"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/29",
+          "locus_short": "Tr 29"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/30",
+          "locus_short": "Tr 30"
+        }
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     }
   ],
-  "see_also": ["dvaita", "bhedabheda", "visistadvaita", "suddhadvaita", "acintya", "bheda", "abheda", "brahman"],
+  "see_also": [
+    "dvaita",
+    "bhedabheda",
+    "visistadvaita",
+    "suddhadvaita",
+    "acintya",
+    "bheda",
+    "abheda",
+    "brahman"
+  ],
   "translator_note": "'Non-duality' is the least bad English gloss, but it still imports modern monism-talk and can suggest a flat denial of plurality. The Sanskrit is more exact: denial of a second independent reality. That denial is then filled out differently by Śaṅkara, Rāmānuja, Vallabha, and Caitanya-line thinkers. Translating *advaita* as 'monism' is especially misleading because it silently imports a Western substance-monism debate and obscures the Indian questions about *bheda*, *upādhi*, *pariṇāma*, and *sublation*.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus"
+  "last_verified_by": "glossary-wave1-codex54"
 }

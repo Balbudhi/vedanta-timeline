@@ -3,42 +3,281 @@
   "term_iast": "kartṛ",
   "term_devanagari": "कर्तृ",
   "literal": "doer, agent; from √kṛ + agentive suffix -tṛ (cognate with Latin -tor, English -er)",
-  "aliases": ["kartr", "kartṛ", "Kartṛ", "kartā", "kartāram", "kartṛtva", "kartrtva", "kartur", "kartari"],
+  "aliases": [
+    "kartr",
+    "kartṛ",
+    "Kartṛ",
+    "kartā",
+    "kartāram",
+    "kartṛtva",
+    "kartrtva",
+    "kartur",
+    "kartari"
+  ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus",
+  "last_verified_by": "glossary-wave1-codex54",
   "invariant_definition": "*Kartṛ* is the agent-role within Pāṇinian *kāraka* analysis, defined at Aṣṭādhyāyī 1.4.54 as *svatantraḥ kartā* — 'the agent is the independent one' — namely the participant in the action whose self-direction (*svatantratva*) coordinates the other *kāraka*-roles toward the *kriyā*. The grammatical definition is doctrinally explosive: it makes *kartṛtva* (agency) consist in *svātantrya* (independence). Because the schools disagree radically about *who or what is independent*, the analysis of *kartṛ* becomes the fault-line for Indian theories of self, freedom, and divine causality. The abstract noun *kartṛtva* names the property of being-an-agent. The classic dispute: in Sāṃkhya, *prakṛti*-derived *buddhi* is the *kartṛ* — *puruṣa* is impassible witness; in Advaita, *kartṛtva* is *avidyā*-imposed superimposition on the actionless *ātman*; in Viśiṣṭādvaita and Tattva-vāda (Dvaita), the *jīva* is a real *kartṛ* whose agency is nevertheless dependent (*paratantra*) on the Lord; in Trika, the only true *kartṛ* is Śiva, and finite agency is the contracted self-recognition of his *svātantrya-śakti*. The *kartṛtva-bhoktṛtva* (agent-experiencer) doublet appears in nearly every Vedānta school as the marker of bound *jīva*-status; *mokṣa* is variously the dissolution, transformation, or perfection of *kartṛtva*. The grammatical-philosophical point: agency is not a brute given but a *role* in a structured analysis, whose attribution requires identifying the locus of independence.",
   "per_school": [
     {
-      "school": "Pāṇinian grammar",
-      "definition": "*Svatantraḥ kartā*: the *kartṛ* is the participant whose independence in directing the *kriyā* makes the action attributable. Bhartṛhari's *Sādhana-Samuddeśa* analyzes *kartṛtva* as a function (*vyāpāra*) rather than a substance: where independence is locatable, agency is.",
-      "primary_loci": ["Aṣṭādhyāyī 1.4.54 (*svatantraḥ kartā*)", "Vākyapadīya 3.7 (Sādhana-Samuddeśa)", "Mahābhāṣya on Aṣṭādhyāyī 1.4.54 [NOT YET RETRIEVED]"]
-    },
-    {
-      "school": "Sāṃkhya / Yoga",
-      "definition": "*Puruṣa* is *akartṛ* — non-agent, impassible witness. The apparent agency of conscious life is constituted by *buddhi* and *ahaṅkāra* on the *prakṛti* side, mistakenly attributed to *puruṣa* through *aviveka*. Liberation is the discriminative recognition (*viveka-khyāti*) that *puruṣa* never was the *kartṛ*.",
-      "primary_loci": ["Sāṃkhya-Kārikā 19–20 (*puruṣasya akartṛtvam*)", "Yoga-Sūtra 4.18–22"]
-    },
-    {
       "school": "Advaita",
-      "definition": "*Kartṛtva* is *avidyā*-imposed superimposition on the actionless (*akartṛ*, *akriya*) *ātman*. The *antaḥkaraṇa*'s real *vyāpāra* and the *cit*-reflection together produce the apparent agent; *jñāna* dissolves the misattribution. The *jīvanmukta* may continue to act in the empirical sense (through *prārabdha*) but no longer identifies as the *kartṛ*. Śaṅkara polemicizes against the Bhāskara-style real *kartṛtva* of *brahman*.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.3.40", "Brahma-Sūtra-Bhāṣya 2.3.33–39 (*jīva* as *kartṛ* through *upādhi*)", "Upadeśa-Sāhasrī 18.96ff"]
+      "definition": "*Kartṛtva* is not the *ātman*'s *svabhāva* but an *avidyā*-conditioned attribution belonging to the empirical standpoint of the embodied self [[SS I.327](cite://sarvajnatman/samksepa-sariraka/1.327)][[UpS I.17.7-9](cite://sankara/upadesa-sahasri/I.17.7-9)]. In Sarvajñātman's idiom, agenthood accrues to the *matigatātmacitipratibimbaka*, the reflection of self-consciousness lodged in *mati*, not to the unmodified self itself [[SS I.327](cite://sarvajnatman/samksepa-sariraka/1.327)]. Since *karma* arises from ignorance and *mokṣa* from knowledge alone, the dissolution of *kartṛtva-adhyāsa* is integral to liberation [[UpS I.11.15](cite://sankara/upadesa-sahasri/I.11.15)][[NS 1.98-99](cite://sureshvara/naishkarmya-siddhi/1.98-99)].",
+      "primary_loci": [
+        "Saṃkṣepa-Śārīraka I.327",
+        "Upadeśa-Sāhasrī I.11.15",
+        "Upadeśa-Sāhasrī I.17.7-9",
+        "Naiṣkarmya-Siddhi 1.98-99"
+      ],
+      "citations": [
+        {
+          "cite": "cite://sarvajnatman/samksepa-sariraka/1.327",
+          "locus_short": "SS I.327"
+        },
+        {
+          "cite": "cite://sankara/upadesa-sahasri/I.11.15",
+          "locus_short": "UpS I.11.15"
+        },
+        {
+          "cite": "cite://sankara/upadesa-sahasri/I.17.7-9",
+          "locus_short": "UpS I.17.7-9"
+        },
+        {
+          "cite": "cite://sureshvara/naishkarmya-siddhi/1.98-99",
+          "locus_short": "NS 1.98-99"
+        }
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "The *jīva* is a real *kartṛ* — agency is intrinsic to its *svarūpa* — but is *paratantra*: dependent on the Lord, who as *antaryāmin* is the deeper enabling agent (*sākṣād-anumantṛ*). Rāmānuja explicitly defends real *jīva*-agency against the Advaitin reduction of *kartṛtva* to *upādhi*, on the ground that ethical responsibility and ritual obligation require a real agent.",
-      "primary_loci": ["Śrī-Bhāṣya 2.3.33–41 (the *jīva-kartṛtva* discussion)", "Vedārtha-Saṅgraha §§118–125", "Bhagavad-Gītā-Bhāṣya (Rāmānuja) 18.13–17"]
+      "definition": "The *jīva* is a real self, distinct from body and intrinsically conscious, so *kartṛtva* is not an adventitious fiction of matter or error [[ĀS 3](cite://yamuna/siddhi-trayam/3)][[VS §5](cite://ramanuja/vedartha-samgraha/§5)]. Finite agents act only in embodied condition, and their agency is governed from within by the one *pradhāna-puruṣa* who is the *antaryāmin* of sentient and non-sentient beings [[ĪS 16-18](cite://yamuna/siddhi-trayam/16-18)][[VS §4](cite://ramanuja/vedartha-samgraha/§4)]. Accordingly, *kartṛtva* belongs properly to the *jīva* as a dependent mode of action, while Nārāyaṇa remains the inner controller whose *niyamana* makes action intelligible [[VS §6](cite://ramanuja/vedartha-samgraha/§6)].",
+      "primary_loci": [
+        "Ātma-Siddhi 3",
+        "Īśvara-Siddhi 16-18",
+        "Vedārtha-Saṃgraha §§4-6"
+      ],
+      "citations": [
+        {
+          "cite": "cite://yamuna/siddhi-trayam/3",
+          "locus_short": "ĀS 3"
+        },
+        {
+          "cite": "cite://yamuna/siddhi-trayam/16-18",
+          "locus_short": "ĪS 16-18"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§4",
+          "locus_short": "VS §4"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§5",
+          "locus_short": "VS §5"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§6",
+          "locus_short": "VS §6"
+        }
+      ]
     },
     {
       "school": "Tattva-vāda",
-      "definition": "The *jīva* is a real *kartṛ* with intrinsic capacity-grades (*svarūpa-yogyatā*); Viṣṇu is the *parama-kartṛ* whose enabling will is the necessary condition for any finite act. Madhva insists on the reality of finite agency precisely to ground moral responsibility and the asymmetric soul-hierarchy.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 2.3.33–41 [NOT YET RETRIEVED]", "Anu-Vyākhyāna 2.3 [NOT YET RETRIEVED]"]
+      "definition": "The finite *jīva* is a real agent, but its agency is intrinsically slight (*svalpa-kartṛtā*) and never rises to the Lord's *svatantra* status [[UpK 13](cite://madhva/upadhi-khandana/13)]. Nothing whatsoever is done apart from Hari; substance, action, time, intrinsic nature, and the very *jīva* subsist only by his favor, and Viṣṇu is explicitly the giver of knowledge, liberation, and bliss [[Anuvy. 1.1.13-15](cite://madhva/anuvyakhyana/1.1.13-15)]. Thus *kartṛtva* on the side of the soul is real but *paratantra*, whereas *svātantrya* in the strict sense belongs only to Nārāyaṇa [[Anuvy. 2.3.66-69](cite://madhva/anuvyakhyana/2.3.66-69)][[VTV 3.30](cite://madhva/visnu-tattva-vinirnaya/3.30)].",
+      "primary_loci": [
+        "Upādhi-Khaṇḍana 13",
+        "Anuvyākhyāna 1.1.13-15",
+        "Anuvyākhyāna 2.3.66-69",
+        "Viṣṇu-Tattva-Vinirṇaya 3.30"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/upadhi-khandana/13",
+          "locus_short": "UpK 13"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/1.1.13-15",
+          "locus_short": "Anuvy. 1.1.13-15"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/2.3.66-69",
+          "locus_short": "Anuvy. 2.3.66-69"
+        },
+        {
+          "cite": "cite://madhva/visnu-tattva-vinirnaya/3.30",
+          "locus_short": "VTV 3.30"
+        }
+      ]
     },
     {
-      "school": "Trika / Kashmir Śaivism",
-      "definition": "The only true *kartṛ* is Śiva. Finite *kartṛtva* is the contracted form of his *svātantrya-śakti* — the very same independence-power, now self-veiled under *māyā* and *kañcuka* into a limited agent. *Pratyabhijñā* recognizes one's own *kartṛtva* as Śiva's. The Pāṇinian definition *svatantraḥ kartā* is read theologically: only Śiva is fully *svatantra*; therefore only Śiva is fully *kartṛ*.",
-      "primary_loci": ["Īśvara-Pratyabhijñā-Kārikā 2.4.1ff [NOT YET RETRIEVED]", "Tantrāloka 1.108–122", "Pratyabhijñā-Hṛdaya 1–3"]
+      "school": "Bhedābheda",
+      "definition": "The *jīva* is Brahman's *aṃśa*; plurality and dependent designations such as servitude are scripturally taught, so finite selfhood is real without becoming absolutely external to Brahman [[VĀB 2.3.43](cite://vijnanabhiksu/vijnanamrta-bhasya/2.3.43)]. *Māyā* is interpreted here as real *prakṛti*, not as sheer epistemic defect, and manifestation therefore retains a genuine causal order under Maheśvara [[VĀB 1.1.5](cite://vijnanabhiksu/vijnanamrta-bhasya/1.1.5)]. On that basis, *kartṛtva* is attributable to the finite *jīva* as a dependent *aṃśa* acting within *prakṛti*, not as an independent *svatantra* locus [[VĀB 2.3.43](cite://vijnanabhiksu/vijnanamrta-bhasya/2.3.43)][[VĀB 1.1.5](cite://vijnanabhiksu/vijnanamrta-bhasya/1.1.5)].",
+      "primary_loci": [
+        "Vijñānāmṛta-Bhāṣya 2.3.43",
+        "Vijñānāmṛta-Bhāṣya 1.1.5"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vijnanabhiksu/vijnanamrta-bhasya/2.3.43",
+          "locus_short": "VĀB 2.3.43"
+        },
+        {
+          "cite": "cite://vijnanabhiksu/vijnanamrta-bhasya/1.1.5",
+          "locus_short": "VĀB 1.1.5"
+        }
+      ]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "The *jīva* is *jñānasvarūpa*, atomic, distinct in each body, and *harer adhīna*; its agency is therefore real but irreducibly dependent [[DaŚ 1](cite://nimbarka/dasa-shloki/1)]. The school's *aṃśa* doctrine makes that dependence ontological rather than merely accidental: plurality is scripturally taught, and the living self is the eternal part of Bhagavān [[BS 2.3.42](cite://nimbarka/vedanta-parijata-saurabha/2.3.42)][[Gītā 15.7a](cite://nimbarka/vedanta-parijata-saurabha/15.7a)]. Bound, liberated, and devotional states belong to the same real *jīva*, so *kartṛtva* persists as the condition of a dependent self rather than as an autonomous substance [[DaŚ 2](cite://nimbarka/dasa-shloki/2)].",
+      "primary_loci": [
+        "Daśa-Ślokī 1-2",
+        "Vedānta-Pārijāta-Saurabha on BS 2.3.42",
+        "Bhagavad-Gītā 15.7a as cited there"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nimbarka/dasa-shloki/1",
+          "locus_short": "DaŚ 1"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/2",
+          "locus_short": "DaŚ 2"
+        },
+        {
+          "cite": "cite://nimbarka/vedanta-parijata-saurabha/2.3.42",
+          "locus_short": "BS 2.3.42"
+        },
+        {
+          "cite": "cite://nimbarka/vedanta-parijata-saurabha/15.7a",
+          "locus_short": "Gītā 15.7a"
+        }
+      ]
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "At the highest level, Brahman's own *kartṛ-bhāva* is explicit: it makes itself as itself, yet without forfeiting *avikṛtatva* [[BSB 1.4.26](cite://vallabha/anu-bhasya/1.4.26)][[BSB 1.4.26a](cite://vallabha/anubhasya/1.4.26a)]. This means that causality is a real *pariṇāma* of Brahman rather than a merely apparent projection, so agency is not expelled from the absolute but understood as its non-ordinary self-manifestation [[BSB 1.4.26](cite://vallabha/anu-bhasya/1.4.26)]. On the side of the finite self, the *jīva* is Brahman's *aṃśa* as taught by śruti-smṛti, and its finite agency is intelligible only within that real part-whole relation [[BSB 2.3.43-45](cite://vallabha/anu-bhasya/2.3.43-45)].",
+      "primary_loci": [
+        "Aṇu-Bhāṣya on Brahma-Sūtra 1.4.26",
+        "Aṇu-Bhāṣya on Brahma-Sūtra 2.3.43-45"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.4.26",
+          "locus_short": "BSB 1.4.26"
+        },
+        {
+          "cite": "cite://vallabha/anubhasya/1.4.26a",
+          "locus_short": "BSB 1.4.26a"
+        },
+        {
+          "cite": "cite://vallabha/anu-bhasya/2.3.43-45",
+          "locus_short": "BSB 2.3.43-45"
+        }
+      ]
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yoga",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "The Madhyamaka critique refuses any ultimately established triad of *kartā*, *kriyā*, and *karaṇa*; to reify one is to reify the whole network of dependent designations [[MMK 24.17](cite://nagarjuna/mula-madhyamaka-karika/24.17)]. Since even self and not-self are only pedagogical designations, agenthood has no *svabhāva* that could underwrite an independent doer [[MMK 18.6](cite://nagarjuna/mula-madhyamaka-karika/18.6)]. Bondage is undone not by locating a metaphysical agent behind action but by tracing karma and kleśa back to *vikalpa* and *prapañca*, which cease in śūnyatā [[MMK 18.5](cite://nagarjuna/mula-madhyamaka-karika/18.5)].",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 18.5-6",
+        "Mūla-Madhyamaka-Kārikā 24.17"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/18.5",
+          "locus_short": "MMK 18.5"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/18.6",
+          "locus_short": "MMK 18.6"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.17",
+          "locus_short": "MMK 24.17"
+        }
+      ]
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "What ordinary discourse calls self, agent, and object is an *upacāra* supervening on the transformation of consciousness; the manifold attribution of *ātman* and *dharma* unfolds only within *vijñāna-pariṇāma* [[Triṃśikā 1](cite://vasubandhu/trimsika/1)]. Because conceptual construction projects what it then treats as object, the agent-side of action is likewise a *vikalpa*-dependent presentation rather than an independently grounded self [[Triṃśikā 17](cite://vasubandhu/trimsika/17)]. Karmic perfumings, together with the perfuming of grasper-grasped duality, generate further maturation, so *kartṛtva* is locatable only within the conditioned stream and not in a persisting substantial subject [[Triṃśikā 19](cite://vasubandhu/trimsika/19)].",
+      "primary_loci": [
+        "Triṃśikā 1",
+        "Triṃśikā 17",
+        "Triṃśikā 19"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/trimsika/1",
+          "locus_short": "Triṃśikā 1"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/17",
+          "locus_short": "Triṃśikā 17"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/19",
+          "locus_short": "Triṃśikā 19"
+        }
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Jainism",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     }
   ],
-  "see_also": ["karma", "kriya", "karana", "karya", "svatantra", "svatantrya", "ahankara", "buddhi", "atman", "antaryamin", "pratyabhijna"],
+  "see_also": [
+    "karma",
+    "kriya",
+    "karana",
+    "karya",
+    "svatantra",
+    "svatantrya",
+    "ahankara",
+    "buddhi",
+    "atman",
+    "antaryamin",
+    "pratyabhijna"
+  ],
   "translator_note": "'Agent' is the standard gloss and is acceptable, but the Pāṇinian definition (*svatantraḥ kartā*) couples *kartṛtva* tightly to *svātantrya* (independence) — a connection the English 'agent' obscures. The deeper translation problem: in Sāṃkhya and Advaita the conscious self (*puruṣa*, *ātman*) is *not* the *kartṛ*, while in Viśiṣṭādvaita, Tattva-vāda, and Trika the *kartṛ*-question reaches up to the divine. Translating *kartṛtva* as 'agency' often imports a modern free-will picture that the Indian schools are precisely arguing about; readers should be alerted that 'agency' here is a contested technical role, not a default psychological capacity."
 }
