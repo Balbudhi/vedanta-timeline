@@ -14,40 +14,190 @@
     "shakti"
   ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus",
+  "last_verified_by": "glossary-wave1-codex54",
   "invariant_definition": "Power, efficacy, or capacity belonging to something and explaining what it can do. The term ranges across several technical registers, and the depth of an entry depends on keeping those registers distinct. In semantics, *śakti* is a word's denotative power. In metaphysics and theology, it is a real efficacy belonging to a cause or to the divine. In Śākta and Kashmir Śaiva thought, *Śakti* can be spoken of as the very self-manifesting power of the absolute, inseparable from Śiva. In Gauḍīya Vaiṣṇava theology, *śakti* becomes a systematic taxonomy of the Lord's internal, marginal, and external powers. Across these uses, one recurrent issue is the relation between *śakti* and *śaktimat*, power and power-bearer: are they strictly identical, really distinct, inseparable, or analyzable only by scripture? A flat English rendering like \"energy\" obscures that the term often functions as a precise causal or theological category rather than a diffuse vital force.",
   "per_school": [
     {
-      "school": "Mīmāṃsā and Vyākaraṇa",
-      "definition": "*Śakti* is the denotative power by which a word conveys its meaning. This semantic use matters far beyond grammar, because later disputes over *śabda-pramāṇa*, sentence meaning, and scriptural interpretation depend on how a word's power to denote is understood. The term here is not theological at all; it belongs to the analysis of linguistic efficacy.",
+      "school": "Advaita",
+      "definition": "In post-Śaṅkara Advaita, *śakti* can name the positive though insentient *avidyā-śakti* that must be admitted if *mithyārthāvabhāsa* is to be intelligible at all [[PañcP V.15–VI.16](cite://padmapada/pancapadika/V–VI.15–16)]. In later Advaita semantic discussion, *śakti* also retains its technical sense as denotative force, coordinated with *lakṣaṇā* in producing the word-meanings suited to the purport of the sentence under discussion [[Upodghāta 22](cite://madhusudana/siddhanta-bindu/22)].",
       "primary_loci": [
-        "Mīmāṃsā-Sūtra 1.1.5 [NOT YET RETRIEVED]",
-        "Vākyapadīya 2 [NOT YET RETRIEVED]"
+        "Pañcapādikā V.15–VI.16",
+        "Siddhānta-Bindu, Upodghāta 22"
+      ],
+      "citations": [
+        {
+          "cite": "cite://padmapada/pancapadika/V–VI.15–16",
+          "locus_short": "PañcP V.15–VI.16"
+        },
+        {
+          "cite": "cite://madhusudana/siddhanta-bindu/22",
+          "locus_short": "Upodghāta 22"
+        }
       ]
     },
     {
-      "school": "Trika / Kashmir Śaivism",
-      "definition": "Śakti is Śiva's inseparable self-apprehending power, the *vimarśa* without which pure luminosity would be inert. Through Śakti, the absolute manifests, contracts, conceals, and reveals itself. Terms such as *svātantrya-śakti*, *icchā-śakti*, *jñāna-śakti*, and *kriyā-śakti* articulate the modalities of this power. The power is not an added attribute sitting beside Śiva; it is the dynamic face of Śiva's very being.",
+      "school": "Viśiṣṭādvaita",
+      "definition": "In Viśiṣṭādvaita, *śakti* is one of the sanctioned scriptural designations by which the śrutis proclaim Bhagavān's relation to cit and acit [[Vedārtha-Saṃgraha §6](cite://ramanuja/vedartha-samgraha/§6)]. Such language does not isolate a freestanding force; it articulates the antaryāmin's governance of all sentient and non-sentient beings through *sāmānādhikaraṇya* and the body-self relation presupposed by expressions such as \"his power,\" \"his part,\" and \"his body\" [[Vedārtha-Saṃgraha §6](cite://ramanuja/vedartha-samgraha/§6)].",
       "primary_loci": [
-        "Pratyabhijñā-Hṛdaya 1, 5",
-        "Tantrāloka 3"
+        "Vedārtha-Saṃgraha §6"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§6",
+          "locus_short": "Vedārtha-Saṃgraha §6"
+        }
       ]
     },
     {
-      "school": "Śākta",
-      "definition": "Śakti is the Goddess as ultimate power itself. Here the term is not merely the property of a male deity but a principal name of the divine in its own right. Yet even this hypostatized use remains metaphysically precise: the Goddess is the efficacy by which the world is manifested, sustained, and withdrawn, and devotion to Her is grounded in that cosmological claim.",
+      "school": "Tattva-vāda",
+      "definition": "In Tattva-vāda, *śakti* marks above all the Lord's unbounded perfection: Nṛsiṃha is praised as an immeasurable ocean of true knowledge, bliss, and power [[Mayāvāda-Khaṇḍana, benediction](cite://madhva/mayavada-khandana/benediction)]. Creaturely existence, by contrast, is stamped by *alpa-śaktitva*, experienced finitude whose small agency stands opposed to the Lord's omniscience and cognate qualities [[Upādhi-Khaṇḍana 13](cite://madhva/upadhi-khandana/13)].",
       "primary_loci": [
-        "Devī-Māhātmya 5.16-18",
-        "[NOT YET RETRIEVED]"
+        "Mayāvāda-Khaṇḍana, opening benediction",
+        "Upādhi-Khaṇḍana 13"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/mayavada-khandana/benediction",
+          "locus_short": "Mayāvāda-Khaṇḍana, benediction"
+        },
+        {
+          "cite": "cite://madhva/upadhi-khandana/13",
+          "locus_short": "Upādhi-Khaṇḍana 13"
+        }
       ]
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "The Lord's *śaktis* are classically grouped as internal (*svarūpa* or *antaraṅgā*), marginal (*taṭasthā*), and external (*bahiraṅgā*). This taxonomy explains how Kṛṣṇa can remain complete while manifesting souls, world, and blissful divine play through distinct but inseparable powers. The term therefore carries much of the school's metaphysical burden: it mediates unity, difference, and divine manifestation without reducing anything to illusion.",
+      "definition": "In Acintya-Bhedābheda, the divine name is efficacious because Bhagavān has deposited his own entire power in it, so that *nāma* is itself a real locus of operative grace [[Śikṣāṣṭaka 2](cite://caitanya/shikshashtakam/2)]. At the ontological level, Jīva Gosvāmin makes *svābhāvika-tad-acintya-śakti* the formal reason why *vyatireka* and *avyatireka* can both be affirmed of Bhagavān and the *jīva*-aggregate without contradiction [[Paramātma-Sandarbha §43](cite://jiva-gosvami/sat-sandarbha/§43)]. Keśava Kāśmīrī accordingly glosses *gopījana* as the aggregate of the world's protecting powers and takes that power-cluster to be non-other than its lord [[Kramadīpikā 2.18](cite://kesava-kasmiri/krama-dipika/2.18)].",
       "primary_loci": [
-        "Caitanya-Caritāmṛta, Madhya 20.108-117",
-        "Bhagavat-Sandarbha [NOT YET RETRIEVED]"
+        "Śikṣāṣṭaka 2",
+        "Paramātma-Sandarbha §43",
+        "Kramadīpikā 2.18"
+      ],
+      "citations": [
+        {
+          "cite": "cite://caitanya/shikshashtakam/2",
+          "locus_short": "Śikṣāṣṭaka 2"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§43",
+          "locus_short": "Paramātma-Sandarbha §43"
+        },
+        {
+          "cite": "cite://kesava-kasmiri/krama-dipika/2.18",
+          "locus_short": "Kramadīpikā 2.18"
+        }
       ]
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "In Dvaitādvaita, the *jīva* is neither absolutely different from nor absolutely identical with Puruṣottama, but an *aṃśa* whose very mode of parthood is to be understood as *śaktirūpa* [[BS 2.3.42](cite://srinivasa/vedanta-kaustubha/2.3.42)]. The same locus sharpens the relation further by identifying the *jīva* as *alpaśakti* and *asvatantra*, while the cited *parā śakti* belongs to the supreme [[BS 2.3.42d](cite://srinivasa/vedanta-kaustubha/2.3.42d); [BS 2.3.42e](cite://srinivasa/vedanta-kaustubha/2.3.42e)]. Kṛṣṇa's meditable manifestation and unsurpassable refuge are likewise grounded in *acintya-śakti* [[Daśa-Ślokī 8](cite://nimbarka/dasa-shloki/8)].",
+      "primary_loci": [
+        "Vedānta-Kaustubha on Brahma-Sūtra 2.3.42",
+        "Daśa-Ślokī 8"
+      ],
+      "citations": [
+        {
+          "cite": "cite://srinivasa/vedanta-kaustubha/2.3.42",
+          "locus_short": "BS 2.3.42"
+        },
+        {
+          "cite": "cite://srinivasa/vedanta-kaustubha/2.3.42d",
+          "locus_short": "BS 2.3.42d"
+        },
+        {
+          "cite": "cite://srinivasa/vedanta-kaustubha/2.3.42e",
+          "locus_short": "BS 2.3.42e"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/8",
+          "locus_short": "Daśa-Ślokī 8"
+        }
+      ]
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yoga",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "In the Yogācāra epistemological register represented here by Dharmakīrti, knowables divide by *śakti* and *aśakti*, that is, by their capacity or incapacity for *arthakriyā* [[Pramāṇavārttika 2.1](cite://dharmakirti/pramana-varttika/2.1)]. When power is admitted in seeds and sprouts, it is granted only at the level of *saṃvṛti*, as a conventional explanatory posit rather than an ultimately reified entity [[Pramāṇavārttika 2.4](cite://dharmakirti/pramana-varttika/2.4)].",
+      "primary_loci": [
+        "Pramāṇavārttika 2.1",
+        "Pramāṇavārttika 2.4"
+      ],
+      "citations": [
+        {
+          "cite": "cite://dharmakirti/pramana-varttika/2.1",
+          "locus_short": "Pramāṇavārttika 2.1"
+        },
+        {
+          "cite": "cite://dharmakirti/pramana-varttika/2.4",
+          "locus_short": "Pramāṇavārttika 2.4"
+        }
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Jainism",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Śākta",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     }
   ],
   "see_also": [

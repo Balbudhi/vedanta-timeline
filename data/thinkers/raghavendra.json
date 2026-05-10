@@ -19,9 +19,9 @@
       "description": "Mādhva maṭha records and near-contemporary hagiography."
     }
   ],
-  "school": "Dvaita",
+  "school": "Tattva-vāda",
   "school_color_token": "dvaita",
-  "sub_school": "Dvaita scholastic-devotional",
+  "sub_school": "Mādhva scholastic-devotional",
   "sub_school_shade": 5,
   "lineage_in": [
     "vijayindra"
@@ -136,7 +136,7 @@
       "genre": "tika",
       "language": "sanskrit",
       "source_status": "primary-text-not-in-corpus",
-      "summary": "Beyond the *Tantra-Dīpikā*, *Pariṃala*, and *Tātparya-Dīpikā*, Rāghavendra composed a wider corpus of *prakāśa* sub-commentaries on prior Mādhva texts. The corpus includes glosses on Madhva's *Daśa-Prakaraṇa* — the anti-Advaita triad of *Tattvodyota*, *Māyāvāda-Khaṇḍana*, *Mithyātvānumāna-Khaṇḍana*, and *Upādhi-Khaṇḍana* — on the *Viṣṇu-Tattva-Vinirṇaya* and *Karma-Nirṇaya*, on the *Gītā-Bhāṣya* and *Gītā-Tātparya-Nirṇaya* (with particular attention to the *Tātparya*'s *taratamya*-reading of *Bhagavad-Gītā* 10, 11, and 13), on portions of the *Bhāgavata-Tātparya-Nirṇaya* and *Mahābhārata-Tātparya-Nirṇaya*, and on several of Jayatīrtha's smaller *ṭīkā*s.\n\nThe unifying intent is integrative. Each text is brought into a reading consistent with the spine of the principal *Pariṃala*-*Dīpikā* productions, so that the school's later exegete encounters not three or five separate Madhva-Jayatīrtha-Vyāsatīrtha layers but a single resolved position. Where prior commentary admits multiple construals, the *prakāśa*-gloss fixes one; where the technical apparatus has moved on since the underlying text was written, the gloss imports the new apparatus without altering the position.\n\nThe *prakāśa*-corpus, the *stotra*-literature, and Rāghavendra's pontifical-pedagogical role together constitute the channel through which *Tattvavāda* enters its modern reception. Twentieth-century Dvaita exegesis works downstream of these glosses.",
+      "summary": "Beyond the *Tantra-Dīpikā*, *Pariṃala*, and *Tātparya-Dīpikā*, Rāghavendra composed a wider corpus of *prakāśa* sub-commentaries on prior Mādhva texts. The corpus includes glosses on Madhva's *Daśa-Prakaraṇa* — the anti-Advaita triad of *Tattvodyota*, *Māyāvāda-Khaṇḍana*, *Mithyātvānumāna-Khaṇḍana*, and *Upādhi-Khaṇḍana* — on the *Viṣṇu-Tattva-Vinirṇaya* and *Karma-Nirṇaya*, on the *Gītā-Bhāṣya* and *Gītā-Tātparya-Nirṇaya* (with particular attention to the *Tātparya*'s *taratamya*-reading of *Bhagavad-Gītā* 10, 11, and 13), on portions of the *Bhāgavata-Tātparya-Nirṇaya* and *Mahābhārata-Tātparya-Nirṇaya*, and on several of Jayatīrtha's smaller *ṭīkā*s.\n\nThe unifying intent is integrative. Each text is brought into a reading consistent with the spine of the principal *Pariṃala*-*Dīpikā* productions, so that the school's later exegete encounters not three or five separate Madhva-Jayatīrtha-Vyāsatīrtha layers but a single resolved position. Where prior commentary admits multiple construals, the *prakāśa*-gloss fixes one; where the technical apparatus has moved on since the underlying text was written, the gloss imports the new apparatus without altering the position.\n\nThe *prakāśa*-corpus, the *stotra*-literature, and Rāghavendra's pontifical-pedagogical role together constitute the channel through which *Tattva-vāda* (the school often labeled Dvaita) enters its modern reception. Twentieth-century Tattva-vāda exegesis works downstream of these glosses.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     }
@@ -309,7 +309,7 @@
         },
         {
           "term_iast": "Viṣṇu",
-          "first_use_gloss": "the supreme independent Lord in Dvaita"
+          "first_use_gloss": "the supreme independent Lord in Tattva-vāda"
         }
       ],
       "why_this_passage": "This adhyāya-summary compresses Rāghavendra's mature semantic method: scriptural language, even when ordinarily used elsewhere, is drawn back to Viṣṇu by a hierarchy of direct and indirect signification. Because his late scholastic authority is fundamentally commentarial, this is more representative than selecting an isolated devotional line.",

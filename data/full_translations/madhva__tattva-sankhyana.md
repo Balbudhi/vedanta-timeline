@@ -204,7 +204,7 @@ The singular treatment of Ramā is doctrinally load-bearing. She is not simply p
 - Nominal classification; no finite verb is expressed.
 
 **Note:**
-Here the famously controversial Madhva hierarchy is stated with complete calmness. There is no dialectical defense yet, only sorted placement. The verse does not argue for the classification; it presupposes that the dependent order is already internally graded. The argumentative defense belongs elsewhere, especially in Madhva's Gītā 16 materials and the later Dvaita scholastic elaborations.
+Here the famously controversial Madhva hierarchy is stated with complete calmness. There is no dialectical defense yet, only sorted placement. The verse does not argue for the classification; it presupposes that the dependent order is already internally graded. The argumentative defense belongs elsewhere, especially in Madhva's Gītā 16 materials and the later scholastic elaborations of Tattva-vāda (the school often labeled Dvaita).
 
 ---
 

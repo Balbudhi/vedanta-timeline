@@ -24,9 +24,12 @@ The second *pāda* changes register. Here the problem is less the reassignment o
 
 **Locus:** vol. 1, p. 232 in the pure-Sanskrit file; lines 5870-5877.
 
-**Sanskrit (IAST):** `jīvādibhedakaṃ viṣṇor viśvakartṛtvam ucyate.`
-
-**Close English:** “The world-creatorship of Viṣṇu, differentiating him from jīvas and the like, is being stated.”
+::: sanskrit-aside
+:::: sanskrit
+`jīvādibhedakaṃ viṣṇor viśvakartṛtvam ucyate.`
+:::: english
+"The world-creatorship of Viṣṇu, differentiating him from jīvas and the like, is being stated."
+:::
 
 **Engagement:** This is a small sentence, but it does heavy work. `janmādy asya yataḥ` is not taken as a merely generic definition of an abstract cause; it is read as a differentiating *lakṣaṇa*. What matters is not bare causal priority, but a kind of causal universality that no jīva, no subordinate deity, and no merely inferred principle can bear.
 

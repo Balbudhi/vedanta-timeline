@@ -3,47 +3,294 @@
   "term_iast": "brahman",
   "term_devanagari": "ब्रह्मन्",
   "literal": "from √bṛh, 'to grow, to swell, to expand'; the swelling-without-bound, the encompassing reality",
-  "aliases": ["brahman", "Brahman", "brahma", "Brahma", "brahmaṇ", "brahmaṇaḥ", "brahmaṇi", "brahmano"],
+  "aliases": [
+    "brahman",
+    "Brahman",
+    "brahma",
+    "Brahma",
+    "brahmaṇ",
+    "brahmaṇaḥ",
+    "brahmaṇi",
+    "brahmano"
+  ],
   "invariant_definition": "The ultimate referent of Upaniṣadic inquiry and the target of *brahma-jijñāsā*. In Vedānta the term does not merely mean a highest being; it names that from which the world arises, by which it is sustained, into which it resolves, and on knowing which the bondage of *saṃsāra* is ended. The term therefore sits inside a technical matrix: *jagat-kāraṇatva*, debates over *upādāna* and *nimitta-kāraṇa*, the *sat-kārya* question of whether effects pre-exist in their cause, the opposition of *nirguṇa* and *saguṇa*, and the relation between *brahman*, *īśvara*, *paramātman*, and *bhagavān*. All Vedāntic schools agree that *brahman* is the purport of the Upaniṣads and the reality marked by *janmādy asya yataḥ*; they disagree on whether the world is a real mode, a real power, or an apparent manifestation of that reality, and on whether differentiation belongs to *brahman* itself or only to what depends on it. In practice the term also governs *upāsanā*: the realized object of liberating knowledge for Advaita, and the real Lord to be known, served, and loved for the theistic schools.",
   "per_school": [
     {
+      "school": "Advaita-pre",
+      "definition": "Brahman is articulated as genuinely two-formed, *mūrta* and *amūrta*, and the subsequent *neti neti* functions as a delimitative excess over predication rather than as a retraction of that articulation [[BṛU 2.3.1, 2.3.6](cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.3)]. The *mahāvākya* *ahaṃ brahmāsmi* is therefore preserved as a real identity-statement, not reduced to a merely figurative *upāsanā-vākya* [[BṛU 1.4.10](cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.10)].",
+      "primary_loci": [
+        "Bṛhadāraṇyaka Upaniṣad 2.3.1, 2.3.6",
+        "Bṛhadāraṇyaka Upaniṣad 1.4.10"
+      ],
+      "citations": [
+        {
+          "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.3",
+          "locus_short": "BṛU 2.3.1, 2.3.6"
+        },
+        {
+          "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.10",
+          "locus_short": "BṛU 1.4.10"
+        }
+      ]
+    },
+    {
       "school": "Advaita",
-      "definition": "*Brahman* alone is *pāramārthika-sat*: *ekam evādvitīyam* and identical with *ātman*. The world appears through *māyā-avidyā* and is grounded in *brahman* as *adhiṣṭhāna*, but *brahman* itself is not modified by the appearance; hence the preference for *vivarta* over real *pariṇāma*. *Saguṇa brahman* or *īśvara* is not a fiction but the same reality viewed through the cosmic *upādhi* of *māyā*, valid within *vyavahāra* and sublated only by *brahma-jñāna*.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1–4", "Chāndogya-Upaniṣad-Bhāṣya 6.2 and 6.8.7", "Brahma-Sūtra-Bhāṣya 2.1.14 (vivarta)", "Upadeśa-Sāhasrī 18"]
+      "definition": "Brahman is *ātmaprakāśa* and *ānanda-svabhāva*, with finite pleasures registering only as delimited measures of that plenitude [[BS 1.1 (opening ānanda discussion)](cite://mandana/brahma-siddhi/1.1.1--opening-prose-discussion-of-nanda)]. The apprehension of plurality is *māyā-nibandhana*, and *avidyā* is neither *brahma-svabhāva* nor a sheer non-entity but an *anirvacanīya mithyāvabhāsa* whose locus is the *jīvas* [[BS 1.1 (plurality as māyā-bound)](cite://mandana/brahma-siddhi/1.1.1--opening-prose-on-ekatva-and-m-y); [BS 1.1 (avidyā neither sat nor asat; in the jīvas)](cite://mandana/brahma-siddhi/1.1.1--opening-prose-on-avidy)]. Accordingly *kāraṇa-brahman* is established as *anirvacanīya-māyā-viśiṣṭa*, and the *mahāvākya* yields *aparokṣa* only through the aid of *manana* and allied disciplines, so that *brahma-vidyā* is the *nirvikalpaka mano-vṛtti* whose object is the *advitīyātman* [[PV p. 212](cite://prakasatman/pancapadika-vivarana/brahmaṇo lakṣaṇopalakṣaṇe); [PV p. 103](cite://prakasatman/pancapadika-vivarana/mahāvākyasyāparokṣa-prayojakatvam); [BR 1.1 ṭīkā](cite://madhusudana/bhakti-rasayana/1.ṭīkā.1)].",
+      "primary_loci": [
+        "Brahma-Siddhi 1.1 (opening ānanda discussion)",
+        "Brahma-Siddhi 1.1 (plurality as māyā-bound)",
+        "Brahma-Siddhi 1.1 (avidyā neither sat nor asat; in the jīvas)",
+        "Pañcapādikā-Vivaraṇa p. 212",
+        "Pañcapādikā-Vivaraṇa p. 103",
+        "Bhakti-Rasāyana 1.1 ṭīkā"
+      ],
+      "citations": [
+        {
+          "cite": "cite://mandana/brahma-siddhi/1.1.1--opening-prose-discussion-of-nanda",
+          "locus_short": "BS 1.1 (opening ānanda discussion)"
+        },
+        {
+          "cite": "cite://mandana/brahma-siddhi/1.1.1--opening-prose-on-ekatva-and-m-y",
+          "locus_short": "BS 1.1 (plurality as māyā-bound)"
+        },
+        {
+          "cite": "cite://mandana/brahma-siddhi/1.1.1--opening-prose-on-avidy",
+          "locus_short": "BS 1.1 (avidyā neither sat nor asat; in the jīvas)"
+        },
+        {
+          "cite": "cite://prakasatman/pancapadika-vivarana/brahmaṇo lakṣaṇopalakṣaṇe",
+          "locus_short": "PV p. 212"
+        },
+        {
+          "cite": "cite://prakasatman/pancapadika-vivarana/mahāvākyasyāparokṣa-prayojakatvam",
+          "locus_short": "PV p. 103"
+        },
+        {
+          "cite": "cite://madhusudana/bhakti-rasayana/1.ṭīkā.1",
+          "locus_short": "BR 1.1 ṭīkā"
+        }
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Brahman* is Nārāyaṇa, a *saviśeṣa* reality eternally qualified by *cit* and *acit* as His body. The causal claim is strong: *brahman* is both material and efficient cause, but the effect is a real manifestation of His modes, not an illusion. *Nirguṇa* texts deny defects, not attributes. The key scaffold is *śarīra-śarīrī-bhāva*: selves and matter are inseparable from *brahman* yet not identical with Him, so world, devotion, and liberation all remain fully real.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§91–137", "Śrī-Bhāṣya 1.1.1", "Śrī-Bhāṣya 1.1.13 (saguṇa-brahman defended)", "Śrī-Bhāṣya 2.1.9 (śarīra-śarīrī-bhāva)"]
+      "definition": "By the word *brahman* one intends *Puruṣottama*, intrinsically free of every *doṣa* and possessed of *ananta-kalyāṇa-guṇa*, so that the *brahma-śabda* takes its primary force in the *sarveśvara* himself [[Śrī-Bhāṣya, Commentary 6](cite://ramanuja/shri-bhasya/6); [Śrī-Bhāṣya, Commentary 11](cite://ramanuja/shri-bhasya/11)]. This *brahman* is Nārāyaṇa as *antaryāmin*, the single cause of the *cit-acit* cosmos and the inner self of all other entities, which stand to him through *śakti*-, *aṃśa*-, *vibhūti*-, *rūpa*-, and *śarīra*-vācaka expressions in *sāmānādhikaraṇya* [[Vedārtha-Saṅgraha §6](cite://ramanuja/vedartha-samgraha/§6)].",
+      "primary_loci": [
+        "Śrī-Bhāṣya 1.1.1 (Commentary 6, 11)",
+        "Vedārtha-Saṅgraha §6"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ramanuja/shri-bhasya/6",
+          "locus_short": "Śrī-Bhāṣya, Commentary 6"
+        },
+        {
+          "cite": "cite://ramanuja/shri-bhasya/11",
+          "locus_short": "Śrī-Bhāṣya, Commentary 11"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§6",
+          "locus_short": "Vedārtha-Saṅgraha §6"
+        }
+      ]
     },
     {
-      "school": "Dvaita",
-      "definition": "*Brahman* is Viṣṇu, the only *svatantra* reality. Everything else is *paratantra* and really distinct from Him, so causality never erases *pañca-bheda*. The world depends totally on *brahman* without becoming identical to it, and the Lord's qualities are fully real rather than pedagogical concessions. Madhva's realism is therefore hierarchical rather than crude 'dualism': one independent reality, many dependent realities, all ordered under Viṣṇu.",
-      "primary_loci": ["Tattva-Saṅkhyāna 1–4", "Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1–2", "Viṣṇu-Tattva-Vinirṇaya §§1–10"]
+      "school": "Tattva-vāda",
+      "definition": "Brahman is Viṣṇu, *nirdoṣa*, *nityapūrṇa* in all *guṇas*, and the unique *svatantra* under whose *vaśa* all other beings stand [[VTV 3.1](cite://madhva/visnu-tattva-vinirnaya/3.1); [VTV 3.2](cite://madhva/visnu-tattva-vinirnaya/3.2)]. For the *mumukṣu* *brahman* alone is the proper *jñeya*, and *ānanda*-language is read through an explicit hierarchy in which finite enjoyers are delimited while the *ānandamaya* bears fullness without remainder [[TD 1.4](cite://raghavendra/tantra-dipika/1.4); [TD 1.1](cite://raghavendra/tantra-dipika/1.1)].",
+      "primary_loci": [
+        "Viṣṇu-Tattva-Vinirṇaya 3.1-3.2",
+        "Tantra-Dīpikā 1.1",
+        "Tantra-Dīpikā 1.4"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/visnu-tattva-vinirnaya/3.1",
+          "locus_short": "VTV 3.1"
+        },
+        {
+          "cite": "cite://madhva/visnu-tattva-vinirnaya/3.2",
+          "locus_short": "VTV 3.2"
+        },
+        {
+          "cite": "cite://raghavendra/tantra-dipika/1.4",
+          "locus_short": "TD 1.4"
+        },
+        {
+          "cite": "cite://raghavendra/tantra-dipika/1.1",
+          "locus_short": "TD 1.1"
+        }
+      ]
     },
     {
-      "school": "Bhedābheda (Bhāskara, Yādava-Prakāśa)",
-      "definition": "*Brahman* is both identical with and different from the world, and both sides of the relation are real. Bhāskara therefore rejects Advaita *vivarta* as a refusal to own the causal language of the Upaniṣads. The world is a real *pariṇāma* of *brahman*; embodiment and limitation are not merely imagined but belong to the actual way *brahman* appears as the many.",
-      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 1.1.4", "Bhāskara, Brahma-Sūtra-Bhāṣya 2.1.14 (against vivarta)"]
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     },
     {
-      "school": "Acintya-Bhedābheda (Caitanya / Jīva Gosvāmī)",
-      "definition": "*Brahman* is not the highest impersonal terminus but the radiance of Kṛṣṇa, who is *svayaṃ-bhagavān*. The relation between Kṛṣṇa and His *śaktis* is real and *acintya*: not a logical contradiction, but a relation that cannot be flattened into either sheer identity or sheer difference. This yields a three-register theology: impersonal *brahman* as effulgence, *paramātman* as indwelling regulator, and *bhagavān* as the fullest personal manifestation.",
-      "primary_loci": ["Tattva-Sandarbha §§51–56", "Bhagavat-Sandarbha §§1–7", "Kṛṣṇa-Sandarbha §§28–29 (Kṛṣṇa as svayaṃ-bhagavān)"]
+      "school": "Acintya-Bhedābheda",
+      "definition": "The *abheda-śāstras* concerning *brahman* are retained at the level of shared *cid-rūpatva*, while the *jīva-samūha* stands to Bhagavān through his *svābhāvika acintya-śakti* as ray-atoms stand to the sun, so that *vyatireka* and *avyatireka* are jointly upheld [[Paramātma-Sandarbha §43](cite://jiva-gosvami/sat-sandarbha/§43)]. Once the distinction between the *māyā-āśraya* and the *māyā-mohita* is fixed, *bhajana* of him alone becomes *abhidheya* and Bhagavān is established as the *parama-svarūpa* and proper *viṣaya* of *parama-prema* [[Paramātma-Sandarbha §44](cite://jiva-gosvami/sat-sandarbha/§44); [Paramātma-Sandarbha §45](cite://jiva-gosvami/sat-sandarbha/§45)].",
+      "primary_loci": [
+        "Paramātma-Sandarbha §§43-45"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§43",
+          "locus_short": "Paramātma-Sandarbha §43"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§44",
+          "locus_short": "Paramātma-Sandarbha §44"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§45",
+          "locus_short": "Paramātma-Sandarbha §45"
+        }
+      ]
     },
     {
-      "school": "Śuddhādvaita (Vallabha)",
-      "definition": "*Brahman* is Kṛṣṇa in full *sat-cit-ānanda* plenitude. The world is His real manifestation by *avikṛta-pariṇāma*: a genuine emergence that does not diminish or corrupt the source. Vallabha therefore rejects any need for *māyā* as an ontological downgrading device; the world is real because it is *brahman*'s own self-expression.",
-      "primary_loci": ["Aṇu-Bhāṣya 1.1.2"]
+      "school": "Dvaitādvaita",
+      "definition": "*Parabrahman* is Kṛṣṇa/Hari, *svabhāvataḥ apāsta-samasta-doṣa* and the *eka-rāśi* of *aśeṣa-kalyāṇa-guṇas* [[DaŚ 4](cite://nimbarka/dasa-shloki/4)]. *Tattva* is triadic as *cit*, *acit*, and *brahman*, with *brahman* and *jīva* standing as *svādhīna* and *parādhīna* [[Vedānta-Kaustubha, BS 1.1.1](cite://srinivasa/vedanta-kaustubha/1.1.1)]. The *jīva* is neither *atyantabhinna* nor *atyantābhinna*, but *brahman*'s *aṃśa* understood as *śakti* and hence real non-separation with real distinction [[Vedānta-Kaustubha, BS 2.3.42](cite://srinivasa/vedanta-kaustubha/2.3.42); [VPS 2.3.42](cite://nimbarka/vedanta-parijata-saurabha/2.3.42)].",
+      "primary_loci": [
+        "Daśa-Ślokī 4",
+        "Vedānta-Kaustubha 1.1.1",
+        "Vedānta-Kaustubha 2.3.42",
+        "Vedānta-Pārijāta-Saurabha 2.3.42"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nimbarka/dasa-shloki/4",
+          "locus_short": "DaŚ 4"
+        },
+        {
+          "cite": "cite://srinivasa/vedanta-kaustubha/1.1.1",
+          "locus_short": "BS 1.1.1"
+        },
+        {
+          "cite": "cite://srinivasa/vedanta-kaustubha/2.3.42",
+          "locus_short": "BS 2.3.42"
+        },
+        {
+          "cite": "cite://nimbarka/vedanta-parijata-saurabha/2.3.42",
+          "locus_short": "VPS 2.3.42"
+        }
+      ]
     },
     {
-      "school": "Dvaitādvaita (Nimbārka)",
-      "definition": "*Brahman* is Kṛṣṇa, naturally one with and different from selves and world. The relation is not a later epistemic correction but the original metaphysical structure: dependence grounds identity, distinctness grounds plurality. Nimbārka thus preserves real devotion, real plurality, and real dependence without adopting Advaita's sublation model.",
-      "primary_loci": ["Vedānta-Pārijāta-Saurabha 1.1.1–4", "Daśa-Ślokī 1–2"]
+      "school": "Śuddhādvaita",
+      "definition": "Brahman itself is the *samavāyi-kāraṇa*, pervading its effects as *sat-cit-ānanda* while *nāma* and *rūpa* belong to the *kārya*-side [[BSB 1.1.4](cite://vallabha/anu-bhasya/1.1.4)]. Its manifestation is a real *pariṇāma* in *kāryākāra*, yet *avikṛta* in the manner of gold becoming ornaments, so that *brahman*'s plenitude is not diminished by emergence [[BSB 1.4.26](cite://vallabha/anu-bhasya/1.4.26)]. The *jīva* is *brahmaṇo 'ṃśaḥ*, and *brahmajñāna* matures into *Puruṣottama-prāpti* only through the *bhakti-bhāva* that renders the soul fit for divine appropriation [[BSB 2.3.43-45](cite://vallabha/anu-bhasya/2.3.43-45); [BSB 1.1.12-19](cite://vallabha/anu-bhasya/1.1.12-19)].",
+      "primary_loci": [
+        "Aṇu-Bhāṣya 1.1.4",
+        "Aṇu-Bhāṣya 1.4.26",
+        "Aṇu-Bhāṣya 1.1.12-19",
+        "Aṇu-Bhāṣya 2.3.43-45"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.1.4",
+          "locus_short": "BSB 1.1.4"
+        },
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.4.26",
+          "locus_short": "BSB 1.4.26"
+        },
+        {
+          "cite": "cite://vallabha/anu-bhasya/2.3.43-45",
+          "locus_short": "BSB 2.3.43-45"
+        },
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.1.12-19",
+          "locus_short": "BSB 1.1.12-19"
+        }
+      ]
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yoga",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Sāṃkhya-Yoga (synthetic)",
+      "definition": "In the Bhikṣu synthesis, *brahman* is not approached through an epistemic thinning of *māyā* into mere *avidyā*; in *Śvetāśvatara* 4.10 *māyā* is read as *prakṛti* itself, preserving a real causal apparatus for manifestation [[VĀB 1.1.5](cite://vijnanabhiksu/vijnanamrta-bhasya/1.1.5)]. The *jīva* is *brahmaṇo 'ṃśaḥ* in an expressive and dependent sense, like a son to a father, and yogic *īśvara-praṇidhāna* is accordingly a *samādhi-bhāvanā* oriented to a *puruṣa-viśeṣa* untouched by *kleśa-karma-vipākāśaya* [[VĀB 2.3.43](cite://vijnanabhiksu/vijnanamrta-bhasya/2.3.43); [YV 1.23](cite://vijnanabhiksu/yoga-varttika/1.23); [YV 1.24](cite://vijnanabhiksu/yoga-varttika/1.24)].",
+      "primary_loci": [
+        "Vijñānāmṛta-Bhāṣya 1.1.5",
+        "Vijñānāmṛta-Bhāṣya 2.3.43",
+        "Yoga-Vārttika 1.23-1.24"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vijnanabhiksu/vijnanamrta-bhasya/1.1.5",
+          "locus_short": "VĀB 1.1.5"
+        },
+        {
+          "cite": "cite://vijnanabhiksu/vijnanamrta-bhasya/2.3.43",
+          "locus_short": "VĀB 2.3.43"
+        },
+        {
+          "cite": "cite://vijnanabhiksu/yoga-varttika/1.23",
+          "locus_short": "YV 1.23"
+        },
+        {
+          "cite": "cite://vijnanabhiksu/yoga-varttika/1.24",
+          "locus_short": "YV 1.24"
+        }
+      ]
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     }
   ],
-  "see_also": ["atman", "saguna", "nirguna", "saccidananda", "isvara", "bhagavan", "para-brahman", "vivarta", "parinama"],
+  "see_also": [
+    "atman",
+    "saguna",
+    "nirguna",
+    "saccidananda",
+    "isvara",
+    "bhagavan",
+    "para-brahman",
+    "vivarta",
+    "parinama"
+  ],
   "translator_note": "Avoid lazy equivalences such as 'the Absolute' or 'God' without qualification. 'The Absolute' imports German-idealist baggage; 'God' imports a personal creator model that fits some Vedāntic schools and not others. The Sanskrit term carries a causal and soteriological apparatus: world-ground, object of liberating knowledge, and, in many schools, the real Lord of worship. Also keep the distinctions clear: *brahman* (neuter) is not *brahmā* (the creator deity) and not *brāhmaṇa* (the ritual-social designation).",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus"
+  "last_verified_by": "glossary-wave1-codex54"
 }

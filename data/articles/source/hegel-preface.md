@@ -23,11 +23,29 @@ This already commits Hegel to a methodological principle. A philosophy cannot an
 
 ### (ii) Substance must equally be grasped as Subject
 
-Hegel's second principle is the most quoted: "everything turns on grasping and expressing the True not only as Substance, but equally as Subject" (Miller, p. 10; TWA 3, p. 23). Here the German *Substanz als Subjekt* — Substance-as-Subject — is the technical phrase that Hegel-readers carry with them, but the philosophical work translates cleanly.
+Hegel's second principle is the most quoted (TWA 3, p. 23):
+
+::: sanskrit-aside
+:::: sanskrit
+Es kömmt nach meiner Einsicht, welche sich durch die Darstellung des Systems selbst rechtfertigen muß, alles darauf an, das Wahre nicht als *Substanz*, sondern eben so sehr als *Subjekt* aufzufassen und auszudrücken.
+:::: english
+Everything turns, in my view — and the view will have to justify itself through the presentation of the system — on grasping and expressing the True not only as *Substance* but equally as *Subject*.
+:::
+
+Here the German *Substanz als Subjekt* — Substance-as-Subject — is the technical phrase that Hegel-readers carry with them, but the philosophical work translates cleanly.
 
 The polemical target is Spinoza. Spinoza's one Substance is real, but inert. Everything is a mode of it; it does not know itself, does not return to itself, does not develop. Hegel's claim is that a Substance that is not also Subject is incomplete. The Real must be self-luminous, self-articulating, self-mediating.
 
-A few lines later he sharpens the point: "the living Substance is being which is in truth Subject ... only insofar as it is the movement of positing itself, or the mediation of its self-othering with itself" (TWA 3, p. 23). The Real *contains its own becoming*. It is not first there and then mediated; the mediation *is* what it is.
+A few lines later he sharpens the point (TWA 3, p. 23):
+
+::: sanskrit-aside
+:::: sanskrit
+Die lebendige Substanz ist ferner das Sein, welches in Wahrheit *Subjekt*, oder, was dasselbe heißt, welches in Wahrheit wirklich ist, nur insofern sie die Bewegung des Sich-selbst-Setzens, oder die Vermittlung des Sich-anders-Werdens mit sich selbst ist.
+:::: english
+Further, the living Substance is being which is in truth *Subject*, or — what is the same thing — which is in truth actual only insofar as it is the movement of positing itself, the mediation of its self-othering with itself.
+:::
+
+The Real *contains its own becoming*. It is not first there and then mediated; the mediation *is* what it is.
 
 This is Hegel's deepest break from the entire substance-tradition that runs from Aristotle through Spinoza. To be real is not to be a substratum that *has* properties; it is to be a self-developing process that *generates* its own determinations.
 

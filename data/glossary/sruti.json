@@ -3,37 +3,250 @@
   "term_iast": "śruti",
   "term_devanagari": "श्रुति",
   "literal": "that which is heard; from √śru, 'to hear'",
-  "aliases": ["sruti", "śruti", "Śruti", "śruteḥ", "śrutau", "shruti", "śruty"],
-  "invariant_definition": "*Śruti* is not merely a sacred book. It is the heard Vedic corpus taken, in Mīmāṃsā and most Vedānta, as *apauruṣeya* speech whose authority is intrinsic and whose sentences function as *śabda-pramāṇa* where perception and inference do not reach. The term therefore sits inside a larger apparatus: the distinction between *vidhi*, *mantra*, and *arthavāda*; the split between *karma-kāṇḍa* and *jñāna-kāṇḍa*; the need to establish a passage's settled purport (*tātparya*) by *samanvaya* rather than by isolated quotation; and the claim that Vedic language discloses real obligations and real metaphysical structure. In practice a thinker citing *śruti* is normally also presupposing a hermeneutic method for reconciling apparently divergent passages. The major disagreements concern what the corpus is finally about: injunction and *dharma* for Pūrva-Mīmāṃsā, *brahman* for Vedānta, qualified *brahman* for Viśiṣṭādvaita, Viṣṇu for Dvaita, and Kṛṣṇa as *svayaṃ-bhagavān* for Gauḍīya Vaiṣṇavism. Thus *śruti* names both a canon and a theory of revelatory language.",
+  "aliases": [
+    "sruti",
+    "śruti",
+    "Śruti",
+    "śruteḥ",
+    "śrutau",
+    "shruti",
+    "śruty"
+  ],
+  "invariant_definition": "*Śruti* is not merely a sacred book. It is the heard Vedic corpus taken, in Mīmāṃsā and most Vedānta, as *apauruṣeya* speech whose authority is intrinsic and whose sentences function as *śabda-pramāṇa* where perception and inference do not reach. The term therefore sits inside a larger apparatus: the distinction between *vidhi*, *mantra*, and *arthavāda*; the split between *karma-kāṇḍa* and *jñāna-kāṇḍa*; the need to establish a passage's settled purport (*tātparya*) by *samanvaya* rather than by isolated quotation; and the claim that Vedic language discloses real obligations and real metaphysical structure. In practice a thinker citing *śruti* is normally also presupposing a hermeneutic method for reconciling apparently divergent passages. The major disagreements concern what the corpus is finally about: injunction and *dharma* for Pūrva-Mīmāṃsā, *brahman* for Vedānta, qualified *brahman* for Viśiṣṭādvaita, Viṣṇu for Tattva-vāda (the school often labeled Dvaita), and Kṛṣṇa as *svayaṃ-bhagavān* for Gauḍīya Vaiṣṇavism. Thus *śruti* names both a canon and a theory of revelatory language.",
   "per_school": [
     {
-      "school": "Pūrva-Mīmāṃsā",
-      "definition": "*Śruti* is the authorless Veda whose primary force lies in *codanā*, injunction. Its core subject is *dharma*, not a highest being. What matters in practice is how sentences generate obligation through the ritual apparatus of *vidhi*, *niyama*, *parisaṃkhyā*, and the rest. The Veda's authority is therefore tied to action-guidance and to the production of results not otherwise knowable.",
-      "primary_loci": ["Mīmāṃsā-Sūtra 1.1.2", "Śabara-Bhāṣya on Mīmāṃsā-Sūtra 1.1.2"]
-    },
-    {
       "school": "Advaita",
-      "definition": "*Śruti* is the unique *pramāṇa* for *brahman*, because *brahman* is not an object available to perception or inference. The Upaniṣadic *mahāvākyas* disclose the identity of *ātman* and *brahman* when their *tātparya* is established across the corpus. In use, Advaita therefore treats *śruti* as revelatory language whose liberating force is completed by *śravaṇa*, *manana*, and *nididhyāsana*.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.3", "Brahma-Sūtra-Bhāṣya 1.1.4", "Chāndogya-Upaniṣad-Bhāṣya 6.8.7"]
+      "definition": "Śruti alone is the operative *pramāṇa* for *ātma-jñāna* and *brahma-jñāna*, since the Veda alone is held to disclose the knowledge whose fruit is liberation [[UpS I.17.8](cite://sankara/upadesa-sahasri/I.17.8)] [[MBs 1.2](cite://mandana/brahma-siddhi/1.2)]. Its *tātparya* is fixed by disciplined differentiation of *vācya* and *lakṣya*: creation-śrutis determine the referent of *tat*, waking-dream-sleep śrutis determine the referent of *tvam*, and the negation of plurality marks the siddhānta of *brahmātmaikya* [[Upodghāta 9](cite://madhusudana/siddhanta-bindu/9)] [[Upodghāta 10](cite://madhusudana/siddhanta-bindu/10)] [[BS 1.1 (plurality as māyā-bound)](cite://mandana/brahma-siddhi/1.1.1--opening-prose-on-ekatva-and-m-y)].",
+      "primary_loci": [
+        "Upadeśa-Sāhasrī I.17.8",
+        "Brahma-Siddhi 1.2",
+        "Siddhānta-Bindu, Upodghāta 9-10",
+        "Brahma-Siddhi 1.1 (plurality as māyā-bound)"
+      ],
+      "citations": [
+        {
+          "cite": "cite://sankara/upadesa-sahasri/I.17.8",
+          "locus_short": "UpS I.17.8"
+        },
+        {
+          "cite": "cite://mandana/brahma-siddhi/1.2",
+          "locus_short": "MBs 1.2"
+        },
+        {
+          "cite": "cite://madhusudana/siddhanta-bindu/9",
+          "locus_short": "Upodghāta 9"
+        },
+        {
+          "cite": "cite://madhusudana/siddhanta-bindu/10",
+          "locus_short": "Upodghāta 10"
+        },
+        {
+          "cite": "cite://mandana/brahma-siddhi/1.1.1--opening-prose-on-ekatva-and-m-y",
+          "locus_short": "BS 1.1 (plurality as māyā-bound)"
+        }
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Śruti* uniformly teaches a qualified *brahman* possessed of infinite auspicious attributes. Texts that deny qualities are read as denying defects and material limitation, not all determinacy. In practice Rāmānuja's method is to show that apparently abstract Upaniṣadic statements resolve into the body-soul relation between the world, the *jīva*, and Nārāyaṇa.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§47–70", "Śrī-Bhāṣya 1.1.1", "Śrī-Bhāṣya 2.2.42"]
+      "definition": "Śruti is a single Vedāntic body whose head-texts establish meditation, worship, and surrender toward the supreme Person as the settled import of revelation [[VS §3](cite://ramanuja/vedartha-samgraha/§3)]. The same corpus discloses Nārāyaṇa as the *antaryāmin* of all *cit* and *acit* through *sāmānādhikaraṇya*, while non-duality-statements exclude any second equal or superior to him rather than the real order of the whole [[VS §6](cite://ramanuja/vedartha-samgraha/§6)] [[Svs 31-35](cite://yamuna/siddhi-trayam/31-35)].",
+      "primary_loci": [
+        "Vedārtha-Saṅgraha §3",
+        "Vedārtha-Saṅgraha §6",
+        "Saṃvit-Siddhi 31-35"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§3",
+          "locus_short": "VS §3"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§6",
+          "locus_short": "VS §6"
+        },
+        {
+          "cite": "cite://yamuna/siddhi-trayam/31-35",
+          "locus_short": "Svs 31-35"
+        }
+      ]
     },
     {
-      "school": "Dvaita",
-      "definition": "*Śruti* is absolutely authoritative, but its settled purport is specifically Viṣṇu. Madhva's exegesis assumes that apparent non-dualist passages must be read in ways consistent with real difference, dependence, and *taratamya*. In practice *śruti* is read together with *itihāsa*, *purāṇa*, and *pañcarātra* as one coordinated revelatory field centered on Viṣṇu.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.1.3", "Viṣṇu-Tattva-Vinirṇaya 1", "Mahābhārata-Tātparya-Nirṇaya 1.1–12"]
+      "school": "Tattva-vāda",
+      "definition": "Śruti is a bheda-bearing *pramāṇa* whose *sāmarthya* makes the distinction of *jīva* and Īśvara firm, while passages of apparent non-difference are read through *sādṛśya*, *prādhānya*, and transferred designation rather than *svarūpābheda* [[Anuvy. 2.3.66-69](cite://madhva/anuvyakhyana/2.3.66-69)] [[TD 1.3](cite://raghavendra/tantra-dipika/1.3)]. The same śruti-body teaches Viṣṇu's *sarvottamatva*, declaring his auspicious qualities and his abiding superiority to the *jīva* even where likeness-language is admitted [[Verse 14](cite://madhva/upadhi-khandana/14)] [[Verse 18](cite://madhva/upadhi-khandana/18)].",
+      "primary_loci": [
+        "Anuvyākhyāna 2.3.66-69",
+        "Tantra-Dīpikā 1.3",
+        "Upādhi-Khaṇḍana 14",
+        "Upādhi-Khaṇḍana 18"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/anuvyakhyana/2.3.66-69",
+          "locus_short": "Anuvy. 2.3.66-69"
+        },
+        {
+          "cite": "cite://raghavendra/tantra-dipika/1.3",
+          "locus_short": "TD 1.3"
+        },
+        {
+          "cite": "cite://madhva/upadhi-khandana/14",
+          "locus_short": "Verse 14"
+        },
+        {
+          "cite": "cite://madhva/upadhi-khandana/18",
+          "locus_short": "Verse 18"
+        }
+      ]
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "*Śruti* remains foundational, but its meaning is said to culminate in the *Bhāgavata-Purāṇa* as the fullest disclosure of Kṛṣṇa. The Upaniṣads are therefore read through a Bhāgavata-Vaiṣṇava lens in which divine personhood, *śakti*, and *bhakti* are not secondary accommodations but the corpus's own deepest intention.",
-      "primary_loci": ["Tattva-Sandarbha §§10–17", "Tattva-Sandarbha §§51–56", "Bhāgavata-Purāṇa 1.1.3"]
+      "definition": "The scriptural corpus is received as containing both *bheda-śāstras* and *abheda-śāstras*, and their concord is secured through Bhagavān's *svābhāvika acintya-śakti* rather than by collapsing either register [[Paramātma-Sandarbha §42](cite://jiva-gosvami/sat-sandarbha/§42)] [[Paramātma-Sandarbha §43](cite://jiva-gosvami/sat-sandarbha/§43)]. Once scripture has fixed the distinction between the *māyā-āśraya* Lord and the *māyā-mohita* jīva, it establishes Bhagavān-bhajana as *abhidheya* and *parama-prema* for Bhagavān as *prayojana* [[Paramātma-Sandarbha §44](cite://jiva-gosvami/sat-sandarbha/§44)] [[Paramātma-Sandarbha §45](cite://jiva-gosvami/sat-sandarbha/§45)].",
+      "primary_loci": [
+        "Paramātma-Sandarbha §§42-45"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§42",
+          "locus_short": "Paramātma-Sandarbha §42"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§43",
+          "locus_short": "Paramātma-Sandarbha §43"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§44",
+          "locus_short": "Paramātma-Sandarbha §44"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§45",
+          "locus_short": "Paramātma-Sandarbha §45"
+        }
+      ]
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "Śruti is hermeneutically one because the aggregate of revelation reaches *avirodha* when referred to Śrī Kṛṣṇa [[Maṅgalācaraṇa 1](cite://srinivasa/vedanta-kaustubha/1)]. Its settled teaching on the *jīva-brahman* relation is *aṃśatva*: the jīva is neither *atyantabhinna* nor *atyantābhinna*, but a dependent *śakti* and therefore *asvatantra* [[BS 2.3.42](cite://srinivasa/vedanta-kaustubha/2.3.42)] [[VPS 2.3.42](cite://nimbarka/vedanta-parijata-saurabha/2.3.42)].",
+      "primary_loci": [
+        "Vedānta-Kaustubha, Maṅgalācaraṇa 1",
+        "Vedānta-Kaustubha 2.3.42",
+        "Vedānta-Pārijāta-Saurabha 2.3.42"
+      ],
+      "citations": [
+        {
+          "cite": "cite://srinivasa/vedanta-kaustubha/1",
+          "locus_short": "Maṅgalācaraṇa 1"
+        },
+        {
+          "cite": "cite://srinivasa/vedanta-kaustubha/2.3.42",
+          "locus_short": "BS 2.3.42"
+        },
+        {
+          "cite": "cite://nimbarka/vedanta-parijata-saurabha/2.3.42",
+          "locus_short": "VPS 2.3.42"
+        }
+      ]
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "Śruti is decisive where ordinary ontology does not reach, because Brahman and the jīva's *aṃśatva* are *vedaika-samadhigamya* and are not settled from common experience [[BSB 2.3.43-45](cite://vallabha/anu-bhasya/2.3.43-45)]. The same Vedic disclosure teaches an *avikṛta-pariṇāma* in which Brahman truly appears in effect-form while remaining unmodified, so scriptural causality is both real and non-diminishing [[BSB 1.4.26](cite://vallabha/anu-bhasya/1.4.26)] [[BSB 2.3.43-45](cite://vallabha/anu-bhasya/2.3.43-45)].",
+      "primary_loci": [
+        "Aṇu-Bhāṣya 1.4.26",
+        "Aṇu-Bhāṣya 2.3.43-45"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.4.26",
+          "locus_short": "BSB 1.4.26"
+        },
+        {
+          "cite": "cite://vallabha/anu-bhasya/2.3.43-45",
+          "locus_short": "BSB 2.3.43-45"
+        }
+      ]
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yoga",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Sāṃkhya-Yoga (synthetic)",
+      "definition": "In the Bhikṣu synthesis, śruti fixes the cosmological use of *māyā* by prescribing that the term denotes *prakṛti*, already known from other śruti and smṛti, under the lordship of Maheśvara [[VĀB 1.1.5](cite://vijnanabhiksu/vijnanamrta-bhasya/1.1.5)]. This is a realist hermeneutic of causal disclosure rather than of merely illusory appearance, and the appeal to scripture is what secures that reading [[VĀB 1.1.5](cite://vijnanabhiksu/vijnanamrta-bhasya/1.1.5)].",
+      "primary_loci": [
+        "Vijñānāmṛta-Bhāṣya 1.1.5"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vijnanabhiksu/vijnanamrta-bhasya/1.1.5",
+          "locus_short": "VĀB 1.1.5"
+        }
+      ]
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Jainism",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     }
   ],
-  "see_also": ["smrti", "sabda-pramana", "veda", "upanisad", "mahavakya", "tatparya", "apauruseya"],
+  "see_also": [
+    "smrti",
+    "sabda-pramana",
+    "veda",
+    "upanisad",
+    "mahavakya",
+    "tatparya",
+    "apauruseya"
+  ],
   "translator_note": "The lazy gloss is 'scripture' or 'revelation.' Both import Abrahamic baggage: a historically delivered message authored by God or a prophet and bounded as a book. *Śruti* instead names an authorless heard corpus plus the Mīmāṃsā-Vedānta theory that such language is intrinsically valid and hermeneutically ordered. Leaving the term untranslated, or glossing it once as 'the heard Veda,' usually preserves the metaphysics better.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus"
+  "last_verified_by": "glossary-wave1-codex54"
 }

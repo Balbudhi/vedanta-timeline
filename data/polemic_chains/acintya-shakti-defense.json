@@ -4,7 +4,7 @@
   "attacker": "jiva-gosvami",
   "attacker_text": "Tattva-Sandarbha §51 ff. and §65 ff.; developed across the Bhagavat-Sandarbha and Sarva-Saṃvādinī (the auto-commentary defending the Sandarbhas against rival Vedānta schools)",
   "target_school_token": "cross-tradition",
-  "target_position_summary": "The dialectical objection — raised principally by Madhva-Dvaita and post-Madhusūdana Advaita against the Caitanya-school doctrine of acintya-bhedābheda — that the acintya operator (rendering the bheda-abheda conjunction beyond the law of non-contradiction) is an evasion: it does not solve the bheda-abheda problem but renames it. Jīva Gosvāmī's defensive operation is structurally constructive: he argues that acintya-śakti is not a dodge but a positive metaphysical commitment about the limits of dialectic relative to ontology, warranted by śabda-pramāṇa.",
+  "target_position_summary": "The dialectical objection — raised principally by Madhva's Tattva-vāda (Dvaita) and post-Madhusūdana Advaita against the Caitanya-school doctrine of acintya-bhedābheda — that the acintya operator (rendering the bheda-abheda conjunction beyond the law of non-contradiction) is an evasion: it does not solve the bheda-abheda problem but renames it. Jīva Gosvāmī's defensive operation is structurally constructive: he argues that acintya-śakti is not a dodge but a positive metaphysical commitment about the limits of dialectic relative to ontology, warranted by śabda-pramāṇa.",
   "arguments": [
     {
       "name": "argument-1: the structure of the śakti–śaktimat relation requires the acintya qualifier",
@@ -36,7 +36,7 @@
         "positions_left_intact": [
           {
             "thinker_id": "ramanuja",
-            "position": "Rāmānuja's apṛthak-siddhi (inseparability without identity) is structurally close to acintya-bhedābheda; the argument's negative thrust does not target Viśiṣṭādvaita as adversarially as it targets Dvaita and Advaita."
+            "position": "Rāmānuja's apṛthak-siddhi (inseparability without identity) is structurally close to acintya-bhedābheda; the argument's negative thrust does not target Viśiṣṭādvaita as adversarially as it targets Tattva-vāda and Advaita."
           },
           {
             "thinker_id": "bhaskara",
@@ -55,7 +55,7 @@
           }
         ]
       },
-      "user_thesis_test": "Substantive. The argument is genuinely philosophical: it claims that there are real ontological features (śakti-śaktimat relations) that violate dialectical bivalence. The disagreement with Dvaita and Advaita is real. Importantly, this is structurally close to the user's hypothesis: a relation that genuine philosophical inquiry shows to be irreducible to either of the standard exclusive options is exactly the sort of structural feature that the perspectivism hypothesis would predict. The user's framework is closer to Caitanya-Jīva than to Madhva-Vyāsatīrtha on this axis."
+      "user_thesis_test": "Substantive. The argument is genuinely philosophical: it claims that there are real ontological features (śakti-śaktimat relations) that violate dialectical bivalence. The disagreement with Tattva-vāda and Advaita is real. Importantly, this is structurally close to the user's hypothesis: a relation that genuine philosophical inquiry shows to be irreducible to either of the standard exclusive options is exactly the sort of structural feature that the perspectivism hypothesis would predict. The user's framework is closer to Caitanya-Jīva than to Madhva-Vyāsatīrtha on this axis."
     },
     {
       "name": "argument-2: śabda-pramāṇa licenses the acintya qualifier where dialectic cannot reach",
@@ -126,7 +126,7 @@
         "positions_left_intact": [
           {
             "thinker_id": "madhusudana",
-            "position": "Madhusūdana's anirvacanīya-doctrine is structurally analogous to acintya at the level of admitting non-classical predicates; both schools face structurally similar objections from Madhva-Dvaita and offer structurally similar defenses (anirvacanīya / acintya). Substantial alignment, despite the doctrinal divergence on what the non-classical predicate applies to."
+            "position": "Madhusūdana's anirvacanīya-doctrine is structurally analogous to acintya at the level of admitting non-classical predicates; both schools face structurally similar objections from Madhva's Tattva-vāda and offer structurally similar defenses (anirvacanīya / acintya). Substantial alignment, despite the doctrinal divergence on what the non-classical predicate applies to."
           }
         ],
         "later_responses": [
@@ -137,10 +137,10 @@
           }
         ]
       },
-      "user_thesis_test": "This is the locus where the user's perspectivism hypothesis would be most directly supported. If acintya is correctly read as a refinement of the bheda-abheda apparatus (rather than as a violation of contradiction), then the acintya-bhedābheda position is structurally compatible with multiple register-perspectives on the Bhagavān-jīva relation. The disagreement with Madhva-Dvaita is over whether such non-classical structures are admissible; this is a substantive metaphysical disagreement, not a register-effect, but it is precisely the kind of substantive disagreement the user's hypothesis would license."
+      "user_thesis_test": "This is the locus where the user's perspectivism hypothesis would be most directly supported. If acintya is correctly read as a refinement of the bheda-abheda apparatus (rather than as a violation of contradiction), then the acintya-bhedābheda position is structurally compatible with multiple register-perspectives on the Bhagavān-jīva relation. The disagreement with Madhva's Tattva-vāda is over whether such non-classical structures are admissible; this is a substantive metaphysical disagreement, not a register-effect, but it is precisely the kind of substantive disagreement the user's hypothesis would license."
     }
   ],
-  "user_thesis_summary": "Jīva Gosvāmī's acintya-śakti defense is the locus classicus of constructive non-classical metaphysics in Vedānta. The doctrine is genuinely substantive: it commits to the existence of ontological structures (śakti-śaktimat relations involving Bhagavān) that cannot be analysed by dialectical exclusion. The defense rests on three pillars: structural exhibition (the śakti-śaktimat relation is the counterexample to bivalent bheda-abheda), pramāṇa-hierarchy (śabda is the appropriate pramāṇa where dialectic cannot reach), and category-clarification (acintya is non-classical metaphysics, not contradiction). Importantly, Madhusūdana's Advaita anirvacanīya-doctrine is structurally analogous, and the two schools — despite their doctrinal divergence on what the non-classical predicate applies to — are substantially aligned on the methodology of admitting non-classical predicates. This is one of the cleanest places in the corpus where the user's perspectivism hypothesis is supported: acintya-bhedābheda is structurally compatible with multiple register-perspectives on the Bhagavān-jīva relation, and the residual disagreements (with Madhva-Dvaita) are over the legitimacy of non-classical metaphysics rather than over the substantive characterisation of the relation. Verdict: substantive defense of substantive doctrine, with strong structural alignment to Madhusūdana on the methodology of non-classical predication, and partial support for the perspectivism hypothesis on the inter-school axis.",
+  "user_thesis_summary": "Jīva Gosvāmī's acintya-śakti defense is the locus classicus of constructive non-classical metaphysics in Vedānta. The doctrine is genuinely substantive: it commits to the existence of ontological structures (śakti-śaktimat relations involving Bhagavān) that cannot be analysed by dialectical exclusion. The defense rests on three pillars: structural exhibition (the śakti-śaktimat relation is the counterexample to bivalent bheda-abheda), pramāṇa-hierarchy (śabda is the appropriate pramāṇa where dialectic cannot reach), and category-clarification (acintya is non-classical metaphysics, not contradiction). Importantly, Madhusūdana's Advaita anirvacanīya-doctrine is structurally analogous, and the two schools — despite their doctrinal divergence on what the non-classical predicate applies to — are substantially aligned on the methodology of admitting non-classical predicates. This is one of the cleanest places in the corpus where the user's perspectivism hypothesis is supported: acintya-bhedābheda is structurally compatible with multiple register-perspectives on the Bhagavān-jīva relation, and the residual disagreements (with Madhva's Tattva-vāda) are over the legitimacy of non-classical metaphysics rather than over the substantive characterisation of the relation. Verdict: substantive defense of substantive doctrine, with strong structural alignment to Madhusūdana on the methodology of non-classical predication, and partial support for the perspectivism hypothesis on the inter-school axis.",
   "primary_source_loci": [
     "Tattva-Sandarbha §51, §65 ff. (the foundational acintya-śakti articulation)",
     "Bhagavat-Sandarbha (the threefold śakti-doctrine: svarūpa-, jīva-, māyā-)",

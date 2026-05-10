@@ -3,27 +3,345 @@
   "term_iast": "dvaita",
   "term_devanagari": "द्वैत",
   "literal": "duality, two-ness; from dvi- 'two'",
-  "aliases": ["dvaita", "Dvaita", "dvaitam", "tattva-vada", "tattvavāda"],
-  "invariant_definition": "As a school-name, *Dvaita* names Madhva's *Tattvavāda*, not a generic doctrine of two substances. Its native grammar is wider than the English word 'dualism' suggests. The school begins from the asymmetry between the one *svatantra* reality, Viṣṇu, and the plurality of *paratantra* realities, then articulates that plurality through *pañca-bheda*, *taratamya*, and intrinsic *svarūpa-bheda* among *jīvas*. The point is not merely that God and soul differ, but that all the major relations presupposed in scriptural language, action, devotion, bondage, and liberation are real and irreducible. Knowledge does not culminate in the cancellation of these relations, but in their correct apprehension under Viṣṇu's sovereignty. In practice this means that worshipper and Lord, agent and fruit, liberated soul and supreme deity remain distinct without becoming independent. Dvaita is therefore best understood as a hierarchical realist pluralism ordered by dependence, not as a flat binary metaphysics or a mind-body dualism.",
+  "aliases": [
+    "dvaita",
+    "Dvaita",
+    "dvaitam",
+    "tattva-vada",
+    "tattvavāda"
+  ],
+  "invariant_definition": "As a school-name, *Tattva-vāda (the school often labeled Dvaita)* names Madhva's school, not a generic doctrine of two substances. Its native grammar is wider than the English word 'dualism' suggests. The school begins from the asymmetry between the one *svatantra* reality, Viṣṇu, and the plurality of *paratantra* realities, then articulates that plurality through *pañca-bheda*, *taratamya*, and intrinsic *svarūpa-bheda* among *jīvas*. The point is not merely that God and soul differ, but that all the major relations presupposed in scriptural language, action, devotion, bondage, and liberation are real and irreducible. Knowledge does not culminate in the cancellation of these relations, but in their correct apprehension under Viṣṇu's sovereignty. In practice this means that worshipper and Lord, agent and fruit, liberated soul and supreme deity remain distinct without becoming independent. Tattva-vāda is therefore best understood as a hierarchical realist pluralism ordered by dependence, not as a flat binary metaphysics or a mind-body dualism.",
   "per_school": [
     {
-      "school": "Dvaita (Madhva)",
-      "definition": "*Dvaita* is Madhva's *Tattvavāda*: a realism in which Viṣṇu alone is independent and all else is dependent, really existent, and mutually distinct. The doctrine is completed by *pañca-bheda* and *taratamya*: difference is not accidental to experience but constitutive of reality, and dependence itself is internally graded. Liberation gives *aparokṣa-jñāna* of Viṣṇu and eternal service, not identity with him. The school thus treats scriptural difference-statements as literal disclosures of ontology rather than provisional teaching devices.",
-      "primary_loci": ["Tattva-Saṅkhyāna 1-8", "Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1-2", "Viṣṇu-Tattva-Vinirṇaya 1-12"]
-    },
-    {
       "school": "Advaita",
-      "definition": "*Dvaita* names the field of plurality disclosed under *avidyā* and operative in *vyavahāra*. Difference between God, soul, and world is admitted for practice, injunction, and devotion, but is ultimately sublated by *brahma-jñāna* into the non-dual identity of *ātman* and *brahman*. From this standpoint 'dvaita' is not false in the sense of sheer non-being; it is empirically operative and later sublatable, which is why Advaita can preserve scriptural and ritual life without granting absolute reality to multiplicity.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1 (adhyāsa-bhāṣya)", "Chāndogya-Upaniṣad-Bhāṣya 6.2.1", "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 2.4.14"]
+      "definition": "*Dvaita* names the *prapañca* projected through beginningless *māyā* and sublated when the awakened *jīva* knows the unborn, sleepless, dreamless *advaita* [[MK 1.16-18](cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18)]. The plurality of *jīvas* is explained as an apparent delimitation of the one *ātman*, like pot-space, so that difference is pedagogically serviceable without partitioning consciousness itself [[MK 3.3-7](cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.3-7)]. *Turīya* is *prapañcopaśama*, *avyavahārya*, and *advaita*; accordingly, duality has standing only within instruction and transaction, not in *paramārtha* [[MāṇḍU 7](cite://sankara/mandukya-bhasya/upaniṣad.7)][[MK 3.19-21](cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.19-21)].",
+      "primary_loci": [
+        "Māṇḍūkya-Kārikā 1.16-18",
+        "Māṇḍūkya-Kārikā 3.3-7",
+        "Māṇḍūkya-Kārikā 3.19-21",
+        "Māṇḍūkya-Upaniṣad 7 with Śaṅkara Bhāṣya"
+      ],
+      "citations": [
+        {
+          "cite": "cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18",
+          "locus_short": "MK 1.16-18"
+        },
+        {
+          "cite": "cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.3-7",
+          "locus_short": "MK 3.3-7"
+        },
+        {
+          "cite": "cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.19-21",
+          "locus_short": "MK 3.19-21"
+        },
+        {
+          "cite": "cite://sankara/mandukya-bhasya/upaniṣad.7",
+          "locus_short": "MāṇḍU 7"
+        }
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "Viśiṣṭādvaita rejects *dvaita* only if it means a second reality standing outside Brahman. Real plurality is retained, but as the body of Brahman rather than as an independent domain. Distinctions among Lord, soul, and matter are real enough for devotion, agency, and liberation, yet they are internal to the one qualified whole. The polemical target is therefore not all difference, but any account that severs *cit* and *acit* from the Lord who sustains them as their inner ruler.",
-      "primary_loci": ["Vedārtha-Saṅgraha 82-95", "Śrī-Bhāṣya 1.1.1", "Śrī-Bhāṣya 2.1.14"]
+      "definition": "*Dvaita* is not denied where it names the real *prapañca* of *cit* and *acit*, for the world's *sadbhāva* stands by its own *pramāṇa* and is not cancelled by *advaita-śruti* [[Svs 31-35](cite://yamuna/siddhi-trayam/31-35)]. The force of *advitīya* is to exclude a second equal or superior to Brahman, not to erase dependents internal to his sovereignty, just as an *advitīya* emperor is not thereby stripped of servants or household [[Svs 38](cite://yamuna/samvit-siddhi/38)][[Svs 39](cite://yamuna/samvit-siddhi/39)][[Svs 40](cite://yamuna/samvit-siddhi/40)]. Rāmānuja accordingly states Brahman as Viṣṇu qualified by the totality of *cid-acid-vastu* and as the *antaryāmin* to whom these stand in *sāmānādhikaraṇya* through body-self dependence [[VedS §1](cite://ramanuja/vedartha-samgraha/§1)][[VedS §6](cite://ramanuja/vedartha-samgraha/§6)].",
+      "primary_loci": [
+        "Saṃvit-Siddhi 31-40",
+        "Vedārtha-Saṅgraha §§1, 6"
+      ],
+      "citations": [
+        {
+          "cite": "cite://yamuna/siddhi-trayam/31-35",
+          "locus_short": "Svs 31-35"
+        },
+        {
+          "cite": "cite://yamuna/samvit-siddhi/38",
+          "locus_short": "Svs 38"
+        },
+        {
+          "cite": "cite://yamuna/samvit-siddhi/39",
+          "locus_short": "Svs 39"
+        },
+        {
+          "cite": "cite://yamuna/samvit-siddhi/40",
+          "locus_short": "Svs 40"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§1",
+          "locus_short": "VedS §1"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§6",
+          "locus_short": "VedS §6"
+        }
+      ]
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "In Tattva-vāda, *dvaita* first names the ontological asymmetry of *svatantra* and *asvatantra*: Viṣṇu alone is independent, while all other reals stand as dependent being [[TS 1](cite://madhva/tattva-sankhyana/1)]. That dependence is not a flattened plurality but a structured realism of *pañca-bheda*, where the differences among Īśvara, *jīva*, and *jaḍa* are real and beginningless [[Anuvy. 1.4.111-112](cite://madhva/anuvyakhyana/1.4.111-112)]. For that reason the formula *dvaitaṃ na vidyate* is rejected as *ajñānināṃ matam*; liberation is the clarified apprehension of real difference under Viṣṇu's sovereignty, not its erasure [[Anuvy. 1.4.112](cite://madhva/anuvyakhyana/1.4.112)].",
+      "primary_loci": [
+        "Tattva-Saṅkhyāna 1",
+        "Anuvyākhyāna 1.4.111-112"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/tattva-sankhyana/1",
+          "locus_short": "TS 1"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/1.4.111-112",
+          "locus_short": "Anuvy. 1.4.111-112"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/1.4.112",
+          "locus_short": "Anuvy. 1.4.112"
+        }
+      ]
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "For Bhedābheda in the Bhartṛprapañca line, differentiation is not a merely provisional overlay, since the once-undifferentiated Brahman genuinely becomes articulated by *nāma-rūpa* [[BṛU 1.4.7](cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.7)]. The pair *mūrta/amūrta* together with *neti neti* marks a real two-aspect structure of Brahman rather than a cancellation of form by formlessness [[BṛU 2.3.1, 2.3.6](cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.3)]. Accordingly, the identity-sentence *ahaṃ brahmāsmi* does not annul differentiated discipline, since the self is still to be heard, reflected upon, meditated upon, and worshipped in the mode proper to its relation with Brahman [[BṛU 1.4.10](cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.10)][[BṛU 2.4.5, 1.4.15](cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.4.5, 1.4.15)].",
+      "primary_loci": [
+        "Bṛhadāraṇyaka-Upaniṣad 1.4.7",
+        "Bṛhadāraṇyaka-Upaniṣad 2.3.1, 2.3.6",
+        "Bṛhadāraṇyaka-Upaniṣad 1.4.10",
+        "Bṛhadāraṇyaka-Upaniṣad 2.4.5, 1.4.15"
+      ],
+      "citations": [
+        {
+          "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.7",
+          "locus_short": "BṛU 1.4.7"
+        },
+        {
+          "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.3",
+          "locus_short": "BṛU 2.3.1, 2.3.6"
+        },
+        {
+          "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.10",
+          "locus_short": "BṛU 1.4.10"
+        },
+        {
+          "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.4.5, 1.4.15",
+          "locus_short": "BṛU 2.4.5, 1.4.15"
+        }
+      ]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "Acintya-Bhedābheda refuses explanatory models such as *pariccheda* and *pratibimba* as final accounts of the Bhagavān-*jīva* relation, allowing them at most secondary force where they approximate the case [[Paramātma-Sand. §42](cite://jiva-gosvami/sat-sandarbha/§42)]. The *abheda-śāstras* are retained because Bhagavān and the *jīvas* are both *cid-rūpa*, yet their relation is mediated by Bhagavān's *svābhāvika acintya-śakti*, under which the *jīva*-community stands to him like rays to the sun [[Paramātma-Sand. §43](cite://jiva-gosvami/sat-sandarbha/§43)][[Paramātma-Sand. §45](cite://jiva-gosvami/sat-sandarbha/§45)]. Real *bheda* remains decisive in practice, since Bhagavān is the locus of *māyā* while the bound *jīva* is *māyā-mohita*, and *bhajana* therefore has the status of *abhidheya* [[Paramātma-Sand. §44](cite://jiva-gosvami/sat-sandarbha/§44)].",
+      "primary_loci": [
+        "Paramātma-Sandarbha §§42-45"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§42",
+          "locus_short": "Paramātma-Sand. §42"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§43",
+          "locus_short": "Paramātma-Sand. §43"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§44",
+          "locus_short": "Paramātma-Sand. §44"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§45",
+          "locus_short": "Paramātma-Sand. §45"
+        }
+      ]
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "In Dvaitādvaita, the *jīva* is at once *hareḥ adhīna* and *pratidehabhinna*, so difference and non-difference belong to its very constitution rather than arising from removable *upādhi*s [[DaŚ 1](cite://nimbarka/dasa-shloki/1)]. The school's *aṃśa*-grammar states this relation through the joint authority of plurality-language, mantra, and *smṛti*, none of which permits either sheer severance or sheer collapse [[BS 2.3.42](cite://nimbarka/vedanta-parijata-saurabha/2.3.42)][[BS 2.3.43](cite://nimbarka/vedanta-parijata-saurabha/2.3.43)][[BS 2.3.44](cite://nimbarka/vedanta-parijata-saurabha/2.3.44)]. The bound, devotional, and liberated conditions of the *jīva*, together with its *prabheda-bāhulya*, therefore belong within a real plurality that liberation does not abolish [[DaŚ 2](cite://nimbarka/dasa-shloki/2)].",
+      "primary_loci": [
+        "Daśa-Ślokī 1-2",
+        "Vedānta-Pārijāta-Saurabha on BS 2.3.42-44"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nimbarka/dasa-shloki/1",
+          "locus_short": "DaŚ 1"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/2",
+          "locus_short": "DaŚ 2"
+        },
+        {
+          "cite": "cite://nimbarka/vedanta-parijata-saurabha/2.3.42",
+          "locus_short": "BS 2.3.42"
+        },
+        {
+          "cite": "cite://nimbarka/vedanta-parijata-saurabha/2.3.43",
+          "locus_short": "BS 2.3.43"
+        },
+        {
+          "cite": "cite://nimbarka/vedanta-parijata-saurabha/2.3.44",
+          "locus_short": "BS 2.3.44"
+        }
+      ]
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "Śuddhādvaita refuses to make *dvaita* a second reality outside Brahman, since Brahman itself is the *samavāyi-kāraṇa* and *nāma-rūpa* belong to the effective unfolding of that one reality [[BSB 1.1.4](cite://vallabha/anu-bhasya/1.1.4)]. The world's plurality is therefore real as *avikṛta-pariṇāma*: Brahman becomes effect-form without forfeiting its own unmodified fullness [[BSB 1.4.26](cite://vallabha/anu-bhasya/1.4.26)]. The *jīva* is Brahman's real *aṃśa*, and attainment of Puruṣottama is completed through *varaṇa* and *bhakti*, not through the liquidation of differentiated relation [[BSB 2.3.43-45](cite://vallabha/anu-bhasya/2.3.43-45)][[BSB 1.1.12-19](cite://vallabha/anu-bhasya/1.1.12-19)].",
+      "primary_loci": [
+        "Aṇu-Bhāṣya on BS 1.1.4",
+        "Aṇu-Bhāṣya on BS 1.4.26",
+        "Aṇu-Bhāṣya on BS 2.3.43-45",
+        "Aṇu-Bhāṣya on BS 1.1.12-19"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.1.4",
+          "locus_short": "BSB 1.1.4"
+        },
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.4.26",
+          "locus_short": "BSB 1.4.26"
+        },
+        {
+          "cite": "cite://vallabha/anu-bhasya/2.3.43-45",
+          "locus_short": "BSB 2.3.43-45"
+        },
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.1.12-19",
+          "locus_short": "BSB 1.1.12-19"
+        }
+      ]
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yoga",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "What appears as duality belongs to *prapañca* and conceptual fixation, whereas *tattva* is *aparapratyaya*, *aprāpañcita*, and *anānārtha* [[MMK 18.9](cite://nagarjuna/mula-madhyamaka-karika/18.9)]. The school therefore handles the field of duality through the two truths: *lokasaṃvṛti* is the indispensable register of teaching, but *paramārtha* is not another intrinsically grounded term standing over against it [[MMK 24.8](cite://nagarjuna/mula-madhyamaka-karika/24.8)][[MMK 24.9](cite://nagarjuna/mula-madhyamaka-karika/24.9)][[MMK 24.10](cite://nagarjuna/mula-madhyamaka-karika/24.10)]. Saṃsāra and nirvāṇa are accordingly not two self-standing orders, since no ontological interval whatsoever is admitted between them when *prapañca* is pacified [[MMK 25.19](cite://nagarjuna/mula-madhyamaka-karika/25.19)][[MMK 25.20](cite://nagarjuna/mula-madhyamaka-karika/25.20)][[MMK 25.24](cite://nagarjuna/mula-madhyamaka-karika/25.24)].",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 18.9",
+        "Mūla-Madhyamaka-Kārikā 24.8-10",
+        "Mūla-Madhyamaka-Kārikā 25.19-24"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/18.9",
+          "locus_short": "MMK 18.9"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.8",
+          "locus_short": "MMK 24.8"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.9",
+          "locus_short": "MMK 24.9"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.10",
+          "locus_short": "MMK 24.10"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/25.19",
+          "locus_short": "MMK 25.19"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/25.20",
+          "locus_short": "MMK 25.20"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/25.24",
+          "locus_short": "MMK 25.24"
+        }
+      ]
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "For Yogācāra, duality is the imagined articulation of subject and object within *vijñāna-pariṇāma*; what is grasped as external objecthood is only *vijñapti-mātra* [[Triṃśikā 17](cite://vasubandhu/trimsika/17)]. That projected objectivity is the *parikalpita-svabhāva*, while the dependent flow is empty of it and becomes legible as *tathatā* precisely through that absence [[Triṃśikā 20](cite://vasubandhu/trimsika/20)][[Triṃśikā 21](cite://vasubandhu/trimsika/21)][[Triṃśikā 25](cite://vasubandhu/trimsika/25)]. Non-dual realization is the cessation of adherence to *grāhadvaya* and the *āśraya-parāvṛtti* that follows when consciousness no longer installs anything before itself as a second [[Triṃśikā 26](cite://vasubandhu/trimsika/26)][[Triṃśikā 27](cite://vasubandhu/trimsika/27)][[Triṃśikā 28](cite://vasubandhu/trimsika/28)][[Triṃśikā 29](cite://vasubandhu/trimsika/29)].",
+      "primary_loci": [
+        "Triṃśikā 17",
+        "Triṃśikā 20-21",
+        "Triṃśikā 25-29"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/trimsika/17",
+          "locus_short": "Triṃśikā 17"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/20",
+          "locus_short": "Triṃśikā 20"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/21",
+          "locus_short": "Triṃśikā 21"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/25",
+          "locus_short": "Triṃśikā 25"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/26",
+          "locus_short": "Triṃśikā 26"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/27",
+          "locus_short": "Triṃśikā 27"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/28",
+          "locus_short": "Triṃśikā 28"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/29",
+          "locus_short": "Triṃśikā 29"
+        }
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Jainism",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     }
   ],
-  "see_also": ["advaita", "bhedabheda", "tattvavada", "panca-bheda", "svatantra", "paratantra", "taratamya"],
-  "translator_note": "Rendering *Dvaita* as 'dualism' is usually too crude. It imports Cartesian and other binary frameworks in which the issue is two opposed kinds of substance. Madhva's term instead names a dependence-structured plural realism with one independent reality and many dependent ones. In most contexts it is better to retain *Dvaita* or *Tattvavāda* and gloss the underlying metaphysics explicitly.",
+  "see_also": [
+    "advaita",
+    "bhedabheda",
+    "tattvavada",
+    "panca-bheda",
+    "svatantra",
+    "paratantra",
+    "taratamya"
+  ],
+  "translator_note": "Rendering *Tattva-vāda* as 'dualism' is usually too crude. It imports Cartesian and other binary frameworks in which the issue is two opposed kinds of substance. Madhva's term instead names a dependence-structured plural realism with one independent reality and many dependent ones. In most contexts it is better to retain *Tattva-vāda* and gloss the underlying metaphysics explicitly.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus"
+  "last_verified_by": "glossary-wave1-codex54"
 }

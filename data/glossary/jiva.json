@@ -3,47 +3,322 @@
   "term_iast": "jīva",
   "term_devanagari": "जीव",
   "literal": "the living one; from √jīv, 'to live, to breathe'",
-  "aliases": ["jiva", "jīva", "Jīva", "jivas", "jīvas", "jīvaḥ", "jīvāḥ", "jīvasya", "jīvānām", "jīvayoḥ", "jīvātman", "jīvātmā"],
+  "aliases": [
+    "jiva",
+    "jīva",
+    "Jīva",
+    "jivas",
+    "jīvas",
+    "jīvaḥ",
+    "jīvāḥ",
+    "jīvasya",
+    "jīvānām",
+    "jīvayoḥ",
+    "jīvātman",
+    "jīvātmā"
+  ],
   "invariant_definition": "The living, embodied subject as bearer of agency, enjoyership, bondage, and rebirth. Unlike *ātman*, which asks what the self is in its strictest metaphysical sense, *jīva* foregrounds the self as it moves through *saṃsāra*: associated with body, mind, subtle body, and the continuity of *karma*. The term therefore sits inside a practical and theoretical scaffold: *kartṛtva* and *bhoktṛtva*, the relation between consciousness and *antaḥkaraṇa*, the mechanism by which *karma* adheres and fructifies, and the question whether individuality is intrinsic, derivative, or only apparent. Vedāntic schools agree that some such locus must be admitted if bondage and liberation are to be intelligible; they disagree on whether the *jīva* is really distinct from *brahman*, a real mode of *brahman*, or only *brahman* under limiting adjuncts. Outside Vedānta, the term can move differently again, most notably in Jainism where *jīva* is a real substance literally encrusted by karmic matter. The entry therefore cannot be reduced to 'individual soul' without losing the doctrinal machinery the word ordinarily presupposes.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "The *jīva* is *brahman* appearing as an individual knower through the *upādhi* of *antaḥkaraṇa* and the reflected-consciousness apparatus often discussed as *cidābhāsa*. Agency and enjoyership belong to the empirical self, not to pure consciousness. Internal debates then ask where *avidyā* is located and whether there is one empirical subject or many. The point is not that lived individuality is ignored, but that it is treated as *vyāvahārika* and finally sublatable.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1 (adhyāsa-bhāṣya)", "Brahma-Sūtra-Bhāṣya 4.1.3", "Bhāmatī ad BSB 1.4.3", "Pañcapādikā-Vivaraṇa, varṇaka 1", "Saṅkṣepa-Śārīraka 1.319"]
+      "definition": "In Advaita, *jīva* designates *brahman* as though individualized through beginningless *māyā* and the *antaḥkaraṇa*-*upādhi*, so that awakening is not the production of a new self but recognition of the unborn *advaita* [[MK 1.16-18](cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18)]. The plurality of *jīvas* is taught through the *ghaṭākāśa*-dṛṣṭānta: adjunct-conditioned differentiation governs pleasure, pain, and empirical traffic, while the *jīva* is neither a real *vikāra* nor an *avayava* of *ātman* [[MK 3.3-7](cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.3-7)]. Within post-Śaṅkara analysis, *jīvatva* is the *ābhāsa* or *pratibimba* of consciousness in the internal organ, and *avidyā* is assigned to the *jīvas* rather than to *brahman* itself [[BS 1.1](cite://mandana/brahma-siddhi/1.1.1--opening-prose-on-avidy); [PV p. 65](cite://prakasatman/pancapadika-vivarana/jīvasya brahma-pratibimbatvāpādanam); [SS III.278](cite://sarvajnatman/samksepa-sariraka/3.278)]. Accordingly, liberation is immediate at the rise of self-knowledge, because the entire *saṃsāra*-seed has already been burned away [[IṢ 1.9](cite://vimuktatman/ista-siddhi/1.Jīvanmuktiḥ)].",
+      "primary_loci": [
+        "Māṇḍūkya-Kārikā 1.16-18",
+        "Māṇḍūkya-Kārikā 3.3-7",
+        "Brahma-Siddhi 1.1 (opening prose on avidyā)",
+        "Pañcapādikā-Vivaraṇa p. 65",
+        "Saṃkṣepa-Śārīraka III.278",
+        "Iṣṭa-Siddhi 1.9"
+      ],
+      "citations": [
+        {
+          "cite": "cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18",
+          "locus_short": "MK 1.16-18"
+        },
+        {
+          "cite": "cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.3-7",
+          "locus_short": "MK 3.3-7"
+        },
+        {
+          "cite": "cite://mandana/brahma-siddhi/1.1.1--opening-prose-on-avidy",
+          "locus_short": "BS 1.1"
+        },
+        {
+          "cite": "cite://prakasatman/pancapadika-vivarana/jīvasya brahma-pratibimbatvāpādanam",
+          "locus_short": "PV p. 65"
+        },
+        {
+          "cite": "cite://sarvajnatman/samksepa-sariraka/3.278",
+          "locus_short": "SS III.278"
+        },
+        {
+          "cite": "cite://vimuktatman/ista-siddhi/1.Jīvanmuktiḥ",
+          "locus_short": "IṢ 1.9"
+        }
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "The *jīva* is an eternal, atomic conscious substance inseparable from *brahman* yet numerically distinct from Him. Its crucial technical feature is *dharmabhūta-jñāna*: the self's knowing capacity expands or contracts according to karmic bondage. Embodiment is therefore not an illusion but a real, karmically structured condition of a real self whose fulfillment lies in service to Nārāyaṇa.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§76–88", "Śrī-Bhāṣya 2.3.18 (jīva atomic)", "Śrī-Bhāṣya 2.3.42–53 (dharmabhūta-jñāna)"]
+      "definition": "The *jīva* is a real self distinct from body and carried through divine, human, animal, and vegetal embodiments by the stream of beginningless karma, so that Vedānta's task is to destroy the fear generated by that embodied circulation [[VS §4](cite://ramanuja/vedartha-samgraha/§4)]. Its *svarūpa* is common across selves, free from corporeal differentiations, and characterizable as *jñānānandaika-guṇa*, even though karmic embodiment imposes the diversified conditions of *saṃsāra* [[VS §5](cite://ramanuja/vedartha-samgraha/§5)]. Knowledge of *jīva* and Paramātman is therefore inseparable from *upāsanā*, because the self stands under Nārāyaṇa as *antaryāmin* and reaches its end in worship directed to the supreme Person [[VS §3](cite://ramanuja/vedartha-samgraha/§3); [VS §6](cite://ramanuja/vedartha-samgraha/§6)].",
+      "primary_loci": [
+        "Vedārtha-Saṃgraha §3",
+        "Vedārtha-Saṃgraha §4",
+        "Vedārtha-Saṃgraha §5",
+        "Vedārtha-Saṃgraha §6"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§3",
+          "locus_short": "VS §3"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§4",
+          "locus_short": "VS §4"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§5",
+          "locus_short": "VS §5"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§6",
+          "locus_short": "VS §6"
+        }
+      ]
     },
     {
-      "school": "Dvaita",
-      "definition": "The *jīva* is an eternal, atomic, dependent knower whose distinctness from Viṣṇu, from matter, and from other selves is irreducible. Madhva's distinctive move is *taratamya*: selves are not merely many, but hierarchically differentiated in intrinsic capacity and destiny. The term therefore names not just an individual subject, but a dependent reality with a determinate place in a graded realist order.",
-      "primary_loci": ["Tattva-Saṅkhyāna 1–8", "Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1, 2.3.18", "Anu-Vyākhyāna 2.3", "Mahābhārata-Tātparya-Nirṇaya 1.85–87 (taratamya)"]
+      "school": "Tattva-vāda",
+      "definition": "The *jīva* is a dependent reality whose very existence, knowledge, liberation, and bliss all stand under Hari's *anugraha*; it is not self-liberating even by knowledge's own nature [[Anuvy. 1.1.13-15](cite://madhva/anuvyakhyana/1.1.13-15)]. Its irreducible place in the real order is fixed by *bhedapañcaka*: the difference of *jīva* from Īśvara, from matter, and from other *jīvas* is beginningless and true [[Anuvy. 1.4.111-112](cite://madhva/anuvyakhyana/1.4.111-112)]. Non-difference texts are therefore read through *sādṛśya*, *pradhānatva*, and divine *svātantrya*, never as *svarūpābhidāna*, and the distinction of *jīva* and Lord is reaffirmed in the states of deep sleep and departure [[Anuvy. 2.3.66-69](cite://madhva/anuvyakhyana/2.3.66-69); [TD 1.3](cite://raghavendra/tantra-dipika/1.3)].",
+      "primary_loci": [
+        "Anuvyākhyāna 1.1.13-15",
+        "Anuvyākhyāna 1.4.111-112",
+        "Anuvyākhyāna 2.3.66-69",
+        "Tantra-Dīpikā 1.3"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/anuvyakhyana/1.1.13-15",
+          "locus_short": "Anuvy. 1.1.13-15"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/1.4.111-112",
+          "locus_short": "Anuvy. 1.4.111-112"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/2.3.66-69",
+          "locus_short": "Anuvy. 2.3.66-69"
+        },
+        {
+          "cite": "cite://raghavendra/tantra-dipika/1.3",
+          "locus_short": "TD 1.3"
+        }
+      ]
     },
     {
-      "school": "Bhedābheda (Bhāskara)",
-      "definition": "The *jīva* is identical with *brahman* in essence and different in its actually embodied state, and both sides of that claim are real. Bhāskara therefore refuses the Advaita move that makes individuality a merely superimposed appearance. The limiting condition is itself a real transformation within the causal order, not an epistemic mistake alone.",
-      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 1.1.4", "Bhāskara, Brahma-Sūtra-Bhāṣya 2.3.43"]
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "The *jīva* is Kṛṣṇa's conscious *vibhinnāṃśa*, belonging to the *taṭasthā-śakti* rather than to inert matter or to the Lord's innermost *svarūpa-śakti*. Because of that marginal status, bondage and liberation are described relationally: the self turns outward under *māyā* or inward toward Kṛṣṇa through *bhakti*. Its abiding identity is not autonomy but service.",
-      "primary_loci": ["Paramātma-Sandarbha §§19, 28, 37", "Bhakti-Sandarbha §1", "Caitanya-Caritāmṛta, Madhya 20.108"]
+      "definition": "The *jīva* is not accepted as a mere *pariccheda* or *pratibimba* of the Absolute; *abheda*-texts are retained only with respect to shared *cid-rūpatva*, while the aggregate of *jīvas* stands to Bhagavān through his natural *acintya-śakti* as ray-atoms to the sun [[PS §42](cite://jiva-gosvami/sat-sandarbha/§42); [PS §43](cite://jiva-gosvami/sat-sandarbha/§43)]. Because Bhagavān is the *māyā*-āśraya and the *jīva* the one deluded by *māyā*, *bhajana* alone is the proper *abhidheya* and *parama-prema* the established *prayojana* [[PS §44](cite://jiva-gosvami/sat-sandarbha/§44); [PS §45](cite://jiva-gosvami/sat-sandarbha/§45)]. In Caitanya's own devotional idiom, the *jīva* confesses itself as Kṛṣṇa's *kiṅkara* rather than as an autonomous self-subsistent subject [[Śikṣāṣṭakam 5](cite://caitanya/shikshashtakam/5)].",
+      "primary_loci": [
+        "Paramātma-Sandarbha §42",
+        "Paramātma-Sandarbha §43",
+        "Paramātma-Sandarbha §44",
+        "Paramātma-Sandarbha §45",
+        "Śikṣāṣṭakam 5"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§42",
+          "locus_short": "PS §42"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§43",
+          "locus_short": "PS §43"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§44",
+          "locus_short": "PS §44"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§45",
+          "locus_short": "PS §45"
+        },
+        {
+          "cite": "cite://caitanya/shikshashtakam/5",
+          "locus_short": "Śikṣāṣṭakam 5"
+        }
+      ]
     },
     {
-      "school": "Śuddhādvaita (Vallabha)",
-      "definition": "The *jīva* is a real *aṃśa* of Kṛṣṇa in which consciousness is manifest while bliss is obscured under worldly entanglement. Vallabha classifies selves as *puṣṭi*, *maryādā*, and *pravāha*, so the term already carries a soteriological sorting of lives by their relation to grace, injunction, and worldly flow.",
-      "primary_loci": ["Aṇu-Bhāṣya 2.3.42", "Tattvārtha-Dīpa-Nibandha, Śāstrārtha-Prakaraṇa §§50–60"]
+      "school": "Dvaitādvaita",
+      "definition": "The *jīva* is *jñāna-svarūpa*, atomic, distinct in each body, fit for conjunction with and disjunction from embodiment, and wholly dependent on Hari [[DaŚ 1](cite://nimbarka/dasa-shloki/1)]. In lived reality it is bound up with beginningless *māyā*, and the tradition explicitly distinguishes bound, liberated, and devotional conditions together with a plurality of sub-differentiations among selves [[DaŚ 2](cite://nimbarka/dasa-shloki/2)]. Śrīnivāsa formulates the same ontology as an asymmetry of *svādhīna* and *parādhīna*: Brahman is independent, the *jīvātman* dependent, and its *aṃśatva* is to be understood as finite *śakti* and *asvatantratva* rather than as absolute identity or absolute separation [[BS 1.1.1](cite://srinivasa/vedanta-kaustubha/1.1.1); [BS 2.3.42](cite://srinivasa/vedanta-kaustubha/2.3.42)].",
+      "primary_loci": [
+        "Daśa-Ślokī 1",
+        "Daśa-Ślokī 2",
+        "Vedānta-Kaustubha 1.1.1",
+        "Vedānta-Kaustubha 2.3.42"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nimbarka/dasa-shloki/1",
+          "locus_short": "DaŚ 1"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/2",
+          "locus_short": "DaŚ 2"
+        },
+        {
+          "cite": "cite://srinivasa/vedanta-kaustubha/1.1.1",
+          "locus_short": "BS 1.1.1"
+        },
+        {
+          "cite": "cite://srinivasa/vedanta-kaustubha/2.3.42",
+          "locus_short": "BS 2.3.42"
+        }
+      ]
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "The *jīva* is Brahman's own *aṃśa*, and this relation is grounded in scriptural *nānā-vyapadeśa* rather than in any ordinary mereological model available from worldly experience [[BSB 2.3.43-45](cite://vallabha/anu-bhasya/2.3.43-45)]. Vallabha therefore treats the self as an eternal reality within *jīvaloka*, disclosed by Vedic and smṛti testimony, not as an illusory individuality to be dismissed as merely apparent [[BSB 2.3.43-45](cite://vallabha/anu-bhasya/2.3.43-45)].",
+      "primary_loci": [
+        "Aṇu-Bhāṣya 2.3.43-45"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anu-bhasya/2.3.43-45",
+          "locus_short": "BSB 2.3.43-45"
+        }
+      ]
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yoga",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "What ordinary discourse might call a living self is, in Madhyamaka, sustained only by appropriation through the notions \"I\" and \"mine\"; when that *upādāna* ceases, birth itself is exhausted [[MMK 18.4](cite://nagarjuna/mula-madhyamaka-karika/18.4); [MMK 18.5](cite://nagarjuna/mula-madhyamaka-karika/18.5)]. Nāgārjuna's more exact point is that Buddha's teaching deploys both *ātman* and *anātman* conventionally, while reality itself is beyond the paired alternatives of self and not-self, being *nirvikalpa* and *aprapañcita* [[MMK 18.6](cite://nagarjuna/mula-madhyamaka-karika/18.6); [MMK 18.7](cite://nagarjuna/mula-madhyamaka-karika/18.7); [MMK 18.9](cite://nagarjuna/mula-madhyamaka-karika/18.9)]. Accordingly, no independently grounded *jīva* can be admitted at the level of *tattva*, since whatever arises dependently is neither simply identical with nor wholly other than its conditions [[MMK 18.10](cite://nagarjuna/mula-madhyamaka-karika/18.10)].",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 18.4",
+        "Mūla-Madhyamaka-Kārikā 18.5",
+        "Mūla-Madhyamaka-Kārikā 18.6",
+        "Mūla-Madhyamaka-Kārikā 18.7",
+        "Mūla-Madhyamaka-Kārikā 18.9",
+        "Mūla-Madhyamaka-Kārikā 18.10"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/18.4",
+          "locus_short": "MMK 18.4"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/18.5",
+          "locus_short": "MMK 18.5"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/18.6",
+          "locus_short": "MMK 18.6"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/18.7",
+          "locus_short": "MMK 18.7"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/18.9",
+          "locus_short": "MMK 18.9"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/18.10",
+          "locus_short": "MMK 18.10"
+        }
+      ]
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "The manifold attribution of selfhood takes place only within *vijñāna-pariṇāma*; what is ordinarily taken as a *jīva* is a conceptual *upacāra*, not a persisting seer outside cognition's own transformations [[Triṃśikā 1](cite://vasubandhu/trimsika/1); [Triṃśikā 17](cite://vasubandhu/trimsika/17)]. Vasubandhu therefore reads the teaching as an entry into *pudgala-nairātmya*: from seed and appearing object the sixfold consciousness proceeds, yet no single *draṣṭṛ* or *mantṛ* is found there [[Viṃśatikā 9](cite://vasubandhu/vimsatika/9 and Entry into *Pudgala-Nairātmya*)]. The deeper correction is *dharma-nairātmya* and finally *āśraya-parāvṛtti*, where the imagined selfhood of both person and dharmas is relinquished in supramundane knowledge [[Viṃśatikā 10](cite://vasubandhu/vimsatika/10 and Entry into *Dharma-Nairātmya*); [Triṃśikā 29](cite://vasubandhu/trimsika/29); [Triṃśikā 30](cite://vasubandhu/trimsika/30)].",
+      "primary_loci": [
+        "Triṃśikā 1",
+        "Triṃśikā 17",
+        "Viṃśatikā 9",
+        "Viṃśatikā 10",
+        "Triṃśikā 29",
+        "Triṃśikā 30"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/trimsika/1",
+          "locus_short": "Triṃśikā 1"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/17",
+          "locus_short": "Triṃśikā 17"
+        },
+        {
+          "cite": "cite://vasubandhu/vimsatika/9 and Entry into *Pudgala-Nairātmya*",
+          "locus_short": "Viṃśatikā 9"
+        },
+        {
+          "cite": "cite://vasubandhu/vimsatika/10 and Entry into *Dharma-Nairātmya*",
+          "locus_short": "Viṃśatikā 10"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/29",
+          "locus_short": "Triṃśikā 29"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/30",
+          "locus_short": "Triṃśikā 30"
+        }
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     },
     {
       "school": "Jainism",
-      "definition": "*Jīva* is a real conscious substance whose defining mark is *upayoga*, sentient manifestation. Bondage is not merely moral memory or divine bookkeeping but the actual adhesion of karmic matter to the *jīva*. Liberation requires stopping influx, shedding accumulated karmic material, and allowing the self's omniscient nature to shine unobstructed.",
-      "primary_loci": ["Tattvārtha-Sūtra 2.8", "Tattvārtha-Sūtra 8.1"]
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     }
   ],
-  "see_also": ["atman", "antahkarana", "upadhi", "anu", "vibhu", "taratamya", "mukti-yogya", "nitya-samsari", "tamo-yogya", "amsa"],
+  "see_also": [
+    "atman",
+    "antahkarana",
+    "upadhi",
+    "anu",
+    "vibhu",
+    "taratamya",
+    "mukti-yogya",
+    "nitya-samsari",
+    "tamo-yogya",
+    "amsa"
+  ],
   "translator_note": "Avoid flattening *jīva* to 'soul' or even to 'individual self'. 'Soul' imports Christian substance-language, while 'individual self' can sound like a modern psychological ego. The Sanskrit term ordinarily means the living bearer of embodiment, agency, and karmic continuity. It is therefore close to neither a bare metaphysical substance nor a merely autobiographical person, and it is not simply interchangeable with *ātman*.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus"
+  "last_verified_by": "glossary-wave1-codex54"
 }

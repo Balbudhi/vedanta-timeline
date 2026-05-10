@@ -4,7 +4,7 @@
   "term_devanagari": "सगुण",
   "literal": "with *guṇa*; sa- + guṇa, where *guṇa* may mean the strands of *prakṛti* or real attributes depending on the school",
   "aliases": ["saguna", "saguṇa", "Saguṇa", "saguṇa-brahman", "saguṇaṃ", "saguṇasya"],
-  "invariant_definition": "*Saguṇa* does not have one stable meaning across Vedānta because the force of *guṇa* itself is disputed. In one register, inherited from Sāṃkhya, the word marks relation to the three strands of *prakṛti* and the cosmological order they generate. In another, more theistic register, it marks possession of real auspicious attributes. Advaita adds a third technical layer: *saguṇa brahman* is *brahman* considered with the adjunct of *māyā*, hence as creator, ruler, omniscient dispenser of *karma*, and proper object of *upāsanā*. Viśiṣṭādvaita, Dvaita, and Caitanya Vaiṣṇava theology reject the idea that this is a lower or merely provisional description. For them the Lord's names, forms, and qualities are fully real and belong to the highest truth, though *nirguṇa* passages still deny material or defective traits. The term therefore lies at the intersection of ontology, devotion, and scriptural hermeneutics. It must not be flattened into the English 'with qualities,' which obscures whether the school is talking about relation to *prakṛti*, *upādhi*, or intrinsic divine attributes.",
+  "invariant_definition": "*Saguṇa* does not have one stable meaning across Vedānta because the force of *guṇa* itself is disputed. In one register, inherited from Sāṃkhya, the word marks relation to the three strands of *prakṛti* and the cosmological order they generate. In another, more theistic register, it marks possession of real auspicious attributes. Advaita adds a third technical layer: *saguṇa brahman* is *brahman* considered with the adjunct of *māyā*, hence as creator, ruler, omniscient dispenser of *karma*, and proper object of *upāsanā*. Viśiṣṭādvaita, Tattva-vāda (the school often labeled Dvaita), and Caitanya Vaiṣṇava theology reject the idea that this is a lower or merely provisional description. For them the Lord's names, forms, and qualities are fully real and belong to the highest truth, though *nirguṇa* passages still deny material or defective traits. The term therefore lies at the intersection of ontology, devotion, and scriptural hermeneutics. It must not be flattened into the English 'with qualities,' which obscures whether the school is talking about relation to *prakṛti*, *upādhi*, or intrinsic divine attributes.",
   "per_school": [
     {
       "school": "Advaita",
@@ -17,7 +17,7 @@
       "primary_loci": ["Vedārtha-Saṅgraha §§91–137", "Śrī-Bhāṣya 1.1.13", "Yatīndra-Mata-Dīpikā 4"]
     },
     {
-      "school": "Dvaita",
+      "school": "Tattva-vāda",
       "definition": "Viṣṇu eternally possesses infinite real attributes and is never reducible to a higher attribute-less substrate. The *saguṇa* description is therefore simply the true description of the supreme. What *nirguṇa* denies is only materiality and defect, not the Lord's real excellences. This preserves the full realism of devotion, hierarchy, and divine agency.",
       "primary_loci": ["Tattva-Saṅkhyāna 1–4", "Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1", "Viṣṇu-Tattva-Vinirṇaya §§1–10"]
     },

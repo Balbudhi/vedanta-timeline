@@ -4,7 +4,7 @@
   "term_devanagari": "अन्यथाख्याति",
   "literal": "appearance otherwise; presentation as other than it is",
   "aliases": ["anyatha-khyati", "anyathā-khyāti", "Anyathā-khyāti", "anyathākhyāti"],
-  "invariant_definition": "*Anyathā-khyāti* is the classical Nyāya theory of erroneous cognition. In the rope-snake case the object apprehended is not sheer nothing, nor a newly fabricated entity, nor merely an undiscriminated pairing of perception and memory. Rather, a real object known elsewhere is presented here otherwise than it is, typically under the pressure of memory, defect, and a mistaken site-relation. The theory therefore presupposes the Nyāya machinery of perception, memory, defect, and practical response; error is still about the world, just not about the world correctly. Later Naiyāyikas refine the account through discussions of extraordinary perceptual relations and the exact role of remembered content in present awareness. The term matters for Vedānta because Advaita, Mīmāṃsā, Dvaita, and Buddhist schools all define themselves against this realist analysis when they explain error, illusion, and finally bondage. In ordinary *vyavahāra* the theory explains why one recoils, grasps, or speaks as though a real object were present at a place where it is not.",
+  "invariant_definition": "*Anyathā-khyāti* is the classical Nyāya theory of erroneous cognition. In the rope-snake case the object apprehended is not sheer nothing, nor a newly fabricated entity, nor merely an undiscriminated pairing of perception and memory. Rather, a real object known elsewhere is presented here otherwise than it is, typically under the pressure of memory, defect, and a mistaken site-relation. The theory therefore presupposes the Nyāya machinery of perception, memory, defect, and practical response; error is still about the world, just not about the world correctly. Later Naiyāyikas refine the account through discussions of extraordinary perceptual relations and the exact role of remembered content in present awareness. The term matters for Vedānta because Advaita, Mīmāṃsā, Tattva-vāda (the school often labeled Dvaita), and Buddhist schools all define themselves against this realist analysis when they explain error, illusion, and finally bondage. In ordinary *vyavahāra* the theory explains why one recoils, grasps, or speaks as though a real object were present at a place where it is not.",
   "per_school": [
     {
       "school": "Nyāya",
@@ -22,8 +22,8 @@
       "primary_loci": ["Kumārila, Ślokavārttika, viparyaya section [NOT YET RETRIEVED]"]
     },
     {
-      "school": "Dvaita",
-      "definition": "Dvaita authors often work with a modified realist account sometimes described as *abhinava anyathā-khyāti*. The burden of the modification is anti-Advaitin: error is still anchored in real objects and real plurality, but the Naiyāyika account is adjusted to meet later debates about presentation, memory, and the site of illusion. What never changes is the rejection of *anirvacanīya* error-content and the insistence that ordinary misperception cannot support a metaphysics of world-illusion.",
+      "school": "Tattva-vāda",
+      "definition": "Mādhva authors often work with a modified realist account sometimes described as *abhinava anyathā-khyāti*. The burden of the modification is anti-Advaitin: error is still anchored in real objects and real plurality, but the Naiyāyika account is adjusted to meet later debates about presentation, memory, and the site of illusion. What never changes is the rejection of *anirvacanīya* error-content and the insistence that ordinary misperception cannot support a metaphysics of world-illusion.",
       "primary_loci": ["Vyāsatīrtha, Nyāyāmṛta, khyāti section [NOT YET RETRIEVED]"]
     }
   ],

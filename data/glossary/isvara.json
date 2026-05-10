@@ -14,47 +14,215 @@
     "ishwar"
   ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus",
+  "last_verified_by": "glossary-wave1-codex54",
   "invariant_definition": "The Lord as governing consciousness: the principle that rules, orders, and dispenses. In Sanskrit philosophical use, *Īśvara* does more work than the English \"God.\" It is the term around which disputes about causality, providence, the fruits of *karma*, worship, and scriptural authority are organized. Vedānta asks whether *Īśvara* is merely the efficient cause or both efficient and material cause of the world, whether *Īśvara* is the highest description of reality or a conditioned one, and how the Lord stands to *māyā*, *prakṛti*, and bound selves. Yoga uses the term differently again: there *Īśvara* is a special *puruṣa*, untouched by affliction and karmic residue, and functions as a meditative and salvific ideal without needing the full Vedāntic creator-theology. The invariant core is therefore rule, sovereignty, and spiritual authority; the surrounding metaphysical commitments differ sharply. Any translation has to keep that causal and soteriological structure in view.",
   "per_school": [
     {
-      "school": "Yoga",
-      "definition": "*Īśvara* is a special *puruṣa* untouched by affliction, action, karmic fruition, and latent deposits. Patañjali does not define Īśvara through world-creation but through unsurpassed spiritual status and meditative efficacy; *Īśvara-praṇidhāna* becomes a direct yogic discipline. This is one of the clearest cases where the Sanskrit term is not equivalent to the creator-God of later Vedānta.",
+      "school": "Advaita",
+      "definition": "Īśvara is the omniscient manifestation of Brahman as reflected in māyā, the sattva-śuddha side of prakṛti brought under control; lordship here is thus articulated through a pratibimba-upādhi structure rather than through any alteration in Brahman [[Pañc. 1.15-16](cite://vidyaranya/panchadashi/1.15-16)]. Sarvajñātman accordingly describes the cosmic Lord as the tamaḥ-pratibimba of the paramātman entering relation with the world, just as the buddhi-located reflection of consciousness becomes the kartṛ of karma [[SS I.327](cite://sarvajnatman/samksepa-sariraka/1.327)].",
       "primary_loci": [
-        "Yoga-Sūtra 1.23-29"
-      ]
-    },
-    {
-      "school": "Advaita Vedānta",
-      "definition": "*Īśvara* is *brahman* associated with *māyā*, especially as omniscient ruler, creator, sustainer, and dispenser of the fruits of *karma*. Īśvara is fully real at the *vyāvahārika* level and is the proper object of worship and scriptural meditation, but Advaita denies that this conditioned lordship is the final description of reality. The distinction between *Īśvara* and *nirguṇa brahman* is therefore structural, not devotional window-dressing.",
-      "primary_loci": [
-        "Brahma-Sūtra-Bhāṣya 1.1.2",
-        "Brahma-Sūtra-Bhāṣya 2.1.14"
+        "Pañcadaśī 1.15-16",
+        "Saṃkṣepa-Śārīraka I.327"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vidyaranya/panchadashi/1.15-16",
+          "locus_short": "Pañc. 1.15-16"
+        },
+        {
+          "cite": "cite://sarvajnatman/samksepa-sariraka/1.327",
+          "locus_short": "SS I.327"
+        }
       ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Īśvara* is Nārāyaṇa, the highest *brahman* itself, not a conditioned appearance of something beyond personality. The Lord is both the inner ruler and the substantive whole whose body is the totality of *cit* and *acit*. Hence providence, worship, world-causality, and liberation all terminate in one and the same personal absolute.",
+      "definition": "Īśvara is the eka-pradhāna-puruṣa whose niyamana over the sentient and non-sentient whole is read from the world's ekecchānuvidhāna and from the dependence of all embodied agency upon one ruler [[ĪS 16-18](cite://yamuna/siddhi-trayam/16-18)]. Deśika formulates the same siddhānta through śarīrātma-bhāva: cit and acit stand to Īśvara as body to indwelling self, so that dhāryatva, niyāmyatva, and śeṣatva are constitutive of their relation to him [[RTS 104](cite://vedanta-desika/rahasya-traya-sara/104)] [[RTS 104-105](cite://vedanta-desika/rahasya-traya-sara/104–105)].",
       "primary_loci": [
-        "Śrī-Bhāṣya 1.1.1",
-        "Śrī-Bhāṣya 1.1.13"
+        "Īśvara-Siddhi 16-18",
+        "Rahasya-Traya-Sāra 104-105"
+      ],
+      "citations": [
+        {
+          "cite": "cite://yamuna/siddhi-trayam/16-18",
+          "locus_short": "ĪS 16-18"
+        },
+        {
+          "cite": "cite://vedanta-desika/rahasya-traya-sara/104",
+          "locus_short": "RTS 104"
+        },
+        {
+          "cite": "cite://vedanta-desika/rahasya-traya-sara/104–105",
+          "locus_short": "RTS 104-105"
+        }
       ]
     },
     {
-      "school": "Dvaita Vedānta",
-      "definition": "*Īśvara* is Viṣṇu, the uniquely independent reality. Lordship here means ontological independence, absolute sovereignty, and real difference from every dependent entity. The term is therefore inseparable from the *svatantra/paratantra* distinction and from Madhva's rejection of any view that would collapse the Lord into souls, matter, or a higher impersonal absolute.",
+      "school": "Tattva-vāda",
+      "definition": "Īśvara is Viṣṇu as the unique svatantra, and the first articulation of the world's order is the real, beginningless jīveśvara-bheda that anchors the bhedapañcaka [[Anuvy. 1.4.111-112](cite://madhva/anuvyakhyana/1.4.111-112)]. His lordship is not exhausted by cosmic origination, since even the liberated remain tadvaśa and Viṣṇu alone is their superior support and adhipati [[VTV 3.25](cite://madhva/visnu-tattva-vinirnaya/3.25)]. Madhva also glosses the Gītā's uttama-puruṣa as the avyaya īśvara who enters and sustains the three worlds, making sovereignty a matter of real ontological supremacy [[Gītā 15.17](cite://madhva/mayavada-khandana/15.17)].",
       "primary_loci": [
-        "Tattva-Saṅkhyāna 1-4",
-        "Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1"
+        "Anuvyākhyāna 1.4.111-112",
+        "Viṣṇu-Tattva-Vinirṇaya 3.25",
+        "Bhagavad-Gītā 15.17 (as cited in Māyāvāda-Khaṇḍana)"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/anuvyakhyana/1.4.111-112",
+          "locus_short": "Anuvy. 1.4.111-112"
+        },
+        {
+          "cite": "cite://madhva/visnu-tattva-vinirnaya/3.25",
+          "locus_short": "VTV 3.25"
+        },
+        {
+          "cite": "cite://madhva/mayavada-khandana/15.17",
+          "locus_short": "Gītā 15.17"
+        }
       ]
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "*Īśvara* names the personal ruling aspect of the absolute, but Gauḍīya theology differentiates the Lord's manifestations: impersonal *brahman*, indwelling *Paramātman*, and fully relational *Bhagavān*. Kṛṣṇa is the supreme source, while Viṣṇu forms function as cosmic rulers and indwellers. The term therefore belongs to a graded theology of manifestation rather than to a simple personal/impersonal divide.",
+      "definition": "Jīva Gosvāmī construes the Lord-jīva relation through acintya-śakti: the abheda-śāstras are to be coordinated only after one has preserved both difference and non-difference, the jīva standing to Bhagavān as ray-atoms to the sun [[Paramātma-S. §43](cite://jiva-gosvami/sat-sandarbha/§43)]. Because Bhagavān is the māyā-āśraya while the jīva is māyā-mohita, the established bheda grounds bhajana to him alone as the school's abhidheya [[Paramātma-S. §44](cite://jiva-gosvami/sat-sandarbha/§44)]. Īśvara in this register is therefore the Bhagavān who is sarvādhika-guṇa-śālin and the sole object of parama-prema, the prayojana of the whole system [[Paramātma-S. §45](cite://jiva-gosvami/sat-sandarbha/§45)].",
       "primary_loci": [
-        "Bhāgavata-Purāṇa 1.2.11",
-        "Kṛṣṇa-Sandarbha 28"
+        "Paramātma-Sandarbha §§43-45"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§43",
+          "locus_short": "Paramātma-S. §43"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§44",
+          "locus_short": "Paramātma-S. §44"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§45",
+          "locus_short": "Paramātma-S. §45"
+        }
       ]
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "The Nimbārka line places Īśvara within a triad of coeval reals, since the jīva is jñāna-svarūpa yet hareḥ adhīna and therefore defined by intrinsic dependence upon the Lord [[DaŚ 1](cite://nimbarka/dasa-shloki/1)]. That Lord is the supreme Brahman Kṛṣṇa, aśeṣa-kalyāṇa-guṇa-eka-rāśi and the proper object of meditation, so the school's aṃśa-aṃśin structure is theistic through and through [[DaŚ 4](cite://nimbarka/dasa-shloki/4)]. The jīva's bondage and release are then governed by beginningless māyā and bhagavat-prasāda, without canceling the plurality of distinctions internal to the Lord's order [[DaŚ 2](cite://nimbarka/dasa-shloki/2)].",
+      "primary_loci": [
+        "Daśa-Ślokī 1",
+        "Daśa-Ślokī 2",
+        "Daśa-Ślokī 4"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nimbarka/dasa-shloki/1",
+          "locus_short": "DaŚ 1"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/4",
+          "locus_short": "DaŚ 4"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/2",
+          "locus_short": "DaŚ 2"
+        }
+      ]
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "In Śuddhādvaita the Lord is Puruṣottama-Kṛṣṇa, the very Brahman that is samavāyi-kāraṇa, pervading all effects as sat-cit-ānanda while nāma and rūpa belong to the kārya-side [[BSB 1.1.4](cite://vallabha/anu-bhasya/1.1.4)]. Vallabha's causal theology is avikṛta-pariṇāma: Brahman acts as its own kartṛ and yet manifests the world without surrendering its unmodified plenitude [[BSB 1.4.26](cite://vallabha/anu-bhasya/1.4.26)]. The jīva is therefore Brahman's real aṃśa, and attainment of the Lord is completed not by bare brahmajñāna alone but through bhakti in the mode of divine varaṇa and Puruṣottama-prāpti [[BSB 2.3.43-45](cite://vallabha/anu-bhasya/2.3.43-45)] [[BSB 1.1.12-19](cite://vallabha/anu-bhasya/1.1.12-19)].",
+      "primary_loci": [
+        "Aṇu-Bhāṣya on Brahma-Sūtra 1.1.4",
+        "Aṇu-Bhāṣya on Brahma-Sūtra 1.4.26",
+        "Aṇu-Bhāṣya on Brahma-Sūtra 2.3.43-45",
+        "Aṇu-Bhāṣya on Brahma-Sūtra 1.1.12-19"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.1.4",
+          "locus_short": "BSB 1.1.4"
+        },
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.4.26",
+          "locus_short": "BSB 1.4.26"
+        },
+        {
+          "cite": "cite://vallabha/anu-bhasya/2.3.43-45",
+          "locus_short": "BSB 2.3.43-45"
+        },
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.1.12-19",
+          "locus_short": "BSB 1.1.12-19"
+        }
+      ]
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yoga",
+      "definition": "Yoga defines Īśvara as a puruṣa-viśeṣa untouched by kleśa, karma, vipāka, and āśaya, so lordship here names unsurpassed purity rather than an account of material causation [[YV 1.24](cite://vijnanabhiksu/yoga-varttika/1.24)]. Accordingly, īśvara-praṇidhāna is treated as a samādhi-bhāvanā-viśeṣa that serves directly as a cause of asaṃprajñāta-samādhi [[YV 1.23](cite://vijnanabhiksu/yoga-varttika/1.23)].",
+      "primary_loci": [
+        "Yoga-Vārttika on Yoga-Sūtra 1.23",
+        "Yoga-Vārttika on Yoga-Sūtra 1.24"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vijnanabhiksu/yoga-varttika/1.24",
+          "locus_short": "YV 1.24"
+        },
+        {
+          "cite": "cite://vijnanabhiksu/yoga-varttika/1.23",
+          "locus_short": "YV 1.23"
+        }
+      ]
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Jainism",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     }
   ],
   "see_also": [

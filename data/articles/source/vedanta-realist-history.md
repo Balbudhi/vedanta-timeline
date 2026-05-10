@@ -20,7 +20,7 @@ The first is about Advaita. The textbook claim that Advaita says "the world is u
 
 The second is about the history of dispute. Rāmānuja and Madhva are not simply "reacting against Śaṅkara." Very often they are reacting against post-Śaṅkara developments, especially the refined Vivaraṇa-style account of ignorance as *anirvacanīya*, neither real nor unreal, and Brahman as ignorance's locus and object. The historical target matters. If one attacks late scholastic Advaita and then announces that one has refuted Śaṅkara himself, one has telescoped five centuries of intra-Advaita debate into a single noun.
 
-The third is about the map of schools. The usual triad of Advaita, Viśiṣṭādvaita, and Dvaita is not false, but it is far too small. It omits Bhartṛprapañca, Bhāskara, Yādavaprakāśa, Nimbārka, Śrīnivāsa, Vallabha, Vijñānabhikṣu, the Gauḍīya school, and the Kashmir Śaiva articulation that is structurally homologous to several late Vedāntic moves. A fair history has to be more crowded than the classroom diagram.
+The third is about the map of schools. The usual triad of Advaita, Viśiṣṭādvaita, and Tattva-vāda (the school often labeled Dvaita) is not false, but it is far too small. It omits Bhartṛprapañca, Bhāskara, Yādavaprakāśa, Nimbārka, Śrīnivāsa, Vallabha, Vijñānabhikṣu, the Gauḍīya school, and the Kashmir Śaiva articulation that is structurally homologous to several late Vedāntic moves. A fair history has to be more crowded than the classroom diagram.
 
 With those corrections in place, the history becomes legible.
 
@@ -276,7 +276,7 @@ The *Jīvanmukti-Viveka* especially prevents one lazy misreading. If liberation 
 
 ### Madhusūdana Sarasvatī: *Siddhānta-Bindu*, *Advaita-Siddhi*, and *Bhakti-Rasāyana*
 
-No figure is more important for the late history than Madhusūdana. He stands exactly where the internal Advaita debates and the external Dvaita attacks reach white heat.
+No figure is more important for the late history than Madhusūdana. He stands exactly where the internal Advaita debates and the external Tattva-vāda attacks reach white heat.
 
 The *Siddhānta-Bindu* matters first because it names the sub-school options instead of hiding them. In Madhusūdana's own presentation, the *vārttikakāra*, the *Vivaraṇakāra*, the *Saṅkṣepa-Śārīraka-kāra*, and Vācaspati do not simply repeat one explanation. They occupy alternative technical positions within a shared non-dual inheritance. That is primary evidence for the plural self-consciousness of the tradition.
 
@@ -303,7 +303,7 @@ This is where Madhusūdana's difference between *sākṣi-caitanya* and pramā�
 
 That is why Mohanty's modern phrase "object of ignorance" and Chakrabarti's intentionality-language are not foreign impositions. They are clean restatements of an old Sanskrit problem: *āśraya* and *viṣaya* of ignorance.
 
-The larger formula now becomes philosophically charged rather than mnemonic decoration. *Sad-asadbhyām anirvacanīyam* denies easy realism and easy nihilism. *Triguṇātmakam* ties ignorance to the manifest plural order. *Jñāna-virodhi* means liberating knowledge genuinely opposes it. *Bhāvarūpam* means it is not merely a word for zero. One can reject the doctrine, as Rāmānuja and the Dvaitins do. But one must first meet it at this level.
+The larger formula now becomes philosophically charged rather than mnemonic decoration. *Sad-asadbhyām anirvacanīyam* denies easy realism and easy nihilism. *Triguṇātmakam* ties ignorance to the manifest plural order. *Jñāna-virodhi* means liberating knowledge genuinely opposes it. *Bhāvarūpam* means it is not merely a word for zero. One can reject the doctrine, as Rāmānuja and the Mādhvas do. But one must first meet it at this level.
 
 Chakrabarti's later hedge should be preserved rather than erased: the ontological status of ignorance, once argued up to this point, still remains in part an open question. That caution is healthy. Madhusūdana shows the privation theory to be inadequate. He does not thereby compel every metaphysical evaluation of positive ignorance. That is exactly where the comparison with Trika becomes so fruitful.
 
@@ -360,7 +360,7 @@ But sūtra 4 is the load-bearing line for the whole comparison:
 > contracted.
 > He is woven of a contracted universe.
 
-This is the deepest finding in the Trika material for the present history. In seventeen syllables Kṣemarāja says what Madhusūdana spends enormous effort defending against the Dvaita attack: finitude is positive enough to be suffered, argued over, and transcended, yet it is not a second substance outside the absolute. It is contraction of consciousness itself. Five centuries earlier. Different tradition. Same structural pressure point.
+This is the deepest finding in the Trika material for the present history. In seventeen syllables Kṣemarāja says what Madhusūdana spends enormous effort defending against the Tattva-vāda attack: finitude is positive enough to be suffered, argued over, and transcended, yet it is not a second substance outside the absolute. It is contraction of consciousness itself. Five centuries earlier. Different tradition. Same structural pressure point.
 
 The auto-vṛtti matters. The finite subject is not a foreign atom accidentally stuck to the real. It is *citi* under *saṅkoca*. The contraction is not imposed from outside. It is internal to the freedom of consciousness. If one wants a classical Indian grammar for "ignorance is real as operation but not separate as substance," this is one of the cleanest ever written.
 
@@ -501,7 +501,7 @@ Nimbārka's *Daśa-Ślokī* gives the compressed core of his school more neatly 
 
 The important word is *svābhāvika*. Difference and non-difference are not extrinsic relations pasted on later. They belong to the very nature of the relation. This is one of the strongest classical attempts to secure unity and plurality at once without making plurality a mere after-image or making unity a generic class-term.
 
-Śrīnivāsa's *Vedānta-Pārijāta-Kaustubha* turns that compressed insight into full scholastic architecture. There the school pushes against both extremes: against Advaita, that the distinctness of world and soul is not merely sublatable appearance; against Dvaita, that the dependence of all upon Brahman is too deep to be named sheer secondness.
+Śrīnivāsa's *Vedānta-Pārijāta-Kaustubha* turns that compressed insight into full scholastic architecture. There the school pushes against both extremes: against Advaita, that the distinctness of world and soul is not merely sublatable appearance; against Tattva-vāda, that the dependence of all upon Brahman is too deep to be named sheer secondness.
 
 The polemical context is therefore double. Nimbārka refuses Bhāskara's tendency to tie difference too much to adjunct and condition. He also refuses the Advaitin's attempt to let dependence slide toward ontological undercutting. In this sense the school is not a minor prelude to Gauḍīya theology. It is one of the central realist non-dualisms in its own right.
 
@@ -600,17 +600,17 @@ Vedānta Deśika's *Tattva-Mukta-Kalāpa* and *Sarvārtha-Siddhi* show what happ
 
 He matters especially because he is philosophically aggressive without ceasing to be unmistakably devotional. In him the modern fantasy that logic and surrender belong to different shelves simply collapses. The school can make a difficult ontological distinction in one line and move into a theology of refuge in the next without embarrassment.
 
-## Part VI — Tattvavāda Against Māyāvāda
+## Part VI — Tattva-vāda Against Māyāvāda
 
 ### Madhva's positive system: dependence without collapse
 
-Madhva's own preferred name, *Tattvavāda*, should be respected because it tells us how he saw the dispute. Reality is of two kinds: *svatantra* and *asvatantra*. Viṣṇu alone is self-dependent. Everything else depends. This does not make souls and matter unreal. It makes them asymmetrically real.
+Madhva's own preferred name, *Tattva-vāda*, should be respected because it tells us how he saw the dispute. Reality is of two kinds: *svatantra* and *asvatantra*. Viṣṇu alone is self-dependent. Everything else depends. This does not make souls and matter unreal. It makes them asymmetrically real.
 
 The famous *pañca-bheda* then names the real differentiations within dependent reality: between God and soul, God and matter, soul and soul, soul and matter, matter and matter. This is why "dualist" is too thin a word. Madhva is not multiplying equal principles. He is articulating a hierarchy of dependence with irreducible distinctions inside it.
 
-Madhva's positive epistemology also deserves emphasis. His school gives a significant place to *sākṣi-pratyakṣa*. The disagreement with Advaita is not that witness-consciousness is absent from Tattvavāda. The disagreement is that witness-consciousness must not be allowed to dissolve real distinctions into merely apparent ones.
+Madhva's positive epistemology also deserves emphasis. His school gives a significant place to *sākṣi-pratyakṣa*. The disagreement with Advaita is not that witness-consciousness is absent from Tattva-vāda. The disagreement is that witness-consciousness must not be allowed to dissolve real distinctions into merely apparent ones.
 
-The larger positive system includes two further moves often left out of short summaries. One is the distinction between *svatantra* and *asvatantra*, which prevents the category mistake of treating Madhva as if he were a thinker of two independent ultimate principles. The other is the doctrine of *viśeṣa*, which lets Madhva say that real difference can exist within divine unity without turning Viṣṇu into a heap of unrelated parts. This is one reason Tattvavāda is far more sophisticated than the undergraduate word "dualism" suggests.
+The larger positive system includes two further moves often left out of short summaries. One is the distinction between *svatantra* and *asvatantra*, which prevents the category mistake of treating Madhva as if he were a thinker of two independent ultimate principles. The other is the doctrine of *viśeṣa*, which lets Madhva say that real difference can exist within divine unity without turning Viṣṇu into a heap of unrelated parts. This is one reason Tattva-vāda is far more sophisticated than the undergraduate word "dualism" suggests.
 
 ### 1.4.107: quoting the Advaitin before refuting him
 
@@ -642,7 +642,7 @@ The historical significance cannot be overstated. Because Vyāsatīrtha attacks 
 
 That is why the Madhva-Advaita polemic is not merely destructive. It is productive. It forces late Advaita into clearer realism than its opponents intended to concede.
 
-The result is paradoxical but historically stable: Dvaita becomes the fiercest critic of Advaita, and precisely through that criticism helps produce the clearest late Advaita defense of positive ignorance and dependent world-reality. Hostility generates clarity.
+The result is paradoxical but historically stable: Tattva-vāda becomes the fiercest critic of Advaita, and precisely through that criticism helps produce the clearest late Advaita defense of positive ignorance and dependent world-reality. Hostility generates clarity.
 
 ### Rāghavendra: preservation and continuation
 
@@ -682,9 +682,9 @@ Second turn: Madhusūdana replies that the privation theory fares even worse. Th
 
 Third turn: Vyāsatīrtha presses the Brahman-locus problem. If Brahman is seat and object of ignorance, then the self-luminous is obscured by what should not stand before it. The "two levels" strategy looks like verbal rescue rather than explanation.
 
-Fourth turn: Madhusūdana answers by refining the distinction between pure witness-consciousness and the cognitional modes in which ignorance is encountered and removed. The witness is untouched in itself; the removal concerns the operative ignorance as witnessed and sublated. Whether one is persuaded is another matter. But the clarity of the late Advaita position is undeniably the product of precisely this Dvaita assault.
+Fourth turn: Madhusūdana answers by refining the distinction between pure witness-consciousness and the cognitional modes in which ignorance is encountered and removed. The witness is untouched in itself; the removal concerns the operative ignorance as witnessed and sublated. Whether one is persuaded is another matter. But the clarity of the late Advaita position is undeniably the product of precisely this Tattva-vāda assault.
 
-That is why the debate is central for a realist history. Dvaita is not merely the enemy of Advaita here. It is also the great external pressure that forces Advaita to state, with unprecedented sharpness, how dependent worldhood and positive ignorance are supposed to work.
+That is why the debate is central for a realist history. Tattva-vāda is not merely the enemy of Advaita here. It is also the great external pressure that forces Advaita to state, with unprecedented sharpness, how dependent worldhood and positive ignorance are supposed to work.
 
 One can walk a little further into the actual exchange.
 
@@ -694,9 +694,9 @@ Madhusūdana's answer is not to deny the pressure but to reverse it. The privati
 
 Vyāsatīrtha then presses the material-cause question. If ignorance is what somehow stands behind world-appearance, then it seems to function like a positive basis of manifestation. A pure absence cannot generate appearance. Madhusūdana in effect concedes the first half and denies the second implication: yes, ignorance must be positive as obscuring operation; no, it does not therefore become a second self-standing absolute.
 
-The Dvaita critic is not satisfied, and one can see why. The whole late Advaita strategy balances on asymmetry: ignorance is strong enough to account for appearance, weak enough to be sublated, present enough to be witnessed, insubstantial enough not to rival Brahman. From the outside that balance looks unstable. From the inside it looks like the only way to save the actual phenomena without surrendering non-duality.
+The Tattva-vādin critic is not satisfied, and one can see why. The whole late Advaita strategy balances on asymmetry: ignorance is strong enough to account for appearance, weak enough to be sublated, present enough to be witnessed, insubstantial enough not to rival Brahman. From the outside that balance looks unstable. From the inside it looks like the only way to save the actual phenomena without surrendering non-duality.
 
-This is precisely why the debate remained productive for centuries. Neither side was striking straw. Vyāsatīrtha was hitting the hardest place in mature Advaita. Madhusūdana was defending the only version of Advaita tough enough to survive that hit. Any history that compresses this into "Dvaita criticizes Advaita, Advaita replies" has not yet reached the actual texture of the argument.
+This is precisely why the debate remained productive for centuries. Neither side was striking straw. Vyāsatīrtha was hitting the hardest place in mature Advaita. Madhusūdana was defending the only version of Advaita tough enough to survive that hit. Any history that compresses this into "Tattva-vāda criticizes Advaita, Advaita replies" has not yet reached the actual texture of the argument.
 
 ### Rāghavendra as continuation, not epilogue
 

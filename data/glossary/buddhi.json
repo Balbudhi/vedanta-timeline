@@ -3,37 +3,183 @@
   "term_iast": "buddhi",
   "term_devanagari": "बुद्धि",
   "literal": "the determining intellect; from √budh 'to wake, to know' (cognate with Buddha)",
-  "aliases": ["buddhi", "Buddhi", "buddher", "buddheḥ", "buddhau", "buddhyā"],
-  "invariant_definition": "*Buddhi* is the determinative and discriminative function of the inner apparatus: the point at which a merely presented content becomes a judged or settled cognition. In Sāṃkhya it is the first evolute of *prakṛti* and is often identified with *mahat*, the great principle from which more articulated individuality emerges. In practical psychology it is the faculty of *adhyavasāya*, discrimination, resolve, and decision. That makes it central to epistemology and liberation alike. A cognition is not just sensed; it must be taken as this rather than that, true rather than false, to-be-pursued rather than to-be-avoided. Vedānta preserves this role and asks what exactly happens in *buddhi* when liberating knowledge arises. Advaita answers with *vṛtti* and *cidābhāsa*; Viśiṣṭādvaita and Dvaita treat it as the real instrument through which the self's knowledge functions. Nyāya-Vaiśeṣika uses *buddhi* differently again, as cognition considered as a quality rather than as an inner faculty. The term therefore sits at the junction of ontological psychology and formal epistemology.",
+  "aliases": [
+    "buddhi",
+    "Buddhi",
+    "buddher",
+    "buddheḥ",
+    "buddhau",
+    "buddhyā"
+  ],
+  "invariant_definition": "*Buddhi* is the determinative and discriminative function of the inner apparatus: the point at which a merely presented content becomes a judged or settled cognition. In Sāṃkhya it is the first evolute of *prakṛti* and is often identified with *mahat*, the great principle from which more articulated individuality emerges. In practical psychology it is the faculty of *adhyavasāya*, discrimination, resolve, and decision. That makes it central to epistemology and liberation alike. A cognition is not just sensed; it must be taken as this rather than that, true rather than false, to-be-pursued rather than to-be-avoided. Vedānta preserves this role and asks what exactly happens in *buddhi* when liberating knowledge arises. Advaita answers with *vṛtti* and *cidābhāsa*; Viśiṣṭādvaita and Tattva-vāda (Dvaita) treat it as the real instrument through which the self's knowledge functions. Nyāya-Vaiśeṣika uses *buddhi* differently again, as cognition considered as a quality rather than as an inner faculty. The term therefore sits at the junction of ontological psychology and formal epistemology.",
   "per_school": [
     {
-      "school": "Sāṃkhya / Yoga",
-      "definition": "*Buddhi* or *mahat* is the first evolute of *prakṛti* and the locus of determination, virtue, vice, knowledge, and dispassion. Yoga's practical ideal is the refinement of this cognitive instrument until it becomes sufficiently transparent for discriminative insight between *puruṣa* and *prakṛti*. The witness is never modified, but *buddhi* is the medium through which right discrimination appears.",
-      "primary_loci": ["Sāṃkhya-Kārikā 23", "Sāṃkhya-Kārikā 36–37", "Yoga-Sūtra 2.26", "Yoga-Sūtra-Bhāṣya 2.20–26"]
-    },
-    {
       "school": "Advaita",
-      "definition": "*Buddhi* is the principal locus of *cidābhāsa*, the reflected consciousness that appears as the empirical knower. Cognitive *vṛtti*s arise here, and the liberating *akhaṇḍākāra-vṛtti* is a special determination of *buddhi* produced by hearing of the *mahāvākya*. Thus *buddhi* is indispensable to realization while remaining part of the *upādhi* that realization finally disidentifies from.",
-      "primary_loci": ["Vedānta-Paribhāṣā, pratyakṣa-pariccheda", "Pañcadaśī 1.14–22", "Bhagavad-Gītā-Bhāṣya 18.30–32"]
+      "definition": "*Buddhi* is the locus of the reflected self-consciousness (*ātmaciti-pratibimba* / *cidābhāsa*) by which empirical agency is imputed in relation to meritorious and demeritorious action [[SS I.327](cite://sarvajnatman/samksepa-sariraka/1.327)]. The discipline of *samādhāna* is therefore the steady fixing of *buddhi* in *śuddha-brahman*, not the mere indulgence of mental fluctuation [[VC 26](cite://sankara/vivekacudamani/26)]. When liberating knowledge is already present, what remains is *viśrānti* of that subtle intellect rather than the acquisition of a further object [[JMV, viśrānti citation](cite://vidyaranya/jivanmukti-viveka/citation on *viśrānti*)].",
+      "primary_loci": [
+        "Saṃkṣepa-Śārīraka I.327",
+        "Vivekacūḍāmaṇi 26",
+        "Jīvanmukti-Viveka, Laghu-Yogavāsiṣṭha citation on viśrānti"
+      ],
+      "citations": [
+        {
+          "cite": "cite://sarvajnatman/samksepa-sariraka/1.327",
+          "locus_short": "SS I.327"
+        },
+        {
+          "cite": "cite://sankara/vivekacudamani/26",
+          "locus_short": "VC 26"
+        },
+        {
+          "cite": "cite://vidyaranya/jivanmukti-viveka/citation on *viśrānti*",
+          "locus_short": "JMV, viśrānti citation"
+        }
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Buddhi* is a real part of the material apparatus through which the self's *dharmabhūta-jñāna* operates under conditions of embodiment. Error and limitation do not belong to the self as such but to its embodied functioning through contracted instruments. In liberation this obstructed operation ceases, though the self's knowledge remains fully real.",
-      "primary_loci": ["Śrī-Bhāṣya 2.3.42–53", "Yatīndra-Mata-Dīpikā 5", "Gītā-Bhāṣya (Rāmānuja) 18.30–32"]
+      "definition": "In Yāmuna's formulation, the *ātman* is other than body, senses, *manas*, vital breath, and *dhī*/*buddhi*, and is self-manifest (*ananyasādhana*) rather than disclosed by them [[ĀS 3](cite://yamuna/atma-siddhi/3)]. Cognition therefore cannot be treated as a bodily quality; its occurrence marks the self's distinct mode of manifestation and not the body's own dharma [[ĀS 6](cite://yamuna/atma-siddhi/6)].",
+      "primary_loci": [
+        "Ātma-Siddhi 3",
+        "Ātma-Siddhi 6"
+      ],
+      "citations": [
+        {
+          "cite": "cite://yamuna/atma-siddhi/3",
+          "locus_short": "ĀS 3"
+        },
+        {
+          "cite": "cite://yamuna/atma-siddhi/6",
+          "locus_short": "ĀS 6"
+        }
+      ]
     },
     {
-      "school": "Dvaita",
-      "definition": "*Buddhi* is a real cognitive instrument distinct from the *jīva* but truly used by the *jīva*. Madhva's realism therefore blocks any reduction of cognition to appearance in a shared substrate. Right *buddhi* is knowledge aligned with Viṣṇu's supremacy and with the graded structure of reality; wrong *buddhi* is a real error of a real finite knower.",
-      "primary_loci": ["Tattva-Saṅkhyāna 5–7", "Gītā-Tātparya 18 [NOT YET RETRIEVED]", "Anu-Vyākhyāna 1.1 [NOT YET RETRIEVED]"]
+      "school": "Tattva-vāda",
+      "definition": "*Buddhi* is counted among the real and dependent categories of the created order, alongside *mahat*, *ahaṃkāra*, *manas*, the senses, and the elemental series [[TS 9](cite://madhva/tattva-sankhyana/9)]. Within the Kaṭha hierarchy received by Madhva, *buddhi* stands above *manas* yet below the *ātman*, so it is neither identical with the self nor reducible to sensory traffic [[Kaṭha 1.3.10](cite://madhva/mayavada-khandana/Upaniṣad 1.3.10)]. Delusive appeal to *upādhi* is traced to *mūḍha-buddhi*, which mistakes an indicator for a producer of difference [[UpK 5](cite://madhva/upadhi-khandana/5)].",
+      "primary_loci": [
+        "Tattva-Saṅkhyāna 9",
+        "Kaṭha Upaniṣad 1.3.10 (as cited in Mayavāda-Khaṇḍana)",
+        "Upādhi-Khaṇḍana 5"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/tattva-sankhyana/9",
+          "locus_short": "TS 9"
+        },
+        {
+          "cite": "cite://madhva/mayavada-khandana/Upaniṣad 1.3.10",
+          "locus_short": "Kaṭha 1.3.10"
+        },
+        {
+          "cite": "cite://madhva/upadhi-khandana/5",
+          "locus_short": "UpK 5"
+        }
+      ]
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yoga",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "*Buddhi* is treated not as one subfunction among four but as cognition itself, a *guṇa* inhering in the self. This is a different explanatory grammar from the Sāṃkhya-Vedānta inner-instrument model and is worth tracking because later Vedānta debates presuppose awareness of both idioms.",
-      "primary_loci": ["Vaiśeṣika-Sūtra 1.1.6", "Nyāya-Sūtra 1.1.15 [NOT YET RETRIEVED]"]
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "In Candrakīrti's opening causal sequence, *advayabuddhi* is the non-dual cognition that, together with *mahākaruṇā* and *bodhicitta*, constitutes the bodhisattva's causal formation [[MAv 1.1](cite://candrakirti/madhyamakavatara/1.1)]. The term is therefore soteriological in force: its weight falls on wisdom free from *dvaya*, not on a substantialized faculty-theory of intellect [[MAv 1.1](cite://candrakirti/madhyamakavatara/1.1)].",
+      "primary_loci": [
+        "Madhyamakāvatāra 1.1"
+      ],
+      "citations": [
+        {
+          "cite": "cite://candrakirti/madhyamakavatara/1.1",
+          "locus_short": "MAv 1.1"
+        }
+      ]
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "For Dharmakīrti, *buddhi* is an episodic cognition whose operation does not disclose a separately given *sāmānyalakṣaṇa* by *anvaya-vyatireka*; it is always cognition under determinate conditions [[PV 2.5](cite://dharmakirti/pramana-varttika/2.5)]. The verse thus situates *buddhi* inside the pramāṇa-analysis of how cognition functions, rather than treating it as a permanent inner organ standing apart from cognitions [[PV 2.5](cite://dharmakirti/pramana-varttika/2.5)].",
+      "primary_loci": [
+        "Pramāṇavārttika 2.5"
+      ],
+      "citations": [
+        {
+          "cite": "cite://dharmakirti/pramana-varttika/2.5",
+          "locus_short": "PV 2.5"
+        }
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Jainism",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     }
   ],
-  "see_also": ["antahkarana", "manas", "citta", "ahankara", "vrtti", "akhandakara-vrtti", "cidabhasa"],
+  "see_also": [
+    "antahkarana",
+    "manas",
+    "citta",
+    "ahankara",
+    "vrtti",
+    "akhandakara-vrtti",
+    "cidabhasa"
+  ],
   "translator_note": "'Intellect' is serviceable but can import specifically modern faculty-psychology assumptions. *Buddhi* is the determinative function or settled cognition-point within a wider inner apparatus, and in Nyāya it can even mean cognition as a quality. Translating every occurrence as 'reason' is especially misleading because much of what *buddhi* does is pre-theoretical determination rather than discursive inference.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus"
+  "last_verified_by": "glossary-wave1-codex54"
 }

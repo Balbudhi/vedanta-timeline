@@ -3,37 +3,256 @@
   "term_iast": "mithyā",
   "term_devanagari": "मिथ्या",
   "literal": "wrongly, falsely; an indeclinable used adjectivally",
-  "aliases": ["mithya", "mithyā", "Mithyā", "mithyātva", "mithyātvam"],
+  "aliases": [
+    "mithya",
+    "mithyā",
+    "Mithyā",
+    "mithyātva",
+    "mithyātvam"
+  ],
   "invariant_definition": "There is no shared invariant; the term marks a fault-line. In Advaita technical usage, *mithyā* names a third ontological status: neither *sat* like *brahman* nor *asat* like the hare's horn, but *anirvacanīya*, dependent on an *adhiṣṭhāna*, and subject to sublation by a stronger cognition. The stock examples are shell-silver, rope-snake, and dream objects, and the world is said to be *mithyā* in that technical sense, not in the sense of sheer nullity. That point matters because critics regularly hear 'world is *mithyā*' as 'world is unreal' or 'non-existent', which is exactly what Advaita denies. Non-Advaita schools either reject the category as incoherent or restrict falsity to error without elevating it into a third mode of being. The indispensable constraint is therefore simple: *mithyā* must not be collapsed into *asat*, and Advaita's deployment of the term must not be misread as nihilism or world-denial.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Mithyā* is the status of what appears, functions, and is later sublated. The world is *mithyā* not because it is absent, but because its mode of reality is dependent on *brahman* as *adhiṣṭhāna* and corrected in liberating knowledge. The category is defended through error-theory, sublation-analysis, and the insistence that appearance has positive force without full ultimacy. Madhusūdana's *Advaita-Siddhi* turns this into a systematic defense against Mādhva criticism.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.1.14", "Iṣṭa-Siddhi (Vimuktātman), prathama paricchedaḥ", "Advaita-Siddhi, mithyātva-pañcaka", "Khaṇḍana-Khaṇḍa-Khādya (Śrīharṣa), upodghāta"]
+      "definition": "*Mithyā* names what appears and enters *vyavahāra* without being either sheer *sat* or sheer *asat*; Maṇḍana accordingly treats *avidyā/māyā* as *mithyāvabhāsa* and *anirvacanīyā*, since absolute non-being could not sustain practical commerce [[BS 1.1](cite://mandana/brahma-siddhi/1.1.1--opening-prose-on-avidy)]]. Padmapāda makes the point lexical: in *mithyājñāna*, the member *mithyā* itself states *anirvacanīyatā*, and the appearance of a *mithyārtha* requires admission of *avidyāśakti* [[PañcP V.15.2](cite://padmapada/pancapadika/V.15.2)] [[PañcP VI.16.5](cite://padmapada/pancapadika/VI.16.5)]]. Later Advaita systematizes the thesis by treating liberating knowledge as the cessation of beginningless *mithyājñāna* and by making the proof of *dvaita-mithyātva* the opening task of dialectic [[PV p. 164c](cite://prakasatman/pancapadika-vivarana/p. 164c)] [[AS 1a](cite://madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1a)] [[AS 1k](cite://madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1k)]].",
+      "primary_loci": [
+        "Maṇḍana, Brahma-Siddhi 1.1",
+        "Padmapāda, Pañcapādikā V.15–VI.16",
+        "Prakāśātman, Pañcapādikā-Vivaraṇa p. 164c",
+        "Madhusūdana, Advaita-Siddhi, Prathama-pariccheda"
+      ],
+      "citations": [
+        {
+          "cite": "cite://mandana/brahma-siddhi/1.1.1--opening-prose-on-avidy",
+          "locus_short": "BS 1.1"
+        },
+        {
+          "cite": "cite://padmapada/pancapadika/V.15.2",
+          "locus_short": "PañcP V.15.2"
+        },
+        {
+          "cite": "cite://padmapada/pancapadika/VI.16.5",
+          "locus_short": "PañcP VI.16.5"
+        },
+        {
+          "cite": "cite://prakasatman/pancapadika-vivarana/p. 164c",
+          "locus_short": "PV p. 164c"
+        },
+        {
+          "cite": "cite://madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1a",
+          "locus_short": "AS 1a"
+        },
+        {
+          "cite": "cite://madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1k",
+          "locus_short": "AS 1k"
+        }
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "The world is *satya*, not *mithyā*. Rāmānuja rejects the Advaita third status because a thing must be characterizable as real or unreal; *anirvacanīya* is taken to be no genuine category at all. The causal and devotional life of the world would become unintelligible if its objects were only provisionally there.",
-      "primary_loci": ["Śrī-Bhāṣya 1.1.1 (Mahāsiddhānta, sapta-anupapatti)", "Vedārtha-Saṅgraha §§14–25"]
+      "definition": "For the Śrīvaiṣṇava line, *prapañca-sadbhāva* is not cancelled by *advaita-śruti*; \"without a second\" excludes a peer or superior to Brahman, not the real order of *cit* and *acit* dependent on him [[Svs 31-35](cite://yamuna/siddhi-trayam/31-35)]]. Accordingly, the delusion to be removed is the thesis that Brahman itself becomes the transmigrating sufferer under *upādhi*; Rāmānuja instead construes the Vedānta corpus as teaching the body-transcendent *jīva*, the *antaryāmin* Paramātman, and worship culminating in Brahman-experience [[VS §2](cite://ramanuja/vedartha-samgraha/§2)] [[VS §4](cite://ramanuja/vedartha-samgraha/§4)]].",
+      "primary_loci": [
+        "Yāmuna, Saṃvit-Siddhi 31-35",
+        "Rāmānuja, Vedārtha-Saṃgraha §§2, 4"
+      ],
+      "citations": [
+        {
+          "cite": "cite://yamuna/siddhi-trayam/31-35",
+          "locus_short": "Svs 31-35"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§2",
+          "locus_short": "VS §2"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§4",
+          "locus_short": "VS §4"
+        }
+      ]
     },
     {
-      "school": "Dvaita",
-      "definition": "*Mithyātva* is a principal Dvaita target because it appears to dissolve the reality of Viṣṇu's creation while still relying on that creation in argument and practice. Madhva and Vyāsatīrtha attack the very idea of a third status between real and unreal and insist that a dependent world can still be straightforwardly real. The issue is thus not semantic but theological and metaphysical.",
-      "primary_loci": ["Madhva, Mithyātva-Anumāna-Khaṇḍana", "Madhva, Upādhi-Khaṇḍana", "Vyāsatīrtha, Nyāyāmṛta, mithyātva-bhaṅga (extended)"]
+      "school": "Tattva-vāda",
+      "definition": "*Mithyātva* is rejected as an incoherent middle-status: if the probandum is taken as *sadasad-vilakṣaṇa*, the inference proves what is already conceded, and if *anirvacanīya* is unestablished, the qualifier itself fails [[MKh 239.4](cite://madhva/mithyatvanumana-khandana/239, clause 4)] [[MKh 239.3](cite://madhva/mithyatvanumana-khandana/239, clause 3)]]. Madhva therefore denies that the mere word *mithyā* can secure *anirvacanīyatā* or furnish a shared *sāmānya* from which a valid *anumāna* could proceed [[Tattvodyota, Mithyā](cite://madhva/tattvodyota/Word *Mithyā* Does Not Help)] [[Tattvodyota, No Shared Universal](cite://madhva/tattvodyota/Shared Universal of *Mithyātva*)]]. The realist remainder is explicit: Hari is the cause of a wholly real world, and falsehood belongs to *mithyādarśana* in the knower rather than to the ontic standing of *prapañca* [[Nyāyāmṛta 1](cite://vyasatirtha/nyayamrta/1)] [[VTV 3.10](cite://madhva/visnu-tattva-vinirnaya/3.10)]].",
+      "primary_loci": [
+        "Madhva, Mithyātvānumāna-Khaṇḍana p. 239",
+        "Madhva, Tattvodyota, anti-mithyātva section",
+        "Vyāsatīrtha, Nyāyāmṛta 1",
+        "Madhva, Viṣṇu-Tattva-Vinirṇaya 3.10"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/mithyatvanumana-khandana/239, clause 3",
+          "locus_short": "MKh 239.3"
+        },
+        {
+          "cite": "cite://madhva/mithyatvanumana-khandana/239, clause 4",
+          "locus_short": "MKh 239.4"
+        },
+        {
+          "cite": "cite://madhva/tattvodyota/Word *Mithyā* Does Not Help",
+          "locus_short": "Tattvodyota, Mithyā"
+        },
+        {
+          "cite": "cite://madhva/tattvodyota/Shared Universal of *Mithyātva*",
+          "locus_short": "Tattvodyota, No Shared Universal"
+        },
+        {
+          "cite": "cite://vyasatirtha/nyayamrta/1",
+          "locus_short": "Nyāyāmṛta 1"
+        },
+        {
+          "cite": "cite://madhva/visnu-tattva-vinirnaya/3.10",
+          "locus_short": "VTV 3.10"
+        }
+      ]
     },
     {
-      "school": "Bhedābheda (Bhāskara)",
-      "definition": "Bhāskara rejects *mithyā* as an evasion of the Upaniṣads' causal language. If the world is really taught as arising from *brahman*, then its reality cannot be downgraded to a merely apparent status. Difference and manifestation must be owned as real features of the effect.",
-      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 2.1.14"]
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "The world is real as Kṛṣṇa's energy, so *mithyātva* in the Advaita sense is rejected. The conditioned *jīva* misperceives its relation to that world and to Kṛṣṇa, but the mistake is devotional and existential before it is ontological. The problem is estrangement under *māyā*, not world-nullity.",
-      "primary_loci": ["Tattva-Sandarbha §§51–56", "Paramātma-Sandarbha §§47–55"]
+      "definition": "In Jīva Gosvāmin's handling, *abheda-śāstra* is not license to collapse plurality into a *mithyā* world-order; non-difference texts are to be coordinated only after difference and non-difference have been reconciled through Bhagavān's *acintya-śakti* [[SatS §42](cite://jiva-gosvami/sat-sandarbha/§42)] [[SatS §43](cite://jiva-gosvami/sat-sandarbha/§43)]]. Bondage is fixed instead by the asymmetry between Bhagavān as *māyā-āśraya* and the jīva as *māyā-mohita*, so the pertinent falsehood is delusive apprehension within saṃsāra rather than the unreality of Bhagavān's śaktis or of devotional relation [[SatS §44](cite://jiva-gosvami/sat-sandarbha/§44)]].",
+      "primary_loci": [
+        "Jīva Gosvāmin, Paramātma-Sandarbha §§42-44"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§42",
+          "locus_short": "SatS §42"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§43",
+          "locus_short": "SatS §43"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§44",
+          "locus_short": "SatS §44"
+        }
+      ]
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "For Nimbārka, the bound self is beginninglessly conjoined with *māyā*, yet it remains a real and eternal *aṃśa* of Bhagavān; bondage is therefore not grounded in a third ontological status of the self [[DaŚ 2](cite://nimbarka/dasa-shloki/2)] [[Gītā 15.7a](cite://nimbarka/vedanta-parijata-saurabha/15.7a)]]. The school's scriptural *aṃśa*-grammar treats plurality as real within dependence, not as a merely *mithyā* appearance awaiting sublation [[VPS 2.3.42](cite://nimbarka/vedanta-parijata-saurabha/2.3.42)] [[ChU 3.12.6](cite://nimbarka/vedanta-parijata-saurabha/Upaniṣad 3.12.6)]].",
+      "primary_loci": [
+        "Nimbārka, Daśa-Ślokī 2",
+        "Nimbārka, Vedānta-Pārijāta-Saurabha on BS 2.3.42",
+        "Nimbārka, cited Chāndogya Upaniṣad 3.12.6 and Bhagavad-Gītā 15.7a"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nimbarka/dasa-shloki/2",
+          "locus_short": "DaŚ 2"
+        },
+        {
+          "cite": "cite://nimbarka/vedanta-parijata-saurabha/2.3.42",
+          "locus_short": "VPS 2.3.42"
+        },
+        {
+          "cite": "cite://nimbarka/vedanta-parijata-saurabha/Upaniṣad 3.12.6",
+          "locus_short": "ChU 3.12.6"
+        },
+        {
+          "cite": "cite://nimbarka/vedanta-parijata-saurabha/15.7a",
+          "locus_short": "Gītā 15.7a"
+        }
+      ]
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "Vallabha's line rejects *mithyātva* as a verdict on the world because Brahman itself is the *samavāyi-kāraṇa*, with name and form belonging to the effect-side of a real manifestation [[AnuBh 1.1.4a](cite://vallabha/anubhasya/1.1.4a)] [[AnuBh 1.1.4d](cite://vallabha/anubhasya/1.1.4d)]]. *Jagat* is therefore *avikṛta-pariṇāma*: Brahman really becomes the effect-form while remaining unmodified, as gold becomes ornaments without loss of its own substance [[AnuBh 1.4.26a](cite://vallabha/anubhasya/1.4.26a)] [[AnuBh 1.4.26b](cite://vallabha/anubhasya/1.4.26b)] [[AnuBh 1.4.26c](cite://vallabha/anubhasya/1.4.26c)]]. Ignorance may cease in the aspirant, but that cessation prepares attainment of Puruṣottama rather than disclosure of a world previously demoted to *mithyā* [[AnuBh 1.1.12-19a](cite://vallabha/anubhasya/1.1.12-19a)] [[AnuBh 1.1.12-19b](cite://vallabha/anubhasya/1.1.12-19b)]].",
+      "primary_loci": [
+        "Vallabha, Aṇu-Bhāṣya 1.1.4",
+        "Vallabha, Aṇu-Bhāṣya 1.4.26",
+        "Vallabha, Aṇu-Bhāṣya 1.1.12-19"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anubhasya/1.1.4a",
+          "locus_short": "AnuBh 1.1.4a"
+        },
+        {
+          "cite": "cite://vallabha/anubhasya/1.1.4d",
+          "locus_short": "AnuBh 1.1.4d"
+        },
+        {
+          "cite": "cite://vallabha/anubhasya/1.4.26a",
+          "locus_short": "AnuBh 1.4.26a"
+        },
+        {
+          "cite": "cite://vallabha/anubhasya/1.4.26b",
+          "locus_short": "AnuBh 1.4.26b"
+        },
+        {
+          "cite": "cite://vallabha/anubhasya/1.4.26c",
+          "locus_short": "AnuBh 1.4.26c"
+        },
+        {
+          "cite": "cite://vallabha/anubhasya/1.1.12-19a",
+          "locus_short": "AnuBh 1.1.12-19a"
+        },
+        {
+          "cite": "cite://vallabha/anubhasya/1.1.12-19b",
+          "locus_short": "AnuBh 1.1.12-19b"
+        }
+      ]
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yoga",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     }
   ],
-  "see_also": ["sat", "asat", "anirvacaniya", "vyavaharika", "paramarthika", "pratibhasika", "vivarta", "satya"],
+  "see_also": [
+    "sat",
+    "asat",
+    "anirvacaniya",
+    "vyavaharika",
+    "paramarthika",
+    "pratibhasika",
+    "vivarta",
+    "satya"
+  ],
   "translator_note": "Do not translate *mithyā* as 'non-existent'. Usually avoid the unqualified glosses 'unreal' and 'illusory' as well, because they import either nihilism or a merely psychological notion of illusion. In Advaita the term marks a specific metaphysical status: experientially and transactionally operative, yet not ultimately real in the way *brahman* is. 'Sublatable' is often safer than 'illusory', or else leave the Sanskrit in place and explain it.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus"
+  "last_verified_by": "glossary-wave1-codex54"
 }

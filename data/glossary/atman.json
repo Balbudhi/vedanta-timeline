@@ -3,37 +3,283 @@
   "term_iast": "ātman",
   "term_devanagari": "आत्मन्",
   "literal": "self; reflexively, that which one refers to as 'I'; from a root meaning 'breath' (cf. Greek *atmos*) but used in classical Sanskrit purely for the self",
-  "aliases": ["atman", "ātman", "ātmā", "atma", "Ātman", "ātmanaḥ", "ātmani", "ātmānam", "ātmanā"],
+  "aliases": [
+    "atman",
+    "ātman",
+    "ātmā",
+    "atma",
+    "Ātman",
+    "ātmanaḥ",
+    "ātmani",
+    "ātmānam",
+    "ātmanā"
+  ],
   "invariant_definition": "The self in the strict sense: not body, not sense-organ, not *manas*, not *ahaṅkāra*, but the subject for whom experience occurs and to whom ownership is ordinarily ascribed. The term carries a large technical burden. Upaniṣadic inquiry approaches it through negation (*neti neti*), through the three-state analysis of waking, dream, and deep sleep, and through the witness register later called *sākṣin*. Vedāntic debates then ask whether that witnessing self is identical with *brahman*, a mode of *brahman*, or an eternally distinct knower. The term is also sharpened polemically by nearby positions: Sāṃkhya's *puruṣa*, Nyāya's enduring self as substrate of cognition, and the Buddhist denial that any permanent *ātman* can be found behind the five aggregates. In practice, *ātman* is the term one reaches for when the question is not merely who lives this embodied life, but what the referent of 'I' really is once misidentification with body, role, and psychophysical process has been corrected.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Ātman* is identical with *brahman*, and the plurality of selves belongs only to *upādhi-conditioned* appearance. The key Advaita move is to distinguish the witness consciousness from the mind that reflects it; agency, enjoyership, and limitation belong to the empirical self, not to *ātman* as such. The *mahāvākyas* are therefore read as identity-statements, not as mere similarity or body-soul relations.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1 (adhyāsa-bhāṣya)", "Chāndogya-Upaniṣad-Bhāṣya 6.8.7", "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 4.3", "Upadeśa-Sāhasrī 18 (tat-tvam-asi-prakaraṇa)"]
+      "definition": "*Ātman* is the unborn, non-dual reality, while the plurality of *jīvas* is taught only through *upādhi*-conditioned appearance, as in the *ghaṭākāśa* dṛṣṭānta, and not as any real division in the self [[MK 3.3-7](cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.3-7)]. The self to be known is the *turīya* that is *prapañcopaśama*, *śānta*, and *advaita*, so *ātman* is not a further object within experience but the very non-relational consciousness disclosed by śruti [[MāṇḍU Bh. 7](cite://sankara/mandukya-bhasya/upaniṣad.7)]. Saṃsāra accordingly belongs only to the reflected or superimposed individuality, not to *ātman* itself, which remains untouched by the fate of the *jīva-pratibimba* [[PV p. 65](cite://prakasatman/pancapadika-vivarana/jīvasya brahma-pratibimbatvāpādanam)].",
+      "primary_loci": [
+        "Māṇḍūkya-Kārikā 3.3-7",
+        "Māṇḍūkya-Bhāṣya on Upaniṣad 7",
+        "Pañcapādikā-Vivaraṇa, jīvasya brahma-pratibimbatvāpādanam"
+      ],
+      "citations": [
+        {
+          "cite": "cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.3-7",
+          "locus_short": "MK 3.3-7"
+        },
+        {
+          "cite": "cite://sankara/mandukya-bhasya/upaniṣad.7",
+          "locus_short": "MāṇḍU Bh. 7"
+        },
+        {
+          "cite": "cite://prakasatman/pancapadika-vivarana/jīvasya brahma-pratibimbatvāpādanam",
+          "locus_short": "PV p. 65"
+        }
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Ātman* is an eternal, atomic, self-luminous conscious substance whose essential nature is distinct from body and mind but inseparable from *brahman* as His mode. The self's knowing power is expressed through *dharmabhūta-jñāna*, which contracts under bondage and expands in liberation. *Tat tvam asi* is interpreted through *sāmānādhikaraṇya* and *śarīra-śarīrī-bhāva*: the text teaches inseparable dependence on *brahman*, not numerical identity.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§4–10 (against Advaita reading of tat tvam asi)", "Śrī-Bhāṣya 2.3.18 (ātman atomic)", "Śrī-Bhāṣya 2.3.42–53"]
+      "definition": "*Ātman* is *dehātirikta*, eternal, and *ananyasādhana*; it persists as a distinct self in each embodied field and is not reducible to body, senses, *manas*, or cognition [[ĀS 3](cite://yamuna/siddhi-trayam/3)]. Vedānta is said to teach, in one arc, the self's own *svarūpa*, the *antaryāmin-paramātman* whose body the self is, the required *upāsanā*, and the self-manifestation that culminates in limitless *brahmānubhava* [[VS §4](cite://ramanuja/vedartha-samgraha/§4)]. The *jīvātman* is of the character of knowledge and bliss, common in kind across selves, while Nārāyaṇa remains the inner ruler of all *cit* and *acit* through a *śarīra-śarīrin* relation articulated by *sāmānādhikaraṇya* [[VS §5](cite://ramanuja/vedartha-samgraha/§5)] [[VS §6](cite://ramanuja/vedartha-samgraha/§6)].",
+      "primary_loci": [
+        "Ātma-Siddhi 3",
+        "Vedārtha-Saṅgraha §§4-6"
+      ],
+      "citations": [
+        {
+          "cite": "cite://yamuna/siddhi-trayam/3",
+          "locus_short": "ĀS 3"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§4",
+          "locus_short": "VS §4"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§5",
+          "locus_short": "VS §5"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§6",
+          "locus_short": "VS §6"
+        }
+      ]
     },
     {
-      "school": "Dvaita",
-      "definition": "*Ātman* is a real, atomic, dependent knower, eternally distinct from Viṣṇu and from every other self. Its identity is not dissolved at liberation; rather, liberation perfects its knowledge and service while preserving *bheda*. Madhva's readings of the identity-texts block any move from reflexive self-awareness to non-dual monism: *ātman* is a knower of God, never God Himself.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1", "Anu-Vyākhyāna 1.1", "Viṣṇu-Tattva-Vinirṇaya §§30–40 (against tat tvam asi as identity)"]
+      "school": "Tattva-vāda",
+      "definition": "*Ātman* is a real *jīva* whose existence, knowledge, liberation, and bliss are all dependent on Viṣṇu's *anugraha*; even where knowledge is intrinsic to the self, *mokṣa* does not arise apart from Hari [[Anuvy. 1.1.13-15](cite://madhva/anuvyakhyana/1.1.13-15)]. Its difference from Īśvara is beginningless and secured both by śruti and by a witness-cognition that apprehends difference, while *abheda*-texts are restricted to *sādṛśya*, *prādhānya*, or honorific transference, never to *svarūpābhidā* [[Anuvy. 2.3.66-69](cite://madhva/anuvyakhyana/2.3.66-69)]. Deep-sleep and departure texts therefore continue to designate *jīva* and Īśvara as distinct, and the *mumukṣu* is directed toward Brahman alone as the knowable [[TD 1.3](cite://raghavendra/tantra-dipika/1.3)] [[TD 1.4](cite://raghavendra/tantra-dipika/1.4)].",
+      "primary_loci": [
+        "Anuvyākhyāna 1.1.13-15",
+        "Anuvyākhyāna 2.3.66-69",
+        "Tantra-Dīpikā 1.3-1.4"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/anuvyakhyana/1.1.13-15",
+          "locus_short": "Anuvy. 1.1.13-15"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/2.3.66-69",
+          "locus_short": "Anuvy. 2.3.66-69"
+        },
+        {
+          "cite": "cite://raghavendra/tantra-dipika/1.3",
+          "locus_short": "TD 1.3"
+        },
+        {
+          "cite": "cite://raghavendra/tantra-dipika/1.4",
+          "locus_short": "TD 1.4"
+        }
+      ]
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "*Ātman* is the proper object of *śravaṇa*, *manana*, and *nididhyāsana*, and it is to be *upāsita* as the whole world, so self-knowledge retains an explicitly contemplative and liturgical register [[BṛU 2.4.5](cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.4.5)] [[BṛU 1.4.15](cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.15)]. The identity-formula *ahaṃ brahmāsmi* excludes a radically external relation between self and Brahman, yet Brahman is also taught under the two forms *mūrta* and *amūrta*; the self is thus situated within a real articulation of unity and differentiation rather than through the cancellation of manifestation [[BṛU 1.4.10a](cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.10a)] [[BṛU 1.4.10b](cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.10b)] [[BṛU 2.3.1](cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.3.1)] [[BṛU 2.3.6](cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.3.6)].",
+      "primary_loci": [
+        "Bṛhadāraṇyaka commentary fragments on 2.4.5 and 1.4.15",
+        "Bṛhadāraṇyaka commentary fragments on 1.4.10",
+        "Bṛhadāraṇyaka commentary fragments on 2.3.1 and 2.3.6"
+      ],
+      "citations": [
+        {
+          "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.4.5",
+          "locus_short": "BṛU 2.4.5"
+        },
+        {
+          "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.15",
+          "locus_short": "BṛU 1.4.15"
+        },
+        {
+          "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.10a",
+          "locus_short": "BṛU 1.4.10a"
+        },
+        {
+          "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.10b",
+          "locus_short": "BṛU 1.4.10b"
+        },
+        {
+          "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.3.1",
+          "locus_short": "BṛU 2.3.1"
+        },
+        {
+          "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.3.6",
+          "locus_short": "BṛU 2.3.6"
+        }
+      ]
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "*Ātman* is the conscious *vibhinnāṃśa* of Kṛṣṇa belonging to the *taṭasthā-śakti*. It is one with Kṛṣṇa as dependent energy and different from Him as a distinct servant. The practical implication is immediate: the self is not completed by abstract self-identity but by restored relation, expressed through *bhakti* and stabilized in one of the devotional *rasas*.",
-      "primary_loci": ["Paramātma-Sandarbha §§19, 28", "Bhakti-Sandarbha §§1–5", "Caitanya-Caritāmṛta, Madhya 20 (jīva as taṭasthā-śakti)"]
+      "definition": "Accounts that construe the *jīva* merely through delimitation or reflection are, at best, secondary, since the self's relation to Bhagavān must be stated through his own *svābhāvika acintya-śakti* rather than by a purely external model [[PS §42](cite://jiva-gosvami/sat-sandarbha/§42)]. The aggregate of selves stands to Bhagavān as ray-atoms to the sun, so that *bheda* and *abheda* are both retained without contradiction [[PS §43](cite://jiva-gosvami/sat-sandarbha/§43)]. Once Bhagavān is fixed as *māyā-āśraya* and the *jīva* as *māyā-mohita*, the operative *abhidheya* is his *bhajana*, and the self's consummation is *parama-prema* for him as the *parama-svarūpa* of all [[PS §44](cite://jiva-gosvami/sat-sandarbha/§44)] [[PS §45](cite://jiva-gosvami/sat-sandarbha/§45)].",
+      "primary_loci": [
+        "Paramātma-Sandarbha §§42-45"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§42",
+          "locus_short": "PS §42"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§43",
+          "locus_short": "PS §43"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§44",
+          "locus_short": "PS §44"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§45",
+          "locus_short": "PS §45"
+        }
+      ]
     },
     {
-      "school": "Buddhist (opponent position)",
-      "definition": "Classical Buddhism treats *ātman* as precisely the wrong posit to project behind the five aggregates. What appears as a person is analyzable into dependently arisen aggregates, elements, and sense-bases, none of which is self. The term therefore functions polemically: the Upaniṣadic and Brahmanical search for a stable self is replaced by analysis of appropriation and the cessation of that appropriation.",
-      "primary_loci": ["Saṃyutta-Nikāya 22.59", "Milindapañha 2.1"]
+      "school": "Dvaitādvaita",
+      "definition": "*Ātman* is *jñāna-svarūpa*, *aṇu*, dependent on Hari, and distinct in each body, though fit for conjunction with and disjunction from embodiment [[DaŚ 1](cite://nimbarka/dasa-shloki/1)]. Its bound, liberated, and devotional conditions are all admitted under beginningless *māyā*, and the self's internal plurality of states and kinds remains doctrinally significant [[DaŚ 2](cite://nimbarka/dasa-shloki/2)]. In systematic exposition, the *jīva* is neither absolutely different nor absolutely non-different from Puruṣottama, but his *aṃśa* as *śakti* and therefore *parādhīna* [[VK 2.3.42](cite://srinivasa/vedanta-kaustubha/2.3.42)].",
+      "primary_loci": [
+        "Daśa-Ślokī 1-2",
+        "Vedānta-Kaustubha 2.3.42"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nimbarka/dasa-shloki/1",
+          "locus_short": "DaŚ 1"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/2",
+          "locus_short": "DaŚ 2"
+        },
+        {
+          "cite": "cite://srinivasa/vedanta-kaustubha/2.3.42",
+          "locus_short": "VK 2.3.42"
+        }
+      ]
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "*Ātman* is Brahman's own *aṃśa*, known through Vedic revelation and retained as an eternal *jīva* rather than dissolved into an illusory individuality [[BSB 2.3.43-45](cite://vallabha/anu-bhasya/2.3.43-45)]. The emergence of selves and world is not treated as *adhyāsa* upon a featureless absolute, but through *avikṛta-pariṇāma*: Brahman makes itself as itself and yet manifests effect-form without forfeiting its own nature [[BSB 1.4.26](cite://vallabha/anu-bhasya/1.4.26)]. The soul reaches Puruṣottama through a *svarūpa-yogyatā* produced by *brahmajñāna* and completed by *bhakti* as the requisite co-operative fitness [[BSB 1.1.12-19](cite://vallabha/anu-bhasya/1.1.12-19)].",
+      "primary_loci": [
+        "Aṇu-Bhāṣya 2.3.43-45",
+        "Aṇu-Bhāṣya 1.4.26",
+        "Aṇu-Bhāṣya 1.1.12-19"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anu-bhasya/2.3.43-45",
+          "locus_short": "BSB 2.3.43-45"
+        },
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.4.26",
+          "locus_short": "BSB 1.4.26"
+        },
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.1.12-19",
+          "locus_short": "BSB 1.1.12-19"
+        }
+      ]
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yoga",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "*Ātman* figures here as the locus of *abhisakti* from which the thought 'aham' first arises, and from which the possessive construction 'mama' follows; the text therefore treats self-grasping as the affective root of saṃsāric appropriation [[MAv 1.3](cite://candrakirti/madhyamakavatara/1.3)]. The philosophical burden falls not on establishing any enduring self-substance, but on undoing the *ātma-mamatā* that governs the wheel-like circulation of the world [[MAv 1.3](cite://candrakirti/madhyamakavatara/1.3)].",
+      "primary_loci": [
+        "Madhyamakāvatāra 1.3"
+      ],
+      "citations": [
+        {
+          "cite": "cite://candrakirti/madhyamakavatara/1.3",
+          "locus_short": "MAv 1.3"
+        }
+      ]
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "*Ātman* is not a substance standing behind cognition, but an *upacāra* that proceeds within *vijñāna-pariṇāma* itself [[Triṃśikā 1](cite://vasubandhu/trimsika/1)]. The reflexive pole that seems to secure selfhood is the *kliṣṭa-manas*, perpetually accompanied by *ātmaduṣṭi*, *ātmamoha*, *ātmamāna*, and *ātmasneha*, so the very appearance of selfhood is already structurally afflicted [[Triṃśikā 6](cite://vasubandhu/trimsika/6)].",
+      "primary_loci": [
+        "Triṃśikā 1",
+        "Triṃśikā 6"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/trimsika/1",
+          "locus_short": "Triṃ 1"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/6",
+          "locus_short": "Triṃ 6"
+        }
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Jainism",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     }
   ],
-  "see_also": ["jiva", "brahman", "saksin", "kutastha", "antahkarana", "ahankara"],
+  "see_also": [
+    "jiva",
+    "brahman",
+    "saksin",
+    "kutastha",
+    "antahkarana",
+    "ahankara"
+  ],
   "translator_note": "Avoid both 'soul' and an unqualified modern 'self'. 'Soul' imports Christian substance and afterlife assumptions; modern 'self' often suggests personality, autobiography, or the ego-construct that Sanskrit more often names *ahaṅkāra*. *Ātman* names the strict referent of 'I' after the body-mind complex has been bracketed, and many debates turn on whether anything answering to that description exists in the first place.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus"
+  "last_verified_by": "glossary-wave1-codex54"
 }

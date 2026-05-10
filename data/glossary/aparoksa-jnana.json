@@ -6,7 +6,7 @@
   "aliases": ["aparoksa-jnana", "aparokṣa-jñāna", "aparokṣajñāna", "Aparokṣa-jñāna", "aparoksa"],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
-  "invariant_definition": "*Aparokṣa-jñāna* is cognition that is not merely indirect, report-based, or inferential. The contrast term is *parokṣa*: knowledge at a remove, whether by testimony, inference, or conceptual mediation. Across schools the term marks the shift from knowing that something is so to having it directly present. But what counts as such presence is contested. Advaita uses the language for immediate knowledge of *brahman* as one's own self; Dvaita uses it for direct cognition of Viṣṇu and of one's dependence on him; devotional schools often reserve the strongest non-mediated language for grace-saturated realization rather than for discursive theology. The term therefore cannot be translated by a generic 'intuition' without distortion. It belongs to a disciplined epistemology in which immediacy is produced, purified, or bestowed through specific practices and doctrinal commitments.",
+  "invariant_definition": "*Aparokṣa-jñāna* is cognition that is not merely indirect, report-based, or inferential. The contrast term is *parokṣa*: knowledge at a remove, whether by testimony, inference, or conceptual mediation. Across schools the term marks the shift from knowing that something is so to having it directly present. But what counts as such presence is contested. Advaita uses the language for immediate knowledge of *brahman* as one's own self; Tattva-vāda (Dvaita) uses it for direct cognition of Viṣṇu and of one's dependence on him; devotional schools often reserve the strongest non-mediated language for grace-saturated realization rather than for discursive theology. The term therefore cannot be translated by a generic 'intuition' without distortion. It belongs to a disciplined epistemology in which immediacy is produced, purified, or bestowed through specific practices and doctrinal commitments.",
   "per_school": [
     {
       "school": "Advaita",
@@ -14,13 +14,13 @@
       "primary_loci": ["Aparokṣānubhūti 1-12", "Brahma-Sūtra-Bhāṣya 1.1.4", "Dharmarāja, Vedānta-Paribhāṣā, śabda-pariccheda [NOT YET RETRIEVED]"]
     },
     {
-      "school": "Dvaita",
-      "definition": "Dvaita gives the term a distinctively theistic sense. *Aparokṣa-jñāna* is direct cognition of Viṣṇu's supremacy and of the soul's eternal dependence, granted by Viṣṇu's grace to the qualified devotee. It is thus the proximate condition of liberation, but it is never an identity-realization and never erases difference between Lord and soul.",
+      "school": "Tattva-vāda",
+      "definition": "Tattva-vāda gives the term a distinctively theistic sense. *Aparokṣa-jñāna* is direct cognition of Viṣṇu's supremacy and of the soul's eternal dependence, granted by Viṣṇu's grace to the qualified devotee. It is thus the proximate condition of liberation, but it is never an identity-realization and never erases difference between Lord and soul.",
       "primary_loci": ["Madhva, Brahma-Sūtra-Bhāṣya 1.1.1", "Madhva, Anu-Vyākhyāna 1.1 and 3.3", "Jayatīrtha, Pramāṇa-Paddhati [NOT YET RETRIEVED]"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "Viśiṣṭādvaita does not usually center this exact term the way Advaita and Dvaita do, but the functional equivalent is the immediate God-realization reached through sustained *upāsanā*, *para-bhakti*, and *para-jñāna*. The directness is relational rather than identitarian: the Lord becomes present as the soul's inner ruler and final beloved.",
+      "definition": "Viśiṣṭādvaita does not usually center this exact term the way Advaita and Tattva-vāda do, but the functional equivalent is the immediate God-realization reached through sustained *upāsanā*, *para-bhakti*, and *para-jñāna*. The directness is relational rather than identitarian: the Lord becomes present as the soul's inner ruler and final beloved.",
       "primary_loci": ["Vedārtha-Saṅgraha §§121-144", "Rāmānuja, Śrī-Bhāṣya 3.2.24-29 [NOT YET RETRIEVED]"]
     },
     {

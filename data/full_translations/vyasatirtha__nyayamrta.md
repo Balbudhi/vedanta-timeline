@@ -191,7 +191,7 @@ Here Vyāsatīrtha shifts from God to founder. The predicate-series is carefully
 - *vyañjayantī*: present active participle, feminine nominative singular, agreeing with *vāk*
 
 **Note:**
-The verse gives a miniature hermeneutics of Jayatīrtha. He does not merely repeat Madhva; he *vyañjayati* the guru’s intent, drawing it out through language and proof. The addition of *mānair akhaṇḍitaiḥ* is especially important for the *Nyāyāmṛta*: Dvaita exegesis is here represented as inferentially disciplined, not only devotionally loyal.
+The verse gives a miniature hermeneutics of Jayatīrtha. He does not merely repeat Madhva; he *vyañjayati* the guru’s intent, drawing it out through language and proof. The addition of *mānair akhaṇḍitaiḥ* is especially important for the *Nyāyāmṛta*: Tattva-vāda (the school often labeled Dvaita) exegesis is here represented as inferentially disciplined, not only devotionally loyal.
 
 ---
 

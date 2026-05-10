@@ -1,0 +1,4771 @@
+{
+  "top30_gap_analysis": [
+    {
+      "file": "brahman.json",
+      "term_iast": "brahman",
+      "aliases": [
+        "brahman",
+        "ब्रह्मन्",
+        "brahmano",
+        "Brahma",
+        "brahmaṇ",
+        "Brahman",
+        "brahmaṇi",
+        "brahma",
+        "brahmaṇaḥ"
+      ],
+      "count": 3441,
+      "current_schools": [
+        "Advaita",
+        "Viśiṣṭādvaita",
+        "Dvaita",
+        "Bhedābheda (Bhāskara, Yādava-Prakāśa)",
+        "Acintya-Bhedābheda (Caitanya / Jīva Gosvāmī)",
+        "Śuddhādvaita (Vallabha)",
+        "Dvaitādvaita (Nimbārka)"
+      ],
+      "schools_with_citation_evidence": [
+        "Advaita-pre",
+        "Advaita",
+        "Dvaitādvaita",
+        "Tattva-vāda",
+        "Śuddhādvaita",
+        "Viśiṣṭādvaita",
+        "Sāṃkhya-Yoga (synthetic)"
+      ],
+      "top_citations": [
+        {
+          "cid": "bhartrprapanca/brhadaranyaka-commentary-fragments/2.3",
+          "thinker": "bhartrprapanca",
+          "locus_short": "BṛU 2.3.1, 2.3.6",
+          "school": "Advaita-pre"
+        },
+        {
+          "cid": "bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.10",
+          "thinker": "bhartrprapanca",
+          "locus_short": "BṛU 1.4.10",
+          "school": "Advaita-pre"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.ṭīkā.1",
+          "thinker": "madhusudana",
+          "locus_short": "BR 1.1 ṭīkā",
+          "school": "Advaita"
+        },
+        {
+          "cid": "mandana/brahma-siddhi/1.1.1--opening-prose-discussion-of-nanda",
+          "thinker": "mandana",
+          "locus_short": "BS 1.1 (opening ānanda discussion)",
+          "school": "Advaita"
+        },
+        {
+          "cid": "mandana/brahma-siddhi/1.1.1--opening-prose-on-ekatva-and-m-y",
+          "thinker": "mandana",
+          "locus_short": "BS 1.1 (plurality as māyā-bound)",
+          "school": "Advaita"
+        },
+        {
+          "cid": "mandana/brahma-siddhi/1.1.1--opening-prose-on-avidy",
+          "thinker": "mandana",
+          "locus_short": "BS 1.1 (avidyā neither sat nor asat; in the jīvas)",
+          "school": "Advaita"
+        },
+        {
+          "cid": "mandana/brahma-siddhi/1.1.4--tarka-k-a-opening-verse",
+          "thinker": "mandana",
+          "locus_short": "BS 1.4",
+          "school": "Advaita"
+        },
+        {
+          "cid": "mandana/brahma-siddhi/1.1.35-36--discussion-of-tattvadar-an-bhy-sa",
+          "thinker": "mandana",
+          "locus_short": "BS 1.35-36",
+          "school": "Advaita"
+        },
+        {
+          "cid": "nimbarka/dasa-shloki/4",
+          "thinker": "nimbarka",
+          "locus_short": "DaŚ 4",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/brahmaṇo lakṣaṇopalakṣaṇe",
+          "thinker": "prakasatman",
+          "locus_short": "PV p. 212",
+          "school": "Advaita"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/jīvasya brahma-pratibimbatvāpādanam",
+          "thinker": "prakasatman",
+          "locus_short": "PV p. 65",
+          "school": "Advaita"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/mahāvākyasyāparokṣa-prayojakatvam",
+          "thinker": "prakasatman",
+          "locus_short": "PV p. 103",
+          "school": "Advaita"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/brahma-vicāre kim-ānantaryam atha-śabdāvagamyam",
+          "thinker": "prakasatman",
+          "locus_short": "PV p. 164",
+          "school": "Advaita"
+        },
+        {
+          "cid": "raghavendra/tantra-dipika/1.1",
+          "thinker": "raghavendra",
+          "locus_short": "TD 1.1, bhedavyapadeśāc ca",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "raghavendra/tantra-dipika/1.4",
+          "thinker": "raghavendra",
+          "locus_short": "TD 1.4, jñeyatvavacanāc ca",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "srinivasa/vedanta-kaustubha/Upodghāta",
+          "thinker": "srinivasa",
+          "locus_short": "Upodghāta",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "srinivasa/vedanta-kaustubha/1.1.1",
+          "thinker": "srinivasa",
+          "locus_short": "BS 1.1.1",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "srinivasa/vedanta-kaustubha/2.3.42",
+          "thinker": "srinivasa",
+          "locus_short": "BS 2.3.42",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "vallabha/anu-bhasya/1.1.4",
+          "thinker": "vallabha",
+          "locus_short": "BSB 1.1.4",
+          "school": "Śuddhādvaita"
+        },
+        {
+          "cid": "vallabha/anu-bhasya/1.1.12-19",
+          "thinker": "vallabha",
+          "locus_short": "BSB 1.1.12-19",
+          "school": "Śuddhādvaita"
+        },
+        {
+          "cid": "vallabha/anu-bhasya/1.4.26",
+          "thinker": "vallabha",
+          "locus_short": "BSB 1.4.26",
+          "school": "Śuddhādvaita"
+        },
+        {
+          "cid": "vallabha/anu-bhasya/2.3.43-45",
+          "thinker": "vallabha",
+          "locus_short": "BSB 2.3.43-45",
+          "school": "Śuddhādvaita"
+        },
+        {
+          "cid": "vedanta-desika/pancaratra-raksha/1.maṅgalācaraṇam.1",
+          "thinker": "vedanta-desika",
+          "locus_short": "PR 1, Maṅgalācaraṇa",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "vidyaranya/panchadashi/1.15-16",
+          "thinker": "vidyaranya",
+          "locus_short": "Pañcadaśī 1.15-16",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vidyaranya/panchadashi/1.42",
+          "thinker": "vidyaranya",
+          "locus_short": "Pañcadaśī 1.42",
+          "school": "Advaita"
+        }
+      ],
+      "difficulty": "L"
+    },
+    {
+      "file": "atman.json",
+      "term_iast": "ātman",
+      "aliases": [
+        "atma",
+        "Ātman",
+        "ātmanā",
+        "ātman",
+        "आत्मन्",
+        "ātmanaḥ",
+        "ātmā",
+        "atman",
+        "ātmani",
+        "ātmānam"
+      ],
+      "count": 1569,
+      "current_schools": [
+        "Advaita",
+        "Viśiṣṭādvaita",
+        "Dvaita",
+        "Acintya-Bhedābheda",
+        "Buddhist (opponent position)"
+      ],
+      "schools_with_citation_evidence": [
+        "Advaita-pre",
+        "Advaita",
+        "Tattva-vāda",
+        "Dvaitādvaita",
+        "Śuddhādvaita",
+        "Viśiṣṭādvaita",
+        "Mādhyamaka",
+        "Acintya-Bhedābheda",
+        "Yogācāra"
+      ],
+      "top_citations": [
+        {
+          "cid": "bhartrprapanca/brhadaranyaka-commentary-fragments/2.4.5, 1.4.15",
+          "thinker": "bhartrprapanca",
+          "locus_short": "BṛU 2.4.5, 1.4.15",
+          "school": "Advaita-pre"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.Advaita-prakaraṇa.3-7",
+          "thinker": "gaudapada",
+          "locus_short": "MK 3.3-7",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/siddhanta-bindu/1.prathamo vibhāgaḥ.1",
+          "thinker": "madhusudana",
+          "locus_short": "SB 1",
+          "school": "Advaita"
+        },
+        {
+          "cid": "mandana/brahma-siddhi/1.1.1--opening-prose-discussion-of-nanda",
+          "thinker": "mandana",
+          "locus_short": "BS 1.1 (opening ānanda discussion)",
+          "school": "Advaita"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/jīvasya brahma-pratibimbatvāpādanam",
+          "thinker": "prakasatman",
+          "locus_short": "PV p. 65",
+          "school": "Advaita"
+        },
+        {
+          "cid": "raghavendra/tantra-dipika/1.3",
+          "thinker": "raghavendra",
+          "locus_short": "TD 1.3, suṣuptyutkrāntyor bhedena",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "raghavendra/tantra-dipika/1.4",
+          "thinker": "raghavendra",
+          "locus_short": "TD 1.4, jñeyatvavacanāc ca",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "sankara/upadesa-sahasri/I.17.7-9",
+          "thinker": "sankara",
+          "locus_short": "UpS I.17.7-9",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sankara/mandukya-bhasya/upaniṣad.7",
+          "thinker": "sankara",
+          "locus_short": "MāṇḍU 7",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sarvajnatman/samksepa-sariraka/1.327",
+          "thinker": "sarvajnatman",
+          "locus_short": "SS I.327",
+          "school": "Advaita"
+        },
+        {
+          "cid": "srinivasa/vedanta-kaustubha/1.1.1",
+          "thinker": "srinivasa",
+          "locus_short": "BS 1.1.1",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "srinivasa/vedanta-kaustubha/2.3.42",
+          "thinker": "srinivasa",
+          "locus_short": "BS 2.3.42",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "sureshvara/naishkarmya-siddhi/4.3",
+          "thinker": "sureshvara",
+          "locus_short": "NS 4.3",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vallabha/anu-bhasya/1.4.26",
+          "thinker": "vallabha",
+          "locus_short": "BSB 1.4.26",
+          "school": "Śuddhādvaita"
+        },
+        {
+          "cid": "vidyaranya/panchadashi/1.42",
+          "thinker": "vidyaranya",
+          "locus_short": "Pañcadaśī 1.42",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vimuktatman/ista-siddhi/1.Jaḍe'py avidyāpādanam.140",
+          "thinker": "vimuktatman",
+          "locus_short": "IṢ 1.140",
+          "school": "Advaita"
+        },
+        {
+          "cid": "yamuna/siddhi-trayam/3",
+          "thinker": "yamuna",
+          "locus_short": "ĀS 3",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.15",
+          "thinker": "bhartrprapanca",
+          "locus_short": "",
+          "school": "Advaita-pre"
+        },
+        {
+          "cid": "bhartrprapanca/brhadaranyaka-commentary-fragments/2.4.5",
+          "thinker": "bhartrprapanca",
+          "locus_short": "",
+          "school": "Advaita-pre"
+        },
+        {
+          "cid": "candrakirti/madhyamakavatara/1.3",
+          "thinker": "candrakirti",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.3",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.4",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.7",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.8",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.11",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        }
+      ],
+      "difficulty": "L"
+    },
+    {
+      "file": "purusa.json",
+      "term_iast": "puruṣa",
+      "aliases": [
+        "पुरुष",
+        "puruṣaḥ",
+        "purusa",
+        "Puruṣa",
+        "puruṣottama",
+        "puruṣe",
+        "puruṣasya",
+        "puruṣa",
+        "purushottama"
+      ],
+      "count": 1432,
+      "current_schools": [
+        "Sāṃkhya / Yoga",
+        "Advaita",
+        "Viśiṣṭādvaita",
+        "Dvaita",
+        "Acintya-Bhedābheda"
+      ],
+      "schools_with_citation_evidence": [
+        "Dvaitādvaita",
+        "Śuddhādvaita",
+        "Sāṃkhya-Yoga (synthetic)",
+        "Viśiṣṭādvaita",
+        "Advaita",
+        "Tattva-vāda",
+        "Mādhyamaka",
+        "Yogācāra"
+      ],
+      "top_citations": [
+        {
+          "cid": "srinivasa/vedanta-kaustubha/2.3.42",
+          "thinker": "srinivasa",
+          "locus_short": "BS 2.3.42",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "vallabha/anu-bhasya/1.1.12-19",
+          "thinker": "vallabha",
+          "locus_short": "BSB 1.1.12-19",
+          "school": "Śuddhādvaita"
+        },
+        {
+          "cid": "vijnanabhiksu/yoga-varttika/1.24",
+          "thinker": "vijnanabhiksu",
+          "locus_short": "YV 1.24",
+          "school": "Sāṃkhya-Yoga (synthetic)"
+        },
+        {
+          "cid": "yamuna/siddhi-trayam/16-18",
+          "thinker": "yamuna",
+          "locus_short": "ĪS 16-18",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "madhusudana/siddhanta-bindu/10",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/brahma-sutra-bhasya/1.1.1.7",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/brahma-sutra-bhasya/1.1.1.18",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/mayavada-khandana/15.16",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/mayavada-khandana/15.17",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/mayavada-khandana/15.18",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/mayavada-khandana/15.19",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/mayavada-khandana/Upaniṣad 1.3.11",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.22",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "nagarjuna/vigraha-vyavartani/23",
+          "thinker": "nagarjuna",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "nimbarka/vedanta-parijata-saurabha/Upaniṣad 3.12.6",
+          "thinker": "nimbarka",
+          "locus_short": "",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "ramanuja/vedartha-samgraha/§3",
+          "thinker": "ramanuja",
+          "locus_short": "",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "ramanuja/vedartha-samgraha/§6",
+          "thinker": "ramanuja",
+          "locus_short": "",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "srinivasa/vedanta-kaustubha/2.3.42a",
+          "thinker": "srinivasa",
+          "locus_short": "",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "vallabha/anubhasya/1.1.12-19a",
+          "thinker": "vallabha",
+          "locus_short": "",
+          "school": "Śuddhādvaita"
+        },
+        {
+          "cid": "vallabha/anubhasya/1.1.12-19b",
+          "thinker": "vallabha",
+          "locus_short": "",
+          "school": "Śuddhādvaita"
+        },
+        {
+          "cid": "vasubandhu/vimsatika/and Preta Replies",
+          "thinker": "vasubandhu",
+          "locus_short": "",
+          "school": "Yogācāra"
+        },
+        {
+          "cid": "yamuna/catuh-shloki/1",
+          "thinker": "yamuna",
+          "locus_short": "",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "yamuna/isvara-siddhi/18",
+          "thinker": "yamuna",
+          "locus_short": "",
+          "school": "Viśiṣṭādvaita"
+        }
+      ],
+      "difficulty": "L"
+    },
+    {
+      "file": "karma.json",
+      "term_iast": "karma",
+      "aliases": [
+        "Karma",
+        "karma",
+        "karmaṇaḥ",
+        "karman",
+        "कर्म",
+        "karmān",
+        "karmaṇi",
+        "karmaṇā",
+        "karmas"
+      ],
+      "count": 1386,
+      "current_schools": [
+        "Pūrva-Mīmāṃsā",
+        "Yoga",
+        "Advaita",
+        "Viśiṣṭādvaita",
+        "Dvaita",
+        "Buddhism",
+        "Jainism"
+      ],
+      "schools_with_citation_evidence": [
+        "Acintya-Bhedābheda",
+        "Tattva-vāda",
+        "Advaita",
+        "Sāṃkhya-Yoga (synthetic)",
+        "Viśiṣṭādvaita",
+        "Mādhyamaka",
+        "Yogācāra"
+      ],
+      "top_citations": [
+        {
+          "cid": "kesava-kasmiri/krama-dipika/8.96",
+          "thinker": "kesava-kasmiri",
+          "locus_short": "KD 8.96",
+          "school": "Acintya-Bhedābheda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/1.1.13-15",
+          "thinker": "madhva",
+          "locus_short": "Anuvy. 1.1.13-15",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/brahma-vicāre kim-ānantaryam atha-śabdāvagamyam",
+          "thinker": "prakasatman",
+          "locus_short": "PV p. 164",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sankara/upadesa-sahasri/I.11.15",
+          "thinker": "sankara",
+          "locus_short": "UpS I.11.15",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sankara/upadesa-sahasri/I.17.7-9",
+          "thinker": "sankara",
+          "locus_short": "UpS I.17.7-9",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sarvajnatman/samksepa-sariraka/1.327",
+          "thinker": "sarvajnatman",
+          "locus_short": "SS I.327",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sureshvara/naishkarmya-siddhi/1.98-99",
+          "thinker": "sureshvara",
+          "locus_short": "NS 1.98-99",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vijnanabhiksu/yoga-varttika/1.24",
+          "thinker": "vijnanabhiksu",
+          "locus_short": "YV 1.24",
+          "school": "Sāṃkhya-Yoga (synthetic)"
+        },
+        {
+          "cid": "yamuna/stotra-ratna/22-24",
+          "thinker": "yamuna",
+          "locus_short": "YStr 22-24",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "madhva/anuvyakhyana-bhasya-passages/1.1.13",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/1.1.13",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/karma-nirnaya/p. 257a",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/karma-nirnaya/p. 257b",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/karma-nirnaya/p. 257c",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/karma-nirnaya/p. 257e",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/upadhi-khandana/10",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "nagarjuna/mula-madhyamaka-karika/18.5",
+          "thinker": "nagarjuna",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "ramanuja/shri-bhasya/3",
+          "thinker": "ramanuja",
+          "locus_short": "",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "ramanuja/shri-bhasya/5",
+          "thinker": "ramanuja",
+          "locus_short": "",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "ramanuja/shri-bhasya/11",
+          "thinker": "ramanuja",
+          "locus_short": "",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "ramanuja/vedartha-samgraha/§4",
+          "thinker": "ramanuja",
+          "locus_short": "",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "ramanuja/vedartha-samgraha/§5",
+          "thinker": "ramanuja",
+          "locus_short": "",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "rupa-gosvami/bhakti-rasamrta-sindhu/1.1.11",
+          "thinker": "rupa-gosvami",
+          "locus_short": "",
+          "school": "Acintya-Bhedābheda"
+        },
+        {
+          "cid": "sankara/upadesa-sahasri/I.17.7",
+          "thinker": "sankara",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sankara/upadesa-sahasri/I.17.8",
+          "thinker": "sankara",
+          "locus_short": "",
+          "school": "Advaita"
+        }
+      ],
+      "difficulty": "L"
+    },
+    {
+      "file": "sat.json",
+      "term_iast": "sat",
+      "aliases": [
+        "satyam",
+        "satya",
+        "sad-rupa",
+        "सत्",
+        "satsya",
+        "sat",
+        "Sat"
+      ],
+      "count": 1340,
+      "current_schools": [
+        "Advaita",
+        "Sāṃkhya",
+        "Viśiṣṭādvaita",
+        "Dvaita"
+      ],
+      "schools_with_citation_evidence": [
+        "Advaita",
+        "Tattva-vāda",
+        "Śuddhādvaita",
+        "Mādhyamaka",
+        "Yogācāra",
+        "Viśiṣṭādvaita",
+        "Acintya-Bhedābheda"
+      ],
+      "top_citations": [
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1",
+          "thinker": "madhusudana",
+          "locus_short": "BR 1.1",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/1.4.111-112",
+          "thinker": "madhva",
+          "locus_short": "Anuvy. 1.4.111-112",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "mandana/brahma-siddhi/1.1.1--opening-prose-on-avidy",
+          "thinker": "mandana",
+          "locus_short": "BS 1.1 (avidyā neither sat nor asat; in the jīvas)",
+          "school": "Advaita"
+        },
+        {
+          "cid": "mandana/brahma-siddhi/1.1.35-36--discussion-of-tattvadar-an-bhy-sa",
+          "thinker": "mandana",
+          "locus_short": "BS 1.35-36",
+          "school": "Advaita"
+        },
+        {
+          "cid": "padmapada/pancapadika/V–VI.15–16",
+          "thinker": "padmapada",
+          "locus_short": "PañcP V.15–VI.16",
+          "school": "Advaita"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/mahāvākyasyāparokṣa-prayojakatvam",
+          "thinker": "prakasatman",
+          "locus_short": "PV p. 103",
+          "school": "Advaita"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/brahma-vicāre kim-ānantaryam atha-śabdāvagamyam",
+          "thinker": "prakasatman",
+          "locus_short": "PV p. 164",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sankara/mandukya-bhasya/upaniṣad.7",
+          "thinker": "sankara",
+          "locus_short": "MāṇḍU 7",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sankara/mandukya-bhasya/2.32",
+          "thinker": "sankara",
+          "locus_short": "GK 2.32",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vallabha/anu-bhasya/1.1.4",
+          "thinker": "vallabha",
+          "locus_short": "BSB 1.1.4",
+          "school": "Śuddhādvaita"
+        },
+        {
+          "cid": "vallabha/anu-bhasya/1.1.12-19",
+          "thinker": "vallabha",
+          "locus_short": "BSB 1.1.12-19",
+          "school": "Śuddhādvaita"
+        },
+        {
+          "cid": "vidyaranya/panchadashi/1.15-16",
+          "thinker": "vidyaranya",
+          "locus_short": "Pañcadaśī 1.15-16",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vyasatirtha/tarka-tandava/1.prāmāṇyavāda",
+          "thinker": "vyasatirtha",
+          "locus_short": "TT 1, Prāmāṇyavāda, svato-grāhyatvānumāna",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "candrakirti/madhyamakavatara/1.1",
+          "thinker": "candrakirti",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "candrakirti/madhyamakavatara/1.4",
+          "thinker": "candrakirti",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "candrakirti/madhyamakavatara/1.5",
+          "thinker": "candrakirti",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "candrakirti/madhyamakavatara/1.6",
+          "thinker": "candrakirti",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "dharmakirti/pramana-varttika/2.2",
+          "thinker": "dharmakirti",
+          "locus_short": "",
+          "school": "Yogācāra"
+        },
+        {
+          "cid": "dharmakirti/pramana-varttika/2.3",
+          "thinker": "dharmakirti",
+          "locus_short": "",
+          "school": "Yogācāra"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/1",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/4",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1k",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1cd",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.7",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.17",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        }
+      ],
+      "difficulty": "L"
+    },
+    {
+      "file": "karana.json",
+      "term_iast": "karaṇa",
+      "aliases": [
+        "karaṇa",
+        "Karaṇa",
+        "karaṇaiḥ",
+        "करण",
+        "karana",
+        "karaṇāni",
+        "karaṇena"
+      ],
+      "count": 1156,
+      "current_schools": [
+        "Pāṇinian grammar",
+        "Sāṃkhya / Yoga",
+        "Vaiśeṣika / Nyāya",
+        "Advaita",
+        "Viśiṣṭādvaita"
+      ],
+      "schools_with_citation_evidence": [
+        "Advaita",
+        "Tattva-vāda",
+        "Mādhyamaka"
+      ],
+      "top_citations": [
+        {
+          "cid": "gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18",
+          "thinker": "gaudapada",
+          "locus_short": "MK 1.16-18",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/2.Vaitathya-prakaraṇa.5-6",
+          "thinker": "gaudapada",
+          "locus_short": "MK 2.5-6",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.Advaita-prakaraṇa.3-7",
+          "thinker": "gaudapada",
+          "locus_short": "MK 3.3-7",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.Advaita-prakaraṇa.19-21",
+          "thinker": "gaudapada",
+          "locus_short": "MK 3.19-21",
+          "school": "Advaita"
+        },
+        {
+          "cid": "raghavendra/tantra-dipika/1.1",
+          "thinker": "raghavendra",
+          "locus_short": "TD 1.1, bhedavyapadeśāc ca",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "sankara/upadesa-sahasri/I.11.15",
+          "thinker": "sankara",
+          "locus_short": "UpS I.11.15",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sankara/upadesa-sahasri/I.17.7-9",
+          "thinker": "sankara",
+          "locus_short": "UpS I.17.7-9",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sarvajnatman/samksepa-sariraka/3.278",
+          "thinker": "sarvajnatman",
+          "locus_short": "SS III.278",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.2",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/tattvodyota/Sādhyavikalpanirākaraṇam",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "nagarjuna/mula-madhyamaka-karika/24.17",
+          "thinker": "nagarjuna",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "sarvajnatman/samkshepa-sariraka/III.278",
+          "thinker": "sarvajnatman",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vidyaranya/jivanmukti-viveka/opening",
+          "thinker": "vidyaranya",
+          "locus_short": "",
+          "school": "Advaita"
+        }
+      ],
+      "difficulty": "L"
+    },
+    {
+      "file": "jnana.json",
+      "term_iast": "jñāna",
+      "aliases": [
+        "jnana",
+        "jñāna",
+        "jñānasya",
+        "jnani",
+        "ज्ञान",
+        "Jñāna",
+        "jñānin",
+        "jñānaṃ",
+        "jñānena",
+        "jñānī"
+      ],
+      "count": 1149,
+      "current_schools": [
+        "Advaita",
+        "Viśiṣṭādvaita",
+        "Dvaita",
+        "Buddhist",
+        "Acintya-Bhedābheda"
+      ],
+      "schools_with_citation_evidence": [
+        "Advaita",
+        "Tattva-vāda",
+        "Dvaitādvaita",
+        "Mādhyamaka",
+        "Viśiṣṭādvaita",
+        "Acintya-Bhedābheda",
+        "Yogācāra"
+      ],
+      "top_citations": [
+        {
+          "cid": "madhusudana/siddhanta-bindu/upodghāta",
+          "thinker": "madhusudana",
+          "locus_short": "SB Upodghāta",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/siddhanta-bindu/1.prathamo vibhāgaḥ.1",
+          "thinker": "madhusudana",
+          "locus_short": "SB 1",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/1.1.13-15",
+          "thinker": "madhva",
+          "locus_short": "Anuvy. 1.1.13-15",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/1.4.111-112",
+          "thinker": "madhva",
+          "locus_short": "Anuvy. 1.4.111-112",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "nimbarka/dasa-shloki/1",
+          "thinker": "nimbarka",
+          "locus_short": "DaŚ 1",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "padmapada/pancapadika/V–VI.15–16",
+          "thinker": "padmapada",
+          "locus_short": "PañcP V.15–VI.16",
+          "school": "Advaita"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/jīvasya brahma-pratibimbatvāpādanam",
+          "thinker": "prakasatman",
+          "locus_short": "PV p. 65",
+          "school": "Advaita"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/brahma-vicāre kim-ānantaryam atha-śabdāvagamyam",
+          "thinker": "prakasatman",
+          "locus_short": "PV p. 164",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sankara/upadesa-sahasri/I.11.15",
+          "thinker": "sankara",
+          "locus_short": "UpS I.11.15",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sankara/upadesa-sahasri/I.17.7-9",
+          "thinker": "sankara",
+          "locus_short": "UpS I.17.7-9",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sankara/mandukya-bhasya/upaniṣad.7",
+          "thinker": "sankara",
+          "locus_short": "MāṇḍU 7",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sureshvara/naishkarmya-siddhi/2.9-10",
+          "thinker": "sureshvara",
+          "locus_short": "NS 2.9-10",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vimuktatman/ista-siddhi/1.Jīvanmuktiḥ",
+          "thinker": "vimuktatman",
+          "locus_short": "IṢ 1.9",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vyasatirtha/tarka-tandava/1.prāmāṇyavāda",
+          "thinker": "vyasatirtha",
+          "locus_short": "TT 1, Prāmāṇyavāda, svato-grāhyatvānumāna",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/1",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.7",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/siddhanta-bindu/5",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/siddhanta-bindu/8",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/siddhanta-bindu/9",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/siddhanta-bindu/10",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/siddhanta-bindu/21",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/siddhanta-bindu/23",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/siddhanta-bindu/24",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/anuvyakhyana-bhasya-passages/1.1.14",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana-bhasya-passages/1.1.15",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        }
+      ],
+      "difficulty": "L"
+    },
+    {
+      "file": "jiva.json",
+      "term_iast": "jīva",
+      "aliases": [
+        "jīvātmā",
+        "jīvāḥ",
+        "jiva",
+        "jīvātman",
+        "जीव",
+        "Jīva",
+        "jīvānām",
+        "jīvasya",
+        "jivas",
+        "jīvaḥ",
+        "jīva",
+        "jīvayoḥ",
+        "jīvas"
+      ],
+      "count": 1138,
+      "current_schools": [
+        "Advaita",
+        "Viśiṣṭādvaita",
+        "Dvaita",
+        "Bhedābheda (Bhāskara)",
+        "Acintya-Bhedābheda",
+        "Śuddhādvaita (Vallabha)",
+        "Jainism"
+      ],
+      "schools_with_citation_evidence": [
+        "Advaita",
+        "Tattva-vāda",
+        "Dvaitādvaita",
+        "Śuddhādvaita",
+        "Sāṃkhya-Yoga (synthetic)",
+        "Acintya-Bhedābheda",
+        "Viśiṣṭādvaita"
+      ],
+      "top_citations": [
+        {
+          "cid": "gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18",
+          "thinker": "gaudapada",
+          "locus_short": "MK 1.16-18",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.Advaita-prakaraṇa.3-7",
+          "thinker": "gaudapada",
+          "locus_short": "MK 3.3-7",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/1.1.13-15",
+          "thinker": "madhva",
+          "locus_short": "Anuvy. 1.1.13-15",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/1.4.111-112",
+          "thinker": "madhva",
+          "locus_short": "Anuvy. 1.4.111-112",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/2.3.66-69",
+          "thinker": "madhva",
+          "locus_short": "Anuvy. 2.3.66-69",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "mandana/brahma-siddhi/1.1.1--opening-prose-on-avidy",
+          "thinker": "mandana",
+          "locus_short": "BS 1.1 (avidyā neither sat nor asat; in the jīvas)",
+          "school": "Advaita"
+        },
+        {
+          "cid": "nimbarka/dasa-shloki/1",
+          "thinker": "nimbarka",
+          "locus_short": "DaŚ 1",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "nimbarka/dasa-shloki/2",
+          "thinker": "nimbarka",
+          "locus_short": "DaŚ 2",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/jīvasya brahma-pratibimbatvāpādanam",
+          "thinker": "prakasatman",
+          "locus_short": "PV p. 65",
+          "school": "Advaita"
+        },
+        {
+          "cid": "raghavendra/tantra-dipika/1.3",
+          "thinker": "raghavendra",
+          "locus_short": "TD 1.3, suṣuptyutkrāntyor bhedena",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "sarvajnatman/samksepa-sariraka/3.278",
+          "thinker": "sarvajnatman",
+          "locus_short": "SS III.278",
+          "school": "Advaita"
+        },
+        {
+          "cid": "srinivasa/vedanta-kaustubha/1.1.1",
+          "thinker": "srinivasa",
+          "locus_short": "BS 1.1.1",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "srinivasa/vedanta-kaustubha/2.3.42",
+          "thinker": "srinivasa",
+          "locus_short": "BS 2.3.42",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "vallabha/anu-bhasya/2.3.43-45",
+          "thinker": "vallabha",
+          "locus_short": "BSB 2.3.43-45",
+          "school": "Śuddhādvaita"
+        },
+        {
+          "cid": "vijnanabhiksu/vijnanamrta-bhasya/2.3.43",
+          "thinker": "vijnanabhiksu",
+          "locus_short": "VĀB 2.3.43",
+          "school": "Sāṃkhya-Yoga (synthetic)"
+        },
+        {
+          "cid": "vimuktatman/ista-siddhi/1.Jīvanmuktiḥ",
+          "thinker": "vimuktatman",
+          "locus_short": "IṢ 1.9",
+          "school": "Advaita"
+        },
+        {
+          "cid": "caitanya/shikshashtakam/1",
+          "thinker": "caitanya",
+          "locus_short": "",
+          "school": "Acintya-Bhedābheda"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/1.16",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.3",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.4",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.5",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.6",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.7",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.11",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.13",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        }
+      ],
+      "difficulty": "L"
+    },
+    {
+      "file": "anu.json",
+      "term_iast": "aṇu",
+      "aliases": [
+        "aṇu-jīva",
+        "aṇuḥ",
+        "Aṇu",
+        "aṇu",
+        "aṇu-parimāṇa",
+        "अणु",
+        "anu"
+      ],
+      "count": 1071,
+      "current_schools": [
+        "Viśiṣṭādvaita",
+        "Dvaita",
+        "Advaita",
+        "Vaiśeṣika"
+      ],
+      "schools_with_citation_evidence": [
+        "Acintya-Bhedābheda",
+        "Tattva-vāda",
+        "Dvaitādvaita",
+        "Śuddhādvaita",
+        "Advaita",
+        "Viśiṣṭādvaita",
+        "Mādhyamaka",
+        "Yogācāra"
+      ],
+      "top_citations": [
+        {
+          "cid": "kesava-kasmiri/krama-dipika/8.96",
+          "thinker": "kesava-kasmiri",
+          "locus_short": "KD 8.96",
+          "school": "Acintya-Bhedābheda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/1.1.13-15",
+          "thinker": "madhva",
+          "locus_short": "Anuvy. 1.1.13-15",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/1.4.111-112",
+          "thinker": "madhva",
+          "locus_short": "Anuvy. 1.4.111-112",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/2.3.66-69",
+          "thinker": "madhva",
+          "locus_short": "Anuvy. 2.3.66-69",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/3.3.1",
+          "thinker": "madhva",
+          "locus_short": "Anuvy. 3.3.1",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "nimbarka/dasa-shloki/1",
+          "thinker": "nimbarka",
+          "locus_short": "DaŚ 1",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "nimbarka/dasa-shloki/5",
+          "thinker": "nimbarka",
+          "locus_short": "DaŚ 5",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "srinivasa/vedanta-kaustubha/Upodghāta",
+          "thinker": "srinivasa",
+          "locus_short": "Upodghāta",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "vallabha/anu-bhasya/1.1.4",
+          "thinker": "vallabha",
+          "locus_short": "BSB 1.1.4",
+          "school": "Śuddhādvaita"
+        },
+        {
+          "cid": "vallabha/anu-bhasya/1.1.12-19",
+          "thinker": "vallabha",
+          "locus_short": "BSB 1.1.12-19",
+          "school": "Śuddhādvaita"
+        },
+        {
+          "cid": "vallabha/anu-bhasya/1.4.26",
+          "thinker": "vallabha",
+          "locus_short": "BSB 1.4.26",
+          "school": "Śuddhādvaita"
+        },
+        {
+          "cid": "vallabha/anu-bhasya/2.3.43-45",
+          "thinker": "vallabha",
+          "locus_short": "BSB 2.3.43-45",
+          "school": "Śuddhādvaita"
+        },
+        {
+          "cid": "vimuktatman/ista-siddhi/1.Anubandha-catuṣṭaya",
+          "thinker": "vimuktatman",
+          "locus_short": "IṢ 1.1",
+          "school": "Advaita"
+        },
+        {
+          "cid": "yamuna/siddhi-trayam/31-35",
+          "thinker": "yamuna",
+          "locus_short": "Svs 31-35",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "yamuna/stotra-ratna/22-24",
+          "thinker": "yamuna",
+          "locus_short": "YStr 22-24",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "caitanya/shikshashtakam/5",
+          "thinker": "caitanya",
+          "locus_short": "",
+          "school": "Acintya-Bhedābheda"
+        },
+        {
+          "cid": "candrakirti/madhyamakavatara/1.9",
+          "thinker": "candrakirti",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.16",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "kesava-kasmiri/krama-dipika/6.4",
+          "thinker": "kesava-kasmiri",
+          "locus_short": "",
+          "school": "Acintya-Bhedābheda"
+        },
+        {
+          "cid": "kesava-kasmiri/krama-dipika/8.95",
+          "thinker": "kesava-kasmiri",
+          "locus_short": "",
+          "school": "Acintya-Bhedābheda"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1e",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.1",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.11",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/siddhanta-bindu/10",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/siddhanta-bindu/19",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        }
+      ],
+      "difficulty": "L"
+    },
+    {
+      "file": "dvaita.json",
+      "term_iast": "dvaita",
+      "aliases": [
+        "dvaitam",
+        "द्वैत",
+        "dvaita",
+        "tattva-vada",
+        "Dvaita",
+        "tattvavāda"
+      ],
+      "count": 1025,
+      "current_schools": [
+        "Dvaita (Madhva)",
+        "Advaita",
+        "Viśiṣṭādvaita"
+      ],
+      "schools_with_citation_evidence": [
+        "Advaita",
+        "Tattva-vāda",
+        "Viśiṣṭādvaita"
+      ],
+      "top_citations": [
+        {
+          "cid": "gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18",
+          "thinker": "gaudapada",
+          "locus_short": "MK 1.16-18",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.Advaita-prakaraṇa.3-7",
+          "thinker": "gaudapada",
+          "locus_short": "MK 3.3-7",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.Advaita-prakaraṇa.19-21",
+          "thinker": "gaudapada",
+          "locus_short": "MK 3.19-21",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/1.4.111-112",
+          "thinker": "madhva",
+          "locus_short": "Anuvy. 1.4.111-112",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "sankara/mandukya-bhasya/upaniṣad.7",
+          "thinker": "sankara",
+          "locus_short": "MāṇḍU 7",
+          "school": "Advaita"
+        },
+        {
+          "cid": "yamuna/siddhi-trayam/31-35",
+          "thinker": "yamuna",
+          "locus_short": "Svs 31-35",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/1.13",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/1.16",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/1.17",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/1.18",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.18",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/1",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/4",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1a",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/anuvyakhyana-bhasya-passages/1.4.112",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/1.4.112",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/mayavada-khandana/the loss of non-duality stands apart from the self's nature",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/upadhi-khandana/3",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "yamuna/samvit-siddhi/31",
+          "thinker": "yamuna",
+          "locus_short": "",
+          "school": "Viśiṣṭādvaita"
+        }
+      ],
+      "difficulty": "L"
+    },
+    {
+      "file": "vidya.json",
+      "term_iast": "vidyā",
+      "aliases": [
+        "vidyāyām",
+        "vidyā",
+        "Vidyā",
+        "brahmavidya",
+        "विद्या",
+        "vidya",
+        "vidyayā",
+        "vidyāyāḥ",
+        "brahmavidyā"
+      ],
+      "count": 978,
+      "current_schools": [
+        "Advaita",
+        "Viśiṣṭādvaita",
+        "Dvaita",
+        "Mīmāṃsā"
+      ],
+      "schools_with_citation_evidence": [
+        "Advaita",
+        "Tattva-vāda",
+        "Śuddhādvaita",
+        "Viśiṣṭādvaita",
+        "Sāṃkhya-Yoga (synthetic)",
+        "Acintya-Bhedābheda",
+        "Mādhyamaka",
+        "Yogācāra"
+      ],
+      "top_citations": [
+        {
+          "cid": "gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18",
+          "thinker": "gaudapada",
+          "locus_short": "MK 1.16-18",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.ṭīkā.1",
+          "thinker": "madhusudana",
+          "locus_short": "BR 1.1 ṭīkā",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/1.4.111-112",
+          "thinker": "madhva",
+          "locus_short": "Anuvy. 1.4.111-112",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "mandana/brahma-siddhi/1.1.1--opening-prose-on-avidy",
+          "thinker": "mandana",
+          "locus_short": "BS 1.1 (avidyā neither sat nor asat; in the jīvas)",
+          "school": "Advaita"
+        },
+        {
+          "cid": "padmapada/pancapadika/V–VI.15–16",
+          "thinker": "padmapada",
+          "locus_short": "PañcP V.15–VI.16",
+          "school": "Advaita"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/brahmaṇo lakṣaṇopalakṣaṇe",
+          "thinker": "prakasatman",
+          "locus_short": "PV p. 212",
+          "school": "Advaita"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/brahma-vicāre kim-ānantaryam atha-śabdāvagamyam",
+          "thinker": "prakasatman",
+          "locus_short": "PV p. 164",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sankara/upadesa-sahasri/I.17.7-9",
+          "thinker": "sankara",
+          "locus_short": "UpS I.17.7-9",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sureshvara/naishkarmya-siddhi/1.55-56",
+          "thinker": "sureshvara",
+          "locus_short": "NS 1.55-56",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vallabha/anu-bhasya/1.1.12-19",
+          "thinker": "vallabha",
+          "locus_short": "BSB 1.1.12-19",
+          "school": "Śuddhādvaita"
+        },
+        {
+          "cid": "vedanta-desika/pancaratra-raksha/1.vaikhānasa-pāñcarātra-avirodha",
+          "thinker": "vedanta-desika",
+          "locus_short": "PR 1, Avirodhopayogābhyām",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "vidyaranya/panchadashi/1.15-16",
+          "thinker": "vidyaranya",
+          "locus_short": "Pañcadaśī 1.15-16",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vijnanabhiksu/vijnanamrta-bhasya/1.1.5",
+          "thinker": "vijnanabhiksu",
+          "locus_short": "VĀB 1.1.5",
+          "school": "Sāṃkhya-Yoga (synthetic)"
+        },
+        {
+          "cid": "vijnanabhiksu/yoga-varttika/1.24",
+          "thinker": "vijnanabhiksu",
+          "locus_short": "YV 1.24",
+          "school": "Sāṃkhya-Yoga (synthetic)"
+        },
+        {
+          "cid": "vimuktatman/ista-siddhi/1.Jaḍe'py avidyāpādanam.140",
+          "thinker": "vimuktatman",
+          "locus_short": "IṢ 1.140",
+          "school": "Advaita"
+        },
+        {
+          "cid": "caitanya/shikshashtakam/1",
+          "thinker": "caitanya",
+          "locus_short": "",
+          "school": "Acintya-Bhedābheda"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/1.13",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/1.18",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/2.2",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.10",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.1",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.2",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.3",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.5",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.6",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        }
+      ],
+      "difficulty": "M"
+    },
+    {
+      "file": "maya.json",
+      "term_iast": "māyā",
+      "aliases": [
+        "māyāvāda",
+        "maya",
+        "māyāyāḥ",
+        "māyāyām",
+        "māyāvādin",
+        "māyā",
+        "Māyā",
+        "माया",
+        "māyayā"
+      ],
+      "count": 854,
+      "current_schools": [
+        "Advaita",
+        "Viśiṣṭādvaita",
+        "Dvaita",
+        "Acintya-Bhedābheda",
+        "Bhedābheda (Bhāskara)",
+        "Trika / Kashmir Śaivism"
+      ],
+      "schools_with_citation_evidence": [
+        "Advaita",
+        "Dvaitādvaita",
+        "Tattva-vāda",
+        "Śuddhādvaita",
+        "Sāṃkhya-Yoga (synthetic)",
+        "Mādhyamaka",
+        "Acintya-Bhedābheda",
+        "Viśiṣṭādvaita",
+        "Yogācāra"
+      ],
+      "top_citations": [
+        {
+          "cid": "gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18",
+          "thinker": "gaudapada",
+          "locus_short": "MK 1.16-18",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.Advaita-prakaraṇa.19-21",
+          "thinker": "gaudapada",
+          "locus_short": "MK 3.19-21",
+          "school": "Advaita"
+        },
+        {
+          "cid": "mandana/brahma-siddhi/1.1.1--opening-prose-on-ekatva-and-m-y",
+          "thinker": "mandana",
+          "locus_short": "BS 1.1 (plurality as māyā-bound)",
+          "school": "Advaita"
+        },
+        {
+          "cid": "mandana/brahma-siddhi/1.1.1--opening-prose-on-avidy",
+          "thinker": "mandana",
+          "locus_short": "BS 1.1 (avidyā neither sat nor asat; in the jīvas)",
+          "school": "Advaita"
+        },
+        {
+          "cid": "nimbarka/dasa-shloki/2",
+          "thinker": "nimbarka",
+          "locus_short": "DaŚ 2",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/brahmaṇo lakṣaṇopalakṣaṇe",
+          "thinker": "prakasatman",
+          "locus_short": "PV p. 212",
+          "school": "Advaita"
+        },
+        {
+          "cid": "raghavendra/tantra-dipika/1.1",
+          "thinker": "raghavendra",
+          "locus_short": "TD 1.1, bhedavyapadeśāc ca",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "vallabha/anu-bhasya/1.1.12-19",
+          "thinker": "vallabha",
+          "locus_short": "BSB 1.1.12-19",
+          "school": "Śuddhādvaita"
+        },
+        {
+          "cid": "vidyaranya/panchadashi/1.15-16",
+          "thinker": "vidyaranya",
+          "locus_short": "Pañcadaśī 1.15-16",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vijnanabhiksu/vijnanamrta-bhasya/1.1.5",
+          "thinker": "vijnanabhiksu",
+          "locus_short": "VĀB 1.1.5",
+          "school": "Sāṃkhya-Yoga (synthetic)"
+        },
+        {
+          "cid": "vimuktatman/ista-siddhi/1.Prapañcasyānirvacanīyatvam",
+          "thinker": "vimuktatman",
+          "locus_short": "IṢ 1.1",
+          "school": "Advaita"
+        },
+        {
+          "cid": "candrakirti/madhyamakavatara/1.8",
+          "thinker": "candrakirti",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/1.16",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/1.17",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.10",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.19",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "jiva-gosvami/sat-sandarbha/§42",
+          "thinker": "jiva-gosvami",
+          "locus_short": "",
+          "school": "Acintya-Bhedābheda"
+        },
+        {
+          "cid": "jiva-gosvami/sat-sandarbha/§44",
+          "thinker": "jiva-gosvami",
+          "locus_short": "",
+          "school": "Acintya-Bhedābheda"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/1",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1j",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/siddhanta-bindu/10",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/bhagavata-tatparya-nirnaya/1.1.2",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/bhagavata-tatparya-nirnaya/1.1.18",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/bhagavata-tatparya-nirnaya/1.1.18 — gloss",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/brahma-sutra-bhasya/1.1.1.6",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        }
+      ],
+      "difficulty": "M"
+    },
+    {
+      "file": "bheda.json",
+      "term_iast": "bheda",
+      "aliases": [
+        "bhedān",
+        "bhede",
+        "bhedasya",
+        "bhedaḥ",
+        "Bheda",
+        "bheda",
+        "भेद"
+      ],
+      "count": 782,
+      "current_schools": [
+        "Advaita",
+        "Viśiṣṭādvaita",
+        "Dvaita",
+        "Bhedābheda / Acintya-Bhedābheda"
+      ],
+      "schools_with_citation_evidence": [
+        "Advaita",
+        "Tattva-vāda",
+        "Dvaitādvaita",
+        "Viśiṣṭādvaita",
+        "Acintya-Bhedābheda"
+      ],
+      "top_citations": [
+        {
+          "cid": "gaudapada/mandukya-karika/2.Vaitathya-prakaraṇa.5-6",
+          "thinker": "gaudapada",
+          "locus_short": "MK 2.5-6",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/1.4.111-112",
+          "thinker": "madhva",
+          "locus_short": "Anuvy. 1.4.111-112",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/2.3.66-69",
+          "thinker": "madhva",
+          "locus_short": "Anuvy. 2.3.66-69",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "nimbarka/dasa-shloki/2",
+          "thinker": "nimbarka",
+          "locus_short": "DaŚ 2",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "raghavendra/tantra-dipika/1.1",
+          "thinker": "raghavendra",
+          "locus_short": "TD 1.1, bhedavyapadeśāc ca",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "raghavendra/tantra-dipika/1.3",
+          "thinker": "raghavendra",
+          "locus_short": "TD 1.3, suṣuptyutkrāntyor bhedena",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "vedanta-desika/pancaratra-raksha/1.catvāraḥ siddhāntāḥ",
+          "thinker": "vedanta-desika",
+          "locus_short": "PR 1, Catvāraḥ Siddhāntāḥ",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/2.4",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/2.5",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.13",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.15",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.18",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "jiva-gosvami/sat-sandarbha/§43",
+          "thinker": "jiva-gosvami",
+          "locus_short": "",
+          "school": "Acintya-Bhedābheda"
+        },
+        {
+          "cid": "jiva-gosvami/sat-sandarbha/§44",
+          "thinker": "jiva-gosvami",
+          "locus_short": "",
+          "school": "Acintya-Bhedābheda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana-bhasya-passages/1.4.111",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana-bhasya-passages/2.3.66",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana-bhasya-passages/2.3.68",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/1.4.111",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/2.3.66",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/2.3.68",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/mayavada-khandana/would instead be true",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/tattvodyota/'numānam",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/tattvodyota/Third Option in Difference",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/upadhi-khandana/4",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/upadhi-khandana/6",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        }
+      ],
+      "difficulty": "M"
+    },
+    {
+      "file": "bhakti.json",
+      "term_iast": "bhakti",
+      "aliases": [
+        "bhakta",
+        "bhaktaḥ",
+        "bhakter",
+        "Bhakti",
+        "bhaktiḥ",
+        "bhakti",
+        "bhaktyā",
+        "भक्ति",
+        "bhaktas"
+      ],
+      "count": 755,
+      "current_schools": [
+        "Advaita",
+        "Viśiṣṭādvaita",
+        "Dvaita",
+        "Acintya-Bhedābheda",
+        "Śuddhādvaita (Vallabha)"
+      ],
+      "schools_with_citation_evidence": [
+        "Acintya-Bhedābheda",
+        "Advaita",
+        "Tattva-vāda",
+        "Dvaitādvaita",
+        "Śuddhādvaita",
+        "Viśiṣṭādvaita"
+      ],
+      "top_citations": [
+        {
+          "cid": "kesava-kasmiri/krama-dipika/1.5",
+          "thinker": "kesava-kasmiri",
+          "locus_short": "KD 1.5",
+          "school": "Acintya-Bhedābheda"
+        },
+        {
+          "cid": "kesava-kasmiri/krama-dipika/8.96",
+          "thinker": "kesava-kasmiri",
+          "locus_short": "KD 8.96",
+          "school": "Acintya-Bhedābheda"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1",
+          "thinker": "madhusudana",
+          "locus_short": "BR 1.1",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.ṭīkā.1",
+          "thinker": "madhusudana",
+          "locus_short": "BR 1.1 ṭīkā",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/3.3.1",
+          "thinker": "madhva",
+          "locus_short": "Anuvy. 3.3.1",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "nimbarka/dasa-shloki/2",
+          "thinker": "nimbarka",
+          "locus_short": "DaŚ 2",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "vallabha/anu-bhasya/1.1.12-19",
+          "thinker": "vallabha",
+          "locus_short": "BSB 1.1.12-19",
+          "school": "Śuddhādvaita"
+        },
+        {
+          "cid": "yamuna/stotra-ratna/22-24",
+          "thinker": "yamuna",
+          "locus_short": "YStr 22-24",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "caitanya/shikshashtakam/4",
+          "thinker": "caitanya",
+          "locus_short": "",
+          "school": "Acintya-Bhedābheda"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1ab",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.1",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.2",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.3",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.4",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.6",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.7",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.8",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.9",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.10",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.11",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.16",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.17",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.18",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.19",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.20",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        }
+      ],
+      "difficulty": "M"
+    },
+    {
+      "file": "advaita.json",
+      "term_iast": "advaita",
+      "aliases": [
+        "advaita",
+        "advaya",
+        "Advaita",
+        "अद्वैत",
+        "advayatva",
+        "advaitam"
+      ],
+      "count": 696,
+      "current_schools": [
+        "Advaita (Śaṅkara)",
+        "Viśiṣṭādvaita",
+        "Śuddhādvaita (Vallabha)",
+        "Acintya-Bhedābheda"
+      ],
+      "schools_with_citation_evidence": [
+        "Advaita",
+        "Tattva-vāda",
+        "Yogācāra"
+      ],
+      "top_citations": [
+        {
+          "cid": "gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18",
+          "thinker": "gaudapada",
+          "locus_short": "MK 1.16-18",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.Advaita-prakaraṇa.3-7",
+          "thinker": "gaudapada",
+          "locus_short": "MK 3.3-7",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.Advaita-prakaraṇa.19-21",
+          "thinker": "gaudapada",
+          "locus_short": "MK 3.19-21",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sankara/mandukya-bhasya/upaniṣad.7",
+          "thinker": "sankara",
+          "locus_short": "MāṇḍU 7",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/1.16",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/1.17",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/3.18",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/4",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1a",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/mayavada-khandana/the loss of non-duality stands apart from the self's nature",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "vasubandhu/trimsika/19",
+          "thinker": "vasubandhu",
+          "locus_short": "",
+          "school": "Yogācāra"
+        },
+        {
+          "cid": "vasubandhu/trimsika/26",
+          "thinker": "vasubandhu",
+          "locus_short": "",
+          "school": "Yogācāra"
+        }
+      ],
+      "difficulty": "M"
+    },
+    {
+      "file": "kartr.json",
+      "term_iast": "kartṛ",
+      "aliases": [
+        "kartr",
+        "kartāram",
+        "kartā",
+        "kartṛtva",
+        "kartrtva",
+        "kartṛ",
+        "कर्तृ",
+        "Kartṛ",
+        "kartari",
+        "kartur"
+      ],
+      "count": 662,
+      "current_schools": [
+        "Pāṇinian grammar",
+        "Sāṃkhya / Yoga",
+        "Advaita",
+        "Viśiṣṭādvaita",
+        "Dvaita",
+        "Trika / Kashmir Śaivism"
+      ],
+      "schools_with_citation_evidence": [
+        "Advaita",
+        "Śuddhādvaita",
+        "Tattva-vāda",
+        "Mādhyamaka",
+        "Viśiṣṭādvaita"
+      ],
+      "top_citations": [
+        {
+          "cid": "sarvajnatman/samksepa-sariraka/1.327",
+          "thinker": "sarvajnatman",
+          "locus_short": "SS I.327",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vallabha/anu-bhasya/1.4.26",
+          "thinker": "vallabha",
+          "locus_short": "BSB 1.4.26",
+          "school": "Śuddhādvaita"
+        },
+        {
+          "cid": "madhva/upadhi-khandana/13",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "nagarjuna/mula-madhyamaka-karika/24.17",
+          "thinker": "nagarjuna",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "ramanuja/shri-bhasya/5",
+          "thinker": "ramanuja",
+          "locus_short": "",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "sarvajnatman/samkshepa-sariraka/I.327",
+          "thinker": "sarvajnatman",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vallabha/anubhasya/1.4.26a",
+          "thinker": "vallabha",
+          "locus_short": "",
+          "school": "Śuddhādvaita"
+        }
+      ],
+      "difficulty": "M"
+    },
+    {
+      "file": "avidya.json",
+      "term_iast": "avidyā",
+      "aliases": [
+        "avidyayā",
+        "avidyā",
+        "ajnana",
+        "अविद्या",
+        "Avidyā",
+        "avidyāyāḥ",
+        "ajñāna",
+        "avidyāyām",
+        "avidya"
+      ],
+      "count": 628,
+      "current_schools": [
+        "Advaita",
+        "Viśiṣṭādvaita",
+        "Dvaita",
+        "Buddhist"
+      ],
+      "schools_with_citation_evidence": [
+        "Advaita",
+        "Sāṃkhya-Yoga (synthetic)",
+        "Tattva-vāda",
+        "Mādhyamaka",
+        "Viśiṣṭādvaita"
+      ],
+      "top_citations": [
+        {
+          "cid": "madhusudana/siddhanta-bindu/upodghāta",
+          "thinker": "madhusudana",
+          "locus_short": "SB Upodghāta",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/siddhanta-bindu/1.prathamo vibhāgaḥ.1",
+          "thinker": "madhusudana",
+          "locus_short": "SB 1",
+          "school": "Advaita"
+        },
+        {
+          "cid": "mandana/brahma-siddhi/1.1.1--opening-prose-on-avidy",
+          "thinker": "mandana",
+          "locus_short": "BS 1.1 (avidyā neither sat nor asat; in the jīvas)",
+          "school": "Advaita"
+        },
+        {
+          "cid": "padmapada/pancapadika/V–VI.15–16",
+          "thinker": "padmapada",
+          "locus_short": "PañcP V.15–VI.16",
+          "school": "Advaita"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/brahmaṇo lakṣaṇopalakṣaṇe",
+          "thinker": "prakasatman",
+          "locus_short": "PV p. 212",
+          "school": "Advaita"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/brahma-vicāre kim-ānantaryam atha-śabdāvagamyam",
+          "thinker": "prakasatman",
+          "locus_short": "PV p. 164",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sankara/upadesa-sahasri/I.17.7-9",
+          "thinker": "sankara",
+          "locus_short": "UpS I.17.7-9",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sankara/mandukya-bhasya/upaniṣad.7",
+          "thinker": "sankara",
+          "locus_short": "MāṇḍU 7",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sureshvara/naishkarmya-siddhi/1.55-56",
+          "thinker": "sureshvara",
+          "locus_short": "NS 1.55-56",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vidyaranya/panchadashi/1.15-16",
+          "thinker": "vidyaranya",
+          "locus_short": "Pañcadaśī 1.15-16",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vijnanabhiksu/yoga-varttika/1.24",
+          "thinker": "vijnanabhiksu",
+          "locus_short": "YV 1.24",
+          "school": "Sāṃkhya-Yoga (synthetic)"
+        },
+        {
+          "cid": "vimuktatman/ista-siddhi/1.Jaḍe'py avidyāpādanam.140",
+          "thinker": "vimuktatman",
+          "locus_short": "IṢ 1.140",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vimuktatman/ista-siddhi/1.Jīvanmuktiḥ",
+          "thinker": "vimuktatman",
+          "locus_short": "IṢ 1.9",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/1",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/siddhanta-bindu/8",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/siddhanta-bindu/24",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/brahma-sutra-bhasya/1.1.1.6",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/upadhi-khandana/3",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/upadhi-khandana/17",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "nagarjuna/mula-madhyamaka-karika/1.3",
+          "thinker": "nagarjuna",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "padmapada/pancapadika/V.15.1",
+          "thinker": "padmapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "padmapada/pancapadika/V.15.3",
+          "thinker": "padmapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "padmapada/pancapadika/VI.16.3",
+          "thinker": "padmapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/p. 164a",
+          "thinker": "prakasatman",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/p. 212a",
+          "thinker": "prakasatman",
+          "locus_short": "",
+          "school": "Advaita"
+        }
+      ],
+      "difficulty": "M"
+    },
+    {
+      "file": "dharma.json",
+      "term_iast": "dharma",
+      "aliases": [
+        "dharmaḥ",
+        "Dharma",
+        "dharmāḥ",
+        "dharmasya",
+        "dharmān",
+        "धर्म",
+        "dharma",
+        "dharmaṃ"
+      ],
+      "count": 543,
+      "current_schools": [
+        "Pūrva-Mīmāṃsā",
+        "Advaita",
+        "Viśiṣṭādvaita",
+        "Dvaita",
+        "Yoga",
+        "Buddhism"
+      ],
+      "schools_with_citation_evidence": [
+        "Śuddhādvaita",
+        "Viśiṣṭādvaita",
+        "Advaita",
+        "Tattva-vāda",
+        "Mādhyamaka",
+        "Yogācāra"
+      ],
+      "top_citations": [
+        {
+          "cid": "vallabha/anu-bhasya/1.1.4",
+          "thinker": "vallabha",
+          "locus_short": "BSB 1.1.4",
+          "school": "Śuddhādvaita"
+        },
+        {
+          "cid": "vedanta-desika/pancaratra-raksha/1.vaikhānasa-pāñcarātra-avirodha",
+          "thinker": "vedanta-desika",
+          "locus_short": "PR 1, Avirodhopayogābhyām",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "yamuna/stotra-ratna/22-24",
+          "thinker": "yamuna",
+          "locus_short": "YStr 22-24",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.12",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/mithyatvanumana-khandana/239, clause 15",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/mithyatvanumana-khandana/239, clause 16",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/mithyatvanumana-khandana/239, clause 17",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.21",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "nagarjuna/mula-madhyamaka-karika/1.7",
+          "thinker": "nagarjuna",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "nagarjuna/mula-madhyamaka-karika/1.8",
+          "thinker": "nagarjuna",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "nagarjuna/mula-madhyamaka-karika/1.9",
+          "thinker": "nagarjuna",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "nagarjuna/mula-madhyamaka-karika/18.7",
+          "thinker": "nagarjuna",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "nagarjuna/mula-madhyamaka-karika/24.8",
+          "thinker": "nagarjuna",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "nagarjuna/mula-madhyamaka-karika/24.12",
+          "thinker": "nagarjuna",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "nagarjuna/mula-madhyamaka-karika/24.19",
+          "thinker": "nagarjuna",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "nagarjuna/mula-madhyamaka-karika/25.22",
+          "thinker": "nagarjuna",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "nagarjuna/mula-madhyamaka-karika/25.24",
+          "thinker": "nagarjuna",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "vallabha/anubhasya/1.1.4d",
+          "thinker": "vallabha",
+          "locus_short": "",
+          "school": "Śuddhādvaita"
+        },
+        {
+          "cid": "vasubandhu/trimsika/1",
+          "thinker": "vasubandhu",
+          "locus_short": "",
+          "school": "Yogācāra"
+        },
+        {
+          "cid": "vasubandhu/trimsika/23",
+          "thinker": "vasubandhu",
+          "locus_short": "",
+          "school": "Yogācāra"
+        },
+        {
+          "cid": "vasubandhu/trimsika/25",
+          "thinker": "vasubandhu",
+          "locus_short": "",
+          "school": "Yogācāra"
+        },
+        {
+          "cid": "vasubandhu/trimsika/30",
+          "thinker": "vasubandhu",
+          "locus_short": "",
+          "school": "Yogācāra"
+        },
+        {
+          "cid": "vasubandhu/vimsatika/Karma, Vāsanā, and Scriptural Objection",
+          "thinker": "vasubandhu",
+          "locus_short": "",
+          "school": "Yogācāra"
+        },
+        {
+          "cid": "vasubandhu/vimsatika/10 and Entry into *Dharma-Nairātmya*",
+          "thinker": "vasubandhu",
+          "locus_short": "",
+          "school": "Yogācāra"
+        },
+        {
+          "cid": "yamuna/stotra-ratna/22",
+          "thinker": "yamuna",
+          "locus_short": "",
+          "school": "Viśiṣṭādvaita"
+        }
+      ],
+      "difficulty": "M"
+    },
+    {
+      "file": "pramana.json",
+      "term_iast": "pramāṇa",
+      "aliases": [
+        "Pramāṇa",
+        "प्रमाण",
+        "pramāṇasya",
+        "pramāṇāni",
+        "pramāṇa",
+        "pramāṇāt",
+        "pramane",
+        "pramana"
+      ],
+      "count": 541,
+      "current_schools": [
+        "Nyāya",
+        "Mīmāṃsā",
+        "Advaita",
+        "Viśiṣṭādvaita",
+        "Dvaita",
+        "Buddhist Pramāṇa"
+      ],
+      "schools_with_citation_evidence": [
+        "Advaita",
+        "Tattva-vāda",
+        "Viśiṣṭādvaita",
+        "Yogācāra"
+      ],
+      "top_citations": [
+        {
+          "cid": "madhusudana/siddhanta-bindu/upodghāta",
+          "thinker": "madhusudana",
+          "locus_short": "SB Upodghāta",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/2.3.66-69",
+          "thinker": "madhva",
+          "locus_short": "Anuvy. 2.3.66-69",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/mahāvākyasyāparokṣa-prayojakatvam",
+          "thinker": "prakasatman",
+          "locus_short": "PV p. 103",
+          "school": "Advaita"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/brahma-vicāre kim-ānantaryam atha-śabdāvagamyam",
+          "thinker": "prakasatman",
+          "locus_short": "PV p. 164",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sankara/upadesa-sahasri/I.17.7-9",
+          "thinker": "sankara",
+          "locus_short": "UpS I.17.7-9",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sureshvara/naishkarmya-siddhi/4.3",
+          "thinker": "sureshvara",
+          "locus_short": "NS 4.3",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vimuktatman/ista-siddhi/1.Anirvacanīya-khyāti-vādopasaṃhāraḥ",
+          "thinker": "vimuktatman",
+          "locus_short": "IṢ 1.9",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vyasatirtha/tarka-tandava/1.5",
+          "thinker": "vyasatirtha",
+          "locus_short": "TT 1.5",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "yamuna/siddhi-trayam/31-35",
+          "thinker": "yamuna",
+          "locus_short": "Svs 31-35",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "dharmakirti/pramana-varttika/2.1",
+          "thinker": "dharmakirti",
+          "locus_short": "",
+          "school": "Yogācāra"
+        },
+        {
+          "cid": "dharmakirti/pramana-varttika/2.2",
+          "thinker": "dharmakirti",
+          "locus_short": "",
+          "school": "Yogācāra"
+        },
+        {
+          "cid": "dharmakirti/pramana-varttika/2.3",
+          "thinker": "dharmakirti",
+          "locus_short": "",
+          "school": "Yogācāra"
+        },
+        {
+          "cid": "dharmakirti/pramana-varttika/2.4",
+          "thinker": "dharmakirti",
+          "locus_short": "",
+          "school": "Yogācāra"
+        },
+        {
+          "cid": "dharmakirti/pramana-varttika/2.5",
+          "thinker": "dharmakirti",
+          "locus_short": "",
+          "school": "Yogācāra"
+        },
+        {
+          "cid": "madhva/anuvyakhyana-bhasya-passages/2.3.66",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/2.3.66",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/brahma-sutra-bhasya/1.1.1.15",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/mayavada-khandana/opponent's own definition of pramāṇa",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/mithyatvanumana-khandana/239, clause 11",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/mithyatvanumana-khandana/239, clause 14",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/tattvodyota/Pramāṇābhāvopapādanam",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/p. 103b",
+          "thinker": "prakasatman",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/p. 164b",
+          "thinker": "prakasatman",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "raghavendra/nyaya-sudha-parimala/5",
+          "thinker": "raghavendra",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "sankara/upadesa-sahasri/I.17.8",
+          "thinker": "sankara",
+          "locus_short": "",
+          "school": "Advaita"
+        }
+      ],
+      "difficulty": "M"
+    },
+    {
+      "file": "mithya.json",
+      "term_iast": "mithyā",
+      "aliases": [
+        "mithyātva",
+        "मिथ्या",
+        "mithyātvam",
+        "mithya",
+        "mithyā",
+        "Mithyā"
+      ],
+      "count": 433,
+      "current_schools": [
+        "Advaita",
+        "Viśiṣṭādvaita",
+        "Dvaita",
+        "Bhedābheda (Bhāskara)",
+        "Acintya-Bhedābheda"
+      ],
+      "schools_with_citation_evidence": [
+        "Advaita",
+        "Tattva-vāda"
+      ],
+      "top_citations": [
+        {
+          "cid": "mandana/brahma-siddhi/1.1.1--opening-prose-on-avidy",
+          "thinker": "mandana",
+          "locus_short": "BS 1.1 (avidyā neither sat nor asat; in the jīvas)",
+          "school": "Advaita"
+        },
+        {
+          "cid": "padmapada/pancapadika/V–VI.15–16",
+          "thinker": "padmapada",
+          "locus_short": "PañcP V.15–VI.16",
+          "school": "Advaita"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/brahma-vicāre kim-ānantaryam atha-śabdāvagamyam",
+          "thinker": "prakasatman",
+          "locus_short": "PV p. 164",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/1",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1a",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1k",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/mayavada-khandana/would fail to disclose reality",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/mithyatvanumana-khandana/239, clause 1",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/mithyatvanumana-khandana/239, clause 4",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/tattvodyota/Word *Mithyā* Does Not Help",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/tattvodyota/Shared Universal of *Mithyātva*",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/upadhi-khandana/15",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.10",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "padmapada/pancapadika/V.15.1",
+          "thinker": "padmapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "padmapada/pancapadika/V.15.2",
+          "thinker": "padmapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "padmapada/pancapadika/VI.16.5",
+          "thinker": "padmapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/p. 164c",
+          "thinker": "prakasatman",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sankara/vivekacudamani/20",
+          "thinker": "sankara",
+          "locus_short": "",
+          "school": "Advaita"
+        }
+      ],
+      "difficulty": "M"
+    },
+    {
+      "file": "moksa.json",
+      "term_iast": "mokṣa",
+      "aliases": [
+        "mokṣaṃ",
+        "mokṣasya",
+        "mokṣa",
+        "moksa",
+        "Mokṣa",
+        "apavarga",
+        "muktiḥ",
+        "मोक्ष",
+        "mukti",
+        "mokṣaḥ"
+      ],
+      "count": 406,
+      "current_schools": [
+        "Advaita",
+        "Viśiṣṭādvaita",
+        "Dvaita",
+        "Acintya-Bhedābheda",
+        "Trika / Kashmir Śaivism"
+      ],
+      "schools_with_citation_evidence": [
+        "Tattva-vāda",
+        "Advaita",
+        "Yogācāra",
+        "Mādhyamaka"
+      ],
+      "top_citations": [
+        {
+          "cid": "madhva/anuvyakhyana/1.1.13-15",
+          "thinker": "madhva",
+          "locus_short": "Anuvy. 1.1.13-15",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "sankara/upadesa-sahasri/I.11.15",
+          "thinker": "sankara",
+          "locus_short": "UpS I.11.15",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sankara/upadesa-sahasri/I.17.7-9",
+          "thinker": "sankara",
+          "locus_short": "UpS I.17.7-9",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sureshvara/naishkarmya-siddhi/1.98-99",
+          "thinker": "sureshvara",
+          "locus_short": "NS 1.98-99",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vimuktatman/ista-siddhi/1.Jīvanmuktiḥ",
+          "thinker": "vimuktatman",
+          "locus_short": "IṢ 1.9",
+          "school": "Advaita"
+        },
+        {
+          "cid": "dharmakirti/pramana-varttika/2.1",
+          "thinker": "dharmakirti",
+          "locus_short": "",
+          "school": "Yogācāra"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/1",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/anuvyakhyana-bhasya-passages/1.1.14",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana-bhasya-passages/1.1.15",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/1.1.14",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/1.1.15",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/mahabharata-tatparya-nirnaya/1.6",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/mayavada-khandana/would already be accomplished",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/tattva-sankhyana/4",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/tattva-sankhyana/5",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/tattva-sankhyana/11",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.10",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.27",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "nagarjuna/mula-madhyamaka-karika/18.5",
+          "thinker": "nagarjuna",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "nagarjuna/mula-madhyamaka-karika/25.11",
+          "thinker": "nagarjuna",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "sankara/upadesa-sahasri/I.17.7",
+          "thinker": "sankara",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sankara/vivekacudamani/31",
+          "thinker": "sankara",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "sankara/vivekacudamani/32",
+          "thinker": "sankara",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vasubandhu/trimsika/10",
+          "thinker": "vasubandhu",
+          "locus_short": "",
+          "school": "Yogācāra"
+        },
+        {
+          "cid": "vasubandhu/trimsika/30",
+          "thinker": "vasubandhu",
+          "locus_short": "",
+          "school": "Yogācāra"
+        }
+      ],
+      "difficulty": "M"
+    },
+    {
+      "file": "rasa.json",
+      "term_iast": "rasa",
+      "aliases": [
+        "rasaḥ",
+        "Rasa",
+        "rasānubhava",
+        "rasasya",
+        "rase",
+        "rasa"
+      ],
+      "count": 385,
+      "current_schools": [
+        "Alaṅkāra / Abhinavagupta",
+        "Advaita (Madhusūdana)",
+        "Acintya-Bhedābheda"
+      ],
+      "schools_with_citation_evidence": [
+        "Advaita",
+        "Dvaitādvaita",
+        "Tattva-vāda",
+        "Mādhyamaka",
+        "Viśiṣṭādvaita",
+        "Acintya-Bhedābheda",
+        "Yogācāra"
+      ],
+      "top_citations": [
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1",
+          "thinker": "madhusudana",
+          "locus_short": "BR 1.1",
+          "school": "Advaita"
+        },
+        {
+          "cid": "nimbarka/dasa-shloki/1",
+          "thinker": "nimbarka",
+          "locus_short": "DaŚ 1",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1e",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1ab",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.10",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.14",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.16",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/bhagavata-tatparya-nirnaya/1.1.4",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/mahabharata-tatparya-nirnaya/1.1",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "nagarjuna/mula-madhyamaka-karika/24.13",
+          "thinker": "nagarjuna",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "nagarjuna/mula-madhyamaka-karika/24.20",
+          "thinker": "nagarjuna",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "nagarjuna/mula-madhyamaka-karika/25.4",
+          "thinker": "nagarjuna",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "nimbarka/dasa-shloki/10",
+          "thinker": "nimbarka",
+          "locus_short": "",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "ramanuja/vedartha-samgraha/§6",
+          "thinker": "ramanuja",
+          "locus_short": "",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "rupa-gosvami/bhakti-rasamrta-sindhu/1.1.7",
+          "thinker": "rupa-gosvami",
+          "locus_short": "",
+          "school": "Acintya-Bhedābheda"
+        },
+        {
+          "cid": "sankara/vivekacudamani/34",
+          "thinker": "sankara",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vasubandhu/trimsika/9",
+          "thinker": "vasubandhu",
+          "locus_short": "",
+          "school": "Yogācāra"
+        },
+        {
+          "cid": "vidyaranya/jivanmukti-viveka/and reply on the need to protect knowledge",
+          "thinker": "vidyaranya",
+          "locus_short": "",
+          "school": "Advaita"
+        }
+      ],
+      "difficulty": "S"
+    },
+    {
+      "file": "isvara.json",
+      "term_iast": "Īśvara",
+      "aliases": [
+        "Iśvara",
+        "īśvarasya",
+        "ईश्वर",
+        "īśvaraḥ",
+        "isvara",
+        "Īśvara",
+        "īśvara",
+        "ishvara",
+        "ishwar"
+      ],
+      "count": 338,
+      "current_schools": [
+        "Yoga",
+        "Advaita Vedānta",
+        "Viśiṣṭādvaita",
+        "Dvaita Vedānta",
+        "Acintya-Bhedābheda"
+      ],
+      "schools_with_citation_evidence": [
+        "Tattva-vāda",
+        "Advaita",
+        "Sāṃkhya-Yoga (synthetic)",
+        "Viśiṣṭādvaita"
+      ],
+      "top_citations": [
+        {
+          "cid": "madhva/anuvyakhyana/1.4.111-112",
+          "thinker": "madhva",
+          "locus_short": "Anuvy. 1.4.111-112",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "sarvajnatman/samksepa-sariraka/1.327",
+          "thinker": "sarvajnatman",
+          "locus_short": "SS I.327",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vidyaranya/panchadashi/1.15-16",
+          "thinker": "vidyaranya",
+          "locus_short": "Pañcadaśī 1.15-16",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vijnanabhiksu/yoga-varttika/1.23",
+          "thinker": "vijnanabhiksu",
+          "locus_short": "YV 1.23",
+          "school": "Sāṃkhya-Yoga (synthetic)"
+        },
+        {
+          "cid": "vijnanabhiksu/yoga-varttika/1.24",
+          "thinker": "vijnanabhiksu",
+          "locus_short": "YV 1.24",
+          "school": "Sāṃkhya-Yoga (synthetic)"
+        },
+        {
+          "cid": "yamuna/siddhi-trayam/16-18",
+          "thinker": "yamuna",
+          "locus_short": "ĪS 16-18",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "madhva/anuvyakhyana-bhasya-passages/1.4.111",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/1.4.111",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/bhagavata-tatparya-nirnaya/1.1.18",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/mayavada-khandana/15.17",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.25",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "vedanta-desika/rahasya-traya-sara/104",
+          "thinker": "vedanta-desika",
+          "locus_short": "",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "vedanta-desika/rahasya-traya-sara/104–105",
+          "thinker": "vedanta-desika",
+          "locus_short": "",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "vidyaranya/panchadashi/Pañcadaśī 1.16",
+          "thinker": "vidyaranya",
+          "locus_short": "",
+          "school": "Advaita"
+        }
+      ],
+      "difficulty": "S"
+    },
+    {
+      "file": "sruti.json",
+      "term_iast": "śruti",
+      "aliases": [
+        "Śruti",
+        "shruti",
+        "śruty",
+        "sruti",
+        "śrutau",
+        "śruteḥ",
+        "śruti",
+        "श्रुति"
+      ],
+      "count": 336,
+      "current_schools": [
+        "Pūrva-Mīmāṃsā",
+        "Advaita",
+        "Viśiṣṭādvaita",
+        "Dvaita",
+        "Acintya-Bhedābheda"
+      ],
+      "schools_with_citation_evidence": [
+        "Tattva-vāda",
+        "Advaita",
+        "Dvaitādvaita",
+        "Sāṃkhya-Yoga (synthetic)",
+        "Viśiṣṭādvaita"
+      ],
+      "top_citations": [
+        {
+          "cid": "madhva/anuvyakhyana/2.3.66-69",
+          "thinker": "madhva",
+          "locus_short": "Anuvy. 2.3.66-69",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "mandana/brahma-siddhi/1.1.1--opening-prose-on-ekatva-and-m-y",
+          "thinker": "mandana",
+          "locus_short": "BS 1.1 (plurality as māyā-bound)",
+          "school": "Advaita"
+        },
+        {
+          "cid": "raghavendra/tantra-dipika/1.3",
+          "thinker": "raghavendra",
+          "locus_short": "TD 1.3, suṣuptyutkrāntyor bhedena",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "srinivasa/vedanta-kaustubha/1",
+          "thinker": "srinivasa",
+          "locus_short": "Maṅgalācaraṇa 1",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "srinivasa/vedanta-kaustubha/2.3.42",
+          "thinker": "srinivasa",
+          "locus_short": "BS 2.3.42",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "vijnanabhiksu/vijnanamrta-bhasya/1.1.5",
+          "thinker": "vijnanabhiksu",
+          "locus_short": "VĀB 1.1.5",
+          "school": "Sāṃkhya-Yoga (synthetic)"
+        },
+        {
+          "cid": "yamuna/siddhi-trayam/31-35",
+          "thinker": "yamuna",
+          "locus_short": "Svs 31-35",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/1",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1e",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.2",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/siddhanta-bindu/9",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/siddhanta-bindu/10",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/siddhanta-bindu/15",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/anuvyakhyana-bhasya-passages/2.3.66",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/2.3.66",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/bhagavata-tatparya-nirnaya/1.1.3",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/mayavada-khandana/purport: Viṣṇu's supremacy",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/tattvodyota/Iti Śrutyarthavicāraḥ",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/upadhi-khandana/14",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/upadhi-khandana/18",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.21",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.25",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.27",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "nimbarka/dasa-shloki/7",
+          "thinker": "nimbarka",
+          "locus_short": "",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "ramanuja/vedartha-samgraha/§2",
+          "thinker": "ramanuja",
+          "locus_short": "",
+          "school": "Viśiṣṭādvaita"
+        }
+      ],
+      "difficulty": "S"
+    },
+    {
+      "file": "guna.json",
+      "term_iast": "guṇa",
+      "aliases": [
+        "guṇāḥ",
+        "traiguṇya",
+        "guna",
+        "गुण",
+        "guṇatraya",
+        "guṇa-atīta",
+        "guṇātīta",
+        "guṇa-traya",
+        "kalyāṇa-guṇa",
+        "guṇasya",
+        "guṇān",
+        "heya-guṇa",
+        "prākṛta-guṇa",
+        "Guṇa",
+        "guṇa"
+      ],
+      "count": 332,
+      "current_schools": [
+        "Sāṃkhya / Yoga",
+        "Advaita",
+        "Viśiṣṭādvaita",
+        "Dvaita",
+        "Nyāya-Vaiśeṣika",
+        "Trika / Kashmir Śaivism"
+      ],
+      "schools_with_citation_evidence": [
+        "Advaita",
+        "Tattva-vāda",
+        "Dvaitādvaita",
+        "Acintya-Bhedābheda",
+        "Viśiṣṭādvaita",
+        "Yogācāra"
+      ],
+      "top_citations": [
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.ṭīkā.1",
+          "thinker": "madhusudana",
+          "locus_short": "BR 1.1 ṭīkā",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/2.3.66-69",
+          "thinker": "madhva",
+          "locus_short": "Anuvy. 2.3.66-69",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "nimbarka/dasa-shloki/4",
+          "thinker": "nimbarka",
+          "locus_short": "DaŚ 4",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "raghavendra/tantra-dipika/1",
+          "thinker": "raghavendra",
+          "locus_short": "TD 1.1, adhyāya summary",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "vidyaranya/panchadashi/1.15-16",
+          "thinker": "vidyaranya",
+          "locus_short": "Pañcadaśī 1.15-16",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vyasatirtha/tarka-tandava/1.5",
+          "thinker": "vyasatirtha",
+          "locus_short": "TT 1.5",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "jiva-gosvami/sat-sandarbha/§43",
+          "thinker": "jiva-gosvami",
+          "locus_short": "",
+          "school": "Acintya-Bhedābheda"
+        },
+        {
+          "cid": "jiva-gosvami/sat-sandarbha/§45",
+          "thinker": "jiva-gosvami",
+          "locus_short": "",
+          "school": "Acintya-Bhedābheda"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.6",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/bhakti-rasayana/1.1 ṭīkā.15",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/anuvyakhyana-bhasya-passages/2.3.67",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/2.3.67",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/brahma-sutra-bhasya/1.1.1.1",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/mahabharata-tatparya-nirnaya/1.2",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/mithyatvanumana-khandana/239, closing verse",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/upadhi-khandana/1",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/upadhi-khandana/13",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.1",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.9",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.12",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.22",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.23",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.24",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.27",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.30",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        }
+      ],
+      "difficulty": "S"
+    },
+    {
+      "file": "sakti.json",
+      "term_iast": "śakti",
+      "aliases": [
+        "śaktyā",
+        "शक्ति",
+        "Śakti",
+        "śaktiḥ",
+        "sakti",
+        "shakti",
+        "śakti",
+        "śakteḥ",
+        "śakter"
+      ],
+      "count": 319,
+      "current_schools": [
+        "Mīmāṃsā and Vyākaraṇa",
+        "Trika / Kashmir Śaivism",
+        "Śākta",
+        "Acintya-Bhedābheda"
+      ],
+      "schools_with_citation_evidence": [
+        "Acintya-Bhedābheda",
+        "Advaita",
+        "Dvaitādvaita",
+        "Yogācāra",
+        "Tattva-vāda"
+      ],
+      "top_citations": [
+        {
+          "cid": "kesava-kasmiri/krama-dipika/2.18",
+          "thinker": "kesava-kasmiri",
+          "locus_short": "KD 2.18",
+          "school": "Acintya-Bhedābheda"
+        },
+        {
+          "cid": "padmapada/pancapadika/V–VI.15–16",
+          "thinker": "padmapada",
+          "locus_short": "PañcP V.15–VI.16",
+          "school": "Advaita"
+        },
+        {
+          "cid": "srinivasa/vedanta-kaustubha/2.3.42",
+          "thinker": "srinivasa",
+          "locus_short": "BS 2.3.42",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "caitanya/shikshashtakam/2",
+          "thinker": "caitanya",
+          "locus_short": "",
+          "school": "Acintya-Bhedābheda"
+        },
+        {
+          "cid": "dharmakirti/pramana-varttika/2.1",
+          "thinker": "dharmakirti",
+          "locus_short": "",
+          "school": "Yogācāra"
+        },
+        {
+          "cid": "dharmakirti/pramana-varttika/2.4",
+          "thinker": "dharmakirti",
+          "locus_short": "",
+          "school": "Yogācāra"
+        },
+        {
+          "cid": "jiva-gosvami/sat-sandarbha/§43",
+          "thinker": "jiva-gosvami",
+          "locus_short": "",
+          "school": "Acintya-Bhedābheda"
+        },
+        {
+          "cid": "madhusudana/siddhanta-bindu/22",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/mayavada-khandana/benediction",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/upadhi-khandana/13",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.5",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "nimbarka/dasa-shloki/8",
+          "thinker": "nimbarka",
+          "locus_short": "",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "padmapada/pancapadika/V.15.3",
+          "thinker": "padmapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "padmapada/pancapadika/VI.16.3",
+          "thinker": "padmapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "srinivasa/vedanta-kaustubha/2.3.42d",
+          "thinker": "srinivasa",
+          "locus_short": "",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "srinivasa/vedanta-kaustubha/2.3.42e",
+          "thinker": "srinivasa",
+          "locus_short": "",
+          "school": "Dvaitādvaita"
+        }
+      ],
+      "difficulty": "S"
+    },
+    {
+      "file": "visnu.json",
+      "term_iast": "Viṣṇu",
+      "aliases": [
+        "viṣṇave",
+        "Vishnu",
+        "viṣṇoḥ",
+        "viṣṇunā",
+        "viṣṇau",
+        "विष्णु",
+        "visnu",
+        "Viṣṇu",
+        "viṣṇu"
+      ],
+      "count": 318,
+      "current_schools": [
+        "Advaita Vedānta",
+        "Viśiṣṭādvaita",
+        "Dvaita",
+        "Acintya-Bhedābheda"
+      ],
+      "schools_with_citation_evidence": [
+        "Tattva-vāda",
+        "Advaita",
+        "Viśiṣṭādvaita"
+      ],
+      "top_citations": [
+        {
+          "cid": "madhva/anuvyakhyana/1.1.13-15",
+          "thinker": "madhva",
+          "locus_short": "Anuvy. 1.1.13-15",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/3.3.1",
+          "thinker": "madhva",
+          "locus_short": "Anuvy. 3.3.1",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "raghavendra/tantra-dipika/1",
+          "thinker": "raghavendra",
+          "locus_short": "TD 1.1, adhyāya summary",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/1",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/anuvyakhyana-bhasya-passages/1.1.15",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana-bhasya-passages/3.3.1",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/anuvyakhyana/1.1.15",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/mayavada-khandana/purport: Viṣṇu's supremacy",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/tattva-sankhyana/1",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/tattva-sankhyana/11",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/upadhi-khandana/14",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.1",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.2",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.4",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.7",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.8",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.11",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.12",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.23",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.24",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.25",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.31",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "raghavendra/tantra-dipika/1.1, adhyāya summary, line 2",
+          "thinker": "raghavendra",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "ramanuja/vedartha-samgraha/§1",
+          "thinker": "ramanuja",
+          "locus_short": "",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "vyasatirtha/nyayamrta/5",
+          "thinker": "vyasatirtha",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        }
+      ],
+      "difficulty": "S"
+    },
+    {
+      "file": "amsa.json",
+      "term_iast": "aṃśa",
+      "aliases": [
+        "Aṃśa",
+        "aṃśa",
+        "aṃśaḥ",
+        "amśa",
+        "amsa",
+        "vibhinnamsa",
+        "अंश",
+        "aṃśasya",
+        "vibhinnāṃśa",
+        "amshas"
+      ],
+      "count": 308,
+      "current_schools": [
+        "Advaita",
+        "Viśiṣṭādvaita",
+        "Bhedābheda (Bhāskara)",
+        "Dvaita",
+        "Acintya-Bhedābheda"
+      ],
+      "schools_with_citation_evidence": [
+        "Advaita",
+        "Dvaitādvaita",
+        "Śuddhādvaita",
+        "Tattva-vāda",
+        "Viśiṣṭādvaita"
+      ],
+      "top_citations": [
+        {
+          "cid": "gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18",
+          "thinker": "gaudapada",
+          "locus_short": "MK 1.16-18",
+          "school": "Advaita"
+        },
+        {
+          "cid": "srinivasa/vedanta-kaustubha/2.3.42",
+          "thinker": "srinivasa",
+          "locus_short": "BS 2.3.42",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "vallabha/anu-bhasya/2.3.43-45",
+          "thinker": "vallabha",
+          "locus_short": "BSB 2.3.43-45",
+          "school": "Śuddhādvaita"
+        },
+        {
+          "cid": "gaudapada/mandukya-karika/1.17",
+          "thinker": "gaudapada",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1c",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1d",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1e",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1g",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1h",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhusudana/siddhanta-bindu/24",
+          "thinker": "madhusudana",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "madhva/mayavada-khandana/verse of refutation",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/visnu-tattva-vinirnaya/3.5",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "ramanuja/vedartha-samgraha/§6",
+          "thinker": "ramanuja",
+          "locus_short": "",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "srinivasa/vedanta-kaustubha/2.3.42b",
+          "thinker": "srinivasa",
+          "locus_short": "",
+          "school": "Dvaitādvaita"
+        },
+        {
+          "cid": "vallabha/anubhasya/2.3.43-45c",
+          "thinker": "vallabha",
+          "locus_short": "",
+          "school": "Śuddhādvaita"
+        },
+        {
+          "cid": "vidyaranya/jivanmukti-viveka/and reply on the need to protect knowledge",
+          "thinker": "vidyaranya",
+          "locus_short": "",
+          "school": "Advaita"
+        }
+      ],
+      "difficulty": "S"
+    },
+    {
+      "file": "sabda.json",
+      "term_iast": "śabda",
+      "aliases": [
+        "shabda",
+        "śabde",
+        "शब्द",
+        "sabda",
+        "sabda-pramana",
+        "Śabda",
+        "śabdasya",
+        "śabda-pramāṇa",
+        "śabdaḥ",
+        "śabda"
+      ],
+      "count": 304,
+      "current_schools": [
+        "Nyāya",
+        "Mīmāṃsā",
+        "Advaita",
+        "Viśiṣṭādvaita",
+        "Dvaita",
+        "Buddhist Pramāṇa"
+      ],
+      "schools_with_citation_evidence": [
+        "Advaita",
+        "Sāṃkhya-Yoga (synthetic)",
+        "Mādhyamaka",
+        "Yogācāra",
+        "Tattva-vāda",
+        "Viśiṣṭādvaita"
+      ],
+      "top_citations": [
+        {
+          "cid": "prakasatman/pancapadika-vivarana/mahāvākyasyāparokṣa-prayojakatvam",
+          "thinker": "prakasatman",
+          "locus_short": "PV p. 103",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vijnanabhiksu/vijnanamrta-bhasya/1.1.5",
+          "thinker": "vijnanabhiksu",
+          "locus_short": "VĀB 1.1.5",
+          "school": "Sāṃkhya-Yoga (synthetic)"
+        },
+        {
+          "cid": "candrakirti/madhyamakavatara/1.14",
+          "thinker": "candrakirti",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "dharmakirti/pramana-varttika/2.2",
+          "thinker": "dharmakirti",
+          "locus_short": "",
+          "school": "Yogācāra"
+        },
+        {
+          "cid": "madhva/brahma-sutra-bhasya/1.1.1.13",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/brahma-sutra-bhasya/1.1.1.15",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "nagarjuna/vigraha-vyavartani/25",
+          "thinker": "nagarjuna",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "prakasatman/pancapadika-vivarana/p. 103b",
+          "thinker": "prakasatman",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "ramanuja/shri-bhasya/1",
+          "thinker": "ramanuja",
+          "locus_short": "",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "ramanuja/shri-bhasya/6",
+          "thinker": "ramanuja",
+          "locus_short": "",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "ramanuja/shri-bhasya/7",
+          "thinker": "ramanuja",
+          "locus_short": "",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "ramanuja/shri-bhasya/10",
+          "thinker": "ramanuja",
+          "locus_short": "",
+          "school": "Viśiṣṭādvaita"
+        },
+        {
+          "cid": "ramanuja/vedartha-samgraha/§6",
+          "thinker": "ramanuja",
+          "locus_short": "",
+          "school": "Viśiṣṭādvaita"
+        }
+      ],
+      "difficulty": "S"
+    },
+    {
+      "file": "buddhi.json",
+      "term_iast": "buddhi",
+      "aliases": [
+        "Buddhi",
+        "buddheḥ",
+        "बुद्धि",
+        "buddhi",
+        "buddher",
+        "buddhyā",
+        "buddhau"
+      ],
+      "count": 257,
+      "current_schools": [
+        "Sāṃkhya / Yoga",
+        "Advaita",
+        "Viśiṣṭādvaita",
+        "Dvaita",
+        "Nyāya-Vaiśeṣika"
+      ],
+      "schools_with_citation_evidence": [
+        "Advaita",
+        "Mādhyamaka",
+        "Yogācāra",
+        "Tattva-vāda"
+      ],
+      "top_citations": [
+        {
+          "cid": "sarvajnatman/samksepa-sariraka/1.327",
+          "thinker": "sarvajnatman",
+          "locus_short": "SS I.327",
+          "school": "Advaita"
+        },
+        {
+          "cid": "candrakirti/madhyamakavatara/1.1",
+          "thinker": "candrakirti",
+          "locus_short": "",
+          "school": "Mādhyamaka"
+        },
+        {
+          "cid": "dharmakirti/pramana-varttika/2.5",
+          "thinker": "dharmakirti",
+          "locus_short": "",
+          "school": "Yogācāra"
+        },
+        {
+          "cid": "madhva/mayavada-khandana/15.20",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/mayavada-khandana/Upaniṣad 1.3.10",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/tattva-sankhyana/9",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "madhva/upadhi-khandana/5",
+          "thinker": "madhva",
+          "locus_short": "",
+          "school": "Tattva-vāda"
+        },
+        {
+          "cid": "sankara/vivekacudamani/26",
+          "thinker": "sankara",
+          "locus_short": "",
+          "school": "Advaita"
+        },
+        {
+          "cid": "vidyaranya/jivanmukti-viveka/citation on *viśrānti*",
+          "thinker": "vidyaranya",
+          "locus_short": "",
+          "school": "Advaita"
+        }
+      ],
+      "difficulty": "S"
+    }
+  ]
+}

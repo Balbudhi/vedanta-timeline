@@ -57,7 +57,7 @@ These four loci are dispersed, but the dispersion is doctrinal rather than accid
 - *santi*: laṭ / parasmaipada / active
 
 **Note:**
-The verse is programmatic. Madhva coordinates ontological categories and the *jīva* under one grammar of dependence, so that what later Dvaita calls the *svatantra-paratantra* asymmetry is stated as a matter of existence itself. Compare the same dependence-claim in *Brahma-Sūtra-Bhāṣya* 1.1.2, where cosmological origination is read as ontological dependence rather than mere temporal production.
+The verse is programmatic. Madhva coordinates ontological categories and the *jīva* under one grammar of dependence, so that what later Tattva-vāda (Dvaita) calls the *svatantra-paratantra* asymmetry is stated as a matter of existence itself. Compare the same dependence-claim in *Brahma-Sūtra-Bhāṣya* 1.1.2, where cosmological origination is read as ontological dependence rather than mere temporal production.
 
 ---
 

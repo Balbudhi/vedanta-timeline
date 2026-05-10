@@ -17,7 +17,7 @@
       "description": "Mādhva pīṭha-paramparā chronicles."
     }
   ],
-  "school": "Dvaita",
+  "school": "Tattva-vāda",
   "school_color_token": "dvaita",
   "sub_school": "Madhva-paramparā-direct-disciple",
   "sub_school_shade": 2,
@@ -39,8 +39,14 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored sub-commentary on Madhva's Gītā-Bhāṣya; preserved in the Mādhva manuscript canon.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."},
-        {"kind": "manuscript-colophon", "description": "Manuscript colophons across the Mādhva-paramparā preservation tradition."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        },
+        {
+          "kind": "manuscript-colophon",
+          "description": "Manuscript colophons across the Mādhva-paramparā preservation tradition."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
