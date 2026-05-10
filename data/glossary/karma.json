@@ -19,12 +19,12 @@
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Karma* belongs to the sphere of *avidyā*, since it presupposes *kartṛtva* and yields only anitya *kārya*; for that reason it cannot be a co-cause of *mokṣa* [[UpS I.11.15](cite://sankara/upadesa-sahasri/I.11.15), [UpS I.17.7-9](cite://sankara/upadesa-sahasri/I.17.7-9), [PV p. 164](cite://prakasatman/pancapadika-vivarana/brahma-vicāre kim-ānantaryam atha-śabdāvagamyam), [NS 1.98-99](cite://sureshvara/naishkarmya-siddhi/1.98-99)]. Its admissible role is preparatory rather than liberative: the Veda governs *adhikāra* and discipline, but liberation follows from the *mahāvākya*'s sentence-meaning, not from any *jñāna-karma-samuccaya* [[UpS I.17.7-9](cite://sankara/upadesa-sahasri/I.17.7-9), [PV p. 164](cite://prakasatman/pancapadika-vivarana/brahma-vicāre kim-ānantaryam atha-śabdāvagamyam), [NS 1.98-99](cite://sureshvara/naishkarmya-siddhi/1.98-99)]. Where *kartṛtā* is ascribed with respect to *sukṛta* and *duṣkṛta* karma, it belongs to the *ātma-citi-pratibimba* in *buddhi*, not to the ātman in its own *svarūpa* [[SS I.327](cite://sarvajnatman/samksepa-sariraka/1.327)].",
+      "definition": "*Karma* belongs to the sphere of *avidyā*, *kāma*, and *kartṛtva*; because its effect is produced and therefore *anitya*, *mokṣa* cannot be a *karma-kārya* and depends on *jñāna* alone [[UpS I.11.15](cite://sankara/upadesa-sahasri/I.11.15)] [[UpS I.17.7-9](cite://sankara/upadesa-sahasri/I.17.7-9)]. The school therefore rejects *jñāna-karma-samuccaya*: *mahāvākya*-born cognition removes beginningless *mithyājñāna* directly, so no co-functioning ritual means remains to be supplied [[NS 1.98-99](cite://sureshvara/naishkarmya-siddhi/1.98-99)] [[PV p. 164](cite://prakasatman/pancapadika-vivarana/brahma-vicāre kim-ānantaryam atha-śabdāvagamyam)]. Within *vyavahāra*, however, agenthood with respect to *sukṛta* and *duṣkṛta karma* attaches to the *buddhi*-situated *ātma-citi-pratibimba*, not to the *nirvikriya* self [[SS I.327](cite://sarvajnatman/samksepa-sariraka/1.327)].",
       "primary_loci": [
         "Upadeśa-Sāhasrī I.11.15",
         "Upadeśa-Sāhasrī I.17.7-9",
-        "Pañcapādikā-Vivaraṇa p. 164",
         "Naiṣkarmya-Siddhi 1.98-99",
+        "Pañcapādikā-Vivaraṇa p. 164",
         "Saṃkṣepa-Śārīraka I.327"
       ],
       "citations": [
@@ -37,12 +37,12 @@
           "locus_short": "UpS I.17.7-9"
         },
         {
-          "cite": "cite://prakasatman/pancapadika-vivarana/brahma-vicāre kim-ānantaryam atha-śabdāvagamyam",
-          "locus_short": "PV p. 164"
-        },
-        {
           "cite": "cite://sureshvara/naishkarmya-siddhi/1.98-99",
           "locus_short": "NS 1.98-99"
+        },
+        {
+          "cite": "cite://prakasatman/pancapadika-vivarana/brahma-vicāre kim-ānantaryam atha-śabdāvagamyam",
+          "locus_short": "PV p. 164"
         },
         {
           "cite": "cite://sarvajnatman/samksepa-sariraka/1.327",
@@ -52,31 +52,36 @@
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "Within Viśiṣṭādvaita, *kevala-karma* has only *alpa* and *asthira phala*, so the turn to *brahma-jijñāsā* begins from recognizing the insufficiency of ritual action taken by itself [[Śrī-Bh 3](cite://ramanuja/shri-bhasya/3)]. Yet karmic fruition is fully real: the soul stands before Mukunda at the hour of *vipāka*, and the school's soteriological turn is therefore not the denial of karma but *prapatti* under the Lord's saving governance [[YStr 22-24](cite://yamuna/stotra-ratna/22-24)].",
+      "definition": "For the aspirant who has discerned that *kevala-karma* yields only an *alpa-sthira-phala*, *brahma-jijñāsā* arises as the pursuit of the infinite and abiding end, so ritual action is not denied but resituated within a higher *puruṣārtha*-order [[ŚrīBh 3](cite://ramanuja/shri-bhasya/3)]. The moral weight of karma remains fully real, for the *jīva* stands before Mukunda at the moment of *vipāka* bearing the burden of its own *nindita-karma* and seeking refuge by *prapatti* [[YStr 22-24](cite://yamuna/stotra-ratna/22-24)]. Rāmānuja's grammatical insistence that *brahma-jijñāsā* takes Brahman as its *karman* marks liberating inquiry as ordered to the Lord rather than exhausted by ritual performance as such [[ŚrīBh 5](cite://ramanuja/shri-bhasya/5)] [[ŚrīBh 11](cite://ramanuja/shri-bhasya/11)].",
       "primary_loci": [
-        "Śrī-Bhāṣya, Commentary 3",
+        "Śrī-Bhāṣya 1.1.1 (comments 3, 5, 11)",
         "Stotra-Ratna 22-24"
       ],
       "citations": [
         {
           "cite": "cite://ramanuja/shri-bhasya/3",
-          "locus_short": "Śrī-Bh 3"
+          "locus_short": "ŚrīBh 3"
         },
         {
           "cite": "cite://yamuna/stotra-ratna/22-24",
           "locus_short": "YStr 22-24"
+        },
+        {
+          "cite": "cite://ramanuja/shri-bhasya/5",
+          "locus_short": "ŚrīBh 5"
+        },
+        {
+          "cite": "cite://ramanuja/shri-bhasya/11",
+          "locus_short": "ŚrīBh 11"
         }
       ]
     },
     {
       "school": "Tattva-vāda",
-      "definition": "In Tattva-vāda, *karma* is real but never *svatantra*: even *dravya*, *karma*, *kāla*, *svabhāva*, and *jīva* stand only by Viṣṇu's *anugraha* [[Anuvy. 1.1.13-15](cite://madhva/anuvyakhyana/1.1.13-15)]. Hence action is to be performed only when preceded by *bhagavad-bhakti*, *jñāna*, and *vairāgya*, and it reaches *siddhi* precisely as *sva-karma* transformed into Viṣṇu-arcana [[KN 257a](cite://madhva/karma-nirnaya/p. 257a), [KN 257c](cite://madhva/karma-nirnaya/p. 257c)]. Unoffered karma remains *abhadra*, whereas faithful adherence to the Lord's teaching releases one from binding karmas [[KN 257b](cite://madhva/karma-nirnaya/p. 257b), [KN 257e](cite://madhva/karma-nirnaya/p. 257e)].",
+      "definition": "*Karma* is a real constituent of the ordered world, yet its very being is *paratantra*: action, like substance, time, and the *jīva*, stands only through Hari's *anugraha* [[Anuvy. 1.1.13-15](cite://madhva/anuvyakhyana/1.1.13-15)]. It is therefore to be undertaken as *bhagavad-bhakti-jñāna-vairāgya-pūrvaka* and as *sva-karmaṇā tam abhyarcya*, not as an autonomous generator of fruit [[KN p. 257a](cite://madhva/karma-nirnaya/p. 257a)] [[KN p. 257c](cite://madhva/karma-nirnaya/p. 257c)]. Action devoid of dedication to Īśvara remains *abhadra*, whereas faithful conformity to Bhagavat-teaching becomes the very mode through which one is released from karmic bondage [[KN p. 257b](cite://madhva/karma-nirnaya/p. 257b)] [[KN p. 257e](cite://madhva/karma-nirnaya/p. 257e)].",
       "primary_loci": [
         "Anuvyākhyāna 1.1.13-15",
-        "Karma-Nirṇaya, OCR p. 257a",
-        "Karma-Nirṇaya, OCR p. 257b",
-        "Karma-Nirṇaya, OCR p. 257c",
-        "Karma-Nirṇaya, OCR p. 257e"
+        "Karma-Nirṇaya OCR pp. 257a-c, 257e"
       ],
       "citations": [
         {
@@ -85,19 +90,19 @@
         },
         {
           "cite": "cite://madhva/karma-nirnaya/p. 257a",
-          "locus_short": "KN 257a"
-        },
-        {
-          "cite": "cite://madhva/karma-nirnaya/p. 257b",
-          "locus_short": "KN 257b"
+          "locus_short": "KN p. 257a"
         },
         {
           "cite": "cite://madhva/karma-nirnaya/p. 257c",
-          "locus_short": "KN 257c"
+          "locus_short": "KN p. 257c"
+        },
+        {
+          "cite": "cite://madhva/karma-nirnaya/p. 257b",
+          "locus_short": "KN p. 257b"
         },
         {
           "cite": "cite://madhva/karma-nirnaya/p. 257e",
-          "locus_short": "KN 257e"
+          "locus_short": "KN p. 257e"
         }
       ]
     },
@@ -109,7 +114,7 @@
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "In Acintya-Bhedābheda, karma is a real bondage-knot (*karma-granthi*) in the dependent life of the *jīva*, but mantra-centered worship joined to *bhakti* is precisely the mode in which that knot is cut [[KD 8.96](cite://kesava-kasmiri/krama-dipika/8.96)]. Keśava Kāśmīrī states the sequence explicitly: *japa*, *huta*, and *yajana* are effective as *bhakti-namra* practice, and their consummation is Murāri's *nitya-śuddha pada* once all karma-bondage is severed [[KD 8.96](cite://kesava-kasmiri/krama-dipika/8.96)].",
+      "definition": "*Karma* appears here as the binding *granthi* of embodied consciousness, a knot severed not by bare ritualism but by mantra-bhajana suffused with *bhakti*, *japa*, *homa*, *yajana*, and *dhyāna* [[KD 8.96](cite://kesava-kasmiri/krama-dipika/8.96)]. Its overcoming is therefore articulated as entry into Murāri's *nitya-śuddha-pada*, where the practitioner stands awakened through Bhagavat-oriented practice rather than through self-standing action [[KD 8.96](cite://kesava-kasmiri/krama-dipika/8.96)].",
       "primary_loci": [
         "Kramadīpikā 8.96"
       ],
@@ -140,14 +145,18 @@
     },
     {
       "school": "Yoga",
-      "definition": "Yoga places karma within the chain *kleśa-karma-vipāka-āśaya*: action, its ripening, and its latent deposit are constitutive of saṃsāric entanglement, whereas Īśvara alone is untouched by them [[YV 1.24](cite://vijnanabhiksu/yoga-varttika/1.24)]. Accordingly karmic process is not an external ledger but an internal causal economy linking affliction, action, fruition, and residual seed until yogic discipline brings that economy to cessation [[YV 1.24](cite://vijnanabhiksu/yoga-varttika/1.24)].",
+      "definition": "In Yoga, karma belongs to the nexus *kleśa-karma-vipāka-āśaya*; bound existence is structured not only by acts but by their maturation and the latent deposits they leave in the stream of experience [[YV 1.24](cite://vijnanabhiksu/yoga-varttika/1.24)]. Īśvara is marked precisely as the *puruṣa-viśeṣa* untouched by this entire chain, so yogic discipline aims at disentanglement from karmic ripening rather than mere management of merit and demerit [[YV 1.24](cite://vijnanabhiksu/yoga-varttika/1.24)]. The turn to *īśvara-praṇidhāna* is accordingly construed as a special *samādhi-bhāvanā* leading beyond the ordinary karmic circuitry of the afflicted mind [[YV 1.23](cite://vijnanabhiksu/yoga-varttika/1.23)].",
       "primary_loci": [
-        "Yoga-Vārttika on Yoga-Sūtra 1.24"
+        "Yoga-Vārttika on Yoga-Sūtra 1.23-24"
       ],
       "citations": [
         {
           "cite": "cite://vijnanabhiksu/yoga-varttika/1.24",
           "locus_short": "YV 1.24"
+        },
+        {
+          "cite": "cite://vijnanabhiksu/yoga-varttika/1.23",
+          "locus_short": "YV 1.23"
         }
       ]
     },
@@ -165,7 +174,7 @@
     },
     {
       "school": "Mādhyamaka",
-      "definition": "For Mādhyamaka, karma is not an ultimately self-grounding moral substrate but a dependently arisen complex inseparable from *kleśa*, *vikalpa*, and *prapañca* [[MMK 18.5](cite://nagarjuna/mula-madhyamaka-karika/18.5)]. Its exhaustion belongs to the cessation of proliferative construction in *śūnyatā*, so karmic bondage is undone not by reifying a doer but by dismantling the conceptual fabric from which karma and affliction arise [[MMK 18.5](cite://nagarjuna/mula-madhyamaka-karika/18.5)].",
+      "definition": "*Karma* and *kleśa* are not self-grounding realities; they arise from *vikalpa* and the wider machinery of *prapañca* [[MMK 18.5](cite://nagarjuna/mula-madhyamaka-karika/18.5)]. *Mokṣa* is named as the exhaustion of karma and affliction, but that exhaustion occurs only where proliferative construction is brought to rest in *śūnyatā* [[MMK 18.5](cite://nagarjuna/mula-madhyamaka-karika/18.5)].",
       "primary_loci": [
         "Mūla-Madhyamaka-Kārikā 18.5"
       ],
@@ -178,28 +187,19 @@
     },
     {
       "school": "Yogācāra",
-      "definition": "In Yogācāra, karma persists as *vāsanā* within the *vijñāna-saṃtāna* rather than as the deed of a permanent self, and its fruit must arise where that perfuming is lodged [[Vvs 6-8](cite://vasubandhu/vimsatika/Karma, Vāsanā, and Scriptural Objection), [Triṃśikā 19](cite://vasubandhu/trimsika/19)]. The school accordingly explains shared worlds and rebirth through karmic *vipāka* and the continuing generation of further *vipāka* from prior perfumings together with the dualizing *grāhadvaya-vāsanā* [[Vvs 3](cite://vasubandhu/vimsatika/and Preta Replies), [Vvs 4](cite://vasubandhu/vimsatika/and Hell), [Vvs 6-8](cite://vasubandhu/vimsatika/Karma, Vāsanā, and Scriptural Objection), [Triṃśikā 19](cite://vasubandhu/trimsika/19)].",
+      "definition": "Karmic continuity is carried not by an enduring agent but by *vāsanā*-bearing transformation within consciousness itself; when one maturation is exhausted, karmic perfumings generate a further maturation together with the habitual duality of grasper and grasped [[Triṃ 19](cite://vasubandhu/trimsika/19)]. The school accordingly rejects the displacement of karmic seed and fruit into an external domain, arguing that the *karma-vāsanā* remains lodged in the *vijñāna-saṃtāna* and ripens there as a further transformation of consciousness [[Vvs 6-8](cite://vasubandhu/vimsatika/Karma, Vāsanā, and Scriptural Objection)].",
       "primary_loci": [
-        "Viṃśatikā 3-4",
-        "Viṃśatikā 6-8",
-        "Triṃśikā 19"
+        "Triṃśikā 19",
+        "Viṃśatikā 6-8"
       ],
       "citations": [
         {
-          "cite": "cite://vasubandhu/vimsatika/and Preta Replies",
-          "locus_short": "Vvs 3"
-        },
-        {
-          "cite": "cite://vasubandhu/vimsatika/and Hell",
-          "locus_short": "Vvs 4"
+          "cite": "cite://vasubandhu/trimsika/19",
+          "locus_short": "Triṃ 19"
         },
         {
           "cite": "cite://vasubandhu/vimsatika/Karma, Vāsanā, and Scriptural Objection",
           "locus_short": "Vvs 6-8"
-        },
-        {
-          "cite": "cite://vasubandhu/trimsika/19",
-          "locus_short": "Triṃśikā 19"
         }
       ]
     },

@@ -17,10 +17,11 @@
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "In Advaita, the `hṛdyantarjyotiḥ puruṣaḥ` of śruti is read at the level of `lakṣyārtha`: the word does not terminate in the empirical agent but in the self disclosed when the `tvam`-padārtha is stripped of `upādhi` and reduced to pure witness-consciousness [[SB 10](cite://madhusudana/siddhanta-bindu/10)]. The many jīvas are therefore only apparent delimitations of the one ātman; `ananyatva` alone is finally defensible, while plurality has merely pedagogical or `vyavahāra` standing [[MK 3.13](cite://gaudapada/mandukya-karika/3.13)][[MK 3.14](cite://gaudapada/mandukya-karika/3.14)].",
+      "definition": "In Advaita, the `hṛdyantarjyotiḥ puruṣaḥ` of śruti is finally read at the level of `lakṣyārtha`: the term does not terminate in the empirical agent but in the self disclosed when the `tvam`-padārtha is stripped of `upādhi` and reduced to pure witness-consciousness [[SB 10](cite://madhusudana/siddhanta-bindu/10)]. The many conscious subjects are therefore only apparent delimitations of the one ātman, since `jīvātmanor ananyatva` alone is ultimately defensible and plurality has only a secondary pedagogical standing [[MK 3.13](cite://gaudapada/mandukya-karika/3.13)] [[MK 3.14](cite://gaudapada/mandukya-karika/3.14)].",
       "primary_loci": [
         "Siddhānta-Bindu, Upodghāta 10",
-        "Māṇḍūkya-Kārikā 3.13-14"
+        "Māṇḍūkya-Kārikā 3.13",
+        "Māṇḍūkya-Kārikā 3.14"
       ],
       "citations": [
         {
@@ -39,10 +40,11 @@
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "Puruṣottama names Nārāyaṇa, the defect-free brahman endowed with innumerable `kalyāṇa-guṇa`s, who stands as `antaryāmin` and `sarvātman` with respect to the entire `cid-acid` complex [[ŚrīBh 6](cite://ramanuja/shri-bhasya/6)][[VS §6](cite://ramanuja/vedartha-samgraha/§6)]. The finite selves are real and irreducible, yet their fulfillment lies in `dhyāna`, `arcana`, and `praṇāma` directed to the feet of the `paramapuruṣa`; the world itself is intelligible as ordered under one principal person, `eka-pradhāna-puruṣa` [[VS §3](cite://ramanuja/vedartha-samgraha/§3)][[ĪS 18](cite://yamuna/isvara-siddhi/18)].",
+      "definition": "Puruṣottama names Nārāyaṇa, the defect-free brahman endowed with innumerable `kalyāṇa-guṇa`s, who stands as `antaryāmin` and `sarvātman` with respect to the entire `cid-acid` complex [[ŚrīBh 6](cite://ramanuja/shri-bhasya/6)] [[VS §6](cite://ramanuja/vedartha-samgraha/§6)]. The finite selves are real and irreducible, yet their fulfillment lies in `dhyāna`, `arcana`, and `praṇāma` directed to the feet of the `paramapuruṣa`, while the world as a whole is intelligible as ordered under one `eka-pradhāna-puruṣa` [[VS §3](cite://ramanuja/vedartha-samgraha/§3)] [[ĪS 18](cite://yamuna/isvara-siddhi/18)].",
       "primary_loci": [
         "Śrī-Bhāṣya, Commentary 6",
-        "Vedārtha-Saṅgraha §§3, 6",
+        "Vedārtha-Saṅgraha §3",
+        "Vedārtha-Saṅgraha §6",
         "Īśvara-Siddhi 18"
       ],
       "citations": [
@@ -66,11 +68,14 @@
     },
     {
       "school": "Tattva-vāda",
-      "definition": "The Gītā's distinction between `kṣara`, `akṣara`, and `uttamaḥ puruṣaḥ` is read as an ontological triad: perishable beings, imperishable selves, and beyond both the unique Paramātman, Viṣṇu, who alone is `puruṣottama` [[Gītā 15.16](cite://madhva/mayavada-khandana/15.16)][[Gītā 15.17](cite://madhva/mayavada-khandana/15.17)][[Gītā 15.18](cite://madhva/mayavada-khandana/15.18)]. Even where scripture speaks in a register of nearness or likeness, Madhva construes the finite conscious being as permanently dependent and never `svarūpataḥ` identical with the Lord [[Anuvy 2.3.66-69](cite://madhva/anuvyakhyana/2.3.66-69)][[Kaṭha 1.3.11](cite://madhva/mayavada-khandana/Upaniṣad 1.3.11)].",
+      "definition": "The Gītā's distinction between `kṣara`, `akṣara`, and `uttamaḥ puruṣaḥ` is read as an ontological triad: perishable beings, imperishable selves, and beyond both the unique Paramātman, Viṣṇu, who alone is `puruṣottama` [[Gītā 15.16](cite://madhva/mayavada-khandana/15.16)] [[Gītā 15.17](cite://madhva/mayavada-khandana/15.17)] [[Gītā 15.18](cite://madhva/mayavada-khandana/15.18)]. To know Kṛṣṇa as `puruṣottama` is therefore to render `bhajana` to the independent Lord and not to collapse either `kṣara` or `akṣara` into him, for beyond `puruṣa` there is no higher principle and the finite self never becomes `svarūpataḥ` identical with Īśvara [[Gītā 15.19](cite://madhva/mayavada-khandana/15.19)] [[Kaṭha 1.3.11](cite://madhva/mayavada-khandana/Upaniṣad 1.3.11)] [[Anuvy. 2.3.66-69](cite://madhva/anuvyakhyana/2.3.66-69)].",
       "primary_loci": [
-        "Bhagavad-Gītā 15.16-18",
-        "Anuvyākhyāna 2.3.66-69",
-        "Kaṭha Upaniṣad 1.3.11"
+        "Bhagavad-Gītā 15.16",
+        "Bhagavad-Gītā 15.17",
+        "Bhagavad-Gītā 15.18",
+        "Bhagavad-Gītā 15.19",
+        "Kaṭha Upaniṣad 1.3.11",
+        "Anuvyākhyāna 2.3.66-69"
       ],
       "citations": [
         {
@@ -86,12 +91,16 @@
           "locus_short": "Gītā 15.18"
         },
         {
-          "cite": "cite://madhva/anuvyakhyana/2.3.66-69",
-          "locus_short": "Anuvy 2.3.66-69"
+          "cite": "cite://madhva/mayavada-khandana/15.19",
+          "locus_short": "Gītā 15.19"
         },
         {
           "cite": "cite://madhva/mayavada-khandana/Upaniṣad 1.3.11",
           "locus_short": "Kaṭha 1.3.11"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/2.3.66-69",
+          "locus_short": "Anuvy. 2.3.66-69"
         }
       ]
     },
@@ -103,7 +112,7 @@
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "In the indexed Gauḍīya locus, `puruṣottama` names the supreme personal object of `ahaitukī` and `avyavahitā` bhakti, so that the term is received first as a devotional and theological designation of Bhagavān [[BRS 1.1.13](cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.13)]. The word therefore retains its full personal force within `bhajana`, designating the Lord toward whom uninterrupted devotion is directed [[BRS 1.1.13](cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.13)].",
+      "definition": "In the indexed Gauḍīya locus, `puruṣottama` names the supreme personal object of `ahaitukī` and `avyavahitā` bhakti, so that the term is received first as a theological designation of Bhagavān within `bhajana` [[BRS 1.1.13](cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.13)]. The word accordingly retains full personal force and marks the Lord toward whom uninterrupted devotion is directed [[BRS 1.1.13](cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.13)].",
       "primary_loci": [
         "Bhakti-Rasāmṛta-Sindhu 1.1.13"
       ],
@@ -153,11 +162,16 @@
     },
     {
       "school": "Yoga",
-      "definition": "Yoga treats `puruṣa` as the conscious principle disclosed through discriminative practice, and in the indexed corpus Īśvara is defined as a `puruṣa-viśeṣa` untouched by `kleśa`, `karma`, `vipāka`, and `āśaya` [[YV 1.24](cite://vijnanabhiksu/yoga-varttika/1.24)]. This use of the term keeps the puruṣa-framework intact while assigning a unique contemplative status to the Lord as the object of `īśvara-praṇidhāna` [[YV 1.24](cite://vijnanabhiksu/yoga-varttika/1.24)].",
+      "definition": "Yoga treats `puruṣa` as the conscious principle disclosed through discriminative practice, and in the indexed corpus Īśvara is defined as a `puruṣa-viśeṣa` untouched by `kleśa`, `karma`, `vipāka`, and `āśaya` [[YV 1.24](cite://vijnanabhiksu/yoga-varttika/1.24)]. `Īśvara-praṇidhāna` is then interpreted not as mere recitation but as a specific cultivation of samādhi, so that the puruṣa-framework is preserved while contemplative orientation to the Lord is given a distinctive soteriological role [[YV 1.23](cite://vijnanabhiksu/yoga-varttika/1.23)].",
       "primary_loci": [
+        "Yoga-Vārttika on Yoga-Sūtra 1.23",
         "Yoga-Vārttika on Yoga-Sūtra 1.24"
       ],
       "citations": [
+        {
+          "cite": "cite://vijnanabhiksu/yoga-varttika/1.23",
+          "locus_short": "YV 1.23"
+        },
         {
           "cite": "cite://vijnanabhiksu/yoga-varttika/1.24",
           "locus_short": "YV 1.24"
@@ -191,7 +205,7 @@
     },
     {
       "school": "Yogācāra",
-      "definition": "Yogācāra uses analysis of experience to open entry into `pudgala-nairātmya`: there is no single enduring seer or thinker standing behind the sixfold stream of consciousness [[Vvs 9](cite://vasubandhu/vimsatika/9 and Entry into *Pudgala-Nairātmya*)]. Accordingly, `puruṣa` appears only as represented content, like the men seen in dream or preta-experience, not as an irreducible ontological witness [[Vvs 3](cite://vasubandhu/vimsatika/and Preta Replies)].",
+      "definition": "Yogācāra uses analysis of experience to open entry into `pudgala-nairātmya`, since there is no single enduring seer or thinker standing behind the sixfold stream of consciousness [[Vvs 9](cite://vasubandhu/vimsatika/9 and Entry into *Pudgala-Nairātmya*)]. Accordingly, `puruṣa` appears only as represented content, like the men seen in dream or preta-experience, and not as an irreducible ontological witness [[Vvs 3](cite://vasubandhu/vimsatika/and Preta Replies)].",
       "primary_loci": [
         "Viṃśatikā 9 and entry into pudgala-nairātmya",
         "Viṃśatikā 3"

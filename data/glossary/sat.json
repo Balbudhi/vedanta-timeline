@@ -15,11 +15,12 @@
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "In Advaita, *sat* in the strict sense belongs only to unsublated *brahman*, the *turīya* that is *prapañcopaśama* and *advaita* [[MāṇḍU 7](cite://sankara/mandukya-bhasya/upaniṣad.7)]. What appears in *vyavahāra* cannot be sheer *asat*, but neither is it *sat* as Brahman is; hence *avidyā* and its projections are said to be neither *sat* nor *asat* but *anirvacanīya* [[BS 1.1](cite://mandana/brahma-siddhi/1.1.1--opening-prose-on-avidy)]. The culminant standpoint accordingly denies origination, bondage, striving, and release at the level of *paramārthatā*, because only non-dual reality is strictly what is [[GK 2.32](cite://sankara/mandukya-bhasya/2.32)].",
+      "definition": "In Advaita, *sat* in the strict sense belongs only to the self that is *prapañcopaśama*, *śānta*, and *advaita*; what is ultimately real is that fourth beyond all transactional predication [[MāṇḍU 7](cite://sankara/mandukya-bhasya/upaniṣad.7)] [[GK 2.32](cite://sankara/mandukya-bhasya/2.32)]. Avidyā and the world are therefore not granted unqualified *sattā*; Maṇḍana formulates avidyā as neither *satī* nor *asatī* and hence *anirvacanīyā* [[BS 1.1](cite://mandana/brahma-siddhi/1.1.1--opening-prose-on-avidy)]. Later Advaita accordingly treats Brahman itself as *satyajñānasukhātmaka*, so that *sat* functions as a *svarūpa-lakṣaṇa* of the non-dual absolute rather than as a predicate shared univocally by appearances [[Advaita-Siddhi 1](cite://madhusudana/advaita-siddhi/1)].",
       "primary_loci": [
-        "Māṇḍūkya-Upaniṣad 7",
-        "Gauḍapāda-Kārikā 2.32",
-        "Brahma-Siddhi 1.1"
+        "Māṇḍūkya-Upaniṣad-Bhāṣya 7",
+        "Gauḍapāda-Kārikā-Bhāṣya 2.32",
+        "Brahma-Siddhi 1.1 (opening prose on avidyā)",
+        "Advaita-Siddhi 1"
       ],
       "citations": [
         {
@@ -27,43 +28,49 @@
           "locus_short": "MāṇḍU 7"
         },
         {
+          "cite": "cite://sankara/mandukya-bhasya/2.32",
+          "locus_short": "GK 2.32"
+        },
+        {
           "cite": "cite://mandana/brahma-siddhi/1.1.1--opening-prose-on-avidy",
           "locus_short": "BS 1.1"
         },
         {
-          "cite": "cite://sankara/mandukya-bhasya/2.32",
-          "locus_short": "GK 2.32"
+          "cite": "cite://madhusudana/advaita-siddhi/1",
+          "locus_short": "Advaita-Siddhi 1"
         }
       ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "For Viśiṣṭādvaita, *sat* is among the Vedāntic designators of Nārāyaṇa, the *paratattva* who is inner controller and causal ground of the entire *cid-acid-prapañca* [[VS §6](cite://ramanuja/vedartha-samgraha/§6)]. Because the cosmos of selves and matter stands to him through *śarīra-śarīrin*-sambandha and *sāmānādhikaraṇya*, their dependence does not cancel their reality; it specifies the way the real is qualified [[VS §6](cite://ramanuja/vedartha-samgraha/§6)]. In Vedānta Deśika's scholastic gloss, *sat* can therefore be parsed normatively as what is *prāmāṇika* and *mumukṣor upādeya*, so ontology and salvific uptake remain internally linked [[SAS ad 1.2b](cite://vedanta-desika/sarvartha-siddhi/ad 1.2b)] [[SAS ad 1.2c](cite://vedanta-desika/sarvartha-siddhi/ad 1.2c)].",
+      "definition": "In Viśiṣṭādvaita, *sat* is one of the Vedāntic words whose principal referent is Bhagavān Nārāyaṇa, the *paratattva* who stands as the inner controller of all *cit* and *acit* [[Vedārtha-Saṅgraha §6](cite://ramanuja/vedartha-samgraha/§6)]. Because the universe is taught through *sāmānādhikaraṇya* with that *śarīrin*, dependent realities are not expelled from being but ordered as his body and mode [[Vedārtha-Saṅgraha §6](cite://ramanuja/vedartha-samgraha/§6)]. Vedānta Deśika can therefore gloss *sat* as what is *prāmāṇika* and *upādeya* for the *mumukṣu*, while *asat* is what fails that normative measure [[Sarvārtha-Siddhi ad 1.2b](cite://vedanta-desika/sarvartha-siddhi/ad 1.2b)] [[Sarvārtha-Siddhi ad 1.2c](cite://vedanta-desika/sarvartha-siddhi/ad 1.2c)].",
       "primary_loci": [
         "Vedārtha-Saṅgraha §6",
-        "Sarvārtha-Siddhi ad 1.2b-c"
+        "Sarvārtha-Siddhi ad 1.2b",
+        "Sarvārtha-Siddhi ad 1.2c"
       ],
       "citations": [
         {
           "cite": "cite://ramanuja/vedartha-samgraha/§6",
-          "locus_short": "VS §6"
+          "locus_short": "Vedārtha-Saṅgraha §6"
         },
         {
           "cite": "cite://vedanta-desika/sarvartha-siddhi/ad 1.2b",
-          "locus_short": "SAS ad 1.2b"
+          "locus_short": "Sarvārtha-Siddhi ad 1.2b"
         },
         {
           "cite": "cite://vedanta-desika/sarvartha-siddhi/ad 1.2c",
-          "locus_short": "SAS ad 1.2c"
+          "locus_short": "Sarvārtha-Siddhi ad 1.2c"
         }
       ]
     },
     {
       "school": "Tattva-vāda",
-      "definition": "In Tattva-vāda, the manifold of fivefold difference is itself *satya* and *anādi*; plurality is not an epistemic defect but the structure of the real under Viṣṇu's sovereignty [[Anuvy. 1.4.111-112](cite://madhva/anuvyakhyana/1.4.111-112)]. Accordingly the school refuses any fifth ontological category distinct from *bhāva* and *abhāva*, holding that neither scripture nor reason licenses an *anirvacanīya* middle [[Tattvodyota](cite://madhva/tattvodyota/Scripture Teaches a Category Beyond Being and Non-Being)].",
+      "definition": "In Tattva-vāda, *sat* is said without reservation of the *prapañca* articulated by *bhedapañcaka*; the fivefold difference is *satya* and beginningless [[Anuvy. 1.4.111-112](cite://madhva/anuvyakhyana/1.4.111-112)]. Texts of apparent non-difference are therefore read through *sādṛśya* and dependence, never as *svarūpābhidā*; even in liberation the *jīva* retains qualities similar to the Lord's while remaining distinct [[Anuvy. 2.3.66-69](cite://madhva/anuvyakhyana/2.3.66-69)]. Madhva's anti-māyāvāda polemic accordingly concludes that, once the rival account fails, *satyatā* belongs to difference itself [[Māyāvāda-Khaṇḍana p. 238](cite://madhva/mayavada-khandana/would instead be true)].",
       "primary_loci": [
         "Anuvyākhyāna 1.4.111-112",
-        "Tattvodyota, \"No Scripture Teaches a Category Beyond Being and Non-Being\""
+        "Anuvyākhyāna 2.3.66-69",
+        "Māyāvāda-Khaṇḍana, 'Difference would instead be true' (p. 238)"
       ],
       "citations": [
         {
@@ -71,74 +78,65 @@
           "locus_short": "Anuvy. 1.4.111-112"
         },
         {
-          "cite": "cite://madhva/tattvodyota/Scripture Teaches a Category Beyond Being and Non-Being",
-          "locus_short": "Tattvodyota"
+          "cite": "cite://madhva/anuvyakhyana/2.3.66-69",
+          "locus_short": "Anuvy. 2.3.66-69"
+        },
+        {
+          "cite": "cite://madhva/mayavada-khandana/would instead be true",
+          "locus_short": "Māyāvāda-Khaṇḍana p. 238"
         }
       ]
     },
     {
       "school": "Bhedābheda",
-      "definition": "In the proto-Bhedābheda represented by Bhartṛprapañca, Brahman's being is not exhausted by an undifferentiated absolute: the unmanifest becomes articulated as *nāma-rūpa*, and that manifestation is taken as real rather than merely pedagogical [[BṛU 1.4.7](cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.7)]. The same Brahman is taught as both *mūrta* and *amūrta*; the two registers are held together rather than hierarchized away, so *sat* covers differentiated and undifferentiated modes within a single ontological field [[BṛU 2.3.1, 2.3.6](cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.3)].",
-      "primary_loci": [
-        "Bṛhadāraṇyaka-Upaniṣad 1.4.7",
-        "Bṛhadāraṇyaka-Upaniṣad 2.3.1, 2.3.6"
-      ],
-      "citations": [
-        {
-          "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.7",
-          "locus_short": "BṛU 1.4.7"
-        },
-        {
-          "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.3",
-          "locus_short": "BṛU 2.3.1, 2.3.6"
-        }
-      ]
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "In Acintya-Bhedābheda, Bhagavān is the *parama-svarūpa* of all, while the plurality of *jīvas* stands to him through real difference and non-difference grounded in his *svābhāvika-acintya-śakti* [[PS §43](cite://jiva-gosvami/sat-sandarbha/§43)] [[PS §45](cite://jiva-gosvami/sat-sandarbha/§45)]. The school's use of *sat* is accordingly not a reduction to bare existence but a theologically saturated reality-claim: Bhagavān is the highest intrinsic reality, and dependent beings are real as ray-like manifestations rather than illusory overlays [[PS §45](cite://jiva-gosvami/sat-sandarbha/§45)] [[PS §43](cite://jiva-gosvami/sat-sandarbha/§43)].",
+      "definition": "In Jīva Gosvāmī's *Sat-Sandarbha*, the *abheda-śāstras* are admissible only once Bhagavān's distinction from the *jīva* has been secured and the latter has been understood as a conscious dependent ray upheld by his *svābhāvika-tad-acintya-śakti* [[Paramātma-Sandarbha §43](cite://jiva-gosvami/sat-sandarbha/§43)]. Bhagavān is then fixed as the *parama-svarūpa* of all, as the sun in relation to its rays, so that ontological ultimacy remains personal and devotional rather than collapsing into featureless being [[Paramātma-Sandarbha §45](cite://jiva-gosvami/sat-sandarbha/§45)]. Once that bheda is settled, *bhajana* alone has *abhidheya*-status [[Paramātma-Sandarbha §44](cite://jiva-gosvami/sat-sandarbha/§44)].",
       "primary_loci": [
-        "Paramātma-Sandarbha §§43, 45"
+        "Paramātma-Sandarbha §43",
+        "Paramātma-Sandarbha §44",
+        "Paramātma-Sandarbha §45"
       ],
       "citations": [
         {
           "cite": "cite://jiva-gosvami/sat-sandarbha/§43",
-          "locus_short": "PS §43"
+          "locus_short": "Paramātma-Sandarbha §43"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§44",
+          "locus_short": "Paramātma-Sandarbha §44"
         },
         {
           "cite": "cite://jiva-gosvami/sat-sandarbha/§45",
-          "locus_short": "PS §45"
+          "locus_short": "Paramātma-Sandarbha §45"
         }
       ]
     },
     {
       "school": "Dvaitādvaita",
-      "definition": "In Nimbārka's Dvaitādvaita, the *jīva* is *harer adhīna*, atomic, and genuinely distinct in each body, while Brahman is the faultless and infinitely auspicious Kṛṣṇa [[DaŚ 1](cite://nimbarka/dasa-shloki/1)] [[DaŚ 4](cite://nimbarka/dasa-shloki/4)]. The reality denoted by *sat* is thus neither sheer identity nor sheer separation: dependent selves and the supreme Brahman are both real, but their reality is ordered by dependence on the supreme [[DaŚ 1](cite://nimbarka/dasa-shloki/1)] [[DaŚ 4](cite://nimbarka/dasa-shloki/4)].",
-      "primary_loci": [
-        "Daśa-Ślokī 1",
-        "Daśa-Ślokī 4"
-      ],
-      "citations": [
-        {
-          "cite": "cite://nimbarka/dasa-shloki/1",
-          "locus_short": "DaŚ 1"
-        },
-        {
-          "cite": "cite://nimbarka/dasa-shloki/4",
-          "locus_short": "DaŚ 4"
-        }
-      ]
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     },
     {
       "school": "Śuddhādvaita",
-      "definition": "For Śuddhādvaita, Brahman pervades as *asti-bhāti-priya* in the form of *sat-cid-ānanda*, and the world of name and form is an effect-state whose reality rests in that very Brahman [[BSB 1.1.4](cite://vallabha/anu-bhasya/1.1.4)]. Because the cause is not displaced by its manifestation, *sat* is not reserved for a worldless absolute; it names Brahman precisely as the real ground that remains present through manifest plurality [[BSB 1.1.4](cite://vallabha/anu-bhasya/1.1.4)].",
+      "definition": "For Śuddhādvaita, Brahman is the *samavāyi-kāraṇa* of the world because it pervades the effect as *asti bhāti priyatvena sac-cid-ānanda-rūpeṇa*; *sat* is thus Brahman's own pervasive form within manifestation [[BSB 1.1.4](cite://vallabha/anu-bhasya/1.1.4)]. Names and forms are only *kārya-dharmas*, so the world is not downgraded to illusory appearance but retained as real expression of that same Brahman [[BSB 1.1.4](cite://vallabha/anu-bhasya/1.1.4)]. This is why Vallabha can hold *avikṛta-pariṇāma*: Brahman truly becomes the effect while remaining unmodified in itself [[BSB 1.4.26](cite://vallabha/anu-bhasya/1.4.26)].",
       "primary_loci": [
-        "Aṇu-Bhāṣya 1.1.4"
+        "Aṇu-Bhāṣya 1.1.4",
+        "Aṇu-Bhāṣya 1.4.26"
       ],
       "citations": [
         {
           "cite": "cite://vallabha/anu-bhasya/1.1.4",
           "locus_short": "BSB 1.1.4"
+        },
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.4.26",
+          "locus_short": "BSB 1.4.26"
         }
       ]
     },
@@ -168,11 +166,10 @@
     },
     {
       "school": "Mādhyamaka",
-      "definition": "For Mādhyamaka, discourse proceeds by the two truths: *lokasaṃvṛti-satya* and *paramārtha-satya* [[MMK 24.8](cite://nagarjuna/mula-madhyamaka-karika/24.8)]. What is ultimate is not a positively self-standing *sat* behind appearances, but the emptiness of whatever arises dependently; hence *paramārtha* is taught only through convention and resolved as *pratītyasamutpāda*-understood-as-*śūnyatā* [[MMK 24.10](cite://nagarjuna/mula-madhyamaka-karika/24.10)] [[MMK 24.18](cite://nagarjuna/mula-madhyamaka-karika/24.18)].",
+      "definition": "Mādhyamaka handles *sat* through the discipline of the two truths: *lokasaṃvṛtisatya* and *paramārthasatya* are both indispensable to dharmadeśanā, but they are not two layers of self-standing being [[MMK 24.8](cite://nagarjuna/mula-madhyamaka-karika/24.8)]. To miss their *vibhāga* is precisely to miss *tattva* in the Buddha's teaching [[MMK 24.9](cite://nagarjuna/mula-madhyamaka-karika/24.9)].",
       "primary_loci": [
         "Mūla-Madhyamaka-Kārikā 24.8",
-        "Mūla-Madhyamaka-Kārikā 24.10",
-        "Mūla-Madhyamaka-Kārikā 24.18"
+        "Mūla-Madhyamaka-Kārikā 24.9"
       ],
       "citations": [
         {
@@ -180,25 +177,26 @@
           "locus_short": "MMK 24.8"
         },
         {
-          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.10",
-          "locus_short": "MMK 24.10"
-        },
-        {
-          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.18",
-          "locus_short": "MMK 24.18"
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.9",
+          "locus_short": "MMK 24.9"
         }
       ]
     },
     {
       "school": "Yogācāra",
-      "definition": "In the Yogācāra-epistemological register represented by Dharmakīrti, *sat* is explicitly split into *paramārthasat* and *saṃvṛtisat* [[PV 2.3](cite://dharmakirti/pramana-varttika/2.3)]. What is *paramārthasat* is whatever is *arthakriyāsamartha*; the conventionally real is the conceptual or generality-structured 'other,' so reality is sorted by efficacy rather than by naive objecthood [[PV 2.3](cite://dharmakirti/pramana-varttika/2.3)].",
+      "definition": "For this line, what is *paramārthasat* is whatever is *arthakriyā-samartha*; ultimate reality is marked by causal efficacy [[Pramāṇavārttika 2.3](cite://dharmakirti/pramana-varttika/2.3)]. What lacks that status is *saṃvṛtisat*, the level of conceptual and general construction, so the distinction between the real and the merely conventional is drawn within cognition's own economy [[Pramāṇavārttika 2.2](cite://dharmakirti/pramana-varttika/2.2)] [[Pramāṇavārttika 2.3](cite://dharmakirti/pramana-varttika/2.3)].",
       "primary_loci": [
+        "Pramāṇavārttika 2.2",
         "Pramāṇavārttika 2.3"
       ],
       "citations": [
         {
+          "cite": "cite://dharmakirti/pramana-varttika/2.2",
+          "locus_short": "Pramāṇavārttika 2.2"
+        },
+        {
           "cite": "cite://dharmakirti/pramana-varttika/2.3",
-          "locus_short": "PV 2.3"
+          "locus_short": "Pramāṇavārttika 2.3"
         }
       ]
     },

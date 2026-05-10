@@ -3,32 +3,191 @@
   "term_iast": "aṇu",
   "term_devanagari": "अणु",
   "literal": "minute, atomic, exceedingly small",
-  "aliases": ["anu", "aṇu", "Aṇu", "aṇuḥ", "aṇu-jīva", "aṇu-parimāṇa"],
+  "aliases": [
+    "anu",
+    "aṇu",
+    "Aṇu",
+    "aṇuḥ",
+    "aṇu-jīva",
+    "aṇu-parimāṇa"
+  ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus",
+  "last_verified_by": "glossary-wave1-codex54",
   "invariant_definition": "Minute or atomic: a category of size and ontological minimality rather than a reference to modern physical atoms. In Vedānta the term often concerns the *jīva*, not gross matter. Viśiṣṭādvaita and Tattva-vāda (Dvaita) insist that the individual self is *aṇu* so that embodiment, karmic individuation, and plurality are real. The reach of cognition is then explained not by the self's size but by a further apparatus: *dharmabhūta-jñāna* in Viśiṣṭādvaita, or divinely ordered cognition in Tattva-vāda. In Nyāya-Vaiśeṣika and related atomisms, by contrast, *aṇu* and *paramāṇu* name the smallest material constituents and the atomic *manas* that mediates episodic awareness. The same word thus spans debates about conscious-substance size and about physical constitution. It is best read together with *vibhu*, *parimāṇa*, *paramāṇu*, and the dispute over whether a self can be all-pervading while still having body-specific experience.",
   "per_school": [
     {
+      "school": "Advaita",
+      "definition": "For Advaita, *aṇutva* cannot belong to the *ātman* in its own nature, since Gauḍapāda presents the self as ākāśavat and denies that the *jīva* is either a real part or a real modification of it [[MK 3.3-7](cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.3-7)]. The apparently differentiated *jīva* belongs to *māyā* and *upacāra*; the unborn reality does not truly become many, so minute measure has no *pāramārthika* purchase here [[MK 3.19-21](cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.19-21); [MK 1.16-18](cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18)].",
+      "primary_loci": [
+        "Māṇḍūkya-Kārikā 3.3-7",
+        "Māṇḍūkya-Kārikā 3.19-21",
+        "Māṇḍūkya-Kārikā 1.16-18"
+      ],
+      "citations": [
+        {
+          "cite": "cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.3-7",
+          "locus_short": "MK 3.3-7"
+        },
+        {
+          "cite": "cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.19-21",
+          "locus_short": "MK 3.19-21"
+        },
+        {
+          "cite": "cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18",
+          "locus_short": "MK 1.16-18"
+        }
+      ]
+    },
+    {
       "school": "Viśiṣṭādvaita",
-      "definition": "The *jīva* is atomic in size. Its knowledge is not atomic, because *dharmabhūta-jñāna* extends beyond the self and contracts or expands according to karmic condition. This lets the school preserve the self's individuality and body-specific bondage while still accounting for wide cognitive reach. Scriptural passages on minuteness are therefore taken literally of the self, not merely of an adjunct.",
-      "primary_loci": ["Śrī-Bhāṣya 2.3.18-32", "Śrī-Bhāṣya 2.3.42-53", "Vedārtha-Saṅgraha 82-88"]
+      "definition": "In the canonized Yāmuna locus, the *ātman* is not described as *aṇu* but as *nitya*, *vyāpī*, and *pratikṣetra-bhinna*; individuation is thus secured without reducing the self to minute measure [[ĀS 3](cite://yamuna/atma-siddhi/3)]. The indexed Rāmānuja passages accordingly place the weight on the self's distinction from body and on its ordered relation to the *antaryāmin*, not on intrinsic atomicity as the school's load-bearing account of *ātma-svarūpa* [[ĀS 3](cite://yamuna/atma-siddhi/3); [VedS §4](cite://ramanuja/vedartha-samgraha/§4); [VedS §6](cite://ramanuja/vedartha-samgraha/§6)].",
+      "primary_loci": [
+        "Ātma-Siddhi 3",
+        "Vedārtha-Saṅgraha §§4-6"
+      ],
+      "citations": [
+        {
+          "cite": "cite://yamuna/atma-siddhi/3",
+          "locus_short": "ĀS 3"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§4",
+          "locus_short": "VedS §4"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§6",
+          "locus_short": "VedS §6"
+        }
+      ]
     },
     {
       "school": "Tattva-vāda",
-      "definition": "The *jīva* is atomic and eternally distinct from other selves and from Viṣṇu. Madhva uses the doctrine against Advaita's all-pervading self, arguing that real bondage, real plurality, and real dependence require genuinely distinct individual selves. Atomicity thus belongs to Tattva-vāda's broader realism, not to a merely physical model of the person.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 2.3.18-32 [NOT YET RETRIEVED]", "Anu-Vyākhyāna 2.3 [NOT YET RETRIEVED]", "Tattva-Saṅkhyāna 4-8"]
+      "definition": "The indexed Tattva-vāda loci make the decisive point through *bheda*: the *jīva* is irreducibly distinct from Īśvara and from other selves, and that plurality is real and beginningless within the *bhedapañcaka* [[Anuvy. 1.4.111-112](cite://madhva/anuvyakhyana/1.4.111-112)]. Scriptural *abheda*-language is therefore taken as resting on *sādṛśya*, *prādhānya*, or dependent designation, never on *svarūpābhidā*; the self cannot be a vibhu Brahman under this hermeneutic [[Anuvy. 2.3.66-69](cite://madhva/anuvyakhyana/2.3.66-69)].",
+      "primary_loci": [
+        "Anuvyākhyāna 1.4.111-112",
+        "Anuvyākhyāna 2.3.66-69"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/anuvyakhyana/1.4.111-112",
+          "locus_short": "Anuvy. 1.4.111-112"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/2.3.66-69",
+          "locus_short": "Anuvy. 2.3.66-69"
+        }
+      ]
     },
     {
-      "school": "Advaita",
-      "definition": "Passages describing the self as minute are interpreted as referring to the subtle body, intellect, or empirically delimited knower, not to the self in its own nature. The true self is not atomic but all-pervading, indeed not reducible to spatial measure at all. The *aṇu* description belongs to the transactional level in which consciousness appears tied to a body by adjuncts.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.3.18-32", "Chāndogya-Upaniṣad-Bhāṣya 8.1.1 [NOT YET RETRIEVED]"]
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     },
     {
-      "school": "Vaiśeṣika",
-      "definition": "In atomistic ontology, *aṇu* and *paramāṇu* name the partless, eternal minima from which perceptible composites arise. The theory applies to the material elements and is paired with an atomic *manas* that connects the self to one cognition at a time. This is a different use from the Vedāntic doctrine of an atomic self, though later Vedāntins regularly argue in awareness of it.",
-      "primary_loci": ["Vaiśeṣika-Sūtra 7.1 [NOT YET RETRIEVED]", "Praśastapāda-Bhāṣya, dravya-pariccheda [NOT YET RETRIEVED]"]
+      "school": "Acintya-Bhedābheda",
+      "definition": "Jīva Gosvāmī explains the *jīva*-aggregate as standing to Bhagavān by his *svābhāvika* and *acintya-śakti* in the manner of the quality of his atomic rays, so that *abheda* must be read only together with real distinction [[SatS §43](cite://jiva-gosvami/sat-sandarbha/§43)]. The minute status of the selves is thus subordinated to the *śakti-śaktimat* relation: they are conscious and dependent, neither sheer *svarūpaikya* nor sheer external otherness [[SatS §42](cite://jiva-gosvami/sat-sandarbha/§42); [SatS §43](cite://jiva-gosvami/sat-sandarbha/§43)].",
+      "primary_loci": [
+        "Sat-Sandarbha §§42-43"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§42",
+          "locus_short": "SatS §42"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§43",
+          "locus_short": "SatS §43"
+        }
+      ]
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "Nimbārka states the matter directly: the *jīva* is *aṇu*, *pratideha-bhinna*, possessed of *jñātṛtva*, and yet *hareḥ adhīna* [[DaŚ 1](cite://nimbarka/dasa-shloki/1)]. The school's *aṃśa*-reading keeps this minuteness within *svābhāvika-bhedābheda*: the self is really distinct, yet non-different as Brahman's dependent part and eternal emanational mode [[BS 2.3.42](cite://nimbarka/vedanta-parijata-saurabha/2.3.42); [BS 2.3.43](cite://nimbarka/vedanta-parijata-saurabha/2.3.43); [Gītā 15.7a](cite://nimbarka/vedanta-parijata-saurabha/15.7a)].",
+      "primary_loci": [
+        "Daśa-Ślokī 1",
+        "Vedānta-Pārijāta-Saurabha on Brahma-Sūtra 2.3.42-44",
+        "Vedānta-Pārijāta-Saurabha on Bhagavad-Gītā 15.7"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nimbarka/dasa-shloki/1",
+          "locus_short": "DaŚ 1"
+        },
+        {
+          "cite": "cite://nimbarka/vedanta-parijata-saurabha/2.3.42",
+          "locus_short": "BS 2.3.42"
+        },
+        {
+          "cite": "cite://nimbarka/vedanta-parijata-saurabha/2.3.43",
+          "locus_short": "BS 2.3.43"
+        },
+        {
+          "cite": "cite://nimbarka/vedanta-parijata-saurabha/15.7a",
+          "locus_short": "Gītā 15.7a"
+        }
+      ]
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yoga",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Jainism",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     }
   ],
-  "see_also": ["jiva", "vibhu", "atman", "paramanu"],
+  "see_also": [
+    "jiva",
+    "vibhu",
+    "atman",
+    "paramanu"
+  ],
   "translator_note": "The lazy gloss is 'atom.' Without qualification that invites modern physics and makes readers imagine a tiny material pellet. In classical usage *aṇu* is a size-category and often a metaphysical thesis about the self. Even where it does refer to material atoms, the issues are partlessness, combination, and causal constitution, not modern atomic theory."
 }
