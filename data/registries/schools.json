@@ -142,5 +142,23 @@
     "color_hex": "#3f3f46",
     "color_palette": ["#f4f4f5", "#d4d4d8", "#71717a", "#3f3f46", "#18181b"],
     "short_description": "The Dignāga–Dharmakīrti epistemological school: the pramāṇa-dvaya thesis (only pratyakṣa and anumāna), apoha-vāda for concept-formation, the svalakṣaṇa / sāmānya-lakṣaṇa distinction, and trairūpya for the inferential mark; the principal Buddhist dialogue partner of Naiyāyikas Uddyotakara, Vāchaspati, Udayana, and Gaṅgeśa."
+  },
+  "sarvastivada-comparator": {
+    "display_name": "Sarvāstivāda / Sautrāntika (comparator)",
+    "color_hex": "#92400e",
+    "color_palette": ["#fef3c7", "#fcd34d", "#d97706", "#92400e", "#451a03"],
+    "short_description": "The Abhidharmic schools whose foundational thesis sarvam asti (past, present, and future dharmas exist as such, in their respective temporal modes) is the principal target of the Vedāntic refutation at Brahma-Sūtra 2.2.18–20; the Sautrāntika critique (Vasubandhu's auto-commentary) and Saṅghabhadra's orthodox Vaibhāṣika defence (Nyāyānusāra) constitute the internal Buddhist debate the Vedāntic critique inherits."
+  },
+  "theravada-comparator": {
+    "display_name": "Theravāda (comparator)",
+    "color_hex": "#b45309",
+    "color_palette": ["#fef3c7", "#fde68a", "#f59e0b", "#b45309", "#451a03"],
+    "short_description": "The Pāli Theravāda tradition systematised by Buddhaghosa (Visuddhimagga, Aṭṭhasālinī, Sumaṅgala-Vilāsinī): anattā as the eliminative refutation of substance-self, the paramattha-sacca / sammuti-sacca distinction, and the twelve-link paṭicca-samuppāda chain; minimally engaged by Vedāntic authors directly but indispensable as the southern-Buddhist comparator for understanding what is and is not at stake in Mādhyamaka and Yogācāra readings of dependent origination."
+  },
+  "tathagatagarbha-comparator": {
+    "display_name": "Tathāgatagarbha / Buddha-nature (comparator)",
+    "color_hex": "#0e7490",
+    "color_palette": ["#cffafe", "#67e8f9", "#06b6d4", "#0e7490", "#083344"],
+    "short_description": "The Buddha-nature literature (Ratna-Gotra-Vibhāga / Uttara-Tantra-Śāstra and the Maitreya-attributed corpus; the Laṅkāvatāra-Sūtra) articulating tathāgatagarbha as universally present, prakṛti-prabhāsvara-citta (naturally luminous mind), and the eka-yāna doctrine; not a substantialist self but a non-substantialist account of the cognitive ground of awakening, decisive for understanding Pratyabhijñā / Trika's inheritance into Kashmir Śaivism and Vedānta-Deśika's Śatadūṣaṇī engagement."
   }
 }

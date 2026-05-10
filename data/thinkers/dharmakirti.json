@@ -1,0 +1,129 @@
+{
+  "id": "dharmakirti",
+  "name": "Dharmakirti",
+  "name_iast": "Dharmakīrti",
+  "alternate_names": ["Chos-kyi-grags-pa"],
+  "dates_low": 600,
+  "dates_high": 660,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Dharmakīrti is conventionally placed c. 600–660 CE on the basis of his explicit critical engagement with Uddyotakara's Nyāya-Vārttika (which had answered Dignāga) and the absence of references to him in Candrakīrti and Bhartṛhari. Frauwallner (Dharmakīrti's Pramāṇa-Vārttika, 1954–55) argues for a c. 600–660 window; Krasser (Wann lebte Dharmakīrti?, 2012) has more recently proposed a slightly earlier date but the conventional window is still standard.",
+  "school": "Cross-tradition",
+  "school_color_token": "buddhist-pramana-comparator",
+  "sub_school": "Pramāṇa-vāda-mature",
+  "sub_school_shade": 4,
+  "lineage_in": ["dignaga"],
+  "lineage_out": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "uddyotakara",
+      "direction": "refutes",
+      "note": "Dharmakīrti's Pramāṇa-Vārttika is the Buddhist counter-reply to Uddyotakara's Nyāya-Vārttika: the Naiyāyika defence of the four pramāṇas, of jāti-realism, and of the Naiyāyika analysis of the inferential mark is engaged point-by-point and answered from the developed Buddhist-pramāṇa standpoint."
+    },
+    {
+      "thinker_id": "vacaspati",
+      "direction": "is-refuted-by",
+      "note": "Vāchaspati's Nyāya-Vārttika-Tātparya-Ṭīkā responds to Dharmakīrti's developments of Dignāga: the Naiyāyika position is restated against the kṣaṇika-vāda apparatus and the apoha-refinements that the Pramāṇa-Vārttika develops."
+    },
+    {
+      "thinker_id": "udayana",
+      "direction": "is-refuted-by",
+      "note": "Udayana's Ātma-Tattva-Viveka is the principal Naiyāyika reply to the Buddhist pramāṇa-vāda in its mature Dharmakīrti-form: the Buddhist no-self position, the kṣaṇika-vāda, and the apoha-vāda are each refuted by sustained Naiyāyika argument deploying the realist sāmānya-jāti-samavāya apparatus the Buddhist position rejects."
+    },
+    {
+      "thinker_id": "gangesa",
+      "direction": "is-refuted-by",
+      "note": "Gaṅgeśa's entire Tattva-Cintāmaṇi pramāṇa-vāda apparatus is built in dialogue with Dharmakīrti: the Navya-Nyāya formal vyāpti, the analysis of avacchedaka, the treatment of paryāpti — each is developed as the Naiyāyika tool for answering the technical Buddhist epistemology of the Pramāṇa-Vārttika and Pramāṇa-Viniścaya."
+    }
+  ],
+  "core_thesis": "Dharmakīrti develops the Buddhist epistemological school to its mature philosophical form. The *Pramāṇa-Vārttika* (four chapters: *svārthānumāna*, *pramāṇa-siddhi*, *pratyakṣa*, *parārthānumāna*) supplies the encyclopedic restatement of Dignāga corrected and extended in light of Uddyotakara's reply. Distinctive contributions are technical and concentrated. First, the analysis of *svabhāva-pratibandha* (essential connection): the *vyāpti* between *hetu* and *sādhya* must be grounded in either *tādātmya* (essential identity, as in the connection between being-a-tree and being-a-Śiṃśapā) or *tadutpatti* (causal generation, as in the connection between fire and smoke); only these two relations license the necessary concomitance that valid inference requires. Second, the radical *kṣaṇika-vāda* defence: every existent is *kṣaṇika* (momentary), since efficacy (*artha-kriyā*) is the criterion of existence and only the momentary entity has the determinate efficacy that distinguishes the real from the merely conceptually-constructed. Third, the *apoha*-refinements: Dignāga's bare *anyāpoha* is supplemented with a more sophisticated account of the *vāsanā*-rooted exclusion-function, distinguishing direct from indirect apoha and answering the Naiyāyika circularity-objection. The *Pramāṇa-Viniścaya* compresses the doctrine for instructional use; the *Nyāya-Bindu* compresses it further for memorisation; the *Hetu-Bindu*, *Sambandha-Parīkṣā*, and *Vāda-Nyāya* treat specific topics. The corpus is the principal Buddhist epistemological resource in the Indian tradition and the immediate target of every later Naiyāyika response from Vāchaspati onward.",
+  "engaged_works": [
+    {
+      "work_id": "pramana-varttika",
+      "title": "Pramana-Varttika",
+      "title_iast": "Pramāṇa-Vārttika",
+      "alternate_titles": ["PV"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored. Survives in Sanskrit with auto-commentary on the svārthānumāna chapter and with the commentaries of Devendrabuddhi, Manorathanandin, Prajñākaragupta, and others.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Frauwallner 1954–55; Sāṅkṛtyāyana 1938 critical edition."}
+      ],
+      "genre": "varttika",
+      "language": "sanskrit",
+      "summary": "The principal Buddhist epistemological treatise in four chapters. Chapter 1 (*svārthānumāna*) treats inference-for-oneself with auto-commentary, developing *svabhāva-pratibandha* (essential connection grounding inferential necessity, via *tādātmya* and *tadutpatti*), the analysis of the *trairūpya*, and the *apoha*-account of concept-formation. Chapter 2 (*pramāṇa-siddhi*) is the longest and the most philosophically dense: it establishes the Buddha as *pramāṇa-bhūta* through a sustained argument from the *catuḥ-ārya-satya* and supplies the most extended Buddhist defence of the soteriological framework — the *kṣaṇika-vāda* defence is concentrated here, as is the no-self defence and the rebirth-argument. Chapter 3 (*pratyakṣa*) treats perception, developing Dignāga's *kalpanā-apoḍha* analysis with the *abhrānta* qualifier added against Naiyāyika objections, and supplying the *svalakṣaṇa* analysis with the criterion of *artha-kriyā* (causal efficacy) as the mark of the real. Chapter 4 (*parārthānumāna*) treats inference-for-others with the *trairūpya* developed at length and the analysis of fallacious inference (*hetv-ābhāsa*) refined against the Naiyāyika objections. The text is the principal Buddhist polemical resource against Naiyāyika realism and the immediate target of every later Indian epistemological treatise.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "pramana-vinishchaya",
+      "title": "Pramana-Vinishchaya",
+      "title_iast": "Pramāṇa-Viniścaya",
+      "alternate_titles": ["PVin"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored. Sanskrit original largely lost; survives complete in Tibetan; partial Sanskrit recovered in recent decades (Steinkellner critical editions).",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Steinkellner critical editions of chapters 1–3."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Dharmakīrti's compressed restatement of his epistemology in three chapters (*pratyakṣa*, *svārthānumāna*, *parārthānumāna*) — the same topics as the *Pramāṇa-Vārttika* with the soteriological *pramāṇa-siddhi* chapter omitted. The compression is for instructional use: the *PVin* gives the technical apparatus of perception, inference-for-oneself, and inference-for-others without the longer doctrinal arguments of the *PV*. The text becomes the standard Buddhist *pramāṇa* manual in the later Indian and Tibetan transmission, and is the immediate base for several of the principal later commentaries.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "nyaya-bindu",
+      "title": "Nyaya-Bindu",
+      "title_iast": "Nyāya-Bindu",
+      "alternate_titles": ["Nb"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored. The Sanskrit text survives complete with Dharmottara's Tīkā.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Dharmakīrti's most compressed statement of the epistemological apparatus, in three chapters (*pratyakṣa*, *svārthānumāna*, *parārthānumāna*) of summary aphorisms. The text is designed for instruction — it supplies the *trairūpya*, the analysis of the three kinds of *hetu* (*svabhāva*, *kārya*, *anupalabdhi*), the analysis of *pratyakṣa* as *kalpanā-apoḍha-abhrānta*, and the catalogue of perceptual and inferential fallacies in their barest form. With Dharmottara's *Nyāya-Bindu-Ṭīkā*, the text is the standard Buddhist *pramāṇa* introductory manual in the later Indian and Tibetan transmissions.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "hetu-bindu",
+      "title": "Hetu-Bindu",
+      "title_iast": "Hetu-Bindu",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored short treatise; survives in Sanskrit (Steinkellner 1967 critical edition).",
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "A short focused treatise on the *hetu* (inferential mark): its three kinds — *svabhāva-hetu* (where the mark and the *sādhya* are essentially identical, as in the inference of treeness from being-a-Śiṃśapā), *kārya-hetu* (where the mark is the effect of the *sādhya*, as in fire from smoke), and *anupalabdhi-hetu* (where non-perception licenses inference of non-existence) — and the formal apparatus distinguishing valid from defective inferential marks. The text supplies the technical resource for the inferential apparatus that the *Pramāṇa-Vārttika svārthānumāna* chapter develops at greater length.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "sambandha-pariksha",
+      "title": "Sambandha-Pariksha",
+      "title_iast": "Sambandha-Parīkṣā",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored short treatise with auto-commentary.",
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "A short treatise on relation: the Naiyāyika and Vaiśeṣika doctrine of *samavāya* (inherence) and the various other relational categories (*saṃyoga*, *svarūpa-sambandha*) are refuted on the grounds that no separate relational entity is required, since the apparent relation between two terms is grounded in the *svalakṣaṇa*-natures of the relata themselves. The text is the principal Buddhist resource for the polemical refutation of Vaiśeṣika *padārtha*-realism on relations.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "vada-nyaya",
+      "title": "Vada-Nyaya",
+      "title_iast": "Vāda-Nyāya",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored treatise on the rules of debate.",
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "A treatise on the rules of philosophical debate (*vāda*), supplying the Buddhist analysis of the *nigraha-sthāna*s (defeat-positions) and a sustained refutation of the corresponding Naiyāyika apparatus from *Nyāya-Sūtra* book 5. The text is the principal Buddhist resource for the polemical analysis of debate-defeat conditions and for the response to the Naiyāyika *jalpa* / *vitaṇḍā* / *jāti* / *nigraha-sthāna* apparatus.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Dharmakīrti is the principal Buddhist epistemological interlocutor of the mature Indian Vedāntic tradition. The Old-Nyāya engagement runs Vāchaspati → Udayana, with Udayana's *Ātma-Tattva-Viveka* the principal Naiyāyika reply. The Navya-Nyāya engagement runs through Gaṅgeśa, whose *Tattva-Cintāmaṇi* is structurally a Naiyāyika reply to Dharmakīrti's developed apparatus — *vyāpti*, *avacchedaka*, *paryāpti* are the formal tools developed for that purpose. Vedāntic technical borrowing of Dharmakīrtian apparatus without endorsement of the Buddhist soteriology is visible in Madhusūdana's *Advaita-Siddhi* and in the Mādhva *pramāṇa-paddhati*.",
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-buddhist-comparators-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-buddhist-comparators-opus"
+}

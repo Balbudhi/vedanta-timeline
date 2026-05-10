@@ -53,6 +53,9 @@ const LANE_ORDER = [
   "madhyamaka-comparator",
   "yogacara-comparator",
   "buddhist-pramana-comparator",
+  "sarvastivada-comparator",
+  "theravada-comparator",
+  "tathagatagarbha-comparator",
   "trika-comparator",
   "cross-tradition",
 ];
@@ -77,6 +80,9 @@ const LANE_DISPLAY = {
   "madhyamaka-comparator": "Mādhyamaka",
   "yogacara-comparator": "Yogācāra",
   "buddhist-pramana-comparator": "Buddhist Pramāṇa",
+  "sarvastivada-comparator": "Sarvāstivāda / Sautrāntika",
+  "theravada-comparator": "Theravāda",
+  "tathagatagarbha-comparator": "Tathāgatagarbha",
   "trika-comparator": "Pratyabhijñā / Trika",
   "cross-tradition": "Cross-tradition",
 };
@@ -107,6 +113,7 @@ const COMPARATOR_LANES = [
   "navya-nyaya-comparator", "vaisesika-comparator", "mimamsa-comparator",
   "jaina-comparator", "carvaka-comparator",
   "madhyamaka-comparator", "yogacara-comparator", "buddhist-pramana-comparator",
+  "sarvastivada-comparator", "theravada-comparator", "tathagatagarbha-comparator",
   "trika-comparator", "cross-tradition",
 ];
 const COMPARATOR_GROUP_KEY = "__comparator_group__";

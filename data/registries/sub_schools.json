@@ -496,6 +496,41 @@
     "short_description": "Dharmakīrti's mature Buddhist epistemology: the Pramāṇa-Vārttika and its sub-treatises develop trairūpya, svabhāva-pratibandha as the ground of inferential necessity, the radical kṣaṇika-vāda defence, and the mature apoha apparatus answered by Udayana and Gaṅgeśa.",
     "representative_thinker_ids": ["dharmakirti"]
   },
+  "sarvastivada-vaibhasika": {
+    "display_name": "Sarvāstivāda-Vaibhāṣika",
+    "parent_school_color_token": "sarvastivada-comparator",
+    "shade": 3,
+    "short_description": "The orthodox Kashmiri Sarvāstivāda school of the Mahā-Vibhāṣā: the foundational sarvam asti thesis (past, present, and future dharmas exist in their respective temporal modes), defended in Saṅghabhadra's Nyāyānusāra against the Sautrāntika reformist gloss in Vasubandhu's auto-commentary on the Abhidharma-Kośa.",
+    "representative_thinker_ids": ["sanghabhadra"]
+  },
+  "sautrantika": {
+    "display_name": "Sautrāntika",
+    "parent_school_color_token": "sarvastivada-comparator",
+    "shade": 2,
+    "short_description": "The reformist Abhidharmic stream that recognises only the present moment as actually existent and treats past and future dharmas as conceptual constructions; articulated in Vasubandhu's auto-commentary (Bhāṣya) on the Abhidharma-Kośa where it functions as internal critique of the Vaibhāṣika orthodoxy carried forward in the verses themselves.",
+    "representative_thinker_ids": ["vasubandhu-abhidharma"]
+  },
+  "theravada-mahavihara": {
+    "display_name": "Theravāda-Mahāvihāra",
+    "parent_school_color_token": "theravada-comparator",
+    "shade": 3,
+    "short_description": "The Mahāvihāra-line Pāli Theravāda systematised by Buddhaghosa: the Visuddhimagga as the canonical sevenfold-purification path, the Aṭṭhasālinī as the Abhidhamma commentary, and the Sumaṅgala-Vilāsinī as the Dīgha-Nikāya commentary, collectively fixing the Theravāda doctrinal standard in the fifth century.",
+    "representative_thinker_ids": ["buddhaghosa"]
+  },
+  "tathagatagarbha-foundational": {
+    "display_name": "Tathāgatagarbha-foundational",
+    "parent_school_color_token": "tathagatagarbha-comparator",
+    "shade": 3,
+    "short_description": "The foundational Tathāgatagarbha treatises traditionally ascribed to Maitreya (channeled by Asaṅga per the school's account; modern scholarship identifies one or more historical authors): Ratna-Gotra-Vibhāga (Uttara-Tantra-Śāstra), Mahāyāna-Sūtra-Alaṃkāra, Madhyānta-Vibhāga, Dharma-Dharmatā-Vibhāga, Abhisamayālaṃkāra.",
+    "representative_thinker_ids": ["maitreya-attributed"]
+  },
+  "buddha-nature-mahayana": {
+    "display_name": "Buddha-nature-Mahāyāna",
+    "parent_school_color_token": "tathagatagarbha-comparator",
+    "shade": 4,
+    "short_description": "The composite Mahāyāna sūtra-stream that synthesises Yogācāra and Tathāgatagarbha doctrine: the Laṅkāvatāra-Sūtra as the principal source for the eight-vijñāna model, the citta-mātra doctrine, and the introduction of ālaya-vijñāna terminology into the Buddha-nature literature.",
+    "representative_thinker_ids": ["lankavatara"]
+  },
   "kashmir-shaiva-siddhanta-founding": {
     "display_name": "Kashmir Śaiva-Siddhānta (founding)",
     "parent_school_color_token": "kashmir-shaiva-dualist",

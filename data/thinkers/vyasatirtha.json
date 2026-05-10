@@ -102,7 +102,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
-      "summary": "A sub-sub-commentary on Jayatīrtha's *Tattva-Prakāśikā*, and so a third-order text on Madhva's *Brahma-Sūtra-Bhāṣya*. The full stack is *sūtra* → Madhva's *bhāṣya* → Jayatīrtha's *Tattva-Prakāśikā* → Vyāsatīrtha's *Tātparya-Candrikā*; Rāghavendra's *Candrikā-Prakāśa* and other late *prakāśa*-glosses build on the *Candrikā* in turn.\n\nThe text moves through the *sūtra*s *adhikaraṇa* by *adhikaraṇa*, taking each of Jayatīrtha's glosses and doing three things with it. First, it defends the gloss against opposed readings developed in the intervening generations — especially the Appayya-line attacks on Madhva's authenticity as a Vedāntin and the Vivaraṇa-line refinements of Advaitic exegesis. Second, it extends the gloss into *Navya-Nyāya* form where Jayatīrtha had argued in older *prācīna* style; the formal apparatus that the *Nyāyāmṛta* deploys is here applied to the exegetical front. Third, it draws explicit connections to the *Anuvyākhyāna*–*Nyāya-Sudhā* sequence, so that the school's commentarial layers cohere as a single argued position rather than as four texts on the same topic.\n\nThe text is less polemical than the *Nyāyāmṛta* and *Tāṇḍava*. Its function is exegetical-consolidating. For the school's reading of the *Brahma-Sūtra* itself, it is the standard reference.",
+      "summary": "A sub-sub-commentary on Jayatīrtha's *Tattva-Prakāśikā*, and so a third-order text on Madhva's *Brahma-Sūtra-Bhāṣya*. The full stack is *sūtra* → Madhva's *bhāṣya* → Jayatīrtha's *Tattva-Prakāśikā* → Vyāsatīrtha's *Tātparya-Candrikā*; Rāghavendra's *Candrikā-Prakāśa* and other late *prakāśa*-glosses build on the *Candrikā* in turn.\n\nThe text moves through the *sūtra*s *adhikaraṇa* by *adhikaraṇa*, taking each of Jayatīrtha's glosses and doing three things with it. First, it defends the gloss against opposed readings developed in the intervening generations — especially the Appayya-line attacks on Madhva's authenticity as a Vedāntin (Appayya Dīkṣita's *Madhva-Tantra-Mukha-Bhañjana*) and the Vivaraṇa-line refinements of Advaitic exegesis (Prakāśātman's *Pañca-Pādikā-Vivaraṇa*). Second, it extends the gloss into *Navya-Nyāya* form where Jayatīrtha had argued in older *prācīna* style; the formal apparatus that the *Nyāyāmṛta* deploys is here applied to the exegetical front (most visibly at *Tātparya-Candrikā* on *Brahma-Sūtra* 1.1.1 and 2.3.43). Third, it draws explicit connections to the *Anuvyākhyāna*–*Nyāya-Sudhā* sequence, so that the school's commentarial layers cohere as a single argued position rather than as four texts on the same topic.\n\nThe text is less polemical than the *Nyāyāmṛta* and *Tāṇḍava*. Its function is exegetical-consolidating. For the school's reading of the *Brahma-Sūtra* itself, it is the standard reference.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     }
@@ -834,7 +834,7 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-translation-audit-opus",
+  "last_verified_by": "wave-citation-batch2-opus",
   "polemic_chain_ids": [
     "acintya-shakti-defense",
     "advaita-siddhi-replies",
