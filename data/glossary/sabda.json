@@ -15,7 +15,7 @@
     "shabda"
   ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54",
+  "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "As an epistemic term, *śabda* is verbal testimony that yields valid cognition. It is not merely 'language' in the abstract, nor merely scriptural quotation. The category covers the cognition produced by a meaningful utterance under the right conditions, and therefore sits amid wider disputes about sentence meaning, speaker intention, reliability, and the authority of the Veda. Nyāya grounds testimonial force in the utterance of a trustworthy speaker; Mīmāṃsā insists that Vedic *śabda* is autonomous and not reducible to any speaker; Buddhist epistemology tries to reduce testimony to inference; Vedānta inherits the Mīmāṃsā defense because *brahman* is known only through *śruti*. In practice this means that *śabda* is not a decorative supplement to perception and inference. It is the decisive *pramāṇa* in every domain where the object is not perceptually available and not inferable from worldly marks, especially in the interpretation of Upaniṣadic sentences and *mahāvākyas*.",
   "per_school": [
     {
@@ -192,27 +192,110 @@
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Sāṃkhya admits three pramāṇas, and the third is *āptavacana* alongside perception and inference [[SK 4](cite://isvarakrsna/samkhya-karika/4)]. Kārikā 5 glosses this third source as *āptaśruti* or *āptavacana*, so verbal cognition enters the system as authoritative transmission rather than as a separate theory of linguistic manifestation [[SK 5](cite://isvarakrsna/samkhya-karika/5)]. It is especially required for what remains *parokṣa* and *atīndriya* even after inference, which the text says is to be established from *āptāgama* [[SK 6](cite://isvarakrsna/samkhya-karika/6)].",
+      "primary_loci": [
+        "Īśvarakṛṣṇa, Sāṃkhya-Kārikā 4",
+        "Īśvarakṛṣṇa, Sāṃkhya-Kārikā 5",
+        "Īśvarakṛṣṇa, Sāṃkhya-Kārikā 6"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/4",
+          "locus_short": "SK 4"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/5",
+          "locus_short": "SK 5"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/6",
+          "locus_short": "SK 6"
+        }
+      ]
     },
     {
       "school": "Yoga",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Yoga accepts *āgama* as one of the three pramāṇas, and Vyāsa defines it as the hearer’s cognition produced from the word of one who has seen or inferred the matter in question [[YS 1.7](cite://patanjali/yoga-sutra/1.7); [YBh 1.7](cite://vyasa/yoga-bhasya/1.7)]. At the same time, the tradition sharply distinguishes bare verbality from valid disclosure, since *vikalpa* is a cognition that follows verbal knowledge while remaining empty of a corresponding object [[YS 1.9](cite://patanjali/yoga-sutra/1.9)]. In higher analysis the yogin must separate the superimposed triad of word, object, and cognition, because ordinary understanding is structured by their mutual adhyāsa [[YS 3.17](cite://patanjali/yoga-sutra/3.17); [YBh 3.17](cite://vyasa/yoga-bhasya/3.17)].",
+      "primary_loci": [
+        "Patañjali, Yoga-Sūtra 1.7",
+        "Vyāsa, Yoga-Bhāṣya on Yoga-Sūtra 1.7",
+        "Patañjali, Yoga-Sūtra 1.9",
+        "Patañjali, Yoga-Sūtra 3.17",
+        "Vyāsa, Yoga-Bhāṣya on Yoga-Sūtra 3.17"
+      ],
+      "citations": [
+        {
+          "cite": "cite://patanjali/yoga-sutra/1.7",
+          "locus_short": "YS 1.7"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/1.7",
+          "locus_short": "YBh 1.7"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/1.9",
+          "locus_short": "YS 1.9"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/3.17",
+          "locus_short": "YS 3.17"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/3.17",
+          "locus_short": "YBh 3.17"
+        }
+      ]
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Nyāya defines *śabda* as *āptopadeśa*, a distinct pramāṇa whose scope extends to both seen and unseen objects [[NS 1.1.7](cite://aksapada/nyaya-sutra/1.1.7); [NS 1.1.8](cite://aksapada/nyaya-sutra/1.1.8)]. The cognition produced by testimony arises from the efficacy of a trustworthy utterance, and later compendia make this explicit by defining the *āpta* as a *yathārthavaktā* and the relevant verbal unit as a meaningful sentence [[NS 2.1.53](cite://aksapada/nyaya-sutra/2.1.53); [TSg 59](cite://annambhatta/tarka-sangraha/59)]. In the Nyāya-Vaiśeṣika synthesis, *śabda* also names a quality apprehended by the ear and residing only in ākāśa, so the epistemic and ontological senses are kept distinct but coordinated [[TSg 33](cite://annambhatta/tarka-sangraha/33)].",
+      "primary_loci": [
+        "Akṣapāda, Nyāya-Sūtra 1.1.7",
+        "Akṣapāda, Nyāya-Sūtra 1.1.8",
+        "Akṣapāda, Nyāya-Sūtra 2.1.53",
+        "Annaṃbhaṭṭa, Tarka-Saṅgraha 59",
+        "Annaṃbhaṭṭa, Tarka-Saṅgraha 33"
+      ],
+      "citations": [
+        {
+          "cite": "cite://aksapada/nyaya-sutra/1.1.7",
+          "locus_short": "NS 1.1.7"
+        },
+        {
+          "cite": "cite://aksapada/nyaya-sutra/1.1.8",
+          "locus_short": "NS 1.1.8"
+        },
+        {
+          "cite": "cite://aksapada/nyaya-sutra/2.1.53",
+          "locus_short": "NS 2.1.53"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/59",
+          "locus_short": "TSg 59"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/33",
+          "locus_short": "TSg 33"
+        }
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Pūrva-Mīmāṃsā locates dharma in *śabda* alone, so non-verbal evidence is not to be expected in that domain [[MS 1.3.1](cite://jaimini/mimamsa-sutra/1.3.1)]. It accordingly treats the relation between word and meaning as *autpattika* and holds that, when the relevant object is otherwise unavailable, that verbal upadeśa is itself *pramāṇa* precisely because it is *anapekṣa* [[MS 1.1.5](cite://jaimini/mimamsa-sutra/1.1.5)]. *Śabda* here is therefore not a speaker-dependent report among other reports, but the irreducible disclosure of *codanā* and dharma [[MS 1.1.5](cite://jaimini/mimamsa-sutra/1.1.5); [MS 1.3.1](cite://jaimini/mimamsa-sutra/1.3.1)].",
+      "primary_loci": [
+        "Jaimini, Mīmāṃsā-Sūtra 1.1.5",
+        "Jaimini, Mīmāṃsā-Sūtra 1.3.1"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/1.1.5",
+          "locus_short": "MS 1.1.5"
+        },
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/1.3.1",
+          "locus_short": "MS 1.3.1"
+        }
+      ]
     },
     {
       "school": "Mādhyamaka",
@@ -262,15 +345,39 @@
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Trika, *śabda* is grounded in consciousness itself: once *saṃvid* is understood as *vimarśātmikā* and *vimarśa* as *śabdanātmaka*, scripture is the reflexive articulation of awareness rather than an external report [[TSāra 21.3-4](cite://abhinavagupta/tantrasara/21.3-4)]. Accordingly, *āgama* is authoritative because the whole *śāstrasaṃdarbha* is non-different from Parameśvara and discloses a single telos through graded forms of revelation ordered by *adhikāra* [[TSāra 21.3-4](cite://abhinavagupta/tantrasara/21.3-4)].",
+      "primary_loci": [
+        "Abhinavagupta, Tantrasāra 21.3-4"
+      ],
+      "citations": [
+        {
+          "cite": "cite://abhinavagupta/tantrasara/21.3-4",
+          "locus_short": "TSāra 21.3-4"
+        }
+      ]
     },
     {
       "school": "Jainism",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Jainism does not ordinarily isolate *śabda* as a separate *pramāṇa*; its functional analogue is *śruta-jñāna* within the canonical taxonomy of knowledges [[TS 1.9](cite://umasvati/tattvartha-sutra/1.9); [TS 1.20](cite://umasvati/tattvartha-sutra/1.20)]. The Tattvārtha-Sūtra classifies *mati* and *śruta* as the first two, and therefore indirect, forms of cognition [[TS 1.9](cite://umasvati/tattvartha-sutra/1.9); [TS 1.11](cite://umasvati/tattvartha-sutra/1.11)]. *Śruta* is explicitly said to be *matipūrva*, so verbal or scriptural cognition depends upon prior cognitive uptake rather than arising as an autonomous *pramāṇa* detached from *mati* [[TS 1.20](cite://umasvati/tattvartha-sutra/1.20)].",
+      "primary_loci": [
+        "Umāsvāti, Tattvārtha-Sūtra 1.9",
+        "Umāsvāti, Tattvārtha-Sūtra 1.11",
+        "Umāsvāti, Tattvārtha-Sūtra 1.20"
+      ],
+      "citations": [
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/1.9",
+          "locus_short": "TS 1.9"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/1.11",
+          "locus_short": "TS 1.11"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/1.20",
+          "locus_short": "TS 1.20"
+        }
+      ]
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",
