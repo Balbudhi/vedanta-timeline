@@ -36,6 +36,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "clean-on-disk",
       "summary": "Independent *prakaraṇa* in eight chapters whose stated purpose is to establish (*siddhi*) the *iṣṭa* — the desired tenet, namely *brahmātmaikya* (*Iṣṭa-Siddhi* 1.1–5). The method is dialectical. Vimuktātman takes up each opposed analysis of erroneous cognition — *ātma-khyāti* of the Vijñānavādins, *asat-khyāti* of the Mādhyamikas as here construed, *anyathā-khyāti* of the Naiyāyikas, *akhyāti* of the Prābhākaras (*Iṣṭa-Siddhi* 1.86–104) — and shows each to fail on its own terms; *anirvacanīya-khyāti* survives as the only coherent account (*Iṣṭa-Siddhi* 1.105ff.). He defends *bhāva-rūpā-anirvacanīya-avidyā* with Brahman as locus (*Iṣṭa-Siddhi* 1.62–73), examines the *avaccheda-vāda* and *pratibimba-vāda* analyses of the *jīva* and inclines toward the latter (*Iṣṭa-Siddhi* 4), and refutes Bhedābheda and the proto-realist alternatives of his day (*Iṣṭa-Siddhi* 5–6). Jñānottama's *Vivaraṇa* is the principal sub-commentary. Vidyāraṇya cites the treatise as authoritative in the *Vivaraṇa-Prameya-Saṃgraha* (chapter 1); Madhusūdana cites it in the *Advaita-Siddhi* (1, opening *paricheda*). Much of the technical machinery later Advaitins use to discuss *adhyāsa* and avidyā originates here.",
       "key_passage_ids": [
         "is-1-1__vedanta-brahma-visaya",
@@ -1060,6 +1061,6 @@
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-batch1-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus"
 }

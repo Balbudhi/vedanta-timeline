@@ -28,6 +28,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "clean-on-disk",
       "summary": "The *Vedānta-Kaustubha* is Śrīnivāsa's *vyākhyā* on Nimbārka's *Vedānta-Pārijāta-Saurabha* and the canonical sub-commentary of the Sanaka-sampradāya. Three tasks structure the work. First, it explicates the *svābhāvika* — intrinsic, unconditioned — character of *bheda* and *abheda* between Brahman, *cit*, and *acit* (*Vedānta-Kaustubha* on *Brahma-Sūtra* 2.3.42), demarcating it cleanly from Bhāskara's *aupādhika* construal (Bhāskara, *Brahma-Sūtra-Bhāṣya* on 2.1.14). Second, it stages the *pūrvapakṣa* against *māyā-vāda* (Śaṅkara, *Brahma-Sūtra-Bhāṣya* 2.1.14, the *vivarta-vāda*) and against *aupādhika-bhedābheda* (Bhāskara, *Brahma-Sūtra-Bhāṣya* on 2.1.14) and supplies the *uttarapakṣa* that Nimbārka's compressed bhāṣya only gestures at (*Vedānta-Kaustubha* on *Brahma-Sūtra* 2.1.14, 2.3.42). Third, it elaborates the *aṃśa-aṃśin* relation by which *jīvas* are eternally portion-and-whole of Brahman, without either merger or severance (*Vedānta-Kaustubha* on *Brahma-Sūtra* 2.3.43, on *aṃśo nānāvyapadeśāt*). The work also fixes the school's Vaiṣṇava commitments at the bhāṣya level — Kṛṣṇa with Rādhā as *parabrahman* (*Vedānta-Kaustubha* on *Brahma-Sūtra* 1.1.1, *maṅgala-ślokas*), *prapatti* and *bhakti* as the means of liberation (*Vedānta-Kaustubha* on 3.2.24) — and supplies the structural template that Keśava-Kāśmīrī's *Vedānta-Kaustubha-Prabhā* will sub-comment in turn. The *Kaustubha* is therefore the operative doctrinal text of the Nimbārka line and the standard reference for any technical engagement with the school (Dasgupta, *History of Indian Philosophy*, vol. III).",
       "key_passage_ids": [
         "mangalacarana__srikrishna-padayugalam",
@@ -816,6 +817,6 @@
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus"
 }

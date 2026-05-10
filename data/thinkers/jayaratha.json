@@ -41,9 +41,10 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
-      "summary": "The principal commentary on Abhinavagupta's *Tantrāloka* — the encyclopedic Trika compendium in 37 *āhnikas* — and a work of comparable bulk to the *Tantrāloka* itself. Jayaratha works through every verse, identifying the Tantras and earlier Trika authorities Abhinavagupta is drawing on (often without attribution; e.g. *TĀV* on *TĀ* 1.41–43 supplying the *Mālinī-Vijaya* citations), supplying the ritual procedural detail Abhinavagupta omits (*TĀV* on *TĀ* 15–23, the *dīkṣā* sections), glossing the school's technical vocabulary as it has developed two centuries after Abhinavagupta's own time (*TĀV* on *TĀ* 1.142–151 on the fifteen-fold typology), and adjudicating among competing readings preserved in the school's commentarial memory. The *Viveka* is the indispensable companion to the *Tantrāloka*: the *Tantrāloka*'s elliptical scriptural and procedural references would for the most part be unrecoverable without it (the systematic recovery is performed throughout but is concentrated in the densely scriptural *āhnikas* — *TĀV* on *TĀ* 4.110–278, *TĀ* 13.1–end, *TĀ* 28.1–end). Doctrinally Jayaratha is a strict Trika non-dualist, writing within Abhinavagupta's settled framework; his contribution is philological and lineage-preserving rather than independently philosophical. The *Viveka* is also a primary source for the post-Abhinavaguptan history of the Kashmirian Trika before its disruption: through Jayaratha's citations, much of the lost intermediate commentarial tradition can be reconstructed.",
+      "summary": "The principal commentary on Abhinavagupta's *Tantrāloka* — the encyclopedic Trika compendium in 37 *āhnikas* — and a work of comparable bulk to the *Tantrāloka* itself. Jayaratha works through every verse, identifying the Tantras and earlier Trika authorities Abhinavagupta is drawing on (often without attribution; e.g. *TĀV* on *TĀ* 1.41–43 supplying the *Mālinī-Vijaya* citations), supplying the ritual procedural detail Abhinavagupta omits (*TĀV* on *TĀ* 15–23, the *dīkṣā* sections), glossing the school's technical vocabulary as it has developed two centuries after Abhinavagupta's own time (*TĀV* on *TĀ* 1.142–151 on the fifteen-fold typology), and adjudicating among competing readings preserved in the school's commentarial memory. The *Viveka* is the indispensable companion to the *Tantrāloka*: the *Tantrāloka*'s elliptical scriptural and procedural references would for the most part be unrecoverable without it (the systematic recovery is performed throughout but is concentrated in the densely scriptural *āhnikas* — *TĀV* on *TĀ* 4.110–278, *TĀ* 13.1–end, *TĀ* 28.1–end). Doctrinally Jayaratha is a strict Trika non-dualist, writing within Abhinavagupta's settled framework; his contribution is philological and lineage-preserving rather than independently philosophical. The *Viveka* is also a primary source for the post-Abhinavaguptan history of the Kashmirian Trika before its disruption: through Jayaratha's citations, much of the lost intermediate commentarial tradition can be reconstructed. (On disk our corpus has the GRETIL transcription of the *Tantrāloka* mūla derived from the KSTS edition that prints the *Viveka* inline; the *Viveka* prose itself is not separately on disk.)",
       "key_passage_ids": [],
-      "entry_status": "draft"
+      "entry_status": "draft",
+      "source_status": "primary-text-not-in-corpus"
     }
   ],
   "key_passages": [],
@@ -52,5 +53,5 @@
   "entry_status": "draft",
   "entry_owner_agent": "trika-shakta-extension-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }
