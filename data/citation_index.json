@@ -13612,6 +13612,50 @@
       "sanskrit_iast": "yaḥ pratītyasamutpādaṃ paśyatīdaṃ sa paśyati / duḥkhaṃ samudayaṃ caiva nirodhaṃ mārgam eva ca //",
       "english_close": "He who sees this dependent arising sees suffering, its arising, its cessation, and the path.",
       "source": "materials/primary_texts/sanskrit/buddhist/nagarjuna_mula_madhyamaka_karika.txt"
+    },
+    "sudarsana/shruta-prakashika/1.1.1": {
+      "thinker_id": "sudarsana",
+      "work_id": "shruta-prakashika",
+      "locus": "Śruta-Prakāśikā on Śrī-Bhāṣya 1.1.1 (Mahā-Pūrvapakṣa and Mahā-Siddhānta)",
+      "locus_short": "Śruta-Prakāśikā on Śrī-Bhāṣya 1.1.1",
+      "pending_target_work": "Śruta-Prakāśikā",
+      "pending_target_thinker": "Sudarśana Sūri",
+      "pending_acquisition_note": "The Śruta-Prakāśikā is the school-canonical sub-commentary on Rāmānuja’s Śrī-Bhāṣya at this locus. A clean digital edition is queued at parishishta/notes/USER_NEEDED.md.",
+      "verified": "pending-acquisition",
+      "source": "thinker_jsons/sudarsana.json#engaged_works[0]"
+    },
+    "sudarsana/shruta-prakashika/2.1.9-2.3.43": {
+      "thinker_id": "sudarsana",
+      "work_id": "shruta-prakashika",
+      "locus": "Śruta-Prakāśikā on Śrī-Bhāṣya 2.1.9 and 2.3.43 (jīvāṃśa adhikaraṇa)",
+      "locus_short": "Śruta-Prakāśikā on Śrī-Bhāṣya 2.1.9; 2.3.43",
+      "pending_target_work": "Śruta-Prakāśikā",
+      "pending_target_thinker": "Sudarśana Sūri",
+      "pending_acquisition_note": "Pending acquisition; see parishishta/notes/USER_NEEDED.md.",
+      "verified": "pending-acquisition",
+      "source": "thinker_jsons/sudarsana.json#engaged_works[0]"
+    },
+    "sudarsana/shruta-prakashika/3.2.24-4.1.1-2": {
+      "thinker_id": "sudarsana",
+      "work_id": "shruta-prakashika",
+      "locus": "Śruta-Prakāśikā on Śrī-Bhāṣya 3.2.24 and 4.1.1–2 (bhakti-yoga / prapatti as upāya)",
+      "locus_short": "Śruta-Prakāśikā on Śrī-Bhāṣya 3.2.24; 4.1.1–2",
+      "pending_target_work": "Śruta-Prakāśikā",
+      "pending_target_thinker": "Sudarśana Sūri",
+      "pending_acquisition_note": "Pending acquisition; see parishishta/notes/USER_NEEDED.md.",
+      "verified": "pending-acquisition",
+      "source": "thinker_jsons/sudarsana.json#engaged_works[0]"
+    },
+    "sudarsana/shruta-prakashika/2.2.1-32": {
+      "thinker_id": "sudarsana",
+      "work_id": "shruta-prakashika",
+      "locus": "Śruta-Prakāśikā on Śrī-Bhāṣya 2.2.1–32 (identifying the rival darśanas refuted)",
+      "locus_short": "Śruta-Prakāśikā on Śrī-Bhāṣya 2.2.1–32",
+      "pending_target_work": "Śruta-Prakāśikā",
+      "pending_target_thinker": "Sudarśana Sūri",
+      "pending_acquisition_note": "Pending acquisition; see parishishta/notes/USER_NEEDED.md.",
+      "verified": "pending-acquisition",
+      "source": "thinker_jsons/sudarsana.json#engaged_works[0]"
     }
   },
   "aliases": {
