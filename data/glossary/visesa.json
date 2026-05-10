@@ -3,27 +3,260 @@
   "term_iast": "viśeṣa",
   "term_devanagari": "विशेष",
   "literal": "particularity, differentiator, distinguishing feature",
-  "aliases": ["visesa", "viśeṣa", "Viśeṣa", "viśeṣaḥ", "viśeṣasya", "viśeṣāḥ", "savisesa", "saviśeṣa"],
+  "aliases": [
+    "visesa",
+    "viśeṣa",
+    "Viśeṣa",
+    "viśeṣaḥ",
+    "viśeṣasya",
+    "viśeṣāḥ",
+    "savisesa",
+    "saviśeṣa"
+  ],
   "invariant_definition": "*Viśeṣa* is a differentiator, but the term operates in sharply different technical registers and should not be translated uniformly as though all schools meant the same thing. In Vaiśeṣika it is one of the ultimate categories, the principle by which eternals are numerically distinct. In Viśiṣṭādvaita it belongs to the grammar of qualification: the qualified whole is not bare identity but a reality articulated through qualifier and qualified. In Tattva-vāda (the school often labeled Dvaita) it becomes a highly specific metaphysical posit explaining how substance and attribute, or a whole and its intrinsic differentiations, can be non-separate without collapsing into identity. The term therefore sits next to disputes over *sāmānya*, *dravya*, *guṇa*, *samavāya*, and the status of internal differentiation. In practice one must always ask: is the text talking about a category of ultimate particularization, a qualifier within predication, or Madhva's special internal differentiator?",
   "per_school": [
     {
+      "school": "Advaita",
+      "definition": "In Advaita, viśeṣa does not belong to brahman as ultimate reality, since the causal brahman spoken of as māyā-viśiṣṭa is only a provisional explanatory register and not the final purport of Vedānta. (cite://prakasatman/pancapadika-vivarana/p. 212b) The mahāvākya is ultimately intended toward caitanyamātra, even though words such as satya and jñāna may first operate with reference to upādhi-viśiṣṭa consciousness. (cite://madhusudana/siddhanta-bindu/12)",
+      "primary_loci": [
+        "Prakāśātman, Pañcapādikā-Vivaraṇa p. 212b",
+        "Madhusūdana, Siddhānta-Bindu, Upodghāta 12"
+      ],
+      "citations": [
+        {
+          "cite": "cite://prakasatman/pancapadika-vivarana/p. 212b",
+          "locus_short": "PV p. 212b"
+        },
+        {
+          "cite": "cite://madhusudana/siddhanta-bindu/12",
+          "locus_short": "SB 12"
+        }
+      ]
+    },
+    {
       "school": "Viśiṣṭādvaita",
-      "definition": "In Viśiṣṭādvaita the family of terms *viśeṣa*, *viśeṣaṇa*, and *viśiṣṭa* helps articulate the doctrine that *brahman* is a qualified whole, not an undifferentiated abstract unity. *Cit* and *acit* are real modes or qualifiers of Brahman, inseparable from it but not reducible to it. The school's very name, *viśiṣṭa-advaita*, depends on this grammar: non-duality is preserved, but always as the non-duality of a qualified reality.",
-      "primary_loci": ["Śrī-Bhāṣya 1.1.1", "Vedārtha-Saṅgraha 82–95", "Yatīndra-Mata-Dīpikā 4"]
+      "definition": "Viśiṣṭādvaita uses the viśiṣṭa/viśeṣin register positively: Brahman is Viṣṇu qualified by the totality of cit and acit, not an undifferentiated substratum. (cite://ramanuja/vedartha-samgraha/§1) Accordingly the school's brahman is intrinsically endowed with unsurpassed auspicious qualities, and nirviśeṣa-brahman is excluded from the primary sense of the term. (cite://ramanuja/shri-bhasya/6 cite://ramanuja/shri-bhasya/8)",
+      "primary_loci": [
+        "Rāmānuja, Vedārtha-Saṃgraha §1",
+        "Rāmānuja, Śrī-Bhāṣya 1.1.1, commentaries 6 and 8"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§1",
+          "locus_short": "VS §1"
+        },
+        {
+          "cite": "cite://ramanuja/shri-bhasya/6",
+          "locus_short": "ŚrīBh 1.1.1, comm. 6"
+        },
+        {
+          "cite": "cite://ramanuja/shri-bhasya/8",
+          "locus_short": "ŚrīBh 1.1.1, comm. 8"
+        }
+      ]
     },
     {
       "school": "Tattva-vāda",
-      "definition": "Madhva's *viśeṣa* is an intrinsic differentiator that explains how a thing and its attributes or powers can be inseparable yet not simply identical. The posit is meant to block both regress and flattening: real qualities do not become external additions, but neither are they swallowed by undifferentiated identity. This is one of the central devices by which Tattva-vāda preserves rich realism about God, souls, and their internal gradations.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1", "Anu-Vyākhyāna 1.1", "Jayatīrtha, Tattva-Pradīpikā ad Brahma-Sūtra 1.1.1"]
+      "definition": "Tattva-vāda makes viśeṣa a real differentiator that asserts itself even where the relevant terms are non-separate, thereby allowing determinate predication without collapse into identity. (cite://madhva/anuvyakhyana/1.1.108 cite://madhva/anuvyakhyana/1.1.109) These viśeṣas are held to be innumerable, mutually differentiating, and present throughout real things. (cite://madhva/anuvyakhyana/1.1.110)",
+      "primary_loci": [
+        "Madhva, Anuvyākhyāna 1.1.108-110"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/anuvyakhyana/1.1.108",
+          "locus_short": "Anuvy. 1.1.108"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/1.1.109",
+          "locus_short": "Anuvy. 1.1.109"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/1.1.110",
+          "locus_short": "Anuvy. 1.1.110"
+        }
+      ]
     },
     {
-      "school": "Vaiśeṣika",
-      "definition": "In Vaiśeṣika, *viśeṣa* is a padārtha that accounts for the numerical distinctness of eternal substances such as atoms, selves, time, and space. Without it, eternals sharing generic character would collapse into indiscernibility. Here the term belongs not to theology or predicative grammar but to a categorical ontology of ultimate differentiators.",
-      "primary_loci": ["Vaiśeṣika-Sūtra 1.1.4–6", "Praśastapāda-Bhāṣya, Viśeṣa-pariccheda [NOT YET RETRIEVED]"]
+      "school": "Bhedābheda",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "In the supplied Bhedābheda materials, the school is articulated through bheda/abheda, upādhi, avasthā, and pariṇāma rather than through a distinct term-specific viśeṣa doctrine retrievable for this phase."
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "In the supplied Gauḍīya materials, the relevant structure is acintya-śakti and the śakti-śaktimat relation, not a distinct school-defining viśeṣa doctrine in the retrieved loci."
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The supplied Nimbārka materials formulate the school through svābhāvika-bhedābheda rather than through a distinct technical deployment of viśeṣa in the retrieved loci."
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The supplied Vallabha materials center avikṛta-pariṇāma, aṃśa, and āvirbhāva-tirobhāva rather than a distinct viśeṣa doctrine retrievable for this phase."
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "In Sāṃkhya, viśeṣa names the five gross elements that emerge from the aviśeṣa tanmātras, so that manifest differentiation is downstream of a subtler, less determinate level of prakṛti's evolution. (cite://isvarakrsna/samkhya-karika/38) The subtle body cannot subsist without such viśeṣas as its support. (cite://isvarakrsna/samkhya-karika/41)",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 38",
+        "Sāṃkhya-Kārikā 41"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/38",
+          "locus_short": "SK 38"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/41",
+          "locus_short": "SK 41"
+        }
+      ]
+    },
+    {
+      "school": "Yoga",
+      "definition": "Yoga uses viśeṣa first in the theology of īśvara, who is a puruṣa-viśeṣa untouched by kleśa, karma, vipāka, and āśaya. (cite://patanjali/yoga-sutra/1.24) It also uses the term cosmologically, since the guṇa-parvans of the seen are ordered as viśeṣa, aviśeṣa, liṅgamātra, and aliṅga. (cite://patanjali/yoga-sutra/2.19)",
+      "primary_loci": [
+        "Yoga-Sūtra 1.24",
+        "Yoga-Sūtra 2.19"
+      ],
+      "citations": [
+        {
+          "cite": "cite://patanjali/yoga-sutra/1.24",
+          "locus_short": "YS 1.24"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/2.19",
+          "locus_short": "YS 2.19"
+        }
+      ]
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "Nyāya-Vaiśeṣika treats viśeṣa as a padārtha of ultimate particularization: already in the Vaiśeṣika-Sūtra, sāmānya and viśeṣa are introduced as buddhyapekṣa and the antya-viśeṣas are set apart from more general predicates. (cite://kanada/vaisesika-sutra/1.2.3 cite://kanada/vaisesika-sutra/1.2.6) The later digest tradition states the point explicitly by enumerating viśeṣa among the seven padārthas and defining viśeṣas as the infinite differentiators residing in eternal substances. (cite://annambhatta/tarka-sangraha/2 cite://annambhatta/tarka-sangraha/7)",
+      "primary_loci": [
+        "Vaiśeṣika-Sūtra 1.2.3 and 1.2.6",
+        "Tarka-Saṅgraha 2 and 7"
+      ],
+      "citations": [
+        {
+          "cite": "cite://kanada/vaisesika-sutra/1.2.3",
+          "locus_short": "VS 1.2.3"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/1.2.6",
+          "locus_short": "VS 1.2.6"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/2",
+          "locus_short": "TSaṅg 2"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/7",
+          "locus_short": "TSaṅg 7"
+        }
+      ]
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "Pūrva-Mīmāṃsā gives viśeṣa a technical hermeneutic role, opening a separate discussion under the heading 'atha viśeṣalakṣaṇam'. (cite://jaimini/mimamsa-sutra/8.1.1) Here viśeṣa is the specifying mark whose force is fixed by its relation to the relevant act, functioning to determine an application that would otherwise remain too general. (cite://jaimini/mimamsa-sutra/8.1.2)",
+      "primary_loci": [
+        "Mīmāṃsā-Sūtra 8.1.1-2"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/8.1.1",
+          "locus_short": "MS 8.1.1"
+        },
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/8.1.2",
+          "locus_short": "MS 8.1.2"
+        }
+      ]
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "Mādhyamaka does not posit viśeṣa as an ultimate differentiator, since saṃsāra and nirvāṇa lack any final viśeṣaṇa separating one from the other. (cite://nagarjuna/mula-madhyamaka-karika/25.19) Likewise, Nāgārjuna refuses any viśeṣahetu that would ground an asymmetrical dialectical position at the level of svabhāva. (cite://nagarjuna/vigraha-vyavartani/24)",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 25.19",
+        "Vigraha-Vyāvartanī 24"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/25.19",
+          "locus_short": "MMK 25.19"
+        },
+        {
+          "cite": "cite://nagarjuna/vigraha-vyavartani/24",
+          "locus_short": "VV 24"
+        }
+      ]
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "Yogācāra does not install viśeṣa as an independent padārtha; instead, determinate appearances arise from a seed that has reached pariṇāma-viśeṣa within consciousness itself. (cite://vasubandhu/vimsatika/9 and Entry into *Pudgala-Nairātmya*) Accordingly the appeal to external bhūtaviśeṣas is rejected in favor of consciousness's own specific transformation and stream-conditioned regulation. (cite://vasubandhu/vimsatika/Karma, Vāsanā, and Scriptural Objection cite://vasubandhu/vimsatika/9 and Entry into *Pudgala-Nairātmya*)",
+      "primary_loci": [
+        "Viṃśatikā, Vvs 6-9 with vṛtti"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/vimsatika/Karma, Vāsanā, and Scriptural Objection",
+          "locus_short": "Vvs 6-8"
+        },
+        {
+          "cite": "cite://vasubandhu/vimsatika/9 and Entry into *Pudgala-Nairātmya*",
+          "locus_short": "Vvs 9"
+        }
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "In Pratyabhijñā, viśeṣa does not fracture being itself, for the distinction in object-appearance does not lie in sattā as such. (cite://utpaladeva/isvara-pratyabhijna-karika/1.8.2) It appears rather at the level of vikalpa, where appearances are articulated as future, present, and past objects. (cite://utpaladeva/isvara-pratyabhijna-karika/1.8.2)",
+      "primary_loci": [
+        "Īśvara-Pratyabhijñā-Kārikā 1.8.2 with ĪPV gloss"
+      ],
+      "citations": [
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/1.8.2",
+          "locus_short": "ĪPK 1.8.2"
+        }
+      ]
+    },
+    {
+      "school": "Jainism",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "In the searchable Tattvārtha-Sūtra materials on disk, viśeṣa appears as ordinary differentiating language in discussions of knowledge, giving, and practice, but not as a distinct school-defining ontological or semantic category for this phase."
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Pāṇini, Aṣṭādhyāyī",
+        "Patañjali, Mahābhāṣya",
+        "Bhartṛhari, Vākyapadīya"
+      ],
+      "citations": []
     }
   ],
-  "see_also": ["visistadvaita", "dvaita", "samanya", "padartha", "aprthak-siddhi"],
+  "see_also": [
+    "visistadvaita",
+    "dvaita",
+    "samanya",
+    "padartha",
+    "aprthak-siddhi"
+  ],
   "translator_note": "\"Particularity\" is often too vague, and simply translating *viśeṣa* as \"difference\" can be worse, because each school is using the term to solve a different structural problem. In Vaiśeṣika it is an ultimate differentiator; in Viśiṣṭādvaita it belongs to the grammar of qualified unity; in Tattva-vāda it is a technical device for internal distinction without separability. English glosses that erase those differences import an analytic sameness the Sanskrit debates are explicitly resisting.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus"
+  "last_verified_by": "glossary-wave2-codex54"
 }
