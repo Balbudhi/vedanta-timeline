@@ -1,0 +1,55 @@
+{
+  "id": "aksobhya-tirtha",
+  "name": "Akshobhya Tirtha",
+  "name_iast": "Akṣobhya-Tīrtha",
+  "alternate_names": [],
+  "dates_low": 1282,
+  "dates_high": 1365,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Fourth pontiff of the Mādhva pīṭha-paramparā after Narahari-Tīrtha; preceptor of Jayatīrtha; sectarian chronicles plus manuscript colophons.",
+  "school": "Dvaita",
+  "school_color_token": "dvaita",
+  "sub_school": "Madhva-paramparā-direct-disciple",
+  "sub_school_shade": 2,
+  "lineage_in": [
+    "narahari-tirtha",
+    "padmanabha-tirtha",
+    "madhva"
+  ],
+  "lineage_out": [
+    "jayatirtha"
+  ],
+  "lineage_polemical": [
+    {
+      "thinker_id": "vidyaranya",
+      "direction": "mutual",
+      "note": "By Mādhva tradition Akṣobhya-Tīrtha defeats Vidyāraṇya/Mādhava in formal śāstrārtha at the Vijayanagara court on the meaning of tat tvam asi (Chāndogya 6.8.7), with Vedānta-Deśika as adjudicator; the verdict is recorded in the school's chronicles (and reflected in later Mādhva polemical literature culminating in Vyāsatīrtha's Nyāyāmṛta)."
+    }
+  ],
+  "core_thesis": "Akṣobhya-Tīrtha is the fourth pontiff of the Mādhva *paramparā*, the preceptor of Jayatīrtha, and — by Mādhva tradition — the principal direct opponent of the Advaita establishment in the early Vijayanagara period. The doctrinal architecture is Madhva's, transmitted without revision: *pañca-bheda*; *svatantra-paratantra* with Viṣṇu as the only *svatantra*; the *bimba-pratibimba* relation between Viṣṇu and *jīva* with strict asymmetry; the realist reading of the *mahā-vākyas* against the Advaita identity-construal.\n\nThe contribution is in three registers. First, the *Tat-Tvam-Asi-Khaṇḍana* — Akṣobhya-Tīrtha's prose *prakaraṇa* on the Advaita reading of the *Chāndogya* 6.8.7 *mahā-vākya* (*tat tvam asi*). The work argues that the standard Advaita identity-reading (*aikya-śravaṇa*) is incompatible with the *Chāndogya*'s own surrounding context (*Chāndogya* 6.8–6.16, the *Śvetaketu-Uddālaka* dialogue read sequentially), and that the verse establishes *Viṣṇor sādṛśya-jñāna* — the *jīva*'s recognition of similarity-of-attribute to Viṣṇu within continued ontological dependence — rather than identity. The argument is the textual base for the *śāstrārtha* tradition records as Akṣobhya's victory over Vidyāraṇya/Mādhava at the Vijayanagara court (with Vedānta-Deśika as adjudicator); the verdict is recorded in the Mādhva chronicles and is reflected in later Mādhva polemical literature culminating in Vyāsatīrtha's *Nyāyāmṛta*. Second, the institutional: as preceptor of Jayatīrtha, Akṣobhya is the figure through whom the *paramparā* passes to the systematizer of the school's scholastic apparatus. Third, the cultic-institutional consolidation of the *Mūla-Rāma-vigraha* worship tradition received from Narahari-Tīrtha and transmitted forward to Jayatīrtha and the later *pīṭha*-succession. His significance is therefore the formal entry of the Mādhva school into the Vijayanagara public *śāstrārtha* arena (which Vyāsatīrtha will continue at higher scholastic pitch a generation later) and the institutional handover of the *paramparā* to its principal systematizer.",
+  "engaged_works": [
+    {
+      "work_id": "tat-tvam-asi-khandana",
+      "title": "Tat-Tvam-Asi-Khandana",
+      "title_iast": "Tat-Tvam-Asi-Khaṇḍana",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored polemical prakaraṇa preserved in the Mādhva manuscript canon and cited in later Mādhva polemical literature.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."},
+        {"kind": "sectarian-chronicle", "description": "Cited in Mādhva chronicles in connection with the Vijayanagara śāstrārtha tradition."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "The *Tat-Tvam-Asi-Khaṇḍana* (\"refutation of the [Advaita reading of] *tat tvam asi*\") is Akṣobhya-Tīrtha's polemical *prakaraṇa* on the *Chāndogya* 6.8.7 *mahā-vākya*. The argument proceeds in three stages. (i) Contextual: the *mahā-vākya* is read within the *Chāndogya*'s own sequential frame (*Chāndogya* 6.8–6.16, the *Śvetaketu-Uddālaka* dialogue), where each occurrence of *tat tvam asi* (the verse is repeated nine times across 6.8.7–6.16.3) is preceded by a *dṛṣṭānta* — the *honey* analogy, the *rivers* analogy, the *banyan-seed* analogy, the *salt-in-water* analogy. The *dṛṣṭāntas* establish *sādṛśya* (similarity) and *avibhāga* (non-separation) within ontological dependence, not identity-from-eternity. (ii) Grammatical: *tat tvam asi* admits a *sāmānādhikaraṇya* construal (one referent, two co-referential terms — the Advaita reading) and a *sādṛśya-pratyāyaka* construal (two referents related by similarity-of-attribute — the Mādhva reading). Akṣobhya argues that the *sāmānādhikaraṇya* construal is grammatically possible but contextually excluded by the *dṛṣṭāntas*. (iii) Doctrinal: the verse establishes *Viṣṇor sādṛśya-jñāna* — the *jīva*'s recognition of similarity-of-attribute (*sat*, *cit*, *ānanda* in dependent form) to Viṣṇu within continued ontological dependence (*paratantrya*) — not identity, and not even *aupādhika*-identity. The work is the textual base for the *śāstrārtha* tradition records as Akṣobhya's victory over Vidyāraṇya at the Vijayanagara court (the verdict is famously commemorated in the Mādhva tradition by Vidyāraṇya's Sanskrit *muktaka* — *asminn aṣṭādaśe loke catur-daśa-nadī-pateḥ |* — accepting Akṣobhya's reading); it is the immediate ancestor of Vyāsatīrtha's later treatment of the *mahā-vākya*-question in the *Nyāyāmṛta*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-intra-school-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-intra-school-opus"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "narahari-tirtha",
+  "name": "Narahari Tirtha",
+  "name_iast": "Narahari-Tīrtha",
+  "alternate_names": [],
+  "dates_low": 1243,
+  "dates_high": 1333,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Direct disciple of Madhva and third pontiff of the Mādhva pīṭha-paramparā after Padmanābha-Tīrtha. Inscriptions in the Telugu region (Simhachalam temple complex) attest his Vaiṣṇava activity as Eastern-Gaṅga court official prior to formal sannyāsa.",
+  "dates_evidence": [
+    {
+      "kind": "inscription",
+      "description": "Simhachalam temple inscriptions (Eastern-Gaṅga period) referring to Narahari as Vaiṣṇava administrator before his pontifical succession."
+    },
+    {
+      "kind": "sectarian-chronicle",
+      "description": "Mādhva pīṭha-paramparā chronicles."
+    }
+  ],
+  "school": "Dvaita",
+  "school_color_token": "dvaita",
+  "sub_school": "Madhva-paramparā-direct-disciple",
+  "sub_school_shade": 2,
+  "lineage_in": [
+    "madhva",
+    "padmanabha-tirtha"
+  ],
+  "lineage_out": [
+    "aksobhya-tirtha"
+  ],
+  "lineage_polemical": [],
+  "core_thesis": "Narahari-Tīrtha is the third pontiff of the Mādhva *paramparā* and the figure through whom Madhva's *Gītā-Bhāṣya* receives its first sub-commentary, the *Gītā-Bhāṣya-Vivaraṇa*. The doctrinal architecture is Madhva's, transmitted without revision: Viṣṇu-as-Kṛṣṇa as the *svatantra-tattva* and the speaker of the *Gītā* (*Gītā-Bhāṣya-Vivaraṇa* on *Bhagavad-Gītā* 2.12, on the *jīva-bheda*-passage); the *jīva*'s status as *paratantra* and as *aṃśa* of Viṣṇu in the *bimba-pratibimba* sense (*Gītā-Bhāṣya-Vivaraṇa* on *Bhagavad-Gītā* 15.7, on the *mamaivāṃśo jīvaloke* verse); the *Tāratamya* (*Gītā-Bhāṣya-Vivaraṇa* on *Bhagavad-Gītā* 14.18, on the threefold *guṇa*-graded destinies, read through the *Tāratamya*); *bhakti* as the operative means with *jñāna* and *karma* subsumed within it (*Gītā-Bhāṣya-Vivaraṇa* on *Bhagavad-Gītā* 18.65–66, on the *carama-śloka*-pair).\n\nThe contribution is in two registers. First, the *Gītā-Bhāṣya-Vivaraṇa* — the school's earliest sub-commentary on Madhva's *Gītā-Bhāṣya*, fixing the lineage's reading of the *Bhagavad-Gītā* in the form transmitted in the first generation. The work is shorter than Jayatīrtha's later *Prameya-Dīpikā* (which will become the standard sub-commentary for higher study) and is closely word-locked to Madhva's *Bhāṣya*-text. Second, the institutional-historical: Narahari-Tīrtha is the lineage's principal eastern-Indian agent, holding administrative office under the Eastern Gaṅga dynasty in the Telugu region (the Simhachalam temple-complex bears inscriptions from his administrative period) and recovering — by Mādhva tradition — the *mūla-vigraha* of Mūla-Rāma and Mūla-Sītā that becomes the principal cult-image of the Mādhva *pīṭha*-succession (the *Mūla-Rāma-vigraha* tradition is fixed in the lineage's transmission to Akṣobhya-Tīrtha and Jayatīrtha). His significance is therefore the geographical extension of the *paramparā* into the eastern Telugu-Oḍiyā region and the institutional fixing of the *pīṭha*-cult in the form transmitted by the later school.",
+  "engaged_works": [
+    {
+      "work_id": "gita-bhasya-vivarana",
+      "title": "Gita-Bhashya-Vivarana",
+      "title_iast": "Gītā-Bhāṣya-Vivaraṇa",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored sub-commentary on Madhva's Gītā-Bhāṣya; preserved in the Mādhva manuscript canon.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."},
+        {"kind": "manuscript-colophon", "description": "Manuscript colophons across the Mādhva-paramparā preservation tradition."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "The *Gītā-Bhāṣya-Vivaraṇa* is Narahari-Tīrtha's sub-commentary on Madhva's *Gītā-Bhāṣya* — the school's earliest sub-commentary on the *Gītā*-commentary in the first generation of Madhva's disciples. The method is verse-by-verse exposition with the school's settled position fixed at each contested point. Three loci do the load-bearing work. (i) The *jīva-bheda*-passages (*Gītā-Bhāṣya-Vivaraṇa* on *Bhagavad-Gītā* 2.11–30, especially the *na tv evāhaṃ jātu nāsam* verse) fix the school's realist reading of the *jīvas*' eternal plurality, against Śaṅkara's reading of *Bhagavad-Gītā* 2.12 as licensing identity at the deeper level. (ii) The *mamaivāṃśo* verse (*Gītā-Bhāṣya-Vivaraṇa* on *Bhagavad-Gītā* 15.7) is read in the *bimba-pratibimba* sense with strict asymmetry — the *jīva* as image owing everything to Viṣṇu as original, against any reciprocal or pariṇāma-construal. (iii) The *carama-śloka*-pair (*Gītā-Bhāṣya-Vivaraṇa* on *Bhagavad-Gītā* 18.65–66, on *sarva-dharmān parityajya*) is read as fixing *bhakti* as the operative means with *jñāna* and *karma* subsumed within it; the *jīva*'s surrender is recognition of Viṣṇu's *svātantrya* against the agent's *paratantrya*. The work is the form in which the first-generation Mādhva community received the *Gītā-Bhāṣya*; Jayatīrtha's later *Prameya-Dīpikā* will refine and supersede for higher study, but the *Gītā-Bhāṣya-Vivaraṇa* remains in the school's manuscript canon as the earliest direct-disciple reading of Madhva on the *Gītā*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-intra-school-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-intra-school-opus"
+}
