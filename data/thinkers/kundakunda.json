@@ -79,7 +79,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
-      "summary": "173 Prākrit gāthās analysing the five *astikāyas* (extension-bodies) of Jaina ontology — *jīva*, *pudgala*, *dharma*, *adharma*, *ākāśa* — together with the non-extension category *kāla*. The work systematically develops the categorial structure that Umāsvāti's *Tattvārtha-Sūtra* gives in compressed form, and articulates the doctrine that the *jīva* in its niścaya-essential nature is *cid-svarūpa*, *avyaya*, *pradeśa-vān* (possessed of innumerable spatial points but not divisible). The text is the standard Digambara introduction to Jaina ontology.",
+      "summary": "173 Prākrit gāthās analysing the five *astikāyas* (extension-bodies) of Jaina ontology — *jīva*, *pudgala*, *dharma*, *adharma*, *ākāśa* — together with the non-extension category *kāla* (*Pañcāstikāya* gāthā 4–25, the foundational survey). The work systematically develops the categorial structure that Umāsvāti's *Tattvārtha-Sūtra* (5.1–5) gives in compressed form, and articulates the doctrine that the *jīva* in its niścaya-essential nature is *cid-svarūpa*, *avyaya*, *pradeśa-vān* (possessed of innumerable spatial points but not divisible — *Pañcāstikāya* gāthā 27–35, on *jīvāstikāya*). The text is the standard Digambara introduction to Jaina ontology.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     }
@@ -89,5 +89,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-darsana-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-comparators-darsana-opus"
+  "last_verified_by": "wave-citation-batch6-opus"
 }

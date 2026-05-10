@@ -1,0 +1,22 @@
+{
+  "term_key": "ishta-linga",
+  "term_iast": "iṣṭa-liṅga",
+  "term_devanagari": "इष्टलिङ्ग",
+  "literal": "the desired / personal liṅga; from iṣṭa (\"chosen, desired\") + liṅga (\"sign, mark; the Śaiva aniconic emblem of Śiva\")",
+  "aliases": ["ishta-linga", "iṣṭa-liṅga", "iṣṭaliṅga", "kara-sthala-liṅga"],
+  "invariant_definition": "The Vīraśaiva (Liṅgāyat) doctrine and ritual practice of personal *liṅga*-worship: each devotee receives at *dīkṣā* (initiation) a personal *liṅga* (typically worn on a string around the neck or held in the palm of the hand — *kara-sthala*) and worships only this *liṅga* throughout life. The doctrine replaces temple-Brahmanical Śiva-worship with internal-personal Śiva-worship, dissolves the priestly intermediary (the *jaṅgama* — wandering renunciate — replaces the Brahmanical priest as the figure of authority), and articulates the Vīraśaiva commitment that Śiva is to be worshipped *as one's own*, in the body, with no temple-pilgrimage required and no ritual-Brahmanical purity-protocol demanded as a precondition. The practice is the central ritual marker of Vīraśaiva identity and is the principal form in which the movement's anti-caste anti-Vedic-ritual social vision is enacted.",
+  "per_school": [
+    {
+      "school": "Vīraśaiva (Basava and the twelfth-century Karnataka movement)",
+      "definition": "The *iṣṭa-liṅga* is one of the *aṣṭāvaraṇa* (\"eight-fold protection\" — *guru*, *liṅga*, *jaṅgama*, *vibhūti*, *rudrākṣa*, *mantra*, *pāda-tīrtha*, *prasāda*) of Vīraśaiva discipline. The *vacanas* of Basava and the Śaraṇas develop the doctrine: 'making the river that goes by your house holy / making the trees in your yard sacred / how about the worship in the heart?' (a representative Basava-style vacana on internal worship versus external Brahmanical purity). The personal *liṅga* received at *dīkṣā* is identified with one's own essential consciousness as Śiva.",
+      "primary_loci": ["Basava-vacanas (whole)", "Allama-Prabhu-vacanas", "Cennabasavapurāṇa"]
+    },
+    {
+      "school": "Mainstream Śaiva (refusal)",
+      "definition": "The temple-Brahmanical Śaiva tradition (Tamil Śaiva-Siddhānta, the Smārta-Śaiva tradition) does not recognise the *iṣṭa-liṅga* as a legitimate substitute for temple-*liṅga* worship; the Pāśupata, Saiddhāntika, and Trika traditions all assume temple- or *maṭha*-based *liṅga* worship within Brahmanical or Śaiva-priestly liturgical structure. The Vīraśaiva doctrine is in this sense a deliberate departure from the wider Śaiva ritual norm.",
+      "primary_loci": []
+    }
+  ],
+  "see_also": ["siva", "ishta-devata", "guru"],
+  "translator_note": "'Personal liṅga' acceptable; 'individual liṅga' less precise (the Sanskrit *iṣṭa* connotes the *chosen* or *desired*, and the Vīraśaiva tradition treats the *iṣṭa-liṅga* as both received-from-the-guru and chosen-by-the-devotee). Western readers should not import phallic associations from outdated colonial-era Indological literature; the *liṅga* in Śaiva theology is an aniconic emblem of Śiva-as-such, and the Vīraśaiva *iṣṭa-liṅga* is a small smooth ritual object worn on the body, not a representational image."
+}

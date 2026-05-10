@@ -1,0 +1,22 @@
+{
+  "term_key": "shuddha-sattva",
+  "term_iast": "śuddha-sattva",
+  "term_devanagari": "शुद्धसत्त्व",
+  "literal": "pure being / pure sattva-substance; from śuddha (\"pure\") + sattva (\"being; the lucid quality\")",
+  "aliases": ["shuddha-sattva", "śuddha-sattva", "śuddhasattva", "śuddha-sattva-vigraha"],
+  "invariant_definition": "The Pāñcarātra Vaiṣṇava-Tantric doctrine of the supraphysical material of which the divine *vyūha*-forms, the *vibhava*-incarnations, and the *parama-pada* (the supreme abode of Vaikuṇṭha) are constituted. *Śuddha-sattva* is ontologically distinct from *prakṛti*'s mixed *sattva-rajas-tamas*: it is unmixed *sattva*, beginningless, indestructible, the substance the divine *vigraha* (form) is *really* made of rather than merely apparently or symbolically. The doctrine is what makes the divine forms of Vaiṣṇava theology *real* forms — Viṣṇu's four arms, Lakṣmī's lotus-seat, the consecrated *arcā*-image — rather than merely expedient projections. The Viśiṣṭādvaita absorption of the doctrine through Yāmuna and Rāmānuja makes *śuddha-sattva* the metaphysical underwriting of the Śrīvaiṣṇava temple-tradition's claim that the *arcā*-image is *really* the Lord rather than a symbol of the Lord.",
+  "per_school": [
+    {
+      "school": "Pāñcarātra (Vaiṣṇava-Tantric)",
+      "definition": "*Śuddha-sattva* is the supraphysical material of the *vyūha*-forms, the *vibhava*-descents, and the *parama-pada*. The doctrine is articulated in the Saṃhitās as the ontological ground of the divine *vigraha*; it is what allows the divine forms to be *real* forms.",
+      "primary_loci": ["Sātvata-Saṃhitā", "Lakṣmī-Tantra 6", "Ahirbudhnya-Saṃhitā 6"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Yāmuna's *Āgama-Prāmāṇya* and Rāmānuja's *Śrī-Bhāṣya* absorb the *śuddha-sattva* doctrine: the divine *vigraha* — including the *arcā*-image consecrated at a Śrīvaiṣṇava temple — is constituted of *śuddha-sattva* and is therefore *really* the Lord rather than a symbol. The doctrine is central to the Śrīvaiṣṇava theology of *arcā-avatāra* (the Lord's descent into the consecrated image).",
+      "primary_loci": ["Āgama-Prāmāṇya (Yāmuna)", "Śrī-Bhāṣya 1.1.1 prelude", "Vedārtha-Saṅgraha §136ff"]
+    }
+  ],
+  "see_also": ["vyuha", "sattva", "saguna", "amsa"],
+  "translator_note": "'Pure being' or 'pure sattva-substance' acceptable. The Western reader should not assimilate *śuddha-sattva* to the Christian-Platonic notion of 'spiritual substance' without qualification — *śuddha-sattva* is a positive material category in Pāñcarātra ontology (it has *guṇas*, it can be ritually-magnetised, it is the substrate of consecrated images), not a privative or merely-non-physical category."
+}
