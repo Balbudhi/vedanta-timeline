@@ -16,7 +16,9 @@
     "vyasa-bhasya",
     "patanjali"
   ],
-  "lineage_out": [],
+  "lineage_out": [
+    "bhava-ganesa"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "patanjali",

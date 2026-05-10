@@ -650,6 +650,27 @@
     "short_description": "Twentieth- and early-twenty-first-century philological-textual Dvaita (Bannañje Govindācārya), re-establishing Madhva's full Sarva-Mūla-Granthāḥ as a critically-edited corpus and supplying modern Sanskrit vyākhyānas across the school's canon.",
     "representative_thinker_ids": ["bannanje"]
   },
+  "madhva-paramparā-direct-disciple": {
+    "display_name": "Madhva-paramparā direct disciples",
+    "parent_school_color_token": "dvaita",
+    "shade": 2,
+    "short_description": "The first generation of Madhva's direct disciples (Trivikrama Paṇḍita, Padmanābha-Tīrtha, Narahari-Tīrtha, Akṣobhya-Tīrtha, Nārāyaṇa-Paṇḍitācārya) through whom the Sarva-Mūla-Granthāḥ first received sub-commentary, hagiography (Sumadhva-Vijaya), and the public Vijayanagara-court śāstrārtha tradition that Vyāsatīrtha will later carry forward.",
+    "representative_thinker_ids": ["trivikrama-pandita", "padmanabha-tirtha", "narahari-tirtha", "aksobhya-tirtha", "narayana-panditacarya"]
+  },
+  "hariraya-goswāmī-paramparā": {
+    "display_name": "Hariraya-Goswāmī-paramparā",
+    "parent_school_color_token": "shuddha",
+    "shade": 4,
+    "short_description": "The seventeenth-century Puṣṭi-Mārga pastoral-doctrinal stream of Goswāmī Hariraya, transmitting Vallabha's śuddhādvaita and Viṭṭhalanātha's seva-codification through the Śikṣā-Patra epistles and the Vivaraṇas on the Ṣoḍaśa-Granthāḥ in the form studied in modern Puṣṭimārga lay curricula.",
+    "representative_thinker_ids": ["hariraya"]
+  },
+  "tenkalai-vyākhyā-cakravarti": {
+    "display_name": "Tenkalai-vyākhyā-cakravarti",
+    "parent_school_color_token": "vishishtadvaita",
+    "shade": 4,
+    "short_description": "Periyavāccān Piḷḷai's pre-Pillai-Lokācārya Tamil-Maṇipravāḷa vyākhyāna-corpus on the Nālāyira-Divya-Prabandham — the only complete Śrīvaiṣṇava commentary on the four-thousand-verse Āḻvār canon, on which the Tenkalai school's prabandham-as-Drāviḍa-Veda reading-practice rests.",
+    "representative_thinker_ids": ["periyavaccan-pillai"]
+  },
   "gaudiya-matha": {
     "display_name": "Gauḍīya Maṭha (modern systematic-institutional)",
     "parent_school_color_token": "acintya",
