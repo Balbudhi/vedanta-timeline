@@ -440,6 +440,62 @@
     "short_description": "The Cārvāka / Lokāyata position as reconstructible from hostile-citation: pratyakṣa as sole pramāṇa, the rejection of inference as evidentially unreliable, the rejection of the post-mortem soul.",
     "representative_thinker_ids": ["carvaka"]
   },
+  "madhyamaka-founder": {
+    "display_name": "Mādhyamaka-founder",
+    "parent_school_color_token": "madhyamaka-comparator",
+    "shade": 3,
+    "short_description": "Nāgārjuna's founding stratum of the middle-way: the Mūla-Madhyamaka-Kārikā with its catuṣkoṭi-driven refutation of svabhāva and the identification of śūnyatā with pratītya-samutpāda (MMK 24.18).",
+    "representative_thinker_ids": ["nagarjuna"]
+  },
+  "prasangika": {
+    "display_name": "Prāsaṅgika",
+    "parent_school_color_token": "madhyamaka-comparator",
+    "shade": 5,
+    "short_description": "Candrakīrti's Prāsaṅgika Mādhyamaka: refuses to posit any conventional ontology even at the saṃvṛti level, advancing only prasaṅga (consequence) refutations rather than independent svatantra-anumānas.",
+    "representative_thinker_ids": ["candrakirti"]
+  },
+  "svatantrika": {
+    "display_name": "Svātantrika",
+    "parent_school_color_token": "madhyamaka-comparator",
+    "shade": 2,
+    "short_description": "Bhāviveka's Svātantrika Mādhyamaka: accepts svatantra-anumāna (independent inference) at the conventional level while preserving Nāgārjuna's ultimate śūnyatā; the polemical pair of Candrakīrti's Prāsaṅgika.",
+    "representative_thinker_ids": ["bhaviveka"]
+  },
+  "yogacara-founder": {
+    "display_name": "Yogācāra-founder",
+    "parent_school_color_token": "yogacara-comparator",
+    "shade": 3,
+    "short_description": "Asaṅga's founding stratum of the cognition-only school: the trisvabhāva analysis (parikalpita / paratantra / pariniṣpanna), the ālaya-vijñāna as transformative substrate, and the systematisation of bodhisattva-praxis in the Bodhisattva-Bhūmi.",
+    "representative_thinker_ids": ["asanga"]
+  },
+  "sakara-vijnanavada": {
+    "display_name": "Sākāra-vijñānavāda",
+    "parent_school_color_token": "yogacara-comparator",
+    "shade": 4,
+    "short_description": "The Yogācāra current that holds cognition to bear an internal image-form (ākāra) of its content; the position Vasubandhu's Viṃśatikā develops in defence of vijñapti-mātratā against external-object realism.",
+    "representative_thinker_ids": ["vasubandhu"]
+  },
+  "nirakara-vijnanavada": {
+    "display_name": "Nirākāra-vijñānavāda",
+    "parent_school_color_token": "yogacara-comparator",
+    "shade": 2,
+    "short_description": "The rival Yogācāra current denying that cognition bears an internal ākāra: cognition is bare luminous awareness without form, the form-bearing reading being a concession to ordinary discourse rather than a metaphysical commitment.",
+    "representative_thinker_ids": []
+  },
+  "pramana-vada-founder": {
+    "display_name": "Pramāṇa-vāda-founder",
+    "parent_school_color_token": "buddhist-pramana-comparator",
+    "shade": 2,
+    "short_description": "Dignāga's founding stratum of the Buddhist epistemological school: the Pramāṇa-Samuccaya, the pramāṇa-dvaya thesis (only pratyakṣa and anumāna), the svalakṣaṇa / sāmānya-lakṣaṇa distinction, and the apoha-vāda of concept-formation.",
+    "representative_thinker_ids": ["dignaga"]
+  },
+  "pramana-vada-mature": {
+    "display_name": "Pramāṇa-vāda-mature",
+    "parent_school_color_token": "buddhist-pramana-comparator",
+    "shade": 4,
+    "short_description": "Dharmakīrti's mature Buddhist epistemology: the Pramāṇa-Vārttika and its sub-treatises develop trairūpya, svabhāva-pratibandha as the ground of inferential necessity, the radical kṣaṇika-vāda defence, and the mature apoha apparatus answered by Udayana and Gaṅgeśa.",
+    "representative_thinker_ids": ["dharmakirti"]
+  },
   "kashmir-shaiva-siddhanta-founding": {
     "display_name": "Kashmir Śaiva-Siddhānta (founding)",
     "parent_school_color_token": "kashmir-shaiva-dualist",

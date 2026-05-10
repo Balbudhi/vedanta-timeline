@@ -124,5 +124,23 @@
     "color_hex": "#57534e",
     "color_palette": ["#f5f5f4", "#d6d3d1", "#a8a29e", "#57534e", "#1c1917"],
     "short_description": "The reconstructed position holding pratyakṣa as sole pramāṇa, denying inference's reliability and the post-mortem soul; preserved only through hostile citation in Mādhava's Sarva-Darśana-Saṅgraha and in Jayarāśi's Tattvopaplava-Siṃha."
+  },
+  "madhyamaka-comparator": {
+    "display_name": "Mādhyamaka (comparator)",
+    "color_hex": "#7c2d12",
+    "color_palette": ["#fef2e9", "#fbd5b5", "#d97757", "#7c2d12", "#3f1206"],
+    "short_description": "Nāgārjuna's middle-way Buddhism: śūnyatā-as-pratītya-samutpāda, the catuṣkoṭi as load-bearing dialectical apparatus, and the two-truths (saṃvṛti / paramārtha) whose structural homology with Advaita's vyāvahārika / pāramārthika drives the pracchanna-bauddha charge against Śaṅkara."
+  },
+  "yogacara-comparator": {
+    "display_name": "Yogācāra (comparator)",
+    "color_hex": "#155e75",
+    "color_palette": ["#ecfeff", "#a5f3fc", "#22d3ee", "#155e75", "#083344"],
+    "short_description": "The Buddhist cognition-only school of Asaṅga and Vasubandhu: trisvabhāva (parikalpita / paratantra / pariniṣpanna), ālaya-vijñāna as transformative substrate, and vijñapti-mātratā — refuted at Brahma-Sūtra-Bhāṣya 2.2.28–32 and engaged extensively by Yāmuna's Saṃvit-Siddhi."
+  },
+  "buddhist-pramana-comparator": {
+    "display_name": "Buddhist Pramāṇa (comparator)",
+    "color_hex": "#3f3f46",
+    "color_palette": ["#f4f4f5", "#d4d4d8", "#71717a", "#3f3f46", "#18181b"],
+    "short_description": "The Dignāga–Dharmakīrti epistemological school: the pramāṇa-dvaya thesis (only pratyakṣa and anumāna), apoha-vāda for concept-formation, the svalakṣaṇa / sāmānya-lakṣaṇa distinction, and trairūpya for the inferential mark; the principal Buddhist dialogue partner of Naiyāyikas Uddyotakara, Vāchaspati, Udayana, and Gaṅgeśa."
   }
 }
