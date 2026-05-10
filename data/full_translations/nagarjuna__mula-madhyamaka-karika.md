@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Mūla-Madhyamaka-Kārikā — Extended Translation
 **By:** Nāgārjuna  
 **Locus scope:** MMK 1.1–14 (*pratyaya-parīkṣā*); 18.4–12 (*ātma-parīkṣā*); 24.8–22 (*ārya-satya-parīkṣā*); 25.1–24 (*nirvāṇa-parīkṣā*). The local GRETIL base text ends Chapter 25 at verse 24.  

@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Anuvyākhyāna — Extended Translation
 **By:** Madhva  
 **Locus scope:** Four programmatic loci already canonized in the site corpus for this work: Anuvy. 1.1.13-15; 1.4.111-112; 2.3.66-69; 3.3.1.  

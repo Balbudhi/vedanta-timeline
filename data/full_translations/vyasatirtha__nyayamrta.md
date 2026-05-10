@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Nyāyāmṛta — Extended Translation
 **By:** Vyāsatīrtha  
 **Locus scope:** *Prathama-pariccheda*, opening *maṅgalaśloka*-cluster (verses 1–8; pp. 1–3 of the 1994 edition), immediately before the prose exegesis begins  

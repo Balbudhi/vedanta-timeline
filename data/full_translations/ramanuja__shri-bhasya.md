@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Śrī-Bhāṣya — Extended Translation
 **By:** Rāmānuja  
 **Locus scope:** Fallback opening dossier on *Brahma-Sūtra* 1.1.1 (*brahmajijñāsādhikaraṇa*): only the securely recoverable opening lines from a noisy partial OCR of the *Catuḥsūtrī* are translated here.  

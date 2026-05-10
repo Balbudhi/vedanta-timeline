@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Bhakti-Rasāmṛta-Sindhu — Extended Translation
 **By:** Rūpa Gosvāmī  
 **Locus scope:** *Pūrva-vibhāga*, *sāmānya-bhakti*, first *laharī*, verses 1.1.7–1.1.16, the opening definitional cluster on *uttamā-bhakti*  

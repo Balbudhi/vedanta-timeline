@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Bhakti-Rasāyana — Extended Translation
 **By:** Madhusūdana Sarasvatī  
 **Locus scope:** *Prathama Ullāsa*, kārikā 1 together with the doctrinal ṭīkā-subsection beginning `nanu tarhi nāmāntareṇa...` and ending `[iti vakṣyamāṇa-sarvārtha-saṅgraha-rūpa-prathama-kārikā-vivaraṇam]`  

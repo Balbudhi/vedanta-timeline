@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Īśvara-Siddhi — Extended Translation
 **By:** Yāmunācārya  
 **Locus scope:** Īśvara-Siddhi verses 14–18 (closing inferential block: re-establishment of *kāryatva* and compressed proof for a single governing *Īśvara*)  

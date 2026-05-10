@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Vedārtha-Saṃgraha — Extended Translation
 **By:** Rāmānuja  
 **Locus scope:** Opening doctrinal proem, sections 1-6 (maṅgala, homage to Yāmunācārya, statement of aim, Upaniṣadic scriptural horizon, definition of the *jīva*, initial definition of *antaryāmin* Brahman)  

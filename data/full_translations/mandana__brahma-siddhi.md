@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Brahma-Siddhi — Extended Translation
 **By:** Maṇḍana Miśra  
 **Locus scope:** Original first kāṇḍa in its doctrinal spine: the maṅgala verse, the proem on Vedāntic *prāmāṇya*, the *ānanda* and *avidyā* hinge-passages of the Brahma-kāṇḍa, the concluding summary verse (*MBs* 1.3), and the Tarka-kāṇḍa incipit (*MBs* 1.4), i.e. the arc preserved in the corpus as the opening of the originally undivided first kāṇḍa.  

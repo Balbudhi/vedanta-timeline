@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Viṃśatikā — Extended Translation
 **By:** Vasubandhu  
 **Locus scope:** Viṃśatikā-Vṛtti 1-10, the opening argumentative block from the thesis of *vijñaptimātra* through the pedagogic clarification of *pudgala*- and *dharma-nairātmya*.  

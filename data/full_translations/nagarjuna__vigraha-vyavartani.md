@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Vigrahavyāvartanī — Extended Translation
 **By:** Nāgārjuna  
 **Locus scope:** VV 21–29, the metrical core of Nāgārjuna's reply to the opening self-referential objection, culminating in the *na mama pratijñā* claim; the adjacent auto-commentary is used in the notes.  

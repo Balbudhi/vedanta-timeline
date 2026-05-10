@@ -1,3 +1,8 @@
+---
+coverage: placeholder
+coverage_evidence: 'no IAST sections; status/acquisition stub'
+---
+
 # Tattva-Pradīpikā (Citsukhī)
 
 **By:** Citsukha

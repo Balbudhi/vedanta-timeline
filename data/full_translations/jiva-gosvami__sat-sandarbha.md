@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Ṣaṭ-Sandarbha — Extended Translation
 **By:** Jīva Gosvāmī  
 **Locus scope:** *Paramātma-Sandarbha* §§42–45, the closing reconciliation of *bheda* and *abheda* and the derivation of *abhidheya* and *prayojana*  

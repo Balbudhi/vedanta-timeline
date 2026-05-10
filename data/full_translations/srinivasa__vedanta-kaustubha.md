@@ -1,3 +1,8 @@
+---
+coverage: selection
+coverage_evidence: 'locus-scope describes restricted range'
+---
+
 # Vedānta-Kaustubha — Extended Translation
 **By:** Śrīnivāsa  
 **Locus scope:** Preserved load-bearing dossier: opening maṅgalācaraṇa 1, opening upodghāta, BS 1.1.1 introductory ontology, and BS 2.3.42 on the *aṃśa* relation of the *jīva* to Paramātman.  
