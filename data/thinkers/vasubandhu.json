@@ -65,7 +65,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
-      "summary": "Thirty verses compressing the mature Yogācāra position into its most quoted statement. Verses 1–17 develop the *vijñāna-pariṇāma* analysis: cognition transforms in three modes (*ālaya-vijñāna*, *manas*, the six sense-consciousnesses), with the *ālaya* carrying *vāsanā*-seeds across moments and providing the substrate for the appearance of an enduring perceiver. Verses 18–25 develop the *trisvabhāva* analysis: *parikalpita* (the falsified subject-object duality), *paratantra* (the dependently-arisen cognitive flow), *pariniṣpanna* (the *paratantra* devoid of *parikalpita*) — and the corresponding *triḥ-niḥsvabhāvatā* showing that even these three are themselves *niḥsvabhāva* in the Mahāyāna sense. Verses 26–30 apply the analysis to the path and to *pariniṣpatti*. The text is the canonical Yogācāra base-text in the *kārikā*-genre, and the immediate target of Bhāviveka's anti-Yogācāra polemic and of the Vedāntic *vijñāna-vāda*-refutation chain.",
+      "summary": "Thirty verses compressing the mature Yogācāra position into its most quoted statement. Verses 1–17 develop the *vijñāna-pariṇāma* analysis: cognition transforms in three modes (*ālaya-vijñāna*, *manas*, the six sense-consciousnesses), with the *ālaya* carrying *vāsanā*-seeds across moments and providing the substrate for the appearance of an enduring perceiver. Verses 18–25 develop the *trisvabhāva* analysis: *parikalpita* (the falsified subject-object duality), *paratantra* (the dependently-arisen cognitive flow), *pariniṣpanna* (the *paratantra* devoid of *parikalpita*) — and the corresponding *triḥ-niḥsvabhāvatā* showing that even these three are themselves *niḥsvabhāva* in the Mahāyāna sense. Verses 26–30 apply the analysis to the path and to *pariniṣpatti*. The text is the canonical Yogācāra base-text in the *kārikā*-genre and is the standard reference for *vijñapti-mātratā* in its mature form.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     },
@@ -81,7 +81,7 @@
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
-      "summary": "Twenty verses with auto-commentary defending *vijñapti-mātratā* against the four standard objections from the realist opponent. Objection 1: without external objects we cannot account for the *deśa-niyama* (spatial regularity) that ties certain cognitions to certain places; reply via the dream-analogy and karmic *vāsanā*-determination. Objection 2: nor for *kāla-niyama* (temporal regularity); reply by the same. Objection 3: nor for *santāna-aniyama* (intersubjective agreement — multiple people see the 'same' object); reply via the karmic-collective shaping of *vāsanā*-streams that share content without requiring an extra-cognitive object. Objection 4: nor for *kṛtya-kriyā* (the determinate efficacy of cognition — the cognised water actually slakes thirst); reply via the dream-emission analogy and the karmic-efficacy of cognitive content. The text is the principal Yogācāra polemic against external-object realism and the canonical statement of the *vijñapti-mātra* defence the Vedāntic and Mādhyamaka schools refute.",
+      "summary": "Twenty verses with auto-commentary defending *vijñapti-mātratā* against the four standard objections from the realist opponent. Objection 1: without external objects we cannot account for the *deśa-niyama* (spatial regularity) that ties certain cognitions to certain places; reply via the dream-analogy and karmic *vāsanā*-determination. Objection 2: nor for *kāla-niyama* (temporal regularity); reply by the same. Objection 3: nor for *santāna-aniyama* (intersubjective agreement — multiple people see the 'same' object); reply via the karmic-collective shaping of *vāsanā*-streams that share content without requiring an extra-cognitive object. Objection 4: nor for *kṛtya-kriyā* (the determinate efficacy of cognition — the cognised water actually slakes thirst); reply via the dream-emission analogy and the karmic-efficacy of cognitive content. The text is the principal Yogācāra polemic against external-object realism and the canonical statement of the *vijñapti-mātra* defence.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     },
@@ -118,6 +118,6 @@
   "reception_notes": "Vasubandhu is the principal Yogācāra interlocutor of the Vedāntic tradition. The *vijñāna-vāda*-refutation at Brahma-Sūtra-Bhāṣya 2.2.28–32 targets the *Viṃśatikā* / *Triṃśikā* position; Yāmuna's *Saṃvit-Siddhi* engages it at length from the Viśiṣṭādvaita side; later Advaita scholastic engagement (e.g., in Vimuktātman's *Iṣṭa-Siddhi* and Citsukha's *Tattva-Pradīpikā*) occupies a more complex position, refusing *vijñapti-mātra* as Buddhism but adopting some of the *prātibhāsika* and *cidābhāsa* analytical apparatus. The *Abhidharma-Kośa-Bhāṣya* circulated as a standard Buddhist scholastic reference even outside Yogācāra-influenced circles.",
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-buddhist-comparators-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-buddhist-comparators-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-comparator-tone-opus"
 }
