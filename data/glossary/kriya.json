@@ -1,0 +1,39 @@
+{
+  "term_key": "kriya",
+  "term_iast": "kriyā",
+  "term_devanagari": "क्रिया",
+  "literal": "doing, performing, the verbal action itself; from √kṛ",
+  "aliases": ["kriya", "kriyā", "Kriyā", "kriyāyāḥ", "kriyāyām", "kriyayā", "kriyāḥ"],
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "*Kriyā* names the verbal action itself — the dynamic process expressed by a finite verb — as distinct from its agent (*kartṛ*), instrument (*karaṇa*), or patient (*karman*/*kārya*). In Pāṇinian grammar a sentence is built around a *kriyā* whose role-relations are filled by the *kāraka*s; *kriyā* is therefore the relational center that the *kāraka*-roles surround. In ritual and Vedāntic discourse *kriyā* often picks out enjoined ritual performance under *codanā* (Pūrva-Mīmāṃsā) — but the term is broader, covering any process intelligible through agent-instrument-patient analysis. The *kriyā / kāraka / phala* triad shows how the Indian schools refused to treat 'action' as a primitive: every action is already a relational structure with its grammar and its causal residue. In Tantric and Śaiva contexts *kriyā* further names the *kriyā-pāda* of the Āgamas — the ritual-procedural section, contrasted with *jñāna-pāda* (doctrinal), *yoga-pāda* (meditative), and *caryā-pāda* (conduct). Vedāntic schools differ on whether *kriyā* in its ritual sense is co-instrumental in liberation (the *jñāna-karma-samuccaya* dispute), but they all accept the Pāṇinian grammatical analysis as the descriptive baseline for what an action is.",
+  "per_school": [
+    {
+      "school": "Pāṇinian grammar / Vyākaraṇa",
+      "definition": "*Kriyā* is the verbal action expressed by the finite verb (*tiṅanta*); the *kāraka* roles are its participants. Bhartṛhari's *Vākyapadīya* analyzes *kriyā* as a sequence (*krama*) of phases unified under a single *sādhya*; the apparently temporally-spread action is grasped as a single relational structure by the hearer's *pratibhā*.",
+      "primary_loci": ["Aṣṭādhyāyī 1.3.1ff (the *dhātu*-based action sense)", "Aṣṭādhyāyī 1.4.23 (*kārake*) introducing the role-frame", "Vākyapadīya 3.8 (Sādhana-Samuddeśa)", "Vākyapadīya 3.9 (Kriyā-Samuddeśa)"]
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "*Kriyā* is paradigmatically the Veda-enjoined ritual act, intelligible through *bhāvanā* (the productive force connecting *codanā* — the injunction — to *phala*, the result). Mīmāṃsā distinguishes *śabda-bhāvanā* (the urge-producing force of the verb-ending) from *artha-bhāvanā* (the act's own causal contribution). *Apūrva* is posited to bridge the temporally completed *kriyā* and its later *phala*.",
+      "primary_loci": ["Jaimini-Sūtra 2.1.1ff (the *karma*-section)", "Śabara-Bhāṣya on Jaimini-Sūtra 2.1.5 [NOT YET RETRIEVED]", "Kumārila, Tantra-Vārttika on bhāvanā [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Advaita",
+      "definition": "All *kriyā* presupposes the agent-object division (*kartṛtva-bhoktṛtva*) constituted under *avidyā*; therefore no *kriyā*, however elevated, can directly produce the unproduced — namely the *ātman*'s self-knowledge. *Kriyā* nevertheless serves as *citta-śuddhi-upāya*. Bhartṛhari's analysis is accepted descriptively: the verb-centred relational structure is the right account of what action is at the *vyāvahārika* level.",
+      "primary_loci": ["Bhagavad-Gītā-Bhāṣya 18.66", "Brahma-Sūtra-Bhāṣya 1.1.4 (*jñānam akriyā* arc)", "Naiṣkarmya-Siddhi 1"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Kriyā* — including ritual *kriyā* — is real and continues for the realized as *bhagavad-ārādhana*. Rejecting Advaita's *jñāna-karma-samuccaya-nirāsa*, Rāmānuja treats *kriyā* offered to the Lord as itself an aspect of *bhakti-yoga*.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§137–143", "Śrī-Bhāṣya 3.4.26–27"]
+    },
+    {
+      "school": "Trika / Kashmir Śaivism",
+      "definition": "*Kriyā* is one of the three foundational *śakti*s of Śiva — *icchā* (will), *jñāna* (cognition), *kriyā* (action) — and is the energy through which differentiated manifestation actually unfolds. The Āgamic *kriyā-pāda* is correspondingly the ritual-procedural division. Crucially, *kriyā* is not a fall from *jñāna* but its enacted side; the realized *yogin*'s *spanda* itself is *kriyā-śakti* in undifferentiated freedom.",
+      "primary_loci": ["Tantrāloka 1.108ff (icchā-jñāna-kriyā triad)", "Īśvara-Pratyabhijñā-Kārikā 2.1.1ff [NOT YET RETRIEVED]", "Spanda-Kārikā 1.1–2"]
+    }
+  ],
+  "see_also": ["karma", "kartr", "karana", "karya", "satkarya-vada", "spanda", "sakti"],
+  "translator_note": "'Action' for *kriyā* is acceptable but loses the verb-centred relational structure that Pāṇinian and Mīmāṃsā analysis presuppose. 'Process' is sometimes better. The standard mistranslation collapses *kriyā* and *karma* into a single English 'action,' whereas in technical Sanskrit they are distinct: *kriyā* is the verbal process; *karman* is the patient role within it (or, derivatively, the residue the action produces). Translators who flatten the distinction destroy the entire *kāraka*-grammar argument."
+}

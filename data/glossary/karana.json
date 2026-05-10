@@ -1,0 +1,39 @@
+{
+  "term_key": "karana",
+  "term_iast": "karaṇa",
+  "term_devanagari": "करण",
+  "literal": "instrument, means; from √kṛ + suffix -ana",
+  "aliases": ["karana", "karaṇa", "Karaṇa", "karaṇāni", "karaṇena", "karaṇaiḥ"],
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "*Karaṇa* is the instrumental role within Pāṇinian *kāraka*-analysis: *sādhakatamaṃ karaṇam* (Aṣṭādhyāyī 1.4.42) — that which is most-instrumental to the accomplishment of the action. Beyond grammar, the term has at least three further technical lives across the Indian schools. (1) In Sāṃkhya, the *trayodaśa-karaṇa* (thirteen-instrument) doctrine analyzes the cognitive apparatus — *buddhi*, *ahaṅkāra*, *manas*, the five *jñānendriya*s, the five *karmendriya*s — as the *karaṇa*-set through which *puruṣa*'s experience and action are mediated; the *antaḥkaraṇa* is *karaṇa* internal, the senses *karaṇa* external. (2) In Vedānta epistemology *karaṇa* names the operative cause of cognition (*pramā-karaṇa* = *pramāṇa*) — defining *pramāṇa* itself as the most-effective instrument of veridical cognition. (3) In Vaiśeṣika causal analysis *karaṇa* is one of three causal types: *samavāyi-kāraṇa* (inherent cause, e.g., the threads in cloth), *asamavāyi-kāraṇa* (non-inherent cause, e.g., the conjunction of threads), *nimitta-kāraṇa* (efficient cause, e.g., the weaver). The unifying core is the relational sense: *karaṇa* names whatever stands as the indispensable means by which the *kartṛ*'s activity reaches its *kārya*. Vedāntic schools deploy the term across all three registers and inherit the Sāṃkhyan and Vaiśeṣikan technical apparatus while disagreeing on its ontological status (real *acit* vs. *upādhi* of *avidyā* vs. dependent *śakti*).",
+  "per_school": [
+    {
+      "school": "Pāṇinian grammar",
+      "definition": "*Karaṇa* is one of six *kāraka* roles, defined as *sādhakatamam* — the most-effective participant in bringing about the *kriyā*. The instrumental case (*tṛtīyā vibhakti*) typically marks it.",
+      "primary_loci": ["Aṣṭādhyāyī 1.4.42 (*sādhakatamaṃ karaṇam*)", "Aṣṭādhyāyī 2.3.18 (instrumental case)"]
+    },
+    {
+      "school": "Sāṃkhya / Yoga",
+      "definition": "The *trayodaśa-karaṇa* — thirteen instruments — comprise *buddhi*, *ahaṅkāra*, *manas*, five *jñānendriya*s, five *karmendriya*s. These are the apparatus through which *puruṣa* experiences the *prakṛti*-derived world. *Karaṇa* is therefore the technical name for the cognitive-volitional machinery, not for consciousness as such.",
+      "primary_loci": ["Sāṃkhya-Kārikā 32–33 (the thirteenfold *karaṇa*)", "Sāṃkhya-Kārikā 35", "Yoga-Sūtra-Bhāṣya 2.18–19"]
+    },
+    {
+      "school": "Vaiśeṣika / Nyāya",
+      "definition": "*Karaṇa* is the operative cause of an effect — defined in Nyāya as *kāryaniyatapūrvavṛtti-kāraṇam asādhāraṇam* (the indispensable, non-common antecedent). *Pramāṇa* is itself defined as *pramā-karaṇa*: the operative instrument of veridical cognition. The threefold causal analysis (*samavāyi*, *asamavāyi*, *nimitta*) provides the standard slot-set in which *karaṇa* operates.",
+      "primary_loci": ["Vaiśeṣika-Sūtra 1.1.4ff [NOT YET RETRIEVED]", "Tarka-Saṅgraha §§37–40 (causal classification)", "Nyāya-Sūtra 1.1.3 (defining *pramāṇa*)"]
+    },
+    {
+      "school": "Advaita",
+      "definition": "Advaita accepts the Sāṃkhyan *karaṇa*-list at the *vyāvahārika* level, identifying the *antaḥkaraṇa* as the internal instrument through which the *sākṣin*-illuminated cognitions arise. The cognitive *karaṇa*s are *prakṛti*-derived and therefore unconscious in themselves; they only seem cognitive due to the reflection (*ābhāsa*) of *cit*.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.4.1ff", "Pañcadaśī 1.13–22"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "The *karaṇa*-apparatus is real *acit* belonging to the embodied *jīva* and ultimately to the Lord. Cognition occurs through real causal contact mediated by *manas* and the senses; *jñāna* itself is *dharmabhūta* (an attribute of the *jīva*) but reaches its objects through the *karaṇa*-chain.",
+      "primary_loci": ["Yatīndra-Mata-Dīpikā 5–6", "Śrī-Bhāṣya 2.4.1ff"]
+    }
+  ],
+  "see_also": ["karma", "kriya", "kartr", "karya", "antahkarana", "buddhi", "manas", "indriya", "pramana", "satkarya-vada"],
+  "translator_note": "'Instrument' is the standard and acceptable gloss, but it can mislead in two ways. First, in Sāṃkhya the *karaṇa*-set includes the *buddhi* and *manas* — not just sense-organs — so 'instrument' must include cognitive faculties. Second, in Vaiśeṣika causal analysis *karaṇa* often picks out the *operative* (efficient) cause specifically, not 'instrument' in the loose sense. The most damaging error is to confuse *karaṇa* with *kāraṇa* (कारण), 'cause' — these are distinct technical terms, though related etymologically: *karaṇa* (नपुं) = instrument-role; *kāraṇa* (नपुं) = cause."
+}
