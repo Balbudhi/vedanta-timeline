@@ -1712,3 +1712,357 @@ This is the decisive consequence for the second noble truth. If things are alrea
 
 ---
 
+### MMK 25.1
+
+**Sanskrit (IAST):**
+> *yadi śūnyam idaṃ sarvam udayo nāsti na vyayaḥ*  
+> *prahāṇād vā nirodhād vā kasya nirvāṇam iṣyate*
+
+**English (line-by-line):**
+> If all this were empty, there would be no arising and no passing away.  
+> Then, by abandonment or by cessation, whose nirvāṇa would be admitted?
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| yadi | yadi | indecl. | if |
+| śūnyam | śūnya | nom./acc. sg. n. | empty |
+| idam | idam | nom./acc. sg. n. | this |
+| sarvam | sarva | nom./acc. sg. n. | all |
+| udayaḥ | udaya | nom. sg. m. | arising |
+| na | na | indecl. | not |
+| asti | √as | laṭ, 3rd sg. parasmaipada | is |
+| na | na | indecl. | not |
+| vyayaḥ | vyaya | nom. sg. m. | passing away |
+| prahāṇāt | prahāṇa | abl. sg. n. | from abandonment |
+| vā | vā | indecl. | or |
+| nirodhāt | nirodha | abl. sg. m. | from cessation |
+| vā | vā | indecl. | or |
+| kasya | ka | gen. sg. | of whom |
+| nirvāṇam | nirvāṇa | nom./acc. sg. n. | nirvāṇa |
+| iṣyate | √iṣ | laṭ, 3rd sg. passive | is admitted / is held |
+
+**Compound resolution (samāsa-vigraha):**
+- none
+
+**Kāraka structure:**
+- hetu/apādāna: *prahāṇāt*, *nirodhāt*
+- sambandha: *kasya*
+- kartṛ: *nirvāṇam*
+
+**Verbal modality:**
+- *asti*, *iṣyate*: laṭ / present
+
+**Note:**
+This is the opponent’s objection, not Nāgārjuna’s settled position. The objection assumes that emptiness means the collapse of arising and cessation; the rest of the chapter dismantles that assumption.
+
+---
+
+### MMK 25.2
+
+**Sanskrit (IAST):**
+> *yady aśūnyam idaṃ sarvam udayo nāsti na vyayaḥ*  
+> *prahāṇād vā nirodhād vā kasya nirvāṇam iṣyate*
+
+**English (line-by-line):**
+> If all this were non-empty, there would be no arising and no passing away.  
+> Then, by abandonment or by cessation, whose nirvāṇa would be admitted?
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| yadi | yadi | indecl. | if |
+| aśūnyam | a-śūnya | nom./acc. sg. n. | non-empty |
+| idam | idam | nom./acc. sg. n. | this |
+| sarvam | sarva | nom./acc. sg. n. | all |
+| udayaḥ | udaya | nom. sg. m. | arising |
+| na | na | indecl. | not |
+| asti | √as | laṭ, 3rd sg. parasmaipada | is |
+| na | na | indecl. | not |
+| vyayaḥ | vyaya | nom. sg. m. | passing away |
+| prahāṇāt | prahāṇa | abl. sg. n. | from abandonment |
+| vā | vā | indecl. | or |
+| nirodhāt | nirodha | abl. sg. m. | from cessation |
+| vā | vā | indecl. | or |
+| kasya | ka | gen. sg. | of whom |
+| nirvāṇam | nirvāṇa | nom./acc. sg. n. | nirvāṇa |
+| iṣyate | √iṣ | laṭ, 3rd sg. passive | is admitted |
+
+**Compound resolution (samāsa-vigraha):**
+- *aśūnyam* [nañ-tatpuruṣa]: “non-empty.”
+
+**Kāraka structure:**
+- hetu/apādāna: *prahāṇāt*, *nirodhāt*
+- sambandha: *kasya*
+
+**Verbal modality:**
+- *asti*, *iṣyate*: laṭ / present
+
+**Note:**
+Verse 25.2 mirrors 25.1 in order to show that both the “everything empty” and the “everything non-empty” readings generate the same failure when treated as ontological absolutes.
+
+---
+
+### MMK 25.3
+
+**Sanskrit (IAST):**
+> *aprahīṇam asaṃprāptam anucchinnam aśāśvatam*  
+> *aniruddham anutpannam etan nirvāṇam ucyate*
+
+**English (line-by-line):**
+> Not abandoned, not newly attained, not cut off, not eternal,  
+> not ceased, not arisen: this is called nirvāṇa.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| aprahīṇam | a-prahīṇa | nom./acc. sg. n. PPP | not abandoned |
+| asaṃprāptam | a-saṃprāpta | nom./acc. sg. n. PPP | not attained |
+| anucchinnam | an-ucchinna | nom./acc. sg. n. PPP | not cut off / not annihilated |
+| aśāśvatam | a-śāśvata | nom./acc. sg. n. | not eternal |
+| aniruddham | an-iruddha | nom./acc. sg. n. PPP | not ceased |
+| anutpannam | an-utpanna | nom./acc. sg. n. PPP | not arisen |
+| etat | etad | nom./acc. sg. n. | this |
+| nirvāṇam | nirvāṇa | nom./acc. sg. n. | nirvāṇa |
+| ucyate | √vac | laṭ, 3rd sg. passive | is called |
+
+**Compound resolution (samāsa-vigraha):**
+- all six negatives are nañ-compounds marking denied predicates
+
+**Kāraka structure:**
+- kartṛ/predicate: *etat nirvāṇam*
+
+**Verbal modality:**
+- *ucyate*: laṭ / passive / definitional present
+
+**Note:**
+This is the chapter’s governing definition. It is not a positive essence of nirvāṇa but a disciplined refusal to place nirvāṇa under the usual categories of production, possession, cessation, or permanence.
+
+---
+
+### MMK 25.4
+
+**Sanskrit (IAST):**
+> *bhāvas tāvan na nirvāṇaṃ jarāmaraṇalakṣaṇam*  
+> *prasajyetāsti bhāvo hi na jarāmaraṇaṃ vinā*
+
+**English (line-by-line):**
+> Nirvāṇa is not, to begin with, a positive entity, for a positive entity has the mark of aging and death.  
+> For it would follow that there is no positive entity at all apart from aging and death.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| bhāvaḥ | bhāva | nom. sg. m. | positive entity / existent |
+| tāvat | tāvat | indecl. | to begin with |
+| na | na | indecl. | not |
+| nirvāṇam | nirvāṇa | nom./acc. sg. n. | nirvāṇa |
+| jarā-maraṇa-lakṣaṇam | jarā-maraṇa-lakṣaṇa | nom./acc. sg. n. | having aging and death as its mark |
+| prasajyeta | pra-√saj | liṅ, 3rd sg. ātmanepada | would follow |
+| asti | √as | laṭ, 3rd sg. parasmaipada | there is |
+| bhāvaḥ | bhāva | nom. sg. m. | positive entity |
+| hi | hi | indecl. | for |
+| na | na | indecl. | not |
+| jarā-maraṇam | jarā-maraṇa | acc. sg. n. | aging and death |
+| vinā | vinā | indecl. with acc. | without |
+
+**Compound resolution (samāsa-vigraha):**
+- *jarāmaraṇalakṣaṇam* [dvandva-tatpuruṣa]: “whose mark is aging and death.”
+
+**Kāraka structure:**
+- kartṛ: *bhāvaḥ*
+- predicate: *jarāmaraṇalakṣaṇam*
+
+**Verbal modality:**
+- *prasajyeta*: liṅ / ātmanepada / consequential potential
+- *asti*: laṭ / parasmaipada / present
+
+**Note:**
+The argument begins by denying the first corner: nirvāṇa is not a *bhāva*. Anything counted as a positive conditioned existent enters the field of aging and death.
+
+---
+
+### MMK 25.5
+
+**Sanskrit (IAST):**
+> *bhāvaś ca yadi nirvāṇaṃ nirvāṇaṃ saṃskṛtaṃ bhavet*  
+> *nāsaṃskṛto hi vidyate bhāvaḥ kva cana kaś cana*
+
+**English (line-by-line):**
+> And if nirvāṇa were a positive entity, nirvāṇa would be conditioned.  
+> For no positive entity whatever is found anywhere to be unconditioned.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| bhāvaḥ | bhāva | nom. sg. m. | positive entity |
+| ca | ca | indecl. | and |
+| yadi | yadi | indecl. | if |
+| nirvāṇam | nirvāṇa | nom./acc. sg. n. | nirvāṇa |
+| nirvāṇam | nirvāṇa | nom./acc. sg. n. | nirvāṇa |
+| saṃskṛtam | saṃskṛta | nom./acc. sg. n. PPP | conditioned |
+| bhavet | √bhū | liṅ, 3rd sg. parasmaipada | would be |
+| na | na | indecl. | not |
+| asaṃskṛtaḥ | a-saṃskṛta | nom. sg. m. | unconditioned |
+| hi | hi | indecl. | for |
+| vidyate | √vid | laṭ, 3rd sg. ātmanepada | is found |
+| bhāvaḥ | bhāva | nom. sg. m. | positive entity |
+| kva | kva | indecl. | anywhere |
+| cana | cana | indecl. | whatsoever |
+| kaś | ka | nom. sg. m. | any |
+| cana | cana | indecl. | whatsoever |
+
+**Compound resolution (samāsa-vigraha):**
+- *saṃskṛtam* [PPP]: “put together, conditioned.”
+- *asaṃskṛtaḥ* [nañ-compound]: “unconditioned.”
+
+**Kāraka structure:**
+- kartṛ: *nirvāṇam*, *bhāvaḥ*
+
+**Verbal modality:**
+- *bhavet*: liṅ / parasmaipada / potential
+- *vidyate*: laṭ / ātmanepada / present
+
+**Note:**
+The rejection of nirvāṇa as *bhāva* is tightened here through the conditioned/unconditioned distinction. A *bhāva* is, by definition in this dialectical context, something conditioned.
+
+---
+
+### MMK 25.6
+
+**Sanskrit (IAST):**
+> *bhāvaś ca yadi nirvāṇam anupādāya tat katham*  
+> *nirvāṇaṃ nānupādāya kaścid bhāvo hi vidyate*
+
+**English (line-by-line):**
+> And if nirvāṇa were a positive entity, how could it be without dependence?  
+> For no positive entity whatever is found without depending on something taken up.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| bhāvaḥ | bhāva | nom. sg. m. | positive entity |
+| ca | ca | indecl. | and |
+| yadi | yadi | indecl. | if |
+| nirvāṇam | nirvāṇa | nom./acc. sg. n. | nirvāṇa |
+| anupādāya | an-upādāya | indecl. negative absolutive-like form | without dependence / without taking up |
+| tat | tad | nom./acc. sg. n. | that |
+| katham | katham | indecl. | how |
+| nirvāṇam | nirvāṇa | nom./acc. sg. n. | nirvāṇa |
+| na | na | indecl. | not |
+| anupādāya | an-upādāya | indecl. | without dependence |
+| kaścit | kaścit | nom. sg. m. | any whatever |
+| bhāvaḥ | bhāva | nom. sg. m. | positive entity |
+| hi | hi | indecl. | for |
+| vidyate | √vid | laṭ, 3rd sg. ātmanepada | is found |
+
+**Compound resolution (samāsa-vigraha):**
+- none beyond negative absolutive usage
+
+**Kāraka structure:**
+- kartṛ: *bhāvaḥ*, *nirvāṇam*
+
+**Verbal modality:**
+- *vidyate*: laṭ / ātmanepada / present
+
+**Note:**
+The argument now links *bhāva* to dependence in the specific sense of *upādāya*-designation. What counts as an existent is never encountered utterly free of relational dependence.
+
+---
+
+### MMK 25.7
+
+**Sanskrit (IAST):**
+> *bhāvo yadi na nirvāṇam abhāvaḥ kiṃ bhaviṣyati*  
+> *nirvāṇaṃ yatra bhāvo na nābhāvas tatra vidyate*
+
+**English (line-by-line):**
+> If nirvāṇa is not a positive entity, how could it be a negation or absence?  
+> Where there is no positive entity, there too an absence is not found.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| bhāvaḥ | bhāva | nom. sg. m. | positive entity |
+| yadi | yadi | indecl. | if |
+| na | na | indecl. | not |
+| nirvāṇam | nirvāṇa | nom./acc. sg. n. | nirvāṇa |
+| abhāvaḥ | abhāva | nom. sg. m. | absence |
+| kim | kim | indecl. interrogative | how / what |
+| bhaviṣyati | √bhū | lṛṭ, 3rd sg. parasmaipada | would be |
+| nirvāṇam | nirvāṇa | nom./acc. sg. n. | nirvāṇa |
+| yatra | yatra | indecl. relative adverb | where |
+| bhāvaḥ | bhāva | nom. sg. m. | positive entity |
+| na | na | indecl. | not |
+| na | na | indecl. | not |
+| abhāvaḥ | abhāva | nom. sg. m. | absence |
+| tatra | tatra | indecl. adverb | there |
+| vidyate | √vid | laṭ, 3rd sg. ātmanepada | is found |
+
+**Compound resolution (samāsa-vigraha):**
+- none
+
+**Kāraka structure:**
+- adhikaraṇa: *yatra ... tatra*
+- kartṛ: *abhāvaḥ*, *bhāvaḥ*
+
+**Verbal modality:**
+- *bhaviṣyati*: lṛṭ / parasmaipada / future-potential
+- *vidyate*: laṭ / ātmanepada / present
+
+**Note:**
+The second corner now falls with the first. Absence is intelligible only in relation to something whose absence it is; hence nirvāṇa cannot simply be *abhāva*.
+
+---
+
+### MMK 25.8
+
+**Sanskrit (IAST):**
+> *yady abhāvaś ca nirvāṇam anupādāya tat katham*  
+> *nirvāṇaṃ na hy abhāvo 'sti yo 'nupādāya vidyate*
+
+**English (line-by-line):**
+> And if nirvāṇa were an absence, how could that be without dependence?  
+> For no absence is found that exists without depending on something taken up.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| yadi | yadi | indecl. | if |
+| abhāvaḥ | abhāva | nom. sg. m. | absence |
+| ca | ca | indecl. | and |
+| nirvāṇam | nirvāṇa | nom./acc. sg. n. | nirvāṇa |
+| anupādāya | an-upādāya | indecl. | without dependence |
+| tat | tad | nom./acc. sg. n. | that |
+| katham | katham | indecl. | how |
+| nirvāṇam | nirvāṇa | nom./acc. sg. n. | nirvāṇa |
+| na | na | indecl. | not |
+| hi | hi | indecl. | for |
+| abhāvaḥ | abhāva | nom. sg. m. | absence |
+| asti | √as | laṭ, 3rd sg. parasmaipada | is |
+| yaḥ | yad | nom. sg. m. relative pronoun | which |
+| anupādāya | an-upādāya | indecl. | without dependence |
+| vidyate | √vid | laṭ, 3rd sg. ātmanepada | is found |
+
+**Compound resolution (samāsa-vigraha):**
+- none beyond negative absolutive usage
+
+**Kāraka structure:**
+- kartṛ: *abhāvaḥ*
+
+**Verbal modality:**
+- *asti*, *vidyate*: laṭ / present
+
+**Note:**
+The argument parallels 25.6, but now for absence. An absence is never sheer, contextless non-being; it is always the absence of something relative to some basis.
+
+---
+

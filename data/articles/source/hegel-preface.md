@@ -65,7 +65,7 @@ Take the sentence "God is Being". On ordinary grammar, "God" is the subject and 
 
 Hegel calls this the *spekulativer Satz* — the speculative proposition — and it is his name for the moment at which discursive grammar reaches its limit and must give way to a richer logic. What replaces ordinary predication is not silence. It is a thinking in which the unity of the differentiated terms is held in view at the same time as their distinction. Subject and predicate, opposed at the level of grammar, are recognized as moments of a single articulation.
 
-This is the technical engine of Hegelian dialectic. Every important philosophical proposition, on this view, is speculative in this sense. The subject and predicate are not two things linked by a copula; they are two faces of one self-articulating content.
+This is the technical engine of Hegelian dialectic. Every important philosophical proposition is speculative in this sense. The subject and predicate are not two things linked by a copula; they are two faces of one self-articulating content.
 
 ### A seventh formula: the wounds of Spirit
 
