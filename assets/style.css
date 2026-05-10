@@ -1125,6 +1125,157 @@ body.is-reading-mode .passage-card .english { font-size: 18px; }
   from { transform: translateY(100%); opacity: 0; }
   to   { transform: translateY(0);    opacity: 1; }
 }
+
+/* =============================================================
+   CITATION POPOVER (clickable primary-source citations)
+   ============================================================= */
+.cite-link {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--muted-soft);
+  cursor: pointer;
+}
+.cite-link:hover { border-bottom-style: solid; }
+
+.citation-popover {
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  box-shadow: var(--shadow-md);
+  padding: 16px 20px 18px;
+  max-width: 460px;
+  width: 460px;
+  max-height: min(72vh, 720px);
+  overflow-y: auto;
+  z-index: 150;
+  font-family: var(--serif);
+  font-size: 14px;
+  line-height: 1.55;
+  position: fixed;
+}
+.citation-popover::-webkit-scrollbar { width: 6px; }
+.citation-popover::-webkit-scrollbar-thumb { background: #d8d8d8; border-radius: 3px; }
+.citation-popover .cp-close {
+  position: absolute; top: 6px; right: 8px;
+  background: none; border: none;
+  font-size: 18px; line-height: 1; cursor: pointer; color: var(--muted);
+}
+.citation-popover .cp-header {
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+}
+.citation-popover .cp-locus {
+  font-family: var(--sans);
+  font-size: 11px; font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+.citation-popover .cp-attrib {
+  font-family: var(--serif);
+  font-size: 16px;
+  color: var(--ink);
+}
+.citation-popover .cp-block {
+  margin-bottom: 12px;
+}
+.citation-popover .cp-label {
+  display: block;
+  font-family: var(--sans);
+  font-size: 10px; font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+.citation-popover .cp-sk {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 14px;
+  color: var(--ink);
+  background: var(--rule-warm);
+  padding: 8px 12px;
+  border-left: 2px solid var(--muted-soft);
+  white-space: pre-wrap;
+}
+.citation-popover .cp-en {
+  font-family: var(--serif);
+  font-size: 14px;
+  color: var(--ink);
+}
+.citation-popover .cp-pending {
+  font-family: var(--serif);
+  font-size: 13px;
+  color: var(--ink-soft);
+  background: #fffaf0;
+  padding: 10px 12px;
+  border-left: 2px solid #d4a548;
+  border-radius: 0 4px 4px 0;
+}
+.citation-popover .cp-pending p { margin: 0; }
+.citation-popover .cp-actions {
+  border-top: 1px solid var(--rule);
+  padding-top: 10px;
+  margin-top: 8px;
+}
+.citation-popover .cp-open-thinker {
+  font-family: var(--sans);
+  font-size: 12px; font-weight: 600;
+  background: var(--ink);
+  color: var(--bg);
+  border: none;
+  padding: 6px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.citation-popover .cp-open-thinker:hover { opacity: 0.85; }
+
+.cite-scrim { display: none; }
+
+/* mobile: bottom-sheet, mirrors glossary-popover treatment */
+@media (max-width: 720px) {
+  .citation-popover {
+    position: fixed !important;
+    left: 0 !important; right: 0 !important;
+    top: auto !important; bottom: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    border-radius: 14px 14px 0 0;
+    border: none;
+    border-top: 1px solid var(--rule);
+    box-shadow: 0 -8px 24px rgba(0,0,0,0.12);
+    padding: 22px 22px 32px;
+    max-height: 72vh;
+    overflow-y: auto;
+    font-size: 15px;
+    line-height: 1.6;
+    animation: gloss-slide-up 240ms cubic-bezier(.4,.0,.2,1);
+  }
+  .citation-popover::before {
+    content: "";
+    display: block;
+    width: 36px; height: 4px;
+    background: var(--rule);
+    border-radius: 2px;
+    margin: -10px auto 14px;
+  }
+  .citation-popover .cp-close {
+    top: 14px; right: 14px;
+    font-size: 24px;
+    width: 32px; height: 32px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .cite-scrim {
+    display: block;
+    position: fixed; inset: 0;
+    background: rgba(20,20,20,0.35);
+    z-index: 149;
+    animation: gloss-scrim-in 200ms ease;
+  }
+}
+
 /* =============================================================
    ARTICLES MODAL + READER
    ============================================================= */

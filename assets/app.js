@@ -261,6 +261,11 @@ async function loadAll() {
   // detail pane's Perspectives section is available on the first thinker open.
   ensurePerspectivesLoaded();
 
+  // Citation index (clickable primary-source citations). Loaded eagerly so the
+  // first click on a cite-link returns instantly; fallback handler lazy-loads
+  // it if absent.
+  loadCitationIndex();
+
   computeRange();
   computeRenderLanes();
   computeLayout();
