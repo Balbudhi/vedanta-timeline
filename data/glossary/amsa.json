@@ -3,37 +3,181 @@
   "term_iast": "aṃśa",
   "term_devanagari": "अंश",
   "literal": "portion, part, share",
-  "aliases": ["amsa", "aṃśa", "amśa", "Aṃśa", "aṃśaḥ", "aṃśasya", "amshas", "vibhinnamsa", "vibhinnāṃśa"],
+  "aliases": [
+    "amsa",
+    "aṃśa",
+    "amśa",
+    "Aṃśa",
+    "aṃśaḥ",
+    "aṃśasya",
+    "amshas",
+    "vibhinnamsa",
+    "vibhinnāṃśa"
+  ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus",
+  "last_verified_by": "glossary-wave1-codex54",
   "invariant_definition": "Part, portion, or share. In Vedānta the term becomes a controlled way of saying that a dependent reality belongs to *brahman* or Bhagavān without immediately collapsing into strict identity. It therefore sits beside *prakāra*, *śakti*, *apṛthak-siddhi*, and the many forms of *bhedābheda*. A major scriptural driver is *Bhagavad-Gītā* 15.7, *mamaivāṃśo jīvaloke jīvabhūtaḥ sanātanaḥ*: the eternal *jīva* is 'my very own *aṃśa*.' Schools then ask what sort of partness this can be. Is the self a literal part of the Lord, a mode inseparable from Him, a dependent energy, or only figuratively called a part because of similarity or subordination? Gauḍīya Vaiṣṇavas distinguish *svāṃśa* manifestations of Bhagavān from *vibhinnāṃśa* selves; Bhāskara reads partness through real transformation; Advaita refuses literal partness because *brahman* is partless; Tattva-vāda (the school often labeled Dvaita) rejects it because the *jīva* is eternally distinct. 'Part' is thus never enough by itself; one must specify the metaphysics of the whole.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "Scriptural talk of the self as an *aṃśa* of the Lord is interpreted non-literally. Since *brahman* is partless, no real division can occur in it. Part-language therefore belongs to the empirical standpoint in which consciousness appears delimited by adjuncts, or to a pedagogical mode of speech marking dependence on *Īśvara*. The verse cannot establish real ontological segmentation in the absolute.",
-      "primary_loci": ["Bhagavad-Gītā-Bhāṣya 15.7", "Chāndogya-Upaniṣad-Bhāṣya 6.8.7 [NOT YET RETRIEVED]"]
+      "definition": "Since duality is only *māyāmātra* and *advaita* alone is *paramārtha*, scriptural part-language cannot mark a real partition within brahman [[MK 1.17](cite://gaudapada/mandukya-karika/1.17)]. When the unborn reality is known, *dvaita* is no longer found, so any *aṃśa* discourse must belong to the pedagogical and empirical register opened by beginningless *māyā*, not to brahman's own nature [[MK 1.16-18](cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18)].",
+      "primary_loci": [
+        "Māṇḍūkya-Kārikā 1.16-18"
+      ],
+      "citations": [
+        {
+          "cite": "cite://gaudapada/mandukya-karika/1.17",
+          "locus_short": "MK 1.17"
+        },
+        {
+          "cite": "cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18",
+          "locus_short": "MK 1.16-18"
+        }
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "The self may be called an *aṃśa* of Brahman, but not as a detachable part. The intended sense is modal and inseparable: the *jīva* is a real mode of *brahman*, belonging to Him as body to soul. This preserves scriptural dependence language without making Brahman a composite substance divisible into pieces. The term is therefore subordinated to *apṛthak-siddhi* and *śarīra-śarīrī-bhāva*.",
-      "primary_loci": ["Śrī-Bhāṣya 2.3.43", "Vedārtha-Saṅgraha 82-88", "Gītā-Bhāṣya (Rāmānuja) 15.7"]
-    },
-    {
-      "school": "Bhedābheda (Bhāskara)",
-      "definition": "The self is a real *aṃśa* of *brahman* because the world and selves are real transformations of Brahman. The difference is genuine, yet the transformed entity is not outside its source. *Aṃśa* here therefore does real ontological work: it articulates difference within a still-real identity and rejects the Advaita move of treating difference as merely apparent.",
-      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 2.3.43", "Bhāskara, Bhagavad-Gītā-Bhāṣya 15.7 [NOT YET RETRIEVED]"]
+      "definition": "Rāmānuja's proem already places *aṃśa* within the *antaryāmin* grammar: the śrutis teach cit and acit as the Lord's *śakti*, *aṃśa*, *vibhūti*, *rūpa*, and *śarīra* under a single *sāmānādhikaraṇya* [[Vedārtha-Saṃgraha §6](cite://ramanuja/vedartha-samgraha/§6)]. In this usage, *aṃśa* denotes a real but inseparable mode of Bhagavān Nārāyaṇa, governed by *śarīra-śarīrin-bhāva* rather than by any detachable mereology [[Vedārtha-Saṃgraha §6](cite://ramanuja/vedartha-samgraha/§6)].",
+      "primary_loci": [
+        "Vedārtha-Saṃgraha §6"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§6",
+          "locus_short": "Vedārtha-Saṃgraha §6"
+        }
+      ]
     },
     {
       "school": "Tattva-vāda",
-      "definition": "The *jīva* is not a literal part of Viṣṇu. Part-language in scripture is explained through dependence, similarity, or belonging, never through actual ontological part-whole inclusion. Madhva's realism requires eternal difference between the Lord and the dependent self; if the self were truly a part of Viṣṇu, the distinction central to devotion and liberation would collapse.",
-      "primary_loci": ["Bhagavad-Gītā-Tātparya-Nirṇaya 15.7 [NOT YET RETRIEVED]", "Viṣṇu-Tattva-Vinirṇaya 30-40 [NOT YET RETRIEVED]"]
+      "definition": "For Madhva, the *sākṣin* that apprehends difference is itself a foundational *pramāṇa*, so the distinction between *jīva* and Īśvara is *śrutisāmarthya-susthira* and not available for collapse into identity [[Anuvy. 2.3.66](cite://madhva/anuvyakhyana/2.3.66)]. The abheda-texts are retained only on the basis of *sādṛśya*: consciousness and bliss similar to the Lord remain in the liberated *jīva*, and scriptural non-difference-language therefore works by likeness and dependence, never by *svarūpābhidā* [[Anuvy. 2.3.66-69](cite://madhva/anuvyakhyana/2.3.66-69)]. In the *aṃśa-adhikaraṇa*, then, *aṃśa* is read through asymmetric dependence rather than through any essential sharing of the Lord's being [[Anuvy. 2.3.66-69](cite://madhva/anuvyakhyana/2.3.66-69)].",
+      "primary_loci": [
+        "Anuvyākhyāna 2.3.66-69"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/anuvyakhyana/2.3.66",
+          "locus_short": "Anuvy. 2.3.66"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/2.3.66-69",
+          "locus_short": "Anuvy. 2.3.66-69"
+        }
+      ]
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "The distinction between *svāṃśa* and *vibhinnāṃśa* is basic. Bhagavān's own plenary manifestations are *svāṃśa*; the innumerable *jīvas* are *vibhinnāṃśa*, separated portions belonging to the *taṭasthā-śakti*. This permits real belonging to Kṛṣṇa without erasing the soul's smallness, fallibility, and recoverable servitude. *Aṃśa* is therefore read through an ontology of *śakti* rather than through simple part-whole metaphysics.",
-      "primary_loci": ["Paramātma-Sandarbha 19, 28, 37", "Caitanya-Caritāmṛta, Madhya 20.108-109", "Bhagavad-Gītā 15.7"]
+      "definition": "Jīva Gosvāmī coordinates the *abheda-śāstras* by holding that the aggregate of *jīvas* stands to Bhagavān, through his *svābhāvika acintya-śakti*, in the position of atomic rays to the sun [[Paramātma-Sandarbha §43](cite://jiva-gosvami/sat-sandarbha/§43)]. On that basis, *vyatireka* and *avyatireka* are jointly maintained, so *aṃśa* is to be understood through dependent radiance and *śakti*, not through crude severable parthood [[Paramātma-Sandarbha §43](cite://jiva-gosvami/sat-sandarbha/§43)]. Bhagavān is consequently the *parama-svarūpa* of all, as the sun is of its rays, which fixes the devotional completion of this ontology [[Paramātma-Sandarbha §45](cite://jiva-gosvami/sat-sandarbha/§45)].",
+      "primary_loci": [
+        "Paramātma-Sandarbha §§43, 45"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§43",
+          "locus_short": "Paramātma-Sandarbha §43"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§45",
+          "locus_short": "Paramātma-Sandarbha §45"
+        }
+      ]
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "Śrīnivāsa states the school position with full symmetry of denial: the *jīva* is neither *atyantabhinna* nor *atyantābhinna* with respect to Śrī Puruṣottama, but *paramātmano 'ṃśaḥ* [[BS 2.3.42](cite://srinivasa/vedanta-kaustubha/2.3.42)]. That *aṃśa* is explicitly glossed as *śaktirūpa*, and the *jīva* is accordingly described as *alpaśakti* and *asvatantra* [[BS 2.3.42](cite://srinivasa/vedanta-kaustubha/2.3.42)]. The term therefore secures real difference and non-difference within an asymmetrical dependence-structure, rather than licensing mutual convertibility of *jīva* and Īśvara [[BS 2.3.42](cite://srinivasa/vedanta-kaustubha/2.3.42)].",
+      "primary_loci": [
+        "Vedānta-Kaustubha on Brahma-Sūtra 2.3.42"
+      ],
+      "citations": [
+        {
+          "cite": "cite://srinivasa/vedanta-kaustubha/2.3.42",
+          "locus_short": "BS 2.3.42"
+        }
+      ]
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "Vallabha states without attenuation that the *jīva* is *brahmaṇo 'ṃśaḥ*, grounding the claim in *nānāvyapadeśa* and confirming it from Bhagavad-Gītā 15.7 [[BSB 2.3.43-45](cite://vallabha/anu-bhasya/2.3.43-45)]. At the same time, whether Brahman is to be called *niraṃśa* or *sāṃśa* is not to be settled from ordinary experience at all, since Brahman is *vedaika-samadhigamya* [[BSB 2.3.43-45c](cite://vallabha/anubhasya/2.3.43-45c)]. *Aṃśa* here names a real manifestation of Brahman disclosed by śruti and smṛti, not a merely figurative or subtractive partition [[BSB 2.3.43-45](cite://vallabha/anu-bhasya/2.3.43-45)][[BSB 2.3.43-45c](cite://vallabha/anubhasya/2.3.43-45c)].",
+      "primary_loci": [
+        "Aṇu-Bhāṣya on Brahma-Sūtra 2.3.43-45"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anu-bhasya/2.3.43-45",
+          "locus_short": "BSB 2.3.43-45"
+        },
+        {
+          "cite": "cite://vallabha/anubhasya/2.3.43-45c",
+          "locus_short": "BSB 2.3.43-45c"
+        }
+      ]
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yoga",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Jainism",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     }
   ],
-  "see_also": ["svamsa", "vibhinnamsa", "bhedabheda", "tatastha-sakti"],
+  "see_also": [
+    "svamsa",
+    "vibhinnamsa",
+    "bhedabheda",
+    "tatastha-sakti"
+  ],
   "translator_note": "The lazy gloss is 'part.' In English that usually suggests a detachable piece cut from a larger whole. Most Sanskrit debates are precisely about refusing that picture while still preserving dependence, derivation, or manifestation. Translating *aṃśa* without noting whether the school means mode, power, transformation, or only figurative belonging imports a crude mereology the texts are arguing over."
 }
