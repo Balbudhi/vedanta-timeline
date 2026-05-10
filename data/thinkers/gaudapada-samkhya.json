@@ -31,7 +31,7 @@
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
-      "summary": "Verse-by-verse prose commentary on the *Sāṃkhya-Kārikā*. The text is brief and exegetically transparent: each *kārikā* is glossed phrase-by-phrase, the technical terms are defined in their first occurrence, and the inferential structure is made explicit where the verse compresses it. Three sections receive especially careful treatment. First, the *Kārikā*'s opening on the *duḥkha-traya* and the inadequacy of ordinary remedies, which Gauḍapāda turns into a structured argument for the necessity of *viveka-jñāna*. Second, *Kārikā* 9–11 on *satkārya-vāda*, where the *bhāṣya* lays out the five canonical proofs in the form that becomes standard. Third, the *Kārikā*'s closing verses on *bhāva*-causation and the *liṅga-śarīra*, where the *bhāṣya*'s expository clarity rescues a notoriously compressed passage. The *bhāṣya* does not engage Buddhist or Naiyāyika opponents in detail; its work is intra-traditional clarification rather than polemic. Its dialectical posture toward Vedānta is implicit and structural: the Sāṃkhya analysis is offered as complete in its own right, with no concession to a Brahman-cause.",
+      "summary": "Verse-by-verse prose commentary on the *Sāṃkhya-Kārikā*. The text is brief and exegetically transparent: each *kārikā* is glossed phrase-by-phrase, the technical terms are defined in their first occurrence, and the inferential structure is made explicit where the verse compresses it. Three sections receive especially careful treatment. First, the *Kārikā*'s opening on the *duḥkha-traya* and the inadequacy of ordinary remedies (*Bhāṣya* on *Sāṃkhya-Kārikā* 1–2), which Gauḍapāda turns into a structured argument for the necessity of *viveka-jñāna*. Second, *Kārikā* 9–11 on *satkārya-vāda* (*Bhāṣya* on *Sāṃkhya-Kārikā* 9), where the *bhāṣya* lays out the five canonical proofs in the form that becomes standard. Third, the *Kārikā*'s closing verses on *bhāva*-causation and the *liṅga-śarīra* (*Bhāṣya* on *Sāṃkhya-Kārikā* 40–55), where the *bhāṣya*'s expository clarity rescues a notoriously compressed passage. The *bhāṣya* does not engage Buddhist or Naiyāyika opponents in detail; its work is intra-traditional clarification rather than polemic. Its dialectical posture toward Vedānta is implicit and structural: the Sāṃkhya analysis is offered as complete in its own right, with no concession to a Brahman-cause.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     }
@@ -41,5 +41,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-comparators-opus"
+  "last_verified_by": "wave-citation-batch6-opus"
 }
