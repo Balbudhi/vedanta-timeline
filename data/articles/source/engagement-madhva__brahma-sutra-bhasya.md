@@ -6,7 +6,7 @@ Madhva (Ānandatīrtha; traditionally 13th c. CE) stands in the Tattvavāda line
 
 ## 2. Sampling and scope statement
 
-Engaged at depth: six loci across the span actually present in the edition: [BS 1.1.2](cite://mandana/brahma-siddhi/1.1.2) (`janmādy asya yataḥ`), 1.1.4 (`tattu samanvayāt`), 1.1.23 (`ata eva prāṇaḥ`), 1.2.13 (`antar upapatteḥ`), 1.2.18 (`antaryāmy adhidaivādiṣu taddharmavyapadeśāt`), and 1.2.24 (`vaiśvānaraḥ sādhāraṇaśabdaviśeṣāt`). Structural summary only: the rest of *adhyāya* 1, *pāda* 1–2 across all three volumes, using the printed *avataraṇikā* and *viṣayānukramaṇikā* plus spot-checking in the pure-Sanskrit files. Flagged but not engaged at full depth: the long later-layer refutations in *Tattva-prakāśikā*, *Tātparya-candrikā*, and *Prakāśa* against Bhāmatī, Vivaraṇa, Rāmānuja, Śaiva, and Yādavaprakāśa readings; those were used for orientation, not line-by-line reconstruction. Not engaged because not present in this on-disk set: *adhyāya* 1, *pāda* 3–4 and *adhyāya* 2–4.
+Engaged at depth: six loci across the span actually present in the edition: BS 1.1.2 (`janmādy asya yataḥ`), 1.1.4 (`tattu samanvayāt`), 1.1.23 (`ata eva prāṇaḥ`), 1.2.13 (`antar upapatteḥ`), 1.2.18 (`antaryāmy adhidaivādiṣu taddharmavyapadeśāt`), and 1.2.24 (`vaiśvānaraḥ sādhāraṇaśabdaviśeṣāt`). Structural summary only: the rest of *adhyāya* 1, *pāda* 1–2 across all three volumes, using the printed *avataraṇikā* and *viṣayānukramaṇikā* plus spot-checking in the pure-Sanskrit files. Flagged but not engaged at full depth: the long later-layer refutations in *Tattva-prakāśikā*, *Tātparya-candrikā*, and *Prakāśa* against Bhāmatī, Vivaraṇa, Rāmānuja, Śaiva, and Yādavaprakāśa readings; those were used for orientation, not line-by-line reconstruction. Not engaged because not present in this on-disk set: *adhyāya* 1, *pāda* 3–4 and *adhyāya* 2–4.
 
 ## 3. Structural walk-through
 
@@ -20,7 +20,7 @@ The second *pāda* changes register. Here the problem is less the reassignment o
 
 ## 4. Load-bearing passages — engaged at depth
 
-### 4.1 [BS 1.1.2](cite://mandana/brahma-siddhi/1.1.2), `janmādy asya yataḥ`
+### 4.1 BS 1.1.2, `janmādy asya yataḥ`
 
 **Locus:** vol. 1, p. 232 in the pure-Sanskrit file; lines 5870-5877.
 
@@ -34,7 +34,7 @@ This is also a good model for the text’s grammar of doctrinal exclusion. Madhv
 
 **Pāṇinian-rich treatment:** `jīvādibhedakam` is best taken as a *tatpuruṣa*-based qualifier: “that which differentiates [him] from jīvas and the rest,” effectively `jīvādibhyo bhedakam`. `viśva-kartṛ-tva` is an abstract built from `viśvasya kartā` -> `viśvakartṛ` -> `viśvakartṛtva`, “the state of being creator of the world.” `viṣṇoḥ` is a genitive of relation: the world-creatorship belongs to Viṣṇu. The principal verb is `ucyate`, passive, third singular, from √`vac`: “is said / is stated.” Kāraka-wise, `viśvakartṛtvam` is the nominative patient promoted as passive subject; `viṣṇoḥ` is not an instrumental agent but a genitival qualifier; `jīvādibhedakam` is adjectival to the nominative subject. The sentence therefore says not “Viṣṇu is called creator” in a loose honorific sense, but “the very property under discussion is Viṣṇu’s differentiator.” That is the load-bearing move.
 
-### 4.2 [BS 1.1.4](cite://mandana/brahma-siddhi/1.1.4), `tattu samanvayāt`
+### 4.2 BS 1.1.4, `tattu samanvayāt`
 
 **Locus:** vol. 2, pp. 2-4; pure-Sanskrit lines 396-401.
 
@@ -46,7 +46,7 @@ This is also a good model for the text’s grammar of doctrinal exclusion. Madhv
 
 The polemical importance is that lexical familiarity is demoted. `prāṇa`, `jyotis`, `vaiśvānara`, `ākāśa` may have ordinary reference; but ordinary reference loses if the stronger indicators point elsewhere. This is one of the most useful passages for understanding how Madhva can preserve the reality of lower referents while still refusing them as the principal subject of the Vedic sentence.
 
-### 4.3 [BS 1.1.23](cite://mandana/brahma-siddhi/1.1.23), `ata eva prāṇaḥ`
+### 4.3 BS 1.1.23, `ata eva prāṇaḥ`
 
 **Locus:** vol. 3, pp. 1-2; pure-Sanskrit lines 1001-1066.
 
@@ -58,7 +58,7 @@ The polemical importance is that lexical familiarity is demoted. `prāṇa`, `jy
 
 This matters for the text’s realism. The hierarchy is not constructed by saying lower things are unreal, but by saying they are derivative. That makes this passage far more useful for a realism-recovery project than a crude “everything other than God is false” reading would be.
 
-### 4.4 [BS 1.2.13](cite://mandana/brahma-siddhi/1.2.13), `antar upapatteḥ`
+### 4.4 BS 1.2.13, `antar upapatteḥ`
 
 **Locus:** vol. 3, pp. 394-396; pure-Sanskrit lines 10364-10421.
 
@@ -70,7 +70,7 @@ This matters for the text’s realism. The hierarchy is not constructed by sayin
 
 This is one of the places where the text directly resists the position’s more synthetic ambitions. It offers a way to keep intimacy, interiority, and pervasion without granting non-dual identity in the strong Advaitic sense.
 
-### 4.5 [BS 1.2.18](cite://mandana/brahma-siddhi/1.2.18), `antaryāmy adhidaivādiṣu taddharmavyapadeśāt`
+### 4.5 BS 1.2.18, `antaryāmy adhidaivādiṣu taddharmavyapadeśāt`
 
 **Locus:** vol. 3, pp. 446-449; pure-Sanskrit lines 11563-11613.
 
@@ -82,7 +82,7 @@ This is one of the places where the text directly resists the position’s more 
 
 This is also where the bhāṣya most clearly excludes *pradhāna*-style readings. A merely subtle principle may be inside something; it is not thereby the knower-independent regulator of all the relevant strata.
 
-### 4.6 [BS 1.2.24](cite://mandana/brahma-siddhi/1.2.24), `vaiśvānaraḥ sādhāraṇaśabdaviśeṣāt`
+### 4.6 BS 1.2.24, `vaiśvānaraḥ sādhāraṇaśabdaviśeṣāt`
 
 **Locus:** vol. 3, pp. 523-524; pure-Sanskrit lines 13441-13474.
 

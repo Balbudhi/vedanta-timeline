@@ -6,7 +6,7 @@
 
 ## 2. Sampling and scope statement
 
-Engaged at depth: the opening hermeneutic of 1.1, especially [BS 1.1.1-4](cite://mandana/brahma-siddhi/1.1.1-4) (internal pp. 19-73; pure-text lines 1124-1237 and 1678-1757); the *Ārambhaṇa-adhikaraṇa* in 2.1 (pp. 403-413; lines 11571-11890); the *bhedābheda* and *aṃśa* material in 2.3 (esp. pp. 883-885; lines 23093-23210); and the liberation debates in 4.4 (pp. 1320 and 1336-1345; lines 33028-33045 and 33426-33621). That is a close engagement with selected load-bearing loci totaling roughly thirty pages of the internal Sanskrit pagination.
+Engaged at depth: the opening hermeneutic of 1.1, especially BS 1.1.1-4 (internal pp. 19-73; pure-text lines 1124-1237 and 1678-1757); the *Ārambhaṇa-adhikaraṇa* in 2.1 (pp. 403-413; lines 11571-11890); the *bhedābheda* and *aṃśa* material in 2.3 (esp. pp. 883-885; lines 23093-23210); and the liberation debates in 4.4 (pp. 1320 and 1336-1345; lines 33028-33045 and 33426-33621). That is a close engagement with selected load-bearing loci totaling roughly thirty pages of the internal Sanskrit pagination.
 
 Structural summary only: the remaining *pāda*s, reconstructed from the on-disk contents map and checked against explicit pāda-opening or pāda-closing markers in the body of the text. Not engaged in continuous detail: the whole third-layer sub-commentary where it separates from Śrīnivāsa, the long anti-Buddhist and anti-Sāṅkhya stretches of 2.2 taken page by page, and the closing *sūtrānukramaṇikā*. No claim is made here to have read the whole commentary continuously from first to last; the claim is narrower and defensible.
 
@@ -24,7 +24,7 @@ Structural summary only: the remaining *pāda*s, reconstructed from the on-disk 
 
 ### Passage 1
 
-**Locus**: [BS 1.1.1](cite://mandana/brahma-siddhi/1.1.1), *jijñāsā-adhikaraṇa* (pure-text lines 1175-1180).
+**Locus**: BS 1.1.1, *jijñāsā-adhikaraṇa* (pure-text lines 1175-1180).
 
 **Sanskrit (IAST)**:
 
@@ -41,7 +41,7 @@ The load-bearing marker is `evātra`: not just "Kṛṣṇa also counts as Brahm
 
 ### Passage 2
 
-**Locus**: [BS 1.1.2](cite://mandana/brahma-siddhi/1.1.2), *janmādy-adhikaraṇa* (pure-text lines 1717-1725).
+**Locus**: BS 1.1.2, *janmādy-adhikaraṇa* (pure-text lines 1717-1725).
 
 **Sanskrit (IAST)**:
 
@@ -56,7 +56,7 @@ This is one of the cleanest places where Nimbārka's line should be distinguishe
 
 ### Passage 3
 
-**Locus**: [BS 2.1](cite://mandana/brahma-siddhi/2.1), *Ārambhaṇa-adhikaraṇa* (pure-text lines 11673-11679).
+**Locus**: BS 2.1, *Ārambhaṇa-adhikaraṇa* (pure-text lines 11673-11679).
 
 **Sanskrit (IAST)**:
 
@@ -72,7 +72,7 @@ That also explains the commentary's handling of `māyā`: in this stretch it pus
 
 ### Passage 4
 
-**Locus**: [BS 2.3](cite://mandana/brahma-siddhi/2.3), *bhedābheda / aṃśa* discussion (pure-text lines 23123-23130).
+**Locus**: BS 2.3, *bhedābheda / aṃśa* discussion (pure-text lines 23123-23130).
 
 **Sanskrit (IAST)**:
 
@@ -101,7 +101,7 @@ Kāraka structure: the ablatives provide the causal ground; the syntactic subjec
 
 ### Passage 5
 
-**Locus**: [BS 4.4](cite://mandana/brahma-siddhi/4.4), *sāyujya* discussion (pure-text lines 33028-33035).
+**Locus**: BS 4.4, *sāyujya* discussion (pure-text lines 33028-33035).
 
 **Sanskrit (IAST)**:
 
@@ -118,7 +118,7 @@ For the user's thesis this is double-edged. It strongly supports the critique of
 
 ### Passage 6
 
-**Locus**: [BS 4.4](cite://mandana/brahma-siddhi/4.4), *saṅkalpādhikaraṇa* (pure-text lines 33456-33476).
+**Locus**: BS 4.4, *saṅkalpādhikaraṇa* (pure-text lines 33456-33476).
 
 **Sanskrit (IAST)**:
 

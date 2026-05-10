@@ -74,7 +74,7 @@ Jīva's reading, in compressed form:
 
 These are three *poises* of the *one* Real, not three things and not features added to a substrate. They are three *modes of self-articulation* of the same *advaya-tattva*.
 
-The structural homology with Aurobindo's triple status of supermind ([*The Life Divine* I.16](cite://aurobindo/the-life-divine/I.16)) is exact: comprehending (*one* containing all in undivided self-knowledge — *Brahman*), apprehending (*one* setting itself slightly apart for the relation of knower-known — *Paramātmā*), projecting (*one* projecting real centers within itself while remaining *pūrṇa* — *Bhagavān*). Where Aurobindo gives the phenomenology, Jīva gives the Sanskrit-philosophical statement of the same threefold structure.
+The structural homology with Aurobindo's triple status of supermind (*The Life Divine* I.16) is exact: comprehending (*one* containing all in undivided self-knowledge — *Brahman*), apprehending (*one* setting itself slightly apart for the relation of knower-known — *Paramātmā*), projecting (*one* projecting real centers within itself while remaining *pūrṇa* — *Bhagavān*). Where Aurobindo gives the phenomenology, Jīva gives the Sanskrit-philosophical statement of the same threefold structure.
 
 The polemical edge: Jīva contests Śaṅkara's *advaya* = *nirviśeṣa* equation. *Advaya* says *one*, not zero. *Bhagavān* is *advaya* because no *second* stands alongside him, not because he lacks qualities. The *aiśvaryas* are the *intrinsic content* of the one, not additions to a featureless ground. *A-dvaya* is "not-two," not "not-anything." Distinguishing *non-dual* from *non-qualified* is the philosophical pivot of the school.
 
@@ -288,9 +288,9 @@ This is the *bhinnatvena cintayitum aśakyatvāt abhedaḥ pratīyate* clause. T
 
 This is the meta-structural claim. The *aśakyatvāt* is not "we couldn't find the right concept among the available concepts"; it is "the relation is of a *type* (constitutive, intrinsic, ground-of-the-frame) that the conceptual repertoire's *type-system* does not admit." The repertoire was developed for relations where *external* and *internal* terms are independently identifiable. The *śakti–śaktimān* relation is the relation that the conceptual repertoire *itself presupposes* — it is the relation of an entity's intrinsic potency to that entity, the relation that any concept of "thing-with-power" already silently uses. To try to thematize *that* relation as one more relation alongside *tādātmya / samavāya / saṁyoga* is to confuse the relation that *grounds the conceptual frame* with relations *within* the conceptual frame.
 
-**Premise 8. Bādarāyaṇa's own warning: [BS 2.1.11](cite://mandana/brahma-siddhi/2.1.11), *tarkāpratiṣṭhānāt*.** "Because *tarka* (reasoning) has no firm ground" — this is the foundational *Sūtra* in which the Vedānta-author himself declares that pure logical argumentation cannot settle the question of Brahman's nature. Jīva does *not* invoke this to abandon reason. He invokes it to legitimate the *meta-status* of the conclusion: the *Sūtrakāra himself* warns that *tarka* — *prasaṅga-tarka*, categorial-deductive reasoning that operates from already-fixed conceptual frames — will not deliver Brahman's structure. The warning is not anti-rational; it is rationally precise about the limits of *prasaṅga-tarka*. *Acintya-bhedābheda* is therefore not a failure of *tarka* but the *Sūtra-licensed* recognition that *tarka* has its own bounds, and that the relation in question is at those bounds.
+**Premise 8. Bādarāyaṇa's own warning: BS 2.1.11, *tarkāpratiṣṭhānāt*.** "Because *tarka* (reasoning) has no firm ground" — this is the foundational *Sūtra* in which the Vedānta-author himself declares that pure logical argumentation cannot settle the question of Brahman's nature. Jīva does *not* invoke this to abandon reason. He invokes it to legitimate the *meta-status* of the conclusion: the *Sūtrakāra himself* warns that *tarka* — *prasaṅga-tarka*, categorial-deductive reasoning that operates from already-fixed conceptual frames — will not deliver Brahman's structure. The warning is not anti-rational; it is rationally precise about the limits of *prasaṅga-tarka*. *Acintya-bhedābheda* is therefore not a failure of *tarka* but the *Sūtra-licensed* recognition that *tarka* has its own bounds, and that the relation in question is at those bounds.
 
-**Conclusion.** The relation between *śakti* and *śaktimān* is *acintya* — not capable of being held *within* a conceptual frame, *because it is the kind of relation that grounds conceptual frames rather than appearing within them*. *Acintya-bhedābheda* is not a conceptual position arrived at by logical synthesis. It is the structural-ontological recognition, posted by *Sūtra* ([BS 2.1.11](cite://mandana/brahma-siddhi/2.1.11)) and confirmed by *śabda* (ŚvU 6.8 and the *Bhāgavata*), that the Real is *at the boundary of the conceptual* — and therefore is *positively named* by a term (*acintya-śakti*) that does not pretend to be a concept among concepts.
+**Conclusion.** The relation between *śakti* and *śaktimān* is *acintya* — not capable of being held *within* a conceptual frame, *because it is the kind of relation that grounds conceptual frames rather than appearing within them*. *Acintya-bhedābheda* is not a conceptual position arrived at by logical synthesis. It is the structural-ontological recognition, posted by *Sūtra* (BS 2.1.11) and confirmed by *śabda* (ŚvU 6.8 and the *Bhāgavata*), that the Real is *at the boundary of the conceptual* — and therefore is *positively named* by a term (*acintya-śakti*) that does not pretend to be a concept among concepts.
 
 This is what is meant by the *literal-metaphysical* reading of the doctrine. *Acintya-śakti* is not a placeholder for "we don't know" or "it's a religious mystery." It is a structural-ontological claim: there is a feature of the Real whose mode of being is to *be the ground of conceptualization*, and the proper Sanskrit name for that feature is *acintya-śakti*. The school is not doing devotional theology and decorating it with logic; it is doing first-philosophy whose conclusion happens to underwrite a devotional practice.
 
@@ -362,7 +362,7 @@ Baladeva Vidyābhūṣaṇa, in the *Govinda-Bhāṣya* (early 18th c.), produce
 
 The commentary is selective in our walk-through. Six sūtras display the doctrinal architecture. We will read each with the English wording first and then Baladeva's interpretation.
 
-### [*Brahma-Sūtra* 1.1.1](cite://badarayana/brahma-sutra/1.1.1) — *Athāto Brahma-Jijñāsā*
+### *Brahma-Sūtra* 1.1.1 — *Athāto Brahma-Jijñāsā*
 
 **English:** "Now therefore the inquiry into Brahman."
 
@@ -372,7 +372,7 @@ The decisive move comes at *brahma*. Śaṅkara reads *brahma* as *nirviśeṣa-
 
 The *acintya-bhedābheda* enters immediately: Bhagavān as *Brahman*-aspect (*nirviśeṣa* apprehension), *Paramātmā*-aspect (*antaryāmin* apprehension), *Bhagavān*-aspect (*pūrṇa* apprehension). One *para-tattva*, three poises. The *jijñāsā* is into *all three* under the unifying name *Govinda*; the inquiry is therefore plural in its registers and unitary in its object.
 
-### [*Brahma-Sūtra* 1.1.2](cite://badarayana/brahma-sutra/1.1.2) — *Janmādy Asya Yataḥ*
+### *Brahma-Sūtra* 1.1.2 — *Janmādy Asya Yataḥ*
 
 **English:** "[Brahman is] that from which the origin (and so on — i.e., creation, maintenance, dissolution) of this [world arises]."
 
@@ -386,7 +386,7 @@ The result: the world is *real* (against Śaṅkara's *vivarta* read as ultimate
 
 The implication for the user's thesis: causation requires *śakti*. *Śakti* is *acintya* in its mode of relation to *śaktimān* (Part V). Therefore even causation — the most basic Vedāntic question — is grounded in *acintya-śakti*. The doctrine is not a late devotional flourish but a structural commitment running through the whole Sūtra-bhāṣya from the second sūtra. *Mithyā ≠ asat* (T2): the world is sublatable, in the sense that it ceases to compel from the *liberation*-standpoint, but it is *not* non-existent; it is a real *pariṇāma* of the *māyā-śakti*. The Caitanya school's reading of the second sūtra is the structural ground for the *T2* claim that mithyā is not asat.
 
-### [*Brahma-Sūtra* 1.1.4](cite://badarayana/brahma-sutra/1.1.4) — *Tat Tu Samanvayāt*
+### *Brahma-Sūtra* 1.1.4 — *Tat Tu Samanvayāt*
 
 **English:** "But that [Brahman is the cause of all], because of *samanvaya* (harmonization [of the Vedic texts])."
 
@@ -400,7 +400,7 @@ The *samanvaya-sūtra* is therefore the structural sūtra for *acintya-bhedābhe
 
 This is also the structural sūtra for the user's thesis's T1 (register-discrimination). The Vedic *bheda* texts and the Vedic *abheda* texts are not in conflict; they speak from different registers of disclosure. The *darśanas* that emphasize *bheda* (Madhva's Tattvavāda, Mīmāṃsā's pluralism, Nyāya's categorial realism) and the *darśanas* that emphasize *abheda* (Advaita Vedānta) are not competing total theories; they are register-fitted articulations of one Real. *Samanvaya* requires the user's T1 as a hermeneutic rule for reading the Vedic corpus — and, by extension, for reading the *darśanas* themselves.
 
-### [*Brahma-Sūtra* 2.1.14](cite://badarayana/brahma-sutra/2.1.14) — *Tad Ananyatva*
+### *Brahma-Sūtra* 2.1.14 — *Tad Ananyatva*
 
 **English:** "The non-difference of that [cause and effect from the cause] is established from the word *ārambhaṇa* and similar [statements]."
 
@@ -414,7 +414,7 @@ The argument against the Śaṅkara reading: Śaṅkara takes *ananyatva* to imp
 
 The implication: the world is real. *Mithyā ≠ asat*. The user's T2 finds its Sūtra-anchor here.
 
-### [*Brahma-Sūtra* 2.1.27](cite://badarayana/brahma-sutra/2.1.27) — The Asymmetry / *Avikāritva* Objection
+### *Brahma-Sūtra* 2.1.27 — The Asymmetry / *Avikāritva* Objection
 
 **English:** "But [the conclusion stands] because of the *śruti*, since [the doctrine] is rooted in scripture." (This sūtra closes the *adhikaraṇa* of 2.1.26–29 on the apparent inconsistency between Brahman's nature and its causality.)
 
@@ -428,7 +428,7 @@ Baladeva's reply: this is exactly the question that *acintya-śakti* answers. Th
 
 What does the Lord lack? Nothing. Why? *Acintya-śakti*. Why does *acintya-śakti* answer? Because it is the positive name for the structural feature — possessed-of-inconceivable-potency-such-that-causation-without-change-is-natural — that makes the apparent dilemma a non-dilemma. The dilemma assumes a frame in which *change* and *non-change* are exclusive predicates of the same item; *acintya-śakti* is the meta-feature that grounds the frame and is therefore not within it.
 
-### [*Brahma-Sūtra* 2.1.33](cite://badarayana/brahma-sutra/2.1.33) — *Lokavat Tu Līlā-Kaivalyam*
+### *Brahma-Sūtra* 2.1.33 — *Lokavat Tu Līlā-Kaivalyam*
 
 **English (literal):** "But — just-as-in-the-world (*lokavat*) — [the Lord's creative activity is] play-alone (*līlā-kaivalyam*)."
 
@@ -550,15 +550,15 @@ The Caitanya school is the cleanest classical articulation of the user's thesis'
 
 **T1 — register thesis.** BhP 1.2.11's *brahmeti paramātmeti bhagavān iti śabdyate* is the cleanest scriptural articulation of T1. One Real, three names, no register reducible to another. The *advaita / yoga / bhakti* triad maps onto the three names. This is exactly the user's claim that the *darśanas* address different registers, not competing total theories. The *samanvaya-sūtra* (1.1.4), as Baladeva reads it, is the structural rule for register-fitting across the Vedic corpus — a hermeneutic principle that the user can adopt for cross-tradition reading.
 
-**T2 — self-correcting trajectory.** Bhāskara → Madhva → Caitanya is a historically specific trajectory, but it is also a *logical* trajectory. Each step corrects a one-sidedness. Bhāskara: *bheda* is real (against Śaṅkara) but *aupādhika* (derivative). Madhva: *bheda* is irreducible (against Bhāskara) but *abheda* is demoted. Caitanya: both are *svarūpic* and equally real; the simultaneity is grounded in *acintya-śakti*. Aurobindo: the simultaneity is realized in the supramental *vijñāna*. The user's reading of this sequence as *self-correcting* is exactly right; each step makes the realism more rigorous. *Mithyā ≠ asat* (T2 in compact form): Baladeva's reading of *ananyatva* ([BS 2.1.14](cite://mandana/brahma-siddhi/2.1.14)) and *janmādy asya yataḥ* ([BS 1.1.2](cite://mandana/brahma-siddhi/1.1.2)) supplies the Sūtra-anchor.
+**T2 — self-correcting trajectory.** Bhāskara → Madhva → Caitanya is a historically specific trajectory, but it is also a *logical* trajectory. Each step corrects a one-sidedness. Bhāskara: *bheda* is real (against Śaṅkara) but *aupādhika* (derivative). Madhva: *bheda* is irreducible (against Bhāskara) but *abheda* is demoted. Caitanya: both are *svarūpic* and equally real; the simultaneity is grounded in *acintya-śakti*. Aurobindo: the simultaneity is realized in the supramental *vijñāna*. The user's reading of this sequence as *self-correcting* is exactly right; each step makes the realism more rigorous. *Mithyā ≠ asat* (T2 in compact form): Baladeva's reading of *ananyatva* (BS 2.1.14) and *janmādy asya yataḥ* (BS 1.1.2) supplies the Sūtra-anchor.
 
 **T6 — *paramādvaita*.** *Acintya-bhedābheda* is the cleanest classical statement of *paramādvaita* — the non-duality of duality and non-duality, with structural anticipation of McGilchrist's "non-duality of duality and non-duality." McGilchrist's right-hemispheric formula matches it word-for-word in structure. The right hemisphere holds *bheda* and *abheda* simultaneously without forcing a side; the left hemisphere always forces a side. The *acintya* in Jīva and the *non-duality of duality and non-duality* in McGilchrist are pointing to the same structural feature: the Real *grounds* the conceptual frame and is not within it. The user's claim that this formula structurally anticipates McGilchrist is not a stretch — the formal structure is identical, and the difference is one of vocabulary (Sanskrit-philosophical vs. neuro-philosophical), not of content.
 
 **T7 — willful self-veiling.** *Yogamāyā / mahāmāyā* is the classical Indian articulation of "ignorance is not foreign — it is part of Brahman's own self-manifestation." *Yogamāyā* names the intra-divine self-veiling that *enables relation*. *Mahāmāyā* names the same potency operating at the cosmic register. The *anādi* (beginningless) character of *jīva-avidyā* removes the "moment of fall" problem: there is no moment; the *jīva*'s *sāṁsāric* existence as such is constituted by *avidyā*, which is itself a mode of Bhagavān's own *śakti*. The *acintya-śakti* doctrine grounds T7 — verbal, conceptual irreducibility — at the structural level: the divine's self-veiling cannot be understood by a frame in which veiled and veiler are external (the *naive* frame of religious ignorance-discourse); it requires the *acintya* relation in which veiling is *of* the divine without externalizing the divine's transcendence.
 
-**T8 — action as lawful unfolding via *sākṣi-caitanya*.** Baladeva's reading of [BS 2.1.33–36](cite://mandana/brahma-siddhi/2.1.33-36) — *līlā* with *anādi-karma* and *sāpekṣa* causation — is the structural ground for the user's claim that right action is the lawful unfolding of witness-consciousness, not the assertion of an "epistemic-bully" pramāṇa-consciousness. The Lord acts *līlā*-ly; the *bhakta*'s action mirrors. The *sākṣi-caitanya* of the realized — witness-consciousness rather than agentive-mastery-consciousness — is the human counterpart of the divine *līlā*-mode.
+**T8 — action as lawful unfolding via *sākṣi-caitanya*.** Baladeva's reading of BS 2.1.33–36 — *līlā* with *anādi-karma* and *sāpekṣa* causation — is the structural ground for the user's claim that right action is the lawful unfolding of witness-consciousness, not the assertion of an "epistemic-bully" pramāṇa-consciousness. The Lord acts *līlā*-ly; the *bhakta*'s action mirrors. The *sākṣi-caitanya* of the realized — witness-consciousness rather than agentive-mastery-consciousness — is the human counterpart of the divine *līlā*-mode.
 
-**T9 — divine purpose: unity-in-apparent-multiplicity.** *Līlā-kaivalyam* ([BS 2.1.33](cite://mandana/brahma-siddhi/2.1.33)) and *yogamāyā* together: creation is purposeless-in-itself activity from *pūrṇatva*; *yogamāyā* is the operative *śakti* that produces relational depth within the play. The *gopīs* and *gopas* of *Vraja* are not pawns; they are *yogamāyā*-mediated centers of real love and real *viraha*. Unity (the *one* Bhagavān) and apparent multiplicity (the *Vraja* community) are non-difference and difference held simultaneously by *acintya-śakti*.
+**T9 — divine purpose: unity-in-apparent-multiplicity.** *Līlā-kaivalyam* (BS 2.1.33) and *yogamāyā* together: creation is purposeless-in-itself activity from *pūrṇatva*; *yogamāyā* is the operative *śakti* that produces relational depth within the play. The *gopīs* and *gopas* of *Vraja* are not pawns; they are *yogamāyā*-mediated centers of real love and real *viraha*. Unity (the *one* Bhagavān) and apparent multiplicity (the *Vraja* community) are non-difference and difference held simultaneously by *acintya-śakti*.
 
 **T10 — total surrender from fullness.** Rūpa's BRS 1.1.11 defines *uttama-bhakti* as *anyābhilāṣitā-śūnyam* — devoid of other desires. This is surrender from fullness, not poverty: the *bhakta*'s *prema* is not a request for what he lacks; it is a giving from *pūrṇatva* mirroring the Lord's *līlā*-overflow. Abhinavagupta's *pūrṇatva-icchā* in the Tantric register and the Caitanya school's *uttama-bhakti* converge on the same structure: surrender as expressive overflow, not as begging.
 

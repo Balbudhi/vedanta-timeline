@@ -295,7 +295,7 @@ Canon has the architecture; Anirban has the formalism. Part V returns to the rec
 
 The *Laghu-tantra* (~1,030 stanzas, five chapters) with Kalkin Puṇḍarīka's *Vimalaprabhā* commentary (Banerjee 1985 critical edition; Upadhyaya / Dwivedi / Bahulkar 1986–1994 *Vimalaprabhā*); Nāropā's *Sekoddeśa-Ṭīkā* (Carelli 1941). The *Mūla-tantra* (12,000 stanzas) is lost. The text claims literal structural identity between *bāhya* (outer/cosmic), *adhyātma* (inner/bodily), and *anya* (alternative/contemplative) wheels of time; the numerics (12 / 360 / 21,600) are *commensurable*, not metaphorical.
 
-The on-disk Devanāgarī OCRs are corrupted, so verse-by-verse Sanskrit citation is unavailable; the architectural content is recoverable through the intrinsic numerics and through Abhinavagupta's contemporaneous Trika parallel in [*Tantrāloka* 6](cite://abhinavagupta/tantraloka/6).
+The on-disk Devanāgarī OCRs are corrupted, so verse-by-verse Sanskrit citation is unavailable; the architectural content is recoverable through the intrinsic numerics and through Abhinavagupta's contemporaneous Trika parallel in *Tantrāloka* 6.
 
 ### III.2 — The threefold *kāla-cakra*
 
@@ -449,7 +449,7 @@ The Yuktidīpikā is, of all the Sāṃkhya commentaries, the most rigorously ar
 
 The Yuktidīpikā's most philosophically dense passages are those that argue for *satkārya-vāda* (the doctrine that the effect pre-exists in the cause) against the Buddhist position of *pratītyasamutpāda* (dependent origination, with no substantive cause-effect relation) and the Nyāya-Vaiśeṣika position of *asat-kārya-vāda* (the effect does not pre-exist; production is genuine novelty).
 
-The Sāṃkhya position, formalised in [*Sāṃkhya-Kārikā* 9](cite://isvara-krsna/samkhya-karika/9) (*asad-akaraṇāt upādāna-grahaṇāt sarva-sambhavābhāvāt śaktasya śakya-karaṇāt kāraṇa-bhāvāc ca*), claims that production is the *manifestation* of what was already implicit in the cause. Yuktidīpikā unpacks this:
+The Sāṃkhya position, formalised in *Sāṃkhya-Kārikā* 9 (*asad-akaraṇāt upādāna-grahaṇāt sarva-sambhavābhāvāt śaktasya śakya-karaṇāt kāraṇa-bhāvāc ca*), claims that production is the *manifestation* of what was already implicit in the cause. Yuktidīpikā unpacks this:
 
 The first reason — *asad-akaraṇāt* — is that the *non-existent cannot be made*. If something genuinely did not exist before being produced, then production would be the bringing-into-existence of something from nothing, which is metaphysically incoherent. (Modern parallel: ex nihilo creation, in the strict sense, is unintelligible.) Therefore, what is produced must in some sense *already exist* in the cause.
 
