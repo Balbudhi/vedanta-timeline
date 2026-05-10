@@ -2738,3 +2738,121 @@ body.view-network .lineage-edge { stroke-width: 1.1px; }
   .dp-translation-body .tx-grammar-body { padding: 12px 12px 4px; }
 }
 
+
+/* =============================================================
+   THINKER-TAB CITATIONS — superscript footnotes (Fix 1)
+   The visible cite-link text stays inline; we render a small
+   [N] superscript directly after it. The matching numbered list
+   sits at the bottom of the hero / work-card so the reader sees
+   every reference in one place. Click any [N] (super or list) to
+   open the Citation tab on that locus.
+   ============================================================= */
+sup.cite-fn {
+  font-family: var(--sans);
+  font-size: 9.5px;
+  vertical-align: super;
+  line-height: 0;
+  margin-left: 1px;
+  font-weight: 600;
+}
+sup.cite-fn .cite-fn-link {
+  color: var(--accent, #6b3f06);
+  text-decoration: none;
+  border-bottom: none;
+  padding: 0 1px;
+}
+sup.cite-fn .cite-fn-link:hover {
+  text-decoration: underline;
+  color: var(--ink);
+}
+.cite-fn-list {
+  margin: 12px 0 6px;
+  padding: 10px 12px 10px 0;
+  list-style: none;
+  border-top: 1px solid var(--rule);
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+.cite-fn-list .cite-fn-row {
+  margin: 4px 0;
+  padding-left: 26px;
+  text-indent: -26px;
+}
+.cite-fn-list .cite-fn-num {
+  display: inline-block;
+  width: 22px;
+  font-weight: 700;
+  color: var(--muted);
+}
+.cite-fn-list .cite-fn-rowlink {
+  border-bottom: 1px dotted var(--muted-soft);
+}
+.cite-fn-list .cite-fn-rowlink em {
+  font-style: italic;
+}
+.cite-fn-list .cite-fn-attrib {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+/* "Engaged passages (full work pending)" framing (Fix 4) */
+.passages-nested .nested-head .nested-sub {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--muted);
+  margin-left: 6px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* =============================================================
+   DRAGGABLE POPOVERS (Fix 2)
+   Both the glossary popover (.glossary-popover) and the citation
+   popover (.citation-popover) gain a thin drag handle at the top
+   that lets the user reposition them. The handle is invisible on
+   mobile (the popovers render as bottom-sheets there).
+   ============================================================= */
+.pop-drag {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 18px;
+  cursor: move;
+  touch-action: none;
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,0.025), transparent);
+  border-radius: 4px 4px 0 0;
+  border-bottom: 1px solid var(--rule);
+}
+.pop-drag::before {
+  content: "";
+  display: block;
+  width: 28px;
+  height: 3px;
+  margin: 6px auto 0;
+  background: var(--muted-soft);
+  border-radius: 2px;
+  opacity: 0.6;
+}
+.glossary-popover,
+.citation-popover {
+  padding-top: 26px;            /* leave room for the drag handle */
+}
+.glossary-popover.is-dragging,
+.citation-popover.is-dragging {
+  cursor: move;
+  box-shadow: var(--shadow-lg, 0 10px 30px rgba(0,0,0,0.18));
+  opacity: 0.97;
+}
+@media (max-width: 720px) {
+  /* Bottom-sheet popovers: hide the drag handle (the sheet has its
+     own pull-bar already; drag would conflict with CSS-fixed pos). */
+  .pop-drag { display: none; }
+  .glossary-popover,
+  .citation-popover { padding-top: 22px; }
+}
