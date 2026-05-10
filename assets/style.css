@@ -494,13 +494,25 @@ body.is-detail-open .detail-pane {
 .dp-tab-spacer { flex: 1; }
 .dp-close {
   position: static;
-  margin: 0;
-  width: 32px; height: 32px;
+  margin: 0 4px 0 8px;
+  width: 30px; height: 30px;
   align-self: center;
-  font-size: 22px;
-  border-radius: 3px;
+  font-size: 20px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  color: var(--ink);
+  background: var(--bg);
+  flex-shrink: 0;
 }
-.dp-close:hover { background: var(--bg-warm); color: var(--ink); }
+.dp-close:hover {
+  background: var(--bg-warm);
+  border-color: var(--ink-soft);
+  color: var(--ink);
+}
+.dp-close:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 1px;
+}
 
 .dp-panes {
   flex: 1;
@@ -517,6 +529,23 @@ body.is-detail-open .detail-pane {
 }
 .dp-pane.is-active { display: flex; }
 .dp-pane[hidden] { display: none; }
+
+/* Long words / file names / Sanskrit compounds break instead of overflowing the panel. */
+.detail-pane,
+.dp-pane,
+.dp-pane-body,
+.work-card,
+.work-card .title,
+.work-card .summary,
+.work-card .ascr-notes,
+.cite-source-tree-item,
+.cite-source-file,
+.cite-source-name,
+#detailContent {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
 
 .dp-pane-head {
   padding: 14px 22px 10px;
