@@ -1777,6 +1777,30 @@ body.is-reading-mode .passage-card .english { font-size: 18px; }
   color: var(--ink);
   padding: 0;
 }
+/* GRETIL boilerplate header — collapsed by default. */
+.dp-source-viewer .csv-gretil-header {
+  margin: 6px 0 14px;
+  padding: 6px 10px;
+  border: 1px solid var(--rule);
+  background: var(--bg-warm);
+  border-radius: 3px;
+}
+.dp-source-viewer .csv-gretil-header > summary {
+  cursor: pointer;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  list-style: revert;
+}
+.dp-source-viewer .csv-gretil-header > summary:hover { color: var(--ink); }
+.dp-source-viewer .csv-gretil-header pre.csv-block {
+  margin: 8px 0 0;
+  font-size: 12px;
+  color: var(--ink-soft);
+}
 .dp-source-viewer .csv-body--md h1,
 .dp-source-viewer .csv-body--md h2,
 .dp-source-viewer .csv-body--md h3,

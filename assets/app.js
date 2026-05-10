@@ -185,7 +185,8 @@ const state = {
   citationIndex: null,       // {entries: {key: passage}, aliases: {key: targetKey}}
   range: { low: -800, high: 2050 },
   pxPerYear: PX_PER_YEAR_DEFAULT,
-  layout: new Map(),         // id → {x, y, lane, shade, tier, barX1, barX2, name, label}
+  layout: new Map(),         // id → {x, y, lane, shade, subRow, tier, barX1, barX2}
+  clusters: [],              // [{ids: [...]}] groups of 3+ dots tight in x within a lane
   activeId: null,
   // Filter state: which top-level lane tokens are currently visible.
   // Comparator group is a single virtual lane until expanded.
@@ -464,43 +465,118 @@ function computeLayout() {
   else computeLanesLayout();
 }
 
+// Within-lane sub-row assignment.
+//
+// Each lane is divided into N vertical micro-rows. A thinker's preferred row
+// comes from its hand-tuned `sub_school_shade` (1..5 → rows around center).
+// If that row is already occupied at this x, we walk outward in alternating
+// up/down steps until we find a row whose nearest neighbor on that row sits
+// at least MIN_X_GAP away. This guarantees every dot has its own clickable
+// hit-target column without ever stacking on top of another.
+//
+// Output: the layout map stores y, lane, and the assigned sub-row. A second
+// pass detects residual tight clusters (>= 3 dots with very close x within
+// the same lane); the renderer offers hover-fan expansion for those.
+const SUB_ROW_STEP_DESKTOP = 14;
+const SUB_ROW_STEP_MOBILE = 11;
+const MIN_X_GAP = 22;          // ~ tier-1 dot diameter + breathing room
+const CLUSTER_X_THRESHOLD = 14;
+const CLUSTER_MIN_MEMBERS = 3;
+
 function computeLanesLayout() {
   state.layout.clear();
-  const sorted = [...state.thinkers].sort((a, b) => {
-    return ((a.dates_low + a.dates_high) / 2) - ((b.dates_low + b.dates_high) / 2);
-  });
+  state.clusters = [];
 
-  // for collision detection within same lane × shade, track placed dots
-  const occupancy = new Map();   // `${lane}_${shade}` → array of {x1, x2}
-
-  for (const t of sorted) {
+  // Bucket visible thinkers by lane index.
+  const byLane = new Map();
+  for (const t of state.thinkers) {
     if (!isThinkerVisible(t)) continue;
     const lane = laneIndex(t.school_color_token);
     if (lane < 0) continue;
-    const shade = shadeFor(t);
-    const tier = tierOf(t);
     const xMid = yearToX((t.dates_low + t.dates_high) / 2);
     const x1 = yearToX(t.dates_low);
     const x2 = yearToX(t.dates_high);
+    const entry = {
+      t, xMid, x1, x2,
+      tier: tierOf(t),
+      prefShade: shadeFor(t),
+    };
+    const arr = byLane.get(lane) || [];
+    arr.push(entry);
+    byLane.set(lane, arr);
+  }
 
-    const subOffset = (shade - 3) * 11;   // -22 .. +22
-    let nudge = 0;
-    const key = `${lane}_${shade}`;
-    const arr = occupancy.get(key) || [];
-    for (const o of arr) {
-      if (Math.abs(o.x - xMid) < 18) {
-        nudge += (nudge >= 0 ? 8 : -8);
+  const stepPx = LANE_H <= 72 ? SUB_ROW_STEP_MOBILE : SUB_ROW_STEP_DESKTOP;
+  // Tier-1 dots are 18 px, so a half-lane of ~48 px fits ~3 rows above and
+  // ~3 below center comfortably (with the dot's hit-box still inside the lane).
+  const MAX_OFFSET_STEPS = Math.max(2, Math.floor((LANE_H / 2 - 8) / stepPx));
+
+  for (const [lane, items] of byLane) {
+    items.sort((a, b) => a.xMid - b.xMid);
+
+    // occupancy[rowIdx] = last placed dot's xMid for that row.
+    const occupancy = new Map();
+
+    for (const item of items) {
+      // Preferred row from sub_school_shade (1..5 → -2..+2).
+      const prefRow = (item.prefShade || 3) - 3;
+
+      // Walk outward from the preferred row, alternating up/down so adjacent
+      // contemporaries fan symmetrically. Place into the first row that has
+      // enough horizontal clearance from its last occupant.
+      let chosen = prefRow;
+      let found = false;
+      for (let step = 0; step <= MAX_OFFSET_STEPS * 2 && !found; step++) {
+        const candidates = step === 0
+          ? [prefRow]
+          : [prefRow + step, prefRow - step];
+        for (const r of candidates) {
+          if (Math.abs(r) > MAX_OFFSET_STEPS) continue;
+          const last = occupancy.get(r);
+          if (last === undefined || (item.xMid - last) >= MIN_X_GAP) {
+            chosen = r;
+            found = true;
+            break;
+          }
+        }
       }
+      occupancy.set(chosen, item.xMid);
+
+      const y = lane * LANE_H + LANE_H / 2 + chosen * stepPx;
+
+      state.layout.set(item.t.id, {
+        thinker: item.t,
+        x: item.xMid,
+        y,
+        lane,
+        shade: item.prefShade,
+        subRow: chosen,
+        tier: item.tier,
+        barX1: item.x1,
+        barX2: item.x2,
+      });
     }
-    arr.push({ x: xMid });
-    occupancy.set(key, arr);
+  }
 
-    const y = lane * LANE_H + LANE_H / 2 + subOffset + nudge;
-
-    state.layout.set(t.id, {
-      thinker: t, x: xMid, y, lane, shade, tier,
-      barX1: x1, barX2: x2,
-    });
+  // Detect residual tight clusters. Greedy first-fit guarantees no two dots
+  // share both a row and an x within MIN_X_GAP, but a dense century can still
+  // stack 3+ dots into a vertical column whose xMids are within a few pixels.
+  // Those columns get a hover-fan affordance in renderDots().
+  for (const [, items] of byLane) {
+    if (items.length < CLUSTER_MIN_MEMBERS) continue;
+    let i = 0;
+    while (i < items.length) {
+      const groupIds = [items[i].t.id];
+      let j = i + 1;
+      while (j < items.length && (items[j].xMid - items[i].xMid) < CLUSTER_X_THRESHOLD) {
+        groupIds.push(items[j].t.id);
+        j++;
+      }
+      if (groupIds.length >= CLUSTER_MIN_MEMBERS) {
+        state.clusters.push({ ids: groupIds });
+      }
+      i = Math.max(j, i + 1);
+    }
   }
 }
 
@@ -809,8 +885,18 @@ function renderDateBars() {
 // ---------- render: dots -----------
 function renderDots() {
   dotsLayer.innerHTML = "";
-  // for label collision, place above by default; collect bands of placed labels
-  const placedAbove = []; // {y, x1, x2}
+
+  // Map each thinker id to its cluster index (if any). Only used in lanes view —
+  // network view does its own free-form placement and rarely produces stacks.
+  const clusterOf = new Map();
+  if (state.viewMode === "lanes" && Array.isArray(state.clusters)) {
+    state.clusters.forEach((c, idx) => {
+      for (const id of c.ids) clusterOf.set(id, idx);
+    });
+  }
+
+  // For label collision, place above by default; collect bands of placed labels.
+  const placedAbove = [];
   const placedBelow = [];
   for (const [, p] of state.layout) {
     const t = p.thinker;
@@ -828,6 +914,11 @@ function renderDots() {
     dot.dataset.school = t.school_color_token;
     dot.dataset.shade = p.shade;
     dot.dataset.tier = p.tier;
+    const cIdx = clusterOf.get(t.id);
+    if (cIdx !== undefined) {
+      dot.dataset.cluster = String(cIdx);
+      dot.classList.add("thinker-dot--in-cluster");
+    }
     dot.style.left = p.x + "px";
     dot.style.top = p.y + "px";
     dot.style.setProperty("--dot-color", colorFor(t, 2));
@@ -849,6 +940,51 @@ function renderDots() {
     dot.addEventListener("mouseleave", () => onDotHover(t.id, false));
     dotsLayer.appendChild(dot);
   }
+
+  // Cluster hover-fan: on hovering any dot belonging to a cluster, fan the
+  // whole cluster horizontally (alternating ± offsets from the cluster
+  // centroid) so each member is independently clickable. Plays on top of
+  // the greedy sub-row layout — most clusters disappear there, this is a
+  // safety net for the densest periods.
+  state.clusters.forEach((c, idx) => {
+    if (c.ids.length < 2) return;
+    const members = c.ids
+      .map((id) => ({ id, el: dotsLayer.querySelector(`.thinker-dot[data-id="${CSS.escape(id)}"]`) }))
+      .filter((m) => m.el);
+    if (members.length < 2) return;
+    const fanStep = 18;  // px between fanned dots
+    const centerIdx = (members.length - 1) / 2;
+    const enter = () => {
+      dotsLayer.classList.add("has-cluster-fan");
+      members.forEach((m, i) => {
+        const dx = (i - centerIdx) * fanStep;
+        m.el.classList.add("is-fanned");
+        m.el.style.setProperty("--fan-dx", dx + "px");
+      });
+    };
+    const leave = () => {
+      members.forEach((m) => {
+        m.el.classList.remove("is-fanned");
+        m.el.style.removeProperty("--fan-dx");
+      });
+      dotsLayer.classList.remove("has-cluster-fan");
+    };
+    members.forEach((m) => {
+      m.el.addEventListener("mouseenter", enter);
+      m.el.addEventListener("mouseleave", (e) => {
+        // Only collapse when the cursor truly leaves all cluster members.
+        const to = e.relatedTarget;
+        if (to && members.some((mm) => mm.el === to || mm.el.contains(to))) return;
+        leave();
+      });
+      m.el.addEventListener("focus", enter);
+      m.el.addEventListener("blur", (e) => {
+        const to = e.relatedTarget;
+        if (to && members.some((mm) => mm.el === to || mm.el.contains(to))) return;
+        leave();
+      });
+    });
+  });
 }
 
 function onDotHover(id, on) {
