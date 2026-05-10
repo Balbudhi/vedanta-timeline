@@ -1,0 +1,3358 @@
+{
+  "version": 1,
+  "generated_at": "2026-05-10T16:28:55Z",
+  "root": "materials/primary_texts/",
+  "file_count": 335,
+  "files": [
+    {
+      "path": "english/aurobindo_cwsa/vol_10_record_of_yoga_i.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 10: Record of Yoga - I",
+      "size_bytes": 1774905,
+      "line_count": 20715,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_11_record_of_yoga_ii.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 11: Record of Yoga - II",
+      "size_bytes": 1604339,
+      "line_count": 17639,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_12_essays_divine_and_human.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 12: Essays Divine and Human",
+      "size_bytes": 1001372,
+      "line_count": 5109,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_13_essays_in_philosophy_and_yoga.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 13: Essays in Philosophy and Yoga",
+      "size_bytes": 1260145,
+      "line_count": 2679,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_15_secret_of_the_veda.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 15: The Secret of the Veda",
+      "size_bytes": 1397165,
+      "line_count": 6870,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_16_hymns_to_the_mystic_fire.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 16: Hymns to the Mystic Fire",
+      "size_bytes": 1927006,
+      "line_count": 18354,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_17_isha_upanishad.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 17: Isha Upanishad",
+      "size_bytes": 1399393,
+      "line_count": 2979,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_18_kena_and_other_upanishads.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 18: Kena and Other Upanishads",
+      "size_bytes": 1018082,
+      "line_count": 5265,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_19_essays_on_the_gita.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 19: Essays on the Gita",
+      "size_bytes": 1620761,
+      "line_count": 1887,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_20_renaissance_in_india.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 20: The Renaissance in India",
+      "size_bytes": 1092363,
+      "line_count": 1251,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_21_life_divine_i.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 21: The Life Divine - I",
+      "size_bytes": 1583470,
+      "line_count": 2049,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_22_life_divine_ii.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 22: The Life Divine - II",
+      "size_bytes": 1143202,
+      "line_count": 1239,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_23_synthesis_of_yoga_i.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 23: The Synthesis of Yoga - I",
+      "size_bytes": 1307256,
+      "line_count": 2108,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_24_synthesis_of_yoga_ii.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 24: The Synthesis of Yoga - II",
+      "size_bytes": 904714,
+      "line_count": 1329,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_25_human_cycle.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 25: The Human Cycle",
+      "size_bytes": 1623241,
+      "line_count": 2300,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_26_future_poetry.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 26: The Future Poetry",
+      "size_bytes": 897795,
+      "line_count": 2621,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_27_letters_on_poetry_and_art.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 27: Letters on Poetry and Art",
+      "size_bytes": 1630699,
+      "line_count": 11860,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_28_letters_on_yoga_i.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 28: Letters on Yoga - I",
+      "size_bytes": 1167643,
+      "line_count": 6302,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_29_letters_on_yoga_ii.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 29: Letters on Yoga - II",
+      "size_bytes": 1025714,
+      "line_count": 6289,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_30_letters_on_yoga_iii.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 30: Letters on Yoga - III",
+      "size_bytes": 916679,
+      "line_count": 7063,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_31_letters_on_yoga_iv.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 31: Letters on Yoga - IV",
+      "size_bytes": 1620321,
+      "line_count": 10349,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_32_the_mother_with_letters.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 32: The Mother with Letters on The Mother",
+      "size_bytes": 1377985,
+      "line_count": 10060,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_33_savitri_i.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 33: Savitri - I",
+      "size_bytes": 599250,
+      "line_count": 14731,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_34_savitri_ii.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 34: Savitri - II",
+      "size_bytes": 653663,
+      "line_count": 15581,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_35_letters_on_himself.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 35: Letters on Himself and the Ashram",
+      "size_bytes": 1787653,
+      "line_count": 12438,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/aurobindo_cwsa/vol_36_autobiographical_notes.txt",
+      "language": "english",
+      "category": "aurobindo_cwsa",
+      "title": "CWSA Volume 36: Autobiographical Notes and Other Writings of Historical Interest",
+      "size_bytes": 1311212,
+      "line_count": 7115,
+      "edition": "CWSA (Sri Aurobindo)",
+      "format": "markdown"
+    },
+    {
+      "path": "english/banerji/meditations_on_isha_upanishad.MISSING.md",
+      "language": "english",
+      "category": "banerji",
+      "title": "MISSING — placeholder",
+      "size_bytes": 251,
+      "line_count": 7,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/banerji/seven_quartets_of_becoming_partial.MISSING.md",
+      "language": "english",
+      "category": "banerji",
+      "title": "MISSING — placeholder",
+      "size_bytes": 341,
+      "line_count": 7,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/butler/butler-gender-trouble_202409.txt",
+      "language": "english",
+      "category": "butler",
+      "title": "Thinking Gender",
+      "size_bytes": 509293,
+      "line_count": 9936,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/butler/gendertroublefeminismandthesubversionofidentitypdfdrive.com.txt",
+      "language": "english",
+      "category": "butler",
+      "title": "Gender Trouble",
+      "size_bytes": 566799,
+      "line_count": 11260,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/chaudhuri/dli.ernet.425542.txt",
+      "language": "english",
+      "category": "chaudhuri",
+      "title": "The Philosophy of Integralism",
+      "size_bytes": 362866,
+      "line_count": 9045,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/chaudhuri/dli.ernet.528659.txt",
+      "language": "english",
+      "category": "chaudhuri",
+      "title": "$£  ,  STT5T  «Tf  Tf  T  WT^ft  shot^h  araroft  M",
+      "size_bytes": 830770,
+      "line_count": 16043,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/chomsky_sapolsky/BehaveTheBiologyOfHumansAtOurBestAndWorst_201812.txt",
+      "language": "english",
+      "category": "chomsky_sapolsky",
+      "title": "BEHAVE",
+      "size_bytes": 1934447,
+      "line_count": 35810,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/cognitive_science/the-ever-present-origin-by-jean-gebser.txt",
+      "language": "english",
+      "category": "cognitive_science",
+      "title": "THE EVER-",
+      "size_bytes": 2292998,
+      "line_count": 50571,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/contemporary_western_paywalled/garrett_nature_and_necessity.MISSING.md",
+      "language": "english",
+      "category": "contemporary_western_paywalled",
+      "title": "MISSING — placeholder",
+      "size_bytes": 325,
+      "line_count": 7,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/contemporary_western_paywalled/goldenbaum_infinitesimal_differences.MISSING.md",
+      "language": "english",
+      "category": "contemporary_western_paywalled",
+      "title": "MISSING — placeholder",
+      "size_bytes": 385,
+      "line_count": 7,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/contemporary_western_paywalled/hegel-o-spinoza-pierre-macherey.txt",
+      "language": "english",
+      "category": "contemporary_western_paywalled",
+      "title": "Pierre Macherey",
+      "size_bytes": 570238,
+      "line_count": 11380,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/contemporary_western_paywalled/laerke_leibniz_lecteur_de_spinoza.MISSING.md",
+      "language": "english",
+      "category": "contemporary_western_paywalled",
+      "title": "MISSING — placeholder",
+      "size_bytes": 303,
+      "line_count": 7,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/contemporary_western_paywalled/yitzhak-y.-melamed-a-companion-to-spinoza-2021.txt",
+      "language": "english",
+      "category": "contemporary_western_paywalled",
+      "title": "A COMPANION TO",
+      "size_bytes": 2111289,
+      "line_count": 35210,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/coomaraswamy/TheTransformationOfNatureInArtAnandCoomaraswamy.txt",
+      "language": "english",
+      "category": "coomaraswamy",
+      "title": "१.१ |, - ऋ ९ @ 6, 9/, /1> १.9.) / (१/1",
+      "size_bytes": 730747,
+      "line_count": 9398,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/coomaraswamy/dli.ernet.234006.txt",
+      "language": "english",
+      "category": "coomaraswamy",
+      "title": "RATAN TATA LIBRARY",
+      "size_bytes": 382001,
+      "line_count": 8446,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/kc_bhattacharyya/kcb_philosophy_secondary.txt",
+      "language": "english",
+      "category": "kc_bhattacharyya",
+      "title": "THE PHILOSOPHY",
+      "size_bytes": 570365,
+      "line_count": 14008,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/kc_bhattacharyya/studies_in_philosophy_old_edition.txt",
+      "language": "english",
+      "category": "kc_bhattacharyya",
+      "title": "TEXT FLY WITHIN",
+      "size_bytes": 803500,
+      "line_count": 15806,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/kc_bhattacharyya/studies_in_philosophy_vol1.txt",
+      "language": "english",
+      "category": "kc_bhattacharyya",
+      "title": "STUDIES IN PHILOSOPHY",
+      "size_bytes": 801533,
+      "line_count": 15688,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/kc_bhattacharyya/studies_in_philosophy_vol2.txt",
+      "language": "english",
+      "category": "kc_bhattacharyya",
+      "title": "STUDIES IN PHILOSOPHY",
+      "size_bytes": 908314,
+      "line_count": 16288,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/kc_bhattacharyya/studies_in_philosophy_vol_1.txt",
+      "language": "english",
+      "category": "kc_bhattacharyya",
+      "title": "/ _` | '_/ _| ' \\| |\\ V / -_)",
+      "size_bytes": 983005,
+      "line_count": 20038,
+      "edition": "Internet Archive",
+      "format": "plain-text"
+    },
+    {
+      "path": "english/kc_bhattacharyya/studies_in_philosophy_vol_2.txt",
+      "language": "english",
+      "category": "kc_bhattacharyya",
+      "title": "/ _` | '_/ _| ' \\| |\\ V / -_)",
+      "size_bytes": 1540460,
+      "line_count": 21102,
+      "edition": "Internet Archive",
+      "format": "plain-text"
+    },
+    {
+      "path": "english/kc_bhattacharyya/studies_in_vedantism.txt",
+      "language": "english",
+      "category": "kc_bhattacharyya",
+      "title": "STUDIES",
+      "size_bytes": 215898,
+      "line_count": 4423,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/leibniz_translated/monadology_etc.txt",
+      "language": "english",
+      "category": "leibniz_translated",
+      "title": "﻿The Project Gutenberg eBook of Theodicy",
+      "size_bytes": 1122460,
+      "line_count": 17015,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "english/maharaj/INDEX.MISSING.md",
+      "language": "english",
+      "category": "maharaj",
+      "title": "Maharaj / Medhananda — User must provide",
+      "size_bytes": 1281,
+      "line_count": 14,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/maharaj/maharaj_2018_infinite_paths_to_infinite_reality.txt",
+      "language": "english",
+      "category": "maharaj",
+      "title": "Sri Ramakrishna & Cross-Cultural",
+      "size_bytes": 1011139,
+      "line_count": 19764,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/mother/agenda_satprem/agenda_vol_1.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "Mother’s  Agenda",
+      "size_bytes": 1083832,
+      "line_count": 20355,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/mother/agenda_satprem/agenda_vol_10.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "’s Agenda",
+      "size_bytes": 879417,
+      "line_count": 20264,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/mother/agenda_satprem/agenda_vol_11.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "Mother’s Agenda",
+      "size_bytes": 578906,
+      "line_count": 15022,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/mother/agenda_satprem/agenda_vol_12.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "Mother’s Agenda",
+      "size_bytes": 468855,
+      "line_count": 13362,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/mother/agenda_satprem/agenda_vol_13.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "Mother’s Agenda",
+      "size_bytes": 524160,
+      "line_count": 15892,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/mother/agenda_satprem/agenda_vol_2.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "Mother’s Agenda",
+      "size_bytes": 811362,
+      "line_count": 15108,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/mother/agenda_satprem/agenda_vol_3.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "Mother’s Agenda",
+      "size_bytes": 879001,
+      "line_count": 17043,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/mother/agenda_satprem/agenda_vol_4.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "Mother’s Agenda",
+      "size_bytes": 819285,
+      "line_count": 16098,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/mother/agenda_satprem/agenda_vol_5.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "Mother’s Agenda",
+      "size_bytes": 568340,
+      "line_count": 11286,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/mother/agenda_satprem/agenda_vol_6.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "Mother’s Agenda",
+      "size_bytes": 602233,
+      "line_count": 12008,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/mother/agenda_satprem/agenda_vol_7.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "Mother’s Agenda",
+      "size_bytes": 540309,
+      "line_count": 10290,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/mother/agenda_satprem/agenda_vol_8.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "Mother’s Agenda",
+      "size_bytes": 775134,
+      "line_count": 15240,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/mother/agenda_satprem/agenda_vol_9.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "Mother’s Agenda",
+      "size_bytes": 568589,
+      "line_count": 12801,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/mother/cwm_vol_01_prayers_and_meditations.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "CWM Volume 01: Prayers and Meditations",
+      "size_bytes": 473267,
+      "line_count": 4573,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/mother/cwm_vol_02_words_of_long_ago.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "CWM Volume 02: Words of Long Ago",
+      "size_bytes": 505446,
+      "line_count": 4658,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/mother/cwm_vol_03_questions_and_answers_(1929_1931).txt",
+      "language": "english",
+      "category": "mother",
+      "title": "CWM Volume 03: Questions and Answers (1929 - 1931)",
+      "size_bytes": 586635,
+      "line_count": 3032,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/mother/cwm_vol_04_questions_and_answers_(1950_1951).txt",
+      "language": "english",
+      "category": "mother",
+      "title": "CWM Volume 04: Questions and Answers (1950 - 1951)",
+      "size_bytes": 844005,
+      "line_count": 3632,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/mother/cwm_vol_05_questions_and_answers_(1953).txt",
+      "language": "english",
+      "category": "mother",
+      "title": "CWM Volume 05: Questions and Answers (1953)",
+      "size_bytes": 885297,
+      "line_count": 3598,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/mother/cwm_vol_06_questions_and_answers_(1954).txt",
+      "language": "english",
+      "category": "mother",
+      "title": "CWM Volume 06: Questions and Answers (1954)",
+      "size_bytes": 935257,
+      "line_count": 4973,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/mother/cwm_vol_07_questions_and_answers_(1955).txt",
+      "language": "english",
+      "category": "mother",
+      "title": "CWM Volume 07: Questions and Answers (1955)",
+      "size_bytes": 840607,
+      "line_count": 5065,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/mother/cwm_vol_08_questions_and_answers_(1956).txt",
+      "language": "english",
+      "category": "mother",
+      "title": "CWM Volume 08: Questions and Answers (1956)",
+      "size_bytes": 811239,
+      "line_count": 5479,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/mother/cwm_vol_09_questions_and_answers_(1957_1958).txt",
+      "language": "english",
+      "category": "mother",
+      "title": "CWM Volume 09: Questions and Answers (1957 - 1958)",
+      "size_bytes": 849446,
+      "line_count": 4274,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/mother/cwm_vol_10_on_thoughts_and_aphorisms.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "CWM Volume 10: On Thoughts and Aphorisms",
+      "size_bytes": 750806,
+      "line_count": 6750,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/mother/cwm_vol_11_notes_on_the_way.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "CWM Volume 11: Notes on the Way",
+      "size_bytes": 592637,
+      "line_count": 5006,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/mother/cwm_vol_12_on_education.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "CWM Volume 12: On Education",
+      "size_bytes": 833289,
+      "line_count": 8035,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/mother/cwm_vol_13_words_of_the_mother_i.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "CWM Volume 13: Words of the Mother - I",
+      "size_bytes": 557463,
+      "line_count": 6689,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/mother/cwm_vol_14_words_of_the_mother_ii.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "CWM Volume 14: Words of the Mother - II",
+      "size_bytes": 452509,
+      "line_count": 8159,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/mother/cwm_vol_15_words_of_the_mother_iii.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "CWM Volume 15: Words of the Mother - III",
+      "size_bytes": 624432,
+      "line_count": 7635,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/mother/cwm_vol_16_some_answers_from_the_mother.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "CWM Volume 16: Some Answers from the Mother",
+      "size_bytes": 841234,
+      "line_count": 13879,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/mother/cwm_vol_17_more_answers_from_the_mother.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "CWM Volume 17: More Answers from the Mother",
+      "size_bytes": 824073,
+      "line_count": 14213,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/mother/cwm_vol_18_new_correspondences_of_the_mother_vol_i.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "CWM Volume 18: New Correspondences of the Mother - Vol I",
+      "size_bytes": 977291,
+      "line_count": 18806,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/mother/cwm_vol_19_new_correspondences_of_the_mother_vol_ii.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "CWM Volume 19: New Correspondences of the Mother - Vol II",
+      "size_bytes": 741439,
+      "line_count": 19323,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/mother/cwm_vol_20_new_words_of_the_mother.txt",
+      "language": "english",
+      "category": "mother",
+      "title": "CWM Volume 20: New Words of the Mother",
+      "size_bytes": 690958,
+      "line_count": 13292,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/ramakrishna/gospel_frontmatter.txt",
+      "language": "english",
+      "category": "ramakrishna",
+      "title": "Gospel of Sri Ramakrishna - Front and back matter",
+      "size_bytes": 157293,
+      "line_count": 4941,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/ramakrishna/gospel_of_sri_ramakrishna.txt",
+      "language": "english",
+      "category": "ramakrishna",
+      "title": "The Gospel of Sri Ramakrishna (Mahendranath Gupta / 'M', tr. Swami Nikhilananda)",
+      "size_bytes": 2762842,
+      "line_count": 78701,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/ramakrishna/gospel_volume_1.txt",
+      "language": "english",
+      "category": "ramakrishna",
+      "title": "Gospel of Sri Ramakrishna - Volume 1",
+      "size_bytes": 1283759,
+      "line_count": 35977,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/ramakrishna/gospel_volume_2.txt",
+      "language": "english",
+      "category": "ramakrishna",
+      "title": "Gospel of Sri Ramakrishna - Volume 2",
+      "size_bytes": 1318262,
+      "line_count": 37607,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/spinoza_translated/_989.txt",
+      "language": "english",
+      "category": "spinoza_translated",
+      "title": "﻿The Project Gutenberg eBook of Theologico-Political Treatise — Part 1",
+      "size_bytes": 199118,
+      "line_count": 3243,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "english/spinoza_translated/ethics_elwes.txt",
+      "language": "english",
+      "category": "spinoza_translated",
+      "title": "﻿The Project Gutenberg eBook of Ethics",
+      "size_bytes": 531670,
+      "line_count": 10132,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "english/spinoza_translated/intellect_emendation_elwes.txt",
+      "language": "english",
+      "category": "spinoza_translated",
+      "title": "﻿The Project Gutenberg eBook of PG Edition of Netherlands series — Complete",
+      "size_bytes": 9790460,
+      "line_count": 156437,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "english/spinoza_translated/ttp_elwes.txt",
+      "language": "english",
+      "category": "spinoza_translated",
+      "title": "﻿The Project Gutenberg eBook of Theologico-Political Treatise — Part 1",
+      "size_bytes": 199118,
+      "line_count": 3243,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "english/vivekananda_complete_works/vol_1.txt",
+      "language": "english",
+      "category": "vivekananda_complete_works",
+      "title": "Vivekananda Complete Works Volume 1",
+      "size_bytes": 953976,
+      "line_count": 17283,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/vivekananda_complete_works/vol_2.txt",
+      "language": "english",
+      "category": "vivekananda_complete_works",
+      "title": "Vivekananda Complete Works Volume 2",
+      "size_bytes": 982369,
+      "line_count": 16618,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/vivekananda_complete_works/vol_3.txt",
+      "language": "english",
+      "category": "vivekananda_complete_works",
+      "title": "Vivekananda Complete Works Volume 3",
+      "size_bytes": 1041003,
+      "line_count": 17735,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/vivekananda_complete_works/vol_4.txt",
+      "language": "english",
+      "category": "vivekananda_complete_works",
+      "title": "Vivekananda Complete Works Volume 4",
+      "size_bytes": 936331,
+      "line_count": 18211,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/vivekananda_complete_works/vol_5.txt",
+      "language": "english",
+      "category": "vivekananda_complete_works",
+      "title": "Vivekananda Complete Works Volume 5",
+      "size_bytes": 954218,
+      "line_count": 22027,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/vivekananda_complete_works/vol_6.txt",
+      "language": "english",
+      "category": "vivekananda_complete_works",
+      "title": "Vivekananda Complete Works Volume 6",
+      "size_bytes": 967828,
+      "line_count": 23818,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/vivekananda_complete_works/vol_7.txt",
+      "language": "english",
+      "category": "vivekananda_complete_works",
+      "title": "Vivekananda Complete Works Volume 7",
+      "size_bytes": 605040,
+      "line_count": 13543,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/vivekananda_complete_works/vol_8.txt",
+      "language": "english",
+      "category": "vivekananda_complete_works",
+      "title": "Vivekananda Complete Works Volume 8",
+      "size_bytes": 832901,
+      "line_count": 22371,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/vivekananda_complete_works/vol_9.txt",
+      "language": "english",
+      "category": "vivekananda_complete_works",
+      "title": "Vivekananda Complete Works Volume 9",
+      "size_bytes": 763499,
+      "line_count": 24644,
+      "edition": null,
+      "format": "markdown"
+    },
+    {
+      "path": "english/whitehead/adventures-of-ideas.txt",
+      "language": "english",
+      "category": "whitehead",
+      "title": "MAN'S  PROGRESS",
+      "size_bytes": 946690,
+      "line_count": 17789,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/whitehead/b30010238.txt",
+      "language": "english",
+      "category": "whitehead",
+      "title": "22500698028",
+      "size_bytes": 818875,
+      "line_count": 16606,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/whitehead/in.ernet.dli.2015.506439.txt",
+      "language": "english",
+      "category": "whitehead",
+      "title": "Adventnrasi 0/ Ideas h a brilliLint hi};tory oi the",
+      "size_bytes": 721295,
+      "line_count": 16709,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "english/whitehead/processrealityes0000unse.txt",
+      "language": "english",
+      "category": "whitehead",
+      "title": "PROCESS  AND  REALITY",
+      "size_bytes": 1263098,
+      "line_count": 26369,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/bergson/b28091528.txt",
+      "language": "french",
+      "category": "bergson",
+      "title": "I WÊm",
+      "size_bytes": 604572,
+      "line_count": 10710,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/bergson/donnees_immediates.txt",
+      "language": "french",
+      "category": "bergson",
+      "title": "Bergson, Essai sur les données immédiates (fr.wikisource compiled)",
+      "size_bytes": 767376,
+      "line_count": 3114,
+      "edition": "Wikisource",
+      "format": "markdown"
+    },
+    {
+      "path": "french/bergson/evolution_creatrice.txt",
+      "language": "french",
+      "category": "bergson",
+      "title": "﻿The Project Gutenberg eBook of The Wiving of Lance Cleaverage",
+      "size_bytes": 542901,
+      "line_count": 11336,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "french/bergson/les_deux_sources.txt",
+      "language": "french",
+      "category": "bergson",
+      "title": "Bergson, Les Deux Sources (fr.wikisource compiled)",
+      "size_bytes": 1338458,
+      "line_count": 2066,
+      "edition": "Wikisource",
+      "format": "markdown"
+    },
+    {
+      "path": "french/bergson/matiere-et-memoire-1929_1929.txt",
+      "language": "french",
+      "category": "bergson",
+      "title": "A LA MÊME LIBRAIRIE",
+      "size_bytes": 550555,
+      "line_count": 11732,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/bergson/matiere_et_memoire.txt",
+      "language": "french",
+      "category": "bergson",
+      "title": "﻿The Project Gutenberg eBook of The Elements of Geology",
+      "size_bytes": 773553,
+      "line_count": 14946,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "french/bergson/matireetmmoiree01berggoog.txt",
+      "language": "french",
+      "category": "bergson",
+      "title": "to make the world's books discoverable online.",
+      "size_bytes": 542659,
+      "line_count": 11712,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/bergson/matterandmemory00berguoft.txt",
+      "language": "french",
+      "category": "bergson",
+      "title": "Xibran?  of  philosophy",
+      "size_bytes": 650030,
+      "line_count": 14549,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/deleuze/Bergsonism.txt",
+      "language": "french",
+      "category": "deleuze",
+      "title": "Bergsonism",
+      "size_bytes": 240956,
+      "line_count": 5907,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/deleuze/DesertIslandsAndOtherTexts.txt",
+      "language": "french",
+      "category": "deleuze",
+      "title": "Desert Islands",
+      "size_bytes": 922380,
+      "line_count": 16999,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/deleuze/anti-oedipus.txt",
+      "language": "french",
+      "category": "deleuze",
+      "title": "‘Feppus",
+      "size_bytes": 1230622,
+      "line_count": 20848,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/deleuze/deleuze-gilles.-nietzsche-y-la-filosofia-1998.txt",
+      "language": "french",
+      "category": "deleuze",
+      "title": "Gilles Deleuze",
+      "size_bytes": 600253,
+      "line_count": 12145,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/deleuze/diferencia-y-repeticion-gilles-deleuze.txt",
+      "language": "french",
+      "category": "deleuze",
+      "title": "Diferencia",
+      "size_bytes": 1146494,
+      "line_count": 23254,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/deleuze/el-pliegue.-leibniz-y-el-barroco-gilles-deleuze.txt",
+      "language": "french",
+      "category": "deleuze",
+      "title": "Gilles Deleuze",
+      "size_bytes": 459949,
+      "line_count": 9121,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/derrida/in.ernet.dli.2015.124704.txt",
+      "language": "french",
+      "category": "derrida",
+      "title": "Of Grammatology",
+      "size_bytes": 1376525,
+      "line_count": 22749,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/derrida/jacques-derrida-de-la-gramatologia.txt",
+      "language": "french",
+      "category": "derrida",
+      "title": "JACQUES",
+      "size_bytes": 1161968,
+      "line_count": 20931,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/derrida/jacquesderridaofgrammatologyzlib.org.txt",
+      "language": "french",
+      "category": "derrida",
+      "title": ":زع 274111111041010 0/7",
+      "size_bytes": 1991639,
+      "line_count": 24293,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/descartes_french/discours_de_la_methode.txt",
+      "language": "french",
+      "category": "descartes_french",
+      "title": "﻿The Project Gutenberg eBook of Discours de la méthode",
+      "size_bytes": 729297,
+      "line_count": 11359,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "french/descartes_french/meditations.txt",
+      "language": "french",
+      "category": "descartes_french",
+      "title": "﻿The Project Gutenberg eBook of Hume's Political Discourses",
+      "size_bytes": 652624,
+      "line_count": 11612,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "french/foucault/foucault-michel.-las-palabras-y-las-cosas-1968.txt",
+      "language": "french",
+      "category": "foucault",
+      "title": "LAS PALABRAS",
+      "size_bytes": 1066679,
+      "line_count": 18670,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/foucault/foucault-the-history-of-sexuality-volume-1.txt",
+      "language": "french",
+      "category": "foucault",
+      "title": "The History of Sexuality",
+      "size_bytes": 322545,
+      "line_count": 6932,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/foucault/les-mots-et-les-choses-foucault.txt",
+      "language": "french",
+      "category": "foucault",
+      "title": "Les mots et les choses",
+      "size_bytes": 1080506,
+      "line_count": 13910,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/lacan/Lacan-Ecrits.txt",
+      "language": "french",
+      "category": "lacan",
+      "title": "JACQUES LACAN",
+      "size_bytes": 2035930,
+      "line_count": 45651,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/lacan/ecrits-jacques-lacan-1966.txt",
+      "language": "french",
+      "category": "lacan",
+      "title": "JACQUES LACAN",
+      "size_bytes": 2133544,
+      "line_count": 46981,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/lacan/lacan-jacques-ecrits-Autres.txt",
+      "language": "french",
+      "category": "lacan",
+      "title": "JACQUES LACAN",
+      "size_bytes": 1276748,
+      "line_count": 29117,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/leibniz_french/discours_de_metaphysique_wikisource.txt",
+      "language": "french",
+      "category": "leibniz_french",
+      "title": "Source: https://fr.wikisource.org/wiki/Discours_de_m%C3%A9taphysique",
+      "size_bytes": 129230,
+      "line_count": 1188,
+      "edition": "Wikisource",
+      "format": "markdown"
+    },
+    {
+      "path": "french/leibniz_french/monadologie.txt",
+      "language": "french",
+      "category": "leibniz_french",
+      "title": "﻿The Project Gutenberg eBook of Διηγήματα, Νέα Σειρά",
+      "size_bytes": 405111,
+      "line_count": 4876,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "french/leibniz_french/monadologie_janet_wikisource.txt",
+      "language": "french",
+      "category": "leibniz_french",
+      "title": "Source: https://fr.wikisource.org/wiki/Monadologie_(%C3%89dition_Janet,_1900)",
+      "size_bytes": 41129,
+      "line_count": 391,
+      "edition": "Wikisource",
+      "format": "markdown"
+    },
+    {
+      "path": "french/levinas/emmanuel-levinas-totalidad-e-infinito-1961.txt",
+      "language": "french",
+      "category": "levinas",
+      "title": "ds ce",
+      "size_bytes": 795840,
+      "line_count": 15754,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/levinas/levinas-emanuel-humanismo-del-otro-hombre.txt",
+      "language": "french",
+      "category": "levinas",
+      "title": "EMMANUEL LEVINAS",
+      "size_bytes": 202351,
+      "line_count": 5257,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/levinas/levinas-emmanuel-de-la-existencia-al-existente.txt",
+      "language": "french",
+      "category": "levinas",
+      "title": "Con un ensayo de",
+      "size_bytes": 209341,
+      "line_count": 4895,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/lyotard/JeanFranoisLyotardLibidinalEconomy.txt",
+      "language": "french",
+      "category": "lyotard",
+      "title": "jean-frangois",
+      "size_bytes": 798247,
+      "line_count": 15109,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/meillassoux/DeuilAVenirDieuAAVenirN062017.txt",
+      "language": "french",
+      "category": "meillassoux",
+      "title": "Quentin Meillassoux",
+      "size_bytes": 31696,
+      "line_count": 642,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "french/meillassoux/hiper-caos-quentin-meillassoux.txt",
+      "language": "french",
+      "category": "meillassoux",
+      "title": "Desde la publicación de Ar ( nitude",
+      "size_bytes": 365065,
+      "line_count": 8228,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/adorno/DialecticOfEnlightenmentTheodorW.AdornoMaxHorkheimer.txt",
+      "language": "german",
+      "category": "adorno",
+      "title": "Cultural Memory in the Presen,",
+      "size_bytes": 765389,
+      "line_count": 13337,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/adorno/TheodorAdorno-NegativeDialektik.txt",
+      "language": "german",
+      "category": "adorno",
+      "title": "TheodorW.",
+      "size_bytes": 956058,
+      "line_count": 18956,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/adorno/adorno_jargon.txt",
+      "language": "german",
+      "category": "adorno",
+      "title": "THEODOR",
+      "size_bytes": 309761,
+      "line_count": 7113,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/adorno/theodor-adorno-dialectica-negativa-1975.txt",
+      "language": "german",
+      "category": "adorno",
+      "title": "STA obra se propone ir más allá de la habitual se-",
+      "size_bytes": 972220,
+      "line_count": 19836,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/freud/Freud1919Traumdeutung5teK.txt",
+      "language": "german",
+      "category": "freud",
+      "title": "TRAUMDEUTUNG",
+      "size_bytes": 1782434,
+      "line_count": 28936,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/freud/Freud_1900_Die_Traumdeutung_k.txt",
+      "language": "german",
+      "category": "freud",
+      "title": "TRAUMDEUTUNQ",
+      "size_bytes": 1117600,
+      "line_count": 21962,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/freud/b3136696x.txt",
+      "language": "german",
+      "category": "freud",
+      "title": "Digitized  by  the  Internet  Archive",
+      "size_bytes": 1457578,
+      "line_count": 26541,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/hegel/phaenomenologie_des_geistes.txt",
+      "language": "german",
+      "category": "hegel",
+      "title": "﻿The Project Gutenberg eBook of Phänomenologie des Geistes",
+      "size_bytes": 1226133,
+      "line_count": 19355,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/hegel/wissenschaft_der_logik.txt",
+      "language": "german",
+      "category": "hegel",
+      "title": "﻿The Project Gutenberg eBook of Wissenschaft der Logik — Band 1",
+      "size_bytes": 1391964,
+      "line_count": 22292,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/heidegger/MartinHeidegger-TheSelfAssertionOfTheGermanUniversity1933.txt",
+      "language": "german",
+      "category": "heidegger",
+      "title": "Heidegger, Martin, The Self-Assertion of the German University and The",
+      "size_bytes": 91581,
+      "line_count": 2066,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/heidegger/being-and-time-martin-heidegger-1962.txt",
+      "language": "german",
+      "category": "heidegger",
+      "title": "J108347",
+      "size_bytes": 1769757,
+      "line_count": 42088,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/heidegger/discourseonthink00heid.txt",
+      "language": "german",
+      "category": "heidegger",
+      "title": "UNIVERSITY",
+      "size_bytes": 153542,
+      "line_count": 3576,
+      "edition": "Internet Archive",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/heidegger/heidegger-martin.-carta-sobre-el-humanismo-ocr-2006.txt",
+      "language": "german",
+      "category": "heidegger",
+      "title": "Martin Heidegger",
+      "size_bytes": 132691,
+      "line_count": 3393,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/heidegger/heidegger-what-is-metaphysics-1928.txt",
+      "language": "german",
+      "category": "heidegger",
+      "title": "Introduction to",
+      "size_bytes": 423797,
+      "line_count": 9692,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/heidegger/heideggermartinseinundzeit_20200121.txt",
+      "language": "german",
+      "category": "heidegger",
+      "title": "SEIN UND ZEIT",
+      "size_bytes": 1166672,
+      "line_count": 23565,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/heidegger/martin-heidegger-ser-y-tiempo-sein-und-zeit-1927.txt",
+      "language": "german",
+      "category": "heidegger",
+      "title": "SER Y TIEMPO",
+      "size_bytes": 1439373,
+      "line_count": 23393,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/heidegger/martinheideggerparmenides.txt",
+      "language": "german",
+      "category": "heidegger",
+      "title": "Martin Heidegger",
+      "size_bytes": 512520,
+      "line_count": 9885,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/husserl/HusserlErfahrungUndUrteil.txt",
+      "language": "german",
+      "category": "husserl",
+      "title": "EDMUND HUSSERL / ERFAHRUNG UND URTEIL",
+      "size_bytes": 925778,
+      "line_count": 22185,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/husserl/HusserlscrisisOfTheEuropeanSciences.txt",
+      "language": "german",
+      "category": "husserl",
+      "title": "PART I",
+      "size_bytes": 2428,
+      "line_count": 72,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/husserl/IdeasPartI.txt",
+      "language": "german",
+      "category": "husserl",
+      "title": "Ideasparti",
+      "size_bytes": 0,
+      "line_count": 1,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/husserl/IdeasPartIi.txt",
+      "language": "german",
+      "category": "husserl",
+      "title": "EDMUND HUSSERL",
+      "size_bytes": 1137962,
+      "line_count": 25278,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/husserl/PhenomenologyTheCrisisOfWesternMan.txt",
+      "language": "german",
+      "category": "husserl",
+      "title": "Husserl's Britanica Article",
+      "size_bytes": 60170,
+      "line_count": 762,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/husserl/husserl-edmund.-meditaciones-cartesianas-ocr-1996.txt",
+      "language": "german",
+      "category": "husserl",
+      "title": "EDMUND HUSSERL",
+      "size_bytes": 430550,
+      "line_count": 9444,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/husserl/ideenzueinerrein00unse.txt",
+      "language": "german",
+      "category": "husserl",
+      "title": "MASTER",
+      "size_bytes": 1203690,
+      "line_count": 22121,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/husserl/in.ernet.dli.2015.188260.txt",
+      "language": "german",
+      "category": "husserl",
+      "title": "LIBRARY OF PHILOSOPHY",
+      "size_bytes": 1096854,
+      "line_count": 22337,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/husserl/logischeuntersuc00hussuoft.txt",
+      "language": "german",
+      "category": "husserl",
+      "title": "Ä^^  ^  ^^y^",
+      "size_bytes": 1785110,
+      "line_count": 30705,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/husserl/logischeuntersuc01hussuoft.txt",
+      "language": "german",
+      "category": "husserl",
+      "title": "o  -CD",
+      "size_bytes": 630825,
+      "line_count": 11403,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/husserl/x-the-idea-of-phenomenology.txt",
+      "language": "german",
+      "category": "husserl",
+      "title": "EDMUND HUSSERL",
+      "size_bytes": 177689,
+      "line_count": 3743,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/kant/grundlegung.txt",
+      "language": "german",
+      "category": "kant",
+      "title": "﻿The Project Gutenberg eBook of The 2002 CIA World Factbook",
+      "size_bytes": 3859547,
+      "line_count": 99894,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/kant/kritik_der_praktischen_vernunft.txt",
+      "language": "german",
+      "category": "kant",
+      "title": "﻿The Project Gutenberg eBook of Kritik der reinen Vernunft",
+      "size_bytes": 1344379,
+      "line_count": 21828,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/kant/kritik_der_reinen_vernunft.txt",
+      "language": "german",
+      "category": "kant",
+      "title": "﻿The Project Gutenberg eBook of Kritik der reinen Vernunft",
+      "size_bytes": 1278435,
+      "line_count": 20779,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/kant/kritik_der_urteilskraft.txt",
+      "language": "german",
+      "category": "kant",
+      "title": "﻿The Project Gutenberg eBook of Kant's Critique of Judgement",
+      "size_bytes": 845340,
+      "line_count": 14114,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/kant/prolegomena.txt",
+      "language": "german",
+      "category": "kant",
+      "title": "﻿The Project Gutenberg eBook of Seven Maids of Far Cathay: Being English Notes From a Chinese Class Book",
+      "size_bytes": 114472,
+      "line_count": 2333,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/marx/CapitalVolume1.txt",
+      "language": "german",
+      "category": "marx",
+      "title": "Capital",
+      "size_bytes": 2116717,
+      "line_count": 34860,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/marx/ComManifesto.txt",
+      "language": "german",
+      "category": "marx",
+      "title": "Manifesto of the Communist Party",
+      "size_bytes": 242794,
+      "line_count": 4097,
+      "edition": "Internet Archive",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/marx/KarlMarxDasKapitalErstausgabe1867.txt",
+      "language": "german",
+      "category": "marx",
+      "title": "Das Kapital",
+      "size_bytes": 2067400,
+      "line_count": 39959,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "german/nietzsche/_en_antichrist.txt",
+      "language": "german",
+      "category": "nietzsche",
+      "title": "﻿The Project Gutenberg eBook of The Antichrist",
+      "size_bytes": 226476,
+      "line_count": 3778,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/nietzsche/_en_beyond_good_and_evil.txt",
+      "language": "german",
+      "category": "nietzsche",
+      "title": "﻿The Project Gutenberg eBook of Beyond Good and Evil",
+      "size_bytes": 408979,
+      "line_count": 6507,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/nietzsche/_en_birth_of_tragedy.txt",
+      "language": "german",
+      "category": "nietzsche",
+      "title": "﻿The Project Gutenberg eBook of The Birth of Tragedy; or, Hellenism and Pessimism",
+      "size_bytes": 353569,
+      "line_count": 5836,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/nietzsche/_en_dawn_of_day.txt",
+      "language": "german",
+      "category": "nietzsche",
+      "title": "﻿The Project Gutenberg eBook of The Dawn of Day",
+      "size_bytes": 596072,
+      "line_count": 12757,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/nietzsche/_en_ecce_homo.txt",
+      "language": "german",
+      "category": "nietzsche",
+      "title": "﻿The Project Gutenberg eBook of Ecce Homo",
+      "size_bytes": 303691,
+      "line_count": 6656,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/nietzsche/_en_genealogy_of_morals.txt",
+      "language": "german",
+      "category": "nietzsche",
+      "title": "﻿The Project Gutenberg eBook of The Genealogy of Morals",
+      "size_bytes": 358582,
+      "line_count": 5863,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/nietzsche/_en_human_all_too_human.txt",
+      "language": "german",
+      "category": "nietzsche",
+      "title": "﻿The Project Gutenberg eBook of Human, All Too Human: A Book for Free Spirits",
+      "size_bytes": 244197,
+      "line_count": 4317,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/nietzsche/_en_joyful_wisdom.txt",
+      "language": "german",
+      "category": "nietzsche",
+      "title": "﻿The Project Gutenberg eBook of The Joyful Wisdom (\"La Gaya Scienza\")",
+      "size_bytes": 566777,
+      "line_count": 10332,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/nietzsche/_en_thus_spake_zarathustra.txt",
+      "language": "german",
+      "category": "nietzsche",
+      "title": "﻿The Project Gutenberg eBook of Thus Spake Zarathustra: A Book for All and None",
+      "size_bytes": 682926,
+      "line_count": 16004,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/nietzsche/_en_twilight_idols.txt",
+      "language": "german",
+      "category": "nietzsche",
+      "title": "﻿The Project Gutenberg eBook of The Twilight of the Idols; or, How to Philosophize with the Hammer. The Antichrist",
+      "size_bytes": 454385,
+      "line_count": 8446,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/nietzsche/also_sprach_zarathustra.txt",
+      "language": "german",
+      "category": "nietzsche",
+      "title": "﻿The Project Gutenberg eBook of Also sprach Zarathustra: Ein Buch für Alle und Keinen",
+      "size_bytes": 565302,
+      "line_count": 13651,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/nietzsche/antichrist.MISSING.md",
+      "language": "german",
+      "category": "nietzsche",
+      "title": "MISSING — placeholder",
+      "size_bytes": 490,
+      "line_count": 8,
+      "edition": "Project Gutenberg",
+      "format": "markdown"
+    },
+    {
+      "path": "german/nietzsche/der_wille_zur_macht.txt",
+      "language": "german",
+      "category": "nietzsche",
+      "title": "﻿The Project Gutenberg eBook of Der Wille zur Macht: Eine Auslegung alles Geschehens",
+      "size_bytes": 758281,
+      "line_count": 15678,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/nietzsche/ecce_homo.txt",
+      "language": "german",
+      "category": "nietzsche",
+      "title": "﻿The Project Gutenberg eBook of Ecce homo, Wie man wird, was man ist",
+      "size_bytes": 222564,
+      "line_count": 3843,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/nietzsche/froehliche_wissenschaft.MISSING.md",
+      "language": "german",
+      "category": "nietzsche",
+      "title": "MISSING — placeholder",
+      "size_bytes": 503,
+      "line_count": 8,
+      "edition": "Project Gutenberg",
+      "format": "markdown"
+    },
+    {
+      "path": "german/nietzsche/geburt_der_tragoedie.txt",
+      "language": "german",
+      "category": "nietzsche",
+      "title": "﻿The Project Gutenberg eBook of Die Geburt der Tragödie: Versuch einer Selbstkritik",
+      "size_bytes": 317769,
+      "line_count": 5066,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/nietzsche/genealogie_der_moral.MISSING.md",
+      "language": "german",
+      "category": "nietzsche",
+      "title": "MISSING — placeholder",
+      "size_bytes": 500,
+      "line_count": 8,
+      "edition": "Project Gutenberg",
+      "format": "markdown"
+    },
+    {
+      "path": "german/nietzsche/jenseits_von_gut_und_boese.txt",
+      "language": "german",
+      "category": "nietzsche",
+      "title": "﻿The Project Gutenberg eBook of Jenseits von Gut und Böse",
+      "size_bytes": 425705,
+      "line_count": 7685,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/nietzsche/menschliches_allzumenschliches.txt",
+      "language": "german",
+      "category": "nietzsche",
+      "title": "﻿The Project Gutenberg eBook of Menschliches, Allzumenschliches: Ein Buch Fuer Freie Geister",
+      "size_bytes": 613917,
+      "line_count": 11842,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "german/nietzsche/morgenroete.MISSING.md",
+      "language": "german",
+      "category": "nietzsche",
+      "title": "MISSING — placeholder",
+      "size_bytes": 488,
+      "line_count": 8,
+      "edition": "Project Gutenberg",
+      "format": "markdown"
+    },
+    {
+      "path": "german/schopenhauer/wwv_band1.txt",
+      "language": "german",
+      "category": "schopenhauer",
+      "title": "﻿The Project Gutenberg eBook of Tales of a Cruel Country",
+      "size_bytes": 402826,
+      "line_count": 9135,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "latin/descartes_latin/meditationes.txt",
+      "language": "latin",
+      "category": "descartes_latin",
+      "title": "﻿The Project Gutenberg eBook of Meditationes de prima philosophia",
+      "size_bytes": 162015,
+      "line_count": 2782,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "latin/spinoza/ethica.txt",
+      "language": "latin",
+      "category": "spinoza",
+      "title": "Ethica (la.wikisource)",
+      "size_bytes": 461873,
+      "line_count": 3947,
+      "edition": "Wikisource",
+      "format": "markdown"
+    },
+    {
+      "path": "latin/spinoza/ethica_la.txt",
+      "language": "latin",
+      "category": "spinoza",
+      "title": "﻿The Project Gutenberg eBook of Autumn Glory; Or, The Toilers of the Field",
+      "size_bytes": 396208,
+      "line_count": 8300,
+      "edition": "Project Gutenberg",
+      "format": "plain-text"
+    },
+    {
+      "path": "latin/spinoza/tractatus_de_intellectus_emendatione.txt",
+      "language": "latin",
+      "category": "spinoza",
+      "title": "Tractatus de intellectus emendatione, et de via qua optime in veram rerum cognitionem dirigitur - Wikisource",
+      "size_bytes": 80838,
+      "line_count": 638,
+      "edition": "Wikisource",
+      "format": "markdown"
+    },
+    {
+      "path": "latin/spinoza/tractatus_theologico_politicus.MISSING.md",
+      "language": "latin",
+      "category": "spinoza",
+      "title": "MISSING — placeholder",
+      "size_bytes": 535,
+      "line_count": 7,
+      "edition": "Internet Archive",
+      "format": "markdown"
+    },
+    {
+      "path": "sanskrit/_kashmir_saivism/AdvaitasiddhiVsNyayamrta.txt",
+      "language": "sanskrit",
+      "category": "_kashmir_saivism",
+      "title": "ADVA1TASIDDHI Vs NYAYAMRTA",
+      "size_bytes": 448262,
+      "line_count": 12544,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/_kashmir_saivism/MarkDyczkowskiTheStanzasOnVibration.txt",
+      "language": "sanskrit",
+      "category": "_kashmir_saivism",
+      "title": "Translated  with  Introduction  and  Exposition",
+      "size_bytes": 1925445,
+      "line_count": 47104,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/_kashmir_saivism/mandala-and-agamic-identity-in-the-trika.txt",
+      "language": "sanskrit",
+      "category": "_kashmir_saivism",
+      "title": "MANTRAS ET  DIAGRAMMES RITUELS",
+      "size_bytes": 132677,
+      "line_count": 2984,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/_kashmir_saivism/philosophy-of-madhvacarya-bnk-acrobat-ocr.txt",
+      "language": "sanskrit",
+      "category": "_kashmir_saivism",
+      "title": "_ _ PHILOSOPHY OF",
+      "size_bytes": 981857,
+      "line_count": 23170,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/_more/CCBSSTMadhya.txt",
+      "language": "sanskrit",
+      "category": "_more",
+      "title": "্রীশ্রীকৃষ্চৈতন্যচন্দ্রো বিজয়তেতমাম্‌",
+      "size_bytes": 193338,
+      "line_count": 2248,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/_more/ShriMadhvaVedanta.txt",
+      "language": "sanskrit",
+      "category": "_more",
+      "title": "७६२०- लसनपबना :ं-->- |०- “० >> >>",
+      "size_bytes": 1243702,
+      "line_count": 15855,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/_more/SriBhasyaHindi01.txt",
+      "language": "sanskrit",
+      "category": "_more",
+      "title": "JJJS ACADT'T OF 3A^T;i:^",
+      "size_bytes": 925104,
+      "line_count": 30648,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/_more/SriBhasyaHindi02.txt",
+      "language": "sanskrit",
+      "category": "_more",
+      "title": "अगदुशुरु छा रासासुआपाव उप | \"५",
+      "size_bytes": 1228569,
+      "line_count": 11292,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/_more/SribhasyaOfRamanujaPart1Chatuhsutri1959R.D.Karmakar.txt",
+      "language": "sanskrit",
+      "category": "_more",
+      "title": "॥ ५1 $",
+      "size_bytes": 1680631,
+      "line_count": 26563,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/_more/YogaVasishtaOfValmikiValmiki.txt",
+      "language": "sanskrit",
+      "category": "_more",
+      "title": "ffip!%J",
+      "size_bytes": 5404912,
+      "line_count": 76912,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/_more/kcc_murarigupta.txt",
+      "language": "sanskrit",
+      "category": "_more",
+      "title": "भरौश्नीगोरगदाधरौ विजयताम्‌ #",
+      "size_bytes": 1284656,
+      "line_count": 15284,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/_more/srimad-bhagavat-mahapuran-2-volume-set-sanskrit-hindi.txt",
+      "language": "sanskrit",
+      "category": "_more",
+      "title": "॥ श्रीराधाकृष्णाभ्यां नम: ॥ 26",
+      "size_bytes": 6801917,
+      "line_count": 69672,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/bhagavad_gita_4comm.txt",
+      "language": "sanskrit",
+      "category": null,
+      "title": "Bhagavadgītā-4comm with the commentaries of Śrīdhara, Madhusūdana, Viśvanātha and Baladeva",
+      "size_bytes": 1978331,
+      "line_count": 11930,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/bhagavad_gita_with_comm.txt",
+      "language": "sanskrit",
+      "category": null,
+      "title": "Bhagavadgītā with the commentary ascribed to Śaṃkara (Adhyāyas 1-17)",
+      "size_bytes": 520003,
+      "line_count": 5448,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/bhagavata_purana.txt",
+      "language": "sanskrit",
+      "category": null,
+      "title": "Bhāgavatapurāṇa",
+      "size_bytes": 2242706,
+      "line_count": 41163,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/buddhist/candrakirti_madhyamakavatara.txt",
+      "language": "sanskrit",
+      "category": "buddhist",
+      "title": "Madhyamakāvatāra",
+      "size_bytes": 104992,
+      "line_count": 1864,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/buddhist/dharmakirti_pramana_varttika.txt",
+      "language": "sanskrit",
+      "category": "buddhist",
+      "title": "Pramāṇavārttika",
+      "size_bytes": 119215,
+      "line_count": 3535,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/buddhist/nagarjuna_mula_madhyamaka_karika.txt",
+      "language": "sanskrit",
+      "category": "buddhist",
+      "title": "Mūlamadhyamakakārikā",
+      "size_bytes": 59571,
+      "line_count": 1841,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/buddhist/nagarjuna_vigraha_vyavartani.txt",
+      "language": "sanskrit",
+      "category": "buddhist",
+      "title": "Vigrahavyāvartanī",
+      "size_bytes": 50863,
+      "line_count": 669,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/buddhist/vasubandhu_trimsika.txt",
+      "language": "sanskrit",
+      "category": "buddhist",
+      "title": "Triṃśikāvijñaptikārikā",
+      "size_bytes": 3897,
+      "line_count": 129,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/buddhist/vasubandhu_vimsatika.txt",
+      "language": "sanskrit",
+      "category": "buddhist",
+      "title": "Viṃśatikāvijñaptimātratāsiddhi",
+      "size_bytes": 18032,
+      "line_count": 239,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/caitanya_gaudiya/brahma_samhita_5_comm.txt",
+      "language": "sanskrit",
+      "category": "caitanya_gaudiya",
+      "title": "Brahmasaṃhitā 5 with Jīvagosvāmin's Digdarśanīṭīkā",
+      "size_bytes": 90562,
+      "line_count": 917,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/caitanya_gaudiya/jiva_gopala_campu_partial.txt",
+      "language": "sanskrit",
+      "category": "caitanya_gaudiya",
+      "title": "Jīvagosvāmin: Gopālacampū, P1-33, U1-3, U5-6, U29",
+      "size_bytes": 1131298,
+      "line_count": 10622,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/caitanya_gaudiya/jiva_radhakrsna_arcana_dipika.txt",
+      "language": "sanskrit",
+      "category": "caitanya_gaudiya",
+      "title": "Jīvagosvāmin: Rādhākṛṣṇārcanadīpikā",
+      "size_bytes": 55168,
+      "line_count": 744,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/caitanya_gaudiya/jiva_sankalpakalpadruma.txt",
+      "language": "sanskrit",
+      "category": "caitanya_gaudiya",
+      "title": "Jīvagosvāmin: Saṃkalpakalpadruma",
+      "size_bytes": 119432,
+      "line_count": 2400,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/caitanya_gaudiya/jiva_sat_sandarbha.txt",
+      "language": "sanskrit",
+      "category": "caitanya_gaudiya",
+      "title": "Jiva Gosvami: Satsamdarbha with Baladevavidyābhūṣaṇa's Ṭippaṇī",
+      "size_bytes": 2095748,
+      "line_count": 23992,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/caitanya_gaudiya/prabodhananda_caitanya_candramrta.txt",
+      "language": "sanskrit",
+      "category": "caitanya_gaudiya",
+      "title": "Prabodhānandasarasvatī: Caitanyacandrāmṛta",
+      "size_bytes": 35710,
+      "line_count": 327,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/caitanya_gaudiya/rupa_bhakti_rasamrta_sindhu.txt",
+      "language": "sanskrit",
+      "category": "caitanya_gaudiya",
+      "title": "Rūpagosvāmin: Haribhaktirasāmṛtasindhu",
+      "size_bytes": 383997,
+      "line_count": 9638,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/caitanya_gaudiya/rupa_laghu_bhagavatamrta.txt",
+      "language": "sanskrit",
+      "category": "caitanya_gaudiya",
+      "title": "Rūpagosvāmin: Laghubhāgavatāmṛta",
+      "size_bytes": 140920,
+      "line_count": 3348,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/caitanya_gaudiya/rupa_padyavali.txt",
+      "language": "sanskrit",
+      "category": "caitanya_gaudiya",
+      "title": "Rūpagosvāmin: Padyāvalī (comp.)",
+      "size_bytes": 100004,
+      "line_count": 2662,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/caitanya_gaudiya/rupa_ujjvala_nilamani.txt",
+      "language": "sanskrit",
+      "category": "caitanya_gaudiya",
+      "title": "Rūpagosvāmin: Ujjvalanīlamaṇi",
+      "size_bytes": 275755,
+      "line_count": 6969,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/comparator/aksapada_nyaya_sutra.txt",
+      "language": "sanskrit",
+      "category": "comparator",
+      "title": "(atha prathamaḥ adhyāyaḥ) [anubandhacatuṣṭayaprakaraṇam]",
+      "size_bytes": 49907,
+      "line_count": 449,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/comparator/badarayana_brahma_sutra.txt",
+      "language": "sanskrit",
+      "category": "comparator",
+      "title": "athāto brahmajijñāsā | bbs_1,1.1 |",
+      "size_bytes": 27435,
+      "line_count": 545,
+      "edition": null,
+      "format": "text-with-locus-marker"
+    },
+    {
+      "path": "sanskrit/comparator/isvarakrsna_samkhya_karika.txt",
+      "language": "sanskrit",
+      "category": "comparator",
+      "title": "duḥkhatrayābhighātāj jijñāsā tadabhighātake hetau /",
+      "size_bytes": 10204,
+      "line_count": 215,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/comparator/jaimini_mimamsa_sutra.txt",
+      "language": "sanskrit",
+      "category": "comparator",
+      "title": "athāto dharmajijñāsā / jaim_1,1.1 /",
+      "size_bytes": 167641,
+      "line_count": 2730,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/comparator/kanada_vaisesika_sutra.txt",
+      "language": "sanskrit",
+      "category": "comparator",
+      "title": "vaiśeṣikasūtram",
+      "size_bytes": 23117,
+      "line_count": 388,
+      "edition": null,
+      "format": "text-with-locus-marker"
+    },
+    {
+      "path": "sanskrit/comparator/patanjali_yoga_sutra.txt",
+      "language": "sanskrit",
+      "category": "comparator",
+      "title": "atha yogānuśāsanam || ys_1.1 ||",
+      "size_bytes": 13267,
+      "line_count": 195,
+      "edition": null,
+      "format": "text-with-locus-marker"
+    },
+    {
+      "path": "sanskrit/comparator/shabara_mimamsa_sutra_bhasya.txt",
+      "language": "sanskrit",
+      "category": "comparator",
+      "title": "============================================================================",
+      "size_bytes": 1398940,
+      "line_count": 6051,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/comparator/umasvati_tattvartha_sutra.txt",
+      "language": "sanskrit",
+      "category": "comparator",
+      "title": "प्रथमोऽध्यायः",
+      "size_bytes": 46354,
+      "line_count": 830,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/comparator/vatsyayana_nyaya_bhasya.txt",
+      "language": "sanskrit",
+      "category": "comparator",
+      "title": "% p.1 nyāyadarśanam vātsyāyanabhāṣyam",
+      "size_bytes": 431468,
+      "line_count": 5009,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/comparator/vyasa_yoga_bhasya.txt",
+      "language": "sanskrit",
+      "category": "comparator",
+      "title": "pātañjalayogaśāstram",
+      "size_bytes": 143237,
+      "line_count": 550,
+      "edition": null,
+      "format": "text-with-locus-marker"
+    },
+    {
+      "path": "sanskrit/kala_cakra/abhinavagupta_tantraloka_chapter06_kalopaya_kalacakra.txt",
+      "language": "sanskrit",
+      "category": "kala_cakra",
+      "title": ":c6 atha śrītantrāloke",
+      "size_bytes": 32798,
+      "line_count": 756,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/kala_cakra/banerjee_1985_kalacakratantra_critical.txt",
+      "language": "sanskrit",
+      "category": "kala_cakra",
+      "title": "08.101 ९८॥ [प 01८4--^ (छा. हतवा कव्व 07 0 राप ^1. ५0१२1८5",
+      "size_bytes": 927520,
+      "line_count": 17089,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/kala_cakra/carelli_1941_sekoddesatika_naropa.txt",
+      "language": "sanskrit",
+      "category": "kala_cakra",
+      "title": "558. 4",
+      "size_bytes": 548925,
+      "line_count": 6790,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/kala_cakra/upadhyaya_vimalaprabha_vol1.txt",
+      "language": "sanskrit",
+      "category": "kala_cakra",
+      "title": "एश0प्रः८4 0900-8 ^+ अटरा८५ 70. त",
+      "size_bytes": 1690431,
+      "line_count": 17794,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/kala_cakra/vira_lokesh_chandra_1966_kalacakra_other_texts.txt",
+      "language": "sanskrit",
+      "category": "kala_cakra",
+      "title": "टा ^^ 1414 पा५ ^) 07 (7715",
+      "size_bytes": 793567,
+      "line_count": 10514,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/kashmir_shaiva/abhinavagupta_ipv.txt",
+      "language": "sanskrit",
+      "category": "kashmir_shaiva",
+      "title": "Abhinavagupta: Īśvarapratyabhijñāvimarśinī",
+      "size_bytes": 357301,
+      "line_count": 2088,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/kashmir_shaiva/abhinavagupta_malini_sloka_varttika.txt",
+      "language": "sanskrit",
+      "category": "kashmir_shaiva",
+      "title": "Abhinavagupta: Mālinīślokavārttika",
+      "size_bytes": 186911,
+      "line_count": 4304,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/kashmir_shaiva/abhinavagupta_paramartha_sara.txt",
+      "language": "sanskrit",
+      "category": "kashmir_shaiva",
+      "title": "Abhinavagupta: Paramārthasāra",
+      "size_bytes": 15647,
+      "line_count": 357,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/kashmir_shaiva/abhinavagupta_paramartha_sara_comm.txt",
+      "language": "sanskrit",
+      "category": "kashmir_shaiva",
+      "title": "Abhinavagupta: Paramārthasāra with Yogarāja's Paramārthasārasaṃgrahavivṛti commentary",
+      "size_bytes": 158888,
+      "line_count": 1127,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/kashmir_shaiva/abhinavagupta_tantraloka.txt",
+      "language": "sanskrit",
+      "category": "kashmir_shaiva",
+      "title": "Abhinavagupta: Tantrāloka",
+      "size_bytes": 771436,
+      "line_count": 17684,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/kashmir_shaiva/abhinavagupta_tantrasara.txt",
+      "language": "sanskrit",
+      "category": "kashmir_shaiva",
+      "title": "Abhinavagupta: Tantrasāra",
+      "size_bytes": 130963,
+      "line_count": 206,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/kashmir_shaiva/ksemaraja_bodhavilasa.txt",
+      "language": "sanskrit",
+      "category": "kashmir_shaiva",
+      "title": "Kṣemarāja: Bodhavilāsa",
+      "size_bytes": 6851,
+      "line_count": 175,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/kashmir_shaiva/ksemaraja_pratyabhijna_hrdayam.txt",
+      "language": "sanskrit",
+      "category": "kashmir_shaiva",
+      "title": "Kṣemarāja: Pratyabhijñāhṛdaya",
+      "size_bytes": 42058,
+      "line_count": 390,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/kashmir_shaiva/siva_sutra_with_varttika.txt",
+      "language": "sanskrit",
+      "category": "kashmir_shaiva",
+      "title": "Śivasūtra with vārttika",
+      "size_bytes": 63608,
+      "line_count": 347,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/kashmir_shaiva/spanda_karika.txt",
+      "language": "sanskrit",
+      "category": "kashmir_shaiva",
+      "title": "Vasugupta: Spandakārikā",
+      "size_bytes": 8058,
+      "line_count": 208,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/kashmir_shaiva/spanda_karika_comm.txt",
+      "language": "sanskrit",
+      "category": "kashmir_shaiva",
+      "title": "Vasugupta: Spandakārikā with the commentary by Kṣemarāja",
+      "size_bytes": 104864,
+      "line_count": 629,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/kashmir_shaiva/utpaladeva_isvara_pratyabhijna_karika.txt",
+      "language": "sanskrit",
+      "category": "kashmir_shaiva",
+      "title": "Utpaladeva: Īśvarapratyabhijñākārikā with Vṛtti",
+      "size_bytes": 67922,
+      "line_count": 1049,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/kashmir_shaiva/utpaladeva_sivastotravali.txt",
+      "language": "sanskrit",
+      "category": "kashmir_shaiva",
+      "title": "Utpaladeva: Śivastotrāvali",
+      "size_bytes": 65547,
+      "line_count": 986,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/mimamsa/jaimini_mimamsa_sutra.txt",
+      "language": "sanskrit",
+      "category": "mimamsa",
+      "title": "Jaimini: Mīmāṃsāsūtra",
+      "size_bytes": 166732,
+      "line_count": 54,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/mimamsa/jaimini_mimamsa_sutra_comm.txt",
+      "language": "sanskrit",
+      "category": "mimamsa",
+      "title": "Jaimini: Mīmāṃsāsūtra 1-7 with Śabara's Bhāṣya",
+      "size_bytes": 1405306,
+      "line_count": 6131,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/mimamsa/kumarila_sloka_varttika_comm.txt",
+      "language": "sanskrit",
+      "category": "mimamsa",
+      "title": "Kumārila: Mīmāṃsaślokavārttika with Sucaritamiśra's Kāśikā",
+      "size_bytes": 433392,
+      "line_count": 3880,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/mimamsa/madhava_jaimini_nyaya_mala.txt",
+      "language": "sanskrit",
+      "category": "mimamsa",
+      "title": "Mādhava: Jaiminīyanyāyamālāvistara a metrical exposition of Jaimini's Mīmāṃsāsūtra, with Mādhava's prose commentary",
+      "size_bytes": 563090,
+      "line_count": 6599,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/mimamsa/sucaritamisra_sloka_varttika.txt",
+      "language": "sanskrit",
+      "category": "mimamsa",
+      "title": "Sucaritamiśra: Mīmāṃsāślokavārttika",
+      "size_bytes": 1336922,
+      "line_count": 5306,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/nyaya/annambhatta_tarka_sangraha.txt",
+      "language": "sanskrit",
+      "category": "nyaya",
+      "title": "Annaṃbhatta: Tarkasaṃgraha",
+      "size_bytes": 18598,
+      "line_count": 208,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/nyaya/annambhatta_tarka_sangraha_comm.txt",
+      "language": "sanskrit",
+      "category": "nyaya",
+      "title": "Annaṃbhaṭṭa: Tarkasaṃgraha with autoentary (Dīpikā), Nīlakaṇṭha's Dīpikāprakāśikā and Bālapriyā",
+      "size_bytes": 1306849,
+      "line_count": 7012,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/nyaya/dharmakirti_nyaya_bindu.txt",
+      "language": "sanskrit",
+      "category": "nyaya",
+      "title": "Dharmakīrti: Nyāyabindu",
+      "size_bytes": 24888,
+      "line_count": 70,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/nyaya/nyaya_sutra_comm.txt",
+      "language": "sanskrit",
+      "category": "nyaya",
+      "title": "Gautama: Nyāyasūtra with Vātsyāyana's Nyāyabhāṣya",
+      "size_bytes": 433465,
+      "line_count": 5056,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/nyaya/nyaya_sutra_comm2.txt",
+      "language": "sanskrit",
+      "category": "nyaya",
+      "title": "Gautama: Nyāyasūtra with Vacaspatimiśra's Nyāyavārttikatātparyaṭīkā",
+      "size_bytes": 1328132,
+      "line_count": 6427,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/nyaya/nyaya_sutra_comm_alt.txt",
+      "language": "sanskrit",
+      "category": "nyaya",
+      "title": "Gautama: Nyāyasūtra with Vātsyāyana's Nyāyabhāṣya",
+      "size_bytes": 417713,
+      "line_count": 5123,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/nyaya/nyaya_sutra_gautama.txt",
+      "language": "sanskrit",
+      "category": "nyaya",
+      "title": "Gautama: Nyāyasūtra",
+      "size_bytes": 51699,
+      "line_count": 495,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/nyaya/udayana_nyaya_kusumanjali.txt",
+      "language": "sanskrit",
+      "category": "nyaya",
+      "title": "Udayana: Nyāyakusumāñjali",
+      "size_bytes": 271638,
+      "line_count": 710,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/rgveda_aufrecht.txt",
+      "language": "sanskrit",
+      "category": null,
+      "title": "Ṛgveda-Saṃhitā",
+      "size_bytes": 1494070,
+      "line_count": 31651,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/samkhya/samkhya_karika_isvarakrsna.txt",
+      "language": "sanskrit",
+      "category": "samkhya",
+      "title": "Īśvarakṛṣṇa: Sāṃkhyakārikā",
+      "size_bytes": 23044,
+      "line_count": 434,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/samkhya/samkhya_karika_with_comm.txt",
+      "language": "sanskrit",
+      "category": "samkhya",
+      "title": "Īśvarakṛṣṇa: Sāṃkhyakārikā with Māṭhara's commentary Māṭharavṛtti",
+      "size_bytes": 153691,
+      "line_count": 779,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/samkhya/samkhya_karika_with_comm2.txt",
+      "language": "sanskrit",
+      "category": "samkhya",
+      "title": "Īśvarakṛṣṇa: Sāṃkhyakārikā with Gauḍapāda's Bhāṣya",
+      "size_bytes": 93739,
+      "line_count": 553,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/samkhya/samkhya_karika_with_comm3.txt",
+      "language": "sanskrit",
+      "category": "samkhya",
+      "title": "Īśvarakṛṣṇa: Sāṃkhyakārikā with Śaṃkara's Jayamaṅgalā commentary",
+      "size_bytes": 108967,
+      "line_count": 1151,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/samkhya/samkhya_sutra_kapila.txt",
+      "language": "sanskrit",
+      "category": "samkhya",
+      "title": "Kapila: Sāṃkhyasūtra including the Tattvasamāsa, an abstract of Sāṃkhya philosophy (appended at the end)",
+      "size_bytes": 56744,
+      "line_count": 1081,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/samkhya/samkhya_tattva_pradipa.txt",
+      "language": "sanskrit",
+      "category": "samkhya",
+      "title": "Kavirājayati: Sāṃkhyatattvapradīpa",
+      "size_bytes": 38434,
+      "line_count": 111,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/samkhya/samkhya_tattva_vivecana_simananda.txt",
+      "language": "sanskrit",
+      "category": "samkhya",
+      "title": "Ṣimānanda: Sāṃkhyatattvavivecana a commentary on the Tattvasamāsa, an abstract of Sāṃkhya philosophy in (23-) 25 sūtras.",
+      "size_bytes": 60049,
+      "line_count": 820,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/samkhya_metaphysics/garbe_samkhyapravacanabhasya_vijnanabhiksu.txt",
+      "language": "sanskrit",
+      "category": "samkhya_metaphysics",
+      "title": "•a ?r/",
+      "size_bytes": 515353,
+      "line_count": 18255,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/samkhya_metaphysics/samkhyapravacanabhasya_DLI.txt",
+      "language": "sanskrit",
+      "category": "samkhya_metaphysics",
+      "title": "THE HARVARD ORIENTAL SERIES",
+      "size_bytes": 526592,
+      "line_count": 16742,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/samkhya_metaphysics/sinha_samkhya_philosophy_aniruddha_vijnanabhiksu_mahadeva.txt",
+      "language": "sanskrit",
+      "category": "samkhya_metaphysics",
+      "title": "SACRED  BOOKS  OF  THE  HINDUS",
+      "size_bytes": 406244,
+      "line_count": 15181,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/samkhya_metaphysics/wezler_motegi_yuktidipika_vol1_1998.txt",
+      "language": "sanskrit",
+      "category": "samkhya_metaphysics",
+      "title": "|= पातं धिरण्[क्र्ील्लौट्‌ परती",
+      "size_bytes": 1363302,
+      "line_count": 30366,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/samkhya_metaphysics/yuktidipika_vol2_djvu.txt",
+      "language": "sanskrit",
+      "category": "samkhya_metaphysics",
+      "title": "YUKTIDIPIKA",
+      "size_bytes": 646504,
+      "line_count": 20332,
+      "edition": null,
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/upanishads/aitareya_with_shankara.txt",
+      "language": "sanskrit",
+      "category": "upanishads",
+      "title": "Aitareyopaniṣad with the commentary ascribed to Śaṃkara",
+      "size_bytes": 64088,
+      "line_count": 575,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/upanishads/brhadaranyaka_with_shankara.txt",
+      "language": "sanskrit",
+      "category": "upanishads",
+      "title": "Bṛhadāraṇyakopaniṣad, Kāṇva recension with the commentary ascribed to Śaṃkara",
+      "size_bytes": 962569,
+      "line_count": 4571,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/upanishads/chandogya_with_shankara.txt",
+      "language": "sanskrit",
+      "category": "upanishads",
+      "title": "Chāndogyopaniṣad with the commentary ascribed to Śaṃkara",
+      "size_bytes": 597570,
+      "line_count": 5830,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/upanishads/garbha.txt",
+      "language": "sanskrit",
+      "category": "upanishads",
+      "title": "Garbhopaniṣad",
+      "size_bytes": 6617,
+      "line_count": 75,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/upanishads/isha_with_shankara.txt",
+      "language": "sanskrit",
+      "category": "upanishads",
+      "title": "Īśopaniṣad (or Īśāvāsyopaniṣad), Kāṇva recension with the commentary ascribed to Śaṃkara",
+      "size_bytes": 28323,
+      "line_count": 268,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/upanishads/kaivalya.txt",
+      "language": "sanskrit",
+      "category": "upanishads",
+      "title": "Kaivalyopaniṣad",
+      "size_bytes": 6429,
+      "line_count": 132,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/upanishads/katha.txt",
+      "language": "sanskrit",
+      "category": "upanishads",
+      "title": "Kathopaniṣad",
+      "size_bytes": 20418,
+      "line_count": 428,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/upanishads/katha_with_shankara.txt",
+      "language": "sanskrit",
+      "category": "upanishads",
+      "title": "Śaṃkara (attrib.): Kaṭhopaniṣadbhāṣya",
+      "size_bytes": 111652,
+      "line_count": 703,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/upanishads/mandukya.txt",
+      "language": "sanskrit",
+      "category": "upanishads",
+      "title": "Māṇḍūkyopaniṣad",
+      "size_bytes": 7920,
+      "line_count": 247,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/upanishads/mandukya_with_gaudapada_shankara.txt",
+      "language": "sanskrit",
+      "category": "upanishads",
+      "title": "Māṇḍūkyopaniṣad with Māṇḍūkyamūlamantrabhāṣya, Māṇḍūkyopaniṣatkārikā, and Āgamaśāstrabhāṣya",
+      "size_bytes": 184367,
+      "line_count": 2715,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/upanishads/prashna_with_shankara.txt",
+      "language": "sanskrit",
+      "category": "upanishads",
+      "title": "Praśnopaniṣad with the commentary ascribed to Śaṃkara",
+      "size_bytes": 83164,
+      "line_count": 1006,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/upanishads/svetasvatara.txt",
+      "language": "sanskrit",
+      "category": "upanishads",
+      "title": "Śvetāśvataropaniṣad",
+      "size_bytes": 20388,
+      "line_count": 410,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/upanishads/svetasvatara_alt.txt",
+      "language": "sanskrit",
+      "category": "upanishads",
+      "title": "Śvetāśvataropaniṣad",
+      "size_bytes": 21092,
+      "line_count": 428,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/upanishads/taittiriya_with_shankara.txt",
+      "language": "sanskrit",
+      "category": "upanishads",
+      "title": "Taittirīya-Upaniṣad with Śaṃkarabhāṣya",
+      "size_bytes": 156792,
+      "line_count": 420,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vaisesika/vaisesika_sutra_alt.txt",
+      "language": "sanskrit",
+      "category": "vaisesika",
+      "title": "Kaṇāda: Vaiśeṣikasūtra",
+      "size_bytes": 23318,
+      "line_count": 47,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vaisesika/vaisesika_sutra_kanada.txt",
+      "language": "sanskrit",
+      "category": "vaisesika",
+      "title": "Kaṇāda: Vaiśeṣikasūtra",
+      "size_bytes": 24311,
+      "line_count": 48,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/brahma_sutra.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Bādarāyaṇa: Brahmasūtra",
+      "size_bytes": 28691,
+      "line_count": 46,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/brahma_sutra_alt.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Bādarāyaṇa: Brahmasūtra text extracted from Śaṃkara's Śārīrakamīmāṃsābhāṣya",
+      "size_bytes": 29011,
+      "line_count": 44,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/brahma_sutra_comm_subcomm2.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Bādarāyaṇa: Brahmasūtra2 with Śaṃkara's Śārīrakamīmāṃsābhāṣya and Govindānanda's Ratnaprabhāvyākhyā (subcommentary)",
+      "size_bytes": 2215542,
+      "line_count": 10997,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/brahma_sutra_subcomm.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Bādarāyaṇa: Brahmasūtra with Govindānanda's Ratnaprabhāvyākhyā, a subcommentary on Śaṃkara's Śārīrakamīmāṃsābhāṣya",
+      "size_bytes": 1121029,
+      "line_count": 4883,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/brahma_sutra_subcomm2.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Bādarāyaṇa: Brahmasūtra2 with Vācaspati's Bhāmatī (a subcommentary on Śaṃkara's Śārīrakamīmāṃsābhāṣya)",
+      "size_bytes": 1233082,
+      "line_count": 5630,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/full_corpus/corpus_meta.tsv",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "title\tauthor\twork\tedition\tyear\tsource_url\tformat",
+      "size_bytes": 10618,
+      "line_count": 59,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/full_corpus/gaudapada_mandukya_karika_gretil.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Gauḍapāda: Āgamaśāstra (= Gauḍapādakārikā, Gauḍapādīyakārikā, a verse commentary on the Māṇḍūkya-Upaniṣad)",
+      "size_bytes": 30837,
+      "line_count": 715,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/full_corpus/kesava_kasmiri_kramadipika_gretil.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Keśavakāśmīri: Kramadīpikā with the commentary by Govindabhaṭṭācārya",
+      "size_bytes": 436908,
+      "line_count": 5175,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/full_corpus/madhusudana_siddhanta_bindu_gretil.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Madhusūdanasarasvatī: Siddhāntabindu",
+      "size_bytes": 75602,
+      "line_count": 348,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Mādhva: Anuvyākhyāna a Dvaita verse commentary on Bādarāyaṇa's Brahmasūtra",
+      "size_bytes": 252379,
+      "line_count": 5712,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/full_corpus/mandana_misra_brahma_siddhi_gretil.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Mandanamiśra: Brahmasiddhi",
+      "size_bytes": 313885,
+      "line_count": 1320,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/full_corpus/mandukya_upanisad_gaudapada_shankara_bhasya_existing.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Māṇḍūkyopaniṣad with Māṇḍūkyamūlamantrabhāṣya, Māṇḍūkyopaniṣatkārikā, and Āgamaśāstrabhāṣya",
+      "size_bytes": 184367,
+      "line_count": 2715,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/full_corpus/shankara_upadesa_sahasri_gretil.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Śaṃkara: Upadeśasāhasrī",
+      "size_bytes": 142891,
+      "line_count": 2196,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/full_corpus/shankara_vivekacudamani_gretil.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Śaṃkara (attrib.): Vivekacuḍāmaṇi",
+      "size_bytes": 90654,
+      "line_count": 2413,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/full_corpus/vyasatirtha_tarka_tandava_gretil.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Vyāsatīrtha: Tarkatāṇḍava with Rāghavendratīrtha's Nyāyadīpa",
+      "size_bytes": 1947991,
+      "line_count": 19764,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/full_corpus/yamuna_atma_siddhi_gretil.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Yāmuna: Ātmasiddhi",
+      "size_bytes": 390134,
+      "line_count": 276,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/full_corpus/yamuna_catuhsloki_gretil.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Yāmuna: Catuḥślokī",
+      "size_bytes": 2684,
+      "line_count": 54,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/full_corpus/yamuna_isvara_siddhi_gretil.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Yāmuna: Īśvarasiddhi",
+      "size_bytes": 19895,
+      "line_count": 154,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/full_corpus/yamuna_samvit_siddhi_gretil.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Yāmuna: Saṃvitsiddhi",
+      "size_bytes": 30579,
+      "line_count": 935,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/full_corpus/yamuna_stotra_ratna_gretil.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Yāmuna: Stotraratna",
+      "size_bytes": 13016,
+      "line_count": 234,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/jayatirtha_nyaya_sudha.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Header",
+      "size_bytes": 2853356,
+      "line_count": 31771,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/madhusudana_siddhanta_bindu.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Madhusūdanasarasvatī: Siddhāntabindu",
+      "size_bytes": 75602,
+      "line_count": 348,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/madhva_anuvyakhyana.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Mādhva: Anuvyākhyāna a Dvaita verse commentary on Bādarāyaṇa's Brahmasūtra",
+      "size_bytes": 252379,
+      "line_count": 5712,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/madhva_krsnamrta.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Mādhva Ānandatīrtha: Kṛṣṇāmṛtamahārṇava",
+      "size_bytes": 32424,
+      "line_count": 572,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/madhva_mahabharata_tatparya.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Mādhva: Mahābhāratatātparyanirṇaya",
+      "size_bytes": 812269,
+      "line_count": 44,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/ramanuja_gita_bhasya.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Rāmānuja: Bhagavadgītābhāṣya",
+      "size_bytes": 464403,
+      "line_count": 3876,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/ramanuja_vedartha_sangraha.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Rāmānuja: Vedārthasaṃgraha",
+      "size_bytes": 146681,
+      "line_count": 332,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/shankara_brahma_sutra_bhasya.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Bādarāyaṇa: Brahmasūtra with Śaṃkara's Śārīrakamīmāṃsābhāṣya",
+      "size_bytes": 1125765,
+      "line_count": 6793,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/vedanta/vacaspati_bhamati.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Vācaspatimiśra: Bhāmati a commentary on Śaṃkara's Brahmasūtrabhāṣya",
+      "size_bytes": 1166684,
+      "line_count": 5479,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/yoga/yoga_sutra_patanjali.txt",
+      "language": "sanskrit",
+      "category": "yoga",
+      "title": "Patañjali: Yogasūtra",
+      "size_bytes": 15410,
+      "line_count": 45,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/yoga/yoga_sutra_with_vyasa_bhasya.txt",
+      "language": "sanskrit",
+      "category": "yoga",
+      "title": "Patañjali: Yogasūtra with Bhāṣya (= Pātañjalayogaśāstra)",
+      "size_bytes": 145716,
+      "line_count": 595,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/yoga/yoga_sutra_with_vyasa_bhasya_alt.txt",
+      "language": "sanskrit",
+      "category": "yoga",
+      "title": "Patañjali: Yogasūtra with Bhāṣya",
+      "size_bytes": 177862,
+      "line_count": 3072,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/yoga_vasistha_moksopaya.txt",
+      "language": "sanskrit",
+      "category": null,
+      "title": "Anonymus Casmiriensis: Mokṣopāya",
+      "size_bytes": 3149123,
+      "line_count": 79079,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    }
+  ]
+}

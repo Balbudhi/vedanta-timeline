@@ -102,6 +102,33 @@
     <div class="reader-content" id="readerContent"></div>
   </div>
 
+  <aside class="citation-panel" id="citationPanel" aria-hidden="true" aria-label="Primary-source panel">
+    <div class="cite-panel-bar">
+      <div class="cite-tab-bar" role="tablist">
+        <button class="cite-tab" id="citeTabSource" data-tab="source" role="tab" aria-selected="false" type="button">Source</button>
+        <button class="cite-tab is-active" id="citeTabCitation" data-tab="citation" role="tab" aria-selected="true" type="button">Citation</button>
+      </div>
+      <button class="cite-panel-close" id="citePanelClose" aria-label="Close panel" type="button">×</button>
+    </div>
+    <div class="cite-panel-body">
+      <section class="cite-tab-pane" id="citePaneSource" role="tabpanel" aria-hidden="true" hidden>
+        <div class="cite-source-search">
+          <input id="citeSourceSearch" type="search" placeholder="Filter texts…" autocomplete="off" spellcheck="false" />
+        </div>
+        <div class="cite-source-tree" id="citeSourceTree"></div>
+        <div class="cite-source-viewer" id="citeSourceViewer">
+          <p class="cite-source-empty">Select a text to read.</p>
+        </div>
+      </section>
+      <section class="cite-tab-pane is-active" id="citePaneCitation" role="tabpanel" aria-hidden="false">
+        <div class="cite-citation-empty" id="citeCitationEmpty">
+          <p>Click any underlined citation in a thinker entry or article to open it here, in context.</p>
+        </div>
+        <div class="cite-citation-body" id="citeCitationBody" hidden></div>
+      </section>
+    </div>
+  </aside>
+
   <script type="module" src="assets/app.js"></script>
 </body>
 </html>
