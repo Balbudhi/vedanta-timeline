@@ -15,15 +15,15 @@ from typing import Final
 # --- storage ---------------------------------------------------------------
 
 HF_HOME: Final[Path] = Path(
-    os.environ.get("HF_HOME", "/orcd/scratch/orcd/009/eeshan/hf_cache")
+    os.environ.get("HF_HOME", "/orcd/pool/008/eeshan/ocr/hf_cache")
 )
 VLLM_CACHE_ROOT: Final[Path] = Path(
-    os.environ.get("VLLM_CACHE_ROOT", "/orcd/scratch/orcd/009/eeshan/cache/vllm")
+    os.environ.get("VLLM_CACHE_ROOT", "/orcd/pool/008/eeshan/ocr/cache_vllm")
 )
 TORCH_HOME: Final[Path] = Path(
-    os.environ.get("TORCH_HOME", "/orcd/scratch/orcd/009/eeshan/cache/torch")
+    os.environ.get("TORCH_HOME", "/orcd/pool/008/eeshan/ocr/cache_torch")
 )
-VENV_ROOT: Final[Path] = Path("/orcd/scratch/orcd/009/eeshan/venvs/ocr")
+VENV_ROOT: Final[Path] = Path("/orcd/pool/008/eeshan/ocr/venvs/ocr")
 BULK_OUTPUT_ROOT: Final[Path] = Path("/orcd/pool/008/eeshan/philosophy_ocr")
 SMOKE_OUTPUT_ROOT: Final[Path] = Path(
     "/orcd/home/002/eeshan/philosophy/tmp/ocr_smoke"
