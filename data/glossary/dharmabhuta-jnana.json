@@ -1,0 +1,17 @@
+{
+  "term_key": "dharmabhuta-jnana",
+  "term_iast": "dharmabhūta-jñāna",
+  "term_devanagari": "धर्मभूतज्ञान",
+  "literal": "knowledge-as-substantive-quality; dharma-bhūta (qualifying-feature) + jñāna",
+  "aliases": ["dharmabhuta-jnana", "dharmabhūta-jñāna", "dharmabhūtajñāna", "dharma-bhuta-jnana"],
+  "invariant_definition": "A signature Viśiṣṭādvaita technical doctrine: the *jīva*'s knowledge is itself a substance — a *dharma* (qualifying feature) that is also *bhūta* (existent-as-substance) — qualifying the soul. Distinct from the soul's substantive self-luminosity (*dharmi-jñāna*). *Dharmabhūta-jñāna* contracts under *karma* (this contraction is what *avidyā* really is, in V) and expands at *mokṣa*. The doctrine allows V to retain real cognitive activity for the *jīva* while preserving the *jīva*'s individuality and finite scope.",
+  "per_school": [
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Central technical doctrine. The soul has two kinds of *jñāna*: *dharmi-jñāna* (the soul-as-knowing-substance) and *dharmabhūta-jñāna* (the substantive knowledge qualifying the soul). The latter is what extends to grasp objects; its contraction under *karma* is the mechanism of *saṃsāra*. *Mokṣa* is its full expansion toward the Lord.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§82–88", "Śrī-Bhāṣya 2.3.42–53", "Yatīndra-Mata-Dīpikā 8"]
+    }
+  ],
+  "see_also": ["jnana", "dharmi-jnana", "visistadvaita", "jiva", "avidya"],
+  "translator_note": "'Substantive knowledge' or 'attribute-knowledge' both partially capture. Untranslatable in one English word. The doctrine is one of the most original technical posits in V."
+}

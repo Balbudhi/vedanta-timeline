@@ -1,0 +1,22 @@
+{
+  "term_key": "niskama-karma",
+  "term_iast": "niṣkāma-karma",
+  "term_devanagari": "निष्कामकर्म",
+  "literal": "desireless action; niḥ- (without) + kāma (desire) + karma (action)",
+  "aliases": ["niskama-karma", "niṣkāma-karma", "niṣkāmakarma", "niskama", "niṣkāma"],
+  "invariant_definition": "Action performed without attachment to its fruits — the central teaching of the *Bhagavad-Gītā*'s *karma-yoga* chapters (especially 2–4, 18). All Vedāntic schools accept *niṣkāma-karma* as the right form of action; they differ on its place: Advaita (preparation for *jñāna* via *citta-śuddhi*); Viśiṣṭādvaita (one aspect of integral *bhakti-yoga*); Dvaita (continuous mode of devotion to Viṣṇu). The user's position-brief (T8) makes *niṣkāma karma* structurally central — it is the action-grammar of the *sākṣi-caitanya* mode and connects to *līlā*, wu-wei, and the disinterestedness of Kant and Abhinavagupta's *rasa*.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Niṣkāma-karma* is *cittasuddhi*-yielding; it does not itself produce *mokṣa*. The Gītā's *karma-yoga* is read as *cittasuddhi-upāya*, parallel-but-not-equal to *jñāna*.",
+      "primary_loci": ["Bhagavad-Gītā-Bhāṣya 2.47, 3.19, 18.66"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Niṣkāma-karma* offered as *bhagavad-ārādhana* is itself an aspect of *bhakti-yoga*. The opposition Advaita draws between *karma* and *jñāna* is rejected; *karma* under *bhakti* continues for the realized.",
+      "primary_loci": ["Gītā-Bhāṣya (Rāmānuja) 2.47, 3.19", "Vedārtha-Saṅgraha §§137–143"]
+    }
+  ],
+  "see_also": ["karma", "karma-yoga", "lila", "saksin", "bhakti"],
+  "translator_note": "'Desireless action' or 'action without attachment to fruits' both acceptable. Note: *niṣkāma* does not mean 'without motivation' — the action has a motive (the prescribed duty, devotion to the Lord), but lacks attachment to *its specific outcome for the agent*."
+}

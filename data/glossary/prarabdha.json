@@ -1,0 +1,22 @@
+{
+  "term_key": "prarabdha",
+  "term_iast": "prārabdha",
+  "term_devanagari": "प्रारब्ध",
+  "literal": "begun, set in motion; past passive participle of pra- + ā- + √rabh 'to begin'",
+  "aliases": ["prarabdha", "prārabdha", "Prārabdha", "prārabdha-karma"],
+  "invariant_definition": "The portion of *karma* that has begun to fructify in the present life — distinct from *sañcita* (accumulated, not yet active) and *āgāmī* (currently being produced). All Vedāntic schools accept this three-fold *karma* division. The *prārabdha* is what the *jīvanmukta* (in Advaita) lives out: even after *brahma-jñāna* the body persists until *prārabdha-karma* is exhausted. Schools that reject *jīvanmukti* (Dvaita) hold that *brahma-jñāna* / *aparokṣa-jñāna* itself awaits the exhaustion of *prārabdha*.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Prārabdha-karma* is what sustains the *jīvanmukta*'s body after *avidyā*-removal. *Sañcita* and *āgāmī* are dissolved by *brahma-jñāna*; *prārabdha* runs its course.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 4.1.15", "Naiṣkarmya-Siddhi 4", "Pañcadaśī 7"]
+    },
+    {
+      "school": "Viśiṣṭādvaita / Dvaita",
+      "definition": "*Prārabdha* must also be exhausted; *mokṣa* (in V) or *aparokṣa-jñāna* (in D) does not exempt the soul from working through *prārabdha* until the body's natural end.",
+      "primary_loci": ["Śrī-Bhāṣya 4.1.15"]
+    }
+  ],
+  "see_also": ["karma", "sancita", "agami", "jivanmukta"],
+  "translator_note": "'Operative karma' or 'fructifying karma' acceptable."
+}

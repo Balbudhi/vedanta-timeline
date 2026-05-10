@@ -1,0 +1,27 @@
+{
+  "term_key": "antaryamin",
+  "term_iast": "antaryāmin",
+  "term_devanagari": "अन्तर्यामिन्",
+  "literal": "the inner controller; antar (within) + yāmin (controller, from √yam)",
+  "aliases": ["antaryamin", "antaryāmin", "Antaryāmin", "antaryāmī", "antaryami"],
+  "invariant_definition": "The inner controller — the divine indwelling in every conscious and unconscious being, controlling from within. The locus classicus is the *Antaryāmi-Brāhmaṇa* (Bṛhadāraṇyaka 3.7), which describes Brahman as the inner controller of every element, every sense, and every soul. All Vedāntic schools accept the doctrine; they differ on whether the *antaryāmin* is identical with the *jīva*'s *ātman* (Advaita: yes, ultimately) or really distinct from it (Viśiṣṭādvaita: yes — Brahman is *antaryāmin* of the *jīva* who is His body; Dvaita: yes — Viṣṇu is *antaryāmin* of every *paratantra*).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Antaryāmin* is *Īśvara* — *saguṇa brahman* under the cosmic-control aspect. In *pāramārthika* analysis the *antaryāmin* is *brahman* and is identical with the *ātman* of the controlled.",
+      "primary_loci": ["Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 3.7", "Brahma-Sūtra-Bhāṣya 1.2.18ff"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Antaryāmin* is Viṣṇu indwelling every *jīva* and every material object as their *śarīrī* (ensouler). The *antaryāmin*-*jīva* relation is the paradigm of *śarīra-śarīrī-bhāva*.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§81–88", "Śrī-Bhāṣya 1.2.18ff"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Antaryāmin* is Viṣṇu indwelling every *paratantra* tattva, controlling from within while remaining eternally distinct.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.2.18ff"]
+    }
+  ],
+  "see_also": ["isvara", "sarira-saririn-bhava", "paramatman"],
+  "translator_note": "'Inner controller' or 'indwelling Lord' both acceptable. The Christian-theological 'immanent God' captures part of it but loses the *control*-dimension."
+}

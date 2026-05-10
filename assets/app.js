@@ -6,15 +6,32 @@
 // Vanilla ES module. No framework, no build step.
 
 // ---------- layout constants (kept in sync with style.css :root) -----------
-const TOPBAR_H = 40;
-const LANE_H = 96;
-const LANE_RAIL_W = 168;
-const ERA_STRIP_H = 24;
+// Read responsive values from CSS so JS and CSS stay in sync.
+function cssVar(name, fallback) {
+  const v = getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+  if (!v) return fallback;
+  const n = parseFloat(v);
+  return Number.isFinite(n) ? n : fallback;
+}
+let TOPBAR_H = 48;
+let LANE_H = 96;
+let LANE_RAIL_W = 188;
+let ERA_STRIP_H = 26;
 const AXIS_H = 28;
+
+function refreshLayoutConstants() {
+  TOPBAR_H = cssVar("--topbar-h", 48);
+  LANE_H = cssVar("--lane-h", 96);
+  LANE_RAIL_W = cssVar("--lane-rail-w", 188);
+  ERA_STRIP_H = cssVar("--era-strip-h", 26);
+}
 
 const PX_PER_YEAR_DEFAULT = 1.9;
 const PAD_LEFT = 60;
 const PAD_RIGHT = 80;
+
+// On first load, center the viewport here (densest period of Vedānta thinkers).
+const INITIAL_FOCUS_YEAR = 1100;
 
 const LANE_ORDER = [
   "proto",
@@ -42,7 +59,7 @@ const LANE_DISPLAY = {
   "advaita": "Advaita",
   "bhedabheda": "Bhedābheda",
   "vishishtadvaita": "Viśiṣṭādvaita",
-  "dvaita": "Dvaita (Tattvavāda)",
+  "dvaita": "Dvaita",
   "acintya": "Acintya-Bhedābheda",
   "shuddha": "Śuddhādvaita",
   "avibhaga": "Avibhāgādvaita",
@@ -57,6 +74,20 @@ const LANE_DISPLAY = {
   "trika-comparator": "Pratyabhijñā / Trika",
   "cross-tradition": "Cross-tradition",
 };
+
+// Vedāntic schools always render as their own lanes.
+const VEDANTA_LANES = new Set([
+  "proto", "advaita", "bhedabheda", "vishishtadvaita",
+  "dvaita", "acintya", "shuddha", "avibhaga",
+]);
+// Other darśanas / cross-tradition collapse into one virtual group lane by default.
+const COMPARATOR_LANES = [
+  "samkhya-comparator", "yoga-comparator", "nyaya-comparator",
+  "navya-nyaya-comparator", "vaisesika-comparator", "mimamsa-comparator",
+  "jaina-comparator", "carvaka-comparator", "trika-comparator", "cross-tradition",
+];
+const COMPARATOR_GROUP_KEY = "__comparator_group__";
+const COMPARATOR_GROUP_LABEL = "Other darśanas";
 
 const ERA_BANDS = [
   { name: "Pre-Śaṅkara",  low: -800, high:  700, fill: "#a8a29e", fillOpacity: 0.05 },
@@ -105,6 +136,14 @@ const state = {
   pxPerYear: PX_PER_YEAR_DEFAULT,
   layout: new Map(),         // id → {x, y, lane, shade, tier, barX1, barX2, name, label}
   activeId: null,
+  // Filter state: which top-level lane tokens are currently visible.
+  // Comparator group is a single virtual lane until expanded.
+  visibleLanes: new Set([...VEDANTA_LANES, COMPARATOR_GROUP_KEY]),
+  comparatorExpanded: false,
+  // Effective render order, recomputed when filter / expansion changes.
+  renderLanes: [],
+  laneToIndex: new Map(),
+  hasInitialScroll: false,
 };
 
 // ---------- loaders -----------
@@ -182,11 +221,55 @@ function totalWidth() {
   return PAD_LEFT + (state.range.high - state.range.low) * state.pxPerYear + PAD_RIGHT;
 }
 function totalHeight() {
-  return LANE_ORDER.length * LANE_H + AXIS_H + 8;
+  return state.renderLanes.length * LANE_H + AXIS_H + 8;
 }
+
+// Build the effective rendered lane order from filter + expansion state.
+// Each entry is { key, kind: "school" | "group" | "sub", token? } where
+// `key` is what `laneIndex()` resolves a thinker into.
+function computeRenderLanes() {
+  const lanes = [];
+  for (const tok of LANE_ORDER) {
+    if (VEDANTA_LANES.has(tok)) {
+      if (state.visibleLanes.has(tok)) lanes.push({ key: tok, kind: "school", token: tok });
+    } else if (COMPARATOR_LANES.includes(tok)) {
+      // handled below as one block
+    }
+  }
+  // Insert comparator group lane (or expanded sub-lanes) at end.
+  if (state.visibleLanes.has(COMPARATOR_GROUP_KEY)) {
+    if (state.comparatorExpanded) {
+      lanes.push({ key: COMPARATOR_GROUP_KEY, kind: "group", token: COMPARATOR_GROUP_KEY, expanded: true });
+      for (const tok of COMPARATOR_LANES) {
+        lanes.push({ key: tok, kind: "sub", token: tok });
+      }
+    } else {
+      lanes.push({ key: COMPARATOR_GROUP_KEY, kind: "group", token: COMPARATOR_GROUP_KEY, expanded: false });
+    }
+  }
+  state.renderLanes = lanes;
+  state.laneToIndex.clear();
+  lanes.forEach((l, i) => state.laneToIndex.set(l.key, i));
+  // Map every comparator token to the group row when collapsed.
+  if (!state.comparatorExpanded && state.laneToIndex.has(COMPARATOR_GROUP_KEY)) {
+    const groupIdx = state.laneToIndex.get(COMPARATOR_GROUP_KEY);
+    for (const tok of COMPARATOR_LANES) state.laneToIndex.set(tok, groupIdx);
+  }
+}
+
 function laneIndex(token) {
-  const i = LANE_ORDER.indexOf(token);
-  return i < 0 ? LANE_ORDER.length - 1 : i;
+  if (state.laneToIndex.has(token)) return state.laneToIndex.get(token);
+  // Fallback: route unknown tokens to the comparator group if visible, else hide.
+  if (state.laneToIndex.has(COMPARATOR_GROUP_KEY)) {
+    return state.laneToIndex.get(COMPARATOR_GROUP_KEY);
+  }
+  return -1;
+}
+
+function isThinkerVisible(t) {
+  const tok = t.school_color_token || "proto";
+  if (VEDANTA_LANES.has(tok)) return state.visibleLanes.has(tok);
+  return state.visibleLanes.has(COMPARATOR_GROUP_KEY);
 }
 function tierOf(t) {
   if (TIER_1.has(t.id)) return 1;
