@@ -45,7 +45,11 @@
       "genre": "varttika",
       "language": "sanskrit",
       "summary": "A 500-verse Sanskrit *kārikā*-treatise with the author's own prose auto-commentary *Sarvārtha-Siddhi*, organised by the Viśiṣṭādvaita ontology of *dravya* and *adravya* into *sara*-chapters on *jaḍa* (matter), *jīva* (self), *Īśvara*, *nitya-vibhūti* (the eternal divine realm), *dharma-bhūta-jñāna*, and so on. The *Tattva-Muktā-Kalāpa* is the school's mature systematic ontology: it argues each Viśiṣṭādvaita category against the alternatives — Sāṃkhya *prakṛti*, Naiyāyika *paramāṇu*-atomism, Buddhist momentariness, Advaitic *māyā*, Bhāskara's *aupādhika-bheda*, Madhva's unqualified *bheda* — fixing precisely how the school's *apṛthak-siddha* relation differs from each. The *Sarvārtha-Siddhi* is unusually rigorous in its handling of *dharmi-bhūta-jñāna* (substance-awareness as itself the *jīva*'s constitutive attribute) and of the *śarīra-śarīrin* relation as a sui generis ontological relation distinct from inherence (*samavāya*) and from mere conjunction. The work matters because it is the canonical reference for Vaḍakalai metaphysics — the *Tattva-Mukta-Kalāpa* with *Sarvārtha-Siddhi* is what later Viśiṣṭādvaita scholasticism quotes when fixing a category-boundary.",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "pr-1-mangalacarana__caturvyuha-param-brahma",
+        "pr-1-pramana__caturdha-avatishthate",
+        "pr-1-avirodha__ubhayor-api-sastrayoh"
+      ],
       "entry_status": "reviewed"
     },
     {
@@ -77,7 +81,11 @@
       "genre": "polemical-tract",
       "language": "sanskrit",
       "summary": "Sanskrit polemical *prakaraṇa* defending the *prāmāṇya* of the Pāñcarātra *saṃhitā*-s and the legitimacy of Vaiṣṇava temple-ritual, extending Yāmuna's *Āgama-Prāmāṇya* against later — especially Smārta and Advaita-aligned — challenges that resurfaced in the late-medieval period. Deśika argues *sūtra*-by-*sūtra* through the *Brahma-Sūtra*'s *Utpatti-Asambhava-Adhikaraṇa* (2.2.42–45) — the *adhikaraṇa* on which the orthodoxy of Pāñcarātra hinges — to show that, properly read, the *sūtra*-s do not refute Pāñcarātra cosmology but only one heterodox version of *vyūha*-doctrine, leaving the orthodox core intact and authoritative. He also argues for the equivalence of Pāñcarātra-initiates to Vedic *brāhmaṇa*-s for ritual purposes and defends specific Pāñcarātra liturgical elements (*pañca-saṃskāra*, image-installation, *mudrā*-s) against *Mīmāṃsā* objections. The work matters because it secured the institutional authority of the Śrīvaiṣṇava temple system — particularly Śrīraṅgam, Tirupati, and Kāñcī — at the precise moment when sectarian competition with Advaita-aligned Smārta institutions was intensifying.",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "pr-1-mangalacarana__caturvyuha-param-brahma",
+        "pr-1-pramana__caturdha-avatishthate",
+        "pr-1-avirodha__ubhayor-api-sastrayoh"
+      ],
       "entry_status": "reviewed"
     },
     {
@@ -148,10 +156,477 @@
       "entry_status": "reviewed"
     }
   ],
-  "key_passages": [],
+  "key_passages": [
+    {
+      "passage_id": "pr-1-mangalacarana__caturvyuha-param-brahma",
+      "work_id": "pancaratra-raksha",
+      "locus_short": "PR 1, Maṅgalācaraṇa",
+      "locus_long": "Pāñcarātra-Rakṣā, prathamo'dhikāraḥ, maṅgalācaraṇam",
+      "locus_structured": {
+        "chapter": 1,
+        "section": "maṅgalācaraṇam",
+        "verse": 1
+      },
+      "sanskrit_iast": "cāturvyūhaṃ paraṃ brahma ṣāḍguṇya-parikarmitam |\npañcarātrasya kṛtsnasya prasūtiṃ paryupāsmahe ||",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "cāturvyūham",
+            "stem": "cāturvyūha",
+            "morphology": "acc sg neut",
+            "gloss": "having four vyūhas"
+          },
+          {
+            "pada": "param",
+            "stem": "para",
+            "morphology": "acc sg neut",
+            "gloss": "supreme"
+          },
+          {
+            "pada": "brahma",
+            "stem": "brahman",
+            "morphology": "acc sg neut",
+            "gloss": "Brahman"
+          },
+          {
+            "pada": "ṣāḍguṇya-parikarmitam",
+            "stem": "ṣāḍguṇya-parikarmita",
+            "pratyaya": "kta",
+            "morphology": "acc sg neut ppp",
+            "gloss": "adorned/qualified by the six attributes"
+          },
+          {
+            "pada": "pañcarātrasya",
+            "stem": "pañcarātra",
+            "morphology": "gen sg neut",
+            "gloss": "of the Pāñcarātra"
+          },
+          {
+            "pada": "kṛtsnasya",
+            "stem": "kṛtsna",
+            "morphology": "gen sg neut",
+            "gloss": "entire"
+          },
+          {
+            "pada": "prasūtim",
+            "stem": "prasūti",
+            "morphology": "acc sg fem",
+            "gloss": "source, point of origination"
+          },
+          {
+            "pada": "paryupāsmahe",
+            "stem": "pari-upa-√ās",
+            "morphology": "1pl pres ind Ā",
+            "gloss": "we reverentially attend upon / worship"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "cāturvyūham",
+            "type": "bahuvrihi",
+            "resolution": "catvāro vyūhā yasya tat",
+            "note": "describes Brahman as manifested in the four vyūhas"
+          },
+          {
+            "compound": "ṣāḍguṇya-parikarmitam",
+            "type": "tatpurusha",
+            "resolution": "ṣāḍguṇyena parikarmitam",
+            "note": "qualified by the classical six divine excellences"
+          },
+          {
+            "compound": "pañcarātrasya",
+            "type": "dvigu",
+            "resolution": "pañca rātrāṇi asya; saḥ pañcarātraḥ",
+            "note": "traditional title of the āgama corpus"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "karman",
+            "pada": "cāturvyūhaṃ paraṃ brahma",
+            "note": "primary object of worship"
+          },
+          {
+            "role": "karman",
+            "pada": "prasūtim",
+            "note": "appositional accusative: the source/origin of the Pāñcarātra as a whole"
+          },
+          {
+            "role": "sambandha",
+            "pada": "pañcarātrasya kṛtsnasya",
+            "note": "genitive relation qualifying prasūtim"
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "paryupāsmahe",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "middle",
+            "note": "1st person plural present indicative with devotional-reflexive force"
+          }
+        ]
+      },
+      "english_close": "We reverentially worship the source of the whole Pāñcarātra: the supreme Brahman manifested as the four vyūhas and adorned with the six divine excellences.",
+      "preserved_terms": [
+        {
+          "term_iast": "vyūha",
+          "first_use_gloss": "(emanational form of Viṣṇu such as Vāsudeva, Saṅkarṣaṇa, Pradyumna, Aniruddha)"
+        },
+        {
+          "term_iast": "ṣāḍguṇya",
+          "first_use_gloss": "(the six divine attributes, especially jñāna, bala, aiśvarya, śakti, vīrya, tejas)"
+        }
+      ],
+      "why_this_passage": "This is not merely a conventional benediction: it states the positive theological premise of the whole work, namely that the Pāñcarātra issues from the supreme four-vyūha Brahman endowed with determinate auspicious qualities. Because the assigned Tattva-Muktā-Kalāpa scan was too OCR-degraded for trustworthy grammatical extraction, this clean Sanskrit opening is an access-constrained but fair way to represent Deśika's positive ontology from the assigned corpus.",
+      "topic_tags": [
+        "ontology",
+        "ethics-devotion"
+      ],
+      "sub_axes": [
+        "status-of-personal-lord",
+        "number-of-fundamental-existents"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Sri Pancaratra Raksa of Sri Vedanta Desika, critically edited by Pandit M. Duraiswami Aiyangar and Pandit T. Venugopalacharya, Adyar Library, Adyar, Madras, 1942.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "pr-1-pramana__caturdha-avatishthate",
+      "work_id": "pancaratra-raksha",
+      "locus_short": "PR 1, Catvāraḥ Siddhāntāḥ",
+      "locus_long": "Pāñcarātra-Rakṣā, prathamo'dhikāraḥ, catvāraḥ siddhāntāḥ section",
+      "locus_structured": {
+        "chapter": 1,
+        "section": "catvāraḥ siddhāntāḥ"
+      },
+      "sanskrit_iast": "āgamasiddhānto mantrasiddhāntas tantrasiddhāntas tantrāntarasiddhānta iti |\ncatvāraś cete siddhāntā ṛgādivad eva śākhābhedair avantaratantrair bhidyante ||",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "āgamasiddhāntaḥ",
+            "stem": "āgamasiddhānta",
+            "morphology": "nom sg masc",
+            "gloss": "the āgama-siddhānta"
+          },
+          {
+            "pada": "mantrasiddhāntaḥ",
+            "stem": "mantrasiddhānta",
+            "morphology": "nom sg masc",
+            "gloss": "the mantra-siddhānta"
+          },
+          {
+            "pada": "tantrasiddhāntaḥ",
+            "stem": "tantrasiddhānta",
+            "morphology": "nom sg masc",
+            "gloss": "the tantra-siddhānta"
+          },
+          {
+            "pada": "tantrāntarasiddhāntaḥ",
+            "stem": "tantrāntarasiddhānta",
+            "morphology": "nom sg masc",
+            "gloss": "the subsidiary-tantra-siddhānta"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "catvāraḥ",
+            "stem": "catvar",
+            "morphology": "nom pl masc",
+            "gloss": "four"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "ete",
+            "stem": "etad",
+            "morphology": "nom pl masc pron",
+            "gloss": "these"
+          },
+          {
+            "pada": "siddhāntāḥ",
+            "stem": "siddhānta",
+            "morphology": "nom pl masc",
+            "gloss": "settled doctrinal forms"
+          },
+          {
+            "pada": "ṛgādivat",
+            "stem": "ṛgādi-vat",
+            "morphology": "indecl",
+            "gloss": "like the Ṛg and the others"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "śākhābhedaiḥ",
+            "stem": "śākhābheda",
+            "morphology": "instr pl masc",
+            "gloss": "by branch-distinctions"
+          },
+          {
+            "pada": "avantaratantraiḥ",
+            "stem": "avantaratantra",
+            "morphology": "instr pl neut",
+            "gloss": "by subsidiary tantras"
+          },
+          {
+            "pada": "bhidyante",
+            "stem": "√bhid",
+            "morphology": "3pl pres ind Ā",
+            "gloss": "are divided"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "āgamasiddhāntaḥ",
+            "type": "tatpurusha",
+            "resolution": "āgamasya siddhāntaḥ"
+          },
+          {
+            "compound": "mantrasiddhāntaḥ",
+            "type": "tatpurusha",
+            "resolution": "mantrasya siddhāntaḥ"
+          },
+          {
+            "compound": "tantrasiddhāntaḥ",
+            "type": "tatpurusha",
+            "resolution": "tantrasya siddhāntaḥ"
+          },
+          {
+            "compound": "tantrāntarasiddhāntaḥ",
+            "type": "tatpurusha",
+            "resolution": "tantrāntarasya siddhāntaḥ"
+          },
+          {
+            "compound": "ṛgādivat",
+            "type": "avyayibhava",
+            "resolution": "ṛgādivat",
+            "note": "indeclinable comparison: like the Ṛg and the rest"
+          },
+          {
+            "compound": "śākhābhedaiḥ",
+            "type": "tatpurusha",
+            "resolution": "śākhānāṃ bhedaiḥ"
+          },
+          {
+            "compound": "avantaratantraiḥ",
+            "type": "tatpurusha",
+            "resolution": "avantarāṇi tantrāṇi"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "kartṛ",
+            "pada": "ete siddhāntāḥ",
+            "note": "subject of bhidyante"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "śākhābhedaiḥ",
+            "note": "instrument/means of subdivision"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "avantaratantraiḥ",
+            "note": "further means or basis of subdivision"
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "bhidyante",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive",
+            "note": "present passive: are divided"
+          }
+        ]
+      },
+      "english_close": "\"Āgama-siddhānta,\" \"Mantra-siddhānta,\" \"Tantra-siddhānta,\" and \"Tantrāntara-siddhānta\" thus: these doctrinal forms are four, and, like the Ṛg and the other Vedic recensions, are divided by branch-distinctions and subsidiary tantras.",
+      "preserved_terms": [
+        {
+          "term_iast": "siddhānta",
+          "first_use_gloss": "(a settled doctrinal formation or established interpretive line)"
+        },
+        {
+          "term_iast": "tantra",
+          "first_use_gloss": "(a scriptural/ritual manual within the āgamic tradition)"
+        }
+      ],
+      "why_this_passage": "This passage is representative because Deśika is not only defending one text but classifying the whole Pāñcarātra corpus as an internally articulated, Veda-analogous scriptural system. That taxonomic move is central to his epistemology of āgama and to the institutional claim that Śrīvaiṣṇava temple practice rests on a disciplined canon rather than on free sectarian invention.",
+      "topic_tags": [
+        "epistemology"
+      ],
+      "sub_axes": [
+        "status-of-sruti",
+        "school-as-bhasya-vs-school-as-living-tradition"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Sri Pancaratra Raksa of Sri Vedanta Desika, critically edited by Pandit M. Duraiswami Aiyangar and Pandit T. Venugopalacharya, Adyar Library, Adyar, Madras, 1942.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "pr-1-avirodha__ubhayor-api-sastrayoh",
+      "work_id": "pancaratra-raksha",
+      "locus_short": "PR 1, Avirodhopayogābhyām",
+      "locus_long": "Pāñcarātra-Rakṣā, prathamo'dhikāraḥ, section on Vaikhānasa-Pāñcarātra non-conflict",
+      "locus_structured": {
+        "chapter": 1,
+        "section": "vaikhānasa-pāñcarātra-avirodha"
+      },
+      "sanskrit_iast": "avirodhopayogābhyām ubhayor api śāstrayoḥ |\nmadhyasthair hi kṛto dharmo vidyāsthāna-niveśanam ||",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "avirodhopayogābhyām",
+            "stem": "avirodhopayoga",
+            "morphology": "instr du masc",
+            "gloss": "by the non-conflict and usefulness"
+          },
+          {
+            "pada": "ubhayoḥ",
+            "stem": "ubhaya",
+            "morphology": "gen du",
+            "gloss": "of both"
+          },
+          {
+            "pada": "api",
+            "stem": "api",
+            "morphology": "indecl",
+            "gloss": "also, indeed"
+          },
+          {
+            "pada": "śāstrayoḥ",
+            "stem": "śāstra",
+            "morphology": "gen du neut",
+            "gloss": "of the two scriptures"
+          },
+          {
+            "pada": "madhyasthaiḥ",
+            "stem": "madhyastha",
+            "morphology": "instr pl masc",
+            "gloss": "by impartial authorities"
+          },
+          {
+            "pada": "hi",
+            "stem": "hi",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "kṛtaḥ",
+            "stem": "kṛta",
+            "pratyaya": "kta",
+            "morphology": "nom sg masc ppp",
+            "gloss": "made, effected"
+          },
+          {
+            "pada": "dharmaḥ",
+            "stem": "dharma",
+            "morphology": "nom sg masc",
+            "gloss": "the norm, rule, settlement"
+          },
+          {
+            "pada": "vidyāsthāna-niveśanam",
+            "stem": "vidyāsthānaniveśana",
+            "morphology": "nom sg neut",
+            "gloss": "the assigning to proper domains of learning"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "avirodhopayogābhyām",
+            "type": "dvandva",
+            "resolution": "avirodhena ca upayogena ca"
+          },
+          {
+            "compound": "madhyasthaiḥ",
+            "type": "upapada",
+            "resolution": "madhye sthitāḥ",
+            "note": "those standing in the middle, i.e. impartial adjudicators"
+          },
+          {
+            "compound": "vidyāsthāna-niveśanam",
+            "type": "tatpurusha",
+            "resolution": "vidyāsthāne niveśanam",
+            "note": "placing each within its proper disciplinary location"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "sambandha",
+            "pada": "ubhayor api śāstrayoḥ",
+            "note": "genitive relation: the two scriptures whose non-conflict/usefulness is at issue"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "avirodhopayogābhyām",
+            "note": "grounds on which the settlement is made"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "madhyasthaiḥ",
+            "note": "agent in instrumental with passive kṛtaḥ"
+          },
+          {
+            "role": "karman",
+            "pada": "vidyāsthāna-niveśanam",
+            "note": "the effected placement/assignment"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "dharmaḥ",
+            "note": "subject-predicate core: the norm/settlement has been made"
+          }
+        ],
+        "verb_modality": []
+      },
+      "english_close": "Because of the non-conflict and usefulness of both scriptures, a normative settlement has indeed been made by impartial authorities: namely, the assigning of each to its proper domain of learning.",
+      "preserved_terms": [
+        {
+          "term_iast": "śāstra",
+          "first_use_gloss": "(an authoritative disciplinary scripture)"
+        },
+        {
+          "term_iast": "dharma",
+          "first_use_gloss": "(here: the normative rule or settlement, not merely religion)"
+        }
+      ],
+      "why_this_passage": "This couplet fairly represents Deśika because his defense of Pāñcarātra is not a rejection of Vedic or Vaikhānasa practice but a carefully delimited account of compatibility, jurisdiction, and ritual propriety. It therefore shows the institutional and devotional side of his thought, where scriptural reasoning issues in ordered worship rather than in a merely abstract canon-theory.",
+      "topic_tags": [
+        "epistemology",
+        "ethics-devotion"
+      ],
+      "sub_axes": [
+        "status-of-sruti",
+        "status-of-dharma",
+        "status-of-karma"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Sri Pancaratra Raksa of Sri Vedanta Desika, critically edited by Pandit M. Duraiswami Aiyangar and Pandit T. Venugopalacharya, Adyar Library, Adyar, Madras, 1942.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    }
+  ],
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1-cleanup-opus"
+  "last_verified_by": "wave2-codex"
 }

@@ -32,14 +32,635 @@
       "genre": "upanisad-bhashya",
       "language": "sanskrit",
       "summary": "No work by Bhartṛprapañca survives. The corpus is a modern reconstruction — principally M. Hiriyanna, 'Bhartṛprapañca: An Old Vedāntin' (*Indian Historical Quarterly*, 1924), with later supplements — assembled from (i) Śaṅkara's Bṛhadāraṇyaka-Upaniṣad-Bhāṣya, where Bhartṛprapañca is the principal *pūrvapakṣin* across multiple chapters and is named explicitly; (ii) Sureśvara's Bṛhadāraṇyaka-Vārttika, which expands on Śaṅkara's refutations and preserves further fragments; (iii) Ānandagiri's sub-commentary, which sometimes labels otherwise-unattributed positions as Bhartṛprapañca's; and (iv) scattered references in later Vedāntic literature. The reconstruction yields a commentary that read the Bṛhadāraṇyaka as teaching *bhedābheda* with *jñāna-karma-samuccaya* — a *prima facie* plausible reading of that Upaniṣad's dual emphasis on cosmogonic affirmation (Yājñavalkya's enumerations) and apophatic limit (*neti neti*). The text-historical situation is irreducibly speculative: the cited fragments are filtered through opponents, and any 'doctrine' attributed to him is a Śaṅkaran summary, not an authorial voice.",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "bu-1-4-7__avyakrta-to-nama-rupa",
+        "bu-2-3-1-6__murta-amurta-neti-neti",
+        "bu-1-4-10__aham-brahmasmi-and-no-radical-other",
+        "bu-2-4-5-1-4-15__sravana-manana-nididhyasana-upasana"
+      ],
       "entry_status": "reviewed"
     }
   ],
-  "key_passages": [],
+  "key_passages": [
+    {
+      "passage_id": "bu-1-4-7__avyakrta-to-nama-rupa",
+      "work_id": "brhadaranyaka-commentary-fragments",
+      "locus_short": "BṛU 1.4.7",
+      "locus_long": "Reconstructed Bṛhadāraṇyaka commentary fragments, Hiriyanna 1924, on Bṛhadāraṇyaka Upaniṣad 1.4.7",
+      "locus_structured": {
+        "chapter": 1,
+        "section": 4,
+        "verse": 7
+      },
+      "sanskrit_iast": "tad dha idaṃ tarhy avyākṛtam āsīt ।\ntan nāmarūpābhyām eva vyākriyata ॥",
+      "text_critical_note": "Reconstruction-only entry: the thinker's own prose is lost; Hiriyanna's article anchors the doctrine at this Bṛhadāraṇyaka locus, and the Sanskrit is normalized from local Vedānta witnesses rather than taken from authorial autograph.",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "tad",
+            "stem": "tad",
+            "morphology": "nom sg neut",
+            "gloss": "that"
+          },
+          {
+            "pada": "dha",
+            "stem": "dha",
+            "morphology": "indecl",
+            "gloss": "indeed / then"
+          },
+          {
+            "pada": "idam",
+            "stem": "idam",
+            "morphology": "nom sg neut",
+            "gloss": "this"
+          },
+          {
+            "pada": "tarhi",
+            "stem": "tarhi",
+            "morphology": "indecl",
+            "gloss": "at that stage / then"
+          },
+          {
+            "pada": "avyākṛtam",
+            "stem": "a-vyākṛta",
+            "pratyaya": "kta",
+            "morphology": "nom sg neut",
+            "gloss": "undifferentiated, unmanifest"
+          },
+          {
+            "pada": "āsīt",
+            "stem": "as",
+            "morphology": "3sg impf ind P",
+            "gloss": "was"
+          },
+          {
+            "pada": "tan",
+            "stem": "tad",
+            "morphology": "nom sg neut",
+            "gloss": "that"
+          },
+          {
+            "pada": "nāmarūpābhyām",
+            "stem": "nāmarūpa",
+            "morphology": "instr du neut",
+            "gloss": "by name and form"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "just, precisely"
+          },
+          {
+            "pada": "vyākriyata",
+            "stem": "vi-ā-kṛ",
+            "morphology": "3sg impf ind Ā",
+            "gloss": "was differentiated / became articulated"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "avyākṛtam",
+            "type": "negative-tatpurusha",
+            "resolution": "na vyākṛtam",
+            "note": "privative compound for the unmanifest state"
+          },
+          {
+            "compound": "nāmarūpābhyām",
+            "type": "dvandva",
+            "resolution": "nāma ca rūpaṃ ca",
+            "note": "the pair through which manifestation becomes determinate"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "kartṛ",
+            "pada": "tad idaṃ",
+            "note": "subject of āsīt"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "tan",
+            "note": "subject of vyākriyata"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "nāmarūpābhyām",
+            "note": "instrument of differentiation"
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "āsīt",
+            "lakara": "lāṅ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          },
+          {
+            "pada": "vyākriyata",
+            "lakara": "lāṅ",
+            "pada_PA": "atmanepada",
+            "voice": "passive",
+            "note": "middle/passive value in context: manifestation becomes articulated"
+          }
+        ]
+      },
+      "english_close": "Then this was unmanifest. It was differentiated precisely by name and form.",
+      "preserved_terms": [
+        {
+          "term_iast": "avyākṛta",
+          "first_use_gloss": "the undifferentiated, not-yet-articulated state"
+        },
+        {
+          "term_iast": "nāma-rūpa",
+          "first_use_gloss": "name-and-form, the determinate manifold"
+        }
+      ],
+      "why_this_passage": "Hiriyanna's reconstruction makes Bhartṛprapañca's realism about manifestation turn on exactly this transition from the unmanifest to articulated nāma-rūpa. It is a fair anchor because the surviving evidence repeatedly presents him as taking such cosmological passages literally, not as merely provisional concessions.",
+      "topic_tags": [
+        "causation",
+        "ontology"
+      ],
+      "sub_axes": [
+        "status-of-the-world",
+        "vivarta-vs-parinama"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "M. Hiriyanna, 'Bhartṛprapañca: An Old Vedāntin,' The Indian Antiquary 53 (1924), reconstruction article; locus normalized against local Vedānta citation witnesses.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "bu-2-3-1-6__murta-amurta-neti-neti",
+      "work_id": "brhadaranyaka-commentary-fragments",
+      "locus_short": "BṛU 2.3.1, 2.3.6",
+      "locus_long": "Reconstructed Bṛhadāraṇyaka commentary fragments, Hiriyanna 1924, on Bṛhadāraṇyaka Upaniṣad 2.3.1 and 2.3.6",
+      "locus_structured": {
+        "chapter": 2,
+        "section": 3,
+        "other": {
+          "verses": "1, 6"
+        }
+      },
+      "sanskrit_iast": "dve vāva brahmaṇo rūpe mūrtaṃ caivāmūrtaṃ ca ।\nneti neti ॥",
+      "text_critical_note": "This is a reconstructed lemma-cluster rather than continuous surviving commentary. Hiriyanna uses these loci to show that Bhartṛprapañca reads the positive two-form teaching and the apophatic 'neti neti' together, not competitively.",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "dve",
+            "stem": "dvi",
+            "morphology": "nom du neut",
+            "gloss": "two"
+          },
+          {
+            "pada": "vāva",
+            "stem": "vāva",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "brahmaṇo",
+            "stem": "brahman",
+            "morphology": "gen sg neut",
+            "gloss": "of brahman"
+          },
+          {
+            "pada": "rūpe",
+            "stem": "rūpa",
+            "morphology": "nom du neut",
+            "gloss": "forms"
+          },
+          {
+            "pada": "mūrtam",
+            "stem": "mūrta",
+            "morphology": "nom sg neut",
+            "gloss": "the formed"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "just"
+          },
+          {
+            "pada": "amūrtam",
+            "stem": "a-mūrta",
+            "morphology": "nom sg neut",
+            "gloss": "the formless"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "amūrtam",
+            "type": "negative-tatpurusha",
+            "resolution": "na mūrtam",
+            "note": "privative counterpart to mūrta"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "sambandha",
+            "pada": "brahmaṇo",
+            "note": "genitive relation with rūpe"
+          }
+        ],
+        "verb_modality": []
+      },
+      "english_close": "Brahman has, indeed, two forms: the formed and the formless. 'Not this, not this.'",
+      "preserved_terms": [
+        {
+          "term_iast": "mūrta",
+          "first_use_gloss": "formed, determinate, manifest"
+        },
+        {
+          "term_iast": "amūrta",
+          "first_use_gloss": "formless, subtle, unbounded"
+        },
+        {
+          "term_iast": "neti neti",
+          "first_use_gloss": "'not this, not this,' the apophatic denial of exhaustive predication"
+        }
+      ],
+      "why_this_passage": "This is the clearest on-disk anchor for Hiriyanna's claim that Bhartṛprapañca does not flatten the Upaniṣad into either sheer plurality or sheer negation. It fairly represents him because his distinctiveness lies in insisting that the positive dual-aspect teaching and the apophatic limit-statement are both philosophically operative.",
+      "topic_tags": [
+        "ontology"
+      ],
+      "sub_axes": [
+        "status-of-the-world",
+        "ontological-tier-structure"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "M. Hiriyanna, 'Bhartṛprapañca: An Old Vedāntin,' The Indian Antiquary 53 (1924), reconstruction article; loci normalized against local Vedānta citation witnesses.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "bu-1-4-10__aham-brahmasmi-and-no-radical-other",
+      "work_id": "brhadaranyaka-commentary-fragments",
+      "locus_short": "BṛU 1.4.10",
+      "locus_long": "Reconstructed Bṛhadāraṇyaka commentary fragments, Hiriyanna 1924, on Bṛhadāraṇyaka Upaniṣad 1.4.10",
+      "locus_structured": {
+        "chapter": 1,
+        "section": 4,
+        "verse": 10
+      },
+      "sanskrit_iast": "ahaṃ brahmāsmi ।\natha yo 'nyāṃ devatām upāste 'nyo 'sāv anyo 'ham asmīti na sa veda ॥",
+      "text_critical_note": "Reconstruction-only entry: Hiriyanna treats Bhartṛprapañca as fully accepting the abheda-vākyas, but not in a way that cancels the real manifold elsewhere. The passage is therefore selected as a doctrinal anchor, not as proof of later Advaitic reduction.",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "aham",
+            "stem": "aham",
+            "morphology": "nom sg",
+            "gloss": "I"
+          },
+          {
+            "pada": "brahma",
+            "stem": "brahman",
+            "morphology": "nom sg neut",
+            "gloss": "Brahman"
+          },
+          {
+            "pada": "asmi",
+            "stem": "as",
+            "morphology": "1sg pres ind P",
+            "gloss": "am"
+          },
+          {
+            "pada": "atha",
+            "stem": "atha",
+            "morphology": "indecl",
+            "gloss": "but / now"
+          },
+          {
+            "pada": "yaḥ",
+            "stem": "yad",
+            "morphology": "nom sg masc",
+            "gloss": "who"
+          },
+          {
+            "pada": "anyām",
+            "stem": "anya",
+            "morphology": "acc sg fem",
+            "gloss": "other"
+          },
+          {
+            "pada": "devatām",
+            "stem": "devatā",
+            "morphology": "acc sg fem",
+            "gloss": "deity"
+          },
+          {
+            "pada": "upāste",
+            "stem": "upa-ās",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "worships / attends upon"
+          },
+          {
+            "pada": "anyaḥ",
+            "stem": "anya",
+            "morphology": "nom sg masc",
+            "gloss": "other"
+          },
+          {
+            "pada": "asau",
+            "stem": "adas",
+            "morphology": "nom sg masc",
+            "gloss": "that one"
+          },
+          {
+            "pada": "anyaḥ",
+            "stem": "anya",
+            "morphology": "nom sg masc",
+            "gloss": "other"
+          },
+          {
+            "pada": "aham",
+            "stem": "aham",
+            "morphology": "nom sg",
+            "gloss": "I"
+          },
+          {
+            "pada": "asmi",
+            "stem": "as",
+            "morphology": "1sg pres ind P",
+            "gloss": "am"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "sa",
+            "stem": "tad",
+            "morphology": "nom sg masc",
+            "gloss": "he"
+          },
+          {
+            "pada": "veda",
+            "stem": "vid",
+            "morphology": "3sg pres ind P",
+            "gloss": "knows"
+          }
+        ],
+        "samasa_vigrahas": [],
+        "karaka_structure": [
+          {
+            "role": "kartṛ",
+            "pada": "aham",
+            "note": "subject of asmi"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "yaḥ",
+            "note": "subject of upāste"
+          },
+          {
+            "role": "karman",
+            "pada": "anyām devatām",
+            "note": "object of upāste"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "sa",
+            "note": "subject of veda"
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "asmi",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          },
+          {
+            "pada": "upāste",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "middle"
+          },
+          {
+            "pada": "asmi",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "repeated inside the quoted contrast"
+          },
+          {
+            "pada": "veda",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          }
+        ]
+      },
+      "english_close": "I am Brahman. But he who worships another deity, thinking 'He is one thing and I am another,' does not know.",
+      "preserved_terms": [
+        {
+          "term_iast": "abheda",
+          "first_use_gloss": "non-difference, identity without sheer separateness"
+        }
+      ],
+      "why_this_passage": "Hiriyanna's reconstruction is explicit that Bhartṛprapañca accepts the identity-statements and is not simply a pluralist counter-voice to them. This passage is fair because it shows the anti-separative force he must accommodate, while his distinct doctrine consists in refusing to treat that force as requiring the unreality of manifestation.",
+      "topic_tags": [
+        "ontology",
+        "epistemology"
+      ],
+      "sub_axes": [
+        "jiva-brahman-relation",
+        "status-of-sruti"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "M. Hiriyanna, 'Bhartṛprapañca: An Old Vedāntin,' The Indian Antiquary 53 (1924), reconstruction article; locus normalized against local Vedānta citation witnesses.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "bu-2-4-5-1-4-15__sravana-manana-nididhyasana-upasana",
+      "work_id": "brhadaranyaka-commentary-fragments",
+      "locus_short": "BṛU 2.4.5, 1.4.15",
+      "locus_long": "Reconstructed Bṛhadāraṇyaka commentary fragments, Hiriyanna 1924, on Bṛhadāraṇyaka Upaniṣad 2.4.5 and 1.4.15",
+      "locus_structured": {
+        "other": {
+          "loci": "1.4.15; 2.4.5"
+        }
+      },
+      "sanskrit_iast": "ātmā vā are draṣṭavyaḥ śrotavyo mantavyo nididhyāsitavyaḥ ।\nātmānam eva lokam upāsīta ॥",
+      "text_critical_note": "This is a reconstruction-cluster: no continuous Bhartṛprapañca autograph survives, and Hiriyanna's article uses precisely such Bṛhadāraṇyaka loci to explain why his soteriology cannot be reduced to instant sentence-cognition alone.",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "ātmā",
+            "stem": "ātman",
+            "morphology": "nom sg masc",
+            "gloss": "the self"
+          },
+          {
+            "pada": "vā",
+            "stem": "vā",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "are",
+            "stem": "are",
+            "morphology": "indecl",
+            "gloss": "dear one"
+          },
+          {
+            "pada": "draṣṭavyaḥ",
+            "stem": "dṛś",
+            "pratyaya": "tavya",
+            "morphology": "nom sg masc gerundive",
+            "gloss": "to be seen / realized"
+          },
+          {
+            "pada": "śrotavyaḥ",
+            "stem": "śru",
+            "pratyaya": "tavya",
+            "morphology": "nom sg masc gerundive",
+            "gloss": "to be heard about"
+          },
+          {
+            "pada": "mantavyaḥ",
+            "stem": "man",
+            "pratyaya": "tavya",
+            "morphology": "nom sg masc gerundive",
+            "gloss": "to be reflected upon"
+          },
+          {
+            "pada": "nididhyāsitavyaḥ",
+            "stem": "ni-di-dhyai",
+            "pratyaya": "tavya",
+            "morphology": "nom sg masc gerundive",
+            "gloss": "to be deeply meditated upon"
+          },
+          {
+            "pada": "ātmānam",
+            "stem": "ātman",
+            "morphology": "acc sg masc",
+            "gloss": "the self"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "alone"
+          },
+          {
+            "pada": "lokam",
+            "stem": "loka",
+            "morphology": "acc sg masc",
+            "gloss": "the world"
+          },
+          {
+            "pada": "upāsīta",
+            "stem": "upa-ās",
+            "morphology": "3sg opt ind Ā",
+            "gloss": "should worship / contemplate"
+          }
+        ],
+        "samasa_vigrahas": [],
+        "karaka_structure": [
+          {
+            "role": "karman",
+            "pada": "ātmānam",
+            "note": "object of upāsīta"
+          },
+          {
+            "role": "karman",
+            "pada": "lokam",
+            "note": "predicate accusative: the self as the world"
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "upāsīta",
+            "lakara": "vidhi-liṅ",
+            "pada_PA": "atmanepada",
+            "voice": "middle"
+          }
+        ]
+      },
+      "english_close": "The self, dear one, is to be seen, to be heard about, to be reflected upon, and to be meditated upon. One should worship the self alone as the world.",
+      "preserved_terms": [
+        {
+          "term_iast": "nididhyāsana",
+          "first_use_gloss": "deep contemplative assimilation"
+        },
+        {
+          "term_iast": "upāsanā",
+          "first_use_gloss": "sustained contemplative worship"
+        }
+      ],
+      "why_this_passage": "This is the fairest on-disk anchor for the reconstructed claim that Bhartṛprapañca does not make liberation hinge on a single bare identity-sentence heard once. Hiriyanna's reconstruction repeatedly turns on the continuing force of hearing, reflection, meditation, and upāsanā; the stronger jñāna-karma-samuccaya thesis is preserved only indirectly in the later polemical record.",
+      "topic_tags": [
+        "soteriology",
+        "epistemology",
+        "ethics-devotion"
+      ],
+      "sub_axes": [
+        "saving-cognition-status",
+        "effective-means-of-moksa",
+        "status-of-karma"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "M. Hiriyanna, 'Bhartṛprapañca: An Old Vedāntin,' The Indian Antiquary 53 (1924), reconstruction article; loci normalized against local Vedānta citation witnesses.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    }
+  ],
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1a-opus"
+  "last_verified_by": "wave2-codex"
 }

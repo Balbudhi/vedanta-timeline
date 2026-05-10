@@ -39,7 +39,12 @@
       "genre": "tika",
       "language": "sanskrit",
       "summary": "The *Tantra-Dīpikā* is Rāghavendra's *prakāśa*-style commentary on the *Anuvyākhyāna* (Madhva's verse-*vārttika* on the *Brahma-Sūtra-Bhāṣya*), conducted through and in dialogue with Jayatīrtha's *Nyāya-Sudhā* — that is, it is a third-order commentary mediating Madhva and Jayatīrtha. Working *kārikā* by *kārikā*, Rāghavendra fixes the school's reading of the *Anuvyākhyāna* in light of intervening polemic: where Vijayīndra and others have answered Appayya- and Madhusūdana-line objections, the *Tantra-Dīpikā* records the resolved Mādhva position and integrates it into the commentarial flow. The text is especially valuable for its treatments of the *bheda*-arguments at the opening of *Anuvyākhyāna* 2, the *viśeṣa*-discussion, and the *bimba-pratibimba* arguments concerning the *jīva*'s relation to Viṣṇu. The *Tantra-Dīpikā* is the canonical late-medieval companion to the *Nyāya-Sudhā* and remains the obligatory point of reference for any modern Mādhva exegesis of the *Anuvyākhyāna*.",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "tantra-dipika__vedic-words-converge-on-visnu",
+        "tantra-dipika__anandamaya-not-the-other",
+        "tantra-dipika__susupti-utkranti-distinguish-jiva-and-isvara",
+        "tantra-dipika__mumuksu-knows-brahman-alone"
+      ],
       "entry_status": "reviewed"
     },
     {
@@ -110,10 +115,278 @@
       "entry_status": "reviewed"
     }
   ],
-  "key_passages": [],
+  "key_passages": [
+    {
+      "passage_id": "tantra-dipika__vedic-words-converge-on-visnu",
+      "work_id": "tantra-dipika",
+      "locus_short": "TD 1.1, adhyāya summary",
+      "locus_long": "Tantra-Dīpikā, adhyāya 1 summary on the convergence of Vedic language on Viṣṇu",
+      "locus_structured": {
+        "chapter": 1,
+        "other": {
+          "section_type": "adhyāya-summary"
+        }
+      },
+      "sanskrit_iast": "te ca śabdā anyatra-prasiddhā ubhayatra-prasiddhā anyatraiva-prasiddhāś ca\nsākṣāt paramparayā vā viṣṇum eva sṛṣṭy-ādi-vartṛtva-sādhya-guṇa-pūrṇatvena sādhayanti",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {"pada": "te", "stem": "tad", "morphology": "nom pl masc", "gloss": "those"},
+          {"pada": "ca", "stem": "ca", "morphology": "indecl", "gloss": "and"},
+          {"pada": "śabdāḥ", "stem": "śabda", "morphology": "nom pl masc", "gloss": "words"},
+          {"pada": "anyatra-prasiddhāḥ", "stem": "anyatra-prasiddha", "morphology": "nom pl masc", "gloss": "established elsewhere"},
+          {"pada": "ubhayatra-prasiddhāḥ", "stem": "ubhayatra-prasiddha", "morphology": "nom pl masc", "gloss": "established in both places"},
+          {"pada": "anyatraiva-prasiddhāḥ", "stem": "anyatraiva-prasiddha", "morphology": "nom pl masc", "gloss": "established only elsewhere"},
+          {"pada": "ca", "stem": "ca", "morphology": "indecl", "gloss": "and"},
+          {"pada": "sākṣāt", "stem": "sākṣāt", "morphology": "indecl", "gloss": "directly"},
+          {"pada": "paramparayā", "stem": "paramparā", "morphology": "instr sg fem", "gloss": "through succession"},
+          {"pada": "vā", "stem": "vā", "morphology": "indecl", "gloss": "or"},
+          {"pada": "viṣṇum", "stem": "viṣṇu", "morphology": "acc sg masc", "gloss": "Viṣṇu"},
+          {"pada": "eva", "stem": "eva", "morphology": "indecl", "gloss": "alone"},
+          {"pada": "sṛṣṭy-ādi-vartṛtva-sādhya-guṇa-pūrṇatvena", "stem": "sṛṣṭy-ādi-vartṛtva-sādhya-guṇa-pūrṇatva", "morphology": "instr sg neut", "gloss": "by the state of being full of qualities established through creatorship and the rest"},
+          {"pada": "sādhayanti", "stem": "√sādh", "morphology": "3pl pres ind P", "gloss": "they establish / prove"}
+        ],
+        "samasa_vigrahas": [
+          {"compound": "anyatra-prasiddha", "type": "other", "resolution": "anyatra prasiddhaḥ", "note": "Adverb + participle compound."},
+          {"compound": "ubhayatra-prasiddha", "type": "other", "resolution": "ubhayatra prasiddhaḥ"},
+          {"compound": "anyatraiva-prasiddha", "type": "other", "resolution": "anyatra eva prasiddhaḥ"},
+          {"compound": "sṛṣṭy-ādi-vartṛtva-sādhya-guṇa-pūrṇatva", "type": "other", "resolution": "sṛṣṭyādibhiḥ vartṛtvaṃ sādhyate ye guṇāḥ, taiḥ pūrṇatvam", "note": "A compressed commentarial chain compound."}
+        ],
+        "karaka_structure": [
+          {"role": "kartṛ", "pada": "śabdāḥ", "note": "The words are the proving subject."},
+          {"role": "karaṇa", "pada": "paramparayā", "note": "Secondary or mediated signification is marked instrumentally."},
+          {"role": "karman", "pada": "viṣṇum", "note": "The entity established by the words."},
+          {"role": "karaṇa", "pada": "sṛṣṭy-ādi-vartṛtva-sādhya-guṇa-pūrṇatvena", "note": "The proving proceeds by Viṣṇu's quality-fullness as evidenced by creatorship and allied functions."}
+        ],
+        "verb_modality": [
+          {"pada": "sādhayanti", "lakara": "laṭ", "pada_PA": "parasmaipada", "voice": "causative"}
+        ]
+      },
+      "english_close": "And those words, whether established elsewhere, established in both places, or established only elsewhere, prove Viṣṇu alone, either directly or through succession, by [showing him] to be full of qualities established through creatorship and the rest.",
+      "english_paraphrase": "Rāghavendra's hermeneutic claim is that the Veda's diverse word-stock ultimately converges on Viṣṇu, sometimes immediately and sometimes by mediated indication.",
+      "preserved_terms": [
+        {"term_iast": "śabda", "first_use_gloss": "authoritative word / verbal testimony"},
+        {"term_iast": "paramparā", "first_use_gloss": "mediated succession of signification"},
+        {"term_iast": "Viṣṇu", "first_use_gloss": "the supreme independent Lord in Dvaita"}
+      ],
+      "why_this_passage": "This adhyāya-summary compresses Rāghavendra's mature semantic method: scriptural language, even when ordinarily used elsewhere, is drawn back to Viṣṇu by a hierarchy of direct and indirect signification. Because his late scholastic authority is fundamentally commentarial, this is more representative than selecting an isolated devotional line.",
+      "topic_tags": ["epistemology", "ontology"],
+      "sub_axes": ["status-of-sruti", "status-of-personal-lord"],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Rāghavendra Tīrtha, Tantra Dīpikā, ed. R. S. Panchamukhi (1964); transcribed from materials/primary_texts/sanskrit/vedanta/full_corpus/raghavendra_tantra_dipika_archive.pdf",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "tantra-dipika__anandamaya-not-the-other",
+      "work_id": "tantra-dipika",
+      "locus_short": "TD 1.1, bhedavyapadeśāc ca",
+      "locus_long": "Tantra-Dīpikā, adhyāya 1, pāda 1, discussion of the ānandamayādhikaraṇa under the sūtra bhedavyapadeśāc ca",
+      "locus_structured": {
+        "chapter": 1,
+        "section": 1,
+        "other": {
+          "adhikaraṇa": "ānandamayādhikaraṇa",
+          "sutra": "bhedavyapadeśāc ca"
+        }
+      },
+      "sanskrit_iast": "ānandamayo netara iti vartate |\nānandamayād bhedavyapadeśāc cānandamayo netara ity arthaḥ |\n\"sa eko brahmaṇa ānandaḥ\" ityādinā viriñcadeḥ parimitānandam uktvā |\n\"yato vāco nivartante\" ity ānandamayasya pūrṇānandatvokter iti bhāvaḥ ||",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {"pada": "ānandamayaḥ", "stem": "ānandamaya", "pratyaya": "mayaṭ", "morphology": "nom sg masc", "gloss": "the bliss-full one"},
+          {"pada": "na", "stem": "na", "morphology": "indecl", "gloss": "not"},
+          {"pada": "itaraḥ", "stem": "itara", "morphology": "nom sg masc", "gloss": "the other"},
+          {"pada": "iti", "stem": "iti", "morphology": "indecl", "gloss": "thus"},
+          {"pada": "vartate", "stem": "√vṛt", "morphology": "3sg pres ind Ā", "gloss": "is stated / stands"},
+          {"pada": "ānandamayāt", "stem": "ānandamaya", "morphology": "abl sg masc", "gloss": "from the ānandamaya"},
+          {"pada": "bhedavyapadeśāt", "stem": "bhedavyapadeśa", "morphology": "abl sg masc", "gloss": "because of the predication of difference"},
+          {"pada": "ca", "stem": "ca", "morphology": "indecl", "gloss": "and"},
+          {"pada": "ānandamayaḥ", "stem": "ānandamaya", "pratyaya": "mayaṭ", "morphology": "nom sg masc", "gloss": "the ānandamaya"},
+          {"pada": "na", "stem": "na", "morphology": "indecl", "gloss": "not"},
+          {"pada": "itaraḥ", "stem": "itara", "morphology": "nom sg masc", "gloss": "the other"},
+          {"pada": "iti", "stem": "iti", "morphology": "indecl", "gloss": "thus"},
+          {"pada": "arthaḥ", "stem": "artha", "morphology": "nom sg masc", "gloss": "the meaning"},
+          {"pada": "saḥ", "stem": "tad", "morphology": "nom sg masc", "gloss": "that"},
+          {"pada": "ekaḥ", "stem": "eka", "morphology": "nom sg masc", "gloss": "one"},
+          {"pada": "brahmaṇaḥ", "stem": "brahman", "morphology": "gen sg neut", "gloss": "of Brahman"},
+          {"pada": "ānandaḥ", "stem": "ānanda", "morphology": "nom sg masc", "gloss": "joy"},
+          {"pada": "ityādinā", "stem": "ityādi", "morphology": "instr sg neut", "gloss": "by the expression beginning thus"},
+          {"pada": "viriñcadeḥ", "stem": "viriñci", "morphology": "abl sg masc", "gloss": "from Viriñci (Brahmā)"},
+          {"pada": "parimitānandam", "stem": "parimitānanda", "morphology": "acc sg masc", "gloss": "limited bliss"},
+          {"pada": "uktvā", "stem": "√vac", "morphology": "abs ger", "gloss": "having stated"},
+          {"pada": "yato", "stem": "yat", "morphology": "abl sg neut", "gloss": "from which"},
+          {"pada": "vācaḥ", "stem": "vāc", "morphology": "nom pl fem", "gloss": "words"},
+          {"pada": "nivartante", "stem": "ni-√vṛt", "morphology": "3pl pres ind Ā", "gloss": "turn back"},
+          {"pada": "iti", "stem": "iti", "morphology": "indecl", "gloss": "thus"},
+          {"pada": "ānandamayasya", "stem": "ānandamaya", "pratyaya": "mayaṭ", "morphology": "gen sg masc", "gloss": "of the ānandamaya"},
+          {"pada": "pūrṇānandatvokteḥ", "stem": "pūrṇānandatvokti", "morphology": "abl sg fem", "gloss": "because of the statement of full blisshood"},
+          {"pada": "iti", "stem": "iti", "morphology": "indecl", "gloss": "thus"},
+          {"pada": "bhāvaḥ", "stem": "bhāva", "morphology": "nom sg masc", "gloss": "the purport"}
+        ],
+        "samasa_vigrahas": [
+          {"compound": "bhedavyapadeśa", "type": "tatpurusha", "resolution": "bhedasya vyapadeśaḥ"},
+          {"compound": "parimitānanda", "type": "karmadharaya", "resolution": "parimita ānandaḥ"},
+          {"compound": "pūrṇānandatvokti", "type": "other", "resolution": "pūrṇasya ānandatvasya uktiḥ"}
+        ],
+        "karaka_structure": [
+          {"role": "kartṛ", "pada": "vācaḥ", "note": "The quoted words are the subject of nivartante."},
+          {"role": "apādāna", "pada": "yato", "note": "The source from which speech returns."},
+          {"role": "apādāna", "pada": "ānandamayāt", "note": "Difference is predicated from the ānandamaya."},
+          {"role": "apādāna", "pada": "viriñcadeḥ", "note": "The limited bliss belongs below the ānandamaya, not to it."}
+        ],
+        "verb_modality": [
+          {"pada": "vartate", "lakara": "laṭ", "pada_PA": "atmanepada", "voice": "middle"},
+          {"pada": "nivartante", "lakara": "laṭ", "pada_PA": "atmanepada", "voice": "middle"}
+        ]
+      },
+      "english_close": "\"Ānandamaya, not the other\": that is the construal. Because there is predication of difference from the ānandamaya, the ānandamaya is not the other. By the expression \"that is one joy of Brahman\" and the like, limited bliss is stated for Viriñci; by \"from which words turn back,\" full blisshood is stated of the ānandamaya: this is the purport.",
+      "english_paraphrase": "Rāghavendra reads the bliss-language of the Upaniṣads as marking a real hierarchy: Brahmā may possess joy, but the ānandamaya designates Viṣṇu's unsurpassed plenitude, not a lower deity or derivative self.",
+      "preserved_terms": [
+        {"term_iast": "ānandamaya", "first_use_gloss": "the \"bliss-full\" one of the Upaniṣadic passage"},
+        {"term_iast": "vyapadeśa", "first_use_gloss": "explicit predication or designation"},
+        {"term_iast": "Viriñci", "first_use_gloss": "Brahmā, the high but dependent creator deity"}
+      ],
+      "why_this_passage": "This is a representative Rāghavendra move because it shows him securing real hierarchy and real difference through close semantic reading of śruti. It is not merely a famous slogan: the argument turns on how bliss-language is distributed between Viṣṇu and dependent beings, which is central to late Mādhva ontology.",
+      "topic_tags": ["ontology", "epistemology"],
+      "sub_axes": ["status-of-personal-lord", "number-of-fundamental-existents"],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Rāghavendra Tīrtha, Tantra Dīpikā, ed. R. S. Panchamukhi (1964); transcribed from materials/primary_texts/sanskrit/vedanta/full_corpus/raghavendra_tantra_dipika_archive.pdf",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "tantra-dipika__susupti-utkranti-distinguish-jiva-and-isvara",
+      "work_id": "tantra-dipika",
+      "locus_short": "TD 1.3, suṣuptyutkrāntyor bhedena",
+      "locus_long": "Tantra-Dīpikā, adhyāya 1, pāda 3, discussion of the sūtra suṣuptyutkrāntyor bhedena",
+      "locus_structured": {
+        "chapter": 1,
+        "section": 3,
+        "other": {
+          "sutra": "suṣuptyutkrāntyor bhedena"
+        }
+      },
+      "sanskrit_iast": "na cābhedena sopapattiḥ |\n\"prājñenātmanā sampariṣvaktaḥ\" iti |\n\"prājñenātmanānvarūḍhaḥ\" iti ca |\nsuṣuptyutkrāntyor bhedena jīveśayor vyapadeśa iti paramparayā yojyam ||",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {"pada": "na", "stem": "na", "morphology": "indecl", "gloss": "not"},
+          {"pada": "ca", "stem": "ca", "morphology": "indecl", "gloss": "and"},
+          {"pada": "abhedena", "stem": "abheda", "morphology": "instr sg masc", "gloss": "by non-difference"},
+          {"pada": "sopapattiḥ", "stem": "sopapatti", "morphology": "nom sg fem", "gloss": "cogency / tenability"},
+          {"pada": "prājñena", "stem": "prājña", "morphology": "instr sg masc", "gloss": "by the Prājña"},
+          {"pada": "ātmanā", "stem": "ātman", "morphology": "instr sg masc", "gloss": "by the self"},
+          {"pada": "sampariṣvaktaḥ", "stem": "sampariṣvakta", "morphology": "nom sg masc ppp", "gloss": "embraced"},
+          {"pada": "iti", "stem": "iti", "morphology": "indecl", "gloss": "thus"},
+          {"pada": "prājñena", "stem": "prājña", "morphology": "instr sg masc", "gloss": "by the Prājña"},
+          {"pada": "ātmanā", "stem": "ātman", "morphology": "instr sg masc", "gloss": "by the self"},
+          {"pada": "anvarūḍhaḥ", "stem": "anvarūḍha", "morphology": "nom sg masc ppp", "gloss": "mounted upon / ascended to"},
+          {"pada": "iti", "stem": "iti", "morphology": "indecl", "gloss": "thus"},
+          {"pada": "ca", "stem": "ca", "morphology": "indecl", "gloss": "and"},
+          {"pada": "suṣuptyutkrāntyoḥ", "stem": "suṣuptyutkrānti", "morphology": "loc dual fem", "gloss": "in deep sleep and departure"},
+          {"pada": "bhedena", "stem": "bheda", "morphology": "instr sg masc", "gloss": "through difference"},
+          {"pada": "jīveśayoḥ", "stem": "jīveśa", "morphology": "gen dual masc", "gloss": "of the jīva and the Lord"},
+          {"pada": "vyapadeśaḥ", "stem": "vyapadeśa", "morphology": "nom sg masc", "gloss": "designation"},
+          {"pada": "iti", "stem": "iti", "morphology": "indecl", "gloss": "thus"},
+          {"pada": "paramparayā", "stem": "paramparā", "morphology": "instr sg fem", "gloss": "by sequential connection"},
+          {"pada": "yojyam", "stem": "yojya", "morphology": "nom sg neut gerundive", "gloss": "is to be connected"}
+        ],
+        "samasa_vigrahas": [
+          {"compound": "suṣuptyutkrānti", "type": "dvandva", "resolution": "suṣuptiś ca utkrāntiś ca"},
+          {"compound": "jīveśa", "type": "dvandva", "resolution": "jīvaś ca īśaś ca"},
+          {"compound": "sopapatti", "type": "other", "resolution": "sa-upapattiḥ", "note": "Used adverbially/predicatively as 'tenability'."}
+        ],
+        "karaka_structure": [
+          {"role": "karaṇa", "pada": "abhedena", "note": "Rejected explanatory instrument: non-difference does not account for the passage."},
+          {"role": "adhikaraṇa", "pada": "suṣuptyutkrāntyoḥ", "note": "The states in which the distinction is read."},
+          {"role": "sambandha", "pada": "jīveśayoḥ", "note": "The designation belongs to the pair jīva / Īśvara."},
+          {"role": "karaṇa", "pada": "paramparayā", "note": "The exegetical connection is sequential rather than by identity."}
+        ],
+        "verb_modality": []
+      },
+      "english_close": "And it is not tenable by non-difference. \"Embraced by the Prājña-self\" and \"mounted upon the Prājña-self\" too: thus, in deep sleep and in departure, there is designation of the jīva and the Lord as different; so the connection is to be made by sequential linkage.",
+      "english_paraphrase": "Rāghavendra insists that the deep-sleep and death-transition texts preserve dependence without identity: the self is related to the Lord, but not collapsed into him.",
+      "preserved_terms": [
+        {"term_iast": "suṣupti", "first_use_gloss": "dreamless deep sleep"},
+        {"term_iast": "utkrānti", "first_use_gloss": "the soul's departure at death"},
+        {"term_iast": "Prājña", "first_use_gloss": "the higher conscious principle invoked in the Upaniṣadic quotation"}
+      ],
+      "why_this_passage": "This compact exegetical move is representative because late Mādhva scholasticism repeatedly uses liminal states such as deep sleep and death to preserve asymmetrical dependence between jīva and Viṣṇu. It therefore displays Rāghavendra's ontology not as a bare assertion of difference, but as a disciplined reading of scriptural phenomenology.",
+      "topic_tags": ["ontology", "epistemology"],
+      "sub_axes": ["status-of-individual-selves", "jiva-brahman-relation", "status-of-anubhava"],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Rāghavendra Tīrtha, Tantra Dīpikā, ed. R. S. Panchamukhi (1964); transcribed from materials/primary_texts/sanskrit/vedanta/full_corpus/raghavendra_tantra_dipika_archive.pdf",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "tantra-dipika__mumuksu-knows-brahman-alone",
+      "work_id": "tantra-dipika",
+      "locus_short": "TD 1.4, jñeyatvavacanāc ca",
+      "locus_long": "Tantra-Dīpikā, adhyāya 1, pāda 4, discussion of the sūtra jñeyatvavacanāc ca",
+      "locus_structured": {
+        "chapter": 1,
+        "section": 4,
+        "other": {
+          "sutra": "jñeyatvavacanāc ca"
+        }
+      },
+      "sanskrit_iast": "brahmaṇa eva mumukṣu-jñeyatva-vacanād ānumānikāder jñeyatvāvacanāc cety arthaḥ |\n\"tam evaikaṃ jānathātmānam\" iti brahmaṇa eva mumukṣu-jñeyatva-vacanāt ||",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {"pada": "brahmaṇaḥ", "stem": "brahman", "morphology": "gen sg neut", "gloss": "of Brahman"},
+          {"pada": "eva", "stem": "eva", "morphology": "indecl", "gloss": "alone"},
+          {"pada": "mumukṣu-jñeyatva-vacanāt", "stem": "mumukṣu-jñeyatva-vacana", "morphology": "abl sg neut", "gloss": "because of the statement that it is to be known by the seeker of liberation"},
+          {"pada": "ānumānikādeḥ", "stem": "ānumānikādi", "morphology": "abl sg masc", "gloss": "from the inferential and the rest"},
+          {"pada": "jñeyatvāvacanāt", "stem": "jñeyatvāvacana", "morphology": "abl sg neut", "gloss": "because of the absence of any statement of knowability"},
+          {"pada": "ca", "stem": "ca", "morphology": "indecl", "gloss": "and"},
+          {"pada": "iti", "stem": "iti", "morphology": "indecl", "gloss": "thus"},
+          {"pada": "arthaḥ", "stem": "artha", "morphology": "nom sg masc", "gloss": "the meaning"},
+          {"pada": "tam", "stem": "tad", "morphology": "acc sg masc", "gloss": "that"},
+          {"pada": "eva", "stem": "eva", "morphology": "indecl", "gloss": "alone"},
+          {"pada": "ekam", "stem": "eka", "morphology": "acc sg masc", "gloss": "one"},
+          {"pada": "jānatha", "stem": "√jñā", "morphology": "2pl impv P", "gloss": "know"},
+          {"pada": "ātmānam", "stem": "ātman", "morphology": "acc sg masc", "gloss": "the self"},
+          {"pada": "iti", "stem": "iti", "morphology": "indecl", "gloss": "thus"},
+          {"pada": "brahmaṇaḥ", "stem": "brahman", "morphology": "gen sg neut", "gloss": "of Brahman"},
+          {"pada": "eva", "stem": "eva", "morphology": "indecl", "gloss": "alone"},
+          {"pada": "mumukṣu-jñeyatva-vacanāt", "stem": "mumukṣu-jñeyatva-vacana", "morphology": "abl sg neut", "gloss": "because of the statement that it is to be known by the seeker of liberation"}
+        ],
+        "samasa_vigrahas": [
+          {"compound": "mumukṣu-jñeyatva-vacana", "type": "other", "resolution": "mumukṣoḥ jñeyatvasya vacanam"},
+          {"compound": "ānumānikādi", "type": "dvandva", "resolution": "ānumānikaṃ cādi ca", "note": "A collective expression for inferentially posited entities and the like."},
+          {"compound": "jñeyatvāvacana", "type": "tatpurusha", "resolution": "jñeyatvasya avacanam"}
+        ],
+        "karaka_structure": [
+          {"role": "karman", "pada": "ātmānam", "note": "The quoted imperative commands knowledge of the self alone."},
+          {"role": "karman", "pada": "tam", "note": "Appositional accusative specifying the same object."},
+          {"role": "sambandha", "pada": "brahmaṇaḥ", "note": "The knowable belongs to Brahman alone, not to an inferential substitute."}
+        ],
+        "verb_modality": [
+          {"pada": "jānatha", "lakara": "loṭ", "pada_PA": "parasmaipada", "voice": "active"}
+        ]
+      },
+      "english_close": "The meaning is this: because there is a statement that Brahman alone is the knowable for the seeker of liberation, and because there is no statement of knowability for what is merely inferential and the like. \"Know that one Self alone\": because there is a statement that Brahman alone is to be known by the seeker of liberation.",
+      "english_paraphrase": "Liberating knowledge, on Rāghavendra's reading, must terminate in Brahman / Viṣṇu rather than in a merely inferred ultimate.",
+      "preserved_terms": [
+        {"term_iast": "mumukṣu", "first_use_gloss": "one who seeks liberation"},
+        {"term_iast": "jñeyatva", "first_use_gloss": "the status of being the proper object of knowledge"},
+        {"term_iast": "ānumānika", "first_use_gloss": "what is posited merely by inference"}
+      ],
+      "why_this_passage": "This is representative because Rāghavendra is not content to say that scripture is authoritative in the abstract; he specifies the liberating object of knowledge and excludes merely inferential ultimates from that role. That is a central late-Mādhva soteriological discipline, not a marginal scholastic nicety.",
+      "topic_tags": ["epistemology", "soteriology"],
+      "sub_axes": ["saving-cognition-status", "effective-means-of-moksa", "status-of-sruti"],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Rāghavendra Tīrtha, Tantra Dīpikā, ed. R. S. Panchamukhi (1964); transcribed from materials/primary_texts/sanskrit/vedanta/full_corpus/raghavendra_tantra_dipika_archive.pdf",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    }
+  ],
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1-cleanup-opus"
+  "last_verified_by": "wave2-codex"
 }

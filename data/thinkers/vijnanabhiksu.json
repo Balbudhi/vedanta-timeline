@@ -29,7 +29,10 @@
       "genre": "sutra-bhashya",
       "language": "sanskrit",
       "summary": "The *Vijñānāmṛta-Bhāṣya* is Vijñānabhikṣu's commentary on the *Brahma-Sūtras* and the school-defining text of *avibhāgādvaita*. The bhāṣya construes the *sūtras* as licensing a hierarchical ontology in which Sāṃkhya's *prakṛti–puruṣa* analysis is preparatory and partially valid, theistic Vedānta is fuller, and the *avibhāga* of Brahman, *cit*, and *acit* at *pralaya* and *mokṣa* is the limit-state. Polemically the work is sustained: Vijñānabhikṣu mounts a head-on critique of post-Śaṅkara *māyā-vāda*, which he diagnoses as a deviation from genuine Vedānta and as *pracchanna-bauddha*, while distinguishing his own non-dualism — non-separation as achieved limit-state — from Śaṅkara's identity-from-eternity. He also engages Rāmānuja and the *bhedābheda* lines, reading their positions as partial truths absorbed into the hierarchical synthesis. The bhāṣya is the principal source for *avibhāgādvaita* and the most ambitious early-modern Vedānta–Sāṃkhya–Yoga reconciliation.",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "vab-1-1-5__maya-means-prakrti",
+        "vab-2-3-43__jiva-as-brahman-part"
+      ],
       "entry_status": "reviewed"
     },
     {
@@ -45,7 +48,10 @@
       "genre": "varttika",
       "language": "sanskrit",
       "summary": "The *Yoga-Vārttika* is Vijñānabhikṣu's gloss on Vyāsa's *Yoga-Bhāṣya* on Patañjali's *Yoga-Sūtras*, and is paired with his shorter *Yoga-Sāra-Saṅgraha*. The works treat Patañjali's *Yoga-Darśana* as a serious *darśana* with its own technical contribution, particularly on *citta-vṛtti-nirodha*, *samādhi*, and *kaivalya*, while reading them within the hierarchical ontology developed in the *Vijñānāmṛta-Bhāṣya*. Vijñānabhikṣu defends the theistic reading of Patañjali — *Īśvara* as a special *puruṣa* contemplated in *Īśvara-praṇidhāna* — and uses the Yoga corpus to demonstrate that classical *darśanas* are stratified levels of one truth, with Vedānta crowning the hierarchy. The technical engagement with *kaivalya* in particular allows him to clarify *avibhāga* as ontological non-separation rather than mere isolation. The works are major early-modern contributions to the integrated Sāṃkhya–Yoga–Vedānta reading that defines Vijñānabhikṣu's project.",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "yv-1-23__pranidhana-as-samadhi-cultivation",
+        "yv-1-24__isvara-as-special-purusa"
+      ],
       "entry_status": "reviewed"
     },
     {
@@ -65,10 +71,737 @@
       "entry_status": "reviewed"
     }
   ],
-  "key_passages": [],
+  "key_passages": [
+    {
+      "passage_id": "vab-2-3-43__jiva-as-brahman-part",
+      "work_id": "vijnanamrta-bhasya",
+      "locus_short": "VĀB 2.3.43",
+      "locus_long": "Vijñānāmṛta-Bhāṣya on Brahma-Sūtra 2.3.43, on aṃśo nānāvyapadeśāt",
+      "locus_structured": {
+        "chapter": 2,
+        "section": 3,
+        "verse": 43
+      },
+      "sanskrit_iast": "aṃśo nānāvyapadeśād anyathā cāpi dāsakitavāditvam adhīyate eke //\nnityatvādinā sajātīyatvasyopapāditatayā jīvo brahmaṇo 'ṃśaḥ, pitur iva putraḥ //",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "aṃśaḥ",
+            "stem": "aṃśa",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "part"
+          },
+          {
+            "pada": "nānāvyapadeśāt",
+            "stem": "nānāvyapadeśa",
+            "pratyaya": "a",
+            "morphology": "abl sg masc",
+            "gloss": "from the predication of multiplicity"
+          },
+          {
+            "pada": "anyathā",
+            "stem": "anyathā",
+            "morphology": "indecl",
+            "gloss": "otherwise"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "api",
+            "stem": "api",
+            "morphology": "indecl",
+            "gloss": "also"
+          },
+          {
+            "pada": "dāsakitavāditvam",
+            "stem": "dāsakitavāditva",
+            "pratyaya": "tva",
+            "morphology": "nom sg neut",
+            "gloss": "the condition of being spoken of as servant, gambler, and the like"
+          },
+          {
+            "pada": "adhīyate",
+            "stem": "adhi-√i",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "is taught"
+          },
+          {
+            "pada": "eke",
+            "stem": "eka",
+            "pratyaya": "a",
+            "morphology": "nom pl masc",
+            "gloss": "some"
+          },
+          {
+            "pada": "nityatvādinā",
+            "stem": "nityatvādi",
+            "pratyaya": "a",
+            "morphology": "instr sg neut",
+            "gloss": "by eternity and the like"
+          },
+          {
+            "pada": "sajātīyatvasya",
+            "stem": "sajātīyatva",
+            "pratyaya": "tva",
+            "morphology": "gen sg neut",
+            "gloss": "of common nature"
+          },
+          {
+            "pada": "upapāditatayā",
+            "stem": "upapāditatā",
+            "pratyaya": "tā",
+            "morphology": "instr sg fem",
+            "gloss": "through having been established"
+          },
+          {
+            "pada": "jīvaḥ",
+            "stem": "jīva",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "the individual self"
+          },
+          {
+            "pada": "brahmaṇaḥ",
+            "stem": "brahman",
+            "morphology": "gen sg neut",
+            "gloss": "of Brahman"
+          },
+          {
+            "pada": "aṃśaḥ",
+            "stem": "aṃśa",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "a part"
+          },
+          {
+            "pada": "pituḥ",
+            "stem": "pitṛ",
+            "morphology": "gen sg masc",
+            "gloss": "of a father"
+          },
+          {
+            "pada": "iva",
+            "stem": "iva",
+            "morphology": "indecl",
+            "gloss": "like"
+          },
+          {
+            "pada": "putraḥ",
+            "stem": "putra",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "a son"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "nānāvyapadeśa",
+            "type": "tatpurusha",
+            "resolution": "nānā iti vyapadeśaḥ",
+            "note": "predication in many forms or as many"
+          },
+          {
+            "compound": "dāsakitavāditva",
+            "type": "other",
+            "resolution": "dāsaś ca kitavaś cādīni ca; teṣāṃ bhāvaḥ",
+            "note": "the state of being designated as servant, gambler, and so on"
+          },
+          {
+            "compound": "nityatvādi",
+            "type": "tatpurusha",
+            "resolution": "nityatvaṃ cādīni ca",
+            "note": "eternity and related predicates"
+          },
+          {
+            "compound": "sajātīyatva",
+            "type": "tatpurusha",
+            "resolution": "sajātīyasya bhāvaḥ",
+            "note": "having the same ontological kind"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "kartṛ",
+            "pada": "eke",
+            "note": "logical agent of the passive adhīyate"
+          },
+          {
+            "role": "karman",
+            "pada": "dāsakitavāditvam",
+            "note": "what is taught in some recensions"
+          },
+          {
+            "role": "sambandha",
+            "pada": "brahmaṇaḥ",
+            "note": "genitive relation with aṃśaḥ in the nominal predication"
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "adhīyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive",
+            "note": "present passive/middle in sūtra idiom"
+          }
+        ]
+      },
+      "english_close": "There is a part, because multiplicity is predicated, and because the condition of being servant, gambler, and so on is also taught by some. Since common nature is established by eternity and the like, the jīva is a part of Brahman, like a son of a father.",
+      "preserved_terms": [
+        {
+          "term_iast": "aṃśa",
+          "first_use_gloss": "part, or derivative share that remains linked to its source"
+        },
+        {
+          "term_iast": "sajātīyatva",
+          "first_use_gloss": "common nature or sameness of kind"
+        }
+      ],
+      "why_this_passage": "This is the place where Bhikṣu directly derives the jīva–Brahman relation from the Brahma-Sūtra as a genuine aṃśa–aṃśin relation. It fairly represents his ontology because it excludes both sheer identity and sheer separateness in favor of a structured non-separation with real differentiation.",
+      "topic_tags": [
+        "ontology"
+      ],
+      "sub_axes": [
+        "jiva-brahman-relation",
+        "status-of-individual-selves"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Vijñānāmṛta-Bhāṣya, Sanskrit edition (1979), ed. Kedāranātha Tripāṭhī; archive.org item vijnanamrtabhasya_1979; transcribed against materials/primary_texts/sanskrit/vedanta/full_corpus/vijnanabhiksu_vijnanamrta_bhasya_1979_archive.pdf.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "vab-1-1-5__maya-means-prakrti",
+      "work_id": "vijnanamrta-bhasya",
+      "locus_short": "VĀB 1.1.5",
+      "locus_long": "Vijñānāmṛta-Bhāṣya on Brahma-Sūtra 1.1.5, on īkṣater nāśabdam",
+      "locus_structured": {
+        "chapter": 1,
+        "section": 1,
+        "verse": 5
+      },
+      "sanskrit_iast": "tasmāt “māyāṃ tu prakṛtiṃ vidyān māyinaṃ tu maheśvaram /\nasyāvayavabhūtais tu vyāptaṃ sarvam idaṃ jagat //”\niti śrutau śrutyantara-smṛti-prasiddha-prakṛter eva māyāśabda-vācyatvaṃ vidhīyate iti.",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "tasmāt",
+            "stem": "tad",
+            "morphology": "indecl abl-adv",
+            "gloss": "therefore"
+          },
+          {
+            "pada": "māyām",
+            "stem": "māyā",
+            "pratyaya": "ā",
+            "morphology": "acc sg fem",
+            "gloss": "māyā"
+          },
+          {
+            "pada": "tu",
+            "stem": "tu",
+            "morphology": "indecl",
+            "gloss": "but"
+          },
+          {
+            "pada": "prakṛtim",
+            "stem": "prakṛti",
+            "pratyaya": "i",
+            "morphology": "acc sg fem",
+            "gloss": "prakṛti"
+          },
+          {
+            "pada": "vidyān",
+            "stem": "√vid",
+            "morphology": "3sg vidhi-liṅ P",
+            "gloss": "one should know"
+          },
+          {
+            "pada": "māyinam",
+            "stem": "māyin",
+            "morphology": "acc sg masc",
+            "gloss": "the possessor of māyā"
+          },
+          {
+            "pada": "tu",
+            "stem": "tu",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "maheśvaram",
+            "stem": "maheśvara",
+            "pratyaya": "a",
+            "morphology": "acc sg masc",
+            "gloss": "the Great Lord"
+          },
+          {
+            "pada": "asyāvayavabhūtaiḥ",
+            "stem": "asyāvayavabhūta",
+            "pratyaya": "a",
+            "morphology": "instr pl masc",
+            "gloss": "by what have become its constituent parts"
+          },
+          {
+            "pada": "tu",
+            "stem": "tu",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "vyāptam",
+            "stem": "vyāpta",
+            "pratyaya": "kta",
+            "morphology": "nom sg neut ppp",
+            "gloss": "pervaded"
+          },
+          {
+            "pada": "sarvam",
+            "stem": "sarva",
+            "pratyaya": "a",
+            "morphology": "nom sg neut",
+            "gloss": "all"
+          },
+          {
+            "pada": "idam",
+            "stem": "idam",
+            "morphology": "nom sg neut pron",
+            "gloss": "this"
+          },
+          {
+            "pada": "jagat",
+            "stem": "jagat",
+            "morphology": "nom sg neut",
+            "gloss": "world"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "śrutau",
+            "stem": "śruti",
+            "pratyaya": "i",
+            "morphology": "loc sg fem",
+            "gloss": "in the scripture"
+          },
+          {
+            "pada": "śrutyantara-smṛti-prasiddha-prakṛteḥ",
+            "stem": "śrutyantara-smṛti-prasiddha-prakṛti",
+            "pratyaya": "i",
+            "morphology": "gen sg fem",
+            "gloss": "of the prakṛti well known from other śruti and smṛti"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "māyāśabda-vācyatvam",
+            "stem": "māyāśabdavācyatva",
+            "pratyaya": "tva",
+            "morphology": "nom sg neut",
+            "gloss": "being what the word 'māyā' denotes"
+          },
+          {
+            "pada": "vidhīyate",
+            "stem": "vi-√dhā",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "is prescribed"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "maheśvara",
+            "type": "karmadharaya",
+            "resolution": "mahān īśvaraḥ",
+            "note": "the supreme lordly controller"
+          },
+          {
+            "compound": "asyāvayavabhūtaiḥ",
+            "type": "tatpurusha",
+            "resolution": "asya avayavā bhūtāḥ taiḥ",
+            "note": "those that have become constituent parts of it"
+          },
+          {
+            "compound": "śrutyantara-smṛti-prasiddha-prakṛti",
+            "type": "other",
+            "resolution": "śrutyantareṣu smṛtau ca prasiddhā prakṛtiḥ",
+            "note": "prakṛti known from other scriptural sources"
+          },
+          {
+            "compound": "māyāśabda-vācyatva",
+            "type": "tatpurusha",
+            "resolution": "māyāśabdena vācyatvam",
+            "note": "status of being denoted by the term māyā"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "karman",
+            "pada": "māyām",
+            "note": "primary object of vidyān"
+          },
+          {
+            "role": "karman",
+            "pada": "māyinam",
+            "note": "second accusative in the quoted injunction"
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "śrutau",
+            "note": "locus in which the prescription is found"
+          },
+          {
+            "role": "karman",
+            "pada": "māyāśabda-vācyatvam",
+            "note": "what is established by vidhīyate"
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "vidyān",
+            "lakara": "vidhi-liṅ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "surface sandhi for underlying vidyāt"
+          },
+          {
+            "pada": "vidhīyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive",
+            "note": "passive present: 'is enjoined/established'"
+          }
+        ]
+      },
+      "english_close": "Therefore, in the scriptural statement 'One should know māyā to be prakṛti, and the possessor of māyā to be the Great Lord; by what have become its constituent parts this whole world is pervaded,' it is prescribed that it is precisely the prakṛti known from other śruti and smṛti that is denoted by the word 'māyā.'",
+      "preserved_terms": [
+        {
+          "term_iast": "prakṛti",
+          "first_use_gloss": "primordial material matrix, the transforming causal power"
+        },
+        {
+          "term_iast": "māyin",
+          "first_use_gloss": "the possessor or wielder of māyā"
+        }
+      ],
+      "why_this_passage": "This is a representative doctrinal passage because Bhikṣu here explicitly identifies māyā with prakṛti rather than treating it as a purely epistemic avidyā. That move is central to his synthesis of Vedānta with Sāṃkhya-Yoga and to his account of how Brahman, Lord, and cosmological causation fit together.",
+      "topic_tags": [
+        "causation",
+        "ontology"
+      ],
+      "sub_axes": [
+        "where-causal-power-locates",
+        "locus-of-avidya"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Vijñānāmṛta-Bhāṣya, Sanskrit edition (1979), ed. Kedāranātha Tripāṭhī; archive.org item vijnanamrtabhasya_1979; transcribed against materials/primary_texts/sanskrit/vedanta/full_corpus/vijnanabhiksu_vijnanamrta_bhasya_1979_archive.pdf.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "yv-1-23__pranidhana-as-samadhi-cultivation",
+      "work_id": "yoga-varttika",
+      "locus_short": "YV 1.23",
+      "locus_long": "Yoga-Vārttika on Yoga-Sūtra 1.23, on īśvara-praṇidhānād vā",
+      "locus_structured": {
+        "chapter": 1,
+        "verse": 23
+      },
+      "sanskrit_iast": "īśvara-praṇidhānād vā //\npraṇidhānam atra na dvitīya-pādavad japyaprāyaṃ, kiṃ tv asaṃprajñāta-kāraṇībhūta-samādhi-bhāvanā-viśeṣam eva //",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "īśvara-praṇidhānāt",
+            "stem": "īśvarapraṇidhāna",
+            "pratyaya": "a",
+            "morphology": "abl sg neut",
+            "gloss": "from devotion-directing of oneself to the Lord"
+          },
+          {
+            "pada": "vā",
+            "stem": "vā",
+            "morphology": "indecl",
+            "gloss": "or"
+          },
+          {
+            "pada": "praṇidhānam",
+            "stem": "praṇidhāna",
+            "pratyaya": "a",
+            "morphology": "nom sg neut",
+            "gloss": "praṇidhāna, devoted directing"
+          },
+          {
+            "pada": "atra",
+            "stem": "atra",
+            "morphology": "indecl",
+            "gloss": "here"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "dvitīya-pādavat",
+            "stem": "dvitīyapādavat",
+            "morphology": "indecl",
+            "gloss": "as in the second pāda"
+          },
+          {
+            "pada": "japyaprāyam",
+            "stem": "japyaprāya",
+            "pratyaya": "a",
+            "morphology": "nom sg neut",
+            "gloss": "consisting chiefly in muttered recitation"
+          },
+          {
+            "pada": "kiṃ",
+            "stem": "kim",
+            "morphology": "indecl",
+            "gloss": "but rather"
+          },
+          {
+            "pada": "tu",
+            "stem": "tu",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "asaṃprajñāta-kāraṇībhūta-samādhi-bhāvanā-viśeṣam",
+            "stem": "asaṃprajñātakāraṇībhūtasamādhibhāvanāviśeṣa",
+            "pratyaya": "a",
+            "morphology": "nom sg neut",
+            "gloss": "a particular cultivation of samādhi that becomes the cause of asaṃprajñāta"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "precisely"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "īśvara-praṇidhāna",
+            "type": "tatpurusha",
+            "resolution": "īśvare praṇidhānam",
+            "note": "dedicatory orientation toward the Lord"
+          },
+          {
+            "compound": "dvitīya-pāda",
+            "type": "tatpurusha",
+            "resolution": "dvitīyaḥ pādaḥ",
+            "note": "the second chapter/section"
+          },
+          {
+            "compound": "japyaprāya",
+            "type": "karmadharaya",
+            "resolution": "japyaḥ prāyaḥ yasya tat",
+            "note": "chiefly characterized by japa"
+          },
+          {
+            "compound": "asaṃprajñāta-kāraṇībhūta-samādhi-bhāvanā-viśeṣa",
+            "type": "other",
+            "resolution": "asaṃprajñātasya kāraṇībhūtā samādheḥ bhāvanā; tasyā viśeṣaḥ",
+            "note": "a specialized contemplation productive of the higher samādhi"
+          }
+        ],
+        "karaka_structure": [],
+        "verb_modality": []
+      },
+      "english_close": "Or from devotion-directing oneself to the Lord. Here praṇidhāna is not, as in the second pāda, something consisting chiefly in muttered recitation; rather it is precisely a particular cultivation of samādhi that becomes the cause of asaṃprajñāta [samādhi].",
+      "preserved_terms": [
+        {
+          "term_iast": "praṇidhāna",
+          "first_use_gloss": "deliberate placing of oneself toward an object of total commitment"
+        },
+        {
+          "term_iast": "asaṃprajñāta",
+          "first_use_gloss": "the non-discursive or seedless form of samādhi"
+        },
+        {
+          "term_iast": "samādhi",
+          "first_use_gloss": "absorptive concentration in which the mind is brought to one-pointed stillness"
+        }
+      ],
+      "why_this_passage": "This is a fair selection because Bhikṣu here states exactly how he reads a classical Yoga sūtra within his larger synthesis: īśvara-praṇidhāna is a serious contemplative means to the highest samādhi, not a merely external devotional add-on. The passage captures his effort to keep Yoga technically rigorous while still explicitly theistic.",
+      "topic_tags": [
+        "soteriology",
+        "ethics-devotion"
+      ],
+      "sub_axes": [
+        "effective-means-of-moksa",
+        "role-of-bhakti"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Yoga-Vārttika, 1884 Sanskrit edition prepared by Rāmakṛṣṇaśāstrī Paṭavardhana and Keśavaśāstrī; archive.org item VijnanabhiksuYogavarttika1884; transcribed against materials/primary_texts/sanskrit/vedanta/full_corpus/vijnanabhiksu_yoga_varttika_1884_archive.pdf.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "yv-1-24__isvara-as-special-purusa",
+      "work_id": "yoga-varttika",
+      "locus_short": "YV 1.24",
+      "locus_long": "Yoga-Vārttika on Yoga-Sūtra 1.24, on kleśa-karma-vipākāśayair aparāmṛṣṭaḥ",
+      "locus_structured": {
+        "chapter": 1,
+        "verse": 24
+      },
+      "sanskrit_iast": "kleśa-karma-vipākāśayair aparāmṛṣṭaḥ puruṣa-viśeṣa īśvaraḥ //\navidyā-asmitā-rāga-dveṣābhiniveśāḥ kleśā iti vakṣyate //",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "kleśa-karma-vipākāśayaiḥ",
+            "stem": "kleśakarmavipākāśaya",
+            "pratyaya": "a",
+            "morphology": "instr pl masc",
+            "gloss": "by afflictions, actions, ripenings, and latent deposits"
+          },
+          {
+            "pada": "aparāmṛṣṭaḥ",
+            "stem": "aparāmṛṣṭa",
+            "pratyaya": "kta",
+            "morphology": "nom sg masc ppp",
+            "gloss": "untouched"
+          },
+          {
+            "pada": "puruṣa-viśeṣaḥ",
+            "stem": "puruṣaviśeṣa",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "a special puruṣa"
+          },
+          {
+            "pada": "īśvaraḥ",
+            "stem": "īśvara",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "the Lord"
+          },
+          {
+            "pada": "avidyā-asmitā-rāga-dveṣābhiniveśāḥ",
+            "stem": "avidyāsmitārāgadveṣābhiniveśa",
+            "pratyaya": "a",
+            "morphology": "nom pl masc",
+            "gloss": "ignorance, egoity, attachment, aversion, and clinging-to-life"
+          },
+          {
+            "pada": "kleśāḥ",
+            "stem": "kleśa",
+            "pratyaya": "a",
+            "morphology": "nom pl masc",
+            "gloss": "afflictions"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "vakṣyate",
+            "stem": "√vac",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "will be stated"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "kleśa-karma-vipākāśaya",
+            "type": "dvandva",
+            "resolution": "kleśāś ca karmāṇi ca vipākāśayāś ca",
+            "note": "a chain of the bondage-producing factors"
+          },
+          {
+            "compound": "aparāmṛṣṭa",
+            "type": "negative-tatpurusha",
+            "resolution": "na parāmṛṣṭaḥ",
+            "note": "not touched or affected"
+          },
+          {
+            "compound": "puruṣa-viśeṣa",
+            "type": "tatpurusha",
+            "resolution": "puruṣāṇāṃ viśeṣaḥ",
+            "note": "a distinct class or type of puruṣa"
+          },
+          {
+            "compound": "avidyā-asmitā-rāga-dveṣābhiniveśa",
+            "type": "dvandva",
+            "resolution": "avidyā cāsmitā ca rāgaś ca dveṣaś cābhiniveśaś ca",
+            "note": "the five standard kleśas"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "karaṇa",
+            "pada": "kleśa-karma-vipākāśayaiḥ",
+            "note": "instrumental of that by which Īśvara is not touched"
+          },
+          {
+            "role": "karman",
+            "pada": "kleśāḥ",
+            "note": "predicate content later to be defined by vakṣyate"
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "vakṣyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive",
+            "note": "future sense is contextual; formally present passive in commentarial idiom"
+          }
+        ]
+      },
+      "english_close": "Īśvara is a special puruṣa untouched by afflictions, actions, their ripenings, and latent deposits. 'Afflictions' are said to be ignorance, egoity, attachment, aversion, and clinging-to-life.",
+      "preserved_terms": [
+        {
+          "term_iast": "puruṣa",
+          "first_use_gloss": "conscious self or subject-principle"
+        },
+        {
+          "term_iast": "kleśa",
+          "first_use_gloss": "afflictive factor that binds cognition and action"
+        }
+      ],
+      "why_this_passage": "This is representative because Bhikṣu's theistic Yoga depends on reading Īśvara as neither reducible to ordinary bound selves nor detachable from the puruṣa framework inherited from Sāṃkhya-Yoga. The passage gives his compact doctrinal definition of the personal Lord and immediately anchors it in the standard kleśa-analysis.",
+      "topic_tags": [
+        "ontology",
+        "ethics-devotion"
+      ],
+      "sub_axes": [
+        "status-of-personal-lord"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Yoga-Vārttika, 1884 Sanskrit edition prepared by Rāmakṛṣṇaśāstrī Paṭavardhana and Keśavaśāstrī; archive.org item VijnanabhiksuYogavarttika1884; transcribed against materials/primary_texts/sanskrit/vedanta/full_corpus/vijnanabhiksu_yoga_varttika_1884_archive.pdf.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    }
+  ],
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1e-opus"
+  "last_verified_by": "wave2-codex"
 }
