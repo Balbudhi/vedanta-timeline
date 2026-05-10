@@ -17,7 +17,13 @@
     "bhatta-kallata"
   ],
   "lineage_out": [],
-  "lineage_polemical": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "malini-vijaya-tantra",
+      "direction": "mutual",
+      "note": "Kṣemarāja's Pratyabhijñā-Hṛdaya and Spanda-Nirṇaya rest on the Bhairava-tantra scriptural ground that the Mālinī-Vijaya-Tantra anchors; the Mālinī-Vijaya is one of the source-tantras Kṣemarāja's compact summaries presuppose, and his Svacchanda-Tantra-Uddyota develops the wider Bhairava-tantra reading."
+    }
+  ],
   "core_thesis": "Non-Vedāntin comparator (non-dual Śaiva, Trika/Pratyabhijñā). Kṣemarāja, the direct disciple of Abhinavagupta, is the great consolidator and pedagogue of the Trika synthesis: he distills the *Pratyabhijñā* and *Spanda* traditions into compact, teaching-grade texts whose structure has shaped how the school is read ever since. The single reality is *Cit* — Śiva-as-consciousness — possessed of *svātantrya* (*Pratyabhijñā-Hṛdaya* sūtra 1, *citiḥ svatantrā viśvasiddhi-hetuḥ*); the universe is its own free *unmeṣa* (unfolding), and *spanda* is the unbroken pulsation by which manifestation as a whole occurs — not a single *guṇa*, but the dynamism of *prakṛti* / *mahāmāyā*-scale taken as Śiva's own pulse (*Spanda-Nirṇaya* on *Spanda-Kārikā* 1.1, *yasyonmeṣa-nimeṣābhyāṃ jagataḥ pralayodayau*). The signature architecture is *Pratyabhijñā-Hṛdaya* sūtra 4: *cit eva … saṃkucita-citta-rūpā* — \"consciousness *itself*, by its own *svātantrya*, contracts itself into the limited subject (*cetana*)\" (*PH* sūtra 4 with auto-*vṛtti*). Bondage is therefore Śiva's voluntary self-contraction, never an external imposition (*PH* sūtras 5–9); liberation is the recognition (*pratyabhijñā*) of one's own consciousness as that very self-contracting Śiva (*PH* sūtras 13–18). The pedagogical aim is to make this recognition operative in a single concentrated reading (*PH* preamble; *Śiva-Sūtra-Vimarśinī* on *ŚS* 1.1 *caitanyam ātmā*).",
   "engaged_works": [
     {

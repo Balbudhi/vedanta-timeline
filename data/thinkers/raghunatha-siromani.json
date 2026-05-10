@@ -13,7 +13,13 @@
   "sub_school_shade": 4,
   "lineage_in": ["gangesa"],
   "lineage_out": [],
-  "lineage_polemical": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "yashovijaya",
+      "direction": "mutual",
+      "note": "Yaśovijaya engages the Padārtha-Tattva-Nirūpaṇa's reduction of the Vaiśeṣika categories from seven to three; the Jaina-Tarka-Bhāṣā discusses the reduction in light of the Jaina dravya-paryāya analysis, and the methodological convergence on category-reduction is itself a significant cross-tradition moment."
+    }
+  ],
   "core_thesis": "Raghunātha Śiromaṇi is the figure in whom Navya-Nyāya passes from Mithilā to Navadvīpa and acquires its mature scholastic form. Two contributions are systemic. First, the *Tattva-Cintāmaṇi-Dīdhiti* sub-commentates Gaṅgeśa with a precision and concision that becomes the standard Navadvīpa reading: every Gaṅgeśa definition is re-examined, the *Vyāpti-Pañcaka* analysis is refined further (in *Dīdhiti* on *Tattva-Cintāmaṇi*, *Anumāna-Khaṇḍa*, *vyāpti-pañcaka-prakaraṇa*), and the *avacchedaka*-machinery is tightened to handle cases Gaṅgeśa had left to commentarial discretion. The *Dīdhiti* is the form in which the *Cintāmaṇi* is read in the Navadvīpa pāṭhaśālās and in which it propagates into Bengal Vaiṣṇava and Mithilā Mādhva scholasticism. Second, the *Padārtha-Tattva-Nirūpaṇa* — an independent treatise on Vaiśeṣika ontology — reduces the canonical seven *padārthas* (*dravya*, *guṇa*, *karma*, *sāmānya*, *viśeṣa*, *samavāya*, *abhāva*; cf. Praśastapāda's *Padārtha-Dharma-Saṅgraha*) to three. Raghunātha argues (*Padārtha-Tattva-Nirūpaṇa*, *sāmānya-* and *viśeṣa-nirūpaṇa* sections) that *sāmānya* (universal) and *viśeṣa* (individuator) collapse into *svarūpa* (intrinsic nature) once Navya-Nyāya analysis of *avacchedaka* is taken seriously, and (in the *samavāya-nirūpaṇa* section) that *samavāya* (inherence) is a single-relation simplifying-postulate that ordinary cognitive practice does not require. The reduction is the most radical Navya-Nyāya intervention into Vaiśeṣika ontology and is the precedent the school continues to debate. For Vedānta the *Dīdhiti* matters because it is the form in which Navya-Nyāya enters the late-medieval Bengali Vaiṣṇava (Jīva Gosvāmī's *Sandarbhas*, Baladeva's *Govinda-Bhāṣya*) and Advaitin (Madhusūdana's *Advaita-Siddhi*, Brahmānanda's *Laghu-Candrikā*) scholastic apparatus.",
   "engaged_works": [
     {

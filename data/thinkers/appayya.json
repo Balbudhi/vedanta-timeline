@@ -26,7 +26,18 @@
     "vacaspati"
   ],
   "lineage_out": [],
-  "lineage_polemical": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "basava",
+      "direction": "refutes",
+      "note": "Appayya's Śivārka-Maṇi-Dīpikā engages the wider Śaiva tradition (Śaiva-Siddhānta and the Vīraśaiva movement) from a Smārta-Advaita-Śaiva position; the engagement with Vīraśaiva is partial but significant — Appayya treats the iṣṭa-liṅga theology as a popular-Śaiva variant whose metaphysical commitments deserve doctrinal scrutiny."
+    },
+    {
+      "thinker_id": "yashovijaya",
+      "direction": "refutes",
+      "note": "The seventeenth-century Vedāntic Navya-Nyāya commentaries take the developed Jaina-Navya-Nyāya position Yaśovijaya systematises as their target; the engagement is indirect (Appayya does not cite Yaśovijaya by name) but the school-level engagement runs through this Jaina-Navya-Nyāya stratum."
+    }
+  ],
   "core_thesis": "Appayya Dīkṣita is the great trans-school Advaita synthesist of the late sixteenth century. In the *Parimala* sub-commentary he writes as a *Bhāmatī*-line Advaitin; in the *Śivārka-Maṇi-Dīpikā* as a Śiva-Advaitin within Śrīkaṇṭha's framework; in the *Siddhānta-Leśa-Saṅgraha* as the canonical doxographer of intra-Advaita disagreement, cataloguing twenty-eight Advaitic disputes without forced reconciliation (*Siddhānta-Leśa-Saṅgraha*, prathama-paricheda through caturtha-paricheda). His distinctive contribution is methodological. Intra-Advaita differences — *Bhāmatī* vs. Vivaraṇa on the locus of *avidyā* (*Siddhānta-Leśa-Saṅgraha* prathama-paricheda, *avidyā-āśraya-vicāra*), *avaccheda-* vs. *pratibimba-vāda* (*Siddhānta-Leśa-Saṅgraha* prathama-paricheda, *jīva-svarūpa-vicāra*), the alternative analyses of the Mahāvākya's mode of operation (*Siddhānta-Leśa-Saṅgraha* dvitīya-paricheda, *vākyārtha-vicāra*) — are treated not as defects to be ironed out but as legitimate *prakriyā*-level alternatives within a single *siddhānta*. His prolific output, traditionally numbered at 104 works across six *darśanas* and reaching into Śaiva-Vedānta, Pūrva-Mīmāṃsā, Alaṅkāra-śāstra, and devotional poetics, earns him the epithet *Sarva-Tantra-Svatantra*. He is the single most important late-medieval source for the structured comparative reading of competing Advaita sub-positions.",
   "engaged_works": [
     {
