@@ -1385,10 +1385,12 @@ function setReadingMode(on) {
     openThinker(sorted[0].id);
   }
 }
-readingModeBtn.addEventListener("click", () => {
-  const on = !document.body.classList.contains("is-reading-mode");
-  setReadingMode(on);
-});
+if (readingModeBtn) {
+  readingModeBtn.addEventListener("click", () => {
+    const on = !document.body.classList.contains("is-reading-mode");
+    setReadingMode(on);
+  });
+}
 
 // ---------- view toggle (Lanes / Network) -----------
 function wireViewToggle() {
