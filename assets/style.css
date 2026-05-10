@@ -2225,3 +2225,247 @@ body.view-network .lineage-edge { stroke-width: 1.1px; }
   .network-legend-toggle { padding: 6px 10px; font-size: 11px; }
   .network-legend-list { padding: 2px 8px 8px; }
 }
+
+/* =============================================================
+   Translation tab — reading-first render. Each verse card shows
+   the default-language translation prominently, IAST and
+   (optionally) Devanāgarī muted underneath, and hides the
+   word-by-word + samāsa-vigraha + kāraka + verbal-modality
+   apparatus behind a single disclosure. The Note stays inline
+   as a subtle italic aside. The data layer is multilingual-
+   ready: future Hindi/Bengali/Tamil/etc. files will use the
+   same default-language slot.
+   ============================================================= */
+
+.dp-translation-body .tx-coverage {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 0 0 28px;
+  padding: 12px 14px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: var(--bg-warm);
+  font-family: var(--sans);
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+.dp-translation-body .tx-coverage-tag {
+  flex-shrink: 0;
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 2px;
+  background: var(--bg-warmer);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.dp-translation-body .tx-coverage-full .tx-coverage-tag { color: #2f6f3a; background: #ecf5ee; }
+.dp-translation-body .tx-coverage-selection .tx-coverage-tag { color: #7a5500; background: #fbf1d9; }
+.dp-translation-body .tx-coverage-placeholder .tx-coverage-tag { color: #803333; background: #f7e6e2; }
+.dp-translation-body .tx-coverage em { font-style: italic; color: var(--ink); }
+.dp-translation-body .tx-coverage-source {
+  flex-shrink: 0;
+  margin-left: auto;
+  background: transparent;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 4px 10px;
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--muted);
+  cursor: pointer;
+}
+.dp-translation-body .tx-coverage-source:hover { color: var(--ink); border-color: var(--muted-soft); }
+
+.dp-translation-body .tx-preamble {
+  margin: 0 0 32px;
+  color: var(--ink-soft);
+}
+
+.dp-translation-body .tx-verse {
+  margin: 0 0 38px;
+  padding: 0;
+}
+.dp-translation-body .tx-verse + .tx-verse {
+  border-top: 1px solid var(--hairline);
+  padding-top: 28px;
+}
+.dp-translation-body .tx-verse-head {
+  margin: 0 0 10px;
+}
+.dp-translation-body .tx-locus {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* Default-language translation: the primary readable surface. */
+.dp-translation-body .tx-default-lang {
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--ink);
+  margin: 0 0 14px;
+}
+.dp-translation-body .tx-default-lang p { margin: 0 0 10px; }
+.dp-translation-body .tx-default-lang p:last-child { margin-bottom: 0; }
+.dp-translation-body .tx-default-lang blockquote {
+  border-left: 2px solid var(--rule);
+  padding-left: 14px;
+  margin: 0 0 10px;
+  font-style: normal;
+  color: var(--ink);
+}
+
+/* IAST: secondary, italic, slightly muted. */
+.dp-translation-body .tx-iast {
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin: 0 0 8px;
+}
+.dp-translation-body .tx-iast blockquote {
+  border-left: 2px solid var(--rule-warm);
+  padding-left: 14px;
+  margin: 0;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+/* Devanāgarī: secondary, regular weight. */
+.dp-translation-body .tx-devanagari {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--ink-soft);
+  margin: 0 0 8px;
+}
+.dp-translation-body .tx-devanagari blockquote {
+  border-left: 2px solid var(--rule-warm);
+  padding-left: 14px;
+  margin: 0;
+  font-style: normal;
+  color: var(--ink-soft);
+}
+
+/* Note: subtle italic aside, inline with the reading flow. */
+.dp-translation-body .tx-note {
+  margin: 14px 0 0;
+  padding: 0 0 0 14px;
+  border-left: 2px solid var(--hairline);
+  font-style: italic;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+.dp-translation-body .tx-note p { margin: 0 0 6px; }
+.dp-translation-body .tx-note p:last-child { margin-bottom: 0; }
+
+/* Grammar disclosure: collapsed by default, expands inline. */
+.dp-translation-body .tx-grammar {
+  margin: 14px 0 0;
+  border: none;
+  padding: 0;
+}
+.dp-translation-body .tx-grammar > summary {
+  list-style: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px 4px 6px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: var(--bg-warm);
+  font-family: var(--sans);
+  font-size: 11.5px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  user-select: none;
+}
+.dp-translation-body .tx-grammar > summary:hover {
+  color: var(--ink);
+  border-color: var(--muted-soft);
+}
+.dp-translation-body .tx-grammar > summary::-webkit-details-marker { display: none; }
+.dp-translation-body .tx-grammar-caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 4px solid currentColor;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  transition: transform 160ms ease;
+}
+.dp-translation-body .tx-grammar[open] > summary .tx-grammar-caret {
+  transform: rotate(90deg);
+}
+.dp-translation-body .tx-grammar-body {
+  margin-top: 14px;
+  padding: 14px 16px 6px;
+  background: var(--bg-warm);
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+}
+.dp-translation-body .tx-morph-block {
+  margin: 0 0 14px;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+.dp-translation-body .tx-morph-block:last-child { margin-bottom: 0; }
+.dp-translation-body .tx-morph-label {
+  font-family: var(--sans);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 4px;
+}
+.dp-translation-body .tx-morph-sub {
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  color: var(--muted-soft);
+  font-style: italic;
+}
+.dp-translation-body .tx-morph-block ul {
+  margin: 4px 0 0;
+  padding-left: 20px;
+}
+.dp-translation-body .tx-morph-block li {
+  margin: 2px 0;
+}
+.dp-translation-body .tx-morph-block table {
+  margin: 4px 0 0;
+  font-size: 12.5px;
+}
+.dp-translation-body .tx-morph-block table th,
+.dp-translation-body .tx-morph-block table td {
+  padding: 4px 10px;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.dp-translation-body .tx-trailing {
+  margin-top: 36px;
+  padding-top: 24px;
+  border-top: 1px solid var(--rule);
+  color: var(--ink-soft);
+}
+
+@media (max-width: 720px) {
+  .dp-translation-body .tx-default-lang { font-size: 17px; }
+  .dp-translation-body .tx-coverage { font-size: 12.5px; padding: 10px 12px; }
+  .dp-translation-body .tx-coverage-source { margin-left: 0; margin-top: 4px; }
+  .dp-translation-body .tx-grammar-body { padding: 12px 12px 4px; }
+}
+
