@@ -1,0 +1,123 @@
+{
+  "id": "vasubandhu",
+  "name": "Vasubandhu",
+  "name_iast": "Vasubandhu",
+  "alternate_names": ["Dbyig-gnyen"],
+  "dates_low": 350,
+  "dates_high": 430,
+  "dates_tier": "contested",
+  "dates_notes": "Vasubandhu's dates are doubly contested. The traditional ascription identifies one Vasubandhu as the author of both the Sarvāstivāda Abhidharma-Kośa-Bhāṣya and the Yogācāra Triṃśikā / Viṃśatikā / Trisvabhāva-Nirdeśa. Frauwallner (On the Date of the Buddhist Master of the Law Vasubandhu, 1951) proposed two distinct Vasubandhus separated by about a century to resolve apparent inconsistencies. Schmithausen and most subsequent scholarship (Anacker 1984; Gold 2015) defend a single fourth-to-fifth-century Vasubandhu who underwent a doctrinal shift from Sarvāstivāda Vaibhāṣika to Yogācāra under Asaṅga's influence. The c. 350–430 CE window covers either reconstruction.",
+  "school": "Cross-tradition",
+  "school_color_token": "yogacara-comparator",
+  "sub_school": "Sākāra-vijñānavāda",
+  "sub_school_shade": 4,
+  "lineage_in": ["asanga"],
+  "lineage_out": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "bhaviveka",
+      "direction": "is-refuted-by",
+      "note": "Bhāviveka's Madhyamaka-Hṛdaya chapter 5 engages Vasubandhu's Triṃśikā specifically: vijñapti-mātratā is rejected as substituting cognition-realism for the external-object realism it had refuted."
+    },
+    {
+      "thinker_id": "badarayana",
+      "direction": "is-refuted-by",
+      "note": "Brahma-Sūtra 2.2.28–32 mounts the canonical Vedāntic refutation of the vijñāna-vāda; the Triṃśikā / Viṃśatikā arguments stand within the targeted Buddhist positions."
+    },
+    {
+      "thinker_id": "sankara",
+      "direction": "is-refuted-by",
+      "note": "Brahma-Sūtra-Bhāṣya 2.2.28–32 develops the Vedāntic refutation of vijñāna-vāda specifically: the bāhyārtha-vāda objection presses that the very arising of the cognition 'this is a pillar' presupposes a referent extra-cognitive enough to ground the cognition's content. Śaṅkara reads the Vasubandhu position as the most sophisticated form of the vijñāna-only thesis to be answered."
+    },
+    {
+      "thinker_id": "yamuna",
+      "direction": "is-refuted-by",
+      "note": "Yāmuna's Saṃvit-Siddhi mounts the principal Viśiṣṭādvaita refutation of Yogācāra: the very thesis of vijñapti-mātra requires that cognition be self-luminous, but cognition's content must point beyond itself, and the bāhya-artha is therefore a presupposition of the very position that denies it. Yāmuna reads Vasubandhu's Viṃśatikā as the canonical statement of the position to be refuted."
+    }
+  ],
+  "core_thesis": "Vasubandhu develops the Yogācāra position to its mature philosophical form. The *Triṃśikā* (thirty verses) compresses the *trisvabhāva* analysis into the canonical statement: cognition transforms (*vijñāna-pariṇāma*) in three modes — as *ālaya-vijñāna* (the storehouse-substrate carrying *vāsanā*), as *manas* (the self-grasping seventh consciousness that takes the *ālaya* as its referent), and as the six sense-consciousnesses (the manifest cognitive flow). The *parikalpita* (subject-object duality) is a falsification superimposed on the *paratantra* (the cognitive flow itself); the *pariniṣpanna* is the *paratantra* purified of the *parikalpita*. The *Viṃśatikā* (twenty verses with auto-commentary) supplies the dialectical defence: the standard objections to *vijñapti-mātratā* (that without external objects we cannot account for spatio-temporal regularity, intersubjective agreement, the determinate efficacy of cognition, or the dream / waking distinction) are answered seriatim by appeal to the structuring effect of *vāsanā* and the karmic shaping of cognitive flow. The *Trisvabhāva-Nirdeśa* gives the most compressed account of the three natures. The earlier *Abhidharma-Kośa-Bhāṣya* — the Sarvāstivāda manual — is the encyclopedic *abhidharma* compendium that becomes the standard scholastic reference for Buddhist *abhidharma* across schools, including for those (like Bhāviveka and the Vedāntins) who reject its Sarvāstivāda commitments.",
+  "engaged_works": [
+    {
+      "work_id": "abhidharma-kosa-bhasya",
+      "title": "Abhidharma-Kosa-Bhasya",
+      "title_iast": "Abhidharma-Kośa-Bhāṣya",
+      "alternate_titles": ["AKBh", "Kośa"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Sarvāstivāda manual with Vasubandhu's own auto-commentary; the standard Sanskrit Abhidharma reference text.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Pradhan 1967 critical edition; standard transmission in Sanskrit, Tibetan, and Chinese."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Vasubandhu's encyclopedic Sarvāstivāda *abhidharma* manual in nine *kośa*s (chapters), with auto-commentary providing critical engagement with Sautrāntika alternatives at each step. The chapters cover *dhātu* (the elemental categories), *indriya* (the faculties), *loka* (cosmology), *karma* (action and its result), *anuśaya* (the underlying afflictions), *mārga-pudgala* (path and the person on it), *jñāna* (knowledge), and *samāpatti* (meditative attainments); a final ninth chapter (*Pudgala-Pratiṣedha*) refutes the Vātsīputrīya doctrine of the *pudgala*. The text becomes the standard scholastic *abhidharma* reference for both the Sarvāstivāda and (paradoxically, given Vasubandhu's later Yogācāra turn) for many Mahāyāna scholastics. The auto-commentary's frequent endorsement of Sautrāntika-style critiques over the Vaibhāṣika orthodoxy made the text controversial in its own day and prompted the rival *Nyāya-Anusāra* by Saṅghabhadra. The transition between the *Kośa* and the Yogācāra works is the textual locus of the one-versus-two-Vasubandhus question.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "trimshika",
+      "title": "Trimshika",
+      "title_iast": "Triṃśikā",
+      "alternate_titles": ["Triṃśikā-Vijñapti-Kārikā"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored. The base verses survive in Sanskrit; Sthiramati's bhāṣya is the principal commentary.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Lévi 1925 critical edition with Sthiramati's bhāṣya."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Thirty verses compressing the mature Yogācāra position into its most quoted statement. Verses 1–17 develop the *vijñāna-pariṇāma* analysis: cognition transforms in three modes (*ālaya-vijñāna*, *manas*, the six sense-consciousnesses), with the *ālaya* carrying *vāsanā*-seeds across moments and providing the substrate for the appearance of an enduring perceiver. Verses 18–25 develop the *trisvabhāva* analysis: *parikalpita* (the falsified subject-object duality), *paratantra* (the dependently-arisen cognitive flow), *pariniṣpanna* (the *paratantra* devoid of *parikalpita*) — and the corresponding *triḥ-niḥsvabhāvatā* showing that even these three are themselves *niḥsvabhāva* in the Mahāyāna sense. Verses 26–30 apply the analysis to the path and to *pariniṣpatti*. The text is the canonical Yogācāra base-text in the *kārikā*-genre, and the immediate target of Bhāviveka's anti-Yogācāra polemic and of the Vedāntic *vijñāna-vāda*-refutation chain.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "vimshatika",
+      "title": "Vimshatika",
+      "title_iast": "Viṃśatikā",
+      "alternate_titles": ["Viṃśatikā-Vijñapti-Mātratā-Siddhi"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored with the Vasubandhu's own auto-commentary the Viṃśatikā-Vṛtti.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Lévi 1925; Anacker 1984."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "Twenty verses with auto-commentary defending *vijñapti-mātratā* against the four standard objections from the realist opponent. Objection 1: without external objects we cannot account for the *deśa-niyama* (spatial regularity) that ties certain cognitions to certain places; reply via the dream-analogy and karmic *vāsanā*-determination. Objection 2: nor for *kāla-niyama* (temporal regularity); reply by the same. Objection 3: nor for *santāna-aniyama* (intersubjective agreement — multiple people see the 'same' object); reply via the karmic-collective shaping of *vāsanā*-streams that share content without requiring an extra-cognitive object. Objection 4: nor for *kṛtya-kriyā* (the determinate efficacy of cognition — the cognised water actually slakes thirst); reply via the dream-emission analogy and the karmic-efficacy of cognitive content. The text is the principal Yogācāra polemic against external-object realism and the canonical statement of the *vijñapti-mātra* defence the Vedāntic and Mādhyamaka schools refute.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "trisvabhava-nirdesa",
+      "title": "Trisvabhava-Nirdesa",
+      "title_iast": "Trisvabhāva-Nirdeśa",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Traditionally ascribed to Vasubandhu and accepted by most modern scholarship; some scholars (e.g., Tola and Dragonetti) have proposed a different author. Lindtner and Anacker accept the ascription.",
+      "ascription_evidence": [
+        {"kind": "scholarly-dispute", "description": "Anacker 1984 accepts; Tola/Dragonetti 1983 question."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Thirty-eight verses giving the most compressed analysis of the *trisvabhāva*: each of the three natures is characterised in turn (*parikalpita* as imagined-and-non-existent, *paratantra* as dependently-arisen-and-existent-in-the-mode-of-cognitive-flow, *pariniṣpanna* as the *paratantra* purified of the *parikalpita*); their relations are analysed (the *paratantra* as both substrate of the deception and substrate of the realisation); the soteriology is articulated (recognition of the *trisvabhāva* as itself the path to *bodhi*); and the magician-illusion analogy is developed at length to illustrate how the same *paratantra*-substrate can present as *parikalpita*-illusion and as *pariniṣpanna*-truth. The text is the most condensed Yogācāra philosophical statement in the school's foundation-stratum.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "karma-siddhi-prakarana",
+      "title": "Karma-Siddhi-Prakarana",
+      "title_iast": "Karma-Siddhi-Prakaraṇa",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; survives in Tibetan and Chinese (Lamotte 1936).",
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "A treatise on the metaphysics of *karma*: how karmic action persists across moments to produce its later result, given the universal momentariness (*kṣaṇika*) of all *dharmas*. Vasubandhu surveys and refutes the Sarvāstivāda *avijñapti-rūpa* (a non-manifest physical residue), the Sautrāntika *bīja* (causal seed-chains), and the Vibhajyavāda *avipraṇāśa* (the karmic 'preservation factor'), arguing that only the *ālaya-vijñāna* of the Yogācāra provides an adequate carrier for the karmic *vāsanā*-seeds across the moments of cognitive flow. The text is one of the principal sources for the Yogācāra integration of *abhidharma* karma-theory with the *ālaya*-doctrine.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Vasubandhu is the principal Yogācāra interlocutor of the Vedāntic tradition. The *vijñāna-vāda*-refutation at Brahma-Sūtra-Bhāṣya 2.2.28–32 targets the *Viṃśatikā* / *Triṃśikā* position; Yāmuna's *Saṃvit-Siddhi* engages it at length from the Viśiṣṭādvaita side; later Advaita scholastic engagement (e.g., in Vimuktātman's *Iṣṭa-Siddhi* and Citsukha's *Tattva-Pradīpikā*) occupies a more complex position, refusing *vijñapti-mātra* as Buddhism but adopting some of the *prātibhāsika* and *cidābhāsa* analytical apparatus. The *Abhidharma-Kośa-Bhāṣya* circulated as a standard Buddhist scholastic reference even outside Yogācāra-influenced circles.",
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-buddhist-comparators-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-buddhist-comparators-opus"
+}
