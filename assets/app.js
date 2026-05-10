@@ -2027,8 +2027,11 @@ function numberCitations(html, options) {
     return n;
   };
 
-  // primary citations
-  const cite = /<a\s+href="cite:\/\/([^"]+)"\s+class="cite-link">([^<]*)<\/a>/g;
+  // primary citations. The visible text may include rendered <em>/<strong>/
+  // <span class="term"> markup (italics, glossary tags) so we match
+  // non-greedy up to the nearest closing </a>. Citations don't nest, so
+  // .*? is safe here.
+  const cite = /<a\s+href="cite:\/\/([^"]+)"\s+class="cite-link">([\s\S]*?)<\/a>/g;
   let out = html.replace(cite, (_m, key, visible) => {
     const entry = lookup(key);
     const verified = entry ? entry.verified : "unknown";
@@ -2049,7 +2052,7 @@ function numberCitations(html, options) {
   });
 
   // secondary citations — small bracketed inline reference, opens popover.
-  const sec = /<a\s+href="secondary:\/\/([^"]+)"\s+class="cite-link">([^<]*)<\/a>/g;
+  const sec = /<a\s+href="secondary:\/\/([^"]+)"\s+class="cite-link">([\s\S]*?)<\/a>/g;
   out = out.replace(sec, (_m, ref, visible) => {
     return `<a href="secondary://${ref}" class="cite-secondary" data-ref="${ref}" ` +
       `title="Secondary source — passage not on disk">[${visible}]</a>`;
