@@ -1385,6 +1385,126 @@ function openGlossary(termKey, anchorEl) {
   document.addEventListener("keydown", escClose);
 }
 
+// ---------- citation popover (clickable primary-source citations) -----------
+async function loadCitationIndex() {
+  if (state.citationIndex) return;
+  const idx = await loadJSON("data/citation_index.json");
+  if (idx) state.citationIndex = idx;
+}
+
+function lookupCitationEntry(key) {
+  const idx = state.citationIndex;
+  if (!idx || !key) return null;
+  const direct = idx.entries && idx.entries[key];
+  if (direct) return direct;
+  const aliasTarget = idx.aliases && idx.aliases[key];
+  if (aliasTarget) return idx.entries && idx.entries[aliasTarget];
+  return null;
+}
+
+async function openCitationPopover(key, anchorEl) {
+  await loadCitationIndex();
+  // Close any existing popover + scrim
+  document.querySelectorAll(".citation-popover, .glossary-popover, .gloss-scrim, .cite-scrim")
+    .forEach((el) => el.remove());
+
+  const entry = lookupCitationEntry(key);
+  const isMobile = window.matchMedia("(max-width: 720px)").matches;
+
+  // Parse the key for display (thinker / work / locus)
+  const parts = key.split("/");
+  const tid = parts[0] || "";
+  const wid = parts[1] || "";
+  const loc = parts.slice(2).join("/");
+  const t = state.thinkersById.get(tid);
+  const thinkerName = t ? (t.name_iast || t.name) : tid;
+  let workTitle = wid;
+  if (t) {
+    const w = (t.engaged_works || []).find((x) => x.work_id === wid);
+    if (w) workTitle = w.title_iast || w.title || wid;
+  }
+
+  const pop = document.createElement("div");
+  pop.className = "citation-popover";
+
+  let bodyHtml;
+  if (entry) {
+    const locusDisplay = entry.locus || entry.locus_short || loc;
+    const sk = entry.sanskrit_iast
+      ? `<div class="cp-block cp-sanskrit"><span class="cp-label">Sanskrit (IAST)</span><div class="cp-sk">${escape(entry.sanskrit_iast).replace(/\n/g, "<br>")}</div></div>`
+      : "";
+    const en = entry.english_close
+      ? `<div class="cp-block cp-english"><span class="cp-label">Close English</span><div class="cp-en">${md(entry.english_close)}</div></div>`
+      : "";
+    const openWork = `<button class="cp-open-thinker" data-thinker-id="${escape(tid)}">Open ${escape(thinkerName)} →</button>`;
+    bodyHtml = `
+      <div class="cp-header">
+        <div class="cp-locus">${escape(locusDisplay)}</div>
+        <div class="cp-attrib">${escape(thinkerName)} · <em>${escape(workTitle)}</em></div>
+      </div>
+      ${sk}
+      ${en}
+      <div class="cp-actions">${openWork}</div>
+    `;
+  } else {
+    const openWork = t
+      ? `<button class="cp-open-thinker" data-thinker-id="${escape(tid)}">Open ${escape(thinkerName)} →</button>`
+      : "";
+    bodyHtml = `
+      <div class="cp-header">
+        <div class="cp-locus">${escape(loc || key)}</div>
+        <div class="cp-attrib">${escape(thinkerName)}${workTitle ? ` · <em>${escape(workTitle)}</em>` : ""}</div>
+      </div>
+      <div class="cp-block cp-pending">
+        <p>Passage not yet extracted. The cited locus is named in this entry but its primary-source Sanskrit (line-by-line, with Pāṇinian breakdown) has not been transcribed into the on-disk corpus yet. Open the thinker entry below to see what <em>is</em> currently engaged.</p>
+      </div>
+      <div class="cp-actions">${openWork}</div>
+    `;
+  }
+
+  pop.innerHTML = `<button class="cp-close" aria-label="Close">×</button>${bodyHtml}`;
+
+  let scrim = null;
+  if (isMobile) {
+    scrim = document.createElement("div");
+    scrim.className = "cite-scrim";
+    document.body.appendChild(scrim);
+    document.body.appendChild(pop);
+    scrim.addEventListener("click", () => closeCite());
+  } else {
+    document.body.appendChild(pop);
+    const r = anchorEl.getBoundingClientRect();
+    pop.style.position = "fixed";
+    const popH = pop.offsetHeight || 280;
+    const placeBelow = (r.bottom + popH + 8) < window.innerHeight;
+    pop.style.top = (placeBelow ? r.bottom + 8 : Math.max(10, r.top - popH - 8)) + "px";
+    pop.style.left = Math.max(10, Math.min(r.left, window.innerWidth - 460)) + "px";
+  }
+
+  function closeCite() {
+    pop.remove();
+    if (scrim) scrim.remove();
+    document.removeEventListener("click", outsideClose);
+    document.removeEventListener("keydown", escClose);
+  }
+  function outsideClose(e) {
+    if (!pop.contains(e.target) && e.target !== anchorEl && e.target !== scrim) {
+      closeCite();
+    }
+  }
+  function escClose(e) { if (e.key === "Escape") closeCite(); }
+  pop.querySelector(".cp-close").addEventListener("click", closeCite);
+  const openBtn = pop.querySelector(".cp-open-thinker");
+  if (openBtn) {
+    openBtn.addEventListener("click", () => {
+      closeCite();
+      openThinker(openBtn.dataset.thinkerId);
+    });
+  }
+  setTimeout(() => document.addEventListener("click", outsideClose), 0);
+  document.addEventListener("keydown", escClose);
+}
+
 // ---------- markdown helpers -----------
 function escape(s) {
   if (s == null) return "";
@@ -1400,6 +1520,13 @@ function md(s) {
   out = out.replace(/\*\*([^*\n]+?)\*\*/g, "<strong>$1</strong>");
   out = out.replace(/\*(?!\s)([^*\n]+?)(?<!\s)\*/g, "<em>$1</em>");
   out = out.replace(/`([^`]+?)`/g, "<code>$1</code>");
+  // Citation links: [visible](cite://thinker/work/locus). The href is escaped
+  // (we already HTML-escaped earlier, so & became &amp; etc.), and we use a
+  // distinguishing class so the click handler can intercept.
+  out = out.replace(
+    /\[([^\]]+?)\]\(cite:\/\/([^)\s]+)\)/g,
+    (_m, visible, key) => `<a href="cite://${key}" class="cite-link">${visible}</a>`,
+  );
   // glossary tagging — wrap matched terms in clickable spans (after italics so we don't double-wrap inside <em>)
   if (state.glossaryRegex) {
     out = out.replace(state.glossaryRegex, (m, _g, offset, full) => {
@@ -1745,7 +1872,12 @@ function renderMarkdownFull(src) {
     .replace(/\*\*([^*\n]+?)\*\*/g, "<strong>$1</strong>")
     .replace(/\*(?!\s)([^*\n]+?)(?<!\s)\*/g, "<em>$1</em>")
     .replace(/`([^`]+?)`/g, "<code>$1</code>")
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_m, visible, href) => {
+      if (/^cite:\/\//.test(href)) {
+        return `<a href="${href}" class="cite-link">${visible}</a>`;
+      }
+      return `<a href="${href}" target="_blank" rel="noopener">${visible}</a>`;
+    })
     // paragraph splits
     .replace(/\n\n+/g, "</p><p>");
   out = "<p>" + out + "</p>";
