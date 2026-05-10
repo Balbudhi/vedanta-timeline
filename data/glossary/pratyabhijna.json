@@ -1,0 +1,17 @@
+{
+  "term_key": "pratyabhijna",
+  "term_iast": "pratyabhijñā",
+  "term_devanagari": "प्रत्यभिज्ञा",
+  "literal": "recognition (literally: knowing-toward-back); prati- + abhi- + √jñā",
+  "aliases": ["pratyabhijna", "pratyabhijñā", "Pratyabhijñā", "pratyabhijñānam"],
+  "invariant_definition": "Recognition — Trika's central term for the liberating cognition: the recognition that one *was already* Śiva. Distinguished from Advaita's *brahma-jñāna* in two ways: (a) it is *recognition* (*re*-cognition) of what was always already the case, foregrounding the temporal-existential structure of liberation; (b) it preserves the active-subjectivity character (*ahaṃ*-vimarśa) of the realized state, against Advaita's witness-only structure. Utpaladeva's *Īśvara-Pratyabhijñā-Kārikā* is the school-defining text; Abhinavagupta's *Vimarśinī* and *Vivṛti-Vimarśinī* the principal commentaries.",
+  "per_school": [
+    {
+      "school": "Trika / Pratyabhijñā",
+      "definition": "*Pratyabhijñā* is the liberating cognitive event. Utpaladeva's analogy: a girl who has heard of her future husband's qualities and then meets him — the recognition unifies the previously-separate cognitions. The *jīva* recognizes himself as Śiva; the recognition is not the production of a new fact but the unveiling of an old one.",
+      "primary_loci": ["Īśvara-Pratyabhijñā-Kārikā 1.1.1–5", "Pratyabhijñā-Hṛdaya, sūtras 1–20", "Tantrāloka 1"]
+    }
+  ],
+  "see_also": ["svatantrya", "spanda", "siva", "abhinavagupta", "trika"],
+  "translator_note": "'Recognition' is the standard gloss and is correct. The temporal-recognitive structure (*re*-cognition) is essential and absent from Advaita's structurally atemporal *brahma-jñāna*."
+}

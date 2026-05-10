@@ -1,0 +1,22 @@
+{
+  "term_key": "svatantrya",
+  "term_iast": "svātantrya",
+  "term_devanagari": "स्वातन्त्र्य",
+  "literal": "sovereign freedom, autonomy; abstract noun from svatantra",
+  "aliases": ["svatantrya", "svātantrya", "Svātantrya", "svātantryam", "svātantrya-śakti"],
+  "invariant_definition": "Sovereign freedom — Trika's central technical term for Śiva's absolute self-determination, the power by which Śiva freely self-veils (assumes the appearance of contraction into limited subjects and objects) and freely self-reveals (in *pratyabhijñā*). *Svātantrya* is structurally distinct from both Advaita's *māyā* (which Trika treats as itself a manifestation of *svātantrya*) and from theistic divine-will doctrines — Śiva's freedom is not exercised on a substrate but is constitutive of reality. The user's position-brief (T7) draws on *svātantrya* directly: 'Kashmir Shaivism's *svātantrya* (Śiva's sovereign freedom INCLUDES freedom to self-veil)' is the resource that allows Maya to be itself a manifestation of the divine.",
+  "per_school": [
+    {
+      "school": "Trika / Kashmir Śaivism",
+      "definition": "*Svātantrya* is Śiva's intrinsic and constitutive freedom — the power to do, undo, and reverse, including the power to self-veil. It is identified with Śiva's *vimarśa*-aspect (Śakti) and is the metaphysical engine of cosmic manifestation. Distinguished from any external 'will' (Śiva's freedom is not directed at any other-substrate; there is no other).",
+      "primary_loci": ["Tantrāloka 1, 3 (svātantrya-prakaraṇa)", "Īśvara-Pratyabhijñā-Vimarśinī 1.1.1ff", "Pratyabhijñā-Hṛdaya, sūtra 5"]
+    },
+    {
+      "school": "Position-Brief Note",
+      "definition": "The user's thesis takes *svātantrya* as the conceptual resource for resolving the apparent embarrassment of Advaita *māyā*: the divine is free to self-veil, and this freedom is itself part of its perfection. Maya, ignorance, and bias are *intentional expressions of the divine* (T7, T8).",
+      "primary_loci": []
+    }
+  ],
+  "see_also": ["sakti", "spanda", "pratyabhijna", "trika", "siva", "lila", "maya"],
+  "translator_note": "'Sovereign freedom' or 'absolute autonomy' both acceptable. 'Free will' is wrong (imports Christian theology); Śiva's *svātantrya* is not a faculty exercised among options but the constitutive openness of reality itself."
+}

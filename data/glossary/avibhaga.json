@@ -1,0 +1,17 @@
+{
+  "term_key": "avibhaga",
+  "term_iast": "avibhāga",
+  "term_devanagari": "अविभाग",
+  "literal": "non-division, undividedness; a- + vibhāga",
+  "aliases": ["avibhaga", "avibhāga", "Avibhāga", "avibhāga-darśana"],
+  "invariant_definition": "Non-division. In Vijñānabhikṣu's distinctive Vedānta-Sāṅkhya synthesis (*avibhāga-advaita* / *avibhāga-darśana*), the *jīva* and *brahman* are in a state of *avibhāga* — non-division — in *mokṣa*: not numerical identity (against Advaita) and not absolute distinction (against Dvaita) but undividedness analogous to the relation between water and water. Vijñānabhikṣu's position is a 16th-century synthesis attempting to reconcile Sāṅkhya, Yoga, and Vedānta.",
+  "per_school": [
+    {
+      "school": "Vijñānabhikṣu's Vedānta",
+      "definition": "*Avibhāga* in *mokṣa* — the *jīva* and *brahman* are in undivided union, not numerically identical. Vijñānabhikṣu's *Vijñāna-Amṛta* and *Sāṅkhya-Pravacana-Bhāṣya* develop the position.",
+      "primary_loci": ["Vijñāna-Amṛta-Bhāṣya on Brahma-Sūtra", "Sāṅkhya-Pravacana-Bhāṣya"]
+    }
+  ],
+  "see_also": ["vijnanabhiksu", "bhedabheda", "samkhya"],
+  "translator_note": "'Undividedness' or 'non-division' acceptable. Vijñānabhikṣu's position is a distinct technical synthesis often misclassified in surveys."
+}

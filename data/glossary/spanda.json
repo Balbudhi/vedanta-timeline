@@ -1,0 +1,17 @@
+{
+  "term_key": "spanda",
+  "term_iast": "spanda",
+  "term_devanagari": "स्पन्द",
+  "literal": "vibration, throb, subtle pulsation; from √spand 'to throb'",
+  "aliases": ["spanda", "Spanda", "spandaḥ", "spanda-tattva"],
+  "invariant_definition": "Vibration — Trika's term for the constitutive pulsation of Śiva-consciousness, the dynamic aspect of the unified *prakāśa-vimarśa*. *Spanda* is the metaphysical principle that the supreme is not static but constitutively pulsating; the world is the rhythm of this pulsation. Vasugupta's *Spanda-Kārikā* (or his disciple Kallaṭa's; the authorship is disputed) is the foundational text. The *spanda*-doctrine is what allows Trika to be a non-dualism without being a static-monism.",
+  "per_school": [
+    {
+      "school": "Trika / Kashmir Śaivism",
+      "definition": "*Spanda* is the subtle vibration that is Śiva-Śakti's constitutive activity. Distinguished from gross motion (which is in time) — *spanda* is timeless yet dynamic, the rhythm of the eternal. Recognition of one's own consciousness as *spanda* is one mode of *pratyabhijñā*.",
+      "primary_loci": ["Spanda-Kārikā 1.1–5", "Spanda-Nirṇaya (Kṣemarāja)", "Tantrāloka 4"]
+    }
+  ],
+  "see_also": ["svatantrya", "pratyabhijna", "sakti", "trika"],
+  "translator_note": "'Vibration' or 'pulsation' acceptable. Western readers should not import Bergson's *durée* (although there is structural resemblance) — *spanda* is metaphysical-cosmological, not phenomenological-temporal."
+}

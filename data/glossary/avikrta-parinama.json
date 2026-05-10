@@ -1,0 +1,17 @@
+{
+  "term_key": "avikrta-parinama",
+  "term_iast": "avikṛta-pariṇāma",
+  "term_devanagari": "अविकृतपरिणाम",
+  "literal": "transformation-without-modification; a-vikṛta (unmodified) + pariṇāma",
+  "aliases": ["avikrta-parinama", "avikṛta-pariṇāma", "avikṛta-pariṇāmavāda", "Avikṛta-pariṇāma"],
+  "invariant_definition": "Vallabha's distinctive doctrine: *brahman* really transforms into the world without itself being modified. A precisely-articulated third option between Advaita's *vivarta* (no real transformation) and ordinary *pariṇāma* (transformation with modification). The world is therefore real (*satya*) and one with *brahman* (no second reality), but *brahman*-essence is not changed by the transformation. The doctrine is the metaphysical core of Śuddhādvaita.",
+  "per_school": [
+    {
+      "school": "Śuddhādvaita (Vallabha)",
+      "definition": "*Avikṛta-pariṇāma* is the foundational metaphysical posit. *Brahman* (Kṛṣṇa) really emanates the world from itself without being modified — analogous to a lamp emitting light without losing its luminosity. Both *māyā* (in the Advaita sense) and ordinary *pariṇāma* are rejected.",
+      "primary_loci": ["Aṇu-Bhāṣya 1.1.2", "Tattvārtha-Dīpa-Nibandha, Śāstrārtha-Prakaraṇa §§30–50"]
+    }
+  ],
+  "see_also": ["vivarta", "parinama", "suddhadvaita", "vallabha"],
+  "translator_note": "'Transformation-without-modification' is the standard scholarly gloss. The doctrine has no clean Western analogue; perhaps closest is the patristic *processio* of the divine persons in some readings, but this is distant."
+}

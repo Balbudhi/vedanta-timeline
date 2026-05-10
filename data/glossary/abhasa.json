@@ -1,0 +1,22 @@
+{
+  "term_key": "abhasa",
+  "term_iast": "ābhāsa",
+  "term_devanagari": "आभास",
+  "literal": "appearance, shining-forth; from ā- + √bhās 'to shine'",
+  "aliases": ["abhasa", "ābhāsa", "Ābhāsa", "ābhāsaḥ", "abhasavada", "ābhāsa-vāda", "cidabhasa", "cidābhāsa"],
+  "invariant_definition": "Appearance, shining-forth. The term operates in two principal Vedāntic-adjacent registers: (1) Trika's *ābhāsa-vāda* — the doctrine that the world is the shining-forth of Śiva's consciousness, with each apparent entity being a real *ābhāsa* (manifestation) of Śiva (this is a non-illusionist appearance-doctrine, distinct from Advaita); (2) Advaita's *cidābhāsa* — the reflection of *cit* in the *buddhi*, by which the apparent empirical knowing-subject arises. The two uses share the verbal root but are structurally different.",
+  "per_school": [
+    {
+      "school": "Trika / Kashmir Śaivism",
+      "definition": "*Ābhāsa-vāda*: the world is the shining-forth of Śiva's consciousness. Each *ābhāsa* is real — it is Śiva manifesting in this mode — not illusory. The doctrine is structurally a *non-illusionist* monism: appearances are real, plural, and identical-in-substance with the source.",
+      "primary_loci": ["Tantrāloka 3 (ābhāsa-vāda)", "Īśvara-Pratyabhijñā-Vimarśinī 2.4"]
+    },
+    {
+      "school": "Advaita",
+      "definition": "*Cidābhāsa* is the reflection of *ātman*-consciousness in the *buddhi*; by it the apparent empirical knower arises (*Pañcadaśī*'s analysis). Distinguished from *kūṭastha caitanya* (the immutable witness).",
+      "primary_loci": ["Pañcadaśī 1.10–18, 7"]
+    }
+  ],
+  "see_also": ["cidabhasa", "kutastha", "trika", "vivarta"],
+  "translator_note": "'Appearance' or 'manifestation' acceptable. Trika's *ābhāsa-vāda* should NOT be translated 'doctrine of illusion' — it is precisely the non-illusionist alternative."
+}
