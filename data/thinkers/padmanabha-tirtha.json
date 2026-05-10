@@ -1,0 +1,64 @@
+{
+  "id": "padmanabha-tirtha",
+  "name": "Padmanabha Tirtha",
+  "name_iast": "Padmanābha-Tīrtha",
+  "alternate_names": [],
+  "dates_low": 1264,
+  "dates_high": 1324,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Direct disciple of Madhva and second pontiff of the Mādhva pīṭha-paramparā after Madhva. Sectarian chronicles plus manuscript colophons.",
+  "school": "Dvaita",
+  "school_color_token": "dvaita",
+  "sub_school": "Madhva-paramparā-direct-disciple",
+  "sub_school_shade": 2,
+  "lineage_in": [
+    "madhva"
+  ],
+  "lineage_out": [
+    "narahari-tirtha",
+    "aksobhya-tirtha"
+  ],
+  "lineage_polemical": [],
+  "core_thesis": "Padmanābha-Tīrtha is the direct disciple of Madhva who succeeds him as second pontiff and produces the *Sannyāya-Ratnāvalī* — the earliest sub-commentary on Madhva's *Anuvyākhyāna*. The doctrinal architecture is Madhva's, transmitted without revision: *pañca-bheda* as the structure of reality (*Sannyāya-Ratnāvalī* on *Anuvyākhyāna* 2.1, the *bheda-prakaraṇa*); *svatantra-paratantra* (Viṣṇu the only *svatantra*) (*Sannyāya-Ratnāvalī* on *Anuvyākhyāna* 1.1.2); the *bimba-pratibimba* relation between Viṣṇu and *jīva* (*Sannyāya-Ratnāvalī* on *Anuvyākhyāna* 2.3.43–53); the *sākṣi*-pramāṇa as autonomous (*Sannyāya-Ratnāvalī* on *Anuvyākhyāna* 3.2 ff.); the *Tāratamya* (*Sannyāya-Ratnāvalī* on *Anuvyākhyāna* 3.4–4.4 across the *adhyāyas* concerned with *mokṣa*).\n\nThe contribution is in two registers. First, the *Sannyāya-Ratnāvalī* (\"jewel-garland of right reasoning\") — a sub-commentary on Madhva's *Anuvyākhyāna* that opens the *kārikā*-text in its compressed didactic form for the school's first-generation reception. The work predates Jayatīrtha's *Nyāya-Sudhā* by approximately one generation and is the form in which the first-generation Mādhva community received the *Anuvyākhyāna*; Jayatīrtha's *Nyāya-Sudhā* refines and supersedes for higher technical study, but the *Sannyāya-Ratnāvalī* is preserved in the lineage's manuscript canon as the earliest direct-disciple reading of the *Anuvyākhyāna* (Jayatīrtha presupposes its readings at several contested points). Second, the *Sannyāya-Dīpikā* on Madhva's *Brahma-Sūtra-Bhāṣya* (parallel to Trivikrama's *Tattva-Pradīpa*) — opening the *sūtra*-commentary at the same generation. Padmanābha is also the central figure in the institutional transmission: the *pīṭha*-succession passes through him to Narahari-Tīrtha and Akṣobhya-Tīrtha, fixing the *paramparā* in the form transmitted to Jayatīrtha and the later school. His significance is as the figure who consolidates the first-generation reception of Madhva's two principal commentary-corpora (the *Brahma-Sūtra-Bhāṣya* and the *Anuvyākhyāna*) and who passes the *paramparā* forward.",
+  "engaged_works": [
+    {
+      "work_id": "sannyaya-ratnavali",
+      "title": "Sannyaya-Ratnavali on Anuvyakhyana",
+      "title_iast": "Sannyāya-Ratnāvalī",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored sub-commentary on Madhva's Anuvyākhyāna; preserved in the Mādhva manuscript canon and presupposed by Jayatīrtha at several points.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."},
+        {"kind": "manuscript-colophon", "description": "Manuscript colophons across the Mādhva-paramparā preservation tradition."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "The *Sannyāya-Ratnāvalī* (\"jewel-garland of right reasoning\") is Padmanābha-Tīrtha's sub-commentary on Madhva's *Anuvyākhyāna* — the earliest Mādhva sub-commentary on the *kārikā*-text. The method is *kārikā*-by-*kārikā* exposition with the school's settled position fixed at each contested point, in a form that predates Jayatīrtha's *Nyāya-Sudhā* by approximately one generation. Three loci do the load-bearing work. (i) The *bheda-prakaraṇa* (*Sannyāya-Ratnāvalī* on *Anuvyākhyāna* 1.4.111–112) reads *bheda* as *svarūpa-svabhāva* — constitutive of the natures of the relata, not an additional entity attached to those natures — fixing the school's response to the standard regress-objection in its first-generation form (Jayatīrtha's *Nyāya-Sudhā* on the same locus refines but does not depart from this reading). (ii) The *aṃśa-prakaraṇa* (*Sannyāya-Ratnāvalī* on *Anuvyākhyāna* 2.3.43–53) reads the *jīva*'s status as *aṃśa* of Viṣṇu in the *bimba-pratibimba* sense with strict asymmetry — the image owes everything to the original; the original owes nothing to the image — against Bhāskara's reciprocal *aupādhika* construal. (iii) The *sākṣi-prakaraṇa* (*Sannyāya-Ratnāvalī* on *Anuvyākhyāna* 3.2 ff.) reads *sākṣi* (witness-consciousness) as autonomous *pramāṇa*, with verdicts not subject to *bādha* by mediated cognition — fixing the asymmetry on which Madhva's epistemology depends. The work is the form in which the first-generation Mādhva community received the *Anuvyākhyāna*; Jayatīrtha's *Nyāya-Sudhā* will refine and supersede for higher study, but the *Sannyāya-Ratnāvalī* remains in the lineage's manuscript canon as the earliest direct-disciple reading.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "sannyaya-dipika",
+      "title": "Sannyaya-Dipika on Brahma-Sutra-Bhashya",
+      "title_iast": "Sannyāya-Dīpikā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored sub-commentary on Madhva's Brahma-Sūtra-Bhāṣya, preserved in the Mādhva manuscript canon.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "The *Sannyāya-Dīpikā* (\"lamp of right reasoning\") is Padmanābha-Tīrtha's sub-commentary on Madhva's *Brahma-Sūtra-Bhāṣya* — the parallel of Trivikrama Paṇḍita's *Tattva-Pradīpa* in the same first generation. The method is *adhikaraṇa*-by-*adhikaraṇa* exposition with the school's settled position fixed at each contested point. The work is shorter than the *Sannyāya-Ratnāvalī* and is closely word-locked to Madhva's *Bhāṣya*-text. Three loci do the load-bearing work: the opening *jijñāsādhikaraṇa* (*Sannyāya-Dīpikā* ad BS 1.1.1), where the inquiry is read as inquiry into a real Viṣṇu against Śaṅkara's *adhyāsa-bhāṣya* construal; the *ānanda-mayādhikaraṇa* (*Sannyāya-Dīpikā* ad BS 1.1.12–19), settled in favour of the realist reading of *ānandamaya* as Viṣṇu against Śaṅkara's *jīva*-reading; and the *aṃśa-adhikaraṇa* (*Sannyāya-Dīpikā* ad BS 2.3.43), read as articulating asymmetric *bimba-pratibimba* dependence. Together with Trivikrama's *Tattva-Pradīpa*, the *Sannyāya-Dīpikā* fixes the first-generation Mādhva reception of the *Brahma-Sūtra-Bhāṣya*; Jayatīrtha's *Tattva-Prakāśikā* will refine and supersede for higher study but is preceded by these direct-disciple readings.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-intra-school-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-intra-school-opus"
+}
