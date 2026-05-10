@@ -5,4 +5,7 @@ node_modules/
 # Developer-side symlink used by the local server to serve primary texts at
 # /materials/primary_texts/<...>. The citation panel's Source tab fetches
 # from that path. Deployment provisions the same path separately.
+# Developer-side symlink to ../materials/ used by the local server. The
+# Source tab fetches from data/sources/ (the in-repo mirror) on the live
+# site; this symlink is for local dev only.
 /materials

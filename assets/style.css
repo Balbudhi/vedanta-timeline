@@ -492,15 +492,80 @@ body.is-detail-open .detail-pane {
   border-bottom-color: var(--ink);
 }
 .dp-tab-spacer { flex: 1; }
+/* Close button: an explicit affordance so the panel can be dismissed.
+   Bordered + labeled so it reads as a button rather than glyph noise. */
 .dp-close {
   position: static;
-  margin: 0;
-  width: 32px; height: 32px;
+  margin: 0 2px 0 4px;
+  height: 26px;
   align-self: center;
-  font-size: 22px;
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 0 10px;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  background: var(--bg);
+  border: 1px solid var(--rule);
   border-radius: 3px;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 140ms ease, border-color 140ms ease, color 140ms ease;
 }
-.dp-close:hover { background: var(--bg-warm); color: var(--ink); }
+.dp-close .dp-close-glyph {
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 500;
+  display: inline-block;
+  transform: translateY(-0.5px);
+}
+.dp-close:hover {
+  background: var(--bg-warm);
+  color: var(--ink);
+  border-color: var(--ink-soft);
+}
+.dp-close:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+/* =============================================================
+   PANEL OVERFLOW SAFETY
+   Long file names, Sanskrit compounds, citation source-tree paths,
+   and bare URLs would otherwise punch out the right edge of the
+   panel. Force every text-bearing descendant to wrap.
+   ============================================================= */
+.detail-pane,
+.detail-pane .dp-pane,
+.detail-pane .dp-pane-body,
+.detail-pane .dp-pane-head,
+.detail-pane #detailContent,
+.detail-pane .work-card,
+.detail-pane .work-card .title,
+.detail-pane .work-card .title-line,
+.detail-pane .work-card .summary,
+.detail-pane .work-card .ascr,
+.detail-pane .work-card .ascr-notes,
+.detail-pane .read-full-link,
+.detail-pane .cite-source-tree,
+.detail-pane .cite-source-tree-item,
+.detail-pane .cite-source-file,
+.detail-pane .cite-source-name,
+.detail-pane .cite-passage,
+.detail-pane .cite-passage-anchor,
+.detail-pane .cpa-locus,
+.detail-pane .cpa-sk,
+.detail-pane .cpa-en {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.detail-pane a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
 
 .dp-panes {
   flex: 1;
@@ -1473,6 +1538,11 @@ body.is-reading-mode .passage-card .english { font-size: 18px; }
   font-family: var(--serif);
   font-size: 13px;
   color: var(--ink-soft);
+}
+.cite-passage-anchor--unverified {
+  border-left-color: var(--muted-soft);
+  background: transparent;
+  border: 1px dashed var(--rule);
 }
 .dp-citation-body .ccb-actions {
   border-top: 1px solid var(--rule);

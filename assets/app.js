@@ -1104,6 +1104,35 @@ function scrollDotIntoView(t) {
 function closeDetailPane() { closePanel(); }
 closeDetail.addEventListener("click", closePanel);
 
+// Click-on-empty-timeline-area closes the panel. Lets the user "click back
+// to the map" instead of hunting for the close button. Drag/pan and clicks
+// on interactive timeline elements (dots, edges, lane rail, era strip,
+// axis, view-toggle, etc.) are exempted so existing flows still work.
+(function wireTimelineDismiss() {
+  if (!scroller) return;
+  let downX = 0, downY = 0, downOnScroller = false;
+  scroller.addEventListener("pointerdown", (e) => {
+    if (e.button !== 0 && e.pointerType === "mouse") { downOnScroller = false; return; }
+    downX = e.clientX; downY = e.clientY;
+    downOnScroller = true;
+  });
+  scroller.addEventListener("pointerup", (e) => {
+    if (!downOnScroller) return;
+    downOnScroller = false;
+    if (!document.body.classList.contains("is-detail-open")) return;
+    // Drag threshold: if the pointer moved >4px between down and up,
+    // treat it as a pan, not a click.
+    if (Math.abs(e.clientX - downX) + Math.abs(e.clientY - downY) > 4) return;
+    // Don't dismiss when the user clicked an interactive timeline target;
+    // their own handlers (openThinker, lineage hover, etc.) take precedence.
+    const target = e.target;
+    if (target && target.closest && target.closest(
+      ".thinker-dot, .lineage-edge, .lane-row, .lane-rail, .era-strip, .timeline-axis, button, a, input, [role='tab']"
+    )) return;
+    closePanel();
+  });
+})();
+
 // ---------- detail rendering -----------
 function renderDetail(t) {
   return [
@@ -1663,14 +1692,32 @@ function renderCitationTab(key) {
     return `<div class="ccb-context-label">${escape(label)}</div>${rows}`;
   };
 
+  // Honour the audit: entries flagged `verified: false` had their IAST
+  // fragment checked against the on-disk source and not found. We still
+  // show the locus + attribution (those are usually correct), but suppress
+  // the Sanskrit and the close English so a not-yet-verified passage can't
+  // be mistaken for a quotation. The same panel surfaces the verification
+  // note so the reader can see exactly what the audit found.
   const anchorHtml = entry
-    ? `
+    ? (entry.verified === false
+        ? `
+      <div class="cite-passage-anchor cite-passage-anchor--unverified">
+        <div class="cpa-locus">Locus · ${escape(entry.locus_short || locusDisplay)}</div>
+        <div class="cpa-pending">
+          The Sanskrit passage referenced here was not located in the on-disk
+          source by the citation audit. Locus and attribution are preserved;
+          the passage text is withheld until it can be verified against the
+          primary text. ${entry.verification_note ? `<em>${escape(entry.verification_note)}</em>` : ""}
+        </div>
+      </div>
+    `
+        : `
       <div class="cite-passage-anchor">
         <div class="cpa-locus">Locus · ${escape(entry.locus_short || locusDisplay)}</div>
         ${entry.sanskrit_iast ? `<div class="cpa-sk">${escape(entry.sanskrit_iast).replace(/\n/g, "<br>")}</div>` : ""}
         ${entry.english_close ? `<div class="cpa-en">${md(entry.english_close)}</div>` : ""}
       </div>
-    `
+    `)
     : `
       <div class="cite-passage-anchor">
         <div class="cpa-locus">Locus · ${escape(locusDisplay)}</div>
