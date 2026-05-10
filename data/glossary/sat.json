@@ -118,9 +118,21 @@
     },
     {
       "school": "Dvaitādvaita",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Dvaitādvaita, dependent being is fully real without ceasing to be dependent on Hari: the *jīva* is described as *jñānasvarūpa*, Hari-dependent, atomic, and distinct in each body. [[DaŚ 1](cite://nimbarka/dasa-shloki/1)] The same self is further said to appear as bound, devotee, and liberated, and its abundance of differentiations is something to be understood rather than dissolved away. [[DaŚ 2](cite://nimbarka/dasa-shloki/2)]",
+      "primary_loci": [
+        "Daśa-Ślokī 1",
+        "Daśa-Ślokī 2"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nimbarka/dasa-shloki/1",
+          "locus_short": "DaŚ 1"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/2",
+          "locus_short": "DaŚ 2"
+        }
+      ]
     },
     {
       "school": "Śuddhādvaita",
@@ -142,27 +154,75 @@
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Sāṃkhya, *sat* is governed by *satkārya-vāda*: the effect is real in its cause, since what is wholly *asat* cannot be produced, causes are selectively appropriated, and like emerges from like. [[SK 9](cite://isvarakrsna/samkhya-karika/9)] The classical commentary makes the point explicit as *sad eva sad bhavati*, so *mahad* and the rest are already present in *pradhāna* prior to manifestation and emergence is a disclosure of what is causally there. [[SK 9 comm.](cite://isvarakrsna/samkhya-karika/9-commentary)]",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 9",
+        "Sāṃkhya-Kārikā commentary on 9"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/9",
+          "locus_short": "SK 9"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/9-commentary",
+          "locus_short": "SK 9 comm."
+        }
+      ]
     },
     {
       "school": "Yoga",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Yoga, *sat* marks the persistence of the *dharmin* through quiescent, arisen, and unexpressed *dharmas*, so past and future are not sheer non-being but modes related by *adhva-bheda*. [[YS 3.14](cite://patanjali/yoga-sutra/3.14)] [[YS 4.12](cite://patanjali/yoga-sutra/4.12)] Vyāsa accordingly says that there is no arising from what is *asat* and no destruction of what is *sat*; causal conditions do not generate a wholly new result but render an already real result present (*vartamānīkaraṇa*). [[YBh 4.12](cite://vyasa-bhasya/yoga-sutra-bhasya/4.12)]",
+      "primary_loci": [
+        "Yoga-Sūtra 3.14",
+        "Yoga-Sūtra 4.12",
+        "Yoga-Bhāṣya on 4.12"
+      ],
+      "citations": [
+        {
+          "cite": "cite://patanjali/yoga-sutra/3.14",
+          "locus_short": "YS 3.14"
+        },
+        {
+          "cite": "cite://patanjali/yoga-sutra/4.12",
+          "locus_short": "YS 4.12"
+        },
+        {
+          "cite": "cite://vyasa-bhasya/yoga-sutra-bhasya/4.12",
+          "locus_short": "YBh 4.12"
+        }
+      ]
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Nyāya-Vaiśeṣika, *sat* is formalized as *sattā*, a universal present in substance, quality, and motion yet distinct from all three. [[VS 1.2.4-8](cite://kanada/vaisesika-sutra/1.2.4-8)] Being is therefore not a bare copula but the highest common positive determination under which the school's ontology of *bhāva* is organized. [[VS 1.2.4-8](cite://kanada/vaisesika-sutra/1.2.4-8)]",
+      "primary_loci": [
+        "Vaiśeṣika-Sūtra 1.2.4-8"
+      ],
+      "citations": [
+        {
+          "cite": "cite://kanada/vaisesika-sutra/1.2.4-8",
+          "locus_short": "VS 1.2.4-8"
+        }
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Pūrva-Mīmāṃsā, *sat* is treated first in an epistemic register: perception arises only where the senses are in contact with what is present, so *sat* is what is available as *vidyamānopalambha*. [[ŚBh on MS 1.1.4](cite://shabara/shabara-bhasya/1.1.4)] That delimitation is paired with Jaimini's definition of *dharma* as *codanā-lakṣaṇa*; what is ritually efficacious is often not an object of present perception at all, and therefore must be known through Vedic injunction rather than through *pratyakṣa*. [[MS 1.1.2](cite://jaimini/mimamsa-sutra/1.1.2)] [[ŚBh on MS 1.1.4](cite://shabara/shabara-bhasya/1.1.4)]",
+      "primary_loci": [
+        "Śābara-Bhāṣya on Mīmāṃsā-Sūtra 1.1.4",
+        "Mīmāṃsā-Sūtra 1.1.2"
+      ],
+      "citations": [
+        {
+          "cite": "cite://shabara/shabara-bhasya/1.1.4",
+          "locus_short": "ŚBh on MS 1.1.4"
+        },
+        {
+          "cite": "cite://jaimini/mimamsa-sutra/1.1.2",
+          "locus_short": "MS 1.1.2"
+        }
+      ]
     },
     {
       "school": "Mādhyamaka",
@@ -202,15 +262,39 @@
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Pratyabhijñā / Trika, *sat* is not inert existence but the Lord's own *sphurattā*, a \"great being\" beyond spatial and temporal delimitation and identical with reflexive consciousness. [[ĪPK 1.5.14](cite://utpaladeva/isvara-pratyabhijna-karika/1.5.14)] Utpaladeva therefore rejects both an *asat* source and any fresh acquisition of being: what is *asat* cannot receive *satsvarūpatā*, and what already is does not become real by later obtaining *sattā*. [[ĪPK 2.4.3](cite://utpaladeva/isvara-pratyabhijna-karika/2.4.3)]",
+      "primary_loci": [
+        "Īśvara-Pratyabhijñā-Kārikā 1.5.14",
+        "Īśvara-Pratyabhijñā-Kārikā 2.4.3"
+      ],
+      "citations": [
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/1.5.14",
+          "locus_short": "ĪPK 1.5.14"
+        },
+        {
+          "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/2.4.3",
+          "locus_short": "ĪPK 2.4.3"
+        }
+      ]
     },
     {
       "school": "Jainism",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Jainism, *sat* is whatever is endowed with origination, decay, and persistence, so being is intrinsically many-sided rather than a static unitary essence. [[TS 5.29](cite://umasvati/tattvartha-sutra/5.29)] The same ontology explains why substances are tracked under determinations such as being, number, space, touch, time, interval, mode, and quantity: reality is stable as *dravya* while continually modal as *paryāya*. [[TS 1.8](cite://umasvati/tattvartha-sutra/1.8)] [[TS 5.29](cite://umasvati/tattvartha-sutra/5.29)]",
+      "primary_loci": [
+        "Tattvārtha-Sūtra 1.8",
+        "Tattvārtha-Sūtra 5.29"
+      ],
+      "citations": [
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/1.8",
+          "locus_short": "TS 1.8"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/5.29",
+          "locus_short": "TS 5.29"
+        }
+      ]
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",
@@ -228,5 +312,5 @@
   ],
   "translator_note": "Avoid treating *sat* as mere existential vocabulary. English 'being' and 'existence' encourage a thin, quantificational reading, whereas Sanskrit usage often marks robust reality, causal persistence, and resistance to sublation. Also keep *sat* distinct from *satya* ('true') and from the Advaita contrast-term *mithyā*.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54"
+  "last_verified_by": "glossary-wave2-codex54"
 }
