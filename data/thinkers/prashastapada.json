@@ -1,0 +1,56 @@
+{
+  "id": "prashastapada",
+  "name": "Prashastapada",
+  "name_iast": "Praśastapāda",
+  "alternate_names": ["Praśastadeva", "Praśastakāra"],
+  "dates_low": 500,
+  "dates_high": 600,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Dated by being cited in Dignāga (sixth century) and citing earlier Vaiśeṣika materials; Halbfass (1992) and Bronkhorst converge on the late fifth to sixth century CE. Praśastapāda is named in colophons but otherwise biographically unknown.",
+  "school": "Vaiśeṣika",
+  "school_color_token": "vaisesika-comparator",
+  "sub_school": "Classical Vaiśeṣika",
+  "sub_school_shade": 4,
+  "lineage_in": ["kanada"],
+  "lineage_out": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "sankara",
+      "direction": "is-refuted-by",
+      "note": "Brahma-Sūtra-Bhāṣya 2.2.11–17 engages the developed Vaiśeṣika position represented by Praśastapāda's Padārtha-Dharma-Saṅgraha, not merely Kaṇāda's bare sūtras; the refutation operates against the classical theistic-cosmological articulation."
+    },
+    {
+      "thinker_id": "udayana",
+      "direction": "is-refuted-by",
+      "note": "Praśastapāda's classical Vaiśeṣika position is the framework Udayana later defends and reformulates against the Buddhist pramāṇa-tradition; the engagement is constructive within Nyāya-Vaiśeṣika and oppositional ad extra."
+    }
+  ],
+  "core_thesis": "Praśastapāda's *Padārtha-Dharma-Saṅgraha* — also called the *Praśastapāda-Bhāṣya*, though it is a free re-presentation rather than a *sūtra*-by-*sūtra* commentary — is the classical articulation of Vaiśeṣika and the form in which Vedānta engages the school. The work re-organizes Kaṇāda's six *padārthas* under a new analytical scheme, treating each *padārtha* as bearing its own *dharmas* (defining properties) which the text systematically lists. Three doctrinal moves give the work its philosophical weight. First, *īśvara* is introduced as the conscious initiator of the first *paramāṇu*-conjunction at *sarga* and the conscious instrument of dissolution at *pralaya* — the older atheistic Vaiśeṣika of the bare *sūtras* becomes a theistic cosmology. Second, the *padārtha*-grid is given the analytical apparatus that lets it function as a complete ontology: each *guṇa* gets its substance-locus, each *karma* its trajectory, each *sāmānya* its ranked position in the *para-* / *apara-* hierarchy. Third — disputed in modern scholarship as to whether it is Praśastapāda's own innovation or that of his commentators (Śrīdhara, Udayana) — the seventh category *abhāva* (absence) emerges as a candidate addition to the canonical six. The resulting *padārtha-dharma-saṅgraha* fixes the Vaiśeṣika the *bhāṣyakāras* of Vedānta refute, and the framework Udayana inherits and Navya-Nyāya rebuilds.",
+  "engaged_works": [
+    {
+      "work_id": "padartha-dharma-sangraha",
+      "title": "Padartha-Dharma-Sangraha",
+      "title_iast": "Padārtha-Dharma-Saṅgraha",
+      "alternate_titles": ["Praśastapāda-Bhāṣya", "Bhāṣya"],
+      "composition_dates_low": 500,
+      "composition_dates_high": 600,
+      "composition_dates_notes": "Dated by being cited in Dignāga and the developed Buddhist pramāṇa-literature.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Praśastapāda by colophon and by uniform citation across Śrīdhara's Nyāya-Kandalī, Udayana's Kiraṇāvalī, and Vyomaśiva's Vyomavatī.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Halbfass (1992, On Being and What There Is); Matilal (Nyāya-Vaiśeṣika); Bronkhorst on the dating-anchor through Dignāga."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "A free systematic exposition of Vaiśeṣika in prose, organized by *padārtha*. The opening section gives the *maṅgala* and a brief restatement of the school's purpose. The first major division treats *dravya*: each of the nine substances (earth, water, fire, air, *ākāśa*, *kāla*, *dik*, *ātman*, *manas*) is defined by its characteristic *guṇas* and *karmas*; the *paramāṇu*-doctrine is unfolded as the analytical-recombinative cosmology, with *īśvara* introduced as the conscious initiator of *sarga* (creation) and *pralaya* (dissolution). The second division treats *guṇa* and gives the canonical Vaiśeṣika list of twenty-four qualities (later expanded). The third division treats *karma*. The fourth division treats *sāmānya*, distinguishing *para-sāmānya* (the highest universal, *sattā*) from *apara-sāmānya* (lower-ranked universals); *viśeṣa* and *samavāya* follow. The text concludes with epistemology: the *pramāṇa*-list is reduced to *pratyakṣa* and *anumāna*, with *śabda* subsumed under *anumāna* — the position Vedānta strenuously rejects. The principal pre-modern commentaries are Śrīdhara's *Nyāya-Kandalī* (tenth century) and Udayana's *Kiraṇāvalī* (eleventh century).",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-comparators-darsana-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-comparators-darsana-opus"
+}

@@ -1,0 +1,22 @@
+{
+  "term_key": "sabda",
+  "term_iast": "śabda",
+  "term_devanagari": "शब्द",
+  "literal": "sound, word; the verbal testimony as pramāṇa",
+  "aliases": ["sabda", "śabda", "Śabda", "śabdaḥ", "śabdasya", "śabde", "śabda-pramāṇa", "sabda-pramana", "shabda"],
+  "invariant_definition": "Verbal testimony as a means of valid cognition — the words of a reliable speaker (*āpta*) producing knowledge in the hearer. In Vedānta the relevant *śabda-pramāṇa* is preeminently *śruti*. All Vedāntic schools accept *śabda* as a distinct and irreducible *pramāṇa* (against Cārvāka denial and Buddhist reduction-to-inference) and as the unique *pramāṇa* for *brahman*. Schools differ on whether *śabda* is reducible to inference from speaker-reliability (Naiyāyika view, accepted by some) or is intrinsically valid (Mīmāṃsā-Advaita view).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Śabda*-pramāṇa is intrinsically valid (*svataḥ-prāmāṇya*); *śruti*'s authority on *brahman* is independent of any author or external corroboration. The *mahāvākyas* are *jñāna-janaka* — directly producing the liberating cognition.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.3", "Brahma-Sūtra-Bhāṣya 1.1.4", "Vedānta-Paribhāṣā, śabda-pariccheda"]
+    },
+    {
+      "school": "Viśiṣṭādvaita / Dvaita",
+      "definition": "*Śabda*-pramāṇa is intrinsically valid; *śruti*'s authority on Viṣṇu is unique. Dvaita explicitly defends *śabda*'s irreducibility to inference (Vyāsatīrtha *Tarka-Tāṇḍava*, *śabda-pramāṇa-section*).",
+      "primary_loci": ["Yatīndra-Mata-Dīpikā 1", "Vyāsatīrtha, Tarka-Tāṇḍava"]
+    }
+  ],
+  "see_also": ["pramana", "pratyaksa", "anumana", "sruti", "apauruseya", "svatah-pramanya"],
+  "translator_note": "'Verbal testimony' is the standard scholarly gloss and is acceptable. Note: *śabda* in the broader Indian semantic tradition (especially Bhartṛhari's *Vākyapadīya*) also names the eternal Word — *Śabda-Brahman* — which is an ontological-metaphysical concept distinct from *śabda* as *pramāṇa*; context determines which sense is operative."
+}

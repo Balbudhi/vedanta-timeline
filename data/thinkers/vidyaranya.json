@@ -23,7 +23,18 @@
   "sub_school_shade": 4,
   "lineage_in": ["prakasatman", "vimuktatman"],
   "lineage_out": ["madhusudana", "appayya"],
-  "lineage_polemical": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "utpaladeva",
+      "direction": "mutual",
+      "note": "Vidyāraṇya's Sarva-Darśana-Saṅgraha (under the Mādhavācārya identity) surveys the Pratyabhijñā-darśana of Utpaladeva and Abhinavagupta as one of the principal non-Vedāntic darśanas, treating it with disciplined fairness rather than as a cursory rival."
+    },
+    {
+      "thinker_id": "abhinavagupta",
+      "direction": "mutual",
+      "note": "The Pratyabhijñā chapter of the Sarva-Darśana-Saṅgraha specifically draws on Abhinavagupta's articulation of svātantrya, ābhāsa-vāda, and pratyabhijñā as Vidyāraṇya's primary source for the school."
+    }
+  ],
   "core_thesis": "Vidyāraṇya stands at the institutional and philosophical apex of fourteenth-century Advaita. As Mādhavācārya he served the early Vijayanagara court and, with his brother Sāyaṇa, presided over a comprehensive scholastic project; as Vidyāraṇya he became Śaṅkarācārya of Sṛṅgeri. Doctrinally he is firmly within the Vivaraṇa line: Brahman is the locus of *bhāva-rūpā-anirvacanīya-avidyā*, and the *jīva* is *cidābhāsa*. His distinctive synthetic contribution is twofold. First, he treats the two competing technical analyses of the *jīva* — *pratibimba-vāda* (Sarvajñātman and Prakāśātman: *jīva* as reflection of Brahman in avidyā) and *avaccheda-vāda* (*jīva* as Brahman delimited by *antaḥkaraṇa*) — as genuine *prakriyā*-level alternatives within a single Vivaraṇa framework, rather than positions one of which must be wrong. Second, he gives a systematic exposition of *jīvanmukti* as a precise technical state, not a metaphor: avidyā has been removed, *prārabdha-karma* sustains the body until exhausted, and *vāsanā-kṣaya* and *manonāśa* are required for the cessation of residual mental activity. He combines high *advaita-siddhānta* with the practice-oriented yogic idiom of the *Yoga-Vāsiṣṭha*; the *Pañcadaśī* derives its enduring pedagogical role from this combination.",
   "engaged_works": [
     {

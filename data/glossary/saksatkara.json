@@ -1,0 +1,22 @@
+{
+  "term_key": "saksatkara",
+  "term_iast": "sākṣātkāra",
+  "term_devanagari": "साक्षात्कार",
+  "literal": "making-present-to-the-eyes, direct realization; from sākṣāt 'directly, before-the-eyes' + kāra 'making'",
+  "aliases": ["saksatkara", "sākṣātkāra", "Sākṣātkāra", "sākṣātkārasya", "saksatkar"],
+  "invariant_definition": "Direct realization — the immediate apprehension of *brahman* (or of the Lord) that completes the path. Functionally close to *anubhava* and to *aparokṣa-jñāna*; in school usage *sākṣātkāra* often emphasizes the realization-as-event aspect more than the experience-content aspect. All schools agree that *brahma-sākṣātkāra* is the culmination; they differ on whether it is identity-realization (Advaita) or direct devotional realization of the Lord (Viśiṣṭādvaita, Dvaita, Acintya-Bhedābheda).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Brahma-sākṣātkāra* is the realization of *ātman*-*brahman* identity; structurally identical with the rise of *akhaṇḍākāra-vṛtti* and the dissolution of *avidyā*.",
+      "primary_loci": ["Aparokṣānubhūti (attrib. Śaṅkara)", "Vivekacūḍāmaṇi 478ff"]
+    },
+    {
+      "school": "Viśiṣṭādvaita / Dvaita / Acintya-Bhedābheda",
+      "definition": "*Bhagavat-sākṣātkāra* — direct realization of the Lord. In Vaiṣṇava usage often *darśana* (direct seeing) of the Lord's form. Bestowed by the Lord's grace on the surrendered or devoted soul.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§137–144", "Bhakti-Sandarbha §§310–320"]
+    }
+  ],
+  "see_also": ["anubhava", "aparoksa-jnana", "darsana", "akhandakara-vrtti"],
+  "translator_note": "'Realization' captures the essential. 'Direct experience' overlaps with *anubhava*. The literal sense — making-present-to-the-eyes — preserves the seeing-metaphor that runs through Indic epistemology (*darśana*, *dṛṣṭi*, *cakṣus*, *sākṣin*)."
+}

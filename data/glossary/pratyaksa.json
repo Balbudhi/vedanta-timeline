@@ -1,0 +1,22 @@
+{
+  "term_key": "pratyaksa",
+  "term_iast": "pratyakṣa",
+  "term_devanagari": "प्रत्यक्ष",
+  "literal": "before-the-eyes, present-to-the-senses; from prati- + akṣa 'eye, sense'",
+  "aliases": ["pratyaksa", "pratyakṣa", "Pratyakṣa", "pratyakṣaṃ", "pratyakṣasya", "pratyakshe"],
+  "invariant_definition": "Perception — the *pramāṇa* that arises through sense-object contact. All Vedāntic schools accept *pratyakṣa* as a *pramāṇa*; differ on its scope (whether it includes *sākṣi-pratyakṣa* — the soul's self-luminous awareness — as a distinct sub-mode, as Dvaita holds) and on its status vis-à-vis *śabda* (no school holds *pratyakṣa* superior to *śabda* on *brahman*; all hold it sufficient on its proper objects).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Pratyakṣa* is one of the six *pramāṇas* and operates by the *vṛtti* of the *antaḥkaraṇa* extending through the sense-organ to the object. *Vedānta-Paribhāṣā* gives the canonical analysis (*vṛtti-vyāptiḥ phala-vyāptiḥ*).",
+      "primary_loci": ["Vedānta-Paribhāṣā, pratyakṣa-pariccheda"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Pratyakṣa* has two sub-modes: *indriya-pratyakṣa* (sense-perception) and *sākṣi-pratyakṣa* (the soul's intrinsic self-luminous awareness, the distinctive Dvaita posit). *Sākṣi-pratyakṣa* delivers immediate knowledge of pleasure, pain, time, and one's own existence — never erring. This is one of Dvaita's signature epistemological moves.",
+      "primary_loci": ["Jayatīrtha, Pramāṇa-Paddhati, sākṣi-pratyakṣa-section", "Madhva, Pramāṇa-Lakṣaṇa"]
+    }
+  ],
+  "see_also": ["pramana", "anumana", "sabda", "saksi-pratyaksa", "indriya"],
+  "translator_note": "'Perception' is acceptable. The Dvaita *sākṣi-pratyakṣa* needs special care — Western readers will assume 'perception' means 'sense-perception' and miss the distinctive Dvaita extension."
+}

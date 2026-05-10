@@ -1,0 +1,22 @@
+{
+  "term_key": "anumana",
+  "term_iast": "anumāna",
+  "term_devanagari": "अनुमान",
+  "literal": "after-measuring, inference; from anu- + √mā 'to measure'",
+  "aliases": ["anumana", "anumāna", "Anumāna", "anumānasya", "anumāne"],
+  "invariant_definition": "Inference — the *pramāṇa* that produces cognition of an unperceived object on the basis of an invariable relation (*vyāpti*) between a known mark (*liṅga*) and the inferred object (*sādhya*). The Nyāya five-membered syllogism (*pratijñā*, *hetu*, *udāharaṇa*, *upanaya*, *nigamana*) is the standard form. All Vedāntic schools accept *anumāna* as a *pramāṇa*; the schools differ on whether *anumāna* can establish *brahman* (no school says yes; *brahman* requires *śabda*) and on the technical analysis of inference (Dvaita develops a distinctive treatment in Vyāsatīrtha's *Tarka-Tāṇḍava*).",
+  "per_school": [
+    {
+      "school": "Advaita / Viśiṣṭādvaita",
+      "definition": "*Anumāna* operates on its proper objects (e.g., the existence of fire from smoke); cannot establish *brahman*; can refute opposing positions (Sāṅkhya-pradhāna, etc.) by showing internal incoherence.",
+      "primary_loci": ["Vedānta-Paribhāṣā, anumāna-pariccheda", "Yatīndra-Mata-Dīpikā 1"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Anumāna* receives a sophisticated treatment in the post-Madhva tradition (Jayatīrtha, Vyāsatīrtha) responding to Navya-Nyāya. *Tarka-Tāṇḍava* is the principal Dvaita treatise on inference and a major contribution to Indian logic.",
+      "primary_loci": ["Vyāsatīrtha, Tarka-Tāṇḍava", "Jayatīrtha, Pramāṇa-Paddhati"]
+    }
+  ],
+  "see_also": ["pramana", "pratyaksa", "sabda", "vyapti", "linga", "hetu"],
+  "translator_note": "'Inference' is the standard gloss. The Indian theory of inference (especially the *vyāpti*-grounded structure) is technically distinct from the Aristotelian syllogism — *anumāna* requires an empirically established invariable concomitance, not merely formal validity."
+}

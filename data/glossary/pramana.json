@@ -1,0 +1,27 @@
+{
+  "term_key": "pramana",
+  "term_iast": "pramāṇa",
+  "term_devanagari": "प्रमाण",
+  "literal": "instrument-of-knowing; from pra- + √mā 'to measure, to know' + -ana (instrumental suffix)",
+  "aliases": ["pramana", "pramāṇa", "Pramāṇa", "pramāṇasya", "pramāṇāni", "pramāṇāt", "pramane"],
+  "invariant_definition": "An instrument of valid cognition; a means by which true knowledge (*pramā*) is produced. The standard Vedāntic enumerations vary: Advaita and Bhāṭṭa Mīmāṃsā accept six (*pratyakṣa*, *anumāna*, *upamāna*, *śabda*, *arthāpatti*, *anupalabdhi*); Viśiṣṭādvaita follows three (*pratyakṣa*, *anumāna*, *śabda*); Dvaita three (*pratyakṣa*, *anumāna*, *āgama*) plus a distinctive *sākṣi-pratyakṣa*. All Vedāntic schools agree that *śabda* (verbal testimony, especially of *śruti*) is the unique *pramāṇa* for *brahman* — perception and inference cannot establish it.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "Six *pramāṇas* (after Bhāṭṭa Mīmāṃsā). The technical apparatus is most fully articulated in Dharmarāja's *Vedānta-Paribhāṣā*. *Śabda-pramāṇa* is the unique source of *brahma-jñāna*; the *mahāvākyas* function as identity-statements producing *akhaṇḍākāra-vṛtti*.",
+      "primary_loci": ["Vedānta-Paribhāṣā (whole work)", "Brahma-Sūtra-Bhāṣya 1.1.4"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Three *pramāṇas*: *pratyakṣa*, *anumāna*, *śabda*. *Śabda* is supreme on Brahman; *pratyakṣa* and *anumāna* establish the world's reality.",
+      "primary_loci": ["Yatīndra-Mata-Dīpikā 1", "Nyāya-Pariśuddhi (Vedānta-Deśika)"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "Three *pramāṇas*: *pratyakṣa* (with *sākṣi-pratyakṣa* — the soul's intrinsic self-luminous awareness — recognized as a distinct sub-mode), *anumāna*, *āgama*. The Dvaita epistemology, developed in Jayatīrtha's *Pramāṇa-Paddhati* and Vyāsatīrtha's *Tarka-Tāṇḍava*, foregrounds *sākṣi-pratyakṣa* against the Advaita reflection-account.",
+      "primary_loci": ["Jayatīrtha, Pramāṇa-Paddhati", "Vyāsatīrtha, Tarka-Tāṇḍava", "Madhva, Pramāṇa-Lakṣaṇa"]
+    }
+  ],
+  "see_also": ["pratyaksa", "anumana", "sabda", "agama", "saksi-pratyaksa", "prama"],
+  "translator_note": "Translating *pramāṇa* as 'proof' or 'evidence' or 'source of knowledge' all lose precision. *Pramāṇa* is the *instrument* (karaṇa) that produces *pramā* (valid cognition) — a technical category of Indian epistemology with no exact Western counterpart. 'Means of valid cognition' is the standard scholarly gloss."
+}

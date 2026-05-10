@@ -1,0 +1,61 @@
+{
+  "id": "kanada",
+  "name": "Kanada",
+  "name_iast": "Kaṇāda",
+  "alternate_names": ["Kāśyapa", "Ulūka", "Aulūkya"],
+  "dates_low": -200,
+  "dates_high": 100,
+  "dates_tier": "contested",
+  "dates_notes": "Dating is anchored only by the relative position of the Vaiśeṣika-Sūtra to the Nyāya-Sūtra and to the early Buddhist Abhidharma; Frauwallner places Kaṇāda in the late centuries BCE, Halbfass in the first century BCE to first century CE. The biographical figure is a name attached to a sūtra-text; nothing personal is reliably known.",
+  "school": "Vaiśeṣika",
+  "school_color_token": "vaisesika-comparator",
+  "sub_school": "Old Vaiśeṣika",
+  "sub_school_shade": 2,
+  "lineage_in": [],
+  "lineage_out": ["prashastapada"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "badarayana",
+      "direction": "is-refuted-by",
+      "note": "Brahma-Sūtra 2.2.11–17 refutes the Vaiśeṣika paramāṇu-kāraṇa-vāda — the doctrine that atoms are the world-cause — through the structural impossibility of unconscious atoms initiating the first conjunction (saṃyoga) at creation."
+    },
+    {
+      "thinker_id": "sankara",
+      "direction": "is-refuted-by",
+      "note": "Brahma-Sūtra-Bhāṣya 2.2.11–17 develops Bādarāyaṇa's refutation: Śaṅkara argues that paramāṇus, being acetana, cannot self-initiate conjunction; a conscious cause is required, contrary to Vaiśeṣika atheism."
+    },
+    {
+      "thinker_id": "madhva",
+      "direction": "mutual",
+      "note": "Madhva is unusual among Vedāntins in redeploying Vaiśeṣika categories positively — viśeṣas are central to his ontology of internal differentiation within otherwise-identical entities (svagata-bheda); the relation is constructive on padārtha-theory, polemical on atomistic cosmology."
+    }
+  ],
+  "core_thesis": "Kaṇāda's *Vaiśeṣika-Sūtra* founds a darśana of categorial realism. Reality is exhaustively analysable into six *padārthas* — *dravya* (substance), *guṇa* (quality), *karma* (motion), *sāmānya* (universal), *viśeṣa* (ultimate particular), *samavāya* (inherence). The school's name derives from *viśeṣa*, the ultimate-particular category that distinguishes otherwise-indiscernible eternal substances (paradigmatically *paramāṇus*). The cosmology is atomistic: macroscopic substances are composed of *paramāṇus* of four element-types (earth, water, fire, air), which combine first into dyads (*dvy-aṇuka*) then into triads (*try-aṇuka*) under the impulse of *adṛṣṭa* (the unseen residue of past action). The four non-atomic eternal *dravyas* — *ākāśa*, *kāla*, *dik*, *ātman* — complete the inventory. *Mokṣa* is the cessation of all nine *ātma-viśeṣa-guṇas* (cognitions, pleasures, pains, desires, aversions, volitions, *dharma*, *adharma*, *saṃskāra*) — a cool, qualityless persistence of *ātman* without consciousness as a present quality. The *Vaiśeṣika-Sūtra* in this form does not name *īśvara*; the theistic reformulation enters with Praśastapāda. The *padārtha*-grid becomes the basic vocabulary of every later Indian realism, and *Brahma-Sūtra* 2.2.11–17 is the canonical Vedāntic refutation of its atomism.",
+  "engaged_works": [
+    {
+      "work_id": "vaisesika-sutra",
+      "title": "Vaisesika-Sutra",
+      "title_iast": "Vaiśeṣika-Sūtra",
+      "alternate_titles": ["Kaṇāda-Sūtra", "Aulūkya-Darśana"],
+      "composition_dates_low": -200,
+      "composition_dates_high": 100,
+      "composition_dates_notes": "Composition fixed only by the text's relative position to the Nyāya-Sūtra and early Abhidharma.",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Uniformly ascribed to Kaṇāda (also Kāśyapa, Ulūka) by tradition; the composite-text question — whether the surviving sūtras are a single redaction or a layered compilation — remains open in modern scholarship.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Frauwallner (Geschichte der indischen Philosophie II); Halbfass (1992, On Being and What There Is); Matilal (Nyāya-Vaiśeṣika)."}
+      ],
+      "genre": "verse-summary",
+      "language": "sanskrit",
+      "summary": "Ten *adhyāyas*, each in two *āhnikas*, of compressed *sūtras*. The first *adhyāya* states the six *padārthas* and gives the school's account of *dharma* as the means to *abhyudaya* (worldly flourishing) and *niḥśreyasa* (the highest good). The second and third *adhyāyas* analyse *dravyas* — earth, water, fire, air, *ākāśa*, *kāla*, *dik*, *ātman*, *manas* — and establish the inferences for the supersensible substances (*ātman* from desire and aversion; *manas* from the impossibility of multiple simultaneous cognitions). The fourth and fifth *adhyāyas* analyse *guṇa* and *karma*. The sixth *adhyāya* gives the school's ethics — *dharma* as Vedic *codanā*-conformity supplemented by *abhyudaya*-promoting acts. The seventh *adhyāya* analyses *sāmānya*, *viśeṣa*, and *samavāya*. The eighth and ninth *adhyāyas* analyse cognition and the *vidyās*, including the doctrine of *yogi-pratyakṣa*. The tenth *adhyāya* analyses pleasure, pain, and the *mokṣa*-doctrine: cessation of the nine *viśeṣa-guṇas* of *ātman*. The text is unintelligible without commentary; the principal classical commentaries are Candrānanda's *Vṛtti* and Praśastapāda's later, recasting *Padārtha-Dharma-Saṅgraha*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-comparators-darsana-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-comparators-darsana-opus"
+}

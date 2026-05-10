@@ -509,5 +509,75 @@
     "shade": 4,
     "short_description": "Maheśvarānanda's Mahārtha-Mañjarī with the Parimala auto-commentary: the mature South-Indian Krama systematisation.",
     "representative_thinker_ids": ["mahesvarananda"]
+  },
+  "purna-advaita-integral": {
+    "display_name": "Pūrṇa-Advaita / Integral Vedānta",
+    "parent_school_color_token": "advaita",
+    "shade": 1,
+    "short_description": "Sri Aurobindo's Pūrṇa-Advaita: Brahman as Saccidānanda whose real self-multiplication through descending grades and evolutionary ascent is affirmed against any reading of Śaṅkara that makes the manifest world ultimately unreal.",
+    "representative_thinker_ids": ["aurobindo"]
+  },
+  "ramananda-sampradaya": {
+    "display_name": "Rāmānanda Sampradāya / Rāma-Viśiṣṭādvaita",
+    "parent_school_color_token": "vishishtadvaita",
+    "shade": 4,
+    "short_description": "Rāma-centric Viśiṣṭādvaita of the Rāmānanda Sampradāya, preserving Rāmānuja's śarīra-śarīrin template with Rāma (Sītā-Rāma) as the parabrahman of every Upaniṣad.",
+    "representative_thinker_ids": ["ramabhadracarya"]
+  },
+  "vadakalai-modern-systematic": {
+    "display_name": "Vaḍakalai (modern systematic)",
+    "parent_school_color_token": "vishishtadvaita",
+    "shade": 4,
+    "short_description": "Twentieth-century Vaḍakalai consolidation (Uttamūr Vīrarāghavācārya, Abhinava Deśika), integrating Navya-Nyāya logical apparatus into Viśiṣṭādvaita exegesis and defending Vedānta-Deśika's positions against Advaita and Tenkalai criticism.",
+    "representative_thinker_ids": ["uttamur-viraraghavacharya"]
+  },
+  "vadakalai-upanishad-bhashya": {
+    "display_name": "Vaḍakalai (Upaniṣad-bhāṣya tradition)",
+    "parent_school_color_token": "vishishtadvaita",
+    "shade": 3,
+    "short_description": "Late-sixteenth- to mid-seventeenth-century Vaḍakalai stream (Raṅgarāmānuja Muni) that produced the school's first Sanskrit Upaniṣad-bhāṣyas, filling the bhāṣya-coverage gap left by Rāmānuja.",
+    "representative_thinker_ids": ["rangaramanuja-muni"]
+  },
+  "vivarana-modern-editorial": {
+    "display_name": "Vivaraṇa (modern editorial-polemical)",
+    "parent_school_color_token": "advaita",
+    "shade": 5,
+    "short_description": "Twentieth-century Vivaraṇa-line modern editorial-polemical Advaita (Anantakṛṣṇa Śāstrī), defending the post-Madhusūdana scholastic apparatus through critical editions of the Advaita-Siddhi / Nyāyāmṛta exchange and polemical treatises against Viśiṣṭādvaita and Holenarsipur revisionism.",
+    "representative_thinker_ids": ["anantakrishna-sastri"]
+  },
+  "vivriti-pratyabhijna-advaita": {
+    "display_name": "Vivṛti-Pratyabhijñā Advaita",
+    "parent_school_color_token": "advaita",
+    "shade": 5,
+    "short_description": "Satchidānandendra Sarasvatī's Śuddha-Śāṅkara-Prakriyā: post-Śaṅkara Advaita scholasticism (mūlāvidyā, Bhāmatī, Vivaraṇa) is read against the adhyāsa-bhāṣya method as a deviation from Śaṅkara's own bhāṣya-corpus.",
+    "representative_thinker_ids": ["satchidanandendra"]
+  },
+  "tattvavada-modern": {
+    "display_name": "Tattvavāda (modern philological-textual)",
+    "parent_school_color_token": "dvaita",
+    "shade": 5,
+    "short_description": "Twentieth- and early-twenty-first-century philological-textual Dvaita (Bannañje Govindācārya), re-establishing Madhva's full Sarva-Mūla-Granthāḥ as a critically-edited corpus and supplying modern Sanskrit vyākhyānas across the school's canon.",
+    "representative_thinker_ids": ["bannanje"]
+  },
+  "gaudiya-matha": {
+    "display_name": "Gauḍīya Maṭha (modern systematic-institutional)",
+    "parent_school_color_token": "acintya",
+    "shade": 5,
+    "short_description": "Bhaktisiddhānta Sarasvatī's modern systematic-institutional Gauḍīya tradition, codifying acintya-śakti through the Anubhāṣya on the Caitanya-Caritāmṛta and the Bhāgavata-commentary, founding the Gauḍīya Maṭha (1920) as the institutional vehicle.",
+    "representative_thinker_ids": ["bhaktisiddhanta"]
+  },
+  "dashanami-sarasvati-revivalism": {
+    "display_name": "Daśanāmī-Sarasvatī (modern dharmic-political revivalism)",
+    "parent_school_color_token": "advaita",
+    "shade": 4,
+    "short_description": "Twentieth-century Daśanāmī-Sarasvatī revivalist Advaita (Karpātrī), combining conservative orthodox Vedānta with vigorous public defense of varṇāśrama-dharma and sanātana-dharma against modern reformism.",
+    "representative_thinker_ids": ["karpatri"]
+  },
+  "shringeri-patta": {
+    "display_name": "Śṛṅgerī-paṭṭa (modern living-Advaita)",
+    "parent_school_color_token": "advaita",
+    "shade": 4,
+    "short_description": "Modern Sringeri-paṭṭa Advaita continuity (Candraśekhara Bhāratī III, jagadguru 1912–1954), preserving the Vivaraṇa-Bhāmatī-synthesis curriculum of the Sringeri Śāradā Pīṭha as living institutional tradition.",
+    "representative_thinker_ids": ["candrasekhara-bharati"]
   }
 }
