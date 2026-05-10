@@ -1,0 +1,42 @@
+{
+  "term_key": "ishta-devata",
+  "term_iast": "iṣṭa-devatā",
+  "term_devanagari": "इष्टदेवता",
+  "literal": "the chosen / desired deity; from iṣṭa (\"chosen, desired\") + devatā (\"deity\")",
+  "aliases": ["ishta-devata", "iṣṭa-devatā", "iṣṭadevatā", "iṣṭa-devata"],
+  "invariant_definition": "Chosen-deity practice — the cross-tradition Indic doctrine and ritual structure under which a practitioner's relation to the divine is mediated through a single chosen deity-form (the *iṣṭa-devatā*) rather than through the divine in undifferentiated abstraction. The *iṣṭa-devatā* is typically received from the *guru* at *dīkṣā* (initiation) along with the deity's *mantra*, and becomes the focus of the practitioner's daily *sādhana*: *japa*, *dhyāna*, *pūjā*, *nāma-saṅkīrtana* are all conducted with reference to the *iṣṭa-devatā*. The doctrine functions across traditions: in Pāñcarātra Vaiṣṇavism, the *iṣṭa-devatā* is one of the *vibhava*-incarnations or one of the *vyūha*-forms; in Śaiva traditions, it is Śiva in one of his determinate forms; in Śākta traditions, it is the goddess in one of her *mūrtis* (Tripurā-Sundarī, Kālī, Durgā, etc.). The Vīraśaiva *iṣṭa-liṅga* is a special form of *iṣṭa-devatā* practice in which the chosen deity is Śiva-as-*liṅga* worn on the body. The Smārta tradition formalises *iṣṭa-devatā* in the *pañcāyatana-pūjā* structure, in which any of five deities (Viṣṇu, Śiva, Devī, Sūrya, Gaṇeśa) may be the central *iṣṭa-devatā* with the others supporting.",
+  "per_school": [
+    {
+      "school": "Pāñcarātra (Vaiṣṇava)",
+      "definition": "The *iṣṭa-devatā* is typically a *vibhava*-incarnation (Rāma, Kṛṣṇa, Narasiṃha, etc.) or a *vyūha*-form; the *dīkṣā*-mantra fixes the practitioner's relation to that form, and the *pañca-kāla* discipline is conducted in reference to it.",
+      "primary_loci": ["Sātvata-Saṃhitā (dīkṣā-chapters)", "Lakṣmī-Tantra"]
+    },
+    {
+      "school": "Pratyabhijñā / Trika (Śaiva)",
+      "definition": "The *iṣṭa-devatā* is Śiva-Bhairava in one of the determinate forms of the Bhairava-tantra canon; *dīkṣā* fixes the practitioner's relation through the source-tantra's mantra-cosmology.",
+      "primary_loci": ["Tantrāloka 15–16 (dīkṣā-chapters)", "Mālinī-Vijaya-Tantra (dīkṣā-chapters)"]
+    },
+    {
+      "school": "Śākta (Śrīvidyā, Krama)",
+      "definition": "The *iṣṭa-devatā* is the goddess in one of her determinate forms (Tripurā-Sundarī in Śrīvidyā, Kālī in Krama); the *śrī-vidyā* mantra and the *cakra*-cosmology fix the relation.",
+      "primary_loci": ["Tripurā-Rahasya", "Saundarya-Laharī"]
+    },
+    {
+      "school": "Vīraśaiva",
+      "definition": "The *iṣṭa-devatā* takes the special form of the *iṣṭa-liṅga* — a personal *liṅga* worn on the body and worshipped throughout life as Śiva-as-such. The doctrine is that the *iṣṭa-liṅga* is identical with one's own essential consciousness as Śiva.",
+      "primary_loci": ["Basava-vacanas", "Cennabasavapurāṇa"]
+    },
+    {
+      "school": "Smārta (Pañcāyatana)",
+      "definition": "The *iṣṭa-devatā* may be any of five deities (Viṣṇu, Śiva, Devī, Sūrya, Gaṇeśa) in the standard Smārta *pañcāyatana-pūjā* structure; the chosen *iṣṭa* takes the central position and the other four are arranged around it.",
+      "primary_loci": ["Smṛti-traditions on pañcāyatana-pūjā"]
+    },
+    {
+      "school": "Gauḍīya (Acintya-Bhedābheda)",
+      "definition": "The *iṣṭa-devatā* is Kṛṣṇa in one of the *līlā*-forms (typically the *ujjvala-rasa* form for the Gauḍīya tradition); the *iṣṭa* relation is the structural ground of *bhakti-rasa* development.",
+      "primary_loci": ["Bhakti-Rasāmṛta-Sindhu (Rūpa Gosvāmī)"]
+    }
+  ],
+  "see_also": ["ishta-linga", "bhakti", "sadhana", "guru", "vyuha"],
+  "translator_note": "'Chosen deity' or 'personal deity' acceptable. The Western reader should not import the Christian-Protestant 'personal relation with God' frame uncritically — the *iṣṭa-devatā* relation is mediated through *guru*, *mantra*, *dīkṣā*, and ritual discipline, and is not a sentimental-individualist private religion. The choice of *iṣṭa* is conditioned by lineage, *guru*-transmission, and natural inclination (*adhikāra*) rather than by free individual selection from a deity-menu."
+}
