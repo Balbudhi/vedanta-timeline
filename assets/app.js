@@ -1104,36 +1104,6 @@ function scrollDotIntoView(t) {
 function closeDetailPane() { closePanel(); }
 closeDetail.addEventListener("click", closePanel);
 
-// Click on empty timeline area (not on a thinker dot) closes the detail panel.
-// Lets the user dismiss by clicking back to the map, while still preserving
-// dot-clicks (which open a different thinker) and pan-drags.
-const timelineScroller = document.getElementById("timelineScroller");
-if (timelineScroller) {
-  let pressX = 0, pressY = 0, pressMoved = false;
-  timelineScroller.addEventListener("pointerdown", (e) => {
-    pressX = e.clientX; pressY = e.clientY; pressMoved = false;
-  });
-  timelineScroller.addEventListener("pointermove", (e) => {
-    if (Math.abs(e.clientX - pressX) > 4 || Math.abs(e.clientY - pressY) > 4) pressMoved = true;
-  });
-  timelineScroller.addEventListener("click", (e) => {
-    if (pressMoved) return; // it was a drag, not a click
-    if (!document.body.classList.contains("is-detail-open")) return;
-    const onDot = e.target.closest(".timeline-dot, .lineage-edge, .lane-rail, .era-strip");
-    if (onDot) return; // dot/edge/rail clicks have their own behavior
-    closePanel();
-  });
-}
-
-// Esc also closes the unified panel (in addition to its other handlers).
-document.addEventListener("keydown", (e) => {
-  if (e.key === "Escape" && document.body.classList.contains("is-detail-open")) {
-    // Don't fight other Esc-handlers if a modal is open above the panel.
-    const modalOpen = document.querySelector(".articles-modal[aria-hidden='false'], .about-modal[aria-hidden='false'], .reader-modal[aria-hidden='false']");
-    if (!modalOpen) closePanel();
-  }
-});
-
 // ---------- detail rendering -----------
 function renderDetail(t) {
   return [
