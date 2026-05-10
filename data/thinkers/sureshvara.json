@@ -1003,7 +1003,7 @@
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1-rewrite-opus",
+  "last_verified_by": "wave-translation-audit-opus",
   "polemic_chain_ids": [
     "bhaskara-pracchanna-bauddha",
     "kumarila-mandana-jnana-karma-samuccaya",

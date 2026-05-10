@@ -1573,7 +1573,7 @@
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-audit-fix-opus",
+  "last_verified_by": "wave-translation-audit-opus",
   "polemic_chain_ids": [
     "acintya-shakti-defense",
     "bhaskara-pracchanna-bauddha",
