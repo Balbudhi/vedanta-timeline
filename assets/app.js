@@ -1362,7 +1362,16 @@ function renderMarkdownFull(src) {
 // ---------- keyboard nav -----------
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") {
-    if (readerModal.classList.contains("is-open")) {
+    if (articleReader.classList.contains("is-open")) {
+      articleReader.classList.remove("is-open");
+      articleReader.setAttribute("aria-hidden", "true");
+    } else if (articlesModal.classList.contains("is-open")) {
+      articlesModal.classList.remove("is-open");
+      articlesModal.setAttribute("aria-hidden", "true");
+    } else if (aboutModal.classList.contains("is-open")) {
+      aboutModal.classList.remove("is-open");
+      aboutModal.setAttribute("aria-hidden", "true");
+    } else if (readerModal.classList.contains("is-open")) {
       readerModal.classList.remove("is-open");
       readerModal.setAttribute("aria-hidden", "true");
     } else if (document.body.classList.contains("is-reading-mode")) {
