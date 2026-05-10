@@ -256,7 +256,7 @@ The optative matters. Rāghavendra does not say “I explain”; he says, in eff
 ### Opening prose sentence
 
 **Sanskrit (IAST):**
-> *ādya-padyam vivṛṇvāno granthādau namyatva-prayojaka-viśiṣṭatveṣṭatvādhi-kṛtatva-yukta-devatā-nati-rūpaṃ maṅgalam ācarati.*
+> *ādya-padyam vivṛṇvāno granthādau namyatva-prayojaka-viśiṣṭatva-iṣṭatva-adhikṛtatva-yukta-devatā-nati-rūpaṃ maṅgalam ācarati.*
 
 **English (line-by-line):**
 > While explaining the first verse, at the beginning of the treatise, he performs an auspicious opening.  
@@ -269,7 +269,7 @@ The optative matters. Rāghavendra does not say “I explain”; he says, in eff
 | ādya-padyam | ādya-padya | acc sg neut | the first verse |
 | vivṛṇvānaḥ | vi-√vṛ | pres ptcp nom sg masc Ā | explaining, unfolding |
 | granthādau | grantha-ādi | loc sg masc | at the beginning of the treatise |
-| namyatva-prayojaka-viśiṣṭatveṣṭatvādhi-kṛtatva-yukta-devatā-nati-rūpam | namyatva-prayojaka-viśiṣṭatva-iṣṭatva-adhikṛtatva-yukta-devatā-nati-rūpa | acc sg neut | having the form of salutation to a deity endowed with distinctiveness, desirability, and authority as causes of worthiness-to-be-saluted |
+| namyatva-prayojaka-viśiṣṭatva-iṣṭatva-adhikṛtatva-yukta-devatā-nati-rūpam | namyatva-prayojaka-viśiṣṭatva-iṣṭatva-adhikṛtatva-yukta-devatā-nati-rūpa | acc sg neut | having the form of salutation to a deity endowed with distinctiveness, desirability, and authority as causes of worthiness-to-be-saluted |
 | maṅgalam | maṅgala | acc sg neut | an auspicious opening |
 | ācarati | ā-√car | 3 sg pres ind P | performs, undertakes |
 
