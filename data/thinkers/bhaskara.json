@@ -69,10 +69,37 @@
   ],
   "key_passages": [],
   "comparative_claim_ids": [],
+  "quoted_by": [
+    {
+      "thinker_id": "padmapada",
+      "work_id": "pancapadika",
+      "locus": "engaging the *bhedābheda* alternative",
+      "what_quoted": "Padmapāda's *Pañcapādikā* engages the Bhedābheda position structurally close to Bhāskara's; the *vivarta* / *pariṇāma* dispute is shaped by the contrast.",
+      "on_disk": true,
+      "on_disk_path": "/materials/primary_texts/sanskrit/vedanta/full_corpus/padmapada_pancapadika_venkataramiah_1948_archive.pdf",
+      "on_disk_note": "Padmapāda is OCR'd in /materials/primary_texts/sanskrit/_replaced/padmapada_pancapadika_dli_archive_djvu.txt; direct text-grep returns one Bhāskara hit."
+    },
+    {
+      "thinker_id": "vidyaranya",
+      "work_id": "vivarana-prameya-sangraha",
+      "locus": "passim, on the Vivaraṇa-school refutation of *bhedābheda*",
+      "what_quoted": "Vidyāraṇya's compendium engages the post-Padmapāda Vivaraṇa-school refutations of Bhāskara-line *aupādhika-bhedābheda*.",
+      "on_disk": true,
+      "on_disk_path": "/materials/primary_texts/sanskrit/vedanta/full_corpus/vidyaranya_vivarana_prameya_sangraha_1893_archive.pdf"
+    },
+    {
+      "thinker_id": "madhusudana",
+      "work_id": "advaita-siddhi",
+      "locus": "passim",
+      "what_quoted": "Madhusūdana's *Advaita-Siddhi* engages the *bhedābheda* position and its *pracchanna-bauddha* charge as the principal Advaita rebuttal-target.",
+      "on_disk": true,
+      "on_disk_path": "/materials/primary_texts/sanskrit/_kashmir_saivism/AdvaitasiddhiVsNyayamrta.txt"
+    }
+  ],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus",
+  "last_verified_by": "wave-claim-grounding-opus",
   "polemic_chain_ids": [
     "acintya-shakti-defense",
     "bhaskara-pracchanna-bauddha",

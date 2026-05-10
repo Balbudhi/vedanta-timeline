@@ -641,8 +641,27 @@
     }
   ],
   "comparative_claim_ids": [],
+  "quoted_by": [
+    {
+      "thinker_id": "sankara",
+      "work_id": "brhadaranyaka-bhasya",
+      "locus": "passim across the *Bṛhadāraṇyaka-Bhāṣya*",
+      "what_quoted": "Bhartṛprapañca as the principal pre-Śaṅkara *bhedābheda* *pūrvapakṣin* engaged across many chapters; his dual-aspect *pariṇāma*-thesis, the *aṣṭa-rūpa* taxonomy, *aupacārika abhinnatva*, and *jñāna-karma-samuccaya* are reconstructed by Hiriyanna 1924 from these refutation-passages.",
+      "on_disk": true,
+      "on_disk_path": "/materials/primary_texts/sanskrit/upanishads/brhadaranyaka_with_shankara.txt",
+      "on_disk_note": "Direct text-grep of 'bhartṛprapañca' returns 0 hits in the GRETIL ed. of the BU-with-Śaṅkara on disk; the orthography in the GRETIL file may differ. Hiriyanna's 1924 reconstruction is on disk in image-only PDF form (/materials/primary_texts/sanskrit/vedanta/full_corpus/bhartrprapanca_hiriyanna_indian_antiquary_vol53_1924_archive.pdf) and remains the canonical secondary source."
+    },
+    {
+      "thinker_id": "sureshvara",
+      "work_id": "brhadaranyaka-varttika",
+      "locus": "passim",
+      "what_quoted": "Sureśvara's *Bṛhadāraṇyaka-Vārttika* expands Śaṅkara's refutations of Bhartṛprapañca and adds further attributed positions.",
+      "on_disk": true,
+      "on_disk_path": "/materials/primary_texts/sanskrit/vedanta/full_corpus/suresvara_brhadaranyaka_varttika_english_archive.pdf"
+    }
+  ],
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-claim-grounding-opus"
 }

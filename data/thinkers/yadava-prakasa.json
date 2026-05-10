@@ -45,8 +45,26 @@
   ],
   "key_passages": [],
   "comparative_claim_ids": [],
+  "quoted_by": [
+    {
+      "thinker_id": "ramanuja",
+      "work_id": "vedartha-sangraha",
+      "locus": "§§22–28 (the *eka-vastu-tritayāvasthā* refutation, attributing to Yādava the position that Brahman as one substance manifests as the triad *cit*, *acit*, *Īśvara*)",
+      "what_quoted": "Rāmānuja's reconstruction of Yādava's *bhedābheda* on three modes of one substance, with suffering ascribed to Brahman-as-modified.",
+      "on_disk": true,
+      "on_disk_path": "/materials/primary_texts/sanskrit/vedanta/ramanuja_vedartha_sangraha.txt"
+    },
+    {
+      "thinker_id": "ramanuja",
+      "work_id": "sri-bhasya",
+      "locus": "1.1.1 *mahā-pūrvapakṣa*; 2.1.9 *śarīra-śarīrin* qualification",
+      "what_quoted": "The opening *mahā-pūrvapakṣa* devotes substantial space to Yādava's attributed position; the *śarīra-śarīrin* qualification at 2.1.9 is designed to refuse the consequence Rāmānuja extracts from Yādava (that Brahman directly undergoes embodied suffering).",
+      "on_disk": true,
+      "on_disk_path": "/materials/primary_texts/sanskrit/_more/SribhasyaOfRamanujaPart1Chatuhsutri1959R.D.Karmakar.txt"
+    }
+  ],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-claim-grounding-opus"
 }
