@@ -826,6 +826,88 @@ body.is-detail-open .detail-pane {
   font-style: italic;
 }
 
+/* =============================================================
+   PERSPECTIVES — interpretive readings, explicitly flagged
+   ============================================================= */
+.perspective-card {
+  background: #fffaf0;
+  border: 1px solid #e7d9b8;
+  border-left: 4px solid #b45309;
+  border-radius: 4px;
+  padding: 18px 22px 16px;
+  margin: 12px 0;
+  position: relative;
+}
+.perspective-pill {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 10px; font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: #fef3c7;
+  color: #78350f;
+  vertical-align: middle;
+}
+.perspective-card .perspective-pill {
+  position: absolute;
+  top: 14px; right: 18px;
+}
+.perspective-pill--inline {
+  margin-right: 6px;
+  position: static;
+  font-size: 9px;
+  padding: 2px 7px;
+}
+.perspective-title {
+  font-family: var(--serif);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.35;
+  margin: 0 96px 6px 0;
+  color: var(--ink);
+}
+.perspective-subtitle {
+  font-family: var(--serif);
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  margin: 4px 0 10px;
+}
+.perspective-disclaimer {
+  font-family: var(--sans);
+  font-size: 12px;
+  line-height: 1.55;
+  color: #78350f;
+  background: #fef9e7;
+  border: 1px dashed #d6b873;
+  border-radius: 3px;
+  padding: 8px 10px;
+  margin: 8px 0 12px;
+}
+.perspective-disclaimer em {
+  font-style: italic;
+  font-weight: 600;
+  color: #7c2d12;
+}
+.perspective-open {
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 600;
+  background: var(--ink);
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+.perspective-open:hover { background: #1f2937; }
+@media (max-width: 720px) {
+  .perspective-card .perspective-pill { top: auto; bottom: 14px; right: 14px; }
+  .perspective-title { margin-right: 0; padding-bottom: 0; }
+}
+
 /* prose helpers */
 em { font-style: italic; }
 strong { font-weight: 600; }

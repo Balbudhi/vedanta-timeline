@@ -63,7 +63,7 @@ The verse states a hierarchy of causal dependence rather than a merely chronolog
 ### 1.2
 
 **Sanskrit (IAST):**
-> *bījaṃ kṛpā yaj jinaśasyarāśes*  
+> *bījaṃ kṛpā yajjinaśasyarāśeḥ*  
 > *tadvṛddhaye vārisamā cirāya |*  
 > *bhogāya pākaś ca yathaiva mānyaḥ,*  
 > *ādau mamātaḥ karuṇāpraśaṃsā ||*
@@ -797,9 +797,9 @@ Self-sacrifice is not theatrical here. It functions as a bridge from one's own l
 
 **Sanskrit (IAST):**
 > *pradeyasaṅgrāhakadātṛśūnyaṃ*  
-> *vadanti lokottarapāramitim |*  
+> *vadanti lokottarapāramitīm |*  
 > *trayīṣu rāgodbhavataḥ pradiṣṭaṃ*  
-> *tadeva vai laukikapāramitim ||*
+> *tadeva vai laukikapāramitīm ||*
 
 **English (line-by-line):**
 > That which is empty of the gift, the recipient, and the giver  

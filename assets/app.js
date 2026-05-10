@@ -256,6 +256,10 @@ async function loadAll() {
     buildGlossaryRegex();
   }
 
+  // Perspectives layer (interpretive readings, flagged as such) — load early so the
+  // detail pane's Perspectives section is available on the first thinker open.
+  ensurePerspectivesLoaded();
+
   computeRange();
   computeRenderLanes();
   computeLayout();
@@ -1673,10 +1677,18 @@ async function openArticle(a) {
   articlesModal.classList.remove("is-open");
   articleReader.classList.add("is-open");
   articleReader.setAttribute("aria-hidden", "false");
-  articleReaderTitle.textContent = a.title;
+  // Add a PERSPECTIVE pill into the title for explicit kind-flagging.
+  if (a.kind === "perspective") {
+    articleReaderTitle.innerHTML = `<span class="perspective-pill perspective-pill--inline">PERSPECTIVE</span> ${escape(a.title)}`;
+  } else {
+    articleReaderTitle.textContent = a.title;
+  }
   articleReaderContent.innerHTML = "<article><p>Loading…</p></article>";
-  // Articles live at data/articles/source/<slug>.md
-  const r = await fetch(`data/articles/source/${a.slug}.md`);
+  // Resolve source path: prefer manifest's source_doc when given, else default convention.
+  const path = a.source_doc || (a.kind === "perspective"
+    ? `data/perspectives/source/${a.slug}.md`
+    : `data/articles/source/${a.slug}.md`);
+  const r = await fetch(path);
   if (!r.ok) {
     articleReaderContent.innerHTML = `<article><h1>${escape(a.title)}</h1><p>Article body not yet uploaded.</p></article>`;
     return;

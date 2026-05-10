@@ -1,16 +1,16 @@
 # Tattva-Muktā-Kalāpa — Extended Translation
 **By:** Vedānta Deśika  
-**Locus scope:** Opening maṅgalācaraṇa (prefatory verse 1 of the *Tattva-Muktā-Kalāpa* / *Sarvārtha-Siddhi* combined edition)  
-**Source edition transcribed from:** *Tattva Mukta Kalapa - Sarvartha Siddhi - Vedanta Desika*, ed. Rāma Miśra Śāstrī, Varanasi, 1900 (Internet Archive page-image scan).  
-**Translator:** Pāṇinian-rich extraction by Codex 5.4 (reasoning=high), 2026-05-09.
+**Locus scope:** Opening prefatory cluster of the *Tattva-Muktā-Kalāpa*; source-constrained here to prefatory verse 1, since the broader opening unit survives on disk only as an image-only scan with corrupt OCR sidecars and cannot be established line-securely without fresh hand-OCR  
+**Source edition transcribed from:** *Tattva Mukta Kalapa - Sarvartha Siddhi - Vedanta Desika*, ed. Rāma Miśra Śāstrī, Varanasi, 1900 (Internet Archive page-image scan)  
+**Translator:** Pāṇinian-rich extraction by Codex 5.4 (reasoning=high), 2026-05-10.
 
 ---
 
 ## Editorial introduction
 
-The opening verse does more than salute Rāmānuja. It installs the hermeneutic authority under which the whole *Tattva-Muktā-Kalāpa* is to be read. Deśika begins neither with a bare ontological thesis nor with a summary of *padārtha*-division, but with a densely packed praise-verse in which *Yatīndra* is figured under four linked images: source of the river of all learning, resting branch for those exhausted by the circuit of birth, dawn against the night of delusive false views, and moon filling the tidal edge of the Vedic ocean. The grammar matters. All four compound-nominals stand in apposition to *yatīndraḥ*, and the single finite verb *jayati* lets the verse gather pedagogy, soteriology, polemic, and scriptural exegesis into one act of triumph. That is exactly the order of dependence the work assumes.
+The natural opening unit of the *Tattva-Muktā-Kalāpa* is not a single isolated verse, but the prefatory cluster with which Deśika places the treatise under Rāmānuja's authority and then begins to advertise its method. The work metadata for this thinker points precisely to that cluster by citing three load-bearing opening loci: the *maṅgalācaraṇa*, the early statement on *pramāṇa*, and the early statement on the non-conflict and respective jurisdiction of the two *śāstra*-domains. In a clean edition one would therefore translate the whole opening run as the proper extended unit. That is the natural scope.
 
-This single verse is therefore a natural introductory unit even before the explicit ontological programme appears. The bifurcation of *tattva* into *dravya* and *adravya* is announced only later, at the opening of the *Jaḍa-dravya-sara* (notably at v. 6 in this edition's running numeration), and the differentiated treatment of *jīva*, *Īśvara*, and *dharma-bhūta-jñāna* unfolds still later in the several *sara*-sections. But those later arguments are already governed by this first act of placement: Deśika writes as one standing within the Rāmānuja-line, and the verse makes that dependence formally explicit. The scope here is kept to the directly verifiable opening maṅgala of the 1900 page-image edition, whose text can be established from the scan itself with confidence.
+The source situation does not permit that here without fabrication. The only primary text presently on disk is the 1900 combined *Tattva-Muktā-Kalāpa*/*Sarvārtha-Siddhi* page-image scan. Its OCR sidecars are badly corrupt in the Devanāgarī opening leaves: enough survives to confirm the general placement of the prefatory material, and to recover parts of later verses, but not enough to establish every akṣara of the cited opening cluster with Cambridge-level security. I therefore restrict the line-secure translation to the one verse that is fully recoverable from the scan itself, namely the opening *maṅgala*. For the broader philosophical orientation of the work, I have used only secondary description for context, chiefly S. M. Srinivasa Chari, *Fundamentals of Viśiṣṭādvaita Vedānta: A Study Based on Vedānta Deśika's Tattva-Muktā-Kalāpa* (Motilal Banarsidass, 2004). The line-by-line translation below, however, rests on the primary page image alone.
 
 ---
 
@@ -19,30 +19,30 @@ This single verse is therefore a natural introductory unit even before the expli
 ### Prefatory verse 1
 
 **Sanskrit (IAST):**
-> *jayati sakalavidyāvāhinījanmaśailo janipathaparivṛttiśrāntaviśrāntiśākhī |  
-> nikhilakumatimāyāśarvarībālasūryo nigamajaladhivelāpūrṇacandro yatīndraḥ || 1 ||*
+> *jayati sakalavidyāvāhinījanmaśailo janipathaparivṛttiśrāntaviśrāntiśākhī |*  
+> *nikhilakumatimāyāśarvarībālasūryo nigamajaladhivelāpūrṇacandro yatīndraḥ || 1 ||*
 
 **English (line-by-line):**
-> *Yatīndra* triumphs: he is the mountain from which the river of all learning is born, the branch of rest for those wearied by their circling on the road of birth.  
-> He is the young sun to the night of *māyā* made up of every bad doctrine, the full moon that swells the shoreline of the ocean of Vedic revelation.
+> *Yatīndra* triumphs: he is the mountain from which the river of all learning is born, the branch of repose for those wearied by circling along the road of birth.  
+> He is the young sun to the night that consists in the delusive *māyā* of every false doctrine, the full moon that fills out the shoreline of the ocean of Vedic revelation.
 
 **Word-by-word:**
 
 | Pada | Stem / root | Pratyaya / morphology | Gloss |
 |---|---|---|---|
-| jayati | √ji | laṭ, 3rd sg, parasmaipada | triumphs, is victorious |
-| sakalavidyāvāhinījanmaśailaḥ | sakala-vidyā-vāhinī-janma-śaila | nom sg masc, compound | the mountain that is the source of the river of all learning |
-| janipathaparivṛttiśrāntaviśrāntiśākhī | jani-patha-parivṛtti-śrānta-viśrānti-śākhin | nom sg masc, compound | the branch of repose for those exhausted by turning on the path of birth |
-| nikhilakumatimāyāśarvarībālasūryaḥ | nikhila-kumati-māyā-śarvarī-bāla-sūrya | nom sg masc, compound | the young sun to the night constituted by the delusion of all wrong views |
-| nigamajaladhivelāpūrṇacandraḥ | nigama-jaladhi-velā-pūrṇa-candra | nom sg masc, compound | the full moon that fills or swells the shore of the ocean of the Veda |
-| yatīndraḥ | yatīndra | nom sg masc | Yatīndra, the lord of ascetics, i.e. Rāmānuja |
+| jayati | √ji | laṭ, 3rd singular, parasmaipada | triumphs, is victorious |
+| sakalavidyāvāhinījanmaśailaḥ | sakala-vidyā-vāhinī-janma-śaila | nominative singular masculine, compound | the mountain that is the birthplace of the river of all learning |
+| janipathaparivṛttiśrāntaviśrāntiśākhī | jani-patha-parivṛtti-śrānta-viśrānti-śākhin | nominative singular masculine, compound | the branch of rest for those exhausted by repeated turning on the path of birth |
+| nikhilakumatimāyāśarvarībālasūryaḥ | nikhila-kumati-māyā-śarvarī-bāla-sūrya | nominative singular masculine, compound | the young sun to the night made up of the delusion of all wrong views |
+| nigamajaladhivelāpūrṇacandraḥ | nigama-jaladhi-velā-pūrṇa-candra | nominative singular masculine, compound | the full moon that fills or swells the shore of the ocean of the Veda |
+| yatīndraḥ | yatīndra | nominative singular masculine | Yatīndra, the lord of ascetics, i.e. Rāmānuja |
 
 **Compound resolution (samāsa-vigraha):**
-- *sakalavidyāvāhinījanmaśailaḥ* [ṣaṣṭhī-tatpuruṣa with nested tatpuruṣa]: *sakalavidyāvāhinyāḥ janma śailaḥ* — “the mountain that is the birthplace of the river of all learning.”
-- *sakalavidyāvāhinī* [ṣaṣṭhī-tatpuruṣa]: *sakalāyā vidyāyā vāhinī* — “the stream/river of all knowledge.”
-- *janipathaparivṛttiśrāntaviśrāntiśākhī* [complex tatpuruṣa-bahuvrīhi]: *janipathe parivṛttyā śrāntānāṃ viśrānteḥ śākhī* — “the branch that serves as rest for those wearied by repeated turning along the path of birth.”
-- *nikhilakumatimāyāśarvarībālasūryaḥ* [tatpuruṣa with karmadhāraya core]: *nikhilā kumatir eva māyā, sā śarvarī; tasyā bālaḥ sūryaḥ* — “the young sun to the night that is the delusive mass of all false doctrines.”
-- *nigamajaladhivelāpūrṇacandraḥ* [ṣaṣṭhī-tatpuruṣa plus karmadhāraya]: *nigamajaladheḥ velāṃ pūrayati yaḥ sa pūrṇacandraḥ* — “the full moon that fills out the shoreline of the ocean of the Veda.”
+- *sakalavidyāvāhinījanmaśailaḥ* [ṣaṣṭhī-tatpuruṣa with nested tatpuruṣa]: *sakalavidyāvāhinyāḥ janma śailaḥ*.
+- *sakalavidyāvāhinī* [ṣaṣṭhī-tatpuruṣa]: *sakalāyā vidyāyā vāhinī*.
+- *janipathaparivṛttiśrāntaviśrāntiśākhī* [complex tatpuruṣa]: *janipathe parivṛttyā śrāntānāṃ viśrānteḥ śākhī*.
+- *nikhilakumatimāyāśarvarībālasūryaḥ* [tatpuruṣa with karmadhāraya core]: *nikhilā kumatir eva māyā, sā śarvarī; tasyā bālaḥ sūryaḥ*.
+- *nigamajaladhivelāpūrṇacandraḥ* [ṣaṣṭhī-tatpuruṣa plus karmadhāraya]: *nigamajaladheḥ velāṃ pūrayati yaḥ sa pūrṇacandraḥ*.
 
 **Kāraka structure:**
 - kartṛ: *yatīndraḥ*
@@ -53,10 +53,10 @@ This single verse is therefore a natural introductory unit even before the expli
 - *jayati*: laṭ / parasmaipada / active
 
 **Note:**
-The verse identifies *Yatīndra* with Rāmānuja and compresses four functions into appositional nominatives rather than subordinate clauses. That matters philosophically. Deśika does not present Rāmānuja merely as a revered predecessor; he presents him as the condition of the work's intelligibility, at once exegetical source, soteriological refuge, polemical dawn, and regulator of Vedic meaning. The explicit ontological schedule of the text appears later, but the authority under which that schedule is to be received is settled here at the outset. The reading printed here is transcribed directly from the page-image; the heavily watermarked archive scan makes machine OCR unreliable, but this verse itself remains visually secure.
+The verse is architectonic. Deśika does not begin by stating a category-scheme; he begins by placing the whole enterprise under Rāmānuja as *ācārya*. The grammar enforces that placement. A single finite verb, *jayati*, governs four appositional nominatives, so that pedagogy, refuge, polemic, and Vedic exegesis appear not as separate achievements but as one triumphant presence. That opening orientation matters for the whole work. Chari's broader reconstruction of the *Tattva-Muktā-Kalāpa* confirms that Deśika's systematic metaphysics is never offered as free-standing ontology, but as Rāmānuja-line Viśiṣṭādvaita made scholastically explicit. The remaining opening verses would refine that programme, but the present source state does not justify pretending to have recovered them securely.
 
 ---
 
 ## Editorial closing
 
-This opening settles one thing decisively: the *Tattva-Muktā-Kalāpa* is not a free-standing metaphysical exercise. It is framed as a Ramanuja-line intervention, and its later analytic divisions are to be read under that disciplinary allegiance. What the verse does not yet settle is the actual architecture of the categories. That comes only when the work proceeds to the explicit division of *tattva* into *dravya* and *adravya* in the *Jaḍa-dravya-sara* (especially v. 6 of this edition's running sequence), and then to the differentiated treatment of the self in the *Jīva-sara* (opening around v. 9). The later *Buddhi-sara* picks up the epistemic strand that the image of the river of learning only intimates here. Thus the first verse fixes authority and orientation; the subsequent *sara*-chapters supply the actual ontological and epistemological articulations.
+What this passage settles is authority and orientation. The *Tattva-Muktā-Kalāpa* opens as a Rāmānuja-line act of systematisation, not as a neutral inventory of *padārtha*-s. What it leaves open, at this opening moment, is the actual doctrinal architecture: the analysis of *tattva*, the role of *pramāṇa*, the differentiation of *cit*, *acit*, and Īśvara, and the argumentative handling of rival schools. Those matters belong to the immediately following prefatory verses and then to the later *sara*-divisions. Because the on-disk primary source does not yet permit a line-secure transcription of that broader opening cluster, the next honest step is fresh hand-OCR of the opening leaves of the 1900 edition. Until that is done, Chari 2004 remains the safest secondary guide to the larger argument, while the present file should be read as a verified primary-text anchor rather than as a complete translation of the opening unit.
