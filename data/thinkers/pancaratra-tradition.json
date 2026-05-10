@@ -1,0 +1,144 @@
+{
+  "id": "pancaratra-tradition",
+  "name": "Pancaratra (position-entry)",
+  "name_iast": "Pāñcarātra",
+  "alternate_names": ["Bhāgavata", "Sātvata", "Vaiṣṇava-Tantra", "Pāñcarātra-Āgama"],
+  "dates_low": 200,
+  "dates_high": 1300,
+  "dates_tier": "oral-tradition-only",
+  "dates_notes": "This is a position-entry, not an author-entry. The Pāñcarātra textual tradition is internally datable to the third century CE onwards (the Sātvata-Saṃhitā and Pauṣkara-Saṃhitā are among the earliest surviving Saṃhitās), with the major systematising Saṃhitās (Jayākhya, Ahirbudhnya, Lakṣmī-Tantra) composed between the seventh and twelfth centuries. The tradition continues into the early-modern period as the ritual-doctrinal frame of Śrīvaiṣṇavism. The date-range 200–1300 covers the period of the principal Saṃhitās; the lower bound is set by the Sātvata-Saṃhitā's appearance in the Mahābhārata's Nārāyaṇīya section (Śānti-Parvan 339–351), the upper bound by the consolidation of the Pāñcarātra canon in the early-Vijayanagara period.",
+  "school": "Pāñcarātra",
+  "school_color_token": "pancaratra-comparator",
+  "sub_school": "Pāñcarātra-Tantric",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": ["yamuna", "ramanuja", "vedanta-desika"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "badarayana",
+      "direction": "is-refuted-by",
+      "note": "Brahma-Sūtra 2.2.42–45 (the utpatty-asambhavādhikaraṇa) refutes the Pāñcarātra doctrine of the four-fold vyūha — Vāsudeva, Saṅkarṣaṇa, Pradyumna, Aniruddha — on the ground that the production of one vyūha-form from another is incoherent (Saṅkarṣaṇa as jīva produced from Vāsudeva would be either created soul or eternal Lord, and either reading is problematic). The position the sūtras refute is the Pāñcarātra Saṃhitā doctrine."
+    },
+    {
+      "thinker_id": "sankara",
+      "direction": "is-refuted-by",
+      "note": "Brahma-Sūtra-Bhāṣya 2.2.42–45 develops Bādarāyaṇa's argument: Śaṅkara reads the sūtras as a refutation of the Bhāgavata-Pāñcarātra position on the production-relation among the vyūhas, while accepting the bhāgavata-bhakti dimension of the tradition. The Advaita reading of the adhikaraṇa is the principal pre-Yāmuna interpretation."
+    },
+    {
+      "thinker_id": "yamuna",
+      "direction": "mutual",
+      "note": "Yāmuna's Āgama-Prāmāṇya is the major defence of the Pāñcarātra-Saṃhitās from within Viśiṣṭādvaita: Yāmuna re-reads Brahma-Sūtra 2.2.42–45 not as a refutation of Pāñcarātra-as-such but as a refutation of one specific (and rejectable) reading of the vyūha-production, and re-establishes the canonical authority of the Saṃhitās for the Śrīvaiṣṇava tradition. The Pāñcarātra position is in this sense both refuted (by the Advaita reading of the adhikaraṇa) and defended (by the Yāmuna-Rāmānuja-Vedānta-Deśika reading)."
+    },
+    {
+      "thinker_id": "ramanuja",
+      "direction": "mutual",
+      "note": "Rāmānuja's Śrī-Bhāṣya on the utpatty-asambhavādhikaraṇa continues Yāmuna's defence: the vyūha-production is read as an internal differentiation of one Brahman-substance into manifestations, not as the production of one substance from another, and the sūtras are read as refuting only the rejectable reading. Pāñcarātra ritual remains the canonical liturgical frame of Śrīvaiṣṇava worship throughout."
+    },
+    {
+      "thinker_id": "vedanta-desika",
+      "direction": "mutual",
+      "note": "Vedānta-Deśika's Pāñcarātra-Rakṣā is the most extensive late-medieval defence of Pāñcarātra authority, addressing every objection raised by Mīmāṃsakas and Advaitins to the Saṃhitās' status as pramāṇa, and is the canonical Vaḍakalai handbook for Pāñcarātra ritual-theology."
+    }
+  ],
+  "core_thesis": "*Pāñcarātra* names a Vaiṣṇava-Tantric tradition rather than an author. The principal *Saṃhitās* — *Sātvata-Saṃhitā*, *Pauṣkara-Saṃhitā*, *Jayākhya-Saṃhitā*, *Ahirbudhnya-Saṃhitā*, and *Lakṣmī-Tantra* — are anonymous compositions of the third to twelfth centuries CE articulating a Tantric Vaiṣṇava theology and a Tantric Vaiṣṇava ritual. The metaphysical core is the *vyūha* doctrine: the supreme *para*-Vāsudeva manifests in four *vyūhas* — *Vāsudeva*, *Saṅkarṣaṇa*, *Pradyumna*, *Aniruddha* — each presiding over one of *jñāna*, *aiśvarya*, *śakti*, and *bala* (with paired *guṇas*); the *vyūhas* manifest in turn as twelve *vyūhāntara*-forms (*Keśava*, *Nārāyaṇa*, *Mādhava*, etc.), and the supreme also descends in the *vibhava*-incarnations (*Matsya*, *Kūrma*, *Rāma*, *Kṛṣṇa*, etc.) and is present as *antaryāmin* in the heart and as *arcā* in the consecrated image. The cosmology is articulated through *śuddha-sattva* — the supraphysical material of which the divine forms are constituted, ontologically distinct from *prakṛti*'s mixed *sattva-rajas-tamas*; *śuddha-sattva* is what makes the divine *vigraha* a *real* form rather than a merely symbolic one. Soteriology is *prapatti* — surrender to the Lord — and the consequent translation of the *jīva* to the *parama-pada*. Ritual is articulated through five activities (*pañca-kāla* discipline): *abhigamana* (morning approach), *upādāna* (gathering of materials), *ijyā* (worship), *svādhyāya* (study), *yoga* (contemplation). The *Brahma-Sūtra* refutes the *vyūha*-doctrine at 2.2.42–45 (the *utpatty-asambhavādhikaraṇa*); the position is defended from within Viśiṣṭādvaita by Yāmuna's *Āgama-Prāmāṇya* and Vedānta-Deśika's *Pāñcarātra-Rakṣā*. The tradition's strategic significance is that the Vedāntic engagement with Pāñcarātra is the principal case of a Vedāntic school adopting a Tantric ritual-theological tradition as its own canonical liturgical frame.",
+  "engaged_works": [
+    {
+      "work_id": "satvata-samhita",
+      "title": "Satvata-Samhita",
+      "title_iast": "Sātvata-Saṃhitā",
+      "alternate_titles": ["Sātvata-Tantra"],
+      "composition_dates_low": 200,
+      "composition_dates_high": 800,
+      "composition_dates_notes": "Among the earliest surviving Pāñcarātra Saṃhitās; cited in the Mahābhārata's Nārāyaṇīya (Śānti-Parvan 339–351) and quoted by Yāmuna and Rāmānuja.",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Anonymous; ascribed by tradition to Sātvata revelation transmitted through the sage lineages.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Schrader (Introduction to the Pāñcarātra and the Ahirbudhnya Saṃhitā, 1916); Smith (A Descriptive Bibliography of the Printed Texts of the Pāñcarātrāgama)."}
+      ],
+      "genre": "rahasya",
+      "language": "sanskrit",
+      "summary": "Twenty-five chapters articulating the Pāñcarātra ritual and theology. The Saṃhitā opens with the vyūha-doctrine — para-Vāsudeva manifesting as Vāsudeva, Saṅkarṣaṇa, Pradyumna, Aniruddha, with the six guṇas (jñāna, aiśvarya, śakti, bala, vīrya, tejas) distributed across the vyūhas. The middle chapters develop the ritual frame: dīkṣā (initiation), pratiṣṭhā (image-installation), nitya-pūjā (daily worship), naimittika-pūjā (occasional worship), and the pañca-kāla discipline. The closing chapters develop the soteriological doctrine — the jīva's translation to the parama-pada through prapatti, the relation between Lord and devotee through śarīra-śarīrin (a concept Rāmānuja will absorb directly). The Sātvata-Saṃhitā is one of the principal Saṃhitās the Śrīvaiṣṇava tradition treats as canonical and is among the texts the Brahma-Sūtra 2.2.42–45 refutation has in view.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "pauskara-samhita",
+      "title": "Pauskara-Samhita",
+      "title_iast": "Pauṣkara-Saṃhitā",
+      "composition_dates_low": 300,
+      "composition_dates_high": 800,
+      "composition_dates_notes": "An early Saṃhitā, paired with the Sātvata and Jayākhya as the three principal ratna-trayī of the canon.",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Anonymous; ascribed by tradition.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Schrader (1916); Smith."}
+      ],
+      "genre": "rahasya",
+      "language": "sanskrit",
+      "summary": "Forty-three chapters on the Pāñcarātra ritual and the supporting theology. The Pauṣkara is paired with the Sātvata and the Jayākhya as the three principal Saṃhitās of the canon (*ratna-trayī*). Its distinctive contribution is the developed analysis of the *mantra-tattvas* — the syllable-deities, the *bīja-mantras*, the *aṅga-mantras* — and the structure of *mantra-uddhāra* (the extraction of the deity-mantra from the source-text). The work is foundational for Pāñcarātra liturgical theology and is cited by Yāmuna in the Āgama-Prāmāṇya as a principal authority.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "jayakhya-samhita",
+      "title": "Jayakhya-Samhita",
+      "title_iast": "Jayākhya-Saṃhitā",
+      "composition_dates_low": 450,
+      "composition_dates_high": 800,
+      "composition_dates_notes": "The principal early-medieval systematising Saṃhitā; Schrader argues for a fifth–sixth-century date on the basis of the developed Tantric apparatus.",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Anonymous; ascribed by tradition.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Schrader (1916, with critical edition by E. Krishnamacharya 1931, GOS); Rastelli (Materialien zur Erforschung des Pāñcarātra)."}
+      ],
+      "genre": "rahasya",
+      "language": "sanskrit",
+      "summary": "Thirty-three *paṭalas* covering the entire Pāñcarātra system: the cosmology, the *vyūha* doctrine, the Tantric *yoga* and *japa* disciplines, the consecration rituals, and the soteriology. The Jayākhya is the most systematically Tantric of the principal Saṃhitās and the closest in form to the contemporary Śaiva Tantric Saṃhitās; it develops the *kuṇḍalinī* and *cakra* maps in a Vaiṣṇava key, articulates the *śuddha-sattva* doctrine in extended form, and lays out the Tantric *dīkṣā* ritual structure. Modern scholarship treats it as the principal source for understanding the Tantric character of Pāñcarātra theology.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "ahirbudhnya-samhita",
+      "title": "Ahirbudhnya-Samhita",
+      "title_iast": "Ahirbudhnya-Saṃhitā",
+      "composition_dates_low": 800,
+      "composition_dates_high": 1100,
+      "composition_dates_notes": "A later systematising Saṃhitā, post-Yāmuna in the standard chronology.",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Anonymous; ascribed by tradition to revelation through Ahirbudhnya (a form of Śiva associated with Vaiṣṇava revelation).",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Schrader (1916, the standard introduction)."}
+      ],
+      "genre": "rahasya",
+      "language": "sanskrit",
+      "summary": "Sixty *adhyāyas* on Pāñcarātra cosmology, ritual, and theology. The Ahirbudhnya is distinctive for its developed cosmological speculation: the analysis of Lakṣmī as the supreme *śakti* of Nārāyaṇa, the doctrine of the cosmic *vyūha*-cycle, the reconstruction of the *vibhava*-descents in their traditional sequence. The work is a principal source for the Śrīvaiṣṇava theology of *Lakṣmī* as inseparable from Nārāyaṇa, and Schrader's 1916 introduction (Adyar Library Series) makes it the most accessible Pāñcarātra Saṃhitā for modern study.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "lakshmi-tantra",
+      "title": "Lakshmi-Tantra",
+      "title_iast": "Lakṣmī-Tantra",
+      "composition_dates_low": 900,
+      "composition_dates_high": 1200,
+      "composition_dates_notes": "A later Pāñcarātra Saṃhitā, post-Yāmuna; principal source for Śrīvaiṣṇava Lakṣmī-theology.",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Anonymous; ascribed by tradition to revelation by Lakṣmī herself.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Gupta (1972, critical edition with translation)."}
+      ],
+      "genre": "rahasya",
+      "language": "sanskrit",
+      "summary": "Fifty-seven *adhyāyas* in dialogue between Lakṣmī and Indra. The work is the principal Pāñcarātra exposition of Śrī-Lakṣmī as the supreme *śakti* of Nārāyaṇa — inseparable, beginningless, the *upādāna*-substrate (in one reading) of the manifest world, the *kāraṇa* (in another reading) of grace and *prapatti*. The text develops the *pañcāyudha* (the five Vaiṣṇava weapons) as ontologically constitutive of Vaiṣṇava cosmology, the *mantra-uddhāra* in expanded form, and the soteriology of *prapatti* with Lakṣmī as the *puruṣa-kāra* (intercessor). The work is foundational for Śrīvaiṣṇava Lakṣmī-theology and is engaged by Vedānta-Deśika in the Pāñcarātra-Rakṣā as the principal Saṃhitā-authority for the doctrine of Lakṣmī's inseparability from Nārāyaṇa.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "The Pāñcarātra tradition is the principal case of a Vedāntic school adopting a Tantric ritual-theological tradition as its own canonical liturgical frame. The Brahma-Sūtra refutes the vyūha-doctrine at 2.2.42–45; Yāmuna's Āgama-Prāmāṇya is the major defence of the Saṃhitās' canonical authority from within Viśiṣṭādvaita; Rāmānuja absorbs the Pāñcarātra ritual frame into the Śrīvaiṣṇava temple-tradition; Vedānta-Deśika's Pāñcarātra-Rakṣā is the canonical Vaḍakalai handbook for Pāñcarātra ritual-theology. The Vaikhānasa tradition is a parallel Vaiṣṇava-Tantric stream, partly competing with Pāñcarātra for liturgical authority in South Indian Vaiṣṇava temples. Modern scholarship (Schrader 1916, Smith, Rastelli, Gupta) has reset the academic study of the corpus through critical editions and translations.",
+  "entry_status": "draft",
+  "entry_owner_agent": "non-vedic-comparator-extension-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "non-vedic-comparator-extension-opus"
+}

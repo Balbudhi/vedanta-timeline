@@ -13,7 +13,18 @@
   "sub_school_shade": 2,
   "lineage_in": ["nathamuni"],
   "lineage_out": ["ramanuja"],
-  "lineage_polemical": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "vasubandhu",
+      "direction": "refutes",
+      "note": "The Saṃvit-Siddhi mounts the principal Viśiṣṭādvaita refutation of Yogācāra: the very thesis of vijñapti-mātra requires that cognition be self-luminous, but cognition's content must point beyond itself, and the bāhya-artha is therefore a presupposition of the very position that denies it. Yāmuna reads Vasubandhu's Viṃśatikā as the canonical statement of the position to be refuted."
+    },
+    {
+      "thinker_id": "asanga",
+      "direction": "refutes",
+      "note": "The Saṃvit-Siddhi targets the broader Yogācāra ālaya-vijñāna apparatus: a momentary substrate cannot ground the cross-moment continuity of karmic effect that the Yogācāra appeals to it for, and an enduring ātman is therefore required after all. The structural target is the Mahāyāna-Saṅgraha doctrine that Asaṅga founded."
+    }
+  ],
   "core_thesis": "Yāmuna is the first Śrīvaiṣṇava to give Viśiṣṭādvaita the form of an argued philosophical system rather than a liturgical-exegetical synthesis. The architecture is fixed in three *Siddhi*-treatises and a Pāñcarātra defence. Brahman — Nārāyaṇa-with-Śrī — is a qualified unity whose body (*śarīra*) is the totality of conscious selves (*cit*) and non-conscious matter (*acit*), each really distinct yet inseparable (*apṛthak-siddha*) from him as their inner controller (*antaryāmin*). The *jīva* is an atomic, eternal *jñātṛ* (knower), not a momentary cognition-stream and not pure unqualified *cit*. The *Saṃvit-Siddhi* mounts the school's epistemology: awareness is *dharmi-bhūta-jñāna*, a self-revelatory (*svayam-prakāśa*) substance directed always at a content; it cannot be its own object in the sense the proto-Advaitin requires, since *svayam-prakāśa* and *viṣayatva* are distinct relations. Against this Yāmuna's destructive argument runs: if consciousness disclosed itself as its own object, every cognition would be a self-cognition; but on first-order experience cognitions are directed at pots, blue patches, sounds, not at themselves; therefore self-disclosure (*svayam-prakāśa*) cannot be construed as object-disclosure. The same epistemology yields *yathārtha-khyāti*: every cognition has a real object, error is partial apprehension rather than the cognising of a non-entity. Two further moves complete the position. The *Āgama-Prāmāṇya* defends Pāñcarātra revelation as continuous with *śruti-prāmāṇya* against Mīmāṃsaka exclusionism. And the *Stotra-Ratna* elevates *prapatti* — surrender by the *ākiñcana*, the self stripped of all resource — to recognised *upāya*-status alongside *bhakti-yoga*.",
   "engaged_works": [
     {
