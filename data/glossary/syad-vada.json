@@ -11,39 +11,150 @@
     "sapta-bhaṅgī"
   ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus",
+  "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "The Jaina discipline of conditioned predication, usually presented as the sevenfold scheme (*sapta-bhaṅgī*). It is the formal counterpart of *anekānta-vāda*: because an existent has many aspects, assertion must state the respect under which it speaks. The indeclinable *syāt* does that work. It does not mean bare possibility in the modern modal sense; it means \"from a certain standpoint,\" \"in some respect,\" or \"under a certain condition.\" On that basis the tradition permits seven exhaustive predicative forms: affirmation, negation, affirmation-and-negation under different respects, and combinations involving *avaktavya* or inexpressibility when incompatible predicates are being forced into one unmarked assertion. The scheme is therefore not a license for contradiction. Its task is to preserve fine-grained realism about substances and modes while preventing unqualified claims from masquerading as total descriptions. In Jaina logic, *syād-vāda* belongs with *naya* analysis, not with a generalized skepticism about truth.",
   "per_school": [
     {
-      "school": "Jaina (canonical orientation)",
-      "definition": "The basic Jaina orientation is that knowledge proceeds through *pramāṇa* and *naya*, and that any predication must be indexed to an admissible standpoint. *Syād-vāda* is the predicative discipline that follows from that claim. Its point is not indecision but exactness: the speaker must specify the respect in which a thing is said to exist, not exist, or resist a single unqualified description.",
+      "school": "Advaita",
+      "definition": "Śaṅkara presents the Jaina doctrine under the heading of `saptabhaṅgī-naya` and rejects it on the ground that mutually opposed dharmas such as `sat` and `asat` cannot coherently inhere in one `dharmin`, so the anekāntika attribution of existence, non-existence, unity, plurality, permanence, and impermanence is held to be `asaṃgata`. cite://sankara/brahma-sutra-bhasya/2.2.33-36 He then extends the refutation to the Jaina account of the `jīva`, arguing that a body-measured self subject to contraction and expansion would incur `akārtsnya`, `vikāra`, and finally an inability to distinguish liberated from non-liberated condition. cite://sankara/brahma-sutra-bhasya/2.2.33-36",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 2.2.33-36"
+      ],
+      "citations": [
+        {
+          "cite": "cite://sankara/brahma-sutra-bhasya/2.2.33-36",
+          "locus_short": "BSBh 2.2.33-36"
+        }
+      ]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Rāmānuja sets out the Jaina sevenfold predication beginning with `syād asti`, `syān nāsti`, and `syād avaktavyam`, and then denies that one `vastu` can bear such mutually opposed determinations at once, since `viruddha-dharma` cannot be established in a single substrate. cite://ramanuja/shri-bhasya/2.2.33-36 He further argues that his own account of Brahman and the world is not an anekāntika vacillation, because the relation of body and self is fixed by the `śruti`-grounded `śarīra-śarīrin` structure rather than by oscillating predication. cite://ramanuja/shri-bhasya/2.2.33-36",
+      "primary_loci": [
+        "Śrī-Bhāṣya 2.2.33-36"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ramanuja/shri-bhasya/2.2.33-36",
+          "locus_short": "ŚrīBh 2.2.33-36"
+        }
+      ]
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "Madhva explicitly reports the `kṣapaṇaka` as construing the world as `sat` and `asat`, `dvaya` and `advaya`, and otherwise under the rubric of `saptabhaṅgī`, and he rejects this because a single `padārtha` cannot be fixed by mutually conflicting determinations without destroying `niyama` in cognition. cite://madhva/anuvyakhyana/2.2.236-237",
+      "primary_loci": [
+        "Anuvyākhyāna 2.2.236-237"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/anuvyakhyana/2.2.236-237",
+          "locus_short": "Anuvy 2.2.236-237"
+        }
+      ]
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "Nimbārka rehearses the `saptabhaṅgī` as a sequence of qualified predications grounded in the `dravya-paryāya` distinction, but rejects the doctrine because one `dravya` cannot truly sustain opposed predicates such as `asti` and `nāsti` without the impossible conjunction of `viruddha-dharma`. cite://nimbarka/vedanta-parijata-saurabha/2.2.33-36 He distinguishes his own `svābhāvika-bhedābheda` from such anekāntika indeterminacy by treating difference and non-difference as scripturally determined aspects of the Brahman-world relation, not as alternating predications of one item. cite://nimbarka/vedanta-parijata-saurabha/2.2.33-36",
+      "primary_loci": [
+        "Vedānta-Pārijāta-Saurabha 2.2.33-36"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nimbarka/vedanta-parijata-saurabha/2.2.33-36",
+          "locus_short": "VPS 2.2.33-36"
+        }
+      ]
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The on-disk Sāṃkhya primaries examined for this pass do not treat `syād-vāda` as a technical doctrinal topic of the school, and no substantive school-position on the term was retrievable from these materials."
+    },
+    {
+      "school": "Yoga",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The Yoga Sūtra and Vyāsa-bhāṣya materials examined for this pass do not articulate a school-defining position on `syād-vāda`, which does not function there as a native technical category."
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The on-disk Mādhyamaka primaries examined here do not take up `syād-vāda` as a doctrinal category internal to the school, and no substantive school-position on the term was attested in this corpus."
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The Yogācāra and allied epistemological primaries examined for this pass do not present `syād-vāda` as a school-defining topic, and no direct treatment of the term was retrievable from these materials."
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The on-disk Pratyabhijñā and Trika texts examined for this pass do not frame `syād-vāda` as a technical issue within the school’s own siddhānta, so no substantive school-position on the term is attested here."
+    },
+    {
+      "school": "Jainism",
+      "definition": "In Umāsvāti's formulation, apprehension proceeds by `pramāṇa` and `naya`, so the doctrinal background of later `syād-vāda` is a regulated plurality of standpoints rather than an unqualified alternation of predicates. cite://umasvati/tattvartha-sutra/1.6 The enumeration of `naya`s provides the architecture within which qualified predication is distributed, while the warning that failure to distinguish `sat` and `asat` leads to discourse 'like a madman' marks the need for disciplined standpoint-specification in assertion. cite://umasvati/tattvartha-sutra/1.34-35",
       "primary_loci": [
         "Tattvārtha-Sūtra 1.6",
-        "[NOT YET RETRIEVED]"
+        "Tattvārtha-Sūtra 1.34-35"
+      ],
+      "citations": [
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/1.6",
+          "locus_short": "TS 1.6"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/1.34-35",
+          "locus_short": "TS 1.34-35"
+        }
       ]
     },
     {
-      "school": "Jaina (dialectical development)",
-      "definition": "Akalaṅka and the later Jaina logicians develop the seven *bhaṅgas* as a complete and closed apparatus for conditioned assertion. The crucial move is *avaktavya*: when contrary predicates are forced into one unqualified statement, the correct result is not contradiction but inexpressibility-under-that-demand. This is how the system distinguishes itself from both simple contradiction and simple agnosticism.",
-      "primary_loci": [
-        "Tattvārtha-Vārttika ad Tattvārtha-Sūtra 1.6",
-        "[NOT YET RETRIEVED]"
-      ]
-    },
-    {
-      "school": "Jaina (standard medieval exposition)",
-      "definition": "Malliṣeṇa's *Syādvāda-Mañjarī* presents the sevenfold logic as the explicit verbal discipline required by a many-sided ontology. The work became the standard statement because it shows how the seven forms regulate actual debate: what looks like contradiction is unpacked into distinct respects, times, or modes of the same real thing.",
-      "primary_loci": [
-        "Syādvāda-Mañjarī 1-5"
-      ]
-    },
-    {
-      "school": "Advaita Vedānta (refutation)",
-      "definition": "Advaita grants the harmless point that many predicates are context-sensitive, but denies that the sevenfold scheme yields a superior ontology. If *syāt* merely marks standpoint, then the doctrine says nothing distinctive beyond ordinary contextual predication; if it licenses incompatible judgments about the same thing without sufficient qualification, it collapses into contradiction. That is why Advaita treats *syād-vāda* as dialectically elaborate but metaphysically inconclusive.",
-      "primary_loci": [
-        "Advaita-Siddhi [NOT YET RETRIEVED]",
-        "Brahma-Sūtra-Bhāṣya 2.2.33-36"
-      ]
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "In the present project state, no school-defining Vaiyākaraṇa primary on disk treats `syād-vāda` as a native doctrinal topic, and the term is not constitutive of the school’s own technical lexicon for this extraction pass."
     }
   ],
   "see_also": [
