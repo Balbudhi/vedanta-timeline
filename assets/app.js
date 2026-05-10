@@ -901,6 +901,7 @@ function renderAll() {
   renderDots();
   renderAxis();
   renderNetworkLegend();
+  ensureResetViewButton();
 }
 
 // Recompute lane order + filter and re-render. Preserves scroll position
@@ -950,12 +951,22 @@ function wirePanZoom() {
     }
   });
 
-  // wheel: vertical wheel pans Y; shift+wheel pans X; ctrl+wheel zooms
+  // wheel: vertical wheel pans Y; shift+wheel pans X; ctrl+wheel zooms.
+  // Zoom factor is delta-proportional so trackpad pinch (which fires many
+  // small ctrlKey-flagged wheel events) does not accumulate aggressively.
+  // Mouse-wheel ticks (deltaMode=DOM_DELTA_LINE, large discrete steps)
+  // still produce a perceptible zoom but a softer one than before.
   scroller.addEventListener("wheel", (e) => {
     if (e.ctrlKey || e.metaKey) {
       e.preventDefault();
       const oldPpy = state.pxPerYear;
-      const factor = e.deltaY < 0 ? 1.08 : 1/1.08;
+      // Normalize delta. deltaMode=1 (LINE) → multiply; deltaMode=0 (PIXEL,
+      // trackpad pinch) → use raw px. Clamp to keep one tick gentle.
+      const rawDelta = e.deltaMode === 1 ? e.deltaY * 16 : e.deltaY;
+      const clampedDelta = Math.max(-50, Math.min(50, rawDelta));
+      // Sensitivity: ~halved from previous 1.08 per tick. At 50px wheel,
+      // factor ≈ exp(50 * 0.0018) ≈ 1.094; at 4px trackpad nudge, ≈ 1.007.
+      const factor = Math.exp(-clampedDelta * 0.0018);
       const newPpy = Math.max(0.6, Math.min(6, oldPpy * factor));
       if (newPpy === oldPpy) return;
       // anchor zoom on cursor x position
@@ -975,7 +986,68 @@ function wirePanZoom() {
     // otherwise: native vertical scroll behavior
   }, { passive: false });
 
-  // touch / trackpad two-finger pan handled natively by the browser
+  // Hold-Space → grab cursor + drag-pan everywhere (Figma / Sketch
+  // convention). The existing mousedown path already supports drag-pan on
+  // empty canvas; Space-mode extends it so the user can grab through dots
+  // and edges without accidentally opening a thinker entry.
+  let spaceHeld = false;
+  function setSpaceMode(on) {
+    if (spaceHeld === on) return;
+    spaceHeld = on;
+    document.body.classList.toggle("is-space-pan", on);
+    scroller.style.cursor = on ? "grab" : "";
+  }
+  window.addEventListener("keydown", (e) => {
+    if (e.code === "Space" && !e.repeat && document.activeElement === document.body) {
+      e.preventDefault();
+      setSpaceMode(true);
+    }
+  });
+  window.addEventListener("keyup", (e) => {
+    if (e.code === "Space") setSpaceMode(false);
+  });
+  window.addEventListener("blur", () => setSpaceMode(false));
+
+  // When Space is held, every mousedown becomes a pan-drag (even over dots).
+  scroller.addEventListener("mousedown", (e) => {
+    if (!spaceHeld && e.button !== 1) return; // middle-click also pans
+    isDragging = true;
+    didDrag = false;
+    dragStartX = e.clientX;
+    dragStartY = e.clientY;
+    scrollStartX = scroller.scrollLeft;
+    scrollStartY = scroller.scrollTop;
+    scroller.style.cursor = "grabbing";
+    scroller.style.userSelect = "none";
+    e.preventDefault();
+    e.stopPropagation();
+  }, true);
+}
+
+// ---------- Reset View button (Network mode) -----------
+// Frames the network at default zoom + initial focus year. Visible only in
+// network mode; positioned top-right of the timeline pane.
+function ensureResetViewButton() {
+  let btn = document.getElementById("resetViewBtn");
+  if (!btn) {
+    btn = document.createElement("button");
+    btn.id = "resetViewBtn";
+    btn.className = "reset-view-btn";
+    btn.type = "button";
+    btn.title = "Reset view (frames the network)";
+    btn.setAttribute("aria-label", "Reset view");
+    btn.textContent = "Reset view";
+    btn.addEventListener("click", () => {
+      state.pxPerYear = PX_PER_YEAR_DEFAULT;
+      state.hasInitialScroll = false;
+      computeLayout();
+      renderAll();
+      scrollToInitialFocus();
+    });
+    const pane = document.getElementById("timelinePane");
+    if (pane) pane.appendChild(btn);
+  }
+  btn.hidden = state.viewMode !== "network";
 }
 
 // ---------- unified right-side panel (tabs) -----------
