@@ -2183,7 +2183,17 @@ function md(s) {
     /\[([^\]]+?)\]\(cite:\/\/([^)\n]+)\)/g,
     (_m, visible, key) => {
       const i = citeStash.length;
-      citeStash.push({ visible, key });
+      citeStash.push({ kind: "cite", visible, key });
+      return `CITE${i}`;
+    },
+  );
+  // Secondary citations: [Author Year](secondary://author-year-pN) — book
+  // references not on disk; rendered as a small bracketed inline marker.
+  out = out.replace(
+    /\[([^\]]+?)\]\(secondary:\/\/([^)\n]+)\)/g,
+    (_m, visible, ref) => {
+      const i = citeStash.length;
+      citeStash.push({ kind: "secondary", visible, ref });
       return `CITE${i}`;
     },
   );
@@ -2197,6 +2207,9 @@ function md(s) {
   // had italics applied; the key is HTML-safe (no entities expected).
   out = out.replace(/CITE(\d+)/g, (_m, i) => {
     const c = citeStash[+i];
+    if (c.kind === "secondary") {
+      return `<a href="secondary://${c.ref}" class="cite-link">${c.visible}</a>`;
+    }
     return `<a href="cite://${c.key}" class="cite-link">${c.visible}</a>`;
   });
   return out;
@@ -2569,7 +2582,15 @@ function renderMarkdownFull(src) {
     /\[([^\]]+?)\]\(cite:\/\/([^)\n]+)\)/g,
     (_m, visible, key) => {
       const i = citeStash.length;
-      citeStash.push({ visible, key });
+      citeStash.push({ kind: "cite", visible, key });
+      return ` CITESTASH${i} `;
+    },
+  );
+  src = src.replace(
+    /\[([^\]]+?)\]\(secondary:\/\/([^)\n]+)\)/g,
+    (_m, visible, ref) => {
+      const i = citeStash.length;
+      citeStash.push({ kind: "secondary", visible, ref });
       return ` CITESTASH${i} `;
     },
   );
@@ -2604,6 +2625,9 @@ function renderMarkdownFull(src) {
   // Re-inflate citation + link placeholders.
   out = out.replace(/ CITESTASH(\d+) /g, (_m, i) => {
     const c = citeStash[+i];
+    if (c.kind === "secondary") {
+      return `<a href="secondary://${c.ref}" class="cite-link">${c.visible}</a>`;
+    }
     return `<a href="cite://${c.key}" class="cite-link">${c.visible}</a>`;
   });
   out = out.replace(/ LINKSTASH(\d+) /g, (_m, i) => {
