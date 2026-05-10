@@ -34,22 +34,38 @@
   "engaged_works": [
     {
       "work_id": "tattva-mukta-kalapa",
-      "title": "Tattva-Mukta-Kalapa with Sarvartha-Siddhi",
+      "title": "Tattva-Mukta-Kalapa",
       "title_iast": "Tattva-Muktā-Kalāpa",
       "alternate_titles": [],
       "ascription_tier": "securely-authored",
-      "ascription_notes": "Securely authored Viśiṣṭādvaita systematic verse-treatise with auto-commentary.",
+      "ascription_notes": "Securely authored Viśiṣṭādvaita systematic verse-treatise.",
       "ascription_evidence": [
         {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
       ],
       "genre": "varttika",
       "language": "sanskrit",
-      "summary": "A 500-verse Sanskrit *kārikā*-treatise with Deśika's own prose auto-commentary *Sarvārtha-Siddhi*, organised by the Viśiṣṭādvaita ontology of *dravya* and *adravya* into *sara*-chapters on *jaḍa* (matter), *jīva* (self), *Īśvara*, *nitya-vibhūti* (the eternal divine realm), *dharma-bhūta-jñāna*, and so on. The treatise is the school's mature systematic ontology. Each Viśiṣṭādvaita category is fixed by argued contrast with the alternatives: Sāṃkhya *prakṛti*, Naiyāyika *paramāṇu*-atomism, Buddhist momentariness, Advaitic *māyā*, Bhāskara's *aupādhika-bheda*, Madhva's unqualified *bheda*. The contrasts work by exhibiting where each rival category-scheme misdescribes the data — Buddhist momentariness fails on continuant-recognition, Advaitic *māyā* on the self-luminosity argument, Madhva's pure *bheda* on the *antaryāmin*-passages — and how *apṛthak-siddhi* differs from each. The *Sarvārtha-Siddhi* is unusually rigorous on two points: *dharmi-bhūta-jñāna* as the *jīva*'s constitutive attribute (substance-awareness, not awareness simpliciter), and *apṛthak-siddhi* as a sui generis ontological relation distinct from both *samavāya* (inherence, which would dissolve the relata) and *saṃyoga* (conjunction, which would leave them externally related). The work matters because it is the canonical reference for Vaḍakalai metaphysics: when later Viśiṣṭādvaita scholasticism fixes a category-boundary, it quotes the *Tattva-Muktā-Kalāpa* with *Sarvārtha-Siddhi*.",
+      "summary": "A 500-verse Sanskrit *kārikā*-treatise organised by the Viśiṣṭādvaita ontology of *dravya* and *adravya* into *sara*-chapters: *jaḍa-dravya-sara* (on matter), *jīva-sara* (on the self), *nitya-sara* (on the eternal *vibhūti*), *Īśvara-sara* (on the Lord), *buddhi-sara* (on *dharma-bhūta-jñāna*). The treatise is the school's mature systematic ontology in compressed verse form. Each Viśiṣṭādvaita category is fixed by argued contrast with the rival schemes — Sāṃkhya *prakṛti*, Naiyāyika *paramāṇu*-atomism, Buddhist momentariness, Advaitic *māyā*, Bhāskara's *aupādhika-bheda*, Madhva's unqualified *bheda* — and the contrasts work by exhibiting where each rival category-scheme misdescribes the data. Buddhist momentariness fails on continuant-recognition; Advaitic *māyā* on the self-luminosity argument; Madhva's pure *bheda* on the *antaryāmin*-passages. The compressed verse form leaves the dialectical detail to the auto-commentary *Sarvārtha-Siddhi*. The work is the load-bearing source for Vaḍakalai metaphysics in the verse-doctrinal register and is read together with the *Sarvārtha-Siddhi* in modern pāṭhaśālā instruction.",
       "key_passage_ids": [
         "pr-1-mangalacarana__caturvyuha-param-brahma",
         "pr-1-pramana__caturdha-avatishthate",
         "pr-1-avirodha__ubhayor-api-sastrayoh"
       ],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "sarvartha-siddhi",
+      "title": "Sarvartha-Siddhi",
+      "title_iast": "Sarvārtha-Siddhi",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Sanskrit prose auto-commentary on the Tattva-Muktā-Kalāpa.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus; manuscript transmission inseparable from Tattva-Muktā-Kalāpa."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "Vedānta-Deśika's own Sanskrit prose auto-commentary on the *Tattva-Muktā-Kalāpa*. Where the verse-treatise compresses the school's ontology into 500 *kārikās*, the *Sarvārtha-Siddhi* unfolds the dialectic at length: each *kārikā* receives a *pūrvapakṣa*-*siddhānta* exposition with the rival schemes argued against in their own technical idiom. The auto-commentary is unusually rigorous on two points. First, *dharmi-bhūta-jñāna* as the *jīva*'s constitutive attribute — substance-awareness, not awareness *simpliciter* — and the implications for the school's account of cognition, error, and *jīvanmukti*. Second, *apṛthak-siddhi* as a sui generis ontological relation distinct from both *samavāya* (inherence, which would dissolve the relata) and *saṃyoga* (conjunction, which would leave them externally related). The work matters because it is the canonical reference for Vaḍakalai metaphysics in the prose-dialectical register; later Viśiṣṭādvaita scholasticism — including Vīrarāghavācārya's *Sarvārtha-Siddhi-Vyākhyā* — cites the *Sarvārtha-Siddhi* on every contested category-boundary. The *Tattva-Muktā-Kalāpa* and *Sarvārtha-Siddhi* are inseparable in manuscript transmission but are now distinguished here as separate work-entries to let later sub-commentaries cite the appropriate target.",
+      "key_passage_ids": [],
       "entry_status": "reviewed"
     },
     {

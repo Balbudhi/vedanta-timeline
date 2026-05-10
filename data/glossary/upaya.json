@@ -1,0 +1,32 @@
+{
+  "term_key": "upaya",
+  "term_iast": "upāya",
+  "term_devanagari": "उपाय",
+  "literal": "approach, means; from upa- + √i 'to go'",
+  "aliases": ["upaya", "upāya", "Upāya", "upāyaḥ", "upāyena", "upāyāntara"],
+  "invariant_definition": "Means — the path-element by which the goal (*upeya*) is reached. The Vaiṣṇava-Vedāntic schools develop a systematic *upāya* / *upeya* / *upāyī* / *upadeśta* taxonomy. Major *upāya*s recognized across schools: *karma-yoga*, *jñāna-yoga*, *bhakti-yoga* (the Gītā's three), with *prapatti* added by Viśiṣṭādvaita and the Vaiṣṇava bhedābheda schools. Schools differ on which *upāya* is sufficient (Advaita: *jñāna* alone; Viśiṣṭādvaita: *bhakti* and *prapatti* parallel; Teṅgalai: *prapatti* sole) and on whether the *upāya* itself is the *upeya* (Teṅgalai *siddhopāya* doctrine: the Lord himself is both means and goal).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Sādhana-catuṣṭaya* + *śravaṇa-manana-nididhyāsana* + *mahāvākya-upadeśa* = liberating sequence; *jñāna* is the proximate *upāya*. *Karma* and *bhakti* are remote *upāyas* via *citta-śuddhi*.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.4", "Vedānta-Sāra (Sadānanda) §§17–34"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Bhakti-yoga* and *prapatti* are independent *upāyas*. Vaḍagalai: *upāyī* (the practitioner) cooperates actively. Teṅgalai: the Lord himself is the *siddhopāya* — the already-accomplished means; the soul's effort is in fact obstructive.",
+      "primary_loci": ["Vedānta-Deśika, Rahasya-Traya-Sāra", "Pillai Lokācārya, Mumukṣuppaṭi"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Vaidhī-bhakti* and *rāgānugā-bhakti* as principal *upāya*s; *nāma-saṃkīrtana* (chanting the divine name) is foregrounded as the unique *yuga-dharma* for Kali-yuga.",
+      "primary_loci": ["Bhakti-Sandarbha §§213–250", "Bhakti-Rasāmṛta-Sindhu 1.2"]
+    },
+    {
+      "school": "Trika / Kashmir Śaivism",
+      "definition": "Four *upāya*s structured by ascending subtlety: *anavopāya* (ritual / breath), *śaktopāya* (mental / mantric), *śambhavopāya* (intuitive recognition), *anupāya* (no-means: spontaneous *pratyabhijñā*).",
+      "primary_loci": ["Tantrāloka 2–5 (the four upāyas systematically)"]
+    }
+  ],
+  "see_also": ["sadhana", "upeya", "siddhopaya", "prapatti", "bhakti", "jnana", "karma"],
+  "translator_note": "'Means' is acceptable. The Teṅgalai *siddhopāya* — 'the means is the already-accomplished goal' — is structurally important and untranslatable in one English word; it requires gloss."
+}

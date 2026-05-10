@@ -1,0 +1,166 @@
+{
+  "chain_id": "bhaskara-pracchanna-bauddha",
+  "title": "Bhāskara's pracchanna-bauddha charge — Advaita as smuggled-in Buddhism",
+  "attacker": "bhaskara",
+  "attacker_text": "Brahma-Sūtra-Bhāṣya (Bhāskara), esp. introduction to 1.1 and the polemical aside at BSB 1.4.21 against māyā-vāda; supplemented by the cosmological sections at BSB 2.1",
+  "target_school_token": "advaita",
+  "target_position_summary": "Śaṅkara's Advaita as Bhāskara perceives it: Brahman alone real, world as māyā/mithyā, jñāna alone as the path to mokṣa, vivarta-vāda over pariṇāma-vāda. Bhāskara's charge is that this configuration of doctrines amounts to a Vedāntic re-importation of the Mādhyamika śūnyavāda position under Vedāntic vocabulary.",
+  "arguments": [
+    {
+      "name": "argument-1: structural equivalence of mithyā-vāda and śūnya-vāda",
+      "premises": [
+        "The Mādhyamika position (śūnya-vāda) is that phenomena lack svabhāva (own-being); they are pratītya-samutpanna and are, in their final analysis, śūnya.",
+        "The Advaitin position is that the world is mithyā: anirvacanīya, sublatable in brahma-jñāna, lacking the kind of being Brahman has.",
+        "Functionally, both positions deny that phenomena have own-being in any robust sense; both treat phenomena as cognitively-real-but-ultimately-evacuated.",
+        "The differences between śūnya and mithyā operate at the level of substrate-affirmation (Advaita affirms Brahman as substrate; Mādhyamika has no substrate-affirmation), but at the level of the world's own status, the two positions are structurally equivalent.",
+        "The Advaitin therefore arrives at the Buddhist conclusion about the world by a different route, while preserving Vedic vocabulary for the substrate."
+      ],
+      "inference": "The Advaitin position is structurally pracchanna-bauddha — Buddhism wearing Vedānta's clothes.",
+      "conclusion": "A Vedāntin committed to the realist construal of the Brahma-Sūtras' pariṇāma-vāda must reject Advaita as a deviation from Vedāntic realism toward Buddhist illusionism.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "sankara",
+            "position": "Śaṅkara's mithyā-doctrine and his vivarta-vāda. The argument lands hard if mithyā is read as functional-equivalent-of-śūnya."
+          },
+          {
+            "thinker_id": "gaudapada",
+            "position": "Gauḍapāda's Māṇḍūkya-Kārikā (especially the Vaitathya-Prakaraṇa and Alāta-Śānti-Prakaraṇa) is even more directly engaged: the explicit ajāti-vāda and the world-as-dream analogies are arguably the most Mādhyamika-influenced moments in the Vedānta corpus, and Bhāskara's charge applies most cleanly here."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "ramanuja",
+            "position": "Rāmānuja's Viśiṣṭādvaita is not engaged by this charge, since the world's reality is preserved by the body-soul model. Bhāskara's polemic and Rāmānuja's polemic operate at different but compatible angles."
+          },
+          {
+            "thinker_id": "madhva",
+            "position": "Madhva's Tattvavāda likewise; Bhāskara's polemic against Advaita is not a polemic against realist non-Advaitic Vedānta."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "vacaspati",
+            "response_text": "Bhāmatī ad BSB 2.1 — defends the mithyā-doctrine by stressing the substrate-affirmation Bhāskara concedes is absent in śūnyavāda; the structural equivalence Bhāskara alleges is, on Vāchaspati's view, broken precisely at the substrate-axis",
+            "verdict": "the reply concedes the surface similarity but denies the structural equivalence; the residual disagreement is over how much weight substrate-affirmation carries in distinguishing two ontologies of phenomena."
+          },
+          {
+            "thinker_id": "madhusudana",
+            "response_text": "Advaita-Siddhi and Vedānta-Kalpa-Latikā — explicitly refute the pracchanna-bauddha charge by detailed exhibition of the doctrinal differences (substrate, theory of error, soteriology, status of bhakti)",
+            "verdict": "Madhusūdana's reply is the canonical Advaita defense; the structural-equivalence claim is shown to require ignoring multiple load-bearing differences."
+          }
+        ]
+      },
+      "user_thesis_test": "The charge is genuinely pressing if one reads mithyā as evacuating phenomena of own-being in the Mādhyamika sense. The user's framework explicitly forbids the mithyā = asat reduction, which weakens this version of Bhāskara's charge to the extent that mithyā is reread under the user's constraint. Even so, the residual question (whether mithyā-with-substrate-affirmation is meaningfully different from śūnya-without-substrate-affirmation) is substantive. Partial-touch: the charge engages something real but is sharpest on a reading the user's framework already rejects."
+    },
+    {
+      "name": "argument-2: vivarta-vāda is incompatible with the sūtras' pariṇāma-language",
+      "premises": [
+        "The Brahma-Sūtras at multiple loci use language of real production (e.g., janmādyasya yataḥ — that from which the origination etc. of this proceeds), which is naturally read as pariṇāma-vāda (real transformation).",
+        "Vivarta-vāda (apparent transformation, with substrate unchanged) does violence to this natural reading; it requires the sūtras' productive-causation language to be reinterpreted as merely apparent.",
+        "The Chāndogya 6.1.4 dṛṣṭānta of clay-and-pot is the canonical pariṇāma-image; its natural reading is that the pot is a real modification of clay.",
+        "Śaṅkara's vivarta-reading of clay-and-pot (treating the pot as nāma-rūpa-only) is exegetically strained.",
+        "The realist reading of the sūtras is therefore textually superior to the vivarta-reading."
+      ],
+      "inference": "Vivarta-vāda is a forced exegesis to defend a doctrinal position the sūtras themselves do not endorse.",
+      "conclusion": "Bhāskara's pariṇāma-vāda is the natural reading; Śaṅkara's vivarta-vāda is the deviation.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "sankara",
+            "position": "Śaṅkara's vivarta-reading of BSB 2.1 and his nāma-rūpa-reading of the Chāndogya."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "ramanuja",
+            "position": "Rāmānuja's body-soul causation is neither vivarta nor pariṇāma in the strict sense; Bhāskara's argument does not engage the alternative."
+          },
+          {
+            "thinker_id": "madhva",
+            "position": "Madhva's nimitta-and-upādāna-by-real-dependence likewise."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "vacaspati",
+            "response_text": "Bhāmatī defends the vivarta-reading by arguing that sūtra-language operates at the vyāvahārika level and is consistent with vivarta at the pāramārthika level",
+            "verdict": "the reply requires a level-distinction Bhāskara does not accept; the disagreement reduces to whether the two-level ontology is principled or ad-hoc."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive at the exegetical level. Whether the sūtras teach pariṇāma or vivarta is a real textual question with substantive metaphysical consequences. Not a register-effect."
+    },
+    {
+      "name": "argument-3: jñāna-karma-samuccaya is required by the realist reading",
+      "premises": [
+        "If the world is real (pariṇāma-product of Brahman), then karmic action in the world is also real and salvifically meaningful.",
+        "Vedic karma is enjoined by śruti and is binding on the qualified.",
+        "Jñāna of Brahman does not abolish karmic obligation, since the world karma operates in is not abolished.",
+        "Therefore the path to mokṣa requires the joint cultivation of jñāna and karma — jñāna-karma-samuccaya.",
+        "The Advaitin's jñāna-only position presupposes that karmic action is, ultimately, mithyā and so dispensable; this presupposition is false on the realist reading."
+      ],
+      "inference": "Jñāna-karma-samuccaya is the soteriologically correct path on a realist Vedānta.",
+      "conclusion": "The Advaitin's jñāna-only path is a soteriological deviation that follows from the underlying mithyā-vāda error.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "sureshvara",
+            "position": "Sureśvara's Naiṣkarmya-Siddhi explicit defense of jñāna-only against samuccaya is the principal direct interlocutor here."
+          },
+          {
+            "thinker_id": "sankara",
+            "position": "Śaṅkara's commentary at BSB 3.4.1 and on Bṛhadāraṇyaka explicitly denies samuccaya."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "mandana",
+            "position": "Maṇḍana's position is closer to Bhāskara's on this axis (jñāna with karma-and-bhāvanā coordinate); Bhāskara's argument and Maṇḍana's are largely aligned, so the polemic does not engage Maṇḍana adversarially."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "sureshvara",
+            "response_text": "Naiṣkarmya-Siddhi 1.55–56 — argues that karma and jñāna stand as bādhya-bādhaka and cannot occupy one locus; this is a structural reply to any samuccaya-position, including Bhāskara's",
+            "verdict": "the reply pre-dates Bhāskara's polemic in its developed form but addresses its core: even on a realist reading, the cognitive structure of action (agent-object) is incompatible with the cognitive structure of brahma-jñāna (non-distinction). The dispute is about whether the samuccaya is structurally possible, not merely about whether it is enjoined."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive on a real soteriological question. The disagreement is not register-dependent: it is a real question whether the cognitive structure of action is compatible with the cognitive structure of brahma-jñāna."
+    }
+  ],
+  "user_thesis_summary": "Bhāskara's pracchanna-bauddha polemic is partly substantive and partly register-dependent. The structural-equivalence argument (mithyā ≅ śūnya) is sharpest on a reading of mithyā as asat-equivalent, which the user's framework rejects; on the user's reading, the argument retains some force (against the world's having own-being in any robust sense) but does not establish full equivalence. The vivarta-vs-pariṇāma exegetical argument is genuinely substantive: it raises a real question about how the sūtras' productive-causation language should be read, and the disagreement persists across the post-Bhāskara tradition. The samuccaya argument engages a real soteriological question and pre-supposes a structural disagreement that survives any register-clarification. Importantly, Bhāskara's polemic targets Śaṅkara himself more directly than Rāmānuja's saptavidhānupapatti does: Bhāskara is reading Śaṅkara's bhāṣya at first hand and engaging it as the position to refute. Verdict: substantive on the exegetical and soteriological axes; partially register-dependent on the structural-equivalence axis; does not dissolve under register-clarification at any point. Of the polemic chains in this set, this one most clearly engages Śaṅkara as Śaṅkara rather than the post-Śaṅkara establishment.",
+  "primary_source_loci": [
+    "Bhāskara, Brahma-Sūtra-Bhāṣya, introduction and BSB 1.1.1–4 (the polemical opening against māyā-vāda)",
+    "BSB 1.4.21 (Bhāskara's explicit pracchanna-bauddha aside)",
+    "BSB 2.1.14 ff. (defense of pariṇāma-vāda against vivarta)",
+    "BSB 3.4 (jñāna-karma-samuccaya defended)"
+  ],
+  "scholarly_apparatus": [
+    {
+      "scholar": "S. Srinivasa Chari",
+      "work": "Fundamentals of Viśiṣṭādvaita: A Comparative Study (Munshiram, 1988), with extensive Bhāskara material",
+      "page_or_section": "ch. on aupādhika-bhedābheda",
+      "position": "Documents that Bhāskara's polemic against Advaita is the earliest sustained Vedāntic refutation of māyā-vāda, predating Rāmānuja by a generation; the pracchanna-bauddha charge is a structural argument, not a rhetorical insult."
+    },
+    {
+      "scholar": "Tilmann Vetter",
+      "work": "Studien zur Lehre und Entwicklung Śaṅkaras (Vienna, 1979)",
+      "page_or_section": "passim",
+      "position": "Explicitly engages the historical question of whether Śaṅkara's doctrine is influenced by Mādhyamika; the scholarly conclusion is qualified — Gauḍapāda is more directly Mādhyamika-engaged than Śaṅkara himself, but Bhāskara's charge is not without textual basis especially on the Gauḍapāda-Vaitathya material."
+    },
+    {
+      "scholar": "Daniel Ingalls",
+      "work": "Śaṃkara's Arguments against the Buddhists (Philosophy East and West, 1954)",
+      "page_or_section": "the article",
+      "position": "Documents Śaṅkara's own anti-Buddhist polemic at BSB 2.2.18–32 — an important counter to the pracchanna-bauddha charge: Śaṅkara himself explicitly refutes the Buddhist schools and is polemically distant from them."
+    }
+  ],
+  "entry_status": "reviewed",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-polemic-opus"
+}

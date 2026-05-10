@@ -1,0 +1,51 @@
+{
+  "id": "prabhakara",
+  "name": "Prabhakara Mishra",
+  "name_iast": "Prabhākara Miśra",
+  "alternate_names": ["Prabhākara", "Guru (honorific used in the school)"],
+  "dates_low": 680,
+  "dates_high": 750,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Mīmāṃsaka, Kumārila's near-contemporary; dates fixed by Kataoka and Frauwallner to the late seventh and early eighth century. The traditional account that Prabhākara was Kumārila's student is doubted by modern scholarship; what is secure is that the two schools — Bhāṭṭa and Prābhākara — develop in close dialectical dependence and disagree on systemic questions of cognition, sentence-meaning, and the analysis of error.",
+  "school": "Pūrva-Mīmāṃsā",
+  "school_color_token": "mimamsa-comparator",
+  "sub_school": "Prābhākara Mīmāṃsā",
+  "sub_school_shade": 4,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "kumarila",
+      "direction": "mutual",
+      "note": "Prabhākara's Bṛhatī develops the Prābhākara position in sustained dialectical opposition to Kumārila's Bhāṭṭa school on triputī-saṃvit, anvitābhidhāna, and the analysis of error."
+    }
+  ],
+  "core_thesis": "Prabhākara Miśra's *Bṛhatī* founds the Prābhākara school of Pūrva-Mīmāṃsā, which differs from Kumārila's Bhāṭṭa school on three systemic issues. First, *triputī-saṃvit*: every cognition is jointly self-revealing (*sva-prakāśa*), object-revealing (*viṣaya-prakāśa*), and subject-revealing (*āśraya-prakāśa*), in a single act. The Bhāṭṭa view that cognition reveals its object directly but is itself cognised only by inference (*jñātatā*) is rejected as needlessly complex. Second, *anvitābhidhāna*: the words of a sentence directly denote not their isolated meanings but their meanings-as-mutually-related; sentence-meaning is not constructed downstream from word-meanings but is the primary semantic content. The Bhāṭṭa *abhihitānvaya* — words first denote isolated meanings, then those meanings combine — is rejected as both phenomenologically false and explanatorily inert. Third, *akhyāti*: erroneous cognition (the rope-as-snake) is analysed as the concurrent presence of two distinct cognitions, one perceptual and one memorial, whose distinctness is overlooked. There is no positive misrepresentation; there is only a non-discrimination of two real cognitive contents. The position is the cleanest realist analysis of error in classical Indian epistemology. The school's enduring philosophical influence is on the analysis of *vidhi* (injunctive force) — Prabhākara holds that *codanā* operates by directly producing a *kārya* (a duty-content) in the agent, whence the school's name *kāryānvitābhidhāna-vāda* — and on the doctrine of cognition's intrinsic self-revelation, which Advaita partly inherits and modifies in service of *sākṣi-caitanya*.",
+  "engaged_works": [
+    {
+      "work_id": "brhati",
+      "title": "Brhati",
+      "title_iast": "Bṛhatī",
+      "alternate_titles": ["Nibandhana"],
+      "composition_dates_low": 680,
+      "composition_dates_high": 750,
+      "composition_dates_notes": "Composed in Prabhākara's mature period.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored sub-commentary on Śabara's Mīmāṃsā-Sūtra-Bhāṣya; the founding text of the Prābhākara school.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus (Frauwallner; Kataoka)."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "Sub-commentary on Śabara's *Mīmāṃsā-Sūtra-Bhāṣya*, working through the *Sūtra* and *Bhāṣya* in the order in which they treat the analysis of *dharma*, *codanā*, *vidhi*, *arthavāda*, and the principles of ritual hermeneutics. The *Bṛhatī*'s philosophical innovations are concentrated in the early sections on *codanā* and *śabda-pramāṇa*. The *triputī-saṃvit* doctrine is developed in the analysis of *jñāna*-self-luminosity. The *anvitābhidhāna* doctrine is developed in the analysis of how injunctive sentences produce *kārya*-cognition: the analysis turns on the observation that the child learning language acquires the meaning of *gām ānaya* (\"bring the cow\") not by first acquiring the isolated meanings of *gām* and *ānaya* and then combining them, but by hearing the sentence used in context and inferring the relational meaning directly. The *akhyāti* analysis of error is developed in the discussion of how injunctive cognition can be effective even when its phenomenological content is partly mistaken. Śālikanātha Miśra's *Ṛju-Vimalā* and *Prakaraṇa-Pañcikā* are the two standard sub-commentaries through which the *Bṛhatī*'s positions reach later medieval Indian philosophy. Vāchaspati Miśra and Vijñānabhikṣu both engage Prābhākara positions critically.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-comparators-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-comparators-opus"
+}

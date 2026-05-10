@@ -1,0 +1,118 @@
+{
+  "id": "sadyojyotis",
+  "name": "Sadyojyotis",
+  "name_iast": "Sadyojyotis",
+  "alternate_names": ["Sadyojyoti", "Khetapāla"],
+  "dates_low": 700,
+  "dates_high": 800,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Earliest dualist Saiddhāntika theologian whose works survive; dated by internal references and citation in Bhaṭṭa Rāmakaṇṭha's Nareśvara-Parīkṣā-Prakāśa.",
+  "school": "Cross-tradition",
+  "school_color_token": "kashmir-shaiva-dualist",
+  "sub_school": "Kashmir Śaiva-Siddhānta (founding)",
+  "sub_school_shade": 2,
+  "lineage_in": [],
+  "lineage_out": ["bhatta-ramakantha"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "somananda",
+      "direction": "is-refuted-by",
+      "note": "Somānanda's Śiva-Dṛṣṭi inaugurates the Pratyabhijñā non-dualist position against the dualist Saiddhāntika ontology of pati / paśu / pāśa for which Sadyojyotis is the early authoritative exponent."
+    },
+    {
+      "thinker_id": "utpaladeva",
+      "direction": "is-refuted-by",
+      "note": "Utpaladeva's Īśvara-Pratyabhijñā-Kārikā extends Somānanda's polemic against the three-fold dualist ontology Sadyojyotis defends."
+    }
+  ],
+  "core_thesis": "Non-Vedāntin comparator (dualist Kashmir Śaiva-Siddhānta). Sadyojyotis is the earliest surviving systematic theologian of the Kashmirian *Śaiva-Siddhānta* — a tradition distinct from both the southern Tamil Śaiva-Siddhānta and from the later non-dual Pratyabhijñā. The position is *bhedavāda*: *pati* (Śiva, the supreme Lord), *paśu* (the bound soul), and *pāśa* (the three bonds — *āṇava*, *māyīya*, *kārma*) are three eternally distinct, irreducible, positively existent realities. Śiva is omniscient, omnipotent, and transcendent of *māyā*; the soul is intrinsically *cit* but constitutively bound by *āṇavamala* — an actual ontological obscuration, not a *jīva*-side misperception. Liberation (*mokṣa*) consists in the soul's actual purification from *mala* through Śiva-bestowed *dīkṣā* and the consequent attainment of equality (*samya*) of powers with Śiva, while remaining numerically distinct from him. *Mukti* is therefore neither absorption nor identity-recognition but an eternal real distinction with full siddha-powers. The corpus argues this against Buddhist no-self, against Sāṃkhya puruṣa-pluralism, and against any consciousness-as-sole-substance reading: the world is real, the soul is real, and Śiva is real, in three distinct ontological registers.",
+  "engaged_works": [
+    {
+      "work_id": "bhoga-karika",
+      "title": "Bhoga-Karika",
+      "title_iast": "Bhoga-Kārikā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; one of the four foundational kārikā-treatises of the early dualist Saiddhāntika theology.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus (Watson, Goodall, Filliozat editions and studies)."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Verse-treatise on *bhoga* — experience or enjoyment by the bound soul — as the structural condition the Saiddhāntika system must explain. Sadyojyotis argues that *bhoga* requires three eternally real factors: a *bhoktṛ* (the soul, *paśu*), a *bhogya* (the experienceable world, derived from *māyā* as a real material principle), and a *prerakṛ* (Śiva, who, by his own grace, conjoins soul and world for the soul's spiritual maturation). The argument is that no monist ontology — neither consciousness-only nor *prakṛti*-only — can ground real *bhoga*: only an irreducible three-fold ontology suffices. The text is the analytic foundation for the position that *māyā* in Śaiva-Siddhānta is not illusion but a real material substrate, and that bondage is a real ontological condition rather than a cognitive error. Read together with the *Mokṣa-Kārikā*, it gives the dualist Saiddhāntika account of how *saṃsāra* is structured and why liberation requires Śiva's actual intervention rather than mere gnosis.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "moksha-karika",
+      "title": "Moksha-Karika",
+      "title_iast": "Mokṣa-Kārikā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored companion to the Bhoga-Kārikā.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Verse-treatise on *mokṣa* as the structural counterpart to the *Bhoga-Kārikā*'s account of *bhoga*. Sadyojyotis argues that liberation is the soul's *actual* removal of *āṇavamala* — the constitutive obscuring impurity — together with attainment of equality (*samya*) of powers with Śiva: omniscience, omnipotence-through-grace, and freedom from the bonds. *Mokṣa* is therefore neither identity with Śiva (against the Pratyabhijñā non-dualists who have not yet appeared on the scene) nor mere *jñāna* (against the Vedāntic identification of liberation with knowledge): it is an objective ontological transformation of the soul, performed by Śiva through *dīkṣā* and consummated at death. The liberated soul retains its individual identity eternally and is not absorbed into Śiva. The text is foundational for the dualist Saiddhāntika soteriology: a position that the user's project should treat as a positive metaphysical commitment in its own right, not as a 'preliminary' stage to non-dualism.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "tattva-sangraha",
+      "title": "Tattva-Sangraha",
+      "title_iast": "Tattva-Saṅgraha",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored short kārikā-treatise; not to be confused with Śāntarakṣita's later Buddhist Tattva-Saṅgraha.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus (Goodall et al. editions)."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "A compact compendium of the Saiddhāntika *tattva*-hierarchy — the thirty-six *tattvas* from earth (*pṛthvī*) through *māyā* and *śuddha-vidyā* up to Śiva — read as the Saiddhāntika ontological architecture rather than as the non-dual emanation it later becomes in the Trika tradition. Sadyojyotis presents the *tattvas* as a real cosmological hierarchy: each is an objective level of being, not a phase of consciousness's self-display. The text serves as the school's structural propaedeutic, showing how the three-fold *pati* / *paśu* / *pāśa* ontology articulates into the full *tattva*-cosmology, with *māyā-tattva* itself as the real material substrate from which the lower *tattvas* derive. The contrast with the same *tattva*-list as it appears in Abhinavagupta's *Tantrāloka* is precisely the contrast between dualist and non-dual readings of identical scriptural inheritance.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "tattva-trayanirnaya",
+      "title": "Tattva-Trayanirnaya",
+      "title_iast": "Tattva-Trayanirṇaya",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored kārikā-treatise on the three principal tattvas (Śiva, soul, bonds).",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "A focused treatise establishing the Saiddhāntika doctrine of *tattva-traya* — the three foundational realities Śiva (*pati*), soul (*paśu*), and bond (*pāśa*) — as eternally distinct, mutually irreducible, and jointly necessary for any coherent account of the world and the religious life. Sadyojyotis argues against monist alternatives: against the consciousness-only reading (which cannot account for the soul's *real* bondage), against the world-as-illusion reading (which cannot account for *bhoga* or *karma*), and against the no-Lord reading (which cannot account for the soul's purification). The *tattva-traya* is therefore the minimum ontology a coherent religious metaphysics requires. The text is the school's most concentrated statement of its irreducibly pluralist commitment and is the natural starting point for understanding why the later non-dual Pratyabhijñā polemic, when it arrives with Somānanda, must engage Sadyojyotis on precisely this terrain.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "naresvara-pariksa",
+      "title": "Naresvara-Pariksa",
+      "title_iast": "Nareśvara-Parīkṣā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; the major kārikā-treatise establishing the distinction of soul (nara) from Lord (īśvara), later commented on by Bhaṭṭa Rāmakaṇṭha II.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus (Watson 2006, The Self's Awareness of Itself; Goodall and Filliozat editions)."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The longest and most ambitious of Sadyojyotis's kārikā-treatises, in three *prakaraṇas*, devoted to establishing the eternal distinction between the soul (*nara*) and the supreme Lord (*īśvara*). The first *prakaraṇa* establishes the existence of the eternally bound *paśu* as a real *cit*-substance, against Buddhist *anātman* and against materialist reductions; the second establishes the existence and necessary properties of *Īśvara* (Śiva) as omniscient, omnipotent, and transcendent of *māyā*, against atheist and Sāṃkhya alternatives; the third establishes the eternal distinction of soul from Śiva, against any identity-thesis. Crucial for the comparative work: Sadyojyotis here defends a positive theory of self-awareness (*sva-saṃvedana*) for the soul that is structurally distinct from both the Buddhist reflexivist account and from the later Pratyabhijñā doctrine of *vimarśa* as a divine power. Bhaṭṭa Rāmakaṇṭha II's *Nareśvara-Parīkṣā-Prakāśa* will, two centuries later, deploy this analysis polemically against the rising Pratyabhijñā position. The text is therefore the school's signature work and the natural focus of the dualist–non-dualist debate.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Sadyojyotis is the foundational dualist Saiddhāntika theologian; his works are the natural target of the later Pratyabhijñā polemic and the natural source for Bhaṭṭa Rāmakaṇṭha II's mature dualist defence. In the modern reception of Kashmir Śaivism his recovery (especially through Alex Watson, Dominic Goodall, and Pierre-Sylvain Filliozat) has corrected the popular impression that 'Kashmir Śaivism' is identical with the non-dual Trika; the dualist Saiddhāntika position is its older and equally serious sibling.",
+  "entry_status": "draft",
+  "entry_owner_agent": "trika-shakta-extension-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "trika-shakta-extension-opus"
+}

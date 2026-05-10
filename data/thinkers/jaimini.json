@@ -1,0 +1,51 @@
+{
+  "id": "jaimini",
+  "name": "Jaimini",
+  "name_iast": "Jaimini",
+  "alternate_names": ["Jaimini Mīmāṃsākāra"],
+  "dates_low": -300,
+  "dates_high": -100,
+  "dates_tier": "contested",
+  "dates_notes": "Jaimini is named in the Brahma-Sūtra as a Vedāntic ācārya and in the Mīmāṃsā-Sūtra as its compiler-author; the relative position of the two sūtra-corpora and their cross-references makes the dating mutually constraining. Frauwallner places Jaimini in the third to second century BCE; Clooney (1990, Thinking Ritually) reviews the range. The biographical figure is a name attached to the founding sūtra-text.",
+  "school": "Pūrva-Mīmāṃsā",
+  "school_color_token": "mimamsa-comparator",
+  "sub_school": "Mīmāṃsā founding-sūtra",
+  "sub_school_shade": 1,
+  "lineage_in": [],
+  "lineage_out": ["shabara"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "badarayana",
+      "direction": "mutual",
+      "note": "The Brahma-Sūtra's first substantive sūtra after the maṅgala — 1.1.4, tat tu samanvayāt — is read by every later Vedāntic bhāṣyakāra as Bādarāyaṇa's response to the Mīmāṃsā prioritization of the karma-kāṇḍa: śruti's tātparya converges on brahman, not merely on enjoined ritual action. The Brahma-Sūtra cites Jaimini by name on several disputed adhikaraṇas (e.g., 1.2.31, 3.4.2, 4.4.5), the relation is constructive on śruti's pramāṇa-status and polemical on the supremacy of dharma-jijñāsā versus brahma-jijñāsā."
+    }
+  ],
+  "core_thesis": "Jaimini's *Mīmāṃsā-Sūtra* is the founding text of *Pūrva-Mīmāṃsā* — the *darśana* of Vedic ritual exegesis. The opening *sūtra* — *athāto dharma-jijñāsā* (1.1.1), \"now, therefore, the inquiry into *dharma*\" — fixes the discipline's object: not the cosmos as such, but *dharma*, defined at 1.1.2 as *codanā-lakṣaṇo'rtho dharmaḥ*, \"*dharma* is the *artha* characterized by Vedic injunction.\" The decisive epistemological thesis is given at 1.1.5: śabda — specifically, the unauthored (*apauruṣeya*), eternal Vedic *codanā* — is an autonomous and self-validating *pramāṇa* for *dharma*; no extra-Vedic warrant for ritual action is required or available. From this follow several distinctive Mīmāṃsā doctrines that Vedānta inherits or contests: (i) the eternity and non-authorship of the Veda; (ii) the *śabda-nityatva* doctrine — that linguistic units (*varṇa*, *pada*, *vākya*) are themselves eternal universals; (iii) *svataḥ-prāmāṇya* — the intrinsic validity of cognition pending positive defeat; (iv) the analysis of every Vedic sentence as either *vidhi* (injunction), *arthavāda* (commendation), *mantra*, or *nāmadheya*; (v) the rejection of *īśvara* as required for the *karma-phala-saṃbandha*, the *apūrva* doctrine substituting an unseen-result mechanism for divine bookkeeping. *Vedānta-Sūtra* 1.1.4 is read as Bādarāyaṇa's response: the *tātparya* of *śruti* converges on *brahman*, not merely on enjoined action.",
+  "engaged_works": [
+    {
+      "work_id": "mimamsa-sutra",
+      "title": "Mimamsa-Sutra",
+      "title_iast": "Mīmāṃsā-Sūtra",
+      "alternate_titles": ["Pūrva-Mīmāṃsā-Sūtra", "Jaimini-Sūtra"],
+      "composition_dates_low": -300,
+      "composition_dates_high": -100,
+      "composition_dates_notes": "Composition fixed by mutual citation with the Brahma-Sūtra and by the relative position to the early Dharma-Sūtras.",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Uniformly ascribed to Jaimini by tradition; the surviving twelve-adhyāya text is likely the consolidation of an earlier oral sūtra-tradition, paralleling the Brahma-Sūtra's compositional history.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Frauwallner (Geschichte der indischen Philosophie I); Clooney (1990, Thinking Ritually)."}
+      ],
+      "genre": "verse-summary",
+      "language": "sanskrit",
+      "summary": "Twelve *adhyāyas*, each in four *pādas*, of about 2745 *sūtras* — the largest of the *darśanika* sūtra-corpora. The first *adhyāya* establishes the foundational doctrines: *codanā* as the autonomous *pramāṇa* for *dharma*, the eternity of *śabda*, the four sentence-types (*vidhi*, *arthavāda*, *mantra*, *nāmadheya*), and the *svataḥ-prāmāṇya* of cognition. *Adhyāyas* 2–6 develop the analytical apparatus for ritual interpretation — the *sad-vidha-tātparya-liṅga* (the six marks of intended meaning), the *aṅga-aṅgi-vibhāga* (analysis of subordinate and principal ritual elements), and the procedure-rules (*prakaraṇa*, *sthāna*, *krama*, *samākhyā*). *Adhyāyas* 7–9 treat *atideśa* — the extension of one ritual's procedure to another — and *bādha*. *Adhyāya* 10 treats *ūha* (modification) and *bādha* (cancellation). *Adhyāya* 11 treats *tantra* (the unification of multiple ritual elements). *Adhyāya* 12 treats *prasaṅga* (the contingent extension of one ritual element to another). The work cites by name the ācāryas Bādari, Bādarāyaṇa, Lābukāyana, and others — direct evidence of an earlier oral *sūtra*-tradition. The text is unintelligible without commentary; the principal commentary is Śabara's *Śābara-Bhāṣya*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-comparators-darsana-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-comparators-darsana-opus"
+}

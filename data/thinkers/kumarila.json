@@ -1,0 +1,64 @@
+{
+  "id": "kumarila",
+  "name": "Kumarila Bhatta",
+  "name_iast": "Kumārila Bhaṭṭa",
+  "alternate_names": ["Kumārila", "Bhaṭṭa", "Bhaṭṭācārya"],
+  "dates_low": 660,
+  "dates_high": 720,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Mīmāṃsaka; dates fixed by Kataoka (2011, Kumārila on Truth, Omniscience, and Killing) and Bronkhorst (Karma 2011) by Kumārila's references to Dharmakīrti and being himself referenced by Śāntarakṣita; the late-seventh-century placement is now standard. The traditional identification with Bhaṭṭācārya, Maṇḍana's teacher, is doubted by modern scholarship; what is secure is that Maṇḍana writes from within Bhāṭṭa Mīmāṃsā.",
+  "school": "Pūrva-Mīmāṃsā",
+  "school_color_token": "mimamsa-comparator",
+  "sub_school": "Bhāṭṭa Mīmāṃsā",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": ["mandana"],
+  "lineage_polemical": [],
+  "core_thesis": "Kumārila Bhaṭṭa is the Mīmāṃsā realist who fixes the school's mature epistemological position and whose categories Vedānta both inherits and contests. Three theses define the position. First, *svataḥ-prāmāṇya*: the validity of cognition is intrinsic and is not produced by an external warranting cognition; falsity, when it occurs, is extrinsic and requires a separate defeating cognition. The position is the negative image of the Naiyāyika *parataḥ-prāmāṇya* and is the locus of one of the most consequential debates in classical Indian epistemology. Second, *abhāva* as an autonomous *pramāṇa*: the cognition of an absence (the absent jar in this place) is irreducible to perception or inference and requires a sixth *pramāṇa*, *anupalabdhi* (non-apprehension). The full Bhāṭṭa list — *pratyakṣa*, *anumāna*, *upamāna*, *śabda*, *arthāpatti*, *anupalabdhi* — is given here in the form Advaita inherits. Third, *apauruṣeyatva*: the *Veda* is unauthored, eternal, and self-validating; the Naiyāyika *īśvara*-as-*āpta*-speaker doctrine is rejected as both unnecessary and incompatible with Vedic authority. The Bhāṭṭa analysis of *śabda-pramāṇa* — sentence-meaning constructed via *abhihitānvaya* (the words first denote their meanings and then those meanings combine into a sentence-meaning) — is the standard Mīmāṃsā position against the Prābhākara *anvitābhidhāna*. The doctrinal architecture is the Mīmāṃsā framework Maṇḍana inherits and modifies in service of Advaita; the *jñāna-karma-samuccaya* debate that *Brahma-Siddhi* prosecutes hinges on the Bhāṭṭa analysis of *karma* and *jñāna*.",
+  "engaged_works": [
+    {
+      "work_id": "sloka-varttika",
+      "title": "Shloka-Varttika",
+      "title_iast": "Śloka-Vārttika",
+      "alternate_titles": [],
+      "composition_dates_low": 660,
+      "composition_dates_high": 700,
+      "composition_dates_notes": "Composed in Kumārila's mature period.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored verse-commentary on the first pāda (Tarka-Pāda) of Śabara's Mīmāṃsā-Sūtra-Bhāṣya.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus (Kataoka 2011)."}
+      ],
+      "genre": "varttika",
+      "language": "sanskrit",
+      "summary": "Verse-commentary (*vārttika*) on Śabara's *Bhāṣya* on the first *pāda* of the *Mīmāṃsā-Sūtra* — the *Tarka-Pāda*, MS 1.1.1–32. The *Tarka-Pāda* is the philosophical foundation of Mīmāṃsā: it treats the definition of *dharma*, the authority of *Veda*, the analysis of *codanā* (injunctive force), the structure of *śabda-pramāṇa*, and the response to opponents. Kumārila uses this exegetical occasion to construct a complete Mīmāṃsā epistemology. The *Codanā-Sūtra* section gives the *svataḥ-prāmāṇya* doctrine, the *Pratyakṣa-Sūtra* section the Bhāṭṭa theory of perception, the *Sambandha-Akṣepa-Parihāra* the doctrine of *śabda-artha-sambandha* as eternal, the *Vana-Vāda* the analysis of forest-perception that grounds the Mīmāṃsā ontology of perceived universals, the *Atmā-Vāda* the long argument for an enduring *ātman* against Buddhist *kṣaṇika-vāda* and *vijñāna-vāda*. The text is the Bhāṭṭa school's central philosophical document and the most exhaustively studied Mīmāṃsā work in late-medieval Indian philosophy. Pārthasārathi Miśra's *Nyāya-Ratnākara* and Sucarita Miśra's *Kāśikā* are the two principal sub-commentaries.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "tantra-varttika",
+      "title": "Tantra-Varttika",
+      "title_iast": "Tantra-Vārttika",
+      "alternate_titles": [],
+      "composition_dates_low": 660,
+      "composition_dates_high": 720,
+      "composition_dates_notes": "Composed in Kumārila's mature period; treats MS 1.2 through 3.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored prose-and-verse commentary on Śabara's Bhāṣya on MS 1.2 through 3.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+      ],
+      "genre": "varttika",
+      "language": "sanskrit",
+      "summary": "Mixed prose-and-verse commentary on Śabara's *Bhāṣya* on *Mīmāṃsā-Sūtra* 1.2 through 3. Where the *Śloka-Vārttika* establishes Bhāṭṭa epistemology, the *Tantra-Vārttika* prosecutes the school's hermeneutic doctrine: the analysis of *vidhi* (injunction), *arthavāda* (subordinate explanatory passages), *mantra*, and *nāmadheya* (technical names); the principles of *vinīyoga* (assignment of subsidiary acts to principal injunctions); the analysis of conflict-resolution principles among injunctions. The *Tantra-Vārttika* is the more textually-dense of the two *vārttikas* and is where the Bhāṭṭa school's theory of *śabda-bodha* — sentence-cognition via *abhihitānvaya* — is most fully developed. The work also contains the Mīmāṃsā polemic against Buddhist and Cārvāka denial of Vedic authority, and the realist defence of *jāti* and *sambandha* that the Naiyāyika tradition partly shares.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-comparators-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-comparators-opus"
+}

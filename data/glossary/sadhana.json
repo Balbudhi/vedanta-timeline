@@ -1,0 +1,22 @@
+{
+  "term_key": "sadhana",
+  "term_iast": "sādhana",
+  "term_devanagari": "साधन",
+  "literal": "the means-of-accomplishing; from √sādh 'to accomplish, to bring to completion'",
+  "aliases": ["sadhana", "sādhana", "Sādhana", "sādhanaṃ", "sādhanāni", "sadhana-catustaya", "sādhana-catuṣṭaya"],
+  "invariant_definition": "Practice — the structured discipline by which the goal is approached. *Sādhana-catuṣṭaya* (the four-fold qualification: *viveka*, *vairāgya*, *ṣaṭ-sampatti*, *mumukṣutva*) is the standard pre-philosophical preparation accepted across schools. All Vedāntic schools recognize that *sādhana* of some form is necessary; they differ on what *sādhana* is constitutively for (preparation for *jñāna*: Advaita; constitution of *bhakti*: Vaiṣṇava schools; cultivation of fitness for grace: Dvaita).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Sādhana-catuṣṭaya* prepares the *adhikārī* for *vedānta-vicāra* (Vedāntic inquiry); *śravaṇa-manana-nididhyāsana* is the inquiry proper. *Sādhana* terminates with the rise of *brahma-jñāna*.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1 (sādhana-catuṣṭaya prerequisite)", "Vedānta-Sāra §§14–34", "Vivekacūḍāmaṇi 16–32"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Sādhana-bhakti* — *vaidhī* (rule-following) and *rāgānugā* (passion-following) — is the constitutive practice; matures into *bhāva-bhakti* and then *prema-bhakti*. The *sādhaka*-stage is succeeded by *siddha*-stage.",
+      "primary_loci": ["Bhakti-Rasāmṛta-Sindhu 1.2 (vaidhī), 1.2.270ff (rāgānugā)"]
+    }
+  ],
+  "see_also": ["upaya", "sadhana-catustaya", "viveka", "vairagya", "mumuksutva", "sravana", "manana", "nididhyasana"],
+  "translator_note": "'Practice' or 'spiritual practice' are acceptable. The technical *sādhana-catuṣṭaya* should not be translated — it is a four-element technical term."
+}
