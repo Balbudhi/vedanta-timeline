@@ -2596,7 +2596,7 @@ async function ensureArticlesLoaded() {
       row.dataset.slug = a.slug;
       const pillHTML = a.kind === "perspective" ? '<span class="perspective-pill perspective-pill--inline">PERSPECTIVE</span> ' : "";
       row.innerHTML = `
-        <p class="article-title">${pillHTML}${escape(a.title)}${a.status === "in-progress" ? ' <em style="color:#92400e;font-weight:500">(in progress)</em>' : ""}</p>
+        <p class="article-title">${pillHTML}${md(a.title)}${a.status === "in-progress" ? ' <em style="color:#92400e;font-weight:500">(in progress)</em>' : ""}</p>
         ${a.subtitle ? `<p class="article-subtitle">${md(a.subtitle)}</p>` : ""}
         <p class="article-meta">${a.word_count_approx ? "~" + a.word_count_approx.toLocaleString() + " words" : ""}${a.date ? " · " + escape(a.date) : ""}</p>
       `;
@@ -2629,7 +2629,7 @@ async function openArticle(a) {
     const eyebrowKind = a.kind === "perspective" ? "Perspective" : (a.kind || "Article");
     dpArticleHead.innerHTML = `
       <p class="dp-eyebrow">${escape(eyebrowKind.charAt(0).toUpperCase() + eyebrowKind.slice(1))}</p>
-      <p class="dp-title">${pill}${escape(a.title)}</p>
+      <p class="dp-title">${pill}${md(a.title)}</p>
       ${a.subtitle ? `<p class="dp-attrib">${md(a.subtitle)}</p>` : ""}
     `;
   }
@@ -2641,7 +2641,7 @@ async function openArticle(a) {
     : `data/articles/source/${a.slug}.md`);
   const r = await fetch(path);
   if (!r.ok) {
-    if (dpArticleBody) dpArticleBody.innerHTML = `<article><h1>${escape(a.title)}</h1><p>Article body not yet uploaded.</p></article>`;
+    if (dpArticleBody) dpArticleBody.innerHTML = `<article><h1>${md(a.title)}</h1><p>Article body not yet uploaded.</p></article>`;
     return;
   }
   const text = await r.text();
