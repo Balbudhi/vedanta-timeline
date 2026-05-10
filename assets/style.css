@@ -156,6 +156,37 @@ body.is-detail-open {
   overflow: hidden;
   background: var(--bg);
 }
+
+/* Reset-view button: visible only in Network mode. Re-frames the canvas at
+   default zoom and the initial focus year. */
+.reset-view-btn {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  z-index: 6;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background 140ms ease, border-color 140ms ease, color 140ms ease;
+}
+.reset-view-btn:hover {
+  background: var(--bg-warm);
+  color: var(--ink);
+  border-color: var(--ink-soft);
+}
+.reset-view-btn[hidden] { display: none; }
+
+/* Space-held: grab cursor everywhere over the timeline. */
+body.is-space-pan .timeline-scroller,
+body.is-space-pan .timeline-scroller * { cursor: grab !important; }
 .timeline-scroller {
   position: relative;
   height: 100%;
@@ -459,6 +490,33 @@ body.is-detail-open {
   min-height: 0;
   overflow: hidden;
 }
+
+/* Drag handle on the LEFT edge of the panel. Lets the reader widen the
+   pane for translation work or narrow it to give the canvas more room.
+   Width is committed via inline style on .detail-pane; see app.js. */
+.dp-resize-handle {
+  position: absolute;
+  top: 0; left: 0; bottom: 0;
+  width: 6px;
+  margin-left: -3px;
+  z-index: 5;
+  cursor: col-resize;
+  background: transparent;
+  transition: background 140ms ease;
+  touch-action: none;
+}
+.dp-resize-handle:hover,
+.dp-resize-handle.is-dragging {
+  background: var(--rule);
+}
+body.is-resizing-pane,
+body.is-resizing-pane * {
+  cursor: col-resize !important;
+  user-select: none !important;
+}
+body.is-resizing-pane .stage {
+  transition: none !important;
+}
 body.is-detail-open .detail-pane {
   opacity: 1;
   pointer-events: auto;
@@ -614,6 +672,7 @@ body.is-detail-open .detail-pane {
   flex: 1;
   overflow-y: auto;
   min-height: 0;
+  font-size: 15.5px;
 }
 .dp-empty {
   color: var(--muted);
@@ -759,7 +818,7 @@ body.is-detail-open .detail-pane {
 }
 .work-card .summary {
   font-family: var(--serif);
-  font-size: 17px;
+  font-size: 15.5px;
   line-height: 1.6;
   margin: 6px 0 10px;
   color: var(--ink);
@@ -863,7 +922,7 @@ body.is-detail-open .detail-pane {
 }
 .passage-card .english {
   font-family: var(--serif);
-  font-size: 17px;
+  font-size: 15.5px;
   line-height: 1.6;
   margin: 0 0 12px;
   color: var(--ink);
@@ -1524,19 +1583,19 @@ body.is-reading-mode .passage-card .english { font-size: 18px; }
 .cite-passage-anchor .cpa-sk {
   font-family: var(--serif);
   font-style: italic;
-  font-size: 14px;
+  font-size: 13px;
   white-space: pre-wrap;
   margin-bottom: 8px;
   color: var(--ink);
 }
 .cite-passage-anchor .cpa-en {
   font-family: var(--serif);
-  font-size: 14px;
+  font-size: 13px;
   color: var(--ink);
 }
 .cite-passage-anchor .cpa-pending {
   font-family: var(--serif);
-  font-size: 13px;
+  font-size: 12px;
   color: var(--ink-soft);
 }
 .cite-passage-anchor--unverified {
