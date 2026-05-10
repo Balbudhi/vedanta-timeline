@@ -35,24 +35,31 @@
     },
     {
       "school": "Advaita",
-      "definition": "Brahman is the undivided *sat-cit-ānanda* disclosed when the *upādhis* of *māyā* and *avidyā* are relinquished, so that the *mahāvākya* targets *akhaṇḍa paraṃ brahma* itself [[Pañcadaśī 1.43](cite://vidyaranya/panchadashi/Pañcadaśī 1.43); [Pañcadaśī 1.48](cite://vidyaranya/panchadashi/Pañcadaśī 1.48)]. As cosmological referent the same *brahman* is spoken of as both *upādāna* and *nimitta* by association with *māyā*, while its direct apprehension requires the disciplined semantic resolution of the great sentence [[Pañcadaśī 1.44](cite://vidyaranya/panchadashi/Pañcadaśī 1.44); [PV p. 103](cite://prakasatman/pancapadika-vivarana/mahāvākyasyāparokṣa-prayojakatvam)]. *Brahma-vidyā* is the *nirvikalpaka mano-vṛtti* whose *viṣaya* is the *advitīyātman*, distinct in kind from the *savikalpaka bhagavad-ākāratā* that constitutes *bhakti* [[BR 1.1 ṭīkā](cite://madhusudana/bhakti-rasayana/1.ṭīkā.1)].",
+      "definition": "Brahman is *ātmaprakāśa* and *ānanda-svabhāva*, with finite pleasures registering only as delimited measures of that plenitude [[BS 1.1 (opening ānanda discussion)](cite://mandana/brahma-siddhi/1.1.1--opening-prose-discussion-of-nanda)]. The apprehension of plurality is *māyā-nibandhana*, and *avidyā* is neither *brahma-svabhāva* nor a sheer non-entity but an *anirvacanīya mithyāvabhāsa* whose locus is the *jīvas* [[BS 1.1 (plurality as māyā-bound)](cite://mandana/brahma-siddhi/1.1.1--opening-prose-on-ekatva-and-m-y); [BS 1.1 (avidyā neither sat nor asat; in the jīvas)](cite://mandana/brahma-siddhi/1.1.1--opening-prose-on-avidy)]. Accordingly *kāraṇa-brahman* is established as *anirvacanīya-māyā-viśiṣṭa*, and the *mahāvākya* yields *aparokṣa* only through the aid of *manana* and allied disciplines, so that *brahma-vidyā* is the *nirvikalpaka mano-vṛtti* whose object is the *advitīyātman* [[PV p. 212](cite://prakasatman/pancapadika-vivarana/brahmaṇo lakṣaṇopalakṣaṇe); [PV p. 103](cite://prakasatman/pancapadika-vivarana/mahāvākyasyāparokṣa-prayojakatvam); [BR 1.1 ṭīkā](cite://madhusudana/bhakti-rasayana/1.ṭīkā.1)].",
       "primary_loci": [
-        "Pañcadaśī 1.43-1.48",
+        "Brahma-Siddhi 1.1 (opening ānanda discussion)",
+        "Brahma-Siddhi 1.1 (plurality as māyā-bound)",
+        "Brahma-Siddhi 1.1 (avidyā neither sat nor asat; in the jīvas)",
+        "Pañcapādikā-Vivaraṇa p. 212",
         "Pañcapādikā-Vivaraṇa p. 103",
         "Bhakti-Rasāyana 1.1 ṭīkā"
       ],
       "citations": [
         {
-          "cite": "cite://vidyaranya/panchadashi/Pañcadaśī 1.43",
-          "locus_short": "Pañcadaśī 1.43"
+          "cite": "cite://mandana/brahma-siddhi/1.1.1--opening-prose-discussion-of-nanda",
+          "locus_short": "BS 1.1 (opening ānanda discussion)"
         },
         {
-          "cite": "cite://vidyaranya/panchadashi/Pañcadaśī 1.44",
-          "locus_short": "Pañcadaśī 1.44"
+          "cite": "cite://mandana/brahma-siddhi/1.1.1--opening-prose-on-ekatva-and-m-y",
+          "locus_short": "BS 1.1 (plurality as māyā-bound)"
         },
         {
-          "cite": "cite://vidyaranya/panchadashi/Pañcadaśī 1.48",
-          "locus_short": "Pañcadaśī 1.48"
+          "cite": "cite://mandana/brahma-siddhi/1.1.1--opening-prose-on-avidy",
+          "locus_short": "BS 1.1 (avidyā neither sat nor asat; in the jīvas)"
+        },
+        {
+          "cite": "cite://prakasatman/pancapadika-vivarana/brahmaṇo lakṣaṇopalakṣaṇe",
+          "locus_short": "PV p. 212"
         },
         {
           "cite": "cite://prakasatman/pancapadika-vivarana/mahāvākyasyāparokṣa-prayojakatvam",

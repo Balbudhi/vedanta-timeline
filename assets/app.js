@@ -2132,28 +2132,45 @@ async function ensureArticlesLoaded() {
   articlesList.innerHTML = "";
   // Hide superseded articles; only show the latest of each lineage.
   const visible = articlesManifest.articles.filter((a) => a.status !== "superseded");
-  const sectionOrder = ["perspective", "perspective-investigation", "comparative", "framework", "methodology", "essay", "engagement", "other"];
+  // Five user-facing buckets. Superseded `perspective-investigation` drafts are
+  // hidden by the `status === "superseded"` filter above; the kind label is kept
+  // on disk for the historical record but does not surface as a section.
+  const sectionOrder = ["perspective", "essay", "comparative", "framework", "methodology", "engagement", "other"];
   const sectionLabels = {
-    "perspective": "Perspectives — explicit interpretive readings",
-    "perspective-investigation": "Perspective investigations (working drafts)",
+    "perspective": "Perspectives",
+    "essay": "Per-thinker engagements",
     "comparative": "Comparative readings",
     "framework": "Frameworks & methodology",
     "methodology": "Frameworks & methodology",
-    "essay": "Per-thinker essays",
     "engagement": "Text engagements",
     "other": "Other",
+  };
+  const sectionBlurbs = {
+    "perspective": "Explicit user-position-driven readings. Flagged with the PERSPECTIVE pill and a reading-discipline preamble.",
+    "essay": "Sustained reading-sessions through one thinker's primary corpus, in source language where it matters.",
+    "comparative": "Paired analyses across thinkers and schools.",
+    "framework": "Methodological documents underwriting the comparative work.",
+    "methodology": "Methodological documents underwriting the comparative work.",
+    "engagement": "Sustained walk-throughs of one Sanskrit primary work, with locus, IAST, and close English at every load-bearing passage.",
   };
   const groups = {};
   for (const a of visible) {
     const k = sectionOrder.includes(a.kind) ? a.kind : "other";
     (groups[k] = groups[k] || []).push(a);
   }
+  // Sections we've already rendered (so collapsed labels like
+  // framework / methodology don't print twice).
+  const renderedLabels = new Set();
   for (const k of sectionOrder) {
     if (!groups[k] || !groups[k].length) continue;
-    const head = document.createElement("p");
-    head.className = "articles-section-head";
-    head.textContent = sectionLabels[k];
-    articlesList.appendChild(head);
+    const label = sectionLabels[k];
+    if (!renderedLabels.has(label)) {
+      const head = document.createElement("div");
+      head.className = "articles-section-head";
+      head.innerHTML = `<p class="articles-section-title">${escape(label)}</p>${sectionBlurbs[k] ? `<p class="articles-section-blurb">${escape(sectionBlurbs[k])}</p>` : ""}`;
+      articlesList.appendChild(head);
+      renderedLabels.add(label);
+    }
     for (const a of groups[k]) {
       const row = document.createElement("div");
       row.className = "article-row";
@@ -2162,7 +2179,7 @@ async function ensureArticlesLoaded() {
       row.innerHTML = `
         <p class="article-title">${pillHTML}${escape(a.title)}${a.status === "in-progress" ? ' <em style="color:#92400e;font-weight:500">(in progress)</em>' : ""}</p>
         ${a.subtitle ? `<p class="article-subtitle">${md(a.subtitle)}</p>` : ""}
-        <p class="article-meta">${a.word_count_approx ? "~" + a.word_count_approx + " words" : ""}${a.date ? " · " + escape(a.date) : ""}</p>
+        <p class="article-meta">${a.word_count_approx ? "~" + a.word_count_approx.toLocaleString() + " words" : ""}${a.date ? " · " + escape(a.date) : ""}</p>
       `;
       row.addEventListener("click", () => openArticle(a));
       articlesList.appendChild(row);
