@@ -1663,14 +1663,32 @@ function renderCitationTab(key) {
     return `<div class="ccb-context-label">${escape(label)}</div>${rows}`;
   };
 
+  // Honour the audit: entries flagged `verified: false` had their IAST
+  // fragment checked against the on-disk source and not found. We still
+  // show the locus + attribution (those are usually correct), but suppress
+  // the Sanskrit and the close English so a not-yet-verified passage can't
+  // be mistaken for a quotation. The same panel surfaces the verification
+  // note so the reader can see exactly what the audit found.
   const anchorHtml = entry
-    ? `
+    ? (entry.verified === false
+        ? `
+      <div class="cite-passage-anchor cite-passage-anchor--unverified">
+        <div class="cpa-locus">Locus · ${escape(entry.locus_short || locusDisplay)}</div>
+        <div class="cpa-pending">
+          The Sanskrit passage referenced here was not located in the on-disk
+          source by the citation audit. Locus and attribution are preserved;
+          the passage text is withheld until it can be verified against the
+          primary text. ${entry.verification_note ? `<em>${escape(entry.verification_note)}</em>` : ""}
+        </div>
+      </div>
+    `
+        : `
       <div class="cite-passage-anchor">
         <div class="cpa-locus">Locus · ${escape(entry.locus_short || locusDisplay)}</div>
         ${entry.sanskrit_iast ? `<div class="cpa-sk">${escape(entry.sanskrit_iast).replace(/\n/g, "<br>")}</div>` : ""}
         ${entry.english_close ? `<div class="cpa-en">${md(entry.english_close)}</div>` : ""}
       </div>
-    `
+    `)
     : `
       <div class="cite-passage-anchor">
         <div class="cpa-locus">Locus · ${escape(locusDisplay)}</div>
