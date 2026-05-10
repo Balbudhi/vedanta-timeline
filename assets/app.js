@@ -2968,13 +2968,20 @@ function numberCitations(html, counter) {
   if (!html) return { html: "", footnotes: [] };
   const ctr = counter || { n: 0 };
   const footnotes = [];
+  // Match any `<a … class="cite-link" …>…</a>`. Attribute order is not fixed
+  // (md() emits `href` first; renderMarkdownFull may emit the class first).
+  // We capture the whole attribute string then pull the href out of it so the
+  // matcher is order-independent.
   const out = html.replace(
-    /<a([^>]*?)class="cite-link"([^>]*?)href="cite:\/\/([^"]+)"([^>]*?)>([\s\S]*?)<\/a>/g,
-    (_m, pre, mid, key, post, visible) => {
+    /<a\b([^>]*?\bclass="[^"]*\bcite-link\b[^"]*"[^>]*)>([\s\S]*?)<\/a>/g,
+    (m, attrs, visible) => {
+      const hrefMatch = /href="cite:\/\/([^"]+)"/.exec(attrs);
+      if (!hrefMatch) return m;
+      const key = hrefMatch[1];
       ctr.n += 1;
       const idx = ctr.n;
       footnotes.push({ idx, key, visible });
-      return `<a${pre}class="cite-link"${mid}href="cite://${key}"${post}>${visible}</a>` +
+      return `<a${attrs}>${visible}</a>` +
         `<sup class="cite-fn"><a href="cite://${key}" class="cite-fn-link" data-fn-idx="${idx}" aria-label="Footnote ${idx}">[${idx}]</a></sup>`;
     }
   );
