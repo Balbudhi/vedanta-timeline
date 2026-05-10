@@ -18,7 +18,7 @@ The four *sūtras* set the program of the whole commentary. `BS` 1.1.1 opens the
 
 - [bhaskara.json](/orcd/home/002/eeshan/philosophy/site/data/thinkers/bhaskara.json:1): the repository's internal Bhāskara profile, with its work-summary and its citations to `BSB` 1.1.4, 2.1.14, 2.3.43, 3.4.26-27, and 4.4.1-7.
 - [R_vedanta_schools_different_scopes.md](/orcd/home/002/eeshan/philosophy/sources/research/R_vedanta_schools_different_scopes.md:76): local English research note presenting Bhāskara as the "causal-transformative register" of Vedānta.
-- [The Bloomsbury Research Handbook of Vedānta.txt](/orcd/home/002/eeshan/philosophy/materials/new_sources/extracted/The%20Bloomsbury%20Research%20Handbook%20of%20Ved%C4%81nta.txt:500): extracted local handbook text describing Bhāskara's *Aupādhika-Bhedābheda*, real *upādhi*, *pariṇāmavāda*, and *jñāna-karma-samuccaya*.
+- [The Bloomsbury Research Handbook of Vedānta.txt](</orcd/home/002/eeshan/philosophy/materials/new_sources/extracted/The Bloomsbury Research Handbook of Vedānta.txt:500>): extracted local handbook text describing Bhāskara's *Aupādhika-Bhedābheda*, real *upādhi*, *pariṇāmavāda*, and *jñāna-karma-samuccaya*.
 - [bheda.json](/orcd/home/002/eeshan/philosophy/site/data/glossary/bheda.json:1), [abheda.json](/orcd/home/002/eeshan/philosophy/site/data/glossary/abheda.json:1), and [upadhi.json](/orcd/home/002/eeshan/philosophy/site/data/glossary/upadhi.json:1): internal glossary entries that specifically anchor Bhāskara at `BSB` 1.1.4 and `BSB` 2.3.43.
 - [corpus_meta.tsv](/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/vedanta/full_corpus/corpus_meta.tsv:1): the local corpus inventory, which contains no Bhāskara entry.
 
