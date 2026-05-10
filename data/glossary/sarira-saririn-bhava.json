@@ -1,0 +1,22 @@
+{
+  "term_key": "sarira-saririn-bhava",
+  "term_iast": "śarīra-śarīrī-bhāva",
+  "term_devanagari": "शरीर-शरीरि-भाव",
+  "literal": "the body-and-ensouler relation; śarīra (body) + śarīrin (ensouler) + bhāva (relation, condition)",
+  "aliases": ["sarira-saririn-bhava", "śarīra-śarīrī-bhāva", "śarīra-śarīrin-bhāva", "śarīra-ātma-bhāva"],
+  "invariant_definition": "A doctrine specific to Viśiṣṭādvaita: the relation between the embodied conscious *jīva* and the body it ensouls is taken as the analogy for the relation between *brahman* and the universe (*cit* + *acit*) which is *brahman*'s body. The classical definition (Rāmānuja, *Vedārtha-Saṅgraha*): *yasya cetanasya yad dravyaṃ sarvātmanā svārthe niyantum śakyaṃ tac-cheṣataika-svarūpaṃ ca tat tasya śarīram* — the body of a conscious being is that substance which can be wholly controlled by him for his own purpose and whose intrinsic nature is to be his subordinate. *Brahman* is therefore the cosmic *śarīrī* of which the entire universe is *śarīra*; this is the metaphysical structure of *aprthak-siddhi*.",
+  "per_school": [
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Central doctrine. The *śarīra-śarīrī-bhāva* relation has three structural features: (1) *ādhāra-ādheya-bhāva* — substrate-supportee; (2) *niyāmya-niyantṛ-bhāva* — controlled-controller; (3) *śeṣa-śeṣi-bhāva* — subordinate-master. All three obtain between *brahman* and the universe. *Brahman* is the *antaryāmin* (inner controller) of every *cit* and *acit*; the universe is *brahman*'s *vibhūti* (manifest glory).",
+      "primary_loci": ["Vedārtha-Saṅgraha §§81–88, 117–137", "Śrī-Bhāṣya 1.1.1", "Śrī-Bhāṣya 2.1.9", "Yatīndra-Mata-Dīpikā 4"]
+    },
+    {
+      "school": "Other Schools (use)",
+      "definition": "Not adopted as a positive doctrine elsewhere; in Dvaita the *jīva* is *paratantra* but not *brahman*'s body in this sense (the body-grammar would compromise Viṣṇu's transcendence).",
+      "primary_loci": []
+    }
+  ],
+  "see_also": ["aprthak-siddhi", "antaryamin", "visesa", "sesa-sesi-bhava", "visistadvaita"],
+  "translator_note": "'Body-soul relation' is too coarse — the precise three-fold structure (substrate / controlled / subordinate) is essential. The doctrine is closer to Stoic / Spinozist 'body of God' theology than to anything in classical Western theism, with the difference that the universe is real, not merely modal."
+}

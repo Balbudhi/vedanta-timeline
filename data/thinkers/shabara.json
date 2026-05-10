@@ -1,0 +1,56 @@
+{
+  "id": "shabara",
+  "name": "Shabara",
+  "name_iast": "Śabara Svāmin",
+  "alternate_names": ["Śābara-Svāmin", "Śabara"],
+  "dates_low": 350,
+  "dates_high": 500,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Dated by being cited in Kumārila (seventh century) as a settled authority and by his own engagement with Vṛttikāra material that pre-dates him; Frauwallner (1968, Materialien zur ältesten Erkenntnislehre der Karmamīmāṃsā) places Śabara in the fourth to fifth century CE, with Bronkhorst broadly concurring. Biographical detail is essentially absent.",
+  "school": "Pūrva-Mīmāṃsā",
+  "school_color_token": "mimamsa-comparator",
+  "sub_school": "Mīmāṃsā bhāṣyakāra",
+  "sub_school_shade": 2,
+  "lineage_in": ["jaimini"],
+  "lineage_out": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "sankara",
+      "direction": "is-refuted-by",
+      "note": "Brahma-Sūtra-Bhāṣya 1.1.4 engages the Mīmāṃsā position on śruti's tātparya as found in Śabara — the argument that all of śruti is ultimately codanā-pravartaka — and refutes it with the doctrine of the brahma-paratva of the upaniṣadic mahā-vākyas."
+    },
+    {
+      "thinker_id": "mandana",
+      "direction": "mutual",
+      "note": "Maṇḍana Miśra's Brahma-Siddhi works the Bhāṭṭa Mīmāṃsā framework descended from Śabara into Advaita; the relationship is constructive on śabda-pramāṇa-theory and oppositional on the bhāvanā-versus-jñāna-as-mokṣa-cause question."
+    }
+  ],
+  "core_thesis": "Śabara Svāmin's *Śābara-Bhāṣya* is the first surviving major commentary on Jaimini's *Mīmāṃsā-Sūtra* and the text on which the entire later Mīmāṃsā tradition stands. The work fixes the standard reading of Jaimini's compressed *sūtras* and supplies the analytical apparatus the *sūtras* leave implicit. Three contributions are doctrinally consequential. First, on the foundational *adhikaraṇa* (1.1.1–5), Śabara defends *codanā*'s autonomous *pramāṇatva* for *dharma* with the *Codanā-Sūtra-Bhāṣya* — an extended argument that the Vedic injunction's reliability cannot be reduced to perception, inference, or any human source, since *dharma* is not perceptible and the Veda is *apauruṣeya*. Second, Śabara articulates the *bhāvanā* doctrine: every *vidhi*-sentence's semantic core is *bhāvanā* — the urging-to-action *artha* — analysed as *sādhya*, *sādhana*, *itikartavyatā* (the result-to-be-effected, the means, the procedure). Third, Śabara introduces the analytical distinction between *artha-vāda* and *vidhi* in a way that lets Mīmāṃsā treat the bulk of non-injunctive *śruti* as subordinate to ritual injunction. The *Śābara-Bhāṣya* is the base on which Kumārila Bhaṭṭa builds his *Bhāṭṭa* sub-school (with the *Tantra-Vārttika*, *Ślokavārttika*, *Tup-ṭīkā*) and on which Prabhākara Miśra builds the rival *Prābhākara* sub-school (with the *Bṛhatī*); Vedānta engages Śabara's framework throughout, especially at *Brahma-Sūtra-Bhāṣya* 1.1.4.",
+  "engaged_works": [
+    {
+      "work_id": "shabara-bhasya",
+      "title": "Shabara-Bhashya",
+      "title_iast": "Śābara-Bhāṣya",
+      "alternate_titles": ["Mīmāṃsā-Sūtra-Bhāṣya"],
+      "composition_dates_low": 350,
+      "composition_dates_high": 500,
+      "composition_dates_notes": "Composition fixed by being a settled authority for Kumārila in the seventh century.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Śabara Svāmin by colophon and by uniform citation across Kumārila, Prabhākara, and the entire later Mīmāṃsā tradition. The bhāṣya itself incorporates earlier Vṛttikāra-material that Śabara cites and discusses, including a long Vṛttikāra-passage at the opening of the codanā-adhikaraṇa.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Frauwallner (1968, Materialien zur ältesten Erkenntnislehre der Karmamīmāṃsā) reconstructs the layered structure including the embedded Vṛttikāra-grantha; Clooney (1990, Thinking Ritually)."}
+      ],
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "summary": "Prose commentary on Jaimini's *Mīmāṃsā-Sūtra* across all twelve *adhyāyas*. The *Bhāṣya* begins with the *codanā-adhikaraṇa* (1.1.1–5), where Śabara unfolds Jaimini's compressed *sūtras* into a sustained defence of *codanā*'s autonomous *pramāṇatva* for *dharma*, including the long embedded *Vṛttikāra-grantha* on perception, inference, and *śabda*. The first *adhyāya*'s remaining *pādas* develop the *bhāvanā* doctrine, the four sentence-types, the *svataḥ-prāmāṇya* thesis, and the analysis of *artha-vāda*. *Adhyāyas* 2–6 develop the *aṅga-aṅgi-vibhāga* and the procedural rules of ritual interpretation. *Adhyāyas* 7–12 treat *atideśa*, *ūha*, *bādha*, *tantra*, and *prasaṅga* — the technical apparatus of Mīmāṃsā ritual analysis. The *Śābara-Bhāṣya* is the base text on which Kumārila Bhaṭṭa's three *vārttikas* (*Ślokavārttika*, *Tantra-Vārttika*, *Tup-ṭīkā*) and Prabhākara Miśra's *Bṛhatī* build the divergent Bhāṭṭa and Prābhākara sub-schools. The standard editions are the Ānandāśrama Sanskrit Series and the Chowkhamba edition with the *Tantra-Vārttika*; Mohan Lal Sandal's translation and Jha's *Mīmāṃsā Sūtras of Jaimini* are the principal English resources.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-comparators-darsana-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-comparators-darsana-opus"
+}

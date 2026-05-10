@@ -1,0 +1,22 @@
+{
+  "term_key": "aprthak-siddhi",
+  "term_iast": "apṛthak-siddhi",
+  "term_devanagari": "अपृथक्सिद्धि",
+  "literal": "non-separate-establishment; a-pṛthak (not-separately) + siddhi (establishment, accomplishment)",
+  "aliases": ["aprthak-siddhi", "apṛthak-siddhi", "apṛthaksiddhi", "aprthaksiddhi", "Apṛthak-siddhi", "apṛthak-siddha"],
+  "invariant_definition": "A relation specific to Viśiṣṭādvaita: 'inseparable establishment' — a relation between two real entities such that neither can exist or be cognized apart from the other, while both retain real distinction. The *cit* and *acit* are *apṛthak-siddha* with *brahman* (his body); the substance is *apṛthak-siddha* with its qualities; the body is *apṛthak-siddha* with the soul that ensouls it. *Apṛthak-siddhi* is Rāmānuja's principal answer to the problem of how the *jīva* can be one with *brahman* (in the *aikya*-sense the Upaniṣads insist on) yet really distinct (in the *bheda*-sense reason and devotional grammar require).",
+  "per_school": [
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Central technical doctrine. The *jīva*-Brahman relation is *apṛthak-siddhi*: *brahman* is the *śarīrī* (ensouler) and the *jīva* is the *śarīra* (body); they cannot exist apart, yet they are two real entities. *Tat tvam asi* is read as *sāmānādhikaraṇya* (co-reference) under *apṛthak-siddhi* — *tat* and *tvam* refer to the same complex (Brahman-with-this-jīva-as-body) without numerical identity of *tat* and *tvam*.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§4–10, 76–88", "Śrī-Bhāṣya 1.1.1", "Śrī-Bhāṣya 2.1.9", "Yatīndra-Mata-Dīpikā 4"]
+    },
+    {
+      "school": "Other Schools (use)",
+      "definition": "The technical term is essentially absent from Advaita and Dvaita as a positive doctrine — Advaita does not need it (no real distinction to relate); Dvaita rejects it as a verbal evasion of real difference (the entities are either really separate or numerically one — there is no third).",
+      "primary_loci": ["Vyāsatīrtha, Nyāyāmṛta (critique of apṛthak-siddhi by implication, viśiṣṭa-bhaṅga)"]
+    }
+  ],
+  "see_also": ["sarira-saririn-bhava", "visesa", "samanadhikaranya", "visistadvaita"],
+  "translator_note": "Untranslatable in one English word. 'Inseparable establishment' is the standard scholarly rendering. 'Inseparable existence' is acceptable. The doctrine is one of the great original technical posits of Vedānta and is the structural reason Viśiṣṭādvaita is *neither* Advaita *nor* Dvaita but a precisely articulated third position."
+}

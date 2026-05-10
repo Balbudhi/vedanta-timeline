@@ -1,0 +1,267 @@
+{
+  "chain_id": "shatadusani",
+  "title": "Śatadūṣaṇī — Vedānta Deśika's hundred refutations of Advaita",
+  "attacker": "vedanta-desika",
+  "attacker_text": "Śatadūṣaṇī (c. 1300); supplemented by Nyāya-Pariśuddhi and Tattva-Muktā-Kalāpa",
+  "target_school_token": "advaita",
+  "target_position_summary": "The fully-developed post-Śaṅkara Advaita establishment as Vedānta Deśika engages it: Maṇḍana's Brahma-Siddhi, Sureśvara's Naiṣkarmya-Siddhi, Vāchaspati's Bhāmatī, Padmapāda's Pañcapādikā, Prakāśātman's Vivaraṇa, Sarvajñātman's Saṃkṣepa-Śārīraka, and Śrīharṣa's Khaṇḍana-Khaṇḍa-Khādya. The Śatadūṣaṇī comprises one hundred numbered dūṣaṇas (refutations) operating argument-by-argument rather than thematically, extending Rāmānuja's saptavidhānupapatti into a more granular and more technically equipped polemic.",
+  "arguments": [
+    {
+      "name": "dūṣaṇa-1: against nirviśeṣa-Brahman as cognitive content",
+      "premises": [
+        "Cognition is always cognition-of-something-determinate; the very structure of cognition is intentional in the analytic sense (it has a content, distinguishable from its act).",
+        "Cognition of Brahman would either have determinate content (in which case Brahman is not nirviśeṣa) or no determinate content (in which case it is not cognition).",
+        "Even the supposed akhaṇḍākāra-vṛtti must, qua vṛtti, have some character that distinguishes it from other vṛttis; this character is itself a viśeṣa.",
+        "Therefore the Advaitin's central concept (cognitive realisation of nirviśeṣa-Brahman) is structurally incoherent."
+      ],
+      "inference": "Nirviśeṣa-Brahman cannot be the content of any cognition.",
+      "conclusion": "The very target of the Advaita soteriology is unattainable on Advaita's own analysis of cognition.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "prakasatman",
+            "position": "Vivaraṇa's akhaṇḍākāra-vṛtti doctrine is the principal target."
+          },
+          {
+            "thinker_id": "sureshvara",
+            "position": "Sureśvara's mahāvākya-cognition account."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "sankara",
+            "position": "Śaṅkara's bhāṣya is more nuanced about nirguṇa: he distinguishes svarūpa-lakṣaṇa (which Brahman has, sat-cit-ānanda) from taṭastha-lakṣaṇa (which Brahman does not have qua nirguṇa). The argument applies to a more strongly negative reading of nirviśeṣa than Śaṅkara himself committed to."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "madhusudana",
+            "response_text": "Advaita-Siddhi addresses the cognitive-incoherence charge by distinguishing svarūpa-jñāna (Brahman's intrinsic self-luminosity) from vṛtti-jñāna (cognitive modification); the latter is intentional and viśiṣṭa, the former is not, and liberation involves the vṛtti dissolving into the svarūpa",
+            "verdict": "preserves the doctrine by distinguishing two registers of cognition; the disagreement reduces to whether non-intentional self-luminosity is itself a coherent notion of cognition."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive. The disagreement concerns the nature of cognition itself, not merely the doctrinal vocabulary. Real metaphysical question."
+    },
+    {
+      "name": "dūṣaṇa-2 (representative of the Bṛhadāraṇyaka-exegesis dūṣaṇas): against the Advaita reading of neti-neti",
+      "premises": [
+        "Advaita reads Bṛhadāraṇyaka 2.3.6's neti neti as denying all attributes of Brahman, establishing nirviśeṣa-Brahman.",
+        "But neti neti, in its scriptural context, is a denial-formula applied to enumerated empirically-determining attributes (the foregoing description of Brahman as gross, subtle, etc.); it is not a global attribute-negation operator.",
+        "The Sanskrit syntax of the passage supports the limited-negation reading: neti neti is in apposition to the foregoing enumerated descriptions, not to any-and-all possible predicates.",
+        "Hence the passage teaches the absence of empirically-limiting attributes, not the absence of all distinction.",
+        "Brahman with svarūpa-attributes (sat-cit-ānanda, jñāna, ānanda, bala, etc., positively predicated by other śruti passages) is consistent with this reading."
+      ],
+      "inference": "Neti neti does not establish nirviśeṣa-Brahman; the Advaita reading is exegetically strained.",
+      "conclusion": "The principal scriptural anchor of nirviśeṣa-vāda fails to support the doctrine.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "sankara",
+            "position": "Śaṅkara's reading of neti neti at BSB 3.2.21–22 and Bṛhadāraṇyaka-Bhāṣya."
+          },
+          {
+            "thinker_id": "sureshvara",
+            "position": "Sureśvara's Vārttika on the same passage."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "vacaspati",
+            "position": "Bhāmatī's reading is partially sympathetic to the limited-negation construal at the empirical level, though it still endorses nirviśeṣa at the pāramārthika level."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "appayya",
+            "response_text": "Appayya Dīkṣita's Siddhānta-Leśa-Saṅgraha — surveys the multiple intra-Advaita readings of neti neti and defends the global-negation construal by appeal to the broader śruti context",
+            "verdict": "the dispute reduces to which śruti context is the more authoritative anchor for the passage's interpretation."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive at the exegetical level. The disagreement over how to read neti neti is a real interpretive question with metaphysical consequences."
+    },
+    {
+      "name": "dūṣaṇa-15 (representative of the anirvacanīya-khyāti dūṣaṇas): against the Advaita theory of error",
+      "premises": [
+        "Advaita explains perceptual error (e.g., the rope-snake) by anirvacanīya-khyāti: the snake-content is anirvacanīya — neither sat (the snake isn't there) nor asat (it was experienced).",
+        "Theories of error are explanatory: they account for why error occurs and what its content is.",
+        "Anirvacanīya-khyāti accounts for neither: the indeterminable category leaves both the cause and the content of error unspecified.",
+        "Yathārtha-khyāti (the position of Madhva and the Viśiṣṭādvaita-modified version) explains error as misidentification of really-present items: in the rope-snake case, what is actually present is the rope (with snake-like features), and the cognitive error is the identification with the snake-class rather than the rope-class. The cause is partial-feature-presentation; the content is real-but-misclassified.",
+        "Yathārtha-khyāti is therefore explanatorily superior."
+      ],
+      "inference": "The Advaitin theory of error is an empty placeholder; the realist alternatives are genuinely explanatory.",
+      "conclusion": "The Advaitin's central epistemological move (anirvacanīya as solvent for both error and avidyā) is dialectically empty.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "prakasatman",
+            "position": "Vivaraṇa's anirvacanīya-khyāti."
+          },
+          {
+            "thinker_id": "anandabodha",
+            "position": "Ānandabodha's elaborate Pramāṇa-Mālā defense of the indeterminable category."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "vacaspati",
+            "position": "Bhāmatī's account of error is closer to anyathā-khyāti in some passages; the polemic engages the indeterminable-category line specifically."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "madhusudana",
+            "response_text": "Advaita-Siddhi defends anirvacanīya-khyāti by arguing that the rope-snake case requires positive-content explanation that yathārtha-khyāti (which explains error as mis-classification) cannot supply: the snake-content is not in the rope and is not elsewhere either, hence requires the indeterminable category to be located",
+            "verdict": "the reply requires the disagreement to be over what counts as positive-content of an error; both sides have substantive positions and neither dissolves."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive. Theory of error is a real question with substantive metaphysical consequences. The disagreement persists across the post-Vedānta-Deśika tradition."
+    },
+    {
+      "name": "dūṣaṇa-31 (representative of the dṛṣṭi-sṛṣṭi dūṣaṇas): against world-as-cognition-only",
+      "premises": [
+        "The dṛṣṭi-sṛṣṭi-vāda strand within Advaita (especially Prakāśānanda's later articulation but anticipated in Vivaraṇa) holds that the world has no being apart from being-cognised.",
+        "But cognition of the world presupposes a world-distinction (this-rather-than-that) that the cognition cannot itself supply: any cognition that allegedly creates its object must already discriminate that object from others.",
+        "The supposed self-creating cognition therefore presupposes the very world-distinctions it is meant to generate.",
+        "Hence dṛṣṭi-sṛṣṭi is structurally circular."
+      ],
+      "inference": "Dṛṣṭi-sṛṣṭi-vāda cannot account for the differentiation it would need to account for.",
+      "conclusion": "The radical idealist strand of Advaita collapses on its own terms.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "prakasatman",
+            "position": "Vivaraṇa's idealist tendencies; though dṛṣṭi-sṛṣṭi is most fully Prakāśānanda's."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "sankara",
+            "position": "Śaṅkara's bhāṣya does not endorse dṛṣṭi-sṛṣṭi; the position is post-Śaṅkara."
+          },
+          {
+            "thinker_id": "vacaspati",
+            "position": "Bhāmatī's sṛṣṭi-dṛṣṭi-vāda is the alternative within Advaita, less vulnerable to this charge."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "madhusudana",
+            "response_text": "Advaita-Siddhi distinguishes dṛṣṭi-sṛṣṭi from sṛṣṭi-dṛṣṭi as two intra-Advaita positions; defends the more moderate sṛṣṭi-dṛṣṭi against Vedānta Deśika's charge",
+            "verdict": "concedes the dṛṣṭi-sṛṣṭi extreme is vulnerable; defends the moderate alternative."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive against the extreme idealist strand; engages an Advaita position that is genuinely contested intra-school."
+    },
+    {
+      "name": "dūṣaṇa-46 (representative of the Khaṇḍana-Khaṇḍa-Khādya dūṣaṇas): against the anti-definitional method",
+      "premises": [
+        "Śrīharṣa's Khaṇḍana-Khaṇḍa-Khādya defends Advaita by arguing that no rival position can give consistent definitions (lakṣaṇas) of its key categories; therefore no rival position is dialectically defensible.",
+        "But Śrīharṣa's own position presupposes definitions: the Khaṇḍana itself uses the categories of pramāṇa, prameya, vikalpa, etc., and treats them as having determinate enough content to permit dialectical exchange.",
+        "Any dialectical exchange — including Śrīharṣa's own — presupposes a padārtha-scheme with at least minimal definitional commitments.",
+        "Therefore the anti-definitional method is self-undermining: it cannot be conducted without violating its own meta-principle."
+      ],
+      "inference": "Śrīharṣa's anti-definitional method is performatively self-defeating.",
+      "conclusion": "The Advaitin cannot consistently appeal to Śrīharṣa's apparatus to defend Advaita against the constructive realist alternatives.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "citsukha",
+            "position": "Citsukha's extension of Śrīharṣa's Khaṇḍana method in Tattva-Pradīpikā."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "sankara",
+            "position": "Śaṅkara does not employ the Khaṇḍana method; the polemic engages a specific Advaita-defensive resource, not the bhāṣya tradition."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "madhusudana",
+            "response_text": "Advaita-Siddhi defends the Khaṇḍana method by distinguishing prātītika-padārthas (those used pragmatically in argument) from pāramārthika-padārthas (those committed to ontologically); the Khaṇḍana operates with the former without affirming the latter",
+            "verdict": "the level-distinction reply preserves the method but at the cost of a level-distinction Vedānta Deśika does not accept; the disagreement reduces to whether the prātītika-pāramārthika distinction is principled."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive on a real methodological question. The disagreement is over the legitimacy of pragmatic-without-committal argumentation, which is itself a substantive position in the philosophy of dialectic."
+    },
+    {
+      "name": "dūṣaṇa-67 (representative of the kaivalya/mokṣa dūṣaṇas): against identity-as-mokṣa",
+      "premises": [
+        "Advaita defines mokṣa as the cessation of the apparent jīva-Brahman distinction (identity-without-distinction).",
+        "But the recognition of identity (aham brahmāsmi) is itself a cognitive act that requires a cognising agent.",
+        "If the cognising agent is the jīva, then jīva-distinction persists in the very act of liberation.",
+        "If the cognising agent is Brahman, then Brahman undergoes a cognitive change (acquires the recognition), which contradicts Brahman's nirviśeṣa-status.",
+        "Either horn defeats the Advaita account of mokṣa."
+      ],
+      "inference": "Identity-as-mokṣa is structurally incoherent.",
+      "conclusion": "Mokṣa must preserve jīva-distinction (Viśiṣṭādvaita's union-with-internal-distinction-preserved).",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "sankara",
+            "position": "Śaṅkara's account of mokṣa as cessation of adhyāsa."
+          },
+          {
+            "thinker_id": "sureshvara",
+            "position": "Sureśvara's account of mokṣa as akhaṇḍākāra-vṛtti."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "madhva",
+            "position": "Madhva's eternal-service-with-irreducible-distinction is not engaged adversarially; this dūṣaṇa is largely aligned with the Madhva position on mokṣa."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "madhusudana",
+            "response_text": "Advaita-Siddhi argues that the recognition is structurally the cessation, not a separate cognitive act; the cessation is identical with what is recognised, and the cognising agent is the locus of the recognition that is itself the dissolution of the cognising agent's distinct status",
+            "verdict": "preserves the doctrine by treating recognition and cessation as the same event; the disagreement reduces to whether such an identity is intelligible."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive on the structure of liberation. Real disagreement; not register-effect."
+    }
+  ],
+  "user_thesis_summary": "The Śatadūṣaṇī is the most granular Vedāntic polemic against Advaita extant. Of the hundred dūṣaṇas, the six engaged here are representative of the major thematic clusters (cognitive-content; scripture-exegesis; theory of error; idealist strand; anti-definitional method; mokṣa-structure). On balance, the dūṣaṇas are substantive but with two important qualifications: (i) they target the post-Śaṅkara establishment (Vivaraṇa, Bhāmatī, Citsukha, Śrīharṣa, the Pramāṇa-Mālā) much more than Śaṅkara's bhāṣya, and several do not engage Śaṅkara at all; (ii) Madhusūdana's responses are doctrinally available in nearly every case, and the residual disagreements (often about level-distinctions, dispositional properties, or anirvacanīya predication) are themselves substantive. Vedānta Deśika is more dialectically constructive than Madhva: where Madhva's polemic operates principally by trilemma and reductio, Deśika's operates by detailed analysis of each Advaita move with a corresponding Viśiṣṭādvaita alternative. This makes Deśika's polemic less rhetorically pressuring but more philosophically engaging. Verdict: substantive throughout, with the strongest cases against the Vivaraṇa idealist strand and the weakest cases against Śaṅkara's bhāṣya proper. The polemic does not dissolve under register-clarification; many of the dūṣaṇas are precisely register-clarifications that reveal genuine substantive disagreement underneath surface-similarity.",
+  "primary_source_loci": [
+    "Śatadūṣaṇī, dūṣaṇas 1, 2, 15, 31, 46, 67 (the engaged samples)",
+    "Nyāya-Pariśuddhi — the systematic Viśiṣṭādvaita epistemology providing the constructive alternative",
+    "Tattva-Muktā-Kalāpa — Vedānta Deśika's verse-summary of the school's positive metaphysics",
+    "Sarvārtha-Siddhi — Vedānta Deśika's auto-commentary on the Tattva-Muktā-Kalāpa"
+  ],
+  "scholarly_apparatus": [
+    {
+      "scholar": "S. M. Srinivasa Chari",
+      "work": "Advaita and Viśiṣṭādvaita: A Study Based on Vedānta Deśika's Śatadūṣaṇī (Munshiram, 1976)",
+      "page_or_section": "passim",
+      "position": "The standard scholarly reconstruction of the hundred dūṣaṇas; documents the dialectical structure and the post-Śaṅkara targets."
+    },
+    {
+      "scholar": "M. Narasimhachari",
+      "work": "Contribution of Yāmuna to Viśiṣṭādvaita (Madras, 1971), and supplementary works on Vedānta Deśika",
+      "page_or_section": "Vedānta Deśika section",
+      "position": "Reads Vedānta Deśika as completing the Yāmuna-Rāmānuja polemical project at full Navya-Nyāya rigour; the Śatadūṣaṇī is the technical culmination of saptavidhānupapatti."
+    },
+    {
+      "scholar": "Lawrence Mc Crea",
+      "work": "Mīmāṃsā / Vedānta in late medieval India (recent scholarly work)",
+      "page_or_section": "passim",
+      "position": "Documents the post-1300 transformation of Vedāntic polemic into formal Navya-Nyāya idiom; Deśika is one of the central figures in this transformation alongside Vyāsatīrtha."
+    }
+  ],
+  "entry_status": "reviewed",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-polemic-opus"
+}

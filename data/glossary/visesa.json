@@ -1,0 +1,27 @@
+{
+  "term_key": "visesa",
+  "term_iast": "viśeṣa",
+  "term_devanagari": "विशेष",
+  "literal": "particularity, distinguishing-feature; from vi- + √śiṣ 'to distinguish, to leave-as-remainder'",
+  "aliases": ["visesa", "viśeṣa", "Viśeṣa", "viśeṣaḥ", "viśeṣasya", "viśeṣāḥ", "savisesa", "saviśeṣa"],
+  "invariant_definition": "Particularity, the differentiating feature. The term operates in two principal Vedāntic registers: (1) the Viśiṣṭādvaita technical sense — *viśeṣa* / *viśeṣaṇa* / *viśiṣṭa* analyzes how *brahman* is qualified (*viśiṣṭa*) by *cit* and *acit* without becoming numerically identical with them; (2) the Dvaita technical sense — *viśeṣa* is Madhva's distinctive metaphysical device for explaining how an attribute can be *both* identical with and distinguishable from its substance, without involving real difference. The Dvaita *viśeṣa* is one of Madhva's most original contributions to Indian metaphysics. Note also Vaiśeṣika's category *viśeṣa* (one of the seven *padārthas* — the ultimate differentiator of eternal substances), distinct again.",
+  "per_school": [
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Viśeṣa* and *viśeṣaṇa* (qualifying-feature, qualifier) structure the *viśiṣṭa* (qualified) analysis: *brahman* is *viśiṣṭa* — qualified — by *cit* and *acit* as his body. The unity of *brahman-with-modes* is real (not merely conceptual); the distinction of *brahman* from its qualifying modes is also real. The school's name derives from *viśiṣṭa-advaita* — non-duality of the qualified.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§82–95", "Śrī-Bhāṣya 1.1.1", "Yatīndra-Mata-Dīpikā 4"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Viśeṣa* is Madhva's metaphysical device for handling the substance-attribute relation: an attribute is identical-with-yet-distinguishable-from its substance through an intrinsic *viśeṣa* — a differentiator that requires no further differentiator (avoiding Bradley's regress *avant la lettre*). Used to explain how Viṣṇu can have infinite real qualities without real internal differentiation, and how *jīvas* can be intrinsically graded without that grading being external.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1", "Anu-Vyākhyāna 1.1", "Jayatīrtha, Tattva-Pradīpikā ad BSB 1.1.1"]
+    },
+    {
+      "school": "Vaiśeṣika",
+      "definition": "*Viśeṣa* is one of the seven *padārthas* — the ultimate distinguishing-particulars residing in eternal substances (atoms, *ākāśa*, *kāla*, *dik*, *ātmans*, *manases*) that account for their numerical distinctness. Distinct from both Viśiṣṭādvaita and Dvaita uses.",
+      "primary_loci": ["Vaiśeṣika-Sūtra 1.1.4", "Praśastapāda-Bhāṣya, viśeṣa-pariccheda"]
+    }
+  ],
+  "see_also": ["visistadvaita", "dvaita", "samanya", "padartha", "aprthak-siddhi"],
+  "translator_note": "Translating *viśeṣa* uniformly as 'particular' or 'particularity' will collapse three quite different technical doctrines. The Madhva *viśeṣa* is closest to (but distinct from) Scotus's *haecceitas* — a distinguisher that requires no further distinguisher; it is one of the genuinely original metaphysical posits of Indian philosophy."
+}

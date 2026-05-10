@@ -21,13 +21,18 @@
   "school_color_token": "dvaita",
   "sub_school": "Navya-Dvaita",
   "sub_school_shade": 4,
-  "lineage_in": ["jayatirtha"],
+  "lineage_in": ["jayatirtha", "gangesa"],
   "lineage_out": ["vijayindra"],
   "lineage_polemical": [
     {
       "thinker_id": "madhusudana",
       "direction": "is-refuted-by",
       "note": "Vyāsatīrtha's Nyāyāmṛta is the structural target of Madhusūdana's Advaita-Siddhi."
+    },
+    {
+      "thinker_id": "gangesa",
+      "direction": "refutes",
+      "note": "The Tarka-Tāṇḍava turns Navya-Nyāya inferential machinery — Gaṅgeśa's vyāpti, avacchedaka, paryāpti — against Naiyāyika epistemology itself, demonstrating that the Mādhva positions can be cast in this idiom while the Naiyāyika ones cannot be defended in it."
     }
   ],
   "core_thesis": "Vyāsatīrtha is the architect of *Navya-Dvaita*: Madhva's *Tattvavāda* restated in the technical idiom of *Navya-Nyāya* and pressed to its dialectical limit. The positive metaphysics is straightforwardly Mādhva — *svatantra-paratantra* (independent / dependent) hierarchy, *pañca-bheda* (the five real differences), *viśeṣa* (the self-distinguishing relational element), *bimba-pratibimba* (original-and-image), *sākṣi* as a *pramāṇa* in its own right, Viṣṇu as the sole *svatantra-tattva*. The distinctive contribution is methodological.\n\nVyāsatīrtha engineers Mādhva positions as inferences in formal *Navya-Nyāya* form: explicit *vyāpti*-statement (universal concomitance), *upādhi*-tests (defeater-checks for the *vyāpti*), *avacchedaka*-conditions (delimitation of the predicate's locus). The technical apparatus is inherited from Gaṅgeśa's *Tattva-Cintāmaṇi*, which had reset the standard of inferential rigour in late-thirteenth-century Mithilā. Vyāsatīrtha's claim is that Mādhva positions can be cast in this idiom without doctrinal loss, and that, once so cast, they are at least as well-defended as the Advaita and Naiyāyika alternatives.\n\nThe *Nyāyāmṛta* is the principal output. It dismantles Advaitic *mithyātva* under each of its five canonical *lakṣaṇa*s and supplies positive *anumāna*s for *bheda*. The *Tarka-Tāṇḍava* turns the same machinery against Naiyāyika epistemology. Madhusūdana's *Advaita-Siddhi* is the structural reply that *Nyāyāmṛta* compelled; the cycle *Nyāyāmṛta → Advaita-Siddhi → Tarangiṇī → Laghu-Candrikā* is the longest sustained inter-school dialectic of late Vedānta.",

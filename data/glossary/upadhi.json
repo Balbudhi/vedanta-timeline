@@ -1,0 +1,32 @@
+{
+  "term_key": "upadhi",
+  "term_iast": "upādhi",
+  "term_devanagari": "उपाधि",
+  "literal": "that which is set down upon; limiting condition; from upa- + ā- + √dhā 'to place'",
+  "aliases": ["upadhi", "upādhi", "Upādhi", "upādheḥ", "upādhau", "upadhis"],
+  "invariant_definition": "There is no shared invariant — *upādhi* is a key fault-line term. In Advaita technical usage, *upādhi* is a *limiting condition* that produces an apparent particularization without modifying the substrate (the standard analogy: space *limited by a pot* appears as 'pot-space' but is not really partitioned space). The *jīva* is the *ātman* under the *upādhi* of *antaḥkaraṇa*; *Īśvara* is *brahman* under the *upādhi* of *māyā*. Madhva systematically refutes this Advaita use of *upādhi* in his *Upādhi-Khaṇḍana*. For Viśiṣṭādvaita and Dvaita, *upādhi*-talk is real (real differentiating conditions), not the Advaita illusory-limitation device. In Nyāya, *upādhi* has a separate technical meaning (a defeating condition in inference, *vyāpti-vyabhicāra*-establisher).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Upādhi* is the central explanatory device for the appearance of multiplicity in the one *brahman*: the *jīva* is *ātman* limited by *antaḥkaraṇa*-*upādhi*; *Īśvara* is *brahman* with *māyā*-*upādhi*. The pot-space, mirror-reflection, and crystal-near-flower analogies make the structure intuitive. Crucially, the *upādhi* does not modify the substrate — it produces appearance, not real differentiation.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.4.22", "Pañcadaśī 6.130–145", "Vivekacūḍāmaṇi"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "Madhva's *Upādhi-Khaṇḍana* is a dedicated short polemic dismantling the Advaita *upādhi*-device. The principal charge: *upādhi* in the Advaita sense requires the substrate to undergo apparent (but unreal) partition, which is incoherent (either the substrate undergoes *real* partition — in which case it is *pariṇāma*, not *vivarta* — or it does not — in which case there is no real distinction to be explained).",
+      "primary_loci": ["Madhva, Upādhi-Khaṇḍana", "Vyāsatīrtha, Nyāyāmṛta, upādhi-bhaṅga"]
+    },
+    {
+      "school": "Bhedābheda (Bhāskara)",
+      "definition": "*Upādhi* is real and effects real *pariṇāma* of *brahman*; the apparent-limitation device of Advaita is rejected. The *jīva* is *brahman* really transformed by *karma*-borne *upādhi*, not apparently limited by an illusory one.",
+      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 2.3"]
+    },
+    {
+      "school": "Nyāya",
+      "definition": "*Upādhi* is a *vyāpti*-defeating condition: a property such that the *sādhya* coexists with *hetu* + *upādhi* but not with *hetu* alone. Used as a technical defeat of fallacious *vyāpti*. Distinct from the Vedāntic limiting-condition use.",
+      "primary_loci": ["Tattva-Cintāmaṇi (Gaṅgeśa), upādhi-vāda"]
+    }
+  ],
+  "see_also": ["maya", "vivarta", "parinama", "antahkarana", "isvara", "jiva"],
+  "translator_note": "'Limiting condition' and 'limiting adjunct' are the standard Advaita-context translations. 'Conditioning' is acceptable. The Nyāya technical use should never be translated 'limiting condition' — it has a different structure."
+}

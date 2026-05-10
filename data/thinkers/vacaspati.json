@@ -11,8 +11,8 @@
   "school_color_token": "advaita",
   "sub_school": "Bhāmatī-Advaita",
   "sub_school_shade": 2,
-  "lineage_in": ["mandana"],
-  "lineage_out": ["appayya"],
+  "lineage_in": ["mandana", "uddyotakara", "vyasa-bhasya", "kumarila"],
+  "lineage_out": ["appayya", "udayana"],
   "lineage_polemical": [],
   "core_thesis": "Where does *avidyā* (positive ignorance) reside? Vāchaspati Miśra's answer founds the *Bhāmatī* sub-school: the *jīva* is its locus (*āśraya*); *Brahman* is only its content (*viṣaya*). Ignorances are accordingly plural, one per *jīva*, and the *jīva* functions as the immediate seat of *adhyāsa* (superimposition) even though it is ultimately non-different from Brahman. Two consequences follow that the rival Vivaraṇa line will spend centuries contesting. First, Īśvara's cosmic *māyā* and the *jīva*'s individual avidyā are analytically distinct, since their loci differ. Second, *karma* enters the path to liberation in a qualified way: it cannot produce *jñāna*, but the prepared *antaḥkaraṇa* without which *śravaṇa* fails to mature into *aparokṣa-jñāna* is itself a karmic achievement, and *manana* and *nididhyāsana* are read as *prasaṅkhyāna*-like cultivations that ripen the rise of immediate cognition. Vāchaspati's commentaries across six *darśanas* — Advaita, Yoga, Nyāya, Mīmāṃsā, Sāṃkhya, Vyākaraṇa — earn him the epithet *Ṣaḍ-Darśanī-Vallabha*; the *Bhāmatī* itself sets the agenda for the post-Śaṅkara dialectic.",
   "engaged_works": [
