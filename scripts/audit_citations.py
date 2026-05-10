@@ -105,7 +105,129 @@ def score_path(path: Path, tid: str, wid: str) -> int:
     return s
 
 
-def best_source(corpus: List[Tuple[Path, str]], tid: str, wid: str) -> Optional[Tuple[Path, str]]:
+# Author-name tokens that, when present in a file path, strongly signal
+# authorship — used to detect cross-author mismatches (Madhva's BSB matched
+# against Śaṅkara's BSB by the bare work-name heuristic). Matching the
+# thinker-id chunks against known author tokens lets us refuse such matches
+# with score≥5 from the work-name alone.
+# Author tokens grouped into equivalence classes — different transliterations
+# of the same person should not flag each other as a cross-author mismatch.
+# (e.g. thinker_id "sankara" matches a path containing "shankara".)
+AUTHOR_ALIASES: List[List[str]] = [
+    ["sankara", "shankara", "samkara", "sankaracarya"],
+    ["ramanuja"],
+    ["madhva", "madhvacarya", "anandatirtha"],
+    ["nimbarka"],
+    ["vallabha"],
+    ["caitanya"],
+    ["jiva", "jiva_gosvami"],
+    ["rupa", "rupa_gosvami"],
+    ["yamuna", "yamunacarya"],
+    ["vyasatirtha"],
+    ["mandana", "mandana_misra"],
+    ["bhartrprapanca", "bhartrprapanaca"],
+    ["bhaskara"],
+    ["gaudapada"],
+    ["vidyaranya"],
+    ["appaya", "appayya"],
+    ["raghavendra"],
+    ["desika", "vedanta_desika"],
+    ["lokacarya", "pillai_lokacarya"],
+    ["manavala", "manavala_mamunigal"],
+    ["isvarakrsna"],
+    ["patanjali"],
+    ["vyasa"],
+    ["kanada"],
+    ["aksapada"],
+    ["vatsyayana"],
+    ["uddyotakara"],
+    ["kumarila"],
+    ["prabhakara"],
+    ["shabara", "sabara"],
+    ["abhinavagupta", "abhinava"],
+    ["utpaladeva"],
+    ["ksemaraja"],
+    ["somananda"],
+    ["nagarjuna"],
+    ["candrakirti"],
+    ["vasubandhu"],
+    ["asanga"],
+    ["dharmakirti"],
+    ["dignaga"],
+    ["buddhaghosa"],
+    ["ratnakirti"],
+    ["umasvati"],
+    ["kundakunda"],
+    ["haribhadra"],
+    ["hemacandra"],
+    ["akalanka"],
+    ["siddhasena"],
+    ["anandavardhana"],
+]
+
+
+def _alias_class(token: str) -> Optional[int]:
+    for i, group in enumerate(AUTHOR_ALIASES):
+        if token in group:
+            return i
+    return None
+
+
+def author_tokens(thinker_id: str) -> List[str]:
+    """Tokenize a thinker-id into author chunks (e.g. 'jiva-gosvami' →
+    ['jiva', 'jiva_gosvami', 'gosvami']). Used to detect mismatches when a
+    work-name regex hits a file owned by a *different* author."""
+    if not thinker_id:
+        return []
+    norm = thinker_id.lower().replace("-", "_")
+    toks = [norm]
+    for tk in norm.split("_"):
+        if len(tk) >= 4:
+            toks.append(tk)
+    return toks
+
+
+def path_author_conflict(path: Path, tid: str) -> bool:
+    """Return True if the path appears to belong to a *different* author
+    than `tid`. Works when (a) `tid` is unmistakably absent from the path
+    AND (b) the path contains a different known-author token. Aliases
+    (e.g. sankara/shankara) count as the same author. We err on the side
+    of false (no conflict) when either signal is missing."""
+    if not tid:
+        return False
+    p = str(path).lower()
+    tid_toks = author_tokens(tid)
+    # Resolve thinker-id to its alias class(es).
+    tid_classes = {c for tk in tid_toks for c in [_alias_class(tk)] if c is not None}
+    # If any tid token (including aliases of its class) appears in the path,
+    # there is no conflict.
+    for cls in tid_classes:
+        for alias in AUTHOR_ALIASES[cls]:
+            if alias in p:
+                return False
+    if any(tok in p for tok in tid_toks):
+        return False
+    # Look for any *other* known-author token in the path that is in a
+    # different alias class than tid.
+    for cls, group in enumerate(AUTHOR_ALIASES):
+        if cls in tid_classes:
+            continue
+        for alias in group:
+            if alias in p:
+                return True
+    return False
+
+
+def best_source(
+    corpus: List[Tuple[Path, str]], tid: str, wid: str
+) -> Tuple[Optional[Tuple[Path, str]], str]:
+    """Return (best_match_or_None, reason) where reason is one of:
+        'matched' — file genuinely matches thinker+work
+        'no-match' — no file scored above threshold (corpus may not have it)
+        'author-mismatch' — work-name matched, but the only candidate is
+            owned by a *different* known author (e.g. Madhva BSB → Śaṅkara
+            BSB). Treated as 'pending-acquisition' upstream.
+    """
     best = None
     best_score = 0
     for fp, txt in corpus:
@@ -113,7 +235,11 @@ def best_source(corpus: List[Tuple[Path, str]], tid: str, wid: str) -> Optional[
         if s > best_score:
             best_score = s
             best = (fp, txt)
-    return best if best_score >= 5 else None
+    if best is None or best_score < 5:
+        return None, "no-match"
+    if path_author_conflict(best[0], tid):
+        return None, "author-mismatch"
+    return best, "matched"
 
 
 def fragment_of(iast: str) -> str:
@@ -146,8 +272,15 @@ def audit() -> None:
     # cache per (tid,wid) → source file lookup
     src_cache: Dict[Tuple[str, str], Optional[Tuple[Path, str]]] = {}
 
-    counts = {"verified": 0, "demoted": 0, "unknown": 0, "no_iast": 0}
+    counts = {
+        "verified": 0,
+        "demoted": 0,
+        "unknown": 0,
+        "pending_acquisition": 0,
+        "no_iast": 0,
+    }
     demoted_entries: List[Tuple[str, str]] = []
+    pending_entries: List[str] = []
 
     n = len(entries)
     for i, (key, e) in enumerate(entries.items(), start=1):
@@ -163,10 +296,23 @@ def audit() -> None:
         cache_key = (tid, wid)
         if cache_key not in src_cache:
             src_cache[cache_key] = best_source(corpus, tid, wid)
-        src = src_cache[cache_key]
+        src, reason = src_cache[cache_key]
         if src is None:
-            e["verified"] = "unknown"
-            counts["unknown"] += 1
+            if reason == "author-mismatch":
+                # Work-title heuristic matched, but the only on-disk file is
+                # owned by a different author — i.e., the cited primary text
+                # is not yet in clean form on disk. Render as
+                # pending-acquisition (different from a hallucination).
+                e["verified"] = "pending-acquisition"
+                e["verification_note"] = (
+                    "Primary text not yet on disk in clean form; locus is "
+                    "preserved, passage awaits acquisition."
+                )
+                counts["pending_acquisition"] += 1
+                pending_entries.append(key)
+            else:
+                e["verified"] = "unknown"
+                counts["unknown"] += 1
             continue
         frag = fragment_of(iast)
         if not frag:
@@ -214,14 +360,19 @@ def audit() -> None:
         f"  - verified (IAST fragment found in on-disk source): **{counts['verified']}**",
         f"  - demoted (IAST fragment NOT found in best-match source): **{counts['demoted']}**",
         f"  - unknown (no on-disk source file matched thinker+work): **{counts['unknown']}**",
+        f"  - pending-acquisition (work-name matched a different author's "
+        f"file → text not yet on disk): **{counts['pending_acquisition']}**",
         f"  - no-iast (entry has no Sanskrit fragment to verify): **{counts['no_iast']}**",
         "",
         "Methodology: each entry is matched to the highest-scoring file in",
         "`materials/primary_texts/` whose path mentions the thinker_id and/or",
-        "work_id (heuristic threshold: score ≥ 5). The longest 24+ char chunk",
-        "of the entry's normalised IAST (diacritics + punctuation stripped) is",
-        "checked as a substring against the normalised file text, with",
-        "progressive back-off to shorter prefixes.",
+        "work_id (heuristic threshold: score ≥ 5). When the only candidate",
+        "file is owned by a *different* known author (e.g. Madhva's BSB",
+        "matched against Śaṅkara's BSB by the bare work-name heuristic), the",
+        "match is rejected and the entry is marked `pending-acquisition`.",
+        "Otherwise, the longest 24+ char chunk of the entry's normalised IAST",
+        "(diacritics + punctuation stripped) is checked as a substring against",
+        "the normalised file text, with progressive back-off to shorter prefixes.",
         "",
         "## Demoted entries (passage absent from best-match source)",
         "",
@@ -229,6 +380,15 @@ def audit() -> None:
     for key, src in sorted(demoted_entries):
         lines.append(f"- `{key}` → `{src}`")
     if not demoted_entries:
+        lines.append("(none)")
+    lines += [
+        "",
+        "## Pending-acquisition entries (primary text not yet on disk)",
+        "",
+    ]
+    for key in sorted(pending_entries):
+        lines.append(f"- `{key}`")
+    if not pending_entries:
         lines.append("(none)")
     report.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
