@@ -13,7 +13,7 @@
     "dharmān"
   ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54",
+  "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "*Dharma* is a load-bearing term across ritual theory, jurisprudence, ontology, yoga, and Buddhist phenomenology. The root sense is 'that which upholds,' but philosophical use immediately splits into several linked registers. In Mīmāṃsā, *dharma* is what is known through Vedic injunction and enacted through prescribed performance; the debate then turns on whether an act is *kratvartha* or *puruṣārtha*, and on how unseen efficacy connects action and result. In epic and social discourse, *dharma* becomes the right ordering of role, relation, and circumstance. In Nyāya-Vaiśeṣika, a *dharma* of a *dharmin* is a property borne by a substance. In Buddhism, *dharma* or *dhamma* can name both the teaching and the elementary factors analyzed as the constituents of experience. Vedānta inherits all these uses but reorders them around liberation: which *dharma* binds, which purifies, which continues as devotion, and whether the highest state lies beyond enjoinment or fulfills it.",
   "per_school": [
     {
@@ -81,9 +81,21 @@
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Within Acintya-Bhedābheda, *dharma* in the highest register is *parama-dharma*; Jīva glosses the term not as merely social or ritual observance but as *bhagavad-dhyānādi-lakṣaṇa*, the complex of practices centered on Bhagavān [[TS §19](cite://jiva-gosvami/sat-sandarbha/§19)]. Baladeva makes the school’s construal still more explicit by stating that the dharma taught there is characterized by *kṛṣṇa-saṅkīrtana*, so dharma reaches its proper form as name-centered bhakti rather than as an autonomous puruṣārtha-domain [[TS Ṭip. §23](cite://baladeva/tattva-sandarbha-tippani/§23)].",
+      "primary_loci": [
+        "Tattva-Sandarbha §19",
+        "Tattva-Sandarbha-Ṭippaṇī on §23"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§19",
+          "locus_short": "TS §19"
+        },
+        {
+          "cite": "cite://baladeva/tattva-sandarbha-tippani/§23",
+          "locus_short": "TS Ṭip. §23"
+        }
+      ]
     },
     {
       "school": "Dvaitādvaita",
@@ -279,9 +291,26 @@
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Trika, dharma is first internalized: Abhinavagupta states that the abiding dharma of the entire tattva-cluster is ātman itself, immersed in Śiva’s nectar, so the term names the self-manifest order of consciousness rather than an external norm over against it [[TA 1.82-84](cite://abhinavagupta/tantraloka/1.82-84)]. The same analysis refuses a property-bearer standing apart from its properties, for the earth-element appears through the totality of its dharmas and therefore no dharmin distinct from dharma remains to be posited; dharma-language here tracks manifest powers and aspects within non-dual appearing [[TA 9.291-294](cite://abhinavagupta/tantraloka/9.291-294)]. At the practical level, Abhinavagupta distinguishes the *lokadharmī* from the *śivadharmī* adept, and defines the latter’s initiation precisely as that which removes *loka-dharma*; dharma is thus reconfigured from conventional norm-governance into the liberative discipline proper to Śaiva dīkṣā [[TA 15.23-29](cite://abhinavagupta/tantraloka/15.23-29)].",
+      "primary_loci": [
+        "Tantrāloka 1.82-84",
+        "Tantrāloka 9.291-294",
+        "Tantrāloka 15.23-29"
+      ],
+      "citations": [
+        {
+          "cite": "cite://abhinavagupta/tantraloka/1.82-84",
+          "locus_short": "TA 1.82-84"
+        },
+        {
+          "cite": "cite://abhinavagupta/tantraloka/9.291-294",
+          "locus_short": "TA 9.291-294"
+        },
+        {
+          "cite": "cite://abhinavagupta/tantraloka/15.23-29",
+          "locus_short": "TA 15.23-29"
+        }
+      ]
     },
     {
       "school": "Jainism",
