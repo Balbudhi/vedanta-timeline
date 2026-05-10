@@ -1,136 +1,10 @@
 {
-  "version": 3,
-  "generated_at": "2026-05-10T18:19:53Z",
+  "version": 2,
+  "generated_at": "2026-05-10T18:50:32Z",
   "root": "data/sources/",
-  "file_count": 78,
+  "file_count": 52,
   "note": "Site-mirrored subset of the primary-text corpus. The full corpus (~8 GB) lives outside the repo at materials/primary_texts/; this manifest lists only the files shipped to GitHub Pages, which the Source tab fetches from data/sources/.",
   "files": [
-    {
-      "path": "sanskrit/_djvu/gretil_sa_maNDanamizra-vibhramaviveka.txt",
-      "language": "sanskrit",
-      "category": "_djvu",
-      "title": "Maṇḍanamiśra: Vibhramaviveka",
-      "size_bytes": 21793,
-      "line_count": 539,
-      "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "mandana",
-      "work_id": "vidhi-viveka"
-    },
-    {
-      "path": "sanskrit/_djvu/padmapada_pancapadika_dli_archive_djvu.txt",
-      "language": "sanskrit",
-      "category": "_djvu",
-      "title": "THE PANCAPADIKA",
-      "size_bytes": 1081333,
-      "line_count": 26786,
-      "edition": "Internet Archive (djvu OCR)",
-      "format": "plain-text",
-      "thinker_id": "padmapada",
-      "work_id": "pancapadika"
-    },
-    {
-      "path": "sanskrit/_djvu/prakasatman_pancapadika_vivarana_archive_djvu.txt",
-      "language": "sanskrit",
-      "category": "_djvu",
-      "title": "PANCHAPADIKA VIVARANAM",
-      "size_bytes": 642613,
-      "line_count": 18652,
-      "edition": "Internet Archive (djvu OCR)",
-      "format": "plain-text",
-      "thinker_id": "prakasatman",
-      "work_id": "pancapadika-vivarana"
-    },
-    {
-      "path": "sanskrit/_djvu/sarvajnatman_sanksepa_sariraka_veezhinathan_1972_archive_djvu.txt",
-      "language": "sanskrit",
-      "category": "_djvu",
-      "title": "SAMKSEPASARIRAKA",
-      "size_bytes": 1133424,
-      "line_count": 39003,
-      "edition": "Internet Archive (djvu OCR)",
-      "format": "plain-text",
-      "thinker_id": "sarvajnatman",
-      "work_id": "samksepa-sariraka",
-      "additional_owners": [
-        {
-          "thinker_id": "sarvajnatman",
-          "work_id": "samkshepa-sariraka"
-        }
-      ]
-    },
-    {
-      "path": "sanskrit/_djvu/sureshvara_brhadaranyaka_varttika_agashe_1892_vol1_archive_djvu.txt",
-      "language": "sanskrit",
-      "category": "_djvu",
-      "title": "वृहदारण्यकोपनिषद्राप्यवातिकम्‌ ।",
-      "size_bytes": 1802729,
-      "line_count": 14588,
-      "edition": "Internet Archive (djvu OCR)",
-      "format": "plain-text",
-      "thinker_id": "sureshvara",
-      "work_id": "brhadaranyaka-varttika"
-    },
-    {
-      "path": "sanskrit/_djvu/sureshvara_taittiriya_varttika_anandashram_1889_archive_djvu.txt",
-      "language": "sanskrit",
-      "category": "_djvu",
-      "title": "“jee? “i टी १",
-      "size_bytes": 976898,
-      "line_count": 15546,
-      "edition": "Internet Archive (djvu OCR)",
-      "format": "plain-text",
-      "thinker_id": "sureshvara",
-      "work_id": "taittiriya-varttika"
-    },
-    {
-      "path": "sanskrit/_djvu/suresvara_naiskarmya_siddhi_alston_archive_djvu.txt",
-      "language": "sanskrit",
-      "category": "_djvu",
-      "title": "REALIZATION OF",
-      "size_bytes": 445158,
-      "line_count": 14286,
-      "edition": "Internet Archive (djvu OCR)",
-      "format": "plain-text",
-      "thinker_id": "sureshvara",
-      "work_id": "naishkarmya-siddhi"
-    },
-    {
-      "path": "sanskrit/_djvu/vedanta_desika_tattva_mukta_kalapa_archive_djvu.txt",
-      "language": "sanskrit",
-      "category": "_djvu",
-      "title": "1 BTOTtftiTTgtr^ (rjjiS'Ui)",
-      "size_bytes": 1810911,
-      "line_count": 44256,
-      "edition": "Internet Archive (djvu OCR)",
-      "format": "plain-text",
-      "thinker_id": "vedanta-desika",
-      "work_id": "tattva-mukta-kalapa"
-    },
-    {
-      "path": "sanskrit/_djvu/vidyaranya_jivanmukti_viveka_archive_djvu.txt",
-      "language": "sanskrit",
-      "category": "_djvu",
-      "title": "VANMUKTI-VIVEK1",
-      "size_bytes": 486382,
-      "line_count": 10256,
-      "edition": "Internet Archive (djvu OCR)",
-      "format": "plain-text",
-      "thinker_id": "vidyaranya",
-      "work_id": "jivanmukti-viveka"
-    },
-    {
-      "path": "sanskrit/_djvu/vidyaranya_panchadasi_archive_djvu.txt",
-      "language": "sanskrit",
-      "category": "_djvu",
-      "title": "VIDYARANYA",
-      "size_bytes": 687755,
-      "line_count": 28944,
-      "edition": "Internet Archive (djvu OCR)",
-      "format": "plain-text",
-      "thinker_id": "vidyaranya",
-      "work_id": "panchadashi"
-    },
     {
       "path": "sanskrit/_kashmir_saivism/AdvaitasiddhiVsNyayamrta.txt",
       "language": "sanskrit",
@@ -139,269 +13,7 @@
       "size_bytes": 448262,
       "line_count": 12544,
       "edition": null,
-      "format": "plain-text",
-      "thinker_id": "vyasatirtha",
-      "work_id": "nyayamrta"
-    },
-    {
-      "path": "sanskrit/_pure_sanskrit/madhusudana_advaita_siddhi_anantakrishna__pure-skt.txt",
-      "language": "sanskrit",
-      "category": "_pure_sanskrit",
-      "title": "[लापय [द 8 पा, (८८ (नकर,",
-      "size_bytes": 10483471,
-      "line_count": 44185,
-      "edition": "Internet Archive (curated extract)",
-      "format": "plain-text",
-      "thinker_id": "madhusudana",
-      "work_id": "advaita-siddhi"
-    },
-    {
-      "path": "sanskrit/_pure_sanskrit/madhusudana_bhakti_rasayana_pandey__pure-skt.txt",
-      "language": "sanskrit",
-      "category": "_pure_sanskrit",
-      "title": "श्रीमधुसूदन-सरस्वती-विरचितं",
-      "size_bytes": 815816,
-      "line_count": 6918,
-      "edition": "Internet Archive (curated extract)",
-      "format": "plain-text",
-      "thinker_id": "madhusudana",
-      "work_id": "bhakti-rasayana"
-    },
-    {
-      "path": "sanskrit/_pure_sanskrit/madhva_bhagavata_tatparya_nirnaya__pure-skt.txt",
-      "language": "sanskrit",
-      "category": "_pure_sanskrit",
-      "title": "एणा € (उ0रवशताशा ङ",
-      "size_bytes": 4132841,
-      "line_count": 29233,
-      "edition": "Internet Archive (curated extract)",
-      "format": "plain-text",
-      "thinker_id": "madhva",
-      "work_id": "bhagavata-tatparya-nirnaya",
-      "additional_owners": [
-        {
-          "thinker_id": "madhva",
-          "work_id": "gita-tatparya"
-        },
-        {
-          "thinker_id": "madhva",
-          "work_id": "karma-nirnaya"
-        }
-      ]
-    },
-    {
-      "path": "sanskrit/_pure_sanskrit/madhva_brahma_sutra_bhasya_3comm_vol1__pure-skt.txt",
-      "language": "sanskrit",
-      "category": "_pure_sanskrit",
-      "title": "श्रीमद्रञ्चसूचभाष्यम्‌",
-      "size_bytes": 1208816,
-      "line_count": 9778,
-      "edition": "Internet Archive (curated extract)",
-      "format": "plain-text",
-      "thinker_id": "madhva",
-      "work_id": "brahma-sutra-bhasya",
-      "additional_owners": [
-        {
-          "thinker_id": "bhaskara",
-          "work_id": "brahma-sutra-bhasya"
-        }
-      ]
-    },
-    {
-      "path": "sanskrit/_pure_sanskrit/madhva_mayavada_khandanam__pure-skt.txt",
-      "language": "sanskrit",
-      "category": "_pure_sanskrit",
-      "title": "प्रो.डि. प्रह्ादाचार्यः विद्धान्‌, एम्‌.प्‌.",
-      "size_bytes": 399268,
-      "line_count": 3006,
-      "edition": "Internet Archive (curated extract)",
-      "format": "plain-text",
-      "thinker_id": "madhva",
-      "work_id": "mayavada-khandana",
-      "additional_owners": [
-        {
-          "thinker_id": "madhva",
-          "work_id": "mithyatvanumana-khandana"
-        },
-        {
-          "thinker_id": "madhva",
-          "work_id": "upadhi-khandana"
-        }
-      ]
-    },
-    {
-      "path": "sanskrit/_pure_sanskrit/nimbarka_brahmasutra_3comm_vrindavan__pure-skt.txt",
-      "language": "sanskrit",
-      "category": "_pure_sanskrit",
-      "title": "श्रीब्रह्मसूत्रम्‌ ।",
-      "size_bytes": 3507209,
-      "line_count": 35131,
-      "edition": "Internet Archive (curated extract)",
-      "format": "plain-text",
-      "thinker_id": "nimbarka",
-      "work_id": "vedanta-parijata-saurabha",
-      "additional_owners": [
-        {
-          "thinker_id": "srinivasa",
-          "work_id": "vedanta-kaustubha"
-        }
-      ]
-    },
-    {
-      "path": "sanskrit/_pure_sanskrit/raghavendra_nyaya_sudha_parimala_ad1_krishnacharya_1895__pure-skt.txt",
-      "language": "sanskrit",
-      "category": "_pure_sanskrit",
-      "title": "यस्यवरोसबेमनिरांरांकरादिकं । तस्यवायोस्ततीयांशमाश्रयेरामवाप्षये ॥ ३ ॥ सत्पद्यवधवोयस्यगावोविश्वतमोनुदः । सस्या",
-      "size_bytes": 1205300,
-      "line_count": 5493,
-      "edition": "Internet Archive (curated extract)",
-      "format": "plain-text",
-      "thinker_id": "raghavendra",
-      "work_id": "nyaya-sudha-parimala"
-    },
-    {
-      "path": "sanskrit/_pure_sanskrit/raghavendra_nyaya_sudha_parimala_ad2_krishnacharya_1895__pure-skt.txt",
-      "language": "sanskrit",
-      "category": "_pure_sanskrit",
-      "title": "उहषौ राकायै - संस्कृत पंडितं",
-      "size_bytes": 1171885,
-      "line_count": 5486,
-      "edition": "Internet Archive (curated extract)",
-      "format": "plain-text",
-      "thinker_id": "raghavendra",
-      "work_id": "nyaya-sudha-parimala"
-    },
-    {
-      "path": "sanskrit/_pure_sanskrit/raghavendra_nyaya_sudha_parimala_ad3_krishnacharya_1895__pure-skt.txt",
-      "language": "sanskrit",
-      "category": "_pure_sanskrit",
-      "title": "श्रीगुरुभ्यानमः ॥ हरेः ॐ ॥ एतदध्यायनिरूपयिष्यमाणसाधनस्वरूपसूचयनमगर्मा चरते ॥ तेति । अपरंविष",
-      "size_bytes": 668859,
-      "line_count": 3153,
-      "edition": "Internet Archive (curated extract)",
-      "format": "plain-text",
-      "thinker_id": "raghavendra",
-      "work_id": "nyaya-sudha-parimala"
-    },
-    {
-      "path": "sanskrit/_pure_sanskrit/raghavendra_nyaya_sudha_parimala_ad4_krishnacharya_1895__pure-skt.txt",
-      "language": "sanskrit",
-      "category": "_pure_sanskrit",
-      "title": "श्रीगुरुभ्योनमः ॥ हरिःॐ ॥ आराधितःसाधनेर्योमुक्िदयाचतुधिधां । थमभीष्टावा(सयेहरि।॥) सिद्धये ॥",
-      "size_bytes": 207083,
-      "line_count": 1000,
-      "edition": "Internet Archive (curated extract)",
-      "format": "plain-text",
-      "thinker_id": "raghavendra",
-      "work_id": "nyaya-sudha-parimala"
-    },
-    {
-      "path": "sanskrit/_pure_sanskrit/ramanuja_sribhashya__pure-skt.txt",
-      "language": "sanskrit",
-      "category": "_pure_sanskrit",
-      "title": "धियःकान्ताय न॒मः",
-      "size_bytes": 2007123,
-      "line_count": 12039,
-      "edition": "Internet Archive (curated extract)",
-      "format": "plain-text",
-      "thinker_id": "ramanuja",
-      "work_id": "shri-bhasya"
-    },
-    {
-      "path": "sanskrit/_pure_sanskrit/tantra_dipika_raghavendra__pure-skt.txt",
-      "language": "sanskrit",
-      "category": "_pure_sanskrit",
-      "title": "। श्रीराधवेद्र्तीथविरचिता",
-      "size_bytes": 964949,
-      "line_count": 8202,
-      "edition": "Internet Archive (curated extract)",
-      "format": "plain-text",
-      "thinker_id": "raghavendra",
-      "work_id": "tantra-dipika"
-    },
-    {
-      "path": "sanskrit/_pure_sanskrit/vallabha_anubhasya_text_1921_mumbai__pure-skt.txt",
-      "language": "sanskrit",
-      "category": "_pure_sanskrit",
-      "title": "पात्र उ प्राः टल्णःाएव तार, 7 प्राः उत्ता.8कणप्रापा,",
-      "size_bytes": 1778997,
-      "line_count": 15458,
-      "edition": "Internet Archive (curated extract)",
-      "format": "plain-text",
-      "thinker_id": "vallabha",
-      "work_id": "anu-bhasya",
-      "additional_owners": [
-        {
-          "thinker_id": "vallabha",
-          "work_id": "anubhasya"
-        }
-      ]
-    },
-    {
-      "path": "sanskrit/_pure_sanskrit/vedanta_desika_pancaratra_raksha_adyar__pure-skt.txt",
-      "language": "sanskrit",
-      "category": "_pure_sanskrit",
-      "title": "श्रीपाञ्चरा्ररक्चा",
-      "size_bytes": 705571,
-      "line_count": 9086,
-      "edition": "Internet Archive (curated extract)",
-      "format": "plain-text",
-      "thinker_id": "vedanta-desika",
-      "work_id": "pancaratra-raksha"
-    },
-    {
-      "path": "sanskrit/_pure_sanskrit/vijnanabhiksu_vijnanamrta_bhasya_1979__pure-skt.txt",
-      "language": "sanskrit",
-      "category": "_pure_sanskrit",
-      "title": "प्रापतिस्थानम्‌-- का । । ॥ ह ५",
-      "size_bytes": 1708889,
-      "line_count": 13934,
-      "edition": "Internet Archive (curated extract)",
-      "format": "plain-text",
-      "thinker_id": "vijnanabhiksu",
-      "work_id": "vijnanamrta-bhasya"
-    },
-    {
-      "path": "sanskrit/_pure_sanskrit/vijnanabhiksu_yoga_varttika_1884__pure-skt.txt",
-      "language": "sanskrit",
-      "category": "_pure_sanskrit",
-      "title": "पुस्तक मिलने का पता-",
-      "size_bytes": 1392501,
-      "line_count": 10144,
-      "edition": "Internet Archive (curated extract)",
-      "format": "plain-text",
-      "thinker_id": "vijnanabhiksu",
-      "work_id": "yoga-varttika"
-    },
-    {
-      "path": "sanskrit/_pure_sanskrit/vimuktatman_ista_siddhi_hiriyanna_1933__pure-skt.txt",
-      "language": "sanskrit",
-      "category": "_pure_sanskrit",
-      "title": "विमुक्तात्मविरचिता",
-      "size_bytes": 2390641,
-      "line_count": 19955,
-      "edition": "Internet Archive (curated extract)",
-      "format": "plain-text",
-      "thinker_id": "vimuktatman",
-      "work_id": "ishta-siddhi",
-      "additional_owners": [
-        {
-          "thinker_id": "vimuktatman",
-          "work_id": "ista-siddhi"
-        }
-      ]
-    },
-    {
-      "path": "sanskrit/_pure_sanskrit/yamuna_agama_pramanya_rama_mishra_1937__pure-skt.txt",
-      "language": "sanskrit",
-      "category": "_pure_sanskrit",
-      "title": "आगमप्रामाण्यम्‌ |",
-      "size_bytes": 245689,
-      "line_count": 2436,
-      "edition": "Internet Archive (curated extract)",
-      "format": "plain-text",
-      "thinker_id": "yamuna",
-      "work_id": "agama-pramanya"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/buddhist/candrakirti_madhyamakavatara.txt",
@@ -411,9 +23,7 @@
       "size_bytes": 104992,
       "line_count": 1864,
       "edition": null,
-      "format": "plain-text",
-      "thinker_id": "candrakirti",
-      "work_id": "madhyamakavatara"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/buddhist/dharmakirti_pramana_varttika.txt",
@@ -423,9 +33,7 @@
       "size_bytes": 119215,
       "line_count": 3535,
       "edition": null,
-      "format": "plain-text",
-      "thinker_id": "dharmakirti",
-      "work_id": "pramana-varttika"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/buddhist/nagarjuna_mula_madhyamaka_karika.txt",
@@ -435,9 +43,7 @@
       "size_bytes": 59571,
       "line_count": 1841,
       "edition": null,
-      "format": "plain-text",
-      "thinker_id": "nagarjuna",
-      "work_id": "mula-madhyamaka-karika"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/buddhist/nagarjuna_vigraha_vyavartani.txt",
@@ -447,9 +53,7 @@
       "size_bytes": 50863,
       "line_count": 669,
       "edition": null,
-      "format": "plain-text",
-      "thinker_id": "nagarjuna",
-      "work_id": "vigraha-vyavartani"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/buddhist/vasubandhu_trimsika.txt",
@@ -459,9 +63,7 @@
       "size_bytes": 3897,
       "line_count": 129,
       "edition": null,
-      "format": "plain-text",
-      "thinker_id": "vasubandhu",
-      "work_id": "trimsika"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/buddhist/vasubandhu_vimsatika.txt",
@@ -471,9 +73,7 @@
       "size_bytes": 18032,
       "line_count": 239,
       "edition": null,
-      "format": "plain-text",
-      "thinker_id": "vasubandhu",
-      "work_id": "vimsatika"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/caitanya_gaudiya/jiva_sat_sandarbha.txt",
@@ -483,9 +83,7 @@
       "size_bytes": 2095748,
       "line_count": 23992,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "jiva-gosvami",
-      "work_id": "sat-sandarbha"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/caitanya_gaudiya/rupa_bhakti_rasamrta_sindhu.txt",
@@ -495,33 +93,7 @@
       "size_bytes": 383997,
       "line_count": 9638,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "rupa-gosvami",
-      "work_id": "bhakti-rasamrta-sindhu"
-    },
-    {
-      "path": "sanskrit/caitanya_gaudiya/rupa_laghu_bhagavatamrta.txt",
-      "language": "sanskrit",
-      "category": "caitanya_gaudiya",
-      "title": "Rūpagosvāmin: Laghubhāgavatāmṛta",
-      "size_bytes": 140920,
-      "line_count": 3348,
-      "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "rupa-gosvami",
-      "work_id": "laghu-bhagavatamrta"
-    },
-    {
-      "path": "sanskrit/caitanya_gaudiya/rupa_ujjvala_nilamani.txt",
-      "language": "sanskrit",
-      "category": "caitanya_gaudiya",
-      "title": "Rūpagosvāmin: Ujjvalanīlamaṇi",
-      "size_bytes": 275755,
-      "line_count": 6969,
-      "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "rupa-gosvami",
-      "work_id": "ujjvala-nilamani"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/comparator/aksapada_nyaya_sutra.txt",
@@ -531,9 +103,7 @@
       "size_bytes": 49907,
       "line_count": 449,
       "edition": null,
-      "format": "plain-text",
-      "thinker_id": "aksapada",
-      "work_id": "nyaya-sutra"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/comparator/badarayana_brahma_sutra.txt",
@@ -543,9 +113,7 @@
       "size_bytes": 27435,
       "line_count": 545,
       "edition": null,
-      "format": "text-with-locus-marker",
-      "thinker_id": "badarayana",
-      "work_id": "brahma-sutra"
+      "format": "text-with-locus-marker"
     },
     {
       "path": "sanskrit/comparator/isvarakrsna_samkhya_karika.txt",
@@ -555,15 +123,7 @@
       "size_bytes": 10204,
       "line_count": 215,
       "edition": null,
-      "format": "plain-text",
-      "thinker_id": "isvara-krsna",
-      "work_id": "samkhya-karika",
-      "additional_owners": [
-        {
-          "thinker_id": "isvarakrsna",
-          "work_id": "samkhya-karika"
-        }
-      ]
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/comparator/jaimini_mimamsa_sutra.txt",
@@ -573,9 +133,7 @@
       "size_bytes": 167641,
       "line_count": 2730,
       "edition": null,
-      "format": "plain-text",
-      "thinker_id": "jaimini",
-      "work_id": "mimamsa-sutra"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/comparator/kanada_vaisesika_sutra.txt",
@@ -585,9 +143,7 @@
       "size_bytes": 23117,
       "line_count": 388,
       "edition": null,
-      "format": "text-with-locus-marker",
-      "thinker_id": "kanada",
-      "work_id": "vaisesika-sutra"
+      "format": "text-with-locus-marker"
     },
     {
       "path": "sanskrit/comparator/patanjali_yoga_sutra.txt",
@@ -597,27 +153,17 @@
       "size_bytes": 13267,
       "line_count": 195,
       "edition": null,
-      "format": "text-with-locus-marker",
-      "thinker_id": "patanjali",
-      "work_id": "yoga-sutra"
+      "format": "text-with-locus-marker"
     },
     {
       "path": "sanskrit/comparator/shabara_mimamsa_sutra_bhasya.txt",
       "language": "sanskrit",
       "category": "comparator",
-      "title": "adhyāya 1:",
+      "title": "============================================================================",
       "size_bytes": 1398940,
       "line_count": 6051,
       "edition": null,
-      "format": "plain-text",
-      "thinker_id": "jaimini",
-      "work_id": "mimamsa-sutra",
-      "additional_owners": [
-        {
-          "thinker_id": "shabara",
-          "work_id": "shabara-bhasya"
-        }
-      ]
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/comparator/umasvati_tattvartha_sutra.txt",
@@ -627,21 +173,17 @@
       "size_bytes": 46354,
       "line_count": 830,
       "edition": null,
-      "format": "plain-text",
-      "thinker_id": "umasvati",
-      "work_id": "tattvartha-sutra"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/comparator/vatsyayana_nyaya_bhasya.txt",
       "language": "sanskrit",
       "category": "comparator",
-      "title": "********************** nysbh_1,1.1 **********************",
+      "title": "% p.1 nyāyadarśanam vātsyāyanabhāṣyam",
       "size_bytes": 431468,
       "line_count": 5009,
       "edition": null,
-      "format": "plain-text",
-      "thinker_id": "vatsyayana",
-      "work_id": "nyaya-sutra-bhasya"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/comparator/vyasa_yoga_bhasya.txt",
@@ -661,21 +203,27 @@
       "size_bytes": 32798,
       "line_count": 756,
       "edition": null,
-      "format": "plain-text",
-      "thinker_id": "abhinavagupta",
-      "work_id": "tantraloka"
+      "format": "plain-text"
     },
     {
-      "path": "sanskrit/kashmir_shaiva/abhinavagupta_malini_sloka_varttika.txt",
+      "path": "sanskrit/kashmir_shaiva/abhinavagupta_ipv.txt",
       "language": "sanskrit",
       "category": "kashmir_shaiva",
-      "title": "Abhinavagupta: Mālinīślokavārttika",
-      "size_bytes": 186911,
-      "line_count": 4304,
+      "title": "Abhinavagupta: Īśvarapratyabhijñāvimarśinī",
+      "size_bytes": 357301,
+      "line_count": 2088,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "abhinavagupta",
-      "work_id": "malini-vijaya-varttika"
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/kashmir_shaiva/abhinavagupta_paramartha_sara.txt",
+      "language": "sanskrit",
+      "category": "kashmir_shaiva",
+      "title": "Abhinavagupta: Paramārthasāra",
+      "size_bytes": 15647,
+      "line_count": 357,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/kashmir_shaiva/abhinavagupta_tantrasara.txt",
@@ -685,9 +233,7 @@
       "size_bytes": 130963,
       "line_count": 206,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "abhinavagupta",
-      "work_id": "tantrasara"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/kashmir_shaiva/ksemaraja_pratyabhijna_hrdayam.txt",
@@ -697,9 +243,7 @@
       "size_bytes": 42058,
       "line_count": 390,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "ksemaraja",
-      "work_id": "pratyabhijna-hrdayam"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/kashmir_shaiva/spanda_karika.txt",
@@ -709,15 +253,7 @@
       "size_bytes": 8058,
       "line_count": 208,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "bhatta-kallata",
-      "work_id": "spanda-karika",
-      "additional_owners": [
-        {
-          "thinker_id": "vasugupta",
-          "work_id": "spanda-karika"
-        }
-      ]
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/kashmir_shaiva/utpaladeva_isvara_pratyabhijna_karika.txt",
@@ -727,9 +263,7 @@
       "size_bytes": 67922,
       "line_count": 1049,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "utpaladeva",
-      "work_id": "ishvara-pratyabhijna-karika"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/mimamsa/kumarila_sloka_varttika_comm.txt",
@@ -739,9 +273,47 @@
       "size_bytes": 433392,
       "line_count": 3880,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "kumarila",
-      "work_id": "sloka-varttika"
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/mimamsa/madhava_jaimini_nyaya_mala.txt",
+      "language": "sanskrit",
+      "category": "mimamsa",
+      "title": "Mādhava: Jaiminīyanyāyamālāvistara a metrical exposition of Jaimini's Mīmāṃsāsūtra, with Mādhava's prose commentary",
+      "size_bytes": 563090,
+      "line_count": 6599,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/mimamsa/sucaritamisra_sloka_varttika.txt",
+      "language": "sanskrit",
+      "category": "mimamsa",
+      "title": "Sucaritamiśra: Mīmāṃsāślokavārttika",
+      "size_bytes": 1336922,
+      "line_count": 5306,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/nyaya/annambhatta_tarka_sangraha.txt",
+      "language": "sanskrit",
+      "category": "nyaya",
+      "title": "Annaṃbhatta: Tarkasaṃgraha",
+      "size_bytes": 18598,
+      "line_count": 208,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/nyaya/annambhatta_tarka_sangraha_comm.txt",
+      "language": "sanskrit",
+      "category": "nyaya",
+      "title": "Annaṃbhaṭṭa: Tarkasaṃgraha with autoentary (Dīpikā), Nīlakaṇṭha's Dīpikāprakāśikā and Bālapriyā",
+      "size_bytes": 1306849,
+      "line_count": 7012,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/nyaya/dharmakirti_nyaya_bindu.txt",
@@ -751,9 +323,17 @@
       "size_bytes": 24888,
       "line_count": 70,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "dharmakirti",
-      "work_id": "nyaya-bindu"
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/nyaya/nyaya_sutra_gautama.txt",
+      "language": "sanskrit",
+      "category": "nyaya",
+      "title": "Gautama: Nyāyasūtra",
+      "size_bytes": 51699,
+      "line_count": 495,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/nyaya/udayana_nyaya_kusumanjali.txt",
@@ -763,9 +343,17 @@
       "size_bytes": 271638,
       "line_count": 710,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "udayana",
-      "work_id": "nyaya-kusumanjali"
+      "format": "plain-text"
+    },
+    {
+      "path": "sanskrit/samkhya/samkhya_sutra_kapila.txt",
+      "language": "sanskrit",
+      "category": "samkhya",
+      "title": "Kapila: Sāṃkhyasūtra including the Tattvasamāsa, an abstract of Sāṃkhya philosophy (appended at the end)",
+      "size_bytes": 56744,
+      "line_count": 1081,
+      "edition": "GRETIL (Göttingen)",
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/vedanta/full_corpus/gaudapada_mandukya_karika_gretil.txt",
@@ -775,21 +363,7 @@
       "size_bytes": 30837,
       "line_count": 715,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "gaudapada",
-      "work_id": "mandukya-karika"
-    },
-    {
-      "path": "sanskrit/vedanta/full_corpus/kesava_kasmiri_kramadipika_gretil.txt",
-      "language": "sanskrit",
-      "category": "vedanta",
-      "title": "Keśavakāśmīri: Kramadīpikā with the commentary by Govindabhaṭṭācārya",
-      "size_bytes": 436908,
-      "line_count": 5175,
-      "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "kesava-kasmiri",
-      "work_id": "krama-dipika"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/vedanta/full_corpus/madhusudana_siddhanta_bindu_gretil.txt",
@@ -799,9 +373,7 @@
       "size_bytes": 75602,
       "line_count": 348,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "madhusudana",
-      "work_id": "siddhanta-bindu"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt",
@@ -811,15 +383,7 @@
       "size_bytes": 252379,
       "line_count": 5712,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "madhva",
-      "work_id": "anuvyakhyana",
-      "additional_owners": [
-        {
-          "thinker_id": "madhva",
-          "work_id": "anuvyakhyana-bhasya-passages"
-        }
-      ]
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/vedanta/full_corpus/mandana_misra_brahma_siddhi_gretil.txt",
@@ -829,21 +393,7 @@
       "size_bytes": 313885,
       "line_count": 1320,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "mandana",
-      "work_id": "brahma-siddhi"
-    },
-    {
-      "path": "sanskrit/vedanta/full_corpus/mandukya_upanisad_gaudapada_shankara_bhasya_existing.txt",
-      "language": "sanskrit",
-      "category": "vedanta",
-      "title": "Māṇḍūkyopaniṣad with Māṇḍūkyamūlamantrabhāṣya, Māṇḍūkyopaniṣatkārikā, and Āgamaśāstrabhāṣya",
-      "size_bytes": 184367,
-      "line_count": 2715,
-      "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "sankara",
-      "work_id": "mandukya-bhasya"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/vedanta/full_corpus/shankara_upadesa_sahasri_gretil.txt",
@@ -853,9 +403,7 @@
       "size_bytes": 142891,
       "line_count": 2196,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "sankara",
-      "work_id": "upadesa-sahasri"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/vedanta/full_corpus/shankara_vivekacudamani_gretil.txt",
@@ -865,9 +413,7 @@
       "size_bytes": 90654,
       "line_count": 2413,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "sankara",
-      "work_id": "vivekacudamani"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/vedanta/full_corpus/vyasatirtha_tarka_tandava_gretil.txt",
@@ -877,9 +423,7 @@
       "size_bytes": 1947991,
       "line_count": 19764,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "vyasatirtha",
-      "work_id": "tarka-tandava"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/vedanta/full_corpus/yamuna_atma_siddhi_gretil.txt",
@@ -889,27 +433,7 @@
       "size_bytes": 390134,
       "line_count": 276,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "yamuna",
-      "work_id": "atma-siddhi",
-      "additional_owners": [
-        {
-          "thinker_id": "yamuna",
-          "work_id": "siddhi-trayam"
-        }
-      ]
-    },
-    {
-      "path": "sanskrit/vedanta/full_corpus/yamuna_catuhsloki_gretil.txt",
-      "language": "sanskrit",
-      "category": "vedanta",
-      "title": "Yāmuna: Catuḥślokī",
-      "size_bytes": 2684,
-      "line_count": 54,
-      "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "yamuna",
-      "work_id": "catuh-shloki"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/vedanta/full_corpus/yamuna_isvara_siddhi_gretil.txt",
@@ -919,15 +443,7 @@
       "size_bytes": 19895,
       "line_count": 154,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "yamuna",
-      "work_id": "isvara-siddhi",
-      "additional_owners": [
-        {
-          "thinker_id": "yamuna",
-          "work_id": "siddhi-trayam"
-        }
-      ]
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/vedanta/full_corpus/yamuna_samvit_siddhi_gretil.txt",
@@ -937,15 +453,7 @@
       "size_bytes": 30579,
       "line_count": 935,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "yamuna",
-      "work_id": "samvit-siddhi",
-      "additional_owners": [
-        {
-          "thinker_id": "yamuna",
-          "work_id": "siddhi-trayam"
-        }
-      ]
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/vedanta/full_corpus/yamuna_stotra_ratna_gretil.txt",
@@ -955,9 +463,7 @@
       "size_bytes": 13016,
       "line_count": 234,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "yamuna",
-      "work_id": "stotra-ratna"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/vedanta/jayatirtha_nyaya_sudha.txt",
@@ -967,9 +473,7 @@
       "size_bytes": 2853356,
       "line_count": 31771,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "jayatirtha",
-      "work_id": "nyaya-sudha"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/vedanta/madhva_mahabharata_tatparya.txt",
@@ -979,9 +483,7 @@
       "size_bytes": 812269,
       "line_count": 44,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "madhva",
-      "work_id": "mahabharata-tatparya-nirnaya"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/vedanta/ramanuja_gita_bhasya.txt",
@@ -991,15 +493,7 @@
       "size_bytes": 464403,
       "line_count": 3876,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "ramanuja",
-      "work_id": "gita-bhasya",
-      "additional_owners": [
-        {
-          "thinker_id": "madhva",
-          "work_id": "gita-bhasya"
-        }
-      ]
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/vedanta/ramanuja_vedartha_sangraha.txt",
@@ -1009,9 +503,7 @@
       "size_bytes": 146681,
       "line_count": 332,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "ramanuja",
-      "work_id": "vedartha-samgraha"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/vedanta/shankara_brahma_sutra_bhasya.txt",
@@ -1021,9 +513,7 @@
       "size_bytes": 1125765,
       "line_count": 6793,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "sankara",
-      "work_id": "brahma-sutra-bhasya"
+      "format": "plain-text"
     },
     {
       "path": "sanskrit/vedanta/vacaspati_bhamati.txt",
@@ -1033,9 +523,7 @@
       "size_bytes": 1166684,
       "line_count": 5479,
       "edition": "GRETIL (Göttingen)",
-      "format": "plain-text",
-      "thinker_id": "vacaspati",
-      "work_id": "bhamati"
+      "format": "plain-text"
     }
   ]
 }
