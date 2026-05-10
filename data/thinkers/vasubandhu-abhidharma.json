@@ -2,7 +2,10 @@
   "id": "vasubandhu-abhidharma",
   "name": "Vasubandhu (Abhidharma phase)",
   "name_iast": "Vasubandhu",
-  "alternate_names": ["Earlier Vasubandhu (on the two-Vasubandhus hypothesis)", "Kośakāra"],
+  "alternate_names": [
+    "Earlier Vasubandhu (on the two-Vasubandhus hypothesis)",
+    "Kośakāra"
+  ],
   "dates_low": 320,
   "dates_high": 400,
   "dates_tier": "contested",
@@ -12,7 +15,10 @@
   "sub_school": "Sautrāntika",
   "sub_school_shade": 2,
   "lineage_in": [],
-  "lineage_out": ["sanghabhadra", "vasubandhu"],
+  "lineage_out": [
+    "sanghabhadra",
+    "vasubandhu"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "sanghabhadra",
@@ -41,15 +47,21 @@
       "work_id": "abhidharma-kosa-karika",
       "title": "Abhidharma-Kosha-Karika",
       "title_iast": "Abhidharma-Kośa-Kārikā",
-      "alternate_titles": ["Kośa-Kārikā", "AKK"],
+      "alternate_titles": [
+        "Kośa-Kārikā",
+        "AKK"
+      ],
       "ascription_tier": "securely-authored",
-      "ascription_notes": "Securely authored by Vasubandhu in the Sanskrit verse-form preserved in Tibetan and Chinese transmissions and partially in Sanskrit (Pradhan 1967 reconstruction).",
+      "ascription_notes": "Securely authored by Vasubandhu in the Sanskrit verse-form preserved in Tibetan and Chinese transmissions and partially in Sanskrit (Pradhan 1967 reconstruction). Wave-10: Pradhan 1975 critical Sanskrit (TSWS 8) acquired; karikas extractable from same volume after OCR.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Pradhan ed. 1967; La Vallée Poussin trans. 1923–1931; Cox 1995, Disputed Dharmas, on the verse-bhāṣya relation."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Pradhan ed. 1967; La Vallée Poussin trans. 1923–1931; Cox 1995, Disputed Dharmas, on the verse-bhāṣya relation."
+        }
       ],
       "genre": "verse-summary",
       "language": "sanskrit",
-      "source_status": "primary-text-not-in-corpus",
+      "source_status": "degraded-on-disk",
       "summary": "The Kośa-Kārikā in eight chapters (later expanded by a ninth on the refutation of the substantial self) supplies the verse-form summary of orthodox Sarvāstivāda-Vaibhāṣika Abhidharma. The chapters cover dhātu (the eighteen elements), indriya (the twenty-two faculties), loka (the world-system and rebirth-paths), karman (the analysis of action), anuśaya (the latent defilements), pudgala-mārga (the path-stages), jñāna (the ten knowledges), and samāpatti (the meditative attainments). The verses present the Mahā-Vibhāṣā doctrine in its most compressed and learnable form and have remained the standard introduction to Abhidharma in Tibetan and East Asian Buddhist scholasticism for fifteen centuries. The internal-critique apparatus appears not in the verses but in the auto-commentary; the verses themselves are the orthodox exposition the bhāṣya then problematises, and they preserve the canonical formulation of sarvam asti and of the conditioned-dharma analysis on which the school's later doctrinal history is built.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -58,15 +70,21 @@
       "work_id": "abhidharma-kosa-bhasya",
       "title": "Abhidharma-Kosha-Bhashya",
       "title_iast": "Abhidharma-Kośa-Bhāṣya",
-      "alternate_titles": ["AKBh", "Kośa-Bhāṣya"],
+      "alternate_titles": [
+        "AKBh",
+        "Kośa-Bhāṣya"
+      ],
       "ascription_tier": "securely-authored",
-      "ascription_notes": "The auto-commentary is securely Vasubandhu's. The Sautrāntika-leaning glosses are the principal philosophical content of the work and the proximate cause of Saṅghabhadra's Nyāyānusāra.",
+      "ascription_notes": "The auto-commentary is securely Vasubandhu's. The Sautrāntika-leaning glosses are the principal philosophical content of the work and the proximate cause of Saṅghabhadra's Nyāyānusāra. Wave-10: Pradhan 1975 critical Sanskrit (TSWS 8) PDF acquired plus Pruden English Vol 1; awaiting OCR.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Pradhan ed. 1967; Gold 2015, Paving the Great Way; Cox 1995."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Pradhan ed. 1967; Gold 2015, Paving the Great Way; Cox 1995."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
-      "source_status": "primary-text-not-in-corpus",
+      "source_status": "degraded-on-disk",
       "summary": "Vasubandhu's prose auto-commentary on his own Kośa-Kārikās, structured as a verse-by-verse exegesis but functioning philosophically as the major internal critique of Sarvāstivāda orthodoxy from a Sautrāntika standpoint. The bhāṣya repeatedly stages a pūrvapakṣa in the orthodox Vaibhāṣika voice (the verses' apparent doctrine) and then advances objections from a Sautrāntika position that recognises only the present moment as dravyasat. The decisive site of this critique is the treatment of sarvam asti at AKBh 5.25–27, where Vasubandhu canvasses the four classical Sarvāstivāda accounts of how a dharma can be said to exist in past, present, and future modes (Dharmatrāta's bhāva-anyathātva, Ghoṣaka's lakṣaṇa-anyathātva, Vasumitra's avasthā-anyathātva, Buddhadeva's anyathā-anyathātva), endorses Vasumitra's view as least objectionable for the orthodoxy, and then advances the Sautrāntika alternative according to which only the present is actual and past-and-future are conceptual constructions on the seed-series. The bhāṣya is therefore both the principal Sanskrit exposition of Sarvāstivāda Abhidharma and the document of the Sautrāntika critique that motivated the move to Yogācāra. The ninth chapter, Pudgala-Pratiṣedha, contains the full anātman argument against the Vātsīputrīya pudgala-vāda.",
       "key_passage_ids": [],
       "entry_status": "reviewed"

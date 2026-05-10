@@ -151,9 +151,18 @@ const stage = document.getElementById("stage");
 const detailPane = document.getElementById("detailPane");
 const detailContent = document.getElementById("detailContent");
 const closeDetail = document.getElementById("closeDetail");
-const closeReader = document.getElementById("closeReader");
-const readerModal = document.getElementById("readerModal");
-const readerContent = document.getElementById("readerContent");
+// Unified panel: dp-* ids point at the five tab panes; the legacy
+// readerModal / articleReader DOM nodes were removed when those flows
+// migrated into the panel as tabs.
+const dpTabBar = detailPane && detailPane.querySelector(".dp-tabbar");
+const dpTranslationHead = document.getElementById("dpTranslationHead");
+const dpTranslationBody = document.getElementById("dpTranslationBody");
+const dpArticleHead = document.getElementById("dpArticleHead");
+const dpArticleBody = document.getElementById("dpArticleBody");
+const dpCitationBody = document.getElementById("dpCitationBody");
+const dpSourceSearch = document.getElementById("dpSourceSearch");
+const dpSourceTree = document.getElementById("dpSourceTree");
+const dpSourceViewer = document.getElementById("dpSourceViewer");
 const scroller = document.getElementById("timelineScroller");
 const canvas = document.getElementById("canvas");
 const dotsLayer = document.getElementById("timelineDots");
@@ -969,13 +978,87 @@ function wirePanZoom() {
   // touch / trackpad two-finger pan handled natively by the browser
 }
 
-// ---------- detail pane -----------
+// ---------- unified right-side panel (tabs) -----------
+// Single panel hosts five tabs: Thinker / Translation / Article / Citation / Source.
+// One tab is active at a time; the others retain their last-rendered content.
+const PANEL_TABS = ["thinker", "translation", "article", "citation", "source"];
+const panelState = {
+  open: false,
+  activeTab: "thinker",
+  // content-loaded flags so we can show "(empty)" placeholders when
+  // a tab is opened directly without an upstream load.
+  loaded: { thinker: false, translation: false, article: false, citation: false, source: false },
+  // For mobile (≤720 px): Citation falls back to the legacy bottom-sheet
+  // popover so a one-line locus check doesn't take over the screen.
+};
+
+function isPanelMobile() {
+  return window.matchMedia("(max-width: 720px)").matches;
+}
+
+function openPanel(tab) {
+  panelState.open = true;
+  document.body.classList.add("is-detail-open");
+  detailPane.setAttribute("aria-hidden", "false");
+  if (tab) setPanelTab(tab);
+}
+
+function closePanel() {
+  panelState.open = false;
+  document.body.classList.remove("is-detail-open");
+  detailPane.setAttribute("aria-hidden", "true");
+  state.activeId = null;
+  document.querySelectorAll(".thinker-dot").forEach((d) => d.classList.remove("is-active"));
+  document.querySelectorAll(".lineage-edge").forEach((el) => el.classList.remove("is-lit"));
+}
+
+function setPanelTab(tab) {
+  if (!PANEL_TABS.includes(tab)) return;
+  panelState.activeTab = tab;
+  // Tab buttons
+  if (dpTabBar) {
+    dpTabBar.querySelectorAll(".dp-tab").forEach((btn) => {
+      const isActive = btn.dataset.pane === tab;
+      btn.classList.toggle("is-active", isActive);
+      btn.setAttribute("aria-selected", isActive ? "true" : "false");
+    });
+  }
+  // Panes
+  for (const t of PANEL_TABS) {
+    const pane = document.getElementById("dpPane" + t[0].toUpperCase() + t.slice(1));
+    if (!pane) continue;
+    const isActive = t === tab;
+    pane.classList.toggle("is-active", isActive);
+    pane.hidden = !isActive;
+    pane.setAttribute("aria-hidden", isActive ? "false" : "true");
+  }
+  if (tab === "source") ensureSourceTreeRendered();
+  try { localStorage.setItem("vedanta-panel-tab", tab); } catch (_) {}
+}
+
+function showTab(tab) {
+  // Show the tab button (some tabs are hidden until first use, e.g.
+  // Translation, Article, Citation — exposed by an action that loads
+  // content into them).
+  if (!dpTabBar) return;
+  const btn = dpTabBar.querySelector(`.dp-tab[data-pane="${tab}"]`);
+  if (btn) btn.hidden = false;
+}
+
+if (dpTabBar) {
+  dpTabBar.querySelectorAll(".dp-tab").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const t = btn.dataset.pane;
+      if (t) setPanelTab(t);
+    });
+  });
+}
+
+// ---------- detail pane (Thinker tab) -----------
 function openThinker(id) {
   const t = state.thinkersById.get(id);
   if (!t) return;
   state.activeId = id;
-  document.body.classList.add("is-detail-open");
-  detailPane.setAttribute("aria-hidden", "false");
   document.querySelectorAll(".thinker-dot").forEach((d) => {
     d.classList.toggle("is-active", d.dataset.id === id);
   });
@@ -985,7 +1068,9 @@ function openThinker(id) {
   detailContent.style.setProperty("--dot-color", colorFor(t, 2));
   detailContent.style.setProperty("--school-light", colorFor(t, 1));
   detailContent.innerHTML = renderDetail(t);
-  detailPane.scrollTop = 0;
+  panelState.loaded.thinker = true;
+  detailContent.scrollTop = 0;
+  openPanel("thinker");
   scrollDotIntoView(t);
   // wire read-full buttons
   detailContent.querySelectorAll("[data-read-full]").forEach((btn) => {
@@ -1015,14 +1100,9 @@ function scrollDotIntoView(t) {
   scroller.scrollTo({ left: desiredLeft, top: desiredTop, behavior: "smooth" });
 }
 
-function closeDetailPane() {
-  document.body.classList.remove("is-detail-open");
-  detailPane.setAttribute("aria-hidden", "true");
-  state.activeId = null;
-  document.querySelectorAll(".thinker-dot").forEach((d) => d.classList.remove("is-active"));
-  document.querySelectorAll(".lineage-edge").forEach((el) => el.classList.remove("is-lit"));
-}
-closeDetail.addEventListener("click", closeDetailPane);
+// Legacy alias for the close handler — close the entire unified panel.
+function closeDetailPane() { closePanel(); }
+closeDetail.addEventListener("click", closePanel);
 
 // ---------- detail rendering -----------
 function renderDetail(t) {
@@ -1274,19 +1354,31 @@ document.addEventListener("click", (e) => {
   }
 });
 
-// ---------- reader modal (full work translation) -----------
+// ---------- Translation tab (full work translation, in the unified panel) -----------
 async function openReader(workId, thinkerId) {
   const t = state.thinkersById.get(thinkerId);
   if (!t) return;
   const work = (t.engaged_works || []).find((w) => w.work_id === workId);
   if (!work) return;
+  // Show the tab + open it immediately with a spinner so the click feels responsive.
+  showTab("translation");
+  if (dpTranslationHead) {
+    dpTranslationHead.innerHTML = `
+      <p class="dp-eyebrow">Translation</p>
+      <p class="dp-title">${escape(work.title_iast || work.title)}</p>
+      <p class="dp-attrib">${escape(t.name_iast || t.name)} · ${escape((work.genre || "").replace(/-/g, " "))} · ${escape(work.language || "sanskrit")}</p>
+    `;
+  }
+  if (dpTranslationBody) dpTranslationBody.innerHTML = "<article><p style=\"padding:0 8px;color:var(--muted);font-style:italic\">Loading…</p></article>";
+  openPanel("translation");
+
   const url = `data/full_translations/${thinkerId}__${workId}.md`;
   const r = await fetch(url);
   let body;
   if (r.ok) {
     body = await r.text();
   } else {
-    // No extended translation file yet — synthesize a placeholder using what IS in the JSON.
+    // No extended translation on disk — synthesize a placeholder from key_passages.
     const passages = (t.key_passages || []).filter((p) => p.work_id === workId);
     const passagesBlock = passages.length
       ? "## Engaged passages\n\n" + passages.map((p) => {
@@ -1296,10 +1388,7 @@ async function openReader(workId, thinkerId) {
           return `### ${p.locus_long || p.locus_short || ""}\n\n${sk}\n\n${en}${why}`;
         }).join("\n\n---\n\n")
       : "";
-    body = `# ${work.title_iast || work.title}
-**by ${t.name_iast || t.name}** · ${(work.genre || "").replace(/-/g, " ")} · ${work.language || "sanskrit"}
-
-${work.summary || ""}
+    body = `${work.summary || ""}
 
 ---
 
@@ -1316,14 +1405,12 @@ For the cited-but-not-fully-translated portions: where a standard scholarly Engl
 
 ${passagesBlock}`;
   }
-  readerContent.innerHTML = renderMarkdownFull(body);
-  readerModal.classList.add("is-open");
-  readerModal.setAttribute("aria-hidden", "false");
+  if (dpTranslationBody) {
+    dpTranslationBody.innerHTML = `<article>${renderMarkdownFull(body)}</article>`;
+    dpTranslationBody.scrollTop = 0;
+  }
+  panelState.loaded.translation = true;
 }
-closeReader.addEventListener("click", () => {
-  readerModal.classList.remove("is-open");
-  readerModal.setAttribute("aria-hidden", "true");
-});
 
 // ---------- glossary popover -----------
 function buildGlossaryRegex() {
@@ -1510,22 +1597,9 @@ async function openCitationPopover(key, anchorEl) {
   document.addEventListener("keydown", escClose);
 }
 
-// ---------- citation panel (persistent right-side, Source + Citation tabs) -----------
-const citePanelEl = document.getElementById("citationPanel");
-const citePanelCloseBtn = document.getElementById("citePanelClose");
-const citeTabSourceBtn = document.getElementById("citeTabSource");
-const citeTabCitationBtn = document.getElementById("citeTabCitation");
-const citePaneSource = document.getElementById("citePaneSource");
-const citePaneCitation = document.getElementById("citePaneCitation");
-const citeSourceSearch = document.getElementById("citeSourceSearch");
-const citeSourceTree = document.getElementById("citeSourceTree");
-const citeSourceViewer = document.getElementById("citeSourceViewer");
-const citeCitationEmpty = document.getElementById("citeCitationEmpty");
-const citeCitationBody = document.getElementById("citeCitationBody");
-
-const citePanel = {
-  open: false,
-  tab: "citation",      // "source" | "citation"
+// ---------- Citation tab + Source tab (in the unified panel) -----------
+// Tab-shared state: manifest, file cache, active selections.
+const sourceTabState = {
   manifestLoaded: false,
   manifest: null,
   fileCache: new Map(), // path -> text
@@ -1533,59 +1607,20 @@ const citePanel = {
   activeCiteKey: null,
 };
 
-function isCitePanelMobile() {
-  return window.matchMedia("(max-width: 720px)").matches;
-}
-
-function openCitePanel(tab) {
-  if (isCitePanelMobile()) return;
-  if (tab) citePanel.tab = tab;
-  citePanel.open = true;
-  citePanelEl.classList.add("is-open");
-  citePanelEl.setAttribute("aria-hidden", "false");
-  setCitePanelTab(citePanel.tab);
-  try { localStorage.setItem("vedanta-cite-panel-tab", citePanel.tab); } catch (_) {}
-}
-
-function closeCitePanel() {
-  citePanel.open = false;
-  citePanelEl.classList.remove("is-open");
-  citePanelEl.setAttribute("aria-hidden", "true");
-}
-
-function setCitePanelTab(tab) {
-  if (tab !== "source" && tab !== "citation") return;
-  citePanel.tab = tab;
-  const isSrc = tab === "source";
-  citeTabSourceBtn.classList.toggle("is-active", isSrc);
-  citeTabSourceBtn.setAttribute("aria-selected", isSrc ? "true" : "false");
-  citeTabCitationBtn.classList.toggle("is-active", !isSrc);
-  citeTabCitationBtn.setAttribute("aria-selected", !isSrc ? "true" : "false");
-  citePaneSource.classList.toggle("is-active", isSrc);
-  citePaneSource.setAttribute("aria-hidden", isSrc ? "false" : "true");
-  citePaneSource.hidden = !isSrc;
-  citePaneCitation.classList.toggle("is-active", !isSrc);
-  citePaneCitation.setAttribute("aria-hidden", !isSrc ? "false" : "true");
-  citePaneCitation.hidden = isSrc;
-  if (isSrc) ensureSourceTreeRendered();
-  try { localStorage.setItem("vedanta-cite-panel-tab", tab); } catch (_) {}
-}
-
-if (citeTabSourceBtn) citeTabSourceBtn.addEventListener("click", () => setCitePanelTab("source"));
-if (citeTabCitationBtn) citeTabCitationBtn.addEventListener("click", () => setCitePanelTab("citation"));
-if (citePanelCloseBtn) citePanelCloseBtn.addEventListener("click", closeCitePanel);
-
-// Citation-tab entry point. Falls back to popover on mobile.
+// Citation-tab entry point. Falls back to the legacy bottom-sheet popover
+// on mobile (citations are short; full-screen overlay is overkill).
 async function openCitationPanel(key, anchorEl) {
-  if (isCitePanelMobile()) {
+  if (isPanelMobile()) {
     openCitationPopover(key, anchorEl);
     return;
   }
   await loadCitationIndex();
-  citePanel.activeCiteKey = key;
+  sourceTabState.activeCiteKey = key;
   try { localStorage.setItem("vedanta-cite-panel-cite-key", key); } catch (_) {}
   renderCitationTab(key);
-  openCitePanel("citation");
+  showTab("citation");
+  openPanel("citation");
+  panelState.loaded.citation = true;
 }
 
 function renderCitationTab(key) {
@@ -1654,7 +1689,7 @@ function renderCitationTab(key) {
     </div>
   `;
 
-  citeCitationBody.innerHTML = `
+  dpCitationBody.innerHTML = `
     <div class="ccb-head">
       <div class="ccb-locus">${escape(locusDisplay)}</div>
       <div class="ccb-attrib">${escape(thinkerName)}${workTitle ? ` · <em>${escape(workTitle)}</em>` : ""}</div>
@@ -1665,18 +1700,16 @@ function renderCitationTab(key) {
     ${noContextNote}
     ${actions}
   `;
-  citeCitationBody.hidden = false;
-  citeCitationEmpty.hidden = true;
-  citeCitationBody.scrollTop = 0;
+  dpCitationBody.scrollTop = 0;
 
-  citeCitationBody.querySelectorAll(".ccb-action").forEach((btn) => {
+  dpCitationBody.querySelectorAll(".ccb-action").forEach((btn) => {
     btn.addEventListener("click", () => {
       const act = btn.dataset.act;
       if (act === "open-thinker") {
         openThinker(btn.dataset.thinkerId);
       } else if (act === "open-source") {
         const guess = guessSourceFileForCitation(btn.dataset.thinkerId, btn.dataset.workId);
-        setCitePanelTab("source");
+        setPanelTab("source");
         if (guess) selectSourceFile(guess);
       }
     });
@@ -1715,14 +1748,23 @@ function collectSurroundingPassages(tid, wid, entry) {
 }
 
 // ---------- Source tab ----------
+// The Source tab browses the in-repo primary-text mirror at
+// `data/sources/`. The full corpus (~8 GB) lives outside the site repo;
+// `scripts/build_site_sources.py` syncs only the files referenced by
+// citation_index.json into `site/data/sources/`, and rewrites the manifest
+// to reflect what is actually shipped to GitHub Pages. Thus the manifest +
+// the fetch path must agree on `data/sources/<path>` (see fetch below).
+const SOURCE_FETCH_BASE = "data/sources/";
+
 async function ensureSourceTreeRendered() {
-  if (citePanel.manifestLoaded) return;
-  citeSourceTree.innerHTML = "<p class=\"cite-source-empty\" style=\"padding:8px 14px\">Loading manifest…</p>";
+  if (sourceTabState.manifestLoaded) return;
+  if (!dpSourceTree) return;
+  dpSourceTree.innerHTML = "<p class=\"dp-empty\" style=\"padding:8px 14px\">Loading manifest…</p>";
   const m = await loadJSON("data/primary_text_manifest.json");
-  citePanel.manifest = m;
-  citePanel.manifestLoaded = true;
-  if (!m || !Array.isArray(m.files)) {
-    citeSourceTree.innerHTML = "<p class=\"cite-source-empty\" style=\"padding:8px 14px\">No primary-text manifest found. Run scripts/build_primary_text_manifest.py.</p>";
+  sourceTabState.manifest = m;
+  sourceTabState.manifestLoaded = true;
+  if (!m || !Array.isArray(m.files) || m.files.length === 0) {
+    dpSourceTree.innerHTML = "<p class=\"dp-empty\" style=\"padding:8px 14px\">No primary-text manifest found. Run scripts/build_site_sources.py.</p>";
     return;
   }
   renderSourceTree("");
@@ -1733,7 +1775,7 @@ async function ensureSourceTreeRendered() {
 }
 
 function renderSourceTree(filter) {
-  const m = citePanel.manifest;
+  const m = sourceTabState.manifest;
   if (!m || !Array.isArray(m.files)) return;
   const f = (filter || "").trim().toLowerCase();
   const files = f
@@ -1766,7 +1808,7 @@ function renderSourceTree(filter) {
         (a.title || a.path).localeCompare(b.title || b.path));
       const leaves = fls.map((fl) => {
         const label = fl.title || fl.path.split("/").pop().replace(/\.[^.]+$/, "");
-        const isActive = fl.path === citePanel.activeFilePath ? " is-active" : "";
+        const isActive = fl.path === sourceTabState.activeFilePath ? " is-active" : "";
         return `<div class="cst-leaf${isActive}" data-path="${escape(fl.path)}" title="${escape(fl.path)}">${escape(label)}</div>`;
       }).join("");
       const catLabel = cat === "_root" ? "(top level)" : cat.replace(/_/g, " ");
@@ -1787,29 +1829,29 @@ function renderSourceTree(filter) {
     `;
   }).join("");
 
-  citeSourceTree.innerHTML = html || "<p class=\"cite-source-empty\" style=\"padding:8px 14px\">No matches.</p>";
-  citeSourceTree.querySelectorAll(".cst-leaf").forEach((el) => {
+  dpSourceTree.innerHTML = html || "<p class=\"dp-empty\" style=\"padding:8px 14px\">No matches.</p>";
+  dpSourceTree.querySelectorAll(".cst-leaf").forEach((el) => {
     el.addEventListener("click", () => selectSourceFile(el.dataset.path));
   });
 }
 
-let _citeSearchTimer = null;
-if (citeSourceSearch) {
-  citeSourceSearch.addEventListener("input", () => {
-    clearTimeout(_citeSearchTimer);
-    _citeSearchTimer = setTimeout(() => renderSourceTree(citeSourceSearch.value), 120);
+let _sourceSearchTimer = null;
+if (dpSourceSearch) {
+  dpSourceSearch.addEventListener("input", () => {
+    clearTimeout(_sourceSearchTimer);
+    _sourceSearchTimer = setTimeout(() => renderSourceTree(dpSourceSearch.value), 120);
   });
 }
 
 async function selectSourceFile(path) {
   if (!path) return;
-  citePanel.activeFilePath = path;
+  sourceTabState.activeFilePath = path;
   try { localStorage.setItem("vedanta-cite-panel-source-file", path); } catch (_) {}
-  citeSourceTree.querySelectorAll(".cst-leaf").forEach((el) => {
+  dpSourceTree.querySelectorAll(".cst-leaf").forEach((el) => {
     el.classList.toggle("is-active", el.dataset.path === path);
   });
-  const meta = (citePanel.manifest && citePanel.manifest.files || []).find((f) => f.path === path) || {};
-  citeSourceViewer.innerHTML = `
+  const meta = (sourceTabState.manifest && sourceTabState.manifest.files || []).find((f) => f.path === path) || {};
+  dpSourceViewer.innerHTML = `
     <div class="csv-head">
       <p class="csv-title">${escape(meta.title || path.split("/").pop())}</p>
       <div class="csv-meta">
@@ -1821,27 +1863,27 @@ async function selectSourceFile(path) {
     </div>
     <p class="csv-loading">Loading…</p>
   `;
-  let text = citePanel.fileCache.get(path);
+  let text = sourceTabState.fileCache.get(path);
   if (text == null) {
     try {
-      const r = await fetch(`materials/primary_texts/${path}`);
-      text = r.ok ? await r.text() : "[failed to load]";
+      const r = await fetch(SOURCE_FETCH_BASE + path);
+      text = r.ok ? await r.text() : "[failed to load — file not present in site/data/sources/]";
     } catch (_) {
       text = "[failed to load]";
     }
-    citePanel.fileCache.set(path, text);
+    sourceTabState.fileCache.set(path, text);
   }
-  if (citePanel.activeFilePath !== path) return;
+  if (sourceTabState.activeFilePath !== path) return;
   const pre = document.createElement("pre");
   pre.className = "csv-body";
   pre.textContent = text;
-  const loading = citeSourceViewer.querySelector(".csv-loading");
+  const loading = dpSourceViewer.querySelector(".csv-loading");
   if (loading) loading.replaceWith(pre);
-  citeSourceViewer.scrollTop = 0;
+  dpSourceViewer.scrollTop = 0;
 }
 
 function guessSourceFileForCitation(thinkerId, workId) {
-  const m = citePanel.manifest;
+  const m = sourceTabState.manifest;
   if (!m || !Array.isArray(m.files)) return null;
   const tid = (thinkerId || "").toLowerCase();
   const wid = (workId || "").toLowerCase().replace(/-/g, "_");
@@ -1861,13 +1903,6 @@ function guessSourceFileForCitation(thinkerId, workId) {
   }
   return bestScore >= 3 ? best.path : null;
 }
-
-(function bootCitePanelState() {
-  try {
-    const tab = localStorage.getItem("vedanta-cite-panel-tab");
-    if (tab === "source" || tab === "citation") citePanel.tab = tab;
-  } catch (_) {}
-})();
 
 // ---------- markdown helpers -----------
 function escape(s) {
@@ -2114,11 +2149,6 @@ const articlesBtn = document.getElementById("articlesBtn");
 const articlesModal = document.getElementById("articlesModal");
 const closeArticles = document.getElementById("closeArticles");
 const articlesList = document.getElementById("articlesList");
-const articleReader = document.getElementById("articleReader");
-const articleReaderTitle = document.getElementById("articleReaderTitle");
-const articleReaderContent = document.getElementById("articleReaderContent");
-const closeArticleReader = document.getElementById("closeArticleReader");
-const backToArticles = document.getElementById("backToArticles");
 
 let articlesManifest = null;
 
@@ -2198,40 +2228,40 @@ articlesModal.addEventListener("click", (e) => {
 });
 
 async function openArticle(a) {
+  // Articles render in the unified panel's Article tab. The articles
+  // chooser modal closes on selection (the user picked one already).
   articlesModal.classList.remove("is-open");
-  articleReader.classList.add("is-open");
-  articleReader.setAttribute("aria-hidden", "false");
-  // Add a PERSPECTIVE pill into the title for explicit kind-flagging.
-  if (a.kind === "perspective") {
-    articleReaderTitle.innerHTML = `<span class="perspective-pill perspective-pill--inline">PERSPECTIVE</span> ${escape(a.title)}`;
-  } else {
-    articleReaderTitle.textContent = a.title;
+  articlesModal.setAttribute("aria-hidden", "true");
+  showTab("article");
+  if (dpArticleHead) {
+    const pill = a.kind === "perspective"
+      ? '<span class="perspective-pill perspective-pill--inline">PERSPECTIVE</span> '
+      : "";
+    const eyebrowKind = a.kind === "perspective" ? "Perspective" : (a.kind || "Article");
+    dpArticleHead.innerHTML = `
+      <p class="dp-eyebrow">${escape(eyebrowKind.charAt(0).toUpperCase() + eyebrowKind.slice(1))}</p>
+      <p class="dp-title">${pill}${escape(a.title)}</p>
+      ${a.subtitle ? `<p class="dp-attrib">${md(a.subtitle)}</p>` : ""}
+    `;
   }
-  articleReaderContent.innerHTML = "<article><p>Loading…</p></article>";
-  // Resolve source path: prefer manifest's source_doc when given, else default convention.
+  if (dpArticleBody) dpArticleBody.innerHTML = "<article><p style=\"color:var(--muted);font-style:italic\">Loading…</p></article>";
+  openPanel("article");
+
   const path = a.source_doc || (a.kind === "perspective"
     ? `data/perspectives/source/${a.slug}.md`
     : `data/articles/source/${a.slug}.md`);
   const r = await fetch(path);
   if (!r.ok) {
-    articleReaderContent.innerHTML = `<article><h1>${escape(a.title)}</h1><p>Article body not yet uploaded.</p></article>`;
+    if (dpArticleBody) dpArticleBody.innerHTML = `<article><h1>${escape(a.title)}</h1><p>Article body not yet uploaded.</p></article>`;
     return;
   }
   const text = await r.text();
-  articleReaderContent.innerHTML = `<article>${renderMarkdownFull(text)}</article>`;
-  articleReaderContent.scrollTop = 0;
+  if (dpArticleBody) {
+    dpArticleBody.innerHTML = `<article>${renderMarkdownFull(text)}</article>`;
+    dpArticleBody.scrollTop = 0;
+  }
+  panelState.loaded.article = true;
 }
-
-closeArticleReader.addEventListener("click", () => {
-  articleReader.classList.remove("is-open");
-  articleReader.setAttribute("aria-hidden", "true");
-});
-backToArticles.addEventListener("click", () => {
-  articleReader.classList.remove("is-open");
-  articleReader.setAttribute("aria-hidden", "true");
-  articlesModal.classList.add("is-open");
-  articlesModal.setAttribute("aria-hidden", "false");
-});
 
 // Markdown renderer for the article reader. Beyond standard inline markdown +
 // GFM tables + fenced code, this renderer:
@@ -2342,24 +2372,16 @@ function renderMarkdownFull(src) {
 // ---------- keyboard nav -----------
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") {
-    if (articleReader.classList.contains("is-open")) {
-      articleReader.classList.remove("is-open");
-      articleReader.setAttribute("aria-hidden", "true");
-    } else if (articlesModal.classList.contains("is-open")) {
+    if (articlesModal.classList.contains("is-open")) {
       articlesModal.classList.remove("is-open");
       articlesModal.setAttribute("aria-hidden", "true");
     } else if (aboutModal.classList.contains("is-open")) {
       aboutModal.classList.remove("is-open");
       aboutModal.setAttribute("aria-hidden", "true");
-    } else if (readerModal.classList.contains("is-open")) {
-      readerModal.classList.remove("is-open");
-      readerModal.setAttribute("aria-hidden", "true");
-    } else if (citePanel.open) {
-      closeCitePanel();
     } else if (document.body.classList.contains("is-reading-mode")) {
       setReadingMode(false);
-    } else {
-      closeDetailPane();
+    } else if (panelState.open) {
+      closePanel();
     }
     return;
   }

@@ -2,7 +2,12 @@
   "id": "pancaratra-tradition",
   "name": "Pancaratra (position-entry)",
   "name_iast": "Pāñcarātra",
-  "alternate_names": ["Bhāgavata", "Sātvata", "Vaiṣṇava-Tantra", "Pāñcarātra-Āgama"],
+  "alternate_names": [
+    "Bhāgavata",
+    "Sātvata",
+    "Vaiṣṇava-Tantra",
+    "Pāñcarātra-Āgama"
+  ],
   "dates_low": 200,
   "dates_high": 1300,
   "dates_tier": "oral-tradition-only",
@@ -12,7 +17,11 @@
   "sub_school": "Pāñcarātra-Tantric",
   "sub_school_shade": 3,
   "lineage_in": [],
-  "lineage_out": ["yamuna", "ramanuja", "vedanta-desika"],
+  "lineage_out": [
+    "yamuna",
+    "ramanuja",
+    "vedanta-desika"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "badarayana",
@@ -46,14 +55,19 @@
       "work_id": "satvata-samhita",
       "title": "Satvata-Samhita",
       "title_iast": "Sātvata-Saṃhitā",
-      "alternate_titles": ["Sātvata-Tantra"],
+      "alternate_titles": [
+        "Sātvata-Tantra"
+      ],
       "composition_dates_low": 200,
       "composition_dates_high": 800,
       "composition_dates_notes": "Among the earliest surviving Pāñcarātra Saṃhitās; cited in the Mahābhārata's Nārāyaṇīya (Śānti-Parvan 339–351) and quoted by Yāmuna and Rāmānuja.",
       "ascription_tier": "traditionally-ascribed",
       "ascription_notes": "Anonymous; ascribed by tradition to Sātvata revelation transmitted through the sage lineages.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Schrader (Introduction to the Pāñcarātra and the Ahirbudhnya Saṃhitā, 1916); Smith (A Descriptive Bibliography of the Printed Texts of the Pāñcarātrāgama)."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Schrader (Introduction to the Pāñcarātra and the Ahirbudhnya Saṃhitā, 1916); Smith (A Descriptive Bibliography of the Printed Texts of the Pāñcarātrāgama)."
+        }
       ],
       "genre": "rahasya",
       "language": "sanskrit",
@@ -72,7 +86,10 @@
       "ascription_tier": "traditionally-ascribed",
       "ascription_notes": "Anonymous; ascribed by tradition.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Schrader (1916); Smith."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Schrader (1916); Smith."
+        }
       ],
       "genre": "rahasya",
       "language": "sanskrit",
@@ -89,16 +106,19 @@
       "composition_dates_high": 800,
       "composition_dates_notes": "The principal early-medieval systematising Saṃhitā; Schrader argues for a fifth–sixth-century date on the basis of the developed Tantric apparatus.",
       "ascription_tier": "traditionally-ascribed",
-      "ascription_notes": "Anonymous; ascribed by tradition.",
+      "ascription_notes": "Anonymous; ascribed by tradition. Wave-10: Krishnamacharya 1931 (GOS 54, Baroda) PDF acquired; awaiting OCR.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Schrader (1916, with critical edition by E. Krishnamacharya 1931, GOS); Rastelli (Materialien zur Erforschung des Pāñcarātra)."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Schrader (1916, with critical edition by E. Krishnamacharya 1931, GOS); Rastelli (Materialien zur Erforschung des Pāñcarātra)."
+        }
       ],
       "genre": "rahasya",
       "language": "sanskrit",
       "summary": "Thirty-three *paṭalas* covering the entire Pāñcarātra system: the cosmology, the *vyūha* doctrine, the Tantric *yoga* and *japa* disciplines, the consecration rituals, and the soteriology. The Jayākhya is the most systematically Tantric of the principal Saṃhitās and the closest in form to the contemporary Śaiva Tantric Saṃhitās; it develops the *kuṇḍalinī* and *cakra* maps in a Vaiṣṇava key, articulates the *śuddha-sattva* doctrine in extended form, and lays out the Tantric *dīkṣā* ritual structure. Modern scholarship treats it as the principal source for understanding the Tantric character of Pāñcarātra theology.",
       "key_passage_ids": [],
       "entry_status": "reviewed",
-      "source_status": "primary-text-not-in-corpus"
+      "source_status": "degraded-on-disk"
     },
     {
       "work_id": "ahirbudhnya-samhita",
@@ -108,16 +128,19 @@
       "composition_dates_high": 1100,
       "composition_dates_notes": "A later systematising Saṃhitā, post-Yāmuna in the standard chronology.",
       "ascription_tier": "traditionally-ascribed",
-      "ascription_notes": "Anonymous; ascribed by tradition to revelation through Ahirbudhnya (a form of Śiva associated with Vaiṣṇava revelation).",
+      "ascription_notes": "Anonymous; ascribed by tradition to revelation through Ahirbudhnya (a form of Śiva associated with Vaiṣṇava revelation). Wave-10: Rāmānujācārya/Krishnamacharya Adyar text-PDF acquired; awaiting OCR.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Schrader (1916, the standard introduction)."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Schrader (1916, the standard introduction)."
+        }
       ],
       "genre": "rahasya",
       "language": "sanskrit",
       "summary": "Sixty *adhyāyas* on Pāñcarātra cosmology, ritual, and theology. The Ahirbudhnya is distinctive for its developed cosmological speculation: the analysis of Lakṣmī as the supreme *śakti* of Nārāyaṇa, the doctrine of the cosmic *vyūha*-cycle, the reconstruction of the *vibhava*-descents in their traditional sequence. The work is a principal source for the Śrīvaiṣṇava theology of *Lakṣmī* as inseparable from Nārāyaṇa, and Schrader's 1916 introduction (Adyar Library Series) makes it the most accessible Pāñcarātra Saṃhitā for modern study.",
       "key_passage_ids": [],
       "entry_status": "reviewed",
-      "source_status": "primary-text-not-in-corpus"
+      "source_status": "degraded-on-disk"
     },
     {
       "work_id": "lakshmi-tantra",
@@ -127,16 +150,19 @@
       "composition_dates_high": 1200,
       "composition_dates_notes": "A later Pāñcarātra Saṃhitā, post-Yāmuna; principal source for Śrīvaiṣṇava Lakṣmī-theology.",
       "ascription_tier": "traditionally-ascribed",
-      "ascription_notes": "Anonymous; ascribed by tradition to revelation by Lakṣmī herself.",
+      "ascription_notes": "Anonymous; ascribed by tradition to revelation by Lakṣmī herself. Wave-10: Krishnamacharya 1959 (Adyar Library Series 87) PDF acquired; awaiting OCR. Sanjukta Gupta English translation also acquired separately as auxiliary.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Gupta (1972, critical edition with translation)."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Gupta (1972, critical edition with translation)."
+        }
       ],
       "genre": "rahasya",
       "language": "sanskrit",
       "summary": "Fifty-seven *adhyāyas* in dialogue between Lakṣmī and Indra. The work is the principal Pāñcarātra exposition of Śrī-Lakṣmī as the supreme *śakti* of Nārāyaṇa — inseparable, beginningless, the *upādāna*-substrate (in one reading) of the manifest world, the *kāraṇa* (in another reading) of grace and *prapatti*. The text develops the *pañcāyudha* (the five Vaiṣṇava weapons) as ontologically constitutive of Vaiṣṇava cosmology, the *mantra-uddhāra* in expanded form, and the soteriology of *prapatti* with Lakṣmī as the *puruṣa-kāra* (intercessor). The work is foundational for Śrīvaiṣṇava Lakṣmī-theology and is engaged by Vedānta-Deśika in the Pāñcarātra-Rakṣā as the principal Saṃhitā-authority for the doctrine of Lakṣmī's inseparability from Nārāyaṇa. Vedānta-Deśika's *Pāñcarātra-Rakṣā* is on disk in our corpus (clean Sanskrit) and constitutes our principal indirect access to the Saṃhitā tradition's positions.",
       "key_passage_ids": [],
       "entry_status": "reviewed",
-      "source_status": "primary-text-not-in-corpus"
+      "source_status": "degraded-on-disk"
     }
   ],
   "key_passages": [],

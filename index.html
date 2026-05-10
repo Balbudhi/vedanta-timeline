@@ -47,15 +47,6 @@
     </div>
   </div>
 
-  <div class="article-reader" id="articleReader" aria-hidden="true">
-    <div class="article-reader-bar">
-      <button class="back-to-articles" id="backToArticles" aria-label="Back to articles list">← Articles</button>
-      <span class="article-reader-title" id="articleReaderTitle"></span>
-      <button class="close-btn" id="closeArticleReader" aria-label="Close">×</button>
-    </div>
-    <div class="article-reader-content" id="articleReaderContent"></div>
-  </div>
-
   <div class="filter-drawer" id="filterDrawer" aria-hidden="true">
     <div class="filter-drawer-inner">
       <p class="filter-head">Show schools</p>
@@ -91,43 +82,49 @@
       </div>
     </section>
 
-    <aside class="detail-pane" id="detailPane" aria-hidden="true">
-      <button class="close-btn" id="closeDetail" aria-label="Close">×</button>
-      <article id="detailContent"></article>
+    <aside class="detail-pane" id="detailPane" aria-hidden="true" aria-label="Right-side panel">
+      <div class="dp-tabbar" role="tablist" aria-label="Panel section">
+        <button class="dp-tab is-active" data-pane="thinker" role="tab" aria-selected="true" type="button">Thinker</button>
+        <button class="dp-tab" data-pane="translation" role="tab" aria-selected="false" type="button" hidden>Translation</button>
+        <button class="dp-tab" data-pane="article" role="tab" aria-selected="false" type="button" hidden>Article</button>
+        <button class="dp-tab" data-pane="citation" role="tab" aria-selected="false" type="button" hidden>Citation</button>
+        <button class="dp-tab" data-pane="source" role="tab" aria-selected="false" type="button">Source</button>
+        <span class="dp-tab-spacer"></span>
+        <button class="close-btn dp-close" id="closeDetail" aria-label="Close panel" type="button">×</button>
+      </div>
+      <div class="dp-panes">
+        <section class="dp-pane is-active" id="dpPaneThinker" role="tabpanel" aria-hidden="false">
+          <article id="detailContent"></article>
+        </section>
+        <section class="dp-pane" id="dpPaneTranslation" role="tabpanel" aria-hidden="true" hidden>
+          <div class="dp-pane-head" id="dpTranslationHead"></div>
+          <div class="dp-pane-body dp-translation-body" id="dpTranslationBody">
+            <p class="dp-empty">Click <em>Read full translation</em> on a work card to load it here.</p>
+          </div>
+        </section>
+        <section class="dp-pane" id="dpPaneArticle" role="tabpanel" aria-hidden="true" hidden>
+          <div class="dp-pane-head" id="dpArticleHead"></div>
+          <div class="dp-pane-body dp-article-body" id="dpArticleBody">
+            <p class="dp-empty">Pick an article from the Articles list to read it here.</p>
+          </div>
+        </section>
+        <section class="dp-pane" id="dpPaneCitation" role="tabpanel" aria-hidden="true" hidden>
+          <div class="dp-pane-body dp-citation-body" id="dpCitationBody">
+            <p class="dp-empty">Click any underlined citation in a thinker entry or article to open it here, in context.</p>
+          </div>
+        </section>
+        <section class="dp-pane" id="dpPaneSource" role="tabpanel" aria-hidden="true" hidden>
+          <div class="dp-source-search">
+            <input id="dpSourceSearch" type="search" placeholder="Filter texts…" autocomplete="off" spellcheck="false" />
+          </div>
+          <div class="dp-source-tree" id="dpSourceTree"></div>
+          <div class="dp-source-viewer" id="dpSourceViewer">
+            <p class="dp-empty">Select a text to read.</p>
+          </div>
+        </section>
+      </div>
     </aside>
   </main>
-
-  <div class="reader-modal" id="readerModal" aria-hidden="true">
-    <button class="close-btn" id="closeReader" aria-label="Close reader">×</button>
-    <div class="reader-content" id="readerContent"></div>
-  </div>
-
-  <aside class="citation-panel" id="citationPanel" aria-hidden="true" aria-label="Primary-source panel">
-    <div class="cite-panel-bar">
-      <div class="cite-tab-bar" role="tablist">
-        <button class="cite-tab" id="citeTabSource" data-tab="source" role="tab" aria-selected="false" type="button">Source</button>
-        <button class="cite-tab is-active" id="citeTabCitation" data-tab="citation" role="tab" aria-selected="true" type="button">Citation</button>
-      </div>
-      <button class="cite-panel-close" id="citePanelClose" aria-label="Close panel" type="button">×</button>
-    </div>
-    <div class="cite-panel-body">
-      <section class="cite-tab-pane" id="citePaneSource" role="tabpanel" aria-hidden="true" hidden>
-        <div class="cite-source-search">
-          <input id="citeSourceSearch" type="search" placeholder="Filter texts…" autocomplete="off" spellcheck="false" />
-        </div>
-        <div class="cite-source-tree" id="citeSourceTree"></div>
-        <div class="cite-source-viewer" id="citeSourceViewer">
-          <p class="cite-source-empty">Select a text to read.</p>
-        </div>
-      </section>
-      <section class="cite-tab-pane is-active" id="citePaneCitation" role="tabpanel" aria-hidden="false">
-        <div class="cite-citation-empty" id="citeCitationEmpty">
-          <p>Click any underlined citation in a thinker entry or article to open it here, in context.</p>
-        </div>
-        <div class="cite-citation-body" id="citeCitationBody" hidden></div>
-      </section>
-    </div>
-  </aside>
 
   <script type="module" src="assets/app.js"></script>
 </body>

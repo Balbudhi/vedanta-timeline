@@ -2,7 +2,11 @@
   "id": "maitreya-attributed",
   "name": "Maitreya-attributed corpus",
   "name_iast": "Maitreya-attributed corpus",
-  "alternate_names": ["Maitreyanātha", "Byams-pa (Tibetan)", "the Five Treatises of Maitreya"],
+  "alternate_names": [
+    "Maitreyanātha",
+    "Byams-pa (Tibetan)",
+    "the Five Treatises of Maitreya"
+  ],
   "dates_low": 270,
   "dates_high": 380,
   "dates_tier": "contested",
@@ -12,7 +16,9 @@
   "sub_school": "Tathāgatagarbha-foundational",
   "sub_school_shade": 3,
   "lineage_in": [],
-  "lineage_out": ["asanga"],
+  "lineage_out": [
+    "asanga"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "vedanta-desika",
@@ -36,15 +42,22 @@
       "work_id": "ratna-gotra-vibhaga",
       "title": "Ratna-Gotra-Vibhaga",
       "title_iast": "Ratna-Gotra-Vibhāga",
-      "alternate_titles": ["Uttara-Tantra-Śāstra", "Mahāyāna-Uttara-Tantra-Śāstra", "RGV"],
+      "alternate_titles": [
+        "Uttara-Tantra-Śāstra",
+        "Mahāyāna-Uttara-Tantra-Śāstra",
+        "RGV"
+      ],
       "ascription_tier": "traditionally-ascribed",
-      "ascription_notes": "Traditionally ascribed to Maitreya in the Tibetan transmission (with Asaṅga as channel); the prose commentary (vyākhyā) is generally ascribed to Asaṅga or to one of his immediate circle. Sanskrit text recovered in 1934 by Rāhula Sāṃkṛtyāyana from Tibet, edited by E. H. Johnston 1950.",
+      "ascription_notes": "Traditionally ascribed to Maitreya in the Tibetan transmission (with Asaṅga as channel); the prose commentary (vyākhyā) is generally ascribed to Asaṅga or to one of his immediate circle. Sanskrit text recovered in 1934 by Rāhula Sāṃkṛtyāyana from Tibet, edited by E. H. Johnston 1950. Wave-10: Clean GRETIL plain-text (Johnston 1950 transcription, sa_ratnagotravibhAga.txt) acquired; no OCR needed.",
       "ascription_evidence": [
-        {"kind": "scholarly-dispute", "description": "Takasaki 1966, A Study on the Ratnagotravibhāga; Mathes 2008, A Direct Path to the Buddha Within; Ruegg 1969, La théorie du tathāgatagarbha et du gotra."}
+        {
+          "kind": "scholarly-dispute",
+          "description": "Takasaki 1966, A Study on the Ratnagotravibhāga; Mathes 2008, A Direct Path to the Buddha Within; Ruegg 1969, La théorie du tathāgatagarbha et du gotra."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
-      "source_status": "primary-text-not-in-corpus",
+      "source_status": "acceptable-on-disk",
       "summary": "The foundational Tathāgatagarbha treatise, structured in five chapters (the seven vajra-padas) treating the Buddha, the Dharma, the Saṅgha, the dhātu (synonymous with tathāgatagarbha), bodhi, the Buddha-qualities, and the Buddha-activities. Chapter 1 articulates the central thesis that all sentient beings possess tathāgatagarbha (verses I.27–28 are the locus classicus: 'The Buddha-body is universally present, the suchness is undifferentiated, all beings possess the gotra — therefore all beings always have the Buddha-essence'). The treatment carefully distinguishes tathāgatagarbha from the ātman of the heretical schools (verses I.36–41): the garbha is not a substance but the natural luminosity of citta, obscured by adventitious defilements (āgantuka-kleśa) that are not intrinsic to its nature. The famous nine similes (RGV I.96–125) — the Buddha within a withered lotus, the honey within a swarm, the kernel within a husk, the gold within filth, etc. — supply the imaginative articulation of the obscured-but-present structure. The treatise is the principal foundational text for the entire Tathāgatagarbha tradition, transmitted into East Asia (the Awakening of Faith builds on it) and into Tibet (the gzhan-stong / rang-stong debate is in significant part about how to read it).",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -53,11 +66,17 @@
       "work_id": "mahayana-sutra-alamkara",
       "title": "Mahayana-Sutra-Alamkara",
       "title_iast": "Mahāyāna-Sūtra-Alaṃkāra",
-      "alternate_titles": ["MSA", "Sūtra-Alaṃkāra"],
+      "alternate_titles": [
+        "MSA",
+        "Sūtra-Alaṃkāra"
+      ],
       "ascription_tier": "traditionally-ascribed",
       "ascription_notes": "Traditionally ascribed to Maitreya; the prose commentary (bhāṣya) is by Vasubandhu. Sanskrit text edited by Sylvain Lévi 1907 (with French translation 1911).",
       "ascription_evidence": [
-        {"kind": "scholarly-dispute", "description": "Lévi 1907; Mathes 2008; Frauwallner Geschichte II; Schmithausen 1969."}
+        {
+          "kind": "scholarly-dispute",
+          "description": "Lévi 1907; Mathes 2008; Frauwallner Geschichte II; Schmithausen 1969."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -70,11 +89,17 @@
       "work_id": "madhyanta-vibhaga",
       "title": "Madhyanta-Vibhaga",
       "title_iast": "Madhyānta-Vibhāga",
-      "alternate_titles": ["MAV", "Madhyānta-Vibhāga-Kārikā"],
+      "alternate_titles": [
+        "MAV",
+        "Madhyānta-Vibhāga-Kārikā"
+      ],
       "ascription_tier": "traditionally-ascribed",
       "ascription_notes": "Traditionally ascribed to Maitreya; the bhāṣya is by Vasubandhu and the ṭīkā by Sthiramati. Sanskrit text edited by Pandeya 1971; Nagao 1964.",
       "ascription_evidence": [
-        {"kind": "scholarly-dispute", "description": "Nagao 1964; Stcherbatsky 1936."}
+        {
+          "kind": "scholarly-dispute",
+          "description": "Nagao 1964; Stcherbatsky 1936."
+        }
       ],
       "genre": "verse-summary",
       "language": "sanskrit",
@@ -87,11 +112,16 @@
       "work_id": "dharma-dharmata-vibhaga",
       "title": "Dharma-Dharmata-Vibhaga",
       "title_iast": "Dharma-Dharmatā-Vibhāga",
-      "alternate_titles": ["DDV"],
+      "alternate_titles": [
+        "DDV"
+      ],
       "ascription_tier": "traditionally-ascribed",
       "ascription_notes": "Traditionally ascribed to Maitreya. Recovered by Sāṃkṛtyāyana from Tibet; Sanskrit fragments edited by Lévi; complete text preserved in Tibetan translation. Standard study Mathes 1996.",
       "ascription_evidence": [
-        {"kind": "scholarly-dispute", "description": "Mathes 1996, Unterscheidung der Gegebenheiten von ihrem wahren Wesen."}
+        {
+          "kind": "scholarly-dispute",
+          "description": "Mathes 1996, Unterscheidung der Gegebenheiten von ihrem wahren Wesen."
+        }
       ],
       "genre": "verse-summary",
       "language": "sanskrit",
@@ -104,11 +134,17 @@
       "work_id": "abhisamayalamkara",
       "title": "Abhisamayalamkara",
       "title_iast": "Abhisamayālaṃkāra",
-      "alternate_titles": ["AA", "Ornament of Clear Realisation"],
+      "alternate_titles": [
+        "AA",
+        "Ornament of Clear Realisation"
+      ],
       "ascription_tier": "traditionally-ascribed",
       "ascription_notes": "Traditionally ascribed to Maitreya. The standard Sanskrit edition is Stcherbatsky and Obermiller 1929. The work is the principal Tibetan curriculum-text for Prajñāpāramitā studies.",
       "ascription_evidence": [
-        {"kind": "scholarly-dispute", "description": "Conze 1954, Abhisamayālaṅkāra; Sparham 2006–2012, four-volume translation."}
+        {
+          "kind": "scholarly-dispute",
+          "description": "Conze 1954, Abhisamayālaṅkāra; Sparham 2006–2012, four-volume translation."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
