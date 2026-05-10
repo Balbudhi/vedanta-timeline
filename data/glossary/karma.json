@@ -1,0 +1,32 @@
+{
+  "term_key": "karma",
+  "term_iast": "karma",
+  "term_devanagari": "कर्म",
+  "literal": "action, deed, work; from √kṛ 'to do, to make'",
+  "aliases": ["karma", "Karma", "karman", "karmaṇaḥ", "karmaṇi", "karmaṇā", "karmas", "karmān"],
+  "invariant_definition": "Action — both the act itself and its causal consequence. In Vedānta technical usage *karma* names (a) ritual action enjoined by the *karma-kāṇḍa* of the Veda (Mīmāṃsā's domain); (b) the lawful causal residue of past action (*karmāśaya*) that determines the trajectory of *saṃsāra*; (c) action in general as opposed to *jñāna*. All schools agree that *karma* of type (b) binds the *jīva* to *saṃsāra*, that it has three classical divisions (*sañcita* — accumulated; *prārabdha* — fructifying; *āgāmī* — currently produced), and that its dissolution is necessary for *mokṣa*. Schools diverge on the relation of *karma* to *jñāna*-or-*bhakti* in the path to liberation: Advaita's *jñāna-karma-samuccaya-nirāsa* (rejection of conjoined-path), Viśiṣṭādvaita and Bhāskara's defense of *samuccaya*, Dvaita's view of *karma* as continuously needed for divine pleasing.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Karma* and *jñāna* are mutually exclusive paths (*jñāna-karma-samuccaya-nirāsa*). *Karma* presupposes the agent–object division (*kartṛtva-bhoktṛtva*) that *jñāna* dissolves; therefore *karma* cannot be co-instrumental in liberating cognition. *Karma* is preparatory: it produces *citta-śuddhi* (purification of the *antaḥkaraṇa*) which makes one fit for *jñāna*-pursuit. The *karma-yoga* of the Gītā is read as *cittasuddhi-upāya*, not as a parallel path to *mokṣa*.",
+      "primary_loci": ["Bhagavad-Gītā-Bhāṣya, upodghāta", "Bhagavad-Gītā-Bhāṣya 3.1, 3.3, 18.66", "Brahma-Sūtra-Bhāṣya 3.4.26–27", "Naiṣkarmya-Siddhi 1"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Karma* and *jñāna* are not mutually exclusive but are conjoined under *bhakti* in the integrated path. *Karma* performed as *Bhagavat-ārādhana* (worship of the Lord) without attachment to fruits is itself an aspect of *bhakti-yoga* and continues even for the realized. *Niṣkāma-karma* + *jñāna* + *upāsana* = *bhakti* in the mature sense.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§137–143", "Śrī-Bhāṣya 3.4.26–27 (against Advaita samuccaya-nirāsa)", "Gītā-Bhāṣya (Rāmānuja) 3.3, 18.66"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Karma* offered to Viṣṇu as *parama-prabhu* is permanent — even for the liberated soul, who eternally serves Viṣṇu in Vaikuṇṭha through devotional *karma*. *Karma* is not merely preparatory but is the lifelong and after-life mode of the *jīva*'s relation to its master. *Karma* divorced from *bhakti-jñāna* binds; *karma* offered to Viṣṇu purifies.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 3.4.1ff", "Anu-Vyākhyāna 3.4", "Gītā-Tātparya 3.3"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Karma-kāṇḍa* and *jñāna-kāṇḍa* are both subordinated to *bhakti*. Once *prema-bhakti* arises, *karma* in the ritual sense is no longer obligatory; what remains is *bhakti-mayī kriyā* (action saturated by devotion). *Karma* in the metaphysical sense (the residue-mechanism) is dissolved by *bhakti*, not by *jñāna*.",
+      "primary_loci": ["Bhakti-Sandarbha §§213–224", "Bhakti-Rasāmṛta-Sindhu 1.1.11"]
+    }
+  ],
+  "see_also": ["jnana", "dharma", "samsara", "samuccaya", "niskama-karma", "prarabdha", "sancita", "agami", "karma-kanda"],
+  "translator_note": "Translating *karma* as 'work' or as 'the law of cause and effect' both miss. 'Work' loses the technical force; 'cause and effect' makes it sound like a physical law rather than a normative-metaphysical doctrine about how the *jīva*'s actions shape its future embodiments. *Karma* is best left untranslated. The pop-cultural English 'karma' (= 'what goes around comes around') is a distant degradation of a precise technical term."
+}

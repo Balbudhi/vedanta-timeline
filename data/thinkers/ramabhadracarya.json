@@ -1,0 +1,136 @@
+{
+  "id": "ramabhadracarya",
+  "name": "Jagadguru Ramabhadracharya",
+  "name_iast": "Jagadguru Rāmabhadrācārya",
+  "name_devanagari": "जगद्गुरु रामभद्राचार्य",
+  "alternate_names": ["Giridhar Mishra (birth name)", "Giridhara Miśra", "Jagadguru Rāmānandācārya"],
+  "dates_low": 1950,
+  "dates_high": 2026,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Living jagadguru; born 14 January 1950 in Shandikhurd, Jaunpur district, Uttar Pradesh; blind from age two months and never used Braille (composes by dictation); appointed Jagadguru Rāmānandācārya 1988, ritually anointed 1 August 1995; head of Tulsī Pīṭha, Citrakūṭa. dates_high field set to 2026 by current-year convention; thinker is living.",
+  "dates_evidence": [
+    {
+      "kind": "court-record",
+      "description": "Government of India Padma awards records: Padma Vibhūṣaṇa (2015), Padma Bhūṣaṇa (earlier)."
+    },
+    {
+      "kind": "manuscript-colophon",
+      "description": "Tulsī Pīṭha publication colophons; release ceremony of Śrīrāghavakṛpā-Bhāṣyam by Prime Minister A. B. Vajpayee, 10 April 1998."
+    },
+    {
+      "kind": "sectarian-chronicle",
+      "description": "Rāmānanda Sampradāya jagadguru-anointment records, Tulsī Pīṭha Sevā Nyāsa, 1 August 1995."
+    }
+  ],
+  "school": "Viśiṣṭādvaita",
+  "school_color_token": "vishishtadvaita",
+  "sub_school": "Rāmānanda Sampradāya / Rāma-Viśiṣṭādvaita",
+  "sub_school_shade": 4,
+  "lineage_in": ["ramanuja"],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Rāmabhadrācārya, jagadguru of the Rāmānanda Sampradāya, gives Viśiṣṭādvaita a Rāma-centric formulation. The *parabrahman* of the Upaniṣads is *Sītā-Rāma*; the *śarīra-śarīri-bhāva* of Rāmānuja is preserved with Rāma as *śarīrin* and *cit* and *acit* as his real body. His *Śrīrāghavakṛpā-Bhāṣyam* (released 1998) is the first Sanskrit commentary on the entire *prasthāna-trayī* in roughly five centuries and the second in the Rāmānanda Sampradāya after Rāmānanda's own *Ānanda-Bhāṣya*. Methodologically he insists that Rāma is the supreme reality (*pratipādya*) of every Upaniṣad and every *sūtra* of Bādarāyaṇa, reading the *mahā-vākyas* through the body-soul template Rāmānuja established. His engagement with the school's formal architecture is therefore continuous with Vaḍakalai Viśiṣṭādvaita on the metaphysics of *apṛthak-siddhi*; the distinctive move is the Rāma-iṣṭadevatā exegesis. Blind from infancy and never having used Braille, he composes by dictation. His oeuvre — 240+ books in Sanskrit, Hindi, and other languages — includes a verse-commentary on Pāṇini's *Aṣṭādhyāyī*, four Sanskrit *mahā-kāvyas*, and Hindi commentaries on Tulsīdās.",
+  "engaged_works": [
+    {
+      "work_id": "shri-raghava-kripa-bhashyam-brahma-sutra",
+      "title": "Shri-Raghava-Kripa-Bhashyam on Brahma-Sutra",
+      "title_iast": "Śrīrāghavakṛpā-Bhāṣyam on Brahma-Sūtra",
+      "alternate_titles": [],
+      "composition_dates_low": 1990,
+      "composition_dates_high": 1998,
+      "composition_dates_notes": "Composed across the 1990s; released as part of the prasthāna-trayī set on 10 April 1998 by Prime Minister A. B. Vajpayee.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Sanskrit commentary; Rāmānanda Sampradāya school commentary on the Brahma-Sūtra.",
+      "ascription_evidence": [
+        {"kind": "manuscript-colophon", "description": "Tulsī Pīṭha publication colophon, 1998 first edition."}
+      ],
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "summary": "A Sanskrit *bhāṣya* on Bādarāyaṇa's *Brahma-Sūtra*, organised by the four *adhyāyas* and their *pādas* in the standard manner. The interpretive principle is fixed at the outset: every *sūtra* whose *pratipādya* is the supreme Brahman is read as referring to Sītā-Rāma, the *parabrahman* of the Rāmānanda Sampradāya. The body-soul (*śarīra-śarīrin*) template of Rāmānuja's *Śrī-Bhāṣya* is preserved without revision; Rāma is the *śarīrin*, *cit* and *acit* are his real *śarīra* in *apṛthak-siddha* relation. The *samanvaya-adhyāya* (1) is read as fixing this Rāma-centric *tātparya* across Upaniṣadic loci; the *avirodha-adhyāya* (2) defends the position against rival *darśana*-s; the *sādhanādhyāya* (3) and *phalādhyāya* (4) treat the path and the goal in the Vaiṣṇava devotional register. The work is described in the school as the second Sanskrit *bhāṣya* on the *Brahma-Sūtra* in the Rāmānanda lineage after Rāmānanda's own *Ānanda-Bhāṣya*, and the first comprehensive *prasthāna-trayī* commentary in Sanskrit in roughly five centuries.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "shri-raghava-kripa-bhashyam-gita",
+      "title": "Shri-Raghava-Kripa-Bhashyam on Bhagavad-Gita",
+      "title_iast": "Śrīrāghavakṛpā-Bhāṣyam on Bhagavad-Gītā",
+      "alternate_titles": [],
+      "composition_dates_low": 1990,
+      "composition_dates_high": 1998,
+      "composition_dates_notes": "Composed across the 1990s; released as part of the prasthāna-trayī set on 10 April 1998.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Sanskrit commentary.",
+      "ascription_evidence": [
+        {"kind": "manuscript-colophon", "description": "Tulsī Pīṭha publication colophon, 1998 first edition."}
+      ],
+      "genre": "gita-bhashya",
+      "language": "sanskrit",
+      "summary": "A Sanskrit commentary on the *Bhagavad-Gītā* in the same exegetical mode as the *Brahma-Sūtra* commentary. The supreme person of chapters 10, 11, and 15 — *puruṣottama* — is identified with Rāma rather than with Kṛṣṇa-as-fount; the *avatāra*-doctrine of chapter 4 is read as making Rāma and Kṛṣṇa successive descents of one *parabrahman*. On the *karma*–*jñāna*–*bhakti* triad the commentary takes the standard Viśiṣṭādvaita position that *bhakti-yoga* is the integrative path, with *karma* and *jñāna* as its constituent *aṅga*-s rather than rivals. The chapter-18 surrender-verse (*sarva-dharmān parityajya*) is read as enjoining *prapatti*-grade total surrender to the supreme person, in continuity with Rāmānuja's *Gadya-traya*. The commentary is part of the 1998 *prasthāna-trayī* release and is treated within the Sampradāya as the school's modern Gītā-reference.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "shri-raghava-kripa-bhashyam-upanishads",
+      "title": "Shri-Raghava-Kripa-Bhashyam on Eleven Principal Upanishads",
+      "title_iast": "Śrīrāghavakṛpā-Bhāṣyam on Eleven Principal Upaniṣads",
+      "alternate_titles": [],
+      "composition_dates_low": 1990,
+      "composition_dates_high": 1998,
+      "composition_dates_notes": "Composed across the 1990s; released as part of the prasthāna-trayī set on 10 April 1998.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Sanskrit commentaries on the eleven principal Upaniṣads.",
+      "ascription_evidence": [
+        {"kind": "manuscript-colophon", "description": "Tulsī Pīṭha publication colophon, 1998 first edition."}
+      ],
+      "genre": "upanisad-bhashya",
+      "language": "sanskrit",
+      "summary": "Sanskrit *bhāṣyas* on the eleven principal Upaniṣads — Īśa, Kena, Kaṭha, Praśna, Muṇḍaka, Māṇḍūkya, Aitareya, Taittirīya, Chāndogya, Bṛhadāraṇyaka, and Śvetāśvatara — bundled here as a single work-entry. The interpretive method is the Rāma-centric Viśiṣṭādvaita exegesis applied uniformly across the corpus. The *mahā-vākyas* (*tat tvam asi*, *aham brahmāsmi*, *prajñānam brahma*) are read through Rāmānuja's *ghaṭaka-śruti*-mediated mode of identity-predication: identity is the identity of the *śarīrin* and the *śarīra*, not flat numerical identity. The Praśna and Muṇḍaka treatments emphasise the *parā* / *aparā vidyā* distinction and the *iṣṭāpūrta*-passage. The Māṇḍūkya is treated, against the Gauḍapāda-Śaṅkara reading, as compatible with the realist Viśiṣṭādvaita ontology. The Bṛhadāraṇyaka commentary, the longest of the set, contains the school's modern handling of the *antaryāmin-brāhmaṇa* — the locus on which the school's *śarīra-śarīrin* doctrine has always rested.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "shri-raghava-kripa-bhashyam-narada-bhakti-sutra",
+      "title": "Shri-Raghava-Kripa-Bhashyam on Narada-Bhakti-Sutra",
+      "title_iast": "Śrīrāghavakṛpā-Bhāṣyam on Nārada-Bhakti-Sūtra",
+      "alternate_titles": [],
+      "composition_dates_low": 1990,
+      "composition_dates_high": 1998,
+      "composition_dates_notes": "Released as part of the 1998 prasthāna-trayī set, with the Nārada-Bhakti-Sūtra commentary appended.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Sanskrit commentary on Nārada's Bhakti-Sūtra.",
+      "ascription_evidence": [
+        {"kind": "manuscript-colophon", "description": "Tulsī Pīṭha publication colophon, 1998 first edition."}
+      ],
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "summary": "A Sanskrit commentary on the eighty-four *sūtras* of the *Nārada-Bhakti-Sūtra*. The treatise establishes *bhakti* as *parā* — supreme love — and as both the *upāya* and the *upeya* on the school's reading. Rāmabhadrācārya systematises the eleven-fold *sādhana*-classification (*guṇa-māhātmya-āsakti*, *rūpāsakti*, and so on) by mapping each sub-mode onto an exemplary Rāmāyaṇa episode, so that Bharata, Hanumān, Lakṣmaṇa, the *vānara* host, and Sītā together exhibit the full devotional taxonomy. The work integrates the Sampradāya's dual register — Sanskrit Vedāntic exegesis on one side, Rāmāyaṇa-centred *bhakti*-pedagogy on the other — and shows the systematic continuity between Rāmānuja's *Gadya-traya* surrender-doctrine and the Rāmānanda lineage's later devotional practice.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "ashtadhyayi-pradipa",
+      "title": "Ashtadhyayi-Pradipa",
+      "title_iast": "Aṣṭādhyāyī-Pradīpa",
+      "alternate_titles": [],
+      "composition_dates_low": 1985,
+      "composition_dates_high": 2010,
+      "composition_dates_notes": "Composed across the late 20th and early 21st century.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Sanskrit verse-commentary on Pāṇini's Aṣṭādhyāyī.",
+      "ascription_evidence": [
+        {"kind": "manuscript-colophon", "description": "Tulsī Pīṭha publication records."}
+      ],
+      "genre": "varttika",
+      "language": "sanskrit",
+      "summary": "A Sanskrit verse-commentary on Pāṇini's *Aṣṭādhyāyī*. The work matters here, in a Vedāntic register, because it underwrites the philological discipline on which the *Śrīrāghavakṛpā-Bhāṣyam* exegesis depends. Rāmabhadrācārya's interpretive practice rests on close grammatical analysis of *sūtra*-compounds and Upaniṣadic predication, and the *Aṣṭādhyāyī-Pradīpa* is the workshop in which that grammatical apparatus is laid out. Included here as evidence of his Sanskrit competence rather than as a Vedāntic text proper; treat as a methodological appendix to the *prasthāna-trayī* corpus.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-corpus-v2-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-corpus-v2-opus"
+}

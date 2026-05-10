@@ -1,0 +1,27 @@
+{
+  "term_key": "samsara",
+  "term_iast": "saṃsāra",
+  "term_devanagari": "संसार",
+  "literal": "the wandering-around, the flowing-together; from sam- + √sṛ 'to flow'",
+  "aliases": ["samsara", "saṃsāra", "Saṃsāra", "saṃsāraḥ", "saṃsāre", "sansara"],
+  "invariant_definition": "The beginningless cycle of birth, death, and rebirth in which the *jīva* is bound by *karma*. All Vedāntic schools accept (a) that *saṃsāra* is *anādi* (beginningless); (b) that it is driven by *karma* and the *avidyā*-or-functional-equivalent that produces *karma*; (c) that escape from *saṃsāra* is *mokṣa*; (d) that the present birth is one moment in a long sequence; (e) that the trajectory through *saṃsāra* is governed by lawful causation, not divine arbitrariness. Schools diverge on the ontological status of the cycle (real cyclic time for Viśiṣṭādvaita, Dvaita, Acintya-Bhedābheda; *vyāvahārika* for Advaita); on whether *all* souls are eventually liberated (Viśiṣṭādvaita: yes, eventually; Dvaita: no — *nitya-saṃsārī* souls cycle eternally and *tamo-yogya* souls go to permanent darkness).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Saṃsāra* has *vyāvahārika* (transactional) reality only; from the *pāramārthika* standpoint nothing has ever transmigrated, because there is only one *ātman* identical with *brahman*. *Saṃsāra*'s mechanism is *adhyāsa* — the superimposition of *anātman* on *ātman* — under *avidyā*. The cycle is real for the seeker and illusory for the realized.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1 (adhyāsa-bhāṣya)", "Brahma-Sūtra-Bhāṣya 2.1.36", "Brahma-Sūtra-Bhāṣya 2.3.30"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Saṃsāra* is real cyclic embodiment. The *jīva* really transmigrates, driven by *karma* that contracts its *dharmabhūta-jñāna*. The Lord (Viṣṇu) is the inner controller (*antaryāmin*) of every *saṃsāric* movement; nothing happens outside his awareness or sanction.",
+      "primary_loci": ["Śrī-Bhāṣya 2.3.41–53", "Śrī-Bhāṣya 3.2 (saṃsāric trajectory)", "Vedārtha-Saṅgraha §§80–88"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Saṃsāra* is real, lawful, and metaphysically asymmetric: souls are intrinsically graded (*svarūpa-bheda*) and three classes — *mukti-yogya*, *nitya-saṃsārī*, *tamo-yogya* — distribute differently across the cycle. *Mukti-yogya* souls eventually escape; *nitya-saṃsārī* never escape; *tamo-yogya* descend to permanent *andha-tamas*. This is the most ontologically realist account of *saṃsāra* in Vedānta and the one most often misread in Western surveys.",
+      "primary_loci": ["Mahābhārata-Tātparya-Nirṇaya 1.85–95", "Anu-Vyākhyāna 3.1", "Brahma-Sūtra-Bhāṣya (Madhva) 3.1ff"]
+    }
+  ],
+  "see_also": ["karma", "moksa", "jiva", "avidya", "mukti-yogya", "nitya-samsari", "tamo-yogya"],
+  "translator_note": "Translating *saṃsāra* as 'transmigration' is acceptable. Translating it as 'the wheel of rebirth' carries Buddhist resonance that fits the structure but not always the metaphysics. 'World' or 'worldly existence' (a common loose gloss) is misleading, because the term denotes the *cycle*, not the *world* — *jagat* is the world; *saṃsāra* is the cycle of being-born-into-the-world."
+}
