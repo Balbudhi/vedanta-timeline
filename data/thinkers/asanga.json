@@ -39,6 +39,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The principal systematic Yogācāra treatise of Asaṅga, structured in ten chapters around the central thesis of *vijñapti-mātratā* developed through the *trisvabhāva* analysis. Chapter one introduces the *ālaya-vijñāna* as the substrate of cognitive flow and as the carrier of *vāsanā*-seeds; chapters two and three develop the *trisvabhāva* (*parikalpita* / *paratantra* / *pariniṣpanna*) as the analytic frame within which the *vijñapti-mātra* thesis is to be understood, with the *paratantra* explicitly characterised as both the locus of the *parikalpita* deception and the locus of the *pariniṣpanna* realisation. The remaining chapters develop the bodhisattva-praxis appropriate to the doctrine: the six *pāramitā*s, the ten *bhūmi*s, the three trainings (*śīla*, *samādhi*, *prajñā*), and the resulting *buddhatva*. The text is the principal Yogācāra source for the Mahāyāna-Saṅgraha-line transmission and the immediate target of Bhāviveka's anti-Yogācāra polemic.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -54,6 +55,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Asaṅga's Yogācāra-aligned *abhidharma* compendium, structured around the standard *abhidharma* topics — *skandha*, *dhātu*, *āyatana*, the four noble truths, the *bodhipākṣika-dharma*s — but rewritten from the Mahāyāna and *vijñapti-mātratā* standpoint. The text supplies the bridge between Sarvāstivāda *abhidharma* (which the Vasubandhu of the *Kośa* still represents) and the Yogācāra *abhidharma* that the school requires for its own scholastic instruction. The treatment of *vijñāna* in particular is the formal locus where the *ālaya-vijñāna* doctrine enters the *abhidharma* category-system and is given systematic placement among the eight consciousnesses (six sense-consciousnesses, *manas* as the seventh, *ālaya* as the eighth).",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -66,6 +68,7 @@
       "ascription_notes": "Securely authored by Asaṅga as one of the principal sections of the larger Yogācāra-Bhūmi-Śāstra. Sanskrit text edited by Wogihara 1930–1936.",
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The systematic treatise on bodhisattva-praxis structured around the ten *bhūmi*s, with extended treatments of the bodhisattva's *gotra* (lineage-disposition), the cultivation of the four *brahma-vihāra*s and six *pāramitā*s, the ethics of the bodhisattva (*śīla-paṭala*), and the realisation of *tathatā* through *vijñapti-mātra* analysis. The text supplies the praxis-frame within which the *Mahāyāna-Saṅgraha*'s philosophical analysis is to be implemented; together with the *Yogācāra-Bhūmi-Śāstra* to which it belongs, it is the encyclopedic foundation of Yogācāra as an integrated philosophy-and-praxis system.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -82,6 +85,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The encyclopedic foundation-text of Yogācāra in seventeen *bhūmi*s, of which the *Bodhisattva-Bhūmi* is one. The text supplies the systematic exposition of the entire Buddhist path from a Yogācāra standpoint: the analysis of *citta* and *caitta*, the path's progression through *bhāvanā* and *prajñā*, the integration of *abhidharma* analysis with *vijñapti-mātra* theory, and the final realisation of *tathatā*. The *Vastusaṅgrahaṇī* and the *Vinaya-Saṃgrahaṇī* sections embed the philosophy in scriptural-exegetical and disciplinary frames. The text is the principal source for the Yogācāra-Bhūmi-line transmission distinct from the *Mahāyāna-Saṅgraha*-line, and is the basis on which both Asaṅga's and Vasubandhu's later systematisations build.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -93,5 +97,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-buddhist-comparators-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }

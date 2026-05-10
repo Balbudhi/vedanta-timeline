@@ -61,9 +61,10 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
-      "summary": "Kṣemarāja's mature commentary on Vasugupta/Kallaṭa's *Spanda-Kārikā*, the foundational text of the *Spanda* tradition. The *Nirṇaya* takes *spanda* as the pulsation of consciousness by which the entire manifest universe is continuously projected, sustained, and reabsorbed — a dynamism intrinsic to *cit* and inseparable from its *svātantrya* (*Spanda-Nirṇaya* on *Spanda-Kārikā* 1.1, the *unmeṣa-nimeṣa* verse). Crucially, *spanda* is the engine of *manifestation as a whole*: closer in scope to *prakṛti* itself or to *mahāmāyā* than to any single *guṇa*, and definitively not equatable with *rajas* (the gloss develops *unmeṣa-nimeṣābhyāṃ jagataḥ pralayodayau* at *SpN* 1.1 as covering the totality of cosmic emergence and dissolution). Kṣemarāja systematically integrates *Spanda* with *Pratyabhijñā*: the *spanda*-doctrine supplies the dynamism that the *Pratyabhijñā* idealism otherwise risks under-articulating; conversely the *Pratyabhijñā* supplies the analysis of subject-structure (*aham*, *vimarśa*, *ābhāsa*) that *Spanda* needs (*SpN* prefatory *bhūmikā*). The four *niṣyandas* of the original *Kārikā* are read as: the establishment of *spanda* (*SpK* / *SpN* 1.1–25), its operation in the bound subject (*SpK* / *SpN* 2.1–7), the practical *upāyas* (*SpK* / *SpN* 3.1–19), and the condition of full recognition (*SpK* / *SpN* 4.1–2). The text is the standard reference for *spanda*-doctrine in its developed form.",
+      "summary": "Kṣemarāja's mature commentary on Vasugupta/Kallaṭa's *Spanda-Kārikā* (the on-disk witness `spanda_karika_comm.txt` is the GRETIL transcription of the *Spanda-Kārikā with Kṣemarāja's commentary*, conventionally identified as the *Spanda-Nirṇaya*), the foundational text of the *Spanda* tradition. The *Nirṇaya* takes *spanda* as the pulsation of consciousness by which the entire manifest universe is continuously projected, sustained, and reabsorbed — a dynamism intrinsic to *cit* and inseparable from its *svātantrya* (*Spanda-Nirṇaya* on *Spanda-Kārikā* 1.1, the *unmeṣa-nimeṣa* verse). Crucially, *spanda* is the engine of *manifestation as a whole*: closer in scope to *prakṛti* itself or to *mahāmāyā* than to any single *guṇa*, and definitively not equatable with *rajas* (the gloss develops *unmeṣa-nimeṣābhyāṃ jagataḥ pralayodayau* at *SpN* 1.1 as covering the totality of cosmic emergence and dissolution; the *jagataḥ* is universal-scope, not gunic-scope). Kṣemarāja systematically integrates *Spanda* with *Pratyabhijñā*: the *spanda*-doctrine supplies the dynamism that the *Pratyabhijñā* idealism otherwise risks under-articulating; conversely the *Pratyabhijñā* supplies the analysis of subject-structure (*aham*, *vimarśa*, *ābhāsa*) that *Spanda* needs (*SpN* prefatory *bhūmikā*). The four *niṣyandas* of the original *Kārikā* are read as: the establishment of *spanda* (*SpK* / *SpN* 1.1–25), its operation in the bound subject (*SpK* / *SpN* 2.1–7), the practical *upāyas* (*SpK* / *SpN* 3.1–19), and the condition of full recognition (*SpK* / *SpN* 4.1–2). The text is the standard reference for *spanda*-doctrine in its developed form.",
       "key_passage_ids": [],
-      "entry_status": "draft"
+      "entry_status": "draft",
+      "source_status": "clean-on-disk"
     },
     {
       "work_id": "spanda-sandoha",
@@ -85,7 +86,8 @@
       "language": "sanskrit",
       "summary": "A focused commentary on the first *kārikā* of the *Spanda-Kārikā* — *yasyonmeṣa-nimeṣābhyāṃ jagataḥ pralayodayau* (\"by whose unfolding and folding the world dissolves and arises\"; *Spanda-Kārikā* 1.1) — taken as a *bīja*-verse containing in compressed form the entire *spanda*-doctrine. Kṣemarāja unfolds the verse word by word, extracting the doctrine that *spanda* is the unbroken pulsation of *Cit* (consciousness) by which the manifest universe is continuously projected, sustained, and reabsorbed; *unmeṣa* and *nimeṣa* are not two opposed processes but the single rhythm of *cit*'s self-display and self-rest (*Spanda-Sandoha* on *SpK* 1.1, ad *unmeṣa-nimeṣa*). The text serves as the analytic propaedeutic to the longer *Spanda-Nirṇaya*: where the *Nirṇaya* commentates the entire *Kārikā*, the *Sandoha* establishes the foundational interpretive frame within which the rest is to be read (*Sandoha* opening *bhūmikā*). *Spanda* is here precisely the dynamism of manifestation as a whole — closer in scope to *prakṛti* itself or to *mahāmāyā* than to any single *guṇa*, and definitively not equatable with *rajas* (the gloss makes the totality-scope explicit at *Sandoha* on *SpK* 1.1, ad *jagataḥ pralayodayau*). The work is shorter and pedagogically more compact than the *Nirṇaya*, often used as an entry-text by the school's living tradition.",
       "key_passage_ids": [],
-      "entry_status": "reviewed"
+      "entry_status": "reviewed",
+      "source_status": "primary-text-not-in-corpus"
     },
     {
       "work_id": "stava-cintamani-tika",
@@ -107,7 +109,8 @@
       "language": "sanskrit",
       "summary": "Commentary on Bhaṭṭa Nārāyaṇa's *Stava-Cintāmaṇi* — a Kashmirian Śaiva *stotra* in approximately 120 verses to Śiva, treated by the Trika tradition as a doctrinally-saturated devotional poem. Kṣemarāja's *Ṭīkā* reads the *Stava* simultaneously as devotional address and as compressed *Pratyabhijñā* exposition: each verse is shown to articulate, in liturgical voice, an aspect of the recognition (*pratyabhijñā*) that the worshipping *aham* is itself the supreme *aham* of Śiva (*Stava-Cintāmaṇi-Ṭīkā* on *Stava-Cintāmaṇi* 1, the opening invocation, where Kṣemarāja establishes the identity-recognition reading-frame). The commentary thereby continues the integration of *bhakti* and *pratyabhijñā* exemplified in Utpaladeva's *Śiva-Stotrāvalī* (which Kṣemarāja also commented on); together these works demonstrate that strong non-dualism within the Trika tradition does not abolish *bhakti* but re-grounds it in self-recognition. The text is a key witness to how the school understood its own devotional literature — not as ornamental adjunct to philosophy but as a parallel mode of the same self-recognition, with the *camatkāra* of devotional surrender structurally identical to the *camatkāra* of *pratyabhijñā* (consistent with the *PH* sūtra 17 doctrine that *vikalpa-kṣaya* yields *cidānanda-lābha*).",
       "key_passage_ids": [],
-      "entry_status": "reviewed"
+      "entry_status": "reviewed",
+      "source_status": "primary-text-not-in-corpus"
     },
     {
       "work_id": "shiva-sutra-vimarshini",
@@ -126,7 +129,8 @@
       "language": "sanskrit",
       "summary": "Kṣemarāja's commentary on the *Śiva-Sūtras* attributed to Vasugupta — the revealed scriptural foundation of the Trika lineage. The *Vimarśinī* organizes the seventy-seven sūtras into the three *unmeṣas* — *Śāmbhava* (*ŚS* 1.1–22), *Śākta* (*ŚS* 2.1–10), *Āṇava* (*ŚS* 3.1–45) — corresponding to the three *upāyas* of progressively descending subtlety. The first *unmeṣa* opens with *caitanyam ātmā* (*ŚS* 1.1, \"the self is consciousness itself\") and develops the immediate *Śāmbhava* path of recognition without method (*ŚSV* on *ŚS* 1.1–22); the second works through the *Śākta* path of attentive *vimarśa* on the rising and subsiding of cognitions (*ŚSV* on *ŚS* 2.1–10); the third treats the *Āṇava* path of breath, mantra, and meditative supports for those still bound to the limited subject (*ŚSV* on *ŚS* 3.1–45, including *ŚS* 3.5 *nāḍī-saṃhāra-bhūta-jaya-bhūta-kaivalya-bhūta-pṛthaktvāni* on yogic mastery). Throughout, Kṣemarāja reads each sūtra simultaneously as scriptural revelation, as Pratyabhijñā philosophy, and as practical instruction, making the *Vimarśinī* the standard integrative commentary on the school's foundational scripture. For comparative purposes, the work is the locus classicus for the Trika doctrine that scripture, philosophy, and practice are three faces of the single self-recognition of consciousness.",
       "key_passage_ids": [],
-      "entry_status": "draft"
+      "entry_status": "draft",
+      "source_status": "primary-text-not-in-corpus"
     }
   ],
   "key_passages": [],
@@ -134,7 +138,7 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus",
+  "last_verified_by": "wave-rigor-opus",
   "polemic_chain_ids": [
     "brahma-sutra-bhasya-buddhism-refutation",
     "brahma-sutra-bhasya-vaisesika-refutation"

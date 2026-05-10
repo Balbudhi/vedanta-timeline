@@ -44,6 +44,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The principal Mādhyamaka commentary on the MMK, structured chapter-by-chapter to follow Nāgārjuna's twenty-seven *prakaraṇa*s. The opening chapter is the load-bearing one: Candrakīrti uses it to refute Bhāviveka's *svatantra-anumāna* methodology, arguing that the only Mādhyamaka argument-form compatible with *na me kācana pratijñā asti* is *prasaṅga* — consequence-refutation that draws out the unwanted implications of the opponent's commitments without taking on positive commitments of one's own. The remaining chapters provide the Prāsaṅgika reading of Nāgārjuna, with a sustained engagement with the Yogācāra position (especially *vijñapti-mātratā*) which Candrakīrti rejects as a substitute *svabhāva* in epistemic disguise. The text is the principal source for the Prāsaṅgika–Svātantrika distinction and is the most complete Sanskrit Mādhyamaka commentary surviving from the Indian tradition.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -60,6 +61,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "clean-on-disk",
       "summary": "An independent treatise organised around the ten *bhūmi*s of the bodhisattva path, with the sixth chapter (*abhimukhī-bhūmi*, on the perfection of *prajñā*) supplying the philosophical centre — over two hundred verses developing the Prāsaṅgika position, refuting the Yogācāra *vijñapti-mātratā* position, and treating the two-truths in detail. Chapter 6 contains the famous chariot-analysis of the self in seven points (which Tsong-kha-pa later canonises as the standard Mādhyamaka selflessness-argument) and the explicit defence of *saṃvṛti-satya* as deceptive-yet-functional designation. The text is the bridge between the technical *Prasanna-Padā* and the soteriological-praxis frame of bodhisattva-mārga.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -71,5 +73,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-buddhist-comparators-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }

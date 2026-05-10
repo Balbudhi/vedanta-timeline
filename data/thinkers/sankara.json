@@ -440,6 +440,7 @@
       "ascription_notes": "Embraced by the Advaita and Śrīvidyā living traditions; academic opinion divided on authorship of part or all of the hymn.",
       "genre": "stotra",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "School-ascribed *stotra* in 100 verses (in the standard recension), addressed to the Goddess as *Tripurasundarī* / *Lalitā*, the supreme Śakti of the Śrīvidyā tradition. Traditionally divided into two halves. *Ānanda-Laharī* (verses 1–41) gives the metaphysical-theological exposition of the Goddess as identical with the supreme, including the *śrīcakra* and *kuṇḍalinī* references that fix the work in the Śrīvidyā lineage. *Saundarya-Laharī* proper (verses 42–100) gives the *aṅga-varṇana* — the limb-by-limb iconographic celebration of the Goddess's form. The text is the central liturgical poem of Śrīvidyā and a major Sanskrit *stotra* in its own right. Ascription is contested. Many scholars argue at least the second half is post-Śaṅkara; the tradition embraces the whole as Śaṅkara's. The work's frank embrace of a personal-theistic Śakti as supreme is doctrinally significant: it bears on whether Advaita-as-living-tradition is as gap-distant from theistic Vedānta as the *Brahma-Sūtra-Bhāṣya* alone would suggest.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -455,6 +456,7 @@
       "ascription_notes": "Embraced by the Advaita living tradition; uses Vaiṣṇava devotional idiom that the academic ascription set is wary of attributing to the bhāṣya-author.",
       "genre": "stotra",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Also called *Mohamudgara*, \"Hammer for Delusion.\" A short *stotra* of approximately 31 verses, with sub-recensions that ascribe the additional verses to Śaṅkara's twelve *śiṣyas*. The work is framed as a teaching to a grammar-pedant whom Śaṅkara overhears rote-drilling Pāṇinian rules in old age. The opening refrain — *bhaja govindaṃ bhaja govindaṃ govindaṃ bhaja mūḍha-mate / saṃprāpte sannihite kāle nahi nahi rakṣati ḍukṛñ-karaṇe* — subordinates technical learning to *Govinda*-*bhakti* in the face of mortality. Two features are doctrinally consequential: the *vairāgya* register, and the choice of *Govinda* (a Vaiṣṇava name) as the addressed deity. Together they show the Advaita tradition not merely tolerating but actively cultivating personal-theistic devotional address as a *sādhana*. The Advaita tradition embraces the work as Śaṅkara's. Its devotional idiom is one of the load-bearing pieces of evidence on the question whether Advaita-as-living-tradition is as gap-distant from theistic Vedānta as the *Brahma-Sūtra-Bhāṣya* alone would suggest.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -468,6 +470,7 @@
       "ascription_notes": "Embraced by the Advaita and Śaiva living traditions; academic opinion divided.",
       "genre": "stotra",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "School-ascribed *stotra* in 100 verses to Śiva, in highly ornate Sanskrit. The work uses heavy *śleṣa* (double meaning) and elaborate metaphor cycles — the bee-and-lotus, the river-and-ocean — for the *bhakta*'s longing for and absorption into Śiva. Doctrinally the hymn is unambiguously *bhakti*-saturated: the speaker presents himself as *dāsa* of Śiva, repeatedly affirms the personal-theistic relation, and treats *Śivānanda* — the bliss of the personal Lord — as the seeker's *paramārtha*-fruit. Tradition pairs the *Śivānanda-Laharī* with the *Saundarya-Laharī* (Goddess) and the *Bhaja-Govindam* (Viṣṇu / Govinda) as the school's three principal devotional anchors across the three theistic streams. Academic ascription is divided. The Advaita tradition embraces the work as Śaṅkara's, and its frank embrace of *bhakti* as the operative *sādhana*-register bears on the same comparative question raised by the other two *stotras*: how distant Advaita-as-living-tradition is from Viśiṣṭādvaita is not settled by the *Brahma-Sūtra-Bhāṣya* alone.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -1618,7 +1621,7 @@
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-secondary-citation-audit-opus",
+  "last_verified_by": "wave-rigor-opus",
   "polemic_chain_ids": [
     "acintya-shakti-defense",
     "bhaskara-pracchanna-bauddha",

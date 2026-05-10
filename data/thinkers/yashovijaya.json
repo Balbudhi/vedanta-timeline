@@ -73,6 +73,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "A compact treatise on Jaina pramāṇa-theory and dialectical apparatus, deliberately modelled on Keśava Miśra's Navya-Nyāya *Tarka-Bhāṣā* and on Dharmarāja's Advaita *Vedānta-Paribhāṣā*. Yaśovijaya gives the Jaina theory of *pramāṇa* — *pratyakṣa* (with the *sāṃvyavahārika* / *mukhya* distinction) and *parokṣa* (with its five-fold subdivision) — in Navya-Nyāya technical vocabulary: *vyāpti*, *paryāpti*, *avacchedaka*, *prakāra* are deployed to articulate the Jaina positions on inferential structure and the relation between cognition and its object. The seven-fold *bhaṅga*-predication is presented in formal grammar showing how each *bhaṅga* is conditioned by an explicit *avacchedaka*; the *naya*-doctrine is articulated as a theory of standpoint-conditioned predication compatible with classical *anumāna*-theory. The work is the standard introductory text in which Jaina *pramāṇa*-theory is taught in Navya-Nyāya register, and the form in which the Tapā-Gaccha curriculum receives it.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -102,6 +103,7 @@
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "An extensive dialectical engagement with Naiyāyika positions on *jāti*-realism, *paramāṇu*-cosmology, the four-pramāṇa scheme, and the *Īśvara*-as-creator argument, conducted in the technical idiom of post-Raghunātha Navya-Nyāya. Yaśovijaya defends the Jaina substance-modal (*dravya-paryāya*) account of reality against the Naiyāyika substance-quality-particularity (*dravya-guṇa-viśeṣa*) ontology, arguing that the *paryāya*-modal aspect of every existent makes the seven-fold *bhaṅga*-predication unavoidable and that the Naiyāyikas' commitment to absolute *jāti* obscures it. The Naiyāyika five-membered inference is reformulated to allow the Jaina seven-fold predication to be tracked through the inferential structure. The work's title (*Khaṇḍa-Khādya*, 'a feast of refutations') announces its polemical character and is the most substantial seventeenth-century Jaina answer to Brahmanical Navya-Nyāya.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -123,6 +125,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Twenty-one *adhikāras* on the inner life of the *jīva*: *adhyātma-svarūpa* (the nature of inner life), *dambha-tyāga* (the renunciation of pretence), *bhava-svarūpa* (the structure of saṃsāra), *vairāgya* (dispassion), *yoga* (the disciplines of *gupti*, *samiti*, *cāritra*), *dhyāna* (the four kinds of *dhyāna* — *ārta*, *raudra*, *dharma*, *śukla*), *anubhava* (the *jīva*'s direct experience of its own essential nature), and *mokṣa*. The work draws together Hemacandra's *Yoga-Śāstra* tradition and the Adhyātma movement's emphasis on the *jīva*'s essential nature as *cetana* and *jñāna-svabhāva* — the Kundakunda-derived tradition that the Śvetāmbara Adhyātma movement had absorbed from the Digambara Samaya-Sāra commentarial reception. Yaśovijaya tracks the Adhyātma reading carefully to avoid the Digambara *niścaya-naya* over-emphasis that the Tapā-Gaccha had been wary of, balancing it with explicit attention to the *vyavahāra-naya*'s role in praxis.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -144,6 +147,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "An extensive Sanskrit prose sub-commentary on Hemacandra's *Pramāṇa-Mīmāṃsā* — Hemacandra's twelfth-century systematic Jaina pramāṇa-treatise. Yaśovijaya unfolds Hemacandra's compressed *sūtras* and the auto-commentary in Navya-Nyāya idiom, integrating the Navya-Nyāya restatement of Jaina *pramāṇa*-theory he had developed in the *Jaina-Tarka-Bhāṣā* and *Nyāya-Loka*. The work is the form in which the Tapā-Gaccha curriculum receives the Hemacandra-Yaśovijaya pramāṇa-theory and is the principal seventeenth-century Śvetāmbara work for studying Jaina epistemology in the standard early-modern Sanskrit dialectical register.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -155,5 +159,5 @@
   "entry_status": "draft",
   "entry_owner_agent": "non-vedic-comparator-extension-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }

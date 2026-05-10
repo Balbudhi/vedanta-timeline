@@ -28,6 +28,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The *Prasthāna-Ratnākara* (\"ocean of the *prasthāna*\") is Puruṣottama's encyclopaedic *Puṣṭi-Mārga* doctrinal compendium. The organisation is a systematic survey of the *prasthāna-traya* — Upaniṣads, Bhagavad-Gītā, Brahma-Sūtras — read consistently through *śuddhādvaita*. Three tasks structure the work. It assembles Vallabha's and Viṭṭhalanātha's settled positions in synoptic form. It locates those positions in the wider Vedānta landscape, with explicit demarcation against rival schools. It stages the school's response to the standard objections from Advaita, Viśiṣṭādvaita, Madhva-Dvaita, the *bhedābheda* lines, and the Caitanya school. Topics treated include the *pramāṇa*-status of the *Bhāgavata* (*Prasthāna-Ratnākara*, *pramāṇa-prakaraṇa*), the structure of *avikṛta-pariṇāma* (*jagat-prakaraṇa*), the *jīva*'s *aṃśa*-status with concealment of *ānanda* (*jīva-prakaraṇa*), the typology of *jīvas* — *puṣṭi*, *maryādā*, *pravāha* (*jīva-bheda-prakaraṇa*) — and the operation of *anugraha* (*anugraha-prakaraṇa*), and the conditions and stages of liberation (*mokṣa-prakaraṇa*). The text is the school's mature scholastic instrument and the principal Puṣṭimārga reference for any sustained inter-school doctrinal engagement after the early-modern period.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -44,6 +45,7 @@
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The *Avaraṇa-Bhaṅga* (\"breaking of the veil\") is Puruṣottama's sustained polemical treatise against Advaitic *māyā-vāda*. The title is doctrinally exact: he undertakes to dismantle the Advaitic *avaraṇa-śakti* of *māyā* — the alleged power by which Brahman is concealed — and the *vivartavāda* it underwrites. The argument is structured as two complementary critiques. The first is internal: *māyā* as conceived by post-Śaṅkara Advaita is incoherent on its own terms. Puruṣottama works through the *anirvacanīyatā* doctrine (*Avaraṇa-Bhaṅga*, *anirvacanīyatā-niṣedha-prakaraṇa*), the *dṛṣṭi-sṛṣṭi* mechanism (*dṛṣṭi-sṛṣṭi-niṣedha*), and the relation between *avidyā* and Brahman (*āśraya-viṣaya-vicāra*), arguing in each case that the Advaitin's commitments cannot be jointly maintained. The second is structural: *māyā* is in any case unnecessary once Vallabha's *avikṛta-pariṇāma-vāda* is admitted (*Avaraṇa-Bhaṅga*, concluding *siddhānta-prakaraṇa*; cf. *Bhāṣya-Prakāśa* on *Aṇu-Bhāṣya* ad BS 2.1.14), which preserves Brahman's non-dual status without making the world illusory. The work is important precisely because *śuddhādvaita* is sometimes confused with Advaita; the *Avaraṇa-Bhaṅga* enforces the demarcation in technical detail. It is the most technically ambitious Puṣṭimārga polemical work and a key text in the school's late-medieval doctrinal self-positioning.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -60,6 +62,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The *Bhāṣya-Prakāśa* is Puruṣottama's full sub-commentary on Vallabha's *Aṇu-Bhāṣya* on the *Brahma-Sūtras*. Vallabha's bhāṣya is famously terse — true to its name. Puruṣottama opens it out *adhikaraṇa* by *adhikaraṇa*, supplying the *pūrvapakṣa-uttarapakṣa* construction at full technical pitch (notably on BS 1.1.1–4 *catuḥsūtrī*; 2.1.14 *tad-ananyatva-adhikaraṇa*; 2.3.43 *aṃśa-adhikaraṇa*), the precise demarcations against rival Vedānta interpretations, and the connections to the wider *śuddhādvaita* doctrinal corpus. A second function of the work is to clarify the doctrinal continuities between Vallabha's portion of the *Aṇu-Bhāṣya* (BS 1.1–3.2.33) and Viṭṭhalanātha's continuation (BS 3.2.34–4.4.22), treating the bhāṣya as a unified Puṣṭimārga reading of the *sūtras* rather than as a composite of two voices. The *Bhāṣya-Prakāśa* is the canonical late-Puṣṭimārga sub-commentary and the standard scholastic instrument for serious study of the school's Brahma-Sūtra commentary.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -69,6 +72,6 @@
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-batch6-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus"
 }

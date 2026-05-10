@@ -32,6 +32,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "An independent prose *prakaraṇa* setting out the *avibhāga-advaita* position topic by topic. The work opens with a programmatic *upodghāta* announcing its pedagogic purpose: to make Vijñānabhikṣu's *Vijñānāmṛta-Bhāṣya* positions accessible without requiring the reader to follow the Bhāṣya through the entire Brahma-Sūtra. The structure is six-fold: *pramāṇa-prakaraṇa* (the *pramāṇa*-economy of the school, including the status of *śabda* against the Buddhist pramāṇa-vāda); *brahma-svarūpa-prakaraṇa* (Brahman as *sat-cit-ānanda* and as the *māyin* who possesses *māyā* identified with *prakṛti*, following Bhikṣu's *Vijñānāmṛta-Bhāṣya* on *Brahma-Sūtra* 1.1.5); *jīva-prakaraṇa* (the *jīva* as real *aṃśa* of Brahman, neither identical from eternity nor permanently separate); *jagat-prakaraṇa* (the world as the genuine differentiated state of *prakṛti* during *sṛṣṭi*); *bandha-mokṣa-prakaraṇa* (bondage as continued *vibhāga* and liberation as achieved *avibhāga*); and *bheda-vicāra-prakaraṇa* (the technical distinction of *avibhāga* from Śaṅkara's *abheda*-from-eternity and from Bhāskara's *aupādhika-bheda*). The polemical engagement is Bhikṣu's: *māyā-vāda* is rejected as a deviation that secures non-dualism by reducing the world's reality, where the *avibhāga* construal secures non-dualism without that reduction (*Tattva-Yāthārthya-Dīpana*, *brahma-svarūpa-prakaraṇa*, on *māyā* as *prakṛti* not *avidyā*). The *prakaraṇa* is the principal early-modern document by which *avibhāga-advaita* circulates as a transmissible position rather than as Bhikṣu's individual teaching.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -48,6 +49,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The *Pradīpa* (\"lamp\") is Bhāva-Gaṇeśa's sub-commentary on Vijñānabhikṣu's *Sāṃkhya-Pravacana-Bhāṣya*. The method is *sūtra*-by-*sūtra* exposition of Bhikṣu's compressed glosses, with the school's settled position fixed at each contested point. Three loci do the load-bearing work. The *Pradīpa* on *Sāṃkhya-Pravacana-Bhāṣya* 1.92–94 (the *na-īśvara-siddhiḥ* sūtra) follows Bhikṣu in reading the standard arguments for Sāṃkhya's atheism as turning on textual omission rather than on positive incompatibility; the conclusion is that classical Sāṃkhya can admit *Īśvara* without compromising the *prakṛti–puruṣa* analysis (*Pradīpa* ad loc.). The *Pradīpa* on *Sāṃkhya-Pravacana-Bhāṣya* 1.61–67 fixes the *avibhāga*-reading of *pralaya*: the resolution of *prakṛti* and the *puruṣas* into Brahman is not their having-been-identical-all-along but their genuine non-separation as a returned state. The *Pradīpa* on *Sāṃkhya-Pravacana-Bhāṣya* 6.59 reads the final liberation-state of the *puruṣa* as *avibhāga* in the strong sense (non-separation from Brahman) rather than mere *kaivalya* (isolation from *prakṛti*) — the same move Bhikṣu makes in the *Yoga-Vārttika* on *Yoga-Sūtra* 4.34 and in the *Vijñānāmṛta-Bhāṣya* on *Brahma-Sūtra* 4.4.1–4. The work is the school's fixing of how the *Sāṃkhya-Sūtras* are to be read once they have been integrated into *avibhāga-advaita*; with the *Tattva-Yāthārthya-Dīpana* it constitutes the first generation of post-Bhikṣu transmission.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -57,6 +59,6 @@
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-intra-school-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-intra-school-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus"
 }

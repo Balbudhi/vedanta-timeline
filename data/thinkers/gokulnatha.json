@@ -32,6 +32,7 @@
       ],
       "genre": "hagiography-vaarta",
       "language": "vraja-bhasha",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The *Caurāsī-Vaiṣṇavan-kī-Vārtā* is the Vraja-Bhāṣā compendium of eighty-four hagiographical narratives of Vallabha's principal disciples (*caurāsī* — eighty-four). Each narrative is structured as a doctrinal exemplum: the disciple's life, *bhāva*-mode, *seva*-discipline, encounter with Vallabha, and the moment of *anugraha* are narrated in a form that illustrates a specific point of *Puṣṭi-Mārga* doctrine in operation. The opening *avatārikā* (in the standard recension) fixes the editorial principle: each *vārtā* is to display *anugraha* operating against the *jīva*'s expected resistance — the doctrinal claim being that grace is genuinely independent of the *jīva*'s qualifications (*Vallabha, Puṣṭi-Pravāha-Maryādā-Bheda* on the *puṣṭi-jīva*'s status). Particular *vārtās* — those of Sūradās, Paramānandadās, Kṛṣṇadās, and Kumbhandās (the four principal *kīrtana*-poets, the *aṣṭa-chāp* core) — fix the lineage's reading of how the *Bhāgavata*-derived devotional aesthetics enter the *seva*-tradition. The *Vārtā* is doctrinally indistinguishable from Vallabha and Viṭṭhalanātha but operates in narrative-pastoral idiom, intended for daily reading by the lay *vaiṣṇava* community. It is the principal lineage-memory text of the first-generation disciples and the form in which most Puṣṭimārga *vaiṣṇavas* know that history.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -48,6 +49,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Gokulanātha's *Vivṛti* on the *Sarva-Nirṇaya-Prakaraṇa* — the third and longest of the three *prakaraṇas* of Vallabha's *Tattvārtha-Dīpa-Nibandha*, in which the metaphysics of *avikṛta-pariṇāma-vāda* and the demarcation of *śuddhādvaita* against rival Vedānta is set out in compressed form. The *Vivṛti* opens Vallabha's compressed glosses verse by verse, fixing the school's reading of three load-bearing positions: the structure of *avikṛta-pariṇāma* (Brahman as the unmodifying material cause whose transformation is real but does not alter Brahman's *sat-cit-ānanda* nature, *Vivṛti* on *Sarva-Nirṇaya-Prakaraṇa* §§22–47); the rejection of *māyā* as *anirvacanīya* and the identification of *māyā* with Kṛṣṇa's own *śakti* (*Vivṛti* on §§48–66, against the *vivartavāda* of Padmapāda and Prakāśātman); the *jīva*'s status as real *aṃśa* with *ānanda* concealed (*Vivṛti* on §§67–95, against both Śaṅkara's identity-from-eternity and Madhva's strict *bheda*). The work operates at scholastic pitch sufficient for second-generation lineage teaching; it does not undertake the explicit inter-school polemic that Viṭṭhalanātha mounts in the *Vidvan-Maṇḍana* or that Puruṣottama mounts in the *Avaraṇa-Bhaṅga*. The *Vivṛti* is the standard sub-commentary on Vallabha's *Sarva-Nirṇaya-Prakaraṇa* in the lineage and is read alongside Hariraya's *Ṣoḍaśa-Granthāḥ-Vivaraṇa* in the school's curriculum prior to Puruṣottama's higher apparatus.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -57,6 +59,6 @@
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-intra-school-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-intra-school-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus"
 }

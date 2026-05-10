@@ -58,6 +58,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "A verse-by-verse Sanskrit prose commentary on Hemacandra's *Anya-Yoga-Vyavaccheda-Dvātriṃśikā* (\"thirty-two-verse refutation of other doctrines\"), composed by Malliṣeṇa in 1292 CE. The source-text is a *stuti* — a hymn of praise to Mahāvīra — whose praise consists in exposing the failures of the rival *darśanas*; Malliṣeṇa's commentary unfolds each verse's polemical content with full dialectical apparatus. The opening verses target Cārvāka's body-self thesis (refuted by the impossibility of consciousness arising from acetana materials), Buddhist *anātma* and *kṣaṇika-vāda* (refuted by the incoherence of momentariness with respect to memory and recognition), the *vijñāna-vāda* and *śūnya-vāda* (refuted as forms of one-sided absolutising), Vaiśeṣika atomism (refuted by the regress of partless atoms aggregating into perceptible matter), Sāṃkhya-Yoga *prakṛti-puruṣa* dualism (refuted as failing to account for the relation), Nyāya's *Īśvara*-as-creator (refuted by the standard objections), Mīmāṃsā eternal *śabda* (refuted as conflating linguistic universal with phonetic particular), and Advaita's *māyā-vāda* (refuted as a form of *kṣaṇika*-by-other-name in its denial of the world's reality). The commentary develops the seven-fold *bhaṅga*-predication and the *naya*-doctrine as the *anekānta-vāda* that admits each rival's positive thesis in its proper standpoint while refusing each rival's absolutising claim. The work is the principal Jaina exposition of *anekānta-vāda* as a meta-philosophical position covering all rival schools' positive theses.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -69,5 +70,5 @@
   "entry_status": "draft",
   "entry_owner_agent": "non-vedic-comparator-extension-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }

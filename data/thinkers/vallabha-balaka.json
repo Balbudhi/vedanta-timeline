@@ -34,6 +34,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The *Bālaka-Bhāṣya* is Vallabha-Bālaka's sub-commentary on the *Aṇu-Bhāṣya* on the *Brahma-Sūtras* (Vallabha's portion through BS 3.2.33 and Viṭṭhalanātha's continuation from BS 3.2.34 through BS 4.4). The method is *sūtra*-by-*sūtra* exposition with the school's settled position fixed at each contested point. Four *adhikaraṇas* are particularly load-bearing. (i) The opening *jijñāsādhikaraṇa* (*Bālaka-Bhāṣya* ad BS 1.1.1) reads the inquiry as inquiry into Brahman-as-Kṛṣṇa, against Śaṅkara's *adhyāsa-bhāṣya* construal that takes the inquiry as into a Brahman identified with the *jīva*-self by superimposition. (ii) The *māyā-adhikaraṇa* material (*Bālaka-Bhāṣya* ad BS 1.1.4–5) follows Vallabha and Puruṣottama in identifying *māyā* with Kṛṣṇa's *śakti* (the *māyin* of *Vijñānāmṛta-Bhāṣya* on BS 1.1.5 read consonantly with *śuddhādvaita*) rather than with epistemic *avidyā* or with an *anirvacanīya* third-thing. (iii) The *ārambhādhikaraṇa* (*Bālaka-Bhāṣya* ad BS 2.1.14) opens Vallabha's compressed statement of *avikṛta-pariṇāma-vāda* against the alternative readings the school must distinguish itself from — Śaṅkara's *vivarta*, Bhāskara's *aupādhika-pariṇāma*, Rāmānuja's *pariṇāma* qualified by *śarīra-śarīrin*, Madhva's strict *bheda*. (iv) The *aṃśa-adhikaraṇa* (*Bālaka-Bhāṣya* ad BS 2.3.43) fixes the school's reading of the *jīva*-Brahman relation as real *aṃśa*-relation with *ānanda*-concealment, against both identity-from-eternity and strict *bheda*. On the *sādhana*-adhikaraṇas (BS 3.3–3.4) and the *mokṣa*-adhikaraṇas (BS 4.1–4.4), the *Bālaka-Bhāṣya* opens Viṭṭhalanātha's continuation — particularly on the operation of *anugraha* (BS 3.4.1–17) and on the post-mortem state of the liberated as participation in Kṛṣṇa's *līlā* through eternal *seva* (BS 4.4.1–22). The work is the standard post-Puruṣottama Puṣṭimārga sub-commentary on the *Aṇu-Bhāṣya* and is read in tandem with Puruṣottama's *Bhāṣya-Prakāśa* in the school's higher curriculum.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -43,6 +44,6 @@
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-intra-school-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-intra-school-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus"
 }

@@ -49,6 +49,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Vasubandhu's encyclopedic Sarvāstivāda *abhidharma* manual in nine *kośa*s (chapters), with auto-commentary providing critical engagement with Sautrāntika alternatives at each step. The chapters cover *dhātu* (the elemental categories), *indriya* (the faculties), *loka* (cosmology), *karma* (action and its result), *anuśaya* (the underlying afflictions), *mārga-pudgala* (path and the person on it), *jñāna* (knowledge), and *samāpatti* (meditative attainments); a final ninth chapter (*Pudgala-Pratiṣedha*) refutes the Vātsīputrīya doctrine of the *pudgala*. The text becomes the standard scholastic *abhidharma* reference for both the Sarvāstivāda and (paradoxically, given Vasubandhu's later Yogācāra turn) for many Mahāyāna scholastics. The auto-commentary's frequent endorsement of Sautrāntika-style critiques over the Vaibhāṣika orthodoxy made the text controversial in its own day and prompted the rival *Nyāya-Anusāra* by Saṅghabhadra. The transition between the *Kośa* and the Yogācāra works is the textual locus of the one-versus-two-Vasubandhus question.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -65,6 +66,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "clean-on-disk",
       "summary": "Thirty verses compressing the mature Yogācāra position into its most quoted statement. Verses 1–17 develop the *vijñāna-pariṇāma* analysis: cognition transforms in three modes (*ālaya-vijñāna*, *manas*, the six sense-consciousnesses), with the *ālaya* carrying *vāsanā*-seeds across moments and providing the substrate for the appearance of an enduring perceiver. Verses 18–25 develop the *trisvabhāva* analysis: *parikalpita* (the falsified subject-object duality), *paratantra* (the dependently-arisen cognitive flow), *pariniṣpanna* (the *paratantra* devoid of *parikalpita*) — and the corresponding *triḥ-niḥsvabhāvatā* showing that even these three are themselves *niḥsvabhāva* in the Mahāyāna sense. Verses 26–30 apply the analysis to the path and to *pariniṣpatti*. The text is the canonical Yogācāra base-text in the *kārikā*-genre and is the standard reference for *vijñapti-mātratā* in its mature form.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -81,6 +83,7 @@
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
+      "source_status": "clean-on-disk",
       "summary": "Twenty verses with auto-commentary defending *vijñapti-mātratā* against the four standard objections from the realist opponent. Objection 1: without external objects we cannot account for the *deśa-niyama* (spatial regularity) that ties certain cognitions to certain places; reply via the dream-analogy and karmic *vāsanā*-determination. Objection 2: nor for *kāla-niyama* (temporal regularity); reply by the same. Objection 3: nor for *santāna-aniyama* (intersubjective agreement — multiple people see the 'same' object); reply via the karmic-collective shaping of *vāsanā*-streams that share content without requiring an extra-cognitive object. Objection 4: nor for *kṛtya-kriyā* (the determinate efficacy of cognition — the cognised water actually slakes thirst); reply via the dream-emission analogy and the karmic-efficacy of cognitive content. The text is the principal Yogācāra polemic against external-object realism and the canonical statement of the *vijñapti-mātra* defence.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -96,6 +99,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Thirty-eight verses giving the most compressed analysis of the *trisvabhāva*: each of the three natures is characterised in turn (*parikalpita* as imagined-and-non-existent, *paratantra* as dependently-arisen-and-existent-in-the-mode-of-cognitive-flow, *pariniṣpanna* as the *paratantra* purified of the *parikalpita*); their relations are analysed (the *paratantra* as both substrate of the deception and substrate of the realisation); the soteriology is articulated (recognition of the *trisvabhāva* as itself the path to *bodhi*); and the magician-illusion analogy is developed at length to illustrate how the same *paratantra*-substrate can present as *parikalpita*-illusion and as *pariniṣpanna*-truth. The text is the most condensed Yogācāra philosophical statement in the school's foundation-stratum.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -108,6 +112,7 @@
       "ascription_notes": "Securely authored; survives in Tibetan and Chinese (Lamotte 1936).",
       "genre": "polemical-tract",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "A treatise on the metaphysics of *karma*: how karmic action persists across moments to produce its later result, given the universal momentariness (*kṣaṇika*) of all *dharmas*. Vasubandhu surveys and refutes the Sarvāstivāda *avijñapti-rūpa* (a non-manifest physical residue), the Sautrāntika *bīja* (causal seed-chains), and the Vibhajyavāda *avipraṇāśa* (the karmic 'preservation factor'), arguing that only the *ālaya-vijñāna* of the Yogācāra provides an adequate carrier for the karmic *vāsanā*-seeds across the moments of cognitive flow. The text is one of the principal sources for the Yogācāra integration of *abhidharma* karma-theory with the *ālaya*-doctrine.",
       "key_passage_ids": [],
       "entry_status": "reviewed"

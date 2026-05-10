@@ -54,6 +54,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "clean-on-disk",
       "summary": "An independent *prakaraṇa* in four *kāṇḍas* of mixed prose and verse. *Brahma-Kāṇḍa* establishes the nature of *brahman* and the *jīva*'s relation to it; the opening prose develops the *ānanda*-argument and the formula on *avidyā* as *anirvacanīyā* whose locus is the *jīvas*. *Tarka-Kāṇḍa* defends Vedāntic non-duality on epistemological grounds. The Tarka-kāṇḍa's opening verse states the programmatic claim: perception establishes its own field but is not a *niṣeddhṛ* — it has no jurisdiction to cancel the *āgama*-teaching of unity (*naikatva āgamas tena pratyakṣeṇa virudhyate*). *Niyoga-Kāṇḍa* engages Mīmāṃsaka *niyoga*-theory on injunction and works out the relation of Vedic action to liberating knowledge. *Siddhi-Kāṇḍa* treats realization, the *prasaṅkhyāna*-method, and *jīvanmukti*. The signature doctrine — that *mahāvākya*-cognition must be prolonged into meditative *bhāvanā* before liberating realization arises — is precisely what Sureśvara's *Naiṣkarmya-Siddhi* will reject. Whether Maṇḍana is identical to the pre-conversion Sureśvara (Viśvarūpa) remains contested: the traditional sectarian sources affirm the identification; Hiriyanna and Allen Thrasher (in his monograph *The Advaita Vedānta of Brahma-Siddhi*, 1993) reject it on doctrinal grounds — the *Brahma-Siddhi* and the *Naiṣkarmya-Siddhi* diverge on exactly the points Maṇḍana defends. Standard edition: S. Kuppuswami Sastri (Madras, 1937).",
       "key_passage_ids": [
         "bs-1-1__ananda-svabhava-atma",
@@ -1175,8 +1176,8 @@
   "comparative_claim_ids": [],
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-batch1-opus",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus",
   "polemic_chain_ids": [
     "bhaskara-pracchanna-bauddha",
     "kumarila-mandana-jnana-karma-samuccaya"

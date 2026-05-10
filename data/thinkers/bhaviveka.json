@@ -44,6 +44,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Bhāviveka's auto-commentary on his *Madhyamaka-Hṛdaya-Kārikā* (\"Heart of the Middle Way\"), an eleven-chapter doxographic-and-polemical treatise. The first three chapters supply the positive Mādhyamaka, structured as Dignāga-influenced *anumāna*s for *śūnyatā* — Bhāviveka's distinctive Svātantrika contribution. Chapters 4–8 are a systematic refutation of rival schools — *śrāvaka-yāna*, Yogācāra, Sāṃkhya, Vaiśeṣika, Vedānta, Mīmāṃsā — each treated with extensive *pūrva-pakṣa* presentation followed by Mādhyamaka rebuttal. Chapter 4 (against the *Śrāvaka-yāna*) and chapter 5 (against Yogācāra) are the philosophical centre: the Yogācāra-refutation engages the *trisvabhāva* doctrine and the *vijñapti-mātratā* thesis on the grounds that they reintroduce *svabhāva* in disguise. Chapter 8 (against Vedānta) is a unique source: it preserves a sixth-century non-dualist Vedāntic position (the *aupaniṣadika*-pakṣa) refuted from the Mādhyamaka side, a position pre-dating Śaṅkara and important for the historical reconstruction of pre-Śaṅkara Advaita.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -59,6 +60,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Bhāviveka's chapter-by-chapter commentary on Nāgārjuna's MMK, supplying the Svātantrika reading: each MMK chapter is rendered as a sequence of *svatantra-anumāna*s with explicit *vyāpti*-statements and *udāharaṇa*-illustrations, demonstrating the Mādhyamaka conclusion in inferential form. The commentary is the immediate target of Candrakīrti's *Prasanna-Padā*: Candrakīrti's opening rebuttal of *svatantra-anumāna* is structurally a refutation of Bhāviveka's commentarial method, not a refutation of any particular Bhāviveka thesis. The Tibetan tradition treats the *Prajñā-Pradīpa* as one of the three principal Mādhyamaka commentaries on the MMK alongside Buddhapālita's *Vṛtti* and Candrakīrti's *Prasanna-Padā*; the Prāsaṅgika–Svātantrika distinction crystallises as a doxographic category through the relation of these three commentaries.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -70,5 +72,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-buddhist-comparators-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }

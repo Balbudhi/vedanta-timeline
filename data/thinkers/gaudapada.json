@@ -36,6 +36,7 @@
       ],
       "genre": "varttika",
       "language": "sanskrit",
+      "source_status": "clean-on-disk",
       "summary": "A verse *prakaraṇa* in four parts; also titled *Āgama-Śāstra*. *Āgama-Prakaraṇa* (1) is the most directly Upaniṣadic, glossing the twelve verses of the Māṇḍūkya on the four states of *ātman* and the four quarters of *Oṃ*. *Vaitathya-Prakaraṇa* (2) sets out the unreality argument: waking and dream are mind-projected and epistemically equivalent; the well-known reasoning at MK 2.5–6 turns on the parity of differentiations and on the inference that what is absent at the beginning and end of an experience is no different in the middle. *Advaita-Prakaraṇa* (3) gives the positive exposition of non-duality, the doctrine of *ajāti*, and the simile of space delimited by pots (*ghaṭākāśa*) at MK 3.3–7 — the classic anchor for Gauḍapāda's account of the *jīva*-*ātman* relation. *Alātaśānti-Prakaraṇa* (4) develops the firebrand-circle argument and engages Buddhist analytic categories most heavily. Authorship is contested. Traditionally the four are by a single Gauḍapāda, Śaṅkara's *parama-guru*. Modern scholarship has variously argued for separate authors, especially for a Buddhist hand on the fourth *prakaraṇa* (Bhattacharya, V. Bhattacharya 1943; King 1995). Current consensus broadly accepts unified Gauḍapādan authorship while recognizing the fourth *prakaraṇa*'s heaviest Mahāyāna intertextuality. The work is the foundational pre-Śaṅkara Advaita treatise; Śaṅkara's commentary on it canonizes its place in the Advaita *prasthāna*.",
       "key_passage_ids": [
         "mk-1-16-18__awakening-and-duality-as-maya",
@@ -1766,8 +1767,8 @@
   "comparative_claim_ids": [],
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-batch1-opus",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus",
   "polemic_chain_ids": [
     "bhaskara-pracchanna-bauddha"
   ]
