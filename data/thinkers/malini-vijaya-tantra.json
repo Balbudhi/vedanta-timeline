@@ -89,7 +89,8 @@
       "language": "sanskrit",
       "summary": "Abhinavagupta's monumental thirty-seven-chapter Trika summa. The *Tantrāloka* is structured throughout as an exposition of the *Mālinī-Vijaya*: it cites the source-tantra more often than any other authority, takes its *tattva*-ladder, *trika*-structure, and *upāya*-doctrine from the source-tantra, and follows the source-tantra's organisation in its principal sections on cosmology, ritual, and yoga. The *Tantrāloka* is the most extensive single document of the Bhairava-tantra interpretive tradition and the form in which the Mālinī-Vijaya's philosophy receives its mature exposition. Jayaratha's *Tantrāloka-Viveka* is the principal sub-commentary, indispensable for the mature Trika.",
       "key_passage_ids": [],
-      "entry_status": "reviewed"
+      "entry_status": "reviewed",
+      "source_status": "clean-on-disk"
     }
   ],
   "key_passages": [],
@@ -98,5 +99,5 @@
   "entry_status": "draft",
   "entry_owner_agent": "non-vedic-comparator-extension-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-secondary-citation-audit-opus"
+  "last_verified_by": "wave-rigor-opus"
 }
