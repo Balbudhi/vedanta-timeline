@@ -1,54 +1,28 @@
-# Śata-Dūṣaṇī — Extended Translation
-**By:** Vedānta Deśika  
-**Locus scope:** *Śatadūṣaṇī*, vādas 20–27 (the *jīva* / *dharmabhūtajñāna* cluster), identified as the natural unit by secondary witness; no primary Sanskrit witness of these vādas is present in the local corpus, so this file records the archival gap rather than a fabricated translation.  
-**Source edition transcribed from:** No primary Sanskrit source edition of the *Śatadūṣaṇī* is present on disk, so no transcription was possible. Secondary bibliographic control on disk identifies: Veṅkaṭanātha, *Śatadūṣaṇī*, ed. Aṇṇaṅgarācārya, Conjeevaram: Śrīmadvedāntadeśikagranthamālā, 1940.  
-**Translator:** Pāṇinian-rich extraction by Codex 5.4 (reasoning=high), 2026-05-10.
+# Śatadūṣaṇī
+
+**By:** Vedānta Deśika (Veṅkaṭanātha)
+**Genre:** polemical *prakaraṇa* against Advaita
 
 ---
 
-## Editorial introduction
+## Status
 
-The natural extended unit here, if the text itself were recoverable, is not the whole unfinished hundred *dūṣaṇa*-s, but the cluster on the self and its qualifying cognition, vādas 20–27. A local secondary witness identifies precisely this run as the place where Veṅkaṭanātha treats the individual self against the Advaita doctrine of consciousness, and singles out vāda 21, the *saṃvidanutpattidūṣaṇavāda*, on the continuity of *dharmabhūtajñāna* across states such as waking, sleep, and remembered prior non-cognition. The same witness cites vāda 23 for the doctrine that qualifying knowledge, though eternal, appears in contracted and expanded states according to karma. That makes this cluster the most defensible natural unit for an extended reader-facing translation.
+The Sanskrit text of the *Śatadūṣaṇī* is not currently in our corpus. The Vedānta interactive timeline does not have a defensible Sanskrit witness on disk for this text, and producing an annotated translation would mean fabricating engagement we cannot ground.
 
-Its place in the work is also structurally apt. The *Śatadūṣaṇī* opens by attacking the coherence of *nirviśeṣa*-Brahman as an object of cognition, then moves through scriptural exegesis, error-theory, and the locus and status of *avidyā*. By the time the self-cluster is reached, Deśika's polemic has to become constructive. He can no longer rest with reductio alone. He must state what a Viśiṣṭādvaitin takes the self to be, how self-luminosity is to be understood, and how a real continuity of qualifying knowledge can coexist with alternating states of manifestation. In Deśika's broader corpus, this is exactly the pressure that links the *Śatadūṣaṇī* to the more systematic expositions of the *Nyāya-Pariśuddhi*, *Nyāya-Siddhāñjana*, *Tattva-Muktā-Kalāpa*, and *Sarvārtha-Siddhi*.
+What is widely known about this work:
 
-But the local corpus does not contain the Sanskrit text needed for a responsible translation. The Deśika entries in the local corpus metadata list only the *Pāñcarātra-Rakṣā*, *Tattva-Muktā-Kalāpa / Sarvārtha-Siddhi*, and *Rahasya-Traya-Sāra*; repo-wide searches likewise recover no *Śatadūṣaṇī* text file or facsimile. What can be supplied honestly, therefore, is an archival note with secondary-source attribution, not a fabricated line-by-line translation.
+- A polemical *prakaraṇa* in the form of a sequence of self-contained *vādas* (debates), composed in the early fourteenth century. The transmitted recension contains sixty-six completed *vādas*; the title *Śatadūṣaṇī* ("Hundred Refutations") reflects the work's planned scope rather than its final length, and the tradition holds the work was left unfinished.
+- Each *vāda* targets a specific Advaita doctrine — definitions of *avidyā*, the *anirvacanīya* status of the world, *svaprakāśatva*, the *kevala-jñāna* theory of liberation, the standing of *dharma-bhūta-jñāna*, and so on — refuting it in compressed Naiyāyika-style argument. The *Śatadūṣaṇī* is one of the principal Viśiṣṭādvaita responses to post-Citsukha Advaita dialectic; the Advaita rejoinder is taken up at length by Madhusūdana in the *Advaita-Siddhi*.
 
----
+What is in our corpus that bears on it:
 
-## Translation
+- Vedānta Deśika's `core_thesis` and engaged_works summary in the timeline entry (see https://balbudhi.github.io/vedanta-timeline/ and locate Vedānta Deśika).
+- Files for Vedānta Deśika's *Tattva-Muktā-Kalāpa*, *Sarvārtha-Siddhi*, *Rahasya-Traya-Sāra*, and *Pāñcarātra-Rakṣā*, which together provide the constructive metaphysics whose polemical face is the *Śatadūṣaṇī*; the Madhusūdana *Advaita-Siddhi* file shows how the Advaita tradition replied.
 
-### Vādas 20–27 (intended natural unit; primary text unavailable)
+## Acquisition queue
 
-**Sanskrit (IAST):**
-> *No primary Sanskrit witness of the* Śatadūṣaṇī *is present in the local corpus. No IAST transcription can be responsibly supplied.*
+The text is queued for acquisition. If you have access to a clean digital edition (Devanāgarī or critical IAST), please open an issue at https://github.com/Balbudhi/vedanta-timeline.
 
-**English (line-by-line):**
-> No line-by-line translation is supplied.  
-> The Sanskrit lines required for transcription, segmentation, and Pāṇinian analysis are not recoverable from the on-disk primary corpus.
-
-**Word-by-word:**
-
-| Pada | Stem / root | Pratyaya / morphology | Gloss |
-|---|---|---|---|
-| — | — | — | No recoverable Sanskrit text on disk |
-
-**Compound resolution (samāsa-vigraha):**
-- Not applicable: no primary Sanskrit line is available for resolution.
-
-**Kāraka structure:**
-- Not applicable: no primary Sanskrit line is available for syntactic analysis.
-
-**Verbal modality:**
-- Not applicable: no primary Sanskrit line is available for verbal analysis.
-
-**Note:**
-The local secondary witnesses do permit three responsible claims. First, the likely natural unit is vādas 20–27, since a local extract of *The Bloomsbury Research Handbook of Vedānta* identifies that range as Deśika's concentrated treatment of the *jīva* and *dharmabhūtajñāna*. Second, the same extract identifies vāda 21 specifically as the *saṃvidanutpattidūṣaṇavāda*. Third, it cites vāda 23 for Deśika's thesis that qualifying knowledge, though eternal, is spoken of as contracted and expanded with respect to particular objects under karma. The same handbook extract gives the bibliographic shorthand for a printed edition: Veṅkaṭanātha, *Śatadūṣaṇī*, ed. Aṇṇaṅgarācārya, Conjeevaram, 1940.
-
----
-
-## Editorial closing
-
-What this intended passage-cluster would have settled is the point at which Deśika's anti-Advaita polemic becomes unmistakably constructive. The issue is not only whether Advaita can defend self-luminosity, or explain remembered non-cognition, or preserve the continuity of consciousness across alternating states. The deeper issue is whether those phenomena require a real self with an enduring but variably manifest *dharmabhūtajñāna*. That is the Viśiṣṭādvaita thesis the cluster appears to have pressed.
-
-What it would still have left open is the full systematic articulation of that thesis. For that, Deśika's later or parallel constructive loci have to be consulted: *Nyāya-Siddhāñjana*, chapter 2 (*jīvapariccheda*) and chapter 5; *Tattva-Muktā-Kalāpa*, *jīva-sara* and *buddhi-sara*, together with the *Sarvārtha-Siddhi*; *Paramatabhaṅga*, chapter 2; and *Rahasya-Traya-Sāra*, chapters 3 and 5. Those texts do not replace the lost polemical detail of the present locus. They show where its positive metaphysics was taken up and stabilized.
+Recommended editions to seek:
+- Aṇṇaṅgarācārya (ed.), *Śatadūṣaṇī of Veṅkaṭanātha*, Conjeevaram: Śrīmadvedāntadeśikagranthamālā, 1940.
+- *Śatadūṣaṇī* with the *Cāṇḍamāruta* commentary of Mahācārya, multiple Śrīraṅgam and Madras editions; the *Cāṇḍamāruta* is essential for unpacking the often elliptical *vādas*.
