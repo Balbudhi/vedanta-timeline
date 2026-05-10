@@ -49,7 +49,8 @@
       "language": "kannada",
       "summary": "An oral-poetic corpus of short prose-poems in Old-Kannada (Halegannada), each ending with the signature-address *kūḍala-saṅgama-deva* (\"Lord of the meeting rivers\" — a Śiva-form Basava had worshipped at Kūḍala-saṅgama in his youth). The vacanas are not metrical verse but prose-poetry built on parallelism, repetition, and rhythmic close. Their themes cover the entire Vīraśaiva doctrinal-disciplinary frame: the *iṣṭa-liṅga* worship, the *aṣṭāvaraṇa*, the *pañcācāra* (the five disciplines: *liṅgācāra*, *sadācāra*, *śivācāra*, *bhṛtyācāra*, *gaṇācāra*), the *kāyaka* doctrine that all honest labour is sacred, the *dāsoha* doctrine that wealth belongs to the community of Śaraṇas, the *anubhava-maṇṭapa*'s anti-caste anti-gender-hierarchy ethical vision. The polemical edge — directed against caste-Brahmanism, temple-priestly intermediation, and Vedic-ritualist exclusion of non-twice-born from the Śaiva path — is sharp throughout: 'making the river that goes by your house holy / making the trees in your yard sacred / how about the worship in the heart?' (a representative Basava-style vacana on internal worship versus external Brahmanical purity). The vacana-corpus is the principal source for Vīraśaiva theology and the form in which the Vīraśaiva movement enters the textual record. A.K. Ramanujan's *Speaking of Śiva* (1973) is the standard English-language anthology and remains the principal point of access for non-Kannada readers. Note on language: the morphological analysis of these texts follows Old-Kannada (Halegannada) grammar (verbal forms in *-uvenu*, *-uttide*, etc.; the agglutinative case-system of Kannada with eight cases including the *prathamā / dvitīyā / tṛtīyā* paradigm in the Kannada inflectional pattern) rather than Pāṇinian Sanskrit grammar.",
       "key_passage_ids": [],
-      "entry_status": "reviewed"
+      "entry_status": "reviewed",
+      "source_status": "primary-text-not-in-corpus"
     }
   ],
   "key_passages": [],
@@ -58,5 +59,5 @@
   "entry_status": "draft",
   "entry_owner_agent": "non-vedic-comparator-extension-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }

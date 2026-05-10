@@ -49,7 +49,8 @@
       "language": "sanskrit",
       "summary": "Twenty-three *adhyāyas* in dialogue between Bhairava and the goddess, articulating the Trika cosmology, ritual, and yoga. The opening *adhyāyas* (1–4) develop the *36-tattva* ladder and the *trika* (Śiva, Śakti, Nara) ontology. The middle *adhyāyas* (5–10) develop the *mantra*-cosmology and the *mālinī* arrangement of the alphabet (the Sanskrit alphabet rearranged in a non-standard sequence beginning *na-ṛ-ṝ-ḷ-ḹ-tha-ca-dha...* — the arrangement that makes the *mātṛkā* a power-tool rather than a phonetic catalogue). The *adhyāyas* on *yoga* (11–17) articulate the *kuṇḍalinī*-and-*cakra* cosmology, the three *upāyas* (*śāmbhava*, *śākta*, *āṇava*), and the *prāṇa*-discipline (these chapters are critically edited and translated in Vasudeva 2004). The closing *adhyāyas* (18–23) develop the *dīkṣā* ritual structure and the post-initiatic disciplines. The work is the foundational Trika scriptural authority and is the document Abhinavagupta's *Mālinī-Vijaya-Vārttika* and *Tantrāloka* are the philosophy of. The recension known as the *Mālinī-Vijayottara-Tantra* (the standard published form) is a substantial continuation; modern scholarship treats it and the related *Mālinī-Vijaya* recensions as the source-text complex Abhinavagupta is engaging.",
       "key_passage_ids": [],
-      "entry_status": "reviewed"
+      "entry_status": "reviewed",
+      "source_status": "primary-text-not-in-corpus"
     },
     {
       "work_id": "malini-vijaya-varttika",
@@ -68,7 +69,8 @@
       "language": "sanskrit",
       "summary": "Abhinavagupta's verse-commentary on the *Mālinī-Vijaya-Tantra*, in two extensive *adhikāras*, the principal interpretive vehicle through which the tantra's philosophy is articulated for the Trika tradition. The *vārttika* unfolds the tantra's *tattva*-ladder, *trika* structure, *upāya*-doctrine, and *mantra*-cosmology with full Trika philosophical apparatus, integrating the *Pratyabhijñā* recognition-thesis (inherited from Utpaladeva and Somānanda) with the Bhairava-tantra scriptural ground. The *Mālinī-Vijaya-Vārttika* is the document that fixes the Trika reading of its source-tantra and is the principal source for understanding how Abhinavagupta moves between scriptural authority and philosophical analysis. Hanneder's modern scholarship is the principal point of access for non-Kashmirian readers.",
       "key_passage_ids": [],
-      "entry_status": "reviewed"
+      "entry_status": "reviewed",
+      "source_status": "clean-on-disk"
     },
     {
       "work_id": "tantraloka-on-malini-vijaya",
