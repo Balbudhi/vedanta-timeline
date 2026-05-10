@@ -3,32 +3,198 @@
   "term_iast": "ālaya-vijñāna",
   "term_devanagari": "आलयविज्ञान",
   "literal": "storehouse-consciousness; the abiding cognitive stream that receives and carries seeds",
-  "aliases": ["alaya-vijnana", "ālaya-vijñāna", "Ālaya-Vijñāna", "ālayavijñāna", "ālaya"],
+  "aliases": [
+    "alaya-vijnana",
+    "ālaya-vijñāna",
+    "Ālaya-Vijñāna",
+    "ālayavijñāna",
+    "ālaya"
+  ],
   "invariant_definition": "The Yogācāra posit of a basal cognitive stream that stores karmic seeds (*bīja*) and latent dispositions (*vāsanā*) and thereby explains continuity across momentary cognition. It is called \"storehouse\" not because it is a static container but because it is the receptacle in which impressions are deposited and from which future experience matures. The term sits inside a larger apparatus: six sense consciousnesses, the self-grasping seventh *manas*, and the eighth *ālaya-vijñāna*; the *trisvabhāva* analysis; and the doctrine of *āśraya-parāvṛtti*, the overturning of the basis in awakening. The *ālaya* performs work that an opponent would assign to self, substance, or enduring mind, yet Yogācāra insists it is neither eternal nor independent. It is dependently arisen, morally conditioned, and transformable. This is exactly why Mādhyamaka attacks it as too much like a substrate, and why Vedānta attacks it as too little to bear the continuity it is meant to explain.",
   "per_school": [
     {
-      "school": "Yogācāra",
-      "definition": "The *ālaya-vijñāna* is the continuity-bearing basis of saṃsāric cognition. Seeds and dispositions are perfumed into it and later mature as subject-object appearance, affective habit, and karmic result. The seventh *manas* mistakes this stream for a self, and liberation consists in *āśraya-parāvṛtti*, the transformation of this very basis so that the dualizing appropriation ceases. The doctrine is therefore both metaphysical and soteriological: it explains continuity and names what must be transformed.",
-      "primary_loci": ["Asaṅga, Mahāyāna-Saṅgraha 1.16–61", "Vasubandhu, Triṃśikā 1–17", "Abhidharma-Samuccaya 1.16–24"]
+      "school": "Advaita",
+      "definition": "Advaita scholastics treat `ālaya-vijñāna` as a Buddhist attempt to provide an ādhāra for `vāsanā`, but deny that a kṣaṇika cognition can bear deposited impressions, memory, or recognition; without a stable witnessing self, the supposed substrate fails. [cite://vacaspati/bhamati/alayavijnana-vasana]",
+      "primary_loci": [
+        "Vācaspatimiśra, Bhāmati on BSB 2.2.30-31"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vacaspati/bhamati/alayavijnana-vasana",
+          "locus_short": "Bhāmati on BSB 2.2.30-31"
+        }
+      ]
     },
     {
-      "school": "Laṅkāvatāra / Buddha-nature Mahāyāna",
-      "definition": "The *ālaya* is re-described in a Buddha-nature register as the basis that, when not grasped through duality, is continuous with the language of *tathāgatagarbha*. This does not make it a hidden self; the point is that the obscured cognitive basis and the awakened basis are not two different substances. The texts therefore use the *ālaya* both to explain bondage and to explain why awakening is a purification rather than the manufacture of an alien state.",
-      "primary_loci": ["Laṅkāvatāra-Sūtra 2 [NOT YET RETRIEVED]", "Laṅkāvatāra-Sūtra 10.748–750"]
+      "school": "Viśiṣṭādvaita",
+      "definition": "Viśiṣṭādvaita sources reconstruct the Buddhist distinction between `pravṛtti-vijñāna` and `ālaya-vijñāna` only to deny that a kṣaṇika-vijñāna-santāna can secure `pratyabhijñā`. [cite://yamuna/atma-siddhi/alayavijnana-pratisandhana] Yāmuna instead argues for an enduring, self-manifest `ātman` distinct from body, senses, mind, vital breath, and cognitions. [cite://yamuna/atma-siddhi/3]",
+      "primary_loci": [
+        "Yāmuna, Ātma-Siddhi, anti-saṃvid-ātman / anti-kṣaṇikavijñāna discussion",
+        "Yāmuna, Ātma-Siddhi 3"
+      ],
+      "citations": [
+        {
+          "cite": "cite://yamuna/atma-siddhi/alayavijnana-pratisandhana",
+          "locus_short": "ĀS, anti-saṃvid-ātman section"
+        },
+        {
+          "cite": "cite://yamuna/atma-siddhi/3",
+          "locus_short": "ĀS 3"
+        }
+      ]
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Madhva, Brahma-Sūtra-Bhāṣya 2.2.28-32 [NOT YET RETRIEVED]",
+        "Jayatīrtha / Vyāsatīrtha anti-Buddhist loci [NOT YET RETRIEVED]"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Bhāskara, Brahma-Sūtra-Bhāṣya 2.2.28-32 [NOT YET RETRIEVED]",
+        "Yādava-Prakāśa materials [NOT YET RETRIEVED]"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Baladeva, Govinda-Bhāṣya on BSB 2.2.28-32 [NOT YET RETRIEVED]",
+        "Jīva Gosvāmin materials [NOT YET RETRIEVED]"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Nimbārka, Vedānta-Pārijāta-Saurabha on BSB 2.2.28-32 [NOT YET RETRIEVED]"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "Śuddhādvaita rejects `ālaya-vijñāna` as the putative ādhāra of `vāsanā`, since a momentary cognition cannot sustain the latent impressions whose continuity the Buddhist theory needs. [cite://vallabha/anu-bhasya/alayavijnana-kshanikatva]",
+      "primary_loci": [
+        "Vallabha, Aṇu-Bhāṣya on BSB 2.2.31"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anu-bhasya/alayavijnana-kshanikatva",
+          "locus_short": "AṇuBh on BSB 2.2.31"
+        }
+      ]
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "No explicit ālaya-vijñāna discussion was found in the listed Sāṃkhya primaries; the school's continuity-theory is articulated through prakṛti, buddhi, saṃskāra, and puruṣa rather than this Buddhist technical term."
+    },
+    {
+      "school": "Yoga",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "In the listed Yoga primaries, continuity is handled through citta, saṃskāra, and karmāśaya; no substantive ālaya-vijñāna locus was recovered."
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "Nyāya-Vaiśeṣika rejects the move from `pratisaṃdhāna` to `ālaya-vijñāna`, since a distinct `ālaya` beyond the manifest cognitions is not established and successful memory therefore points instead to one enduring knower. [cite://vacaspati/nyayavarttikatatparyatika/pratisandhana-alaya]",
+      "primary_loci": [
+        "Vācaspatimiśra, Nyāyavārttikatātparyaṭīkā, pratisandhāna discussion"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vacaspati/nyayavarttikatatparyatika/pratisandhana-alaya",
+          "locus_short": "NVTṬ, pratisandhāna section"
+        }
+      ]
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "No explicit ālaya-vijñāna discussion was found in the listed Mīmāṃsā primaries; the searchable corpus here does not present the term as a substantive school-category."
     },
     {
       "school": "Mādhyamaka",
-      "definition": "Mādhyamaka critics take the *ālaya-vijñāna* to be a relapse into substrate metaphysics. If karmic continuity requires a specially privileged basis, then Yogācāra has merely replaced the self with a functional equivalent. The Mādhyamaka answer is that continuity can be explained by dependent arising alone, without granting any stratum the role of quasi-substance.",
-      "primary_loci": ["Candrakīrti, Madhyamakāvatāra 6.45–61", "Bhāviveka, Madhyamaka-Hṛdaya 5 [NOT YET RETRIEVED]"]
+      "definition": "Candrakīrti states that karmic potency can yield its fruit without positing an ultimately real `ālaya` as substrate. [cite://candrakirti/madhyamakavatara/6.39-no-alaya] He then classifies speech such as `asty ālayaḥ` and `pudgala eva cāsti` as pedagogical teaching for particular disciples rather than paramārthasat. [cite://candrakirti/madhyamakavatara/6.43-44-neyartha-alaya]",
+      "primary_loci": [
+        "Candrakīrti, Madhyamakāvatāra 6.39",
+        "Candrakīrti, Madhyamakāvatāra 6.43-44"
+      ],
+      "citations": [
+        {
+          "cite": "cite://candrakirti/madhyamakavatara/6.39-no-alaya",
+          "locus_short": "MAv 6.39"
+        },
+        {
+          "cite": "cite://candrakirti/madhyamakavatara/6.43-44-neyartha-alaya",
+          "locus_short": "MAv 6.43-44"
+        }
+      ]
     },
     {
-      "school": "Vedānta",
-      "definition": "Vedānta uses the *ālaya-vijñāna* as a principal Buddhist target. The criticism is structural: if the *ālaya* is momentary, it cannot ground recognition, memory, and karmic transmission; if it is not momentary, Buddhism has reintroduced a continuant under another name. Comparisons with Advaita's *avidyā* or causal body are therefore limited and polemically unstable: the schools assign different ontological roles to their continuity-bearing devices.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.2.31–32", "Yāmuna, Saṃvit-Siddhi [NOT YET RETRIEVED]"]
+      "school": "Yogācāra",
+      "definition": "In Yogācāra, `ālaya-vijñāna` is the `vipāka` form of `vijñāna-pariṇāma` and is explicitly `sarvabījakam`. [cite://vasubandhu/trimsika/2] The self-grasping `manas` depends on that stream and takes it as its object, so saṃsāric appropriation is structurally tied to the ālaya itself. [cite://vasubandhu/trimsika/5]",
+      "primary_loci": [
+        "Vasubandhu, Triṃśikā 2",
+        "Vasubandhu, Triṃśikā 5"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/trimsika/2",
+          "locus_short": "Tr 2"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/5",
+          "locus_short": "Tr 5"
+        }
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [
+        "Utpaladeva / Abhinavagupta anti-Buddhist loci [NOT YET RETRIEVED]",
+        "Kṣemarāja materials [NOT YET RETRIEVED]"
+      ],
+      "citations": []
+    },
+    {
+      "school": "Jainism",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The supplied Jain primary, the Tattvārtha-Sūtra, does not treat ālaya-vijñāna as a Jain technical category; the system explains bondage and continuity through its own jīva-karma framework."
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "No on-disk grammatical primary was supplied for this phase, and the school is not indexed here as having a distinct substantive doctrine of ālaya-vijñāna."
     }
   ],
-  "see_also": ["vijnapti-matrata", "trisvabhava", "vasana", "sunyata", "atman", "avidya", "saksin"],
+  "see_also": [
+    "vijnapti-matrata",
+    "trisvabhava",
+    "vasana",
+    "sunyata",
+    "atman",
+    "avidya",
+    "saksin"
+  ],
   "translator_note": "\"Storehouse-consciousness\" is established usage, but it easily suggests a static container or a hidden soul. Both are misleading. The term names a conditioned continuity-bearing stream, not an enduring self. \"Foundational consciousness\" or \"substrate consciousness\" captures some of the function, but each imports metaphysical weight from English that the Yogācārin is precisely trying to manage rather than simply accept.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus"
+  "last_verified_by": "glossary-wave2-codex54"
 }
