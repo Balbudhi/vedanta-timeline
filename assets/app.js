@@ -981,6 +981,15 @@ function openThinker(id) {
   detailContent.querySelectorAll("[data-read-full]").forEach((btn) => {
     btn.addEventListener("click", () => openReader(btn.dataset.readFull, btn.dataset.thinker));
   });
+  // wire perspective open buttons
+  detailContent.querySelectorAll(".perspective-open").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const slug = btn.dataset.perspectiveSlug;
+      const list = (perspectivesManifest && perspectivesManifest.perspectives) || [];
+      const p = list.find((x) => x.slug === slug);
+      if (p) openArticle({ ...p, kind: "perspective" });
+    });
+  });
 }
 
 function scrollDotIntoView(t) {
@@ -1013,6 +1022,7 @@ function renderDetail(t) {
     renderEngagedWorks(t),
     renderOrphanPassages(t),
     renderComparativeBlock(t),
+    renderPerspectivesBlock(t),
   ].filter(Boolean).join("");
 }
 
@@ -1185,6 +1195,46 @@ function renderComparativeCard(claim, thinkerId) {
       </div>
     </div>
   `;
+}
+
+// ---------- perspectives layer (interpretive readings flagged as such) -----------
+let perspectivesManifest = null;
+let perspectivesLoading = null;
+async function ensurePerspectivesLoaded() {
+  if (perspectivesManifest) return perspectivesManifest;
+  if (!perspectivesLoading) {
+    perspectivesLoading = loadJSON("data/perspectives/manifest.json").then((m) => {
+      perspectivesManifest = m || { perspectives: [] };
+      return perspectivesManifest;
+    });
+  }
+  return perspectivesLoading;
+}
+
+function renderPerspectivesBlock(t) {
+  const list = (perspectivesManifest && perspectivesManifest.perspectives) || [];
+  const matches = list.filter((p) => Array.isArray(p.for_thinker_ids) && p.for_thinker_ids.includes(t.id));
+  if (!matches.length) {
+    // Trigger a background load and re-render once available.
+    if (!perspectivesManifest) {
+      ensurePerspectivesLoaded().then(() => {
+        if (state.activeId === t.id) {
+          detailContent.innerHTML = renderDetail(t);
+        }
+      });
+    }
+    return "";
+  }
+  const cards = matches.map((p) => `
+    <div class="perspective-card" data-perspective-slug="${escape(p.slug)}">
+      <span class="perspective-pill">PERSPECTIVE</span>
+      <p class="perspective-title">${escape(p.title)}</p>
+      ${p.subtitle ? `<p class="perspective-subtitle">${md(p.subtitle)}</p>` : ""}
+      <p class="perspective-disclaimer"><em>Reading discipline.</em> An interpretive reading. The school's own self-understanding is preserved in this thinker entry; what follows is what the corpus's interpretive perspective implies about the tradition. The school may very well disagree.</p>
+      <button class="perspective-open" data-perspective-slug="${escape(p.slug)}">Read perspective →</button>
+    </div>
+  `).join("");
+  return `<h3 class="section-head">Perspectives — interpretive readings, flagged as such</h3>${cards}`;
 }
 
 function linkThinker(id) {
@@ -1571,9 +1621,10 @@ async function ensureArticlesLoaded() {
   articlesList.innerHTML = "";
   // Hide superseded articles; only show the latest of each lineage.
   const visible = articlesManifest.articles.filter((a) => a.status !== "superseded");
-  const sectionOrder = ["perspective-investigation", "comparative", "framework", "methodology", "essay", "engagement", "other"];
+  const sectionOrder = ["perspective", "perspective-investigation", "comparative", "framework", "methodology", "essay", "engagement", "other"];
   const sectionLabels = {
-    "perspective-investigation": "Perspectives",
+    "perspective": "Perspectives — explicit interpretive readings",
+    "perspective-investigation": "Perspective investigations (working drafts)",
     "comparative": "Comparative readings",
     "framework": "Frameworks & methodology",
     "methodology": "Frameworks & methodology",
@@ -1596,8 +1647,9 @@ async function ensureArticlesLoaded() {
       const row = document.createElement("div");
       row.className = "article-row";
       row.dataset.slug = a.slug;
+      const pillHTML = a.kind === "perspective" ? '<span class="perspective-pill perspective-pill--inline">PERSPECTIVE</span> ' : "";
       row.innerHTML = `
-        <p class="article-title">${escape(a.title)}${a.status === "in-progress" ? ' <em style="color:#92400e;font-weight:500">(in progress)</em>' : ""}</p>
+        <p class="article-title">${pillHTML}${escape(a.title)}${a.status === "in-progress" ? ' <em style="color:#92400e;font-weight:500">(in progress)</em>' : ""}</p>
         ${a.subtitle ? `<p class="article-subtitle">${md(a.subtitle)}</p>` : ""}
         <p class="article-meta">${a.word_count_approx ? "~" + a.word_count_approx + " words" : ""}${a.date ? " · " + escape(a.date) : ""}</p>
       `;

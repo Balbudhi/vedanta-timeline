@@ -114,7 +114,7 @@ This verse is not ornamental. It compresses the entire sequence of the first *pa
 - *virodhyupasthāpaka-sāmagrī* [upapada-tatpuruṣa]: *virodhinam upasthāpayati sā sāmagrī*.
 - *asamavahita* [nañ-tatpuruṣa]: *na samavahitam*.
 - *grāhyaprāmāṇyāśrayatattajjñāna* [ṣaṣṭhī-tatpuruṣa]: *grāhyaprāmāṇyasya āśrayaṃ yat tat-tat-jñānam*.
-- *tattajjñānaviṣayakasākṣijñāna* [ṣaṣṭhī-tatpuruṣa]: *tattajjñānaṃ viṣayo yasya तत् sākṣijñānam*.
+- *tattajjñānaviṣayakasākṣijñāna* [ṣaṣṭhī-tatpuruṣa]: *tattajjñānaṃ viṣayo yasya tat sākṣijñānam*.
 - *sākṣijñānaviṣayatvanaiyatya* [ṣaṣṭhī-tatpuruṣa]: *sākṣijñānasya viṣayatvasya naiyatyam*.
 - *svatastva* [avyayībhāva]: *svataḥ bhāvaḥ*.
 
