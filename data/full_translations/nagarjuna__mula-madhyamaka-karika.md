@@ -1,0 +1,647 @@
+# Mūla-Madhyamaka-Kārikā — Extended Translation
+**By:** Nāgārjuna  
+**Locus scope:** MMK 1.1–14 (*pratyaya-parīkṣā*); 18.4–12 (*ātma-parīkṣā*); 24.8–22 (*ārya-satya-parīkṣā*); 25.1–24 (*nirvāṇa-parīkṣā*). The local GRETIL base text ends Chapter 25 at verse 24.  
+**Source edition transcribed from:** GRETIL electronic text, *Nagarjuna: Mulamadhyamakakarika* (input by Douglas Bachman; revised by Richard Mahoney), local file acquired from `https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/3_phil/buddh/nagmmk_u.htm`.  
+**Translator:** Pāṇinian-rich extraction by Codex 5.4 (reasoning=high), 2026-05-10.
+
+---
+
+## Editorial introduction
+
+The present file gathers the dispersed loci at which Nāgārjuna’s *catuṣkoṭi* (four-cornered exhaustion of metaphysical options) does its hardest work. MMK 1.1–14 opens the treatise by denying that arising can be secured from self, from other, from both, or without cause; MMK 18.4–12 transfers the same pressure to the grammar of “I” and “mine,” and then to the status of *tattva* (reality); MMK 24.8–22 states the load-bearing doctrinal identity that dependent arising and emptiness are one and the same thing differently said; MMK 25.1–24 applies the same refusal of all four ontological corners to *nirvāṇa* itself. These passages are not contiguous, but they form a natural argumentative dossier. A reader who isolates MMK 24.18 from MMK 1, 18, and 25 will hear the slogan without hearing the argument that gives the slogan determinate force.
+
+What does the *catuṣkoṭi* commit Nāgārjuna to? Not to a fifth positive ontology hiding behind the four rejected corners, and not to a merely verbal skepticism. It commits him to the claim that what is dependently arisen cannot bear *svabhāva* (own-being), and that every attempt to treat arising, self, truth, or release as if they carried such own-being collapses under analysis. Hence MMK 24.18, *yaḥ pratītyasamutpādaḥ śūnyatāṃ tāṃ pracakṣmahe*, is the axial verse of the whole dossier. *Śūnyatā* (emptiness) is not a second reality behind appearances; it is the name of their dependent status. The two truths in 24.8–10 are therefore not an optional appendix. They are what keeps causation, suffering, practice, and liberation intact while denying them independent self-grounding.
+
+This is also why these verses become the unavoidable locus of Vedāntic engagement. Bādarāyaṇa’s anti-Buddhist sequence at *Brahma-Sūtra* 2.2.18–32, Śaṅkara’s bhāṣya there, Bhāskara’s *pracchanna-bauddha* charge, and Madhva’s anti-Mādhyamaka polemic all turn, directly or structurally, on whether Nāgārjuna has preserved the world by de-essentializing it or destroyed the world by emptying it. The present dossier shows that Nāgārjuna does neither crude thing. He removes *svabhāva*; he does not abolish dependent functioning.
+
+---
+
+## Translation
+
+### MMK 1.1
+
+**Sanskrit (IAST):**
+> *na svato nāpi parato na dvābhyāṃ nāpy ahetutaḥ*  
+> *utpannā jātu vidyante bhāvāḥ kva cana ke cana*
+
+**English (line-by-line):**
+> Not from itself, not indeed from another, not from both, and not without cause,  
+> are any entities whatsoever ever found to have arisen anywhere.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| na | na | indecl. neg. particle | not |
+| svataḥ | sva | abl. sg. used adverbially | from itself / from its own side |
+| na | na | indecl. | not |
+| api | api | indecl. enclitic | even / indeed |
+| parataḥ | para | abl. sg. used adverbially | from another |
+| na | na | indecl. | not |
+| dvābhyām | dva | instr./abl. dual | from both |
+| na | na | indecl. | not |
+| api | api | indecl. | even |
+| ahetutaḥ | a-hetu | abl. sg. used adverbially | without cause / from non-cause |
+| utpannāḥ | ut-√pad | nom. pl. m. PPP | arisen |
+| jātu | jātu | indecl. | ever |
+| vidyante | √vid | laṭ, 3rd pl. ātmanepada | are found / exist |
+| bhāvāḥ | bhāva | nom. pl. m. | entities / occurrences |
+| kva | kva | indecl. interrogative adverb | anywhere / where |
+| cana | cana | indecl. enclitic | whatsoever |
+| ke | ka | nom. pl. m. pronoun | any |
+| cana | cana | indecl. enclitic | whatsoever |
+
+**Compound resolution (samāsa-vigraha):**
+- *ahetutaḥ* [nañ-tatpuruṣa]: *na hetutaḥ*, “not from a cause.”
+
+**Kāraka structure:**
+- kartṛ: *bhāvāḥ*
+- apādāna-alternatives denied: *svataḥ*, *parataḥ*, *dvābhyām*, *ahetutaḥ*
+
+**Verbal modality:**
+- *vidyante*: laṭ / ātmanepada / existential-present
+- *utpannāḥ*: past passive participle used predicatively
+
+**Note:**
+This is the programmatic opening of the treatise. The four denied alternatives are the classical *catuṣkoṭi* as applied to origination; compare the compressed restatement at MMK 24.19 and the anti-essentialist corollary at MMK 15.1–2.
+
+---
+
+### MMK 1.2
+
+**Sanskrit (IAST):**
+> *catvāraḥ pratyayā hetur ārambaṇam anantaram*  
+> *tathaivādhipateyaṃ ca pratyayo nāsti pañcamaḥ*
+
+**English (line-by-line):**
+> There are four conditions: cause, object-support, immediate antecedent,  
+> and likewise governing condition; there is no fifth condition.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| catvāraḥ | catvāraḥ | nom. pl. m. numeral | four |
+| pratyayāḥ | pratyaya | nom. pl. m. | conditions |
+| hetuḥ | hetu | nom. sg. m. | cause |
+| ārambaṇam | ārambaṇa | nom. sg. n. | support-object / object-condition |
+| anantaram | anantara | nom. sg. n. used substantively | the immediately preceding |
+| tathā eva | tathā + eva | indecl. + particle | and likewise |
+| adhipateyam | adhipateya | nom. sg. n. | governing / dominant condition |
+| ca | ca | indecl. | and |
+| pratyayaḥ | pratyaya | nom. sg. m. | condition |
+| na | na | indecl. | not |
+| asti | √as | laṭ, 3rd sg. parasmaipada | is |
+| pañcamaḥ | pañcama | nom. sg. m. | fifth |
+
+**Compound resolution (samāsa-vigraha):**
+- *adhipateyam* [taddhita-derivative]: “that which has the character of dominance.”
+
+**Kāraka structure:**
+- kartṛ: *pratyayāḥ* (with the four items in apposition)
+
+**Verbal modality:**
+- *asti*: laṭ / parasmaipada / existential-present
+
+**Note:**
+The verse names the standard Buddhist fourfold schema of conditions. The dialectic that follows does not deny conventional conditional talk; it denies that these conditions can ground arising by *svabhāva*.
+
+---
+
+### MMK 1.3
+
+**Sanskrit (IAST):**
+> *na hi svabhāvo bhāvānāṃ pratyayādiṣu vidyate*  
+> *avidyamāne svabhāve parabhāvo na vidyate*
+
+**English (line-by-line):**
+> For the own-being of entities is not found in conditions and the like.  
+> When own-being is absent, other-being is not found either.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| na | na | indecl. | not |
+| hi | hi | indecl. | for / indeed |
+| svabhāvaḥ | sva-bhāva | nom. sg. m. | own-being |
+| bhāvānām | bhāva | gen. pl. m. | of entities |
+| pratyayādiṣu | pratyaya-ādi | loc. pl. m. compound | in conditions and the rest |
+| vidyate | √vid | laṭ, 3rd sg. ātmanepada | is found |
+| avidyamāne | a-vidyamāna | loc. sg. m./n. pres. part. | when absent / not being present |
+| svabhāve | svabhāva | loc. sg. m. | in own-being / when own-being is present |
+| parabhāvaḥ | para-bhāva | nom. sg. m. | other-being / being-from-another |
+| na | na | indecl. | not |
+| vidyate | √vid | laṭ, 3rd sg. ātmanepada | is found |
+
+**Compound resolution (samāsa-vigraha):**
+- *svabhāvaḥ* [ṣaṣṭhī-tatpuruṣa in lexicalized form]: *svasya bhāvaḥ*, “one’s own being.”
+- *pratyayādiṣu* [dvandva-like extension with *ādi*]: *pratyayeṣu ādiṣu ca*, “in conditions and the rest.”
+- *parabhāvaḥ* [ṣaṣṭhī-tatpuruṣa / dependent derivative]: “being as another” or “being from another.”
+
+**Kāraka structure:**
+- adhikaraṇa: *pratyayādiṣu*
+- sambandha: *bhāvānām*
+- kartṛ: *svabhāvaḥ*, *parabhāvaḥ*
+
+**Verbal modality:**
+- *vidyate* (twice): laṭ / ātmanepada / existential-present
+- *avidyamāne*: present participle in locative absolute force
+
+**Note:**
+Nāgārjuna’s move is exact: once *svabhāva* fails, *parabhāva* does not become a rescue-position. The denial of self-grounding and the denial of other-grounding stand or fall together.
+
+---
+
+### MMK 1.4
+
+**Sanskrit (IAST):**
+> *kriyā na pratyayavatī nāpratyayavatī kriyā*  
+> *pratyayā nākriyāvantaḥ kriyāvantaś ca santy uta*
+
+**English (line-by-line):**
+> An action is not possessed of conditions; nor is an action without conditions.  
+> Conditions are not devoid of action; or are they perhaps possessed of action?
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| kriyā | kriyā | nom. sg. f. | action |
+| na | na | indecl. | not |
+| pratyayavatī | pratyaya-vatī | nom. sg. f. possessive adjective | possessing conditions |
+| na | na | indecl. | not |
+| apratyayavatī | a-pratyaya-vatī | nom. sg. f. negated possessive adjective | without conditions |
+| kriyā | kriyā | nom. sg. f. | action |
+| pratyayāḥ | pratyaya | nom. pl. m. | conditions |
+| na | na | indecl. | not |
+| akriyāvantaḥ | a-kriyā-vant | nom. pl. m. | devoid of action |
+| kriyāvantaḥ | kriyā-vant | nom. pl. m. | possessed of action |
+| ca | ca | indecl. | and |
+| santi | √as | laṭ, 3rd pl. parasmaipada | are |
+| uta | uta | indecl. interrogative/emphatic | or indeed / perhaps |
+
+**Compound resolution (samāsa-vigraha):**
+- *pratyayavatī* [matup-derivative]: *pratyayā asyāḥ santi*, “having conditions.”
+- *apratyayavatī* [nañ + matup]: “not having conditions.”
+- *akriyāvantaḥ* [nañ + matup]: “not having action.”
+- *kriyāvantaḥ* [matup-derivative]: “having action.”
+
+**Kāraka structure:**
+- predicative subject: *kriyā*, *pratyayāḥ*
+- predicate adjectives: *pratyayavatī*, *apratyayavatī*, *akriyāvantaḥ*, *kriyāvantaḥ*
+
+**Verbal modality:**
+- *santi*: laṭ / parasmaipada / present
+
+**Note:**
+The verse refuses both sides of the attempted relation. Nāgārjuna is not yet denying ordinary activity; he is showing that the action-condition nexus cannot be stabilized as an intrinsically real relation.
+
+---
+
+### MMK 1.5
+
+**Sanskrit (IAST):**
+> *utpadyate pratītyemān itīme pratyayāḥ kila*  
+> *yāvan notpadyata ime tāvan nāpratyayāḥ katham*
+
+**English (line-by-line):**
+> “Something arises in dependence on these”: thus, it is said, these are conditions.  
+> But so long as these themselves do not arise, how are they not non-conditions?
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| utpadyate | ut-√pad | laṭ, 3rd sg. ātmanepada | arises |
+| pratītya | prati-√i | absolutive | having depended on / in dependence on |
+| imān | idam | acc. pl. m. | these |
+| iti | iti | indecl. quotative | thus |
+| ime | idam | nom. pl. m. | these |
+| pratyayāḥ | pratyaya | nom. pl. m. | conditions |
+| kila | kila | indecl. | it is said / indeed |
+| yāvat | yāvat | indecl. correlative | so long as |
+| na | na | indecl. | not |
+| utpadyata | ut-√pad | laṭ / injunct-like transmitted form, 3rd pl./dual sense | arise |
+| ime | idam | nom. pl. m. | these |
+| tāvat | tāvat | indecl. correlative | so long / to that extent |
+| na | na | indecl. | not |
+| apratyayāḥ | a-pratyaya | nom. pl. m. | non-conditions |
+| katham | katham | indecl. interrogative | how |
+
+**Compound resolution (samāsa-vigraha):**
+- *apratyayāḥ* [nañ-tatpuruṣa]: *na pratyayāḥ*, “non-conditions.”
+
+**Kāraka structure:**
+- kartṛ: implied product in first half; *ime pratyayāḥ* in nominative predication
+- karmānubandha: *imān* with *pratītya*
+
+**Verbal modality:**
+- *utpadyate*: laṭ / ātmanepada / present
+- *pratītya*: absolutive
+- *utpadyata*: transmitted present form used in argumentative questioning
+
+**Note:**
+The verse presses the regress problem. If something counts as a condition because another thing arises depending on it, the condition itself must also be thinkable as arisen; and then the same question reappears one level back.
+
+---
+
+### MMK 1.6
+
+**Sanskrit (IAST):**
+> *naivāsato naiva sataḥ pratyayo 'rthasya yujyate*  
+> *asataḥ pratyayaḥ kasya sataś ca pratyayena kim*
+
+**English (line-by-line):**
+> A condition of a non-existent thing is not tenable, nor indeed of an existent thing.  
+> For of what non-existent thing would there be a condition? And what would an existent thing need with a condition?
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| na eva | na + eva | indecl. + particle | not indeed |
+| asataḥ | a-sat | gen. sg. n./m. | of the non-existent |
+| na eva | na + eva | indecl. + particle | not indeed |
+| sataḥ | sat | gen. sg. n./m. | of the existent |
+| pratyayaḥ | pratyaya | nom. sg. m. | condition |
+| arthasya | artha | gen. sg. m. | of a thing / object |
+| yujyate | √yuj | laṭ, 3rd sg. ātmanepada/passive sense | is fitting / is tenable |
+| asataḥ | a-sat | gen. sg. n./m. | of the non-existent |
+| pratyayaḥ | pratyaya | nom. sg. m. | condition |
+| kasya | ka | gen. sg. | of what |
+| sataḥ | sat | gen. sg. n./m. | of the existent |
+| ca | ca | indecl. | and |
+| pratyayena | pratyaya | instr. sg. m. | with a condition |
+| kim | kim | indecl./pronoun | what / what use |
+
+**Compound resolution (samāsa-vigraha):**
+- *asataḥ* [nañ-derivative]: “of what is not.”
+
+**Kāraka structure:**
+- sambandha: *arthasya*, *asataḥ*, *sataḥ*
+- karaṇa: *pratyayena*
+
+**Verbal modality:**
+- *yujyate*: laṭ / ātmanepada-passive / logical propriety
+
+**Note:**
+The verse attacks both *satkāryavāda* and *asatkāryavāda* at once. If the effect already is, causation is redundant; if it simply is not, causation has nothing to latch onto.
+
+---
+
+### MMK 1.7
+
+**Sanskrit (IAST):**
+> *na san nāsan na sad asan dharmo nirvartate yadā*  
+> *kathaṃ nirvartako hetur evaṃ sati hi yujyate*
+
+**English (line-by-line):**
+> When no dharma is brought forth as existent, as non-existent, or as both existent and non-existent,  
+> how, that being so, could a producing cause be tenable?
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| na | na | indecl. | not |
+| san | sat | nom. sg. m./n. present participial form used substantively | existent |
+| na | na | indecl. | not |
+| asan | a-sat | nom. sg. m./n. | non-existent |
+| na | na | indecl. | not |
+| sad-asan | sat + asat | nom. sg. compound | existent-and-non-existent |
+| dharmaḥ | dharma | nom. sg. m. | entity / factor |
+| nirvartate | nir-√vṛt | laṭ, 3rd sg. ātmanepada | comes forth / is produced |
+| yadā | yadā | indecl. | when |
+| katham | katham | indecl. | how |
+| nirvartakaḥ | nir-vartaka | nom. sg. m. | producer / producing factor |
+| hetuḥ | hetu | nom. sg. m. | cause |
+| evam | evam | indecl. | thus |
+| sati | sat | loc. sg. n. absolute form | that being so |
+| hi | hi | indecl. | indeed |
+| yujyate | √yuj | laṭ, 3rd sg. ātmanepada/passive sense | is tenable |
+
+**Compound resolution (samāsa-vigraha):**
+- *sad-asan* [dvandva-like coordinative compound]: *sat ca asat ca*, “existent and non-existent.”
+- *nirvartakaḥ* [kṛdanta derivative]: “that which brings forth.”
+
+**Kāraka structure:**
+- kartṛ: *dharmaḥ* (first half), *hetuḥ* (second half)
+- predicate: *san*, *asan*, *sad-asan*
+
+**Verbal modality:**
+- *nirvartate*: laṭ / ātmanepada / present
+- *yujyate*: laṭ / ātmanepada-passive / logical propriety
+
+**Note:**
+Here the *catuṣkoṭi* is explicit, though the fourth corner is carried by the whole negating construction rather than named separately. The point is not lexical but ontological: no determinate mode of self-standing production can be secured.
+
+---
+
+### MMK 1.8
+
+**Sanskrit (IAST):**
+> *anārambaṇa evāyaṃ san dharma upadiśyate*  
+> *athānārambaṇe dharme kuta ārambaṇaṃ punaḥ*
+
+**English (line-by-line):**
+> This existent dharma is taught as without an object-support.  
+> But if the dharma is without an object-support, whence would an object-support come again?
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| anārambaṇaḥ | an-ārambaṇa | nom. sg. m. | without support-object |
+| eva | eva | indecl. | precisely / indeed |
+| ayam | idam | nom. sg. m. | this |
+| san | sat | nom. sg. m. pres. part. used substantively | existent |
+| dharmaḥ | dharma | nom. sg. m. | dharma / entity |
+| upadiśyate | upa-√diś | laṭ, 3rd sg. passive | is taught / is stated |
+| atha | atha | indecl. | then / but |
+| anārambaṇe | an-ārambaṇa | loc. sg. m./n. | when without support-object |
+| dharme | dharma | loc. sg. m. | in the dharma |
+| kutaḥ | kutaḥ | indecl. interrogative | whence |
+| ārambaṇam | ārambaṇa | nom./acc. sg. n. | object-support |
+| punaḥ | punaḥ | indecl. | again |
+
+**Compound resolution (samāsa-vigraha):**
+- *anārambaṇaḥ* [nañ-tatpuruṣa]: *na ārambaṇaḥ*, “without support-object.”
+
+**Kāraka structure:**
+- kartṛ: *dharmaḥ*
+- adhikaraṇa: *anārambaṇe dharme*
+
+**Verbal modality:**
+- *upadiśyate*: laṭ / passive / doctrinal assertion
+
+**Note:**
+The transmitted reading is *ārambaṇa*; the doctrinal slot is that of the object-support condition usually associated with *ālambana-pratyaya*. The argument remains clear: a support-object cannot be intrinsic to what is itself under analysis.
+
+---
+
+### MMK 1.9
+
+**Sanskrit (IAST):**
+> *anutpanneṣu dharmeṣu nirodho nopapadyate*  
+> *nānantaram ato yuktaṃ niruddhe pratyayaś ca kaḥ*
+
+**English (line-by-line):**
+> In dharmas not yet arisen, cessation is not possible.  
+> Therefore the immediately antecedent condition is not tenable; and when something is already ceased, what condition would there be?
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| anutpanneṣu | an-utpanna | loc. pl. m. PPP | in what has not arisen |
+| dharmeṣu | dharma | loc. pl. m. | in dharmas |
+| nirodhaḥ | nirodha | nom. sg. m. | cessation |
+| na | na | indecl. | not |
+| upapadyate | upa-√pad | laṭ, 3rd sg. ātmanepada | is possible / is established |
+| na | na | indecl. | not |
+| anantaram | anantara | nom. sg. n. used substantively | immediate antecedent condition |
+| ataḥ | atas | abl. sg. indecl. use | therefore / from this |
+| yuktam | yukta | nom./acc. sg. n. PPP used predicatively | fitting / tenable |
+| niruddhe | niruddha | loc. sg. m./n. PPP | when ceased |
+| pratyayaḥ | pratyaya | nom. sg. m. | condition |
+| ca | ca | indecl. | and |
+| kaḥ | ka | nom. sg. m. | what / which |
+
+**Compound resolution (samāsa-vigraha):**
+- *anutpanneṣu* [nañ + PPP]: “in what has not arisen.”
+
+**Kāraka structure:**
+- adhikaraṇa: *anutpanneṣu dharmeṣu*, *niruddhe*
+- kartṛ: *nirodhaḥ*, *pratyayaḥ*
+
+**Verbal modality:**
+- *upapadyate*: laṭ / ātmanepada / logical possibility
+
+**Note:**
+The immediate antecedent condition requires a prior cessation, but prior cessation cannot be located either before arising or after full extinction as an independently real state. The verse is another attack on condition-talk taken as ontologically basic.
+
+---
+
+### MMK 1.10
+
+**Sanskrit (IAST):**
+> *bhāvānāṃ niḥsvabhāvānāṃ na sattā vidyate yataḥ*  
+> *satīdam asmin bhavatīty etan naivopapadyate*
+
+**English (line-by-line):**
+> Since there is no inherent existence for entities devoid of own-being,  
+> the claim “this comes to be when that exists” is not ultimately tenable.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| bhāvānām | bhāva | gen. pl. m. | of entities |
+| niḥsvabhāvānām | niḥ-svabhāva | gen. pl. m. | of those lacking own-being |
+| na | na | indecl. | not |
+| sattā | sattā | nom. sg. f. | existence |
+| vidyate | √vid | laṭ, 3rd sg. ātmanepada | is found |
+| yataḥ | yataḥ | indecl. causal | since |
+| satī | sat | loc. sg. f. abs. form | when existing |
+| idam | idam | nom./acc. sg. n. | this |
+| asmin | idam | loc. sg. m./n. | in this / when this |
+| bhavati | √bhū | laṭ, 3rd sg. parasmaipada | becomes / comes to be |
+| iti | iti | indecl. quotative | thus |
+| etat | etad | nom./acc. sg. n. | this |
+| na eva | na + eva | indecl. + particle | not indeed |
+| upapadyate | upa-√pad | laṭ, 3rd sg. ātmanepada | is established / is tenable |
+
+**Compound resolution (samāsa-vigraha):**
+- *niḥsvabhāvānām* [niḥ-prefixed tatpuruṣa]: *niḥ svabhāvaḥ yeṣām*, “of those whose own-being is absent.”
+
+**Kāraka structure:**
+- sambandha: *bhāvānām*, *niḥsvabhāvānām*
+- adhikaraṇa: *asmin*
+- kartṛ: *sattā*, implied *idam*
+
+**Verbal modality:**
+- *vidyate*, *upapadyate*: laṭ / ātmanepada / existential-logical
+- *bhavati*: laṭ / parasmaipada / present
+
+**Note:**
+This is not a denial of conventional dependent-arising formulae; it is a denial that the formula can be read as reporting an intrinsic causal bond. MMK 24.18–19 will restate the same point positively.
+
+---
+
+### MMK 1.11
+
+**Sanskrit (IAST):**
+> *na ca vyastasamasteṣu pratyayeṣvasti tat phalam*  
+> *pratyayebhyaḥ kathaṃ tac ca bhaven na pratyayeṣu yat*
+
+**English (line-by-line):**
+> That result is not present in the conditions taken separately or together.  
+> And how could that arise from the conditions, if it is not in the conditions?
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| na | na | indecl. | not |
+| ca | ca | indecl. | and |
+| vyastasamasteṣu | vyasta-samasta | loc. pl. m./n. compound | in the separate and the collective |
+| pratyayeṣu | pratyaya | loc. pl. m. | in the conditions |
+| asti | √as | laṭ, 3rd sg. parasmaipada | is |
+| tat | tad | nom./acc. sg. n. | that |
+| phalam | phala | nom./acc. sg. n. | result |
+| pratyayebhyaḥ | pratyaya | abl. pl. m. | from the conditions |
+| katham | katham | indecl. | how |
+| tat | tad | nom./acc. sg. n. | that |
+| ca | ca | indecl. | and |
+| bhavet | √bhū | liṅ, 3rd sg. parasmaipada | could be / might arise |
+| na | na | indecl. | not |
+| pratyayeṣu | pratyaya | loc. pl. m. | in the conditions |
+| yat | yad | relative pronoun, nom./acc. sg. n. | which |
+
+**Compound resolution (samāsa-vigraha):**
+- *vyastasamasteṣu* [dvandva/tatpuruṣa compression]: *vyasteṣu ca samasteṣu ca*, “in what is taken separately and collectively.”
+
+**Kāraka structure:**
+- adhikaraṇa: *vyastasamasteṣu pratyayeṣu*, *pratyayeṣu*
+- apādāna: *pratyayebhyaḥ*
+- kartṛ: *phalam*
+
+**Verbal modality:**
+- *asti*: laṭ / parasmaipada / present
+- *bhavet*: liṅ / parasmaipada / potential
+
+**Note:**
+Nāgārjuna targets both distributive and collective causal realism. If the result is not located in the causes either one by one or as a totality, its supposed production from them cannot be straightforwardly reified.
+
+---
+
+### MMK 1.12
+
+**Sanskrit (IAST):**
+> *athāsad api tat tebhyaḥ pratyayebhyaḥ pravartate*  
+> *apratyayebhyo 'pi kasmān nābhipravartate phalam*
+
+**English (line-by-line):**
+> If, alternatively, that result proceeds from those conditions even while absent,  
+> then why does the result not proceed equally from non-conditions?
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| atha | atha | indecl. | then / alternatively |
+| asat | a-sat | nom./acc. sg. n. | absent / non-existent |
+| api | api | indecl. | even |
+| tat | tad | nom./acc. sg. n. | that |
+| tebhyaḥ | tad | abl. pl. m. | from those |
+| pratyayebhyaḥ | pratyaya | abl. pl. m. | from the conditions |
+| pravartate | pra-√vṛt | laṭ, 3rd sg. ātmanepada | proceeds / comes forth |
+| apratyayebhyaḥ | a-pratyaya | abl. pl. m. | from non-conditions |
+| api | api | indecl. | also |
+| kasmāt | kasmāt | abl. sg. interrogative | why |
+| na | na | indecl. | not |
+| abhipravartate | abhi-pra-√vṛt | laṭ, 3rd sg. ātmanepada | proceed forth |
+| phalam | phala | nom./acc. sg. n. | result |
+
+**Compound resolution (samāsa-vigraha):**
+- *apratyayebhyaḥ* [nañ-tatpuruṣa]: “from non-conditions.”
+
+**Kāraka structure:**
+- apādāna: *tebhyaḥ pratyayebhyaḥ*, *apratyayebhyaḥ*
+- kartṛ: *phalam*
+
+**Verbal modality:**
+- *pravartate*, *abhipravartate*: laṭ / ātmanepada / present
+
+**Note:**
+This is the reductio directed against sheer emergence. If the absent effect can arise from the causes without being anchored in them, the restriction to causes becomes arbitrary.
+
+---
+
+### MMK 1.13
+
+**Sanskrit (IAST):**
+> *phalaṃ ca pratyayamayaṃ pratyayāścāsvayaṃmayāḥ*  
+> *phalamasvamayebhyo yattatpratyayamayaṃ katham*
+
+**English (line-by-line):**
+> And if the result is made of conditions, while the conditions are not made of themselves,  
+> how could a result made of conditions come from what are not self-made?
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| phalam | phala | nom./acc. sg. n. | result |
+| ca | ca | indecl. | and |
+| pratyayamayam | pratyaya-maya | nom./acc. sg. n. | made of conditions |
+| pratyayāḥ | pratyaya | nom. pl. m. | conditions |
+| ca | ca | indecl. | and |
+| a-svayaṃ-mayāḥ | a-svayaṃ-maya | nom. pl. m. | not made of themselves |
+| phalam | phala | nom./acc. sg. n. | result |
+| a-svamayebhyaḥ | a-sva-maya | abl. pl. m. | from what are not self-made |
+| yat | yad | relative pronoun, nom./acc. sg. n. | which |
+| tat-pratyaya-mayam | tat-pratyaya-maya | nom./acc. sg. n. compound | made of those conditions |
+| katham | katham | indecl. | how |
+
+**Compound resolution (samāsa-vigraha):**
+- *pratyayamayam* [tatpuruṣa with *mayaṭ*]: *pratyayānām mayam*, “consisting of conditions.”
+- *asvayaṃmayāḥ* [nañ-compound]: “not consisting of themselves.”
+- *tatpratyayamayaṃ* [tatpuruṣa]: “made of those conditions.”
+
+**Kāraka structure:**
+- kartṛ/predicate complex: *phalam*, *pratyayamayam*
+- apādāna: *asvamayebhyaḥ*
+
+**Verbal modality:**
+- ellipsis of finite verb; predicative nominal construction
+
+**Note:**
+The verse turns on a dense *maya* wordplay. The point is that the effect cannot be declared condition-constituted if the conditions themselves lack the kind of self-grounded constitution the theory requires.
+
+---
+
+### MMK 1.14
+
+**Sanskrit (IAST):**
+> *tasmān na pratyayamayaṃ nāpratyayamayaṃ phalam*  
+> *saṃvidyate phalābhāvāt pratyayāpratyayāḥ kutaḥ*
+
+**English (line-by-line):**
+> Therefore no result is found that is made of conditions, nor one not made of conditions.  
+> Since the result is absent, whence conditions or non-conditions?
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| tasmāt | tasmāt | abl. sg. indeclinable use | therefore |
+| na | na | indecl. | not |
+| pratyayamayam | pratyaya-maya | nom./acc. sg. n. | made of conditions |
+| na | na | indecl. | not |
+| apratyayamayam | a-pratyaya-maya | nom./acc. sg. n. | not made of conditions |
+| phalam | phala | nom./acc. sg. n. | result |
+| saṃvidyate | sam-√vid | laṭ, 3rd sg. ātmanepada | is found / is available |
+| phalābhāvāt | phala-abhāva | abl. sg. m. | from the absence of the result / since the result is absent |
+| pratyayāḥ | pratyaya | nom. pl. m. | conditions |
+| apratyayāḥ | a-pratyaya | nom. pl. m. | non-conditions |
+| kutaḥ | kutaḥ | indecl. interrogative | whence |
+
+**Compound resolution (samāsa-vigraha):**
+- *apratyayamayam* [nañ-tatpuruṣa]: “not made of conditions.”
+- *phalābhāvāt* [ṣaṣṭhī-tatpuruṣa]: *phalasya abhāvāt*, “from the absence of the result.”
+- *apratyayāḥ* [nañ-tatpuruṣa]: “non-conditions.”
+
+**Kāraka structure:**
+- kartṛ: *phalam*
+- hetu: *phalābhāvāt*
+
+**Verbal modality:**
+- *saṃvidyate*: laṭ / ātmanepada / existential-present
+
+**Note:**
+The chapter closes by pulling the ground from under the entire causal taxonomy. Once the effect cannot be secured as intrinsically arisen, the reified status of “condition” also dissolves.
+
+---
+
