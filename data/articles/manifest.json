@@ -1,10 +1,10 @@
 {
-  "version": "1",
+  "version": "2",
   "articles": [
     {
       "slug": "mimamsa-symbolism-shift",
       "title": "Mīmāṃsā under the symbolism-shift reading",
-      "subtitle": "An interpretive reading: what the corpus's contemporary-reader-encounter framing implies about Pūrva-Mīmāṃsā as a coherent practice-philosophy whose externalised form is intact while the symbol-environment that activated it has changed. The school's own self-understanding is preserved in the timeline thinker entries; this layer is explicitly extramural to that self-understanding.",
+      "subtitle": "Pūrva-Mīmāṃsā as a coherent practice-philosophy whose externalised form is intact while the symbol-environment that activated it has changed.",
       "kind": "perspective",
       "source_doc": "data/perspectives/source/mimamsa-symbolism-shift.md",
       "tags": [
@@ -26,7 +26,7 @@
     {
       "slug": "vedanta-realist-history",
       "title": "Vedānta as a realist tradition — a dialectical history in the schools' own voices",
-      "subtitle": "Pre-Śaṅkara through early-modern Vedānta as a chain of named polemics rather than a museum of labels: Bhartṛprapañca behind Śaṅkara, Maṇḍana and Sureśvara, the Padmapāda–Vācaspati–Prakāśātman quarrels over the locus of avidyā, Rāmānuja's *saptavidhānupapatti*, Madhva and Vyāsatīrtha forcing Advaita into formal self-defence, Madhusūdana's reply, the Gauḍīya *acintya-bhedābheda* reformulation, and Trika's structural convergence with Madhusūdana.",
+      "subtitle": "Pre-Śaṅkara through early-modern Vedānta as a chain of named polemics rather than a museum of labels.",
       "kind": "essay",
       "source_doc": "data/articles/source/vedanta-realist-history.md",
       "tags": [
@@ -56,7 +56,7 @@
     {
       "slug": "shankara",
       "title": "Śaṅkara — *adhyāsa*, *mithyā* without *asat*, the *līlā-kaivalyam* of the Self",
-      "subtitle": "A reading-session through the *Brahmasūtra-bhāṣya*, *Upadeśasāhasrī*, and the major Upaniṣad commentaries that holds *mithyā* and *asat* sharply apart, recovers the *adhyāsa-bhāṣya*'s precise epistemology of superimposition, and reads liberation as the play-already-of-the-Self rather than a world-cancellation.",
+      "subtitle": "A reading-session through the *Brahmasūtra-bhāṣya*, *Upadeśasāhasrī*, and the major Upaniṣad commentaries.",
       "kind": "essay",
       "source_doc": "data/articles/source/shankara.md",
       "tags": [
@@ -76,7 +76,7 @@
     {
       "slug": "ramanuja",
       "title": "Rāmānuja — *saptavidhānupapatti*, *apṛthak-siddhi*, and the body of Brahman",
-      "subtitle": "A reading-session through the *Śrī-bhāṣya* and *Vedārtha-saṃgraha* tracking the seven untenabilities against indeterminable avidyā, the doctrine of inseparable existence, and the qualified-non-dual architecture in which selves and world are real modes of the body of Brahman.",
+      "subtitle": "A reading-session through the *Śrī-bhāṣya* and *Vedārtha-saṃgraha*.",
       "kind": "essay",
       "source_doc": "data/articles/source/ramanuja.md",
       "tags": [
@@ -94,7 +94,7 @@
     {
       "slug": "madhva",
       "title": "Madhva — *pañcabheda*, *viśeṣa*, and the *māyāvāda* critique",
-      "subtitle": "A reading-session through the *Brahmasūtra-bhāṣya*, *Anuvyākhyāna*, *Viṣṇu-tattva-vinirṇaya*, and *Māyāvāda-khaṇḍana* that recovers the fivefold real difference, the technical role of *viśeṣa* in distinguishing-without-separating, and Madhva's quotation-and-refutation of the Advaitin's own slogans — without collapsing his realism into crude dualism.",
+      "subtitle": "A reading-session through the *Brahmasūtra-bhāṣya*, *Anuvyākhyāna*, *Viṣṇu-tattva-vinirṇaya*, and *Māyāvāda-khaṇḍana*.",
       "kind": "essay",
       "source_doc": "data/articles/source/madhva.md",
       "tags": [
@@ -113,7 +113,7 @@
     {
       "slug": "caitanya",
       "title": "Caitanya, Jīva Gosvāmī, Baladeva — *acintya-bhedābheda* as formal logic",
-      "subtitle": "A reading-session through the Gauḍīya *Sandarbhas* and the *Govinda-bhāṣya* showing how *acintya-śakti* is not a hand-wave but a precise device for holding simultaneous identity and difference, with the *bhakti-rasa* doctrine and the rasa-theological architecture read structurally rather than devotionally.",
+      "subtitle": "A reading-session through the Gauḍīya *Sandarbhas* and the *Govinda-bhāṣya*.",
       "kind": "essay",
       "source_doc": "data/articles/source/caitanya.md",
       "tags": [
@@ -134,7 +134,7 @@
     {
       "slug": "aurobindo",
       "title": "Sri Aurobindo — triple-status Supermind, willful self-veiling, the gnostic being",
-      "subtitle": "A reading-session through *The Life Divine*, *The Synthesis of Yoga*, *The Secret of the Veda*, and the *Record of Yoga* that recovers the triple status of Supermind (comprehending–apprehending–projecting), the doctrine of willful divine self-ignorance, and the architecture of the descending gnostic being — without folding it into vague mysticism.",
+      "subtitle": "A reading-session through *The Life Divine*, *The Synthesis of Yoga*, *The Secret of the Veda*, and the *Record of Yoga*.",
       "kind": "essay",
       "source_doc": "data/articles/source/aurobindo.md",
       "tags": [
@@ -155,7 +155,7 @@
     {
       "slug": "chaudhuri-banerji",
       "title": "Chaudhuri and Banerji — what is already in print since 1967",
-      "subtitle": "A reading-session through Haridas Chaudhuri (*Integral Yoga*, 1965; *The Evolution of Integral Consciousness*, 1977) and Debashish Banerji (*Seven Quartets of Becoming*, 2020; *The Alternate Nation of Abanindranath Tagore*; the *Monsoon* essays) showing where the contemporary Aurobindonian literature already articulates much of the user's territory — the Spirit/Matter play, the Supermind ≈ rhizome equation, and *māyā* as the *śakti of vijñāna*.",
+      "subtitle": "A reading-session through Haridas Chaudhuri's *Integral Yoga* and *Evolution of Integral Consciousness*, and Debashish Banerji's *Seven Quartets of Becoming* and the *Monsoon* essays.",
       "kind": "essay",
       "source_doc": "data/articles/source/chaudhuri-banerji.md",
       "tags": [
@@ -173,7 +173,7 @@
     {
       "slug": "kc-bhattacharyya",
       "title": "Krishnachandra Bhattacharyya — *The Subject as Freedom*, alternative absolutes, *Swaraj in Ideas*",
-      "subtitle": "A reading-session through *The Subject as Freedom* (1930), *Studies in Vedantism* (1909), the two volumes of *Studies in Philosophy*, and the 1928 \"Swaraj in Ideas\" lecture, locating KCB's doctrine of subjecthood-as-freedom and his three alternative absolutes — Truth, Freedom, Value — and naming where the architecture stops short of the user's own.",
+      "subtitle": "A reading-session through *The Subject as Freedom*, *Studies in Vedantism*, *Studies in Philosophy*, and the 1928 \"Swaraj in Ideas\" lecture.",
       "kind": "essay",
       "source_doc": "data/articles/source/kc-bhattacharyya.md",
       "tags": [
@@ -190,7 +190,7 @@
     {
       "slug": "vivekananda-ramakrishna",
       "title": "Ramakrishna and Vivekananda — *vijñāna* doctrine, Bengali Vedānta, the Mother",
-      "subtitle": "A reading-session through the *Kathāmṛta*, the *Complete Works* of Vivekananda, and the Holy Mother's letters, recovering the *vijñāna* register beyond *jñāna*, the *adhikāra-bheda* logic of Ramakrishna's hierarchy as pedagogical rather than metaphysical, and the bridge between Bengali devotional realism and modern Advaita.",
+      "subtitle": "A reading-session through the *Kathāmṛta*, the *Complete Works* of Vivekananda, and the Holy Mother's letters.",
       "kind": "essay",
       "source_doc": "data/articles/source/vivekananda-ramakrishna.md",
       "tags": [
@@ -209,7 +209,7 @@
     {
       "slug": "medhananda",
       "title": "Swami Medhananda — *Vijñāna Vedānta* and Vivekananda's cosmopolitanism",
-      "subtitle": "A reading-session through *Infinite Paths to Infinite Reality* (OUP 2018) and *Swami Vivekananda's Vedāntic Cosmopolitanism* (OUP 2022), with the *Religions* / *Monist* / *Philosophy East and West* / *Journal of Religion* essays, locating the strongest current academic articulation of the Bhartṛprapañca–Bhāskara–Madhva–Caitanya–Aurobindo realist trajectory and naming where the user's project extends past it.",
+      "subtitle": "A reading-session through *Infinite Paths to Infinite Reality* (OUP 2018) and *Swami Vivekananda's Vedāntic Cosmopolitanism* (OUP 2022), with the *Religions* / *Monist* / *PEW* essays.",
       "kind": "essay",
       "source_doc": "data/articles/source/medhananda.md",
       "tags": [
@@ -228,7 +228,7 @@
     {
       "slug": "samkhya-anirban",
       "title": "Reading Sāṃkhya with Anirban Bandyopadhyay — three-guṇa metaphysics and contemporary biophysics",
-      "subtitle": "A reading-session through Īśvarakṛṣṇa's *Sāṃkhya-Kārikā* with Gauḍapāda and Vācaspati Miśra, the structural twin in the *Yoga-Sūtras* with Vyāsa's *Bhāṣya*, read in counterpoint with Anirban Bandyopadhyay's Phase Prime Metric formalisation of the three guṇas — and a connection back through Deleuze on seed, tree, and rhizome.",
+      "subtitle": "Īśvarakṛṣṇa's *Sāṃkhya-Kārikā* with Gauḍapāda and Vācaspati Miśra, in counterpoint with Anirban Bandyopadhyay's Phase Prime Metric formalisation of the three guṇas.",
       "kind": "essay",
       "source_doc": "data/articles/source/samkhya-anirban.md",
       "tags": [
@@ -249,7 +249,7 @@
     {
       "slug": "kala-cakra-clock-structures",
       "title": "Kāla-Cakra and nested topological clock-structures",
-      "subtitle": "A reading-session that places Anirban Bandyopadhyay's polyatomic-time-crystal architecture against the classical Indic Kāla-Cakra: Bhāgavata cosmology, the four pralayas, the *Kālacakra-Tantra*, and the metaphysics of nested temporal recurrence in Sanskrit Buddhist and Hindu canon.",
+      "subtitle": "Anirban Bandyopadhyay's polyatomic-time-crystal architecture against the classical Indic Kāla-Cakra: Bhāgavata cosmology, the four pralayas, the *Kālacakra-Tantra*.",
       "kind": "essay",
       "source_doc": "data/articles/source/kala-cakra-clock-structures.md",
       "tags": [
@@ -267,7 +267,7 @@
     {
       "slug": "deleuze",
       "title": "Deleuze — univocity of being, the rhizomatic real, and the fold",
-      "subtitle": "A reading-session in original French with English translation through *Différence et Répétition*, *Logique du sens*, *Mille Plateaux*, *Le Pli*, and *Spinoza et le problème de l'expression* — the Scotist heritage, the violence of unification, and what the apparatus enables and where it must be supplemented.",
+      "subtitle": "A reading-session in original French with English translation through *Différence et Répétition*, *Logique du sens*, *Mille Plateaux*, *Le Pli*, and *Spinoza et le problème de l'expression*.",
       "kind": "essay",
       "source_doc": "data/articles/source/deleuze.md",
       "tags": [
@@ -287,7 +287,7 @@
     {
       "slug": "nietzsche",
       "title": "Nietzsche — perspectivism, eternal return, the genealogy of values",
-      "subtitle": "A reading-session through *Die Geburt der Tragödie*, *Zur Genealogie der Moral*, *Also sprach Zarathustra*, *Jenseits von Gut und Böse*, and the *Nachlass* — recovering perspectivism as a discipline of reading and the eternal return as a thought-experiment of affirmation rather than a cosmology.",
+      "subtitle": "A reading-session through *Die Geburt der Tragödie*, *Zur Genealogie der Moral*, *Also sprach Zarathustra*, *Jenseits von Gut und Böse*, and the *Nachlass*.",
       "kind": "essay",
       "source_doc": "data/articles/source/nietzsche.md",
       "tags": [
@@ -305,7 +305,7 @@
     {
       "slug": "hegel",
       "title": "Hegel — *Aufhebung*, the speculative proposition, the labor of the negative",
-      "subtitle": "A reading-session through the *Phänomenologie des Geistes* (Preface and Introduction in particular), the *Wissenschaft der Logik*, and the *Encyclopädie*, recovering *Aufhebung* as triple-action, the speculative proposition as a non-predicative form, and *Substanz als Subjekt* without smoothing it into easy organicism.",
+      "subtitle": "A reading-session through the *Phänomenologie des Geistes*, *Wissenschaft der Logik*, and *Encyclopädie* in German with English alongside.",
       "kind": "essay",
       "source_doc": "data/articles/source/hegel.md",
       "tags": [
@@ -322,7 +322,7 @@
     {
       "slug": "spinoza",
       "title": "Spinoza — substance, attribute, mode; *intellectus infinitus* and the *amor Dei intellectualis*",
-      "subtitle": "A reading-session in Latin with English translation through the *Ethica*, the *Tractatus de Intellectus Emendatione*, and the *Korte Verhandeling* recovering the geometric architecture, the parallelism of attributes, and the *amor Dei intellectualis* as the *quinta pars*'s consummation.",
+      "subtitle": "A reading-session in Latin with English translation through the *Ethica*, *Tractatus de Intellectus Emendatione*, and *Korte Verhandeling*.",
       "kind": "essay",
       "source_doc": "data/articles/source/spinoza.md",
       "tags": [
@@ -341,7 +341,7 @@
     {
       "slug": "leibniz",
       "title": "Leibniz — the monad as perspective, pre-established harmony, the aperspectival God",
-      "subtitle": "A reading-session through the *Monadologie*, *Discours de métaphysique*, *Nouveaux Essais*, and the late correspondence with Clarke and Des Bosses, recovering the monad as point-of-view, the architecture of compossibility, and Leibniz's anticipation of a perspectivism whose limit is the divine view that holds all perspectives at once.",
+      "subtitle": "A reading-session through the *Monadologie*, *Discours de métaphysique*, *Nouveaux Essais*, and the late correspondence with Clarke and Des Bosses.",
       "kind": "essay",
       "source_doc": "data/articles/source/leibniz.md",
       "tags": [
@@ -360,7 +360,7 @@
     {
       "slug": "heidegger",
       "title": "Heidegger — *Sein und Zeit*, *Ereignis*, the clearing",
-      "subtitle": "A reading-session in German with English through *Sein und Zeit*, the *Wegmarken* essays (*Brief über den Humanismus*, *Vom Wesen der Wahrheit*, *Was ist Metaphysik?*), *Identität und Differenz*, the *Beiträge*, and *Gelassenheit* — keeping the German first where the standard translations smooth Heidegger toward the metaphysics he was trying to break.",
+      "subtitle": "A reading-session in German with English alongside through *Sein und Zeit*, the *Wegmarken* essays, *Identität und Differenz*, the *Beiträge*, and *Gelassenheit*.",
       "kind": "essay",
       "source_doc": "data/articles/source/heidegger.md",
       "tags": [
@@ -380,7 +380,7 @@
     {
       "slug": "husserl",
       "title": "Husserl — intentionality, the *Lebenswelt*, transcendental constitution",
-      "subtitle": "A reading-session in German through the *Logische Untersuchungen*, the *Ideen*, the *Cartesianische Meditationen*, and the *Krisis*, following Husserl's own self-description of phenomenology as one continuous deepening — from the founding studies through the meditational radicalization to the late return to *Lebenswelt* and pre-predicative experience.",
+      "subtitle": "A reading-session in German through the *Logische Untersuchungen*, *Ideen*, *Cartesianische Meditationen*, and *Krisis*.",
       "kind": "essay",
       "source_doc": "data/articles/source/husserl.md",
       "tags": [
@@ -400,7 +400,7 @@
     {
       "slug": "adorno",
       "title": "Adorno — *Negative Dialektik*, identity-thinking as violence, the *Vorrang des Objekts*",
-      "subtitle": "A reading-session in German through *Negative Dialektik*, *Minima Moralia*, *Dialektik der Aufklärung* (with Horkheimer), and *Jargon der Eigentlichkeit* — testing whether Adorno's polemic against Hegelian totalization confirms the user's positive metaphysics or sets the sharpest barrier to it.",
+      "subtitle": "A reading-session in German through *Negative Dialektik*, *Minima Moralia*, *Dialektik der Aufklärung*, and *Jargon der Eigentlichkeit*.",
       "kind": "essay",
       "source_doc": "data/articles/source/adorno.md",
       "tags": [
@@ -419,7 +419,7 @@
     {
       "slug": "bergson",
       "title": "Bergson — *durée*, the *élan vital*, intuition as method",
-      "subtitle": "A reading-session in French through *Essai sur les données immédiates de la conscience*, *Matière et mémoire*, *L'évolution créatrice*, and *Les deux sources de la morale et de la religion*, recovering *durée* as ontologically primary and intuition as a discipline rather than a faculty — the most direct French anticipation of Aurobindo's intuitive-mental register and the bridge to Whitehead and Deleuze.",
+      "subtitle": "A reading-session in French through *Essai sur les données immédiates*, *Matière et mémoire*, *L'évolution créatrice*, and *Les deux sources*.",
       "kind": "essay",
       "source_doc": "data/articles/source/bergson.md",
       "tags": [
@@ -438,7 +438,7 @@
     {
       "slug": "whitehead",
       "title": "Whitehead — process, prehension, the dipolar God",
-      "subtitle": "A reading-session through *Process and Reality*, *Adventures of Ideas*, *Modes of Thought*, and *Religion in the Making*, recovering the categoreal scheme, the doctrine of actual occasions and prehension, and the two natures of God — primordial and consequent — as the strongest Western articulation of being-as-becoming.",
+      "subtitle": "A reading-session through *Process and Reality*, *Adventures of Ideas*, *Modes of Thought*, and *Religion in the Making*.",
       "kind": "essay",
       "source_doc": "data/articles/source/whitehead.md",
       "tags": [
@@ -457,7 +457,7 @@
     {
       "slug": "prigogine",
       "title": "Prigogine — irreversibility, dissipative structures, the arrow of time",
-      "subtitle": "A reading-session through *La nouvelle alliance* (with Stengers), *From Being to Becoming*, *The End of Certainty*, and the technical papers on far-from-equilibrium thermodynamics — Whitehead in physics, supplying empirical traction for what was already claimed at the level of metaphysics.",
+      "subtitle": "A reading-session through *La nouvelle alliance*, *From Being to Becoming*, *The End of Certainty*, and the technical papers on far-from-equilibrium thermodynamics.",
       "kind": "essay",
       "source_doc": "data/articles/source/prigogine.md",
       "tags": [
@@ -476,7 +476,7 @@
     {
       "slug": "derrida",
       "title": "Derrida — *différance*, trace, deconstruction",
-      "subtitle": "A reading-session through *De la grammatologie*, *L'écriture et la différence*, *Marges de la philosophie*, and *La voix et le phénomène*, holding apart the register at which the user agrees with Derrida (the structure of language) from the register at which he must be rejected (the structure of being) — so the agreement does not collapse into capitulation and the rejection does not collapse into dismissal.",
+      "subtitle": "A reading-session through *De la grammatologie*, *L'écriture et la différence*, *Marges de la philosophie*, and *La voix et le phénomène*.",
       "kind": "essay",
       "source_doc": "data/articles/source/derrida.md",
       "tags": [
@@ -495,7 +495,7 @@
     {
       "slug": "foucault",
       "title": "Foucault — *épistémè*, power-knowledge, the care of the self",
-      "subtitle": "A reading-session in French following Foucault's own self-periodization in three modes of objectification — the archaeological *savoirs* (*Folie et déraison*, *Les mots et les choses*, *L'archéologie du savoir*), the genealogical apparatus of power (*Surveiller et punir*, *La volonté de savoir*), and the ethical axis (*L'usage des plaisirs*, *Le souci de soi*, *L'herméneutique du sujet*).",
+      "subtitle": "A reading-session in French following Foucault's three modes of objectification: archaeological *savoirs*, the genealogy of power, the ethical axis.",
       "kind": "essay",
       "source_doc": "data/articles/source/foucault.md",
       "tags": [
@@ -515,7 +515,7 @@
     {
       "slug": "levinas",
       "title": "Levinas — the face of the Other, *Totalité et Infini*, *Autrement qu'être*",
-      "subtitle": "A reading-session in French through *De l'existence à l'existant*, *Le temps et l'autre*, *Totalité et infini*, *Autrement qu'être ou au-delà de l'essence*, *De Dieu qui vient à l'idée*, and the *Lectures talmudiques* — keeping the *height* of the Other and the violence of *substitution* sharp where the standard English smooths them toward peer-symmetry.",
+      "subtitle": "A reading-session in French through *De l'existence à l'existant*, *Totalité et infini*, *Autrement qu'être*, and the *Lectures talmudiques*.",
       "kind": "essay",
       "source_doc": "data/articles/source/levinas.md",
       "tags": [
@@ -534,7 +534,7 @@
     {
       "slug": "mcgilchrist",
       "title": "McGilchrist — the hemispheric thesis, *non-duality of duality and non-duality*",
-      "subtitle": "A reading-session through *The Master and His Emissary* (2009) and *The Matter with Things* (2021), recovering the hemispheric architecture as a substantive metaphysical proposal rather than a popular-neuroscience trope, and the convergence with the Indic claim that the privileged state is the diaphanous through-all of the registers.",
+      "subtitle": "A reading-session through *The Master and His Emissary* (2009) and *The Matter with Things* (2021).",
       "kind": "essay",
       "source_doc": "data/articles/source/mcgilchrist.md",
       "tags": [
@@ -551,7 +551,7 @@
     {
       "slug": "gebser",
       "title": "Gebser — *Ursprung und Gegenwart*, the aperspectival-integral mutation, *Diaphaneität*",
-      "subtitle": "A reading-session through *Ursprung und Gegenwart* (1949 / 1953 / 1966) and the Barstad–Mickunas English (Ohio UP 1985), recovering the archaic, magic, mythical, mental, and aperspectival-integral structures, the doctrine of *Diaphaneität* as transparency-of-prior-structures rather than higher-perspective, and Gebser's 1966 explicit equation of the integral mutation with Aurobindo's supramental.",
+      "subtitle": "A reading-session through *Ursprung und Gegenwart* and the Barstad–Mickunas English (Ohio UP 1985), recovering the consciousness-mutation thesis and Gebser's 1966 equation of the integral with Aurobindo's supramental.",
       "kind": "essay",
       "source_doc": "data/articles/source/gebser.md",
       "tags": [
@@ -569,9 +569,9 @@
     {
       "slug": "hegel-preface",
       "title": "Hegel's Preface to the *Phänomenologie* — and the Vedāntic parallels",
-      "subtitle": "*Substanz als Subjekt*, *Aufhebung*, the speculative proposition placed against Bhartṛprapañca, Madhva, Vyāsatīrtha, Jīva Gosvāmī, Vidyāraṇya — a comparative engagement that locates structural parallels without collapsing the disagreements.",
+      "subtitle": "*Substanz als Subjekt*, *Aufhebung*, the speculative proposition placed against Bhartṛprapañca, Madhva, Vyāsatīrtha, Jīva Gosvāmī, Vidyāraṇya.",
       "kind": "comparative",
-      "source_doc": "docs/HEGEL_PREFACE_REPORT.md",
+      "source_doc": "data/articles/source/hegel-preface.md",
       "tags": [
         "Hegel",
         "Bhartṛprapañca",
@@ -581,115 +581,15 @@
         "speculative-proposition",
         "Aufhebung"
       ],
-      "word_count_approx": 2500,
+      "word_count_approx": 8401,
       "date": "2026-05-09"
-    },
-    {
-      "slug": "mimamsa-aurobindo-v4",
-      "title": "Mīmāṃsā worked — the symbol-environment thesis and the contemporary reader's encounter",
-      "subtitle": "Reinstates v2's symbolism-shift thesis cleanly, in its proper register, while retaining v3's correct insistence on Mīmāṃsā's coherence on its own terms. The school worked for the practitioners who inhabited the original symbol-environment; the symbol-environment changed across centuries as a structural cultural-historical fact (*Religionsgeschichte*, not moral decline); for participants outside the original substrate, the rite's operations remain analysable on the school's own terms but no longer carry their original immediate spiritual-symbolic register; Aurobindo's hermeneutic is amplification of what was once lived for the contemporary reader, not correction of a defective school. §5 explicitly rejects the school-internal decline narrative (Brahmin corruption, Sanskrit-fluency decay, *kali-yuga*) as a misdiagnosis of structural-cultural change as moral failure.",
-      "kind": "perspective-investigation",
-      "source_doc": "data/articles/source/mimamsa-aurobindo-v4.md",
-      "tags": [
-        "Mīmāṃsā",
-        "Jaimini",
-        "Śabara",
-        "Kumārila",
-        "Prabhākara",
-        "Aurobindo",
-        "Clooney",
-        "symbol-environment",
-        "Religionsgeschichte",
-        "bhāvanā",
-        "codanā",
-        "apūrva",
-        "contemporary-reader"
-      ],
-      "word_count_approx": 6100,
-      "date": "2026-05-10",
-      "supersedes": [
-        "mimamsa-aurobindo-v1",
-        "mimamsa-aurobindo-v2",
-        "mimamsa-aurobindo-v3"
-      ]
-    },
-    {
-      "slug": "mimamsa-aurobindo-v3",
-      "title": "Mīmāṃsā as a coherent practice-philosophy — Clooney's reading and the contemporary reader's encounter (superseded)",
-      "subtitle": "Replaces v2's diagnostic-decline framing. The classical Mīmāṃsakas externalised the rite because the symbol-environment they inhabited carried the depth in lived practice; the school is coherent on its own terms. Superseded by v4, which reinstates the symbolism-shift thesis as a structural-cultural fact rather than a moral or school-internal decline narrative.",
-      "kind": "perspective-investigation",
-      "source_doc": "data/articles/source/mimamsa-aurobindo-v3.md",
-      "tags": [
-        "Mīmāṃsā",
-        "Jaimini",
-        "Śabara",
-        "Kumārila",
-        "Prabhākara",
-        "Aurobindo",
-        "Clooney",
-        "bhāvanā",
-        "codanā",
-        "apūrva",
-        "contemporary-reader"
-      ],
-      "word_count_approx": 5400,
-      "date": "2026-05-10",
-      "status": "superseded",
-      "superseded_by": "mimamsa-aurobindo-v4",
-      "superseded_note": "v3 over-corrected v2's diagnostic-decline framing by retracting the symbolism-shift thesis entirely. v4 reinstates the symbolism-shift thesis as a structural-cultural fact, not a moral or school-internal decline narrative.",
-      "supersedes": [
-        "mimamsa-aurobindo-v1",
-        "mimamsa-aurobindo-v2"
-      ]
-    },
-    {
-      "slug": "mimamsa-aurobindo-v2",
-      "title": "Mīmāṃsā as externalized yogic process — re-investigation defending the Integral-Yoga thesis (superseded)",
-      "subtitle": "Re-do with stronger verdict, drawing on Clooney 2022 and Śabara on MS 1.1.2; introduces a diagnostic-decline framing that v3 retracts and v4 reformulates. Superseded by v4.",
-      "kind": "perspective-investigation",
-      "source_doc": "docs/MIMAMSA_AUROBINDO_HYPOTHESIS_v2.md",
-      "tags": [
-        "Mīmāṃsā",
-        "Jaimini",
-        "Śabara",
-        "Aurobindo",
-        "Integral-Yoga",
-        "bhāvanā",
-        "apūrva",
-        "depth-reading",
-        "Clooney"
-      ],
-      "word_count_approx": 5870,
-      "date": "2026-05-09",
-      "status": "superseded",
-      "superseded_by": "mimamsa-aurobindo-v4"
-    },
-    {
-      "slug": "mimamsa-aurobindo-v1",
-      "title": "Mīmāṃsā as externalized yogic process — first investigation (superseded)",
-      "subtitle": "First-pass investigation of three precisifications of the hypothesis that Pūrva-Mīmāṃsā ritual is the externalized form of an inner Vedic yogic process Aurobindo decodes in *The Secret of the Veda*. Superseded by v4.",
-      "kind": "perspective-investigation",
-      "source_doc": "docs/MIMAMSA_AUROBINDO_HYPOTHESIS.md",
-      "tags": [
-        "Mīmāṃsā",
-        "Jaimini",
-        "Śabara",
-        "Aurobindo",
-        "Sureśvara",
-        "yajña",
-        "apūrva"
-      ],
-      "word_count_approx": 4600,
-      "date": "2026-05-09",
-      "status": "superseded",
-      "superseded_by": "mimamsa-aurobindo-v4"
     },
     {
       "slug": "primitive-model",
       "title": "An analytic-primitive model of Vedāntic and adjacent positions",
       "subtitle": "Nine structural primitives — substrate-independence, mode-status, identity-relation, causation, locus-of-avidyā, *bheda*-count, epistemic-authority, *mokṣa*-state, *bhakti*-role — and the derivation table per school.",
       "kind": "framework",
-      "source_doc": "docs/PRIMITIVE_MODEL.md",
+      "source_doc": "data/articles/source/primitive-model.md",
       "tags": [
         "primitive-model",
         "comparative-framework",
@@ -697,27 +597,27 @@
         "Advaita",
         "perspectivism"
       ],
-      "word_count_approx": 4000,
+      "word_count_approx": 4550,
       "date": "2026-05-09"
     },
     {
       "slug": "comparative-claims-framework",
       "title": "The comparative-claims framework — methodology",
-      "subtitle": "A four-verdict schema for cross-school comparison: shared-presupposition, parallel-structure, terminological-equivalence, genuine-disagreement, contested. Five claim categories. Anti-pattern guards against the standard collapses.",
+      "subtitle": "A four-verdict schema for cross-school comparison: shared-presupposition, parallel-structure, terminological-equivalence, genuine-disagreement, contested.",
       "kind": "methodology",
-      "source_doc": "docs/COMPARATIVE_CLAIMS_FRAMEWORK.md",
+      "source_doc": "data/articles/source/comparative-claims-framework.md",
       "tags": [
         "methodology",
         "comparative",
         "perspectivism"
       ],
-      "word_count_approx": 3500,
+      "word_count_approx": 2036,
       "date": "2026-05-09"
     },
     {
       "slug": "engagement-madhva__brahma-sutra-bhasya",
-      "title": "Engagement: Madhva's *Brahma-Sūtra-Bhāṣya* with Tattva-Prakāśikā, Tātparya-Candrikā, Nyāya-Sudhā, Parimaḷa",
-      "subtitle": "A walk-through of Madhva's BSB across three commentarial layers — the *bheda-pañcaka* of Tattvavāda, the realism-recovery move on BS 1.1.1, the constructive thesis that *mithyā ≠ asat*.",
+      "title": "Madhva's *Brahma-Sūtra-Bhāṣya* with Tattva-Prakāśikā, Tātparya-Candrikā, Nyāya-Sudhā, Parimaḷa",
+      "subtitle": "A walk-through across three commentarial layers covering BS 1.1–1.2 — the *bheda-pañcaka*, the realism-recovery move on BS 1.1.1, the constructive thesis that *mithyā ≠ asat*.",
       "kind": "engagement",
       "source_doc": "data/articles/source/engagement-madhva__brahma-sutra-bhasya.md",
       "tags": [
@@ -736,7 +636,7 @@
     },
     {
       "slug": "engagement-madhva__bhagavata-tatparya-nirnaya",
-      "title": "Engagement: Madhva's *Bhāgavata-Tātparya-Nirṇaya*",
+      "title": "Madhva's *Bhāgavata-Tātparya-Nirṇaya*",
       "subtitle": "Madhva's settling-of-purport reading of the *Bhāgavata Purāṇa* — the *bhakti* axis of Tattvavāda, the gradation of *jīva*s, the locus of Viṣṇu's primacy in scripture.",
       "kind": "engagement",
       "source_doc": "data/articles/source/engagement-madhva__bhagavata-tatparya-nirnaya.md",
@@ -753,7 +653,7 @@
     },
     {
       "slug": "engagement-madhva__mayavada-khandana",
-      "title": "Engagement: Madhva's *Māyāvāda-Khaṇḍana*",
+      "title": "Madhva's *Māyāvāda-Khaṇḍana*",
       "subtitle": "The polemical demolition of Advaitic *māyāvāda* — Madhva's argument that *mithyā* construed as ontological non-existence is incoherent, and the constructive corollary for the realism-recovery trajectory.",
       "kind": "engagement",
       "source_doc": "data/articles/source/engagement-madhva__mayavada-khandana.md",
@@ -771,8 +671,8 @@
     },
     {
       "slug": "engagement-nimbarka_srinivasa__vedanta-parijata-saurabha-kaustubha",
-      "title": "Engagement: Nimbārka's *Vedānta-Pārijāta-Saurabha* with Śrīnivāsa's *Vedānta-Kaustubha*",
-      "subtitle": "Dvaitādvaita's parallel-realism reading of the Brahma-Sūtras — *bheda* and *abheda* as equiprimordial, the cit–acit–Brahman triad, and where Nimbārka sits between Rāmānuja and Madhva.",
+      "title": "Nimbārka's *Vedānta-Pārijāta-Saurabha* with Śrīnivāsa's *Vedānta-Kaustubha*",
+      "subtitle": "Dvaitādvaita's parallel-realism reading of the Brahma-Sūtras — *bheda* and *abheda* as equiprimordial, the cit–acit–Brahman triad, where Nimbārka sits between Rāmānuja and Madhva.",
       "kind": "engagement",
       "source_doc": "data/articles/source/engagement-nimbarka_srinivasa__vedanta-parijata-saurabha-kaustubha.md",
       "tags": [
@@ -788,8 +688,8 @@
     },
     {
       "slug": "engagement-vallabha__anu-bhasya",
-      "title": "Engagement: Vallabha's *Aṇu-Bhāṣya* on the Brahma-Sūtras",
-      "subtitle": "Śuddhādvaita as a third realism-Vedānta — the world as Brahman's *āvirbhāva–tirobhāva* (manifestation–veiling), the rejection of *pariṇāma* and *vivarta*, and the *bhakti*-axis of pure non-duality.",
+      "title": "Vallabha's *Aṇu-Bhāṣya* on the Brahma-Sūtras",
+      "subtitle": "Śuddhādvaita as a third realism-Vedānta — the world as Brahman's *āvirbhāva–tirobhāva*, the rejection of *pariṇāma* and *vivarta*, the *bhakti*-axis of pure non-duality.",
       "kind": "engagement",
       "source_doc": "data/articles/source/engagement-vallabha__anu-bhasya.md",
       "tags": [
@@ -805,7 +705,7 @@
     },
     {
       "slug": "engagement-vedanta-desika__pancaratra-raksha",
-      "title": "Engagement: Vedānta-Deśika's *Pāñcarātra-Rakṣā*",
+      "title": "Vedānta-Deśika's *Pāñcarātra-Rakṣā*",
       "subtitle": "Deśika's defence of the scriptural authority of the Pāñcarātra against Mīmāṃsaka and Smārta attack — the tantric-Vaiṣṇava locus of Viśiṣṭādvaita's ritual ontology.",
       "kind": "engagement",
       "source_doc": "data/articles/source/engagement-vedanta-desika__pancaratra-raksha.md",
@@ -816,13 +716,13 @@
         "tantra",
         "scriptural-authority"
       ],
-      "word_count_approx": 2429,
+      "word_count_approx": 2450,
       "date": "2026-05-10",
       "source_text_path": "materials/primary_texts/sanskrit/_replaced/vedanta_desika_pancaratra_raksha_adyar_archive_djvu.txt"
     },
     {
       "slug": "engagement-raghavendra__nyaya-sudha-parimala",
-      "title": "Engagement: Rāghavendra's *Nyāya-Sudhā-Parimaḷa* (4 vols)",
+      "title": "Rāghavendra's *Nyāya-Sudhā-Parimaḷa* (4 vols)",
       "subtitle": "Rāghavendra's gloss on Jayatīrtha's *Nyāya-Sudhā* on Madhva's *Anuvyākhyāna* — the late-Mādhva polemic apparatus deployed across all four *adhyāya*s of the Brahma-Sūtra.",
       "kind": "engagement",
       "source_doc": "data/articles/source/engagement-raghavendra__nyaya-sudha-parimala.md",
@@ -840,8 +740,8 @@
     },
     {
       "slug": "engagement-raghavendra__tantra-dipika",
-      "title": "Engagement: Rāghavendra's *Tantra-Dīpikā*",
-      "subtitle": "Rāghavendra's commentary on Madhva's *Tantra-Sāra-Saṅgraha* — the Mādhva ritual-philosophical interface, mantra ontology, and the *bhakti*–*jñāna* integration.",
+      "title": "Rāghavendra's *Tantra-Dīpikā*",
+      "subtitle": "Rāghavendra's commentary on Madhva's *Tantra-Sāra-Saṅgraha* — the Mādhva ritual-philosophical interface, mantra ontology, the *bhakti*–*jñāna* integration.",
       "kind": "engagement",
       "source_doc": "data/articles/source/engagement-raghavendra__tantra-dipika.md",
       "tags": [
@@ -857,8 +757,8 @@
     },
     {
       "slug": "engagement-vidyaranya__vivarana-prameya-sangraha",
-      "title": "Engagement: Vidyāraṇya's *Vivaraṇa-Prameya-Saṅgraha*",
-      "subtitle": "The Vivaraṇa-school digest — *śravaṇa* as ascertainment of textual purport, *manana*, *nididhyāsana*, the *mānasī-vṛtti* whose object is *pratyag-brahmaikya*, and the locus of Brahman as both *āśraya* and *viṣaya* of avidyā.",
+      "title": "Vidyāraṇya's *Vivaraṇa-Prameya-Saṅgraha*",
+      "subtitle": "The Vivaraṇa-school digest — *śravaṇa* / *manana* / *nididhyāsana*, the *mānasī-vṛtti* whose object is *pratyag-brahmaikya*, and the locus of Brahman as both *āśraya* and *viṣaya* of avidyā.",
       "kind": "engagement",
       "source_doc": "data/articles/source/engagement-vidyaranya__vivarana-prameya-sangraha.md",
       "tags": [
@@ -875,7 +775,7 @@
     },
     {
       "slug": "engagement-vijnanabhiksu__vijnanamrta-bhasya",
-      "title": "Engagement: Vijñānabhikṣu's *Vijñānāmṛta-Bhāṣya* on the Brahma-Sūtras",
+      "title": "Vijñānabhikṣu's *Vijñānāmṛta-Bhāṣya* on the Brahma-Sūtras",
       "subtitle": "Vijñānabhikṣu's *avibhāgādvaita* — non-duality-by-non-difference rather than identity, the synthesis of Sāṃkhya and Vedānta, and the late-medieval reframing of *jīva*–Brahman relation.",
       "kind": "engagement",
       "source_doc": "data/articles/source/engagement-vijnanabhiksu__vijnanamrta-bhasya.md",
@@ -891,8 +791,8 @@
     },
     {
       "slug": "engagement-vijnanabhiksu__yoga-varttika",
-      "title": "Engagement: Vijñānabhikṣu's *Yoga-Vārttika*",
-      "subtitle": "Vijñānabhikṣu's gloss on Vyāsa's *Yoga-Bhāṣya* — the practice-philosophy of Pātañjala Yoga read into Vedāntic ontology, the place of Īśvara, the *kleśa*–*vāsanā* architecture.",
+      "title": "Vijñānabhikṣu's *Yoga-Vārttika*",
+      "subtitle": "Vijñānabhikṣu's gloss on Vyāsa's *Yoga-Bhāṣya* — Pātañjala Yoga read into Vedāntic ontology, the place of Īśvara, the *kleśa*–*vāsanā* architecture.",
       "kind": "engagement",
       "source_doc": "data/articles/source/engagement-vijnanabhiksu__yoga-varttika.md",
       "tags": [
@@ -908,7 +808,7 @@
     },
     {
       "slug": "engagement-yamuna__agama-pramanya",
-      "title": "Engagement: Yāmuna's *Āgama-Prāmāṇya*",
+      "title": "Yāmuna's *Āgama-Prāmāṇya*",
       "subtitle": "Yāmuna's defence of the Pāñcarātra Āgama as scripturally authoritative — the founding text of the Viśiṣṭādvaita line, refuting the Mīmāṃsaka rejection of non-Vedic ritual literature.",
       "kind": "engagement",
       "source_doc": "data/articles/source/engagement-yamuna__agama-pramanya.md",
@@ -925,8 +825,8 @@
     },
     {
       "slug": "engagement-madhusudana__bhakti-rasayana",
-      "title": "Engagement: Madhusūdana Sarasvatī's *Bhakti-Rasāyana*",
-      "subtitle": "Madhusūdana's reconciliation of *bhakti* with Advaitic non-dualism — *bhakti* as a *rasa* and a distinct *puruṣārtha*, the relation to *Bhāgavata*, and the bridge from *Advaita-Siddhi* to a non-dual devotionalism.",
+      "title": "Madhusūdana Sarasvatī's *Bhakti-Rasāyana*",
+      "subtitle": "Madhusūdana's reconciliation of *bhakti* with Advaitic non-dualism — *bhakti* as a *rasa* and a distinct *puruṣārtha*, the bridge from *Advaita-Siddhi* to a non-dual devotionalism.",
       "kind": "engagement",
       "source_doc": "data/articles/source/engagement-madhusudana__bhakti-rasayana.md",
       "tags": [
@@ -942,8 +842,8 @@
     },
     {
       "slug": "engagement-ramanuja__sri-bhasya",
-      "title": "Engagement: Rāmānuja's *Śrī-Bhāṣya*",
-      "subtitle": "The full Viśiṣṭādvaita reading of the Brahma-Sūtras — the *mahā-pūrva-pakṣa* against Advaita on BS 1.1.1, the *aprākṛta-śarīraka* construal of *jīva*–Brahman, and the architecture of qualified non-duality.",
+      "title": "Rāmānuja's *Śrī-Bhāṣya*",
+      "subtitle": "The full Viśiṣṭādvaita reading of the Brahma-Sūtras — the *mahā-pūrva-pakṣa* against Advaita on BS 1.1.1, the *aprākṛta-śarīraka* construal of *jīva*–Brahman, qualified non-duality.",
       "kind": "engagement",
       "source_doc": "data/articles/source/engagement-ramanuja__sri-bhasya.md",
       "tags": [
@@ -956,6 +856,109 @@
       "word_count_approx": 2097,
       "date": "2026-05-10",
       "source_text_path": "materials/primary_texts/sanskrit/_replaced/ramanuja_sribhashya_archive_djvu.txt"
+    },
+    {
+      "slug": "mimamsa-aurobindo-v4",
+      "title": "Mīmāṃsā worked — symbol-environment thesis (working draft, superseded)",
+      "subtitle": "Working investigation that reinstated the symbolism-shift thesis. Superseded by the polished Perspectives article 'Mīmāṃsā under the symbolism-shift reading'.",
+      "kind": "perspective-investigation",
+      "source_doc": "data/articles/source/mimamsa-aurobindo-v4.md",
+      "tags": [
+        "Mīmāṃsā",
+        "Jaimini",
+        "Śabara",
+        "Kumārila",
+        "Prabhākara",
+        "Aurobindo",
+        "Clooney",
+        "symbol-environment",
+        "Religionsgeschichte",
+        "bhāvanā",
+        "codanā",
+        "apūrva",
+        "contemporary-reader"
+      ],
+      "word_count_approx": 7454,
+      "date": "2026-05-10",
+      "status": "superseded",
+      "superseded_by": "mimamsa-symbolism-shift",
+      "superseded_note": "v4's content was lifted into the polished Perspectives article 'Mīmāṃsā under the symbolism-shift reading'. Kept on disk for the historical record of the v1→v2→v3→v4 trajectory.",
+      "supersedes": [
+        "mimamsa-aurobindo-v1",
+        "mimamsa-aurobindo-v2",
+        "mimamsa-aurobindo-v3"
+      ]
+    },
+    {
+      "slug": "mimamsa-aurobindo-v3",
+      "title": "Mīmāṃsā as a coherent practice-philosophy — Clooney's reading (superseded)",
+      "subtitle": "Replaced v2's diagnostic-decline framing. Superseded by v4 (and now by the polished Perspectives article).",
+      "kind": "perspective-investigation",
+      "source_doc": "data/articles/source/mimamsa-aurobindo-v3.md",
+      "tags": [
+        "Mīmāṃsā",
+        "Jaimini",
+        "Śabara",
+        "Kumārila",
+        "Prabhākara",
+        "Aurobindo",
+        "Clooney",
+        "bhāvanā",
+        "codanā",
+        "apūrva",
+        "contemporary-reader"
+      ],
+      "word_count_approx": 4711,
+      "date": "2026-05-10",
+      "status": "superseded",
+      "superseded_by": "mimamsa-symbolism-shift",
+      "superseded_note": "v3 over-corrected v2's diagnostic-decline framing by retracting the symbolism-shift thesis entirely. v4 reinstated it; the polished Perspectives article supersedes both.",
+      "supersedes": [
+        "mimamsa-aurobindo-v1",
+        "mimamsa-aurobindo-v2"
+      ]
+    },
+    {
+      "slug": "mimamsa-aurobindo-v2",
+      "title": "Mīmāṃsā as externalized yogic process — re-investigation (superseded)",
+      "subtitle": "Re-do with stronger verdict, drawing on Clooney 2022. Introduced a diagnostic-decline framing later retracted. Superseded.",
+      "kind": "perspective-investigation",
+      "source_doc": "data/articles/source/mimamsa-aurobindo-v2.md",
+      "tags": [
+        "Mīmāṃsā",
+        "Jaimini",
+        "Śabara",
+        "Aurobindo",
+        "Integral-Yoga",
+        "bhāvanā",
+        "apūrva",
+        "depth-reading",
+        "Clooney"
+      ],
+      "word_count_approx": 5970,
+      "date": "2026-05-09",
+      "status": "superseded",
+      "superseded_by": "mimamsa-symbolism-shift"
+    },
+    {
+      "slug": "mimamsa-aurobindo-v1",
+      "title": "Mīmāṃsā as externalized yogic process — first investigation (superseded)",
+      "subtitle": "First-pass investigation. Superseded.",
+      "kind": "perspective-investigation",
+      "source_doc": "data/articles/source/mimamsa-aurobindo-v1.md",
+      "tags": [
+        "Mīmāṃsā",
+        "Jaimini",
+        "Śabara",
+        "Aurobindo",
+        "Sureśvara",
+        "yajña",
+        "apūrva"
+      ],
+      "word_count_approx": 5783,
+      "date": "2026-05-09",
+      "status": "superseded",
+      "superseded_by": "mimamsa-symbolism-shift"
     }
   ]
 }

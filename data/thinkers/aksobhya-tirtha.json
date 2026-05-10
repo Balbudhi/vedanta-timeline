@@ -7,7 +7,7 @@
   "dates_high": 1365,
   "dates_tier": "consensus-textual",
   "dates_notes": "Fourth pontiff of the Mādhva pīṭha-paramparā after Narahari-Tīrtha; preceptor of Jayatīrtha; sectarian chronicles plus manuscript colophons.",
-  "school": "Dvaita",
+  "school": "Tattva-vāda",
   "school_color_token": "dvaita",
   "sub_school": "Madhva-paramparā-direct-disciple",
   "sub_school_shade": 2,
@@ -36,8 +36,14 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored polemical prakaraṇa preserved in the Mādhva manuscript canon and cited in later Mādhva polemical literature.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."},
-        {"kind": "sectarian-chronicle", "description": "Cited in Mādhva chronicles in connection with the Vijayanagara śāstrārtha tradition."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        },
+        {
+          "kind": "sectarian-chronicle",
+          "description": "Cited in Mādhva chronicles in connection with the Vijayanagara śāstrārtha tradition."
+        }
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",

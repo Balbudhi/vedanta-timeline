@@ -7,7 +7,7 @@
   "dates_high": 1360,
   "dates_tier": "consensus-textual",
   "dates_notes": "Son of Trivikrama Paṇḍitācārya; near-contemporary of Madhva (born within Madhva's lifetime); composes the Sumadhva-Vijaya as the school's near-contemporary biography. Sectarian chronicles plus the work's own internal evidence of personal acquaintance with Madhva.",
-  "school": "Dvaita",
+  "school": "Tattva-vāda",
   "school_color_token": "dvaita",
   "sub_school": "Madhva-paramparā-direct-disciple",
   "sub_school_shade": 2,
@@ -29,8 +29,14 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored mahākāvya, preserved in the Mādhva manuscript canon and recited daily in the school's pārāyaṇa tradition.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."},
-        {"kind": "sectarian-chronicle", "description": "Continuous Mādhva-paramparā transmission as foundational hagiographical text."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        },
+        {
+          "kind": "sectarian-chronicle",
+          "description": "Continuous Mādhva-paramparā transmission as foundational hagiographical text."
+        }
       ],
       "genre": "mahakavya-hagiography",
       "language": "sanskrit",
