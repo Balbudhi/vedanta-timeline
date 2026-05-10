@@ -1,0 +1,267 @@
+EOF marker not found
+path	kind	classification	size_bytes	notes
+_kashmir_saivism/AdvaitasiddhiVsNyayamrta.txt	txt	CLEAN	448262	alpha=0.92 short=0.31 junk=0.07 iast=0 dev=0 words=1219 | non-GRETIL but clean-looking
+_kashmir_saivism/MarkDyczkowskiTheStanzasOnVibration.txt	txt	CLEAN	1925445	alpha=0.95 short=0.03 junk=0.00 iast=0 dev=0 words=1269 | non-GRETIL but clean-looking
+_kashmir_saivism/mandala-and-agamic-identity-in-the-trika.txt	txt	CLEAN	132677	alpha=0.90 short=0.05 junk=0.03 iast=10 dev=0 words=1387 | non-GRETIL but clean-looking
+_kashmir_saivism/philosophy-of-madhvacarya-bnk-acrobat-ocr.txt	txt	CLEAN	981857	alpha=0.93 short=0.15 junk=0.02 iast=0 dev=0 words=1325 | non-GRETIL but clean-looking
+_more/BhagavadGitaWithElevenCommentaries.epub	epub	META	6334688	non-corpus auxiliary file
+_more/CCBSSTMadhya.txt	txt	DEGRADED	193338	alpha=0.02 short=0.04 junk=0.01 iast=0 dev=219 words=0
+_more/Olivelle_Early_Upanishads_bdaa8703.pdf	pdf	IMAGE-ONLY	25357868	pypdf open failed: Stream has ended unexpectedly
+_more/ShriMadhvaVedanta.txt	txt	CLEAN	1243702	alpha=0.92 short=0.11 junk=0.02 iast=0 dev=8688 words=1265 | non-GRETIL but clean-looking
+_more/SriBhasyaHindi01.txt	txt	CLEAN	925104	alpha=0.78 short=0.07 junk=0.05 iast=0 dev=0 words=1182 | non-GRETIL but clean-looking
+_more/SriBhasyaHindi02.txt	txt	CLEAN	1228569	alpha=0.94 short=0.07 junk=0.02 iast=0 dev=9401 words=1273 | non-GRETIL but clean-looking
+_more/SribhasyaOfRamanujaPart1Chatuhsutri1959R.D.Karmakar.txt	txt	DEGRADED	1680631	alpha=0.47 short=0.52 junk=0.26 iast=0 dev=4079 words=416
+_more/YogaVasishtaOfValmikiValmiki.txt	txt	CLEAN	5404912	alpha=0.95 short=0.03 junk=0.01 iast=0 dev=0 words=1548 | non-GRETIL but clean-looking
+_more/kcc_murarigupta.txt	txt	CLEAN	1284656	alpha=0.97 short=0.06 junk=0.02 iast=0 dev=9536 words=1389 | non-GRETIL but clean-looking
+_more/srimad-bhagavat-mahapuran-2-volume-set-sanskrit-hindi.txt	txt	CLEAN	6801917	alpha=0.95 short=0.07 junk=0.03 iast=0 dev=9394 words=1415 | non-GRETIL but clean-looking
+_replaced/gretil_sa_gauDapAda-AgamazAstra.txt	txt	CLEAN	30837	GRETIL plain-text e-text
+_replaced/gretil_sa_jIvagosvAmin-gopAlacampUp1-33u1-3u5-6u29.txt	txt	CLEAN	1131298	GRETIL plain-text e-text
+_replaced/gretil_sa_jIvagosvAmin-rAdhAkRSNArcanadIpikA.txt	txt	CLEAN	55168	GRETIL plain-text e-text
+_replaced/gretil_sa_jIvagosvAmin-saMkalpakalpadruma.txt	txt	CLEAN	119432	GRETIL plain-text e-text
+_replaced/gretil_sa_jayatIrtha-nyAyasudhA.txt	txt	CLEAN	2853356	GRETIL plain-text e-text
+_replaced/gretil_sa_jiva-gosvami-satsamdarbha.txt	txt	CLEAN	2095748	GRETIL plain-text e-text
+_replaced/gretil_sa_mAdhva-anuvyAkhyAna.txt	txt	CLEAN	252379	GRETIL plain-text e-text
+_replaced/gretil_sa_mAdhva-kRSNAmRtamahArNava.txt	txt	CLEAN	32424	GRETIL plain-text e-text
+_replaced/gretil_sa_mAdhva-mahAbhAratatAtparyanirNaya.txt	txt	CLEAN	812269	GRETIL plain-text e-text
+_replaced/gretil_sa_maNDanamizra-vibhramaviveka.txt	txt	CLEAN	21793	GRETIL plain-text e-text
+_replaced/gretil_sa_madhusUdanasarasvatI-siddhAntabindu.txt	txt	CLEAN	75602	GRETIL plain-text e-text
+_replaced/gretil_sa_mandanamizra-brahmasiddhi.txt	txt	CLEAN	313885	GRETIL plain-text e-text
+_replaced/gretil_sa_prabodhAnandasarasvatI-caitanyacandrAmRta.txt	txt	CLEAN	35710	GRETIL plain-text e-text
+_replaced/gretil_sa_rAmAnuja-bhagavadgItAbhASya.txt	txt	CLEAN	464403	GRETIL plain-text e-text
+_replaced/gretil_sa_rAmAnuja-vedArthasaMgraha.txt	txt	CLEAN	146681	GRETIL plain-text e-text
+_replaced/gretil_sa_srinivasamakhi-vedantadesika-dazavidhAhetunirUpaNa.txt	txt	CLEAN	262810	GRETIL plain-text e-text
+_replaced/gretil_sa_vAcaspatimizra-bhAmati.txt	txt	CLEAN	1166684	GRETIL plain-text e-text
+_replaced/gretil_sa_vyAsatIrtha-tarkatANDava-comm.txt	txt	CLEAN	1947991	GRETIL plain-text e-text
+_replaced/gretil_sa_yAmuna-Atmasiddhi.txt	txt	CLEAN	390134	GRETIL plain-text e-text
+_replaced/gretil_sa_yAmuna-Izvarasiddhi.txt	txt	CLEAN	19895	GRETIL plain-text e-text
+_replaced/gretil_sa_yAmuna-catuHzlokI.txt	txt	CLEAN	2684	GRETIL plain-text e-text
+_replaced/gretil_sa_yAmuna-gItArthasaMgraha.txt	txt	CLEAN	5542	GRETIL plain-text e-text
+_replaced/gretil_sa_yAmuna-saMvitsiddhi.txt	txt	CLEAN	30579	GRETIL plain-text e-text
+_replaced/gretil_sa_yAmuna-stotraratna.txt	txt	CLEAN	13016	GRETIL plain-text e-text
+_replaced/gretil_sa_zaMkara-upadezasAhasrI.txt	txt	CLEAN	142891	GRETIL plain-text e-text
+_replaced/gretil_sa_zaMkara-vivekacuDAmaNi.txt	txt	CLEAN	90654	GRETIL plain-text e-text
+_replaced/madhusudana_advaita_siddhi_anantakrishna_archive_djvu.txt	txt	CLEAN	10998760	alpha=0.95 short=0.10 junk=0.03 iast=0 dev=10094 words=814 | non-GRETIL but clean-looking
+_replaced/madhva_brahma_sutra_bhasya_3comm_vol1_archive_djvu.txt	txt	CLEAN	1385315	alpha=0.94 short=0.12 junk=0.03 iast=0 dev=9896 words=874 | non-GRETIL but clean-looking
+_replaced/madhva_brahma_sutra_bhasya_3comm_vol2_archive_djvu.txt	txt	CLEAN	1389139	alpha=0.92 short=0.13 junk=0.04 iast=0 dev=9596 words=780 | non-GRETIL but clean-looking
+_replaced/madhva_brahma_sutra_bhasya_3comm_vol3_archive_djvu.txt	txt	CLEAN	2003054	alpha=0.94 short=0.13 junk=0.02 iast=0 dev=9855 words=915 | non-GRETIL but clean-looking
+_replaced/madhva_brahma_sutra_bhasya_with_tatvadipika_dli_archive_djvu.txt	txt	CLEAN	1974279	alpha=0.95 short=0.18 junk=0.08 iast=0 dev=4425 words=1172 | non-GRETIL but clean-looking
+_replaced/padmapada_pancapadika_dli_archive_djvu.txt	txt	CLEAN	1081333	alpha=0.96 short=0.05 junk=0.02 iast=0 dev=0 words=1498 | non-GRETIL but clean-looking
+_replaced/prakasatman_pancapadika_vivarana_archive_djvu.txt	txt	CLEAN	642613	alpha=0.94 short=0.23 junk=0.06 iast=0 dev=0 words=1415 | non-GRETIL but clean-looking
+_replaced/ramanuja_sribhasya_gretil.txt	txt	CLEAN	274	GRETIL plain-text e-text
+_replaced/sarvajnatman_sanksepa_sariraka_veezhinathan_1972_archive_djvu.txt	txt	CLEAN	1133424	alpha=0.93 short=0.13 junk=0.02 iast=0 dev=0 words=1217 | non-GRETIL but clean-looking
+_replaced/suresvara_naishkarmyasiddhi_sanskritdocuments.itx	itx	OTHER	226	
+_replaced/suresvara_naishkarmyasiddhi_sanskritdocuments.pdf	pdf	DEGRADED	433251	pdf pages=66 sampled=4 | alpha=0.83 short=0.75 junk=0.36 iast=0 dev=3398 words=591
+_replaced/suresvara_naiskarmya_siddhi_alston_archive_djvu.txt	txt	CLEAN	445158	alpha=0.94 short=0.09 junk=0.01 iast=0 dev=0 words=1438 | non-GRETIL but clean-looking
+_replaced/vedanta_desika_tattva_mukta_kalapa_archive_djvu.txt	txt	CLEAN	1810911	alpha=0.83 short=0.12 junk=0.05 iast=0 dev=0 words=1116 | non-GRETIL but clean-looking
+_replaced/vidyaranya_jivanmukti_viveka_archive_djvu.txt	txt	ACCEPTABLE	486382	alpha=0.94 short=0.19 junk=0.09 iast=0 dev=0 words=1257
+_replaced/vidyaranya_panchadashi_sanskritdocuments.pdf	pdf	DEGRADED	677027	pdf pages=120 sampled=4 | alpha=0.86 short=0.86 junk=0.39 iast=0 dev=3502 words=664
+_replaced/vidyaranya_panchadasi_archive_djvu.txt	txt	CLEAN	687755	alpha=0.97 short=0.12 junk=0.02 iast=0 dev=0 words=1466 | non-GRETIL but clean-looking
+_replaced/vimuktatman_ista_siddhi_hiriyanna_1933_archive_djvu.txt	txt	CLEAN	2766332	alpha=0.67 short=0.09 junk=0.02 iast=0 dev=6451 words=782 | non-GRETIL but clean-looking
+_replaced/vyasatirtha_nyayamrta_advaitasiddhi_calcutta_djvu.txt	txt	ACCEPTABLE	2015998	alpha=0.83 short=0.11 junk=0.10 iast=0 dev=0 words=1147
+bhagavad_gita_4comm.txt	txt	CLEAN	1978331	GRETIL plain-text e-text
+bhagavad_gita_with_comm.txt	txt	CLEAN	520003	GRETIL plain-text e-text
+bhagavata_purana.txt	txt	CLEAN	2242706	GRETIL plain-text e-text
+buddhist/_acquisition_sources.json	json	META	1106	non-corpus auxiliary file
+buddhist/candrakirti_madhyamakavatara.txt	txt	DEGRADED	104992	alpha=0.95 short=0.00 junk=0.25 iast=1439 dev=0 words=1115
+buddhist/dharmakirti_pramana_varttika.txt	txt	CLEAN	119215	alpha=0.88 short=0.01 junk=0.00 iast=1528 dev=0 words=996 | non-GRETIL but clean-looking
+buddhist/nagarjuna_mula_madhyamaka_karika.txt	txt	CLEAN	59571	alpha=0.83 short=0.00 junk=0.04 iast=978 dev=0 words=1218 | non-GRETIL but clean-looking
+buddhist/nagarjuna_vigraha_vyavartani.txt	txt	ACCEPTABLE	50863	alpha=0.94 short=0.14 junk=0.18 iast=1492 dev=0 words=1265
+buddhist/vasubandhu_trimsika.txt	txt	CLEAN	3897	alpha=0.90 short=0.01 junk=0.00 iast=561 dev=0 words=459 | non-GRETIL but clean-looking
+buddhist/vasubandhu_vimsatika.txt	txt	DEGRADED	18032	alpha=0.94 short=0.03 junk=0.33 iast=1378 dev=0 words=1266
+caitanya_gaudiya/brahma_samhita_5_comm.txt	txt	CLEAN	90562	GRETIL plain-text e-text
+caitanya_gaudiya/jiva_gopala_campu_partial.txt	txt	CLEAN	1131298	GRETIL plain-text e-text
+caitanya_gaudiya/jiva_radhakrsna_arcana_dipika.txt	txt	CLEAN	55168	GRETIL plain-text e-text
+caitanya_gaudiya/jiva_sankalpakalpadruma.txt	txt	CLEAN	119432	GRETIL plain-text e-text
+caitanya_gaudiya/jiva_sat_sandarbha.txt	txt	CLEAN	2095748	GRETIL plain-text e-text
+caitanya_gaudiya/prabodhananda_caitanya_candramrta.txt	txt	CLEAN	35710	GRETIL plain-text e-text
+caitanya_gaudiya/rupa_bhakti_rasamrta_sindhu.txt	txt	CLEAN	383997	GRETIL plain-text e-text
+caitanya_gaudiya/rupa_laghu_bhagavatamrta.txt	txt	CLEAN	140920	GRETIL plain-text e-text
+caitanya_gaudiya/rupa_padyavali.txt	txt	CLEAN	100004	GRETIL plain-text e-text
+caitanya_gaudiya/rupa_ujjvala_nilamani.txt	txt	CLEAN	275755	GRETIL plain-text e-text
+comparator/aksapada_nyaya_sutra.txt	txt	CLEAN	49907	alpha=0.86 short=0.00 junk=0.00 iast=1543 dev=0 words=966 | non-GRETIL but clean-looking
+comparator/badarayana_brahma_sutra.txt	txt	CLEAN	27435	alpha=0.77 short=0.01 junk=0.00 iast=1117 dev=0 words=1081 | non-GRETIL but clean-looking
+comparator/isvarakrsna_samkhya_karika.txt	txt	CLEAN	10204	alpha=0.91 short=0.00 junk=0.00 iast=1529 dev=0 words=1240 | non-GRETIL but clean-looking
+comparator/jaimini_mimamsa_sutra.txt	txt	CLEAN	167641	alpha=0.78 short=0.00 junk=0.00 iast=1103 dev=0 words=1059 | non-GRETIL but clean-looking
+comparator/kanada_vaisesika_sutra.txt	txt	CLEAN	23117	alpha=0.79 short=0.00 junk=0.00 iast=1361 dev=0 words=1108 | non-GRETIL but clean-looking
+comparator/patanjali_yoga_sutra.txt	txt	DEGRADED	13267	alpha=0.81 short=0.00 junk=1.00 iast=1491 dev=0 words=875
+comparator/shabara_mimamsa_sutra_bhasya.txt	txt	CLEAN	1398940	alpha=0.85 short=0.05 junk=0.05 iast=1103 dev=0 words=1194 | non-GRETIL but clean-looking
+comparator/umasvati_tattvartha_sutra.txt	txt	CLEAN	46354	alpha=0.98 short=0.04 junk=0.00 iast=0 dev=10665 words=825 | non-GRETIL but clean-looking
+comparator/vatsyayana_nyaya_bhasya.txt	txt	DEGRADED	431468	alpha=0.86 short=0.07 junk=0.33 iast=1281 dev=0 words=1151
+comparator/vyasa_yoga_bhasya.txt	txt	DEGRADED	143237	alpha=0.93 short=0.01 junk=0.46 iast=1559 dev=0 words=1196
+kala_cakra/abhinavagupta_tantraloka_chapter06_kalopaya_kalacakra.txt	txt	CLEAN	32798	alpha=0.87 short=0.00 junk=0.00 iast=1519 dev=0 words=1070 | non-GRETIL but clean-looking
+kala_cakra/banerjee_1985_kalacakratantra_critical.pdf	pdf	IMAGE-ONLY	17372928	pages=314 sampled=4 alpha=0 (insufficient embedded text)
+kala_cakra/banerjee_1985_kalacakratantra_critical.txt	txt	ACCEPTABLE	927520	alpha=0.60 short=0.09 junk=0.02 iast=0 dev=5686 words=751
+kala_cakra/carelli_1941_sekoddesatika_naropa.pdf	pdf	IMAGE-ONLY	21783208	pages=138 sampled=4 alpha=0 (insufficient embedded text)
+kala_cakra/carelli_1941_sekoddesatika_naropa.txt	txt	ACCEPTABLE	548925	alpha=0.49 short=0.09 junk=0.02 iast=0 dev=4763 words=559
+kala_cakra/dhargyey_commentary_on_kalacakra_tantra.pdf	pdf	CLEAN	1322812	pdf pages=192 sampled=4 | alpha=0.96 short=0.08 junk=0.01 iast=0 dev=0 words=1227 | non-GRETIL but clean-looking
+kala_cakra/tomlin_kalachakra_lineages_history_philosophy.pdf	pdf	CLEAN	8571602	pdf pages=273 sampled=4 | alpha=0.93 short=0.07 junk=0.00 iast=19 dev=0 words=557 | non-GRETIL but clean-looking
+kala_cakra/upadhyaya_vimalaprabha_vol1.txt	txt	CLEAN	1690431	alpha=0.89 short=0.15 junk=0.04 iast=0 dev=8612 words=1186 | non-GRETIL but clean-looking
+kala_cakra/upadhyaya_vimalaprabha_vol1_text.pdf	pdf	CLEAN	14040406	pdf pages=320 sampled=4 | alpha=0.95 short=0.12 junk=0.01 iast=0 dev=5523 words=593 | non-GRETIL but clean-looking
+kala_cakra/upadhyaya_vimalaprabha_vol2.pdf	pdf	IMAGE-ONLY	28422713	pages=280 sampled=4 alpha=0 (insufficient embedded text)
+kala_cakra/vira_lokesh_chandra_1966_kalacakra_other_texts.pdf	pdf	IMAGE-ONLY	12237460	pages=83 sampled=4 alpha=0 (insufficient embedded text)
+kala_cakra/vira_lokesh_chandra_1966_kalacakra_other_texts.txt	txt	CLEAN	793567	alpha=0.72 short=0.16 junk=0.02 iast=0 dev=6857 words=940 | non-GRETIL but clean-looking
+kashmir_shaiva/abhinavagupta_ipv.txt	txt	CLEAN	357301	GRETIL plain-text e-text
+kashmir_shaiva/abhinavagupta_malini_sloka_varttika.txt	txt	CLEAN	186911	GRETIL plain-text e-text
+kashmir_shaiva/abhinavagupta_paramartha_sara.txt	txt	CLEAN	15647	GRETIL plain-text e-text
+kashmir_shaiva/abhinavagupta_paramartha_sara_comm.txt	txt	CLEAN	158888	GRETIL plain-text e-text
+kashmir_shaiva/abhinavagupta_tantraloka.txt	txt	CLEAN	771436	GRETIL plain-text e-text
+kashmir_shaiva/abhinavagupta_tantrasara.txt	txt	CLEAN	130963	GRETIL plain-text e-text
+kashmir_shaiva/ksemaraja_bodhavilasa.txt	txt	CLEAN	6851	GRETIL plain-text e-text
+kashmir_shaiva/ksemaraja_pratyabhijna_hrdayam.txt	txt	CLEAN	42058	GRETIL plain-text e-text
+kashmir_shaiva/siva_sutra_with_varttika.txt	txt	CLEAN	63608	GRETIL plain-text e-text
+kashmir_shaiva/spanda_karika.txt	txt	CLEAN	8058	GRETIL plain-text e-text
+kashmir_shaiva/spanda_karika_comm.txt	txt	CLEAN	104864	GRETIL plain-text e-text
+kashmir_shaiva/torella_2002_isvarapratyabhijnakarika_utpaladeva.pdf	pdf	CLEAN	11861837	pdf pages=338 sampled=4 | alpha=0.90 short=0.09 junk=0.02 iast=0 dev=0 words=773 | non-GRETIL but clean-looking
+kashmir_shaiva/utpaladeva_isvara_pratyabhijna_karika.txt	txt	CLEAN	67922	GRETIL plain-text e-text
+kashmir_shaiva/utpaladeva_sivastotravali.txt	txt	CLEAN	65547	GRETIL plain-text e-text
+mimamsa/jaimini_mimamsa_sutra.txt	txt	CLEAN	166732	GRETIL plain-text e-text
+mimamsa/jaimini_mimamsa_sutra_comm.txt	txt	CLEAN	1405306	GRETIL plain-text e-text
+mimamsa/kumarila_sloka_varttika_comm.txt	txt	CLEAN	433392	GRETIL plain-text e-text
+mimamsa/madhava_jaimini_nyaya_mala.txt	txt	CLEAN	563090	GRETIL plain-text e-text
+mimamsa/sucaritamisra_sloka_varttika.txt	txt	CLEAN	1336922	GRETIL plain-text e-text
+nyaya/annambhatta_tarka_sangraha.txt	txt	CLEAN	18598	GRETIL plain-text e-text
+nyaya/annambhatta_tarka_sangraha_comm.txt	txt	CLEAN	1306849	GRETIL plain-text e-text
+nyaya/dharmakirti_nyaya_bindu.txt	txt	CLEAN	24888	GRETIL plain-text e-text
+nyaya/nyaya_sutra_comm.txt	txt	CLEAN	433465	GRETIL plain-text e-text
+nyaya/nyaya_sutra_comm2.txt	txt	CLEAN	1328132	GRETIL plain-text e-text
+nyaya/nyaya_sutra_comm_alt.txt	txt	CLEAN	417713	GRETIL plain-text e-text
+nyaya/nyaya_sutra_gautama.txt	txt	CLEAN	51699	GRETIL plain-text e-text
+nyaya/udayana_nyaya_kusumanjali.txt	txt	CLEAN	271638	GRETIL plain-text e-text
+pralaya_cosmology/bhagavata_purana_skandha_03_kapila_devahuti_GRETIL.htm	htm	CLEAN	254913	GRETIL plain-text e-text
+pralaya_cosmology/bhagavata_purana_skandha_11_uddhava_gita_GRETIL.htm	htm	CLEAN	235231	GRETIL plain-text e-text
+pralaya_cosmology/bhagavata_purana_skandha_12_pralaya_GRETIL.htm	htm	CLEAN	99662	GRETIL plain-text e-text
+pralaya_cosmology/linga_purana_book_1a_accented_GRETIL.htm	htm	CLEAN	1049342	GRETIL plain-text e-text
+pralaya_cosmology/linga_purana_book_1i_GRETIL.htm	htm	CLEAN	1260925	GRETIL plain-text e-text
+pralaya_cosmology/linga_purana_book_1p_pada_GRETIL.htm	htm	CLEAN	1005578	GRETIL plain-text e-text
+pralaya_cosmology/linga_purana_book_2_GRETIL.htm	htm	CLEAN	351758	GRETIL plain-text e-text
+pralaya_cosmology/surya_siddhanta_GRETIL.htm	htm	CLEAN	85035	GRETIL plain-text e-text
+pralaya_cosmology/visnu_purana_GRETIL.htm	htm	CLEAN	900960	GRETIL plain-text e-text
+pralaya_cosmology/visnu_purana_critical_GRETIL.htm	htm	CLEAN	1025286	GRETIL plain-text e-text
+rgveda_aufrecht.txt	txt	CLEAN	1494070	GRETIL plain-text e-text
+samkhya/samkhya_karika_isvarakrsna.txt	txt	CLEAN	23044	GRETIL plain-text e-text
+samkhya/samkhya_karika_with_comm.txt	txt	CLEAN	153691	GRETIL plain-text e-text
+samkhya/samkhya_karika_with_comm2.txt	txt	CLEAN	93739	GRETIL plain-text e-text
+samkhya/samkhya_karika_with_comm3.txt	txt	CLEAN	108967	GRETIL plain-text e-text
+samkhya/samkhya_sutra_kapila.txt	txt	CLEAN	56744	GRETIL plain-text e-text
+samkhya/samkhya_tattva_pradipa.txt	txt	CLEAN	38434	GRETIL plain-text e-text
+samkhya/samkhya_tattva_vivecana_simananda.txt	txt	CLEAN	60049	GRETIL plain-text e-text
+samkhya_metaphysics/bhavaganesa_tattvayatharthyadipana_GRETIL.htm	htm	CLEAN	65904	GRETIL plain-text e-text
+samkhya_metaphysics/caraka_samhita_GRETIL.htm	htm	CLEAN	424960	GRETIL plain-text e-text
+samkhya_metaphysics/garbe_samkhyapravacanabhasya_vijnanabhiksu.txt	txt	CLEAN	515353	alpha=0.92 short=0.15 junk=0.04 iast=0 dev=0 words=1385 | non-GRETIL but clean-looking
+samkhya_metaphysics/gaudapadabhasya_on_karika_GRETIL.htm	htm	CLEAN	105638	GRETIL plain-text e-text
+samkhya_metaphysics/isvarakrsna_samkhyakarika_GRETIL.htm	htm	CLEAN	15968	GRETIL plain-text e-text
+samkhya_metaphysics/isvarakrsna_samkhyakarika_ruzsa_GRETIL.htm	htm	CLEAN	35323	GRETIL plain-text e-text
+samkhya_metaphysics/jayamangala_samkara_on_karika_GRETIL.htm	htm	CLEAN	127773	GRETIL plain-text e-text
+samkhya_metaphysics/kavirajayati_samkhyatattvapradipa_GRETIL.htm	htm	CLEAN	43904	GRETIL plain-text e-text
+samkhya_metaphysics/kesava_samkhyatattvapradipika_GRETIL.htm	htm	CLEAN	17451	GRETIL plain-text e-text
+samkhya_metaphysics/mahabharata_06_bhismaparvan_with_gita_GRETIL.htm	htm	CLEAN	970224	GRETIL plain-text e-text
+samkhya_metaphysics/mahabharata_12_shantiparvan_GRETIL.htm	htm	CLEAN	2509247	GRETIL plain-text e-text
+samkhya_metaphysics/matharavrtti_on_karika_GRETIL.htm	htm	CLEAN	165824	GRETIL plain-text e-text
+samkhya_metaphysics/samkhyaparibhasa_GRETIL.htm	htm	CLEAN	40188	GRETIL plain-text e-text
+samkhya_metaphysics/samkhyapravacanabhasya_DLI.txt	txt	CLEAN	526592	alpha=0.91 short=0.07 junk=0.02 iast=0 dev=0 words=1393 | non-GRETIL but clean-looking
+samkhya_metaphysics/samkhyasutravivarana_GRETIL.htm	htm	CLEAN	23077	GRETIL plain-text e-text
+samkhya_metaphysics/sarvopakarani_on_tattvasamasa_GRETIL.htm	htm	CLEAN	20023	GRETIL plain-text e-text
+samkhya_metaphysics/simanandadiksita_samkhyatattvavivecana_GRETIL.htm	htm	CLEAN	77484	GRETIL plain-text e-text
+samkhya_metaphysics/sinha_samkhya_philosophy_aniruddha_vijnanabhiksu_mahadeva.txt	txt	CLEAN	406244	alpha=0.88 short=0.12 junk=0.01 iast=0 dev=0 words=1109 | non-GRETIL but clean-looking
+samkhya_metaphysics/tattvamimamsa_GRETIL.htm	htm	CLEAN	27997	GRETIL plain-text e-text
+samkhya_metaphysics/tattvasamasa_4versions_GRETIL.htm	htm	CLEAN	9562	GRETIL plain-text e-text
+samkhya_metaphysics/tattvasamasasutravrtti_kramadipika_GRETIL.htm	htm	CLEAN	40367	GRETIL plain-text e-text
+samkhya_metaphysics/vijnanabhiksu_samkhyasara_GRETIL.htm	htm	CLEAN	73875	GRETIL plain-text e-text
+samkhya_metaphysics/wezler_motegi_yuktidipika_vol1_1998.pdf	pdf	CLEAN	10080983	pdf pages=393 sampled=4 | alpha=0.88 short=0.06 junk=0.00 iast=0 dev=0 words=1249 | non-GRETIL but clean-looking
+samkhya_metaphysics/wezler_motegi_yuktidipika_vol1_1998.txt	txt	DEGRADED	1363302	alpha=0.33 short=0.13 junk=0.06 iast=0 dev=3163 words=453
+samkhya_metaphysics/yuktidipika_anonymous_GRETIL.htm	htm	CLEAN	534233	GRETIL plain-text e-text
+samkhya_metaphysics/yuktidipika_vol2_djvu.txt	txt	CLEAN	646504	alpha=0.92 short=0.09 junk=0.02 iast=0 dev=0 words=1375 | non-GRETIL but clean-looking
+samkhya_metaphysics/yuktidipika_vol2_shivkumar_bhargava.pdf	pdf	ACCEPTABLE	173512797	pdf pages=420 sampled=4 | alpha=0.86 short=0.12 junk=0.09 iast=0 dev=0 words=742
+upanishads/aitareya_with_shankara.txt	txt	CLEAN	64088	GRETIL plain-text e-text
+upanishads/brhadaranyaka_with_shankara.txt	txt	CLEAN	962569	GRETIL plain-text e-text
+upanishads/chandogya_with_shankara.txt	txt	CLEAN	597570	GRETIL plain-text e-text
+upanishads/garbha.txt	txt	CLEAN	6617	GRETIL plain-text e-text
+upanishads/isha_with_shankara.txt	txt	CLEAN	28323	GRETIL plain-text e-text
+upanishads/kaivalya.txt	txt	CLEAN	6429	GRETIL plain-text e-text
+upanishads/katha.txt	txt	CLEAN	20418	GRETIL plain-text e-text
+upanishads/katha_with_shankara.txt	txt	CLEAN	111652	GRETIL plain-text e-text
+upanishads/mandukya.txt	txt	CLEAN	7920	GRETIL plain-text e-text
+upanishads/mandukya_with_gaudapada_shankara.txt	txt	CLEAN	184367	GRETIL plain-text e-text
+upanishads/prashna_with_shankara.txt	txt	CLEAN	83164	GRETIL plain-text e-text
+upanishads/svetasvatara.txt	txt	CLEAN	20388	GRETIL plain-text e-text
+upanishads/svetasvatara_alt.txt	txt	CLEAN	21092	GRETIL plain-text e-text
+upanishads/taittiriya_with_shankara.txt	txt	CLEAN	156792	GRETIL plain-text e-text
+vaisesika/vaisesika_sutra_alt.txt	txt	CLEAN	23318	GRETIL plain-text e-text
+vaisesika/vaisesika_sutra_kanada.txt	txt	CLEAN	24311	GRETIL plain-text e-text
+vedanta/brahma_sutra.txt	txt	CLEAN	28691	GRETIL plain-text e-text
+vedanta/brahma_sutra_alt.txt	txt	CLEAN	29011	GRETIL plain-text e-text
+vedanta/brahma_sutra_comm_subcomm2.txt	txt	CLEAN	2215542	GRETIL plain-text e-text
+vedanta/brahma_sutra_subcomm.txt	txt	CLEAN	1121029	GRETIL plain-text e-text
+vedanta/brahma_sutra_subcomm2.txt	txt	CLEAN	1233082	GRETIL plain-text e-text
+vedanta/full_corpus/bhartrprapanca_hiriyanna_indian_antiquary_vol53_1924_archive.pdf	pdf	IMAGE-ONLY	67229567	pages=394 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/corpus_meta.tsv	tsv	META	10618	non-corpus auxiliary file
+vedanta/full_corpus/gaudapada_mandukya_karika_gretil.txt	txt	CLEAN	30837	GRETIL plain-text e-text
+vedanta/full_corpus/gaudapada_mandukya_karika_shankara_bhasya_nikhilananda_archive.pdf	pdf	IMAGE-ONLY	18404756	pages=390 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/kesava_kasmiri_kramadipika_gretil.txt	txt	CLEAN	436908	GRETIL plain-text e-text
+vedanta/full_corpus/madhusudana_advaita_siddhi_vol1_part1_1917_archive.pdf	pdf	IMAGE-ONLY	26083876	pages=342 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/madhusudana_bhakti_rasayana_archive.pdf	pdf	DEGRADED	397194	pdf pages=49 sampled=4 | alpha=0.76 short=0.07 junk=0.25 iast=127 dev=0 words=1183
+vedanta/full_corpus/madhusudana_siddhanta_bindu_gretil.txt	txt	CLEAN	75602	GRETIL plain-text e-text
+vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt	txt	CLEAN	252379	GRETIL plain-text e-text
+vedanta/full_corpus/madhva_bhagavata_tatparya_nirnaya_archive.pdf	pdf	IMAGE-ONLY	209792468	pages=863 sampled=4 alpha=60 (insufficient embedded text)
+vedanta/full_corpus/madhva_brahma_sutra_bhasya_vol1_archive.pdf	pdf	IMAGE-ONLY	43355100	pages=415 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/madhva_brahma_sutra_bhasya_vol2_archive.pdf	pdf	IMAGE-ONLY	55173980	pages=440 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/madhva_brahma_sutra_bhasya_vol3_archive.pdf	pdf	IMAGE-ONLY	76061927	pages=637 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/madhva_short_polemics_upadhi_mayavada_mithyatva_tattva_archive.pdf	pdf	IMAGE-ONLY	5126171	pages=14 sampled=3 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/mandana_misra_brahma_siddhi_gretil.txt	txt	CLEAN	313885	GRETIL plain-text e-text
+vedanta/full_corpus/mandana_misra_brahma_siddhi_kuppuswami_sastri_1937_archive.pdf	pdf	IMAGE-ONLY	84568617	pages=646 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/mandukya_upanisad_gaudapada_shankara_bhasya_existing.txt	txt	CLEAN	184367	GRETIL plain-text e-text
+vedanta/full_corpus/nimbarka_dasasloki_archive.pdf	pdf	IMAGE-ONLY	15158413	pages=54 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/nimbarka_srinivasa_vedanta_parijata_kaustubha_vol1_archive.pdf	pdf	IMAGE-ONLY	26526891	pages=485 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/nimbarka_srinivasa_vedanta_parijata_kaustubha_vol2_archive.pdf	pdf	IMAGE-ONLY	123875499	pages=418 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/nimbarka_srinivasa_vedanta_parijata_kaustubha_vol3_archive.pdf	pdf	IMAGE-ONLY	104212635	pages=328 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/padmapada_pancapadika_venkataramiah_1948_archive.pdf	pdf	DEGRADED	19654556	pdf pages=460 sampled=4 | alpha=0.94 short=0.31 junk=0.23 iast=0 dev=0 words=266
+vedanta/full_corpus/prakasatman_pancapadika_vivarana_archive.pdf	pdf	IMAGE-ONLY	33512662	pages=408 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/raghavendra_nyaya_sudha_parimala_ad1_archive.pdf	pdf	IMAGE-ONLY	410943362	pages=269 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/raghavendra_nyaya_sudha_parimala_ad2_archive.pdf	pdf	IMAGE-ONLY	422551290	pages=256 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/raghavendra_nyaya_sudha_parimala_ad3_archive.pdf	pdf	IMAGE-ONLY	235868831	pages=143 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/raghavendra_nyaya_sudha_parimala_ad4_archive.pdf	pdf	IMAGE-ONLY	85020397	pages=55 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/raghavendra_tantra_dipika_archive.pdf	pdf	IMAGE-ONLY	13687175	pages=155 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/sarvajnatman_sanksepa_sariraka_veezhinathan_1972_archive.pdf	pdf	IMAGE-ONLY	38181591	pages=775 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/shankara_aparokshanubhuti_munilal_archive.pdf	pdf	IMAGE-ONLY	19383876	pages=56 sampled=4 alpha=184 (insufficient embedded text)
+vedanta/full_corpus/shankara_aparokshanubhuti_sanskrit_1940_archive.pdf	pdf	IMAGE-ONLY	26410476	pages=114 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/shankara_atmabodha_kailash_ashram_archive.pdf	pdf	IMAGE-ONLY	10139864	pages=51 sampled=4 alpha=76 (insufficient embedded text)
+vedanta/full_corpus/shankara_upadesa_sahasri_gretil.txt	txt	CLEAN	142891	GRETIL plain-text e-text
+vedanta/full_corpus/shankara_upadesa_sahasri_mayeda_1992_archive.pdf	pdf	DEGRADED	48522624	pdf pages=146 sampled=4 | alpha=0.91 short=0.94 junk=0.25 iast=0 dev=0 words=1244
+vedanta/full_corpus/shankara_vivekacudamani_gretil.txt	txt	CLEAN	90654	GRETIL plain-text e-text
+vedanta/full_corpus/shankara_vivekacudamani_madhavananda_1970_archive.pdf	pdf	IMAGE-ONLY	48111560	pages=246 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/suresvara_brhadaranyaka_varttika_english_archive.pdf	pdf	DEGRADED	789215476	pdf pages=3858 sampled=4 | alpha=0.71 short=0.98 junk=0.42 iast=0 dev=0 words=100
+vedanta/full_corpus/suresvara_naiskarmya_siddhi_alston_1959_archive.pdf	pdf	IMAGE-ONLY	8499653	pages=286 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/suresvara_taittiriya_varttika_english_archive.pdf	pdf	CLEAN	12100078	pdf pages=496 sampled=4 | alpha=0.94 short=0.14 junk=0.04 iast=0 dev=0 words=1035 | non-GRETIL but clean-looking
+vedanta/full_corpus/vallabha_anubhasya_1897_archive.pdf	pdf	IMAGE-ONLY	24238602	pages=490 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/vedanta_desika_pancaratra_raksa_1942_archive.pdf	pdf	IMAGE-ONLY	99438877	pages=314 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/vedanta_desika_rahasya_traya_sara_1946_archive.pdf	pdf	CLEAN	53889212	pdf pages=645 sampled=4 | alpha=0.93 short=0.08 junk=0.04 iast=0 dev=0 words=838 | non-GRETIL but clean-looking
+vedanta/full_corpus/vedanta_desika_tattva_mukta_kalapa_sarvartha_siddhi_1900_archive.pdf	pdf	IMAGE-ONLY	49080312	pages=742 sampled=4 alpha=76 (insufficient embedded text)
+vedanta/full_corpus/vidyaranya_jivanmukti_viveka_sanskrit_archive.pdf	pdf	IMAGE-ONLY	40637930	pages=112 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/vidyaranya_jivanmukti_viveka_subrahmanya_sastri_1978_archive.pdf	pdf	IMAGE-ONLY	49169358	pages=515 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/vidyaranya_panchadasi_1899_english_translation_archive.pdf	pdf	ACCEPTABLE	16554466	pdf pages=358 sampled=4 | alpha=0.96 short=0.23 junk=0.15 iast=0 dev=0 words=220
+vedanta/full_corpus/vidyaranya_panchadasi_sanskrit_modaka_tika_archive.pdf	pdf	IMAGE-ONLY	78244092	pages=498 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/vidyaranya_vivarana_prameya_sangraha_1893_archive.pdf	pdf	CLEAN	179256897	pdf pages=284 sampled=4 | alpha=0.95 short=0.00 junk=0.00 iast=0 dev=0 words=66 | non-GRETIL but clean-looking
+vedanta/full_corpus/vijnanabhiksu_vijnanamrta_bhasya_1979_archive.pdf	pdf	IMAGE-ONLY	22123656	pages=199 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/vijnanabhiksu_yoga_varttika_1884_archive.pdf	pdf	IMAGE-ONLY	23949933	pages=329 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/vimuktatman_ista_siddhi_1933_archive.pdf	pdf	IMAGE-ONLY	54783869	pages=754 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/vyasatirtha_nyayamrta_vol1_archive.pdf	pdf	IMAGE-ONLY	127865545	pages=792 sampled=4 alpha=0 (insufficient embedded text)
+vedanta/full_corpus/vyasatirtha_tarka_tandava_gretil.txt	txt	CLEAN	1947991	GRETIL plain-text e-text
+vedanta/full_corpus/yamuna_agama_pramanya_archive.pdf	pdf	IMAGE-ONLY	4185187	pages=96 sampled=4 alpha=42 (insufficient embedded text)
+vedanta/full_corpus/yamuna_atma_siddhi_gretil.txt	txt	CLEAN	390134	GRETIL plain-text e-text
+vedanta/full_corpus/yamuna_catuhsloki_gretil.txt	txt	CLEAN	2684	GRETIL plain-text e-text
+vedanta/full_corpus/yamuna_isvara_siddhi_gretil.txt	txt	CLEAN	19895	GRETIL plain-text e-text
+vedanta/full_corpus/yamuna_samvit_siddhi_gretil.txt	txt	CLEAN	30579	GRETIL plain-text e-text
+vedanta/full_corpus/yamuna_stotra_ratna_gretil.txt	txt	CLEAN	13016	GRETIL plain-text e-text
+vedanta/jayatirtha_nyaya_sudha.txt	txt	CLEAN	2853356	GRETIL plain-text e-text
+vedanta/madhusudana_siddhanta_bindu.txt	txt	CLEAN	75602	GRETIL plain-text e-text
+vedanta/madhva_anuvyakhyana.txt	txt	CLEAN	252379	GRETIL plain-text e-text
+vedanta/madhva_krsnamrta.txt	txt	CLEAN	32424	GRETIL plain-text e-text
+vedanta/madhva_mahabharata_tatparya.txt	txt	CLEAN	812269	GRETIL plain-text e-text
+vedanta/ramanuja_gita_bhasya.txt	txt	CLEAN	464403	GRETIL plain-text e-text
+vedanta/ramanuja_vedartha_sangraha.txt	txt	CLEAN	146681	GRETIL plain-text e-text
+vedanta/shankara_brahma_sutra_bhasya.txt	txt	CLEAN	1125765	GRETIL plain-text e-text
+vedanta/vacaspati_bhamati.txt	txt	CLEAN	1166684	GRETIL plain-text e-text
+yoga/yoga_sutra_patanjali.txt	txt	CLEAN	15410	GRETIL plain-text e-text
+yoga/yoga_sutra_with_vyasa_bhasya.txt	txt	CLEAN	145716	GRETIL plain-text e-text
+yoga/yoga_sutra_with_vyasa_bhasya_alt.txt	txt	CLEAN	177862	GRETIL plain-text e-text
+yoga_vasistha_moksopaya.txt	txt	CLEAN	3149123	GRETIL plain-text e-text
