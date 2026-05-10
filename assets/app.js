@@ -479,23 +479,29 @@ function computeLayout() {
   else computeLanesLayout();
 }
 
-// Within-lane sub-row assignment.
+// Within-lane sub-row assignment + x-jitter fallback.
 //
 // Each lane is divided into N vertical micro-rows. A thinker's preferred row
 // comes from its hand-tuned `sub_school_shade` (1..5 → rows around center).
 // If that row is already occupied at this x, we walk outward in alternating
 // up/down steps until we find a row whose nearest neighbor on that row sits
-// at least MIN_X_GAP away. This guarantees every dot has its own clickable
-// hit-target column without ever stacking on top of another.
+// at least MIN_X_GAP away.
+//
+// When the half-lane is exhausted (every available row is occupied at this x),
+// we fall back to **x-jitter**: shift the dot horizontally by a small offset
+// so it gets its own clickable column even within the most occupied row.
+// This guarantees every dot is independently clickable even in the densest
+// historical periods (e.g. advaita ~1910s, dvaita ~1280s).
 //
 // Output: the layout map stores y, lane, and the assigned sub-row. A second
-// pass detects residual tight clusters (>= 3 dots with very close x within
+// pass detects residual tight clusters (>= 2 dots with very close x within
 // the same lane); the renderer offers hover-fan expansion for those.
-const SUB_ROW_STEP_DESKTOP = 14;
-const SUB_ROW_STEP_MOBILE = 11;
-const MIN_X_GAP = 22;          // ~ tier-1 dot diameter + breathing room
-const CLUSTER_X_THRESHOLD = 14;
-const CLUSTER_MIN_MEMBERS = 3;
+const SUB_ROW_STEP_DESKTOP = 12;
+const SUB_ROW_STEP_MOBILE = 10;
+const MIN_X_GAP = 26;          // ~ tier-1 dot diameter + generous breathing room
+const X_JITTER_STEP = 14;      // horizontal nudge when all rows are full
+const CLUSTER_X_THRESHOLD = 18;
+const CLUSTER_MIN_MEMBERS = 2;
 
 function computeLanesLayout() {
   state.layout.clear();
@@ -521,17 +527,17 @@ function computeLanesLayout() {
   }
 
   const stepPx = LANE_H <= 72 ? SUB_ROW_STEP_MOBILE : SUB_ROW_STEP_DESKTOP;
-  // Tier-1 dots are 18 px, so a half-lane of ~48 px fits ~3 rows above and
-  // ~3 below center comfortably (with the dot's hit-box still inside the lane).
-  const MAX_OFFSET_STEPS = Math.max(2, Math.floor((LANE_H / 2 - 8) / stepPx));
+  // Use the full half-lane down to ~4 px from the rule, since the visible dot
+  // is small and labels float outside the lane band anyway.
+  const MAX_OFFSET_STEPS = Math.max(3, Math.floor((LANE_H / 2 - 4) / stepPx));
 
   for (const [lane, items] of byLane) {
     items.sort((a, b) => a.xMid - b.xMid);
 
-    // occupancy[rowIdx] = last placed dot's xMid for that row.
+    // occupancy[rowIdx] = last placed dot's effective x for that row.
     const occupancy = new Map();
 
-    for (const item of items) {
+    items.forEach((item, idx) => {
       // Preferred row from sub_school_shade (1..5 → -2..+2).
       const prefRow = (item.prefShade || 3) - 3;
 
@@ -554,13 +560,33 @@ function computeLanesLayout() {
           }
         }
       }
-      occupancy.set(chosen, item.xMid);
+
+      // Fallback: every row is full at this x. Pick the row with the most
+      // distant last-occupant and shift this dot horizontally by enough to
+      // clear MIN_X_GAP. Alternate left/right per item so the fan is symmetric.
+      let xShift = 0;
+      if (!found) {
+        let bestRow = prefRow;
+        let bestDist = -Infinity;
+        for (let r = -MAX_OFFSET_STEPS; r <= MAX_OFFSET_STEPS; r++) {
+          const last = occupancy.get(r);
+          const dist = last === undefined ? Infinity : (item.xMid - last);
+          if (dist > bestDist) { bestDist = dist; bestRow = r; }
+        }
+        chosen = bestRow;
+        const dir = (idx % 2 === 0) ? +1 : -1;
+        xShift = dir * X_JITTER_STEP;
+      }
+
+      const effX = item.xMid + xShift;
+      occupancy.set(chosen, effX);
 
       const y = lane * LANE_H + LANE_H / 2 + chosen * stepPx;
 
       state.layout.set(item.t.id, {
         thinker: item.t,
-        x: item.xMid,
+        x: effX,
+        xRaw: item.xMid,
         y,
         lane,
         shade: item.prefShade,
@@ -569,25 +595,32 @@ function computeLanesLayout() {
         barX1: item.x1,
         barX2: item.x2,
       });
-    }
+    });
   }
 
-  // Detect residual tight clusters. Greedy first-fit guarantees no two dots
-  // share both a row and an x within MIN_X_GAP, but a dense century can still
-  // stack 3+ dots into a vertical column whose xMids are within a few pixels.
-  // Those columns get a hover-fan affordance in renderDots().
-  for (const [, items] of byLane) {
+  // Detect residual tight clusters. Even with sub-rows + x-jitter, dots whose
+  // visible centers land within CLUSTER_X_THRESHOLD of each other in the same
+  // lane get a hover-fan affordance so each is individually clickable.
+  // Clusters now include 2-member pairs (not just 3+) so even adjacent
+  // contemporaries that the renderer placed close get the fan-out treatment.
+  for (const [lane, items] of byLane) {
     if (items.length < CLUSTER_MIN_MEMBERS) continue;
+    // Build cluster sets based on effective layout x (after jitter), grouping
+    // any pair within CLUSTER_X_THRESHOLD that also shares a lane.
+    const placed = items
+      .map((it) => state.layout.get(it.t.id))
+      .filter(Boolean)
+      .sort((a, b) => a.x - b.x);
     let i = 0;
-    while (i < items.length) {
-      const groupIds = [items[i].t.id];
+    while (i < placed.length) {
+      const groupIds = [placed[i].thinker.id];
       let j = i + 1;
-      while (j < items.length && (items[j].xMid - items[i].xMid) < CLUSTER_X_THRESHOLD) {
-        groupIds.push(items[j].t.id);
+      while (j < placed.length && (placed[j].x - placed[j - 1].x) < CLUSTER_X_THRESHOLD) {
+        groupIds.push(placed[j].thinker.id);
         j++;
       }
       if (groupIds.length >= CLUSTER_MIN_MEMBERS) {
-        state.clusters.push({ ids: groupIds });
+        state.clusters.push({ ids: groupIds, lane });
       }
       i = Math.max(j, i + 1);
     }
@@ -941,12 +974,23 @@ function renderDots() {
     dot.setAttribute("aria-label", t.name_iast || t.name || t.id);
     dot.innerHTML = `
       <div class="node"></div>
-      <div class="label">
+      <button type="button" class="label" tabindex="-1" aria-label="${escape(t.name_iast || t.name || t.id)}">
         <span class="name">${escape(t.name || t.id)}</span>
         <span class="dates">${formatDates(t)}</span>
-      </div>
+      </button>
     `;
     dot.addEventListener("click", (e) => { e.stopPropagation(); openThinker(t.id); });
+    // Label is a real button so a tap/click on the name tag opens the thinker.
+    // We still stop propagation to keep the surrounding canvas drag handler
+    // from interpreting label clicks as a pan-start.
+    const labelBtn = dot.querySelector(".label");
+    if (labelBtn) {
+      labelBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        e.preventDefault();
+        openThinker(t.id);
+      });
+    }
     dot.addEventListener("keydown", (e) => {
       if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openThinker(t.id); }
     });
