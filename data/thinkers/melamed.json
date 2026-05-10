@@ -1,0 +1,26 @@
+{
+  "id": "melamed",
+  "name": "Yitzhak Y. Melamed",
+  "name_iast": "Yitzhak Y. Melamed",
+  "dates_low": 1968,
+  "dates_high": 2026,
+  "school": "Modern Philosophy",
+  "school_color_token": "cross-tradition",
+  "summary": "Yitzhak Y. Melamed is represented here by a minimal backlog stub so routed on-disk source texts can surface in the Source tab pending fuller review.",
+  "engaged_works": [
+    {
+      "work_id": "yitzhak-y-melamed-a-companion-to-spinoza-2021",
+      "title": "Yitzhak Y. Melamed A Companion To Spinoza 2021",
+      "title_iast": "Yitzhak Y. Melamed A Companion To Spinoza 2021",
+      "language": "english",
+      "source_status": "clean-on-disk",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Routed from the 2026-05-10 Tier-1 publication backlog as an on-disk source witness.",
+      "genre": "monograph",
+      "summary": "This on-disk text is being wired into the Source tab as a citation witness for Yitzhak Y. Melamed, Yitzhak Y. Melamed A Companion To Spinoza 2021. The entry is intentionally minimal: it records the routed file and basic bibliographic shape so the site can surface the source while fuller review waits. A later pass should tighten the title, edition, and passage coverage against the on-disk witness.",
+      "entry_status": "wired-on-disk",
+      "key_passage_ids": []
+    }
+  ],
+  "entry_status": "stub-from-backlog"
+}
