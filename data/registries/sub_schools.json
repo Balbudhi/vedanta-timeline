@@ -98,28 +98,28 @@
     "representative_thinker_ids": ["sudarsana"]
   },
   "tattvavada": {
-    "display_name": "Tattvavāda",
+    "display_name": "Tattva-vāda",
     "parent_school_color_token": "dvaita",
     "shade": 3,
-    "short_description": "Madhva's own school-defining position: pañca-bheda and svatantra/paratantra as the structure of reality.",
+    "short_description": "Madhva's own school-defining position (the school often labeled Dvaita): pañca-bheda and svatantra/paratantra as the structure of reality.",
     "representative_thinker_ids": ["madhva"]
   },
   "dvaita-scholastic": {
-    "display_name": "Dvaita scholastic",
+    "display_name": "Mādhva scholastic",
     "parent_school_color_token": "dvaita",
     "shade": 2,
     "short_description": "The Jayatīrtha sub-commentary tradition that systematizes Madhva's prose.",
     "representative_thinker_ids": ["jayatirtha"]
   },
   "navya-dvaita": {
-    "display_name": "Navya-Dvaita",
+    "display_name": "Navya-Tattva-vāda",
     "parent_school_color_token": "dvaita",
     "shade": 4,
-    "short_description": "The dialectical Dvaita of Vyāsatīrtha and Vijayīndra engaging Navya-Nyāya and Advaita at the highest formal level.",
+    "short_description": "The dialectical Tattva-vāda of Vyāsatīrtha and Vijayīndra engaging Navya-Nyāya and Advaita at the highest formal level.",
     "representative_thinker_ids": ["vyasatirtha", "vijayindra"]
   },
   "dvaita-scholastic-devotional": {
-    "display_name": "Dvaita scholastic-devotional",
+    "display_name": "Mādhva scholastic-devotional",
     "parent_school_color_token": "dvaita",
     "shade": 5,
     "short_description": "Rāghavendra's combination of high scholasticism with the living Mantrālaya devotional tradition.",
@@ -644,10 +644,10 @@
     "representative_thinker_ids": ["satchidanandendra"]
   },
   "tattvavada-modern": {
-    "display_name": "Tattvavāda (modern philological-textual)",
+    "display_name": "Tattva-vāda (modern philological-textual)",
     "parent_school_color_token": "dvaita",
     "shade": 5,
-    "short_description": "Twentieth- and early-twenty-first-century philological-textual Dvaita (Bannañje Govindācārya), re-establishing Madhva's full Sarva-Mūla-Granthāḥ as a critically-edited corpus and supplying modern Sanskrit vyākhyānas across the school's canon.",
+    "short_description": "Twentieth- and early-twenty-first-century philological-textual Tattva-vāda (Bannañje Govindācārya), re-establishing Madhva's full Sarva-Mūla-Granthāḥ as a critically-edited corpus and supplying modern Sanskrit vyākhyānas across the school's canon.",
     "representative_thinker_ids": ["bannanje"]
   },
   "madhva-paramparā-direct-disciple": {

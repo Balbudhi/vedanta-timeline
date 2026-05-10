@@ -276,7 +276,7 @@ The *Jīvanmukti-Viveka* especially prevents one lazy misreading. If liberation 
 
 ### Madhusūdana Sarasvatī: *Siddhānta-Bindu*, *Advaita-Siddhi*, and *Bhakti-Rasāyana*
 
-No figure is more important for the late history than Madhusūdana. He stands exactly where the internal Advaita debates and the external Dvaita attacks reach white heat.
+No figure is more important for the late history than Madhusūdana. He stands exactly where the internal Advaita debates and the external Tattva-vāda attacks reach white heat.
 
 The *Siddhānta-Bindu* matters first because it names the sub-school options instead of hiding them. In Madhusūdana's own presentation, the *vārttikakāra*, the *Vivaraṇakāra*, the *Saṅkṣepa-Śārīraka-kāra*, and Vācaspati do not simply repeat one explanation. They occupy alternative technical positions within a shared non-dual inheritance. That is primary evidence for the plural self-consciousness of the tradition.
 

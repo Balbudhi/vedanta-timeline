@@ -24,7 +24,8 @@
     "short_description": "Qualified non-dualism: one Brahman (Viṣṇu) qualified by real cit and acit modes, with the śarīra-śarīri-bhāva relating souls and world to the Lord."
   },
   "dvaita": {
-    "display_name": "Dvaita (Tattvavāda)",
+    "display_name": "Tattva-vāda",
+    "aliases": ["Dvaita", "Tattvavāda", "Bheda-vāda"],
     "color_hex": "#d97706",
     "color_palette": [
       "#fef3c7",
@@ -33,7 +34,7 @@
       "#d97706",
       "#78350f"
     ],
-    "short_description": "Tattvavāda: Viṣṇu alone is svatantra (independent); all else is paratantra (dependent), with five eternal real distinctions (pañca-bheda)."
+    "short_description": "Madhva's Tattva-vāda (the school often labeled Dvaita): Viṣṇu alone is svatantra (independent); all else is paratantra (dependent), with five eternal real distinctions (pañca-bheda)."
   },
   "bhedabheda": {
     "display_name": "Bhedābheda",
