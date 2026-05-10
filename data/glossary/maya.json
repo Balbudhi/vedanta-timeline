@@ -3,42 +3,270 @@
   "term_iast": "māyā",
   "term_devanagari": "माया",
   "literal": "fashioning, measuring-out, world-forming power; often connected with √mā 'to measure, to form'",
-  "aliases": ["maya", "māyā", "Māyā", "māyāyāḥ", "māyāyām", "māyayā", "māyāvāda", "māyāvādin"],
+  "aliases": [
+    "maya",
+    "māyā",
+    "Māyā",
+    "māyāyāḥ",
+    "māyāyām",
+    "māyayā",
+    "māyāvāda",
+    "māyāvādin"
+  ],
   "invariant_definition": "*Māyā* has no single pan-Indian meaning. The thinnest common core is this: it names a power or condition through which manifest plurality is produced, sustained, or experienced. Beyond that, the term becomes school-specific. In Vedic and purāṇic usage it can mean divine skill, wondrous power, or formative capacity. In Advaita it becomes the cosmic register of *avidyā*, the principle by which the non-dual appears as manifold without undergoing real modification. In realist Vedāntas it names a real divine power, often identified with *prakṛti* or with the Lord's external energy. In Trika it is not illusion at all but a real self-contractive phase of Śiva's *svātantrya*, linked to the *kañcuka* analysis and the production of differentiated subjects and objects. The term therefore sits amid disputes over causality, *pariṇāma* versus *vivarta*, the status of the world, and the relation between God and manifestation. In practice *māyā* explains embodiment, limitation, and cosmic display, but what sort of explanation this is depends entirely on the metaphysics of the school using it.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Māyā* is the cosmic side of *avidyā*: beginningless, *bhāvarūpa*, and *anirvacanīya*, with *āvaraṇa* and *vikṣepa* functions. It is the *upādhi* of *Īśvara* and the explanatory principle for why one *brahman* appears as *jīva-jagat-Īśvara* without suffering real transformation. The world is therefore not *asat*; it is experienced, pragmatically ordered, and sublatable. Advaita uses *māyā* precisely to avoid both crude nihilism and real transformation of Brahman into the manifold.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.1.14", "Śvetāśvatara-Upaniṣad-Bhāṣya 4.10", "Pañcadaśī 6.130–140"]
+      "definition": "*Māyā* is the beginningless sleep of the *jīva* and the sole register in which duality appears, so that *prapañca* is *māyāmātra* while *advaita* alone is *paramārtha* [[MK 1.16-18](cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18)]. The unborn is differentiated only *māyayā*, never *tattvataḥ*; real difference would compromise its *ajatva* and *amṛtatva* [[MK 3.19-21](cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.19-21)]. Post-Śaṅkara Advaita identifies this *māyā* with *avidyā*: neither *sat* nor *asat*, but *anirvacanīyā*, operative in *vyavahāra* and located in the *jīvas* [[BS 1.1 (avidyā neither sat nor asat; in the jīvas)](cite://mandana/brahma-siddhi/1.1.1--opening-prose-on-avidy)]. In Vivaraṇa idiom, causal Brahman is Brahman qualified by *anirvacanīya-māyā*, and the same doctrine can be restated as *māyā* being *sadasadbhyām anirvacanīyā* [[PV p. 212](cite://prakasatman/pancapadika-vivarana/brahmaṇo lakṣaṇopalakṣaṇe), [IṢ 1.1](cite://vimuktatman/ista-siddhi/1.Prapañcasyānirvacanīyatvam)].",
+      "primary_loci": [
+        "Māṇḍūkya-Kārikā 1.16-18",
+        "Māṇḍūkya-Kārikā 3.19-21",
+        "Brahma-Siddhi 1.1",
+        "Pañcapādikā-Vivaraṇa p. 212",
+        "Iṣṭa-Siddhi 1.1"
+      ],
+      "citations": [
+        {
+          "cite": "cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18",
+          "locus_short": "MK 1.16-18"
+        },
+        {
+          "cite": "cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.19-21",
+          "locus_short": "MK 3.19-21"
+        },
+        {
+          "cite": "cite://mandana/brahma-siddhi/1.1.1--opening-prose-on-avidy",
+          "locus_short": "BS 1.1 (avidyā neither sat nor asat; in the jīvas)"
+        },
+        {
+          "cite": "cite://prakasatman/pancapadika-vivarana/brahmaṇo lakṣaṇopalakṣaṇe",
+          "locus_short": "PV p. 212"
+        },
+        {
+          "cite": "cite://vimuktatman/ista-siddhi/1.Prapañcasyānirvacanīyatvam",
+          "locus_short": "IṢ 1.1"
+        }
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Māyā* is a real power of the Lord and is commonly identified with *prakṛti*, the non-conscious material principle that constitutes the body of the world. It is not an indeterminable illusion-principle but a real causal substrate ruled by Nārāyaṇa. Hence the same scriptural passages that Advaita reads as licensing *māyā-vāda* are read by Rāmānuja as describing God's actual creative power and the real emergence of the world. The polemic against *anirvacanīya māyā* is part of the broader defense of realist causality.",
-      "primary_loci": ["Śrī-Bhāṣya 1.1.1", "Śrī-Bhāṣya 1.4.3", "Vedārtha-Saṅgraha §§14–35"]
+      "definition": "The on-disk Viśiṣṭādvaitin dossier handles *māyā* chiefly by rejecting the thesis that Brahman itself, ignorant and overrun by alien *upādhis*, becomes the saṃsārin; that teaching is condemned as *śruti-nyāyāpeta* [[Vedārtha-Saṃgraha §2](cite://ramanuja/vedartha-samgraha/§2)]. Positively, Bhagavān Nārāyaṇa is the *antaryāmin* of the entire *cid-acid-prapañca*, taught through expressions such as \"his power,\" \"his body,\" and \"his manifestation\"; the world-order is therefore a real dependence-structure, not a merely apparent projection [[Vedārtha-Saṃgraha §6](cite://ramanuja/vedartha-samgraha/§6)]. Beginningless ignorance belongs to the embodied *jīva*'s karmic entanglement and is remedied through knowledge of the *dehātirikta ātman* and upāsanā of the indwelling Lord, not by cancelling the reality of the cosmos [[Vedārtha-Saṃgraha §4](cite://ramanuja/vedartha-samgraha/§4)].",
+      "primary_loci": [
+        "Vedārtha-Saṃgraha §2",
+        "Vedārtha-Saṃgraha §4",
+        "Vedārtha-Saṃgraha §6"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§2",
+          "locus_short": "Vedārtha-Saṃgraha §2"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§6",
+          "locus_short": "Vedārtha-Saṃgraha §6"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§4",
+          "locus_short": "Vedārtha-Saṃgraha §4"
+        }
+      ]
     },
     {
-      "school": "Tattva-vāda (Dvaita)",
-      "definition": "Madhva uses *māyā* for the Lord's real wondrous power, but the heavy doctrinal labor lies in attacking Advaita's *māyā-vāda*. The world is real, plurality is real, and God's creative agency is not an appearance masking a non-dual substrate. Tattva-vāda therefore accepts a non-illusionist use of the term while rejecting the Advaitin claim that *māyā* is an ontological middle category. Its anti-Advaita arguments repeatedly press the point that what is experienced, scripturally taught, and causally effective cannot be dismissed as merely apparent.",
-      "primary_loci": ["Madhva, Māyāvāda-Khaṇḍana §§1–8", "Madhva, Mithyātvānūmāna-Khaṇḍana [NOT YET RETRIEVED]", "Vyāsatīrtha, Nyāyāmṛta, māyā-bhaṅga [NOT YET RETRIEVED]"]
+      "school": "Tattva-vāda",
+      "definition": "When the term is accepted positively, *māyā* is Hari's own power: *ātma-māyā* is glossed as *svarūpabhūtecchā*, a will intrinsic to the Lord rather than an ontic screen over reality [[Bhāg. 1.1.18](cite://madhva/bhagavata-tatparya-nirnaya/1.1.18), [Bhāg. 1.1.18 — gloss](cite://madhva/bhagavata-tatparya-nirnaya/1.1.18 — gloss)]. Polemically, no *ajñāna* can coherently function as an *āvaraṇa*, since there is no admissible unestablished substrate for it to cover [[Māyāvāda-Khaṇḍana, \"Nothing can serve as a covering ignorance\"](cite://madhva/mayavada-khandana/can serve as a covering ignorance)]. For that reason the entire *māyāvāda* is rejected as incoherent, and the world's difference is not downgraded to a merely apparent status [[Māyāvāda-Khaṇḍana, \"Therefore the whole doctrine is set aside\"](cite://madhva/mayavada-khandana/the whole doctrine is set aside), [Māyāvāda-Khaṇḍana, concluding verse](cite://madhva/mayavada-khandana/verse of refutation)].",
+      "primary_loci": [
+        "Bhāgavata-Tātparya-Nirṇaya 1.1.18",
+        "Māyāvāda-Khaṇḍana, 'Nothing can serve as a covering ignorance'",
+        "Māyāvāda-Khaṇḍana, 'Therefore the whole doctrine is set aside'"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/bhagavata-tatparya-nirnaya/1.1.18",
+          "locus_short": "Bhāg. 1.1.18"
+        },
+        {
+          "cite": "cite://madhva/bhagavata-tatparya-nirnaya/1.1.18 — gloss",
+          "locus_short": "Bhāg. 1.1.18 — gloss"
+        },
+        {
+          "cite": "cite://madhva/mayavada-khandana/can serve as a covering ignorance",
+          "locus_short": "Māyāvāda-Khaṇḍana, covering-ignorance refutation"
+        },
+        {
+          "cite": "cite://madhva/mayavada-khandana/the whole doctrine is set aside",
+          "locus_short": "Māyāvāda-Khaṇḍana, doctrine set aside"
+        },
+        {
+          "cite": "cite://madhva/mayavada-khandana/verse of refutation",
+          "locus_short": "Māyāvāda-Khaṇḍana, concluding verse"
+        }
+      ]
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "*Māyā* is Kṛṣṇa's real *bahiraṅgā-śakti*, the external energy through which material embodiment, time, and karmic entanglement are administered. Gauḍīya authors commonly distinguish *guṇa-māyā*, the material complex structured by the three *guṇa*s, from the power that conditions the *jīva* for worldly existence. The point is not that the world is unreal, but that it is external to Kṛṣṇa's innermost *svarūpa-śakti* and therefore not the final register of divine life.",
-      "primary_loci": ["Paramātma-Sandarbha §§47–55", "Caitanya-Caritāmṛta, Madhya 20.111–117"]
+      "definition": "The *abheda-śāstras* are retained only after the rival *pariccheda* and *pratibimba* readings are subordinated to Bhagavān's *svābhāvika acintya-śakti* [[Paramātma-Sandarbha §42](cite://jiva-gosvami/sat-sandarbha/§42), [Paramātma-Sandarbha §43](cite://jiva-gosvami/sat-sandarbha/§43)]. Jīvas are *cid-rūpa* yet stand to Bhagavān as ray-atoms to the sun, so *bheda* and *avyatireka* are both preserved without collapsing into *svarūpābheda* [[Paramātma-Sandarbha §43](cite://jiva-gosvami/sat-sandarbha/§43)]. Within that settlement, Bhagavān is *māyāśraya* and the bound *jīva* is *māyā-mohita*; precisely this difference makes *bhagavad-bhajana* the school's *abhidheya* [[Paramātma-Sandarbha §44](cite://jiva-gosvami/sat-sandarbha/§44)].",
+      "primary_loci": [
+        "Paramātma-Sandarbha §42",
+        "Paramātma-Sandarbha §43",
+        "Paramātma-Sandarbha §44"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§42",
+          "locus_short": "Paramātma-Sandarbha §42"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§43",
+          "locus_short": "Paramātma-Sandarbha §43"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§44",
+          "locus_short": "Paramātma-Sandarbha §44"
+        }
+      ]
     },
     {
-      "school": "Bhedābheda (Bhāskara)",
-      "definition": "Bhāskara rejects *māyā* as an Advaitin illusion-principle and instead reads world-manifestation through real *pariṇāma*. The world is a genuine transformation of Brahman under real conditioning factors, not a merely apparent display. Accordingly, when scriptural language of divine making or measuring is read through *māyā*, it points to actual causal efficacy rather than indeterminable appearance. The term is acceptable only if detached from the Advaitin denial of real world-production.",
-      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 1.4.3", "Bhāskara, Brahma-Sūtra-Bhāṣya 2.1.14"]
+      "school": "Dvaitādvaita",
+      "definition": "Nimbārka describes the *jīva* as bearing a form associated with beginningless *māyā*; bondage, devotion, and release are real conditions of that dependent self and are known only by Bhagavān's grace [[DaŚ 2](cite://nimbarka/dasa-shloki/2)]. On the side of *acit*, the insentient order is explicitly denoted by terms such as *māyā* and *pradhāna* [[DaŚ 3](cite://nimbarka/dasa-shloki/3)]. *Māyā* therefore names a real, dependent non-conscious principle within the *bhedābheda* order, not an *anirvacanīya* cancellation of the world's reality [[DaŚ 2](cite://nimbarka/dasa-shloki/2), [DaŚ 3](cite://nimbarka/dasa-shloki/3)].",
+      "primary_loci": [
+        "Daśa-Ślokī 2",
+        "Daśa-Ślokī 3"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nimbarka/dasa-shloki/2",
+          "locus_short": "DaŚ 2"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/3",
+          "locus_short": "DaŚ 3"
+        }
+      ]
     },
     {
-      "school": "Trika / Kashmir Śaivism",
-      "definition": "*Māyā* is a real self-contractive phase of Śiva's *svātantrya*. It produces differentiated subjectivity and objectivity by imposing limiting conditions, often analyzed through the *kañcukas*. This is not an alien force set over against Śiva and not an illusion in the Advaitin sense. Rather, one consciousness freely takes on contracted forms and then recognizes itself through *pratyabhijñā*. The term therefore marks divine self-veiling and differentiation within a rigorously non-dual but non-illusionist ontology.",
-      "primary_loci": ["Tantrāloka 6", "Pratyabhijñā-Hṛdaya 5–6", "Īśvara-Pratyabhijñā-Kārikā 3.2.5 [NOT YET RETRIEVED]"]
+      "school": "Śuddhādvaita",
+      "definition": "Śuddhādvaita refuses to make *nāma-rūpa* into an illusory screen: Brahman itself is the *samavāyi-kāraṇa*, while name and form are *kārya-dharmas* [[BSB 1.1.4](cite://vallabha/anu-bhasya/1.1.4)]. The world is a real *pariṇāma* of Brahman, though Brahman remains *avikṛta* in the alaukika manner illustrated by gold and its products [[BSB 1.4.26](cite://vallabha/anu-bhasya/1.4.26)]. *Avidyā-nivṛtti* prepares the *jīva* for Puruṣottama, but attainment is completed through *bhakti* and *varaṇa* rather than by sublating a *mithyā-jagat* [[BSB 1.1.12-19](cite://vallabha/anu-bhasya/1.1.12-19)].",
+      "primary_loci": [
+        "Aṇu-Bhāṣya on Brahma-Sūtra 1.1.4",
+        "Aṇu-Bhāṣya on Brahma-Sūtra 1.4.26",
+        "Aṇu-Bhāṣya on Brahma-Sūtra 1.1.12-19"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.1.4",
+          "locus_short": "BSB 1.1.4"
+        },
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.4.26",
+          "locus_short": "BSB 1.4.26"
+        },
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.1.12-19",
+          "locus_short": "BSB 1.1.12-19"
+        }
+      ]
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yoga",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Sāṃkhya-Yoga (synthetic)",
+      "definition": "Vijñānabhikṣu explicitly glosses *māyā* as *prakṛti* and *māyin* as Maheśvara, so the term denotes the cosmological non-conscious principle rather than an epistemic indeterminable [[VĀB 1.1.5](cite://vijnanabhiksu/vijnanamrta-bhasya/1.1.5)]. This is the late synthetic Sāṃkhya-Yoga-Vedānta line preserved on disk: *māyā* is relocated into the ontology of *prakṛti*-governed manifestation under the Lord [[VĀB 1.1.5](cite://vijnanabhiksu/vijnanamrta-bhasya/1.1.5)].",
+      "primary_loci": [
+        "Vijñānāmṛta-Bhāṣya on Brahma-Sūtra 1.1.5"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vijnanabhiksu/vijnanamrta-bhasya/1.1.5",
+          "locus_short": "VĀB 1.1.5"
+        }
+      ]
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "In the on-disk Yogācāra dossier, *māyā* is not the load-bearing cosmological term; misleading objecthood is analysed through *asadarthāvabhāsa* and *vijñaptimātratā* [[Vvs 1](cite://vasubandhu/vimsatika/1)]. Dream, preta-vision, and hell-experience show that *deśa-kāla-niyama*, *saṃtānāniyama*, and even efficacy can obtain although the appearing object is unreal [[Vvs 3](cite://vasubandhu/vimsatika/and Preta Replies), [Vvs 4](cite://vasubandhu/vimsatika/and Hell)]. What ordinary thought takes as object and subject is *parikalpita* alone, so the explanatory work later polemics often assign to *māyā* is here redistributed to *vikalpa*, *bīja*, and *vijñāna-pariṇāma* [[Triṃśikā 17](cite://vasubandhu/trimsika/17), [Triṃśikā 20](cite://vasubandhu/trimsika/20), [Vvs 10](cite://vasubandhu/vimsatika/10 and Entry into *Dharma-Nairātmya*)].",
+      "primary_loci": [
+        "Viṃśatikā 1",
+        "Viṃśatikā 3-4 (vṛtti)",
+        "Triṃśikā 17",
+        "Triṃśikā 20",
+        "Viṃśatikā 10 (vṛtti)"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/vimsatika/1",
+          "locus_short": "Vvs 1"
+        },
+        {
+          "cite": "cite://vasubandhu/vimsatika/and Preta Replies",
+          "locus_short": "Vvs 3"
+        },
+        {
+          "cite": "cite://vasubandhu/vimsatika/and Hell",
+          "locus_short": "Vvs 4"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/17",
+          "locus_short": "Triṃśikā 17"
+        },
+        {
+          "cite": "cite://vasubandhu/trimsika/20",
+          "locus_short": "Triṃśikā 20"
+        },
+        {
+          "cite": "cite://vasubandhu/vimsatika/10 and Entry into *Dharma-Nairātmya*",
+          "locus_short": "Vvs 10"
+        }
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     }
   ],
-  "see_also": ["avidya", "prakrti", "svatantrya", "lila", "upadhi"],
+  "see_also": [
+    "avidya",
+    "prakrti",
+    "svatantrya",
+    "lila",
+    "upadhi"
+  ],
   "translator_note": "The lazy gloss is 'illusion.' That is seriously misleading. Most schools using *māyā* do not mean subjective illusion at all, and even Advaita does not mean simple unreality or *asat*. The word can import very different metaphysics: cosmic ignorance, real divine power, material nature, or Śiva's self-contraction. English should therefore signal the school-specific use instead of flattening everything into 'illusion.'",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus"
+  "last_verified_by": "glossary-wave1-codex54"
 }

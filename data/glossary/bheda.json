@@ -3,32 +3,253 @@
   "term_iast": "bheda",
   "term_devanagari": "भेद",
   "literal": "difference, distinction, division; from √bhid 'to split'",
-  "aliases": ["bheda", "Bheda", "bhedaḥ", "bhedasya", "bhede", "bhedān"],
+  "aliases": [
+    "bheda",
+    "Bheda",
+    "bhedaḥ",
+    "bhedasya",
+    "bhede",
+    "bhedān"
+  ],
   "invariant_definition": "*Bheda* is real difference or distinction, not just conceptual contrast. The term asks whether the world is finally articulated by irreducible distinctions between knower, known, means of knowledge, cause, effect, God, soul, and matter. It therefore stands at the center of Vedāntic metaphysics and scriptural interpretation. It also underwrites the grammar of devotion and inference, since worship, predication, and valid cognition all presuppose some standing distinction among their terms. Advaita treats *bheda* as empirically operative but ultimately sublatable under non-dual knowledge. Viśiṣṭādvaita affirms real distinctions within an organic whole ordered by Brahman. Tattva-vāda (the school often labeled Dvaita) radicalizes the point into *pañca-bheda*, five eternal distinctions, thereby defending a realist hierarchical pluralism rather than a crude two-substance dualism. Bhedābheda schools deny that difference can be eliminated, but refuse to let it exhaust reality. In practice *bheda* governs worship, ethics, agency, and causality: if real distinctions are only apparent, those domains must be re-described; if they are ultimate, they define the permanent structure of things.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Bheda* is real enough for *vyavahāra* but not final. Scripture, action, devotion, bondage, and liberation all presuppose distinction so long as *adhyāsa* persists; yet the purport of the Upaniṣads is that no plurality stands at the highest level. Advaita therefore neither denies ordinary difference as a brute fact of experience nor grants it ultimate status. The point is sublatability, not annihilation of the empirical order.",
-      "primary_loci": ["Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 4.4.19", "Brahma-Sūtra-Bhāṣya 2.1.14"]
+      "definition": "*Bheda* belongs to *vyavahāra* as the common structure of dream and waking appearances, but it is not *paramārtha*, since the parity of differentiations is itself what licenses their sublation in knowledge [[MK 2.5-6](cite://gaudapada/mandukya-karika/2.Vaitathya-prakaraṇa.5-6)]. The manifold of distinctions is therefore a pedagogic and phenomenally operative presentation rather than an ultimate ontological articulation, and Brahman is determined precisely through the dissolution of the *bheda-prapañca* [[MK 3.15](cite://gaudapada/mandukya-karika/3.15)] [[MK 3.18](cite://gaudapada/mandukya-karika/3.18)] [[MBs 1.2](cite://mandana/brahma-siddhi/1.2)] [[MBs 1.3](cite://mandana/brahma-siddhi/1.3)].",
+      "primary_loci": [
+        "Māṇḍūkya-Kārikā 2.5-6",
+        "Māṇḍūkya-Kārikā 3.15, 3.18",
+        "Brahma-Siddhi 1.2-1.3"
+      ],
+      "citations": [
+        {
+          "cite": "cite://gaudapada/mandukya-karika/2.Vaitathya-prakaraṇa.5-6",
+          "locus_short": "MK 2.5-6"
+        },
+        {
+          "cite": "cite://gaudapada/mandukya-karika/3.15",
+          "locus_short": "MK 3.15"
+        },
+        {
+          "cite": "cite://gaudapada/mandukya-karika/3.18",
+          "locus_short": "MK 3.18"
+        },
+        {
+          "cite": "cite://mandana/brahma-siddhi/1.2",
+          "locus_short": "MBs 1.2"
+        },
+        {
+          "cite": "cite://mandana/brahma-siddhi/1.3",
+          "locus_short": "MBs 1.3"
+        }
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "Difference is real and ineradicable, but it is always a difference within Brahman's body. Souls, matter, and God are not collapsed into identity, nor are they externally juxtaposed independent substances. Real distinction is instead articulated through the body-soul model and *aprthak-siddhi*: the differentiated whole depends on Brahman while remaining genuinely many. This allows Viśiṣṭādvaita to preserve devotion, plurality, and scriptural identity-statements together.",
-      "primary_loci": ["Śrī-Bhāṣya 2.1.15 [NOT YET RETRIEVED]", "Vedārtha-Saṅgraha §§76–88"]
+      "definition": "*Bheda* is real because Bhagavān, taught under the many Vedāntic designators, remains *svetara-samasta-vastu-vilakṣaṇa* even while standing as the inner self of every *cit* and *acit* through co-referential predication [[VS §6](cite://ramanuja/vedartha-samgraha/§6)]. Karmically produced differentiations such as godhood and humanity do not constitute the self's *svarūpa*; when they are removed, the self remains a distinct *jñāna-svarūpa*, and cognition cannot be reduced to a bodily property [[VS §5](cite://ramanuja/vedartha-samgraha/§5)] [[AS 6](cite://yamuna/atma-siddhi/6)].",
+      "primary_loci": [
+        "Vedārtha-Saṅgraha §5",
+        "Vedārtha-Saṅgraha §6",
+        "Ātma-Siddhi 6"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§6",
+          "locus_short": "VS §6"
+        },
+        {
+          "cite": "cite://ramanuja/vedartha-samgraha/§5",
+          "locus_short": "VS §5"
+        },
+        {
+          "cite": "cite://yamuna/atma-siddhi/6",
+          "locus_short": "AS 6"
+        }
+      ]
     },
     {
       "school": "Tattva-vāda",
-      "definition": "*Bheda* is foundational. Madhva's *pañca-bheda* names five eternal distinctions: God-soul, God-matter, soul-soul, soul-matter, and matter-matter. These are not provisional pedagogic devices but intrinsic structures of reality, and they ground Tattva-vāda's hierarchy of beings, devotion to Viṣṇu, and realist account of knowledge. The school is therefore better described as hierarchical pluralism than as a simplistic dualism of two disconnected realms.",
-      "primary_loci": ["Tattva-Saṅkhyāna 1–8", "Viṣṇu-Tattva-Vinirṇaya §§40–50"]
+      "definition": "*Bheda* is *anādi* and *satya*, articulated as the *bhedapañcaka* that structures the whole *prapañca* and cannot be dismissed without collapsing the ontic order itself [[Anuvy. 1.4.111-112](cite://madhva/anuvyakhyana/1.4.111-112)]. Because valid cognition is already difference-grasping, the distinction between *jīva* and Īśvara is fixed by both *pramāṇa* and *śruti*, and later Mādhva exegesis explicitly anchors this in *bhedavyapadeśa* and *suṣuptyutkrāntyor bhedena* [[Anuvy. 2.3.66-69](cite://madhva/anuvyakhyana/2.3.66-69)] [[TD 1.1](cite://raghavendra/tantra-dipika/1.1)] [[TD 1.3](cite://raghavendra/tantra-dipika/1.3)].",
+      "primary_loci": [
+        "Anuvyākhyāna 1.4.111-112",
+        "Anuvyākhyāna 2.3.66-69",
+        "Tantra-Dīpikā 1.1",
+        "Tantra-Dīpikā 1.3"
+      ],
+      "citations": [
+        {
+          "cite": "cite://madhva/anuvyakhyana/1.4.111-112",
+          "locus_short": "Anuvy. 1.4.111-112"
+        },
+        {
+          "cite": "cite://madhva/anuvyakhyana/2.3.66-69",
+          "locus_short": "Anuvy. 2.3.66-69"
+        },
+        {
+          "cite": "cite://raghavendra/tantra-dipika/1.1",
+          "locus_short": "TD 1.1"
+        },
+        {
+          "cite": "cite://raghavendra/tantra-dipika/1.3",
+          "locus_short": "TD 1.3"
+        }
+      ]
     },
     {
-      "school": "Bhedābheda / Acintya-Bhedābheda",
-      "definition": "*Bheda* is fully real, but it is not the whole story. Bhāskara, Nimbārka, and Gauḍīya authors all preserve real plurality while refusing to make difference ultimate in isolation from non-difference. The precise account varies: real transformation, natural difference-and-non-difference, or inconceivable relation between Kṛṣṇa and his powers. What unites them is the claim that scriptural language of identity does not erase real distinctions.",
-      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 1.1.4", "Vedānta-Pārijāta-Saurabha 1.1.1–4", "Tattva-Sandarbha §§51–56"]
+      "school": "Bhedābheda",
+      "definition": "*Bheda* is the real articulation of Brahman into *nāma-rūpa*, so manifestation is not a merely concessive appearance but an actual differentiation of what was previously unarticulated [[BṛU 1.4.7](cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.7)]. The same Brahman is nonetheless taught through identity-statements and through the two-form presentation of formed and formless, so the manifold and the unitary are retained together within a single scriptural ontology [[BṛU 1.4.10](cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.10)] [[BṛU 2.3.1, 2.3.6](cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.3)].",
+      "primary_loci": [
+        "Bṛhadāraṇyaka-Upaniṣad 1.4.7",
+        "Bṛhadāraṇyaka-Upaniṣad 1.4.10",
+        "Bṛhadāraṇyaka-Upaniṣad 2.3.1, 2.3.6"
+      ],
+      "citations": [
+        {
+          "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.7",
+          "locus_short": "BṛU 1.4.7"
+        },
+        {
+          "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.10",
+          "locus_short": "BṛU 1.4.10"
+        },
+        {
+          "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.3",
+          "locus_short": "BṛU 2.3.1, 2.3.6"
+        }
+      ]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Bheda* between Bhagavān and the *jīva*-aggregate must be retained even while the *abheda-śāstras* are honored, because the two are coordinated only through Bhagavān's *svābhāvika acintya-śakti*, which supports both difference and non-difference without contradiction [[PS §43](cite://jiva-gosvami/sat-sandarbha/§43)]. Once the Lord is fixed as the locus of *māyā* and the *jīva* as *māyā-mohita*, this standing difference grounds worship itself as the proper *abhidheya* [[PS §44](cite://jiva-gosvami/sat-sandarbha/§44)].",
+      "primary_loci": [
+        "Paramātma-Sandarbha §43",
+        "Paramātma-Sandarbha §44"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§43",
+          "locus_short": "PS §43"
+        },
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§44",
+          "locus_short": "PS §44"
+        }
+      ]
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "*Bheda* is *svābhāvika*: the *jīva* is atomic, dependent on Hari, and distinct in each body, yet remains an enduring knower rather than a severed or self-subsistent substance [[DaŚ 1](cite://nimbarka/dasa-shloki/1)]. The school's account of the soul accordingly preserves a plurality of bound, liberated, and devotional states, together with further internal differentiations, without relinquishing the *jīva*'s abiding relation to Bhagavān [[DaŚ 2](cite://nimbarka/dasa-shloki/2)].",
+      "primary_loci": [
+        "Daśa-Ślokī 1",
+        "Daśa-Ślokī 2"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nimbarka/dasa-shloki/1",
+          "locus_short": "DaŚ 1"
+        },
+        {
+          "cite": "cite://nimbarka/dasa-shloki/2",
+          "locus_short": "DaŚ 2"
+        }
+      ]
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "*Bheda* is not an extrinsic rupture outside Brahman but the Veda's own manifold designation of the *jīva* as a real *aṃśa* of Brahman [[AṇuBh 2.3.43-45](cite://vallabha/anu-bhasya/2.3.43-45)]. Because this *aṃśatva* is scripturally known rather than modeled on an ordinary part-whole division, the soul's distinctness is preserved within Brahman's own reality rather than assigned to a merely adventitious adjunct [[AṇuBh 2.3.43-45](cite://vallabha/anu-bhasya/2.3.43-45)].",
+      "primary_loci": [
+        "Aṇu-Bhāṣya 2.3.43-45"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anu-bhasya/2.3.43-45",
+          "locus_short": "AṇuBh 2.3.43-45"
+        }
+      ]
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Yoga",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "*Bheda* first appears as the disciplined discrimination between the two truths, since without grasping that *vibhāga* one does not understand the Buddha's *gambhīra tattva* [[MMK 24.9](cite://nagarjuna/mula-madhyamaka-karika/24.9)]. Yet no ultimately established distinguishing feature separates *saṃsāra* from *nirvāṇa*, so difference cannot be reified into *svabhāva* [[MMK 25.19](cite://nagarjuna/mula-madhyamaka-karika/25.19)].",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 24.9",
+        "Mūla-Madhyamaka-Kārikā 25.19"
+      ],
+      "citations": [
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.9",
+          "locus_short": "MMK 24.9"
+        },
+        {
+          "cite": "cite://nagarjuna/mula-madhyamaka-karika/25.19",
+          "locus_short": "MMK 25.19"
+        }
+      ]
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "*Bheda* and *abheda* are both inadequate if taken as final ontological predications, since the perfected nature is said to be neither different from nor non-different from the dependent nature [[Triṃś 22](cite://vasubandhu/trimsika/22)]. The relation is therefore speakable only in a controlled, pedagogic way internal to *paratantratā*, not as a pair of self-standing entities set over against one another [[Triṃś 22](cite://vasubandhu/trimsika/22)].",
+      "primary_loci": [
+        "Triṃśikā 22"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/trimsika/22",
+          "locus_short": "Triṃś 22"
+        }
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Jainism",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "[NOT YET RETRIEVED]",
+      "primary_loci": [],
+      "citations": []
     }
   ],
-  "see_also": ["abheda", "bhedabheda", "jiva", "brahman", "advaita", "dvaita"],
+  "see_also": [
+    "abheda",
+    "bhedabheda",
+    "jiva",
+    "brahman",
+    "advaita",
+    "dvaita"
+  ],
   "translator_note": "The lazy gloss is simply 'difference.' That can work, but only if one hears 'real distinction' rather than a weak conceptual contrast. Another common mistake is to turn Tattva-vāda's use of *bheda* into 'dualism' in a Cartesian sense. Madhva's view is not a flat two-term split but a graded realist plurality with permanent distinctions across many orders of being.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus"
+  "last_verified_by": "glossary-wave1-codex54"
 }
