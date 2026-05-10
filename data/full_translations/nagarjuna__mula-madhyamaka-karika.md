@@ -645,3 +645,405 @@ The chapter closes by pulling the ground from under the entire causal taxonomy. 
 
 ---
 
+### MMK 18.4
+
+**Sanskrit (IAST):**
+> *mamety aham iti kṣīṇe bahirdhādhyātmam eva ca*  
+> *nirudhyata upādānaṃ tatkṣayāj janmanaḥ kṣayaḥ*
+
+**English (line-by-line):**
+> When “mine” and “I” are exhausted, both with respect to what is external and to what is internal,  
+> appropriation ceases; with the exhaustion of that, birth is exhausted.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| mama | mad | gen. sg. pronoun | mine / of me |
+| iti | iti | indecl. quotative | thus |
+| aham | asmad | nom. sg. pronoun | I |
+| iti | iti | indecl. quotative | thus |
+| kṣīṇe | kṣīṇa | loc. sg. n. PPP / loc. abs. | when exhausted |
+| bahirdhā | bahirdhā | indecl. adverb | externally |
+| adhyātmam | adhy-ātma | acc. sg. n. adverbial / internal domain | inwardly / with regard to self |
+| eva | eva | indecl. | indeed |
+| ca | ca | indecl. | and |
+| nirudhyate | ni-√rudh | laṭ, 3rd sg. ātmanepada/passive | is stopped / ceases |
+| upādānam | upādāna | nom./acc. sg. n. | appropriation / grasping |
+| tat-kṣayāt | tat-kṣaya | abl. sg. m. | from the exhaustion of that |
+| janmanaḥ | janman | gen. sg. n. | of birth |
+| kṣayaḥ | kṣaya | nom. sg. m. | exhaustion / cessation |
+
+**Compound resolution (samāsa-vigraha):**
+- *adhyātmam* [avyayībhāva]: “with respect to the self / internally.”
+- *tatkṣayāt* [ṣaṣṭhī-tatpuruṣa]: *tasya kṣayāt*, “from its exhaustion.”
+
+**Kāraka structure:**
+- kartṛ: *upādānam*, *kṣayaḥ*
+- hetu: *tatkṣayāt*
+- adhikaraṇa/adverbials: *bahirdhā*, *adhyātmam*
+
+**Verbal modality:**
+- *nirudhyate*: laṭ / ātmanepada-passive / present
+- *kṣīṇe*: PPP in locative absolute force
+
+**Note:**
+The verse links the deconstruction of egoic indexicals directly to the cessation of *upādāna*. Compare MMK 27.4–8, where the relation between self and appropriation is examined more explicitly.
+
+---
+
+### MMK 18.5
+
+**Sanskrit (IAST):**
+> *karmakleśakṣayān mokṣaḥ karmakleśā vikalpataḥ*  
+> *te prapañcāt prapañcas tu śūnyatāyāṃ nirudhyate*
+
+**English (line-by-line):**
+> Liberation comes from the exhaustion of karma and afflictions; karma and afflictions come from conceptual construction.  
+> Those come from proliferative elaboration; but proliferative elaboration ceases in emptiness.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| karma-kleśa-kṣayāt | karma-kleśa-kṣaya | abl. sg. m. | from the exhaustion of karma and afflictions |
+| mokṣaḥ | mokṣa | nom. sg. m. | liberation |
+| karma-kleśāḥ | karma-kleśa | nom. pl. m. | karma and afflictions |
+| vikalpataḥ | vikalpa | abl. sg. m. used adverbially | from conceptual construction |
+| te | tad | nom. pl. m. | those |
+| prapañcāt | prapañca | abl. sg. m. | from proliferation / discursivity |
+| prapañcaḥ | prapañca | nom. sg. m. | proliferation |
+| tu | tu | indecl. | but |
+| śūnyatāyām | śūnyatā | loc. sg. f. | in emptiness |
+| nirudhyate | ni-√rudh | laṭ, 3rd sg. ātmanepada/passive | is stopped / ceases |
+
+**Compound resolution (samāsa-vigraha):**
+- *karmakleśakṣayāt* [dvandva-tatpuruṣa]: *karmaṇāṃ kleśānāṃ ca kṣayāt*, “from the exhaustion of karma and afflictions.”
+- *karmakleśāḥ* [dvandva]: “karma and afflictions.”
+
+**Kāraka structure:**
+- kartṛ: *mokṣaḥ*, *karma-kleśāḥ*, *prapañcaḥ*
+- hetu/apādāna: *karmakleśakṣayāt*, *vikalpataḥ*, *prapañcāt*
+- adhikaraṇa: *śūnyatāyām*
+
+**Verbal modality:**
+- *nirudhyate*: laṭ / ātmanepada-passive / present
+- first half: nominal sentence with ellipsis of *bhavati*
+
+**Note:**
+This is one of the clearest soteriological condensations in the MMK. Emptiness is not set over against liberation; it is the place where *prapañca* loses its grip, and hence where bondage loses its causal chain.
+
+---
+
+### MMK 18.6
+
+**Sanskrit (IAST):**
+> *ātmety api prajñapitam anātmety api deśitam*  
+> *buddhair nātmā na cānātmā kaścid ity api deśitam*
+
+**English (line-by-line):**
+> “Self” has been designated; “not-self” too has been taught.  
+> And by the Buddhas it has also been taught that there is no whatever that is either self or not-self.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| ātmā | ātman | nom. sg. m. | self |
+| iti | iti | indecl. quotative | thus |
+| api | api | indecl. | also |
+| prajñapitam | pra-√jñap | nom./acc. sg. n. PPP | designated / posited |
+| anātmā | an-ātman | nom. sg. m. | not-self |
+| iti | iti | indecl. quotative | thus |
+| api | api | indecl. | also |
+| deśitam | √diś | nom./acc. sg. n. PPP | taught |
+| buddhaiḥ | buddha | instr. pl. m. | by the Buddhas |
+| na | na | indecl. | not |
+| ātmā | ātman | nom. sg. m. | self |
+| na | na | indecl. | not |
+| ca | ca | indecl. | and |
+| anātmā | an-ātman | nom. sg. m. | not-self |
+| kaścit | kaścit | nom. sg. m. pronoun | any whatever |
+| iti | iti | indecl. quotative | thus |
+| api | api | indecl. | also |
+| deśitam | √diś | nom./acc. sg. n. PPP | taught |
+
+**Compound resolution (samāsa-vigraha):**
+- *anātmā* [nañ-tatpuruṣa]: *na ātmā*, “not-self.”
+
+**Kāraka structure:**
+- karaṇa: *buddhaiḥ*
+- predicate content: *ātmā iti*, *anātmā iti*, *na ātmā na ca anātmā kaścit iti*
+
+**Verbal modality:**
+- *prajñapitam*, *deśitam*: PPPs used predicatively
+
+**Note:**
+The verse is careful about register. The Buddhas can employ *ātman* and *anātman* didactically, but the final content of the teaching is not capturable by either member of the pair. Compare the fuller anti-self analysis in MMK 27.1–13.
+
+---
+
+### MMK 18.7
+
+**Sanskrit (IAST):**
+> *nivṛttam abhidhātavyaṃ nivṛttaś cittagocaraḥ*  
+> *anutpannāniruddhā hi nirvāṇam iva dharmatā*
+
+**English (line-by-line):**
+> What is to be named has fallen away; the field of mind has fallen away.  
+> For the nature of things, like nirvāṇa, is unarisen and unceased.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| nivṛttam | ni-√vṛt | nom./acc. sg. n. PPP | turned back / ceased |
+| abhidhātavyam | abhi-√dhā | gerundive, nom./acc. sg. n. | what is to be named / stated |
+| nivṛttaḥ | ni-√vṛt | nom. sg. m. PPP | turned back / ceased |
+| citta-gocaraḥ | citta-gocara | nom. sg. m. | the range of mind |
+| anutpannāniruddhā | an-utpanna-aniruddha | nom. sg. f. | unarisen and unceased |
+| hi | hi | indecl. | for |
+| nirvāṇam | nirvāṇa | acc. sg. n. | nirvāṇa |
+| iva | iva | indecl. | like |
+| dharmatā | dharmatā | nom. sg. f. | suchness / nature of things |
+
+**Compound resolution (samāsa-vigraha):**
+- *abhidhātavyam* [gerundive derivative]: “that which is to be spoken or designated.”
+- *cittagocaraḥ* [ṣaṣṭhī-tatpuruṣa]: *cittasya gocaraḥ*, “the field accessible to mind.”
+- *anutpannāniruddhā* [dvandva-like negative compound]: *anutpannā ca aniruddhā ca*, “unarisen and unceased.”
+
+**Kāraka structure:**
+- kartṛ: *abhidhātavyam*, *cittagocaraḥ*, *dharmatā*
+- upamāna: *nirvāṇam iva*
+
+**Verbal modality:**
+- predicative nominal construction with PPPs; no finite verb expressed
+
+**Note:**
+This is one of the MMK’s strongest statements that ultimate reality is beyond discursive capture. Yet the verse does not posit a hidden substance; it marks the collapse of the speech-thought grid before *dharmatā*.
+
+---
+
+### MMK 18.8
+
+**Sanskrit (IAST):**
+> *sarvaṃ tathyaṃ na vā tathyaṃ tathyaṃ cātathyam eva ca*  
+> *naivātathyaṃ naiva tathyam etad buddhānuśāsanam*
+
+**English (line-by-line):**
+> Everything is true; or else everything is not true; everything is both true and not true.  
+> It is neither untrue nor true: this is the Buddhas’ instruction.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| sarvam | sarva | nom./acc. sg. n. | everything |
+| tathyam | tathya | nom./acc. sg. n. | true / factual |
+| na | na | indecl. | not |
+| vā | vā | indecl. | or |
+| tathyam | tathya | nom./acc. sg. n. | true |
+| tathyam | tathya | nom./acc. sg. n. | true |
+| ca | ca | indecl. | and |
+| atathyam | a-tathya | nom./acc. sg. n. | untrue |
+| eva | eva | indecl. | indeed |
+| ca | ca | indecl. | and |
+| na eva | na + eva | indecl. + particle | neither indeed |
+| atathyam | a-tathya | nom./acc. sg. n. | untrue |
+| na eva | na + eva | indecl. + particle | nor indeed |
+| tathyam | tathya | nom./acc. sg. n. | true |
+| etat | etad | nom./acc. sg. n. | this |
+| buddha-anuśāsanam | buddha-anuśāsana | nom./acc. sg. n. | the Buddhas’ instruction |
+
+**Compound resolution (samāsa-vigraha):**
+- *atathyam* [nañ-tatpuruṣa]: “not true.”
+- *buddhānuśāsanam* [ṣaṣṭhī-tatpuruṣa]: *buddhānām anuśāsanam*, “the Buddhas’ instruction.”
+
+**Kāraka structure:**
+- predicate sequence governing *sarvam* / *etat*
+
+**Verbal modality:**
+- nominal catuṣkoṭi without finite verb
+
+**Note:**
+The verse performs the four-cornered exhaustion not on origination but on truth-predication itself. It is therefore a crucial bridge between the ontological refutations of Chapter 1 and the epistemic-linguistic restraint of Chapters 24 and 25.
+
+---
+
+### MMK 18.9
+
+**Sanskrit (IAST):**
+> *aparapratyayaṃ śāntaṃ prapañcair aprapañcitam*  
+> *nirvikalpam anānārtham etat tattvasya lakṣaṇam*
+
+**English (line-by-line):**
+> Not dependent on another, peaceful, not proliferated by proliferations,  
+> free of conceptual construction and free of plurality of object: this is the mark of reality.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| a-para-pratyayam | a-para-pratyaya | nom./acc. sg. n. | not dependent on another cognition / another support |
+| śāntam | śānta | nom./acc. sg. n. PPP | peaceful / quiescent |
+| prapañcaiḥ | prapañca | instr. pl. m. | by proliferations |
+| a-prapañcitam | a-prapañcita | nom./acc. sg. n. PPP | not elaborated / not proliferated |
+| nirvikalpam | nir-vikalpa | nom./acc. sg. n. | free of conceptual construction |
+| anānārtham | an-ānā-artha / anānārtha | nom./acc. sg. n. | not of plurality of object / non-manifold |
+| etat | etad | nom./acc. sg. n. | this |
+| tattvasya | tattva | gen. sg. n. | of reality |
+| lakṣaṇam | lakṣaṇa | nom./acc. sg. n. | mark / characteristic |
+
+**Compound resolution (samāsa-vigraha):**
+- *aparapratyayam* [nañ-tatpuruṣa]: *na para-pratyayam*, “not dependent on another.”
+- *aprapañcitam* [nañ + PPP]: “not proliferated.”
+- *nirvikalpam* [nir-prefixed compound]: “free from conceptual construction.”
+
+**Kāraka structure:**
+- karaṇa: *prapañcaiḥ*
+- sambandha: *tattvasya*
+- kartṛ/predicate: *etat ... lakṣaṇam*
+
+**Verbal modality:**
+- nominal definition; no finite verb expressed
+
+**Note:**
+The verse describes *tattva* apophatically. It is not a hidden thing behind phenomena, but what remains when proliferation and conceptual imposition lose authority.
+
+---
+
+### MMK 18.10
+
+**Sanskrit (IAST):**
+> *pratītya yad yad bhavati na hi tāvat tad eva tat*  
+> *na cānyadapi tattasmānnocchinnaṃ nāpi śāśvatam*
+
+**English (line-by-line):**
+> Whatever comes to be dependently, that is not simply identical with that on which it depends.  
+> Yet it is not other than that either; therefore it is neither annihilated nor eternal.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| pratītya | prati-√i | absolutive | having depended on |
+| yat | yad | relative pronoun, nom./acc. sg. n. | whatever |
+| yat | yad | repetition for distributive force | whatever |
+| bhavati | √bhū | laṭ, 3rd sg. parasmaipada | becomes / comes to be |
+| na | na | indecl. | not |
+| hi | hi | indecl. | indeed |
+| tāvat | tāvat | indecl. | to that extent / simply |
+| tat | tad | nom./acc. sg. n. | that |
+| eva | eva | indecl. | precisely |
+| tat | tad | nom./acc. sg. n. | that |
+| na | na | indecl. | not |
+| ca | ca | indecl. | and |
+| anyat | anya | nom./acc. sg. n. | other |
+| api | api | indecl. | either |
+| tat | tad | nom./acc. sg. n. | that |
+| tasmāt | tasmāt | abl. sg. indeclinable use | than that / therefore |
+| na | na | indecl. | not |
+| ucchinnam | ucchinna | nom./acc. sg. n. PPP | annihilated / cut off |
+| na | na | indecl. | not |
+| api | api | indecl. | either |
+| śāśvatam | śāśvata | nom./acc. sg. n. | eternal |
+
+**Compound resolution (samāsa-vigraha):**
+- none beyond lexical negatives
+
+**Kāraka structure:**
+- kartṛ: implied *yat yad*
+- apādāna/comparative relation: *tasmāt*
+
+**Verbal modality:**
+- *bhavati*: laṭ / parasmaipada / present
+
+**Note:**
+This is the anti-essentialist middle condensed into one verse: dependent arising blocks both strict identity and strict difference, and thereby blocks the paired extremes of annihilationism and eternalism.
+
+---
+
+### MMK 18.11
+
+**Sanskrit (IAST):**
+> *anekārtham anānārtham anucchedam aśāśvatam*  
+> *etat tal lokanāthānāṃ buddhānāṃ śāsanāmṛtam*
+
+**English (line-by-line):**
+> Neither one-sidedly one nor one-sidedly many, neither annihilationist nor eternalist,  
+> this is the nectar of the teaching of the Buddhas, the lords of the world.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| anekārtham | an-eka-artha | nom./acc. sg. n. | not one-sidedly one / many-sided |
+| anānārtham | an-ānā-artha | nom./acc. sg. n. | not many-sided / not pluralistic |
+| anucchedam | an-uccheda | nom./acc. sg. n. | non-annihilationist |
+| aśāśvatam | a-śāśvata | nom./acc. sg. n. | non-eternalist |
+| etat | etad | nom./acc. sg. n. | this |
+| tat | tad | nom./acc. sg. n. emphatic | that very |
+| lokanāthānām | loka-nātha | gen. pl. m. | of the lords of the world |
+| buddhānām | buddha | gen. pl. m. | of the Buddhas |
+| śāsanāmṛtam | śāsana-amṛta | nom./acc. sg. n. | nectar of teaching |
+
+**Compound resolution (samāsa-vigraha):**
+- *lokanāthānām* [ṣaṣṭhī-tatpuruṣa]: *lokānāṃ nāthāḥ*, “lords of the world.”
+- *śāsanāmṛtam* [ṣaṣṭhī-tatpuruṣa]: *śāsanasya amṛtam*, “nectar of the teaching.”
+
+**Kāraka structure:**
+- sambandha: *lokanāthānām*, *buddhānām*
+- kartṛ/predicate: *etat ... śāsanāmṛtam*
+
+**Verbal modality:**
+- nominal doctrinal summary; no finite verb expressed
+
+**Note:**
+The first two members restate the refusal of simple unity and plurality; the second two restate the refusal of annihilationism and eternalism. The verse is a doctrinal summary of the middle way in four compressed negatives.
+
+---
+
+### MMK 18.12
+
+**Sanskrit (IAST):**
+> *saṃbuddhānām anutpāde śrāvakāṇāṃ punaḥ kṣaye*  
+> *jñānaṃ pratyekabuddhānām asaṃsargāt pravartate*
+
+**English (line-by-line):**
+> When fully awakened Buddhas do not arise, and when the disciples have also perished,  
+> the knowledge of the solitary Buddhas proceeds from non-association.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| saṃbuddhānām | saṃ-buddha | gen. pl. m. | of fully awakened Buddhas |
+| anutpāde | an-utpāda | loc. sg. m. | in the non-arising |
+| śrāvakāṇām | śrāvaka | gen. pl. m. | of disciples |
+| punaḥ | punaḥ | indecl. | again / also |
+| kṣaye | kṣaya | loc. sg. m. | in the destruction / cessation |
+| jñānam | jñāna | nom./acc. sg. n. | knowledge |
+| pratyekabuddhānām | pratyeka-buddha | gen. pl. m. | of solitary Buddhas |
+| asaṃsargāt | a-saṃsarga | abl. sg. m. | from non-contact / non-association |
+| pravartate | pra-√vṛt | laṭ, 3rd sg. ātmanepada | proceeds / arises |
+
+**Compound resolution (samāsa-vigraha):**
+- *saṃbuddhānām* [upapada/kṛdanta]: “of fully awakened ones.”
+- *anutpāde* [nañ-tatpuruṣa]: “in non-arising.”
+- *pratyekabuddhānām* [tatpuruṣa]: “of solitary / individually awakened Buddhas.”
+- *asaṃsargāt* [nañ-tatpuruṣa]: “from non-association.”
+
+**Kāraka structure:**
+- sambandha: *saṃbuddhānām*, *śrāvakāṇām*, *pratyekabuddhānām*
+- adhikaraṇa: *anutpāde*, *kṣaye*
+- hetu/apādāna: *asaṃsargāt*
+- kartṛ: *jñānam*
+
+**Verbal modality:**
+- *pravartate*: laṭ / ātmanepada / present
+
+**Note:**
+The verse closes the chapter by locating pratyekabuddha knowledge outside ordinary pedagogical transmission. The point is not romantic isolation but the dependence of even liberating knowledge on a field from which reified selfhood has dropped away.
+
+---
+
