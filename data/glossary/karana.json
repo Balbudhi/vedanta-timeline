@@ -12,7 +12,7 @@
     "karaṇaiḥ"
   ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54",
+  "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "*Karaṇa* is the instrumental role within Pāṇinian *kāraka*-analysis: *sādhakatamaṃ karaṇam* (Aṣṭādhyāyī 1.4.42) — that which is most-instrumental to the accomplishment of the action. Beyond grammar, the term has at least three further technical lives across the Indian schools. (1) In Sāṃkhya, the *trayodaśa-karaṇa* (thirteen-instrument) doctrine analyzes the cognitive apparatus — *buddhi*, *ahaṅkāra*, *manas*, the five *jñānendriya*s, the five *karmendriya*s — as the *karaṇa*-set through which *puruṣa*'s experience and action are mediated; the *antaḥkaraṇa* is *karaṇa* internal, the senses *karaṇa* external. (2) In Vedānta epistemology *karaṇa* names the operative cause of cognition (*pramā-karaṇa* = *pramāṇa*) — defining *pramāṇa* itself as the most-effective instrument of veridical cognition. (3) In Vaiśeṣika causal analysis *karaṇa* is one of three causal types: *samavāyi-kāraṇa* (inherent cause, e.g., the threads in cloth), *asamavāyi-kāraṇa* (non-inherent cause, e.g., the conjunction of threads), *nimitta-kāraṇa* (efficient cause, e.g., the weaver). The unifying core is the relational sense: *karaṇa* names whatever stands as the indispensable means by which the *kartṛ*'s activity reaches its *kārya*. Vedāntic schools deploy the term across all three registers and inherit the Sāṃkhyan and Vaiśeṣikan technical apparatus while disagreeing on its ontological status (real *acit* vs. *upādhi* of *avidyā* vs. dependent *śakti*).",
   "per_school": [
     {
@@ -92,9 +92,26 @@
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Acintya-Bhedābheda, the closest school-specific analogue to karaṇa is abhidheya: once the difference between Bhagavān and the māyā-deluded jīva is fixed, his bhajana alone counts as the operative means. [[PS §44](cite://jiva-gosvami/sat-sandarbha/§44)] Caitanya's own verses treat nāma-saṅkīrtana as efficacious because it cleanses citta and because the divine names bear Kṛṣṇa's entire śakti; the school's instrumentality is thus concentrated in nāma-bhajana rather than in an autonomous epistemic implement. [[Śikṣāṣṭakam 1](cite://caitanya/shikshashtakam/1)] [[Śikṣāṣṭakam 2](cite://caitanya/shikshashtakam/2)]",
+      "primary_loci": [
+        "Paramātma-Sandarbha §44",
+        "Śikṣāṣṭakam 1",
+        "Śikṣāṣṭakam 2"
+      ],
+      "citations": [
+        {
+          "cite": "cite://jiva-gosvami/sat-sandarbha/§44",
+          "locus_short": "PS §44"
+        },
+        {
+          "cite": "cite://caitanya/shikshashtakam/1",
+          "locus_short": "Śikṣāṣṭakam 1"
+        },
+        {
+          "cite": "cite://caitanya/shikshashtakam/2",
+          "locus_short": "Śikṣāṣṭakam 2"
+        }
+      ]
     },
     {
       "school": "Dvaitādvaita",
@@ -104,33 +121,106 @@
     },
     {
       "school": "Śuddhādvaita",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Śuddhādvaita, attainment of Puruṣottama proceeds through a graded instrumental order: brahmajñāna together with avidyā-nivṛtti produces svarūpa-yogyatā, but bhakti furnishes the sahakāri-yogyatā through which Puruṣottama-prāpti is effected. [[Aṇu-Bhāṣya 1.1.12-19](cite://vallabha/anu-bhasya/1.1.12-19)] Vallabha therefore makes bhakti the decisive operative means of apprehending Bhagavān, sealing the point with 'bhaktyāham ekayā grāhyaḥ'. [[Aṇu-Bhāṣya 1.1.12-19](cite://vallabha/anu-bhasya/1.1.12-19)]",
+      "primary_loci": [
+        "Aṇu-Bhāṣya on Brahma-Sūtra 1.1.12-19"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anu-bhasya/1.1.12-19",
+          "locus_short": "Aṇu-Bhāṣya 1.1.12-19"
+        }
+      ]
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Sāṃkhya, karaṇa is the thirteenfold psychophysical instrument-set consisting of buddhi, ahaṅkāra, manas, five buddhīndriyas, and five karmendriyas, whose functions are āharaṇa, dhāraṇa, and prakāśana. [[SK 32](cite://isvarakrsna/samkhya-karika/32)] This set divides into internal and external karaṇa: the triple antaḥkaraṇa is internal and tri-temporal, while the ten senses are external and operate only upon the present field of objects. [[SK 33](cite://isvarakrsna/samkhya-karika/33)] Its coordinated activity is not driven by an external lord, for puruṣārtha alone is the motive of the whole apparatus. [[SK 31](cite://isvarakrsna/samkhya-karika/31)]",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 31",
+        "Sāṃkhya-Kārikā 32",
+        "Sāṃkhya-Kārikā 33"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/31",
+          "locus_short": "SK 31"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/32",
+          "locus_short": "SK 32"
+        },
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika/33",
+          "locus_short": "SK 33"
+        }
+      ]
     },
     {
       "school": "Yoga",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Yoga, the indriyas are analyzed through a fivefold structure, and mastery of that structure yields indriyajaya; Vyāsa explicitly says that the siddhis of YS 3.48 are attained from conquering the fivefold form of the karaṇa. [[YBh 3.47-48](cite://vyasa/yoga-bhasya/3.47-48)] Vikaraṇabhāva, accordingly, is the acquisition of operative capacity by the senses even when disembodied. [[YBh 3.47-48](cite://vyasa/yoga-bhasya/3.47-48)] At the ontological level an indriya is a pariṇāma of the guṇas in karaṇabhāva, distinguished from the grāhya that appears as viṣaya. [[YBh 4.14](cite://vyasa/yoga-bhasya/4.14)]",
+      "primary_loci": [
+        "Yoga-Bhāṣya on Yoga-Sūtra 3.47-48",
+        "Yoga-Bhāṣya on Yoga-Sūtra 4.14"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vyasa/yoga-bhasya/3.47-48",
+          "locus_short": "YBh 3.47-48"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/4.14",
+          "locus_short": "YBh 4.14"
+        }
+      ]
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Nyāya-Vaiśeṣika, karaṇa is the asādhāraṇa kāraṇa, the non-generic operative cause singled out from the full causal complex. [[AnTS 37-41](cite://annambhatta/tarka-sangraha/37-41)] Thus perception is specified by indriya as its karaṇa and inference by liṅga-parāmarśa as its karaṇa; karaṇa here is the precise epistemic factor that yields the pramā. [[AnTS 42-43](cite://annambhatta/tarka-sangraha/42-43)] [[AnTS 47](cite://annambhatta/tarka-sangraha/47)] Vātsyāyana correspondingly treats the indriyas as bhogasādhana and rejects any reduction of cognition to an insentient karaṇa such as buddhi alone. [[Nyāya-Bhāṣya 1.1.9](cite://vatsyayana/nyaya-bhasya/1.1.9)] [[Nyāya-Bhāṣya 1.1.15](cite://vatsyayana/nyaya-bhasya/1.1.15)]",
+      "primary_loci": [
+        "Tarka-Saṅgraha 37-43, 47",
+        "Nyāya-Bhāṣya 1.1.9",
+        "Nyāya-Bhāṣya 1.1.15"
+      ],
+      "citations": [
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/37-41",
+          "locus_short": "AnTS 37-41"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/42-43",
+          "locus_short": "AnTS 42-43"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/47",
+          "locus_short": "AnTS 47"
+        },
+        {
+          "cite": "cite://vatsyayana/nyaya-bhasya/1.1.9",
+          "locus_short": "Nyāya-Bhāṣya 1.1.9"
+        },
+        {
+          "cite": "cite://vatsyayana/nyaya-bhasya/1.1.15",
+          "locus_short": "Nyāya-Bhāṣya 1.1.15"
+        }
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In the Kumārila line, pramāṇatva is glossed as pramākāraṇatva, so karaṇa is built into the very definition of a pramāṇa as that which brings about veridical cognition. [[ŚVK ad 80](cite://sucaritamisra/sloka-varttika-commentary/80)] The same commentary extends karaṇa into ritual theory: if dependence on auxiliary specification destroyed instrumentality, every laukika and vaidika karaṇa would lose its karaṇatā; what stands immediately in the accomplishment of the act is karaṇa, while the rest is itikartavyatā. [[ŚVK ad 37-38](cite://sucaritamisra/sloka-varttika-commentary/37-38)]",
+      "primary_loci": [
+        "Ślokavārttika-ṭīkā, ad verse 80",
+        "Ślokavārttika-ṭīkā, ad verses 37-38"
+      ],
+      "citations": [
+        {
+          "cite": "cite://sucaritamisra/sloka-varttika-commentary/80",
+          "locus_short": "ŚVK ad 80"
+        },
+        {
+          "cite": "cite://sucaritamisra/sloka-varttika-commentary/37-38",
+          "locus_short": "ŚVK ad 37-38"
+        }
+      ]
     },
     {
       "school": "Mādhyamaka",
@@ -157,21 +247,52 @@
     },
     {
       "school": "Yogācāra",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In the Dharmakīrtian Yogācāra-pramāṇa tradition, karaṇa need not denote a numerically distinct implement over against the cognitive act, since the supposed contradiction in the identity of kriyā and karaṇa is denied on the ground that one entity may be differentiated by dharma-bheda. [[PV 2.318](cite://dharmakirti/pramana-varttika/2.318)] Accordingly, once the relevant cognitive operation is accomplished, there is no warrant to posit a further aindriya or other sādhana over and above it. [[PV 2.241](cite://dharmakirti/pramana-varttika/2.241)]",
+      "primary_loci": [
+        "Pramāṇavārttika 2.241",
+        "Pramāṇavārttika 2.318"
+      ],
+      "citations": [
+        {
+          "cite": "cite://dharmakirti/pramana-varttika/2.241",
+          "locus_short": "PV 2.241"
+        },
+        {
+          "cite": "cite://dharmakirti/pramana-varttika/2.318",
+          "locus_short": "PV 2.318"
+        }
+      ]
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Pratyabhijñā / Trika, the contracted powers of consciousness themselves become the karaṇa-system: jñānaśakti descends into antaḥkaraṇa, buddhi, and indriya-form, while kriyāśakti descends into karmendriya-form. [[PH 9, comm.](cite://ksemaraja/pratyabhijna-hrdayam/9-commentary)] Kṣemarāja accordingly distinguishes the ordinary bodily karaṇas, produced through māyāśakti and differentiated as bheda, from mantra as the corresponding instrument on the vidyāśakti side. [[Spanda-Nirṇaya 2.1.8-9](cite://ksemaraja/spanda-nirnaya/2.1.8-9)]",
+      "primary_loci": [
+        "Pratyabhijñāhṛdayam 9, commentary",
+        "Spandakārikā-Nirṇaya 2.1.8-9"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ksemaraja/pratyabhijna-hrdayam/9-commentary",
+          "locus_short": "PH 9, comm."
+        },
+        {
+          "cite": "cite://ksemaraja/spanda-nirnaya/2.1.8-9",
+          "locus_short": "Spanda-Nirṇaya 2.1.8-9"
+        }
+      ]
     },
     {
       "school": "Jainism",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Jainism, the exact lexeme here is upakaraṇa rather than karaṇa, but the functional analogue is explicit in the doctrine of indriya. [[TS indriya-prakaraṇa](cite://umasvati/tattvartha-sutra/indriya-prakarana)] The sense-faculty is twofold: dravyendriya is the material instrument constituted in its upakaraṇa-form, while bhāvendriya consists in labdhi and upayoga, so cognition requires both a bodily basis and the soul's actual exercise of awareness. [[TS indriya-prakaraṇa](cite://umasvati/tattvartha-sutra/indriya-prakarana)]",
+      "primary_loci": [
+        "Tattvārtha-Sūtra, indriya-prakaraṇa"
+      ],
+      "citations": [
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/indriya-prakarana",
+          "locus_short": "TS indriya-prakaraṇa"
+        }
+      ]
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",
