@@ -29,7 +29,21 @@
       "source_doc": "docs/MIMAMSA_AUROBINDO_HYPOTHESIS_v2.md",
       "tags": ["Mīmāṃsā", "Jaimini", "Śabara", "Aurobindo", "Integral-Yoga", "bhāvanā", "apūrva", "depth-reading", "Clooney"],
       "word_count_approx": 5870,
-      "date": "2026-05-09"
+      "date": "2026-05-09",
+      "status": "superseded",
+      "superseded_by": "mimamsa-aurobindo-v3",
+      "superseded_note": "v2's diagnostic-decline framing (Hypothesis C: 'the decline was the loss of the depth-reading') misrepresented the user's position. v3 retracts that framing and reframes Aurobindo's hermeneutic as operating on the contemporary reader's encounter with the corpus, not as a correction of the historical school."
+    },
+    {
+      "slug": "mimamsa-aurobindo-v3",
+      "title": "Mīmāṃsā as a coherent practice-philosophy: Clooney's reading and the contemporary reader's encounter",
+      "subtitle": "Replaces v2's diagnostic-decline framing. The classical Mīmāṃsakas externalised the rite because the symbol-environment they inhabited carried the depth in lived practice; the school is coherent on its own terms. Clooney's *Thinking Ritually* (1990) and 2022 \"Mīmāṃsā as Introspective Literature and as Philosophy\" are engaged substantively (codanā, bhāvanā, adhikāra, apūrva, the karmin as reflective subject). Aurobindo's *Secret of the Veda* and *Synthesis of Yoga* are reframed as a hermeneutic for the contemporary reader at distance from the original symbol-environment — amplification, not correction.",
+      "kind": "perspective-investigation",
+      "source_doc": "data/articles/source/mimamsa-aurobindo-v3.md",
+      "tags": ["Mīmāṃsā", "Jaimini", "Śabara", "Kumārila", "Prabhākara", "Aurobindo", "Clooney", "bhāvanā", "codanā", "apūrva", "contemporary-reader"],
+      "word_count_approx": 5400,
+      "date": "2026-05-10",
+      "supersedes": ["mimamsa-aurobindo-v1", "mimamsa-aurobindo-v2"]
     },
     {
       "slug": "primitive-model",
