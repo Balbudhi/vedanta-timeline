@@ -1047,3 +1047,358 @@ The verse closes the chapter by locating pratyekabuddha knowledge outside ordina
 
 ---
 
+### MMK 24.8
+
+**Sanskrit (IAST):**
+> *dve satye samupāśritya buddhānāṃ dharmadeśanā*  
+> *lokasaṃvṛtisatyaṃ ca satyaṃ ca paramārthataḥ*
+
+**English (line-by-line):**
+> The Buddhas’ teaching of the Dharma rests upon two truths:  
+> the truth of worldly convention and the truth in the ultimate sense.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| dve | dvi | nom. dual n. numeral | two |
+| satye | satya | nom. dual n. | truths |
+| samupāśritya | sam-upa-ā-√śri | absolutive | having relied upon |
+| buddhānām | buddha | gen. pl. m. | of the Buddhas |
+| dharma-deśanā | dharma-deśanā | nom. sg. f. | teaching of the Dharma |
+| loka-saṃvṛti-satyam | loka-saṃvṛti-satya | nom./acc. sg. n. | worldly-conventional truth |
+| ca | ca | indecl. | and |
+| satyam | satya | nom./acc. sg. n. | truth |
+| ca | ca | indecl. | and |
+| paramārthataḥ | paramārtha | abl. sg. used adverbially | ultimately / in the ultimate sense |
+
+**Compound resolution (samāsa-vigraha):**
+- *dharmadeśanā* [ṣaṣṭhī-tatpuruṣa]: *dharmasya deśanā*, “teaching of the Dharma.”
+- *lokasaṃvṛtisatyam* [ṣaṣṭhī-tatpuruṣa chain]: “the truth of worldly convention.”
+- *paramārthataḥ* [ablatival derivative]: “from the side of ultimate meaning.”
+
+**Kāraka structure:**
+- āśraya: *dve satye*
+- sambandha: *buddhānām*
+- kartṛ: *dharmadeśanā*
+
+**Verbal modality:**
+- *samupāśritya*: absolutive; finite verb ellipsed in nominal sentence
+
+**Note:**
+This is the formal entrance of the two-truths apparatus. Without it, Nāgārjuna’s denial of *svabhāva* would be heard as a denial of ordinary discourse rather than as its de-essentialization.
+
+---
+
+### MMK 24.9
+
+**Sanskrit (IAST):**
+> *ye 'nayor na vijānanti vibhāgaṃ satyayor dvayoḥ*  
+> *te tattvaṃ na vijānanti gambhīraṃ buddhaśāsane*
+
+**English (line-by-line):**
+> Those who do not understand the distinction between these two truths  
+> do not understand the deep reality in the Buddhas’ teaching.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| ye | yad | nom. pl. m. relative pronoun | those who |
+| anayor | idam | gen./loc. dual | of these two |
+| na | na | indecl. | not |
+| vijānanti | vi-√jñā | laṭ, 3rd pl. parasmaipada | understand distinctly |
+| vibhāgam | vi-bhāga | acc. sg. m. | distinction / division |
+| satyayoḥ | satya | gen. dual n. | of the truths |
+| dvayoḥ | dvi | gen. dual | of the two |
+| te | tad | nom. pl. m. | they |
+| tattvam | tattva | acc. sg. n. | reality / truth itself |
+| na | na | indecl. | not |
+| vijānanti | vi-√jñā | laṭ, 3rd pl. parasmaipada | understand |
+| gambhīram | gambhīra | acc. sg. n. adjective | deep / profound |
+| buddha-śāsane | buddha-śāsana | loc. sg. n. | in the Buddhas’ teaching |
+
+**Compound resolution (samāsa-vigraha):**
+- *buddhaśāsane* [ṣaṣṭhī-tatpuruṣa]: *buddhānāṃ śāsane*, “in the Buddhas’ teaching.”
+
+**Kāraka structure:**
+- karman: *vibhāgam*, *tattvam*
+- sambandha: *satyayoḥ dvayoḥ*
+- adhikaraṇa: *buddhaśāsane*
+
+**Verbal modality:**
+- *vijānanti* (twice): laṭ / parasmaipada / present
+
+**Note:**
+The verse makes the hermeneutical claim explicit: failure to distinguish conventional and ultimate truth is not a minor mistake but the root of misreading the whole doctrine.
+
+---
+
+### MMK 24.10
+
+**Sanskrit (IAST):**
+> *vyavahāram anāśritya paramārtho na deśyate*  
+> *paramārtham anāgamya nirvāṇaṃ nādhigamyate*
+
+**English (line-by-line):**
+> Without relying on conventional practice and discourse, the ultimate is not taught.  
+> Without arriving at the ultimate, nirvāṇa is not attained.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| vyavahāram | vyavahāra | acc. sg. m. | conventional transaction / discourse |
+| anāśritya | an-ā-√śri | absolutive with negative prefix | without relying upon |
+| paramārthaḥ | paramārtha | nom. sg. m. | ultimate meaning / ultimate truth |
+| na | na | indecl. | not |
+| deśyate | √diś | laṭ, 3rd sg. passive | is taught |
+| paramārtham | paramārtha | acc. sg. m. | ultimate meaning |
+| anāgamya | an-ā-√gam | absolutive with negative prefix | without reaching |
+| nirvāṇam | nirvāṇa | acc. sg. n. | nirvāṇa |
+| na | na | indecl. | not |
+| adhigamyate | adhi-√gam | laṭ, 3rd sg. passive | is attained |
+
+**Compound resolution (samāsa-vigraha):**
+- *paramārthaḥ* [karmadhāraya/tatpuruṣa]: “the highest meaning.”
+
+**Kāraka structure:**
+- karman: *vyavahāram*, *paramārtham*, *nirvāṇam*
+- kartṛ: *paramārthaḥ* (first half), *nirvāṇam* (second half)
+
+**Verbal modality:**
+- *deśyate*, *adhigamyate*: laṭ / passive / present
+- *anāśritya*, *anāgamya*: absolutives
+
+**Note:**
+This is the verse that prevents a flatly ineffable reading of *paramārtha*. The ultimate is not taught apart from convention; convention is the indispensable vehicle, not a mere illusion to be discarded in advance.
+
+---
+
+### MMK 24.11
+
+**Sanskrit (IAST):**
+> *vināśayati durdṛṣtā śūnyatā mandamedhasam*  
+> *sarpo yathā durgṛhīto vidyā vā duṣprasādhitā*
+
+**English (line-by-line):**
+> Emptiness, when badly seen, destroys the dull-witted person,  
+> like a snake badly grasped, or like a spell or discipline badly mastered.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| vināśayati | vi-√naś (caus.) | laṭ, 3rd sg. parasmaipada | destroys |
+| durdṛṣṭā | dur-dṛṣṭa | nom. sg. f. PPP | badly seen / wrongly understood |
+| śūnyatā | śūnyatā | nom. sg. f. | emptiness |
+| manda-medhasam | manda-medhas | acc. sg. m. | one of dull intelligence |
+| sarpaḥ | sarpa | nom. sg. m. | snake |
+| yathā | yathā | indecl. | just as |
+| durgṛhītaḥ | dur-gṛhīta | nom. sg. m. PPP | badly grasped |
+| vidyā | vidyā | nom. sg. f. | knowledge / spell / discipline |
+| vā | vā | indecl. | or |
+| duṣprasādhitā | duṣ-prasādhita | nom. sg. f. PPP | badly mastered |
+
+**Compound resolution (samāsa-vigraha):**
+- *durdṛṣṭā* [upapada compound]: “badly seen.”
+- *mandamedhasam* [karmadhāraya]: “one whose intelligence is dull.”
+- *durgṛhītaḥ* [upapada compound]: “badly grasped.”
+- *duṣprasādhitā* [upapada compound]: “badly mastered.”
+
+**Kāraka structure:**
+- kartṛ: *śūnyatā*
+- karman: *mandamedhasam*
+- upamāna: *sarpaḥ*, *vidyā*
+
+**Verbal modality:**
+- *vināśayati*: laṭ / parasmaipada / causative present
+
+**Note:**
+Nāgārjuna’s warning is famous and often ignored. Emptiness misread as sheer non-being becomes a destructive dogma; compare the anti-reification warning in MMK 13.8 and the constructive clarification at 24.18–19.
+
+---
+
+### MMK 24.12
+
+**Sanskrit (IAST):**
+> *ataś ca pratyudāvṛttaṃ cittaṃ deśayituṃ muneḥ*  
+> *dharmaṃ matvāsya dharmasya mandair duravagāhatām*
+
+**English (line-by-line):**
+> And for this reason the sage’s mind turned back from teaching the Dharma,  
+> having considered this Dharma difficult for the dull to penetrate.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| ataḥ | atas | abl. sg. indeclinable use | therefore / for this reason |
+| ca | ca | indecl. | and |
+| pratyudāvṛttam | prati-ud-ā-√vṛt | nom./acc. sg. n. PPP | turned back |
+| cittam | citta | nom./acc. sg. n. | mind |
+| deśayitum | √diś | infinitive | to teach |
+| muneḥ | muni | gen. sg. m. | of the sage |
+| dharmam | dharma | acc. sg. m. | the Dharma |
+| matvā | √man | absolutive | having considered |
+| asya | idam | gen. sg. m. | of this |
+| dharmasya | dharma | gen. sg. m. | Dharma |
+| mandaiḥ | manda | instr. pl. m. | by the dull |
+| duravagāhatām | dur-avagāhatā | acc. sg. f. | difficult penetrability |
+
+**Compound resolution (samāsa-vigraha):**
+- *pratyudāvṛttam* [PPP of prefixed root]: “turned back.”
+- *duravagāhatām* [upapada abstract]: “the state of being hard to penetrate.”
+
+**Kāraka structure:**
+- sambandha: *muneḥ*, *asya dharmasya*
+- karman: *dharmam*, *duravagāhatām*
+- karaṇa: *mandaiḥ*
+
+**Verbal modality:**
+- *deśayitum*: infinitive
+- *matvā*: absolutive
+- *pratyudāvṛttam*: PPP used predicatively
+
+**Note:**
+The verse echoes the early Buddhist trope that the Dharma is deep and hard to see. Here that difficulty is tied specifically to the misuse of emptiness as nihilism.
+
+---
+
+### MMK 24.13
+
+**Sanskrit (IAST):**
+> *śūnyatāyām adhilayaṃ yaṃ punaḥ kurute bhavān*  
+> *doṣaprasaṅgo nāsmākaṃ sa śūnye nopapadyate*
+
+**English (line-by-line):**
+> Whatever superimposed fault you once more make out against emptiness,  
+> that consequence of defect does not apply to us; in emptiness it does not stand.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| śūnyatāyām | śūnyatā | loc. sg. f. | in emptiness |
+| adhilayam | adhilaya | acc. sg. m. | superimposition / imputed fault |
+| yam | yad | acc. sg. m. relative pronoun | which |
+| punaḥ | punaḥ | indecl. | again |
+| kurute | √kṛ | laṭ, 3rd sg. ātmanepada | makes |
+| bhavān | bhavant | nom. sg. m. respectful pronoun | you |
+| doṣa-prasaṅgaḥ | doṣa-prasaṅga | nom. sg. m. | consequence of defect |
+| na | na | indecl. | not |
+| asmākam | asmad | gen. pl. pronoun | to us / of us |
+| saḥ | tad | nom. sg. m. | that |
+| śūnye | śūnya | loc. sg. n./m. | in emptiness / in the empty |
+| na | na | indecl. | not |
+| upapadyate | upa-√pad | laṭ, 3rd sg. ātmanepada | is established / applies |
+
+**Compound resolution (samāsa-vigraha):**
+- *doṣaprasaṅgaḥ* [ṣaṣṭhī-tatpuruṣa]: “the consequence consisting in a defect.”
+
+**Kāraka structure:**
+- adhikaraṇa: *śūnyatāyām*, *śūnye*
+- kartṛ: *bhavān*, *doṣaprasaṅgaḥ*
+- karman: *adhilayam*, *yam*
+
+**Verbal modality:**
+- *kurute*: laṭ / ātmanepada / present
+- *upapadyate*: laṭ / ātmanepada / present
+
+**Note:**
+The opponent’s objection is that emptiness destroys functioning. Nāgārjuna replies that the alleged defects arise only if emptiness is mistaken for sheer non-being; compare the explicit clarification at 24.16–19.
+
+---
+
+### MMK 24.14
+
+**Sanskrit (IAST):**
+> *sarvaṃ ca yujyate tasya śūnyatā yasya yujyate*  
+> *sarvaṃ na yujyate tasya śūnyaṃ yasya na yujyate*
+
+**English (line-by-line):**
+> Everything works for the one for whom emptiness works.  
+> Nothing works for the one for whom emptiness does not work.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| sarvam | sarva | nom./acc. sg. n. | everything |
+| ca | ca | indecl. | and |
+| yujyate | √yuj | laṭ, 3rd sg. ātmanepada/passive sense | fits / works / is coherent |
+| tasya | tad | gen. sg. m. | for him / of him |
+| śūnyatā | śūnyatā | nom. sg. f. | emptiness |
+| yasya | yad | gen. sg. m. relative pronoun | for whom |
+| yujyate | √yuj | laṭ, 3rd sg. ātmanepada | works / is coherent |
+| sarvam | sarva | nom./acc. sg. n. | everything |
+| na | na | indecl. | not |
+| yujyate | √yuj | laṭ, 3rd sg. ātmanepada | works / is coherent |
+| tasya | tad | gen. sg. m. | for him |
+| śūnyam | śūnya | nom./acc. sg. n. | emptiness |
+| yasya | yad | gen. sg. m. relative pronoun | for whom |
+| na | na | indecl. | not |
+| yujyate | √yuj | laṭ, 3rd sg. ātmanepada | works / is coherent |
+
+**Compound resolution (samāsa-vigraha):**
+- none
+
+**Kāraka structure:**
+- beneficiary/genitival frame: *tasya*, *yasya*
+- kartṛ/predicate: *sarvam*, *śūnyatā*
+
+**Verbal modality:**
+- *yujyate* (four times): laṭ / ātmanepada / logical-coherence present
+
+**Note:**
+This is the strongest anti-nihilist line in the chapter before 24.18. Emptiness is not what makes functioning impossible; it is what makes functioning intelligible without reified essence.
+
+---
+
+### MMK 24.15
+
+**Sanskrit (IAST):**
+> *sa tvaṃ doṣān ātmanīyān asmāsu paripātayan*  
+> *aśvam evābhirūḍhaḥ sann aśvam evāsi vismṛtaḥ*
+
+**English (line-by-line):**
+> You, while casting your own faults upon us,  
+> are like one mounted on a horse who has forgotten the horse itself.
+
+**Word-by-word:**
+
+| Pada | Stem / root | Pratyaya / morphology | Gloss |
+|---|---|---|---|
+| saḥ | tad | nom. sg. m. | that / so |
+| tvam | tvad | nom. sg. pronoun | you |
+| doṣān | doṣa | acc. pl. m. | faults |
+| ātmanīyān | ātmanīya | acc. pl. m. adjective | belonging to yourself |
+| asmāsu | asmad | loc. pl. pronoun | on us / in us |
+| paripātayan | pari-√pat / caus.-participle sense | nom. sg. m. pres. act. part. | casting / throwing down |
+| aśvam | aśva | acc. sg. m. | horse |
+| eva | eva | indecl. | indeed |
+| abhirūḍhaḥ | abhi-√ruh | nom. sg. m. PPP | mounted upon |
+| san | sat | nom. sg. m. pres. part. | being |
+| aśvam | aśva | acc. sg. m. | horse |
+| eva | eva | indecl. | itself |
+| asi | √as | laṭ, 2nd sg. parasmaipada | you are |
+| vismṛtaḥ | vi-√smṛ | nom. sg. m. PPP | forgetful / having forgotten |
+
+**Compound resolution (samāsa-vigraha):**
+- *ātmanīyān* [possessive derivative]: “belonging to oneself.”
+
+**Kāraka structure:**
+- karman: *doṣān*, *aśvam*
+- adhikaraṇa: *asmāsu*
+- kartṛ: *tvam*
+
+**Verbal modality:**
+- *asi*: laṭ / parasmaipada / present
+- *paripātayan*: present active participle
+- *abhirūḍhaḥ*, *vismṛtaḥ*: PPPs used predicatively
+
+**Note:**
+The horse image ridicules the opponent’s dialectical posture. He depends on conventional functioning at every step while accusing emptiness of destroying precisely that functioning.
+
+---
+
