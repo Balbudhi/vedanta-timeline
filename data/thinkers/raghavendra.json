@@ -47,6 +47,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "clean-on-disk",
       "summary": "A *prakāśa*-style commentary on Madhva's *Anuvyākhyāna*, conducted in dialogue with Jayatīrtha's *Nyāya-Sudhā*. The text is third-order: it mediates Madhva and Jayatīrtha and integrates the school's settled responses to Appayya-line and Madhusūdana-line objections raised in the intervening centuries.\n\nThree topic-clusters are particularly developed. The first is the *bheda*-arguments at the opening of *Anuvyākhyāna* 2, where Madhva's *svarūpa-svabhāva* construal of difference is restated and defended against the Vivaraṇa-line objection that *svarūpa-svabhāva* covertly multiplies essences. The second is the *viśeṣa*-discussion, where Rāghavendra specifies the inferential conditions under which *viśeṣa* may be invoked without circularity. The third is the *bimba-pratibimba* arguments, where the asymmetry of the original-and-image relation between Viṣṇu and *jīva* is preserved against the symmetry-readings of competing schools.\n\nThe semantic method is hierarchical. At *Tantra-Dīpikā* 1.1, Rāghavendra fixes the rule that scriptural words (whether established elsewhere, in both places, or only elsewhere) converge on Viṣṇu either *sākṣāt* (directly) or *paramparayā* (through succession), where the convergence is established by the predicates that hold of Viṣṇu uniquely. The rule blocks the Advaitic and Śivādvaita strategies that would absorb apparent Vaiṣṇava *śruti* under a different ultimate.\n\nThe *Tantra-Dīpikā* remains the standard reference for modern Mādhva exegesis of the *Anuvyākhyāna*.",
       "key_passage_ids": [
         "tantra-dipika__vedic-words-converge-on-visnu",
@@ -71,6 +72,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "clean-on-disk",
       "summary": "A sub-sub-commentary on Jayatīrtha's *Nyāya-Sudhā*, and so a fourth-order text on Madhva's *Brahma-Sūtra-Bhāṣya*. The idiom is the *Navya-Nyāya* idiom Vyāsatīrtha had introduced into the school.\n\nThe text does two things at once. First, it records the settled Mādhva response to objections developed since Jayatīrtha, in particular the Appayya (*Madhva-Tantra-Mukha-Bhañjana*), Madhusūdana (*Advaita-Siddhi*), Brahmānanda (*Laghu-Candrikā*), and Vivaraṇa-line (Prakāśātman, *Pañca-Pādikā-Vivaraṇa*) attacks on the *Sudhā*'s reconstruction of Madhva's arguments. Where the *Sudhā*'s *anumāna* admits a Madhusūdana-style defeater (most acutely in the *Sudhā* gloss on *Anuvyākhyāna* 1.4.111–112's *bheda*-arguments), Rāghavendra reformulates the *vyāpti* with a tighter *avacchedaka*-condition; where the defeater can be parried by an *upādhi*-test, the test is supplied. Second, it refines the technical apparatus itself: late-classical *Navya-Nyāya*, through Raghunātha Śiromaṇi (*Padārtha-Tattva-Nirūpaṇa*) and his successors, had developed *paryāpti-sambandha* and finer *avacchedaka*-machinery that Vyāsatīrtha had not had. Rāghavendra brings these into the school's exegesis without doctrinal alteration.\n\nThe two layers (Jayatīrtha's *prācīna* arguments inside the *Sudhā*, Rāghavendra's *navīna* refinements in the *Pariṃala*) are arranged so that the school's reading remains a single argued position across centuries.\n\nThe parallel *Pariṃala* on Vyāsatīrtha's *Tarka-Tāṇḍava* (sometimes counted separately, sometimes grouped with this work) performs the same function for the Naiyāyika engagement. The *Pariṃala* is the terminus of the Madhva → Jayatīrtha → Vyāsatīrtha → Rāghavendra commentarial cascade.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -93,6 +95,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Rāghavendra's *Pariṃala* on Vyāsatīrtha's *Tarka-Tāṇḍava*, paralleling on the *tarka*-front what the *Nyāya-Sudhā-Pariṃala* does on the *Anuvyākhyāna*-front. The text engages directly with the Gaṅgeśa-line *Navya-Nyāya* tradition.\n\nFive topic-clusters carry the dialectic. The analysis of *vyāpti* (universal concomitance) and its grasp; the *parāmarśa*-structure of *anumāna* (the moment in inference at which the *hetu* is recognised as instantiating the *vyāpti*); the treatment of *upādhi* as defeater; the analysis of *kevalānvayī* (universal-positive) and *kevala-vyatirekī* (universal-negative) inferences; and the *prāmāṇyavāda* (the doctrine of cognitive validity). In each cluster Rāghavendra works through Vyāsatīrtha's critique of the corresponding Naiyāyika position and brings the school's response up to date with the further developments since the early sixteenth century — Raghunātha Śiromaṇi's *Padārtha-Tattva-Nirūpaṇa* and Gadādhara's *vāda*-corpus had reset the technical baseline.\n\nThe *prāmāṇyavāda* is the locus of one of Rāghavendra's specific dialectical innovations. Vyāsatīrtha had defined intrinsic validity (*svatastva*) at the level of origination as *jñāna-janaka-mātrādhīna-janmatva* — \"origination dependent solely on the producer of the cognition.\" Rāghavendra refines the *adhīnatva* (dependence) clause with an *avacchedaka*-condition that blocks a class of post-Vyāsatīrtha Naiyāyika defeaters, while preserving the substantive Mādhva commitment to *svataḥ-prāmāṇya*.\n\nWith the *Nyāya-Sudhā-Pariṃala*, the work completes the *Pariṃala*-corpus on the school's two principal scholastic fronts.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -112,6 +115,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "A *prakāśa* on Vyāsatīrtha's *Tātparya-Candrikā*, and so a fifth-order text on the *Brahma-Sūtra*. The full stack runs *sūtra* → Madhva *bhāṣya* → Jayatīrtha *Tattva-Prakāśikā* → Vyāsatīrtha *Tātparya-Candrikā* → Rāghavendra *Tātparya-Dīpikā*.\n\nThe text functions in two registers. As running commentary, it documents the school's settled construal of each contested *adhikaraṇa* of the *Sūtra* in light of the full polemical history through the early seventeenth century. As digest, it shows how the prior commentarial layers cohere as a single argued reading rather than as four superimposed glosses.\n\nThree *adhikaraṇa*s receive particular attention. The *ānanda-mayādhikaraṇa* (1.1.12–19): Vyāsatīrtha had restated the realist reading of *ānandamaya* as Viṣṇu in *Navya-Nyāya* form; Rāghavendra glosses the refinement and shows that it preserves Jayatīrtha's earlier *prācīna* argument intact. The *jīva-pratibimba* discussion at *Brahma-Sūtra* 2.3.43–53, where the *aṃśa-adhikaraṇa* and the difference-*sūtras* of 2.3 together fix the *bimba-pratibimba* relation: the late-classical reading is settled here. The *bheda*-*sūtras* of *adhyāya* 4, where the asymmetry of *jīva*–Viṣṇu dependence is preserved through the *mokṣa*-discussion against any reading that would collapse the dependence in liberation.\n\nWith the *Tantra-Dīpikā* and the *Pariṃala*, the *Tātparya-Dīpikā* completes the late-Mādhva commentarial architecture on the *Brahma-Sūtra*.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -131,6 +135,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Beyond the *Tantra-Dīpikā*, *Pariṃala*, and *Tātparya-Dīpikā*, Rāghavendra composed a wider corpus of *prakāśa* sub-commentaries on prior Mādhva texts. The corpus includes glosses on Madhva's *Daśa-Prakaraṇa* — the anti-Advaita triad of *Tattvodyota*, *Māyāvāda-Khaṇḍana*, *Mithyātvānumāna-Khaṇḍana*, and *Upādhi-Khaṇḍana* — on the *Viṣṇu-Tattva-Vinirṇaya* and *Karma-Nirṇaya*, on the *Gītā-Bhāṣya* and *Gītā-Tātparya-Nirṇaya* (with particular attention to the *Tātparya*'s *taratamya*-reading of *Bhagavad-Gītā* 10, 11, and 13), on portions of the *Bhāgavata-Tātparya-Nirṇaya* and *Mahābhārata-Tātparya-Nirṇaya*, and on several of Jayatīrtha's smaller *ṭīkā*s.\n\nThe unifying intent is integrative. Each text is brought into a reading consistent with the spine of the principal *Pariṃala*-*Dīpikā* productions, so that the school's later exegete encounters not three or five separate Madhva-Jayatīrtha-Vyāsatīrtha layers but a single resolved position. Where prior commentary admits multiple construals, the *prakāśa*-gloss fixes one; where the technical apparatus has moved on since the underlying text was written, the gloss imports the new apparatus without altering the position.\n\nThe *prakāśa*-corpus, the *stotra*-literature, and Rāghavendra's pontifical-pedagogical role together constitute the channel through which *Tattvavāda* enters its modern reception. Twentieth-century Dvaita exegesis works downstream of these glosses.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -1028,7 +1033,7 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-acquisition-opus",
+  "last_verified_by": "wave-rigor-opus",
   "polemic_chain_ids": [
     "advaita-siddhi-replies",
     "nyayamrta-arguments"

@@ -43,6 +43,7 @@
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
+      "source_status": "clean-on-disk",
       "summary": "The *Vijñānāmṛta-Bhāṣya* is Vijñānabhikṣu's commentary on the *Brahma-Sūtras* and the school-defining text of *avibhāga-advaita*. The bhāṣya construes the *sūtras* as licensing a hierarchical ontology: Sāṃkhya's *prakṛti–puruṣa* analysis is preparatory and partially valid (*Vijñānāmṛta-Bhāṣya* on *Brahma-Sūtra* 1.4.1–7, on the *ānumānika* adhikaraṇa), theistic Vedānta is fuller (*Vijñānāmṛta-Bhāṣya* upodghāta), and the *avibhāga* of Brahman, *cit*, and *acit* at *pralaya* and *mokṣa* is the limit-state (*Vijñānāmṛta-Bhāṣya* on *Brahma-Sūtra* 4.4.1–4). The polemical engagement is sustained and, in its specific argumentative shape, important. Vijñānabhikṣu mounts a head-on critique of post-Śaṅkara *māyā-vāda* (*Vijñānāmṛta-Bhāṣya* on *Brahma-Sūtra* 1.1.4–5). He diagnoses it as a deviation from genuine Vedānta and as *pracchanna-bauddha* — repeating Bhāskara's charge (*Bhāskara-Bhāṣya* on *Brahma-Sūtra* 1.1.4) while developing it on his own terms — and he distinguishes his own non-dualism from Śaṅkara's by treating *avibhāga* as an achieved limit-state rather than as identity-from-eternity (*Vijñānāmṛta-Bhāṣya* 2.1.22 contrasted with Śaṅkara's *Brahma-Sūtra-Bhāṣya* 2.1.14). The argument-structure matters: the critique of *māyā-vāda* is internal to a defence of non-dualism, not a defection from it (so the *upodghāta*, where Bhikṣu programmatically affirms *advaita* while rejecting *vivarta*). He also engages Rāmānuja and the *bhedābheda* lines (*Vijñānāmṛta-Bhāṣya* on *Brahma-Sūtra* 2.3.43, on the *jīva* as *aṃśa*), reading their positions as partial truths absorbed into the hierarchical synthesis. The bhāṣya is the principal source for *avibhāga-advaita* and the most ambitious early-modern Vedānta–Sāṃkhya–Yoga reconciliation (so Dasgupta, *History of Indian Philosophy*, vol. III, ch. on Bhikṣu).",
       "key_passage_ids": [
         "vab-1-1-5__maya-means-prakrti",
@@ -67,6 +68,7 @@
       ],
       "genre": "varttika",
       "language": "sanskrit",
+      "source_status": "clean-on-disk",
       "summary": "The *Yoga-Vārttika* is Vijñānabhikṣu's gloss on Vyāsa's *Yoga-Bhāṣya* on Patañjali's *Yoga-Sūtras*, paired with his shorter *Yoga-Sāra-Saṅgraha*. The works treat Patañjali's *Yoga-Darśana* as a serious *darśana* with its own technical contribution — particularly on *citta-vṛtti-nirodha* (*Yoga-Vārttika* on *Yoga-Sūtra* 1.2), *samādhi* (*Yoga-Vārttika* on *Yoga-Sūtra* 1.17–23), and *kaivalya* (*Yoga-Vārttika* on *Yoga-Sūtra* 4.34) — while reading the Yoga material within the hierarchical ontology developed in the *Vijñānāmṛta-Bhāṣya*. Vijñānabhikṣu defends the theistic reading of Patañjali. *Īśvara* in *Yoga-Sūtra* 1.23–24 is a special *puruṣa* — untouched by *kleśa*, *karma*, *vipāka*, *āśaya* (*Yoga-Vārttika* on *Yoga-Sūtra* 1.24) — and is contemplated in *Īśvara-praṇidhāna* (*Yoga-Vārttika* on *Yoga-Sūtra* 1.23). The Yoga corpus is therefore used to demonstrate that classical *darśanas* are stratified levels of one truth, with Vedānta crowning the hierarchy and Yoga supplying technically precise *sādhana* (*Yoga-Sāra-Saṅgraha*, opening *upodghāta*). The technical engagement with *kaivalya* in particular allows Vijñānabhikṣu to clarify what *avibhāga* is and is not. *Kaivalya* in classical Sāṃkhya-Yoga is *puruṣa*'s isolation from *prakṛti* (*Yoga-Sūtra* 4.34); *avibhāga* in Vijñānabhikṣu's reading is non-separation in a stronger ontological sense, in which the resolved *puruṣas* are not just isolated from *prakṛti* but non-separated within Brahman (*Vijñānāmṛta-Bhāṣya* on *Brahma-Sūtra* 4.4.1–4, read with *Yoga-Vārttika* 4.34). The works are major early-modern contributions to the integrated Sāṃkhya–Yoga–Vedānta reading that defines Vijñānabhikṣu's project (Larson and Bhattacharya, eds., *Encyclopedia of Indian Philosophies*, Vol. XII: Yoga, intro. and Bhikṣu sections).",
       "key_passage_ids": [
         "yv-1-23__pranidhana-as-samadhi-cultivation",
@@ -89,6 +91,7 @@
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The *Sāṃkhya-Pravacana-Bhāṣya* is Vijñānabhikṣu's commentary on the *Sāṃkhya-Sūtras*. Alongside Gauḍapāda's *Sāṃkhya-Kārikā-Bhāṣya* and Vācaspati Miśra's *Tattva-Kaumudī*, it is the most influential pre-modern Sāṃkhya commentary (Larson, *Classical Sāṃkhya*, 1979, ch. 4). Two doctrinal moves give the work its significance. First, the theistic reading of Sāṃkhya: Vijñānabhikṣu defends a personal *Īśvara* as compatible with classical Sāṃkhya's *prakṛti–puruṣa* analysis (*Sāṃkhya-Pravacana-Bhāṣya* on *Sāṃkhya-Sūtra* 1.92–94, 3.56–57), against the dominant a-theistic interpretation associated with the *Sāṃkhya-Kārikā* tradition. The argument is that the standard arguments for Sāṃkhya's atheism turn on textual omissions rather than on positive incompatibility, and that *Īśvara* can be admitted without compromising the *prakṛti–puruṣa* dualism within the manifest order (*Sāṃkhya-Pravacana-Bhāṣya* on 1.92, the *na-īśvara-siddhiḥ* sūtra read constructively). Second, the integration of Sāṃkhya into the wider hierarchical ontology of *avibhāga-advaita*: the classical Sāṃkhya plurality of *puruṣas* and the dualism of *puruṣa* and *prakṛti* are read as accurate descriptions of the manifest order, true within their domain, and resolved at *pralaya* into the non-separation that *avibhāga-advaita* identifies as the highest truth (*Sāṃkhya-Pravacana-Bhāṣya* on 1.18–19, 6.59, read with *Vijñānāmṛta-Bhāṣya* 4.4.1–4). The bhāṣya is also a major source on classical Sāṃkhya doctrine in its own right and the standard reference for the post-classical Sāṃkhya–Vedānta synthesis (Larson, *Classical Sāṃkhya*, 1979; Dasgupta, *History of Indian Philosophy*, vol. III).",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -832,7 +835,7 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-acquisition-opus",
+  "last_verified_by": "wave-rigor-opus",
   "polemic_chain_ids": [
     "brahma-sutra-bhasya-samkhya-refutation"
   ]

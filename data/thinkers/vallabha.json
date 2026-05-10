@@ -47,6 +47,7 @@
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
+      "source_status": "clean-on-disk",
       "summary": "The *Aṇu-Bhāṣya* is Vallabha's Brahma-Sūtra commentary and the school-defining bhāṣya of *śuddhādvaita*. The name *aṇu* (\"small\") refers both to the terse glossing style and to the work's self-presentation alongside the lost or projected *Bṛhad-Bhāṣya*. Vallabha completed roughly the first two and a half *adhyāyas* before his death; the remainder was supplied by his son Viṭṭhalanātha. The construal of the *sūtras* throughout is consistent. Brahman is the substantial cause of the world by genuine but unmodifying transformation — *avikṛta-pariṇāma* — and the load-bearing *adhikaraṇa* is 1.4.26, *ātmakṛteḥ pariṇāmāt*, where the *sūtra*'s *pariṇāma* term is taken at face value. The *jīva* is *aṃśa* with *ānanda* concealed; *jagat* is *aṃśa* with *cit* and *ānanda* concealed; *māyā-vāda* is rejected. Polemically the work targets both Śaṅkara, for treating the world as *mithyā* and Brahman as inactive, and Rāmānuja, for the *śarīra-śarīrin* qualification that Vallabha takes as superfluous once *avikṛta-pariṇāma* is admitted: if Brahman can transform without being modified, no further qualifying body-relation is needed to insulate Brahman from suffering. The bhāṣya is the canonical Puṣṭimārga doctrinal reference and the primary source for *avikṛta-pariṇāma-vāda* in Vallabha's own voice.",
       "key_passage_ids": [
         "bsb-1-1-4__samanvaya-samavayi-cause",
@@ -71,6 +72,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The *Tattvārtha-Dīpa-Nibandha* is Vallabha's three-part systematic exposition of *śuddhādvaita*. Three *prakaraṇa*s organise the work. *Śāstrārtha-Prakaraṇa* (book 1) sets out the *prasthāna-traya* method and Vallabha's interpretive principles, including his hermeneutic for handling apparently conflicting Upaniṣadic statements (*Tattvārtha-Dīpa-Nibandha* 1, *kāriks* 1–104). *Sarva-Nirṇaya-Prakaraṇa* (book 2) fixes the school's settled doctrinal positions across Brahman, *jīva*, *jagat*, *bandha*, *mokṣa*, and *bhakti* (*Tattvārtha-Dīpa-Nibandha* 2, the *prameya-nirṇaya* sequence). *Bhāgavata-Artha-Prakaraṇa* (book 3) establishes the *Bhāgavata-Purāṇa* as *pramāṇa-śiromaṇi* and reads its central themes through *śuddhādvaita* (*Tattvārtha-Dīpa-Nibandha* 3, anchored on *Bhāgavata-Purāṇa* 1.1.1 and 1.3.28). The *Nibandha* is the school's most accessible synoptic statement; it is free from the *sūtra*-form constraints of the *Aṇu-Bhāṣya* and from the verse-by-verse pacing of the *Subodhinī*, and so permits Vallabha to set out *avikṛta-pariṇāma-vāda* as the school's signature ontological thesis and *Puṣṭi-Mārga* as its operative soteriology in directly argumentative form. The polemical framing against Advaita and Viśiṣṭādvaita that all later Puṣṭimārga scholasticism inherits is established here.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -90,6 +92,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The *Subodhinī* is Vallabha's verse-by-verse commentary on the *Bhāgavata-Purāṇa* and is the most extensive of his works. The *Bhāgavata* is read as the *naijagama-bhāṣya* — the natural commentary on the *Brahma-Sūtras* and the Upaniṣads — and therefore as the supreme *pramāṇa* for *śuddhādvaita* (*Subodhinī* prefatory *upodghāta* on *Bhāgavata-Purāṇa* 1.1.1). Vallabha completed substantial portions before his death, notably on books one through three and most of the tenth book; Viṭṭhalanātha continued the work. The commentary is doctrinally precise. Brahman is Kṛṣṇa with all *guṇas* manifest (*Subodhinī* on *Bhāgavata-Purāṇa* 1.3.28, *kṛṣṇas tu bhagavān svayam*). *Jīva* and *jagat* are *aṃśa* through *āvirbhāva–tirobhāva* — manifestation and concealment of qualities — without *māyā* (the *āvirbhāva–tirobhāva* analysis at *Subodhinī* on *Bhāgavata-Purāṇa* 2.5–6, the cosmogony cantos). *Māyā-vāda* is rejected at the verses Advaitins standardly recruit (e.g. *Subodhinī* on *Bhāgavata-Purāṇa* 2.9.32–33, *ṛte 'rthaṃ yat pratīyeta*, against the Advaitic *anirvacanīya*-reading). It is also a major work of devotional exegesis, especially on the tenth book, where Vraja-*līlā* is read as the central self-disclosure of Bhagavān and the model for *Puṣṭi-Mārga* *seva* (*Subodhinī* on *Bhāgavata-Purāṇa* 10.21 ff., the *veṇu-gīta* and the autumnal *līlā* sequence). The *Subodhinī* is the principal Puṣṭimārga reference for *Bhāgavata*-interpretation and the spiritual heart of the lineage's textual practice.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -109,6 +112,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The *Ṣoḍaśa-Granthāḥ* are sixteen short Sanskrit tracts that together codify *Puṣṭi-Mārga* devotional practice and self-understanding. Among the most consequential are the *Yamunāṣṭakam* (eight verses on the river Yamunā as Kṛṣṇa-presence), the *Bāla-Bodha* (an introductory doctrinal primer), the *Siddhānta-Muktāvalī* (a verse summary of *śuddhādvaita*), the *Puṣṭi-Pravāha-Maryādā* (on the typology of *jīvas* and the operation of *anugraha*), the *Siddhānta-Rahasya* (the doctrinal foundation of the *brahma-saṃbandha* initiation that joins the *bhakta* to Kṛṣṇa), the *Navaratnam* (\"nine jewels,\" a consolatory teaching on dependence on Kṛṣṇa), and the *Antaḥkaraṇa-Prabodha* and *Sarva-Nirṇaya* tracts on inner discernment. As a corpus the *Ṣoḍaśa-Granthāḥ* function as the lineage's portable devotional and doctrinal manual: short enough to be memorised, doctrinally precise, and addressed directly to the practitioner of *Puṣṭi-Mārga seva*. They are recited and studied in Puṣṭimārga households to this day.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -1085,7 +1089,7 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-acquisition-opus",
+  "last_verified_by": "wave-rigor-opus",
   "polemic_chain_ids": [
     "govinda-bhasya-defense"
   ]
