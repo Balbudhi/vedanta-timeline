@@ -398,9 +398,9 @@ function shadeFor(thinker) {
 }
 
 // Network layout: vertical canvas height (used by totalHeight when in network mode).
-const NETWORK_CANVAS_H = 1200;
-const NETWORK_PAD_TOP = 40;
-const NETWORK_PAD_BOTTOM = 40;
+const NETWORK_CANVAS_H = 1500;
+const NETWORK_PAD_TOP = 50;
+const NETWORK_PAD_BOTTOM = 60;
 
 // Default y-band centroid for each school color token, normalized 0..1.
 // Vedāntic schools cluster in the central band; comparators above/below.
@@ -505,7 +505,7 @@ function computeNetworkLayout() {
   const placed = []; // [{x, y, r, id}]
   const STEP = 18;
   const X_PAD = 60;
-  const Y_PAD = 22;
+  const Y_PAD = 26;
 
   const usableH = NETWORK_CANVAS_H - NETWORK_PAD_TOP - NETWORK_PAD_BOTTOM;
   const yFromBand = (b) => NETWORK_PAD_TOP + b * usableH;
