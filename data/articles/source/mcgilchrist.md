@@ -505,7 +505,7 @@ Two further confirmations belong here. McGilchrist shows that the sacred can be 
 
 Six incompletenesses remain.
 
-1. **No darśana-level differentiation.** McGilchrist does not distinguish Advaita, Viśiṣṭādvaita, Dvaita, Bhedābheda, Trika, and Sāṃkhya as separate registers.
+1. **No darśana-level differentiation.** McGilchrist does not distinguish Advaita, Viśiṣṭādvaita, Tattva-vāda (Dvaita), Bhedābheda, Trika, and Sāṃkhya as separate registers.
 
 2. **No phenomenology of the psychic being.** He offers a phenomenology of attention, not of the evolving individual centre comparable to the user's T11 requirement.
 

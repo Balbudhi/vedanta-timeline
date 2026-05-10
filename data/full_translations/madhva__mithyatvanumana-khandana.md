@@ -10,7 +10,7 @@
 
 This tract is one page long in the collected witness, but it is not a mere scrap. It is the compressed formal core of Madhva's attack on the Advaitin *anumāna* (inference) for the world's *mithyātva* (illusoriness, falsity in the technical Advaitin sense). The target is the familiar pattern, later stabilized in scholastic form as *vimataṃ mithyā dṛśyatvāt śuktirajatavat*: "the disputed entity is mithyā, because it is perceived, like shell-silver." What Madhva does here is not yet the long *Navya-Nyāya* elaboration of Vyāsatīrtha; it is the prior diagnostic grid. He runs through the stock inferential defects one after another: *āśrayāsiddhi* (failure of a subject because its substrate is not established), *aprasiddha-viśeṣaṇa* (an unestablished qualifier), *siddhasādhana* (proving what is already granted), *asiddha-hetu* (an unestablished reason), *viruddha* (a contradictory reason), *anekāntika* (an inconclusive reason), *kālātyayāpadiṣṭa* (a reason contradicted by later knowledge), and so on. The tract then turns, with studied economy, to definitions of *pakṣa*, *sapakṣa*, *vipakṣa*, *pratijñā*, *hetu*, and *dṛṣṭānta*. The movement matters. Madhva is not only saying that the Advaitin's inference fails; he is reclaiming the grammar of inference itself.
 
-The natural unit here is therefore the whole tract. Anything shorter would miss the way the text moves from polemical diagnosis to elementary logical definition. That structure also explains its place within Madhva's larger anti-Advaita triad: the *Māyāvāda-Khaṇḍana* attacks the ontological category; the *Upādhi-Khaṇḍana* attacks the mediating device; this work attacks the formal proof. Later Dvaita scholasticism, especially Vyāsatīrtha's *Nyāyāmṛta* and *Tarka-tāṇḍava*, presupposes precisely this compressed map.
+The natural unit here is therefore the whole tract. Anything shorter would miss the way the text moves from polemical diagnosis to elementary logical definition. That structure also explains its place within Madhva's larger anti-Advaita triad: the *Māyāvāda-Khaṇḍana* attacks the ontological category; the *Upādhi-Khaṇḍana* attacks the mediating device; this work attacks the formal proof. Later Tattva-vāda (Dvaita) scholasticism, especially Vyāsatīrtha's *Nyāyāmṛta* and *Tarka-tāṇḍava*, presupposes precisely this compressed map.
 
 ---
 
@@ -156,7 +156,7 @@ This is one of Madhva's most consistent complaints against Advaita: *anirvacanī
 - Nominal sentence; no finite verb is expressed.
 
 **Note:**
-Madhva's complaint is not that the Advaitin fails to define *mithyā* at all; it is that one line of definition simply repackages what the opponent is already asking to be proved. This is one of the formal points later exploited by Rāmānuja and by the post-Madhva Dvaitins against the *sadasadvilakṣaṇa* formula.
+Madhva's complaint is not that the Advaitin fails to define *mithyā* at all; it is that one line of definition simply repackages what the opponent is already asking to be proved. This is one of the formal points later exploited by Rāmānuja and by the post-Madhva Tattva-vādins against the *sadasadvilakṣaṇa* formula.
 
 ---
 
@@ -430,7 +430,7 @@ This line is one of the least secure in the OCR witness; the normalization above
 - Nominal sentence.
 
 **Note:**
-Madhva turns the inferential machine around. If the structure can, with equal formal ease, be made to prove *satya* instead of *mithyā*, then the supposed inevitability of the Advaitin's proof is gone. The move anticipates later Dvaita counter-inferences.
+Madhva turns the inferential machine around. If the structure can, with equal formal ease, be made to prove *satya* instead of *mithyā*, then the supposed inevitability of the Advaitin's proof is gone. The move anticipates later Tattva-vāda counter-inferences.
 
 ---
 
@@ -470,7 +470,7 @@ Madhva turns the inferential machine around. If the structure can, with equal fo
 - Nominal sentence.
 
 **Note:**
-The *dṛṣṭānta* itself fails. Madhva's claim is not merely that shell-silver is a weak example; it is that the example does not carry the Advaitin's own proposed sādhya. That complaint becomes a major Dvaita weapon against post-Śaṅkara error-theories.
+The *dṛṣṭānta* itself fails. Madhva's claim is not merely that shell-silver is a weak example; it is that the example does not carry the Advaitin's own proposed sādhya. That complaint becomes a major Tattva-vāda weapon against post-Śaṅkara error-theories.
 
 ---
 
@@ -639,7 +639,7 @@ The relation between clauses 15-17 is systematic. Madhva is re-laying the minima
 - Nominal definition.
 
 **Note:**
-The Dvaita attack on *dṛśyatva* depends on exactly these distinctions. If the mark ranges across both *sapakṣa* and *vipakṣa*, it ceases to function as a one-way sign.
+The Tattva-vāda attack on *dṛśyatva* depends on exactly these distinctions. If the mark ranges across both *sapakṣa* and *vipakṣa*, it ceases to function as a one-way sign.
 
 ---
 
@@ -787,4 +787,4 @@ This closing verse is the most textually uncertain point in the OCR witness; the
 
 This page settles one thing decisively: Madhva will not let the Advaitin move from appearance to unreality by formal momentum alone. The tract does not yet give the long metaphysical alternative; what it does is strip the adversary's proof of compulsion. That is why the ending matters. After the catalogue of defects comes a pocket logic-manual: *pakṣa*, *sapakṣa*, *vipakṣa*, *pratijñā*, *hetu*, *dṛṣṭānta*. The suggestion is unmistakable. The issue is not that inference as such is weak; the issue is that this inference is malformed.
 
-What remains open here is the larger constructive account of appearance, error, and dependence. Madhva addresses those elsewhere: the ontological side in the *Māyāvāda-Khaṇḍana* and *Tattvodyota*; the problem of adjunct-mediated identity in the *Upādhi-Khaṇḍana*; the broader architecture of dependence and difference in *Anuvyākhyāna* 1.1 and 1.4. Later Dvaita scholasticism, especially Vyāsatīrtha's *Nyāyāmṛta* and *Tarka-tāṇḍava*, takes this page's compressed diagnostics and expands them into a full anti-Advaita inferential campaign. Madhusūdana's *Advaita-Siddhi* is, in one important respect, a reply to this very compression.
+What remains open here is the larger constructive account of appearance, error, and dependence. Madhva addresses those elsewhere: the ontological side in the *Māyāvāda-Khaṇḍana* and *Tattvodyota*; the problem of adjunct-mediated identity in the *Upādhi-Khaṇḍana*; the broader architecture of dependence and difference in *Anuvyākhyāna* 1.1 and 1.4. Later Tattva-vāda scholasticism, especially Vyāsatīrtha's *Nyāyāmṛta* and *Tarka-tāṇḍava*, takes this page's compressed diagnostics and expands them into a full anti-Advaita inferential campaign. Madhusūdana's *Advaita-Siddhi* is, in one important respect, a reply to this very compression.
