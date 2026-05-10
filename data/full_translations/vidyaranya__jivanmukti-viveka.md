@@ -6,7 +6,7 @@ coverage_evidence: 'locus-scope describes restricted range'
 # Jīvanmukti-Viveka — Extended Translation
 **By:** Vidyāraṇya  
 **Locus scope:** Caturtha-prakaraṇa, opening unit on the five *prayojanas* of *jīvanmukti* and the first of them, *jñāna-rakṣā* (Sanskrit text pp. 130–133 in the Adyar edition)  
-**Source edition transcribed from:** Pandit S. Subrahmanya Sastri and T. R. Srinivasa Ayyangar (eds. and trans.), *Jīvanmuktiviveka of Vidyāraṇya*, rev. ed., Adyar Library and Research Centre, 1978, Sanskrit text pp. 130–133.  
+**Source edition transcribed from:** Pandit S. Subrahmanya Sastri and T. R. Srinivasa Ayyangar (eds. and trans.), *Jīvanmuktiviveka of Vidyāraṇya*, rev. ed., Adyar Library and Research Center, 1978, Sanskrit text pp. 130–133.  
 **Translator:** Pāṇinian-rich extraction by Codex 5.4 (reasoning=high), 2026-05-10.
 
 ---

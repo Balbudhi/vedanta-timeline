@@ -8,7 +8,7 @@ The controlling framing: a substantial portion of the user's position is already
 
 ## Reader's Orientation
 
-**Haridas Chaudhuri (1913–1975).** Bengali philosopher, Sri Aurobindo's direct disciple. PhD Calcutta 1949 on Aurobindo's metaphysics ("Integral Idealism"); Aurobindo personally approved the dissertation. In 1950 named Aurobindo's recommended representative to the West; arrived San Francisco 1951. Founded the Cultural Integration Fellowship (mid-1950s); organised the 1957 birthday gathering producing the 1960 *Commemorative Symposium*; in 1968 founded the California Institute of Asian Studies, which became CIIS in 1980 — the institutional home of integral philosophy in the West.
+**Haridas Chaudhuri (1913–1975).** Bengali philosopher, Sri Aurobindo's direct disciple. PhD Calcutta 1949 on Aurobindo's metaphysics ("Integral Idealism"); Aurobindo personally approved the dissertation. In 1950 named Aurobindo's recommended representative to the West; arrived San Francisco 1951. Founded the Cultural Integration Fellowship (mid-1950s); organized the 1957 birthday gathering producing the 1960 *Commemorative Symposium*; in 1968 founded the California Institute of Asian Studies, which became CIIS in 1980 — the institutional home of integral philosophy in the West.
 
 Major works: *The Philosophy of Integralism* (Pondicherry 1954; 2nd enlarged ed. 1967, 366 pp.) — the systematic statement, with four new chapters in 1967 bringing the system into dialogue with mid-century continental philosophy; *The Integral Philosophy of Sri Aurobindo: A Commemorative Symposium*, ed. with Spiegelberg (Allen & Unwin 1960; thirty contributors); *Integral Yoga* (1965); *Being, Evolution, and Immortality* (1974, the mature distillation); *Evolution of Integral Consciousness* (1977, posthumous; supramental telos with Gebser anticipations). Plus the CIF lecture archive (≈ 76 audio lectures 1959–1975, CIIS Digital Commons).
 
@@ -192,7 +192,7 @@ Textual support for T8 (action as lawful unfolding via *sākṣi-caitanya*). Wha
 >
 > — Chaudhuri 1967, p. 33.
 
-Classical advaita as static, Aurobindo as dynamic, supramental as their non-difference. Chaudhuri stays in the *Saguṇa/Nirguṇa* idiom; user adds explicit Vivaraṇa-plus-*svātantrya* formalisation.
+Classical advaita as static, Aurobindo as dynamic, supramental as their non-difference. Chaudhuri stays in the *Saguṇa/Nirguṇa* idiom; user adds explicit Vivaraṇa-plus-*svātantrya* formalization.
 
 
 ---
@@ -243,7 +243,7 @@ Chaudhuri's diagnostic-political frame: post-traditional Western vacuum meets st
 >
 > — Chaudhuri 1960, pp. 27–28.
 
-Each tradition characterised as a *method* in its own register, not a competing total theory. The structural T1 move is Chaudhuri's; six-darśana refinement extends it.
+Each tradition characterized as a *method* in its own register, not a competing total theory. The structural T1 move is Chaudhuri's; six-darśana refinement extends it.
 
 ### Other contributions in the volume
 
@@ -259,7 +259,7 @@ Briefer because extraction is partial. *Integral Yoga* (1965), *Being, Evolution
 
 Praxis companion to *Integralism*; Chaudhuri's most accessible book; non-technical synthesis of Aurobindo's *Synthesis of Yoga*. TOC: Foreword (Madhav Pandit); Introduction; I Meaning of Yoga; II Aim of Integral Yoga; III Synthesis: Haṭha, Rāja, Tantra, Jñāna; IV Synthesis: Bhakti, Karma, Pūrṇa; V Basic Principles; VI Philosophy of Integral Yoga; VII–VIII Methods of Meditation.
 
-Three points. (i) Integral yoga as *register* synthesis, not subordinative ranking — *Pūrṇa-yoga* holds the others without subsuming. Yogic analogue of T1. (ii) **Tantra as constitutive, not auxiliary** (Ch. III): one of the four primary streams. Critical for T4. The Sri Yantra was personally selected by Chaudhuri as CIIS's symbol; he lectured on it repeatedly ("Psychology of Tantra" 1959, "Hasidism and Tantra" 1970). (iii) Chaudhuri's directive answer: "harmonious and creative living." Mild and broadly accessible. T5/T8/T10 sharpens without breaking with Chaudhuri.
+Three points. (i) Integral yoga as *register* synthesis, not subordinative ranking — *Pūrṇa-yoga* holds the others without subsuming. Yogic analog of T1. (ii) **Tantra as constitutive, not auxiliary** (Ch. III): one of the four primary streams. Critical for T4. The Sri Yantra was personally selected by Chaudhuri as CIIS's symbol; he lectured on it repeatedly ("Psychology of Tantra" 1959, "Hasidism and Tantra" 1970). (iii) Chaudhuri's directive answer: "harmonious and creative living." Mild and broadly accessible. T5/T8/T10 sharpens without breaking with Chaudhuri.
 
 `[NOT YET RETRIEVED]`: page-numbered quotations. Routledge ePub 2018, ~$25.
 
@@ -273,7 +273,7 @@ This is also the clearest short bridge between Chaudhuri's metaphysics and his l
 
 ### *Evolution of Integral Consciousness* (1977)
 
-Posthumous, Quest Books 1977, 140 pp. Crystallised "integral consciousness" as formal category for CIIS pedagogy. Title resonance with **Gebser's *Ursprung und Gegenwart*** (1949, Eng. 1985) is not accident: both articulated "integral consciousness" as next evolutionary stage in dialogue with Aurobindo's supramental. Gebser's 1966 preface explicitly equates his aperspectival-integral with Aurobindo's supramental.
+Posthumous, Quest Books 1977, 140 pp. Crystallized "integral consciousness" as formal category for CIIS pedagogy. Title resonance with **Gebser's *Ursprung und Gegenwart*** (1949, Eng. 1985) is not accident: both articulated "integral consciousness" as next evolutionary stage in dialogue with Aurobindo's supramental. Gebser's 1966 preface explicitly equates his aperspectival-integral with Aurobindo's supramental.
 
 Chapters include: Role of Philosophy; Integral Psychology (Chaudhuri pre-dates Wilber by two decades); Quantum Theory and Consciousness (anticipates the Prigogine register); Meditation for Integral Self-Development.
 
@@ -332,7 +332,7 @@ The central passage, IJTS 2018:
 >
 > — Banerji 2018, IJTS p. 46.
 
-The decisive Banerji passage. Rhizome = contemporary-philosophical analogue of Supramental / Identity Consciousness: the whole present *as creative power* at every point — no privileged centre, no part-whole hierarchy. User adds further legs: Gebser (aperspectival-integral; 1966 preface explicitly equates with Aurobindo's supramental), McGilchrist (right-hemispheric knowledge by identity), Prigogine (irreversible becoming). Banerji's leg is one of several mutually-corroborating correlates; the constellation is the user's.
+The decisive Banerji passage. Rhizome = contemporary-philosophical analog of Supramental / Identity Consciousness: the whole present *as creative power* at every point — no privileged center, no part-whole hierarchy. User adds further legs: Gebser (aperspectival-integral; 1966 preface explicitly equates with Aurobindo's supramental), McGilchrist (right-hemispheric knowledge by identity), Prigogine (irreversible becoming). Banerji's leg is one of several mutually-corroborating correlates; the constellation is the user's.
 
 ### The personal-divine preserved at the supramental level
 
@@ -342,7 +342,7 @@ The subtle move giving the user a refinement Deleuze lacks:
 >
 > — Banerji 2018, IJTS p. 46.
 
-The structural difference: the rhizome is impersonal; Aurobindo's Supramental is realised *as* an individuated person (psychic being). The whole is in each point *as* a uniquely individuated locus. The *caitya puruṣa* foothold against Deleuzean impersonalism is published Banerji thesis.
+The structural difference: the rhizome is impersonal; Aurobindo's Supramental is realized *as* an individuated person (psychic being). The whole is in each point *as* a uniquely individuated locus. The *caitya puruṣa* foothold against Deleuzean impersonalism is published Banerji thesis.
 
 On Krishna and the Overmind:
 
@@ -354,7 +354,7 @@ On Krishna and the Overmind:
 >
 > — Banerji 2018, IJTS p. 41.
 
-T6/T11: realisation is personal, individual, relational at the supramental level. Deleuze's univocity is structural grammar; Aurobindo's supramental is free creative consciousness whose grammar is its own self-expression. The Overmind includes the love-play of Kali and Krishna — not impersonal univocity. The freedom to "express infinite forms of unity" is the freedom Deleuze does not access.
+T6/T11: realization is personal, individual, relational at the supramental level. Deleuze's univocity is structural grammar; Aurobindo's supramental is free creative consciousness whose grammar is its own self-expression. The Overmind includes the love-play of Kali and Krishna — not impersonal univocity. The freedom to "express infinite forms of unity" is the freedom Deleuze does not access.
 
 ### Aurobindo's vocabulary in the French intellectual milieu
 
@@ -422,11 +422,11 @@ IJTS 2018; cognate in *Monsoon* 2022:
 >
 > — Banerji 2018, IJTS p. 50.
 
-Three-audience framework = decentralised philosophical structure (T12) and *adhikāra* discipline. User's six-register speech-discipline extends it.
+Three-audience framework = decentralized philosophical structure (T12) and *adhikāra* discipline. User's six-register speech-discipline extends it.
 
 ### The *Inward Turn* essay — what it adds
 
-2017 essay; full PDF `[NOT YET RETRIEVED]`. Theses: (i) *Inward turn* = displacement from cogito toward deeper sources of being; Bergson's "intuition of duration" extended through the psychic being. (ii) Psychic being as durational becoming. (iii) Deleuze's third synthesis of time (eternal return as difference) parallel to Aurobindo's yogic praxis. (iv) Cosmic time as progressive remembrance: evolution as immanent ontogenesis, not Darwinian mechanism or Hegelian Spirit. (v) Supramental as posthuman. (vi) *Aurobindo against Heidegger*: Heidegger's epistemic-conditioning closure has no exit; Aurobindo's evolutionary supramental opens. **"For Aurobindo, 'the end of philosophy' is not the end of metaphysics, because the supramental beckons."** (vii) *Aurobindo against Hegel*: evolution is not Absolute Spirit's totalising self-realisation; individuation is genuinely individual (*caitya puruṣa*).
+2017 essay; full PDF `[NOT YET RETRIEVED]`. Theses: (i) *Inward turn* = displacement from cogito toward deeper sources of being; Bergson's "intuition of duration" extended through the psychic being. (ii) Psychic being as durational becoming. (iii) Deleuze's third synthesis of time (eternal return as difference) parallel to Aurobindo's yogic praxis. (iv) Cosmic time as progressive remembrance: evolution as immanent ontogenesis, not Darwinian mechanism or Hegelian Spirit. (v) Supramental as posthuman. (vi) *Aurobindo against Heidegger*: Heidegger's epistemic-conditioning closure has no exit; Aurobindo's evolutionary supramental opens. **"For Aurobindo, 'the end of philosophy' is not the end of metaphysics, because the supramental beckons."** (vii) *Aurobindo against Hegel*: evolution is not Absolute Spirit's totalising self-realization; individuation is genuinely individual (*caitya puruṣa*).
 
 T11 is almost word-for-word Banerji's *Inward Turn*. The bridge text. User adds McGilchrist, Prigogine, Meillassoux, Gebser, Whitehead extended.
 
@@ -504,7 +504,7 @@ Banerji proposes four mahāvākyas as the integral praxis (*Monsoon* pp. 81–83
 1. **Om tat sat** ("Om, That is Truth") — orientation to transcendence (*turīya*, *sahasrāra*).
 2. **Sarvaṃ khalvidaṃ brahma** ("All this is only Brahman") — orientation to cosmic immanence; "the root of sustainability."
 3. **Tat tvam asi** ("Thou art That") — relational ethics, the I-Thou register.
-4. **Aham brahmāsmi** ("I am Brahman") — individuation; "fulfilment of Yoga as individuation, reaching towards oneness in relationality."
+4. **Aham brahmāsmi** ("I am Brahman") — individuation; "fulfilment of Yoga as individuation, reaching toward oneness in relationality."
 
 Structured *adhikāra*-discipline at praxis level. Different mahāvākyas open different registers: transcendence, cosmic immanence, relational ethics, individuation. Integrate all four, not by reducing them to one but by holding them in the same yogic life. T5 (directive question) answered: *all four registers simultaneously*. User's directive sharpening (sākṣi-caitanya, niṣkāma karma, surrender from fullness) extends Banerji's praxis-discipline.
 
@@ -524,7 +524,7 @@ Banerji's most explicit engagement with the alterity-preservation worry Levinas 
 >
 > — Banerji 2022, *Monsoon* p. 83.
 
-The mind cannot hold simultaneity-of-difference-and-non-difference; it must pick a position or relativise the others. Diagnostic ground for the supramental: the level *above* the mind at which simultaneity is *experienced*, not just thought. McGilchrist integration lands here. Mind = left-hemispheric exclusive-position-taking; supramental = level at which both-and is real, not merely formal.
+The mind cannot hold simultaneity-of-difference-and-non-difference; it must pick a position or relativize the others. Diagnostic ground for the supramental: the level *above* the mind at which simultaneity is *experienced*, not just thought. McGilchrist integration lands here. Mind = left-hemispheric exclusive-position-taking; supramental = level at which both-and is real, not merely formal.
 
 ### The Vedānta-Tantra integration
 
@@ -536,9 +536,9 @@ Tantra is constitutive, not auxiliary. Echoes Chaudhuri *Integral Yoga* 1965 Ch.
 
 ### The 2015 ethics-and-sustainability talk — important caution
 
-Banerji has, in a 2015 lecture at the Cultural Integration Fellowship (San Francisco; CIF was founded by Chaudhuri), explicitly criticised antinomian readings of integral yoga. The talk argues that integral yoga has sometimes been "largely conceived as being 'beyond ethics' and focused on individual spiritual attainment, [and] this attitude has revealed dangers in terms of moral blindness and unconscious violence." Banerji's response is that the *jagat brahma* mahāvākya carries an *ethical and ecological* responsibility-load: because the world *is* Brahman, the world is to be *lived as Brahman's self-presentation*, which generates ethics (every "other" is a self-presentation of Brahman) and sustainability (responsibility for the cosmos because the cosmos is identical with consciousness in its essence). YouTube: https://www.youtube.com/watch?v=Mka-UKB2-5o.
+Banerji has, in a 2015 lecture at the Cultural Integration Fellowship (San Francisco; CIF was founded by Chaudhuri), explicitly criticized antinomian readings of integral yoga. The talk argues that integral yoga has sometimes been "largely conceived as being 'beyond ethics' and focused on individual spiritual attainment, [and] this attitude has revealed dangers in terms of moral blindness and unconscious violence." Banerji's response is that the *jagat brahma* mahāvākya carries an *ethical and ecological* responsibility-load: because the world *is* Brahman, the world is to be *lived as Brahman's self-presentation*, which generates ethics (every "other" is a self-presentation of Brahman) and sustainability (responsibility for the cosmos because the cosmos is identical with consciousness in its essence). YouTube: https://www.youtube.com/watch?v=Mka-UKB2-5o.
 
-Strict warning T8 / T10 must heed. Emphasis on *niṣkāma karma* and total surrender must not be antinomian. Banerji has *publicly criticised* the antinomian reading. T10 must therefore be framed as *ethical lawfulness* with full Vedāntic metaphysical responsibility, NOT license to abandon ethical action. POSITION_BRIEF explicitly: T8 is "NOT quietism; ethical action follows; only ego-arrogation of corrective interventions is forbidden." Keep visible when T7/T10 are articulated, especially to anyone in the Banerji line.
+Strict warning T8 / T10 must heed. Emphasis on *niṣkāma karma* and total surrender must not be antinomian. Banerji has *publicly criticized* the antinomian reading. T10 must therefore be framed as *ethical lawfulness* with full Vedāntic metaphysical responsibility, NOT license to abandon ethical action. POSITION_BRIEF explicitly: T8 is "NOT quietism; ethical action follows; only ego-arrogation of corrective interventions is forbidden." Keep visible when T7/T10 are articulated, especially to anyone in the Banerji line.
 
 
 ---
@@ -549,13 +549,13 @@ Strict warning T8 / T10 must heed. Emphasis on *niṣkāma karma* and total surr
 
 Banerji's first book-length philosophical work. Los Angeles: Nalanda International / New Delhi: D.K. Printworld, 2012, 446 pp. Foreword by Christopher Key Chapple (Doshi Professor of Indic and Comparative Theology, Loyola Marymount). Won the DANAM (Dharma Academy of North America) Award for Constructive Philosophy in 2014. Full PDF on disk: `/orcd/home/002/eeshan/philosophy/materials/primary_texts/english/banerji/banerji_2012_seven_quartets_of_becoming.pdf`.
 
-The book derives a transformative yoga psychology from Sri Aurobindo's *Sapta Catuṣṭaya* — the "Seven Quartets" recorded in the Pondicherry diaries 1912–1920, published as *Record of Yoga* in *Collected Works of Sri Aurobindo* vols. 10–11. Banerji constellates this with transpersonal psychology, post-metaphysical Continental philosophy (Nietzsche, Heidegger, Husserl, Bergson, Deleuze, Foucault, Irigaray, Stiegler), and the experimental life-sciences (Barbara McClintock, Evelyn Fox Keller). The seven Quartets each contain four *siddhis* (perfections), arranged by Banerji as a *yantra* — an architectonic engine of practice — organised along two axes: a vertical *Puruṣa/Vedānta* axis and a horizontal *Prakṛti/Tantra* axis.
+The book derives a transformative yoga psychology from Sri Aurobindo's *Sapta Catuṣṭaya* — the "Seven Quartets" recorded in the Pondicherry diaries 1912–1920, published as *Record of Yoga* in *Collected Works of Sri Aurobindo* vols. 10–11. Banerji constellates this with transpersonal psychology, post-metaphysical Continental philosophy (Nietzsche, Heidegger, Husserl, Bergson, Deleuze, Foucault, Irigaray, Stiegler), and the experimental life-sciences (Barbara McClintock, Evelyn Fox Keller). The seven Quartets each contain four *siddhis* (perfections), arranged by Banerji as a *yantra* — an architectonic engine of practice — organized along two axes: a vertical *Puruṣa/Vedānta* axis and a horizontal *Prakṛti/Tantra* axis.
 
-The seven Quartets, in Banerji's organisation:
+The seven Quartets, in Banerji's organization:
 
 *General approaches* (vertical *Puruṣa* axis):
-1. **Yoga / Siddhi Catuṣṭaya** (centre): *śuddhi* (purification), *mukti* (liberation), *siddhi* (fulfilment), *bhukti* (enjoyment). Purification and liberation are "Vedantic" goals; enjoyment and fulfilment are "Tantric" goals — and the Vedantic become the *means* of the Tantric.
-2. **Brahma Catuṣṭaya** (Vedantic pole; upper periphery): the four-fold realisation of Conscious Being — *sarvam* (omnipresence/sameness), *anantam* (infinity / radical difference), *jñānam* (omniscience), *ānandam* (delight).
+1. **Yoga / Siddhi Catuṣṭaya** (center): *śuddhi* (purification), *mukti* (liberation), *siddhi* (fulfilment), *bhukti* (enjoyment). Purification and liberation are "Vedantic" goals; enjoyment and fulfilment are "Tantric" goals — and the Vedantic become the *means* of the Tantric.
+2. **Brahma Catuṣṭaya** (Vedantic pole; upper periphery): the four-fold realization of Conscious Being — *sarvam* (omnipresence/sameness), *anantam* (infinity / radical difference), *jñānam* (omniscience), *ānandam* (delight).
 3. **Karma Catuṣṭaya** (Tantric pole; lower periphery): four-fold work, including surrender to Krishna (Personal aspect of Being) and Kali (Personal aspect of Becoming).
 
 *Specific approaches* (horizontal *Prakṛti* axis):
@@ -580,7 +580,7 @@ The interlocking upward + downward triangles of *Puruṣa* and *Prakṛti* form 
 >
 > — Banerji *Seven Quartets* p. 266.
 
-Banerji's organisation of the Seven Quartets as a *yantra* — dynamic processual diagram, not hierarchical taxonomy — is the structural homologue of the user's T1: Sāṃkhya-Yoga, Vedānta, Tantra, Vaiṣṇavism all simultaneously present, none reduced to the others, mutually constitutive. Vedantic and Tantric poles are *means* for each other; the Quartets do not collapse into a single linear progression. The user's six-darśana register thesis with *adhikāra* discipline is the formal inheritance of Banerji's processual *yantra*.
+Banerji's organization of the Seven Quartets as a *yantra* — dynamic processual diagram, not hierarchical taxonomy — is the structural homologue of the user's T1: Sāṃkhya-Yoga, Vedānta, Tantra, Vaiṣṇavism all simultaneously present, none reduced to the others, mutually constitutive. Vedantic and Tantric poles are *means* for each other; the Quartets do not collapse into a single linear progression. The user's six-darśana register thesis with *adhikāra* discipline is the formal inheritance of Banerji's processual *yantra*.
 
 **T1 — integral as ontology of experience, not theoretical totalisation** (Introduction p. 11):
 
@@ -636,7 +636,7 @@ Three observations. First, Banerji deployed *ājñāna* as active-volitional Sup
 >
 > — Aurobindo, *Record of Yoga*, quoted Banerji 2017 *Intuitive Mentality* p. 9; cognate exposition Banerji *Seven Quartets* pp. 376–377 (*intuitive faculty of discrimination*; "before such a process can become dependable, there is need for some healthy scepticism and some common sense").
 
-Banerji *Seven Quartets* p. 377 amplifies with experimental epistemology: intuitive judgements must be tested at every step against rationality and "healthy scepticism" before they can be relied upon. The user's T8 (action via *sākṣi-caitanya*, not *pramāṇa-caitanya*) and "good *avidyā*" are structurally Banerji's *viveka* requirement.
+Banerji *Seven Quartets* p. 377 amplifies with experimental epistemology: intuitive judgments must be tested at every step against rationality and "healthy skepticism" before they can be relied upon. The user's T8 (action via *sākṣi-caitanya*, not *pramāṇa-caitanya*) and "good *avidyā*" are structurally Banerji's *viveka* requirement.
 
 **T6 — personal divine preserved at the supramental level — Krishna and Kali** (Ch. 8 *karma catuṣṭaya*). Four Mahāśaktis — Maheśvarī, Mahākālī, Mahālakṣmī, Mahāsarasvatī — as *cosmogenetic modalities of the One Vijñāna-Śakti*:
 
@@ -694,7 +694,7 @@ The load-bearing passages: yantra as dynamic processual diagram (pp. 11, 41); su
 
 ### *Meditations on the Isha Upanishad: Tracing the Philosophical Vision of Sri Aurobindo* (2019)
 
-Sri Aurobindo Sadhana Peetham / Lotus Press / Sri Aurobindo Samity, 2019/2020. ISBN 9781733220408. Banerji's most concentrated single-Upaniṣad work, organised as four meditations on the *Iśā Upaniṣad* read through Aurobindo's commentary (CWSA 17). The Upaniṣad's central problem is treated as a *problem of becoming* — the attainment of a consciousness in which unity and multiplicity are identical and do not erase each other. Banerji reads the Upaniṣadic *aporia* (paradoxes that have no mental solution) through Derrida's *l'avenir* — the "true future" that cannot be predicted or programmatically anticipated, and that "haunts" the present.
+Sri Aurobindo Sadhana Peetham / Lotus Press / Sri Aurobindo Samity, 2019/2020. ISBN 9781733220408. Banerji's most concentrated single-Upaniṣad work, organized as four meditations on the *Iśā Upaniṣad* read through Aurobindo's commentary (CWSA 17). The Upaniṣad's central problem is treated as a *problem of becoming* — the attainment of a consciousness in which unity and multiplicity are identical and do not erase each other. Banerji reads the Upaniṣadic *aporia* (paradoxes that have no mental solution) through Derrida's *l'avenir* — the "true future" that cannot be predicted or programmatically anticipated, and that "haunts" the present.
 
 The Iśā opens with *īśāvāsyam idaṃ sarvam* — "all this is for indwelling by the Lord" — which is Aurobindo's foundational verse for the Realistic / Integral Advaita reading. The verse is the textual ground against which *jagan-mithyā* breaks down; it is also the textual ground for the user's T2.
 
@@ -756,7 +756,7 @@ Published precedent for T6 read *politically* — Krishna-līlā as cultural-aes
 
 Bengal school and European Arts-and-Crafts movement (Morris, Burne-Jones, Pre-Raphaelites) are *cognate* responses to homogenising modernity. The *sahṛdaya*-aesthetic register and the Coomaraswamy-Nivedita-Aurobindo cluster are modernity-critical communitarian-aesthetic positions with European cognates — not "Indian" in opposition to "modern."
 
-Political-philosophical significance: (i) refuses both Western nation-state and pan-Indian nationalism — *alternate nation* as Aurobindo's "free grouping of mankind"; (ii) communitarian intersubjectivity structurally homologous to the Sarvāmnāya mandala; the Vaiṣṇava-Sufi-Zen synthesis is itself a small-scale mandala — direct precedent for T4; (iii) image-language as *adhikāra*-tuned authorises the Methodological Principle that *metaphor is not ornamental*; (iv) post-Saidean: Abanindranath's art as *micropolitics of cross-cultural transformation*, neither nationalist normalisation nor Orientalist mimicry.
+Political-philosophical significance: (i) refuses both Western nation-state and pan-Indian nationalism — *alternate nation* as Aurobindo's "free grouping of mankind"; (ii) communitarian intersubjectivity structurally homologous to the Sarvāmnāya mandala; the Vaiṣṇava-Sufi-Zen synthesis is itself a small-scale mandala — direct precedent for T4; (iii) image-language as *adhikāra*-tuned authorizes the Methodological Principle that *metaphor is not ornamental*; (iv) post-Saidean: Abanindranath's art as *micropolitics of cross-cultural transformation*, neither nationalist normalization nor Orientalist mimicry.
 
 ### *Critical Posthumanism and Planetary Futures* (2016, ed. with Paranjape)
 
@@ -781,7 +781,7 @@ The volume gathers responses to "modernity's crisis" in posthumanist key, with *
 
 Editorial framework: *critical reconstruction* retaining posthumanist critique of Eurocentric humanism while admitting "indigenous archives of positive engagement" — Aurobindo, Tagore, Gandhi, Vivekananda.
 
-This is the user's strategy: borrow methods (univocity, rhizome, durational intuition, inward turn) while rejecting totalising closure (Hegel) *and* ontological-vacancy of strict perspectivism. The integralist position has an ontological centre — Saccidānanda, Vijñāna, supramental — that is *not* a closed system but also *not* a vacancy. User's critique of postmodern theory is more aggressive than Banerji-Paranjape diplomacy permits.
+This is the user's strategy: borrow methods (univocity, rhizome, durational intuition, inward turn) while rejecting totalising closure (Hegel) *and* ontological-vacancy of strict perspectivism. The integralist position has an ontological center — Saccidānanda, Vijñāna, supramental — that is *not* a closed system but also *not* a vacancy. User's critique of postmodern theory is more aggressive than Banerji-Paranjape diplomacy permits.
 
 Ch. 16 (Banerji solo) extends the Aurobindo-Simondon individuation comparison. From the introduction's summary:
 
@@ -797,7 +797,7 @@ The Banerji-Simondon-Aurobindo argument: *individuation* as both natural (Simond
 
 Lotus Press, 2021, ISBN 9781608692729, 324 pp. Banerji's most explicit Goddess-mandala move. A scholarly-practitioner anthology gathering wisdom traditions under the figure of the Goddess — *Sophia* as the philosophy-suffused name for "wisdom-as-Goddess." The volume's structuring move is to treat the Goddess as the integrative figure for cross-traditional wisdom — a Goddess-mandala into which Christian, Anthroposophical, Jewish, Vaiṣṇava, Śākta, and Aurobindonian wisdoms are constellated.
 
-Banerji centres Aurobindo and the Supreme Goddess — the *Vijñāna-Śakti* / *Mahāśakti*. Aurobindo's *The Mother* (1928) names four expressive modes: **Maheśvarī** (Wisdom), **Mahākālī** (Power), **Mahālakṣmī** (Delight), **Mahāsarasvatī** (Skill-in-Works). *Philo-Sophia* extends this across world Goddess traditions.
+Banerji centers Aurobindo and the Supreme Goddess — the *Vijñāna-Śakti* / *Mahāśakti*. Aurobindo's *The Mother* (1928) names four expressive modes: **Maheśvarī** (Wisdom), **Mahākālī** (Power), **Mahālakṣmī** (Delight), **Mahāsarasvatī** (Skill-in-Works). *Philo-Sophia* extends this across world Goddess traditions.
 
 The closest published precedent to the user's Sarvāmnāya position. The user's Sarvāmnāya move can be presented as the *Tantric-textual completion* of the *Philo-Sophia* gesture.
 
@@ -838,11 +838,11 @@ The Chaudhuri-Banerji corpus contains, in print, page-citable, the structural fo
 
 **3. T9 — unity in apparent multiplicity.** Chaudhuri 1967 p. 32: "Integral nondualism affirms Being as the undivided unity of the formless and multiple forms… they are the glory of the creative urge inherent in Being." T9 in fewer words than T9 itself uses. Forms are *fully real from the ultimate standpoint*, not despite but because of the absolute. Difference is not a privation to be sublated; it is the *glory* of Being's self-expressive impulse. The bare structural claim is Chaudhuri 1967.
 
-**4. T11 — Hegel-Heidegger-Aurobindo phenomenology threading.** Two passages. Chaudhuri Symposium 1960 p. 19: "integralism *sublates* in a higher standpoint of identity-consciousness (*advaita-jñāna*)" — qualified Hegelian *Aufhebung*, with the explicit qualifier "without deprecating" the lower distinctions' value. Banerji *Inward Turn* essay (web summary; cognate IJTS 2018): the explicit non-Hegelian-non-Heideggerian articulation — Aurobindo's evolution is *not* the totalising self-realisation of Absolute Spirit, and "the end of philosophy" is not the end of metaphysics, "because the supramental beckons." T11's threading between Hegel and Heidegger via Aurobindo's open evolutionary ontology is published Banerji thesis.
+**4. T11 — Hegel-Heidegger-Aurobindo phenomenology threading.** Two passages. Chaudhuri Symposium 1960 p. 19: "integralism *sublates* in a higher standpoint of identity-consciousness (*advaita-jñāna*)" — qualified Hegelian *Aufhebung*, with the explicit qualifier "without deprecating" the lower distinctions' value. Banerji *Inward Turn* essay (web summary; cognate IJTS 2018): the explicit non-Hegelian-non-Heideggerian articulation — Aurobindo's evolution is *not* the totalising self-realization of Absolute Spirit, and "the end of philosophy" is not the end of metaphysics, "because the supramental beckons." T11's threading between Hegel and Heidegger via Aurobindo's open evolutionary ontology is published Banerji thesis.
 
-**5. Supermind ≈ univocity / rhizome / superfold.** Banerji *Seven Quartets* 2012 pp. 19–23: Deleuze's plane of consistency / superfold equated with Aurobindo's Supermind; "Deleuze's Plane of Consistency is defined in terms not far from Sri Aurobindo's Supermind, an absolute consciousness characterised by irreducible and radical univocity and infinity" (p. 23). Banerji IJTS 2018 pp. 45–46: explicit equation with Deleuze-Guattari's rhizome under the heading **Identity Consciousness**. The whole is present *as creative power* (not merely as part-of-whole) at every point. The structural identity is in print since 2012; the IJTS 2018 is its concentrated re-articulation. The user's contribution is to add the further legs of the constellation (Gebser's aperspectival-integral; McGilchrist's right-hemispheric "knowledge by identity"; Prigogine's irreversible becoming; Whitehead's process beyond Banerji's saṃjñāna-ājñāna placement).
+**5. Supermind ≈ univocity / rhizome / superfold.** Banerji *Seven Quartets* 2012 pp. 19–23: Deleuze's plane of consistency / superfold equated with Aurobindo's Supermind; "Deleuze's Plane of Consistency is defined in terms not far from Sri Aurobindo's Supermind, an absolute consciousness characterized by irreducible and radical univocity and infinity" (p. 23). Banerji IJTS 2018 pp. 45–46: explicit equation with Deleuze-Guattari's rhizome under the heading **Identity Consciousness**. The whole is present *as creative power* (not merely as part-of-whole) at every point. The structural identity is in print since 2012; the IJTS 2018 is its concentrated re-articulation. The user's contribution is to add the further legs of the constellation (Gebser's aperspectival-integral; McGilchrist's right-hemispheric "knowledge by identity"; Prigogine's irreversible becoming; Whitehead's process beyond Banerji's saṃjñāna-ājñāna placement).
 
-**6. Personal divine preserved at the supramental level — the answer to Deleuzean impersonalism.** Banerji *Seven Quartets* 2012 p. 302: "Just as Krsna represented for him the person aspect of Being, Kali is for him the person aspect of Becoming, the power of consciousness that manifests the cosmos." *Seven Quartets* p. 388 on Pāñcarātra: the Absolute is "present entirely in its emanated forms" — non-hierarchic emanation as the published precedent for the user's *acintya-bhedābheda* read of T2. Banerji IJTS 2018 p. 40: Krishna as Anandamaya Puruṣa working through Overmind; the Devi-Deva relation with "absolute freedom" expressing "infinite forms of unity." Banerji IJTS 2018 p. 46: "even the Overmental and Supramental realizations are integrated within the expanded development of the psychic being, which is the true person in us who becomes identified with Overmind and-or Supermind." The personal-divine register is preserved *within* supramental realisation; the supramental is *both* univocal-multiplicity *and* the consummation of personal-divine relation. The user's T6 lands on *Seven Quartets* p. 302 + IJTS 2018 p. 40 together.
+**6. Personal divine preserved at the supramental level — the answer to Deleuzean impersonalism.** Banerji *Seven Quartets* 2012 p. 302: "Just as Krsna represented for him the person aspect of Being, Kali is for him the person aspect of Becoming, the power of consciousness that manifests the cosmos." *Seven Quartets* p. 388 on Pāñcarātra: the Absolute is "present entirely in its emanated forms" — non-hierarchic emanation as the published precedent for the user's *acintya-bhedābheda* read of T2. Banerji IJTS 2018 p. 40: Krishna as Anandamaya Puruṣa working through Overmind; the Devi-Deva relation with "absolute freedom" expressing "infinite forms of unity." Banerji IJTS 2018 p. 46: "even the Overmental and Supramental realizations are integrated within the expanded development of the psychic being, which is the true person in us who becomes identified with Overmind and-or Supermind." The personal-divine register is preserved *within* supramental realization; the supramental is *both* univocal-multiplicity *and* the consummation of personal-divine relation. The user's T6 lands on *Seven Quartets* p. 302 + IJTS 2018 p. 40 together.
 
 **7. The triadic individual against Hegel and Deleuze.** Chaudhuri 1967 Ch. XII (pp. 128–133): wisdom transcends individuality; love universalises individuality; creativity intensifies individuality. Three simultaneous registers, all real, none reducible to the others. *Creativity intensifies individuality* — against Deleuzean dissolution-into-the-impersonal. *Wisdom transcends individuality without dissolving the individual* — against Hegelian sublation. The triadic principle is Chaudhuri's deepest contribution to the user's project. T6 / T11 land here.
 
@@ -874,7 +874,7 @@ Where Chaudhuri/Banerji have drawn the line weaker or not at all. The user's rea
 
 **7. The directive turn — T5, T8, T10.** Sharper than Chaudhuri's "harmonious and creative living" or Banerji's mahāvākya praxis. *Sākṣi-caitanya* vs. *pramāṇa-caitanya* (action as lawful unfolding via witness, not as cognitive-bully assertion); *good avidyā* (partial unknowing keeping the actor permeable; cognate with Banerji's *viveka* emphasis but more developed); surrender from fullness — Abhinavagupta's *pūrṇatva-icchā*, *viraha-bhakti* — not poverty. The user's directive answer to T5 is more developed, more textually-grounded in Vaiṣṇava sources, and more philosophically explicit than Banerji's praxis-discipline.
 
-**8. The Hegel-as-category-error diagnosis with KCB / Nietzsche / Chomsky / Sapolsky scaffolding.** Goes further than Banerji's contrastive metaphysics permits. Banerji's reading of Aurobindo against Hegel (*Inward Turn*) stays at the level of *contrastive metaphysics*: Aurobindo's evolutionary supramental is not the totalising self-realisation of Absolute Spirit. The user's polemic frames Hegel as committing a *category error* — ontologising grammar, mistaking the syllogism for the structure of reality. K. C. Bhattacharyya's *Subject as Freedom* and *Swaraj in Ideas*, Nietzsche's "we are not rid of God because we still have faith in grammar," Chomsky's generative biolinguistics, Sapolsky's scientific realism — these scaffolding moves are the user's. The diagnosis is sharper, but it is consistent with Banerji's structural argument.
+**8. The Hegel-as-category-error diagnosis with KCB / Nietzsche / Chomsky / Sapolsky scaffolding.** Goes further than Banerji's contrastive metaphysics permits. Banerji's reading of Aurobindo against Hegel (*Inward Turn*) stays at the level of *contrastive metaphysics*: Aurobindo's evolutionary supramental is not the totalising self-realization of Absolute Spirit. The user's polemic frames Hegel as committing a *category error* — ontologizing grammar, mistaking the syllogism for the structure of reality. K. C. Bhattacharyya's *Subject as Freedom* and *Swaraj in Ideas*, Nietzsche's "we are not rid of God because we still have faith in grammar," Chomsky's generative biolinguistics, Sapolsky's scientific realism — these scaffolding moves are the user's. The diagnosis is sharper, but it is consistent with Banerji's structural argument.
 
 **9. The sharper polemic against postmodern theory.** More aggressive than the Banerji-Paranjape diplomacy permits. Banerji preserves Foucault, Deleuze, Simondon, Bergson as legitimate internal critics of Enlightenment epistemology. The user's polemic against Hegel, Marx, Lacan, Derrida, Foucault, Butler is sharper, treating certain late-twentieth-/twenty-first-century continental moves as *compounding* the very Hegelian category error they claim to overcome. The "monkey describing its own brain" / left-hemispheric closed loop / correlationism diagnosis — and the OOO critique as failed escape from correlationism — go further than Banerji's mild constellation move. This is a real difference of register, not contradiction. Banerji writes within an academic discourse where retaining Foucault as a useful critic is part of intellectual diplomacy; the user writes from a position of *aggressive realist commitment*.
 

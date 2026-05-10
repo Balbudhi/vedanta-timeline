@@ -508,7 +508,7 @@ Macherey recovers a Spinoza closer to the Pratyabhijñā *prakāśa-vimarśa* do
 
 Garrett recovers the *conatus* and real individuation against acosmism. Melamed preserves the layered architecture (substance / attributes / infinite modes / finite modes) while taking modal-subordination seriously. Della Rocca takes the *Ethica* as unrestricted-PSR and pushes Spinoza toward aggressive monism. Macherey reads *naturans / naturata* temporally and exposes Hegel's "acosmism" as category-error.
 
-The four readings are complementary: Garrett softens impersonalism; Melamed gives layered architecture; Della Rocca sharpens necessitarianism; Macherey gives the *prakāśa-vimarśa* analogue. Together they replace the textbook Spinoza with a real interlocutor — closer to the user's position on architecture, sharper in disagreement on freedom.
+The four readings are complementary: Garrett softens impersonalism; Melamed gives layered architecture; Della Rocca sharpens necessitarianism; Macherey gives the *prakāśa-vimarśa* analog. Together they replace the textbook Spinoza with a real interlocutor — closer to the user's position on architecture, sharper in disagreement on freedom.
 
 ---
 
@@ -620,7 +620,7 @@ For our project, read in this order:
 
 **4. Pars II Prop. 40 Schol. 2 — essential, focused.** The three kinds of knowledge. This is the epistemic structure that Pars V works through. The Aurobindonian mapping is approximate but instructive: *imaginatio* is roughly *manas* in *vāsanā*-saturated mode; *ratio* is roughly *buddhi* discursive; *scientia intuitiva* approaches Higher Mind / Illumined Mind / possibly Intuitive Mind, but does not reach the Supramental's threefold *comprehending-apprehending-projecting* status.
 
-**5. Pars III (De origine et natura affectuum), focused on Propositions 6, 7, 9 — important, focused.** The *conatus* doctrine is what Garrett's revival turns on. *Unaquæque res, quantum in se est, in suo esse perseverare conatur* (E3p6); *Conatus, quo unaquæque res in suo esse perseverare conatur, nihil est præter ipsius rei actualem essentiam* (E3p7). Read these carefully if you want to engage Garrett. The remainder of Pars III — the catalogue of affects, with its definitions of *lætitia*, *tristitia*, *amor*, *odium*, *cupiditas*, etc. — is useful but not load-bearing for our project.
+**5. Pars III (De origine et natura affectuum), focused on Propositions 6, 7, 9 — important, focused.** The *conatus* doctrine is what Garrett's revival turns on. *Unaquæque res, quantum in se est, in suo esse perseverare conatur* (E3p6); *Conatus, quo unaquæque res in suo esse perseverare conatur, nihil est præter ipsius rei actualem essentiam* (E3p7). Read these carefully if you want to engage Garrett. The remainder of Pars III — the catalog of affects, with its definitions of *lætitia*, *tristitia*, *amor*, *odium*, *cupiditas*, etc. — is useful but not load-bearing for our project.
 
 **6. Pars IV (De servitute humana, seu de affectuum viribus) — Praefatio especially — useful, focused.** The *Deus seu Natura* line is in the Praefatio. The doctrine of human bondage to passive affects organizes the part. Skim the propositions; read the Preface and the Appendix. The model of the wise life given here is the practical-philosophical companion to the metaphysics of Pars I and the salvific apex of Pars V.
 

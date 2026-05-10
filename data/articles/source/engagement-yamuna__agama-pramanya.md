@@ -2,7 +2,7 @@
 
 ## 1. What the text is
 
-*Āgama-Prāmāṇya* is an independent Sanskrit polemical treatise by Yāmunācārya (Ālavandār; traditionally c. 10th-11th century CE), an early and decisive architect of the Śrīvaiṣṇava line that later runs through Rāmānuja and Vedānta Deśika. It is not a bhāṣya on a mūla-text, but a self-standing defence of the Pañcarātra revelation against charges of Veda-bāhyatva, social illegitimacy, and doctrinal incoherence; its printed form is a single continuous work with a detailed contents-page rather than internal adhyāya-divisions, and the surviving edition adds an editor's preface and table of contents before the main text. Structurally, the body runs to roughly 87 printed pages in the pure-Sanskrit file and moves from pramāṇa-theory, to cosmological and scriptural defence, to anti-Pāśupata differentiation, to the *Brahma-sūtra* `utpattyasambhavāt` objection, and finally to social-ritual boundary questions around *bhāgavata* status, *devalaka*, *nirmālya*, and *nivedya*.
+*Āgama-Prāmāṇya* is an independent Sanskrit polemical treatise by Yāmunācārya (Ālavandār; traditionally c. 10th-11th century CE), an early and decisive architect of the Śrīvaiṣṇava line that later runs through Rāmānuja and Vedānta Deśika. It is not a bhāṣya on a mūla-text, but a self-standing defense of the Pañcarātra revelation against charges of Veda-bāhyatva, social illegitimacy, and doctrinal incoherence; its printed form is a single continuous work with a detailed contents-page rather than internal adhyāya-divisions, and the surviving edition adds an editor's preface and table of contents before the main text. Structurally, the body runs to roughly 87 printed pages in the pure-Sanskrit file and moves from pramāṇa-theory, to cosmological and scriptural defense, to anti-Pāśupata differentiation, to the *Brahma-sūtra* `utpattyasambhavāt` objection, and finally to social-ritual boundary questions around *bhāgavata* status, *devalaka*, *nirmālya*, and *nivedya*.
 
 ## 2. Sampling and scope statement
 
@@ -28,7 +28,7 @@ The closing unit, from `devalakādi-śabdārtha-nirūpaṇam` through `nirmālya
 
 ## 4. Load-bearing passages — engaged at depth
 
-**1. Locus:** pure-Sanskrit p. 34, in the defence of verbal authority.
+**1. Locus:** pure-Sanskrit p. 34, in the defense of verbal authority.
 
 **Sanskrit (IAST):** `naiva śabde svato doṣāḥ prāmāṇya-paripanthinaḥ | santi kintu svatas tasya pramāṇatvam iti sthitiḥ ||`
 
@@ -62,7 +62,7 @@ Word by word: `na eva` = “not indeed”; `śabde` locative singular, the locus
 
 **Engagement:** This is the hinge of the anti-asymmetry argument. If this traditional memory is admitted, Pañcarātra is not a merely sectarian supplement hanging beneath Veda; it is a Veda-suffused revelation in its own right. Yāmuna's bolder move is then to say that the prāmāṇya-question should be handled symmetrically: both Veda and Pañcarātra disclose what is not otherwise available, and both rest on divine rather than ordinary human cognition.
 
-**5. Locus:** pure-Sanskrit pp. 76-77, the semantic defence of *sātvata/bhāgavata* naming.
+**5. Locus:** pure-Sanskrit pp. 76-77, the semantic defense of *sātvata/bhāgavata* naming.
 
 **Sanskrit (IAST):** `na caika-śabda-vācyatvād ekajātīyatā bhavet | mā bhūd ācārya-śabdatvād brāhmaṇasya nikṛṣṭatā ||`
 
@@ -80,13 +80,13 @@ Word by word: `na eva` = “not indeed”; `śabde` locative singular, the locus
 
 ## 5. The text's relation to the position
 
-This work sits squarely on the Yāmuna → Rāmānuja → Vedānta Deśika line. It is upstream of the *Śrī-bhāṣya*'s defence of Pañcarātra and downstream of the broader Vaiṣṇava insistence that divine form, divine names, and liturgical mediation are not optional pedagogical fictions. It is not, however, a primary source for the Bhartṛprapañca → Bhāskara → Madhva → Caitanya → Aurobindo realism-recovery trajectory in the strict sense, nor does it enter the Vivaraṇa-school disputes about *avidyā* that matter for T7. Its polemical world is different: Mīmāṃsaka restriction, anti-Pañcarātra Vedāntins, and rival Tantras, above all Pāśupata.
+This work sits squarely on the Yāmuna → Rāmānuja → Vedānta Deśika line. It is upstream of the *Śrī-bhāṣya*'s defense of Pañcarātra and downstream of the broader Vaiṣṇava insistence that divine form, divine names, and liturgical mediation are not optional pedagogical fictions. It is not, however, a primary source for the Bhartṛprapañca → Bhāskara → Madhva → Caitanya → Aurobindo realism-recovery trajectory in the strict sense, nor does it enter the Vivaraṇa-school disputes about *avidyā* that matter for T7. Its polemical world is different: Mīmāṃsaka restriction, anti-Pañcarātra Vedāntins, and rival Tantras, above all Pāśupata.
 
 Whom does it refute? By named or quasi-named type: Pāśupata, Śaiva, Kāpālika, Kālāmukha, Bauddha, Jaina/Ārhata, and other *veda-bāhya* systems. By anonymous *pūrva-pakṣin*: the Veda-only critic who says Pañcarātra is socially borne by non-Brāhmaṇas, doctrinally guilty of *jīvotpatti*, textually tainted by apparent Veda-nindā, and epistemically too human to count as pramāṇa. The constructive thesis is narrower than a grand metaphysics: Pañcarātra is Veda-concordant revelation of Nārāyaṇa-Viṣṇu and therefore authoritative for worship, initiation, and salvation.
 
 For the position's specific load-bearing claims, the fit is uneven. On T2, the text helps indirectly rather than directly: it does not theorize `mithyā`, but it is a strong early witness against any flattening of divine manifestation, image, mantra, or ritual relation into mere unreality. On T9 it is much more directly useful: this is a hard Vaiṣṇava critique of any framework that would render divine plurality and worship merely secondary. On T11 it contributes only modestly: Yāmuna is not doing an ontology of phenomenology, but he is insisting that scriptural and ritual disclosure reach realities not capturable by ordinary empiricism. On T7, almost nothing substantial should be claimed; *Āgama-Prāmāṇya* is not a text about *avidyā* as *bhāvarūpa*, nor about Brahman as both *āśraya* and *viṣaya* of ignorance.
 
-The principal resistance is equally clear. This is not a charter for “all paths” pluralism. Yāmuna ranks traditions, excludes rival Tantras, and insists on asymmetry in favour of Viṣṇu-centered revelation. Vallabha and Nimbārka later offer parallel realisms in different registers, and Madhva later radicalizes a different anti-Māyāvāda pressure; but *this* text itself is sectarian, juridical, and boundary-policing. If the position uses it, it should use it for the reality of Vaiṣṇava disclosure and the critique of reduction, not as a warrant for universal harmonization.
+The principal resistance is equally clear. This is not a charter for “all paths” pluralism. Yāmuna ranks traditions, excludes rival Tantras, and insists on asymmetry in favor of Viṣṇu-centered revelation. Vallabha and Nimbārka later offer parallel realisms in different registers, and Madhva later radicalizes a different anti-Māyāvāda pressure; but *this* text itself is sectarian, juridical, and boundary-policing. If the position uses it, it should use it for the reality of Vaiṣṇava disclosure and the critique of reduction, not as a warrant for universal harmonization.
 
 ## 6. What the user can productively take
 

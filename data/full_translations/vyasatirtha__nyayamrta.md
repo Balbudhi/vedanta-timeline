@@ -13,7 +13,7 @@ coverage_evidence: 'locus-scope describes restricted range'
 
 ## Editorial introduction
 
-The opening eight verses of the *Nyāyāmṛta* are not ornamental surplus. They are the programmatic threshold of the whole work. Before Vyāsatīrtha enters the formal *vipratipatti-vicāra* and the sequence of attacks on *mithyātva* beginning at *mithyātve parokṣānumānāni* and the first *mithyātvabhaṅga*, he states, in compressed doxographical form, the ontological and pedagogical order within which the polemic is to be read. Verses 1–2 place Viṣṇu, *Hari* (the supreme Lord), at the head of the argument as the all-denoting referent of scripture, the possessor of all auspicious qualities, and the real cause of the entire world. Verses 3–6 then locate the work in a living lineage: Madhva as *Ānandatīrtha*, Jayatīrtha as the luminous expositor of the guru’s intention, Brahmaṇyatīrtha as disciplinary preceptor, and Lakṣmīnārāyaṇa Muni as intellectual preceptor. Only after that does Vyāsatīrtha name his own labour: the churning up of a *nyāyāmṛta* from Madhva’s śāstric ocean, and the threefold justification of composition by collection, demonstration, and fresh statement.
+The opening eight verses of the *Nyāyāmṛta* are not ornamental surplus. They are the programmatic threshold of the whole work. Before Vyāsatīrtha enters the formal *vipratipatti-vicāra* and the sequence of attacks on *mithyātva* beginning at *mithyātve parokṣānumānāni* and the first *mithyātvabhaṅga*, he states, in compressed doxographical form, the ontological and pedagogical order within which the polemic is to be read. Verses 1–2 place Viṣṇu, *Hari* (the supreme Lord), at the head of the argument as the all-denoting referent of scripture, the possessor of all auspicious qualities, and the real cause of the entire world. Verses 3–6 then locate the work in a living lineage: Madhva as *Ānandatīrtha*, Jayatīrtha as the luminous expositor of the guru’s intention, Brahmaṇyatīrtha as disciplinary preceptor, and Lakṣmīnārāyaṇa Muni as intellectual preceptor. Only after that does Vyāsatīrtha name his own labor: the churning up of a *nyāyāmṛta* from Madhva’s śāstric ocean, and the threefold justification of composition by collection, demonstration, and fresh statement.
 
 This scope is the natural extended unit for the site because it is the smallest self-contained opening arc in which theology, lineage, authorship, and method are all explicitly joined. It also conditions the larger architecture of the work. Later destructive sections such as *dṛśyatvahetubhāṅgaḥ* and the several *mithyātvabhaṅga* chapters depend on the realist, theistic, and lineage-conscious commitments already announced here. The invocation thus does genuine philosophical work: it states, before any refutation begins, what counts as a real world, a valid scriptural orientation, and a legitimate argumentative inheritance.
 
@@ -327,7 +327,7 @@ The accusative plural forms are honorific. Vyāsatīrtha speaks of one teacher i
 - *āmathya*: absolutive
 
 **Note:**
-This is the authorial self-characterisation of the work. The title *Nyāyāmṛta* is itself explained by the metaphor: reasoning is not external ornament imposed on Madhva; it is nectar churned out from Madhva’s own śāstric ocean. The verse thus anticipates Vyāsatīrtha’s larger project of recasting Mādhva doctrine in a fully Navya-Nyāya-capable idiom.
+This is the authorial self-characterization of the work. The title *Nyāyāmṛta* is itself explained by the metaphor: reasoning is not external ornament imposed on Madhva; it is nectar churned out from Madhva’s own śāstric ocean. The verse thus anticipates Vyāsatīrtha’s larger project of recasting Mādhva doctrine in a fully Navya-Nyāya-capable idiom.
 
 ---
 
@@ -354,7 +354,7 @@ This is the authorial self-characterisation of the work. The title *Nyāyāmṛt
 | kvāpi | kvāpi | indeclinable | in some place / elsewhere |
 | saphalaḥ | sa-phala | nom sg masc | fruitful |
 | ayam | idam | nom sg masc | this |
-| śramaḥ | śrama | nom sg masc | labour, effort |
+| śramaḥ | śrama | nom sg masc | labor, effort |
 | mama | mad | gen sg | my |
 
 **Compound resolution (samāsa-vigraha):**

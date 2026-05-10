@@ -337,7 +337,7 @@ The four realist demands are now on the table. The first two are often taken tog
 - *utpadyate*: laṭ / ātmanepada / repeated present
 - *dṛśyate*: laṭ / passive / perceptual present
 - *kriyate*: laṭ / passive / practical present
-- *yujyate*: laṭ / ātmanepada / suitability judgement
+- *yujyate*: laṭ / ātmanepada / suitability judgment
 
 **Note:**
 This is the opponent's full unpacking of verse 2. The argument is exacting: hallucination and dream may explain some false appearance, but they seem unable to explain stable distribution, shared appearance, and effective action. Vasubandhu's reply therefore has to be more than a casual dream analogy.

@@ -95,7 +95,7 @@ This is also where the bhāṣya most clearly excludes *pradhāna*-style reading
 
 **Engagement:** This is the mature form of Madhva’s hermeneutic. He does not deny the ordinary sacrificial and digestive senses of `vaiśvānara`; indeed he grants that the word is shared. But a shared word is not yet an indeterminate reference. Specification (`viśeṣaṇa`) settles it.
 
-The constructive point is important. The lower sense is not cancelled as false. It is subordinated, and then gathered into a higher semantic field in which sacrificial fire, bodily fire, and supreme indwelling agency become ordered rather than collapsed. That is a strong anti-reductionist move, though not a non-dual one.
+The constructive point is important. The lower sense is not canceled as false. It is subordinated, and then gathered into a higher semantic field in which sacrificial fire, bodily fire, and supreme indwelling agency become ordered rather than collapsed. That is a strong anti-reductionist move, though not a non-dual one.
 
 ## 5. The text’s relation to the position
 

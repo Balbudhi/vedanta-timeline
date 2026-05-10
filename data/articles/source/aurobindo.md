@@ -8,7 +8,7 @@
 
 ### Bio (1872–1950)
 
-Aurobindo Ghose is one of the most consequential philosophical lives of the twentieth century. Born in Calcutta on 15 August 1872, sent to England at seven, schooled at Manchester, St. Paul's, and King's College Cambridge (Classics, First). Returned to India in 1893; taught himself Sanskrit and Bengali; through the 1900s became a central organiser of the militant nationalist wing. Tried for sedition (Alipore Bomb Case, 1908–09); a year in pre-trial imprisonment during which he underwent the experiences constituting his decisive philosophical turn (the *Vāsudevaḥ sarvam iti* realisation, the silent Brahman of 1908). Acquitted May 1909. April 1910: left British India for Pondicherry. The remaining forty years there as yogi and philosopher-poet, until his death on 5 December 1950.
+Aurobindo Ghose is one of the most consequential philosophical lives of the twentieth century. Born in Calcutta on 15 August 1872, sent to England at seven, schooled at Manchester, St. Paul's, and King's College Cambridge (Classics, First). Returned to India in 1893; taught himself Sanskrit and Bengali; through the 1900s became a central organiser of the militant nationalist wing. Tried for sedition (Alipore Bomb Case, 1908–09); a year in pre-trial imprisonment during which he underwent the experiences constituting his decisive philosophical turn (the *Vāsudevaḥ sarvam iti* realization, the silent Brahman of 1908). Acquitted May 1909. April 1910: left British India for Pondicherry. The remaining forty years there as yogi and philosopher-poet, until his death on 5 December 1950.
 
 Three things to notice. Aurobindo's training is a Cambridge classicist's, not a paṇḍit's; his recovery of the Indian sources is a retrieval from the European outside, which gives his Vedic exegesis its distinctive cross-translatability. His political life is structural to the philosophy. The diagnosis of "collective egoism," the cycle of institutions, and the question of what humanity could sustain as genuine community run continuously from the *Bande Mataram* editorials to the closing chapter of *The Life Divine*. The philosophy proper is written under the discipline of the *Arya* journal (15 August 1914 to 15 January 1921), in which he serialised what would become *The Life Divine*, *The Synthesis of Yoga*, *The Secret of the Veda*, *Essays on the Gita*, *The Human Cycle*, *The Ideal of Human Unity*, the Upaniṣad commentaries, and *The Foundations of Indian Culture*. Major works were revised over decades; final *Life Divine* 1939–40.
 
@@ -28,7 +28,7 @@ The thread that matters for the position this reader serves is Aurobindo's *Real
 
 **(b) Involution-evolution as real cosmological process.** The descent of integral consciousness into the apparent inconscience of matter is a real prior happening — *involution*. The ascent through matter, life, mind, supermind is real cosmological evolution. The structural break with Hegel: history is not the universal Spirit's self-coming-to-knowledge in time but a real cosmological process whose telos is supramental transformation of the species.
 
-**(c) The individual psychic being as ontologically irreducible.** The *caitya puruṣa* is not a temporary ignorance-effect; it is one of the eternal poises of the Real. The realisation does not dissolve the individual; it *transforms* it — the psychic being acting from the comprehending, apprehending, and projecting poises in coordinated unity.
+**(c) The individual psychic being as ontologically irreducible.** The *caitya puruṣa* is not a temporary ignorance-effect; it is one of the eternal poises of the Real. The realization does not dissolve the individual; it *transforms* it — the psychic being acting from the comprehending, apprehending, and projecting poises in coordinated unity.
 
 ### Glossary
 
@@ -84,7 +84,7 @@ The aspiration returns *after every banishment* — including the materialist ba
 
 These two chapters are the architectural diptych on which *The Life Divine* rests: the diagnosis of two equal-and-opposite refusals, each a real attainment turned into total ontology.
 
-The **materialist denial** (Ch. 2) refuses any term higher than matter. Aurobindo grants the real attainment — sustained attention to physical substance yields real knowledge — but refuses the absolutising move: matter is real *because* it is Brahman as substance, the very ontology the denial forecloses.
+The **materialist denial** (Ch. 2) refuses any term higher than matter. Aurobindo grants the real attainment — sustained attention to physical substance yields real knowledge — but refuses the absolutizing move: matter is real *because* it is Brahman as substance, the very ontology the denial forecloses.
 
 The **ascetic refusal** (Ch. 3) is the inverse. The Mayāvādin denies any term lower than the silent Absolute. Aurobindo grants the attainment of silent-Self knowledge but refuses the move from "this poise is real" to "this poise is the only real."
 
@@ -96,9 +96,9 @@ The argument is symmetrical: a refusal of absolutisation as such. Both poles are
 > "I have never said that my philosophy was realistic Advaita; it is a way of putting it which would do as well as any other. My own [view] is realistic Adwaita. The world is a manifestation of the Real and therefore is itself real. The reality is the infinite and eternal Divine, infinite and eternal Being, Consciousness-Force and Bliss."
 > — *Letters on Yoga* I, CWSA 28
 
-"Manifestation of the Real" is load-bearing. *Mithyā* (sublatable, dependent) is not *asat* (non-existent). The two-negations diagnostic generalises to T1 (register thesis across darśanas) and T2 (Vedāntic inheritors — Bhartṛprapañca, Bhāskara, Madhva, Caitanya — as self-correcting recovery rather than degeneration from Śaṅkara).
+"Manifestation of the Real" is load-bearing. *Mithyā* (sublatable, dependent) is not *asat* (non-existent). The two-negations diagnostic generalizes to T1 (register thesis across darśanas) and T2 (Vedāntic inheritors — Bhartṛprapañca, Bhāskara, Madhva, Caitanya — as self-correcting recovery rather than degeneration from Śaṅkara).
 
-A rhetorical note: Aurobindo's argument always begins by granting the opponent his strongest case, then locating the absolutising move. Reading *The Life Divine* well is reading for the interlocutor.
+A rhetorical note: Aurobindo's argument always begins by granting the opponent his strongest case, then locating the absolutizing move. Reading *The Life Divine* well is reading for the interlocutor.
 
 ### Ch. 4 — *Reality Omnipresent*
 
@@ -106,7 +106,7 @@ Chapter 4 establishes the cosmological consequence: Reality is omnipresent — p
 
 ### Ch. 5 — *The Destiny of the Individual*
 
-Chapter 5 distinguishes Aurobindo from Hegel as decisively as Ch. 3 distinguishes him from Śaṅkara. The Mayāvādin answer: dissolution into the *paramātman*. The Hegelian answer: *aufheben* — individual as moment of universal Spirit. Aurobindo's answer is neither. The individual is *eternally* a poise of the Real. Realisation does not dissolve the individual; it *transforms* it into its true status — the psychic being (*caitya puruṣa*), distinct from the surface ego it has been mistaken for.
+Chapter 5 distinguishes Aurobindo from Hegel as decisively as Ch. 3 distinguishes him from Śaṅkara. The Mayāvādin answer: dissolution into the *paramātman*. The Hegelian answer: *aufheben* — individual as moment of universal Spirit. Aurobindo's answer is neither. The individual is *eternally* a poise of the Real. Realization does not dissolve the individual; it *transforms* it into its true status — the psychic being (*caitya puruṣa*), distinct from the surface ego it has been mistaken for.
 
 > "All affirmations are denied only to lead to a wider affirmation of the same Reality."
 > — *The Life Divine*, I.5, CWSA 21, p. 38
@@ -136,7 +136,7 @@ The pejorative sense is late; the original sense is creative-formative conscious
 
 **Step 2 — philosophical recovery.** Vedic *māyā* is Brahman's own *cit-tapas* in its formative pole. Brahman is intrinsically self-aware (*cit*) and self-effective (*tapas*); *māyā* names this self-effecting awareness operating as cosmic formation.
 
-**Step 3 — resolution of the paradox.** The Mayāvādin worry: if *māyā* is real, Brahman has a real power that is not Brahman; if unreal, we cannot ask. Aurobindo's resolution: *māyā* is real *as Brahman's own power*. Non-duality is preserved by recognising *māyā* as the divine in its formative pole — one *Cit-Tapas* in two poises (self-possession and self-statement).
+**Step 3 — resolution of the paradox.** The Mayāvādin worry: if *māyā* is real, Brahman has a real power that is not Brahman; if unreal, we cannot ask. Aurobindo's resolution: *māyā* is real *as Brahman's own power*. Non-duality is preserved by recognizing *māyā* as the divine in its formative pole — one *Cit-Tapas* in two poises (self-possession and self-statement).
 
 **Step 4 — Vidyā and Avidyā as twin aspects.** *Iśa Upaniṣad* 9–11 confirms *vidyā* and *avidyā* as twin aspects of one Maya: *vidyā* the integrating self-knowledge, *avidyā* the differentiating self-limitation. Both are moves of the same self-aware power.
 
@@ -183,7 +183,7 @@ The apprehending power:
 > "a secondary power of the creative knowledge, its power of a projecting, confronting and apprehending consciousness in which knowledge centralises itself and stands back from its works to observe them."
 > — *The Life Divine*, I.16, CWSA 21, p. 152
 
-"Centralises itself and stands back": the apprehending poise is the One taking up a position to behold itself as Many. There is no ontological gap; the One *is* the Many in the mode of apprehending self-distinction. This is the structural site of Caitanya's *acintya-bhedābheda* — *acintya* for any concept-frame, but native to the Supermind, which knows by *being* what it knows.
+"Centralizes itself and stands back": the apprehending poise is the One taking up a position to behold itself as Many. There is no ontological gap; the One *is* the Many in the mode of apprehending self-distinction. This is the structural site of Caitanya's *acintya-bhedābheda* — *acintya* for any concept-frame, but native to the Supermind, which knows by *being* what it knows.
 
 The projecting poise:
 
@@ -204,7 +204,7 @@ This is what makes the Supermind *aperspectival*. A higher perspective sublating
 
 Non-destructiveness follows. Reality is *multiplicative*, not substitutive: a new register opens without erasing the old. When Bannister breaks the four-minute mile, "no one has run a sub-four mile" is no longer true *now*, but "no one had run a sub-four mile up to that moment" remains true *as the past it was*. The supramental includes the projecting poise's individuations in their irreducibility.
 
-The break with Hegel sharpens. *Aufhebung* is substitutive: the lower preserved-by-being-cancelled. Aurobindo's triple status is additive: each poise real *as itself*, none moment of any other.
+The break with Hegel sharpens. *Aufhebung* is substitutive: the lower preserved-by-being-canceled. Aurobindo's triple status is additive: each poise real *as itself*, none moment of any other.
 
 Convergence with Deleuze: univocity says being is said in one sense, but what is said differs. Aurobindo agrees on unity of voice (comprehending) and irreducible difference (projecting). What Deleuze lacks is the *apprehending* poise — the One holding the Many as its own. Without it, univocity risks flatness.
 
@@ -267,7 +267,7 @@ These polemical chapters argue directly against the cosmic-illusionist (Mayāvā
 > "The Shankara knowledge is… only one side of the Truth; it is the knowledge of the Supreme as realised by the spiritual Mind through the static silence of the pure Existence."
 > — *Letters on Yoga*, CWSA 28
 
-*One side of the Truth* — a real attainment of the Mind/Overmind plane, not of the Supermind. The supramental realisation includes Śaṅkara's in the comprehending poise and adds the apprehending and projecting.
+*One side of the Truth* — a real attainment of the Mind/Overmind plane, not of the Supermind. The supramental realization includes Śaṅkara's in the comprehending poise and adds the apprehending and projecting.
 
 The structural impossibility of strict illusionism:
 
@@ -283,7 +283,7 @@ Realistic Advaita: the world is real *as* manifestation; *mithyā* means sublata
 
 ### II.I.7 — *The Knowledge and the Ignorance*
 
-II.I.7 opens the patient analysis of *avidyā* (Chs. 7–14). The structural claim: *avidyā* is not absence of *vidyā* but *one side* of *vidyā* — its mode of self-limitation. *Avidyā* is the differentiating self-limitation by which the One becomes Many; *vidyā* the integrating self-knowledge. The chapter is the *Iśa* 9–11 reading systematised: both are necessary; neither is to be absolutised. This shifts the argument from the *what* of Ignorance (II.I.1–6) to the *why* (II.I.8–14), licensed by establishing *avidyā* as a positive aspect, not a privation.
+II.I.7 opens the patient analysis of *avidyā* (Chs. 7–14). The structural claim: *avidyā* is not absence of *vidyā* but *one side* of *vidyā* — its mode of self-limitation. *Avidyā* is the differentiating self-limitation by which the One becomes Many; *vidyā* the integrating self-knowledge. The chapter is the *Iśa* 9–11 reading systematised: both are necessary; neither is to be absolutized. This shifts the argument from the *what* of Ignorance (II.I.1–6) to the *why* (II.I.8–14), licensed by establishing *avidyā* as a positive aspect, not a privation.
 
 ### II.I.10 — *Knowledge by Identity and Separative Knowledge*
 
@@ -369,7 +369,7 @@ This is the structural condition for the doctrine of the *gnostic being* and the
 
 Chapter II.II.20 articulates the doctrine of rebirth as the *vehicle* of the evolutionary process at the individual scale. The argument is that the evolution of consciousness through matter, life, mind, and supermind cannot be the work of a single life; it is the work of the *psychic being*, the *caitya puruṣa*, across many bodily incarnations. Rebirth is not a moral mechanism (the *karma*-mechanics of reward and punishment, though that is one register at which it operates); it is the *cosmological* mechanism by which the supramental telos is approached through accumulated experience.
 
-The argument makes a particular Vedāntic tradition (the *jīva*'s migration through *saṁsāra*) into a *cosmological* doctrine. The *jīva* is not an unfortunate transmigrating something whose escape from the cycle is the goal; the *jīva* is the *psychic being*, whose progressive development through births is the cosmos's own evolutionary motion in its individual locus. Liberation is not exit from the cycle but transformation of the cycle's substance — the gnostic being is born, lives, dies as embodied beings do, but the registers at which it operates are no longer the ego-organised registers of pre-supramental humanity.
+The argument makes a particular Vedāntic tradition (the *jīva*'s migration through *saṁsāra*) into a *cosmological* doctrine. The *jīva* is not an unfortunate transmigrating something whose escape from the cycle is the goal; the *jīva* is the *psychic being*, whose progressive development through births is the cosmos's own evolutionary motion in its individual locus. Liberation is not exit from the cycle but transformation of the cycle's substance — the gnostic being is born, lives, dies as embodied beings do, but the registers at which it operates are no longer the ego-organized registers of pre-supramental humanity.
 
 The bearing on the position: the irreducibility of the individual (T11) is not a static metaphysical claim but the dynamic claim that the individual is the *vehicle* of the cosmic evolution. Each individual life is a moment in the longer arc of the psychic being's development, and that longer arc is the cosmos's own self-disclosure in the locus of this particular soul-spark.
 
@@ -377,7 +377,7 @@ The bearing on the position: the irreducibility of the individual (T11) is not a
 
 The final two chapters of *The Life Divine* — "The Gnostic Being" (II.II.27) and "The Divine Life" (II.II.28) — give the *lived form* of the structural answer. They are where the metaphysics of triple status (I.16), the doctrine of the divine Maya (I.13), the analysis of *avidyā* as exclusive concentration (II.I.12–13) all become a register that an individual can stably inhabit. The chapters are short relative to their philosophical weight; they crown the work.
 
-The gnostic being is Aurobindo's name for the human transformed by supramental descent — the prototype of the divine life on earth. Not an avatar, not a saint, not a sage in the classical Vedāntic mode (whose realisation, however high, has been of the Mind or Overmind plane), but the human raised to the supramental register and acting *from* it. The chapters articulate this not as an ideal projection but as the *next evolutionary step* — the lived form that the ascending evolution of consciousness aims at.
+The gnostic being is Aurobindo's name for the human transformed by supramental descent — the prototype of the divine life on earth. Not an avatar, not a saint, not a sage in the classical Vedāntic mode (whose realization, however high, has been of the Mind or Overmind plane), but the human raised to the supramental register and acting *from* it. The chapters articulate this not as an ideal projection but as the *next evolutionary step* — the lived form that the ascending evolution of consciousness aims at.
 
 The structural claim:
 
@@ -390,11 +390,11 @@ The triple transformation (II.II.25) gives the determinate sequence by which thi
 
 This is the chapter where Aurobindo refuses two positions simultaneously. (i) The merely *conceptual* synthesis — Hegel's *Aufhebung* as a thought-act that closes the system — is refused, because the supramental is not a thought-position but a register of consciousness lived in actual life. (ii) The merely *individual mystical attainment* — the saint's exception that leaves the world unchanged — is refused, because the supramental is the level at which the structural answer becomes lived not only by an exceptional individual but as a possible *terrestrial mode*. The gnostic being is not the saint; the gnostic being is the human as it is *to come*.
 
-What this gives the position is the answer to the question of whether the through-all is *only* a structural posit or *also* a register. Madhva and Caitanya rest, in the lived mode, in devotional realisation, which is real but not the supramental in Aurobindo's technical sense. Deleuze rests in the philosophical articulation of univocity as a thought-position; he never claims, and would have been embarrassed to claim, that univocity is a state of consciousness one can stably inhabit. Aurobindo adds the further claim that the through-all *is* a register that becomes an actually lived life. This is where Aurobindo extends beyond all three of his Indian and continental cousins.
+What this gives the position is the answer to the question of whether the through-all is *only* a structural posit or *also* a register. Madhva and Caitanya rest, in the lived mode, in devotional realization, which is real but not the supramental in Aurobindo's technical sense. Deleuze rests in the philosophical articulation of univocity as a thought-position; he never claims, and would have been embarrassed to claim, that univocity is a state of consciousness one can stably inhabit. Aurobindo adds the further claim that the through-all *is* a register that becomes an actually lived life. This is where Aurobindo extends beyond all three of his Indian and continental cousins.
 
 ### II.II.28 — *The Divine Life*
 
-The closing chapter (II.II.28) articulates the social and cosmological consequences of the gnostic being's emergence. Not utopia (Aurobindo is careful), not a political programme, but a *register* of collective life that becomes possible once a sufficient number of psychic beings have undergone the triple transformation. The *Ideal of Human Unity* and *The Human Cycle* (CWSA 25) give the political-philosophical articulation; *The Life Divine*'s closing chapter gives the metaphysical horizon.
+The closing chapter (II.II.28) articulates the social and cosmological consequences of the gnostic being's emergence. Not utopia (Aurobindo is careful), not a political program, but a *register* of collective life that becomes possible once a sufficient number of psychic beings have undergone the triple transformation. The *Ideal of Human Unity* and *The Human Cycle* (CWSA 25) give the political-philosophical articulation; *The Life Divine*'s closing chapter gives the metaphysical horizon.
 
 The structure of the chapter is gradational. Aurobindo first describes what the divine life is *not*: not a withdrawal from the world, not a moral perfection in the conventional sense, not a renunciation of bodily, vital, or mental life. He then describes what it *is*: the integration of the supramental register into the lived particularities of body, life, mind — the gnostic being as a participant in the cosmic process whose participation is the supramental's terrestrial embodiment.
 
@@ -402,7 +402,7 @@ A literalism note. The "divine life" here is meant in the strong cosmological se
 
 The bearing on the position is at the horizon of T11 and T12. The disclosure-trajectory of the individual is not in the service of an individual mokṣa but of the collective evolution toward the divine life. The gnostic being's life is the cosmos's own ascending motion taking shape in a community of transformed individuals. This is the metaphysical horizon within which the politics of *matsya-nyāya* (prevention of predation) and the critique of *collective egoism* (from *The Human Cycle*) find their teleological frame: the political work is not utopian construction but the preparation of the ground on which the divine life can take terrestrial shape.
 
-The reader should approach these chapters as the conclusion they are. They will be obscure if read first. After the patient work of Book One and Book Two Part I has been internalised, they are the chapters that say, in laconic and sober prose, what the whole architecture has been *for*: not as theory but as a way of life.
+The reader should approach these chapters as the conclusion they are. They will be obscure if read first. After the patient work of Book One and Book Two Part I has been internalized, they are the chapters that say, in laconic and sober prose, what the whole architecture has been *for*: not as theory but as a way of life.
 
 ---
 
@@ -414,7 +414,7 @@ A note on order. *The Synthesis* is best read after a first pass through *The Li
 
 ### Introduction — The Conditions of the Synthesis
 
-The Introduction (five chapters) lays out the structural relation among the Yogas. Aurobindo's argument is that each classical Yoga has correctly identified a real organ of the integral being and made it the centre of its discipline: works centre on the will, knowledge on the cognition, devotion on the heart, the Yogas of self-discipline (Hatha and Raja) on the body and the inner mental instrument. Each Yoga, taken singly, *uses* one organ to approach the divine while leaving the others to be transformed only secondarily. The integral synthesis takes all four organs as simultaneous fields of work.
+The Introduction (five chapters) lays out the structural relation among the Yogas. Aurobindo's argument is that each classical Yoga has correctly identified a real organ of the integral being and made it the center of its discipline: works center on the will, knowledge on the cognition, devotion on the heart, the Yogas of self-discipline (Hatha and Raja) on the body and the inner mental instrument. Each Yoga, taken singly, *uses* one organ to approach the divine while leaving the others to be transformed only secondarily. The integral synthesis takes all four organs as simultaneous fields of work.
 
 The structural insight is "the three steps of Nature" (Introduction Ch. 2): Nature herself rises by works (action and embodiment), by love (relationship and affective union), and by knowledge (cognition and self-recognition). The classical Yogas are not arbitrary but correspond to the three lines along which Nature herself ascends. The integral yoga therefore does not invent a fourth method; it integrates the three into one architecture, with self-perfection as the *ground* on which the integration takes place.
 
@@ -430,14 +430,14 @@ Aurobindo's three principles of integral karma yoga are:
 
 3. **The Divine as the only doer.** The integral move beyond the early *Gītā* teaching: not just renunciation of fruits but renunciation of the *agency*. Krishna is the agent, the human a *nimitta-mātra* (instrument-only), as the *Gītā* itself articulates at 11.33. At this point action becomes *pure expression* and the demand for "purpose" lapses.
 
-The third principle is what Aurobindo himself calls a step *beyond* the classical *Gītā* teaching. The disciple does not merely renounce fruits but recognises that "all is being done by the Divine through me," at which point the action proceeds as the divine's own act in the medium of the surrendered individual.
+The third principle is what Aurobindo himself calls a step *beyond* the classical *Gītā* teaching. The disciple does not merely renounce fruits but recognizes that "all is being done by the Divine through me," at which point the action proceeds as the divine's own act in the medium of the surrendered individual.
 
 A representative formulation:
 
 > "The first necessity is to dedicate every act to the Divine; the second to act in the firm conviction that the result, whatever it may be, is the result of the Divine's working; the third is to be free from desire of any specific result."
 > — *The Synthesis of Yoga*, Part I, CWSA 23
 
-The crucial methodological consequence: surrender, in the integral yoga, is *not* renunciation. Renunciation gives up the world as a strategy for liberation; surrender gives the world *to the divine* as an act of recognition that the world is already the divine's. The shift is structural. Renunciation operates from poverty (*here is what I have, and I forgo it*); surrender operates from fullness (*here is what I have, and I recognise that it has always been yours*).
+The crucial methodological consequence: surrender, in the integral yoga, is *not* renunciation. Renunciation gives up the world as a strategy for liberation; surrender gives the world *to the divine* as an act of recognition that the world is already the divine's. The shift is structural. Renunciation operates from poverty (*here is what I have, and I forgo it*); surrender operates from fullness (*here is what I have, and I recognize that it has always been yours*).
 
 The bearing on the position is direct. The user's T10 — *total surrender as logical continuation* — has its primary articulation here. The surrender-from-fullness formula maps to Abhinavagupta's *pūrṇatva-icchā* (the will-arising-from-fullness) and *viraha-bhakti* (the longing of the lover for the beloved that is itself the form of union). The structural insight that surrender is not renunciation is what makes the position not a quietism: the world is not abandoned, it is *given to the divine*, and the action that proceeds is the divine's action through the surrendered individual. Right action follows; what is forbidden is only the ego-arrogation of corrective interventions, the *pramāṇa-bully* claim to cognitive mastery over the divine unfolding.
 
@@ -449,9 +449,9 @@ Part II — "The Yoga of Integral Knowledge" — is Aurobindo's reformulation of
 
 The decisive move in Part II — distinguishing it from classical Advaita's *jñānayoga* — is the integration of Knowledge with Action and Love. Knowledge is not the contemplative attainment that leaves the work and the love behind. The integral knowledge is the knowledge that *includes* the work and the love within itself, because the integral Real is the work-Real and the love-Real and the knowledge-Real simultaneously.
 
-The chapters on "The Realisation of the Cosmic Self," "The Modes of the Self," "The Realisation of Sachchidananda" articulate the determinate trajectory: the seeker realises first the cosmic Self (the One pervading all), then the modes of the Self (the One as different determinate modalities), then *Saccidānanda* in its integral self-statement. Each realisation is real; the integral state is the holding of all three together.
+The chapters on "The Realization of the Cosmic Self," "The Modes of the Self," "The Realization of Sachchidananda" articulate the determinate trajectory: the seeker realizes first the cosmic Self (the One pervading all), then the modes of the Self (the One as different determinate modalities), then *Saccidānanda* in its integral self-statement. Each realization is real; the integral state is the holding of all three together.
 
-The chapters on "The Difficulties of the Mental Being," "The Passive and the Active Brahman," "The Cosmic Consciousness," "Oneness," "The Soul and Nature" lay out the difficulties that arise in the actual trajectory: the mental being, by its nature, tends to absolutise whichever mode of the Self it has most recently realised. The passive Brahman absolutised becomes Mayāvāda; the active Brahman absolutised becomes a kind of cosmotheism that loses the silent ground; the cosmic consciousness absolutised becomes a pantheism that erases the supracosmic. The integral yoga is the patient holding-together of the modes against the mind's tendency to absolutise.
+The chapters on "The Difficulties of the Mental Being," "The Passive and the Active Brahman," "The Cosmic Consciousness," "Oneness," "The Soul and Nature" lay out the difficulties that arise in the actual trajectory: the mental being, by its nature, tends to absolutize whichever mode of the Self it has most recently realized. The passive Brahman absolutized becomes Mayāvāda; the active Brahman absolutized becomes a kind of cosmotheism that loses the silent ground; the cosmic consciousness absolutized becomes a pantheism that erases the supracosmic. The integral yoga is the patient holding-together of the modes against the mind's tendency to absolutize.
 
 The crucial chapters at the end of Part II are XXII–XXIV: "Vijnana or Gnosis," "The Conditions of Attainment to the Gnosis," "Gnosis and Ananda." Here Aurobindo articulates the supramental register from the side of knowledge: *vijñāna* (in his technical sense, the supramental Truth-Consciousness, not the *vijñānamaya kośa*) is the register at which knowledge is by identity rather than by separation, and the conditions of its attainment are specifiable but not algorithmic. The conditions are: the patient transformation of the lower instruments (mind, life, body) to permeability; the receptivity to the descent of the supramental from above; the *psychic* opening that orients the whole personality around the soul-spark.
 
@@ -463,11 +463,11 @@ Part III — "The Yoga of Divine Love" — is Aurobindo's reformulation of *bhak
 
 The structural claim is that *bhakti* is not a path *for* the affective alongside *jñāna* for the cognitive and *karma* for the volitive. *Bhakti* is the affective register of the *integral* yoga — the heart's discipline within the same architecture as the will's and the mind's disciplines. The integration is at the level of the integral being: the heart's surrender is the same surrender as the will's surrender and the mind's identity-recovery, articulated in the affective register.
 
-The decisive chapter is Ch. 5, "The Divine Personality." Aurobindo argues that the divine *is* personal, in the precise sense that the Real has a personal poise (Īśvara, Krishna, the Mother) that is as real as its impersonal poise (Brahman, *nirviśeṣa*). The classical *bhakti* tradition has correctly identified this personal poise as the locus of devotional relationship; the classical *jñāna* tradition has correctly identified the impersonal poise as the locus of identity-realisation; the integral yoga holds both as real, with the personal and impersonal as two poises of one Real (echoing the *saguṇa-nirguṇa* discussion in *The Mother* — see Part VIII below). 
+The decisive chapter is Ch. 5, "The Divine Personality." Aurobindo argues that the divine *is* personal, in the precise sense that the Real has a personal poise (Īśvara, Krishna, the Mother) that is as real as its impersonal poise (Brahman, *nirviśeṣa*). The classical *bhakti* tradition has correctly identified this personal poise as the locus of devotional relationship; the classical *jñāna* tradition has correctly identified the impersonal poise as the locus of identity-realization; the integral yoga holds both as real, with the personal and impersonal as two poises of one Real (echoing the *saguṇa-nirguṇa* discussion in *The Mother* — see Part VIII below). 
 
 The closing chapters (VII "The Ananda Brahman" and VIII "The Mystery of Love") articulate the supreme insight of Aurobindonian *bhaktiyoga*: love, in its integral form, is not the affective response to a personal Beloved separate from the lover, nor the dissolution of the lover-beloved distinction in unitive identity, but the *acintya-bhedābheda* of love itself — the simultaneity of lover, beloved, and the love-act, held as one poise without erasing the threefold-ness. This is structurally the apprehending poise of I.16 transposed into the affective register.
 
-The bearing on the position is at T6 (progressive evolution of individual-divine relationship). The Vaiṣṇava bhakti tradition's insight — that the highest *rasa* is the loving relation, not the dissolution of relation — is preserved by Aurobindo as a register-true insight that maps to the apprehending poise. The Advaitic insight — that the deepest realisation is identity — is also preserved, mapping to the comprehending poise. The integral yoga of love is the lived form of both poises held simultaneously.
+The bearing on the position is at T6 (progressive evolution of individual-divine relationship). The Vaiṣṇava bhakti tradition's insight — that the highest *rasa* is the loving relation, not the dissolution of relation — is preserved by Aurobindo as a register-true insight that maps to the apprehending poise. The Advaitic insight — that the deepest realization is identity — is also preserved, mapping to the comprehending poise. The integral yoga of love is the lived form of both poises held simultaneously.
 
 ### Part IV — The Yoga of Self-Perfection
 
@@ -475,7 +475,7 @@ Part IV — "The Yoga of Self-Perfection" — is the longest part (twenty-six ch
 
 The opening chapters ("The Principle of the Integral Yoga," "The Integral Perfection," "The Psychology of Self-Perfection") lay out the architectural claim: the integral perfection is the perfection of *all* parts of the being — physical, vital, mental, supramental — in their proper relations. No part is to be left untransformed; no part is to be perfected at the expense of the others.
 
-The middle chapters (IV–X) articulate the *purification* and the *liberation*: purification of the lower mentality, of intelligence and will; liberation of the spirit, of the nature; the elements of perfection. The methodological structure is determinate: each instrument must be purified of the ego-organisation that has been its operating mode in pre-supramental humanity, and then liberated into its supramental operation.
+The middle chapters (IV–X) articulate the *purification* and the *liberation*: purification of the lower mentality, of intelligence and will; liberation of the spirit, of the nature; the elements of perfection. The methodological structure is determinate: each instrument must be purified of the ego-organization that has been its operating mode in pre-supramental humanity, and then liberated into its supramental operation.
 
 Chs. XI–XIII articulate the *perfection of equality* — the equipoise that allows the integral state to operate without the lower instruments' usual distortions. Chs. XIV–XVIII articulate the *power of the instruments* and the *Divine Shakti* — here Aurobindo introduces the doctrine of the four-aspect Mother in its operational dimension. The perfection of the instruments is, finally, the surrender to the Divine Shakti who works through them; *faith and Shakti* (Ch. XVIII) close this section with the structural claim that faith is the receptivity-organ by which the Shakti is admitted into operation.
 
@@ -496,7 +496,7 @@ The phrase "give oneself entirely to the Divine alone" is exactly the user's *to
 
 The yogi does not, ultimately, *do* the yoga; the Mother does it through the yogi who has surrendered. This is the structural complement to the metaphysics: just as the Real is intrinsically *Cit-Tapas* (Consciousness-Force) in the metaphysical articulation, so the integral yoga is intrinsically *the working of the Mother through the surrendered individual* in the praxis articulation.
 
-The "Three Results" of *niṣkāma karma* in Aurobindo's framing (articulated across Parts I and IV) close the architectonic. The actor is freed from ego-binding (*ahaṅkāra*); action becomes universalised — the actor is one with cosmic action; action becomes *transcendentalized* — the actor recognises the supracosmic Divine as the sole doer. The three steps map to the user's ego-action / cosmic-action / supramental-action three-tier, which is the same architecture restated.
+The "Three Results" of *niṣkāma karma* in Aurobindo's framing (articulated across Parts I and IV) close the architectonic. The actor is freed from ego-binding (*ahaṅkāra*); action becomes universalised — the actor is one with cosmic action; action becomes *transcendentalized* — the actor recognizes the supracosmic Divine as the sole doer. The three steps map to the user's ego-action / cosmic-action / supramental-action three-tier, which is the same architecture restated.
 
 ---
 
@@ -504,7 +504,7 @@ The "Three Results" of *niṣkāma karma* in Aurobindo's framing (articulated ac
 
 Aurobindo's *Essays on the Gita* (CWSA 19) is a chapter-by-chapter reading of the *Bhagavadgītā*, originally serialised in *Arya* between 1916 and 1920. It is the work in which Aurobindo is most directly in dialogue with the Vedāntic tradition and where his characteristic moves — the four registers of *adhyātma / adhibhautika / adhidaivika / adhiyajña*, the integration of *parā* and *aparā prakṛti*, the doctrine of the *avatar*, the closing surrender-formula — get their fullest articulation in dialogue with a primary classical text.
 
-The structural reading of the *Gītā* is in two unequal halves, with a transitional middle. Aurobindo argues that the eighteen chapters of the *Gītā* organise into three broad movements of six chapters each. The first six chapters present the path of works (*karmayoga*), with the resolution of Arjuna's crisis through the doctrine of *niṣkāma karma*. The middle six are the path of knowledge and devotion together (the supreme synthesis around the figure of Krishna as the *Puruṣottama*, the supreme person who *is* both *kṣara* and *akṣara*, the *parā* and *aparā prakṛti*). The last six are the path of self-perfection through the *guṇa*-doctrine and the supreme word of surrender that closes the work.
+The structural reading of the *Gītā* is in two unequal halves, with a transitional middle. Aurobindo argues that the eighteen chapters of the *Gītā* organize into three broad movements of six chapters each. The first six chapters present the path of works (*karmayoga*), with the resolution of Arjuna's crisis through the doctrine of *niṣkāma karma*. The middle six are the path of knowledge and devotion together (the supreme synthesis around the figure of Krishna as the *Puruṣottama*, the supreme person who *is* both *kṣara* and *akṣara*, the *parā* and *aparā prakṛti*). The last six are the path of self-perfection through the *guṇa*-doctrine and the supreme word of surrender that closes the work.
 
 ### *Parā / aparā prakṛti* (BG 7.4–5) and the field of *adhyātma*
 
@@ -517,7 +517,7 @@ A representative formulation:
 
 The structural claim is that the *Gītā* has anticipated, in *parā / aparā prakṛti*, what *The Life Divine* will articulate as the relation between the comprehending and projecting poises. The two natures are *both* Krishna's. The field of cosmic action is *also* the divine, in the mode of executive prakriti; the higher nature is *also* the divine, in the mode of conscious-being-as-source. The duality is the *adhyātma* — the field of the spiritual play — within the unity of Krishna as Puruṣottama.
 
-The *adhyātma / adhibhautika / adhidaivika / adhiyajña* fourfold (BG 7.29–8.4) gives the four registers under which the divine play takes place: *adhyātma* (the spiritual register, the inner Self); *adhibhautika* (the elemental-physical register, the field of becoming); *adhidaivika* (the divine register, the powers and personalities of the cosmos); *adhiyajña* (the sacrificial register, the act-of-offering by which the cosmos is sustained). Aurobindo's reading is that these are four registers of one play, none reducible to the others, all simultaneously real. This is structurally the same register-thesis the position generalises across the darśanas (T1).
+The *adhyātma / adhibhautika / adhidaivika / adhiyajña* fourfold (BG 7.29–8.4) gives the four registers under which the divine play takes place: *adhyātma* (the spiritual register, the inner Self); *adhibhautika* (the elemental-physical register, the field of becoming); *adhidaivika* (the divine register, the powers and personalities of the cosmos); *adhiyajña* (the sacrificial register, the act-of-offering by which the cosmos is sustained). Aurobindo's reading is that these are four registers of one play, none reducible to the others, all simultaneously real. This is structurally the same register-thesis the position generalizes across the darśanas (T1).
 
 ### The avatar doctrine (BG 4.7–8)
 
@@ -531,11 +531,11 @@ The chapters on action — "The Yoga of the Intelligent Will," "Works and Sacrif
 
 The classical *Gītā* doctrine: action is to be performed without attachment to the fruits (*karmaṇy evādhikāras te mā phaleṣu kadācana*, BG 2.47). Aurobindo's extension: action is to be performed *as* the Divine's act through the surrendered individual (*nimitta-mātra*, BG 11.33) — not just without ego-attachment to fruits but without ego-arrogation of agency. The agent is the Divine; the human is the medium.
 
-This is what the position calls T8 — *action as lawful unfolding via sākṣi-caitanya, not pramāṇa-caitanya*. The witness consciousness *receives* the act as the Divine's; the bully-consciousness *imposes* an act as the ego's. Aurobindo's first two principles correspond to the classical *niṣkāma karma*; his third — that the Divine is the only doer — corresponds to the integral extension. The position generalises: the witness mode is sustainable because the Divine is the actor; the bully mode is unsustainable because the ego cannot, finally, sustain its claim to cognitive mastery over the divine unfolding.
+This is what the position calls T8 — *action as lawful unfolding via sākṣi-caitanya, not pramāṇa-caitanya*. The witness consciousness *receives* the act as the Divine's; the bully-consciousness *imposes* an act as the ego's. Aurobindo's first two principles correspond to the classical *niṣkāma karma*; his third — that the Divine is the only doer — corresponds to the integral extension. The position generalizes: the witness mode is sustainable because the Divine is the actor; the bully mode is unsustainable because the ego cannot, finally, sustain its claim to cognitive mastery over the divine unfolding.
 
 ### *Sarva-dharmān parityajya* (BG 18.66) as *prapatti*
 
-The closing chapters — "Towards the Supreme Secret," "The Supreme Secret," "The Core of the Gita's Meaning," "The Message of the Gita" — read the *Gītā*'s final movement (Ch. 18) culminating in the supreme word of surrender:
+The closing chapters — "Toward the Supreme Secret," "The Supreme Secret," "The Core of the Gita's Meaning," "The Message of the Gita" — read the *Gītā*'s final movement (Ch. 18) culminating in the supreme word of surrender:
 
 *sarva-dharmān parityajya, mām ekaṁ śaraṇaṁ vraja /
 ahaṁ tvāṁ sarva-pāpebhyo mokṣayiṣyāmi, mā śucaḥ //* (BG 18.66)
@@ -554,7 +554,7 @@ The closing essays on "The Three Purushas," "The Fullness of Spiritual Action," 
 
 *The Secret of the Veda* (CWSA 15, serialised in *Arya* 1914–16) and *Hymns to the Mystic Fire* (CWSA 16, the translations and commentaries on the Agni hymns) together constitute Aurobindo's recovery of the *Ṛgveda* as a spiritual document of the same order as the Upaniṣads — interior, symbolic, and continuous with the later Vedāntic tradition rather than separated from it by the *Vedāntic*-vs-*Vedic* dichotomy that the Mīmāṃsā tradition had naturalised.
 
-The polemical context. Nineteenth-century Indology, following Max Müller, had read the *Ṛgveda* as primitive nature-worship — hymns to natural forces (the dawn, the wind, the rain, the fire) by a pre-philosophical people. The Indian orthodoxy, following Sāyaṇa's fourteenth-century commentary, had read it as a karma-kāṇḍa text — instructions for ritual action, with the deities as ritual addressees and the hymns as efficacious in the ritual context. Aurobindo's argument, developed across *Secret* and *Hymns*, is that *both* readings are partial and that the *Ṛgveda* is, primarily, a record of inner spiritual experience couched in deliberately symbolic-mantric language — a "secret of the Vedic Ṛṣis" that the later tradition partly preserved and partly externalised.
+The polemical context. Nineteenth-century Indology, following Max Müller, had read the *Ṛgveda* as primitive nature-worship — hymns to natural forces (the dawn, the wind, the rain, the fire) by a pre-philosophical people. The Indian orthodoxy, following Sāyaṇa's fourteenth-century commentary, had read it as a karma-kāṇḍa text — instructions for ritual action, with the deities as ritual addressees and the hymns as efficacious in the ritual context. Aurobindo's argument, developed across *Secret* and *Hymns*, is that *both* readings are partial and that the *Ṛgveda* is, primarily, a record of inner spiritual experience couched in deliberately symbolic-mantric language — a "secret of the Vedic Ṛṣis" that the later tradition partly preserved and partly externalized.
 
 ### The symbolic-mantric reading
 
@@ -567,9 +567,9 @@ The central interpretive moves, articulated across *Secret of the Veda* Chs. VI�
 
 ### Sāyaṇa-vs-Aurobindo
 
-Aurobindo is careful that his interior reading does not *displace* Sāyaṇa's ritual reading. Sāyaṇa is *not wrong*; he is *externalised*. The ritual reading captures a real register — the karma-kāṇḍa register — at which the hymns operate. The interior reading captures a different register — the *jñāna-kāṇḍa* register — at which the hymns operate simultaneously. The *Ṛgveda*, on Aurobindo's account, has been deliberately constructed as a multi-register text whose surface is ritual instruction and whose depth is spiritual psychology.
+Aurobindo is careful that his interior reading does not *displace* Sāyaṇa's ritual reading. Sāyaṇa is *not wrong*; he is *externalized*. The ritual reading captures a real register — the karma-kāṇḍa register — at which the hymns operate. The interior reading captures a different register — the *jñāna-kāṇḍa* register — at which the hymns operate simultaneously. The *Ṛgveda*, on Aurobindo's account, has been deliberately constructed as a multi-register text whose surface is ritual instruction and whose depth is spiritual psychology.
 
-The bearing on the position is at T1 (Darśana Register Thesis). The Vedic Ṛṣis themselves operated with register-distinctions: the karma register and the *jñāna* register; the *adhibhautika* and the *adhyātmika*; the outer fire of the ritual altar and the inner fire of *Agni* in the heart. The Mayāvādin reduction of all knowledge to *vyāvahārika* and *pāramārthika* is, on this reading, a *flattening* of an already-rich register-architecture. The position generalises this register-thinking to the six darśanas; Aurobindo gives it Vedic anchorage.
+The bearing on the position is at T1 (Darśana Register Thesis). The Vedic Ṛṣis themselves operated with register-distinctions: the karma register and the *jñāna* register; the *adhibhautika* and the *adhyātmika*; the outer fire of the ritual altar and the inner fire of *Agni* in the heart. The Mayāvādin reduction of all knowledge to *vyāvahārika* and *pāramārthika* is, on this reading, a *flattening* of an already-rich register-architecture. The position generalizes this register-thinking to the six darśanas; Aurobindo gives it Vedic anchorage.
 
 ### The Three Goddesses and the supramental ladder
 
@@ -577,13 +577,13 @@ A specific cluster of chapters in *Secret of the Veda* (especially "Saraswati an
 
 ### *Hymns to the Mystic Fire*
 
-*Hymns to the Mystic Fire* (CWSA 16) is Aurobindo's translation and commentary on the Agni hymns of the *Ṛgveda*. The work is in three parts: (I) the foreword and "Doctrine of the Mystics," with selected hymns; (II) the bulk of the Agni-hymns, organised by Maṇḍala; (III) the verse-by-verse commentaries. *Agni* — the inner fire, the *priest* who carries the offering, the *seer* who knows the path, the *power* that effects the recovery — is for Aurobindo the central symbolic figure of the entire *Ṛgveda*. The Agni-hymns are not addressed to a deity-of-fire-as-natural-element; they are addressed to *Agni* as the inner fire of aspiration, the divine flame in the heart that carries the soul toward the Truth-Consciousness.
+*Hymns to the Mystic Fire* (CWSA 16) is Aurobindo's translation and commentary on the Agni hymns of the *Ṛgveda*. The work is in three parts: (I) the foreword and "Doctrine of the Mystics," with selected hymns; (II) the bulk of the Agni-hymns, organized by Maṇḍala; (III) the verse-by-verse commentaries. *Agni* — the inner fire, the *priest* who carries the offering, the *seer* who knows the path, the *power* that effects the recovery — is for Aurobindo the central symbolic figure of the entire *Ṛgveda*. The Agni-hymns are not addressed to a deity-of-fire-as-natural-element; they are addressed to *Agni* as the inner fire of aspiration, the divine flame in the heart that carries the soul toward the Truth-Consciousness.
 
 The bearing on the position is at the level of contemplative-praxis grounding for the metaphysical claims. The doctrine of *involution-evolution* (the descent of integral consciousness into matter, the ascent through life and mind toward supermind) is, in Aurobindo's reading of the *Hymns*, already the doctrine the Vedic Ṛṣis were articulating in mantric form: the *Agni* in the heart is the divine spark that the cosmic descent has placed in matter, and the *Agni*-as-fire-of-aspiration is the same spark turning back toward its source.
 
 ### *Bhṛguvallī* (Taittirīya III) as paradigm of register-progression
 
-A note that crosses *Secret of the Veda* and the Upaniṣadic commentaries (CWSA 17–18). The *Taittirīya Upaniṣad*'s third *vallī* — the *Bhṛguvallī* — gives the structural paradigm of register-progression. Bhṛgu, son of Varuṇa, asks his father to teach him Brahman. Varuṇa instructs him: that from which these beings are born, by which they live, into which they enter — that is Brahman. Bhṛgu undertakes *tapas* (austerity) and successively realises Brahman as *anna* (food/matter), as *prāṇa* (life), as *manas* (mind), as *vijñāna* (knowledge), and finally as *ānanda* (bliss).
+A note that crosses *Secret of the Veda* and the Upaniṣadic commentaries (CWSA 17–18). The *Taittirīya Upaniṣad*'s third *vallī* — the *Bhṛguvallī* — gives the structural paradigm of register-progression. Bhṛgu, son of Varuṇa, asks his father to teach him Brahman. Varuṇa instructs him: that from which these beings are born, by which they live, into which they enter — that is Brahman. Bhṛgu undertakes *tapas* (austerity) and successively realizes Brahman as *anna* (food/matter), as *prāṇa* (life), as *manas* (mind), as *vijñāna* (knowledge), and finally as *ānanda* (bliss).
 
 The structural claim of the *Bhṛguvallī* is that each register is *real* as Brahman, and each is *subsumed* by the next without being abolished. *Anna* is real as Brahman; *prāṇa* is also real as Brahman, and includes *anna*; *manas* is also real as Brahman, and includes *prāṇa*; and so on, up to *ānanda*. This is the Upaniṣadic paradigm of the multiplicative-non-substitutive structure that Aurobindo's *Life Divine* will systematise as the supramental ladder.
 
@@ -608,7 +608,7 @@ The most decisive letter for the user's T2 and T7 is the "Realistic Adwaita" let
 
 Companion letters in the same volume elaborate. Mayāvāda in its strict form makes Brahman *constitutively unrelated* to its supposed illusion (the *jagat*), which is unintelligible: if Brahman is the only Real, then the relation "is illusion of" cannot link Brahman to the *jagat*, since the relation requires two terms and there is, by hypothesis, only one Real term. The *vyāvahārika / pāramārthika* distinction is best read as a *hierarchy of registers* (the lower less-comprehensive than the higher), not as a real / unreal dichotomy. *Mithyā ≠ asat*: world is sublatable in the sense of "transcendable from a higher standpoint," not "non-existent."
 
-The letters in CWSA 29, Part III, Section II, Chapter VI ("The Adwaita of Shankaracharya") give Aurobindo's most direct engagement with Śaṅkara. Aurobindo is generous: Śaṅkara's realisation is real, and what he attained is the static silence of the pure Existence in the spiritual Mind. What Śaṅkara did not attain — and what the strict Mayāvāda formulation forecloses — is the integration of the static silence with the active dynamism of the Real, the apprehending poise that holds the One *as* the Many. The letter quoted in Part II above ("The Shankara knowledge is… only one side of the Truth") is the laconic articulation. The Śaṅkara realisation is *one side*; the integral realisation includes it but adds the apprehending and projecting poises.
+The letters in CWSA 29, Part III, Section II, Chapter VI ("The Adwaita of Shankaracharya") give Aurobindo's most direct engagement with Śaṅkara. Aurobindo is generous: Śaṅkara's realization is real, and what he attained is the static silence of the pure Existence in the spiritual Mind. What Śaṅkara did not attain — and what the strict Mayāvāda formulation forecloses — is the integration of the static silence with the active dynamism of the Real, the apprehending poise that holds the One *as* the Many. The letter quoted in Part II above ("The Shankara knowledge is… only one side of the Truth") is the laconic articulation. The Śaṅkara realization is *one side*; the integral realization includes it but adds the apprehending and projecting poises.
 
 The chapter "A Realistic Adwaita" (CWSA 29, Part III, Section I, Chapter III) is the systematic exposition of the Realistic Adwaita position in letter-form. It should be read in conjunction with [*The Life Divine* II.I.5–6](cite://aurobindo/the-life-divine/II.I.5-6) as the polemical complement to the systematic chapters.
 
@@ -626,7 +626,7 @@ Each plane is described in characteristic detail across the letters:
 - **Overmind:** cosmic consciousness; the "Golden Lid" of *Iśa Upaniṣad* 15 (the *hiraṇmaya pātra* that conceals the face of the Truth); gods as cosmic Powers; multiplicity within unity. The Overmind, Aurobindo says repeatedly, is what the highest classical mystics — Śaṅkara, the Buddha, the great Sufis — have reached.
 - **Supermind:** Truth-Consciousness proper; non-difference of unity and multiplicity; *vijñāna* in Aurobindo's technical sense.
 
-The Overmind / Supermind distinction is decisive. In a series of letters in CWSA 28 and CWSA 29, Aurobindo is repeatedly clear that even the highest classical realisations have been of the Overmind, not the Supermind. The supramental *descent* into matter — the terrestrial event of 29 February 1956 — is what Aurobindo and the Mother claim as the new evolutionary step. This claim is one of Aurobindo's most striking and most easily caricatured. The letters give the careful articulation: the Overmind is real, profound, terminal in the classical traditions; the Supermind is the further register that the integral yoga aims at, and whose terrestrial descent has only recently begun.
+The Overmind / Supermind distinction is decisive. In a series of letters in CWSA 28 and CWSA 29, Aurobindo is repeatedly clear that even the highest classical realizations have been of the Overmind, not the Supermind. The supramental *descent* into matter — the terrestrial event of 29 February 1956 — is what Aurobindo and the Mother claim as the new evolutionary step. This claim is one of Aurobindo's most striking and most easily caricatured. The letters give the careful articulation: the Overmind is real, profound, terminal in the classical traditions; the Supermind is the further register that the integral yoga aims at, and whose terrestrial descent has only recently begun.
 
 The bearing on the position is at the auxiliary integration with Gebser. Gebser's 1966 preface to *Ursprung und Gegenwart* explicitly identifies his "integral-aperspectival" register with Aurobindo's "supramental." The position joins Gebser's diaphany / verition / synairesis — terms describing the integral-aperspectival mode — with Aurobindo's supramental as articulating the same register from two cultural archives.
 
@@ -656,11 +656,11 @@ The letters on the witness attitude (CWSA 30, Part III, Section II, Chapter II �
 
 The bearing on T8 is direct. The user's distinction between *sākṣi-caitanya* (lawful unfolding via witness consciousness) and *pramāṇa-caitanya* (epistemic-bully cognitive mastery) maps to Aurobindo's witness-attitude letters. The witness *receives* the divine unfolding; the bully *imposes* a cognitive frame on it.
 
-### G. Self-realisation vs. Divine Life (CWSA 29)
+### G. Self-realization vs. Divine Life (CWSA 29)
 
-A recurring theme across CWSA 29: traditional spiritual paths aim at *Self-realisation* (mokṣa, identity with Brahman, exit from saṃsāra). Aurobindo's integral yoga aims further: *transformation of nature* on earth, *divine life in the body*. Self-realisation is the *first half*; divine life is the *second half*. The Triple Transformation (psychic / spiritual / supramental) is the structural articulation.
+A recurring theme across CWSA 29: traditional spiritual paths aim at *Self-realization* (mokṣa, identity with Brahman, exit from saṃsāra). Aurobindo's integral yoga aims further: *transformation of nature* on earth, *divine life in the body*. Self-realization is the *first half*; divine life is the *second half*. The Triple Transformation (psychic / spiritual / supramental) is the structural articulation.
 
-The bearing on T6 and T9 is direct. The Vaiṣṇava panentheist critique of Mayāvāda — that pure non-dual meditative withdrawal *negates* the effulgent ongoing manifestation — is preserved in Aurobindo's letters as the structural reason for going *beyond* Self-realisation toward the divine life. The Real does not stop at being known by the silent Self; the Real is also the active manifestation, and the integral yoga is therefore the integration of Self-realisation with the transformation-of-the-active-manifestation. Mokṣa is real; the divine life is its further register.
+The bearing on T6 and T9 is direct. The Vaiṣṇava panentheist critique of Mayāvāda — that pure non-dual meditative withdrawal *negates* the effulgent ongoing manifestation — is preserved in Aurobindo's letters as the structural reason for going *beyond* Self-realization toward the divine life. The Real does not stop at being known by the silent Self; the Real is also the active manifestation, and the integral yoga is therefore the integration of Self-realization with the transformation-of-the-active-manifestation. Mokṣa is real; the divine life is its further register.
 
 ### A note on reading the *Letters*
 
@@ -696,7 +696,7 @@ Its load-bearing doctrine is the fourfold articulation of that one consciousness
 
 The four are functional, not hierarchical: wisdom as widening-comprehending poise, force as transforming and time-cutting poise, harmony as integrating beauty, perfection as exact execution. Mahakali matters most for the user's Forms thesis. Read literally, Aurobindo's Mahakali is not an allegory of intensity but the divine force in its dissolution-and-acceleration modality, which is why the user's Kālī-map of force / dissolution / lucidity / time fits here so closely. The iconography is not decorative shorthand for an abstraction; it is compressed ontology.
 
-A subtle Aurobindonian point in the *Letters on the Mother*. In one letter (CWSA 32, p. 65), a disciple reports seeing Athena and asks whether she is a form or representation of Maheshwari. Aurobindo's reply: "as to the Gods, man can build forms which they will accept; but these forms too are inspired into man's mind from the planes to which the God belongs… a Godhead can take many forms, here Maheshwari, there Pallas Athene." The doctrine permits cross-cultural identification at the *modality* level: Athena and Maheshwari are *the same Godhead* taking different forms inspired by different cultural registers; the same wisdom-modality articulates itself through the Greek and through the Indian iconographic vocabularies. This is the user's Forms thesis given direct Aurobindonian sanction: cross-cultural recurrence is not embarrassment; it is evidence that the same modalities are real and recognisable across cultural articulations.
+A subtle Aurobindonian point in the *Letters on the Mother*. In one letter (CWSA 32, p. 65), a disciple reports seeing Athena and asks whether she is a form or representation of Maheshwari. Aurobindo's reply: "as to the Gods, man can build forms which they will accept; but these forms too are inspired into man's mind from the planes to which the God belongs… a Godhead can take many forms, here Maheshwari, there Pallas Athene." The doctrine permits cross-cultural identification at the *modality* level: Athena and Maheshwari are *the same Godhead* taking different forms inspired by different cultural registers; the same wisdom-modality articulates itself through the Greek and through the Indian iconographic vocabularies. This is the user's Forms thesis given direct Aurobindonian sanction: cross-cultural recurrence is not embarrassment; it is evidence that the same modalities are real and recognizable across cultural articulations.
 
 Read the four-aspect doctrine with Aurobindo's *saguna / nirguna* discussions in the *Letters*: the Mother is the Divine in executive-personal poise, not a separate deity added to an impersonal absolute. This is where T6, T7, T9, and the Forms thesis meet. Divine forms are real modalities of divine operation; cross-cultural recurrences are therefore evidence of shared ontological structures rather than embarrassments to be allegorised away.
 
@@ -704,7 +704,7 @@ Read the four-aspect doctrine with Aurobindo's *saguna / nirguna* discussions in
 
 The Mother's central metaphysical claim of the late period is the doctrine of the *supramental descent*. The supramental, until 1956, has been operative in the cosmic and individual modes (the supramental world exists; supramental experiences have been had); what has not occurred is the *terrestrial* manifestation of the supramental in the earth's subtle physical, the descent that opens the possibility of the gnostic being and the divine life as collective evolutionary trajectories.
 
-The decisive date is **29 February 1956** — a leap-day chosen, the Mother said, because the manifestation needed a date that was both real and outside the ordinary calendrical sequence. The Mother's own report (from *Mother's Agenda* and the *Bulletin of Sri Aurobindo International Centre of Education*, June 1956) is brief: in the course of the regular Wednesday class, the supramental Light, Force, Consciousness manifested in the earth's subtle physical, "not as an individual experience but as a terrestrial happening." From this date forward, in the Mother's reading, the supramental is established in the earth's atmosphere; the work that follows is the consolidation, descent into successively grosser planes, and gradual transformation of the human individual and collective.
+The decisive date is **29 February 1956** — a leap-day chosen, the Mother said, because the manifestation needed a date that was both real and outside the ordinary calendrical sequence. The Mother's own report (from *Mother's Agenda* and the *Bulletin of Sri Aurobindo International Center of Education*, June 1956) is brief: in the course of the regular Wednesday class, the supramental Light, Force, Consciousness manifested in the earth's subtle physical, "not as an individual experience but as a terrestrial happening." From this date forward, in the Mother's reading, the supramental is established in the earth's atmosphere; the work that follows is the consolidation, descent into successively grosser planes, and gradual transformation of the human individual and collective.
 
 ### *Mother's Agenda* (pointer only)
 
@@ -744,7 +744,7 @@ The voice-input question, restated: the non-dual divine creates novel multiplici
 
 Convergence: Madhva's *viśeṣa* (real distinction without pluralism); Caitanya's *acintya-bhedābheda* (simultaneity of difference and non-difference); all three point at the same shape — real difference, real non-difference, no reduction.
 
-Aurobindo extends in two ways. First, the *triple status* gives structural articulation: comprehending, apprehending, projecting are three discriminable poises whose simultaneity is the integral condition — more determinate than *acintya*. Where Caitanya rests in the apophatic, Aurobindo takes the next step: the simultaneity is inconceivable from any mental standpoint but *is* the native mode of the supramental. Second, the supramental is *lived*: a register the psychic being can stably inhabit, not only point at. Madhva and Caitanya rest in devotional realisation; Aurobindo adds the further register.
+Aurobindo extends in two ways. First, the *triple status* gives structural articulation: comprehending, apprehending, projecting are three discriminable poises whose simultaneity is the integral condition — more determinate than *acintya*. Where Caitanya rests in the apophatic, Aurobindo takes the next step: the simultaneity is inconceivable from any mental standpoint but *is* the native mode of the supramental. Second, the supramental is *lived*: a register the psychic being can stably inhabit, not only point at. Madhva and Caitanya rest in devotional realization; Aurobindo adds the further register.
 
 Madhva and Caitanya are register-precursors of Aurobindo: their *bheda* / *bhedābheda* / *acintya-bhedābheda* is the apprehending-poise articulation Aurobindo integrates into the full triple-status architecture.
 
@@ -752,25 +752,25 @@ Madhva and Caitanya are register-precursors of Aurobindo: their *bheda* / *bhed�
 
 Convergence: Deleuze's univocity (*being is said in one and the same sense of all that of which it is said, but that of which it is said differs*) is structurally identical to triple status — unity of voice (comprehending) and irreducible difference (projecting). Both refuse analogical hierarchy and totalising synthesis. Eternal-return-as-return-of-difference matches involution-evolution: difference under pattern, not the Same.
 
-Divergence: Deleuze's mature univocity is *impersonal* — no privileged centre, no irreducible individual. Without the apprehending poise (the One holding the Many *as its own*), univocity risks the flatness it sought to avoid. Aurobindo's psychic being is the locus of the through-all; diaphany is realised *in and as* a particular psychic being. Deleuze is structural ally on the comprehending pole; he needs the apprehending and projecting to avoid impersonalism.
+Divergence: Deleuze's mature univocity is *impersonal* — no privileged center, no irreducible individual. Without the apprehending poise (the One holding the Many *as its own*), univocity risks the flatness it sought to avoid. Aurobindo's psychic being is the locus of the through-all; diaphany is realized *in and as* a particular psychic being. Deleuze is structural ally on the comprehending pole; he needs the apprehending and projecting to avoid impersonalism.
 
 ### IX.4 — The four-point break with Hegel
 
 **(i) No totalising Geist.** Hegel's Spirit is the universal whose self-development the cosmos *is*; the individual is moment, retained in higher unity. Aurobindo's Real has no such totalising structure. The cosmos is *līlā*, not *Logik*'s working-itself-out.
 
-**(ii) Individuation is irreducible.** Hegel's individual is moment of the universal. Aurobindo's psychic being is *eternally* a poise of the Real, not moment of anything. *Aufgehoben* rejected in favour of *transformed-while-remaining-irreducible*.
+**(ii) Individuation is irreducible.** Hegel's individual is moment of the universal. Aurobindo's psychic being is *eternally* a poise of the Real, not moment of anything. *Aufgehoben* rejected in favor of *transformed-while-remaining-irreducible*.
 
 **(iii) Evolution is real, not allegory.** Hegel's "history" is universal Spirit's self-coming-to-knowledge in time. Aurobindo's involution-evolution is real *cosmologically*: the descent of integral consciousness into matter, the ascent through life and mind toward supermind, the supramental descent of 1956 as new phase. No allegorical reading possible.
 
 **(iv) Supramental is a real new register, not Vernunft.** Hegel's *Vernunft* is the highest *mental* power; *vijñāna* is *post-mental*, structurally beyond Mind altogether. Not Hegelian reason intensified — a new ontological register.
 
-The position is built on this break. *Aufhebung* is recast as involution-evolution-transformation: what is integrated remains real *as itself*. Hegel's category error — ontologised grammar — joins Nietzsche's "we are not rid of God because we still have faith in grammar" to the Aurobindonian metaphysical alternative.
+The position is built on this break. *Aufhebung* is recast as involution-evolution-transformation: what is integrated remains real *as itself*. Hegel's category error — ontologized grammar — joins Nietzsche's "we are not rid of God because we still have faith in grammar" to the Aurobindonian metaphysical alternative.
 
 ### IX.5 — Six distinctive extensions beyond Aurobindo
 
 **(i) McGilchrist's hemispheric corroboration.** Identity-knowledge / separative-knowledge (LD II.I.10) homologous with right-hemispheric Master / left-hemispheric Emissary. Aurobindo gives McGilchrist a metaphysical articulation; McGilchrist gives Aurobindo a contemporary scientific anchor.
 
-**(ii) Six-darśana register-precision.** Aurobindo's Two-Negations diagnostic generalises naturally to register thesis across all six darśanas; Aurobindo does not perform the generalisation systematically. Structural infrastructure: LD II.I.2 (Brahman-Puruṣa-Īśvara / Maya-Prakṛti-Śakti).
+**(ii) Six-darśana register-precision.** Aurobindo's Two-Negations diagnostic generalizes naturally to register thesis across all six darśanas; Aurobindo does not perform the generalization systematically. Structural infrastructure: LD II.I.2 (Brahman-Puruṣa-Īśvara / Maya-Prakṛti-Śakti).
 
 **(iii) Sarvāmnāya bridge.** Joining Realistic Advaita to Sarvāmnāya Tantra (Timalsina's Nepali Śaiva-Śākta lineage), with its mandala including Madhva, Rāmānuja, Śaṅkara, even (inclusivist) Cārvāka. Aurobindo did not engage these sources.
 
@@ -802,7 +802,7 @@ For the user returning to Aurobindo's primary text with the architecture in hand
 
 9. **Mother's Agenda** — read selectively alongside the rest: Vols. I–III for the descent, later volumes for the body-work.
 
-Then add, as needed: *The Human Cycle* / *The Ideal of Human Unity* for the political theses, *The Secret of the Veda* and *Hymns to the Mystic Fire* for the Vedic register, and *Record of Yoga* last, once the metaphysics and praxis are already internalised.
+Then add, as needed: *The Human Cycle* / *The Ideal of Human Unity* for the political theses, *The Secret of the Veda* and *Hymns to the Mystic Fire* for the Vedic register, and *Record of Yoga* last, once the metaphysics and praxis are already internalized.
 
 ### IX.7 — A final word on what *not* to do
 
@@ -810,13 +810,13 @@ Do not collapse Aurobindo to Vedānta-restatement; the Two-Negations chapters, t
 
 Do not read Aurobindo as Hegel-supplement; the structural break on totalising Geist, irreducible individuation, real evolution, and post-mental supermind is at every point. The temptation to read Aurobindo as "Indian Hegel" should be resisted; the systematic ambition is shared, the metaphysical commitments are not.
 
-Do not lift quotations out of the dialectical context in which they are made; Aurobindo is, despite his breadth, an arguer — every chapter has an interlocutor whose position is being granted, then dis-absolutised, and reading for that interlocutor is the discipline by which Aurobindo's prose stops being mystifying and becomes the patient philosophical work that it is.
+Do not lift quotations out of the dialectical context in which they are made; Aurobindo is, despite his breadth, an arguer — every chapter has an interlocutor whose position is being granted, then dis-absolutized, and reading for that interlocutor is the discipline by which Aurobindo's prose stops being mystifying and becomes the patient philosophical work that it is.
 
 Do not confuse the registers. Aurobindo's *vijñāna* is not Ramakrishna's *vijñāna* and not the *vijñānamaya kośa*; his *māyā* is not the Mayāvādin's *māyā*; his *avidyā* is not mere absence; his "supramental" is not the spiritual Mind, not the Overmind, and not Hegelian *Vernunft*. The technical vocabulary is precise; the precision is what makes the architecture coherent.
 
 Do not read *Savitri* or *Mother's Agenda* without the metaphysics. They will produce devotional aesthetic experiences that have their own value but will not give the position the structural articulation it requires. The metaphysics is the discipline; the imaginative-mantric and the experiential complement it but do not substitute for it.
 
-Do not, finally, mistake the position for syncretism. The position is *not* "all paths the same." It is the rigorous register-thesis that different paths address different registers of one Real, with each register-truth real *as* register-truth and the integral state being the through-all rather than the dominance of any one register. Aurobindo is the structural articulator of this position from within Vedāntic philosophy; the user's distinctive contribution is the cross-cultural register-vocabulary, the six-darśana generalisation, the Sarvāmnāya bridge, the directive turn through *pūrṇatva*-surrender, the voluntarist accent on T7, and the McGilchrist-Gebser-Deleuze-Madhva-Caitanya integration. None of this is syncretism; all of it is structural philosophy.
+Do not, finally, mistake the position for syncretism. The position is *not* "all paths the same." It is the rigorous register-thesis that different paths address different registers of one Real, with each register-truth real *as* register-truth and the integral state being the through-all rather than the dominance of any one register. Aurobindo is the structural articulator of this position from within Vedāntic philosophy; the user's distinctive contribution is the cross-cultural register-vocabulary, the six-darśana generalization, the Sarvāmnāya bridge, the directive turn through *pūrṇatva*-surrender, the voluntarist accent on T7, and the McGilchrist-Gebser-Deleuze-Madhva-Caitanya integration. None of this is syncretism; all of it is structural philosophy.
 
 ---
 

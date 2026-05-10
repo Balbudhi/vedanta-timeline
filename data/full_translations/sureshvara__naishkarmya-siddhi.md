@@ -152,7 +152,7 @@ This is a programmatic transition-verse. Sureśvara marks the next movement of B
 - *īkṣyate*: laṭ / ātmanepada / middle-passive
 
 **Note:**
-The local OCR is visibly damaged in this verse; the normalization to *yathā anātmā iti* is required by syntax, metre, and the correlative *tadvat*. Philosophically the move is exact: Sureśvara begins not with metaphysical declaration but with a plain inferential starting-point. What is food-effect is objectifiable and derivative; the body, being of the same order, cannot be the Self merely because intimacy produces appropriation.
+The local OCR is visibly damaged in this verse; the normalization to *yathā anātmā iti* is required by syntax, meter, and the correlative *tadvat*. Philosophically the move is exact: Sureśvara begins not with metaphysical declaration but with a plain inferential starting-point. What is food-effect is objectifiable and derivative; the body, being of the same order, cannot be the Self merely because intimacy produces appropriation.
 
 ---
 

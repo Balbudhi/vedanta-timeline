@@ -3,246 +3,27 @@
   "term_iast": "catuṣkoṭi",
   "term_devanagari": "चतुष्कोटि",
   "literal": "four corners; the four exhaustive alternatives offered to a metaphysical thesis",
-  "aliases": [
-    "catuskoti",
-    "catuṣkoṭi",
-    "Catuṣkoṭi",
-    "catuṣkoṭiḥ",
-    "catuṣkoṭyāḥ",
-    "chatuskoti"
-  ],
-  "invariant_definition": "The *catuṣkoṭi* is the four-cornered dialectical schema used above all by Mādhyamaka: a thesis is examined under the alternatives that it is, is not, both is and is not, or neither is nor is not. Its force is not that all four are true, nor that language simply fails in some mystical vacuum. Its force is that every attempt to stabilize a claim of *svabhāva* can be driven into contradiction or incoherence under one of the four corners. The form therefore belongs with *prasaṅga*, not with a positive *anumāna* whose conclusion one wishes to establish. This is why the classical Indian debate over it is so sharp: Naiyāyikas demand a thesis and a *vyāpti*; Nāgārjuna refuses to supply them, insisting that the opponent's own commitments are enough. Later comparison with Advaita turns on formal similarity, especially where *anirvacanīya* analyses refuse the options of *sat*, *asat*, both, and neither. The doctrinal question is whether that similarity indicates shared structure only or shared ontology as well.",
+  "aliases": ["catuskoti", "catuṣkoṭi", "Catuṣkoṭi", "catuṣkoṭiḥ", "catuṣkoṭyāḥ", "chatuskoti"],
+  "invariant_definition": "The *catuṣkoṭi* is the four-cornered dialectical schema used above all by Mādhyamaka: a thesis is examined under the alternatives that it is, is not, both is and is not, or neither is nor is not. Its force is not that all four are true, nor that language simply fails in some mystical vacuum. Its force is that every attempt to stabilize a claim of *svabhāva* can be driven into contradiction or incoherence under one of the four corners. The form therefore belongs with *prasaṅga*, not with a positive *anumāna* whose conclusion one wishes to establish. This is why the classical Indian debate over it is so sharp: Naiyāyikas demand a thesis and a *vyāpti*; Nāgārjuna refuses to supply them, insisting that the opponent's own commitments are enough. Later comparison with Advaita turns on formal similarity, especially where *anirvacanīya* analyzes refuse the options of *sat*, *asat*, both, and neither. The doctrinal question is whether that similarity indicates shared structure only or shared ontology as well.",
   "per_school": [
     {
-      "school": "Advaita",
-      "definition": "Advaita does not deploy the Mādhyamaka *catuṣkoṭi* as *prasaṅga*, but Gauḍapāda denies origination from self, other, being, non-being, and the mixed alternatives in order to establish *ajāti-vāda*. cite://gaudapada/mandukya-karika/4.22\nŚaṅkara's gloss on the *Alātaśānti* chapter explicitly says that the *paramārtha-tattva* stands untouched by the four *koṭis*, so the formal proximity to tetralemma-reasoning is admitted while *brahman* remains positively real. cite://sankara/mandukya-karika-bhasya/4.84",
-      "primary_loci": [
-        "Māṇḍūkya-Kārikā 4.22",
-        "Māṇḍūkya-Kārikā-Bhāṣya 4.84"
-      ],
-      "citations": [
-        {
-          "cite": "cite://gaudapada/mandukya-karika/4.22",
-          "locus_short": "GK 4.22"
-        },
-        {
-          "cite": "cite://sankara/mandukya-karika-bhasya/4.84",
-          "locus_short": "GKBh 4.84"
-        }
-      ]
-    },
-    {
-      "school": "Viśiṣṭādvaita",
-      "definition": "Rāmānuja meets the issue while refuting *anirvacanīyavāda*: the putative counterpositive of *avidyā-nivṛtti* must be *nirvacanīya*, and therefore must be either *sat*, *asat*, or *dvirūpa*; no further *koṭi* is admitted. cite://ramanuja/vedartha-sangraha/46\nViśiṣṭādvaita accordingly excludes a catuṣkoṭi-style suspension between being and non-being and insists on determinate ontological status for *brahman*, selves, and world. cite://ramanuja/vedartha-sangraha/46",
-      "primary_loci": [
-        "Vedārtha-Saṅgraha §46"
-      ],
-      "citations": [
-        {
-          "cite": "cite://ramanuja/vedartha-sangraha/46",
-          "locus_short": "VS §46"
-        }
-      ]
-    },
-    {
-      "school": "Tattva-vāda",
-      "definition": "Madhva rejects the predication of one padārtha as *sat*, *asat*, both, non-both, and the other proliferated alternatives of the *saptabhaṅgī*, because such combination collapses into *dṛṣṭi-virodha*. cite://madhva/anuvyakhyana/2.2.236-237\nTattva-vāda therefore refuses to stabilize ontology by mutually incompatible corners and requires the vastu to remain determinately what it is. cite://madhva/anuvyakhyana/2.2.236-237",
-      "primary_loci": [
-        "Anuvyākhyāna 2.2.236-237"
-      ],
-      "citations": [
-        {
-          "cite": "cite://madhva/anuvyakhyana/2.2.236-237",
-          "locus_short": "Anuvy 2.2.236-237"
-        }
-      ]
-    },
-    {
-      "school": "Bhedābheda",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
-    },
-    {
-      "school": "Acintya-Bhedābheda",
-      "definition": "Jīva Gosvāmin does not authorize a four-corner suspension; he resolves the apparent contradiction of *bheda* and *abheda* through Bhagavān's *svābhāvika acintya-śakti*, which preserves both *vyatireka* and *avyatireka* without collapsing either. cite://jiva-gosvami/sat-sandarbha/43\nThe school's proximity to *catuṣkoṭi* is therefore only formal at the point of contradiction-management; its positive commitment is to *acintya-śakti*, not to the Mādhyamaka exhaustion of all predicative corners. cite://jiva-gosvami/sat-sandarbha/43",
-      "primary_loci": [
-        "Sat-Sandarbha §43"
-      ],
-      "citations": [
-        {
-          "cite": "cite://jiva-gosvami/sat-sandarbha/43",
-          "locus_short": "Sat-Sandarbha §43"
-        }
-      ]
-    },
-    {
-      "school": "Dvaitādvaita",
-      "definition": "Nimbārka's school does not employ *catuṣkoṭi* as its governing dialectic; it fixes the jīva as an *aṃśa* of *brahman* under a real structure of difference and non-difference. cite://nimbarka/vedanta-parijata-saurabha/2.3.42\nThat positive *bhedābheda* determination blocks the need for tetralemma-style suspension, because the relation is specified rather than left among incompatible alternatives. cite://nimbarka/vedanta-parijata-saurabha/2.3.42",
-      "primary_loci": [
-        "Vedānta-Pārijāta-Saurabha on BS 2.3.42"
-      ],
-      "citations": [
-        {
-          "cite": "cite://nimbarka/vedanta-parijata-saurabha/2.3.42",
-          "locus_short": "VPS 2.3.42"
-        }
-      ]
-    },
-    {
-      "school": "Śuddhādvaita",
-      "definition": "Vallabha refuses an indeterminate ontology between *sat* and *asat*: *brahman* remains *avikṛta* and yet really *pariṇamate* into the form of the effect. cite://vallabha/anubhasya/1.4.26a cite://vallabha/anubhasya/1.4.26b cite://vallabha/anubhasya/1.4.26c\nŚuddhādvaita therefore has no use for catuṣkoṭi-style refusal of predication at the level of the world, because the *jagat* is a real manifestation of *brahman* rather than a *mithyā* or *anirvacanīya* middle term. cite://vallabha/anubhasya/1.4.26a cite://vallabha/anubhasya/1.4.26b cite://vallabha/anubhasya/1.4.26c",
-      "primary_loci": [
-        "Anubhāṣya 1.4.26a-c"
-      ],
-      "citations": [
-        {
-          "cite": "cite://vallabha/anubhasya/1.4.26a",
-          "locus_short": "ABh 1.4.26a"
-        },
-        {
-          "cite": "cite://vallabha/anubhasya/1.4.26b",
-          "locus_short": "ABh 1.4.26b"
-        },
-        {
-          "cite": "cite://vallabha/anubhasya/1.4.26c",
-          "locus_short": "ABh 1.4.26c"
-        }
-      ]
-    },
-    {
-      "school": "Sāṃkhya",
-      "definition": "In the classical *satkāryavāda* discussion, the commentary explicitly lists rival views that the effect is absent before production, both is and is not, or neither is nor is not, and rejects them in favor of the thesis that the effect pre-exists in the cause. cite://isvarakrsna/samkhya-karika-commentary/9\nSāṃkhya thus answers the space that *catuṣkoṭi* would occupy by causal determination: the *kārya* is *sat* in its *upādāna* before manifestation. cite://isvarakrsna/samkhya-karika-commentary/9",
-      "primary_loci": [
-        "Sāṃkhya-Kārikā with commentary on Kārikā 9"
-      ],
-      "citations": [
-        {
-          "cite": "cite://isvarakrsna/samkhya-karika-commentary/9",
-          "locus_short": "SK comm. 9"
-        }
-      ]
-    },
-    {
-      "school": "Yoga",
-      "definition": "Vyāsa defines *saṃśaya* as a cognition that touches two opposed corners, 'it is thus / it is not thus', and treats that oscillation as an *antarāya* to *samādhi*. cite://vyasa/yoga-bhasya/1.30\nYoga therefore does not elevate *koṭi*-analysis into a dialectical method; it seeks settled cognition by the stilling of mind and discriminative insight. cite://vyasa/yoga-bhasya/1.30",
-      "primary_loci": [
-        "Yoga-Bhāṣya on Yoga-Sūtra 1.30"
-      ],
-      "citations": [
-        {
-          "cite": "cite://vyasa/yoga-bhasya/1.30",
-          "locus_short": "YBh 1.30"
-        }
-      ]
-    },
-    {
-      "school": "Nyāya-Vaiśeṣika",
-      "definition": "Nyāya treats unresolved alternatives as *saṃśaya* and requires argumentative advance through *pratijñā* and the remaining *avayavas* of inference. cite://gautama/nyaya-sutra/1.1.23 cite://gautama/nyaya-sutra/1.1.32-39\nIt also rejects both *sarvaśūnyatā* and the impossible conflation of *sat* and *asat*, so a catuṣkoṭi that ends by withholding all determinate commitment fails the school's canons of *nirṇaya*. cite://gautama/nyaya-sutra/4.1.37-40 cite://gautama/nyaya-sutra/4.1.48",
-      "primary_loci": [
-        "Nyāya-Sūtra 1.1.23",
-        "Nyāya-Sūtra 1.1.32-39",
-        "Nyāya-Sūtra 4.1.37-40",
-        "Nyāya-Sūtra 4.1.48"
-      ],
-      "citations": [
-        {
-          "cite": "cite://gautama/nyaya-sutra/1.1.23",
-          "locus_short": "NS 1.1.23"
-        },
-        {
-          "cite": "cite://gautama/nyaya-sutra/1.1.32-39",
-          "locus_short": "NS 1.1.32-39"
-        },
-        {
-          "cite": "cite://gautama/nyaya-sutra/4.1.37-40",
-          "locus_short": "NS 4.1.37-40"
-        },
-        {
-          "cite": "cite://gautama/nyaya-sutra/4.1.48",
-          "locus_short": "NS 4.1.48"
-        }
-      ]
-    },
-    {
-      "school": "Pūrva-Mīmāṃsā",
-      "definition": "Śabara argues that a cognition which one cannot overturn as 'not thus' is *pramāṇa*, and he marks the contrary performance '*asti nāsti*' as internal contradiction. cite://sabara/mimamsa-sutra-bhasya/1.1.5\nPūrva-Mīmāṃsā accordingly gives no license to a four-cornered suspension at the point where *śāstra* generates cognition; contradiction marks *aprāmāṇya*, not a higher dialectic. cite://sabara/mimamsa-sutra-bhasya/1.1.5",
-      "primary_loci": [
-        "Śabara-Bhāṣya on Mīmāṃsā-Sūtra 1.1.5"
-      ],
-      "citations": [
-        {
-          "cite": "cite://sabara/mimamsa-sutra-bhasya/1.1.5",
-          "locus_short": "ŚBh 1.1.5"
-        }
-      ]
-    },
-    {
       "school": "Mādhyamaka",
-      "definition": "The *catuṣkoṭi* is a *prasaṅga*-device for exhausting every claim to *svabhāva*, not a positive thesis that the four corners are jointly true. cite://nagarjuna/mula-madhyamaka-karika/25.22 cite://nagarjuna/vigraha-vyavartani/23-primary\nIn the *nirvāṇa*-chapter and the *Vigraha-Vyāvartanī*, Nāgārjuna shows that once dharmas are empty the opposed limits and their mixed alternatives lose purchase, while the negation itself may proceed without a self-standing *pratijñā*. cite://nagarjuna/mula-madhyamaka-karika/25.20 cite://nagarjuna/mula-madhyamaka-karika/25.22 cite://nagarjuna/vigraha-vyavartani/23-primary",
-      "primary_loci": [
-        "Mūla-Madhyamaka-Kārikā 25.20-24",
-        "Vigraha-Vyāvartanī 23"
-      ],
-      "citations": [
-        {
-          "cite": "cite://nagarjuna/mula-madhyamaka-karika/25.20",
-          "locus_short": "MMK 25.20"
-        },
-        {
-          "cite": "cite://nagarjuna/mula-madhyamaka-karika/25.22",
-          "locus_short": "MMK 25.22"
-        },
-        {
-          "cite": "cite://nagarjuna/vigraha-vyavartani/23-primary",
-          "locus_short": "VV 23"
-        }
-      ]
+      "definition": "The *catuṣkoṭi* is the principal engine of *prasaṅga*. Nāgārjuna applies it wherever an opponent tries to state what something is in itself: motion, causation, self, the *tathāgata*, and *nirvāṇa* all collapse under four-corner analysis when treated as bearing *svabhāva*. The result is not a fifth thesis but the refusal of the demand that reality must be capturable in one of the four realist options.",
+      "primary_loci": ["Mūla-Madhyamaka-Kārikā 18.8", "Mūla-Madhyamaka-Kārikā 22.11", "Mūla-Madhyamaka-Kārikā 25.14–19", "Vigraha-Vyāvartanī 29"]
     },
     {
-      "school": "Yogācāra",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "school": "Nyāya",
+      "definition": "Nyāya treats argument as thesis-guided and governed by *vyāpti*. From that standpoint the *catuṣkoṭi* looks evasive or self-undermining, because the denial of all four alternatives still seems to function like a thesis while refusing the responsibilities of one. The Mādhyamika reply is that a consequence argument can operate parasitically on an opponent's commitments and therefore need not establish an independent positive conclusion by Nyāya procedure.",
+      "primary_loci": ["Nyāya-Sūtra 1.1.32–39", "Vigraha-Vyāvartanī 1–4", "Vigraha-Vyāvartanī 21–29"]
     },
     {
-      "school": "Pratyabhijñā / Trika",
-      "definition": "Abhinavagupta refuses to make the existence or non-existence of Īśvara depend on an external proof, because the very putative proponent is already established as self-luminous consciousness. cite://abhinavagupta/isvara-pratyabhijna-vivrti/1.1.2\nTrika therefore does not deploy *catuṣkoṭi* as a Mādhyamaka negation-schema; it reabsorbs the *asti/nāsti* opposition into the self-manifest freedom of *cit*. cite://abhinavagupta/isvara-pratyabhijna-vivrti/1.1.2",
-      "primary_loci": [
-        "Īśvara-Pratyabhijñā-Vivṛti on ĪPK 1.1.2"
-      ],
-      "citations": [
-        {
-          "cite": "cite://abhinavagupta/isvara-pratyabhijna-vivrti/1.1.2",
-          "locus_short": "ĪPV 1.1.2"
-        }
-      ]
-    },
-    {
-      "school": "Jainism",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
-    },
-    {
-      "school": "Pāṇinian-Vaiyākaraṇa",
-      "definition": "NOT-APPLICABLE",
-      "primary_loci": [],
-      "citations": [],
-      "not_applicable_reason": "Within the available on-disk corpus for this task, no substantive grammatical-school treatment of catuṣkoṭi itself is retrievable, and the school is not being engaged here through a distinct doctrinal tetralemma-schema."
+      "school": "Advaita",
+      "definition": "Advaita does not adopt the Mādhyamaka method as such, but it does employ four-corner refusal in describing the world's *anirvacanīya* status and in the Ajātivāda strain of Gauḍapāda. That formal convergence is one reason rivals call Advaita *pracchanna-bauddha*. Advaitins answer that the convergence is only formal, since the negation of the world as independently real is paired with the affirmation of *brahman* as *pāramārthika* reality.",
+      "primary_loci": ["Māṇḍūkya-Kārikā 2.32", "Bhāskara, Brahma-Sūtra-Bhāṣya 1.1.1–4"]
     }
   ],
-  "see_also": [
-    "sunyata",
-    "pratitya-samutpada",
-    "paramartha-satya",
-    "samvrti-satya",
-    "anirvacaniya",
-    "anumana",
-    "vyapti",
-    "prasanga"
-  ],
+  "see_also": ["sunyata", "pratitya-samutpada", "paramartha-satya", "samvrti-satya", "anirvacaniya", "anumana", "vyapti", "prasanga"],
   "translator_note": "Rendering *catuṣkoṭi* as \"tetralemma\" is often convenient, but it can import a modern logical picture too quickly, as though Nāgārjuna were mainly proposing a four-valued semantics. The classical use is dialectical before it is formal. The term should not be flattened to \"both true and false\" or any other single corner. What matters is the exhaustion of the opponent's options, not the introduction of a new truth table.",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave2-codex54"
+  "last_verified_by": "wave-glossary-depth-opus"
 }

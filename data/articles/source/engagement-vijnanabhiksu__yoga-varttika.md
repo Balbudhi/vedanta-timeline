@@ -6,7 +6,7 @@
 
 ## 2. Sampling and scope statement
 
-Engaged at depth: roughly 15% of the file, concentrated in the prefatory `upasaṃhāra`; the first `pāda` around `YS 1.24` and the long doctrinal digression attached to it; the opening of the third `pāda` on `dhāraṇā`; and the fourth `pāda` around `YS 4.2` and `YS 4.24-26`. Structural summary only: the rest of all four `pāda`s, including the long runs on `samāpatti`, the `kleśa` and `aṣṭāṅga` materials, and most of the `vibhūti` catalogue. Not engaged: the appended `śuddhipatra` / errata leaves at the end, except insofar as they confirm a few OCR uncertainties.
+Engaged at depth: roughly 15% of the file, concentrated in the prefatory `upasaṃhāra`; the first `pāda` around `YS 1.24` and the long doctrinal digression attached to it; the opening of the third `pāda` on `dhāraṇā`; and the fourth `pāda` around `YS 4.2` and `YS 4.24-26`. Structural summary only: the rest of all four `pāda`s, including the long runs on `samāpatti`, the `kleśa` and `aṣṭāṅga` materials, and most of the `vibhūti` catalog. Not engaged: the appended `śuddhipatra` / errata leaves at the end, except insofar as they confirm a few OCR uncertainties.
 
 ## 3. Structural walk-through
 

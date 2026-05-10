@@ -13,7 +13,7 @@ coverage_evidence: 'locus-scope describes restricted range'
 
 ## Editorial introduction
 
-This dossier is intentionally dispersed. A short contiguous run of verses cannot contain all the Pañcadaśī loci already treated in the site corpus as load-bearing for Vidyāraṇya's position; yet the dispersion is not arbitrary. Verses 1.15-17 state the causal architecture: *prakṛti* (primordial causal matrix), when differentiated by the purity and impurity of *sattva*, yields the paired explanatory register of *māyā* and *avidyā*, and with that pair the asymmetry between *Īśvara* and the bound *jīva*. Verse 1.42 then gives the chapter's decisive image for discriminative extraction: the self drawn out from the three bodies like the fibre from the *muñja* stalk. Verses 1.43-48 immediately interpret that discrimination through the *mahāvākya* logic of *tat tvam asi*, not by flattening terms into crude identity, but by a controlled *bhāga-tyāga-lakṣaṇā* (indication through discarding mutually incompatible parts). Finally, verses 1.53-55 convert ontology into practice: *śravaṇa* (hearing the teaching), *manana* (rational reflection), *nididhyāsana* (steady contemplative assimilation), and *samādhi* (absorptive stabilization) are presented as a serial discipline rather than as optional embellishment.
+This dossier is intentionally dispersed. A short contiguous run of verses cannot contain all the Pañcadaśī loci already treated in the site corpus as load-bearing for Vidyāraṇya's position; yet the dispersion is not arbitrary. Verses 1.15-17 state the causal architecture: *prakṛti* (primordial causal matrix), when differentiated by the purity and impurity of *sattva*, yields the paired explanatory register of *māyā* and *avidyā*, and with that pair the asymmetry between *Īśvara* and the bound *jīva*. Verse 1.42 then gives the chapter's decisive image for discriminative extraction: the self drawn out from the three bodies like the fiber from the *muñja* stalk. Verses 1.43-48 immediately interpret that discrimination through the *mahāvākya* logic of *tat tvam asi*, not by flattening terms into crude identity, but by a controlled *bhāga-tyāga-lakṣaṇā* (indication through discarding mutually incompatible parts). Finally, verses 1.53-55 convert ontology into practice: *śravaṇa* (hearing the teaching), *manana* (rational reflection), *nididhyāsana* (steady contemplative assimilation), and *samādhi* (absorptive stabilization) are presented as a serial discipline rather than as optional embellishment.
 
 Taken together, these thirteen verses form the chapter's middle doctrinal spine. They show how Vidyāraṇya's Advaita moves from causal cosmology to self-discrimination, from self-discrimination to sentence-meaning, and from sentence-meaning to contemplative realization. The same sequence governs the wider architecture of the *Pañcadaśī*: chapter 6 (*Citra-dīpa*) returns to *pratibimba* (reflection), chapter 8 (*Kūṭastha-dīpa*) reworks the witness-self with greater phenomenological precision, and chapter 9 (*Dhyāna-dīpa*) expands the contemplative side only sketched here. What is settled in this arc is therefore not a local aside but the operative grammar of the work.
 
@@ -169,7 +169,7 @@ This is the paired counterpart to verse 16. The omniscience of *Īśvara* and th
 |---|---|---|---|
 | yathā | yathā | indecl | just as |
 | muñjāt | muñja | abl sg masc | from muñja grass |
-| iṣīkā | iṣīkā | nom sg fem | the inner fibre; pith-fibre |
+| iṣīkā | iṣīkā | nom sg fem | the inner fiber; pith-fiber |
 | evam | evam | indecl | so; thus |
 | ātmā | ātman | nom sg masc | the self |
 | yuktyā | yukti | instr sg fem | by reasoning; by discriminative method |
@@ -196,7 +196,7 @@ This is the paired counterpart to verse 16. The omniscience of *Īśvara* and th
 - *jāyate*: laṭ / ātmanepada / middle
 
 **Note:**
-The middle voice of *jāyate* does not mean that Brahman is produced. The sense is recognitional: once the self is analytically disengaged from the three bodies, it stands forth as Brahman. The verse echoes *Kaṭha Upaniṣad* 2.3.17, where the self is similarly to be drawn out from the body like a fibre from *muñja*.
+The middle voice of *jāyate* does not mean that Brahman is produced. The sense is recognitional: once the self is analytically disengaged from the three bodies, it stands forth as Brahman. The verse echoes *Kaṭha Upaniṣad* 2.3.17, where the self is similarly to be drawn out from the body like a fiber from *muñja*.
 
 ---
 

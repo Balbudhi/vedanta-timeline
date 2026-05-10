@@ -4,7 +4,7 @@
   "attacker": "madhva",
   "attacker_text": "Māyāvāda-Khaṇḍana; Upādhi-Khaṇḍana; Mithyātvānumāna-Khaṇḍana (the three Khaṇḍana-traya); supplemented by Tattvodyota and Viṣṇu-Tattva-Vinirṇaya",
   "target_school_token": "advaita",
-  "target_position_summary": "Classical Advaita as crystallised by Śaṅkara and developed through Sureśvara, Padmapāda, and the Vivaraṇa school: Brahman alone is real (pāramārthika); the world is mithyā (anirvacanīya, neither sat nor asat); the jīva is non-different from Brahman in essence; māyā/avidyā as the principle of phenomenal multiplicity. Madhva attacks this position from three angles: the māyā-doctrine itself (Māyāvāda-Khaṇḍana), the upādhi-mechanism by which jīvas are differentiated (Upādhi-Khaṇḍana), and the formal inference for the world's mithyātva (Mithyātvānumāna-Khaṇḍana).",
+  "target_position_summary": "Classical Advaita as crystallized by Śaṅkara and developed through Sureśvara, Padmapāda, and the Vivaraṇa school: Brahman alone is real (pāramārthika); the world is mithyā (anirvacanīya, neither sat nor asat); the jīva is non-different from Brahman in essence; māyā/avidyā as the principle of phenomenal multiplicity. Madhva attacks this position from three angles: the māyā-doctrine itself (Māyāvāda-Khaṇḍana), the upādhi-mechanism by which jīvas are differentiated (Upādhi-Khaṇḍana), and the formal inference for the world's mithyātva (Mithyātvānumāna-Khaṇḍana).",
   "arguments": [
     {
       "name": "Māyāvāda-Khaṇḍana — argument-1: the disjunctive trap on māyā's ontological status",
@@ -15,7 +15,7 @@
         "If māyā is asat: the asat cannot produce effects, and the world it allegedly produces is unaccounted for.",
         "If māyā is anirvacanīya: this category is not constructed but stipulated; nothing in pramāṇa-experience licenses a third value beyond sat and asat."
       ],
-      "inference": "Therefore on every available characterisation, māyā is either incompatible with non-dualism or explanatorily inert.",
+      "inference": "Therefore on every available characterization, māyā is either incompatible with non-dualism or explanatorily inert.",
       "conclusion": "The Advaitic appeal to māyā as solvent of the apparent multiplicity is incoherent on its own terms.",
       "premise_status": "primary-text-attested",
       "what_it_touches": {
@@ -129,11 +129,11 @@
           {
             "thinker_id": "madhusudana",
             "response_text": "Advaita-Siddhi prathama-paricheda 1–4 — defends four successive non-equivalent lakṣaṇas of mithyātva, each crafted to evade a distinct counterexample",
-            "verdict": "the four-lakṣaṇa strategy is precisely the structural reply to Madhva's vyāpti-counterexample charge: by offering multiple non-equivalent characterisations, Madhusūdana shows that the underlying property mithyātva can be reached by independent routes even if any one definition is locally defective. The disagreement reduces to whether disjunctive characterisations of a single ontological category are dialectically legitimate."
+            "verdict": "the four-lakṣaṇa strategy is precisely the structural reply to Madhva's vyāpti-counterexample charge: by offering multiple non-equivalent characterizations, Madhusūdana shows that the underlying property mithyātva can be reached by independent routes even if any one definition is locally defective. The disagreement reduces to whether disjunctive characterizations of a single ontological category are dialectically legitimate."
           },
           {
             "thinker_id": "vyasatirtha",
-            "response_text": "Nyāyāmṛta — extends Madhva's mithyātvānumāna-khaṇḍana with full Navya-Nyāya rigour, applying it to each of Madhusūdana's four lakṣaṇas in turn",
+            "response_text": "Nyāyāmṛta — extends Madhva's mithyātvānumāna-khaṇḍana with full Navya-Nyāya rigor, applying it to each of Madhusūdana's four lakṣaṇas in turn",
             "verdict": "Vyāsatīrtha's central claim is that none of the four lakṣaṇas survives technical examination; each either over-extends, fails its own dṛṣṭānta, or smuggles in a hidden bivalence-violation."
           }
         ]

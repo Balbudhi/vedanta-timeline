@@ -18,9 +18,9 @@ Engaged at depth: roughly a quarter of the file, concentrated in the opening of 
 
 - **Adhyāya 1, pāda 4** opens with *Ānumānikādhikaraṇa* (p. 161) and directly attacks the Sāṅkhya pradhāna, then closes with *Etena sarvaṃ vyākhyātam* (p. 184). Here the thesis becomes explicit: Brahman is both material and efficient cause.
 
-- **Adhyāya 2, pāda 1** begins with *Smṛtyadhikaraṇa* (p. 185). The whole second adhyāya is framed as defence of the first: Kapila, Yoga, and the claim that a blissful Brahman cannot cause a changing world are all taken up here.
+- **Adhyāya 2, pāda 1** begins with *Smṛtyadhikaraṇa* (p. 185). The whole second adhyāya is framed as defense of the first: Kapila, Yoga, and the claim that a blissful Brahman cannot cause a changing world are all taken up here.
 
-- **Adhyāya 2, pāda 2** opens with *Racanānupapattyadhikaraṇa* (p. 215). This is the main opponent-catalogue: Sāṅkhya, atomism, Bauddha, Jaina, and Pāśupata positions are refuted; the Pāñcarātra is then defended as Vāsudeva-centered Brahma-śāstra.
+- **Adhyāya 2, pāda 2** opens with *Racanānupapattyadhikaraṇa* (p. 215). This is the main opponent-catalog: Sāṅkhya, atomism, Bauddha, Jaina, and Pāśupata positions are refuted; the Pāñcarātra is then defended as Vāsudeva-centered Brahma-śāstra.
 
 - **Adhyāya 2, pāda 3** begins with *Viyadadhikaraṇa* (p. 243). After the public polemic, the text returns to ontology: space, self, cognition, and the jīva as *aṃśa*.
 

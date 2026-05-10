@@ -11,7 +11,7 @@
       "premises": [
         "Avidyā, if posited, must have a locus (āśraya) in which it inheres.",
         "The candidate loci are exhaustively three: Brahman, the jīva, or some third entity.",
-        "If Brahman is the locus: Brahman is by Advaita's own definition svayam-prakāśa cit — self-luminous consciousness whose svarūpa is jñāna. To locate avidyā in Brahman is to admit a positive non-cognition into the substance whose nature is cognition. The contradiction is internal to Advaita's own characterisation.",
+        "If Brahman is the locus: Brahman is by Advaita's own definition svayam-prakāśa cit — self-luminous consciousness whose svarūpa is jñāna. To locate avidyā in Brahman is to admit a positive non-cognition into the substance whose nature is cognition. The contradiction is internal to Advaita's own characterization.",
         "If the jīva is the locus: the jīva is itself, on Advaita's account, a product of avidyā (via cidābhāsa or upādhi-conditioning). Locating avidyā in what avidyā produces is anyonyāśraya — mutual dependence — and explanatorily circular.",
         "There is no candidate third entity that is not itself either Brahman or jīva or a mode of one of them."
       ],
@@ -52,7 +52,7 @@
           {
             "thinker_id": "vyasatirtha",
             "response_text": "Nyāyāmṛta — the bhāvarūpa-avidyā-khaṇḍana",
-            "verdict": "extends Rāmānuja's destructive argument by formalising the locus-question as a Navya-Nyāya inferential dilemma, denying Madhusūdana's anirvacanīya-tādātmya escape on the ground that an inference admitting an anirvacanīya middle term is not an inference at all."
+            "verdict": "extends Rāmānuja's destructive argument by formalizing the locus-question as a Navya-Nyāya inferential dilemma, denying Madhusūdana's anirvacanīya-tādātmya escape on the ground that an inference admitting an anirvacanīya middle term is not an inference at all."
           }
         ]
       },
@@ -104,9 +104,9 @@
     {
       "name": "anupapatti-4: anirvacanīyatva-anupapatti — the indeterminability-untenability",
       "premises": [
-        "Advaita characterises avidyā as anirvacanīya — neither sat nor asat, indeterminable on the realist binary.",
-        "Any cognitive characterisation must place its object on one side of the contradictories sat / asat (and likewise for any binary that exhausts a domain).",
-        "If avidyā is neither sat nor asat, then it is not characterisable, and the very assertion that 'avidyā is anirvacanīya' is itself a characterisation, hence self-defeating.",
+        "Advaita characterizes avidyā as anirvacanīya — neither sat nor asat, indeterminable on the realist binary.",
+        "Any cognitive characterization must place its object on one side of the contradictories sat / asat (and likewise for any binary that exhausts a domain).",
+        "If avidyā is neither sat nor asat, then it is not characterisable, and the very assertion that 'avidyā is anirvacanīya' is itself a characterization, hence self-defeating.",
         "Further: if avidyā is not asat, it must be sat; the third option violates the law of excluded middle as applied to existence-categories.",
         "Therefore the anirvacanīya category is either redundant (if it collapses into sat) or impossible (if it does not)."
       ],
@@ -138,11 +138,11 @@
           {
             "thinker_id": "madhusudana",
             "response_text": "Advaita-Siddhi prathama-paricheda 1 — defends four successive lakṣaṇas of mithyātva, each crafted to evade the strict-bivalence horn",
-            "verdict": "the four mithyātva-definitions are the structural reply: each characterises mithyātva (and by extension avidyā's status) without committing to anirvacanīya as a primitive third value. Madhusūdana effectively concedes Rāmānuja's point that anirvacanīya as raw category-violation is indefensible, and replaces it with characterisations that are formally well-defined while preserving the doctrinal work."
+            "verdict": "the four mithyātva-definitions are the structural reply: each characterizes mithyātva (and by extension avidyā's status) without committing to anirvacanīya as a primitive third value. Madhusūdana effectively concedes Rāmānuja's point that anirvacanīya as raw category-violation is indefensible, and replaces it with characterizations that are formally well-defined while preserving the doctrinal work."
           },
           {
             "thinker_id": "vyasatirtha",
-            "response_text": "Nyāyāmṛta — the mithyātvānumāna-khaṇḍana presses the same charge that Rāmānuja makes here, with formal Navya-Nyāya rigour",
+            "response_text": "Nyāyāmṛta — the mithyātvānumāna-khaṇḍana presses the same charge that Rāmānuja makes here, with formal Navya-Nyāya rigor",
             "verdict": "Vyāsatīrtha extends Rāmānuja's anirvacanīyatva-anupapatti by showing that none of Madhusūdana's four lakṣaṇas evades the underlying difficulty — each either smuggles in sat or smuggles in asat at a different point in the analysis."
           }
         ]

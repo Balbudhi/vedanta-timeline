@@ -156,4 +156,4 @@ Each comparative claim, regardless of pair, has the following shape (full JSON-S
 }
 ```
 
-The site renders these as a graph-edge between the two thinkers' nodes, colored by verdict (e.g., green = shared, blue = parallel-structure, orange = genuine-disagreement, grey = contested), and the user can click any edge to see the full unpacking.
+The site renders these as a graph-edge between the two thinkers' nodes, colored by verdict (e.g., green = shared, blue = parallel-structure, orange = genuine-disagreement, gray = contested), and the user can click any edge to see the full unpacking.

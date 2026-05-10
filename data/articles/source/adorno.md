@@ -140,7 +140,7 @@ Within the subject-object relation the object has non-symmetrical priority becau
 
 > To know is to approach the object, not to grasp it under the standard of its identification. Concepts arrange themselves around the thing to be known without reducing it to a common denominator. (ND, GS 6:166)
 
-The figure is borrowed from Benjamin's *Ursprung des deutschen Trauerspiels*. This is the closest Western analogue to T1 (darśana register thesis): the six darśanas constellate the Real from different vantages, each *truly* but at a register. The user's constellations stretch across the supramental; Adorno's stay within secular critique. The formal homology is real.
+The figure is borrowed from Benjamin's *Ursprung des deutschen Trauerspiels*. This is the closest Western analog to T1 (darśana register thesis): the six darśanas constellate the Real from different vantages, each *truly* but at a register. The user's constellations stretch across the supramental; Adorno's stay within secular critique. The formal homology is real.
 This is also the exact point at which Adorno confirms T0 formally while refusing the user's metaphysical completion of it: the violence of unification is real, but the cure Adorno permits is constellational restraint, not a higher positive unity in which the many would be preserved.
 
 **(3) The micrological.** Immersion in the particular over deduction from the general; *Minima Moralia* and the artwork-as-monad in *Ästhetische Theorie* enact this.
@@ -267,7 +267,7 @@ The polemic's central operation is to strip the *jargon*-words of their false au
 
 > The words of the jargon sound as if they said something higher than what they mean. It is no accident that Benjamin introduced the concept of aura at the same moment when, according to his own theory, what he understood by aura ceased to be experienceable. As sacred words without sacred content, as frozen emanations, the terms of the jargon of authenticity are products of the disintegration of aura. (JdE, GS 6:417, condensed)
 
-The structural diagnosis is precise. *Aura* in Benjamin is the singular, ungeneralizable, unrepeatable presence of a work or moment in its irreducible *here* and *now*. The Benjaminian thesis was that mechanical reproduction destroys aura; the *Jargon* thesis is that the jargon is what arises in the *space vacated by* aura's destruction — a manufactured pseudo-aura, available on demand, attached to ordinary words by typographical and tonal manipulation rather than by any actual presence. The jargon is the *Kulturindustrie*'s linguistic analogue: standardized pseudo-individuation at the level of the sentence.
+The structural diagnosis is precise. *Aura* in Benjamin is the singular, ungeneralizable, unrepeatable presence of a work or moment in its irreducible *here* and *now*. The Benjaminian thesis was that mechanical reproduction destroys aura; the *Jargon* thesis is that the jargon is what arises in the *space vacated by* aura's destruction — a manufactured pseudo-aura, available on demand, attached to ordinary words by typographical and tonal manipulation rather than by any actual presence. The jargon is the *Kulturindustrie*'s linguistic analog: standardized pseudo-individuation at the level of the sentence.
 
 ### Why this matters: *Eigentlichkeit* and class
 
@@ -317,7 +317,7 @@ The user's thesis on the *eternal return as return of difference* (*POSITION_BRI
 
 One major Adorno book bearing directly on the user's project should be named here more explicitly: *Philosophy of New Music*. The book pairs Schoenberg and Stravinsky, not simply as composers with different styles but as opposed answers to modernity's crisis of form. Schoenberg's formal difficulty and atonality are read as truth-bearing because they refuse easy reconciliation with the administered world. Stravinsky's regression to ritualized pattern is read, far more polemically, as pseudo-archaic adaptation. Whether or not one accepts the musical verdicts, the philosophical point matters: formal resistance is itself cognitive.
 
-This fills in an important part of Adorno's anti-totalizing picture. Music is the clearest case where non-conceptual form can register social truth without translating itself into propositions. For the user's thesis, that matters because it gives a Western analogue to the claim that rhythm, intonation, and aesthetic form can carry disclosure irreducible to discursive statement. Adorno will not say that music gives access to the divine; he will say that it can register the world's wounds more truthfully than direct declaration. That is a thinner claim than the user's, but it is not negligible.
+This fills in an important part of Adorno's anti-totalizing picture. Music is the clearest case where non-conceptual form can register social truth without translating itself into propositions. For the user's thesis, that matters because it gives a Western analog to the claim that rhythm, intonation, and aesthetic form can carry disclosure irreducible to discursive statement. Adorno will not say that music gives access to the divine; he will say that it can register the world's wounds more truthfully than direct declaration. That is a thinner claim than the user's, but it is not negligible.
 
 ### *Ästhetische Theorie* (posthumous, 1970)
 

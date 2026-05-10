@@ -617,7 +617,7 @@ The force here is anti-transference. The limitations found in embodied experienc
 - *pratipāditāḥ*: participial predicate; finite copula understood
 
 **Note:**
-The witness is cramped in this pāda, but the sense is clear enough: scriptural declarations of Viṣṇu's greatness and omniscience are being invoked against any attempt to relativise them through adjunct-theory. Madhva's polemical rule is strict: a device meant to explain finitude cannot be allowed to cancel *śruti*'s positive predicates of the Lord.
+The witness is cramped in this pāda, but the sense is clear enough: scriptural declarations of Viṣṇu's greatness and omniscience are being invoked against any attempt to relativize them through adjunct-theory. Madhva's polemical rule is strict: a device meant to explain finitude cannot be allowed to cancel *śruti*'s positive predicates of the Lord.
 
 ---
 
