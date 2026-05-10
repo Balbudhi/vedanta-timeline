@@ -29,14 +29,762 @@
       "genre": "tika",
       "language": "sanskrit",
       "summary": "The *Vedānta-Kaustubha* is Śrīnivāsa's *vyākhyā* on Nimbārka's *Vedānta-Pārijāta-Saurabha* and the canonical sub-commentary of the Sanaka-sampradāya. Where Nimbārka's bhāṣya is famously terse, the *Kaustubha* opens out the doctrinal *prameyas*: it explicates the *svābhāvika* — intrinsic, unconditioned — character of both *bheda* and *abheda* between Brahman, *cit*, and *acit*; it stages the *pūrvapakṣa* against *māyā-vāda* and *aupādhika-bhedābheda* and supplies the *uttarapakṣa* the founding bhāṣya only gestures at; and it elaborates the *aṃśa-aṃśin* relation by which *jīvas* are eternally portion-and-whole of Brahman without merger or severance. The work also clarifies the school's Vaiṣṇava theological commitments — Kṛṣṇa with Rādhā as *parabrahman*, *prapatti* and *bhakti* as the means of liberation — and supplies the structural template that Keśava-Kāśmīrī's *Kaustubha-Prabhā* will subsequently sub-comment in turn. It is, in effect, the operative doctrinal text of the Nimbārka-line tradition.",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "mangalacarana__srikrishna-padayugalam",
+        "upodghata__tadajnaya-vedanta-kaustubha",
+        "bs-1-1-1__tattva-trividham",
+        "bs-2-3-42__jiva-paramatmano-amsa"
+      ],
       "entry_status": "reviewed"
     }
   ],
-  "key_passages": [],
+  "key_passages": [
+    {
+      "passage_id": "mangalacarana__srikrishna-padayugalam",
+      "work_id": "vedanta-kaustubha",
+      "locus_short": "Maṅgalācaraṇa 1",
+      "locus_long": "Vedānta-Kaustubha, opening maṅgalācaraṇa, first hemistich",
+      "locus_structured": {
+        "other": {
+          "section": "mangalacarana",
+          "hemistich": 1
+        }
+      },
+      "sanskrit_iast": "śrīkṛṣṇapādayugalaṃ śirasā namāmi\nyatrānvitaḥ śrutigaṇo na virodham eti //",
+      "text_critical_note": "The accessible on-disk corpus is Roma Bose's translation edition rather than a Sanskrit print. This hemistich was recovered from a public quotation of the work and normalized into IAST; the second hemistich was not used because the quoted transmission is less secure.",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "śrīkṛṣṇapādayugalam",
+            "stem": "śrīkṛṣṇapādayugala",
+            "pratyaya": "a",
+            "morphology": "acc sg neut",
+            "gloss": "the pair of Śrī Kṛṣṇa's feet"
+          },
+          {
+            "pada": "śirasā",
+            "stem": "śiras",
+            "pratyaya": "as",
+            "morphology": "instr sg neut",
+            "gloss": "with the head"
+          },
+          {
+            "pada": "namāmi",
+            "stem": "√nam",
+            "morphology": "1sg pres ind P",
+            "gloss": "I bow"
+          },
+          {
+            "pada": "yatra",
+            "stem": "yatra",
+            "morphology": "indecl",
+            "gloss": "with reference to which"
+          },
+          {
+            "pada": "anvitaḥ",
+            "stem": "anvita",
+            "pratyaya": "kta",
+            "morphology": "nom sg masc ppp",
+            "gloss": "connected"
+          },
+          {
+            "pada": "śrutigaṇaḥ",
+            "stem": "śrutigaṇa",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "the aggregate of śrutis"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "virodham",
+            "stem": "virodha",
+            "pratyaya": "a",
+            "morphology": "acc sg masc",
+            "gloss": "contradiction"
+          },
+          {
+            "pada": "eti",
+            "stem": "√i",
+            "morphology": "3sg pres ind P",
+            "gloss": "goes to, enters into"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "śrīkṛṣṇapādayugalam",
+            "type": "tatpurusha",
+            "resolution": "śrīkṛṣṇasya pādayugalam"
+          },
+          {
+            "compound": "śrutigaṇaḥ",
+            "type": "tatpurusha",
+            "resolution": "śrutīnām gaṇaḥ"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "karman",
+            "pada": "śrīkṛṣṇapādayugalam",
+            "note": "object of namāmi"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "śirasā",
+            "note": "instrumental of bodily reverence"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "śrutigaṇaḥ",
+            "note": "subject of eti"
+          },
+          {
+            "role": "karman",
+            "pada": "virodham",
+            "note": "goal entered into negatively with na"
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "namāmi",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          },
+          {
+            "pada": "eti",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          }
+        ]
+      },
+      "english_close": "I bow with my head to the pair of Śrī Kṛṣṇa's feet, with reference to which the host of śrutis does not enter into contradiction.",
+      "preserved_terms": [
+        {
+          "term_iast": "śruti",
+          "first_use_gloss": "(roughly: revealed Vedic scripture)"
+        }
+      ],
+      "why_this_passage": "Even as an invocation, this is not ornamental filler: it states that Kṛṣṇa is the personal referent in whom the śruti corpus coheres. Because the local corpus preserves the work chiefly in translation, this recoverable opening line is one of the safest loci for Śrīnivāsa's theological center.",
+      "topic_tags": [
+        "ethics-devotion",
+        "epistemology"
+      ],
+      "sub_axes": [
+        "status-of-personal-lord",
+        "status-of-sruti"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Vedānta-pārijāta-saurabha of Nimbārka and Vedānta-kaustubha of Śrīnivāsa, Vol. I, ed./trans. Roma Bose (Calcutta: Royal Asiatic Society of Bengal, 1940); locus and translation verified from the local archive PDF, Sanskrit wording recovered from a public quotation of the same work because the on-disk copy is translation-only.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "upodghata__tadajnaya-vedanta-kaustubha",
+      "work_id": "vedanta-kaustubha",
+      "locus_short": "Upodghāta",
+      "locus_long": "Vedānta-Kaustubha, opening prose statement of purpose",
+      "locus_structured": {
+        "other": {
+          "section": "upodghata",
+          "subsection": "authorial purpose"
+        }
+      },
+      "sanskrit_iast": "tadājñayā taduktavartmanā tadanugrahakāmena\ntacchiṣyeṇa mayā mṛdumitapado vedāntakaustubhaḥ\ntadbhāvārthaprakāśako viduṣām upakārāya viracyate //",
+      "text_critical_note": "Recovered from a public quotation of the work and normalized into IAST. The local corpus confirms the corresponding English translation at Brahma-Sūtra 1.1.1 but does not print the Sanskrit text.",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "tadājñayā",
+            "stem": "tadājñā",
+            "pratyaya": "ā",
+            "morphology": "instr sg fem",
+            "gloss": "by his command"
+          },
+          {
+            "pada": "taduktavartmanā",
+            "stem": "taduktavartman",
+            "pratyaya": "an",
+            "morphology": "instr sg neut",
+            "gloss": "by the path taught by him"
+          },
+          {
+            "pada": "tadanugrahakāmena",
+            "stem": "tadanugrahakāma",
+            "pratyaya": "a",
+            "morphology": "instr sg masc",
+            "gloss": "with desire for his favor"
+          },
+          {
+            "pada": "tacchiṣyeṇa",
+            "stem": "tacchiṣya",
+            "pratyaya": "a",
+            "morphology": "instr sg masc",
+            "gloss": "by his disciple"
+          },
+          {
+            "pada": "mayā",
+            "stem": "asmad",
+            "morphology": "instr sg pron",
+            "gloss": "by me"
+          },
+          {
+            "pada": "mṛdumitapadaḥ",
+            "stem": "mṛdumitapada",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "having gentle and measured wording"
+          },
+          {
+            "pada": "vedāntakaustubhaḥ",
+            "stem": "vedāntakaustubha",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "the Vedānta-Kaustubha"
+          },
+          {
+            "pada": "tadbhāvārthaprakāśakaḥ",
+            "stem": "tadbhāvārthaprakāśaka",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "making that intended meaning manifest"
+          },
+          {
+            "pada": "viduṣām",
+            "stem": "vidvas",
+            "morphology": "gen pl masc",
+            "gloss": "of the learned"
+          },
+          {
+            "pada": "upakārāya",
+            "stem": "upakāra",
+            "pratyaya": "a",
+            "morphology": "dat sg masc",
+            "gloss": "for the benefit"
+          },
+          {
+            "pada": "viracyate",
+            "stem": "vi-√rac",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "is being composed"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "tadājñayā",
+            "type": "tatpurusha",
+            "resolution": "tasya ājñayā"
+          },
+          {
+            "compound": "taduktavartmanā",
+            "type": "tatpurusha",
+            "resolution": "tena uktaṃ vartma; tena"
+          },
+          {
+            "compound": "tadanugrahakāmena",
+            "type": "tatpurusha",
+            "resolution": "tasya anugrahasya kāmena"
+          },
+          {
+            "compound": "tacchiṣyeṇa",
+            "type": "tatpurusha",
+            "resolution": "tasya śiṣyeṇa"
+          },
+          {
+            "compound": "mṛdumitapadaḥ",
+            "type": "bahuvrihi",
+            "resolution": "mṛdūni mitāni ca padāni yasya saḥ"
+          },
+          {
+            "compound": "vedāntakaustubhaḥ",
+            "type": "tatpurusha",
+            "resolution": "vedāntasya kaustubhaḥ"
+          },
+          {
+            "compound": "tadbhāvārthaprakāśakaḥ",
+            "type": "tatpurusha",
+            "resolution": "tasya bhāvārthaṃ prakāśayati iti"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "karaṇa",
+            "pada": "tadājñayā",
+            "note": "circumstantial instrument of composition"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "taduktavartmanā",
+            "note": "method followed in composing"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "tadanugrahakāmena",
+            "note": "motive in instrumental form"
+          },
+          {
+            "role": "karaṇa",
+            "pada": "tacchiṣyeṇa mayā",
+            "note": "agentive instrument in the passive construction"
+          },
+          {
+            "role": "kartṛ",
+            "pada": "vedāntakaustubhaḥ",
+            "note": "grammatical subject of viracyate"
+          },
+          {
+            "role": "sampradāna",
+            "pada": "upakārāya",
+            "note": "benefactive purpose"
+          },
+          {
+            "role": "sambandha",
+            "pada": "viduṣām",
+            "note": "beneficiary qualified by genitive"
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "viracyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive"
+          }
+        ]
+      },
+      "english_close": "By his command, by the path taught by him, with desire for his favor, by me, his disciple, the Vedānta-Kaustubha, of gentle and measured wording, making manifest the intended meaning of that [text], is being composed for the benefit of the learned.",
+      "preserved_terms": [
+        {
+          "term_iast": "upodghāta",
+          "first_use_gloss": "(roughly: introductory framing statement)"
+        }
+      ],
+      "why_this_passage": "Śrīnivāsa's distinctive historical role is architectural rather than radically revisionary, and this sentence says so in his own voice: the work exists to unfold Nimbārka's terse bhāṣya faithfully. That makes it a fair representative passage, not a merely famous one.",
+      "topic_tags": [
+        "epistemology",
+        "ethics-devotion"
+      ],
+      "sub_axes": [
+        "school-as-bhasya-vs-school-as-living-tradition"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Vedānta-pārijāta-saurabha of Nimbārka and Vedānta-kaustubha of Śrīnivāsa, Vol. I, ed./trans. Roma Bose (Calcutta: Royal Asiatic Society of Bengal, 1940); locus and translation verified from the local archive PDF, Sanskrit wording recovered from a public quotation of the same work because the on-disk copy is translation-only.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "bs-1-1-1__tattva-trividham",
+      "work_id": "vedanta-kaustubha",
+      "locus_short": "BS 1.1.1",
+      "locus_long": "Vedānta-Kaustubha on Brahma-Sūtra 1.1.1, introductory ontology",
+      "locus_structured": {
+        "chapter": 1,
+        "section": 1,
+        "verse": 1,
+        "other": {
+          "subsection": "upodghata"
+        }
+      },
+      "sanskrit_iast": "tattvaṃ tāvan trividham |\ncid-acid-brahma-bhedāt |\nsvādhīna-parādhīnau brahmajīvātmānāv ity arthaḥ ||",
+      "text_critical_note": "The first clause and the dependent gloss circulate together in secondary quotations of Śrīnivāsa's opening discussion. Because the local PDF preserves only the English translation, the normalized Sanskrit is limited to these short recoverable lines.",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "tattvam",
+            "stem": "tattva",
+            "pratyaya": "a",
+            "morphology": "nom sg neut",
+            "gloss": "reality"
+          },
+          {
+            "pada": "tāvat",
+            "stem": "tāvat",
+            "morphology": "indecl",
+            "gloss": "then, in the first place"
+          },
+          {
+            "pada": "trividham",
+            "stem": "trividha",
+            "pratyaya": "a",
+            "morphology": "nom sg neut",
+            "gloss": "threefold"
+          },
+          {
+            "pada": "cid-acid-brahma-bhedāt",
+            "stem": "cid-acid-brahma-bheda",
+            "pratyaya": "a",
+            "morphology": "abl sg masc",
+            "gloss": "because of the distinction among sentient, insentient, and Brahman"
+          },
+          {
+            "pada": "svādhīna-parādhīnau",
+            "stem": "svādhīna-parādhīna",
+            "pratyaya": "a",
+            "morphology": "nom dual masc",
+            "gloss": "independent and dependent"
+          },
+          {
+            "pada": "brahmajīvātmānau",
+            "stem": "brahmajīvātman",
+            "morphology": "nom dual masc",
+            "gloss": "Brahman and the individual self"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "arthaḥ",
+            "stem": "artha",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "the meaning"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "trividham",
+            "type": "dvigu",
+            "resolution": "trayo vidhā yasya tat"
+          },
+          {
+            "compound": "cid-acid-brahma-bhedāt",
+            "type": "other",
+            "resolution": "cit ca acit ca brahma ca; teṣāṃ bhedāt"
+          },
+          {
+            "compound": "svādhīna-parādhīnau",
+            "type": "dvandva",
+            "resolution": "svādhīnaś ca parādhīnaś ca"
+          },
+          {
+            "compound": "brahmajīvātmānau",
+            "type": "dvandva",
+            "resolution": "brahma ca jīvātmā ca"
+          }
+        ],
+        "karaka_structure": [],
+        "verb_modality": []
+      },
+      "english_close": "Reality, then, is threefold, because of the distinction among sentient, insentient, and Brahman. That is, Brahman and the individual self are [respectively] independent and dependent.",
+      "preserved_terms": [
+        {
+          "term_iast": "cit",
+          "first_use_gloss": "(roughly: sentient selfhood)"
+        },
+        {
+          "term_iast": "acit",
+          "first_use_gloss": "(roughly: insentient reality)"
+        }
+      ],
+      "why_this_passage": "This compact opening formulation states the load-bearing ontology of Śrīnivāsa's school before later polemics or sub-arguments proliferate: three real categories and an asymmetrical dependence relation. Given the translation-only state of the local corpus, this is a better representative choice than a more famous but less programmatic line.",
+      "topic_tags": [
+        "ontology"
+      ],
+      "sub_axes": [
+        "number-of-fundamental-existents",
+        "two-tier-hierarchy-of-independent-vs-dependent-reality"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Vedānta-pārijāta-saurabha of Nimbārka and Vedānta-kaustubha of Śrīnivāsa, Vol. I, ed./trans. Roma Bose (Calcutta: Royal Asiatic Society of Bengal, 1940); locus and translation verified from the local archive PDF, Sanskrit wording recovered from a public quotation of the same work because the on-disk copy is translation-only.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "bs-2-3-42__jiva-paramatmano-amsa",
+      "work_id": "vedanta-kaustubha",
+      "locus_short": "BS 2.3.42",
+      "locus_long": "Vedānta-Kaustubha on Brahma-Sūtra 2.3.42, jīva as aṃśa of Paramātman",
+      "locus_structured": {
+        "chapter": 2,
+        "section": 3,
+        "verse": 42
+      },
+      "sanskrit_iast": "nāyaṃ jīvaḥ śrīpuruṣottamād atyantabhinnaḥ,\nnāpy atyantābhinnaḥ, kintu paramātmano 'ṃśaḥ |\naṃśo hy eṣa parasya iti śruteḥ |\naṃśo hi śaktirūpo grāhyaḥ, parāsya śaktiḥ,\njīvo 'lpaśaktir asvatantraḥ iti śruteḥ ||",
+      "text_critical_note": "This passage is quoted with secure locus on Brahma-Sūtra 2.3.42 in a public discussion reproducing Vedānta-Kaustubha. Punctuation and sandhi have been normalized in IAST; the local corpus confirms the corresponding English translation but not the Sanskrit text.",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "ayam",
+            "stem": "ayam",
+            "morphology": "nom sg masc pron",
+            "gloss": "this"
+          },
+          {
+            "pada": "jīvaḥ",
+            "stem": "jīva",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "individual self"
+          },
+          {
+            "pada": "śrīpuruṣottamāt",
+            "stem": "śrīpuruṣottama",
+            "pratyaya": "a",
+            "morphology": "abl sg masc",
+            "gloss": "from Śrī Puruṣottama"
+          },
+          {
+            "pada": "atyantabhinnaḥ",
+            "stem": "atyantabhinna",
+            "morphology": "nom sg masc",
+            "gloss": "absolutely different"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "api",
+            "stem": "api",
+            "morphology": "indecl",
+            "gloss": "also"
+          },
+          {
+            "pada": "atyantābhinnaḥ",
+            "stem": "atyantābhinna",
+            "morphology": "nom sg masc",
+            "gloss": "absolutely non-different"
+          },
+          {
+            "pada": "kintu",
+            "stem": "kintu",
+            "morphology": "indecl",
+            "gloss": "rather"
+          },
+          {
+            "pada": "paramātmanaḥ",
+            "stem": "paramātman",
+            "morphology": "gen sg masc",
+            "gloss": "of the supreme self"
+          },
+          {
+            "pada": "aṃśaḥ",
+            "stem": "aṃśa",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "part"
+          },
+          {
+            "pada": "aṃśaḥ",
+            "stem": "aṃśa",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "part"
+          },
+          {
+            "pada": "hi",
+            "stem": "hi",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "eṣa",
+            "stem": "etad",
+            "morphology": "nom sg masc pron",
+            "gloss": "this one"
+          },
+          {
+            "pada": "parasya",
+            "stem": "para",
+            "pratyaya": "a",
+            "morphology": "gen sg masc",
+            "gloss": "of the supreme"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "śruteḥ",
+            "stem": "śruti",
+            "pratyaya": "i",
+            "morphology": "abl sg fem",
+            "gloss": "from scripture"
+          },
+          {
+            "pada": "aṃśaḥ",
+            "stem": "aṃśa",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "part"
+          },
+          {
+            "pada": "hi",
+            "stem": "hi",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "śaktirūpaḥ",
+            "stem": "śaktirūpa",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "of the form of a power"
+          },
+          {
+            "pada": "grāhyaḥ",
+            "stem": "grāhya",
+            "pratyaya": "ya",
+            "morphology": "nom sg masc gerundive",
+            "gloss": "to be understood"
+          },
+          {
+            "pada": "parāsya",
+            "stem": "para",
+            "pratyaya": "a",
+            "morphology": "gen sg masc",
+            "gloss": "of the supreme"
+          },
+          {
+            "pada": "śaktiḥ",
+            "stem": "śakti",
+            "pratyaya": "i",
+            "morphology": "nom sg fem",
+            "gloss": "power"
+          },
+          {
+            "pada": "jīvaḥ",
+            "stem": "jīva",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "the jīva"
+          },
+          {
+            "pada": "alpaśaktiḥ",
+            "stem": "alpaśakti",
+            "pratyaya": "i",
+            "morphology": "nom sg fem",
+            "gloss": "a limited power"
+          },
+          {
+            "pada": "asvatantraḥ",
+            "stem": "asvatantra",
+            "pratyaya": "a",
+            "morphology": "nom sg masc",
+            "gloss": "not independent"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "śruteḥ",
+            "stem": "śruti",
+            "pratyaya": "i",
+            "morphology": "abl sg fem",
+            "gloss": "from scripture"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "śrīpuruṣottamāt",
+            "type": "tatpurusha",
+            "resolution": "śrīḥ yuktaḥ puruṣottamaḥ; tasmāt"
+          },
+          {
+            "compound": "atyantabhinnaḥ",
+            "type": "other",
+            "resolution": "atyantaṃ bhinnaḥ"
+          },
+          {
+            "compound": "atyantābhinnaḥ",
+            "type": "negative-tatpurusha",
+            "resolution": "atyantaṃ abhinnaḥ"
+          },
+          {
+            "compound": "paramātmanaḥ",
+            "type": "karmadharaya",
+            "resolution": "parama ātmā; tasya"
+          },
+          {
+            "compound": "śaktirūpaḥ",
+            "type": "karmadharaya",
+            "resolution": "śaktir eva rūpaṃ yasya saḥ"
+          },
+          {
+            "compound": "alpaśaktiḥ",
+            "type": "karmadharaya",
+            "resolution": "alpā śaktiḥ"
+          },
+          {
+            "compound": "asvatantraḥ",
+            "type": "negative-tatpurusha",
+            "resolution": "na svatantraḥ"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "sambandha",
+            "pada": "paramātmanaḥ",
+            "note": "genitival relation in the predicate aṃśaḥ"
+          },
+          {
+            "role": "sambandha",
+            "pada": "parasya",
+            "note": "scriptural warrant for belonging-to the supreme"
+          },
+          {
+            "role": "sambandha",
+            "pada": "parāsya",
+            "note": "genitival relation for śaktiḥ"
+          }
+        ],
+        "verb_modality": []
+      },
+      "english_close": "This jīva is not absolutely different from Śrī Puruṣottama, nor again absolutely non-different; rather, it is a part of the supreme self. For scripture says, 'this one is indeed a part of the supreme.' And a 'part' is indeed to be understood as being of the form of a power: 'it is the power of the supreme'; 'the jīva is a limited power, not independent' - so says scripture.",
+      "preserved_terms": [
+        {
+          "term_iast": "aṃśa",
+          "first_use_gloss": "(roughly: part, here a dependent power-expression rather than a severed fragment)"
+        },
+        {
+          "term_iast": "śakti",
+          "first_use_gloss": "(roughly: power or potency)"
+        }
+      ],
+      "why_this_passage": "This is the cleanest recoverable statement of Śrīnivāsa's mature bhedābheda: the jīva is neither sheer otherness nor sheer identity, but a dependent power-as-part of the supreme. It fairly represents his position because it occurs exactly where he explains the Brahma-Sūtra on aṃśatva, not in a later caricature of an opponent.",
+      "topic_tags": [
+        "ontology",
+        "soteriology"
+      ],
+      "sub_axes": [
+        "jiva-brahman-relation",
+        "status-of-individual-selves",
+        "persistence-of-jiva-individuality-post-mukti"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Vedānta-pārijāta-saurabha of Nimbārka and Vedānta-kaustubha of Śrīnivāsa, Vol. I, ed./trans. Roma Bose (Calcutta: Royal Asiatic Society of Bengal, 1940); locus and translation verified from the local archive PDF, Sanskrit wording recovered from a public quotation of the same work because the on-disk copy is translation-only.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    }
+  ],
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1e-opus"
+  "last_verified_by": "wave2-codex"
 }

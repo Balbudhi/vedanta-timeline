@@ -29,14 +29,335 @@
       "genre": "prakarana",
       "language": "sanskrit",
       "summary": "Independent *prakaraṇa* in eight chapters whose stated purpose is to establish (*siddhi*) the *iṣṭa* — the desired tenet, namely *brahmātmaikya*. Vimuktātman's method is to take up each opposed analysis of *adhyāsa* and erroneous cognition (*ātma-khyāti* of the Vijñānavādins, *asat-khyāti* of the Mādhyamikas as Advaitically construed, *anyathā-khyāti* of the Naiyāyikas, *akhyāti* of the Prābhākaras) and show that each fails on its own terms, leaving *anirvacanīya-khyāti* as the only coherent account. He defends *bhāva-rūpā-anirvacanīya-avidyā* with *Brahman* as locus, examines the *avaccheda-vāda* and *pratibimba-vāda* analyses of the *jīva* and inclines toward the latter, and refutes Bhedābheda and the proto-realist alternatives of his day. Jñānottama's *Vivaraṇa* is its principal sub-commentary. The treatise is cited as authoritative by Vidyāraṇya in the *Vivaraṇa-Prameya-Saṃgraha* and by Madhusūdana in the *Advaita-Siddhi*, and supplies much of the technical machinery later Advaitins use to discuss *adhyāsa* and *avidyā*.",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "is-1-1__vedanta-brahma-visaya",
+        "is-1-1__maya-anirvacaniya-avidya",
+        "is-1-9__bhranti-anirvacaniyata",
+        "is-1-140__atmany-eva-avidya",
+        "is-1-9__jnanodaya-jivanmukti"
+      ],
       "entry_status": "reviewed"
     }
   ],
-  "key_passages": [],
+  "key_passages": [
+    {
+      "passage_id": "is-1-1__vedanta-brahma-visaya",
+      "work_id": "ista-siddhi",
+      "locus_short": "IṢ 1.1",
+      "locus_long": "Iṣṭa-Siddhi, chapter 1, Anubandha-catuṣṭaya, printed p. 38",
+      "locus_structured": {
+        "chapter": 1,
+        "section": "Anubandha-catuṣṭaya",
+        "other": {
+          "printed_page": 38,
+          "scan_page": 79
+        }
+      },
+      "sanskrit_iast": "vedāntānāṃ viṣayo brahma,\nananyasādhāraṇatvāt tatpratipādyatvāc.\nbrahmaṇaḥ vedāntānāṃ ca\npratipādyapratipādakalakṣaṇaḥ sambandhaḥ.",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {"pada": "vedāntānām", "stem": "vedānta", "pratyaya": "a", "morphology": "gen pl masc", "gloss": "of the Vedānta texts"},
+          {"pada": "viṣayaḥ", "stem": "viṣaya", "pratyaya": "a", "morphology": "nom sg masc", "gloss": "the subject-matter"},
+          {"pada": "brahma", "stem": "brahman", "morphology": "nom sg neut", "gloss": "Brahman"},
+          {"pada": "ananyasādhāraṇatvāt", "stem": "ananyasādhāraṇatva", "pratyaya": "tva", "morphology": "abl sg neut", "gloss": "because of not being common to any other source"},
+          {"pada": "tatpratipādyatvāc", "stem": "tatpratipādyatva", "pratyaya": "tva", "morphology": "abl sg neut", "gloss": "and because it is what they teach"},
+          {"pada": "brahmaṇaḥ", "stem": "brahman", "morphology": "gen sg neut", "gloss": "of Brahman"},
+          {"pada": "vedāntānām", "stem": "vedānta", "pratyaya": "a", "morphology": "gen pl masc", "gloss": "of the Vedāntas"},
+          {"pada": "ca", "stem": "ca", "morphology": "indecl", "gloss": "and"},
+          {"pada": "pratipādyapratipādakalakṣaṇaḥ", "stem": "pratipādyapratipādakalakṣaṇa", "pratyaya": "a", "morphology": "nom sg masc", "gloss": "characterized as object-taught and instrument-of-teaching"},
+          {"pada": "sambandhaḥ", "stem": "sambandha", "pratyaya": "a", "morphology": "nom sg masc", "gloss": "the relation"}
+        ],
+        "samasa_vigrahas": [
+          {"compound": "ananyasādhāraṇatvāt", "type": "other", "resolution": "ananyasādhāraṇaṃ tasya bhāvaḥ; tasmāt", "note": "Brahman is not made available by some other pramāṇa in the same way"},
+          {"compound": "tatpratipādyatvāc", "type": "tatpurusha", "resolution": "tat pratipādyaṃ tasya bhāvaḥ; tasmāt", "note": "the state of being that which is taught by those texts"},
+          {"compound": "pratipādyapratipādakalakṣaṇaḥ", "type": "other", "resolution": "pratipādyaś ca pratipādakaś ca, tayor lakṣaṇaḥ", "note": "the taught object and the teaching instrument define the relation"}
+        ],
+        "karaka_structure": [
+          {"role": "sambandha", "pada": "vedāntānām", "note": "genitive delimiting whose subject-matter is under discussion"},
+          {"role": "sambandha", "pada": "brahmaṇaḥ", "note": "genitive marking Brahman as one relatum of the teaching relation"},
+          {"role": "sambandha", "pada": "vedāntānām", "note": "genitive marking the Vedāntas as the other relatum"}
+        ]
+      },
+      "english_close": "The subject-matter of the Vedāntas is Brahman, because it is not common to any other source and because it is what they teach. The relation between Brahman and the Vedāntas is one characterized as that between what is to be taught and what teaches it.",
+      "preserved_terms": [
+        {"term_iast": "Vedānta", "first_use_gloss": "(roughly: the Upaniṣadic revelatory corpus and its concluding teaching)"},
+        {"term_iast": "Brahman", "first_use_gloss": "(roughly: the absolute reality taught by the Upaniṣads)"},
+        {"term_iast": "pratipādya", "first_use_gloss": "(roughly: what is to be taught or established)"},
+        {"term_iast": "pratipādaka", "first_use_gloss": "(roughly: that which teaches or establishes)"}
+      ],
+      "why_this_passage": "This is positionally representative because Vimuktātman begins by fixing Brahman as the distinctive viṣaya of Vedānta and by defining the text-object relation in explicitly epistemic terms. That framing underwrites his later claims about avidyā, error, and liberation rather than standing apart from them.",
+      "topic_tags": ["epistemology", "soteriology"],
+      "sub_axes": ["status-of-sruti", "saving-cognition-status", "effective-means-of-moksa"],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "M. Hiriyanna, ed., Iṣṭa-Siddhi of Vimuktātman with Extracts from the Vivaraṇa of Jñānottama (Baroda: Oriental Institute, Gaekwad's Oriental Series 65, 1933), transcribed from /orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/vedanta/full_corpus/vimuktatman_ista_siddhi_1933_archive.pdf.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "is-1-1__maya-anirvacaniya-avidya",
+      "work_id": "ista-siddhi",
+      "locus_short": "IṢ 1.1",
+      "locus_long": "Iṣṭa-Siddhi, chapter 1, Prapañcasyānirvacanīyatvam, printed p. 35",
+      "locus_structured": {
+        "chapter": 1,
+        "section": "Prapañcasyānirvacanīyatvam",
+        "other": {
+          "printed_page": 35,
+          "scan_page": 76
+        }
+      },
+      "sanskrit_iast": "māyeti sadasadbhyām anirvacanīyā avidyocyate.\nsā hi yuktyā nirūpyamāṇā na astīti, nāstīti veti vaktuṃ śakyā,\nnāpi nāstīti; sadasadvilakṣaṇatvena tadvacanānarhatvāt.\nata evānirvacanīyā, na punar avācyeti.",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {"pada": "māyeti", "stem": "māyā + iti", "morphology": "sandhi form", "gloss": "by the word 'māyā'"},
+          {"pada": "sadasadbhyām", "stem": "sat / asat", "morphology": "instr-abl du neut", "gloss": "by / from being and non-being"},
+          {"pada": "anirvacanīyā", "stem": "anirvacanīya", "pratyaya": "ṇyat", "morphology": "nom sg fem", "gloss": "indeterminable in speech"},
+          {"pada": "avidyā", "stem": "avidyā", "pratyaya": "ā", "morphology": "nom sg fem", "gloss": "ignorance"},
+          {"pada": "ucyate", "stem": "√vac", "morphology": "3sg pres ind Ā passive", "gloss": "is called"},
+          {"pada": "sā", "stem": "tad", "morphology": "nom sg fem pron", "gloss": "that"},
+          {"pada": "hi", "stem": "hi", "morphology": "indecl", "gloss": "indeed"},
+          {"pada": "yuktyā", "stem": "yukti", "pratyaya": "i", "morphology": "instr sg fem", "gloss": "by reasoning"},
+          {"pada": "nirūpyamāṇā", "stem": "nir-√rūp", "morphology": "nom sg fem pres pass ptc", "gloss": "being analyzed"},
+          {"pada": "na", "stem": "na", "morphology": "indecl", "gloss": "not"},
+          {"pada": "astīti", "stem": "asti + iti", "morphology": "quoted finite form", "gloss": "'it is'"},
+          {"pada": "nāstīti", "stem": "na asti + iti", "morphology": "quoted finite form", "gloss": "'it is not'"},
+          {"pada": "veti", "stem": "vā + iti", "morphology": "quoted indecl", "gloss": "or thus"},
+          {"pada": "vaktum", "stem": "√vac", "morphology": "inf", "gloss": "to state"},
+          {"pada": "śakyā", "stem": "śakya", "pratyaya": "ṇyat", "morphology": "nom sg fem", "gloss": "is possible"},
+          {"pada": "nāpi", "stem": "na api", "morphology": "indecl", "gloss": "nor also"},
+          {"pada": "nāstīti", "stem": "na asti + iti", "morphology": "quoted finite form", "gloss": "'it is not'"},
+          {"pada": "sadasadvilakṣaṇatvena", "stem": "sadasadvilakṣaṇatva", "pratyaya": "tva", "morphology": "instr sg neut", "gloss": "by the state of being different from being and non-being"},
+          {"pada": "tadvacanānarhatvāt", "stem": "tadvacanānarhatva", "pratyaya": "tva", "morphology": "abl sg neut", "gloss": "because of unfitness for being described by those terms"},
+          {"pada": "ata", "stem": "atas", "morphology": "indecl", "gloss": "therefore"},
+          {"pada": "eva", "stem": "eva", "morphology": "indecl", "gloss": "just"},
+          {"pada": "anirvacanīyā", "stem": "anirvacanīya", "pratyaya": "ṇyat", "morphology": "nom sg fem", "gloss": "indeterminable"},
+          {"pada": "na", "stem": "na", "morphology": "indecl", "gloss": "not"},
+          {"pada": "punar", "stem": "punar", "morphology": "indecl", "gloss": "rather / again"},
+          {"pada": "avācyā", "stem": "avācya", "pratyaya": "ṇyat", "morphology": "nom sg fem", "gloss": "simply unsayable"},
+          {"pada": "iti", "stem": "iti", "morphology": "indecl", "gloss": "thus"}
+        ],
+        "samasa_vigrahas": [
+          {"compound": "anirvacanīyā", "type": "negative-tatpurusha", "resolution": "na nirvacanīyā", "note": "not determinately specifiable in predication"},
+          {"compound": "sadasadvilakṣaṇatvena", "type": "other", "resolution": "sat ca asat ca, tayoḥ vilakṣaṇatvaṃ tena", "note": "difference from both the real and the unreal"},
+          {"compound": "tadvacanānarhatvāt", "type": "other", "resolution": "tayoḥ vacane anarhatvaṃ tasmāt", "note": "incapacity to be correctly described under those two predicates"},
+          {"compound": "avācyā", "type": "negative-tatpurusha", "resolution": "na vācyā", "note": "denial that anirvacanīya merely means ineffable silence"}
+        ],
+        "karaka_structure": [
+          {"role": "kartṛ", "pada": "avidyā", "note": "the item being named and characterized"},
+          {"role": "karaṇa", "pada": "yuktyā", "note": "reasoning as the instrument of examination"},
+          {"role": "karaṇa", "pada": "sadasadvilakṣaṇatvena", "note": "the reason why the two predications fail"},
+          {"role": "apādāna", "pada": "tadvacanānarhatvāt", "note": "grounds the conclusion from exclusion of the two descriptors"}
+        ],
+        "verb_modality": [
+          {"pada": "ucyate", "lakara": "laṭ", "pada_PA": "atmanepada", "voice": "passive"}
+        ]
+      },
+      "english_close": "By the word 'māyā' is meant ignorance, indeterminable by being and non-being. For when it is analyzed by reasoning, it cannot be stated, 'it is,' or 'it is not'; nor simply 'it is not,' because, by being different from both being and non-being, it is unfit to be described in those terms. Therefore it is indeterminable, not merely unsayable.",
+      "preserved_terms": [
+        {"term_iast": "māyā", "first_use_gloss": "(roughly: ignorance as appearance-making power)"},
+        {"term_iast": "avidyā", "first_use_gloss": "(roughly: beginningless ignorance)"},
+        {"term_iast": "anirvacanīya", "first_use_gloss": "(roughly: not determinately sayable as either of two opposed predicates)"},
+        {"term_iast": "sat / asat", "first_use_gloss": "(roughly: being / non-being as mutually opposed ontic predicates)"}
+      ],
+      "why_this_passage": "This is one of the clearest local formulations of the doctrine for which Vimuktātman is classically cited: avidyā is not collapsed into non-being, nor simply reified as ordinary being, but argued to be sadasadvilakṣaṇa. The passage states the thesis in his own technical vocabulary rather than leaving it to later summaries.",
+      "topic_tags": ["ontology", "causation", "epistemology"],
+      "sub_axes": ["mithya-vs-asat", "status-of-the-world", "locus-of-avidya"],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "M. Hiriyanna, ed., Iṣṭa-Siddhi of Vimuktātman with Extracts from the Vivaraṇa of Jñānottama (Baroda: Oriental Institute, Gaekwad's Oriental Series 65, 1933), transcribed from /orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/vedanta/full_corpus/vimuktatman_ista_siddhi_1933_archive.pdf.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "is-1-9__bhranti-anirvacaniyata",
+      "work_id": "ista-siddhi",
+      "locus_short": "IṢ 1.9",
+      "locus_long": "Iṣṭa-Siddhi, chapter 1, Anirvacanīya-khyāti-vādopasaṃhāraḥ, printed p. 229",
+      "locus_structured": {
+        "chapter": 1,
+        "section": "Anirvacanīya-khyāti-vādopasaṃhāraḥ",
+        "other": {
+          "printed_page": 229,
+          "scan_page": 162
+        }
+      },
+      "sanskrit_iast": "ato bhrāntau yāvat kiñcid bhāti\ntasya sarvasya bhāve 'bhāve ca pramāṇābhāvād\nanirvacanīyataiveti siddham.",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {"pada": "ataḥ", "stem": "atas", "morphology": "indecl", "gloss": "therefore"},
+          {"pada": "bhrāntau", "stem": "bhrānti", "pratyaya": "i", "morphology": "loc sg fem", "gloss": "in error-cognition"},
+          {"pada": "yāvat", "stem": "yāvat", "morphology": "indecl", "gloss": "whatever extent / whatever"},
+          {"pada": "kiñcit", "stem": "kimcit", "morphology": "nom sg neut pron", "gloss": "anything at all"},
+          {"pada": "bhāti", "stem": "√bhā", "morphology": "3sg pres ind P", "gloss": "appears"},
+          {"pada": "tasya", "stem": "tad", "morphology": "gen sg neut pron", "gloss": "of that"},
+          {"pada": "sarvasya", "stem": "sarva", "pratyaya": "a", "morphology": "gen sg neut", "gloss": "of the whole of it"},
+          {"pada": "bhāve", "stem": "bhāva", "pratyaya": "a", "morphology": "loc sg masc", "gloss": "with respect to being"},
+          {"pada": "abhāve", "stem": "abhāva", "pratyaya": "a", "morphology": "loc sg masc", "gloss": "with respect to non-being"},
+          {"pada": "ca", "stem": "ca", "morphology": "indecl", "gloss": "and"},
+          {"pada": "pramāṇābhāvād", "stem": "pramāṇābhāva", "pratyaya": "a", "morphology": "abl sg masc", "gloss": "because of the absence of a means of knowledge"},
+          {"pada": "anirvacanīyatā", "stem": "anirvacanīyatā", "pratyaya": "tā", "morphology": "nom sg fem", "gloss": "indeterminability"},
+          {"pada": "eva", "stem": "eva", "morphology": "indecl", "gloss": "alone"},
+          {"pada": "iti", "stem": "iti", "morphology": "indecl", "gloss": "thus"},
+          {"pada": "siddham", "stem": "siddha", "pratyaya": "kta", "morphology": "nom sg neut ppp", "gloss": "is established"}
+        ],
+        "samasa_vigrahas": [
+          {"compound": "pramāṇābhāvād", "type": "negative-tatpurusha", "resolution": "pramāṇasya abhāvāt", "note": "lack of a valid means to establish either pole"},
+          {"compound": "anirvacanīyatā", "type": "negative-tatpurusha", "resolution": "anirvacanīyasya bhāvaḥ", "note": "the state of being indeterminable"}
+        ],
+        "karaka_structure": [
+          {"role": "adhikaraṇa", "pada": "bhrāntau", "note": "the locus in which the appearance is under analysis"},
+          {"role": "kartṛ", "pada": "kiñcit", "note": "whatever appears in the error"},
+          {"role": "sambandha", "pada": "tasya sarvasya", "note": "genitive construal: of that entire appearing item"},
+          {"role": "adhikaraṇa", "pada": "bhāve 'bhāve ca", "note": "two rival ontic locations being denied determinately"},
+          {"role": "apādāna", "pada": "pramāṇābhāvād", "note": "grounds the conclusion by lack of proof either way"}
+        ],
+        "verb_modality": [
+          {"pada": "bhāti", "lakara": "laṭ", "pada_PA": "parasmaipada", "voice": "active"}
+        ]
+      },
+      "english_close": "Therefore, in an error-cognition, whatever at all appears: of that entire thing, because there is no means of knowledge establishing either being or non-being, indeterminability alone is established.",
+      "preserved_terms": [
+        {"term_iast": "bhrānti", "first_use_gloss": "(roughly: erroneous appearance or cognition)"},
+        {"term_iast": "pramāṇa", "first_use_gloss": "(roughly: a valid means of knowledge)"},
+        {"term_iast": "anirvacanīyatā", "first_use_gloss": "(roughly: the status of being not decisively classifiable as either real or unreal)"}
+      ],
+      "why_this_passage": "This is the cleanest short statement of Vimuktātman's anirvacanīya-khyāti: the appearing object of error is not reduced either to ordinary being or to simple non-being. It fairly represents his position because it comes in the explicit upasaṃhāra of the khyāti discussion rather than in a polemical caricature of opponents.",
+      "topic_tags": ["epistemology", "ontology"],
+      "sub_axes": ["theory-of-error", "mithya-vs-asat", "status-of-the-world"],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "M. Hiriyanna, ed., Iṣṭa-Siddhi of Vimuktātman with Extracts from the Vivaraṇa of Jñānottama (Baroda: Oriental Institute, Gaekwad's Oriental Series 65, 1933), transcribed from /orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/vedanta/full_corpus/vimuktatman_ista_siddhi_1933_archive.pdf.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "is-1-140__atmany-eva-avidya",
+      "work_id": "ista-siddhi",
+      "locus_short": "IṢ 1.140",
+      "locus_long": "Iṣṭa-Siddhi, chapter 1, verse-conclusion 140, Jaḍe'py avidyāpādanam, printed p. 212",
+      "locus_structured": {
+        "chapter": 1,
+        "section": "Jaḍe'py avidyāpādanam",
+        "verse": 140,
+        "other": {
+          "printed_page": 212,
+          "scan_page": 252
+        }
+      },
+      "sanskrit_iast": "tasmād ātmany evāvidyā,\nātmany eva ca,\nna tv anātmano 'nātmani ceti siddham.",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {"pada": "tasmāt", "stem": "tad", "morphology": "abl sg pron", "gloss": "therefore"},
+          {"pada": "ātmani", "stem": "ātman", "morphology": "loc sg masc", "gloss": "in the Self"},
+          {"pada": "eva", "stem": "eva", "morphology": "indecl", "gloss": "alone"},
+          {"pada": "avidyā", "stem": "avidyā", "pratyaya": "ā", "morphology": "nom sg fem", "gloss": "ignorance"},
+          {"pada": "ātmani", "stem": "ātman", "morphology": "loc sg masc", "gloss": "in the Self"},
+          {"pada": "eva", "stem": "eva", "morphology": "indecl", "gloss": "alone"},
+          {"pada": "ca", "stem": "ca", "morphology": "indecl", "gloss": "and"},
+          {"pada": "na", "stem": "na", "morphology": "indecl", "gloss": "not"},
+          {"pada": "tu", "stem": "tu", "morphology": "indecl", "gloss": "but"},
+          {"pada": "anātmanaḥ", "stem": "anātman", "morphology": "gen sg masc", "gloss": "of a non-self"},
+          {"pada": "anātmani", "stem": "anātman", "morphology": "loc sg masc", "gloss": "in a non-self"},
+          {"pada": "ca", "stem": "ca", "morphology": "indecl", "gloss": "and"},
+          {"pada": "iti", "stem": "iti", "morphology": "indecl", "gloss": "thus"},
+          {"pada": "siddham", "stem": "siddha", "pratyaya": "kta", "morphology": "nom sg neut ppp", "gloss": "is established"}
+        ],
+        "samasa_vigrahas": [
+          {"compound": "anātmanaḥ", "type": "negative-tatpurusha", "resolution": "na ātmā yasya saḥ; tasya", "note": "the non-self taken as an alleged locus"},
+          {"compound": "anātmani", "type": "negative-tatpurusha", "resolution": "na ātmani", "note": "a non-self substrate"}
+        ],
+        "karaka_structure": [
+          {"role": "adhikaraṇa", "pada": "ātmani", "note": "the affirmed locus of avidyā"},
+          {"role": "kartṛ", "pada": "avidyā", "note": "the item whose locus is being determined"},
+          {"role": "sambandha", "pada": "anātmanaḥ", "note": "genitive complement in the denied alternative"},
+          {"role": "adhikaraṇa", "pada": "anātmani", "note": "denied locus in the alternative position"}
+        ]
+      },
+      "english_close": "Therefore ignorance is in the Self alone, and in the Self alone, not in a non-self and not in a non-self-substrate: thus it is established.",
+      "preserved_terms": [
+        {"term_iast": "avidyā", "first_use_gloss": "(roughly: beginningless ignorance)"},
+        {"term_iast": "ātman", "first_use_gloss": "(roughly: the Self, not an object among objects)"},
+        {"term_iast": "anātman", "first_use_gloss": "(roughly: the non-self, the object-side of experience)"}
+      ],
+      "why_this_passage": "This compact conclusion is representative because Vimuktātman's place in the Vivaraṇa line turns in part on locating avidyā in the self rather than in some inert object. The sentence states that commitment directly, after the preceding argument has ruled out rival loci, and so it is not a cherry-picked slogan detached from context.",
+      "topic_tags": ["causation", "ontology"],
+      "sub_axes": ["locus-of-avidya", "jiva-brahman-relation"],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "M. Hiriyanna, ed., Iṣṭa-Siddhi of Vimuktātman with Extracts from the Vivaraṇa of Jñānottama (Baroda: Oriental Institute, Gaekwad's Oriental Series 65, 1933), transcribed from /orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/vedanta/full_corpus/vimuktatman_ista_siddhi_1933_archive.pdf.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "is-1-9__jnanodaya-jivanmukti",
+      "work_id": "ista-siddhi",
+      "locus_short": "IṢ 1.9",
+      "locus_long": "Iṣṭa-Siddhi, chapter 1, Jīvanmuktiḥ, printed p. 77",
+      "locus_structured": {
+        "chapter": 1,
+        "section": "Jīvanmuktiḥ",
+        "other": {
+          "printed_page": 77,
+          "scan_page": 118
+        }
+      },
+      "sanskrit_iast": "ato jñānodayakāla eva vidvān vimuktaḥ.\naśeṣasaṃsārabījasya ajñānasya\nātmajñānāgnināśeṣato dagdhatvāt,\njñānān mokṣo niravadya upapadyate.",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {"pada": "ataḥ", "stem": "atas", "morphology": "indecl", "gloss": "therefore"},
+          {"pada": "jñānodayakāle", "stem": "jñānodayakāla", "pratyaya": "a", "morphology": "loc sg masc", "gloss": "at the time of the rise of knowledge"},
+          {"pada": "eva", "stem": "eva", "morphology": "indecl", "gloss": "itself"},
+          {"pada": "vidvān", "stem": "vidvas", "morphology": "nom sg masc", "gloss": "the knower"},
+          {"pada": "vimuktaḥ", "stem": "vimukta", "pratyaya": "kta", "morphology": "nom sg masc ppp", "gloss": "liberated"},
+          {"pada": "aśeṣasaṃsārabījasya", "stem": "aśeṣasaṃsārabīja", "pratyaya": "a", "morphology": "gen sg neut", "gloss": "of the seed of the entire saṃsāra"},
+          {"pada": "ajñānasya", "stem": "ajñāna", "pratyaya": "a", "morphology": "gen sg neut", "gloss": "of ignorance"},
+          {"pada": "ātmajñānāgninā", "stem": "ātmajñānāgni", "morphology": "instr sg masc", "gloss": "by the fire of self-knowledge"},
+          {"pada": "aśeṣataḥ", "stem": "aśeṣa", "morphology": "indecl abl-adv", "gloss": "completely, without remainder"},
+          {"pada": "dagdhatvāt", "stem": "dagdhatva", "pratyaya": "tva", "morphology": "abl sg neut", "gloss": "because of having been burned"},
+          {"pada": "jñānāt", "stem": "jñāna", "pratyaya": "a", "morphology": "abl sg neut", "gloss": "from knowledge"},
+          {"pada": "mokṣaḥ", "stem": "mokṣa", "pratyaya": "a", "morphology": "nom sg masc", "gloss": "liberation"},
+          {"pada": "niravadyaḥ", "stem": "niravadya", "pratyaya": "a", "morphology": "nom sg masc", "gloss": "unobjectionable"},
+          {"pada": "upapadyate", "stem": "upa-√pad", "morphology": "3sg pres ind Ā", "gloss": "is established / follows coherently"}
+        ],
+        "samasa_vigrahas": [
+          {"compound": "jñānodayakāle", "type": "tatpurusha", "resolution": "jñānasya udayaḥ tasya kālaḥ tasmin", "note": "the very moment at which liberating knowledge arises"},
+          {"compound": "aśeṣasaṃsārabījasya", "type": "other", "resolution": "aśeṣaḥ saṃsāraḥ tasya bījam; tasya", "note": "ignorance as the seed of the entire cycle of bondage"},
+          {"compound": "ātmajñānāgninā", "type": "other", "resolution": "ātmajñānaṃ ca agniś ca, ātmajñānarūpo 'gniḥ tena", "note": "self-knowledge metaphorized as fire"},
+          {"compound": "niravadyaḥ", "type": "negative-tatpurusha", "resolution": "niravadyaḥ = nir-avadyaḥ", "note": "free from defect or objection"}
+        ],
+        "karaka_structure": [
+          {"role": "adhikaraṇa", "pada": "jñānodayakāle", "note": "temporal locus of liberation"},
+          {"role": "kartṛ", "pada": "vidvān", "note": "the realized person"},
+          {"role": "karaṇa", "pada": "ātmajñānāgninā", "note": "instrument that burns ignorance"},
+          {"role": "sambandha", "pada": "aśeṣasaṃsārabījasya ajñānasya", "note": "genitives identifying what is burned"},
+          {"role": "apādāna", "pada": "dagdhatvāt / jñānāt", "note": "grounds from which the conclusion about mokṣa follows"},
+          {"role": "kartṛ", "pada": "mokṣaḥ", "note": "subject of upapadyate"}
+        ],
+        "verb_modality": [
+          {"pada": "upapadyate", "lakara": "laṭ", "pada_PA": "atmanepada", "voice": "middle"}
+        ]
+      },
+      "english_close": "Therefore, at the very time of the rise of knowledge, the knower is liberated. Because ignorance, the seed of the whole saṃsāra, has been burned completely by the fire of self-knowledge, liberation from knowledge follows without defect.",
+      "preserved_terms": [
+        {"term_iast": "jñānodaya", "first_use_gloss": "(roughly: the arising of liberating knowledge)"},
+        {"term_iast": "saṃsāra", "first_use_gloss": "(roughly: the cycle of bondage and rebirth)"},
+        {"term_iast": "mokṣa", "first_use_gloss": "(roughly: liberation)"},
+        {"term_iast": "jīvanmukti", "first_use_gloss": "(roughly: liberation while still embodied)"}
+      ],
+      "why_this_passage": "This is a fair selection because Vimuktātman is not only an analyst of error; he also explicitly states the temporal and causal logic of liberation. The passage shows that for him self-knowledge, by destroying ignorance at its root, makes jīvanmukti immediately intelligible rather than postponing release to some later event.",
+      "topic_tags": ["soteriology", "epistemology"],
+      "sub_axes": ["jivanmukti-possibility", "effective-means-of-moksa", "saving-cognition-status"],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "M. Hiriyanna, ed., Iṣṭa-Siddhi of Vimuktātman with Extracts from the Vivaraṇa of Jñānottama (Baroda: Oriental Institute, Gaekwad's Oriental Series 65, 1933), transcribed from /orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/vedanta/full_corpus/vimuktatman_ista_siddhi_1933_archive.pdf.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    }
+  ],
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1b-opus"
+  "last_verified_by": "wave2-codex"
 }

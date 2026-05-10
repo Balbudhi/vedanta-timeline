@@ -14,7 +14,7 @@
   "lineage_in": [],
   "lineage_out": ["sankara", "ramanuja", "madhva", "bhaskara", "nimbarka", "vallabha", "baladeva"],
   "lineage_polemical": [],
-  "core_thesis": "Bādarāyaṇa systematizes Upaniṣadic teaching into a four-*adhyāya* aphoristic argument whose declared aim (1.1.1: *athāto brahma-jijñāsā*) is *brahma-jijñāsā* — inquiry into *brahman* as the one *jagat-kāraṇa* (cause of the world; 1.1.2: *janmādy asya yataḥ*). The text proceeds by *samanvaya* (harmonization of śruti texts on *brahman*), *avirodha* (rebuttal of rival cosmologies — Sāṅkhya *pradhāna*, Vaiśeṣika atomism, Buddhist momentariness), *sādhana* (means: meditative *upāsanā*, Vedic karma's relation to knowledge), and *phala* (the discipline's fruit: *mokṣa*, the post-mortem trajectory of the *jīva*). On the *jīva*–*brahman* relation Bādarāyaṇa cites earlier ācāryas (Auḍulomi, Āśmarathya, Kāśakṛtsna) without fully resolving their dispute — a deliberate underdetermination that licenses the later school-formation (Advaita, Viśiṣṭādvaita, Dvaita, Bhedābheda) each of which reads the same sūtras through its own *bhāṣya* lens. The work is the foundational *prasthāna* of all later Vedānta.",
+  "core_thesis": "What discipline does a Vedāntic inquirer enter, and on what authority? Bādarāyaṇa answers in his first two *sūtras*. *Athāto brahma-jijñāsā* (1.1.1) — \"now, therefore, the inquiry into *brahman*\" — opens the discipline, and *janmādy asya yataḥ* (1.1.2) defines its object as \"that from which the origin and the rest of this [world]\" proceeds. *Brahman* is thus introduced under one descriptive function: the *jagat-kāraṇa*, world-cause. The work then unfolds across four *adhyāyas* whose headings name four argumentative moves: *samanvaya* (harmonization of *śruti* texts as teaching *brahman*), *avirodha* (rebuttal of rival cosmologies), *sādhana* (the means: meditative *upāsanā*, Vedic *karma*'s relation to knowledge), *phala* (the fruit: *mokṣa* and the trajectory of the *jīva* after death). On the *jīva*–*brahman* relation Bādarāyaṇa cites three earlier ācāryas — Auḍulomi, Āśmarathya, Kāśakṛtsna — without adjudicating their dispute. The compressed style of the *sūtra* genre forces every later reader to supply a *bhāṣya*; this is why a single text becomes the shared ground of Advaita, Viśiṣṭādvaita, Dvaita, and Bhedābheda. Whether Bādarāyaṇa's underdetermination is deliberate or merely the inheritance of an oral *sūtra*-corpus is itself an open question.",
   "engaged_works": [
     {
       "work_id": "brahma-sutra",
@@ -28,15 +28,15 @@
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
-      "summary": "555 *sūtras* in four *adhyāyas* (each with four *pādas*): *samanvaya* (1; harmonization of śruti as teaching *brahman*), *avirodha* (2; defense against rival schools — Sāṅkhya, Vaiśeṣika, Buddhist, Jaina, Pāśupata, Pāñcarātra), *sādhana* (3; *upāsanā*, the *jīva* in transmigration, the relation of *karma* to *vidyā*), *phala* (4; the path of the liberated knower — *devayāna*, *kramamukti*, the nature of the *mukta-puruṣa*). Internal citations to ācāryas Auḍulomi, Āśmarathya, Kāśakṛtsna, Bādari, Jaimini, and Kārṣṇājini show the work as the consolidation of an earlier oral *sūtra* tradition. Its compressed style is unintelligible without commentary; this very feature makes it the disputed common ground of every Vedāntic school. Securely a compiled work; the question of single vs. multi-author redaction is open. Modern critical edition: Thibaut (SBE), Deussen, and the Ānandāśrama editions of the major *bhāṣyas*.",
+      "summary": "An aphoristic treatise: 555 *sūtras* in four *adhyāyas*, each subdivided into four *pādas*. *Adhyāya* 1 establishes *samanvaya* — that the disputed *śruti* passages all converge on *brahman* as their *tātparya*. The decisive sūtra here is 1.1.4, *tat tu samanvayāt*. *Adhyāya* 2 turns to *avirodha*: rival cosmologies are refuted in turn — Sāṅkhya *pradhāna* (2.1–2.2), Vaiśeṣika atomism, Buddhist schools (Sautrāntika, Vijñānavāda, Mādhyamika), Jaina *anekānta*, Pāśupata, Pāñcarātra. *Adhyāya* 3 treats *sādhana*: *upāsanā*, the *jīva*'s transmigration, the relation of *karma* to *vidyā*. *Adhyāya* 4 treats *phala*: *devayāna*, *kramamukti*, the condition of the *mukta-puruṣa*. The work cites by name the ācāryas Auḍulomi, Āśmarathya, Kāśakṛtsna, Bādari, Jaimini, and Kārṣṇājini; this is direct evidence that what survives is the consolidation of a prior oral *sūtra*-tradition. The text is unintelligible without a commentary, and this is precisely why it can serve as common ground for incompatible schools. Securely a compiled work; the question of single versus multi-author redaction remains open. Standard editions: Thibaut (SBE 34, 38), Deussen, and the Ānandāśrama series of the major *bhāṣyas*.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     }
   ],
   "key_passages": [],
   "comparative_claim_ids": [],
-  "entry_status": "reviewed",
+  "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1a-opus"
+  "last_verified_by": "wave1-rewrite-opus"
 }
