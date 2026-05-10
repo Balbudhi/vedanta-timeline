@@ -1,0 +1,32 @@
+{
+  "term_key": "pramana-dvaya",
+  "term_iast": "pramāṇa-dvaya",
+  "term_devanagari": "प्रमाणद्वय",
+  "literal": "two pramāṇas; from pramāṇa 'means of valid cognition' + dvaya 'pair, twofold'",
+  "aliases": ["pramana-dvaya", "pramāṇa-dvaya", "Pramāṇa-Dvaya", "pramāṇa-dvayam", "dvi-pramāṇa-vāda"],
+  "invariant_definition": "*Pramāṇa-dvaya* is the Dignāga–Dharmakīrti thesis that only two *pramāṇa*s are valid means of cognition: *pratyakṣa* (perception) and *anumāna* (inference). The thesis is grounded in the *svalakṣaṇa* / *sāmānya-lakṣaṇa* distinction: there are exactly two kinds of cognitive object — the bare causally-efficacious particular and the conceptually-constructed universal — and exactly two *pramāṇa*s corresponding to them. The candidate further *pramāṇa*s of the Naiyāyika system (*upamāna*, *śabda*) and the Mīmāṃsā system (these two plus *arthāpatti* and *anupalabdhi*) are reduced, on the Buddhist analysis, to special cases of *anumāna* and so do not constitute independent *pramāṇa*-types. The thesis is the principal Buddhist position the Vedāntic and Mīmāṃsā schools refute when defending the autonomy of *śabda-pramāṇa*.",
+  "per_school": [
+    {
+      "school": "Buddhist Pramāṇa (Dignāga–Dharmakīrti)",
+      "definition": "Foundational doctrine. Dignāga's *Pramāṇa-Samuccaya* opens with the *pramāṇa-dvaya* statement; Dharmakīrti's *Pramāṇa-Vārttika* and *Nyāya-Bindu* preserve it. The Buddhist analysis reduces *upamāna* to a species of *anumāna* (the analogical identification 'this is a *gavaya* because it resembles a cow' is structured as an inference from observed similarity to the unobserved category-membership) and reduces *śabda* to *anumāna* over the speaker's reliability and intention.",
+      "primary_loci": ["Dignāga, Pramāṇa-Samuccaya 1.2", "Dharmakīrti, Nyāya-Bindu 1.3", "Dharmakīrti, Pramāṇa-Vārttika 3.1–53"]
+    },
+    {
+      "school": "Nyāya",
+      "definition": "Refused. The Naiyāyika four-pramāṇa scheme — *pratyakṣa*, *anumāna*, *upamāna*, *śabda* — is defended at length against the Buddhist reduction. *Upamāna* delivers a cognition of a specific identification-type that *anumāna* cannot deliver; *śabda* delivers cognitions whose grounds are testimonial in a way that does not reduce to inference over speaker-reliability. The defence runs from Vātsyāyana's *Bhāṣya* through Uddyotakara, Vāchaspati, Udayana, and Gaṅgeśa.",
+      "primary_loci": ["Vātsyāyana, Nyāya-Bhāṣya ad NS 1.1.3–8", "Uddyotakara, Nyāya-Vārttika", "Udayana, Nyāya-Vārttika-Tātparya-Pariśuddhi"]
+    },
+    {
+      "school": "Mīmāṃsā",
+      "definition": "Refused. The Bhāṭṭa six-pramāṇa scheme (*pratyakṣa*, *anumāna*, *upamāna*, *śabda*, *arthāpatti*, *anupalabdhi*) and the Prābhākara five-pramāṇa scheme (omitting *anupalabdhi*) both defend the autonomy of *śabda-pramāṇa* against the Buddhist reduction. The defence of *śabda* as autonomous is load-bearing for Mīmāṃsā, since the Vedic injunction's authority would collapse if *śabda* were reducible to inference over speaker-reliability — there is no *speaker* of the *apauruṣeya* Veda.",
+      "primary_loci": ["Kumārila, Ślokavārttika śabda-pariccheda", "Prabhākara, Bṛhatī"]
+    },
+    {
+      "school": "Vedānta",
+      "definition": "Refused. Vedānta inherits the defence of *śabda* as autonomous from Mīmāṃsā; for the Vedāntic project, *brahman* can be established only by *śabda* (since *pratyakṣa* and *anumāna* operate on their own proper objects and cannot reach *brahman*), and the autonomy of *śabda* is therefore non-negotiable. Each Vedāntic school enumerates *pramāṇa*s slightly differently — Advaita's Dharmarāja accepts six; Mādhva's Jayatīrtha gives a sākṣi-pratyakṣa-grounded scheme; Rāmānuja's tradition accepts the Bhāṭṭa scheme — but all reject the *pramāṇa-dvaya* thesis as incompatible with the autonomy of Vedic *śabda*.",
+      "primary_loci": ["Dharmarāja, Vedānta-Paribhāṣā", "Jayatīrtha, Pramāṇa-Paddhati", "Vedānta-Deśika, Nyāya-Pariśuddhi"]
+    }
+  ],
+  "see_also": ["pratyaksa", "anumana", "sabda", "upamana", "svalaksana", "samanyalaksana", "apoha", "pramana"],
+  "translator_note": "The Sanskrit *pramāṇa-dvaya-vāda* names the doctrine that there are only two *pramāṇa*s; *dvi-pramāṇa-vāda* is an alternative formulation. The doctrine is doctrinally load-bearing for Buddhist epistemology because admitting *śabda* as an independent *pramāṇa* would re-open the question of Vedic authority that the Buddhist project rejects on independent grounds. The Naiyāyika and Mīmāṃsaka defences of the further *pramāṇa*s are correspondingly load-bearing for the brahmanical project of preserving the authority of *śruti*."
+}

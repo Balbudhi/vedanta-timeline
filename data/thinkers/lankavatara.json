@@ -1,0 +1,59 @@
+{
+  "id": "lankavatara",
+  "name": "Lankavatara-Sutra",
+  "name_iast": "Laṅkāvatāra-Sūtra",
+  "alternate_names": ["Saddharma-Laṅkāvatāra-Sūtra", "LAS"],
+  "dates_low": 350,
+  "dates_high": 450,
+  "dates_tier": "contested",
+  "dates_notes": "The Laṅkāvatāra-Sūtra is a composite text whose redactional history extends over several centuries. The earliest stratum (the Sagāthaka chapter and core prose-chapters) is generally placed in the late fourth or early fifth century, and the text is securely terminus-ante-quem-fixed by Guṇabhadra's first complete Chinese translation in 443 CE. Later redactional layers extending into the late fifth or sixth century are attested by comparison of Bodhiruci's 513 CE and Śikṣānanda's 700 CE Chinese translations with the surviving Sanskrit (Nanjio 1923 edition). The c. 350–450 CE window covers the principal compositional stratum on which the Tathāgatagarbha-Yogācāra synthesis articulated in the sūtra rests. Treated here as a position-entry rather than an author-entry: the sūtra is the doctrinal vehicle, not the work of an identified author.",
+  "school": "Cross-tradition",
+  "school_color_token": "tathagatagarbha-comparator",
+  "sub_school": "Buddha-nature-Mahāyāna",
+  "sub_school_shade": 4,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "vasubandhu",
+      "direction": "mutual",
+      "note": "The Laṅkāvatāra-Sūtra is the principal scriptural source for the eight-vijñāna model and the ālaya-vijñāna terminology that Vasubandhu's Yogācāra phase (Triṃśikā, Viṃśatikā) develops into systematic doctrine. The relation is one of doctrinal inheritance: Vasubandhu's articulation of vijñapti-mātratā draws on the sūtra's citta-mātra (mind-only) formulations; conversely the sūtra's redactional layers may register the influence of the developed Yogācāra system."
+    },
+    {
+      "thinker_id": "utpaladeva",
+      "direction": "mutual",
+      "note": "Pratyabhijñā / Trika in Kashmir inherits the sūtra's emphasis on the cognitive ground of awakening and on prakṛti-prabhāsvara-citta into its own articulation of the always-already-Śiva nature of awareness. The relation is one of structural inheritance through shared northern-Buddhist doctrinal milieu rather than direct citation."
+    },
+    {
+      "thinker_id": "abhinavagupta",
+      "direction": "mutual",
+      "note": "Abhinavagupta's Tantrāloka and Īśvara-Pratyabhijñā-Vimarśinī engage Buddhist positions throughout; the Laṅkāvatāra-Sūtra's articulation of citta-mātra and of the distinction between the conditioned and unconditioned sides of consciousness is part of the doctrinal background against which the Trika non-dualist position is articulated, particularly in the treatment of vimarśa as the dynamic luminosity of cit."
+    }
+  ],
+  "core_thesis": "The Laṅkāvatāra-Sūtra is the principal Mahāyāna sūtra synthesising the Yogācāra and Tathāgatagarbha doctrinal streams. The text is structured as a discourse delivered by the Buddha to the bodhisattva Mahāmati on the island of Laṅkā, and works through the doctrinal apparatus by which the synthesis is to be articulated. Three doctrinal moves are decisive. First, the sūtra is the principal scriptural source for the introduction of ālaya-vijñāna as a technical term: the eighth consciousness, the storehouse-consciousness, the substrate that carries karmic vāsanā-seeds across the moments of the cognitive flow and grounds the appearance of an enduring perceiver. The eight-vijñāna model (the six sense-consciousnesses, manas as the seventh, ālaya as the eighth) is the sūtra's articulation of the cognitive architecture within which both saṃsāra and the path to liberation operate. Second, the sūtra is the principal early source for the citta-mātra (mind-only) doctrine in its developed form, articulating the thesis that all phenomena are transformations (pariṇāma) of consciousness without an extra-mental referent. The doctrine is presented not as a denial of the world's reality at the conventional level but as a refusal of the inference from the appearance of objects to the existence of extra-mental substances. Third, the sūtra integrates the Tathāgatagarbha doctrine with this Yogācāra apparatus: tathāgatagarbha is identified with ālaya-vijñāna in its undefiled aspect, with the conditioned cognitive flow being the locus of obscuration and the unconditioned ground being the locus of awakening. The sūtra is at pains (especially in chapter 6, the Tathāgatagarbha-parivarta, in the Sanskrit recension) to distinguish tathāgatagarbha from the ātman of the heretical schools: it is not a substance but a non-substantialist designation for the cognitive ground of awakening, the prakṛti-prabhāsvara-citta. The integration is decisive for the subsequent East Asian tradition (the Awakening of Faith, the Chan / Zen school's articulation of original-nature) and supplies the Sanskrit-source background against which the Pratyabhijñā / Trika inheritance into Kashmir Śaivism can be understood. The sūtra also articulates the four-fold dhyāna doctrine and the doctrine of svasiddhānta-naya / deśanā-naya (the distinction between the truth one realises for oneself and the truth one teaches to others), which is structurally important for understanding how the sūtra's various doctrinal moves are intended to function pedagogically rather than as straight metaphysics.",
+  "engaged_works": [
+    {
+      "work_id": "lankavatara-sutra",
+      "title": "Lankavatara-Sutra",
+      "title_iast": "Laṅkāvatāra-Sūtra",
+      "alternate_titles": ["Saddharma-Laṅkāvatāra-Sūtra", "LAS"],
+      "ascription_tier": "school-ascribed",
+      "ascription_notes": "School-ascribed Mahāyāna sūtra; not the work of an identified author but the redactional product of the early-to-mid Mahāyāna milieu in which the Tathāgatagarbha-Yogācāra synthesis was being articulated. Sanskrit edition Nanjio 1923; English translations Suzuki 1932, Red Pine 2012.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Suzuki 1930, Studies in the Lankavatara Sutra; Sutton 1991, Existence and Enlightenment in the Lankavatara-Sutra."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The principal Mahāyāna sūtra synthesising Yogācāra and Tathāgatagarbha doctrine, structured as a discourse delivered by the Buddha to the bodhisattva Mahāmati on the island of Laṅkā. The text is composite: the Sagāthaka (the verse summary) is the earliest stratum; the prose chapters develop the doctrinal apparatus. Chapter 2 (the longest chapter in the Sanskrit recension) treats the catuḥśataka-praśna (the 108 questions) and the Buddha's response, articulating the citta-mātra doctrine and the eight-vijñāna model with ālaya-vijñāna in the eighth position. Chapter 6 (Tathāgatagarbha-parivarta) is the locus classicus for the integration of tathāgatagarbha with ālaya-vijñāna and contains the key passage in which Mahāmati asks how tathāgatagarbha differs from the ātman of the heretical schools and the Buddha responds that it is taught precisely to lead beings beyond ātman-grasping by supplying a non-substantialist alternative. The sūtra also articulates the doctrine of three (or sometimes four) svabhāvas (parikalpita / paratantra / pariniṣpanna), the doctrine of the two svaprajñāptis (the truth one realises for oneself and the truth one teaches), and the doctrine of svasiddhānta-naya / deśanā-naya. The sūtra is the principal scriptural source for the Yogācāra-Tathāgatagarbha synthesis transmitted into East Asia (it is the foundational text for the Chan / Zen tradition; Bodhidharma is traditionally said to have transmitted it to Huike) and is the principal Sanskrit-source background for the Pratyabhijñā / Trika inheritance into Kashmir Śaivism.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "The Laṅkāvatāra-Sūtra is one of the principal Mahāyāna sūtras whose doctrinal positions the Vedāntic critic at Brahma-Sūtra-Bhāṣya 2.2.28–32 engages, though the engagement is generic to the vijñāna-vāda position rather than specific to the sūtra. The sūtra is more decisive for the comparative project as the Sanskrit-source background for the Pratyabhijñā / Trika inheritance: Utpaladeva's Īśvara-Pratyabhijñā-Kārikā and Abhinavagupta's commentaries on it operate within a doctrinal milieu in which the Laṅkāvatāra's articulation of citta-mātra and of the cognitive ground of awakening is part of the shared inheritance, even where direct citation is rare. In East Asia the sūtra is foundational for the Yogācāra (Faxiang) school and for the Chan / Zen tradition. Modern scholarly engagement: Suzuki 1930 (Studies in the Lankavatara Sutra) and 1932 (translation), Sutton 1991, Lindtner's textual studies, and Red Pine 2012 (translation with notes).",
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-buddhist-comparators-extension-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-buddhist-comparators-extension-opus"
+}

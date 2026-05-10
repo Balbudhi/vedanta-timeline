@@ -1,0 +1,123 @@
+{
+  "id": "yashovijaya",
+  "name": "Yashovijaya",
+  "name_iast": "Yaśovijaya",
+  "alternate_names": ["Yaśovijaya Upādhyāya", "Yaśovijayagaṇi", "Nyāya-Viśārada Yaśovijaya"],
+  "dates_low": 1624,
+  "dates_high": 1688,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Dated by his own datable works (Saṃvat dates in colophons), by Vijayadevasūri's records of his Tapā-Gaccha investiture, and by his documented residence and study at Vārāṇasī under Brahmanical paṇḍitas in the 1640s; the dates 1624–1688 CE are settled in modern Jaina-historical scholarship (Tripāṭhī, Cort).",
+  "dates_evidence": [
+    {"kind": "manuscript-colophon", "description": "Saṃvat colophon-dates in his own works fix the chronology."},
+    {"kind": "sectarian-chronicle", "description": "Tapā-Gaccha records of his initiation and investiture as Upādhyāya."}
+  ],
+  "school": "Jaina",
+  "school_color_token": "jaina-comparator",
+  "sub_school": "Śvetāmbara — Navya-Nyāya-engaged",
+  "sub_school_shade": 4,
+  "lineage_in": ["umasvati", "haribhadra", "hemacandra", "mallisena"],
+  "lineage_out": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "gangesa",
+      "direction": "refutes",
+      "note": "Yaśovijaya studied Navya-Nyāya at Vārāṇasī in the technical idiom Gaṅgeśa established (Tattva-Cintāmaṇi) and engages it directly in his Jaina-Tarka-Bhāṣā and Nyāya-Loka; the Jaina-Navya-Nyāya synthesis he produces is a sustained refutation of the Naiyāyika positive theses (paramāṇu-cosmology, jāti-realism, the four-pramāṇa scheme) using the Naiyāyikas' own technical apparatus."
+    },
+    {
+      "thinker_id": "raghunatha-siromani",
+      "direction": "mutual",
+      "note": "Raghunātha Śiromaṇi's Padārtha-Tattva-Nirūpaṇa reduces the Vaiśeṣika categories from seven to three, and Yaśovijaya engages this reduction; the Jaina-Tarka-Bhāṣā discusses the Padārtha-Tattva-Nirūpaṇa's reductions in light of the Jaina dravya-paryāya analysis, and the methodological convergence on category-reduction is itself a significant cross-tradition moment."
+    },
+    {
+      "thinker_id": "appayya",
+      "direction": "is-refuted-by",
+      "note": "Appayya's late Vedāntic polemical works engage the Jaina position in the form Yaśovijaya systematises through Navya-Nyāya idiom; the engagement is indirect (Appayya does not cite Yaśovijaya by name) but the seventeenth-century Vedāntic Navya-Nyāya commentaries take the developed Jaina-Navya-Nyāya position as their target."
+    }
+  ],
+  "core_thesis": "Yaśovijaya Upādhyāya is the major early-modern Śvetāmbara logician — the Jaina figure who engages Navya-Nyāya in its own technical idiom and produces a Jaina-Navya-Nyāya synthesis. Trained at Vārāṇasī under Brahmanical paṇḍitas in the 1640s, he returns to the Tapā-Gaccha as the school's premier dialectician and produces a body of work covering Jaina pramāṇa-theory, *anekānta-vāda*, the seven-fold *bhaṅga*-predication, the *naya*-doctrine, and Jaina yoga-praxis — all reformulated in the technical vocabulary of *vyāpti*, *avacchedaka*, *paryāpti*, and *prakāra* that Gaṅgeśa's *Tattva-Cintāmaṇi* had established as the lingua franca of post-fourteenth-century Indian dialectic. The *Jaina-Tarka-Bhāṣā* gives the Jaina theory of *pramāṇa* in Navya-Nyāya idiom; the *Nyāya-Loka* (also called *Nyāya-Khaṇḍa-Khādya*) is the most ambitious dialectical work of the corpus, defending Jaina positions on universals, particulars, the substance-modal account of reality, and the seven-fold predication against Naiyāyika opponents in the Naiyāyikas' own grammar. The *Adhyātma-Sāra* is the principal late-medieval Śvetāmbara text on the inner life — combining Hemacandra's *Yoga-Śāstra* tradition with the Adhyātma movement's emphasis on the *jīva*'s essential nature. Yaśovijaya also composed an extensive sub-commentary on Hemacandra's *Pramāṇa-Mīmāṃsā*. The strategic significance: by the seventeenth century, dialectical engagement with Brahmanical opponents required the Navya-Nyāya idiom, and Yaśovijaya is the figure who brings the Jaina position to the standard of formal sophistication required to engage seventeenth-century Vedāntic Navya-Nyāya commentators on their own ground.",
+  "engaged_works": [
+    {
+      "work_id": "jaina-tarka-bhasha",
+      "title": "Jaina-Tarka-Bhasha",
+      "title_iast": "Jaina-Tarka-Bhāṣā",
+      "alternate_titles": [],
+      "composition_dates_low": 1650,
+      "composition_dates_high": 1680,
+      "composition_dates_notes": "Composed in Yaśovijaya's mature period after his Vārāṇasī training; the title deliberately echoes Keśava Miśra's Tarka-Bhāṣā (the standard Navya-Nyāya introductory text) and Dharmarāja's Vedānta-Paribhāṣā.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Yaśovijaya by his own colophon and by uniform Tapā-Gaccha tradition.",
+      "ascription_evidence": [
+        {"kind": "manuscript-colophon", "description": "Self-ascribed in the colophon."},
+        {"kind": "scholarly-consensus", "description": "Cort (Jains in the World); Tripāṭhī (modern editions of the Yaśovijaya corpus)."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "A compact treatise on Jaina pramāṇa-theory and dialectical apparatus, deliberately modelled on Keśava Miśra's Navya-Nyāya *Tarka-Bhāṣā* and on Dharmarāja's Advaita *Vedānta-Paribhāṣā*. Yaśovijaya gives the Jaina theory of *pramāṇa* — *pratyakṣa* (with the *sāṃvyavahārika* / *mukhya* distinction) and *parokṣa* (with its five-fold subdivision) — in Navya-Nyāya technical vocabulary: *vyāpti*, *paryāpti*, *avacchedaka*, *prakāra* are deployed to articulate the Jaina positions on inferential structure and the relation between cognition and its object. The seven-fold *bhaṅga*-predication is presented in formal grammar showing how each *bhaṅga* is conditioned by an explicit *avacchedaka*; the *naya*-doctrine is articulated as a theory of standpoint-conditioned predication compatible with classical *anumāna*-theory. The work is the standard introductory text of the Jaina-Navya-Nyāya synthesis and the form in which the Tapā-Gaccha curriculum receives it.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "nyaya-loka",
+      "title": "Nyaya-Loka",
+      "title_iast": "Nyāya-Loka",
+      "alternate_titles": ["Nyāya-Khaṇḍa-Khādya", "Khaṇḍana-Khaṇḍa"],
+      "composition_dates_low": 1660,
+      "composition_dates_high": 1685,
+      "composition_dates_notes": "The most ambitious dialectical work of Yaśovijaya's mature period.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Yaśovijaya.",
+      "ascription_evidence": [
+        {"kind": "manuscript-colophon", "description": "Self-ascribed."},
+        {"kind": "scholarly-consensus", "description": "Standard ascription in the Yaśovijaya canon."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "An extensive dialectical engagement with Naiyāyika positions on *jāti*-realism, *paramāṇu*-cosmology, the four-pramāṇa scheme, and the *Īśvara*-as-creator argument, conducted in the technical idiom of post-Raghunātha Navya-Nyāya. Yaśovijaya defends the Jaina substance-modal (*dravya-paryāya*) account of reality against the Naiyāyika substance-quality-particularity (*dravya-guṇa-viśeṣa*) ontology, arguing that the *paryāya*-modal aspect of every existent makes the seven-fold *bhaṅga*-predication unavoidable and that the Naiyāyikas' commitment to absolute *jāti* obscures it. The Naiyāyika five-membered inference is reformulated to allow the Jaina seven-fold predication to be tracked through the inferential structure. The work's title (*Khaṇḍa-Khādya*, 'a feast of refutations') announces its polemical character and is the most substantial seventeenth-century Jaina answer to Brahmanical Navya-Nyāya.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "adhyatma-sara",
+      "title": "Adhyatma-Sara",
+      "title_iast": "Adhyātma-Sāra",
+      "composition_dates_low": 1660,
+      "composition_dates_high": 1688,
+      "composition_dates_notes": "The principal late-medieval Śvetāmbara text on the inner life.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Yaśovijaya.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Standard ascription; the work is canonical in the Śvetāmbara Adhyātma tradition."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Twenty-one *adhikāras* on the inner life of the *jīva*: *adhyātma-svarūpa* (the nature of inner life), *dambha-tyāga* (the renunciation of pretence), *bhava-svarūpa* (the structure of saṃsāra), *vairāgya* (dispassion), *yoga* (the disciplines of *gupti*, *samiti*, *cāritra*), *dhyāna* (the four kinds of *dhyāna* — *ārta*, *raudra*, *dharma*, *śukla*), *anubhava* (the *jīva*'s direct experience of its own essential nature), and *mokṣa*. The work synthesises Hemacandra's *Yoga-Śāstra* tradition with the Adhyātma movement's emphasis on the *jīva*'s essential nature as *cetana* and *jñāna-svabhāva* — the Kundakunda-derived tradition that the Śvetāmbara Adhyātma movement had absorbed from the Digambara Samaya-Sāra commentarial reception. Yaśovijaya tracks the Adhyātma reading carefully to avoid the Digambara *niścaya-naya* over-emphasis that the Tapā-Gaccha had been wary of, balancing it with explicit attention to the *vyavahāra-naya*'s role in praxis.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "pramana-mimamsa-vyakhyana",
+      "title": "Pramana-Mimamsa Commentary",
+      "title_iast": "Pramāṇa-Mīmāṃsā-Vyākhyāna",
+      "composition_dates_low": 1660,
+      "composition_dates_high": 1688,
+      "composition_dates_notes": "Sub-commentary on Hemacandra's Pramāṇa-Mīmāṃsā.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Yaśovijaya by Tapā-Gaccha tradition.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Standard ascription in the Yaśovijaya canon."}
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "summary": "An extensive Sanskrit prose sub-commentary on Hemacandra's *Pramāṇa-Mīmāṃsā* — Hemacandra's twelfth-century systematic Jaina pramāṇa-treatise. Yaśovijaya unfolds Hemacandra's compressed *sūtras* and the auto-commentary in Navya-Nyāya idiom, integrating the Jaina-Navya-Nyāya synthesis he had developed in the *Jaina-Tarka-Bhāṣā* and *Nyāya-Loka*. The work is the form in which the Tapā-Gaccha curriculum receives the Hemacandra-Yaśovijaya pramāṇa-theory and is the principal seventeenth-century Śvetāmbara work for studying Jaina epistemology in the standard early-modern Sanskrit dialectical register.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Yaśovijaya is the figure through whom the Jaina position enters the seventeenth-century Sanskrit dialectical mainstream on the standard early-modern terms — Navya-Nyāya idiom, formal vyāpti-analysis, and the technical apparatus of the post-Raghunātha period. He is engaged (indirectly, by school) by the late Vedāntic Navya-Nyāya commentators (Madhusūdana's later commentators; Appayya's school); his works become the standard Tapā-Gaccha curriculum for advanced dialectics. Modern Jaina-historical scholarship (Tripāṭhī, Cort, Dundas) treats him as the school's most important early-modern dialectician and the figure who keeps Jaina logic in conversation with Brahmanical Navya-Nyāya into the colonial period.",
+  "entry_status": "draft",
+  "entry_owner_agent": "non-vedic-comparator-extension-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "non-vedic-comparator-extension-opus"
+}

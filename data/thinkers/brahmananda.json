@@ -56,7 +56,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
-      "summary": "The extended sub-commentary on Madhusūdana's *Advaita-Siddhi*, larger and more discursive than the *Laghu-Candrikā* (with which the title is sometimes used interchangeably in the manuscript tradition). Brahmānanda traces each of the *Advaita-Siddhi*'s arguments at length, integrates the *Laghu-Candrikā*'s replies to the *Tarangiṇī* tradition, and gives the most thorough single Vivaraṇa-line treatment of the *Advaita-Siddhi*'s technical positions. The work is the standard reference for advanced study of the *Advaita-Siddhi*. Any modern reading of the *Advaita-Siddhi* / *Nyāyāmṛta* exchange uses Brahmānanda's apparatus to navigate Madhusūdana's compressed dialectic, and most published editions carry the *Gauḍa-Brahmānandī* alongside the root text.",
+      "summary": "The extended sub-commentary on Madhusūdana's *Advaita-Siddhi*, larger and more discursive than the *Laghu-Candrikā* (with which the title is sometimes used interchangeably in the manuscript tradition). Brahmānanda traces each of the *Advaita-Siddhi*'s arguments at length (*Gauḍa-Brahmānandī* on all four *parichedas*: prathama-, dvitīya-, tṛtīya-, caturtha-paricheda), integrates the *Laghu-Candrikā*'s replies to the *Tarangiṇī* tradition, and gives the most thorough single Vivaraṇa-line treatment of the *Advaita-Siddhi*'s technical positions. The work is the standard reference for advanced study of the *Advaita-Siddhi*. Any modern reading of the *Advaita-Siddhi* / *Nyāyāmṛta* exchange uses Brahmānanda's apparatus to navigate Madhusūdana's compressed dialectic, and most published editions carry the *Gauḍa-Brahmānandī* alongside the root text.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     }
@@ -66,7 +66,7 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-audit-fix-opus",
+  "last_verified_by": "wave-citation-batch6-opus",
   "polemic_chain_ids": [
     "advaita-siddhi-replies",
     "nyayamrta-arguments"
