@@ -34,8 +34,26 @@
   ],
   "key_passages": [],
   "comparative_claim_ids": [],
+  "quoted_by": [
+    {
+      "thinker_id": "sureshvara",
+      "work_id": "naishkarmya-siddhi",
+      "locus": "1.67 (and surrounding verses 1.51–69, 4.40–44)",
+      "what_quoted": "Brahmadatta named as proponent of *jñāna-karma-samuccaya* and *prasaṃkhyāna* / *bhāvanā* on cognition of Brahman; refuted at length.",
+      "on_disk": true,
+      "on_disk_path": "/materials/primary_texts/sanskrit/_replaced/suresvara_naiskarmya_siddhi_alston_archive_djvu.txt"
+    },
+    {
+      "thinker_id": "mandana",
+      "work_id": "brahma-siddhi",
+      "locus": "*brahma-kāṇḍa* §§14–25",
+      "what_quoted": "Maṇḍana's *prasaṃkhyāna*-position parallels and partly inherits the Brahmadatta line (Ānandagiri's *Tīkā* on *Naiṣkarmya-Siddhi* 1.51 makes the link explicit).",
+      "on_disk": true,
+      "on_disk_path": "/materials/primary_texts/sanskrit/_replaced/gretil_sa_mandanamizra-brahmasiddhi.txt"
+    }
+  ],
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-claim-grounding-opus"
 }

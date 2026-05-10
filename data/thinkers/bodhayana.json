@@ -34,8 +34,27 @@
   ],
   "key_passages": [],
   "comparative_claim_ids": [],
+  "quoted_by": [
+    {
+      "thinker_id": "ramanuja",
+      "work_id": "vedartha-sangraha",
+      "locus": "RVas_92 (the *bodhāyana-ṭaṅka-draviḍa-guhadeva-kapardi-bhāruci* list invoking Bodhāyana as foremost of the *purātana-vyākhyātṛ*-lineage)",
+      "what_quoted": "Bodhāyana invoked as the founding pre-Śaṅkara *vyākhyātṛ* whose Vedānta-reading authorises Rāmānuja's path.",
+      "on_disk": true,
+      "on_disk_path": "/materials/primary_texts/sanskrit/vedanta/ramanuja_vedartha_sangraha.txt"
+    },
+    {
+      "thinker_id": "ramanuja",
+      "work_id": "sri-bhasya",
+      "locus": "*mukha-bhūmikā* (preface)",
+      "what_quoted": "*bhagavad-bodhāyana-kṛtāṃ vistīrṇāṃ brahma-sūtra-vṛttiṃ pūrvācāryāḥ saṃcikṣipuḥ; tan-mata-anusāreṇa sūtrākṣarāṇi vyākhyāsyante* — Rāmānuja's claim of inheritance from Bodhāyana's lost Vṛtti.",
+      "on_disk": true,
+      "on_disk_path": "/materials/primary_texts/sanskrit/_more/SribhasyaOfRamanujaPart1Chatuhsutri1959R.D.Karmakar.txt",
+      "on_disk_note": "Sribhasya part 1 (Karmakar 1959 ed.) is on disk; OCR quality is poor and the *mukha-bhūmikā* must be consulted in the PDF rather than via text-search. The Bodhāyana citation in the *Vedārtha-Saṅgraha* is text-searchable on disk and confirms the reference."
+    }
+  ],
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-claim-grounding-opus"
 }
