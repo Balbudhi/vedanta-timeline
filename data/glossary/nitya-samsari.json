@@ -1,0 +1,17 @@
+{
+  "term_key": "nitya-samsari",
+  "term_iast": "nitya-saṃsārī",
+  "term_devanagari": "नित्यसंसारी",
+  "literal": "eternally-cycling; nitya (eternal) + saṃsārī (cycler)",
+  "aliases": ["nitya-samsari", "nitya-saṃsārī", "nityasaṃsārī", "Nitya-saṃsārī"],
+  "invariant_definition": "One of three intrinsic classes of *jīva* in Madhva's *taratamya*-doctrine. *Nitya-saṃsārī* souls cycle eternally in *saṃsāra* — neither attaining *mokṣa* (above) nor descending to *andha-tamas* (below). They are constitutively neither bad enough for hell nor good enough for liberation; their *svabhāva* is to remain in middle conditions through endless cycles. This doctrine is unique to Madhva's school and follows from his metaphysical realism about *taratamya*.",
+  "per_school": [
+    {
+      "school": "Dvaita",
+      "definition": "*Nitya-saṃsārī* souls are eternally cycling; their condition is intrinsic, not the result of correctable *karma*-deficit. Most ordinary humans are *nitya-saṃsārī*; this is not a condemnation but a statement about *svarūpa*-fitness.",
+      "primary_loci": ["Mahābhārata-Tātparya-Nirṇaya 1.85–95", "Anu-Vyākhyāna 3.4"]
+    }
+  ],
+  "see_also": ["mukti-yogya", "tamo-yogya", "taratamya", "samsara"],
+  "translator_note": "'Eternally-cycling' acceptable. Note again: the classification is *metaphysical*, not moral — being *nitya-saṃsārī* is a statement about constitutive nature, not a verdict on conduct."
+}

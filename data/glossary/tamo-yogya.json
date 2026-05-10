@@ -1,0 +1,17 @@
+{
+  "term_key": "tamo-yogya",
+  "term_iast": "tamo-yogya",
+  "term_devanagari": "तमोयोग्य",
+  "literal": "fit-for-darkness; tamas (darkness) + yogya (fit)",
+  "aliases": ["tamo-yogya", "tamoyogya", "Tamo-yogya"],
+  "invariant_definition": "One of three intrinsic classes of *jīva* in Madhva's *taratamya*-doctrine. *Tamo-yogya* souls are constitutively fated to descend to *andha-tamas* (eternal darkness — Madhva's analogue of permanent hell). The classification is intrinsic, not earned. This is the most controversial of Madhva's doctrines and the principal Indian philosophical analogue to Calvinist double predestination — though arrived at on quite different metaphysical premises (*taratamya* of *svarūpa*, not divine election).",
+  "per_school": [
+    {
+      "school": "Dvaita",
+      "definition": "*Tamo-yogya* souls' fate is *andha-tamas* — eternal darkness, the Mādhva equivalent of permanent damnation. The doctrine is grounded in metaphysical *taratamya*: just as some souls are intrinsically *mukti-yogya*, some are intrinsically *tamo-yogya*. The doctrine has been a perennial polemical target across Indian philosophy.",
+      "primary_loci": ["Mahābhārata-Tātparya-Nirṇaya 1.85–95", "Anu-Vyākhyāna 3.4", "Brahma-Sūtra-Bhāṣya (Madhva) 3.1"]
+    }
+  ],
+  "see_also": ["mukti-yogya", "nitya-samsari", "taratamya", "andha-tamas"],
+  "translator_note": "'Fit-for-darkness' is the literal gloss. The doctrine of constitutive eternal damnation should not be softened — it is precisely what Madhva asserts and what most Vedāntic schools reject."
+}

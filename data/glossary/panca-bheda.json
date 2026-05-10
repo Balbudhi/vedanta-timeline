@@ -1,0 +1,17 @@
+{
+  "term_key": "panca-bheda",
+  "term_iast": "pañca-bheda",
+  "term_devanagari": "पञ्चभेद",
+  "literal": "the five differences; pañca (five) + bheda (difference)",
+  "aliases": ["panca-bheda", "pañca-bheda", "Pañca-bheda", "pañcabheda", "five-fold-difference"],
+  "invariant_definition": "Madhva's foundational doctrine of five eternal real distinctions: (1) Brahman–jīva *bheda* (the supreme God and the soul are distinct); (2) Brahman–jaḍa *bheda* (God and inert matter are distinct); (3) jīva–jīva *bheda* (souls are distinct from one another); (4) jīva–jaḍa *bheda* (soul and inert matter are distinct); (5) jaḍa–jaḍa *bheda* (one inert thing is distinct from another). All five are eternal, beginningless, real, and irreducible. The doctrine is the structural skeleton of Dvaita and the principal target of Advaita and bhedābheda critics.",
+  "per_school": [
+    {
+      "school": "Dvaita",
+      "definition": "Foundational. Each of the five *bheda*s is real, eternal, and incapable of being explained away as *vyāvahārika*-only. The *pañca-bheda* is asserted in opposition both to Advaita (which collapses 1, 3, and parts of 2 and 4) and to bhedābheda (which makes the *bheda*s correlative with equally-real *abheda*s).",
+      "primary_loci": ["Viṣṇu-Tattva-Vinirṇaya §§40–50", "Brahma-Sūtra-Bhāṣya (Madhva) 2.3", "Anu-Vyākhyāna 2.3"]
+    }
+  ],
+  "see_also": ["bheda", "dvaita", "tattvavada", "svatantra", "paratantra"],
+  "translator_note": "'Fivefold difference' is acceptable. The doctrine should not be paraphrased away — it is exactly what Madhva is asserting against the dominant tradition."
+}

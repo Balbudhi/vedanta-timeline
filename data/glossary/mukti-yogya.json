@@ -1,0 +1,17 @@
+{
+  "term_key": "mukti-yogya",
+  "term_iast": "mukti-yogya",
+  "term_devanagari": "मुक्तियोग्य",
+  "literal": "fit-for-liberation; mukti + yogya",
+  "aliases": ["mukti-yogya", "muktiyogya", "Mukti-yogya"],
+  "invariant_definition": "One of three intrinsic classes of *jīva* in Madhva's *taratamya*-doctrine. *Mukti-yogya* souls are constitutively fit for liberation — eligible by their intrinsic nature (*svabhāva*) to attain *mokṣa* in the fullness of time. The classification is metaphysically primitive: a soul is *mukti-yogya* not because of past *karma* or present effort but because its *svarūpa* is so. The other two classes — *nitya-saṃsārī* and *tamo-yogya* — are not capable of *mokṣa*. This is one of the most radical doctrines in Vedānta and is unique to Madhva's school.",
+  "per_school": [
+    {
+      "school": "Dvaita",
+      "definition": "*Mukti-yogya* souls eventually escape *saṃsāra* and enter *Vaikuṇṭha*, where they enjoy *ānanda* graded by their intrinsic *taratamya*. The class includes the gods (Brahmā as highest), the *ṛṣis*, Madhva himself (claimed as the third *avatāra* of Vāyu), and the qualified human *jīva*s.",
+      "primary_loci": ["Mahābhārata-Tātparya-Nirṇaya 1.85–95", "Brahma-Sūtra-Bhāṣya (Madhva) 3.1ff", "Anu-Vyākhyāna 3.4"]
+    }
+  ],
+  "see_also": ["nitya-samsari", "tamo-yogya", "taratamya", "svarupa-bheda", "moksa"],
+  "translator_note": "'Fit for liberation' is the standard gloss. The technical doctrine — that fitness for liberation is *intrinsic* and not earned — is the radical content."
+}

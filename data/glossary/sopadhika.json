@@ -1,0 +1,17 @@
+{
+  "term_key": "sopadhika",
+  "term_iast": "sopādhika",
+  "term_devanagari": "सोपाधिक",
+  "literal": "with-upādhi, conditioned by upādhi; sa- (with) + upādhika",
+  "aliases": ["sopadhika", "sopādhika", "Sopādhika"],
+  "invariant_definition": "Conditioned by *upādhi* — the Advaita technical category for that which is real only relative to a limiting condition. The *jīva* is *sopādhika brahman* (Brahman conditioned by *antaḥkaraṇa*-upādhi); *Īśvara* is *sopādhika brahman* (Brahman conditioned by *māyā*-upādhi). Contrasted with *nirupādhika brahman* — the unconditioned ultimate. Non-Advaita schools do not use the *sopādhika*-*nirupādhika* distinction technically because they reject the underlying *upādhi*-doctrine.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Sopādhika* names the *vyāvahārika* status of *jīva*, *Īśvara*, and the world: real-relative-to-upādhi, sublatable on removal of *upādhi*.",
+      "primary_loci": ["Pañcadaśī 6.130–145", "Vivekacūḍāmaṇi"]
+    }
+  ],
+  "see_also": ["nirupadhika", "upadhi", "isvara", "jiva"],
+  "translator_note": "'With-condition' or 'condition-bound' acceptable."
+}

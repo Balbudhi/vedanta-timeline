@@ -1,0 +1,22 @@
+{
+  "term_key": "taratamya",
+  "term_iast": "tāratamya",
+  "term_devanagari": "तारतम्य",
+  "literal": "gradation, ranking; abstract noun from tara-tama (more-most)",
+  "aliases": ["taratamya", "tāratamya", "Tāratamya", "tāratamya-bheda"],
+  "invariant_definition": "Gradation — Madhva's distinctive doctrine that *jīva*s and even *muktas* are intrinsically ranked. *Tāratamya* is one of the most original and most often misread of Madhva's doctrines: souls are not equal in their constitutive natures, even after liberation. The *taratamya* hierarchy runs from Lakṣmī (highest *paratantra*) down through Brahmā, Vāyu, and the senior gods to the human *muktas* and on through the *nitya-saṃsārī* class to the *tamo-yogya* class fated for *andha-tamas*. *Tāratamya* is metaphysically primitive: not a function of *karma*, not a phase of cosmic evolution, but the eternal structure of the *paratantra* tattvas.",
+  "per_school": [
+    {
+      "school": "Dvaita",
+      "definition": "*Tāratamya* is intrinsic, eternal, and primitive. It applies even in *mokṣa*: liberated souls enjoy *ānanda* in proportion to their constitutive nature (*ānanda-taratamya*), and equality of liberated souls is denied. Madhva's *Mahābhārata-Tātparya-Nirṇaya* devotes extensive treatment to the gradation of major figures (Bhīma > Arjuna > Yudhiṣṭhira; Vāyu as the highest *jīva*; etc.).",
+      "primary_loci": ["Mahābhārata-Tātparya-Nirṇaya 1.85–95", "Anu-Vyākhyāna 3.4", "Brahma-Sūtra-Bhāṣya (Madhva) 4.4"]
+    },
+    {
+      "school": "Other Schools",
+      "definition": "Strongly rejected. Advaita: all *jīva*s are the one *ātman*, equality at the *pāramārthika* level. Viśiṣṭādvaita: liberated souls are equal in *bhoga* of *brahman*. Acintya-Bhedābheda: gradation is by *rasa* (the *bhakta*'s relational mode), not by intrinsic nature.",
+      "primary_loci": ["Śrī-Bhāṣya 4.4 (against tāratamya)"]
+    }
+  ],
+  "see_also": ["mukti-yogya", "nitya-samsari", "tamo-yogya", "panca-bheda", "ananda-taratamya"],
+  "translator_note": "'Hierarchy' or 'gradation' acceptable. Note: Madhva's *taratamya* is metaphysically realist — souls *really differ* in constitutive worth. Western readers will find this jarring; the user's project explicitly forbids softening it."
+}
