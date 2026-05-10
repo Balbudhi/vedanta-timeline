@@ -14,7 +14,7 @@
   "lineage_in": ["padmapada", "sarvajnatman"],
   "lineage_out": ["vidyaranya", "madhusudana"],
   "lineage_polemical": [],
-  "core_thesis": "Prakāśātman is the system-builder of *Vivaraṇa*-Advaita, the sub-school that takes its name from his *Pañcapādikā-Vivaraṇa* and that defines itself against the *Bhāmatī* on every load-bearing question. His central claim is the *brahmāśrita-avidyā-vāda*: *Brahman* itself, not the *jīva*, is the *āśraya* (locus) of *avidyā*, while *Brahman* is also its *viṣaya* (object) — *avidyā* is *bhāva-rūpā* (positively existent yet *anirvacanīya*), and the *jīva* is *cidābhāsa*, a *pratibimba* of *Brahman* in this beginningless ignorance. From this root he draws (i) the doctrine that the Mahāvākya, qua *śabda-pramāṇa*, generates an *akhaṇḍākāra-vṛtti* whose function is to remove *avidyā* though knowledge itself is never produced; (ii) a strong rejection of *jñāna-karma-samuccaya* — *karma* purifies but cannot occasion *jñāna*; (iii) the *anirvacanīya-khyāti* analysis of *adhyāsa*. With Sarvajñātman's *Saṃkṣepa-Śārīraka* upstream and Vidyāraṇya's *Vivaraṇa-Prameya-Saṃgraha* downstream, he supplies the technical vocabulary in which most subsequent Advaita debate is conducted.",
+  "core_thesis": "Prakāśātman is the system-builder of *Vivaraṇa*-Advaita: the sub-school takes its name from his *Pañcapādikā-Vivaraṇa* and defines itself against Vāchaspati's *Bhāmatī* on every load-bearing question. The intra-school disagreement is one of formal locus, not vocabulary. Vāchaspati located *avidyā* in the *jīva* on the analysis at BSB 1.4.3 and 4.1.3; Prakāśātman, glossing the same *sūtras*, locates it in Brahman. Brahman is at once the *āśraya* and the *viṣaya* of avidyā — the *brahmāśrita-avidyā-vāda*. Avidyā is *bhāva-rūpā* (positively existent) yet *anirvacanīya* (indeterminable as either *sat* or *asat*). The *jīva* is *cidābhāsa*, a *pratibimba* of Brahman in this beginningless ignorance. Three further commitments fall out. The Mahāvākya, qua *śabda-pramāṇa*, generates an *akhaṇḍākāra-vṛtti* whose function is to remove avidyā, though knowledge itself is never produced. *Jñāna-karma-samuccaya* is firmly rejected: *karma* purifies but cannot occasion *jñāna*. Error is analysed as *anirvacanīya-khyāti*. With Sarvajñātman's *Saṃkṣepa-Śārīraka* upstream and Vidyāraṇya's *Vivaraṇa-Prameya-Saṃgraha* downstream, Prakāśātman supplies the technical vocabulary in which most subsequent Advaita debate is conducted.",
   "engaged_works": [
     {
       "work_id": "pancapadika-vivarana",
@@ -31,15 +31,956 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
-      "summary": "Massive *vivaraṇa* (gloss-of-a-gloss) on Padmapāda's *Pañcapādikā*, itself a sub-commentary on the opening five *pādas* of Śaṅkara's *Brahma-Sūtra-Bhāṣya*. The work converts Padmapāda's compressed positions into a fully articulated metaphysics and epistemology, and in the process founds a sub-school. Its principal contributions: (i) the *brahmāśrita-avidyā-vāda* — *Brahman* is the *āśraya* and *viṣaya* of *avidyā*, sharply contra Vāchaspati's *jīva-locus* analysis; (ii) the *bhāva-rūpā-anirvacanīya-avidyā* doctrine — ignorance is positively existent though indeterminable as either *sat* or *asat*; (iii) the *cidābhāsa* / *pratibimba* analysis of the *jīva*; (iv) the doctrine that the Mahāvākya, qua *śabda-pramāṇa*, produces an *akhaṇḍākāra-vṛtti* whose role is to dissolve *avidyā*; and (v) a sustained refutation of *jñāna-karma-samuccaya*. The *Vivaraṇa* generates the largest commentarial tradition in later Advaita — the *Vivaraṇa-Prameya-Saṃgraha* of Vidyāraṇya, the *Tātparya-Dīpikā* of Citsukha, the *Tattva-Dīpana* of Akhaṇḍānanda — and is the implicit interlocutor of nearly all post-thirteenth-century Advaita scholasticism.",
-      "key_passage_ids": [],
+      "summary": "Massive gloss-of-a-gloss on Padmapāda's *Pañcapādikā*, itself a sub-commentary on the opening five *pādas* of Śaṅkara's *Brahma-Sūtra-Bhāṣya*. Padmapāda's compressed positions are here converted into a fully articulated metaphysics and epistemology; a sub-school is founded in the process. The principal contributions: the *brahmāśrita-avidyā-vāda* — Brahman is both *āśraya* and *viṣaya* of avidyā, contra Vāchaspati's *jīva*-locus analysis; the *bhāva-rūpā-anirvacanīya-avidyā* doctrine — ignorance is positively existent though indeterminable as either *sat* or *asat*; the *cidābhāsa* / *pratibimba* analysis of the *jīva*; the doctrine that the Mahāvākya, qua *śabda-pramāṇa*, produces an *akhaṇḍākāra-vṛtti* whose role is to dissolve avidyā; and a sustained refutation of *jñāna-karma-samuccaya*. The work generates the largest commentarial tradition in later Advaita: the *Vivaraṇa-Prameya-Saṃgraha* of Vidyāraṇya, the *Tātparya-Dīpikā* of Citsukha, the *Tattva-Dīpana* of Akhaṇḍānanda. It is the implicit interlocutor of nearly all post-thirteenth-century Advaita scholasticism.",
+      "key_passage_ids": [
+        "pv-p212__anirvacaniya-maya-visista-karana-brahman",
+        "pv-p65__jiva-brahma-pratibimba",
+        "pv-p103__mahavakya-aparoksa-prayojakatva",
+        "pv-p164__jnana-karma-samuccaya-nirasa"
+      ],
       "entry_status": "reviewed"
     }
   ],
-  "key_passages": [],
+  "key_passages": [
+    {
+      "passage_id": "pv-p212__anirvacaniya-maya-visista-karana-brahman",
+      "work_id": "pancapadika-vivarana",
+      "locus_short": "PV p. 212",
+      "locus_long": "Pañcapādikā-Vivaraṇa, brahmaṇo lakṣaṇopalakṣaṇe discussion, p. 212 (scan p. 269)",
+      "locus_structured": {
+        "section": "brahmaṇo lakṣaṇopalakṣaṇe",
+        "other": {
+          "edition_page": 212,
+          "scan_page": 269
+        }
+      },
+      "sanskrit_iast": "māyāvidyayoḥ sāmānādhikaraṇyāc ca ।\ntasmād anirvacanīya-māyā-viśiṣṭaṃ kāraṇaṃ brahmeti prāptam ॥",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "māyāvidyayoḥ",
+            "stem": "māyā-avidyā",
+            "morphology": "gen du fem",
+            "gloss": "of māyā and avidyā"
+          },
+          {
+            "pada": "sāmānādhikaraṇyāt",
+            "stem": "sāmānādhikaraṇya",
+            "morphology": "abl sg neut",
+            "gloss": "because of co-reference / appositional identity"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "tasmāt",
+            "stem": "tad",
+            "pratyaya": "-tas",
+            "morphology": "abl sg neut used adverbially",
+            "gloss": "therefore, from that"
+          },
+          {
+            "pada": "anirvacanīya-māyā-viśiṣṭam",
+            "stem": "anirvacanīya-māyā-viśiṣṭa",
+            "morphology": "nom sg neut",
+            "gloss": "qualified by indeterminable māyā"
+          },
+          {
+            "pada": "kāraṇam",
+            "stem": "kāraṇa",
+            "morphology": "nom sg neut",
+            "gloss": "cause"
+          },
+          {
+            "pada": "brahma",
+            "stem": "brahman",
+            "morphology": "nom sg neut",
+            "gloss": "Brahman"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "prāptam",
+            "stem": "pra-āp",
+            "pratyaya": "kta",
+            "morphology": "nom sg neut past pass part",
+            "gloss": "is arrived at / is established"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "māyāvidyayoḥ",
+            "type": "dvandva",
+            "resolution": "māyā ca avidyā ca",
+            "note": "The dual genitive marks the two terms whose referential identity is being asserted."
+          },
+          {
+            "compound": "sāmānādhikaraṇya",
+            "type": "other",
+            "resolution": "samāna adhikaraṇaṃ yasya tat",
+            "note": "Technical grammatical term for appositional co-reference."
+          },
+          {
+            "compound": "anirvacanīya-māyā-viśiṣṭam",
+            "type": "tatpurusha",
+            "resolution": "anirvacanīyayā māyayā viśiṣṭam",
+            "note": "Brahman is not reduced to māyā; it is said to be 'qualified by' māyā for causal explanation."
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "sambandha",
+            "pada": "māyāvidyayoḥ",
+            "note": "Genitive relation governing sāmānādhikaraṇya."
+          },
+          {
+            "role": "sambandha",
+            "pada": "sāmānādhikaraṇyāt",
+            "note": "Ablative of reason: the conclusion follows because māyā and avidyā are co-referential."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "anirvacanīya-māyā-viśiṣṭaṃ kāraṇaṃ brahma",
+            "note": "Predicate complex of the conclusion summarized by prāptam."
+          }
+        ],
+        "verb_modality": []
+      },
+      "english_close": "And because māyā and avidyā are co-referential, it follows that Brahman is the cause as qualified by indeterminable māyā.",
+      "preserved_terms": [
+        {
+          "term_iast": "māyā",
+          "first_use_gloss": "(roughly: the projecting/veiling power spoken of in Advaita cosmology)"
+        },
+        {
+          "term_iast": "avidyā",
+          "first_use_gloss": "(roughly: beginningless ignorance, not merely absence of information)"
+        },
+        {
+          "term_iast": "anirvacanīya",
+          "first_use_gloss": "(roughly: not finally sayable as either real or unreal)"
+        }
+      ],
+      "why_this_passage": "This is a fair representative passage because it states, in the compressed technical idiom later associated with the Vivaraṇa school, the equation of māyā and avidyā and the resulting claim that causal Brahman is Brahman qualified by anirvacanīya māyā. Given the image-only state of the local scan, this is also one of the clearest recoverable loci for Prakāśātman's causal ontology in the edition on disk.",
+      "topic_tags": [
+        "ontology",
+        "causation"
+      ],
+      "sub_axes": [
+        "status-of-the-world",
+        "vivarta-vs-parinama",
+        "mithya-vs-asat"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Pañcapādikā-Vivaraṇa, Digital Library of India scan (DLI item 2015.496088; E.J. Publication, Pune), transcribed from materials/primary_texts/sanskrit/vedanta/full_corpus/prakasatman_pancapadika_vivarana_archive.pdf with Archive OCR derivatives checked against the scan pagination.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "pv-p65__jiva-brahma-pratibimba",
+      "work_id": "pancapadika-vivarana",
+      "locus_short": "PV p. 65",
+      "locus_long": "Pañcapādikā-Vivaraṇa, jīvasya brahma-pratibimbatvāpādanam, p. 65 (scan p. 85)",
+      "locus_structured": {
+        "section": "jīvasya brahma-pratibimbatvāpādanam",
+        "other": {
+          "edition_page": 65,
+          "scan_page": 85
+        }
+      },
+      "sanskrit_iast": "devadatto hi svātmānam andhatvādy-upetaṃ pratibimbe 'vagacchann api tattva-jñānatvān nānuśocati ।\nevaṃ brahmāpi svātmani jīve pratibimbe saṃsāraṃ paśyad api tattva-jñānatvān nānuśocati ॥",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "devadattaḥ",
+            "stem": "devadatta",
+            "morphology": "nom sg masc",
+            "gloss": "Devadatta"
+          },
+          {
+            "pada": "hi",
+            "stem": "hi",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "svātmānam",
+            "stem": "sva-ātman",
+            "morphology": "acc sg masc",
+            "gloss": "his own self"
+          },
+          {
+            "pada": "andhatvādy-upetam",
+            "stem": "andhatvādi-upeta",
+            "morphology": "acc sg masc",
+            "gloss": "endowed with blindness and the like"
+          },
+          {
+            "pada": "pratibimbe",
+            "stem": "pratibimba",
+            "morphology": "loc sg neut",
+            "gloss": "in a reflection"
+          },
+          {
+            "pada": "avagacchan",
+            "stem": "ava-gam",
+            "morphology": "pres act part nom sg masc",
+            "gloss": "cognizing"
+          },
+          {
+            "pada": "api",
+            "stem": "api",
+            "morphology": "indecl",
+            "gloss": "even though"
+          },
+          {
+            "pada": "tattva-jñānatvāt",
+            "stem": "tattva-jñānatva",
+            "morphology": "abl sg neut",
+            "gloss": "because of possessing true knowledge"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "anuśocati",
+            "stem": "anu-śuc",
+            "morphology": "3sg pres ind P",
+            "gloss": "grieves"
+          },
+          {
+            "pada": "evam",
+            "stem": "evam",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "brahma",
+            "stem": "brahman",
+            "morphology": "nom sg neut",
+            "gloss": "Brahman"
+          },
+          {
+            "pada": "api",
+            "stem": "api",
+            "morphology": "indecl",
+            "gloss": "also"
+          },
+          {
+            "pada": "svātmani",
+            "stem": "sva-ātman",
+            "morphology": "loc sg masc",
+            "gloss": "in its own self"
+          },
+          {
+            "pada": "jīve",
+            "stem": "jīva",
+            "morphology": "loc sg masc",
+            "gloss": "as the jīva"
+          },
+          {
+            "pada": "pratibimbe",
+            "stem": "pratibimba",
+            "morphology": "loc sg neut",
+            "gloss": "in the reflection"
+          },
+          {
+            "pada": "saṃsāram",
+            "stem": "saṃsāra",
+            "morphology": "acc sg masc",
+            "gloss": "saṃsāra, worldly bondage"
+          },
+          {
+            "pada": "paśyat",
+            "stem": "paś",
+            "morphology": "pres act part nom sg neut",
+            "gloss": "seeing"
+          },
+          {
+            "pada": "api",
+            "stem": "api",
+            "morphology": "indecl",
+            "gloss": "even though"
+          },
+          {
+            "pada": "tattva-jñānatvāt",
+            "stem": "tattva-jñānatva",
+            "morphology": "abl sg neut",
+            "gloss": "because of possessing true knowledge"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "anuśocati",
+            "stem": "anu-śuc",
+            "morphology": "3sg pres ind P",
+            "gloss": "grieves"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "svātmānam",
+            "type": "tatpurusha",
+            "resolution": "sva ātmānam",
+            "note": "Reflexive possessive qualifying ātman."
+          },
+          {
+            "compound": "andhatvādy-upetam",
+            "type": "tatpurusha",
+            "resolution": "andhatvādinā upetam",
+            "note": "The reflected self appears qualified by contingent defects."
+          },
+          {
+            "compound": "tattva-jñānatvāt",
+            "type": "tatpurusha",
+            "resolution": "tattvasya jñānaṃ yasya tasya bhāvāt",
+            "note": "Ablative of reason: possession of true knowledge."
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "kartṛ",
+            "pada": "devadattaḥ",
+            "note": "Subject of anuśocati in the first sentence."
+          },
+          {
+            "role": "karman",
+            "pada": "svātmānam andhatvādy-upetam",
+            "note": "Object of avagacchan."
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "pratibimbe",
+            "note": "Locus in which the defect-laden self is cognized."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "brahma",
+            "note": "Subject of anuśocati in the second sentence."
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "svātmani jīve pratibimbe",
+            "note": "Layered locative: the jīva is the reflection in Brahman's own self."
+          },
+          {
+            "role": "karman",
+            "pada": "saṃsāram",
+            "note": "Object of paśyat."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "anuśocati",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "First occurrence: Devadatta does not grieve."
+          },
+          {
+            "pada": "anuśocati",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "Second occurrence: Brahman does not grieve."
+          }
+        ]
+      },
+      "english_close": "For Devadatta, even while cognizing his own self as endowed with blindness and the like in a reflection, does not grieve, because he possesses true knowledge. In the same way, Brahman too, even while seeing saṃsāra in the reflected jīva within its own self, does not grieve, because it possesses true knowledge.",
+      "preserved_terms": [
+        {
+          "term_iast": "pratibimba",
+          "first_use_gloss": "(roughly: a reflection-image, not an independent second substance)"
+        },
+        {
+          "term_iast": "jīva",
+          "first_use_gloss": "(roughly: the individual embodied self)"
+        },
+        {
+          "term_iast": "saṃsāra",
+          "first_use_gloss": "(roughly: the cycle of bondage, transmigration, and suffering)"
+        }
+      ],
+      "why_this_passage": "This is representative because it makes the pratibimba doctrine do explanatory work: the jīva's bondage appears in Brahman without making Brahman itself a sufferer. That is the point of the Vivaraṇa move, not a decorative metaphor, so the passage fairly captures Prakāśātman's ontology of the individual self.",
+      "topic_tags": [
+        "ontology"
+      ],
+      "sub_axes": [
+        "jiva-brahman-relation",
+        "status-of-individual-selves"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Pañcapādikā-Vivaraṇa, Digital Library of India scan (DLI item 2015.496088; E.J. Publication, Pune), transcribed from materials/primary_texts/sanskrit/vedanta/full_corpus/prakasatman_pancapadika_vivarana_archive.pdf with Archive OCR derivatives checked against the scan pagination.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "pv-p103__mahavakya-aparoksa-prayojakatva",
+      "work_id": "pancapadika-vivarana",
+      "locus_short": "PV p. 103",
+      "locus_long": "Pañcapādikā-Vivaraṇa, svayaṃprakāśe 'pi mananādi-sahakārair eva mahāvākyasyāparokṣa-prayojakatvam, p. 103 (scan p. 123)",
+      "locus_structured": {
+        "section": "mahāvākyasyāparokṣa-prayojakatvam",
+        "other": {
+          "edition_page": 103,
+          "scan_page": 123
+        }
+      },
+      "sanskrit_iast": "svayaṃprakāśe 'pi mananādi-sahakārair eva mahāvākyasyāparokṣa-prayojakatvam ।\nbrahmaiva sarva-saṃvid-upādānatvād brahmakāra-śabda-pramāṇa-janya-saṃvedane 'pi brahmāpi prathamam evāparokṣatayāvabhāsate ।\ntac ca cittasyātisūkṣmatvād viparyaya-saṃskāra-doṣāc ca pratibaddhaṃ bhrāntyā parokṣavad bhāsate ॥",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "svayaṃprakāśe",
+            "stem": "svayaṃprakāśa",
+            "morphology": "loc sg masc",
+            "gloss": "in what is self-luminous"
+          },
+          {
+            "pada": "api",
+            "stem": "api",
+            "morphology": "indecl",
+            "gloss": "even"
+          },
+          {
+            "pada": "mananādi-sahakāraiḥ",
+            "stem": "mananādi-sahakāra",
+            "morphology": "instr pl masc",
+            "gloss": "by auxiliaries such as reflection"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "indeed, precisely"
+          },
+          {
+            "pada": "mahāvākyasya",
+            "stem": "mahāvākya",
+            "morphology": "gen sg neut",
+            "gloss": "of the great Upaniṣadic sentence"
+          },
+          {
+            "pada": "aparokṣa-prayojakatvam",
+            "stem": "aparokṣa-prayojakatva",
+            "morphology": "nom sg neut",
+            "gloss": "the capacity to produce immediacy"
+          },
+          {
+            "pada": "brahma",
+            "stem": "brahman",
+            "morphology": "nom sg neut",
+            "gloss": "Brahman"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "itself"
+          },
+          {
+            "pada": "sarva-saṃvid-upādānatvāt",
+            "stem": "sarva-saṃvid-upādānatva",
+            "morphology": "abl sg neut",
+            "gloss": "because of being the substrate/material basis of every cognition"
+          },
+          {
+            "pada": "brahmakāra-śabda-pramāṇa-janya-saṃvedane",
+            "stem": "brahmakāra-śabda-pramāṇa-janya-saṃvedana",
+            "morphology": "loc sg neut",
+            "gloss": "in the cognition generated by the verbal pramāṇa taking Brahman as its form"
+          },
+          {
+            "pada": "api",
+            "stem": "api",
+            "morphology": "indecl",
+            "gloss": "even"
+          },
+          {
+            "pada": "brahma",
+            "stem": "brahman",
+            "morphology": "nom sg neut",
+            "gloss": "Brahman"
+          },
+          {
+            "pada": "api",
+            "stem": "api",
+            "morphology": "indecl",
+            "gloss": "also"
+          },
+          {
+            "pada": "prathamam",
+            "stem": "prathama",
+            "morphology": "acc sg neut used adverbially",
+            "gloss": "from the outset"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "aparokṣatayā",
+            "stem": "aparokṣatā",
+            "morphology": "instr sg fem",
+            "gloss": "as immediate, in immediate mode"
+          },
+          {
+            "pada": "avabhāsate",
+            "stem": "ava-bhās",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "appears"
+          },
+          {
+            "pada": "tat",
+            "stem": "tad",
+            "morphology": "nom sg neut",
+            "gloss": "that"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "cittasya",
+            "stem": "citta",
+            "morphology": "gen sg neut",
+            "gloss": "of the mind"
+          },
+          {
+            "pada": "atisūkṣmatvāt",
+            "stem": "atisūkṣmatva",
+            "morphology": "abl sg neut",
+            "gloss": "because of extreme subtlety"
+          },
+          {
+            "pada": "viparyaya-saṃskāra-doṣāt",
+            "stem": "viparyaya-saṃskāra-doṣa",
+            "morphology": "abl sg masc",
+            "gloss": "because of the defect of contrary latent impressions"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "pratibaddham",
+            "stem": "prati-bandh",
+            "pratyaya": "kta",
+            "morphology": "nom sg neut past pass part",
+            "gloss": "obstructed"
+          },
+          {
+            "pada": "bhrāntyā",
+            "stem": "bhrānti",
+            "morphology": "instr sg fem",
+            "gloss": "by error"
+          },
+          {
+            "pada": "parokṣavat",
+            "stem": "parokṣavat",
+            "morphology": "indecl",
+            "gloss": "as if indirect"
+          },
+          {
+            "pada": "bhāsate",
+            "stem": "bhās",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "shines / appears"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "svayaṃprakāśa",
+            "type": "bahuvrihi",
+            "resolution": "svayam eva prakāśate iti",
+            "note": "Used in Advaita for consciousness that does not need another revealer."
+          },
+          {
+            "compound": "mananādi-sahakāraiḥ",
+            "type": "tatpurusha",
+            "resolution": "mananaṃ cādīni ca sahakārāḥ",
+            "note": "The auxiliary disciplines beginning with reflection."
+          },
+          {
+            "compound": "mahāvākya",
+            "type": "karmadharaya",
+            "resolution": "mahat vākyaṃ",
+            "note": "The great identity-statements of śruti."
+          },
+          {
+            "compound": "aparokṣa-prayojakatvam",
+            "type": "tatpurusha",
+            "resolution": "aparokṣasya prayojakatvam",
+            "note": "The efficacy of yielding immediate realization."
+          },
+          {
+            "compound": "sarva-saṃvid-upādānatvāt",
+            "type": "tatpurusha",
+            "resolution": "sarvāsāṃ saṃvidāṃ upādānatvāt"
+          },
+          {
+            "compound": "brahmakāra-śabda-pramāṇa-janya-saṃvedane",
+            "type": "tatpurusha",
+            "resolution": "brahmakāreṇa śabda-pramāṇena janyaṃ saṃvedanam",
+            "note": "The cognition produced by scriptural testimony in the form of Brahman."
+          },
+          {
+            "compound": "viparyaya-saṃskāra-doṣāt",
+            "type": "tatpurusha",
+            "resolution": "viparyayasya saṃskārasya doṣāt"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "karaṇa",
+            "pada": "mananādi-sahakāraiḥ",
+            "note": "Instrumental auxiliaries needed for the mahāvākya's full efficacy."
+          },
+          {
+            "role": "sambandha",
+            "pada": "mahāvākyasya",
+            "note": "Genitive relation with aparokṣa-prayojakatvam."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "brahma",
+            "note": "Subject of avabhāsate."
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "brahmakāra-śabda-pramāṇa-janya-saṃvedane",
+            "note": "The cognitive locus in which Brahman appears."
+          },
+          {
+            "role": "karaṇa",
+            "pada": "aparokṣatayā",
+            "note": "Mode in which Brahman appears."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "tat",
+            "note": "Subject of bhāsate: the same immediate Brahman-cognition."
+          },
+          {
+            "role": "karaṇa",
+            "pada": "bhrāntyā",
+            "note": "Instrumental cause of appearing as if indirect."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "avabhāsate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "middle"
+          },
+          {
+            "pada": "bhāsate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "middle"
+          }
+        ]
+      },
+      "english_close": "Even in the case of what is self-luminous, the great sentence has the capacity to produce immediacy only through auxiliaries such as reflection. Because Brahman itself is the substrate of every cognition, Brahman too appears from the outset as immediate even in the cognition generated by the verbal pramāṇa taking Brahman as its form. And that, because of the mind's extreme subtlety and because of the defect of contrary latent impressions, appears through error as if indirect.",
+      "preserved_terms": [
+        {
+          "term_iast": "mahāvākya",
+          "first_use_gloss": "(roughly: a 'great sentence' of śruti such as tat tvam asi)"
+        },
+        {
+          "term_iast": "aparokṣa",
+          "first_use_gloss": "(roughly: immediate, non-mediated realization)"
+        },
+        {
+          "term_iast": "śabda-pramāṇa",
+          "first_use_gloss": "(roughly: verbal testimony as a valid means of knowledge)"
+        }
+      ],
+      "why_this_passage": "This is the compact school-defining epistemological claim: the mahāvākya is genuinely liberating knowledge, but its immediacy is articulated through mananādi as sahakārin rather than through ritual action. It fairly represents Prakāśātman's position because later Vivaraṇa pedagogy and polemic repeatedly return to exactly this model of scriptural cognition.",
+      "topic_tags": [
+        "epistemology",
+        "soteriology"
+      ],
+      "sub_axes": [
+        "status-of-sruti",
+        "saving-cognition-status",
+        "status-of-anubhava"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Pañcapādikā-Vivaraṇa, Digital Library of India scan (DLI item 2015.496088; E.J. Publication, Pune), transcribed from materials/primary_texts/sanskrit/vedanta/full_corpus/prakasatman_pancapadika_vivarana_archive.pdf with Archive OCR derivatives checked against the scan pagination.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "pv-p164__jnana-karma-samuccaya-nirasa",
+      "work_id": "pancapadika-vivarana",
+      "locus_short": "PV p. 164",
+      "locus_long": "Pañcapādikā-Vivaraṇa, samuccaya discussion in brahma-vicāre kim-ānantaryam atha-śabdāvagamyam, pp. 164-165 (scan pp. 186-187)",
+      "locus_structured": {
+        "section": "brahma-vicāre kim-ānantaryam atha-śabdāvagamyam",
+        "other": {
+          "edition_pages": "164-165",
+          "scan_pages": "186-187"
+        }
+      },
+      "sanskrit_iast": "avidyayā mṛtyuṃ tīrtvā vidyayāmṛtam aśnuta iti phala-bhedāgamāt ।\ntasmān na samuccaye pramāṇam asti ।\nsarvānarthopādānānādi-mithyājñāna-nivṛttir eva vijñāne phalavad iti na samuccayāvakāśaḥ ॥",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "avidyayā",
+            "stem": "avidyā",
+            "morphology": "instr sg fem",
+            "gloss": "by avidyā"
+          },
+          {
+            "pada": "mṛtyum",
+            "stem": "mṛtyu",
+            "morphology": "acc sg masc",
+            "gloss": "death"
+          },
+          {
+            "pada": "tīrtvā",
+            "stem": "tṝ",
+            "morphology": "abs ger",
+            "gloss": "having crossed"
+          },
+          {
+            "pada": "vidyayā",
+            "stem": "vidyā",
+            "morphology": "instr sg fem",
+            "gloss": "by vidyā"
+          },
+          {
+            "pada": "amṛtam",
+            "stem": "amṛta",
+            "morphology": "acc sg neut",
+            "gloss": "immortality"
+          },
+          {
+            "pada": "aśnute",
+            "stem": "aś",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "attains / partakes of"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "phala-bhedāgamāt",
+            "stem": "phala-bheda-āgama",
+            "morphology": "abl sg masc",
+            "gloss": "because scripture teaches a difference of fruits"
+          },
+          {
+            "pada": "tasmāt",
+            "stem": "tad",
+            "pratyaya": "-tas",
+            "morphology": "abl sg neut used adverbially",
+            "gloss": "therefore"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "samuccaye",
+            "stem": "samuccaya",
+            "morphology": "loc sg masc",
+            "gloss": "in a combination"
+          },
+          {
+            "pada": "pramāṇam",
+            "stem": "pramāṇa",
+            "morphology": "nom sg neut",
+            "gloss": "valid warrant"
+          },
+          {
+            "pada": "asti",
+            "stem": "as",
+            "morphology": "3sg pres ind P",
+            "gloss": "is"
+          },
+          {
+            "pada": "sarvānarthopādānānādi-mithyājñāna-nivṛttiḥ",
+            "stem": "sarvānarthopādānānādi-mithyājñāna-nivṛtti",
+            "morphology": "nom sg fem",
+            "gloss": "the cessation of beginningless false cognition that is the substrate of all misfortune"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "just, precisely"
+          },
+          {
+            "pada": "vijñāne",
+            "stem": "vijñāna",
+            "morphology": "loc sg neut",
+            "gloss": "in liberating knowledge"
+          },
+          {
+            "pada": "phalavat",
+            "stem": "phalavat",
+            "morphology": "indecl",
+            "gloss": "as the fruit"
+          },
+          {
+            "pada": "iti",
+            "stem": "iti",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "samuccayāvakāśaḥ",
+            "stem": "samuccaya-avakāśa",
+            "morphology": "nom sg masc",
+            "gloss": "room for combination"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "phala-bhedāgamāt",
+            "type": "tatpurusha",
+            "resolution": "phalasya bhedaḥ yasmin āgame tasmāt",
+            "note": "Ablative of reason grounded in scriptural teaching."
+          },
+          {
+            "compound": "sarvānarthopādānānādi-mithyājñāna-nivṛttiḥ",
+            "type": "tatpurusha",
+            "resolution": "sarvānarthānām upādānaṃ yad anādi mithyājñānaṃ tasya nivṛttiḥ",
+            "note": "The causal root of bondage is beginningless false cognition."
+          },
+          {
+            "compound": "samuccayāvakāśaḥ",
+            "type": "tatpurusha",
+            "resolution": "samuccayasya avakāśaḥ"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "karaṇa",
+            "pada": "avidyayā",
+            "note": "Instrument with tīrtvā in the cited scriptural half-verse."
+          },
+          {
+            "role": "karman",
+            "pada": "mṛtyum",
+            "note": "Object crossed."
+          },
+          {
+            "role": "karaṇa",
+            "pada": "vidyayā",
+            "note": "Instrument by which immortality is attained."
+          },
+          {
+            "role": "karman",
+            "pada": "amṛtam",
+            "note": "Object attained."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "pramāṇam",
+            "note": "Subject of asti in the doctrinal conclusion."
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "samuccaye",
+            "note": "Locative domain: the proposed combination of knowledge and karma."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "sarvānarthopādānānādi-mithyājñāna-nivṛttiḥ",
+            "note": "Predicate subject in the final nominal conclusion."
+          },
+          {
+            "role": "adhikaraṇa",
+            "pada": "vijñāne",
+            "note": "Locus in which this cessation appears as the fruit."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "aśnute",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "middle"
+          },
+          {
+            "pada": "asti",
+            "lakara": "laṭ",
+            "pada_PA": "parasmaipada",
+            "voice": "active"
+          }
+        ]
+      },
+      "english_close": "From the scriptural teaching 'having crossed death by avidyā, one attains immortality by vidyā,' because the fruits are distinct, there is no valid warrant for a combination. Since in liberating knowledge the fruit is precisely the cessation of beginningless false cognition, the substrate of all misfortune, there is no room for any such combination.",
+      "preserved_terms": [
+        {
+          "term_iast": "vidyā",
+          "first_use_gloss": "(roughly: liberating knowledge, here contrasted with karmic or lower disciplines)"
+        },
+        {
+          "term_iast": "samuccaya",
+          "first_use_gloss": "(roughly: a co-functioning combination of two means)"
+        },
+        {
+          "term_iast": "vijñāna",
+          "first_use_gloss": "(roughly: realized knowledge, not mere conceptual awareness)"
+        }
+      ],
+      "why_this_passage": "This is a representative anti-samuccaya passage because it argues from scriptural citation and from the differing causal roles of karma and vijñāna, not from polemical shorthand. It fairly captures Prakāśātman's position that karma may purify the aspirant, but liberating knowledge alone removes the beginningless root of bondage.",
+      "topic_tags": [
+        "soteriology",
+        "ethics-devotion"
+      ],
+      "sub_axes": [
+        "effective-means-of-moksa",
+        "status-of-karma"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Pañcapādikā-Vivaraṇa, Digital Library of India scan (DLI item 2015.496088; E.J. Publication, Pune), transcribed from materials/primary_texts/sanskrit/vedanta/full_corpus/prakasatman_pancapadika_vivarana_archive.pdf with Archive OCR derivatives checked against the scan pagination.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    }
+  ],
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1b-opus"
+  "last_verified_by": "wave2-codex"
 }

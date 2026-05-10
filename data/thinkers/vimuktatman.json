@@ -302,7 +302,7 @@
           "scan_page": 118
         }
       },
-      "sanskrit_iast": "ato jñānodayakāla eva vidvān vimuktaḥ.\naśeṣasaṃsārabījasya ajñānasya\nātmajñānāgnināśeṣato dagdhatvāt,\njñānān mokṣo niravadya upapadyate.",
+      "sanskrit_iast": "ato jñānodayakāla eva vidvān vimuktaḥ.\naśeṣasaṃsārabījasya ajñānasya\nātmajñānāgninā aśeṣato dagdhatvāt,\njñānān mokṣo niravadya upapadyate.",
       "panini_breakdown": {
         "pada_analysis": [
           {"pada": "ataḥ", "stem": "atas", "morphology": "indecl", "gloss": "therefore"},
