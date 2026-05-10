@@ -26,7 +26,7 @@ This already commits Hegel to a methodological principle. A philosophy cannot an
 Hegel's second principle is the most quoted (TWA 3, p. 23):
 
 ::: sanskrit-aside
-:::: sanskrit
+:::: german
 Es kömmt nach meiner Einsicht, welche sich durch die Darstellung des Systems selbst rechtfertigen muß, alles darauf an, das Wahre nicht als *Substanz*, sondern eben so sehr als *Subjekt* aufzufassen und auszudrücken.
 :::: english
 Everything turns, in my view — and the view will have to justify itself through the presentation of the system — on grasping and expressing the True not only as *Substance* but equally as *Subject*.
@@ -39,7 +39,7 @@ The polemical target is Spinoza. Spinoza's one Substance is real, but inert. Eve
 A few lines later he sharpens the point (TWA 3, p. 23):
 
 ::: sanskrit-aside
-:::: sanskrit
+:::: german
 Die lebendige Substanz ist ferner das Sein, welches in Wahrheit *Subjekt*, oder, was dasselbe heißt, welches in Wahrheit wirklich ist, nur insofern sie die Bewegung des Sich-selbst-Setzens, oder die Vermittlung des Sich-anders-Werdens mit sich selbst ist.
 :::: english
 Further, the living Substance is being which is in truth *Subject*, or — what is the same thing — which is in truth actual only insofar as it is the movement of positing itself, the mediation of its self-othering with itself.
