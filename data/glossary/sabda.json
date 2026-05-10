@@ -32,10 +32,6 @@
           "locus_short": "PV p. 103"
         },
         {
-          "cite": "cite://prakasatman/pancapadika-vivarana/p. 103b",
-          "locus_short": "PV p. 103b"
-        },
-        {
           "cite": "cite://sankara/upadesa-sahasri/I.17.8",
           "locus_short": "UpS I.17.8"
         },
@@ -112,10 +108,6 @@
         {
           "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.10",
           "locus_short": "BṛU 1.4.10"
-        },
-        {
-          "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.4.5, 1.4.15",
-          "locus_short": "BṛU 2.4.5, 1.4.15"
         }
       ]
     },
@@ -336,10 +328,6 @@
         {
           "cite": "cite://dharmakirti/pramana-varttika/2.2",
           "locus_short": "PV 2.2"
-        },
-        {
-          "cite": "cite://vasubandhu/vimsatika/Karma, Vāsanā, and Scriptural Objection",
-          "locus_short": "Vvs 6-8"
         }
       ]
     },

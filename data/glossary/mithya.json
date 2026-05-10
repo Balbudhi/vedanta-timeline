@@ -33,18 +33,6 @@
         {
           "cite": "cite://padmapada/pancapadika/VI.16.5",
           "locus_short": "PañcP VI.16.5"
-        },
-        {
-          "cite": "cite://prakasatman/pancapadika-vivarana/p. 164c",
-          "locus_short": "PV p. 164c"
-        },
-        {
-          "cite": "cite://madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1a",
-          "locus_short": "AS 1a"
-        },
-        {
-          "cite": "cite://madhusudana/advaita-siddhi/Prathama-pariccheda, Section 1k",
-          "locus_short": "AS 1k"
         }
       ]
     },
@@ -80,22 +68,6 @@
         "Madhva, Viṣṇu-Tattva-Vinirṇaya 3.10"
       ],
       "citations": [
-        {
-          "cite": "cite://madhva/mithyatvanumana-khandana/239, clause 3",
-          "locus_short": "MKh 239.3"
-        },
-        {
-          "cite": "cite://madhva/mithyatvanumana-khandana/239, clause 4",
-          "locus_short": "MKh 239.4"
-        },
-        {
-          "cite": "cite://madhva/tattvodyota/Word *Mithyā* Does Not Help",
-          "locus_short": "Tattvodyota, Mithyā"
-        },
-        {
-          "cite": "cite://madhva/tattvodyota/Shared Universal of *Mithyātva*",
-          "locus_short": "Tattvodyota, No Shared Universal"
-        },
         {
           "cite": "cite://vyasatirtha/nyayamrta/1",
           "locus_short": "Nyāyāmṛta 1"
@@ -149,10 +121,6 @@
         {
           "cite": "cite://nimbarka/vedanta-parijata-saurabha/2.3.42",
           "locus_short": "VPS 2.3.42"
-        },
-        {
-          "cite": "cite://nimbarka/vedanta-parijata-saurabha/Upaniṣad 3.12.6",
-          "locus_short": "ChU 3.12.6"
         },
         {
           "cite": "cite://nimbarka/vedanta-parijata-saurabha/15.7a",
@@ -325,14 +293,6 @@
         "Vasubandhu, Viṃśatikā on 2–4, 17"
       ],
       "citations": [
-        {
-          "cite": "cite://vasubandhu/vimsatika/on Vvs 2",
-          "locus_short": "VVi on 2"
-        },
-        {
-          "cite": "cite://vasubandhu/vimsatika/and Preta Replies",
-          "locus_short": "VVi 3"
-        },
         {
           "cite": "cite://vasubandhu/vimsatika/17-dream-awakening",
           "locus_short": "VVi 17"

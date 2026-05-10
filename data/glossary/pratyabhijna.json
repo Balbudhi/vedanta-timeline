@@ -236,21 +236,12 @@
     },
     {
       "school": "Jainism",
-      "definition": "Jainism classifies pratyabhijñā among the parokṣa cognitions, alongside smṛti, tarka, anumāna, and āgama, rather than collapsing it into simple memory (cite://hemacandra/pramana-mimamsa/1.2.1-2). Hemacandra then uses pratyabhijñā polemically against kṣaṇikavāda, since recognition requires enough dravya-continuity for a previously encountered entity to be re-cognized as that very one (cite://hemacandra/pramana-mimamsa/1.2.4-8).",
+      "definition": "[NOT YET RETRIEVED] Hemacandra's Pramāṇa-Mīmāṃsā (the canonical Jaina locus for pratyabhijñā as a parokṣa pramāṇa, with its anti-kṣaṇikavāda argument at 1.2.1ff and 1.2.4ff) is not yet on disk; this entry awaits primary-text acquisition.",
       "primary_loci": [
-        "Hemacandra, Pramāṇa-Mīmāṃsā 1.2.1-2",
-        "Hemacandra, Pramāṇa-Mīmāṃsā 1.2.4-8"
+        "Hemacandra, Pramāṇa-Mīmāṃsā 1.2.1-2 (NOT YET RETRIEVED)",
+        "Hemacandra, Pramāṇa-Mīmāṃsā 1.2.4-8 (NOT YET RETRIEVED)"
       ],
-      "citations": [
-        {
-          "cite": "cite://hemacandra/pramana-mimamsa/1.2.1-2",
-          "locus_short": "PM 1.2.1-2"
-        },
-        {
-          "cite": "cite://hemacandra/pramana-mimamsa/1.2.4-8",
-          "locus_short": "PM 1.2.4-8"
-        }
-      ]
+      "citations": []
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",

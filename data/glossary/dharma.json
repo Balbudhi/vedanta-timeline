@@ -22,12 +22,7 @@
       "primary_loci": [
         "Bhakti-Rasāyana 1.1 ṭīkā 12"
       ],
-      "citations": [
-        {
-          "cite": "cite://madhusudana/bhakti-rasayana/1.1 ṭīkā.12",
-          "locus_short": "BhR 1.1 ṭīkā 12"
-        }
-      ]
+      "citations": []
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -55,18 +50,6 @@
         "Viṣṇu-Tattva-Vinirṇaya 3.21"
       ],
       "citations": [
-        {
-          "cite": "cite://madhva/mithyatvanumana-khandana/239, clause 15",
-          "locus_short": "MUK 239.15"
-        },
-        {
-          "cite": "cite://madhva/mithyatvanumana-khandana/239, clause 16",
-          "locus_short": "MUK 239.16"
-        },
-        {
-          "cite": "cite://madhva/mithyatvanumana-khandana/239, clause 17",
-          "locus_short": "MUK 239.17"
-        },
         {
           "cite": "cite://madhva/visnu-tattva-vinirnaya/3.21",
           "locus_short": "VTV 3.21"
@@ -282,10 +265,6 @@
         {
           "cite": "cite://vasubandhu/trimsika/30",
           "locus_short": "Triṃś 30"
-        },
-        {
-          "cite": "cite://vasubandhu/vimsatika/10 and Entry into *Dharma-Nairātmya*",
-          "locus_short": "Viṃś 10"
         }
       ]
     },

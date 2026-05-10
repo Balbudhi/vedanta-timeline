@@ -13576,6 +13576,42 @@
       "sanskrit_iast": "tadbhāvaḥ pariṇāmaḥ.",
       "english_close": "Its becoming that is transformation.",
       "source": "materials/primary_texts/sanskrit/comparator/umasvati_tattvartha_sutra.txt#429"
+    },
+    "aksapada/nyaya-sutra/4.1.19": {
+      "thinker_id": "aksapada",
+      "work_id": "nyaya-sutra",
+      "locus": "Nyāya-Sūtra 4.1.19",
+      "locus_short": "NS 4.1.19",
+      "sanskrit_iast": "īśvaraḥ kāraṇam, puruṣakarmāphalyadarśanāt",
+      "english_close": "Īśvara is the cause, since one observes that human action is fruitless without him. (siddhānta-sūtra)",
+      "source": "materials/primary_texts/sanskrit/comparator/aksapada_nyaya_sutra.txt"
+    },
+    "aksapada/nyaya-sutra/4.1.20": {
+      "thinker_id": "aksapada",
+      "work_id": "nyaya-sutra",
+      "locus": "Nyāya-Sūtra 4.1.20",
+      "locus_short": "NS 4.1.20",
+      "sanskrit_iast": "na, puruṣakarmābhāve phalāniṣpatteḥ",
+      "english_close": "No, because in the absence of human action no fruit arises. (pūrvapakṣa-sūtra)",
+      "source": "materials/primary_texts/sanskrit/comparator/aksapada_nyaya_sutra.txt"
+    },
+    "aksapada/nyaya-sutra/4.1.21": {
+      "thinker_id": "aksapada",
+      "work_id": "nyaya-sutra",
+      "locus": "Nyāya-Sūtra 4.1.21",
+      "locus_short": "NS 4.1.21",
+      "sanskrit_iast": "tatkāritatvād ahetuḥ",
+      "english_close": "Since human action is itself caused by him, it does not constitute a counter-cause. (siddhānta-sūtra)",
+      "source": "materials/primary_texts/sanskrit/comparator/aksapada_nyaya_sutra.txt"
+    },
+    "nagarjuna/mula-madhyamaka-karika/24.40": {
+      "thinker_id": "nagarjuna",
+      "work_id": "mula-madhyamaka-karika",
+      "locus": "Mūla-Madhyamaka-Kārikā 24.40",
+      "locus_short": "MMK 24.40",
+      "sanskrit_iast": "yaḥ pratītyasamutpādaṃ paśyatīdaṃ sa paśyati / duḥkhaṃ samudayaṃ caiva nirodhaṃ mārgam eva ca //",
+      "english_close": "He who sees this dependent arising sees suffering, its arising, its cessation, and the path.",
+      "source": "materials/primary_texts/sanskrit/buddhist/nagarjuna_mula_madhyamaka_karika.txt"
     }
   },
   "aliases": {

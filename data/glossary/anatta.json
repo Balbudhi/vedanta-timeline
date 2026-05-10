@@ -35,10 +35,6 @@
       ],
       "citations": [
         {
-          "cite": "cite://vimuktatman/ista-siddhi/1.Jaḍe'py avidyāpādanam.140",
-          "locus_short": "IṢ 1.140"
-        },
-        {
           "cite": "cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.3-7",
           "locus_short": "MK 3.3-7"
         },
@@ -314,14 +310,6 @@
         {
           "cite": "cite://vasubandhu/trimsika/23",
           "locus_short": "Triṃ 23"
-        },
-        {
-          "cite": "cite://vasubandhu/vimsatika/9 and Entry into *Pudgala-Nairātmya*",
-          "locus_short": "Viṃ 9"
-        },
-        {
-          "cite": "cite://vasubandhu/vimsatika/10 and Entry into *Dharma-Nairātmya*",
-          "locus_short": "Viṃ 10"
         }
       ]
     },

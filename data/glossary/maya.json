@@ -39,10 +39,6 @@
           "locus_short": "BS 1.1 (avidyā neither sat nor asat; in the jīvas)"
         },
         {
-          "cite": "cite://prakasatman/pancapadika-vivarana/brahmaṇo lakṣaṇopalakṣaṇe",
-          "locus_short": "PV p. 212"
-        },
-        {
           "cite": "cite://vimuktatman/ista-siddhi/1.Prapañcasyānirvacanīyatvam",
           "locus_short": "IṢ 1.1"
         }
@@ -83,22 +79,6 @@
         {
           "cite": "cite://madhva/bhagavata-tatparya-nirnaya/1.1.18",
           "locus_short": "Bhāg. 1.1.18"
-        },
-        {
-          "cite": "cite://madhva/bhagavata-tatparya-nirnaya/1.1.18 — gloss",
-          "locus_short": "Bhāg. 1.1.18 — gloss"
-        },
-        {
-          "cite": "cite://madhva/mayavada-khandana/can serve as a covering ignorance",
-          "locus_short": "Māyāvāda-Khaṇḍana, covering-ignorance refutation"
-        },
-        {
-          "cite": "cite://madhva/mayavada-khandana/the whole doctrine is set aside",
-          "locus_short": "Māyāvāda-Khaṇḍana, doctrine set aside"
-        },
-        {
-          "cite": "cite://madhva/mayavada-khandana/verse of refutation",
-          "locus_short": "Māyāvāda-Khaṇḍana, concluding verse"
         }
       ]
     },
@@ -316,24 +296,12 @@
           "locus_short": "Vvs 1"
         },
         {
-          "cite": "cite://vasubandhu/vimsatika/and Preta Replies",
-          "locus_short": "Vvs 3"
-        },
-        {
-          "cite": "cite://vasubandhu/vimsatika/and Hell",
-          "locus_short": "Vvs 4"
-        },
-        {
           "cite": "cite://vasubandhu/trimsika/17",
           "locus_short": "Triṃśikā 17"
         },
         {
           "cite": "cite://vasubandhu/trimsika/20",
           "locus_short": "Triṃśikā 20"
-        },
-        {
-          "cite": "cite://vasubandhu/vimsatika/10 and Entry into *Dharma-Nairātmya*",
-          "locus_short": "Vvs 10"
         }
       ]
     },

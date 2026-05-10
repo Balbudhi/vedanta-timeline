@@ -41,10 +41,6 @@
           "locus_short": "NS 1.98-99"
         },
         {
-          "cite": "cite://prakasatman/pancapadika-vivarana/brahma-vicāre kim-ānantaryam atha-śabdāvagamyam",
-          "locus_short": "PV p. 164"
-        },
-        {
           "cite": "cite://sarvajnatman/samksepa-sariraka/1.327",
           "locus_short": "SS I.327"
         }
@@ -87,22 +83,6 @@
         {
           "cite": "cite://madhva/anuvyakhyana/1.1.13-15",
           "locus_short": "Anuvy. 1.1.13-15"
-        },
-        {
-          "cite": "cite://madhva/karma-nirnaya/p. 257a",
-          "locus_short": "KN p. 257a"
-        },
-        {
-          "cite": "cite://madhva/karma-nirnaya/p. 257c",
-          "locus_short": "KN p. 257c"
-        },
-        {
-          "cite": "cite://madhva/karma-nirnaya/p. 257b",
-          "locus_short": "KN p. 257b"
-        },
-        {
-          "cite": "cite://madhva/karma-nirnaya/p. 257e",
-          "locus_short": "KN p. 257e"
         }
       ]
     },
@@ -267,10 +247,6 @@
         {
           "cite": "cite://vasubandhu/trimsika/19",
           "locus_short": "Triṃ 19"
-        },
-        {
-          "cite": "cite://vasubandhu/vimsatika/Karma, Vāsanā, and Scriptural Objection",
-          "locus_short": "Vvs 6-8"
         }
       ]
     },

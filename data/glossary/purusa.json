@@ -92,10 +92,6 @@
           "locus_short": "Gītā 15.18"
         },
         {
-          "cite": "cite://madhva/mayavada-khandana/Upaniṣad 1.3.11",
-          "locus_short": "Kaṭha 1.3.11"
-        },
-        {
           "cite": "cite://madhva/brahma-sutra-bhasya/1.1.1.7",
           "locus_short": "BBsBh 1.1.1.7"
         }
@@ -131,10 +127,6 @@
         {
           "cite": "cite://srinivasa/vedanta-kaustubha/2.3.42",
           "locus_short": "BS 2.3.42"
-        },
-        {
-          "cite": "cite://nimbarka/vedanta-parijata-saurabha/Upaniṣad 3.12.6",
-          "locus_short": "ChU 3.12.6"
         }
       ]
     },
@@ -260,16 +252,7 @@
         "Viṃśatikā 3",
         "Viṃśatikā 9"
       ],
-      "citations": [
-        {
-          "cite": "cite://vasubandhu/vimsatika/and Preta Replies",
-          "locus_short": "Vvs 3"
-        },
-        {
-          "cite": "cite://vasubandhu/vimsatika/9 and Entry into *Pudgala-Nairātmya*",
-          "locus_short": "Vvs 9"
-        }
-      ]
+      "citations": []
     },
     {
       "school": "Pratyabhijñā / Trika",

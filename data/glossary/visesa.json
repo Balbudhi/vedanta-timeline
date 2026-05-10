@@ -24,10 +24,6 @@
       ],
       "citations": [
         {
-          "cite": "cite://prakasatman/pancapadika-vivarana/p. 212b",
-          "locus_short": "PV p. 212b"
-        },
-        {
           "cite": "cite://madhusudana/siddhanta-bindu/12",
           "locus_short": "SB 12"
         }
@@ -207,16 +203,7 @@
       "primary_loci": [
         "Viṃśatikā, Vvs 6-9 with vṛtti"
       ],
-      "citations": [
-        {
-          "cite": "cite://vasubandhu/vimsatika/Karma, Vāsanā, and Scriptural Objection",
-          "locus_short": "Vvs 6-8"
-        },
-        {
-          "cite": "cite://vasubandhu/vimsatika/9 and Entry into *Pudgala-Nairātmya*",
-          "locus_short": "Vvs 9"
-        }
-      ]
+      "citations": []
     },
     {
       "school": "Pratyabhijñā / Trika",
