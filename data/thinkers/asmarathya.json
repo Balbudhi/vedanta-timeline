@@ -34,8 +34,26 @@
   ],
   "key_passages": [],
   "comparative_claim_ids": [],
+  "quoted_by": [
+    {
+      "thinker_id": "badarayana",
+      "work_id": "brahma-sutra",
+      "locus": "1.2.29; 1.4.20",
+      "what_quoted": "Āśmarathya's *abhivyakti*-thesis: *abhivyakter ity āśmarathyaḥ* (1.2.29); *pratijñāsiddher liṅgam āśmarathyaḥ* (1.4.20).",
+      "on_disk": true,
+      "on_disk_path": "/materials/primary_texts/sanskrit/vedanta/brahma_sutra.txt"
+    },
+    {
+      "thinker_id": "sankara",
+      "work_id": "brahma-sutra-bhasya",
+      "locus": "on 1.2.29; 1.4.20–22",
+      "what_quoted": "Śaṅkara's gloss on Āśmarathya's manifestation-thesis as the proto-bhedābheda voice in the cluster.",
+      "on_disk": true,
+      "on_disk_path": "/materials/primary_texts/sanskrit/vedanta/shankara_brahma_sutra_bhasya.txt"
+    }
+  ],
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-claim-grounding-opus"
 }

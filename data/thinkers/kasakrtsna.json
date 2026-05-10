@@ -36,10 +36,28 @@
   ],
   "key_passages": [],
   "comparative_claim_ids": [],
+  "quoted_by": [
+    {
+      "thinker_id": "badarayana",
+      "work_id": "brahma-sutra",
+      "locus": "1.4.22",
+      "what_quoted": "Kāśakṛtsna's *avasthiti*-thesis: *avasthiter iti kāśakṛtsnaḥ*.",
+      "on_disk": true,
+      "on_disk_path": "/materials/primary_texts/sanskrit/vedanta/brahma_sutra.txt"
+    },
+    {
+      "thinker_id": "sankara",
+      "work_id": "brahma-sutra-bhasya",
+      "locus": "on 1.4.22",
+      "what_quoted": "Śaṅkara's strict-identity reading of *avasthiti* as the resolutive voice of the cluster.",
+      "on_disk": true,
+      "on_disk_path": "/materials/primary_texts/sanskrit/vedanta/shankara_brahma_sutra_bhasya.txt"
+    }
+  ],
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus",
+  "last_verified_by": "wave-claim-grounding-opus",
   "polemic_chain_ids": [
     "brahma-sutra-bhasya-buddhism-refutation",
     "brahma-sutra-bhasya-samkhya-refutation",
