@@ -6,7 +6,7 @@
 
 ## 2. Sampling and scope statement
 
-Engaged at depth: roughly a quarter of the file, concentrated in the opening of adhyāya 1 (especially BS 1.1.1 and the *Ānandamayādhikaraṇa*), the anti-Sāṅkhya/Yoga opening of adhyāya 2, the first *pāda* of adhyāya 3 on transmigration and karmic residue, and the liberation arc of adhyāya 4, with quoted close reading of six loci. Structural summary only: the remaining *pādas* of adhyāyas 1-4, tracked through their headings and sampled arguments. Flagged but not fully engaged: many micro-disputes over combining *vidyās* in adhyāya 3.3, several route-order disputes in adhyāya 4.3, and a number of opponent-specific sub-arguments in adhyāya 2.2.
+Engaged at depth: roughly a quarter of the file, concentrated in the opening of adhyāya 1 (especially [BS 1.1.1](cite://mandana/brahma-siddhi/1.1.1) and the *Ānandamayādhikaraṇa*), the anti-Sāṅkhya/Yoga opening of adhyāya 2, the first *pāda* of adhyāya 3 on transmigration and karmic residue, and the liberation arc of adhyāya 4, with quoted close reading of six loci. Structural summary only: the remaining *pādas* of adhyāyas 1-4, tracked through their headings and sampled arguments. Flagged but not fully engaged: many micro-disputes over combining *vidyās* in adhyāya 3.3, several route-order disputes in adhyāya 4.3, and a number of opponent-specific sub-arguments in adhyāya 2.2.
 
 ## 3. Structural walk-through
 
@@ -44,7 +44,7 @@ Engaged at depth: roughly a quarter of the file, concentrated in the opening of 
 
 ## 4. Load-bearing passages — engaged at depth
 
-**1. BS 1.1.1, *Jijñāsādhikaraṇa*, pp. 1-2**
+**1. [BS 1.1.1](cite://mandana/brahma-siddhi/1.1.1), *Jijñāsādhikaraṇa*, pp. 1-2**
 
 **Sanskrit (IAST):** `brahmaṇo jijñāsā brahmajijñāsā ... brahmaśabdena ca svabhāvato nirasta-nikhila-doṣo 'navadhikātiśayā[saṅkhyeya?]-kalyāṇa-guṇa-gaṇaḥ puruṣo[ttama?] 'bhidhīyate ... ataḥ sarveśvara eva jijñāsākarmatāṃ brahma ... jñātum icchā jijñāsā; icchāyā iṣyamāṇa-prādhānyād iṣyamāṇaṃ jñānam iha vidhīyate.`
 
@@ -56,7 +56,7 @@ The lexical loading of `brahma` is equally decisive. The term is not left open t
 
 Pāṇinian-rich note. `Brahmajijñāsā = brahmaṇaḥ jijñāsā`: a genitive *tatpuruṣa*. `Brahmaṇaḥ` is glossed as `karmaṇi ṣaṣṭhī`, so Brahman is the object of inquiry. In `brahmaśabdena ... puruṣottamo 'bhidhīyate`, `brahmaśabdena` is karaṇa, `puruṣottamaḥ` the nominative subject of the passive, and the compound quality-clusters specify what the word “Brahman” denotes.
 
-**2. BS 1.1.13, *Ānandamayādhikaraṇa*, p. 87**
+**2. [BS 1.1.13](cite://mandana/brahma-siddhi/1.1.13), *Ānandamayādhikaraṇa*, p. 87**
 
 **Sanskrit (IAST):** `ānandamayo 'bhyāsāt. ānandamayaḥ paramātmā ... vijñānamayo hi jīvaḥ; na buddhimātram ... vijñānamayāj jīvād anyas tad-antaraḥ paramātmā ānandamayaḥ.`
 
@@ -64,7 +64,7 @@ Pāṇinian-rich note. `Brahmajijñāsā = brahmaṇaḥ jijñāsā`: a genitive
 
 The argument turns on ordered interiority. The *vijñānamaya* is the finite conscious self; the *ānandamaya* is “other than” that jīva and interior to it. So the Taittirīya’s sequence does not collapse into a featureless self; it stratifies embodiment, jīva, and the indwelling Lord.
 
-**3. BS 2.1.2, *Yogapratyuktyadhikaraṇa*, pp. 187-188**
+**3. [BS 2.1.2](cite://mandana/brahma-siddhi/2.1.2), *Yogapratyuktyadhikaraṇa*, pp. 187-188**
 
 **Sanskrit (IAST):** `etena kāpila-smṛti-nirākaraṇena yoga-smṛtir api pratyuktā ... abrahyātmaka-pradhāna-kāraṇa-vādān animitta-kāraṇa-mātreśvarābhyupagamāc ca ... yoga-smṛtir api ... bhrānti-mūleti na tayā vedāntopabṛṃhaṇaṃ nyāyyam.`
 
