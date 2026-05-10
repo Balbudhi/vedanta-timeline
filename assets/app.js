@@ -1245,6 +1245,120 @@ aboutModal.addEventListener("click", (e) => {
   if (e.target === aboutModal) { aboutModal.classList.remove("is-open"); aboutModal.setAttribute("aria-hidden", "true"); }
 });
 
+// ---------- articles -----------
+const articlesBtn = document.getElementById("articlesBtn");
+const articlesModal = document.getElementById("articlesModal");
+const closeArticles = document.getElementById("closeArticles");
+const articlesList = document.getElementById("articlesList");
+const articleReader = document.getElementById("articleReader");
+const articleReaderTitle = document.getElementById("articleReaderTitle");
+const articleReaderContent = document.getElementById("articleReaderContent");
+const closeArticleReader = document.getElementById("closeArticleReader");
+const backToArticles = document.getElementById("backToArticles");
+
+let articlesManifest = null;
+
+async function ensureArticlesLoaded() {
+  if (articlesManifest) return;
+  articlesManifest = await loadJSON("data/articles/manifest.json");
+  if (!articlesManifest || !articlesManifest.articles) {
+    articlesList.innerHTML = "<p class=\"articles-intro\">No articles yet.</p>";
+    return;
+  }
+  articlesList.innerHTML = "";
+  for (const a of articlesManifest.articles) {
+    const row = document.createElement("div");
+    row.className = "article-row";
+    row.dataset.slug = a.slug;
+    row.innerHTML = `
+      <p class="article-title">${escape(a.title)}${a.status === "in-progress" ? ' <em style="color:#92400e;font-weight:500">(in progress)</em>' : ""}</p>
+      <p class="article-subtitle">${md(a.subtitle || "")}</p>
+      <p class="article-meta">${escape(a.kind || "")} · ~${a.word_count_approx || "?"} words${a.date ? " · " + escape(a.date) : ""}</p>
+    `;
+    row.addEventListener("click", () => openArticle(a));
+    articlesList.appendChild(row);
+  }
+}
+
+articlesBtn.addEventListener("click", async () => {
+  await ensureArticlesLoaded();
+  articlesModal.classList.add("is-open");
+  articlesModal.setAttribute("aria-hidden", "false");
+});
+closeArticles.addEventListener("click", () => { articlesModal.classList.remove("is-open"); articlesModal.setAttribute("aria-hidden", "true"); });
+articlesModal.addEventListener("click", (e) => {
+  if (e.target === articlesModal) { articlesModal.classList.remove("is-open"); articlesModal.setAttribute("aria-hidden", "true"); }
+});
+
+async function openArticle(a) {
+  articlesModal.classList.remove("is-open");
+  articleReader.classList.add("is-open");
+  articleReader.setAttribute("aria-hidden", "false");
+  articleReaderTitle.textContent = a.title;
+  articleReaderContent.innerHTML = "<article><p>Loading…</p></article>";
+  // Articles live at data/articles/source/<slug>.md
+  const r = await fetch(`data/articles/source/${a.slug}.md`);
+  if (!r.ok) {
+    articleReaderContent.innerHTML = `<article><h1>${escape(a.title)}</h1><p>Article body not yet uploaded.</p></article>`;
+    return;
+  }
+  const text = await r.text();
+  articleReaderContent.innerHTML = `<article>${renderMarkdownFull(text)}</article>`;
+  articleReaderContent.scrollTop = 0;
+}
+
+closeArticleReader.addEventListener("click", () => {
+  articleReader.classList.remove("is-open");
+  articleReader.setAttribute("aria-hidden", "true");
+});
+backToArticles.addEventListener("click", () => {
+  articleReader.classList.remove("is-open");
+  articleReader.setAttribute("aria-hidden", "true");
+  articlesModal.classList.add("is-open");
+  articlesModal.setAttribute("aria-hidden", "false");
+});
+
+// Slightly richer markdown renderer for articles (handles tables, blockquotes, lists).
+function renderMarkdownFull(src) {
+  const esc = (s) => s.replace(/[&<>]/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+  // Pull out fenced code blocks first (preserve verbatim)
+  const blocks = [];
+  src = src.replace(/```([\s\S]*?)```/g, (_, body) => {
+    blocks.push(`<pre><code>${esc(body)}</code></pre>`);
+    return ` BLOCK${blocks.length-1} `;
+  });
+  // Tables (simple GFM)
+  src = src.replace(/((?:^\|.*\|\s*\n)+)/gm, (m) => {
+    const rows = m.trim().split("\n").map((r) => r.trim().replace(/^\||\|$/g, "").split("|").map((c) => c.trim()));
+    if (rows.length < 2) return m;
+    const hasSep = rows[1].every((c) => /^:?-+:?$/.test(c));
+    if (!hasSep) return m;
+    const head = rows[0];
+    const body = rows.slice(2);
+    return `<table><thead><tr>${head.map((c) => `<th>${esc(c)}</th>`).join("")}</tr></thead><tbody>${body.map((r) => `<tr>${r.map((c) => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table>`;
+  });
+  // Standard markdown
+  let out = src
+    .replace(/^### (.+)$/gm, "<h3>$1</h3>")
+    .replace(/^## (.+)$/gm, "<h2>$1</h2>")
+    .replace(/^# (.+)$/gm, "<h1>$1</h1>")
+    .replace(/^&gt; (.+)$/gm, "<blockquote>$1</blockquote>")
+    .replace(/^> (.+)$/gm, "<blockquote>$1</blockquote>")
+    .replace(/\*\*([^*]+?)\*\*/g, "<strong>$1</strong>")
+    .replace(/(^|[\s(\[—,;:])\*([^*\n]+?)\*(?=[\s.,;:!?)\]—]|$)/g, "$1<em>$2</em>")
+    .replace(/`([^`]+?)`/g, "<code>$1</code>")
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
+    // paragraph splits
+    .replace(/\n\n+/g, "</p><p>");
+  out = "<p>" + out + "</p>";
+  // restore code blocks
+  out = out.replace(/ BLOCK(\d+) /g, (_, i) => blocks[+i]);
+  // Don't wrap headings/blockquotes/tables in <p>
+  out = out.replace(/<p>(\s*)(<h[123]|<blockquote|<table|<pre|<ul|<ol)/g, "$1$2");
+  out = out.replace(/(<\/h[123]>|<\/blockquote>|<\/table>|<\/pre>|<\/ul>|<\/ol>)(\s*)<\/p>/g, "$1$2");
+  return out;
+}
+
 // ---------- keyboard nav -----------
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") {
