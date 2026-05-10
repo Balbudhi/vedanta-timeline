@@ -1067,7 +1067,7 @@ function openThinker(id) {
   });
   detailContent.style.setProperty("--dot-color", colorFor(t, 2));
   detailContent.style.setProperty("--school-light", colorFor(t, 1));
-  detailContent.innerHTML = numberCitations(renderDetail(t), { appendList: true });
+  detailContent.innerHTML = renderDetail(t);
   panelState.loaded.thinker = true;
   detailContent.scrollTop = 0;
   openPanel("thinker");
@@ -1367,28 +1367,12 @@ document.addEventListener("click", (e) => {
     openThinker(a.dataset.thinkerLink);
     return;
   }
-  // citation panel / popover (clickable primary-source citations).
-  // Demoted citations (verified: false) open a small popover explaining the
-  // audit finding rather than the Citation tab, so a reader can't mistake
-  // the locus for a clean primary passage.
+  // citation panel / popover (clickable primary-source citations)
   const cite = e.target.closest("a[href^='cite://']");
   if (cite) {
     e.preventDefault();
     const key = cite.getAttribute("href").replace(/^cite:\/\//, "");
-    const fnEl = cite.closest(".cite-fn");
-    if (fnEl && fnEl.classList.contains("cite-fn--demoted")) {
-      openDemotedCitePopover(key, cite);
-    } else {
-      openCitationPanel(key, cite);
-    }
-    return;
-  }
-  // secondary citations (book-only references — never on disk).
-  const sec = e.target.closest("a[href^='secondary://']");
-  if (sec) {
-    e.preventDefault();
-    const ref = sec.getAttribute("href").replace(/^secondary:\/\//, "");
-    openSecondaryCitePopover(ref, sec);
+    openCitationPanel(key, cite);
     return;
   }
   // glossary popovers
@@ -1451,10 +1435,341 @@ For the cited-but-not-fully-translated portions: where a standard scholarly Engl
 ${passagesBlock}`;
   }
   if (dpTranslationBody) {
-    dpTranslationBody.innerHTML = `<article>${numberCitations(renderMarkdownFull(body), { appendList: true })}</article>`;
+    dpTranslationBody.innerHTML = `<article>${renderTranslationDocument(body, { thinkerId, workId, work, thinker: t })}</article>`;
     dpTranslationBody.scrollTop = 0;
+    wireTranslationDisclosures(dpTranslationBody, { thinkerId, workId });
   }
   panelState.loaded.translation = true;
+}
+
+// ---------- Translation document parser + reading-first renderer -----------
+//
+// The Translation tab now reads as a translation, not a grammar exercise.
+// Each `### LOCUS` section is parsed into a structured record:
+//
+//   {
+//     locus,                                  // verse/section identifier
+//     default_translation: { lang, text },    // primary readable surface
+//     iast,                                   // Sanskrit in IAST (italic)
+//     devanagari,                             // optional Sanskrit in Devanāgarī
+//     morphology: { wordByWord, compound, karaka, verbal },
+//     note,                                   // short interpretive aside
+//   }
+//
+// The default-language slot is parameterized: today every translation in
+// the corpus is English, but the same parser will accept Hindi, Bengali,
+// Tamil, Telugu, Marathi, Gujarati, Kannada, or Malayalam in future
+// passes. The header convention is `**<Language> (translation):**` or
+// the legacy `**English (line-by-line):**`. Whatever language the file
+// supplies for its readable surface becomes the default-language slot;
+// IAST and Devanāgarī always remain Sanskrit.
+//
+// Grammar (word-by-word table, samāsa-vigraha, kāraka structure, verbal
+// modality) is hidden by default behind a single disclosure. The Note
+// stays inline as a subtle italic aside because it helps the reader
+// rather than cluttering the page.
+
+// Headings we recognize as the readable default-language slot. The first
+// match wins. New languages are added by listing their conventional
+// English name; the renderer emits the same prose styling regardless.
+const DEFAULT_LANG_HEADINGS = [
+  { match: /^\*\*English\s*\(line-by-line\)\s*:\*\*\s*$/i, lang: "en" },
+  { match: /^\*\*English\s*\(translation\)\s*:\*\*\s*$/i, lang: "en" },
+  { match: /^\*\*English\s*:\*\*\s*$/i, lang: "en" },
+  { match: /^\*\*Translation\s*\(English\)\s*:\*\*\s*$/i, lang: "en" },
+  { match: /^\*\*Hindi\s*\(translation\)\s*:\*\*\s*$/i, lang: "hi" },
+  { match: /^\*\*Bengali\s*\(translation\)\s*:\*\*\s*$/i, lang: "bn" },
+  { match: /^\*\*Tamil\s*\(translation\)\s*:\*\*\s*$/i, lang: "ta" },
+  { match: /^\*\*Telugu\s*\(translation\)\s*:\*\*\s*$/i, lang: "te" },
+  { match: /^\*\*Marathi\s*\(translation\)\s*:\*\*\s*$/i, lang: "mr" },
+  { match: /^\*\*Gujarati\s*\(translation\)\s*:\*\*\s*$/i, lang: "gu" },
+  { match: /^\*\*Kannada\s*\(translation\)\s*:\*\*\s*$/i, lang: "kn" },
+  { match: /^\*\*Malayalam\s*\(translation\)\s*:\*\*\s*$/i, lang: "ml" },
+];
+
+const SECTION_HEADINGS = {
+  iast: /^\*\*Sanskrit\s*\(IAST\)\s*:\*\*\s*$/i,
+  devanagari: /^\*\*Sanskrit\s*\(Devan[āa]gar[īi]\)\s*:\*\*\s*$/i,
+  wordByWord: /^\*\*Word-by-word\s*:\*\*\s*$/i,
+  compound: /^\*\*Compound\s+resolution\s*\(sam[āa]sa-vigraha\)\s*:\*\*\s*$/i,
+  karaka: /^\*\*K[āa]raka\s+structure\s*:\*\*\s*$/i,
+  verbal: /^\*\*Verbal\s+modality\s*:\*\*\s*$/i,
+  note: /^\*\*Note\s*:\*\*\s*$/i,
+};
+
+// Parse a single `### LOCUS` block (the contents *after* the heading
+// line) into a structured record. Returns null if the block does not
+// look like a per-verse translation card — in that case the caller
+// falls back to renderMarkdownFull for the raw markdown.
+function parseTranslationSection(rawBody, locus) {
+  const lines = rawBody.split("\n");
+  const slots = {
+    iast: [],
+    devanagari: [],
+    defaultLang: null,
+    defaultText: [],
+    wordByWord: [],
+    compound: [],
+    karaka: [],
+    verbal: [],
+    note: [],
+  };
+  let current = null;
+  for (const line of lines) {
+    const trimmed = line.trim();
+    let matched = false;
+    for (const { match, lang } of DEFAULT_LANG_HEADINGS) {
+      if (match.test(trimmed)) {
+        slots.defaultLang = lang;
+        current = "defaultText";
+        matched = true;
+        break;
+      }
+    }
+    if (matched) continue;
+    for (const [key, re] of Object.entries(SECTION_HEADINGS)) {
+      if (re.test(trimmed)) {
+        current = key;
+        matched = true;
+        break;
+      }
+    }
+    if (matched) continue;
+    if (current) {
+      slots[current].push(line);
+    } else {
+      // Content before any recognized heading — keep with the IAST
+      // bucket as a fallback so it isn't silently dropped.
+      slots.iast.push(line);
+    }
+  }
+  // A real verse card must have at least an IAST block and a default-
+  // language translation. If neither is present we treat this section
+  // as free-form prose (e.g. an editorial aside written as "### Foo").
+  const hasIast = slots.iast.join("").trim().length > 0;
+  const hasDefault = slots.defaultText.join("").trim().length > 0;
+  if (!hasIast && !hasDefault) return null;
+  const trim = (a) => a.join("\n").trim();
+  return {
+    locus,
+    default_translation: { lang: slots.defaultLang || "en", text: trim(slots.defaultText) },
+    iast: trim(slots.iast),
+    devanagari: trim(slots.devanagari),
+    morphology: {
+      wordByWord: trim(slots.wordByWord),
+      compound: trim(slots.compound),
+      karaka: trim(slots.karaka),
+      verbal: trim(slots.verbal),
+    },
+    note: trim(slots.note),
+  };
+}
+
+// Strip leading YAML-ish frontmatter (--- … ---) and return parsed
+// key→value pairs alongside the remaining body.
+function stripFrontmatter(src) {
+  const m = /^---\s*\n([\s\S]*?)\n---\s*\n?/.exec(src);
+  if (!m) return { meta: {}, body: src };
+  const meta = {};
+  for (const line of m[1].split("\n")) {
+    const kv = /^([A-Za-z_][\w-]*):\s*(.*)$/.exec(line);
+    if (kv) {
+      let v = kv[2].trim();
+      // Strip surrounding quotes (single, double, triple) — values come
+      // from the python audit script which uses repr() for evidence.
+      if ((v.startsWith("'") && v.endsWith("'")) || (v.startsWith('"') && v.endsWith('"'))) {
+        v = v.slice(1, -1);
+      }
+      meta[kv[1]] = v;
+    }
+  }
+  return { meta, body: src.slice(m[0].length) };
+}
+
+// Coverage banner. Honest about what the reader is actually looking at.
+function renderCoverageBanner(meta, work, thinker) {
+  const cov = (meta.coverage || "").toLowerCase();
+  const title = (work && (work.title_iast || work.title)) || "the work";
+  if (cov === "full") {
+    return `<div class="tx-coverage tx-coverage-full"><span class="tx-coverage-tag">Full text</span> The complete <em>${escape(title)}</em>.</div>`;
+  }
+  if (cov === "selection") {
+    return `<div class="tx-coverage tx-coverage-selection"><span class="tx-coverage-tag">Selected passages</span> An excerpt from <em>${escape(title)}</em>; the full text extends beyond what is rendered here.<button class="tx-coverage-source" data-tx-open-source="${escape(thinker ? thinker.id : "")}">Open Source tab →</button></div>`;
+  }
+  if (cov === "placeholder") {
+    return `<div class="tx-coverage tx-coverage-placeholder"><span class="tx-coverage-tag">Acquisition queued</span> A defensible Sanskrit witness for <em>${escape(title)}</em> is not yet on disk; the page below summarizes what is and is not engaged.</div>`;
+  }
+  return "";
+}
+
+function slugifyLocus(s) {
+  return String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 80);
+}
+
+function disclosureKey(thinkerId, workId, locus) {
+  return `tx-disc:${thinkerId}:${workId}:${slugifyLocus(locus)}`;
+}
+
+function readDisclosureState(key) {
+  try {
+    return localStorage.getItem(key) === "open";
+  } catch (_) {
+    return false;
+  }
+}
+
+function writeDisclosureState(key, open) {
+  try {
+    localStorage.setItem(key, open ? "open" : "closed");
+  } catch (_) { /* private mode, etc. — silent */ }
+}
+
+// Render one parsed verse card. Reading-first hierarchy: locus, then
+// default-language translation prominently, then IAST + Devanāgarī
+// (when present) muted underneath, then a single disclosure for the
+// grammatical breakdown, and finally the Note as a subtle italic aside.
+function renderVerseCard(section, ctx) {
+  const { thinkerId, workId } = ctx;
+  const dKey = disclosureKey(thinkerId, workId, section.locus);
+  const startOpen = readDisclosureState(dKey);
+  const morph = section.morphology || {};
+  const hasMorph = morph.wordByWord || morph.compound || morph.karaka || morph.verbal;
+
+  const langClass = `tx-default-lang tx-lang-${section.default_translation.lang}`;
+  const defaultBlock = section.default_translation.text
+    ? `<div class="${langClass}" lang="${escape(section.default_translation.lang)}">${renderMarkdownFull(section.default_translation.text)}</div>`
+    : "";
+  const iastBlock = section.iast
+    ? `<div class="tx-iast" lang="sa-Latn">${renderMarkdownFull(section.iast)}</div>`
+    : "";
+  const devBlock = section.devanagari
+    ? `<div class="tx-devanagari" lang="sa-Deva">${renderMarkdownFull(section.devanagari)}</div>`
+    : "";
+
+  let morphInner = "";
+  if (hasMorph) {
+    const parts = [];
+    if (morph.wordByWord) parts.push(`<div class="tx-morph-block tx-morph-words"><div class="tx-morph-label">Word by word</div>${renderMarkdownFull(morph.wordByWord)}</div>`);
+    if (morph.compound) parts.push(`<div class="tx-morph-block"><div class="tx-morph-label">Compound resolution <span class="tx-morph-sub">(samāsa-vigraha)</span></div>${renderMarkdownFull(morph.compound)}</div>`);
+    if (morph.karaka) parts.push(`<div class="tx-morph-block"><div class="tx-morph-label">Kāraka structure</div>${renderMarkdownFull(morph.karaka)}</div>`);
+    if (morph.verbal) parts.push(`<div class="tx-morph-block"><div class="tx-morph-label">Verbal modality</div>${renderMarkdownFull(morph.verbal)}</div>`);
+    morphInner = parts.join("");
+  }
+
+  const disclosure = hasMorph
+    ? `<details class="tx-grammar"${startOpen ? " open" : ""} data-tx-disclosure="${escape(dKey)}">
+         <summary><span class="tx-grammar-caret" aria-hidden="true"></span><span class="tx-grammar-label">Word-by-word and grammar</span></summary>
+         <div class="tx-grammar-body">${morphInner}</div>
+       </details>`
+    : "";
+
+  const noteBlock = section.note
+    ? `<aside class="tx-note">${renderMarkdownFull(section.note)}</aside>`
+    : "";
+
+  return `<section class="tx-verse" data-tx-locus="${escape(section.locus)}">
+    <header class="tx-verse-head"><span class="tx-locus">${escape(section.locus)}</span></header>
+    ${defaultBlock}
+    ${iastBlock}
+    ${devBlock}
+    ${disclosure}
+    ${noteBlock}
+  </section>`;
+}
+
+// Top-level renderer for a translation document. Splits into:
+//   (1) optional YAML frontmatter (consumed for the coverage banner)
+//   (2) preamble — everything before the first `### LOCUS` heading
+//   (3) per-verse sections — parsed structurally where possible,
+//       falling back to renderMarkdownFull when a section does not
+//       look like a verse card
+//   (4) trailing prose (e.g. "## Editorial closing")
+function renderTranslationDocument(rawSrc, ctx) {
+  const { meta, body } = stripFrontmatter(rawSrc);
+  const banner = renderCoverageBanner(meta, ctx.work, ctx.thinker);
+
+  // Split on lines that begin a verse card. Anything before the first
+  // such heading is the preamble; subsequent material is split into
+  // (heading-line, body-up-to-next-heading-or-h2) pairs. An H2
+  // (`## …`) terminates the verse-card stream and re-opens free
+  // markdown for editorial closings.
+  const lines = body.split("\n");
+  let preamble = [];
+  const sections = []; // {locus, body}
+  let trailing = []; // any content after the verse stream ends (## heading)
+  let mode = "preamble";
+  let cur = null;
+  for (const line of lines) {
+    if (mode === "preamble") {
+      const h3 = /^###\s+(.+?)\s*$/.exec(line);
+      if (h3) {
+        mode = "section";
+        cur = { locus: h3[1].trim(), body: [] };
+        sections.push(cur);
+        continue;
+      }
+      // An H2 inside the preamble keeps us in preamble mode.
+      preamble.push(line);
+      continue;
+    }
+    if (mode === "section") {
+      const h3 = /^###\s+(.+?)\s*$/.exec(line);
+      if (h3) {
+        cur = { locus: h3[1].trim(), body: [] };
+        sections.push(cur);
+        continue;
+      }
+      const h2 = /^##\s+/.exec(line);
+      if (h2) {
+        // Editorial closing or similar — drop back to free-form mode.
+        mode = "trailing";
+        trailing.push(line);
+        continue;
+      }
+      // Horizontal rules between sections: swallow.
+      if (/^---+\s*$/.test(line) && cur && cur.body.length === 0) continue;
+      cur.body.push(line);
+      continue;
+    }
+    // mode === "trailing"
+    trailing.push(line);
+  }
+
+  const preambleHtml = preamble.length
+    ? `<div class="tx-preamble">${renderMarkdownFull(preamble.join("\n"))}</div>`
+    : "";
+
+  const sectionHtml = sections.map((s) => {
+    const parsed = parseTranslationSection(s.body.join("\n"), s.locus);
+    if (parsed) return renderVerseCard(parsed, ctx);
+    // Fallback — render the section verbatim (preserves arbitrary
+    // editorial content that doesn't fit the verse-card schema).
+    return `<section class="tx-verse-fallback">${renderMarkdownFull(`### ${s.locus}\n\n${s.body.join("\n")}`)}</section>`;
+  }).join("");
+
+  const trailingHtml = trailing.join("\n").trim()
+    ? `<div class="tx-trailing">${renderMarkdownFull(trailing.join("\n"))}</div>`
+    : "";
+
+  return banner + preambleHtml + sectionHtml + trailingHtml;
+}
+
+function wireTranslationDisclosures(root, ctx) {
+  if (!root) return;
+  // Persist open/closed state on toggle. Native <details> handles the
+  // visual state; we just remember it in localStorage.
+  root.querySelectorAll("details[data-tx-disclosure]").forEach((d) => {
+    d.addEventListener("toggle", () => {
+      writeDisclosureState(d.dataset.txDisclosure, d.open);
+    });
+  });
+  // "Open Source tab →" link in the coverage banner switches tabs.
+  root.querySelectorAll("[data-tx-open-source]").forEach((b) => {
+    b.addEventListener("click", (e) => {
+      e.preventDefault();
+      if (typeof showTab === "function") showTab("source");
+    });
+  });
 }
 
 // ---------- glossary popover -----------
@@ -1490,16 +1805,14 @@ function openGlossary(termKey, anchorEl) {
   const translatorNote = entry.translator_note
     ? `<div class="gp-translator"><span class="gp-label">Translator note</span><div>${md(entry.translator_note)}</div></div>`
     : "";
-  // Glossary definitions can include cite:// links; let the footnote numbering
-  // post-processor convert them to compact superscripts in the popover body.
-  pop.innerHTML = numberCitations(`
+  pop.innerHTML = `
     <button class="gp-close" aria-label="Close">×</button>
     <div class="gp-term">${escape(entry.term_iast || termKey)}</div>
     ${entry.literal ? `<div class="gp-literal">Literally: <em>${escape(entry.literal)}</em></div>` : ""}
     <div class="gp-invariant"><span class="gp-label">${entry.invariant_definition && entry.invariant_definition.toLowerCase().includes("no shared invariant") ? "No invariant" : "Invariant"}</span><div>${md(entry.invariant_definition || "")}</div></div>
     ${perSchool ? `<div class="gp-perschool"><span class="gp-label">By school</span>${perSchool}</div>` : ""}
     ${translatorNote}
-  `, { appendList: false });
+  `;
   let scrim = null;
   if (isMobile) {
     scrim = document.createElement("div");
@@ -1727,15 +2040,9 @@ function renderCitationTab(key) {
   // the Sanskrit and the close English so a not-yet-verified passage can't
   // be mistaken for a quotation. The same panel surfaces the verification
   // note so the reader can see exactly what the audit found.
-  // Verified-flag dispatch:
-  //   true                  → show Sanskrit + close English (defendable).
-  //   false                 → show locus + audit note (passage withheld).
-  //   "pending-acquisition" → show locus + acquisition note (passage on the
-  //                           way; differentiates from a hallucination).
-  //   "unknown" / missing   → show what the entry has, but no audit endorsement.
-  let anchorHtml;
-  if (entry && entry.verified === false) {
-    anchorHtml = `
+  const anchorHtml = entry
+    ? (entry.verified === false
+        ? `
       <div class="cite-passage-anchor cite-passage-anchor--unverified">
         <div class="cpa-locus">Locus · ${escape(entry.locus_short || locusDisplay)}</div>
         <div class="cpa-pending">
@@ -1745,36 +2052,20 @@ function renderCitationTab(key) {
           primary text. ${entry.verification_note ? `<em>${escape(entry.verification_note)}</em>` : ""}
         </div>
       </div>
-    `;
-  } else if (entry && entry.verified === "pending-acquisition") {
-    anchorHtml = `
-      <div class="cite-passage-anchor cite-passage-anchor--pending">
-        <div class="cpa-locus">Locus · ${escape(entry.locus_short || locusDisplay)}</div>
-        <div class="cpa-pending">
-          The cited primary text is not yet on disk in clean form, so the
-          passage cannot be verified against the source file. Locus and
-          attribution are preserved as a primary-source pointer; the passage
-          will be back-filled once the work is acquired.
-          ${entry.verification_note ? `<em>${escape(entry.verification_note)}</em>` : ""}
-        </div>
-      </div>
-    `;
-  } else if (entry) {
-    anchorHtml = `
+    `
+        : `
       <div class="cite-passage-anchor">
         <div class="cpa-locus">Locus · ${escape(entry.locus_short || locusDisplay)}</div>
         ${entry.sanskrit_iast ? `<div class="cpa-sk">${escape(entry.sanskrit_iast).replace(/\n/g, "<br>")}</div>` : ""}
         ${entry.english_close ? `<div class="cpa-en">${md(entry.english_close)}</div>` : ""}
       </div>
-    `;
-  } else {
-    anchorHtml = `
+    `)
+    : `
       <div class="cite-passage-anchor">
         <div class="cpa-locus">Locus · ${escape(locusDisplay)}</div>
         <div class="cpa-pending">Passage not yet extracted into the on-disk corpus. The locus is named in this entry; the surrounding work has not been transcribed line-by-line yet. Open the thinker entry to see what <em>is</em> currently engaged.</div>
       </div>
     `;
-  }
 
   const noContextNote = entry && !before.length && !after.length
     ? `<p class="ccb-note">No surrounding key-passages indexed for this work yet.</p>`
@@ -2002,202 +2293,6 @@ function guessSourceFileForCitation(thinkerId, workId) {
   return bestScore >= 3 ? best.path : null;
 }
 
-// ---------- citation footnote post-processor -----------
-// Convert <a class="cite-link" href="cite://KEY">visible</a> anchors (and
-// secondary-source <a href="secondary://REF">visible</a> anchors) into
-// numbered superscripts. Numbering is per-call (per render-context); a key
-// reused inside the same view gets the same number.
-//
-// The original `visible` text — which is usually the locus, e.g. "BSB 1.1.1"
-// — is preserved on a data attribute so the optional footnote-list at the
-// bottom of the view can render it. The visible text in the prose is replaced
-// by the footnote number.
-//
-// The audit's `verified` flag (true | false | "unknown" | "pending-acquisition")
-// drives a class modifier so the CSS can render demoted citations with
-// gray/strikethrough and pending-acquisition with a subtler treatment.
-function numberCitations(html, options) {
-  if (!html) return html;
-  const opts = options || {};
-  const idx = state.citationIndex;
-  const lookup = (key) => {
-    if (!idx) return null;
-    if (idx.entries && idx.entries[key]) return idx.entries[key];
-    const aliasTo = idx.aliases && idx.aliases[key];
-    return aliasTo && idx.entries ? idx.entries[aliasTo] : null;
-  };
-
-  // counter + key→number map (reuse-same-number rule)
-  const order = [];
-  const seen = new Map();
-  const numberFor = (key) => {
-    if (seen.has(key)) return seen.get(key);
-    const n = order.length + 1;
-    seen.set(key, n);
-    order.push(key);
-    return n;
-  };
-
-  // primary citations. The visible text may include rendered <em>/<strong>/
-  // <span class="term"> markup (italics, glossary tags) so we match
-  // non-greedy up to the nearest closing </a>. Citations don't nest, so
-  // .*? is safe here.
-  const cite = /<a\s+href="cite:\/\/([^"]+)"\s+class="cite-link">([\s\S]*?)<\/a>/g;
-  let out = html.replace(cite, (_m, key, visible) => {
-    const entry = lookup(key);
-    const verified = entry ? entry.verified : "unknown";
-    const n = numberFor(key);
-    let cls = "cite-fn";
-    let title = visible.trim() || key;
-    if (verified === false) {
-      cls += " cite-fn--demoted";
-      title += " — passage absent from on-disk source (flagged by audit)";
-    } else if (verified === "pending-acquisition") {
-      cls += " cite-fn--pending";
-      title += " — primary text not yet on disk (pending acquisition)";
-    } else if (verified === "unknown") {
-      cls += " cite-fn--unknown";
-    }
-    return `<sup class="${cls}" data-cite-key="${key}" data-cite-visible="${escapeAttr(visible)}">` +
-      `<a href="cite://${key}" data-fn-num="${n}" title="${escapeAttr(title)}">[${n}]</a></sup>`;
-  });
-
-  // secondary citations — small bracketed inline reference, opens popover.
-  const sec = /<a\s+href="secondary:\/\/([^"]+)"\s+class="cite-link">([\s\S]*?)<\/a>/g;
-  out = out.replace(sec, (_m, ref, visible) => {
-    return `<a href="secondary://${ref}" class="cite-secondary" data-ref="${ref}" ` +
-      `title="Secondary source — passage not on disk">[${visible}]</a>`;
-  });
-
-  if (!opts.appendList || order.length === 0) return out;
-
-  // Footnote list at end of view.
-  const items = order.map((key, i) => {
-    const entry = lookup(key);
-    const n = i + 1;
-    const parts = key.split("/");
-    const tid = parts[0] || "";
-    const wid = parts[1] || "";
-    const loc = parts.slice(2).join("/");
-    const t = state.thinkersById && state.thinkersById.get(tid);
-    const thinkerName = t ? (t.name_iast || t.name) : tid;
-    let workTitle = wid;
-    if (t) {
-      const w = (t.engaged_works || []).find((x) => x.work_id === wid);
-      if (w) workTitle = w.title_iast || w.title || wid;
-    }
-    const locus = entry ? (entry.locus_short || entry.locus || loc) : (loc || key);
-    const verified = entry ? entry.verified : "unknown";
-    let badge = "";
-    if (verified === false) {
-      badge = ` <span class="cite-fn-list-badge cite-fn-list-badge--demoted">verified absent</span>`;
-    } else if (verified === "pending-acquisition") {
-      badge = ` <span class="cite-fn-list-badge cite-fn-list-badge--pending">pending acquisition</span>`;
-    } else if (verified === "unknown") {
-      badge = ` <span class="cite-fn-list-badge cite-fn-list-badge--unknown">unverified</span>`;
-    }
-    return `<li id="cite-fn-${n}"><span class="cite-fn-list-num">[${n}]</span> ` +
-      `<a href="cite://${key}" class="cite-fn-list-locus">${escape(locus)}</a> · ` +
-      `${escape(thinkerName)}${workTitle ? ` · <em>${escape(workTitle)}</em>` : ""}${badge}</li>`;
-  }).join("");
-  return out + `<aside class="cite-fn-list"><h3>Footnotes</h3><ol>${items}</ol></aside>`;
-}
-
-function escapeAttr(s) {
-  if (s == null) return "";
-  return String(s).replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-}
-
-// Popover shown when a demoted (verified: false) citation is clicked.
-// Honest acknowledgment: locus + audit finding + offer to open citation tab.
-function openDemotedCitePopover(key, anchorEl) {
-  document.querySelectorAll(".citation-popover, .glossary-popover, .gloss-scrim, .cite-scrim, .cite-secondary-popover").forEach((el) => el.remove());
-  const entry = lookupCitationEntry(key);
-  const parts = key.split("/");
-  const tid = parts[0] || "";
-  const wid = parts[1] || "";
-  const t = state.thinkersById.get(tid);
-  const thinkerName = t ? (t.name_iast || t.name) : tid;
-  let workTitle = wid;
-  if (t) {
-    const w = (t.engaged_works || []).find((x) => x.work_id === wid);
-    if (w) workTitle = w.title_iast || w.title || wid;
-  }
-  const locus = entry ? (entry.locus_short || entry.locus || parts.slice(2).join("/")) : parts.slice(2).join("/");
-  const note = entry && entry.verification_note ? entry.verification_note : "";
-  const pop = document.createElement("div");
-  pop.className = "citation-popover citation-popover--demoted";
-  pop.innerHTML = `
-    <button class="cp-close" aria-label="Close">×</button>
-    <div class="cp-header">
-      <div class="cp-locus">${escape(locus)}</div>
-      <div class="cp-attrib">${escape(thinkerName)}${workTitle ? ` · <em>${escape(workTitle)}</em>` : ""}</div>
-    </div>
-    <div class="cp-block cp-pending">
-      <p><strong>Citation flagged.</strong> The Sanskrit passage referenced here was not located in the on-disk primary text by the most recent citation audit. The locus and attribution are preserved, but the passage text is withheld until verification.${note ? ` <em>${escape(note)}</em>` : ""}</p>
-    </div>
-  `;
-  positionPopover(pop, anchorEl);
-  wirePopoverDismiss(pop, anchorEl);
-}
-
-// Popover for secondary citations. Books that are not on disk in clean form;
-// surfaced as scholarly attestation, not as a defendable primary passage.
-function openSecondaryCitePopover(ref, anchorEl) {
-  document.querySelectorAll(".citation-popover, .glossary-popover, .gloss-scrim, .cite-scrim, .cite-secondary-popover").forEach((el) => el.remove());
-  const pop = document.createElement("div");
-  pop.className = "cite-secondary-popover";
-  const visible = anchorEl.textContent ? anchorEl.textContent.replace(/^\[|\]$/g, "") : ref;
-  pop.innerHTML = `
-    <button class="cp-close" aria-label="Close">×</button>
-    <div class="cp-header">
-      <div class="cp-locus">Secondary source</div>
-      <div class="cp-attrib">${escape(visible)}</div>
-    </div>
-    <div class="cp-block cp-pending">
-      <p>Cited as scholarly attestation. The passage is not on disk in clean primary-text form, so the Citation tab does not open here. Read the bracketed reference as a footnote to the academic literature.</p>
-    </div>
-  `;
-  positionPopover(pop, anchorEl);
-  wirePopoverDismiss(pop, anchorEl);
-}
-
-function positionPopover(pop, anchorEl) {
-  const isMobile = window.matchMedia("(max-width: 720px)").matches;
-  if (isMobile) {
-    const scrim = document.createElement("div");
-    scrim.className = "cite-scrim";
-    document.body.appendChild(scrim);
-    document.body.appendChild(pop);
-    scrim.addEventListener("click", () => { pop.remove(); scrim.remove(); });
-    pop._scrim = scrim;
-  } else {
-    document.body.appendChild(pop);
-    const r = anchorEl.getBoundingClientRect();
-    pop.style.position = "fixed";
-    const popH = pop.offsetHeight || 240;
-    const placeBelow = (r.bottom + popH + 8) < window.innerHeight;
-    pop.style.top = (placeBelow ? r.bottom + 8 : Math.max(10, r.top - popH - 8)) + "px";
-    pop.style.left = Math.max(10, Math.min(r.left, window.innerWidth - 460)) + "px";
-  }
-}
-
-function wirePopoverDismiss(pop, anchorEl) {
-  const close = () => {
-    pop.remove();
-    if (pop._scrim) pop._scrim.remove();
-    document.removeEventListener("click", outside);
-    document.removeEventListener("keydown", esc);
-  };
-  const outside = (e) => {
-    if (!pop.contains(e.target) && e.target !== anchorEl && !anchorEl.contains(e.target)) close();
-  };
-  const esc = (e) => { if (e.key === "Escape") close(); };
-  pop.querySelector(".cp-close").addEventListener("click", close);
-  setTimeout(() => document.addEventListener("click", outside), 0);
-  document.addEventListener("keydown", esc);
-}
-
 // ---------- markdown helpers -----------
 function escape(s) {
   if (s == null) return "";
@@ -2221,17 +2316,7 @@ function md(s) {
     /\[([^\]]+?)\]\(cite:\/\/([^)\n]+)\)/g,
     (_m, visible, key) => {
       const i = citeStash.length;
-      citeStash.push({ kind: "cite", visible, key });
-      return `CITE${i}`;
-    },
-  );
-  // Secondary citations: [Author Year](secondary://author-year-pN) — book
-  // references not on disk; rendered as a small bracketed inline marker.
-  out = out.replace(
-    /\[([^\]]+?)\]\(secondary:\/\/([^)\n]+)\)/g,
-    (_m, visible, ref) => {
-      const i = citeStash.length;
-      citeStash.push({ kind: "secondary", visible, ref });
+      citeStash.push({ visible, key });
       return `CITE${i}`;
     },
   );
@@ -2245,9 +2330,6 @@ function md(s) {
   // had italics applied; the key is HTML-safe (no entities expected).
   out = out.replace(/CITE(\d+)/g, (_m, i) => {
     const c = citeStash[+i];
-    if (c.kind === "secondary") {
-      return `<a href="secondary://${c.ref}" class="cite-link">${c.visible}</a>`;
-    }
     return `<a href="cite://${c.key}" class="cite-link">${c.visible}</a>`;
   });
   return out;
@@ -2564,7 +2646,7 @@ async function openArticle(a) {
   }
   const text = await r.text();
   if (dpArticleBody) {
-    dpArticleBody.innerHTML = `<article>${numberCitations(renderMarkdownFull(text), { appendList: true })}</article>`;
+    dpArticleBody.innerHTML = `<article>${renderMarkdownFull(text)}</article>`;
     dpArticleBody.scrollTop = 0;
   }
   panelState.loaded.article = true;
@@ -2620,15 +2702,7 @@ function renderMarkdownFull(src) {
     /\[([^\]]+?)\]\(cite:\/\/([^)\n]+)\)/g,
     (_m, visible, key) => {
       const i = citeStash.length;
-      citeStash.push({ kind: "cite", visible, key });
-      return ` CITESTASH${i} `;
-    },
-  );
-  src = src.replace(
-    /\[([^\]]+?)\]\(secondary:\/\/([^)\n]+)\)/g,
-    (_m, visible, ref) => {
-      const i = citeStash.length;
-      citeStash.push({ kind: "secondary", visible, ref });
+      citeStash.push({ visible, key });
       return ` CITESTASH${i} `;
     },
   );
@@ -2663,9 +2737,6 @@ function renderMarkdownFull(src) {
   // Re-inflate citation + link placeholders.
   out = out.replace(/ CITESTASH(\d+) /g, (_m, i) => {
     const c = citeStash[+i];
-    if (c.kind === "secondary") {
-      return `<a href="secondary://${c.ref}" class="cite-link">${c.visible}</a>`;
-    }
     return `<a href="cite://${c.key}" class="cite-link">${c.visible}</a>`;
   });
   out = out.replace(/ LINKSTASH(\d+) /g, (_m, i) => {
