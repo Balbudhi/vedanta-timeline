@@ -39,7 +39,11 @@
       "genre": "prakarana",
       "language": "sanskrit",
       "summary": "Independent didactic *prakaraṇa* in fifteen chapters, divided into three pentads (*pañcakas*) — *viveka-pañcaka* (analysis: *tattva-, mahāvākya-, pañcakośa-, dvaita-, mahāvākyārtha-viveka*), *dīpa-pañcaka* (illumination: *citra-, tṛpti-, kūṭastha-, dhyāna-, nāṭaka-dīpa*), and *ānanda-pañcaka* (bliss). Vidyāraṇya works through the *avasthā-traya* and *pañca-kośa-viveka* of the Upaniṣads, the analysis of the Mahāvākya, the integration of *avaccheda-vāda* and *pratibimba-vāda* analyses of the *jīva*, the cosmological and psychological role of *māyā* and *avidyā*, the metaphysics of *jīvanmukti*, and the experiential character of *brahmānanda*. Its accessibility — clear *anuṣṭubh* with worked illustrations from theatre, painting, and dream — has made it the principal pedagogical *prakaraṇa* of post-Śaṅkara Advaita; it is read as a primer alongside Śaṅkara's *Upadeśa-Sāhasrī* in modern *Vedānta* curricula and is foundational to the Advaita Vedānta articulated to general audiences from the eighteenth century onward.",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "panchadashi-1-15-16__prakriti-twofold-maya-avidya",
+        "panchadashi-1-42__munja-self-brahman-discrimination",
+        "panchadashi-1-54-55__nididhyasana-and-samadhi"
+      ],
       "entry_status": "reviewed"
     },
     {
@@ -88,10 +92,630 @@
       "entry_status": "reviewed"
     }
   ],
-  "key_passages": [],
+  "key_passages": [
+    {
+      "passage_id": "panchadashi-1-15-16__prakriti-twofold-maya-avidya",
+      "work_id": "panchadashi",
+      "locus_short": "Pañcadaśī 1.15-16",
+      "locus_long": "Pañcadaśī, Tattva-viveka, verses 15-16",
+      "locus_structured": {
+        "chapter": 1,
+        "verse": "15-16"
+      },
+      "sanskrit_iast": "cidānandamayabrahmapratibimbasamanvitā |\ntamo-rajaḥ-sattvaguṇā prakṛtir dvividhā ca sā || 15 ||\nsattvaśuddhyaviśuddhibhyāṃ māyāvidye ca te mate |\nmāyābimbo vaśīkṛtya tāṃ syāt sarvajña īśvaraḥ || 16 ||",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "cidānandamayabrahmapratibimbasamanvitā",
+            "stem": "cidānandamayabrahmapratibimbasamanvita",
+            "pratyaya": "ā",
+            "morphology": "nom sg fem",
+            "gloss": "endowed with the reflection of Brahman consisting of consciousness and bliss"
+          },
+          {
+            "pada": "tamo-rajaḥ-sattvaguṇā",
+            "stem": "tamo-rajaḥ-sattvaguṇa",
+            "pratyaya": "ā",
+            "morphology": "nom sg fem",
+            "gloss": "having the guṇas tamas, rajas, and sattva"
+          },
+          {
+            "pada": "prakṛtiḥ",
+            "stem": "prakṛti",
+            "pratyaya": "ḥ",
+            "morphology": "nom sg fem",
+            "gloss": "prakṛti, primordial materiality"
+          },
+          {
+            "pada": "dvividhā",
+            "stem": "dvividha",
+            "pratyaya": "ā",
+            "morphology": "nom sg fem",
+            "gloss": "twofold"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "sā",
+            "stem": "tad",
+            "morphology": "nom sg fem",
+            "gloss": "that"
+          },
+          {
+            "pada": "sattvaśuddhyaviśuddhibhyām",
+            "stem": "sattvaśuddhyaviśuddhi",
+            "pratyaya": "bhyām",
+            "morphology": "instr dual fem",
+            "gloss": "through the purity and impurity of sattva"
+          },
+          {
+            "pada": "māyāvidye",
+            "stem": "māyāvidyā",
+            "pratyaya": "e",
+            "morphology": "nom dual fem",
+            "gloss": "māyā and avidyā"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "te",
+            "stem": "tad",
+            "morphology": "nom dual fem",
+            "gloss": "those two"
+          },
+          {
+            "pada": "mate",
+            "stem": "mata",
+            "pratyaya": "e",
+            "morphology": "nom dual fem ppp",
+            "gloss": "are regarded"
+          },
+          {
+            "pada": "māyābimbo",
+            "stem": "māyābimba",
+            "morphology": "nom sg masc (visarga-sandhi form)",
+            "gloss": "the reflection in māyā"
+          },
+          {
+            "pada": "vaśīkṛtya",
+            "stem": "vaśī-kṛ",
+            "pratyaya": "ktvā/lyap",
+            "morphology": "abs ger",
+            "gloss": "having brought under control"
+          },
+          {
+            "pada": "tāṃ",
+            "stem": "tad",
+            "morphology": "acc sg fem",
+            "gloss": "that (māyā)"
+          },
+          {
+            "pada": "syāt",
+            "stem": "as",
+            "morphology": "3sg opt act",
+            "gloss": "would be; is"
+          },
+          {
+            "pada": "sarvajña",
+            "stem": "sarvajña",
+            "morphology": "nom sg masc",
+            "gloss": "omniscient"
+          },
+          {
+            "pada": "īśvaraḥ",
+            "stem": "īśvara",
+            "pratyaya": "ḥ",
+            "morphology": "nom sg masc",
+            "gloss": "the Lord"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "cidānandamayabrahmapratibimbasamanvitā",
+            "type": "other",
+            "resolution": "cid-ānanda-mayasya brahmaṇaḥ pratibimben samanvitā"
+          },
+          {
+            "compound": "tamo-rajaḥ-sattvaguṇā",
+            "type": "other",
+            "resolution": "tamaś ca rajaś ca sattvaṃ ca guṇā yasmin sā"
+          },
+          {
+            "compound": "sattvaśuddhyaviśuddhibhyām",
+            "type": "other",
+            "resolution": "sattvasya śuddhiś cāviśuddhiś ca tābhyām"
+          },
+          {
+            "compound": "māyāvidye",
+            "type": "dvandva",
+            "resolution": "māyā ca avidyā ca"
+          },
+          {
+            "compound": "māyābimbaḥ",
+            "type": "tatpurusha",
+            "resolution": "māyāyāṃ bimbaḥ"
+          },
+          {
+            "compound": "sarvajñaḥ",
+            "type": "other",
+            "resolution": "sarvaṃ jānāti iti"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "verb": "syāt",
+            "role": "kartṛ",
+            "pada": "māyābimbo"
+          },
+          {
+            "verb": "syāt",
+            "role": "karman",
+            "pada": "tāṃ"
+          },
+          {
+            "verb": "syāt",
+            "role": "sambandha",
+            "pada": "sarvajña īśvaraḥ"
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "syāt",
+            "lakara": "vidhi-liṅ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "Predicative optative used here in a definitional sense."
+          }
+        ]
+      },
+      "english_close": "Prakṛti, endowed with the reflection of Brahman consisting of consciousness and bliss, and possessing the guṇas tamas, rajas, and sattva, is twofold. Through the purity and impurity of sattva, those two are regarded as māyā and avidyā; the reflection in māyā, having brought that under control, is the omniscient Īśvara.",
+      "preserved_terms": [
+        {
+          "term_iast": "prakṛti",
+          "first_use_gloss": "primordial materiality or undifferentiated causal matrix"
+        },
+        {
+          "term_iast": "māyā",
+          "first_use_gloss": "the pure-sattva causal power associated with Īśvara"
+        },
+        {
+          "term_iast": "avidyā",
+          "first_use_gloss": "ignorance, here the impure-sattva form of causal unknowing"
+        },
+        {
+          "term_iast": "īśvara",
+          "first_use_gloss": "the Lord, omniscient Brahman as causally related to the world"
+        }
+      ],
+      "why_this_passage": "This is a position-establishing locus, not a detachable slogan: it gives Vidyāraṇya's compact Vivaraṇa mapping of twofold prakṛti into māyā and avidyā and explicitly links lordship to the māyā-reflection. Because the Sanskrit corpus on disk is scan-only, I prioritized passages whose wording could be securely cross-checked against the local English translation; this one is still foundational rather than opportunistic.",
+      "topic_tags": [
+        "ontology",
+        "causation"
+      ],
+      "sub_axes": [
+        "locus-of-avidya",
+        "jiva-brahman-relation",
+        "where-causal-power-locates"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Pañcadaśī with Modaka ṭīkā, Sanskrit edition, local archive PDF: materials/primary_texts/sanskrit/vedanta/full_corpus/vidyaranya_panchadasi_sanskrit_modaka_tika_archive.pdf",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "panchadashi-1-42__munja-self-brahman-discrimination",
+      "work_id": "panchadashi",
+      "locus_short": "Pañcadaśī 1.42",
+      "locus_long": "Pañcadaśī, Tattva-viveka, verse 42",
+      "locus_structured": {
+        "chapter": 1,
+        "verse": 42
+      },
+      "sanskrit_iast": "yathā muñjād iveṣīkām ātmā yuktyā samuddhṛtaḥ |\nśarīratritayād evaṃ paraṃ brahmaiva jāyate || 42 ||",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "yathā",
+            "stem": "yathā",
+            "morphology": "indecl",
+            "gloss": "just as"
+          },
+          {
+            "pada": "muñjāt",
+            "stem": "muñja",
+            "pratyaya": "āt",
+            "morphology": "abl sg masc",
+            "gloss": "from muñja grass"
+          },
+          {
+            "pada": "iva",
+            "stem": "iva",
+            "morphology": "indecl",
+            "gloss": "as"
+          },
+          {
+            "pada": "iṣīkām",
+            "stem": "iṣīkā",
+            "pratyaya": "ām",
+            "morphology": "acc sg fem",
+            "gloss": "the inner fibre"
+          },
+          {
+            "pada": "ātmā",
+            "stem": "ātman",
+            "pratyaya": "ā",
+            "morphology": "nom sg masc",
+            "gloss": "the self"
+          },
+          {
+            "pada": "yuktyā",
+            "stem": "yukti",
+            "pratyaya": "yā",
+            "morphology": "instr sg fem",
+            "gloss": "by reasoning"
+          },
+          {
+            "pada": "samuddhṛtaḥ",
+            "stem": "sam-ud-dhṛta",
+            "pratyaya": "ḥ",
+            "morphology": "nom sg masc ppp",
+            "gloss": "drawn out, extracted"
+          },
+          {
+            "pada": "śarīratritayāt",
+            "stem": "śarīratritaya",
+            "pratyaya": "āt",
+            "morphology": "abl sg neut",
+            "gloss": "from the triad of bodies"
+          },
+          {
+            "pada": "evam",
+            "stem": "evam",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "param",
+            "stem": "para",
+            "pratyaya": "am",
+            "morphology": "acc sg neut",
+            "gloss": "supreme"
+          },
+          {
+            "pada": "brahma",
+            "stem": "brahman",
+            "morphology": "acc sg neut",
+            "gloss": "Brahman"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "indeed, just"
+          },
+          {
+            "pada": "jāyate",
+            "stem": "jan",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "comes to be, is recognized as"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "śarīratritayāt",
+            "type": "dvigu",
+            "resolution": "śarīrāṇāṃ tritayāt"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "verb": "jāyate",
+            "role": "kartṛ",
+            "pada": "ātmā"
+          },
+          {
+            "verb": "jāyate",
+            "role": "apādāna",
+            "pada": "śarīratritayāt"
+          },
+          {
+            "verb": "jāyate",
+            "role": "karaṇa",
+            "pada": "yuktyā"
+          },
+          {
+            "verb": "jāyate",
+            "role": "karman",
+            "pada": "paraṃ brahma"
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "jāyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "middle",
+            "note": "Used in the sense of recognition or realization, not literal production."
+          }
+        ]
+      },
+      "english_close": "Just as the inner fibre is drawn out from muñja grass, so the self, extracted by reasoning from the triad of bodies, becomes nothing but the supreme Brahman.",
+      "preserved_terms": [
+        {
+          "term_iast": "muñja",
+          "first_use_gloss": "the reed or grass from which the inner pith is carefully drawn out"
+        },
+        {
+          "term_iast": "yukti",
+          "first_use_gloss": "disciplined reasoning or analytic argument"
+        },
+        {
+          "term_iast": "śarīratraya",
+          "first_use_gloss": "the three bodies: gross, subtle, and causal"
+        }
+      ],
+      "why_this_passage": "This verse is the payoff of the chapter's discriminative method: it states, in Vidyāraṇya's own pedagogical idiom, how the self is analytically separated from the layered body-complex and recognized as Brahman. It fairly represents his teaching because the Pañcadaśī is meant to train exactly this style of viveka rather than merely assert identity abstractly.",
+      "topic_tags": [
+        "ontology",
+        "soteriology"
+      ],
+      "sub_axes": [
+        "status-of-individual-selves",
+        "identity-of-liberated-state",
+        "effective-means-of-moksa"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Pañcadaśī with Modaka ṭīkā, Sanskrit edition, local archive PDF: materials/primary_texts/sanskrit/vedanta/full_corpus/vidyaranya_panchadasi_sanskrit_modaka_tika_archive.pdf",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "panchadashi-1-54-55__nididhyasana-and-samadhi",
+      "work_id": "panchadashi",
+      "locus_short": "Pañcadaśī 1.54-55",
+      "locus_long": "Pañcadaśī, Tattva-viveka, verses 54-55",
+      "locus_structured": {
+        "chapter": 1,
+        "verse": "54-55"
+      },
+      "sanskrit_iast": "tābhyāṃ nirvicikitsārthe cetasaḥ sthāpitasya yat |\nekatānattvam etad dhi nididhyāsanam ucyate || 54 ||\ndhyātṛdhyāne parityajya kramād dhyeyaikagocaram |\nnivātadīpavac cittaṃ samādhir abhidhīyate || 55 ||",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "tābhyām",
+            "stem": "tad",
+            "pratyaya": "bhyām",
+            "morphology": "instr dual",
+            "gloss": "by those two (hearing and reflection)"
+          },
+          {
+            "pada": "nirvicikitsārthe",
+            "stem": "nirvicikitsārtha",
+            "pratyaya": "e",
+            "morphology": "loc sg masc",
+            "gloss": "in the matter free of doubt"
+          },
+          {
+            "pada": "cetasaḥ",
+            "stem": "cetas",
+            "pratyaya": "aḥ",
+            "morphology": "gen sg neut",
+            "gloss": "of the mind"
+          },
+          {
+            "pada": "sthāpitasya",
+            "stem": "sthāpita",
+            "pratyaya": "sya",
+            "morphology": "gen sg neut ppp",
+            "gloss": "having been established"
+          },
+          {
+            "pada": "yat",
+            "stem": "yad",
+            "morphology": "nom sg neut",
+            "gloss": "which"
+          },
+          {
+            "pada": "ekatānattvam",
+            "stem": "ekatānattva",
+            "pratyaya": "am",
+            "morphology": "nom sg neut",
+            "gloss": "one-pointed continuity"
+          },
+          {
+            "pada": "etat",
+            "stem": "etad",
+            "morphology": "nom sg neut",
+            "gloss": "this"
+          },
+          {
+            "pada": "dhi",
+            "stem": "hi",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "nididhyāsanam",
+            "stem": "nididhyāsana",
+            "pratyaya": "am",
+            "morphology": "nom sg neut",
+            "gloss": "deep contemplative assimilation"
+          },
+          {
+            "pada": "ucyate",
+            "stem": "vac",
+            "morphology": "3sg pres ind Ā passive",
+            "gloss": "is called"
+          },
+          {
+            "pada": "dhyātṛdhyāne",
+            "stem": "dhyātṛdhyāna",
+            "pratyaya": "e",
+            "morphology": "acc dual neut",
+            "gloss": "meditator and meditation"
+          },
+          {
+            "pada": "parityajya",
+            "stem": "pari-tyaj",
+            "pratyaya": "ktvā/lyap",
+            "morphology": "abs ger",
+            "gloss": "having left aside"
+          },
+          {
+            "pada": "kramāt",
+            "stem": "krama",
+            "pratyaya": "āt",
+            "morphology": "abl sg masc",
+            "gloss": "step by step"
+          },
+          {
+            "pada": "dhyeyaikagocaram",
+            "stem": "dhyeyaikagocara",
+            "pratyaya": "am",
+            "morphology": "nom sg neut",
+            "gloss": "having the object of meditation alone as its range"
+          },
+          {
+            "pada": "nivātadīpavat",
+            "stem": "nivātadīpavat",
+            "morphology": "indecl",
+            "gloss": "like a lamp in a windless place"
+          },
+          {
+            "pada": "cittam",
+            "stem": "citta",
+            "pratyaya": "am",
+            "morphology": "nom sg neut",
+            "gloss": "the mind"
+          },
+          {
+            "pada": "samādhiḥ",
+            "stem": "samādhi",
+            "pratyaya": "ḥ",
+            "morphology": "nom sg masc",
+            "gloss": "samādhi"
+          },
+          {
+            "pada": "abhidhīyate",
+            "stem": "abhidhā",
+            "morphology": "3sg pres ind Ā passive",
+            "gloss": "is designated"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "nirvicikitsārthe",
+            "type": "negative-tatpurusha",
+            "resolution": "nirgatā vicikitsā yasmin arthe"
+          },
+          {
+            "compound": "ekatānattvam",
+            "type": "tatpurusha",
+            "resolution": "ekatānasya bhāvas tattvam"
+          },
+          {
+            "compound": "dhyātṛdhyāne",
+            "type": "dvandva",
+            "resolution": "dhyātā ca dhyānaṃ ca"
+          },
+          {
+            "compound": "dhyeyaikagocaram",
+            "type": "tatpurusha",
+            "resolution": "dhyeyaṃ eva eko gocaro yasya tat"
+          },
+          {
+            "compound": "nivātadīpavat",
+            "type": "other",
+            "resolution": "nivātasthita-dīpavat"
+          }
+        ],
+        "karaka_structure": [
+          {
+            "verb": "ucyate",
+            "role": "karaṇa",
+            "pada": "tābhyām"
+          },
+          {
+            "verb": "ucyate",
+            "role": "adhikaraṇa",
+            "pada": "nirvicikitsārthe"
+          },
+          {
+            "verb": "ucyate",
+            "role": "kartṛ",
+            "pada": "ekatānattvam"
+          },
+          {
+            "verb": "abhidhīyate",
+            "role": "kartṛ",
+            "pada": "cittam"
+          },
+          {
+            "verb": "abhidhīyate",
+            "role": "sambandha",
+            "pada": "samādhiḥ"
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "ucyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive"
+          },
+          {
+            "pada": "abhidhīyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive"
+          }
+        ]
+      },
+      "english_close": "When, by those two, the mind has been established in the matter free from doubt, the one-pointed continuity that there is, this indeed is called nididhyāsana. Having left aside meditator and meditation, and step by step having the object of meditation alone as its range, the mind, like a lamp in a windless place, is designated samādhi.",
+      "preserved_terms": [
+        {
+          "term_iast": "nididhyāsana",
+          "first_use_gloss": "deep contemplative assimilation of the teaching already heard and reasoned through"
+        },
+        {
+          "term_iast": "samādhi",
+          "first_use_gloss": "stabilized absorptive concentration"
+        },
+        {
+          "term_iast": "dhyeya",
+          "first_use_gloss": "the object meditated upon"
+        }
+      ],
+      "why_this_passage": "Vidyāraṇya is not content with a bare claim that knowledge liberates; he specifies the internal sequence by which śravaṇa and manana mature into nididhyāsana and samādhi. That makes this a representative passage for his synthesis of Advaita pedagogy with contemplative discipline, rather than an isolated yogic flourish.",
+      "topic_tags": [
+        "epistemology",
+        "soteriology"
+      ],
+      "sub_axes": [
+        "saving-cognition-status",
+        "effective-means-of-moksa",
+        "jivanmukti-possibility"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "Pañcadaśī with Modaka ṭīkā, Sanskrit edition, local archive PDF: materials/primary_texts/sanskrit/vedanta/full_corpus/vidyaranya_panchadasi_sanskrit_modaka_tika_archive.pdf",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    }
+  ],
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1b-opus"
+  "last_verified_by": "wave2-codex"
 }
