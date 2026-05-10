@@ -25,6 +25,7 @@
       "ascription_notes": "Traditionally ascribed; the hymn is universally received in the Advaita maṭha tradition though independent academic verification is limited.",
       "genre": "stotra",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "A short *stotra* of twelve verses (*Hastāmalaka-Stotra*); some recensions add a *phala-śruti*. Tradition frames the hymn with a narrative: the boy Hastāmalaka, asked by Śaṅkara *ko bhavān* (\"who are you?\"), responds in spontaneous verse, identifying himself not with the body-mind but with the witness-consciousness *ātman* (so the hagiography in the *Mādhavīya-Śaṅkara-Vijaya* ch. 12; the question-and-answer frame is also presupposed in the hymn's opening verse). Each verse follows one structural pattern. It begins by describing mental and bodily activities — the operations of *manas*, *buddhi*, *indriyas*, the alternation of *jāgrat*, *svapna*, *suṣupti*, the cycle of *karma* — and closes with a refrain affirming the speaker's identity with the unchanging self-luminous *ātman* who illuminates all of these without being any of them (*Hastāmalaka-Stotra* vv. 2–11, with the refrain *nityopalabdhi-svarūpo 'ham ātmā* recurring). The hymn is recited liturgically in Advaita *maṭha* contexts and stands in the standard *prakaraṇa* corpus alongside short Śaṅkara-ascribed *stotras* such as the *Daśa-Ślokī* and *Nirvāṇa-Ṣaṭka* (Mahadevan, *Hymns of Śaṅkara*, 1970). Ascription is traditional. The hymn is universally received in the Advaita *maṭha* tradition; independent academic verification is limited, and the historical Hastāmalaka cannot be securely identified beyond the tradition's claim (Hacker, \"Notes on the *Mādhavīya-Śaṅkara-Vijaya*\", 1947; Mahadevan, *Hymns of Śaṅkara*, 1970, intro.).",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -34,6 +35,6 @@
   "comparative_claim_ids": [],
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus"
 }

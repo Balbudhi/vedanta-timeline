@@ -47,6 +47,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "A Sanskrit commentary on the *Vivekacūḍāmaṇi*, the verse-treatise traditionally ascribed to Śaṅkara and treated as authoritative within the Sringeri curriculum. The commentary is the principal modern Sringeri reading and articulates the Advaita of the school in the early twentieth century, drawing on both Vivaraṇa and Bhāmatī sub-lines. The treatment of *adhyāsa* — the *jīva*'s superimposition on *Brahman* — is built on the *adhyāsa-bhāṣya* prefacing BSB 1.1.1 (*Vivekacūḍāmaṇi-Bhāṣya* on *VC* vv. 109–139, with explicit cross-reference to the *adhyāsa-bhāṣya*); *māyā* is treated as the *upādhi* of *Īśvara* in the Vivaraṇa manner (*VCB* on *VC* vv. 108–110, 197 *māyā-prakaraṇa*); *jñāna-niṣṭhā* is the operative *sādhana*, with *karma* and *upāsanā* as preparatory (*VCB* on *VC* vv. 56–58 on *brahma-jñāna* and *mokṣa*; cf. *VC* vv. 31–47 *sādhana-catuṣṭaya*). The doctrinal substance is conservative and continuous with the Sringeri curriculum; the work's significance is the documentary record of how the school reads its school-ascribed canon at the modern living-tradition terminus.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -66,6 +67,7 @@
       ],
       "genre": "stotra",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "A garland of thirty-six short Sanskrit compositions running to roughly four hundred pages in the standard edition (Sringeri publication colophon). The compositions are doctrinal-poetic in register — *stotra* and *prakaraṇa* elements together — and record Candraśekhara Bhāratī's *upadeśa* to disciples. Each composition takes one doctrinal or *sādhana* topic and treats it in a single sustained Sanskrit movement: *adhyāsa* (*Gururāja-Sūkti-Mālikā*, *adhyāsa-sūkti*), *brahma-jñāna* (*brahma-jñāna-sūkti*), the *guru*-relation (*guru-sūkti*), *jīvanmukti* (*jīvanmukti-sūkti*), the qualifications for *sannyāsa* (*sannyāsa-sūkti*). The work is the principal documentary record of the Jagadguru's pedagogical voice and is read within the Sringeri tradition as the modern complement to the *Upadeśa-Sāhasrī* (Śaṅkara, *Upadeśa-Sāhasrī*, *padya* and *gadya* portions) on the *upadeśa* side.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -85,6 +87,7 @@
       ],
       "genre": "dialogue",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Transcribed oral *upadeśa* delivered by Candraśekhara Bhāratī to disciples and visiting scholars during his tenure as Jagadguru of Sringeri 1912–1954 (Sringeri publication tradition; *Dialogues with the Guru* compilations). The discourses cover the school's standard pedagogical topics — *adhyāsa* (cf. Śaṅkara, *adhyāsa-bhāṣya* prefacing BSB 1.1.1), *māyā* (cf. *BSB* 2.1.14), *jñāna-niṣṭhā* (cf. *BSB* 1.1.4 *tat tu samanvayāt*), the path of *sannyāsa* (cf. Śaṅkara, *Upadeśa-Sāhasrī* *padya* 17), the qualifications for *brahma-jijñāsā* (cf. *BSB* 1.1.1 *sādhana-catuṣṭaya* discussion), the relation between *upāsanā* and *jñāna* (cf. *BSB* 1.1.4 and 4.1.1ff. *āvṛtti-adhikaraṇa*) — in a register accessible to disciples without full pāṭhaśālā Sanskrit training. The doctrinal substance is in continuity with the *Vivekacūḍāmaṇi-Bhāṣya* and the *Gururāja-Sūkti-Mālikā*; the work matters principally as documentary evidence of the embodied living-tradition pedagogy at the Sringeri terminus of the Advaita line.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -94,6 +97,6 @@
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-corpus-v2-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-editorializing-audit-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus"
 }

@@ -37,6 +37,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The school's canonical sub-commentary (*vyākhyā*) on the *Śrī-Bhāṣya*, traditionally composed at Rāmānuja's own request. Its authority is such that Vedānta Deśika's *Tātparya-Candrikā* takes the *Śruta-Prakāśikā* as its base text, glossing it rather than the *Śrī-Bhāṣya* directly — a sign of how thoroughly the school sees Rāmānuja through Sudarśana's lens. The work fixes the school's reading at every contested passage of the *Mahā-Siddhānta* on *sūtra* 1.1.1. The *Mahā-Pūrvapakṣa*'s statement of Advaita is delimited so that the strongest concessions are clearly marked; each step of the *sapta-vidhānupapatti* is given its precise dialectical force (*Śruta-Prakāśikā* on *Śrī-Bhāṣya* 1.1.1, *Mahā-Siddhānta*), including the Advaitin counter-moves Rāmānuja leaves implicit. The *sāmānādhikaraṇya* of *tat tvam asi* is fixed on the body-soul model (*Śruta-Prakāśikā* on *Śrī-Bhāṣya* 1.1.1; on 1.4.22), against numerical identity, *aupādhika* difference, and *bhedābheda* readings. The doctrine of *dharmi-bhūta-jñāna* implicit in Rāmānuja's epistemology is made explicit (*Śruta-Prakāśikā* on *Śrī-Bhāṣya* 1.1.1 and 2.3.18, on the *jīva* as *jñātṛ*). The *adhikaraṇa*-divisions are stabilised, and the unnamed *pūrvapakṣa*-positions Rāmānuja is targeting at condensed points are identified (e.g., *Śruta-Prakāśikā* on *Śrī-Bhāṣya* 2.2.1–32, identifying the rival darśanas refuted). The work matters because every subsequent Viśiṣṭādvaita engagement with the *Brahma-Sūtra* — Vaḍakalai and Tenkalai alike — operates through the *Śruta-Prakāśikā*'s settlements.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -46,6 +47,6 @@
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-batch6-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus"
 }

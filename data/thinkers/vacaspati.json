@@ -62,6 +62,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "clean-on-disk",
       "summary": "Sub-commentary (*ṭīkā*) on Śaṅkara's *Brahma-Sūtra-Bhāṣya*, named after Vāchaspati's wife and tracking the four *adhyāyas* of the *Sūtras*; the long *upodghāta* on the *adhyāsa-bhāṣya* is the locus classicus for the *Bhāmatī* analysis of superimposition. The doctrinal commitments of an entire sub-school are made here. Avidyā is located in the *jīva*, not in Brahman; the standard *Bhāmatī* warrant is the analysis at BSB 1.4.3 and 4.1.3, where the asymmetry between cosmic *māyā* (Īśvara's *upādhi*) and individual avidyā (the *jīva*'s) is pressed into a doctrinal distinction. *Jñāna-karma-samuccaya* is admitted in the qualified sense that *karma* produces the *cittaśuddhi* without which *śravaṇa* will not yield *aparokṣa-jñāna*; *manana* and *nididhyāsana* are read as *prasaṅkhyāna*-style cultivations whose end is the rise of immediate intuitive knowledge from the Mahāvākya. The text spawns the principal *Bhāmatī*-line apparatus — Amalānanda's *Kalpataru*, Appayya Dīkṣita's *Parimala* — and provides the position against which Prakāśātman's *Vivaraṇa* defines itself.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -84,6 +85,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Sub-commentary on the *Yoga-Sūtra*–*Vyāsa-Bhāṣya* complex; for several centuries the standard pre-modern *ṭīkā* on Patañjali through Vyāsa. Vāchaspati fixes the philosophical reading of the disputed *sūtras*: the analysis of *citta-vṛtti-nirodha* (*Tattva-Vaiśāradī* on *Yoga-Sūtra* 1.2), the structure of *samādhi* (*Tattva-Vaiśāradī* on *Yoga-Sūtra* 1.17–22, 1.41–51), the architecture of the eight *aṅgas* (*Tattva-Vaiśāradī* on *Yoga-Sūtra* 2.29–55), the *kaivalya*-doctrine of the fourth *pāda* (*Tattva-Vaiśāradī* on *Yoga-Sūtra* 4.32–34). He defends the twenty-five-*tattva* Sāṃkhya-Yoga ontology of *puruṣa* and *prakṛti* (*Tattva-Vaiśāradī* on *Yoga-Sūtra* 2.18–22). He also clarifies the precise sense in which the *Yoga* school's theism — *īśvara* as a special *puruṣa* untouched by *kleśa-karma-vipāka-āśaya* (*Yoga-Sūtra* 1.24) — differs from both atheistic Sāṃkhya and the cosmologically creative *Īśvara* of theistic Vedānta (*Tattva-Vaiśāradī* on *Yoga-Sūtra* 1.23–29). For Vāchaspati's standing the work matters as evidence of range. The same author who wrote the *Bhāmatī* on Śaṅkara's *Brahma-Sūtra-Bhāṣya* commanded the technical idiom of an opposed *darśana*; the *Tattva-Vaiśāradī* exhibits the cross-school competence on which his Advaita rulings later draw. Bhojadeva's *Rāja-Mārtaṇḍa* and Vijñānabhikṣu's *Yoga-Vārttika* both engage the *Vaiśāradī* as standard reference.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -106,6 +108,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Sub-commentary on Uddyotakara's *Nyāya-Vārttika*, which is itself a commentary on Vātsyāyana's *Nyāya-Bhāṣya* on the *Nyāya-Sūtras*. The *Tātparya-Ṭīkā* fixes the standard medieval reading of the entire *Nyāya-Sūtra* commentarial stack and is foundational to later Naiyāyika scholasticism. Udayana's *Tātparya-Pariśuddhi* takes it as direct base; the Navya-Nyāya tradition reads the *Sūtras* through Vāchaspati's interpretation. Major doctrinal contributions: the treatment of *pramāṇa-svarūpa* and *prāmāṇya-vāda* (*Tātparya-Ṭīkā* on *Nyāya-Sūtra* 1.1.1–8 and 2.1.8–20); the analysis of *vyāpti* and the *hetv-ābhāsa* classification (*Tātparya-Ṭīkā* on *Nyāya-Sūtra* 1.1.32–39 and 1.2.4–9); the defence of *paramāṇu*-atomism against Diṅnāga and Dharmakīrti (*Tātparya-Ṭīkā* on *Nyāya-Sūtra* 4.2.4–17); the analysis of *śabda-pramāṇa* in dialogue with Mīmāṃsā (*Tātparya-Ṭīkā* on *Nyāya-Sūtra* 2.1.49–68). For Vāchaspati's authority within Vedānta the work matters because the Naiyāyika opponent the *Bhāmatī* engages, and the Naiyāyika tradition the *Bhāmatī* must distinguish itself from, both run substantially through Vāchaspati's own *Tātparya-Ṭīkā*.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -115,8 +118,8 @@
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-editorializing-audit-opus",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus",
   "polemic_chain_ids": [
     "bhaskara-pracchanna-bauddha",
     "kumarila-mandana-jnana-karma-samuccaya",

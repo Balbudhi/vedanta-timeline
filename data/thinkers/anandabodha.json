@@ -35,6 +35,7 @@
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Compact polemical *prakaraṇa* whose title — 'flower-cluster (*makaranda*) of reasoned argument (*nyāya*)' — announces the method. The Advaita theses are established by formal inference. Ānandabodha defends the *svayaṃ-prakāśatva* of Brahman / *ātman* (*Nyāya-Makaranda*, *svayaṃ-prakāśatva-prakaraṇa*); refutes the Nyāya position that cognition is known by a further inference (*jñāna-jñāne anumeyatva*); establishes *anirvacanīya-mithyātva* by the *dṛśyatvānumāna* (*mithyātva-prakaraṇa*), on the standard analogy of the silver superimposed on shell (*śukti-rajata*); and refutes *bheda*, real difference, as itself analytically indeterminable (*bheda-khaṇḍana-prakaraṇa*). The treatise is one of the principal sources for Citsukha's *Tattva-Pradīpikā* (notably *Tattva-Pradīpikā* prathama-paricheda) and for the inferential machinery of Madhusūdana's *Advaita-Siddhi* prathama-paricheda. It matters as the first Advaita work argued primarily in the technical idiom of *pramāṇa-vāda* rather than by exegesis of *śruti*.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -54,6 +55,7 @@
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Treatise — 'garland (*mālā*) of the *pramāṇas*' — that examines and accepts the six *pramāṇas* of the Bhāṭṭa Mīmāṃsā (*pratyakṣa, anumāna, upamāna, śabda, arthāpatti, anupalabdhi*) for transactional purposes, while subordinating them all to *śabda* in the form of the Mahāvākya as the unique *brahma-pramāṇa* (*Pramāṇa-Mālā*, *śabda-pramāṇa-prakaraṇa*). The expository contribution is the careful demarcation of the architecture later canonised by Dharmarāja's *Vedānta-Paribhāṣā* (especially *Vedānta-Paribhāṣā* 1, *pratyakṣa-paricheda*, and 4, *śabda-paricheda*). Each *pramāṇa* is *vyāvahārika*, valid until *bādha*. Only *śabda* qua Mahāvākya generates the *akhaṇḍākāra-vṛtti* whose function is to remove avidyā. The work also extends the *mithyātva-anumānas* of the *Nyāya-Makaranda* and supplies refinements that recur in Citsukha (*Tattva-Pradīpikā* dvitīya-paricheda) and Madhusūdana (*Advaita-Siddhi* prathama-paricheda).",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -73,6 +75,7 @@
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "'Row of lamps (*dīpāvalī*) of reasoned argument' — a polemical *prakaraṇa* in which Ānandabodha sharpens the inferential program of the *Nyāya-Makaranda* with explicit attention to opponents' counter-positions. The *dṛśyatva* and *jaḍatva* inferences for *mithyātva* are rehearsed and tightened (*Nyāya-Dīpāvalī*, *mithyātva-anumāna-prakaraṇa*). *Bhāva-rūpā-avidyā* is defended against the Naiyāyika view that ignorance is mere absence (*abhāva*) (*Nyāya-Dīpāvalī*, *avidyā-prakaraṇa*). The *svayaṃ-prakāśatva* inference for *cit* is refined (*svayaṃ-prakāśatva-prakaraṇa*). Standard objections — the regress of cognitions, the locus problem for avidyā, the apparent reality of *bheda* (*bheda-khaṇḍana-prakaraṇa*) — are worked through with formalised *anumāna*-structures. The work matters as a bridge text. Many of the *Advaita-Siddhi* prathama-paricheda's opening *anumānas* are recognisably refinements of the *Dīpāvalī* line, taken up first by Citsukha (*Tattva-Pradīpikā* prathama-paricheda) and then by Madhusūdana.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -82,8 +85,8 @@
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-batch6-opus",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus",
   "polemic_chain_ids": [
     "mayavada-khandana",
     "nyayamrta-arguments",
