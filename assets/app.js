@@ -2424,18 +2424,25 @@ async function openCitationPopover(key, anchorEl) {
   let bodyHtml;
   if (entry) {
     const locusDisplay = entry.locus || entry.locus_short || loc;
+    const isPending = entry.verified === "pending-acquisition";
+    const pendingBlock = isPending
+      ? `<div class="cp-block cp-pending"><span class="cp-label">Pending acquisition</span><p>${entry.pending_target_work
+          ? `<em>${escape(entry.pending_target_work)}</em>${entry.pending_target_thinker ? ` (${escape(entry.pending_target_thinker)})` : ""} is not yet on disk in clean form.`
+          : `The cited work is not yet on disk in clean form.`} The claim above relies on this work; its acquisition is queued at <code>parishishta/notes/USER_NEEDED.md</code>. The text shown below is the locus on which it comments, included as context — not itself the attestation.${entry.pending_acquisition_note || entry.verification_note ? ` <em>${escape(entry.pending_acquisition_note || entry.verification_note)}</em>` : ""}</p></div>`
+      : "";
     const sk = entry.sanskrit_iast
-      ? `<div class="cp-block cp-sanskrit"><span class="cp-label">Sanskrit (IAST)</span><div class="cp-sk">${escape(entry.sanskrit_iast).replace(/\n/g, "<br>")}</div></div>`
+      ? `<div class="cp-block cp-sanskrit"><span class="cp-label">${isPending ? "Sanskrit (IAST) — context" : "Sanskrit (IAST)"}</span><div class="cp-sk">${escape(entry.sanskrit_iast).replace(/\n/g, "<br>")}</div></div>`
       : "";
     const en = entry.english_close
-      ? `<div class="cp-block cp-english"><span class="cp-label">Close English</span><div class="cp-en">${md(entry.english_close)}</div></div>`
+      ? `<div class="cp-block cp-english"><span class="cp-label">${isPending ? "Close English — context" : "Close English"}</span><div class="cp-en">${md(entry.english_close)}</div></div>`
       : "";
     const openWork = `<button class="cp-open-thinker" data-thinker-id="${escape(tid)}">Open ${escape(thinkerName)} →</button>`;
     bodyHtml = `
       <div class="cp-header">
-        <div class="cp-locus">${escape(locusDisplay)}</div>
+        <div class="cp-locus">${escape(locusDisplay)}${isPending ? ` <span class="cp-pending-badge">Pending</span>` : ""}</div>
         <div class="cp-attrib">${escape(thinkerName)} · <em>${escape(workTitle)}</em></div>
       </div>
+      ${pendingBlock}
       ${sk}
       ${en}
       <div class="cp-actions">${openWork}</div>
@@ -2958,33 +2965,64 @@ function md(s) {
 }
 
 // Post-process rendered HTML: convert in-prose `<a class="cite-link" href="cite://…">…</a>`
-// into a paired superscript `<sup class="cite-fn">[N]</sup>` link. The inline
-// anchor text is preserved (so the reader still sees the locus inline); the
-// superscript follows immediately. The N counter is local to one call — pass
-// a shared counter object across multiple prose blocks for continuous
-// numbering across a section. Returns `{ html, footnotes }` so the caller can
-// choose where to render the footnote list (or skip it entirely).
+// into a bare superscript `<sup class="cite-fn">[N]</sup>` link. The inline
+// visible text is DROPPED — the locus information lives in the footnote list
+// at the end of the block and in the Citation tab popover, not duplicated
+// inline. This produces clean prose like "…against *avidyā*[1], including…"
+// rather than "…against *avidyā* (Śruta-Prakāśikā on Śrī-Bhāṣya 1.1.1)[1]…".
+//
+// If the same cite key recurs in one passage, the same number is reused
+// (cf. how scholarly footnotes treat repeated loci). The N counter is local
+// to one call — pass a shared counter object across multiple prose blocks
+// for continuous numbering across a section. Returns `{ html, footnotes }`
+// so the caller can choose where to render the footnote list.
+//
+// A small grammatical clean-up runs after substitution: when the dropped
+// visible text was wrapped in parentheses ("(see [Foo 1.1](cite://...))"),
+// the surrounding parens become orphans ("()") — we strip these, along with
+// dangling separators that bordered the dropped text.
 function numberCitations(html, counter) {
   if (!html) return { html: "", footnotes: [] };
   const ctr = counter || { n: 0 };
   const footnotes = [];
+  // Track keys already seen in this counter run so repeated cites reuse N.
+  const keyToIdx = new Map();
   // Match any `<a … class="cite-link" …>…</a>`. Attribute order is not fixed
   // (md() emits `href` first; renderMarkdownFull may emit the class first).
-  // We capture the whole attribute string then pull the href out of it so the
-  // matcher is order-independent.
-  const out = html.replace(
+  let out = html.replace(
     /<a\b([^>]*?\bclass="[^"]*\bcite-link\b[^"]*"[^>]*)>([\s\S]*?)<\/a>/g,
     (m, attrs, visible) => {
       const hrefMatch = /href="cite:\/\/([^"]+)"/.exec(attrs);
       if (!hrefMatch) return m;
       const key = hrefMatch[1];
-      ctr.n += 1;
-      const idx = ctr.n;
-      footnotes.push({ idx, key, visible });
-      return `<a${attrs}>${visible}</a>` +
-        `<sup class="cite-fn"><a href="cite://${key}" class="cite-fn-link" data-fn-idx="${idx}" aria-label="Footnote ${idx}">[${idx}]</a></sup>`;
+      let idx = keyToIdx.get(key);
+      if (idx == null) {
+        ctr.n += 1;
+        idx = ctr.n;
+        keyToIdx.set(key, idx);
+        footnotes.push({ idx, key, visible });
+      }
+      return `<sup class="cite-fn"><a href="cite://${key}" class="cite-fn-link" data-fn-idx="${idx}" aria-label="Footnote ${idx}">[${idx}]</a></sup>`;
     }
   );
+  // Cleanup: many existing prose passages wrapped the (now-empty) inline cite
+  // text in editorial parentheses, e.g. "(Śruta-Prakāśikā on [Śrī-Bhāṣya
+  // 1.1.1](cite://...), Mahā-Siddhānta)". After dropping the visible text we
+  // can be left with patterns like "( <sup>...</sup>, foo)" or "( <sup>...
+  // </sup>)". When what remains inside the parens is purely a run of
+  // superscript footnotes plus whitespace and short connective separators,
+  // collapse to the superscripts alone.
+  out = out.replace(
+    /\(\s*((?:(?:see\s+|cf\.\s*|,\s*|;\s*|and\s+)*<sup class="cite-fn">[\s\S]*?<\/sup>\s*)+)\)/g,
+    (_m, inner) => inner.trim(),
+  );
+  // Collapse orphan separators left adjacent to the superscripts.
+  out = out.replace(/\(\s*,\s*/g, "(");
+  out = out.replace(/,\s*\)/g, ")");
+  out = out.replace(/\(\s*\)/g, "");
+  // Tidy double spaces produced by the strip.
+  out = out.replace(/[ \t]{2,}/g, " ");
+  out = out.replace(/\s+([,.;:])/g, "$1");
   return { html: out, footnotes };
 }
 
