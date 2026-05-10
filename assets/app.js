@@ -151,9 +151,18 @@ const stage = document.getElementById("stage");
 const detailPane = document.getElementById("detailPane");
 const detailContent = document.getElementById("detailContent");
 const closeDetail = document.getElementById("closeDetail");
-const closeReader = document.getElementById("closeReader");
-const readerModal = document.getElementById("readerModal");
-const readerContent = document.getElementById("readerContent");
+// Unified panel: dp-* ids point at the five tab panes; the legacy
+// readerModal / articleReader DOM nodes were removed when those flows
+// migrated into the panel as tabs.
+const dpTabBar = detailPane && detailPane.querySelector(".dp-tabbar");
+const dpTranslationHead = document.getElementById("dpTranslationHead");
+const dpTranslationBody = document.getElementById("dpTranslationBody");
+const dpArticleHead = document.getElementById("dpArticleHead");
+const dpArticleBody = document.getElementById("dpArticleBody");
+const dpCitationBody = document.getElementById("dpCitationBody");
+const dpSourceSearch = document.getElementById("dpSourceSearch");
+const dpSourceTree = document.getElementById("dpSourceTree");
+const dpSourceViewer = document.getElementById("dpSourceViewer");
 const scroller = document.getElementById("timelineScroller");
 const canvas = document.getElementById("canvas");
 const dotsLayer = document.getElementById("timelineDots");
