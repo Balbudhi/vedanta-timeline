@@ -1,0 +1,32 @@
+{
+  "term_key": "samvrti-satya",
+  "term_iast": "saṃvṛti-satya",
+  "term_devanagari": "संवृतिसत्य",
+  "literal": "concealing-truth, conventional truth; from sam-vṛ 'to cover, conceal' + satya 'truth'",
+  "aliases": ["samvrti-satya", "saṃvṛti-satya", "Saṃvṛti-Satya", "saṃvṛti", "saṃvṛtitas"],
+  "invariant_definition": "*Saṃvṛti-satya* is the conventional-truth member of the Buddhist two-truths distinction (*saṃvṛti-satya* / *paramārtha-satya*) introduced at MMK 24.8–10. The term has a triple semantic root in Candrakīrti's analysis: *saṃvṛti* as 'concealing' (the conventional cognition conceals the ultimate absence of *svabhāva*), as 'mutually-dependent' (the conventional truth functions through the inter-dependent operations of conventional designation), and as 'world-acceptance' (*loka-vyavahāra* — what the world ordinarily takes to be the case). The structural homology with Advaita's *vyāvahārika* level is exact in form. The substantive disagreement turns on whether the conventional level is preserved by being grounded in a *svabhāva*-bearing ultimate (Advaita's *brahman*) or is preserved by simply being left intact as ordinary functioning discourse without ultimate metaphysical vindication (Mādhyamaka).",
+  "per_school": [
+    {
+      "school": "Mādhyamaka",
+      "definition": "*Saṃvṛti* is everyday conventional discourse, preserved unchanged by the Mādhyamaka analysis. The Mādhyamaka does not deny that fire burns, that pots hold water, or that the four noble truths and the saṅgha exist; the Mādhyamaka denies only that any of these can be given a *svabhāva*-realist construal. Candrakīrti's Prāsaṅgika reading treats *saṃvṛti* as functional but ultimately deceptive — *loka-prasiddha* conventional usage that the philosopher need not metaphysically vindicate. Bhāviveka's Svātantrika admits *svatantra-anumāna* at the *saṃvṛti* level for inter-school dialectical purposes.",
+      "primary_loci": ["Mūla-Madhyamaka-Kārikā 24.8–10", "Candrakīrti, Prasanna-Padā ad MMK 24.8 (the triple-etymology analysis)", "Candrakīrti, Madhyamakāvatāra 6.23–32"]
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "The Yogācāra two-tier scheme is partially distinct: the conventional level corresponds approximately to the *parikalpita* / *paratantra* couple in their unpurified form, while the *pariniṣpanna* corresponds to *paramārtha*. The 'conventional' is therefore itself decomposable into the imagined-and-non-existent *parikalpita* and the dependently-arisen *paratantra* substrate.",
+      "primary_loci": ["Vasubandhu, Triṃśikā 21–25", "Asaṅga, Mahāyāna-Saṅgraha 2"]
+    },
+    {
+      "school": "Advaita",
+      "definition": "*Vyāvahārika*-sat is the conventional level of phenomenal reality on which the manifold operates: *jagat-vyavahāra*, *jīva-bheda*, the operations of *karma* and *jñāna*. The structural parallel to *saṃvṛti* is exact: both are conventional levels preserved by analysis, neither denied nor metaphysically privileged. The substantive Advaitic claim is that the *vyāvahārika* is grounded in the *pāramārthika*-real *brahman* as *adhiṣṭhāna* and so is *anirvacanīya* (neither *sat* nor *asat*) rather than simply functional-without-ground. The *pracchanna-bauddha* charge against Śaṅkara turns on whether this substantive claim survives close examination.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.1.14 (vyāvahārika-pāramārthika introduction)", "Padmapāda, Pañca-Pādikā 1", "Madhusūdana, Advaita-Siddhi pratham-paricheda"]
+    },
+    {
+      "school": "Vaiṣṇava (Madhva)",
+      "definition": "Madhva rejects any *saṃvṛti* / *paramārtha* or *vyāvahārika* / *pāramārthika* distinction. Reality is single-tiered with *svatantra* / *paratantra* as the structuring distinction within that single tier. The two-truths apparatus is treated as a Buddhist import unsuited to the realist Vedāntic project.",
+      "primary_loci": ["Madhva, Brahma-Sūtra-Bhāṣya 1.1.1", "Madhva, Māyāvāda-Khaṇḍana"]
+    }
+  ],
+  "see_also": ["paramartha-satya", "sunyata", "catuskoti", "paramarthika", "vyavaharika", "anirvacaniya", "loka-prasiddha"],
+  "translator_note": "'Conventional truth' is the standard gloss but conceals the *saṃvṛti*'s 'concealing' force. Some translators prefer 'concealed truth' or 'covering truth' to preserve the etymology. The technical point is that *saṃvṛti* is *not* falsehood; it is functional discourse whose ultimate metaphysical construal is rejected. Anyone reading the *saṃvṛti* / *paramārtha* distinction as a *real* / *unreal* dichotomy has misread it, and that misreading is the source of much cross-school polemic miscommunication."
+}

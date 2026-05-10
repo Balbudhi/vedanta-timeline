@@ -1,0 +1,65 @@
+{
+  "id": "sanghabhadra",
+  "name": "Sanghabhadra",
+  "name_iast": "Saṅghabhadra",
+  "alternate_names": ["Zhongxian (Chinese transmission)"],
+  "dates_low": 380,
+  "dates_high": 470,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Saṅghabhadra is conventionally placed in the late fourth to mid-fifth century on the basis of his identification by Paramārtha and Xuanzang as Vasubandhu's principal Vaibhāṣika opponent and on internal evidence that the Nyāyānusāra and Abhidharma-Samaya-Pradīpikā respond to the Kośa-Bhāṣya verse-by-verse. Cox (Disputed Dharmas, 1995) and Frauwallner (Geschichte II, pp. 198–202) accept the c. 380–470 CE window. The Sanskrit originals of both treatises are lost; the works survive in Xuanzang's seventh-century Chinese translation.",
+  "school": "Cross-tradition",
+  "school_color_token": "sarvastivada-comparator",
+  "sub_school": "Sarvāstivāda-Vaibhāṣika",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "vasubandhu-abhidharma",
+      "direction": "refutes",
+      "note": "The Nyāyānusāra is constructed expressly as a verse-by-verse defence of orthodox Vaibhāṣika positions against the Sautrāntika-leaning glosses of Vasubandhu's auto-commentary on the Kośa. Saṅghabhadra accepts the Kośa-Kārikās as authoritative and reads the bhāṣya as a betrayal of their actual content."
+    }
+  ],
+  "core_thesis": "Saṅghabhadra's Nyāyānusāra is the major surviving systematic defence of orthodox Sarvāstivāda-Vaibhāṣika Abhidharma against Vasubandhu's Sautrāntika critique. Its philosophical importance is twofold. First, it preserves the actual orthodox Sarvāstivāda position as articulated by its proper defenders, distinct from Vasubandhu's reformist gloss in the Kośa-Bhāṣya which has too often been treated as if it were the school's settled doctrine. Second, it makes the sarvam asti thesis intelligible as a serious metaphysical position rather than a target. The thesis is that a dharma exists (asti) in three temporal modes (adhva): in the past as pre-having-arisen-and-now-perished, in the present as actually causally efficacious, in the future as not-yet-arisen but already real qua future. The temporal mode is not the dharma's essence; the dharma's svabhāva is invariant across the modes (Vasumitra's avasthā-anyathātva, which Saṅghabhadra accepts as the Vibhāṣā's settled position). What changes across modes is the dharma's kāritra (causal activity): only the present-mode dharma exercises kāritra; past and future dharmas are real but causally inactive. The position is constructed to satisfy two desiderata simultaneously: it explains why memory and prediction have determinate intentional objects (the past and future dharmas they refer to are real), and it explains why only present causes have effects (only the present mode bears kāritra). The Sautrāntika objection — that real-but-inefficacious is incoherent — is met by distinguishing dravyasat (real-as-substance) from kriyāvat (active); a dharma can have its own being without exercising it in the present mode. The Nyāyānusāra also defends the orthodox account of the conditioned-characteristics (saṃskṛta-lakṣaṇa) and of dependent origination (pratītya-samutpāda) against Vasubandhu's reformulations. The treatise is the proper textual basis for understanding what the Sarvāstivāda position actually is, distinct from the polemical caricatures available through later refutations.",
+  "engaged_works": [
+    {
+      "work_id": "nyayanusara",
+      "title": "Nyayanusara",
+      "title_iast": "Nyāyānusāra",
+      "alternate_titles": ["Abhidharma-Nyāyānusāra-Śāstra", "Apidamo Shun Zhengli Lun (Chinese)"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Saṅghabhadra. Sanskrit original lost; preserved in Xuanzang's seventh-century Chinese translation (Taishō no. 1562, in eighty fascicles). The text is the principal source for orthodox Vaibhāṣika doctrine after the Mahā-Vibhāṣā itself.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Cox 1995, Disputed Dharmas; Dhammajoti 2007, Sarvāstivāda Abhidharma."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "Saṅghabhadra's principal treatise, structured as a verse-by-verse engagement with Vasubandhu's Kośa-Kārikās in which the orthodox Vaibhāṣika reading is defended against the Sautrāntika glosses Vasubandhu introduces in his own bhāṣya. The treatment of sarvam asti is the central polemical site: Saṅghabhadra defends Vasumitra's avasthā-anyathātva (modal-difference of state) account, distinguishes dravyasat from kāritra to meet the charge that past and future dharmas are unreal because inefficacious, and argues that the Sautrāntika alternative cannot account for the determinate intentional content of memory and prediction. The Nyāyānusāra also supplies the school's most systematic treatment of the conditioned-characteristics, the seventy-five dharmas, the kṣaṇika-vāda (defended as compatible with sarvam asti rather than collapsing into it), and the doctrine of conditions (pratyaya-vāda). Cox 1995 (Disputed Dharmas) is the principal modern study and partial translation; Dhammajoti 2007 supplies the wider doctrinal context.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "abhidharma-samaya-pradipika",
+      "title": "Abhidharma-Samaya-Pradipika",
+      "title_iast": "Abhidharma-Samaya-Pradīpikā",
+      "alternate_titles": ["Apidamozang Xianzong Lun (Chinese)"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Saṅghabhadra as a more compressed companion to the Nyāyānusāra. Sanskrit original lost; preserved in Xuanzang's Chinese translation (Taishō no. 1563, in forty fascicles).",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Cox 1995; Dhammajoti 2007."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Saṅghabhadra's compressed exposition of Sarvāstivāda doctrine intended as a positive systematisation rather than as point-by-point polemic. The treatise covers the same dhātu / āyatana / skandha apparatus as the Kośa but presents the orthodox Vaibhāṣika doctrine without staging the Sautrāntika pūrvapakṣa, allowing the school's settled position to stand on its own terms. It is the principal source for the orthodox account of the saṃskṛta-lakṣaṇa, the path-stages, and the meditative attainments, and is the standard reference for Sarvāstivāda doctrine in subsequent East Asian Abhidharma scholasticism. The Nyāyānusāra and the Samaya-Pradīpikā function together as a polemical-and-positive pair, the former defending the doctrine against Vasubandhu, the latter setting it forth as the school's own systematic exposition.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Saṅghabhadra is minimally engaged in surviving Vedāntic literature directly; the Vedāntic critic at Brahma-Sūtra-Bhāṣya 2.2.18–20 works from the Kośa-Bhāṣya (Vasubandhu's reformist version of the position) rather than from the Nyāyānusāra (the orthodox defence). The historical importance of Saṅghabhadra for the present project is therefore mediated: he supplies the textual basis for understanding what the Sarvāstivāda position actually was at the moment of the Vedāntic refutation, distinct from the polemical caricatures the Vedāntic sources transmit. Cox 1995 (Disputed Dharmas: Early Buddhist Theories on Existence) and Gold 2014 (Paving the Great Way: Vasubandhu's Unifying Buddhist Philosophy) are the principal modern reconstructions and are the route by which contemporary readers of Vedāntic anti-Sarvāstivāda polemic can recover the Buddhist position the polemic is engaging.",
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-buddhist-comparators-extension-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-buddhist-comparators-extension-opus"
+}

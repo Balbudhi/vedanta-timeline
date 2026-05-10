@@ -670,5 +670,68 @@
     "shade": 4,
     "short_description": "Modern Sringeri-paṭṭa Advaita continuity (Candraśekhara Bhāratī III, jagadguru 1912–1954), preserving the Vivaraṇa-Bhāmatī-synthesis curriculum of the Sringeri Śāradā Pīṭha as living institutional tradition.",
     "representative_thinker_ids": ["candrasekhara-bharati"]
+  },
+  "pasupata-foundational": {
+    "display_name": "Pāśupata-foundational",
+    "parent_school_color_token": "pasupata-comparator",
+    "shade": 2,
+    "short_description": "The foundational Pāśupata stratum: Lakulīśa's Pāśupata-Sūtra in five chapters (vidhi, dvāra, yoga, vidhi-niṣedha, duḥkha-anta) and Kauṇḍinya's Pañcārtha-Bhāṣya, articulating the pati-paśu-pāśa triad and Śiva as nimitta-kāraṇa.",
+    "representative_thinker_ids": ["lakulisha", "kaundinya"]
+  },
+  "pancaratra-tantric": {
+    "display_name": "Pāñcarātra-Tantric",
+    "parent_school_color_token": "pancaratra-comparator",
+    "shade": 3,
+    "short_description": "The Vaiṣṇava-Tantric Pāñcarātra tradition as such: the four canonical Saṃhitās (Sātvata, Pauṣkara, Jayākhya, Ahirbudhnya) and the Lakṣmī-Tantra, with vyūha, śuddha-sattva, and vibhava as the load-bearing doctrines refuted at Brahma-Sūtra 2.2.42–45.",
+    "representative_thinker_ids": ["pancaratra-tradition"]
+  },
+  "pancaratra-defended-by-yamuna": {
+    "display_name": "Pāñcarātra defended by Yāmuna",
+    "parent_school_color_token": "pancaratra-comparator",
+    "shade": 4,
+    "short_description": "The Pāñcarātra-tradition as defended-from-within Viśiṣṭādvaita: Yāmuna's Āgama-Prāmāṇya re-establishes the canonical authority of the Saṃhitās against Brahma-Sūtra 2.2.42–45, and Vedānta-Deśika's Pāñcarātra-Rakṣā continues the defence.",
+    "representative_thinker_ids": ["yamuna", "vedanta-desika", "pancaratra-tradition"]
+  },
+  "virashaiva-aniruddha-tradition": {
+    "display_name": "Vīraśaiva — Aniruddha-tradition",
+    "parent_school_color_token": "virashaiva-comparator",
+    "shade": 3,
+    "short_description": "The twelfth-century Karnataka Vīraśaiva movement of Basavaṇṇa and the Śaraṇas (Allama Prabhu, Akkamahādevī, Cennabasava): vacana-literature in Old-Kannada, iṣṭa-liṅga worship, the aṣṭāvaraṇa, and pañcācāra; the lineage that traces itself through the aniruddha-vyūha to Śiva.",
+    "representative_thinker_ids": ["basava"]
+  },
+  "bhairava-tantra-systematic": {
+    "display_name": "Bhairava-tantra (systematic)",
+    "parent_school_color_token": "bhairava-tantra-comparator",
+    "shade": 3,
+    "short_description": "The wider Bhairava-tantra textual tradition (Mālinī-Vijaya-Tantra, Siddha-Yogeśvarī-Mata, Rudra-Yāmala, Triśirobhairava) systematised in the Kashmirian commentarial tradition; the corpus Abhinavagupta engages as scripture.",
+    "representative_thinker_ids": ["malini-vijaya-tantra"]
+  },
+  "trika-source-tantras": {
+    "display_name": "Trika source-tantras",
+    "parent_school_color_token": "bhairava-tantra-comparator",
+    "shade": 4,
+    "short_description": "The specific subset of Bhairava-tantras Abhinavagupta singles out as the scriptural basis of Trika: the Mālinī-Vijaya as foundational, with the Siddha-Yogeśvarī-Mata and the Triśirobhairava as auxiliary; the Mālinī-Vijaya-Vārttika and Tantrāloka are the principal interpretive vehicles.",
+    "representative_thinker_ids": ["malini-vijaya-tantra"]
+  },
+  "digambara-dialectical": {
+    "display_name": "Digambara-dialectical",
+    "parent_school_color_token": "jaina-comparator",
+    "shade": 5,
+    "short_description": "Akalaṅka's Digambara dialectical stratum: Aṣṭa-Sahasrī, Tattvārtha-Vārttika (Rāja-Vārttika), Laghīyastraya, Nyāya-Viniścaya, Pramāṇa-Saṅgraha, and Siddhi-Viniścaya develop Jain pramāṇa-theory and anekānta-vāda against Dharmakīrti-school Buddhists and Brahmanical opponents.",
+    "representative_thinker_ids": ["akalanka"]
+  },
+  "svetambara-navya-nyaya-engaged": {
+    "display_name": "Śvetāmbara — Navya-Nyāya-engaged",
+    "parent_school_color_token": "jaina-comparator",
+    "shade": 4,
+    "short_description": "The early-modern Śvetāmbara stratum (Yaśovijaya Upādhyāya, 1624–1688) that engages Navya-Nyāya in its own technical idiom and produces a Jaina-Navya-Nyāya synthesis: Jaina-Tarka-Bhāṣā, Nyāya-Loka, Adhyātma-Sāra, and the commentary on Hemacandra's Pramāṇa-Mīmāṃsā.",
+    "representative_thinker_ids": ["yashovijaya"]
+  },
+  "svetambara-syadvada-systematic": {
+    "display_name": "Śvetāmbara syādvāda-systematic",
+    "parent_school_color_token": "jaina-comparator",
+    "shade": 3,
+    "short_description": "Malliṣeṇa's Syādvāda-Mañjarī, the canonical thirteenth-century commentary on Hemacandra's Anya-Yoga-Vyavaccheda-Dvātriṃśikā, that exposes anekānta-vāda as a meta-philosophical position covering all rival schools' positive theses.",
+    "representative_thinker_ids": ["mallisena"]
   }
 }

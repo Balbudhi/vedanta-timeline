@@ -57,6 +57,10 @@ const LANE_ORDER = [
   "theravada-comparator",
   "tathagatagarbha-comparator",
   "trika-comparator",
+  "pasupata-comparator",
+  "pancaratra-comparator",
+  "virashaiva-comparator",
+  "bhairava-tantra-comparator",
   "cross-tradition",
 ];
 
@@ -84,6 +88,10 @@ const LANE_DISPLAY = {
   "theravada-comparator": "Theravāda",
   "tathagatagarbha-comparator": "Tathāgatagarbha",
   "trika-comparator": "Pratyabhijñā / Trika",
+  "pasupata-comparator": "Pāśupata",
+  "pancaratra-comparator": "Pāñcarātra",
+  "virashaiva-comparator": "Vīraśaiva",
+  "bhairava-tantra-comparator": "Bhairava-tantra",
   "cross-tradition": "Cross-tradition",
 };
 
@@ -114,7 +122,10 @@ const COMPARATOR_LANES = [
   "jaina-comparator", "carvaka-comparator",
   "madhyamaka-comparator", "yogacara-comparator", "buddhist-pramana-comparator",
   "sarvastivada-comparator", "theravada-comparator", "tathagatagarbha-comparator",
-  "trika-comparator", "cross-tradition",
+  "trika-comparator",
+  "pasupata-comparator", "pancaratra-comparator",
+  "virashaiva-comparator", "bhairava-tantra-comparator",
+  "cross-tradition",
 ];
 const COMPARATOR_GROUP_KEY = "__comparator_group__";
 const COMPARATOR_GROUP_LABEL = "Other darśanas";
@@ -338,6 +349,8 @@ function colorFor(thinker, paletteIdx = 2) {
     "buddhist-pramana-comparator": "#3f3f46",
     "sarvastivada-comparator": "#92400e", "theravada-comparator": "#b45309",
     "tathagatagarbha-comparator": "#0e7490",
+    "pasupata-comparator": "#b91c1c", "pancaratra-comparator": "#1e40af",
+    "virashaiva-comparator": "#831843", "bhairava-tantra-comparator": "#4c1d95",
   };
   return base[token] || "#6b7280";
 }

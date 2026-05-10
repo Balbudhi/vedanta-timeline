@@ -69,7 +69,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
-      "summary": "Sub-commentary on Vāchaspati Miśra's *Nyāya-Vārttika-Tātparya-Ṭīkā*, completing the five-tier Old-Nyāya stack: *Sūtra* (Akṣapāda) → *Bhāṣya* (Vātsyāyana) → *Vārttika* (Uddyotakara) → *Tātparya-Ṭīkā* (Vāchaspati Miśra) → *Pariśuddhi* (Udayana). The *Pariśuddhi* refines the *pramāṇa*-doctrine inherited from the four prior layers, polishes the analysis of *vyāpti* and *upādhi*, and consolidates the *jāti*-realism against persisting Buddhist nominalist pressure. Two contributions are systemically important. First, the analysis of *paryāpti* — the conditions under which a property's being-located-in something exhausts the relevant predication — anticipates Gaṅgeśa's later technical apparatus by a century. Second, the analysis of *abhāva*-pratiyogitva* — the relation between an absence and its absentee — is given the treatment that Gaṅgeśa's *Tattva-Cintāmaṇi* presupposes. The *Pariśuddhi* is the form in which the entire Old-Nyāya stack is read in late-medieval Mithilā and Navadvīpa pāṭhaśālās; without it, Gaṅgeśa is unintelligible.",
+      "summary": "Sub-commentary on Vāchaspati Miśra's *Nyāya-Vārttika-Tātparya-Ṭīkā*, completing the five-tier Old-Nyāya stack: *Sūtra* (Akṣapāda) → *Bhāṣya* (Vātsyāyana) → *Vārttika* (Uddyotakara) → *Tātparya-Ṭīkā* (Vāchaspati Miśra) → *Pariśuddhi* (Udayana), covering Nyāya-Sūtra 1.1–5.2. The *Pariśuddhi* refines the *pramāṇa*-doctrine inherited from the four prior layers, polishes the analysis of *vyāpti* and *upādhi* (on NS 1.1.5 and 1.2.4–9), and consolidates the *jāti*-realism (on NS 2.2.66) against persisting Buddhist nominalist pressure. Two contributions are systemically important. First, the analysis of *paryāpti* — the conditions under which a property's being-located-in something exhausts the relevant predication — anticipates Gaṅgeśa's later technical apparatus by a century. Second, the analysis of *abhāva-pratiyogitva* — the relation between an absence and its absentee (on NS 2.2.7–12) — is given the treatment that Gaṅgeśa's *Tattva-Cintāmaṇi* presupposes. The *Pariśuddhi* is the form in which the entire Old-Nyāya stack is read in late-medieval Mithilā and Navadvīpa pāṭhaśālās; without it, Gaṅgeśa is unintelligible.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     }
@@ -79,5 +79,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-comparators-opus"
+  "last_verified_by": "wave-citation-batch3-opus"
 }

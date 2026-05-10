@@ -1,0 +1,32 @@
+{
+  "term_key": "paramartha-satya",
+  "term_iast": "paramārtha-satya",
+  "term_devanagari": "परमार्थसत्य",
+  "literal": "ultimate-meaning truth; from parama 'highest' + artha 'meaning, object, purpose' + satya 'truth'",
+  "aliases": ["paramartha-satya", "paramārtha-satya", "Paramārtha-Satya", "paramārthatas", "paramārthataḥ"],
+  "invariant_definition": "*Paramārtha-satya* is the ultimate-truth member of the Buddhist two-truths distinction (*saṃvṛti-satya* / *paramārtha-satya*) introduced by Nāgārjuna at MMK 24.8–10. The two-truths apparatus preserves ordinary (*saṃvṛti*) discourse as conventionally functional while reserving for ultimate analysis (*paramārtha*) the conclusion that no candidate entity bears *svabhāva*. The structural homology with Advaita's *pāramārthika* / *vyāvahārika* distinction is exact in form — two-tier ontology with an ultimate level on which only the *non-svabhāva* (Mādhyamaka) or the *non-dual brahman* (Advaita) survives. The substantive disagreement is whether the ultimate level is occupied by a *svabhāva*-bearing reality (Advaita's *brahman*) or is the bare absence of *svabhāva* (Mādhyamaka's *śūnyatā*). The *pracchanna-bauddha* charge against Śaṅkara turns on whether the homology is identity.",
+  "per_school": [
+    {
+      "school": "Mādhyamaka",
+      "definition": "*Paramārtha* is the ultimate analysis on which all candidate entities are revealed as lacking *svabhāva*; it is *not* a higher reality behind appearances but the simple absence of *svabhāva* in the appearances. Candrakīrti's Prāsaṅgika reading insists that *paramārtha* is reached only by *prasaṅga*-refutation of conventional posit, never by *svatantra*-positive demonstration; Bhāviveka's Svātantrika admits the latter at the conventional level while preserving the former at the ultimate.",
+      "primary_loci": ["Mūla-Madhyamaka-Kārikā 24.8–10", "Candrakīrti, Madhyamakāvatāra 6.23–32"]
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "*Paramārtha* in Yogācāra usage is identified with the *pariniṣpanna-svabhāva* — the *paratantra* (dependent cognitive flow) purified of the *parikalpita* (imagined subject-object duality). The position is structurally distinct from Mādhyamaka: ultimate truth is the *paratantra-as-pariniṣpanna*, not the bare absence of *svabhāva*.",
+      "primary_loci": ["Vasubandhu, Triṃśikā 21–25", "Trisvabhāva-Nirdeśa 23–28"]
+    },
+    {
+      "school": "Advaita",
+      "definition": "*Pāramārthika*-sat is *brahman*: the one *svayam-prakāśa cit* on which the *vyāvahārika* manifold rests as *anirvacanīya* appearance. The two-tier structure mirrors the Buddhist two-truths in form. Vivaraṇa-Advaita defenders (Padmapāda, Prakāśātman, Madhusūdana) press that the substantive content differs: Advaita's *pāramārthika*-level is occupied by the positive *svayam-prakāśa cit* of *brahman*, whereas the Mādhyamaka *paramārtha* is the bare absence of *svabhāva* and so cannot ground anything. The *pracchanna-bauddha* charge is the standing Bhedābheda and Vaiṣṇava polemical claim that the two cannot in fact be substantively distinguished.",
+      "primary_loci": ["Padmapāda, Pañca-Pādikā", "Prakāśātman, Pañca-Pādikā-Vivaraṇa", "Madhusūdana, Advaita-Siddhi pratham-paricheda"]
+    },
+    {
+      "school": "Vaiṣṇava (Madhva)",
+      "definition": "Madhva rejects any two-truths distinction of this kind. The *svatantra* (Viṣṇu) and the *paratantra* (everything else) are equally real on a single ontological level, distinguished by the dependence-relation rather than by truth-status. The *pracchanna-bauddha* charge against Śaṅkara is, in Madhva's hands, the claim that any structurally Mādhyamaka two-truths apparatus collapses ultimately into the *śūnyavādin* conclusion that the conventional level is *asat*.",
+      "primary_loci": ["Madhva, Brahma-Sūtra-Bhāṣya 1.1.1", "Madhva, Tattva-Saṅkhyāna"]
+    }
+  ],
+  "see_also": ["samvrti-satya", "sunyata", "catuskoti", "paramarthika", "vyavaharika", "anirvacaniya", "trisvabhava", "svatantra"],
+  "translator_note": "The standard glosses 'ultimate truth' or 'absolute truth' are acceptable. The Sanskrit *paramārtha* is most precisely 'highest object/meaning' — the truth available only at the level of ultimate analysis, as opposed to the truth of ordinary discourse. The two-truths apparatus has been a continuing source of cross-school confusion: it is *not* the claim that there are two parallel realities, nor the claim that *saṃvṛti* is *false*; it is the claim that *saṃvṛti* and *paramārtha* are the same world differently characterised, with ordinary discourse intact and ultimate analysis showing the absence of *svabhāva* in what ordinary discourse describes."
+}
