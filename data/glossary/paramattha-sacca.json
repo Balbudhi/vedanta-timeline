@@ -1,0 +1,22 @@
+{
+  "term_key": "paramattha-sacca",
+  "term_iast": "paramattha-sacca",
+  "term_devanagari": "परमत्थसच्च",
+  "literal": "ultimate truth (Pāli); truth at the level of the ultimate constituents of experience",
+  "aliases": ["paramattha-sacca", "paramattha", "paramatthasacca", "paramatthato", "Paramattha-sacca", "ultimate truth (Theravāda)"],
+  "invariant_definition": "The Theravāda Abhidhamma's name for truth at the level of the *paramattha-dhamma*s — the four ultimate constituents of experience: *citta* (consciousness), *cetasika* (mental factors), *rūpa* (materiality), and *nibbāna* (the unconditioned). Paired with *sammuti-sacca* (conventional truth), the distinction is between two levels of discourse, not two levels of being: conventional discourse traffics in persons, chariots, and selves as workable designations; ultimate discourse describes the dynamic configuration of *paramattha-dhamma*s that the conventional designations latch onto. The Theravāda articulation of the distinction is fixed by Buddhaghosa in the Visuddhimagga and the Aṭṭhasālinī. The Pāli form *paramattha-sacca* is to be distinguished philologically from the Sanskrit Mādhyamaka *paramārtha-satya* (with which it is often translated as 'ultimate truth') because the doctrinal content is structurally different: in Theravāda the *paramattha* level is positively populated by *paramattha-dhamma*s, whereas in Mādhyamaka the *paramārtha* level is precisely the recognition that all *dharmas* are *śūnya* (empty of *svabhāva*).",
+  "per_school": [
+    {
+      "school": "Theravāda",
+      "definition": "*Paramattha-sacca* is truth at the level of the four *paramattha-dhamma*s (*citta*, *cetasika*, *rūpa*, *nibbāna*). The conventional designations 'person', 'chariot', 'self' refer at the conventional level (*sammuti-sacca*) to dynamic configurations of these ultimate constituents; ultimate analysis (the Abhidhamma) supplies the description of the configuration in terms of the *paramattha-dhamma*s. The two truths are levels of discourse, not levels of being.",
+      "primary_loci": ["Aṭṭhasālinī (Buddhaghosa), Tikapaṭṭhāna section", "Visuddhimagga XVIII (Diṭṭhi-Visuddhi-Niddesa)"]
+    },
+    {
+      "school": "Mādhyamaka (cross-reference, distinct doctrine)",
+      "definition": "Mādhyamaka's *paramārtha-satya* (Sanskrit) is structurally different: at the ultimate level, all *dharmas* are *śūnya* of *svabhāva*. There is no positive population of ultimate-level constituents corresponding to the Theravāda *paramattha-dhamma*s. The two-truths distinction in Mādhyamaka is therefore a distinction between conventional designations (which Mādhyamaka does not refute at their level) and the ultimate recognition of *śūnyatā*. The Pāli and Sanskrit two-truths terminologies overlap in form but differ in doctrinal content; translators should preserve the distinction.",
+      "primary_loci": ["Mūla-Madhyamaka-Kārikā 24.8–10 (the locus classicus of the two-truths distinction)"]
+    }
+  ],
+  "see_also": ["sammuti-sacca", "paramarthika", "vyavaharika", "anatta", "sunyata"],
+  "translator_note": "'Ultimate truth' is the standard English rendering, but it is shared by both *paramattha-sacca* (Pāli, Theravāda) and *paramārtha-satya* (Sanskrit, Mādhyamaka) and obscures the structural difference between them. Where the doctrinal context is Theravāda, preserve the Pāli form; where Mādhyamaka, preserve the Sanskrit. The two should not be ecumenically conflated. Note also the further distinction from the Advaita *pāramārthika* (the highest of three levels in the *pāramārthika* / *vyāvahārika* / *prātibhāsika* triad), which is again structurally different from both."
+}

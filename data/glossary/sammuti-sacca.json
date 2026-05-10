@@ -1,0 +1,22 @@
+{
+  "term_key": "sammuti-sacca",
+  "term_iast": "sammuti-sacca",
+  "term_devanagari": "सम्मुतिसच्च",
+  "literal": "conventional truth (Pāli); truth at the level of conventional designation",
+  "aliases": ["sammuti-sacca", "sammuti", "sammutisacca", "sammutiyā", "Sammuti-sacca", "conventional truth (Theravāda)"],
+  "invariant_definition": "The Theravāda Abhidhamma's name for truth at the level of conventional designation: the level at which we speak of persons, chariots, villages, selves, and so on. Paired with *paramattha-sacca* (ultimate truth), the two truths are levels of discourse rather than levels of being. The conventional designations are not false at their proper level — Buddhaghosa is clear that *sammuti-sacca* is not invalidated by *paramattha-sacca* — but their referents are not the irreducible ultimates the Abhidhamma analysis describes; rather, they are the dynamic configurations of *paramattha-dhamma*s (*citta*, *cetasika*, *rūpa*, *nibbāna*) on which the conventional designations latch. The Pāli form *sammuti-sacca* is to be distinguished philologically from the Sanskrit Mādhyamaka *saṃvṛti-satya*: both are conventionally translated 'conventional truth' but the doctrinal content differs (the Mādhyamaka *saṃvṛti* level is not populated by the four *paramattha-dhamma*s but is precisely the level at which all *dharma*s appear with apparent *svabhāva*).",
+  "per_school": [
+    {
+      "school": "Theravāda",
+      "definition": "*Sammuti-sacca* is truth at the level of conventional designation. The conventional designations 'person', 'chariot', 'self' (e.g. the chariot-simile of Milindapañha 2.1) refer at the conventional level to dynamic configurations of *paramattha-dhamma*s; the configurations are real configurations and the designations latch onto them properly, but ultimate analysis supplies the description in terms of the configuration's constituents. The two-truths distinction is therefore irenic: ultimate analysis does not destroy conventional discourse but exhibits its conditions of intelligibility.",
+      "primary_loci": ["Aṭṭhasālinī (Buddhaghosa)", "Visuddhimagga XVIII", "Milindapañha 2.1 (chariot-simile, the canonical illustration)"]
+    },
+    {
+      "school": "Mādhyamaka (cross-reference, distinct doctrine)",
+      "definition": "Mādhyamaka's *saṃvṛti-satya* (Sanskrit) is structurally different: it is the level at which all *dharma*s appear to bear *svabhāva*, and is the level whose ultimate analysis discloses *śūnyatā*. The Mādhyamaka *saṃvṛti* level is not constructed from *paramattha-dhamma*s — Mādhyamaka denies that there are *dharma*s with intrinsic nature at any level — but is the level of conventional appearance.",
+      "primary_loci": ["Mūla-Madhyamaka-Kārikā 24.8–10", "Madhyamakāvatāra 6.23 ff."]
+    }
+  ],
+  "see_also": ["paramattha-sacca", "vyavaharika", "samvrti", "anatta"],
+  "translator_note": "'Conventional truth' is the standard English rendering, shared with the Sanskrit *saṃvṛti-satya*. The doctrinal content differs between Theravāda and Mādhyamaka and should not be ecumenically conflated. Note also the further distinction from the Advaita *vyāvahārika* (the middle of three levels), which is again structurally different from both. Pāli *sammuti* derives etymologically from *sam-man-* (joint cognition / common consent), giving 'truth-by-common-consent', a slightly different inflection from the Sanskrit *saṃvṛti* (covering / concealment, sometimes 'truth-as-it-conceals')."
+}

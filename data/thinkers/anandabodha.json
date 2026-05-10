@@ -73,7 +73,7 @@
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
-      "summary": "'Row of lamps (*dīpāvalī*) of reasoned argument' — a polemical *prakaraṇa* in which Ānandabodha sharpens the inferential program of the *Nyāya-Makaranda* with explicit attention to opponents' counter-positions. The *dṛśyatva* and *jaḍatva* inferences for *mithyātva* are rehearsed and tightened. *Bhāva-rūpā-avidyā* is defended against the Naiyāyika view that ignorance is mere absence (*abhāva*). The *svayaṃ-prakāśatva* inference for *cit* is refined. Standard objections — the regress of cognitions, the locus problem for avidyā, the apparent reality of *bheda* — are worked through with formalised *anumāna*-structures. The work matters as a bridge text. Many of the *Advaita-Siddhi*'s opening *anumānas* are recognisably refinements of the *Dīpāvalī* line, taken up first by Citsukha and then by Madhusūdana.",
+      "summary": "'Row of lamps (*dīpāvalī*) of reasoned argument' — a polemical *prakaraṇa* in which Ānandabodha sharpens the inferential program of the *Nyāya-Makaranda* with explicit attention to opponents' counter-positions. The *dṛśyatva* and *jaḍatva* inferences for *mithyātva* are rehearsed and tightened (*Nyāya-Dīpāvalī*, *mithyātva-anumāna-prakaraṇa*). *Bhāva-rūpā-avidyā* is defended against the Naiyāyika view that ignorance is mere absence (*abhāva*) (*Nyāya-Dīpāvalī*, *avidyā-prakaraṇa*). The *svayaṃ-prakāśatva* inference for *cit* is refined (*svayaṃ-prakāśatva-prakaraṇa*). Standard objections — the regress of cognitions, the locus problem for avidyā, the apparent reality of *bheda* (*bheda-khaṇḍana-prakaraṇa*) — are worked through with formalised *anumāna*-structures. The work matters as a bridge text. Many of the *Advaita-Siddhi* prathama-paricheda's opening *anumānas* are recognisably refinements of the *Dīpāvalī* line, taken up first by Citsukha (*Tattva-Pradīpikā* prathama-paricheda) and then by Madhusūdana.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     }
@@ -83,7 +83,7 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-audit-fix-opus",
+  "last_verified_by": "wave-citation-batch6-opus",
   "polemic_chain_ids": [
     "mayavada-khandana",
     "nyayamrta-arguments",

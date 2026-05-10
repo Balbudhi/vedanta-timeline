@@ -1,0 +1,32 @@
+{
+  "term_key": "ekayana",
+  "term_iast": "eka-yāna",
+  "term_devanagari": "एकयान",
+  "literal": "one vehicle; the single path that subsumes all paths",
+  "aliases": ["ekayana", "eka-yāna", "ekayāna", "ekayānaḥ", "Ekayāna", "one vehicle", "yāna-eka"],
+  "invariant_definition": "The Mahāyāna doctrine, developed principally in the Saddharma-Puṇḍarīka-Sūtra (Lotus Sūtra) and systematised in the Maitreya-corpus (Mahāyāna-Sūtra-Alaṃkāra, Abhisamayālaṃkāra), that the apparent distinction between three vehicles — *śrāvaka-yāna* (the vehicle of the disciple aiming at *arhatva*), *pratyekabuddha-yāna* (the vehicle of the solitary awakener), and *bodhisattva-yāna* (the vehicle of the bodhisattva aiming at full Buddhahood) — is provisional, all three vehicles ultimately culminating in the same Buddhahood. The doctrine is decisive for the Tathāgatagarbha tradition's articulation of the universal Buddha-nature: if all sentient beings possess *tathāgatagarbha* universally, then the apparent multiplicity of paths must converge on the single Buddhahood that the Buddha-nature actualises. The doctrine stands in tension with the Theravāda position (which preserves the *arhatva*-attainment as a final liberation distinct from full Buddhahood) and is one of the principal doctrinal differentiae between the Mahāyāna and the Theravāda inheritance of the Buddha's teaching.",
+  "per_school": [
+    {
+      "school": "Tathāgatagarbha-foundational (Maitreya-attributed)",
+      "definition": "*Eka-yāna* is the natural corollary of the universal Buddha-nature: if *tathāgatagarbha* is universally present, the apparent three vehicles must converge on the single Buddhahood that the *garbha* actualises. The Mahāyāna-Sūtra-Alaṃkāra develops this through the *gotra* (lineage-disposition) doctrine, treating the apparent distinction of vehicles as a matter of provisional dispositional difference within a single ultimate destination.",
+      "primary_loci": ["Mahāyāna-Sūtra-Alaṃkāra III (Gotra-adhikāra), XI (Dharma-paryeṣṭi-adhikāra)", "Abhisamayālaṃkāra I"]
+    },
+    {
+      "school": "Lotus-Sūtra tradition (Saddharma-Puṇḍarīka)",
+      "definition": "*Eka-yāna* is articulated through the parable of the burning house (Lotus-Sūtra ch. 3) and the parable of the prodigal son (ch. 4): the three vehicles are *upāya* (skilful means) by which the Buddha leads beings of varying disposition toward the single Buddhahood that is the actual destination. The two-vehicle doctrines of the Theravāda and the early Buddhist schools are reread as provisional teachings whose ultimate content is the *eka-yāna*.",
+      "primary_loci": ["Saddharma-Puṇḍarīka-Sūtra ch. 2 (Upāya-kauśalya), ch. 3 (parable of the burning house)"]
+    },
+    {
+      "school": "Buddha-nature-Mahāyāna (Laṅkāvatāra-Sūtra)",
+      "definition": "*Eka-yāna* is integrated with the *citta-mātra* and *tathāgatagarbha* doctrines: the universal cognitive ground of awakening grounds the convergence of all paths on the single Buddhahood. The sūtra also articulates a doctrine of provisional *yāna*-distinction within an ultimate *eka-yāna* framework, treating the three vehicles as pedagogical concessions to differing dispositional capacity.",
+      "primary_loci": ["Laṅkāvatāra-Sūtra (selected passages on yāna-classification)"]
+    },
+    {
+      "school": "Theravāda (refusal)",
+      "definition": "The Theravāda preserves the *arhatva*-attainment as a final liberation distinct from full Buddhahood, refusing the *eka-yāna* assimilation. The *arhat*, the *paccekabuddha*, and the *sammāsambuddha* are three distinct attainments, all liberated but distinct; *nibbāna* is one but the modes of attainment are not assimilable to a single path. The position is not the denial of *anattā* — Theravāda is uncompromising on *anattā* — but the refusal of the Mahāyāna assimilation of all paths to the bodhisattva-path.",
+      "primary_loci": ["Visuddhimagga XIX–XXII (path-stages and attainment)"]
+    }
+  ],
+  "see_also": ["tathagatagarbha", "yana", "anatman", "anatta"],
+  "translator_note": "'One vehicle' is the standard rendering. 'Vehicle' (*yāna*) here is technical: it denotes the path-and-its-fruit considered as a single soteriological unit. The doctrine is irreducibly Mahāyāna and is not accepted by the Theravāda; translators should preserve the doctrinal asymmetry rather than ecumenically smoothing it. The Sino-Japanese rendering 一乘 (*ichijō*) is foundational for the Tendai and Nichiren traditions in East Asia."
+}
