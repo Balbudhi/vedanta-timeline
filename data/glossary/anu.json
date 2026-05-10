@@ -12,7 +12,7 @@
     "aṇu-parimāṇa"
   ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "glossary-wave1-codex54",
+  "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "Minute or atomic: a category of size and ontological minimality rather than a reference to modern physical atoms. In Vedānta the term often concerns the *jīva*, not gross matter. Viśiṣṭādvaita and Tattva-vāda (Dvaita) insist that the individual self is *aṇu* so that embodiment, karmic individuation, and plurality are real. The reach of cognition is then explained not by the self's size but by a further apparatus: *dharmabhūta-jñāna* in Viśiṣṭādvaita, or divinely ordered cognition in Tattva-vāda. In Nyāya-Vaiśeṣika and related atomisms, by contrast, *aṇu* and *paramāṇu* name the smallest material constituents and the atomic *manas* that mediates episodic awareness. The same word thus spans debates about conscious-substance size and about physical constitution. It is best read together with *vibhu*, *parimāṇa*, *paramāṇu*, and the dispute over whether a self can be all-pervading while still having body-specific experience.",
   "per_school": [
     {
@@ -130,33 +130,98 @@
     },
     {
       "school": "Śuddhādvaita",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [
+        "Aṇu-Bhāṣya on Brahma-Sūtra 2.3.43-45"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vallabha/anu-bhasya/2.3.43-45",
+          "locus_short": "BSB 2.3.43-45"
+        }
+      ],
+      "not_applicable_reason": "In the indexed Vallabha materials, the jīva is doctrinally handled as Brahman's aṃśa within avikṛta-pariṇāma rather than as an atomically or minutely measured self [[BSB 2.3.43-45](cite://vallabha/anu-bhasya/2.3.43-45)]."
     },
     {
       "school": "Sāṃkhya",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Sāṃkhya, aṇutva does not characterize the puruṣa: the Kārikā tradition explicitly describes puruṣa as vyāpī, niravayava, and unlike the vyakta-complex, while the Sūtras assign atomic measure instead to the transmigrating liṅgaśarīra [[SKMV 11](cite://isvarakrsna/samkhya-karika-commentary/11); [KapSS 3.14](cite://kapila/samkhya-sutra/3.14)]. The same Sūtra collection denies vyāpakatva to manas, so minuteness belongs to the subtle psychical apparatus rather than to the witnessing self [[KapSS 5.69-71](cite://kapila/samkhya-sutra/5.69-71)].",
+      "primary_loci": [
+        "Sāṃkhya-Kārikā with commentary on SK 11",
+        "Sāṃkhya-Sūtra 3.14",
+        "Sāṃkhya-Sūtra 5.69-71"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvarakrsna/samkhya-karika-commentary/11",
+          "locus_short": "SKMV 11"
+        },
+        {
+          "cite": "cite://kapila/samkhya-sutra/3.14",
+          "locus_short": "KapSS 3.14"
+        },
+        {
+          "cite": "cite://kapila/samkhya-sutra/5.69-71",
+          "locus_short": "KapSS 5.69-71"
+        }
+      ]
     },
     {
       "school": "Yoga",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Yoga, paramāṇu marks the lower limit of contemplative mastery: citta can be steadied upon objects ranging from the atom to the greatest magnitude [[YBh on YS 1.40](cite://vyasa/yoga-bhasya/1.40)]. Vyāsa also reports and rejects a body-sized, contractive-expansive theory of citta, insisting instead that citta is vibhu and that only its vṛttis contract and expand; accordingly Yoga does not make puruṣa or citta atomic in the ontological sense [[YBh on YS 4.10](cite://vyasa/yoga-bhasya/4.10)].",
+      "primary_loci": [
+        "Vyāsa Bhāṣya on Yoga-Sūtra 1.40",
+        "Vyāsa Bhāṣya on Yoga-Sūtra 4.10"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vyasa/yoga-bhasya/1.40",
+          "locus_short": "YBh on YS 1.40"
+        },
+        {
+          "cite": "cite://vyasa/yoga-bhasya/4.10",
+          "locus_short": "YBh on YS 4.10"
+        }
+      ]
     },
     {
       "school": "Nyāya-Vaiśeṣika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Nyāya-Vaiśeṣika treats aṇu as a basic parimāṇa opposed to mahat: the Vaiśeṣika-Sūtra defines aṇu by contrast with large magnitude and places atomicity at the level of imperceptible, eternal reals [[KVS 7.1.17-18](cite://kanada/vaisesika-sutra/7.1.17-18)]. The same system distinguishes vibhu self from aṇu manas, and later compendia restate the point by calling the jīvātman pervasive while the inner organ remains paramāṇu-rūpa; cognition is episodic because this atomic mind must mediate self, sense, and object [[KVS 7.1.29-30](cite://kanada/vaisesika-sutra/7.1.29-30); [AnTs 17-18](cite://annambhatta/tarka-sangraha/17-18); [AnTs 25](cite://annambhatta/tarka-sangraha/25)].",
+      "primary_loci": [
+        "Vaiśeṣika-Sūtra 7.1.17-18",
+        "Vaiśeṣika-Sūtra 7.1.29-30",
+        "Tarka-Saṅgraha 17-18, 25"
+      ],
+      "citations": [
+        {
+          "cite": "cite://kanada/vaisesika-sutra/7.1.17-18",
+          "locus_short": "KVS 7.1.17-18"
+        },
+        {
+          "cite": "cite://kanada/vaisesika-sutra/7.1.29-30",
+          "locus_short": "KVS 7.1.29-30"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/17-18",
+          "locus_short": "AnTs 17-18"
+        },
+        {
+          "cite": "cite://annambhatta/tarka-sangraha/25",
+          "locus_short": "AnTs 25"
+        }
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In the available Pūrva-Mīmāṃsā corpus, aṇu appears not as a positive ontological primitive but as the target of Kumārila's critique of the Kāṇāda atomist appeal to viśeṣas inhering in same-sized atoms [[ŚV 5.9.29-30](cite://kumarila/sloka-varttika/5.9.29-30)]. Kumārila argues that differentiated effects and manifest form already suffice for mutual exclusion, so an additional viśeṣa posited in atoms is explanatorily otiose [[ŚV 5.9.29-30](cite://kumarila/sloka-varttika/5.9.29-30)].",
+      "primary_loci": [
+        "Ślokavārttika, sāmānya-viśeṣa discussion, msv 5.9.29-30"
+      ],
+      "citations": [
+        {
+          "cite": "cite://kumarila/sloka-varttika/5.9.29-30",
+          "locus_short": "ŚV 5.9.29-30"
+        }
+      ]
     },
     {
       "school": "Mādhyamaka",
@@ -166,21 +231,61 @@
     },
     {
       "school": "Yogācāra",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Vasubandhu argues that an external object cannot be established either as one whole, as many atoms, or as a collection of atoms, because the putative paramāṇu itself never becomes siddha [[Viṃśatikā 11](cite://vasubandhu/vimsatika/11)]. Once the atom fails, the aggregate fails as well, and the analysis of perceptual appearance is reassigned to vijñapti-mātra rather than to externally existing atomic matter [[Viṃśatikā 12-14](cite://vasubandhu/vimsatika/12-14)].",
+      "primary_loci": [
+        "Viṃśatikā 11-14"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/vimsatika/11",
+          "locus_short": "Viṃśatikā 11"
+        },
+        {
+          "cite": "cite://vasubandhu/vimsatika/12-14",
+          "locus_short": "Viṃśatikā 12-14"
+        }
+      ]
     },
     {
       "school": "Pratyabhijñā / Trika",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "In Trika, aṇutva is not an ultimate size-category of consciousness but the contracted condition of the self under mala and śakti-saṃkoca: the bound being is called aṇu because universal powers are rendered parimita in the paśu-state [[PH 9](cite://ksemaraja/pratyabhijna-hrdayam/9)]. The IPV makes the point explicitly by saying that even elevated but non-pūrṇa agents remain aṇu so long as full kartṛtva is absent, and by locating the mukhya aṇutva of saṃsārins in the contracted, limited state of cittattva itself [[ĪPV on IPK 3.2.9](cite://abhinavagupta/ipv/3.2.9); [ĪPV on IPK 3.2.11](cite://abhinavagupta/ipv/3.2.11)].",
+      "primary_loci": [
+        "Pratyabhijñā-Hṛdayam 9",
+        "ĪPV on ĪPK 3.2.9",
+        "ĪPV on ĪPK 3.2.11"
+      ],
+      "citations": [
+        {
+          "cite": "cite://ksemaraja/pratyabhijna-hrdayam/9",
+          "locus_short": "PH 9"
+        },
+        {
+          "cite": "cite://abhinavagupta/ipv/3.2.9",
+          "locus_short": "ĪPV on IPK 3.2.9"
+        },
+        {
+          "cite": "cite://abhinavagupta/ipv/3.2.11",
+          "locus_short": "ĪPV on IPK 3.2.11"
+        }
+      ]
     },
     {
       "school": "Jainism",
-      "definition": "[NOT YET RETRIEVED]",
-      "primary_loci": [],
-      "citations": []
+      "definition": "Jainism distinguishes atomic and aggregate forms of pudgala: matter is said to bear sensible qualities and to exist both as aṇu and as skandha, the latter arising through division and conjunction [[TS, pudgala section](cite://umasvati/tattvartha-sutra/pudgala-anavah-skandhas-ca)]. By contrast the jīva is not treated as an atom; its pradeśas contract and expand like a lamp's radiance, so aṇutva belongs here to matter rather than to selfhood [[TS, jīva-pradeśa section](cite://umasvati/tattvartha-sutra/jiva-pradesa-samhara-visarpa)].",
+      "primary_loci": [
+        "Tattvārtha-Sūtra, pudgala section ('aṇavaḥ skandhāś ca' / 'bhedasaṃghātebhya utpadyante')",
+        "Tattvārtha-Sūtra, jīva-pradeśa section ('pradeśasaṃhāra-visarpābhyāṃ pradīpavat')"
+      ],
+      "citations": [
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/pudgala-anavah-skandhas-ca",
+          "locus_short": "TS, pudgala section"
+        },
+        {
+          "cite": "cite://umasvati/tattvartha-sutra/jiva-pradesa-samhara-visarpa",
+          "locus_short": "TS, jīva-pradeśa section"
+        }
+      ]
     }
   ],
   "see_also": [
