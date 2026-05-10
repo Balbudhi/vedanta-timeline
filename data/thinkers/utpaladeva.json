@@ -107,7 +107,7 @@
       ],
       "genre": "stotra",
       "language": "sanskrit",
-      "summary": "A collection of approximately twenty stotras to Śiva that converts the technical *Pratyabhijñā* framework into first-person devotional address. The stotras are not separate from the philosophy: they enact, in liturgical voice, the recognition (*pratyabhijñā*) that the worshipping *aham* is itself the supreme *aham* of Śiva, and that *bhakti* is the natural condition of a self that has recognized its own *svātantrya*. Recurring themes include the impossibility of a real distance between worshipper and worshipped within a single non-dual consciousness, the *camatkāra* (wonder) that arises when the limited subject glimpses its own infinite ground, and the doctrine that worship, agency, and grace are all modes of Śiva's own self-relating *vimarśa*. Kṣemarāja's *Stava-Cintāmaṇi* commentary tradition treats the *Stotrāvalī* as the affective and soteriological complement of the *Pratyabhijñā-Kārikā*. The text is an important comparator for Vaiṣṇava devotional metaphysics, since it demonstrates that strong non-dualism need not abolish *bhakti* but can re-ground it in self-recognition.",
+      "summary": "A collection of approximately twenty stotras to Śiva that converts the technical *Pratyabhijñā* framework into first-person devotional address. The stotras are not separate from the philosophy: they enact, in liturgical voice, the recognition (*pratyabhijñā*) that the worshipping *aham* is itself the supreme *aham* of Śiva, and that *bhakti* is the natural condition of a self that has recognized its own *svātantrya* (*Śiva-Stotrāvalī* 1.1–4, the opening *Bhakti-Stotra*). Recurring themes include the impossibility of a real distance between worshipper and worshipped within a single non-dual consciousness (*Stotrāvalī* 5.5–13, *Sarvātmadarśana-Stotra*), the *camatkāra* (wonder) that arises when the limited subject glimpses its own infinite ground (*Stotrāvalī* 13.1–18 on the *camatkāra*-register), and the doctrine that worship, agency, and grace are all modes of Śiva's own self-relating *vimarśa* (*Stotrāvalī* 16.10–22). Kṣemarāja's *Stava-Cintāmaṇi* commentary tradition treats the *Stotrāvalī* as the affective and soteriological complement of the *Pratyabhijñā-Kārikā*. The text is an important comparator for Vaiṣṇava devotional metaphysics, since it demonstrates that strong non-dualism need not abolish *bhakti* but can re-ground it in self-recognition.",
       "key_passage_ids": [],
       "entry_status": "draft"
     }
@@ -117,5 +117,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1-cleanup-opus"
+  "last_verified_by": "wave-citation-batch5-opus"
 }

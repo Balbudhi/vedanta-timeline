@@ -31,7 +31,7 @@
       ],
       "genre": "varttika",
       "language": "sanskrit",
-      "summary": "*Vārttika*-style sub-commentary on Vātsyāyana's *Nyāya-Sūtra-Bhāṣya*, working through the *Sūtra* and *Bhāṣya* together. The polemical occasion is Diṅnāga's *Pramāṇa-Samuccaya*: Uddyotakara opens with a *maṅgala* whose explicit purpose is to defend the *Bhāṣya* against the criticisms it has accumulated. The bulk of the polemical work happens at three loci. NS 1.1.4 on *pratyakṣa* — Uddyotakara reformulates the perceptual definition to handle Diṅnāga's objections about *kalpanāpoḍha* (free-of-conceptual-construction) perception. NS 1.1.5 on *anumāna* — the *tri-rūpa-liṅga* analysis is reset on a realist footing and the *hetv-ābhāsa* fivefold typology (*asiddha*, *viruddha*, *anaikāntika*, *prakaraṇa-sama*, *kālātīta*) is developed. NS 2.2.66 on *jāti* — the *apoha*-vs-realist-universal debate is centred here in its classical form. The *Vārttika*'s technical achievement is to absorb Buddhist epistemological pressure without conceding the realist ontology; its historical achievement is to fix the form in which the *Sūtra*-*Bhāṣya* are read in the medieval Nyāya school.",
+      "summary": "*Vārttika*-style sub-commentary on Vātsyāyana's *Nyāya-Sūtra-Bhāṣya*, working through the *Sūtra* and *Bhāṣya* together. The polemical occasion is Diṅnāga's *Pramāṇa-Samuccaya* (esp. chapter 1 on *pratyakṣa* and chapter 5 on *apoha*): Uddyotakara opens with a *maṅgala* whose explicit purpose is to defend the *Bhāṣya* against the criticisms it has accumulated. The bulk of the polemical work happens at three loci. *Nyāya-Vārttika* on NS 1.1.4 on *pratyakṣa* — Uddyotakara reformulates the perceptual definition to handle Diṅnāga's objections about *kalpanāpoḍha* (free-of-conceptual-construction) perception (against *Pramāṇa-Samuccaya* 1.3–4). *Nyāya-Vārttika* on NS 1.1.5 (with NS 1.2.4–9) on *anumāna* — the *tri-rūpa-liṅga* analysis is reset on a realist footing and the *hetv-ābhāsa* fivefold typology (*asiddha*, *viruddha*, *anaikāntika*, *prakaraṇa-sama*, *kālātīta*) is developed. *Nyāya-Vārttika* on NS 2.2.66 on *jāti* — the *apoha*-vs-realist-universal debate (against *Pramāṇa-Samuccaya* 5.1–11) is centred here in its classical form. The *Vārttika*'s technical achievement is to absorb Buddhist epistemological pressure without conceding the realist ontology; its historical achievement is to fix the form in which the *Sūtra*-*Bhāṣya* are read in the medieval Nyāya school.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     }
@@ -41,5 +41,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-comparators-opus"
+  "last_verified_by": "wave-citation-batch3-opus"
 }

@@ -1,0 +1,79 @@
+{
+  "id": "dignaga",
+  "name": "Dignaga",
+  "name_iast": "Dignāga",
+  "alternate_names": ["Diṅnāga", "Phyogs-kyi-glang-po"],
+  "dates_low": 480,
+  "dates_high": 540,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Dignāga is conventionally placed c. 480–540 CE on the basis of the dating of his student Īśvarasena and the explicit polemical engagement of Uddyotakara's Nyāya-Vārttika (c. 600 CE) with the Pramāṇa-Samuccaya. Frauwallner (Dignāga, sein Werk und seine Entwicklung, 1959) defends the early-sixth-century date; Hattori (Dignāga, On Perception, 1968) accepts the same window.",
+  "school": "Cross-tradition",
+  "school_color_token": "buddhist-pramana-comparator",
+  "sub_school": "Pramāṇa-vāda-founder",
+  "sub_school_shade": 2,
+  "lineage_in": [],
+  "lineage_out": ["dharmakirti"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "uddyotakara",
+      "direction": "is-refuted-by",
+      "note": "The Nyāya-Vārttika is largely structured as a reply to Dignāga's Pramāṇa-Samuccaya: Uddyotakara defends the Naiyāyika four-pramāṇa scheme against the pramāṇa-dvaya thesis, and the realist account of sāmānya against apoha-vāda. The Nyāya–Buddhist epistemological exchange has Dignāga as one canonical pole."
+    },
+    {
+      "thinker_id": "vacaspati",
+      "direction": "is-refuted-by",
+      "note": "Vāchaspati Miśra's Nyāya-Vārttika-Tātparya-Ṭīkā continues the Naiyāyika engagement with the Buddhist pramāṇa-school across the Dignāga–Dharmakīrti development: the Tātparya-Ṭīkā responds to both Dignāga's foundational positions and Dharmakīrti's developments of them within a single Naiyāyika defence."
+    },
+    {
+      "thinker_id": "madhva",
+      "direction": "is-refuted-by",
+      "note": "Madhva engages Dignāga's apoha-vāda critically: the doctrine that 'cow' means 'not-non-cow' is read by Madhva as an evasion that cannot ground the positive sāmānya-grasp required by perceptual realism, and as a doctrine whose Buddhist provenance disqualifies it from Vedāntic appropriation."
+    },
+    {
+      "thinker_id": "madhusudana",
+      "direction": "mutual",
+      "note": "Madhusūdana's Advaita-Siddhi makes sophisticated use of Buddhist-pramāṇa techniques inherited via Dharmakīrti from Dignāga — the apoha-style analysis of sāmānya is deployed in the Advaita defence even as the school formally rejects the Buddhist soteriology. The relation is technical-borrowing-with-doctrinal-rejection."
+    }
+  ],
+  "core_thesis": "Dignāga is the founder of the Buddhist epistemological school. His distinctive contributions are concentrated in the *Pramāṇa-Samuccaya* (six chapters with auto-commentary). First, the *pramāṇa-dvaya* thesis: only two *pramāṇa*s are valid — *pratyakṣa* (perception) and *anumāna* (inference) — because *upamāna* and *śabda* reduce, on analysis, to *anumāna*. Second, the radical reanalysis of perception: *pratyakṣa* is *kalpanā-apoḍha* (devoid of conceptual construction) and *abhrānta* (non-erroneous) — perception in its pure moment grasps only the *svalakṣaṇa* (the bare particular as causally efficacious *kṣaṇa*), while every concept-bearing cognition belongs to *anumāna* and operates on the *sāmānya-lakṣaṇa* (the universal as constructed). Third, the *apoha-vāda*: concepts do not name positive *sāmānya*-realities (against the Naiyāyika *jāti*); a concept like 'cow' functions by *exclusion* — \"not-non-cow\" — and the apparent positive content of universal-cognition is the result of this exclusion-function operating on the substrate of the *svalakṣaṇa*-flow. The *trairūpya* analysis of the inferential mark (*hetu* must be present in the *pakṣa*, present in the *sapakṣa*, and absent from the *vipakṣa*) is supplied as the formal apparatus of valid inference. The position generates the entire later Buddhist–Naiyāyika exchange culminating in Udayana and Gaṅgeśa.",
+  "engaged_works": [
+    {
+      "work_id": "pramana-samuccaya",
+      "title": "Pramana-Samuccaya",
+      "title_iast": "Pramāṇa-Samuccaya",
+      "alternate_titles": ["PS"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored. The Sanskrit original is largely lost; the text survives in two Tibetan translations and is reconstructible through the Pramāṇa-Vārttika and Jinendrabuddhi's commentary. Steinkellner's 2005 partial Sanskrit reconstruction recovers the perception-chapter.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Hattori 1968; Steinkellner 2005."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The foundational treatise of the Buddhist epistemological school in six chapters with auto-commentary (*Vṛtti*). Chapter 1 (*pratyakṣa*) introduces the *pramāṇa-dvaya* thesis and develops the radical reanalysis of perception as *kalpanā-apoḍha* (concept-free) and *abhrānta*; the *svalakṣaṇa* / *sāmānya-lakṣaṇa* distinction is established here. Chapter 2 (*svārtha-anumāna*) treats inference-for-oneself, with the *trairūpya* analysis of the *hetu*. Chapter 3 (*parārtha-anumāna*) treats inference-for-others — the public five-membered (and reduced three-membered) inferential form. Chapter 4 (*dṛṣṭānta*) treats the example. Chapter 5 (*anyāpoha*) develops the *apoha-vāda* as the Buddhist alternative to Naiyāyika *jāti*-realism. Chapter 6 (*jāti*) refutes the Naiyāyika analysis of fallacious refutations. The text resets the entire Indian epistemological discourse: every later Naiyāyika and Mīmāṃsaka and Vedāntin treatment of *pramāṇa* responds either to Dignāga directly or to Dharmakīrti's development of him.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "alambana-pariksha",
+      "title": "Alambana-Pariksha",
+      "title_iast": "Ālambana-Parīkṣā",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored short treatise with auto-commentary; survives in Sanskrit (partial), Tibetan, and two Chinese translations.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Standard ascription in all transmissions."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "A brief treatise (eight verses with auto-commentary) examining the *ālambana* (object of cognition) and arguing for the Yogācāra *vijñapti-mātratā* conclusion through epistemological rather than metaphysical means. The candidate accounts of the *ālambana* — the external atom as object, the aggregate of atoms as object, the macroscopic object as object — are each refuted: an atom is too small to be cognised; the aggregate is not a unitary referent; the macroscopic object is causally derived from atoms and so cannot itself be the object grasped. The conclusion is that the *ālambana* is internal — a cognitive form. The text bridges Dignāga's epistemological work and the Yogācāra metaphysical commitment, showing that the *pramāṇa*-analysis itself motivates the *vijñapti-mātra* conclusion.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Dignāga's reception in the Indian Vedāntic tradition is filtered principally through the Naiyāyika reply: Uddyotakara's *Nyāya-Vārttika* is largely a sustained engagement with the *Pramāṇa-Samuccaya*, and Vāchaspati's *Tātparya-Ṭīkā* extends that engagement. Vedāntic appropriation of Dignāga's *apoha*-style analysis without endorsement of the Buddhist soteriology becomes visible in Madhusūdana's late Advaita and in some Mādhva pramāṇa-discussion.",
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-buddhist-comparators-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-buddhist-comparators-opus"
+}
