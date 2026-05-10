@@ -1435,10 +1435,341 @@ For the cited-but-not-fully-translated portions: where a standard scholarly Engl
 ${passagesBlock}`;
   }
   if (dpTranslationBody) {
-    dpTranslationBody.innerHTML = `<article>${renderMarkdownFull(body)}</article>`;
+    dpTranslationBody.innerHTML = `<article>${renderTranslationDocument(body, { thinkerId, workId, work, thinker: t })}</article>`;
     dpTranslationBody.scrollTop = 0;
+    wireTranslationDisclosures(dpTranslationBody, { thinkerId, workId });
   }
   panelState.loaded.translation = true;
+}
+
+// ---------- Translation document parser + reading-first renderer -----------
+//
+// The Translation tab now reads as a translation, not a grammar exercise.
+// Each `### LOCUS` section is parsed into a structured record:
+//
+//   {
+//     locus,                                  // verse/section identifier
+//     default_translation: { lang, text },    // primary readable surface
+//     iast,                                   // Sanskrit in IAST (italic)
+//     devanagari,                             // optional Sanskrit in Devanāgarī
+//     morphology: { wordByWord, compound, karaka, verbal },
+//     note,                                   // short interpretive aside
+//   }
+//
+// The default-language slot is parameterized: today every translation in
+// the corpus is English, but the same parser will accept Hindi, Bengali,
+// Tamil, Telugu, Marathi, Gujarati, Kannada, or Malayalam in future
+// passes. The header convention is `**<Language> (translation):**` or
+// the legacy `**English (line-by-line):**`. Whatever language the file
+// supplies for its readable surface becomes the default-language slot;
+// IAST and Devanāgarī always remain Sanskrit.
+//
+// Grammar (word-by-word table, samāsa-vigraha, kāraka structure, verbal
+// modality) is hidden by default behind a single disclosure. The Note
+// stays inline as a subtle italic aside because it helps the reader
+// rather than cluttering the page.
+
+// Headings we recognize as the readable default-language slot. The first
+// match wins. New languages are added by listing their conventional
+// English name; the renderer emits the same prose styling regardless.
+const DEFAULT_LANG_HEADINGS = [
+  { match: /^\*\*English\s*\(line-by-line\)\s*:\*\*\s*$/i, lang: "en" },
+  { match: /^\*\*English\s*\(translation\)\s*:\*\*\s*$/i, lang: "en" },
+  { match: /^\*\*English\s*:\*\*\s*$/i, lang: "en" },
+  { match: /^\*\*Translation\s*\(English\)\s*:\*\*\s*$/i, lang: "en" },
+  { match: /^\*\*Hindi\s*\(translation\)\s*:\*\*\s*$/i, lang: "hi" },
+  { match: /^\*\*Bengali\s*\(translation\)\s*:\*\*\s*$/i, lang: "bn" },
+  { match: /^\*\*Tamil\s*\(translation\)\s*:\*\*\s*$/i, lang: "ta" },
+  { match: /^\*\*Telugu\s*\(translation\)\s*:\*\*\s*$/i, lang: "te" },
+  { match: /^\*\*Marathi\s*\(translation\)\s*:\*\*\s*$/i, lang: "mr" },
+  { match: /^\*\*Gujarati\s*\(translation\)\s*:\*\*\s*$/i, lang: "gu" },
+  { match: /^\*\*Kannada\s*\(translation\)\s*:\*\*\s*$/i, lang: "kn" },
+  { match: /^\*\*Malayalam\s*\(translation\)\s*:\*\*\s*$/i, lang: "ml" },
+];
+
+const SECTION_HEADINGS = {
+  iast: /^\*\*Sanskrit\s*\(IAST\)\s*:\*\*\s*$/i,
+  devanagari: /^\*\*Sanskrit\s*\(Devan[āa]gar[īi]\)\s*:\*\*\s*$/i,
+  wordByWord: /^\*\*Word-by-word\s*:\*\*\s*$/i,
+  compound: /^\*\*Compound\s+resolution\s*\(sam[āa]sa-vigraha\)\s*:\*\*\s*$/i,
+  karaka: /^\*\*K[āa]raka\s+structure\s*:\*\*\s*$/i,
+  verbal: /^\*\*Verbal\s+modality\s*:\*\*\s*$/i,
+  note: /^\*\*Note\s*:\*\*\s*$/i,
+};
+
+// Parse a single `### LOCUS` block (the contents *after* the heading
+// line) into a structured record. Returns null if the block does not
+// look like a per-verse translation card — in that case the caller
+// falls back to renderMarkdownFull for the raw markdown.
+function parseTranslationSection(rawBody, locus) {
+  const lines = rawBody.split("\n");
+  const slots = {
+    iast: [],
+    devanagari: [],
+    defaultLang: null,
+    defaultText: [],
+    wordByWord: [],
+    compound: [],
+    karaka: [],
+    verbal: [],
+    note: [],
+  };
+  let current = null;
+  for (const line of lines) {
+    const trimmed = line.trim();
+    let matched = false;
+    for (const { match, lang } of DEFAULT_LANG_HEADINGS) {
+      if (match.test(trimmed)) {
+        slots.defaultLang = lang;
+        current = "defaultText";
+        matched = true;
+        break;
+      }
+    }
+    if (matched) continue;
+    for (const [key, re] of Object.entries(SECTION_HEADINGS)) {
+      if (re.test(trimmed)) {
+        current = key;
+        matched = true;
+        break;
+      }
+    }
+    if (matched) continue;
+    if (current) {
+      slots[current].push(line);
+    } else {
+      // Content before any recognized heading — keep with the IAST
+      // bucket as a fallback so it isn't silently dropped.
+      slots.iast.push(line);
+    }
+  }
+  // A real verse card must have at least an IAST block and a default-
+  // language translation. If neither is present we treat this section
+  // as free-form prose (e.g. an editorial aside written as "### Foo").
+  const hasIast = slots.iast.join("").trim().length > 0;
+  const hasDefault = slots.defaultText.join("").trim().length > 0;
+  if (!hasIast && !hasDefault) return null;
+  const trim = (a) => a.join("\n").trim();
+  return {
+    locus,
+    default_translation: { lang: slots.defaultLang || "en", text: trim(slots.defaultText) },
+    iast: trim(slots.iast),
+    devanagari: trim(slots.devanagari),
+    morphology: {
+      wordByWord: trim(slots.wordByWord),
+      compound: trim(slots.compound),
+      karaka: trim(slots.karaka),
+      verbal: trim(slots.verbal),
+    },
+    note: trim(slots.note),
+  };
+}
+
+// Strip leading YAML-ish frontmatter (--- … ---) and return parsed
+// key→value pairs alongside the remaining body.
+function stripFrontmatter(src) {
+  const m = /^---\s*\n([\s\S]*?)\n---\s*\n?/.exec(src);
+  if (!m) return { meta: {}, body: src };
+  const meta = {};
+  for (const line of m[1].split("\n")) {
+    const kv = /^([A-Za-z_][\w-]*):\s*(.*)$/.exec(line);
+    if (kv) {
+      let v = kv[2].trim();
+      // Strip surrounding quotes (single, double, triple) — values come
+      // from the python audit script which uses repr() for evidence.
+      if ((v.startsWith("'") && v.endsWith("'")) || (v.startsWith('"') && v.endsWith('"'))) {
+        v = v.slice(1, -1);
+      }
+      meta[kv[1]] = v;
+    }
+  }
+  return { meta, body: src.slice(m[0].length) };
+}
+
+// Coverage banner. Honest about what the reader is actually looking at.
+function renderCoverageBanner(meta, work, thinker) {
+  const cov = (meta.coverage || "").toLowerCase();
+  const title = (work && (work.title_iast || work.title)) || "the work";
+  if (cov === "full") {
+    return `<div class="tx-coverage tx-coverage-full"><span class="tx-coverage-tag">Full text</span> The complete <em>${escape(title)}</em>.</div>`;
+  }
+  if (cov === "selection") {
+    return `<div class="tx-coverage tx-coverage-selection"><span class="tx-coverage-tag">Selected passages</span> An excerpt from <em>${escape(title)}</em>; the full text extends beyond what is rendered here.<button class="tx-coverage-source" data-tx-open-source="${escape(thinker ? thinker.id : "")}">Open Source tab →</button></div>`;
+  }
+  if (cov === "placeholder") {
+    return `<div class="tx-coverage tx-coverage-placeholder"><span class="tx-coverage-tag">Acquisition queued</span> A defensible Sanskrit witness for <em>${escape(title)}</em> is not yet on disk; the page below summarizes what is and is not engaged.</div>`;
+  }
+  return "";
+}
+
+function slugifyLocus(s) {
+  return String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 80);
+}
+
+function disclosureKey(thinkerId, workId, locus) {
+  return `tx-disc:${thinkerId}:${workId}:${slugifyLocus(locus)}`;
+}
+
+function readDisclosureState(key) {
+  try {
+    return localStorage.getItem(key) === "open";
+  } catch (_) {
+    return false;
+  }
+}
+
+function writeDisclosureState(key, open) {
+  try {
+    localStorage.setItem(key, open ? "open" : "closed");
+  } catch (_) { /* private mode, etc. — silent */ }
+}
+
+// Render one parsed verse card. Reading-first hierarchy: locus, then
+// default-language translation prominently, then IAST + Devanāgarī
+// (when present) muted underneath, then a single disclosure for the
+// grammatical breakdown, and finally the Note as a subtle italic aside.
+function renderVerseCard(section, ctx) {
+  const { thinkerId, workId } = ctx;
+  const dKey = disclosureKey(thinkerId, workId, section.locus);
+  const startOpen = readDisclosureState(dKey);
+  const morph = section.morphology || {};
+  const hasMorph = morph.wordByWord || morph.compound || morph.karaka || morph.verbal;
+
+  const langClass = `tx-default-lang tx-lang-${section.default_translation.lang}`;
+  const defaultBlock = section.default_translation.text
+    ? `<div class="${langClass}" lang="${escape(section.default_translation.lang)}">${renderMarkdownFull(section.default_translation.text)}</div>`
+    : "";
+  const iastBlock = section.iast
+    ? `<div class="tx-iast" lang="sa-Latn">${renderMarkdownFull(section.iast)}</div>`
+    : "";
+  const devBlock = section.devanagari
+    ? `<div class="tx-devanagari" lang="sa-Deva">${renderMarkdownFull(section.devanagari)}</div>`
+    : "";
+
+  let morphInner = "";
+  if (hasMorph) {
+    const parts = [];
+    if (morph.wordByWord) parts.push(`<div class="tx-morph-block tx-morph-words"><div class="tx-morph-label">Word by word</div>${renderMarkdownFull(morph.wordByWord)}</div>`);
+    if (morph.compound) parts.push(`<div class="tx-morph-block"><div class="tx-morph-label">Compound resolution <span class="tx-morph-sub">(samāsa-vigraha)</span></div>${renderMarkdownFull(morph.compound)}</div>`);
+    if (morph.karaka) parts.push(`<div class="tx-morph-block"><div class="tx-morph-label">Kāraka structure</div>${renderMarkdownFull(morph.karaka)}</div>`);
+    if (morph.verbal) parts.push(`<div class="tx-morph-block"><div class="tx-morph-label">Verbal modality</div>${renderMarkdownFull(morph.verbal)}</div>`);
+    morphInner = parts.join("");
+  }
+
+  const disclosure = hasMorph
+    ? `<details class="tx-grammar"${startOpen ? " open" : ""} data-tx-disclosure="${escape(dKey)}">
+         <summary><span class="tx-grammar-caret" aria-hidden="true"></span><span class="tx-grammar-label">Word-by-word and grammar</span></summary>
+         <div class="tx-grammar-body">${morphInner}</div>
+       </details>`
+    : "";
+
+  const noteBlock = section.note
+    ? `<aside class="tx-note">${renderMarkdownFull(section.note)}</aside>`
+    : "";
+
+  return `<section class="tx-verse" data-tx-locus="${escape(section.locus)}">
+    <header class="tx-verse-head"><span class="tx-locus">${escape(section.locus)}</span></header>
+    ${defaultBlock}
+    ${iastBlock}
+    ${devBlock}
+    ${disclosure}
+    ${noteBlock}
+  </section>`;
+}
+
+// Top-level renderer for a translation document. Splits into:
+//   (1) optional YAML frontmatter (consumed for the coverage banner)
+//   (2) preamble — everything before the first `### LOCUS` heading
+//   (3) per-verse sections — parsed structurally where possible,
+//       falling back to renderMarkdownFull when a section does not
+//       look like a verse card
+//   (4) trailing prose (e.g. "## Editorial closing")
+function renderTranslationDocument(rawSrc, ctx) {
+  const { meta, body } = stripFrontmatter(rawSrc);
+  const banner = renderCoverageBanner(meta, ctx.work, ctx.thinker);
+
+  // Split on lines that begin a verse card. Anything before the first
+  // such heading is the preamble; subsequent material is split into
+  // (heading-line, body-up-to-next-heading-or-h2) pairs. An H2
+  // (`## …`) terminates the verse-card stream and re-opens free
+  // markdown for editorial closings.
+  const lines = body.split("\n");
+  let preamble = [];
+  const sections = []; // {locus, body}
+  let trailing = []; // any content after the verse stream ends (## heading)
+  let mode = "preamble";
+  let cur = null;
+  for (const line of lines) {
+    if (mode === "preamble") {
+      const h3 = /^###\s+(.+?)\s*$/.exec(line);
+      if (h3) {
+        mode = "section";
+        cur = { locus: h3[1].trim(), body: [] };
+        sections.push(cur);
+        continue;
+      }
+      // An H2 inside the preamble keeps us in preamble mode.
+      preamble.push(line);
+      continue;
+    }
+    if (mode === "section") {
+      const h3 = /^###\s+(.+?)\s*$/.exec(line);
+      if (h3) {
+        cur = { locus: h3[1].trim(), body: [] };
+        sections.push(cur);
+        continue;
+      }
+      const h2 = /^##\s+/.exec(line);
+      if (h2) {
+        // Editorial closing or similar — drop back to free-form mode.
+        mode = "trailing";
+        trailing.push(line);
+        continue;
+      }
+      // Horizontal rules between sections: swallow.
+      if (/^---+\s*$/.test(line) && cur && cur.body.length === 0) continue;
+      cur.body.push(line);
+      continue;
+    }
+    // mode === "trailing"
+    trailing.push(line);
+  }
+
+  const preambleHtml = preamble.length
+    ? `<div class="tx-preamble">${renderMarkdownFull(preamble.join("\n"))}</div>`
+    : "";
+
+  const sectionHtml = sections.map((s) => {
+    const parsed = parseTranslationSection(s.body.join("\n"), s.locus);
+    if (parsed) return renderVerseCard(parsed, ctx);
+    // Fallback — render the section verbatim (preserves arbitrary
+    // editorial content that doesn't fit the verse-card schema).
+    return `<section class="tx-verse-fallback">${renderMarkdownFull(`### ${s.locus}\n\n${s.body.join("\n")}`)}</section>`;
+  }).join("");
+
+  const trailingHtml = trailing.join("\n").trim()
+    ? `<div class="tx-trailing">${renderMarkdownFull(trailing.join("\n"))}</div>`
+    : "";
+
+  return banner + preambleHtml + sectionHtml + trailingHtml;
+}
+
+function wireTranslationDisclosures(root, ctx) {
+  if (!root) return;
+  // Persist open/closed state on toggle. Native <details> handles the
+  // visual state; we just remember it in localStorage.
+  root.querySelectorAll("details[data-tx-disclosure]").forEach((d) => {
+    d.addEventListener("toggle", () => {
+      writeDisclosureState(d.dataset.txDisclosure, d.open);
+    });
+  });
+  // "Open Source tab →" link in the coverage banner switches tabs.
+  root.querySelectorAll("[data-tx-open-source]").forEach((b) => {
+    b.addEventListener("click", (e) => {
+      e.preventDefault();
+      if (typeof showTab === "function") showTab("source");
+    });
+  });
 }
 
 // ---------- glossary popover -----------
