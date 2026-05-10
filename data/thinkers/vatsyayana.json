@@ -2,7 +2,10 @@
   "id": "vatsyayana",
   "name": "Vatsyayana Pakshilasvamin",
   "name_iast": "Vātsyāyana Pakṣilasvāmin",
-  "alternate_names": ["Pakṣilasvāmin", "Vātsyāyana (Naiyāyika; not the Kāma-Sūtra Vātsyāyana)"],
+  "alternate_names": [
+    "Pakṣilasvāmin",
+    "Vātsyāyana (Naiyāyika; not the Kāma-Sūtra Vātsyāyana)"
+  ],
   "dates_low": 350,
   "dates_high": 450,
   "dates_tier": "consensus-textual",
@@ -11,28 +14,38 @@
   "school_color_token": "nyaya-comparator",
   "sub_school": "Old-Nyāya (Prācīna-Nyāya)",
   "sub_school_shade": 3,
-  "lineage_in": ["aksapada"],
-  "lineage_out": ["uddyotakara"],
+  "lineage_in": [
+    "aksapada"
+  ],
+  "lineage_out": [
+    "uddyotakara"
+  ],
   "lineage_polemical": [],
-  "core_thesis": "Vātsyāyana's *Nyāya-Sūtra-Bhāṣya* is the first surviving commentary on Akṣapāda and the work that turns the *Sūtra*'s compressed enumerations into a workable epistemological system. Three structural moves define the *bhāṣya*. First, the doctrine of *pramāṇas* receives systematic articulation: each *pramāṇa* is defined in terms of its *karaṇa* (instrumental cause), its *karman* (object), and its *phala* (the resultant cognition) (*Nyāya-Bhāṣya* on Nyāya-Sūtra 1.1.3); *pratyakṣa* is unfolded as *indriyārtha-saṃnikarṣa-janya* cognition with explicit treatment of the *savikalpaka*–*nirvikalpaka* distinction (*Nyāya-Bhāṣya* on NS 1.1.4); *anumāna* is given as *liṅga-darśana-pūrvakam* cognition with the *pakṣa-sapakṣa-vipakṣa* analysis foregrounded (*Nyāya-Bhāṣya* on NS 1.1.5). Second, the realist defence of the *ātman*: the *bhāṣya*'s long argument against the Buddhist *nairātmya-vāda* — drawing on cross-life memory, the unity of cognising subject across diverse perceptions, and the requirement of an enduring substrate for *karma*-fruition — is the locus classicus for Naiyāyika *ātma-vāda* (*Nyāya-Bhāṣya* on NS 1.1.10 and 3.1.1–14). Third, the analysis of *abhāva*: Vātsyāyana defends the cognisability of absences as genuine perceptual contents (*Nyāya-Bhāṣya* on NS 2.2.7–12), which becomes the foundation for the later *anupalabdhi* debate with Bhāṭṭa Mīmāṃsā and Advaita. The *bhāṣya* prosecutes a sustained polemic against Buddhist *vijñāna-vāda* — chiefly the proto-Yogācāra position that perception lacks an extra-mental object — that pre-figures Uddyotakara's later engagement with Diṅnāga (*Nyāya-Bhāṣya* on NS 4.2.26–37). The *Bhāṣya*'s formulation of *pramāṇa*-doctrine — not the *Sūtra*'s lapidary statement — is the form in which Old-Nyāya enters the Sanskrit dialectical tradition; the Vāchaspati Miśra → Udayana → Gaṅgeśa commentarial line is built on it as base.",
+  "core_thesis": "Vātsyāyana's *Nyāya-Sūtra-Bhāṣya* is the first surviving commentary on Akṣapāda and the work that turns the *Sūtra*'s compressed enumerations into a workable epistemological system. Three structural moves define the *bhāṣya*. First, the doctrine of *pramāṇas* receives systematic articulation: each *pramāṇa* is defined in terms of its *karaṇa* (instrumental cause), its *karman* (object), and its *phala* (the resultant cognition) (*Nyāya-Bhāṣya* on Nyāya-Sūtra 1.1.3); *pratyakṣa* is unfolded as *indriyārtha-saṃnikarṣa-janya* cognition with explicit treatment of the *savikalpaka*–*nirvikalpaka* distinction (*Nyāya-Bhāṣya* on [NS 1.1.4](cite://sureshvara/naishkarmya-siddhi/1.1.4)); *anumāna* is given as *liṅga-darśana-pūrvakam* cognition with the *pakṣa-sapakṣa-vipakṣa* analysis foregrounded (*Nyāya-Bhāṣya* on [NS 1.1.5](cite://sureshvara/naishkarmya-siddhi/1.1.5)). Second, the realist defence of the *ātman*: the *bhāṣya*'s long argument against the Buddhist *nairātmya-vāda* — drawing on cross-life memory, the unity of cognising subject across diverse perceptions, and the requirement of an enduring substrate for *karma*-fruition — is the locus classicus for Naiyāyika *ātma-vāda* (*Nyāya-Bhāṣya* on [NS 1.1.10](cite://sureshvara/naishkarmya-siddhi/1.1.10) and 3.1.1–14). Third, the analysis of *abhāva*: Vātsyāyana defends the cognisability of absences as genuine perceptual contents (*Nyāya-Bhāṣya* on [NS 2.2.7–12](cite://sureshvara/naishkarmya-siddhi/2.2.7-12)), which becomes the foundation for the later *anupalabdhi* debate with Bhāṭṭa Mīmāṃsā and Advaita. The *bhāṣya* prosecutes a sustained polemic against Buddhist *vijñāna-vāda* — chiefly the proto-Yogācāra position that perception lacks an extra-mental object — that pre-figures Uddyotakara's later engagement with Diṅnāga (*Nyāya-Bhāṣya* on [NS 4.2.26–37](cite://sureshvara/naishkarmya-siddhi/4.2.26-37)). The *Bhāṣya*'s formulation of *pramāṇa*-doctrine — not the *Sūtra*'s lapidary statement — is the form in which Old-Nyāya enters the Sanskrit dialectical tradition; the Vāchaspati Miśra → Udayana → Gaṅgeśa commentarial line is built on it as base.",
   "engaged_works": [
     {
       "work_id": "nyaya-sutra-bhasya",
       "title": "Nyaya-Sutra-Bhashya",
       "title_iast": "Nyāya-Sūtra-Bhāṣya",
-      "alternate_titles": ["Vātsyāyana-Bhāṣya", "Pakṣilasvāmi-Bhāṣya"],
+      "alternate_titles": [
+        "Vātsyāyana-Bhāṣya",
+        "Pakṣilasvāmi-Bhāṣya"
+      ],
       "composition_dates_low": 350,
       "composition_dates_high": 450,
       "composition_dates_notes": "Composition fixed by being the named target of Diṅnāga's Pramāṇa-Samuccaya (c. 480 CE).",
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored prose commentary on the Nyāya-Sūtra; the foundational text of the Old-Nyāya commentarial stack.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus (Vidyabhusana 1920; Matilal 1977)."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus (Vidyabhusana 1920; Matilal 1977)."
+        }
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
       "source_status": "clean-on-disk",
-      "summary": "The earliest surviving prose commentary on the *Nyāya-Sūtra*, structured as *sūtra*-by-*sūtra* exposition through all five *adhyāyas*. The *bhāṣya*'s historical importance is twofold. First, it transforms the *Sūtra*'s lapidary statements into a workable system: definitions are unpacked, technical distinctions are introduced, and the relations among the sixteen *padārthas* (NS 1.1.1) are made explicit. The treatment of *pratyakṣa* under NS 1.1.4 — including the *savikalpaka*–*nirvikalpaka* distinction and the analysis of perceptual cognition as *indriyārtha-saṃnikarṣa-janya* — is the locus classicus for the Naiyāyika theory of perception that all later commentators presuppose. Second, the *bhāṣya* opens the long polemic against Buddhist epistemology that defines the school's external posture for the next millennium: the defence of the *ātman* against *nairātmya-vāda* (NS 1.1.10 and 3.1.1 onward), the defence of extra-mental objects against the proto-Yogācāra denial (on NS 4.2.26–37), the defence of the *prāmāṇya* of perception against radical scepticism (on NS 2.1.8–20). The *bhāṣya* attracts Diṅnāga's *Pramāṇa-Samuccaya* (chapter 1, *pratyakṣa*; chapter 5, *apoha*) as its principal opponent; Uddyotakara's *Nyāya-Vārttika* in turn replies to Diṅnāga while extending the *bhāṣya*. The Vāchaspati Miśra → Udayana commentarial line is built on the *bhāṣya* as base.",
+      "summary": "The earliest surviving prose commentary on the *Nyāya-Sūtra*, structured as *sūtra*-by-*sūtra* exposition through all five *adhyāyas*. The *bhāṣya*'s historical importance is twofold. First, it transforms the *Sūtra*'s lapidary statements into a workable system: definitions are unpacked, technical distinctions are introduced, and the relations among the sixteen *padārthas* ([NS 1.1.1](cite://sureshvara/naishkarmya-siddhi/1.1.1)) are made explicit. The treatment of *pratyakṣa* under [NS 1.1.4](cite://sureshvara/naishkarmya-siddhi/1.1.4) — including the *savikalpaka*–*nirvikalpaka* distinction and the analysis of perceptual cognition as *indriyārtha-saṃnikarṣa-janya* — is the locus classicus for the Naiyāyika theory of perception that all later commentators presuppose. Second, the *bhāṣya* opens the long polemic against Buddhist epistemology that defines the school's external posture for the next millennium: the defence of the *ātman* against *nairātmya-vāda* ([NS 1.1.10](cite://sureshvara/naishkarmya-siddhi/1.1.10) and 3.1.1 onward), the defence of extra-mental objects against the proto-Yogācāra denial (on [NS 4.2.26–37](cite://sureshvara/naishkarmya-siddhi/4.2.26-37)), the defence of the *prāmāṇya* of perception against radical scepticism (on [NS 2.1.8–20](cite://sureshvara/naishkarmya-siddhi/2.1.8-20)). The *bhāṣya* attracts Diṅnāga's *Pramāṇa-Samuccaya* (chapter 1, *pratyakṣa*; chapter 5, *apoha*) as its principal opponent; Uddyotakara's *Nyāya-Vārttika* in turn replies to Diṅnāga while extending the *bhāṣya*. The Vāchaspati Miśra → Udayana commentarial line is built on the *bhāṣya* as base.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     }

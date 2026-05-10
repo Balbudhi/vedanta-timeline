@@ -2,7 +2,10 @@
   "id": "akalanka",
   "name": "Akalanka",
   "name_iast": "Akalaṅka",
-  "alternate_names": ["Akalaṅkadeva", "Bhaṭṭa Akalaṅka"],
+  "alternate_names": [
+    "Akalaṅkadeva",
+    "Bhaṭṭa Akalaṅka"
+  ],
   "dates_low": 720,
   "dates_high": 780,
   "dates_tier": "consensus-textual",
@@ -11,7 +14,9 @@
   "school_color_token": "jaina-comparator",
   "sub_school": "Digambara-dialectical",
   "sub_school_shade": 5,
-  "lineage_in": ["umasvati"],
+  "lineage_in": [
+    "umasvati"
+  ],
   "lineage_out": [],
   "lineage_polemical": [
     {
@@ -36,14 +41,19 @@
       "work_id": "ashta-sahasri",
       "title": "Ashta-Sahasri",
       "title_iast": "Aṣṭa-Sahasrī",
-      "alternate_titles": ["Aṣṭa-Sahasrī-Tātparya"],
+      "alternate_titles": [
+        "Aṣṭa-Sahasrī-Tātparya"
+      ],
       "composition_dates_low": 740,
       "composition_dates_high": 780,
       "composition_dates_notes": "Composition placed in Akalaṅka's mature period; the work is a commentary on Vidyānanda's Aṣṭa-Śatī, which is itself a commentary on Samantabhadra's Āpta-Mīmāṃsā.",
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely ascribed to Akalaṅka by uniform Digambara tradition; the text is treated as the authoritative defence of syād-vāda by the school.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Soni (Aspects of Jaina Philosophy); Granoff (essays on Jaina logic); Dhaky (the Vidyānanda-Akalaṅka chronology)."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Soni (Aspects of Jaina Philosophy); Granoff (essays on Jaina logic); Dhaky (the Vidyānanda-Akalaṅka chronology)."
+        }
       ],
       "genre": "varttika",
       "language": "sanskrit",
@@ -56,19 +66,24 @@
       "work_id": "tattvartha-varttika",
       "title": "Tattvartha-Varttika",
       "title_iast": "Tattvārtha-Vārttika",
-      "alternate_titles": ["Rāja-Vārttika"],
+      "alternate_titles": [
+        "Rāja-Vārttika"
+      ],
       "composition_dates_low": 720,
       "composition_dates_high": 770,
       "composition_dates_notes": "The principal Digambara verse-commentary on Umāsvāti's Tattvārtha-Sūtra, composed in Akalaṅka's mature period.",
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely ascribed to Akalaṅka by uniform Digambara tradition.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "The standard editions (Saraswati Bhavan, Bharatiya Jnanpith) treat the Akalaṅka ascription as settled; cited as Akalaṅka's by Vidyānanda and later Digambara authors."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "The standard editions (Saraswati Bhavan, Bharatiya Jnanpith) treat the Akalaṅka ascription as settled; cited as Akalaṅka's by Vidyānanda and later Digambara authors."
+        }
       ],
       "genre": "varttika",
       "language": "sanskrit",
       "source_status": "primary-text-not-in-corpus",
-      "summary": "An extensive verse-commentary (with prose-vārttikas) on Umāsvāti's *Tattvārtha-Sūtra*, organised by the ten *adhyāyas* of the source-text. Akalaṅka develops Umāsvāti's compressed sūtras with full philosophical apparatus: *adhyāya* 1's analysis of the five *jñānas* and the *naya*-doctrine receives extended treatment; the doctrine of *kevala-jñāna* (the *kevalin*'s omniscience) is defended on the ground that consciousness is essentially unrestricted in object and that the obstructions to omniscience are *karma*-borne and removable; the *anekānta* / *syād-vāda* framework is integrated with the *naya*-analysis of *Tattvārtha-Sūtra* 1.34–35; the analysis of *jīva* and *ajīva* in *adhyāya*s 2 and 5 receives the *dravya-paryāya* treatment that grounds Akalaṅka's metaphysics. The work supersedes Pūjyapāda's earlier *Sarvārtha-Siddhi* as the standard Digambara *Tattvārtha* commentary for dialectically engaged study, and is itself sub-commented by Vidyānanda's *Tattvārtha-Śloka-Vārttika*.",
+      "summary": "An extensive verse-commentary (with prose-vārttikas) on Umāsvāti's *Tattvārtha-Sūtra*, organised by the ten *adhyāyas* of the source-text. Akalaṅka develops Umāsvāti's compressed sūtras with full philosophical apparatus: *adhyāya* 1's analysis of the five *jñānas* and the *naya*-doctrine receives extended treatment; the doctrine of *kevala-jñāna* (the *kevalin*'s omniscience) is defended on the ground that consciousness is essentially unrestricted in object and that the obstructions to omniscience are *karma*-borne and removable; the *anekānta* / *syād-vāda* framework is integrated with the *naya*-analysis of [*Tattvārtha-Sūtra* 1.34–35](cite://umasvati/tattvartha-sutra/1.34-35); the analysis of *jīva* and *ajīva* in *adhyāya*s 2 and 5 receives the *dravya-paryāya* treatment that grounds Akalaṅka's metaphysics. The work supersedes Pūjyapāda's earlier *Sarvārtha-Siddhi* as the standard Digambara *Tattvārtha* commentary for dialectically engaged study, and is itself sub-commented by Vidyānanda's *Tattvārtha-Śloka-Vārttika*.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     },
@@ -82,7 +97,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely ascribed to Akalaṅka.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Cited by Vidyānanda and Mahendrakumar Jain (modern critical edition)."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Cited by Vidyānanda and Mahendrakumar Jain (modern critical edition)."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -101,7 +119,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely ascribed to Akalaṅka.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Cited as Akalaṅka's by Vādirāja and the Digambara dialectical tradition."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Cited as Akalaṅka's by Vādirāja and the Digambara dialectical tradition."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -120,7 +141,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely ascribed to Akalaṅka.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Standard ascription in the Digambara dialectical canon."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Standard ascription in the Digambara dialectical canon."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -139,7 +163,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely ascribed to Akalaṅka; sub-commented by Anantavīrya's Siddhi-Viniścaya-Ṭīkā.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Anantavīrya's commentary fixes the Akalaṅka ascription; Mahendrakumar Jain's critical edition."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Anantavīrya's commentary fixes the Akalaṅka ascription; Mahendrakumar Jain's critical edition."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",

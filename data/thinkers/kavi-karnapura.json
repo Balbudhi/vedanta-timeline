@@ -31,12 +31,15 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Sanskrit drama in 10 acts.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "nataka",
       "language": "sanskrit",
       "source_status": "primary-text-not-in-corpus",
-      "summary": "A 10-act Sanskrit drama narrating Caitanya's life from the *avatāra* in Navadvīpa through *sannyāsa* and the Purī period. The work is doctrinal in form: the dramatic structure is used to articulate the school's settled positions through dialogue scenes attributed to Caitanya at decisive moments. Three scenes do the load-bearing doctrinal work. (i) Act II: Caitanya's exposition of *tattva* to Sārvabhauma Bhaṭṭācārya at Purī (*Caitanya-Candrodaya-Nāṭaka* II.16–22) fixes the lineage's reading of *acintya-bhedābheda* — that *jīva* and Kṛṣṇa are simultaneously identical (in being *cit*) and different (in being *aṃśa* and *aṃśin*), a simultaneity that is *acintya* because it is held by Kṛṣṇa's own *acintya-śakti* and is not subject to the standard logical objection that identity-and-difference are mutually exclusive. (ii) Act V: Caitanya's dialogue with Rāmānanda Rāya at Vidyānagara fixes the typology of *bhakti-rasa* in its five primary modes — *śānta*, *dāsya*, *sakhya*, *vātsalya*, *mādhurya* — following Rūpa's *Bhakti-Rasāmṛta-Sindhu*; *mādhurya* is fixed as the highest *rasa*, with the *gopīs*' *prema* (and Rādhā's *prema* most of all) as its consummate expression. (iii) Act VII: Caitanya's dialogue with Prakāśānanda Sarasvatī at Vārāṇasī fixes the school's polemical position against Advaita *māyā-vāda* — Bhagavān's *līlā* is real, the world is real, and *bhakti* (not *jñāna*) is the operative means to *prema*. The drama is the principal Sanskrit literary vehicle for Caitanya's life in the school's tradition and is contemporaneous with Kṛṣṇadāsa Kavirāja's *Caitanya-Caritāmṛta* in Bengali; the two works function as the school's narrative-doctrinal record of its founder.",
+      "summary": "A 10-act Sanskrit drama narrating Caitanya's life from the *avatāra* in Navadvīpa through *sannyāsa* and the Purī period. The work is doctrinal in form: the dramatic structure is used to articulate the school's settled positions through dialogue scenes attributed to Caitanya at decisive moments. Three scenes do the load-bearing doctrinal work. (i) Act II: Caitanya's exposition of *tattva* to Sārvabhauma Bhaṭṭācārya at Purī ([*Caitanya-Candrodaya-Nāṭaka* II.16–22](cite://kavi-karnapura/caitanya-candrodaya-nataka/II.16-22)) fixes the lineage's reading of *acintya-bhedābheda* — that *jīva* and Kṛṣṇa are simultaneously identical (in being *cit*) and different (in being *aṃśa* and *aṃśin*), a simultaneity that is *acintya* because it is held by Kṛṣṇa's own *acintya-śakti* and is not subject to the standard logical objection that identity-and-difference are mutually exclusive. (ii) Act V: Caitanya's dialogue with Rāmānanda Rāya at Vidyānagara fixes the typology of *bhakti-rasa* in its five primary modes — *śānta*, *dāsya*, *sakhya*, *vātsalya*, *mādhurya* — following Rūpa's *Bhakti-Rasāmṛta-Sindhu*; *mādhurya* is fixed as the highest *rasa*, with the *gopīs*' *prema* (and Rādhā's *prema* most of all) as its consummate expression. (iii) Act VII: Caitanya's dialogue with Prakāśānanda Sarasvatī at Vārāṇasī fixes the school's polemical position against Advaita *māyā-vāda* — Bhagavān's *līlā* is real, the world is real, and *bhakti* (not *jñāna*) is the operative means to *prema*. The drama is the principal Sanskrit literary vehicle for Caitanya's life in the school's tradition and is contemporaneous with Kṛṣṇadāsa Kavirāja's *Caitanya-Caritāmṛta* in Bengali; the two works function as the school's narrative-doctrinal record of its founder.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     },
@@ -48,7 +51,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored campū-style līlā-narration in 22 stabakas.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "campu",
       "language": "sanskrit",
@@ -65,7 +71,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Sanskrit alaṅkāra-śāstra treatise.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "alankara-shastra",
       "language": "sanskrit",

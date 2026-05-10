@@ -564,7 +564,7 @@ A reader new to Heidegger, with the user's thesis as orienting frame, should pro
 
 **Sixth**, only after the above, attempt the *Beiträge zur Philosophie*. The book is forbidding even for Germanists; for the user's purposes, the *Vorblick* (preview) and the sections on *Ereignis* and *der letzte Gott* are the centers of gravity.
 
-**Seventh** — and this is non-Heideggerian advice — read Aurobindo's *Life Divine* I.16 (the triple status of Supermind), *The Synthesis of Yoga* on the integral comportment of action, and Bhartṛhari's *Vākyapadīya* I (with the commentary in mind), in order to see what the substantive completion of Heidegger's formal openings would look like in another register. Then return to *Sein und Zeit* §§39–66 and the *Brief* with that completion in view, and notice what Heidegger leaves open and what closes prematurely.
+**Seventh** — and this is non-Heideggerian advice — read Aurobindo's *Life Divine* I.16 (the triple status of Supermind), *The Synthesis of Yoga* on the integral comportment of action, and Bhartṛhari's [*Vākyapadīya* I](cite://bhartrhari/vakyapadiya/I) (with the commentary in mind), in order to see what the substantive completion of Heidegger's formal openings would look like in another register. Then return to *Sein und Zeit* §§39–66 and the *Brief* with that completion in view, and notice what Heidegger leaves open and what closes prematurely.
 
 ### Closing remark
 

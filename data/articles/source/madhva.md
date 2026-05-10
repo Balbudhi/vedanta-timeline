@@ -136,7 +136,7 @@ A second objection: if *jīva-Īśvara-bheda* is eternal, *mokṣa* is mere chan
 
 **Argument.** Three legs.
 
-First, *prakṛti* is *asvatantra* — fully dependent on Viṣṇu — but dependence is not identity. *Prakṛti* under Viṣṇu's *adhyakṣa* (superintendence: BG 9.10) is the material cause from which Viṣṇu, the efficient cause, produces the world. The two causes are *bheda*: *nimitta-upādāna-bheda*. This is a sharp formal commitment that distinguishes Madhva's *pariṇāma-vāda* from Śaṅkara's *vivarta-vāda*. For Śaṅkara, Brahman is both efficient and material cause and the world is *vivarta*. For Madhva, *prakṛti* is the material cause, Viṣṇu is the efficient cause, and the world is *pariṇāma* (real transformation of *prakṛti*). The clay-pot analogy from Chāndogya 6.1.4 is read by Madhva as straightforward *pariṇāma*: clay really becomes pot; pot is really clay-modified; clay is not pot in the sense of identity, but pot is not separable from clay either. Madhva will use this analogy decisively against Śaṅkara at BSB 2.1.14 (Part VI below).
+First, *prakṛti* is *asvatantra* — fully dependent on Viṣṇu — but dependence is not identity. *Prakṛti* under Viṣṇu's *adhyakṣa* (superintendence: BG 9.10) is the material cause from which Viṣṇu, the efficient cause, produces the world. The two causes are *bheda*: *nimitta-upādāna-bheda*. This is a sharp formal commitment that distinguishes Madhva's *pariṇāma-vāda* from Śaṅkara's *vivarta-vāda*. For Śaṅkara, Brahman is both efficient and material cause and the world is *vivarta*. For Madhva, *prakṛti* is the material cause, Viṣṇu is the efficient cause, and the world is *pariṇāma* (real transformation of *prakṛti*). The clay-pot analogy from Chāndogya 6.1.4 is read by Madhva as straightforward *pariṇāma*: clay really becomes pot; pot is really clay-modified; clay is not pot in the sense of identity, but pot is not separable from clay either. Madhva will use this analogy decisively against Śaṅkara at [BSB 2.1.14](cite://sankara/brahma-sutra-bhasya/2.1.14) (Part VI below).
 
 Second leg, the pragmatic-transcendental argument. If the world were *mithyā* in the Advaita sense — sublatable upon *jñāna* — then Vedic injunctions prescribing real action for real results would be purposeless. The *kāryatā* (efficacy, prescriptiveness) of the Veda presupposes the reality of the world acted upon. Either the Veda is real (and so is its object, the world acted upon) or the Veda itself is *mithyā* (in which case no injunction binds, no *dharma* obligates, and the entire apparatus of *karma-kāṇḍa* is vacuous). The Advaitin's standard reply is the two-level scheme: the Veda is real *vyāvahārika* and *mithyā* *pāramārthika*. Madhva's counter (developed fully in Part V) is that the two-level scheme is itself incoherent at its joint. We cannot retreat from the *vyāvahārika* level to the *pāramārthika* level except by a cognitive act that is itself either real or *mithyā*; the regress does not terminate.
 
@@ -372,9 +372,9 @@ T7 is *forced* by Madhva's arguments if one is unwilling to accept Tattvavāda's
 
 ## Part VI — *Brahma-Sūtra-Bhāṣya* Selections
 
-Madhva's *Brahma-Sūtra-Bhāṣya* (BSB) reads Bādarāyaṇa's 564 sūtras as continuously affirming theistic realism. The *Bhāṣya* is shorter than Śaṅkara's and far more polemical; the auto-commentary in verse, the *Anuvyākhyāna*, expands the arguments at length and is the philosophically richer text. We treat four critical loci: BSB 1.1.1, BSB 1.1.2, BSB 1.4.21–22, and BSB 2.1.14. Each is a place where Madhva's reading of Bādarāyaṇa is structurally decisive against Śaṅkara's, and the disagreements turn on specific words and passages whose readings can be checked.
+Madhva's *Brahma-Sūtra-Bhāṣya* (BSB) reads Bādarāyaṇa's 564 sūtras as continuously affirming theistic realism. The *Bhāṣya* is shorter than Śaṅkara's and far more polemical; the auto-commentary in verse, the *Anuvyākhyāna*, expands the arguments at length and is the philosophically richer text. We treat four critical loci: [BSB 1.1.1](cite://sankara/brahma-sutra-bhasya/1.1.1), [BSB 1.1.2](cite://sankara/brahma-sutra-bhasya/1.1.2), [BSB 1.4.21–22](cite://sankara/brahma-sutra-bhasya/1.4.21-22), and [BSB 2.1.14](cite://sankara/brahma-sutra-bhasya/2.1.14). Each is a place where Madhva's reading of Bādarāyaṇa is structurally decisive against Śaṅkara's, and the disagreements turn on specific words and passages whose readings can be checked.
 
-### BSB 1.1.1: *Athāto Brahma-Jijñāsā*
+### [BSB 1.1.1](cite://sankara/brahma-sutra-bhasya/1.1.1): *Athāto Brahma-Jijñāsā*
 
 The opening sūtra of the *Brahma-Sūtras*: *athāto brahma-jijñāsā* — "Now, therefore, [begins] the inquiry into Brahman."
 
@@ -404,7 +404,7 @@ The *oṅkāra* (Om), expressing *otatva* (interwovenness, all-pervading constit
 
 The hermeneutic logic: *oṃ* = *bṛhattva* = *guṇa-otatā* = *brahma* = *Nārāyaṇa*. All four terms denote the same being, who is *pūrṇa-guṇa*. Inquiry into Brahman is inquiry into Nārāyaṇa as the bearer of all auspicious *guṇas*. This is not Śaṅkara's *nirguṇa*-Brahman. The textual evidence — Madhva claims — forces the *saguṇa* reading from sūtra one.
 
-### BSB 1.1.2: *Janmādyasya Yataḥ*
+### [BSB 1.1.2](cite://sankara/brahma-sutra-bhasya/1.1.2): *Janmādyasya Yataḥ*
 
 The sūtra: *janmādy asya yataḥ* — "From which [proceeds] the origin, etc., of this [world]."
 
@@ -426,7 +426,7 @@ The argument against *vivarta-vāda*:
 
 The argument is sharp. It puts the Advaitin in a dilemma about the very text on which Advaita is built. Either the sūtras are real (and they teach realism) or they are *mithyā* (and they cannot teach anything *pāramārthika*). Either way, the *Brahma-Sūtras* are not evidence *for* pure Advaita.
 
-### BSB 1.4.21–22: Against Sāṃkhya, with *Prakṛti* Preserved
+### [BSB 1.4.21–22](cite://sankara/brahma-sutra-bhasya/1.4.21-22): Against Sāṃkhya, with *Prakṛti* Preserved
 
 The sūtras 1.4.21 (*prakṛtyaiva*) and surrounding adhikaraṇas concern the Sāṃkhya account of creation. For Bādarāyaṇa, Sāṃkhya is the primary rival to be defeated before Brahman-as-cause can be established. All three major Vedāntins — Śaṅkara, Rāmānuja, Madhva — defeat Sāṃkhya here. The disagreement is over what survives the defeat.
 
@@ -446,7 +446,7 @@ Substance, action, time, intrinsic nature, and *jīva* — these exist by [Viṣ
 
 This is the positive theology that survives the defeat of Sāṃkhya. *Prakṛti* (substance), *karma* (action), *kāla* (time), *svabhāva* (intrinsic nature of each *jīva*), and *jīvas* are all real, eternal-with-modification, and continuously sustained by Viṣṇu. Not pantheism, not Advaita, not Sāṃkhya: a *governed-dependence* account where the world is real because and as Viṣṇu sustains it.
 
-### BSB 2.1.14: *Tad-Ananyatva* — The Decisive Disagreement
+### [BSB 2.1.14](cite://sankara/brahma-sutra-bhasya/2.1.14): *Tad-Ananyatva* — The Decisive Disagreement
 
 The sūtra (Bādarāyaṇa 2.1.14): *tad-ananyatvam ārambhaṇa-śabdādibhyaḥ* — "The non-difference of [the effect from the cause is established] by the word [*ārambhaṇa*] and similar [terms]."
 
@@ -666,7 +666,7 @@ For first engagement with Madhva's actual texts, in order:
 
 Secondary literature: B.N.K. Sharma, *Philosophy of Sri Madhvacharya* (Motilal Banarsidass, 1986; Ch. VII on *viśeṣa*, XVIII–XIX on *sākṣin*); Padmanabhachar (1909); Buchta on Vyāsatīrtha and *pratīti-bādha* (*JHS* 2014); Stoker, *Polemics and Patronage* (UC Press 2016); Pandurangi's editions of VTV and BSB; D.P. Gupta on Madhusūdana for the Advaita-side reply.
 
-Trajectory-positioning: Aurobindo, *Life Divine* I.16; Caitanya-Caritāmṛta *Madhya-līlā* with Jīva Gosvāmī's *Sandarbhas*; Abhinavagupta, *Tantrāloka* I and *Parātrīśikā-Vivaraṇa* on *svātantrya*.
+Trajectory-positioning: Aurobindo, *Life Divine* I.16; Caitanya-Caritāmṛta *Madhya-līlā* with Jīva Gosvāmī's *Sandarbhas*; Abhinavagupta, [*Tantrāloka* I](cite://abhinavagupta/tantraloka/I) and *Parātrīśikā-Vivaraṇa* on *svātantrya*.
 
 ### IX.5 What not to do
 

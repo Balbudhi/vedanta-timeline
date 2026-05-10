@@ -2,7 +2,9 @@
   "id": "gaudapada-samkhya",
   "name": "Gaudapada (Samkhya commentator)",
   "name_iast": "Gauḍapāda",
-  "alternate_names": ["Gauḍapādācārya (Sāṃkhya)"],
+  "alternate_names": [
+    "Gauḍapādācārya (Sāṃkhya)"
+  ],
   "dates_low": 500,
   "dates_high": 600,
   "dates_tier": "contested",
@@ -11,28 +13,35 @@
   "school_color_token": "samkhya-comparator",
   "sub_school": "Classical Sāṃkhya commentarial",
   "sub_school_shade": 2,
-  "lineage_in": ["isvara-krsna"],
+  "lineage_in": [
+    "isvara-krsna"
+  ],
   "lineage_out": [],
   "lineage_polemical": [],
-  "core_thesis": "Gauḍapāda's *Sāṃkhya-Kārikā-Bhāṣya* fixes the standard exegetical reading of Īśvarakṛṣṇa's seventy verses and is the earliest extant prose commentary on the *Kārikā*. The interpretive choices made here propagate through the entire later commentarial stream. The *bhāṣya* takes the *Kārikā*'s opening *duḥkha-traya* analysis (*Bhāṣya* on *Sāṃkhya-Kārikā* 1) as the school's motivating problem, develops *satkārya-vāda* with the standard five-fold inferential support (*asad-akaraṇa*, *upādāna-grahaṇa*, *sarva-sambhava-abhāva*, *śaktasya śakya-karaṇa*, *kāraṇa-bhāva* — *Bhāṣya* on *Sāṃkhya-Kārikā* 9), and articulates the *vyakta-avyakta-sādharmya* inference for *prakṛti* in the form that becomes canonical (*Bhāṣya* on *Sāṃkhya-Kārikā* 14–16). The *guṇa*-analysis is given in its mature form (*Bhāṣya* on *Sāṃkhya-Kārikā* 12–13): *sattva*, *rajas*, *tamas* are not merely qualities adhering to *prakṛti* but are themselves *prakṛti*'s constitutive substance in disequilibrium. *Puruṣa*-plurality is defended on three converging grounds — birth-and-death asymmetry, simultaneous-engagement asymmetry, *guṇa*-disposition asymmetry — taken from *Sāṃkhya-Kārikā* 18 (with *Bhāṣya* ad loc.). The *bhāṣya*'s historical significance is its accessibility: where the *Yuktidīpikā* is technical and Vāchaspati's later *Tattva-Kaumudī* is dialectically loaded, Gauḍapāda gives a clean expository reading that becomes the entry-text into Sāṃkhya for medieval Indian readers and for the first European Sanskritists (Colebrooke 1827; Wilson 1837 published the *Kārikā* with this *bhāṣya* as the standard accompaniment).",
+  "core_thesis": "Gauḍapāda's *Sāṃkhya-Kārikā-Bhāṣya* fixes the standard exegetical reading of Īśvarakṛṣṇa's seventy verses and is the earliest extant prose commentary on the *Kārikā*. The interpretive choices made here propagate through the entire later commentarial stream. The *bhāṣya* takes the *Kārikā*'s opening *duḥkha-traya* analysis (*Bhāṣya* on [*Sāṃkhya-Kārikā* 1](cite://isvara-krsna/samkhya-karika/1)) as the school's motivating problem, develops *satkārya-vāda* with the standard five-fold inferential support (*asad-akaraṇa*, *upādāna-grahaṇa*, *sarva-sambhava-abhāva*, *śaktasya śakya-karaṇa*, *kāraṇa-bhāva* — *Bhāṣya* on [*Sāṃkhya-Kārikā* 9](cite://isvara-krsna/samkhya-karika/9)), and articulates the *vyakta-avyakta-sādharmya* inference for *prakṛti* in the form that becomes canonical (*Bhāṣya* on [*Sāṃkhya-Kārikā* 14–16](cite://isvara-krsna/samkhya-karika/14-16)). The *guṇa*-analysis is given in its mature form (*Bhāṣya* on [*Sāṃkhya-Kārikā* 12–13](cite://isvara-krsna/samkhya-karika/12-13)): *sattva*, *rajas*, *tamas* are not merely qualities adhering to *prakṛti* but are themselves *prakṛti*'s constitutive substance in disequilibrium. *Puruṣa*-plurality is defended on three converging grounds — birth-and-death asymmetry, simultaneous-engagement asymmetry, *guṇa*-disposition asymmetry — taken from [*Sāṃkhya-Kārikā* 18](cite://isvara-krsna/samkhya-karika/18) (with *Bhāṣya* ad loc.). The *bhāṣya*'s historical significance is its accessibility: where the *Yuktidīpikā* is technical and Vāchaspati's later *Tattva-Kaumudī* is dialectically loaded, Gauḍapāda gives a clean expository reading that becomes the entry-text into Sāṃkhya for medieval Indian readers and for the first European Sanskritists (Colebrooke 1827; Wilson 1837 published the *Kārikā* with this *bhāṣya* as the standard accompaniment).",
   "engaged_works": [
     {
       "work_id": "samkhya-karika-bhasya",
       "title": "Samkhya-Karika-Bhashya",
       "title_iast": "Sāṃkhya-Kārikā-Bhāṣya",
-      "alternate_titles": ["Gauḍapāda-Bhāṣya"],
+      "alternate_titles": [
+        "Gauḍapāda-Bhāṣya"
+      ],
       "composition_dates_low": 500,
       "composition_dates_high": 600,
       "composition_dates_notes": "Composition fixed by terminus ante quem of Paramārtha's mid-sixth-century Chinese translation of a closely related Sāṃkhya commentary.",
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely ascribed within the Sāṃkhya commentarial tradition to the Sāṃkhya Gauḍapāda; the identification with the Vedānta Gauḍapāda of the Māṇḍūkya-Kārikā is rejected by mainstream scholarship (Larson 1979; Frauwallner 1953) on grounds of incompatible doctrinal commitments.",
       "ascription_evidence": [
-        {"kind": "scholarly-dispute", "description": "Author-identity debate: standard convention (followed here) treats the Sāṃkhya Gauḍapāda as distinct from the Vedānta Gauḍapāda."}
+        {
+          "kind": "scholarly-dispute",
+          "description": "Author-identity debate: standard convention (followed here) treats the Sāṃkhya Gauḍapāda as distinct from the Vedānta Gauḍapāda."
+        }
       ],
       "genre": "sutra-bhashya",
       "language": "sanskrit",
       "source_status": "clean-on-disk",
-      "summary": "Verse-by-verse prose commentary on the *Sāṃkhya-Kārikā*. The text is brief and exegetically transparent: each *kārikā* is glossed phrase-by-phrase, the technical terms are defined in their first occurrence, and the inferential structure is made explicit where the verse compresses it. Three sections receive especially careful treatment. First, the *Kārikā*'s opening on the *duḥkha-traya* and the inadequacy of ordinary remedies (*Bhāṣya* on *Sāṃkhya-Kārikā* 1–2), which Gauḍapāda turns into a structured argument for the necessity of *viveka-jñāna*. Second, *Kārikā* 9–11 on *satkārya-vāda* (*Bhāṣya* on *Sāṃkhya-Kārikā* 9), where the *bhāṣya* lays out the five canonical proofs in the form that becomes standard. Third, the *Kārikā*'s closing verses on *bhāva*-causation and the *liṅga-śarīra* (*Bhāṣya* on *Sāṃkhya-Kārikā* 40–55), where the *bhāṣya*'s expository clarity rescues a notoriously compressed passage. The *bhāṣya*'s work is intra-traditional clarification rather than polemic, and the Sāṃkhya analysis is offered as complete in its own right.",
+      "summary": "Verse-by-verse prose commentary on the *Sāṃkhya-Kārikā*. The text is brief and exegetically transparent: each *kārikā* is glossed phrase-by-phrase, the technical terms are defined in their first occurrence, and the inferential structure is made explicit where the verse compresses it. Three sections receive especially careful treatment. First, the *Kārikā*'s opening on the *duḥkha-traya* and the inadequacy of ordinary remedies (*Bhāṣya* on [*Sāṃkhya-Kārikā* 1–2](cite://isvara-krsna/samkhya-karika/1-2)), which Gauḍapāda turns into a structured argument for the necessity of *viveka-jñāna*. Second, *Kārikā* 9–11 on *satkārya-vāda* (*Bhāṣya* on [*Sāṃkhya-Kārikā* 9](cite://isvara-krsna/samkhya-karika/9)), where the *bhāṣya* lays out the five canonical proofs in the form that becomes standard. Third, the *Kārikā*'s closing verses on *bhāva*-causation and the *liṅga-śarīra* (*Bhāṣya* on [*Sāṃkhya-Kārikā* 40–55](cite://isvara-krsna/samkhya-karika/40-55)), where the *bhāṣya*'s expository clarity rescues a notoriously compressed passage. The *bhāṣya*'s work is intra-traditional clarification rather than polemic, and the Sāṃkhya analysis is offered as complete in its own right.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     }

@@ -2,7 +2,10 @@
   "id": "satchidanandendra",
   "name": "Satchidanandendra Saraswati",
   "name_iast": "Saccidānandendra Sarasvatī",
-  "alternate_names": ["Subba Rao (birth name)", "Holenarsipur Swami"],
+  "alternate_names": [
+    "Subba Rao (birth name)",
+    "Holenarsipur Swami"
+  ],
   "dates_low": 1880,
   "dates_high": 1975,
   "dates_tier": "confirmed-from-records",
@@ -21,7 +24,9 @@
   "school_color_token": "advaita",
   "sub_school": "Vivṛti-Pratyabhijñā Advaita",
   "sub_school_shade": 5,
-  "lineage_in": ["sankara"],
+  "lineage_in": [
+    "sankara"
+  ],
   "lineage_out": [],
   "lineage_polemical": [
     {
@@ -40,7 +45,7 @@
       "note": "Twentieth-century intra-Advaita polemic; the Anantakṛṣṇa Śāstrī line defends the post-Śaṅkara scholastic apparatus against the Holenarsipur revisionism."
     }
   ],
-  "core_thesis": "Satchidānandendra Sarasvatī, founder of the Adhyātma-Prakāśa-Kāryālaya at Holenarsipur, challenges the entire post-Śaṅkara scholastic edifice as a deviation from Śaṅkara's own *bhāṣya*-method (*Mūlāvidyā-Nirāsa* ch. 1, 'Pratijñā'). His *Mūlāvidyā-Nirāsa* (1929, Sanskrit) argues that the doctrine of *mūlāvidyā* as a positive material-cause of the world — central to Vivaraṇa Advaita and tacitly accepted by Bhāmatī — is foreign to Śaṅkara's *Brahma-Sūtra-Bhāṣya*, *Bṛhadāraṇyaka-Bhāṣya*, and *Upadeśa-Sāhasrī* (*Mūlāvidyā-Nirāsa* chs. 2–4, the locus-by-locus *bhāṣya* survey). For Śaṅkara, on this reading, *avidyā* is *adhyāsa* (superimposition), not a substance whose locus must then be assigned (*Mūlāvidyā-Nirāsa* ch. 5; *Vedānta-Prakriyā-Pratyabhijñā* ch. 2 'Adhyāsa-Prakaraṇa'). The argument is destructive: if *mūlāvidyā* were Śaṅkara's own doctrine, the *adhyāsa-bhāṣya* prefacing BSB 1.1.1 would be inexplicable (*Mūlāvidyā-Nirāsa* ch. 6 'Adhyāsa-Bhāṣya-Vimarśa'). He systematises the recovery as the *Śuddha-Śāṅkara-Prakriyā* school (*Vedānta-Prakriyā-Pratyabhijñā* ch. 1 'Prakriyā-Pratijñā'). The extensive Sanskrit and Kannada output — *Vedānta-Prakriyā-Pratyabhijñā*, *Śuddha-Śāṅkara-Prakriyā-Bhāskara*, *Māṇḍūkya-Rahasya-Vivṛti* — re-reads the post-Śaṅkara tradition selectively, accepting Sureśvara, Padmapāda, Maṇḍana, Vāchaspati, and Prakāśātman only insofar as they conform to the *adhyāsa-bhāṣya* method (*Śuddha-Śāṅkara-Prakriyā-Bhāskara*, the per-author chapters on Sureśvara, Padmapāda, Maṇḍana, Vāchaspati, Prakāśātman). The intra-Advaita controversy he initiated remains live.",
+  "core_thesis": "Satchidānandendra Sarasvatī, founder of the Adhyātma-Prakāśa-Kāryālaya at Holenarsipur, challenges the entire post-Śaṅkara scholastic edifice as a deviation from Śaṅkara's own *bhāṣya*-method (*Mūlāvidyā-Nirāsa* ch. 1, 'Pratijñā'). His *Mūlāvidyā-Nirāsa* (1929, Sanskrit) argues that the doctrine of *mūlāvidyā* as a positive material-cause of the world — central to Vivaraṇa Advaita and tacitly accepted by Bhāmatī — is foreign to Śaṅkara's *Brahma-Sūtra-Bhāṣya*, *Bṛhadāraṇyaka-Bhāṣya*, and *Upadeśa-Sāhasrī* (*Mūlāvidyā-Nirāsa* chs. 2–4, the locus-by-locus *bhāṣya* survey). For Śaṅkara, on this reading, *avidyā* is *adhyāsa* (superimposition), not a substance whose locus must then be assigned (*Mūlāvidyā-Nirāsa* ch. 5; *Vedānta-Prakriyā-Pratyabhijñā* ch. 2 'Adhyāsa-Prakaraṇa'). The argument is destructive: if *mūlāvidyā* were Śaṅkara's own doctrine, the *adhyāsa-bhāṣya* prefacing [BSB 1.1.1](cite://sankara/brahma-sutra-bhasya/1.1.1) would be inexplicable (*Mūlāvidyā-Nirāsa* ch. 6 'Adhyāsa-Bhāṣya-Vimarśa'). He systematises the recovery as the *Śuddha-Śāṅkara-Prakriyā* school (*Vedānta-Prakriyā-Pratyabhijñā* ch. 1 'Prakriyā-Pratijñā'). The extensive Sanskrit and Kannada output — *Vedānta-Prakriyā-Pratyabhijñā*, *Śuddha-Śāṅkara-Prakriyā-Bhāskara*, *Māṇḍūkya-Rahasya-Vivṛti* — re-reads the post-Śaṅkara tradition selectively, accepting Sureśvara, Padmapāda, Maṇḍana, Vāchaspati, and Prakāśātman only insofar as they conform to the *adhyāsa-bhāṣya* method (*Śuddha-Śāṅkara-Prakriyā-Bhāskara*, the per-author chapters on Sureśvara, Padmapāda, Maṇḍana, Vāchaspati, Prakāśātman). The intra-Advaita controversy he initiated remains live.",
   "engaged_works": [
     {
       "work_id": "mulavidya-nirasa",
@@ -53,12 +58,15 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored.",
       "ascription_evidence": [
-        {"kind": "manuscript-colophon", "description": "Adhyātma-Prakāśa-Kāryālaya 1929 first edition colophon."}
+        {
+          "kind": "manuscript-colophon",
+          "description": "Adhyātma-Prakāśa-Kāryālaya 1929 first edition colophon."
+        }
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
       "source_status": "primary-text-not-in-corpus",
-      "summary": "A Sanskrit polemical *prakaraṇa* arguing that the doctrine of *mūlāvidyā* — *avidyā* as a positive material cause of the world, requiring a locus (*āśraya*) and an object (*viṣaya*) — is absent from Śaṅkara's own *bhāṣya*-corpus (*Mūlāvidyā-Nirāsa* ch. 1 'Pratijñā'). The argument proceeds passage by passage. Each canonical post-Śaṅkara text invoked in defense of *mūlāvidyā* is matched against the *Brahma-Sūtra-Bhāṣya*, the *Bṛhadāraṇyaka-Bhāṣya*, and the *Upadeśa-Sāhasrī*; in each case, on Satchidānandendra's reading, what Śaṅkara himself says is *adhyāsa*-talk, not *mūlāvidyā*-talk (*Mūlāvidyā-Nirāsa* chs. 2–4, treating each contested locus). The destructive moment of the argument is that the *adhyāsa-bhāṣya* prefacing BSB 1.1.1 is inexplicable if *avidyā* is a positively existing material cause: superimposition presupposes the cogniser already in place, not a substance from which the cogniser is generated (*Mūlāvidyā-Nirāsa* ch. 6 'Adhyāsa-Bhāṣya-Vimarśa'). The work launches the Śuddha-Śāṅkara-Prakriyā movement and is the principal documentary source for the twentieth-century intra-Advaita controversy on the locus and ontological status of *avidyā* (*Mūlāvidyā-Nirāsa* ch. 7, concluding *upasaṃhāra*).",
+      "summary": "A Sanskrit polemical *prakaraṇa* arguing that the doctrine of *mūlāvidyā* — *avidyā* as a positive material cause of the world, requiring a locus (*āśraya*) and an object (*viṣaya*) — is absent from Śaṅkara's own *bhāṣya*-corpus (*Mūlāvidyā-Nirāsa* ch. 1 'Pratijñā'). The argument proceeds passage by passage. Each canonical post-Śaṅkara text invoked in defense of *mūlāvidyā* is matched against the *Brahma-Sūtra-Bhāṣya*, the *Bṛhadāraṇyaka-Bhāṣya*, and the *Upadeśa-Sāhasrī*; in each case, on Satchidānandendra's reading, what Śaṅkara himself says is *adhyāsa*-talk, not *mūlāvidyā*-talk (*Mūlāvidyā-Nirāsa* chs. 2–4, treating each contested locus). The destructive moment of the argument is that the *adhyāsa-bhāṣya* prefacing [BSB 1.1.1](cite://sankara/brahma-sutra-bhasya/1.1.1) is inexplicable if *avidyā* is a positively existing material cause: superimposition presupposes the cogniser already in place, not a substance from which the cogniser is generated (*Mūlāvidyā-Nirāsa* ch. 6 'Adhyāsa-Bhāṣya-Vimarśa'). The work launches the Śuddha-Śāṅkara-Prakriyā movement and is the principal documentary source for the twentieth-century intra-Advaita controversy on the locus and ontological status of *avidyā* (*Mūlāvidyā-Nirāsa* ch. 7, concluding *upasaṃhāra*).",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     },
@@ -70,7 +78,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored.",
       "ascription_evidence": [
-        {"kind": "manuscript-colophon", "description": "Adhyātma-Prakāśa-Kāryālaya publication colophon."}
+        {
+          "kind": "manuscript-colophon",
+          "description": "Adhyātma-Prakāśa-Kāryālaya publication colophon."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -87,12 +98,15 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored.",
       "ascription_evidence": [
-        {"kind": "manuscript-colophon", "description": "Adhyātma-Prakāśa-Kāryālaya publication colophon."}
+        {
+          "kind": "manuscript-colophon",
+          "description": "Adhyātma-Prakāśa-Kāryālaya publication colophon."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
       "source_status": "primary-text-not-in-corpus",
-      "summary": "A Sanskrit illuminator (*bhāskara*) of the *Śuddha-Śāṅkara-Prakriyā*. The work supplies the school's reading of each contested locus in the post-Śaṅkara tradition — Sureśvara on *avidyā* (*Śuddha-Śāṅkara-Prakriyā-Bhāskara*, Sureśvara-prakaraṇa), Padmapāda on the *jīva-Brahma* superimposition (Padmapāda-prakaraṇa), Maṇḍana on *vidhi* (Maṇḍana-prakaraṇa), Vāchaspati on the locus of *avidyā* (Vāchaspati-prakaraṇa), Prakāśātman on the *vivaraṇa* of the *Pañca-pādikā* (Prakāśātman-prakaraṇa) — and indicates in each case which moves are continuous with the *adhyāsa-bhāṣya* method and which are doctrinal accretions. The treatise functions as the school's reception-history of post-Śaṅkara Advaita conducted on its own methodological criterion. The treatment of Sureśvara is unusually sympathetic — Sureśvara is read as preserving the *adhyāsa* analysis through the *Naiṣkarmya-Siddhi* (*Bhāskara*, Sureśvara-prakaraṇa, on *Naiṣkarmya-Siddhi* 1.1–5 and 2.1) — while the treatment of Vāchaspati's *Bhāmatī* (on BSB 1.1.1 *adhyāsa-bhāṣya*) and Prakāśātman's *Pañca-pādikā-Vivaraṇa* (on the *Pañca-pādikā* opening) is correspondingly more critical. The work is one of the school's principal reception-historical reference texts.",
+      "summary": "A Sanskrit illuminator (*bhāskara*) of the *Śuddha-Śāṅkara-Prakriyā*. The work supplies the school's reading of each contested locus in the post-Śaṅkara tradition — Sureśvara on *avidyā* (*Śuddha-Śāṅkara-Prakriyā-Bhāskara*, Sureśvara-prakaraṇa), Padmapāda on the *jīva-Brahma* superimposition (Padmapāda-prakaraṇa), Maṇḍana on *vidhi* (Maṇḍana-prakaraṇa), Vāchaspati on the locus of *avidyā* (Vāchaspati-prakaraṇa), Prakāśātman on the *vivaraṇa* of the *Pañca-pādikā* (Prakāśātman-prakaraṇa) — and indicates in each case which moves are continuous with the *adhyāsa-bhāṣya* method and which are doctrinal accretions. The treatise functions as the school's reception-history of post-Śaṅkara Advaita conducted on its own methodological criterion. The treatment of Sureśvara is unusually sympathetic — Sureśvara is read as preserving the *adhyāsa* analysis through the *Naiṣkarmya-Siddhi* (*Bhāskara*, Sureśvara-prakaraṇa, on [*Naiṣkarmya-Siddhi* 1.1–5](cite://sureshvara/naishkarmya-siddhi/1.1-5) and 2.1) — while the treatment of Vāchaspati's *Bhāmatī* (on [BSB 1.1.1](cite://sankara/brahma-sutra-bhasya/1.1.1) *adhyāsa-bhāṣya*) and Prakāśātman's *Pañca-pādikā-Vivaraṇa* (on the *Pañca-pādikā* opening) is correspondingly more critical. The work is one of the school's principal reception-historical reference texts.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     },
@@ -104,7 +118,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored.",
       "ascription_evidence": [
-        {"kind": "manuscript-colophon", "description": "Adhyātma-Prakāśa-Kāryālaya publication colophon."}
+        {
+          "kind": "manuscript-colophon",
+          "description": "Adhyātma-Prakāśa-Kāryālaya publication colophon."
+        }
       ],
       "genre": "upanisad-bhashya",
       "language": "sanskrit",
@@ -121,7 +138,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored English summary intended for the modern reader.",
       "ascription_evidence": [
-        {"kind": "manuscript-colophon", "description": "Adhyātma-Prakāśa-Kāryālaya publication colophon."}
+        {
+          "kind": "manuscript-colophon",
+          "description": "Adhyātma-Prakāśa-Kāryālaya publication colophon."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",

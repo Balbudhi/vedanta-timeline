@@ -2,7 +2,9 @@
   "id": "udayana",
   "name": "Udayana",
   "name_iast": "Udayana",
-  "alternate_names": ["Udayanācārya"],
+  "alternate_names": [
+    "Udayanācārya"
+  ],
   "dates_low": 975,
   "dates_high": 1050,
   "dates_tier": "consensus-textual",
@@ -11,8 +13,15 @@
   "school_color_token": "nyaya-comparator",
   "sub_school": "Old-Nyāya (Prācīna-Nyāya)",
   "sub_school_shade": 3,
-  "lineage_in": ["aksapada", "vatsyayana", "uddyotakara", "vacaspati"],
-  "lineage_out": ["gangesa"],
+  "lineage_in": [
+    "aksapada",
+    "vatsyayana",
+    "uddyotakara",
+    "vacaspati"
+  ],
+  "lineage_out": [
+    "gangesa"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "dharmakirti",
@@ -30,7 +39,7 @@
       "note": "Ātma-Tattva-Viveka chapter 3 (vijñāna-mātra) targets the Yogācāra vijñapti-mātratā position in the form developed by Vasubandhu's Viṃśatikā: the bāhyārtha-bhaṅga argument is reversed and the vijñāna-only thesis is shown to be incompatible with the cross-moment cognitive identity the Naiyāyika demonstrates."
     }
   ],
-  "core_thesis": "Udayana is the figure in whom Old-Nyāya reaches its constructive maturity and the figure to whom Gaṅgeśa's Navya-Nyāya is the immediate downstream. Three works fix the position. The *Nyāya-Kusumāñjali* offers the school's most developed *anumāna* for *īśvara*: five concentric arguments — *kāryāt* (from effects requiring an intelligent agent), *āyojanāt* (from coordinated complexity), *dhṛteḥ* (from cosmic maintenance), *padāt* (from the meaningfulness of language requiring a divine *saṅketa*), *pratyayataḥ* (from the authority of *śruti* requiring a reliable speaker) — distributed across the five *stabakas* (*Nyāya-Kusumāñjali* 1–5; the *kāryāt-anumāna* is at *stabaka* 5 with the canonical formulation in 5.1–5). The argument is meticulously *vyāpti*-formal and survives as the standard Naiyāyika *īśvara-sādhana*. The *Ātma-Tattva-Viveka* prosecutes a sustained refutation of Buddhist *kṣaṇika-vāda* (chapter 1) and *nairātmya-vāda* by demonstrating that the unity-of-cognising-subject across remembered, anticipated, and currently perceived contents requires an enduring *ātman*; the four-chapter structure attacks four successive Buddhist positions (chapters 1–4: *kṣaṇa-bhaṅga*, *bāhyārtha-bhaṅga*, *vijñāna-mātra*, *śūnya-vāda*). The *Tātparya-Pariśuddhi* sub-commentates Vāchaspati Miśra's *Tātparya-Ṭīkā* on Uddyotakara's *Vārttika* on Vātsyāyana's *Bhāṣya* on Akṣapāda's *Sūtra* (covering Nyāya-Sūtra 1.1–5.2) — five-tier scholasticism — and is the form in which the entire Old-Nyāya stack is read in late-medieval pāṭhaśālās. The three works fix Old-Nyāya's mature theological, polemical, and scholastic shape; the *Kusumāñjali*'s *kāryāt-anumāna* survives as the standard Naiyāyika *īśvara-sādhana*, the *Ātma-Tattva-Viveka* as the model for late-medieval polemical-treatise construction, and the *Pariśuddhi* as the form in which the entire Old-Nyāya stack is read in late-medieval Mithilā and Navadvīpa pāṭhaśālās.",
+  "core_thesis": "Udayana is the figure in whom Old-Nyāya reaches its constructive maturity and the figure to whom Gaṅgeśa's Navya-Nyāya is the immediate downstream. Three works fix the position. The *Nyāya-Kusumāñjali* offers the school's most developed *anumāna* for *īśvara*: five concentric arguments — *kāryāt* (from effects requiring an intelligent agent), *āyojanāt* (from coordinated complexity), *dhṛteḥ* (from cosmic maintenance), *padāt* (from the meaningfulness of language requiring a divine *saṅketa*), *pratyayataḥ* (from the authority of *śruti* requiring a reliable speaker) — distributed across the five *stabakas* ([*Nyāya-Kusumāñjali* 1–5](cite://udayana/nyaya-kusumanjali/1-5); the *kāryāt-anumāna* is at *stabaka* 5 with the canonical formulation in 5.1–5). The argument is meticulously *vyāpti*-formal and survives as the standard Naiyāyika *īśvara-sādhana*. The *Ātma-Tattva-Viveka* prosecutes a sustained refutation of Buddhist *kṣaṇika-vāda* (chapter 1) and *nairātmya-vāda* by demonstrating that the unity-of-cognising-subject across remembered, anticipated, and currently perceived contents requires an enduring *ātman*; the four-chapter structure attacks four successive Buddhist positions (chapters 1–4: *kṣaṇa-bhaṅga*, *bāhyārtha-bhaṅga*, *vijñāna-mātra*, *śūnya-vāda*). The *Tātparya-Pariśuddhi* sub-commentates Vāchaspati Miśra's *Tātparya-Ṭīkā* on Uddyotakara's *Vārttika* on Vātsyāyana's *Bhāṣya* on Akṣapāda's *Sūtra* (covering Nyāya-Sūtra 1.1–5.2) — five-tier scholasticism — and is the form in which the entire Old-Nyāya stack is read in late-medieval pāṭhaśālās. The three works fix Old-Nyāya's mature theological, polemical, and scholastic shape; the *Kusumāñjali*'s *kāryāt-anumāna* survives as the standard Naiyāyika *īśvara-sādhana*, the *Ātma-Tattva-Viveka* as the model for late-medieval polemical-treatise construction, and the *Pariśuddhi* as the form in which the entire Old-Nyāya stack is read in late-medieval Mithilā and Navadvīpa pāṭhaśālās.",
   "engaged_works": [
     {
       "work_id": "nyaya-kusumanjali",
@@ -43,12 +52,15 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored independent treatise on natural theology; widely accepted as the canonical Naiyāyika īśvara-proof.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
       "source_status": "clean-on-disk",
-      "summary": "Five-*stabaka* (chapter) treatise demonstrating *īśvara* by formal *anumāna*. Each *stabaka* prosecutes one of the five proofs (*Nyāya-Kusumāñjali* 1–5): *stabaka* 1, *dhṛteḥ*; *stabaka* 2, *āyojanāt* and ancillary cosmic-coordination arguments; *stabaka* 3, *padāt* (from the necessity of divine *saṅketa* for original word-meaning); *stabaka* 4, *pratyayataḥ* (from the authority of *Veda* requiring a reliable *āpta* speaker); *stabaka* 5, *kāryāt* (the most extensively treated, with the canonical *vyāpti*-formula at 5.1–5). The architecture is dialectical: each chapter opens with the *pūrvapakṣa* — Mīmāṃsā denial that *īśvara* is needed (against *Mīmāṃsā-Sūtra* 1.1.5 *apauruṣeyatva*), Buddhist denial of intelligent cosmic-cause talk, Cārvāka denial of the entire framework — and concludes with the *uttarapakṣa* refining the *anumāna*. The *kāryāt* argument (*stabaka* 5) is the most exhaustively treated: the *vyāpti* between *kārya-tva* (being-an-effect) and *buddhimat-kāraṇa-janya-tva* (being-produced-by-an-intelligent-cause) is defended against every standard Mīmāṃsā and Buddhist *upādhi*-objection. The *padāt* argument (*stabaka* 3) turns on the necessity of a divine *saṅketa-kartṛ* for the original word-meaning convention, anticipating the Bhartṛhari-influenced Mīmāṃsā position that *vāc* is *anādi*. The *pratyayataḥ* argument (*stabaka* 4) grounds the authority of *Veda* in *īśvara* as *āpta* speaker — a direct rebuttal of Mīmāṃsā *apauruṣeyatva*. The treatise becomes the standard medieval Naiyāyika natural theology and is the target of Śrīharṣa's *Khaṇḍana-Khaṇḍa-Khādya* (paricheda 1) in late-twelfth-century Advaita negative dialectic.",
+      "summary": "Five-*stabaka* (chapter) treatise demonstrating *īśvara* by formal *anumāna*. Each *stabaka* prosecutes one of the five proofs ([*Nyāya-Kusumāñjali* 1–5](cite://udayana/nyaya-kusumanjali/1-5)): *stabaka* 1, *dhṛteḥ*; *stabaka* 2, *āyojanāt* and ancillary cosmic-coordination arguments; *stabaka* 3, *padāt* (from the necessity of divine *saṅketa* for original word-meaning); *stabaka* 4, *pratyayataḥ* (from the authority of *Veda* requiring a reliable *āpta* speaker); *stabaka* 5, *kāryāt* (the most extensively treated, with the canonical *vyāpti*-formula at 5.1–5). The architecture is dialectical: each chapter opens with the *pūrvapakṣa* — Mīmāṃsā denial that *īśvara* is needed (against [*Mīmāṃsā-Sūtra* 1.1.5](cite://jaimini/mimamsa-sutra/1.1.5) *apauruṣeyatva*), Buddhist denial of intelligent cosmic-cause talk, Cārvāka denial of the entire framework — and concludes with the *uttarapakṣa* refining the *anumāna*. The *kāryāt* argument (*stabaka* 5) is the most exhaustively treated: the *vyāpti* between *kārya-tva* (being-an-effect) and *buddhimat-kāraṇa-janya-tva* (being-produced-by-an-intelligent-cause) is defended against every standard Mīmāṃsā and Buddhist *upādhi*-objection. The *padāt* argument (*stabaka* 3) turns on the necessity of a divine *saṅketa-kartṛ* for the original word-meaning convention, anticipating the Bhartṛhari-influenced Mīmāṃsā position that *vāc* is *anādi*. The *pratyayataḥ* argument (*stabaka* 4) grounds the authority of *Veda* in *īśvara* as *āpta* speaker — a direct rebuttal of Mīmāṃsā *apauruṣeyatva*. The treatise becomes the standard medieval Naiyāyika natural theology and is the target of Śrīharṣa's *Khaṇḍana-Khaṇḍa-Khādya* (paricheda 1) in late-twelfth-century Advaita negative dialectic.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     },
@@ -56,19 +68,24 @@
       "work_id": "atma-tattva-viveka",
       "title": "Atma-Tattva-Viveka",
       "title_iast": "Ātma-Tattva-Viveka",
-      "alternate_titles": ["Bauddha-Dhikkāra"],
+      "alternate_titles": [
+        "Bauddha-Dhikkāra"
+      ],
       "composition_dates_low": 975,
       "composition_dates_high": 1025,
       "composition_dates_notes": "Composed in Udayana's mature period.",
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored polemical treatise against Buddhist no-self positions.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
       "source_status": "primary-text-not-in-corpus",
-      "summary": "Four-chapter polemical treatise refuting four Buddhist positions opposing the *ātman*-realist Naiyāyika thesis. Chapter 1 (*Ātma-Tattva-Viveka* 1) attacks *kṣaṇika-vāda*: instantaneous-being is shown to be incompatible with the unity of recognising-subject across temporally distinct cognitions, and the standard Sautrāntika rejoinder via *santāna* (causal series) is shown to fail under analysis of *pratyabhijñā* (recognition); against the Buddhist *kṣaṇa-bhaṅga* arguments of Dharmakīrti's *Pramāṇa-Vārttika* 1 and 2. Chapter 2 (*Ātma-Tattva-Viveka* 2) attacks *bāhyārtha-bhaṅga* (the denial of extra-mental objects): perceptual cognition is argued to require an extra-mental cause, and the Yogācāra appeal to *vāsanā*-residue is challenged on the grounds that the *vāsanā*-bearer cannot itself be momentary. Chapter 3 (*Ātma-Tattva-Viveka* 3) attacks *vijñāna-mātra* (consciousness-only): *cit*-only ontology is argued to be incoherent on its own terms because *artha*- and *jñāna*-distinction is intra-cognitive but not reducible to *cit*. Chapter 4 (*Ātma-Tattva-Viveka* 4) attacks *śūnya-vāda*: the analysis of *anyathā-khyāti* (cognition mistaking one thing for another) is argued to require both terms of the misidentification to be real, refuting any radical-emptiness reading (against Nāgārjuna's *Mūla-Madhyamaka-Kārikā* 24.18). The treatise's enduring importance is methodological: it is the model for late-medieval Indian polemical-treatise construction, including in Advaita (Citsukha's *Tattva-Pradīpikā*) and Dvaita (Vyāsatīrtha's *Nyāyāmṛta*).",
+      "summary": "Four-chapter polemical treatise refuting four Buddhist positions opposing the *ātman*-realist Naiyāyika thesis. Chapter 1 ([*Ātma-Tattva-Viveka* 1](cite://udayana/atma-tattva-viveka/1)) attacks *kṣaṇika-vāda*: instantaneous-being is shown to be incompatible with the unity of recognising-subject across temporally distinct cognitions, and the standard Sautrāntika rejoinder via *santāna* (causal series) is shown to fail under analysis of *pratyabhijñā* (recognition); against the Buddhist *kṣaṇa-bhaṅga* arguments of Dharmakīrti's [*Pramāṇa-Vārttika* 1](cite://dharmakirti/pramana-varttika/1) and 2. Chapter 2 ([*Ātma-Tattva-Viveka* 2](cite://udayana/atma-tattva-viveka/2)) attacks *bāhyārtha-bhaṅga* (the denial of extra-mental objects): perceptual cognition is argued to require an extra-mental cause, and the Yogācāra appeal to *vāsanā*-residue is challenged on the grounds that the *vāsanā*-bearer cannot itself be momentary. Chapter 3 ([*Ātma-Tattva-Viveka* 3](cite://udayana/atma-tattva-viveka/3)) attacks *vijñāna-mātra* (consciousness-only): *cit*-only ontology is argued to be incoherent on its own terms because *artha*- and *jñāna*-distinction is intra-cognitive but not reducible to *cit*. Chapter 4 ([*Ātma-Tattva-Viveka* 4](cite://udayana/atma-tattva-viveka/4)) attacks *śūnya-vāda*: the analysis of *anyathā-khyāti* (cognition mistaking one thing for another) is argued to require both terms of the misidentification to be real, refuting any radical-emptiness reading (against Nāgārjuna's [*Mūla-Madhyamaka-Kārikā* 24.18](cite://nagarjuna/mula-madhyamaka-karika/24.18)). The treatise's enduring importance is methodological: it is the model for late-medieval Indian polemical-treatise construction, including in Advaita (Citsukha's *Tattva-Pradīpikā*) and Dvaita (Vyāsatīrtha's *Nyāyāmṛta*).",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     },
@@ -76,19 +93,24 @@
       "work_id": "nyaya-varttika-tatparya-parisuddhi",
       "title": "Nyaya-Varttika-Tatparya-Parisuddhi",
       "title_iast": "Nyāya-Vārttika-Tātparya-Pariśuddhi",
-      "alternate_titles": ["Pariśuddhi"],
+      "alternate_titles": [
+        "Pariśuddhi"
+      ],
       "composition_dates_low": 975,
       "composition_dates_high": 1050,
       "composition_dates_notes": "Composed in Udayana's mature period.",
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored sub-commentary on Vāchaspati Miśra's Tātparya-Ṭīkā; the apex of pre-Gaṅgeśa Naiyāyika scholasticism.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
       "source_status": "primary-text-not-in-corpus",
-      "summary": "Sub-commentary on Vāchaspati Miśra's *Nyāya-Vārttika-Tātparya-Ṭīkā*, completing the five-tier Old-Nyāya stack: *Sūtra* (Akṣapāda) → *Bhāṣya* (Vātsyāyana) → *Vārttika* (Uddyotakara) → *Tātparya-Ṭīkā* (Vāchaspati Miśra) → *Pariśuddhi* (Udayana), covering Nyāya-Sūtra 1.1–5.2. The *Pariśuddhi* refines the *pramāṇa*-doctrine inherited from the four prior layers, polishes the analysis of *vyāpti* and *upādhi* (on NS 1.1.5 and 1.2.4–9), and consolidates the *jāti*-realism (on NS 2.2.66) against persisting Buddhist nominalist pressure. Two contributions are systemically important. First, the analysis of *paryāpti* — the conditions under which a property's being-located-in something exhausts the relevant predication — anticipates Gaṅgeśa's later technical apparatus by a century. Second, the analysis of *abhāva-pratiyogitva* — the relation between an absence and its absentee (on NS 2.2.7–12) — is given the treatment that Gaṅgeśa's *Tattva-Cintāmaṇi* presupposes. The *Pariśuddhi* is the form in which the entire Old-Nyāya stack is read in late-medieval Mithilā and Navadvīpa pāṭhaśālās; without it, Gaṅgeśa is unintelligible.",
+      "summary": "Sub-commentary on Vāchaspati Miśra's *Nyāya-Vārttika-Tātparya-Ṭīkā*, completing the five-tier Old-Nyāya stack: *Sūtra* (Akṣapāda) → *Bhāṣya* (Vātsyāyana) → *Vārttika* (Uddyotakara) → *Tātparya-Ṭīkā* (Vāchaspati Miśra) → *Pariśuddhi* (Udayana), covering Nyāya-Sūtra 1.1–5.2. The *Pariśuddhi* refines the *pramāṇa*-doctrine inherited from the four prior layers, polishes the analysis of *vyāpti* and *upādhi* (on [NS 1.1.5](cite://sureshvara/naishkarmya-siddhi/1.1.5) and 1.2.4–9), and consolidates the *jāti*-realism (on [NS 2.2.66](cite://sureshvara/naishkarmya-siddhi/2.2.66)) against persisting Buddhist nominalist pressure. Two contributions are systemically important. First, the analysis of *paryāpti* — the conditions under which a property's being-located-in something exhausts the relevant predication — anticipates Gaṅgeśa's later technical apparatus by a century. Second, the analysis of *abhāva-pratiyogitva* — the relation between an absence and its absentee (on [NS 2.2.7–12](cite://sureshvara/naishkarmya-siddhi/2.2.7-12)) — is given the treatment that Gaṅgeśa's *Tattva-Cintāmaṇi* presupposes. The *Pariśuddhi* is the form in which the entire Old-Nyāya stack is read in late-medieval Mithilā and Navadvīpa pāṭhaśālās; without it, Gaṅgeśa is unintelligible.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     }

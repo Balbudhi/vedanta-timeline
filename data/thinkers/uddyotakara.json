@@ -2,7 +2,10 @@
   "id": "uddyotakara",
   "name": "Uddyotakara",
   "name_iast": "Uddyotakara",
-  "alternate_names": ["Bhāradvāja Uddyotakara", "Pāśupatācārya Uddyotakara"],
+  "alternate_names": [
+    "Bhāradvāja Uddyotakara",
+    "Pāśupatācārya Uddyotakara"
+  ],
   "dates_low": 550,
   "dates_high": 650,
   "dates_tier": "consensus-textual",
@@ -11,8 +14,14 @@
   "school_color_token": "nyaya-comparator",
   "sub_school": "Old-Nyāya (Prācīna-Nyāya)",
   "sub_school_shade": 3,
-  "lineage_in": ["aksapada", "vatsyayana"],
-  "lineage_out": ["udayana", "vacaspati"],
+  "lineage_in": [
+    "aksapada",
+    "vatsyayana"
+  ],
+  "lineage_out": [
+    "udayana",
+    "vacaspati"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "dignaga",
@@ -25,7 +34,7 @@
       "note": "Dharmakīrti's Pramāṇa-Vārttika is the Buddhist counter-reply to Uddyotakara's Nyāya-Vārttika: the Naiyāyika defence of the four pramāṇas, of jāti-realism, and of the Naiyāyika analysis of the inferential mark is engaged point-by-point and answered from the developed Buddhist-pramāṇa standpoint."
     }
   ],
-  "core_thesis": "Uddyotakara's *Nyāya-Vārttika* defends Vātsyāyana's *Bhāṣya* against the Buddhist epistemological challenge mounted by Diṅnāga in the *Pramāṇa-Samuccaya*, and in doing so re-engineers Naiyāyika *pramāṇa*-doctrine into the form that becomes standard. Three contributions matter. First, the analysis of *anumāna*: Uddyotakara reformulates the *triple-mark* (*tri-rūpa-liṅga*) requirement on a Naiyāyika realist basis (against Diṅnāga, *Pramāṇa-Samuccaya* 2.1–8 on the *trairūpya*) and develops the *hetv-ābhāsa* (fallacious reasons) classification — *asiddha*, *viruddha*, *anaikāntika*, *prakaraṇa-sama*, *kālātīta* — that the school carries forward (*Nyāya-Vārttika* on Nyāya-Sūtra 1.2.4–9). The treatment of *sapakṣa* and *vipakṣa* — the relevant similar and dissimilar instances — is given here in the form Vāchaspati Miśra and Udayana inherit. Second, the defence of *jāti*: Uddyotakara's reply to Diṅnāga's *apoha-vāda* (the Buddhist nominalist thesis that 'cow' refers by exclusion of non-cows; *Pramāṇa-Samuccaya* 5.1–11) is the locus classicus for the Naiyāyika realist position that universals are mind-independent samavāya-related entities cognised in perception itself. The *apoha-jāti* debate is centred at *Nyāya-Vārttika* on NS 2.2.66. Third, the analysis of *śabda-pramāṇa*: Uddyotakara's defence of testimony as an independent *pramāṇa* against Buddhist reduction of testimony to inference (against *Pramāṇa-Samuccaya* chapter 5) becomes the standard Naiyāyika position (*Nyāya-Vārttika* on NS 2.1.49–68). The *Vārttika*'s historical importance is generative: Vāchaspati Miśra's *Tātparya-Ṭīkā* takes it as base, Udayana's *Tātparya-Pariśuddhi* sub-commentates Vāchaspati on the *Vārttika*, and the entire mature Old-Nyāya stack is the *Vārttika*-stream as preserved through these sub-commentaries.",
+  "core_thesis": "Uddyotakara's *Nyāya-Vārttika* defends Vātsyāyana's *Bhāṣya* against the Buddhist epistemological challenge mounted by Diṅnāga in the *Pramāṇa-Samuccaya*, and in doing so re-engineers Naiyāyika *pramāṇa*-doctrine into the form that becomes standard. Three contributions matter. First, the analysis of *anumāna*: Uddyotakara reformulates the *triple-mark* (*tri-rūpa-liṅga*) requirement on a Naiyāyika realist basis (against Diṅnāga, [*Pramāṇa-Samuccaya* 2.1–8](cite://dignaga/pramana-samuccaya/2.1-8) on the *trairūpya*) and develops the *hetv-ābhāsa* (fallacious reasons) classification — *asiddha*, *viruddha*, *anaikāntika*, *prakaraṇa-sama*, *kālātīta* — that the school carries forward (*Nyāya-Vārttika* on Nyāya-Sūtra 1.2.4–9). The treatment of *sapakṣa* and *vipakṣa* — the relevant similar and dissimilar instances — is given here in the form Vāchaspati Miśra and Udayana inherit. Second, the defence of *jāti*: Uddyotakara's reply to Diṅnāga's *apoha-vāda* (the Buddhist nominalist thesis that 'cow' refers by exclusion of non-cows; [*Pramāṇa-Samuccaya* 5.1–11](cite://dignaga/pramana-samuccaya/5.1-11)) is the locus classicus for the Naiyāyika realist position that universals are mind-independent samavāya-related entities cognised in perception itself. The *apoha-jāti* debate is centred at *Nyāya-Vārttika* on [NS 2.2.66](cite://sureshvara/naishkarmya-siddhi/2.2.66). Third, the analysis of *śabda-pramāṇa*: Uddyotakara's defence of testimony as an independent *pramāṇa* against Buddhist reduction of testimony to inference (against *Pramāṇa-Samuccaya* chapter 5) becomes the standard Naiyāyika position (*Nyāya-Vārttika* on [NS 2.1.49–68](cite://sureshvara/naishkarmya-siddhi/2.1.49-68)). The *Vārttika*'s historical importance is generative: Vāchaspati Miśra's *Tātparya-Ṭīkā* takes it as base, Udayana's *Tātparya-Pariśuddhi* sub-commentates Vāchaspati on the *Vārttika*, and the entire mature Old-Nyāya stack is the *Vārttika*-stream as preserved through these sub-commentaries.",
   "engaged_works": [
     {
       "work_id": "nyaya-varttika",
@@ -38,12 +47,15 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored sub-commentary on Vātsyāyana's Bhāṣya; its colophon identifies Uddyotakara as a Pāśupata.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "varttika",
       "language": "sanskrit",
       "source_status": "primary-text-not-in-corpus",
-      "summary": "*Vārttika*-style sub-commentary on Vātsyāyana's *Nyāya-Sūtra-Bhāṣya*, working through the *Sūtra* and *Bhāṣya* together. The polemical occasion is Diṅnāga's *Pramāṇa-Samuccaya* (esp. chapter 1 on *pratyakṣa* and chapter 5 on *apoha*): Uddyotakara opens with a *maṅgala* whose explicit purpose is to defend the *Bhāṣya* against the criticisms it has accumulated. The bulk of the polemical work happens at three loci. *Nyāya-Vārttika* on NS 1.1.4 on *pratyakṣa* — Uddyotakara reformulates the perceptual definition to handle Diṅnāga's objections about *kalpanāpoḍha* (free-of-conceptual-construction) perception (against *Pramāṇa-Samuccaya* 1.3–4). *Nyāya-Vārttika* on NS 1.1.5 (with NS 1.2.4–9) on *anumāna* — the *tri-rūpa-liṅga* analysis is reset on a realist footing and the *hetv-ābhāsa* fivefold typology (*asiddha*, *viruddha*, *anaikāntika*, *prakaraṇa-sama*, *kālātīta*) is developed. *Nyāya-Vārttika* on NS 2.2.66 on *jāti* — the *apoha*-vs-realist-universal debate (against *Pramāṇa-Samuccaya* 5.1–11) is centred here in its classical form. The *Vārttika*'s technical achievement is to absorb Buddhist epistemological pressure without conceding the realist ontology; its historical achievement is to fix the form in which the *Sūtra*-*Bhāṣya* are read in the medieval Nyāya school.",
+      "summary": "*Vārttika*-style sub-commentary on Vātsyāyana's *Nyāya-Sūtra-Bhāṣya*, working through the *Sūtra* and *Bhāṣya* together. The polemical occasion is Diṅnāga's *Pramāṇa-Samuccaya* (esp. chapter 1 on *pratyakṣa* and chapter 5 on *apoha*): Uddyotakara opens with a *maṅgala* whose explicit purpose is to defend the *Bhāṣya* against the criticisms it has accumulated. The bulk of the polemical work happens at three loci. *Nyāya-Vārttika* on [NS 1.1.4](cite://sureshvara/naishkarmya-siddhi/1.1.4) on *pratyakṣa* — Uddyotakara reformulates the perceptual definition to handle Diṅnāga's objections about *kalpanāpoḍha* (free-of-conceptual-construction) perception (against [*Pramāṇa-Samuccaya* 1.3–4](cite://dignaga/pramana-samuccaya/1.3-4)). *Nyāya-Vārttika* on [NS 1.1.5](cite://sureshvara/naishkarmya-siddhi/1.1.5) (with [NS 1.2.4–9](cite://sureshvara/naishkarmya-siddhi/1.2.4-9)) on *anumāna* — the *tri-rūpa-liṅga* analysis is reset on a realist footing and the *hetv-ābhāsa* fivefold typology (*asiddha*, *viruddha*, *anaikāntika*, *prakaraṇa-sama*, *kālātīta*) is developed. *Nyāya-Vārttika* on [NS 2.2.66](cite://sureshvara/naishkarmya-siddhi/2.2.66) on *jāti* — the *apoha*-vs-realist-universal debate (against [*Pramāṇa-Samuccaya* 5.1–11](cite://dignaga/pramana-samuccaya/5.1-11)) is centred here in its classical form. The *Vārttika*'s technical achievement is to absorb Buddhist epistemological pressure without conceding the realist ontology; its historical achievement is to fix the form in which the *Sūtra*-*Bhāṣya* are read in the medieval Nyāya school.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     }

@@ -6,7 +6,7 @@
 
 ## 2. Sampling and scope statement
 
-Engaged at depth: the opening maṅgala and the first pāda’s core doctrinal run, especially BS 1.1.1-4 and the anti-pratibimba/anti-avaccheda/anti-avidyā discussions (printed pp. 1-45 in the pure-Sanskrit file); the samanvaya and bhinnābhinna material around the close of 1.1 (pp. 61-85); the first adhyāya’s fourth pāda on prakṛti as Brahman’s real power or upādhi (pp. 135-141); and the liberation/practice material in 3.4 and 4.1 (pp. 303-313).
+Engaged at depth: the opening maṅgala and the first pāda’s core doctrinal run, especially [BS 1.1.1-4](cite://mandana/brahma-siddhi/1.1.1-4) and the anti-pratibimba/anti-avaccheda/anti-avidyā discussions (printed pp. 1-45 in the pure-Sanskrit file); the samanvaya and bhinnābhinna material around the close of 1.1 (pp. 61-85); the first adhyāya’s fourth pāda on prakṛti as Brahman’s real power or upādhi (pp. 135-141); and the liberation/practice material in 3.4 and 4.1 (pp. 303-313).
 
 Structural summary only: the full subject-table in the pure-Sanskrit file, plus sampled openings and internal headings from the remaining pādas of adhyāyas 1-4, including the cosmological and anti-rival discussions of adhyāya 2 and the gati/mokṣa architecture of adhyāya 4.
 
