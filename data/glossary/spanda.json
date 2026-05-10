@@ -10,24 +10,172 @@
     "spanda-tattva"
   ],
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-glossary-depth-opus",
+  "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "A central Kashmir Śaiva term for the intrinsic pulsation of consciousness. *Spanda* does not mean gross physical vibration. It names the fact that ultimate consciousness is not inert self-presence but living self-articulation: a throb of manifestation, withdrawal, recognition, and agency within one awareness. The term therefore sits between ontology and practice. Metaphysically, it protects non-dualism from collapsing into static monism by insisting that the real is intrinsically dynamic. Practically, it gives a way to interpret experience, breath, attention, and moments of intensified awareness as expressions of the same divine pulsation. The concept is closely linked to *svātantrya*, *vimarśa*, *unmeṣa*, and *pratyabhijñā*: sovereign freedom manifests as pulsation, and liberation is the recognition of one's own awareness as that pulsation. Translating *spanda* merely as vibration is often too mechanical unless the reader is told that the doctrine concerns consciousness before it concerns motion.",
   "per_school": [
     {
-      "school": "Spanda school",
-      "definition": "In the *Spanda-Kārikā* tradition, *spanda* is the subtle and constant liveliness of consciousness that remains present even when mental states contract or expand. It is not temporal movement from one place to another, but the ever-operative capacity of awareness to manifest, withdraw, remember, intend, and know. Practice consists in discerning that subtle throb beneath changing cognitive states.",
+      "school": "Advaita",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "No on-disk Advaita source in the designated corpus treats spanda as a technical Advaita term."
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "No on-disk Viśiṣṭādvaita source in the designated corpus treats spanda as a technical Viśiṣṭādvaita term."
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The designated Tattva-vāda thinker files yielded no school-internal technical use of spanda."
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The designated Bhedābheda thinker files yielded no school-internal technical use of spanda."
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The designated Acintya-Bhedābheda thinker files yielded no school-internal technical use of spanda."
+    },
+    {
+      "school": "Dvaitādvaita",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The designated Dvaitādvaita thinker files yielded no school-internal technical use of spanda."
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The designated Śuddhādvaita thinker files yielded no school-internal technical use of spanda."
+    },
+    {
+      "school": "Sāṃkhya",
+      "definition": "Classical Sāṃkhya does not here elevate spanda into an autonomous metaphysical principle; in the commentarial exposition on Sāṃkhya-Kārikā 29, spandanakarma denotes the common activity of the vital airs shared across the organ-complex (cite://isvara-krsna/samkhya-karika/29-commentary). In the available Sāṃkhya locus, then, spanda designates physiological or instrumental motion within prakṛti's evolutes, not the self-luminous dynamism of puruṣa (cite://isvara-krsna/samkhya-karika/29-commentary).",
       "primary_loci": [
-        "Spanda-Kārikā 1.1-5",
-        "Spanda-Nirṇaya ad Spanda-Kārikā 1.1"
+        "Sāṃkhya-Kārikā 29 commentary"
+      ],
+      "citations": [
+        {
+          "cite": "cite://isvara-krsna/samkhya-karika/29-commentary",
+          "locus_short": "SK 29 comm."
+        }
       ]
     },
     {
-      "school": "Pratyabhijñā / Trika integration",
-      "definition": "Later Trika authors integrate *spanda* into the broader non-dual system by reading it as the experiential face of Śiva's *svātantrya* and *vimarśa*. What the Spanda school highlights as pulsation, the Pratyabhijñā school articulates as self-recognition and sovereign freedom. The doctrines are not competitors but different analytic entrances into the same Śaiva account of consciousness.",
+      "school": "Yoga",
+      "definition": "In the Yoga-Bhāṣya, the stem spand- marks the activation of the kleśas, which reinforce the dominion of the guṇas and set causal process in motion (cite://vyasa-bhasya/yoga-sutra-bhasya/2.3). Elsewhere the bhāṣya uses parispandate for the embodied subject's mental, verbal, and bodily stirring in pursuit of pleasurable means (cite://vyasa-bhasya/yoga-sutra-bhasya/2.15). Within the available Yoga material, therefore, spanda belongs to the register of psychophysical agitation inside saṃsāra rather than to a distinct ontological principle (cite://vyasa-bhasya/yoga-sutra-bhasya/2.3; cite://vyasa-bhasya/yoga-sutra-bhasya/2.15).",
       "primary_loci": [
-        "Tantrāloka 4",
-        "Pratyabhijñā-Hṛdaya 18-19"
+        "Yoga-Bhāṣya on Yoga-Sūtra 2.3",
+        "Yoga-Bhāṣya on Yoga-Sūtra 2.15"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vyasa-bhasya/yoga-sutra-bhasya/2.3",
+          "locus_short": "YBh on YS 2.3"
+        },
+        {
+          "cite": "cite://vyasa-bhasya/yoga-sutra-bhasya/2.15",
+          "locus_short": "YBh on YS 2.15"
+        }
       ]
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "Nyāya-Vaiśeṣika uses spanda in the technical orbit of motion (karma) and its perceptibility (cite://vatsyayana/nyaya-sutra-bhasya/2.1.34; cite://udayana/nyaya-kusumanjali/3.348). Vātsyāyana can treat 'the pot moves' (spandate) as an ordinary perceptual predication of a substance, which shows spanda functioning as a real, apprehended feature of things (cite://vatsyayana/nyaya-sutra-bhasya/2.1.34). Udayana then systematizes the contrast by stating spando 'spanda iti dvayameva and glossing the pair respectively as karma and guṇa (cite://udayana/nyaya-kusumanjali/3.348).",
+      "primary_loci": [
+        "Nyāya-Bhāṣya on Nyāya-Sūtra 2.1.34",
+        "Nyāya-Kusumāñjali 3.348"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vatsyayana/nyaya-sutra-bhasya/2.1.34",
+          "locus_short": "NBh on NS 2.1.34"
+        },
+        {
+          "cite": "cite://udayana/nyaya-kusumanjali/3.348",
+          "locus_short": "NKus 3.348"
+        }
+      ]
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The designated Pūrva-Mīmāṃsā corpus yielded no school-internal technical use of spanda."
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The designated Mādhyamaka primaries yielded no school-internal technical use of spanda."
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The designated Yogācāra primaries yielded no school-internal technical use of spanda."
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "In Pratyabhijñā / Trika, spanda names the self-uccalana of consciousness, the pulsational unfolding and retraction through which the universe arises and subsides (cite://vasugupta/spanda-karika/1.1; cite://abhinavagupta/tantraloka/4.183). The Spanda-Kārikā formulates this through Śaṅkara whose unmeṣa and nimeṣa are the world's dissolution and emergence, while Abhinavagupta explicitly defines spanda as the Self's own surging forth (cite://vasugupta/spanda-karika/1.1; cite://abhinavagupta/tantraloka/4.183). Kṣemarāja integrates the same doctrine with Pratyabhijñā by grounding manifestation in autonomous citi, which unfolds the universe on its own surface, and by treating the finite subject as consciousness contracted into a limited world-form (cite://ksemaraja/pratyabhijna-hrdayam/1; cite://ksemaraja/pratyabhijna-hrdayam/2; cite://ksemaraja/pratyabhijna-hrdayam/4).",
+      "primary_loci": [
+        "Spanda-Kārikā 1.1",
+        "Tantrāloka 4.183",
+        "Pratyabhijñā-Hṛdayam 1-2, 4"
+      ],
+      "citations": [
+        {
+          "cite": "cite://vasugupta/spanda-karika/1.1",
+          "locus_short": "SpK 1.1"
+        },
+        {
+          "cite": "cite://abhinavagupta/tantraloka/4.183",
+          "locus_short": "TĀ 4.183"
+        },
+        {
+          "cite": "cite://ksemaraja/pratyabhijna-hrdayam/1",
+          "locus_short": "PH 1"
+        },
+        {
+          "cite": "cite://ksemaraja/pratyabhijna-hrdayam/2",
+          "locus_short": "PH 2"
+        },
+        {
+          "cite": "cite://ksemaraja/pratyabhijna-hrdayam/4",
+          "locus_short": "PH 4"
+        }
+      ]
+    },
+    {
+      "school": "Jainism",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The designated Jaina primary in this corpus yielded no school-internal technical use of spanda."
+    },
+    {
+      "school": "Pāṇinian-Vaiyākaraṇa",
+      "definition": "NOT-APPLICABLE",
+      "primary_loci": [],
+      "citations": [],
+      "not_applicable_reason": "The present workspace contains no primary grammatical texts for this school, and spanda is not otherwise established here as a school-defining technical category."
     }
   ],
   "see_also": [
