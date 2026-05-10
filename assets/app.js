@@ -69,7 +69,7 @@ const LANE_DISPLAY = {
   "advaita": "Advaita",
   "bhedabheda": "Bhedābheda",
   "vishishtadvaita": "Viśiṣṭādvaita",
-  "dvaita": "Dvaita",
+  "dvaita": "Tattva-vāda",
   "acintya": "Acintya-Bhedābheda",
   "shuddha": "Śuddhādvaita",
   "avibhaga": "Avibhāgādvaita",
@@ -97,7 +97,7 @@ const LANE_DISPLAY = {
 
 // Compact labels for narrow viewports.
 const LANE_DISPLAY_COMPACT = {
-  "dvaita": "Dvaita",
+  "dvaita": "Tattva-vāda",
   "acintya": "Acintya-Bhed.",
   "avibhaga": "Avibhāgādv.",
 };
@@ -1258,12 +1258,12 @@ document.addEventListener("click", (e) => {
     openThinker(a.dataset.thinkerLink);
     return;
   }
-  // citation popovers (clickable primary-source citations)
+  // citation panel / popover (clickable primary-source citations)
   const cite = e.target.closest("a[href^='cite://']");
   if (cite) {
     e.preventDefault();
     const key = cite.getAttribute("href").replace(/^cite:\/\//, "");
-    openCitationPopover(key, cite);
+    openCitationPanel(key, cite);
     return;
   }
   // glossary popovers

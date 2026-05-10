@@ -108,14 +108,14 @@ Concretely, every thinker entry's `engaged_works[]` includes `ascription_tier`, 
 The site should populate comparative-claim entries for at least the following pairs, in this order of priority:
 
 1. **Advaita ↔ Viśiṣṭādvaita** — Śaṅkara/Sureśvara/Maṇḍana ↔ Yāmuna/Rāmānuja/Vedānta-Deśika. The *sapta-vidhā-anupapatti* axis. The *śarīra-śarīri-bhāva* alternative. Stotra-corpus disambiguation.
-2. **Advaita ↔ Dvaita** — Madhusūdana ↔ Vyāsatīrtha. The *Advaita-Siddhi* / *Nyāyāmṛta* / *Tarka-Tāṇḍava* triangle. The *mithyātva* axis. The user's T2 polemic-defense.
+2. **Advaita ↔ Tattva-vāda (Dvaita)** — Madhusūdana ↔ Vyāsatīrtha. The *Advaita-Siddhi* / *Nyāyāmṛta* / *Tarka-Tāṇḍava* triangle. The *mithyātva* axis. The user's T2 polemic-defense.
 3. **Advaita ↔ Bhedābheda (classical)** — Śaṅkara ↔ Bhāskara. The *māyā-as-Buddhist-import* charge. The *aupādhika-bhedābheda* alternative.
 4. **Advaita ↔ Acintya-Bhedābheda** — Madhusūdana ↔ Jīva Gosvāmī. The *bhakti-as-saving-cognition* axis. The *acintya* (inconceivable) modal operator as the user's "non-duality of duality and non-duality" formula.
-5. **Viśiṣṭādvaita ↔ Dvaita** — Rāmānuja/Vedānta-Deśika ↔ Madhva. Both reject Advaitic *mithyātva*; both affirm personal Lord; differ on whether *jīva*-multiplicity is a real distinction or an *aṃśa*-relation.
+5. **Viśiṣṭādvaita ↔ Tattva-vāda** — Rāmānuja/Vedānta-Deśika ↔ Madhva. Both reject Advaitic *mithyātva*; both affirm personal Lord; differ on whether *jīva*-multiplicity is a real distinction or an *aṃśa*-relation.
 6. **Vaḍakalai ↔ Tenkalai (intra-Viśiṣṭādvaita)** — Vedānta-Deśika ↔ Pillai-Lokācārya. The monkey-cat distinction as the surrender-axis.
 7. **Bhāmatī ↔ Vivaraṇa (intra-Advaita)** — Vāchaspati ↔ Prakāśātman. The locus-of-avidyā axis. The user's T7 builds explicitly on Vivaraṇa.
 8. **Śuddhādvaita ↔ Advaita** — Vallabha ↔ Madhusūdana. *Avikṛta-pariṇāma* vs. *vivarta*. Identity-without-*māyā*.
-9. **Acintya-Bhedābheda ↔ Dvaita** — Caitanya/Jīva ↔ Madhva (with the disputed Madhva-line claim of Caitanya). The *acintya-bhedābheda* reading of Madhva's *bimba-pratibimba*.
+9. **Acintya-Bhedābheda ↔ Tattva-vāda** — Caitanya/Jīva ↔ Madhva (with the disputed Madhva-line claim of Caitanya). The *acintya-bhedābheda* reading of Madhva's *bimba-pratibimba*.
 10. **Vijñānabhikṣu ↔ each school** — Avibhāga-advaita as explicit attempt to harmonize, hence interesting limit-case for the framework.
 11. **Pratyabhijñā / Trika ↔ Advaita (Vivaraṇa)** — Abhinavagupta ↔ Prakāśātman. The *svātantrya* / *māyā-as-divine-self-veiling* axis. The user's T7 explicitly invokes this. **Flag clearly that Trika is comparator-only, not Vedānta.**
 
