@@ -2578,37 +2578,105 @@ if (networkLegendToggleEl) {
 const filterBtn = document.getElementById("filterBtn");
 const filterDrawer = document.getElementById("filterDrawer");
 const filterChipsEl = document.getElementById("filterChips");
+const filterSoloPill = document.getElementById("filterSoloPill");
+
+// All toggleable lane keys (Vedānta schools + the comparator group).
+function allLaneKeys() {
+  const keys = [];
+  for (const tok of LANE_ORDER) {
+    if (VEDANTA_LANES.has(tok)) keys.push(tok);
+  }
+  keys.push(COMPARATOR_GROUP_KEY);
+  return keys;
+}
+
+function laneDisplayLabel(key) {
+  if (key === COMPARATOR_GROUP_KEY) return COMPARATOR_GROUP_LABEL;
+  return state.schools[key]?.display_name || LANE_DISPLAY[key] || key;
+}
+
+// "Solo" = exactly one lane is currently visible. Returns its key, or null.
+function currentSoloKey() {
+  if (state.visibleLanes.size !== 1) return null;
+  const [only] = state.visibleLanes;
+  return only;
+}
+
+function updateSoloIndicator() {
+  if (!filterSoloPill) return;
+  const solo = currentSoloKey();
+  if (solo) {
+    filterSoloPill.hidden = false;
+    filterSoloPill.textContent = `Solo: ${laneDisplayLabel(solo)}`;
+    filterSoloPill.setAttribute("aria-label", `Showing only ${laneDisplayLabel(solo)}. Click to show all.`);
+  } else {
+    filterSoloPill.hidden = true;
+    filterSoloPill.textContent = "";
+  }
+}
 
 function renderFilterChips() {
   if (!filterChipsEl) return;
   filterChipsEl.innerHTML = "";
 
-  // Preset row.
+  // Preset row (named presets).
   const presets = document.createElement("div");
   presets.className = "filter-chip-row";
   presets.innerHTML = `
-    <button class="filter-chip filter-chip--preset" data-preset="vedanta">Vedānta only</button>
-    <button class="filter-chip filter-chip--preset" data-preset="all">All schools</button>
-    <button class="filter-chip filter-chip--preset" data-preset="comparators">Comparators only</button>
+    <button class="filter-chip filter-chip--preset" data-preset="vedanta" type="button">Vedānta only</button>
+    <button class="filter-chip filter-chip--preset" data-preset="all" type="button">All schools</button>
+    <button class="filter-chip filter-chip--preset" data-preset="comparators" type="button">Comparators only</button>
   `;
   filterChipsEl.appendChild(presets);
 
-  // Per-school chips.
+  // Bulk-action row (deselect/select all). Plain text-buttons, no chip swatches.
+  const bulkRow = document.createElement("div");
+  bulkRow.className = "filter-chip-row filter-bulk-row";
+  bulkRow.innerHTML = `
+    <button class="filter-bulk-btn" data-bulk="none" type="button">Deselect all</button>
+    <button class="filter-bulk-btn" data-bulk="all" type="button">Select all</button>
+  `;
+  filterChipsEl.appendChild(bulkRow);
+
+  // Per-school chips: each chip has a main toggle and a small "solo" affordance.
   const chipsRow = document.createElement("div");
   chipsRow.className = "filter-chip-row";
   const makeChip = (key, label, color) => {
     const on = state.visibleLanes.has(key);
+    const wrap = document.createElement("span");
+    wrap.className = "filter-chip-wrap" + (on ? " is-on" : "");
+
     const btn = document.createElement("button");
     btn.className = "filter-chip" + (on ? " is-on" : "");
     btn.dataset.lane = key;
+    btn.type = "button";
     btn.style.setProperty("--chip-color", color);
     btn.innerHTML = `<span class="chip-swatch"></span>${escape(label)}`;
-    btn.addEventListener("click", () => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
       if (state.visibleLanes.has(key)) state.visibleLanes.delete(key);
       else state.visibleLanes.add(key);
       rerender();
     });
-    return btn;
+
+    const solo = document.createElement("button");
+    solo.className = "filter-chip-solo";
+    solo.type = "button";
+    solo.dataset.solo = key;
+    solo.setAttribute("aria-label", `Show only ${label}`);
+    solo.title = `Show only ${label}`;
+    solo.textContent = "solo";
+    solo.addEventListener("click", (e) => {
+      e.stopPropagation();
+      state.visibleLanes.clear();
+      state.visibleLanes.add(key);
+      if (key === COMPARATOR_GROUP_KEY) state.comparatorExpanded = true;
+      rerender();
+    });
+
+    wrap.appendChild(btn);
+    wrap.appendChild(solo);
+    return wrap;
   };
   for (const tok of LANE_ORDER) {
     if (!VEDANTA_LANES.has(tok)) continue;
@@ -2621,7 +2689,8 @@ function renderFilterChips() {
 
   // Wire presets.
   filterChipsEl.querySelectorAll("[data-preset]").forEach((btn) => {
-    btn.addEventListener("click", () => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
       const p = btn.dataset.preset;
       state.visibleLanes.clear();
       if (p === "vedanta") {
@@ -2636,21 +2705,67 @@ function renderFilterChips() {
       rerender();
     });
   });
+
+  // Wire bulk actions.
+  filterChipsEl.querySelectorAll("[data-bulk]").forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const action = btn.dataset.bulk;
+      state.visibleLanes.clear();
+      if (action === "all") {
+        for (const k of allLaneKeys()) state.visibleLanes.add(k);
+      }
+      rerender();
+    });
+  });
+
+  updateSoloIndicator();
+}
+
+function closeFilterDrawer() {
+  if (!filterDrawer) return;
+  filterDrawer.classList.remove("is-open");
+  filterDrawer.setAttribute("aria-hidden", "true");
+  if (filterBtn) filterBtn.classList.remove("is-active");
 }
 
 if (filterBtn) {
-  filterBtn.addEventListener("click", () => {
+  filterBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
     const open = filterDrawer.classList.toggle("is-open");
     filterDrawer.setAttribute("aria-hidden", open ? "false" : "true");
     filterBtn.classList.toggle("is-active", open);
   });
-  // Close drawer on outside click.
+  // Stop drawer-internal clicks from bubbling to the document handler. This is
+  // load-bearing: chip clicks call rerender(), which rebuilds the chip DOM.
+  // By the time the bubbling click reaches `document`, e.target is detached
+  // and `filterDrawer.contains(e.target)` is false, so the outside-click
+  // branch would otherwise (incorrectly) close the drawer.
+  if (filterDrawer) {
+    filterDrawer.addEventListener("click", (e) => { e.stopPropagation(); });
+  }
+  // Close drawer on outside click only.
   document.addEventListener("click", (e) => {
     if (!filterDrawer.classList.contains("is-open")) return;
     if (filterDrawer.contains(e.target) || filterBtn.contains(e.target)) return;
-    filterDrawer.classList.remove("is-open");
-    filterDrawer.setAttribute("aria-hidden", "true");
-    filterBtn.classList.remove("is-active");
+    closeFilterDrawer();
+  });
+  // Close on Esc.
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape") return;
+    if (!filterDrawer.classList.contains("is-open")) return;
+    closeFilterDrawer();
+  });
+}
+
+// Clicking the solo pill restores the full default selection.
+if (filterSoloPill) {
+  filterSoloPill.addEventListener("click", (e) => {
+    e.stopPropagation();
+    state.visibleLanes.clear();
+    for (const t of VEDANTA_LANES) state.visibleLanes.add(t);
+    state.visibleLanes.add(COMPARATOR_GROUP_KEY);
+    rerender();
   });
 }
 
