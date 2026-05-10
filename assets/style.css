@@ -361,8 +361,8 @@ body.is-detail-open {
   pointer-events: none;
   text-align: center;
 }
-.thinker-dot.label-above .label { bottom: 14px; }
-.thinker-dot.label-below .label { top: 14px; }
+.thinker-dot.label-above .label { bottom: 12px; }
+.thinker-dot.label-below .label { top: 12px; }
 .thinker-dot .name {
   display: inline-block;
   font-family: var(--sans);
@@ -1086,6 +1086,19 @@ body.is-reading-mode .passage-card .english { font-size: 18px; }
   .work-card { padding: 16px 16px; }
   .passage-card { padding: 14px 14px; }
   .lane-row { padding: 0 8px 0 10px; gap: 8px; }
+  /* On narrow viewports, hide date subtitle inline; show only on active dot. */
+  .thinker-dot:not(.is-active) .dates { display: none; }
+  .thinker-dot .name {
+    font-size: 11px;
+    padding: 1px 4px;
+    max-width: 110px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .thinker-dot--tier-1 .name { font-size: 11.5px; }
+  .thinker-dot.label-above .label { bottom: 11px; }
+  .thinker-dot.label-below .label { top: 11px; }
   .lane-row .lane-name {
     font-size: 11.5px;
     letter-spacing: -0.012em;
