@@ -3004,9 +3004,20 @@ function renderFootnoteList(footnotes) {
       const w = (t.engaged_works || []).find((x) => x.work_id === wid);
       if (w) workTitle = w.title_iast || w.title || wid;
     }
-    return `<li class="cite-fn-row" id="cite-fn-${f.idx}"><span class="cite-fn-num">[${f.idx}]</span> <a href="cite://${f.key}" class="cite-link cite-fn-rowlink"><em>${escape(workTitle)}</em> ${escape(loc)}</a> <span class="cite-fn-attrib">— ${escape(thinkerName)}</span></li>`;
+    return `<li class="cite-fn-row" id="cite-fn-${f.idx}">`
+      + `<span class="cite-fn-num">[${f.idx}]</span>`
+      + `<span class="cite-fn-body">`
+      + `<a href="cite://${f.key}" class="cite-link cite-fn-rowlink">`
+      + `<em>${escape(workTitle)}</em> ${escape(loc)}`
+      + `</a>`
+      + `<span class="cite-fn-attrib"> — ${escape(thinkerName)}</span>`
+      + `</span>`
+      + `</li>`;
   }).join("");
-  return `<ol class="cite-fn-list">${rows}</ol>`;
+  return `<div class="cite-fn-wrap">`
+    + `<p class="cite-fn-head">Footnotes</p>`
+    + `<ol class="cite-fn-list">${rows}</ol>`
+    + `</div>`;
 }
 
 function renderMarkdown(s) {

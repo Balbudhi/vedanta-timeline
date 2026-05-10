@@ -2792,29 +2792,56 @@ sup.cite-fn .cite-fn-link:hover {
   text-decoration: underline;
   color: var(--ink);
 }
-.cite-fn-list {
-  margin: 12px 0 6px;
-  padding: 10px 12px 10px 0;
-  list-style: none;
+.cite-fn-wrap {
+  margin: 18px 0 6px;
+  padding-top: 10px;
   border-top: 1px solid var(--rule);
+}
+.cite-fn-wrap .cite-fn-head {
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 8px;
+}
+.cite-fn-list {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 10px;
+  row-gap: 5px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
   font-family: var(--sans);
   font-size: 12px;
-  color: var(--ink-soft);
   line-height: 1.5;
+  color: var(--ink-soft);
 }
 .cite-fn-list .cite-fn-row {
-  margin: 4px 0;
-  padding-left: 26px;
-  text-indent: -26px;
+  display: contents;
 }
 .cite-fn-list .cite-fn-num {
-  display: inline-block;
-  width: 22px;
-  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+  font-weight: 600;
   color: var(--muted);
+  text-align: right;
+  min-width: 28px;
+  white-space: nowrap;
+}
+.cite-fn-list .cite-fn-body {
+  min-width: 0;
 }
 .cite-fn-list .cite-fn-rowlink {
+  color: var(--ink-soft);
+  text-decoration: none;
   border-bottom: 1px dotted var(--muted-soft);
+}
+.cite-fn-list .cite-fn-rowlink:hover {
+  color: var(--ink);
+  border-bottom-color: var(--ink);
 }
 .cite-fn-list .cite-fn-rowlink em {
   font-style: italic;
@@ -2822,6 +2849,7 @@ sup.cite-fn .cite-fn-link:hover {
 .cite-fn-list .cite-fn-attrib {
   color: var(--muted);
   font-size: 11px;
+  margin-left: 2px;
 }
 
 /* "Engaged passages (full work pending)" framing (Fix 4) */
