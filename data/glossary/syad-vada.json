@@ -2,31 +2,54 @@
   "term_key": "syad-vada",
   "term_iast": "syād-vāda",
   "term_devanagari": "स्याद्वाद",
-  "literal": "the doctrine of 'in-some-respect'; from syāt (\"in some respect; conditionally\") + vāda (\"doctrine\")",
-  "aliases": ["syadvada", "syād-vāda", "syādvāda", "saptabhangi", "sapta-bhaṅgī"],
-  "invariant_definition": "The Jaina seven-fold conditional predication-schema (*sapta-bhaṅgī*), the formal apparatus of *anekānta-vāda*. Each *bhaṅga* qualifies its predication with the indeclinable *syāt* (\"in some respect\"), marking the standpoint-conditioned character of the assertion. The seven *bhaṅgas* are: (1) *syād asti* — 'in some respect, [it] exists'; (2) *syād nāsti* — 'in some respect, [it] does not exist'; (3) *syād asti nāsti* — 'in some respect, [it] exists; in some respect, [it] does not exist' (the two predications conjoined under their respective standpoints, not jointly under the same standpoint); (4) *syād avaktavyaḥ* — 'in some respect, [it] is inexpressible' (when both predicates are required simultaneously under the same standpoint, the predication is *avaktavya* rather than contradictory); (5) *syād asty avaktavyaḥ* — 'in some respect, [it] exists; in some respect, [it] is inexpressible'; (6) *syād nāsty avaktavyaḥ* — 'in some respect, [it] does not exist; in some respect, [it] is inexpressible'; (7) *syād asti nāsty avaktavyaḥ* — the full combined predication. The schema is not relativism: each *bhaṅga* is a determinate predication conditioned by a determinate standpoint, and contradictory predicates are never asserted of the same subject under the same standpoint. The schema is closed (exactly seven *bhaṅgas*) and combinatorially complete with respect to the three primitive operations (assertion, denial, joint-assertion-as-inexpressible).",
+  "literal": "the doctrine of \"in some respect\"; from syāt (\"from a certain standpoint; in some respect\") + vāda (\"doctrine\")",
+  "aliases": [
+    "syadvada",
+    "syād-vāda",
+    "syādvāda",
+    "saptabhangi",
+    "sapta-bhaṅgī"
+  ],
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "The Jaina discipline of conditioned predication, usually presented as the sevenfold scheme (*sapta-bhaṅgī*). It is the formal counterpart of *anekānta-vāda*: because an existent has many aspects, assertion must state the respect under which it speaks. The indeclinable *syāt* does that work. It does not mean bare possibility in the modern modal sense; it means \"from a certain standpoint,\" \"in some respect,\" or \"under a certain condition.\" On that basis the tradition permits seven exhaustive predicative forms: affirmation, negation, affirmation-and-negation under different respects, and combinations involving *avaktavya* or inexpressibility when incompatible predicates are being forced into one unmarked assertion. The scheme is therefore not a license for contradiction. Its task is to preserve fine-grained realism about substances and modes while preventing unqualified claims from masquerading as total descriptions. In Jaina logic, *syād-vāda* belongs with *naya* analysis, not with a generalized skepticism about truth.",
   "per_school": [
     {
-      "school": "Jaina (Akalaṅka dialectical)",
-      "definition": "The seven-fold *bhaṅga* predication is articulated in formal apparatus in Akalaṅka's *Aṣṭa-Sahasrī* and *Siddhi-Viniścaya* against Buddhist (Dharmakīrti-school) and Brahmanical opponents. The *avaktavya* (inexpressible) *bhaṅga* is the load-bearing innovation: when both *asti* and *nāsti* are required simultaneously under the same standpoint, the predication is *avaktavya* — neither both nor neither, but inexpressible-as-such — and this avoids contradiction.",
-      "primary_loci": ["Aṣṭa-Sahasrī", "Siddhi-Viniścaya 3", "Tattvārtha-Vārttika ad TS 1.34–35"]
+      "school": "Jaina (canonical orientation)",
+      "definition": "The basic Jaina orientation is that knowledge proceeds through *pramāṇa* and *naya*, and that any predication must be indexed to an admissible standpoint. *Syād-vāda* is the predicative discipline that follows from that claim. Its point is not indecision but exactness: the speaker must specify the respect in which a thing is said to exist, not exist, or resist a single unqualified description.",
+      "primary_loci": [
+        "Tattvārtha-Sūtra 1.6",
+        "[NOT YET RETRIEVED]"
+      ]
     },
     {
-      "school": "Jaina (Hemacandra-Malliṣeṇa systematic)",
-      "definition": "Malliṣeṇa's *Syādvāda-Mañjarī* gives the standard thirteenth-century exposition of the seven-fold predication, with detailed attention to the standpoint-conditions and the avoidance of contradiction.",
-      "primary_loci": ["Syādvāda-Mañjarī (whole)"]
+      "school": "Jaina (dialectical development)",
+      "definition": "Akalaṅka and the later Jaina logicians develop the seven *bhaṅgas* as a complete and closed apparatus for conditioned assertion. The crucial move is *avaktavya*: when contrary predicates are forced into one unqualified statement, the correct result is not contradiction but inexpressibility-under-that-demand. This is how the system distinguishes itself from both simple contradiction and simple agnosticism.",
+      "primary_loci": [
+        "Tattvārtha-Vārttika ad Tattvārtha-Sūtra 1.6",
+        "[NOT YET RETRIEVED]"
+      ]
     },
     {
-      "school": "Jaina (Yaśovijaya Navya-Nyāya-engaged)",
-      "definition": "Yaśovijaya's *Jaina-Tarka-Bhāṣā* and *Nyāya-Loka* present the seven-fold *bhaṅga*-predication in Navya-Nyāya formal grammar, showing how each *bhaṅga* is conditioned by an explicit *avacchedaka*; the seven-fold scheme is integrated with classical *anumāna*-theory.",
-      "primary_loci": ["Jaina-Tarka-Bhāṣā", "Nyāya-Loka"]
+      "school": "Jaina (standard medieval exposition)",
+      "definition": "Malliṣeṇa's *Syādvāda-Mañjarī* presents the sevenfold logic as the explicit verbal discipline required by a many-sided ontology. The work became the standard statement because it shows how the seven forms regulate actual debate: what looks like contradiction is unpacked into distinct respects, times, or modes of the same real thing.",
+      "primary_loci": [
+        "Syādvāda-Mañjarī 1-5"
+      ]
     },
     {
       "school": "Advaita Vedānta (refutation)",
-      "definition": "Madhusūdana's *Advaita-Siddhi* engages the seven-fold predication and argues that either the *bhaṅgas* are conditioned (in which case the doctrine is innocuous and no opponent denies it) or unconditioned (in which case it is straightforwardly self-contradictory); the *avaktavya* *bhaṅga* is read as a formal trick rather than a substantive metaphysical move.",
-      "primary_loci": ["Advaita-Siddhi (anti-Jaina sections)"]
+      "definition": "Advaita grants the harmless point that many predicates are context-sensitive, but denies that the sevenfold scheme yields a superior ontology. If *syāt* merely marks standpoint, then the doctrine says nothing distinctive beyond ordinary contextual predication; if it licenses incompatible judgments about the same thing without sufficient qualification, it collapses into contradiction. That is why Advaita treats *syād-vāda* as dialectically elaborate but metaphysically inconclusive.",
+      "primary_loci": [
+        "Advaita-Siddhi [NOT YET RETRIEVED]",
+        "Brahma-Sūtra-Bhāṣya 2.2.33-36"
+      ]
     }
   ],
-  "see_also": ["anekanta-vada", "naya", "anumana"],
-  "translator_note": "'Conditional predication' or 'sevenfold predication' acceptable. The indeclinable *syāt* is NOT a modal operator — it does not mean 'possibly' in the modal-logical sense. It means 'in some respect' and marks the explicit standpoint-conditioning of the predication. Western readers should not assimilate *syād-vāda* to modal logic, fuzzy logic, or paraconsistent logic without careful qualification — the structural analogies exist but the metaphysical commitments are different."
+  "see_also": [
+    "anekanta-vada",
+    "naya",
+    "anumana"
+  ],
+  "translator_note": "\"Conditional predication\" is safer than \"maybe-doctrine.\" The lazy rendering of *syāt* as \"perhaps\" imports epistemic uncertainty and makes the system sound skeptical or probabilistic. In the Jaina technical register, *syāt* marks standpoint-conditioned assertion, not hesitation."
 }

@@ -2,26 +2,60 @@
   "term_key": "bhagavan",
   "term_iast": "Bhagavān",
   "term_devanagari": "भगवान्",
-  "literal": "the possessor-of-bhaga; bhaga = fortune, glory, opulence, lordliness; one who possesses the six excellences (aiśvarya, vīrya, yaśas, śrī, jñāna, vairāgya)",
-  "aliases": ["bhagavan", "Bhagavān", "bhagavān", "bhagavat", "bhagavataḥ", "bhagavate"],
-  "invariant_definition": "*Brahman* under the aspect of personal-relational fullness — possessed of the six *bhagas* (sovereignty, valor, glory, prosperity, knowledge, dispassion). The classical definition is given at *Viṣṇu-Purāṇa* 6.5.74 (*aiśvaryasya samagrasya...*). All schools that develop devotional theology accept *Bhagavān* as a name of the highest reality under personal aspect; the schools differ on whether *Bhagavān* is the highest description (Vaiṣṇava: yes — *kṛṣṇas tu bhagavān svayam*, *Bhāgavata-Purāṇa* 1.3.28) or a *saguṇa* register (Advaita).",
+  "literal": "the possessor of *bhaga*; the one endowed with lordly excellences",
+  "aliases": [
+    "bhagavan",
+    "Bhagavān",
+    "bhagavān",
+    "bhagavat",
+    "bhagavataḥ",
+    "bhagavate"
+  ],
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "A loaded theological title, not a generic word for a god. Classical Vaiṣṇava usage, drawing especially on *Viṣṇu-Purāṇa* 6.5.74, treats *Bhagavān* as the possessor of plenary sovereignty, power, glory, beauty, knowledge, and detachment. The term therefore marks personal plenitude rather than mere rulership: *Bhagavān* is the supreme in a mode accessible to devotion, relation, and praise, yet without ceasing to be metaphysically ultimate. Different schools map it differently onto *brahman* and *Īśvara*. Advaita commonly treats *Bhagavān* as the personal Lord in the *saguṇa* register; Viśiṣṭādvaita and Dvaita treat it as a genuine name of the highest Lord; Gauḍīya Vaiṣṇavism makes the distinction among *brahman*, *Paramātman*, and *Bhagavān* structurally central and uses it to argue for Kṛṣṇa as *svayaṃ-bhagavān*. In all of these uses, the term should be read against theological debates about whether the personal absolute is ultimate or derivative.",
   "per_school": [
     {
-      "school": "Advaita",
-      "definition": "*Bhagavān* is *Īśvara* under the aspect of personal devotional approach; identified with *saguṇa brahman*. Real for *upāsana* and for the devotional *jñāni*'s mature *bhakti* (Madhusūdana's *Bhakti-Rasāyana*); sublated in *nirguṇa brahman*-realization.",
-      "primary_loci": ["Bhagavad-Gītā-Bhāṣya 10, 11", "Madhusūdana, Bhakti-Rasāyana 1"]
+      "school": "Advaita Vedānta",
+      "definition": "*Bhagavān* names *Īśvara* as encountered in scripture, worship, and contemplative devotion. The title signals personal lordship and salvific accessibility without overriding Advaita's distinction between *saguṇa brahman* and *nirguṇa brahman*. A devotee's relation to Bhagavān is real and religiously decisive, but liberating knowledge ultimately sublates all determinate form into non-dual *brahman*.",
+      "primary_loci": [
+        "Bhagavad-Gītā-Bhāṣya 10.12-13",
+        "Bhakti-Rasāyana 1.1"
+      ]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Bhagavān* is a proper designation of Nārāyaṇa as the highest *brahman*, full of infinite auspicious qualities and genuinely personal. The title does not mark a lower devotional face of a deeper impersonal absolute; it names the highest itself as fit for surrender, contemplation, and service. That is why Viśiṣṭādvaita can move directly from Upaniṣadic *brahman* to devotional theology without a secondary ontological tier.",
+      "primary_loci": [
+        "Vedārtha-Saṅgraha 91-137",
+        "Śrī-Bhāṣya 1.1.1"
+      ]
+    },
+    {
+      "school": "Dvaita Vedānta",
+      "definition": "*Bhagavān* is Viṣṇu, the uniquely independent Lord whose real qualities exceed all finite beings. The title marks ontological supremacy, not simply devotional esteem. Because Dvaita's pluralistic realism preserves real difference among God, souls, and matter, calling Viṣṇu Bhagavān is simultaneously a theological and a metaphysical claim about hierarchy and dependence.",
+      "primary_loci": [
+        "Tattva-Saṅkhyāna 1-4",
+        "Viṣṇu-Tattva-Vinirṇaya 1-10"
+      ]
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "*Bhagavān* is the highest description of the highest reality — Kṛṣṇa as *svayaṃ-bhagavān* (literally 'Bhagavān-himself,' i.e., the source not derivative). The *Bhāgavata*-citation *kṛṣṇas tu bhagavān svayam* (1.3.28) is constitutive. *Brahman* and *Paramātman* are subordinate aspects of *Bhagavān*.",
-      "primary_loci": ["Tattva-Sandarbha §§51–56", "Bhagavat-Sandarbha §§1–7", "Kṛṣṇa-Sandarbha §28 (svayam-bhagavān doctrine)"]
-    },
-    {
-      "school": "Viśiṣṭādvaita / Dvaita",
-      "definition": "*Bhagavān* is a name of Viṣṇu (the highest reality) that emphasizes his fullness of qualities. Functionally equivalent to *Īśvara* in technical contexts.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§137–143", "Viṣṇu-Tattva-Vinirṇaya"]
+      "definition": "*Bhagavān* is the highest of the three principal scriptural descriptions of the absolute: *brahman*, *Paramātman*, and *Bhagavān*. Jīva Gosvāmī uses that triad to argue that Kṛṣṇa as *svayaṃ-bhagavān* is the fullest manifestation of the real, while impersonal *brahman* and indwelling *Paramātman* are partial apprehensions or aspects. The title therefore carries doctrinal weight far beyond the English \"Lord.\"",
+      "primary_loci": [
+        "Bhāgavata-Purāṇa 1.2.11",
+        "Bhāgavata-Purāṇa 1.3.28",
+        "Bhagavat-Sandarbha 1-7"
+      ]
     }
   ],
-  "see_also": ["isvara", "brahman", "krsna", "visnu", "svayam-bhagavan"],
-  "translator_note": "Translating *Bhagavān* as 'God' or 'the Lord' loses the technical content: *Bhagavān* is specifically the possessor of the six *bhagas* and is therefore an ontologically loaded title, not a generic divinity-term. In bhāṣya-prose the titles *Īśvara*, *Bhagavān*, *Paramātman*, and *Brahman* mean substantively different things and should not be conflated."
+  "see_also": [
+    "isvara",
+    "brahman",
+    "paramatman",
+    "visnu",
+    "krsna",
+    "svayam-bhagavan"
+  ],
+  "translator_note": "\"God\" and \"the Lord\" are sometimes usable, but both are thinner than the Sanskrit. They import Abrahamic or generic-monotheist baggage and erase the technical claim that *Bhagavān* is the possessor of full divine excellences. The term is not a warm devotional synonym floating free of metaphysics."
 }

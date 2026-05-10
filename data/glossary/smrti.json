@@ -2,26 +2,33 @@
   "term_key": "smrti",
   "term_iast": "smṛti",
   "term_devanagari": "स्मृति",
-  "literal": "that which is remembered; from √smṛ 'to remember'",
+  "literal": "that which is remembered; from √smṛ, 'to remember'",
   "aliases": ["smrti", "smṛti", "Smṛti", "smṛter", "smṛteḥ", "smṛtau"],
-  "invariant_definition": "The class of authoritative texts authored by named *ṛṣis* and remembered through the tradition — including the *Dharma-Śāstra* (Manu, Yājñavalkya, etc.), the *Itihāsas* (Mahābhārata, Rāmāyaṇa), the *Purāṇas*, and the *Sūtras* of the philosophical schools. All Vedāntic schools accept *smṛti* as authoritative on its proper subject-matter (especially *dharma*) but as derivative from and corrigible by *śruti*. They differ on the relative authority of particular *smṛti* texts (Vaiṣṇava schools elevate *Bhāgavata-Purāṇa* and *Pañcarātra* to functional parity with *śruti*; Advaita and Dvaita differ on *Mahābhārata* citation-density).",
+  "invariant_definition": "*Smṛti* is the remembered and authored textual layer that extends Vedic authority into law, narrative, cosmology, devotion, and systematic instruction. It includes *dharma-śāstra*, *itihāsa*, *purāṇa*, and many philosophical *sūtra* and ancillary texts. The term therefore does not mean memory in the psychological sense alone. It names a classificatory contrast with *śruti*: what is remembered, transmitted, and composed within tradition rather than heard as authorless Veda. In principle *smṛti* is subordinate to *śruti* and corrigible by it; in practice it is where much of the lived grammar of *dharma*, *varṇāśrama*, ritual sequence, kingship, *bhakti*, and sectarian theology is actually articulated. Different schools accordingly privilege different *smṛti* corpora: Manu and Yājñavalkya for legal practice, the *Bhagavad-Gītā* for soteriology, the *Mahābhārata* and *Purāṇas* for theological and cosmological synthesis, the *Pañcarātra* for Vaiṣṇava ritual and ontology. Thus *smṛti* is derivative in theory but often operationally central in *vyavahāra* and sectarian self-definition.",
   "per_school": [
     {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "*Smṛti* is authoritative when it rests on *śruti* and inadmissible where it conflicts with it. Its practical importance is enormous, because it codifies *dharma* for ordinary life where the Veda itself is not always explicit. The Mīmāṃsā stance is therefore not anti-*smṛti* but regulative: remembered law and practice stand only by Vedic warrant.",
+      "primary_loci": ["Manu-Smṛti 2.6", "Mīmāṃsā-Sūtra 1.3.3 [NOT YET RETRIEVED]"]
+    },
+    {
       "school": "Advaita",
-      "definition": "*Smṛti* is corrigible by *śruti* on metaphysical matters (the *Brahma-Sūtra* itself is *smṛti* but is read as a coherent summary of the *Upaniṣads*'s *tātparya*). The Bhagavad-Gītā is treated as *smṛti* of high authority on *jñāna-niṣṭhā*; the *Manu-Smṛti* on *dharma*.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.3", "Brahma-Sūtra-Bhāṣya 2.1.1 (smṛti-pāda)", "Bhagavad-Gītā-Bhāṣya, upodghāta"]
+      "definition": "*Smṛti* is used to confirm and organize what *śruti* teaches. The *Bhagavad-Gītā* becomes the paradigmatic high *smṛti* because it joins renunciation, action, devotion, and knowledge in a form usable for *sādhana*. On metaphysical matters, however, *smṛti* must be read under Upaniṣadic *tātparya*, not over it.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.1.1", "Bhagavad-Gītā-Bhāṣya, upodghāta", "Bhagavad-Gītā 4.38"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Smṛti* (especially *Pañcarātra* and *Viṣṇu-Purāṇa*) is treated as practically equivalent to *śruti* for the worship of Viṣṇu and for the architecture of the soul–Lord relation. The *Brahma-Sūtra* and the *Bhagavad-Gītā* are the *prasthāna-traya*'s smṛti members.",
-      "primary_loci": ["Śrī-Bhāṣya 2.2.42–45", "Vedārtha-Saṅgraha §§91–100"]
+      "definition": "*Smṛti* texts such as the *Bhagavad-Gītā*, *Viṣṇu-Purāṇa*, and *Pañcarātra* are indispensable for articulating the soul-Lord relation, *bhakti*, and *prapatti*. Rāmānuja treats them not as optional supplements but as authoritative witnesses whose content is continuous with *śruti* and whose ritual and devotional instructions are binding in practice.",
+      "primary_loci": ["Śrī-Bhāṣya 2.2.42–45", "Vedārtha-Saṅgraha §§91–100", "Bhagavad-Gītā 18.66"]
     },
     {
-      "school": "Dvaita",
-      "definition": "*Smṛti* — especially the *Bhāgavata*, *Pāñcarātra*, and *Mahābhārata* (whose *Tātparya-Nirṇaya* is one of Madhva's principal works) — is intensively used. Madhva also cites texts otherwise unknown (Brahma-Tarka, Pāramopaniṣads, etc.); these references are a major topic of modern scholarly debate.",
-      "primary_loci": ["Mahābhārata-Tātparya-Nirṇaya 1", "Bhāgavata-Tātparya-Nirṇaya 1"]
+      "school": "Bhāgavata Vaiṣṇava Traditions",
+      "definition": "The *Bhāgavata-Purāṇa*, *Mahābhārata*, and *Pañcarātra* are treated as the operative theological field in which *bhakti*, avatāra-theology, and divine grace are most fully unfolded. The point is not that *smṛti* supersedes *śruti*, but that the remembered corpus gives the divine personality and devotional practice that the Veda intimates in compressed form.",
+      "primary_loci": ["Bhāgavata-Purāṇa 1.1.1–3", "Tattva-Sandarbha §§17–28", "Nārada-Pañcarātra [NOT YET RETRIEVED]"]
     }
   ],
   "see_also": ["sruti", "sabda-pramana", "purana", "itihasa", "dharma-sastra", "prasthana-traya"],
-  "translator_note": "Often translated 'tradition' (in contrast to *śruti* = 'revelation'); this is acceptable but obscures that *smṛti* is itself textual and authoritative. The contrast is not 'revelation vs. tradition' (a Protestant grammar) but 'uncreated/heard vs. authored/remembered.'"
+  "translator_note": "The lazy gloss is 'tradition' or 'tradition-text.' That is too weak, because it makes *smṛti* sound like optional custom. The term carries the stronger claim that remembered authored texts can bear derivative authority from *śruti* and can regulate ritual, law, and theology in practice. It should also not be collapsed into mere memory as a mental event; this is a textual and juridical category.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

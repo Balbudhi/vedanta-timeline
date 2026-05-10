@@ -2,16 +2,28 @@
   "term_key": "nirupadhika",
   "term_iast": "nirupādhika",
   "term_devanagari": "निरुपाधिक",
-  "literal": "without upādhi, unconditioned; nir- + upādhika",
+  "literal": "without *upādhi*, free of adjunct-conditioning; nir- + upādhika",
   "aliases": ["nirupadhika", "nirupādhika", "Nirupādhika"],
-  "invariant_definition": "Unconditioned by *upādhi* — the Advaita technical category for the highest reality. *Nirupādhika brahman* is *brahman* in itself, beyond the *upādhi*-borne distinctions of *jīva*-Īśvara-jagat. *Nirupādhika* and *nirguṇa* are essentially co-extensive in Advaita.",
+  "invariant_definition": "*Nirupādhika* means 'not spoken of through an adjunct.' In Advaita it marks the withdrawal of all delimiting descriptions that arise only because consciousness is considered under *māyā*, *antaḥkaraṇa*, or any other differentiating factor. The term therefore belongs with *nirguṇa*, *pāramārthika*, and *svarūpa-lakṣaṇa*, but it is not simply a synonym for blank indeterminacy. A *nirupādhika* description denies the applicability of adjunct-borne predicates; it does not deny self-luminosity, reality, or consciousness. In practice the word signals the standpoint from which the distinctions of *jīva*, *Īśvara*, knower, known, enjoyer, and object are no longer definitive. Non-Advaita schools usually resist the category in this strong form because they hold the Lord's attributes and the plurality of souls to be real and not merely adjunct-conditioned. The dispute is therefore not about whether anything can be called 'unconditioned' in a loose devotional sense; it is about whether the highest truth requires suspending the full predicate-grammar of the experienced and scripturally ordered world.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Nirupādhika brahman* = *nirguṇa brahman* = the *pāramārthika* truth; the ultimate object of *brahma-jñāna*.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.4", "Pañcadaśī 6.130–145"]
+      "definition": "*Nirupādhika brahman* is *brahman* apart from all adjunct-conditioned descriptions. It is not a second entity behind *Īśvara* and *jīva*; it is the same reality seen without the conditioning factors that make cosmic rulership or individuality applicable. Hence the term functions in *mahāvākya* exegesis and in the claim that liberating knowledge removes superimposed delimitation rather than producing a new state.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.4", "Pañcadaśī 6.130–145", "Upadeśa-Sāhasrī 18 [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Rāmānuja rejects the Advaitin move from negation of defects to a *nirupādhika* reality stripped of all real differentiations. Brahman is indeed free from limiting material conditions, but not from essential attributes or from the real body of *cit* and *acit*. The category is therefore accepted only in the weak sense of 'free from defects,' not in the Advaita sense of predicate-withdrawal.",
+      "primary_loci": ["Śrī-Bhāṣya 1.1.1", "Vedārtha-Saṅgraha §§91–137"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "Dvaita rejects *nirupādhika brahman* as the highest truth if that means a reality beyond Viṣṇu's real qualities and beyond the eternal difference between Lord, souls, and matter. Brahman is unconditioned in the sense of independence (*svatantratā*), not in the sense of being stripped of relational or qualitative content.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1", "Madhva, Upādhi-Khaṇḍana §§1–8 [NOT YET RETRIEVED]"]
     }
   ],
-  "see_also": ["sopadhika", "upadhi", "nirguna", "brahman"],
-  "translator_note": "'Unconditioned' acceptable."
+  "see_also": ["sopadhika", "upadhi", "nirguna", "paramarthika", "brahman"],
+  "translator_note": "'Unconditioned' is usable if the reader is warned that the condition in question is specifically *upādhi*, not all determination whatsoever. Without that warning the English gloss invites a picture of an indeterminate absolute beyond all content, which is exactly how Advaita is often over-read by its critics and under-read by its admirers.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

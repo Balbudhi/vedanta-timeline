@@ -2,36 +2,54 @@
   "term_key": "anekanta-vada",
   "term_iast": "anekānta-vāda",
   "term_devanagari": "अनेकान्तवाद",
-  "literal": "the doctrine of non-onesidedness; from an-eka-anta (\"not one-sided\") + vāda (\"doctrine\")",
-  "aliases": ["anekanta-vada", "anekāntavāda", "anekānta", "Anekāntavāda"],
-  "invariant_definition": "The Jaina doctrine of multifold predication: every existent has indefinitely many aspects, and any predicative statement about an existent is true only relative to a specified standpoint (*naya*). The doctrine commits the Jaina to (i) substance-modal (*dravya-paryāya*) ontology — every existent has both a persistent substantial aspect and a successive modal aspect; (ii) a finite seven-fold predication-schema (*sapta-bhaṅgī* / *syād-vāda*) that tracks which standpoint a given predication operates under; (iii) the rejection of any one *naya*'s claim to exhaustively describe an existent. The doctrine does NOT commit the Jaina to (a) relativism (contradictory predicates can never be predicated of the same subject under the same standpoint); (b) the assertion that contradictories are jointly true; (c) the modern liberal-pluralist 'all-positions-are-partially-correct' platitude. The Brahmanical refutations of *anekānta-vāda* (Bādarāyaṇa, Śaṅkara, Madhusūdana) generally argue that *anekānta* either collapses into self-contradiction (if contradictory predicates of the same subject are jointly asserted) or trivialises into innocuous pluralism (if standpoint-conditioned).",
+  "literal": "the doctrine of non-one-sidedness; from an-eka-anta (\"not of one end or aspect\") + vāda (\"doctrine\")",
+  "aliases": [
+    "anekanta-vada",
+    "anekāntavāda",
+    "anekānta",
+    "Anekāntavāda"
+  ],
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "The Jaina doctrine that no existent is exhausted by a single predication or standpoint. Its metaphysical basis is the Jaina account of reality as simultaneously enduring and changing: a thing is a *dravya* with persistent identity, but it is also a stream of *paryāyas* or modes. Because predication tracks some aspect, relation, time, or practical standpoint, any true judgment is true under a determinate *naya* rather than as an unqualified total description. *Anekānta-vāda* therefore presupposes the paired apparatus of *naya* (standpoint-analysis) and *syād-vāda* (conditional predication). It is not the claim that contradictions are simply true together, nor the modern thesis that all opinions are equally valid. The doctrine instead blocks one-sided metaphysical absolutization: the Nyāya realist, Buddhist momentarist, and Vedāntin monist are each said to seize one feature of things and elevate it into the whole account. The load-bearing commitment is ontological and logical together: reality is many-sided, so assertion must mark the aspect under which it speaks.",
   "per_school": [
     {
-      "school": "Jaina (Umāsvāti foundational)",
-      "definition": "*Anekānta-vāda* is articulated at *Tattvārtha-Sūtra* 1.34–35 in compressed form alongside the *naya*-doctrine. The seven *nayas* (*naigama*, *saṅgraha*, *vyavahāra*, *ṛjusūtra*, *śabda*, *samabhirūḍha*, *evambhūta*) give the standpoints under which predications are conditioned.",
-      "primary_loci": ["Tattvārtha-Sūtra 1.34–35", "Tattvārtha-Bhāṣya ad loc."]
+      "school": "Jaina (foundational)",
+      "definition": "*Anekānta* rests on two classical claims: things are known through *pramāṇa* and *naya*, and whatever is real exhibits origination, cessation, and persistence together. The first claim blocks a single exhaustive viewpoint; the second gives the ontological ground for conditioned predication. A substance can be permanent as substance and changing as mode without contradiction, because the predicates are keyed to different respects.",
+      "primary_loci": [
+        "Tattvārtha-Sūtra 1.6",
+        "Tattvārtha-Sūtra 5.29"
+      ]
     },
     {
-      "school": "Jaina (Akalaṅka-Vidyānanda dialectical)",
-      "definition": "Akalaṅka's *Aṣṭa-Sahasrī* and *Siddhi-Viniścaya* develop the seven-fold *bhaṅga* predication and the *naya*-classification with full dialectical apparatus against Buddhist (Dharmakīrti-school) and Brahmanical opponents. The substance-modal (*dravya-paryāya*) account of reality is the metaphysical ground that allows the seven-fold predication to be coherent.",
-      "primary_loci": ["Aṣṭa-Sahasrī", "Siddhi-Viniścaya 3", "Tattvārtha-Vārttika ad TS 1.34–35"]
-    },
-    {
-      "school": "Jaina (Hemacandra-Malliṣeṇa systematic)",
-      "definition": "Malliṣeṇa's *Syādvāda-Mañjarī* gives the standard thirteenth-century exposition of *anekānta* as a meta-philosophical position covering all rival schools' positive theses; each rival fails by absolutising one *naya* and denying the others.",
-      "primary_loci": ["Syādvāda-Mañjarī (whole)", "Anya-Yoga-Vyavaccheda-Dvātriṃśikā 1–32"]
+      "school": "Jaina (systematic and dialectical)",
+      "definition": "Later Jaina logicians turn *anekānta* into a polemical method. Akalaṅka and Malliṣeṇa argue that rival schools err by absolutizing one admissible standpoint and denying the rest. The doctrine is thus not mere tolerance but a disciplined way of preserving determinate predication while refusing metaphysical one-sidedness. The seven *syād-vāda* forms are presented as the formal expression of this many-sided ontology.",
+      "primary_loci": [
+        "Tattvārtha-Vārttika ad Tattvārtha-Sūtra 1.6",
+        "Syādvāda-Mañjarī 1-5"
+      ]
     },
     {
       "school": "Advaita Vedānta (refutation)",
-      "definition": "The *anekānta* thesis is refuted at *Brahma-Sūtra* 2.2.33–36 and in Śaṅkara's *bhāṣya* on the ground that contradictory predicates cannot belong to a single substance; Madhusūdana's *Advaita-Siddhi* engages the developed seven-fold *bhaṅga* predication and argues that it either collapses into self-contradiction or trivialises into the unobjectionable thesis that everything is somehow both A and not-A from different standpoints.",
-      "primary_loci": ["Brahma-Sūtra 2.2.33–36", "Brahma-Sūtra-Bhāṣya 2.2.33–36", "Advaita-Siddhi (anti-Jaina sections)"]
+      "definition": "Advaita treats *anekānta-vāda* as unstable. If opposite predicates are asserted without qualification, the view is self-contradictory; if they are asserted only under distinct standpoints, the doctrine reduces to the harmless point that language tracks context. Śaṅkara and later Advaitins therefore deny that Jaina many-sidedness yields a superior metaphysics; on their reading, it either abandons non-contradiction or says less than it appears to say.",
+      "primary_loci": [
+        "Brahma-Sūtra 2.2.33-36",
+        "Brahma-Sūtra-Bhāṣya 2.2.33-36"
+      ]
     },
     {
       "school": "Dvaita Vedānta (refutation)",
-      "definition": "Madhva's *Tattva-Saṅkhyāna* and the anti-Jaina sections of his *Brahma-Sūtra-Bhāṣya* engage *anekānta-vāda* as failing to give a determinate ontology; the *naya*-relativism is read as inconsistent with *pañca-bheda* realism.",
-      "primary_loci": ["Tattva-Saṅkhyāna (anti-Jaina sections)", "Brahma-Sūtra-Bhāṣya (Madhva) 2.2.33–36"]
+      "definition": "Dvaita reads *anekānta* as a failure of ontological determination. Madhva's realism requires stable and irreducible difference, not predicates whose force is continually redistributed across standpoints. From that perspective, the Jaina strategy weakens the reality of *bheda* by making it viewpoint-indexed rather than ontologically basic.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya (Madhva) 2.2.33-36",
+        "[NOT YET RETRIEVED]"
+      ]
     }
   ],
-  "see_also": ["syad-vada", "naya", "dvaita", "advaita"],
-  "translator_note": "'Multifold predication' or 'doctrine of manifold standpoints' acceptable. 'Relativism' is misleading — anekānta is not the thesis that all positions are equally valid but the thesis that every positive predication is conditioned by a determinate standpoint and that no single standpoint exhausts the existent. Western readers should not import the modern 'perspectivism' or 'pluralism' frame without qualification."
+  "see_also": [
+    "syad-vada",
+    "naya",
+    "anumana"
+  ],
+  "translator_note": "\"Non-absolutism\" or \"many-sidedness\" is usually better than \"relativism.\" The lazy gloss \"relativism\" imports modern epistemic permissiveness and suggests that contradictions are simply tolerated. Jaina usage is stricter: a predicate is valid only under a marked respect, and the metaphysical reason is the *dravya-paryāya* structure of the thing, not a modern sociology of viewpoints."
 }

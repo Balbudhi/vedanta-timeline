@@ -2,26 +2,33 @@
   "term_key": "advaita",
   "term_iast": "advaita",
   "term_devanagari": "अद्वैत",
-  "literal": "non-duality, non-secondness; a- (negative) + dvaita (duality)",
+  "literal": "non-duality, non-secondness; a- (not) + dvaita (duality, twoness)",
   "aliases": ["advaita", "Advaita", "advaitam", "advayatva", "advaya"],
-  "invariant_definition": "Non-duality. As a school-name, Advaita refers principally to Śaṅkara's lineage and its commentarial tradition. As a doctrinal position, *advaita* is the claim that *brahman* is non-dual — without internal differentiation and without external second. The term is also used by other traditions in modified form (*viśiṣṭa-advaita* — the qualified non-duality of Rāmānuja; *śuddha-advaita* — the pure non-duality of Vallabha; *acintya-bhedābheda* — which can be read as a form of non-duality through *acintya-śakti*). The user's position-brief explicitly affirms a *paramādvaita* — a non-duality of duality and non-duality — that integrates rather than refutes the qualified positions.",
+  "invariant_definition": "*Advaita* does not mean a generic 'all is one.' It names the denial of a second independent reality, but the force of that denial depends on what kind of difference is being rejected. In Vedānta the term sits inside disputes about *bheda* and *abheda*, cause and effect, the status of the world, and the relation between *brahman*, *jīva*, and *jagat*. Śaṅkara's Advaita makes non-duality numerical and ultimate: only *brahman* is *pāramārthika*, while plurality is *vyāvahārika* and sublatable. Viśiṣṭādvaita preserves non-duality by denying a second substance outside *brahman* while retaining real internal differentiation as *cit* and *acit*. Vallabha's *śuddhādvaita* preserves non-duality while rejecting *māyā* as illusory appearance: the world is a real manifestation of *brahman*. Nimbārka and Caitanya traditions keep non-duality and difference together by treating dependence on *brahman* as irreducible. The term therefore marks a family of claims about how plurality belongs, or fails to belong, within the real; it is not a free-floating synonym for monism.",
   "per_school": [
     {
       "school": "Advaita (Śaṅkara)",
-      "definition": "*Brahman* is *eka eva advitīyam* (one only, without a second; Chāndogya 6.2.1). All apparent duality is *vyāvahārika*; *pāramārthika* truth is non-dual identity of *ātman* and *brahman*.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1", "Chāndogya-Upaniṣad-Bhāṣya 6.2.1"]
+      "definition": "*Advaita* means that *brahman* alone is unsublated reality: *ekam eva advitīyam*. The difference between knower, known, and knowing belongs to *avidyā* and survives only at the *vyāvahārika* level. The school therefore reads the *mahāvākya*s as identity-statements and treats creation-language as *taṭastha-lakṣaṇa*, not as a report of real transformation in *brahman*.",
+      "primary_loci": ["Chāndogya-Upaniṣad-Bhāṣya 6.2.1", "Brahma-Sūtra-Bhāṣya 1.1.4", "Brahma-Sūtra-Bhāṣya 2.1.14"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Viśiṣṭa-advaita* — non-duality of the qualified. *Brahman* is one but is *viśiṣṭa* (qualified) by *cit* and *acit* as his body. The unity is real, the qualifications are real; this is genuinely non-dual because there is no second-substance over against *brahman*.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§82–95"]
+      "definition": "*Advaita* is accepted only in qualified form. There is no second substance outside *brahman*, because *cit* and *acit* exist as the body of the Lord and are inseparably established in him. But non-duality does not cancel real plurality; it orders plurality within a single *śarīra-śarīrī* structure. The polemical target is therefore Śaṅkara's *nirviśeṣa* reading, not non-duality as such.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§82–95", "Śrī-Bhāṣya 1.1.1", "Śrī-Bhāṣya 2.1.9"]
     },
     {
       "school": "Śuddhādvaita (Vallabha)",
-      "definition": "*Śuddha-advaita* — pure non-duality. The world is a real *avikṛta-pariṇāma* of *brahman*; *māyā* in the Advaita sense is rejected. Non-duality is preserved without illusion-doctrine.",
-      "primary_loci": ["Aṇu-Bhāṣya 1.1.2"]
+      "definition": "*Advaita* means that *brahman* alone exists, but the world is its real manifestation rather than an illusory appearance. Vallabha preserves non-duality by construing the world as *avikṛta-pariṇāma*: an emergence of real plurality that does not diminish or falsify the source. The denial is directed against both absolute difference and the Advaitin claim that plurality is merely *mithyā*.",
+      "primary_loci": ["Aṇu-Bhāṣya 1.1.2", "Tattvārtha-Dīpa-Nibandha, Śāstrārtha-Prakaraṇa §§50–60"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "Non-duality is preserved through inseparability from Bhagavān, while difference remains real because *jīva* and world are distinct *śakti*s. The relation is not reduced either to identity or to a logically tractable middle term; it is *acintya*. In practice this lets the school affirm Kṛṣṇa's supremacy, real devotion, and real plurality without conceding a second independent reality over against him.",
+      "primary_loci": ["Tattva-Sandarbha §§51–56", "Bhagavat-Sandarbha §§1–7", "Kṛṣṇa-Sandarbha §28"]
     }
   ],
-  "see_also": ["dvaita", "bhedabheda", "visistadvaita", "suddhadvaita", "acintya"],
-  "translator_note": "'Non-duality' is the standard gloss. Note: *advaita* as a doctrinal modifier is more permissive than *advaita* as a school-name — the various qualified-advaitas are *advaita* in the structural sense (no second substance) without being *Advaita* in the Śaṅkara-school sense (numerical identity of *jīva* and *brahman*)."
+  "see_also": ["dvaita", "bhedabheda", "visistadvaita", "suddhadvaita", "acintya", "bheda", "abheda", "brahman"],
+  "translator_note": "'Non-duality' is the least bad English gloss, but it still imports modern monism-talk and can suggest a flat denial of plurality. The Sanskrit is more exact: denial of a second independent reality. That denial is then filled out differently by Śaṅkara, Rāmānuja, Vallabha, and Caitanya-line thinkers. Translating *advaita* as 'monism' is especially misleading because it silently imports a Western substance-monism debate and obscures the Indian questions about *bheda*, *upādhi*, *pariṇāma*, and *sublation*.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

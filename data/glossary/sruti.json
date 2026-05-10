@@ -2,31 +2,38 @@
   "term_key": "sruti",
   "term_iast": "śruti",
   "term_devanagari": "श्रुति",
-  "literal": "that which is heard; from √śru 'to hear'",
+  "literal": "that which is heard; from √śru, 'to hear'",
   "aliases": ["sruti", "śruti", "Śruti", "śruteḥ", "śrutau", "shruti", "śruty"],
-  "invariant_definition": "The class of authoritative texts comprising the four Vedas, the Brāhmaṇas, the Āraṇyakas, and the principal Upaniṣads — the texts considered *apauruṣeya* (not authored by any person, human or divine, in classical Mīmāṃsā and most Vedānta) and constitutive of *śabda-pramāṇa*. All Vedāntic schools accept *śruti* as the highest *pramāṇa* on matters beyond perception and inference, and especially on *brahman*. They differ on whether *śruti* is *apauruṣeya* in the strong Mīmāṃsā sense (Advaita follows this; Dvaita modifies it) or is the speech of the eternal Lord Viṣṇu (the Vaiṣṇava Vedāntins typically); on the canonical extent (whether the *Pañcarātra* counts; whether the *Bhāgavata-Purāṇa* counts as effectively *śruti*); and on the principles of interpretation (Mīmāṃsā's six *liṅgas* are universal; the schools differ in how they balance *upakrama-upasaṃhāra* with other indicators).",
+  "invariant_definition": "*Śruti* is not merely a sacred book. It is the heard Vedic corpus taken, in Mīmāṃsā and most Vedānta, as *apauruṣeya* speech whose authority is intrinsic and whose sentences function as *śabda-pramāṇa* where perception and inference do not reach. The term therefore sits inside a larger apparatus: the distinction between *vidhi*, *mantra*, and *arthavāda*; the split between *karma-kāṇḍa* and *jñāna-kāṇḍa*; the need to establish a passage's settled purport (*tātparya*) by *samanvaya* rather than by isolated quotation; and the claim that Vedic language discloses real obligations and real metaphysical structure. In practice a thinker citing *śruti* is normally also presupposing a hermeneutic method for reconciling apparently divergent passages. The major disagreements concern what the corpus is finally about: injunction and *dharma* for Pūrva-Mīmāṃsā, *brahman* for Vedānta, qualified *brahman* for Viśiṣṭādvaita, Viṣṇu for Dvaita, and Kṛṣṇa as *svayaṃ-bhagavān* for Gauḍīya Vaiṣṇavism. Thus *śruti* names both a canon and a theory of revelatory language.",
   "per_school": [
     {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "*Śruti* is the authorless Veda whose primary force lies in *codanā*, injunction. Its core subject is *dharma*, not a highest being. What matters in practice is how sentences generate obligation through the ritual apparatus of *vidhi*, *niyama*, *parisaṃkhyā*, and the rest. The Veda's authority is therefore tied to action-guidance and to the production of results not otherwise knowable.",
+      "primary_loci": ["Mīmāṃsā-Sūtra 1.1.2", "Śabara-Bhāṣya on Mīmāṃsā-Sūtra 1.1.2"]
+    },
+    {
       "school": "Advaita",
-      "definition": "*Śruti* is *apauruṣeya* in the strict Mīmāṃsā sense; its authority on *brahman* (the *jñāna-kāṇḍa*) is independent of any author. The *mahāvākyas* (especially *tat tvam asi*, *aham brahmāsmi*, *prajñānam brahma*, *ayam ātmā brahma*) are the principal liberating loci. *Śruti* is the unique *pramāṇa* for *brahman*; perception and inference cannot establish *brahman*.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.3", "Brahma-Sūtra-Bhāṣya 1.1.4", "Upadeśa-Sāhasrī 18"]
+      "definition": "*Śruti* is the unique *pramāṇa* for *brahman*, because *brahman* is not an object available to perception or inference. The Upaniṣadic *mahāvākyas* disclose the identity of *ātman* and *brahman* when their *tātparya* is established across the corpus. In use, Advaita therefore treats *śruti* as revelatory language whose liberating force is completed by *śravaṇa*, *manana*, and *nididhyāsana*.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.3", "Brahma-Sūtra-Bhāṣya 1.1.4", "Chāndogya-Upaniṣad-Bhāṣya 6.8.7"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Śruti* is authoritative; the *Pañcarātra Saṃhitās* are accepted as functionally equivalent in authority for the worship of Viṣṇu. *Śruti* speaks of a *saviśeṣa brahman* throughout; the *nirguṇa* texts are read as denying *heya-guṇas*, not all qualities. The principle of interpretation foregrounds *sāmānādhikaraṇya* (co-reference) under *aprthak-siddhi*.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§91–100", "Śrī-Bhāṣya 1.1.13", "Śrī-Bhāṣya 2.2.42 (Pañcarātra acceptance)"]
+      "definition": "*Śruti* uniformly teaches a qualified *brahman* possessed of infinite auspicious attributes. Texts that deny qualities are read as denying defects and material limitation, not all determinacy. In practice Rāmānuja's method is to show that apparently abstract Upaniṣadic statements resolve into the body-soul relation between the world, the *jīva*, and Nārāyaṇa.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§47–70", "Śrī-Bhāṣya 1.1.1", "Śrī-Bhāṣya 2.2.42"]
     },
     {
       "school": "Dvaita",
-      "definition": "*Śruti* is the speech of Viṣṇu; its authority is absolute. Madhva's distinctive expansion of the canon includes *Pañcarātra*, *Bhāgavata-Purāṇa*, and *Mahābhārata* as primary; he also cites texts not preserved in the standard Vedic canon (the *Bhaviṣyat-Parva*, etc.) — a long-debated source-question. Interpretive principle: *brahman* is Viṣṇu, and every *śruti* statement is to be read consistently with this *abhipraya*.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.1.3", "Viṣṇu-Tattva-Vinirṇaya §§1–10", "Mahābhārata-Tātparya-Nirṇaya, prathamādhyāya"]
+      "definition": "*Śruti* is absolutely authoritative, but its settled purport is specifically Viṣṇu. Madhva's exegesis assumes that apparent non-dualist passages must be read in ways consistent with real difference, dependence, and *taratamya*. In practice *śruti* is read together with *itihāsa*, *purāṇa*, and *pañcarātra* as one coordinated revelatory field centered on Viṣṇu.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.1.3", "Viṣṇu-Tattva-Vinirṇaya 1", "Mahābhārata-Tātparya-Nirṇaya 1.1–12"]
     },
     {
       "school": "Acintya-Bhedābheda",
-      "definition": "*Śruti* is supplemented by the *Bhāgavata-Purāṇa*, which is treated as the *natural commentary* on the *Brahma-Sūtra* (Jīva Gosvāmī's *Tattva-Sandarbha* §§17–28 establishes this). The *Bhāgavata*'s authority is therefore at least equal to the *Upaniṣads*' on the matters it treats — i.e., on Kṛṣṇa as *svayaṃ-bhagavān*.",
-      "primary_loci": ["Tattva-Sandarbha §§17–28", "Tattva-Sandarbha §§51–56"]
+      "definition": "*Śruti* remains foundational, but its meaning is said to culminate in the *Bhāgavata-Purāṇa* as the fullest disclosure of Kṛṣṇa. The Upaniṣads are therefore read through a Bhāgavata-Vaiṣṇava lens in which divine personhood, *śakti*, and *bhakti* are not secondary accommodations but the corpus's own deepest intention.",
+      "primary_loci": ["Tattva-Sandarbha §§10–17", "Tattva-Sandarbha §§51–56", "Bhāgavata-Purāṇa 1.1.3"]
     }
   ],
   "see_also": ["smrti", "sabda-pramana", "veda", "upanisad", "mahavakya", "tatparya", "apauruseya"],
-  "translator_note": "'Scripture' is acceptable but imports Christian / People-of-the-Book connotations (a closed canon revealed at a moment in history) that do not fit. *Śruti* in the strict Mīmāṃsā-Advaita sense is *apauruṣeya* — uncreated, eternal — and 'heard' by the *ṛṣis* in deep meditation; this is structurally different from a divine dictation event. 'Heard-corpus' or simply *śruti* untranslated is best."
+  "translator_note": "The lazy gloss is 'scripture' or 'revelation.' Both import Abrahamic baggage: a historically delivered message authored by God or a prophet and bounded as a book. *Śruti* instead names an authorless heard corpus plus the Mīmāṃsā-Vedānta theory that such language is intrinsically valid and hermeneutically ordered. Leaving the term untranslated, or glossing it once as 'the heard Veda,' usually preserves the metaphysics better.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

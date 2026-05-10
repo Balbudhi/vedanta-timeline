@@ -2,16 +2,28 @@
   "term_key": "pratibhasika",
   "term_iast": "prātibhāsika",
   "term_devanagari": "प्रातिभासिक",
-  "literal": "pertaining to mere appearance; from prati-bhāsa 'appearance against [something else]'",
+  "literal": "pertaining to mere appearance or seeming; from *pratibhāsa*, appearance, seeming manifestation",
   "aliases": ["pratibhasika", "prātibhāsika", "Prātibhāsika", "pratibhasa", "pratibhāsa"],
-  "invariant_definition": "The lowest level of the Advaita *sattā-traya* — apparent-only reality such as the snake superimposed on the rope, the silver superimposed on the shell-piece, the dream-objects of dreaming-state cognition. *Prātibhāsika* objects are sublated in subsequent *vyāvahārika* cognition (the rope is seen as rope; one wakes up). Distinguished from *vyāvahārika* (which is sublated only in *brahma-jñāna*) and from *pāramārthika* (unsublated on any level).",
+  "invariant_definition": "*Prātibhāsika* is the status of what appears and functions for a subject but is corrigible within ordinary cognition itself. The stock examples are rope-snake, shell-silver, mirage water, and dream objects. In Advaita this category matters because it keeps local illusion distinct from the shared waking order: not every appearance is on the same level. The term therefore presupposes an error-theory and a hierarchy of correction. What is *prātibhāsika* is not sheer non-being, since it is experienced and can motivate fear, desire, or action; nor is it *vyāvahārika*, since a later waking cognition defeats it without requiring liberation. Nyāya and Mīmāṃsā theorists also analyse illusion, but usually through competing *khyāti* theories rather than by assigning a separate ontic level called *prātibhāsika*. The category thus belongs most strongly to Advaita's ontology of graded appearance while remaining intelligible against the wider Indian debate about error, superimposition, and the relation between seeming and correction.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Prātibhāsika* objects are *anirvacanīya* but more locally so than *vyāvahārika* objects: they appear only to the individual erring perceiver and are sublated within ordinary waking-state experience. The category is one of the principal Advaita defenses against the charge that *māyā*-doctrine reduces all cognition to dream-status — *prātibhāsika* (dream / illusion) is firmly distinct from *vyāvahārika* (ordinary world).",
-      "primary_loci": ["Iṣṭa-Siddhi 1", "Vedānta-Paribhāṣā, pratyakṣa-pariccheda"]
+      "definition": "*Prātibhāsika* objects are locally appearing entities sublated by ordinary *vyāvahārika* cognition. Their importance is methodological: they furnish the model for understanding superimposition and show how appearance can have force without being finally real. The rope-snake is therefore not just an example but a piece of metaphysical pedagogy for explaining *adhyāsa* and *mithyātva*.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1 (adhyāsa-bhāṣya)", "Iṣṭa-Siddhi 1", "Vedānta-Paribhāṣā, pratyakṣa-pariccheda"]
+    },
+    {
+      "school": "Nyāya",
+      "definition": "Nyāya accepts the reality of illusion as an erroneous cognition but does not usually treat the illusory object as occupying a distinct ontic tier called *prātibhāsika*. The emphasis falls instead on how error arises, often through mislocation or misapprehension, and how a later cognition corrects it. The contrast with Advaita lies in the explanatory framework rather than in denial that illusions occur.",
+      "primary_loci": ["Nyāya-Sūtra 4.2 [NOT YET RETRIEVED]", "Tattva-Cintāmaṇi, pratyakṣa-khaṇḍa [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "Mādhva critics allow local illusion but deny that its structure can be extended to the whole experienced world. Rope-snake cases show occasional error within a real world; they do not justify the Advaita move from local falsification to the *mithyātva* of the cosmos. The category is therefore accepted only as a description of episodic mistake, not as a metaphysical template.",
+      "primary_loci": ["Madhva, Mithyātva-Anumāna-Khaṇḍana [NOT YET RETRIEVED]", "Vyāsatīrtha, Nyāyāmṛta, mithyātva-bhaṅga [NOT YET RETRIEVED]"]
     }
   ],
-  "see_also": ["vyavaharika", "paramarthika", "satta-traya", "rajju-sarpa", "anirvacaniya"],
-  "translator_note": "'Apparent' or 'illusory' acceptable but the latter risks collapse with *mithyā* (which is the Advaita *vyāvahārika* status). Best: 'merely apparent' or *prātibhāsika* untranslated."
+  "see_also": ["vyavaharika", "paramarthika", "satta-traya", "rajju-sarpa", "anirvacaniya", "adhyasa", "khyati"],
+  "translator_note": "'Illusory' is usable only if one immediately marks the contrast with *mithyā*. The danger is that English 'illusion' collapses local perceptual error and the broader Advaita account of the world. 'Merely apparent' is usually better. The term always carries a built-in contrast with the *vyāvahārika* order, not with reality simpliciter.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

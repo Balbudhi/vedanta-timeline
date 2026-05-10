@@ -2,21 +2,33 @@
   "term_key": "vyavaharika",
   "term_iast": "vyāvahārika",
   "term_devanagari": "व्यावहारिक",
-  "literal": "transactional, pertaining to vyavahāra (worldly transaction); from vy-ava-√hṛ 'to deal-with, to transact'",
+  "literal": "pertaining to *vyavahāra*, transaction, practical dealing, established worldly and scriptural commerce",
   "aliases": ["vyavaharika", "vyāvahārika", "Vyāvahārika", "vyavahara", "vyavahāra"],
-  "invariant_definition": "An Advaita technical category — one of the three levels of reality (*sattā-traya*): *pāramārthika* (absolute/ultimate), *vyāvahārika* (transactional/empirical), *prātibhāsika* (apparent-only, like a dream-object or the rope-snake). The *vyāvahārika* level is the level of ordinary waking-state cognition — real for transactional purposes, sublatable in *brahma-jñāna*. The *vyāvahārika* status is essential to the Advaita response to the charge that *māyā*-doctrine reduces to subjective idealism: the world IS real at the *vyāvahārika* level. Non-Advaita schools do not adopt the three-level scheme.",
+  "invariant_definition": "*Vyāvahārika* marks the transactional order in which persons, objects, duties, causes, perceptions, and social practices function. In Advaita this is not a synonym for 'illusory' or 'merely subjective.' It names the intersubjective world governed by *pramāṇa*, causal regularity, ritual obligation, memory, language, and the distribution of *karma-phala*. Its special status emerges only by contrast: unlike *prātibhāsika* error, it is not corrected by ordinary waking cognition; unlike the *pāramārthika*, it is sublated by liberating knowledge. The category is thus indispensable to Advaita's claim that bondage, scripture, teacher, and practice are fully meaningful without being ultimately unsublated. Other schools usually reject the three-level ontology but still preserve the practical world as the arena of action, devotion, and knowledge. Buddhist conventional truth is an adjacent notion, yet not identical: *saṃvṛti-satya* belongs to a different theory of truth and emptiness. The term should therefore be heard as 'transactionally real' rather than as 'merely empirical' or 'simply practical.'",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Vyāvahārika* reality is intersubjective, lawful, empirically tractable, and *bhāvarūpa* — really there for transactional purposes. It is sublated only by *brahma-jñāna*, not by ordinary perception or by other *vyāvahārika* cognitions. *Īśvara*, *jīva*, the world of Vedic injunction, the *karma*-mechanism — all are *vyāvahārika*.",
-      "primary_loci": ["Iṣṭa-Siddhi 1", "Pañcadaśī 6.130–145", "Vivekacūḍāmaṇi"]
+      "definition": "*Vyāvahārika* reality includes the shared waking world, Vedic injunction, *Īśvara*, *jīva*, and the full *karma* apparatus. It is established by ordinary *pramāṇa*s and remains in force until *brahma-jñāna*. The category is crucial because Advaita does not deny the world as though it were a dream from the start; it assigns the world a real but sublatable standing.",
+      "primary_loci": ["Iṣṭa-Siddhi 1", "Pañcadaśī 6.130–145", "Vedānta-Paribhāṣā, pratyakṣa-pariccheda"]
     },
     {
-      "school": "Other Schools",
-      "definition": "The three-level scheme is rejected; reality is single-level (*sat*), with degrees of dependence. The Advaita *vyāvahārika* category is read as a verbal evasion of full ontological commitment to the world's reality.",
-      "primary_loci": ["Vyāsatīrtha, Nyāyāmṛta", "Śrī-Bhāṣya 1.1.1"]
+      "school": "Mādhyamaka",
+      "definition": "The closest analogue is *saṃvṛti-satya*, but the fit is imperfect. Conventional truth in Madhyamaka is not the middle level of a three-tier ontology; it is the conventional functioning of dependent designation in contrast to emptiness. The comparison is useful only if that structural difference is kept explicit.",
+      "primary_loci": ["Mūla-Madhyamaka-Kārikā 24.8–10", "Vigraha-Vyāvartanī 28–29 [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Rāmānuja does not accept a distinct *vyāvahārika* order that is later cancelled by a higher ontic disclosure. The world of practice is already the real body of Brahman. Scriptural and worldly dealings are therefore not provisionally true but true within their proper domains because the world itself is real.",
+      "primary_loci": ["Śrī-Bhāṣya 1.1.1", "Śrī-Bhāṣya 2.1.9"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "Dvaita likewise rejects the category as an ontic demotion. The world in which one knows, errs, worships, and receives the results of action is the real world sustained by Viṣṇu. The Mādhva critique is that the Advaitin cannot preserve the normativity of devotion and scripture if the whole field is only *vyāvahārika* in a sublatable sense.",
+      "primary_loci": ["Madhva, Mithyātva-Anumāna-Khaṇḍana [NOT YET RETRIEVED]", "Vyāsatīrtha, Nyāyāmṛta, mithyātva-bhaṅga [NOT YET RETRIEVED]"]
     }
   ],
-  "see_also": ["paramarthika", "pratibhasika", "satta-traya", "mithya"],
-  "translator_note": "'Empirical' is acceptable but loses the technical contrast with *prātibhāsika*. 'Transactional' is closer. The Advaita three-level scheme is structurally important and should be preserved as a distinct technical apparatus."
+  "see_also": ["paramarthika", "pratibhasika", "satta-traya", "mithya", "karma", "pramana"],
+  "translator_note": "'Empirical' is often too weak because it can suggest mere sense-experience, whereas *vyāvahārika* includes law, language, ritual, ethics, and theology. 'Transactional' is better, provided the reader hears real worldly and scriptural practice rather than commercial exchange alone. What must be avoided is the gloss 'unreal world,' which collapses *vyāvahārika* into *prātibhāsika* and misstates Advaita.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

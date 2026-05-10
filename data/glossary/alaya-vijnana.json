@@ -2,26 +2,33 @@
   "term_key": "alaya-vijnana",
   "term_iast": "ālaya-vijñāna",
   "term_devanagari": "आलयविज्ञान",
-  "literal": "storehouse-consciousness; from ā-laya 'abode, store' + vijñāna 'consciousness, cognition'",
+  "literal": "storehouse-consciousness; the abiding cognitive stream that receives and carries seeds",
   "aliases": ["alaya-vijnana", "ālaya-vijñāna", "Ālaya-Vijñāna", "ālayavijñāna", "ālaya"],
-  "invariant_definition": "The *ālaya-vijñāna* is the eighth and substrate-most consciousness in the Yogācāra eight-consciousness analysis: six sense-consciousnesses, *manas* (the seventh, self-grasping consciousness which takes the *ālaya* as its referent), and the *ālaya* (the storehouse-substrate that carries karmic *vāsanā*-seeds across the moments of cognitive flow and grounds the appearance of an enduring perceiver). It is *not* the eternal *ātman* of the brahmanical schools — it is itself momentary and dependently arising — but it functions in the role that an enduring substrate would otherwise have to occupy: it preserves karmic effect across moments, grounds intersubjective regularity through the karmic-collective shaping of *vāsanā*-streams, and is the substrate on which the *parikalpita* / *paratantra* / *pariniṣpanna* analysis operates. The doctrine is foundational for Asaṅga's *Mahāyāna-Saṅgraha* and Vasubandhu's *Triṃśikā*.",
+  "invariant_definition": "The Yogācāra posit of a basal cognitive stream that stores karmic seeds (*bīja*) and latent dispositions (*vāsanā*) and thereby explains continuity across momentary cognition. It is called \"storehouse\" not because it is a static container but because it is the receptacle in which impressions are deposited and from which future experience matures. The term sits inside a larger apparatus: six sense consciousnesses, the self-grasping seventh *manas*, and the eighth *ālaya-vijñāna*; the *trisvabhāva* analysis; and the doctrine of *āśraya-parāvṛtti*, the overturning of the basis in awakening. The *ālaya* performs work that an opponent would assign to self, substance, or enduring mind, yet Yogācāra insists it is neither eternal nor independent. It is dependently arisen, morally conditioned, and transformable. This is exactly why Mādhyamaka attacks it as too much like a substrate, and why Vedānta attacks it as too little to bear the continuity it is meant to explain.",
   "per_school": [
     {
       "school": "Yogācāra",
-      "definition": "Foundational doctrine. The *ālaya* carries *vāsanā*-seeds (karmic dispositional residues) across moments; the manifest cognitive flow (the six sense-consciousnesses and the seventh *manas*) is the maturation of those seeds. Liberation involves the *āśraya-parāvṛtti* — the radical transformation of the *ālaya* from karmic substrate to the *vimala-ālaya* of the realised state, which Asaṅga sometimes identifies with the *dharma-dhātu*.",
-      "primary_loci": ["Asaṅga, Mahāyāna-Saṅgraha 1", "Vasubandhu, Triṃśikā 1–17", "Asaṅga, Abhidharma-Samuccaya 1"]
+      "definition": "The *ālaya-vijñāna* is the continuity-bearing basis of saṃsāric cognition. Seeds and dispositions are perfumed into it and later mature as subject-object appearance, affective habit, and karmic result. The seventh *manas* mistakes this stream for a self, and liberation consists in *āśraya-parāvṛtti*, the transformation of this very basis so that the dualizing appropriation ceases. The doctrine is therefore both metaphysical and soteriological: it explains continuity and names what must be transformed.",
+      "primary_loci": ["Asaṅga, Mahāyāna-Saṅgraha 1.16–61", "Vasubandhu, Triṃśikā 1–17", "Abhidharma-Samuccaya 1.16–24"]
+    },
+    {
+      "school": "Laṅkāvatāra / Buddha-nature Mahāyāna",
+      "definition": "The *ālaya* is re-described in a Buddha-nature register as the basis that, when not grasped through duality, is continuous with the language of *tathāgatagarbha*. This does not make it a hidden self; the point is that the obscured cognitive basis and the awakened basis are not two different substances. The texts therefore use the *ālaya* both to explain bondage and to explain why awakening is a purification rather than the manufacture of an alien state.",
+      "primary_loci": ["Laṅkāvatāra-Sūtra 2 [NOT YET RETRIEVED]", "Laṅkāvatāra-Sūtra 10.748–750"]
     },
     {
       "school": "Mādhyamaka",
-      "definition": "Rejected by Bhāviveka and Candrakīrti as a covertly substantive *svabhāva*-bearing posit: a real *ālaya*-substrate would be exactly the kind of self-contained ground that Mādhyamaka analysis refuses. The Mādhyamaka explanation of karmic continuity is dependent-arising-without-substrate.",
-      "primary_loci": ["Candrakīrti, Madhyamakāvatāra 6.45–61"]
+      "definition": "Mādhyamaka critics take the *ālaya-vijñāna* to be a relapse into substrate metaphysics. If karmic continuity requires a specially privileged basis, then Yogācāra has merely replaced the self with a functional equivalent. The Mādhyamaka answer is that continuity can be explained by dependent arising alone, without granting any stratum the role of quasi-substance.",
+      "primary_loci": ["Candrakīrti, Madhyamakāvatāra 6.45–61", "Bhāviveka, Madhyamaka-Hṛdaya 5 [NOT YET RETRIEVED]"]
     },
     {
       "school": "Vedānta",
-      "definition": "The *ālaya-vijñāna* is the principal Buddhist target of the Vedāntic *vijñāna-vāda* refutation at Brahma-Sūtra-Bhāṣya 2.2.28–32. The Vedāntic argument is that the *ālaya* fails to do what the Yogācāra requires it to do: a momentary substrate cannot ground the cross-moment continuity of karmic effect that the Yogācāra appeals to it for, and therefore an enduring *ātman* is required after all. Yāmuna develops the argument at length in the *Saṃvit-Siddhi*. Some modern comparative scholarship has noted formal parallels with Advaita's *avidyā-āśraya* and the Vivaraṇa concept of *bhāva-rūpā-avidyā* as a substrate of phenomenal manifestation, but the parallels are partial and the substantive doctrines diverge.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Śaṅkara) 2.2.31", "Yāmuna, Saṃvit-Siddhi"]
+      "definition": "Vedānta uses the *ālaya-vijñāna* as a principal Buddhist target. The criticism is structural: if the *ālaya* is momentary, it cannot ground recognition, memory, and karmic transmission; if it is not momentary, Buddhism has reintroduced a continuant under another name. Comparisons with Advaita's *avidyā* or causal body are therefore limited and polemically unstable: the schools assign different ontological roles to their continuity-bearing devices.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.2.31–32", "Yāmuna, Saṃvit-Siddhi [NOT YET RETRIEVED]"]
     }
   ],
   "see_also": ["vijnapti-matrata", "trisvabhava", "vasana", "sunyata", "atman", "avidya", "saksin"],
-  "translator_note": "'Storehouse-consciousness' is the standard gloss; 'foundation-consciousness' (Schmithausen) and 'substratum-consciousness' (Anacker) are alternative renderings that emphasise different aspects of the *ā-laya* meaning. The doctrine is widely misread as a Yogācāra version of an eternal soul; the Yogācāra position is precisely that the *ālaya* is itself momentary and dependently arising — it functions in the role that an enduring substrate would otherwise occupy without itself being one."
+  "translator_note": "\"Storehouse-consciousness\" is established usage, but it easily suggests a static container or a hidden soul. Both are misleading. The term names a conditioned continuity-bearing stream, not an enduring self. \"Foundational consciousness\" or \"substrate consciousness\" captures some of the function, but each imports metaphysical weight from English that the Yogācārin is precisely trying to manage rather than simply accept.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

@@ -2,26 +2,61 @@
   "term_key": "siva",
   "term_iast": "Śiva",
   "term_devanagari": "शिव",
-  "literal": "the auspicious; from √śī 'to lie' (as in 'śī-vaḥ', the one in whom things rest) or independent root",
-  "aliases": ["siva", "Śiva", "śiva", "Shiva", "śivaḥ", "śivasya", "śive", "śivena"],
-  "invariant_definition": "The deity who in Śaiva theology is identified with *brahman* in its highest description, particularly in Kashmir Śaivism (Trika), Śaiva Siddhānta, and Vīraśaivism. In the Vaiṣṇava Vedāntic mainstream Śiva is treated as a *jīva* of exalted status (Advaita: *saguṇa brahman* under another form; Viśiṣṭādvaita and Dvaita: high but not supreme). The user's position-brief incorporates Trika substantially (T7's *svātantrya* doctrine, *spanda*, *pratyabhijñā*), so the Śaiva use of Śiva is technically operative in the project's framework.",
+  "literal": "the auspicious one",
+  "aliases": [
+    "siva",
+    "Śiva",
+    "śiva",
+    "Shiva",
+    "śivaḥ",
+    "śivasya",
+    "śive",
+    "śivena"
+  ],
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "A divine name whose metaphysical force varies sharply by tradition. In Śaiva systems, Śiva is not one deity among others filling the \"destruction\" slot of a Trimūrti chart; he is the supreme Lord, the source of manifestation, concealment, revelation, and liberation. In Trika he is *prakāśa* inseparable from *vimarśa*; in Śaiva Siddhānta he is *pati*, distinct from bound souls and bonds but causally and salvifically sovereign over them. In non-Śaiva Vedānta, Śiva is still real, worship-worthy, and cosmically consequential, but not the highest independent reality: Advaita subsumes him under *saguṇa brahman*; Viśiṣṭādvaita and Dvaita place him among exalted but dependent beings under Nārāyaṇa. The surrounding technical vocabulary therefore matters: *Śiva* travels with *pati*, *śakti*, *pañcakṛtya*, *māyā*, *kañcuka*, and *pratyabhijñā* in Śaiva use, but with hierarchy and dependence in Vaiṣṇava polemics. The term should be translated through those commitments, not through mythology-summary English.",
   "per_school": [
     {
       "school": "Trika / Kashmir Śaivism",
-      "definition": "Śiva is the supreme reality — the unified *prakāśa-vimarśa* (luminous self-cognizing) consciousness, of whom Śakti is the inseparable *vimarśa*-aspect. The 36 *tattvas* descend from Śiva-Śakti through *sadāśiva*, *īśvara*, *śuddha-vidyā*, *māyā* and the five *kañcukas*, to *prakṛti* and the rest. *Mokṣa* is *pratyabhijñā* — recognition that one was always Śiva.",
-      "primary_loci": ["Pratyabhijñā-Hṛdaya, sūtras 1–20", "Tantrāloka 1, 6, 9", "Spanda-Kārikā 1.1–5"]
+      "definition": "Śiva is the supreme non-dual reality, luminous consciousness whose self-apprehending power is Śakti. The universe is Śiva's own free self-articulation through *svātantrya*, *spanda*, and the descent of the *tattvas*; liberation is the recognition that the apparently contracted subject was always Śiva. In this register, Śiva names the whole metaphysical structure, not merely a sectarian deity-image.",
+      "primary_loci": [
+        "Pratyabhijñā-Hṛdaya 1, 5, 20",
+        "Spanda-Kārikā 1.1-2"
+      ]
     },
     {
-      "school": "Advaita",
-      "definition": "Śiva is one form of *saguṇa brahman*; equal *iṣṭa-devatā* status with Viṣṇu in classical Advaita pañcāyatana practice. In *nirguṇa* analysis sublated alongside all forms.",
-      "primary_loci": ["Daksināmūrti-Stotra (attrib. Śaṅkara)"]
+      "school": "Śaiva Siddhānta",
+      "definition": "Śiva is *pati*, the Lord eternally distinct from *paśu* and *pāśa*, yet the one who grants liberating knowledge, removes impurity, and governs the bonds of *mala*, *karma*, and *māyā*. The soul never becomes identical with Śiva in the Advaita or Trika sense; rather, it attains liberated communion under His grace while retaining distinction.",
+      "primary_loci": [
+        "Mṛgendrāgama, Vidyāpāda [NOT YET RETRIEVED]",
+        "Śivajñānabodha [NOT YET RETRIEVED]"
+      ]
     },
     {
-      "school": "Viśiṣṭādvaita / Dvaita",
-      "definition": "Śiva is a high *jīva* — *muktās* serving Viṣṇu; not supreme. Madhva polemically establishes Viṣṇu's supremacy over Śiva (*Viṣṇu-Tattva-Vinirṇaya*).",
-      "primary_loci": ["Viṣṇu-Tattva-Vinirṇaya §§30–40"]
+      "school": "Advaita Vedānta",
+      "definition": "Śiva is a real form of *Īśvara* and a valid object of *upāsanā*. Advaita does not reduce him to symbol, but it does deny that any determinate divine form is the final description of reality. Śiva, Viṣṇu, Devī, and other worshipful forms belong to the *vyāvahārika* register of *saguṇa brahman*; realization of *nirguṇa brahman* sublates form-distinctions without denying the pragmatic or devotional reality of worship.",
+      "primary_loci": [
+        "Bhagavad-Gītā-Bhāṣya 7.21-23",
+        "[NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Viśiṣṭādvaita and Dvaita",
+      "definition": "Śiva is an exalted, real, and venerable divine being, but not the supreme independent reality. These schools resist both the Smārta equalization of deity-forms and the Śaiva claim that Śiva is the highest *brahman*. Their concern is not to demote Śiva to fiction, but to place him within a graded ontology under Viṣṇu-Nārāyaṇa, the unique highest Lord.",
+      "primary_loci": [
+        "Śrī-Bhāṣya 1.1.1",
+        "Viṣṇu-Tattva-Vinirṇaya [NOT YET RETRIEVED]"
+      ]
     }
   ],
-  "see_also": ["sakti", "brahman", "trika", "pratyabhijna", "spanda", "svatantrya"],
-  "translator_note": "Untranslatable proper noun. Resist 'the destroyer' as oversimplification (the Trimūrti-functional gloss is *not* the Śaiva-Vedāntic understanding). For Trika, Śiva is the unified consciousness that is everything; for Madhva-tradition Vaiṣṇavas, Śiva is a high but dependent *jīva*; for Advaita, Śiva is one form of *saguṇa brahman* equal in status to Viṣṇu."
+  "see_also": [
+    "sakti",
+    "isvara",
+    "pratyabhijna",
+    "spanda",
+    "svatantrya",
+    "pati-pasu-pasa"
+  ],
+  "translator_note": "Avoid \"the destroyer.\" That schoolbook gloss imports a mythographic division of labor and misses the metaphysical uses of the name. In Śaiva philosophy, Śiva is a real supreme principle; in non-Śaiva Vedānta he remains a real divine being, not a mere symbol or poetic mask."
 }
