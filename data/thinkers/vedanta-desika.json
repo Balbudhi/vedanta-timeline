@@ -174,6 +174,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "A systematic Viśiṣṭādvaita *prakaraṇa* on the seven categories — *dravya* (substance), *guṇa* (quality), *karma* (action), *sāmānya* (universal), *viśeṣa* (particularity), *samavāya* (inherence), *abhāva* (absence) — re-engineered against the Nyāya-Vaiśeṣika scheme to fit Viśiṣṭādvaita ontology. Substance divides into *jaḍa* (*prakṛti*, *kāla*, *śuddha-sattva* of the eternal realm) and *ajaḍa* (*jīva*, *Īśvara*, *dharma-bhūta-jñāna*). The *jīva* is the substrate of its own attribute-awareness *dharma-bhūta-jñāna*, which expands and contracts under *karma* but is in its essential nature infinite; in *mokṣa* it expands to encompass Brahman and the eternal realm without merging the *jīva* into Brahman. Deśika gives the school's most precise analytic statement of *apṛthak-siddhi* as a relation distinct from *samavāya* and from *saṃyoga*: inseparability without inherence, since the relata retain their distinct natures, and without mere conjunction, since the relation is constitutive rather than contingent. He also clarifies the *antaryāmin*-structure: *Īśvara* can be inner controller of *jīva*-s and *acit* because the *śarīra-śarīrin* relation does not require numerical identity, and is not refuted by the persistent distinction of inner-self from body. The work complements the *Tattva-Mukta-Kalāpa* as the school's mature *padārtha*-systematisation; it supplies the technical vocabulary used by Sudarśana Sūri's *Śruta-Prakāśikā* and the later commentarial tradition.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -193,6 +194,7 @@
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "One hundred numbered *dūṣaṇa*-s against post-Śaṅkara Advaita — the most systematic anti-Advaita polemic the Viśiṣṭādvaita tradition possesses. The targets span the school as developed by Maṇḍana, Sureśvara, Vācaspati, Padmapāda, Prakāśātman, Sarvajñātman, and Śrīharṣa, and the operation is argument-by-argument rather than thematic: each *dūṣaṇa* takes one Advaitic thesis at one of its precise formulations and exhibits its incoherence. Among the load-bearing engagements: the doctrine of *avidyā* (extending and sharpening Rāmānuja's *sapta-vidhānupapatti* across multiple *dūṣaṇa*-s, with separate refutations of the *Bhāmatī* locus-in-*jīva* and *Vivaraṇa* locus-in-Brahman positions); *anirvacanīya-khyāti* (an indeterminable category cannot underwrite a determinate explanation of error); *dṛṣṭi-sṛṣṭi* and *sṛṣṭi-dṛṣṭi* cosmologies (a self-creating cognition presupposes the world-distinctions it is meant to generate); *nirviśeṣa* Brahman (no cognition is of an unqualified content, so the supposed cognition of unqualified Brahman is not a cognition); the Advaitic readings of *tat tvam asi* and *neti neti*; the *bimba-pratibimba* and *avaccheda* models of the *jīva*; the late-Advaita *māyā/avidyā* distinction; the use of *jahad-ajahad-lakṣaṇā*; and Śrīharṣa's *Khaṇḍana*-style anti-definitional moves. Against Śrīharṣa, Deśika's counter-move is that any dialectical exchange — including Śrīharṣa's own — presupposes a coherent *padārtha*-scheme it cannot consistently deny. The work is the high-water mark of Vaḍakalai polemic; every later Viśiṣṭādvaita engagement with Advaita — Mahācārya, Śrīnivāsadāsa, and into the modern period — operates within the framework of objections the *Śatadūṣaṇī* established. Deśika did not complete the planned hundred *dūṣaṇa*-s in his lifetime; the tradition completed the count.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -215,6 +217,7 @@
       ],
       "genre": "verse-summary",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "A verse-summary (*sārāvalī*, \"flow of essence\") of the *Brahma-Sūtra*'s 156 *adhikaraṇa*-s, organised sequentially through the four *adhyāya*-s and giving each *adhikaraṇa* the Vaḍakalai Viśiṣṭādvaita reading in compressed *anuṣṭubh* form. For each *adhikaraṇa* Deśika supplies the standard four moves: *viṣaya* (topic), *saṃśaya* (doubt), *pūrvapakṣa* (typically Advaita or Bhāskara), *siddhānta* (the Rāmānuja-line conclusion as developed through Sudarśana Sūri's *Śruta-Prakāśikā*), and *prayojana* (purpose). The work is the canonical Vaḍakalai pedagogical summary of the entire *Brahma-Sūtra* — what every Vaḍakalai pandit has memorised and what every Vaḍakalai composition presupposes. Three doctrinally distinctive readings are worth marking. The *ānanda-mayādhikaraṇa* takes *ānandamaya* as Brahman, against Śaṅkara's reading on which it is the inner *kośa*. The *jīva-pratibimbādhikaraṇa* fixes the *apṛthak-siddha* relation against both the Advaitic *avaccheda* (the *jīva* as Brahman delimited by *upādhi*) and Bhāskara's *aupādhika-bheda* (difference itself as conditional). The *adhyāya*-4 *bheda-sūtra*-s are read in a *taratamya* key consistent with Viśiṣṭādvaita's *jīva*-individuation, against the Advaitic reduction of all *jīva*-difference to the *upādhi*-level. The work is the natural counterpart to the *Tattva-Muktā-Kalāpa*, reorganising the same doctrinal architecture along the *Sūtra*'s own *adhikaraṇa*-skeleton.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -692,7 +695,7 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-secondary-citation-audit-opus",
+  "last_verified_by": "wave-rigor-opus",
   "polemic_chain_ids": [
     "shatadusani"
   ]

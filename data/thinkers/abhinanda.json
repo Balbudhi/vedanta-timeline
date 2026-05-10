@@ -31,7 +31,8 @@
       "language": "sanskrit",
       "summary": "The seventy-one Mahārāṣṭrī Prakrit verses (with intermixed Sanskrit) that constitute the *mūla*-text of the *Mahārtha-Mañjarī* — the principal source-text of the South-Indian Krama tradition. The verses unfold the Krama metaphysics in compact poetic form: Kālī as *kāla-saṅkarṣiṇī*, the devourer of time (*MM* gāthās 1–10); the twelve-fold *krama* of Kālīs as the sequential self-display of consciousness in each moment of cognition — manifestation, sustaining, withdrawal, re-emergence, and the recursive levels of recognition that follow (*MM* gāthās 21–35); the integration of *krama* practice with *spanda* and *Pratyabhijñā* doctrine (*MM* gāthās 11–20); the soteriological focus on attentive recognition of the *krama*-rhythm as the goddess's own self-recognition (*MM* gāthās 51–65). The Prakrit register is distinctive — most Trika and Krama literature is in Sanskrit — and gives the verses a folk-pedagogical accessibility that contrasts with the high scholastic register of the *Tantrāloka*. Maheśvarānanda's *Parimala* will, in the thirteenth century, build the school's authoritative auto-commentary on these verses, but the verses themselves stand as Abhinanda's foundational composition.",
       "key_passage_ids": [],
-      "entry_status": "draft"
+      "entry_status": "draft",
+      "source_status": "primary-text-not-in-corpus"
     }
   ],
   "key_passages": [],
@@ -40,5 +41,5 @@
   "entry_status": "draft",
   "entry_owner_agent": "trika-shakta-extension-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }
