@@ -38,7 +38,12 @@
       "genre": "prakarana",
       "language": "sanskrit",
       "summary": "Independent *prakaraṇa* in four chapters, mixed verse and prose, defending the *naiṣkarmya* (action-less) reading of liberation against the *jñāna-karma-samuccaya* alternative. Chapter 1 establishes *brahman*-knowledge as the sole means of *mokṣa* and refutes the view that Vedic action even of the most refined kind contributes to liberation. Chapter 2 analyzes the *mahāvākya tat tvam asi*, the *jahad-ajahad-lakṣaṇā* (joint inclusive-exclusive implication) by which the *vākya* is read non-dually, and the *adhyāsa*-mechanism. Chapter 3 takes up specific *pūrvapakṣa* objections — Maṇḍana's *prasaṅkhyāna-vāda* is the principal target — and argues that *vākya*-cognition itself is *aparokṣa* (immediate) and self-sufficient. Chapter 4 treats *jīvanmukti* and the residual conditions of the liberated knower. Securely authored; the work is the systematic doctrinal complement to Sureśvara's *Vārttikas*. Critical edition: Hino / R. Balasubramanian.",
-      "key_passage_ids": [],
+      "key_passage_ids": [
+        "naishkarmya-siddhi-4-3__atman-anatman-epistemic-order",
+        "naishkarmya-siddhi-2-9-10__anvaya-vyatireka-and-vakyartha",
+        "naishkarmya-siddhi-1-55-56__jnana-karma-no-samuccaya",
+        "naishkarmya-siddhi-1-98-99__tat-tvam-asi-knowledge-alone"
+      ],
       "entry_status": "reviewed"
     },
     {
@@ -80,10 +85,898 @@
       "entry_status": "reviewed"
     }
   ],
-  "key_passages": [],
+  "key_passages": [
+    {
+      "passage_id": "naishkarmya-siddhi-4-3__atman-anatman-epistemic-order",
+      "work_id": "naishkarmya-siddhi",
+      "locus_short": "NS 4.3",
+      "locus_long": "Naiṣkarmya-Siddhi, Book 4, verse 3",
+      "locus_structured": {
+        "chapter": 4,
+        "verse": 3
+      },
+      "sanskrit_iast": "ātmānātmā ca loke 'smin\npratyakṣādi-pramāṇataḥ\nsiddhau tayor anātmā tu\nsarvatraivātma-pūrvakaḥ",
+      "text_critical_note": "The archive OCR underlying this run reads `siddhas`; the dual nominative `siddhau` is adopted as the grammatically required reading.",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "ātmā",
+            "stem": "ātman",
+            "pratyaya": "su",
+            "morphology": "nom sg masc",
+            "gloss": "the Self"
+          },
+          {
+            "pada": "anātmā",
+            "stem": "an-ātman",
+            "pratyaya": "su",
+            "morphology": "nom sg masc",
+            "gloss": "the not-Self"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "loke",
+            "stem": "loka",
+            "pratyaya": "ṅi",
+            "morphology": "loc sg masc",
+            "gloss": "in the world"
+          },
+          {
+            "pada": "asmin",
+            "stem": "idam",
+            "morphology": "loc sg masc",
+            "gloss": "in this"
+          },
+          {
+            "pada": "pratyakṣādi-pramāṇataḥ",
+            "stem": "pratyakṣādi-pramāṇa",
+            "morphology": "abl sg neut",
+            "gloss": "from means of knowledge beginning with perception"
+          },
+          {
+            "pada": "siddhau",
+            "stem": "siddha",
+            "morphology": "nom dual masc",
+            "gloss": "are established"
+          },
+          {
+            "pada": "tayoḥ",
+            "stem": "tad",
+            "morphology": "gen dual",
+            "gloss": "of the two"
+          },
+          {
+            "pada": "anātmā",
+            "stem": "an-ātman",
+            "pratyaya": "su",
+            "morphology": "nom sg masc",
+            "gloss": "the not-Self"
+          },
+          {
+            "pada": "tu",
+            "stem": "tu",
+            "morphology": "indecl",
+            "gloss": "but"
+          },
+          {
+            "pada": "sarvatra",
+            "stem": "sarvatra",
+            "morphology": "indecl",
+            "gloss": "everywhere"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "ātma-pūrvakaḥ",
+            "stem": "ātma-pūrvaka",
+            "pratyaya": "su",
+            "morphology": "nom sg masc",
+            "gloss": "preceded by the Self / dependent on the Self"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "pratyakṣādi-pramāṇataḥ",
+            "type": "tatpurusha",
+            "resolution": "pratyakṣa-ādibhyaḥ pramāṇebhyaḥ",
+            "note": "Ablative expression: by means of the pramāṇas beginning with perception."
+          },
+          {
+            "compound": "ātma-pūrvakaḥ",
+            "type": "tatpurusha",
+            "resolution": "ātmā pūrvaṃ yasya saḥ",
+            "note": "What is objectified never appears apart from prior Self-presence."
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "kartṛ",
+            "pada": "ātmā",
+            "note": "First member of the dual predication with siddhau."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "anātmā",
+            "note": "Second member of the dual predication with siddhau."
+          },
+          {
+            "role": "sambandha",
+            "pada": "tayoḥ",
+            "note": "Genitive delimiting the latter claim about the two."
+          }
+        ],
+        "verb_modality": []
+      },
+      "english_close": "In this world the Self and the not-Self are both established by means of cognition such as perception; but, of the two, the not-Self is everywhere preceded by the Self.",
+      "english_paraphrase": "Objectivity never shows up on its own: whatever counts as not-Self appears only in dependence on the Self.",
+      "preserved_terms": [
+        {
+          "term_iast": "ātman",
+          "first_use_gloss": "the witnessing Self"
+        },
+        {
+          "term_iast": "anātman",
+          "first_use_gloss": "what is not the Self, the object-side of experience"
+        },
+        {
+          "term_iast": "pramāṇa",
+          "first_use_gloss": "authoritative means of knowledge"
+        }
+      ],
+      "why_this_passage": "This verse is a fair programmatic statement of Sureśvara's ontology and epistemology: the not-Self is never independently given, but is always disclosed within prior Self-presence. Because the local Sanskrit extraction was most reliable for the Naiṣkarmya-Siddhi in this run, the selection leans on his systematic treatise rather than the more weakly OCR'd vārttika PDFs.",
+      "topic_tags": [
+        "ontology",
+        "epistemology"
+      ],
+      "sub_axes": [
+        "status-of-the-world",
+        "number-and-status-of-pramanas"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "A. J. Alston (trans.), The Realization of the Absolute: The “Naiṣkarmya Siddhi” of Śrī Sureśvara, Shanti Sadan, London, 1959; transcribed from materials/primary_texts/sanskrit/vedanta/full_corpus/suresvara_naiskarmya_siddhi_alston_1959_archive.pdf and checked against the matching archive.org OCR derivative.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "naishkarmya-siddhi-2-9-10__anvaya-vyatireka-and-vakyartha",
+      "work_id": "naishkarmya-siddhi",
+      "locus_short": "NS 2.9-10",
+      "locus_long": "Naiṣkarmya-Siddhi, Book 2, verses 9-10",
+      "locus_structured": {
+        "chapter": 2,
+        "verse": "9-10"
+      },
+      "sanskrit_iast": "anvaya-vyatirekābhyāṃ vinā\nvākyārtha-bodhanaṃ na syāt\ntena vinājñāna-prahāṇaṃ\nnopapadyate\nvinājñāna-prahāṇena\npuruṣārthaḥ su-durlabhaḥ\ntasmād yathokta-siddhy-arthaṃ\nparo grantho 'vatāryate",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "anvaya-vyatirekābhyām",
+            "stem": "anvaya-vyatireka",
+            "morphology": "instr dual masc",
+            "gloss": "by agreement and difference"
+          },
+          {
+            "pada": "vinā",
+            "stem": "vinā",
+            "morphology": "indecl",
+            "gloss": "without"
+          },
+          {
+            "pada": "vākyārtha-bodhanam",
+            "stem": "vākyārtha-bodhana",
+            "pratyaya": "am",
+            "morphology": "nom sg neut",
+            "gloss": "understanding of the sentence-meaning"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "syāt",
+            "stem": "as",
+            "morphology": "3sg vidhi-liṅ P",
+            "gloss": "would be"
+          },
+          {
+            "pada": "tena",
+            "stem": "tad",
+            "morphology": "instr sg neut",
+            "gloss": "without that / by that"
+          },
+          {
+            "pada": "vinājñāna-prahāṇam",
+            "stem": "ajñāna-prahāṇa",
+            "morphology": "nom sg neut",
+            "gloss": "removal of ignorance"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "upapadyate",
+            "stem": "upa-pad",
+            "morphology": "3sg pres ind Ā",
+            "gloss": "is possible"
+          },
+          {
+            "pada": "vinājñāna-prahāṇena",
+            "stem": "ajñāna-prahāṇa",
+            "morphology": "instr sg neut",
+            "gloss": "without the removal of ignorance"
+          },
+          {
+            "pada": "puruṣārthaḥ",
+            "stem": "puruṣārtha",
+            "pratyaya": "su",
+            "morphology": "nom sg masc",
+            "gloss": "the human end"
+          },
+          {
+            "pada": "su-durlabhaḥ",
+            "stem": "su-durlabha",
+            "pratyaya": "su",
+            "morphology": "nom sg masc",
+            "gloss": "very difficult to attain"
+          },
+          {
+            "pada": "tasmāt",
+            "stem": "tad",
+            "morphology": "abl sg neut",
+            "gloss": "therefore"
+          },
+          {
+            "pada": "yathokta-siddhy-artham",
+            "stem": "yathokta-siddhy-artha",
+            "morphology": "acc sg masc",
+            "gloss": "for the sake of accomplishing what has just been stated"
+          },
+          {
+            "pada": "paraḥ",
+            "stem": "para",
+            "pratyaya": "su",
+            "morphology": "nom sg masc",
+            "gloss": "further"
+          },
+          {
+            "pada": "granthaḥ",
+            "stem": "grantha",
+            "pratyaya": "su",
+            "morphology": "nom sg masc",
+            "gloss": "section / treatise"
+          },
+          {
+            "pada": "avatāryate",
+            "stem": "ava-tṝ",
+            "morphology": "3sg pres ind Ā passive",
+            "gloss": "is introduced"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "anvaya-vyatirekābhyām",
+            "type": "dvandva",
+            "resolution": "anvayaś ca vyatirekaś ca",
+            "note": "The paired reasoning of concomitance and exclusion."
+          },
+          {
+            "compound": "vākyārtha-bodhanam",
+            "type": "tatpurusha",
+            "resolution": "vākyasya arthasya bodhanam",
+            "note": "Cognition of sentence-meaning, not mere word-recognition."
+          },
+          {
+            "compound": "vinājñāna-prahāṇam",
+            "type": "tatpurusha",
+            "resolution": "ajñānasya prahāṇam",
+            "note": "Surface sandhi after vinā; the object removed is ignorance, not knowledge."
+          },
+          {
+            "compound": "puruṣārthaḥ",
+            "type": "tatpurusha",
+            "resolution": "puruṣasya arthaḥ",
+            "note": "The final human good, here mokṣa."
+          },
+          {
+            "compound": "yathokta-siddhy-artham",
+            "type": "tatpurusha",
+            "resolution": "yathoktasya siddheḥ artham",
+            "note": "For achieving what has just been taught."
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "karaṇa",
+            "pada": "anvaya-vyatirekābhyām",
+            "note": "Instrument required for understanding sentence-meaning."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "vākyārtha-bodhanam",
+            "note": "Subject of syāt."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "vinājñāna-prahāṇam",
+            "note": "Subject of upapadyate under negation."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "puruṣārthaḥ",
+            "note": "Subject of the predication su-durlabhaḥ."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "granthaḥ",
+            "note": "Subject of avatāryate."
+          },
+          {
+            "role": "karman",
+            "pada": "yathokta-siddhy-artham",
+            "note": "Purpose accusative with avatāryate."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "syāt",
+            "lakara": "vidhi-liṅ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "Counterfactual / inferential optative."
+          },
+          {
+            "pada": "upapadyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "middle",
+            "note": "Standard impersonal possibility construction."
+          },
+          {
+            "pada": "avatāryate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive",
+            "note": "The next section is brought in / introduced."
+          }
+        ]
+      },
+      "english_close": "Without reasoning by agreement and difference there would be no understanding of the sentence-meaning; without that, the removal of ignorance is not possible. Without the removal of ignorance, the human end is very difficult to attain; therefore a further section is introduced to accomplish what has just been stated.",
+      "english_paraphrase": "Sureśvara insists that hearing the great sentence is not a brute event: disciplined anvaya-vyatireka inquiry prepares genuine grasp of what the sentence says, and only that grasp removes ignorance.",
+      "preserved_terms": [
+        {
+          "term_iast": "anvaya-vyatireka",
+          "first_use_gloss": "reasoning by concomitance and exclusion"
+        },
+        {
+          "term_iast": "vākyārtha",
+          "first_use_gloss": "the meaning of a full sentence"
+        },
+        {
+          "term_iast": "ajñāna",
+          "first_use_gloss": "ignorance, the root misapprehension to be removed"
+        }
+      ],
+      "why_this_passage": "This is a fair representative of Sureśvara's epistemology because it makes explicit that mahāvākya-cognition requires disciplined understanding of sentence-meaning and is ordered to the destruction of ignorance. It also shows why his jñāna-only position is not anti-interpretive quietism: reasoning serves realization by clearing the way for śruti's disclosure.",
+      "topic_tags": [
+        "epistemology",
+        "soteriology"
+      ],
+      "sub_axes": [
+        "status-of-sruti",
+        "saving-cognition-status",
+        "effective-means-of-moksa"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "A. J. Alston (trans.), The Realization of the Absolute: The “Naiṣkarmya Siddhi” of Śrī Sureśvara, Shanti Sadan, London, 1959; transcribed from materials/primary_texts/sanskrit/vedanta/full_corpus/suresvara_naiskarmya_siddhi_alston_1959_archive.pdf and checked against the matching archive.org OCR derivative.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "naishkarmya-siddhi-1-55-56__jnana-karma-no-samuccaya",
+      "work_id": "naishkarmya-siddhi",
+      "locus_short": "NS 1.55-56",
+      "locus_long": "Naiṣkarmya-Siddhi, Book 1, verses 55-56",
+      "locus_structured": {
+        "chapter": 1,
+        "verse": "55-56"
+      },
+      "sanskrit_iast": "bādhya-bādhaka-bhāvāc ca\npañcāsyoraṇayor iva\neka-deśānavasthānāt\nna samuccayatā tayoḥ\nayathā-vastv-avidyā syād\nvidyā tasyā virodhinī\nsamuccayas tayor evaṃ\nravi-śarvarayor iva",
+      "text_critical_note": "The archive OCR reads `eka-desanavasthanan`; `eka-deśānavasthānāt` is adopted as the syntactically and philosophically coherent reading ('because the two do not abide in one place together').",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "bādhya-bādhaka-bhāvāt",
+            "stem": "bādhya-bādhaka-bhāva",
+            "morphology": "abl sg masc",
+            "gloss": "because of the relation of what is sublated and what sublates"
+          },
+          {
+            "pada": "ca",
+            "stem": "ca",
+            "morphology": "indecl",
+            "gloss": "and"
+          },
+          {
+            "pada": "pañcāsyoraṇayoḥ",
+            "stem": "pañcāsya-uraṇa",
+            "morphology": "gen dual masc",
+            "gloss": "of a lion and a sheep"
+          },
+          {
+            "pada": "iva",
+            "stem": "iva",
+            "morphology": "indecl",
+            "gloss": "like"
+          },
+          {
+            "pada": "eka-deśānavasthānāt",
+            "stem": "eka-deśa-anavasthāna",
+            "morphology": "abl sg neut",
+            "gloss": "because of not remaining in one place"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "samuccayatā",
+            "stem": "samuccayatā",
+            "morphology": "nom sg fem",
+            "gloss": "co-presence / conjunction"
+          },
+          {
+            "pada": "tayoḥ",
+            "stem": "tad",
+            "morphology": "gen dual",
+            "gloss": "of the two"
+          },
+          {
+            "pada": "ayathā-vastv-avidyā",
+            "stem": "ayathā-vastu-avidyā",
+            "morphology": "nom sg fem",
+            "gloss": "ignorance consisting in misapprehending reality"
+          },
+          {
+            "pada": "syāt",
+            "stem": "as",
+            "morphology": "3sg vidhi-liṅ P",
+            "gloss": "would be / is"
+          },
+          {
+            "pada": "vidyā",
+            "stem": "vidyā",
+            "pratyaya": "su",
+            "morphology": "nom sg fem",
+            "gloss": "knowledge"
+          },
+          {
+            "pada": "tasyāḥ",
+            "stem": "tad",
+            "morphology": "gen sg fem",
+            "gloss": "of that"
+          },
+          {
+            "pada": "virodhinī",
+            "stem": "virodhinī",
+            "morphology": "nom sg fem",
+            "gloss": "opposed"
+          },
+          {
+            "pada": "samuccayaḥ",
+            "stem": "samuccaya",
+            "pratyaya": "su",
+            "morphology": "nom sg masc",
+            "gloss": "conjunction"
+          },
+          {
+            "pada": "tayoḥ",
+            "stem": "tad",
+            "morphology": "gen dual",
+            "gloss": "of the two"
+          },
+          {
+            "pada": "evam",
+            "stem": "evam",
+            "morphology": "indecl",
+            "gloss": "thus"
+          },
+          {
+            "pada": "ravi-śarvarayoḥ",
+            "stem": "ravi-śarvarī",
+            "morphology": "gen dual",
+            "gloss": "of sun and night"
+          },
+          {
+            "pada": "iva",
+            "stem": "iva",
+            "morphology": "indecl",
+            "gloss": "like"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "bādhya-bādhaka-bhāvāt",
+            "type": "dvandva",
+            "resolution": "bādhyaś ca bādhakaś ca tayor bhāvāt",
+            "note": "Knowledge and action stand as sublator and sublated, not as collaborators."
+          },
+          {
+            "compound": "eka-deśānavasthānāt",
+            "type": "tatpurusha",
+            "resolution": "eka-deśe anavasthānāt",
+            "note": "The two do not remain together in one locus."
+          },
+          {
+            "compound": "ayathā-vastv-avidyā",
+            "type": "tatpurusha",
+            "resolution": "ayathā vastu yasmin sā avidyā",
+            "note": "Avidyā is mis-taking reality, not a true cognition alongside knowledge."
+          },
+          {
+            "compound": "ravi-śarvarayoḥ",
+            "type": "dvandva",
+            "resolution": "raviś ca śarvarī ca",
+            "note": "Sun and night exclude one another just as knowledge and ignorance do."
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "apādāna",
+            "pada": "bādhya-bādhaka-bhāvāt",
+            "note": "Ablative of reason explaining why samuccayatā is denied."
+          },
+          {
+            "role": "apādāna",
+            "pada": "eka-deśānavasthānāt",
+            "note": "Second ablative of reason."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "ayathā-vastv-avidyā",
+            "note": "Subject of syāt."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "vidyā",
+            "note": "Subject in apposition with virodhinī."
+          },
+          {
+            "role": "sambandha",
+            "pada": "tasyāḥ",
+            "note": "Genitive dependent on virodhinī."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "syāt",
+            "lakara": "vidhi-liṅ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "Gnomic optative used in philosophical definition."
+          }
+        ]
+      },
+      "english_close": "And there is no conjunction of the two, because they stand in the relation of what is sublated and what sublates, like a lion and a sheep, and because they do not remain in one place together. Ignorance is misapprehension of reality; knowledge is opposed to it. Thus the conjunction of the two is like that of the sun and the night.",
+      "english_paraphrase": "Sureśvara's point is structural, not rhetorical: action belongs to the sphere sustained by ignorance, while liberating knowledge cancels that very sphere, so a joint saving economy is incoherent.",
+      "preserved_terms": [
+        {
+          "term_iast": "samuccaya",
+          "first_use_gloss": "a supposed conjunction or joint operation"
+        },
+        {
+          "term_iast": "avidyā",
+          "first_use_gloss": "misapprehending ignorance"
+        },
+        {
+          "term_iast": "vidyā",
+          "first_use_gloss": "knowledge that cancels ignorance"
+        }
+      ],
+      "why_this_passage": "This is one of Sureśvara's most position-defining formulations of the impossibility of jñāna-karma-samuccaya, a thesis central to his dispute with ritualist and post-Maṇḍana alternatives. It is not a decorative analogy passage: the kāraka logic of mutual exclusion is exactly how he blocks any theory that makes action co-salvific with knowledge.",
+      "topic_tags": [
+        "soteriology",
+        "ethics-devotion",
+        "epistemology"
+      ],
+      "sub_axes": [
+        "effective-means-of-moksa",
+        "status-of-karma",
+        "saving-cognition-status"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "A. J. Alston (trans.), The Realization of the Absolute: The “Naiṣkarmya Siddhi” of Śrī Sureśvara, Shanti Sadan, London, 1959; transcribed from materials/primary_texts/sanskrit/vedanta/full_corpus/suresvara_naiskarmya_siddhi_alston_1959_archive.pdf and checked against the matching archive.org OCR derivative.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    },
+    {
+      "passage_id": "naishkarmya-siddhi-1-98-99__tat-tvam-asi-knowledge-alone",
+      "work_id": "naishkarmya-siddhi",
+      "locus_short": "NS 1.98-99",
+      "locus_long": "Naiṣkarmya-Siddhi, Book 1, verses 98-99",
+      "locus_structured": {
+        "chapter": 1,
+        "verse": "98-99"
+      },
+      "sanskrit_iast": "tat-tvam-asy-ādi-vākyānāṃ\nsvatas-siddhārtha-bodhanāt\narthāntaraṃ na saṃdraṣṭuṃ\nśakyate tridaśair api\nataḥ sarvāśramāṇāṃ tu\nvāk-manaḥ-kāya-karmabhiḥ\nsvānuṣṭhitair na muktiḥ syāj\njñānād eva hi sā yataḥ",
+      "panini_breakdown": {
+        "pada_analysis": [
+          {
+            "pada": "tat-tvam-asy-ādi-vākyānām",
+            "stem": "tat-tvam-asi-ādi-vākya",
+            "morphology": "gen pl neut",
+            "gloss": "of sentences beginning with 'tat tvam asi'"
+          },
+          {
+            "pada": "svatas-siddhārtha-bodhanāt",
+            "stem": "svatas-siddhārtha-bodhana",
+            "morphology": "abl sg neut",
+            "gloss": "because of their revealing a self-established reality"
+          },
+          {
+            "pada": "arthāntaram",
+            "stem": "artha-antara",
+            "pratyaya": "am",
+            "morphology": "acc sg neut",
+            "gloss": "another meaning"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "saṃdraṣṭum",
+            "stem": "sam-dṛś",
+            "morphology": "infinitive",
+            "gloss": "to project / to construe"
+          },
+          {
+            "pada": "śakyate",
+            "stem": "śak",
+            "morphology": "3sg pres ind Ā passive",
+            "gloss": "is possible"
+          },
+          {
+            "pada": "tridaśair",
+            "stem": "tridaśa",
+            "morphology": "instr pl masc",
+            "gloss": "by the gods"
+          },
+          {
+            "pada": "api",
+            "stem": "api",
+            "morphology": "indecl",
+            "gloss": "even"
+          },
+          {
+            "pada": "ataḥ",
+            "stem": "tad",
+            "morphology": "abl sg neut",
+            "gloss": "therefore"
+          },
+          {
+            "pada": "sarvāśramāṇām",
+            "stem": "sarva-āśrama",
+            "morphology": "gen pl masc",
+            "gloss": "of all life-stations"
+          },
+          {
+            "pada": "tu",
+            "stem": "tu",
+            "morphology": "indecl",
+            "gloss": "but"
+          },
+          {
+            "pada": "vāk-manaḥ-kāya-karmabhiḥ",
+            "stem": "vāk-manas-kāya-karma",
+            "morphology": "instr pl neut",
+            "gloss": "by acts of speech, mind, and body"
+          },
+          {
+            "pada": "svānuṣṭhitaiḥ",
+            "stem": "sva-anuṣṭhita",
+            "morphology": "instr pl neut",
+            "gloss": "well performed by oneself"
+          },
+          {
+            "pada": "na",
+            "stem": "na",
+            "morphology": "indecl",
+            "gloss": "not"
+          },
+          {
+            "pada": "muktiḥ",
+            "stem": "mukti",
+            "pratyaya": "su",
+            "morphology": "nom sg fem",
+            "gloss": "liberation"
+          },
+          {
+            "pada": "syāj",
+            "stem": "as",
+            "morphology": "3sg vidhi-liṅ P",
+            "gloss": "would be / arises"
+          },
+          {
+            "pada": "jñānāt",
+            "stem": "jñāna",
+            "morphology": "abl sg neut",
+            "gloss": "from knowledge"
+          },
+          {
+            "pada": "eva",
+            "stem": "eva",
+            "morphology": "indecl",
+            "gloss": "alone"
+          },
+          {
+            "pada": "hi",
+            "stem": "hi",
+            "morphology": "indecl",
+            "gloss": "indeed"
+          },
+          {
+            "pada": "sā",
+            "stem": "tad",
+            "morphology": "nom sg fem",
+            "gloss": "it"
+          },
+          {
+            "pada": "yataḥ",
+            "stem": "yad",
+            "morphology": "abl sg neut",
+            "gloss": "because from that"
+          }
+        ],
+        "samasa_vigrahas": [
+          {
+            "compound": "tat-tvam-asy-ādi-vākyānām",
+            "type": "tatpurusha",
+            "resolution": "tat tvam asi ity-ādi-vākyānām",
+            "note": "The class of great identity-statements beginning with 'tat tvam asi'."
+          },
+          {
+            "compound": "svatas-siddhārtha-bodhanāt",
+            "type": "tatpurusha",
+            "resolution": "svataḥ siddhasya arthasya bodhanāt",
+            "note": "The sentences reveal what is already self-established, not a future action."
+          },
+          {
+            "compound": "sarvāśramāṇām",
+            "type": "karmadharaya",
+            "resolution": "sarve āśramāḥ yeṣām",
+            "note": "All recognized āśramas without exception."
+          },
+          {
+            "compound": "vāk-manaḥ-kāya-karmabhiḥ",
+            "type": "dvandva",
+            "resolution": "vācā manasā kāyena ca kriyamāṇaiḥ karmabhiḥ",
+            "note": "The full triad of enacted discipline."
+          },
+          {
+            "compound": "svānuṣṭhitaiḥ",
+            "type": "tatpurusha",
+            "resolution": "svayam anuṣṭhitaiḥ",
+            "note": "Performed diligently by oneself."
+          }
+        ],
+        "karaka_structure": [
+          {
+            "role": "apādāna",
+            "pada": "svatas-siddhārtha-bodhanāt",
+            "note": "Reason for denying any imposed secondary meaning."
+          },
+          {
+            "role": "karman",
+            "pada": "arthāntaram",
+            "note": "Object of saṃdraṣṭum with śakyate."
+          },
+          {
+            "role": "karaṇa",
+            "pada": "tridaśair",
+            "note": "Agent/instrument in the passive possibility construction."
+          },
+          {
+            "role": "sambandha",
+            "pada": "sarvāśramāṇām",
+            "note": "Genitive delimiting who is under discussion."
+          },
+          {
+            "role": "karaṇa",
+            "pada": "vāk-manaḥ-kāya-karmabhiḥ",
+            "note": "Instrumental of purported means to mokṣa that is denied."
+          },
+          {
+            "role": "karaṇa",
+            "pada": "svānuṣṭhitaiḥ",
+            "note": "Qualifies the instrumental acts."
+          },
+          {
+            "role": "kartṛ",
+            "pada": "muktiḥ",
+            "note": "Subject of syāj."
+          },
+          {
+            "role": "apādāna",
+            "pada": "jñānāt",
+            "note": "Ablative of source/cause: liberation comes from knowledge alone."
+          }
+        ],
+        "verb_modality": [
+          {
+            "pada": "śakyate",
+            "lakara": "laṭ",
+            "pada_PA": "atmanepada",
+            "voice": "passive",
+            "note": "Impersonal passive of possibility."
+          },
+          {
+            "pada": "syāj",
+            "lakara": "vidhi-liṅ",
+            "pada_PA": "parasmaipada",
+            "voice": "active",
+            "note": "Gnomic optative expressing doctrinal conclusion."
+          }
+        ]
+      },
+      "english_close": "Because statements beginning with 'tat tvam asi' reveal a self-established reality, another meaning cannot be projected into them, not even by the gods. Therefore liberation does not arise for the members of any āśrama through acts of speech, mind, and body, however well performed; it comes only from knowledge, because from that alone it proceeds.",
+      "english_paraphrase": "Sureśvara treats the mahāvākya as declarative revelation, not as an encoded command to do something else. Once that is granted, karma cannot be promoted from preparatory discipline to the direct producer of mokṣa.",
+      "preserved_terms": [
+        {
+          "term_iast": "tat tvam asi",
+          "first_use_gloss": "the great Upaniṣadic sentence 'That thou art'"
+        },
+        {
+          "term_iast": "āśrama",
+          "first_use_gloss": "recognized station of life"
+        },
+        {
+          "term_iast": "mukti",
+          "first_use_gloss": "liberation from transmigration"
+        }
+      ],
+      "why_this_passage": "This pair of verses gives the cleanest concise statement of Sureśvara's jñāna-only doctrine: mahāvākya sentences state reality, and because they do so, they cannot be subordinated to ritual or meditative action. It is representative rather than cherry-picked because the whole first book is ordered toward exactly this conclusion, and these verses explicitly summarize that argument.",
+      "topic_tags": [
+        "epistemology",
+        "soteriology",
+        "ethics-devotion"
+      ],
+      "sub_axes": [
+        "status-of-sruti",
+        "saving-cognition-status",
+        "effective-means-of-moksa",
+        "status-of-karma"
+      ],
+      "cited_in_comparative_claims": [],
+      "parallel_passages": [],
+      "source_edition": "A. J. Alston (trans.), The Realization of the Absolute: The “Naiṣkarmya Siddhi” of Śrī Sureśvara, Shanti Sadan, London, 1959; transcribed from materials/primary_texts/sanskrit/vedanta/full_corpus/suresvara_naiskarmya_siddhi_alston_1959_archive.pdf and checked against the matching archive.org OCR derivative.",
+      "transcription_verified_by": "wave2-codex",
+      "entry_status": "reviewed"
+    }
+  ],
   "comparative_claim_ids": [],
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1a-opus"
+  "last_verified_by": "wave2-codex"
 }
