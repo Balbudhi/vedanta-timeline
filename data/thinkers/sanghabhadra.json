@@ -34,6 +34,7 @@
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Saṅghabhadra's principal treatise, structured as a verse-by-verse engagement with Vasubandhu's Kośa-Kārikās in which the orthodox Vaibhāṣika reading is defended against the Sautrāntika glosses Vasubandhu introduces in his own bhāṣya. The treatment of sarvam asti is the central polemical site: Saṅghabhadra defends Vasumitra's avasthā-anyathātva (modal-difference of state) account, distinguishes dravyasat from kāritra to meet the charge that past and future dharmas are unreal because inefficacious, and argues that the Sautrāntika alternative cannot account for the determinate intentional content of memory and prediction. The Nyāyānusāra also supplies the school's most systematic treatment of the conditioned-characteristics, the seventy-five dharmas, the kṣaṇika-vāda (defended as compatible with sarvam asti rather than collapsing into it), and the doctrine of conditions (pratyaya-vāda). Cox 1995 (Disputed Dharmas) is the standard modern study and partial translation; Dhammajoti 2007 supplies the wider doctrinal context. Neither work is on disk in our corpus; both cited via field-standard summary.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -50,6 +51,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Saṅghabhadra's compressed exposition of Sarvāstivāda doctrine intended as a positive systematisation rather than as point-by-point polemic. The treatise covers the same dhātu / āyatana / skandha apparatus as the Kośa but presents the orthodox Vaibhāṣika doctrine without staging the Sautrāntika pūrvapakṣa, allowing the school's settled position to stand on its own terms. It is the principal source for the orthodox account of the saṃskṛta-lakṣaṇa, the path-stages, and the meditative attainments, and is the standard reference for Sarvāstivāda doctrine in subsequent East Asian Abhidharma scholasticism. The Nyāyānusāra and the Samaya-Pradīpikā function together as a polemical-and-positive pair, the former defending the doctrine against Vasubandhu, the latter setting it forth as the school's own systematic exposition.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -61,5 +63,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-buddhist-comparators-extension-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-secondary-citation-audit-opus"
+  "last_verified_by": "wave-rigor-opus"
 }

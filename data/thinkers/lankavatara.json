@@ -53,6 +53,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The principal Mahāyāna sūtra in which Yogācāra and Tathāgatagarbha materials are presented within a single scriptural frame, structured as a discourse delivered by the Buddha to the bodhisattva Mahāmati on the island of Laṅkā. The text is composite: the Sagāthaka (the verse summary) is the earliest stratum; the prose chapters develop the doctrinal apparatus. Chapter 2 (the longest chapter in the Sanskrit recension) treats the catuḥśataka-praśna (the 108 questions) and the Buddha's response, articulating the citta-mātra doctrine and the eight-vijñāna model with ālaya-vijñāna in the eighth position. Chapter 6 (Tathāgatagarbha-parivarta) is the locus classicus for the integration of tathāgatagarbha with ālaya-vijñāna and contains the key passage in which Mahāmati asks how tathāgatagarbha differs from the ātman of the heretical schools and the Buddha responds that it is taught precisely to lead beings beyond ātman-grasping by supplying a non-substantialist alternative. The sūtra also articulates the doctrine of three (or sometimes four) svabhāvas (parikalpita / paratantra / pariniṣpanna), the doctrine of the two svaprajñāptis (the truth one realises for oneself and the truth one teaches), and the doctrine of svasiddhānta-naya / deśanā-naya. The sūtra is the principal scriptural source for the Yogācāra–Tathāgatagarbha doctrinal cluster transmitted into East Asia (it is the foundational text for the Chan / Zen tradition; Bodhidharma is traditionally said to have transmitted it to Huike) and is the principal Sanskrit-source background for the Pratyabhijñā / Trika inheritance into Kashmir Śaivism.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -64,5 +65,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-buddhist-comparators-extension-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }

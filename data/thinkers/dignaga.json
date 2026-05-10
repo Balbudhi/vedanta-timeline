@@ -49,6 +49,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The foundational treatise of the Buddhist epistemological school in six chapters with auto-commentary (*Vṛtti*). Chapter 1 (*pratyakṣa*) introduces the *pramāṇa-dvaya* thesis and develops the radical reanalysis of perception as *kalpanā-apoḍha* (concept-free) and *abhrānta*; the *svalakṣaṇa* / *sāmānya-lakṣaṇa* distinction is established here. Chapter 2 (*svārtha-anumāna*) treats inference-for-oneself, with the *trairūpya* analysis of the *hetu*. Chapter 3 (*parārtha-anumāna*) treats inference-for-others — the public five-membered (and reduced three-membered) inferential form. Chapter 4 (*dṛṣṭānta*) treats the example. Chapter 5 (*anyāpoha*) develops the *apoha-vāda* as the Buddhist alternative to Naiyāyika *jāti*-realism. Chapter 6 (*jāti*) refutes the Naiyāyika analysis of fallacious refutations. The text resets the entire Indian epistemological discourse: every later Naiyāyika and Mīmāṃsaka and Vedāntin treatment of *pramāṇa* responds either to Dignāga directly or to Dharmakīrti's development of him.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -64,6 +65,7 @@
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "A brief treatise (eight verses with auto-commentary) examining the *ālambana* (object of cognition) and arguing for the Yogācāra *vijñapti-mātratā* conclusion through epistemological rather than metaphysical means. The candidate accounts of the *ālambana* — the external atom as object, the aggregate of atoms as object, the macroscopic object as object — are each refuted: an atom is too small to be cognised; the aggregate is not a unitary referent; the macroscopic object is causally derived from atoms and so cannot itself be the object grasped. The conclusion is that the *ālambana* is internal — a cognitive form. The text bridges Dignāga's epistemological work and the Yogācāra metaphysical commitment, showing that the *pramāṇa*-analysis itself motivates the *vijñapti-mātra* conclusion.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -75,5 +77,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-buddhist-comparators-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }

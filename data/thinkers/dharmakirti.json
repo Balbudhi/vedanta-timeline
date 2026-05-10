@@ -58,6 +58,7 @@
       ],
       "genre": "varttika",
       "language": "sanskrit",
+      "source_status": "clean-on-disk",
       "summary": "The principal Buddhist epistemological treatise in four chapters. Chapter 1 (*svārthānumāna*) treats inference-for-oneself with auto-commentary, developing *svabhāva-pratibandha* (essential connection grounding inferential necessity, via *tādātmya* and *tadutpatti*), the analysis of the *trairūpya*, and the *apoha*-account of concept-formation. Chapter 2 (*pramāṇa-siddhi*) is the longest and the most philosophically dense: it establishes the Buddha as *pramāṇa-bhūta* through a sustained argument from the *catuḥ-ārya-satya* and supplies the most extended Buddhist defence of the soteriological framework — the *kṣaṇika-vāda* defence is concentrated here, as is the no-self defence and the rebirth-argument. Chapter 3 (*pratyakṣa*) treats perception, developing Dignāga's *kalpanā-apoḍha* analysis with the *abhrānta* qualifier added against Naiyāyika objections, and supplying the *svalakṣaṇa* analysis with the criterion of *artha-kriyā* (causal efficacy) as the mark of the real. Chapter 4 (*parārthānumāna*) treats inference-for-others with the *trairūpya* developed at length and the analysis of fallacious inference (*hetv-ābhāsa*) refined against the Naiyāyika objections. The text is the principal Buddhist polemical resource against Naiyāyika realism and the immediate target of every later Indian epistemological treatise.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -79,6 +80,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Dharmakīrti's compressed restatement of his epistemology in three chapters (*pratyakṣa*, *svārthānumāna*, *parārthānumāna*) — the same topics as the *Pramāṇa-Vārttika* with the soteriological *pramāṇa-siddhi* chapter omitted. The compression is for instructional use: the *PVin* gives the technical apparatus of perception, inference-for-oneself, and inference-for-others without the longer doctrinal arguments of the *PV*. The text becomes the standard Buddhist *pramāṇa* manual in the later Indian and Tibetan transmission, and is the immediate base for several of the principal later commentaries.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -94,6 +96,7 @@
       "ascription_notes": "Securely authored. The Sanskrit text survives complete with Dharmottara's Tīkā.",
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "clean-on-disk",
       "summary": "Dharmakīrti's most compressed statement of the epistemological apparatus, in three chapters (*pratyakṣa*, *svārthānumāna*, *parārthānumāna*) of summary aphorisms. The text is designed for instruction — it supplies the *trairūpya*, the analysis of the three kinds of *hetu* (*svabhāva*, *kārya*, *anupalabdhi*), the analysis of *pratyakṣa* as *kalpanā-apoḍha-abhrānta*, and the catalogue of perceptual and inferential fallacies in their barest form. With Dharmottara's *Nyāya-Bindu-Ṭīkā*, the text is the standard Buddhist *pramāṇa* introductory manual in the later Indian and Tibetan transmissions.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -106,6 +109,7 @@
       "ascription_notes": "Securely authored short treatise; survives in Sanskrit (Steinkellner 1967 critical edition).",
       "genre": "polemical-tract",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "A short focused treatise on the *hetu* (inferential mark): its three kinds — *svabhāva-hetu* (where the mark and the *sādhya* are essentially identical, as in the inference of treeness from being-a-Śiṃśapā), *kārya-hetu* (where the mark is the effect of the *sādhya*, as in fire from smoke), and *anupalabdhi-hetu* (where non-perception licenses inference of non-existence) — and the formal apparatus distinguishing valid from defective inferential marks. The text supplies the technical resource for the inferential apparatus that the *Pramāṇa-Vārttika svārthānumāna* chapter develops at greater length.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -118,6 +122,7 @@
       "ascription_notes": "Securely authored short treatise with auto-commentary.",
       "genre": "polemical-tract",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "A short treatise on relation: the Naiyāyika and Vaiśeṣika doctrine of *samavāya* (inherence) and the various other relational categories (*saṃyoga*, *svarūpa-sambandha*) are refuted on the grounds that no separate relational entity is required, since the apparent relation between two terms is grounded in the *svalakṣaṇa*-natures of the relata themselves. The text is the principal Buddhist resource for the polemical refutation of Vaiśeṣika *padārtha*-realism on relations.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -130,6 +135,7 @@
       "ascription_notes": "Securely authored treatise on the rules of debate.",
       "genre": "polemical-tract",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "A treatise on the rules of philosophical debate (*vāda*), supplying the Buddhist analysis of the *nigraha-sthāna*s (defeat-positions) and a sustained refutation of the corresponding Naiyāyika apparatus from *Nyāya-Sūtra* book 5. The text is the principal Buddhist resource for the polemical analysis of debate-defeat conditions and for the response to the Naiyāyika *jalpa* / *vitaṇḍā* / *jāti* / *nigraha-sthāna* apparatus.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -141,5 +147,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-buddhist-comparators-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }

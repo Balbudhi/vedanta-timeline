@@ -28,6 +28,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The principal systematic treatise of Theravāda Buddhism, structured in twenty-three chapters under the threefold heading of sīla (chs. 1–2), samādhi (chs. 3–13), and paññā (chs. 14–23). The samādhi chapters supply the most detailed pre-modern Indian phenomenology of meditative attainment available, treating the forty kammaṭṭhāna meditation-objects, the four jhānas, the four arūpa-jhānas, and the iddhi (psychic powers); the paññā chapters supply the systematic doctrinal exposition treating the khandhas, āyatanas, dhātus, the four noble truths, and the twelve links of paṭicca-samuppāda. Chapter XVII (Paññā-Bhūmi-Niddesa) is the canonical Theravāda treatment of dependent origination as a twelve-link causal series; chapter XVIII (Diṭṭhi-Visuddhi-Niddesa) treats the purification of view through the elimination of the substance-self; chapters XIX–XXII treat the path-knowledges culminating in nibbāna. The text is the principal source for understanding Theravāda doctrine as a unified system. Note: the text is in Pāli, not Sanskrit; the language field reflects the lexical-categorial heritage but the actual morphology is Pāli (sukhaṁ, dukkhaṁ, anattā rather than sukham, duḥkham, anātmā).",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -44,6 +45,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Buddhaghosa's commentary on the Dhammasaṅgaṇī, the foundational Theravāda Abhidhamma text that enumerates and analyses the dhammas (mental and material constituents of experience). The commentary supplies the systematic exposition of the four paramattha-dhammas (citta, cetasika, rūpa, nibbāna) that the Theravāda Abhidhamma takes to be the constituents of all conditioned and unconditioned reality, and articulates in detail the eighty-nine cittas (states of consciousness) and fifty-two cetasikas (mental factors) on which the school's analysis of cognition rests. The treatment of the citta-vīthi (cognitive process) and of the bhavaṅga (life-continuum) is the principal source for understanding the Theravāda phenomenology of consciousness as a stream of momentary cittas without a persisting substratum, and supplies the technical apparatus underlying the anattā-doctrine articulated more compendiously in the Visuddhimagga. The text is in Pāli.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -60,6 +62,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Buddhaghosa's commentary on the Dīgha-Nikāya, the collection of the longer suttas in the Sutta-piṭaka. The commentary supplies sustained doctrinal exposition where the suttas themselves are programmatic rather than systematic, and is the principal source for understanding how the school reads its scriptural inheritance. The treatment of the Brahmajāla-Sutta (DN 1) supplies the school's classification of the sixty-two diṭṭhi (views) — including the eternalist and annihilationist views the Buddha refused — and supplies the framing within which the anattā-doctrine is to be understood: not as the annihilationist denial of an existing self but as the refusal to posit substance-self as the ground of the khandha-stream. The treatment of the Mahāparinibbāna-Sutta (DN 16) supplies the canonical exposition of the parinibbāna and of nibbāna-dhātu as paramattha-dhamma. The text is in Pāli.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -71,5 +74,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-buddhist-comparators-extension-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }

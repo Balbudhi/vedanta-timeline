@@ -41,7 +41,8 @@
       "language": "sanskrit",
       "summary": "The *Vedānta-Pārijāta-Saurabha* is Nimbārka's *Brahma-Sūtra* commentary and is among the briefest of the major *sampradāya* bhāṣyas (Bose, *Vedānta-Pārijāta-Saurabha* with English translation, 1940, intro., comparing length with the *Śrī-Bhāṣya* and *Govinda-Bhāṣya*). Its compression is doctrinally deliberate. Each *sūtra* is read as licensing simultaneous and equally intrinsic *bheda* and *abheda* between Brahman and the threefold real of *cit*, *acit*, and *Īśvara* (*Vedānta-Pārijāta-Saurabha* on *Brahma-Sūtra* 2.3.42–43) — the qualifier *svābhāvika* doing the structural work that *aupādhika* did for Bhāskara (Bhāskara, *Brahma-Sūtra-Bhāṣya* on 2.1.14), but in the opposite direction. The bhāṣya is identifiably Vaiṣṇava: Brahman is Kṛṣṇa with Rādhā (cf. *Daśa-Ślokī* vv. 4–5), and the soteriology is *prapatti*-inflected *bhakti* (*Vedānta-Pārijāta-Saurabha* on *Brahma-Sūtra* 3.2.24, on *bhakti* as *upāya*). Polemically the work positions itself against both *māyā-vāda* (*Vedānta-Pārijāta-Saurabha* on 1.1.4, against Śaṅkara's *vivarta* reading of *tat tvam asi*) and Bhāskara's *aupādhika* qualification (*Vedānta-Pārijāta-Saurabha* on 2.1.14), but the polemic is largely exegetical — by terse contrast in the construal of disputed *sūtras* — rather than by extended *pūrvapakṣa-uttarapakṣa* construction (so Bose 1940, intro., on the bhāṣya's argumentative economy). The compactness has a structural consequence. It forces the load of detailed argument onto sub-commentary, principally Śrīnivāsa's *Vedānta-Kaustubha* (on *Brahma-Sūtra* 1.1.1ff.), which the Sanaka-sampradāya treats as the canonical reading and which subsequent commentators (Keśava-Kāśmīrī, *Vedānta-Kaustubha-Prabhā*, sixteenth century) build on rather than going behind. The *Pārijāta-Saurabha* is the school-defining text and the obligatory reference for Nimbārka-line Vedānta (Dasgupta, *History of Indian Philosophy*, vol. III, ch. on Nimbārka).",
       "key_passage_ids": [],
-      "entry_status": "reviewed"
+      "entry_status": "reviewed",
+      "source_status": "clean-on-disk"
     },
     {
       "work_id": "dasa-shloki",
@@ -66,7 +67,8 @@
         "dasa-shloki-5__radha-vama-bhaga"
       ],
       "entry_status": "reviewed",
-      "source_status": "Sanskrit text not on disk in clean form; the wave-2 Vrindavan 1905 three-commentary edition does not contain the Dasa-Sloki separately. Citations should be sourced via Roma Bose 1940 Vedanta-Parijata-Saurabha vol 1 introduction, OR via Bhandarkar 1913, Vaisnavism, Saivism and Minor Religious Systems."
+      "source_status": "degraded-on-disk",
+      "source_status_note": "Sanskrit text not on disk in clean form; the wave-2 Vrindavan 1905 three-commentary edition does not contain the Dasa-Sloki separately. Citations should be sourced via Roma Bose 1940 Vedanta-Parijata-Saurabha vol 1 introduction, OR via Bhandarkar 1913, Vaisnavism, Saivism and Minor Religious Systems."
     }
   ],
   "key_passages": [
@@ -738,7 +740,7 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-acquisition-opus",
+  "last_verified_by": "wave-rigor-opus",
   "polemic_chain_ids": [
     "acintya-shakti-defense"
   ]

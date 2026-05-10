@@ -31,6 +31,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "acceptable-on-disk",
       "summary": "*Ṭīkā* on Śaṅkara's *Brahma-Sūtra-Bhāṣya*. The text-historical situation is unusual and critical. Only a portion survives: the commentary on the first five *pādas* of the BSB — that is, the *adhyāsa-bhāṣya* and the *catuḥsūtrī* (BSB 1.1.1–4), plus a small additional stretch. The work's title literally means \"commentary on five *pādas*.\" The traditional account holds that Padmapāda completed a *ṭīkā* on the entire BSB but the manuscript was destroyed, and that Śaṅkara reconstructed what could be reconstructed from oral memory. Whatever the historical truth of that narrative, the surviving portion is doctrinally weight-bearing precisely because it covers the BSB's most metaphysically dense passages — the *adhyāsa-bhāṣya* and the analysis of *tat tu samanvayāt*. Three positions developed in this stretch are taken up wholesale by Prakāśātman in the *Pañcapādikā-Vivaraṇa*: *avidyā* as *bhāva-rūpa* (Pañcapādikā V–VI), the refined *adhyāsa* definition as *paratra pūrvadṛṣṭāvabhāsaḥ smṛtirūpaḥ* — \"the appearance elsewhere, in the form of memory, of what was previously seen\" (XIX.62–63) — and the *bimba-pratibimba* reading of *tat tvam asi* (XXIX.108). The *Pañcapādikā-Vivaraṇa* becomes the founding text of the sub-school. Securely authored for the surviving portion.",
       "key_passage_ids": [
         "v-15-vi-16__mithyajnana-is-avidya-shakti",
@@ -667,6 +668,6 @@
   "comparative_claim_ids": [],
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
-  "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave-citation-batch1-opus"
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-rigor-opus"
 }

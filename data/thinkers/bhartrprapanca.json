@@ -43,7 +43,8 @@
         "bu-2-4-5-1-4-15__sravana-manana-nididhyasana-upasana"
       ],
       "entry_status": "reviewed",
-      "source_status": "Sanskrit text not on disk in clean form; every fragment is cited via Hiriyanna 1924 Indian Antiquary vol 53 reconstruction (image-only PDF on disk) and further-attested via Nakamura 1983, A History of Early Vedanta Philosophy I.7."
+      "source_status": "primary-text-not-in-corpus",
+      "source_status_note": "Sanskrit text not on disk in clean form; every fragment is cited via Hiriyanna 1924 Indian Antiquary vol 53 reconstruction (image-only PDF on disk) and further-attested via Nakamura 1983, A History of Early Vedanta Philosophy I.7."
     }
   ],
   "key_passages": [
@@ -643,5 +644,5 @@
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-tone-audit-opus"
+  "last_verified_by": "wave-rigor-opus"
 }

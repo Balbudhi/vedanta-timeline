@@ -49,6 +49,7 @@
       ],
       "genre": "verse-summary",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The Kośa-Kārikā in eight chapters (later expanded by a ninth on the refutation of the substantial self) supplies the verse-form summary of orthodox Sarvāstivāda-Vaibhāṣika Abhidharma. The chapters cover dhātu (the eighteen elements), indriya (the twenty-two faculties), loka (the world-system and rebirth-paths), karman (the analysis of action), anuśaya (the latent defilements), pudgala-mārga (the path-stages), jñāna (the ten knowledges), and samāpatti (the meditative attainments). The verses present the Mahā-Vibhāṣā doctrine in its most compressed and learnable form and have remained the standard introduction to Abhidharma in Tibetan and East Asian Buddhist scholasticism for fifteen centuries. The internal-critique apparatus appears not in the verses but in the auto-commentary; the verses themselves are the orthodox exposition the bhāṣya then problematises, and they preserve the canonical formulation of sarvam asti and of the conditioned-dharma analysis on which the school's later doctrinal history is built.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -65,6 +66,7 @@
       ],
       "genre": "tika",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "Vasubandhu's prose auto-commentary on his own Kośa-Kārikās, structured as a verse-by-verse exegesis but functioning philosophically as the major internal critique of Sarvāstivāda orthodoxy from a Sautrāntika standpoint. The bhāṣya repeatedly stages a pūrvapakṣa in the orthodox Vaibhāṣika voice (the verses' apparent doctrine) and then advances objections from a Sautrāntika position that recognises only the present moment as dravyasat. The decisive site of this critique is the treatment of sarvam asti at AKBh 5.25–27, where Vasubandhu canvasses the four classical Sarvāstivāda accounts of how a dharma can be said to exist in past, present, and future modes (Dharmatrāta's bhāva-anyathātva, Ghoṣaka's lakṣaṇa-anyathātva, Vasumitra's avasthā-anyathātva, Buddhadeva's anyathā-anyathātva), endorses Vasumitra's view as least objectionable for the orthodoxy, and then advances the Sautrāntika alternative according to which only the present is actual and past-and-future are conceptual constructions on the seed-series. The bhāṣya is therefore both the principal Sanskrit exposition of Sarvāstivāda Abhidharma and the document of the Sautrāntika critique that motivated the move to Yogācāra. The ninth chapter, Pudgala-Pratiṣedha, contains the full anātman argument against the Vātsīputrīya pudgala-vāda.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -76,5 +78,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-buddhist-comparators-extension-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }

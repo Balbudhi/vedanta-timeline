@@ -44,6 +44,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The foundational Tathāgatagarbha treatise, structured in five chapters (the seven vajra-padas) treating the Buddha, the Dharma, the Saṅgha, the dhātu (synonymous with tathāgatagarbha), bodhi, the Buddha-qualities, and the Buddha-activities. Chapter 1 articulates the central thesis that all sentient beings possess tathāgatagarbha (verses I.27–28 are the locus classicus: 'The Buddha-body is universally present, the suchness is undifferentiated, all beings possess the gotra — therefore all beings always have the Buddha-essence'). The treatment carefully distinguishes tathāgatagarbha from the ātman of the heretical schools (verses I.36–41): the garbha is not a substance but the natural luminosity of citta, obscured by adventitious defilements (āgantuka-kleśa) that are not intrinsic to its nature. The famous nine similes (RGV I.96–125) — the Buddha within a withered lotus, the honey within a swarm, the kernel within a husk, the gold within filth, etc. — supply the imaginative articulation of the obscured-but-present structure. The treatise is the principal foundational text for the entire Tathāgatagarbha tradition, transmitted into East Asia (the Awakening of Faith builds on it) and into Tibet (the gzhan-stong / rang-stong debate is in significant part about how to read it).",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -60,6 +61,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The systematic treatise on the Mahāyāna path organised in twenty-one chapters covering the bodhisattva-vehicle from the awakening of bodhicitta through to Buddhahood. The treatise articulates the gotra (lineage-disposition) doctrine, the six pāramitās, the ten bhūmis, and the conditions under which the universal Tathāgatagarbha actualises in particular practitioners through bodhisattva-praxis. Chapter 9 (Bodhi-adhikāra) treats the Buddha-bodies and the qualities of awakening; chapter 11 (Dharma-paryeṣṭi-adhikāra) treats the seeking of the dharma. The text is one of the principal early sources for the integration of the Tathāgatagarbha doctrine with the Yogācāra trisvabhāva framework that Asaṅga and Vasubandhu would later systematise, and it is the principal source for understanding how the Maitreya-corpus connects the Tathāgatagarbha doctrine to the bodhisattva-praxis-architecture.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -76,6 +78,7 @@
       ],
       "genre": "verse-summary",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The compact treatise (in five short chapters of verse) articulating the discrimination of middle-and-extremes: the avoidance of the extremes of substantialism and nihilism through the trisvabhāva (parikalpita / paratantra / pariniṣpanna) framework. The treatise is the principal early source for the technical articulation of the trisvabhāva apparatus that Asaṅga's Mahāyāna-Saṅgraha and Vasubandhu's Yogācāra-phase writings will systematise. Chapter 1 (Lakṣaṇa) treats the defining-characteristics of the three natures with particular attention to abhūta-parikalpa (unreal imagination) as the locus of the parikalpita; chapter 3 (Tattva) articulates the three natures' relation to the four noble truths and to the levels of Dharma-realisation. The text supplies the Tathāgatagarbha tradition's analytic apparatus for distinguishing the unconditioned luminosity of citta from the conditioned cognitive flow within which it operates.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -92,6 +95,7 @@
       ],
       "genre": "verse-summary",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The shortest treatise in the Maitreya corpus, articulating the distinction between dharma (the conditioned phenomena of saṃsāric experience) and dharmatā (the unconditioned suchness that is the true nature of those phenomena). The text supplies the technical apparatus by which the Tathāgatagarbha tradition distinguishes the conditioned cognitive flow from its own unconditioned ground without reifying the latter as a substantial self. The articulation of āśraya-parāvṛtti (transformation of the basis) — the practitioner's transition from conditioned to unconditioned — is the principal soteriological category, providing the path-architecture by which the universal Tathāgatagarbha is actualised in particular practitioners.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -108,6 +112,7 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "The systematic treatise structuring the entire Prajñāpāramitā literature under the eight categories of clear realisation (abhisamaya): omniscience of all aspects (sarvākārajñatā), path-omniscience (mārgajñatā), all-omniscience (sarvajñatā), the application of all aspects (sarvākārābhisambodha), the culminating application (mūrdhābhisamaya), the serial application (anupūrvābhisamaya), the instantaneous application (ekakṣaṇābhisambodha), and the dharma-body (dharma-kāya). The treatise structures the path to Buddhahood under seventy points of practice, organised through the bodhisattva-bhūmis. Decisive for the Tathāgatagarbha tradition because it supplies the path-architecture under which the universal Buddha-nature actualises through Prajñāpāramitā discipline. The Abhisamayālaṃkāra is the principal curriculum-text for Prajñāpāramitā studies in Tibetan monastic education and the principal textual locus for the eka-yāna doctrine in its developed form.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
@@ -119,5 +124,5 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-buddhist-comparators-extension-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-comparator-tone-opus"
+  "last_verified_by": "wave-rigor-opus"
 }
