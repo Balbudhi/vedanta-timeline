@@ -779,6 +779,118 @@ body.is-reading-mode .passage-card .english { font-size: 18px; }
 }
 
 /* =============================================================
+   ABOUT MODAL
+   ============================================================= */
+.about-modal {
+  position: fixed; inset: 0;
+  background: rgba(20,20,20,0.45);
+  z-index: 200;
+  display: none;
+  align-items: center; justify-content: center;
+  padding: 40px 20px;
+}
+.about-modal.is-open { display: flex; }
+.about-card {
+  position: relative;
+  background: var(--bg);
+  max-width: 640px;
+  width: 100%;
+  border-radius: 6px;
+  padding: 36px 44px 32px;
+  box-shadow: var(--shadow-md);
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.65;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+.about-card h2 {
+  font-family: var(--sans);
+  font-size: 20px; font-weight: 600;
+  margin: 0 0 12px;
+}
+.about-card p { margin: 12px 0; }
+.about-card .about-meta {
+  margin-top: 20px;
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--muted);
+  border-top: 1px solid var(--rule);
+  padding-top: 14px;
+}
+.about-card a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+/* =============================================================
+   GLOSSARY POPOVER
+   ============================================================= */
+.glossary-popover {
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  box-shadow: var(--shadow-md);
+  padding: 16px 20px 18px;
+  max-width: 380px;
+  z-index: 150;
+  font-family: var(--serif);
+  font-size: 14px;
+  line-height: 1.55;
+}
+.glossary-popover .gp-close {
+  position: absolute; top: 6px; right: 8px;
+  background: none; border: none;
+  font-size: 18px; line-height: 1; cursor: pointer; color: var(--muted);
+}
+.glossary-popover .gp-term {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--ink);
+}
+.glossary-popover .gp-literal {
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--muted);
+  margin: 4px 0 12px;
+}
+.glossary-popover .gp-label {
+  display: block;
+  font-family: var(--sans);
+  font-size: 10px; font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+.glossary-popover .gp-invariant { margin-bottom: 12px; }
+.glossary-popover .gp-perschool { border-top: 1px solid var(--rule); padding-top: 10px; }
+.glossary-popover .gp-row {
+  margin: 6px 0;
+  font-size: 13px;
+}
+.glossary-popover .gp-school {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 11px; font-weight: 600;
+  background: var(--rule-warm);
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin-right: 6px;
+  color: var(--ink-soft);
+}
+.term {
+  cursor: pointer;
+  border-bottom: 1px dotted var(--muted-soft);
+  text-decoration: none;
+}
+.term:hover { border-bottom-style: solid; }
+
+/* =============================================================
    READER MODAL (full-translation viewer)
    ============================================================= */
 .reader-modal {

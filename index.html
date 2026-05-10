@@ -17,8 +17,20 @@
     <h1>Vedānta — A Realist Tradition</h1>
     <span class="subtitle" id="subtitle">A timeline.</span>
     <span class="spacer"></span>
+    <button class="topbar-btn" id="aboutBtn" type="button">About</button>
     <button class="topbar-btn" id="readingModeBtn" type="button">Reading mode</button>
   </header>
+
+  <div class="about-modal" id="aboutModal" aria-hidden="true">
+    <div class="about-card">
+      <button class="close-btn" id="closeAbout" aria-label="Close">×</button>
+      <h2>About this site</h2>
+      <p>This is an AI-generated reading of Vedānta as a tradition. The thinker entries, work summaries, key-passage selections, Sanskrit translations with Pāṇinian breakdown, and comparative-claim analyses were composed by large language models — primarily Claude Opus 4.7 (synthesis, comparative analysis, audit) and OpenAI Codex GPT-5.4 (primary-source extraction, Sanskrit transcription, morphological analysis) — working from primary Sanskrit texts on disk and from the standard scholarly editions cited in each entry.</p>
+      <p>The intent is to allow novel engagement with the tradition: to render every thinker on his own ground, in his own grammar, with citations to specific loci that an English-only reader can verify. Where the tradition is preserved only in citations by later authors (Auḍulomi, Āśmarathya, Kāśakṛtsna, Bodhāyana, Upavarṣa, Sundara-Pāṇḍya, Brahmadatta), the entry says so, and explains how the academic tradition derives the dating estimate.</p>
+      <p>Every claim should be verifiable against the cited primary text. Where you find a misreading, a missing citation, or a gloss that flattens what the thinker actually says, treat it as a defect of the AI synthesis, not a feature of the tradition.</p>
+      <p class="about-meta">Code, data, and dispatch logs are at <a href="https://github.com/Balbudhi/vedanta-timeline" target="_blank" rel="noopener">github.com/Balbudhi/vedanta-timeline</a>. The site is intentionally non-indexed; share by direct link only.</p>
+    </div>
+  </div>
 
   <main class="stage" id="stage">
     <section class="timeline-pane" id="timelinePane">

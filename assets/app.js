@@ -917,6 +917,16 @@ readingModeBtn.addEventListener("click", () => {
   setReadingMode(on);
 });
 
+// ---------- about modal -----------
+const aboutBtn = document.getElementById("aboutBtn");
+const aboutModal = document.getElementById("aboutModal");
+const closeAbout = document.getElementById("closeAbout");
+aboutBtn.addEventListener("click", () => { aboutModal.classList.add("is-open"); aboutModal.setAttribute("aria-hidden", "false"); });
+closeAbout.addEventListener("click", () => { aboutModal.classList.remove("is-open"); aboutModal.setAttribute("aria-hidden", "true"); });
+aboutModal.addEventListener("click", (e) => {
+  if (e.target === aboutModal) { aboutModal.classList.remove("is-open"); aboutModal.setAttribute("aria-hidden", "true"); }
+});
+
 // ---------- keyboard nav -----------
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") {
