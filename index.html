@@ -9,22 +9,27 @@
   <title>Vedānta — A Realist Tradition</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
   <header class="topbar">
     <h1>Vedānta — A Realist Tradition</h1>
-    <p class="subtitle">A timeline. Click any thinker.</p>
-    <div class="legend" id="legend"></div>
+    <span class="subtitle" id="subtitle">A timeline.</span>
+    <span class="spacer"></span>
+    <button class="topbar-btn" id="readingModeBtn" type="button">Reading mode</button>
   </header>
 
   <main class="stage" id="stage">
     <section class="timeline-pane" id="timelinePane">
       <div class="timeline-scroller" id="timelineScroller">
-        <svg class="timeline-svg" id="timelineSvg" preserveAspectRatio="none"></svg>
-        <div class="timeline-axis" id="timelineAxis"></div>
-        <div class="timeline-dots" id="timelineDots"></div>
+        <div class="lane-rail" id="laneRail"></div>
+        <div class="era-strip" id="eraStrip"></div>
+        <div class="canvas" id="canvas">
+          <svg class="timeline-svg" id="timelineSvg" preserveAspectRatio="none"></svg>
+          <div class="timeline-dots" id="timelineDots"></div>
+          <div class="timeline-axis" id="timelineAxis"></div>
+        </div>
       </div>
     </section>
 
