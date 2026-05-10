@@ -4,29 +4,36 @@
   "term_devanagari": "मिथ्या",
   "literal": "wrongly, falsely; an indeclinable used adjectivally",
   "aliases": ["mithya", "mithyā", "Mithyā", "mithyātva", "mithyātvam"],
-  "invariant_definition": "There is no shared invariant — the term is the explicit fault-line between Advaita and its critics. In Advaita technical usage, *mithyā* is a precisely-defined ontological status: *sad-asad-vilakṣaṇa* (different from both *sat* and *asat*), *anirvacanīya* (indeterminable on the binary), *trikāla-abādhya-pratītika-viṣaya* (the object of a cognition not sublated in any of the three times). For non-Advaita schools, *mithyā* is either a polemical target (Dvaita) or a category that does not apply at all to the world (Viśiṣṭādvaita, Bhedābheda, Acintya-Bhedābheda — all of which hold the world to be real, *satya*, not *mithyā*). What is shared: *mithyā ≠ asat*. Even Advaita explicitly insists *mithyā* is not 'non-existent.'",
+  "invariant_definition": "There is no shared invariant; the term marks a fault-line. In Advaita technical usage, *mithyā* names a third ontological status: neither *sat* like *brahman* nor *asat* like the hare's horn, but *anirvacanīya*, dependent on an *adhiṣṭhāna*, and subject to sublation by a stronger cognition. The stock examples are shell-silver, rope-snake, and dream objects, and the world is said to be *mithyā* in that technical sense, not in the sense of sheer nullity. That point matters because critics regularly hear 'world is *mithyā*' as 'world is unreal' or 'non-existent', which is exactly what Advaita denies. Non-Advaita schools either reject the category as incoherent or restrict falsity to error without elevating it into a third mode of being. The indispensable constraint is therefore simple: *mithyā* must not be collapsed into *asat*, and Advaita's deployment of the term must not be misread as nihilism or world-denial.",
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "*Mithyā* is the technical name for the ontological status of the world: neither *sat* (real in the way *brahman* is) nor *asat* (sheer non-existence like the son of a barren woman), but a third status, *anirvacanīya*. The world is *mithyā* because it is sublatable in *brahma-jñāna* (*pratiti-trikāla-bādhya*) yet appears with *vyāvahārika* force throughout transactional life. Madhusūdana's *Advaita-Siddhi* mounts the defense of *mithyātva* against the Mādhva *Nyāyāmṛta*. Five definitions of *mithyātva* are systematically defended.",
+      "definition": "*Mithyā* is the status of what appears, functions, and is later sublated. The world is *mithyā* not because it is absent, but because its mode of reality is dependent on *brahman* as *adhiṣṭhāna* and corrected in liberating knowledge. The category is defended through error-theory, sublation-analysis, and the insistence that appearance has positive force without full ultimacy. Madhusūdana's *Advaita-Siddhi* turns this into a systematic defense against Mādhva criticism.",
       "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.1.14", "Iṣṭa-Siddhi (Vimuktātman), prathama paricchedaḥ", "Advaita-Siddhi, mithyātva-pañcaka", "Khaṇḍana-Khaṇḍa-Khādya (Śrīharṣa), upodghāta"]
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "The world is *satya*, not *mithyā*. The Advaita category of *anirvacanīya* is rejected as logically incoherent — to be is to be characterizable; *anirvacanīya* is *avastu*. Rāmānuja's *Mahāsiddhānta* in the *Śrī-Bhāṣya* contains the *sapta-anupapatti* (seven untenabilities) against the Advaita doctrine; the third specifically attacks the coherence of *mithyātva*.",
+      "definition": "The world is *satya*, not *mithyā*. Rāmānuja rejects the Advaita third status because a thing must be characterizable as real or unreal; *anirvacanīya* is taken to be no genuine category at all. The causal and devotional life of the world would become unintelligible if its objects were only provisionally there.",
       "primary_loci": ["Śrī-Bhāṣya 1.1.1 (Mahāsiddhānta, sapta-anupapatti)", "Vedārtha-Saṅgraha §§14–25"]
     },
     {
       "school": "Dvaita",
-      "definition": "*Mithyātva* is the principal target of Dvaita's polemical apparatus. Madhva's short polemics (*Mithyātva-Anumāna-Khaṇḍana*, *Upādhi-Khaṇḍana*, *Māyāvāda-Khaṇḍana*) and Vyāsatīrtha's *Nyāyāmṛta* construct sustained attacks on every Advaita formulation of *mithyātva*. The world is *satya* in the only sense relevant: it is what Viṣṇu created and sustains, with eternally distinct dependent realities and irreducible difference.",
+      "definition": "*Mithyātva* is a principal Dvaita target because it appears to dissolve the reality of Viṣṇu's creation while still relying on that creation in argument and practice. Madhva and Vyāsatīrtha attack the very idea of a third status between real and unreal and insist that a dependent world can still be straightforwardly real. The issue is thus not semantic but theological and metaphysical.",
       "primary_loci": ["Madhva, Mithyātva-Anumāna-Khaṇḍana", "Madhva, Upādhi-Khaṇḍana", "Vyāsatīrtha, Nyāyāmṛta, mithyātva-bhaṅga (extended)"]
     },
     {
+      "school": "Bhedābheda (Bhāskara)",
+      "definition": "Bhāskara rejects *mithyā* as an evasion of the Upaniṣads' causal language. If the world is really taught as arising from *brahman*, then its reality cannot be downgraded to a merely apparent status. Difference and manifestation must be owned as real features of the effect.",
+      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 2.1.14"]
+    },
+    {
       "school": "Acintya-Bhedābheda",
-      "definition": "The world is real (*satya*) as the manifestation of Kṛṣṇa's *māyā-śakti*; *mithyātva* in the Advaita sense is rejected. The phenomenal status of the world for the conditioned *jīva* is one of *vaikuṇṭha*-occlusion, not of ontological deficiency.",
+      "definition": "The world is real as Kṛṣṇa's energy, so *mithyātva* in the Advaita sense is rejected. The conditioned *jīva* misperceives its relation to that world and to Kṛṣṇa, but the mistake is devotional and existential before it is ontological. The problem is estrangement under *māyā*, not world-nullity.",
       "primary_loci": ["Tattva-Sandarbha §§51–56", "Paramātma-Sandarbha §§47–55"]
     }
   ],
   "see_also": ["sat", "asat", "anirvacaniya", "vyavaharika", "paramarthika", "pratibhasika", "vivarta", "satya"],
-  "translator_note": "*Mithyā* must NOT be translated as 'unreal' or 'illusory' or 'non-existent.' Each translation collapses the technical distinction Advaita is at pains to make: *mithyā ≠ asat*. The world for Advaita is *sublatable*, not non-existent — it has *vyāvahārika* (transactional) reality and is *anirvacanīya*. The user's position-brief explicitly identifies the conflation '*mithyā* = *asat*' as a fundamental error that has done generational damage to Western reception of Vedānta. Acceptable English glosses: 'sublatable', 'apparently real but not in the way Brahman is real', or simply leaving the Sanskrit untranslated."
+  "translator_note": "Do not translate *mithyā* as 'non-existent'. Usually avoid the unqualified glosses 'unreal' and 'illusory' as well, because they import either nihilism or a merely psychological notion of illusion. In Advaita the term marks a specific metaphysical status: experientially and transactionally operative, yet not ultimately real in the way *brahman* is. 'Sublatable' is often safer than 'illusory', or else leave the Sanskrit in place and explain it.",
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus"
 }

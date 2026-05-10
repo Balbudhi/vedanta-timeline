@@ -1,0 +1,44 @@
+{
+  "term_key": "karya",
+  "term_iast": "kārya",
+  "term_devanagari": "कार्य",
+  "literal": "to be done; that which is to be effected; the effect; from √kṛ + suffix -ya (gerundive)",
+  "aliases": ["karya", "kārya", "Kārya", "kāryāṇi", "kāryasya", "kārye", "kāryāt"],
+  "last_verified_at": "2026-05-10",
+  "last_verified_by": "wave-glossary-depth-opus",
+  "invariant_definition": "*Kārya* is the gerundive of √kṛ — literally 'that which is to be done' or 'that which is to be effected.' In technical Indian usage it has two principal senses, both indispensable. (1) In Pāṇinian *kāraka* analysis it is one designation for the *karman*-role: the effect or result the agent's action terminates upon. (2) In causal theory — and this is where the great Indian metaphysical disputes live — *kārya* is the effect-side of the *kāraṇa-kārya* relation: the produced or unfolded result whose ontological status is contested. The *satkārya-vāda* of Sāṃkhya holds that the *kārya* pre-exists in the *kāraṇa* and that production is merely manifestation (*āvirbhāva*) of what was already latent (Sāṃkhya-Kārikā 9: *asad-akaraṇād upādāna-grahaṇāt sarva-sambhavābhāvāt śaktasya śakya-karaṇāt kāraṇa-bhāvāc ca sat kāryam*). The *asat-kārya-vāda* (or *ārambha-vāda*) of Nyāya-Vaiśeṣika holds the contrary: *kārya* is genuinely new, a fresh *samavāya*-bound entity not present in its causes prior to production. Vedānta inherits the *satkārya* side of the dispute and then bifurcates internally over what kind of *satkārya*: *vivarta-vāda* (Advaita — the *kārya* is only an apparent transformation of *brahman*), *pariṇāma-vāda* (Bhāskara, Rāmānuja, Madhva, with variations — real transformation of cause into effect), and *avikṛta-pariṇāma-vāda* (Vallabha — real transformation without modification). The deeper conceptual point: *kārya* is never just 'effect' — it is the metaphysically loaded ontological status of the produced, which carries with it commitments about novelty, identity, and persistence.",
+  "per_school": [
+    {
+      "school": "Sāṃkhya",
+      "definition": "*Satkārya-vāda*: the *kārya* pre-exists in the *kāraṇa* in unmanifest form (*avyakta*) and production is its *āvirbhāva*. Five arguments classically: from the impossibility of producing the non-existent; from the requirement of a determinate material cause; from the impossibility of universal producibility; from the fact that only the potent can produce; and from the cause-effect identity of *prakṛti* and its evolutes.",
+      "primary_loci": ["Sāṃkhya-Kārikā 9", "Sāṃkhya-Kārikā 14–16", "Yukti-Dīpikā on Sāṃkhya-Kārikā 9 [NOT YET RETRIEVED]"]
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "*Asat-kārya-vāda* / *ārambha-vāda*: the *kārya* is genuinely new — a fresh substance bound to its parts by *samavāya* (inherence), distinct from the parts taken severally. The whole (*avayavin*) is over-and-above its parts. This is the principal target of all *satkārya-vādins* in the post-Sāṃkhya tradition.",
+      "primary_loci": ["Vaiśeṣika-Sūtra 7.2.9 [NOT YET RETRIEVED]", "Nyāya-Sūtra 4.1.16ff [NOT YET RETRIEVED]", "Tarka-Saṅgraha §§37–42"]
+    },
+    {
+      "school": "Advaita",
+      "definition": "*Vivarta-vāda*: *brahman* is the *upādāna-kāraṇa* of the world, but the world-*kārya* is only an apparent (*vivarta*) — not real (*pariṇāma*) — transformation of *brahman*. The *kārya* is *mithyā*: experienced, transactionally real, but ultimately sublatable in *brahma-jñāna*. Śaṅkara argues for *satkārya-vāda* against Vaiśeṣika in BSB 2.1.18 en route to the *vivarta* refinement.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.1.14–20", "Brahma-Sūtra-Bhāṣya 2.1.18 (against ārambha-vāda)", "Pañcadaśī 13.7–15"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Pariṇāma-vāda* in modified form: the *kārya* — *cit* and *acit* in the world — is a real transformation of *brahman*'s *sūkṣma*-state into its *sthūla*-state. The Lord is the *upādāna-kāraṇa* with respect to his body (the world), but the transformation belongs to *cit-acit-viśiṣṭa-brahman*, not to the substantive Lord per se.",
+      "primary_loci": ["Śrī-Bhāṣya 1.4.23–27", "Vedārtha-Saṅgraha §§91–95"]
+    },
+    {
+      "school": "Bhedābheda (Bhāskara) / Dvaita",
+      "definition": "Bhāskara's straightforward *pariṇāma-vāda*: world-*kārya* is real transformation of *brahman* under conditioning *upādhi*. Madhva, by contrast, holds *kārya* as real but produced from real distinct material principles under Viṣṇu's controlling causality (*nimitta-kāraṇa*); *prakṛti* serves as material cause, Viṣṇu as efficient cause, retaining the categorial difference.",
+      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 2.1.14ff", "Brahma-Sūtra-Bhāṣya (Madhva) 2.1.14ff", "Tattva-Saṅkhyāna 4–8"]
+    },
+    {
+      "school": "Śuddhādvaita (Vallabha)",
+      "definition": "*Avikṛta-pariṇāma-vāda*: *brahman* really transforms into the world-*kārya* yet undergoes no modification (*vikāra*) — analogous to gold becoming ornaments while remaining fully gold. The *kārya* is real *and* the cause is unmodified.",
+      "primary_loci": ["Aṇu-Bhāṣya 2.1.14ff [NOT YET RETRIEVED]", "Tattva-Dīpa-Nibandha [NOT YET RETRIEVED]"]
+    }
+  ],
+  "see_also": ["karma", "kriya", "kartr", "karana", "satkarya-vada", "parinama", "vivarta", "avikrta-parinama"],
+  "translator_note": "'Effect' is the standard gloss but disguises the ontological commitments. Saying 'effect' in English imports a Humean or post-Cartesian event-sequence picture; *kārya* is much more loaded — it presupposes a position on whether the produced is genuinely new (Vaiśeṣika) or pre-existed in latent form (Sāṃkhya/Vedānta). The other common error is conflating *kārya* with *karman*: *karman* is the patient-role within the act-grammar; *kārya* is the metaphysical effect-side of the cause-effect relation. They overlap (both are 'that which is to be done') but have different technical homes."
+}
