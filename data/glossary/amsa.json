@@ -1,0 +1,27 @@
+{
+  "term_key": "amsa",
+  "term_iast": "aṃśa",
+  "term_devanagari": "अंश",
+  "literal": "portion, part",
+  "aliases": ["amsa", "aṃśa", "amśa", "Aṃśa", "aṃśaḥ", "aṃśasya", "amshas", "vibhinnamsa", "vibhinnāṃśa"],
+  "invariant_definition": "A portion — a part of a whole. The technical use is principally in the Vaiṣṇava bhedābheda schools, where the *jīva* is described as an *aṃśa* of *brahman*. In Caitanya's school the *jīva* is *vibhinnāṃśa* (separated portion) of Kṛṣṇa, distinct from *svāṃśa* (own-portion, e.g. Viṣṇu's *avatāras*). The *aṃśa*-relation is the structural alternative to numerical-identity (Advaita) and to absolute-distinction (Dvaita): the *jīva* is part of Kṛṣṇa without being numerically identical or wholly separate.",
+  "per_school": [
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "Two kinds of *aṃśa*: *svāṃśa* (own-portions: Kṛṣṇa's own forms — Viṣṇu, Rāma, etc.) and *vibhinnāṃśa* (separated portions: the *jīva*s, parts of Kṛṣṇa's *taṭasthā-śakti*). The *jīva*-as-*vibhinnāṃśa* explains both the *abheda* (real partness) and the *bheda* (separability under *māyā*).",
+      "primary_loci": ["Paramātma-Sandarbha §§19, 28", "Caitanya-Caritāmṛta, Madhya 20.108"]
+    },
+    {
+      "school": "Bhedābheda (Bhāskara)",
+      "definition": "*Jīva* as *aṃśa* of *brahman* in real *pariṇāma* — a real portion produced by real transformation under *upādhi*.",
+      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 2.3.42ff"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "The *aṃśa*-relation is rejected for *jīva*-Brahman; the *jīva* is not a part of Viṣṇu but an eternally distinct *paratantra*. *Aṃśa*-talk in *śruti* is read as *sādṛśya* or *sambandha*.",
+      "primary_loci": ["Viṣṇu-Tattva-Vinirṇaya §§30–40"]
+    }
+  ],
+  "see_also": ["svamsa", "vibhinnamsa", "bhedabheda", "tatastha-sakti"],
+  "translator_note": "'Part' or 'portion' acceptable. The *svāṃśa*-*vibhinnāṃśa* distinction is structurally important and should be preserved untranslated."
+}

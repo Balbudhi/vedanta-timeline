@@ -1,0 +1,32 @@
+{
+  "term_key": "anu",
+  "term_iast": "aṇu",
+  "term_devanagari": "अणु",
+  "literal": "atomic, minute; from a root meaning 'fine, subtle'",
+  "aliases": ["anu", "aṇu", "Aṇu", "aṇuḥ", "aṇu-jīva", "aṇu-parimāṇa"],
+  "invariant_definition": "Atomic — possessing the smallest measurable size. The term has two principal Vedāntic uses: (1) describing the *jīva*'s size in Viśiṣṭādvaita and Dvaita (against Advaita's *vibhu*-doctrine of all-pervading *ātman*); (2) Vaiśeṣika's atomism (atoms of earth, water, fire, air as the ultimate material constituents). The *jīva*-as-*aṇu* doctrine is structurally important — it is what allows the *jīva* to be eternally distinct and individual without occupying the cosmic role of *brahman*.",
+  "per_school": [
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Jīva* is *aṇu* — atomic in size. Defended at *Brahma-Sūtra* 2.3.18ff. The *jīva*'s *dharmabhūta-jñāna* extends and contracts; the *jīva*-substance is itself atomic.",
+      "primary_loci": ["Śrī-Bhāṣya 2.3.18–32", "Vedārtha-Saṅgraha §82"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Jīva* is *aṇu*. Madhva accepts the same against Advaita's *vibhu* and against Bhāskara's *aṃśa-pariṇāma* readings.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 2.3.18ff", "Anu-Vyākhyāna 2.3"]
+    },
+    {
+      "school": "Advaita",
+      "definition": "*Jīva* is *vibhu* (all-pervading) like *brahman*; the appearance of localization is *upādhi*-borne. The *aṇu*-doctrine of *Brahma-Sūtra* 2.3.18 is read as referring to the *upādhi* (subtle body), not to the *ātman* itself.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.3.18ff"]
+    },
+    {
+      "school": "Vaiśeṣika",
+      "definition": "*Aṇu* is the partless atom — eternal, indivisible — of which earth, water, fire, and air are constituted. The *dvyaṇuka* and *tryaṇuka* aggregates produce perceptible matter.",
+      "primary_loci": ["Vaiśeṣika-Sūtra 4.1.1ff", "Praśastapāda-Bhāṣya"]
+    }
+  ],
+  "see_also": ["jiva", "vibhu", "atman", "paramanu"],
+  "translator_note": "'Atomic' acceptable but Western readers should not import the modern physics-atom; *aṇu* in Vedānta is a *size-category* of the conscious self, not a physical particle."
+}

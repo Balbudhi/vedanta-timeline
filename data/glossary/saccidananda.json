@@ -1,0 +1,22 @@
+{
+  "term_key": "saccidananda",
+  "term_iast": "saccidānanda",
+  "term_devanagari": "सच्चिदानन्द",
+  "literal": "being-consciousness-bliss; sat + cit + ānanda",
+  "aliases": ["saccidananda", "saccidānanda", "sat-cit-ananda", "sat-cit-ānanda", "satcitananda"],
+  "invariant_definition": "The triple intrinsic-nature description of *brahman*: *sat* (being), *cit* (consciousness), *ānanda* (bliss). All Vedāntic schools accept *saccidānanda* as a description of *brahman*; they differ on whether the three are merely identical aspects of one undifferentiated reality (Advaita: yes — *saccidānanda* is *svarūpa-lakṣaṇa* of *brahman*, internally undivided) or are real distinguishable qualities (Viśiṣṭādvaita, Dvaita: *brahman* really has *sattva*, *jñāna*, *ānanda* as real *guṇas* among others). The user's position-brief connects *saccidānanda* to the simultaneous static-and-dynamic character of the Real (T1, T9, Auxiliary Integrations).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Saccidānanda* is the *svarūpa-lakṣaṇa* (intrinsic-nature description) of *brahman*; the three aspects are not really distinct from *brahman* or from each other but are three pointers at the same undifferentiated reality.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.4 (svarūpa-lakṣaṇa)", "Vivekacūḍāmaṇi"]
+    },
+    {
+      "school": "Viśiṣṭādvaita / Dvaita / Acintya-Bhedābheda",
+      "definition": "*Brahman* really has *sat*, *cit*, *ānanda* as constitutive features along with infinite other auspicious qualities (*ananta-kalyāṇa-guṇa*).",
+      "primary_loci": ["Vedārtha-Saṅgraha §§91–137", "Bhagavat-Sandarbha §§78–117"]
+    }
+  ],
+  "see_also": ["sat", "cit", "ananda", "brahman", "svarupa-laksana", "kalyana-guna"],
+  "translator_note": "'Being-Consciousness-Bliss' is the standard gloss. The compound is one of the most-cited descriptions of *brahman* in the tradition. Note: the *ānanda* is not subjective pleasure but a metaphysical aspect of the Real."
+}

@@ -1,0 +1,27 @@
+{
+  "term_key": "nirguna",
+  "term_iast": "nirguṇa",
+  "term_devanagari": "निर्गुण",
+  "literal": "without qualities; nir- (without) + guṇa",
+  "aliases": ["nirguna", "nirguṇa", "Nirguṇa", "nirguṇa-brahman"],
+  "invariant_definition": "Without qualities. *Nirguṇa brahman* is *brahman* in its highest description, beyond all qualifying attributes. This is the strict Advaita usage; non-Advaita schools restrict the scope of *nirguṇa* (Viśiṣṭādvaita: it denies *heya-guṇas* only; Dvaita: it denies *prākṛta-guṇas* only). The user's position-brief connects *nirguṇa brahman* to Aurobindo's static-aspect Saccidānanda and to Deleuze's univocal being — see T1 of the brief.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Nirguṇa brahman* is the highest description of *brahman* — partless, attribute-less, beyond determination. The *neti neti* (not-this, not-this) of Bṛhadāraṇyaka 2.3.6 expresses this. *Saguṇa brahman* is sublatable in *nirguṇa brahman*-realization.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 3.2.11ff", "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 2.3.6", "Vivekacūḍāmaṇi"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Nirguṇa* in *śruti* denies *heya-guṇas* (defects), not all qualities. Brahman is *nir-guṇa* in the sense of *nis-prākṛta-guṇa* (free of inert-matter-qualities) and *nir-doṣa* (free of defects).",
+      "primary_loci": ["Vedārtha-Saṅgraha §§91–137", "Śrī-Bhāṣya 1.1.13"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Nirguṇa* denies only *prākṛta-guṇas*; Viṣṇu has infinite real auspicious qualities.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1"]
+    }
+  ],
+  "see_also": ["saguna", "brahman", "neti-neti", "heya-guna"],
+  "translator_note": "'Without qualities' or 'attributeless' acceptable. The Advaita *nirguṇa brahman* is structurally close to the *Deus absconditus* / negative-theology tradition (Eckhart, the *Cloud of Unknowing*) but with the difference that *nirguṇa* is what is realized in liberation, not merely posited beyond cognition."
+}
