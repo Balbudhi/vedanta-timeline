@@ -1,0 +1,32 @@
+{
+  "term_key": "lila",
+  "term_iast": "līlā",
+  "term_devanagari": "लीला",
+  "literal": "play, sport, the spontaneous activity of one who needs nothing",
+  "aliases": ["lila", "līlā", "Līlā", "līlāyāḥ", "līlāyām", "leela"],
+  "invariant_definition": "The Lord's purposeless creative activity — creation undertaken not from need, lack, or external compulsion but as the spontaneous overflow of fullness. The locus classicus for *līlā* in Vedānta is *Brahma-Sūtra* 2.1.33 (*lokavat tu līlā-kaivalyam*) — 'creation is mere play, as in the world.' All Vedāntic schools accept *līlā* as the answer to the problem of creation's *prayojana* (purpose); the schools differ on whether *līlā* is purely an aspect of the Lord (Viśiṣṭādvaita, Vaiṣṇava bhedābheda — and crucially Acintya-Bhedābheda where *līlā* is the entire substance of Kṛṣṇa's eternal Goloka-activity) or whether *līlā*-talk is itself *vyāvahārika* (Advaita — the question 'why creation' presupposes *avidyā*; in *pāramārthika* there is no creation).",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Līlā* is the *vyāvahārika*-level answer to the Mīmāṃsaka / Naiyāyika challenge: why does *brahman*, complete in itself, manifest the world? *Brahma-Sūtra* 2.1.33 is read as removing the question rather than answering it: *līlā* names the absence of any *prayojana*-structure. In *pāramārthika* analysis there is no creation and therefore no question.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.1.33"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Līlā* is real: the Lord, complete in himself, undertakes creation as spontaneous expressive activity, parallel to the play of the perfectly satisfied. *Līlā* is therefore an integral feature of the Lord's nature, not a mere concession to the question.",
+      "primary_loci": ["Śrī-Bhāṣya 2.1.33", "Vedārtha-Saṅgraha §§91–95"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Līlā* is the entire substance of Kṛṣṇa's eternal activity in Goloka — the *aṣṭakāla-līlā* (the eight-fold daily round) of Kṛṣṇa with the *gopīs*. The temporal play in Vraja and the eternal play in Goloka are the *prakaṭa* (manifest) and *aprakaṭa* (unmanifest) phases of the same *līlā*. *Līlā*-realization is the highest devotional attainment; the *bhakta*'s eternal participation in Kṛṣṇa's *līlā* is *prema-mokṣa*.",
+      "primary_loci": ["Kṛṣṇa-Sandarbha §§148–170", "Caitanya-Caritāmṛta, Antya-līlā throughout", "Bhakti-Rasāmṛta-Sindhu 2"]
+    },
+    {
+      "school": "Trika / Kashmir Śaivism",
+      "definition": "*Līlā* / *krīḍā* is Śiva's spontaneous self-disclosure — the cosmic process is Śiva's free play with himself through *svātantrya-śakti*. The five cosmic acts (*pañca-kṛtya*: *sṛṣṭi*, *sthiti*, *saṃhāra*, *nigraha*, *anugraha*) are the modes of this play.",
+      "primary_loci": ["Tantrāloka 1, 9", "Pratyabhijñā-Hṛdaya, sūtra 10"]
+    }
+  ],
+  "see_also": ["prayojana", "svatantrya", "krsna", "goloka", "prema"],
+  "translator_note": "'Play' is acceptable but Western readers should not collapse it into 'mere amusement.' *Līlā* is the technical name for purposeless action — action arising from fullness, not from lack. The user's position-brief (T8, T9, T12) uses *līlā* as a constitutive term for the texture of divine manifestation; the connection to *niṣkāma karma* (action without desire-for-fruit) and to wu-wei is operative. 'Sport' (older English usage) is an acceptable archaism."
+}

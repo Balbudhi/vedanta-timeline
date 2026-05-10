@@ -439,5 +439,75 @@
     "shade": 3,
     "short_description": "The Cārvāka / Lokāyata position as reconstructible from hostile-citation: pratyakṣa as sole pramāṇa, the rejection of inference as evidentially unreliable, the rejection of the post-mortem soul.",
     "representative_thinker_ids": ["carvaka"]
+  },
+  "kashmir-shaiva-siddhanta-founding": {
+    "display_name": "Kashmir Śaiva-Siddhānta (founding)",
+    "parent_school_color_token": "kashmir-shaiva-dualist",
+    "shade": 2,
+    "short_description": "Sadyojyotis's founding Saiddhāntika treatises (Bhoga-Kārikā, Mokṣa-Kārikā, Tattva-Saṅgraha, Nareśvara-Parīkṣā): pati, paśu, and pāśa as three eternally distinct realities.",
+    "representative_thinker_ids": ["sadyojyotis"]
+  },
+  "kashmir-shaiva-siddhanta-mature": {
+    "display_name": "Kashmir Śaiva-Siddhānta (mature commentarial)",
+    "parent_school_color_token": "kashmir-shaiva-dualist",
+    "shade": 4,
+    "short_description": "Bhaṭṭa Rāmakaṇṭha II's mature dualist Saiddhāntika commentaries (on the Mataṅga, Kiraṇa, Nareśvara-Parīkṣā): the developed defence of three-fold ontology against the rising Pratyabhijñā non-dualism.",
+    "representative_thinker_ids": ["bhatta-ramakantha"]
+  },
+  "trika-pratyabhijna-founder": {
+    "display_name": "Pratyabhijñā founder",
+    "parent_school_color_token": "trika-comparator",
+    "shade": 1,
+    "short_description": "Somānanda's Śiva-Dṛṣṭi: the founding text of the Pratyabhijñā stream, prior to its analytic systematisation in Utpaladeva.",
+    "representative_thinker_ids": ["somananda"]
+  },
+  "trika-spanda-founding": {
+    "display_name": "Spanda — founding",
+    "parent_school_color_token": "trika-comparator",
+    "shade": 1,
+    "short_description": "Vasugupta's Śiva-Sūtra (and on one tradition the Spanda-Kārikā): the foundational Spanda revelation, with spanda as the dynamism of manifestation as a whole.",
+    "representative_thinker_ids": ["vasugupta"]
+  },
+  "trika-spanda-systematic": {
+    "display_name": "Spanda — systematic",
+    "parent_school_color_token": "trika-comparator",
+    "shade": 2,
+    "short_description": "Bhaṭṭa Kallaṭa's Spanda-Sarva-Sva (and on one tradition the Spanda-Kārikā): the first systematic articulation of Spanda doctrine within the Trika lineage.",
+    "representative_thinker_ids": ["bhatta-kallata"]
+  },
+  "trika-tantraloka-commentarial": {
+    "display_name": "Trika Tantrāloka-commentarial",
+    "parent_school_color_token": "trika-comparator",
+    "shade": 5,
+    "short_description": "Jayaratha's Tantrāloka-Viveka: the principal commentary on Abhinavagupta's Tantrāloka, indispensable for the mature Trika.",
+    "representative_thinker_ids": ["jayaratha"]
+  },
+  "shakta-srividya-early-modern": {
+    "display_name": "Śrīvidyā — early-modern Advaita-aligned",
+    "parent_school_color_token": "shakta-srividya",
+    "shade": 4,
+    "short_description": "Bhāskararāya's Vārāṇasī Śrīvidyā synthesis (Saubhāgya-Bhāskara, Setubandha, Varivasyā-Rahasya): the major early-modern integration of Śrīvidyā ritual-philosophy with Advaita Vedānta.",
+    "representative_thinker_ids": ["bhaskararaya"]
+  },
+  "shakta-srividya-south-indian-smarta": {
+    "display_name": "Śrīvidyā — South-Indian Smārta-aligned",
+    "parent_school_color_token": "shakta-srividya",
+    "shade": 2,
+    "short_description": "Lakṣmīdhara's Saundarya-Laharī commentary: the standard South-Indian Smārta-aligned reading of the Saundarya-Laharī, conservative on the samaya / kaula distinction.",
+    "representative_thinker_ids": ["lakshmidhara"]
+  },
+  "shakta-mahartha-source": {
+    "display_name": "Mahārtha (Krama) — source verses",
+    "parent_school_color_token": "shakta-kalakula",
+    "shade": 2,
+    "short_description": "Abhinanda Yogin: the Mahārtha-Mañjarī base verses, the principal South-Indian Krama source.",
+    "representative_thinker_ids": ["abhinanda"]
+  },
+  "shakta-mahartha-systematic": {
+    "display_name": "Mahārtha (Krama) — systematic",
+    "parent_school_color_token": "shakta-kalakula",
+    "shade": 4,
+    "short_description": "Maheśvarānanda's Mahārtha-Mañjarī with the Parimala auto-commentary: the mature South-Indian Krama systematisation.",
+    "representative_thinker_ids": ["mahesvarananda"]
   }
 }

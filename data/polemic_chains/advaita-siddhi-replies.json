@@ -1,0 +1,191 @@
+{
+  "chain_id": "advaita-siddhi-replies",
+  "title": "Advaita-Siddhi — Madhusūdana's defense of Advaita against Vyāsatīrtha through four mithyātva-lakṣaṇas",
+  "attacker": "madhusudana",
+  "attacker_text": "Advaita-Siddhi (c. 1570); supplementary Bhakti-Rasāyana and Vedānta-Kalpa-Latikā; defended downstream by Brahmānanda Sarasvatī's Laghu-Candrikā",
+  "target_school_token": "dvaita",
+  "target_position_summary": "Vyāsatīrtha's Nyāyāmṛta — the formally-engineered Navya-Dvaita position that destructively criticises every available mithyātva-lakṣaṇa and positively establishes pañca-bheda through formal anumāna. Madhusūdana's reply is structurally a defensive operation: the doctrine is preserved by offering four non-equivalent lakṣaṇas of mithyātva, each crafted to evade a distinct Vyāsatīrtha objection, on the meta-thesis that the underlying property mithyātva is reachable by multiple independent characterisations none of which collapses mithyā into asat.",
+  "arguments": [
+    {
+      "name": "argument-1: lakṣaṇa-1 defended — sva-āśrayatva-niṣṭha-atyantābhāva-pratiyogitva",
+      "premises": [
+        "Define mithyātva as: being the counter-positive of an absolute absence located in its own substrate.",
+        "When brahma-jñāna arises, the world (including its component items) is recognised as absent in its very substrate (Brahman).",
+        "Therefore the world is the counter-positive of an absence located in its substrate; therefore the world is mithyā.",
+        "Vyāsatīrtha's regress charge (that pratiyogitva itself must be real-or-mithyā) is met by noting that pratiyogitva is anirvacanīya: it is the relational property by which something is picked out as the counterpart of an absence, and such relational properties are not first-order entities requiring their own ontological grounding."
+      ],
+      "inference": "The first lakṣaṇa survives the regress objection if anirvacanīya is admitted as a legitimate ontological category for relational properties.",
+      "conclusion": "Mithyātva is formally definable; the lakṣaṇa-1 reaches the world correctly without catching items it should not catch (Brahman is not the counter-positive of any absence in its own substrate).",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "vyasatirtha",
+            "position": "Nyāyāmṛta's argument that lakṣaṇa-1 generates regress on pratiyogitva."
+          },
+          {
+            "thinker_id": "madhva",
+            "position": "Madhva's underlying Mithyātvānumāna-Khaṇḍana charge that the inferential apparatus for mithyātva is dialectically defective."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "jayatirtha",
+            "position": "Jayatīrtha's earlier defense of pañca-bheda by sākṣi-pramāṇa rather than by formal anumāna is not directly engaged by the lakṣaṇa-1 defense; the disagreement on whether sākṣi-pramāṇa can override formal inference remains untouched."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "raghavendra",
+            "response_text": "Pariṃala — argues that Madhusūdana's anirvacanīya-pratiyogitva escape is not principled because it generalises: any objectionable item could be saved by declaring its problematic feature anirvacanīya",
+            "verdict": "the criticism turns the anirvacanīya category into a universal solvent, against which Madhusūdana's school is held to need a principled restriction."
+          },
+          {
+            "thinker_id": "brahmananda",
+            "response_text": "Laghu-Candrikā — defends Madhusūdana by specifying that anirvacanīya applies only where bivalent characterisation can be shown to fail by a specific dialectical exhibition, not as a general solvent",
+            "verdict": "preserves the doctrine by tightening the conditions on the anirvacanīya category."
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive defense of a substantive doctrine. The reply is genuine and the residual disagreement (over the conditions on the anirvacanīya category) is itself substantive. Neither side dissolves."
+    },
+    {
+      "name": "argument-2: lakṣaṇa-3 defended — sad-vilakṣaṇatva read as the conjunction (not-sat, not-asat)",
+      "premises": [
+        "Define mithyātva as: sad-asad-vilakṣaṇa — other than both real and unreal.",
+        "Vyāsatīrtha's bivalence-violation charge presupposes that sad-asad exhausts the ontological space.",
+        "But the rope-snake illusion gives a phenomenological case where the snake is neither sat (it isn't actually there) nor asat (it was experienced); the experiential evidence itself warrants the third category.",
+        "Hence the lakṣaṇa is not stipulative but warranted by the very phenomenology that motivates the inquiry into ignorance.",
+        "The category mithyā is therefore a real third option whose pramāṇa-warrant is anubhava (immediate experience) of sublation-without-prior-non-existence."
+      ],
+      "inference": "Sad-asad-vilakṣaṇatva is a phenomenologically-warranted third ontological category, not a stipulation.",
+      "conclusion": "The lakṣaṇa is dialectically legitimate; mithyā ≠ asat is preserved as a hard distinction.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "vyasatirtha",
+            "position": "The bivalence-violation charge against lakṣaṇa-3."
+          },
+          {
+            "thinker_id": "madhva",
+            "position": "Madhva's characteristic polemical conflation of mithyā with asat (the move the user's framework explicitly rejects)."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "jayatirtha",
+            "position": "Jayatīrtha's pramāṇa-theoretic argument that anirvacanīya cannot be a pramāṇa-grounded category remains a separate axis."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "vyasatirtha",
+            "response_text": "Already in Nyāyāmṛta: argues that the rope-snake case does not establish a third ontological category — the snake-cognition is itself a case of asat-khyāti or anyathā-khyāti depending on theory of error",
+            "verdict": "the reply requires a particular theory of error (yathārtha-khyāti for Madhva) that makes the snake-cognition fully real-of-something-different, not real-of-the-snake. The dispute reduces to a disagreement about theory of error."
+          }
+        ]
+      },
+      "user_thesis_test": "This is the locus where the user's mithyā ≠ asat constraint is most directly defended. Madhusūdana's defense is exactly the constraint the user's framework adopts. The disagreement here is genuinely substantive — over theory of error and over whether the rope-snake phenomenology warrants a third category. Madhva's polemic against this lakṣaṇa is one place where the user's framework and Madhva diverge sharply."
+    },
+    {
+      "name": "argument-3: lakṣaṇa-2 defended — sva-niṣṭha-atyantābhāva (an alternative substrate-formulation)",
+      "premises": [
+        "An alternative formulation: mithyātva = bearing an absence locatable in itself (rather than in its substrate).",
+        "This formulation evades the substrate-relativity worry of lakṣaṇa-1.",
+        "It captures the intuition that what is mithyā is what is, in some sense, not what it appears to be — there is an absence within it of the very being it appears to have.",
+        "Vyāsatīrtha's objection that this collapses into asat is met by distinguishing two absences: (a) absence-of-the-property-of-being-the-substrate-of-being (which the world bears, hence mithyā) and (b) absolute non-existence (which the world does not bear, hence not asat)."
+      ],
+      "inference": "Lakṣaṇa-2 supplies an alternative routing to mithyātva that evades the regress-charge of lakṣaṇa-1.",
+      "conclusion": "Mithyātva is reachable by multiple non-equivalent lakṣaṇas; this very multiplicity is dialectically protective.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "vyasatirtha",
+            "position": "The argument that any single lakṣaṇa fails."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "madhva",
+            "position": "Madhva's charge against the doctrine itself (rather than against any single lakṣaṇa) is not addressed by the multiplicity-defense."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "vyasatirtha",
+            "response_text": "Nyāyāmṛta replies: multiple defective lakṣaṇas do not amount to one good lakṣaṇa; the burden of proof is to give one lakṣaṇa that survives examination, not several",
+            "verdict": "raises a methodological question about whether disjunctive characterisation of an ontological property is dialectically legitimate."
+          }
+        ]
+      },
+      "user_thesis_test": "The disjunctive defense is methodologically novel; Vyāsatīrtha's reply that disjunctive characterisations are not principled is a real methodological objection. Substantive."
+    },
+    {
+      "name": "argument-4: lakṣaṇa-4 defended — bādha-pratiyogitva read as the cancelling-cognition criterion",
+      "premises": [
+        "Lakṣaṇa-4: mithyātva = being the counter-positive of the cognition that arises with brahma-jñāna and cancels what is to be cancelled.",
+        "This is a soteriological-functional definition: mithyā is whatever brahma-jñāna sublates.",
+        "Vyāsatīrtha's circularity charge (mithyā = bādhya by brahma-jñāna; brahma-jñāna = cognition that bādhates mithyā) is met by distinguishing the sublation-relation from the property of being-sublatable: the latter is a dispositional property that can be characterised independently of any particular sublation-event.",
+        "The asat objection (that asat items are also bādhya, in some sense) is met by typologising: asat items are not bādhya because they were never present-as-cognised (they were never there to be cancelled); mithyā items are bādhya in the strong sense (they were cognitively-present, then cancelled).",
+        "The discrimination between mithyā and asat is therefore phenomenologically grounded in the difference between cancelled-after-having-been-cognised (mithyā) and never-cognised-at-all (asat)."
+      ],
+      "inference": "Lakṣaṇa-4 is non-circular if dispositional reading of bādhya is admitted, and discriminates mithyā from asat by phenomenological criterion.",
+      "conclusion": "The phenomenological-functional lakṣaṇa is the fall-back defense: even if the more formal lakṣaṇas are contested, the experiential ground of mithyā is secured.",
+      "premise_status": "primary-text-attested",
+      "what_it_touches": {
+        "positions_actually_attacked": [
+          {
+            "thinker_id": "vyasatirtha",
+            "position": "Both the circularity and the asat-confusion charges against lakṣaṇa-4."
+          }
+        ],
+        "positions_left_intact": [
+          {
+            "thinker_id": "madhva",
+            "position": "Madhva's deeper structural objection — that brahma-jñāna does not arise on the Advaita scheme — is not engaged."
+          }
+        ],
+        "later_responses": [
+          {
+            "thinker_id": "vyasatirtha",
+            "response_text": "Nyāyāmṛta extends the criticism to dispositional bādhya: dispositional properties require manifest occasions for their manifestation, and the Advaitin cannot specify the occasions without smuggling in the very brahma-jñāna whose possibility is the prior question",
+            "verdict": "pushes the dialectic to a meta-question: under what conditions are dispositional ontological properties legitimate?"
+          }
+        ]
+      },
+      "user_thesis_test": "Substantive. The phenomenological defense is a real philosophical resource and the residual question (legitimacy of dispositional ontological properties) is genuinely open."
+    }
+  ],
+  "user_thesis_summary": "Madhusūdana's four-lakṣaṇa strategy is the most sophisticated defensive operation in classical Vedānta. The structural achievement is the methodological move of disjunctive characterisation: by offering four non-equivalent lakṣaṇas, Madhusūdana ensures that no single dialectical defeat collapses the doctrine. Against the user's perspectivism hypothesis, the Madhusūdana-Vyāsatīrtha exchange is the strongest evidence of substantive disagreement: both interlocutors operate in the same technical idiom (post-Gaṅgeśa Navya-Nyāya), share a common conception of what counts as a successful argument, and yet the disagreement persists across multiple sub-issues (anirvacanīya category; bivalence; theory of error; disjunctive lakṣaṇas; dispositional properties). The defense does, however, vindicate the user's mithyā ≠ asat constraint: lakṣaṇa-3 explicitly preserves this distinction, and the defense rests on it. So the polemic both supports the user's framework (mithyā ≠ asat is genuinely Advaitic) and undermines the user's perspectivism hypothesis (the residual disagreements with Dvaita are substantive, not register-effects). Verdict: substantive-with-defended-response. The polemic is engaged at the highest technical level and survives the engagement.",
+  "primary_source_loci": [
+    "Advaita-Siddhi prathama-paricheda 1–4 (the four lakṣaṇa-defenses)",
+    "Advaita-Siddhi dvitīya-paricheda (extended defenses against further Vyāsatīrtha objections)",
+    "Bhakti-Rasāyana — Madhusūdana's integration of bhakti into the Advaita scheme as a parallel project",
+    "Vedānta-Kalpa-Latikā — Madhusūdana's introductory exposition"
+  ],
+  "scholarly_apparatus": [
+    {
+      "scholar": "Karl H. Potter & Sibajiban Bhattacharyya (eds.)",
+      "work": "Encyclopedia of Indian Philosophies, vol. 11 (Advaita Vedānta from 800 to 1200)",
+      "page_or_section": "entries on Madhusūdana",
+      "position": "Reconstructs the four lakṣaṇas with full Navya-Nyāya formality and traces the dialectical structure of each defense."
+    },
+    {
+      "scholar": "Lance Nelson",
+      "work": "Bhakti-rasa for the Advaitin Renunciate: Madhusūdana Sarasvatī's Theory of Devotional Sentiment (Religion of the Heart, ed. M. Lath, 1986)",
+      "page_or_section": "passim",
+      "position": "Documents the broader project: Madhusūdana defends Advaita doctrinally while also integrating bhakti-rasa as a parallel Advaita-compatible affective discipline."
+    },
+    {
+      "scholar": "Sanjukta Gupta",
+      "work": "Advaita Vedānta and Vaiṣṇavism: The Philosophy of Madhusūdana Sarasvatī (Routledge, 2006)",
+      "page_or_section": "chs. 3–5",
+      "position": "Reads the Advaita-Siddhi as a coordinated defensive-and-constructive project, not merely a reply to Vyāsatīrtha; the four lakṣaṇas are part of a positive Advaita-restatement under hostile examination."
+    }
+  ],
+  "entry_status": "reviewed",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-polemic-opus"
+}

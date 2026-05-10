@@ -11,9 +11,15 @@
   "school_color_token": "trika-comparator",
   "sub_school": "Pratyabhijñā founding text",
   "sub_school_shade": 2,
-  "lineage_in": [],
+  "lineage_in": ["somananda"],
   "lineage_out": ["abhinavagupta"],
-  "lineage_polemical": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "bhatta-ramakantha",
+      "direction": "is-refuted-by",
+      "note": "Bhaṭṭa Rāmakaṇṭha II's Nareśvara-Parīkṣā-Prakāśa is the principal dualist Saiddhāntika reply to the Pratyabhijñā position founded by Somānanda and articulated by Utpaladeva."
+    }
+  ],
   "core_thesis": "Non-Vedāntin comparator (non-dual Śaiva, Pratyabhijñā/Trika). Utpaladeva is the founder of the *Pratyabhijñā* (\"recognition\") system, which articulates a non-dual idealism in which the sole reality is Śiva-as-consciousness (*saṃvit*, *cit*), whose intrinsic nature is *svātantrya* — absolute, unconditioned sovereign freedom. *Svātantrya* is not a property added to consciousness; it *is* consciousness as self-luminous and self-aware (*prakāśa-vimarśa*-rūpā). The whole manifest world — including the limited subject, its objects, time, and causality — is *ābhāsa*, Śiva's own appearing, freely projected within himself by his own *svātantrya*. The bound condition of the *paśu* therefore consists not in any real ontological fall but in non-recognition (*akhyāti*) of the supreme *I*-consciousness (*pūrṇāhantā*) that is in fact already and inalienably one's own nature. Liberation accordingly is *pratyabhijñā*: not the production of a new state but the recognition that *one is already* Śiva. The corpus develops this through the technical apparatus of *ābhāsa-vāda*, *vimarśa*, and the *aham*-analysis. Compared to Vedānta this preserves a positive, dynamic agentive consciousness rather than a witnessing Brahman.",
   "engaged_works": [
     {

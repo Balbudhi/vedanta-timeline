@@ -12,8 +12,14 @@
   "sub_school": "Trika school-consummating",
   "sub_school_shade": 4,
   "lineage_in": ["utpaladeva"],
-  "lineage_out": ["ksemaraja"],
-  "lineage_polemical": [],
+  "lineage_out": ["ksemaraja", "jayaratha", "mahesvarananda"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "bhatta-ramakantha",
+      "direction": "mutual",
+      "note": "Abhinavagupta's mature Trika non-dualism stands in structural polemic with the dualist Saiddhāntika position consolidated by Bhaṭṭa Rāmakaṇṭha II in Kashmir at the same time."
+    }
+  ],
   "core_thesis": "Non-Vedāntin comparator (non-dual Śaiva, Trika/Pratyabhijñā). Abhinavagupta consummates the Trika synthesis by integrating three currents: Utpaladeva's *Pratyabhijñā* idealism, the *Spanda* tradition (the dynamism of consciousness as pulse of manifestation), and the *Kula* / *Krama* tantric ritual systems. The single reality is *Anuttara* — Śiva-as-consciousness — whose intrinsic *svātantrya* and *vimarśa* freely manifest the entire continuum of *tattvas* by *ābhāsa*; *spanda* names this unbroken pulsation by which manifestation as a whole occurs (closer in scope to *prakṛti* or *mahāmāyā* than to any single *guṇa*). The bound subject's apparent limitation is *aṇavamala*, *māyīyamala*, *kārmamala* — three contractions of *pūrṇāhantā*, all themselves modes of Śiva's own *svātantrya*. Soteriology is graded across *upāyas* (*āṇava*, *śākta*, *śāmbhava*, *anupāya*) culminating in immediate *pratyabhijñā*. Aesthetic experience (*rasa*) is for him a window onto this same self-recognition: the *camatkāra* of poetic emotion is structurally identical with the *camatkāra* of liberation. Compared to Vedānta this is a positive non-dualism in which manifestation is real as Śiva's free expression, not as superimposition on a featureless absolute.",
   "engaged_works": [
     {

@@ -1,0 +1,27 @@
+{
+  "term_key": "anubhava",
+  "term_iast": "anubhava",
+  "term_devanagari": "अनुभव",
+  "literal": "experience, direct experiencing; from anu- 'after, along' + √bhū 'to be, to become'",
+  "aliases": ["anubhava", "Anubhava", "anubhavaḥ", "anubhave", "anubhavena", "anubhuti", "anubhūti"],
+  "invariant_definition": "Direct experience, especially the first-personal experience that confirms (or in some schools constitutes) liberating cognition. Distinguished from inferred or *śabda*-mediated knowledge by its immediacy. All Vedāntic schools accept that *anubhava* of *brahman* is the culmination of the path, but differ on the priority of *anubhava* relative to *śabda*: Advaita accords *anubhava* a confirmatory role in *brahma-jñāna* (the *mahāvākya* discloses, *anubhava* confirms); Viśiṣṭādvaita and Dvaita treat *anubhava* as the lived *bhāva* of the surrendered devotee but never displacing *śabda* as *pramāṇa*.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Anubhava* is the immediate self-disclosure of *brahman* on the rise of the *akhaṇḍākāra-vṛtti*. The *Aitareya-Upaniṣad-Bhāṣya* introductory passage and the *Upadeśa-Sāhasrī* foreground *anubhava-paryanta* as the test of liberating *jñāna*: knowledge that does not culminate in *anubhava* is not yet *brahma-jñāna*. *Anubhava* and *śabda* are not in tension; *śabda* terminates in *anubhava*.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.2", "Aitareya-Upaniṣad-Bhāṣya, upodghāta", "Upadeśa-Sāhasrī 18"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Anubhava* of the Lord — the direct devotional experience accumulated in *upāsana* — is constitutive of *para-bhakti*. It is mediated by *śabda* and never displaces it.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§137–144"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Aparokṣa-jñāna* (direct cognition of Viṣṇu) is the relevant analogue; bestowed by Viṣṇu's grace on the qualified soul. Distinguished sharply from the Advaita identification-experience.",
+      "primary_loci": ["Anu-Vyākhyāna 3.3"]
+    }
+  ],
+  "see_also": ["saksatkara", "aparoksa-jnana", "akhandakara-vrtti", "sabda-pramana"],
+  "translator_note": "'Experience' is acceptable but the modern English 'experience' (post-empiricist, post-Kantian) carries the wrong connotations of subjective qualia. *Anubhava* is more like 'first-personal direct cognition' or 'lived realization.' Critically: it is not opposed to *śabda* in classical Vedānta — the modern (especially Vivekananda-influenced) framing of '*anubhava* vs. tradition / scripture' is a 19th–20th century repositioning."
+}

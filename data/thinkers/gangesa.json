@@ -1,0 +1,45 @@
+{
+  "id": "gangesa",
+  "name": "Gangesha Upadhyaya",
+  "name_iast": "Gaṅgeśa Upādhyāya",
+  "alternate_names": ["Gaṅgeśa", "Gaṅgeśopādhyāya"],
+  "dates_low": 1275,
+  "dates_high": 1350,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Mithilā Naiyāyika; dates fixed by Bhattacharya (1958, History of Navya-Nyāya in Mithilā) and Matilal (1968, The Navya-Nyāya Doctrine of Negation) to the late thirteenth and early fourteenth century. The Tattva-Cintāmaṇi's terminus ante quem is given by its citation in Vardhamāna Upādhyāya's Prakāśa.",
+  "school": "Navya-Nyāya",
+  "school_color_token": "navya-nyaya-comparator",
+  "sub_school": "Navya-Nyāya (founding)",
+  "sub_school_shade": 3,
+  "lineage_in": ["aksapada", "vatsyayana", "uddyotakara", "vacaspati", "udayana"],
+  "lineage_out": ["raghunatha-siromani"],
+  "lineage_polemical": [],
+  "core_thesis": "Gaṅgeśa's *Tattva-Cintāmaṇi* founds Navya-Nyāya — the 'New Logic' — by reformulating the entire *pramāṇa*-machinery of Old-Nyāya in a technical idiom precise enough to defeat the late-twelfth-century Buddhist and Advaitin pressure that Old-Nyāya could no longer absorb. Three innovations define the system. First, *vyāpti* (invariable concomitance) is reformulated. Where Uddyotakara and Udayana relied on a *tri-rūpa-liṅga* characterisation, Gaṅgeśa develops five successively more rigorous candidate-definitions — *anyathāsiddhi-rahita-niyata-pūrva-vṛtti-tva*, *avyabhicarita-sambandha-tva*, and three further refinements — each tested against canonical counter-examples. The standard Navya definition (*pratiyogi-tāvacchedaka-sambandhāvacchinna-pratiyogitāka-bhāva-pratiyogi-tāvacchedaka-rūpeṇa hetu-tāvacchedakāvacchinna-niyamaḥ*) is the form the school inherits. Second, *avacchedaka* (the delimiting condition) is given systematic treatment: every property has its mode of being-a-property, every relation its mode of being-the-relation; this lets every inference and every cognition be specified without remainder. Third, *paryāpti* (the exhausting predication relation) is introduced for cases where a property is located in something via the property's exhaustion of its locus, distinguishing cases where two-ness is in two horses-jointly from cases where horse-ness is in each horse separately. The technical apparatus is the dialectical lingua franca for late-medieval Indian philosophy: Madhusūdana's *Advaita-Siddhi*, Vyāsatīrtha's *Nyāyāmṛta*, Raghunātha Śiromaṇi's *Dīdhiti*, and the entire Navadvīpa scholasticism are unintelligible without it.",
+  "engaged_works": [
+    {
+      "work_id": "tattva-cintamani",
+      "title": "Tattva-Cintamani",
+      "title_iast": "Tattva-Cintāmaṇi",
+      "alternate_titles": ["Cintāmaṇi"],
+      "composition_dates_low": 1300,
+      "composition_dates_high": 1340,
+      "composition_dates_notes": "Composition fixed by terminus ante quem of Vardhamāna Upādhyāya's Prakāśa.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; the founding text of Navya-Nyāya.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus (Bhattacharya 1958; Matilal 1968)."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Independent treatise organised by *pramāṇa* into four *khaṇḍas*: *Pratyakṣa-Khaṇḍa*, *Anumāna-Khaṇḍa*, *Upamāna-Khaṇḍa*, *Śabda-Khaṇḍa*. Each *khaṇḍa* opens with a *maṅgala* establishing the methodological standard, advances through systematic *pūrvapakṣa*-and-*uttarapakṣa* on every disputed sub-question, and concludes with a constructive Navya-Nyāya formulation. The *Anumāna-Khaṇḍa* is the longest and the most influential. Its first section, *Vyāpti-Pañcaka*, gives the five candidate definitions of *vyāpti* and the rigorous tests by which the standard definition is selected; the section on *avacchedaka* establishes the technical idiom that the entire later school presupposes; the section on *paryāpti* introduces the relation that distinguishes joint-locating from distributive-locating predications. The *Pratyakṣa-Khaṇḍa* refines the perceptual analysis to handle Advaitin pressure on the *adhyāsa*-doctrine and Buddhist pressure on *nirvikalpaka* perception. The *Śabda-Khaṇḍa* defends *śābda*-bodha (sentence-cognition) on a Naiyāyika realist basis against the Mīmāṃsā analysis of *anvitābhidhāna*. The *Cintāmaṇi* is the most-commented text in late-medieval Sanskrit philosophy; Raghunātha Śiromaṇi's *Dīdhiti* and Mathurānātha's *Māthurī* are the standard Navadvīpa sub-commentaries.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-comparators-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-comparators-opus"
+}
