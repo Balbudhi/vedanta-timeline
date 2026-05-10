@@ -1,0 +1,135 @@
+{
+  "id": "nagarjuna",
+  "name": "Nagarjuna",
+  "name_iast": "Nāgārjuna",
+  "alternate_names": ["Ārya Nāgārjuna"],
+  "dates_low": 150,
+  "dates_high": 250,
+  "dates_tier": "contested",
+  "dates_notes": "The dating of Nāgārjuna is unusually contested. Walleser (1923) places him in the second century on the basis of the Tibetan and Chinese hagiographies and his apparent dependence on early Mahāyāna sūtra material; Lindtner (Nagarjuniana, 1982) defends a c. 150–250 CE window on the basis of the citation-pattern in Āryadeva and the Kuṣāṇa-period iconography of the texts ascribed to him. Walser (Nāgārjuna in Context, 2005) argues a Sātavāhana-court setting in the late second century from the Ratnāvalī's epistolary frame. The hagiographical claim of a six-hundred-year lifespan is universally rejected; the historical figure is one author behind the philosophical core (MMK, Vigraha-Vyāvartanī, Yukti-Ṣaṣṭikā, Śūnyatā-Saptati, Ratnāvalī).",
+  "school": "Cross-tradition",
+  "school_color_token": "madhyamaka-comparator",
+  "sub_school": "Mādhyamaka-founder",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": ["bhaviveka", "candrakirti"],
+  "lineage_polemical": [
+    {
+      "thinker_id": "badarayana",
+      "direction": "is-refuted-by",
+      "note": "Brahma-Sūtra 2.2.18–32 mounts the canonical Vedāntic refutation of the Buddhist schools. The Mādhyamaka-aimed strand within that adhikaraṇa-sequence (especially the sarva-vaināśika-pakṣa-nirākaraṇa) targets the doctrine of universal momentary destruction and, by extension, the śūnyatā-thesis read as a denial of any abiding ground."
+    },
+    {
+      "thinker_id": "sankara",
+      "direction": "refutes",
+      "note": "Brahma-Sūtra-Bhāṣya 2.2.32 (vaināśika-pakṣasya nirūpaṇam) treats the śūnyavādin position with explicit dismissal — Śaṅkara writes that it is not worth refuting because no Vedāntic position rests on a foundation similar enough to require argumentative engagement, and because the position is self-undercutting. The dismissal is itself doctrinally significant: Śaṅkara denies the śūnyavāda construal of the world while preserving structural features (two-truths, anirvacanīyatā) that look from the outside like Mādhyamaka borrowings, which is exactly what later Bhedābhedins exploit."
+    },
+    {
+      "thinker_id": "bhaskara",
+      "direction": "is-refuted-by",
+      "note": "Bhāskara's pracchanna-bauddha charge against Śaṅkara is best read as targeting the structural homology between Mādhyamaka and Advaita: if the world is mithyā in the same way that phenomena are śūnya, then māyāvāda has imported Nāgārjuna's position under Vedāntic vocabulary. Bhāskara does not name Nāgārjuna; he names the Buddhist conclusion."
+    },
+    {
+      "thinker_id": "madhva",
+      "direction": "is-refuted-by",
+      "note": "Madhva's anti-Buddhist polemic is sustained and explicit. The Tattva-Saṅkhyāna and the Māyāvāda-Khaṇḍana / Mithyātvānumāna-Khaṇḍana / Upādhi-Khaṇḍana cluster treat Mādhyamaka as the doctrinal extreme of the māyā-line: the world's reality cannot be qualified into a middle category between sat and asat without collapsing into the śūnyavādin conclusion. The Vedāntic project, on Madhva's reading, must hold the world as svatantra-paratantra-tattva and refuse the catuṣkoṭi-style refusal of all four positions on any matter of ontology."
+    }
+  ],
+  "core_thesis": "Nāgārjuna's middle way is the position that no entity bears *svabhāva* (own-being): everything that arises does so in dependence on conditions, and dependent arising is itself what *śūnyatā* (emptiness) names. *Yaḥ pratītya-samutpādaḥ śūnyatāṃ tāṃ pracakṣmahe* (MMK 24.18) is the central identification: emptiness is not a metaphysical reality behind appearances but the very fact of conditioned co-arising. The dialectical instrument is the *catuṣkoṭi* (four-cornered logic): for any candidate metaphysical thesis P, Nāgārjuna refutes (i) P, (ii) ¬P, (iii) P ∧ ¬P, and (iv) ¬(P ∧ ¬P). The refutation is *prasaṅga*-style — drawing out the unwanted consequences of each corner — and produces no positive thesis of its own; this is the famous *na me kācana pratijñā asti* of the *Vigraha-Vyāvartanī*. The *saṃvṛti-satya* / *paramārtha-satya* distinction (MMK 24.8–10) is the load-bearing apparatus that lets ordinary discourse remain intact while ultimate analysis dissolves every posited entity. The Vedāntic engagement is structural: Advaita's *vyāvahārika* / *pāramārthika* scheme is formally homologous, which is exactly what makes the *pracchanna-bauddha* charge against Śaṅkara stick or fail.",
+  "engaged_works": [
+    {
+      "work_id": "mula-madhyamaka-karika",
+      "title": "Mula-Madhyamaka-Karika",
+      "title_iast": "Mūla-Madhyamaka-Kārikā",
+      "alternate_titles": ["MMK", "Madhyamaka-Śāstra", "Prajñā-Nāma-Mūla-Madhyamaka-Kārikā"],
+      "composition_dates_low": 150,
+      "composition_dates_high": 250,
+      "composition_dates_notes": "Internal stylistic uniformity supports a single-author composition; the text is securely Nāgārjuna's by uniform later citation.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "The MMK is securely authored by Nāgārjuna by uniform Indian, Tibetan, and Chinese commentarial attestation, and stands at the head of every Mādhyamaka transmission lineage.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Modern academic consensus (Lindtner 1982; Walser 2005; Westerhoff 2009)."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The foundational treatise of Mādhyamaka in twenty-seven *prakaraṇa*s (chapters), each refuting the *svabhāva* (own-being) of a different metaphysical category — conditions (*pratyaya*), motion (*gata-āgata*), the senses, the elements, the aggregates, the agent and the act, the self, time, the *tathāgata*, *nirvāṇa*, the four noble truths, the *dvādaśa-aṅga* of dependent origination, views. The dialectical method is *prasaṅga*: each candidate analysis of the category is shown, by *catuṣkoṭi*-style exhaustion, to issue in unwanted consequences, with no counter-thesis advanced. Chapter 24 (*ārya-satya-parīkṣā*) supplies the doctrinal centre: the *pūrva-pakṣin* objects that emptiness destroys the four noble truths and the saṅgha; Nāgārjuna replies that without emptiness — that is, without *pratītya-samutpāda* — the four truths are themselves impossible, since a thing with *svabhāva* could neither arise nor cease (24.20). The chapter establishes the two-truths (*saṃvṛti* / *paramārtha*, 24.8–10) and the identification of *śūnyatā* with *pratītya-samutpāda* (24.18), the two formulas the rest of the Mādhyamaka tradition reads as load-bearing. Chapter 25 (*nirvāṇa-parīkṣā*) refuses the symmetrical claims that *nirvāṇa* is, is not, both is and is not, neither is nor is not — the *catuṣkoṭi* applied to its hardest case. The MMK is the spine on which Bhāviveka and Candrakīrti construct their rival readings, and the principal Buddhist text engaged by every later Vedāntic anti-Buddhist polemic from Bādarāyaṇa onward.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "vigraha-vyavartani",
+      "title": "Vigraha-Vyavartani",
+      "title_iast": "Vigraha-Vyāvartanī",
+      "alternate_titles": ["VV"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; the auto-commentary survives, and the Tibetan transmission preserves both verse and prose layers.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "Lindtner 1982; Bhattacharya 1978."}
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "A seventy-verse polemical text with auto-commentary, structured as a Naiyāyika-style objection-and-reply on the central charge that the doctrine of *śūnyatā* is self-undercutting. The opponent's argument is straightforward: if all things lack *svabhāva*, then so does the statement 'all things lack *svabhāva*', and the statement therefore fails to refute anything. Nāgārjuna's reply distinguishes refutation from positive assertion: *na me kācana pratijñā asti* — \"I have no thesis of my own\" — and the function of the Mādhyamaka argument is to draw out the *prasaṅga* (consequence) of the opponent's commitments, not to advance a counter-position requiring its own *svabhāva*-bearing ground. The text is the canonical Mādhyamaka response to the Naiyāyika *pramāṇa*-realist position and is therefore the principal Buddhist resource for the subsequent Mādhyamaka–Nyāya exchange culminating in Dignāga and Dharmakīrti.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "yukti-sastika",
+      "title": "Yukti-Sastika",
+      "title_iast": "Yukti-Ṣaṣṭikā",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored within the core Nāgārjuna corpus identified by Lindtner.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Sixty verses arguing for *śūnyatā* via reasoning (*yukti*) rather than scripture, focused on the inseparability of arising-and-cessation: anything that arises in dependence cannot be said to truly arise in the *svabhāva*-sense, and *nirvāṇa* is therefore not a separate state but the cessation of the misperception that things possess own-being. The text supplies the philosophical bridge between the technical *catuṣkoṭi*-driven dialectics of the MMK and the soteriological framing of the *Ratnāvalī*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "sunyata-saptati",
+      "title": "Sunyata-Saptati",
+      "title_iast": "Śūnyatā-Saptati",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored within the Lindtner core; survives complete in Tibetan with the auto-commentary.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Seventy verses on emptiness defending the thesis that things being *śūnya* is not a denial of conventional existence but the very condition of its possibility — a *thing* that already had *svabhāva* could not enter into the dependencies that constitute its conventional being. The text develops the two-truths apparatus in compressed form and supplies several of Candrakīrti's most-cited *prasaṅga*-style refutations.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "ratnavali",
+      "title": "Ratnavali",
+      "title_iast": "Ratnāvalī",
+      "alternate_titles": ["Rāja-Parikathā"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; framed as advice to a Sātavāhana king (Walser 2005 argues for Yajña-Śrī-Sātakarṇi). The text combines Mādhyamaka philosophy with bodhisattva-praxis exposition.",
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "summary": "Five hundred verses framed as instruction to a king on the integration of *śūnyatā* with bodhisattva-praxis, ethics, and statecraft. The first chapter supplies one of Nāgārjuna's most extended philosophical statements outside the technical treatises: the rebuttal of essentialism, the analysis of the person via the chariot-analogy, the integration of *śūnyatā* with *karma* and rebirth without an enduring self, and the refusal of both annihilationist and eternalist construals of the Mahāyāna soteriology. The text is the principal source for the social and ethical dimensions of Nāgārjuna's thought.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "catuh-stava",
+      "title": "Catuh-Stava",
+      "title_iast": "Catuḥ-Stava",
+      "ascription_tier": "disputed",
+      "ascription_notes": "The four-hymn collection (Niraupamya, Lokātīta, Acintya, Paramārtha) is traditionally ascribed to Nāgārjuna. Lindtner accepts the Niraupamya-stava and Lokātīta-stava as authentic; the others are doubted. The hymns are devotional in register and present the Mādhyamaka philosophy through *stuti* rather than *kārikā*.",
+      "ascription_evidence": [
+        {"kind": "scholarly-dispute", "description": "Lindtner 1982 accepts two of four; the full set's ascription to Nāgārjuna himself remains contested."}
+      ],
+      "genre": "stotra",
+      "language": "sanskrit",
+      "summary": "A cluster of four short hymns to the Buddha — *Niraupamya-stava* (incomparable), *Lokātīta-stava* (transcending the world), *Acintya-stava* (inconceivable), *Paramārtha-stava* (ultimate-truth) — that compress Mādhyamaka philosophy into devotional verse. The hymns develop the apophatic strand: the Buddha as beyond every dichotomy the catuṣkoṭi refutes, *paramārtha* as that which cannot be characterised by any of the four corners. The relation of the hymns to the technical treatises is the Mādhyamaka analogue of the *bhāṣya*-vs-*stotra* disambiguation that the user's project flags for Śaṅkara.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Nāgārjuna is the load-bearing Buddhist interlocutor for the Vedāntic tradition from Bādarāyaṇa onward. The Brahma-Sūtra 2.2.18–32 sequence treats Mādhyamaka as one of the major rival darśanas. Śaṅkara's curt dismissal at BSB 2.2.32 belies the structural debt: the *vyāvahārika* / *pāramārthika* distinction is too close to *saṃvṛti* / *paramārtha* for accident, which is what fuels Bhāskara's *pracchanna-bauddha* charge and what Madhva's anti-Mādhyamaka treatises press relentlessly. The Yogācāra-influenced Sākāra readings of Vasubandhu enter Vedāntic awareness via Yāmuna's Saṃvit-Siddhi; Mādhyamaka enters via the BSB-anchored polemical chain.",
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-buddhist-comparators-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-buddhist-comparators-opus"
+}
