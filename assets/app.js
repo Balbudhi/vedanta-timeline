@@ -2342,12 +2342,12 @@ function escape(s) {
   return String(s).replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 }
 
-// Minimal inline-only markdown for short strings (titles, headwords,
-// attributions, locus labels, etc.). Renders **bold** → <strong>,
-// *italic* → <em>, _italic_ → <em>, `code` → <code>. HTML-escapes everything
-// else. No paragraph splitting, no block elements, no glossary tagging — keep
-// it cheap and predictable. Use for any short string that comes from a JSON
-// manifest authored with markdown emphasis (which is most of them).
+// Inline-only markdown for short strings (titles, headwords, attributions,
+// locus labels). Renders **bold** → <strong>, *italic* → <em>, _italic_ → <em>,
+// `code` → <code>. HTML-escapes everything else. No paragraph splitting, no
+// block elements, no glossary tagging — keep it cheap and predictable. Use
+// for any short string that comes from a JSON manifest authored with markdown
+// emphasis (most of them).
 function inlineMarkdown(s) {
   if (s == null) return "";
   let out = escape(s);
