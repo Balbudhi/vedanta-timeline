@@ -490,3 +490,14 @@ This is the most programmatic verse of the opening unit. It states, in compresse
 ## Editorial closing
 
 By the end of this opening unit, four things have been settled. The work’s subject-matter is the one self; its fruit is release; its qualified reader is the renouncer who seeks freedom from saṃsāra; and its operative means is knowledge rather than any conjunction of knowledge with ritual action. What has not yet been settled is the full dialectical defense of these claims against the ritualist opponent. That begins immediately at *Sambandha-Vārttika* v. 19 and expands through the ensuing objection-and-reply sequence. Nor has this unit yet unfolded Sureśvara’s fuller account of *avidyā* and its locus; that larger discussion belongs to later portions of the *Sambandha-Vārttika*, especially the stretch commonly cited around 1.4.402–411. The same architecture reappears in the independent *Naiṣkarmya-Siddhi*, where the incompatibility of knowledge and action is argued at length (1.55–56) and the sufficiency of *mahāvākya*-generated knowledge is restated with greater systematic compression (1.98–99).
+
+---
+
+## Source-Quality Audit (v1, 2026-05-10)
+
+This file was reviewed in the v1 source-integrity audit (`site/docs/SOURCE_AUDIT_v1.md`).
+
+- The cited witness (`vedanta/full_corpus/suresvara_brhadaranyaka_varttika_english_archive.pdf`) is **DEGRADED** under the embedded-text probe (very large 789 MB PDF; OCR text is sparse and the Sanskrit base layer is largely unrecoverable).
+- No clean Sanskrit e-text of Sureśvara's *Bṛhadāraṇyaka-Vārttika* exists on GRETIL or sanskritdocuments.org. The reference Mahadeva Sastri (Mysore Government Oriental Library Series, 1894) edition is on archive.org only as image-only PDFs.
+- This file's "Textual limitation" note already states the source-state correctly: the English below is a cautious secondary-source rendering, the Pāṇinian sections are explicitly marked unavailable, and no Sanskrit verbatim is claimed.
+- For citation defensibility: any Sureśvara *Bṛhadāraṇyaka-Vārttika* claim in user-facing material should be qualified as "via Hino 1982/1991" (Hino, *Suresvara's Vartika on Yajnavalkya-Maitreyi Dialogue*) or via the partial Mahadeva Sastri English, until a clean Devanāgarī text is acquired by hand-OCR or library-loan. This file does not falsify any primary citation; it is correctly positioned as a source-limited secondary handoff.

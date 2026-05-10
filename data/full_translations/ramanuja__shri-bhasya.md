@@ -572,3 +572,14 @@ The line shifts from lexical analysis to *vidhi*-logic. What the sūtra institut
 ## Editorial closing
 
 What this opening settles is already substantial. It settles that the inquiry of 1.1.1 is subsequent to disciplined Vedic formation; that its object is grammatically objective, not merely associative; and that the chief sense of *brahman* is *sarveśvara*, the *puruṣottama* possessed of unlimited auspicious qualities. In short, the semantic ground of Viśiṣṭādvaita is laid before the major polemics have even begun. What it does not yet settle is the full metaphysical architecture by which world, selves, and Brahman are related, nor the explicit demolition of rival readings. Those tasks are taken up immediately in the continuation of 1.1.1, then in 1.1.2 (*janmādy asya yataḥ*) and 1.1.4 (*tat tu samanvayāt*), and are given freer constructive statement in *Vedārtha-Saṃgraha* §§19-34 and §§76 ff. The present excerpt therefore belongs to the threshold of the work: not the whole house, but the doorway through which Rāmānuja insists the reader must enter.
+
+---
+
+## Source-Quality Audit (v1, 2026-05-10)
+
+This file was reviewed in the v1 source-integrity audit (`site/docs/SOURCE_AUDIT_v1.md`).
+
+- The cited Sanskrit witness (`_more/SribhasyaOfRamanujaPart1Chatuhsutri1959R.D.Karmakar.txt`) is **DEGRADED**: extensive OCR errors with mixed Devanāgarī fragments and corrupted Latin runs.
+- The GRETIL plain-text *Śrī-Bhāṣya* is listed in the GRETIL index (`sa_rAmAnuja-zrIbhASya-1.txt`) but the file returns HTTP 404 from the server (broken link). Two adjacent Rāmānuja works are CLEAN on GRETIL and have been mirrored into `_replaced/`: `gretil_sa_rAmAnuja-vedArthasaMgraha.txt` (Vedārtha-Saṃgraha) and `gretil_sa_rAmAnuja-bhagavadgItAbhASya.txt` (Gītā-Bhāṣya).
+- The Thibaut SBE 48 (1904) English translation is in the public domain and is a reliable secondary witness for any verbatim English quotation.
+- This file's existing "Textual availability note" already discloses the source-state correctly. Any verbatim Sanskrit IAST quotation in the body should be verified against a printed Karmarkar 1959 reprint before publication; portions may carry transcription errors not present in the canonical text. A clean SARIT or Adyar Library e-text of the Śrī-Bhāṣya is the recommended acquisition target for the next dispatch wave.
