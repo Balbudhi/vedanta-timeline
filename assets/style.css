@@ -22,10 +22,10 @@
   --shadow-md:    0 4px 12px rgba(0,0,0,.06);
 
   /* layout */
-  --topbar-h: 40px;
+  --topbar-h: 48px;
   --lane-h: 96px;
-  --lane-rail-w: 168px;
-  --era-strip-h: 24px;
+  --lane-rail-w: 188px;
+  --era-strip-h: 26px;
   --axis-h: 28px;
   --pane-w-detail: 0%;
   --pane-w-time: 100%;
@@ -75,35 +75,60 @@ a { color: inherit; }
    ============================================================= */
 .topbar {
   height: var(--topbar-h);
-  padding: 0 22px;
-  display: flex; align-items: center; gap: 16px;
+  padding: 0 18px;
+  display: flex; align-items: center; gap: 12px;
   border-bottom: 1px solid var(--rule);
   background: var(--bg);
   position: relative; z-index: 20;
+  flex-wrap: nowrap;
+  white-space: nowrap;
 }
 .topbar h1 {
   margin: 0;
   font-family: var(--sans);
   font-size: 14px; font-weight: 600;
   letter-spacing: -0.005em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-shrink: 1;
+  min-width: 0;
 }
+.topbar h1 .title-short { display: none; }
+.topbar h1 .title-full { display: inline; }
 .topbar .subtitle {
   font-family: var(--sans);
   font-size: 12px; color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-shrink: 1;
+  min-width: 0;
 }
-.topbar .spacer { flex: 1; }
+.topbar .spacer { flex: 1 1 auto; min-width: 0; }
 .topbar-btn {
   background: none;
   border: 1px solid var(--rule);
-  padding: 5px 11px;
-  border-radius: 3px;
+  padding: 6px 11px;
+  border-radius: 4px;
   cursor: pointer;
   font-family: var(--sans);
   font-size: 12px; font-weight: 500;
   color: var(--ink);
-  transition: border-color 140ms ease;
+  transition: border-color 140ms ease, background 140ms ease;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
-.topbar-btn:hover { border-color: var(--ink); }
+.topbar-btn:hover { border-color: var(--ink); background: var(--bg-warm); }
+.topbar-btn--icon {
+  display: inline-flex; align-items: center; gap: 6px;
+}
+.topbar-btn--icon svg { display: block; flex-shrink: 0; }
+.topbar-btn.is-active {
+  background: var(--ink);
+  color: #fff;
+  border-color: var(--ink);
+}
 
 /* =============================================================
    STAGE / PANES
@@ -162,36 +187,65 @@ body.is-detail-open {
   height: var(--lane-h);
   display: flex;
   align-items: center;
-  padding: 0 14px 0 16px;
+  padding: 0 12px 0 14px;
   border-bottom: 1px solid var(--rule);
   cursor: default;
+  gap: 10px;
 }
 .lane-row:last-child { border-bottom: none; }
+.lane-row.lane-row--group {
+  cursor: pointer;
+  background: var(--bg-warm);
+}
+.lane-row.lane-row--group:hover { background: var(--bg-warmer); }
 .lane-row .swatch-bar {
   display: inline-block;
   width: 4px; height: 28px;
   border-radius: 2px;
-  margin-right: 12px;
   flex-shrink: 0;
 }
+.lane-row.lane-row--group .swatch-bar {
+  background: linear-gradient(to bottom, #16a34a 0%, #14b8a6 18%, #ca8a04 36%, #6d28d9 54%, #65a30d 72%, #57534e 90%);
+}
 .lane-row .lane-meta {
-  display: flex; flex-direction: column; gap: 2px;
+  display: flex; flex-direction: column; gap: 1px;
   min-width: 0;
+  flex: 1;
 }
 .lane-row .lane-name {
   font-family: var(--sans);
   font-size: 13px; font-weight: 600;
   color: var(--ink);
-  letter-spacing: -0.005em;
-  white-space: nowrap;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  /* allow up to 2 lines, then ellipsis */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   overflow: hidden;
-  text-overflow: ellipsis;
+  word-break: break-word;
+  hyphens: auto;
 }
 .lane-row .lane-count {
   font-family: var(--sans);
-  font-size: 11px;
+  font-size: 10.5px;
   color: var(--muted);
+  letter-spacing: 0.01em;
 }
+.lane-row .lane-chevron {
+  flex-shrink: 0;
+  color: var(--muted);
+  font-size: 11px;
+  font-family: var(--sans);
+  transition: transform 180ms ease;
+}
+.lane-row.is-expanded .lane-chevron { transform: rotate(90deg); }
+.lane-row.lane-row--sub {
+  background: var(--bg-warm);
+  padding-left: 24px;
+}
+.lane-row.lane-row--sub .lane-name { font-size: 12px; font-weight: 500; }
+.lane-row.lane-row--sub .swatch-bar { width: 3px; height: 22px; }
 
 /* sticky era strip */
 .era-strip {
@@ -263,6 +317,15 @@ body.is-detail-open {
   cursor: pointer;
   transform: translate(-50%, -50%);
   outline: none;
+}
+/* invisible 44x44 hit area for touch (centered on the dot) */
+.thinker-dot::before {
+  content: "";
+  position: absolute;
+  left: 50%; top: 50%;
+  width: 44px; height: 44px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
 }
 .thinker-dot .node {
   background: var(--dot-color);

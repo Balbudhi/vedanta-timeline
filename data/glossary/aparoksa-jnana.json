@@ -1,0 +1,22 @@
+{
+  "term_key": "aparoksa-jnana",
+  "term_iast": "aparokṣa-jñāna",
+  "term_devanagari": "अपरोक्षज्ञान",
+  "literal": "non-mediated cognition; a- + parokṣa (mediated, indirect) + jñāna",
+  "aliases": ["aparoksa-jnana", "aparokṣa-jñāna", "aparokṣajñāna", "Aparokṣa-jñāna", "aparoksa"],
+  "invariant_definition": "Direct (non-mediated) cognition. The term is the Dvaita technical equivalent of Advaita's *akhaṇḍākāra-vṛtti* / *anubhava* — but with substantive metaphysical differences. *Aparokṣa-jñāna* in Dvaita is the direct cognition of Viṣṇu's supremacy and the soul's eternal dependence, bestowed by Viṣṇu's grace on the qualified soul. It is the proximate condition of *mokṣa*.",
+  "per_school": [
+    {
+      "school": "Dvaita",
+      "definition": "*Aparokṣa-jñāna* is bestowed by Viṣṇu on the *bhakti*-qualified soul; it is the soul's direct cognition of Viṣṇu, not an identity-realization. Distinct from *parokṣa-jñāna* (mediated cognition through *śabda* or *anumāna*).",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1", "Anu-Vyākhyāna 1.1, 3.3"]
+    },
+    {
+      "school": "Advaita",
+      "definition": "*Aparokṣa-jñāna* is sometimes used as a name for the liberating *brahma-jñāna* — *brahman* directly cognized as one's own self. Compare *Aparokṣānubhūti* (a short text attributed to Śaṅkara on direct realization).",
+      "primary_loci": ["Aparokṣānubhūti (attrib. Śaṅkara)"]
+    }
+  ],
+  "see_also": ["paroksa-jnana", "anubhava", "saksatkara", "akhandakara-vrtti"],
+  "translator_note": "'Direct cognition' is the standard gloss. The Sanskrit *parokṣa* (literally 'beyond-the-eye, mediated') vs. *aparokṣa* (non-mediated) is a precise epistemological distinction without exact Western equivalent."
+}

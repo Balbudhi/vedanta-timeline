@@ -1,0 +1,27 @@
+{
+  "term_key": "mahavakya",
+  "term_iast": "mahāvākya",
+  "term_devanagari": "महावाक्य",
+  "literal": "great-statement; mahā (great) + vākya (sentence)",
+  "aliases": ["mahavakya", "mahāvākya", "Mahāvākya", "mahāvākyāni", "mahavakyas"],
+  "invariant_definition": "A 'great statement' of the Upaniṣads — one of the four canonical Vedāntic Mahāvākyas: *prajñānam brahma* (Aitareya 3.1.3), *aham brahmāsmi* (Bṛhadāraṇyaka 1.4.10), *tat tvam asi* (Chāndogya 6.8.7), *ayam ātmā brahma* (Māṇḍūkya 2). Each is associated with one of the four *Vedas*. Their interpretation is a school-defining matter: Advaita reads them as identity-statements producing *akhaṇḍākāra-vṛtti*; Viśiṣṭādvaita as *sāmānādhikaraṇya* under *aprthak-siddhi*; Dvaita reanalyzes them (e.g. *atat tvam asi*) or interprets as *sādṛśya*.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Mahāvākyas* are identity-statements (*akhaṇḍārtha*); their hearing produces *akhaṇḍākāra-vṛtti* and removes *avidyā*. The *jahad-ajahallakṣaṇā* construction is required for *tat tvam asi*.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.4", "Upadeśa-Sāhasrī 18", "Saṅkṣepa-Śārīraka 1"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Mahāvākyas* are *sāmānādhikaraṇya* (co-reference) under *aprthak-siddhi*; *tat* and *tvam* refer to one complex (Brahman-with-jīva-as-body), not to identical referents.",
+      "primary_loci": ["Vedārtha-Saṅgraha §§4–10"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Tat tvam asi* parsed as *atat tvam asi* (sandhi reanalysis) or read as *sādṛśya*; never as identity.",
+      "primary_loci": ["Madhva, Tat tvam asi-Khaṇḍana", "Viṣṇu-Tattva-Vinirṇaya §§30–40"]
+    }
+  ],
+  "see_also": ["tat-tvam-asi", "aham-brahmasmi", "laksana", "samanadhikaranya", "akhandakara-vrtti"],
+  "translator_note": "'Great statement' is the standard gloss. The four Mahāvākyas are technical units; they should be cited untranslated (with gloss) rather than paraphrased."
+}

@@ -14,12 +14,32 @@
 </head>
 <body>
   <header class="topbar">
-    <h1>Vedānta — A Realist Tradition</h1>
+    <h1>
+      <span class="title-full">Vedānta — A Realist Tradition</span>
+      <span class="title-short">Vedānta</span>
+    </h1>
     <span class="subtitle" id="subtitle">A timeline.</span>
     <span class="spacer"></span>
-    <button class="topbar-btn" id="aboutBtn" type="button">About</button>
-    <button class="topbar-btn" id="readingModeBtn" type="button">Reading mode</button>
+    <button class="topbar-btn topbar-btn--icon" id="filterBtn" type="button" aria-label="Filter lanes" title="Filter schools">
+      <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M2 4h12M4 8h8M6 12h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/></svg>
+      <span class="btn-text">Schools</span>
+    </button>
+    <button class="topbar-btn topbar-btn--icon" id="readingModeBtn" type="button" aria-label="Reading mode" title="Reading mode">
+      <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M2.5 3h4a2 2 0 0 1 2 2v8a1.5 1.5 0 0 0-1.5-1.5h-4.5zM13.5 3h-4a2 2 0 0 0-2 2v8a1.5 1.5 0 0 1 1.5-1.5h4.5z" stroke="currentColor" stroke-width="1.2" fill="none" stroke-linejoin="round"/></svg>
+      <span class="btn-text">Reading</span>
+    </button>
+    <button class="topbar-btn topbar-btn--icon" id="aboutBtn" type="button" aria-label="About this site" title="About">
+      <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.2" fill="none"/><path d="M8 7v4M8 4.8v.4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <span class="btn-text">About</span>
+    </button>
   </header>
+
+  <div class="filter-drawer" id="filterDrawer" aria-hidden="true">
+    <div class="filter-drawer-inner">
+      <p class="filter-head">Show schools</p>
+      <div class="filter-chips" id="filterChips"></div>
+    </div>
+  </div>
 
   <div class="about-modal" id="aboutModal" aria-hidden="true">
     <div class="about-card">

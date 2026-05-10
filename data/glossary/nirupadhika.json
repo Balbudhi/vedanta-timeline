@@ -1,0 +1,17 @@
+{
+  "term_key": "nirupadhika",
+  "term_iast": "nirupādhika",
+  "term_devanagari": "निरुपाधिक",
+  "literal": "without upādhi, unconditioned; nir- + upādhika",
+  "aliases": ["nirupadhika", "nirupādhika", "Nirupādhika"],
+  "invariant_definition": "Unconditioned by *upādhi* — the Advaita technical category for the highest reality. *Nirupādhika brahman* is *brahman* in itself, beyond the *upādhi*-borne distinctions of *jīva*-Īśvara-jagat. *Nirupādhika* and *nirguṇa* are essentially co-extensive in Advaita.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Nirupādhika brahman* = *nirguṇa brahman* = the *pāramārthika* truth; the ultimate object of *brahma-jñāna*.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.4", "Pañcadaśī 6.130–145"]
+    }
+  ],
+  "see_also": ["sopadhika", "upadhi", "nirguna", "brahman"],
+  "translator_note": "'Unconditioned' acceptable."
+}

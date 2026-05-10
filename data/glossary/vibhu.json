@@ -1,0 +1,17 @@
+{
+  "term_key": "vibhu",
+  "term_iast": "vibhu",
+  "term_devanagari": "विभु",
+  "literal": "all-pervading, omnipresent; from vi- + √bhū",
+  "aliases": ["vibhu", "Vibhu", "vibhuḥ", "vibhutva", "vibhu-parimāṇa"],
+  "invariant_definition": "All-pervading. The *jīva*'s size is one of the principal Vedāntic disagreements: Advaita holds the *jīva* (qua *ātman*) is *vibhu* like *brahman*; Viśiṣṭādvaita and Dvaita hold the *jīva* is *aṇu* (atomic). The opposition is not merely terminological — it determines whether the multiplicity of *jīva*s is real (V, D — *aṇu*) or illusory (A — many appearances of one *vibhu*). *Brahma-Sūtra* 2.3.18 (*aṇur ātmā*) is the locus of dispute.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Jīva* qua *ātman* is *vibhu* like *brahman*; the appearance of localization is *upādhi*-borne. *Brahma-Sūtra* 2.3.18 is read as referring to the *upādhi* (subtle body), not the *ātman* itself.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.3.18ff"]
+    }
+  ],
+  "see_also": ["anu", "atman", "jiva"],
+  "translator_note": "'All-pervading' or 'omnipresent' acceptable."
+}

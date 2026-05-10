@@ -1,0 +1,17 @@
+{
+  "term_key": "akhandakara-vrtti",
+  "term_iast": "akhaṇḍākāra-vṛtti",
+  "term_devanagari": "अखण्डाकारवृत्ति",
+  "literal": "the unbroken-form modification; akhaṇḍa (unbroken) + ākāra (form) + vṛtti (modification)",
+  "aliases": ["akhandakara-vrtti", "akhaṇḍākāra-vṛtti", "akhaṇḍākāravṛtti", "akhandakaravrtti"],
+  "invariant_definition": "Specifically Advaita: the integral undivided cognition of *brahman* that arises in the *antaḥkaraṇa* on hearing the *mahāvākya* and that produces *brahma-jñāna* by removing *avidyā*. The *akhaṇḍākāra-vṛtti* takes *brahman* as undivided whole-object (not as *viśiṣṭa*, not as a propositional content), and is itself sublated in the resulting non-dual realization (the *vṛtti*-instrument is used up, like a stick used to stir a pyre that itself burns). The doctrine is the technical heart of Advaita's account of how *jñāna* — a mental modification — can produce *mokṣa*.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Akhaṇḍākāra-vṛtti* is the unique cognitive modification capable of producing liberating cognition. Vedānta-Paribhāṣā develops the mechanism in detail: the *vṛtti* assumes the form of *brahman* (without internal partition), removes the *avidyā* covering *brahman*, and is itself dissolved.",
+      "primary_loci": ["Vedānta-Paribhāṣā, ākāśādi-pariccheda", "Pañcadaśī 7", "Naiṣkarmya-Siddhi 1"]
+    }
+  ],
+  "see_also": ["vrtti", "mahavakya", "brahma-jnana", "antahkarana", "avidya"],
+  "translator_note": "'Integral cognition' or 'unbroken-form modification' acceptable. The doctrine is technical; English readers should not collapse it into 'mystical experience.'"
+}
