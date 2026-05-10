@@ -1,0 +1,42 @@
+{
+  "term_key": "maya",
+  "term_iast": "māyā",
+  "term_devanagari": "माया",
+  "literal": "possibly from √mā 'to measure, to fashion'; in early Vedic, the creative power by which a god 'measures out' a form; later, the world-fashioning power and (in Advaita) the cosmic principle of apparent manifestation",
+  "aliases": ["maya", "māyā", "Māyā", "māyāyāḥ", "māyāyām", "māyayā", "māyāvāda", "māyāvādin"],
+  "invariant_definition": "There is no genuinely shared invariant. The schools mean substantively different things by *māyā* and the disagreement is not terminological but metaphysical. What is invariant only at the surface: *māyā* is the principle, power, or condition by which the one *brahman* is associated with the appearance of many. But whether this 'association' is illusory (Advaita), a real divine power (Viśiṣṭādvaita and Vaiṣṇava schools), or chiefly a polemical target (Dvaita) is precisely the locus of disagreement. See per-school definitions.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Māyā* is the cosmic-side name for *avidyā*: a *bhāvarūpa* (positively existent), *anirvacanīya* (indeterminable as *sat* or *asat*) power, with two functions — *āvaraṇa* (concealment of *brahman*) and *vikṣepa* (projection of the apparent world). *Māyā* and *avidyā* are not strictly distinct in the school but conventionally *māyā* foregrounds the cosmic side (associated with *Īśvara*) and *avidyā* the individual side (associated with the *jīva*). The world is *māyā* in the sense of *vivarta* — apparent transformation that does not modify *brahman*.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.1.14 (vivarta)", "Vivekacūḍāmaṇi 108–110", "Pañcadaśī 6.130–140 (māyā as Īśvara's upādhi)"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Māyā* is *prakṛti* — real, eternal, not illusory; one of the three tattvas (*cit*, *acit*, *Īśvara*) under *acit*. It is *brahman*'s instrumental power for world-creation; the world it produces is real, not apparent. The Advaita doctrine of *māyā* as *bhāvarūpa-anirvacanīya* is rejected as incoherent (Rāmānuja's *sapta-anupapatti*).",
+      "primary_loci": ["Vedārtha-Saṅgraha §§14–35 (refutation of Advaita māyā)", "Śrī-Bhāṣya 1.1.1 (Mahāsiddhānta)", "Śrī-Bhāṣya 1.4.3 (māyā = prakṛti)"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Māyā* is principally a polemical target. Madhva uses *māyā* in a non-illusionist sense — Viṣṇu's real creative power — but devotes major works (*Māyāvāda-Khaṇḍana*, *Mithyātva-Anumāna-Khaṇḍana*) to refuting the Advaita doctrine. Vyāsatīrtha's *Nyāyāmṛta* contains the most systematic Dvaita assault on Advaita *māyā*; Madhusūdana's *Advaita-Siddhi* is the principal Advaita reply. There is no positive doctrine of *māyā* in the Advaita sense.",
+      "primary_loci": ["Madhva, Māyāvāda-Khaṇḍana §§1–8", "Madhva, Mithyātva-Anumāna-Khaṇḍana", "Vyāsatīrtha, Nyāyāmṛta, māyā-bhaṅga"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Māyā* is one of Kṛṣṇa's *bahiraṅgā-śaktis* (external powers), itself further divided into *guṇa-māyā* (the material *prakṛti*) and *jīva-māyā* (the power that places the *jīva* under embodiment). It is real, not illusory; but it is *bahiraṅgā* — outside *brahman*'s essential nature — and a *jīva* under *māyā* is in a real condition of estrangement, not an illusory one.",
+      "primary_loci": ["Paramātma-Sandarbha §§47–55", "Caitanya-Caritāmṛta, Madhya 20.111–117"]
+    },
+    {
+      "school": "Bhedābheda (Bhāskara)",
+      "definition": "*Māyā* in the Advaita sense is rejected as a Buddhist smuggling (the famous charge: '*pracchanna-bauddha*' — Advaita is crypto-Buddhism). Bhāskara reads *māyā* as Viṣṇu's *śakti* of real *pariṇāma*; the world is a real transformation of *brahman*, not an apparent one.",
+      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 1.4.3", "Bhāskara, Brahma-Sūtra-Bhāṣya 2.1.14"]
+    },
+    {
+      "school": "Trika / Kashmir Śaivism",
+      "definition": "*Māyā* is Śiva's sovereign *svātantrya-śakti* under one of its self-contractive aspects: the *tattva* by which the unified *prakāśa* assumes the form of differentiated subjects and objects. It is real and is itself a divine power; the contraction is Śiva's free self-veiling, not an alien limitation. *Māyā* here is one of the *kañcukas* (sheaths) of the contracted subject.",
+      "primary_loci": ["Tantrāloka 6 (kañcuka analysis)", "Pratyabhijñā-Hṛdaya, sūtras 1–4", "Spanda-Kārikā 1.1–5"]
+    }
+  ],
+  "see_also": ["avidya", "vivarta", "parinama", "mithya", "anirvacaniya", "prakrti", "lila", "svatantrya"],
+  "translator_note": "Translating *māyā* as 'illusion' is the single most damaging convention in English-language Vedānta. It is correct for some Advaitin uses but is exactly what Viśiṣṭādvaita, Dvaita, the Vaiṣṇava bhedābheda schools, and Kashmir Śaivism all reject. For most Vedāntins *māyā* is *real divine power*, not 'illusion.' Even in Advaita, *māyā* is not 'illusion' in the modern sense (subjective error) — it is *anirvacanīya*, a positive cosmic principle of indeterminable ontological status, of which subjective error is one local manifestation. The user's thesis explicitly rejects the equation *māyā = illusion* and instead treats *māyā* as the texture of divine *līlā*."
+}

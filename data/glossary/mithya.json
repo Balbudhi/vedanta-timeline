@@ -1,0 +1,32 @@
+{
+  "term_key": "mithya",
+  "term_iast": "mithyā",
+  "term_devanagari": "मिथ्या",
+  "literal": "wrongly, falsely; an indeclinable used adjectivally",
+  "aliases": ["mithya", "mithyā", "Mithyā", "mithyātva", "mithyātvam"],
+  "invariant_definition": "There is no shared invariant — the term is the explicit fault-line between Advaita and its critics. In Advaita technical usage, *mithyā* is a precisely-defined ontological status: *sad-asad-vilakṣaṇa* (different from both *sat* and *asat*), *anirvacanīya* (indeterminable on the binary), *trikāla-abādhya-pratītika-viṣaya* (the object of a cognition not sublated in any of the three times). For non-Advaita schools, *mithyā* is either a polemical target (Dvaita) or a category that does not apply at all to the world (Viśiṣṭādvaita, Bhedābheda, Acintya-Bhedābheda — all of which hold the world to be real, *satya*, not *mithyā*). What is shared: *mithyā ≠ asat*. Even Advaita explicitly insists *mithyā* is not 'non-existent.'",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Mithyā* is the technical name for the ontological status of the world: neither *sat* (real in the way *brahman* is) nor *asat* (sheer non-existence like the son of a barren woman), but a third status, *anirvacanīya*. The world is *mithyā* because it is sublatable in *brahma-jñāna* (*pratiti-trikāla-bādhya*) yet appears with *vyāvahārika* force throughout transactional life. Madhusūdana's *Advaita-Siddhi* mounts the defense of *mithyātva* against the Mādhva *Nyāyāmṛta*. Five definitions of *mithyātva* are systematically defended.",
+      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.1.14", "Iṣṭa-Siddhi (Vimuktātman), prathama paricchedaḥ", "Advaita-Siddhi, mithyātva-pañcaka", "Khaṇḍana-Khaṇḍa-Khādya (Śrīharṣa), upodghāta"]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "The world is *satya*, not *mithyā*. The Advaita category of *anirvacanīya* is rejected as logically incoherent — to be is to be characterizable; *anirvacanīya* is *avastu*. Rāmānuja's *Mahāsiddhānta* in the *Śrī-Bhāṣya* contains the *sapta-anupapatti* (seven untenabilities) against the Advaita doctrine; the third specifically attacks the coherence of *mithyātva*.",
+      "primary_loci": ["Śrī-Bhāṣya 1.1.1 (Mahāsiddhānta, sapta-anupapatti)", "Vedārtha-Saṅgraha §§14–25"]
+    },
+    {
+      "school": "Dvaita",
+      "definition": "*Mithyātva* is the principal target of Dvaita's polemical apparatus. Madhva's short polemics (*Mithyātva-Anumāna-Khaṇḍana*, *Upādhi-Khaṇḍana*, *Māyāvāda-Khaṇḍana*) and Vyāsatīrtha's *Nyāyāmṛta* construct sustained attacks on every Advaita formulation of *mithyātva*. The world is *satya* in the only sense relevant: it is what Viṣṇu created and sustains, with eternally distinct dependent realities and irreducible difference.",
+      "primary_loci": ["Madhva, Mithyātva-Anumāna-Khaṇḍana", "Madhva, Upādhi-Khaṇḍana", "Vyāsatīrtha, Nyāyāmṛta, mithyātva-bhaṅga (extended)"]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "The world is real (*satya*) as the manifestation of Kṛṣṇa's *māyā-śakti*; *mithyātva* in the Advaita sense is rejected. The phenomenal status of the world for the conditioned *jīva* is one of *vaikuṇṭha*-occlusion, not of ontological deficiency.",
+      "primary_loci": ["Tattva-Sandarbha §§51–56", "Paramātma-Sandarbha §§47–55"]
+    }
+  ],
+  "see_also": ["sat", "asat", "anirvacaniya", "vyavaharika", "paramarthika", "pratibhasika", "vivarta", "satya"],
+  "translator_note": "*Mithyā* must NOT be translated as 'unreal' or 'illusory' or 'non-existent.' Each translation collapses the technical distinction Advaita is at pains to make: *mithyā ≠ asat*. The world for Advaita is *sublatable*, not non-existent — it has *vyāvahārika* (transactional) reality and is *anirvacanīya*. The user's position-brief explicitly identifies the conflation '*mithyā* = *asat*' as a fundamental error that has done generational damage to Western reception of Vedānta. Acceptable English glosses: 'sublatable', 'apparently real but not in the way Brahman is real', or simply leaving the Sanskrit untranslated."
+}

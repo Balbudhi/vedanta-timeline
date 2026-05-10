@@ -25,7 +25,7 @@
       "ascription_notes": "Traditionally ascribed; received by the Advaita maṭha tradition.",
       "genre": "stotra",
       "language": "sanskrit",
-      "summary": "Eight verses (*aṣṭaka*) in *toṭaka* metre — a tetrameter whose name the disciple is traditionally said to have received from the work itself — addressed in the second person to Śaṅkara. Each verse closes with the refrain *bhava śaṅkara deśika me śaraṇam* ('Be, Śaṅkara my preceptor, my refuge'). The verses successively present (i) reverence for Śaṅkara as the embodiment of *brahma-vidyā*, (ii) the disciple's incapacity without the *guru*'s grace, (iii) Śaṅkara's role as dispeller of the *saṃsāra*-illusion, (iv) the *guru* as the ocean of *kāruṇya*, and so on, culminating in the surrender-formula. The hymn is recited liturgically in Advaita *maṭha* contexts and is part of the standard *guru-paramparā* sequence of devotional recitation. Traditionally ascribed; received throughout the Advaita *maṭha* tradition. The longer *Śrutisāra-samuddharaṇa* is also traditionally ascribed to Toṭaka but is not represented as a separate entry in the present skeleton — see report.",
+      "summary": "Eight verses (*aṣṭaka*) in *toṭaka* metre — a tetrameter whose name the disciple is traditionally said to have received from the work itself — addressed in the second person to Śaṅkara. Each verse closes with the refrain *bhava śaṅkara deśika me śaraṇam*: \"Be, Śaṅkara my preceptor, my refuge.\" The verses move through reverence for Śaṅkara as the embodiment of *brahma-vidyā* (verse 1), the disciple's incapacity without the *guru*'s grace (verse 2), Śaṅkara's role as the dispeller of the *saṃsāra*-illusion (verse 3), and the *guru* as the ocean of *kāruṇya*; the sequence culminates in the surrender-formula. The hymn is recited liturgically in Advaita *maṭha* contexts and stands in the standard *guru-paramparā* sequence of devotional recitation. Ascription is traditional; the work is universally received in the Advaita *maṭha* tradition.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     },
@@ -45,15 +45,15 @@
       ],
       "genre": "prakarana",
       "language": "sanskrit",
-      "summary": "A substantial verse-*prakaraṇa* — \"Extraction of the Essence of the Vedas\" — traditionally ascribed to Toṭaka and treating, in compact verse-paragraphs, the core doctrinal architecture of Advaita: the four *mahāvākyas* with their *jahad-ajahal-lakṣaṇā* analyses, the *adhyāsa* doctrine of superimposition as the universal pre-philosophical condition, the structure of *avidyā* and its relation to *Brahman* and *jīva*, the *jñāna-niṣṭhā* / *karma-niṣṭhā* polarity, and the path of *śravaṇa-manana-nididhyāsana* culminating in *aparokṣa-jñāna*. The work is considerably longer than the *Toṭakāṣṭaka* and serves as a doctrinal complement to that hymn — supplying the systematic content the *Aṣṭaka*'s devotional surrender presupposes. The ascription is traditionally accepted within the Advaita *maṭha* lineages but disputed by parts of modern scholarship: stylistically the verses show some technical formulations more characteristic of post-Sureśvara Advaita than of an immediate Śaṅkara disciple, leading some to propose a later authorship under the same traditional name. The work is in any case the principal Advaita treatise associated with Toṭaka's lineage-figure in the school's living tradition.",
+      "summary": "A substantial verse-*prakaraṇa* — \"Extraction of the Essence of the Vedas\" — traditionally ascribed to Toṭaka. The work treats, in compact verse-paragraphs, the core doctrinal architecture of Advaita: the four *mahāvākyas* with their *jahad-ajahal-lakṣaṇā* analyses, the *adhyāsa* doctrine of superimposition as the universal pre-philosophical condition, the structure of *avidyā* and its relation to *brahman* and *jīva*, the *jñāna-niṣṭhā* / *karma-niṣṭhā* polarity, and the path of *śravaṇa-manana-nididhyāsana* culminating in *aparokṣa-jñāna*. The work is considerably longer than the *Toṭakāṣṭaka* and serves as a doctrinal complement: it supplies the systematic content that the *Aṣṭaka*'s devotional surrender presupposes. The ascription is accepted within the Advaita *maṭha* lineages but disputed in parts of modern scholarship. Stylistically the verses show some technical formulations more characteristic of post-Sureśvara Advaita than of an immediate Śaṅkara disciple — Pollock and Mahadevan have raised chronological doubts on this basis — leading some to propose a later authorship under the same traditional name. The work is in any case the principal Advaita treatise associated with Toṭaka's lineage-figure in the school's living tradition.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     }
   ],
   "key_passages": [],
   "comparative_claim_ids": [],
-  "entry_status": "reviewed",
+  "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-09",
-  "last_verified_by": "wave1-cleanup-opus"
+  "last_verified_by": "wave1-rewrite-opus"
 }

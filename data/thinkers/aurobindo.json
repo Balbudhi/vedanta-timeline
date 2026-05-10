@@ -1,0 +1,199 @@
+{
+  "id": "aurobindo",
+  "name": "Sri Aurobindo",
+  "name_iast": "Śrī Aravinda",
+  "name_devanagari": "श्री अरविन्द",
+  "alternate_names": ["Aurobindo Ghose", "Aravinda Ghoṣa"],
+  "dates_low": 1872,
+  "dates_high": 1950,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Born 15 August 1872, Calcutta; died 5 December 1950, Pondicherry. Documented through colonial civil records, Cambridge tripos rolls (1890–1892), British-Indian Alipore Conspiracy Case trial records (1908–1909), and Pondicherry French-Indian administrative records.",
+  "dates_evidence": [
+    {
+      "kind": "court-record",
+      "description": "British-Indian Alipore Conspiracy Case trial records, 1908–1909."
+    },
+    {
+      "kind": "court-record",
+      "description": "Cambridge University tripos rolls, 1890–1892 (King's College)."
+    },
+    {
+      "kind": "manuscript-colophon",
+      "description": "Sri Aurobindo Ashram CWSA editorial colophons; Arya journal serialisation records 1914–1921."
+    }
+  ],
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Pūrṇa-Advaita / Integral Vedānta",
+  "sub_school_shade": 1,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "sankara",
+      "direction": "refutes",
+      "note": "Aurobindo treats Śaṅkara as articulating a partial truth: the *nirguṇa* pole is real, but the *māyā*-doctrine, read as the unreality of manifestation, is rejected. The relation is qualified-completion rather than flat refutation; the polemical edge is nonetheless real and explicit in *The Life Divine* II.5–6."
+    }
+  ],
+  "core_thesis": "Aurobindo argues that Brahman is *Saccidānanda* — being-consciousness-bliss — and that the manifest world is its real, ordered self-multiplication, not an illusion to be dissolved. The argument has two halves. First, against the Śāṅkara reading on which the world is finally *mithyā*, Aurobindo holds that the Upaniṣadic *neti neti* fixes only that Brahman is not exhausted by any finite description; it does not authorise the inference that the finite is unreal. Second, the descent of Brahman through *Sat*, *Cit-Tapas*, *Ānanda*, *Vijñāna* (Supermind), Mind, Life, and Matter is mirrored by an evolutionary ascent in which matter, life, and mind are progressive recoveries of the involved Spirit. The *jīva* is therefore a real centre of the Divine, not a cancellable appearance. Liberation is the descent of Supermind into mind, life, and body — *divinisation* — and is the proper completion of Vedāntic *siddhi*. Against Rāmānuja, the *cit* / *acit* / *Īśvara* triad is preserved but reread as gradient self-poises of one *Saccidānanda*. The *Veda*, esoterically read, already teaches this evolutionary spirituality; the *Gītā* gives its psychological method.",
+  "engaged_works": [
+    {
+      "work_id": "the-life-divine",
+      "title": "The Life Divine",
+      "title_iast": "The Life Divine",
+      "alternate_titles": [],
+      "composition_dates_low": 1914,
+      "composition_dates_high": 1940,
+      "composition_dates_notes": "Serialised in Arya 1914–1919; revised and expanded as a book 1939–1940.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; the systematic metaphysics of Pūrṇa-Advaita.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "CWSA editorial consensus; universal modern attribution."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "Aurobindo's systematic metaphysics in two books and fifty-six chapters, written in English. Book I (*Omnipresent Reality and the Universe*) takes up the ontological question. Brahman as *Saccidānanda* is established by argument that the finite cannot be the only reality and that the negations of the *neti-neti* fix the inexhaustibility, not the unreality, of the manifest. The standard refutation of materialism and the standard refutation of mentalism are then run in parallel; each, taken alone, leaves the reciprocal pole unaccounted for. Book II (*The Knowledge and the Ignorance — The Spiritual Evolution*) takes up the cosmological question. The descending series — *Sat*, *Cit-Tapas*, *Ānanda*, *Vijñāna* (Supermind), Mind, Life, Matter — is matched by an ascending evolutionary recovery. Supermind is the load-bearing intermediary. Without it the descent into Mind is unintelligible, since Mind is intrinsically dividing. The work is the school's reference text; every later Aurobindonian formulation traces back to a chapter and section here. Despite its English idiom it is composed as a *prakaraṇa*-treatise — argument by argument, not essay by essay.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "essays-on-the-gita",
+      "title": "Essays on the Gita",
+      "title_iast": "Essays on the Gītā",
+      "alternate_titles": [],
+      "composition_dates_low": 1916,
+      "composition_dates_high": 1928,
+      "composition_dates_notes": "Serialised in Arya 1916–1920; First Series book 1922; Second Series book 1928.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "CWSA editorial consensus."}
+      ],
+      "genre": "gita-bhashya",
+      "language": "sanskrit",
+      "summary": "A long English commentary on the *Bhagavad-Gītā*, organised in two series. The First Series treats the early chapters and fixes Aurobindo's interpretive method: the *Gītā* is read neither as a treatise on *karma-yoga* alone (against Tilak) nor as a *jñāna-mokṣa* manual (against Śaṅkara) but as the synthesis of *karma*, *jñāna*, and *bhakti* in a single integral *yoga*. The Second Series treats the middle and final chapters and develops the doctrinal payoff. The *kṣetra-kṣetrajña* analysis of chapter 13 is read not as the *adhyāsa*-structure Śaṅkara reads it as, but as the genuine duality-in-unity of the manifest field and its presiding Person. Chapter 15's *puruṣottama* is identified with the supreme Brahman under its dynamic, world-engaged aspect. Chapter 18's *sarva-dharmān parityajya* is read as total surrender to that Person, not as the renunciation of dharma. The commentary fixes the *Gītā*'s place in Pūrṇa-Advaita as the practical-psychological complement to the metaphysical exposition of *The Life Divine*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "the-synthesis-of-yoga",
+      "title": "The Synthesis of Yoga",
+      "title_iast": "The Synthesis of Yoga",
+      "alternate_titles": [],
+      "composition_dates_low": 1914,
+      "composition_dates_high": 1955,
+      "composition_dates_notes": "Drafted in Arya 1914–1921; further revisions and additions through Aurobindo's lifetime; partial book publication 1955 posthumous.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "CWSA editorial consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "The practical companion to *The Life Divine*. The book argues that the four classical yogas of Indian tradition — *karma*, *jñāna*, *bhakti*, *rāja* — are partial selections from a single integral discipline, and reconstructs that discipline as the *Pūrṇa-Yoga*. Each part takes one classical *yoga* as its starting point. The *karma*-yoga part rereads action as the offering of all faculties to the Divine, not as duty discharged for its own sake; the *jñāna*-yoga part redefines knowledge as identity with the Divine self-knowledge rather than the cancellation of the empirical; the *bhakti*-yoga part takes love as the relation between two real centres of consciousness, the surrendered self and the Divine Person; the *rāja*-yoga part treats psychological self-discipline as preparation for the descent of higher consciousness. The integrating thesis is that no one of the four is sufficient, and that the failure of integration accounts for the historical narrowness of each *yoga*-tradition. The work is the methodological reference text for Aurobindonian practice.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "the-secret-of-the-veda",
+      "title": "The Secret of the Veda",
+      "title_iast": "The Secret of the Veda",
+      "alternate_titles": ["Hymns to the Mystic Fire"],
+      "composition_dates_low": 1914,
+      "composition_dates_high": 1917,
+      "composition_dates_notes": "Serialised in Arya 1914–1917.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "CWSA editorial consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "A symbolic-esoteric reinterpretation of the *Ṛgveda*. Against the Sāyaṇa-ritualist reading and against the Western philological-naturalist reading inherited from Max Müller, Aurobindo argues that the *Ṛgveda*'s gods — Agni, Indra, Sūrya, Varuṇa, Soma — are *psychological powers* before they are cosmic forces, and that the hymns' references to cattle (*go*), horses (*aśva*), light, and waters cipher inward states and faculties. The argument proceeds by accumulation: the consistency of the symbolic readings across hymns is offered as inductive evidence that the symbolism is intentional and traditional rather than imposed. The companion volume *Hymns to the Mystic Fire* applies the method to the Agni-hymns. The thesis matters for Pūrṇa-Advaita's self-positioning: it locates the school's metaphysics in the earliest stratum of the tradition rather than treating it as a late synthesis, and licenses Aurobindo's reading of the Upaniṣads as continuous with rather than discontinuous from the Saṃhitā layer.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "isha-upanishad-commentary",
+      "title": "Isha Upanishad",
+      "title_iast": "Īśopaniṣad",
+      "alternate_titles": [],
+      "composition_dates_low": 1914,
+      "composition_dates_high": 1921,
+      "composition_dates_notes": "Drafted 1914–1915 in Arya; revised and published as a book c. 1921.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "CWSA editorial consensus."}
+      ],
+      "genre": "upanisad-bhashya",
+      "language": "sanskrit",
+      "summary": "An English commentary on the eighteen-verse *Īśa Upaniṣad*. The opening hemistich — *īśāvāsyam idaṃ sarvaṃ yat kiñca jagatyāṃ jagat* — is read, against Śaṅkara, as a positive ontological claim that the manifest is to be *enveloped* by the Divine, not negated as unreal. The famous antinomies of the text — *vidyā* and *avidyā*, *sambhūti* and *asambhūti*, action and renunciation — are read as complementary poles to be held together rather than as alternatives one of which is to be sublated. The commentary is short but is treated within the school as the methodological exemplar for Aurobindo's exegesis: a Sanskrit *bhāṣya*-style line-by-line treatment, conducted in English, which fixes the integral reading against the strictly *advaita-vāda* alternative. It functions as a hinge text between *The Secret of the Veda* and the systematic exposition in *The Life Divine*.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "kena-upanishad-commentary",
+      "title": "Kena Upanishad",
+      "title_iast": "Kena Upaniṣad",
+      "alternate_titles": [],
+      "composition_dates_low": 1914,
+      "composition_dates_high": 1920,
+      "composition_dates_notes": "Drafted in Arya 1914–1915; revised and published in subsequent collected editions.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "CWSA editorial consensus."}
+      ],
+      "genre": "upanisad-bhashya",
+      "language": "sanskrit",
+      "summary": "An English commentary on the *Kena Upaniṣad*'s four *khaṇḍas*. The text's central question — *kena iṣitam patati preṣitaṃ manaḥ* (by whom impelled does the mind alight?) — is taken as the prototype Upaniṣadic move: the determinable is referred back to a determining principle that is not itself an object of the senses or the mind. Aurobindo's reading, against the standard Advaitin one, takes the second-half allegory of Brahman appearing to Indra, Agni, and Vāyu not as a parable of negation (the gods cannot grasp Brahman; therefore Brahman is beyond) but as a parable of *recognition* (the gods come to know that whatever power they have is Brahman's). The shift is small but consequential. It licenses the integral reading of the gods as real psychological powers participating in the Divine, rather than as figures whose reality is to be cancelled in the move to *nirguṇa* Brahman.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "eight-upanishads",
+      "title": "Eight Upanishads (translations and commentaries)",
+      "title_iast": "Eight Upaniṣads",
+      "alternate_titles": [],
+      "composition_dates_low": 1914,
+      "composition_dates_high": 1925,
+      "composition_dates_notes": "Translations and short commentaries composed across the Arya period and after.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; translations and short commentaries.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "CWSA editorial consensus."}
+      ],
+      "genre": "upanisad-bhashya",
+      "language": "sanskrit",
+      "summary": "Translations and short commentarial notes on the Īśa, Kena, Kaṭha, Muṇḍaka, Praśna, Māṇḍūkya, Aitareya, and Taittirīya Upaniṣads, gathered across the Arya years and after. The translations are distinguished by their philological literalism — Aurobindo refuses to smooth Upaniṣadic compression into modern English fluency where the compression is doctrinally load-bearing — and by his use of psychological glosses for the standard cosmological vocabulary. The collection matters for Pūrṇa-Advaita's exegetical practice: it shows how the integral reading is to be applied across the principal Upaniṣadic corpus, not just at the metaphysical apex (*Īśa*) or the apophatic apex (*Māṇḍūkya*) but through the cosmological middle (*Aitareya*, *Taittirīya*) and the ethical-pedagogical material (*Praśna*).",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "savitri",
+      "title": "Savitri: A Legend and a Symbol",
+      "title_iast": "Sāvitrī: A Legend and a Symbol",
+      "alternate_titles": [],
+      "composition_dates_low": 1916,
+      "composition_dates_high": 1950,
+      "composition_dates_notes": "Drafted from c. 1916; revised and expanded continuously through Aurobindo's life; final book publication 1950–1951.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored verse-epic; doctrinal exposition in epic form.",
+      "ascription_evidence": [
+        {"kind": "scholarly-consensus", "description": "CWSA editorial consensus."}
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "summary": "An English blank-verse epic of approximately 24,000 lines, taking the *Mahābhārata* episode of Sāvitrī and Satyavān as its narrative armature. The epic is, doctrinally, the imaginative companion to *The Life Divine*: the same metaphysics is recapitulated in the registers of vision, descent, and trial. The work is best treated as a *prakaraṇa* in verse rather than as a *kāvya* in the *alaṃkāra*-śāstra sense, because the doctrinal content drives the structure: each book corresponds to a stratum of the descending-ascending series (Mind, Overmind, Supermind, Ānanda) and stages the corresponding crisis. *Savitri*'s status within the school is unusual. It is not treated as authoritative on contested doctrinal points where the prose works are dispositive, but it is treated as the canonical site for the imaginative-experiential register that Aurobindo holds to be inseparable from full Vedāntic understanding. It is included here because no inventory of his Vedāntic engagement is complete without it.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "wave-corpus-v2-opus",
+  "last_verified_at": "2026-05-09",
+  "last_verified_by": "wave-corpus-v2-opus"
+}
