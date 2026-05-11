@@ -1,0 +1,642 @@
+{
+  "base_url": "http://127.0.0.1:8765/",
+  "generated_at_epoch": 1778532780.6211436,
+  "results": {
+    "iphone-14-pro": {
+      "flows": {
+        "timeline_initial": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-14-pro/timeline_initial.png",
+          "status": "ok"
+        },
+        "timeline_mid": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-14-pro/timeline_mid.png",
+          "status": "ok"
+        },
+        "timeline_bottom": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-14-pro/timeline_bottom.png",
+          "status": "ok"
+        },
+        "topbar_filter": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-14-pro/topbar_filter.png",
+          "metrics": {
+            "before": {
+              "top": 0,
+              "bottom": 52,
+              "height": 52,
+              "innerHeight": 852
+            },
+            "after": {
+              "top": 0,
+              "bottom": 52,
+              "height": 52,
+              "innerHeight": 852
+            }
+          },
+          "status": "ok"
+        },
+        "topbar_search": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-14-pro/topbar_search.png",
+          "metrics": {
+            "topbarSearchControls": 0
+          },
+          "status": "missing"
+        },
+        "topbar_network_toggle": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-14-pro/topbar_network_toggle.png",
+          "metrics": {
+            "before": {
+              "top": 0,
+              "bottom": 52,
+              "height": 52,
+              "innerHeight": 852
+            },
+            "after": {
+              "top": 0,
+              "bottom": 52,
+              "height": 52,
+              "innerHeight": 852
+            }
+          },
+          "status": "ok"
+        },
+        "thinker_sankara": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-14-pro/thinker_sankara.png",
+          "status": "ok"
+        },
+        "glossary_popover": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-14-pro/glossary_popover.png",
+          "metrics": {
+            "box": {
+              "top": 852,
+              "left": 0,
+              "right": 393,
+              "bottom": 1448.390625,
+              "width": 393,
+              "height": 596.390625
+            },
+            "topElementClass": "term",
+            "topElementText": "adhyāsa"
+          },
+          "status": "ok"
+        },
+        "citation_popover": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-14-pro/citation_popover.png",
+          "metrics": {
+            "box": {
+              "top": 852,
+              "left": 0,
+              "right": 393,
+              "bottom": 1142.5625,
+              "width": 393,
+              "height": 290.5625
+            },
+            "topElementClass": "cite-scrim",
+            "topElementText": ""
+          },
+          "status": "ok"
+        },
+        "article_hegel_intro": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-14-pro/article_hegel_intro.png",
+          "metrics": {
+            "inlineCitations": 0,
+            "superscripts": 0,
+            "listCount": 8,
+            "tableCount": 0
+          },
+          "status": "ok"
+        },
+        "article_hegel_blockquote": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-14-pro/article_hegel_blockquote.png",
+          "status": "ok"
+        },
+        "article_ramanuja_table": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-14-pro/article_ramanuja_table.png",
+          "metrics": {
+            "box": {
+              "top": 328.46875,
+              "left": 19,
+              "right": 639,
+              "bottom": 714.4375,
+              "width": 620,
+              "height": 385.96875
+            },
+            "topElementClass": "",
+            "topElementText": "Rāmānuja and Viśiṣṭādvaita\nA reader for the logical arguments in English, format"
+          },
+          "status": "ok"
+        },
+        "article_long_lists": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-14-pro/article_long_lists.png",
+          "metrics": {
+            "inlineCitations": 2,
+            "superscripts": 0,
+            "listCount": 55,
+            "tableCount": 3
+          },
+          "status": "ok"
+        },
+        "article_footnotes": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-14-pro/article_footnotes.png",
+          "metrics": {
+            "inlineCitations": 0,
+            "superscripts": 0,
+            "listCount": 8,
+            "tableCount": 0
+          },
+          "status": "failed",
+          "error": "Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"#dpArticleBody a.cite-link\").first to be visible\n"
+        },
+        "source_tab": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-14-pro/source_tab.png",
+          "status": "ok"
+        },
+        "network_view": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-14-pro/network_view.png",
+          "status": "ok"
+        }
+      },
+      "notes": [
+        "topbar_search: no search control exists inside `.topbar`.",
+        "article_footnotes: `hegel` has 0 inline cite links and no `sup.cite-fn` nodes.",
+        "article_footnotes: Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"#dpArticleBody a.cite-link\").first to be visible\n"
+      ]
+    },
+    "iphone-se": {
+      "flows": {
+        "timeline_initial": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-se/timeline_initial.png",
+          "status": "ok"
+        },
+        "timeline_mid": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-se/timeline_mid.png",
+          "status": "ok"
+        },
+        "timeline_bottom": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-se/timeline_bottom.png",
+          "status": "ok"
+        },
+        "topbar_filter": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-se/topbar_filter.png",
+          "metrics": {
+            "before": {
+              "top": 0,
+              "bottom": 52,
+              "height": 52,
+              "innerHeight": 667
+            },
+            "after": {
+              "top": 0,
+              "bottom": 52,
+              "height": 52,
+              "innerHeight": 667
+            }
+          },
+          "status": "ok"
+        },
+        "topbar_search": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-se/topbar_search.png",
+          "metrics": {
+            "topbarSearchControls": 0
+          },
+          "status": "missing"
+        },
+        "topbar_network_toggle": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-se/topbar_network_toggle.png",
+          "metrics": {
+            "before": {
+              "top": 0,
+              "bottom": 52,
+              "height": 52,
+              "innerHeight": 667
+            },
+            "after": {
+              "top": 0,
+              "bottom": 52,
+              "height": 52,
+              "innerHeight": 667
+            }
+          },
+          "status": "ok"
+        },
+        "thinker_sankara": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-se/thinker_sankara.png",
+          "status": "ok"
+        },
+        "glossary_popover": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-se/glossary_popover.png",
+          "metrics": {
+            "box": {
+              "top": 667,
+              "left": 0,
+              "right": 375,
+              "bottom": 1133.890625,
+              "width": 375,
+              "height": 466.890625
+            },
+            "topElementClass": "thesis",
+            "topElementText": "Śaṅkara argues, in [1] and across the four adhyāyas of that commentary, that bra"
+          },
+          "status": "ok"
+        },
+        "citation_popover": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-se/citation_popover.png",
+          "metrics": {
+            "box": {
+              "top": 667,
+              "left": 0,
+              "right": 375,
+              "bottom": 978.359375,
+              "width": 375,
+              "height": 311.359375
+            },
+            "topElementClass": "cite-scrim",
+            "topElementText": ""
+          },
+          "status": "ok"
+        },
+        "article_hegel_intro": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-se/article_hegel_intro.png",
+          "metrics": {
+            "inlineCitations": 0,
+            "superscripts": 0,
+            "listCount": 8,
+            "tableCount": 0
+          },
+          "status": "ok"
+        },
+        "article_hegel_blockquote": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-se/article_hegel_blockquote.png",
+          "status": "ok"
+        },
+        "article_ramanuja_table": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-se/article_ramanuja_table.png",
+          "metrics": {
+            "box": {
+              "top": 236.65625,
+              "left": 19,
+              "right": 639,
+              "bottom": 622.625,
+              "width": 620,
+              "height": 385.96875
+            },
+            "topElementClass": "term",
+            "topElementText": "Advaita"
+          },
+          "status": "ok"
+        },
+        "article_long_lists": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-se/article_long_lists.png",
+          "metrics": {
+            "inlineCitations": 2,
+            "superscripts": 0,
+            "listCount": 55,
+            "tableCount": 3
+          },
+          "status": "ok"
+        },
+        "article_footnotes": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-se/article_footnotes.png",
+          "metrics": {
+            "inlineCitations": 0,
+            "superscripts": 0,
+            "listCount": 8,
+            "tableCount": 0
+          },
+          "status": "failed",
+          "error": "Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"#dpArticleBody a.cite-link\").first to be visible\n"
+        },
+        "source_tab": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-se/source_tab.png",
+          "status": "ok"
+        },
+        "network_view": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/iphone-se/network_view.png",
+          "status": "ok"
+        }
+      },
+      "notes": [
+        "topbar_search: no search control exists inside `.topbar`.",
+        "article_footnotes: `hegel` has 0 inline cite links and no `sup.cite-fn` nodes.",
+        "article_footnotes: Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"#dpArticleBody a.cite-link\").first to be visible\n"
+      ]
+    },
+    "pixel-7": {
+      "flows": {
+        "timeline_initial": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/pixel-7/timeline_initial.png",
+          "status": "ok"
+        },
+        "timeline_mid": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/pixel-7/timeline_mid.png",
+          "status": "ok"
+        },
+        "timeline_bottom": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/pixel-7/timeline_bottom.png",
+          "status": "ok"
+        },
+        "topbar_filter": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/pixel-7/topbar_filter.png",
+          "metrics": {
+            "before": {
+              "top": 0,
+              "bottom": 52,
+              "height": 52,
+              "innerHeight": 915
+            },
+            "after": {
+              "top": 0,
+              "bottom": 52,
+              "height": 52,
+              "innerHeight": 915
+            }
+          },
+          "status": "ok"
+        },
+        "topbar_search": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/pixel-7/topbar_search.png",
+          "metrics": {
+            "topbarSearchControls": 0
+          },
+          "status": "missing"
+        },
+        "topbar_network_toggle": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/pixel-7/topbar_network_toggle.png",
+          "metrics": {
+            "before": {
+              "top": 0,
+              "bottom": 52,
+              "height": 52,
+              "innerHeight": 915
+            },
+            "after": {
+              "top": 0,
+              "bottom": 52,
+              "height": 52,
+              "innerHeight": 915
+            }
+          },
+          "status": "ok"
+        },
+        "thinker_sankara": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/pixel-7/thinker_sankara.png",
+          "status": "ok"
+        },
+        "glossary_popover": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/pixel-7/glossary_popover.png",
+          "metrics": {
+            "box": {
+              "top": 915,
+              "left": 0,
+              "right": 412,
+              "bottom": 1555.5,
+              "width": 412,
+              "height": 640.5
+            },
+            "topElementClass": "term",
+            "topElementText": "pariṇāma-vāda"
+          },
+          "status": "ok"
+        },
+        "citation_popover": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/pixel-7/citation_popover.png",
+          "metrics": {
+            "box": {
+              "top": 915,
+              "left": 0,
+              "right": 412,
+              "bottom": 1205.5625,
+              "width": 412,
+              "height": 290.5625
+            },
+            "topElementClass": "cite-scrim",
+            "topElementText": ""
+          },
+          "status": "ok"
+        },
+        "article_hegel_intro": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/pixel-7/article_hegel_intro.png",
+          "metrics": {
+            "inlineCitations": 0,
+            "superscripts": 0,
+            "listCount": 8,
+            "tableCount": 0
+          },
+          "status": "ok"
+        },
+        "article_hegel_blockquote": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/pixel-7/article_hegel_blockquote.png",
+          "status": "ok"
+        },
+        "article_ramanuja_table": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/pixel-7/article_ramanuja_table.png",
+          "metrics": {
+            "box": {
+              "top": 360.125,
+              "left": 19,
+              "right": 639,
+              "bottom": 746.09375,
+              "width": 620,
+              "height": 385.96875
+            },
+            "topElementClass": "",
+            "topElementText": "The seven arguments also form a deliberate sequence. Āśraya asks where avidyā co"
+          },
+          "status": "ok"
+        },
+        "article_long_lists": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/pixel-7/article_long_lists.png",
+          "metrics": {
+            "inlineCitations": 2,
+            "superscripts": 0,
+            "listCount": 55,
+            "tableCount": 3
+          },
+          "status": "ok"
+        },
+        "article_footnotes": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/pixel-7/article_footnotes.png",
+          "metrics": {
+            "inlineCitations": 0,
+            "superscripts": 0,
+            "listCount": 8,
+            "tableCount": 0
+          },
+          "status": "failed",
+          "error": "Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"#dpArticleBody a.cite-link\").first to be visible\n"
+        },
+        "source_tab": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/pixel-7/source_tab.png",
+          "status": "ok"
+        },
+        "network_view": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/pixel-7/network_view.png",
+          "status": "ok"
+        }
+      },
+      "notes": [
+        "topbar_search: no search control exists inside `.topbar`.",
+        "article_footnotes: `hegel` has 0 inline cite links and no `sup.cite-fn` nodes.",
+        "article_footnotes: Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"#dpArticleBody a.cite-link\").first to be visible\n"
+      ]
+    },
+    "galaxy-s22": {
+      "flows": {
+        "timeline_initial": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/galaxy-s22/timeline_initial.png",
+          "status": "ok"
+        },
+        "timeline_mid": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/galaxy-s22/timeline_mid.png",
+          "status": "ok"
+        },
+        "timeline_bottom": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/galaxy-s22/timeline_bottom.png",
+          "status": "ok"
+        },
+        "topbar_filter": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/galaxy-s22/topbar_filter.png",
+          "metrics": {
+            "before": {
+              "top": 0,
+              "bottom": 52,
+              "height": 52,
+              "innerHeight": 844
+            },
+            "after": {
+              "top": 0,
+              "bottom": 52,
+              "height": 52,
+              "innerHeight": 844
+            }
+          },
+          "status": "ok"
+        },
+        "topbar_search": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/galaxy-s22/topbar_search.png",
+          "metrics": {
+            "topbarSearchControls": 0
+          },
+          "status": "missing"
+        },
+        "topbar_network_toggle": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/galaxy-s22/topbar_network_toggle.png",
+          "metrics": {
+            "before": {
+              "top": 0,
+              "bottom": 52,
+              "height": 52,
+              "innerHeight": 844
+            },
+            "after": {
+              "top": 0,
+              "bottom": 52,
+              "height": 52,
+              "innerHeight": 844
+            }
+          },
+          "status": "ok"
+        },
+        "thinker_sankara": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/galaxy-s22/thinker_sankara.png",
+          "status": "ok"
+        },
+        "glossary_popover": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/galaxy-s22/glossary_popover.png",
+          "metrics": {
+            "box": {
+              "top": 844,
+              "left": 0,
+              "right": 390,
+              "bottom": 1434.796875,
+              "width": 390,
+              "height": 590.796875
+            },
+            "topElementClass": "term",
+            "topElementText": "adhyāsa"
+          },
+          "status": "ok"
+        },
+        "citation_popover": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/galaxy-s22/citation_popover.png",
+          "metrics": {
+            "box": {
+              "top": 844,
+              "left": 0,
+              "right": 390,
+              "bottom": 1155.359375,
+              "width": 390,
+              "height": 311.359375
+            },
+            "topElementClass": "cite-scrim",
+            "topElementText": ""
+          },
+          "status": "ok"
+        },
+        "article_hegel_intro": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/galaxy-s22/article_hegel_intro.png",
+          "metrics": {
+            "inlineCitations": 0,
+            "superscripts": 0,
+            "listCount": 8,
+            "tableCount": 0
+          },
+          "status": "ok"
+        },
+        "article_hegel_blockquote": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/galaxy-s22/article_hegel_blockquote.png",
+          "status": "ok"
+        },
+        "article_ramanuja_table": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/galaxy-s22/article_ramanuja_table.png",
+          "metrics": {
+            "box": {
+              "top": 324.53125,
+              "left": 19,
+              "right": 639,
+              "bottom": 710.5,
+              "width": 620,
+              "height": 385.96875
+            },
+            "topElementClass": "",
+            "topElementText": "Rāmānuja and Viśiṣṭādvaita\nA reader for the logical arguments in English, format"
+          },
+          "status": "ok"
+        },
+        "article_long_lists": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/galaxy-s22/article_long_lists.png",
+          "metrics": {
+            "inlineCitations": 2,
+            "superscripts": 0,
+            "listCount": 55,
+            "tableCount": 3
+          },
+          "status": "ok"
+        },
+        "article_footnotes": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/galaxy-s22/article_footnotes.png",
+          "metrics": {
+            "inlineCitations": 0,
+            "superscripts": 0,
+            "listCount": 8,
+            "tableCount": 0
+          },
+          "status": "failed",
+          "error": "Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"#dpArticleBody a.cite-link\").first to be visible\n"
+        },
+        "source_tab": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/galaxy-s22/source_tab.png",
+          "status": "ok"
+        },
+        "network_view": {
+          "screenshot": "/orcd/pool/008/eeshan/philosophy_articles/mobile_audit/screenshots/galaxy-s22/network_view.png",
+          "status": "ok"
+        }
+      },
+      "notes": [
+        "topbar_search: no search control exists inside `.topbar`.",
+        "article_footnotes: `hegel` has 0 inline cite links and no `sup.cite-fn` nodes.",
+        "article_footnotes: Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"#dpArticleBody a.cite-link\").first to be visible\n"
+      ]
+    }
+  }
+}
