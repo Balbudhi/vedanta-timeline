@@ -58,66 +58,36 @@
       "primitive": "epistemic_authority",
       "value": "scripture-dominant",
       "register": "epistemological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/upavarsa.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Lost Vedāntic citations",
+      "confidence": "low"
     },
     {
       "primitive": "method_of_critique",
       "value": "commentarial-exegesis",
       "register": "methodological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/upavarsa.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Lost Vedāntic citations",
+      "confidence": "low"
     },
     {
       "primitive": "normative_order_source",
       "value": "scriptural-injunction",
       "register": "ritual-normative",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/upavarsa.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Lost Vedāntic citations",
+      "confidence": "low"
     },
     {
       "primitive": "practice_path",
       "value": "knowledge-discipline",
       "register": "soteriological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/upavarsa.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Lost Vedāntic citations",
+      "confidence": "low"
     },
     {
       "primitive": "soteric_end",
       "value": "identity-with-ground",
       "register": "soteriological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/upavarsa.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Lost Vedāntic citations",
+      "confidence": "low"
     }
   ],
   "cross_engagements": []

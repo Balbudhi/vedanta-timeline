@@ -134,58 +134,22 @@
       "primitive": "manifestation_status",
       "value": "dependent-real",
       "register": "metaphysical",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/bhatta-ramakantha.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://utpaladeva/isvara-pratyabhijna-karika/1.5.10-17"
-          ]
-        }
-      ]
+      "citation_locus": "cite://utpaladeva/isvara-pratyabhijna-karika/1.5.10-17",
+      "confidence": "low"
     },
     {
       "primitive": "practice_path",
       "value": "devotion-and-grace",
       "register": "soteriological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/bhatta-ramakantha.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://utpaladeva/isvara-pratyabhijna-karika/1.5.10-17"
-          ]
-        }
-      ]
+      "citation_locus": "cite://utpaladeva/isvara-pratyabhijna-karika/1.5.10-17",
+      "confidence": "low"
     },
     {
       "primitive": "substrate_structure",
       "value": "one-independent-plus-real-dependents",
       "register": "metaphysical",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/bhatta-ramakantha.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://utpaladeva/isvara-pratyabhijna-karika/1.5.10-17"
-          ]
-        }
-      ]
+      "citation_locus": "cite://utpaladeva/isvara-pratyabhijna-karika/1.5.10-17",
+      "confidence": "low"
     }
   ],
   "cross_engagements": []

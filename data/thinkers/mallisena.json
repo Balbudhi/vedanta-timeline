@@ -76,92 +76,57 @@
       "primitive": "epistemic_authority",
       "value": "plural-pramana-realism",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/mallisena.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Syādvāda-Mañjarī",
+      "confidence": "medium"
     },
     {
       "primitive": "manifestation_status",
       "value": "self-standing-real",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/mallisena.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Syādvāda-Mañjarī",
+      "confidence": "medium"
     },
     {
       "primitive": "modal_structure_of_truth",
       "value": "standpoint-conditioned-realism",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/mallisena.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Syādvāda-Mañjarī",
+      "confidence": "medium"
     },
     {
       "primitive": "practice_path",
       "value": "meditative-discipline",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/mallisena.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Syādvāda-Mañjarī",
+      "confidence": "medium"
     },
     {
       "primitive": "relation_to_perspectivism",
       "value": "irreducible-true-perspectives",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/mallisena.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Syādvāda-Mañjarī",
+      "confidence": "medium"
     },
     {
       "primitive": "soteric_end",
       "value": "isolation-or-discriminative-release",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/mallisena.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Syādvāda-Mañjarī",
+      "confidence": "medium"
+    },
+    {
+      "primitive": "standpoint_predication",
+      "value": "standpoint-indexed-predication",
+      "register": "semantic-linguistic",
+      "citation_locus": "Syādvāda-Mañjarī",
+      "confidence": "medium"
     },
     {
       "primitive": "substrate_structure",
       "value": "many-coordinate-reals",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/mallisena.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Syādvāda-Mañjarī",
+      "confidence": "medium"
     }
   ],
   "cross_engagements": []

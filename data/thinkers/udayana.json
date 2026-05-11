@@ -126,199 +126,64 @@
       "primitive": "epistemic_authority",
       "value": "plural-pramana-realism",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/udayana.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://udayana/nyaya-kusumanjali/1-5",
-            "cite://jaimini/mimamsa-sutra/1.1.5",
-            "cite://udayana/atma-tattva-viveka/1",
-            "cite://dharmakirti/pramana-varttika/1"
-          ]
-        }
-      ]
+      "citation_locus": "cite://udayana/nyaya-kusumanjali/1-5",
+      "confidence": "medium"
     },
     {
       "primitive": "manifestation_status",
       "value": "self-standing-real",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/udayana.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://udayana/nyaya-kusumanjali/1-5",
-            "cite://jaimini/mimamsa-sutra/1.1.5",
-            "cite://udayana/atma-tattva-viveka/1",
-            "cite://dharmakirti/pramana-varttika/1"
-          ]
-        }
-      ]
+      "citation_locus": "cite://udayana/nyaya-kusumanjali/1-5",
+      "confidence": "medium"
     },
     {
       "primitive": "method_of_critique",
       "value": "formal-proof-or-inference",
       "register": "methodological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/udayana.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://udayana/nyaya-kusumanjali/1-5",
-            "cite://jaimini/mimamsa-sutra/1.1.5",
-            "cite://udayana/atma-tattva-viveka/1",
-            "cite://dharmakirti/pramana-varttika/1"
-          ]
-        }
-      ]
+      "citation_locus": "cite://udayana/nyaya-kusumanjali/1-5",
+      "confidence": "medium"
     },
     {
       "primitive": "modal_structure_of_truth",
       "value": "single-absolute-truth",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/udayana.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://udayana/nyaya-kusumanjali/1-5",
-            "cite://jaimini/mimamsa-sutra/1.1.5",
-            "cite://udayana/atma-tattva-viveka/1",
-            "cite://dharmakirti/pramana-varttika/1"
-          ]
-        }
-      ]
+      "citation_locus": "cite://udayana/nyaya-kusumanjali/1-5",
+      "confidence": "medium"
     },
     {
       "primitive": "practice_path",
       "value": "knowledge-discipline",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/udayana.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://udayana/nyaya-kusumanjali/1-5",
-            "cite://jaimini/mimamsa-sutra/1.1.5",
-            "cite://udayana/atma-tattva-viveka/1",
-            "cite://dharmakirti/pramana-varttika/1"
-          ]
-        }
-      ]
+      "citation_locus": "cite://udayana/nyaya-kusumanjali/1-5",
+      "confidence": "medium"
     },
     {
       "primitive": "selfhood_structure",
       "value": "substantial-self",
       "register": "phenomenological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/udayana.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://udayana/nyaya-kusumanjali/1-5",
-            "cite://jaimini/mimamsa-sutra/1.1.5",
-            "cite://udayana/atma-tattva-viveka/1",
-            "cite://dharmakirti/pramana-varttika/1"
-          ]
-        }
-      ]
+      "citation_locus": "cite://udayana/nyaya-kusumanjali/1-5",
+      "confidence": "medium"
     },
     {
       "primitive": "semantic_mediation",
       "value": "language-tracks-reality",
       "register": "semantic-linguistic",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/udayana.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://udayana/nyaya-kusumanjali/1-5",
-            "cite://jaimini/mimamsa-sutra/1.1.5",
-            "cite://udayana/atma-tattva-viveka/1",
-            "cite://dharmakirti/pramana-varttika/1"
-          ]
-        }
-      ]
+      "citation_locus": "cite://udayana/nyaya-kusumanjali/1-5",
+      "confidence": "medium"
     },
     {
       "primitive": "soteric_end",
       "value": "isolation-or-discriminative-release",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/udayana.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://udayana/nyaya-kusumanjali/1-5",
-            "cite://jaimini/mimamsa-sutra/1.1.5",
-            "cite://udayana/atma-tattva-viveka/1",
-            "cite://dharmakirti/pramana-varttika/1"
-          ]
-        }
-      ]
+      "citation_locus": "cite://udayana/nyaya-kusumanjali/1-5",
+      "confidence": "medium"
     },
     {
       "primitive": "substrate_structure",
       "value": "many-coordinate-reals",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/udayana.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://udayana/nyaya-kusumanjali/1-5",
-            "cite://jaimini/mimamsa-sutra/1.1.5",
-            "cite://udayana/atma-tattva-viveka/1",
-            "cite://dharmakirti/pramana-varttika/1"
-          ]
-        }
-      ]
+      "citation_locus": "cite://udayana/nyaya-kusumanjali/1-5",
+      "confidence": "medium"
     }
   ],
   "cross_engagements": []

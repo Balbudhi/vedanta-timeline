@@ -29,101 +29,36 @@
       "primitive": "epistemic_authority",
       "value": "comparative-theological-reading",
       "register": "epistemological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/macherey.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://macherey/a-theory-of-literary-production/1",
-            "cite://macherey/hegel-or-spinoza/2"
-          ]
-        }
-      ]
+      "citation_locus": "cite://macherey/a-theory-of-literary-production/1",
+      "confidence": "low"
     },
     {
       "primitive": "method_of_critique",
       "value": "genealogy",
       "register": "historical-genealogical",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/macherey.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://macherey/a-theory-of-literary-production/1",
-            "cite://macherey/hegel-or-spinoza/2"
-          ]
-        }
-      ]
+      "citation_locus": "cite://macherey/a-theory-of-literary-production/1",
+      "confidence": "low"
     },
     {
       "primitive": "method_of_critique",
       "value": "comparative-reading",
       "register": "methodological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/macherey.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://macherey/a-theory-of-literary-production/1",
-            "cite://macherey/hegel-or-spinoza/2"
-          ]
-        }
-      ]
+      "citation_locus": "cite://macherey/a-theory-of-literary-production/1",
+      "confidence": "medium"
     },
     {
       "primitive": "social_formation_model",
       "value": "commodity-fetish-social-form",
       "register": "political-social",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/macherey.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://macherey/a-theory-of-literary-production/1",
-            "cite://macherey/hegel-or-spinoza/2"
-          ]
-        }
-      ]
+      "citation_locus": "cite://macherey/a-theory-of-literary-production/1",
+      "confidence": "low"
     },
     {
       "primitive": "soteric_end",
       "value": "not-soteriological",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/macherey.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://macherey/a-theory-of-literary-production/1",
-            "cite://macherey/hegel-or-spinoza/2"
-          ]
-        }
-      ]
+      "citation_locus": "cite://macherey/a-theory-of-literary-production/1",
+      "confidence": "medium"
     }
   ],
   "cross_engagements": []

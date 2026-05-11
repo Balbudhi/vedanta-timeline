@@ -68,69 +68,46 @@
   "last_verified_by": "wave-rigor-opus",
   "primitive_commitments": [
     {
+      "primitive": "constitution_structure",
+      "value": "storehouse-transformation-of-cognitive-flow",
+      "register": "phenomenological",
+      "citation_locus": "Laṅkāvatāra-Sūtra",
+      "confidence": "medium"
+    },
+    {
       "primitive": "finite_cognition_model",
-      "value": "no-unified-model-given",
+      "value": "storehouse-transformation",
       "register": "epistemological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/lankavatara.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Laṅkāvatāra-Sūtra",
+      "confidence": "medium"
     },
     {
       "primitive": "manifestation_status",
       "value": "conventionally-real-without-own-being",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/lankavatara.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Laṅkāvatāra-Sūtra",
+      "confidence": "medium"
     },
     {
       "primitive": "practice_path",
       "value": "meditative-discipline",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/lankavatara.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Laṅkāvatāra-Sūtra",
+      "confidence": "medium"
     },
     {
       "primitive": "selfhood_structure",
       "value": "no-enduring-self",
       "register": "phenomenological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/lankavatara.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Laṅkāvatāra-Sūtra",
+      "confidence": "medium"
     },
     {
       "primitive": "soteric_end",
       "value": "isolation-or-discriminative-release",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/lankavatara.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Laṅkāvatāra-Sūtra",
+      "confidence": "medium"
     }
   ],
   "cross_engagements": []

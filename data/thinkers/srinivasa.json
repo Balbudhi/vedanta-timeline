@@ -831,111 +831,36 @@
       "primitive": "epistemic_authority",
       "value": "scripture-dominant",
       "register": "epistemological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/srinivasa.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://badarayana/brahma-sutra/2.3.42",
-            "cite://badarayana/brahma-sutra/1.1.1",
-            "cite://badarayana/brahma-sutra/2.3.43",
-            "cite://badarayana/brahma-sutra/3.2.24"
-          ]
-        }
-      ]
+      "citation_locus": "cite://badarayana/brahma-sutra/2.3.42",
+      "confidence": "low"
     },
     {
       "primitive": "identity_relation",
       "value": "natural-difference-non-difference",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/srinivasa.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://badarayana/brahma-sutra/2.3.42",
-            "cite://badarayana/brahma-sutra/1.1.1",
-            "cite://badarayana/brahma-sutra/2.3.43",
-            "cite://badarayana/brahma-sutra/3.2.24"
-          ]
-        }
-      ]
+      "citation_locus": "cite://badarayana/brahma-sutra/2.3.42",
+      "confidence": "medium"
     },
     {
       "primitive": "manifestation_status",
       "value": "dependent-real",
       "register": "metaphysical",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/srinivasa.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://badarayana/brahma-sutra/2.3.42",
-            "cite://badarayana/brahma-sutra/1.1.1",
-            "cite://badarayana/brahma-sutra/2.3.43",
-            "cite://badarayana/brahma-sutra/3.2.24"
-          ]
-        }
-      ]
+      "citation_locus": "cite://badarayana/brahma-sutra/2.3.42",
+      "confidence": "low"
     },
     {
       "primitive": "practice_path",
       "value": "knowledge-discipline",
       "register": "soteriological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/srinivasa.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://badarayana/brahma-sutra/2.3.42",
-            "cite://badarayana/brahma-sutra/1.1.1",
-            "cite://badarayana/brahma-sutra/2.3.43",
-            "cite://badarayana/brahma-sutra/3.2.24"
-          ]
-        }
-      ]
+      "citation_locus": "cite://badarayana/brahma-sutra/2.3.42",
+      "confidence": "low"
     },
     {
       "primitive": "soteric_end",
       "value": "identity-with-ground",
       "register": "soteriological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/srinivasa.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://badarayana/brahma-sutra/2.3.42",
-            "cite://badarayana/brahma-sutra/1.1.1",
-            "cite://badarayana/brahma-sutra/2.3.43",
-            "cite://badarayana/brahma-sutra/3.2.24"
-          ]
-        }
-      ]
+      "citation_locus": "cite://badarayana/brahma-sutra/2.3.42",
+      "confidence": "low"
     }
   ],
   "cross_engagements": []

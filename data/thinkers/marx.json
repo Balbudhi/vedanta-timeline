@@ -55,155 +55,50 @@
       "primitive": "finite_cognition_model",
       "value": "genealogically-produced-illusion",
       "register": "political-social",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/marx.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://marx/capital/1.4",
-            "cite://marx/capital/1.7",
-            "cite://marx/capital/1.1.4",
-            "cite://marx/capital/1.10"
-          ]
-        }
-      ]
+      "citation_locus": "cite://marx/capital/1.4",
+      "confidence": "medium"
     },
     {
       "primitive": "manifestation_status",
       "value": "socially-or-discursively-stabilized",
       "register": "political-social",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/marx.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://marx/capital/1.4",
-            "cite://marx/capital/1.7",
-            "cite://marx/capital/1.1.4",
-            "cite://marx/capital/1.10"
-          ]
-        }
-      ]
+      "citation_locus": "cite://marx/capital/1.4",
+      "confidence": "medium"
     },
     {
       "primitive": "method_of_critique",
       "value": "genealogy",
       "register": "historical-genealogical",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/marx.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://marx/capital/1.4",
-            "cite://marx/capital/1.7",
-            "cite://marx/capital/1.1.4",
-            "cite://marx/capital/1.10"
-          ]
-        }
-      ]
+      "citation_locus": "cite://marx/capital/1.4",
+      "confidence": "low"
     },
     {
       "primitive": "method_of_critique",
       "value": "dialectical-development",
       "register": "methodological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/marx.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://marx/capital/1.4",
-            "cite://marx/capital/1.7",
-            "cite://marx/capital/1.1.4",
-            "cite://marx/capital/1.10"
-          ]
-        }
-      ]
+      "citation_locus": "cite://marx/capital/1.4",
+      "confidence": "medium"
     },
     {
       "primitive": "normative_order_source",
       "value": "class-structured-social-relation",
       "register": "political-social",
-      "confidence": "high",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/marx.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://marx/capital/1.4",
-            "cite://marx/capital/1.7",
-            "cite://marx/capital/1.1.4",
-            "cite://marx/capital/1.10"
-          ]
-        }
-      ]
+      "citation_locus": "cite://marx/capital/1.4",
+      "confidence": "high"
     },
     {
       "primitive": "social_formation_model",
       "value": "commodity-fetish-social-form",
       "register": "political-social",
-      "confidence": "high",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/marx.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://marx/capital/1.4",
-            "cite://marx/capital/1.7",
-            "cite://marx/capital/1.1.4",
-            "cite://marx/capital/1.10"
-          ]
-        }
-      ]
+      "citation_locus": "cite://marx/capital/1.4",
+      "confidence": "high"
     },
     {
       "primitive": "soteric_end",
       "value": "not-soteriological",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/marx.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://marx/capital/1.4",
-            "cite://marx/capital/1.7",
-            "cite://marx/capital/1.1.4",
-            "cite://marx/capital/1.10"
-          ]
-        }
-      ]
+      "citation_locus": "cite://marx/capital/1.4",
+      "confidence": "medium"
     }
   ],
   "cross_engagements": []

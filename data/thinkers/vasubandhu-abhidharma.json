@@ -102,66 +102,36 @@
       "primitive": "manifestation_status",
       "value": "dependent-real",
       "register": "metaphysical",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/vasubandhu-abhidharma.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Abhidharma-Kośa-Kārikā",
+      "confidence": "low"
     },
     {
       "primitive": "practice_path",
       "value": "meditative-discipline",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/vasubandhu-abhidharma.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Abhidharma-Kośa-Kārikā",
+      "confidence": "medium"
     },
     {
       "primitive": "selfhood_structure",
       "value": "no-enduring-self",
       "register": "phenomenological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/vasubandhu-abhidharma.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Abhidharma-Kośa-Kārikā",
+      "confidence": "medium"
     },
     {
       "primitive": "soteric_end",
       "value": "isolation-or-discriminative-release",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/vasubandhu-abhidharma.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Abhidharma-Kośa-Kārikā",
+      "confidence": "medium"
     },
     {
       "primitive": "substrate_structure",
       "value": "process-field-with-no-enduring-substrate",
       "register": "metaphysical",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/vasubandhu-abhidharma.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Abhidharma-Kośa-Kārikā",
+      "confidence": "low"
     }
   ],
   "cross_engagements": []

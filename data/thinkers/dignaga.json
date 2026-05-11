@@ -96,92 +96,50 @@
       "primitive": "determination_operator",
       "value": "exclusion-or-apoha",
       "register": "logical-dialectical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/dignaga.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Pramāṇa-Samuccaya",
+      "confidence": "medium"
     },
     {
       "primitive": "epistemic_authority",
       "value": "no-single-authority",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/dignaga.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Pramāṇa-Samuccaya",
+      "confidence": "medium"
     },
     {
       "primitive": "manifestation_status",
       "value": "conventionally-real-without-own-being",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/dignaga.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Pramāṇa-Samuccaya",
+      "confidence": "medium"
     },
     {
       "primitive": "method_of_critique",
       "value": "formal-proof-or-inference",
       "register": "methodological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/dignaga.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Pramāṇa-Samuccaya",
+      "confidence": "medium"
     },
     {
       "primitive": "practice_path",
       "value": "meditative-discipline",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/dignaga.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Pramāṇa-Samuccaya",
+      "confidence": "medium"
     },
     {
       "primitive": "selfhood_structure",
       "value": "no-enduring-self",
       "register": "phenomenological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/dignaga.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Pramāṇa-Samuccaya",
+      "confidence": "medium"
     },
     {
       "primitive": "soteric_end",
       "value": "isolation-or-discriminative-release",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/dignaga.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Pramāṇa-Samuccaya",
+      "confidence": "medium"
     }
   ],
   "cross_engagements": []

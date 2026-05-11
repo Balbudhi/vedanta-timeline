@@ -1777,199 +1777,64 @@
       "primitive": "epistemic_authority",
       "value": "scripture-dominant",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/gaudapada.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://gaudapada/mandukya-karika/3.48,",
-            "cite://gaudapada/mandukya-karika/2.5-6",
-            "cite://gaudapada/mandukya-karika/3.31-37",
-            "cite://gaudapada/mandukya-karika/3.19-21"
-          ]
-        }
-      ]
+      "citation_locus": "cite://gaudapada/mandukya-karika/3.48,",
+      "confidence": "medium"
     },
     {
       "primitive": "finite_cognition_model",
       "value": "adhyasa-or-superimposition",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/gaudapada.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://gaudapada/mandukya-karika/3.48,",
-            "cite://gaudapada/mandukya-karika/2.5-6",
-            "cite://gaudapada/mandukya-karika/3.31-37",
-            "cite://gaudapada/mandukya-karika/3.19-21"
-          ]
-        }
-      ]
+      "citation_locus": "cite://gaudapada/mandukya-karika/3.48,",
+      "confidence": "medium"
     },
     {
       "primitive": "identity_relation",
       "value": "non-otherness",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/gaudapada.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://gaudapada/mandukya-karika/3.48,",
-            "cite://gaudapada/mandukya-karika/2.5-6",
-            "cite://gaudapada/mandukya-karika/3.31-37",
-            "cite://gaudapada/mandukya-karika/3.19-21"
-          ]
-        }
-      ]
+      "citation_locus": "cite://gaudapada/mandukya-karika/3.48,",
+      "confidence": "medium"
     },
     {
       "primitive": "manifestation_status",
       "value": "sublatable-not-null",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/gaudapada.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://gaudapada/mandukya-karika/3.48,",
-            "cite://gaudapada/mandukya-karika/2.5-6",
-            "cite://gaudapada/mandukya-karika/3.31-37",
-            "cite://gaudapada/mandukya-karika/3.19-21"
-          ]
-        }
-      ]
+      "citation_locus": "cite://gaudapada/mandukya-karika/3.48,",
+      "confidence": "medium"
     },
     {
       "primitive": "modal_structure_of_truth",
       "value": "hierarchical-standpoint-truth",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/gaudapada.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://gaudapada/mandukya-karika/3.48,",
-            "cite://gaudapada/mandukya-karika/2.5-6",
-            "cite://gaudapada/mandukya-karika/3.31-37",
-            "cite://gaudapada/mandukya-karika/3.19-21"
-          ]
-        }
-      ]
+      "citation_locus": "cite://gaudapada/mandukya-karika/3.48,",
+      "confidence": "medium"
     },
     {
       "primitive": "practice_path",
       "value": "knowledge-discipline",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/gaudapada.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://gaudapada/mandukya-karika/3.48,",
-            "cite://gaudapada/mandukya-karika/2.5-6",
-            "cite://gaudapada/mandukya-karika/3.31-37",
-            "cite://gaudapada/mandukya-karika/3.19-21"
-          ]
-        }
-      ]
+      "citation_locus": "cite://gaudapada/mandukya-karika/3.48,",
+      "confidence": "medium"
     },
     {
       "primitive": "selfhood_structure",
       "value": "witness-self",
       "register": "phenomenological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/gaudapada.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://gaudapada/mandukya-karika/3.48,",
-            "cite://gaudapada/mandukya-karika/2.5-6",
-            "cite://gaudapada/mandukya-karika/3.31-37",
-            "cite://gaudapada/mandukya-karika/3.19-21"
-          ]
-        }
-      ]
+      "citation_locus": "cite://gaudapada/mandukya-karika/3.48,",
+      "confidence": "medium"
     },
     {
       "primitive": "soteric_end",
       "value": "identity-with-ground",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/gaudapada.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://gaudapada/mandukya-karika/3.48,",
-            "cite://gaudapada/mandukya-karika/2.5-6",
-            "cite://gaudapada/mandukya-karika/3.31-37",
-            "cite://gaudapada/mandukya-karika/3.19-21"
-          ]
-        }
-      ]
+      "citation_locus": "cite://gaudapada/mandukya-karika/3.48,",
+      "confidence": "medium"
     },
     {
       "primitive": "substrate_structure",
       "value": "one-self-standing",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/gaudapada.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://gaudapada/mandukya-karika/3.48,",
-            "cite://gaudapada/mandukya-karika/2.5-6",
-            "cite://gaudapada/mandukya-karika/3.31-37",
-            "cite://gaudapada/mandukya-karika/3.19-21"
-          ]
-        }
-      ]
+      "citation_locus": "cite://gaudapada/mandukya-karika/3.48,",
+      "confidence": "medium"
     }
   ],
   "cross_engagements": []

@@ -32,6 +32,8 @@ Four points of structural confirmation:
 
 **T9 — Unity-in-Apparent-Multiplicity.** Vol II's whole metaphysics defends opposites fulfilling themselves through one another without abolition. Division and union are both ontologically primary; reality is one-and-many in a structured asymmetry. This is the user's *unity-in-multiplicity* / Aurobindo's "diversity-in-unity" vindicated from cognitive neuroscience.
 
+Cross-engagement: Sri Aurobindo works the same temporal mode axis from the opposite direction. McGilchrist's "non-duality of duality and non-duality" remains a phenomenology of attention and civilizational disclosure; Aurobindo's *The Life Divine* makes the same double poise overtly ontological by holding timeless Sachchidananda and evolutionary manifestation together without sublation ([The Life Divine II.27](cite://aurobindo/the-life-divine/II.27)).
+
 McGilchrist does not integrate the Indian tradition; the convergence matters precisely because he reaches these structures independently.
 
 We turn now to the books themselves.

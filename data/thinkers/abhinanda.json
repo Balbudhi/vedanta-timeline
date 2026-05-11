@@ -57,27 +57,15 @@
       "primitive": "manifestation_status",
       "value": "expressive-manifestation",
       "register": "metaphysical",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/abhinanda.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Mahārtha-Mañjarī (mūla-gāthās)",
+      "confidence": "low"
     },
     {
       "primitive": "practice_path",
       "value": "meditative-discipline",
       "register": "soteriological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/abhinanda.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Mahārtha-Mañjarī (mūla-gāthās)",
+      "confidence": "low"
     }
   ],
   "cross_engagements": []

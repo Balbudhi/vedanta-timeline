@@ -7,50 +7,68 @@
   "core_thesis": "Article-backed thinker stub created during primitives_v2 Phase 2 from `data/articles/source/mcgilchrist.md`.",
   "primitive_commitments": [
     {
+      "primitive": "individuation_status",
+      "value": "expressive-singularity",
+      "register": "phenomenological",
+      "citation_locus": "The Matter with Things, vol. II, ch. 27",
+      "confidence": "low"
+    },
+    {
       "primitive": "social_formation_model",
       "value": "civilizational-structure-shift",
       "register": "political-social",
-      "confidence": "high",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/mcgilchrist.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "The Master and His Emissary, Part Two",
+      "confidence": "high"
     },
     {
       "primitive": "temporal_mode",
       "value": "both-orthogonal",
       "register": "metaphysical",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/mcgilchrist.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "The Matter with Things, vol. II, chs. 20-28",
+      "confidence": "low"
     }
   ],
   "cross_engagements": [
     {
-      "article": "data/articles/source/mcgilchrist.md",
+      "counter_thinker": "whitehead",
       "primitive": "temporal_mode",
+      "agreement_type": "genuine-disagreement",
       "register": "metaphysical",
-      "relation": "disagrees",
-      "other_thinker_id": "whitehead",
-      "other_primary_citation": "cite://whitehead/process-and-reality/1.2",
-      "passage": "Cross-engagement: Alfred North Whitehead presses the same temporal mode axis in the metaphysical register, but with the value `process-primary` rather than `both-orthogonal` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+      "brief": "Alfred North Whitehead presses the same temporal mode axis in the metaphysical register, but with the value `process-primary` rather than `both-orthogonal`.",
+      "citations": [
+        "cite://whitehead/process-and-reality/1.2"
+      ]
     },
     {
-      "article": "data/articles/source/mcgilchrist.md",
+      "counter_thinker": "hegel",
       "primitive": "social_formation_model",
+      "agreement_type": "genuine-disagreement",
       "register": "political-social",
-      "relation": "disagrees",
-      "other_thinker_id": "hegel",
-      "other_primary_citation": "cite://hegel/phenomenology-of-spirit/17",
-      "passage": "Cross-engagement: G. W. F. Hegel presses the same social formation axis in the political-social register, but with the value `recognitive-institutional` rather than `civilizational-structure-shift` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+      "brief": "G. W. F. Hegel presses the same social formation axis in the political-social register, but with the value `recognitive-institutional` rather than `civilizational-structure-shift`.",
+      "citations": [
+        "cite://hegel/phenomenology-of-spirit/17"
+      ]
+    },
+    {
+      "counter_thinker": "aurobindo",
+      "primitive": "temporal_mode",
+      "agreement_type": "genuine-disagreement",
+      "register": "metaphysical",
+      "brief": "Aurobindo also insists that a timeless poise and a dynamic unfolding must be held together rather than collapsed into a flat process-metaphysics.",
+      "citations": [
+        "cite://aurobindo/the-life-divine/II.27"
+      ]
+    },
+    {
+      "counter_thinker": "aurobindo",
+      "primitive": "temporal_mode",
+      "agreement_type": "shared-axis",
+      "register": "metaphysical",
+      "brief": "Aurobindo also insists that a timeless poise and a dynamic unfolding must be held together rather than collapsed into a flat process-metaphysics.",
+      "citations": [
+        "cite://aurobindo/the-life-divine/II.27"
+      ],
+      "source_article": "data/articles/source/mcgilchrist.md"
     }
   ]
 }

@@ -85,53 +85,29 @@
       "primitive": "affective_motive_force",
       "value": "devotion",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/basava.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Basava-vacanagaḷu",
+      "confidence": "medium"
     },
     {
       "primitive": "manifestation_status",
       "value": "expressive-manifestation",
       "register": "metaphysical",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/basava.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Basava-vacanagaḷu",
+      "confidence": "low"
     },
     {
       "primitive": "practice_path",
       "value": "devotion-and-grace",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/basava.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Basava-vacanagaḷu",
+      "confidence": "medium"
     },
     {
       "primitive": "soteric_end",
       "value": "transformation-of-life",
       "register": "soteriological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/basava.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Basava-vacanagaḷu",
+      "confidence": "low"
     }
   ],
   "cross_engagements": []

@@ -113,6 +113,19 @@ PRIMITIVES = {
             "no-enduring-self",
         ],
     },
+    "constitution_structure": {
+        "label": "Constitution Structure",
+        "category": "phenomenological",
+        "description": "How subject-object articulation is constituted, or refused, at the level of experience itself.",
+        "values": [
+            "subject-object-duality-taken-as-basic",
+            "intentional-noesis-noema-correlation",
+            "storehouse-transformation-of-cognitive-flow",
+            "reflexive-self-manifestation",
+            "dependent-arising-without-constituting-subject",
+            "withheld",
+        ],
+    },
     "finite_cognition_model": {
         "label": "Finite Cognition Model",
         "category": "epistemological",
@@ -122,6 +135,7 @@ PRIMITIVES = {
             "positive-ignorance",
             "real-dependent-veiling",
             "contraction-or-obscuration",
+            "storehouse-transformation",
             "intentional-constitution",
             "perspectival-interpretation",
             "genealogically-produced-illusion",
@@ -168,6 +182,7 @@ PRIMITIVES = {
         "values": [
             "commentarial-exegesis",
             "formal-proof-or-inference",
+            "prasanga-anti-thesis",
             "phenomenological-reduction",
             "dialectical-development",
             "genealogy",
@@ -240,6 +255,19 @@ PRIMITIVES = {
             "standpoint-conditioned-realism",
             "perspectives-as-symptoms",
             "no-perspectivism-claim",
+        ],
+    },
+    "standpoint_predication": {
+        "label": "Standpoint Predication",
+        "category": "semantic-linguistic",
+        "description": "How predication itself is qualified, ranked, or multiplied across standpoints.",
+        "values": [
+            "single-unqualified-predication",
+            "hierarchically-ranked-predication",
+            "standpoint-indexed-predication",
+            "sevenfold-conditioned-predication",
+            "profile-adumbrational-predication",
+            "withheld",
         ],
     },
     "normative_order_source": {
@@ -322,10 +350,13 @@ DEPENDENCIES = [
     {"from": "substrate_structure", "to": "identity_relation"},
     {"from": "manifestation_status", "to": "causation_model"},
     {"from": "selfhood_structure", "to": "finite_cognition_model"},
+    {"from": "selfhood_structure", "to": "constitution_structure"},
+    {"from": "constitution_structure", "to": "finite_cognition_model"},
     {"from": "epistemic_authority", "to": "method_of_critique"},
     {"from": "determination_operator", "to": "semantic_mediation"},
     {"from": "temporal_mode", "to": "register_of_evolution"},
     {"from": "modal_structure_of_truth", "to": "relation_to_perspectivism"},
+    {"from": "modal_structure_of_truth", "to": "standpoint_predication"},
     {"from": "normative_order_source", "to": "social_formation_model"},
     {"from": "practice_path", "to": "soteric_end"},
 ]
@@ -405,6 +436,7 @@ BASE_PROFILES = {
         c("manifestation_status", "expressive-manifestation", "metaphysical"),
         c("identity_relation", "self-expression-or-appearance", "metaphysical"),
         c("selfhood_structure", "relational-self", "phenomenological"),
+        c("constitution_structure", "reflexive-self-manifestation", "phenomenological"),
         c("finite_cognition_model", "contraction-or-obscuration", "epistemological"),
         c("epistemic_authority", "scripture-plus-transformative-experience", "epistemological"),
         c("determination_operator", "self-expression", "logical-dialectical"),
@@ -457,6 +489,7 @@ BASE_PROFILES = {
         c("epistemic_authority", "plural-pramana-realism", "epistemological"),
         c("modal_structure_of_truth", "standpoint-conditioned-realism", "epistemological"),
         c("relation_to_perspectivism", "irreducible-true-perspectives", "epistemological"),
+        c("standpoint_predication", "standpoint-indexed-predication", "semantic-linguistic"),
         c("practice_path", "meditative-discipline", "soteriological"),
         c("soteric_end", "isolation-or-discriminative-release", "soteriological"),
     ],
@@ -590,10 +623,11 @@ SUBSCHOOL_RULES = [
 
 SET_OVERRIDES = {
     frozenset({"nagarjuna", "candrakirti", "bhaviveka"}): [
-        c("substrate_structure", "suspended-or-refused", "metaphysical"),
+        c("substrate_structure", "anti-essential-relationality", "metaphysical"),
         c("manifestation_status", "conventionally-real-without-own-being", "metaphysical"),
         c("causation_model", "dependent-co-arising", "metaphysical"),
         c("selfhood_structure", "no-enduring-self", "phenomenological"),
+        c("constitution_structure", "dependent-arising-without-constituting-subject", "phenomenological"),
         c("determination_operator", "dependent-co-arising", "logical-dialectical"),
         c("practice_path", "meditative-discipline", "soteriological"),
         c("soteric_end", "isolation-or-discriminative-release", "soteriological"),
@@ -610,7 +644,8 @@ SET_OVERRIDES = {
     frozenset({"asanga", "vasubandhu", "lankavatara", "maitreya-attributed"}): [
         c("manifestation_status", "conventionally-real-without-own-being", "metaphysical"),
         c("selfhood_structure", "no-enduring-self", "phenomenological"),
-        c("finite_cognition_model", "no-unified-model-given", "epistemological", "low"),
+        c("constitution_structure", "storehouse-transformation-of-cognitive-flow", "phenomenological"),
+        c("finite_cognition_model", "storehouse-transformation", "epistemological"),
         c("practice_path", "meditative-discipline", "soteriological"),
         c("soteric_end", "isolation-or-discriminative-release", "soteriological"),
     ],
@@ -689,8 +724,10 @@ THINKER_OVERRIDES = {
     "husserl": [
         c("individuation_status", "transcendental-pole", "phenomenological"),
         c("selfhood_structure", "transcendental-ego", "phenomenological", "high"),
+        c("constitution_structure", "intentional-noesis-noema-correlation", "phenomenological", "high"),
         c("finite_cognition_model", "intentional-constitution", "epistemological", "high"),
         c("relation_to_perspectivism", "standpoint-conditioned-realism", "epistemological"),
+        c("standpoint_predication", "profile-adumbrational-predication", "semantic-linguistic", "medium"),
         c("practice_path", "reduction-or-attentive-description", "soteriological"),
         c("soteric_end", "not-soteriological", "soteriological"),
     ],
@@ -745,6 +782,24 @@ THINKER_OVERRIDES = {
         c("substrate_structure", "one-self-standing", "metaphysical", "low"),
         c("semantic_mediation", "language-as-creative-manifestation", "semantic-linguistic", "high"),
         c("epistemic_authority", "no-single-authority", "epistemological", "low"),
+    ],
+    "candrakirti": [
+        c("method_of_critique", "prasanga-anti-thesis", "methodological", "high"),
+    ],
+    "bhaviveka": [
+        c("method_of_critique", "formal-proof-or-inference", "methodological", "medium"),
+    ],
+    "nagarjuna": [
+        c("method_of_critique", "prasanga-anti-thesis", "methodological", "medium"),
+    ],
+    "kundakunda": [
+        c("standpoint_predication", "standpoint-indexed-predication", "semantic-linguistic", "high"),
+    ],
+    "akalanka": [
+        c("standpoint_predication", "sevenfold-conditioned-predication", "semantic-linguistic", "high"),
+    ],
+    "yashovijaya": [
+        c("standpoint_predication", "sevenfold-conditioned-predication", "semantic-linguistic", "high"),
     ],
     "clooney": [
         c("epistemic_authority", "comparative-theological-reading", "epistemological", "high"),
@@ -974,6 +1029,7 @@ STUB_OVERRIDES = {
     "mcgilchrist": [
         c("social_formation_model", "civilizational-structure-shift", "political-social", "high"),
         c("temporal_mode", "both-orthogonal", "metaphysical", "low"),
+        c("individuation_status", "expressive-singularity", "phenomenological", "low"),
     ],
     "medhananda": [
         c("epistemic_authority", "comparative-theological-reading", "epistemological", "high"),

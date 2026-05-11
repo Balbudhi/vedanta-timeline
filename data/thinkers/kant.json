@@ -68,45 +68,15 @@
       "primitive": "method_of_critique",
       "value": "dialectical-development",
       "register": "methodological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/kant.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://kant/critique-of-pure-reason/A51-B75",
-            "cite://kant/critique-of-pure-reason/A235-B294",
-            "cite://kant/critique-of-pure-reason/A369",
-            "cite://kant/groundwork-of-the-metaphysics-of-morals/4.447"
-          ]
-        }
-      ]
+      "citation_locus": "cite://kant/critique-of-pure-reason/A51-B75",
+      "confidence": "medium"
     },
     {
       "primitive": "modal_structure_of_truth",
       "value": "single-absolute-truth",
       "register": "epistemological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/kant.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://kant/critique-of-pure-reason/A51-B75",
-            "cite://kant/critique-of-pure-reason/A235-B294",
-            "cite://kant/critique-of-pure-reason/A369",
-            "cite://kant/groundwork-of-the-metaphysics-of-morals/4.447"
-          ]
-        }
-      ]
+      "citation_locus": "cite://kant/critique-of-pure-reason/A51-B75",
+      "confidence": "low"
     }
   ],
   "cross_engagements": []

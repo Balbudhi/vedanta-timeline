@@ -52,67 +52,22 @@
       "primitive": "epistemic_authority",
       "value": "no-single-authority",
       "register": "epistemological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/bhartrhari.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://bhartrhari/vakyapadiya/1.1",
-            "cite://bhartrhari/vakyapadiya/1.131-134",
-            "cite://bhartrhari/vakyapadiya/2.143-152",
-            "cite://bhartrhari/vakyapadiya/1.142-144"
-          ]
-        }
-      ]
+      "citation_locus": "cite://bhartrhari/vakyapadiya/1.1",
+      "confidence": "low"
     },
     {
       "primitive": "semantic_mediation",
       "value": "language-as-creative-manifestation",
       "register": "semantic-linguistic",
-      "confidence": "high",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/bhartrhari.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://bhartrhari/vakyapadiya/1.1",
-            "cite://bhartrhari/vakyapadiya/1.131-134",
-            "cite://bhartrhari/vakyapadiya/2.143-152",
-            "cite://bhartrhari/vakyapadiya/1.142-144"
-          ]
-        }
-      ]
+      "citation_locus": "cite://bhartrhari/vakyapadiya/1.1",
+      "confidence": "high"
     },
     {
       "primitive": "substrate_structure",
       "value": "one-self-standing",
       "register": "metaphysical",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/bhartrhari.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://bhartrhari/vakyapadiya/1.1",
-            "cite://bhartrhari/vakyapadiya/1.131-134",
-            "cite://bhartrhari/vakyapadiya/2.143-152",
-            "cite://bhartrhari/vakyapadiya/1.142-144"
-          ]
-        }
-      ]
+      "citation_locus": "cite://bhartrhari/vakyapadiya/1.1",
+      "confidence": "low"
     }
   ],
   "cross_engagements": []

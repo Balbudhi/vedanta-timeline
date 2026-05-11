@@ -103,243 +103,78 @@
       "primitive": "affective_motive_force",
       "value": "devotion",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/sanatana-gosvami.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/2.1.69-70",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/2.2.158-177",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/1.7.122-129",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/1.7"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sanatana-gosvami/brhad-bhagavatamrta/2.1.69-70",
+      "confidence": "medium"
     },
     {
       "primitive": "causation_model",
       "value": "unchanged-ground-with-changing-power",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/sanatana-gosvami.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/2.1.69-70",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/2.2.158-177",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/1.7.122-129",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/1.7"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sanatana-gosvami/brhad-bhagavatamrta/2.1.69-70",
+      "confidence": "medium"
     },
     {
       "primitive": "epistemic_authority",
       "value": "scripture-dominant",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/sanatana-gosvami.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/2.1.69-70",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/2.2.158-177",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/1.7.122-129",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/1.7"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sanatana-gosvami/brhad-bhagavatamrta/2.1.69-70",
+      "confidence": "medium"
     },
     {
       "primitive": "identity_relation",
       "value": "inconceivable-difference-non-difference",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/sanatana-gosvami.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/2.1.69-70",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/2.2.158-177",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/1.7.122-129",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/1.7"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sanatana-gosvami/brhad-bhagavatamrta/2.1.69-70",
+      "confidence": "medium"
     },
     {
       "primitive": "individuation_status",
       "value": "irreducible-dependent",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/sanatana-gosvami.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/2.1.69-70",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/2.2.158-177",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/1.7.122-129",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/1.7"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sanatana-gosvami/brhad-bhagavatamrta/2.1.69-70",
+      "confidence": "medium"
     },
     {
       "primitive": "manifestation_status",
       "value": "dependent-real",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/sanatana-gosvami.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/2.1.69-70",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/2.2.158-177",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/1.7.122-129",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/1.7"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sanatana-gosvami/brhad-bhagavatamrta/2.1.69-70",
+      "confidence": "medium"
     },
     {
       "primitive": "modal_structure_of_truth",
       "value": "single-absolute-truth",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/sanatana-gosvami.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/2.1.69-70",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/2.2.158-177",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/1.7.122-129",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/1.7"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sanatana-gosvami/brhad-bhagavatamrta/2.1.69-70",
+      "confidence": "medium"
     },
     {
       "primitive": "practice_path",
       "value": "devotion-and-grace",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/sanatana-gosvami.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/2.1.69-70",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/2.2.158-177",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/1.7.122-129",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/1.7"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sanatana-gosvami/brhad-bhagavatamrta/2.1.69-70",
+      "confidence": "medium"
     },
     {
       "primitive": "relation_to_perspectivism",
       "value": "partial-perspectives-ranked",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/sanatana-gosvami.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/2.1.69-70",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/2.2.158-177",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/1.7.122-129",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/1.7"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sanatana-gosvami/brhad-bhagavatamrta/2.1.69-70",
+      "confidence": "medium"
     },
     {
       "primitive": "soteric_end",
       "value": "loving-participation",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/sanatana-gosvami.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/2.1.69-70",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/2.2.158-177",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/1.7.122-129",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/1.7"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sanatana-gosvami/brhad-bhagavatamrta/2.1.69-70",
+      "confidence": "medium"
     },
     {
       "primitive": "substrate_structure",
       "value": "one-independent-plus-real-dependents",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/sanatana-gosvami.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/2.1.69-70",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/2.2.158-177",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/1.7.122-129",
-            "cite://sanatana-gosvami/brhad-bhagavatamrta/1.7"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sanatana-gosvami/brhad-bhagavatamrta/2.1.69-70",
+      "confidence": "medium"
     }
   ],
   "cross_engagements": []

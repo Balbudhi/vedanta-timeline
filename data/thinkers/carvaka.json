@@ -74,58 +74,22 @@
       "primitive": "epistemic_authority",
       "value": "no-single-authority",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/carvaka.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://badarayana/brahma-sutra/3.3.53-54"
-          ]
-        }
-      ]
+      "citation_locus": "cite://badarayana/brahma-sutra/3.3.53-54",
+      "confidence": "medium"
     },
     {
       "primitive": "manifestation_status",
       "value": "self-standing-real",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/carvaka.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://badarayana/brahma-sutra/3.3.53-54"
-          ]
-        }
-      ]
+      "citation_locus": "cite://badarayana/brahma-sutra/3.3.53-54",
+      "confidence": "medium"
     },
     {
       "primitive": "soteric_end",
       "value": "not-soteriological",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/carvaka.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://badarayana/brahma-sutra/3.3.53-54"
-          ]
-        }
-      ]
+      "citation_locus": "cite://badarayana/brahma-sutra/3.3.53-54",
+      "confidence": "medium"
     }
   ],
   "cross_engagements": []

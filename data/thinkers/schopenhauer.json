@@ -29,111 +29,36 @@
       "primitive": "affective_motive_force",
       "value": "desire-and-drive",
       "register": "phenomenological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/schopenhauer.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://schopenhauer/the-world-as-will-and-representation/1.1",
-            "cite://schopenhauer/the-world-as-will-and-representation/1.18",
-            "cite://schopenhauer/the-world-as-will-and-representation/1.23",
-            "cite://schopenhauer/the-world-as-will-and-representation/1.66"
-          ]
-        }
-      ]
+      "citation_locus": "cite://schopenhauer/the-world-as-will-and-representation/1.1",
+      "confidence": "medium"
     },
     {
       "primitive": "identity_relation",
       "value": "self-expression-or-appearance",
       "register": "metaphysical",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/schopenhauer.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://schopenhauer/the-world-as-will-and-representation/1.1",
-            "cite://schopenhauer/the-world-as-will-and-representation/1.18",
-            "cite://schopenhauer/the-world-as-will-and-representation/1.23",
-            "cite://schopenhauer/the-world-as-will-and-representation/1.66"
-          ]
-        }
-      ]
+      "citation_locus": "cite://schopenhauer/the-world-as-will-and-representation/1.1",
+      "confidence": "low"
     },
     {
       "primitive": "manifestation_status",
       "value": "conventionally-real-without-own-being",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/schopenhauer.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://schopenhauer/the-world-as-will-and-representation/1.1",
-            "cite://schopenhauer/the-world-as-will-and-representation/1.18",
-            "cite://schopenhauer/the-world-as-will-and-representation/1.23",
-            "cite://schopenhauer/the-world-as-will-and-representation/1.66"
-          ]
-        }
-      ]
+      "citation_locus": "cite://schopenhauer/the-world-as-will-and-representation/1.1",
+      "confidence": "medium"
     },
     {
       "primitive": "method_of_critique",
       "value": "mixed-or-layered",
       "register": "methodological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/schopenhauer.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://schopenhauer/the-world-as-will-and-representation/1.1",
-            "cite://schopenhauer/the-world-as-will-and-representation/1.18",
-            "cite://schopenhauer/the-world-as-will-and-representation/1.23",
-            "cite://schopenhauer/the-world-as-will-and-representation/1.66"
-          ]
-        }
-      ]
+      "citation_locus": "cite://schopenhauer/the-world-as-will-and-representation/1.1",
+      "confidence": "low"
     },
     {
       "primitive": "soteric_end",
       "value": "isolation-or-discriminative-release",
       "register": "soteriological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/schopenhauer.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://schopenhauer/the-world-as-will-and-representation/1.1",
-            "cite://schopenhauer/the-world-as-will-and-representation/1.18",
-            "cite://schopenhauer/the-world-as-will-and-representation/1.23",
-            "cite://schopenhauer/the-world-as-will-and-representation/1.66"
-          ]
-        }
-      ]
+      "citation_locus": "cite://schopenhauer/the-world-as-will-and-representation/1.1",
+      "confidence": "low"
     }
   ],
   "cross_engagements": []

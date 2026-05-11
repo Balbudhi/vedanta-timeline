@@ -72,105 +72,57 @@
       "primitive": "affective_motive_force",
       "value": "devotion",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/gokulnatha.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Caurāsī-Vaiṣṇavan-kī-Vārtā",
+      "confidence": "medium"
     },
     {
       "primitive": "causation_model",
       "value": "real-transformation",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/gokulnatha.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Caurāsī-Vaiṣṇavan-kī-Vārtā",
+      "confidence": "medium"
     },
     {
       "primitive": "epistemic_authority",
       "value": "scripture-dominant",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/gokulnatha.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Caurāsī-Vaiṣṇavan-kī-Vārtā",
+      "confidence": "medium"
     },
     {
       "primitive": "identity_relation",
       "value": "self-expression-or-appearance",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/gokulnatha.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Caurāsī-Vaiṣṇavan-kī-Vārtā",
+      "confidence": "medium"
     },
     {
       "primitive": "manifestation_status",
       "value": "real-transformation",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/gokulnatha.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Caurāsī-Vaiṣṇavan-kī-Vārtā",
+      "confidence": "medium"
     },
     {
       "primitive": "practice_path",
       "value": "devotion-and-grace",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/gokulnatha.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Caurāsī-Vaiṣṇavan-kī-Vārtā",
+      "confidence": "medium"
     },
     {
       "primitive": "soteric_end",
       "value": "loving-participation",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/gokulnatha.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Caurāsī-Vaiṣṇavan-kī-Vārtā",
+      "confidence": "medium"
     },
     {
       "primitive": "substrate_structure",
       "value": "one-self-standing",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/gokulnatha.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Caurāsī-Vaiṣṇavan-kī-Vārtā",
+      "confidence": "medium"
     }
   ],
   "cross_engagements": []
