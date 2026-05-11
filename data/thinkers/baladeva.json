@@ -105,5 +105,250 @@
   "polemic_chain_ids": [
     "acintya-shakti-defense",
     "govinda-bhasya-defense"
-  ]
+  ],
+  "primitive_commitments": [
+    {
+      "primitive": "affective_motive_force",
+      "value": "devotion",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/baladeva.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.1",
+            "cite://badarayana/brahma-sutra/2.1.27",
+            "cite://baladeva/prameya-ratnavali/7",
+            "cite://badarayana/brahma-sutra/2.3.43"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "causation_model",
+      "value": "unchanged-ground-with-changing-power",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/baladeva.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.1",
+            "cite://badarayana/brahma-sutra/2.1.27",
+            "cite://baladeva/prameya-ratnavali/7",
+            "cite://badarayana/brahma-sutra/2.3.43"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "epistemic_authority",
+      "value": "scripture-dominant",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/baladeva.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.1",
+            "cite://badarayana/brahma-sutra/2.1.27",
+            "cite://baladeva/prameya-ratnavali/7",
+            "cite://badarayana/brahma-sutra/2.3.43"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "identity_relation",
+      "value": "inconceivable-difference-non-difference",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/baladeva.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.1",
+            "cite://badarayana/brahma-sutra/2.1.27",
+            "cite://baladeva/prameya-ratnavali/7",
+            "cite://badarayana/brahma-sutra/2.3.43"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "individuation_status",
+      "value": "irreducible-dependent",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/baladeva.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.1",
+            "cite://badarayana/brahma-sutra/2.1.27",
+            "cite://baladeva/prameya-ratnavali/7",
+            "cite://badarayana/brahma-sutra/2.3.43"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "dependent-real",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/baladeva.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.1",
+            "cite://badarayana/brahma-sutra/2.1.27",
+            "cite://baladeva/prameya-ratnavali/7",
+            "cite://badarayana/brahma-sutra/2.3.43"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "modal_structure_of_truth",
+      "value": "single-absolute-truth",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/baladeva.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.1",
+            "cite://badarayana/brahma-sutra/2.1.27",
+            "cite://baladeva/prameya-ratnavali/7",
+            "cite://badarayana/brahma-sutra/2.3.43"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "devotion-and-grace",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/baladeva.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.1",
+            "cite://badarayana/brahma-sutra/2.1.27",
+            "cite://baladeva/prameya-ratnavali/7",
+            "cite://badarayana/brahma-sutra/2.3.43"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "relation_to_perspectivism",
+      "value": "partial-perspectives-ranked",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/baladeva.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.1",
+            "cite://badarayana/brahma-sutra/2.1.27",
+            "cite://baladeva/prameya-ratnavali/7",
+            "cite://badarayana/brahma-sutra/2.3.43"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "loving-participation",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/baladeva.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.1",
+            "cite://badarayana/brahma-sutra/2.1.27",
+            "cite://baladeva/prameya-ratnavali/7",
+            "cite://badarayana/brahma-sutra/2.3.43"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "one-independent-plus-real-dependents",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/baladeva.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.1",
+            "cite://badarayana/brahma-sutra/2.1.27",
+            "cite://baladeva/prameya-ratnavali/7",
+            "cite://badarayana/brahma-sutra/2.3.43"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

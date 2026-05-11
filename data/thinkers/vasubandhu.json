@@ -2,7 +2,9 @@
   "id": "vasubandhu",
   "name": "Vasubandhu",
   "name_iast": "Vasubandhu",
-  "alternate_names": ["Dbyig-gnyen"],
+  "alternate_names": [
+    "Dbyig-gnyen"
+  ],
   "dates_low": 350,
   "dates_high": 430,
   "dates_tier": "contested",
@@ -11,7 +13,9 @@
   "school_color_token": "yogacara-comparator",
   "sub_school": "Sākāra-vijñānavāda",
   "sub_school_shade": 4,
-  "lineage_in": ["asanga"],
+  "lineage_in": [
+    "asanga"
+  ],
   "lineage_out": [],
   "lineage_polemical": [
     {
@@ -41,11 +45,17 @@
       "work_id": "abhidharma-kosa-bhasya",
       "title": "Abhidharma-Kosa-Bhasya",
       "title_iast": "Abhidharma-Kośa-Bhāṣya",
-      "alternate_titles": ["AKBh", "Kośa"],
+      "alternate_titles": [
+        "AKBh",
+        "Kośa"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored Sarvāstivāda manual with Vasubandhu's own auto-commentary; the standard Sanskrit Abhidharma reference text.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Pradhan 1967 critical edition; standard transmission in Sanskrit, Tibetan, and Chinese."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Pradhan 1967 critical edition; standard transmission in Sanskrit, Tibetan, and Chinese."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -58,11 +68,16 @@
       "work_id": "trimshika",
       "title": "Trimshika",
       "title_iast": "Triṃśikā",
-      "alternate_titles": ["Triṃśikā-Vijñapti-Kārikā"],
+      "alternate_titles": [
+        "Triṃśikā-Vijñapti-Kārikā"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored. The base verses survive in Sanskrit; Sthiramati's bhāṣya is the principal commentary.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Lévi 1925 critical edition with Sthiramati's bhāṣya."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Lévi 1925 critical edition with Sthiramati's bhāṣya."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -75,11 +90,16 @@
       "work_id": "vimshatika",
       "title": "Vimshatika",
       "title_iast": "Viṃśatikā",
-      "alternate_titles": ["Viṃśatikā-Vijñapti-Mātratā-Siddhi"],
+      "alternate_titles": [
+        "Viṃśatikā-Vijñapti-Mātratā-Siddhi"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored with the Vasubandhu's own auto-commentary the Viṃśatikā-Vṛtti.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Lévi 1925; Anacker 1984."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Lévi 1925; Anacker 1984."
+        }
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
@@ -95,7 +115,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Traditionally ascribed to Vasubandhu and accepted by most modern scholarship; some scholars (e.g., Tola and Dragonetti) have proposed a different author. Lindtner and Anacker accept the ascription.",
       "ascription_evidence": [
-        {"kind": "scholarly-dispute", "description": "Anacker 1984 accepts; Tola/Dragonetti 1983 question."}
+        {
+          "kind": "scholarly-dispute",
+          "description": "Anacker 1984 accepts; Tola/Dragonetti 1983 question."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -124,5 +147,73 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-buddhist-comparators-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "finite_cognition_model",
+      "value": "no-unified-model-given",
+      "register": "epistemological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vasubandhu.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "conventionally-real-without-own-being",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vasubandhu.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "meditative-discipline",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vasubandhu.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "selfhood_structure",
+      "value": "no-enduring-self",
+      "register": "phenomenological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vasubandhu.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "isolation-or-discriminative-release",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vasubandhu.json",
+          "field": "core_thesis"
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

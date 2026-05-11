@@ -849,5 +849,294 @@
     "mayavada-khandana",
     "nyayamrta-arguments",
     "saptavidhanupapatti"
-  ]
+  ],
+  "primitive_commitments": [
+    {
+      "primitive": "causation_model",
+      "value": "efficient-material-split",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vyasatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/brahma-sutra-bhasya/1.1.2",
+            "cite://vyasatirtha/nyayamrta/1",
+            "cite://vyasatirtha/nyayamrta/2",
+            "cite://vyasatirtha/tarka-tandava/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "determination_operator",
+      "value": "non-sublatable-difference",
+      "register": "logical-dialectical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vyasatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/brahma-sutra-bhasya/1.1.2",
+            "cite://vyasatirtha/nyayamrta/1",
+            "cite://vyasatirtha/nyayamrta/2",
+            "cite://vyasatirtha/tarka-tandava/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "epistemic_authority",
+      "value": "plural-pramana-realism",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vyasatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/brahma-sutra-bhasya/1.1.2",
+            "cite://vyasatirtha/nyayamrta/1",
+            "cite://vyasatirtha/nyayamrta/2",
+            "cite://vyasatirtha/tarka-tandava/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "finite_cognition_model",
+      "value": "real-dependent-veiling",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vyasatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/brahma-sutra-bhasya/1.1.2",
+            "cite://vyasatirtha/nyayamrta/1",
+            "cite://vyasatirtha/nyayamrta/2",
+            "cite://vyasatirtha/tarka-tandava/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "identity_relation",
+      "value": "image-original-similarity",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vyasatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/brahma-sutra-bhasya/1.1.2",
+            "cite://vyasatirtha/nyayamrta/1",
+            "cite://vyasatirtha/nyayamrta/2",
+            "cite://vyasatirtha/tarka-tandava/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "individuation_status",
+      "value": "irreducible-dependent",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vyasatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/brahma-sutra-bhasya/1.1.2",
+            "cite://vyasatirtha/nyayamrta/1",
+            "cite://vyasatirtha/nyayamrta/2",
+            "cite://vyasatirtha/tarka-tandava/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "dependent-real",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vyasatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/brahma-sutra-bhasya/1.1.2",
+            "cite://vyasatirtha/nyayamrta/1",
+            "cite://vyasatirtha/nyayamrta/2",
+            "cite://vyasatirtha/tarka-tandava/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "method_of_critique",
+      "value": "formal-proof-or-inference",
+      "register": "methodological",
+      "confidence": "high",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vyasatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/brahma-sutra-bhasya/1.1.2",
+            "cite://vyasatirtha/nyayamrta/1",
+            "cite://vyasatirtha/nyayamrta/2",
+            "cite://vyasatirtha/tarka-tandava/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "modal_structure_of_truth",
+      "value": "single-absolute-truth",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vyasatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/brahma-sutra-bhasya/1.1.2",
+            "cite://vyasatirtha/nyayamrta/1",
+            "cite://vyasatirtha/nyayamrta/2",
+            "cite://vyasatirtha/tarka-tandava/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "devotion-and-grace",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vyasatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/brahma-sutra-bhasya/1.1.2",
+            "cite://vyasatirtha/nyayamrta/1",
+            "cite://vyasatirtha/nyayamrta/2",
+            "cite://vyasatirtha/tarka-tandava/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "relation_to_perspectivism",
+      "value": "partial-perspectives-ranked",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vyasatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/brahma-sutra-bhasya/1.1.2",
+            "cite://vyasatirtha/nyayamrta/1",
+            "cite://vyasatirtha/nyayamrta/2",
+            "cite://vyasatirtha/tarka-tandava/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "service-with-distinction-preserved",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vyasatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/brahma-sutra-bhasya/1.1.2",
+            "cite://vyasatirtha/nyayamrta/1",
+            "cite://vyasatirtha/nyayamrta/2",
+            "cite://vyasatirtha/tarka-tandava/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "one-independent-plus-real-dependents",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vyasatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/brahma-sutra-bhasya/1.1.2",
+            "cite://vyasatirtha/nyayamrta/1",
+            "cite://vyasatirtha/nyayamrta/2",
+            "cite://vyasatirtha/tarka-tandava/1"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

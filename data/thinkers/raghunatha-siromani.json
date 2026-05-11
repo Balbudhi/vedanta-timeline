@@ -2,7 +2,10 @@
   "id": "raghunatha-siromani",
   "name": "Raghunatha Shiromani",
   "name_iast": "Raghunātha Śiromaṇi",
-  "alternate_names": ["Raghunātha", "Śiromaṇi"],
+  "alternate_names": [
+    "Raghunātha",
+    "Śiromaṇi"
+  ],
   "dates_low": 1460,
   "dates_high": 1540,
   "dates_tier": "consensus-textual",
@@ -11,7 +14,9 @@
   "school_color_token": "navya-nyaya-comparator",
   "sub_school": "Navadvīpa Navya-Nyāya",
   "sub_school_shade": 4,
-  "lineage_in": ["gangesa"],
+  "lineage_in": [
+    "gangesa"
+  ],
   "lineage_out": [],
   "lineage_polemical": [
     {
@@ -26,14 +31,19 @@
       "work_id": "tattva-cintamani-didhiti",
       "title": "Tattva-Cintamani-Didhiti",
       "title_iast": "Tattva-Cintāmaṇi-Dīdhiti",
-      "alternate_titles": ["Dīdhiti"],
+      "alternate_titles": [
+        "Dīdhiti"
+      ],
       "composition_dates_low": 1490,
       "composition_dates_high": 1530,
       "composition_dates_notes": "Composition placed in Raghunātha's mature Navadvīpa period.",
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored sub-commentary on Gaṅgeśa's Tattva-Cintāmaṇi; the standard Navadvīpa reading.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus (Bhattacharya 1958)."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus (Bhattacharya 1958)."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -53,7 +63,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored independent treatise on Vaiśeṣika ontology.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -68,5 +81,112 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "epistemic_authority",
+      "value": "plural-pramana-realism",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/raghunatha-siromani.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "self-standing-real",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/raghunatha-siromani.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "method_of_critique",
+      "value": "formal-proof-or-inference",
+      "register": "methodological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/raghunatha-siromani.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "knowledge-discipline",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/raghunatha-siromani.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "selfhood_structure",
+      "value": "substantial-self",
+      "register": "phenomenological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/raghunatha-siromani.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "semantic_mediation",
+      "value": "language-tracks-reality",
+      "register": "semantic-linguistic",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/raghunatha-siromani.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "isolation-or-discriminative-release",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/raghunatha-siromani.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "many-coordinate-reals",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/raghunatha-siromani.json",
+          "field": "core_thesis"
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

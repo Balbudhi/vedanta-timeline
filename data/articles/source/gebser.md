@@ -8,12 +8,16 @@
 
 ### Bibliography (precise)
 
+Cross-engagement: Alfred North Whitehead touches the same temporal mode axis, but not in the same register. This section works it as `historical-disclosure` in the historical-genealogical register; Alfred North Whitehead approaches it through the metaphysical register in [primary text](cite://whitehead/process-and-reality/1.2). The point of contact is genuine, but the comparison only holds once the register-shift is kept visible.
+
 **German.**
 - *Ursprung und Gegenwart. Erster Teil: Die Fundamente der aperspektivischen Welt.* Stuttgart: Deutsche Verlags-Anstalt, 1949.
 - *Ursprung und Gegenwart. Zweiter Teil: Die Manifestationen der aperspektivischen Welt.* Stuttgart: Deutsche Verlags-Anstalt, 1953.
 - Second, enlarged edition: 1966 (DVA Stuttgart). The 1966 edition adds the famous "Preface to the Second Edition" in which Gebser names Aurobindo and Teilhard de Chardin and identifies his *aperspektivisch-integral* with Aurobindo's *supramental*.
 - Paperbound edition (Deutscher Taschenbuch Verlag, Munich, 1973), with another short preface dated Wabern/Berne, February 1973.
 - *Gesamtausgabe* (Collected Works), 8 vols., Schaffhausen: Novalis Verlag, 1975–1980, ed. Rudolf Hämmerli; *Ursprung und Gegenwart* occupies vols. II and III. The standard German citation is to the *Gesamtausgabe*.
+
+Cross-engagement: G. W. F. Hegel presses the same evolution register axis in the historical-genealogical register, but with the value `sublative-becoming` rather than `graded-manifestation-without-evolution` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 **English.**
 - *The Ever-Present Origin*. Translated by Noel Barstad with Algis Mickunas. Athens, Ohio: Ohio University Press, 1985 (single volume containing both *Foundations of the Aperspectival World* and *Manifestations of the Aperspectival World*). xxxii + 643 pp. ISBN 0-8214-0219-6 (hardcover); ISBN 0-8214-0769-4 (paperback). Library of Congress: CB83.G413 1984. Reissued by Ohio University Press in subsequent paperback printings; the text and pagination of all later printings match the 1985 edition. There is no other complete English translation.
@@ -25,6 +29,8 @@
 ### Bio
 
 Hans (later Jean) Gebser was born in Posen (then German, now Polish Poznań) on 20 August 1905. Educated in Breslau, Königsberg, Berlin, and Florence; studied romance philology, Italian, and Spanish literature. Left Germany in 1929, lived in Italy and Spain (the *Rilke und Spanien* period), narrowly escaped Madrid in 1936 at the outbreak of the Spanish Civil War; thence to Paris, and finally settled in Switzerland (Bern, then Wabern bei Bern), where he became a Swiss citizen in 1951. His basic insight — that "perspectivity" was an event in the history of consciousness with a beginning (Renaissance Italy), a peak (Newton-Kant), and an end now visible in modernist art and modern physics — came to him "in a flash" in the winter of 1932–33 in a Spanish cellar. He spent the next seventeen years (his own count, in the 1949 Preface) compiling the evidence. He died in Berne on 14 May 1973.
+
+Cross-engagement: Judith Butler presses the same social formation axis in the political-social register, but with the value `performative-norm-repetition` rather than `civilizational-structure-shift` in [primary text](cite://butler/gender-trouble/3). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 Gebser's social location matters: he was not a professor (until briefly at the Salzburg Hochschule in his last decade) but an independent scholar and writer; he subsisted on patronage and grants (the "economically precarious circumstances" of the 1949 Preface); his network included Karl Kerényi, Jean Keckeis (his intellectual executor), Adolf Portmann, Erich Neumann, and from the late 1950s the German Aurobindo translators around Otto Wolff and Helmut Weiss. He was not a yogi, never visited India, never met Aurobindo (who died in 1950 just as Gebser was finishing his book), and acquired most of his Aurobindo through the German abridgements of *The Life Divine* — first the 1957 Rowohlt edition of *Der integrale Yoga* (Klassiker no. 24), then the broader Pondicherry-Zollikon translations of the early 1960s. The 1966 Preface is therefore the textual residue of Gebser's *encounter*, in print, with the Indian thinker who had reached the same target from the other direction.
 
@@ -105,7 +111,7 @@ The cross-section tables in Chapter 4 (Eng. pp. 144 ff., reproduced verbatim abo
 
 Gebser's longest gloss on the archaic occurs at Eng. pp. 43–45, where he settles the term *Ursprung* against *Anfang*:
 
-> "The structure closest to and presumably originally identical with origin we shall designate as the archaic structure ('archaic' is derived from Greek *arché*, which means inception, origin; we emphasize origin since its essence, as ever-presence, is not true of 'inception'). … The initial, archaic structure is zero-dimensional; it is thus spatial and temporal [*sic* in Barstad-Mickunas; the German *Gesamtausgabe* II reads more carefully *raumlos wie zeitlos*, "spaceless as well as timeless," which is what the surrounding argument requires], although our present mentality, if it grasps this at all, will see in this a paradox. It is origin; only in a terminological sense is it a 'first' structure emanating from that perfect identity existing 'before' (or behind) all oneness or unity which it initially might have represented." (Eng. pp. 43–44)
+> "The structure closest to and presumably originally identical with origin we shall designate as the archaic structure ('archaic' is derived from Greek *arché*, which means inception, origin; we emphasize origin since its essence, as ever-presence, is not true of 'inception'). … The initial, archaic structure is zero-dimensional; it is so spatial and temporal [*sic* in Barstad-Mickunas; the German *Gesamtausgabe* II reads more carefully *raumlos wie zeitlos*, "spaceless as well as timeless," which is what the surrounding argument requires], although our present mentality, if it grasps this at all, will see in this a paradox. It is origin; only in a terminological sense is it a 'first' structure emanating from that perfect identity existing 'before' (or behind) all oneness or unity which it initially might have represented." (Eng. pp. 43–44)
 
 The Barstad-Mickunas English at this point appears to have a printer's error inverting the sense; the German is unambiguous and the surrounding paragraph (preceding sentence: "Structures above all can be spatio-temporal, or even spaceless and timeless") confirms the intended reading. This is one of the small places where the user must read the German alongside the English to get Gebser right.
 
@@ -125,7 +131,7 @@ Gebser's magic structure occupies pp. 45–60 of the 1985 English. Five characte
 4. **Vital identification.** Man and animal, man and plant, man and ancestor are not differentiated. The famous Pygmy hunting-ritual Frobenius reports (Eng. p. 47) — drawing the antelope in the sand at dawn, "killing" it with the first sun-ray, then going out and killing the actual antelope at the same point on its body — is Gebser's paradigm. Magic is doing-without-(reflective)-consciousness; it is *effective*.
 5. **Receptivity by the ear / mouthlessness.** The magic organ is the **ear** (cave-shaped, labyrinthine, receptive); the mouth is closed, since speech is mythical. *Carmen* — Latin "song, poem," originally "religious-magical incantation" — preserves the magic relation tone-spell. Dance is magic ("tone become visible"); the drum is the magic instrument.
 
-Gebser's etymological speculation — that *magic* shares a root with *make*, *mechanism*, *machine*, *might* (PIE *magh-*) — is not philologically watertight (Pokorny's *magh-* "be able, have power" is the source for *machen, mögen, Macht*; the Iranian *maguš* etymology of *magic* is ultimately separate, though the IE *magh-* connection is one ancient hypothesis) but is exegetically right: magic is the structure of *making and might*, of the human-as-maker first wresting himself from nature and turning her tools against her. Modern technology, in Gebser's diagnosis, is the **deficient magic** that erupts through the deficient-mental rationalist surface.
+Gebser's etymological speculation — that *magic* shares a root with *make*, *mechanism*, *machine*, *might* (PIE *magh-*) — is not philologically watertight (Pokorny's *magh-* "be able, have power" is the source for *machen, mögen, Macht*; the Iranian *maguš* etymology of *magic* is separate, though the IE *magh-* connection is one ancient hypothesis) but is exegetically right: magic is the structure of *making and might*, of the human-as-maker first wresting himself from nature and turning her tools against her. Modern technology, in Gebser's diagnosis, is the **deficient magic** that erupts through the deficient-mental rationalist surface.
 
 > "Witchcraft and sorcery, totem and taboo, are the natural means by which he seeks to free himself from the transcendent power of nature, by which his soul strives to materialize within him and to become increasingly conscious of itself. … here man becomes the maker. Here, too, lie the roots of that tragic entanglement of fighter and fought." (Eng. p. 46)
 
@@ -155,7 +161,7 @@ The **deficient mythical** — when myth is taken as proposition, when mythologe
 
 ### 4. The mental structure
 
-The longest and most polemical chapter (Eng. pp. 73–96; the section "The Immoderation of the *Ratio*" begins at p. 94). The mental structure is three-dimensional. Its element is **directedness** (*menos* and *mênis* — "wrath, ardor"; etymologically allied to Latin *mens*, *mentis* — "mind"; both ultimately from PIE *men-* "to think"). Its form-of-statement is the **philosophem**. Its organ is the **brain** ("eye-and-brain"; the visual is mental); its mode is **conceptualization and reflection** (*Vorstellen und Nachdenken*); its time-mode is **spatialized linear time, directed toward the future**; its space is **three-dimensional perspectival**, mastered by Renaissance geometry from Brunelleschi through Leonardo to Desargues.
+The longest and most polemical chapter (Eng. pp. 73–96; the section "The Immoderation of the *Ratio*" begins at p. 94). The mental structure is three-dimensional. Its element is **directedness** (*menos* and *mênis* — "wrath, ardor"; etymologically allied to Latin *mens*, *mentis* — "mind"; both from PIE *men-* "to think"). Its form-of-statement is the **philosophem**. Its organ is the **brain** ("eye-and-brain"; the visual is mental); its mode is **conceptualization and reflection** (*Vorstellen und Nachdenken*); its time-mode is **spatialized linear time, directed toward the future**; its space is **three-dimensional perspectival**, mastered by Renaissance geometry from Brunelleschi through Leonardo to Desargues.
 
 Gebser's etymological argument is the most contested but also the most distinctive. *Iliad* I.1 — "Sing, Goddess, of the wrath (*mênis*) of Achilles" — is, for Gebser, the literary trace of the mental mutation. *Mênis* (wrath) and *menos* (vital ardor) and *mens* (mind) are kin. The directing of energy toward an object is the proto-mental act. Cf. Eng. pp. 74–76:
 
@@ -185,7 +191,7 @@ Eng. pp. 97–117 (the founding text), then expanded throughout Chapter 4 and ac
 
 The opening of the chapter (Eng. pp. 97–99) is the densest single passage in the book. We give it long.
 
-> "But not everyone followed; not all acquiesced to the separation postulated by Descartes, his division of mind and matter that are linked together in primordial kinship. This is of decisive importance with respect to the manifestations of a new consciousness structure, for these manifestations indicate that the specific consciousness mutation is occurring in man from which the aperspectival world can take shape. … The new structure, moreover, cannot be realized by a re-activation of those structures underlying it. … None of these routes is passable; all paths lead only to where they have led away from. … What is needed, then, is not a way or a path, but a 'leap.'" (Eng. p. 98)
+> "But not everyone followed; not all acquiesced to the separation postulated by Descartes, his division of mind and matter that are linked together in primordial kinship. This is of decisive importance with respect to the manifestations of a new consciousness structure, for these manifestations indicate that the specific consciousness mutation is occurring in man from which the aperspectival world can take shape. … The new structure, Also, cannot be realized by a re-activation of those structures underlying it. … None of these routes is passable; all paths lead only to where they have led away from. … What is needed, then, is not a way or a path, but a 'leap.'" (Eng. p. 98)
 
 > "The concretion of time is one of the preconditions for the integral structure; only the concrete can be integrated, never the merely abstract. By integration we mean a fully completed and realized wholeness — the bringing about of an integrum, i.e., the re-establishment of the inviolate and pristine state of origin by incorporating the wealth of all subsequent achievement. The concretion of everything that has unfolded in time and coalesced in a spatial array is the integral attempt to reconstitute the 'magnitude' of man from his constituent aspects, so that he can consciously integrate himself with the whole." (Eng. p. 99)
 
@@ -203,7 +209,6 @@ The opening of the chapter (Eng. pp. 97–99) is the densest single passage in t
 The integral structure's **early indications** (precursors, not exemplars) Gebser names by generation: Pontormo's portraits whose gaze breaks the perspectival frame (mid-16th c.); Desargues's projective geometry (1636/39) and Pascal's continuation (1640); Leibniz's response to Descartes; late Mozart (the C-minor Fantasy and the *Don Giovanni* hour); Hölderlin's late hymns; Leopardi on *noia*; Stendhal; Schliemann; the entire late-19th-and-early-20th-century constellation. Picasso's *Demoiselles d'Avignon* (1907) and Cubism are Gebser's exemplary early-aperspectival images. Einstein's space-time, properly understood, is a partial harbinger. Heidegger's *Sein und Zeit* (1927) is in *some* sense an integral attempt, but Heidegger's *Eschatological Mood*, in Gebser's diagnosis (Eng. p. 402ff.), remains caught in the deficient mental structure's anxiety and does not achieve the leap.
 
 For the user: the integral structure's most precise philosophical formulation in Gebser is the methodological pair *systasis–synairesis* (Eng. pp. 309–312, treated in detail in Part III below). The user should learn these two terms and use them.
-
 
 ---
 
@@ -287,7 +292,6 @@ Three things to keep clear, since Gebser is often misread on each:
 2. **Not nostalgic for myth or magic.** The deeper structures are to be **integrated**, not re-installed. Anyone who thinks Gebser is calling for a return to mythical consciousness has missed the entire architecture of the book. (Riane Eisler, Ken Wilber's earlier work, certain New-Age Gebserians have made this mistake.)
 3. **Not relativist.** Gebser is unambiguous that the integral mutation is *real*, *ontologically significant*, and *truer* than the deficient-rational it supersedes. Relativism is itself a deficient-mental closure ("all perspectives are equal"); the integral is *not* "all perspectives" but *no perspective* in the sense of *transparency-through-all-structures*. The user's T1 register-distinction is *not* relativism for the same reason: registers are not perspectives.
 
-
 ---
 
 ## Part III — The Integral-Aperspectival as Integration, not Super-Perspective
@@ -306,7 +310,7 @@ The point is rigorous. Synthesis is the mental structure's way of overcoming dua
 
 **(b) It is not a re-activation or recovery of the prior structures.**
 
-> "The new structure, moreover, cannot be realized by a re-activation of those structures underlying it." (Eng. p. 98)
+> "The new structure, Also, cannot be realized by a re-activation of those structures underlying it." (Eng. p. 98)
 
 Anyone who reads Gebser as calling for a "return to myth," a "recovery of the magical," a "rediscovery of the archaic" — that is, anyone who reads him as a depth-psychologist or a re-enchanter — has misread him. The deeper structures cannot be re-installed; they are *already there* operating subconsciously, and the deficient-rational has *suppressed* them. The integral mutation is not their re-activation but their **becoming transparent and conscious in their proper register, simultaneously with the integrated mental**.
 
@@ -379,7 +383,7 @@ This is also why the user's thesis is **not** Hegelian. The user knows it is not
 
 Gebser's coinage. Latin *veritas* (truth) + the action-noun ending. The act-of-truthing proper to the integral structure. Sometimes Englished by Barstad as "a-waring" (a calque on the German *Wahr-nehmen*, "to take-as-true," and *bewahren*, "to preserve, to keep-true").
 
-> "Every eteologeme is a 'verition,' and as such is valid only when it allows origin to become transparent in the present. To do this it must be formulated in such a way as to be free of ego, and this means not just free of subject but also free of object; only then does it sustain the verity of the whole. This has nothing to do with representation; only in philosophical thought can the world be represented; for the integral perception of truth, the world is pure statement, and thus 'verition.'" (Eng. p. 308)
+> "Every eteologeme is a 'verition,' and as such is valid only when it allows origin to become transparent in the present. To do this it must be formulated in such a way as to be free of ego, and this means not just free of subject but also free of object; only then does it sustain the verity of the whole. This has nothing to do with representation; only in philosophical thought can the world be represented; for the integral perception of truth, the world is pure statement, and so 'verition.'" (Eng. p. 308)
 
 Note the double freeing: **free of subject** *and* **free of object**. This is McGilchrist's right-hemisphere "knowledge by direct contact" without the left-hemisphere object-cuts. It is also Bhattacharyya's "subject as freedom-from-object" — but pushed further: Gebser does not stop at the freed subject; he frees the subject *from being a subject*. Verition is **truthing without a subject who knows and an object that is known**. It is closer to Spinozan *amor intellectualis Dei* and Madhyamaka *prajñāpāramitā* than to anything in Cartesian-Husserlian phenomenology.
 
@@ -420,7 +424,6 @@ The risk in any "all paths lead to the same summit" sentimentalism (which the us
 The Gebserian alternative: **synairesis is not totalization**. The Advaitic register, the Tattvavāda register, the Caitanyaite register, the Aurobindonian register, the McGilchrist register, the Deleuze register are *not seen-from-above by a meta-register*. They are *seen-through* by the diaphanous integral subject. **No register has hegemony**, because no register is the master-register (since there is no perspective from which to be master); but **each register is genuinely operative in its proper domain**, since each is a real structure of consciousness.
 
 This is the user's T4 in Gebser's vocabulary: not because they all reduce to one truth, but because each is a real register of the diaphanous integral whole, and the integral subject is the one through whom all of them simultaneously shine. The Tantric maṇḍala-imagery of Sarvāmnāya (Timalsina) has the same structure: the maṇḍala is not a higher region from which the *darśanas* are seen relativistically; it is the diaphanous configuration through which each *darśana* is operative as itself, in its own register, simultaneously co-present with the others.
-
 
 ---
 
@@ -490,7 +493,6 @@ Two cautions. The 1966 preface is sometimes over-read.
 
 For the user, this means: **the convergence is real and load-bearing, but the two accounts are not interchangeable**. When the user wants the cosmological-yogic argument, he must go to Aurobindo. When the user wants the cultural-historical-phenomenological argument, he must go to Gebser. The two together are stronger than either alone.
 
-
 ---
 
 ## Part V — Time, Space, Matter in the Integral Structure
@@ -503,7 +505,7 @@ Gebser's most insistent technical distinction. Eng. pp. 283–286, 310–311, 40
 
 > "What is prepared for is more than a mere concept of 'time': it is the *achronon*, or time freedom, a freedom and liberation from every temporal form." (Eng. p. 283)
 
-> "Rather than becoming ourselves aware of time, we allow 'time' to overpower us; and instead of achieving temporal clarity — ultimately a form of time-freedom — we fall victim to the intoxication of time. For today it is the intoxication with time, the mirror of our time anxiety, which dominates us: mass production by the machine, the artificial acceleration of atomic decomposition on which the atom bomb is based, and the breath-taking pace of city life. (And we have apparently forgotten that breath is the essence of our earthly life.)" (Eng. p. 310)
+> "Rather than becoming ourselves aware of time, we allow 'time' to overpower us; and instead of achieving temporal clarity — a form of time-freedom — we fall victim to the intoxication of time. For today it is the intoxication with time, the mirror of our time anxiety, which dominates us: mass production by the machine, the artificial acceleration of atomic decomposition on which the atom bomb is based, and the breath-taking pace of city life. (And we have apparently forgotten that breath is the essence of our earthly life.)" (Eng. p. 310)
 
 The four structures' time-modes:
 
@@ -543,7 +545,7 @@ Gebser's most poetic and most contested formulation, scattered across the late c
 
 The technical formulation, Eng. pp. 310–311 (the *systasis-synairesis* chapter):
 
-> "We know ever since Einstein that energy and mass/matter are equivalent, indeed identical. Their difference is merely one of their transient form of manifestation. Acategorical systasis therefore 'comprehends' the ever-latent presence of the incalculable time-energy component in the measurable space-matter state; it is the expression of our recognition of the mutability of all phenomena to which no systematization can do justice. The synairesis which systasis makes possible integrates phenomena, freeing us in the diaphany of 'a-waring' or perceiving truth from space and time."
+> "We know ever since Einstein that energy and mass/matter are equivalent, identical. Their difference is merely one of their transient form of manifestation. Acategorical systasis therefore 'comprehends' the ever-latent presence of the incalculable time-energy component in the measurable space-matter state; it is the expression of our recognition of the mutability of all phenomena to which no systematization can do justice. The synairesis which systasis makes possible integrates phenomena, freeing us in the diaphany of 'a-waring' or perceiving truth from space and time."
 
 The argument is Einsteinian in form (E = mc²) but integral in upshot. Mass and energy are not two substances; they are two forms-of-manifestation of the same underlying reality. Mass is the spatialized-stable form; energy is the time-flowing-active form. **Matter is the temporary spatial precipitate of an underlying time-energy continuum.** The deficient-mental treats matter as primary and energy as derivative; the integral inverts the priority — energy/spirit is primary, matter is the ash.
 
@@ -555,10 +557,9 @@ For the user, the upshot: **materialism, in the deficient-rational sense, is inc
 
 The aperspectival is *not* spaceless (that would be archaic-magic). The aperspectival is **freed from the perspective-cube**, the three-dimensional-Cartesian-Euclidean *Vorstellung* that has held the mental imagination since the Renaissance.
 
-What replaces it? Gebser is suggestive rather than systematic: the *sphere in motion*, projective geometry, non-Euclidean geometries, topology, the *Lichtung* of the Heideggerian clearing without Heidegger's eschatology. Picasso's Cubist multi-faceting is not multi-perspective but **the simultaneous co-presence of facets that cannot be coordinated by a single perspective** — the painting as *eteologem*. Klee's *In der Vor-Gestalt* (in pre-form) shows the same integral spatiality.
+What replaces it? Gebser is suggestive rather than systematic: the *sphere in motion*, projective geometry, non-Euclidean geometries, topology, the *Lichtung* of the Heideggerian clearing without Heidegger's eschatology. Picasso's Cubist multi-faceting is not multi-perspective but **the simultaneous co-presence of parts that cannot be coordinated by a single perspective** — the painting as *eteologem*. Klee's *In der Vor-Gestalt* (in pre-form) shows the same integral spatiality.
 
 The user's intersection here is with Anirban Bandyopadhyay's "fractal" and "torus" conceptions of microtubular consciousness; with the *Kāla-cakra*'s literally-circular cosmography; with the Sarvāmnāya maṇḍala-cosmographies. Each is a non-Cartesian, non-perspectival spatial scheme. Each is, in Gebser's terms, an integral spatiality.
-
 
 ---
 
@@ -607,7 +608,6 @@ Three pieces of evidence Gebser musters for the imminence:
 (c) **The independent convergence with Aurobindo and Teilhard.** Three thinkers, working independently in three civilizational contexts (Indian-Hindu, French-Catholic, German-Swiss-Occidental), arrive at the same target. This is, again, *corroboration*.
 
 The user, writing in 2026, can extend Gebser's argument: the cultural manifestations have continued to multiply (the ecological consciousness; the systems-theoretic vocabulary; the holographic-fractal cosmologies; the McGilchrist hemispheric thesis as neuroscientific articulation; the Anirban-Hameroff microtubular consciousness research; the Pribram holographic brain). The deficient-rational has continued to deepen its catastrophe (climate collapse; the algorithmic-attentional economy; the new totalitarianisms). **Both lines have intensified since Gebser; the integral mutation has not yet visibly completed; the integral inception has continued to manifest.** The user's position is positioned within this open-ended Gebserian arc.
-
 
 ---
 

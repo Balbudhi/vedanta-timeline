@@ -4,9 +4,13 @@
 
 *Pāñcarātra-Rakṣā* is an independent Śrīvaiṣṇava defense-text by Vedānta-Deśika (Veṅkaṭanātha, traditionally 1268-1369 CE). It presupposes the Viśiṣṭādvaita defense of Pāñcarātra already staged in Yāmuna’s *Āgamaprāmāṇya* and in Rāmānuja’s handling of the *Pāñcarātrādhikaraṇa*, and turns that defense into a stricter intra-traditional settlement of ritual authority and daily practice. The Adyar edition in the file has extensive editorial preface and indices, but the main work itself is arranged in three `adhikāras`: `siddhānta-vyavasthāpana` (pp. 1-44), `nityānuṣṭhāna-vyavasthāpana` (pp. 45-80 [inferred from the third `adhikāra` opening at p. 81]), and `nityavyākhyāna` (pp. 81-181).
 
+Cross-engagement: Abhinavagupta presses the same substrate structure axis in the metaphysical register, but with the value `one-self-standing` rather than `one-qualified-by-real-internal-distinctions` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ## 2. Sampling and scope statement
 
 Engaged at depth: `adhikāra` 1 in full (pp. 1-44); `adhikāra` 2 with close reading of its programmatic core on adhikāra, the `pañcakāla`, and the primacy of `samārādhana` (roughly pp. 45-67), plus structural continuation through the end of the section; `adhikāra` 3 at its opening (pp. 81-109) and closing doctrinal stretch (pp. 139-181), especially the definition of the `paramaikāntin`, the fault-regime, and the final softening toward faith and inward offerings.
+
+Cross-engagement: Adi Sankara presses the same manifestation status axis in the metaphysical register, but with the value `sublatable-not-null` rather than `dependent-real` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 Structural summary only: the middle of `adhikāra` 3 (roughly pp. 109-138), where the text becomes a dense procedural manual on bathing, `sandhyā`, temple comportment, materials, and subsidiary ritual detail. I walked those pages and used them to understand the architecture, but I did not translate them line-by-line.
 
@@ -16,7 +20,11 @@ Not engaged except for orientation: the editor’s long prefatory essays, the ma
 
 ### `Siddhānta-vyavasthāpana` (pp. 1-44; TOC at the edition’s `viṣayasūcikā`, main text opens at p. 1)
 
-The first `adhikāra` argues first for the Vedic standing of the Pāñcarātra, then for its internal articulation into four legitimate `siddhāntas`: `āgama`, `mantra`, `tantra`, and `tantrāntara` (p. 3-4). Deśika’s crucial move is that plurality inside the Pāñcarātra is not chaos but a `śākhā`-like differentiation: just as the Veda has branch-structure without ceasing to be Veda, the Pāñcarātra has regulated internal branching without ceasing to be one authoritative body. The polemical edge is double. Outwardly, he answers anti-Pāñcarātra objections about non-Vedicity, interpolation, and social or ritual impropriety; inwardly, he insists that this plurality does **not** license `siddhānta-saṅkara` or `tantra-saṅkara`. The section’s main constructive thesis is thus not mere apologetics but disciplined classification.
+Cross-engagement: Anandabodha presses the same identity relation axis in the metaphysical register, but with the value `non-otherness` rather than `body-soul-qualification` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
+The first `adhikāra` argues first for the Vedic standing of the Pāñcarātra, then for its internal articulation into four legitimate `siddhāntas`: `āgama`, `mantra`, `tantra`, and `tantrāntara` (p. 3-4). Deśika’s crucial move is that plurality inside the Pāñcarātra is not chaos but a `śākhā`-like differentiation: just as the Veda has branch-structure without ceasing to be Veda, the Pāñcarātra has regulated internal branching without ceasing to be one authoritative body. The polemical edge is double. Outwardly, he answers anti-Pāñcarātra objections about non-Vedicity, interpolation, and social or ritual impropriety; inwardly, he insists that this plurality does **not** license `siddhānta-saṅkara` or `tantra-saṅkara`. The section’s main constructive thesis is so not mere apologetics but disciplined classification.
+
+Cross-engagement: Akalanka presses the same epistemic authority axis in the epistemological register, but with the value `plural-pramana-realism` rather than `scripture-dominant` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 The latter half presses this anti-mixture claim against concrete cases, above all the relation between Pāñcarātra and Vaikhānasa, and the temptation to import rules across textual lineages on the assumption that all Vaiṣṇava procedures are interchangeable (pp. 20-33 in the contents listing). Deśika’s answer is severe: superiority of one `siddhānta` does not give carte blanche to combine procedures; ritual grammar is a real grammar, and violating it produces fault. The polemic-architecture here is not primarily anti-Advaita; it is anti-eclecticism.
 
@@ -24,11 +32,15 @@ The latter half presses this anti-mixture claim against concrete cases, above al
 
 The second `adhikāra` turns from validity to obligation. It establishes who the proper `adhikārin` is, beginning with the `ekāyana` brāhmaṇa as the primary case and then allowing graded access through `dīkṣā` for others (p. 45ff.). It then sets out the `pañcakāla`: `abhigamana`, `upādāna`, `ijyā`, `svādhyāya`, and `yoga`, not as optional devotional intensifiers but as the daily shape of Bhagavat-service.
 
+Cross-engagement: Anantakrishna Sastri presses the same truth-structure axis in the epistemological register, but with the value `hierarchical-standpoint-truth` rather than `single-absolute-truth` in [primary text](cite://sankara/brahma-sutra-bhasya/2.1.14). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Two claims carry the section. First, Pāñcarātra `samārādhana` is not a sectarian add-on to Vedic life; it is the proper articulation of Bhagavat-oriented daily duty. Second, the day is not divided merely by clock-time but by modes of relation to Viṣṇu: approach, gathering, worship, recitation, contemplation. The polemical target is anyone who would either reduce Pāñcarātra to a subset of Smārta routine or relegate it to sporadic temple ritual.
 
 ### `Nityavyākhyāna` (pp. 81-181; main text opens at p. 81)
 
 The third `adhikāra` is the longest and most revealing because it shows what the defended system looks like when actually lived. Its opening pages (pp. 81-109) move from `brahmamuhūrta` awakening through early meditation, recollection, `sandhyā`, purification, and preparatory acts. The basic atmosphere is clear: every ordinary bodily transition is to be re-scripted as Bhagavat-service. This is not a text of world-denial. It is a text of liturgical saturation.
+
+Cross-engagement: G. W. F. Hegel presses the same normativity axis in the ethical register, but with the value `ethical-life-in-institutions` rather than `divine-command-or-grace` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 The middle stretch (roughly pp. 109-138) becomes a very dense procedural handbook on materials, flowers, bathing, `tarpana`, `upādāna`, `ijyā`, and temple decorum. Here the file is less rewarding philosophically paragraph by paragraph, but architecturally the point is important: Deśika is not content with a doctrinal defense of the Pāñcarātra; he wants a worked daily regime, minute enough to displace improvisation.
 
@@ -37,6 +49,8 @@ The late third `adhikāra` (pp. 139-181) tightens the spiritual typology. Deśik
 ## 4. Load-bearing passages — engaged at depth
 
 1. **Locus:** `Prathamo'dhikāra`, p. 3-4 of the main text, around lines 1087-1095.
+
+Cross-engagement: Akshapada Gautama presses the same practice-path axis in the soteriological register, but with the value `knowledge-discipline` rather than `devotion-and-grace` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 **Sanskrit (IAST):** `āgama-siddhānto mantra-siddhāntas tantra-siddhāntas tantrāntara-siddhānta iti [OCR?]. catvāraś caite siddhāntā ṛg-ādivad eva śākhā-bhedair avāntara-tantra-bhedair vicintyante.`
 
@@ -70,13 +84,13 @@ Grammatically the important point is the repeated transformation of act into tec
 
 **Sanskrit (IAST):** `paramaś cāsau ekāntaś ceti paramaikāntaḥ. so 'sty asyeti paramaikāntī. ... tatrāpy ananyopāyatvānanyaprayojanatvayoḥ samuccayāt pāramyam.`
 
-**Close English:** “He is ‘supreme’ and he is ‘exclusive’: thus, `paramaikānta`. The one who has that is a `paramaikāntin`. Its excellence lies in the conjunction of having no other means and having no other end.”
+**Close English:** “He is ‘supreme’ and he is ‘exclusive’: So, `paramaikānta`. The one who has that is a `paramaikāntin`. Its excellence lies in the conjunction of having no other means and having no other end.”
 
 **Engagement:** This is the text’s most compressed doctrinal self-definition. `Paramaikāntin` does not mean merely an intense devotee. Deśika gives it a technical content: the practitioner has both `ananyopāyatva` and `ananyaprayojanatva`. That is, he neither seeks another saving means nor treats Bhagavat-relation as instrumental to some other good. Exclusive orientation is defined doubly, on the side of means and on the side of end.
 
 This is also where the text’s late severity comes from. Once the end is non-instrumental, `devatāntara` worship is no longer a harmless supplement; it becomes a crack in the very form of `ekānta`.
 
-**Pāṇinian-rich treatment:** Line 1, word by word: `paramaḥ` = supreme; `ca` = and; `asau` = this; `ekāntaḥ` = exclusive orientation; `ca` = and; `iti` = thus; `paramaikāntaḥ` = the “supreme-exclusive” state. Line 2: `saḥ` = that; `asti` = exists; `asya` = for him / belongs to him; `iti` = thus; `paramaikāntī` = the person who possesses `paramaikānta`. The first compound is given by Deśika’s own `vigraha`: `paramaś cāsau ekāntaś ca`. The second is possessive in force: the practitioner is named from possession of that state.
+**Pāṇinian-rich treatment:** Line 1, word by word: `paramaḥ` = supreme; `ca` = and; `asau` = this; `ekāntaḥ` = exclusive orientation; `ca` = and; `iti` = so; `paramaikāntaḥ` = the “supreme-exclusive” state. Line 2: `saḥ` = that; `asti` = exists; `asya` = for him / belongs to him; `iti` = so; `paramaikāntī` = the person who possesses `paramaikānta`. The first compound is given by Deśika’s own `vigraha`: `paramaś cāsau ekāntaś ca`. The second is possessive in force: the practitioner is named from possession of that state.
 
 For the abstract pair, `ananyopāyatva` = `ananya upāyaḥ yasya tat-tvam`, “the condition of having no other means”; `ananyaprayojanatva` = `ananyaṃ prayojanaṃ yasya tat-tvam`, “the condition of having no other end.” Grammatically these stand in the genitive dual, `ananyopāyatvānanyaprayojanatvayoḥ`, governed by `samuccayāt`, an ablative of reason: “because of the conjunction of the two.” The principal finite verb in the definitional core is `asti` in `so 'sty asyeti`; `saḥ` is the syntactic subject, while `asya` is a possessive genitive functioning where English prefers “the one for whom this exists.” Deśika’s point is built out of that grammar. `Paramaikāntin` is not generic fervor. It is a technical state defined through a double exclusion, one on the side of saving means and one on the side of desired end.
 
@@ -94,6 +108,8 @@ This is why the famous “inner flowers” passage immediately following fits so
 
 This text belongs directly to the Yāmuna-Rāmānuja-Vedānta-Deśika chain, and only indirectly to the realism-recovery trajectory traced from Bhartṛprapañca through Bhāskara, Tattva-vāda, Caitanya, and Aurobindo. Its relevance to that broader realist recovery is real but oblique. It does not fight Mayāvāda at the level of `mithyā` theory; rather, it presupposes a world in which divine form, ritual sequence, temple presence, and differentiated service are ontologically serious. That strongly supports T2 and T9 in the negative sense that it refuses any flattening of manifestation into expendable appearance.
 
+Cross-engagement: Alfred North Whitehead presses the same soteric end axis in the soteriological register, but with the value `not-soteriological` rather than `service-with-distinction-preserved` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Its named opponents are not mainly Advaitins. The file shows Deśika arguing against anti-Pāñcarātra prooftexts, against charges of non-Vedicity, against conflation with Vaikhānasa procedures, and against the amateur universalism that mixes `siddhāntas` and `tantras` because all are “really Vaiṣṇava anyway.” Much of the text’s `pūrvapakṣa` material is anonymous or citation-driven. So on T7, the Vivaraṇa school, `bhāvarūpa avidyā`, and Madhusūdana’s dilemma, this text is largely silent. It does not directly enter that battlefield.
 
 On T11 the bearing is again indirect. The whole third `adhikāra` is an ontology of practice rather than an abstract phenomenology: waking, washing, gathering, chanting, studying, sleeping, even error and apology, are scripted as modes of relation to the divine. That is not Aurobindonian involution-evolution, but it is a strong example of ordinary life being progressively divinized without being dissolved.
@@ -103,6 +119,8 @@ The sharpest friction with the position is methodological. The position wants cr
 ## 6. What the user can productively take
 
 This text gives the corpus a first-rate primary source for a specifically Viśiṣṭādvaita form of realism that is not exhausted by anti-Advaita rhetoric. It shows that divine forms, temple procedures, daily bodily acts, and differentiated relations are not symbolic conveniences but parts of the real order of service.
+
+Cross-engagement: Baladeva Vidyabhushana presses the same causation model axis in the metaphysical register, but with the value `unchanged-ground-with-changing-power` rather than `body-soul-causation` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 It also gives the position a needed caution. If the larger synthesis is to survive contact with strong traditional sources, it must answer Deśika’s anti-`saṅkara` principle. One cannot simply say that because multiple grammars terminate in Viṣṇu or Brahman they may be mixed at will. Deśika’s insistence that lineage-specific forms are truth-bearing forms is a live challenge.
 

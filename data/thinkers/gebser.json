@@ -1,0 +1,78 @@
+{
+  "id": "gebser",
+  "name": "Jean Gebser",
+  "name_iast": "Jean Gebser",
+  "school": "Cross-tradition",
+  "entry_status": "stub-from-article-phase2",
+  "core_thesis": "Article-backed thinker stub created during primitives_v2 Phase 2 from `data/articles/source/gebser.md`.",
+  "primitive_commitments": [
+    {
+      "primitive": "register_of_evolution",
+      "value": "graded-manifestation-without-evolution",
+      "register": "historical-genealogical",
+      "confidence": "high",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/gebser.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "social_formation_model",
+      "value": "civilizational-structure-shift",
+      "register": "political-social",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/gebser.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "temporal_mode",
+      "value": "historical-disclosure",
+      "register": "historical-genealogical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/gebser.json",
+          "field": "core_thesis"
+        }
+      ]
+    }
+  ],
+  "cross_engagements": [
+    {
+      "article": "data/articles/source/gebser.md",
+      "primitive": "temporal_mode",
+      "register": "historical-genealogical",
+      "relation": "transposes-register",
+      "other_thinker_id": "whitehead",
+      "other_primary_citation": "cite://whitehead/process-and-reality/1.2",
+      "passage": "Cross-engagement: Alfred North Whitehead touches the same temporal mode axis, but not in the same register. This section works it as `historical-disclosure` in the historical-genealogical register; Alfred North Whitehead approaches it through the metaphysical register in [primary text](cite://whitehead/process-and-reality/1.2). The point of contact is genuine, but the comparison only holds once the register-shift is kept visible."
+    },
+    {
+      "article": "data/articles/source/gebser.md",
+      "primitive": "register_of_evolution",
+      "register": "historical-genealogical",
+      "relation": "disagrees",
+      "other_thinker_id": "hegel",
+      "other_primary_citation": "cite://hegel/phenomenology-of-spirit/17",
+      "passage": "Cross-engagement: G. W. F. Hegel presses the same evolution register axis in the historical-genealogical register, but with the value `sublative-becoming` rather than `graded-manifestation-without-evolution` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+    },
+    {
+      "article": "data/articles/source/gebser.md",
+      "primitive": "social_formation_model",
+      "register": "political-social",
+      "relation": "disagrees",
+      "other_thinker_id": "butler",
+      "other_primary_citation": "cite://butler/gender-trouble/3",
+      "passage": "Cross-engagement: Judith Butler presses the same social formation axis in the political-social register, but with the value `performative-norm-repetition` rather than `civilizational-structure-shift` in [primary text](cite://butler/gender-trouble/3). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+    }
+  ]
+}

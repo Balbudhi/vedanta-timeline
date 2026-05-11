@@ -56,5 +56,197 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "epistemic_authority",
+      "value": "scripture-dominant",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/dharmaraja.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sureshvara/naishkarmya-siddhi/2.81-95",
+            "cite://aksapada/nyaya-sutra/1.1.4",
+            "cite://badarayana/brahma-sutra/1.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "finite_cognition_model",
+      "value": "positive-ignorance",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/dharmaraja.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sureshvara/naishkarmya-siddhi/2.81-95",
+            "cite://aksapada/nyaya-sutra/1.1.4",
+            "cite://badarayana/brahma-sutra/1.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "identity_relation",
+      "value": "non-otherness",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/dharmaraja.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sureshvara/naishkarmya-siddhi/2.81-95",
+            "cite://aksapada/nyaya-sutra/1.1.4",
+            "cite://badarayana/brahma-sutra/1.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "sublatable-not-null",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/dharmaraja.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sureshvara/naishkarmya-siddhi/2.81-95",
+            "cite://aksapada/nyaya-sutra/1.1.4",
+            "cite://badarayana/brahma-sutra/1.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "modal_structure_of_truth",
+      "value": "hierarchical-standpoint-truth",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/dharmaraja.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sureshvara/naishkarmya-siddhi/2.81-95",
+            "cite://aksapada/nyaya-sutra/1.1.4",
+            "cite://badarayana/brahma-sutra/1.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "knowledge-discipline",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/dharmaraja.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sureshvara/naishkarmya-siddhi/2.81-95",
+            "cite://aksapada/nyaya-sutra/1.1.4",
+            "cite://badarayana/brahma-sutra/1.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "selfhood_structure",
+      "value": "witness-self",
+      "register": "phenomenological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/dharmaraja.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sureshvara/naishkarmya-siddhi/2.81-95",
+            "cite://aksapada/nyaya-sutra/1.1.4",
+            "cite://badarayana/brahma-sutra/1.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "identity-with-ground",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/dharmaraja.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sureshvara/naishkarmya-siddhi/2.81-95",
+            "cite://aksapada/nyaya-sutra/1.1.4",
+            "cite://badarayana/brahma-sutra/1.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "one-self-standing",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/dharmaraja.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sureshvara/naishkarmya-siddhi/2.81-95",
+            "cite://aksapada/nyaya-sutra/1.1.4",
+            "cite://badarayana/brahma-sutra/1.1.1"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

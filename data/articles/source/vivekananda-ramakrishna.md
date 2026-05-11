@@ -8,7 +8,11 @@
 
 ### Two lives, one lineage
 
+Cross-engagement: Adi Sankara presses the same manifestation status axis in the metaphysical register, but with the value `sublatable-not-null` rather than `expressive-manifestation` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Sri **Ramakrishna Paramahaṃsa** (1836–1886), village Brahmin from Kamarpukur and priest of the Kālī temple at **Dakshineswar**, left no writings. The standpoint is preserved by **Mahendranath Gupta** ("M") in the Bengali *Kathāmṛta*, translated by Swami Nikhilananda as *The Gospel of Sri Ramakrishna* (1942): a near-stenographic record of conversations across the last four-and-a-half years of Ramakrishna's life.
+
+Cross-engagement: Anandabodha presses the same identity relation axis in the metaphysical register, but with the value `non-otherness` rather than `self-expression-or-appearance` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 Swami **Vivekananda** (1863–1902, born Narendranath Datta) is Ramakrishna's principal disciple. He met the master in 1881, took *saṃnyāsa* in 1886, represented Hinduism at the 1893 Chicago Parliament, lectured 1893–1900 in America and Britain (the four "Yogas" — *Karma*, *Bhakti*, *Rāja*, *Jñāna*), founded the **Ramakrishna Mission** (1 May 1897) and **Belur Math** (December 1898), died at Belur on 4 July 1902. The nine-volume *Complete Works* (Advaita Ashrama) is the canonical English source.
 
@@ -16,11 +20,15 @@ Swami **Vivekananda** (1863–1902, born Narendranath Datta) is Ramakrishna's pr
 
 The user's reading takes the line **Ramakrishna → Vivekananda → Aurobindo** as a *structural* claim: the philosophical content the user calls Realistic Advaita (T2) is already present, in undeveloped form, in Ramakrishna's *vijñāna* doctrine and in Vivekananda's harmonisation of the four yogas. Aurobindo gives the cosmological and supramental architecture; the Bengali source-material is supplied by the master and his disciple.
 
+Cross-engagement: Akalanka presses the same epistemic authority axis in the epistemological register, but with the value `plural-pramana-realism` rather than `scripture-plus-transformative-experience` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Swami **Medhananda** (formerly Ayon Maharaj) — *Infinite Paths to Infinite Reality* (Oxford 2018), *Swami Vivekananda's Vedāntic Cosmopolitanism* (Oxford 2022) — provides the contemporary scholarly reconstruction. The user accepts the reading of *content* and adds: (a) the content was articulated decades earlier by Aurobindo as Realistic Adwaita; (b) the move Medhananda treats as outside Śaṅkarite Advaita is already available *inside* Advaita correctly performed (Vivaraṇa, Madhusūdana's *Bhakti-rasāyana*, Kashmir-Śaiva *svātantrya*). Companion document `21_medhananda.md` treats Medhananda's apparatus in detail.
 
 ### The central thread: *vijñāna*
 
 The single most important word in this reader is **vijñāna**. Ramakrishna uses it in a precise technical sense, distinct from its Sanskrit-philosophical sense in (e.g.) Yogācāra Buddhism or Sāṅkhya psychology. In Ramakrishna's idiolect:
+
+Cross-engagement: G. W. F. Hegel presses the same normativity axis in the ethical register, but with the value `ethical-life-in-institutions` rather than `divine-command-or-grace` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 - *ajñāna* — ignorance: hearing about milk.
 - *jñāna* — knowledge: seeing milk.
@@ -36,6 +44,8 @@ This is the philosophical core. Everything else in the reader — Vivekananda's 
 
 Ramakrishna's Bengali aphorism *যত মত তত পথ* (*yata mat tata path* — "as many faiths, so many paths") is sometimes read as a generic gesture of religious tolerance. The user's reading, following Medhananda, is more demanding: it is **manifestationist pluralism**, not Hickian or perennialist pluralism. The Real has the inherent capacity to be encountered as personal, impersonal, with form, without form, dual, non-dual; each tradition realizes a real aspect; the apparent contradictions are not signs that something must be wrong somewhere, but evidence of the Real's own bivalence (T1, T4). The *parable of the blind men and the elephant*, the *parable of the chameleon under the tree*, are doctrinal — not sentimental — statements.
 
+Cross-engagement: Akshapada Gautama presses the same practice-path axis in the soteriological register, but with the value `knowledge-discipline` rather than `transformative-integration` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Vivekananda's *jñāna-bhakti-karma-rāja* synthesis is the practical extension of this. The four "yogas" are not stages on a single ladder; they are **four equal paths** for differently constituted persons (T12, *adhikāra*). Each is structurally complete: each can deliver liberation in its own idiom. This is what Medhananda calls the **yoga-equality** thesis, and it is structurally homologous to T1's *darśana*-register thesis — the same point at the level of practice that the *darśana*-thesis makes at the level of philosophy.
 
 ### The user's interest
@@ -44,6 +54,8 @@ Vivekananda's *jñāna-bhakti-karma-rāja* synthesis is the practical extension 
 - **T5.** Ramakrishna's "vijñāna sees both" is the directive: the integrated landing where impersonal-realization and personal-relation are both real registers.
 - **T6.** The *vijñānī* who "comes down from samādhi" formulates the *paramādvaita* / supramental landing.
 - **T8/T10.** Vivekananda's *Karma-Yoga* "Give up all fruits of work; do good for its own sake" is the paradigmatic statement of *niṣkāma karma* + total surrender.
+
+Cross-engagement: Abhinavagupta presses the same soteric end axis in the soteriological register, but with the value `recognition-or-freedom` rather than `transformation-of-life` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 ### Hindu-nationalist misreading: prohibition
 
@@ -211,7 +223,7 @@ The *Karma-Yoga* lectures (New York, December 1895–January 1896; stenographic 
 
 The motto of *Karma-Yoga* is the Gītā's *karmaṇy evādhikāras te mā phaleṣu kadācana* — "your authority is in action alone, never in its fruits." Vivekananda restates this in a series of formulations across the lecture-cycle:
 
-> "Give up all fruits of work; do good for its own sake; then alone will come perfect non-attachment. The bonds of the heart will thus break, and we shall reap perfect freedom. This freedom is indeed the goal of Karma-Yoga."
+> "Give up all fruits of work; do good for its own sake; then alone will come perfect non-attachment. The bonds of the heart will so break, and we shall reap perfect freedom. This freedom is the goal of Karma-Yoga."
 >
 > — *CW* Vol. I, *Karma-Yoga*, Ch. III (~ p. 50; passage on the Gītā teaching of duty)
 
@@ -375,7 +387,7 @@ The user's T12 (decentralized philosophy / *adhikāra*) and T6 (the bhakti-termi
 
 Vivekananda divides bhakti into *gauṇī* (preparatory) and *parā* (supreme):
 
-> "Bhakti-Yoga, as we have said, is divided into the *Gauni* or the preparatory, and the *Parâ* or the supreme forms. We shall find, as we go on, how in the preparatory stage we unavoidably stand in need of many concrete helps to enable us to get on; and indeed the mythological and symbological parts of all religions are natural growths which early environ the aspiring soul and help it Godward."
+> "Bhakti-Yoga, as we have said, is divided into the *Gauni* or the preparatory, and the *Parâ* or the supreme forms. We shall find, as we go on, how in the preparatory stage we unavoidably stand in need of many concrete helps to enable us to get on; and the mythological and symbological parts of all religions are natural growths which early environ the aspiring soul and help it Godward."
 >
 > — *CW* Vol. III, *Bhakti-Yoga*, Ch. III (line ~2540)
 
@@ -417,7 +429,7 @@ This is the user's "Forms" doctrine in Vivekananda's English: divine forms are r
 
 The ship-and-magnetic-rock image (CW III, *Para-Bhakti*, Ch. I) is Vivekananda's metaphor for *parā bhakti*'s fruition:
 
-> "A ship, all of a sudden, comes near a magnetic rock, and its iron bolts and bars are all attracted and drawn out, and the planks get loosened and freely float on the water. Divine grace thus loosens the binding bolts and bars of the soul, and it becomes free."
+> "A ship, all of a sudden, comes near a magnetic rock, and its iron bolts and bars are all attracted and drawn out, and the planks get loosened and freely float on the water. Divine grace so loosens the binding bolts and bars of the soul, and it becomes free."
 >
 > — *CW* Vol. III, *Para-Bhakti*, Ch. I (line ~3593)
 

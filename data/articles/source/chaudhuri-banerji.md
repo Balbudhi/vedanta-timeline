@@ -10,6 +10,8 @@ The controlling framing: a substantial portion of the user's position is already
 
 **Haridas Chaudhuri (1913–1975).** Bengali philosopher, Sri Aurobindo's direct disciple. PhD Calcutta 1949 on Aurobindo's metaphysics ("Integral Idealism"); Aurobindo personally approved the dissertation. In 1950 named Aurobindo's recommended representative to the West; arrived San Francisco 1951. Founded the Cultural Integration Fellowship (mid-1950s); organized the 1957 birthday gathering producing the 1960 *Commemorative Symposium*; in 1968 founded the California Institute of Asian Studies, which became CIIS in 1980 — the institutional home of integral philosophy in the West.
 
+Cross-engagement: Abhinavagupta presses the same manifestation status axis in the metaphysical register, but with the value `expressive-manifestation` rather than `real-transformation` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Major works: *The Philosophy of Integralism* (Pondicherry 1954; 2nd enlarged ed. 1967, 366 pp.) — the systematic statement, with four new chapters in 1967 bringing the system into dialogue with mid-century continental philosophy; *The Integral Philosophy of Sri Aurobindo: A Commemorative Symposium*, ed. with Spiegelberg (Allen & Unwin 1960; thirty contributors); *Integral Yoga* (1965); *Being, Evolution, and Immortality* (1974, the mature distillation); *Evolution of Integral Consciousness* (1977, posthumous; supramental telos with Gebser anticipations). Plus the CIF lecture archive (≈ 76 audio lectures 1959–1975, CIIS Digital Commons).
 
 Settled Sanskrit name: *pūrṇa-advaita* (integral nondualism), with *pūrṇa-vijñāna* and *pūrṇavāda* as alternates. He distinguishes it from monism (identifies reality with one *determinate* principle), monotheism, pantheism/panentheism, absolutism (Bradley, Bosanquet — lacks "supracosmic transcendence"), and classical Advaita (undynamic, reads forms as unreal). Signature definition: "Being as the undivided unity of the formless and multiple forms." Signature triad: "Wisdom transcends individuality. Love universalizes individuality. Creativity intensifies individuality."
@@ -32,6 +34,8 @@ Parts I–VI walk the verbatim passages. Part VII names destinations.
 
 The most systematic Aurobindonian-philosophical statement in English. ~250 pp., sixteen chapters; the philosophical companion to *Integral Yoga* (1965). The 1967 edition added Chs. III–V (integral nondualism; existentialism and rationalism; existentialism and essentialism). If you read one Chaudhuri book, this is it. Read end-to-end. Especially Chs. I–IV (framing) and X–XII (integral individual, supermind, cosmology).
 
+Cross-engagement: Alfred North Whitehead presses the same temporal mode axis in the metaphysical register, but with the value `process-primary` rather than `both-orthogonal` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 The 1967 Preface is explicit about the program:
 
 > "It is not the purpose of this book to provide a summary or succinct exposition of the ideas of Sri Aurobindo. The purpose is rather to express in philosophical form the most fundamental spiritual intuitions of Sri Aurobindo. And to present his basic metaphysical position in the context of present-day thinking. In doing so supernaturalistic notions and trans-empirical concepts have been avoided as far as possible. Following the principle of Ockham's razor, an irreducible minimum of metaphysical categories have been used."
@@ -47,6 +51,8 @@ Chaudhuri collapses Aurobindonian terminology — Brahman, Īśvara, Paramātman
 ### The frontal anti-totalisation passage — Chapter III
 
 Chapter III, added 1967, is the locus of the anti-totalisation argument.
+
+Cross-engagement: G. W. F. Hegel presses the same evolution register axis in the historical-genealogical register, but with the value `sublative-becoming` rather than `real-cosmological-evolution` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 > "Bradley and Bosanquet suggest that ultimate reality must be a rationally self-coherent system. It was difficult for them to shake off the hang-over from Hegelian rationalism. Did not Hegel say that all that is real is rational, and all that is rational is real? So the principle of self-consistency must be the ultimate criterion of truth. Ultimate reality must be, on the one hand, all-inclusive, and, on the other, rationally self-coherent. In one word, it must be a system."
 >
@@ -64,6 +70,8 @@ Five theses, all in T1: (i) the Real is beyond all systems — different systems
 
 Chaudhuri pre-empts the postmodern temptation of flat plurality as the final cure for unification-violence:
 
+Cross-engagement: Judith Butler presses the same social formation axis in the political-social register, but with the value `performative-norm-repetition` rather than `civilizational-structure-shift` in [primary text](cite://butler/gender-trouble/3). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 > "Some philosophers interpret the universe pluralistically, whereas some interpret it monistically. But both pluralism and monism presuppose the notion of the absolute as the cosmic whole. Both pluralism and monism are affirmed as absolutely true versions of the universe as a whole. They are put forward as final truths about the absolute."
 >
 > — Chaudhuri 1967, pp. 54–55.
@@ -77,6 +85,8 @@ Flat pluralism is itself a totalising claim, committed to the absolute it disavo
 ### The central T9 formula
 
 Chapter III:
+
+Cross-engagement: Baladeva Vidyabhushana presses the same motive force axis in the soteriological register, but with the value `devotion` rather than `bliss-or-delight` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 > "Integral nondualism transforms ancient nondualism into an affirmative and dynamic attitude to life by incorporating into it the evolutionary perspective. Ancient nondualism aims at ecstatic union with the eternal. Integral nondualism is dynamic and creative union with the eternal."
 >
@@ -92,6 +102,8 @@ T9 in fewer words. "Undivided unity of formless and forms" is the user's non-des
 
 The move at the heart of T11. From the keynote (treated in Part II), recurring in Ch. III:
 
+Cross-engagement: Adi Sankara presses the same practice-path axis in the soteriological register, but with the value `knowledge-discipline` rather than `transformative-integration` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 > "Common to all forms of nondualism is the conviction that reality in its inmost essence is non-dual, non-verbal, and non-conceptual. It is indeterminable and logically indefinable, but accessible to direct experience on the non-verbal level, to the penetrative insight of spiritual intuition born of the integration of human personality. As non-dual, reality is beyond the scope of application of all human categories including that of number. Strictly speaking, monism, unitarianism, trinitarianism, pluralism, etc., are our different human ways of intellectual comprehension of the various aspects of reality."
 >
 > — Chaudhuri 1960, *Aurobindo Symposium*, pp. 19–20; cf. 1967, p. 28.
@@ -104,6 +116,8 @@ Decisive: "*including that of number*." The most radical anti-totalisation claim
 >
 > — Chaudhuri 1967, p. 64.
 
+Cross-engagement: Akalanka presses the same soteric end axis in the soteriological register, but with the value `isolation-or-discriminative-release` rather than `transformation-of-life` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 > "The supermind transcends and yet unifies the one and the many. The one and the many interpenetrate in the concrete texture of the universe. Being is to be identified neither with the one nor with the many. It is an infinitely rich principle of unity-in-plurality and plurality-in-unity. The manifoldness of the world cannot be reduced to a mere illusion of perception. Nor can the unity of existence be reduced to a mere illusion of intellect. In the organismic structure of the world there is an all-pervasive presence of each in all and all in each. The uniqueness of existing individual things and beings is no less an important aspect of life than their impregnable togetherness in the cosmic whole."
 >
 > — Chaudhuri 1967, pp. 64–65.
@@ -112,7 +126,7 @@ The supermind is the level at which one-and-many interpenetrate, not a higher pe
 
 ### The structural ground of T7 — Chapter IX
 
-> "Having descended through gradual self-alienation into the inconscience of matter, the Spirit gets involved therein with all the other elements of its nature. It is this involution of all in one which constitutes the necessity of evolution and imparts a specific direction to the cosmic drift. It is because life energy is already involved in matter in a form suited to it, — in the subvital form, as Sri Aurobindo puts it, — that life appears in its distinctive form at a subsequent stage of evolution. Similarly, it is because mind is already involved in matter and life that the force of evolution can, in fulness of time, bring it forth into explicit manifestation. The evolutionary self-expression of the Spirit has thus, for its necessary presupposition, the involutionary self-concealment of the Spirit in nature."
+> "Having descended through gradual self-alienation into the inconscience of matter, the Spirit gets involved therein with all the other elements of its nature. It is this involution of all in one which constitutes the necessity of evolution and imparts a specific direction to the cosmic drift. It is because life energy is already involved in matter in a form suited to it, — in the subvital form, as Sri Aurobindo puts it, — that life appears in its distinctive form at a subsequent stage of evolution. Similarly, it is because mind is already involved in matter and life that the force of evolution can, in fulness of time, bring it forth into explicit manifestation. The evolutionary self-expression of the Spirit has So, for its necessary presupposition, the involutionary self-concealment of the Spirit in nature."
 >
 > — Chaudhuri 1967, pp. 96–97.
 
@@ -140,7 +154,7 @@ The chapter develops the implications:
 
 "Delight of becoming as much as delight of being" is the Saccidānanda-as-non-difference-of-being-and-becoming thesis. User adds Prigogine and Whitehead correlation; bare structural claim is Chaudhuri 1967.
 
-> "What if matter or nonbeing, which causes by its recalcitrance the tragic features of life, be, in ultimate analysis, a form of expression of the Spirit itself? It is quite possible, as mystics suggest, that matter is the objective manifestation of the spirit under the aspect of space-time. It is no other than spirit in a state of involution in its apparent opposite, to wit, inconscience, so that inconscient Nature by her evolutionary endeavor may progressively realize the riches of spirit in the realm of externality. Matter is indeed, in ultimate analysis, the lowest limit of self-alienation of the self-luminous spirit."
+> "What if matter or nonbeing, which causes by its recalcitrance the tragic features of life, be, in ultimate analysis, a form of expression of the Spirit itself? It is quite possible, as mystics suggest, that matter is the objective manifestation of the spirit under the aspect of space-time. It is no other than spirit in a state of involution in its apparent opposite, to wit, inconscience, so that inconscient Nature by her evolutionary endeavor may progressively realize the riches of spirit in the realm of externality. Matter is in ultimate analysis, the lowest limit of self-alienation of the self-luminous spirit."
 >
 > — Chaudhuri 1967, pp. 171–172.
 
@@ -162,7 +176,7 @@ Two opponents structure the claim: (i) Śaṅkarite dissolution into the One, ag
 
 The triadic principle:
 
-> "Individuality is in its essence, as Sri Aurobindo puts it, a poise of being of the Absolute. As a particular existent, every individual has his aspect of uniqueness. He is a focalized expression of the universe. He represents a special and peculiar combination of talents and limitations, potentialities and dispositions.
+> "Individuality is in its essence, as Sri Aurobindo puts it, a poise of being of the Absolute. As a particular existent, every individual has his aspect of uniqueness. He is a focalized expression of the universe. He marks a special and peculiar combination of talents and limitations, potentialities and dispositions.
 >
 > "But he has also his aspect of relatedness, — relatedness to the whole. He hungers for the whole. The spirit of the whole is dynamically present at the center of his being. He wishes to complete himself by association with others. He wishes also to make himself whole by harmonizing the diverse elements of his own nature, — by integrating his instincts, emotions, thoughts and insights. Characteristic of the individual psyche is its integrative power, its self-healing and whole-making ability.
 >
@@ -193,7 +207,6 @@ Textual support for T8 (action as lawful unfolding via *sākṣi-caitanya*). Wha
 > — Chaudhuri 1967, p. 33.
 
 Classical advaita as static, Aurobindo as dynamic, supramental as their non-difference. Chaudhuri stays in the *Saguṇa/Nirguṇa* idiom; user adds explicit Vivaraṇa-plus-*svātantrya* formalization.
-
 
 ---
 
@@ -235,7 +248,7 @@ Chaudhuri's diagnostic-political frame: post-traditional Western vacuum meets st
 
 ### Different yogas as register-specific approaches
 
-> "Differences between various thought systems are readily understood in the East to be differences in emphasis, relative value, local suitability, etc. They are not construed as radical and disjunctive distinctions. They are ultimately unified in the multiform richness of reality. They are also capable of being reconciled in the dynamic spiritual growth of individuals."
+> "Differences between various thought systems are readily understood in the East to be differences in emphasis, relative value, local suitability, etc. They are not construed as radical and disjunctive distinctions. They are unified in the multiform richness of reality. They are also capable of being reconciled in the dynamic spiritual growth of individuals."
 >
 > — Chaudhuri 1960, p. 26.
 
@@ -283,7 +296,7 @@ Central thesis (publisher summary, attributed direct):
 >
 > — Chaudhuri, *Evolution of Integral Consciousness* (1977), per publisher summary, attributed direct.
 
-> "All that humans do in their relations, social activities, or building social, political and international structures is ultimately determined by the dynamics of the human psyche."
+> "All that humans do in their relations, social activities, or building social, political and international structures is determined by the dynamics of the human psyche."
 >
 > — Chaudhuri, ibid., per publisher summary.
 
@@ -298,7 +311,6 @@ Brief monographs / lecture collections. Useful for ethics and praxis-phenomenolo
 ### CIF lecture archive
 
 ≈ 76 lectures 1959–1975 at https://digitalcommons.ciis.edu/chaudhurilectures/. Most relevant: "Psychology of Tantra" (1959); "Hasidism and Tantra" (1970); "Supramental Meditation" (1972); "Vaishnava Mysticism" (1959); "Christ as Yogi and Avatar" (1969). Evidence Chaudhuri's Tantric and comparative-mystical engagements were lifelong.
-
 
 ---
 
@@ -346,7 +358,7 @@ The structural difference: the rhizome is impersonal; Aurobindo's Supramental is
 
 On Krishna and the Overmind:
 
-> "Sri Aurobindo asserted in letters written to his disciples that Krishna was the Anandamaya Purusha, or the Person of Bliss, who was working through the Overmind and, furthermore, he had become identified with Krishna at all levels of his being, down to the body. Though in the *Sapta Chatusthaya*, he envisaged this realization to be the goal of his yoga, now he awoke to a higher pitch of its being where the ontology and the relation between Devi and Deva had absolute freedom and expressed infinite forms of unity."
+> "Sri Aurobindo asserted in letters written to his disciples that Krishna was the Anandamaya Purusha, or the Person of Bliss, who was working through the Overmind and, Also, he had become identified with Krishna at all levels of his being, down to the body. Though in the *Sapta Chatusthaya*, he envisaged this realization to be the goal of his yoga, now he awoke to a higher pitch of its being where the ontology and the relation between Devi and Deva had absolute freedom and expressed infinite forms of unity."
 >
 > — Banerji 2018, IJTS p. 40.
 
@@ -370,7 +382,7 @@ Aurobindo's post-1920 vocabulary was current in the Richards' French milieu; "ps
 
 *Intuitive Mentality* (2017):
 
-> "Henri Bergson expressed a dissatisfaction similar to that of Husserl in the acceptance of Kantian foundations of indirect scientific knowledge and sought for an intuitive access to direct knowledge. Rather than ontological, his approach was ontogenetic and relied on the continuity of world-becoming in which all subjects participate, and their access to this continuity through the durational intuition of time. Gilles Deleuze has discussed Bergson's methodical approach to arrive at such a memory-intuition through a cognitive process of discrimination in his monograph on Bergson. Such a method, though it may follow some cognitive steps, leads to what Bergson refers to as a vitalist intuition. A vitalist intuition includes affective and volitional dimensions and can thus be related to *saṃjñāna* and *ājñāna* of Aurobindo. What may be considered a similar vitalist intuition of world-becoming can be found in Whitehead's idea of ontogenesis through prehension and concrescence… both Bergson and Whitehead could be said to inaugurate the modern thinking of non-cognitive forms of direct intuition, sensational, affective, volitional and somatic; in Aurobindian terms, the intuitions of *saṃjñāna* and *ājñāna*."
+> "Henri Bergson expressed a dissatisfaction similar to that of Husserl in the acceptance of Kantian foundations of indirect scientific knowledge and sought for an intuitive access to direct knowledge. Rather than ontological, his approach was ontogenetic and relied on the continuity of world-becoming in which all subjects participate, and their access to this continuity through the durational intuition of time. Gilles Deleuze has discussed Bergson's methodical approach to arrive at such a memory-intuition through a cognitive process of discrimination in his monograph on Bergson. Such a method, though it may follow some cognitive steps, leads to what Bergson refers to as a vitalist intuition. A vitalist intuition includes affective and volitional dimensions and can so be related to *saṃjñāna* and *ājñāna* of Aurobindo. What may be considered a similar vitalist intuition of world-becoming can be found in Whitehead's idea of ontogenesis through prehension and concrescence… both Bergson and Whitehead could be said to inaugurate the modern thinking of non-cognitive forms of direct intuition, sensational, affective, volitional and somatic; in Aurobindian terms, the intuitions of *saṃjñāna* and *ājñāna*."
 >
 > — Banerji 2017, *Intuitive Mentality* p. 8.
 
@@ -430,7 +442,6 @@ Three-audience framework = decentralized philosophical structure (T12) and *adhi
 
 T11 is almost word-for-word Banerji's *Inward Turn*. The bridge text. User adds McGilchrist, Prigogine, Meillassoux, Gebser, Whitehead extended.
 
-
 ---
 
 ## Part V — Banerji's *Vedantic Basis and Praxis of the Integral Advaita* (2022)
@@ -439,7 +450,7 @@ T11 is almost word-for-word Banerji's *Inward Turn*. The bridge text. User adds 
 
 ### T2 in compressed Sanskrit — the *jagat brahma* substitution
 
-> "Following a similar convention relating Brahman, the world and the individual, the *mahāvākya* of Sri Aurobindo's *Pūrṇādvaita Vedānta* may be given as **Brahma satya, jagat brahma, jīvo brahmaiva nāparaḥ** or 'Brahman is true, world is Brahman, individuals are Brahman indeed, none other'."
+> "Following a similar convention relating Brahman, the world and the individual, the *mahāvākya* of Sri Aurobindo's *Pūrṇādvaita Vedānta* may be given as **Brahma satya, jagat brahma, jīvo brahmaiva nāparaḥ** or 'Brahman is true, world is Brahman, individuals are Brahman none other'."
 >
 > — Banerji 2022, *Monsoon* pp. 73–74.
 
@@ -457,7 +468,7 @@ The T2 trajectory (Bhartṛprapañca → Bhāskara → Madhva → Caitanya → A
 
 ### Banerji's broader inclusivism within Vedānta — T1 / T4 in framework form
 
-> "Even dualistic interpretations of the Upaniṣads may be paradoxically non-dualist. Thus, for example, there is the Vaishnav school of Dvaitādvaita or dualistic non-dualism. Thus, what is common to most Vedantic darśanas is their non-dualism based on the Upaniṣads; where they differ is in the kind of nondualism they propose for the goal of yoga through their interpretation of the Upaniṣads."
+> "Even dualistic interpretations of the Upaniṣads may be paradoxically non-dualist. So, for example, there is the Vaishnav school of Dvaitādvaita or dualistic non-dualism. So, what is common to most Vedantic darśanas is their non-dualism based on the Upaniṣads; where they differ is in the kind of nondualism they propose for the goal of yoga through their interpretation of the Upaniṣads."
 >
 > — Banerji 2022, *Monsoon* p. 71.
 
@@ -477,7 +488,7 @@ Even what is called "dualistic" (Dvaitādvaita) is, on inspection, *paradoxicall
 >
 > — Banerji 2022, *Monsoon* p. 77.
 
-> "Since it is Brahman that is self-absorbed in each individual operation of this will is free in its origin, following its own creative development in consonance with its self-vision in *Vijñāna* or Supermind. Thus, the immanent will-to-individuation in each individual is in consonance with the cosmic ordering evolutionary process of *Vijñāna* or Supermind. **This hidden free will of Supermind acting through the density of Ignorance in the cosmos and its individuations is called *ājñāna* by Sri Aurobindo, following the Aitareya Upaniṣad.**"
+> "Since it is Brahman that is self-absorbed in each individual operation of this will is free in its origin, following its own creative development in consonance with its self-vision in *Vijñāna* or Supermind. So, the immanent will-to-individuation in each individual is in consonance with the cosmic ordering evolutionary process of *Vijñāna* or Supermind. **This hidden free will of Supermind acting through the density of Ignorance in the cosmos and its individuations is called *ājñāna* by Sri Aurobindo, following the Aitareya Upaniṣad.**"
 >
 > — Banerji 2022, *Monsoon* pp. 76–77.
 
@@ -540,7 +551,6 @@ Banerji has, in a 2015 lecture at the Cultural Integration Fellowship (San Franc
 
 Strict warning T8 / T10 must heed. Emphasis on *niṣkāma karma* and total surrender must not be antinomian. Banerji has *publicly criticized* the antinomian reading. T10 must therefore be framed as *ethical lawfulness* with full Vedāntic metaphysical responsibility, NOT license to abandon ethical action. POSITION_BRIEF explicitly: T8 is "NOT quietism; ethical action follows; only ego-arrogation of corrective interventions is forbidden." Keep visible when T7/T10 are articulated, especially to anyone in the Banerji line.
 
-
 ---
 
 ## Part VI — Banerji's Other Works
@@ -568,7 +578,7 @@ The interlocking upward + downward triangles of *Puruṣa* and *Prakṛti* form 
 
 **The book's controlling thesis — yantra as dynamic structure.** Banerji is explicit that the architectonic of the Seven Quartets is *processual*, not hierarchical or systemic; this is what makes it an experimental yoga psychology rather than a system of yoga-doctrine:
 
-> "The *Sapta Chatusthaya* is an architectonic framework with its seven components organized according to a structure. This structure, however, is not static; rather, it is dynamic, the structure of a process. Such indeed is the nature of the Tantric *yantra*, or meditation idea-diagram, which translates literally to 'instrument' or 'machine.'"
+> "The *Sapta Chatusthaya* is an architectonic framework with its seven components organized according to a structure. This structure, however, is not static; rather, it is dynamic, the structure of a process. Such is the nature of the Tantric *yantra*, or meditation idea-diagram, which translates literally to 'instrument' or 'machine.'"
 >
 > — Banerji 2018, IJTS p. 41 (summarising *Seven Quartets*).
 
@@ -584,7 +594,7 @@ Banerji's organization of the Seven Quartets as a *yantra* — dynamic processua
 
 **T1 — integral as ontology of experience, not theoretical totalisation** (Introduction p. 11):
 
-> "The use of the term 'integral' in Sri Aurobindo's own texts pertains instead to an ontology of experience contingent on the silence of the mind, not a theoretical construct, and encompasses a complex oneness of being omnipresent in each of its elements. As such, it is better compared to the idea of the 'plane of consistency' (or plane of immanence) theorised by the post-structuralist thinker Gilles Deleuze, as a latency of infinite possibility of experience."
+> "The use of the term 'integral' in Sri Aurobindo's own texts pertains instead to an ontology of experience contingent on the silence of the mind, not a theoretical construct, and includes a complex oneness of being omnipresent in each of its elements. As such, it is better compared to the idea of the 'plane of consistency' (or plane of immanence) theorised by the post-structuralist thinker Gilles Deleuze, as a latency of infinite possibility of experience."
 >
 > — Banerji *Seven Quartets* p. 11.
 
@@ -596,7 +606,7 @@ T1 and T11 land here. The Aurobindonian integral is the *latency-of-infinite-pos
 >
 > — Banerji *Seven Quartets* pp. 18–19.
 
-> "Deleuze's superfold can well be thought of as close or analogous to an immanent version of Sri Aurobindo's supermind, the medium which holds unity and infinity as its conscious properties everywhere and is the nexus between the infinite and the finite in its absolute immanence. So too, the relation between superfold and superman in Deleuze is analogous to the relation between supermind and superman in Sri Aurobindo, in that the latter term in each doublet represents the subject with interiority, proper to the being and full creative expression of the capacities of the first term."
+> "Deleuze's superfold can well be thought of as close or analogous to an immanent version of Sri Aurobindo's supermind, the medium which holds unity and infinity as its conscious properties everywhere and is the nexus between the infinite and the finite in its absolute immanence. So too, the relation between superfold and superman in Deleuze is analogous to the relation between supermind and superman in Sri Aurobindo, in that the latter term in each doublet marks the subject with interiority, proper to the being and full creative expression of the capacities of the first term."
 >
 > — Banerji *Seven Quartets* p. 21.
 
@@ -654,7 +664,7 @@ Banerji *Seven Quartets* p. 377 amplifies with experimental epistemology: intuit
 
 Two points. First, personal-divine preserved *at cosmogenetic level* — Krishna as Person aspect of *Being*, Kali as Person aspect of *Becoming*. Supramental consummates, does not dissolve. The published answer to Deleuzean impersonalism for T6. Second, Pāñcarātra emanation is *non-hierarchic* — Absolute *entirely present* in each emanation: *acintya-bhedābheda* under another name. T2 (Madhva-Caitanya register correction) lands on Banerji 2012 p. 388 with Vaiṣṇava emanationist scaffolding in place.
 
-**T9 — the *brahma catuṣṭaya* tetrad.** Banerji devotes Chapter 7 to Aurobindo's vision of Brahman as *sarvam* (omnipresence/sameness), *anantam* (radical difference / infinity), *jñānam* (omniscience), *ānandam* (delight). The four are not partial views but four simultaneous facets of the same Real:
+**T9 — the *brahma catuṣṭaya* tetrad.** Banerji devotes Chapter 7 to Aurobindo's vision of Brahman as *sarvam* (omnipresence/sameness), *anantam* (radical difference / infinity), *jñānam* (omniscience), *ānandam* (delight). The four are not partial views but four simultaneous parts of the same Real:
 
 > "*Brahma catustaya*… consists of *sarvam* which means sameness, omnipresence, *anantam*, which means infinity or radical difference, the infinite potency/variety of becoming, omnipotence, *jñanam*, which is omniscience, and *anandam*, which is delight."
 >
@@ -676,7 +686,7 @@ Two points. First, personal-divine preserved *at cosmogenetic level* — Krishna
 >
 > — Banerji *Seven Quartets* p. 130.
 
-> "The qualitative being of each individual is seen, following Pancaratra, as *antaryamin* form of Vasudeva, and thus, directly related to one of the four *vyuha* gods or conscious beings controlling the soul powers forming the *svadharma* through its Mahasakti."
+> "The qualitative being of each individual is seen, following Pancaratra, as *antaryamin* form of Vasudeva, and So, directly related to one of the four *vyuha* gods or conscious beings controlling the soul powers forming the *svadharma* through its Mahasakti."
 >
 > — Banerji *Seven Quartets* p. 391.
 
@@ -684,7 +694,7 @@ Banerji's *qualitative-soul-typology* reading of *varṇa* as expressive becomin
 
 **Critical posthuman framing — political continuity with the user's polemic.** Introduction diagnoses post-1910 modernity as homogenisation by capital; *sapta catuṣṭaya* as "second birth of fire":
 
-> "Neo-liberal globalisation anonymises humanity across the world, populating planetary cities with complacent quasi-androids in programmed eagerness to consume packaged lifestyles coded for degrees of happiness. The gift of fire with which humanity began its ascent into self-consciousness, today burns no more in human hands, but fuels huge impersonal circulations of capital to which humanity remains imprisoned. What the seven quartets of Sri Aurobindo represents in this situation is no less than the second birth of fire, the fire of conscious evolution, the primal tool for the emergence of the infinite or plural subject out of its subjection to the shredding and pulverising of attention and quality that marks our times."
+> "Neo-liberal globalisation anonymises humanity across the world, populating planetary cities with complacent quasi-androids in programmed eagerness to consume packaged lifestyles coded for degrees of happiness. The gift of fire with which humanity began its ascent into self-consciousness, today burns no more in human hands, but fuels huge impersonal circulations of capital to which humanity remains imprisoned. What the seven quartets of Sri Aurobindo marks in this situation is no less than the second birth of fire, the fire of conscious evolution, the primal tool for the emergence of the infinite or plural subject out of its subjection to the shredding and pulverising of attention and quality that marks our times."
 >
 > — Banerji *Seven Quartets* p. 4.
 
@@ -820,7 +830,6 @@ Banerji's diagnosis aligns with the user's polemic: the Enlightenment-totalising
 - *Indian Theosophists in the Aurobindonian Lineage* and the broader institutional history Banerji is positioned to teach (President of East-West Cultural Center 1991–c. 2006). Useful for situating any contemporary Aurobindonian discussion historically.
 - The 2015 CIF lecture on *Ethics, Sustainability, and Integral Advaita* (already cited in Part V). The user must heed the strict warning against antinomian readings.
 - Banerji's interviews and YouTube lectures, especially the New Thinking Allowed video on the *Iśā Upaniṣad* (https://www.newthinkingallowed.org/understanding-the-upanishads-with-debashish-banerji/) and the CIIS Conversations interviews. These are accessible Banerji-on-Banerji and useful for sensing tonal register.
-
 
 ---
 

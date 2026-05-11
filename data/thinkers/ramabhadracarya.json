@@ -161,5 +161,228 @@
   "last_verified_by": "wave-rigor-opus",
   "polemic_chain_ids": [
     "govinda-bhasya-defense"
-  ]
+  ],
+  "primitive_commitments": [
+    {
+      "primitive": "causation_model",
+      "value": "body-soul-causation",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/ramabhadracarya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.1",
+            "cite://mandana/brahma-siddhi/2.1.9",
+            "cite://mandana/brahma-siddhi/1.4.27",
+            "cite://mandana/brahma-siddhi/1.1.4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "epistemic_authority",
+      "value": "scripture-dominant",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/ramabhadracarya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.1",
+            "cite://mandana/brahma-siddhi/2.1.9",
+            "cite://mandana/brahma-siddhi/1.4.27",
+            "cite://mandana/brahma-siddhi/1.1.4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "identity_relation",
+      "value": "body-soul-qualification",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/ramabhadracarya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.1",
+            "cite://mandana/brahma-siddhi/2.1.9",
+            "cite://mandana/brahma-siddhi/1.4.27",
+            "cite://mandana/brahma-siddhi/1.1.4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "individuation_status",
+      "value": "qualified-mode",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/ramabhadracarya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.1",
+            "cite://mandana/brahma-siddhi/2.1.9",
+            "cite://mandana/brahma-siddhi/1.4.27",
+            "cite://mandana/brahma-siddhi/1.1.4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "dependent-real",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/ramabhadracarya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.1",
+            "cite://mandana/brahma-siddhi/2.1.9",
+            "cite://mandana/brahma-siddhi/1.4.27",
+            "cite://mandana/brahma-siddhi/1.1.4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "modal_structure_of_truth",
+      "value": "single-absolute-truth",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/ramabhadracarya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.1",
+            "cite://mandana/brahma-siddhi/2.1.9",
+            "cite://mandana/brahma-siddhi/1.4.27",
+            "cite://mandana/brahma-siddhi/1.1.4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "normative_order_source",
+      "value": "divine-command-or-grace",
+      "register": "ethical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/ramabhadracarya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.1",
+            "cite://mandana/brahma-siddhi/2.1.9",
+            "cite://mandana/brahma-siddhi/1.4.27",
+            "cite://mandana/brahma-siddhi/1.1.4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "devotion-and-grace",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/ramabhadracarya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.1",
+            "cite://mandana/brahma-siddhi/2.1.9",
+            "cite://mandana/brahma-siddhi/1.4.27",
+            "cite://mandana/brahma-siddhi/1.1.4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "service-with-distinction-preserved",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/ramabhadracarya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.1",
+            "cite://mandana/brahma-siddhi/2.1.9",
+            "cite://mandana/brahma-siddhi/1.4.27",
+            "cite://mandana/brahma-siddhi/1.1.4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "one-qualified-by-real-internal-distinctions",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/ramabhadracarya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.1",
+            "cite://mandana/brahma-siddhi/2.1.9",
+            "cite://mandana/brahma-siddhi/1.4.27",
+            "cite://mandana/brahma-siddhi/1.1.4"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

@@ -2,7 +2,10 @@
   "id": "malini-vijaya-tantra",
   "name": "Malini-Vijaya-Tantra (position-entry)",
   "name_iast": "Mālinī-Vijaya-Tantra",
-  "alternate_names": ["Mālinī-Vijayottara-Tantra", "Mālinī-Vijaya"],
+  "alternate_names": [
+    "Mālinī-Vijayottara-Tantra",
+    "Mālinī-Vijaya"
+  ],
   "dates_low": 600,
   "dates_high": 850,
   "dates_tier": "consensus-textual",
@@ -12,7 +15,11 @@
   "sub_school": "Trika source-tantras",
   "sub_school_shade": 4,
   "lineage_in": [],
-  "lineage_out": ["abhinavagupta", "ksemaraja", "jayaratha"],
+  "lineage_out": [
+    "abhinavagupta",
+    "ksemaraja",
+    "jayaratha"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "abhinavagupta",
@@ -36,14 +43,19 @@
       "work_id": "malini-vijaya-tantra-text",
       "title": "Malini-Vijaya-Tantra",
       "title_iast": "Mālinī-Vijaya-Tantra",
-      "alternate_titles": ["Mālinī-Vijayottara-Tantra"],
+      "alternate_titles": [
+        "Mālinī-Vijayottara-Tantra"
+      ],
       "composition_dates_low": 600,
       "composition_dates_high": 850,
       "composition_dates_notes": "Anonymous; dated by Abhinavagupta's tenth-century treatment as the established scriptural authority of Trika and by the developed character of its Bhairava-tantra apparatus.",
       "ascription_tier": "traditionally-ascribed",
       "ascription_notes": "Anonymous; ascribed by tradition to Bhairava revelation. The text presents itself as a dialogue between Bhairava and the goddess.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Sanderson (essays on the Śaiva canon); Vasudeva (The Yoga of the Mālinīvijayottaratantra, 2004 critical edition of yoga-chapters); Hatley (essays on early Bhairava-tantras)."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Sanderson (essays on the Śaiva canon); Vasudeva (The Yoga of the Mālinīvijayottaratantra, 2004 critical edition of yoga-chapters); Hatley (essays on early Bhairava-tantras)."
+        }
       ],
       "genre": "rahasya",
       "language": "sanskrit",
@@ -62,8 +74,14 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored by Abhinavagupta; the principal verse-commentary on the Mālinī-Vijaya-Tantra and the document through which the tantra's philosophy is articulated for Trika.",
       "ascription_evidence": [
-        {"kind": "manuscript-tradition", "description": "Preserved in the Kashmir Sanskrit manuscript tradition; KSTS edition."},
-        {"kind": "scholarly-consensus", "description": "Sanderson; Hanneder (the principal modern scholar of the Mālinī-Vijaya-Vārttika)."}
+        {
+          "kind": "manuscript-tradition",
+          "description": "Preserved in the Kashmir Sanskrit manuscript tradition; KSTS edition."
+        },
+        {
+          "kind": "scholarly-consensus",
+          "description": "Sanderson; Hanneder (the principal modern scholar of the Mālinī-Vijaya-Vārttika)."
+        }
       ],
       "genre": "varttika",
       "language": "sanskrit",
@@ -82,8 +100,14 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored by Abhinavagupta; the Tantrāloka is structured throughout as an exposition of the Mālinī-Vijaya, and is therefore treated under the same scriptural-anchor entry.",
       "ascription_evidence": [
-        {"kind": "manuscript-tradition", "description": "Kashmir manuscript tradition; KSTS edition with Jayaratha's Viveka."},
-        {"kind": "scholarly-consensus", "description": "Sanderson; Padoux; Silburn; the standard modern editorial tradition."}
+        {
+          "kind": "manuscript-tradition",
+          "description": "Kashmir manuscript tradition; KSTS edition with Jayaratha's Viveka."
+        },
+        {
+          "kind": "scholarly-consensus",
+          "description": "Sanderson; Padoux; Silburn; the standard modern editorial tradition."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -99,5 +123,60 @@
   "entry_status": "draft",
   "entry_owner_agent": "non-vedic-comparator-extension-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "epistemic_authority",
+      "value": "scripture-plus-transformative-experience",
+      "register": "epistemological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/malini-vijaya-tantra.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "expressive-manifestation",
+      "register": "metaphysical",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/malini-vijaya-tantra.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "transformative-integration",
+      "register": "soteriological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/malini-vijaya-tantra.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "recognition-or-freedom",
+      "register": "soteriological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/malini-vijaya-tantra.json",
+          "field": "core_thesis"
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

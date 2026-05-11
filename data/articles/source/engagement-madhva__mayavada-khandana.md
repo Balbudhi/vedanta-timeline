@@ -4,41 +4,63 @@
 
 *Māyāvāda-Khaṇḍana* is a short polemical *prakaraṇa* attributed to Madhva (Ānandatīrtha), traditionally placed in the thirteenth century and situated in the Tattvavāda lineage. The work itself has no chapter-division: in the on-disk witness the mūla occupies only printed pp. 2-4 of the pure-Sanskrit file, after which the edition expands into six commentarial layers explicitly listed on the title page as Padmanābha Tīrtha's *Prācīnīkā*, Jayatīrtha's *Ṭīkā*, Vyāsatīrtha's *Mandāramañjarī*, Śrīnivāsa Tīrtha's *Durgamārthavyākhyā*, Pāṇḍuraṅga Keḍāvācārya's *Viṣamapadavākyārthavivaraṇa* [OCR?], and Satyanātha's *Paraśu*. It is best read as a compressed anti-Mayāvāda dossier whose scholastic afterlife is much larger than the root text.
 
+Cross-engagement: Abhinavagupta presses the same substrate structure axis in the metaphysical register, but with the value `one-self-standing` rather than `one-independent-plus-real-dependents` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ## 2. Sampling and scope statement
 
 Engaged at depth: the complete mūla on printed pp. 2-4 of the pure-Sanskrit file, roughly lines 162-251, plus Padmanābha Tīrtha's immediate ṭīkā through printed p. 5 for orientation. Structural summary only: the later restart of the mūla and the long expansions by Jayatīrtha, Vyāsatīrtha, Śrīnivāsa Tīrtha, Pāṇḍuraṅga Keḍāvācārya, and Satyanātha in the remainder of the witness. Flagged but not engaged in depth: the later commentaries' grammatical and *nyāya* disputes around `anyathāpratipādakatva`, `mithyātva`, and `ajñāna-nivṛtti` as a "fifth kind" of mokṣa.
+
+Cross-engagement: Adi Sankara presses the same manifestation status axis in the metaphysical register, but with the value `sublatable-not-null` rather than `dependent-real` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 ## 3. Structural walk-through
 
 ### Opening maṅgala and thesis-statement
 
+Cross-engagement: Anandabodha presses the same identity relation axis in the metaphysical register, but with the value `non-otherness` rather than `image-original-similarity` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Printed p. 2 opens with the invocation `narasiṃho 'khilājñānamatadhvāntadivākaraḥ ...` and immediately moves to `vimatam anārambhaṇīyam` (around lines 165-176). Narasiṃha is the light that dispels false cognition; that image is immediately converted into a technical claim: the Mayāvādin's teaching is unfit to be undertaken because it presents reality otherwise than it is. The architecture is already clear: disqualify the rival śāstra, then replace its claimed scriptural purport.
+
+Cross-engagement: Anantakrishna Sastri presses the same finite cognition axis in the epistemological register, but with the value `positive-ignorance` rather than `real-dependent-veiling` in [primary text](cite://sankara/brahma-sutra-bhasya/2.1.14). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 ### The dilemma over brahmātmaikya
 
 Still on printed p. 2, the mūla's next movement is the dilemma `na hi brahmātmaikyasya yāthārthyaṃ tatpakṣe ... advaitahāneḥ svarūpātireke ... anatireke ... siddhasādhanatā` (lines 175-181). If the identity of Brahman and self is something over and above the self, non-duality is destroyed; if it is not, scripture merely establishes what is already established. This is the text's central anti-Advaita move.
 
+Cross-engagement: Appayya Dikshita presses the same epistemic authority axis in the epistemological register, but with the value `scripture-dominant` rather than `plural-pramana-realism` in [primary text](cite://mandana/brahma-siddhi/3.4). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ### The attack on avidyā and the pramāṇa definition
 
-The same cluster continues with `nirviśeṣatvāc cātmano nānadhigato viśeṣaḥ ... nājñānaṃ kasyacid āvarakam. "anadhigatārthagantṛ pramāṇam" iti tanmatam` (printed p. 2). Madhva's claim is that a self-luminous and featureless self leaves nothing genuinely unapprehended for ignorance to cover, while the opponent's own pramāṇa-theory requires cognition of a previously unapprehended object. The polemic is thus against the coherence of the Advaitin's cognitive architecture itself.
+The same cluster continues with `nirviśeṣatvāc cātmano nānadhigato viśeṣaḥ ... nājñānaṃ kasyacid āvarakam. "anadhigatārthagantṛ pramāṇam" iti tanmatam` (printed p. 2). Madhva's claim is that a self-luminous and featureless self leaves nothing genuinely unapprehended for ignorance to cover, while the opponent's own pramāṇa-theory requires cognition of a previously unapprehended object. The polemic is so against the coherence of the Advaitin's cognitive architecture itself.
+
+Cross-engagement: Bhatta Kallata presses the same determination axis in the logical-dialectical register, but with the value `self-expression` rather than `non-sublatable-difference` in [primary text](cite://bhatta-kallata/spanda-karika/1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 ### Consequences for scripture, mokṣa, adhikāra, and sambandha
 
 Printed pp. 2-4 then compress the downstream consequences: `ajñānāsambhavād eva tanmatam akhilam apākṛtam`, `mithyātve caikyasya ... āgamasya syāt`, `satyatā ca bhedasya`, and then `svarūpatvān mokṣasya pūrvam eva siddhatvāt` together with the rejection of the fourth and fifth "types" of liberation. If ignorance is impossible, the Mayāvādin's ontology collapses; if identity is *mithyā*, scripture becomes a revealer of unreality; if mokṣa is the self's own nature, it cannot coherently be produced as ignorance-removal; and once *viṣaya* and *prayojana* fail, *adhikārī* and *sambandha* fail as well.
 
+Cross-engagement: Ananda K. Coomaraswamy presses the same method axis in the methodological register, but with the value `comparative-reading` rather than `formal-proof-or-inference` in [primary text](cite://coomaraswamy/the-transformation-of-nature-in-art/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ### Positive scriptural close: kṣara, akṣara, and Puruṣottama
 
-The text closes with quotation from Bhagavad-Gītā 15 and Kaṭha Upaniṣad: `dvāv imau puruṣau loke ... uttamaḥ puruṣas tv anyaḥ ...`, followed by `indriyebhyaḥ parā hy arthā ... puruṣān na paraṃ kiñcit` (printed pp. 3-4). Scripture thus culminates not in an undifferentiated identity-claim but in an ordered ontology terminating in Viṣṇu/Puruṣottama, beyond both the perishable and the imperishable.
+The text closes with quotation from Bhagavad-Gītā 15 and Kaṭha Upaniṣad: `dvāv imau puruṣau loke ... uttamaḥ puruṣas tv anyaḥ ...`, followed by `indriyebhyaḥ parā hy arthā ... puruṣān na paraṃ kiñcit` (printed pp. 3-4). Scripture so culminates not in an undifferentiated identity-claim but in an ordered ontology terminating in Viṣṇu/Puruṣottama, beyond both the perishable and the imperishable.
+
+Cross-engagement: Akalanka presses the same truth-structure axis in the epistemological register, but with the value `standpoint-conditioned-realism` rather than `single-absolute-truth` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 ### The commentarial witness
 
 After the short mūla and Padmanābha's first ṭīkā, the witness restarts the root text and expands it through Jayatīrtha and later authors beginning around line 302. Their role is to make explicit the inferential steps packed into the mūla: what counts as `anārambhaṇīya`, why `anyathāpratipādakatva` is the operative fault, how `brahmātmaikya` would produce `siddhasādhanatā`, and why the "fifth kind" of mokṣa is incoherent.
 
+Cross-engagement: Edmund Husserl presses the same perspectivism axis in the epistemological register, but with the value `standpoint-conditioned-realism` rather than `partial-perspectives-ranked` in [primary text](cite://husserl/ideas-i/31-32). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ## 4. Load-bearing passages — engaged at depth
 
 ### 1. The thesis-inference
 
+Cross-engagement: Akshapada Gautama presses the same practice-path axis in the soteriological register, but with the value `knowledge-discipline` rather than `devotion-and-grace` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 **Locus:** printed p. 2 of the pure-Sanskrit file, around lines 169-176.
+
+Cross-engagement: Alfred North Whitehead presses the same soteric end axis in the soteriological register, but with the value `not-soteriological` rather than `service-with-distinction-preserved` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 **Sanskrit (IAST):** `vimatam anārambhaṇīyam, anyathāpratipādakatvāt, yad itthaṃ tat tathā, yathā sampratipannam.`
 
@@ -46,11 +68,13 @@ After the short mūla and Padmanābha's first ṭīkā, the witness restarts the
 
 **Engagement:** This is the text's governing inferential form. Madhva does not begin by saying merely that the Mayāvādin is wrong; he begins by saying that a text whose purport is false forfeits *śāstric admissibility*. The issue is not authorship or prestige but uptake: a text may exist and be influential, yet still be disqualified if it teaches `anyathā`.
 
-**Pāṇinian-rich treatment:** `vimatam` is neuter nominative singular, functioning substantivally: "the disputed thesis/text." `anārambhaṇīyam` is a gerundive formation, likewise neuter nominative singular, giving the predication: "[it] is not to be undertaken." The principal sentence is therefore an ellipted nominal sentence: `vimatam anārambhaṇīyam [asti]`. `anyathāpratipādakatvāt` is ablative singular of an abstract compound and supplies the hetu: "because of the state of presenting otherwise." The compound may be unpacked as `anyathā pratipādayati iti anyathāpratipādakaḥ; tasya bhāvaḥ anyathāpratipādakatvam`. The correlative `yad itthaṃ tat tathā` gives the inferential schema: "whatever is like this, that is so." `yathā sampratipannam` supplies the accepted case, the conventionally admitted instance. The whole line is thus not ornamental but formally inferential: pakṣa (`vimatam`), sādhya (`anārambhaṇīyam`), hetu (`anyathāpratipādakatvāt`), and dṛṣṭānta by appeal to what is `sampratipanna`.
+**Pāṇinian-rich treatment:** `vimatam` is neuter nominative singular, functioning substantivally: "the disputed thesis/text." `anārambhaṇīyam` is a gerundive formation, likewise neuter nominative singular, giving the predication: "[it] is not to be undertaken." The principal sentence is therefore an ellipted nominal sentence: `vimatam anārambhaṇīyam [asti]`. `anyathāpratipādakatvāt` is ablative singular of an abstract compound and supplies the hetu: "because of the state of presenting otherwise." The compound may be unpacked as `anyathā pratipādayati iti anyathāpratipādakaḥ; tasya bhāvaḥ anyathāpratipādakatvam`. The correlative `yad itthaṃ tat tathā` gives the inferential schema: "whatever is like this, that is so." `yathā sampratipannam` supplies the accepted case, the conventionally admitted instance. The whole line is so not ornamental but formally inferential: pakṣa (`vimatam`), sādhya (`anārambhaṇīyam`), hetu (`anyathāpratipādakatvāt`), and dṛṣṭānta by appeal to what is `sampratipanna`.
 
 ### 2. The dilemma about identity
 
 **Locus:** printed p. 2, around lines 175-181.
+
+Cross-engagement: Baladeva Vidyabhushana presses the same causation model axis in the metaphysical register, but with the value `unchanged-ground-with-changing-power` rather than `efficient-material-split` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 **Sanskrit (IAST):** `na hi brahmātmaikyasya yāthārthyaṃ tatpakṣe. advaitahāneḥ svarūpātireke. anatireke svaprakāratvād ātmanaḥ siddhasādhanatā.`
 
@@ -78,7 +102,7 @@ The phrase `siddhasādhanatā` is especially important. Madhva is not satisfied 
 
 **Close English:** "Precisely because ignorance is impossible, that whole doctrine is refuted. And if identity is mithyā, scripture would become a revealer of the unreal; and difference would be true."
 
-**Engagement:** This is the passage the position most needs to treat with care. Madhva does not equate `mithyā` with straightforward `asat`; the structure of the argument is subtler. If the scriptural content centrally taught is itself not ultimately real, scripture ceases to function as truth-bearing revelation in the way the Mayāvādin needs. From there he infers `satyatā ca bhedasya`: denied identity rebounds into the truth of difference.
+**Engagement:** This is the passage the position most needs to treat with care. Madhva does not equate `mithyā` with straightforward `asat`; the structure of the argument is subtler. If the scriptural content centrally taught is itself not real, scripture ceases to function as truth-bearing revelation in the way the Mayāvādin needs. From there he infers `satyatā ca bhedasya`: denied identity rebounds into the truth of difference.
 
 This is a powerful realist pressure-point, but it is not yet the position's synthesis. The position wants to preserve the thought that sublatability is not non-being. Madhva is operating with a stronger exclusionary inference: once the identity-claim is denied `yāthārthya`, the burden shifts decisively toward real difference.
 

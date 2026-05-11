@@ -2,7 +2,10 @@
   "id": "prabhakara",
   "name": "Prabhakara Mishra",
   "name_iast": "Prabhākara Miśra",
-  "alternate_names": ["Prabhākara", "Guru (honorific used in the school)"],
+  "alternate_names": [
+    "Prabhākara",
+    "Guru (honorific used in the school)"
+  ],
   "dates_low": 680,
   "dates_high": 750,
   "dates_tier": "consensus-textual",
@@ -26,14 +29,19 @@
       "work_id": "brhati",
       "title": "Brhati",
       "title_iast": "Bṛhatī",
-      "alternate_titles": ["Nibandhana"],
+      "alternate_titles": [
+        "Nibandhana"
+      ],
       "composition_dates_low": 680,
       "composition_dates_high": 750,
       "composition_dates_notes": "Composed in Prabhākara's mature period.",
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored sub-commentary on Śabara's Mīmāṃsā-Sūtra-Bhāṣya; the founding text of the Prābhākara school.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus (Frauwallner; Kataoka)."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus (Frauwallner; Kataoka)."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -48,5 +56,99 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "determination_operator",
+      "value": "ritual-specification",
+      "register": "logical-dialectical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/prabhakara.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "epistemic_authority",
+      "value": "ritual-injunction",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/prabhakara.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "method_of_critique",
+      "value": "commentarial-exegesis",
+      "register": "methodological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/prabhakara.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "normative_order_source",
+      "value": "scriptural-injunction",
+      "register": "ritual-normative",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/prabhakara.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "ritual-observance",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/prabhakara.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "semantic_mediation",
+      "value": "language-binds-action",
+      "register": "semantic-linguistic",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/prabhakara.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "not-soteriological",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/prabhakara.json",
+          "field": "core_thesis"
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

@@ -2,7 +2,9 @@
   "id": "nagarjuna",
   "name": "Nagarjuna",
   "name_iast": "Nāgārjuna",
-  "alternate_names": ["Ārya Nāgārjuna"],
+  "alternate_names": [
+    "Ārya Nāgārjuna"
+  ],
   "dates_low": 150,
   "dates_high": 250,
   "dates_tier": "contested",
@@ -12,7 +14,10 @@
   "sub_school": "Mādhyamaka-founder",
   "sub_school_shade": 3,
   "lineage_in": [],
-  "lineage_out": ["bhaviveka", "candrakirti"],
+  "lineage_out": [
+    "bhaviveka",
+    "candrakirti"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "badarayana",
@@ -41,14 +46,21 @@
       "work_id": "mula-madhyamaka-karika",
       "title": "Mula-Madhyamaka-Karika",
       "title_iast": "Mūla-Madhyamaka-Kārikā",
-      "alternate_titles": ["MMK", "Madhyamaka-Śāstra", "Prajñā-Nāma-Mūla-Madhyamaka-Kārikā"],
+      "alternate_titles": [
+        "MMK",
+        "Madhyamaka-Śāstra",
+        "Prajñā-Nāma-Mūla-Madhyamaka-Kārikā"
+      ],
       "composition_dates_low": 150,
       "composition_dates_high": 250,
       "composition_dates_notes": "Internal stylistic uniformity supports a single-author composition; the text is securely Nāgārjuna's by uniform later citation.",
       "ascription_tier": "securely-authored",
       "ascription_notes": "The MMK is securely authored by Nāgārjuna by uniform Indian, Tibetan, and Chinese commentarial attestation, and stands at the head of every Mādhyamaka transmission lineage.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Modern academic consensus (Lindtner 1982; Walser 2005; Westerhoff 2009)."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus (Lindtner 1982; Walser 2005; Westerhoff 2009)."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -61,11 +73,16 @@
       "work_id": "vigraha-vyavartani",
       "title": "Vigraha-Vyavartani",
       "title_iast": "Vigraha-Vyāvartanī",
-      "alternate_titles": ["VV"],
+      "alternate_titles": [
+        "VV"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored; the auto-commentary survives, and the Tibetan transmission preserves both verse and prose layers.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Lindtner 1982; Bhattacharya 1978."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Lindtner 1982; Bhattacharya 1978."
+        }
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
@@ -104,7 +121,9 @@
       "work_id": "ratnavali",
       "title": "Ratnavali",
       "title_iast": "Ratnāvalī",
-      "alternate_titles": ["Rāja-Parikathā"],
+      "alternate_titles": [
+        "Rāja-Parikathā"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored; framed as advice to a Sātavāhana king (Walser 2005 argues for Yajña-Śrī-Sātakarṇi). The text combines Mādhyamaka philosophy with bodhisattva-praxis exposition.",
       "genre": "polemical-tract",
@@ -121,7 +140,10 @@
       "ascription_tier": "disputed",
       "ascription_notes": "The four-hymn collection (Niraupamya, Lokātīta, Acintya, Paramārtha) is traditionally ascribed to Nāgārjuna. Lindtner accepts the Niraupamya-stava and Lokātīta-stava as authentic; the others are doubted. The hymns are devotional in register and present the Mādhyamaka philosophy through *stuti* rather than *kārikā*.",
       "ascription_evidence": [
-        {"kind": "scholarly-dispute", "description": "Lindtner 1982 accepts two of four; the full set's ascription to Nāgārjuna himself remains contested."}
+        {
+          "kind": "scholarly-dispute",
+          "description": "Lindtner 1982 accepts two of four; the full set's ascription to Nāgārjuna himself remains contested."
+        }
       ],
       "genre": "stotra",
       "language": "sanskrit",
@@ -137,5 +159,99 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-buddhist-comparators-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "causation_model",
+      "value": "dependent-co-arising",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/nagarjuna.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "determination_operator",
+      "value": "dependent-co-arising",
+      "register": "logical-dialectical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/nagarjuna.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "conventionally-real-without-own-being",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/nagarjuna.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "meditative-discipline",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/nagarjuna.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "selfhood_structure",
+      "value": "no-enduring-self",
+      "register": "phenomenological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/nagarjuna.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "isolation-or-discriminative-release",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/nagarjuna.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "suspended-or-refused",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/nagarjuna.json",
+          "field": "core_thesis"
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

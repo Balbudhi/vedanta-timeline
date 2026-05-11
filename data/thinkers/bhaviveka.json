@@ -2,7 +2,11 @@
   "id": "bhaviveka",
   "name": "Bhaviveka",
   "name_iast": "Bhāviveka",
-  "alternate_names": ["Bhāvaviveka", "Bhavya", "Legs-ldan-'byed"],
+  "alternate_names": [
+    "Bhāvaviveka",
+    "Bhavya",
+    "Legs-ldan-'byed"
+  ],
   "dates_low": 490,
   "dates_high": 570,
   "dates_tier": "consensus-textual",
@@ -11,7 +15,9 @@
   "school_color_token": "madhyamaka-comparator",
   "sub_school": "Svātantrika",
   "sub_school_shade": 2,
-  "lineage_in": ["nagarjuna"],
+  "lineage_in": [
+    "nagarjuna"
+  ],
   "lineage_out": [],
   "lineage_polemical": [
     {
@@ -36,11 +42,16 @@
       "work_id": "tarkajvala",
       "title": "Tarkajvala",
       "title_iast": "Tarkajvālā",
-      "alternate_titles": ["Madhyamaka-Hṛdaya-Vṛtti-Tarkajvālā"],
+      "alternate_titles": [
+        "Madhyamaka-Hṛdaya-Vṛtti-Tarkajvālā"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored; the auto-commentary on Bhāviveka's own Madhyamaka-Hṛdaya-Kārikā. Survives complete in Tibetan; partial Sanskrit fragments.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Eckel 2008; the Tibetan transmission preserves both base text and commentary as a unit."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Eckel 2008; the Tibetan transmission preserves both base text and commentary as a unit."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -56,7 +67,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored commentary on the MMK; survives complete in Tibetan with Avalokitavrata's sub-commentary the Prajñā-Pradīpa-Ṭīkā.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Standard attribution in both Tibetan and Chinese transmission."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Standard attribution in both Tibetan and Chinese transmission."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -72,5 +86,99 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-buddhist-comparators-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "causation_model",
+      "value": "dependent-co-arising",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/bhaviveka.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "determination_operator",
+      "value": "dependent-co-arising",
+      "register": "logical-dialectical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/bhaviveka.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "conventionally-real-without-own-being",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/bhaviveka.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "meditative-discipline",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/bhaviveka.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "selfhood_structure",
+      "value": "no-enduring-self",
+      "register": "phenomenological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/bhaviveka.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "isolation-or-discriminative-release",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/bhaviveka.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "suspended-or-refused",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/bhaviveka.json",
+          "field": "core_thesis"
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

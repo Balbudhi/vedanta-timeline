@@ -2,7 +2,9 @@
   "id": "abhinanda",
   "name": "Abhinanda Yogin",
   "name_iast": "Abhinanda Yogin",
-  "alternate_names": ["Abhinanda"],
+  "alternate_names": [
+    "Abhinanda"
+  ],
   "dates_low": 950,
   "dates_high": 1075,
   "dates_tier": "contested",
@@ -12,7 +14,9 @@
   "sub_school": "Mahārtha (Krama) — source verses",
   "sub_school_shade": 2,
   "lineage_in": [],
-  "lineage_out": ["mahesvarananda"],
+  "lineage_out": [
+    "mahesvarananda"
+  ],
   "lineage_polemical": [],
   "core_thesis": "Abhinanda is the figure who composed the seventy-one verses of the *Mahārtha-Mañjarī* — the principal South-Indian Krama text — in the Mahārāṣṭrī Prakrit that gives the work its distinctive register. The position is firmly within the *Krama* tradition: the supreme reality is *Cit* in the form of Kālī, who is the *kāla-saṅkarṣiṇī* — the devourer of time — whose worship through the *krama* (sequence) of twelve Kālīs is the path of recognition (*Mahārtha-Mañjarī* gāthās 1–10, the foundational disposition; gāthās 21–35 on the twelve-Kālī *krama*). The Krama metaphysics is non-dual but specifically *Śākta*: the supreme is articulated through the goddess as the dynamism of consciousness (*MM* gāthās 11–20), and the soteriological focus is on the *krama* by which consciousness sequentially manifests, sustains, withdraws, and re-emerges its objects in each moment of cognition (*MM* gāthās 36–50). The bound subject's task is to recognize this sequenced self-display as the goddess's own self-recognition, by attending to the rhythmic structure of awareness itself (*MM* gāthās 51–65). Abhinanda's verses are the source-text on which Maheśvarānanda will later build his great *Parimala* auto-commentary, and so are the foundational document of the South-Indian Krama tradition that survives the disruption of the Kashmirian Krama lineage.",
   "engaged_works": [
@@ -24,8 +28,14 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored verses; Maheśvarānanda's Parimala commentary is constructed on Abhinanda's verses as its mūla-text, and the verse-text's authorship is consistently ascribed to Abhinanda within the Krama lineage's self-record.",
       "ascription_evidence": [
-        {"kind": "school-acceptance", "description": "Universal acceptance within the South-Indian Krama lineage as the source-text on which Maheśvarānanda's commentary builds."},
-        {"kind": "internal-references", "description": "The Parimala consistently treats the verses as Abhinanda's authoritative composition."}
+        {
+          "kind": "school-acceptance",
+          "description": "Universal acceptance within the South-Indian Krama lineage as the source-text on which Maheśvarānanda's commentary builds."
+        },
+        {
+          "kind": "internal-references",
+          "description": "The Parimala consistently treats the verses as Abhinanda's authoritative composition."
+        }
       ],
       "genre": "verse-summary",
       "language": "sanskrit",
@@ -41,5 +51,34 @@
   "entry_status": "draft",
   "entry_owner_agent": "trika-shakta-extension-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "manifestation_status",
+      "value": "expressive-manifestation",
+      "register": "metaphysical",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/abhinanda.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "meditative-discipline",
+      "register": "soteriological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/abhinanda.json",
+          "field": "core_thesis"
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

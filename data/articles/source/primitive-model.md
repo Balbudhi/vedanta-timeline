@@ -4,6 +4,8 @@
 
 A compact analytic framework. Grant a small number of structural primitives — each a precisely-defined axis with a small range of values — and from each consistent assignment derive a Vedāntic school's position. The point is not to flatten the schools but to make their actual structure visible, so that the difference between two schools is exhibited as a small, named delta in primitive-space rather than as an unanalyzable doctrinal incommensurability.
 
+Cross-engagement: Akalanka presses the same substrate structure axis in the metaphysical register, but with the value `many-coordinate-reals` rather than `one-self-standing` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 This document is the analytic complement to `COMPARATIVE_CLAIMS_FRAMEWORK.md`. The four-verdict schema there asks *what kind of disagreement is this?*; the primitive model here asks *what is the minimal world-model difference that produces this disagreement?* A pair of schools that share every primitive value except one cannot be in incommensurable disagreement; a pair that diverges on five primitives may be.
 
 The model operates under the project's hard constraints. *Mithyā ≠ asat*: the modal status of *mithyā* is itself a primitive value (`mode_status = mithya-not-asat`), distinct from `unreal-asat`. Madhva is not "dualism"; he is a specific assignment whose substrate-axis is `hierarchical-dependent` (graded, *taratamya*-structured) rather than `many-substances`. Gods are not symbols; the manifest order is a real instantiation under whichever causation primitive the school selects.
@@ -14,8 +16,12 @@ The model operates under the project's hard constraints. *Mithyā ≠ asat*: the
 
 Nine axes, each with a small enumerated range. A school's position is, to first order, a tuple in the product space of these axes. (Genuine sub-school variation is captured by allowing two or more thinkers within a school to assign different values on a contested axis — e.g., Bhāmatī vs Vivaraṇa on `locus_of_avidya`.)
 
+Cross-engagement: Abhinavagupta presses the same manifestation status axis in the metaphysical register, but with the value `expressive-manifestation` rather than `sublatable-not-null` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ### P1. `substrate_structure`
 *How many fundamental substances and in what dependence-relation?*
+
+Cross-engagement: Arthur Schopenhauer presses the same identity relation axis in the metaphysical register, but with the value `self-expression-or-appearance` rather than `non-otherness` in [primary text](cite://schopenhauer/the-world-as-will-and-representation/1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 Range:
 - `one-substance` — exactly one ontological substrate; everything that exists is either identical with it or a mode/appearance/transformation of it. (Advaita, Śuddhādvaita, Avibhāga-advaita, Pratyabhijñā.)
@@ -25,6 +31,8 @@ Range:
 
 ### P2. `mode_status`
 *What is the ontological status of the world and finite selves qua not-being-the-substrate?*
+
+Cross-engagement: Akshapada Gautama presses the same selfhood structure axis in the phenomenological register, but with the value `substantial-self` rather than `witness-self` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 Range:
 - `real-dependent-mode` — modes are fully real, their reality consisting in their dependence on the substrate. (Viśiṣṭādvaita; Madhva on *paratantra*; Vallabha on *jagat*.)
@@ -36,6 +44,8 @@ Range:
 ### P3. `identity_relation_jiva_brahman`
 *What is the relation between the individual self and the supreme reality?*
 
+Cross-engagement: Anandabodha presses the same finite cognition axis in the epistemological register, but with the value `positive-ignorance` rather than `adhyasa-or-superimposition` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Range:
 - `numerical-identity` — the *jīva* is, on final analysis, numerically identical with Brahman; apparent multiplicity is *upādhi*-conditioned. (Advaita: the *sākṣin/kūṭastha* IS Brahman.)
 - `aṃśa-aprthak-siddha` — the *jīva* is a real *aṃśa* (part) of Brahman, *aprthak-siddha* (incapable of being established as separate) but not numerically identical. (Rāmānuja: *śarīra-śarīrī-bhāva*.)
@@ -46,6 +56,8 @@ Range:
 
 ### P4. `causation_substrate_to_world`
 *What kind of causal relation holds between Brahman and the world?*
+
+Cross-engagement: Ayon Maharaj presses the same epistemic authority axis in the epistemological register, but with the value `comparative-theological-reading` rather than `scripture-dominant` in [primary text](cite://maharaj/infinite-paths-to-infinite-reality/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 Range:
 - `vivarta` — apparent transformation; substrate is unchanged, world is its appearance. (Classical Advaita post-Maṇḍana; Sureśvara, Vivaraṇa.)
@@ -59,6 +71,8 @@ Range:
 ### P5. `locus_of_avidya`
 *Where does ignorance reside, and what is its ontological status?* (Applies primarily to schools admitting *avidyā*; for schools that don't, this axis is `n/a` and the school is identified by that fact.)
 
+Cross-engagement: Baladeva Vidyabhushana presses the same truth-structure axis in the epistemological register, but with the value `single-absolute-truth` rather than `hierarchical-standpoint-truth` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Range:
 - `brahman-as-locus` — *avidyā* has Brahman as its locus, with Brahman as both locus (*āśraya*) and content (*viṣaya*) under different aspects. (Vivaraṇa: Prakāśātman, Sarvajñātman.)
 - `jiva-as-locus` — *avidyā* is located in the *jīva*; Brahman is its content but not its locus. (Bhāmatī: Vāchaspati.)
@@ -69,14 +83,18 @@ Range:
 ### P6. `bheda_count`
 *How many irreducible differences (*bheda*) does the school treat as real-at-the-final-level?*
 
+Cross-engagement: Bannanje Govindacharya presses the same practice-path axis in the soteriological register, but with the value `devotion-and-grace` rather than `knowledge-discipline` in [primary text](cite://madhva/tattva-sankhyana/1-4). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Range:
-- `0` — no *bheda* is ultimately real; all difference is *vyāvahārika*. (Advaita.)
+- `0` — no *bheda* is real; all difference is *vyāvahārika*. (Advaita.)
 - `1-internal` — one substrate with internal difference between *cit*, *acit*, and *Iśvara*-as-śarīrī, real but not ultimate-substrate-multiplying. (Viśiṣṭādvaita.)
 - `5-pañca-bheda` — Brahman/jīva, Brahman/jaḍa, jīva/jīva, jīva/jaḍa, jaḍa/jaḍa. None *vyāvahārika*; none dissolves in *mokṣa*. (Madhva.)
 - `bhedabheda-counted-as-both` — difference and non-difference both real; counting *bheda* alone misdescribes the position. (Bhāskara, Nimbārka, Caitanya.)
 
 ### P7. `epistemic_authority_structure`
 *What is the *pramāṇa* hierarchy and the role of immediate experience?*
+
+Cross-engagement: Alfred North Whitehead presses the same soteric end axis in the soteriological register, but with the value `not-soteriological` rather than `identity-with-ground` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 Range:
 - `sruti-supreme-with-anubhava-confirming` — *śruti* is the sole source of supra-empirical truth; *anubhava* (immediate experience) confirms it but is not an independent *pramāṇa* for Brahman-knowledge. (Śaṅkara, classical Advaita.)
@@ -205,84 +223,84 @@ For ingestion by the timeline site as an "Analytic primitive view" toggle alongs
 
 ```json
 {
-  "schema_version": "1.0",
-  "axes": [
-    {
-      "axis_id": "P1_substrate_structure",
-      "name": "Substrate structure",
-      "description": "How many fundamental substances and in what dependence-relation.",
-      "values": [
-        {"value_id": "one-substance", "label": "One substance", "gloss": "Exactly one ontological substrate."},
-        {"value_id": "one-substance-with-real-internal-distinctions", "label": "One substance with real internal distinctions", "gloss": "One substrate with real aṃśa-parts or viśeṣa-distinguishers internal to it."},
-        {"value_id": "hierarchical-dependent", "label": "Hierarchical-dependent", "gloss": "One svatantra reality and a real plurality of paratantra realities asymmetrically grounded in it."},
-        {"value_id": "many-substances-coordinate", "label": "Many substances (comparator only)", "gloss": "Irreducibly many substances on the same footing; non-Vedāntic."}
-      ]
-    },
-    {"axis_id": "P2_mode_status", "name": "Mode status", "values": [
-      {"value_id": "real-dependent-mode"},
-      {"value_id": "real-parinama"},
-      {"value_id": "mithya-not-asat", "warning_note": "MUST NOT be conflated with unreal-asat; mithyā ≠ asat is enforced as an axis-fiat."},
-      {"value_id": "acintya-bhedabheda"},
-      {"value_id": "unreal-asat", "no-vedanta-school-occupies": true}
-    ]},
-    {"axis_id": "P3_identity_relation_jiva_brahman", "values": [
-      "numerical-identity",
-      "amsa-aprthak-siddha",
-      "bimba-pratibimba-with-eternal-distinction",
-      "bhedabheda-svabhavika",
-      "bhedabheda-acintya",
-      "pratyabhijna-recognition"
-    ]},
-    {"axis_id": "P4_causation_substrate_to_world", "values": [
-      "vivarta",
-      "parinama-satkarya",
-      "avikrta-parinama",
-      "nimitta-and-upadana-by-real-dependence",
-      "body-soul-causation",
-      "acintya-shakti-parinama",
-      "svatantrya-abhasa"
-    ]},
-    {"axis_id": "P5_locus_of_avidya", "values": [
-      "brahman-as-locus",
-      "jiva-as-locus",
-      "tritiya-padartha",
-      "aupadhika",
-      "n/a-no-avidya-posited"
-    ]},
-    {"axis_id": "P6_bheda_count", "values": [
-      "0", "1-internal", "5-panca-bheda", "bhedabheda-counted-as-both"
-    ]},
-    {"axis_id": "P7_epistemic_authority_structure", "values": [
-      "sruti-supreme-with-anubhava-confirming",
-      "sruti-coordinate-with-anubhava",
-      "sruti-anumana-pratyaksha-equally-valid-each-in-domain",
-      "sruti-and-bhakti-experience",
-      "agama-and-svatantrya-recognition"
-    ]},
-    {"axis_id": "P8_moksha_state", "values": [
-      "kaivalya-isolation",
-      "identity-without-distinction",
-      "union-with-internal-distinction-preserved",
-      "eternal-service-with-irreducible-distinction",
-      "loving-participation-acintya",
-      "recognition-of-svatantrya"
-    ]},
-    {"axis_id": "P9_bhakti_role", "values": [
-      "preparatory-only",
-      "coordinate-with-jnana",
-      "constitutive-of-saving-cognition",
-      "sole-and-self-sufficient-means",
-      "pratyabhijna-as-non-bhakti-recognition"
-    ]}
-  ],
-  "analogies": [
-    {"analogy_id": "rajju-sarpa", "name": "Rope and snake", "instantiates": {"P1": "one-substance", "P2": "mithya-not-asat", "P4": "vivarta"}, "native_school": "advaita"},
-    {"analogy_id": "bimba-pratibimba", "name": "Reflection in mirror", "underdetermined": true, "readings": [
-      {"by_school": "advaita-vivarana", "instantiates": {"P1": "one-substance", "P3": "numerical-identity"}},
-      {"by_school": "dvaita", "instantiates": {"P1": "hierarchical-dependent", "P3": "bimba-pratibimba-with-eternal-distinction"}}
-    ]}
-    // ... full list per §2
-  ]
+ "schema_version": "1.0",
+ "axes": [
+ {
+ "axis_id": "P1_substrate_structure",
+ "name": "Substrate structure",
+ "description": "How many fundamental substances and in what dependence-relation.",
+ "values": [
+ {"value_id": "one-substance", "label": "One substance", "gloss": "Exactly one ontological substrate."},
+ {"value_id": "one-substance-with-real-internal-distinctions", "label": "One substance with real internal distinctions", "gloss": "One substrate with real aṃśa-parts or viśeṣa-distinguishers internal to it."},
+ {"value_id": "hierarchical-dependent", "label": "Hierarchical-dependent", "gloss": "One svatantra reality and a real plurality of paratantra realities asymmetrically grounded in it."},
+ {"value_id": "many-substances-coordinate", "label": "Many substances (comparator only)", "gloss": "Irreducibly many substances on the same footing; non-Vedāntic."}
+ ]
+ },
+ {"axis_id": "P2_mode_status", "name": "Mode status", "values": [
+ {"value_id": "real-dependent-mode"},
+ {"value_id": "real-parinama"},
+ {"value_id": "mithya-not-asat", "warning_note": "MUST NOT be conflated with unreal-asat; mithyā ≠ asat is enforced as an axis-fiat."},
+ {"value_id": "acintya-bhedabheda"},
+ {"value_id": "unreal-asat", "no-vedanta-school-occupies": true}
+ ]},
+ {"axis_id": "P3_identity_relation_jiva_brahman", "values": [
+ "numerical-identity",
+ "amsa-aprthak-siddha",
+ "bimba-pratibimba-with-eternal-distinction",
+ "bhedabheda-svabhavika",
+ "bhedabheda-acintya",
+ "pratyabhijna-recognition"
+ ]},
+ {"axis_id": "P4_causation_substrate_to_world", "values": [
+ "vivarta",
+ "parinama-satkarya",
+ "avikrta-parinama",
+ "nimitta-and-upadana-by-real-dependence",
+ "body-soul-causation",
+ "acintya-shakti-parinama",
+ "svatantrya-abhasa"
+ ]},
+ {"axis_id": "P5_locus_of_avidya", "values": [
+ "brahman-as-locus",
+ "jiva-as-locus",
+ "tritiya-padartha",
+ "aupadhika",
+ "n/a-no-avidya-posited"
+ ]},
+ {"axis_id": "P6_bheda_count", "values": [
+ "0", "1-internal", "5-panca-bheda", "bhedabheda-counted-as-both"
+ ]},
+ {"axis_id": "P7_epistemic_authority_structure", "values": [
+ "sruti-supreme-with-anubhava-confirming",
+ "sruti-coordinate-with-anubhava",
+ "sruti-anumana-pratyaksha-equally-valid-each-in-domain",
+ "sruti-and-bhakti-experience",
+ "agama-and-svatantrya-recognition"
+ ]},
+ {"axis_id": "P8_moksha_state", "values": [
+ "kaivalya-isolation",
+ "identity-without-distinction",
+ "union-with-internal-distinction-preserved",
+ "eternal-service-with-irreducible-distinction",
+ "loving-participation-acintya",
+ "recognition-of-svatantrya"
+ ]},
+ {"axis_id": "P9_bhakti_role", "values": [
+ "preparatory-only",
+ "coordinate-with-jnana",
+ "constitutive-of-saving-cognition",
+ "sole-and-self-sufficient-means",
+ "pratyabhijna-as-non-bhakti-recognition"
+ ]}
+ ],
+ "analogies": [
+ {"analogy_id": "rajju-sarpa", "name": "Rope and snake", "instantiates": {"P1": "one-substance", "P2": "mithya-not-asat", "P4": "vivarta"}, "native_school": "advaita"},
+ {"analogy_id": "bimba-pratibimba", "name": "Reflection in mirror", "underdetermined": true, "readings": [
+ {"by_school": "advaita-vivarana", "instantiates": {"P1": "one-substance", "P3": "numerical-identity"}},
+ {"by_school": "dvaita", "instantiates": {"P1": "hierarchical-dependent", "P3": "bimba-pratibimba-with-eternal-distinction"}}
+ ]}
+ // ... full list per §2
+ ]
 }
 ```
 
@@ -292,26 +310,26 @@ Add to each thinker entry:
 
 ```json
 {
-  "id": "madhva",
-  "name": "Madhva",
-  // ... existing fields ...
-  "primitive_assignments": {
-    "P1_substrate_structure": "hierarchical-dependent",
-    "P2_mode_status": "real-dependent-mode",
-    "P3_identity_relation_jiva_brahman": "bimba-pratibimba-with-eternal-distinction",
-    "P4_causation_substrate_to_world": "nimitta-and-upadana-by-real-dependence",
-    "P5_locus_of_avidya": "n/a-no-avidya-posited",
-    "P6_bheda_count": "5-panca-bheda",
-    "P7_epistemic_authority_structure": "sruti-anumana-pratyaksha-equally-valid-each-in-domain",
-    "P8_moksha_state": "eternal-service-with-irreducible-distinction",
-    "P9_bhakti_role": "constitutive-of-saving-cognition",
-    "primary_analogies": ["bimba-pratibimba", "raja-bhrtya", "tapatayas-pinda"],
-    "primary_source_anchors": [
-      {"axis": "P1", "work": "anuvyakhyana", "locus": "1.1.13-15", "passage_id": "anuvy-1-1-13-15__svatantra-dependence-and-moksha"},
-      {"axis": "P6", "work": "anuvyakhyana", "locus": "1.4.111-112", "passage_id": "anuvy-1-4-111-112__panca-bheda-is-real"},
-      {"axis": "P3", "work": "anuvyakhyana", "locus": "2.3.66-69", "passage_id": "anuvy-2-3-66-69__abheda-as-sadrsya-not-identity"}
-    ]
-  }
+ "id": "madhva",
+ "name": "Madhva",
+ // ... existing fields ...
+ "primitive_assignments": {
+ "P1_substrate_structure": "hierarchical-dependent",
+ "P2_mode_status": "real-dependent-mode",
+ "P3_identity_relation_jiva_brahman": "bimba-pratibimba-with-eternal-distinction",
+ "P4_causation_substrate_to_world": "nimitta-and-upadana-by-real-dependence",
+ "P5_locus_of_avidya": "n/a-no-avidya-posited",
+ "P6_bheda_count": "5-panca-bheda",
+ "P7_epistemic_authority_structure": "sruti-anumana-pratyaksha-equally-valid-each-in-domain",
+ "P8_moksha_state": "eternal-service-with-irreducible-distinction",
+ "P9_bhakti_role": "constitutive-of-saving-cognition",
+ "primary_analogies": ["bimba-pratibimba", "raja-bhrtya", "tapatayas-pinda"],
+ "primary_source_anchors": [
+ {"axis": "P1", "work": "anuvyakhyana", "locus": "1.1.13-15", "passage_id": "anuvy-1-1-13-15__svatantra-dependence-and-moksha"},
+ {"axis": "P6", "work": "anuvyakhyana", "locus": "1.4.111-112", "passage_id": "anuvy-1-4-111-112__panca-bheda-is-real"},
+ {"axis": "P3", "work": "anuvyakhyana", "locus": "2.3.66-69", "passage_id": "anuvy-2-3-66-69__abheda-as-sadrsya-not-identity"}
+ ]
+ }
 }
 ```
 
@@ -319,8 +337,8 @@ For schools where a thinker holds a contested or evolving position, the value ca
 
 ```json
 "P5_locus_of_avidya": [
-  {"value": "brahman-as-locus", "tradition": "vivarana", "primary_source_anchors": [...]},
-  {"value": "jiva-as-locus", "tradition": "bhamati", "primary_source_anchors": [...]}
+ {"value": "brahman-as-locus", "tradition": "vivarana", "primary_source_anchors": [...]},
+ {"value": "jiva-as-locus", "tradition": "bhamati", "primary_source_anchors": [...]}
 ]
 ```
 

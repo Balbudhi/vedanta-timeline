@@ -57,5 +57,118 @@
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-claim-grounding-opus"
+  "last_verified_by": "wave-claim-grounding-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "epistemic_authority",
+      "value": "scripture-dominant",
+      "register": "epistemological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/brahmadatta.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sureshvara/naishkarmya-siddhi/1.67-68",
+            "cite://sureshvara/naishkarmya-siddhi/1.51-55",
+            "cite://sureshvara/naishkarmya-siddhi/1.67",
+            "cite://jaimini/mimamsa-sutra/2.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "finite_cognition_model",
+      "value": "positive-ignorance",
+      "register": "epistemological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/brahmadatta.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sureshvara/naishkarmya-siddhi/1.67-68",
+            "cite://sureshvara/naishkarmya-siddhi/1.51-55",
+            "cite://sureshvara/naishkarmya-siddhi/1.67",
+            "cite://jaimini/mimamsa-sutra/2.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "method_of_critique",
+      "value": "commentarial-exegesis",
+      "register": "methodological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/brahmadatta.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sureshvara/naishkarmya-siddhi/1.67-68",
+            "cite://sureshvara/naishkarmya-siddhi/1.51-55",
+            "cite://sureshvara/naishkarmya-siddhi/1.67",
+            "cite://jaimini/mimamsa-sutra/2.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "knowledge-discipline",
+      "register": "soteriological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/brahmadatta.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sureshvara/naishkarmya-siddhi/1.67-68",
+            "cite://sureshvara/naishkarmya-siddhi/1.51-55",
+            "cite://sureshvara/naishkarmya-siddhi/1.67",
+            "cite://jaimini/mimamsa-sutra/2.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "identity-with-ground",
+      "register": "soteriological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/brahmadatta.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sureshvara/naishkarmya-siddhi/1.67-68",
+            "cite://sureshvara/naishkarmya-siddhi/1.51-55",
+            "cite://sureshvara/naishkarmya-siddhi/1.67",
+            "cite://jaimini/mimamsa-sutra/2.1.1"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

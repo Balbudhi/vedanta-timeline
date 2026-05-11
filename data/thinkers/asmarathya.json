@@ -57,5 +57,118 @@
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-claim-grounding-opus"
+  "last_verified_by": "wave-claim-grounding-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "epistemic_authority",
+      "value": "scripture-dominant",
+      "register": "epistemological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/asmarathya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.4.20",
+            "cite://badarayana/brahma-sutra/1.2.29",
+            "cite://badarayana/brahma-sutra/1.4.21",
+            "cite://badarayana/brahma-sutra/1.4.20-21"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "identity_relation",
+      "value": "natural-difference-non-difference",
+      "register": "metaphysical",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/asmarathya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.4.20",
+            "cite://badarayana/brahma-sutra/1.2.29",
+            "cite://badarayana/brahma-sutra/1.4.21",
+            "cite://badarayana/brahma-sutra/1.4.20-21"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "method_of_critique",
+      "value": "commentarial-exegesis",
+      "register": "methodological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/asmarathya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.4.20",
+            "cite://badarayana/brahma-sutra/1.2.29",
+            "cite://badarayana/brahma-sutra/1.4.21",
+            "cite://badarayana/brahma-sutra/1.4.20-21"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "knowledge-discipline",
+      "register": "soteriological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/asmarathya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.4.20",
+            "cite://badarayana/brahma-sutra/1.2.29",
+            "cite://badarayana/brahma-sutra/1.4.21",
+            "cite://badarayana/brahma-sutra/1.4.20-21"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "identity-with-ground",
+      "register": "soteriological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/asmarathya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.4.20",
+            "cite://badarayana/brahma-sutra/1.2.29",
+            "cite://badarayana/brahma-sutra/1.4.21",
+            "cite://badarayana/brahma-sutra/1.4.20-21"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

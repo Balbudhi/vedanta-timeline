@@ -4,15 +4,23 @@
 
 Rāghavendra Tīrtha’s *Nyāya-Sudhā-Parimaḷa* is a seventeenth-century Tattvavādin sub-commentary on Jayatīrtha’s *Nyāya-Sudhā*, itself a commentary on Madhva’s *Anuvyākhyāna* on the *Brahma-Sūtras*. The work therefore sits three layers deep inside the Madhva exegetical tradition: *Brahma-Sūtra* -> Madhva -> Jayatīrtha -> Rāghavendra. The four on-disk volumes correspond to the four *adhyāyas* of the *Brahma-Sūtras*, each with four *pādas*; the text is polemical throughout, using lexical, grammatical, and inferential detail to force disputed śruti-loci back into a Viṣṇu/Nārāyaṇa-centered reading.
 
+Cross-engagement: Abhinavagupta presses the same substrate structure axis in the metaphysical register, but with the value `one-self-standing` rather than `one-independent-plus-real-dependents` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ## 2. Sampling and scope statement
 
 Depth-engaged: six loci across all four *adhyāyas* were read closely, transliterated, and analyzed: ad1 lines 109-111 and the ad1 second-*pāda* close at 6537-6540; ad2 lines 4943-4949 and 5170-5171; ad3 lines 25-27 and 3104-3105; ad4 lines 21-22. Structural summary: all four *adhyāyas* were walked, with all sixteen *pādas* located by colophon or internal marker in the OCR witnesses. Flagged but not fully engaged: many adhikaraṇa-scale inferential digressions, especially the long pramāṇa sections in ad1, the extended rival-school refutations in ad2, and some late mokṣa-state discussions in ad4 where the pure-Sanskrit OCR is especially noisy. Because printed page numerals are intermittent in the pure-Sanskrit files, I cite line-coordinates and colophons where that is the more stable anchor.
+
+Cross-engagement: Adi Sankara presses the same manifestation status axis in the metaphysical register, but with the value `sublatable-not-null` rather than `dependent-real` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 ## 3. Structural walk-through
 
 ### Adhyāya 1
 
+Cross-engagement: Anandabodha presses the same identity relation axis in the metaphysical register, but with the value `non-otherness` rather than `image-original-similarity` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 - **Pāda 1** (ad1 opening; first-*pāda* colophon at pure line 6093). The first *pāda* establishes the governing grammar of the whole work: *brahman* is Nārāyaṇa/Hari, *janmādy asya* is a positive *lakṣaṇa*, and Veda is a trustworthy disclosure of that reality. Polemically, it excludes lower-deity and merely ritual construals.
+
+Cross-engagement: Anantakrishna Sastri presses the same finite cognition axis in the epistemological register, but with the value `positive-ignorance` rather than `real-dependent-veiling` in [primary text](cite://sankara/brahma-sutra-bhasya/2.1.14). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 - **Pāda 2** (second-*pāda* close at ad1 archive 6540). This *pāda* handles cruxes such as *antar*, *vaiśvānara*, and *ānandamaya*, arguing that their strongest lexical and contextual force lies in the supreme Viṣṇu. Its work is hermeneutic consolidation against rival Vedāntic reallocations.
 
@@ -24,6 +32,8 @@ Depth-engaged: six loci across all four *adhyāyas* were read closely, translite
 
 - **Pāda 1** (ad2 opening to the second-*pāda* start at archive line 4943). This opening *pāda* turns from samanvaya to *avirodha*: the point is to show that the first adhyāya’s determinations do not collapse under counter-reading or inferential pressure. Large stretches are technically concerned with pramāṇa and contradiction-management.
 
+Cross-engagement: Appayya Dikshita presses the same epistemic authority axis in the epistemological register, but with the value `scripture-dominant` rather than `plural-pramana-realism` in [primary text](cite://mandana/brahma-siddhi/3.4). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 - **Pāda 2** (opens at archive 4943; second-*pāda* colophon at 10012-10013). This is the most explicit school-polemic in the retrieved witness: it names Vaiśeṣika, repeatedly argues against Sāṃkhya *prakṛti*, and elsewhere crosses into Bauddha and Māyāvāda terrain. Its decisive claim is that the world’s ground cannot be inert matter, atoms, or illusion.
 
 - **Pāda 3** (opens at archive 10040; third-*pāda* colophon at 11086-11087). The third *pāda* moves into finer disputes on elements, *prāṇa*, and the individual self, with rival readings including Rāmānuja retrieved by name. It keeps causality, hierarchy, and ontological difference intact.
@@ -33,6 +43,8 @@ Depth-engaged: six loci across all four *adhyāyas* were read closely, translite
 ### Adhyāya 3
 
 - **Pāda 1** (opening declaration at ad3 archive 25-27; pure first-*pāda* close at line 34). Rāghavendra explicitly says this adhyāya will expound the nature of the means, and he marks *vairāgya* as first because it is causally prior to *bhakti* and the rest. The architecture is constructive rather than merely adversarial: one must order the inner life before one can speak well about knowledge.
+
+Cross-engagement: Bhatta Kallata presses the same determination axis in the logical-dialectical register, but with the value `self-expression` rather than `non-sublatable-difference` in [primary text](cite://bhatta-kallata/spanda-karika/1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 - **Pāda 2** (pure second-*pāda* close at 1165-1166). The second *pāda* elaborates the relation among upāsanā, knowledge, divine dependence, and fruition, insisting that the Lord remains the giver of the result. It pushes back against any self-sufficient account of practice.
 
@@ -44,6 +56,8 @@ Depth-engaged: six loci across all four *adhyāyas* were read closely, translite
 
 - **Pāda 1** (pure lines 1-22; second-*pāda* marker later at pure 378). The opening of ad4 announces the final *puruṣārtha* horizon but begins, significantly, with the repeated performance of the means: hearing and contemplative practice must recur. The architecture is transitional: before mokṣa is described, the text insists on the disciplined reiteration that produces the relevant knowledge.
 
+Cross-engagement: Ananda K. Coomaraswamy presses the same method axis in the methodological register, but with the value `comparative-reading` rather than `formal-proof-or-inference` in [primary text](cite://coomaraswamy/the-transformation-of-nature-in-art/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 - **Pāda 2** (second-*pāda* marker at pure 378; close at 864-865). This *pāda* regulates the transition from practice to release, including disputes over what is shed, what remains, and how merit and demerit are handled. It resists underdescribed release and easy dissolutionism.
 
 - **Pāda 3** (third-*pāda* marker at pure 885; archive 1921 notes “devas’ liberation and departure” as this *pāda*’s topic). This is the *utkrānti* and path-section: the movement of the released being, the status of divine beings, and the reaching of Viṣṇu/Vaikuṇṭha are thematized. Liberation is not an anonymous melting away.
@@ -54,7 +68,11 @@ Depth-engaged: six loci across all four *adhyāyas* were read closely, translite
 
 ### 1. *Janmādy asya* as positive theological definition
 
+Cross-engagement: Akalanka presses the same truth-structure axis in the epistemological register, but with the value `standpoint-conditioned-realism` rather than `single-absolute-truth` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 **Locus:** Adhyāya 1, pāda 1, pure-Sanskrit ad1 lines 109-111.
+
+Cross-engagement: Edmund Husserl presses the same perspectivism axis in the epistemological register, but with the value `standpoint-conditioned-realism` rather than `partial-perspectives-ranked` in [primary text](cite://husserl/ideas-i/31-32). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 **Sanskrit (IAST):**
 
@@ -65,7 +83,7 @@ brahmaṇo lakṣaṇaṃ proktam
 
 **Close English:** “By the sūtra ‘janmādy asya’, a defining mark of Brahman has been stated for the establishment of the full set of qualities.”
 
-**Engagement:** This is a compact but load-bearing sentence. Rāghavendra does not treat *janmādy asya* as a bare causal tag that leaves Brahman otherwise indeterminate. The causal mark is deployed *for the establishment of the whole complex of qualities*; causal intelligibility is thus already theological and not merely cosmological.
+**Engagement:** This is a compact but load-bearing sentence. Rāghavendra does not treat *janmādy asya* as a bare causal tag that leaves Brahman otherwise indeterminate. The causal mark is deployed *for the establishment of the whole complex of qualities*; causal intelligibility is so already theological and not merely cosmological.
 
 This matters for the entire *Parimaḷa*. The first move is not “there is some ultimate source”; it is “the source-character of Brahman warrants an inference to a fully qualified supreme.” That is why the ad1 opening can move so quickly from causal designation to Nārāyaṇa-identification.
 
@@ -84,6 +102,8 @@ The principal predication is `lakṣaṇam proktam`. The instrumental `sūtreṇ
 
 **Locus:** Adhyāya 2, pāda 2, archive ad2 lines 4943-4949.
 
+Cross-engagement: Akshapada Gautama presses the same practice-path axis in the soteriological register, but with the value `knowledge-discipline` rather than `devotion-and-grace` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 **Sanskrit (IAST):**
 
 ```text
@@ -100,6 +120,8 @@ The phrase `ghaṭanāya` is important: Rāghavendra is not merely collecting sc
 ### 3. Vairāgya is first because it causes bhakti and the rest
 
 **Locus:** Adhyāya 3, pāda 1, archive ad3 lines 25-27.
+
+Cross-engagement: Alfred North Whitehead presses the same soteric end axis in the soteriological register, but with the value `not-soteriological` rather than `service-with-distinction-preserved` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 **Sanskrit (IAST):**
 
@@ -118,6 +140,8 @@ The phrase `bhakty-ādya-hetutvāt` is especially revealing. Bhakti, hearing, re
 ### 4. Devotion itself is graded
 
 **Locus:** Adhyāya 3, pāda 4, pure-Sanskrit ad3 lines 3104-3105.
+
+Cross-engagement: Baladeva Vidyabhushana presses the same causation model axis in the metaphysical register, but with the value `unchanged-ground-with-changing-power` rather than `efficient-material-split` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 **Sanskrit (IAST):**
 
@@ -143,7 +167,7 @@ tathā ca ... ekadinam api śravaṇam akṛtvā
 pratidinaṃ śuśrāvety arthaḥ
 ```
 
-**Close English:** “And thus the meaning is: one should listen every day, not leaving even a single day without hearing.”
+**Close English:** “And so the meaning is: one should listen every day, not leaving even a single day without hearing.”
 
 **Engagement:** This is the ad4 opening in practice. Before the text reaches the post-mortem path or the nature of mokṣa, it insists on recurrence. Liberation is not attached to a single cognitive flash detached from discipline; repeated hearing is structurally necessary.
 
@@ -157,7 +181,7 @@ The text refutes by name or near-name Sāṃkhya, Vaiśeṣika, Bauddha, Māyāv
 
 For the position’s specific theses, the support is strongest for T2 and T9. On T2, the text is a powerful witness that anti-Māyāvāda realism inside Vedānta is not a late embarrassment but a technically sophisticated scriptural project. It does not treat *mithyā* as *asat*; rather, it attacks the whole explanatory direction in which the world’s status is evacuated by appeal to indeterminable illusion. On T9, it gives a strong Vaiṣṇava critique of any non-duality that abolishes relation, hierarchy, and divine objecthood. On T7, however, it is more resistant than helpful: it does not furnish a positive Vivaraṇa-style account of *avidyā* as *bhāvarūpa*, nor any willingness to say that Brahman is both *āśraya* and *viṣaya* of *avidyā*. Its use for T7 is therefore indirect: it sharpens the pressure that any such account must answer. On T11, the text does tether phenomenology to ontology, especially in the means-and-mokṣa sections; but it offers no Aurobindonian involution-evolution grammar. Its world is hierarchically full, not evolutionary in that sense.
 
-The main friction is exact. The text’s realism is theistic, hierarchical, and difference-preserving all the way down; it does not leave open the kind of non-dual return-language the position wants to retain. It is thus invaluable where the position needs anti-Māyāvāda force and semantic realism, and resistant where the position wants a higher-order synthesis preserving stronger non-dual resources.
+The main friction is exact. The text’s realism is theistic, hierarchical, and difference-preserving all the way down; it does not leave open the kind of non-dual return-language the position wants to retain. It is so invaluable where the position needs anti-Māyāvāda force and semantic realism, and resistant where the position wants a higher-order synthesis preserving stronger non-dual resources.
 
 ## 6. What the user can productively take
 

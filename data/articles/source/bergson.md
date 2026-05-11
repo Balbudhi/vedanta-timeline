@@ -8,7 +8,11 @@
 
 ### Bio (1859–1941)
 
+Cross-engagement: Abhinavagupta presses the same substrate structure axis in the metaphysical register, but with the value `one-self-standing` rather than `process-field-with-no-enduring-substrate` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Henri-Louis Bergson was born in Paris, 18 October 1859, to a Polish-Jewish father and an English-Jewish mother. He was a brilliant student at the Lycée Condorcet, took the *concours général* in mathematics in 1877, and deliberately turned away from mathematics to enter the École Normale Supérieure in 1878 to read philosophy. The choice mattered: he wrote as a philosopher who *could* have been a mathematician, and his polemic against the spatializing intellect is the polemic of someone who knew, from inside, how it actually proceeds.
+
+Cross-engagement: Adi Sankara presses the same selfhood structure axis in the phenomenological register, but with the value `witness-self` rather than `psychic-individual` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 After his *agrégation* (1881) and lycée teaching, the seed of his first book came at Clermont-Ferrand: while preparing a class on Zeno's paradoxes, he saw that the scientific concept of time was incoherent because it was *space in disguise*. Real time was something else; he named it *durée*. The thesis was elaborated as the *Essai sur les données immédiates de la conscience* (1889).
 
@@ -17,6 +21,8 @@ From 1900 he held a chair at the Collège de France; the lectures were a public 
 ### The Work-Arc
 
 Bergson published four major books over forty-three years, each addressing a different domain with the same method. The arc is unusually clean.
+
+Cross-engagement: Akshapada Gautama presses the same method axis in the methodological register, but with the value `formal-proof-or-inference` rather than `mixed-or-layered` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 **1889 — *Essai sur les données immédiates de la conscience*** (translated by F. L. Pogson 1910 as *Time and Free Will*). The thesis-book. Domain: psychology and the problem of freedom. Central distinction: *durée vraie* (qualitative multiplicity, lived time) versus *temps spatialisé* (quantitative multiplicity, the time of physics and clocks). The deep self is qualitative, free; the surface self is quantitative, determined; the determinism-freedom debate dissolves once the confusion of duration with extension is exposed.
 
@@ -34,6 +40,8 @@ Around these four books cluster the lectures and shorter pieces: *Le rire* (1900
 
 Bergson is a philosopher of *one* problem, said in many domains. The problem is: **how does intellect falsify the real, and what kind of cognition restores it?** His answer: intellect, as evolved instrument of action on solids, decomposes movement into immobilities, duration into spatial intervals, life into mechanism, novelty into recombination of the already-given. This is not an error to be diagnosed and discarded — intellect is supremely useful for what it was made to do (cut the world into manipulable objects, predict their behavior for purposes of action). It becomes an error only when extended beyond its competence, when one takes the spatial-quantitative model as a description of reality rather than as a tool. The corrective is *intuition*: a cognition that places itself inside the moving object instead of circling it from outside, that "sympathizes" with what it knows, that grasps the qualitative, the durational, the ontologically novel. Intuition is not anti-intellectual; it is supra-intellectual; it requires effort, training, philosophical discipline, and is the special task of metaphysics.
 
+Cross-engagement: Gaudapada (Samkhya commentator) presses the same temporal mode axis in the metaphysical register, but with the value `substance-primary` rather than `process-primary` in [primary text](cite://isvara-krsna/samkhya-karika/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 The same problem cycles through the books in different domains:
 
 - **Données immédiates**: intellect spatializes psychic states; intuition recovers the deep self.
@@ -47,6 +55,8 @@ In each book the same gesture: the spatializing/quantifying intellect produces a
 
 Bergson is the most direct French anticipation of Aurobindo's *intuitive-mental* register — the rung at which knowledge ceases to be representational-conceptual and becomes contact, "sympathy" with the inner movement of the thing. Banerji's *Inward Turn* makes this constellation: Aurobindo's saṃjñāna (knowing-with) and ājñāna (direct knowing) track Bergson's distinction between intellect (which goes around the object) and intuition (which enters into it). Bergson reaches the intuitive register with unmatched Western precision; he does not reach the *Overmind* (cosmic consciousness, all individual centers perceived simultaneously as one and as many) and does not envision the *Supermind* (being and becoming non-different). What he lacks is a positive doctrine of *līlā*, a doctrine of *involution* preceding evolution, and the static-and-dynamic non-difference of Saccidānanda. The *élan vital* is the becoming-side of the Real without the being-side: push without ground.
 
+Cross-engagement: G. W. F. Hegel presses the same evolution register axis in the historical-genealogical register, but with the value `sublative-becoming` rather than `durational-creative-growth` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 The other reason is bridging. Bergson sets up Whitehead (process as primary), Deleuze (multiplicity as virtual; intuition as method; the critique of representation), Merleau-Ponty (the lived body, perception as already action). None of those later readings is intelligible without him.
 
 This document gives the French verbatim with English underneath, noting where the standard translation can be improved.
@@ -54,6 +64,8 @@ This document gives the French verbatim with English underneath, noting where th
 ### Glossary
 
 *durée* — real time as lived from within: continuous, qualitative, heterogeneous, indivisible without alteration. "Lasting-as-flowing."
+
+Cross-engagement: Akalanka presses the same soteric end axis in the soteriological register, but with the value `isolation-or-discriminative-release` rather than `not-soteriological` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 *temps spatialisé* — the time of physics, clocks, of any model in which moments are juxtaposed like points on a line. Useful for action, false as an account of inner life.
 
@@ -87,7 +99,7 @@ This document gives the French verbatim with English underneath, noting where th
 
 The *Essai* is Bergson's doctoral thesis (1889). The English translation by Pogson (1910) was titled *Time and Free Will* — a title that fits the polemical occasion (the freedom-determinism debate of late-nineteenth-century French philosophy) but obscures the method. The literal "Essay on the Immediate Data of Consciousness" is closer to what the book actually does: it asks what consciousness *actually* presents when we stop reading it through the schemata of language and associationist psychology. Three chapters: Chapter I shows that "intensity" as quantitative magnitude is a confusion (psychic intensities are qualities); Chapter II arrives at the distinction between quantitative and qualitative multiplicity; Chapter III shows that the freedom-determinism debate dissolves once duration is no longer confused with extension.
 
-The polemical targets are specific. Fechner's and Weber's psychophysics, with its claim to *measure* sensation, is the immediate antagonist of Chapter I. Kant's first *Critique*, with its doctrine that time is an *a priori* form of inner intuition (time as the form-of-arrangement of inner states, structurally analogous to space as the form of outer states), is the deeper antagonist of Chapter II. Bergson's claim against Kant is that time as Kant treats it is *already* spatialized — a form-of-juxtaposition into which inner states are sorted — and so misses what is actually given to inner experience: not a form of arrangement but a flowing, interpenetrating qualitative whole. Bergson is thus *un-Kantianizing* time, returning it from a transcendental form to a directly given content of consciousness. The associationist tradition (Mill, Bain, Taine, Ribot) is the secondary antagonist throughout: its picture of mind as combinable atoms is the projection back into consciousness of spatialized representations of consciousness.
+The polemical targets are specific. Fechner's and Weber's psychophysics, with its claim to *measure* sensation, is the immediate antagonist of Chapter I. Kant's first *Critique*, with its doctrine that time is an *a priori* form of inner intuition (time as the form-of-arrangement of inner states, structurally analogous to space as the form of outer states), is the deeper antagonist of Chapter II. Bergson's claim against Kant is that time as Kant treats it is *already* spatialized — a form-of-juxtaposition into which inner states are sorted — and so misses what is actually given to inner experience: not a form of arrangement but a flowing, interpenetrating qualitative whole. Bergson is so *un-Kantianizing* time, returning it from a transcendental form to a directly given content of consciousness. The associationist tradition (Mill, Bain, Taine, Ribot) is the secondary antagonist throughout: its picture of mind as combinable atoms is the projection back into consciousness of spatialized representations of consciousness.
 
 ### Intensity as quality, not quantity
 

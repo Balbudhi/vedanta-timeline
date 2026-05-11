@@ -8,7 +8,11 @@
 
 ### The question this reader takes up
 
+Cross-engagement: Abhinavagupta presses the same substrate structure axis in the metaphysical register, but with the value `one-self-standing` rather than `process-field-with-no-enduring-substrate` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 The companion reader, `12_samkhya_anirban.md`, fixed the three-guṇa structural homology with Anirban Bandyopadhyay's PPM operations: *sattva* = projection from infinity; *rajas* = C<sub>n</sub>-rotational shape-transformation at singularity; *tamas* = bonding at undefined corners. The present reader takes up the temporal half: *kāla-cakra*. The deeper Sāṃkhyan picture to keep in view throughout is that *prakṛti* is the veil or engine of form woven of three threads: tamas as the substance of the veil, rajas as its motion or pulsation, sattva as its clarity, the transparent thread through which feedback from infinity passes. In a Medium essay published in February 2024, Anirban writes:
+
+Cross-engagement: Adi Sankara presses the same manifestation status axis in the metaphysical register, but with the value `sublatable-not-null` rather than `dependent-real` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 > "When Hindus took the view that time should always be in the form of a loop, or Kala Chakra, it also made sure that beyond the three dimensions, there exists no concept of time. […] they created time loops of various sizes and bonded them together in a three-dimensional space using vertices of various kinds." (Bandyopadhyay, *Universe is not big, its illusion: Brain & universe both exist inside a point*, Medium, February 2024.)
 
@@ -18,13 +22,19 @@ He treats the *kāla-cakra* as literal description of the architecture his labor
 
 Sāṃkhya gives the *what-is-it-made-of*; the *kāla-cakra* literature gives the *how-does-it-cycle*. Anirban's polyatomic-time-crystal framework holds the two together: PPM as substrate, three guṇas as operations, nested-clock architecture as result. The user's theses bearing here are T1 (darśana register), T7 (divine self-veiling as cyclical alternation), T9 (unity-in-multiplicity through one substrate / many nest-levels), T11 (inner-outer coupling).
 
+Cross-engagement: Gaudapada (Samkhya commentator) presses the same temporal mode axis in the metaphysical register, but with the value `substance-primary` rather than `process-primary` in [primary text](cite://isvara-krsna/samkhya-karika/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ### The reading sequence
 
 **Part I** — Anirban's framework verbatim. **Part II** — Hindu *kāla-cakra* canon. **Part III** — Buddhist *Kālacakra-Tantra* and Abhinavagupta. **Part IV** — deeper Sāṃkhya layer (Yuktidīpikā, Vijñānabhikṣu, *Bhāgavata* Kapila-Devahūti, Mokṣa-Dharma, Caraka). **Part V** — homology table and the recovery / independent-discovery question. **Part VI** — bearing on the twelve theses. **Part VII** — reading sequence and open questions.
 
+Cross-engagement: Alfred North Whitehead presses the same evolution register axis in the historical-genealogical register, but with the value `durational-creative-growth` rather than `real-cosmological-evolution` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ### Glossary
 
 Sanskrit terms preserved untranslated, glossed on first use:
+
+Cross-engagement: Akalanka presses the same soteric end axis in the soteriological register, but with the value `isolation-or-discriminative-release` rather than `not-soteriological` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 - ***kāla-cakra*** — wheel of time; the cyclical structure of cosmic and bodily temporality. Compound of *kāla* (time) + *cakra* (wheel, disc, recurring cycle).
 - ***yuga*** — age; one of the four world-ages (*kṛta*, *tretā*, *dvāpara*, *kali*) which together constitute a *catur-yuga* or *mahā-yuga*.
@@ -66,6 +76,8 @@ Anirban's terms:
 ### A note on register and method
 
 Two methodological commitments. **First**, Anirban's mathematical formalism is presented verbatim and *not interpreted*. The PPM, the dodecanion algebra, the *Zhe operator*, the triplet-of-triplet measurements are his physics; this reader cites what he claims and does not extend the formalism. The physicist-collaborator is the proper interpreter; the present reader's job is the canonical articulation against which the physics is to be tested. **Second**, the Indic *kāla-cakra* material is engaged as metaphysics taken literally — the texts assert a structural identity between cosmic, bodily, and contemplative wheels of time, and the present reader takes them at their word.
+
+Cross-engagement: Baladeva Vidyabhushana presses the same causation model axis in the metaphysical register, but with the value `unchanged-ground-with-changing-power` rather than `processual-concrescence` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 ---
 
@@ -123,7 +135,7 @@ The pattern iterates 3 → 9 → 27 → 81, with 27 = 3³ flagged as fundamental
 
 > "they created time loops of various sizes and bonded them together in a three-dimensional space using vertices of various kinds." (ibid.)
 
-> "One of the fundamental aspects of Hindu worship, which is a very methodical and systematic procedure of such mathematical operations in terms of singing hymns, dancing before the gods, making foods, clothes, which we do not find in any other culture of the world, tells us how all these different practices could come together to explore the composition of time loop, Kala Chakra." (ibid.)
+> "One of the fundamental aspects of Hindu worship, which is a very methodical and systematic procedure of such mathematical operations in terms of singing hymns, dancing before the gods, making foods, clothes, which we do not find in any other culture of the world, tells us how all these different practices could come together to examine the composition of time loop, Kala Chakra." (ibid.)
 
 > "We have to start thinking like a Vedic scholar, who sees time as a closed loop." (ibid.)
 
@@ -357,7 +369,7 @@ The technical term is *prāṇa-spanda-ūrmi* — "the wave of breath-vibration.
 
 The architectural payoff is in 6.156–179, where Abhinavagupta develops the four-pralaya scheme through the breath-and-cycle hierarchy. Verse 6.158:
 
-> **AbhT 6.158.** "So long indeed is the divine night, in which the *prāṇa* comes to rest; along the path of *suṣumnā* the universe too abides here, lodged in the womb of breath."
+> **AbhT 6.158.** "So long is the divine night, in which the *prāṇa* comes to rest; along the path of *suṣumnā* the universe too abides here, lodged in the womb of breath."
 
 *Sauṣumna-vartmanā* — "by the path of *suṣumnā*" (the central channel). When the breath is pacified, the universe withdraws into the central channel: the differentiated cycles collapse into the axial substrate. This is the cosmic *naimittika-pralaya* articulated as a bodily event.
 
@@ -371,7 +383,7 @@ Verse 6.170 names the four pralayas: *catvāra ete pralayā mukhyāḥ sargāś 
 
 Verse 6.179 gives the closing identification:
 
-> **AbhT 6.179.** "Thus emanations and dissolutions alike are all established in the single *prāṇa*."
+> **AbhT 6.179.** "so emanations and dissolutions alike are all established in the single *prāṇa*."
 
 This is the load-bearing verse for the inner-outer kāla-cakra identification. The *four* pralayas and *four* emanations of the cosmic scale are *all* established within the single *prāṇa* — the breath-cycle of the practitioner. *Yat piṇḍe tat brahmāṇḍe*, in technical Sanskrit. The cosmic kāla-cakra is realized at every scale; the bodily breath-cycle is the cosmic kāla-cakra in its bodily mode. Anirban's *yat piṇḍe tat brahmāṇḍe* citation, in his *Universe is not big* essay, is exactly this Trika doctrine — the one Abhinavagupta articulates as Sanskrit-technical metaphysics.
 
@@ -441,7 +453,7 @@ That is why the broader archive matters for the user's thesis. Without it, the k
 
 ## Part IV — Sāṃkhya Metaphysics Deepened
 
-The companion reader (`12_samkhya_anirban.md`) walked the *Sāṃkhya-Kārikā* and the principal commentaries (Gauḍapāda, Vācaspati Miśra, Yuktidīpikā in summary). What it did not cover, and what the user has explicitly asked to be filled in, is the deeper metaphysical layer of the Sāṃkhya tradition: the philosophical arguments for *satkārya-vāda* and *pariṇāma-vāda* (which underwrite Anirban's "clocks contained in singularities" architecture); Vijñānabhikṣu's distinctive synthesis of Sāṃkhya within a Vedāntic frame (which is the closest classical Indian precedent for the user's monism-pluralism balance); the Bhāgavata Kapila-Devahūti dialogue (which gives the most theologically articulated Sāṃkhya); the Mahābhārata Mokṣa-Dharma (which gives the most narrative-philosophical Sāṃkhya); and the medical Sāṃkhya of Caraka (which gives the somatic-physical Sāṃkhya). We walk these in turn.
+The companion reader (`12_samkhya_anirban.md`) walked the *Sāṃkhya-Kārikā* and the principal commentaries (Gauḍapāda, Vācaspati Miśra, Yuktidīpikā In brief,). What it did not cover, and what the user has explicitly asked to be filled in, is the deeper metaphysical layer of the Sāṃkhya tradition: the philosophical arguments for *satkārya-vāda* and *pariṇāma-vāda* (which underwrite Anirban's "clocks contained in singularities" architecture); Vijñānabhikṣu's distinctive synthesis of Sāṃkhya within a Vedāntic frame (which is the closest classical Indian precedent for the user's monism-pluralism balance); the Bhāgavata Kapila-Devahūti dialogue (which gives the most theologically articulated Sāṃkhya); the Mahābhārata Mokṣa-Dharma (which gives the most narrative-philosophical Sāṃkhya); and the medical Sāṃkhya of Caraka (which gives the somatic-physical Sāṃkhya). We walk these in turn.
 
 ### IV.1 — *Yuktidīpikā* on causation: *satkārya-vāda* and *pariṇāma-vāda*
 

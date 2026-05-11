@@ -1,0 +1,166 @@
+{
+  "id": "anirban",
+  "name": "Anirvan",
+  "name_iast": "Anirvan",
+  "school": "Sāṃkhya",
+  "entry_status": "stub-from-article-phase2",
+  "core_thesis": "Article-backed thinker stub created during primitives_v2 Phase 2 from `data/articles/source/samkhya-anirban.md`.",
+  "primitive_commitments": [
+    {
+      "primitive": "causation_model",
+      "value": "real-transformation",
+      "register": "metaphysical",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/anirban.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "real-transformation",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/anirban.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "knowledge-discipline",
+      "register": "soteriological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/anirban.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "selfhood_structure",
+      "value": "substantial-self",
+      "register": "phenomenological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/anirban.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "isolation-or-discriminative-release",
+      "register": "soteriological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/anirban.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "many-coordinate-reals",
+      "register": "metaphysical",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/anirban.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "temporal_mode",
+      "value": "substance-primary",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/anirban.json",
+          "field": "core_thesis"
+        }
+      ]
+    }
+  ],
+  "cross_engagements": [
+    {
+      "article": "data/articles/source/samkhya-anirban.md",
+      "primitive": "substrate_structure",
+      "register": "metaphysical",
+      "relation": "disagrees",
+      "other_thinker_id": "abhinavagupta",
+      "other_primary_citation": "cite://abhinavagupta/tantraloka/1.16",
+      "passage": "Cross-engagement: Abhinavagupta presses the same substrate structure axis in the metaphysical register, but with the value `one-self-standing` rather than `many-coordinate-reals` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+    },
+    {
+      "article": "data/articles/source/samkhya-anirban.md",
+      "primitive": "manifestation_status",
+      "register": "metaphysical",
+      "relation": "disagrees",
+      "other_thinker_id": "sankara",
+      "other_primary_citation": "cite://sankara/brahma-sutra-bhasya/1.1.1",
+      "passage": "Cross-engagement: Adi Sankara presses the same manifestation status axis in the metaphysical register, but with the value `sublatable-not-null` rather than `real-transformation` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+    },
+    {
+      "article": "data/articles/source/samkhya-anirban.md",
+      "primitive": "selfhood_structure",
+      "register": "phenomenological",
+      "relation": "disagrees",
+      "other_thinker_id": "anandabodha",
+      "other_primary_citation": "cite://sarvajnatman/samksepa-sariraka/1.319-352",
+      "passage": "Cross-engagement: Anandabodha presses the same selfhood structure axis in the phenomenological register, but with the value `witness-self` rather than `substantial-self` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+    },
+    {
+      "article": "data/articles/source/samkhya-anirban.md",
+      "primitive": "temporal_mode",
+      "register": "metaphysical",
+      "relation": "disagrees",
+      "other_thinker_id": "whitehead",
+      "other_primary_citation": "cite://whitehead/process-and-reality/1.2",
+      "passage": "Cross-engagement: Alfred North Whitehead presses the same temporal mode axis in the metaphysical register, but with the value `process-primary` rather than `substance-primary` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+    },
+    {
+      "article": "data/articles/source/samkhya-anirban.md",
+      "primitive": "practice_path",
+      "register": "soteriological",
+      "relation": "disagrees",
+      "other_thinker_id": "akalanka",
+      "other_primary_citation": "cite://umasvati/tattvartha-sutra/1.34-35",
+      "passage": "Cross-engagement: Akalanka presses the same practice-path axis in the soteriological register, but with the value `meditative-discipline` rather than `knowledge-discipline` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+    },
+    {
+      "article": "data/articles/source/samkhya-anirban.md",
+      "primitive": "soteric_end",
+      "register": "soteriological",
+      "relation": "disagrees",
+      "other_thinker_id": "anantakrishna-sastri",
+      "other_primary_citation": "cite://sankara/brahma-sutra-bhasya/2.1.14",
+      "passage": "Cross-engagement: Anantakrishna Sastri presses the same soteric end axis in the soteriological register, but with the value `identity-with-ground` rather than `isolation-or-discriminative-release` in [primary text](cite://sankara/brahma-sutra-bhasya/2.1.14). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+    },
+    {
+      "article": "data/articles/source/samkhya-anirban.md",
+      "primitive": "causation_model",
+      "register": "metaphysical",
+      "relation": "disagrees",
+      "other_thinker_id": "baladeva",
+      "other_primary_citation": "cite://badarayana/brahma-sutra/1.1.1",
+      "passage": "Cross-engagement: Baladeva Vidyabhushana presses the same causation model axis in the metaphysical register, but with the value `unchanged-ground-with-changing-power` rather than `real-transformation` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+    }
+  ]
+}

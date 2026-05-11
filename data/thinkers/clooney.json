@@ -260,5 +260,48 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-clooney-integration-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "epistemic_authority",
+      "value": "comparative-theological-reading",
+      "register": "epistemological",
+      "confidence": "high",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/clooney.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.1",
+            "cite://jaimini/mimamsa-sutra/1.1.2"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "method_of_critique",
+      "value": "comparative-reading",
+      "register": "methodological",
+      "confidence": "high",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/clooney.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.1",
+            "cite://jaimini/mimamsa-sutra/1.1.2"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

@@ -1,88 +1,243 @@
 # Primitive Graph
+
 ## §1 — What the graph is for
-The graph is a discipline of representation.
-It does not decide which school is right.
-It gives each claim a stable address:
-- a primitive node
-- a value on that node
-- an edge showing dependence, commitment, subsumption, or critique
-That address lets the site do four things without distortion:
-1. locate a disagreement
-2. show when one dispute is nested inside another
-3. separate register shifts from ontological shifts
-4. mark a false dispute when the conflict is verbal rather than structural
-Three edge-types matter from the start.
-- `dependency`: one primitive requires another for its intelligible use
-- `commitment`: a thinker or school takes a value on a primitive
-- `subsumption/critique`: one articulated position contains, narrows, displaces, or attacks another in a named register
-The graph is PDG-like in one respect.
-Some primitives are definitionally downstream from others.
-The graph is not PDG-like in another respect.
-Thinkers do not inherit a single total state from one root node.
-They occupy a pattern of primitive-values across multiple registers.
-This matters because real philosophical disagreements are not all of one kind.
-Madhva and Śaṅkara do not disagree in the same way that Deleuze and Hegel disagree.
-Nor does K.C. Bhattacharyya's alternative-truth claim sit on the same axis as Whitehead's process claim.
-The graph keeps those differences visible.
----
-## §2 — The primitive nodes
-The graph uses thirteen primitives.
+
+The graph is not a winner-picking machine.
+
+Cross-engagement: Abhinavagupta presses the same substrate structure axis in the metaphysical register, but with the value `one-self-standing` rather than `one-independent-plus-real-dependents` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
+It does three narrower things.
+
+1. It gives a load-bearing claim a stable address.
+2. It separates disagreements of register from disagreements of ontology.
+3. It keeps the corpus from treating one sub-school vocabulary as the hidden grammar of every other thinker.
+
+The unit of comparison is not "the whole thinker."
+
+The unit is:
+
+- a primitive
+- a value on that primitive
+- a register in which that value is asserted
+- an evidence trail
+
+That discipline matters because the corpus is no longer only Vedānta-on-Vedānta.
+
+Śaṅkara, Madhva, Rāmānuja, and Jīva Gosvāmī can still be compared on substrate, manifestation, selfhood, and release. But Hegel, Nietzsche, Husserl, Heidegger, Derrida, Foucault, Whitehead, Bergson, Prigogine, Adorno, Levinas, and Mīmāṃsā do not all enter at the same point. Some are primarily metaphysical. Some are methodological. Some are political-social. Some are soteriological only in a stretched sense. Some refuse the very kind of closure another thinker is trying to secure.
+
+The graph therefore has to do two jobs at once:
+
+- be thin enough to avoid importing one system into another
+- be wide enough to cover the whole corpus without leaving half the site in a residual "miscellaneous comparator" bin
+
+The current document is built for that wider task.
+
+## §2 — Reading discipline
+
+The graph is governed by six rules.
+
+Cross-engagement: Adi Sankara presses the same manifestation status axis in the metaphysical register, but with the value `sublatable-not-null` rather than `dependent-real` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
+### Rule 1 — Read the closest stable textual layer first
+
+If a thinker has a source article in `data/articles/source/`, the article is the first assignment layer.
+
+Cross-engagement: Anandabodha presses the same identity relation axis in the metaphysical register, but with the value `non-otherness` rather than `image-original-similarity` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
+If a thinker does not yet have a source article, use the thinker's JSON only at the level it can actually support:
+
+- `core_thesis`
+- `summary`
+- `engaged_works`
+
+Do not let a late sub-school dispute rewrite an earlier author.
+
+Śaṅkara is not assigned a settled Bhāmatī or Vivaraṇa locus doctrine simply because later Advaita needs one. The audit in `primitives_revision/audit.md` settled that point and this graph keeps it settled.
+
+### Rule 2 — Keep article claims distinct from school defaults
+
+Some thinkers can inherit a school profile with little distortion.
+
+Cross-engagement: Anantakrishna Sastri presses the same finite cognition axis in the epistemological register, but with the value `positive-ignorance` rather than `real-dependent-veiling` in [primary text](cite://sankara/brahma-sutra-bhasya/2.1.14). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
+Examples:
+
+- Padmapāda and Prakāśātman within the Vivaraṇa line
+- Jayatīrtha and Vyāsatīrtha within Tattva-vāda
+- Baladeva within Gauḍīya Vedānta
+
+Some thinkers cannot.
+
+Examples:
+
+- Śaṅkara against later Advaita
+- Appayya across multiple doctrinal roles
+- Vivekananda across changing universal-religion formulations
+- Ramakrishna against neat "Neo-Vedānta" reduction
+
+Where inheritance would flatten a thinker, assign the thinker directly.
+
+### Rule 3 — A primitive is not a thesis
+
+The primitive is the slot where a thesis is located.
+
+Cross-engagement: Appayya Dikshita presses the same epistemic authority axis in the epistemological register, but with the value `scripture-dominant` rather than `plural-pramana-realism` in [primary text](cite://mandana/brahma-siddhi/3.4). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
+`substrate_structure` is not "Advaita." `genealogical-critique` is not "Nietzsche." `disciplinary-production-of-subjects` is not "Foucault." The primitive is thinner than the doctrine and has to stay thinner than the doctrine.
+
+### Rule 4 — Register comes before verdict
+
+Before comparing two claims, tag the register.
+
+Cross-engagement: Bhatta Kallata presses the same determination axis in the logical-dialectical register, but with the value `self-expression` rather than `non-sublatable-difference` in [primary text](cite://bhatta-kallata/spanda-karika/1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
+The allowed registers for this graph are:
+
+- metaphysical
+- epistemological
+- phenomenological
+- semantic-linguistic
+- logical-dialectical
+- aesthetic
+- ritual-normative
+- ethical
+- political-social
+- historical-genealogical
+- soteriological
+
+If two claims differ because one is soteriological and the other metaphysical, the graph must say so before it says anything about agreement or disagreement.
+
+### Rule 5 — Do not force total coverage where the source basis is thin
+
+Every thinker need not have a substantive value on every primitive.
+
+Cross-engagement: Ananda K. Coomaraswamy presses the same method axis in the methodological register, but with the value `comparative-reading` rather than `formal-proof-or-inference` in [primary text](cite://coomaraswamy/the-transformation-of-nature-in-art/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
+The graph therefore permits a global non-substantive token:
+
+- `withheld`
+
+`withheld` is not a philosophical value. It means only that the present corpus does not justify a stronger assignment.
+
+Use it when:
+
+- the source basis is too thin
+- the primitive is not central to the thinker
+- the text does not settle between two live options
+
+### Rule 6 — Mixed profiles are real and must be recorded as such
+
+Some thinkers speak in more than one durable register.
+
+Cross-engagement: Akalanka presses the same truth-structure axis in the epistemological register, but with the value `standpoint-conditioned-realism` rather than `single-absolute-truth` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
+Examples:
+
+- Vivekananda's practical Advaita and his universal-religion rhetoric
+- Ramakrishna's `neti neti` ascent and `vijñāna` return
+- Appayya's Bhāmatī role and his Śaiva role
+- Abhinavagupta's philosophical and ritual-aesthetic articulation
+
+Where the mixed profile is load-bearing, record more than one commitment rather than collapsing the thinker into a false single-value summary.
+
+## §3 — Primitive nodes
+
+The graph now uses twenty primitives.
+
+Cross-engagement: Edmund Husserl presses the same perspectivism axis in the epistemological register, but with the value `standpoint-conditioned-realism` rather than `partial-perspectives-ranked` in [primary text](cite://husserl/ideas-i/31-32). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Each primitive has:
+
 - a definition
-- a bounded range of values
+- a bounded value range
 - a read-off rule
 - a register-scope
-The primitive is not a thesis.
-It is the place where a thesis gets located.
+- anchor cases drawn from `data/articles/source/`
+
 ### P1 — `substrate_structure`
+
 Definition:
-The basic ontological architecture of what is self-standing and what is not.
-Possible values:
+
+Cross-engagement: Akshapada Gautama presses the same practice-path axis in the soteriological register, but with the value `knowledge-discipline` rather than `devotion-and-grace` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
+The basic ontological architecture of what is self-standing, what is dependent, and whether there is any ultimate substrate at all.
+
+Value range:
+
 - `one-self-standing`
 - `one-qualified-by-real-internal-distinctions`
 - `one-independent-plus-real-dependents`
 - `many-coordinate-reals`
 - `process-field-with-no-enduring-substrate`
-- `no-single-architecture-asserted`
+- `anti-essential-relationality`
+- `suspended-or-refused`
+
 Read-off rule:
-Read from passages that answer questions of aseity, self-standing reality, and the relation between the supreme and the rest.
-Use explicit architecture claims, not loose metaphors.
-Registers:
+
+Read from the passages where the thinker states what is basic in reality: Brahman, substance, process, Dasein, relation, event, or the refusal of any substrate-language. Use explicit architecture claims, not devotional tone or isolated metaphor.
+
+Register-scope:
+
 - metaphysical
-- epistemological when the architecture sets the domain of valid cognition
-- soteriological when liberation is a shift in ontological status
+- phenomenological when the architecture is disclosed through lived structure
+- soteriological when liberation is described as a shift in ontological standing
+
 Anchor cases:
-- Śaṅkara: `one-self-standing` with dependent empirical articulation; see the three-tier correction at `shankara.md:21-25`
-- Rāmānuja: `one-qualified-by-real-internal-distinctions`; see `ramanuja.md:19`
-- Madhva: `one-independent-plus-real-dependents`; see `madhva.md:70-95`
-- Whitehead: `process-field-with-no-enduring-substrate`; compare `whitehead.json:65`
-### P2 — `mode_status`
+
+- Śaṅkara: `one-self-standing`; see `shankara.md`, "Part II — *Tad-ananyatva* and the Clay-Pot Argument" and "Part VI — *Mithyā* ≠ *Asat*."
+- Rāmānuja: `one-qualified-by-real-internal-distinctions`; see `ramanuja.md`, "Viśiṣṭādvaita — the doctrine in one sentence" and "Part II — *Aprthak-siddhi* and the Body-Soul Framework."
+- Madhva: `one-independent-plus-real-dependents`; see `madhva.md`, the opening ontology sections on `svatantra/paratantra` and the later `pañcabheda` discussions.
+- Spinoza: `one-self-standing`; see `spinoza.md`, the opening treatment of `Deus sive Natura`.
+- Whitehead: `process-field-with-no-enduring-substrate`; see `whitehead.md`, the opening exposition of actual occasions and the later discussion of process as metaphysical basicness.
+
+### P2 — `manifestation_status`
+
 Definition:
-The status of the world, its parts, or dependent entities relative to what grounds them.
-Possible values:
+
+Cross-engagement: Alfred North Whitehead presses the same soteric end axis in the soteriological register, but with the value `not-soteriological` rather than `service-with-distinction-preserved` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
+The status of the world, appearance, finite entities, or social objects relative to what grounds them.
+
+Value range:
+
 - `self-standing-real`
 - `dependent-real`
 - `sublatable-not-null`
 - `real-transformation`
 - `expressive-manifestation`
+- `conventionally-real-without-own-being`
+- `socially-or-discursively-stabilized`
 - `suspended-or-unfixed`
+
 Read-off rule:
-Read from claims about whether the world is real, dependent, illusory, sublatable, expressive, or transformed.
-Do not infer from devotional tone.
-Look for explicit ontological disclaimers such as `mithyā ≠ asat`, `satya`, `pariṇāma`, `ābhāsa`, or `prapañca = bheda-pañcaka`.
-Registers:
+
+Read from explicit claims about whether the world is real, dependent, sublatable, transformed, expressed, conventionally valid, or produced by discursive or institutional fixation. This primitive is about status, not causal pathway.
+
+Register-scope:
+
 - metaphysical
 - epistemological
-- aesthetic where manifestation is treated as expressive disclosure
+- political-social when objectivity is treated as institutionally produced
+- aesthetic when manifestation is treated as expressive disclosure
+
 Anchor cases:
-- Śaṅkara: `sublatable-not-null`; `shankara.md:21-25`
-- Madhva: `dependent-real`; `madhva.md:87-95`, `madhva.md:101-113`
-- Abhinavagupta: `expressive-manifestation`; `abhinavagupta.json:44`
-- Vallabha: `real-transformation`; `vallabha.json`
+
+- Śaṅkara: `sublatable-not-null`; see `shankara.md`, "Part VI — *Mithyā* ≠ *Asat*" and the `bādhita` discussion in Part V.
+- Madhva: `dependent-real`; see `madhva.md`, the architecture and `pañcabheda` sections where the world is insisted upon as real and non-sublatable.
+- Aurobindo: `real-transformation`; see `aurobindo.md`, the main `Life Divine` sections on involution, evolution, and manifestation.
+- Vivekananda-Ramakrishna: `expressive-manifestation`; see `vivekananda-ramakrishna.md`, the `vijñāna` discussions on roof and stairs.
+- Foucault: `socially-or-discursively-stabilized`; see `foucault.md`, the disciplinary and genealogical sections where object-domains arise through practices and power.
+
 ### P3 — `identity_relation`
+
 Definition:
-The formal relation between the supreme, the self, and the world where both unity and difference are at issue.
-Possible values:
+
+Cross-engagement: Baladeva Vidyabhushana presses the same causation model axis in the metaphysical register, but with the value `unchanged-ground-with-changing-power` rather than `efficient-material-split` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
+The formal relation between ultimate reality, self, world, and finite being where unity and difference are both at issue.
+
+Value range:
+
 - `numerical-identity`
 - `non-otherness`
 - `body-soul-qualification`
@@ -91,44 +246,70 @@ Possible values:
 - `inconceivable-difference-non-difference`
 - `self-expression-or-appearance`
 - `no-single-relation-stated`
+
 Read-off rule:
-Read from explicit formulas used to gloss `tat tvam asi`, `bimba-pratibimba`, `aṃśa`, `aprthak-siddhi`, `svābhāvika-bhedābheda`, `acintya-bhedābheda`, `ābhāsa`, or the denial of any stable subject-object pairing.
-Registers:
+
+Read from explicit formulas used to gloss identity and difference: `tat tvam asi`, `ananyatva`, `aprthak-siddhi`, `bimba-pratibimba`, `svābhāvika-bhedābheda`, `acintya-bhedābheda`, expression, mode, or appearance. Do not infer from broad monist or pluralist labels.
+
+Register-scope:
+
 - metaphysical
 - soteriological
-- aesthetic where relation is figured as expression
+- aesthetic where relation is described as expression
+
 Anchor cases:
-- Śaṅkara: `non-otherness` is safer than flat `numerical-identity`; `shankara.md:146-148`
-- Rāmānuja: `body-soul-qualification`; `ramanuja.md:50`, `ramanuja.md:68`
-- Madhva: `image-original-similarity`; `madhva.md:35`, `madhva.md:39-40`
-- Caitanya/Jīva: `inconceivable-difference-non-difference`; `caitanya.json:43`
+
+- Śaṅkara: `non-otherness`; see `shankara.md`, the `ananyatva` argument in Part II.
+- Rāmānuja: `body-soul-qualification`; see `ramanuja.md`, Part II and the `mat-sthāni sarva-bhūtāni` discussion.
+- Madhva: `image-original-similarity`; see `madhva.md`, the sections on `bimba-pratibimba`.
+- Caitanya/Jīva line: `inconceivable-difference-non-difference`; see `caitanya.md`, the opening formalization of `acintya-bhedābheda`.
+- Vivekananda-Ramakrishna: `self-expression-or-appearance`; see `vivekananda-ramakrishna.md`, the return-from-`neti` sections.
+
 ### P4 — `individuation_status`
+
 Definition:
-The standing of the individual as individual.
-Possible values:
+
+The standing of the individual as individual: dissolved, retained, qualified, singularized, produced, or made central only in a limited register.
+
+Value range:
+
 - `reducible-to-the-whole`
 - `qualified-mode`
 - `irreducible-dependent`
 - `expressive-singularity`
-- `constructed-perspectival`
+- `transcendental-pole`
+- `produced-or-fractured`
 - `not-central`
+
 Read-off rule:
-Read from claims about whether individual selves are dissolved, preserved, qualified, expressive, or merely apparent.
-This primitive must not be inferred from social ethics alone.
-Registers:
+
+Read from claims about what becomes of the individual self, subject, or singular existent. This primitive asks about the standing of individuation itself, not just about whether a thinker mentions persons.
+
+Register-scope:
+
 - metaphysical
-- soteriological
+- phenomenological
 - ethical
-- political
+- political-social
+- soteriological
+
 Anchor cases:
-- Hegel: the individual as moment of Spirit; `hegel.md:109-115`
-- Madhva: the `jīva` as real and permanently distinct; `madhva.md:72`, `madhva.md:107-113`
-- Aurobindo: psychic being as irreducible center; `aurobindo.json:41`, `hegel.md:113-115` by contrast
-- Deleuze: singularity not subordinated to identity; `deleuze.md:123-135`
+
+- Hegel: `reducible-to-the-whole`; see `hegel.md`, "Substanz als Subjekt" and the reading notes on Spirit and mediation.
+- Rāmānuja: `qualified-mode`; see `ramanuja.md`, Part II on the body-soul framework.
+- Madhva: `irreducible-dependent`; see `madhva.md`, the real-difference and `jīva`-hierarchy sections.
+- Deleuze: `expressive-singularity`; see `deleuze.md`, the sections on difference, singularity, and anti-Hegelian individuation.
+- Husserl: `transcendental-pole`; see `husserl.md`, the reduction and constitution sections.
+- Foucault: `produced-or-fractured`; see `foucault.md`, the disciplinary and subject-formation sections.
+
 ### P5 — `causation_model`
+
 Definition:
-How the world or finite order issues from its ground, if it does.
-Possible values:
+
+How the world, finite order, experience, or manifestation issues from its ground, if it does.
+
+Value range:
+
 - `appearance-without-real-change`
 - `real-transformation`
 - `unchanged-ground-with-changing-power`
@@ -136,462 +317,1130 @@ Possible values:
 - `efficient-material-split`
 - `immanent-expression`
 - `processual-concrescence`
+- `dependent-co-arising`
 - `not-a-cosmogonic-system`
+
 Read-off rule:
-Read from causal chapters, not from later school summaries.
-Prioritize explicit statements on material and efficient cause, and on whether change occurs in the ground, in a power, or only in appearance.
-Registers:
+
+Read from causal chapters, cosmological passages, or explicit denials of cosmogonic explanation. Keep distinct the status of the world and the mechanism by which it appears or unfolds.
+
+Register-scope:
+
 - metaphysical
 - cosmological
-- soteriological when causal account constrains release
+- soteriological when the causal account constrains release
+
 Anchor cases:
-- Śaṅkara: `appearance-without-real-change`, but only with the article's caution about later `vivarta` hardening; `shankara.md:24`
-- Rāmānuja: `body-soul-causation`; `ramanuja.json:50`
-- Madhva: `efficient-material-split`; `madhva.md:139-145`
-- Caitanya/Jīva: `unchanged-ground-with-changing-power`; `caitanya.md:421-425`
-- Whitehead: `processual-concrescence`; `whitehead.json:65`
-### P6 — `finite_cognition_model`
+
+- Śaṅkara: `appearance-without-real-change`; see `shankara.md`, "Part VII — *Vivarta* vs *Pariṇāma*" with the built-in warning against reading late technical hardening back into Śaṅkara.
+- Rāmānuja: `body-soul-causation`; see `ramanuja.md`, Part II and the `prakṛti` discussions in Part IV.
+- Madhva: `efficient-material-split`; see `madhva.md`, the cosmological sections where `prakṛti` is material cause and Viṣṇu efficient cause.
+- Caitanya/Jīva line: `unchanged-ground-with-changing-power`; see `caitanya.md`, the sections on `acintya-śakti`.
+- Whitehead: `processual-concrescence`; see `whitehead.md`, the exposition of prehension and concrescence.
+- Spinoza: `immanent-expression`; see `spinoza.md`, the early `Ethics` architecture and mode-language sections.
+
+### P6 — `selfhood_structure`
+
 Definition:
-The account of error, finitude, or bounded cognition.
-Possible values:
-- `adhyāsa-or-superimposition`
+
+What kind of self, subject, or locus of disclosure is treated as real or operative.
+
+Value range:
+
+- `substantial-self`
+- `witness-self`
+- `relational-self`
+- `psychic-individual`
+- `transcendental-ego`
+- `dasein`
+- `split-or-produced-subject`
+- `no-enduring-self`
+
+Read-off rule:
+
+Read from explicit subject-analyses: `ātman`, witness-consciousness, ego, Dasein, subject-as-freedom, split subject, or the denial of enduring selfhood. Avoid collapsing this primitive into mere ethics or politics.
+
+Register-scope:
+
+- phenomenological
+- metaphysical
+- epistemological
+- soteriological
+
+Anchor cases:
+
+- Śaṅkara: `witness-self`; see `shankara.md`, the `sākṣi-cetana` discussions in Part I.
+- Bergson: `psychic-individual`; see `bergson.md`, "The deep self and the surface self."
+- Husserl: `transcendental-ego`; see `husserl.md`, the `Ideas I` sections on reduction and constituting consciousness.
+- Heidegger: `dasein`; see `heidegger.md`, the opening analysis of Being and Dasein.
+- Foucault: `split-or-produced-subject`; see `foucault.md`, the disciplinary and self-formation sections.
+- Nietzsche: `no-enduring-self`; see `nietzsche.md`, the anti-doer passages and the critique of subject grammar.
+
+### P7 — `finite_cognition_model`
+
+Definition:
+
+The account of error, finitude, obscuration, interpretation, or bounded knowing.
+
+Value range:
+
+- `adhyasa-or-superimposition`
 - `positive-ignorance`
 - `real-dependent-veiling`
 - `contraction-or-obscuration`
 - `intentional-constitution`
 - `perspectival-interpretation`
+- `genealogically-produced-illusion`
 - `no-unified-model-given`
+
 Read-off rule:
-Read from arguments about illusion, ignorance, witness-consciousness, reduction, contraction, or interpretive perspectivism.
-Do not confuse moral defect with epistemic structure.
-Registers:
+
+Read from arguments about illusion, ignorance, contraction, interpretation, constitution, ideology, or genealogical masking. Do not confuse moral failure with epistemic structure unless the thinker explicitly binds the two.
+
+Register-scope:
+
 - epistemological
+- phenomenological
 - metaphysical
+- political-social
 - soteriological
+
 Anchor cases:
-- Śaṅkara: `adhyāsa-or-superimposition`; `shankara.md:47-103`
-- later Advaita: `positive-ignorance`; `mandana.json:487-490`, `vidyaranya.json:48`
-- Madhva/Jayatīrtha: `real-dependent-veiling`; `madhva.md:555-559`
-- Abhinavagupta: `contraction-or-obscuration`; `abhinavagupta.json:44`
-- Husserl: `intentional-constitution`; `husserl.json:104`
-- Nietzsche: `perspectival-interpretation`; `nietzsche.json:221`
-### P7 — `epistemic_authority`
+
+- Śaṅkara: `adhyasa-or-superimposition`; see `shankara.md`, Part I.
+- Later Advaita cases on the site: `positive-ignorance`; compare the Madhusūdana material discussed inside `shankara.md`, Part VIII, with the relevant JSON-only authors.
+- Madhva: `real-dependent-veiling`; see `madhva.md`, the anti-`mithyātva` sections and the later-school notes.
+- Husserl: `intentional-constitution`; see `husserl.md`, the reduction and constitution chapters.
+- Nietzsche: `perspectival-interpretation`; see `nietzsche.md`, the sections on truth, force, and interpretation.
+- Foucault: `genealogically-produced-illusion`; see `foucault.md`, the genealogy sections where truth-effects arise from regimes of practice.
+
+### P8 — `epistemic_authority`
+
 Definition:
-The dominant source or ordered set of sources by which supra-empirical claims are warranted.
-Possible values:
+
+The dominant source or ordered set of sources by which the thinker warrants load-bearing claims.
+
+Value range:
+
 - `scripture-dominant`
 - `scripture-plus-transformative-experience`
-- `plural-pramāṇa-realism`
+- `plural-pramana-realism`
+- `ritual-injunction`
 - `dialectical-immanence`
 - `phenomenological-reduction`
 - `genealogical-critique`
+- `deconstructive-reading`
+- `comparative-theological-reading`
 - `no-single-authority`
+
 Read-off rule:
-Read from explicit pramāṇa claims, methodological prologues, or statements about what kind of access is final.
-Registers:
+
+Read from explicit pramāṇa claims, methodological prefaces, argument-forms, and statements about what kind of access is final. Ask what the thinker treats as decisive when the stakes rise.
+
+Register-scope:
+
 - epistemological
 - methodological
 - soteriological
+
 Anchor cases:
-- Śaṅkara: `scripture-dominant`; `primitive-model.md:82` captured this part correctly
-- Maṇḍana: `scripture-plus-transformative-experience`; `mandana.json:40`
-- Madhva: `plural-pramāṇa-realism`; `primitive-model.md:84`, backed by `madhva.md`
-- Hegel: `dialectical-immanence`; `hegel.json:39`
-- Husserl: `phenomenological-reduction`; `husserl.json:104`
-- Nietzsche: `genealogical-critique`; `nietzsche.md:260-262`
-### P8 — `temporal_mode`
+
+- Śaṅkara: `scripture-dominant`; see `shankara.md`, "Part IV — *Tat Tu Samanvayāt*."
+- Vivekananda-Ramakrishna: `scripture-plus-transformative-experience`; see `vivekananda-ramakrishna.md`, the `vijñāna` and multiform-practice discussions.
+- Madhva: `plural-pramana-realism`; see `madhva.md`, the sections on `pramāṇa`, `sākṣi`, and anti-`anirvacanīya` argument.
+- Husserl: `phenomenological-reduction`; see `husserl.md`, the opening `Ideas` sections.
+- Hegel: `dialectical-immanence`; see `hegel.md`, the `Phenomenology` and `Logic` openings.
+- Nietzsche: `genealogical-critique`; see `nietzsche.md`, the `Genealogy` sections.
+- Derrida: `deconstructive-reading`; see `derrida.md`, the writing, presence, and supplement sections.
+- Medhananda: `comparative-theological-reading`; see `medhananda.md`, the methodological opening and later pluralism chapters.
+
+### P9 — `determination_operator`
+
 Definition:
-Whether being is framed as substance, process, or both without reduction of one to the other.
-Possible values:
+
+The principal operator by which determinacy, difference, or intelligibility is articulated.
+
+Value range:
+
+- `negation-and-contradiction`
+- `non-sublatable-difference`
+- `difference-without-negation`
+- `exclusion-or-apoha`
+- `self-expression`
+- `differential-deferral`
+- `genealogical-exposure`
+- `ritual-specification`
+- `dependent-co-arising`
+
+Read-off rule:
+
+Read from the passages where the thinker says what makes one thing determinately this rather than that: contradiction, difference, expression, spacing, ritual rule, dependence, or exposure of contingent origin.
+
+Register-scope:
+
+- logical-dialectical
+- metaphysical
+- semantic-linguistic
+- historical-genealogical
+
+Anchor cases:
+
+- Hegel: `negation-and-contradiction`; see `hegel.md`, "Sein, Nichts, Werden" and the `Wesen` section on contradiction.
+- Madhva: `non-sublatable-difference`; see `madhva.md`, the `pañcabheda` and `viśeṣa` sections.
+- Deleuze: `difference-without-negation`; see `deleuze.md`, the anti-Hegel and repetition sections.
+- Buddhist-pramāṇa comparators later in the JSON layer will take `exclusion-or-apoha`; the article-backed comparative pressure point for that value is the anti-essential language work discussed against realism in `derrida.md` and the conceptual-fixity worries tracked in `nietzsche.md`, though the primary assignments will come from the Dignāga and Dharmakīrti JSON materials.
+- Vivekananda-Ramakrishna: `self-expression`; see `vivekananda-ramakrishna.md`, the `vijñāna` passages where the many are read as the One's own display.
+- Derrida: `differential-deferral`; see `derrida.md`, the sections on `différance`, writing, and supplement.
+- Foucault: `genealogical-exposure`; see `foucault.md`, the genealogical procedure sections.
+- Mīmāṃsā material: `ritual-specification`; see `mimamsa-aurobindo-v4.md`, the discussions of injunction and act-formation.
+
+### P10 — `method_of_critique`
+
+Definition:
+
+The operative procedure by which the thinker advances, tests, or dismantles claims.
+
+Value range:
+
+- `commentarial-exegesis`
+- `formal-proof-or-inference`
+- `phenomenological-reduction`
+- `dialectical-development`
+- `genealogy`
+- `deconstruction`
+- `comparative-reading`
+- `mixed-or-layered`
+
+Read-off rule:
+
+Read from how the work proceeds, not just from what it concludes. A thinker can be metaphysically close to another thinker and methodologically far apart.
+
+Register-scope:
+
+- methodological
+- logical-dialectical
+- epistemological
+- historical-genealogical
+
+Anchor cases:
+
+- Rāmānuja: `commentarial-exegesis`; see `ramanuja.md`, Part I and Part III.
+- Madhva: `formal-proof-or-inference`; see `madhva.md`, the anti-Advaita and `mithyātva` critique sections.
+- Husserl: `phenomenological-reduction`; see `husserl.md`, the reductions.
+- Hegel: `dialectical-development`; see `hegel.md`, the movement from `Phenomenology` to `Logic`.
+- Nietzsche: `genealogy`; see `nietzsche.md`, the `Genealogy` discussions.
+- Derrida: `deconstruction`; see `derrida.md`, the writing/presence chapters.
+- Medhananda: `comparative-reading`; see `medhananda.md`, the comparative-theological frame.
+- Aurobindo: `mixed-or-layered`; see `aurobindo.md`, where commentary, metaphysical construction, and yogic report are braided rather than cleanly separated.
+
+### P11 — `semantic_mediation`
+
+Definition:
+
+How language, sign, sentence, or proposition mediates access to reality, action, or objecthood.
+
+Value range:
+
+- `language-tracks-reality`
+- `language-binds-action`
+- `language-constitutes-object-domain`
+- `language-differentially-defers-presence`
+- `language-as-creative-manifestation`
+- `language-subordinate-to-non-propositional-knowing`
+
+Read-off rule:
+
+Read from explicit claims about scriptural sentence-force, speculative predication, language as house of Being, signifying difference, performative institution, or language's subordination to direct realization.
+
+Register-scope:
+
+- semantic-linguistic
+- epistemological
+- ritual-normative
+- phenomenological
+
+Anchor cases:
+
+- Mīmāṃsā-Aurobindo materials: `language-binds-action`; see `mimamsa-aurobindo-v4.md`, the injunction and ritual-language arguments.
+- Hegel: `language-constitutes-object-domain`; see `hegel.md`, "The speculative sentence."
+- Heidegger: `language-subordinate-to-non-propositional-knowing`; see `heidegger.md`, the Being/language sections where ordinary predication is displaced by disclosure.
+- Derrida: `language-differentially-defers-presence`; see `derrida.md`, the writing and `différance` sections.
+- Vivekananda-Ramakrishna: `language-as-creative-manifestation`; see `vivekananda-ramakrishna.md`, where symbol, deity-form, and language of practice are treated as mode-shaping rather than merely descriptive.
+- Nyāya-leaning realist material in the corpus: `language-tracks-reality`; compare the explicit realist passages in `madhva.md` and `ramanuja.md`.
+
+### P12 — `temporal_mode`
+
+Definition:
+
+Whether being is framed as substance, process, historical unfolding, disclosure, or an orthogonal combination of timeless and temporal orders.
+
+Value range:
+
 - `substance-primary`
 - `process-primary`
 - `both-orthogonal`
 - `timeless-ground-with-dependent-time`
+- `historical-disclosure`
 - `no-decision-given`
+
 Read-off rule:
-Read from claims about becoming, duration, actual occasions, temporal manifestation, or the status of the eternal in relation to time.
-Registers:
+
+Read from the passages where the thinker treats becoming, duration, historicity, actual occasion, eternal ground, or disclosure in time as constitutive.
+
+Register-scope:
+
 - metaphysical
+- phenomenological
 - cosmological
-- aesthetic
-- political where temporal form structures action
+- historical-genealogical
+
 Anchor cases:
-- Bergson: `process-primary`; `bergson.json`
-- Whitehead: `process-primary`; `whitehead.json:65`
-- Hegel: `process-primary` in the form of mediated becoming; `hegel.md:80-89`, `hegel.md:241-247`
-- Plato or static Vedānta would trend toward `substance-primary`
-- Aurobindo and K.C.B. require `both-orthogonal`; `aurobindo.json:41`, `kc-bhattacharyya.json:117`
-- Madhva gives `timeless-ground-with-dependent-time`, with time as dependent but real; `madhva.md:78-81`
-### P9 — `register_of_evolution`
+
+- Bergson: `process-primary`; see `bergson.md`, the `durée` and creative evolution sections.
+- Whitehead: `process-primary`; see `whitehead.md`, the opening treatment of actual occasions.
+- Hegel: `process-primary`; see `hegel.md`, the Becoming and Spirit sections.
+- Madhva: `timeless-ground-with-dependent-time`; see `madhva.md`, the sections where time is real yet dependent.
+- Aurobindo: `both-orthogonal`; see `aurobindo.md`, where timeless Sachchidananda and evolutionary manifestation are both retained.
+- Heidegger: `historical-disclosure`; see `heidegger.md`, the temporality and history of Being sections.
+
+### P13 — `register_of_evolution`
+
 Definition:
-How, if at all, emergence, development, or ascent is treated.
-Possible values:
+
+How, if at all, emergence, ascent, development, or historic transformation is treated.
+
+Value range:
+
 - `no-evolution`
 - `sublative-becoming`
 - `real-cosmological-evolution`
 - `durational-creative-growth`
 - `graded-manifestation-without-evolution`
+- `genealogical-historicization`
 - `not-applicable`
+
 Read-off rule:
-Read from explicit claims about history, cosmological development, involution/evolution, durée, or graded manifestation.
-Registers:
+
+Read from explicit accounts of history, cosmological development, duration, emergence, involution/evolution, or genealogy. Do not import an evolutionary model where the thinker gives only hierarchy or rank.
+
+Register-scope:
+
 - cosmological
 - metaphysical
+- historical-genealogical
 - soteriological
-- political where history is given directional structure
+- political-social
+
 Anchor cases:
-- Hegel: `sublative-becoming`; `hegel.md:80-91`
-- Aurobindo: `real-cosmological-evolution`; `aurobindo.json:41`
-- Bergson: `durational-creative-growth`; `bergson.json`
-- Abhinavagupta: `graded-manifestation-without-evolution`; `abhinavagupta.json:61`
-- classical Advaita: usually `no-evolution` at the highest register
-### P10 — `modal_structure_of_truth`
+
+- Hegel: `sublative-becoming`; see `hegel.md`, the Spirit/history line.
+- Aurobindo: `real-cosmological-evolution`; see `aurobindo.md`, the core `Life Divine` sections.
+- Bergson: `durational-creative-growth`; see `bergson.md`, Part III.
+- Prigogine: `real-cosmological-evolution`; see `prigogine.md`, the bifurcation and self-organization chapters.
+- Gebser: `graded-manifestation-without-evolution`; see `gebser.md`, the structures of consciousness.
+- Foucault: `genealogical-historicization`; see `foucault.md`, the genealogy and historical-formation sections.
+
+### P14 — `modal_structure_of_truth`
+
 Definition:
-How truth-claims relate when more than one valid standpoint is on the table.
-Possible values:
+
+How truth is distributed when more than one valid standpoint, level, or mode is in play.
+
+Value range:
+
 - `single-absolute-truth`
 - `hierarchical-standpoint-truth`
 - `alternative-irreducible-truths`
+- `standpoint-conditioned-realism`
 - `paraconsistent-or-both-held`
 - `context-indexed-without-final-hierarchy`
+
 Read-off rule:
-Read from explicit treatment of standpoint, rank-order, contradiction, or alternative valid formulations.
-Registers:
+
+Read from explicit treatment of standpoint, rank-order, contradiction, or alternative valid formulations. Ask how the thinker handles apparent conflict when two modes of discourse both claim authority.
+
+Register-scope:
+
 - epistemological
 - metaphysical
-- methodological
+- semantic-linguistic
+- soteriological
+
 Anchor cases:
-- K.C. Bhattacharyya: `alternative-irreducible-truths`; `kc-bhattacharyya.md:238-246`
-- classical Advaita: `hierarchical-standpoint-truth`
-- Jain logic would push toward `paraconsistent-or-both-held`
-- Nietzsche and Leibniz motivate `context-indexed-without-final-hierarchy` in different ways
-### P11 — `relation_to_perspectivism`
+
+- Śaṅkara: `hierarchical-standpoint-truth`; see `shankara.md`, the three-tier ontology and `bādhita` discussions.
+- K.C. Bhattacharyya: `alternative-irreducible-truths`; see `kc-bhattacharyya.md`, the sections on alternative absolutes.
+- Madhva: `single-absolute-truth`; see `madhva.md`, the anti-`anirvacanīya` and anti-equivocation sections.
+- Ramakrishna/Vivekananda material: `context-indexed-without-final-hierarchy` in the plural-path register; see `vivekananda-ramakrishna.md` and `medhananda.md`.
+- Derrida: `paraconsistent-or-both-held` only in the weak structural sense that presence is never simply discarded yet never secured; see `derrida.md`.
+- K.C. Bhattacharyya's Kantian supplement article: compare `kcb-kantian-perspectivism.md` once it is tracked into the manifest; for now the main article supplies the stronger anchor.
+
+### P15 — `relation_to_perspectivism`
+
 Definition:
-What becomes of multiple standpoints once they are recognized as multiple.
-Possible values:
+
+How a thinker treats plurality of viewpoints, standpoints, or partial disclosures.
+
+Value range:
+
 - `sublated-into-higher-whole`
 - `irreducible-true-perspectives`
 - `partial-perspectives-ranked`
+- `standpoint-conditioned-realism`
 - `perspectives-as-symptoms`
 - `no-perspectivism-claim`
+
 Read-off rule:
-Read from explicit treatment of standpoint pluralism, monads, interpretation, or dialectical overcoming.
-Registers:
+
+Read from explicit claims about whether perspectives are preserved, ranked, superseded, symptomatic, or treated as necessary but partial.
+
+Register-scope:
+
 - epistemological
-- metaphysical
-- political
-- aesthetic
+- phenomenological
+- historical-genealogical
+- political-social
+
 Anchor cases:
-- Hegel: `sublated-into-higher-whole`; `hegel.md:80-91`
-- Leibniz: `irreducible-true-perspectives`; see `leibniz.md` and `leibniz.json`
-- Nietzsche: `perspectives-as-symptoms`, though not merely errors; `nietzsche.md:260-262`
-- K.C.B.: `irreducible-true-perspectives` in a different idiom; `kc-bhattacharyya.md:244-246`
-### P12 — `scope_of_grammar`
+
+- Hegel: `sublated-into-higher-whole`; see `hegel.md`, especially the Preface logic carried through the reader.
+- K.C. Bhattacharyya: `irreducible-true-perspectives`; see `kc-bhattacharyya.md`, the alternative-absolute sections.
+- Madhva: `partial-perspectives-ranked`; see `madhva.md`, the hierarchy and real-difference discussions, especially where `tāratamya` bears epistemic weight.
+- Husserl: `standpoint-conditioned-realism`; see `husserl.md`, the constitution analyses where objectivity is built through profiles without collapsing to sheer relativism.
+- Nietzsche: `perspectives-as-symptoms`; see `nietzsche.md`, the interpretation and force analyses.
+- Medhananda: `irreducible-true-perspectives` in the pluralist theological register; see `medhananda.md`.
+
+### P16 — `normative_order_source`
+
 Definition:
-What ontological or epistemic force is granted to conceptual or linguistic articulation.
-Possible values:
-- `grammar-as-discursive-tool`
-- `grammar-as-mode-of-access`
-- `grammar-as-constitutive-in-a-domain`
-- `grammar-as-constitutive-of-reality-as-such`
-- `anti-grammatical-reduction`
+
+Where obligation, order, rightful conduct, or binding normativity is sourced.
+
+Value range:
+
+- `scriptural-injunction`
+- `divine-command-or-grace`
+- `ethical-life-in-institutions`
+- `disciplinary-power`
+- `class-structured-social-relation`
+- `self-legislating-subject`
+- `not-a-central-axis`
+
 Read-off rule:
-Read from passages about logos, proposition, sentence-form, language-world relation, or the constitutive scope of conceptual articulation.
-Registers:
-- methodological
-- epistemological
-- metaphysical
-- aesthetic
+
+Read from the passages where the thinker says why one must do what one must do. Ask whether normativity is given by injunction, divine relation, ethical institutions, power, class structure, autonomy, or is not a primary axis.
+
+Register-scope:
+
+- ritual-normative
+- ethical
+- political-social
+- soteriological
+
 Anchor cases:
-- Nietzsche attacks `grammar-as-constitutive-of-reality-as-such`; `hegel.md:138-146`, `nietzsche.json:221`
-- Hegel resists ordinary grammar yet still expands logos into ontology; `hegel.md:121-146`, `hegel.md:245`
-- Bhartṛhari-type views would occupy `grammar-as-constitutive-in-a-domain` or stronger
-- K.C.B. pushes `anti-grammatical-reduction`; `kc-bhattacharyya.md:305`, `kc-bhattacharyya.md:529`
-- The apparatus should not collapse these into one debate
-### P13 — `soteric_end`
+
+- Mīmāṃsā material: `scriptural-injunction`; see `mimamsa-aurobindo-v4.md`, the ritual-language chapters.
+- Rāmānuja: `divine-command-or-grace`; see `ramanuja.md`, the `prapatti` and devotional-obedience passages.
+- Hegel: `ethical-life-in-institutions`; see `hegel.md`, the `Philosophy of Right` section.
+- Foucault: `disciplinary-power`; see `foucault.md`, the discipline and biopower sections.
+- Adorno/Marx line: `class-structured-social-relation`; see `adorno.md`, the exchange and social-totality passages, with the Marx JSON supplying the stricter primary social-theory wording in later assignments.
+- K.C. Bhattacharyya's Kantian horizon: `self-legislating-subject`; compare `kc-bhattacharyya.md` with the dedicated Kantian perspective article.
+
+### P17 — `social_formation_model`
+
 Definition:
-The end-state or highest achieved mode in the school's own terms.
-Possible values:
+
+How institutions, power, social form, or collective structures generate subjects and appearances of objectivity.
+
+Value range:
+
+- `not-central`
+- `recognitive-institutional`
+- `commodity-fetish-social-form`
+- `disciplinary-production-of-subjects`
+- `performative-norm-repetition`
+- `civilizational-structure-shift`
+
+Read-off rule:
+
+Read from passages on institution, law, labor, power, discipline, media, symbolic order, or civilizational pattern. Do not infer from occasional political remark alone.
+
+Register-scope:
+
+- political-social
+- historical-genealogical
+- ethical
+- phenomenological
+
+Anchor cases:
+
+- Hegel: `recognitive-institutional`; see `hegel.md`, the family/civil-society/state sections.
+- Adorno: `commodity-fetish-social-form`; see `adorno.md`, the exchange and culture-industry sections.
+- Foucault: `disciplinary-production-of-subjects`; see `foucault.md`, the prison, discipline, and biopolitics sections.
+- McGilchrist: `civilizational-structure-shift`; see `mcgilchrist.md`, the hemisphere/culture and institutional drift sections.
+- Levinas: `not-central`; see `levinas.md`, where ethics outruns institutional social theory even when politics enters.
+
+### P18 — `affective_motive_force`
+
+Definition:
+
+What fundamentally moves life, practice, transformation, or critique.
+
+Value range:
+
+- `knowledge`
+- `devotion`
+- `will-to-power`
+- `bliss-or-delight`
+- `desire-and-drive`
+- `ethical-obligation-to-the-other`
+- `aesthetic-rapture`
+- `not-central`
+
+Read-off rule:
+
+Read from the motive force the thinker repeatedly returns to when explaining why transformation happens or why practice sustains itself. This is not simply an emotion word-count exercise.
+
+Register-scope:
+
+- ethical
+- soteriological
+- aesthetic
+- political-social
+- phenomenological
+
+Anchor cases:
+
+- Śaṅkara: `knowledge`; see `shankara.md`, especially the reading notes and `mahāvākya`-centered passages.
+- Caitanya/Jīva line: `devotion`; see `caitanya.md`, the `bhakti-rasa` and `acintya-bhedābheda` sections.
+- Nietzsche: `will-to-power`; see `nietzsche.md`, the interpretation and valuation sections.
+- Aurobindo: `bliss-or-delight`; see `aurobindo.md`, the Sachchidananda and delight-of-being sections.
+- Levinas: `ethical-obligation-to-the-other`; see `levinas.md`, the face and responsibility sections.
+- Adorno: `aesthetic-rapture` only in a guarded sense; see `adorno.md`, the mimesis and aesthetic-resistance passages.
+
+### P19 — `practice_path`
+
+Definition:
+
+The dominant practical path by which transformation, clarification, or release is pursued.
+
+Value range:
+
+- `knowledge-discipline`
+- `devotion-and-grace`
+- `ritual-observance`
+- `meditative-discipline`
+- `reduction-or-attentive-description`
+- `transformative-integration`
+- `critical-genealogical-work`
+- `not-soteric`
+
+Read-off rule:
+
+Read from the actual path-structure: study, contemplation, devotion, ritual, phenomenological reduction, integrated yoga, or critical work that is not salvation-talk but still functions as a path of transformation.
+
+Register-scope:
+
+- soteriological
+- epistemological
+- ethical
+- ritual-normative
+
+Anchor cases:
+
+- Śaṅkara: `knowledge-discipline`; see `shankara.md`, the reading notes and scripture/cognition sections.
+- Rāmānuja: `devotion-and-grace`; see `ramanuja.md`, the `Gītā` and `prapatti` passages.
+- Mīmāṃsā material: `ritual-observance`; see `mimamsa-aurobindo-v4.md`.
+- Husserl: `reduction-or-attentive-description`; see `husserl.md`.
+- Aurobindo: `transformative-integration`; see `aurobindo.md`, the Integral Yoga and supramental transformation sections.
+- Foucault: `critical-genealogical-work`; see `foucault.md`, where critique and self-practice are bound together.
+- Nietzsche: `not-soteric`; see `nietzsche.md`, where style of life matters without a fixed liberation schema.
+
+### P20 — `soteric_end`
+
+Definition:
+
+The final end aimed at or described by the thinker, where such an end is present.
+
+Value range:
+
 - `identity-with-ground`
 - `service-with-distinction-preserved`
 - `loving-participation`
-- `recognition`
+- `isolation-or-discriminative-release`
+- `recognition-or-freedom`
 - `transformation-of-life`
-- `suspension-or-ataraxia`
+- `ethical-vigilance-without-final-fusion`
 - `not-soteriological`
+
 Read-off rule:
-Read from explicit chapters on mokṣa, freedom, beatitude, recognition, divine life, or practical consummation.
-Registers:
+
+Read from the explicit terminus of the path: mokṣa, recognition, participation, transformed terrestrial life, ethical wakefulness, or the absence of any liberation telos.
+
+Register-scope:
+
 - soteriological
 - ethical
-- aesthetic
-- political where liberation has social extension
+- phenomenological
+- political-social where freedom is institutional and concrete
+
 Anchor cases:
-- Śaṅkara: `identity-with-ground`
-- Madhva: `service-with-distinction-preserved`; `primitive-model.md:95` captured the broad point
-- Caitanya: `loving-participation`
-- Abhinavagupta: `recognition`
-- Aurobindo: `transformation-of-life`
----
-## §3 — The edges
-### 3.1 Dependency edges
-Some primitives can vary independently.
-Some cannot.
-The graph must show this.
-`temporal_mode` and `substrate_structure` are independent.
-A one-substance metaphysics may be static, processual, or both-orthogonal.
-Spinoza, Hegel, and Whitehead prove the point from three sides.
-`mode_status` depends on `substrate_structure`.
-One cannot classify a world as `dependent-real` or `sublatable-not-null` without already having fixed what it depends on.
-`register_of_evolution` depends on `temporal_mode`, but not the other way around.
-One can say that time is basic without claiming a progressive evolution.
-`relation_to_perspectivism` depends on `modal_structure_of_truth`.
-To say that perspectives are sublated, preserved, or merely symptomatic presupposes some view of how truths coexist.
-`soteric_end` depends on at least `individuation_status` and `identity_relation`.
-If the individual is reducible, liberation will be described differently than if the individual is irreducible-dependent.
-Dependency sketch:
-```mermaid
-graph TD
-  P1[substrate_structure] --> P2[mode_status]
-  P1 --> P3[identity_relation]
-  P1 --> P5[causation_model]
-  P3 --> P13[soteric_end]
-  P4[individuation_status] --> P13
-  P8[temporal_mode] --> P9[register_of_evolution]
-  P10[modal_structure_of_truth] --> P11[relation_to_perspectivism]
-  P12[scope_of_grammar] --> P7[epistemic_authority]
-  P6[finite_cognition_model] --> P13
-```
-### 3.2 Commitment edges
-Each thinker article should carry a compact commitment table.
-The master graph then aggregates those local commitments.
-The commitment edge format is:
-`[thinker] -> commits-to -> [primitive:value]`
-with a citation.
-Micro-sample:
-| Thinker | Commitment | Citation |
-| --- | --- | --- |
-| Śaṅkara | `mode_status = sublatable-not-null` | `shankara.md:21-25`; [*Brahma-Sūtra-Bhāṣya* 2.1.14](cite://sankara/brahma-sutra-bhasya/2.1.14) |
-| Śaṅkara | `substrate_structure = one-self-standing` | `shankara.md:21-25` |
-| Madhva | `substrate_structure = one-independent-plus-real-dependents` | `madhva.md:70-95` |
-| Madhva | `causation_model = efficient-material-split` | `madhva.md:139-145` |
-| Hegel | `temporal_mode = process-primary` | `hegel.md:80-89`, `hegel.md:241-247` |
-| Deleuze | `relation_to_perspectivism = irreducible-true-perspectives` is too crude; better: `sublated-into-higher-whole = rejected` | `deleuze.md:123-135`, `deleuze.md:253-285` |
-### 3.3 Subsumption and critique edges
-Subsumption is not identity.
-Critique is not cancellation.
-The edge must therefore carry:
-- direction
-- register
-- verdict
-- citation
-The format is:
-`[position A] -> critiques/subsumes? -> [position B] {register, verdict}`
-#### Example A: Madhva and Advaita
-```mermaid
-graph LR
-  M1["Madhva: one svatantra + real paratantra"]
-  M2["Madhva: panca-bheda real and beginningless"]
-  M3["Madhva: prakriti material cause; Vishnu efficient cause"]
-  S1["Advaita: Brahman self-standing; world mithya-not-asat"]
-  S2["Advaita: difference valid at vyavaharika level"]
-  M1 -- "contests reduction to two-tier verbal parallel" --> S1
-  M2 -- "genuine disagreement on non-sublatable difference" --> S2
-  M3 -- "genuine disagreement on causation" --> S1
-```
-Why this matters:
-- `madhva.md:70-95` gives the aseity structure.
-- `madhva.md:101-113` gives `pañcabheda` as real and beginningless.
-- `madhva.md:139-145` gives the efficient/material split.
-- `shankara.md:21-25` and `shankara.md:315-317` make clear that the Advaita side is not flat world-nullification.
-The result is not "same structure, different vocabulary."
-It is:
-- some shared denial of independent secondness
-- a real dispute over the status of difference
-- a real dispute over causation
-- a real dispute over whether the finite is sublatable or permanently real as finite
-#### Example B: Deleuze and Hegel
-```mermaid
-graph LR
-  H1["Hegel: truth is the whole of mediated becoming"]
-  H2["Hegel: difference moves by sublation"]
-  D1["Deleuze: difference not subordinate to identity"]
-  D2["Deleuze: n-1 against totalizing unifier"]
-  D3["Deleuze: surface/event against depth and height"]
-  D1 -- "genuine critique in anti-teleological register" --> H2
-  D2 -- "genuine critique of unifying closure" --> H1
-  D3 -- "does not cancel Hegel's anti-static move" --> H1
-```
-Why this matters:
-- Hegel's process claim is real; `hegel.md:80-89`, `hegel.md:109-115`
-- Hegel's expansion of logic into ontology is also real; `hegel.md:121-146`, `hegel.md:245`
-- Deleuze's objection is not that Hegel is static.
-- It is that Hegel still subordinates difference to identity; `deleuze.md:123-135`
-- Deleuze's `n-1` formula attacks the unifier, not becoming as such; `deleuze.md:279-284`
-- Nietzsche sharpens the suspicion of philosophical drives claiming the right to legislate the whole; `nietzsche.md:260-262`
-So the critique is mixed.
-Deleuze does not erase Hegel's break with inert substance.
-Hegel does not answer the charge that teleological sublation assigns non-identity only a provisional role.
-That is a graphable relation, not a yes-or-no verdict.
----
-## §4 — The four-verdict schema
-The old four verdicts are kept.
-They now classify subsumption/critique edges.
-### V1 — `shared`
-Two positions share the same commitment on a primitive, even if their larger systems diverge.
-### V2 — `terminological`
-Two positions carve the same local structure with different terms, or use the same term for different local work.
-The classification is local.
-It never licenses the claim that the systems as wholes are the same.
-### V3 — `genuine`
-The positions differ on the primitive itself, not just on its phrasing.
-### V4 — `contested`
-The corpus itself leaves open whether the edge is `terminological` or `genuine`, or whether the source base is too unstable to decide.
-### Worked example 1: Madhva ↔ Advaita
-Local claim set:
-- Madhva: Viṣṇu alone is `svatantra`; all else is real but `asvatantra`; `madhva.md:70-95`
-- Madhva: the world is `pañcabheda`; `madhva.md:101-113`
-- Advaita: Brahman alone is self-standing; the world is `mithyā` but not `asat`; `shankara.md:21-25`
-- Advaita: empirical difference is affirmed in its own register; `shankara.md:315-317`
-Verdicts:
-- On denial of independent secondness: `shared`
-- On the claim that the finite is merely a lower-order reality while difference is sublatable: `genuine`
-- On the thought that both systems recognize a higher and lower register: `terminological` only in a narrow and carefully marked sense
-- On polemical charges that Advaita makes the world sheer non-being: `contested`
-The older framework treated the narrow `terminological` edge as the headline.
-That is the wrong order.
-The headline disagreement is the status of real difference.
-### Worked example 2: Deleuze ↔ Hegel
-Local claim set:
-- Hegel: the true is the whole that becomes itself; `hegel.md:80-89`
-- Hegel: living substance is subject; `hegel.md:109-115`
-- Hegel: ordinary predication breaks down, but speculative logic remains truth-bearing; `hegel.md:121-146`
-- Hegel: becoming is read off the movement of being and nothing; `hegel.md:241-247`
-- Deleuze: difference is shackled when subordinated to identity; `deleuze.md:123-135`
-- Deleuze: the multiple must be made by subtraction of the unifier; `deleuze.md:279-284`
-- Deleuze: surface/event blocks both depth-metaphysics and height-metaphysics; `deleuze.md:377-427`
-Verdicts:
-- On whether reality is static substance: `shared` denial
-- On whether difference is absorbed into a higher identity: `genuine`
-- On whether Hegel already breaks ordinary subject-predicate grammar: `contested` only if one forgets the speculative proposition; otherwise `shared` anti-naivete with a later fork
-- On whether a richer logic can still track reality: `genuine`
-This is the right place to use register-language.
-Deleuze's critique bites hardest in the anti-teleological and anti-totalizing registers.
-It does not erase Hegel's anti-static achievement.
----
-## §5 — Register discipline
-No primitive-value should be assigned before the register of the claim is fixed.
-The minimal registers for this site are:
-- metaphysical
-- epistemological
-- soteriological
-- ethical
-- aesthetic
-- political
-One sentence may work in more than one register.
-That is not a defect.
-It is one reason the graph is needed.
+
+- Śaṅkara: `identity-with-ground`; see `shankara.md`, the closing notes and the Upaniṣad-bhāṣya selections.
+- Madhva: `service-with-distinction-preserved`; see `madhva.md`, the `bhakti`, `aparokṣa-jñāna`, and liberation sections.
+- Caitanya/Jīva line: `loving-participation`; see `caitanya.md`, the `rasa` and Kṛṣṇa-participation passages.
+- Hegel: `recognition-or-freedom`; see `hegel.md`, the Spirit and `Philosophy of Right` sections.
+- Aurobindo: `transformation-of-life`; see `aurobindo.md`, the supramental and gnostic-being sections.
+- Levinas: `ethical-vigilance-without-final-fusion`; see `levinas.md`, the infinity and responsibility passages.
+- Adorno: `not-soteriological` in the strict sense, but compare the negative horizon of reconciliation in `adorno.md`.
+
+## §4 — Dependency edges
+
+The graph is not only a bag of primitive labels.
+
+Some primitives are downstream from others. The dependency edges below matter because they tell the later commitment table when two values should move together and when they should not.
+
+### D1 — `substrate_structure` → `manifestation_status`
+
+A thinker's account of what is basic constrains the status assigned to world and finite being.
+
 Examples:
-### Madhva on `bheda`
-`madhva.md:101-113` is plainly metaphysical.
-The world is structured by real fivefold difference.
-`madhva.md:181-185` shows the same doctrine in an epistemic and practical register.
-If difference were not real, practice and intelligibility would break.
-The graph should therefore record:
-- `mode_status = dependent-real` in the metaphysical register
-- `finite_cognition_model` and `epistemic_authority` implications in the epistemological register
-- `soteric_end = service-with-distinction-preserved` in the soteriological register
-### Hegel on “the True is the Whole”
-`hegel.md:80-89` is not only a metaphysical claim.
-It is also a methodological claim about how cognition reaches adequacy.
-If the sentence is read only as ontology, the method disappears.
-If it is read only as method, the metaphysics disappears.
-The graph therefore records one commitment with two registers rather than two unrelated commitments.
-### K.C. Bhattacharyya on alternative truths
-`kc-bhattacharyya.md:238-246` is epistemological first.
-But it presses directly into metaphysics once alternative truth-forms are taken as irreducible.
-To collapse it into a merely methodological liberalism would miss the point.
-### Ramakrishna on roof and stairs
-The roof-and-stairs doctrine is soteriological in its immediate setting.
-It also bears on metaphysics if one infers from it a claim about static and dynamic reality.
-The graph should not make that inference silently.
-It should mark the inference as a later edge, not as a primitive-value read straight off the line.
-Register discipline therefore has one hard rule:
-Do not move from a pedagogical image to a metaphysical commitment without naming the step.
----
-## §6 — Failure modes the framework explicitly avoids
-### 1. Collapsing real disagreements into “saying the same thing”
-This was the weakest tendency in the older framework.
-The Madhva/Advaita case shows why.
-Shared denial of independent secondness does not erase the dispute over real difference, causation, or the standing of the finite.
-### 2. Inflating terminological variance into genuine forks
-Not every lexical contrast marks a metaphysical split.
-Different schools often reserve different terms for the same local structure.
-The `terminological` verdict remains necessary.
-But it must remain local.
-### 3. Strawmanning a figure by attaching a later school position to an earlier author
-Śaṅkara must not be assigned a fully crystallized Bhāmatī/Vivaraṇa locus debate as though it were his own explicit primitive tuple.
-The graph therefore distinguishes:
+
+- Śaṅkara's `one-self-standing` architecture constrains `manifestation_status` toward `sublatable-not-null`.
+- Madhva's `one-independent-plus-real-dependents` constrains it toward `dependent-real`.
+- Whitehead's process architecture constrains it toward event-reality rather than static manifestation language.
+
+### D2 — `substrate_structure` → `identity_relation`
+
+The relation between whole and part cannot float free of the basic architecture.
+
+Examples:
+
+- Rāmānuja's body-soul qualification depends on `one-qualified-by-real-internal-distinctions`.
+- Madhva's `image-original-similarity` depends on `one-independent-plus-real-dependents`.
+- Caitanya's `inconceivable-difference-non-difference` depends on a real plurality that is neither strict identity nor mere external dualism.
+
+### D3 — `manifestation_status` ↔ `causation_model`
+
+These two primitives are linked but not identical.
+
+The world can be `dependent-real` under more than one causal model. It can be `sublatable-not-null` under an appearance model. It can be `expressive-manifestation` under an immanent-expression model. Keep the distinction clean.
+
+### D4 — `selfhood_structure` → `finite_cognition_model`
+
+A witness-self, transcendental ego, Dasein, or produced subject tends to generate a different account of error and finitude.
+
+Examples:
+
+- witness-self often pairs with superimposition or obscuration
+- transcendental ego with constitution
+- produced subject with discipline or genealogy
+- no-enduring-self with interpretation, force, or dependent process
+
+### D5 — `epistemic_authority` ↔ `method_of_critique`
+
+The authority source and the working method often track one another but not always.
+
+Examples:
+
+- Śaṅkara: scripture-dominant with commentarial-exegetical method
+- Husserl: reduction as both authority and method
+- Nietzsche: genealogy as method and critique-source
+- Medhananda: comparative theological reading as method, but with devotional and textual commitments still alive inside it
+
+### D6 — `determination_operator` ↔ `semantic_mediation`
+
+If difference is produced by contradiction, by `viśeṣa`, by writing, by injunction, or by differential deferral, language and determination will usually move together. This is where Hegel, Madhva, Mīmāṃsā, Derrida, and Bhartṛhari-type later assignments become comparable without being homogenized.
+
+### D7 — `temporal_mode` → `register_of_evolution`
+
+Not every process ontology yields an evolution doctrine, but the temporal framing constrains the available options.
+
+Examples:
+
+- Bergson's duration makes `durational-creative-growth` available.
+- A timeless-ground model can still permit evolution, but only by adding a layered account, as in Aurobindo.
+- Heidegger's historical disclosure is not cosmological evolution.
+
+### D8 — `modal_structure_of_truth` ↔ `relation_to_perspectivism`
+
+The truth structure constrains how perspectives are ranked, held apart, or folded into a whole.
+
+Examples:
+
+- Hegel's whole invites `sublated-into-higher-whole`.
+- K.C. Bhattacharyya's alternative absolutes invite `irreducible-true-perspectives`.
+- Nietzsche's force-diagnostic stance invites `perspectives-as-symptoms`.
+
+### D9 — `normative_order_source` → `social_formation_model`
+
+Where normativity is sourced often shapes how society is modeled.
+
+Examples:
+
+- Hegel's ethical life pairs with recognitive institutions.
+- Foucault's power-model pairs with disciplinary production.
+- Mīmāṃsā's injunction model pairs more with ritual order than with a thick social-formation theory.
+
+### D10 — `practice_path` → `soteric_end`
+
+The path does not mechanically fix the end, but it narrows the plausible endpoints.
+
+Examples:
+
+- knowledge-discipline tends toward identity or witness-disclosure
+- devotion-and-grace tends toward service or loving participation
+- transformative integration tends toward transformation of life
+- reduction can aim at clarification without traditional salvation
+
+## §5 — Commitment edges
+
+A thinker commitment is recorded as a structured edge:
+
 - thinker
-- sub-school
-- later reconstruction
-### 4. Treating the apparatus as if it already spoke from one privileged philosophical standpoint
-The apparatus is not a manifesto.
-It is the place where manifestos become comparable.
-### 5. Collapsing the grammar question into one narrow complaint
-The user's correction should remain visible:
-> "ontologized grammar isn't Nietzsche's notion of grammar"
-The framework accepts that correction.
-Nietzsche's attack on grammar as a source of false substance-metaphysics is one issue.
-The stronger complaint that one mode of articulation has been mistaken for reality's own structure is another.
-The Bhartṛhari-style question whether language is constitutive in a positive sense is a third.
-The graph keeps them apart.
----
-## §7 — How thinker articles plug in
-Each thinker article should gain a compact graph sub-block.
-The purpose is not to restate the whole article.
-It is to give the article a machine-readable and reader-readable commitment surface.
-Minimum format:
-1. a five-to-eight row commitment table
-2. one Mermaid block
-3. citations to the primary text or the on-disk article's cited locus
-### Example A: Śaṅkara
-| Primitive | Value | Register | Citation |
-| --- | --- | --- | --- |
-| `substrate_structure` | `one-self-standing` | metaphysical | `shankara.md:21-25` |
-| `mode_status` | `sublatable-not-null` | metaphysical | `shankara.md:21-25` |
-| `identity_relation` | `non-otherness` | metaphysical | `shankara.md:146-148` |
-| `causation_model` | `appearance-without-real-change` | cosmological | `shankara.md:24`; [*Brahma-Sūtra-Bhāṣya* 2.1.14](cite://sankara/brahma-sutra-bhasya/2.1.14) |
-| `finite_cognition_model` | `adhyāsa-or-superimposition` | epistemological | `shankara.md:47-103` |
-| `soteric_end` | `identity-with-ground` | soteriological | `shankara.md:653-657` |
-```mermaid
-graph LR
-  S[Shankara]
-  S --> P1["substrate_structure: one-self-standing"]
-  S --> P2["mode_status: sublatable-not-null"]
-  S --> P3["identity_relation: non-otherness"]
-  S --> P5["causation_model: appearance-without-real-change"]
-  S --> P6["finite_cognition_model: adhyasa"]
-  S --> P13["soteric_end: identity-with-ground"]
+- primitive
+- value
+- register
+- confidence
+- evidence
+
+The edge is the real atomic unit of the later JSON field `primitive_commitments`.
+
+### Confidence levels
+
+Use three confidence levels in later assignment work.
+
+- `high`: explicit and repeated in source article or primary-text-backed JSON
+- `medium`: clear but compressed, or inherited from a well-defined school profile with local confirmation
+- `low`: provisionally assigned from sparse evidence and liable to revision
+
+### Evidence policy
+
+Each commitment should cite one of:
+
+- source article section
+- primary-text `cite://...` reference already present in source article or thinker JSON
+- both when available
+
+### Mixed assignments
+
+When a thinker genuinely sustains two values in different registers, record them as two separate commitment objects with distinct register tags rather than fusing them into a hybrid value.
+
+Examples:
+
+- Ramakrishna can support both a strict ascent-language and a return-language.
+- Appayya can take Bhāmatī-line and Śaiva-line values in different textual roles.
+- Vivekananda's institutional and soteriological voices do not always collapse into one comparative claim.
+
+## §6 — Cross-engagement edges
+
+Phase 3 of the rollout depends on one further edge type:
+
+- `cross-engagement`
+
+This is not a primitive-value claim.
+
+It is a short passage inserted into an article at the point where a load-bearing claim is made. The passage names another thinker who engages the same primitive-axis and says what kind of engagement is happening.
+
+Allowed relation labels:
+
+- `agrees`
+- `disagrees`
+- `subsumes`
+- `sharpens`
+- `transposes-register`
+- `shares-axis-different-end`
+
+### Cross-engagement passage rule
+
+Each later passage should be:
+
+- 30 to 80 words
+- attached to a specific article location
+- tagged with the relevant primitive
+- tagged with the operative register
+- supported by a primary citation for the comparison thinker
+
+### Register discipline for cross-engagement
+
+Do not say "same claim" when the sameness is only verbal.
+
+Examples:
+
+- Hegel and Śaṅkara can share a whole/part pressure point without sharing a soteriology.
+- Madhva and Levinas can both preserve irreducibility, but in radically different registers.
+- Derrida and later Advaita can both attack naive presence-talk while moving toward very different metaphysical consequences.
+
+## §7 — Four verdicts for comparisons
+
+The graph still needs verdicts, but the verdict now applies to a pair of commitments, not to whole thinkers.
+
+### V1 — `shared-axis`
+
+The two claims are genuinely on the same primitive and in the same register, even if they differ in value.
+
+Example:
+
+- Śaṅkara and Madhva on `manifestation_status` in the metaphysical register.
+
+### V2 — `terminological-near-match`
+
+The wording looks close, but the architecture underneath is different.
+
+Example:
+
+- general "non-duality" talk across Śaṅkara, Rāmānuja, and Vivekananda.
+
+### V3 — `genuine-disagreement`
+
+The claims sit on the same primitive, in the same register, with incompatible values.
+
+Example:
+
+- Madhva versus Śaṅkara on whether finite difference is sublatable.
+
+### V4 — `register-shift`
+
+The apparent clash dissolves once the register is tagged correctly.
+
+Example:
+
+- Adorno's anti-totalization warnings and Aurobindo's metaphysics of manifestation are not one clean yes/no argument until the register is identified.
+
+## §8 — Worked comparisons
+
+### Example A — Śaṅkara and Madhva
+
+Shared axis:
+
+- `substrate_structure`
+- `manifestation_status`
+- `finite_cognition_model`
+- `epistemic_authority`
+- `soteric_end`
+
+Why the disagreement is real:
+
+- Śaṅkara's article grounds `substrate_structure` in `one-self-standing`, while Madhva's grounds it in `one-independent-plus-real-dependents`.
+- Śaṅkara's `manifestation_status` is `sublatable-not-null`, while Madhva's is `dependent-real`.
+- Madhva treats `bheda` as positive and non-sublatable; Śaṅkara treats difference as valid within `vyavahāra` and sublated in liberating knowledge.
+
+Why the disagreement is not reducible to one axis:
+
+The old framework's temptation was to say both carve the same hierarchy and disagree only about the modal status of the lower level. That is too weak against the actual `madhva.md` treatment of `svatantra/paratantra`, `viśeṣa`, and `pañcabheda`.
+
+Verdict:
+
+- `genuine-disagreement`
+
+### Example B — Hegel and Deleuze
+
+Shared axis:
+
+- `determination_operator`
+- `temporal_mode`
+- `individuation_status`
+
+Why the disagreement is real:
+
+- Hegel makes contradiction and mediated negation the motor of determinacy.
+- Deleuze makes difference primary without letting it be exhausted by contradiction.
+
+Why the disagreement is not only semantic:
+
+The difference reaches ontology, individuation, and history. It is not a mere vocabulary fight about dynamism.
+
+Verdict:
+
+- `genuine-disagreement`
+
+### Example C — K.C. Bhattacharyya and Hegel
+
+Shared axis:
+
+- `modal_structure_of_truth`
+- `relation_to_perspectivism`
+
+Why the encounter matters:
+
+- Hegel moves toward a totalized intelligibility in which partial views are aufgehoben.
+- K.C. Bhattacharyya keeps alternative absolutes genuinely irreducible.
+
+Verdict:
+
+- `genuine-disagreement`
+
+### Example D — Foucault and Mīmāṃsā
+
+Shared axis:
+
+- `normative_order_source`
+- `semantic_mediation`
+
+Why the apparent nearness is mostly false:
+
+- Both care about the production of binding practice.
+- Mīmāṃsā grounds bindingness in scriptural injunction.
+- Foucault grounds it in historically contingent dispositifs and power-relations.
+
+Verdict:
+
+- `register-shift` followed by `genuine-disagreement`
+
+## §9 — Register discipline
+
+The graph will fail if it lets one register quietly occupy the whole field.
+
+Three warnings matter most for this corpus.
+
+### 1. Metaphysical vocabulary often migrates into soteriological prose
+
+Ramakrishna, Vivekananda, and many Bhakti thinkers use identity-language, manifestation-language, and path-language in close sequence. The later assignment table has to keep those strands tagged rather than flattening them.
+
+### 2. Political-social analysis is not a disguised ontology by default
+
+Foucault, Adorno, and Marx-adjacent material may have metaphysical implications, but their primary commitments are often about practice, institution, social form, and subject-production. The graph should not force them into a pseudo-Vedāntic substrate debate if the article does not do so.
+
+### 3. Phenomenology is not automatically a metaphysical refusal
+
+Husserl and Heidegger are methodologically restrictive in distinctive ways, but that does not mean "no ontology." It means the ontology is accessed under a special discipline. The graph can record that through `epistemic_authority`, `method_of_critique`, `selfhood_structure`, and `temporal_mode`.
+
+## §10 — Failure modes this framework rejects
+
+### F1 — Importing later school solutions into earlier authors
+
+This is the clearest old failure and remains forbidden.
+
+Examples:
+
+- later Advaita avidyā-locus doctrines read back into Śaṅkara
+- later systematizing glosses treated as if they were original first-order commitments
+
+### F2 — Treating every similarity as convergence
+
+If two thinkers both say "non-dual," "whole," "difference," "freedom," or "manifestation," the graph still has to ask:
+
+- which primitive?
+- which register?
+- which value?
+
+Without that discipline, the corpus slides back into slogan-comparison.
+
+### F3 — Overfitting the graph to one local polemic
+
+The user's frustrations about previous primitive work were justified. The graph cannot be a disguised instrument for one Madhva/Advaita complaint, one Nietzsche-on-grammar complaint, or one Aurobindo-centered synthetic thesis. It has to stay general enough to survive contact with the entire corpus.
+
+### F4 — Forcing Western comparators into leftover status
+
+Hegel, Nietzsche, Husserl, Heidegger, Whitehead, Bergson, Derrida, Foucault, Adorno, Levinas, and Prigogine now have enough article weight that the graph must be able to locate them directly.
+
+### F5 — Confusing article support with school rumor
+
+Where the article corpus is strong, use it.
+
+Where only the JSON is available, say so.
+
+Where neither layer settles the issue, use `withheld`.
+
+## §11 — How the later JSON field should look
+
+Each thinker JSON will gain a `primitive_commitments` array.
+
+The target object shape is:
+
+```json
+{
+ "primitive": "substrate_structure",
+ "value": "one-independent-plus-real-dependents",
+ "register": "metaphysical",
+ "confidence": "high",
+ "evidence": [
+ {
+ "kind": "source_article",
+ "ref": "data/articles/source/madhva.md",
+ "section": "svatantra/paratantra and pañcabheda"
+ },
+ {
+ "kind": "primary",
+ "ref": "cite://madhva/anuvyakhyana/1.4.111-112"
+ }
+ ],
+ "notes": "Use the aseity structure rather than the flattened label 'dualism.'"
+}
 ```
-### Example B: Hegel
-| Primitive | Value | Register | Citation |
-| --- | --- | --- | --- |
-| `temporal_mode` | `process-primary` | metaphysical | `hegel.md:80-89`, `hegel.md:241-247` |
-| `register_of_evolution` | `sublative-becoming` | metaphysical | `hegel.md:80-91` |
-| `relation_to_perspectivism` | `sublated-into-higher-whole` | epistemological | `hegel.md:80-89` |
-| `scope_of_grammar` | `grammar-as-mode-of-access` tending toward stronger logos-claims | methodological | `hegel.md:121-146`, `hegel.md:245` |
-| `individuation_status` | `reducible-to-the-whole` | metaphysical | `hegel.md:109-115` |
-```mermaid
-graph LR
-  H[Hegel]
-  H --> T["temporal_mode: process-primary"]
-  H --> E["register_of_evolution: sublative-becoming"]
-  H --> R["relation_to_perspectivism: sublated-into-higher-whole"]
-  H --> G["scope_of_grammar: enlarged logos claim"]
-  H --> I["individuation_status: reducible-to-the-whole"]
-```
-The rollout rule is simple.
-Add these sub-blocks gradually.
-Do not force every article into the graph at once.
-The graph is useful only if each assignment stays cited, local, and corrigible.
+
+If the commitment is mixed by register, store two objects.
+
+If the evidence is too thin, do not fabricate certainty. Use `withheld` only when the later data model needs an explicit placeholder.
+
+## §12 — How article cross-engagement passages should be written
+
+Each source article will gain short cross-engagement passages tied to the primitive-axis currently under discussion.
+
+The passage should:
+
+- name the other thinker
+- name the shared primitive
+- say whether the relation is agreement, disagreement, subsumption, sharpening, or register-shift
+- cite a primary text for the comparison thinker
+
+Example template:
+
+> Cross-engagement: Hegel pressures the same `determination_operator` axis from the opposite side. Where this section treats difference as irreducible without sublation, Hegel's *Science of Logic* makes contradiction the engine of determinacy itself ([Being-Nothing-Becoming](cite://hegel/science-of-logic/being-nothing-becoming)). The shared axis is real; the operative register is logical-dialectical; the value is not.
+
+That is the level of granularity later Phase 3 work should target.
+
+## §13 — Article-level plug-in examples
+
+### Example A — Śaṅkara article
+
+Minimum high-confidence commitments:
+
+- `substrate_structure = one-self-standing`
+- `manifestation_status = sublatable-not-null`
+- `identity_relation = non-otherness`
+- `selfhood_structure = witness-self`
+- `finite_cognition_model = adhyasa-or-superimposition`
+- `epistemic_authority = scripture-dominant`
+- `practice_path = knowledge-discipline`
+- `soteric_end = identity-with-ground`
+
+Cross-engagement targets that article should naturally host:
+
+- Madhva on `manifestation_status`
+- Rāmānuja on `identity_relation`
+- Husserl on `selfhood_structure`
+- Derrida on `semantic_mediation`
+- Aurobindo on `manifestation_status` and `practice_path`
+
+### Example B — Hegel article
+
+Minimum high-confidence commitments:
+
+- `substrate_structure = one-self-standing` only if the article insists on absolute Spirit as self-grounding whole; otherwise use `withheld` and let `temporal_mode`, `determination_operator`, and `modal_structure_of_truth` carry the load
+- `individuation_status = reducible-to-the-whole`
+- `determination_operator = negation-and-contradiction`
+- `method_of_critique = dialectical-development`
+- `temporal_mode = process-primary`
+- `register_of_evolution = sublative-becoming`
+- `relation_to_perspectivism = sublated-into-higher-whole`
+- `normative_order_source = ethical-life-in-institutions`
+- `social_formation_model = recognitive-institutional`
+- `soteric_end = recognition-or-freedom`
+
+Cross-engagement targets that article should naturally host:
+
+- Deleuze on `determination_operator`
+- Nietzsche on `relation_to_perspectivism`
+- Adorno on `social_formation_model`
+- K.C. Bhattacharyya on `modal_structure_of_truth`
+- Aurobindo on `register_of_evolution`
+
+### Example C — Foucault article
+
+Minimum high-confidence commitments:
+
+- `manifestation_status = socially-or-discursively-stabilized`
+- `selfhood_structure = split-or-produced-subject`
+- `finite_cognition_model = genealogically-produced-illusion`
+- `epistemic_authority = genealogical-critique`
+- `determination_operator = genealogical-exposure`
+- `method_of_critique = genealogy`
+- `normative_order_source = disciplinary-power`
+- `social_formation_model = disciplinary-production-of-subjects`
+- `practice_path = critical-genealogical-work`
+- `soteric_end = not-soteriological`
+
+Cross-engagement targets that article should naturally host:
+
+- Nietzsche on genealogy
+- Butler on performative repetition
+- Adorno on social totality
+- Mīmāṃsā on binding practice
+- Heidegger on disclosure versus historical formation
+
+## §14 — Corpus-wide adequacy check
+
+This grammar counts as adequate only if it can house the following clusters without strain.
+
+### Cluster 1 — Vedānta school disputes
+
+Needed primitives:
+
+- `substrate_structure`
+- `manifestation_status`
+- `identity_relation`
+- `causation_model`
+- `selfhood_structure`
+- `practice_path`
+- `soteric_end`
+
+### Cluster 2 — Trika and Śaiva comparators
+
+Needed primitives:
+
+- `manifestation_status`
+- `selfhood_structure`
+- `finite_cognition_model`
+- `semantic_mediation`
+- `affective_motive_force`
+- `practice_path`
+
+### Cluster 3 — Mīmāṃsā, Nyāya, and pramāṇa traditions
+
+Needed primitives:
+
+- `epistemic_authority`
+- `method_of_critique`
+- `semantic_mediation`
+- `normative_order_source`
+- `determination_operator`
+
+### Cluster 4 — German idealism, phenomenology, and deconstruction
+
+Needed primitives:
+
+- `selfhood_structure`
+- `determination_operator`
+- `method_of_critique`
+- `temporal_mode`
+- `modal_structure_of_truth`
+- `relation_to_perspectivism`
+- `semantic_mediation`
+
+### Cluster 5 — Genealogy, critical theory, and social diagnosis
+
+Needed primitives:
+
+- `finite_cognition_model`
+- `epistemic_authority`
+- `method_of_critique`
+- `normative_order_source`
+- `social_formation_model`
+- `practice_path`
+
+### Cluster 6 — Process, emergence, and evolutionary metaphysics
+
+Needed primitives:
+
+- `substrate_structure`
+- `causation_model`
+- `temporal_mode`
+- `register_of_evolution`
+- `soteric_end` where a transformed-life endpoint exists
+
+The present set covers all six clusters.
+
+## §15 — Closing constraint
+
+The graph has one final discipline.
+
+When the corpus does not support a strong claim, do not compensate with stylistic confidence.
+
+The later phases can be ambitious only if the assignments remain reversible:
+
+- revise a value when a better article exists
+- split a value by register when the article demands it
+- withhold a value when the evidence is thin
+
+That is how the graph stays general instead of turning into another selective map.

@@ -890,5 +890,118 @@
   "last_verified_by": "wave-rigor-opus",
   "polemic_chain_ids": [
     "govinda-bhasya-defense"
-  ]
+  ],
+  "primitive_commitments": [
+    {
+      "primitive": "epistemic_authority",
+      "value": "scripture-dominant",
+      "register": "epistemological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/kesava-kasmiri.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://mandana/brahma-siddhi/2.3.43",
+            "cite://kesava-kasmiri/krama-dipika/1.5;",
+            "cite://kesava-kasmiri/krama-dipika/2.18",
+            "cite://kesava-kasmiri/krama-dipika/1.4-5"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "identity_relation",
+      "value": "natural-difference-non-difference",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/kesava-kasmiri.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://mandana/brahma-siddhi/2.3.43",
+            "cite://kesava-kasmiri/krama-dipika/1.5;",
+            "cite://kesava-kasmiri/krama-dipika/2.18",
+            "cite://kesava-kasmiri/krama-dipika/1.4-5"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "dependent-real",
+      "register": "metaphysical",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/kesava-kasmiri.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://mandana/brahma-siddhi/2.3.43",
+            "cite://kesava-kasmiri/krama-dipika/1.5;",
+            "cite://kesava-kasmiri/krama-dipika/2.18",
+            "cite://kesava-kasmiri/krama-dipika/1.4-5"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "knowledge-discipline",
+      "register": "soteriological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/kesava-kasmiri.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://mandana/brahma-siddhi/2.3.43",
+            "cite://kesava-kasmiri/krama-dipika/1.5;",
+            "cite://kesava-kasmiri/krama-dipika/2.18",
+            "cite://kesava-kasmiri/krama-dipika/1.4-5"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "identity-with-ground",
+      "register": "soteriological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/kesava-kasmiri.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://mandana/brahma-siddhi/2.3.43",
+            "cite://kesava-kasmiri/krama-dipika/1.5;",
+            "cite://kesava-kasmiri/krama-dipika/2.18",
+            "cite://kesava-kasmiri/krama-dipika/1.4-5"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

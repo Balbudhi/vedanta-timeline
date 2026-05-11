@@ -8,6 +8,8 @@
 
 Classical Sāṃkhya — the oldest of the six *darśanas* of orthodox Indian thought, older than the canonical Yoga-Sūtras whose metaphysics it underwrites — gives us the **three guṇas**: *sattva*, *rajas*, *tamas*, the threefold "threads" of which *prakṛti* (Nature, the manifest principle) is woven. Every appearance is for Sāṃkhya a particular composition of these three. The deeper picture to keep in view is that light or consciousness is fundamental, while *prakṛti* is the veil or engine of form standing between infinity and definite appearance: tamas is the substantial thread of that veil, rajas its motion or pulsation, sattva its clarity, the transparent thread through which feedback from infinity enters manifestation. The doctrine is enumerative, austere, structural — and, until very recently, stranded. From Vijñānabhikṣu in the late sixteenth century to the present, no major thinker has tried to *formalize* the guṇas. They have been inherited as metaphysical primitives, taxonomised psychologically, or moralised. Nobody has asked: what *kind of mathematical objects* are the three guṇas? What *operations* on a definite formal substrate would instantiate them?
 
+Cross-engagement: Abhinavagupta presses the same substrate structure axis in the metaphysical register, but with the value `one-self-standing` rather than `many-coordinate-reals` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 **Anirban Bandyopadhyay** — Principal Researcher at the National Institute for Materials Science (Tsukuba); experimental collaborator of Stuart Hameroff in the Penrose-Hameroff Orch-OR program; author of *Nanobrain* (2020) — is the first physicist to have given a definite answer. He claims the three guṇas are physical operations on a single mathematical primitive — the **Phase Prime Metric (PPM)**, which he identifies with Puruṣa. *Sattva* is *projection from infinity*; *rajas* is *transformation of one geometric shape into another at a singularity*; *tamas* is *bonding of geometric shapes at undefined points*. One hardware, three operations; consciousness is the simultaneous co-presence of all three modes on the same substrate. If even approximately correct, this is the first contemporary scientific formalization of Sāṃkhya since the seventeenth century. For the user's thesis, it furnishes a formal substrate for the metaphysics of form (T1), experimental traction for unity-in-multiplicity (T9), and a physics-language interlocutor for divine play through self-veiling (T7).
 
 **Method.** Two commitments govern this reader. First, classical Sāṃkhya is engaged literally as a metaphysics of what reality IS — *prakṛti* really transforms, *puruṣa* really witnesses, the guṇas really are real constituents of the manifest world. We do not translate Sāṃkhya into "spiritual psychology" or treat guṇas as Aristotelian "qualities." Second, Anirban's polyatomic time-crystal mathematics is cited verbatim where he makes claims, but is not interpreted philosophically — the formal apparatus belongs to physics, not to the philosophical synthesis pursued here. For deeper Sanskritic engagement (Yuktidīpikā, Vijñānabhikṣu, *Mokṣa-Dharma*), see the companion reader `13_kala_cakra_clock_structures.md`.
@@ -54,9 +56,13 @@ Sāṃkhya is the metaphysics of *form* (T1) — not of *ground* (Advaita) or *r
 
 The *Sāṃkhya-Kārikā* of Īśvarakṛṣṇa (c. 4th–5th c. CE) is the foundational text of classical Sāṃkhya, seventy-two *āryā* verses codifying an older oral school traced (SK 70) from Kapila through Āsuri and Pañcaśikha. Sāṃkhya is older than the canonical *Yoga-Sūtras* (c. 2nd–4th c. CE), which presuppose its metaphysics. The principal commentaries are Gauḍapāda's *Bhāṣya* (c. 6th–7th c.), Vācaspati Miśra's *Tattva-Kaumudī* (c. 9th–10th c., the most lucid and widely studied), and the anonymous Yuktidīpikā (c. 6th–8th c.). Standard translations: Larson 1969, Burley 2007, Phukan 1960. What follows is a selective walk through the verses that establish the metaphysical structure, keeping the English renderings and the verse references that matter for later comparison.
 
+Cross-engagement: Adi Sankara presses the same manifestation status axis in the metaphysical register, but with the value `sublatable-not-null` rather than `real-transformation` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ### Kārikā 1–2 — The Threefold Suffering and the Inadequacy of Vedic Remedy
 
 > **SK 1.** "From the blow of the threefold suffering there arises inquiry into the means that removes it. If one says this is pointless because visible remedies are already known: no, because they yield cessation that is neither certain nor absolute."
+
+Cross-engagement: Anandabodha presses the same selfhood structure axis in the phenomenological register, but with the value `witness-self` rather than `substantial-self` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 > **SK 2.** "The Vedic remedy resembles the worldly one, because it is bound up with impurity, wasting, and excess. Better is the contrary: discriminative knowledge of the manifest (*vyakta*), the unmanifest (*avyakta*), and the knower (*jña*)."
 
@@ -66,11 +72,15 @@ The threefold suffering — *ādhyātmika* (intra-personal), *ādhibhautika* (in
 
 > **SK 3.** "*Mūla-prakṛti* is unproduced. The seven beginning with *mahat* are both productive and produced. The set of sixteen are products. *Puruṣa* is neither productive nor produced."
 
+Cross-engagement: Alfred North Whitehead presses the same temporal mode axis in the metaphysical register, but with the value `process-primary` rather than `substance-primary` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 This is the structural verse of Sāṃkhya. The **twenty-five *tattvas***: (1) **Mūla-prakṛti**, *avikṛti* — uncaused first cause. (2–8) The seven *prakṛti-vikṛtis* (both producing and produced) — *mahat* (=*buddhi*); *ahaṃkāra*; and the five *tanmātras*. (9–24) The sixteen *vikāras* — eleven *indriyas* (five *jñānendriyas* + five *karmendriyas* + *manas*) plus the five *mahābhūtas* (ether, air, fire, water, earth). (25) **Puruṣa** — neither cause nor effect, witness only. The entire manifest, including the inner instrument (*antaḥkaraṇa* = *buddhi* + *ahaṃkāra* + *manas*), is real transformation (*pariṇāma*) of *prakṛti*. This is *sat-kārya-vāda*: the effect pre-exists in the cause; *prakṛti* differentiates from itself. SK 9 gives five reasons (*asad-akaraṇāt*, *upādāna-grahaṇāt*, *sarva-sambhavābhāvāt*, *śaktasya śakya-karaṇāt*, *kāraṇa-bhāvāt*) — the central polemic against Buddhist *pratītyasamutpāda* and Nyāya-Vaiśeṣika *asat-kārya-vāda*.
 
 ### Kārikā 8 — Why Prakṛti is Unseen
 
 > **SK 8.** "Its non-perception comes from subtlety, not from non-existence. It is known through its effects. *Mahat* and the rest are its effects, at once unlike it and like it."
+
+Cross-engagement: Akalanka presses the same practice-path axis in the soteriological register, but with the value `meditative-discipline` rather than `knowledge-discipline` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 SK 7 enumerated eight reasons for non-perception (distance, proximity, sensory defect, inattention, subtlety, intervention, suppression, confusion with similars). *Prakṛti* falls under subtlety: known through its effects by *anumāna sāmānyatodṛṣṭa* (general-empirical inference, SK 5–6). The effects are *prakṛti-virūpaṃ sarūpaṃ ca* — *like* in tri-guṇa structure (SK 14), *unlike* in being particularised. The cause is partially but not exhaustively recoverable in its effects.
 
@@ -78,11 +88,15 @@ SK 7 enumerated eight reasons for non-perception (distance, proximity, sensory d
 
 > **SK 11.** "The manifest is constituted by the three *guṇas*, non-discriminating, objectual, common, non-conscious, and productive. *Pradhāna* is the same. *Puruṣa* is the reverse of these."
 
+Cross-engagement: Anantakrishna Sastri presses the same soteric end axis in the soteriological register, but with the value `identity-with-ground` rather than `isolation-or-discriminative-release` in [primary text](cite://sankara/brahma-sutra-bhasya/2.1.14). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 SK 10 enumerated eight contrasting characteristics of manifest vs unmanifest. SK 11 fixes the six characteristics manifest and unmanifest *prakṛti* share — tri-guṇa, *aviveki* (undiscriminative), *viṣaya* (object), *sāmānya* (common), *acetana* (unconscious), *prasava-dharmi* (productive). *Puruṣa* is outside this genus on every count: discriminative, subject, individual, conscious, non-productive. The deepest line of Sāṃkhyic dualism: *puruṣa* is not in the genus of any thing made-of-guṇas.
 
 ### Kārikā 12 — The Cardinal Verse on the Three Guṇas
 
 > **SK 12.** "The *guṇas* are of the nature of *prīti*, *aprīti*, and *viṣāda*; their functions are illumination (*prakāśa*), activity (*pravṛtti*), and restraint (*niyama*); their modes of operation are mutual overcoming, mutual support, mutual production, and mutual coupling."
+
+Cross-engagement: Baladeva Vidyabhushana presses the same causation model axis in the metaphysical register, but with the value `unchanged-ground-with-changing-power` rather than `real-transformation` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 The metaphysical heart of Sāṃkhya, fixing the guṇas in three triads:
 
@@ -152,7 +166,7 @@ Two refinements: (i) the *sūkṣma* (subtle) vs *sthūla* (gross) body distinct
 
 ### Kārikā 56–57 — The Milk Simile
 
-> **SK 56.** "Thus this whole evolution from *prakṛti*, from *mahat* down to the specific *bhūtas*, is for the sake of each *puruṣa*'s liberation, though its own activity appears as if meant for another."
+> **SK 56.** "so this whole evolution from *prakṛti*, from *mahat* down to the specific *bhūtas*, is for the sake of each *puruṣa*'s liberation, though its own activity appears as if meant for another."
 
 > **SK 57.** "Just as milk, though unconscious, flows for the calf's growth, so *pradhāna* acts for *puruṣa*'s liberation."
 
@@ -541,7 +555,7 @@ Where Sāṃkhya helps: the *kṣīra-vatsa* simile of *Kārikā* 57 — *prak�
 
 Where Anirban helps: the three guṇa-operations on the PPM are *unconscious* (the PPM is a mathematical pattern, not an agent) yet *teleological* (their operations are organized toward the conscious co-presence of all three modes — i.e., toward the recognizable phenomenology of consciousness). This is the structural analog of *prakṛti*'s *sva-kāryam* operating for *puruṣa*'s sake. Anirban's framework gives the user a contemporary physics-vocabulary for what T7 requires.
 
-What the user adds, beyond Sāṃkhya and Anirban: the *single* Real. Aurobindonian *paramādvaita* — non-duality of duality and non-duality. Sāṃkhya's plural *puruṣas* are *aspects* of the one Real; the divine self-veiling occurs at the level where the plurality is itself a manifestation of the one. The *svātantrya* (sovereign freedom) of Kashmir Shaivism allows the one Real to manifest as many witnesses, each apparently independent, each subject to the *kaivalya*-trajectory of Sāṃkhya, each ultimately a poise of the same self-veiling-self-revealing Real.
+What the user adds, beyond Sāṃkhya and Anirban: the *single* Real. Aurobindonian *paramādvaita* — non-duality of duality and non-duality. Sāṃkhya's plural *puruṣas* are *aspects* of the one Real; the divine self-veiling occurs at the level where the plurality is itself a manifestation of the one. The *svātantrya* (sovereign freedom) of Kashmir Shaivism allows the one Real to manifest as many witnesses, each apparently independent, each subject to the *kaivalya*-trajectory of Sāṃkhya, each a poise of the same self-veiling-self-revealing Real.
 
 ### T9 — Unity-in-Apparent-Multiplicity
 

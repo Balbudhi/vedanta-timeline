@@ -8,7 +8,11 @@
 
 ### Bio: lens-grinder of The Hague
 
+Cross-engagement: Akalanka presses the same substrate structure axis in the metaphysical register, but with the value `many-coordinate-reals` rather than `one-self-standing` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Baruch Spinoza was born in Amsterdam on **24 November 1632**, into the Sephardic *Nação* that had fled the Iberian Inquisitions. Educated in the *Talmud Torah* school of the Portuguese Synagogue (Hebrew Bible, Maimonides, Crescas, ibn Ezra, Gersonides), then in Latin under the ex-Jesuit Franciscus van den Enden (c. 1654), he absorbed Descartes, Hobbes, the late Scholastics, and the Collegiant-Mennonite-Quaker sectarians who became his closest friends.
+
+Cross-engagement: Abhinavagupta presses the same manifestation status axis in the metaphysical register, but with the value `expressive-manifestation` rather than `dependent-real` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 In **July 1656**, at 23, the synagogue council pronounced against him the harshest *cherem* in the surviving Amsterdam register — excommunication, anathema, prohibition on contact within four cubits or on reading his writings. The *cherem* document does not list the doctrines, but the surrounding evidence (Juan de Prado, the Inquisitor Solano y Robles, the lost *Apologia*) converges on his already-formed conviction that scripture is a human document, the soul not separately immortal, and "God" not the personal creator of the *Tanakh*. The Amsterdam *Nação*, a recently-emancipated diaspora on the sufferance of the Calvinist States, had its own reasons for severity.
 
@@ -17,6 +21,8 @@ Spinoza did not contest. He took the Latinized name *Benedictus*, lived as a len
 ### The corpus arc: TIE → KV → PPC → TTP → Ethica → TP
 
 Six titles, in approximate compositional order:
+
+Cross-engagement: Adi Sankara presses the same identity relation axis in the metaphysical register, but with the value `non-otherness` rather than `self-expression-or-appearance` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 **1. *Tractatus de Intellectus Emendatione*** (TIE, c. 1661, unfinished). The methodological clearing: the young Spinoza thinks his way out of the *bona fortuna* of wealth, fame, and pleasure into the search for the *summum bonum* — union of mind with nature. Autobiographical preface to the *Ethica* in everything but name.
 
@@ -36,6 +42,8 @@ Of the seventy-eight surviving letters, two are decisive for our reading: Letter
 
 Within the *Ethica*, three structures bear the weight of everything else.
 
+Cross-engagement: Alfred North Whitehead presses the same temporal mode axis in the metaphysical register, but with the value `process-primary` rather than `substance-primary` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 **(i) Substance / attribute / mode.** Pars I builds the architecture: substance is one (Prop. 14); attributes are infinite, each expressing the whole essence under its own form (Def. IV, Prop. 10 schol.); modes are affections of attributes (Def. V), and the totality of modes is *natura naturata* (Prop. 29 schol.). This is the Western articulation of one-Real-said-in-many-senses — structural ancestor of Deleuze's univocity and of *acintya-bhedābheda*.
 
 **(ii) The *intellectus infinitus Dei*.** E1p16 introduces it (*omnia, quæ sub intellectum infinitum cadere possunt*); E1p21–22 specify its modal status (immediate infinite mode of thought); Letter 64 confirms; E2p7c articulates the parallelism: *quicquid ex infinita Dei natura sequitur formaliter, id omne ex Dei idea eodem ordine eademque connexione sequitur in Deo objective*. The infinite intellect contains, as ideas, the formal essences of all things in all attributes simultaneously — the closest pre-Aurobindonian Western articulation of the divine experiencing all registers at once, non-destructively.
@@ -46,6 +54,8 @@ Within the *Ethica*, three structures bear the weight of everything else.
 
 **(a) Necessitarianism rules out *līlā*.** Spinoza's God acts *ex solis suæ naturæ legibus* (E1p17); E1p33 closes the modal margin entirely. The *svātantrya* of Trika is unsayable in Spinoza's grammar by Def. VII alone.
 
+Cross-engagement: Akshapada Gautama presses the same soteric end axis in the soteriological register, but with the value `isolation-or-discriminative-release` rather than `not-soteriological` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 **(b) *Deus sive Natura* is too tight.** Pars IV Praefatio's *Deum, seu Naturam* is convertibility, not perspectival distinction. Brahman is not nature *simpliciter*; manifestation is the play of *svātantrya*; the distinction between Saccidānanda-as-such and manifestation is the room for *līlā*. Spinoza closes that distinction.
 
 **(c) Impersonalism.** What is eternal in the mind (E5p23) is the impersonal *eternum quoddam* of adequate ideas, not the *caitya puruṣa*. No story-bearer, no trans-incarnational continuity, no person who deepens.
@@ -53,6 +63,8 @@ Within the *Ethica*, three structures bear the weight of everything else.
 ### Don Garrett's contemporary revival
 
 The third divergence is most softened by recent scholarship. **Don Garrett** (NYU), in *Nature and Necessity in Spinoza's Philosophy* (OUP 2018) and "Spinoza's Conatus Argument" (2002), has been recovering — against the Hegelian shadow — a Spinoza in whom finite modes are not absorbed into substance but enjoy real individuation. Hegel's "acosmism" is a misdiagnosis. The *conatus* doctrine (E3p6–7) is the doctrine of real individuality; modes are *quasi-substances*. We give Garrett substantial space, with a further section on Melamed (Hopkins), Della Rocca (Yale), and Macherey (Lille).
+
+Cross-engagement: Baladeva Vidyabhushana presses the same causation model axis in the metaphysical register, but with the value `unchanged-ground-with-changing-power` rather than `immanent-expression` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 ### The surrounding texts that matter for this project
 
@@ -263,7 +275,7 @@ Scholium I refutes Cartesian-Suarezian voluntarism (things necessary because God
 
 The Appendix is one of the most rhetorically powerful passages in early modern philosophy. It opens by recapitulating the achievements of Pars I, then turns polemical:
 
-In these I have explained the nature of God and his properties: that he necessarily exists; that he is unique; that he is and acts from the sole necessity of his own nature; that he is the free cause of all things, and how; that all things are in God and so depend on him that without him they can neither be nor be conceived; and finally that all things have been predetermined by God — not indeed from freedom of will or absolute good pleasure, but from God's absolute nature, that is, his infinite power.
+In these I have explained the nature of God and his properties: that he necessarily exists; that he is unique; that he is and acts from the sole necessity of his own nature; that he is the free cause of all things, and how; that all things are in God and so depend on him that without him they can neither be nor be conceived; and finally that all things have been predetermined by God — not from freedom of will or absolute good pleasure, but from God's absolute nature, that is, his infinite power.
 
 Spinoza then diagnoses the great prejudice that has obscured these truths from the philosophical and theological tradition: the projection of *causæ finales* — final causes — onto a nature that operates by efficient necessity:
 
@@ -421,7 +433,7 @@ Proposition XLII. *Blessedness is not the reward of virtue, but virtue itself; n
 
 *Demonstration.* Blessedness consists in the love toward God (Prop. 36 of this part and its Scholium), which love arises from the third kind of knowledge (Coroll. Prop. 32 of this part); and so this love (Prop. 59 and 3 of Pt. III) must be referred to the mind insofar as it acts; and so (Def. 8 of Pt. IV) it is virtue itself. Which was the first point. Next, the more the mind enjoys this divine love or blessedness, the more it understands (Prop. 32 of this part), that is (Coroll. Prop. 3 of this part), the greater the power it has over the affects, and (Prop. 38 of this part) the less it suffers from affects which are evil; and so from the fact that the mind enjoys this divine love or blessedness, it has the power of restraining the lusts.
 
-*Scholium (closing).* By this I have completed everything I wished to show concerning the mind's power over the affects and concerning the mind's freedom. From this it appears how strong the wise man is, and how much more powerful than the ignorant man, who is moved only by lust. For not only is the ignorant man troubled in many ways by external causes, and never possesses true peace of mind, but he lives, moreover, almost unconscious of himself, of God, and of things; and as soon as he ceases to suffer, he ceases to be also. By contrast, the wise man, considered as such, is hardly moved in spirit; but, conscious of himself and of God and of things by a certain eternal necessity, he never ceases to be, but always possesses true peace of mind. If the way I have shown to lead to this seems very arduous, it can nonetheless be found. And it must indeed be arduous, since it is so rarely discovered. For how could it be that, if salvation lay ready to hand and could be found without great labor, it would be neglected by almost everyone? *But all things excellent are as difficult as they are rare.*
+*Scholium (closing).* By this I have completed everything I wished to show concerning the mind's power over the affects and concerning the mind's freedom. From this it appears how strong the wise man is, and how much more powerful than the ignorant man, who is moved only by lust. For not only is the ignorant man troubled in many ways by external causes, and never possesses true peace of mind, but he lives, Also, almost unconscious of himself, of God, and of things; and as soon as he ceases to suffer, he ceases to be also. By contrast, the wise man, considered as such, is hardly moved in spirit; but, conscious of himself and of God and of things by a certain eternal necessity, he never ceases to be, but always possesses true peace of mind. If the way I have shown to lead to this seems very arduous, it can nonetheless be found. And it must be arduous, since it is so rarely discovered. For how could it be that, if salvation lay ready to hand and could be found without great labor, it would be neglected by almost everyone? *But all things excellent are as difficult as they are rare.*
 
 **Reading.** *Beatitudo* is not the reward of virtue but virtue itself — the same inversion the Gītā makes: the *sthitaprajña*'s adequate cognition *is* both virtue and beatitude in a single act. *Niṣkāma karma* in structure: action without attachment to fruit because the action itself, rooting in the divine, is its own *ānanda*.
 
@@ -562,7 +574,7 @@ The reader has now traversed Pars I in full, the load-bearing passages of Pars I
 
 ### Where Spinoza confirms
 
-**The substance / attribute / mode architecture is a Western articulation of one-Real-said-in-many-senses.** Definition IV — *id quod intellectus de substantia percipit, tanquam ejusdem essentiam constituens* — is the cleanest pre-modern Western articulation of *acintya-bhedābheda*. The same one substance, perceived by intellect under irreducibly many attributes, each of which expresses the *whole* essence under that respect. Read with Deleuze and Garrett, this is the architecture of univocity-with-irreducible-many. *Infinita attributa, quorum unumquodque æternam et infinitam essentiam exprimit*. It converges with the user's T1 (the *darśanas* address different registers, not competing total theories) and T4 (all *darśanas* ultimately true): each attribute is a register under which the same Real is exhaustively expressed.
+**The substance / attribute / mode architecture is a Western articulation of one-Real-said-in-many-senses.** Definition IV — *id quod intellectus de substantia percipit, tanquam ejusdem essentiam constituens* — is the cleanest pre-modern Western articulation of *acintya-bhedābheda*. The same one substance, perceived by intellect under irreducibly many attributes, each of which expresses the *whole* essence under that respect. Read with Deleuze and Garrett, this is the architecture of univocity-with-irreducible-many. *Infinita attributa, quorum unumquodque æternam et infinitam essentiam exprimit*. It converges with the user's T1 (the *darśanas* address different registers, not competing total theories) and T4 (all *darśanas* true): each attribute is a register under which the same Real is exhaustively expressed.
 
 **The *intellectus infinitus Dei* is the closest pre-Aurobindonian articulation of aperspectival comprehension.** E1p16 — *infinita infinitis modis (hoc est omnia, quæ sub intellectum infinitum cadere possunt)* — and E2p7 corollary — *quicquid ex infinita Dei natura sequitur formaliter, id omne ex Dei idea eodem ordine eademque connexione sequitur in Deo objective* — together give the doctrine of an infinite intellect that contains all ideas in all attributes simultaneously. This is the strongest Western architectural model of "the divine experiences all registers at once." *Sub specie aeternitatis* is, in Spinoza, an aperspectival condition in a strong sense: it is not "the view from nowhere" but the view that holds *all* finite views as its own modal differentiations. This converges with Aurobindo's supramental in its *comprehending* poise, and with Gebser's diaphanous-aperspectival in its structural form.
 

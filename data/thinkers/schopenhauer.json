@@ -23,5 +23,118 @@
     }
   ],
   "entry_status": "stub-from-backlog",
-  "core_thesis": "Schopenhauer distinguishes the world as representation from the world as will, the blind striving disclosed immediately in embodiment ([World as Will and Representation I §1](cite://schopenhauer/the-world-as-will-and-representation/1.1); [I §18](cite://schopenhauer/the-world-as-will-and-representation/1.18)). Since individuation belongs to representation, plurality is phenomenal, not ultimate ([I §23](cite://schopenhauer/the-world-as-will-and-representation/1.23)). Ethics begins in compassion, and liberation is sought in ascetic denial of willing ([I §66](cite://schopenhauer/the-world-as-will-and-representation/1.66); [I §68](cite://schopenhauer/the-world-as-will-and-representation/1.68))."
+  "core_thesis": "Schopenhauer distinguishes the world as representation from the world as will, the blind striving disclosed immediately in embodiment ([World as Will and Representation I §1](cite://schopenhauer/the-world-as-will-and-representation/1.1); [I §18](cite://schopenhauer/the-world-as-will-and-representation/1.18)). Since individuation belongs to representation, plurality is phenomenal, not ultimate ([I §23](cite://schopenhauer/the-world-as-will-and-representation/1.23)). Ethics begins in compassion, and liberation is sought in ascetic denial of willing ([I §66](cite://schopenhauer/the-world-as-will-and-representation/1.66); [I §68](cite://schopenhauer/the-world-as-will-and-representation/1.68)).",
+  "primitive_commitments": [
+    {
+      "primitive": "affective_motive_force",
+      "value": "desire-and-drive",
+      "register": "phenomenological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/schopenhauer.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://schopenhauer/the-world-as-will-and-representation/1.1",
+            "cite://schopenhauer/the-world-as-will-and-representation/1.18",
+            "cite://schopenhauer/the-world-as-will-and-representation/1.23",
+            "cite://schopenhauer/the-world-as-will-and-representation/1.66"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "identity_relation",
+      "value": "self-expression-or-appearance",
+      "register": "metaphysical",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/schopenhauer.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://schopenhauer/the-world-as-will-and-representation/1.1",
+            "cite://schopenhauer/the-world-as-will-and-representation/1.18",
+            "cite://schopenhauer/the-world-as-will-and-representation/1.23",
+            "cite://schopenhauer/the-world-as-will-and-representation/1.66"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "conventionally-real-without-own-being",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/schopenhauer.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://schopenhauer/the-world-as-will-and-representation/1.1",
+            "cite://schopenhauer/the-world-as-will-and-representation/1.18",
+            "cite://schopenhauer/the-world-as-will-and-representation/1.23",
+            "cite://schopenhauer/the-world-as-will-and-representation/1.66"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "method_of_critique",
+      "value": "mixed-or-layered",
+      "register": "methodological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/schopenhauer.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://schopenhauer/the-world-as-will-and-representation/1.1",
+            "cite://schopenhauer/the-world-as-will-and-representation/1.18",
+            "cite://schopenhauer/the-world-as-will-and-representation/1.23",
+            "cite://schopenhauer/the-world-as-will-and-representation/1.66"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "isolation-or-discriminative-release",
+      "register": "soteriological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/schopenhauer.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://schopenhauer/the-world-as-will-and-representation/1.1",
+            "cite://schopenhauer/the-world-as-will-and-representation/1.18",
+            "cite://schopenhauer/the-world-as-will-and-representation/1.23",
+            "cite://schopenhauer/the-world-as-will-and-representation/1.66"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

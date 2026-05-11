@@ -51,5 +51,162 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "causation_model",
+      "value": "real-transformation",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/gaudapada-samkhya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://isvara-krsna/samkhya-karika/1",
+            "cite://isvara-krsna/samkhya-karika/9",
+            "cite://isvara-krsna/samkhya-karika/14-16",
+            "cite://isvara-krsna/samkhya-karika/12-13"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "real-transformation",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/gaudapada-samkhya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://isvara-krsna/samkhya-karika/1",
+            "cite://isvara-krsna/samkhya-karika/9",
+            "cite://isvara-krsna/samkhya-karika/14-16",
+            "cite://isvara-krsna/samkhya-karika/12-13"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "knowledge-discipline",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/gaudapada-samkhya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://isvara-krsna/samkhya-karika/1",
+            "cite://isvara-krsna/samkhya-karika/9",
+            "cite://isvara-krsna/samkhya-karika/14-16",
+            "cite://isvara-krsna/samkhya-karika/12-13"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "selfhood_structure",
+      "value": "substantial-self",
+      "register": "phenomenological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/gaudapada-samkhya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://isvara-krsna/samkhya-karika/1",
+            "cite://isvara-krsna/samkhya-karika/9",
+            "cite://isvara-krsna/samkhya-karika/14-16",
+            "cite://isvara-krsna/samkhya-karika/12-13"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "isolation-or-discriminative-release",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/gaudapada-samkhya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://isvara-krsna/samkhya-karika/1",
+            "cite://isvara-krsna/samkhya-karika/9",
+            "cite://isvara-krsna/samkhya-karika/14-16",
+            "cite://isvara-krsna/samkhya-karika/12-13"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "many-coordinate-reals",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/gaudapada-samkhya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://isvara-krsna/samkhya-karika/1",
+            "cite://isvara-krsna/samkhya-karika/9",
+            "cite://isvara-krsna/samkhya-karika/14-16",
+            "cite://isvara-krsna/samkhya-karika/12-13"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "temporal_mode",
+      "value": "substance-primary",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/gaudapada-samkhya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://isvara-krsna/samkhya-karika/1",
+            "cite://isvara-krsna/samkhya-karika/9",
+            "cite://isvara-krsna/samkhya-karika/14-16",
+            "cite://isvara-krsna/samkhya-karika/12-13"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

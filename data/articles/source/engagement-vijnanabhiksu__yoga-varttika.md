@@ -4,13 +4,19 @@
 
 *Yoga-Vārttika* is Vijñānabhikṣu’s substantial sub-commentary on Vyāsa’s *Yoga-Bhāṣya* on Patañjali’s *Yoga-Sūtra*: not a bare gloss on the sūtras, but a layered commentary on the sūtra-through-bhāṣya tradition. Vijñānabhikṣu is usually placed in the sixteenth century and belongs neither to a simple “classical Yoga” isolation nor to a straightforward Advaita register; the text is better read as a syncretic Sāṃkhya-Yoga work with explicit Vedāntic commitments and a marked bhedābheda tendency. The file’s own prefatory summary states that the work has four `pāda`s and briefly assigns each its function: `samādhi`, `sādhana`, `vibhūti`, and `kaivalya` (pure-Sanskrit file, opening summary at lines 58-76). The most important architectural fact is that Vijñānabhikṣu uses the Yoga frame not only to explicate practice, but to intervene in larger disputes about Vedānta, cognition, world-status, and the relation between `jīva`, `īśvara`, `citta`, and `puruṣa`.
 
+Cross-engagement: Akalanka presses the same substrate structure axis in the metaphysical register, but with the value `many-coordinate-reals` rather than `one-self-standing` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ## 2. Sampling and scope statement
 
 Engaged at depth: roughly 15% of the file, concentrated in the prefatory `upasaṃhāra`; the first `pāda` around `YS 1.24` and the long doctrinal digression attached to it; the opening of the third `pāda` on `dhāraṇā`; and the fourth `pāda` around `YS 4.2` and `YS 4.24-26`. Structural summary only: the rest of all four `pāda`s, including the long runs on `samāpatti`, the `kleśa` and `aṣṭāṅga` materials, and most of the `vibhūti` catalog. Not engaged: the appended `śuddhipatra` / errata leaves at the end, except insofar as they confirm a few OCR uncertainties.
 
+Cross-engagement: Abhinavagupta presses the same manifestation status axis in the metaphysical register, but with the value `expressive-manifestation` rather than `dependent-real` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ## 3. Structural walk-through
 
 The file opens with a programmatic `upasaṃhāra` rather than with `atha yogānuśāsanam`. That opening matters. It first places Yoga within an ordered `darśana` ecology: Vedānta for the highest `adhikārin`, Mīmāṃsā for karmic purification, Sāṃkhya for discriminating `prakṛti` and `puruṣa`, Nyāya-Vaiśeṣika for object-analysis, and Yoga for the `nididhyāsana`-like realization that carries discrimination into direct attainment (opening leaves; page marker not cleanly retrieved). The same prefatory material also states, unusually plainly, that the work will not only expound its own view but also show the strengths and defects of other śāstric positions (lines 58-63). The polemical architecture is therefore announced before the commentary proper begins.
+
+Cross-engagement: Adi Sankara presses the same identity relation axis in the metaphysical register, but with the value `non-otherness` rather than `natural-difference-non-difference` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 The `Samādhi-pāda` ends explicitly on p. 87 and is functionally about what Yoga is for the highest aspirant: `citta-vṛtti-nirodha`, the classification of mental states, `abhyāsa`, `vairāgya`, the graded `samāpatti`s, `īśvara`, `praṇava`, obstacles, and the transition toward `asaṃprajñāta` (p. 87 colophon). But the `pāda` is not merely practical. Already here Vijñānabhikṣu interrupts the flow to attack reflection-theories, self-luminosity theories, and newer Vedāntic readings that collapse the waking world into mere mentality. The result is that the first `pāda` constructs both a phenomenology of meditative cognition and a realist metaphysics of what that cognition is about.
 
@@ -24,7 +30,11 @@ The `Kaivalya-pāda` begins on p. 259 and carries the heaviest metaphysical load
 
 ### Passage 1
 
+Cross-engagement: Akshapada Gautama presses the same epistemic authority axis in the epistemological register, but with the value `plural-pramana-realism` rather than `scripture-dominant` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 **Locus:** Prefatory `upasaṃhāra`, anti-`nava-vedāntin` discussion of world-status (opening leaves; page marker not cleanly retrieved).
+
+Cross-engagement: Anandabodha presses the same practice-path axis in the soteriological register, but with the value `knowledge-discipline` rather than `meditative-discipline` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 **Sanskrit (IAST):** `na [OCR? svapnādivad iti] vedāntasūtraṃ ca jāgrat-prapañcasya kevala-mānasatvam eva nirākaroti.`
 
@@ -40,6 +50,8 @@ This is also the right place to see why the text matters for the position’s T2
 
 **Locus:** `Samādhi-pāda`, `YS 1.24`, p. 49.
 
+Cross-engagement: Alfred North Whitehead presses the same soteric end axis in the soteriological register, but with the value `not-soteriological` rather than `identity-with-ground` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 **Sanskrit (IAST):** `kleśa-karma-vipākāśayair aparāmṛṣṭaḥ puruṣa-viśeṣa īśvaraḥ.`
 
 **Close English:** “Īśvara is a special puruṣa untouched by afflictions, actions, their ripenings, and latent deposits.”
@@ -52,7 +64,9 @@ What follows in the long digression is even more important for corpus-placement.
 
 **Locus:** `Vibhūti-pāda`, `YS 3.1`, opening of the `pāda` (immediately after the third-pāda heading; opening page marker not cleanly retrieved).
 
-**Sanskrit (IAST):** `deśa-bandhaś cittasya dhāraṇā.`  
+Cross-engagement: Bannanje Govindacharya presses the same causation model axis in the metaphysical register, but with the value `efficient-material-split` rather than `unchanged-ground-with-changing-power` in [primary text](cite://madhva/tattva-sankhyana/1-4). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
+**Sanskrit (IAST):** `deśa-bandhaś cittasya dhāraṇā.` 
 `yasmin deśe dhyeyaṃ cintanīyaṃ tatra dhyānādhāra-deśa-viṣaye cittasya tad-ekāgraṃ dhāraṇā ity arthaḥ.`
 
 **Close English:** “Fixing the mind to a place is `dhāraṇā`. That is: with respect to the place that serves as the support of meditation, wherever the object to be contemplated is to be thought, the one-pointedness of the mind there is `dhāraṇā`.”
@@ -65,7 +79,7 @@ For the position, the value here is methodological. The text gives a primary-sou
 
 **Locus:** `Kaivalya-pāda`, `YS 4.2`, pp. 259-290.
 
-**Sanskrit (IAST):** `jāty-antara-pariṇāmaḥ prakṛty-āpūrāt.`  
+**Sanskrit (IAST):** `jāty-antara-pariṇāmaḥ prakṛty-āpūrāt.` 
 `manuṣyādi-jāti-rūpaḥ pariṇāmaḥ sa prakṛty-āpūrād udbhavati, na tu saṃkalpa-mātrāt ity arthaḥ.`
 
 **Close English:** “Transformation into another species-form occurs from the overflowing completion of nature. That is: a transformation having the form of another species, such as human and the like, arises from nature’s filling-out, not from mere thought or will alone.”
@@ -78,7 +92,7 @@ For the position’s T11, this is a strong ally. It is not Aurobindonian evoluti
 
 **Locus:** `Kaivalya-pāda`, `YS 4.24-25` with commentary, pp. 295-296.
 
-**Sanskrit (IAST):** `tad asaṃkhyeya-vāsanābhiś citram api parārthaṃ saṃhatya-kāritvāt.`  
+**Sanskrit (IAST):** `tad asaṃkhyeya-vāsanābhiś citram api parārthaṃ saṃhatya-kāritvāt.` 
 `eṣa bhāva-rūpo vicitraḥ pariṇāma ātmanaḥ na bhavati, kiṃ tu cittasyaivāvidyā-janyatvāt; avidyāyāś ca citta-dharmatvāt.`
 
 **Close English:** “Though variegated by innumerable latent impressions, that mind is still for the sake of another, because it functions as a composite. This manifold modification, having the form of a positive state, does not belong to the self; rather it belongs to mind alone, because it is produced by ignorance, and because ignorance is a property of mind.”

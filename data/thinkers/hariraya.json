@@ -68,5 +68,176 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-intra-school-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "affective_motive_force",
+      "value": "devotion",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/hariraya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://hariraya/shiksha-patra/1-41",
+            "cite://hariraya/shiksha-patra/22-35",
+            "cite://hariraya/shiksha-patra/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "causation_model",
+      "value": "real-transformation",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/hariraya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://hariraya/shiksha-patra/1-41",
+            "cite://hariraya/shiksha-patra/22-35",
+            "cite://hariraya/shiksha-patra/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "epistemic_authority",
+      "value": "scripture-dominant",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/hariraya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://hariraya/shiksha-patra/1-41",
+            "cite://hariraya/shiksha-patra/22-35",
+            "cite://hariraya/shiksha-patra/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "identity_relation",
+      "value": "self-expression-or-appearance",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/hariraya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://hariraya/shiksha-patra/1-41",
+            "cite://hariraya/shiksha-patra/22-35",
+            "cite://hariraya/shiksha-patra/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "real-transformation",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/hariraya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://hariraya/shiksha-patra/1-41",
+            "cite://hariraya/shiksha-patra/22-35",
+            "cite://hariraya/shiksha-patra/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "devotion-and-grace",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/hariraya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://hariraya/shiksha-patra/1-41",
+            "cite://hariraya/shiksha-patra/22-35",
+            "cite://hariraya/shiksha-patra/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "loving-participation",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/hariraya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://hariraya/shiksha-patra/1-41",
+            "cite://hariraya/shiksha-patra/22-35",
+            "cite://hariraya/shiksha-patra/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "one-self-standing",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/hariraya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://hariraya/shiksha-patra/1-41",
+            "cite://hariraya/shiksha-patra/22-35",
+            "cite://hariraya/shiksha-patra/1"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

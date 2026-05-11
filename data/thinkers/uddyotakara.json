@@ -65,5 +65,206 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "epistemic_authority",
+      "value": "plural-pramana-realism",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/uddyotakara.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://dignaga/pramana-samuccaya/2.1-8",
+            "cite://dignaga/pramana-samuccaya/5.1-11",
+            "cite://sureshvara/naishkarmya-siddhi/2.2.66",
+            "cite://sureshvara/naishkarmya-siddhi/2.1.49-68"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "self-standing-real",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/uddyotakara.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://dignaga/pramana-samuccaya/2.1-8",
+            "cite://dignaga/pramana-samuccaya/5.1-11",
+            "cite://sureshvara/naishkarmya-siddhi/2.2.66",
+            "cite://sureshvara/naishkarmya-siddhi/2.1.49-68"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "method_of_critique",
+      "value": "formal-proof-or-inference",
+      "register": "methodological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/uddyotakara.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://dignaga/pramana-samuccaya/2.1-8",
+            "cite://dignaga/pramana-samuccaya/5.1-11",
+            "cite://sureshvara/naishkarmya-siddhi/2.2.66",
+            "cite://sureshvara/naishkarmya-siddhi/2.1.49-68"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "modal_structure_of_truth",
+      "value": "single-absolute-truth",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/uddyotakara.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://dignaga/pramana-samuccaya/2.1-8",
+            "cite://dignaga/pramana-samuccaya/5.1-11",
+            "cite://sureshvara/naishkarmya-siddhi/2.2.66",
+            "cite://sureshvara/naishkarmya-siddhi/2.1.49-68"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "knowledge-discipline",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/uddyotakara.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://dignaga/pramana-samuccaya/2.1-8",
+            "cite://dignaga/pramana-samuccaya/5.1-11",
+            "cite://sureshvara/naishkarmya-siddhi/2.2.66",
+            "cite://sureshvara/naishkarmya-siddhi/2.1.49-68"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "selfhood_structure",
+      "value": "substantial-self",
+      "register": "phenomenological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/uddyotakara.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://dignaga/pramana-samuccaya/2.1-8",
+            "cite://dignaga/pramana-samuccaya/5.1-11",
+            "cite://sureshvara/naishkarmya-siddhi/2.2.66",
+            "cite://sureshvara/naishkarmya-siddhi/2.1.49-68"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "semantic_mediation",
+      "value": "language-tracks-reality",
+      "register": "semantic-linguistic",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/uddyotakara.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://dignaga/pramana-samuccaya/2.1-8",
+            "cite://dignaga/pramana-samuccaya/5.1-11",
+            "cite://sureshvara/naishkarmya-siddhi/2.2.66",
+            "cite://sureshvara/naishkarmya-siddhi/2.1.49-68"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "isolation-or-discriminative-release",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/uddyotakara.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://dignaga/pramana-samuccaya/2.1-8",
+            "cite://dignaga/pramana-samuccaya/5.1-11",
+            "cite://sureshvara/naishkarmya-siddhi/2.2.66",
+            "cite://sureshvara/naishkarmya-siddhi/2.1.49-68"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "many-coordinate-reals",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/uddyotakara.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://dignaga/pramana-samuccaya/2.1-8",
+            "cite://dignaga/pramana-samuccaya/5.1-11",
+            "cite://sureshvara/naishkarmya-siddhi/2.2.66",
+            "cite://sureshvara/naishkarmya-siddhi/2.1.49-68"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

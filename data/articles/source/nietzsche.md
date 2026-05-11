@@ -8,7 +8,11 @@
 
 ### Why Nietzsche and why now
 
+Cross-engagement: Abhinavagupta presses the same selfhood structure axis in the phenomenological register, but with the value `relational-self` rather than `no-enduring-self` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Friedrich Nietzsche (1844–1900) is, for the user's thesis, the indispensable Western diagnostician, the philosopher who identified the structural failures of post-Platonic metaphysics and yet remained inside the horizon whose closure he was diagnosing. He performed the most thorough Western critique of the "view from nowhere"; he showed that the grammatical subject is a fiction back-projected from language and moral demand; he articulated, in *Geburt der Tragödie*, a phenomenology of dissolution in the *Ur-Eine* under the *Schleier der Māyā* that comes closer to a *līlā* ontology than any other Western text before Aurobindo. And he refused to fill the cleared space with anything other than a "philosophy of the future" whose central figure is the legislator-philosopher, a refusal that is the precise point of structural divergence: where Nietzsche reads the dissolution of the metaphysical subject as licensing imperious value-creation, the thesis reads the same dissolution as licensing total surrender from fullness, *niṣkāma karma* without ego-arrogation.
+
+Cross-engagement: Adi Sankara presses the same finite cognition axis in the epistemological register, but with the value `adhyasa-or-superimposition` rather than `perspectival-interpretation` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 This document is a reader's instrument: faithful English translations, selective retention of indispensable German terms inline, and explication clarifying both what Nietzsche says and where his text stands relative to the thesis's commitments.
 
@@ -16,11 +20,15 @@ This document is a reader's instrument: faithful English translations, selective
 
 Nietzsche's published life-work runs 1872–1888, Nachlass to the Turin collapse of 3 January 1889. The 1872 *Geburt der Tragödie* answers Schopenhauer-Wagnerianly: tragedy provides *metaphysischer Trost*. The middle works (*Menschliches* 1878–80, *Morgenröthe* 1881, *Fröhliche Wissenschaft* 1882–87) shed the apparatus and install positivist-genealogical hygiene. The mature works (*Zarathustra* 1883–85, *Jenseits* 1886, *Genealogie* 1887, *Götzen-Dämmerung* and *Antichrist* and *Ecce Homo* 1888) build the late doctrines: *Wille zur Macht*, *ewige Wiederkunft*, *Übermensch*, *Umwerthung aller Werthe*.
 
+Cross-engagement: Akalanka presses the same epistemic authority axis in the epistemological register, but with the value `plural-pramana-realism` rather than `genealogical-critique` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 For the thesis, the most useful early Nietzsche is the most metaphysically committed, the 1872 text whose Schopenhauerian scaffolding he later disowned. *Geburt der Tragödie* §1, §16/§17, §24 articulates the closest pre-Aurobindonian Western statement of *līlā* ontology. The mature Nietzsche keeps the phenomenology of dissolution and the will-to-power dynamism but loses the *Ānanda*-character of the *Ur-Eine*. The thesis can recover the early ontology, retain the late phenomenology, and complete what Nietzsche did not, articulating with Aurobindo the *Saccidānanda* ground that the *Ur-Eine* pointed toward but could not sustain.
 
 ### The *Wille zur Macht* caveat (read first; restated in Part VI)
 
 *Der Wille zur Macht* (1901, expanded 1906) is a posthumous editorial fiction by Elisabeth Förster-Nietzsche and Peter Gast, drawn from notebooks 1883–1888 according to a plan Nietzsche abandoned. The *Kritische Studienausgabe* (KSA), Colli/Montinari, 1980 (rev. 1988), publishes the Nachlass in original notebook order; Montinari's *Nietzsche lesen* (1982) demonstrates the WzM arrangement is editorial fiction. **Citation discipline:** always KSA volume + notebook + fragment, *KSA 12, 7[60]*, never "*WzM §481*"; cross-reference WzM only when engaging Heidegger.
+
+Cross-engagement: Judith Butler works the same method axis in the historical-genealogical register. Here the operative value is `genealogy`; Judith Butler lands on that same value in [primary text](cite://butler/gender-trouble/3). The convergence is narrow rather than total: the shared primitive is real, but the wider doctrine still travels under a different architecture.
 
 ### Untranslated terms — glossary
 
@@ -34,15 +42,21 @@ For the thesis, the most useful early Nietzsche is the most metaphysically commi
 - ***Apollinisch / Dionysisch***. The two *Kunsttriebe* of *Geburt der Tragödie*, individuation and dissolution.
 - ***Ur-Eine***. "Primordial-One." Schopenhauer's *Wille* renamed under *principium individuationis*. The closest Nietzsche comes to *Saccidānanda* in its *Ānandamaya* aspect.
 
+Cross-engagement: Baladeva Vidyabhushana presses the same perspectivism axis in the epistemological register, but with the value `partial-perspectives-ranked` rather than `perspectives-as-symptoms` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ### How to use this document
 
 Structured by text, not theme. Each Part works through structurally decisive passages with German verbatim, English, and explication. Part VII gives compressed reading notes, where Nietzsche confirms, where he challenges, the bilateral-vs-tripartite asymmetry, and a recommended reading sequence by KSA citation. The bias is toward depth in the German: where Kaufmann, Hollingdale, or Del Caro smooth philosophically load-bearing terms, this document foregrounds the original.
+
+Cross-engagement: Ananda K. Coomaraswamy touches the same motive force axis, but not in the same register. This section works it as `will-to-power` in the ethical register; Ananda K. Coomaraswamy approaches it through the aesthetic register in [primary text](cite://coomaraswamy/the-transformation-of-nature-in-art/1). The point of contact is genuine, but the comparison only holds once the register-shift is kept visible.
 
 ---
 
 ## Part I — *Die Geburt der Tragödie* (1872; reissued 1886)
 
 *KSA 1, 9–156. English: Kaufmann (Vintage, 1967); Golffing (Doubleday, 1956). Citations by GT § and KSA page.*
+
+Cross-engagement: Akshapada Gautama presses the same soteric end axis in the soteriological register, but with the value `isolation-or-discriminative-release` rather than `not-soteriological` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 *Geburt der Tragödie* is Nietzsche's first major work and, for the thesis, the most useful, though he later distanced himself from its Schopenhauerian apparatus. The early Nietzsche, with the most metaphysical scaffolding, articulates the position closest to the thesis's ontology; the mature Nietzsche, having shed it, keeps the phenomenology but loses the ontological completion. This Part works through §1 (the *Kunsttriebe*; *Schleier der Māyā*), §16/§17 (Schopenhauer's music-metaphysics; *Ur-Eine*; *metaphysischer Trost*), §24 (*künstlerisches Spiel des Willens mit sich selbst*, closest Western articulation of *līlā* prior to Aurobindo), and the 1886 *Versuch einer Selbstkritik*.
 
@@ -51,8 +65,6 @@ Structured by text, not theme. Each Part works through structurally decisive pas
 **KSA 1, 25–30.**
 
 §1 announces the architectural thesis: art-development is bound to the duality of the Apollinian and Dionysian *Kunsttriebe*, whose periodic reconciliation engenders tragedy.
-
-
 
 *KSA 1, 25 (GT §1; orthography per Colli/Montinari)*
 
@@ -66,8 +78,6 @@ Structured by text, not theme. Each Part works through structurally decisive pas
 
 The opening does three things. (a) It announces a *dualism of drives*, not of substances, not two worlds like Plato's, but two modes of artistic production. (b) It refuses logical insight alone: phenomenological recognition is required. (c) The relation between the drives is *Kampf and Versöhnung*, periodic strife and reconciliation, never Hegelian *Aufhebung*. Tragedy holds the tension without dissolving difference; structurally this is closer to Caitanya's *acintya-bhedābheda* than to Hegel.
 
-
-
 *KSA 1, 25–26 (GT §1)*
 
 #### English
@@ -77,8 +87,6 @@ The opening does three things. (a) It announces a *dualism of drives*, not of su
 #### Explication
 
 Greek philosophical-aesthetic insight is figural, not propositional. The gods are not symbols *of* concepts; they *are* the concepts in their proper mode. For the thesis, this is structurally homologous to its position on divine forms, *real powers and modalities of the divine*, the way the structure of reality figures itself forth in human apprehension. The "metaphysical miracle-act" is the moment when structural opposition produces, through its tension, a higher form, structurally similar to Aurobindo's supramental descent: lower planes are not abolished but brought into a new poising.
-
-
 
 *KSA 1, 26–27 (GT §1)*
 
@@ -92,13 +100,11 @@ The Apollinian is the dream-mode. *Schöner Schein* is appearance-considered-as-
 
 For the thesis, the Apollinian as *principium individuationis* is structurally T7 (divine play through willful self-ignorance): *māyā* as a positive ontological function, the divine's self-differentiation into individual forms, *bhāvarūpa avidyā* in aesthetic vocabulary. The early Nietzsche holds the symmetry of the two drives; the mature Nietzsche tends to read the Apollinian as the Dionysian's self-representation. The thesis is closer to the early position.
 
-
-
 *KSA 1, 29–30 (GT §1; Nietzsche's spelling: "Maja", not "Māyā", Schopenhauerian transliteration)*
 
 #### English
 
-> "Under the spell of the Dionysian, not only is the bond between human and human sealed again: also estranged, hostile or subjugated nature celebrates its reconciliation festival again with its lost son, the human being. Freely the earth proffers her gifts, and peacefully the predators of the rocks and desert draw near. The chariot of Dionysus is heaped with flowers and wreaths: panthers and tigers walk under his yoke. Transform Beethoven's jubilee hymn to 'Joy' into a painting, and do not restrain your imagination when the millions sink shuddering into the dust: thus can one approach the Dionysian. Now the slave is a free man, now all the rigid, hostile demarcations that necessity, caprice or 'impudent fashion' have established between human beings are shattered. Now, in the gospel of universal harmony, everyone feels himself not only united, reconciled, merged with his neighbor, but *one*, as if the *Schleier der Māyā* had been torn and now fluttered only in rags before the mysterious primordial-One [*Ur-Einen*]."
+> "Under the spell of the Dionysian, not only is the bond between human and human sealed again: also estranged, hostile or subjugated nature celebrates its reconciliation festival again with its lost son, the human being. Freely the earth proffers her gifts, and peacefully the predators of the rocks and desert draw near. The chariot of Dionysus is heaped with flowers and wreaths: panthers and tigers walk under his yoke. Transform Beethoven's jubilee hymn to 'Joy' into a painting, and do not restrain your imagination when the millions sink shuddering into the dust: so can one approach the Dionysian. Now the slave is a free man, now all the rigid, hostile demarcations that necessity, caprice or 'impudent fashion' have established between human beings are shattered. Now, in the gospel of universal harmony, everyone feels himself not only united, reconciled, merged with his neighbor, but *one*, as if the *Schleier der Māyā* had been torn and now fluttered only in rags before the mysterious primordial-One [*Ur-Einen*]."
 
 **Translation note.** *Ur-Einen* must not be smoothed away; Kaufmann's "Primordial Unity" is acceptable but weaker than "primordial-One." Nietzsche writes *Maja* (Schopenhauerian transliteration). Schopenhauer uses the term as exact synonym for *principium individuationis*, i.e., for what Nietzsche has just called the Apollinian.
 
@@ -122,11 +128,7 @@ The most important asymmetry is bilateral-vs-tripartite: GT operates with two dr
 
 §16 makes the Schopenhauerian metaphysics explicit: music alone among the arts bypasses the *principium individuationis* and gives the Will directly. Music is Dionysian art *par excellence*.
 
-
-
 *KSA 1, 103–104 (GT §16)*
-
-
 
 *KSA 1, 108 (GT §16)*
 
@@ -150,15 +152,11 @@ The 1886 *Versuch* repudiates the Schopenhauerian *frame* (Will vs. Vorstellung,
 
 §24 is the conceptual culmination of *Geburt der Tragödie*: even the ugly and disharmonious are a *künstlerisches Spiel* that the Will plays with itself in the eternal fullness of its joy, the closest pre-Aurobindonian Western articulation of *līlā*.
 
-
-
 *KSA 1, 152 (GT §24)*
-
 
 *KSA 1, 152 (GT §24)*
 
 #### Companion passage from §17 (the earlier articulation of the *metaphysischer Trost*)
-
 
 *KSA 1, 109 (GT §17)*
 
@@ -200,7 +198,6 @@ The 1886 preface repudiates the Schopenhauerian metaphysics (Ur-Eine as thing-in
 
 #### Key passage
 
-
 *KSA 1, 14 (Versuch §2)*
 
 > "What I then wanted to see 'with the eye of an artist': science under the optic of the artist, but art under the optic of *life*."
@@ -219,11 +216,7 @@ This is the methodological statement of mature Nietzsche. Life > art > science: 
 
 **KSA 5, 11–18.**
 
-
-
 *KSA 5, 11 (Vorrede §1)*
-
-
 
 *KSA 5, 18 (Erstes Hauptstück §4)*
 
@@ -245,13 +238,11 @@ This is the methodological statement of mature Nietzsche. Life > art > science: 
 
 **KSA 5, 19–20.**
 
-
-
 *KSA 5, 19–20 (§6)*
 
 #### English
 
-> "Gradually it has become clear to me what every great philosophy so far has been: namely, the personal confession of its author and a kind of involuntary and imperceptible *mémoires*; equally, that the moral (or immoral) intentions in every philosophy constituted the real germ from which the whole plant has always grown. Indeed one does well (and wisely), to explain how a philosopher's most remote metaphysical claims actually came about, always to ask first: what morality does it (does *he* —) aim at? I do not therefore believe that a 'drive to knowledge' is the father of philosophy, but rather that another drive has, here as elsewhere, employed knowledge (and *Verkenntniss*, misknowing!) only as a tool. Whoever examines the basic drives of the human in order to discover how far they may have played their inspiring game precisely here as inspiring geniuses (or daemons and kobolds —) will find that all of them have at some point practiced philosophy, and that each one of them would very much like to represent itself as the ultimate purpose of existence and as the legitimate lord of all the other drives. For every drive is domineering [*herrschsüchtig*]: and as such it attempts to philosophize."
+> "Gradually it has become clear to me what every great philosophy so far has been: namely, the personal confession of its author and a kind of involuntary and imperceptible *mémoires*; equally, that the moral (or immoral) intentions in every philosophy constituted the real germ from which the whole plant has always grown. one does well (and wisely), to explain how a philosopher's most remote metaphysical claims actually came about, always to ask first: what morality does it (does *he* —) aim at? I do not therefore believe that a 'drive to knowledge' is the father of philosophy, but rather that another drive has, here as elsewhere, employed knowledge (and *Verkenntniss*, misknowing!) only as a tool. Whoever examines the basic drives of the human in order to discover how far they may have played their inspiring game precisely here as inspiring geniuses (or daemons and kobolds —) will find that all of them have at some point practiced philosophy, and that each one of them would very much like to represent itself as the ultimate purpose of existence and as the legitimate lord of all the other drives. For every drive is domineering [*herrschsüchtig*]: and as such it attempts to philosophize."
 
 **Translation note.** *Verkenntniss*, Hollingdale's "misconception" is too weak; the active character of *knowing-otherwise* must be preserved. The drive uses both *Erkenntniss* and *Verkenntniss* as tools. *Herrschsüchtig*, *Sucht* is addiction; the drive is *addicted* to dominance.
 
@@ -267,11 +258,7 @@ For the thesis, §6 is the structural form of the anti-Hegel polemic: Hegel's *L
 
 §16 attacks "immediate certainty" as *contradictio in adjecto* and dissects the assumptions hidden in "I think." §17 supplies *es denkt* and shows even the *es* is too much.
 
-
-
 *KSA 5, 29–30 (§16)*
-
-
 
 *KSA 5, 30–31 (§17)*
 
@@ -293,8 +280,6 @@ What §16 lacks is the positive remainder. Nietzsche dissolves the ego *downward
 
 **KSA 5, 36–38.**
 
-
-
 *KSA 5, 37 (§22)*
 
 #### English
@@ -315,16 +300,13 @@ For the thesis, §22 aligns with no-super-perspective and precludes scientism. T
 
 §211 is the structural divergence point. Nietzsche here specifies the figure of "the philosopher of the future", and the specification is *imperatival*, *legislative*, *creative-by-fiat*. The thesis's *vijñāna* state, by contrast, is *surrender from fullness*, *niṣkāma karma*, *witnessing without arrogation*. These are structurally opposed.
 
-
-
-
 *KSA 5, 144–146 (§211)*
 
 #### English
 
 > "I insist that one finally cease confusing philosophical workers and scientific people in general with philosophers, that one give precisely here 'to each his own', and not too much to the former, not too little to the latter. [...] Those philosophical workers, after the noble model of Kant and Hegel, have to establish some great fact of valuation, that is, of former value-positings, value-creations that became dominant and for a time were called 'truths', and press them into formulas [...]"
 
-> "But the genuine philosophers are *commanders and legislators*: they say 'thus it *shall be*!'; they first determine the Whither and the Why of the human, and have at their disposal the preliminary labor of all philosophical workers, of all those who have overpowered the past, they reach with creative hand toward the future, and everything that is and was becomes for them a means, an instrument, a hammer. Their 'knowing' is *creating*, their creating is a legislation, their will to truth is, *Wille zur Macht*."
+> "But the genuine philosophers are *commanders and legislators*: they say 'so it *shall be*!'; they first determine the Whither and the Why of the human, and have at their disposal the preliminary labor of all philosophical workers, of all those who have overpowered the past, they reach with creative hand toward the future, and everything that is and was becomes for them a means, an instrument, a hammer. Their 'knowing' is *creating*, their creating is a legislation, their will to truth is, *Wille zur Macht*."
 
 #### Explication — the structural divergence
 
@@ -337,8 +319,6 @@ Two qualifications soften but do not abolish the divergence. **First**, Deleuze 
 ### §259 — Life is *Wille zur Macht*
 
 **KSA 5, 207–208.**
-
-
 
 *KSA 5, 207–208 (§259)*
 
@@ -368,8 +348,6 @@ The three treatises pursue genealogies of slave morality (I), bad conscience (II
 
 GM I culminates in §13's deconstruction of the moral subject, set up by the lambs and the birds of prey: the moral demand requires the fiction of a free subject behind the action.
 
-
-
 *KSA 5, 279 (GM I §13)*
 
 #### English
@@ -391,9 +369,6 @@ The lambs/birds figure makes two claims at once: (a) the doer is a fiction; (b) 
 **KSA 5, 313–315.**
 
 §12 is a methodological digression articulating the historical method behind the genealogical project: distinguish *origin* from *current function*; recognize that all becoming is interpretive force-imposition.
-
-
-
 
 *KSA 5, 313–314 (GM II §12)*
 
@@ -422,8 +397,6 @@ GM II.12 also challenges the thesis: if every interpretation is force-imposition
 **KSA 5, 364–365.**
 
 GM III.12 is the philosophically decisive perspectivism passage, appearing in the third treatise's argument that science, the modern will-to-truth, is itself a manifestation of the ascetic ideal. §12 turns this argument against the figure of the "pure, will-less, painless, timeless subject of knowledge" presupposed by Kantian transcendentalism and post-Kantian positivism. It is Nietzsche's most rigorous statement of his positive theory of objectivity.
-
-
 
 *KSA 5, 364–365 (GM III §12)*
 
@@ -463,7 +436,6 @@ For the thesis, Move 4 has a delicate application. Vedāntic *vairāgya* is not 
 
 GM III.24 is the diagnosis. The modern human is *exhausted*: not exhausted *by* truth but exhausted by a *reality* in which they no longer hear meaning. This is the structural exhaustion of the ascetic ideal in its scientific form.
 
-
 *KSA 5, 395–399 (GM III §24)*
 
 > "I show here at first only the most immediate consequence: the modern human is exhausted when he believes, in truth —; he is without force when he has 'known'., But here he deceives himself. He is not exhausted *in* truth: he is exhausted by a reality in which he no longer hears any meaning, in which he has ceased to be a member."
@@ -479,8 +451,6 @@ This maps onto McGilchrist's left-hemisphere usurpation: instrumental abstractio
 **KSA 5, 409–411.**
 
 The will-to-truth, engine of the ascetic ideal, turns against the ascetic ideal itself. The genealogical method is will-to-truth turned back on its own origin.
-
-
 
 *KSA 5, 409–411 (GM III §27)*
 
@@ -507,8 +477,6 @@ Structurally this is the same moment Aurobindo describes when the rational-menta
 ### "Die 'Vernunft' in der Philosophie" §5 — *wir werden Gott nicht los, weil wir noch an die Grammatik glauben*
 
 **KSA 6, 77–78.**
-
-
 
 *KSA 6, 77–78 (Götzen-Dämmerung, "Die 'Vernunft' in der Philosophie" §5)*
 
@@ -572,9 +540,6 @@ This Part takes the four passages in turn.
 
 Zarathustra's opening pedagogical speech describes three metamorphoses of the spirit. The camel is the spirit of *bearing*: it loads itself with the heaviest weights, the inherited values, the *Du-sollst* (Thou-shalt), the moral obligations, and bears them into the desert. The lion is the spirit of *negation*: in the desert, the camel becomes a lion who challenges the great dragon "*Du-sollst*" and asserts the *Ich-will* (I-will), the lion creates *freedom*, but cannot create *new values*. Only the child can create new values. The child is the spirit of *innocence*, *forgetting*, *new beginning*, the *aus sich rollendes Rad* (self-rolling wheel), the *heiliges Ja* (holy Yes-saying).
 
-
-
-
 *KSA 4, 29–31 (Z I, "Von den drei Verwandlungen")*
 
 #### English
@@ -596,9 +561,6 @@ But a structural divergence at the lion. Nietzsche's lion creates *freedom* by n
 **KSA 4, 197–202. Z III, "Vom Gesicht und Räthsel".**
 
 Part III is the philosophical core of *Zarathustra*. *Vom Gesicht und Räthsel* contains the first explicit articulation of the eternal return, in the form of a vision Zarathustra recounts to the sailors on board ship. The vision is the gateway *Augenblick*: two paths, one stretching back into eternity, one stretching forward into eternity, meet at a gateway named "*Augenblick*" (Moment). Zarathustra puts to the dwarf (the *Geist der Schwere*, the Spirit of Heaviness) the question: must not all things that can run, have already run this lane?
-
-
-
 
 *KSA 4, 198–200 (Z III, "Vom Gesicht und Räthsel")*
 
@@ -624,11 +586,7 @@ For the thesis, the Deleuzean reading is structurally compatible with Aurobindon
 
 The climactic confrontation with eternal return. Zarathustra summons the abyss-thought, confronts it, and is convalescing when his animals (eagle and serpent) recite the doctrine in simplified form.
 
-
-
 *KSA 4, 272–273 (Z III, "Der Genesende")*
-
-
 
 *KSA 4, 276 (Z III, "Der Genesende")*
 
@@ -674,8 +632,6 @@ Why use the Nachlass at all? Three reasons. (a) The philosophical content is gen
 
 This is the fragment most commonly misattributed to *Jenseits* §22. The §22 argument is more careful: physics gives interpretation, not text; and even this claim is interpretation (cf. Part II). The 7[60] fragment states the perspectivism thesis more starkly.
 
-
-
 *KSA 12, 315 (Fragment 7[60])*
 
 #### English
@@ -702,8 +658,6 @@ The Jain *anekāntavāda* parallel is structurally important: Jain philosophy ex
 
 **KSA 12, 351–352. Nachlass 1887. Cf. WzM §556.**
 
-
-
 *KSA 12, 351–352 (Fragment 9[35])*
 
 #### English
@@ -722,8 +676,6 @@ Aurobindo's distinction between *mental knowing* (which works by separation, sch
 
 **KSA 13, 374. Nachlass 1888. Cf. WzM §617.**
 
-
-
 *KSA 13, 374 (Fragment 14[152])* **[VERIFY KSA location.]**
 
 #### English
@@ -739,8 +691,6 @@ The eternal return is Nietzsche's cosmological formulation: recurrence stamps be
 ### KSA 13, 14[184] — Second version of *Tatsachen gibt es nicht*
 
 **KSA 13, 360–361. Nachlass 1888. Cf. WzM §715.**
-
-
 
 *KSA 13, 360 (Fragment 14[184])*
 
@@ -855,7 +805,4 @@ This document stops short of the cross-Nietzsche-to-Aurobindo synthesis; the syn
 ---
 
 *File prepared 2026 for the user's reader project; replaces the earlier `02_nietzsche.md`. German passages should be verified against KSA (Colli/Montinari) before publication-grade citation. The editorial caveat on *Der Wille zur Macht* applies to every fragment cited from KSA 12 / KSA 13 / the Nachlass; cite by KSA notebook + fragment number, not by WzM section number.*
-
-
-
 

@@ -8,9 +8,13 @@
 
 McGilchrist is a psychiatrist and literary scholar whose work joins clinical neuroscience to large-scale metaphysical history. *The Master and His Emissary* gives the hemispheric thesis and the Greek-to-postmodern cultural arc; *The Matter with Things* expands the empirical case in Vol I ("The Hemispheres and the Means to Truth") and develops the constructive metaphysics in Vol II ("The Unforeseen Nature of Reality").
 
+Cross-engagement: Alfred North Whitehead presses the same temporal mode axis in the metaphysical register, but with the value `process-primary` rather than `both-orthogonal` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ### The arc
 
 McGilchrist's central claim is structural. The two hemispheres are not equivalent processors dividing labor. They are two fundamentally different *ways of attending* — and through attending, of bringing a world into being. The left attends narrowly, focally, instrumentally, abstracting parts from wholes and operating on already-known representations. The right attends broadly, contextually, vigilantly, taking the whole as primary, open to whatever is novel, embodied, ambiguous, or implicit. The right *presents* the world; the left *re-presents* it. Both are necessary. They are not symmetric.
+
+Cross-engagement: G. W. F. Hegel presses the same social formation axis in the political-social register, but with the value `recognitive-institutional` rather than `civilizational-structure-shift` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 The asymmetry is captured in the title's parable: right is master, left emissary, and modernity is the emissary's usurpation. When the relation is ordered, the left serves what the right discloses; when the left declares sovereignty, the result is a hall of mirrors of representations referring to other representations.
 
@@ -127,7 +131,7 @@ Ch. 6 spells out the asymmetry of *power* (distinct from priority). Right has pr
 
 The left is structurally prone to seeing the right as a threat — its silent priority as obscurantism to be overcome. This is, in compressed form, the relation between scientism and contemplative traditions, between analytic philosophy and phenomenology, between modernity and the wisdom traditions it has tried to extinguish.
 
-The phrase "asymmetry of power" is therefore decisive. The right is prior because it discloses, contextualizes, and keeps relation with reality open; the left is stronger in institutions because public language, explicit procedure, repeatable method, and system-building belong more readily to it. Modern culture can thus become left-captured even where individual persons still possess right-hemisphere capacities. What can be defended, audited, and circulated in the public sphere is already biased toward the emissary's mode.
+The phrase "asymmetry of power" is therefore decisive. The right is prior because it discloses, contextualizes, and keeps relation with reality open; the left is stronger in institutions because public language, explicit procedure, repeatable method, and system-building belong more readily to it. Modern culture can so become left-captured even where individual persons still possess right-hemisphere capacities. What can be defended, audited, and circulated in the public sphere is already biased toward the emissary's mode.
 
 This is the background of McGilchrist's "hall of mirrors" diagnosis. A culture can become trapped in representations that refer only to further representations, with no authorized route back to lived worldhood except the suspect route of intuition, art, reverence, or contemplative opening. For the user's thesis, this is one of the strongest explanations of why so much modern theory feels self-sealed: the seal is attentional before it is doctrinal.
 
@@ -349,7 +353,7 @@ It also lets him avoid two symmetrical errors at once: the monistic error that d
 
 The important point for the position is that McGilchrist thereby reconstructs, from inside a Western archive, something very close to a non-collapsing *bhedābheda* grammar. Cusanus, Heraclitus, Bohr, Goethe, and Schelling are not being lined up as historical curiosities. They are functioning as witnesses that Western thought has repeatedly glimpsed a structure in which opposition belongs to unity and unity requires opposition for manifestation. The achievement is not that he "agrees with India." It is that he shows the conceptual poverty of the modern alternative between flat monism and atomized pluralism.
 
-This also sharpens the anti-Hegel point. Hegelian *Aufhebung* can preserve difference only by assigning it an ultimately superseded role inside the self-movement of Spirit. McGilchrist's helix is different. The opposites remain active throughout; they do not survive merely as aufgehoben moments in a higher closure. Growth is real, but growth takes place through sustained non-collapsing tension. That is much closer to the user's thesis than any dialectic of supersession.
+This also sharpens the anti-Hegel point. Hegelian *Aufhebung* can preserve difference only by assigning it an superseded role inside the self-movement of Spirit. McGilchrist's helix is different. The opposites remain active throughout; they do not survive merely as aufgehoben moments in a higher closure. Growth is real, but growth takes place through sustained non-collapsing tension. That is much closer to the user's thesis than any dialectic of supersession.
 
 The vocabulary of *coincidentia oppositorum* also matters because it is one of the few resources within the Western canon that can hold contradiction without either reducing it to formal inconsistency or neutralizing it in dialectical supersession. McGilchrist's use of Cusanus, Heraclitus, and Bohr is therefore not ornamental citation. He is rebuilding a lost grammar in which the Real may be intrinsically more than the logic of excluded alternatives allows, without becoming irrational or merely confused.
 
@@ -357,7 +361,7 @@ The vocabulary of *coincidentia oppositorum* also matters because it is one of t
 
 The *coincidentia* itself is *asymmetric*. The right-hemispheric pole — union, betweenness, the living whole — has structural priority; it overarches and includes the left, which is genuinely necessary but not the equal partner.
 
-> In terms of the hemispheres it is once more not a symmetrical, but an asymmetrical, arrangement: not just between two dispositions (that of the left hemisphere and that of the right) towards the world, but between a disposition (that of the left) that sees the two dispositions as an antagonism that must ultimately lead to the triumph of one and the annihilation of the other, and a disposition (that of the right) that sees they need to be preserved together, neither being allowed to extinguish the other – even though they are not of equal value. One – the disposition of the right – overarches and take into account the other. (*MWT* II, Ch. 20)
+> In terms of the hemispheres it is once more not a symmetrical, but an asymmetrical, arrangement: not just between two dispositions (that of the left hemisphere and that of the right) towards the world, but between a disposition (that of the left) that sees the two dispositions as an antagonism that must lead to the triumph of one and the annihilation of the other, and a disposition (that of the right) that sees they need to be preserved together, neither being allowed to extinguish the other – even though they are not of equal value. One – the disposition of the right – overarches and take into account the other. (*MWT* II, Ch. 20)
 
 Non-duality has wider scope; duality is held within non-duality without being abolished. The structure of Madhva's *brahman-jīva-jagat* in its proper register, and of Caitanya's *acintya-bhedābheda*: *bheda* and *abheda* coexist as ontological structure, the relation *acintya*, held in inclusive non-duality.
 
@@ -461,7 +465,7 @@ The image is valuable because it preserves growth without absorptive closure. A 
 
 The right is broad, contextual, vigilant — *open* rather than closing; comfortable with ambiguity, the dappled, the unfinished. It is the left that wants the system finished. *The right is not a totalising faculty.* This is the structural homologue of Aurobindo's supermind, Caitanya's *acintya-bhedābheda*, the user's *paramādvaita* — inclusive without absorptive, holding opposites in tension, refusing the closure of system. Asymmetric priority that is not flat pluralism: the priority of the non-totalising over the totalising, the inclusive over the absorbing. The right is more important *because* it does not insist on its own monopoly. This is T11 in McGilchrist's terms.
 
-That is the crucial anti-totalizing hinge. A faculty that insisted on monopolizing truth would already prove itself left-like by structure. The right has priority precisely because it remains open to what exceeds it, can let the other be, and can therefore preserve plurality without giving up order. McGilchrist's priority claim is thus not a disguised monism but an argument for the primacy of the non-monopolizing mode.
+That is the crucial anti-totalizing hinge. A faculty that insisted on monopolizing truth would already prove itself left-like by structure. The right has priority precisely because it remains open to what exceeds it, can let the other be, and can therefore preserve plurality without giving up order. McGilchrist's priority claim is so not a disguised monism but an argument for the primacy of the non-monopolizing mode.
 
 ### Against the universal subject
 
