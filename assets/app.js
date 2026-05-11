@@ -1512,6 +1512,11 @@ function scrollDotIntoView(t) {
 // Legacy alias for the close handler — close the entire unified panel.
 function closeDetailPane() { closePanel(); }
 closeDetail.addEventListener("click", closePanel);
+["pointerdown", "pointerup", "mousedown", "mouseup", "touchstart", "touchend"].forEach((type) => {
+  detailPane.addEventListener(type, (e) => {
+    e.stopPropagation();
+  }, true);
+});
 
 // Click-on-empty-timeline-area closes the panel. Lets the user "click back
 // to the map" instead of hunting for the close button. Drag/pan and clicks
@@ -1535,6 +1540,7 @@ closeDetail.addEventListener("click", closePanel);
     // Don't dismiss when the user clicked an interactive timeline target;
     // their own handlers (openThinker, lineage hover, etc.) take precedence.
     const target = e.target;
+    if (target && detailPane && detailPane.contains(target)) return;
     if (target && target.closest && target.closest(
       ".thinker-dot, .lineage-edge, .lane-row, .lane-rail, .era-strip, .timeline-axis, button, a, input, [role='tab']"
     )) return;
@@ -3082,6 +3088,48 @@ function renderFootnoteList(footnotes) {
     + `</div>`;
 }
 
+function renderMarkdownListBlock(block) {
+  const lines = block.trim().split("\n");
+  if (!lines.length) return block;
+  const ordered = /^\s*\d+\.\s+/.test(lines[0]);
+  const itemRe = ordered ? /^\s*\d+\.\s+([\s\S]+)$/ : /^\s*[-+*]\s+([\s\S]+)$/;
+  const items = [];
+  let current = null;
+  for (const line of lines) {
+    const m = line.match(itemRe);
+    if (m) {
+      if (current != null) items.push(current.trim());
+      current = m[1];
+    } else if (current != null) {
+      current += " " + line.trim();
+    }
+  }
+  if (current != null) items.push(current.trim());
+  if (!items.length) return block;
+  const html = items.map((item) => {
+    const escaped = item
+      .replace(/[&<>]/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]))
+      .replace(/\*\*([^*\n]+?)\*\*/g, "<strong>$1</strong>")
+      .replace(/\*(?!\s)([^*\n]+?)(?<!\s)\*/g, "<em>$1</em>")
+      .replace(/`([^`]+?)`/g, "<code>$1</code>");
+    return `<li>${escaped}</li>`;
+  }).join("");
+  return ordered ? `<ol>${html}</ol>` : `<ul>${html}</ul>`;
+}
+
+function renderMarkdownParagraphs(src) {
+  return src
+    .split(/\n{2,}/)
+    .map((block) => {
+      const trimmed = block.trim();
+      if (!trimmed) return "";
+      if (/^<(?:h[1-6]|blockquote|pre|ul|ol|div\b|table\b|hr\b)/.test(trimmed)) return trimmed;
+      return `<p>${trimmed.replace(/\n+/g, "<br>")}</p>`;
+    })
+    .filter(Boolean)
+    .join("\n");
+}
+
 function renderMarkdown(s) {
   const esc = (x) => x.replace(/[&<>]/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
   return esc(s)
@@ -3556,8 +3604,11 @@ function renderMarkdownFull(src) {
     if (!hasSep) return m;
     const head = rows[0];
     const body = rows.slice(2);
-    return `<table><thead><tr>${head.map((c) => `<th>${esc(c)}</th>`).join("")}</tr></thead><tbody>${body.map((r) => `<tr>${r.map((c) => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table>`;
+    return `<div class="md-table-wrap"><table><thead><tr>${head.map((c) => `<th>${esc(c)}</th>`).join("")}</tr></thead><tbody>${body.map((r) => `<tr>${r.map((c) => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
   });
+  // Thematic breaks and contiguous markdown list blocks.
+  src = src.replace(/^(?:-{3,}|\*{3,}|_{3,})\s*$/gm, "<hr>");
+  src = src.replace(/((?:^\s*(?:[-+*]|\d+\.)\s+.+(?:\n|$))+)/gm, (m) => renderMarkdownListBlock(m));
   // Stash citation + plain links *before* paragraph-splitting and glossary-
   // tagging, so the tagger cannot touch tokens inside an href or anchor text.
   const citeStash = [];
@@ -3587,10 +3638,8 @@ function renderMarkdownFull(src) {
     .replace(/^> (.+)$/gm, "<blockquote>$1</blockquote>")
     .replace(/\*\*([^*\n]+?)\*\*/g, "<strong>$1</strong>")
     .replace(/\*(?!\s)([^*\n]+?)(?<!\s)\*/g, "<em>$1</em>")
-    .replace(/`([^`]+?)`/g, "<code>$1</code>")
-    // paragraph splits
-    .replace(/\n\n+/g, "</p><p>");
-  out = "<p>" + out + "</p>";
+    .replace(/`([^`]+?)`/g, "<code>$1</code>");
+  out = renderMarkdownParagraphs(out);
   // Glossary tagging — parity with the thinker-prose md() path. Done
   // after italics so we do not double-wrap inside <em>; before re-inflating
   // the citation/link placeholders so we do not tag inside href text.
@@ -3616,8 +3665,8 @@ function renderMarkdownFull(src) {
     return `<div class="sk-aside"><div class="sk-aside-pane sk-aside-sanskrit"><div class="sk-aside-label">${langLabel}</div>${renderMarkdownFull(a.sk)}</div><div class="sk-aside-pane sk-aside-english"><div class="sk-aside-label">English</div>${renderMarkdownFull(a.en)}</div></div>`;
   });
   // Don't wrap headings / blockquotes / tables / asides in <p>.
-  out = out.replace(/<p>(\s*)(<h[123]|<blockquote|<table|<pre|<ul|<ol|<div class="sk-aside)/g, "$1$2");
-  out = out.replace(/(<\/h[123]>|<\/blockquote>|<\/table>|<\/pre>|<\/ul>|<\/ol>|<\/div>)(\s*)<\/p>/g, "$1$2");
+  out = out.replace(/<p>(\s*)(<h[123]|<blockquote|<div class="md-table-wrap"|<table|<pre|<ul|<ol|<div class="sk-aside|<hr)/g, "$1$2");
+  out = out.replace(/(<\/h[123]>|<\/blockquote>|<\/div>|<\/table>|<\/pre>|<\/ul>|<\/ol>|<hr>)(\s*)<\/p>/g, "$1$2");
   return out;
 }
 
