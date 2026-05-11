@@ -61,199 +61,64 @@
       "primitive": "epistemic_authority",
       "value": "plural-pramana-realism",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/vatsyayana.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sureshvara/naishkarmya-siddhi/1.1.4",
-            "cite://sureshvara/naishkarmya-siddhi/1.1.5",
-            "cite://sureshvara/naishkarmya-siddhi/1.1.10",
-            "cite://sureshvara/naishkarmya-siddhi/2.2.7-12"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sureshvara/naishkarmya-siddhi/1.1.4",
+      "confidence": "medium"
     },
     {
       "primitive": "manifestation_status",
       "value": "self-standing-real",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/vatsyayana.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sureshvara/naishkarmya-siddhi/1.1.4",
-            "cite://sureshvara/naishkarmya-siddhi/1.1.5",
-            "cite://sureshvara/naishkarmya-siddhi/1.1.10",
-            "cite://sureshvara/naishkarmya-siddhi/2.2.7-12"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sureshvara/naishkarmya-siddhi/1.1.4",
+      "confidence": "medium"
     },
     {
       "primitive": "method_of_critique",
       "value": "formal-proof-or-inference",
       "register": "methodological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/vatsyayana.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sureshvara/naishkarmya-siddhi/1.1.4",
-            "cite://sureshvara/naishkarmya-siddhi/1.1.5",
-            "cite://sureshvara/naishkarmya-siddhi/1.1.10",
-            "cite://sureshvara/naishkarmya-siddhi/2.2.7-12"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sureshvara/naishkarmya-siddhi/1.1.4",
+      "confidence": "medium"
     },
     {
       "primitive": "modal_structure_of_truth",
       "value": "single-absolute-truth",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/vatsyayana.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sureshvara/naishkarmya-siddhi/1.1.4",
-            "cite://sureshvara/naishkarmya-siddhi/1.1.5",
-            "cite://sureshvara/naishkarmya-siddhi/1.1.10",
-            "cite://sureshvara/naishkarmya-siddhi/2.2.7-12"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sureshvara/naishkarmya-siddhi/1.1.4",
+      "confidence": "medium"
     },
     {
       "primitive": "practice_path",
       "value": "knowledge-discipline",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/vatsyayana.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sureshvara/naishkarmya-siddhi/1.1.4",
-            "cite://sureshvara/naishkarmya-siddhi/1.1.5",
-            "cite://sureshvara/naishkarmya-siddhi/1.1.10",
-            "cite://sureshvara/naishkarmya-siddhi/2.2.7-12"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sureshvara/naishkarmya-siddhi/1.1.4",
+      "confidence": "medium"
     },
     {
       "primitive": "selfhood_structure",
       "value": "substantial-self",
       "register": "phenomenological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/vatsyayana.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sureshvara/naishkarmya-siddhi/1.1.4",
-            "cite://sureshvara/naishkarmya-siddhi/1.1.5",
-            "cite://sureshvara/naishkarmya-siddhi/1.1.10",
-            "cite://sureshvara/naishkarmya-siddhi/2.2.7-12"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sureshvara/naishkarmya-siddhi/1.1.4",
+      "confidence": "medium"
     },
     {
       "primitive": "semantic_mediation",
       "value": "language-tracks-reality",
       "register": "semantic-linguistic",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/vatsyayana.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sureshvara/naishkarmya-siddhi/1.1.4",
-            "cite://sureshvara/naishkarmya-siddhi/1.1.5",
-            "cite://sureshvara/naishkarmya-siddhi/1.1.10",
-            "cite://sureshvara/naishkarmya-siddhi/2.2.7-12"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sureshvara/naishkarmya-siddhi/1.1.4",
+      "confidence": "medium"
     },
     {
       "primitive": "soteric_end",
       "value": "isolation-or-discriminative-release",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/vatsyayana.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sureshvara/naishkarmya-siddhi/1.1.4",
-            "cite://sureshvara/naishkarmya-siddhi/1.1.5",
-            "cite://sureshvara/naishkarmya-siddhi/1.1.10",
-            "cite://sureshvara/naishkarmya-siddhi/2.2.7-12"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sureshvara/naishkarmya-siddhi/1.1.4",
+      "confidence": "medium"
     },
     {
       "primitive": "substrate_structure",
       "value": "many-coordinate-reals",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/vatsyayana.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sureshvara/naishkarmya-siddhi/1.1.4",
-            "cite://sureshvara/naishkarmya-siddhi/1.1.5",
-            "cite://sureshvara/naishkarmya-siddhi/1.1.10",
-            "cite://sureshvara/naishkarmya-siddhi/2.2.7-12"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sureshvara/naishkarmya-siddhi/1.1.4",
+      "confidence": "medium"
     }
   ],
   "cross_engagements": []

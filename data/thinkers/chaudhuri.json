@@ -42,234 +42,122 @@
       "primitive": "affective_motive_force",
       "value": "bliss-or-delight",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/chaudhuri.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://chaudhuri/integral-yoga/1",
-            "cite://chaudhuri/the-evolution-of-integral-consciousness/2"
-          ]
-        },
-        {
-          "kind": "source_article",
-          "ref": "data/articles/source/chaudhuri-banerji.md"
-        }
-      ]
+      "citation_locus": "cite://chaudhuri/integral-yoga/1",
+      "confidence": "medium"
     },
     {
       "primitive": "manifestation_status",
       "value": "real-transformation",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/chaudhuri.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://chaudhuri/integral-yoga/1",
-            "cite://chaudhuri/the-evolution-of-integral-consciousness/2"
-          ]
-        },
-        {
-          "kind": "source_article",
-          "ref": "data/articles/source/chaudhuri-banerji.md"
-        }
-      ]
+      "citation_locus": "cite://chaudhuri/integral-yoga/1",
+      "confidence": "medium"
     },
     {
       "primitive": "practice_path",
       "value": "transformative-integration",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/chaudhuri.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://chaudhuri/integral-yoga/1",
-            "cite://chaudhuri/the-evolution-of-integral-consciousness/2"
-          ]
-        },
-        {
-          "kind": "source_article",
-          "ref": "data/articles/source/chaudhuri-banerji.md"
-        }
-      ]
+      "citation_locus": "cite://chaudhuri/integral-yoga/1",
+      "confidence": "medium"
     },
     {
       "primitive": "register_of_evolution",
       "value": "real-cosmological-evolution",
       "register": "historical-genealogical",
-      "confidence": "high",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/chaudhuri.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://chaudhuri/integral-yoga/1",
-            "cite://chaudhuri/the-evolution-of-integral-consciousness/2"
-          ]
-        },
-        {
-          "kind": "source_article",
-          "ref": "data/articles/source/chaudhuri-banerji.md"
-        }
-      ]
+      "citation_locus": "cite://chaudhuri/integral-yoga/1",
+      "confidence": "high"
     },
     {
       "primitive": "social_formation_model",
       "value": "civilizational-structure-shift",
       "register": "political-social",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/chaudhuri.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://chaudhuri/integral-yoga/1",
-            "cite://chaudhuri/the-evolution-of-integral-consciousness/2"
-          ]
-        },
-        {
-          "kind": "source_article",
-          "ref": "data/articles/source/chaudhuri-banerji.md"
-        }
-      ]
+      "citation_locus": "cite://chaudhuri/integral-yoga/1",
+      "confidence": "low"
     },
     {
       "primitive": "soteric_end",
       "value": "transformation-of-life",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/chaudhuri.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://chaudhuri/integral-yoga/1",
-            "cite://chaudhuri/the-evolution-of-integral-consciousness/2"
-          ]
-        },
-        {
-          "kind": "source_article",
-          "ref": "data/articles/source/chaudhuri-banerji.md"
-        }
-      ]
+      "citation_locus": "cite://chaudhuri/integral-yoga/1",
+      "confidence": "medium"
     },
     {
       "primitive": "temporal_mode",
       "value": "both-orthogonal",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/chaudhuri.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://chaudhuri/integral-yoga/1",
-            "cite://chaudhuri/the-evolution-of-integral-consciousness/2"
-          ]
-        },
-        {
-          "kind": "source_article",
-          "ref": "data/articles/source/chaudhuri-banerji.md"
-        }
-      ]
+      "citation_locus": "cite://chaudhuri/integral-yoga/1",
+      "confidence": "medium"
     }
   ],
   "cross_engagements": [
     {
-      "article": "data/articles/source/chaudhuri-banerji.md",
+      "counter_thinker": "abhinavagupta",
       "primitive": "manifestation_status",
+      "agreement_type": "genuine-disagreement",
       "register": "metaphysical",
-      "relation": "disagrees",
-      "other_thinker_id": "abhinavagupta",
-      "other_primary_citation": "cite://abhinavagupta/tantraloka/1.16",
-      "passage": "Cross-engagement: Abhinavagupta presses the same manifestation status axis in the metaphysical register, but with the value `expressive-manifestation` rather than `real-transformation` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+      "brief": "Abhinavagupta presses the same manifestation status axis in the metaphysical register, but with the value `expressive-manifestation` rather than `real-transformation`.",
+      "citations": [
+        "cite://abhinavagupta/tantraloka/1.16"
+      ]
     },
     {
-      "article": "data/articles/source/chaudhuri-banerji.md",
+      "counter_thinker": "whitehead",
       "primitive": "temporal_mode",
+      "agreement_type": "genuine-disagreement",
       "register": "metaphysical",
-      "relation": "disagrees",
-      "other_thinker_id": "whitehead",
-      "other_primary_citation": "cite://whitehead/process-and-reality/1.2",
-      "passage": "Cross-engagement: Alfred North Whitehead presses the same temporal mode axis in the metaphysical register, but with the value `process-primary` rather than `both-orthogonal` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+      "brief": "Alfred North Whitehead presses the same temporal mode axis in the metaphysical register, but with the value `process-primary` rather than `both-orthogonal`.",
+      "citations": [
+        "cite://whitehead/process-and-reality/1.2"
+      ]
     },
     {
-      "article": "data/articles/source/chaudhuri-banerji.md",
+      "counter_thinker": "hegel",
       "primitive": "register_of_evolution",
+      "agreement_type": "genuine-disagreement",
       "register": "historical-genealogical",
-      "relation": "disagrees",
-      "other_thinker_id": "hegel",
-      "other_primary_citation": "cite://hegel/phenomenology-of-spirit/17",
-      "passage": "Cross-engagement: G. W. F. Hegel presses the same evolution register axis in the historical-genealogical register, but with the value `sublative-becoming` rather than `real-cosmological-evolution` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+      "brief": "G. W. F. Hegel presses the same evolution register axis in the historical-genealogical register, but with the value `sublative-becoming` rather than `real-cosmological-evolution`.",
+      "citations": [
+        "cite://hegel/phenomenology-of-spirit/17"
+      ]
     },
     {
-      "article": "data/articles/source/chaudhuri-banerji.md",
+      "counter_thinker": "butler",
       "primitive": "social_formation_model",
+      "agreement_type": "genuine-disagreement",
       "register": "political-social",
-      "relation": "disagrees",
-      "other_thinker_id": "butler",
-      "other_primary_citation": "cite://butler/gender-trouble/3",
-      "passage": "Cross-engagement: Judith Butler presses the same social formation axis in the political-social register, but with the value `performative-norm-repetition` rather than `civilizational-structure-shift` in [primary text](cite://butler/gender-trouble/3). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+      "brief": "Judith Butler presses the same social formation axis in the political-social register, but with the value `performative-norm-repetition` rather than `civilizational-structure-shift`.",
+      "citations": [
+        "cite://butler/gender-trouble/3"
+      ]
     },
     {
-      "article": "data/articles/source/chaudhuri-banerji.md",
+      "counter_thinker": "baladeva",
       "primitive": "affective_motive_force",
+      "agreement_type": "genuine-disagreement",
       "register": "soteriological",
-      "relation": "disagrees",
-      "other_thinker_id": "baladeva",
-      "other_primary_citation": "cite://badarayana/brahma-sutra/1.1.1",
-      "passage": "Cross-engagement: Baladeva Vidyabhushana presses the same motive force axis in the soteriological register, but with the value `devotion` rather than `bliss-or-delight` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+      "brief": "Baladeva Vidyabhushana presses the same motive force axis in the soteriological register, but with the value `devotion` rather than `bliss-or-delight`.",
+      "citations": [
+        "cite://badarayana/brahma-sutra/1.1.1"
+      ]
     },
     {
-      "article": "data/articles/source/chaudhuri-banerji.md",
+      "counter_thinker": "sankara",
       "primitive": "practice_path",
+      "agreement_type": "genuine-disagreement",
       "register": "soteriological",
-      "relation": "disagrees",
-      "other_thinker_id": "sankara",
-      "other_primary_citation": "cite://sankara/brahma-sutra-bhasya/1.1.1",
-      "passage": "Cross-engagement: Adi Sankara presses the same practice-path axis in the soteriological register, but with the value `knowledge-discipline` rather than `transformative-integration` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+      "brief": "Adi Sankara presses the same practice-path axis in the soteriological register, but with the value `knowledge-discipline` rather than `transformative-integration`.",
+      "citations": [
+        "cite://sankara/brahma-sutra-bhasya/1.1.1"
+      ]
     },
     {
-      "article": "data/articles/source/chaudhuri-banerji.md",
+      "counter_thinker": "akalanka",
       "primitive": "soteric_end",
+      "agreement_type": "genuine-disagreement",
       "register": "soteriological",
-      "relation": "disagrees",
-      "other_thinker_id": "akalanka",
-      "other_primary_citation": "cite://umasvati/tattvartha-sutra/1.34-35",
-      "passage": "Cross-engagement: Akalanka presses the same soteric end axis in the soteriological register, but with the value `isolation-or-discriminative-release` rather than `transformation-of-life` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+      "brief": "Akalanka presses the same soteric end axis in the soteriological register, but with the value `isolation-or-discriminative-release` rather than `transformation-of-life`.",
+      "citations": [
+        "cite://umasvati/tattvartha-sutra/1.34-35"
+      ]
     }
   ]
 }

@@ -92,243 +92,78 @@
       "primitive": "affective_motive_force",
       "value": "devotion",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/visvanatha.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://visvanatha/madhurya-kadambini/1",
-            "cite://visvanatha/raga-vartma-candrika/2.6-8",
-            "cite://visvanatha/madhurya-kadambini/4.5-13",
-            "cite://visvanatha/raga-vartma-candrika/1.5-10"
-          ]
-        }
-      ]
+      "citation_locus": "cite://visvanatha/madhurya-kadambini/1",
+      "confidence": "medium"
     },
     {
       "primitive": "causation_model",
       "value": "unchanged-ground-with-changing-power",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/visvanatha.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://visvanatha/madhurya-kadambini/1",
-            "cite://visvanatha/raga-vartma-candrika/2.6-8",
-            "cite://visvanatha/madhurya-kadambini/4.5-13",
-            "cite://visvanatha/raga-vartma-candrika/1.5-10"
-          ]
-        }
-      ]
+      "citation_locus": "cite://visvanatha/madhurya-kadambini/1",
+      "confidence": "medium"
     },
     {
       "primitive": "epistemic_authority",
       "value": "scripture-dominant",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/visvanatha.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://visvanatha/madhurya-kadambini/1",
-            "cite://visvanatha/raga-vartma-candrika/2.6-8",
-            "cite://visvanatha/madhurya-kadambini/4.5-13",
-            "cite://visvanatha/raga-vartma-candrika/1.5-10"
-          ]
-        }
-      ]
+      "citation_locus": "cite://visvanatha/madhurya-kadambini/1",
+      "confidence": "medium"
     },
     {
       "primitive": "identity_relation",
       "value": "inconceivable-difference-non-difference",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/visvanatha.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://visvanatha/madhurya-kadambini/1",
-            "cite://visvanatha/raga-vartma-candrika/2.6-8",
-            "cite://visvanatha/madhurya-kadambini/4.5-13",
-            "cite://visvanatha/raga-vartma-candrika/1.5-10"
-          ]
-        }
-      ]
+      "citation_locus": "cite://visvanatha/madhurya-kadambini/1",
+      "confidence": "medium"
     },
     {
       "primitive": "individuation_status",
       "value": "irreducible-dependent",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/visvanatha.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://visvanatha/madhurya-kadambini/1",
-            "cite://visvanatha/raga-vartma-candrika/2.6-8",
-            "cite://visvanatha/madhurya-kadambini/4.5-13",
-            "cite://visvanatha/raga-vartma-candrika/1.5-10"
-          ]
-        }
-      ]
+      "citation_locus": "cite://visvanatha/madhurya-kadambini/1",
+      "confidence": "medium"
     },
     {
       "primitive": "manifestation_status",
       "value": "dependent-real",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/visvanatha.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://visvanatha/madhurya-kadambini/1",
-            "cite://visvanatha/raga-vartma-candrika/2.6-8",
-            "cite://visvanatha/madhurya-kadambini/4.5-13",
-            "cite://visvanatha/raga-vartma-candrika/1.5-10"
-          ]
-        }
-      ]
+      "citation_locus": "cite://visvanatha/madhurya-kadambini/1",
+      "confidence": "medium"
     },
     {
       "primitive": "modal_structure_of_truth",
       "value": "single-absolute-truth",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/visvanatha.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://visvanatha/madhurya-kadambini/1",
-            "cite://visvanatha/raga-vartma-candrika/2.6-8",
-            "cite://visvanatha/madhurya-kadambini/4.5-13",
-            "cite://visvanatha/raga-vartma-candrika/1.5-10"
-          ]
-        }
-      ]
+      "citation_locus": "cite://visvanatha/madhurya-kadambini/1",
+      "confidence": "medium"
     },
     {
       "primitive": "practice_path",
       "value": "devotion-and-grace",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/visvanatha.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://visvanatha/madhurya-kadambini/1",
-            "cite://visvanatha/raga-vartma-candrika/2.6-8",
-            "cite://visvanatha/madhurya-kadambini/4.5-13",
-            "cite://visvanatha/raga-vartma-candrika/1.5-10"
-          ]
-        }
-      ]
+      "citation_locus": "cite://visvanatha/madhurya-kadambini/1",
+      "confidence": "medium"
     },
     {
       "primitive": "relation_to_perspectivism",
       "value": "partial-perspectives-ranked",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/visvanatha.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://visvanatha/madhurya-kadambini/1",
-            "cite://visvanatha/raga-vartma-candrika/2.6-8",
-            "cite://visvanatha/madhurya-kadambini/4.5-13",
-            "cite://visvanatha/raga-vartma-candrika/1.5-10"
-          ]
-        }
-      ]
+      "citation_locus": "cite://visvanatha/madhurya-kadambini/1",
+      "confidence": "medium"
     },
     {
       "primitive": "soteric_end",
       "value": "loving-participation",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/visvanatha.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://visvanatha/madhurya-kadambini/1",
-            "cite://visvanatha/raga-vartma-candrika/2.6-8",
-            "cite://visvanatha/madhurya-kadambini/4.5-13",
-            "cite://visvanatha/raga-vartma-candrika/1.5-10"
-          ]
-        }
-      ]
+      "citation_locus": "cite://visvanatha/madhurya-kadambini/1",
+      "confidence": "medium"
     },
     {
       "primitive": "substrate_structure",
       "value": "one-independent-plus-real-dependents",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/visvanatha.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://visvanatha/madhurya-kadambini/1",
-            "cite://visvanatha/raga-vartma-candrika/2.6-8",
-            "cite://visvanatha/madhurya-kadambini/4.5-13",
-            "cite://visvanatha/raga-vartma-candrika/1.5-10"
-          ]
-        }
-      ]
+      "citation_locus": "cite://visvanatha/madhurya-kadambini/1",
+      "confidence": "medium"
     }
   ],
   "cross_engagements": []

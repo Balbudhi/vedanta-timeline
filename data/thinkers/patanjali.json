@@ -69,77 +69,29 @@
       "primitive": "practice_path",
       "value": "meditative-discipline",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/patanjali.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://patanjali/yoga-sutra/1.2"
-          ]
-        }
-      ]
+      "citation_locus": "cite://patanjali/yoga-sutra/1.2",
+      "confidence": "medium"
     },
     {
       "primitive": "selfhood_structure",
       "value": "substantial-self",
       "register": "phenomenological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/patanjali.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://patanjali/yoga-sutra/1.2"
-          ]
-        }
-      ]
+      "citation_locus": "cite://patanjali/yoga-sutra/1.2",
+      "confidence": "medium"
     },
     {
       "primitive": "soteric_end",
       "value": "isolation-or-discriminative-release",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/patanjali.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://patanjali/yoga-sutra/1.2"
-          ]
-        }
-      ]
+      "citation_locus": "cite://patanjali/yoga-sutra/1.2",
+      "confidence": "medium"
     },
     {
       "primitive": "substrate_structure",
       "value": "many-coordinate-reals",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/patanjali.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://patanjali/yoga-sutra/1.2"
-          ]
-        }
-      ]
+      "citation_locus": "cite://patanjali/yoga-sutra/1.2",
+      "confidence": "medium"
     }
   ],
   "cross_engagements": []

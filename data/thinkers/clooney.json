@@ -266,41 +266,15 @@
       "primitive": "epistemic_authority",
       "value": "comparative-theological-reading",
       "register": "epistemological",
-      "confidence": "high",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/clooney.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://badarayana/brahma-sutra/1.1.1",
-            "cite://jaimini/mimamsa-sutra/1.1.2"
-          ]
-        }
-      ]
+      "citation_locus": "cite://badarayana/brahma-sutra/1.1.1",
+      "confidence": "high"
     },
     {
       "primitive": "method_of_critique",
       "value": "comparative-reading",
       "register": "methodological",
-      "confidence": "high",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/clooney.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://badarayana/brahma-sutra/1.1.1",
-            "cite://jaimini/mimamsa-sutra/1.1.2"
-          ]
-        }
-      ]
+      "citation_locus": "cite://badarayana/brahma-sutra/1.1.1",
+      "confidence": "high"
     }
   ],
   "cross_engagements": []

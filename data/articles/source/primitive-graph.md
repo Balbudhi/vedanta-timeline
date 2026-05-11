@@ -4,7 +4,6 @@
 
 The graph is not a winner-picking machine.
 
-Cross-engagement: Abhinavagupta presses the same substrate structure axis in the metaphysical register, but with the value `one-self-standing` rather than `one-independent-plus-real-dependents` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 It does three narrower things.
 
@@ -36,13 +35,11 @@ The current document is built for that wider task.
 
 The graph is governed by six rules.
 
-Cross-engagement: Adi Sankara presses the same manifestation status axis in the metaphysical register, but with the value `sublatable-not-null` rather than `dependent-real` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 ### Rule 1 — Read the closest stable textual layer first
 
 If a thinker has a source article in `data/articles/source/`, the article is the first assignment layer.
 
-Cross-engagement: Anandabodha presses the same identity relation axis in the metaphysical register, but with the value `non-otherness` rather than `image-original-similarity` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 If a thinker does not yet have a source article, use the thinker's JSON only at the level it can actually support:
 
@@ -58,7 +55,6 @@ Do not let a late sub-school dispute rewrite an earlier author.
 
 Some thinkers can inherit a school profile with little distortion.
 
-Cross-engagement: Anantakrishna Sastri presses the same finite cognition axis in the epistemological register, but with the value `positive-ignorance` rather than `real-dependent-veiling` in [primary text](cite://sankara/brahma-sutra-bhasya/2.1.14). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 Examples:
 
@@ -81,7 +77,6 @@ Where inheritance would flatten a thinker, assign the thinker directly.
 
 The primitive is the slot where a thesis is located.
 
-Cross-engagement: Appayya Dikshita presses the same epistemic authority axis in the epistemological register, but with the value `scripture-dominant` rather than `plural-pramana-realism` in [primary text](cite://mandana/brahma-siddhi/3.4). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 `substrate_structure` is not "Advaita." `genealogical-critique` is not "Nietzsche." `disciplinary-production-of-subjects` is not "Foucault." The primitive is thinner than the doctrine and has to stay thinner than the doctrine.
 
@@ -89,7 +84,6 @@ Cross-engagement: Appayya Dikshita presses the same epistemic authority axis in 
 
 Before comparing two claims, tag the register.
 
-Cross-engagement: Bhatta Kallata presses the same determination axis in the logical-dialectical register, but with the value `self-expression` rather than `non-sublatable-difference` in [primary text](cite://bhatta-kallata/spanda-karika/1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 The allowed registers for this graph are:
 
@@ -111,7 +105,6 @@ If two claims differ because one is soteriological and the other metaphysical, t
 
 Every thinker need not have a substantive value on every primitive.
 
-Cross-engagement: Ananda K. Coomaraswamy presses the same method axis in the methodological register, but with the value `comparative-reading` rather than `formal-proof-or-inference` in [primary text](cite://coomaraswamy/the-transformation-of-nature-in-art/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 The graph therefore permits a global non-substantive token:
 
@@ -129,7 +122,6 @@ Use it when:
 
 Some thinkers speak in more than one durable register.
 
-Cross-engagement: Akalanka presses the same truth-structure axis in the epistemological register, but with the value `standpoint-conditioned-realism` rather than `single-absolute-truth` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 Examples:
 
@@ -142,9 +134,8 @@ Where the mixed profile is load-bearing, record more than one commitment rather 
 
 ## §3 — Primitive nodes
 
-The graph now uses twenty primitives.
+The graph now uses twenty-two primitives.
 
-Cross-engagement: Edmund Husserl presses the same perspectivism axis in the epistemological register, but with the value `standpoint-conditioned-realism` rather than `partial-perspectives-ranked` in [primary text](cite://husserl/ideas-i/31-32). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 Each primitive has:
 
@@ -158,7 +149,6 @@ Each primitive has:
 
 Definition:
 
-Cross-engagement: Akshapada Gautama presses the same practice-path axis in the soteriological register, but with the value `knowledge-discipline` rather than `devotion-and-grace` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 The basic ontological architecture of what is self-standing, what is dependent, and whether there is any ultimate substrate at all.
 
@@ -194,7 +184,6 @@ Anchor cases:
 
 Definition:
 
-Cross-engagement: Alfred North Whitehead presses the same soteric end axis in the soteriological register, but with the value `not-soteriological` rather than `service-with-distinction-preserved` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 The status of the world, appearance, finite entities, or social objects relative to what grounds them.
 
@@ -232,7 +221,6 @@ Anchor cases:
 
 Definition:
 
-Cross-engagement: Baladeva Vidyabhushana presses the same causation model axis in the metaphysical register, but with the value `unchanged-ground-with-changing-power` rather than `efficient-material-split` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 The formal relation between ultimate reality, self, world, and finite being where unity and difference are both at issue.
 
@@ -360,6 +348,8 @@ Read-off rule:
 
 Read from explicit subject-analyses: `ātman`, witness-consciousness, ego, Dasein, subject-as-freedom, split subject, or the denial of enduring selfhood. Avoid collapsing this primitive into mere ethics or politics.
 
+This is the primitive on which `ātman` and `anātman` first part company. Do not try to smuggle that dispute into `manifestation_status`. A no-self claim is not, by itself, a claim that appearances are unreal; it is a claim about what sort of subject there is, or is not, for whom appearance occurs.
+
 Register-scope:
 
 - phenomenological
@@ -376,6 +366,38 @@ Anchor cases:
 - Foucault: `split-or-produced-subject`; see `foucault.md`, the disciplinary and self-formation sections.
 - Nietzsche: `no-enduring-self`; see `nietzsche.md`, the anti-doer passages and the critique of subject grammar.
 
+### P6A — `constitution_structure`
+
+Definition:
+
+How subject, object, world, and appearing are bound together before the later questions of truth, error, or liberation arise.
+
+Value range:
+
+- `subject-object-duality-taken-as-basic`
+- `intentional-noesis-noema-correlation`
+- `storehouse-transformation-of-cognitive-flow`
+- `reflexive-self-manifestation`
+- `dependent-arising-without-constituting-subject`
+- `withheld`
+
+Read-off rule:
+
+Use this primitive only when the text gives a real architecture of appearing itself. Husserl's noesis/noema relation, Yogācāra's `ālaya`-based transformation of cognitive flow, and Trika's reflexive self-manifestation belong here. Do not reduce those to a generic theory of error. They are not merely accounts of what goes wrong in finite cognition; they are accounts of how a world is there at all.
+
+Register-scope:
+
+- phenomenological
+- epistemological
+- metaphysical where appearing is itself ontologized
+
+Anchor cases:
+
+- Husserl: `intentional-noesis-noema-correlation`; see `husserl.md`, the `Ideas I` reduction and constitution sections.
+- Asaṅga and Vasubandhu: `storehouse-transformation-of-cognitive-flow`; see their JSON entries on `vijñapti-mātratā`, `ālaya-vijñāna`, and the `trisvabhāva` sequence.
+- Abhinavagupta: `reflexive-self-manifestation`; see `abhinavagupta.json`, where `prakāśa-vimarśa` and `ābhāsa` do more than explain illusion.
+- Candrakīrti: `dependent-arising-without-constituting-subject`; use only with care, and only where the point is precisely that no constituting subject stands behind the dependent nexus.
+
 ### P7 — `finite_cognition_model`
 
 Definition:
@@ -388,6 +410,7 @@ Value range:
 - `positive-ignorance`
 - `real-dependent-veiling`
 - `contraction-or-obscuration`
+- `storehouse-transformation`
 - `intentional-constitution`
 - `perspectival-interpretation`
 - `genealogically-produced-illusion`
@@ -411,6 +434,7 @@ Anchor cases:
 - Later Advaita cases on the site: `positive-ignorance`; compare the Madhusūdana material discussed inside `shankara.md`, Part VIII, with the relevant JSON-only authors.
 - Madhva: `real-dependent-veiling`; see `madhva.md`, the anti-`mithyātva` sections and the later-school notes.
 - Husserl: `intentional-constitution`; see `husserl.md`, the reduction and constitution chapters.
+- Asaṅga and Vasubandhu: `storehouse-transformation`; use where the issue is the dualizing habit-flow itself rather than the larger architecture of constitution.
 - Nietzsche: `perspectival-interpretation`; see `nietzsche.md`, the sections on truth, force, and interpretation.
 - Foucault: `genealogically-produced-illusion`; see `foucault.md`, the genealogy sections where truth-effects arise from regimes of practice.
 
@@ -504,6 +528,7 @@ Value range:
 
 - `commentarial-exegesis`
 - `formal-proof-or-inference`
+- `prasanga-anti-thesis`
 - `phenomenological-reduction`
 - `dialectical-development`
 - `genealogy`
@@ -526,6 +551,7 @@ Anchor cases:
 
 - Rāmānuja: `commentarial-exegesis`; see `ramanuja.md`, Part I and Part III.
 - Madhva: `formal-proof-or-inference`; see `madhva.md`, the anti-Advaita and `mithyātva` critique sections.
+- Candrakīrti: `prasanga-anti-thesis`; use where the refusal of `svatantra-anumāna` is itself load-bearing, not a footnote to a general dialectic.
 - Husserl: `phenomenological-reduction`; see `husserl.md`, the reductions.
 - Hegel: `dialectical-development`; see `hegel.md`, the movement from `Phenomenology` to `Logic`.
 - Nietzsche: `genealogy`; see `nietzsche.md`, the `Genealogy` discussions.
@@ -709,6 +735,38 @@ Anchor cases:
 - Husserl: `standpoint-conditioned-realism`; see `husserl.md`, the constitution analyses where objectivity is built through profiles without collapsing to sheer relativism.
 - Nietzsche: `perspectives-as-symptoms`; see `nietzsche.md`, the interpretation and force analyses.
 - Medhananda: `irreducible-true-perspectives` in the pluralist theological register; see `medhananda.md`.
+
+### P15A — `standpoint_predication`
+
+Definition:
+
+How predication itself is qualified, indexed, or multiplied once more than one valid standpoint is admitted.
+
+Value range:
+
+- `single-unqualified-predication`
+- `hierarchically-ranked-predication`
+- `standpoint-indexed-predication`
+- `sevenfold-conditioned-predication`
+- `profile-adumbrational-predication`
+- `withheld`
+
+Read-off rule:
+
+Use this primitive when the text is not merely saying that perspectives differ, but is specifying how predication changes under that difference. This is where the Jaina `naya` / `syādvāda` / `anekānta` family belongs. `modal_structure_of_truth` says how many truth-levels are in play; `standpoint_predication` says what sort of assertion is licensed from each standpoint. That is the distinction the older graph blurred.
+
+Register-scope:
+
+- semantic-linguistic
+- epistemological
+- logical-dialectical
+
+Anchor cases:
+
+- Kundakunda: `standpoint-indexed-predication`; see the JSON entry on `niścaya-naya` and `vyavahāra-naya`.
+- Akalaṅka and Yaśovijaya: `sevenfold-conditioned-predication`; use where `syādvāda` is doing explicit logical work rather than serving as a loose pluralist slogan.
+- Śaṅkara: `hierarchically-ranked-predication`; only where the `vyāvahārika/pāramārthika` difference is overtly governing what may be said.
+- Husserl: `profile-adumbrational-predication`; use sparingly, and only where objectivity is built through adumbrated profiles rather than a single unqualified view.
 
 ### P16 — `normative_order_source`
 
@@ -926,16 +984,17 @@ These two primitives are linked but not identical.
 
 The world can be `dependent-real` under more than one causal model. It can be `sublatable-not-null` under an appearance model. It can be `expressive-manifestation` under an immanent-expression model. Keep the distinction clean.
 
-### D4 — `selfhood_structure` → `finite_cognition_model`
+### D4 — `selfhood_structure` → `constitution_structure` → `finite_cognition_model`
 
-A witness-self, transcendental ego, Dasein, or produced subject tends to generate a different account of error and finitude.
+A witness-self, transcendental ego, Dasein, produced subject, or no-self position tends first to shape how appearing is constituted, and only then to shape what counts as illusion, obscuration, or finite error.
 
 Examples:
 
 - witness-self often pairs with superimposition or obscuration
-- transcendental ego with constitution
+- transcendental ego with intentional constitution
+- Yogācāra with storehouse-transformation and dualizing projection
 - produced subject with discipline or genealogy
-- no-enduring-self with interpretation, force, or dependent process
+- no-enduring-self with dependent process or anti-substantialist phenomenology
 
 ### D5 — `epistemic_authority` ↔ `method_of_critique`
 
@@ -962,15 +1021,16 @@ Examples:
 - A timeless-ground model can still permit evolution, but only by adding a layered account, as in Aurobindo.
 - Heidegger's historical disclosure is not cosmological evolution.
 
-### D8 — `modal_structure_of_truth` ↔ `relation_to_perspectivism`
+### D8 — `modal_structure_of_truth` ↔ `relation_to_perspectivism` ↔ `standpoint_predication`
 
-The truth structure constrains how perspectives are ranked, held apart, or folded into a whole.
+The truth structure constrains how perspectives are ranked, held apart, or folded into a whole. Where the thinker goes further and says what may be asserted from each standpoint, `standpoint_predication` becomes the third necessary node.
 
 Examples:
 
 - Hegel's whole invites `sublated-into-higher-whole`.
 - K.C. Bhattacharyya's alternative absolutes invite `irreducible-true-perspectives`.
 - Nietzsche's force-diagnostic stance invites `perspectives-as-symptoms`.
+- Jaina standpoint-realism requires both `standpoint-conditioned-realism` and a distinct predicative rule-set; otherwise the grammar slides back into a lazy label of relativism.
 
 ### D9 — `normative_order_source` → `social_formation_model`
 
@@ -1187,6 +1247,76 @@ Verdict:
 
 - `register-shift` followed by `genuine-disagreement`
 
+### Example E — Nāgārjuna and Candrakīrti
+
+Shared axis:
+
+- `selfhood_structure`
+- `constitution_structure`
+- `method_of_critique`
+- `determination_operator`
+
+What the graph must not do:
+
+- It must not encode emptiness as one more weak value under world-status alone.
+- It must not treat `prasaṅga` as a decorative polemical style.
+
+Why the new grammar helps:
+
+- `selfhood_structure = no-enduring-self` names the `anātman` pressure directly.
+- `constitution_structure = dependent-arising-without-constituting-subject` marks the refusal to posit a constituting self behind appearance.
+- `method_of_critique = prasanga-anti-thesis` distinguishes Candrakīrti's anti-`svatantra` procedure from Bhāviveka's inferential strategy.
+
+Verdict:
+
+- Nāgārjuna and Candrakīrti share the main anti-essential pressure.
+- Candrakīrti and Bhāviveka are in `genuine-disagreement` on method even where they share the larger Mādhyamaka objective.
+
+### Example F — Husserl and Yogācāra
+
+Shared axis:
+
+- `constitution_structure`
+- `finite_cognition_model`
+- `relation_to_perspectivism`
+
+Why the comparison is real:
+
+- Both refuse the fiction of a brute object standing there before all lived articulation.
+- Both give a structured account of how world-appearance is built.
+
+Why the comparison must stop short of identity:
+
+- Husserl's noesis/noema correlation is not an `ālaya-vijñāna`.
+- Yogācāra's transformed flow of consciousness is not a transcendental ego under another name.
+
+Verdict:
+
+- `shared-axis`
+- followed, in most concrete claims, by `genuine-disagreement`
+
+### Example G — Jaina plural realism against easy relativism
+
+Shared axis:
+
+- `modal_structure_of_truth`
+- `relation_to_perspectivism`
+- `standpoint_predication`
+
+Why the old graph was too weak:
+
+- `standpoint-conditioned-realism` by itself can still be misread as "many views, none final."
+- The Jaina texts say something sharper: reality is many-sided, and predication must be qualified accordingly.
+
+Why the new primitive matters:
+
+- `standpoint_predication = standpoint-indexed-predication` for `naya`
+- `standpoint_predication = sevenfold-conditioned-predication` for `syādvāda`
+
+Verdict:
+
+- `genuine-disagreement` with any system that insists on unqualified single-predication at the same level of discourse
+
 ## §9 — Register discipline
 
 The graph will fail if it lets one register quietly occupy the whole field.
@@ -1244,34 +1374,38 @@ Where neither layer settles the issue, use `withheld`.
 
 ## §11 — How the later JSON field should look
 
-Each thinker JSON will gain a `primitive_commitments` array.
+Each thinker JSON now carries a `primitive_commitments` array and a `cross_engagements` array.
 
-The target object shape is:
+The commitment object should stay this thin:
 
 ```json
 {
- "primitive": "substrate_structure",
- "value": "one-independent-plus-real-dependents",
- "register": "metaphysical",
- "confidence": "high",
- "evidence": [
- {
- "kind": "source_article",
- "ref": "data/articles/source/madhva.md",
- "section": "svatantra/paratantra and pañcabheda"
- },
- {
- "kind": "primary",
- "ref": "cite://madhva/anuvyakhyana/1.4.111-112"
- }
- ],
- "notes": "Use the aseity structure rather than the flattened label 'dualism.'"
+  "primitive": "substrate_structure",
+  "value": "one-independent-plus-real-dependents",
+  "register": "metaphysical",
+  "citation_locus": "cite://madhva/tattva-sankhyana/1-4",
+  "confidence": "high"
+}
+```
+
+The cross-engagement object should mirror the inline article passage without dragging the whole paragraph into the registry:
+
+```json
+{
+  "counter_thinker": "sankara",
+  "primitive": "manifestation_status",
+  "agreement_type": "genuine-disagreement",
+  "register": "metaphysical",
+  "brief": "Śaṅkara marks the world as sublatable under brahma-jñāna rather than as fully real in its dependent standing.",
+  "citations": ["cite://sankara/brahma-sutra-bhasya/1.1.1"],
+  "source_article": "data/articles/source/madhva.md",
+  "source_locus": "madhva.md:175"
 }
 ```
 
 If the commitment is mixed by register, store two objects.
 
-If the evidence is too thin, do not fabricate certainty. Use `withheld` only when the later data model needs an explicit placeholder.
+If the evidence is too thin, lower the confidence. Use `withheld` only when the data model truly needs an explicit non-assignment.
 
 ## §12 — How article cross-engagement passages should be written
 
@@ -1286,7 +1420,7 @@ The passage should:
 
 Example template:
 
-> Cross-engagement: Hegel pressures the same `determination_operator` axis from the opposite side. Where this section treats difference as irreducible without sublation, Hegel's *Science of Logic* makes contradiction the engine of determinacy itself ([Being-Nothing-Becoming](cite://hegel/science-of-logic/being-nothing-becoming)). The shared axis is real; the operative register is logical-dialectical; the value is not.
+> Cross-engagement: Rāmānuja presses the same `identity_relation` axis, but reads the `jīva` as a real body-mode of Brahman rather than as non-different witness-consciousness ([Śrī-bhāṣya 1.1.1](cite://ramanuja/sri-bhasya/1.1.1)). The disagreement is metaphysical, not merely devotional.
 
 That is the level of granularity later Phase 3 work should target.
 

@@ -111,111 +111,36 @@
       "primitive": "epistemic_authority",
       "value": "scripture-dominant",
       "register": "epistemological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/bhaskara.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sankara/brahma-sutra-bhasya/1.1.4",
-            "cite://sankara/brahma-sutra-bhasya/2.1.14",
-            "cite://sankara/brahma-sutra-bhasya/2.3.43",
-            "cite://sankara/brahma-sutra-bhasya/2.1.14-20"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sankara/brahma-sutra-bhasya/1.1.4",
+      "confidence": "low"
     },
     {
       "primitive": "identity_relation",
       "value": "natural-difference-non-difference",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/bhaskara.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sankara/brahma-sutra-bhasya/1.1.4",
-            "cite://sankara/brahma-sutra-bhasya/2.1.14",
-            "cite://sankara/brahma-sutra-bhasya/2.3.43",
-            "cite://sankara/brahma-sutra-bhasya/2.1.14-20"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sankara/brahma-sutra-bhasya/1.1.4",
+      "confidence": "medium"
     },
     {
       "primitive": "manifestation_status",
       "value": "dependent-real",
       "register": "metaphysical",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/bhaskara.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sankara/brahma-sutra-bhasya/1.1.4",
-            "cite://sankara/brahma-sutra-bhasya/2.1.14",
-            "cite://sankara/brahma-sutra-bhasya/2.3.43",
-            "cite://sankara/brahma-sutra-bhasya/2.1.14-20"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sankara/brahma-sutra-bhasya/1.1.4",
+      "confidence": "low"
     },
     {
       "primitive": "practice_path",
       "value": "knowledge-discipline",
       "register": "soteriological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/bhaskara.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sankara/brahma-sutra-bhasya/1.1.4",
-            "cite://sankara/brahma-sutra-bhasya/2.1.14",
-            "cite://sankara/brahma-sutra-bhasya/2.3.43",
-            "cite://sankara/brahma-sutra-bhasya/2.1.14-20"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sankara/brahma-sutra-bhasya/1.1.4",
+      "confidence": "low"
     },
     {
       "primitive": "soteric_end",
       "value": "identity-with-ground",
       "register": "soteriological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/bhaskara.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sankara/brahma-sutra-bhasya/1.1.4",
-            "cite://sankara/brahma-sutra-bhasya/2.1.14",
-            "cite://sankara/brahma-sutra-bhasya/2.3.43",
-            "cite://sankara/brahma-sutra-bhasya/2.1.14-20"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sankara/brahma-sutra-bhasya/1.1.4",
+      "confidence": "low"
     }
   ],
   "cross_engagements": []

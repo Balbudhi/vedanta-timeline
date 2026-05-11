@@ -55,193 +55,57 @@
       "primitive": "affective_motive_force",
       "value": "devotion",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/ramakrishna.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://ramakrishna/gospel-of-sri-ramakrishna/1.4",
-            "cite://ramakrishna/gospel-of-sri-ramakrishna/2.18"
-          ]
-        },
-        {
-          "kind": "source_article",
-          "ref": "data/articles/source/vivekananda-ramakrishna.md"
-        }
-      ]
+      "citation_locus": "cite://ramakrishna/gospel-of-sri-ramakrishna/1.4",
+      "confidence": "medium"
     },
     {
       "primitive": "epistemic_authority",
       "value": "scripture-plus-transformative-experience",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/ramakrishna.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://ramakrishna/gospel-of-sri-ramakrishna/1.4",
-            "cite://ramakrishna/gospel-of-sri-ramakrishna/2.18"
-          ]
-        },
-        {
-          "kind": "source_article",
-          "ref": "data/articles/source/vivekananda-ramakrishna.md"
-        }
-      ]
+      "citation_locus": "cite://ramakrishna/gospel-of-sri-ramakrishna/1.4",
+      "confidence": "medium"
     },
     {
       "primitive": "identity_relation",
       "value": "self-expression-or-appearance",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/ramakrishna.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://ramakrishna/gospel-of-sri-ramakrishna/1.4",
-            "cite://ramakrishna/gospel-of-sri-ramakrishna/2.18"
-          ]
-        },
-        {
-          "kind": "source_article",
-          "ref": "data/articles/source/vivekananda-ramakrishna.md"
-        }
-      ]
+      "citation_locus": "cite://ramakrishna/gospel-of-sri-ramakrishna/1.4",
+      "confidence": "medium"
     },
     {
       "primitive": "manifestation_status",
       "value": "expressive-manifestation",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/ramakrishna.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://ramakrishna/gospel-of-sri-ramakrishna/1.4",
-            "cite://ramakrishna/gospel-of-sri-ramakrishna/2.18"
-          ]
-        },
-        {
-          "kind": "source_article",
-          "ref": "data/articles/source/vivekananda-ramakrishna.md"
-        }
-      ]
+      "citation_locus": "cite://ramakrishna/gospel-of-sri-ramakrishna/1.4",
+      "confidence": "medium"
     },
     {
       "primitive": "modal_structure_of_truth",
       "value": "context-indexed-without-final-hierarchy",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/ramakrishna.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://ramakrishna/gospel-of-sri-ramakrishna/1.4",
-            "cite://ramakrishna/gospel-of-sri-ramakrishna/2.18"
-          ]
-        },
-        {
-          "kind": "source_article",
-          "ref": "data/articles/source/vivekananda-ramakrishna.md"
-        }
-      ]
+      "citation_locus": "cite://ramakrishna/gospel-of-sri-ramakrishna/1.4",
+      "confidence": "medium"
     },
     {
       "primitive": "practice_path",
       "value": "devotion-and-grace",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/ramakrishna.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://ramakrishna/gospel-of-sri-ramakrishna/1.4",
-            "cite://ramakrishna/gospel-of-sri-ramakrishna/2.18"
-          ]
-        },
-        {
-          "kind": "source_article",
-          "ref": "data/articles/source/vivekananda-ramakrishna.md"
-        }
-      ]
+      "citation_locus": "cite://ramakrishna/gospel-of-sri-ramakrishna/1.4",
+      "confidence": "medium"
     },
     {
       "primitive": "relation_to_perspectivism",
       "value": "irreducible-true-perspectives",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/ramakrishna.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://ramakrishna/gospel-of-sri-ramakrishna/1.4",
-            "cite://ramakrishna/gospel-of-sri-ramakrishna/2.18"
-          ]
-        },
-        {
-          "kind": "source_article",
-          "ref": "data/articles/source/vivekananda-ramakrishna.md"
-        }
-      ]
+      "citation_locus": "cite://ramakrishna/gospel-of-sri-ramakrishna/1.4",
+      "confidence": "medium"
     },
     {
       "primitive": "soteric_end",
       "value": "loving-participation",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/ramakrishna.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://ramakrishna/gospel-of-sri-ramakrishna/1.4",
-            "cite://ramakrishna/gospel-of-sri-ramakrishna/2.18"
-          ]
-        },
-        {
-          "kind": "source_article",
-          "ref": "data/articles/source/vivekananda-ramakrishna.md"
-        }
-      ]
+      "citation_locus": "cite://ramakrishna/gospel-of-sri-ramakrishna/1.4",
+      "confidence": "medium"
     }
   ],
   "cross_engagements": []

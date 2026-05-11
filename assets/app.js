@@ -233,6 +233,31 @@ async function loadJSON(path) {
   } catch (e) { return null; }
 }
 
+async function loadPrimitiveGraph() {
+  if (state.primitiveGraph) return state.primitiveGraph;
+  state.primitiveGraph = await loadJSON("data/registries/primitive_graph.json");
+  try { window.__primitiveGraph = state.primitiveGraph; } catch (_) {}
+  return state.primitiveGraph;
+}
+
+async function loadThinkerById(thinkerId) {
+  if (!thinkerId) return null;
+  if (state.thinkersById.has(thinkerId)) return state.thinkersById.get(thinkerId);
+  const thinker = await loadJSON(`data/thinkers/${thinkerId}.json`);
+  if (thinker) state.thinkersById.set(thinkerId, thinker);
+  return thinker;
+}
+
+async function getPrimitiveCommitments(thinkerId) {
+  const thinker = await loadThinkerById(thinkerId);
+  return Array.isArray(thinker?.primitive_commitments) ? thinker.primitive_commitments : [];
+}
+
+async function getCrossEngagements(thinkerId) {
+  const thinker = await loadThinkerById(thinkerId);
+  return Array.isArray(thinker?.cross_engagements) ? thinker.cross_engagements : [];
+}
+
 async function loadAll() {
   const manifest = await loadJSON("data/manifest.json");
   if (!manifest) {
@@ -241,8 +266,7 @@ async function loadAll() {
   }
   state.schools     = (await loadJSON("data/registries/schools.json"))     || {};
   state.subSchools  = (await loadJSON("data/registries/sub_schools.json")) || {};
-  state.primitiveGraph = await loadJSON("data/registries/primitive_graph.json");
-  try { window.__primitiveGraph = state.primitiveGraph; } catch (_) {}
+  await loadPrimitiveGraph();
 
   const thinkers = await Promise.all(
     (manifest.thinkers || []).map((f) => loadJSON(`data/thinkers/${f}`))
@@ -301,6 +325,12 @@ async function loadAll() {
   updateSubtitle();
   scrollToInitialFocus();
 }
+
+try {
+  window.loadPrimitiveGraph = loadPrimitiveGraph;
+  window.getPrimitiveCommitments = getPrimitiveCommitments;
+  window.getCrossEngagements = getCrossEngagements;
+} catch (_) {}
 
 function scrollToInitialFocus() {
   if (state.hasInitialScroll) return;

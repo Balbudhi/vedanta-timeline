@@ -60,39 +60,15 @@
       "primitive": "manifestation_status",
       "value": "expressive-manifestation",
       "register": "metaphysical",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/lakshmidhara.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sankara/saundarya-lahari/1"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sankara/saundarya-lahari/1",
+      "confidence": "low"
     },
     {
       "primitive": "practice_path",
       "value": "devotion-and-grace",
       "register": "soteriological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/lakshmidhara.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sankara/saundarya-lahari/1"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sankara/saundarya-lahari/1",
+      "confidence": "low"
     }
   ],
   "cross_engagements": []

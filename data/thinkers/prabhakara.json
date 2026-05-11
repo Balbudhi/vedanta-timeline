@@ -62,92 +62,50 @@
       "primitive": "determination_operator",
       "value": "ritual-specification",
       "register": "logical-dialectical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/prabhakara.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Bṛhatī",
+      "confidence": "medium"
     },
     {
       "primitive": "epistemic_authority",
       "value": "ritual-injunction",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/prabhakara.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Bṛhatī",
+      "confidence": "medium"
     },
     {
       "primitive": "method_of_critique",
       "value": "commentarial-exegesis",
       "register": "methodological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/prabhakara.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Bṛhatī",
+      "confidence": "medium"
     },
     {
       "primitive": "normative_order_source",
       "value": "scriptural-injunction",
       "register": "ritual-normative",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/prabhakara.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Bṛhatī",
+      "confidence": "medium"
     },
     {
       "primitive": "practice_path",
       "value": "ritual-observance",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/prabhakara.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Bṛhatī",
+      "confidence": "medium"
     },
     {
       "primitive": "semantic_mediation",
       "value": "language-binds-action",
       "register": "semantic-linguistic",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/prabhakara.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Bṛhatī",
+      "confidence": "medium"
     },
     {
       "primitive": "soteric_end",
       "value": "not-soteriological",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/prabhakara.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Bṛhatī",
+      "confidence": "medium"
     }
   ],
   "cross_engagements": []

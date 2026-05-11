@@ -55,61 +55,22 @@
       "primitive": "affective_motive_force",
       "value": "desire-and-drive",
       "register": "phenomenological",
-      "confidence": "high",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/freud.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://freud/the-interpretation-of-dreams/7",
-            "cite://freud/beyond-the-pleasure-principle/5"
-          ]
-        }
-      ]
+      "citation_locus": "cite://freud/the-interpretation-of-dreams/7",
+      "confidence": "high"
     },
     {
       "primitive": "selfhood_structure",
       "value": "split-or-produced-subject",
       "register": "phenomenological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/freud.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://freud/the-interpretation-of-dreams/7",
-            "cite://freud/beyond-the-pleasure-principle/5"
-          ]
-        }
-      ]
+      "citation_locus": "cite://freud/the-interpretation-of-dreams/7",
+      "confidence": "medium"
     },
     {
       "primitive": "soteric_end",
       "value": "not-soteriological",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/freud.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://freud/the-interpretation-of-dreams/7",
-            "cite://freud/beyond-the-pleasure-principle/5"
-          ]
-        }
-      ]
+      "citation_locus": "cite://freud/the-interpretation-of-dreams/7",
+      "confidence": "medium"
     }
   ],
   "cross_engagements": []

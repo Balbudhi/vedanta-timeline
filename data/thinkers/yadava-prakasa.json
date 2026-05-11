@@ -72,111 +72,36 @@
       "primitive": "epistemic_authority",
       "value": "scripture-dominant",
       "register": "epistemological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/yadava-prakasa.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://ramanuja/vedartha-samgraha/22-28",
-            "cite://badarayana/brahma-sutra/1.1.1",
-            "cite://ramanuja/vedartha-samgraha/22",
-            "cite://ramanuja/shri-bhasya/1.1.1"
-          ]
-        }
-      ]
+      "citation_locus": "cite://ramanuja/vedartha-samgraha/22-28",
+      "confidence": "low"
     },
     {
       "primitive": "identity_relation",
       "value": "natural-difference-non-difference",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/yadava-prakasa.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://ramanuja/vedartha-samgraha/22-28",
-            "cite://badarayana/brahma-sutra/1.1.1",
-            "cite://ramanuja/vedartha-samgraha/22",
-            "cite://ramanuja/shri-bhasya/1.1.1"
-          ]
-        }
-      ]
+      "citation_locus": "cite://ramanuja/vedartha-samgraha/22-28",
+      "confidence": "medium"
     },
     {
       "primitive": "manifestation_status",
       "value": "dependent-real",
       "register": "metaphysical",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/yadava-prakasa.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://ramanuja/vedartha-samgraha/22-28",
-            "cite://badarayana/brahma-sutra/1.1.1",
-            "cite://ramanuja/vedartha-samgraha/22",
-            "cite://ramanuja/shri-bhasya/1.1.1"
-          ]
-        }
-      ]
+      "citation_locus": "cite://ramanuja/vedartha-samgraha/22-28",
+      "confidence": "low"
     },
     {
       "primitive": "practice_path",
       "value": "knowledge-discipline",
       "register": "soteriological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/yadava-prakasa.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://ramanuja/vedartha-samgraha/22-28",
-            "cite://badarayana/brahma-sutra/1.1.1",
-            "cite://ramanuja/vedartha-samgraha/22",
-            "cite://ramanuja/shri-bhasya/1.1.1"
-          ]
-        }
-      ]
+      "citation_locus": "cite://ramanuja/vedartha-samgraha/22-28",
+      "confidence": "low"
     },
     {
       "primitive": "soteric_end",
       "value": "identity-with-ground",
       "register": "soteriological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/yadava-prakasa.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://ramanuja/vedartha-samgraha/22-28",
-            "cite://badarayana/brahma-sutra/1.1.1",
-            "cite://ramanuja/vedartha-samgraha/22",
-            "cite://ramanuja/shri-bhasya/1.1.1"
-          ]
-        }
-      ]
+      "citation_locus": "cite://ramanuja/vedartha-samgraha/22-28",
+      "confidence": "low"
     }
   ],
   "cross_engagements": []

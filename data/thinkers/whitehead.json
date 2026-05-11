@@ -68,201 +68,105 @@
       "primitive": "causation_model",
       "value": "processual-concrescence",
       "register": "metaphysical",
-      "confidence": "high",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/whitehead.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://whitehead/process-and-reality/1.2",
-            "cite://whitehead/process-and-reality/2.3"
-          ]
-        },
-        {
-          "kind": "source_article",
-          "ref": "data/articles/source/whitehead.md"
-        }
-      ]
+      "citation_locus": "cite://whitehead/process-and-reality/1.2",
+      "confidence": "high"
     },
     {
       "primitive": "manifestation_status",
       "value": "dependent-real",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/whitehead.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://whitehead/process-and-reality/1.2",
-            "cite://whitehead/process-and-reality/2.3"
-          ]
-        },
-        {
-          "kind": "source_article",
-          "ref": "data/articles/source/whitehead.md"
-        }
-      ]
+      "citation_locus": "cite://whitehead/process-and-reality/1.2",
+      "confidence": "medium"
     },
     {
       "primitive": "register_of_evolution",
       "value": "durational-creative-growth",
       "register": "historical-genealogical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/whitehead.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://whitehead/process-and-reality/1.2",
-            "cite://whitehead/process-and-reality/2.3"
-          ]
-        },
-        {
-          "kind": "source_article",
-          "ref": "data/articles/source/whitehead.md"
-        }
-      ]
+      "citation_locus": "cite://whitehead/process-and-reality/1.2",
+      "confidence": "medium"
     },
     {
       "primitive": "soteric_end",
       "value": "not-soteriological",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/whitehead.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://whitehead/process-and-reality/1.2",
-            "cite://whitehead/process-and-reality/2.3"
-          ]
-        },
-        {
-          "kind": "source_article",
-          "ref": "data/articles/source/whitehead.md"
-        }
-      ]
+      "citation_locus": "cite://whitehead/process-and-reality/1.2",
+      "confidence": "medium"
     },
     {
       "primitive": "substrate_structure",
       "value": "process-field-with-no-enduring-substrate",
       "register": "metaphysical",
-      "confidence": "high",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/whitehead.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://whitehead/process-and-reality/1.2",
-            "cite://whitehead/process-and-reality/2.3"
-          ]
-        },
-        {
-          "kind": "source_article",
-          "ref": "data/articles/source/whitehead.md"
-        }
-      ]
+      "citation_locus": "cite://whitehead/process-and-reality/1.2",
+      "confidence": "high"
     },
     {
       "primitive": "temporal_mode",
       "value": "process-primary",
       "register": "metaphysical",
-      "confidence": "high",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/whitehead.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://whitehead/process-and-reality/1.2",
-            "cite://whitehead/process-and-reality/2.3"
-          ]
-        },
-        {
-          "kind": "source_article",
-          "ref": "data/articles/source/whitehead.md"
-        }
-      ]
+      "citation_locus": "cite://whitehead/process-and-reality/1.2",
+      "confidence": "high"
     }
   ],
   "cross_engagements": [
     {
-      "article": "data/articles/source/whitehead.md",
+      "counter_thinker": "abhinavagupta",
       "primitive": "substrate_structure",
+      "agreement_type": "genuine-disagreement",
       "register": "metaphysical",
-      "relation": "disagrees",
-      "other_thinker_id": "abhinavagupta",
-      "other_primary_citation": "cite://abhinavagupta/tantraloka/1.16",
-      "passage": "Cross-engagement: Abhinavagupta presses the same substrate structure axis in the metaphysical register, but with the value `one-self-standing` rather than `process-field-with-no-enduring-substrate` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+      "brief": "Abhinavagupta presses the same substrate structure axis in the metaphysical register, but with the value `one-self-standing` rather than `process-field-with-no-enduring-substrate`.",
+      "citations": [
+        "cite://abhinavagupta/tantraloka/1.16"
+      ]
     },
     {
-      "article": "data/articles/source/whitehead.md",
+      "counter_thinker": "sankara",
       "primitive": "manifestation_status",
+      "agreement_type": "genuine-disagreement",
       "register": "metaphysical",
-      "relation": "disagrees",
-      "other_thinker_id": "sankara",
-      "other_primary_citation": "cite://sankara/brahma-sutra-bhasya/1.1.1",
-      "passage": "Cross-engagement: Adi Sankara presses the same manifestation status axis in the metaphysical register, but with the value `sublatable-not-null` rather than `dependent-real` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+      "brief": "Adi Sankara presses the same manifestation status axis in the metaphysical register, but with the value `sublatable-not-null` rather than `dependent-real`.",
+      "citations": [
+        "cite://sankara/brahma-sutra-bhasya/1.1.1"
+      ]
     },
     {
-      "article": "data/articles/source/whitehead.md",
+      "counter_thinker": "gaudapada-samkhya",
       "primitive": "temporal_mode",
+      "agreement_type": "genuine-disagreement",
       "register": "metaphysical",
-      "relation": "disagrees",
-      "other_thinker_id": "gaudapada-samkhya",
-      "other_primary_citation": "cite://isvara-krsna/samkhya-karika/1",
-      "passage": "Cross-engagement: Gaudapada (Samkhya commentator) presses the same temporal mode axis in the metaphysical register, but with the value `substance-primary` rather than `process-primary` in [primary text](cite://isvara-krsna/samkhya-karika/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+      "brief": "Gaudapada (Samkhya commentator) presses the same temporal mode axis in the metaphysical register, but with the value `substance-primary` rather than `process-primary`.",
+      "citations": [
+        "cite://isvara-krsna/samkhya-karika/1"
+      ]
     },
     {
-      "article": "data/articles/source/whitehead.md",
+      "counter_thinker": "hegel",
       "primitive": "register_of_evolution",
+      "agreement_type": "genuine-disagreement",
       "register": "historical-genealogical",
-      "relation": "disagrees",
-      "other_thinker_id": "hegel",
-      "other_primary_citation": "cite://hegel/phenomenology-of-spirit/17",
-      "passage": "Cross-engagement: G. W. F. Hegel presses the same evolution register axis in the historical-genealogical register, but with the value `sublative-becoming` rather than `durational-creative-growth` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+      "brief": "G. W. F. Hegel presses the same evolution register axis in the historical-genealogical register, but with the value `sublative-becoming` rather than `durational-creative-growth`.",
+      "citations": [
+        "cite://hegel/phenomenology-of-spirit/17"
+      ]
     },
     {
-      "article": "data/articles/source/whitehead.md",
+      "counter_thinker": "akalanka",
       "primitive": "soteric_end",
+      "agreement_type": "genuine-disagreement",
       "register": "soteriological",
-      "relation": "disagrees",
-      "other_thinker_id": "akalanka",
-      "other_primary_citation": "cite://umasvati/tattvartha-sutra/1.34-35",
-      "passage": "Cross-engagement: Akalanka presses the same soteric end axis in the soteriological register, but with the value `isolation-or-discriminative-release` rather than `not-soteriological` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+      "brief": "Akalanka presses the same soteric end axis in the soteriological register, but with the value `isolation-or-discriminative-release` rather than `not-soteriological`.",
+      "citations": [
+        "cite://umasvati/tattvartha-sutra/1.34-35"
+      ]
     },
     {
-      "article": "data/articles/source/whitehead.md",
+      "counter_thinker": "baladeva",
       "primitive": "causation_model",
+      "agreement_type": "genuine-disagreement",
       "register": "metaphysical",
-      "relation": "disagrees",
-      "other_thinker_id": "baladeva",
-      "other_primary_citation": "cite://badarayana/brahma-sutra/1.1.1",
-      "passage": "Cross-engagement: Baladeva Vidyabhushana presses the same causation model axis in the metaphysical register, but with the value `unchanged-ground-with-changing-power` rather than `processual-concrescence` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+      "brief": "Baladeva Vidyabhushana presses the same causation model axis in the metaphysical register, but with the value `unchanged-ground-with-changing-power` rather than `processual-concrescence`.",
+      "citations": [
+        "cite://badarayana/brahma-sutra/1.1.1"
+      ]
     }
   ]
 }

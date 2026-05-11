@@ -42,61 +42,22 @@
       "primitive": "affective_motive_force",
       "value": "aesthetic-rapture",
       "register": "aesthetic",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/coomaraswamy.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://coomaraswamy/the-transformation-of-nature-in-art/1",
-            "cite://coomaraswamy/hinduism-and-buddhism/2"
-          ]
-        }
-      ]
+      "citation_locus": "cite://coomaraswamy/the-transformation-of-nature-in-art/1",
+      "confidence": "medium"
     },
     {
       "primitive": "method_of_critique",
       "value": "comparative-reading",
       "register": "methodological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/coomaraswamy.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://coomaraswamy/the-transformation-of-nature-in-art/1",
-            "cite://coomaraswamy/hinduism-and-buddhism/2"
-          ]
-        }
-      ]
+      "citation_locus": "cite://coomaraswamy/the-transformation-of-nature-in-art/1",
+      "confidence": "medium"
     },
     {
       "primitive": "semantic_mediation",
       "value": "language-as-creative-manifestation",
       "register": "aesthetic",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/coomaraswamy.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://coomaraswamy/the-transformation-of-nature-in-art/1",
-            "cite://coomaraswamy/hinduism-and-buddhism/2"
-          ]
-        }
-      ]
+      "citation_locus": "cite://coomaraswamy/the-transformation-of-nature-in-art/1",
+      "confidence": "low"
     }
   ],
   "cross_engagements": []

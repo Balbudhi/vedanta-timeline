@@ -29,81 +29,29 @@
       "primitive": "causation_model",
       "value": "immanent-expression",
       "register": "metaphysical",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/melamed.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://melamed/spinozas-metaphysics/1",
-            "cite://melamed/spinozas-metaphysics/2"
-          ]
-        }
-      ]
+      "citation_locus": "cite://melamed/spinozas-metaphysics/1",
+      "confidence": "low"
     },
     {
       "primitive": "method_of_critique",
       "value": "comparative-reading",
       "register": "methodological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/melamed.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://melamed/spinozas-metaphysics/1",
-            "cite://melamed/spinozas-metaphysics/2"
-          ]
-        }
-      ]
+      "citation_locus": "cite://melamed/spinozas-metaphysics/1",
+      "confidence": "low"
     },
     {
       "primitive": "soteric_end",
       "value": "not-soteriological",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/melamed.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://melamed/spinozas-metaphysics/1",
-            "cite://melamed/spinozas-metaphysics/2"
-          ]
-        }
-      ]
+      "citation_locus": "cite://melamed/spinozas-metaphysics/1",
+      "confidence": "medium"
     },
     {
       "primitive": "substrate_structure",
       "value": "one-self-standing",
       "register": "metaphysical",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/melamed.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://melamed/spinozas-metaphysics/1",
-            "cite://melamed/spinozas-metaphysics/2"
-          ]
-        }
-      ]
+      "citation_locus": "cite://melamed/spinozas-metaphysics/1",
+      "confidence": "low"
     }
   ],
   "cross_engagements": []

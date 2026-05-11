@@ -70,79 +70,43 @@
       "primitive": "manifestation_status",
       "value": "self-standing-real",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/prashastapada.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Padārtha-Dharma-Saṅgraha",
+      "confidence": "medium"
     },
     {
       "primitive": "practice_path",
       "value": "knowledge-discipline",
       "register": "soteriological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/prashastapada.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Padārtha-Dharma-Saṅgraha",
+      "confidence": "low"
     },
     {
       "primitive": "selfhood_structure",
       "value": "substantial-self",
       "register": "phenomenological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/prashastapada.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Padārtha-Dharma-Saṅgraha",
+      "confidence": "medium"
     },
     {
       "primitive": "semantic_mediation",
       "value": "language-tracks-reality",
       "register": "semantic-linguistic",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/prashastapada.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Padārtha-Dharma-Saṅgraha",
+      "confidence": "medium"
     },
     {
       "primitive": "soteric_end",
       "value": "isolation-or-discriminative-release",
       "register": "soteriological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/prashastapada.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Padārtha-Dharma-Saṅgraha",
+      "confidence": "low"
     },
     {
       "primitive": "substrate_structure",
       "value": "many-coordinate-reals",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/prashastapada.json",
-          "field": "core_thesis"
-        }
-      ]
+      "citation_locus": "Padārtha-Dharma-Saṅgraha",
+      "confidence": "medium"
     }
   ],
   "cross_engagements": []

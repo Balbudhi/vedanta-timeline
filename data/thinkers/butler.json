@@ -42,101 +42,36 @@
       "primitive": "method_of_critique",
       "value": "genealogy",
       "register": "historical-genealogical",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/butler.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://butler/gender-trouble/3",
-            "cite://butler/bodies-that-matter/introduction"
-          ]
-        }
-      ]
+      "citation_locus": "cite://butler/gender-trouble/3",
+      "confidence": "low"
     },
     {
       "primitive": "normative_order_source",
       "value": "disciplinary-power",
       "register": "political-social",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/butler.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://butler/gender-trouble/3",
-            "cite://butler/bodies-that-matter/introduction"
-          ]
-        }
-      ]
+      "citation_locus": "cite://butler/gender-trouble/3",
+      "confidence": "low"
     },
     {
       "primitive": "selfhood_structure",
       "value": "split-or-produced-subject",
       "register": "phenomenological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/butler.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://butler/gender-trouble/3",
-            "cite://butler/bodies-that-matter/introduction"
-          ]
-        }
-      ]
+      "citation_locus": "cite://butler/gender-trouble/3",
+      "confidence": "medium"
     },
     {
       "primitive": "social_formation_model",
       "value": "performative-norm-repetition",
       "register": "political-social",
-      "confidence": "high",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/butler.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://butler/gender-trouble/3",
-            "cite://butler/bodies-that-matter/introduction"
-          ]
-        }
-      ]
+      "citation_locus": "cite://butler/gender-trouble/3",
+      "confidence": "high"
     },
     {
       "primitive": "soteric_end",
       "value": "not-soteriological",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/butler.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://butler/gender-trouble/3",
-            "cite://butler/bodies-that-matter/introduction"
-          ]
-        }
-      ]
+      "citation_locus": "cite://butler/gender-trouble/3",
+      "confidence": "medium"
     }
   ],
   "cross_engagements": []

@@ -211,221 +211,71 @@
       "primitive": "causation_model",
       "value": "body-soul-causation",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/uttamur-viraraghavacharya.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://mandana/brahma-siddhi/1.1",
-            "cite://kanada/vaisesika-sutra/1.1.4",
-            "cite://vedanta-desika/nyaya-parishuddhi/1",
-            "cite://vedanta-desika/tattva-mukta-kalapa/II.7-9"
-          ]
-        }
-      ]
+      "citation_locus": "cite://mandana/brahma-siddhi/1.1",
+      "confidence": "medium"
     },
     {
       "primitive": "epistemic_authority",
       "value": "scripture-dominant",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/uttamur-viraraghavacharya.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://mandana/brahma-siddhi/1.1",
-            "cite://kanada/vaisesika-sutra/1.1.4",
-            "cite://vedanta-desika/nyaya-parishuddhi/1",
-            "cite://vedanta-desika/tattva-mukta-kalapa/II.7-9"
-          ]
-        }
-      ]
+      "citation_locus": "cite://mandana/brahma-siddhi/1.1",
+      "confidence": "medium"
     },
     {
       "primitive": "identity_relation",
       "value": "body-soul-qualification",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/uttamur-viraraghavacharya.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://mandana/brahma-siddhi/1.1",
-            "cite://kanada/vaisesika-sutra/1.1.4",
-            "cite://vedanta-desika/nyaya-parishuddhi/1",
-            "cite://vedanta-desika/tattva-mukta-kalapa/II.7-9"
-          ]
-        }
-      ]
+      "citation_locus": "cite://mandana/brahma-siddhi/1.1",
+      "confidence": "medium"
     },
     {
       "primitive": "individuation_status",
       "value": "qualified-mode",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/uttamur-viraraghavacharya.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://mandana/brahma-siddhi/1.1",
-            "cite://kanada/vaisesika-sutra/1.1.4",
-            "cite://vedanta-desika/nyaya-parishuddhi/1",
-            "cite://vedanta-desika/tattva-mukta-kalapa/II.7-9"
-          ]
-        }
-      ]
+      "citation_locus": "cite://mandana/brahma-siddhi/1.1",
+      "confidence": "medium"
     },
     {
       "primitive": "manifestation_status",
       "value": "dependent-real",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/uttamur-viraraghavacharya.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://mandana/brahma-siddhi/1.1",
-            "cite://kanada/vaisesika-sutra/1.1.4",
-            "cite://vedanta-desika/nyaya-parishuddhi/1",
-            "cite://vedanta-desika/tattva-mukta-kalapa/II.7-9"
-          ]
-        }
-      ]
+      "citation_locus": "cite://mandana/brahma-siddhi/1.1",
+      "confidence": "medium"
     },
     {
       "primitive": "modal_structure_of_truth",
       "value": "single-absolute-truth",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/uttamur-viraraghavacharya.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://mandana/brahma-siddhi/1.1",
-            "cite://kanada/vaisesika-sutra/1.1.4",
-            "cite://vedanta-desika/nyaya-parishuddhi/1",
-            "cite://vedanta-desika/tattva-mukta-kalapa/II.7-9"
-          ]
-        }
-      ]
+      "citation_locus": "cite://mandana/brahma-siddhi/1.1",
+      "confidence": "medium"
     },
     {
       "primitive": "normative_order_source",
       "value": "divine-command-or-grace",
       "register": "ethical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/uttamur-viraraghavacharya.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://mandana/brahma-siddhi/1.1",
-            "cite://kanada/vaisesika-sutra/1.1.4",
-            "cite://vedanta-desika/nyaya-parishuddhi/1",
-            "cite://vedanta-desika/tattva-mukta-kalapa/II.7-9"
-          ]
-        }
-      ]
+      "citation_locus": "cite://mandana/brahma-siddhi/1.1",
+      "confidence": "medium"
     },
     {
       "primitive": "practice_path",
       "value": "devotion-and-grace",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/uttamur-viraraghavacharya.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://mandana/brahma-siddhi/1.1",
-            "cite://kanada/vaisesika-sutra/1.1.4",
-            "cite://vedanta-desika/nyaya-parishuddhi/1",
-            "cite://vedanta-desika/tattva-mukta-kalapa/II.7-9"
-          ]
-        }
-      ]
+      "citation_locus": "cite://mandana/brahma-siddhi/1.1",
+      "confidence": "medium"
     },
     {
       "primitive": "soteric_end",
       "value": "service-with-distinction-preserved",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/uttamur-viraraghavacharya.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://mandana/brahma-siddhi/1.1",
-            "cite://kanada/vaisesika-sutra/1.1.4",
-            "cite://vedanta-desika/nyaya-parishuddhi/1",
-            "cite://vedanta-desika/tattva-mukta-kalapa/II.7-9"
-          ]
-        }
-      ]
+      "citation_locus": "cite://mandana/brahma-siddhi/1.1",
+      "confidence": "medium"
     },
     {
       "primitive": "substrate_structure",
       "value": "one-qualified-by-real-internal-distinctions",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/uttamur-viraraghavacharya.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://mandana/brahma-siddhi/1.1",
-            "cite://kanada/vaisesika-sutra/1.1.4",
-            "cite://vedanta-desika/nyaya-parishuddhi/1",
-            "cite://vedanta-desika/tattva-mukta-kalapa/II.7-9"
-          ]
-        }
-      ]
+      "citation_locus": "cite://mandana/brahma-siddhi/1.1",
+      "confidence": "medium"
     }
   ],
   "cross_engagements": []

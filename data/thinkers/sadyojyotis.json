@@ -145,67 +145,22 @@
       "primitive": "manifestation_status",
       "value": "dependent-real",
       "register": "metaphysical",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/sadyojyotis.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sadyojyotis/naresvara-pariksa/1.1-25",
-            "cite://sadyojyotis/naresvara-pariksa/2.1-40",
-            "cite://sadyojyotis/naresvara-pariksa/3.1-40",
-            "cite://sadyojyotis/naresvara-pariksa/1.10-25"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sadyojyotis/naresvara-pariksa/1.1-25",
+      "confidence": "low"
     },
     {
       "primitive": "practice_path",
       "value": "meditative-discipline",
       "register": "soteriological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/sadyojyotis.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sadyojyotis/naresvara-pariksa/1.1-25",
-            "cite://sadyojyotis/naresvara-pariksa/2.1-40",
-            "cite://sadyojyotis/naresvara-pariksa/3.1-40",
-            "cite://sadyojyotis/naresvara-pariksa/1.10-25"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sadyojyotis/naresvara-pariksa/1.1-25",
+      "confidence": "low"
     },
     {
       "primitive": "substrate_structure",
       "value": "one-independent-plus-real-dependents",
       "register": "metaphysical",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/sadyojyotis.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://sadyojyotis/naresvara-pariksa/1.1-25",
-            "cite://sadyojyotis/naresvara-pariksa/2.1-40",
-            "cite://sadyojyotis/naresvara-pariksa/3.1-40",
-            "cite://sadyojyotis/naresvara-pariksa/1.10-25"
-          ]
-        }
-      ]
+      "citation_locus": "cite://sadyojyotis/naresvara-pariksa/1.1-25",
+      "confidence": "low"
     }
   ],
   "cross_engagements": []

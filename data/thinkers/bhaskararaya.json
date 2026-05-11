@@ -101,64 +101,22 @@
       "primitive": "epistemic_authority",
       "value": "scripture-plus-transformative-experience",
       "register": "epistemological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/bhaskararaya.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://bhaskararaya/varivasya-rahasya/1.1-10",
-            "cite://bhaskararaya/varivasya-rahasya/2.1-35",
-            "cite://bhaskararaya/varivasya-rahasya/1.11-80"
-          ]
-        }
-      ]
+      "citation_locus": "cite://bhaskararaya/varivasya-rahasya/1.1-10",
+      "confidence": "low"
     },
     {
       "primitive": "manifestation_status",
       "value": "expressive-manifestation",
       "register": "metaphysical",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/bhaskararaya.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://bhaskararaya/varivasya-rahasya/1.1-10",
-            "cite://bhaskararaya/varivasya-rahasya/2.1-35",
-            "cite://bhaskararaya/varivasya-rahasya/1.11-80"
-          ]
-        }
-      ]
+      "citation_locus": "cite://bhaskararaya/varivasya-rahasya/1.1-10",
+      "confidence": "low"
     },
     {
       "primitive": "practice_path",
       "value": "devotion-and-grace",
       "register": "soteriological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/bhaskararaya.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://bhaskararaya/varivasya-rahasya/1.1-10",
-            "cite://bhaskararaya/varivasya-rahasya/2.1-35",
-            "cite://bhaskararaya/varivasya-rahasya/1.11-80"
-          ]
-        }
-      ]
+      "citation_locus": "cite://bhaskararaya/varivasya-rahasya/1.1-10",
+      "confidence": "low"
     }
   ],
   "cross_engagements": []

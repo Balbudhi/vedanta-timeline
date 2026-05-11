@@ -29,101 +29,36 @@
       "primitive": "epistemic_authority",
       "value": "comparative-theological-reading",
       "register": "epistemological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/maharaj.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://maharaj/infinite-paths-to-infinite-reality/1",
-            "cite://maharaj/infinite-paths-to-infinite-reality/5"
-          ]
-        }
-      ]
+      "citation_locus": "cite://maharaj/infinite-paths-to-infinite-reality/1",
+      "confidence": "low"
     },
     {
       "primitive": "manifestation_status",
       "value": "expressive-manifestation",
       "register": "metaphysical",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/maharaj.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://maharaj/infinite-paths-to-infinite-reality/1",
-            "cite://maharaj/infinite-paths-to-infinite-reality/5"
-          ]
-        }
-      ]
+      "citation_locus": "cite://maharaj/infinite-paths-to-infinite-reality/1",
+      "confidence": "low"
     },
     {
       "primitive": "practice_path",
       "value": "knowledge-discipline",
       "register": "soteriological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/maharaj.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://maharaj/infinite-paths-to-infinite-reality/1",
-            "cite://maharaj/infinite-paths-to-infinite-reality/5"
-          ]
-        }
-      ]
+      "citation_locus": "cite://maharaj/infinite-paths-to-infinite-reality/1",
+      "confidence": "low"
     },
     {
       "primitive": "soteric_end",
       "value": "identity-with-ground",
       "register": "soteriological",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/maharaj.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://maharaj/infinite-paths-to-infinite-reality/1",
-            "cite://maharaj/infinite-paths-to-infinite-reality/5"
-          ]
-        }
-      ]
+      "citation_locus": "cite://maharaj/infinite-paths-to-infinite-reality/1",
+      "confidence": "low"
     },
     {
       "primitive": "substrate_structure",
       "value": "one-self-standing",
       "register": "metaphysical",
-      "confidence": "low",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/maharaj.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://maharaj/infinite-paths-to-infinite-reality/1",
-            "cite://maharaj/infinite-paths-to-infinite-reality/5"
-          ]
-        }
-      ]
+      "citation_locus": "cite://maharaj/infinite-paths-to-infinite-reality/1",
+      "confidence": "low"
     }
   ],
   "cross_engagements": []

@@ -188,134 +188,57 @@
       "primitive": "epistemic_authority",
       "value": "plural-pramana-realism",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/akalanka.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://umasvati/tattvartha-sutra/1.34-35"
-          ]
-        }
-      ]
+      "citation_locus": "cite://umasvati/tattvartha-sutra/1.34-35",
+      "confidence": "medium"
     },
     {
       "primitive": "manifestation_status",
       "value": "self-standing-real",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/akalanka.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://umasvati/tattvartha-sutra/1.34-35"
-          ]
-        }
-      ]
+      "citation_locus": "cite://umasvati/tattvartha-sutra/1.34-35",
+      "confidence": "medium"
     },
     {
       "primitive": "modal_structure_of_truth",
       "value": "standpoint-conditioned-realism",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/akalanka.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://umasvati/tattvartha-sutra/1.34-35"
-          ]
-        }
-      ]
+      "citation_locus": "cite://umasvati/tattvartha-sutra/1.34-35",
+      "confidence": "medium"
     },
     {
       "primitive": "practice_path",
       "value": "meditative-discipline",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/akalanka.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://umasvati/tattvartha-sutra/1.34-35"
-          ]
-        }
-      ]
+      "citation_locus": "cite://umasvati/tattvartha-sutra/1.34-35",
+      "confidence": "medium"
     },
     {
       "primitive": "relation_to_perspectivism",
       "value": "irreducible-true-perspectives",
       "register": "epistemological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/akalanka.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://umasvati/tattvartha-sutra/1.34-35"
-          ]
-        }
-      ]
+      "citation_locus": "cite://umasvati/tattvartha-sutra/1.34-35",
+      "confidence": "medium"
     },
     {
       "primitive": "soteric_end",
       "value": "isolation-or-discriminative-release",
       "register": "soteriological",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/akalanka.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://umasvati/tattvartha-sutra/1.34-35"
-          ]
-        }
-      ]
+      "citation_locus": "cite://umasvati/tattvartha-sutra/1.34-35",
+      "confidence": "medium"
+    },
+    {
+      "primitive": "standpoint_predication",
+      "value": "sevenfold-conditioned-predication",
+      "register": "semantic-linguistic",
+      "citation_locus": "cite://umasvati/tattvartha-sutra/1.34-35",
+      "confidence": "high"
     },
     {
       "primitive": "substrate_structure",
       "value": "many-coordinate-reals",
       "register": "metaphysical",
-      "confidence": "medium",
-      "evidence": [
-        {
-          "kind": "thinker_json",
-          "ref": "data/thinkers/akalanka.json",
-          "field": "core_thesis"
-        },
-        {
-          "kind": "primary",
-          "refs": [
-            "cite://umasvati/tattvartha-sutra/1.34-35"
-          ]
-        }
-      ]
+      "citation_locus": "cite://umasvati/tattvartha-sutra/1.34-35",
+      "confidence": "medium"
     }
   ],
   "cross_engagements": []
