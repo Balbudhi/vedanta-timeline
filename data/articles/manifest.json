@@ -339,6 +339,38 @@
       "date": "2026-05-10"
     },
     {
+      "slug": "kcb-kantian-perspectivism",
+      "title": "K. C. Bhattacharyya, the Kantian critique, and the Jaina-realist alternative to Hegelian sublation",
+      "subtitle": "KCB against Hegelian totalization, the limits of evolutionary metaphysics, and the defense of being and becoming as orthogonal registers.",
+      "kind": "essay",
+      "source_doc": "data/articles/source/kcb-kantian-perspectivism.md",
+      "tags": [
+        "KC-Bhattacharyya",
+        "Hegel",
+        "Aurobindo",
+        "Kant",
+        "anekanta-vada",
+        "syad-vada",
+        "subject-as-freedom",
+        "alternative-absolutes",
+        "Supermind",
+        "perspectivism"
+      ],
+      "for_thinker_ids": [
+        "kc-bhattacharyya",
+        "hegel",
+        "aurobindo",
+        "umasvati",
+        "kundakunda",
+        "akalanka",
+        "sankara",
+        "ramanuja",
+        "madhva"
+      ],
+      "word_count_approx": 9050,
+      "date": "2026-05-11"
+    },
+    {
       "slug": "leibniz",
       "title": "Leibniz — the monad as perspective, pre-established harmony, the aperspectival God",
       "subtitle": "A reading-session through the *Monadologie*, *Discours de métaphysique*, *Nouveaux Essais*, and the late correspondence with Clarke and Des Bosses.",
@@ -585,6 +617,26 @@
       "date": "2026-05-09"
     },
     {
+      "slug": "primitive-graph",
+      "title": "Primitive graph — a node-and-edge grammar for comparative philosophy",
+      "subtitle": "A register-disciplined graph of primitives, commitments, dependencies, and critique edges across Vedāntic and comparator positions.",
+      "kind": "framework",
+      "source_doc": "data/articles/source/primitive-graph.md",
+      "tags": [
+        "primitive-graph",
+        "comparative-framework",
+        "register-discipline",
+        "Vedānta",
+        "comparative-philosophy"
+      ],
+      "word_count_approx": 3465,
+      "date": "2026-05-11",
+      "supersedes": [
+        "primitive-model",
+        "comparative-claims-framework"
+      ]
+    },
+    {
       "slug": "primitive-model",
       "title": "An analytic-primitive model of Vedāntic and adjacent positions",
       "subtitle": "Nine structural primitives — substrate-independence, mode-status, identity-relation, causation, locus-of-avidyā, *bheda*-count, epistemic-authority, *mokṣa*-state, *bhakti*-role — and the derivation table per school.",
@@ -598,7 +650,10 @@
         "perspectivism"
       ],
       "word_count_approx": 4550,
-      "date": "2026-05-09"
+      "date": "2026-05-09",
+      "status": "superseded",
+      "superseded_by": "primitive-graph",
+      "superseded_note": "Replaced by the node-and-edge primitive graph, which splits primitive nodes from commitment and critique edges and adds register discipline."
     },
     {
       "slug": "comparative-claims-framework",
@@ -612,7 +667,10 @@
         "perspectivism"
       ],
       "word_count_approx": 2036,
-      "date": "2026-05-09"
+      "date": "2026-05-09",
+      "status": "superseded",
+      "superseded_by": "primitive-graph",
+      "superseded_note": "Its four-verdict schema now lives inside the primitive graph as a classification of critique and subsumption edges."
     },
     {
       "slug": "engagement-madhva__brahma-sutra-bhasya",

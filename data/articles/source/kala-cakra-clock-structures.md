@@ -683,7 +683,7 @@ The bearing on T1, T7, T9, T11 is direct. The bearing on the other theses is ind
 
 - **T3 (hierarchy is pedagogical, not metaphysical)** — The framework is consistent with this; it does not privilege any particular path to liberation, only the structural-architectural understanding of the cycle.
 
-- **T4 (all darśanas ultimately true)** — The framework integrates Sāṃkhya and the *kāla-cakra* literature (cross-school) as compositional and temporal-architectural complements, vindicating the structural-homological reading T4 endorses.
+- **T4 (all darśanas true as registers)** — The framework integrates Sāṃkhya and the *kāla-cakra* literature (cross-school) as compositional and temporal-architectural complements, vindicating the structural-homological reading T4 endorses.
 
 - **T5 (the directive question)** — The framework does not directly address the practitioner's directive question, but the kāla-cakra literature's articulation of the four-fold *pralaya* gives the practitioner a structural map of the path: the inner-clock's resonance-coupling progressively achieves *ātyantika pralaya* through the *yogic* discipline.
 
@@ -780,5 +780,4 @@ The reader is closed. The work continues.
 ---
 
 *End of `reader/13_kala_cakra_clock_structures.md`. Companion: `reader/12_samkhya_anirban.md`. Source materials: `materials/anirban/clock_structures/`, `materials/primary_texts/sanskrit/samkhya_metaphysics/`, `materials/primary_texts/sanskrit/pralaya_cosmology/`, `materials/primary_texts/sanskrit/kala_cakra/`. Compiled: 2026-05-08.*
-
 

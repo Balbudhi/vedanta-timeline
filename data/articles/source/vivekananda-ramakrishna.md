@@ -144,7 +144,7 @@ Three definitions, one structure: (a) *Cooking rice* — *jñāna* is theoretica
 
 ### The blind men and the elephant (T1, T4)
 
-The user's T1 (darśana register thesis) and T4 (all darśanas ultimately true) get their canonical Ramakrishna statement in the elephant parable. The setting in the *Kathāmṛta* is the Vaiṣṇava–Vedāntin disputation Ramakrishna repeatedly diffuses with this image; the version cited here is from the conversation in Sinthi, Benimādhav Pāl's garden-house (Brāhmo festival, autumn 1883):
+The user's T1 and T4 get a canonical Ramakrishna statement in the elephant parable. The setting in the *Kathāmṛta* is the Vaiṣṇava–Vedāntin disputation Ramakrishna repeatedly diffuses with this image; the version cited here is from the conversation in Sinthi, Benimādhav Pāl's garden-house (Brāhmo festival, autumn 1883):
 
 > "Once some blind men chanced to come near an animal that someone told them was an elephant. They were asked what the elephant was like. The blind men began to feel its body. One of them said the elephant was like a pillar; he had touched only its leg. Another said it was like a winnowing-fan; he had touched only its ear. In this way the others, having touched its tail or belly, gave their different versions of the elephant. Just so, a man who has seen only one aspect of God limits God to that alone. It is his conviction that God cannot be anything else."
 >

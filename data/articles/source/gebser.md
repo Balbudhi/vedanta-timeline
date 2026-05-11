@@ -371,7 +371,7 @@ The contrast is sharper than the usual reader notices.
 | Mental | Integral |
 | Closes the system | Opens to systasis |
 
-Synthesis is Hegel; synairesis is what supersedes Hegel without Hegelian totalization. **The user's exact need.** When the user wants to say "all darśanas are ultimately true *as registers* without any one of them being the master-register that unifies the others into a synthetic whole," the user is describing synairesis. Not synthesis: there is no third register that unifies Advaita and Tattvavāda. *Synairesis*: each register is grasped on its own terms, simultaneously, and the integration is not a new register but the **diaphanous through-shining of all of them**.
+Synthesis is Hegel; synairesis is what supersedes Hegel without Hegelian totalization. **The user's exact need.** When the user wants to say "all darśanas are true *as registers* without any one of them being the master-register that unifies the others into a synthetic whole," the user is describing synairesis. Not synthesis: there is no third register that unifies Advaita and Tattvavāda. *Synairesis*: each register is grasped on its own terms, simultaneously, and the integration is not a new register but the **diaphanous through-shining of all of them**.
 
 This is also why the user's thesis is **not** Hegelian. The user knows it is not Hegelian, and has flagged the difference (T11: "borrowing from Hegel and Heidegger but committing to neither"). Gebser supplies the missing technical concept that lets the user articulate *why* it is not Hegelian: because it is synairetic, not synthetic.
 
@@ -419,7 +419,7 @@ The risk in any "all paths lead to the same summit" sentimentalism (which the us
 
 The Gebserian alternative: **synairesis is not totalization**. The Advaitic register, the Tattvavāda register, the Caitanyaite register, the Aurobindonian register, the McGilchrist register, the Deleuze register are *not seen-from-above by a meta-register*. They are *seen-through* by the diaphanous integral subject. **No register has hegemony**, because no register is the master-register (since there is no perspective from which to be master); but **each register is genuinely operative in its proper domain**, since each is a real structure of consciousness.
 
-This is the user's T4 ("All Darśanas Ultimately True") in Gebser's vocabulary: not because they all reduce to one truth, but because each is a real register of the diaphanous integral whole, and the integral subject is the one through whom all of them simultaneously shine. The Tantric maṇḍala-imagery of Sarvāmnāya (Timalsina) has the same structure: the maṇḍala is not a higher region from which the *darśanas* are seen relativistically; it is the diaphanous configuration through which each *darśana* is operative as itself, in its own register, simultaneously co-present with the others.
+This is the user's T4 in Gebser's vocabulary: not because they all reduce to one truth, but because each is a real register of the diaphanous integral whole, and the integral subject is the one through whom all of them simultaneously shine. The Tantric maṇḍala-imagery of Sarvāmnāya (Timalsina) has the same structure: the maṇḍala is not a higher region from which the *darśanas* are seen relativistically; it is the diaphanous configuration through which each *darśana* is operative as itself, in its own register, simultaneously co-present with the others.
 
 
 ---

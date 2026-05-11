@@ -158,7 +158,7 @@ Integration must not dissolve the individual into the universal — against Hege
 >
 > — Chaudhuri 1967, pp. 128–129.
 
-Two opponents: (i) against Śaṅkarite dissolution into the One — the *jīva* is freed from ego-individuality into authentic individuality; (ii) against Hegelian universal Spirit and Deleuzean impersonalism — the individual is "a real and significant center of self-expression of Being." T11's ontology of phenomenology of an individual psychic being lands here.
+Two opponents structure the claim: (i) Śaṅkarite dissolution into the One, against which the *jīva* is freed from ego-individuality into authentic individuality; and (ii) Hegelian universal Spirit and Deleuzean impersonalism, against which the individual is "a real and significant center of self-expression of Being." T11's ontology of phenomenology of an individual psychic being lands here.
 
 The triadic principle:
 

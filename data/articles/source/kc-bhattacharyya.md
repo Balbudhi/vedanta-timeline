@@ -241,7 +241,7 @@ The concluding line that the user's thesis should bookmark:
 
 > "What is presented and cannot be got rid of has to be accepted as truth even though it is not definitely thinkable or is thinkable in alternative definite modes." (*Studies* I, p. 343)
 
-The first line marks the decisive distinction: many truths might still all reduce to one underlying truth; *alternative* truths are structurally distinct, irreducible. The second line tightens the realist commitment: what is given and cannot be eliminated must be accepted as truth. The fact that it is thinkable only in alternative modes does not falsify it. T1 and T4 (all darśanas ultimately true; structurally homologous to Sarvāmnāya Tantra's mandala) find here their cleanest twentieth-century Indian philosophical articulation.
+The first line marks the decisive distinction: many truths might still all reduce to one underlying truth; *alternative* truths are structurally distinct, irreducible. The second line tightens the realist commitment: what is given and cannot be eliminated must be accepted as truth. The fact that it is thinkable only in alternative modes does not falsify it. T1 and T4 (all darśanas true as registers; structurally homologous to Sarvāmnāya Tantra's mandala) find here their cleanest twentieth-century Indian philosophical articulation.
 
 This is also where KCB's anti-Hegelianism is at its most philosophically disciplined. If what is presented and cannot be got rid of must be accepted as true, then no final identity-concept is permitted to annul recalcitrant modes of givenness merely because they resist one grammar. Identity-thinking fails not because unity is false, but because recalcitrant presentations keep returning.
 

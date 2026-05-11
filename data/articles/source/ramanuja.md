@@ -96,7 +96,7 @@ Appeals to *anādi* also miss the point. Beginninglessness is a temporal claim; 
 
 **Inference.** For *nirviśeṣa* Brahman, term (i) is empty — there are no features to be concealed. The Advaitin will say: what is concealed is not a feature but Brahman's *self-evident self-identity*. But "self-evident self-identity" is itself a feature — perhaps the most important feature Brahman could have. If Brahman has self-evident self-identity, Brahman has at least one feature; if so, *nirviśeṣatva* breaks. If Brahman has no features at all, "self-evident self-identity" cannot be the concealed item, and we are back to term (i) being empty.
 
-Term (ii) faces a parallel problem. *Avidyā* is held by Advaita not to have ultimate (*pāramārthika*) reality. A *real* concealment by an ultimately *unreal* concealer is a contradiction. The Advaitin retreats to "*vyāvahārika* concealment" — concealment at the empirical level. But the Advaitin's whole point is that the empirical level is itself *avidyā*'s product. The "*vyāvahārika*" register is therefore the register of the consequence, not of the cause; offering it as the locus of the concealment-relation is like explaining the smoke by appealing to the smoke.
+Term (ii) faces a parallel problem. *Avidyā* is held by Advaita not to have ultimate (*pāramārthika*) reality. A *real* concealment by an *unreal* concealer is a contradiction. The Advaitin then retreats to "*vyāvahārika* concealment" — concealment at the empirical level. But the Advaitin's whole point is that the empirical level is itself *avidyā*'s product. The "*vyāvahārika*" register is therefore the register of the consequence, not of the cause; offering it as the locus of the concealment-relation is like explaining the smoke by appealing to the smoke.
 
 Most decisively, *avidyā* itself, qua concealing power, would be a *viśeṣa* ascribed to Brahman. To deny all *viśeṣa* of Brahman and then ascribe to Brahman a concealing power is to take both sides of a contradiction.
 
@@ -386,7 +386,7 @@ At *Gītā* 9.4, Kṛṣṇa says that the whole world is pervaded by Him, that 
 
 **English.** "By Me, in My unmanifest form (*avyakta-mūrtinā*), this whole world is pervaded. All beings are situated in Me (*mat-sthāni sarva-bhūtāni*); but I am not situated in them (*na cāhaṁ teṣv avasthitaḥ*)."
 
-The verse is famous for its asymmetry — "all in Me, I not in them" — and the great commentators each read it in a way characteristic of their school. For Śaṅkara, the asymmetry indicates that "in Me" is itself a *vyāvahārika* mode of speech: ultimately there is no real abiding either way; Brahman is non-different from beings at *pāramārthika* truth. For Madhva, the asymmetry indicates real ontological distinction with Brahman as transcendent support. For Rāmānuja, the asymmetry is the precise asymmetry of the body-soul relation, stated cosmologically.
+The verse is famous for its asymmetry — "all in Me, I not in them" — and the great commentators each read it in a way characteristic of their school. For Śaṅkara, the asymmetry indicates that "in Me" is itself a *vyāvahārika* mode of speech: there is no real abiding either way at *pāramārthika* truth; Brahman is non-different from beings. For Madhva, the asymmetry indicates real ontological distinction with Brahman as transcendent support. For Rāmānuja, the asymmetry is the precise asymmetry of the body-soul relation, stated cosmologically.
 
 Rāmānuja's gloss on 9.4–5 explains that the world is pervaded by Kṛṣṇa as indwelling controller, all beings abide in Him as dependent realities, but He does not abide in them as one who depends on their support or receives any benefit from them.
 
@@ -476,7 +476,7 @@ The shape of Rāmānuja's position becomes sharpest at the points of disagreemen
 
 Rāmānuja's disagreement with Śaṅkara is foundational, not peripheral. Five issues structure the dispute.
 
-**Status of *bheda*.** For Śaṅkara, *bheda* is *vyāvahārika* — transactional, pragmatic, real for the purposes of empirical life — but ultimately unreal at the *pāramārthika* level. For Rāmānuja, *bheda* is real *as qualification of the one Brahman* — modes are real *viśeṣaṇas*; they are not stages of an illusion to be transcended.
+**Status of *bheda*.** For Śaṅkara, *bheda* is *vyāvahārika* — transactional, pragmatic, real for the purposes of empirical life — but unreal at the *pāramārthika* level. For Rāmānuja, *bheda* is real *as qualification of the one Brahman* — modes are real *viśeṣaṇas*; they are not stages of an illusion to be transcended.
 
 **The *nirguṇa* passages.** Śaṅkara reads them as *prasajya-pratiṣedha* — total denial of all qualification. Rāmānuja reads them as *paryudāsa* — exclusion of defects, with affirmation of *kalyāṇa-guṇas* preserved. The dispute over the *paryudāsa* / *prasajya-pratiṣedha* distinction is not minor philological pedantry; it determines the entire ontological reading of the Upaniṣadic corpus.
 

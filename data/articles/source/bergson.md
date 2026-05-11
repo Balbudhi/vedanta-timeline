@@ -259,7 +259,7 @@ The "universalist" rhetoric of closed morality — every nation describing its w
 
 ### Static religion: the myth-making function
 
-Chapter II: intellect has a catastrophic side-effect for social cohesion — it represents the future (including one's own death), the gap between effort and outcome, alternative courses of action (including desertion of the social bond). These representations are dissolvent. Nature's countermeasure is *fabulation*: intellect generates compensatory representations (gods, spirits, supernatural sanctions) that neutralize the dissolvent ones. Static religion is intellect's antidote to its own side-effects.
+Chapter II: intellect has a catastrophic side-effect for social cohesion — it projects the future (including one's own death), the gap between effort and outcome, and alternative courses of action (including desertion of the social bond). These representations are dissolvent. Nature's countermeasure is *fabulation*: intellect generates compensatory representations (gods, spirits, supernatural sanctions) that neutralize the dissolvent ones. Static religion is intellect's antidote to its own side-effects.
 
 The argument is structurally Darwinian without being reductive. Bergson does not say the gods are illusions; he says the *mechanism* of static religion is compensatory representation. There is a second religion on a different basis.
 
