@@ -2,7 +2,10 @@
   "id": "prashastapada",
   "name": "Prashastapada",
   "name_iast": "Praśastapāda",
-  "alternate_names": ["Praśastadeva", "Praśastakāra"],
+  "alternate_names": [
+    "Praśastadeva",
+    "Praśastakāra"
+  ],
   "dates_low": 500,
   "dates_high": 600,
   "dates_tier": "consensus-textual",
@@ -11,7 +14,9 @@
   "school_color_token": "vaisesika-comparator",
   "sub_school": "Classical Vaiśeṣika",
   "sub_school_shade": 4,
-  "lineage_in": ["kanada"],
+  "lineage_in": [
+    "kanada"
+  ],
   "lineage_out": [],
   "lineage_polemical": [
     {
@@ -31,14 +36,20 @@
       "work_id": "padartha-dharma-sangraha",
       "title": "Padartha-Dharma-Sangraha",
       "title_iast": "Padārtha-Dharma-Saṅgraha",
-      "alternate_titles": ["Praśastapāda-Bhāṣya", "Bhāṣya"],
+      "alternate_titles": [
+        "Praśastapāda-Bhāṣya",
+        "Bhāṣya"
+      ],
       "composition_dates_low": 500,
       "composition_dates_high": 600,
       "composition_dates_notes": "Dated by being cited in Dignāga and the developed Buddhist pramāṇa-literature.",
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely ascribed to Praśastapāda by colophon and by uniform citation across Śrīdhara's Nyāya-Kandalī, Udayana's Kiraṇāvalī, and Vyomaśiva's Vyomavatī.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Halbfass (1992, On Being and What There Is); Matilal (Nyāya-Vaiśeṣika); Bronkhorst on the dating-anchor through Dignāga."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Halbfass (1992, On Being and What There Is); Matilal (Nyāya-Vaiśeṣika); Bronkhorst on the dating-anchor through Dignāga."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -53,5 +64,86 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-darsana-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "manifestation_status",
+      "value": "self-standing-real",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/prashastapada.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "knowledge-discipline",
+      "register": "soteriological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/prashastapada.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "selfhood_structure",
+      "value": "substantial-self",
+      "register": "phenomenological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/prashastapada.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "semantic_mediation",
+      "value": "language-tracks-reality",
+      "register": "semantic-linguistic",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/prashastapada.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "isolation-or-discriminative-release",
+      "register": "soteriological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/prashastapada.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "many-coordinate-reals",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/prashastapada.json",
+          "field": "core_thesis"
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

@@ -79,5 +79,60 @@
   "entry_status": "draft",
   "entry_owner_agent": "non-vedic-comparator-extension-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "affective_motive_force",
+      "value": "devotion",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/basava.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "expressive-manifestation",
+      "register": "metaphysical",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/basava.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "devotion-and-grace",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/basava.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "transformation-of-life",
+      "register": "soteriological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/basava.json",
+          "field": "core_thesis"
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

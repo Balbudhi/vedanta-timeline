@@ -51,5 +51,118 @@
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-claim-grounding-opus"
+  "last_verified_by": "wave-claim-grounding-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "epistemic_authority",
+      "value": "scripture-dominant",
+      "register": "epistemological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/sundara-pandya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sureshvara/naishkarmya-siddhi/1.66",
+            "cite://sureshvara/naishkarmya-siddhi/1.67-68",
+            "cite://sureshvara/naishkarmya-siddhi/1.69",
+            "cite://sureshvara/naishkarmya-siddhi/1.51-69"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "identity_relation",
+      "value": "non-otherness",
+      "register": "metaphysical",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/sundara-pandya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sureshvara/naishkarmya-siddhi/1.66",
+            "cite://sureshvara/naishkarmya-siddhi/1.67-68",
+            "cite://sureshvara/naishkarmya-siddhi/1.69",
+            "cite://sureshvara/naishkarmya-siddhi/1.51-69"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "method_of_critique",
+      "value": "commentarial-exegesis",
+      "register": "methodological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/sundara-pandya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sureshvara/naishkarmya-siddhi/1.66",
+            "cite://sureshvara/naishkarmya-siddhi/1.67-68",
+            "cite://sureshvara/naishkarmya-siddhi/1.69",
+            "cite://sureshvara/naishkarmya-siddhi/1.51-69"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "knowledge-discipline",
+      "register": "soteriological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/sundara-pandya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sureshvara/naishkarmya-siddhi/1.66",
+            "cite://sureshvara/naishkarmya-siddhi/1.67-68",
+            "cite://sureshvara/naishkarmya-siddhi/1.69",
+            "cite://sureshvara/naishkarmya-siddhi/1.51-69"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "identity-with-ground",
+      "register": "soteriological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/sundara-pandya.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sureshvara/naishkarmya-siddhi/1.66",
+            "cite://sureshvara/naishkarmya-siddhi/1.67-68",
+            "cite://sureshvara/naishkarmya-siddhi/1.69",
+            "cite://sureshvara/naishkarmya-siddhi/1.51-69"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

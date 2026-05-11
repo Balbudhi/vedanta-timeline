@@ -838,5 +838,280 @@
   "last_verified_by": "wave-rigor-opus",
   "polemic_chain_ids": [
     "brahma-sutra-bhasya-samkhya-refutation"
+  ],
+  "primitive_commitments": [
+    {
+      "primitive": "causation_model",
+      "value": "unchanged-ground-with-changing-power",
+      "register": "metaphysical",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vijnanabhiksu.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.2",
+            "cite://badarayana/brahma-sutra/2.1.22",
+            "cite://badarayana/brahma-sutra/2.3.43",
+            "cite://badarayana/brahma-sutra/4.4.1-4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "epistemic_authority",
+      "value": "scripture-dominant",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vijnanabhiksu.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.2",
+            "cite://badarayana/brahma-sutra/2.1.22",
+            "cite://badarayana/brahma-sutra/2.3.43",
+            "cite://badarayana/brahma-sutra/4.4.1-4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "identity_relation",
+      "value": "natural-difference-non-difference",
+      "register": "metaphysical",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vijnanabhiksu.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.2",
+            "cite://badarayana/brahma-sutra/2.1.22",
+            "cite://badarayana/brahma-sutra/2.3.43",
+            "cite://badarayana/brahma-sutra/4.4.1-4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "dependent-real",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vijnanabhiksu.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.2",
+            "cite://badarayana/brahma-sutra/2.1.22",
+            "cite://badarayana/brahma-sutra/2.3.43",
+            "cite://badarayana/brahma-sutra/4.4.1-4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "meditative-discipline",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vijnanabhiksu.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.2",
+            "cite://badarayana/brahma-sutra/2.1.22",
+            "cite://badarayana/brahma-sutra/2.3.43",
+            "cite://badarayana/brahma-sutra/4.4.1-4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "identity-with-ground",
+      "register": "soteriological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vijnanabhiksu.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.2",
+            "cite://badarayana/brahma-sutra/2.1.22",
+            "cite://badarayana/brahma-sutra/2.3.43",
+            "cite://badarayana/brahma-sutra/4.4.1-4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "one-self-standing",
+      "register": "metaphysical",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vijnanabhiksu.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/1.1.2",
+            "cite://badarayana/brahma-sutra/2.1.22",
+            "cite://badarayana/brahma-sutra/2.3.43",
+            "cite://badarayana/brahma-sutra/4.4.1-4"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": [
+    {
+      "article": "data/articles/source/engagement-vijnanabhiksu__vijnanamrta-bhasya.md",
+      "primitive": "substrate_structure",
+      "register": "metaphysical",
+      "relation": "disagrees",
+      "other_thinker_id": "akalanka",
+      "other_primary_citation": "cite://umasvati/tattvartha-sutra/1.34-35",
+      "passage": "Cross-engagement: Akalanka presses the same substrate structure axis in the metaphysical register, but with the value `many-coordinate-reals` rather than `one-self-standing` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+    },
+    {
+      "article": "data/articles/source/engagement-vijnanabhiksu__vijnanamrta-bhasya.md",
+      "primitive": "manifestation_status",
+      "register": "metaphysical",
+      "relation": "disagrees",
+      "other_thinker_id": "abhinavagupta",
+      "other_primary_citation": "cite://abhinavagupta/tantraloka/1.16",
+      "passage": "Cross-engagement: Abhinavagupta presses the same manifestation status axis in the metaphysical register, but with the value `expressive-manifestation` rather than `dependent-real` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+    },
+    {
+      "article": "data/articles/source/engagement-vijnanabhiksu__vijnanamrta-bhasya.md",
+      "primitive": "identity_relation",
+      "register": "metaphysical",
+      "relation": "disagrees",
+      "other_thinker_id": "sankara",
+      "other_primary_citation": "cite://sankara/brahma-sutra-bhasya/1.1.1",
+      "passage": "Cross-engagement: Adi Sankara presses the same identity relation axis in the metaphysical register, but with the value `non-otherness` rather than `natural-difference-non-difference` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+    },
+    {
+      "article": "data/articles/source/engagement-vijnanabhiksu__vijnanamrta-bhasya.md",
+      "primitive": "epistemic_authority",
+      "register": "epistemological",
+      "relation": "disagrees",
+      "other_thinker_id": "aksapada",
+      "other_primary_citation": "cite://aksapada/nyaya-sutra/1.1.1",
+      "passage": "Cross-engagement: Akshapada Gautama presses the same epistemic authority axis in the epistemological register, but with the value `plural-pramana-realism` rather than `scripture-dominant` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+    },
+    {
+      "article": "data/articles/source/engagement-vijnanabhiksu__vijnanamrta-bhasya.md",
+      "primitive": "practice_path",
+      "register": "soteriological",
+      "relation": "disagrees",
+      "other_thinker_id": "anandabodha",
+      "other_primary_citation": "cite://sarvajnatman/samksepa-sariraka/1.319-352",
+      "passage": "Cross-engagement: Anandabodha presses the same practice-path axis in the soteriological register, but with the value `knowledge-discipline` rather than `meditative-discipline` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+    },
+    {
+      "article": "data/articles/source/engagement-vijnanabhiksu__vijnanamrta-bhasya.md",
+      "primitive": "soteric_end",
+      "register": "soteriological",
+      "relation": "disagrees",
+      "other_thinker_id": "whitehead",
+      "other_primary_citation": "cite://whitehead/process-and-reality/1.2",
+      "passage": "Cross-engagement: Alfred North Whitehead presses the same soteric end axis in the soteriological register, but with the value `not-soteriological` rather than `identity-with-ground` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+    },
+    {
+      "article": "data/articles/source/engagement-vijnanabhiksu__yoga-varttika.md",
+      "primitive": "substrate_structure",
+      "register": "metaphysical",
+      "relation": "disagrees",
+      "other_thinker_id": "akalanka",
+      "other_primary_citation": "cite://umasvati/tattvartha-sutra/1.34-35",
+      "passage": "Cross-engagement: Akalanka presses the same substrate structure axis in the metaphysical register, but with the value `many-coordinate-reals` rather than `one-self-standing` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+    },
+    {
+      "article": "data/articles/source/engagement-vijnanabhiksu__yoga-varttika.md",
+      "primitive": "manifestation_status",
+      "register": "metaphysical",
+      "relation": "disagrees",
+      "other_thinker_id": "abhinavagupta",
+      "other_primary_citation": "cite://abhinavagupta/tantraloka/1.16",
+      "passage": "Cross-engagement: Abhinavagupta presses the same manifestation status axis in the metaphysical register, but with the value `expressive-manifestation` rather than `dependent-real` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+    },
+    {
+      "article": "data/articles/source/engagement-vijnanabhiksu__yoga-varttika.md",
+      "primitive": "identity_relation",
+      "register": "metaphysical",
+      "relation": "disagrees",
+      "other_thinker_id": "sankara",
+      "other_primary_citation": "cite://sankara/brahma-sutra-bhasya/1.1.1",
+      "passage": "Cross-engagement: Adi Sankara presses the same identity relation axis in the metaphysical register, but with the value `non-otherness` rather than `natural-difference-non-difference` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+    },
+    {
+      "article": "data/articles/source/engagement-vijnanabhiksu__yoga-varttika.md",
+      "primitive": "epistemic_authority",
+      "register": "epistemological",
+      "relation": "disagrees",
+      "other_thinker_id": "aksapada",
+      "other_primary_citation": "cite://aksapada/nyaya-sutra/1.1.1",
+      "passage": "Cross-engagement: Akshapada Gautama presses the same epistemic authority axis in the epistemological register, but with the value `plural-pramana-realism` rather than `scripture-dominant` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+    },
+    {
+      "article": "data/articles/source/engagement-vijnanabhiksu__yoga-varttika.md",
+      "primitive": "practice_path",
+      "register": "soteriological",
+      "relation": "disagrees",
+      "other_thinker_id": "anandabodha",
+      "other_primary_citation": "cite://sarvajnatman/samksepa-sariraka/1.319-352",
+      "passage": "Cross-engagement: Anandabodha presses the same practice-path axis in the soteriological register, but with the value `knowledge-discipline` rather than `meditative-discipline` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+    },
+    {
+      "article": "data/articles/source/engagement-vijnanabhiksu__yoga-varttika.md",
+      "primitive": "soteric_end",
+      "register": "soteriological",
+      "relation": "disagrees",
+      "other_thinker_id": "whitehead",
+      "other_primary_citation": "cite://whitehead/process-and-reality/1.2",
+      "passage": "Cross-engagement: Alfred North Whitehead presses the same soteric end axis in the soteriological register, but with the value `not-soteriological` rather than `identity-with-ground` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+    },
+    {
+      "article": "data/articles/source/engagement-vijnanabhiksu__yoga-varttika.md",
+      "primitive": "causation_model",
+      "register": "metaphysical",
+      "relation": "disagrees",
+      "other_thinker_id": "bannanje",
+      "other_primary_citation": "cite://madhva/tattva-sankhyana/1-4",
+      "passage": "Cross-engagement: Bannanje Govindacharya presses the same causation model axis in the metaphysical register, but with the value `efficient-material-split` rather than `unchanged-ground-with-changing-power` in [primary text](cite://madhva/tattva-sankhyana/1-4). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+    }
   ]
 }

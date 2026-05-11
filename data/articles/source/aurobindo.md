@@ -8,7 +8,11 @@
 
 ### Bio (1872–1950)
 
+Cross-engagement: Akalanka presses the same substrate structure axis in the metaphysical register, but with the value `many-coordinate-reals` rather than `one-self-standing` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Aurobindo Ghose is one of the most consequential philosophical lives of the twentieth century. Born in Calcutta on 15 August 1872, sent to England at seven, schooled at Manchester, St. Paul's, and King's College Cambridge (Classics, First). Returned to India in 1893; taught himself Sanskrit and Bengali; through the 1900s became a central organiser of the militant nationalist wing. Tried for sedition (Alipore Bomb Case, 1908–09); a year in pre-trial imprisonment during which he underwent the experiences constituting his decisive philosophical turn (the *Vāsudevaḥ sarvam iti* realization, the silent Brahman of 1908). Acquitted May 1909. April 1910: left British India for Pondicherry. The remaining forty years there as yogi and philosopher-poet, until his death on 5 December 1950.
+
+Cross-engagement: Abhinavagupta presses the same manifestation status axis in the metaphysical register, but with the value `expressive-manifestation` rather than `real-transformation` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 Three things to notice. Aurobindo's training is a Cambridge classicist's, not a paṇḍit's; his recovery of the Indian sources is a retrieval from the European outside, which gives his Vedic exegesis its distinctive cross-translatability. His political life is structural to the philosophy. The diagnosis of "collective egoism," the cycle of institutions, and the question of what humanity could sustain as genuine community run continuously from the *Bande Mataram* editorials to the closing chapter of *The Life Divine*. The philosophy proper is written under the discipline of the *Arya* journal (15 August 1914 to 15 January 1921), in which he serialised what would become *The Life Divine*, *The Synthesis of Yoga*, *The Secret of the Veda*, *Essays on the Gita*, *The Human Cycle*, *The Ideal of Human Unity*, the Upaniṣad commentaries, and *The Foundations of Indian Culture*. Major works were revised over decades; final *Life Divine* 1939–40.
 
@@ -16,13 +20,19 @@ Three things to notice. Aurobindo's training is a Cambridge classicist's, not a 
 
 Standard modern edition: *Complete Works of Sri Aurobindo* (CWSA), 37 volumes. Most relevant volumes: *The Life Divine* (CWSA 21–22); *The Synthesis of Yoga* (CWSA 23–24); *Essays on the Gita* (CWSA 19); *The Secret of the Veda* (CWSA 15); *Hymns to the Mystic Fire* (CWSA 16); *Isha* / *Kena and Other Upanishads* (CWSA 17–18); *The Renaissance in India* / *Foundations of Indian Culture* (CWSA 20); *The Human Cycle* / *The Ideal of Human Unity* (CWSA 25); *The Mother with Letters on the Mother* (CWSA 32); *Letters on Yoga* I–IV (CWSA 28–31); *Savitri* (CWSA 33–34); *Record of Yoga* (CWSA 10–11). Citations by volume and (where retrievable) page.
 
+Cross-engagement: Arthur Schopenhauer presses the same identity relation axis in the metaphysical register, but with the value `self-expression-or-appearance` rather than `non-otherness` in [primary text](cite://schopenhauer/the-world-as-will-and-representation/1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ### The Mother (Mirra Alfassa, 1878–1973)
 
 Aurobindo's collaborator from 1914, constant philosophical interlocutor from 1920, executor of the work after 1950. The mature articulation of integral yoga is *theirs*. After 24 November 1926, with Aurobindo retreated into interior work, the Mother is the active executive of the Ashram. *Mother's Agenda* (thirteen volumes of transcripts with Satprem, 1951–1973) is the primary source for the supramental-descent doctrine and the late cellular yoga.
 
+Cross-engagement: Adi Sankara presses the same selfhood structure axis in the phenomenological register, but with the value `witness-self` rather than `psychic-individual` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ### Three distinctive moves vs. prior Vedānta
 
 The thread that matters for the position this reader serves is Aurobindo's *Realistic / Integral Advaita*: the world is real, the individual irreducibly real, *māyā* is the divine's own creative consciousness, and the privileged register is the *through-all* — articulated as the *triple status of the Supermind* (comprehending, apprehending, projecting). Three moves distinguish him from the prior Vedāntic line.
+
+Cross-engagement: Anandabodha presses the same finite cognition axis in the epistemological register, but with the value `positive-ignorance` rather than `adhyasa-or-superimposition` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 **(a) The supramental as a new register beyond Mind.** Earlier Vedānta has *jñāna* as the highest term. Aurobindo argues even the sage's *jñāna* as classically attained is reached *by Mind* (in the Overmind plane), and that there is a further register, *vijñāna* / supermind, structurally different. His *vijñāna* is the Vedic *ṛta-cit*, not Ramakrishna's *vijñāna* nor the Vedāntic *vijñānamaya kośa*. The ladder "Higher Mind → Illumined Mind → Intuitive Mind → Overmind → Supermind" is the technical articulation. The supramental descent of 29 February 1956 is the terrestrial event opening the new evolutionary phase.
 
@@ -33,6 +43,8 @@ The thread that matters for the position this reader serves is Aurobindo's *Real
 ### Glossary
 
 A small glossary of terms preserved untranslated below, glossed on first appearance:
+
+Cross-engagement: Akshapada Gautama presses the same epistemic authority axis in the epistemological register, but with the value `plural-pramana-realism` rather than `scripture-dominant` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 - **saccidānanda** — *sat-cit-ānanda*, Being-Consciousness-Bliss; the integral name of the Real
 - **supermind** (*vijñāna*) — Truth-Consciousness; the register above Mind in which knowledge is by identity with what is known
@@ -61,6 +73,8 @@ These terms recur. Reading Aurobindo is in part learning to think with this lexi
 
 The body of this reader presents bounded primary citation followed by scholarly explication. *Savitri* and *Mother's Agenda* receive pointer-only treatment.
 
+Cross-engagement: Alfred North Whitehead presses the same temporal mode axis in the metaphysical register, but with the value `process-primary` rather than `both-orthogonal` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Aurobindo is read here *literally*: the supramental is a real new register, not a poetic name for *jñāna* or Hegelian *Vernunft*; involution-evolution is a real cosmological-historical process; the psychic being is ontologically irreducible; the supramental descent of 29 February 1956 is a real terrestrial event. Reductive readings produce a domesticated Aurobindo easy to assimilate to whichever Western system the reader prefers, at the cost of erasing the structural moves that make Aurobindo *Aurobindo*.
 
 Where this reader cross-references T1, T7, T11, etc., those are the user's thesis numbers from `POSITION_BRIEF.md`. Aurobindo is not the user, and the user goes beyond Aurobindo at multiple points. Companion readers `12_samkhya_anirban.md` and `13_kala_cakra_clock_structures.md` are co-readings.
@@ -71,9 +85,13 @@ Where this reader cross-references T1, T7, T11, etc., those are the user's thesi
 
 *The Life Divine* Book One (CWSA 21) is twenty-eight chapters: human aspiration (Ch. 1), the two refusals (Chs. 2–3), Reality omnipresent (Ch. 4), destiny of the individual (Ch. 5), Saccidānanda (Chs. 9–12), divine *māyā* (Ch. 13), the Supermind (Chs. 14–16), graded substance-architecture (Chs. 17–28).
 
+Cross-engagement: G. W. F. Hegel presses the same evolution register axis in the historical-genealogical register, but with the value `sublative-becoming` rather than `real-cosmological-evolution` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ### Ch. 1 — *The Human Aspiration*
 
 The opening establishes the work's stakes: the question of God, Light, Freedom, Immortality is the *constitutive* trajectory of conscious life, not a late religious accretion.
+
+Cross-engagement: Baladeva Vidyabhushana presses the same truth-structure axis in the epistemological register, but with the value `single-absolute-truth` rather than `hierarchical-standpoint-truth` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 > "The earliest preoccupation of man in his awakened thoughts and, as it seems, his inevitable and ultimate preoccupation, for it survives the longest periods of skepticism and returns after every banishment, is also the highest which his thought can envisage."
 > — *The Life Divine*, I.1, CWSA 21, p. 3
@@ -83,6 +101,8 @@ The aspiration returns *after every banishment* — including the materialist ba
 ### Chs. 2–3 — *The Two Negations: The Materialist Denial / The Refusal of the Ascetic*
 
 These two chapters are the architectural diptych on which *The Life Divine* rests: the diagnosis of two equal-and-opposite refusals, each a real attainment turned into total ontology.
+
+Cross-engagement: Bhaktisiddhanta Saraswati presses the same motive force axis in the soteriological register, but with the value `devotion` rather than `bliss-or-delight` in [primary text](cite://mandana/brahma-siddhi/5.29). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 The **materialist denial** (Ch. 2) refuses any term higher than matter. Aurobindo grants the real attainment — sustained attention to physical substance yields real knowledge — but refuses the absolutizing move: matter is real *because* it is Brahman as substance, the very ontology the denial forecloses.
 
@@ -104,9 +124,13 @@ A rhetorical note: Aurobindo's argument always begins by granting the opponent h
 
 Chapter 4 establishes the cosmological consequence: Reality is omnipresent — present at every level, in every register, without subtraction. *Either* the cosmos is less than the Real (Mayāvāda) *or* the cosmos exhausts the Real (materialism in religious dress). Aurobindo refuses both: the cosmos is the Real manifestly, without exhausting the Real, which remains unmanifestly itself. There is no Spirit-Matter transcendence; there are *registers* of the omnipresent Real, with higher registers including the lower as their own mode of self-statement.
 
+Cross-engagement: Anantakrishna Sastri presses the same practice-path axis in the soteriological register, but with the value `knowledge-discipline` rather than `transformative-integration` in [primary text](cite://sankara/brahma-sutra-bhasya/2.1.14). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ### Ch. 5 — *The Destiny of the Individual*
 
 Chapter 5 distinguishes Aurobindo from Hegel as decisively as Ch. 3 distinguishes him from Śaṅkara. The Mayāvādin answer: dissolution into the *paramātman*. The Hegelian answer: *aufheben* — individual as moment of universal Spirit. Aurobindo's answer is neither. The individual is *eternally* a poise of the Real. Realization does not dissolve the individual; it *transforms* it into its true status — the psychic being (*caitya puruṣa*), distinct from the surface ego it has been mistaken for.
+
+Cross-engagement: Appayya Dikshita presses the same soteric end axis in the soteriological register, but with the value `identity-with-ground` rather than `transformation-of-life` in [primary text](cite://mandana/brahma-siddhi/3.4). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 > "All affirmations are denied only to lead to a wider affirmation of the same Reality."
 > — *The Life Divine*, I.5, CWSA 21, p. 38

@@ -4,9 +4,13 @@
 
 ---
 
+Cross-engagement: Abhinavagupta presses the same substrate structure axis in the metaphysical register, but with the value `one-self-standing` rather than `one-independent-plus-real-dependents` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ## Reader's Orientation
 
-Caitanya Mahāprabhu (1486–1534) was born in Navadvīpa, Bengal, in a Vaidika brāhmaṇa family already saturated with Sanskrit learning. His birth name, Viśvambhara Miśra, was the name of a brilliant young *naiyāyika* and *vaiyākaraṇa* who, before his twenty-fourth year, had earned the title *Nimāi Paṇḍita* and conducted public *vyākaraṇa*-tournaments in which he is said to have outargued his elders in the lanes between the Gaṅgā ghats. The biographies — Vṛndāvana Dāsa's *Caitanya-Bhāgavata*, Locana Dāsa's *Caitanya-Maṅgala*, and above all Kṛṣṇadāsa Kavirāja's late-sixteenth-century *Caitanya-Caritāmṛta* (CC) — divide his life into two acts. The pivot is his journey to Gayā, c. 1508, where, receiving initiation from Īśvara Purī into the Mādhava-mantra of Madhva-paramparā lineage, he is reported to have collapsed in *kṛṣṇa-prema* before a footprint-shrine and to have returned an utterly other man. From that point until his disappearance at Purī in 1534 his exterior life was a sustained public *līlā*: kīrtana through the streets of Navadvīpa under the protection of his elder companion Nityānanda; renunciation (*sannyāsa*) under Keśava Bhāratī of the Bhāratī branch of the Daśanāmī order in 1510; the long pilgrimage south through Andhra, Tamil country, and the Godāvarī, with the Rāmānanda-saṁvāda at the southern bank as its philosophical apex; the years at Vṛndāvana opening the *bhajana*-grounds for what would become the great Vraja-revival; and finally Jagannātha Purī, the eighteen years of withdrawal in the company of his closest companions, including the encounters with Sārvabhauma Bhaṭṭācārya and Rāya Rāmānanda that the school treats as canonical statements of the doctrine.
+Caitanya Mahāprabhu (1486–1534) was born in Navadvīpa, Bengal, in a Vaidika brāhmaṇa family already saturated with Sanskrit learning. His birth name, Viśvambhara Miśra, was the name of a brilliant young *naiyāyika* and *vaiyākaraṇa* who, before his twenty-fourth year, had earned the title *Nimāi Paṇḍita* and conducted public *vyākaraṇa*-tournaments in which he is said to have outargued his elders in the lanes between the Gaṅgā ghats. The biographies — Vṛndāvana Dāsa's *Caitanya-Bhāgavata*, Locana Dāsa's *Caitanya-Maṅgala*, and above all Kṛṣṇadāsa Kavirāja's late-sixteenth-century *Caitanya-Caritāmṛta* (CC) — divide his life into two acts. The pivot is his path to Gayā, c. 1508, where, receiving initiation from Īśvara Purī into the Mādhava-mantra of Madhva-paramparā lineage, he is reported to have collapsed in *kṛṣṇa-prema* before a footprint-shrine and to have returned an utterly other man. From that point until his disappearance at Purī in 1534 his exterior life was a sustained public *līlā*: kīrtana through the streets of Navadvīpa under the protection of his elder companion Nityānanda; renunciation (*sannyāsa*) under Keśava Bhāratī of the Bhāratī branch of the Daśanāmī order in 1510; the long pilgrimage south through Andhra, Tamil country, and the Godāvarī, with the Rāmānanda-saṁvāda at the southern bank as its philosophical apex; the years at Vṛndāvana opening the *bhajana*-grounds for what would become the great Vraja-revival; and finally Jagannātha Purī, the eighteen years of withdrawal in the company of his closest companions, including the encounters with Sārvabhauma Bhaṭṭācārya and Rāya Rāmānanda that the school treats as canonical statements of the doctrine.
+
+Cross-engagement: Adi Sankara presses the same manifestation status axis in the metaphysical register, but with the value `sublatable-not-null` rather than `dependent-real` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 Caitanya himself wrote almost nothing. The *Śikṣāṣṭakam* — eight verses, dictated near the end of his life — and the recorded conversations preserved in the *Caitanya-Caritāmṛta* are essentially the corpus. The philosophical structure of what we now call the Gauḍīya school was therefore built by his disciples and the next two generations, working under the direct and indirect commission of the master himself. The pivotal commissioning is preserved in CC: at Vārāṇasī in 1514 he charged the brothers Rūpa and Sanātana, two former courtiers in the service of Sultan Husain Shāh of Bengal, to recover the lost holy sites of Vraja, to systematize the *bhakti-śāstra*, and to establish a textual tradition adequate to the new movement. They obeyed. The result, over the next century, was the philosophical literature of the *Six Gosvāmīs*: Rūpa, Sanātana, Raghunātha-dāsa, Raghunātha-bhaṭṭa, Gopāla-bhaṭṭa, and Jīva.
 
@@ -60,6 +64,8 @@ A note on *register*. Standard academic readings treat the school's philosophica
 
 The school's scriptural anchor is a single verse from the *Bhāgavata-Purāṇa*, the Purāṇa Caitanya called the *amala-pramāṇa*, the spotless authority. Every philosophical move in Jīva's *Bhagavat-Sandarbha* is anchored to it; every move in Baladeva's *Govinda-Bhāṣya* is consistent with it; every CC discourse on the structure of the Real returns to it. To read the school without reading this verse first is to read it without the door. In *Bhāgavata-Purāṇa* 1.2.11, the knowers of reality say that the non-dual knowing called *tattva* is spoken of as Brahman, Paramātmā, and Bhagavān.
 
+Cross-engagement: Anandabodha presses the same identity relation axis in the metaphysical register, but with the value `non-otherness` rather than `inconceivable-difference-non-difference` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 **English (literal):** "Those who know *tattva* declare that the reality to be known is non-dual knowing (*yaj jñānam advayam*); it is given expression by the words 'Brahman,' 'Paramātmā,' and 'Bhagavān' (*iti śabdyate*)."
 
 The literal rendering matters. Standard translations render *jñānam advayam* as "non-dual reality" — nominalizing *jñāna* into an abstract substantive. *Jñāna* is a verbal noun: the act-and-content of cognition. The verse identifies *tattva* with knowing-itself, not with an object knowing apprehends. The Real *is* knowing (cf. Tait. Up. 2.1.1, *satyaṁ jñānam anantaṁ brahma*). The threefold *brahma / paramātman / bhagavān* is therefore three modalities of the *one knowing*.
@@ -92,11 +98,15 @@ Jīva strengthens the reading with *Bhāgavata* 1.3.28, the *paribhāṣā*-sūt
 
 Caitanya wrote almost nothing. His doctrinal voice survives through Kṛṣṇadāsa Kavirāja's *Caitanya-Caritāmṛta* (CC), composed in Bengali under the supervision of the Vṛndāvana Gosvāmīs, with Sanskrit doctrinal kernels embedded in the narrative. Verse-numbering follows the BBT enumeration.
 
+Cross-engagement: Akalanka presses the same epistemic authority axis in the epistemological register, but with the value `plural-pramana-realism` rather than `scripture-dominant` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Two passages establish *acintya-bhedābheda* in Caitanya's own voice: the encounter at Purī with Sārvabhauma Bhaṭṭācārya (Madhya 6) and the discourses at Vārāṇasī with the Māyāvāda *paṇḍitas* (Madhya 25).
 
 ### The Sārvabhauma Encounter (CC Madhya 6)
 
 Sārvabhauma, the resident Advaitin scholar at the Jagannātha temple at Purī, sought to convert the young *sannyāsī* Caitanya by reading Śaṅkara's *Bhāṣya* aloud over seven days. On the seventh day Caitanya responded.
+
+Cross-engagement: Anantakrishna Sastri presses the same truth-structure axis in the epistemological register, but with the value `hierarchical-standpoint-truth` rather than `single-absolute-truth` in [primary text](cite://sankara/brahma-sutra-bhasya/2.1.14). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 The doctrinal kernel appears in CC Madhya 20.108, repeated in the Sārvabhauma cycle: the *jīva*'s intrinsic identity is eternal service to Kṛṣṇa, and the *jīva* is described as Kṛṣṇa's *taṭasthā-śakti*, a manifestation of difference-and-non-difference.
 
@@ -106,7 +116,7 @@ The doctrinal kernel appears in CC Madhya 20.108, repeated in the Sārvabhauma c
 
 *Taṭasthā* — "standing on the bank" — the riverbank between water and land. The *jīva* is neither fully internal to the divine (*svarūpa-śakti*) nor fully external (*jaḍa*, inert matter). It is *threshold-energy*: quantitatively atomic (*aṇu*), qualitatively conscious (*cit-svarūpa*), capable of orienting either way. A real *tertium quid* in the *parā-śakti / aparā-śakti* economy.
 
-The *jīva* is therefore a *manifestation of bhedābheda* — not a fragment of *abheda* alone (Śaṅkara: illusorily different, ultimately one), not a fragment of *bheda* alone (Madhva: fundamentally distinct, *abheda*-statements as similarity). Both at once, neither pole reducible.
+The *jīva* is therefore a *manifestation of bhedābheda* — not a fragment of *abheda* alone (Śaṅkara: illusorily different, one), not a fragment of *bheda* alone (Madhva: fundamentally distinct, *abheda*-statements as similarity). Both at once, neither pole reducible.
 
 Caitanya's CC Madhya 6 argument against Śaṅkara has three prongs. (i) *Vivartavāda* does not solve the problem of difference; it relocates it. *Māyā* as *anirvacanīya* introduces exactly the structural duality *advaya* forbade — either Brahman has *śakti* or it cannot be the *āśraya* of *avidyā*. (ii) The *jīva*-Brahman identity requires the *jīva* be omniscient — manifestly false. The two-level reply (*vyāvahārika / pāramārthika*) itself requires *śakti*. (iii) The *Bhāgavata* describes an *eternal* *jīva*-Bhagavān relation as the highest *prayojana*; ultimate identity makes the relation transitional fiction.
 
@@ -116,9 +126,11 @@ The doctrinal yield: *jīva* as *nitya-dāsa* of Kṛṣṇa; *jīva* as *taṭa
 
 Where Madhya 6 establishes the *jīva*-doctrine, Madhya 25 establishes the *Brahman*-doctrine. Caitanya, encountering the Vārāṇasī Māyāvādins (Prakāśānanda Sarasvatī chief among them), sets out *acintya-bhedābheda* as the correct reading of the Brahma-Sūtra, with the *Bhāgavata* — Vyāsa's own elaboration — as natural commentary on the Sūtras, displacing the *Śārīraka-Bhāṣya*.
 
+Cross-engagement: Edmund Husserl presses the same perspectivism axis in the epistemological register, but with the value `standpoint-conditioned-realism` rather than `partial-perspectives-ranked` in [primary text](cite://husserl/ideas-i/31-32). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 The two-verse summary of the *śakti*-doctrine in this discourse, at CC Madhya 25.121–122, says that Kṛṣṇa possesses infinite power, expands the world through that power, and alone stands as the *para-brahma* who causes the universe.
 
-**English:** "Kṛṣṇa holds infinite *śakti*; through it he meditates creation, expanding into moving and unmoving forms in the maintenance of the world. Thus the *one para-brahma* is the cause of the universe; whoever does not trust this falls into error."
+**English:** "Kṛṣṇa holds infinite *śakti*; through it he meditates creation, expanding into moving and unmoving forms in the maintenance of the world. so the *one para-brahma* is the cause of the universe; whoever does not trust this falls into error."
 
 The move is *ananta-śakti*. The puzzle — how an undivided Brahman can be both *upādāna-kāraṇa* and *nimitta-kāraṇa* without modification — is solved by distinguishing *śakti-pariṇāma* from *brahma-pariṇāma*. The *śakti* transforms; the *śaktimān* does not. This is not Rāmānuja's *brahma-pariṇāma-vāda*. World-emergence is *real* — *śakti-pariṇāma*, not *vivarta* — and does not propagate as change in the *śaktimān* because the *śakti–śaktimān* relation is *acintya*.
 
@@ -132,6 +144,8 @@ Vyāsa composed both the Sūtras and the *Bhāgavata*. The author's own later el
 
 At the southern bank of the Godāvarī, Caitanya engages Rāya Rāmānanda in a graded dialogue ascending the *prayojana*-ladder: *varṇāśrama-dharma*, *karma-tyāga*, *jñāna-miśra-bhakti*, *jñāna-śūnya-bhakti*, *prema-bhakti* in the four flavors (*śānta*, *dāsya*, *sakhya*, *vātsalya*), *mādhurya-rasa*, finally *gopī-prema* and *Rādhā-prema* as apex. At each step Caitanya replies *eho bāhya* ("this is external") and presses for the next. The discourse fixes the *prema*-doctrine to complement the *jīva*- and *śakti*-doctrines of Madhya 6 and 25.
 
+Cross-engagement: Haridas Chaudhuri presses the same motive force axis in the soteriological register, but with the value `bliss-or-delight` rather than `devotion` in [primary text](cite://chaudhuri/integral-yoga/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 This part of the corpus matters because the ontology would otherwise remain underdescribed on the side of lived fulfillment. Rūpa's *Bhakti-Rasāmṛta-Sindhu* makes explicit what the dialogue implies: *uttama-bhakti*, in 1.1.11, is favorable continuous cultivation of Kṛṣṇa free from ulterior desire and not covered over by *jñāna* or *karma*. That definition prevents the school from collapsing into either ritualism or quietism. The highest state is not bare release from ignorance, but a positively articulated relation of love.
 
 Jīva's *Prīti-Sandarbha* completes the same trajectory at the systematic level. Once the earlier *Sandarbhas* have established the object, the relation, and the means, *Prīti-Sandarbha* argues that love is the highest end because it is the fullest actualization of Bhagavān's own bliss potency. The reader should keep this in view throughout. Gauḍīya metaphysics is not only trying to prove that unity can include difference; it is trying to show why the final truth of that structure is *prema* rather than mere cognition.
@@ -141,6 +155,8 @@ Jīva's *Prīti-Sandarbha* completes the same trajectory at the systematic level
 ## Part III — Jīva Gosvāmī's *Tattva-Sandarbha* (Epistemology First)
 
 The first treatise in the *Ṣaṭ-Sandarbha* is epistemology, not theology. *What counts as pramāṇa?* is logically prior to any doctrinal claim about Brahman. To begin (as Śaṅkara does) with the Vedānta-Sūtra under an already-fixed *adhyāsa* doctrine is to begin in mid-argument.
+
+Cross-engagement: Akshapada Gautama presses the same practice-path axis in the soteriological register, but with the value `knowledge-discipline` rather than `devotion-and-grace` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 The opening move asks: how do we know anything about a Reality that is *atīndriya* — beyond the senses?
 
@@ -168,6 +184,8 @@ Differentia from Śaṅkara: where Śaṅkara privileges *mahāvākyas* read thr
 
 Jīva, following the *Bhāgavata*'s own self-declaration in 2.10.1–2, identifies ten subject-matters, the *daśa-lakṣaṇa*, and four primary *artha-tattvas*.
 
+Cross-engagement: Alfred North Whitehead presses the same soteric end axis in the soteriological register, but with the value `not-soteriological` rather than `loving-participation` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 **English:** "Here [in the *Bhāgavata*] are: primary creation, secondary creation, maintenance, [the Lord's] sustenance, the impulses [of beings], the eras of the Manus, the accounts of the Lord, the dissolution, liberation, and the [supreme] *āśraya* (shelter, ground)."
 
 The tenth term, *āśraya*, is the master-category and Jīva identifies it with Bhagavān. The four *artha-tattvas* — *sambandha* (Real and relation), *abhidheya* (means), *prayojana* (goal), *prameya* (object) — give the *Bhāgavata* its architecture: *sambandha* is *Bhagavān* with his *jīva* and *jagat* (as *acintya-bhedābheda*), *abhidheya* is *bhakti*, *prayojana* is *prema*. The *Sandarbhas* recapitulate this: Tattva, Bhagavat, Paramātmā, Kṛṣṇa develop *sambandha*; Bhakti develops *abhidheya*; Prīti develops *prayojana*.
@@ -176,6 +194,8 @@ The tenth term, *āśraya*, is the master-category and Jīva identifies it with 
 
 Anuccheda 19 gives Jīva's hermeneutic in compressed form. When *śabda*-texts appear to contradict, *pūrvāpara-sāmañjasya* (consistency of preceding and following) requires: (i) apparent contradictions are read in context; isolated *mahāvākyas* are not authoritative outside textual location. (ii) The six *liṅgas* of Mīmāṃsaka hermeneutics — *prakaraṇa*, *upakrama-upasaṁhāra*, *abhyāsa*, *apūrvatā*, *phala*, *arthavāda*, *upapatti* — are jointly applied. (iii) Where harmonization fails at the level of meaning, the more comprehensive (*samanvaya-kṣama*) reading is preferred — *acintya-bhedābheda* over *vivartavāda* and *pure-bheda* on this criterion. (iv) The *Bhāgavata*'s self-statements (1.1.3, 1.3.40) function as its own hermeneutic key.
 
+Cross-engagement: Bannanje Govindacharya presses the same causation model axis in the metaphysical register, but with the value `efficient-material-split` rather than `unchanged-ground-with-changing-power` in [primary text](cite://madhva/tattva-sankhyana/1-4). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 The *Sandarbha* architecture: *Tattva* answers *how do we know?*; *Bhagavat* answers *what is the structure of the Real?*; *Paramātmā* answers *what is the relation to the individual?*; *Kṛṣṇa* answers *who is the Real concretely?*; *Bhakti* answers *how to approach?*; *Prīti* answers *what is attained?*
 
 ---
@@ -183,6 +203,8 @@ The *Sandarbha* architecture: *Tattva* answers *how do we know?*; *Bhagavat* ans
 ## Part IV — *Bhagavat-Sandarbha*: Brahman, Paramātmā, Bhagavān
 
 The second *Sandarbha* takes BhP 1.2.11 as *paribhāṣā*-anchor and develops the structural ontology of the Real — the *prameya*-architecture of *advaya-jñāna* under its three names.
+
+Cross-engagement: G. W. F. Hegel presses the same individuation status axis in the metaphysical register, but with the value `reducible-to-the-whole` rather than `irreducible-dependent` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 ### The Argument: One Real, Three Names
 
@@ -410,7 +432,7 @@ Baladeva's reading: *ananyatva* — non-difference — is established. But the s
 
 The *acintya* doctrine reads *ananyatva* as the *abheda* face that the *bheda* face does not contradict. Cause and effect are *acintya-bhedābheda*: non-different in substance, different in manifestation, with the simultaneity grounded in *acintya-śakti*.
 
-The argument against the Śaṅkara reading: Śaṅkara takes *ananyatva* to imply that the effect is *not really* different — ultimately the pot is just clay, the difference is *vyāvahārika*. Baladeva: this overreads. *Ananyatva* says non-difference; it does not say "no real difference." The real difference of effect from cause is preserved by the *bheda*-texts (which the *samanvaya* principle requires us to honor). The *ārambhaṇa*-passage's "*vācārambhaṇaṁ*" — "[the transformation is] a starting-point for speech" — does not deny the reality of the transformation; it identifies the transformation as the locus where naming begins. Naming-begins-here does not mean only-naming-and-not-real.
+The argument against the Śaṅkara reading: Śaṅkara takes *ananyatva* to imply that the effect is *not really* different — the pot is just clay, the difference is *vyāvahārika*. Baladeva: this overreads. *Ananyatva* says non-difference; it does not say "no real difference." The real difference of effect from cause is preserved by the *bheda*-texts (which the *samanvaya* principle requires us to honor). The *ārambhaṇa*-passage's "*vācārambhaṇaṁ*" — "[the transformation is] a starting-point for speech" — does not deny the reality of the transformation; it identifies the transformation as the locus where naming begins. Naming-begins-here does not mean only-naming-and-not-real.
 
 The implication: the world is real. *Mithyā ≠ asat*. The user's T2 finds its Sūtra-anchor here.
 
@@ -474,7 +496,7 @@ The Caitanya school sits in a complex genealogy of *bhedābheda*-positions and V
 
 Bhāskara holds that *bheda* between Brahman and *jīva*/world is real but *aupādhika* — produced by *upādhis* (limiting adjuncts, material conditions). The *upādhi*-conditioned Brahman becomes the *jīva*. Remove the *upādhi* and pure identity is recovered. The world is real, against Śaṅkara, but the *bheda*-pole is *derivative* — it has the *upādhi* as its proximate ground.
 
-The Gauḍīya rejection is precise: if difference is always traceable to *upādhis*, difference is ultimately *removable*. Once removed, only *abheda* remains. *Bheda* is therefore *derivative*, not equally fundamental. This collapses to a softened Śaṅkara — the *upādhis* are real (not *anirvacanīya*), but they still reduce *bheda* to a non-ultimate condition. The *prema*-relation that the *bhakta* attains, on this reading, would dissolve at liberation; the eternal *jīva*-Bhagavān relationship the *Bhāgavata* describes would be *vyāvahārika* under another name.
+The Gauḍīya rejection is precise: if difference is always traceable to *upādhis*, difference is *removable*. Once removed, only *abheda* remains. *Bheda* is therefore *derivative*, not equally fundamental. This collapses to a softened Śaṅkara — the *upādhis* are real (not *anirvacanīya*), but they still reduce *bheda* to a non-ultimate condition. The *prema*-relation that the *bhakta* attains, on this reading, would dissolve at liberation; the eternal *jīva*-Bhagavān relationship the *Bhāgavata* describes would be *vyāvahārika* under another name.
 
 Caitanya's *bheda* is *svābhāvika* — natural, intrinsic to the *jīva*'s *svarūpa* as *taṭasthā-śakti*. It is not an effect of *upādhi*; it is the *jīva*'s own constitutional difference. *Acintya* preserves the irreducibility of both poles. Neither pole is the "real" truth with the other a derivative.
 
@@ -528,7 +550,7 @@ Where Caitanya agrees: the body-soul relation is a valid partial description. Th
 
 Where Caitanya/Jīva diverges: for Rāmānuja, the *jīva*'s difference from Brahman is *modal* — the *jīva* is a *prakāra* (mode) of Brahman. Modes are real but ontologically dependent on the substance. The *jīva*, as a mode, *is* a feature of Brahman in roughly the way redness *is* a feature of the rose; the redness is real, but its reality is the rose's reality under a particular description.
 
-Jīva's argument: this makes *bheda* ultimately *modal*, not *svarūpic*. The *jīva* is "in" Brahman as a mode is "in" a substance — real, yes, but fundamentally derivative. The *taṭasthā* doctrine says: the *jīva* is *not* simply "in" Bhagavān as a mode. It stands at the margin (*taṭa*, the bank), capable of orienting toward the *parā-śakti* or the *māyā-śakti*. This is *more* difference than Rāmānuja allows; the *jīva*'s *svatantratā* (limited free agency) is more robust on the Gauḍīya account than on the Śrīvaiṣṇava account.
+Jīva's argument: this makes *bheda* *modal*, not *svarūpic*. The *jīva* is "in" Brahman as a mode is "in" a substance — real, yes, but fundamentally derivative. The *taṭasthā* doctrine says: the *jīva* is *not* simply "in" Bhagavān as a mode. It stands at the margin (*taṭa*, the bank), capable of orienting toward the *parā-śakti* or the *māyā-śakti*. This is *more* difference than Rāmānuja allows; the *jīva*'s *svatantratā* (limited free agency) is more robust on the Gauḍīya account than on the Śrīvaiṣṇava account.
 
 Simultaneously, the *jīva*'s *svarūpa* as a *cit* entity sharing *cit*-quality with Bhagavān points to *abheda* at a deeper level than Rāmānuja's *śarīra-śarīrin* relation captures. Both poles are *svarūpic*, not modal. The simultaneity of two *svarūpic* truths is *acintya*.
 

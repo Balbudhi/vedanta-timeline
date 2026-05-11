@@ -97,5 +97,250 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "affective_motive_force",
+      "value": "devotion",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/rupa-gosvami.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.11",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.2",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.3",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/2-4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "causation_model",
+      "value": "unchanged-ground-with-changing-power",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/rupa-gosvami.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.11",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.2",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.3",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/2-4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "epistemic_authority",
+      "value": "scripture-dominant",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/rupa-gosvami.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.11",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.2",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.3",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/2-4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "identity_relation",
+      "value": "inconceivable-difference-non-difference",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/rupa-gosvami.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.11",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.2",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.3",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/2-4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "individuation_status",
+      "value": "irreducible-dependent",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/rupa-gosvami.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.11",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.2",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.3",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/2-4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "dependent-real",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/rupa-gosvami.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.11",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.2",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.3",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/2-4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "modal_structure_of_truth",
+      "value": "single-absolute-truth",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/rupa-gosvami.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.11",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.2",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.3",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/2-4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "devotion-and-grace",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/rupa-gosvami.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.11",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.2",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.3",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/2-4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "relation_to_perspectivism",
+      "value": "partial-perspectives-ranked",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/rupa-gosvami.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.11",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.2",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.3",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/2-4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "loving-participation",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/rupa-gosvami.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.11",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.2",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.3",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/2-4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "one-independent-plus-real-dependents",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/rupa-gosvami.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.11",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.2",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.3",
+            "cite://rupa-gosvami/bhakti-rasamrta-sindhu/2-4"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

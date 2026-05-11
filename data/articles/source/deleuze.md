@@ -8,7 +8,11 @@
 
 ### A bio arc
 
+Cross-engagement: Abhinavagupta presses the same determination axis in the logical-dialectical register, but with the value `self-expression` rather than `difference-without-negation` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Gilles Deleuze (1925–1995) is, with Foucault and Derrida, one of the three figures whose work defines "French theory" in the second half of the twentieth century. His trajectory is unusual: he did not pass through phenomenology. Where Sartre, Merleau-Ponty, and Levinas formed themselves on Husserl and Heidegger, Deleuze formed himself on Hume, Nietzsche, Bergson, and Spinoza, and on a strand the Sorbonne curriculum had quietly demoted (the Stoics, Duns Scotus, Leibniz, Maïmon). He is not a phenomenologist who turned anti-phenomenological; he never went through the door.
+
+Cross-engagement: Friedrich Nietzsche works the same method axis in the historical-genealogical register. Here the operative value is `genealogy`; Friedrich Nietzsche lands on that same value in [primary text](cite://nietzsche/beyond-good-and-evil/22). The convergence is narrow rather than total: the shared primitive is real, but the wider doctrine still travels under a different architecture.
 
 He began as a historian of philosophy in a peculiar mode, slow careful monographs on figures he loved (*Empirisme et subjectivité* 1953; *Nietzsche et la philosophie* 1962; *La philosophie critique de Kant* 1963; *Le Bergsonisme* 1966; *Spinoza et le problème de l'expression* 1968), and out of those readings he constructed his own philosophy, arriving in two works of 1968–69: *Différence et Répétition* (his thèse principale) and *Logique du sens*. He liked to say that his way of doing history was a kind of *enculage*: he took the philosopher from behind to produce a child monstrously his and yet recognizably the philosopher's. The monographs do not summarize, they inflect.
 
@@ -17,6 +21,8 @@ In 1969 he met Félix Guattari and the two produced *Capitalisme et Schizophrén
 ### The single thread for the user's thesis
 
 Across the whole career, one thread is continuous, and it is the only thread that matters for the user's project here:
+
+Cross-engagement: Akshapada Gautama presses the same method axis in the methodological register, but with the value `formal-proof-or-inference` rather than `mixed-or-layered` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 **Difference is not a derivative of identity. Being is said in one and the same sense of everything that is, but the things of which it is said differ, being is said *of difference itself*.**
 
@@ -36,6 +42,8 @@ Read in this single thread, Deleuze becomes one of the most powerful continental
 ### A note on how to read what follows
 
 Each Part takes one major work, keeps the original title and a few indispensable technical terms inline, and gives the argument in English with citations and explication. Translations are based on Patton (*Difference and Repetition*), Massumi (*A Thousand Plateaus*), Lester and Stivale (*The Logic of Sense*), Joughin (*Expressionism in Philosophy: Spinoza*), Conley (*The Fold*), and Tomlinson (*Nietzsche and Philosophy*), with adjustments noted where the English needs tightening.
+
+Cross-engagement: Adi Sankara presses the same soteric end axis in the soteriological register, but with the value `identity-with-ground` rather than `not-soteriological` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 ### Key Technical Terms
 
@@ -57,6 +65,8 @@ Each Part takes one major work, keeps the original title and a few indispensable
 - **éternel retour**, eternal return. Not the return of the same but the return of difference; both cosmological doctrine and ethical-selective principle.
 - **devenir-imperceptible**, becoming-imperceptible. The limit of *devenir*; the dissolution of the egoic self into the flow of intensities. The Deleuzean counterpart to which the position offers *psychisation* (Aurobindo's psychic deepening) as a different and decisive alternative.
 
+Cross-engagement: Baladeva Vidyabhushana presses the same individuation status axis in the metaphysical register, but with the value `irreducible-dependent` rather than `expressive-singularity` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Note on *différentiation* (with *t*) vs *différenciation* (with *c*): the doublet is technical in *D&R* (virtual differen*t*iation vs. actual differen*c*iation). Where the doublet is not at stake, "difference" without marking is fine.
 
 ---
@@ -69,11 +79,9 @@ Deleuze's thèse principale, defended 24 January 1969 at the Sorbonne (Gandillac
 
 Deleuze states the canonical formula early in Chapter I, "La différence en elle-même," after a preparatory discussion of how being has been distributed (analogically by Aristotle, then onward through the scholastics):
 
-
 *There has only ever been one ontological proposition: Being is univocal.* (PUF p. 52; Patton p. 35)
 
 Univocity is not one ontological position among others to be defended against equivocity and analogy. It is *the* ontological proposition, the one without which there is no ontology, only ontotheology. Two sentences later, the formula proper:
-
 
 *Being is said in one and the same sense of everything of which it is said, but that of which it is said differs: it is said of difference itself.* (PUF p. 53; Patton p. 36)
 
@@ -83,13 +91,11 @@ The structural fit with the user's thesis is close. *One Real, said in many sens
 
 Just after the formula, Deleuze extends it:
 
-
 *It is of the essence of univocal being to relate itself to individuating differences, but these differences do not have the same essence, and do not vary the essence of being.* (PUF p. 53; Patton adapted)
 
 The differences are *individuantes*, individuating. They do not divide an already-existing whole into parts; they constitute individuals. And they "do not vary the essence of being", the voice does not modulate as it says one difference rather than another. This is the precise point at which the position diverges from any totalizing monism that would absorb the differences into the One.
 
 A third sentence completes the cluster:
-
 
 *There is a single 'voice' of Being, which relates itself to all its modes, the most diverse, the most varied, the most differentiated.* (PUF; Patton adapted)
 
@@ -98,7 +104,6 @@ A third sentence completes the cluster:
 ### The two distributions: nomos sédentaire and nomos nomade
 
 Deleuze immediately gives the formal-political articulation of univocity. There are two ways to distribute beings:
-
 
 *Univocal being is at once nomadic distribution and crowned anarchy.* (PUF; Patton adapted)
 
@@ -110,7 +115,6 @@ Two distributions, opposed term by term:
 
 Univocity is *anarchie couronnée*: anarchy as absence of organizing arche, crown as unity of the voice within the anarchic distribution.
 
-
 *The univocity of being therefore also signifies the equality of being.* (PUF; Patton adapted)
 
 Not democratic equality between beings but *ontological* equality: being is said equally of all that is. Differences in *power* (intensity, capacity, expression) remain real, but being is said univocally of all. This is what T1 needs: darśanas are not on a vertical hierarchy of more-or-less reality; they are equal in being, differing in register and clarity. The Aurobindonian planes are similarly distinguished by *transparency*, not by reality-degree.
@@ -118,7 +122,6 @@ Not democratic equality between beings but *ontological* equality: being is said
 ### The quadruple carcan
 
 The negative argument of D&R Chapter I is the diagnosis of the four ways philosophy has imprisoned difference. Deleuze names them together:
-
 
 *The fourfold shackle within which difference can be thought only as that between what is identical, similar, analogous, and opposed.* (PUF p. 180; Patton p. 138)
 
@@ -136,13 +139,11 @@ Four aspects of one operation: subordinating difference to identity, in conceptu
 
 The decisive sentence on Hegel:
 
-
 *Difference does not imply the negative, and does not allow itself to be carried to the point of contradiction, except insofar as one continues to subordinate it to the identical.* (PUF p. 1; Patton adapted)
 
 Hegelian contradiction is difference *domesticated by identity*, difference viewed from inside an identity-frame as what negates identity. Real difference does not need to negate; it simply differs. This lets the position borrow Hegel's *Aufhebung* only for *the climb* (T3), not for the landing: *Aufhebung* names the ascent, while rhizomatic *et... et... et...* names the non-totalizing arrival.
 
 Deleuze names Aristotelian analogy and Hegelian opposition as the two great representations, *grande représentation organique* and *grande représentation orgique*. Hegel appears to liberate difference but only reverses the priority: identity remains the frame; contradiction is difference-within-identity. Deleuze's decisive sentence:
-
 
 *We say not only that difference in itself is not "already" contradiction, but that it does not let itself be reduced or led back to contradiction, because contradiction is less profound, not more profound, than difference.* (PUF p. 74; my translation, with Patton consulted.)
 
@@ -152,20 +153,17 @@ Deleuze names Aristotelian analogy and Hegelian opposition as the two great repr
 
 Deleuze identifies three philosophical moments in which univocity has been thought, each deeper than the last:
 
-
 *There have been three great moments in the thought of the univocity of being.* (PUF; Patton adapted)
 
 **Duns Scotus** thought univocity *formally and neutrally*: being applies in the same sense to God and creatures, without analogy's equivocation. The *distinctio formalis* and modal univocity carried the doctrine, but it remained abstract, *univocité de l'être, neutre, abstrait*. The univocity was not yet *expressed*; it remained a claim about the concept, not a doctrine about the real.
 
 **Spinoza** made univocity expressive and affirmative:
 
-
 *An admirable repetition of substance, attributes, and modes [...] univocal being becomes expressive, a genuinely expressive affirmative proposition.* (PUF p. 59; Patton adapted)
 
 Substance expresses itself in attributes; attributes in modes; each finite mode is a center where the infinite expresses itself under a determinate form. Univocity becomes the lived reality of the expressive triad (developed in Part IV). But Spinoza is not yet the third moment: substance still functions as the One *of which* the modes are said; substance remains a kind of identity. Full affirmation requires that the One turn around the Different.
 
 **Nietzsche** is the third and decisive moment:
-
 
 *Such a condition can be fulfilled only at the price of a more general categorical reversal, according to which being is said of becoming, identity of the different, the one of the multiple, etc. That identity is not first, that it exists as a principle but as a second principle, as a principle become, that it turns around the Different, such is the nature of a Copernican revolution that opens to difference the possibility of its proper concept, instead of maintaining it under the domination of a concept in general posited already as identical.* (PUF p. 59; Patton p. 41 adapted)
 
@@ -177,21 +175,17 @@ This is the philosophical resource for *paramādvaita* / supramental non-duality
 
 Deleuze's reading of Nietzsche's eternal return is the key to univocity's full realization:
 
-
 *The returning is the only Same of what becomes.* (PUF p. 59; Patton p. 41)
 
 The "Same" of becoming is not any particular state that recurs but the recurrence itself. *Le revenir* is the only Same. What returns is never the identical state but always difference under selective pressure.
-
 
 *[The eternal return] practically operates a selection of differences according to their capacity to produce, that is, to return or to withstand the test of the eternal return.* (PUF p. 60; Patton adapted)
 
 The eternal return is not the return of the identical, Nietzsche's most exoteric formulation, which Deleuze treats as partial. The cosmological doctrine in *Zarathustra* is a *test*: can this be affirmed, willed again, returned as itself without ressentiment? Only the affirmative survives.
 
-
 *Only the extreme forms return, those which, small or large, unfold in the limit and go to the end of their power, transforming themselves and passing into one another.* (PUF p. 60; Patton adapted)
 
 The "extreme forms" are not the loud or grand but those (small or large) that *go to the end of their power* without compromise. What returns is not frozen identity but the differential play.
-
 
 *That is why the eternal return is said only of the theatrical world, of the metamorphoses and masks of the Will to power, of the pure intensities of this Will, as mobile individuating factors that no longer let themselves be held within the factitious limits of this or that individual, this or that Self.* (PUF p. 60; Patton adapted)
 
@@ -199,11 +193,9 @@ The empirical Moi does not return. The Self as identity is what the eternal retu
 
 The two formulas to keep:
 
-
 *In the eternal return, univocal being is not only thought and even affirmed, but effectively realized.* (PUF p. 60)
 
 And:
-
 
 *It is being that is Difference, in the sense that being is said of difference.* (PUF p. 57)
 
@@ -212,7 +204,6 @@ Univocity thought (Scotus); affirmed (Spinoza); effectively realized (Nietzsche)
 ### Non-being without negation
 
 One more passage from Chapter I that is structurally critical for the user's position. Deleuze:
-
 
 *Univocal being is properly common, insofar as the (individuating) differences "are not" and do not have to be [...] if they are not, it is because they depend, in univocal being, on a non-being without negation.* (PUF p. 57; Patton adapted)
 
@@ -232,7 +223,6 @@ For the position: the registers do not negate each other. Bhakti does not negate
 
 Virtual/actual, problem/Idea, intensity/individuation, what Deleuze later compresses into "plane of immanence."
 
-
 ---
 
 ## Part II — *Mille Plateaux*: Introduction "Rhizome" (1980)
@@ -242,7 +232,6 @@ Twelve years after *D&R*, with Guattari, Deleuze writes "Rhizome", first publish
 ### The opening: writing-together
 
 The first sentence is the ontological claim stated as autobiography:
-
 
 *We wrote Anti-Œdipus together. Since each of us was several, there was already quite a crowd.* (Minuit p. 9; Massumi p. 3)
 
@@ -262,7 +251,6 @@ Deleuze and Guattari enumerate six characteristics of the rhizome, organized as 
 
 **1° et 2°, Connexion et hétérogénéité** (connection and heterogeneity).
 
-
 *Any point of a rhizome can be connected to any other, and must be. This is very different from the tree or root, which fixes a point, an order.* (Minuit p. 13; Massumi p. 7 adapted)
 
 The arborescent model fixes a point, root, trunk, founding principle, and orders everything in relation to it. The rhizome refuses fixing: any point connects to any other, lateral, multiple, proliferating. *Et doit l'être*: a normative claim about how one ought to think.
@@ -271,13 +259,11 @@ The heterogeneity principle is the complement: a rhizome connects across registe
 
 **3°, Multiplicité.**
 
-
 *A multiplicity has neither subject nor object, but only determinations, magnitudes, and dimensions that cannot grow in number without the multiplicity changing in nature.* (Minuit p. 14; Massumi p. 8)
 
 The multiplicity is an n-dimensional figure that changes nature when its dimensions change. No underlying essence remains constant as connections are added; the rhizome *is* what it currently connects.
 
 The decisive anti-Hegelian formula:
-
 
 *The multiple has to be made, not by adding a higher dimension but, on the contrary, in the simplest way, by sobriety, at the level of the dimensions one has, always n−1 (this is the only way the one is part of the multiple, by always being subtracted). Subtract the unique from the multiplicity to be constituted; write at n−1.* (Minuit p. 13; my translation against Massumi)
 
@@ -287,18 +273,15 @@ This names what is wrong with the Hegelian climb taken as metaphysics (not as th
 
 **4°, Rupture asignifiante.**
 
-
 *Against the over-signifying breaks that separate structures, or traverse one. A rhizome may be broken, shattered at any point, but it starts up again on one of its old lines, or on new lines.* (Minuit p. 16; Massumi p. 9)
 
 *Asignifiante* means "not raised to the level of a master signifier." No castration, no Name-of-the-Father, no fundamental contradiction organizes the structure. Lacan's master-signifiers, Derrida's différance, Foucault's panopticon-as-master-figure: these are radicle moves, multiplying at the surface while preserving a master-cut. The rhizome refuses to elevate any break to organizing status.
 
 **5° et 6°, Cartographie et décalcomanie** (cartography and decalcomania).
 
-
 *The rhizome is altogether different, a map and not a tracing. Make the map, not the tracing. The orchid does not reproduce the tracing of the wasp; it forms a map with the wasp within the rhizome.* (Minuit p. 20; Massumi p. 12)
 
 The *calque* reproduces a pre-existing form. The *carte* is productive: multiple entries, reversible, no founding center.
-
 
 *The map is entirely oriented toward an experimentation in contact with the real.* (Minuit; Massumi p. 12)
 
@@ -308,14 +291,11 @@ The *calque* reproduces a pre-existing form. The *carte* is productive: multiple
 
 Three formulas condense the rhizome's anti-totalization argument.
 
-
 *The rhizome cannot be reduced to either the One or the Multiple.* (Minuit p. 31; Massumi p. 21)
 
 *Être* is the verb of identity-logic; *et* is co-presence without founding predication. The rhizome's grammar is parataxis.
 
-
 *The tree imposes the verb "to be," but the fabric of the rhizome is the conjunction "and... and... and..."* (Minuit p. 36; Massumi p. 25)
-
 
 *Make rhizome, not root, never plant! Do not sow, graft! Be not one nor multiple, be multiplicities! Make the line and never the point!* (Minuit p. 36)
 
@@ -330,7 +310,6 @@ The "violence of unification": the tree does not describe reality neutrally; it 
 ### Plateau
 
 The term comes from Bateson:
-
 
 *We call a "plateau" any multiplicity connectable to others by superficial subterranean stems so as to form and extend a rhizome.* (Minuit p. 33)
 
@@ -350,7 +329,6 @@ Deleuze-Guattari refuse, without qualification, *le divin*. The rhizome is radic
 
 Resolution: **Deleuze-Guattari give conceptual solvents against arborescent closure, not a positive ontology.** The rhizome prevents reterritorialization into Hegelian hierarchy. Aurobindo's *śakti*-pluralism adds what they cannot: a self-manifesting Real, divine *svātantrya* including self-veiling, an individual not dissolved but transformed. The supramental through-all is not a meta-perspective (Deleuze-Guattari's pejorative) but an aperspectival condition, Gebser's *diaphany* is the phenomenological correlate.
 
-
 ---
 
 ## Part III — *Logique du sens* (1969)
@@ -367,7 +345,6 @@ Following the Stoics and Russell:
 
 These form a circle: each presupposes another. The circle cannot be broken from within.
 
-
 *Inseparably, sense is the expressible or expressed of the proposition, and the attribute of the state of affairs. It turns one face toward things, one face toward propositions. But it merges no more with the proposition that expresses it than with the state of affairs or the quality the proposition designates. It is exactly the frontier of propositions and things.* (Minuit p. 34; my translation, Lester/Stivale consulted)
 
 Sense is the *fourth dimension*: neither in the proposition nor in the thing, but the limit, the interface, the surface. In Stoic vocabulary it *subsists* (the *lekton*) rather than exists. The structural answer to the regress: if sense were itself a proposition it would require a further sense to specify it, infinitely. The regress stops *at the plane itself*, sense is the surface of events; the infinite regress becomes a positive non-propositional dimension.
@@ -375,7 +352,6 @@ Sense is the *fourth dimension*: neither in the proposition nor in the thing, bu
 ### The surface against the abyss
 
 Against the deep (body, forces, Freudian id, dialectical contradiction) and against the height (God, Plato's forms, Hegel's Concept), Deleuze posits the surface:
-
 
 *In all these ways the surface is the transcendental field itself, and the place of sense or of expression. Sense is what forms and unfolds at the surface.* (Minuit p. 150; my translation against Lester/Stivale)
 
@@ -391,11 +367,9 @@ The Cheshire Cat's smile-without-a-cat is the paradigmatic event: the smile is a
 
 Events communicate not by causality (a relation between bodies) but by *consonance* at the surface. The "quasi-causal" relation: resonance of surface-effects through the univocal surface of sense.
 
-
 *What makes a life be composed of one and the same Event despite all the variety of what happens to it, what makes it traversed by one and the same fissure, what makes it play one and the same air on all possible tones with all possible words, these are not cause-to-effect relations but an ensemble of non-causal correspondences forming a system of echoes, of resumptions and resonances, a system of signs: in short, an expressive quasi-causality, not at all a necessitating causality.* (Minuit p. 199; my translation against Lester/Stivale)
 
 And the more compressed formula, from the same series:
-
 
 *It happens [...] as a single event for everything that happens to the most diverse things, Eventum tantum for all events, extreme form for all the forms that remain disjunct within it, but that make their disjunction ring out and ramify.* (Minuit p. 210; my translation)
 
@@ -406,7 +380,6 @@ For the user's multi-register realism: registers as events at the surface of one
 ### Series 25: De l'univocité
 
 The univocity argument from *D&R* is restated in *Logique du sens* in a form that links it explicitly to sense:
-
 
 *Univocity of being does not mean that there is one and the same being: on the contrary, beings are multiple and different, always produced by a disjunctive synthesis, themselves disjoint and divergent, membra disjuncta. Univocity of being signifies that being is Voice, that it is said, and is said in one and the same "sense" of everything of which it is said. That of which it is said is not at all the same. But it is the same for everything of which it is said.* (Minuit p. 210; my translation against Lester/Stivale)
 
@@ -426,7 +399,6 @@ Dennett's point, meaning requires a frame; no proposition specifies its own fram
 
 The supramental is not a better proposition (still framed) but a *mode of being*, *jñāna* by identity, not itself propositional. Transparent to all frames simultaneously because not within any. The position's critique of postmodern theory is not "you have no truth" but "your tools cannot reach the dimension that would resolve the frame-regress." Where Deleuze cannot follow: granting the surface self-luminous awareness, Aurobindo's *Cit*. The surface of *Logique du sens* is impersonal, eventful, productive, but not aware. The Aurobindonian addition is awareness as constitutive.
 
-
 ---
 
 ## Part IV — *Spinoza et le problème de l'expression* (1968)
@@ -442,7 +414,6 @@ Deleuze's complementary thesis, defended the same day as *D&R*. The articulation
 **Participation** (Platonic-scholastic): things participate in Ideas by resemblance, the *calque* model. Cannot explain difference between copy and original; implies hierarchy.
 
 **Expression** is the alternative to all three:
-
 
 *It is the age of sufficient reason: the three branches of sufficient reason, ratio essendi [reason of being], ratio cognoscendi [reason of knowing], ratio fiendi or agendi [reason of becoming or of acting], find in expression their common root.* (Minuit p. 299; Joughin adapted)
 
@@ -462,7 +433,6 @@ Each **attribute** expresses itself in **modes**. A mode is a particular modific
 
 The expressive logic, condensed:
 
-
 *Expression is installed at the heart of the individual, in its body and its soul, in its passions and its actions [...] by mode Spinoza means nothing other than the individual as expressive center.* (Minuit p. 304; Joughin adapted)
 
 This is philosophically decisive for the user's position. The individual (the finite mode) is *not* a diminished or deficient version of the infinite. It is a **center of expression**, a site where the infinite expresses itself finitely. The finite does not merely *participate* in the infinite by resemblance. It *expresses* the infinite in its own specific form. Spinoza's modes, and, in Deleuze's parallel, Leibniz's monads, are the individual *as* the locus where the infinite is finitely expressed. *Chaque monade trace son expression partielle distincte sur fond d'une expression totale confuse.* (Each monad traces its distinct partial expression on the ground of a total confused expression.)
@@ -474,7 +444,6 @@ For the user's T3, T7, T11, this is structurally what is needed. The individual 
 The defining act of Spinoza's philosophy, on Deleuze's reading, is *Ethics* I prop. 18: *Deus est omnium rerum causa immanens, non vero transiens*, God is the immanent, not the transitive cause of all things.
 
 In transcendent (transitive) causality, the cause stands outside and prior to its effects. In immanent causality, the cause remains *in* the effect *as* its expression. God does not produce the world and withdraw; God *remains in* the world as the ground of its being, which is also the world's continuous expression of God. *Deus sive Natura*, God, or Nature, is not a metaphor. It is the logical consequence of immanent causality.
-
 
 *The relation of expression essentially concerns the One and the Multiple.* (Minuit p. 308; Joughin adapted)
 
@@ -522,7 +491,6 @@ Deleuze's reading of Spinoza supplies a continental analog of the Vedāntic argu
 
 Māyā, in the Vivaraṇa school and Kashmir Śaivism reading the position adopts (T7), is not a veil that makes the world unreal; it is the *śakti* of the divine by which the infinite *appears finite*, by which the divine *appears to itself* as limited. This is closer to Spinoza's finite modes as genuine (if limited) expressions of the infinite than to Śaṅkara's strict *vivarta-vāda* read at its most uncompromising. Spinoza-via-Deleuze gives the philosophical articulation: the finite is the expressive determination of the infinite, not its deficient copy and not its illusory shadow.
 
-
 ---
 
 ## Part V — *Le Pli: Leibniz et le Baroque* (1988)
@@ -532,7 +500,6 @@ Twenty years after *D&R*, Deleuze returns to careful philosophical commentary. *
 ### The fold
 
 The opening of *Le Pli* offers one of Deleuze's most arresting philosophical formulas:
-
 
 *The Baroque does not refer to an essence but rather to an operative function, to a trait. It endlessly produces folds.* (Conley p. 3; Minuit p. 5)
 
@@ -552,7 +519,6 @@ Deleuze's central image is the Baroque house with two floors (*deux étages*).
 
 The two floors are not separate substances (against Cartesian dualism). They are two *aspects* of one fold: matter folded from below; soul folded from above. They communicate by **harmonie préétablie** (pre-established harmony): God arranges from the beginning that every change in body corresponds to a change in soul, not by causal interaction but by mutual expression of the same world.
 
-
 *Such is the foundation of perspectivism. It does not mean dependence on a pre-defined subject.* (Le Pli; Conley adapted)
 
 The monad *is* a point of view, not a subject who *has* a point of view. Perspective precedes and constitutes the subject. The monad's identity is its perspective; perspective is not a property of a pre-given subject but the constitutive act that makes a subject at all. This reverses the post-Cartesian assumption that subjectivity is the prior given (the *cogito*) and perspective is what subjectivity adopts. For Leibniz-as-Deleuze-reads-him, subjectivity is what perspective produces.
@@ -561,13 +527,11 @@ The monad *is* a point of view, not a subject who *has* a point of view. Perspec
 
 The locus classicus of Leibniz's perspectivism is *Monadologie* §57:
 
-
 *Just as the same city viewed from different sides appears entirely different, and is as it were multiplied perspectivally, so it comes about that, through the infinite multitude of simple substances, there are as many different universes, which are nevertheless only perspectives on one, according to the different points of view of each monad.* (*Monadologie* §57; standard translation modified for clarity)
 
 The city-viewed-from-different-sides analogy is the philosophical heart of the user's T1. Different perspectives on the same reality are *not* errors or illusions; they are *constitutive of access* to the reality. The reality does not exist apart from all perspectives; it is constituted by all of them together. And, crucially against relativism, the perspectives are *of the same city*. They are perspectives *on the same thing*. There is one city; the city is not exhausted in any one perspective; every perspective expresses the whole city from its angle, with its degree of clarity. Each monad is the city seen from one street corner.
 
 Deleuze's commentary, in the form by which he reads Leibniz against post-Kantian relativism:
-
 
 *In both Nietzsche and Leibniz, perspectivism will not mean "to each their own truth," but the point of view as the condition for the manifestation of the true.* (Le Pli; Conley adapted)
 
@@ -583,13 +547,11 @@ Each monad expresses the entire universe from its point of view. Each is a compl
 
 Two monads are **compossible** if they can coexist in the same world (their respective expressions are mutually compatible). Two monads are **incompossible** if they cannot (their expressions are mutually contradictory). The Adam who sinned and the Adam who did not sin are both possible (there is no logical contradiction in either); both are incompossible with each other (they belong to different worlds); only one is actual (the one whose total compossible set God has chosen for actualization).
 
-
 *Compossibility must be defined [...] by the convergence of series.* (Le Pli)
 
 Two monads are compossible when their respective infinite series of perceptions *converge*. Incompossible when they *diverge*. Compossibility is not a logical relation in the narrow sense, there is nothing logically self-contradictory in the existence of either Adam, but a metaphysical relation about whether two monads can fit into the same maximally-coherent total expression. Convergence here is a technical mathematical notion (Leibniz's calculus is operative): two infinite series converge if their terms get arbitrarily close together; they diverge if they do not.
 
 God surveys all possible worlds, all compossible sets, and selects for actualization the world with the maximum of perfection, greatest variety, greatest economy. This is Deleuze's *condition de clôture* (condition of closure): God selects, closes down all incompossible alternatives by actualizing one compossible set. The actual world is the selected maximum.
-
 
 *God turning, so to speak, in all directions and in all ways the general system of phenomena...the result of each view of the universe...is a substance.* (Leibniz, cited by Pelletier)
 
@@ -643,7 +605,6 @@ Abhinavagupta's *rasa* is similarly an aesthetic of implication: the *rasa* (aes
 
 The fold: the *rasa* is produced by the folding of aesthetic elements into each other. The Baroque is folding taken to infinity. The Aurobindonian supramental comprehending is the folding of all registers into each other, not their confusion (the fold retains distinctions) but their mutual implication (the fold makes interiority possible). The user's "diaphanous through-all" is the transparency of all folds to each other, which is exactly what Gebser calls *diaphany* and what Deleuze's *Le Pli* might be read as approaching in its concluding gesture.
 
-
 ---
 
 ## Part VI — *Nietzsche et la philosophie* (1962)
@@ -652,16 +613,13 @@ Deleuze's earliest major book in his own voice, a careful and partisan reading o
 
 ### Body as relation of forces
 
-
 *What is a body? We do not define it by saying that it is a field of forces, a nutritive milieu disputed by a plurality of forces. For in fact there is no "milieu," no field of forces or battle. There is no quantity of reality; all reality is already quantity of force. Nothing but quantities of force "in relation of tension" with one another.* (Nietzsche et la philosophie, Ch. II §2; PUF p. 45 adapted; Tomlinson adapted)
 
 Notice the precise correction Deleuze makes. It would be tempting to say that a body is a *field* in which forces meet. But "field" is already too much: it implies a pre-existing space in which the forces play. Deleuze (with Nietzsche) rejects this: there is no pre-existing field; there are only forces in relations of tension, and the "body" is the name we give to one such relation.
 
-
 *Every force is in relation with others, either to obey or to command. What defines a body is this relation between dominant and dominated forces. Every relation of forces constitutes a body: chemical, biological, social, political. Any two forces, being unequal, constitute a body as soon as they enter into relation.* (Tomlinson adapted)
 
 The body is not a thing; it is a *relation of forces*. Any two forces in tension constitute a body. The forces are unequal, one dominates, one is dominated, and this hierarchy of forces is what gives the body its specific character. There is no body in itself; there are only relations of forces, which are always asymmetric, always between dominant and dominated.
-
 
 *In a body, the higher or dominant forces are called active, the lower or dominated forces reactive. Active and reactive are precisely the originary qualities that express the relation of force to force.* (Tomlinson adapted)
 
@@ -669,16 +627,13 @@ Active force does, creates, affirms. Reactive force adapts, conserves, resists. 
 
 ### The diagnosis of modernity
 
-
 *The inferior forces define themselves as reactive: they lose nothing of their force, of their quantity of force, they exercise it in securing the mechanisms and finalities, in fulfilling the conditions of life and the functions, the tasks of conservation, of adaptation, and of utility. There is the starting point of the concept of reaction [...] the mechanical and utilitarian accommodations, the regulations that express the entire power of the inferior and dominated forces.* (Tomlinson adapted)
 
 Reactive force is not weak. It is the full power of forces in their reactive aspect, the mechanisms, regulations, adaptations, utilities. Reactive force is what keeps things going within their conditions of existence. It is conservation, accommodation, the steady reproduction of life-as-it-is.
 
-
 *We must note modern thought's immoderate taste for this reactive aspect of forces. People always think they have done enough when they understand the organism in terms of reactive forces.* (Tomlinson adapted)
 
 This is the Deleuzean-Nietzschean diagnosis of modernity: it understands everything in terms of adaptation, regulation, conservation, utility, the reactive functions. Active force is harder to characterize because it escapes consciousness:
-
 
 *By nature, they escape consciousness: "The great principal activity is unconscious." Consciousness expresses only the relation of certain reactive forces to the active forces that dominate them. Consciousness is essentially reactive; that is why we do not know what a body can do.* (Tomlinson adapted)
 
@@ -711,7 +666,6 @@ The final essay, "L'immanence: une vie..." (1995), is brief, but it matters for 
 This matters because it is the exact point where Deleuze both almost reaches and finally misses the user's thesis. He reaches it because "a life" is no longer one perspective among others. It is a through-field, the condition under which perspectives arise at all. He misses it because the field is still impersonal. There is no divine knower, no psychic being, no enduring center that can both undergo the dissolution of ego and remain itself. The essay is therefore the clearest late witness to the limit of Deleuze's metaphysics: immanence, yes; self-luminous and personal immanence, no.
 
 Read against Aurobindo, the contrast sharpens usefully. Deleuze's "a life" is what remains when transcendence and ego are both stripped away. Aurobindo's psychic being is what remains when ego is stripped away but individuality is not lost. That is why this late essay belongs in the file. It gives the cleanest final statement of Deleuze's power and of the precise place where the user's position must depart from him.
-
 
 ---
 

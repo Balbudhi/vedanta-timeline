@@ -97,5 +97,218 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-intra-school-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "causation_model",
+      "value": "body-soul-causation",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/periyavaccan-pillai.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://pillai-lokacarya/shri-vacana-bhushana/406-438",
+            "cite://pillai-lokacarya/shri-vacana-bhushana/83",
+            "cite://pillai-lokacarya/shri-vacana-bhushana/9-42"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "epistemic_authority",
+      "value": "scripture-dominant",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/periyavaccan-pillai.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://pillai-lokacarya/shri-vacana-bhushana/406-438",
+            "cite://pillai-lokacarya/shri-vacana-bhushana/83",
+            "cite://pillai-lokacarya/shri-vacana-bhushana/9-42"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "identity_relation",
+      "value": "body-soul-qualification",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/periyavaccan-pillai.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://pillai-lokacarya/shri-vacana-bhushana/406-438",
+            "cite://pillai-lokacarya/shri-vacana-bhushana/83",
+            "cite://pillai-lokacarya/shri-vacana-bhushana/9-42"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "individuation_status",
+      "value": "qualified-mode",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/periyavaccan-pillai.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://pillai-lokacarya/shri-vacana-bhushana/406-438",
+            "cite://pillai-lokacarya/shri-vacana-bhushana/83",
+            "cite://pillai-lokacarya/shri-vacana-bhushana/9-42"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "dependent-real",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/periyavaccan-pillai.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://pillai-lokacarya/shri-vacana-bhushana/406-438",
+            "cite://pillai-lokacarya/shri-vacana-bhushana/83",
+            "cite://pillai-lokacarya/shri-vacana-bhushana/9-42"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "modal_structure_of_truth",
+      "value": "single-absolute-truth",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/periyavaccan-pillai.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://pillai-lokacarya/shri-vacana-bhushana/406-438",
+            "cite://pillai-lokacarya/shri-vacana-bhushana/83",
+            "cite://pillai-lokacarya/shri-vacana-bhushana/9-42"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "normative_order_source",
+      "value": "divine-command-or-grace",
+      "register": "ethical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/periyavaccan-pillai.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://pillai-lokacarya/shri-vacana-bhushana/406-438",
+            "cite://pillai-lokacarya/shri-vacana-bhushana/83",
+            "cite://pillai-lokacarya/shri-vacana-bhushana/9-42"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "devotion-and-grace",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/periyavaccan-pillai.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://pillai-lokacarya/shri-vacana-bhushana/406-438",
+            "cite://pillai-lokacarya/shri-vacana-bhushana/83",
+            "cite://pillai-lokacarya/shri-vacana-bhushana/9-42"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "service-with-distinction-preserved",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/periyavaccan-pillai.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://pillai-lokacarya/shri-vacana-bhushana/406-438",
+            "cite://pillai-lokacarya/shri-vacana-bhushana/83",
+            "cite://pillai-lokacarya/shri-vacana-bhushana/9-42"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "one-qualified-by-real-internal-distinctions",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/periyavaccan-pillai.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://pillai-lokacarya/shri-vacana-bhushana/406-438",
+            "cite://pillai-lokacarya/shri-vacana-bhushana/83",
+            "cite://pillai-lokacarya/shri-vacana-bhushana/9-42"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

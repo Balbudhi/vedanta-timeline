@@ -61,5 +61,118 @@
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-claim-grounding-opus"
+  "last_verified_by": "wave-claim-grounding-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "epistemic_authority",
+      "value": "scripture-dominant",
+      "register": "epistemological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/bodhayana.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/2.3.43",
+            "cite://ramanuja/shri-bhasya/2.1.9",
+            "cite://bhaskara/brahma-sutra-bhasya/2.3.43",
+            "cite://nimbarka/vedanta-parijata-saurabha/2.3.43"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "identity_relation",
+      "value": "body-soul-qualification",
+      "register": "metaphysical",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/bodhayana.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/2.3.43",
+            "cite://ramanuja/shri-bhasya/2.1.9",
+            "cite://bhaskara/brahma-sutra-bhasya/2.3.43",
+            "cite://nimbarka/vedanta-parijata-saurabha/2.3.43"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "method_of_critique",
+      "value": "commentarial-exegesis",
+      "register": "methodological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/bodhayana.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/2.3.43",
+            "cite://ramanuja/shri-bhasya/2.1.9",
+            "cite://bhaskara/brahma-sutra-bhasya/2.3.43",
+            "cite://nimbarka/vedanta-parijata-saurabha/2.3.43"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "knowledge-discipline",
+      "register": "soteriological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/bodhayana.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/2.3.43",
+            "cite://ramanuja/shri-bhasya/2.1.9",
+            "cite://bhaskara/brahma-sutra-bhasya/2.3.43",
+            "cite://nimbarka/vedanta-parijata-saurabha/2.3.43"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "identity-with-ground",
+      "register": "soteriological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/bodhayana.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://badarayana/brahma-sutra/2.3.43",
+            "cite://ramanuja/shri-bhasya/2.1.9",
+            "cite://bhaskara/brahma-sutra-bhasya/2.3.43",
+            "cite://nimbarka/vedanta-parijata-saurabha/2.3.43"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

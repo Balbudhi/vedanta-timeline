@@ -12,13 +12,19 @@
 
 ### Bio in brief
 
+Cross-engagement: Abhinavagupta touches the same substrate structure axis, but not in the same register. This section works it as `anti-essential-relationality` in the phenomenological register; Abhinavagupta approaches it through the metaphysical register in [primary text](cite://abhinavagupta/tantraloka/1.16). The point of contact is genuine, but the comparison only holds once the register-shift is kept visible.
+
 Martin Heidegger was born on 26 September 1889 in Meßkirch, a small town in the Swabian uplands at the edge of the Black Forest, into a Catholic sexton's family of modest means. The provincial Swabian world — the bell-tower, the fields, the woodpaths, the dialect — never left his thinking. He prepared for the priesthood at the Jesuit gymnasium in Konstanz and the archiepiscopal seminary in Freiburg, broke with formal Catholic theology, took up Husserlian phenomenology under Edmund Husserl at Freiburg, and habilitated in 1915 with a study of Duns Scotus's doctrine of categories and meaning. He taught at Marburg from 1923 (where his electrifying lectures drew Hannah Arendt, Hans Jonas, Hans-Georg Gadamer, Karl Löwith, Leo Strauss), returned to Freiburg in 1928 as Husserl's successor, and there delivered, in a single decade, the work that made him the most consequential continental philosopher of the twentieth century.
+
+Cross-engagement: Adi Sankara presses the same selfhood structure axis in the phenomenological register, but with the value `witness-self` rather than `dasein` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 He published *Sein und Zeit* in 1927 — the existential analytic of *Dasein*, the question of Being reopened, the temporalization of human existence. In 1929 came *Was ist Metaphysik?* and *Kant und das Problem der Metaphysik*. Then came what cannot be elided in any honest reading: in April 1933, weeks after the Nazi seizure of power, he was elected Rector of Freiburg University and joined the NSDAP. His *Rektoratsrede*, the *Selbstbehauptung der deutschen Universität*, conscripted his philosophy of authentic decision into the rhetoric of the new regime. He resigned the rectorate within ten months, but his party membership was never renounced; the *Schwarze Hefte* (Black Notebooks), published only in the 2010s, contain antisemitic passages that no philosophical apologetics can scrub. After 1945 the French occupation banned him from teaching; he was reinstated in 1949 and re-emerged with a quieter, slower, more poetically inflected late work — the lectures and essays gathered as *Holzwege* (1950), *Vorträge und Aufsätze* (1954), *Was heißt Denken?* (1954), *Der Satz vom Grund* (1957), *Identität und Differenz* (1957), *Unterwegs zur Sprache* (1959), *Gelassenheit* (1959), *Wegmarken* (1967), *Zur Sache des Denkens* (1969). The vast *Beiträge zur Philosophie (Vom Ereignis)*, written 1936–1938, was held back during his lifetime and published only in 1989 (GA 65). He died in Meßkirch on 26 May 1976 and is buried beside his parents in the village churchyard, with the Black Forest path he loved running past it.
 
 ### The arc — what to expect
 
 A caution about the arc. The popular periodization "early Heidegger / late Heidegger / Kehre" is a later-academic frame; Heidegger himself, when he spoke of the *Kehre*, did not mean a biographical turn from one Heidegger to another. He meant a *turn in the matter* — a turn in the question of Being itself — to which his thinking was responding. In the *Brief über den Humanismus* he says plainly that the third Division of *Sein und Zeit* (the move from Dasein's temporality to *Time and Being*) was held back because "*thinking failed*" — the language of metaphysics inherited from Plato and Aristotle was inadequate to what he was trying to think. The *Kehre*, on his own self-presentation, is not a change of mind; it is the matter (*die Sache*) itself turning, and the thinker following it. We will keep this in view rather than packing him into the textbook three-phase frame.
+
+Cross-engagement: Akalanka presses the same epistemic authority axis in the epistemological register, but with the value `plural-pramana-realism` rather than `phenomenological-reduction` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 That said, there is a genuine progression in his vocabulary. *Sein und Zeit* (1927) approaches the *Seinsfrage* — the question of Being — through the existential analytic of Dasein, the entity that we ourselves are, the one for whom Being is at issue. Through the 1930s — the Hölderlin lectures, the work-of-art essay, the *Beiträge zur Philosophie* — the question is approached from the side of Being itself: the destinal sendings (*Geschick*) by which Being has un-concealed itself differently in different historical epochs. From the late 1940s — the *Brief*, *Gelassenheit*, *Identität und Differenz*, the *Andenken* meditations on Parmenides and Anaximander — the central word becomes *Ereignis*, the appropriative event in which Being and the human come into the relation that is proper to each, and *Geviert*, the four-gathering (earth, sky, mortals, divinities) of dwelling.
 
@@ -27,6 +33,8 @@ The continuity beneath the turn is the *Seinsfrage* itself. The early book makes
 ### Why the user reads Heidegger
 
 The user reads Heidegger for three principal reasons:
+
+Cross-engagement: Akshapada Gautama presses the same method axis in the methodological register, but with the value `formal-proof-or-inference` rather than `phenomenological-reduction` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 First, **Heidegger is the West's most rigorous anti-totalization counterpoint to Hegel**. Where Hegel completes metaphysics by gathering Being into the self-mediated Concept, Heidegger refuses the gathering. *Being is not a being.* No system, no Absolute, no synthesis — and yet not relativism, because the question of Being remains binding. This refusal of closure is structurally close to what the user defends against the Hegelian temptation: that there is no single grammar that can absorb every other grammar.
 
@@ -53,6 +61,8 @@ Third, **the user's polemic against grammar finds in Heidegger an ally and a lim
 - **Andenken** — commemorative thinking, mindful remembering. Thinking that recollects what has been forgotten — above all, Being.
 - **das Geviert** — usually "the fourfold." But the German *Ge-viert* is built like *Ge-stell* and *Ge-birge*: the *Ge-* prefix names a *gathering*, a *holding-together*, of what stands under the root (*viert*, four). *Geviert* is a *four-gathering* — earth, sky, mortals, divinities held in mutual mirroring as the simple oneness of dwelling. "Fourfold" loses the gathering; we will keep saying *Geviert* / four-gathering.
 
+Cross-engagement: Bhartrhari presses the same semantic mediation axis in the semantic-linguistic register, but with the value `language-as-creative-manifestation` rather than `language-subordinate-to-non-propositional-knowing` in [primary text](cite://bhartrhari/vakyapadiya/1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Hold these. Heidegger's German is not ornamental — the words *do* the philosophical work. We will keep returning to the German.
 
 ---
@@ -61,7 +71,11 @@ Hold these. Heidegger's German is not ornamental — the words *do* the philosop
 
 ### Introduction §§1–8: The question of Being
 
+Cross-engagement: Alfred North Whitehead touches the same temporal mode axis, but not in the same register. This section works it as `historical-disclosure` in the phenomenological register; Alfred North Whitehead approaches it through the metaphysical register in [primary text](cite://whitehead/process-and-reality/1.2). The point of contact is genuine, but the comparison only holds once the register-shift is kept visible.
+
 The book opens — characteristically — with a quotation from Plato (*Sophist* 244a) on the perplexity of those who think they know what "being" means. Heidegger's first move is to insist that this perplexity has been *forgotten*. Not solved; forgotten. The forgetting is itself the symptom.
+
+Cross-engagement: Anandabodha presses the same soteric end axis in the soteriological register, but with the value `identity-with-ground` rather than `not-soteriological` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 > "This question has today been forgotten, even though our time considers itself progressive in once again affirming 'metaphysics'." (§1)
 
@@ -165,7 +179,7 @@ Five existential characters: *eigenste* (ownmost — it cannot be transferred to
 
 The German phrasing matters:
 
-> "In *Vorlaufen* into this non-relational possibility, Dasein becomes free for its ownmost *Seinkönnen* (potentiality-for-Being). *Vorlaufen* discloses to existence, as its outermost possibility, *Selbstaufgabe* (self-relinquishment), and thus shatters any rigid clinging to whatever existence has been reached." (§53)
+> "In *Vorlaufen* into this non-relational possibility, Dasein becomes free for its ownmost *Seinkönnen* (potentiality-for-Being). *Vorlaufen* discloses to existence, as its outermost possibility, *Selbstaufgabe* (self-relinquishment), and so shatters any rigid clinging to whatever existence has been reached." (§53)
 
 The user's reading. Anticipation of death as individuating is, in the user's idiom, structurally close to the Upaniṣadic *yo vā etad akṣaraṃ gārgi aviditvāsmāl lokāt praiti sa kṛpaṇaḥ* (Bṛhadāranyaka III.8.10): "He who departs from this world without knowing the imperishable is a wretch." Death as the radically individuating limit is taken seriously. But Heidegger's death is *terminus*: an ownmost possibility that has nothing beyond it, no continuance, no beyond, no rebirth. The Indic traditions in which the user is rooted refuse this closure on independent metaphysical grounds (the *jīva*, *liṅga-śarīra*, *karma*-vāsanā continuity, Aurobindo's evolutionary teleology). The user does not reject Heidegger's existential analysis; the user *brackets* its ontological closure. The phenomenology of being-toward-finitude is real and individuating; the further claim that there is *nothing* beyond is a metaphysical thesis Heidegger himself elsewhere abjures.
 
@@ -231,7 +245,7 @@ Not master, but *shepherd*. The pastoral metaphor is deliberately Christian-mona
 
 Then comes the diagnosis of metaphysics:
 
-> "Metaphysics indeed represents beings in their Being, and so it also thinks the Being of beings. But it does not think the difference between the two. Metaphysics does not raise the question of the truth of Being itself."
+> "Metaphysics marks beings in their Being, and so it also thinks the Being of beings. But it does not think the difference between the two. Metaphysics does not raise the question of the truth of Being itself."
 
 The *ontologische Differenz* — the ontological difference between Being and beings — is what metaphysics has *forgotten*. It thinks Being only *as* a property of beings (the most general property, or the highest being) and never thinks Being *as such*. The history of Western philosophy from Plato to Nietzsche, on Heidegger's diagnosis, is the history of this forgetting; even Nietzsche's "will to power" is, on Heidegger's reading, a final metaphysical determination of beings as a whole, not a step beyond metaphysics.
 
@@ -405,7 +419,7 @@ Heidegger's reading of Nietzsche's celebrated proclamation is, like the *Identit
 
 The "God" who has died is the metaphysical God — the *causa sui*, the supersensuous absolute — whose function was to organize the sensuous-supersensuous hierarchy of Platonism-Christianity. Nietzsche's proclamation is the inevitable consequence of the metaphysical history: the supersensuous world, having been progressively emptied (Cartesian doubt, Kantian noumenal restriction, Hegelian secularization), has now lost its organizing power. *Was bleibt*, what remains? Nihilism — but nihilism, on Heidegger's reading, is not the *opposite* of the metaphysical project; it is its *consummation*. The metaphysical project always already contained nihilism as its inner telos.
 
-Heidegger's deeper claim is that Nietzsche himself remained metaphysical: the doctrine of *will to power* and the *eternal return* are, for Heidegger, the final metaphysical determinations of beings as a whole — values for the *will*. Nietzsche thus *completes* metaphysics rather than overcoming it. Only *another beginning* — Heidegger's own project — can step out of the metaphysical history.
+Heidegger's deeper claim is that Nietzsche himself remained metaphysical: the doctrine of *will to power* and the *eternal return* are, for Heidegger, the final metaphysical determinations of beings as a whole — values for the *will*. Nietzsche so *completes* metaphysics rather than overcoming it. Only *another beginning* — Heidegger's own project — can step out of the metaphysical history.
 
 The user's reading. Heidegger's reading of Nietzsche is partially right and partially captures Nietzsche too tightly into Heidegger's own destinal narrative. The reading of "God is dead" as targeting the *causa sui* is correct and confirms the user's defense of a non-metaphysical divine (T7). The reading of *eternal return* as a metaphysical determination of beings as values is, however, contested by Deleuze's reading (which the user explicitly endorses): the eternal return is the return of *difference*, not the same; it is anti-metaphysical in Deleuze's sense, not metaphysical in Heidegger's. The user holds Deleuze's reading against Heidegger's here. Both readings can be true at different levels: Nietzsche the polemicist *did* sometimes write as if "will to power" were a metaphysical thesis; Nietzsche the affirmer wrote of return as repetition of difference. The thesis selects the second, with Deleuze.
 
@@ -512,7 +526,7 @@ But the *structural* homologies are real:
 
 These homologies are independent. Heidegger arrived at his vocabulary by working back through Greek, Latin, German philosophical history; Bhartṛhari, the Vedic seers, Aurobindo arrived at theirs through the Sanskrit tradition. That two such different routes converge on structurally similar formulations is *evidence* — evidence that the matter being thought is *real*, not the artifact of one tradition's grammar.
 
-The user's stance toward this convergence: it is a confirmation of T11 (ontology of phenomenology) and T4 (all darśanas ultimately true). The convergence does *not*, however, mean that Heidegger and Aurobindo are saying the *same* thing. They are saying *structurally homologous* things from *different registers*. Heidegger speaks from the register of philosophical-poetic thinking after the closure of Western metaphysics; Aurobindo speaks from the register of *yogic-experiential* knowledge of the supramental level itself. Heidegger has read the structure off the philosophical history; Aurobindo has *seen* the structure in *darśana* (literally: seeing) and *anubhava* (direct experience).
+The user's stance toward this convergence: it is a confirmation of T11 (ontology of phenomenology) and T4 (all darśanas true). The convergence does *not*, however, mean that Heidegger and Aurobindo are saying the *same* thing. They are saying *structurally homologous* things from *different registers*. Heidegger speaks from the register of philosophical-poetic thinking after the closure of Western metaphysics; Aurobindo speaks from the register of *yogic-experiential* knowledge of the supramental level itself. Heidegger has read the structure off the philosophical history; Aurobindo has *seen* the structure in *darśana* (literally: seeing) and *anubhava* (direct experience).
 
 ---
 
@@ -530,7 +544,7 @@ This final part records, in working form, the user's accounts and accounts-again
 
 **4. The dismantling of the Cartesian subject-object split.** *Sein und Zeit* §§13–24's analysis of *In-der-Welt-sein* and the ready-to-hand dissolves a great deal of correlationist closure before correlationism gets named. Meillassoux's diagnosis is that post-Kantian thought cannot think the *ancestral* (the in-itself prior to all thinking); Heidegger, by refusing the worldless subject as a starting point, refuses one of the two pillars on which correlationism rests. Indian realism (Nyāya, Mīmāṃsā, Madhva, Bhāskara) never fell into the correlationist trap; Heidegger is one of the few Western thinkers who at least began to climb back out.
 
-**5. *Selbigkeit* without *Einheit* — sameness that is not unity.** Identity as belonging-together rather than collapse-into-one is exactly the structural shape of T1 (darśana register thesis) and T4 (all darśanas ultimately true). The registers belong together — they speak of the same Real — without collapsing into a single grammar. Heidegger's *Selbigkeit*-not-*Einheit* is one of the cleanest Western statements of this structure.
+**5. *Selbigkeit* without *Einheit* — sameness that is not unity.** Identity as belonging-together rather than collapse-into-one is exactly the structural shape of T1 (darśana register thesis) and T4 (all darśanas true). The registers belong together — they speak of the same Real — without collapsing into a single grammar. Heidegger's *Selbigkeit*-not-*Einheit* is one of the cleanest Western statements of this structure.
 
 **6. *Gelassenheit* as neither willing nor not-willing.** This is Heidegger's strongest statement of the third comportment of action — neither willful seizure nor passive withdrawal — that the *Bhagavad Gītā*'s *karma-yoga* and Aurobindo's triple transformation also articulate. The user's *niṣkāma karma* and Heidegger's *Gelassenheit* are structurally close; reading them together strengthens both.
 

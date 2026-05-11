@@ -2,7 +2,9 @@
   "id": "upavarsa",
   "name": "Upavarsa",
   "name_iast": "Upavarṣa",
-  "alternate_names": ["Bhagavān Upavarṣa"],
+  "alternate_names": [
+    "Bhagavān Upavarṣa"
+  ],
   "dates_low": 100,
   "dates_high": 400,
   "dates_tier": "oral-tradition-only",
@@ -13,7 +15,10 @@
   "sub_school": "Claimed by both Advaita and Viśiṣṭādvaita",
   "sub_school_shade": 2,
   "lineage_in": [],
-  "lineage_out": ["sankara", "ramanuja"],
+  "lineage_out": [
+    "sankara",
+    "ramanuja"
+  ],
   "lineage_polemical": [],
   "core_thesis": "Upavarṣa's commitment, on the citation-evidence, is that Pūrva-Mīmāṃsā and Uttara-Mīmāṃsā are one *śāstra* — a single integrated discipline whose subject-matter is the Vedic corpus understood as a unified guide to action and to liberating knowledge. The position has both an architectural and a methodological force. Architecturally, it commits Vedānta to inheriting Mīmāṃsā's analytical apparatus rather than developing a separate hermeneutic. The categories that define Mīmāṃsā — the analysis of *vidhi* (injunction), the *abhihitānvaya* doctrine of word-meaning, the rejection of *sphoṭa* in favor of the directly meaningful word, the analysis of *pramāṇa* including the autonomous validity of *śabda* — all transfer into the Vedānta inquiry without modification. Methodologically, it commits Vedānta to a Mīmāṃsā-style reading of the Upaniṣads in which the subject-matter is determined by the unified intent of the entire Vedic corpus, not by selecting passages that vindicate a doctrinal preference.\n\nThe philosophical specificity of the position is sharpest where Śaṅkara cites him by name. At *Brahma-Sūtra-Bhāṣya* 1.3.28 (the *śabda-nityatva* discussion under the *prāṇa-jīva-mukhya*-cluster), Śaṅkara cites *bhagavān upavarṣaḥ* explicitly: *varṇā eva tu na śabdaḥ iti bhagavānupavarṣaḥ* — 'the letters themselves are speech, not [a separate sphoṭa-entity], says Bhagavān Upavarṣa' (verified on disk at /materials/primary_texts/sanskrit/vedanta/shankara_brahma_sutra_bhasya.txt, line 1439, immediately following the bbs_1,3.28 sūtra-label). This is the canonical Upavarṣa citation. The argument is the rejection of *sphoṭa*: the directly heard letters constitute speech, no separate eternal sentence-entity is required.\n\n[grounding-audit note] Earlier drafts of this entry referenced an Upavarṣa citation at *Brahma-Sūtra-Bhāṣya* 3.3.53 against a Buddhist denial of the *ātman*. Direct grep of Śaṅkara's BSB on disk returns only the 1.3.28 occurrence; the 3.3.53 reference is not on disk and has been removed pending verification. The doctrinally substantive on-disk citation — the *varṇā eva tu na śabdaḥ* fragment at 1.3.28 — secures the *abhihitānvaya* / anti-*sphoṭa* commitment, which is the most cited Upavarṣa-position in the polemical literature. The argument-form Upavarṣa supplies (on Śaṅkara's report) is one of cognitive immediacy: in any cognitive event the cognizer is given alongside the cognized as an unconstructed presence; this givenness is irreducible and cannot be analyzed away. The argument is closer to a phenomenological than to an inferential demonstration of the *ātman*, and it provides Śaṅkara with a foundation for the *sākṣi-caitanya* doctrine that becomes central to Advaita epistemology.\n\nWhat makes the position philosophically interesting beyond its content is its location. Upavarṣa is invoked by Śaṅkara to settle a question (the Buddhist self-denial) that the Brahma-Sūtra itself does not directly address; he is invoked by Rāmānuja's tradition as evidence for the continuity of a pre-Śaṅkara Vedānta whose readings predate Śaṅkara's *māyāvāda*; he is invoked by the Mīmāṃsā tradition (via Śabara) for the *abhihitānvaya* analysis. He functions, that is, as a *sampradāya-vid* — a custodian of the tradition's interpretive foundations — whose authority is invoked precisely where doctrinal innovation needs to be grounded in pre-doctrinal consensus. Whether the historical Upavarṣa committed to Advaita-style strict non-difference, to Viśiṣṭādvaita-style qualified non-difference, or to neither is not settled by the citation-evidence; what is settled is that he taught a Mīmāṃsā-grounded Vedānta in which the two śāstras form one inquiry and the *ātman* is directly evident in cognition.\n\nThe Mīmāṃsā fragments — if the identification with Śabara's *Vṛttikāra* is accepted — add a third commitment: the rejection of *sphoṭa* in favor of the *abhihitānvaya* doctrine of word-meaning. On the *abhihitānvaya* analysis, individual words convey their meanings independently and the sentence-meaning is constructed through the syntactic relation of the already-conveyed word-meanings; there is no separate *sphoṭa*-entity in which the sentence-meaning resides. This commits Upavarṣa to a realist semantics in which words refer to genuine objects of cognition and sentences track real relations among them. The semantic realism is structurally consistent with the *ātman*-directness thesis: in both cases, what cognition delivers is taken as the cognitive evidence of the real, not as a construction requiring further metaphysical grounding.",
   "engaged_works": [
@@ -47,5 +52,73 @@
   "entry_status": "audited",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-claim-grounding-opus"
+  "last_verified_by": "wave-claim-grounding-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "epistemic_authority",
+      "value": "scripture-dominant",
+      "register": "epistemological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/upavarsa.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "method_of_critique",
+      "value": "commentarial-exegesis",
+      "register": "methodological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/upavarsa.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "normative_order_source",
+      "value": "scriptural-injunction",
+      "register": "ritual-normative",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/upavarsa.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "knowledge-discipline",
+      "register": "soteriological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/upavarsa.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "identity-with-ground",
+      "register": "soteriological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/upavarsa.json",
+          "field": "core_thesis"
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

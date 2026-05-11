@@ -49,5 +49,162 @@
     }
   ],
   "entry_status": "stub-from-backlog",
-  "core_thesis": "Marx's mature claim is that capital is value in motion: a social relation that preserves and enlarges itself by buying labor-power and extracting surplus labor ([Capital I ch. 4](cite://marx/capital/1.4); [ch. 7](cite://marx/capital/1.7)). Under commodity production, relations between persons necessarily appear as properties of things; fetishism is thus an objective social form, not a mere illusion ([Capital I ch. 1 §4](cite://marx/capital/1.1.4); [ch. 10](cite://marx/capital/1.10)). History is read accordingly through determinate material antagonisms, above all class struggle ([Communist Manifesto I](cite://marx/communist-manifesto/1); [Capital I ch. 24](cite://marx/capital/1.24))."
+  "core_thesis": "Marx's mature claim is that capital is value in motion: a social relation that preserves and enlarges itself by buying labor-power and extracting surplus labor ([Capital I ch. 4](cite://marx/capital/1.4); [ch. 7](cite://marx/capital/1.7)). Under commodity production, relations between persons necessarily appear as properties of things; fetishism is thus an objective social form, not a mere illusion ([Capital I ch. 1 §4](cite://marx/capital/1.1.4); [ch. 10](cite://marx/capital/1.10)). History is read accordingly through determinate material antagonisms, above all class struggle ([Communist Manifesto I](cite://marx/communist-manifesto/1); [Capital I ch. 24](cite://marx/capital/1.24)).",
+  "primitive_commitments": [
+    {
+      "primitive": "finite_cognition_model",
+      "value": "genealogically-produced-illusion",
+      "register": "political-social",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/marx.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://marx/capital/1.4",
+            "cite://marx/capital/1.7",
+            "cite://marx/capital/1.1.4",
+            "cite://marx/capital/1.10"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "socially-or-discursively-stabilized",
+      "register": "political-social",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/marx.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://marx/capital/1.4",
+            "cite://marx/capital/1.7",
+            "cite://marx/capital/1.1.4",
+            "cite://marx/capital/1.10"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "method_of_critique",
+      "value": "genealogy",
+      "register": "historical-genealogical",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/marx.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://marx/capital/1.4",
+            "cite://marx/capital/1.7",
+            "cite://marx/capital/1.1.4",
+            "cite://marx/capital/1.10"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "method_of_critique",
+      "value": "dialectical-development",
+      "register": "methodological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/marx.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://marx/capital/1.4",
+            "cite://marx/capital/1.7",
+            "cite://marx/capital/1.1.4",
+            "cite://marx/capital/1.10"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "normative_order_source",
+      "value": "class-structured-social-relation",
+      "register": "political-social",
+      "confidence": "high",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/marx.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://marx/capital/1.4",
+            "cite://marx/capital/1.7",
+            "cite://marx/capital/1.1.4",
+            "cite://marx/capital/1.10"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "social_formation_model",
+      "value": "commodity-fetish-social-form",
+      "register": "political-social",
+      "confidence": "high",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/marx.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://marx/capital/1.4",
+            "cite://marx/capital/1.7",
+            "cite://marx/capital/1.1.4",
+            "cite://marx/capital/1.10"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "not-soteriological",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/marx.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://marx/capital/1.4",
+            "cite://marx/capital/1.7",
+            "cite://marx/capital/1.1.4",
+            "cite://marx/capital/1.10"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

@@ -58,5 +58,148 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "causation_model",
+      "value": "real-transformation",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/isvara-krsna.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://isvara-krsna/samkhya-karika/9",
+            "cite://badarayana/brahma-sutra/2.1.1-11"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "real-transformation",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/isvara-krsna.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://isvara-krsna/samkhya-karika/9",
+            "cite://badarayana/brahma-sutra/2.1.1-11"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "knowledge-discipline",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/isvara-krsna.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://isvara-krsna/samkhya-karika/9",
+            "cite://badarayana/brahma-sutra/2.1.1-11"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "selfhood_structure",
+      "value": "substantial-self",
+      "register": "phenomenological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/isvara-krsna.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://isvara-krsna/samkhya-karika/9",
+            "cite://badarayana/brahma-sutra/2.1.1-11"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "isolation-or-discriminative-release",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/isvara-krsna.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://isvara-krsna/samkhya-karika/9",
+            "cite://badarayana/brahma-sutra/2.1.1-11"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "many-coordinate-reals",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/isvara-krsna.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://isvara-krsna/samkhya-karika/9",
+            "cite://badarayana/brahma-sutra/2.1.1-11"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "temporal_mode",
+      "value": "substance-primary",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/isvara-krsna.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://isvara-krsna/samkhya-karika/9",
+            "cite://badarayana/brahma-sutra/2.1.1-11"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

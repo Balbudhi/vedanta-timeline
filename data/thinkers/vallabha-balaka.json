@@ -48,5 +48,184 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-intra-school-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "affective_motive_force",
+      "value": "devotion",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vallabha-balaka.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://mandana/brahma-siddhi/2.1.14",
+            "cite://mandana/brahma-siddhi/1.1.4-5",
+            "cite://mandana/brahma-siddhi/2.3.43",
+            "cite://mandana/brahma-siddhi/3.3-3.4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "causation_model",
+      "value": "real-transformation",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vallabha-balaka.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://mandana/brahma-siddhi/2.1.14",
+            "cite://mandana/brahma-siddhi/1.1.4-5",
+            "cite://mandana/brahma-siddhi/2.3.43",
+            "cite://mandana/brahma-siddhi/3.3-3.4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "epistemic_authority",
+      "value": "scripture-dominant",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vallabha-balaka.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://mandana/brahma-siddhi/2.1.14",
+            "cite://mandana/brahma-siddhi/1.1.4-5",
+            "cite://mandana/brahma-siddhi/2.3.43",
+            "cite://mandana/brahma-siddhi/3.3-3.4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "identity_relation",
+      "value": "self-expression-or-appearance",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vallabha-balaka.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://mandana/brahma-siddhi/2.1.14",
+            "cite://mandana/brahma-siddhi/1.1.4-5",
+            "cite://mandana/brahma-siddhi/2.3.43",
+            "cite://mandana/brahma-siddhi/3.3-3.4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "real-transformation",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vallabha-balaka.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://mandana/brahma-siddhi/2.1.14",
+            "cite://mandana/brahma-siddhi/1.1.4-5",
+            "cite://mandana/brahma-siddhi/2.3.43",
+            "cite://mandana/brahma-siddhi/3.3-3.4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "devotion-and-grace",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vallabha-balaka.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://mandana/brahma-siddhi/2.1.14",
+            "cite://mandana/brahma-siddhi/1.1.4-5",
+            "cite://mandana/brahma-siddhi/2.3.43",
+            "cite://mandana/brahma-siddhi/3.3-3.4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "loving-participation",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vallabha-balaka.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://mandana/brahma-siddhi/2.1.14",
+            "cite://mandana/brahma-siddhi/1.1.4-5",
+            "cite://mandana/brahma-siddhi/2.3.43",
+            "cite://mandana/brahma-siddhi/3.3-3.4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "one-self-standing",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/vallabha-balaka.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://mandana/brahma-siddhi/2.1.14",
+            "cite://mandana/brahma-siddhi/1.1.4-5",
+            "cite://mandana/brahma-siddhi/2.3.43",
+            "cite://mandana/brahma-siddhi/3.3-3.4"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

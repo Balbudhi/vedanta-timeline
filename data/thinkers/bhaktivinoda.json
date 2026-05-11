@@ -165,5 +165,217 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "affective_motive_force",
+      "value": "devotion",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/bhaktivinoda.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://mandana/brahma-siddhi/1.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "causation_model",
+      "value": "unchanged-ground-with-changing-power",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/bhaktivinoda.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://mandana/brahma-siddhi/1.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "epistemic_authority",
+      "value": "scripture-dominant",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/bhaktivinoda.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://mandana/brahma-siddhi/1.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "identity_relation",
+      "value": "inconceivable-difference-non-difference",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/bhaktivinoda.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://mandana/brahma-siddhi/1.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "individuation_status",
+      "value": "irreducible-dependent",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/bhaktivinoda.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://mandana/brahma-siddhi/1.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "dependent-real",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/bhaktivinoda.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://mandana/brahma-siddhi/1.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "modal_structure_of_truth",
+      "value": "single-absolute-truth",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/bhaktivinoda.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://mandana/brahma-siddhi/1.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "devotion-and-grace",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/bhaktivinoda.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://mandana/brahma-siddhi/1.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "relation_to_perspectivism",
+      "value": "partial-perspectives-ranked",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/bhaktivinoda.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://mandana/brahma-siddhi/1.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "loving-participation",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/bhaktivinoda.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://mandana/brahma-siddhi/1.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "one-independent-plus-real-dependents",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/bhaktivinoda.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://mandana/brahma-siddhi/1.1.1"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

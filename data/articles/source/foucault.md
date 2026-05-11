@@ -10,7 +10,11 @@ The brief follows Foucault's own self-periodization, not the standard textbook f
 
 ### Life and arc
 
+Cross-engagement: Karl Marx works the same manifestation status axis in the political-social register. Here the operative value is `socially-or-discursively-stabilized`; Karl Marx lands on that same value in [primary text](cite://marx/capital/1.4). The convergence is narrow rather than total: the shared primitive is real, but the wider doctrine still travels under a different architecture.
+
 Paul-Michel Foucault was born in Poitiers in 1926, into a provincial bourgeois family of physicians; he died in Paris on 25 June 1984, of complications of AIDS, the first major French intellectual to do so publicly. Between those years he produced a body of work that, more than any other twentieth-century French philosopher except perhaps Deleuze, restructured the international Anglophone reception of "theory" — and produced, in passing, the conceptual furniture (*disciplinary power, biopower, panopticism, discourse, the deployment of sexuality, the care of the self*) on which most contemporary social thought now relies whether it knows it or not.
+
+Cross-engagement: Abhinavagupta presses the same selfhood structure axis in the phenomenological register, but with the value `relational-self` rather than `split-or-produced-subject` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 Foucault himself, in the 1983-84 retrospective texts, divided the work into three axes, corresponding to three "modes of objectification" of the human subject: the *axe du savoir* (knowledge), the *axe du pouvoir* (power), and the *axe de l'éthique* (ethics — the relation of the self to itself). In strict chronology these are sequential phases; in Foucault's own re-description they are co-implicated angles on a single question. Both framings are useful, and this brief uses them in conjunction: chronological order gives the texture of the development, but the three-axis self-periodization is what Foucault eventually said the work had been about.
 
@@ -26,6 +30,8 @@ It must be said at the outset, because the standard Anglophone reception persist
 
 Across the three axes one question runs continuously, and Foucault said so: *what are the historically specific conditions under which something appears as true, as known, as a possible object of inquiry, and as a possible kind of subject?* The archaeological axis answers in terms of the *épistémè* and the rules of formation of statements; the genealogical in terms of power as the immanent condition for the production of subjects and objects of knowledge; the ethical in terms of *pratiques de soi* as the partly free work by which a subject constitutes itself within and against the historical field. The vocabulary changes; the question is one.
 
+Cross-engagement: Theodor W. Adorno works the same finite cognition axis in the political-social register. Here the operative value is `genealogically-produced-illusion`; Theodor W. Adorno lands on that same value in [primary text](cite://adorno/negative-dialectics/2). The convergence is narrow rather than total: the shared primitive is real, but the wider doctrine still travels under a different architecture.
+
 Three thematic vectors organize his thought:
 
 **(a) The dethronement of the universal subject.** The Cartesian *cogito*, the Kantian transcendental subject, and the post-Kantian subject of phenomenology are not, for Foucault, ahistorical givens; they are historically produced figures of a specific *épistémè* (the modern, post-1800), and that figure is dissolving. "Man" is not an eternal object of knowledge; "man" is the strange empirico-transcendental doublet that comes into view when classical representation collapses and a new arrangement opens.
@@ -37,6 +43,8 @@ Three thematic vectors organize his thought:
 ### The user's interest
 
 For the user's thesis, Foucault is a productively double figure: largely an ally on the *register-distinction* axis (T1) and the *anti-Cartesian-subject* axis (T11), a polemical opposite where the reception promotes his methodological caution to a totalizing metaphysics. Foucault's *épistémè* — the conditions of possibility for statements within a period, not a claim about the Real — is the closest twentieth-century European analog of the register-thesis. His dismantling of "man" as the empirico-transcendental doublet is congenial to the user's view that the Cartesian, Kantian, and Hegelian subjects are not the deepest fact about subjectivity. Foucault would never take the further metaphysical step (one Real said in many senses); but the register-analytic without the metaphysical step is in him in clean form, and the late-period recovery of *epimeleia heautou* maps with structural precision onto *sādhanā*. The user's polemic engages where the *useful local diagnosis* — schools, prisons, hospitals, sexological discourses do produce the subjects they claim merely to study — is silently raised to a *totalizing metaphysics in which there is nothing but power*. That metaphysics the user rejects, and Foucault himself, by 1982, was already withdrawing from. The detail of agreement and disagreement is laid out in Part VI; what matters at the outset is that this is the relation of a careful reader to a partial fellow-traveler, not of an opponent.
+
+Cross-engagement: Adi Sankara presses the same epistemic authority axis in the epistemological register, but with the value `scripture-dominant` rather than `genealogical-critique` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 ### Glossary
 
@@ -55,13 +63,19 @@ For the user's thesis, Foucault is a productively double figure: largely an ally
 - ***souci de soi / epimeleia heautou*** — the care of the self; the practice by which a classical or Hellenistic-Roman subject worked on itself in order to become a subject capable of truth.
 - ***ascèse / askēsis*** — exercise; the technical practice (of writing, of reading, of meditation, of memorization, of dietary regimen) by which the care of the self is enacted.
 
+Cross-engagement: Bannanje Govindacharya touches the same determination axis, but not in the same register. This section works it as `genealogical-exposure` in the historical-genealogical register; Bannanje Govindacharya approaches it through the logical-dialectical register in [primary text](cite://madhva/tattva-sankhyana/1-4). The point of contact is genuine, but the comparison only holds once the register-shift is kept visible.
+
 ---
 
 ## Part I — *Les mots et les choses* (1966)
 
 ### The opening scene: Borges and the "table"
 
+Cross-engagement: Friedrich Nietzsche works the same method axis in the historical-genealogical register. Here the operative value is `genealogy`; Friedrich Nietzsche lands on that same value in [primary text](cite://nietzsche/beyond-good-and-evil/22). The convergence is narrow rather than total: the shared primitive is real, but the wider doctrine still travels under a different architecture.
+
 *Les mots et les choses* opens, famously, with Borges. Foucault reports laughter at "a certain Chinese encyclopedia" in which animals are divided into "(a) belonging to the Emperor, (b) embalmed, (c) tame, (d) suckling pigs, (e) sirens, (f) fabulous, (g) stray dogs, (h) included in the present classification, (i) frenzied, (j) innumerable, (k) drawn with a very fine camelhair brush, (l) et cetera, (m) having just broken the water pitcher, (n) that from a long way off look like flies." The laughter, he says, comes from a *malaise*: the limit of our own thought. What the encyclopedia abolishes is not the proximity of things but the very *site* in which they could be juxtaposed.
+
+Cross-engagement: Akshapada Gautama presses the same method axis in the methodological register, but with the value `formal-proof-or-inference` rather than `dialectical-development` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 > What is impossible is not the neighboring of things, but the site itself in which they could be neighbors. Where could they be juxtaposed except in the non-place of language?
 
@@ -76,6 +90,8 @@ The history will not be a Whiggish history of *progress* (knowledge-improving-to
 ### The Renaissance épistémè: similitude
 
 The Renaissance — for Foucault, roughly the sixteenth century, with Paracelsus, Crollius, della Porta as canonical figures — operates by *similitude* (*ressemblance*). To know is to find resemblances and trace them across the world. There are four cardinal forms:
+
+Cross-engagement: Judith Butler works the same normativity axis in the political-social register. Here the operative value is `disciplinary-power`; Judith Butler lands on that same value in [primary text](cite://butler/gender-trouble/3). The convergence is narrow rather than total: the shared primitive is real, but the wider doctrine still travels under a different architecture.
 
 **(i) *convenientia*** — convenience, neighborhood-by-juxtaposition: things resemble each other because they are close. The plant resembles the animal because it is rooted to it; the soul resembles the body because it is housed in it. Resemblance is *spatial*.
 
@@ -93,23 +109,27 @@ The collapse comes around 1650. Don Quichotte is already a "negative" of the Ren
 
 The Classical age (roughly 1650–1800: Descartes, Port-Royal, Linnaeus, Cuvier-as-yet-not-quite, the *Encyclopédie*) operates by *representation*. The word *représentation* in Foucault is not a casual term: it names the entire operation by which a sign now stands for the thing not by *being similar* to it but by being able to *take its place* in a system of differences. The sign no longer carries the weight of resemblance; it discriminates and orders.
 
+Cross-engagement: G. W. F. Hegel presses the same social formation axis in the political-social register, but with the value `recognitive-institutional` rather than `disciplinary-production-of-subjects` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Three operations characterize the Classical *épistémè*:
 
 **(i) *Mathesis*** — the project of a universal science of order, modeled on mathematics, in which beings can be brought into comparison along quantitative scales. *Mathesis* is the dream of a calculus of qualities.
 
 **(ii) *Taxinomia*** — the project of an ordered table, in which beings are arranged by visible characters into genera and species; not yet biology (which presupposes life as the inner principle of organization), but *natural history* (which classifies surfaces by visible difference). Linnaeus is the pure case.
 
-**(iii) The general grammar** — language ceases to be the surface of the signed world and becomes the system of signs by which thought represents itself to itself. The Port-Royal grammarians (Arnauld, Lancelot) treat language as a transparent medium of representation; the proposition is the basic unit; the verb *to be* is the link by which thought attaches a predicate to a subject.
+**(iii) The general grammar** — language ceases to be the surface of the signed world and becomes the system of signs by which thought marks itself to itself. The Port-Royal grammarians (Arnauld, Lancelot) treat language as a transparent medium of representation; the proposition is the basic unit; the verb *to be* is the link by which thought attaches a predicate to a subject.
 
 These three are not separate sciences; they are three modes of one operation, which is the construction of *the table* — the ordered grid in which signs and things are co-extensive. The *table* of the Classical age is the new "non-place" that succeeds Renaissance similitude. Knowing now means *putting in the table*: laying out a domain into its discriminations, identities, differences.
 
-Foucault's central illustration is *Les Suivantes* (Velázquez's *Las Meninas*, 1656), with which he opens chapter 1. The painting represents representation itself: the painter, the canvas, the mirror, the king and queen present only as reflection. The painting *holds open* the structure of Classical representation precisely because the sovereign subject of representation — the figure for whom the representation is — is not in the painting; he is the empty point in front of the canvas, the void that the structure requires and cannot itself contain. The Classical *épistémè* represents everything *except* the representer.
+Foucault's central illustration is *Les Suivantes* (Velázquez's *Las Meninas*, 1656), with which he opens chapter 1. The painting marks representation itself: the painter, the canvas, the mirror, the king and queen present only as reflection. The painting *holds open* the structure of Classical representation precisely because the sovereign subject of representation — the figure for whom the representation is — is not in the painting; he is the empty point in front of the canvas, the void that the structure requires and cannot itself contain. The Classical *épistémè* marks everything *except* the representer.
 
 This is decisive. In the Classical *épistémè* there is no philosophical "man." Representation is sovereign; the human subject is the unmarked condition of the table, never *in* the table. To classify beings is not to classify *oneself*; the classifier is structurally external. This is why, for the Classical age, "anthropology" in the modern sense is impossible.
 
 ### The discontinuity around 1800: man enters the order of things
 
 The Classical *épistémè* collapses across the late eighteenth and early nineteenth centuries. Three movements describe the collapse, parallel across three domains:
+
+Cross-engagement: Akalanka touches the same practice-path axis, but not in the same register. This section works it as `critical-genealogical-work` in the ethical register; Akalanka approaches it through the soteriological register in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The point of contact is genuine, but the comparison only holds once the register-shift is kept visible.
 
 **(i) Natural history → biology.** Cuvier's comparative anatomy (1795 onward) introduces *the organism* as a hierarchical, functional integration whose visible characters depend on an *inner* principle of organization (life). What had been classifiable on the surface of the table now requires reference to a depth that is not on the surface. *Life* enters the field as the unrepresentable condition of biological knowledge.
 
@@ -255,7 +275,7 @@ Part II treats the eighteenth-century reformers — Beccaria above all, but also
 
 > The art of punishing must therefore rest on a whole technology of representation. To find the fitting punishment for a crime is to find the disadvantage whose very idea will make the idea of the offence definitively unattractive.
 
-The reformers' punishment is thus still public, but no longer spectacular in the sovereign-affirming sense. It is a *semiotic* punishment: a system of public works, of signs read in the public square — the road-mender for the highwayman, the public laundry-worker for the slanderer — calibrated so that the punishment *represents* the crime in a manner that the spectator can read.
+The reformers' punishment is so still public, but no longer spectacular in the sovereign-affirming sense. It is a *semiotic* punishment: a system of public works, of signs read in the public square — the road-mender for the highwayman, the public laundry-worker for the slanderer — calibrated so that the punishment *marks* the crime in a manner that the spectator can read.
 
 What is striking about the reformers' program is that it was *not the program that won*. By 1810 — within a generation of the first reformist proposals — the dominant penal practice in France, England, the United States was *the prison*. And the prison is not a semiotic sign read by the public; it is a sequestered institution, invisible, productive, and continuous. Foucault's question is: how did this happen? what happened that the reformers' proposal lost out to a program they had not designed and would not have endorsed?
 
@@ -397,7 +417,7 @@ The classical Greek ethical regime of *aphrodisia* is not a regime of prohibitio
 
 The Hellenistic-Roman regime (*Le souci de soi*) intensifies the work on the self while shifting its register. The Stoic, Epicurean, and Cynic schools elaborate techniques of self-examination, of attention to the present, of regulation of desire, of preparation for death — and these techniques are addressed not to a small political elite but to a wider class of free men, in a world in which political agency has contracted (the end of the Greek polis, the rise of the Roman administrative empire). The care of the self becomes more intensive, more universalist, more solitary. The marriage relation becomes the primary site of regulated *aphrodisia*, with new emphases on conjugal fidelity that anticipate (without yet being) the Christian sexual ethic.
 
-The Christian regime — treated only summarily in *Le souci de soi*, but developed at length in the long-suppressed *Les aveux de la chair* (written before *L'usage des plaisirs*, withheld during Foucault's lifetime, edited by Frédéric Gros and published only in 2018) — completes the inward turn. *Les aveux* is the structural hinge: it shows how the patristic codification of the *flesh* (*la chair*) — the Augustinian rendering of *concupiscentia* as the indelible mark of fallen interiority — is the relay station between the pagan ethics of *aphrodisia* (where the substance was the act) and the modern *dispositif* of sexuality (where the substance is the desire-as-truth-of-the-self). In the Christian regime the substance shifts from *act* to *desire*: the inner movements of concupiscence become the primary terrain of moral attention. The *mode d'assujettissement* becomes obedience to divine law as transmitted through the institutional church. The *travail éthique* becomes the confession, the spiritual direction, the examen of conscience. The *téléologie* becomes purity from the flesh in this life and salvation in the next. The entire infrastructure of the Christian sexual subject — confessing, self-suspicious, vigilant of the inner movements of desire — is in place by the patristic period; what the early modern period adds is the institutional intensification of the practice and its eventual relay through medical, psychiatric, and pedagogical institutions. The fourth volume thus completes the architecture of the project: Volume 1 names the modern *dispositif*, Volumes 2–3 recover the pagan ascetic alternative, and Volume 4 traces the Christian-flesh hinge by which the second became the first.
+The Christian regime — treated only summarily in *Le souci de soi*, but developed at length in the long-suppressed *Les aveux de la chair* (written before *L'usage des plaisirs*, withheld during Foucault's lifetime, edited by Frédéric Gros and published only in 2018) — completes the inward turn. *Les aveux* is the structural hinge: it shows how the patristic codification of the *flesh* (*la chair*) — the Augustinian rendering of *concupiscentia* as the indelible mark of fallen interiority — is the relay station between the pagan ethics of *aphrodisia* (where the substance was the act) and the modern *dispositif* of sexuality (where the substance is the desire-as-truth-of-the-self). In the Christian regime the substance shifts from *act* to *desire*: the inner movements of concupiscence become the primary terrain of moral attention. The *mode d'assujettissement* becomes obedience to divine law as transmitted through the institutional church. The *travail éthique* becomes the confession, the spiritual direction, the examen of conscience. The *téléologie* becomes purity from the flesh in this life and salvation in the next. The entire infrastructure of the Christian sexual subject — confessing, self-suspicious, vigilant of the inner movements of desire — is in place by the patristic period; what the early modern period adds is the institutional intensification of the practice and its eventual relay through medical, psychiatric, and pedagogical institutions. The fourth volume so completes the architecture of the project: Volume 1 names the modern *dispositif*, Volumes 2–3 recover the pagan ascetic alternative, and Volume 4 traces the Christian-flesh hinge by which the second became the first.
 
 ### The user's reading
 
@@ -416,7 +436,6 @@ A specific point on the four-dimensional analytic of ethics. The four dimensions
 ## Part V — *L'herméneutique du sujet* (1981–82): Foucault's positive ethics
 
 The late lecture course at the Collège de France, taken with the second and third volumes of the *Histoire de la sexualité* and the posthumous *Les aveux de la chair*, is not a coda to the genealogical project. It is, on Foucault's own account in the introduction to *L'usage des plaisirs*, *the project the genealogical work was leading to* — a positive ethics of the subject's self-formation, traced through the long European archive (Plato, Stoics, Epicureans, Cynics, early Christians) from which European philosophy after Descartes had cut itself off. To read Foucault as ending with *Surveiller et punir* and *La volonté de savoir* is to take the middle term of his work for the whole. The late period is *constructive*, not destructive; the question is no longer "how is the subject produced by power?" but "how does a subject constitute itself in relation to truth, through a free practice of work on itself?"
-
 
 The 1981–82 lecture course *L'herméneutique du sujet* (transcribed and published in French in 2001) is the densest and most philosophically explicit late Foucault. It is, on the user's reading, the place where Foucault comes closest to articulating a position with which the user can be in deep agreement — and the place where the limits of his own framework, against the Indic resources, become most visible.
 

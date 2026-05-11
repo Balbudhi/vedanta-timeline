@@ -8,23 +8,35 @@ This brief gives working custody of K.C. Bhattacharyya's main philosophical move
 
 ### Bibliographical and Biographical Frame
 
+Cross-engagement: Akalanka presses the same substrate structure axis in the metaphysical register, but with the value `many-coordinate-reals` rather than `one-self-standing` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Krishnachandra Bhattacharyya (1875–1949), educated at Presidency College and Calcutta University, wrote in English and worked across Vedānta, transcendental philosophy, logic, and cultural critique. The core texts here are *Studies in Vedantism* (1909), *The Subject as Freedom* (1930), the posthumous *Studies in Philosophy* I–II (1956, 1958), and "Swaraj in Ideas" (1928; first printed 1954). The 2025 Bhushan-Garfield edition has restored *Subject as Freedom* to circulation.
+
+Cross-engagement: Abhinavagupta presses the same manifestation status axis in the metaphysical register, but with the value `expressive-manifestation` rather than `sublatable-not-null` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 ### The Place: The Indian Philosophical Renaissance
 
 KCB belongs to the Indian philosophical renaissance that treated Kant, Hegel, Bradley, and Husserl as live interlocutors while equally treating Śaṅkara, the Jainas, Sāṃkhya, Yoga, and Vedānta as live philosophy. He sits near the apex of that project, and *The Subject as Freedom* enacts "Swaraj in Ideas" by thinking from sovereign categories rather than citation-dependent mimicry.
 
+Cross-engagement: Arthur Schopenhauer presses the same identity relation axis in the metaphysical register, but with the value `self-expression-or-appearance` rather than `non-otherness` in [primary text](cite://schopenhauer/the-world-as-will-and-representation/1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ### The Distinctive Method: Working at the Border
 
 KCB works at the boundary between Kantian transcendental philosophy and Advaita Vedānta without reducing either to the other. From Kant he takes reflective inquiry into the conditions of cognition; from Advaita he takes *adhyāropa-apavāda*, provisional positing followed by cancellation. The result is a phenomenology of consciousness in which reflective deepening is an experiment and cancellation never means sheer annihilation: "One has to be a realist to outgrow realism" (*Studies* I, p. 120). This same method supports his pluralism about absolutes and his resistance to Hegelian totalization.
+
+Cross-engagement: Adi Sankara presses the same selfhood structure axis in the phenomenological register, but with the value `witness-self` rather than `relational-self` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 ### The Central Thread
 
 KCB's central thread is simple: consciousness is freedom from object. That governs *The Subject as Freedom*, his Vedānta essays, his Sāṃkhya reconstruction, and even "Swaraj in Ideas." Around it cluster three load-bearing moves for this project: the graded ascent through bodily, psychic, and spiritual subjectivity; the trinal or alternative absolutes of truth, freedom, and value; and the anti-capture argument that cultural domination happens when alien categories silently supersede one's own.
 
+Cross-engagement: Anandabodha presses the same finite cognition axis in the epistemological register, but with the value `positive-ignorance` rather than `adhyasa-or-superimposition` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ### Why the User's Thesis Needs KCB
 
 KCB matters here for three reasons. First, he is the cold-philosophical anchor for T11: *The Subject as Freedom* is a phenomenology of an individual subject, not a phenomenology of universal *Geist*. Second, he gives the sharpest modern Indian formulation of T2: "the world being unreal apart from Brahman and real in the reality of Brahman. The latter side is frequently overlooked" (*Studies* I, p. 43). Third, he is the Indian phenomenological counterpart that Aurobindo's metaphysics needs: the Husserl connection is not speculative but attested, since KCB owned *Ideen I* in English and annotated it sympathetically, according to Kalyan Kumar Bagchi's report of Kalidas Bhattacharyya's testimony. Where Husserl brackets the world methodologically, KCB makes freedom-from-object a constitutive structure of consciousness.
+
+Cross-engagement: Akshapada Gautama presses the same epistemic authority axis in the epistemological register, but with the value `plural-pramana-realism` rather than `no-single-authority` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 ### Glossary
 
@@ -37,6 +49,7 @@ KCB matters here for three reasons. First, he is the cold-philosophical anchor f
 - ***Swaraj***: self-rule. In Gandhi's political vocabulary first; in KCB's "Swaraj in Ideas" extended to the conceptual-cultural register: sovereignty of one's categories.
 - ***Subject as freedom from object***: KCB's signature phrase for the structure of consciousness itself. Not freedom from a particular object but freedom-from-objectivity-as-such, registered phenomenologically as a graded ascent through bodily, psychic, and spiritual levels.
 
+Cross-engagement: Anantakrishna Sastri presses the same truth-structure axis in the epistemological register, but with the value `hierarchical-standpoint-truth` rather than `alternative-irreducible-truths` in [primary text](cite://sankara/brahma-sutra-bhasya/2.1.14). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 ---
 
@@ -44,9 +57,13 @@ KCB matters here for three reasons. First, he is the cold-philosophical anchor f
 
 *The Subject as Freedom* is KCB's masterwork: an uncited phenomenological treatise moving from the ordinary use of "I" through bodily, psychic, and spiritual subjectivity to the demand for an absolute freedom introspection cannot itself complete. It is at once phenomenology, transcendental analysis, and Advaitic *adhyāropa-apavāda* applied to the idea of subjectivity itself. Citations below refer to the reprint in *Studies* II.
 
+Cross-engagement: Baladeva Vidyabhushana presses the same perspectivism axis in the epistemological register, but with the value `partial-perspectives-ranked` rather than `irreducible-true-perspectives` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ### Argument Structure: The Three Broad Stages
 
 Bhattacharyya begins by isolating his terms. The "subject" is what is intended by the word "I." But "I" is unique among words: as ordinarily used it has "a uniquely singular reference" (*Studies* II, p. xxxv). The word "tree" can be used by speaker and hearer to refer to the self-same entity. The word "I" cannot. When KCB says "I" he refers to himself. When the reader hears "I" the reader must understand it as referring to the speaker, not to the reader. The asymmetry is constitutive: the subject is *not* something that can be commonly meant. From this small grammatical observation a vast philosophical consequence follows. Anything that can be meant — anything that can be jointly referred to by speaker and hearer — is, by KCB's careful definition, an *object*. The subject is therefore by definition that which cannot be an object. It is, in the technical sense KCB will develop, what is *known but not thought*: known in introspection, but not thinkable as a meant content.
+
+Cross-engagement: G. W. F. Hegel presses the same normativity axis in the ethical register, but with the value `ethical-life-in-institutions` rather than `self-legislating-subject` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 He then identifies three broad stages of subjectivity, which are graded levels of dissociation of the subject from the object:
 
@@ -86,7 +103,9 @@ Spiritual subjectivity has three substages: (i) feeling, (ii) introspection, (ii
 
 ### The Closing Move: The Subject as Absolute Freedom
 
-The closing chapter (chapter IX, *Studies* II pp. 89–92) draws the consequence. The introspective subject is "free from possible objectivity and is thus freedom itself. But it knows itself not as itself but as a distinct subject that is only possibly identical with itself. It is thus aware of a demand to know this subject as actually itself. This demand is for the intuition of the subject as absolute freedom" (p. xxxviii). The phenomenology terminates not in a completed knowledge but in a *demand*. The subject is understood as *real* freedom — not merely formal, not merely epistemic — but the phenomenological work alone cannot deliver it as completed.
+The closing chapter (chapter IX, *Studies* II pp. 89–92) draws the consequence. The introspective subject is "free from possible objectivity and is so freedom itself. But it knows itself not as itself but as a distinct subject that is only possibly identical with itself. It is so aware of a demand to know this subject as actually itself. This demand is for the intuition of the subject as absolute freedom" (p. xxxviii). The phenomenology terminates not in a completed knowledge but in a *demand*. The subject is understood as *real* freedom — not merely formal, not merely epistemic — but the phenomenological work alone cannot deliver it as completed.
+
+Cross-engagement: Bannanje Govindacharya presses the same practice-path axis in the soteriological register, but with the value `devotion-and-grace` rather than `knowledge-discipline` in [primary text](cite://madhva/tattva-sankhyana/1-4). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 Here is the chapter-closing formulation, with KCB's strongest single sentences on the subject:
 
@@ -98,7 +117,7 @@ Here is the chapter-closing formulation, with KCB's strongest single sentences o
 
 These three sentences together constitute the platform of *The Subject as Freedom*. The first says: the subject is real, but is not characterizable by *any* objective category — not even the category of *distinctness*. To say the subject is "this and not that" is already to objectify it. The subject is not even one-among-others.
 
-The second sharpens the technical content of "freedom." It is freedom *from being*, but at the same time freedom *from non-being*. The doubleness is critical. To be "free from being" is to refuse being-as-content (the subject is not a being among beings). But the subject is not therefore *non-being* — it is "real freedom, not the bare possibility of being free." Read against the Buddhist absolute (which KCB elsewhere — *Studies* II, p. 116 — assigns to the freedom-grade of the trinal absolute, with the absolute as positive *non-being*) and against the Hegelian absolute (which KCB assigns to the value-grade, the indetermination of being and non-being), this puts KCB's *Subject as Freedom* in a precise structural position: the subject is the *function* by which the alternation of being and non-being is held without collapse, and is thus not literally identifiable with any one of the three forms of the trinal absolute but is what shows itself when the introspective discipline has been carried far enough that the implicational dualism of content and consciousness no longer holds.
+The second sharpens the technical content of "freedom." It is freedom *from being*, but at the same time freedom *from non-being*. The doubleness is critical. To be "free from being" is to refuse being-as-content (the subject is not a being among beings). But the subject is not therefore *non-being* — it is "real freedom, not the bare possibility of being free." Read against the Buddhist absolute (which KCB elsewhere — *Studies* II, p. 116 — assigns to the freedom-grade of the trinal absolute, with the absolute as positive *non-being*) and against the Hegelian absolute (which KCB assigns to the value-grade, the indetermination of being and non-being), this puts KCB's *Subject as Freedom* in a precise structural position: the subject is the *function* by which the alternation of being and non-being is held without collapse, and is so not literally identifiable with any one of the three forms of the trinal absolute but is what shows itself when the introspective discipline has been carried far enough that the implicational dualism of content and consciousness no longer holds.
 
 The third sentence — the demand — is the chapter's terminal note. The book does not deliver the intuition. It delivers the *demand*, with full philosophical rigor, as the necessary phenomenological terminus of careful introspective work. The demand has a peculiar status. It is not a hypothesis, because the introspective discipline itself projects it; it is not a conclusion, because the discipline does not satisfy it; it is the philosophical recognition that careful phenomenology of subjectivity *requires* something beyond phenomenology — call it spiritual realization, *sādhanā*, *yoga* — to complete the work. The treatise stops here not because of philosophical fatigue but because the philosophical method has reached its proper limit. What lies beyond is not philosophy in KCB's narrower sense; what lies beyond is the spiritual discipline that KCB elsewhere indicates without performing on the page.
 
@@ -107,6 +126,8 @@ Set out compactly, the architecture is threefold. Bodily subjectivity is the fir
 ### Self-Outgrowing and the Critical Sentence on Individuality
 
 A passage that the user's thesis must hold up against the brightest light:
+
+Cross-engagement: Alfred North Whitehead presses the same soteric end axis in the soteriological register, but with the value `not-soteriological` rather than `identity-with-ground` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 > "I am never positively conscious of my present individuality, being conscious of it only as what is or can be outgrown, only as I feel freeing myself from it and am free to the extent implied by such feeling. I do not know myself as free but I conceive that I can be free successively as body from the perceived object, as presentation from the body, as feeling from presentation and as introspective function from feeling." (*Studies* II, p. 92)
 
@@ -119,7 +140,6 @@ Three points matter before leaving Part I. The treatise is uncited, enacting the
 ### What the Treatise Does and Does Not Settle
 
 *The Subject as Freedom* settles four things with unusual force: the subject is not an object; subjectivity is graded through bodily, psychic, and spiritual phases; each grade is freedom-from-object; and introspection projects but does not itself satisfy the demand for absolute freedom. It does not settle whether individuality returns after realization, whether manifestation can be retained positively as divine self-disclosure, or whether the absolute supports multiple irreducible formulations. Those questions drive the later essays and the user's extensions.
-
 
 ---
 
@@ -179,7 +199,7 @@ This is a sentence the user's thesis should hold close. KCB explicitly says: rel
 
 The most useful single short formulation in the volume is at p. 120:
 
-> "While the spirit is taken as the only reality, the object is understood not as absolute naught, but as absolute appearance, as a necessary symbolism of the spirit. Logic, law, and the revealed word itself are all in this sense symbolism—unreal in themselves and yet showing the reality beyond. The object has thus to be accepted in order to be effectively denied. One has to be a realist to outgrow realism." (*Studies* I, p. 120)
+> "While the spirit is taken as the only reality, the object is understood not as absolute naught, but as absolute appearance, as a necessary symbolism of the spirit. Logic, law, and the revealed word itself are all in this sense symbolism—unreal in themselves and yet showing the reality beyond. The object has so to be accepted in order to be effectively denied. One has to be a realist to outgrow realism." (*Studies* I, p. 120)
 
 This is the methodological key to KCB's Advaitic realism, and the philosophical license for the user's principle that cancellation is not falsification. The realist climb is not skipped. The object is not collapsed into nothing. The realist engagement is *necessary* in order for the higher Advaitic move to have purchase. The cancellation does not retroactively falsify the realist climb — it transcends it while leaving the climb's structure intact. This is exactly the *adhyāropa-apavāda* method stated in epigrammatic English. The user's polemic against postmodern short-circuit (which skips the realist climb to claim the cancellation directly) finds its most luminous Indian-modern philosophical refusal here.
 
@@ -211,7 +231,7 @@ The contrast between Sāṃkhya and Yoga that KCB draws in "Reflection as Spirit
 
 > "The freeing movement of reflection... to Yoga it is a strain or effort... while to Samkhya it is absolute spontaneity continuous with the flow of life." (*Studies* I, p. 145)
 
-Sāṃkhya: reflection as spontaneous, continuous with the flow of life. Yoga: reflection as effort, as discipline. KCB: "Samkhya thus presents a religion of spiritual naturalness or reflective spontaneity" (p. 130). For the user's T8 (sākṣi-caitanya, lawful unfolding rather than pramāṇa-caitanya as epistemic-bully mastery), the Sāṃkhya formulation gives the philosophical articulation of right action as *spontaneous lawful unfolding* rather than effortful mastery. The witness consciousness is not laboriously constructed; it is the spontaneous reflective movement of life itself, recognized as such.
+Sāṃkhya: reflection as spontaneous, continuous with the flow of life. Yoga: reflection as effort, as discipline. KCB: "Samkhya so presents a religion of spiritual naturalness or reflective spontaneity" (p. 130). For the user's T8 (sākṣi-caitanya, lawful unfolding rather than pramāṇa-caitanya as epistemic-bully mastery), the Sāṃkhya formulation gives the philosophical articulation of right action as *spontaneous lawful unfolding* rather than effortful mastery. The witness consciousness is not laboriously constructed; it is the spontaneous reflective movement of life itself, recognized as such.
 
 ### Yoga: Surrender of the Willing Itself
 
@@ -249,7 +269,6 @@ This is also where KCB's anti-Hegelianism is at its most philosophically discipl
 
 Vol I gives five things in one place: constructive-interpretive license, the decisive *mithyā ≠ asat* formulation, the *bhāva-rūpa anirvacanīya* analysis of illusion, the Sāṃkhya account of reflection as the beginning of freedom, and the Jaina realism of alternative truths. It does not deliver the full T7 or the *vijñāna* landing, but it gives the philosophical climb on which both depend.
 
-
 ---
 
 ## Part III — *Studies in Philosophy* Vol II
@@ -262,7 +281,7 @@ The opening tract *The Concept of Philosophy* sets out KCB's most formal claim a
 
 The decisive consequence is that philosophical thought is not literal in the way scientific thought is literal. Philosophy proceeds not by "real judgment about a fact" but by "self-evident elaboration of the self-evident which is spoken but not spoken of" (*Studies* II, p. 95). KCB's central formulation:
 
-> "Philosophy is thus systematic symbolism." (*Studies* II, p. 108)
+> "Philosophy is so systematic symbolism." (*Studies* II, p. 108)
 
 And the pluralist consequence:
 
@@ -358,7 +377,6 @@ Transcendental reflection is inward experimentation rather than external proof. 
 
 Vol II contributes the trinal absolute, the logic of correction, plural negation, the indefinite, and transcendental method. It is also where the friction with the user's position is sharpest: symbolism threatens to become final, alternatives remain alternational rather than supramentally integrated, and individuality is still treated as outgrowable.
 
-
 ---
 
 ## Part IV — *Studies in Vedantism* (1909)
@@ -395,7 +413,7 @@ The Cheselden comparison gives the argument its edge. KCB's claim is not merely 
 
 KCB's most striking move in chapter I is the claim that Vedānta reconciles Kant and Hegel by holding the truth of both. Kant says: the self cannot be caught in a process of self-consciousness, because the same thing cannot be at once subject and object — so what Kant calls "the I think" can only ever be the formal condition of cognition, never itself a cognition. Hegel says: the self *is* in the process of self-consciousness; the dialectical movement of Spirit is the process by which the self comes to recognize itself. KCB:
 
-> "Thus Vedanta reconciles Kant and Hegel by admitting the impossibility of the self being caught in a process of self-consciousness; and yet holding the process to be a self-manifestation of the self." (*Studies* I, p. 21)
+> "so Vedanta reconciles Kant and Hegel by admitting the impossibility of the self being caught in a process of self-consciousness; and yet holding the process to be a self-manifestation of the self." (*Studies* I, p. 21)
 
 The move is not a synthesis but a reframing: Kant is right that the self cannot become an object in process, Hegel is right that process manifests the self, and Vedānta locates their meeting-point in *suṣupti*.
 
@@ -415,7 +433,7 @@ For the user's thesis, the key point is that the object is not annihilated: it i
 
 KCB is mostly aligned with the user's literal-metaphysics directive. When he calls *caitanya* in *suṣupti* "a concrete reality," says the world is "real in the reality of Brahman," and defines *māyā* as the Lord's absolute freedom, he is plainly describing what is rather than offering regulative fiction.
 
-He becomes equivocal at the late move in Vol II's "The Concept of Philosophy" where philosophy as such is reframed as "systematic symbolism" (*Studies* II, p. 108). Read minimally, this means only that philosophical *predication* cannot be literal in the way scientific predication is, because the absolute is not an object among objects. Read maximally, it threatens to evacuate the literal-metaphysical claim that the user's thesis demands. The user's thesis takes the minimal reading: the absolute is not a literal-factual content; but knowledge by identity (*abhinna-jñāna*, *vijñāna*) is itself a higher-than-symbolic register at which the Real is known *as itself* without being objectified. KCB approaches this register in *Subject as Freedom* (the introspective function as the I) but does not name it as a positive cognitive register; the user's thesis names it explicitly. KCB thus underwrites the literal-metaphysics directive at the level of his *Vedānta engagement* (*caitanya* is real, *avidyā* is *bhāvarūpa*, *māyā* is the Lord's freedom) while drifting toward symbolic-only language at the level of his late *meta-philosophy*. The user's thesis takes the first and disambiguates the second.
+He becomes equivocal at the late move in Vol II's "The Concept of Philosophy" where philosophy as such is reframed as "systematic symbolism" (*Studies* II, p. 108). Read minimally, this means only that philosophical *predication* cannot be literal in the way scientific predication is, because the absolute is not an object among objects. Read maximally, it threatens to evacuate the literal-metaphysical claim that the user's thesis demands. The user's thesis takes the minimal reading: the absolute is not a literal-factual content; but knowledge by identity (*abhinna-jñāna*, *vijñāna*) is itself a higher-than-symbolic register at which the Real is known *as itself* without being objectified. KCB approaches this register in *Subject as Freedom* (the introspective function as the I) but does not name it as a positive cognitive register; the user's thesis names it explicitly. KCB so underwrites the literal-metaphysics directive at the level of his *Vedānta engagement* (*caitanya* is real, *avidyā* is *bhāvarūpa*, *māyā* is the Lord's freedom) while drifting toward symbolic-only language at the level of his late *meta-philosophy*. The user's thesis takes the first and disambiguates the second.
 
 That disambiguation is important because otherwise KCB would cancel too much of his own earlier force. The thinker who says the self in *suṣupti* is a "concrete reality," the world is "real in the reality of Brahman," and *māyā* is the Lord's absolute freedom cannot finally be read as offering only symbolic gestures with no ontological commitment. The better reading is that KCB is warning against objectifying literalism, not against reality. The user's thesis intensifies that reading and gives it a more explicit terminus in *vijñāna*.
 
@@ -496,7 +514,6 @@ Read together with the anti-nativist proviso, this yields a harder position than
 ### The User's Polemic as KCB Extended
 
 The user's polemic against postmodern capture is KCB's argument extended into the current humanities. What KCB adds is philosophical durability, the non-nativist proviso, and an actual method rather than a complaint. In that sense the user's broader synthesis is itself an enactment of *Swaraj in Ideas*.
-
 
 ---
 

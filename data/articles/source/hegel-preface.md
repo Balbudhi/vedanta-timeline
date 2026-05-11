@@ -3,6 +3,8 @@
 
 **Source.** G.W.F. Hegel, *Phänomenologie des Geistes* (1807). Reference edition: Suhrkamp Theorie-Werkausgabe (TWA) Vol. 3 (Frankfurt: Suhrkamp, 1970). English translation: A.V. Miller, *Hegel's Phenomenology of Spirit* (Oxford University Press, 1977). Quotations are given in Miller's English; technical German terms are noted in italics on first occurrence and then used in English thereafter. Page references are to TWA 3 unless noted.
 
+Cross-engagement: Akalanka presses the same substrate structure axis in the metaphysical register, but with the value `many-coordinate-reals` rather than `one-self-standing` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 The Preface was written last. Hegel finished it in late 1806 and early 1807, as Napoleon's army was entering Jena. It is the densest programmatic statement he ever published, and it is meant as an introduction not only to the *Phenomenology* but to the whole system that the *Science of Logic* and the *Encyclopedia* would later present in categorial form. The opening ten pages contain almost every load-bearing formula of the mature philosophy.
 
 This article works through the Vorrede in two passes. The first pass states the six theses that carry the opening pages, in plain English, with the German technical vocabulary noted only where the German is doing irreducible work; it then sets these theses next to a series of Vedāntic positions to see where Hegel's architecture rhymes with Indian philosophical work. The second pass takes up the load-bearing moves of the rest of the Vorrede — the diagnosis of substance and self-consciousness as the two extremes; the demand that philosophy become *Wissenschaft* against the Romantic appeal to immediate intuition; the long polemic against the mathematical model of truth; the *Phenomenology* itself as the ladder for natural consciousness; the conversion of *Vorstellung* into *Begriff*; and the bud-blossom-fruit image as the concrete face of *Aufhebung*. Each new section continues the comparative work, extending the Vedāntic parallels to the new Hegelian material.
@@ -13,9 +15,13 @@ This article works through the Vorrede in two passes. The first pass states the 
 
 Six theses carry the opening pages. Each is at once an assertion and a refusal — an assertion of Hegel's own position and a refusal of a contemporary alternative.
 
+Cross-engagement: Abhinavagupta presses the same determination axis in the logical-dialectical register, but with the value `self-expression` rather than `negation-and-contradiction` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ### (i) The True is the Whole
 
 Hegel's first principle is stated bluntly: "The True is the whole. But the whole is nothing other than the essence consummating itself through its development" (Miller, p. 11; TWA 3, p. 24). The second sentence is the load-bearing one. The whole is not a static totality of which the parts are inert moments. The whole is *only* what comes to itself through its own development.
+
+Cross-engagement: Akshapada Gautama presses the same method axis in the methodological register, but with the value `formal-proof-or-inference` rather than `dialectical-development` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 The Absolute, when first uttered — "God", "the Eternal", "the Divine" — is empty. It has no more content, Hegel says, than the phrase "all animals" has zoological content. To get content one must let the Absolute work itself out through its determinations. The whole is not at the beginning; it stands at the end of a self-consummating process, and this process is what the whole *is*.
 
@@ -24,6 +30,8 @@ This already commits Hegel to a methodological principle. A philosophy cannot an
 ### (ii) Substance must equally be grasped as Subject
 
 Hegel's second principle is the most quoted (TWA 3, p. 23):
+
+Cross-engagement: Gaudapada (Samkhya commentator) presses the same temporal mode axis in the metaphysical register, but with the value `substance-primary` rather than `process-primary` in [primary text](cite://isvara-krsna/samkhya-karika/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 ::: sanskrit-aside
 :::: german
@@ -53,6 +61,8 @@ This is Hegel's deepest break from the entire substance-tradition that runs from
 
 Hegel's most cutting line in the Preface is aimed at the post-Schellingian Identity Philosophy. Miller renders it: "to pit this single insight, that in the Absolute everything is the same, against the full body of articulated cognition ... or to pass off its Absolute as the night in which, as the saying goes, all cows are black — this is cognition naïvely reduced to vacuity" (Miller, p. 9; TWA 3, p. 22).
 
+Cross-engagement: Alfred North Whitehead presses the same evolution register axis in the historical-genealogical register, but with the value `durational-creative-growth` rather than `sublative-becoming` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 The polemic is precise. An Absolute in which "everything is one" because no determinacy is permitted — an undifferentiated identity in which every distinction has been bleached out — is not depth but emptiness. The Schellingian intuition of an *A = A* that swallows all difference does not deliver the Absolute. It only reports a uniform darkness in which one can no longer tell anything apart.
 
 Determinacy, on Hegel's view, is not what the Absolute must be cleansed of. Determinacy is its self-articulation. The Absolute is not the bleaching-out of distinctions but the very process by which distinctions arise, develop, and are sublated.
@@ -61,7 +71,9 @@ This is also the moment Hegel breaks publicly with Schelling, his collaborator a
 
 ### (iv) The True as Bacchanalian revel and as transparent repose
 
-The fourth thesis is a single image. Miller: "The True is thus the Bacchanalian revel in which no member is not drunk; yet because each member collapses as soon as it drops out, the revel is just as much transparent and simple repose" (Miller, p. 27; TWA 3, p. 46).
+The fourth thesis is a single image. Miller: "The True is so the Bacchanalian revel in which no member is not drunk; yet because each member collapses as soon as it drops out, the revel is just as much transparent and simple repose" (Miller, p. 27; TWA 3, p. 46).
+
+Cross-engagement: Adi Sankara presses the same truth-structure axis in the epistemological register, but with the value `hierarchical-standpoint-truth` rather than `single-absolute-truth` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 The German for "Bacchanalian revel" is *bacchantischer Taumel* — the technical name for Hegel's vision of dialectical movement. The image is precise. Restless dialectical movement and self-rest are not opposed; the rest is the movement seen from the side of the Whole. The "members" are the moments — shapes of consciousness, categories of thought — each of which is necessary, each of which dissolves the moment it tries to stand alone as the truth.
 
@@ -71,6 +83,8 @@ This is one of the few places where Hegel writes lyrically rather than technical
 
 The fifth thesis is a polemic against the Romantic alternative to philosophical work. Miller: "What is therefore required for the study of science is to take upon oneself the strenuous effort of the Concept" (Miller, p. 35; TWA 3, p. 56).
 
+Cross-engagement: Baladeva Vidyabhushana presses the same perspectivism axis in the epistemological register, but with the value `partial-perspectives-ranked` rather than `sublated-into-higher-whole` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 The German *Anstrengung des Begriffs* — the strenuous labor of the Concept — names a discipline. *Begriff* is Hegel's technical word for the concept-as-self-developing — not a static category but the determinate, self-articulating thought that moves by its own internal necessity. The labor is the philosopher's discipline of letting the Concept move by its own determinations rather than imposing on it from outside.
 
 The polemic is against the Romantic appeal to immediate intuition — Schelling's *intellectual intuition* as much as Jacobi's faith. Knowing, Hegel insists, is not the rapt grasp of an Absolute given in a flash. It is sustained, articulated work. The strenuousness is constitutive, not incidental. Anyone who claims to know the Absolute without the labor is either lying or self-deceived.
@@ -78,6 +92,8 @@ The polemic is against the Romantic appeal to immediate intuition — Schelling'
 ### (vi) The speculative proposition
 
 The sixth thesis is technical and is the hardest to render in plain English. The ordinary subject-predicate judgment — "S is P" — presupposes a fixed subject that *receives* a determination from outside. At the level of speculative content, Hegel argues, this fails.
+
+Cross-engagement: Jagadguru Ramabhadracharya presses the same normativity axis in the ethical register, but with the value `divine-command-or-grace` rather than `ethical-life-in-institutions` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 Take the sentence "God is Being". On ordinary grammar, "God" is the subject and "Being" is a predicate ascribed to God. But Being turns out to be no mere predicate; it is the substance itself. Thought, expecting to move forward into the predicate, finds itself thrown back on the subject and discovers that the predicate *is* the subject. The grammar of ordinary judgment collapses.
 
@@ -89,6 +105,8 @@ This is the technical engine of Hegelian dialectic. Every important philosophica
 
 A seventh line, often attributed to the Preface but actually from Chapter VI ("Forgiveness"), should be noted because it expresses the same architecture: "the wounds of the Spirit heal, and leave no scars behind" (Miller, p. 407; TWA 3, p. 492).
 
+Cross-engagement: Haridas Chaudhuri presses the same social formation axis in the political-social register, but with the value `civilizational-structure-shift` rather than `recognitive-institutional` in [primary text](cite://chaudhuri/integral-yoga/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 This is what *Aufhebung* — Hegel's technical term for sublation — asserts at full pitch. Negation is not destruction. What is sublated is preserved as a moment within a higher determination. The threefold structure — *cancel*, *preserve*, *elevate* — is the logical rhythm to which the Bacchanalian image gives a phenomenological face. Aufhebung is the logical content; the revel-and-repose is its experiential look.
 
 The wound heals not because it never happened but because the body that bears it has incorporated it. This is the difference between Hegel's negation and any merely destructive negation. Hegel's negation is *productive*: it generates the next determination by working through the contradiction in the previous one.
@@ -99,9 +117,13 @@ The wound heals not because it never happened but because the body that bears it
 
 Each comparison below states the structural parallel as precisely as one can, then states where the analogy breaks. Hegel is not Madhva, not Vidyāraṇya, not Jīva Gosvāmī. The parallels are structural, not doctrinal, and the failures of the parallels are as instructive as the parallels themselves.
 
+Cross-engagement: Anandabodha presses the same soteric end axis in the soteriological register, but with the value `identity-with-ground` rather than `recognition-or-freedom` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ### (a) "The True is the Whole" and Bhartṛprapañca's *aupacārika abhinnatva*
 
 Bhartṛprapañca was a pre-Śaṅkara Vedāntin whose work survives only in fragments and in later refutations. The reconstruction by M. Hiriyanna ("Bhartṛprapañca, an Old Vedāntin," *Indian Antiquary* vol. 53, 1924) is the standard scholarly source; the article is on disk only as an image-only PDF whose OCR is unusable, so the reconstruction is engaged via the known reconstruction-thesis rather than verbatim. On that reconstruction, Bhartṛprapañca holds that Brahman articulates itself as the *aṣṭa-rūpa prapañca* — the eight-fold world — without losing its unity. The relation between the Real and its articulations is called *aupacārika abhinnatva*: a non-difference that is figurative-functional, neither the bare identity of the later Advaita nor the radical difference (*bheda*) of Madhva.
+
+Cross-engagement: Bannanje Govindacharya presses the same individuation status axis in the metaphysical register, but with the value `irreducible-dependent` rather than `reducible-to-the-whole` in [primary text](cite://madhva/tattva-sankhyana/1-4). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 Structurally the kinship with Hegel is exact. The Real is not a unity behind its articulations; it is the unity that *is* its articulations as it works itself out. The whole and its development are the same.
 

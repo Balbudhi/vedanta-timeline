@@ -92,5 +92,188 @@
     "nyayamrta-arguments",
     "saptavidhanupapatti",
     "shatadusani"
-  ]
+  ],
+  "primitive_commitments": [
+    {
+      "primitive": "epistemic_authority",
+      "value": "scripture-dominant",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/anandabodha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sarvajnatman/samksepa-sariraka/1.319-352",
+            "cite://dharmaraja/vedanta-paribhasha/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "finite_cognition_model",
+      "value": "positive-ignorance",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/anandabodha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sarvajnatman/samksepa-sariraka/1.319-352",
+            "cite://dharmaraja/vedanta-paribhasha/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "identity_relation",
+      "value": "non-otherness",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/anandabodha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sarvajnatman/samksepa-sariraka/1.319-352",
+            "cite://dharmaraja/vedanta-paribhasha/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "sublatable-not-null",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/anandabodha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sarvajnatman/samksepa-sariraka/1.319-352",
+            "cite://dharmaraja/vedanta-paribhasha/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "modal_structure_of_truth",
+      "value": "hierarchical-standpoint-truth",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/anandabodha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sarvajnatman/samksepa-sariraka/1.319-352",
+            "cite://dharmaraja/vedanta-paribhasha/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "knowledge-discipline",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/anandabodha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sarvajnatman/samksepa-sariraka/1.319-352",
+            "cite://dharmaraja/vedanta-paribhasha/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "selfhood_structure",
+      "value": "witness-self",
+      "register": "phenomenological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/anandabodha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sarvajnatman/samksepa-sariraka/1.319-352",
+            "cite://dharmaraja/vedanta-paribhasha/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "identity-with-ground",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/anandabodha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sarvajnatman/samksepa-sariraka/1.319-352",
+            "cite://dharmaraja/vedanta-paribhasha/1"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "one-self-standing",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/anandabodha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sarvajnatman/samksepa-sariraka/1.319-352",
+            "cite://dharmaraja/vedanta-paribhasha/1"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

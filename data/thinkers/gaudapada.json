@@ -1771,5 +1771,206 @@
   "last_verified_by": "wave-rigor-opus",
   "polemic_chain_ids": [
     "bhaskara-pracchanna-bauddha"
-  ]
+  ],
+  "primitive_commitments": [
+    {
+      "primitive": "epistemic_authority",
+      "value": "scripture-dominant",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/gaudapada.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://gaudapada/mandukya-karika/3.48,",
+            "cite://gaudapada/mandukya-karika/2.5-6",
+            "cite://gaudapada/mandukya-karika/3.31-37",
+            "cite://gaudapada/mandukya-karika/3.19-21"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "finite_cognition_model",
+      "value": "adhyasa-or-superimposition",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/gaudapada.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://gaudapada/mandukya-karika/3.48,",
+            "cite://gaudapada/mandukya-karika/2.5-6",
+            "cite://gaudapada/mandukya-karika/3.31-37",
+            "cite://gaudapada/mandukya-karika/3.19-21"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "identity_relation",
+      "value": "non-otherness",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/gaudapada.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://gaudapada/mandukya-karika/3.48,",
+            "cite://gaudapada/mandukya-karika/2.5-6",
+            "cite://gaudapada/mandukya-karika/3.31-37",
+            "cite://gaudapada/mandukya-karika/3.19-21"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "sublatable-not-null",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/gaudapada.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://gaudapada/mandukya-karika/3.48,",
+            "cite://gaudapada/mandukya-karika/2.5-6",
+            "cite://gaudapada/mandukya-karika/3.31-37",
+            "cite://gaudapada/mandukya-karika/3.19-21"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "modal_structure_of_truth",
+      "value": "hierarchical-standpoint-truth",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/gaudapada.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://gaudapada/mandukya-karika/3.48,",
+            "cite://gaudapada/mandukya-karika/2.5-6",
+            "cite://gaudapada/mandukya-karika/3.31-37",
+            "cite://gaudapada/mandukya-karika/3.19-21"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "knowledge-discipline",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/gaudapada.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://gaudapada/mandukya-karika/3.48,",
+            "cite://gaudapada/mandukya-karika/2.5-6",
+            "cite://gaudapada/mandukya-karika/3.31-37",
+            "cite://gaudapada/mandukya-karika/3.19-21"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "selfhood_structure",
+      "value": "witness-self",
+      "register": "phenomenological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/gaudapada.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://gaudapada/mandukya-karika/3.48,",
+            "cite://gaudapada/mandukya-karika/2.5-6",
+            "cite://gaudapada/mandukya-karika/3.31-37",
+            "cite://gaudapada/mandukya-karika/3.19-21"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "identity-with-ground",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/gaudapada.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://gaudapada/mandukya-karika/3.48,",
+            "cite://gaudapada/mandukya-karika/2.5-6",
+            "cite://gaudapada/mandukya-karika/3.31-37",
+            "cite://gaudapada/mandukya-karika/3.19-21"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "one-self-standing",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/gaudapada.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://gaudapada/mandukya-karika/3.48,",
+            "cite://gaudapada/mandukya-karika/2.5-6",
+            "cite://gaudapada/mandukya-karika/3.31-37",
+            "cite://gaudapada/mandukya-karika/3.19-21"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

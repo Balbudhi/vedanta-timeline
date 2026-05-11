@@ -44,5 +44,197 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "epistemic_authority",
+      "value": "scripture-dominant",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/brahmananda-saraswati.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://ramanuja/vedanta-sara/14-35",
+            "cite://sureshvara/naishkarmya-siddhi/4.41-44",
+            "cite://sankara/upadesa-sahasri/1.1-4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "finite_cognition_model",
+      "value": "adhyasa-or-superimposition",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/brahmananda-saraswati.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://ramanuja/vedanta-sara/14-35",
+            "cite://sureshvara/naishkarmya-siddhi/4.41-44",
+            "cite://sankara/upadesa-sahasri/1.1-4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "identity_relation",
+      "value": "non-otherness",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/brahmananda-saraswati.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://ramanuja/vedanta-sara/14-35",
+            "cite://sureshvara/naishkarmya-siddhi/4.41-44",
+            "cite://sankara/upadesa-sahasri/1.1-4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "sublatable-not-null",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/brahmananda-saraswati.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://ramanuja/vedanta-sara/14-35",
+            "cite://sureshvara/naishkarmya-siddhi/4.41-44",
+            "cite://sankara/upadesa-sahasri/1.1-4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "modal_structure_of_truth",
+      "value": "hierarchical-standpoint-truth",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/brahmananda-saraswati.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://ramanuja/vedanta-sara/14-35",
+            "cite://sureshvara/naishkarmya-siddhi/4.41-44",
+            "cite://sankara/upadesa-sahasri/1.1-4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "knowledge-discipline",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/brahmananda-saraswati.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://ramanuja/vedanta-sara/14-35",
+            "cite://sureshvara/naishkarmya-siddhi/4.41-44",
+            "cite://sankara/upadesa-sahasri/1.1-4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "selfhood_structure",
+      "value": "witness-self",
+      "register": "phenomenological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/brahmananda-saraswati.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://ramanuja/vedanta-sara/14-35",
+            "cite://sureshvara/naishkarmya-siddhi/4.41-44",
+            "cite://sankara/upadesa-sahasri/1.1-4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "identity-with-ground",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/brahmananda-saraswati.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://ramanuja/vedanta-sara/14-35",
+            "cite://sureshvara/naishkarmya-siddhi/4.41-44",
+            "cite://sankara/upadesa-sahasri/1.1-4"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "one-self-standing",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/brahmananda-saraswati.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://ramanuja/vedanta-sara/14-35",
+            "cite://sureshvara/naishkarmya-siddhi/4.41-44",
+            "cite://sankara/upadesa-sahasri/1.1-4"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

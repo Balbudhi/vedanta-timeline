@@ -66,5 +66,162 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-darsana-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "epistemic_authority",
+      "value": "plural-pramana-realism",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/umasvati.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://umasvati/tattvartha-sutra/1.1",
+            "cite://umasvati/tattvartha-sutra/1.4",
+            "cite://umasvati/tattvartha-sutra/2.8-9",
+            "cite://umasvati/tattvartha-sutra/5.16"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "self-standing-real",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/umasvati.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://umasvati/tattvartha-sutra/1.1",
+            "cite://umasvati/tattvartha-sutra/1.4",
+            "cite://umasvati/tattvartha-sutra/2.8-9",
+            "cite://umasvati/tattvartha-sutra/5.16"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "modal_structure_of_truth",
+      "value": "standpoint-conditioned-realism",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/umasvati.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://umasvati/tattvartha-sutra/1.1",
+            "cite://umasvati/tattvartha-sutra/1.4",
+            "cite://umasvati/tattvartha-sutra/2.8-9",
+            "cite://umasvati/tattvartha-sutra/5.16"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "meditative-discipline",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/umasvati.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://umasvati/tattvartha-sutra/1.1",
+            "cite://umasvati/tattvartha-sutra/1.4",
+            "cite://umasvati/tattvartha-sutra/2.8-9",
+            "cite://umasvati/tattvartha-sutra/5.16"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "relation_to_perspectivism",
+      "value": "irreducible-true-perspectives",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/umasvati.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://umasvati/tattvartha-sutra/1.1",
+            "cite://umasvati/tattvartha-sutra/1.4",
+            "cite://umasvati/tattvartha-sutra/2.8-9",
+            "cite://umasvati/tattvartha-sutra/5.16"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "isolation-or-discriminative-release",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/umasvati.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://umasvati/tattvartha-sutra/1.1",
+            "cite://umasvati/tattvartha-sutra/1.4",
+            "cite://umasvati/tattvartha-sutra/2.8-9",
+            "cite://umasvati/tattvartha-sutra/5.16"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "many-coordinate-reals",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/umasvati.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://umasvati/tattvartha-sutra/1.1",
+            "cite://umasvati/tattvartha-sutra/1.4",
+            "cite://umasvati/tattvartha-sutra/2.8-9",
+            "cite://umasvati/tattvartha-sutra/5.16"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

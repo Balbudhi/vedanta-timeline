@@ -4,9 +4,13 @@
 
 ---
 
+Cross-engagement: Abhinavagupta presses the same substrate structure axis in the metaphysical register, but with the value `one-self-standing` rather than `one-independent-plus-real-dependents` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ## Reader's Orientation
 
 Madhvācārya — also called Ānandatīrtha and Pūrṇaprajña — was born near Udupi around 1238 CE and composed, before his disappearance into the Himalayas around 1317, the densest single corpus of polemical Vedānta in classical Sanskrit: thirty-seven works enumerated as the *Sarvamūla-granthāḥ*. The corpus includes the *Brahma-Sūtra-Bhāṣya*; the metrical auto-commentary *Anuvyākhyāna* (philosophically the most rigorous); the *Viṣṇu-Tattva-Vinirṇaya* (the most concentrated independent statement of *bheda*); the *Tattva-Saṅkhyāna*; the *Tattvodyota*; the *Khaṇḍana-Traya* (*Māyāvāda-*, *Upādhi-*, and *Mithyātva-Anumāna-Khaṇḍana*); ten *Upaniṣad-Bhāṣyas*; the *Gītā-Bhāṣya*; and the *Mahābhārata-Tātparya-Nirṇaya*.
+
+Cross-engagement: Adi Sankara presses the same manifestation status axis in the metaphysical register, but with the value `sublatable-not-null` rather than `dependent-real` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 Within Vedānta historiography Madhva is traditionally called the founder of *Tattva-vāda* (often labeled Dvaita Vedānta). That label is misleading. Madhva's own technical name is *Tattva-vāda* — the doctrine of *tattvas*, of realities. "Dualism" carries Cartesian, Manichean, and Zoroastrian connotations that are inappropriate: none of those models is asymmetric in the way Madhva's is. Madhva's structure is *one* independent reality (*svatantra*) — Viṣṇu — and a vast plurality of dependent realities (*asvatantra*) which are real in their own right but exist as continuously sustained modes of dependence. The structure is *aseity-and-participation-in-aseity*, closer in shape to Aquinas's *esse per se / esse per participationem* than to Sāṃkhya or Cartesianism.
 
@@ -67,6 +71,8 @@ Within the user's theses, Madhva primarily serves T2 at structural-argumentative
 
 The shortest and clearest entry into Madhva's ontology is the opening verse of the *Tattva-Saṅkhyāna*. In that opening statement, reality is divided into the self-dependent and the other-dependent, and Viṣṇu alone is said to be self-dependent.
 
+Cross-engagement: Anandabodha presses the same identity relation axis in the metaphysical register, but with the value `non-otherness` rather than `image-original-similarity` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Reality (*tattva*) is held to be of two kinds: the self-dependent (*svatantra*) and the other-dependent (*asvatantra*). The self-dependent is Lord Viṣṇu. The other-dependent further divides into the existent (*bhāva*) and the non-existent (*abhāva*).
 
 Notice the structural asymmetry. There is *one* *svatantra* — Viṣṇu — and the entire rest of reality is *asvatantra*. This is not a symmetric two-substance ontology. It is an aseity ontology. *Svatantra* in Madhva's technical use means: independent in *svarūpa* (essential nature), in *jñāna* (cognitive function), and in *kṛtitva* (volitional efficacy). All three conditions must be jointly satisfied. No *jīva* satisfies any of them in the strict sense: every *jīva*'s *svarūpa* is what Viṣṇu has determined it to be (the *svabhāva-bheda* doctrine, below); every *jīva*'s cognition is conditioned by its *guṇa*-constitution and by Viṣṇu's *anugraha*; every *jīva*'s efficacy presupposes Viṣṇu's inner direction as *antaryāmin*. Lakṣmī, who is *nitya-mukta* and never enters *saṃsāra*, is closer to *svatantra* than any other being but still not *svatantra* in the strict sense — her aseity is participated, not original.
@@ -100,6 +106,8 @@ The pedagogical order of the *Tattva-Saṅkhyāna* matters: Madhva opens with *s
 
 The most cited single verse in Madhva's corpus is the *pañcabheda*-enumerating verse from the *Anuvyākhyāna*. It comes at the close of *adhyāya* 1, *pāda* 4, at the precise textual location where Madhva, having defeated *vivarta-vāda* in 1.4.109–110, gives the positive structure that replaces it. The placement matters. The *pañcabheda* is not announced as standalone doctrine; it is what falls out of the formal refutation of *vivarta*. AV 1.4.110 says that the world really arises and is structured as the fivefold difference.
 
+Cross-engagement: Anantakrishna Sastri presses the same finite cognition axis in the epistemological register, but with the value `positive-ignorance` rather than `real-dependent-veiling` in [primary text](cite://sankara/brahma-sutra-bhasya/2.1.14). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 [The root *vid*], in the sense of arising, already yields real origination; and this spread-out manifest world, though in general subject to eventual subsiding, is precisely the fivefold differentiation.
 
 The literal force is: *prapañca* = *bheda-pañcaka*. The phenomenal world just is the fivefold difference. Plurality is not added to a prior unity; the world's *being-spread-out* is identical with its being structured by these five distinctions. Then AV 1.4.111 enumerates the five: difference between *jīva* and Īśvara, matter and Īśvara, one *jīva* and another, matter and *jīva*, and one material thing and another.
@@ -115,6 +123,8 @@ Each of the five is therefore a *nitya-bheda* — eternal, beginningless, real, 
 ### *Bheda* 1 — *Jīva–Īśvara-bheda*: Soul and God
 
 **Claim.** Every *jīva*, in every state — bound, liberated, *deva*, *manuṣya*, *asura* — is eternally distinct from Viṣṇu. The distinctness is *svarūpa*-distinctness, not merely *upādhi*-distinctness.
+
+Cross-engagement: Appayya Dikshita presses the same epistemic authority axis in the epistemological register, but with the value `scripture-dominant` rather than `plural-pramana-realism` in [primary text](cite://mandana/brahma-siddhi/3.4). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 **Argument.** The argument has three converging legs.
 
@@ -134,6 +144,8 @@ A second objection: if *jīva-Īśvara-bheda* is eternal, *mokṣa* is mere chan
 
 **Claim.** *Prakṛti*, *kāla*, the 24 evolutes, and the *brahmāṇḍa* are real, are eternally (or eternally-with-modification) distinct from Brahman, and are not phenomenal projections of *avidyā* on Brahman.
 
+Cross-engagement: Bhatta Kallata presses the same determination axis in the logical-dialectical register, but with the value `self-expression` rather than `non-sublatable-difference` in [primary text](cite://bhatta-kallata/spanda-karika/1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 **Argument.** Three legs.
 
 First, *prakṛti* is *asvatantra* — fully dependent on Viṣṇu — but dependence is not identity. *Prakṛti* under Viṣṇu's *adhyakṣa* (superintendence: BG 9.10) is the material cause from which Viṣṇu, the efficient cause, produces the world. The two causes are *bheda*: *nimitta-upādāna-bheda*. This is a sharp formal commitment that distinguishes Madhva's *pariṇāma-vāda* from Śaṅkara's *vivarta-vāda*. For Śaṅkara, Brahman is both efficient and material cause and the world is *vivarta*. For Madhva, *prakṛti* is the material cause, Viṣṇu is the efficient cause, and the world is *pariṇāma* (real transformation of *prakṛti*). The clay-pot analogy from Chāndogya 6.1.4 is read by Madhva as straightforward *pariṇāma*: clay really becomes pot; pot is really clay-modified; clay is not pot in the sense of identity, but pot is not separable from clay either. Madhva will use this analogy decisively against Śaṅkara at [BSB 2.1.14](cite://sankara/brahma-sutra-bhasya/2.1.14) (Part VI below).
@@ -148,6 +160,8 @@ Third leg, scriptural. Several *śruti*-passages are decisive once one reads the
 
 **Claim.** *Jīvas* are not interchangeable units of one consciousness covered by varying *upādhi*. Each *jīva* has its own *svarūpa* and its own *svabhāva*, and these differ across *jīvas*. *Jīvas* differ in intrinsic quality, not only in adventitious limiting condition.
 
+Cross-engagement: Ananda K. Coomaraswamy presses the same method axis in the methodological register, but with the value `comparative-reading` rather than `formal-proof-or-inference` in [primary text](cite://coomaraswamy/the-transformation-of-nature-in-art/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 **Argument.** This is among Madhva's more radical claims and requires its own apparatus. The Advaitic structure is: there is one Brahman, one *cit*; the apparent multiplicity of *jīvas* is the result of *upādhi*-individuation; the *upādhis* differ but the *cit* underneath is identical across *jīvas*. Madhva rejects every step. There is no underlying common *cit* across *jīvas*. Each *jīva* has its own *cit* as its own *svarūpa*. The differences across *jīvas* are not merely in *upādhi* (body, mind, *karma*-history) but in the *jīva*'s own *svabhāva* (intrinsic disposition).
 
 The basis is multifold. First, scripture distinguishes kinds of beings — *deva*, *manuṣya*, *asura*, *daitya* — and this is read by Madhva as not merely a *karmic* ranking (this *jīva* has accumulated this *karma*) but a *svabhāvic* one (this *jīva* is *constituted* with these dispositions). Second, felt experiential reality: I know my own *jīva* and the next person's is not interchangeable with mine. *Sākṣi-pratyakṣa* certifies this. Third, Viṣṇu's free sovereign creation creates intrinsically varied entities; mass-produced identical *cit* covered by varying *māyā* would be a *workmanlike* creation, not a sovereign one.
@@ -159,6 +173,8 @@ Madhva goes further. He divides *jīvas* into three classes: *mukti-yogya* (cons
 ### *Bheda* 4 — *Jaḍa–Jīva-bheda*: Matter and Soul
 
 **Claim.** *Jaḍa* and *jīva* are real, both *asvatantra*, but irreducibly different in kind. *Cit* is not a property that emerges from arrangements of *acetana*. Consciousness is ontologically primitive; matter is not.
+
+Cross-engagement: Akalanka presses the same truth-structure axis in the epistemological register, but with the value `standpoint-conditioned-realism` rather than `single-absolute-truth` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 **Argument.** This is the structural anti-emergentism of Tattva-vāda, and it has surprisingly direct contemporary resonance. The argument: whatever is *acetana* in itself cannot, by composition, become *cetana*. The properties of a complex system depend on the properties of its parts and the structure of their composition. If the parts are *acetana* and the structure is itself *acetana* (a structural property is not a *cit*-property), then no degree of complexity yields *cetana*. *Cetana* must already be present at some level for it to appear at any level.
 
@@ -172,6 +188,8 @@ Within Madhva's system, *jaḍa* is what *prakṛti* and its evolutes are. *Jīv
 
 **Claim.** Real numerical and qualitative differences obtain among material things. A pot is not a cloth. Gold is not silver. Earth is not water. The differences are real and not artefacts of cognition.
 
+Cross-engagement: Edmund Husserl presses the same perspectivism axis in the epistemological register, but with the value `standpoint-conditioned-realism` rather than `partial-perspectives-ranked` in [primary text](cite://husserl/ideas-i/31-32). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 **Argument.** This is Madhva's commitment to the reality of differentiated phenomenal multiplicity — the most direct refutation of any "appearance-only" reading. Plurality among things is real; the world is not undifferentiated stuff appearing as differentiated under the action of *māyā*. The argument has two legs: a perceptual-evidentiary leg (we perceive distinct things; in the absence of countervailing evidence, perception is veridical; nothing in Advaita's framework provides countervailing evidence that does not itself presuppose a differentiated world) and a pragmatic leg (causation and use require differentiation: a pot holds water that a sieve cannot; gold buys what brass cannot; differentiation is causally efficacious, and what is causally efficacious cannot be appearance-only).
 
 **Anticipated objection.** The Advaitin replies that perception itself is at the *vyāvahārika* level and so its testimony to differentiation is *vyāvahārika*-true and *pāramārthika*-false. Madhva's reply: this is the two-level scheme again, and the Advaitin owes us an account of the relation between the levels. Once that account is demanded, the Madhvic objections to the locus of *avidyā* (Part V) re-engage. *Bheda* 5 is, on its own, an argument from data; combined with the *māyā-vāda khaṇḍana*, it is an argument with no Advaitic counter-move that does not itself collapse.
@@ -179,6 +197,8 @@ Within Madhva's system, *jaḍa* is what *prakṛti* and its evolutes are. *Jīv
 ### Synoptic notes
 
 The five differences constitute the *minimum* set of distinctions required for the intelligibility of the spiritual path. Without *jīva-Īśvara-bheda*: no *bhakta*-Lord relation, no grace. Without *jaḍa-Īśvara-bheda*: no real creation. Without *jīva-jīva-bheda*: no real *adhikāra*. Without *jaḍa-jīva-bheda*: no real embodied agency. Without *jaḍa-jaḍa-bheda*: no real causation. Each *bheda* is load-bearing for practice; to collapse them is to vacate the apparatus.
+
+Cross-engagement: Akshapada Gautama presses the same practice-path axis in the soteriological register, but with the value `knowledge-discipline` rather than `devotion-and-grace` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 The five differ in evidential basis: *jīva-Īśvara-bheda* and *jaḍa-Īśvara-bheda* by *anumāna* and *śabda*; *jīva-jīva-bheda* by *sākṣi-pratyakṣa* and *śabda*; *jaḍa-jīva-bheda* by *anumāna* and *pratyakṣa*; *jaḍa-jaḍa-bheda* by *pratyakṣa*. The full *pramāṇa* apparatus is deployed.
 
@@ -190,9 +210,13 @@ Crucial for the user's reading: the five are right *at the level Madhva articula
 
 Without *viśeṣa*, Tattva-vāda is incoherent. With it, Madhva has a technical instrument unique in classical Indian philosophy and the most direct precursor to Caitanya's *acintya-śakti* and Aurobindo's Real-Idea.
 
+Cross-engagement: Alfred North Whitehead presses the same soteric end axis in the soteriological register, but with the value `not-soteriological` rather than `service-with-distinction-preserved` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ### The problem *viśeṣa* solves
 
 Viṣṇu possesses infinite *guṇas* — *sarvajñatva*, *sarvaśaktitva*, *ānanda*, *saundarya*, *kāruṇya*, *prabhutva*, and so on. Are these different from Viṣṇu, or identical with him?
+
+Cross-engagement: Baladeva Vidyabhushana presses the same causation model axis in the metaphysical register, but with the value `unchanged-ground-with-changing-power` rather than `efficient-material-split` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 If different, Viṣṇu is composite — substance plus properties — and Brahman is *akhaṇḍa* by all schools' admission; composition is fatal to *svatantra* status. If strictly identical, "omniscient" and "omnipotent" are synonymous, "Viṣṇu is omniscient *and* omnipotent" is vacuous, and theological description goes inert.
 
@@ -576,7 +600,7 @@ This is one of the most precise formulations of the *anirvacanīya* objection in
 
 ### Jayatīrtha on the *brahma-jijñāsā* sūtra: the structure of inquiry
 
-Jayatīrtha's commentary on Madhva's reading of the first *Brahma-Sūtra* extends the analysis with a detailed argument about the *upādhi* of inquiry — what makes inquiry possible. He develops a thesis worth quoting in summary form: inquiry into Brahman presupposes (a) that Brahman has a nature to be inquired into, (b) that the inquirer has the capacity to inquire, (c) that the inquiry can succeed (i.e. there are *pramāṇas* that disclose Brahman's nature), and (d) that the success of inquiry has a soteriological consequence (i.e. *jñāna* leads to *mokṣa*).
+Jayatīrtha's commentary on Madhva's reading of the first *Brahma-Sūtra* extends the analysis with a detailed argument about the *upādhi* of inquiry — what makes inquiry possible. He develops a thesis worth quoting In brief, form: inquiry into Brahman presupposes (a) that Brahman has a nature to be inquired into, (b) that the inquirer has the capacity to inquire, (c) that the inquiry can succeed (i.e. there are *pramāṇas* that disclose Brahman's nature), and (d) that the success of inquiry has a soteriological consequence (i.e. *jñāna* leads to *mokṣa*).
 
 For each of these four conditions, the Advaitic *nirviśeṣa* reading is in trouble. (a) *Nirviśeṣa* Brahman has no nature to be inquired into. (b) The *jīva*-inquirer is, on Advaita, an *avidyā*-product, so its capacity to inquire is itself parasitic on *avidyā*, generating the locus circularity. (c) The *pramāṇas* are *vyāvahārika* tools; their disclosing of Brahman is itself *vyāvahārika*; the *pāramārthika* nature of Brahman is, on Advaita's own admission, beyond the *pramāṇas*. (d) On the strict non-dual reading, *mokṣa* is not a "consequence" of *jñāna* in the sense of an effect; it is the recognition that Brahman *is* the *jīva*'s already-existing nature. But this recognition presupposes the very capacity (b) that is undermined.
 

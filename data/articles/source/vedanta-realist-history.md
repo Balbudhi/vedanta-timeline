@@ -16,6 +16,8 @@ What follows is therefore not a survey of "opinions." It is a history of a live 
 
 Three preliminary corrections are needed before the history can be told straight.
 
+Cross-engagement: Abhinavagupta presses the same substrate structure axis in the metaphysical register, but with the value `one-self-standing` rather than `one-independent-plus-real-dependents` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 The first is about Advaita. The textbook claim that Advaita says "the world is unreal" is too crude to survive primary reading. Śaṅkara's operative word is *mithyā*, not *asat*. *Mithyā* names dependent, sublatable, not-self-standing being. *Asat* names sheer non-being, absence, the impossible. The world in Śaṅkara is not the son of a barren woman. It is the dependent field of empirical and ritual life whose being is non-other than Brahman's being. Later Advaitins sharpen that dependence in different ways. None of this is well described by the word "illusionism" unless that word is immediately unpacked and heavily restricted.
 
 The second is about the history of dispute. Rāmānuja and Madhva are not simply "reacting against Śaṅkara." Very often they are reacting against post-Śaṅkara developments, especially the refined Vivaraṇa-style account of ignorance as *anirvacanīya*, neither real nor unreal, and Brahman as ignorance's locus and object. The historical target matters. If one attacks late scholastic Advaita and then announces that one has refuted Śaṅkara himself, one has telescoped five centuries of intra-Advaita debate into a single noun.
@@ -28,7 +30,11 @@ With those corrections in place, the history becomes legible.
 
 ### Upaniṣadic seeds: ignorance, hunger, time, and the non-rival names of the Real
 
+Cross-engagement: Adi Sankara presses the same manifestation status axis in the metaphysical register, but with the value `sublatable-not-null` rather than `dependent-real` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Several of the decisive later disputes are already seeded in the śruti itself, and they are seeded in a way much richer than the later classroom caricatures allow. The early archive does not give us a flat opposition between "knowledge" and "error," nor between "real Brahman" and "false world." It gives us manifestation, veiling, hunger, naming, play, and graded disclosure. Later Vedānta sharpens these. It does not invent them out of thin air.
+
+Cross-engagement: Anandabodha presses the same identity relation axis in the metaphysical register, but with the value `non-otherness` rather than `image-original-similarity` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 The *Īśopaniṣad* is the first place where the later quarrel over *avidyā* has to be handled with care rather than slogans. Verses 9 to 11 do not say: "knowledge good, ignorance bad, therefore discard ignorance." They say something harder. One darkness belongs to *avidyā* by itself, another to *vidyā* by itself, and the human being who knows both together, *ubhayaṃ saha*, crosses death by *avidyā* and attains the deathless by *vidyā*. That is not the language of sheer nullity. It is the language of a two-term discipline in which the lower and the higher are not rivals but ordered functions.
 
@@ -83,6 +89,8 @@ One methodological consequence follows. The śruti and purāṇic seed-texts alr
 
 The *Brahma-Sūtra* is not yet any later school. It is the compressed battlefield on which those later schools fight. Three features matter immediately.
 
+Cross-engagement: Anantakrishna Sastri presses the same finite cognition axis in the epistemological register, but with the value `positive-ignorance` rather than `real-dependent-veiling` in [primary text](cite://sankara/brahma-sutra-bhasya/2.1.14). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 First, the sūtras already name predecessors: Āśmarathya, Auḍulomi, Kāśakṛtsna, Bādari, Jaimini, Kārṣṇājini. Vedānta does not begin as a unitary revelation whose plurality is a late corruption. It begins, at the level of our surviving record, as adjudication among rival interpreters.
 
 Second, *janmādy asya yataḥ* in 1.1.2 defines Brahman through the world's emergence, sustenance, and return. A Brahman knowable through world-causality is not a Brahman simply indifferent to manifestation. This does not settle whether causality is real transformation, apparent transformation, body-soul relation, or power-manifestation. It does settle that the world is not a disposable side-show to the definition of Brahman.
@@ -110,6 +118,8 @@ The polemical setting of the sūtra is the objection that action presupposes pur
 
 Bhartṛprapañca survives only through hostile reconstruction, chiefly in Śaṅkara and the later dossier built from him. That forces caution, but not silence. The outline that survives is unmistakable enough. Brahman is one; world and souls are real differentiations of that one; difference and non-difference are both actual; manifestation is not a merely pedagogical phantasm. In short, a genuinely realist bhedābheda seems already present.
 
+Cross-engagement: Appayya Dikshita presses the same epistemic authority axis in the epistemological register, but with the value `scripture-dominant` rather than `plural-pramana-realism` in [primary text](cite://mandana/brahma-siddhi/3.4). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 That is historically weighty even if systematics remain partly conjectural. Bhartṛprapañca proves that robust realist Vedānta is not just a post-Śaṅkara backlash. It belongs to the earliest recoverable layers of the tradition.
 
 Gauḍapāda, by contrast, imports a sharpened anti-reification dialectic. His *ajāti* language, his dream analogies, and his attacks on origination put intense pressure on any easy realism. But even here it is too crude to say: Gauḍapāda founded world-negation. What he really does is radicalize the distinction between what appears under thought-constructed multiplicity and what stands in the non-dual self. The tension he introduces is not between Brahman and sheer nothingness, but between non-dual reality and the habitual reification of plurality.
@@ -120,7 +130,11 @@ By the time Śaṅkara arrives, then, the room is already crowded: Upaniṣadic 
 
 ### Śaṅkara's actual claim: dependent world, not blank nullity
 
+Cross-engagement: Bhatta Kallata presses the same determination axis in the logical-dialectical register, but with the value `self-expression` rather than `non-sublatable-difference` in [primary text](cite://bhatta-kallata/spanda-karika/1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 The first rule of reading Śaṅkara is to read him before reading "Advaita." His own corpus is more text-tethered, more guarded, and less scholastically frozen than the later schools that invoke him in their own battles.
+
+Cross-engagement: Ananda K. Coomaraswamy presses the same method axis in the methodological register, but with the value `comparative-reading` rather than `formal-proof-or-inference` in [primary text](cite://coomaraswamy/the-transformation-of-nature-in-art/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 The *Adhyāsa-Bhāṣya* opens not with "the world is illusion," but with the problem of superimposition between subject and object. The "I" and the "you" are opposed like light and darkness, yet their properties are constantly transferred across the divide. The world of bondage is this transfer-system generalized: body taken as self, agency taken as self, pleasure and pain taken as self, caste and stage of life taken as self. That is a theory of total misidentification, but not a theory of blank nothingness.
 
@@ -132,11 +146,13 @@ The *Adhyāsa-Bhāṣya* opens not with "the world is illusion," but with the pr
 
 The key point is structural. Every example Śaṅkara gives presupposes a real substrate. Rope-snake requires rope. Shell-silver requires shell. Post-man requires post. Illusion does not happen in a void. So when later readers summarize Śaṅkara as if he simply denied the world, they are already ignoring the logic of the very introductory passage that sets up the problem. What Śaṅkara denies is self-standing ultimacy to the superimposed content, not all empirical appearance whatsoever.
 
-This becomes explicit in his use of *vācārambhaṇa* logic. Pot is not non-being. Pot is clay under a name-form determination. The effect is *ananya*, non-other, from the cause. The world is thus not an independently grounded rival to Brahman, but it is also not the son of a barren woman. The correct word is dependence.
+This becomes explicit in his use of *vācārambhaṇa* logic. Pot is not non-being. Pot is clay under a name-form determination. The effect is *ananya*, non-other, from the cause. The world is so not an independently grounded rival to Brahman, but it is also not the son of a barren woman. The correct word is dependence.
 
 ### *Līlā-kaivalyam* and Śaṅkara's three senses of *avidyā*
 
 Śaṅkara on 2.1.33 is decisive because it answers a question the realists never stop pressing: why would a full Brahman manifest anything at all?
+
+Cross-engagement: Akalanka presses the same truth-structure axis in the epistemological register, but with the value `standpoint-conditioned-realism` rather than `single-absolute-truth` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 > Not from deficiency.
 > Not from some unfinished errand.
@@ -151,6 +167,8 @@ This is one reason Śaṅkara's own use of *avidyā* remains fluid. At least thr
 ### Sureśvara: knowledge against ritualism, without hatred of the world
 
 Sureśvara is indispensable because he shows what the nearest post-Śaṅkara clarification looked like before the later sub-school machinery had fully hardened. The *Naiṣkarmya-Siddhi* is the key text here, and its pressure point is the old Mīmāṃsaka question: is liberation achieved through action, through knowledge, or through some combination of both?
+
+Cross-engagement: Edmund Husserl presses the same perspectivism axis in the epistemological register, but with the value `standpoint-conditioned-realism` rather than `partial-perspectives-ranked` in [primary text](cite://husserl/ideas-i/31-32). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 Sureśvara's answer is not anti-ritual theater. It is more exact. Action belongs to the field of the not-yet-complete agent. Knowledge belongs to what discloses the agent's falsity at the highest level.
 
@@ -180,6 +198,8 @@ On the locus-of-ignorance question Sureśvara is less system-forcing than the la
 ### Maṇḍana Miśra: the four books of the *Brahma-Siddhi* and the hardening of the problem
 
 Maṇḍana's *Brahma-Siddhi* is where early Advaita shows the strain of sustained argument. The text is not a footnote to Śaṅkara. It is one of the first large attempts to defend the Advaitic project once ritualists, realists, Buddhists, and common-sense pluralists have all pressed their objections.
+
+Cross-engagement: Akshapada Gautama presses the same practice-path axis in the soteriological register, but with the value `knowledge-discipline` rather than `devotion-and-grace` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 The opening movement of the work insists on the authority of Vedānta in a field of competing claims. Maṇḍana does not merely assume the Upaniṣads are self-evident. He argues for their pramāṇya against those who reduce Veda to action or dismiss bhūta-artha statements as useless.
 
@@ -212,7 +232,11 @@ The argumentative exchange with Sureśvara can now be stated more exactly. Sure�
 
 ### Padmapāda: first crystallization after Śaṅkara
 
+Cross-engagement: Alfred North Whitehead presses the same soteric end axis in the soteriological register, but with the value `not-soteriological` rather than `service-with-distinction-preserved` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Padmapāda's *Pañcapādikā* is fragmentary in surviving scope but immense in consequence. With him, Advaita begins to move from Śaṅkara's exegetical and phenomenological idiom toward a more self-conscious school apparatus. One should not caricature this as "Padmapāda invents illusionism." What he really does is force greater precision about how the one consciousness can remain unmodified while the manifold world appears.
+
+Cross-engagement: Baladeva Vidyabhushana presses the same causation model axis in the metaphysical register, but with the value `unchanged-ground-with-changing-power` rather than `efficient-material-split` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 The gain is real. Opponents now have a determinate target. The cost is also real. The more formally Advaita states its machinery, the easier it becomes for realists to attack that machinery instead of the subtler texture of Śaṅkara's own pages.
 
@@ -245,7 +269,7 @@ Prakāśātman's *Pañcapādikā-Vivaraṇa* pushes the opposite answer. Brahman
 > and the same object
 > as the knowing that dissolves it.
 
-This is the great Vivaraṇa move. It says, in effect: if only Brahman is ultimately there, then no second ultimate locus can be admitted. Ignorance must somehow belong to the one reality whose truth it obscures. The school then introduces distinctions between pure consciousness and the modes through which ignorance operates so as to protect Brahman's untouched nature while retaining Brahman as the sole base.
+This is the great Vivaraṇa move. It says, in effect: if only Brahman is there, then no second ultimate locus can be admitted. Ignorance must somehow belong to the one reality whose truth it obscures. The school then introduces distinctions between pure consciousness and the modes through which ignorance operates so as to protect Brahman's untouched nature while retaining Brahman as the sole base.
 
 Here the old monastic formula begins to make sense as a condensation rather than a mere slogan: *ajñānaṃ tu sad-asadbhyām anirvacanīyam, triguṇātmakam, jñāna-virodhi, bhāvarūpaṃ yat kiñcit*. One should not naively project that backward into Śaṅkara. But once the school can recite that line with confidence, the whole history changes. Ignorance is now positive, opposed to liberating knowledge, linked with the plural manifest field, and granted a status neither flatly real nor flatly unreal.
 
@@ -272,7 +296,7 @@ The larger historical point is plain. "Advaita" is not one block. It is an incre
 
 Vidyāraṇya's triad of *Pañcadaśī*, *Jīvanmukti-Viveka*, and *Vivaraṇa-Prameya-Saṅgraha* matters because it redistributes scholastic disputation into a broader existential map. In the *Vivaraṇa-Prameya-Saṅgraha* the mature Vivaraṇa inheritance is compactly rehearsed. In the *Pañcadaśī* that same inheritance becomes contemplative pedagogy rather than only controversy. In the *Jīvanmukti-Viveka* the whole question of post-realization embodiment becomes unavoidable.
 
-The *Jīvanmukti-Viveka* especially prevents one lazy misreading. If liberation in life is a real topic, then appearance after knowledge cannot be dismissed as an insignificant leftover. The continued body-mind field has to be explained. Vidyāraṇya's answer is neither crude denial nor crude realism. The field remains, but its binding force is gone or attenuated. The person liberated in life is thus a living proof that realization and world-presence are not simple contraries.
+The *Jīvanmukti-Viveka* especially prevents one lazy misreading. If liberation in life is a real topic, then appearance after knowledge cannot be dismissed as an insignificant leftover. The continued body-mind field has to be explained. Vidyāraṇya's answer is neither crude denial nor crude realism. The field remains, but its binding force is gone or attenuated. The person liberated in life is so a living proof that realization and world-presence are not simple contraries.
 
 ### Madhusūdana Sarasvatī: *Siddhānta-Bindu*, *Advaita-Siddhi*, and *Bhakti-Rasāyana*
 
@@ -894,7 +918,7 @@ That insight also clarifies why historical polemics need not be denied. Schools 
 
 ### Sarvāmnāya expanded: six directions, one mandala, no flattening
 
-The Sarvāmnāya material deserves more than a passing gesture because it gives a medieval precedent for a non-ladder map of doctrinal life. The six *āmnāyas* are not merely compass points. East, south, west, north, the upward current, and the supreme or *anuttara* together form a mandala of transmission-lines, powers, ritual grammars, and philosophical placements. A tradition can thus occupy a determinate place in a sacred-intellectual field without being reduced either to "false" or to "all the same."
+The Sarvāmnāya material deserves more than a passing gesture because it gives a medieval precedent for a non-ladder map of doctrinal life. The six *āmnāyas* are not merely compass points. East, south, west, north, the upward current, and the supreme or *anuttara* together form a mandala of transmission-lines, powers, ritual grammars, and philosophical placements. A tradition can so occupy a determinate place in a sacred-intellectual field without being reduced either to "false" or to "all the same."
 
 That is the first decisive gain. A mandala is not an undifferentiated soup. Position matters. Direction matters. Function matters. One current initiates, one protects, one intensifies, one gathers, one ascends, one crowns. Once this grammar is seen, the modern habit of writing Indian thought as if it were a single staircase from lower to higher becomes too small.
 

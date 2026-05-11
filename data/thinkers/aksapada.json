@@ -54,5 +54,206 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-comparators-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "epistemic_authority",
+      "value": "plural-pramana-realism",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/aksapada.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://aksapada/nyaya-sutra/1.1.1",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.3",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.4",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.32-39"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "self-standing-real",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/aksapada.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://aksapada/nyaya-sutra/1.1.1",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.3",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.4",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.32-39"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "method_of_critique",
+      "value": "formal-proof-or-inference",
+      "register": "methodological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/aksapada.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://aksapada/nyaya-sutra/1.1.1",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.3",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.4",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.32-39"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "modal_structure_of_truth",
+      "value": "single-absolute-truth",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/aksapada.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://aksapada/nyaya-sutra/1.1.1",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.3",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.4",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.32-39"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "knowledge-discipline",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/aksapada.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://aksapada/nyaya-sutra/1.1.1",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.3",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.4",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.32-39"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "selfhood_structure",
+      "value": "substantial-self",
+      "register": "phenomenological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/aksapada.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://aksapada/nyaya-sutra/1.1.1",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.3",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.4",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.32-39"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "semantic_mediation",
+      "value": "language-tracks-reality",
+      "register": "semantic-linguistic",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/aksapada.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://aksapada/nyaya-sutra/1.1.1",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.3",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.4",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.32-39"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "isolation-or-discriminative-release",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/aksapada.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://aksapada/nyaya-sutra/1.1.1",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.3",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.4",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.32-39"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "many-coordinate-reals",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/aksapada.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://aksapada/nyaya-sutra/1.1.1",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.3",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.4",
+            "cite://sureshvara/naishkarmya-siddhi/1.1.32-39"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

@@ -156,5 +156,188 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-corpus-v2-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "epistemic_authority",
+      "value": "scripture-dominant",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/satchidanandendra.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sankara/brahma-sutra-bhasya/1.1.1",
+            "cite://sureshvara/naishkarmya-siddhi/1.1-5"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "finite_cognition_model",
+      "value": "adhyasa-or-superimposition",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/satchidanandendra.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sankara/brahma-sutra-bhasya/1.1.1",
+            "cite://sureshvara/naishkarmya-siddhi/1.1-5"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "identity_relation",
+      "value": "non-otherness",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/satchidanandendra.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sankara/brahma-sutra-bhasya/1.1.1",
+            "cite://sureshvara/naishkarmya-siddhi/1.1-5"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "sublatable-not-null",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/satchidanandendra.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sankara/brahma-sutra-bhasya/1.1.1",
+            "cite://sureshvara/naishkarmya-siddhi/1.1-5"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "modal_structure_of_truth",
+      "value": "hierarchical-standpoint-truth",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/satchidanandendra.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sankara/brahma-sutra-bhasya/1.1.1",
+            "cite://sureshvara/naishkarmya-siddhi/1.1-5"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "knowledge-discipline",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/satchidanandendra.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sankara/brahma-sutra-bhasya/1.1.1",
+            "cite://sureshvara/naishkarmya-siddhi/1.1-5"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "selfhood_structure",
+      "value": "witness-self",
+      "register": "phenomenological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/satchidanandendra.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sankara/brahma-sutra-bhasya/1.1.1",
+            "cite://sureshvara/naishkarmya-siddhi/1.1-5"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "identity-with-ground",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/satchidanandendra.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sankara/brahma-sutra-bhasya/1.1.1",
+            "cite://sureshvara/naishkarmya-siddhi/1.1-5"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "one-self-standing",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/satchidanandendra.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://sankara/brahma-sutra-bhasya/1.1.1",
+            "cite://sureshvara/naishkarmya-siddhi/1.1-5"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

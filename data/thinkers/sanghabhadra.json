@@ -2,7 +2,9 @@
   "id": "sanghabhadra",
   "name": "Sanghabhadra",
   "name_iast": "Saṅghabhadra",
-  "alternate_names": ["Zhongxian (Chinese transmission)"],
+  "alternate_names": [
+    "Zhongxian (Chinese transmission)"
+  ],
   "dates_low": 380,
   "dates_high": 470,
   "dates_tier": "consensus-textual",
@@ -26,11 +28,17 @@
       "work_id": "nyayanusara",
       "title": "Nyayanusara",
       "title_iast": "Nyāyānusāra",
-      "alternate_titles": ["Abhidharma-Nyāyānusāra-Śāstra", "Apidamo Shun Zhengli Lun (Chinese)"],
+      "alternate_titles": [
+        "Abhidharma-Nyāyānusāra-Śāstra",
+        "Apidamo Shun Zhengli Lun (Chinese)"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored by Saṅghabhadra. Sanskrit original lost; preserved in Xuanzang's seventh-century Chinese translation (Taishō no. 1562, in eighty fascicles). The text is the principal source for orthodox Vaibhāṣika doctrine after the Mahā-Vibhāṣā itself.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Cox 1995 Disputed Dharmas and Dhammajoti 2007 Sarvāstivāda Abhidharma are the standard scholarly references; neither is on disk in our corpus, both cited via field-standard summary."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Cox 1995 Disputed Dharmas and Dhammajoti 2007 Sarvāstivāda Abhidharma are the standard scholarly references; neither is on disk in our corpus, both cited via field-standard summary."
+        }
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
@@ -43,11 +51,16 @@
       "work_id": "abhidharma-samaya-pradipika",
       "title": "Abhidharma-Samaya-Pradipika",
       "title_iast": "Abhidharma-Samaya-Pradīpikā",
-      "alternate_titles": ["Apidamozang Xianzong Lun (Chinese)"],
+      "alternate_titles": [
+        "Apidamozang Xianzong Lun (Chinese)"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored by Saṅghabhadra as a more compressed companion to the Nyāyānusāra. Sanskrit original lost; preserved in Xuanzang's Chinese translation (Taishō no. 1563, in forty fascicles).",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Cox 1995 and Dhammajoti 2007; neither on disk in our corpus, cited via field-standard summary."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Cox 1995 and Dhammajoti 2007; neither on disk in our corpus, cited via field-standard summary."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -63,5 +76,73 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-buddhist-comparators-extension-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "manifestation_status",
+      "value": "dependent-real",
+      "register": "metaphysical",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/sanghabhadra.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "meditative-discipline",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/sanghabhadra.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "selfhood_structure",
+      "value": "no-enduring-self",
+      "register": "phenomenological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/sanghabhadra.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "isolation-or-discriminative-release",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/sanghabhadra.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "process-field-with-no-enduring-substrate",
+      "register": "metaphysical",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/sanghabhadra.json",
+          "field": "core_thesis"
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

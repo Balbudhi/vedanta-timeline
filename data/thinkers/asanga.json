@@ -2,7 +2,10 @@
   "id": "asanga",
   "name": "Asanga",
   "name_iast": "Asaṅga",
-  "alternate_names": ["Ārya Asaṅga", "Thogs-med"],
+  "alternate_names": [
+    "Ārya Asaṅga",
+    "Thogs-med"
+  ],
   "dates_low": 310,
   "dates_high": 390,
   "dates_tier": "consensus-textual",
@@ -12,7 +15,9 @@
   "sub_school": "Yogācāra-founder",
   "sub_school_shade": 3,
   "lineage_in": [],
-  "lineage_out": ["vasubandhu"],
+  "lineage_out": [
+    "vasubandhu"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "bhaviveka",
@@ -31,11 +36,17 @@
       "work_id": "mahayana-sangraha",
       "title": "Mahayana-Sangraha",
       "title_iast": "Mahāyāna-Saṅgraha",
-      "alternate_titles": ["Maha-S", "She-lun (Chinese transmission)"],
+      "alternate_titles": [
+        "Maha-S",
+        "She-lun (Chinese transmission)"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored by Asaṅga; survives in Tibetan and in three Chinese translations (Buddhaśānta, Paramārtha, Xuanzang). The base text is foundational for East Asian Yogācāra (Faxiang).",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Lamotte 1938 critical edition; Schmithausen 1987."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Lamotte 1938 critical edition; Schmithausen 1987."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -51,7 +62,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored; survives in Sanskrit (Pradhan 1950 edition reconstructs from Tibetan and Chinese with later Sanskrit fragments) and in Tibetan and Chinese transmission.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Pradhan 1950; Rahula 1971 French translation."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Pradhan 1950; Rahula 1971 French translation."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -77,11 +91,16 @@
       "work_id": "yogacara-bhumi-shastra",
       "title": "Yogacara-Bhumi-Shastra",
       "title_iast": "Yogācāra-Bhūmi-Śāstra",
-      "alternate_titles": ["YBh"],
+      "alternate_titles": [
+        "YBh"
+      ],
       "ascription_tier": "traditionally-ascribed",
       "ascription_notes": "Traditionally ascribed in Tibet to Maitreya (with Asaṅga as recipient-redactor) and in China to Asaṅga himself. Modern scholarship treats the text as the work of multiple hands within the early Yogācāra school, redacted by Asaṅga.",
       "ascription_evidence": [
-        {"kind": "scholarly-dispute", "description": "Schmithausen 1987 treats it as a multi-stratum compilation; the Bodhisattva-Bhūmi section is securely Asaṅga's."}
+        {
+          "kind": "scholarly-dispute",
+          "description": "Schmithausen 1987 treats it as a multi-stratum compilation; the Bodhisattva-Bhūmi section is securely Asaṅga's."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -97,5 +116,73 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-buddhist-comparators-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "finite_cognition_model",
+      "value": "no-unified-model-given",
+      "register": "epistemological",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/asanga.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "conventionally-real-without-own-being",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/asanga.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "meditative-discipline",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/asanga.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "selfhood_structure",
+      "value": "no-enduring-self",
+      "register": "phenomenological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/asanga.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "isolation-or-discriminative-release",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/asanga.json",
+          "field": "core_thesis"
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

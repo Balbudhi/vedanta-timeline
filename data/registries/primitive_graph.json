@@ -1,0 +1,361 @@
+{
+  "version": "v2-phase5",
+  "status": "draft",
+  "description": "Machine-readable registry for the primitives_v2 comparative grammar.",
+  "registers": [
+    "metaphysical",
+    "epistemological",
+    "phenomenological",
+    "semantic-linguistic",
+    "logical-dialectical",
+    "aesthetic",
+    "ritual-normative",
+    "ethical",
+    "political-social",
+    "historical-genealogical",
+    "soteriological"
+  ],
+  "edge_types": [
+    "commitment",
+    "dependency",
+    "cross-engagement",
+    "critique",
+    "subsumption",
+    "register-shift",
+    "terminological-near-match"
+  ],
+  "primitives": {
+    "substrate_structure": {
+      "label": "Substrate Structure",
+      "category": "metaphysical",
+      "description": "The basic ontological architecture of what is self-standing and what is dependent.",
+      "values": [
+        "one-self-standing",
+        "one-qualified-by-real-internal-distinctions",
+        "one-independent-plus-real-dependents",
+        "many-coordinate-reals",
+        "process-field-with-no-enduring-substrate",
+        "anti-essential-relationality",
+        "suspended-or-refused"
+      ]
+    },
+    "manifestation_status": {
+      "label": "Manifestation Status",
+      "category": "metaphysical",
+      "description": "The status of the world, appearance, or finite objectivity relative to what grounds it.",
+      "values": [
+        "self-standing-real",
+        "dependent-real",
+        "sublatable-not-null",
+        "real-transformation",
+        "expressive-manifestation",
+        "conventionally-real-without-own-being",
+        "socially-or-discursively-stabilized",
+        "suspended-or-unfixed"
+      ]
+    },
+    "identity_relation": {
+      "label": "Identity Relation",
+      "category": "metaphysical",
+      "description": "The formal relation between ultimate reality, self, and world where unity and difference are both at issue.",
+      "values": [
+        "numerical-identity",
+        "non-otherness",
+        "body-soul-qualification",
+        "image-original-similarity",
+        "natural-difference-non-difference",
+        "inconceivable-difference-non-difference",
+        "self-expression-or-appearance",
+        "no-single-relation-stated"
+      ]
+    },
+    "individuation_status": {
+      "label": "Individuation Status",
+      "category": "metaphysical",
+      "description": "The standing of the individual as individual.",
+      "values": [
+        "reducible-to-the-whole",
+        "qualified-mode",
+        "irreducible-dependent",
+        "expressive-singularity",
+        "transcendental-pole",
+        "produced-or-fractured",
+        "not-central"
+      ]
+    },
+    "causation_model": {
+      "label": "Causation Model",
+      "category": "metaphysical",
+      "description": "How the finite order issues from its ground, if it does.",
+      "values": [
+        "appearance-without-real-change",
+        "real-transformation",
+        "unchanged-ground-with-changing-power",
+        "body-soul-causation",
+        "efficient-material-split",
+        "immanent-expression",
+        "processual-concrescence",
+        "dependent-co-arising",
+        "not-a-cosmogonic-system"
+      ]
+    },
+    "selfhood_structure": {
+      "label": "Selfhood Structure",
+      "category": "phenomenological",
+      "description": "What kind of self or subject is treated as real or operative.",
+      "values": [
+        "substantial-self",
+        "witness-self",
+        "relational-self",
+        "psychic-individual",
+        "transcendental-ego",
+        "dasein",
+        "split-or-produced-subject",
+        "no-enduring-self"
+      ]
+    },
+    "finite_cognition_model": {
+      "label": "Finite Cognition Model",
+      "category": "epistemological",
+      "description": "The account of error, finitude, obscuration, or interpretation.",
+      "values": [
+        "adhyasa-or-superimposition",
+        "positive-ignorance",
+        "real-dependent-veiling",
+        "contraction-or-obscuration",
+        "intentional-constitution",
+        "perspectival-interpretation",
+        "genealogically-produced-illusion",
+        "no-unified-model-given"
+      ]
+    },
+    "epistemic_authority": {
+      "label": "Epistemic Authority",
+      "category": "epistemological",
+      "description": "The dominant source or ordered set of sources by which load-bearing claims are warranted.",
+      "values": [
+        "scripture-dominant",
+        "scripture-plus-transformative-experience",
+        "plural-pramana-realism",
+        "ritual-injunction",
+        "dialectical-immanence",
+        "phenomenological-reduction",
+        "genealogical-critique",
+        "deconstructive-reading",
+        "comparative-theological-reading",
+        "no-single-authority"
+      ]
+    },
+    "determination_operator": {
+      "label": "Determination Operator",
+      "category": "logical-dialectical",
+      "description": "The main operator by which determinacy or difference is articulated.",
+      "values": [
+        "negation-and-contradiction",
+        "non-sublatable-difference",
+        "difference-without-negation",
+        "exclusion-or-apoha",
+        "self-expression",
+        "differential-deferral",
+        "genealogical-exposure",
+        "ritual-specification",
+        "dependent-co-arising"
+      ]
+    },
+    "method_of_critique": {
+      "label": "Method of Critique",
+      "category": "logical-dialectical",
+      "description": "The operative procedure by which claims are advanced, tested, or dismantled.",
+      "values": [
+        "commentarial-exegesis",
+        "formal-proof-or-inference",
+        "phenomenological-reduction",
+        "dialectical-development",
+        "genealogy",
+        "deconstruction",
+        "comparative-reading",
+        "mixed-or-layered"
+      ]
+    },
+    "semantic_mediation": {
+      "label": "Semantic Mediation",
+      "category": "semantic-linguistic",
+      "description": "How language or sign mediates access to reality, action, or objecthood.",
+      "values": [
+        "language-tracks-reality",
+        "language-binds-action",
+        "language-constitutes-object-domain",
+        "language-differentially-defers-presence",
+        "language-as-creative-manifestation",
+        "language-subordinate-to-non-propositional-knowing"
+      ]
+    },
+    "temporal_mode": {
+      "label": "Temporal Mode",
+      "category": "metaphysical",
+      "description": "Whether being is framed as substance, process, disclosure, or a layered combination.",
+      "values": [
+        "substance-primary",
+        "process-primary",
+        "both-orthogonal",
+        "timeless-ground-with-dependent-time",
+        "historical-disclosure",
+        "no-decision-given"
+      ]
+    },
+    "register_of_evolution": {
+      "label": "Register of Evolution",
+      "category": "historical-genealogical",
+      "description": "How emergence, ascent, or historic transformation is treated.",
+      "values": [
+        "no-evolution",
+        "sublative-becoming",
+        "real-cosmological-evolution",
+        "durational-creative-growth",
+        "graded-manifestation-without-evolution",
+        "genealogical-historicization",
+        "not-applicable"
+      ]
+    },
+    "modal_structure_of_truth": {
+      "label": "Modal Structure of Truth",
+      "category": "epistemological",
+      "description": "How truth is distributed when multiple standpoints or levels are in play.",
+      "values": [
+        "single-absolute-truth",
+        "hierarchical-standpoint-truth",
+        "alternative-irreducible-truths",
+        "standpoint-conditioned-realism",
+        "paraconsistent-or-both-held",
+        "context-indexed-without-final-hierarchy"
+      ]
+    },
+    "relation_to_perspectivism": {
+      "label": "Relation to Perspectivism",
+      "category": "epistemological",
+      "description": "How plurality of viewpoints or standpoints is treated.",
+      "values": [
+        "sublated-into-higher-whole",
+        "irreducible-true-perspectives",
+        "partial-perspectives-ranked",
+        "standpoint-conditioned-realism",
+        "perspectives-as-symptoms",
+        "no-perspectivism-claim"
+      ]
+    },
+    "normative_order_source": {
+      "label": "Normative Order Source",
+      "category": "ritual-normative",
+      "description": "Where obligation or binding normativity is sourced.",
+      "values": [
+        "scriptural-injunction",
+        "divine-command-or-grace",
+        "ethical-life-in-institutions",
+        "disciplinary-power",
+        "class-structured-social-relation",
+        "self-legislating-subject",
+        "not-a-central-axis"
+      ]
+    },
+    "social_formation_model": {
+      "label": "Social Formation Model",
+      "category": "political-social",
+      "description": "How institutions, social form, or collective structures generate subjects and objectivity.",
+      "values": [
+        "not-central",
+        "recognitive-institutional",
+        "commodity-fetish-social-form",
+        "disciplinary-production-of-subjects",
+        "performative-norm-repetition",
+        "civilizational-structure-shift"
+      ]
+    },
+    "affective_motive_force": {
+      "label": "Affective Motive Force",
+      "category": "ethical",
+      "description": "What fundamentally moves life, practice, or transformation.",
+      "values": [
+        "knowledge",
+        "devotion",
+        "will-to-power",
+        "bliss-or-delight",
+        "desire-and-drive",
+        "ethical-obligation-to-the-other",
+        "aesthetic-rapture",
+        "not-central"
+      ]
+    },
+    "practice_path": {
+      "label": "Practice Path",
+      "category": "soteriological",
+      "description": "The dominant practical path by which transformation or release is pursued.",
+      "values": [
+        "knowledge-discipline",
+        "devotion-and-grace",
+        "ritual-observance",
+        "meditative-discipline",
+        "reduction-or-attentive-description",
+        "transformative-integration",
+        "critical-genealogical-work",
+        "not-soteric"
+      ]
+    },
+    "soteric_end": {
+      "label": "Soteric End",
+      "category": "soteriological",
+      "description": "The final end aimed at or described by the thinker.",
+      "values": [
+        "identity-with-ground",
+        "service-with-distinction-preserved",
+        "loving-participation",
+        "isolation-or-discriminative-release",
+        "recognition-or-freedom",
+        "transformation-of-life",
+        "ethical-vigilance-without-final-fusion",
+        "not-soteriological"
+      ]
+    }
+  },
+  "dependencies": [
+    {
+      "from": "substrate_structure",
+      "to": "manifestation_status"
+    },
+    {
+      "from": "substrate_structure",
+      "to": "identity_relation"
+    },
+    {
+      "from": "manifestation_status",
+      "to": "causation_model"
+    },
+    {
+      "from": "selfhood_structure",
+      "to": "finite_cognition_model"
+    },
+    {
+      "from": "epistemic_authority",
+      "to": "method_of_critique"
+    },
+    {
+      "from": "determination_operator",
+      "to": "semantic_mediation"
+    },
+    {
+      "from": "temporal_mode",
+      "to": "register_of_evolution"
+    },
+    {
+      "from": "modal_structure_of_truth",
+      "to": "relation_to_perspectivism"
+    },
+    {
+      "from": "normative_order_source",
+      "to": "social_formation_model"
+    },
+    {
+      "from": "practice_path",
+      "to": "soteric_end"
+    }
+  ]
+}

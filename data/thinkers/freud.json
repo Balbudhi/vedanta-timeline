@@ -49,5 +49,68 @@
     }
   ],
   "entry_status": "stub-from-backlog",
-  "core_thesis": "Freud holds that psychic life is not transparent to consciousness: dreams, symptoms, and slips are compromise formations through which repressed wishes find distorted expression ([Interpretation of Dreams ch. 7](cite://freud/the-interpretation-of-dreams/7); [Beyond the Pleasure Principle V](cite://freud/beyond-the-pleasure-principle/5)). Yet the psyche is not ordered simply by pleasure seeking; repetition can exceed satisfaction and return the subject to traumatic impasse. Analysis works by making these conflictual determinations speak rather than by positing a unified self."
+  "core_thesis": "Freud holds that psychic life is not transparent to consciousness: dreams, symptoms, and slips are compromise formations through which repressed wishes find distorted expression ([Interpretation of Dreams ch. 7](cite://freud/the-interpretation-of-dreams/7); [Beyond the Pleasure Principle V](cite://freud/beyond-the-pleasure-principle/5)). Yet the psyche is not ordered simply by pleasure seeking; repetition can exceed satisfaction and return the subject to traumatic impasse. Analysis works by making these conflictual determinations speak rather than by positing a unified self.",
+  "primitive_commitments": [
+    {
+      "primitive": "affective_motive_force",
+      "value": "desire-and-drive",
+      "register": "phenomenological",
+      "confidence": "high",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/freud.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://freud/the-interpretation-of-dreams/7",
+            "cite://freud/beyond-the-pleasure-principle/5"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "selfhood_structure",
+      "value": "split-or-produced-subject",
+      "register": "phenomenological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/freud.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://freud/the-interpretation-of-dreams/7",
+            "cite://freud/beyond-the-pleasure-principle/5"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "not-soteriological",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/freud.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://freud/the-interpretation-of-dreams/7",
+            "cite://freud/beyond-the-pleasure-principle/5"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

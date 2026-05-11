@@ -93,5 +93,294 @@
   "last_verified_by": "wave-rigor-opus",
   "polemic_chain_ids": [
     "advaita-siddhi-replies"
-  ]
+  ],
+  "primitive_commitments": [
+    {
+      "primitive": "causation_model",
+      "value": "efficient-material-split",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/jayatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/anuvyakhyana/1.4.111-112",
+            "cite://jayatirtha/vadavali/1-4",
+            "cite://jayatirtha/vadavali/3",
+            "cite://madhva/anuvyakhyana/2.3"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "determination_operator",
+      "value": "non-sublatable-difference",
+      "register": "logical-dialectical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/jayatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/anuvyakhyana/1.4.111-112",
+            "cite://jayatirtha/vadavali/1-4",
+            "cite://jayatirtha/vadavali/3",
+            "cite://madhva/anuvyakhyana/2.3"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "epistemic_authority",
+      "value": "plural-pramana-realism",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/jayatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/anuvyakhyana/1.4.111-112",
+            "cite://jayatirtha/vadavali/1-4",
+            "cite://jayatirtha/vadavali/3",
+            "cite://madhva/anuvyakhyana/2.3"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "finite_cognition_model",
+      "value": "real-dependent-veiling",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/jayatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/anuvyakhyana/1.4.111-112",
+            "cite://jayatirtha/vadavali/1-4",
+            "cite://jayatirtha/vadavali/3",
+            "cite://madhva/anuvyakhyana/2.3"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "identity_relation",
+      "value": "image-original-similarity",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/jayatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/anuvyakhyana/1.4.111-112",
+            "cite://jayatirtha/vadavali/1-4",
+            "cite://jayatirtha/vadavali/3",
+            "cite://madhva/anuvyakhyana/2.3"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "individuation_status",
+      "value": "irreducible-dependent",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/jayatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/anuvyakhyana/1.4.111-112",
+            "cite://jayatirtha/vadavali/1-4",
+            "cite://jayatirtha/vadavali/3",
+            "cite://madhva/anuvyakhyana/2.3"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "dependent-real",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/jayatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/anuvyakhyana/1.4.111-112",
+            "cite://jayatirtha/vadavali/1-4",
+            "cite://jayatirtha/vadavali/3",
+            "cite://madhva/anuvyakhyana/2.3"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "method_of_critique",
+      "value": "formal-proof-or-inference",
+      "register": "methodological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/jayatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/anuvyakhyana/1.4.111-112",
+            "cite://jayatirtha/vadavali/1-4",
+            "cite://jayatirtha/vadavali/3",
+            "cite://madhva/anuvyakhyana/2.3"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "modal_structure_of_truth",
+      "value": "single-absolute-truth",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/jayatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/anuvyakhyana/1.4.111-112",
+            "cite://jayatirtha/vadavali/1-4",
+            "cite://jayatirtha/vadavali/3",
+            "cite://madhva/anuvyakhyana/2.3"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "devotion-and-grace",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/jayatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/anuvyakhyana/1.4.111-112",
+            "cite://jayatirtha/vadavali/1-4",
+            "cite://jayatirtha/vadavali/3",
+            "cite://madhva/anuvyakhyana/2.3"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "relation_to_perspectivism",
+      "value": "partial-perspectives-ranked",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/jayatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/anuvyakhyana/1.4.111-112",
+            "cite://jayatirtha/vadavali/1-4",
+            "cite://jayatirtha/vadavali/3",
+            "cite://madhva/anuvyakhyana/2.3"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "service-with-distinction-preserved",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/jayatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/anuvyakhyana/1.4.111-112",
+            "cite://jayatirtha/vadavali/1-4",
+            "cite://jayatirtha/vadavali/3",
+            "cite://madhva/anuvyakhyana/2.3"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "one-independent-plus-real-dependents",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/jayatirtha.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://madhva/anuvyakhyana/1.4.111-112",
+            "cite://jayatirtha/vadavali/1-4",
+            "cite://jayatirtha/vadavali/3",
+            "cite://madhva/anuvyakhyana/2.3"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

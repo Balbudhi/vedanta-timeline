@@ -8,13 +8,19 @@
 
 ### Who Prigogine was
 
+Cross-engagement: Abhinavagupta presses the same substrate structure axis in the metaphysical register, but with the value `one-self-standing` rather than `process-field-with-no-enduring-substrate` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 Ilya Romanovich Prigogine (1917 Moscow – 2003 Brussels) was a Belgian-Russian physical chemist, founder of the so-called "Brussels School" of non-equilibrium thermodynamics, and one of the genuinely heterodox scientific minds of the twentieth century. His family fled the Russian Revolution when he was four; after a wandering decade through Lithuania and Germany the Prigogines settled in Belgium in 1929, where he eventually took degrees in chemistry and physics at the Université Libre de Bruxelles. From 1959 he directed the Solvay Institutes for Physics and Chemistry, and from 1967 he simultaneously held the Regental Chair at the Center for Statistical Mechanics and Complex Systems at the University of Texas at Austin. In 1977 he was awarded the Nobel Prize in Chemistry "for his contributions to non-equilibrium thermodynamics, particularly the theory of dissipative structures." Of all twentieth-century Nobel laureates in chemistry, he is the one whose Nobel was, in effect, given for a metaphysical claim disguised as a technical result — the claim that the macroscopic world's tendency to organize itself into ordered, persistent, far-from-equilibrium structures (Bénard cells, the Belousov-Zhabotinsky reaction, the chemical waves of morphogenesis, the very fact of biological life) is not an accident, not a fluke against the backdrop of universal entropy increase, but is *what entropy production looks like under the right conditions*. Order, in Prigogine, is the offspring of irreversibility, not its enemy.
+
+Cross-engagement: Adi Sankara presses the same manifestation status axis in the metaphysical register, but with the value `sublatable-not-null` rather than `dependent-real` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 He died in May 2003 in Brussels. He had supervised more than seventy doctoral students; he had been Vicomte (1989) by Belgian royal decree; he had received over fifty honorary doctorates. He was an accomplished pianist who liked to say that physicists who cannot hear are missing a sense. His three trade books — *From Being to Becoming* (1980), *Order Out of Chaos* (with Isabelle Stengers, 1984), and *The End of Certainty* (1997) — together constitute one of the most sustained and successful attempts in the post-war period to argue, from inside professional physics, that the dominant ontology of physics is wrong.
 
 ### The work-arc
 
 Prigogine's technical work begins in the 1940s with his Brussels doctoral thesis on irreversible thermodynamics. The early papers — collected and extended in *Étude thermodynamique des phénomènes irréversibles* (Liège: Desoer, 1947) and *Introduction to Thermodynamics of Irreversible Processes* (New York: Wiley-Interscience; first edition 1955, third edition 1967, ~147 pp.) — establish what is now called *linear* non-equilibrium thermodynamics: the regime close to thermodynamic equilibrium where Onsager's reciprocity relations hold and where one can prove a *minimum entropy production* theorem (Prigogine's theorem, 1947). The book is short, dense, and almost entirely technical. Its philosophical seed is buried but already present: thermodynamics is not a degenerate corner of mechanics; it is its own discipline, with its own state variables and its own time.
+
+Cross-engagement: Gaudapada (Samkhya commentator) presses the same temporal mode axis in the metaphysical register, but with the value `substance-primary` rather than `process-primary` in [primary text](cite://isvara-krsna/samkhya-karika/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 The middle period (1960s) is the decisive one. Prigogine and his collaborators (Glansdorff, Lefever, Nicolis, George) extend the framework far from equilibrium. The technical milestones are *Non-Equilibrium Statistical Mechanics* (Prigogine, New York: Wiley-Interscience, 1962, 319 pp.) and *Thermodynamic Theory of Structure, Stability and Fluctuations* (Glansdorff and Prigogine, London: Wiley-Interscience, 1971, ~306 pp.), with a companion exposition in *Self-Organization in Nonequilibrium Systems: From Dissipative Structures to Order through Fluctuations* (Nicolis and Prigogine, New York: Wiley, 1977, 491 pp.). These books are professional monographs. They are also, in their concluding sections, quietly philosophical. The central technical claim is that for an open system maintained far enough from equilibrium, the linear regime breaks down: entropy production is no longer minimized; instead, the system can reach an instability point — a *bifurcation* — at which it abandons the thermodynamic branch and self-organizes into a spatially or temporally structured state. The structure is *dissipative*: it exists only by continually exporting entropy to the environment. Bénard convection cells, oscillating chemical reactions, the morphogenetic waves Turing predicted in 1952 — these are paradigms.
 
@@ -28,17 +34,23 @@ The trade-book period begins in 1980. *From Being to Becoming: Time and Complexi
 
 It is tempting to treat the three trade books as self-sufficient, because they are the texts philosophers and general readers actually finish. But the trade books only carry weight because a long technical program stands behind them. *Introduction to Thermodynamics of Irreversible Processes* establishes the close-to-equilibrium regime. *Non-Equilibrium Statistical Mechanics* and *Thermodynamic Theory of Structure, Stability and Fluctuations* extend the treatment into the nonlinear and unstable regimes. Without those books, *Order Out of Chaos* would be an attractive manifesto; with them, it is the public face of a decades-long research program.
 
+Cross-engagement: Alfred North Whitehead presses the same evolution register axis in the historical-genealogical register, but with the value `durational-creative-growth` rather than `real-cosmological-evolution` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 For the user's project this matters because it changes the status of the Prigogine connection. He is not being cited as a poet of becoming or as a metaphorical ally. He is being used as a physicist whose philosophical language is backed by equations, stability analyzes, kinetic models, and laboratory-sensitive theory. That does not make him automatically right, but it does mean that the convergence with Whitehead and Aurobindo is not merely verbal.
 
 ### Where the controversy actually lies
 
 The live dispute around Prigogine is not over whether irreversible processes exist. Everyone agrees they do. The dispute is over *where* irreversibility belongs in the explanatory order. Orthodox statistical mechanics says it belongs at the ensemble level, as a description forced on us by coarse-graining, averaging, and special boundary conditions. Prigogine says that for the generic, non-integrable case the irreversible description is not a pragmatic overlay but the truer account of what the system is doing.
 
+Cross-engagement: Akalanka presses the same soteric end axis in the soteriological register, but with the value `isolation-or-discriminative-release` rather than `not-soteriological` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 This is the point the user needs kept sharp. If Prigogine were only saying that thermodynamics is useful, he would not matter much for T9 or T11. He matters because he is making the stronger claim that becoming, probability, and history penetrate deeper than the reversible equations suggest. The thesis does not rise or fall with every technical detail of the Brussels-Austin formalism, but it does depend on this stronger ontological reading being at least a live option inside modern physics.
 
 ### The central thesis, in the briefest form
 
 The textbook story of physics, and the story most physicists still tell informally, runs roughly: at the most fundamental level the laws are time-reversible (Hamilton's equations, Maxwell's equations, the Schrödinger equation, the Standard Model Lagrangian); the apparent irreversibility we observe — the fact that hot coffee cools, gases mix, eggs scramble but do not unscramble — is an emergent, statistical, *epistemic* phenomenon, traceable to our coarse-grained ignorance of the microscopic state. The arrow of time, on this view, is in our heads (or at most in the boundary conditions of the universe — the famous "low-entropy initial state").
+
+Cross-engagement: Baladeva Vidyabhushana presses the same causation model axis in the metaphysical register, but with the value `unchanged-ground-with-changing-power` rather than `processual-concrescence` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 Prigogine rejects this story, and he rejects it three times: in 1980, in 1984, and again in 1997. His thesis, stripped to one sentence, is: *irreversibility is ontologically primary, not epistemic; time has direction; the deterministic, time-symmetric laws are an idealization that captures only a special and degenerate class of systems; for the generic case, the world's most fundamental description is probabilistic and oriented.* The corollary is that complexity, self-organization, life, and mind — the very things the textbook story has the most trouble explaining — are not anomalies but expressions of what the physical world actually is, when described correctly.
 
@@ -65,7 +77,6 @@ This is the precise role Prigogine plays in the user's auxiliary integrations. H
 - **Poincaré resonance**: in classical Hamiltonian mechanics, a situation in which the frequencies of unperturbed motion satisfy a rational relation that causes perturbative series to diverge; Henri Poincaré's small-divisor problem (1892); for Prigogine, the technical core of the late argument that *most* dynamical systems are non-integrable, and that for them the trajectory description must be abandoned in favor of an irreversible ensemble description.
 
 ---
-
 
 ## Part I — *From Being to Becoming* (1980)
 
@@ -137,7 +148,6 @@ The big claim of the book, rephrased now in its strongest form: *irreversibility
 
 ---
 
-
 ## Part II — *Order Out of Chaos* (with Isabelle Stengers, 1984)
 
 *Full citation: Ilya Prigogine and Isabelle Stengers, Order Out of Chaos: Man's New Dialogue with Nature. Foreword by Alvin Toffler. Boulder, CO: New Science Library / Shambhala Publications, 1984; mass-market paperback New York: Bantam Books, April 1984, 349 pp., ISBN 0-553-34082-4. Originally published as La Nouvelle Alliance: Métamorphose de la science, Paris: Gallimard, 1979, 302 pp. The book is dedicated to Erich Jantsch, Aharon Katchalsky, Pierre Resibois, and Leon Rosenfeld. Page numbers in this brief refer to the 1984 Bantam paperback edition.*
@@ -164,7 +174,7 @@ Chapter III ("The Two Cultures") surveys the post-Newtonian philosophical attemp
 
 The Whitehead pages are worth pausing on. Prigogine and Stengers describe Whitehead's project as "resolutely pre-Kantian" — that is, refusing the Kantian division of labor (science to the phenomenal, philosophy to the regulative) and insisting that philosophy must do the same kind of conceptual work as science but on a wider field. They quote Whitehead at length on the "misplaced concreteness" of seventeenth-century materialism — its fallacious treatment of the abstractions necessary for scientific calculation as the ultimate furniture of the world. They credit him with seeing, more clearly than anyone before, that *both* permanence and becoming must be preserved, that an ontology of pure flux ("a continuous and ever-changing flux") is as inadequate as an ontology of static substance:
 
-> Thus for Whitehead the task of philosophy was to reconcile permanence and change, to conceive of things as processes, to demonstrate that becoming forms entities, individual identities that are born and die. (Ch. III, p. 95)
+> so for Whitehead the task of philosophy was to reconcile permanence and change, to conceive of things as processes, to demonstrate that becoming forms entities, individual identities that are born and die. (Ch. III, p. 95)
 
 This is the formula Prigogine and Stengers will then claim, later in the book, that contemporary physics has (in its own register, with its own apparatus) finally caught up with. The Whitehead chapter ends with an apologetic note: when *Process and Reality* was published (Cambridge: Cambridge University Press, 1929; corrected ed. New York: Free Press, 1978, 413 pp.), contemporary physics was not yet ready to receive it; "Whitehead's philosophy found an echo only in biology" (p. 95). The implicit suggestion is that with non-equilibrium thermodynamics, with dissipative structures, with the kinetic-theoretical recognition of irreversibility, physics is *now* ready, and one of *Order Out of Chaos*'s tasks is to mark the readiness.
 
@@ -210,7 +220,6 @@ The book's final paragraph, in the section "The Renewal of Nature," frames this 
 
 ---
 
-
 ## Part III — *The End of Certainty* (1997)
 
 *Full citation: Ilya Prigogine, The End of Certainty: Time, Chaos, and the New Laws of Nature. With the collaboration of Isabelle Stengers (uncredited on the English title page; credited on the French original). New York: The Free Press (a division of Simon & Schuster), 1997. 228 pp. Hardcover ISBN 0-684-83705-6. Originally published as La Fin des certitudes: Temps, chaos et les lois de la nature, Paris: Éditions Odile Jacob, August 1996, 228 pp. The book is dedicated to "the memory of those who fought for human freedom." Preface dated March 1996. Page numbers in this brief refer to the 1997 Free Press first edition.*
@@ -252,7 +261,6 @@ The book closes with a brief meditation on what Prigogine calls "narratives of t
 For the user's thesis, the closing chapter matters because it articulates, with Western-scientific authority, a picture in which (a) the underlying physics is becoming-primary rather than being-primary; (b) the universe's creativity at every level — cosmic, chemical, biological, mental — is one process; (c) the human is a participant in that process rather than its sovereign or its victim; and (d) the categories of agency, novelty, and openness are not anthropomorphisms imported from the humanities but are features of the physical world correctly described. Each of these claims has an Aurobindonian counterpart: (a) Saccidānanda as intrinsically static-and-dynamic; (b) divine *līlā* as the self-creative play of the One in many; (c) the *psychic being* as the soul-participant in evolution; (d) the supramental level as the level at which agency, novelty, and openness are seen to be constitutive of the Real and not (as in the modern Western picture) anomalies within an inert substrate.
 
 ---
-
 
 ## Part IV — Prigogine and Indian Thought
 
@@ -312,7 +320,7 @@ For the user's thesis this is a real incompleteness. The user's position — par
 
 ### Where the user extends Prigogine
 
-The extension follows from the incompletenesses. The user's thesis takes Prigogine's becoming-primacy as a confirmation of half of what Saccidānanda requires; supplies the other half (the static-side, the consciousness-side, the divine-side) from Aurobindo, the Vedantic textual base, and the Tantric traditions; and articulates the non-difference at the supramental level. The extension is *not* a correction of Prigogine in his own register — Prigogine is, on the user's view, correct in physics, and his physics is good physics. The extension is a metaphysical reading of what good physics implies when read from the standpoint of an integral cosmology in which physics is one register among others, all of which speak truly of one Real. This is precisely the move that T1 (Darśana Register Thesis) and T4 (All Darśanas Ultimately True) require: physics has its register, and within that register Prigogine's claims are warranted; the integral standpoint sees that these claims, properly understood, are also articulating something that the metaphysical and devotional registers articulate in their own ways.
+The extension follows from the incompletenesses. The user's thesis takes Prigogine's becoming-primacy as a confirmation of half of what Saccidānanda requires; supplies the other half (the static-side, the consciousness-side, the divine-side) from Aurobindo, the Vedantic textual base, and the Tantric traditions; and articulates the non-difference at the supramental level. The extension is *not* a correction of Prigogine in his own register — Prigogine is, on the user's view, correct in physics, and his physics is good physics. The extension is a metaphysical reading of what good physics implies when read from the standpoint of an integral cosmology in which physics is one register among others, all of which speak truly of one Real. This is precisely the move that T1 (Darśana Register Thesis) and T4 (All Darśanas True) require: physics has its register, and within that register Prigogine's claims are warranted; the integral standpoint sees that these claims, properly understood, are also articulating something that the metaphysical and devotional registers articulate in their own ways.
 
 ### The Whitehead relation
 

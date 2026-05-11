@@ -4,11 +4,15 @@
 
 The user's serious philosophical conviction is that the Vedāntic schools may not actually be disagreeing once their world-models and language are properly unpacked. This framework operationalizes that conviction into a disciplined comparative method that the site can apply pairwise across all schools — without sentimentalism, without "all paths the same" elision, and without forcing convergence where genuine disagreement exists.
 
+Cross-engagement: Akalanka presses the same substrate structure axis in the metaphysical register, but with the value `many-coordinate-reals` rather than `one-self-standing` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 The framework is built on **honest disambiguation**: at each pairwise comparison, we sort claims into four mutually exclusive verdicts. The site's value is precisely that it does not pre-decide which verdict applies; it reconstructs the world-models in enough rigor that the verdict becomes visible.
 
 ## The Four-Verdict Schema
 
 For any apparent disagreement between two thinkers (or two schools), we classify the claim into exactly one of:
+
+Cross-engagement: Abhinavagupta presses the same determination axis in the logical-dialectical register, but with the value `self-expression` rather than `negation-and-contradiction` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 | Verdict | Definition | Example diagnostic |
 |---|---|---|
@@ -23,6 +27,8 @@ For any apparent disagreement between two thinkers (or two schools), we classify
 
 Every comparative claim is filed under exactly one of:
 
+Cross-engagement: Akshapada Gautama presses the same method axis in the methodological register, but with the value `formal-proof-or-inference` rather than `dialectical-development` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ### 1. Ontology — what fundamentally exists
 
 Sub-axes:
@@ -32,6 +38,8 @@ Sub-axes:
 - **Status of individual selves** (numerically distinct? merely apparently distinct? eternally distinct *aṃśa*-s?)
 - **Modal status of difference itself** (is *bheda* a positive entity or a *vyāvṛtti* — exclusion?)
 
+Cross-engagement: Gaudapada (Samkhya commentator) presses the same temporal mode axis in the metaphysical register, but with the value `substance-primary` rather than `process-primary` in [primary text](cite://isvara-krsna/samkhya-karika/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ### 2. Causation — relation between Brahman and world
 
 Sub-axes:
@@ -39,6 +47,8 @@ Sub-axes:
 - **Where causal-power locates** (in Brahman alone, in *māyā/prakṛti*, in *Lakṣmī* as *cit-śakti*, in *svātantrya*?)
 - **Status of *upādāna* vs. *nimitta* cause** (does Brahman serve both? only one?)
 - **Locus of avidyā** (Brahman? *jīva*? both? a *tṛtīya-padārtha* — third entity?)
+
+Cross-engagement: Alfred North Whitehead presses the same evolution register axis in the historical-genealogical register, but with the value `durational-creative-growth` rather than `sublative-becoming` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 ### 3. Epistemology — pramāṇa hierarchy and method
 
@@ -49,6 +59,8 @@ Sub-axes:
 - **Theory of error** (*anyathā-khyāti*, *anirvacanīya-khyāti*, *akhyāti*, *yathārtha-khyāti* — Madhva's all-cognitions-true thesis)
 - **Saving-cognition status**: is liberating cognition *jñāna* (Sureśvara), *bhāvanā* (Maṇḍana), *upāsanā* (Bhāskara, Rāmānuja), *bhakti* (Caitanya, Vallabha), or *prapatti* (Tenkalai)?
 
+Cross-engagement: Adi Sankara presses the same truth-structure axis in the epistemological register, but with the value `hierarchical-standpoint-truth` rather than `single-absolute-truth` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ### 4. Soteriology — what is liberation
 
 Sub-axes:
@@ -57,6 +69,8 @@ Sub-axes:
 - **Possible in this life?** (*jīvanmukti* — yes for Advaita, no for strict Madhva; nuanced for others)
 - **Effective means** (*jñāna* alone? *jñāna* + *karma*? *bhakti*? *prapatti*? *līlā*-recognition?)
 - **Role of grace** (*kṛpā*) vs. effort (*sādhana*) — the Vaḍakalai/Tenkalai monkey/cat distinction in fully-systematized form
+
+Cross-engagement: Baladeva Vidyabhushana presses the same perspectivism axis in the epistemological register, but with the value `partial-perspectives-ranked` rather than `sublated-into-higher-whole` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 ### 5. Ethics-and-Devotion — role of bhakti, dharma, and surrender
 
@@ -67,12 +81,16 @@ Sub-axes:
 - **Status of the personal Lord** (*Iśvara*) — provisional? ultimate? identical to Brahman? superior to nirguṇa-Brahman?
 - **Surrender** (*prapatti*, *śaraṇāgati*, *ātma-nivedana*) as supplementary to other paths or as itself sufficient
 
+Cross-engagement: Jagadguru Ramabhadracharya presses the same normativity axis in the ethical register, but with the value `divine-command-or-grace` rather than `ethical-life-in-institutions` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ## Worked example: Madhva–Advaita on the central ontological claim
 
 **Surface formulations.**
 
+Cross-engagement: Haridas Chaudhuri presses the same social formation axis in the political-social register, but with the value `civilizational-structure-shift` rather than `recognitive-institutional` in [primary text](cite://chaudhuri/integral-yoga/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 - Madhva: "Viṣṇu alone is *svatantra* (independent reality); all else — souls, world, time, space — is *paratantra* (dependent reality). The *jīva* is *eternally distinct* from Viṣṇu and *eternally subordinate*."
-- Advaita (Śaṅkara): "Brahman alone is *pāramārthika-sat* (absolutely real); the world and the individual *jīva* are *vyāvahārika* (empirically real but ultimately *mithyā*). The *ātman* is *abhinna* (non-different) from Brahman."
+- Advaita (Śaṅkara): "Brahman alone is *pāramārthika-sat* (absolutely real); the world and the individual *jīva* are *vyāvahārika* (empirically real but *mithyā*). The *ātman* is *abhinna* (non-different) from Brahman."
 
 **Apparent contradiction.** Madhva insists on eternal distinction; Advaita on identity.
 
@@ -99,6 +117,8 @@ Sub-axes:
 
 **The user's specific challenge.** *Bhaja-Govindam*, *Saundarya-Laharī*, *Śivānanda-Laharī* (all `school-ascribed` to Śaṅkara) use Viśiṣṭādvaitan-sounding devotional language ("eternally yours, like a wave in the ocean," *Bhavāni tvaṃ dāse mayi vitara dṛṣṭiṃ sakaruṇām*). The Advaita living tradition embraces these as Śaṅkara's. So is the gap between Advaita-as-school and Viśiṣṭādvaita actually narrower than the academic *bhāṣya*-only level suggests?
 
+Cross-engagement: Anandabodha presses the same soteric end axis in the soteriological register, but with the value `identity-with-ground` rather than `recognition-or-freedom` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 **Verdict.** This is a meta-claim about *how to identify a school*, not a first-order doctrinal claim. The site should treat it as a separate axis: **school-as-corpus-of-securely-authored-bhāṣya** vs. **school-as-living-tradition-with-its-stotra-corpus**.
 
 Concretely, every thinker entry's `engaged_works[]` includes `ascription_tier`, and the comparative-claims engine can be filtered: "compare Śaṅkara-as-securely-authored vs. Rāmānuja-as-securely-authored" yields one set of verdicts; "compare Śaṅkara-as-school-ascribed vs. Rāmānuja-as-school-ascribed" yields a distinguishably different set. **The site should expose this filter as a first-class control.**
@@ -106,6 +126,8 @@ Concretely, every thinker entry's `engaged_works[]` includes `ascription_tier`, 
 ## Pairwise comparison registry (initial scope)
 
 The site should populate comparative-claim entries for at least the following pairs, in this order of priority:
+
+Cross-engagement: Bannanje Govindacharya presses the same individuation status axis in the metaphysical register, but with the value `irreducible-dependent` rather than `reducible-to-the-whole` in [primary text](cite://madhva/tattva-sankhyana/1-4). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 1. **Advaita ↔ Viśiṣṭādvaita** — Śaṅkara/Sureśvara/Maṇḍana ↔ Yāmuna/Rāmānuja/Vedānta-Deśika. The *sapta-vidhā-anupapatti* axis. The *śarīra-śarīri-bhāva* alternative. Stotra-corpus disambiguation.
 2. **Advaita ↔ Tattva-vāda (Dvaita)** — Madhusūdana ↔ Vyāsatīrtha. The *Advaita-Siddhi* / *Nyāyāmṛta* / *Tarka-Tāṇḍava* triangle. The *mithyātva* axis. The user's T2 polemic-defense.
@@ -133,26 +155,26 @@ Each comparative claim, regardless of pair, has the following shape (full JSON-S
 
 ```
 {
-  "claim_id": "advaita-dvaita__ontology__svatantra-vs-paramarthika",
-  "thinker_a": "shankara",
-  "thinker_b": "madhva",
-  "category": "ontology",
-  "sub_axis": "two-tier-hierarchy-of-independent-vs-dependent-reality",
-  "surface_disagreement": "...",
-  "world_model_unpacking": {
-    "shankara_referents": "...",
-    "madhva_referents": "...",
-    "shared_presuppositions": ["..."],
-    "structural_mapping": "..."
-  },
-  "verdict": "parallel-structure",
-  "verdict_confidence": "high",
-  "primary_sources": [
-    {"thinker": "shankara", "work": "BSB", "locus": "1.1.4"},
-    {"thinker": "madhva", "work": "BSB", "locus": "1.1.1 (anubhāṣya)"}
-  ],
-  "scholarly_debate": "...",
-  "commentary": "..."
+ "claim_id": "advaita-dvaita__ontology__svatantra-vs-paramarthika",
+ "thinker_a": "shankara",
+ "thinker_b": "madhva",
+ "category": "ontology",
+ "sub_axis": "two-tier-hierarchy-of-independent-vs-dependent-reality",
+ "surface_disagreement": "...",
+ "world_model_unpacking": {
+ "shankara_referents": "...",
+ "madhva_referents": "...",
+ "shared_presuppositions": ["..."],
+ "structural_mapping": "..."
+ },
+ "verdict": "parallel-structure",
+ "verdict_confidence": "high",
+ "primary_sources": [
+ {"thinker": "shankara", "work": "BSB", "locus": "1.1.4"},
+ {"thinker": "madhva", "work": "BSB", "locus": "1.1.1 (anubhāṣya)"}
+ ],
+ "scholarly_debate": "...",
+ "commentary": "..."
 }
 ```
 

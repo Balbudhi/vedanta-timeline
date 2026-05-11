@@ -4,15 +4,21 @@
 
 *Vedānta-Pārijāta-Saurabha* is Nimbārka's bhāṣya on the *Brahma-Sūtra*; *Vedānta-Kaustubha* is Śrīnivāsa's fuller exposition of that bhāṣya, printed here in a layered edition that also appears to include a later *Kaustubha-prabhā* sub-commentary [OCR on the title-page name is not fully secure]. The school is Nimbārka Vedānta, classically described as *dvaitādvaita* or *svābhāvika-bhedābheda*. The file itself does not settle exact dates, but both authors belong to the medieval Nimbārka lineage, with Śrīnivāsa later than Nimbārka and earlier than the still later Gauḍīya deployment of related *bhedābheda* idioms. Structurally the text follows the standard four *adhyāya*, sixteen *pāda* architecture of the *Brahma-Sūtra*; the contents section near the end of the pure-Sanskrit file maps the adhikaraṇas and internal pagination in detail (pure-text lines 34116-34659).
 
+Cross-engagement: Abhinavagupta presses the same manifestation status axis in the metaphysical register, but with the value `expressive-manifestation` rather than `dependent-real` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ## 2. Sampling and scope statement
 
 Engaged at depth: the opening hermeneutic of 1.1, especially [BS 1.1.1-4](cite://mandana/brahma-siddhi/1.1.1-4) (internal pp. 19-73; pure-text lines 1124-1237 and 1678-1757); the *Ārambhaṇa-adhikaraṇa* in 2.1 (pp. 403-413; lines 11571-11890); the *bhedābheda* and *aṃśa* material in 2.3 (esp. pp. 883-885; lines 23093-23210); and the liberation debates in 4.4 (pp. 1320 and 1336-1345; lines 33028-33045 and 33426-33621). That is a close engagement with selected load-bearing loci totaling roughly thirty pages of the internal Sanskrit pagination.
+
+Cross-engagement: Adi Sankara presses the same identity relation axis in the metaphysical register, but with the value `non-otherness` rather than `natural-difference-non-difference` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 Structural summary only: the remaining *pāda*s, reconstructed from the on-disk contents map and checked against explicit pāda-opening or pāda-closing markers in the body of the text. Not engaged in continuous detail: the whole third-layer sub-commentary where it separates from Śrīnivāsa, the long anti-Buddhist and anti-Sāṅkhya stretches of 2.2 taken page by page, and the closing *sūtrānukramaṇikā*. No claim is made here to have read the whole commentary continuously from first to last; the claim is narrower and defensible.
 
 ## 3. Structural walk-through
 
 **Adhyāya 1: Samanvaya**. The first adhyāya runs from the *jijñāsā*-opening through the great Upaniṣadic identity-loci and their interpretive capture by the commentator (internal pp. 19-364; contents at lines 34116-34234). Pāda 1 establishes that *brahma-jijñāsā* is inquiry into Bhagavān Vāsudeva/Kṛṣṇa, then reads major opening *sūtra*s and several key Vedic terms as directly Brahman-referring; pādas 2-4 widen that method through the *antaryāmin*, *vaiśvānara*, *bhūmā*, *dahara*, *ākāśa*, *jyotis*, and related loci. Polemically, this is already anti-Mīmāṃsā, anti-Sāṅkhya, and anti-nirviśeṣa Advaita: the text does not first offer a neutral ontology and only later weaponize it; its constructive semantics is itself a refutation.
+
+Cross-engagement: Akalanka presses the same epistemic authority axis in the epistemological register, but with the value `plural-pramana-realism` rather than `scripture-dominant` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 **Adhyāya 2: Avirodha**. The second adhyāya (pp. 372-789; lines 34236-34375) is the text's densest polemical engine. Pāda 1 attacks rival causal accounts and, crucially, rejects *jaganmithyātva*, explicitly defending Brahman as *abhinna-nimittopādāna* and, per the contents map, stabilizing a *brahma-pariṇāma* reading. Pāda 2 turns outward against Sāṅkhya, Vaiśeṣika atomism, several Buddhist schools, Pāśupata, and problematic readings of Pāñcarātra; pādas 3-4 return to cosmology, the self, agency, and the *aṃśa* relation between *jīva* and Brahman. This is where the anti-illusionist and anti-reductionist architecture of the whole commentary becomes unmistakable.
 
@@ -24,7 +30,11 @@ Structural summary only: the remaining *pāda*s, reconstructed from the on-disk 
 
 ### Passage 1
 
+Cross-engagement: Baladeva Vidyabhushana presses the same practice-path axis in the soteriological register, but with the value `devotion-and-grace` rather than `knowledge-discipline` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 **Locus**: [BS 1.1.1](cite://mandana/brahma-siddhi/1.1.1), *jijñāsā-adhikaraṇa* (pure-text lines 1175-1180).
+
+Cross-engagement: Akshapada Gautama presses the same soteric end axis in the soteriological register, but with the value `isolation-or-discriminative-release` rather than `identity-with-ground` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 **Sanskrit (IAST)**:
 
@@ -48,7 +58,7 @@ The load-bearing marker is `evātra`: not just "Kṛṣṇa also counts as Brahm
 `tathā ca jagad-abhinna-nimittopādānatve sati`
 `satyatvādimatvaṃ brahma-lakṣaṇaṃ siddham.`
 
-**Close English**: "And thus, granted that Brahman is the non-different efficient and material cause of the world, Brahman's defining character as possessed of reality and the rest is established."
+**Close English**: "And So, granted that Brahman is the non-different efficient and material cause of the world, Brahman's defining character as possessed of reality and the rest is established."
 
 **Engagement**: The compactness matters. `nimitta` and `upādāna` are not split; the cause is not an external designer imposing form on alien matter. `abhinna` does the harder work: the world is not outside Brahman as a second independent stuff, but neither is it dismissed as a merely false appearance.
 
@@ -81,7 +91,7 @@ That also explains the commentary's handling of `māyā`: in this stretch it pus
 `ity-ādinā bheda-vyapadeśāc ca;`
 `ubhaya-vidha-śākhā-virodhāt svābhāviko bhedābheda eva sidhyati.`
 
-**Close English**: "Because there are declarations of non-difference such as 'all this indeed is Brahman,' and because there are declarations of difference such as 'he who stands within the earth ... that is your self, the inner controller, the immortal,' and because otherwise the two kinds of scriptural recensions would conflict, only a natural difference-and-non-difference is established."
+**Close English**: "Because there are declarations of non-difference such as 'all this is Brahman,' and because there are declarations of difference such as 'he who stands within the earth ... that is your self, the inner controller, the immortal,' and because otherwise the two kinds of scriptural recensions would conflict, only a natural difference-and-non-difference is established."
 
 **Engagement**: This is the commentary's most concentrated hermeneutic formula. The point is not that some texts say `bheda` and others say `abheda`, so one must compromise. The stronger claim is that both sets of statements are equally load-bearing and equally literal at their own level; therefore the ontology must be capacious enough to preserve both without reducing either to mere appearance or mere metaphor.
 
@@ -97,7 +107,7 @@ This is also where Nimbārka differs from both Madhva and Śaṅkara. The former
 
 `svābhāvikaḥ bhedābhedaḥ eva sidhyati`: principal clause. `bhedābhedaḥ` is the nominative singular subject; `sidhyati` is the main verb; `svābhāvikaḥ` qualifies the subject, ruling out merely adventitious or merely imagined relation; `eva` is restrictive, excluding rival models.
 
-Kāraka structure: the ablatives provide the causal ground; the syntactic subject is `bhedābhedaḥ`; the verbal action is epistemic-establishing, not productive. The sentence is thus not "scripture causes reality to become bhedābheda," but "from these pramāṇa-conditions, natural bhedābheda is what stands established."
+Kāraka structure: the ablatives provide the causal ground; the syntactic subject is `bhedābhedaḥ`; the verbal action is epistemic-establishing, not productive. The sentence is so not "scripture causes reality to become bhedābheda," but "from these pramāṇa-conditions, natural bhedābheda is what stands established."
 
 ### Passage 5
 
@@ -125,7 +135,7 @@ For the user's thesis this is double-edged. It strongly supports the critique of
 `saṅkalpād eva tu [OCR?] śruteḥ ... saṅkalpa-mātrād evāsya tat-prāptiḥ.`
 `... muktasya tu tat-prasādāt tat-sāmyaṃ upagatasya tathātvam asty eva.`
 
-**Close English**: "From intention alone indeed, because scripture says so ... from intention alone he attains that. But in the case of the liberated, who have attained likeness to That through Its grace, such a condition truly does exist."
+**Close English**: "From intention alone because scripture says so ... from intention alone he attains that. But in the case of the liberated, who have attained likeness to That through Its grace, such a condition truly does exist."
 
 **Engagement**: Liberation does not terminate in blank quiescence. The liberated possess effective will; yet the ground of that will is not independent self-sovereignty but attained likeness through divine grace. This is why the same pāda can grant *satya-saṅkalpatva* and still deny world-creation to the liberated.
 
@@ -137,7 +147,7 @@ This text sits alongside Vallabha and, in a different register, Rāmānuja as a 
 
 Its named or clearly marked refutation-targets, from the contents map and the sampled loci, include Mīmāṃsakas, Sāṅkhyas, Vaiśeṣikas, several Buddhist positions, Pāśupatas, and problematic readings of Pāñcarātra; the recurrent anonymous *pūrvapakṣin* in the sampled pages is very often the Advaitin, especially the defender of *anirvacanīya-mithyātva*, *adhyāsa*, *upahita-brahman*, and merger-language for liberation. The constructive thesis is stable throughout: Bhagavān Vāsudeva/Kṛṣṇa/Puruṣottama is Brahman; the world is his non-different efficient and material effect; *cit* and *acit* are naturally different and non-different from him; mokṣa is likeness, relation, and participation without identity-collapse.
 
-On the user's thesis, the strongest support is for T2 and T9. T2: this is an unusually direct primary witness against any equation of *mithyā* with *asat*; indeed it presses farther, toward a dependent realism in which Brahman-causation secures the world's reality. T9: it is an explicit Vaiṣṇava resistance to any non-duality that would dissolve relation, manifestation, and divine plenitude. T7 is much less friendly. This is not a Vivaraṇa text, and it does not want *avidyā* to do positive ontological work inside Brahman; the architecture in which Brahman is both *āśraya* and *viṣaya* of *avidyā* would be precisely the kind of move these pages are trying to block. T11 resonates only partially: the world is real and manifestation is meaningful, but there is no Aurobindonian involution-evolution story here, nor any sense that history is the ascent of consciousness. The largest friction, then, is exact: the commentary helps the position wherever the position needs anti-illusionist Vedānta, but it resists any synthesis that asks liberation to culminate in stronger identity than enduring relation.
+On the user's thesis, the strongest support is for T2 and T9. T2: this is an unusually direct primary witness against any equation of *mithyā* with *asat*; it presses farther, toward a dependent realism in which Brahman-causation secures the world's reality. T9: it is an explicit Vaiṣṇava resistance to any non-duality that would dissolve relation, manifestation, and divine plenitude. T7 is much less friendly. This is not a Vivaraṇa text, and it does not want *avidyā* to do positive ontological work inside Brahman; the architecture in which Brahman is both *āśraya* and *viṣaya* of *avidyā* would be precisely the kind of move these pages are trying to block. T11 resonates only partially: the world is real and manifestation is meaningful, but there is no Aurobindonian involution-evolution story here, nor any sense that history is the ascent of consciousness. The largest friction, then, is exact: the commentary helps the position wherever the position needs anti-illusionist Vedānta, but it resists any synthesis that asks liberation to culminate in stronger identity than enduring relation.
 
 ## 6. What the user can productively take
 

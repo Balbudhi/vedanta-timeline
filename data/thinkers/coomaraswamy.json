@@ -36,5 +36,68 @@
     }
   ],
   "entry_status": "stub-from-backlog",
-  "core_thesis": "Coomaraswamy holds that art is properly an intellectual and sacramental operation: making is a mode of knowing, and beauty names the shining-forth of form grounded in supra-individual truth rather than private expression. His comparative method accordingly treats Hindu and Buddhist doctrines not as local curiosities but as exact statements of a metaphysics of participation, symbol, and liberation ([The Transformation of Nature in Art, ch. 1](cite://coomaraswamy/the-transformation-of-nature-in-art/1); [Hinduism and Buddhism, II](cite://coomaraswamy/hinduism-and-buddhism/2))."
+  "core_thesis": "Coomaraswamy holds that art is properly an intellectual and sacramental operation: making is a mode of knowing, and beauty names the shining-forth of form grounded in supra-individual truth rather than private expression. His comparative method accordingly treats Hindu and Buddhist doctrines not as local curiosities but as exact statements of a metaphysics of participation, symbol, and liberation ([The Transformation of Nature in Art, ch. 1](cite://coomaraswamy/the-transformation-of-nature-in-art/1); [Hinduism and Buddhism, II](cite://coomaraswamy/hinduism-and-buddhism/2)).",
+  "primitive_commitments": [
+    {
+      "primitive": "affective_motive_force",
+      "value": "aesthetic-rapture",
+      "register": "aesthetic",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/coomaraswamy.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://coomaraswamy/the-transformation-of-nature-in-art/1",
+            "cite://coomaraswamy/hinduism-and-buddhism/2"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "method_of_critique",
+      "value": "comparative-reading",
+      "register": "methodological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/coomaraswamy.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://coomaraswamy/the-transformation-of-nature-in-art/1",
+            "cite://coomaraswamy/hinduism-and-buddhism/2"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "semantic_mediation",
+      "value": "language-as-creative-manifestation",
+      "register": "aesthetic",
+      "confidence": "low",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/coomaraswamy.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://coomaraswamy/the-transformation-of-nature-in-art/1",
+            "cite://coomaraswamy/hinduism-and-buddhism/2"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

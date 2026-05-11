@@ -49,5 +49,200 @@
     }
   ],
   "entry_status": "stub-from-backlog",
-  "core_thesis": "Ramakrishna's mature standpoint is vijñāna: after neti, neti has carried one to the roof of nirguṇa Brahman, one returns to see that the roof and the stairs are of one substance, Brahman and Śakti being non-different. The highest realization therefore does not terminate devotion, form, or līlā; it re-sees them as the self-disclosure of the same Reality that samādhi knew beyond predicates ([Gospel of Sri Ramakrishna I.iv](cite://ramakrishna/gospel-of-sri-ramakrishna/1.4); [Gospel of Sri Ramakrishna II.xviii](cite://ramakrishna/gospel-of-sri-ramakrishna/2.18))."
+  "core_thesis": "Ramakrishna's mature standpoint is vijñāna: after neti, neti has carried one to the roof of nirguṇa Brahman, one returns to see that the roof and the stairs are of one substance, Brahman and Śakti being non-different. The highest realization therefore does not terminate devotion, form, or līlā; it re-sees them as the self-disclosure of the same Reality that samādhi knew beyond predicates ([Gospel of Sri Ramakrishna I.iv](cite://ramakrishna/gospel-of-sri-ramakrishna/1.4); [Gospel of Sri Ramakrishna II.xviii](cite://ramakrishna/gospel-of-sri-ramakrishna/2.18)).",
+  "primitive_commitments": [
+    {
+      "primitive": "affective_motive_force",
+      "value": "devotion",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/ramakrishna.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://ramakrishna/gospel-of-sri-ramakrishna/1.4",
+            "cite://ramakrishna/gospel-of-sri-ramakrishna/2.18"
+          ]
+        },
+        {
+          "kind": "source_article",
+          "ref": "data/articles/source/vivekananda-ramakrishna.md"
+        }
+      ]
+    },
+    {
+      "primitive": "epistemic_authority",
+      "value": "scripture-plus-transformative-experience",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/ramakrishna.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://ramakrishna/gospel-of-sri-ramakrishna/1.4",
+            "cite://ramakrishna/gospel-of-sri-ramakrishna/2.18"
+          ]
+        },
+        {
+          "kind": "source_article",
+          "ref": "data/articles/source/vivekananda-ramakrishna.md"
+        }
+      ]
+    },
+    {
+      "primitive": "identity_relation",
+      "value": "self-expression-or-appearance",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/ramakrishna.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://ramakrishna/gospel-of-sri-ramakrishna/1.4",
+            "cite://ramakrishna/gospel-of-sri-ramakrishna/2.18"
+          ]
+        },
+        {
+          "kind": "source_article",
+          "ref": "data/articles/source/vivekananda-ramakrishna.md"
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "expressive-manifestation",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/ramakrishna.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://ramakrishna/gospel-of-sri-ramakrishna/1.4",
+            "cite://ramakrishna/gospel-of-sri-ramakrishna/2.18"
+          ]
+        },
+        {
+          "kind": "source_article",
+          "ref": "data/articles/source/vivekananda-ramakrishna.md"
+        }
+      ]
+    },
+    {
+      "primitive": "modal_structure_of_truth",
+      "value": "context-indexed-without-final-hierarchy",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/ramakrishna.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://ramakrishna/gospel-of-sri-ramakrishna/1.4",
+            "cite://ramakrishna/gospel-of-sri-ramakrishna/2.18"
+          ]
+        },
+        {
+          "kind": "source_article",
+          "ref": "data/articles/source/vivekananda-ramakrishna.md"
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "devotion-and-grace",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/ramakrishna.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://ramakrishna/gospel-of-sri-ramakrishna/1.4",
+            "cite://ramakrishna/gospel-of-sri-ramakrishna/2.18"
+          ]
+        },
+        {
+          "kind": "source_article",
+          "ref": "data/articles/source/vivekananda-ramakrishna.md"
+        }
+      ]
+    },
+    {
+      "primitive": "relation_to_perspectivism",
+      "value": "irreducible-true-perspectives",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/ramakrishna.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://ramakrishna/gospel-of-sri-ramakrishna/1.4",
+            "cite://ramakrishna/gospel-of-sri-ramakrishna/2.18"
+          ]
+        },
+        {
+          "kind": "source_article",
+          "ref": "data/articles/source/vivekananda-ramakrishna.md"
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "loving-participation",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/ramakrishna.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://ramakrishna/gospel-of-sri-ramakrishna/1.4",
+            "cite://ramakrishna/gospel-of-sri-ramakrishna/2.18"
+          ]
+        },
+        {
+          "kind": "source_article",
+          "ref": "data/articles/source/vivekananda-ramakrishna.md"
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

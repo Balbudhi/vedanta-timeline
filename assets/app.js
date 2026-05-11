@@ -179,6 +179,7 @@ const state = {
   thinkersById: new Map(),
   schools: {},
   subSchools: {},
+  primitiveGraph: null,
   comparativeClaims: [],
   glossary: new Map(),       // term-key → entry
   glossaryRegex: null,
@@ -240,6 +241,8 @@ async function loadAll() {
   }
   state.schools     = (await loadJSON("data/registries/schools.json"))     || {};
   state.subSchools  = (await loadJSON("data/registries/sub_schools.json")) || {};
+  state.primitiveGraph = await loadJSON("data/registries/primitive_graph.json");
+  try { window.__primitiveGraph = state.primitiveGraph; } catch (_) {}
 
   const thinkers = await Promise.all(
     (manifest.thinkers || []).map((f) => loadJSON(`data/thinkers/${f}`))

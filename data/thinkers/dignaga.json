@@ -2,7 +2,10 @@
   "id": "dignaga",
   "name": "Dignaga",
   "name_iast": "Dignāga",
-  "alternate_names": ["Diṅnāga", "Phyogs-kyi-glang-po"],
+  "alternate_names": [
+    "Diṅnāga",
+    "Phyogs-kyi-glang-po"
+  ],
   "dates_low": 480,
   "dates_high": 540,
   "dates_tier": "consensus-textual",
@@ -12,7 +15,9 @@
   "sub_school": "Pramāṇa-vāda-founder",
   "sub_school_shade": 2,
   "lineage_in": [],
-  "lineage_out": ["dharmakirti"],
+  "lineage_out": [
+    "dharmakirti"
+  ],
   "lineage_polemical": [
     {
       "thinker_id": "uddyotakara",
@@ -41,11 +46,16 @@
       "work_id": "pramana-samuccaya",
       "title": "Pramana-Samuccaya",
       "title_iast": "Pramāṇa-Samuccaya",
-      "alternate_titles": ["PS"],
+      "alternate_titles": [
+        "PS"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored. The Sanskrit original is largely lost; the text survives in two Tibetan translations and is reconstructible through the Pramāṇa-Vārttika and Jinendrabuddhi's commentary. Steinkellner's 2005 partial Sanskrit reconstruction recovers the perception-chapter.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Hattori 1968; Steinkellner 2005."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Hattori 1968; Steinkellner 2005."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -61,7 +71,10 @@
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored short treatise with auto-commentary; survives in Sanskrit (partial), Tibetan, and two Chinese translations.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Standard ascription in all transmissions."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Standard ascription in all transmissions."
+        }
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
@@ -77,5 +90,99 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-buddhist-comparators-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "determination_operator",
+      "value": "exclusion-or-apoha",
+      "register": "logical-dialectical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/dignaga.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "epistemic_authority",
+      "value": "no-single-authority",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/dignaga.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "conventionally-real-without-own-being",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/dignaga.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "method_of_critique",
+      "value": "formal-proof-or-inference",
+      "register": "methodological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/dignaga.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "meditative-discipline",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/dignaga.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "selfhood_structure",
+      "value": "no-enduring-self",
+      "register": "phenomenological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/dignaga.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "isolation-or-discriminative-release",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/dignaga.json",
+          "field": "core_thesis"
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

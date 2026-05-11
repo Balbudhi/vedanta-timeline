@@ -4,9 +4,13 @@
 
 *Vijñānāmṛta-Bhāṣya*, also called the *Ṛju-Bhāṣya*, is Vijñānabhikṣu’s commentary on the *Brahma-Sūtras*. The on-disk edition preserves a complete four-adhyāya, four-pāda bhāṣya, preceded by extensive editorial matter. That same introductory material places Vijñānabhikṣu broadly in the sixteenth century; the file does not prove a stricter date. Doctrinally, the work is a late bhedābheda Vedānta heavily mediated by Sāṃkhya-Yoga: Brahman is supreme, prakṛti and puruṣa are real dependent powers, and the world is defended against both sheer falsity and mere symbolism.
 
+Cross-engagement: Akalanka presses the same substrate structure axis in the metaphysical register, but with the value `many-coordinate-reals` rather than `one-self-standing` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
 ## 2. Sampling and scope statement
 
 Engaged at depth: the opening maṅgala and the first pāda’s core doctrinal run, especially [BS 1.1.1-4](cite://mandana/brahma-siddhi/1.1.1-4) and the anti-pratibimba/anti-avaccheda/anti-avidyā discussions (printed pp. 1-45 in the pure-Sanskrit file); the samanvaya and bhinnābhinna material around the close of 1.1 (pp. 61-85); the first adhyāya’s fourth pāda on prakṛti as Brahman’s real power or upādhi (pp. 135-141); and the liberation/practice material in 3.4 and 4.1 (pp. 303-313).
+
+Cross-engagement: Abhinavagupta presses the same manifestation status axis in the metaphysical register, but with the value `expressive-manifestation` rather than `dependent-real` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 Structural summary only: the full subject-table in the pure-Sanskrit file, plus sampled openings and internal headings from the remaining pādas of adhyāyas 1-4, including the cosmological and anti-rival discussions of adhyāya 2 and the gati/mokṣa architecture of adhyāya 4.
 
@@ -15,6 +19,8 @@ Flagged but not engaged at depth: most of the detailed adhikaraṇa-by-adhikara�
 ## 3. Structural walk-through
 
 **Adhyāya 1, pāda 1** (TOC opens at p. 1; body visible from the start through pp. 85): this is the doctrinal engine-room. Vijñānabhikṣu begins with *athāto brahmajijñāsā*, argues at length about eligibility, saṃnyāsa, and the relation between knowledge and action, then turns to *janmādy asya yataḥ* and the definition of Brahman as the world-cause. The same pāda then becomes openly polemical: the targets are “ādhunikāḥ” inferred from the file’s repeated pratibimba-, avaccheda-, and avidyā-polemics to be late Advaitins, and the constructive thesis is that Brahman and world, and Brahman and jīva, stand in a real bhinnābhinna relation rather than in sheer vivarta or illusion.
+
+Cross-engagement: Adi Sankara presses the same identity relation axis in the metaphysical register, but with the value `non-otherness` rather than `natural-difference-non-difference` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 **Adhyāya 1, pāda 2** (TOC pp. 96-118): this pāda runs through standard identification-passages: *ānandamaya*, *antar*, *ākāśa*, *prāṇa*, *jyotis*, *attā*, *antaryāmin*. Its function is to show that dispersed śruti-terms resolve into Brahman rather than jīva, pradhāna, or some subordinate entity.
 
@@ -42,29 +48,31 @@ Flagged but not engaged at depth: most of the detailed adhikaraṇa-by-adhikara�
 
 **1. Locus:** 4.1.3, *ātmeti tūpagacchanti grāhayanti ca* (printed p. 305).
 
-**Sanskrit (IAST):**  
-*ātmeti tūpagacchanti grāhayanti ca.*  
+Cross-engagement: Akshapada Gautama presses the same epistemic authority axis in the epistemological register, but with the value `plural-pramana-realism` rather than `scripture-dominant` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+
+**Sanskrit (IAST):** 
+*ātmeti tūpagacchanti grāhayanti ca.* 
 *yad brahma satya-saṅkalpādi-guṇakaṃ parataḥ svataś ca nirviśeṣa-cinmātraṃ nety anubhavanti tāttvikāḥ, tathaiva śiṣyān mumukṣūn grāhayanti ca.*
 
-**Close English:** “They understand it as the Self, and they cause others to understand it thus. The Brahman which the knowers of reality experience as qualified, from one side, by attributes such as true resolve, and, from another side, as mere undifferentiated consciousness, that very thing they teach to disciples who desire liberation.”
+**Close English:** “They understand it as the Self, and they cause others to understand it so. The Brahman which the knowers of reality experience as qualified, from one side, by attributes such as true resolve, and, from another side, as mere undifferentiated consciousness, that very thing they teach to disciples who desire liberation.”
 
 **Engagement:** This is the cleanest statement of Bhikṣu’s hermeneutic method. Brahman is not reduced either to a nirguṇa residue or to a merely qualified Lord; rather, the teacher must carry both registers together. The force of *parataḥ svataś ca* is decisive: “from one side” and “from itself” do not introduce two entities, but two standpoints on the same Brahman.
 
 This is also why Bhikṣu can preserve *brahmāsmi* language without becoming an akhaṇḍa-Advaitin. The self-language is pedagogically and soteriologically central, but it does not erase the text’s repeated insistence on real differentiations in manifestation.
 
-**Pāṇinian-rich treatment:**  
-*ātmeti* = *ātmā iti*; quotation-marker with iti, indicating the content under which Brahman is to be apprehended.  
-*tu* marks contrast: not merely as symbol, not merely as external object of worship.  
-*upagacchanti* = *upa + gam*, laṭ, 3rd plural parasmaipada: “they come to,” “they understand,” “they accept as.”  
-*grāhayanti* = causative of *grah*, laṭ, 3rd plural parasmaipada: “they cause [others] to grasp.”  
-*yad brahma* is a relative-correlative start with the correlative suppressed: “that Brahman which...”  
-*satya-saṅkalpādi-guṇakam* is a bahuvrīhi/karmadhāraya-style compound in context: “possessed of qualities beginning with true resolve.”  
-*nirviśeṣa-cinmātram* = *nirviśeṣaṃ cinmātram*: “mere consciousness devoid of differentiating marks.”  
+**Pāṇinian-rich treatment:** 
+*ātmeti* = *ātmā iti*; quotation-marker with iti, indicating the content under which Brahman is to be apprehended. 
+*tu* marks contrast: not merely as symbol, not merely as external object of worship. 
+*upagacchanti* = *upa + gam*, laṭ, 3rd plural parasmaipada: “they come to,” “they understand,” “they accept as.” 
+*grāhayanti* = causative of *grah*, laṭ, 3rd plural parasmaipada: “they cause [others] to grasp.” 
+*yad brahma* is a relative-correlative start with the correlative suppressed: “that Brahman which...” 
+*satya-saṅkalpādi-guṇakam* is a bahuvrīhi/karmadhāraya-style compound in context: “possessed of qualities beginning with true resolve.” 
+*nirviśeṣa-cinmātram* = *nirviśeṣaṃ cinmātram*: “mere consciousness devoid of differentiating marks.” 
 Principal syntactic frame: subject = implied *tāttvikāḥ*; verbs = *anubhavanti* and *grāhayanti*; object = *yad brahma...*; secondary object in the causative construction = *śiṣyān mumukṣūn*. Kāraka-wise, the *śiṣyān mumukṣūn* are the prayojya/karma of the causative, while *brahma* is the object-content transmitted.
 
 **2. Locus:** 1.1.2, opening of *janmādy asya yataḥ* (printed p. 17).
 
-**Sanskrit (IAST):**  
+**Sanskrit (IAST):** 
 *asya jagato nāmarūpābhyāṃ vyākṛtasya cetanācetanarūpasya ... janmādiṣaṭkaṃ yataḥ ... tad brahma.*
 
 **Close English:** “That is Brahman from which this world, articulated as name and form and constituted of conscious and non-conscious realities, has its sixfold process of origination and the rest.”
@@ -73,8 +81,8 @@ Principal syntactic frame: subject = implied *tāttvikāḥ*; verbs = *anubhavan
 
 **3. Locus:** 1.1, anti-illusionist argument on vyāvahārika satta (printed pp. 11-13 and again pp. 43-45).
 
-**Sanskrit (IAST):**  
-*īśvarasya jñānināṃ ca pravṛtti-bhogādi-śravaṇād eva śuktirajatādi-vilakṣaṇa-vyāvahārikasattā kāryāṇām abhyupagamyate.*  
+**Sanskrit (IAST):** 
+*īśvarasya jñānināṃ ca pravṛtti-bhogādi-śravaṇād eva śuktirajatādi-vilakṣaṇa-vyāvahārikasattā kāryāṇām abhyupagamyate.* 
 *sadbhāva eṣo mate mayokto, jñānaṃ yathā satyam asatyam anyat.*
 
 **Close English:** “Precisely because scripture speaks of activity and enjoyment in the case of both God and knowers, one must admit for effects a practical reality different from shell-silver and the like. ‘This mode of being, I have declared, is in my view such: knowledge is true; what is other than that is not [true in the same way].’”
@@ -83,8 +91,8 @@ Principal syntactic frame: subject = implied *tāttvikāḥ*; verbs = *anubhavan
 
 **4. Locus:** 1.1, rejection of avidyā as world-cause or locus in the self (printed pp. 45-46).
 
-**Sanskrit (IAST):**  
-*tasmād vidyā-nivṛtti-jñānasya na puruṣagataṃ phalaṃ bhavati ... avidyāyāḥ puruṣaniṣṭhatvābhāvāc ca.*  
+**Sanskrit (IAST):** 
+*tasmād vidyā-nivṛtti-jñānasya na puruṣagataṃ phalaṃ bhavati ... avidyāyāḥ puruṣaniṣṭhatvābhāvāc ca.* 
 *kintu vidyākhyabuddhivṛtteḥ puruṣaniṣṭho 'nubhava eva phalam.*
 
 **Close English:** “Therefore the fruit of the knowledge that removes ignorance is not something located in the person ... because ignorance is not established in the person. Rather, the fruit is precisely the experience located in the person that belongs to the mental modification called knowledge.”
@@ -93,8 +101,8 @@ Principal syntactic frame: subject = implied *tāttvikāḥ*; verbs = *anubhavan
 
 **5. Locus:** 1.4, *prakṛtiś ca pratijñādṛṣṭāntānupapattāt* cluster (printed pp. 139-141).
 
-**Sanskrit (IAST):**  
-*māyāṃ tu prakṛtiṃ vidyān māyinaṃ tu maheśvaram.*  
+**Sanskrit (IAST):** 
+*māyāṃ tu prakṛtiṃ vidyān māyinaṃ tu maheśvaram.* 
 *prakṛtir nitya-śuddha-kevala-sattva-rūpeṇa nityajñānecchādimad-īśvaropādhiḥ.*
 
 **Close English:** “One should know māyā to be prakṛti, and the wielder of māyā to be the Great Lord. Prakṛti, in the form of eternal, pure, sheer sattva, is the upādhi of the Lord possessed of eternal knowledge and will.”
@@ -103,10 +111,10 @@ Principal syntactic frame: subject = implied *tāttvikāḥ*; verbs = *anubhavan
 
 **6. Locus:** 1.1 close, bhinnābhinna formulation (printed p. 85).
 
-**Sanskrit (IAST):**  
-*śakti-śaktimatoḥ bhedaṃ paśyanti paramārthataḥ,*  
-*abhedaṃ vānupaśyanti yoginas tattvacintakāḥ.*  
-*antaryāmī jagadrūpī sarvasākṣī nirañjanaḥ,*  
+**Sanskrit (IAST):** 
+*śakti-śaktimatoḥ bhedaṃ paśyanti paramārthataḥ,* 
+*abhedaṃ vānupaśyanti yoginas tattvacintakāḥ.* 
+*antaryāmī jagadrūpī sarvasākṣī nirañjanaḥ,* 
 *bhinnābhinnasvarūpeṇa sthito 'sau parameśvaraḥ.*
 
 **Close English:** “The yogins who reflect on reality see a difference between power and possessor of power in the ultimate sense, or else they see non-difference. The supreme Lord, inner controller, world-formed, witness of all, stainless, stands as one whose nature is both different and non-different.”
@@ -116,6 +124,8 @@ Principal syntactic frame: subject = implied *tāttvikāḥ*; verbs = *anubhavan
 ## 5. The text's relation to the position
 
 On the project’s polemical map, this text belongs much closer to the realism-recovery side than to the Vivaraṇa defense of Advaita. It is plainly anti-vivarta, anti-shell-silver world-denial, anti-pratibimba, and anti-avaccheda. It therefore sits naturally beside Bhāskara, Vallabha, and Nimbārka as a late witness that Brahma-Sūtra exegesis can be realist without surrendering non-dual language. It does **not** engage Madhva, Caitanya, Yāmuna, Rāmānuja, or Vedānta Deśika by name. The file’s *madhvādi-* occurrences belong to *madhu-vidyā*, not to Madhva.
+
+Cross-engagement: Anandabodha presses the same practice-path axis in the soteriological register, but with the value `knowledge-discipline` rather than `meditative-discipline` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 Whom does it refute? By name, mostly earlier sūtra-interpreters and school authorities in the standard Brahma-Sūtra economy: Jaimini, Bādari, Aśmarathya, Audulomi, Kapila, Gautama, and others. But the sharpest substantive enemy is the anonymous *ādhunika* pūrvapakṣin. From the recurrent targets, one can defensibly infer that this means late Advaitins working with avidyā, pratibimba, avaccheda, and vivarta frameworks. The constructive thesis is stable throughout: Brahman is supreme; prakṛti and puruṣa are real powers or dependents within Brahman’s order; the world has vyāvahārika reality not reducible to shell-silver error; and jīva-Brahman relation is bhinnābhinna rather than sheer identity or sheer exterior duality.
 
@@ -128,5 +138,7 @@ The text also resists the position in one further respect. Its soteriology culmi
 ## 6. What the user can productively take
 
 This text gives the position a strong primary-source witness for three claims that should be kept distinct: first, that anti-illusionist Vedānta is not a modern correction but a live Brahma-Sūtra exegetical option; second, that non-dual language can be retained without sacrificing real plurality; third, that prakṛti can be treated as a positive divine power rather than as a merely defective seeming.
+
+Cross-engagement: Alfred North Whitehead presses the same soteric end axis in the soteriological register, but with the value `not-soteriological` rather than `identity-with-ground` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
 
 It also imposes a burden. Any version of the position that wants to draw on Vivaraṇa-style avidyā must now answer Bhikṣu’s objections rather than simply absorb that line uncritically. The gain is worth it: the corpus now contains a late, philosophically self-conscious Vedāntin who says, in effect, that the world is neither independent of Brahman nor disposable as null appearance. That changes the balance of evidence inside the corpus.

@@ -2,7 +2,9 @@
   "id": "candrakirti",
   "name": "Candrakirti",
   "name_iast": "Candrakīrti",
-  "alternate_names": ["Zla-ba-grags-pa"],
+  "alternate_names": [
+    "Zla-ba-grags-pa"
+  ],
   "dates_low": 570,
   "dates_high": 650,
   "dates_tier": "consensus-textual",
@@ -11,7 +13,9 @@
   "school_color_token": "madhyamaka-comparator",
   "sub_school": "Prāsaṅgika",
   "sub_school_shade": 5,
-  "lineage_in": ["nagarjuna"],
+  "lineage_in": [
+    "nagarjuna"
+  ],
   "lineage_out": [],
   "lineage_polemical": [
     {
@@ -36,11 +40,16 @@
       "work_id": "prasanna-pada",
       "title": "Prasanna-Pada",
       "title_iast": "Prasanna-Padā",
-      "alternate_titles": ["Mūla-Madhyamaka-Vṛtti-Prasanna-Padā"],
+      "alternate_titles": [
+        "Mūla-Madhyamaka-Vṛtti-Prasanna-Padā"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored; survives complete in Sanskrit (the only complete Sanskrit Mādhyamaka commentary on the MMK).",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "MacDonald 2015; de la Vallée Poussin 1903–1913 critical edition."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "MacDonald 2015; de la Vallée Poussin 1903–1913 critical edition."
+        }
       ],
       "genre": "tika",
       "language": "sanskrit",
@@ -53,11 +62,17 @@
       "work_id": "madhyamakavatara",
       "title": "Madhyamakavatara",
       "title_iast": "Madhyamakāvatāra",
-      "alternate_titles": ["Mā", "Entrance to the Middle Way"],
+      "alternate_titles": [
+        "Mā",
+        "Entrance to the Middle Way"
+      ],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored; preserved in Sanskrit (chapter 6 fully) and complete in Tibetan, with Candrakīrti's own auto-commentary the Madhyamakāvatāra-Bhāṣya.",
       "ascription_evidence": [
-        {"kind": "scholarly-consensus", "description": "Tibetan tradition treats the text as foundational; Sanskrit chapter-six fragments confirm Candrakīrti's authorship."}
+        {
+          "kind": "scholarly-consensus",
+          "description": "Tibetan tradition treats the text as foundational; Sanskrit chapter-six fragments confirm Candrakīrti's authorship."
+        }
       ],
       "genre": "prakarana",
       "language": "sanskrit",
@@ -73,5 +88,99 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave-buddhist-comparators-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "causation_model",
+      "value": "dependent-co-arising",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/candrakirti.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "determination_operator",
+      "value": "dependent-co-arising",
+      "register": "logical-dialectical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/candrakirti.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "conventionally-real-without-own-being",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/candrakirti.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "meditative-discipline",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/candrakirti.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "selfhood_structure",
+      "value": "no-enduring-self",
+      "register": "phenomenological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/candrakirti.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "isolation-or-discriminative-release",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/candrakirti.json",
+          "field": "core_thesis"
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "suspended-or-refused",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/candrakirti.json",
+          "field": "core_thesis"
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }

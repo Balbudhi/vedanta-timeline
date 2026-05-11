@@ -226,5 +226,250 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "wave0-opus",
   "last_verified_at": "2026-05-10",
-  "last_verified_by": "wave-rigor-opus"
+  "last_verified_by": "wave-rigor-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "affective_motive_force",
+      "value": "aesthetic-rapture",
+      "register": "aesthetic",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/abhinavagupta.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://abhinavagupta/tantraloka/1.16",
+            "cite://utpaladeva/isvara-pratyabhijna-karika/1.1.1-5",
+            "cite://abhinavagupta/tantraloka/1",
+            "cite://abhinavagupta/tantraloka/1.1-50"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "determination_operator",
+      "value": "self-expression",
+      "register": "logical-dialectical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/abhinavagupta.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://abhinavagupta/tantraloka/1.16",
+            "cite://utpaladeva/isvara-pratyabhijna-karika/1.1.1-5",
+            "cite://abhinavagupta/tantraloka/1",
+            "cite://abhinavagupta/tantraloka/1.1-50"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "epistemic_authority",
+      "value": "scripture-plus-transformative-experience",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/abhinavagupta.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://abhinavagupta/tantraloka/1.16",
+            "cite://utpaladeva/isvara-pratyabhijna-karika/1.1.1-5",
+            "cite://abhinavagupta/tantraloka/1",
+            "cite://abhinavagupta/tantraloka/1.1-50"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "finite_cognition_model",
+      "value": "contraction-or-obscuration",
+      "register": "epistemological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/abhinavagupta.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://abhinavagupta/tantraloka/1.16",
+            "cite://utpaladeva/isvara-pratyabhijna-karika/1.1.1-5",
+            "cite://abhinavagupta/tantraloka/1",
+            "cite://abhinavagupta/tantraloka/1.1-50"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "identity_relation",
+      "value": "self-expression-or-appearance",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/abhinavagupta.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://abhinavagupta/tantraloka/1.16",
+            "cite://utpaladeva/isvara-pratyabhijna-karika/1.1.1-5",
+            "cite://abhinavagupta/tantraloka/1",
+            "cite://abhinavagupta/tantraloka/1.1-50"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "expressive-manifestation",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/abhinavagupta.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://abhinavagupta/tantraloka/1.16",
+            "cite://utpaladeva/isvara-pratyabhijna-karika/1.1.1-5",
+            "cite://abhinavagupta/tantraloka/1",
+            "cite://abhinavagupta/tantraloka/1.1-50"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "practice_path",
+      "value": "transformative-integration",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/abhinavagupta.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://abhinavagupta/tantraloka/1.16",
+            "cite://utpaladeva/isvara-pratyabhijna-karika/1.1.1-5",
+            "cite://abhinavagupta/tantraloka/1",
+            "cite://abhinavagupta/tantraloka/1.1-50"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "selfhood_structure",
+      "value": "relational-self",
+      "register": "phenomenological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/abhinavagupta.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://abhinavagupta/tantraloka/1.16",
+            "cite://utpaladeva/isvara-pratyabhijna-karika/1.1.1-5",
+            "cite://abhinavagupta/tantraloka/1",
+            "cite://abhinavagupta/tantraloka/1.1-50"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "semantic_mediation",
+      "value": "language-as-creative-manifestation",
+      "register": "semantic-linguistic",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/abhinavagupta.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://abhinavagupta/tantraloka/1.16",
+            "cite://utpaladeva/isvara-pratyabhijna-karika/1.1.1-5",
+            "cite://abhinavagupta/tantraloka/1",
+            "cite://abhinavagupta/tantraloka/1.1-50"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "recognition-or-freedom",
+      "register": "soteriological",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/abhinavagupta.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://abhinavagupta/tantraloka/1.16",
+            "cite://utpaladeva/isvara-pratyabhijna-karika/1.1.1-5",
+            "cite://abhinavagupta/tantraloka/1",
+            "cite://abhinavagupta/tantraloka/1.1-50"
+          ]
+        }
+      ]
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "one-self-standing",
+      "register": "metaphysical",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "kind": "thinker_json",
+          "ref": "data/thinkers/abhinavagupta.json",
+          "field": "core_thesis"
+        },
+        {
+          "kind": "primary",
+          "refs": [
+            "cite://abhinavagupta/tantraloka/1.16",
+            "cite://utpaladeva/isvara-pratyabhijna-karika/1.1.1-5",
+            "cite://abhinavagupta/tantraloka/1",
+            "cite://abhinavagupta/tantraloka/1.1-50"
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_engagements": []
 }
