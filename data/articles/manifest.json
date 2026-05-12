@@ -1084,6 +1084,40 @@
       "depth": "comprehensive",
       "word_count_approx": 13283,
       "date": "2026-05-12"
+    },
+    {
+      "id": "language-perspective-synthesis",
+      "slug": "language-perspective-synthesis",
+      "title": "Language, perspective, and the discipline of register — a cross-tradition synthesis",
+      "subtitle": "A keystone synthesis showing the structural convergence among the Indian vyākaraṇa and Mīmāṃsā traditions, Wittgenstein, the late-analytic accretion, late Plato, Saussure–Heidegger–Derrida, and Kṛṣṇacandra Bhattacharyya on the layered, use-bound, register-sensitive character of language; and articulating the operational discipline the convergence yields for the corpus's broader work.",
+      "kind": "essay",
+      "source_doc": "data/articles/source/language-perspective-synthesis.md",
+      "tags": [
+        "philosophy-of-language",
+        "vyākaraṇa",
+        "Patañjali",
+        "Bhartṛhari",
+        "Pāṇini",
+        "Yāska",
+        "Mīmāṃsā",
+        "Kumārila",
+        "Wittgenstein",
+        "Austin",
+        "Sellars",
+        "Plato",
+        "Cratylus",
+        "Saussure",
+        "Heidegger",
+        "Derrida",
+        "KCB",
+        "scope-register-methodology",
+        "anekānta",
+        "synthesis"
+      ],
+      "school": "synthesis_user_position",
+      "depth": "comprehensive_keystone",
+      "word_count_approx": 61893,
+      "date": "2026-05-12"
     }
   ]
 }
