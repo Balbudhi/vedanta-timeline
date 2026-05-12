@@ -13,7 +13,7 @@ coverage is determined entirely by the alias lists in
 - Files scanned: article=54, perspective=1, thinker=165, glossary=144
 - Surfaces with at least one auto-link: **336**
 - Distinct glossary keys hit: **144 / 144**
-- Total auto-link occurrences (will render as popovers): **26427**
+- Total auto-link occurrences (will render as popovers): **26511**
 
 ### Per-kind surface counts
 
@@ -25,15 +25,15 @@ coverage is determined entirely by the alias lists in
 ### Top 15 most-used glossary entries
 
 - `brahman` (brahman): 2961 occurrences
-- `sutra` (sūtra): 1804 occurrences
-- `bhasya` (bhāṣya): 1492 occurrences
+- `sutra` (sūtra): 1873 occurrences
+- `bhasya` (bhāṣya): 1496 occurrences
 - `jiva` (jīva): 1297 occurrences
 - `advaita` (advaita): 1188 occurrences
 - `bhakti` (bhakti): 765 occurrences
 - `avidya` (avidyā): 742 occurrences
 - `jnana` (jñāna): 590 occurrences
 - `karma` (karma): 497 occurrences
-- `sakti` (śakti): 493 occurrences
+- `sakti` (śakti): 494 occurrences
 - `maya` (māyā): 482 occurrences
 - `pramana` (pramāṇa): 476 occurrences
 - `purusa` (puruṣa): 460 occurrences
@@ -48,7 +48,7 @@ coverage is determined entirely by the alias lists in
 - Genuinely new candidates (≥2 occurrences) queued in `audit/glossary_terms_to_create.json`: **1508**
 - Low-priority diacritic singletons (deferred bucket): **1738**
 - Alias-augmentation proposals (inflected forms of existing entries): **19**
-- Capitalization gaps (sentence-start capitalized forms missing from alias lists): **10**
+- Capitalization gaps (sentence-start capitalized forms missing from alias lists): **1**
 - Work-title tokens skipped (belong to citation index, not glossary): **265**
 - Proper-name tokens skipped (already a thinker page): **21**
 - English-adjective tokens skipped: **12**

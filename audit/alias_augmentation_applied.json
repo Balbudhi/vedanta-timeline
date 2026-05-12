@@ -1,29 +1,9 @@
 {
   "applied": [
     {
-      "target": "sutra",
-      "variant": "sūtras",
-      "occurrences": 40
-    },
-    {
-      "target": "guna",
-      "variant": "guṇas",
-      "occurrences": 39
-    },
-    {
-      "target": "pramana",
-      "variant": "pramāṇas",
-      "occurrences": 25
-    },
-    {
       "target": "saksin",
       "variant": "sākṣi",
       "occurrences": 22
-    },
-    {
-      "target": "sadhana",
-      "variant": "sādhanā",
-      "occurrences": 17
     },
     {
       "target": "vivarta",
@@ -31,59 +11,9 @@
       "occurrences": 17
     },
     {
-      "target": "mahavakya",
-      "variant": "mahāvākyas",
-      "occurrences": 13
-    },
-    {
-      "target": "purusa",
-      "variant": "puruṣas",
-      "occurrences": 11
-    },
-    {
-      "target": "sakti",
-      "variant": "śaktis",
-      "occurrences": 11
-    },
-    {
-      "target": "anekanta-vada",
-      "variant": "anekānta-vāda",
-      "occurrences": 10
-    },
-    {
-      "target": "upaya",
-      "variant": "upāyas",
-      "occurrences": 10
-    },
-    {
-      "target": "bhasya",
-      "variant": "bhāṣyas",
-      "occurrences": 9
-    },
-    {
-      "target": "karana",
-      "variant": "kāraṇa",
-      "occurrences": 9
-    },
-    {
       "target": "upadhi",
       "variant": "upādhis",
       "occurrences": 9
-    },
-    {
-      "target": "laksana",
-      "variant": "lakṣaṇa",
-      "occurrences": 8
-    },
-    {
-      "target": "prakarana",
-      "variant": "prakaraṇas",
-      "occurrences": 7
-    },
-    {
-      "target": "anirvacaniya",
-      "variant": "anirvacanīyā",
-      "occurrences": 5
     },
     {
       "target": "anubhava",
@@ -96,166 +26,26 @@
       "occurrences": 2
     },
     {
-      "target": "anumana",
-      "variant": "anumānas",
-      "occurrences": 5
-    },
-    {
-      "target": "amsa",
-      "variant": "aṃśas",
-      "occurrences": 5
-    },
-    {
-      "target": "vyuha",
-      "variant": "vyūhas",
-      "occurrences": 5
-    },
-    {
-      "target": "jnana",
-      "variant": "jñānam",
-      "occurrences": 2
-    },
-    {
-      "target": "jnana",
-      "variant": "jñānas",
-      "occurrences": 2
-    },
-    {
-      "target": "jnana",
-      "variant": "jñanam",
-      "occurrences": 1
-    },
-    {
-      "target": "samanyalaksana",
-      "variant": "sāmānyalakṣaṇa",
-      "occurrences": 3
-    },
-    {
-      "target": "vidya",
-      "variant": "vidyās",
-      "occurrences": 3
-    },
-    {
-      "target": "varttika",
-      "variant": "vārttikas",
-      "occurrences": 3
-    },
-    {
-      "target": "kutastha",
-      "variant": "kūṭastha-caitanya",
-      "occurrences": 2
-    },
-    {
       "target": "prakrti",
       "variant": "prakṛtis",
       "occurrences": 2
     },
     {
-      "target": "tika",
-      "variant": "tīkā",
-      "occurrences": 2
-    },
-    {
-      "target": "jiva",
-      "variant": "jīvan",
-      "occurrences": 1
-    },
-    {
-      "target": "kartr",
-      "variant": "kartṛs",
-      "occurrences": 1
-    },
-    {
-      "target": "lila",
-      "variant": "līlās",
-      "occurrences": 1
-    },
-    {
-      "target": "nitya-samsari",
-      "variant": "nitya-saṃsārin",
-      "occurrences": 1
-    },
-    {
       "target": "paramarthika",
       "variant": "paramārthika",
-      "occurrences": 1
-    },
-    {
-      "target": "tatparya",
-      "variant": "tātparya-vṛtti",
-      "occurrences": 1
-    },
-    {
-      "target": "visesa",
-      "variant": "viśeṣas",
-      "occurrences": 1
-    },
-    {
-      "target": "abhasa",
-      "variant": "ābhāsas",
-      "occurrences": 1
-    },
-    {
-      "target": "siva",
-      "variant": "śivam",
-      "occurrences": 1
-    },
-    {
-      "target": "sruti",
-      "variant": "śrutis",
       "occurrences": 1
     }
   ],
   "capitalization_applied": [
-    {
-      "target": "saccidananda",
-      "variant": "Saccidānanda",
-      "occurrences": 40
-    },
-    {
-      "target": "dvaita",
-      "variant": "Tattvavāda",
-      "occurrences": 8
-    },
-    {
-      "target": "purusa",
-      "variant": "Puruṣottama",
-      "occurrences": 5
-    },
-    {
-      "target": "acintya",
-      "variant": "Acintya-bhedābheda",
-      "occurrences": 4
-    },
-    {
-      "target": "ishta-devata",
-      "variant": "Iṣṭa-devatā",
-      "occurrences": 4
-    },
-    {
-      "target": "niskama-karma",
-      "variant": "Niṣkāma-karma",
-      "occurrences": 4
-    },
     {
       "target": "vivarta",
       "variant": "Vivartavāda",
       "occurrences": 3
     },
     {
-      "target": "jivanmukta",
-      "variant": "Jīvanmukti",
-      "occurrences": 3
-    },
-    {
-      "target": "jiva",
-      "variant": "Jīvas",
-      "occurrences": 3
-    },
-    {
-      "target": "ekayana",
-      "variant": "Eka-yāna",
-      "occurrences": 3
+      "target": "sadhana",
+      "variant": "Sādhanā",
+      "occurrences": 2
     },
     {
       "target": "parinama",
@@ -263,128 +53,47 @@
       "occurrences": 2
     },
     {
-      "target": "panca-bheda",
-      "variant": "Pañcabheda",
+      "target": "tika",
+      "variant": "Tīkā",
       "occurrences": 2
     },
     {
-      "target": "aprthak-siddhi",
-      "variant": "Aprthak-siddhi",
+      "target": "sutra",
+      "variant": "Sūtras",
       "occurrences": 2
     },
     {
-      "target": "niskama-karma",
-      "variant": "Niṣkāma",
-      "occurrences": 2
-    },
-    {
-      "target": "samvrti-satya",
-      "variant": "Saṃvṛti-satya",
-      "occurrences": 2
-    },
-    {
-      "target": "paratantra",
-      "variant": "Paratantra-tattva",
-      "occurrences": 2
-    },
-    {
-      "target": "mithya",
-      "variant": "Mithyātva",
-      "occurrences": 2
-    },
-    {
-      "target": "pramana-dvaya",
-      "variant": "Pramāṇa-dvaya",
-      "occurrences": 2
-    },
-    {
-      "target": "pratitya-samutpada",
-      "variant": "Pratītya-samutpāda",
-      "occurrences": 2
-    },
-    {
-      "target": "shuddha-sattva",
-      "variant": "Śuddha-sattva",
-      "occurrences": 2
-    },
-    {
-      "target": "maya",
-      "variant": "Maya",
+      "target": "sakti",
+      "variant": "Śaktis",
       "occurrences": 1
     },
     {
-      "target": "aprthak-siddhi",
-      "variant": "Apṛthak-siddha",
+      "target": "bhasya",
+      "variant": "Bhāṣyas",
       "occurrences": 1
     },
     {
-      "target": "vidya",
-      "variant": "Brahmavidyā",
+      "target": "varttika",
+      "variant": "Vārttikas",
       "occurrences": 1
     },
     {
-      "target": "syad-vada",
-      "variant": "Syādvāda",
+      "target": "anekanta-vada",
+      "variant": "Anekānta-vāda",
       "occurrences": 1
     },
     {
-      "target": "visesa",
-      "variant": "Saviśeṣa",
+      "target": "kutastha",
+      "variant": "Kūṭastha-caitanya",
       "occurrences": 1
     },
     {
-      "target": "svatantra",
-      "variant": "Svatantra-tattva",
-      "occurrences": 1
-    },
-    {
-      "target": "abhasa",
-      "variant": "Ābhāsa-vāda",
-      "occurrences": 1
-    },
-    {
-      "target": "akhandakara-vrtti",
-      "variant": "Akhaṇḍākāra-vṛtti",
-      "occurrences": 1
-    },
-    {
-      "target": "dharmabhuta-jnana",
-      "variant": "Dharmabhūta-jñāna",
-      "occurrences": 1
-    },
-    {
-      "target": "kartr",
-      "variant": "Kartṛtva",
-      "occurrences": 1
-    },
-    {
-      "target": "paramartha-satya",
-      "variant": "Paramārtha-satya",
-      "occurrences": 1
-    },
-    {
-      "target": "samanyalaksana",
-      "variant": "Sāmānya-lakṣaṇa",
-      "occurrences": 1
-    },
-    {
-      "target": "samvrti-satya",
-      "variant": "Saṃvṛti",
-      "occurrences": 1
-    },
-    {
-      "target": "vijnapti-matrata",
-      "variant": "Vijñapti-mātratā",
+      "target": "mahavakya",
+      "variant": "Mahāvākyas",
       "occurrences": 1
     }
   ],
   "skipped_for_review": [
-    {
-      "variant": "kalyāṇa-guṇas",
-      "target": "guna",
-      "reason": "stem mismatch — needs editorial review",
-      "occurrences": 7
-    },
     {
       "variant": "ājñāna",
       "target": "avidya",
@@ -406,6 +115,12 @@
     {
       "variant": "dharma-bhūta-jñāna",
       "target": "dharmabhuta-jnana",
+      "reason": "stem mismatch — needs editorial review",
+      "occurrences": 7
+    },
+    {
+      "variant": "kalyāṇa-guṇas",
+      "target": "guna",
       "reason": "stem mismatch — needs editorial review",
       "occurrences": 7
     },
@@ -458,5 +173,5 @@
       "occurrences": 1
     }
   ],
-  "files_changed": 72
+  "files_changed": 17
 }

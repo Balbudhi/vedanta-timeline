@@ -11246,7 +11246,7 @@
         },
         {
           "file": "data/thinkers/bhaskara.json",
-          "snippet": "dvaitin's deviation from the *sūtras*' realist construal of *Brahma-pariṇāma* ([BSB 1.1.2; 2.1.14](cite://sankara/brahma-sutra-bhasya/1.1"
+          "snippet": "dvaitin's deviation from the *sūtras*' realist construal of *Brahma-pariṇāma* ([BSB 1.1.2; 2.1.14](cite://bhaskara/brahma-sutra-bhasya/1."
         }
       ],
       "note": "Italicized Sanskrit token not matched by any current glossary alias and not a known work-title or inflected variant. Verify it is a real Sanskrit technical term and pick a canonical IAST spelling before authoring an entry. Do not invent a gloss."
@@ -21142,7 +21142,7 @@
       "sample_contexts": [
         {
           "file": "data/thinkers/bhaskara.json",
-          "snippet": "2.3.43](cite://sankara/brahma-sutra-bhasya/2.3.43), on the *jīvāṃśa* sūtra). Drop the *upādhi* and the difference goes with it."
+          "snippet": "2.3.43](cite://bhaskara/brahma-sutra-bhasya/2.3.43), on the *jīvāṃśa* sūtra). Drop the *upādhi* and the difference goes with it."
         },
         {
           "file": "data/thinkers/sudarsana.json",
@@ -47115,51 +47115,6 @@
       "capitalized_token": "Sākṣi",
       "existing_key": "saksin",
       "occurrences": 3
-    },
-    {
-      "capitalized_token": "Sādhanā",
-      "existing_key": "sadhana",
-      "occurrences": 2
-    },
-    {
-      "capitalized_token": "Tīkā",
-      "existing_key": "tika",
-      "occurrences": 2
-    },
-    {
-      "capitalized_token": "Sūtras",
-      "existing_key": "sutra",
-      "occurrences": 2
-    },
-    {
-      "capitalized_token": "Śaktis",
-      "existing_key": "sakti",
-      "occurrences": 1
-    },
-    {
-      "capitalized_token": "Bhāṣyas",
-      "existing_key": "bhasya",
-      "occurrences": 1
-    },
-    {
-      "capitalized_token": "Vārttikas",
-      "existing_key": "varttika",
-      "occurrences": 1
-    },
-    {
-      "capitalized_token": "Anekānta-vāda",
-      "existing_key": "anekanta-vada",
-      "occurrences": 1
-    },
-    {
-      "capitalized_token": "Kūṭastha-caitanya",
-      "existing_key": "kutastha",
-      "occurrences": 1
-    },
-    {
-      "capitalized_token": "Mahāvākyas",
-      "existing_key": "mahavakya",
-      "occurrences": 1
     }
   ],
   "capitalization_gaps_note": "Italicized terms appearing in capitalized form (typically at sentence-start) whose lowercase form matches an existing alias. The runtime regex is case-sensitive (mirrors app.js), so these fail to auto-link silently. Fix by adding the capitalized form to the entry's `aliases` list."
