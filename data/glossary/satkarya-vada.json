@@ -13,6 +13,11 @@
   "last_verified_at": "2026-05-10",
   "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "*Satkārya-vāda* is the thesis that the effect does not come from sheer non-being but pre-exists in its cause in some determinable way. The classical opponent is Nyāya-Vaiśeṣika *ārambha-vāda* or *asatkārya-vāda*, according to which production is the genuine beginning of a previously non-existent effect. Sāṅkhya makes the foundational argument: what is wholly absent cannot be produced; production is manifestation, differentiation, or transformation of what was already causally present. Vedāntins broadly inherit that anti-ex-nihilo commitment, but they disagree sharply over how the effect pre-exists. For some the cause really transforms into its effect; for Advaita the effect is only an apparent manifestation on an unchanged substrate; for Vallabha the manifestation is real without entailing corruption of the cause. The doctrine is therefore not one single theory but the causal battlefield on which *pariṇāma*, *vivarta*, and *avikṛta-pariṇāma* are distinguished.",
+  "school_framing": {
+    "framing_status": "real_disagreement",
+    "shared_core": "*Satkārya-vāda* names **the thesis that the effect pre-exists in its material cause prior to manifestation** (*Sāṃkhya-Kārikā* 9). Sāṃkhya and Vedāntic schools that accept it (Viśiṣṭādvaita, Tattva-vāda's mode of it, Vallabha, Nimbārka) share the structural claim. Nyāya-Vaiśeṣika defends *asatkārya-vāda*: the effect is a genuinely new substance produced by inherence in a novel substrate.",
+    "register_axes_note": "Same M+LD register, same scope-inside ('effect-cause modal structure'), opposing claims (AF1). Advaita's *vivarta-vāda* is **a different concept** built on *satkārya* as starting point but adding *anirvacanīya* sublatability — methodology §4."
+  },
   "per_school": [
     {
       "school": "Advaita",

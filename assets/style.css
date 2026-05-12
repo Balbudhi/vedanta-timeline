@@ -1367,6 +1367,32 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
 }
 .glossary-popover .gp-invariant { margin-bottom: 12px; }
 .glossary-popover .gp-perschool { border-top: 1px solid var(--rule); padding-top: 10px; }
+.glossary-popover .gp-framing {
+  margin: 6px 0 12px 0;
+  padding: 8px 10px;
+  background: #f3f6fb;
+  border-left: 3px solid #4a6fa5;
+  border-radius: 3px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.glossary-popover .gp-framing-status {
+  font-weight: 600;
+  color: #2b3e5a;
+  margin-bottom: 4px;
+}
+.glossary-popover .gp-shared-core { color: #1f2937; }
+.glossary-popover .gp-axes { margin-top: 4px; color: #4b5563; font-style: italic; }
+.glossary-popover .gp-regtag {
+  display: inline-block;
+  font-size: 11px;
+  color: #4b5563;
+  background: #eef2f7;
+  padding: 1px 6px;
+  border-radius: 9px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
 .glossary-popover .gp-translator {
   margin-top: 14px;
   border-top: 1px solid var(--rule);

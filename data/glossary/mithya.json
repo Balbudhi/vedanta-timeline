@@ -11,6 +11,11 @@
     "mithyātvam"
   ],
   "invariant_definition": "There is no shared invariant; the term marks a fault-line. In Advaita technical usage, *mithyā* names a third ontological status: neither *sat* like *brahman* nor *asat* like the hare's horn, but *anirvacanīya*, dependent on an *adhiṣṭhāna*, and subject to sublation by a stronger cognition. The stock examples are shell-silver, rope-snake, and dream objects, and the world is said to be *mithyā* in that technical sense, not in the sense of sheer nullity. That point matters because critics regularly hear 'world is *mithyā*' as 'world is unreal' or 'non-existent', which is exactly what Advaita denies. Non-Advaita schools either reject the category as incoherent or restrict falsity to error without elevating it into a third mode of being. The indispensable constraint is therefore simple: *mithyā* must not be collapsed into *asat*, and Advaita's deployment of the term must not be misread as nihilism or world-denial.",
+  "school_framing": {
+    "framing_status": "real_disagreement",
+    "shared_core": "*Mithyā* names **that which is neither absolutely real (*sat*) nor absolutely unreal (*asat*) — i.e., *sad-asad-anirvacanīya***. Advaita and its commentarial tradition develop this third category (BSB 2.1.14; *Iṣṭa-Siddhi*; *Advaita-Siddhi*). Other schools refuse the third category: Madhva argues that *mithyā* must reduce either to *sat* or to *asat* (*Mithyātvānumāna-Khaṇḍana*); Viśiṣṭādvaita and Śuddhādvaita read *jagat-mithyātva* language as figurative.",
+    "register_axes_note": "Methodology Case 6: real disagreement (AF1) on whether *mithyā* is a coherent third category. The Advaita-Mādhyamaka apparent affinity is partial — Mādhyamaka's *śūnyatā* is not Advaita's *anirvacanīya*. Pedagogically, *mithyā* in Śaṅkara is addressed to the *mumukṣu* under *adhyāsa* (P+S+M); it does not deny the world's *vyāvahārika* operativity."
+  },
   "per_school": [
     {
       "school": "Advaita",

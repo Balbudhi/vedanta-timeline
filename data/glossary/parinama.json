@@ -3,42 +3,79 @@
   "term_iast": "pariṇāma",
   "term_devanagari": "परिणाम",
   "literal": "transformation, real change into a new state; from pari- + √nam 'to bend, turn'",
-  "aliases": ["parinama", "pariṇāma", "Pariṇāma", "pariṇāmaḥ", "parinama-vada", "pariṇāma-vāda"],
+  "aliases": [
+    "parinama",
+    "pariṇāma",
+    "Pariṇāma",
+    "pariṇāmaḥ",
+    "parinama-vada",
+    "pariṇāma-vāda"
+  ],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
   "invariant_definition": "*Pariṇāma* is real transformation: the cause does not merely appear otherwise but genuinely unfolds into effect. It is the standard way of spelling out *satkārya-vāda* when pre-existence is taken to mean real emergence from a materially continuous cause. Sāṅkhya supplies the canonical model in the evolution of *prakṛti* through its successive tattvas. Vedāntic realists then ask what exactly changes: *brahman* itself, its modes, or only dependent *prakṛti*. Bhāskara allows stronger transformation language about *brahman* than Rāmānuja or Madhva, who preserve divine immutability by locating transformation in the Lord's body or in dependent matter. Advaita rejects *pariṇāma* at the ultimate level because a partless and immutable *brahman* cannot literally transform; Vallabha qualifies the whole debate with *avikṛta-pariṇāma*. The term is therefore not generic 'change' but a technical marker in Indian causal metaphysics.",
+  "school_framing": {
+    "framing_status": "real_disagreement",
+    "shared_core": "*Pariṇāma* names **real transformation: the cause undergoes actual modification to produce the effect** (*Sāṃkhya-Kārikā* 16–22; YS 3.13). Sāṃkhya, Yoga, Viśiṣṭādvaita, Tattva-vāda, Bhāskara, Nimbārka, and Vallabha (under *avikṛta-pariṇāma*) all accept *pariṇāma*-vāda in some form. Advaita defends *vivarta-vāda* against it: the cause undergoes only apparent, not real, modification.",
+    "register_axes_note": "Real disagreement (AF1) on whether *brahman*/*prakṛti* really transforms. Same M-register, same scope-inside, opposing claims. Vallabha's *avikṛta-pariṇāma* is a third position that preserves *pariṇāma* while denying that *brahman* is altered (*Aṇu-Bhāṣya* 1.4.26; methodology Case 1)."
+  },
   "per_school": [
     {
       "school": "Sāṅkhya",
       "definition": "*Pariṇāma* is the real unfolding of *prakṛti* into the manifest cosmos. Cause and effect are materially continuous, and each stage of manifestation is a genuine transformation of what was previously subtle. The doctrine explains cosmology without appeal to creation from nothing.",
-      "primary_loci": ["Sāṅkhya-Kārikā 3", "Sāṅkhya-Kārikā 9-11", "Sāṅkhya-Kārikā 22"]
+      "primary_loci": [
+        "Sāṅkhya-Kārikā 3",
+        "Sāṅkhya-Kārikā 9-11",
+        "Sāṅkhya-Kārikā 22"
+      ]
     },
     {
       "school": "Bhedābheda (Bhāskara)",
       "definition": "Bhāskara adopts *pariṇāma* in a strong sense: the world is a real transformation of *brahman*, not a merely apparent projection. Difference from the cause is real at the level of manifested state, but that difference does not sever continuity with the causal *brahman* from which the world emerges.",
-      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 2.1.14"]
+      "primary_loci": [
+        "Bhāskara, Brahma-Sūtra-Bhāṣya 2.1.14"
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
       "definition": "*Pariṇāma* is real transformation of subtle *cit* and *acit* modes into the manifest world while the Lord remains their inner controller. Rāmānuja avoids saying that the essential nature of *brahman* is corrupted; the change belongs to the body of God, not to a diminution of God's intrinsic perfection.",
-      "primary_loci": ["Śrī-Bhāṣya 2.1.14-20", "Śrī-Bhāṣya 1.4.23", "Vedārtha-Saṅgraha §§91-95"]
+      "primary_loci": [
+        "Śrī-Bhāṣya 2.1.14-20",
+        "Śrī-Bhāṣya 1.4.23",
+        "Vedārtha-Saṅgraha §§91-95"
+      ]
     },
     {
       "school": "Tattva-vāda",
       "definition": "*Pariṇāma* is real transformation of dependent *prakṛti* under Viṣṇu's efficient causality. Madhva preserves strong realism about production while refusing any suggestion that Viṣṇu himself undergoes modification. The change is therefore real, but it belongs to dependent matter rather than to the independent Lord.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 2.1 [NOT YET RETRIEVED]", "Anu-Vyākhyāna 2.1 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya (Madhva) 2.1 [NOT YET RETRIEVED]",
+        "Anu-Vyākhyāna 2.1 [NOT YET RETRIEVED]"
+      ]
     },
     {
       "school": "Advaita",
       "definition": "Advaita rejects *pariṇāma* as the final account of world-appearance. If the cause really changed, *brahman* would become mutable, divisible, and therefore non-absolute. What appears as transformation is instead *vivarta*: empirically operative appearance on an unchanged substrate.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.1.14", "Chāndogya-Upaniṣad-Bhāṣya 6.1.4-6"]
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 2.1.14",
+        "Chāndogya-Upaniṣad-Bhāṣya 6.1.4-6"
+      ]
     },
     {
       "school": "Śuddhādvaita (Vallabha)",
       "definition": "Vallabha accepts real manifestation but thinks ordinary *pariṇāma* suggests damaging alteration in the cause. He therefore reformulates the position as *avikṛta-pariṇāma*: the world is a real manifestation of *brahman* without loss, depletion, or corruption of divine fullness.",
-      "primary_loci": ["Aṇu-Bhāṣya 1.1.2", "Tattvārtha-Dīpa-Nibandha, Śāstrārtha-Prakaraṇa [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Aṇu-Bhāṣya 1.1.2",
+        "Tattvārtha-Dīpa-Nibandha, Śāstrārtha-Prakaraṇa [NOT YET RETRIEVED]"
+      ]
     }
   ],
-  "see_also": ["satkarya-vada", "vivarta", "avikrta-parinama", "prakrti", "brahman"],
+  "see_also": [
+    "satkarya-vada",
+    "vivarta",
+    "avikrta-parinama",
+    "prakrti",
+    "brahman"
+  ],
   "translator_note": "Avoid the bland gloss 'change.' In this literature *pariṇāma* is not any alteration whatsoever but real transformation that settles how cause and effect are related. Translating it loosely erases the contrast with *vivarta* and the causal work the term is doing. The most damaging mistranslation is to read *pariṇāma-vāda* as 'evolution' in the post-Darwinian sense — *pariṇāma* is the technical *satkārya* mechanism (the effect pre-exists in the cause and is unfolded), not biological speciation under selection. Yoga-Sūtra 3.13ff also uses *pariṇāma* in a precise sense (*dharma-pariṇāma*, *lakṣaṇa-pariṇāma*, *avasthā-pariṇāma*) — the threefold transformation of phenomena — which the modern 'evolution' gloss obscures entirely."
 }

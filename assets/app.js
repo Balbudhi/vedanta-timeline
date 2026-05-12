@@ -2539,7 +2539,10 @@ function openGlossary(termKey, anchorEl) {
   const perSchool = (entry.per_school || []).map((s) => {
     const r = numberCitations(md(s.definition), popCtr);
     allFootnotes.push(...r.footnotes);
-    return `<div class="gp-row"><span class="gp-school">${escape(s.school)}</span><span class="gp-def">${r.html}</span></div>`;
+    const tag = s.register_tag
+      ? `<span class="gp-regtag" title="register tuple">${escape(s.register_tag)}</span>`
+      : "";
+    return `<div class="gp-row"><span class="gp-school">${escape(s.school)}</span><span class="gp-def">${tag}${r.html}</span></div>`;
   }).join("");
   const translatorR = entry.translator_note
     ? numberCitations(md(entry.translator_note), popCtr)
@@ -2548,13 +2551,35 @@ function openGlossary(termKey, anchorEl) {
   const translatorNote = entry.translator_note
     ? `<div class="gp-translator"><span class="gp-label">Translator note</span><div>${translatorR.html}</div></div>`
     : "";
+  const framing = entry.school_framing;
+  const framingLabel = (() => {
+    if (!framing || !framing.framing_status) return "";
+    switch (framing.framing_status) {
+      case "same_concept_different_aspect": return "Same concept, different aspect";
+      case "real_disagreement":              return "Same concept, real disagreement";
+      case "different_concepts":             return "Different concepts (homonymy)";
+      case "mixed":                          return "Mixed — same concept where noted; real disagreement where noted";
+      default: return escape(framing.framing_status);
+    }
+  })();
+  // Framing blocks are methodological prose; we route them through md() only,
+  // not numberCitations, since the inline references are short locus mentions
+  // (e.g. *Anuvyākhyāna* 2.3.66–69) rather than `cite://` anchors that need
+  // footnote numbering.
+  const framingBlock = framing
+    ? `<div class="gp-framing"><span class="gp-label">School framing</span>
+         <div class="gp-framing-status">${framingLabel}</div>
+         ${framing.shared_core ? `<div class="gp-shared-core">${md(framing.shared_core)}</div>` : ""}
+         ${framing.register_axes_note ? `<div class="gp-axes">${md(framing.register_axes_note)}</div>` : ""}
+       </div>`
+    : "";
   const footnoteList = renderFootnoteList(allFootnotes);
   pop.innerHTML = `
     <button class="gp-close" aria-label="Close" data-no-drag type="button">×</button>
     <div class="gp-term">${escape(entry.term_iast || termKey)}</div>
     ${entry.literal ? `<div class="gp-literal">Literally: <em>${escape(entry.literal)}</em></div>` : ""}
     <div class="gp-invariant"><span class="gp-label">${entry.invariant_definition && entry.invariant_definition.toLowerCase().includes("no shared invariant") ? "No invariant" : "Invariant"}</span><div>${invariantR.html}</div></div>
-    ${perSchool ? `<div class="gp-perschool"><span class="gp-label">By school</span>${perSchool}</div>` : ""}
+    ${perSchool ? `<div class="gp-perschool"><span class="gp-label">By school</span>${framingBlock}${perSchool}</div>` : ""}
     ${translatorNote}
     ${footnoteList}
   `;
