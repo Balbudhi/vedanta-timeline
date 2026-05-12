@@ -3,7 +3,15 @@
   "term_iast": "vivarta",
   "term_devanagari": "विवर्त",
   "literal": "apparent transformation, seeming alteration; from vi- + √vṛt 'to turn'",
-  "aliases": ["vivarta", "Vivarta", "vivartaḥ", "vivarta-vada", "vivartavāda"],
+  "aliases": [
+    "vivarta",
+    "Vivarta",
+    "vivartaḥ",
+    "vivarta-vada",
+    "vivartavāda",
+    "vivarta-vāda",
+    "Vivartavāda"
+  ],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
   "invariant_definition": "*Vivarta* is apparent transformation: what seems to change is only the appearance under superimposition, while the underlying *adhiṣṭhāna* remains untouched. The term belongs especially to later Advaita's explanation of the relation between *brahman* and world. It does not mean that the world is sheer non-being; the appearance is empirically operative and therefore not collapsible into *asat*. Rather, the point is that the world is *mithyā* - dependent, experienceable, and ultimately sublatable - while *brahman* does not undergo real modification. The standard analogies are rope-snake, shell-silver, and crystal-redness. Rival Vedāntic schools object that this account evacuates real causation and real difference. The dispute with *pariṇāma* and *avikṛta-pariṇāma* is therefore the core post-Śaṅkara argument about how the world can depend on the absolute without compromising it.",
@@ -11,29 +19,52 @@
     {
       "school": "Advaita",
       "definition": "*Vivarta* explains how the one *brahman* can appear as a world of plurality without undergoing real change. The relation is mediated by *adhyāsa*, *māyā*, and *anirvacanīyatva*: the effect is a sublatable appearance on a real substrate, not a new substance and not sheer nothingness. This is the standard Advaita alternative to *pariṇāma-vāda*.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.1.14", "Pañcadaśī 6.130-145", "Vivekacūḍāmaṇi 108-110"]
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 2.1.14",
+        "Pañcadaśī 6.130-145",
+        "Vivekacūḍāmaṇi 108-110"
+      ]
     },
     {
       "school": "Bhedābheda (Bhāskara)",
       "definition": "Bhāskara rejects *vivarta* because it makes worldhood only apparent and thereby weakens both scripture and ordinary causation. For him the effect must be a real transformation of the cause; anything less reduces cosmology to explanatory make-believe.",
-      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 2.1.14"]
+      "primary_loci": [
+        "Bhāskara, Brahma-Sūtra-Bhāṣya 2.1.14"
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
       "definition": "Rāmānuja rejects *vivarta* because it fails to honor the reality of the world disclosed by scripture and experience. The effect is real manifestation of the Lord's body, not merely apparent worldhood superimposed on an unchanged substrate. This rejection is part of the larger attack on *anirvacanīya* *māyā*.",
-      "primary_loci": ["Śrī-Bhāṣya 2.1.14-20", "Vedārtha-Saṅgraha §§14-35"]
+      "primary_loci": [
+        "Śrī-Bhāṣya 2.1.14-20",
+        "Vedārtha-Saṅgraha §§14-35"
+      ]
     },
     {
       "school": "Tattva-vāda",
       "definition": "Tattva-vāda (the school often labeled Dvaita) rejects *vivarta* as incompatible with robust realism about difference, agency, and divine governance. If the world were only apparent transformation, merit, demerit, bondage, and liberation would all lose their ontological footing. Madhva and his successors therefore attack the doctrine as a failure of causal explanation, not merely as a linguistic error.",
-      "primary_loci": ["Madhva, Māyāvāda-Khaṇḍana [NOT YET RETRIEVED]", "Vyāsatīrtha, Nyāyāmṛta, māyā-bhaṅga section [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Madhva, Māyāvāda-Khaṇḍana [NOT YET RETRIEVED]",
+        "Vyāsatīrtha, Nyāyāmṛta, māyā-bhaṅga section [NOT YET RETRIEVED]"
+      ]
     },
     {
       "school": "Śuddhādvaita (Vallabha)",
       "definition": "Vallabha rejects *vivarta* because it makes the world less than fully real. He agrees that divine fullness cannot be damaged by production, but he secures that point by *avikṛta-pariṇāma*, not by denying real manifestation. The world is therefore a genuine expression of *brahman*, not a merely apparent one.",
-      "primary_loci": ["Aṇu-Bhāṣya 1.1.2", "Tattvārtha-Dīpa-Nibandha, Śāstrārtha-Prakaraṇa [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Aṇu-Bhāṣya 1.1.2",
+        "Tattvārtha-Dīpa-Nibandha, Śāstrārtha-Prakaraṇa [NOT YET RETRIEVED]"
+      ]
     }
   ],
-  "see_also": ["parinama", "avikrta-parinama", "satkarya-vada", "adhyasa", "maya", "mithya", "anirvacaniya"],
+  "see_also": [
+    "parinama",
+    "avikrta-parinama",
+    "satkarya-vada",
+    "adhyasa",
+    "maya",
+    "mithya",
+    "anirvacaniya"
+  ],
   "translator_note": "Avoid translating *vivarta* as simply 'illusion' or 'mere appearance.' Those glosses import modern subjectivist baggage and often collapse *mithyā* into *asat*, which Advaita does not do. The term marks sublatable appearance on a real substrate, not non-being. The most damaging mistranslation is to render *vivarta-vāda* as 'world-denial' or 'acosmism' — Advaita explicitly insists that the world is *vyāvahārika-sat*, transactionally real and not *asat*. The doctrine concerns the metaphysical relation between *brahman* and world (no real modification of the cause), not the experiential or moral status of the world. Treating Advaita as world-denying is precisely the misreading the user's project most strongly rejects."
 }

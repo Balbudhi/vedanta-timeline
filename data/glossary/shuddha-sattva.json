@@ -3,26 +3,48 @@
   "term_iast": "śuddha-sattva",
   "term_devanagari": "शुद्धसत्त्व",
   "literal": "pure sattva; śuddha (pure) + sattva (lucid constituent, being)",
-  "aliases": ["shuddha-sattva", "śuddha-sattva", "śuddhasattva", "śuddha-sattva-vigraha"],
+  "aliases": [
+    "shuddha-sattva",
+    "śuddha-sattva",
+    "śuddhasattva",
+    "śuddha-sattva-vigraha",
+    "Śuddha-sattva"
+  ],
   "invariant_definition": "*Śuddha-sattva* is the pure, non-karmic luminous substrate invoked in Pāñcarātra and Śrīvaiṣṇava theology to explain divine embodiment, Vaikuṇṭha, and the reality of sacred form. It is defined over against the mixed constituents of ordinary *prakṛti*, especially *rajas* and *tamas*, and often also over against the conditioned *miśra-sattva* of worldly embodiment. The term therefore presupposes the wider *guṇa* framework while marking a register not exhausted by empirical matter. Its main work is to block two reductions at once: the reduction of divine form to ordinary material composition, and the reduction of divine embodiment to symbol or pedagogical fiction. If the Lord's form, the *vyūhas*, the *arcā*, and the supreme abode are real, yet not made of karmically bound material nature, *śuddha-sattva* supplies the ontological middle term. The concept is thus both metaphysical and liturgical.",
   "per_school": [
     {
       "school": "Pāñcarātra",
       "definition": "In the Saṃhitā literature, *śuddha-sattva* is the aprākṛta medium of divine manifestation. The *vyūha* forms, *vibhava* descents, and divine abodes are real and embodied, yet not products of ordinary material causation. The category therefore supports temple theology, mantra practice, and iconography by explaining how the divine can become present in determinate form without becoming bound by *prakṛti*. It is one of the key ontological devices by which Pāñcarātra distinguishes sacred embodiment from mundane embodiment.",
-      "primary_loci": ["Lakṣmī-Tantra 6 [NOT YET RETRIEVED]", "Ahirbudhnya-Saṃhitā 5-6 [NOT YET RETRIEVED]", "Sātvata-Saṃhitā [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Lakṣmī-Tantra 6 [NOT YET RETRIEVED]",
+        "Ahirbudhnya-Saṃhitā 5-6 [NOT YET RETRIEVED]",
+        "Sātvata-Saṃhitā [NOT YET RETRIEVED]"
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
       "definition": "Śrīvaiṣṇava authors inherit the Pāñcarātra doctrine and use it to underwrite the reality of the Lord's *divya-maṅgala-vigraha*, the bodies of liberated beings, and the status of the consecrated *arcā*. The point is not that the image merely points to Nārāyaṇa, but that the Lord is truly present in a mode of embodiment not reducible to worldly matter. The category also helps differentiate Vaikuṇṭha from the realm of karmically conditioned nature without making it formless or merely conceptual.",
-      "primary_loci": ["Yāmuna, Āgama-Prāmāṇya [NOT YET RETRIEVED]", "Śrī-Bhāṣya 2.2.42-45", "Vedārtha-Saṅgraha 126-136 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Yāmuna, Āgama-Prāmāṇya [NOT YET RETRIEVED]",
+        "Śrī-Bhāṣya 2.2.42-45",
+        "Vedārtha-Saṅgraha 126-136 [NOT YET RETRIEVED]"
+      ]
     },
     {
       "school": "Acintya-Bhedābheda",
       "definition": "Gauḍīya authors redeploy the term in devotional-aesthetic contexts as well. Rūpa Gosvāmī's famous definition of *bhāva* describes it as *śuddha-sattva-viśeṣātmā*, indicating that advanced devotion is constituted by a pure luminosity issuing from the Lord's own internal power rather than by ordinary mental emotion. Here the term does not primarily name cosmic stuff, but it still marks a non-empirical devotional ontology beyond the mixed *guṇa*s of *prakṛti*.",
-      "primary_loci": ["Bhakti-Rasāmṛta-Sindhu 1.3.1", "Bhakti-Sandarbha [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Bhakti-Rasāmṛta-Sindhu 1.3.1",
+        "Bhakti-Sandarbha [NOT YET RETRIEVED]"
+      ]
     }
   ],
-  "see_also": ["vyuha", "sattva", "saguna", "amsa"],
+  "see_also": [
+    "vyuha",
+    "sattva",
+    "saguna",
+    "amsa"
+  ],
   "translator_note": "Glosses such as 'pure being' or 'spiritual substance' are risky. They import abstract metaphysics or Christianized notions of spirit and can obscure the term's specific location inside the *guṇa* vocabulary. *Śuddha-sattva* is better treated as a technical category for pure, non-karmic divine manifestation rather than as a generic name for immateriality.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"

@@ -3,31 +3,58 @@
   "term_iast": "pāramārthika",
   "term_devanagari": "पारमार्थिक",
   "literal": "pertaining to the highest *artha* or final reality; from parama, 'highest,' + artha, 'object, meaning, matter'",
-  "aliases": ["paramarthika", "pāramārthika", "Pāramārthika", "paramartha", "paramārtha"],
+  "aliases": [
+    "paramarthika",
+    "pāramārthika",
+    "Pāramārthika",
+    "paramartha",
+    "paramārtha",
+    "paramārthika"
+  ],
   "invariant_definition": "*Pāramārthika* names what holds from the standpoint of final, unsublated reality. In Advaita it is the highest member of the *sattā-traya*: that which is never canceled by a later cognition because it is the condition for the possibility of all cognition. The term therefore presupposes the logic of *bādha* or sublation: to call something *pāramārthika* is to say that no stronger disclosure overturns it. This is not the same as colloquial 'really' and not the same as Buddhist *paramārtha-satya*. Madhyamaka uses the cognate term for emptiness of own-being within a two-truths framework, not for the top member of a three-level ontology. Realist Vedāntins often use *paramārtha* in the looser sense of what is ultimately the case, but they reject the Advaita claim that the world survives only as *vyāvahārika*. The term thus lies inside an argument about graded reality, the reach of negation, and the relation between liberating knowledge and ordinary cognition.",
   "per_school": [
     {
       "school": "Advaita",
       "definition": "*Pāramārthika* applies only to *brahman* and to the identity of *ātman* and *brahman*. It is what remains when *prātibhāsika* appearances are canceled by ordinary cognition and when *vyāvahārika* plurality is canceled by *brahma-jñāna*. The term is therefore not merely descriptive but diagnostic: it ranks modes of disclosure by their resistance to sublation.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.1.14", "Iṣṭa-Siddhi 1", "Advaita-Siddhi, mithyātva-pariccheda [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 2.1.14",
+        "Iṣṭa-Siddhi 1",
+        "Advaita-Siddhi, mithyātva-pariccheda [NOT YET RETRIEVED]"
+      ]
     },
     {
       "school": "Mādhyamaka",
       "definition": "The cognate *paramārtha* designates the truth of emptiness, but not an independently existing highest object standing over against the conventional. The two truths are mutually implicative, not stacked as ontic levels in the Advaitin sense. This makes the resemblance to *pāramārthika* only partial and often misleading if the terms are translated identically without comment.",
-      "primary_loci": ["Mūla-Madhyamaka-Kārikā 24.8–10", "Mūla-Madhyamaka-Kārikā 18.8–9"]
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 24.8–10",
+        "Mūla-Madhyamaka-Kārikā 18.8–9"
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
       "definition": "Rāmānuja can speak of *paramārtha* as final truth, but he rejects the Advaitin use of the category to demote the world and the Lord's real attributes to a lower ontic register. The highest truth is the personal Brahman together with the real body of *cit* and *acit*; *paramārtha* therefore does not cancel plurality but orders it within dependence on the Lord.",
-      "primary_loci": ["Śrī-Bhāṣya 1.1.1", "Vedārtha-Saṅgraha §§91–137"]
+      "primary_loci": [
+        "Śrī-Bhāṣya 1.1.1",
+        "Vedārtha-Saṅgraha §§91–137"
+      ]
     },
     {
       "school": "Tattva-vāda",
       "definition": "For Tattva-vāda (the school often labeled Dvaita), what is finally the case is Viṣṇu's independence, the world's reality, and the eternal difference among categories. The Advaita use of *pāramārthika* is rejected because it builds sublation into ontology in a way that, from the Mādhva standpoint, evacuates the truth of devotion, difference, and moral order.",
-      "primary_loci": ["Tattva-Saṅkhyāna 1–4", "Vyāsatīrtha, Nyāyāmṛta, mithyātva-bhaṅga [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Tattva-Saṅkhyāna 1–4",
+        "Vyāsatīrtha, Nyāyāmṛta, mithyātva-bhaṅga [NOT YET RETRIEVED]"
+      ]
     }
   ],
-  "see_also": ["vyavaharika", "pratibhasika", "satta-traya", "brahman", "bādha", "paramartha-satya"],
+  "see_also": [
+    "vyavaharika",
+    "pratibhasika",
+    "satta-traya",
+    "brahman",
+    "bādha",
+    "paramartha-satya"
+  ],
   "translator_note": "'Ultimate' and 'absolute' are convenient but dangerous. 'Absolute' imports German-idealist baggage; 'ultimate' can hide the fact that Advaita is talking about unsublatability within a theory of graded reality. The term also should not be collapsed into Buddhist 'ultimate truth,' because *pāramārthika* and *paramārtha-satya* do different theoretical work.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"

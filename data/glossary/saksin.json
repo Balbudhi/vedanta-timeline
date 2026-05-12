@@ -3,7 +3,17 @@
   "term_iast": "sākṣin",
   "term_devanagari": "साक्षिन्",
   "literal": "the seer-with, the witness; from sa- 'with' + akṣa 'eye, sight'",
-  "aliases": ["saksin", "sākṣin", "Sākṣin", "sākṣī", "sāksī", "sākṣiṇaḥ", "sākṣi-caitanya", "saksi"],
+  "aliases": [
+    "saksin",
+    "sākṣin",
+    "Sākṣin",
+    "sākṣī",
+    "sāksī",
+    "sākṣiṇaḥ",
+    "sākṣi-caitanya",
+    "saksi",
+    "sākṣi"
+  ],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
   "invariant_definition": "The witnessing consciousness or witnessing self: that to which cognitions, pleasures, pains, and the absence registered in deep sleep are manifest, without itself entering the full *kāraka* structure of agent, instrument, and object. The term matters because Indian epistemology distinguishes the occurrent cognition (*pramā*), its instrument (*pramāṇa*), its subject (*pramātṛ*), and the deeper self-manifest awareness by virtue of which any of these can appear at all. In Advaita this becomes a major technical posit: the *sākṣin* is what knows the rise and fall of *antaḥkaraṇa-vṛttis*, the three states, and even *avidyā* before that ignorance is removed. Sāṃkhya-Yoga frames the same role through *puruṣa* as pure seer; Nyāya and Tattva-vāda (Dvaita) speak instead of the self's immediate awareness or *sākṣi-pratyakṣa*. 'Witness' therefore does not mean a passive spectator in a modern psychological sense. It marks a thesis about what kind of consciousness is presupposed by memory, self-ascription, liberation, and the manifestness of experience as experience.",
@@ -11,24 +21,46 @@
     {
       "school": "Advaita",
       "definition": "The *sākṣin* is *kūṭastha-caitanya*: self-luminous, unmodified consciousness, distinguished from *cidābhāsa*, the reflected consciousness that seems to know through mental *vṛttis*. Because every cognition is itself manifest, the witness cannot be one more cognition. It is invoked to explain continuity across waking, dream, and deep sleep, the later report 'I slept happily; I knew nothing,' and the claim that *avidyā* itself is manifest before its destruction by *brahma-jñāna*.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1 (adhyāsa-bhāṣya)", "Vedānta-Paribhāṣā, pratyakṣa-pariccheda", "Pañcadaśī 1.14-21", "Pañcapādikā-Vivaraṇa, varṇaka 1"]
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 1.1.1 (adhyāsa-bhāṣya)",
+        "Vedānta-Paribhāṣā, pratyakṣa-pariccheda",
+        "Pañcadaśī 1.14-21",
+        "Pañcapādikā-Vivaraṇa, varṇaka 1"
+      ]
     },
     {
       "school": "Sāṃkhya-Yoga",
       "definition": "The term *sākṣin* is less foregrounded than the role itself. *Puruṣa* is the pure seer (*draṣṭṛ*), never an evolute of *prakṛti* and never genuinely modified by the mental stream. Yogic practice seeks discriminative knowledge (*viveka-khyāti*) by which the seer ceases to be misidentified with the seen. The witness function here is therefore ontological and soteriological, not merely introspective.",
-      "primary_loci": ["Sāṃkhya-Kārikā 19-21", "Yoga-Sūtra 2.20-25"]
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 19-21",
+        "Yoga-Sūtra 2.20-25"
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
       "definition": "There is no need for a supra-individual witness distinct from the individual self. The *jīva* is self-luminous and reflexively aware; its cognitions occur through *dharmabhūta-jñāna*, which contracts in bondage and expands in liberation. Thus 'witness' names the self's own awareness of its states, not an all-pervading consciousness numerically identical across all selves. The Advaita split between *sākṣin* and *cidābhāsa* is rejected with the reflection theory on which it depends.",
-      "primary_loci": ["Vedārtha-Saṅgraha 82-88", "Śrī-Bhāṣya 2.3.42-53", "Yatīndra-Mata-Dīpikā 8"]
+      "primary_loci": [
+        "Vedārtha-Saṅgraha 82-88",
+        "Śrī-Bhāṣya 2.3.42-53",
+        "Yatīndra-Mata-Dīpikā 8"
+      ]
     },
     {
       "school": "Tattva-vāda",
       "definition": "The relevant notion is the self's immediate awareness, often discussed as *sākṣi-pratyakṣa*. A *jīva* knows its own pleasure, pain, and existence directly, but this witness is that particular dependent self, not the one consciousness of Advaita. Tattva-vāda uses the category to defend realist self-awareness while rejecting the claim that one all-pervading witness underlies all knowers. The witness function thus supports pluralism rather than dissolving it.",
-      "primary_loci": ["Madhva, Pramāṇa-Lakṣaṇa [NOT YET RETRIEVED]", "Jayatīrtha, Pramāṇa-Paddhati [NOT YET RETRIEVED]", "Brahma-Sūtra-Bhāṣya (Madhva) 3.2.18 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Madhva, Pramāṇa-Lakṣaṇa [NOT YET RETRIEVED]",
+        "Jayatīrtha, Pramāṇa-Paddhati [NOT YET RETRIEVED]",
+        "Brahma-Sūtra-Bhāṣya (Madhva) 3.2.18 [NOT YET RETRIEVED]"
+      ]
     }
   ],
-  "see_also": ["kutastha", "atman", "cit", "cidabhasa", "pramana"],
+  "see_also": [
+    "kutastha",
+    "atman",
+    "cit",
+    "cidabhasa",
+    "pramana"
+  ],
   "translator_note": "The lazy gloss is simply 'witness.' Left unqualified, that suggests a detached spectator-self or a merely phenomenological observer. In Sanskrit debate the term carries stronger metaphysical commitments: self-luminosity, non-participation in the *kāraka* structure of action, and a role in explaining memory, deep sleep, and self-awareness. Translating it as 'observer' imports modern subject-object baggage; translating it as 'consciousness' alone loses the contrast with *pramātṛ* and *pramāṇa*."
 }

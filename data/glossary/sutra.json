@@ -3,26 +3,49 @@
   "term_iast": "sūtra",
   "term_devanagari": "सूत्र",
   "literal": "thread; that which strings elements together",
-  "aliases": ["sutra", "sūtra", "Sūtra", "sūtraṃ", "sūtrasya", "sūtrāṇi"],
+  "aliases": [
+    "sutra",
+    "sūtra",
+    "Sūtra",
+    "sūtraṃ",
+    "sūtrasya",
+    "sūtrāṇi",
+    "sūtras"
+  ],
   "invariant_definition": "A *sūtra* is not just an aphorism. It is an extremely compressed rule-text or thesis-text designed for memorization, oral teaching, and expansion by commentary. The thread-metaphor matters: a *sūtra* strings together a discipline's basic moves while omitting much that a student is expected to recover from teacher, tradition, and later exegesis. In practice a *sūtra* presupposes a whole apparatus of supplied words, inherited examples, objection-and-reply patterns, and *adhikaraṇa* structure. This is why a *sūtra* corpus is often doctrinally indeterminate by itself. The *Brahma-Sūtra*, *Mīmāṃsā-Sūtra*, *Nyāya-Sūtra*, and *Yoga-Sūtra* all require *bhāṣya* to become usable philosophy. Disputes over segmentation, *anuvṛtti*, topic-boundaries, and the relation between one *sūtra* and the next are therefore not editorial trivia; they are part of the philosophy itself. A *sūtra* is a mnemonic backbone for a live scholastic practice, not a freestanding set of quotable sayings.",
   "per_school": [
     {
       "school": "Pūrva-Mīmāṃsā",
       "definition": "The *Mīmāṃsā-Sūtra* organizes ritual and hermeneutic disputes through *adhikaraṇa* structure. Its compression presumes familiarity with sacrifice, Vedic sentence-types, and conflict-resolution rules. In use the *sūtra* does not summarize a doctrine already obvious from the Veda; it provides the argumentative skeleton by which Vedic injunctions are classified and adjudicated.",
-      "primary_loci": ["Mīmāṃsā-Sūtra 1.1.1–5", "Śabara-Bhāṣya on Mīmāṃsā-Sūtra 1.1.1–5"]
+      "primary_loci": [
+        "Mīmāṃsā-Sūtra 1.1.1–5",
+        "Śabara-Bhāṣya on Mīmāṃsā-Sūtra 1.1.1–5"
+      ]
     },
     {
       "school": "Vedānta",
       "definition": "The *Brahma-Sūtra* is the discipline-defining thread-text for Uttara-Mīmāṃsā. Because the *Upaniṣads* speak in dispersed and apparently discordant ways, the *sūtra* supplies an *adhikaraṇa-based* order in which *brahman*, the means to know it, and the states after knowledge are argued out. Every major Vedāntic school is therefore identified by its *bhāṣya* on the same *sūtra* text.",
-      "primary_loci": ["Brahma-Sūtra 1.1.1–4", "Brahma-Sūtra 2.1.1", "Brahma-Sūtra 4.4.1–4"]
+      "primary_loci": [
+        "Brahma-Sūtra 1.1.1–4",
+        "Brahma-Sūtra 2.1.1",
+        "Brahma-Sūtra 4.4.1–4"
+      ]
     },
     {
       "school": "Vyākaraṇa",
       "definition": "In grammar the *sūtra* is a rule-network rather than a philosophical thesis-line. Pāṇini's *Aṣṭādhyāyī* shows the form at maximal density: a rule may depend on several prior rules through *anuvṛtti*, technical markers, and economy devices that are invisible without training. The later *vārttika* and *bhāṣya* tradition is therefore constitutive, not merely explanatory.",
-      "primary_loci": ["Aṣṭādhyāyī 1.1.1–4", "Patañjali, Mahābhāṣya, Paspasha"]
+      "primary_loci": [
+        "Aṣṭādhyāyī 1.1.1–4",
+        "Patañjali, Mahābhāṣya, Paspasha"
+      ]
     }
   ],
-  "see_also": ["bhasya", "varttika", "tika", "brahma-sutra"],
+  "see_also": [
+    "bhasya",
+    "varttika",
+    "tika",
+    "brahma-sutra"
+  ],
   "translator_note": "The lazy gloss is 'aphorism.' That imports the idea of a self-contained wise saying. A *sūtra* is usually the opposite: maximally compressed technical prose that becomes intelligible only within a teaching lineage and commentarial scaffold. 'Thread-text' is clumsy in English but closer to the genre's actual function.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"

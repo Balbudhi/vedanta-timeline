@@ -3,21 +3,42 @@
   "term_iast": "acintya",
   "term_devanagari": "अचिन्त्य",
   "literal": "unthinkable, not exhaustible by discursive thought",
-  "aliases": ["acintya", "Acintya", "acintyaḥ", "acintyatva", "acintya-bhedabheda", "acintya-bhedābheda"],
+  "aliases": [
+    "acintya",
+    "Acintya",
+    "acintyaḥ",
+    "acintyatva",
+    "acintya-bhedabheda",
+    "acintya-bhedābheda",
+    "Acintya-bhedābheda"
+  ],
   "invariant_definition": "*Acintya* names a real relation, power, or mode of being that discursive thought cannot finally resolve without distortion. The term does not mean unintelligible chaos, nor does it license contradiction at will. Its function is more exact: reason can mark the limits of its own successful categories and recognize that a scripturally disclosed reality exceeds the forced alternatives the intellect wants to impose. The most important use is in *acintya-bhedābheda*, where the simultaneity of difference and non-difference between Bhagavān, the *jīva*, and the world is held to be real though not reducible to a tidy logical formula. Closely allied is *acintya-śakti*, the Lord's inconceivable power. In practice the term marks a disciplined anti-reductionism: one refuses both the flattening of the real into sheer identity and the flattening of it into sheer plurality.",
   "per_school": [
     {
       "school": "Acintya-Bhedābheda",
       "definition": "*Acintya* is the school's signature qualifier. Kṛṣṇa, his *śakti*s, the *jīva*s, and the world stand in simultaneous difference and non-difference, but the relation cannot be captured by the ordinary logical demand that one side exclude the other. The term therefore protects a scripturally grounded metaphysical relation from reduction into Advaitin identity or Madhva's strict difference.",
-      "primary_loci": ["Caitanya-Caritāmṛta, Madhya 20.108–113", "Tattva-Sandarbha §§51–56", "Bhagavat-Sandarbha §§78–82"]
+      "primary_loci": [
+        "Caitanya-Caritāmṛta, Madhya 20.108–113",
+        "Tattva-Sandarbha §§51–56",
+        "Bhagavat-Sandarbha §§78–82"
+      ]
     },
     {
       "school": "Bhāgavata Vaiṣṇava Theology",
       "definition": "*Acintya-śakti* names the Lord's power to manifest multiplicity, immanence, transcendence, and avatāra without ceasing to be himself. Here the term is less a school-label than a recurrent theistic safeguard against reducing divine activity to creaturely causality or finite mechanics.",
-      "primary_loci": ["Bhāgavata-Purāṇa 10.14.2", "Bhāgavata-Purāṇa 10.87.25", "Viṣṇu-Purāṇa 1.22.53 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Bhāgavata-Purāṇa 10.14.2",
+        "Bhāgavata-Purāṇa 10.87.25",
+        "Viṣṇu-Purāṇa 1.22.53 [NOT YET RETRIEVED]"
+      ]
     }
   ],
-  "see_also": ["bhedabheda", "sakti", "para-sakti", "sastra-yonitva"],
+  "see_also": [
+    "bhedabheda",
+    "sakti",
+    "para-sakti",
+    "sastra-yonitva"
+  ],
   "translator_note": "The lazy gloss is 'inconceivable' taken to mean 'impossible,' 'irrational,' or 'mystical.' That imports the wrong baggage. *Acintya* does not deny reason; it marks a case where reason cannot finish the job by flattening the real into one of its preferred oppositions. 'Beyond discursive resolution' is often closer than the bare English 'inconceivable.'",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"

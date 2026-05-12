@@ -3,7 +3,13 @@
   "term_iast": "paratantra",
   "term_devanagari": "परतन्त्र",
   "literal": "dependent on another; from para 'other' + tantra 'extension, system'",
-  "aliases": ["paratantra", "Paratantra", "paratantraḥ", "paratantra-tattva"],
+  "aliases": [
+    "paratantra",
+    "Paratantra",
+    "paratantraḥ",
+    "paratantra-tattva",
+    "Paratantra-tattva"
+  ],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
   "invariant_definition": "Dependent on another. In Madhva's ontology this is a basic class-term: everything other than Viṣṇu exists, acts, and is known only as dependent. The dependence is real and does not erase internal hierarchy: Lakṣmī, gods, *jīvas*, time, matter, and karmic order are all real, yet none is self-grounding. The term therefore belongs with *svatantra*, *taratamya*, and *pañca-bheda*. Outside Tattva-vāda (Dvaita) the same word can name a different structure. Yogācāra's *paratantra-svabhāva*, for example, is the dependently arisen flow that lies between imagined duality and consummate suchness. A translator cannot therefore let 'dependent' float free of doctrine. The question is always: dependent on what, in what way, and with what ontological remainder once dependence is stated? In Tattva-vāda the answer is explicit dependence on Viṣṇu without loss of the dependent entity's reality; in Yogācāra it is dependent origination within a three-nature analysis rather than a theistic hierarchy.",
@@ -11,14 +17,26 @@
     {
       "school": "Tattva-vāda",
       "definition": "*Paratantra-tattva* is everything other than Viṣṇu, the sole *svatantra*. Dependence is not merely causal origin but continuing ontological and functional dependence. Every *paratantra* entity exists under Viṣṇu's will, yet remains a real entity with its own place in the hierarchy of beings. Lakṣmī is the highest dependent reality; below her descend graded divine, human, and other selves. The category is therefore inseparable from Tattva-vāda's hierarchical pluralism.",
-      "primary_loci": ["Tattva-Saṅkhyāna 1-8", "Mahābhārata-Tātparya-Nirṇaya 1.85-95", "Anu-Vyākhyāna 1.1 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Tattva-Saṅkhyāna 1-8",
+        "Mahābhārata-Tātparya-Nirṇaya 1.85-95",
+        "Anu-Vyākhyāna 1.1 [NOT YET RETRIEVED]"
+      ]
     },
     {
       "school": "Yogācāra",
       "definition": "In the doctrine of the three natures, *paratantra-svabhāva* is the dependently arisen flow of cognition and its seeds: the domain that is neither the imagined duality of subject and object nor the consummate nature free of that duality. The dependence here is causal and phenomenological, not dependence on a supreme Lord. The comparison is useful because it shows how inadequate the bare English gloss 'dependent' is across traditions.",
-      "primary_loci": ["Triṃśikā 20-21 [NOT YET RETRIEVED]", "Madhyānta-Vibhāga 1.1-5 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Triṃśikā 20-21 [NOT YET RETRIEVED]",
+        "Madhyānta-Vibhāga 1.1-5 [NOT YET RETRIEVED]"
+      ]
     }
   ],
-  "see_also": ["svatantra", "tattva", "taratamya", "panca-bheda"],
+  "see_also": [
+    "svatantra",
+    "tattva",
+    "taratamya",
+    "panca-bheda"
+  ],
   "translator_note": "The lazy gloss is 'dependent.' Without doctrinal context that can suggest mere derivative status, Spinozistic modal dependence, or modern social dependence. In Madhva it marks a real ontological class contrasted with the one independent reality; in Yogācāra it names a dependently arisen flow within a non-theistic analysis. The English word is too thin unless the governing relation is made explicit."
 }

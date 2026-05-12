@@ -3,7 +3,16 @@
   "term_iast": "apṛthak-siddhi",
   "term_devanagari": "अपृथक्सिद्धि",
   "literal": "non-separate establishment; a-pṛthak (not separately) + siddhi (establishment, accomplishment)",
-  "aliases": ["aprthak-siddhi", "apṛthak-siddhi", "apṛthaksiddhi", "aprthaksiddhi", "Apṛthak-siddhi", "apṛthak-siddha"],
+  "aliases": [
+    "aprthak-siddhi",
+    "apṛthak-siddhi",
+    "apṛthaksiddhi",
+    "aprthaksiddhi",
+    "Apṛthak-siddhi",
+    "apṛthak-siddha",
+    "Aprthak-siddhi",
+    "Apṛthak-siddha"
+  ],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
   "invariant_definition": "Inseparable establishment: a relation between distinct reals that do not stand free of one another either in existence or in cognition. The doctrine is central to Viśiṣṭādvaita because scriptural discourse attributes unity and plurality alike to *brahman*, selves, and world; simple identity is too strong, but mere conjunction or external relation is too weak. *Apṛthak-siddhi* allows Rāmānuja and his successors to say that qualities stand to substance, body to self, and *cit* and *acit* to *brahman* as inseparable modes: distinguishable, nameable, and real, yet never independently established. The term therefore belongs with *samānādhikaraṇya*, *śarīra-śarīrī-bhāva*, and *śeṣa-śeṣi-bhāva*, and it functions both semantically and ontologically. It is not a generic claim that things are 'closely connected.' It is a precise thesis about how one term can pick out a qualified whole through its mode, and how difference can be real without becoming separateness.",
@@ -11,19 +20,36 @@
     {
       "school": "Viśiṣṭādvaita",
       "definition": "This is the school's key device for articulating qualified non-duality. The self and matter are real modes of Brahman, inseparably established in Him as body in soul and attribute in substance. Accordingly, scriptural sentences such as *tat tvam asi* are read through *samānādhikaraṇya*: the terms co-refer to one qualified reality rather than asserting bare numerical identity. The doctrine preserves real plurality while denying that the plurality is self-grounding or externally attached.",
-      "primary_loci": ["Vedārtha-Saṅgraha 4-10", "Vedārtha-Saṅgraha 76-88", "Śrī-Bhāṣya 1.1.1", "Śrī-Bhāṣya 2.1.9"]
+      "primary_loci": [
+        "Vedārtha-Saṅgraha 4-10",
+        "Vedārtha-Saṅgraha 76-88",
+        "Śrī-Bhāṣya 1.1.1",
+        "Śrī-Bhāṣya 2.1.9"
+      ]
     },
     {
       "school": "Advaita",
       "definition": "Advaita has no need for *apṛthak-siddhi* as a final ontological relation, because the difference it would relate is itself ultimately borne by *avidyā*. Scriptural identity-statements are taken to reveal the non-dual self directly, not a qualified whole held together by inseparable modehood. From the Advaitin side, then, *apṛthak-siddhi* is at best a transactional explanatory device and at worst a failure to choose between real identity and real difference.",
-      "primary_loci": ["Chāndogya-Upaniṣad-Bhāṣya 6.8.7", "Brahma-Sūtra-Bhāṣya 1.1.4", "Brahma-Sūtra-Bhāṣya 2.1.14"]
+      "primary_loci": [
+        "Chāndogya-Upaniṣad-Bhāṣya 6.8.7",
+        "Brahma-Sūtra-Bhāṣya 1.1.4",
+        "Brahma-Sūtra-Bhāṣya 2.1.14"
+      ]
     },
     {
       "school": "Tattva-vāda",
       "definition": "Tattva-vāda (Dvaita) rejects *apṛthak-siddhi* as an unstable middle category. If two things are real, they are really different; if they are not different, they are one. The Viśiṣṭādvaita appeal to inseparable establishment is therefore criticized as a verbal device that obscures rather than resolves the metaphysical issue. Madhva's successors treat the doctrine as incompatible with the eternal difference required by devotion, dependence, and the fivefold distinctions.",
-      "primary_loci": ["Vyāsatīrtha, Nyāyāmṛta [NOT YET RETRIEVED]", "Anu-Vyākhyāna 1.1 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Vyāsatīrtha, Nyāyāmṛta [NOT YET RETRIEVED]",
+        "Anu-Vyākhyāna 1.1 [NOT YET RETRIEVED]"
+      ]
     }
   ],
-  "see_also": ["sarira-saririn-bhava", "visesa", "samanadhikaranya", "visistadvaita"],
+  "see_also": [
+    "sarira-saririn-bhava",
+    "visesa",
+    "samanadhikaranya",
+    "visistadvaita"
+  ],
   "translator_note": "The lazy gloss is 'inseparable relation' or 'inseparable existence.' Those are serviceable only if one also notes what is being rejected: simple identity, mere conjunction, and detachable part-whole relation. The doctrine carries semantic and ontological weight at once. Translating it too loosely imports a modern relational vocabulary that misses Rāmānuja's point about qualified wholes and modehood."
 }

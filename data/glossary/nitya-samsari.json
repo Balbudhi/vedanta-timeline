@@ -3,16 +3,30 @@
   "term_iast": "nitya-saṃsārī",
   "term_devanagari": "नित्यसंसारी",
   "literal": "eternally-cycling; nitya (eternal) + saṃsārī (cycler)",
-  "aliases": ["nitya-samsari", "nitya-saṃsārī", "nityasaṃsārī", "Nitya-saṃsārī"],
+  "aliases": [
+    "nitya-samsari",
+    "nitya-saṃsārī",
+    "nityasaṃsārī",
+    "Nitya-saṃsārī",
+    "nitya-saṃsārin"
+  ],
   "invariant_definition": "In Tattva-vāda (Dvaita), *nitya-saṃsārī* names the class of souls that remain perpetually within *saṃsāra*. The term belongs to Madhva's threefold typology of souls alongside *mukti-yogya* and *tamo-yogya*, and therefore presupposes *tāratamya* and intrinsic *svarūpa-bheda*. It does not mean that these souls are always at the same station, nor that they lack agency, merit, suffering, or religious life. Rather, their cyclic existence is endless in principle: they move through births, deaths, pleasures, pains, and relative elevations without arriving at final liberation or permanent damnation. The doctrine is not a psychological judgment or a moral insult. It is a claim that the causal traffic of *karma* unfolds within a metaphysical limit fixed by the soul's own nature. The term therefore marks a stable eschatological middle, not merely prolonged bondage.",
   "per_school": [
     {
       "school": "Tattva-vāda",
       "definition": "*Nitya-saṃsārī* souls continue indefinitely within the cycle of rebirth. Their actions bear fruit, they can rise and fall in worldly and heavenly conditions, and they may participate in religion, but none of this issues in final *mokṣa*. Their condition is intrinsic rather than a correctable deficit in effort. Madhva uses the category to deny both universal liberation and the assumption that the fruits of scriptural life must be identical for all souls.",
-      "primary_loci": ["Mahābhārata-Tātparya-Nirṇaya 1.85-95", "Anu-Vyākhyāna 3.4"]
+      "primary_loci": [
+        "Mahābhārata-Tātparya-Nirṇaya 1.85-95",
+        "Anu-Vyākhyāna 3.4"
+      ]
     }
   ],
-  "see_also": ["mukti-yogya", "tamo-yogya", "taratamya", "samsara"],
+  "see_also": [
+    "mukti-yogya",
+    "tamo-yogya",
+    "taratamya",
+    "samsara"
+  ],
   "translator_note": "'Eternally transmigrating' or 'eternally cycling' is better than glosses such as 'ordinary soul'. The English word 'ordinary' imports sociology or moral mediocrity; Madhva's term instead marks an intrinsic eschatological status within a larger graded ontology. The most damaging mistranslation is to read *nitya-saṃsārī* as Madhva's caste-prejudice or moral judgment about 'lower' people; it is neither — it is a *svarūpa*-level metaphysical classification under *tāratamya*, parallel to the way Jainism distinguishes *bhavya* and *abhavya* souls. Treating Madhva as crude moralism here is one of the standard misreadings the user's project explicitly rejects.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"

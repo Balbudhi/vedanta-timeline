@@ -3,26 +3,54 @@
   "term_iast": "sāmānya-lakṣaṇa",
   "term_devanagari": "सामान्यलक्षण",
   "literal": "general mark; the generality under which conceptual cognition groups particulars",
-  "aliases": ["samanyalaksana", "sāmānya-lakṣaṇa", "Sāmānya-Lakṣaṇa", "sāmānya-lakṣaṇasya"],
+  "aliases": [
+    "samanyalaksana",
+    "sāmānya-lakṣaṇa",
+    "Sāmānya-Lakṣaṇa",
+    "sāmānya-lakṣaṇasya",
+    "sāmānyalakṣaṇa",
+    "Sāmānya-lakṣaṇa"
+  ],
   "invariant_definition": "*Sāmānya-lakṣaṇa* is the Buddhist counterpart to *svalakṣaṇa*: the generality or common-character under which conceptual thought, language, and inference proceed. It is the proper object of *anumāna* and of all cognition shaped by *vikalpa*. The term does not mean a real universal inhering in many particulars, as Nyāya and Mīmāṃsā hold. It names a constructed generality produced through exclusion, habituation, and conceptual imputation upon streams of particulars. The distinction is load-bearing for Buddhist epistemology because it allows ordinary and inferential cognition to remain usable while denying that its objects are ultimately real in the same sense as causally efficacious particulars. In practice this explains why words and classes work even though they do not disclose reality at the level of *paramārtha*. The school can preserve commerce, inference, debate, and teaching without granting ontological primacy to universals.",
   "per_school": [
     {
       "school": "Buddhist Pramāṇa",
       "definition": "The *sāmānya-lakṣaṇa* is what conceptual cognition and language traffic in. It is constructed rather than directly perceived, lacks determinate causal efficacy, and is therefore only conventionally real. Through *apoha*, habit, and inferential function, such generalities nevertheless guide successful thought and action. The category lets Buddhists explain how inference can be valid without treating universals as real features inhering in things.",
-      "primary_loci": ["Dignāga, Pramāṇa-Samuccaya 1.2–9", "Dignāga, Pramāṇa-Samuccaya 5", "Dharmakīrti, Pramāṇa-Vārttika 1.40–185", "Dharmakīrti, Pramāṇa-Vārttika 3.53–123"]
+      "primary_loci": [
+        "Dignāga, Pramāṇa-Samuccaya 1.2–9",
+        "Dignāga, Pramāṇa-Samuccaya 5",
+        "Dharmakīrti, Pramāṇa-Vārttika 1.40–185",
+        "Dharmakīrti, Pramāṇa-Vārttika 3.53–123"
+      ]
     },
     {
       "school": "Nyāya",
       "definition": "Nyāya refuses the reduction of generality to conceptual construction. For the Naiyāyika, *sāmānya* or *jāti* is a real category, grasped in determinate perception and deployed in inference. The Buddhist *sāmānya-lakṣaṇa* is therefore criticized as an unnecessary weakening of what ordinary cognition already gives: real class-character inhering in real particulars.",
-      "primary_loci": ["Nyāya-Sūtra 2.2.65", "Uddyotakara, Nyāya-Vārttika ad Nyāya-Sūtra 2.2.65", "Gaṅgeśa, Tattva-Cintāmaṇi, Sāmānya-khaṇḍa [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Nyāya-Sūtra 2.2.65",
+        "Uddyotakara, Nyāya-Vārttika ad Nyāya-Sūtra 2.2.65",
+        "Gaṅgeśa, Tattva-Cintāmaṇi, Sāmānya-khaṇḍa [NOT YET RETRIEVED]"
+      ]
     },
     {
       "school": "Vedānta",
       "definition": "Vedānta typically follows the broader realist line that universals and determinate contents are not reducible to mere conceptual fictions. Later Advaita and Tattva-vāda (the school often labeled Dvaita) epistemologists can diverge on ontology, but neither takes ordinary conceptual cognition to be explained by a Buddhist-style reduction to generality generated through *apoha*. The category is therefore mostly engaged in opposition, through the pramāṇa debates inherited from Nyāya.",
-      "primary_loci": ["Vedānta-Paribhāṣā, Anumāna-pariccheda", "Jayatīrtha, Pramāṇa-Paddhati [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Vedānta-Paribhāṣā, Anumāna-pariccheda",
+        "Jayatīrtha, Pramāṇa-Paddhati [NOT YET RETRIEVED]"
+      ]
     }
   ],
-  "see_also": ["svalaksana", "anumana", "apoha", "samanya", "jati", "pramana-dvaya", "samavaya", "pratyaksa"],
+  "see_also": [
+    "svalaksana",
+    "anumana",
+    "apoha",
+    "samanya",
+    "jati",
+    "pramana-dvaya",
+    "samavaya",
+    "pratyaksa"
+  ],
   "translator_note": "\"Universal\" is too blunt unless one immediately adds that the Buddhist does not mean a real universal. The term is closer to \"generality as conceptually marked.\" Translating it naively as \"universal\" imports Nyāya-style *jāti* realism, while translating it as \"idea\" psychologizes it. The point is an objective-looking but concept-dependent generality usable in inference and language without possessing independent ontological standing.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"

@@ -3,31 +3,58 @@
   "term_iast": "saccidānanda",
   "term_devanagari": "सच्चिदानन्द",
   "literal": "being-consciousness-bliss; sat + cit + ānanda",
-  "aliases": ["saccidananda", "saccidānanda", "sat-cit-ananda", "sat-cit-ānanda", "satcitananda"],
+  "aliases": [
+    "saccidananda",
+    "saccidānanda",
+    "sat-cit-ananda",
+    "sat-cit-ānanda",
+    "satcitananda",
+    "Saccidānanda"
+  ],
   "invariant_definition": "A later scholastic compression of several Upaniṣadic predicates used to mark the intrinsic nature of *brahman*: *sat* as irreducible reality, *cit* as self-luminous consciousness, and *ānanda* as plenitude rather than episodic pleasure. The compound should not be read as a loose string of devotional adjectives. It sits inside disputes over *svarūpa-lakṣaṇa* and *taṭastha-lakṣaṇa*, over whether the three terms name one undivided reality or three really distinct divine excellences, and over whether bliss is a phenomenological state, an ontological fullness, or both. In practice the formula functions as a safeguard against reduction: *brahman* is not a bare existent without awareness, not awareness without reality, and not mere consciousness stripped of value or fulfillment. The schools agree on the prestige of the formula while disagreeing about the metaphysics it encodes.",
   "per_school": [
     {
       "school": "Advaita",
       "definition": "*Saccidānanda* is an intrinsic description of one undivided reality. The three terms do not pick out parts or attributes added to *brahman*; they cancel opposite mistakes. *Sat* blocks nihilistic readings, *cit* blocks inert-substance readings, and *ānanda* blocks any view of the absolute as a neutral blank. The formula therefore functions apophatically as much as descriptively.",
-      "primary_loci": ["Taittirīya-Upaniṣad-Bhāṣya 2.1.1", "Taittirīya-Upaniṣad-Bhāṣya 2.7.1", "Brahma-Sūtra-Bhāṣya 1.1.4"]
+      "primary_loci": [
+        "Taittirīya-Upaniṣad-Bhāṣya 2.1.1",
+        "Taittirīya-Upaniṣad-Bhāṣya 2.7.1",
+        "Brahma-Sūtra-Bhāṣya 1.1.4"
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
       "definition": "The formula names real excellences of Nārāyaṇa, not merely a pedagogical shorthand for an undifferentiated substratum. *Brahman* is fullness of being, knowledge, and bliss together with innumerable other auspicious qualities. The terms therefore support devotion and theology rather than dissolving them into impersonal identity.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§125–137", "Śrī-Bhāṣya 1.1.1"]
+      "primary_loci": [
+        "Vedārtha-Saṅgraha §§125–137",
+        "Śrī-Bhāṣya 1.1.1"
+      ]
     },
     {
       "school": "Tattva-vāda (Dvaita)",
       "definition": "*Sat*, *cit*, and *ānanda* are real predicates of Viṣṇu, who alone possesses them in unsurpassed and independent mode. The formula does not erase divine individuality or the difference between Lord and soul; it intensifies them by specifying the kind of Lord the devotee knows and serves.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1", "Anu-Vyākhyāna 1.1 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1",
+        "Anu-Vyākhyāna 1.1 [NOT YET RETRIEVED]"
+      ]
     },
     {
       "school": "Śuddhādvaita (Vallabha)",
       "definition": "*Saccidānanda* names Kṛṣṇa's full nature and also explains creaturely deficiency: the world is real because it comes from *brahman*, while the *jīva* manifests consciousness more fully than bliss. The compound therefore supports Vallabha's account of real manifestation without ontological downgrading of the world.",
-      "primary_loci": ["Aṇu-Bhāṣya 1.1.2", "Aṇu-Bhāṣya 2.3.42"]
+      "primary_loci": [
+        "Aṇu-Bhāṣya 1.1.2",
+        "Aṇu-Bhāṣya 2.3.42"
+      ]
     }
   ],
-  "see_also": ["sat", "cit", "ananda", "brahman", "svarupa-laksana", "kalyana-guna"],
+  "see_also": [
+    "sat",
+    "cit",
+    "ananda",
+    "brahman",
+    "svarupa-laksana",
+    "kalyana-guna"
+  ],
   "translator_note": "The standard gloss 'being-consciousness-bliss' is acceptable only if none of the three English words is taken in a thin modern sense. 'Being' can suggest mere existence, 'consciousness' can suggest private mentality, and 'bliss' can suggest emotion or pleasure. The Sanskrit compound instead marks ontological fullness, self-luminous awareness, and plenitude. Where precision matters, leave the Sanskrit and unpack the doctrinal contrast in prose.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"

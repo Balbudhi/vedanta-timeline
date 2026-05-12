@@ -3,26 +3,48 @@
   "term_iast": "vyūha",
   "term_devanagari": "व्यूह",
   "literal": "arrangement, deployment, formation; from vi- + √ūh ('to arrange, dispose')",
-  "aliases": ["vyuha", "vyūha", "caturvyūha", "catur-vyūha", "vyūha-mūrti"],
+  "aliases": [
+    "vyuha",
+    "vyūha",
+    "caturvyūha",
+    "catur-vyūha",
+    "vyūha-mūrti",
+    "vyūhas"
+  ],
   "invariant_definition": "In Pāñcarātra theology, *vyūha* means the structured self-deployment of the supreme Lord into determinate divine forms, classically Vāsudeva, Saṅkarṣaṇa, Pradyumna, and Aniruddha. The term belongs within a wider fivefold theology of *para*, *vyūha*, *vibhava*, *antaryāmin*, and *arcā*. A *vyūha* is therefore not a created intermediary, symbolic mask, or lower deity, but a real mode in which the one Lord becomes cosmologically, ritually, and devotionally accessible. The doctrine presupposes *śuddha-sattva*, since these forms are embodied without being constituted by ordinary *prakṛti*. It also presupposes debates about divine unity and differentiation: if God manifests in ordered plurality, does this produce separate substances or internal self-expression? That question drives the Vedāntic controversy around the *Brahma-Sūtra* discussion of Pāñcarātra. The term is thus simultaneously theological, cosmological, and liturgical.",
   "per_school": [
     {
       "school": "Pāñcarātra",
       "definition": "The four *vyūhas* are real self-manifestations of the supreme Lord through which creation, maintenance, governance of souls, and ritual approach become intelligible. They are linked with distinct powers and functions, and they ground further differentiations such as *vyūhāntaras*, *vibhavas*, and temple forms. The doctrine lets one and the same Lord be simultaneously transcendent, cosmically operative, inwardly present, and liturgically available without ceasing to be one.",
-      "primary_loci": ["Sātvata-Saṃhitā 2 [NOT YET RETRIEVED]", "Ahirbudhnya-Saṃhitā 5 [NOT YET RETRIEVED]", "Lakṣmī-Tantra 4 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Sātvata-Saṃhitā 2 [NOT YET RETRIEVED]",
+        "Ahirbudhnya-Saṃhitā 5 [NOT YET RETRIEVED]",
+        "Lakṣmī-Tantra 4 [NOT YET RETRIEVED]"
+      ]
     },
     {
       "school": "Advaita (Śaṅkara's reading of the Brahma-Sūtra)",
       "definition": "Śaṅkara reads the Pāñcarātra discussion in the *Brahma-Sūtra* as rejecting the idea that one divine form is literally produced from another in a way that would generate contradiction about whether the later form is a created soul, an eternal deity, or something in between. The concern is not with devotion to Viṣṇu as such, but with a cosmology that appears to multiply ultimate entities. Where the doctrine implies real origination within the Godhead, Śaṅkara treats it as untenable.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.2.42-45"]
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 2.2.42-45"
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
       "definition": "Śrīvaiṣṇava authors defend Pāñcarātra by arguing that the *Brahma-Sūtra* rejects only a mistaken interpretation of *vyūha* as production of one separate substance from another. Properly understood, the doctrine concerns internal manifestation of the one Nārāyaṇa in distinct, real forms suited to cosmology and worship. Yāmuna and later Vedānta Deśika therefore preserve *vyūha* theology while insisting that divine unity remains intact. This defense is central to the legitimacy of temple and *arcā* practice.",
-      "primary_loci": ["Yāmuna, Āgama-Prāmāṇya [NOT YET RETRIEVED]", "Śrī-Bhāṣya 2.2.42-45", "Vedānta Deśika, Pāñcarātra-Rakṣā [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Yāmuna, Āgama-Prāmāṇya [NOT YET RETRIEVED]",
+        "Śrī-Bhāṣya 2.2.42-45",
+        "Vedānta Deśika, Pāñcarātra-Rakṣā [NOT YET RETRIEVED]"
+      ]
     }
   ],
-  "see_also": ["shuddha-sattva", "visnu", "antaryamin", "amsa"],
+  "see_also": [
+    "shuddha-sattva",
+    "visnu",
+    "antaryamin",
+    "amsa"
+  ],
   "translator_note": "'Manifestation' is safer than 'emanation'. The latter imports Neoplatonic assumptions of graded overflow and ontological weakening that do not fit Pāñcarātra well. English glosses should also avoid suggesting that the *vyūhas* are merely symbolic personae; the doctrine asserts real divine differentiation in worship and cosmology.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"

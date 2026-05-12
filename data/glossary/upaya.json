@@ -3,36 +3,71 @@
   "term_iast": "upāya",
   "term_devanagari": "उपाय",
   "literal": "means, approach, way of getting to a result",
-  "aliases": ["upaya", "upāya", "Upāya", "upāyaḥ", "upāyena", "upāyāntara"],
+  "aliases": [
+    "upaya",
+    "upāya",
+    "Upāya",
+    "upāyaḥ",
+    "upāyena",
+    "upāyāntara",
+    "upāyas"
+  ],
   "invariant_definition": "*Upāya* is a means, but in Indian philosophical usage it is usually an efficacious path-component embedded in a larger account of causality, fitness, and goal. The term therefore sits beside *upeya* (what is to be reached), *adhikāra* (eligibility), *sādhana*, and often *phala*. In ritual contexts an *upāya* is what brings about a result not available by ordinary causation; in epistemic contexts it can mean a reliable route to knowledge; in soteriology it names the path by which bondage is actually undone. Different traditions thus ask different questions: is the means knowledge, devotion, surrender, meditative cultivation, ritual action, divine grace, or pedagogical accommodation? Is the means independent, merely preparatory, or already identical with the goal? In practice *upāya* is the grammar by which traditions organize spiritual method, rank practices, and explain why one path works for one kind of aspirant and not for another.",
   "per_school": [
     {
       "school": "Advaita",
       "definition": "The proximate liberating *upāya* is *brahma-jñāna*, prepared by *sādhana-catuṣṭaya* and refined through *śravaṇa*, *manana*, and *nididhyāsana*. Ritual action, devotion, and meditative discipline are not denied, but are treated as indirect aids that purify the mind rather than directly produce liberation. The means is therefore cognitive in the strict sense, though practice prepares that cognition.",
-      "primary_loci": ["Upadeśa-Sāhasrī, prose 1.1–1.4", "Brahma-Sūtra-Bhāṣya 1.1.4", "Bhagavad-Gītā-Bhāṣya 4.38"]
+      "primary_loci": [
+        "Upadeśa-Sāhasrī, prose 1.1–1.4",
+        "Brahma-Sūtra-Bhāṣya 1.1.4",
+        "Bhagavad-Gītā-Bhāṣya 4.38"
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
       "definition": "Viśiṣṭādvaita organizes soteriology explicitly through *upāya* and *upeya*. *Bhakti-yoga* and *prapatti* are the principal means, though later sub-schools differ over their relation. The Teṅgalai stress that the Lord is the already-accomplished means (*siddhopāya*), while the Vaḍagalai preserve a stronger role for the soul's active compliance.",
-      "primary_loci": ["Bhagavad-Gītā 18.66", "Rāmānuja, Śaraṇāgati-Gadya 1", "Vedānta-Deśika, Rahasya-Traya-Sāra, upāya-prakaraṇa"]
+      "primary_loci": [
+        "Bhagavad-Gītā 18.66",
+        "Rāmānuja, Śaraṇāgati-Gadya 1",
+        "Vedānta-Deśika, Rahasya-Traya-Sāra, upāya-prakaraṇa"
+      ]
     },
     {
       "school": "Acintya-Bhedābheda",
       "definition": "The operative *upāya* is *bhakti* in its graded forms, especially *nāma-saṃkīrtana* in the present age. Surrender, hearing, chanting, remembering, and service are not mere preliminaries to a later knowledge-event; they are themselves the path in which divine grace and practice meet.",
-      "primary_loci": ["Bhakti-Sandarbha §§213–250", "Bhakti-Rasāmṛta-Sindhu 1.2.233–234", "Caitanya-Caritāmṛta, Ādi 17.21–22"]
+      "primary_loci": [
+        "Bhakti-Sandarbha §§213–250",
+        "Bhakti-Rasāmṛta-Sindhu 1.2.233–234",
+        "Caitanya-Caritāmṛta, Ādi 17.21–22"
+      ]
     },
     {
       "school": "Mahāyāna Buddhism",
       "definition": "Here *upāya* often means skillful means: a teaching or practice fitted to the hearer's capacity, even when it is not the final formulation of truth. The category therefore joins pedagogy to soteriology. A lesser teaching can still be a valid *upāya* if it moves the practitioner toward awakening.",
-      "primary_loci": ["Saddharma-Puṇḍarīka-Sūtra ch. 2", "Vimalakīrti-Nirdeśa-Sūtra 2 [NOT YET RETRIEVED]", "Bodhicaryāvatāra 9.1–4 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Saddharma-Puṇḍarīka-Sūtra ch. 2",
+        "Vimalakīrti-Nirdeśa-Sūtra 2 [NOT YET RETRIEVED]",
+        "Bodhicaryāvatāra 9.1–4 [NOT YET RETRIEVED]"
+      ]
     },
     {
       "school": "Trika / Kashmir Śaivism",
       "definition": "The Trika tradition offers one of the clearest graded taxonomies of *upāya*: *āṇavopāya*, *śāktopāya*, *śāmbhavopāya*, and finally *anupāya*. The differences are not merely practical difficulty-levels; they express different depths at which bondage and recognition are being addressed.",
-      "primary_loci": ["Tantrāloka 2–5", "Śiva-Sūtra-Vimarśinī 1.1 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Tantrāloka 2–5",
+        "Śiva-Sūtra-Vimarśinī 1.1 [NOT YET RETRIEVED]"
+      ]
     }
   ],
-  "see_also": ["sadhana", "upeya", "siddhopaya", "prapatti", "bhakti", "jnana", "karma"],
+  "see_also": [
+    "sadhana",
+    "upeya",
+    "siddhopaya",
+    "prapatti",
+    "bhakti",
+    "jnana",
+    "karma"
+  ],
   "translator_note": "The lazy gloss is just 'means.' That sounds like a neutral instrument chosen from outside the path. *Upāya* usually carries much more baggage: eligibility, causal efficacy, and a theory of how this means reaches this goal. In Buddhist contexts it can also mean a pedagogically provisional teaching, which ordinary English 'means' does not capture by itself.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"
