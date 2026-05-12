@@ -79,11 +79,9 @@ unfinished metaphysics.
 ### The thesis to be tested
 
 The thesis tested here has
-two parts.
-
-First, early Plato is
-read as aporetic and
-protreptic before it
+two parts.  First, early
+Plato is read as aporetic
+and protreptic before it
 is read as doctrinal.
 Socrates does not mainly
 function as a professor of
@@ -214,58 +212,47 @@ say more.
 
 ### The argument of this essay
 
-The argument will move in
-five steps.
-
-First, the early dialogues
-will be read for their
+The argument moves in five
+steps.  The early dialogues
+are read first for their
 reservations: Socratic
 ignorance in the *Apology*,
-the sudden disclosure at
-the summit of Diotima's
-ladder in the *Symposium*,
-and the Good "beyond being"
-in the *Republic*, together
-with the cave's emphasis on
-conversion rather than on
-verbal transfer.
-
-Second, the bridge-dialogues
-will be treated briefly.
-The *Parmenides* attacks
-the very theory that the
-orthodox picture often treats
-as settled middle Platonism.
-The *Theaetetus* ends without
+the sudden disclosure at the
+summit of Diotima's ladder in
+the *Symposium*, and the
+Good "beyond being" in the
+*Republic*, together with the
+cave's emphasis on conversion
+rather than on verbal
+transfer.  The
+bridge-dialogues are then
+treated briefly: the
+*Parmenides* attacks the very
+theory that the orthodox
+picture often treats as
+settled middle Platonism, and
+the *Theaetetus* ends without
 a definition of knowledge.
 These are not incidental
-embarrassments.  They are
+embarrassments; they are
 internal disruptions.
 
-Third, the late dialogues
-themselves will be read,
-one by one, as a set of
-incomplete but serious
-metaphysical advances.
-
-Fourth, the so-called
-unwritten doctrine will
-be taken seriously as a
-scholarly option without
+The late dialogues themselves
+are then read, one by one,
+as a set of incomplete but
+serious metaphysical advances.
+The so-called unwritten
+doctrine is taken seriously
+as a scholarly option without
 being inflated into
-certainty.
-
-Fifth, a small set of
-Vedāntic resonances will
-be noted under strict
-discipline.  The point is
-not identity.  The point
-is structural nearness and
-structural distance.
-
-The whole case depends on
-keeping those distinctions
-intact.
+certainty.  Finally, a small
+set of Vedāntic resonances is
+noted under strict discipline:
+the point is not identity but
+structural nearness and
+structural distance, and the
+whole case depends on keeping
+those distinctions intact.
 
 ---
 
@@ -289,13 +276,20 @@ out to test politicians,
 poets, and craftsmen.
 
 The decisive sentence is
-at 21d:
+at 21d, in Greek:
 
-> "I am wiser than this man; for neither of us
-> really knows anything fine and good, but this
-> man thinks he knows something when he does not,
-> whereas I, as I do not know anything, do not
-> think I do either."
+> *ἔοικα γοῦν τούτου γε σμικρῷ τινι αὐτῷ
+> τούτῳ σοφώτερος εἶναι, ὅτι ἃ μὴ οἶδα
+> οὐδὲ οἴομαι εἰδέναι*.
+
+In Jowett's English: "I am wiser than this man;
+for neither of us really knows anything fine and
+good, but this man thinks he knows something
+when he does not, whereas I, as I do not know
+anything, do not think I do either" (21d).
+The literal final clause is the load-bearing
+one: I do not even suppose that I know what
+I do not know.
 
 That claim is often softened
 into a rhetorical gesture.
@@ -371,21 +365,39 @@ anti-rational.
 But at 210e the decisive word
 enters: *ἐξαίφνης*,
 suddenly.  After the right
-ascent, "suddenly he will
-have revealed to him ... a
-wondrous vision" (210e).
-The thing seen is described
+ascent, *πρὸς τέλος ἤδη
+ἰὼν τῶν ἐρωτικῶν
+ἐξαίφνης κατόψεταί τι
+θαυμαστὸν τὴν φύσιν
+καλόν* — "going at length
+toward the end of the erotic
+matters, he will catch sight
+suddenly of a certain
+wonderful thing, beautiful in
+its nature" (210e).  At 211a-b
+the thing seen is described
 in the familiar negative
-style: it neither comes to
-be nor perishes, it is not
-beautiful in one respect and
-ugly in another, it is not
-this face or those hands,
-not some particular discourse
-or branch of knowledge, but
-"existing ever in singularity
-of form independent by
-itself" (211b).
+style:
+
+> *ἀεὶ ὂν καὶ οὔτε
+> γιγνόμενον οὔτε
+> ἀπολλύμενον, οὔτε
+> αὐξανόμενον οὔτε
+> φθίνον ... αὐτὸ καθ'
+> αὑτὸ μεθ' αὑτοῦ
+> μονοειδὲς ἀεὶ ὄν*.
+
+"Ever existing and neither
+coming to be nor perishing,
+neither increasing nor
+diminishing ... by itself
+with itself, single in form,
+ever being" (211a-b). It is
+not beautiful in one respect
+and ugly in another, not this
+face or those hands, not some
+particular discourse or
+branch of knowledge.
 
 One can certainly read this
 as a metaphysical statement
@@ -448,15 +460,33 @@ Plato builds strategic
 reserve into the point of
 greatest elevation.
 
-The governing phrase is
-at 509b.  The Good gives not
-only knowability but being:
-yet the Good itself is
-"not essence" and stands
-*ἐπέκεινα τῆς
-οὐσίας*, "beyond
-being" or "beyond essence,"
-in dignity and power.
+The governing sentence is
+at 509b:
+
+> *καὶ τοῖς γιγνωσκομένοις
+> τοίνυν μὴ μόνον τὸ
+> γιγνώσκεσθαι φάναι ὑπὸ
+> τοῦ ἀγαθοῦ παρεῖναι,
+> ἀλλὰ καὶ τὸ εἶναί τε
+> καὶ τὴν οὐσίαν ὑπ'
+> ἐκείνου αὐτοῖς
+> προσεῖναι, οὐκ οὐσίας
+> ὄντος τοῦ ἀγαθοῦ,
+> ἀλλ' ἔτι ἐπέκεινα τῆς
+> οὐσίας πρεσβείᾳ καὶ
+> δυνάμει ὑπερέχοντος*.
+
+The Good gives to things known
+not merely their being known
+but also their being and their
+essence — "the Good itself
+not being essence but
+exceeding essence in dignity
+and power" (509b). The
+participial phrase *ἐπέκεινα
+τῆς οὐσίας*, "beyond
+essence," is the load-bearing
+turn.
 That already means that
 the principle grounding the
 intelligible order is not
@@ -734,18 +764,34 @@ allows some sense in which
 not-being is.
 
 The opening aporia is
-deliberately brutal.
-At 237a-238e the Eleatic
-prohibition blocks speech.
-If *τὸ μὴ ὄν*
-is absolutely impossible,
-then one cannot even name
-it without contradiction.
-That seems to destroy any
-account of false statement,
-image, or sophistry.
-The sophist hides precisely
-in that impossibility.
+deliberately brutal.  At 237a
+the Stranger cites
+Parmenides' own verse against
+the very enterprise of saying
+that not-being is:
+
+> *οὐ γὰρ μήποτε τοῦτο
+> δαμῇ, εἶναι μὴ ἐόντα·
+> ἀλλὰ σὺ τῆσδ' ἀφ' ὁδοῦ
+> διζήμενος εἶργε νόημα*.
+
+"For never shall this be
+tamed, that things that are
+not are; but keep your
+thought from this road of
+inquiry" (Parmenides fr. 7.1,
+cited at *Sophist* 237a).
+If *τὸ μὴ ὄν* is absolutely
+impossible, then one cannot
+even name it without
+contradiction.  At 237b-238e
+the result is sharpened: the
+sophist hides in just this
+impossibility, since
+falsehood and image must
+themselves exhibit
+not-being if they are to
+be at all.
 
 The Stranger's first
 major advance comes
@@ -768,57 +814,135 @@ opens being to relation.
 Then comes the decisive
 rebuke to static absolutism.
 At 248e-249a the Stranger
-asks whether motion,
-life, soul, and mind are
-really absent from what is.
-That would be "a shocking
-admission."  The conclusion
-at 249d is that being must in
-some way involve both motion
-and rest.  The philosopher
-cannot accept absolute
-immobility or universal flux.
-Being is not a corpse.
+asks:
+
+> *τί δὲ πρὸς Διός; ὡς
+> ἀληθῶς κίνησιν καὶ ζωὴν
+> καὶ ψυχὴν καὶ φρόνησιν
+> ἦ ῥᾳδίως πεισθησόμεθα
+> τῷ παντελῶς ὄντι μὴ
+> παρεῖναι, μηδὲ ζῆν αὐτὸ
+> μηδὲ φρονεῖν, ἀλλὰ
+> σεμνὸν καὶ ἅγιον, νοῦν
+> οὐκ ἔχον, ἀκίνητον
+> ἑστὸς εἶναι*; (248e-249a).
+
+"By Zeus, will we be readily
+persuaded that motion, life,
+soul, and intelligence are
+truly absent from what
+perfectly is, that it neither
+lives nor thinks, but stands
+solemn and holy, without
+intelligence, motionless?"
+The conclusion at 249d is
+that being must in some way
+involve both motion and rest.
+The philosopher cannot accept
+absolute immobility or
+universal flux.  Being is not
+a corpse.
 
 The passage on the greatest
 kinds, 254b-255e, is one of
 the most concentrated in
-the corpus.  The Stranger
-marks out the *μέγιστα
-τῶν γενῶν*, the
-greatest kinds.  Being,
-motion, and rest are first
-separated.  Sameness and
-otherness are then added.
+the corpus.  At 254d the
+Stranger marks out the
+*μέγιστα τῶν γενῶν*,
+the greatest kinds:
+
+> *μέγιστα μὴν τῶν γενῶν
+> ἃ νυνδὴ διῇμεν τό τε
+> ὂν αὐτὸ καὶ στάσις καὶ
+> κίνησις* (254d).
+
+"The greatest among the kinds
+through which we have just
+been moving are being itself,
+rest, and motion." Sameness
+and otherness are then added
+as a second pair (254e-255e),
+yielding the famous *πέντε*
+or five kinds.  At 255a-b the
+Stranger argues that sameness
+cannot be identical with
+being, since predicating
+"being" of motion and "the
+same" of motion plainly says
+two different things; and at
+255c-d otherness is shown to
+be a *καθ' αὑτό* nature
+present throughout the
+others.
+
 The point is not to create
 a list for classroom
-memorization.  The point
-is to show that reality is
-articulated through relations
-that cannot be reduced to
-a single static opposition.
-Motion is other than rest,
-yet both are.  Sameness is
-not identical with being.
-Otherness is irreducible.
+memorization.  It is to show
+that reality is articulated
+through relations that cannot
+be reduced to a single static
+opposition.  Motion is other
+than rest, yet both are.
+Sameness is not identical
+with being.  Otherness is
+irreducible.
 
 Once that structure is in
 place, the way opens for
 the famous rehabilitation
-of non-being.  The central
-late-Platonic move is not the
-claim that absolute nothing
-somehow exists.  It is
-the claim that not-being,
+of non-being.  At 256d-e the
+Stranger spells out the move:
+
+> *οὐκοῦν δὴ σαφῶς ἡ
+> κίνησις ὄντως οὐκ ὄν
+> ἐστι καὶ ὄν, ἐπείπερ
+> τοῦ ὄντος μετέχει* (256d).
+
+"Motion, then, plainly is
+both not-being and being,
+since it participates in
+being." A few lines later
+(258d-e) the Stranger
+reformulates more directly,
+contrasting the proposed
+account with the Eleatic
+prohibition:
+
+> *ἡμεῖς δέ γε οὐ μόνον
+> τὰ μὴ ὄντα ὡς ἔστιν
+> ἀπεδείξαμεν, ἀλλὰ καὶ
+> τὸ εἶδος ὃ τυγχάνει ὂν
+> τοῦ μὴ ὄντος
+> ἀπεφηνάμεθα: τὴν γὰρ
+> θατέρου φύσιν
+> ἀποδείξαντες οὖσάν τε
+> καὶ κατακεκερματισμένην
+> ἐπὶ πάντα τὰ ὄντα πρὸς
+> ἄλληλα ...* (258d-e).
+
+"We have not only shown that
+the things that are not are,
+but also exhibited the kind
+which not-being happens to
+be: for we showed the nature
+of the other to be, and to be
+distributed in fragments over
+all the things that are with
+respect to one another." The
+central late-Platonic move is
+not the claim that absolute
+nothing somehow exists.  It
+is the claim that not-being,
 in the relevant sense, is
-difference.  When something
-is said not to be, it is
-not being named as sheer
-nullity.  It is being marked
-as other than something else.
-Thus the Stranger can say,
-without absurdity, that after
-a fashion not-being is and
+otherness — *ἡ θατέρου
+φύσις*.  When something is
+said not to be, it is not
+being named as sheer nullity.
+It is being marked as other
+than something else.  Thus
+the Stranger can say, without
+absurdity, that after a
+fashion not-being is and
 being in a sense is not
 (241d).  False statement
 becomes possible because
@@ -827,19 +951,30 @@ verbs in ways that present
 what is other than the case.
 
 This move is easy to
-understate.  It changes
-the whole field.  The old
+understate.  It changes the
+whole field.  Read against
+the earlier history, the
+*Sophist*'s differentiation
+of being through the five
+greatest kinds is also the
+text where the long-running
 opposition between a
-Parmenidean reading of Plato
-and a Heraclitean reading is
-here partially dissolved.
+Parmenidean and a Heraclitean
+reading of Plato is at least
+partially neutralized — this
+last framing is the present
+reader's reconstruction
+(AF4), since Plato does not
+himself put the matter in
+those historiographic terms.
 Plato does not surrender
-being to motion.  He does not
-surrender motion to static
-being.  He differentiates
-the ontological field so
-that motion, rest, sameness,
-and otherness can be thought
+being to motion.  He does
+not surrender motion to
+static being.  He
+differentiates the
+ontological field so that
+motion, rest, sameness, and
+otherness can be thought
 together.
 
 If one wants the late Plato's
@@ -866,15 +1001,50 @@ and political.
 
 At 283c-284e the Stranger
 distinguishes two sciences
-of measurement.  One measures
-greater and less against each
-other.  The other measures
-them against the mean, the
+of measurement.  The
+distinction is stated at
+284e:
+
+> *διαιροῖμεν ἂν τὴν
+> μετρητικήν ... ἓν μὲν
+> τιθέντες αὐτῆς μόριον
+> συμπάσας τέχνας ὁπόσαι
+> τὸν ἀριθμὸν καὶ μήκη
+> καὶ βάθη καὶ πλάτη καὶ
+> ταχυτῆτας πρὸς
+> τοὐναντίον μετροῦσιν,
+> τὸ δὲ ἕτερον, ὁπόσαι
+> πρὸς τὸ μέτριον καὶ τὸ
+> πρέπον καὶ τὸν καιρὸν
+> καὶ τὸ δέον καὶ πάνθ'
+> ὁπόσα εἰς τὸ μέσον
+> ἀπῳκίσθη τῶν ἐσχάτων*
+> (284e).
+
+"We would divide the art of
+measurement ... setting one
+part of it as the totality of
+arts that measure number and
+lengths and depths and
+breadths and speeds against
+their opposites, and the
+other part as those that
+measure against the mean, the
 fitting, the opportune, the
-needful.  Without this second
-sort the arts disappear.
-The kingly art disappears
-with them.
+needful, and all such things
+as have been settled in the
+middle distance from the
+extremes." Without this
+second sort the arts
+disappear.  The kingly art
+disappears with them.  And
+at 284a-b the Stranger has
+already insisted that if
+greater and less are referred
+only to each other and not to
+the *μέτριον*, the mean,
+they cannot be referred to a
+standard at all.
 
 This is not a sermon in
 praise of moderation.
@@ -940,16 +1110,46 @@ through a formal fourfold.
 The prelude is at 16c-17a.
 Socrates calls the method a
 divine gift, transmitted with
-Promethean fire.  All things
-said to be are from one
-and many and have limit
-and unlimitedness "grown
-together" in them.  The error
-of bad dialecticians is to
+Promethean fire:
+
+> *θεῶν μὲν εἰς ἀνθρώπους
+> δόσις, ὥς γε καταφαίνεται
+> ἐμοί, ποθὲν ἐκ θεῶν
+> ἐρρίφη διά τινος
+> Προμηθέως ἅμα φανοτάτῳ
+> τινὶ πυρί· καὶ οἱ μὲν
+> παλαιοί, κρείττονες
+> ἡμῶν καὶ ἐγγυτέρω
+> θεῶν οἰκοῦντες, ταύτην
+> φήμην παρέδοσαν, ὡς
+> ἐξ ἑνὸς μὲν καὶ πολλῶν
+> ὄντων τῶν ἀεὶ
+> λεγομένων εἶναι, πέρας
+> δὲ καὶ ἀπειρίαν ἐν
+> αὑτοῖς σύμφυτον
+> ἐχόντων* (16c).
+
+"A gift of the gods to
+human beings, so it appears
+to me, was hurled down from
+somewhere by way of a certain
+Prometheus together with a
+most brilliant fire; and the
+ancients, who were better
+than we and dwelt nearer the
+gods, handed down the report
+that the things that are
+ever said to be come from
+one and many and have limit
+and unlimitedness grown
+together in them" (16c).
+The error of bad
+dialecticians (16d-17a) is to
 leap from one straight into
 the indefinite many.  One
-must look for the determinate
-articulations in between.
+must look for the
+determinate articulations in
+between.
 
 Already the tone has changed
 from the *Theaetetus*.
@@ -961,40 +1161,87 @@ articulating structure
 itself.
 
 The main doctrine begins
-at 23c.  Socrates sorts all
-things into four classes.
-The first is the unlimited,
-recognized by more and
-less, hotter and colder,
-quicker and slower, stronger
-and weaker.  The second is
-limit, equality, measure,
-proportion, number,
+at 23c:
+
+> *πάντα τὰ νῦν ὄντα ἐν
+> τῷ παντὶ διχῇ
+> διαλάβωμεν, μᾶλλον δ',
+> εἰ βούλει, τριχῇ ...
+> τὸν θεὸν ἐλέγομέν που
+> τὸ μὲν ἄπειρον δεῖξαι
+> τῶν ὄντων, τὸ δὲ πέρας;
+> ... τετάρτου μοι γένους
+> αὖ προσδεῖν φαίνεται
+> ... τῆς συμμείξεως
+> τούτων πρὸς ἄλληλα τὴν
+> αἰτίαν* (23c-d).
+
+"Let us divide all the
+things now in the universe in
+two, or rather, if you will,
+in three ... We were saying,
+I think, that the god showed
+some of the things that are
+to be unlimited and some to
+be limit ... I now seem to
+need a fourth kind ... the
+cause of their being mixed
+together with one another"
+(23c-d).  The first class is
+the unlimited (*ἄπειρον*),
+recognized by more and less,
+hotter and colder, quicker
+and slower, stronger and
+weaker.  The second is limit
+(*πέρας*) — equality,
+measure, proportion, number,
 the principle by which
 indefinite variation is
 brought into commensurable
-form.  The third is the mixed
-class, what comes to be when
-the unlimited is ordered by
-limit.  The fourth is cause,
-the principle that produces
-and orders the mixture.
+form.  The third is the
+mixed class, what comes to
+be when the unlimited is
+ordered by limit.  The
+fourth is cause, the
+principle that produces and
+orders the mixture.
 
 The language is formal, but
 the examples are concrete.
 Health arises where hot and
 cold are properly measured.
-Music arises where pitch
-and tempo are brought into
-order.  The seasons, beauty,
-and strength are effects of
-the same sort of imposition
-of limit upon the unlimited
-(25e-26c).  When the dialogue
-reaches 30c-31a, mind is
-placed in the causal class
-and pleasure remains aligned
-with the unlimited.
+Music arises where pitch and
+tempo are brought into order.
+The seasons, beauty, and
+strength are effects of the
+same sort of imposition of
+limit upon the unlimited
+(25e-26c).  At 30c-d the
+dialogue makes the placement
+of mind explicit:
+
+> *ἄπειρόν τε ἐν τῷ
+> παντὶ πολύ, καὶ πέρας
+> ἱκανόν, καί τις ἐπ'
+> αὐτοῖς αἰτία οὐ φαύλη,
+> κοσμοῦσά τε καὶ
+> συντάττουσα ἐνιαυτούς
+> τε καὶ ὥρας καὶ μῆνας,
+> σοφία καὶ νοῦς
+> λεγομένη δικαιότατ' ἄν*
+> (30c).
+
+"There is in the whole much
+unlimited and sufficient
+limit, and over them a not
+trivial cause that orders and
+arranges years and seasons
+and months — most justly
+called wisdom and mind."
+Mind is thus placed in the
+causal class and pleasure
+remains aligned with the
+unlimited.
 
 This is the passage in late
 Plato that most readily
@@ -1039,15 +1286,32 @@ analogy begins.
 At 27d-29d the *Timaeus*
 begins with a distinction
 that will govern the rest of
-the dialogue: what always
-is and has no becoming,
-and what always becomes and
-never simply is.  The first
-is grasped by thought with
-reasoning.  The second is
-apprehended by opinion
-together with sensation
-(28a).
+the dialogue:
+
+> *ἔστιν οὖν δὴ κατ' ἐμὴν
+> δόξαν πρῶτον διαιρετέον
+> τάδε· τί τὸ ὂν ἀεί,
+> γένεσιν δὲ οὐκ ἔχον,
+> καὶ τί τὸ γιγνόμενον
+> μὲν ἀεί, ὂν δὲ οὐδέποτε;*
+> (27d-28a).
+
+"In my view we must first
+distinguish the following:
+what is it that always is and
+has no becoming, and what is
+it that always becomes and
+never is?" The first is
+grasped *νοήσει μετὰ
+λόγου*, by intellection with
+reason, ever in the same way;
+the second is *δόξῃ μετ'
+αἰσθήσεως ἀλόγου
+δοξαστόν*, an object of
+opinion together with
+irrational sensation,
+becoming and perishing, and
+never really being (28a).
 
 This is recognizably
 Platonic.  Yet the
@@ -1072,20 +1336,42 @@ for this essay comes next.
 Since the cosmos is a copy
 of an intelligible model,
 the account given of it must
-itself be proportionate to
-a copy.  Timaeus states
-the methodological
-consequence plainly at
-29b-29d: accounts concerning
-abiding intelligible things
-can aspire to stability,
-but accounts concerning a
-generated likeness will be
-themselves likely rather than
-fully exact.  Therefore "it
-becomes us to accept the
-likely account" and refrain
-from seeking beyond it (29d).
+itself be proportionate to a
+copy.  Timaeus states the
+methodological consequence
+plainly at 29b-29d.  At 29c
+the principle is given as
+a proportion:
+
+> *ὅτιπερ πρὸς γένεσιν
+> οὐσία, τοῦτο πρὸς πίστιν
+> ἀλήθεια* (29c).
+
+"As being is to becoming,
+so truth is to belief."
+Accounts concerning the
+intelligible model can
+aspire to stability; accounts
+concerning the generated
+likeness will themselves be
+*εἰκότες*, likely or
+suitable, rather than fully
+exact.  Hence the closing
+methodological sentence at
+29d:
+
+> *τὸν εἰκότα μῦθον
+> ἀποδεχομένους πρέπει
+> τούτου μηδὲν ἔτι πέρα
+> ζητεῖν* (29d).
+
+"It becomes us, accepting the
+likely *muthos*, to seek
+nothing further beyond this."
+The phrase *εἰκὼς μῦθος*
+is load-bearing.  Cosmology
+is a fitting story, not a
+demonstration.
 
 This line is one of the
 anchors of the whole late
@@ -1135,20 +1421,53 @@ from intelligent persuasion
 exercised upon a recalcitrant
 field.
 
-The complication deepens when
-Timaeus says that a third
-kind must be introduced.
-Formerly the dialogue had
-enough with model and copy.
-Now it must "declare another
-third kind" (48e).  At 49a
-he calls this third kind
-the receptacle and nurse of
-all becoming.  Later it will
-be described as invisible,
-formless, all-receiving, and
-grasped by a "kind of bastard
-reasoning" (51a, 52b).
+The complication deepens
+when Timaeus says that a
+third kind must be
+introduced.  Formerly the
+dialogue had enough with
+model and copy.  At 48e a
+new beginning is announced:
+
+> *τότε μὲν γὰρ δύο εἴδη
+> διειλόμεθα, νῦν δὲ
+> τρίτον ἄλλο γένος ἡμῖν
+> δηλωτέον* (48e-49a).
+
+"For previously we
+distinguished two kinds; now
+we must declare another
+third kind." At 49a Timaeus
+calls this third kind the
+*ὑποδοχή* and nurse of
+all becoming.  At 52a-b it
+is described more fully:
+
+> *τρίτον δὲ αὖ γένος ὂν
+> τὸ τῆς χώρας ἀεί,
+> φθορὰν οὐ προσδεχόμενον,
+> ἕδραν δὲ παρέχον ὅσα
+> ἔχει γένεσιν πᾶσιν,
+> αὐτὸ δὲ μετ'
+> ἀναισθησίας ἁπτὸν
+> λογισμῷ τινι νόθῳ, μόγις
+> πιστόν* (52a-b).
+
+"A third kind, that of
+*chōra*, always existing,
+not admitting destruction,
+providing a seat for all
+that has becoming, itself
+graspable apart from sensation
+by a kind of bastard
+reasoning, scarcely
+trustworthy." The
+load-bearing phrase is
+*λογισμῷ τινι νόθῳ*, by
+a bastard or illegitimate
+reasoning; the text marks
+the cognitive mode itself
+as compromised.
 
 This is the famous
 *χώρα*, though the
@@ -1228,19 +1547,39 @@ Plato's claim.
 
 ### 11. The *Timaeus*: the heavenly plant
 
-The cosmological architecture
+The cosmological construction
 of the *Timaeus* often
 overshadows its concluding
 ethical note.  It should not.
-At 90a-c Timaeus turns back
-to the human being and says
-that the most lordly part
-of us has been given as a
-*daimōn* lodged in the top
-of the body.  Human beings
-are "not an earthly but a
-heavenly plant" (90a).  Our
-root is suspended from above.
+At 90a Timaeus turns back to
+the human being:
+
+> *τὸ δὲ δὴ περὶ τοῦ
+> κυριωτάτου παρ' ἡμῖν
+> ψυχῆς εἴδους διανοεῖσθαι
+> δεῖ τῇδε, ὡς ἄρα αὐτὸ
+> δαίμονα θεὸς ἑκάστῳ
+> δέδωκεν, τοῦτο ὃ δή
+> φαμεν οἰκεῖν μὲν ἡμῶν
+> ἐπ' ἄκρῳ τῷ σώματι,
+> πρὸς δὲ τὴν ἐν οὐρανῷ
+> συγγένειαν ἀπὸ γῆς
+> ἡμᾶς αἴρειν ὡς ὄντας
+> φυτὸν οὐκ ἔγγειον ἀλλὰ
+> οὐράνιον* (90a).
+
+"Concerning the most lordly
+form of soul among us, we
+should think as follows: that
+the god has given it to each
+as a *daimōn*; we say that
+this dwells at the top of our
+body and raises us from
+earth toward our kinship with
+heaven, since we are not an
+earthly but a heavenly plant."
+Our root is suspended from
+above.
 
 The consequence is simple and
 severe.  Those who live for
@@ -1269,41 +1608,70 @@ what is highest in it.
 
 ### 12. *Laws* X: soul before body
 
-The theology of
-*Laws* X lacks the
-dramatic compression
-of the *Sophist* and the
-cosmological strangeness of
-the *Timaeus*, but it is
-no less important for the
-late picture.  At 887b-c the
-Athenian says that the laws
-need a prelude capable of
-persuading citizens that the
-gods exist, that they are
-good, and that they honor
-justice more than men do.
-The argument is not presented
-as a private speculation.
-It is the theological basis
-of legislation.
+The theology of *Laws* X
+lacks the dramatic
+compression of the *Sophist*
+and the cosmological
+strangeness of the
+*Timaeus*, but it is no
+less important for the late
+picture.  At 887b-c the
+Athenian says the laws need
+a prelude capable of
+persuading citizens of three
+things together:
+
+> *πιθανότητά τινα τοὺς
+> λόγους ἡμῶν ἔχειν, ὡς
+> θεοί τ' εἰσὶν καὶ
+> ἀγαθοί, δίκην τιμῶντες
+> διαφερόντως ἀνθρώπων*
+> (887b).
+
+"That our arguments have
+some plausibility, namely
+that gods exist, that they
+are good, and that they
+honor justice more than men
+do." The argument is not
+presented as a private
+speculation.  It is the
+theological basis of
+legislation.
 
 The central late-Platonic
 move in this book is to make
 soul prior to body through
-the priority of motion.
-If self-motion is the source
-of motion, and soul is the
-self-moving principle, then
-soul is older than bodies
-moved by it.  The argument
-culminates in the claim that
-if soul drives the heavens,
-those souls are divine
-(898e-899c).  The result is
-the famous late sentence that
-"all things are full of gods"
-(899b-c).
+the priority of motion.  At
+896a soul is identified with
+*τὴν δυναμένην αὐτὴν
+αὑτὴν κινεῖν κίνησιν*,
+the motion capable of moving
+itself; from this it follows
+that soul is *τὴν πρώτην
+γένεσιν καὶ κίνησιν τῶν
+... ὄντων*, the first
+becoming and motion of the
+things that are (896a-b).
+The argument culminates at
+899b in the rhetorical
+challenge:
+
+> *ἔσθ' ὅστις ταῦτα
+> ὁμολογῶν ὑπομενεῖ μὴ
+> θεῶν εἶναι πλήρη πάντα;*
+> (899b).
+
+"Is there anyone who, having
+agreed to these things, will
+endure to deny that all
+things are full of gods?"
+The famous formula *θεῶν
+εἶναι πλήρη πάντα*,
+all things full of gods, is
+the conclusion that the
+priority of self-moving soul
+forces.
 
 What matters for the
 present essay is not the
@@ -1372,59 +1740,95 @@ the reserve otherwise visible
 across the late corpus.
 
 The first sentence is
-devastatingly strong.  At
-341c Plato says: *οὐδὲ
-μήποτε γένηται
-σύγγραμμα*.
-No treatise of mine exists,
-nor will there ever exist,
-on these matters.  The reason
-follows at once.  The subject
-"does not at all admit of
-verbal expression like other
-studies" (341c).
+devastatingly strong:
 
-Then comes the image
-that has governed
-countless later readings.
-After long application to
-the matter itself and a
-life lived together with
-it, truth is born in the
-soul *ἐξαίφνης*,
-suddenly, "as light that is
-kindled by a leaping spark"
-(341c-d).  The movement is
-unmistakable.  No amount of
-summary description simply
-delivers the thing.  There is
-apprenticeship, friction,
-and then sudden ignition.
+> *οὔκουν ἐμόν γε περὶ
+> αὐτῶν ἔστιν σύγγραμμα
+> οὐδὲ μήποτε γένηται·
+> ῥητὸν γὰρ οὐδαμῶς ἐστιν
+> ὡς ἄλλα μαθήματα, ἀλλ'
+> ἐκ πολλῆς συνουσίας
+> γιγνομένης περὶ τὸ
+> πρᾶγμα αὐτὸ καὶ τοῦ
+> συζῆν ἐξαίφνης, οἷον
+> ἀπὸ πυρὸς πηδήσαντος
+> ἐξαφθὲν φῶς, ἐν τῇ
+> ψυχῇ γενόμενον αὐτὸ
+> ἑαυτὸ ἤδη τρέφει*
+> (341c-d).
+
+"There is no treatise of mine
+on these matters, nor will
+there ever be one; for the
+subject is in no way
+expressible in words like
+other studies, but, from much
+intercourse with the matter
+itself and from living
+together with it, suddenly,
+as light kindled from a
+leaping spark, it comes to be
+in the soul and at once
+nourishes itself." The
+movement is unmistakable.  No
+amount of summary description
+simply delivers the thing.
+There is apprenticeship,
+friction, and then sudden
+ignition.
 
 The middle of the passage
 analyzes why.  At 342a-b
 Plato distinguishes five
-things: name, definition,
-image, knowledge, and the
-thing itself.  At 343b-c
-the soul seeks not merely
-the quality of the thing but
-its essence.  Yet the first
-four means are all unstable.
-Names can shift.  Definitions
-are made of names and verbs
-and are therefore unstable
-too.  Images are inadequate.
-Even discursive knowledge
-stands at a remove from the
-thing itself.  That is why,
-at 344b, only the labor
-of moving up and down
-among names, definitions,
-perceptions, and refutations
-eventually makes "the light
-of intelligence and reason"
-burst forth.
+things:
+
+> *ἓν μὲν ὄνομα, δεύτερον
+> δὲ λόγος, τὸ δὲ τρίτον
+> εἴδωλον, τέταρτον δὲ
+> ἐπιστήμη ... πέμπτον δ'
+> αὐτὸ τιθέναι δεῖ ὃ δὴ
+> γνωστόν τε καὶ ἀληθῶς
+> ἐστιν ὄν* (342a-b).
+
+"First a name, second an
+account, third an image,
+fourth knowledge ... and we
+must posit as fifth the
+thing that is itself
+knowable and truly existing."
+At 343b-c the soul seeks
+not merely the quality of
+the thing but its essence.
+Yet the first four means
+are all unstable.  Names can
+shift.  Definitions are made
+of names and verbs and are
+therefore unstable too.
+Images are inadequate.  Even
+discursive knowledge stands
+at a remove from the thing
+itself.  At 344b only the
+long labor of friction
+between the four eventually
+makes intelligence and mind
+flash forth:
+
+> *μόγις δὲ τριβόμενα πρὸς
+> ἄλληλα αὐτῶν ἕκαστα,
+> ὀνόματα καὶ λόγοι
+> ὄψεις τε καὶ αἰσθήσεις,
+> ἐν εὐμενέσιν ἐλέγχοις
+> ἐλεγχόμενα ... ἐξέλαμψε
+> φρόνησις περὶ ἕκαστον
+> καὶ νοῦς* (344b).
+
+"With difficulty rubbed
+against one another — names,
+accounts, sights, and
+perceptions — tested in
+benevolent refutations,
+intelligence and mind flash
+out concerning each thing."
 
 This is not
 anti-intellectualism.
@@ -1559,8 +1963,8 @@ greatest kinds.  The
 schema of limit, unlimited,
 mixture, and cause that looks
 less like occasional ethical
-language and more like
-first-principle architecture.
+language and more like a
+first-principle scaffolding.
 The *Timaeus* introduces a
 third kind, *chōra*, which
 no simple two-level theory
@@ -1633,8 +2037,8 @@ scholars.  Where it diverges
 is in refusing to think
 that reserve necessarily
 culminates in a finished
-esoteric architecture
-recoverable in detail.
+esoteric system recoverable
+in detail.
 The late dialogues present
 an unfinished metaphysics.
 The unfinished quality is
@@ -1777,25 +2181,30 @@ and mind.
 ### 21. *Chōra* and the user's constructive reading
 
 The most delicate comparison
-concerns *chōra*.
-The present reading does
-think the passage offers
-a notable structural fit
-with the user's attempt
-to think a positive field
-of manifestation that is
+concerns *chōra*.  The
+present reading does think
+the passage offers a notable
+structural fit with the
+user's attempt to think a
+positive field of
+manifestation that is
 neither identical with
 formed appearances nor
 simply reducible to pure
 intelligible identity.
 
 That fit should be stated
-with all its caution.
-This is the user's reading.
-It is not a claim that Plato
-explicitly teaches a doctrine
-of *bhāvarūpa avidyā*.
-Plato's text gives:
+with all its caution.  This
+is the user's reconstruction
+(AF1, AF4): a cross-tradition
+mapping that the present
+reader proposes, not a
+historical claim that Plato
+endorses a doctrine of
+*bhāvarūpa avidyā* or that
+the Vedāntic tradition
+endorses *chōra*.  Plato's
+text gives:
 
 - a third kind,
 - receptive,
@@ -1819,10 +2228,9 @@ visible in the prose.
 ## Conclusion — Late Plato's unfinished metaphysics
 
 The case can now be stated
-plainly.
-
-The early dialogues do not
-disappear in the late ones.
+plainly.  The early
+dialogues do not disappear
+in the late ones.
 Their lesson remains: human
 beings do not possess wisdom
 by merely having arguments,
