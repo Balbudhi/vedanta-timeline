@@ -2263,25 +2263,33 @@ function wireTranslationDisclosures(root, ctx) {
   });
 }
 
-// ---------- popover drag helper (Fix 2) -----------
-// Shared between the glossary popover and the citation popover. Adds:
-//   • A drag handle (an element matching .pop-drag, or the popover itself)
-//     that lets the user reposition the popover by pointer-drag.
-//   • Bounds clamping so the popover stays at least partially on-screen.
+// ---------- popover drag helper -----------
+// Shared between the glossary popover and the citation popover. The popover
+// itself is the drag surface — there is no separate handle bar. We bail on
+// interactive children (links, buttons, inputs, anything marked
+// [data-no-drag]) so clicks on glossary terms, the close button, and the
+// "Open thinker" button still work normally. A 4 px movement threshold lets
+// the user select text without accidentally starting a drag.
+//
+//   • Bounds clamping keeps the popover at least partially on-screen.
 //   • Optional session persistence: pass a storageKey to remember the user's
 //     preferred placement across opens (via localStorage).
-// Skipped on mobile (≤720 px): the popover is a bottom-sheet there and the
+//
+// Skipped on mobile (≤720 px): the popover is a bottom-sheet there and a
 // drag would conflict with the sheet's CSS-fixed positioning.
+const POP_DRAG_THRESHOLD = 4;
+
 function makePopoverDraggable(pop, opts) {
   const isMobile = window.matchMedia("(max-width: 720px)").matches;
   if (isMobile) return;
-  const handle = pop.querySelector(".pop-drag") || pop;
-  let dragging = false;
+  let armed = false;        // pointerdown landed on a draggable region
+  let dragging = false;     // movement has crossed the threshold
   let startX = 0, startY = 0, startLeft = 0, startTop = 0;
+  let activePointerId = null;
 
   function clampLeft(x, el) {
     const w = el.offsetWidth || 400;
-    const minLeft = -w + 100;                       // keep ≥100 px visible
+    const minLeft = -w + 100;                       // keep >=100 px visible
     const maxLeft = window.innerWidth - 100;
     return Math.max(minLeft, Math.min(maxLeft, x));
   }
@@ -2305,39 +2313,71 @@ function makePopoverDraggable(pop, opts) {
     } catch (_) {}
   }
 
-  handle.addEventListener("pointerdown", (e) => {
-    if (e.target.closest("button, a, input, select, textarea")) return;
-    dragging = true;
+  function isInteractiveTarget(target) {
+    if (!target || target.nodeType !== 1) return false;
+    return !!target.closest(
+      "a, button, input, select, textarea, [data-no-drag], [contenteditable=''], [contenteditable='true']",
+    );
+  }
+
+  // A pointerdown inside the popover's scrollbar gutter must scroll, not drag.
+  function isOnScrollbar(e) {
+    const r = pop.getBoundingClientRect();
+    const scrollbarWidth = pop.offsetWidth - pop.clientWidth;
+    return scrollbarWidth > 0 && (e.clientX > r.right - scrollbarWidth - 1);
+  }
+
+  pop.addEventListener("pointerdown", (e) => {
+    if (e.button !== undefined && e.button !== 0) return; // primary button only
+    if (isInteractiveTarget(e.target)) return;
+    if (isOnScrollbar(e)) return;
+    armed = true;
+    dragging = false;
+    activePointerId = e.pointerId;
     startX = e.clientX;
     startY = e.clientY;
     const r = pop.getBoundingClientRect();
     startLeft = r.left;
     startTop = r.top;
-    try { handle.setPointerCapture(e.pointerId); } catch (_) {}
-    pop.classList.add("is-dragging");
-    e.preventDefault();
   });
-  handle.addEventListener("pointermove", (e) => {
-    if (!dragging) return;
+
+  pop.addEventListener("pointermove", (e) => {
+    if (!armed || e.pointerId !== activePointerId) return;
     const dx = e.clientX - startX;
     const dy = e.clientY - startY;
+    if (!dragging) {
+      if (Math.abs(dx) < POP_DRAG_THRESHOLD && Math.abs(dy) < POP_DRAG_THRESHOLD) return;
+      // Don't begin a drag if the user is actively selecting text.
+      const sel = window.getSelection && window.getSelection();
+      if (sel && sel.toString().length > 0) { armed = false; return; }
+      dragging = true;
+      try { pop.setPointerCapture(e.pointerId); } catch (_) {}
+      pop.classList.add("is-dragging");
+      e.preventDefault();
+    }
     pop.style.left = clampLeft(startLeft + dx, pop) + "px";
     pop.style.top = clampTop(startTop + dy, pop) + "px";
   });
+
   const endDrag = (e) => {
-    if (!dragging) return;
+    if (!armed) return;
+    const wasDragging = dragging;
+    armed = false;
     dragging = false;
-    pop.classList.remove("is-dragging");
-    try { handle.releasePointerCapture(e.pointerId); } catch (_) {}
-    if (key) {
-      try {
-        const r = pop.getBoundingClientRect();
-        localStorage.setItem(key, JSON.stringify({ left: r.left, top: r.top }));
-      } catch (_) {}
+    if (wasDragging) {
+      pop.classList.remove("is-dragging");
+      try { pop.releasePointerCapture(e.pointerId); } catch (_) {}
+      if (key) {
+        try {
+          const r = pop.getBoundingClientRect();
+          localStorage.setItem(key, JSON.stringify({ left: r.left, top: r.top }));
+        } catch (_) {}
+      }
     }
+    activePointerId = null;
   };
-  handle.addEventListener("pointerup", endDrag);
-  handle.addEventListener("pointercancel", endDrag);
+  pop.addEventListener("pointerup", endDrag);
+  pop.addEventListener("pointercancel", endDrag);
 }
 
 // ---------- glossary popover -----------
@@ -2374,8 +2414,7 @@ function openGlossary(termKey, anchorEl) {
     ? `<div class="gp-translator"><span class="gp-label">Translator note</span><div>${md(entry.translator_note)}</div></div>`
     : "";
   pop.innerHTML = `
-    <div class="pop-drag gp-drag" aria-hidden="true"></div>
-    <button class="gp-close" aria-label="Close">×</button>
+    <button class="gp-close" aria-label="Close" data-no-drag type="button">×</button>
     <div class="gp-term">${escape(entry.term_iast || termKey)}</div>
     ${entry.literal ? `<div class="gp-literal">Literally: <em>${escape(entry.literal)}</em></div>` : ""}
     <div class="gp-invariant"><span class="gp-label">${entry.invariant_definition && entry.invariant_definition.toLowerCase().includes("no shared invariant") ? "No invariant" : "Invariant"}</span><div>${md(entry.invariant_definition || "")}</div></div>
@@ -2502,7 +2541,7 @@ async function openCitationPopover(key, anchorEl) {
     `;
   }
 
-  pop.innerHTML = `<div class="pop-drag cp-drag" aria-hidden="true"></div><button class="cp-close" aria-label="Close">×</button>${bodyHtml}`;
+  pop.innerHTML = `<button class="cp-close" aria-label="Close" data-no-drag type="button">×</button>${bodyHtml}`;
 
   let scrim = null;
   if (isMobile) {
