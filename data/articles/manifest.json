@@ -1017,6 +1017,28 @@
       "date": "2026-05-09",
       "status": "superseded",
       "superseded_by": "mimamsa-symbolism-shift"
+    },
+    {
+      "slug": "late-plato",
+      "title": "Late Plato — the unfinished metaphysics",
+      "subtitle": "A reader on the late dialogues, read through the continuity between early aporia and the guarded metaphysical speech of the late corpus.",
+      "kind": "essay",
+      "source_doc": "data/articles/source/late-plato.md",
+      "tags": [
+        "Plato",
+        "Sophist",
+        "Statesman",
+        "Philebus",
+        "Timaeus",
+        "Laws",
+        "Seventh-Letter",
+        "Greek-philosophy",
+        "metaphysics"
+      ],
+      "word_count_approx": 7381,
+      "date": "2026-05-12",
+      "school": "western_classical_greek",
+      "depth": "comprehensive"
     }
   ]
 }
