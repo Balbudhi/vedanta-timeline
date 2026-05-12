@@ -9,12 +9,16 @@
     "Pariṇāma",
     "pariṇāmaḥ",
     "parinama-vada",
-    "pariṇāma-vāda",
-    "Pariṇāma-vāda"
+    "pariṇāma-vāda"
   ],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
   "invariant_definition": "*Pariṇāma* is real transformation: the cause does not merely appear otherwise but genuinely unfolds into effect. It is the standard way of spelling out *satkārya-vāda* when pre-existence is taken to mean real emergence from a materially continuous cause. Sāṅkhya supplies the canonical model in the evolution of *prakṛti* through its successive tattvas. Vedāntic realists then ask what exactly changes: *brahman* itself, its modes, or only dependent *prakṛti*. Bhāskara allows stronger transformation language about *brahman* than Rāmānuja or Madhva, who preserve divine immutability by locating transformation in the Lord's body or in dependent matter. Advaita rejects *pariṇāma* at the ultimate level because a partless and immutable *brahman* cannot literally transform; Vallabha qualifies the whole debate with *avikṛta-pariṇāma*. The term is therefore not generic 'change' but a technical marker in Indian causal metaphysics.",
+  "school_framing": {
+    "framing_status": "real_disagreement",
+    "shared_core": "*Pariṇāma* names **real transformation: the cause undergoes actual modification to produce the effect** (*Sāṃkhya-Kārikā* 16–22; YS 3.13). Sāṃkhya, Yoga, Viśiṣṭādvaita, Tattva-vāda, Bhāskara, Nimbārka, and Vallabha (under *avikṛta-pariṇāma*) all accept *pariṇāma*-vāda in some form. Advaita defends *vivarta-vāda* against it: the cause undergoes only apparent, not real, modification.",
+    "register_axes_note": "Real disagreement (AF1) on whether *brahman*/*prakṛti* really transforms. Same M-register, same scope-inside, opposing claims. Vallabha's *avikṛta-pariṇāma* is a third position that preserves *pariṇāma* while denying that *brahman* is altered (*Aṇu-Bhāṣya* 1.4.26; methodology Case 1)."
+  },
   "per_school": [
     {
       "school": "Sāṅkhya",

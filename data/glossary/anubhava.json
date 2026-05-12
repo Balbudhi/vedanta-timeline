@@ -10,13 +10,16 @@
     "anubhave",
     "anubhavena",
     "anubhuti",
-    "anubhūti",
-    "anubhāva",
-    "anubhāvas"
+    "anubhūti"
   ],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
   "invariant_definition": "*Anubhava* is what is directly had in present cognition. In broad epistemic usage it contrasts with memory, report, and inference; in Vedāntic and devotional usage it often names the lived realization in which what scripture teaches becomes immediately manifest. The term therefore sits between general epistemology and soteriology. It can mean presentative cognition as opposed to *smṛti*, but it can also mean the consummation of *śravaṇa*, *manana*, *nididhyāsana*, or *upāsanā*. That is why classical authors do not oppose *anubhava* to *śabda* in the modern slogan-like way. Rather, they ask how scriptural cognition terminates in direct realization, or how devotion matures into a state in which the Lord is no longer known only by report. In practice *anubhava* is the register in which a school marks that a doctrine has become existentially operative rather than remaining merely discursive.",
+  "school_framing": {
+    "framing_status": "same_concept_different_aspect",
+    "shared_core": "*Anubhava* names **first-hand experiential cognition: cognition as undergone, not merely reported or inferred**. All schools that retain the term agree on this structural role. Vedāntic schools then disagree on whether *brahmānubhava* / *aparokṣa-anubhava* is the terminus of liberating cognition (Advaita) or the *jñāna-prema* of *Bhagavad-anubhava* (Gauḍīya, Viśiṣṭādvaita).",
+    "register_axes_note": "Same Φ+E+S register; differing scope-inside on what the highest *anubhava*'s object is. Real disagreement only at the level of *content* of the highest experience."
+  },
   "per_school": [
     {
       "school": "Advaita",

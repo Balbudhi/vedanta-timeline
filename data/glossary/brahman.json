@@ -14,6 +14,11 @@
     "brahmano"
   ],
   "invariant_definition": "The ultimate referent of Upaniṣadic inquiry and the target of *brahma-jijñāsā*. In Vedānta the term does not merely mean a highest being; it names that from which the world arises, by which it is sustained, into which it resolves, and on knowing which the bondage of *saṃsāra* is ended. The term therefore sits inside a technical matrix: *jagat-kāraṇatva*, debates over *upādāna* and *nimitta-kāraṇa*, the *sat-kārya* question of whether effects pre-exist in their cause, the opposition of *nirguṇa* and *saguṇa*, and the relation between *brahman*, *īśvara*, *paramātman*, and *bhagavān*. All Vedāntic schools agree that *brahman* is the purport of the Upaniṣads and the reality marked by *janmādy asya yataḥ*; they disagree on whether the world is a real mode, a real power, or an apparent manifestation of that reality, and on whether differentiation belongs to *brahman* itself or only to what depends on it. In practice the term also governs *upāsanā*: the realized object of liberating knowledge for Advaita, and the real Lord to be known, served, and loved for the theistic schools.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "Within Vedānta, *brahman* names **the ultimate referent of Upaniṣadic inquiry: that from which the world arises, by which it is sustained, into which it resolves, and on knowing which saṃsāra is ended** (Taittirīya 3.1.1; *janmādy asya yataḥ*, Brahma-Sūtra 1.1.2). Every Vedāntic school agrees that *brahman* is the purport of the Upaniṣads and the *jagat-kāraṇa*. They differ on whether *brahman* is *nirviśeṣa* (Advaita) or *saviśeṣa* (Viśiṣṭādvaita, Tattva-vāda, Gauḍīya, Nimbārka, Vallabha), and on how *jīva* and world stand to it (apparent appearance, real mode, real *aṃśa*, real *pariṇāma*, *acintya-bhedābheda*).",
+    "register_axes_note": "Vedāntic schools speak in the same M-register about the same scope-inside (*jagat-kāraṇa*, *jñeya*); they genuinely disagree (AF1) on whether differentiation belongs to *brahman* itself. Non-Vedāntic appearances are partial or *different concept*: Mīmāṃsā's *brahman*-language is ritual-priestly, not metaphysical; Sāṃkhya commentary glosses it as *avyakta/prakṛti*; Buddhists have no *brahman* as substrate but use *paramārtha/tathatā* as functional analogues."
+  },
   "per_school": [
     {
       "school": "Advaita-pre",
@@ -31,7 +36,8 @@
           "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.10",
           "locus_short": "BṛU 1.4.10"
         }
-      ]
+      ],
+      "register_tag": "M; reflective reader"
     },
     {
       "school": "Advaita",
@@ -65,7 +71,8 @@
           "cite": "cite://madhusudana/bhakti-rasayana/1.ṭīkā.1",
           "locus_short": "BR 1.1 ṭīkā"
         }
-      ]
+      ],
+      "register_tag": "M+E; mumukṣu [REAL-DISAGREEMENT vs. Viśiṣṭādvaita/Tattva-vāda on nirviśeṣatva]"
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -87,7 +94,8 @@
           "cite": "cite://ramanuja/vedartha-samgraha/§6",
           "locus_short": "Vedārtha-Saṅgraha §6"
         }
-      ]
+      ],
+      "register_tag": "M+S; prapanna [REAL-DISAGREEMENT vs. Advaita on saviśeṣatva]"
     },
     {
       "school": "Tattva-vāda",
@@ -114,7 +122,8 @@
           "cite": "cite://raghavendra/tantra-dipika/1.1",
           "locus_short": "TD 1.1"
         }
-      ]
+      ],
+      "register_tag": "M+S; Tattvavādin [REAL-DISAGREEMENT vs. Advaita on jīveśvara-bheda]"
     },
     {
       "school": "Bhedābheda",
@@ -141,7 +150,8 @@
           "cite": "cite://jiva-gosvami/sat-sandarbha/§45",
           "locus_short": "Paramātma-Sandarbha §45"
         }
-      ]
+      ],
+      "register_tag": "M+AD; bhakta"
     },
     {
       "school": "Dvaitādvaita",
@@ -169,7 +179,8 @@
           "cite": "cite://nimbarka/vedanta-parijata-saurabha/2.3.42",
           "locus_short": "VPS 2.3.42"
         }
-      ]
+      ],
+      "register_tag": "M+S; bhakta"
     },
     {
       "school": "Śuddhādvaita",
@@ -197,7 +208,8 @@
           "cite": "cite://vallabha/anu-bhasya/1.1.12-19",
           "locus_short": "BSB 1.1.12-19"
         }
-      ]
+      ],
+      "register_tag": "M+S; bhakta"
     },
     {
       "school": "Sāṃkhya",
@@ -215,7 +227,8 @@
           "cite": "cite://mathara/samkhya-karika-vrtti/68",
           "locus_short": "SK 68 comm."
         }
-      ]
+      ],
+      "register_tag": "C; reflective reader [different concept: avyakta/prakṛti]"
     },
     {
       "school": "Yoga",
@@ -233,7 +246,8 @@
           "cite": "cite://vyasa/yoga-bhasya/4.22",
           "locus_short": "YBh 4.22"
         }
-      ]
+      ],
+      "register_tag": "Φ+M; yogin"
     },
     {
       "school": "Sāṃkhya-Yoga (synthetic)",
@@ -260,7 +274,8 @@
           "cite": "cite://vijnanabhiksu/yoga-varttika/1.24",
           "locus_short": "YV 1.24"
         }
-      ]
+      ],
+      "register_tag": "M+S; yogin"
     },
     {
       "school": "Nyāya-Vaiśeṣika",
@@ -278,14 +293,16 @@
           "cite": "cite://vatsyayana/nyaya-bhasya/1.1.22",
           "locus_short": "NB 1.1.22"
         }
-      ]
+      ],
+      "register_tag": "M+E; reflective reader [functional analogue: Īśvara]"
     },
     {
       "school": "Pūrva-Mīmāṃsā",
       "definition": "NOT-APPLICABLE",
       "primary_loci": [],
       "citations": [],
-      "not_applicable_reason": "In the on-disk Pūrva-Mīmāṃsā corpus, brahman-language is used for the Brahman priest, brahmasāman, or other ritual designata; the school's autonomous topic is dharma/apūrva rather than brahman as an ultimate reality."
+      "not_applicable_reason": "In the on-disk Pūrva-Mīmāṃsā corpus, brahman-language is used for the Brahman priest, brahmasāman, or other ritual designata; the school's autonomous topic is dharma/apūrva rather than brahman as an ultimate reality.",
+      "register_tag": "RN; adhikārin [different concept: priestly designata]"
     },
     {
       "school": "Mādhyamaka",
@@ -308,7 +325,8 @@
           "cite": "cite://candrakirti/madhyamakavatara/6.189-190",
           "locus_short": "MAv 6.189-190"
         }
-      ]
+      ],
+      "register_tag": "LD+M; reflective reader [no brahman; functional analogue paramārtha/tathatā]"
     },
     {
       "school": "Yogācāra",
@@ -326,7 +344,8 @@
           "cite": "cite://vasubandhu/vimsatika/10",
           "locus_short": "Viṃśatikā 10"
         }
-      ]
+      ],
+      "register_tag": "Φ+M; reflective reader [functional analogue: tathatā/vijñaptimātratā]"
     },
     {
       "school": "Pratyabhijñā / Trika",
@@ -344,7 +363,8 @@
           "cite": "cite://ksemaraja/spanda-karika-commentary/1.5.11-14",
           "locus_short": "Spanda comm. 1.5.11-14"
         }
-      ]
+      ],
+      "register_tag": "M+S; sādhaka"
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",

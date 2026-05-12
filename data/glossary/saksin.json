@@ -11,12 +11,16 @@
     "sāksī",
     "sākṣiṇaḥ",
     "sākṣi-caitanya",
-    "saksi",
-    "sākṣi"
+    "saksi"
   ],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
   "invariant_definition": "The witnessing consciousness or witnessing self: that to which cognitions, pleasures, pains, and the absence registered in deep sleep are manifest, without itself entering the full *kāraka* structure of agent, instrument, and object. The term matters because Indian epistemology distinguishes the occurrent cognition (*pramā*), its instrument (*pramāṇa*), its subject (*pramātṛ*), and the deeper self-manifest awareness by virtue of which any of these can appear at all. In Advaita this becomes a major technical posit: the *sākṣin* is what knows the rise and fall of *antaḥkaraṇa-vṛttis*, the three states, and even *avidyā* before that ignorance is removed. Sāṃkhya-Yoga frames the same role through *puruṣa* as pure seer; Nyāya and Tattva-vāda (Dvaita) speak instead of the self's immediate awareness or *sākṣi-pratyakṣa*. 'Witness' therefore does not mean a passive spectator in a modern psychological sense. It marks a thesis about what kind of consciousness is presupposed by memory, self-ascription, liberation, and the manifestness of experience as experience.",
+  "school_framing": {
+    "framing_status": "same_concept_different_aspect",
+    "shared_core": "*Sākṣin* names **the witness-consciousness: the non-objectual subject-pole that knows mental episodes without itself being a mental episode** (BṛU 4.3.7; *Sāṃkhya-Kārikā* 19). Advaita, Sāṃkhya-Yoga, and Viśiṣṭādvaita all admit this structural role. Tattva-vāda further appeals to *sākṣi-pratyakṣa* as an epistemic ground for *jīveśvara-bheda*.",
+    "register_axes_note": "Same Φ+E register; same scope-inside ('non-objectual subject-pole'). Real disagreement only on whether the *sākṣin* is ultimately one (Advaita) or many (Sāṃkhya, Tattva-vāda, Viśiṣṭādvaita), and on whether *sākṣi-pratyakṣa* can decide metaphysical questions (Tattva-vāda: yes; Advaita: only phenomenologically)."
+  },
   "per_school": [
     {
       "school": "Advaita",

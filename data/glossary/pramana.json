@@ -16,6 +16,11 @@
   "last_verified_at": "2026-05-10",
   "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "A *pramāṇa* is the operative means by which a cognition counts as *pramā* rather than *apramā*. The term belongs inside a larger epistemic fourfold: *pramātṛ* (knower), *pramāṇa* (means), *prameya* (object), and *pramiti* or *pramā* (resulting true cognition). It is therefore closer to an efficacious cognitive instrument than to 'evidence' in the modern sense. Disputes over *pramāṇa* are never merely about counting. Nyāya, Mīmāṃsā, Buddhist epistemology, and Vedānta disagree because they disagree about what kinds of objects there are, how cognition relates to them, whether absence-knowledge or postulation is reducible to inference, and whether testimony is autonomous. In Vedānta the decisive claim is that ordinary perception and inference govern *vyavahāra*, but *brahman* is disclosed only by *śabda-pramāṇa*, above all *śruti*. Hence debates about the autonomy of testimony, *svataḥ-prāmāṇya* versus *parataḥ-prāmāṇya*, and the exact relation between cognition and liberation are load-bearing parts of metaphysics, not scholastic appendices.",
+  "school_framing": {
+    "framing_status": "same_concept_different_aspect",
+    "shared_core": "*Pramāṇa* names **a means of valid cognition: that by which a cognition is established as veridical** (Nyāya-Sūtra 1.1.3; *Pramāṇa-samuccaya* 1). Every school that operates with the term agrees on this structural role. Schools differ on (i) which *pramāṇa*s are admitted (Cārvāka: 1, Buddhists: 2, Sāṃkhya/Yoga: 3, Nyāya: 4, Mīmāṃsā/Vedānta: 6) and (ii) the criterion of validity (*svataḥ-prāmāṇya* vs. *parataḥ-prāmāṇya*).",
+    "register_axes_note": "**Real disagreement** (AF1) on the count and on *prāmāṇya*-intrinsicism vs. extrinsicism — same E+SL register. Buddhist *pramāṇa-vyavasthā* (Dignāga, Dharmakīrti) restricts to 2 against the Brāhmaṇical multiplicity; this is a real disagreement within the shared concept, not a homonymy."
+  },
   "per_school": [
     {
       "school": "Advaita",

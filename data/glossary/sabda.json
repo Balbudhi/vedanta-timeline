@@ -17,6 +17,11 @@
   "last_verified_at": "2026-05-10",
   "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "As an epistemic term, *śabda* is verbal testimony that yields valid cognition. It is not merely 'language' in the abstract, nor merely scriptural quotation. The category covers the cognition produced by a meaningful utterance under the right conditions, and therefore sits amid wider disputes about sentence meaning, speaker intention, reliability, and the authority of the Veda. Nyāya grounds testimonial force in the utterance of a trustworthy speaker; Mīmāṃsā insists that Vedic *śabda* is autonomous and not reducible to any speaker; Buddhist epistemology tries to reduce testimony to inference; Vedānta inherits the Mīmāṃsā defense because *brahman* is known only through *śruti*. In practice this means that *śabda* is not a decorative supplement to perception and inference. It is the decisive *pramāṇa* in every domain where the object is not perceptually available and not inferable from worldly marks, especially in the interpretation of Upaniṣadic sentences and *mahāvākyas*.",
+  "school_framing": {
+    "framing_status": "same_concept_different_aspect",
+    "shared_core": "*Śabda* names **the phonic-linguistic sign in its capacity to convey *artha***; the Pāṇinian–Patañjalian *Mahābhāṣya* fixes the *śabda*/*artha*/*pratyaya* triad (*Paspaśāhnika* on 1.2.45). All Brāhmaṇical schools share this structural role. Schools differ on (i) whether *śabda* is an autonomous *pramāṇa* (Mīmāṃsā, Vedānta: yes; Buddhists, Vaiśeṣika: no, reduces to *anumāna*), and (ii) whether meaning is built up phonemically (Patañjali) or grasped as *sphoṭa* (Bhartṛhari).",
+    "register_axes_note": "**Real disagreement** (AF1) on *śabda* as autonomous *pramāṇa* (same E-register). **Same concept, different aspect** on the *sphoṭa* vs. phonemic-buildup question — both are SL-register claims about how meaning is grasped, but they pick out different *vāc*-levels (methodology §4)."
+  },
   "per_school": [
     {
       "school": "Advaita",

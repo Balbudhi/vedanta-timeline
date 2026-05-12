@@ -15,6 +15,11 @@
     "ātmanā"
   ],
   "invariant_definition": "The self in the strict sense: not body, not sense-organ, not *manas*, not *ahaṅkāra*, but the subject for whom experience occurs and to whom ownership is ordinarily ascribed. The term carries a large technical burden. Upaniṣadic inquiry approaches it through negation (*neti neti*), through the three-state analysis of waking, dream, and deep sleep, and through the witness register later called *sākṣin*. Vedāntic debates then ask whether that witnessing self is identical with *brahman*, a mode of *brahman*, or an eternally distinct knower. The term is also sharpened polemically by nearby positions: Sāṃkhya's *puruṣa*, Nyāya's enduring self as substrate of cognition, and the Buddhist denial that any permanent *ātman* can be found behind the five aggregates. In practice, *ātman* is the term one reaches for when the question is not merely who lives this embodied life, but what the referent of 'I' really is once misidentification with body, role, and psychophysical process has been corrected.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "Within the Brāhmaṇical schools, *ātman* names **the strict referent of 'I' after the body-mind complex has been bracketed: the subject for whom experience occurs and who persists through embodiment** (Bṛhadāraṇyaka 2.4, 3.7, 4.3–4). All Brāhmaṇical schools admit such a referent and treat *neti neti* (BṛU 2.3.6) as its delimitative method. They disagree on whether the witness-self is identical with *brahman* (Advaita), a real mode of *brahman* (Viśiṣṭādvaita), an eternally distinct atom-knower (Tattva-vāda, Nimbārka, Nyāya-Vaiśeṣika), or self-luminous consciousness as agent (Trika).",
+    "register_axes_note": "**Same concept, different aspect** among the Vedāntins on the structural role 'strict referent of I'. **Real disagreement** between Advaita and Tattva-vāda/Dvaitādvaita on whether individuation is intrinsic or *upādhi*-conditioned (AF1: same M-register, same scope-inside). Buddhist *anātman* is **a different claim about the same scope**: Mādhyamaka and Yogācāra deny that anything answering to the *ātman*-description is found, so the disagreement is real and stated within the same register (E+Φ)."
+  },
   "per_school": [
     {
       "school": "Advaita",
@@ -33,7 +38,8 @@
           "cite": "cite://sankara/mandukya-bhasya/upaniṣad.7",
           "locus_short": "MāṇḍU Bh. 7"
         }
-      ]
+      ],
+      "register_tag": "M+S; mumukṣu"
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -59,7 +65,8 @@
           "cite": "cite://ramanuja/vedartha-samgraha/§6",
           "locus_short": "VS §6"
         }
-      ]
+      ],
+      "register_tag": "M+S; prapanna"
     },
     {
       "school": "Tattva-vāda",
@@ -86,7 +93,8 @@
           "cite": "cite://raghavendra/tantra-dipika/1.4",
           "locus_short": "TD 1.4"
         }
-      ]
+      ],
+      "register_tag": "M+S; Tattvavādin [REAL-DISAGREEMENT with Advaita on jīveśvara-bheda]"
     },
     {
       "school": "Bhedābheda",
@@ -121,7 +129,8 @@
           "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.3.6",
           "locus_short": "BṛU 2.3.6"
         }
-      ]
+      ],
+      "register_tag": "M+S+RN; upāsaka"
     },
     {
       "school": "Acintya-Bhedābheda",
@@ -146,7 +155,8 @@
           "cite": "cite://jiva-gosvami/sat-sandarbha/§45",
           "locus_short": "PS §45"
         }
-      ]
+      ],
+      "register_tag": "M+AD; bhakta"
     },
     {
       "school": "Dvaitādvaita",
@@ -168,7 +178,8 @@
           "cite": "cite://srinivasa/vedanta-kaustubha/2.3.42",
           "locus_short": "VK 2.3.42"
         }
-      ]
+      ],
+      "register_tag": "M+S; bhakta"
     },
     {
       "school": "Śuddhādvaita",
@@ -191,7 +202,8 @@
           "cite": "cite://vallabha/anu-bhasya/1.1.12-19",
           "locus_short": "BSB 1.1.12-19"
         }
-      ]
+      ],
+      "register_tag": "M+S; bhakta"
     },
     {
       "school": "Sāṃkhya",
@@ -217,7 +229,8 @@
           "cite": "cite://isvarakrsna/samkhya-karika/isk_59",
           "locus_short": "SK 59"
         }
-      ]
+      ],
+      "register_tag": "M+E; reflective reader (puruṣa)"
     },
     {
       "school": "Yoga",
@@ -240,7 +253,8 @@
           "cite": "cite://vyasa/yoga-bhasya/4.34",
           "locus_short": "YBh 4.34"
         }
-      ]
+      ],
+      "register_tag": "Φ+E; yogin (draṣṭṛ/puruṣa)"
     },
     {
       "school": "Nyāya-Vaiśeṣika",
@@ -268,7 +282,8 @@
           "cite": "cite://kanada/vaisesika-sutra/3.2.13",
           "locus_short": "VS 3.2.13"
         }
-      ]
+      ],
+      "register_tag": "M+E; reflective reader (substrate of cognition)"
     },
     {
       "school": "Pūrva-Mīmāṃsā",
@@ -296,7 +311,8 @@
           "cite": "cite://shabara/mimamsa-bhasya/icchayātmānam-upalabhāmahe",
           "locus_short": "ŚBh, icchayātmānam"
         }
-      ]
+      ],
+      "register_tag": "RN+E; adhikārin"
     },
     {
       "school": "Mādhyamaka",
@@ -309,7 +325,8 @@
           "cite": "cite://candrakirti/madhyamakavatara/1.3",
           "locus_short": "MAv 1.3"
         }
-      ]
+      ],
+      "register_tag": "Φ+S; reflective reader [REAL-DISAGREEMENT: anātman]"
     },
     {
       "school": "Yogācāra",
@@ -327,7 +344,8 @@
           "cite": "cite://vasubandhu/trimsika/6",
           "locus_short": "Triṃ 6"
         }
-      ]
+      ],
+      "register_tag": "Φ+E; reflective reader [REAL-DISAGREEMENT: ātman as upacāra in vijñāna-pariṇāma]"
     },
     {
       "school": "Pratyabhijñā / Trika",
@@ -350,7 +368,8 @@
           "cite": "cite://ksemaraja/pratyabhijna-hrdayam/9",
           "locus_short": "PH 9"
         }
-      ]
+      ],
+      "register_tag": "M+Φ; sādhaka"
     },
     {
       "school": "Jainism",
@@ -378,7 +397,8 @@
           "cite": "cite://umasvati/tattvartha-sutra/kevala-moksha",
           "locus_short": "TS 10.1-2"
         }
-      ]
+      ],
+      "register_tag": "M+S; reflective reader (jīva as substance with upayoga)"
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",

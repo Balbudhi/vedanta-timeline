@@ -20,6 +20,11 @@
   "last_verified_at": "2026-05-10",
   "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "*Jñāna* is cognition or knowing, but the term carries more structure than the English word 'knowledge' usually does. It belongs to the full epistemic apparatus of *pramāṇa*, *pramātṛ*, *prameya*, *pramā*, and *apramā*, and it ranges from ordinary perceptual episodes to liberating realization. Different schools analyze its ontological status differently: as a quality of the self, as a mental modification illuminated by consciousness, as the soul's expansive substantive attribute, or as a momentary cognition-stream. Vedāntic usage further differentiates *jñāna* from *vidyā*, *anubhava*, *sākṣātkāra*, and *aparokṣa-jñāna*: ordinary cognition may be valid yet non-liberating, while liberating cognition is the precise point at which ignorance is removed or God becomes directly present. The term therefore presupposes broader disputes about *vṛtti*, witness-consciousness, selfhood, and the relation between knowing and being. In practice, when a text says that liberation requires *jñāna*, the real question is always: what sort of cognition, of what object, produced by what means, and with what metaphysical consequence?",
+  "school_framing": {
+    "framing_status": "same_concept_different_aspect",
+    "shared_core": "*Jñāna* means **cognition / knowledge as a determinate epistemic state with veridical force**, distinguished from mere *vṛtti*, *smṛti*, or *śravaṇa*. All Vedāntic and Brāhmaṇical schools treat *jñāna* as either (a) cognitive episodes whose *pramāṇa* is shared, or (b) the liberating cognition of the highest object (Brahman, Bhagavān, *tattva*, or *puruṣa-prakṛti-viveka*). Schools differ on whether liberating *jñāna* alone suffices (*jñāna-niṣṭhā*, Advaita), or requires *bhakti*/*upāsanā*/*karma* as co-operative means.",
+    "register_axes_note": "Schools differ on register (E vs. S vs. AD) and on whether *jñāna* alone is *mokṣa-sādhana*. Real disagreement (AF1) between Advaita and Mīmāṃsā / Tattva-vāda on *jñāna-karma-samuccaya* and on whether *jñāna* without *bhakti* is sufficient. Buddhist *jñāna* (*prajñā*) names cognition of *śūnyatā*/*tathatā* — same structural role, opposed content."
+  },
   "per_school": [
     {
       "school": "Advaita",

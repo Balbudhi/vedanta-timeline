@@ -8,10 +8,14 @@
     "pāramārthika",
     "Pāramārthika",
     "paramartha",
-    "paramārtha",
-    "paramārthika"
+    "paramārtha"
   ],
   "invariant_definition": "*Pāramārthika* names what holds from the standpoint of final, unsublated reality. In Advaita it is the highest member of the *sattā-traya*: that which is never canceled by a later cognition because it is the condition for the possibility of all cognition. The term therefore presupposes the logic of *bādha* or sublation: to call something *pāramārthika* is to say that no stronger disclosure overturns it. This is not the same as colloquial 'really' and not the same as Buddhist *paramārtha-satya*. Madhyamaka uses the cognate term for emptiness of own-being within a two-truths framework, not for the top member of a three-level ontology. Realist Vedāntins often use *paramārtha* in the looser sense of what is ultimately the case, but they reject the Advaita claim that the world survives only as *vyāvahārika*. The term thus lies inside an argument about graded reality, the reach of negation, and the relation between liberating knowledge and ordinary cognition.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Pāramārthika* names **the ultimate level of reality: that which is not sublatable by any further cognition**. Advaita pairs it with *vyāvahārika*; Mādhyamaka pairs *paramārtha-satya* with *saṃvṛti-satya* (*Mūla-Madhyamaka-Kārikā* 24.8). Viśiṣṭādvaita and Tattva-vāda reject the two-tier reading and treat the world itself as *pāramārthika*.",
+    "register_axes_note": "**Real disagreement** on the necessity of a two-tier ontology — same M-register, opposing claims (AF1). Mādhyamaka's *paramārtha* is dependent on *saṃvṛti* (MMK 24.10) and is not a positive substrate (*śūnyatā* / *prapañcopaśama*); Advaita's is *brahman* as positive substrate. **Different concept** at the level of what *paramārtha* refers to, even though the *śabda* and the structural role (uppermost truth-level) are shared."
+  },
   "per_school": [
     {
       "school": "Advaita",
