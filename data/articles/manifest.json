@@ -1017,6 +1017,27 @@
       "date": "2026-05-09",
       "status": "superseded",
       "superseded_by": "mimamsa-symbolism-shift"
+    },
+    {
+      "slug": "schelling",
+      "title": "Schelling — nature, freedom, the dark ground, the unprethinkable being",
+      "subtitle": "A lecture-depth reading through the Naturphilosophie, the *System*, *Bruno*, the *Freiheitsschrift*, *Weltalter*, and the late Munich and Berlin lectures.",
+      "kind": "essay",
+      "source_doc": "data/articles/source/schelling.md",
+      "tags": [
+        "Schelling",
+        "Naturphilosophie",
+        "Identitätsphilosophie",
+        "Freiheitsschrift",
+        "Weltalter",
+        "positive-philosophy",
+        "negative-philosophy",
+        "unvordenkliches-Sein",
+        "Hegel"
+      ],
+      "word_count_approx": 11284,
+      "date": "2026-05-12",
+      "for_thinker_id": "schelling"
     }
   ]
 }
