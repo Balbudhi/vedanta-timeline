@@ -3,31 +3,61 @@
   "term_iast": "bhāṣya",
   "term_devanagari": "भाष्य",
   "literal": "spoken exposition, commentary; from √bhāṣ, 'to speak'",
-  "aliases": ["bhasya", "bhāṣya", "Bhāṣya", "bhāṣyaṃ", "bhāṣyasya", "bhasyam"],
+  "aliases": [
+    "bhasya",
+    "bhāṣya",
+    "Bhāṣya",
+    "bhāṣyaṃ",
+    "bhāṣyasya",
+    "bhasyam",
+    "bhāṣyas",
+    "Bhāṣyas"
+  ],
   "invariant_definition": "A *bhāṣya* is a primary running commentary that turns a terse source-text into an explicit doctrinal position. It does more than paraphrase. A real *bhāṣya* parses syntax, supplies omitted terms, reconstructs topic-sequence, stages *pūrvapakṣa* and *siddhānta*, ranks textual authorities, and fixes the metaphysical commitments the base text will bear. In Indian scholastic practice this is often the level at which a school first becomes fully visible. The source *sūtra* may be shared across rivals, but the *bhāṣya* decides whether a passage is read as identity, difference, injunction, meditation, devotion, or something else. Later genres such as *vārttika*, *ṭīkā*, and *vivaraṇa* presuppose this first major act of doctrinal speech. Thus *bhāṣya* names both a genre and a scholastic event: the moment a tradition states what it takes the authoritative text really to mean.",
   "per_school": [
     {
       "school": "Advaita",
       "definition": "Śaṅkara's *bhāṣya*s are not neutral explanations but the founding act by which Upaniṣadic *tātparya* is fixed as non-dual *brahma-jñāna*. The *adhyāsa-bhāṣya* to the *Brahma-Sūtra* is programmatic: it frames bondage and liberation through superimposition, thereby determining how the whole text is to be read. Later Advaita disputes largely unfold within this already-established *bhāṣya* architecture.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1 (adhyāsa-bhāṣya)", "Brahma-Sūtra-Bhāṣya 1.1.4", "Bhagavad-Gītā-Bhāṣya, upodghāta"]
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 1.1.1 (adhyāsa-bhāṣya)",
+        "Brahma-Sūtra-Bhāṣya 1.1.4",
+        "Bhagavad-Gītā-Bhāṣya, upodghāta"
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
       "definition": "Rāmānuja's *Śrī-Bhāṣya* uses the *bhāṣya* form to deny that the Upaniṣads culminate in undifferentiated being. Instead it builds a hermeneutic in which *samanvaya*, *sāmānādhikaraṇya*, and the body-soul relation establish a qualified *brahman*. The *bhāṣya* thus functions as a systematic theological construction, not as a marginal gloss on Bādarāyaṇa.",
-      "primary_loci": ["Śrī-Bhāṣya 1.1.1", "Śrī-Bhāṣya 1.1.13", "Śrī-Bhāṣya 2.2.42–45"]
+      "primary_loci": [
+        "Śrī-Bhāṣya 1.1.1",
+        "Śrī-Bhāṣya 1.1.13",
+        "Śrī-Bhāṣya 2.2.42–45"
+      ]
     },
     {
       "school": "Tattva-vāda (Dvaita)",
       "definition": "Madhva's *bhāṣya* practice is explicitly polemical and exegetically expansive. The source-text is read through the prior certainty that Viṣṇu is supreme, that difference is real, and that souls are hierarchically distinct. The *bhāṣya* therefore becomes the site where non-dualist readings are systematically displaced by realist and theistic alternatives.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1", "Brahma-Sūtra-Bhāṣya (Madhva) 2.1.1", "Anu-Vyākhyāna 1.1"]
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1",
+        "Brahma-Sūtra-Bhāṣya (Madhva) 2.1.1",
+        "Anu-Vyākhyāna 1.1"
+      ]
     },
     {
       "school": "Vyākaraṇa / Mīmāṃsā",
       "definition": "Outside Vedānta the *bhāṣya* still has the same constitutive role. Patañjali's *Mahābhāṣya* does not merely explain Pāṇini; it determines how grammatical rules, *vārttika*s, and examples hang together. Śabara's *Bhāṣya* on Jaimini likewise establishes the canonical argumentative form of Mīmāṃsā.",
-      "primary_loci": ["Patañjali, Mahābhāṣya, Paspasha", "Śabara-Bhāṣya on Mīmāṃsā-Sūtra 1.1.1–5"]
+      "primary_loci": [
+        "Patañjali, Mahābhāṣya, Paspasha",
+        "Śabara-Bhāṣya on Mīmāṃsā-Sūtra 1.1.1–5"
+      ]
     }
   ],
-  "see_also": ["sutra", "varttika", "tika", "vivarana", "prasthana-traya"],
+  "see_also": [
+    "sutra",
+    "varttika",
+    "tika",
+    "vivarana",
+    "prasthana-traya"
+  ],
   "translator_note": "The lazy gloss is simply 'commentary.' That is often too weak, because it suggests a secondary explanatory layer attached to a stable original meaning. In these traditions the *bhāṣya* often fixes the original meaning for the school and can be as philosophically weighty as the source-text itself. Retaining *bhāṣya* usually avoids that flattening.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"

@@ -3,21 +3,42 @@
   "term_iast": "anirvacanīya",
   "term_devanagari": "अनिर्वचनीय",
   "literal": "indeterminable, not-to-be-spoken-of-decisively; an- + nir-vacanīya",
-  "aliases": ["anirvacaniya", "anirvacanīya", "Anirvacanīya", "anirvacanīyatā", "anirvacanīyatva"],
+  "aliases": [
+    "anirvacaniya",
+    "anirvacanīya",
+    "Anirvacanīya",
+    "anirvacanīyatā",
+    "anirvacanīyatva",
+    "anirvacanīyā"
+  ],
   "invariant_definition": "A specifically Advaita technical verdict meaning 'not decisively characterizable' on the ordinary *sat*/*asat* binary. The term is most at home in the theory of error and in the ontology of *māyā*: the silver seen in nacre, the snake seen in the rope, and the world experienced under ignorance cannot be called fully real, because they are sublated, but cannot be called sheer non-being either, because they appear with positive force. The category is thus bound to *anirvacanīya-khyāti*, to the distinction between *mithyā* and *asat*, and to the claim that *avidyā* is *bhāvarūpa* without being ultimately real. Rival schools reject the category because they keep the real/unreal binary exhaustive and explain error through other *khyāti* theories such as *anyathā-khyāti*, *akhyāti*, or *ātma-khyāti*.",
   "per_school": [
     {
       "school": "Advaita",
       "definition": "*Anirvacanīya* is the status of what appears but cannot be fixed as either real or unreal without distortion. In Advaita this applies paradigmatically to *māyā*, *avidyā*, and the objects projected through them. The term does not signal a vague mystery; it records a technical failure of the binary categories to classify what error-analysis and sublation-analysis disclose.",
-      "primary_loci": ["Iṣṭa-Siddhi (Vimuktātman) 1", "Khaṇḍana-Khaṇḍa-Khādya, upodghāta", "Advaita-Siddhi, anirvacanīyatā-pariccheda"]
+      "primary_loci": [
+        "Iṣṭa-Siddhi (Vimuktātman) 1",
+        "Khaṇḍana-Khaṇḍa-Khādya, upodghāta",
+        "Advaita-Siddhi, anirvacanīyatā-pariccheda"
+      ]
     },
     {
       "school": "Nyāya, Viśiṣṭādvaita, and Tattva-vāda (rejection)",
       "definition": "Rejected as incoherent. Nyāya explains error by mislocation or misapprehension of something real; Viśiṣṭādvaita and Tattva-vāda (the school often labeled Dvaita) insist that a thing must be classifiable as real or unreal and treat the third status as a verbal evasion. The polemical target is not only Advaita ontology but the whole error-theory that supports it.",
-      "primary_loci": ["Vyāsatīrtha, Nyāyāmṛta, mithyātva-bhaṅga", "Śrī-Bhāṣya 1.1.1 (sapta-anupapatti)"]
+      "primary_loci": [
+        "Vyāsatīrtha, Nyāyāmṛta, mithyātva-bhaṅga",
+        "Śrī-Bhāṣya 1.1.1 (sapta-anupapatti)"
+      ]
     }
   ],
-  "see_also": ["mithya", "maya", "avidya", "sat", "asat", "bhavarupa"],
+  "see_also": [
+    "mithya",
+    "maya",
+    "avidya",
+    "sat",
+    "asat",
+    "bhavarupa"
+  ],
   "translator_note": "'Indeterminable' is better than 'inexplicable'. The English danger is to make the term sound like a confession of confusion. In Advaita it is instead a precise classificatory claim: the item under discussion cannot be truthfully sorted as either fully real or sheerly unreal. That technical role disappears if the term is glossed as vague mysticism.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"

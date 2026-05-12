@@ -3,7 +3,14 @@
   "term_iast": "pramāṇa-dvaya",
   "term_devanagari": "प्रमाणद्वय",
   "literal": "the two-pramāṇa thesis",
-  "aliases": ["pramana-dvaya", "pramāṇa-dvaya", "Pramāṇa-Dvaya", "pramāṇa-dvayam", "dvi-pramāṇa-vāda"],
+  "aliases": [
+    "pramana-dvaya",
+    "pramāṇa-dvaya",
+    "Pramāṇa-Dvaya",
+    "pramāṇa-dvayam",
+    "dvi-pramāṇa-vāda",
+    "Pramāṇa-dvaya"
+  ],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
   "invariant_definition": "*Pramāṇa-dvaya* is the Buddhist epistemological thesis, classically associated with Dignāga and Dharmakīrti, that there are exactly two independent means of valid cognition: *pratyakṣa* and *anumāna*. The claim rests on a deeper metaphysical and semantic division. What is directly real is the momentary particular; what thought and language handle are conceptual constructions. Since every candidate further *pramāṇa* can be reduced either to direct presentation or to sign-based cognition, there is no need to admit comparison, testimony, postulation, or absence as independent kinds. The thesis therefore carries polemical force against Nyāya, Mīmāṃsā, and Vedānta alike. To accept the autonomy of *śabda-pramāṇa* would reopen the claim that Vedic speech discloses realities unavailable elsewhere, while to accept *arthāpatti* or *anupalabdhi* as independent would thicken the ontology of cognition beyond the Buddhist economy. The debate is thus not about bookkeeping but about what sorts of objects, concepts, and authorities a philosophical system can admit.",
@@ -11,24 +18,45 @@
     {
       "school": "Buddhist Pramāṇa",
       "definition": "Dignāga and Dharmakīrti defend *pramāṇa-dvaya* because they divide cognition according to object-type: *pratyakṣa* reaches the non-conceptual particular, and *anumāna* works in the conceptual domain. Comparison, testimony, postulation, and absence do not add new object-types or new cognitive structures, so they are derivative. The thesis is inseparable from apoha, nominalism, and the denial of autonomous Vedic revelation.",
-      "primary_loci": ["Dignāga, Pramāṇa-Samuccaya 1.2", "Dharmakīrti, Nyāya-Bindu 1.3", "Dharmakīrti, Pramāṇa-Vārttika 2.1-7 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Dignāga, Pramāṇa-Samuccaya 1.2",
+        "Dharmakīrti, Nyāya-Bindu 1.3",
+        "Dharmakīrti, Pramāṇa-Vārttika 2.1-7 [NOT YET RETRIEVED]"
+      ]
     },
     {
       "school": "Nyāya",
       "definition": "Nyāya rejects the two-pramāṇa reduction and defends four independent means: *pratyakṣa*, *anumāna*, *upamāna*, and *śabda*. The rejection matters because analogy and testimony yield distinctive cognitions not captured by direct perception or inferential transition. Naiyāyikas therefore treat the Buddhist reduction as an epistemological flattening driven by prior anti-realist commitments.",
-      "primary_loci": ["Nyāya-Sūtra 1.1.3-7", "Vātsyāyana, Nyāya-Bhāṣya ad Nyāya-Sūtra 1.1.3-7", "Uddyotakara, Nyāya-Vārttika ad Nyāya-Sūtra 1.1.3-7"]
+      "primary_loci": [
+        "Nyāya-Sūtra 1.1.3-7",
+        "Vātsyāyana, Nyāya-Bhāṣya ad Nyāya-Sūtra 1.1.3-7",
+        "Uddyotakara, Nyāya-Vārttika ad Nyāya-Sūtra 1.1.3-7"
+      ]
     },
     {
       "school": "Mīmāṃsā",
       "definition": "Mīmāṃsā rejects *pramāṇa-dvaya* because it cannot preserve the autonomy of Vedic verbal cognition or, in the Bhāṭṭa case, the irreducibility of *arthāpatti* and *anupalabdhi*. This is not an abstract pluralism. If *śabda* were inferentially reducible, the whole hermeneutic structure by which *dharma* is known from *codanā* would fail.",
-      "primary_loci": ["Jaimini-Sūtra 1.1.2-5", "Kumārila, Ślokavārttika, śabda-pariccheda", "Prabhākara, Bṛhatī [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Jaimini-Sūtra 1.1.2-5",
+        "Kumārila, Ślokavārttika, śabda-pariccheda",
+        "Prabhākara, Bṛhatī [NOT YET RETRIEVED]"
+      ]
     },
     {
       "school": "Vedānta",
       "definition": "Vedānta rejects *pramāṇa-dvaya* for the same deep reason as Mīmāṃsā, but with a different highest object: *brahman* is known only through *śruti*. Advaita usually accepts six *pramāṇas*, Viśiṣṭādvaita typically works with three, and Tattva-vāda (Dvaita) with three plus a strong account of *sākṣi-pratyakṣa*; all agree that reducing testimony to inference destroys the epistemic standing of revelation.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.3-4", "Dharmarāja, Vedānta-Paribhāṣā", "Jayatīrtha, Pramāṇa-Paddhati"]
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 1.1.3-4",
+        "Dharmarāja, Vedānta-Paribhāṣā",
+        "Jayatīrtha, Pramāṇa-Paddhati"
+      ]
     }
   ],
-  "see_also": ["pramana", "pratyaksa", "anumana", "sabda"],
+  "see_also": [
+    "pramana",
+    "pratyaksa",
+    "anumana",
+    "sabda"
+  ],
   "translator_note": "The lazy gloss 'two sources of knowledge' is too weak. *Pramāṇa-dvaya* is a doctrinal thesis about the reducibility of all candidate means of valid cognition to two basic structures. Translating it blandly can hide the fact that Buddhist, Nyāya, Mīmāṃsā, and Vedānta are here arguing about ontology, semantics, and scriptural authority all at once."
 }

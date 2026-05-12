@@ -3,26 +3,48 @@
   "term_iast": "vārttika",
   "term_devanagari": "वार्त्तिक",
   "literal": "supplementary elucidation; classically, discussion of what was said, unsaid, and badly said",
-  "aliases": ["varttika", "vārttika", "Vārttika", "vārttikam"],
+  "aliases": [
+    "varttika",
+    "vārttika",
+    "Vārttika",
+    "vārttikam",
+    "vārttikas",
+    "Vārttikas"
+  ],
   "invariant_definition": "A *vārttika* is a supplementary and often corrective exposition on a prior authoritative text or commentary. The classical maxim defines its work as addressing what was said, what was left unsaid, and what was badly said. The genre therefore presupposes not passive agreement but active diagnostic engagement. In grammar, Mīmāṃsā, and Vedānta, a *vārttika* typically supplies arguments, distinctions, and edge-cases compressed out of the base text. It can defend a commentary's line, extend it, or redirect it. In practice this makes the *vārttika* one of the places where a tradition's fine-grained architecture is built: omitted premises are stated, rival readings are tested, and school-defining technicalities are stabilized. The term should therefore not be reduced to 'sub-commentary'; its point is not merely being later in sequence, but reopening the inherited text at a more exacting level.",
   "per_school": [
     {
       "school": "Vyākaraṇa",
       "definition": "Kātyāyana's *vārttika*s on Pāṇini are the classic case. They propose additions, restrictions, and corrections to the *Aṣṭādhyāyī*'s rule-system and are then themselves absorbed into Patañjali's *Mahābhāṣya*. The grammatical tradition thus treats *vārttika* as a live mechanism for testing whether the terse *sūtra* really covers the linguistic data.",
-      "primary_loci": ["Pāṇini 1.1.1 with Kātyāyana-vārttikas [NOT YET RETRIEVED]", "Patañjali, Mahābhāṣya, Paspasha"]
+      "primary_loci": [
+        "Pāṇini 1.1.1 with Kātyāyana-vārttikas [NOT YET RETRIEVED]",
+        "Patañjali, Mahābhāṣya, Paspasha"
+      ]
     },
     {
       "school": "Pūrva-Mīmāṃsā",
       "definition": "Kumārila's *Ślokavārttika* and *Tantravārttika* show the genre at full philosophical scale. Here the *vārttika* is where Vedic authority, sentence-meaning, injunction, and the critique of rival schools are pushed far beyond the compression of Jaimini and Śabara. The genre becomes a vehicle for reconstructive system-building, not mere annotation.",
-      "primary_loci": ["Kumārila, Ślokavārttika on Mīmāṃsā-Sūtra 1.1.2", "Kumārila, Tantravārttika on Mīmāṃsā-Sūtra 1.3.1 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Kumārila, Ślokavārttika on Mīmāṃsā-Sūtra 1.1.2",
+        "Kumārila, Tantravārttika on Mīmāṃsā-Sūtra 1.3.1 [NOT YET RETRIEVED]"
+      ]
     },
     {
       "school": "Advaita",
       "definition": "Sureśvara's *Bṛhadāraṇyaka-Vārttika* and *Taittirīya-Vārttika* use the genre to defend Śaṅkara's line while also articulating independent positions on knowledge, renunciation, and liberation. In practice the *vārttika* is one of the principal places where post-Śaṅkara Advaita sharpens itself against Mīmāṃsā and ritualist objections.",
-      "primary_loci": ["Sureśvara, Bṛhadāraṇyaka-Vārttika 1.1 [NOT YET RETRIEVED]", "Sureśvara, Taittirīya-Vārttika 1.1 [NOT YET RETRIEVED]", "Sureśvara, Naiṣkarmya-Siddhi 1.1–3"]
+      "primary_loci": [
+        "Sureśvara, Bṛhadāraṇyaka-Vārttika 1.1 [NOT YET RETRIEVED]",
+        "Sureśvara, Taittirīya-Vārttika 1.1 [NOT YET RETRIEVED]",
+        "Sureśvara, Naiṣkarmya-Siddhi 1.1–3"
+      ]
     }
   ],
-  "see_also": ["bhasya", "tika", "vivarana", "sub-commentary"],
+  "see_also": [
+    "bhasya",
+    "tika",
+    "vivarana",
+    "sub-commentary"
+  ],
   "translator_note": "The lazy gloss is 'sub-commentary.' That misses the genre's corrective force. A *vārttika* is often where a tradition tests the adequacy of inherited wording and supplies premises the source-text leaves tacit. When possible, retain *vārttika* and gloss its diagnostic role rather than flattening it into a mere later commentary.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"

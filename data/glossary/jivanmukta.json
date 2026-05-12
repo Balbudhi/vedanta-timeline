@@ -3,7 +3,15 @@
   "term_iast": "jīvan-mukta",
   "term_devanagari": "जीवन्मुक्त",
   "literal": "liberated while living; *jīvan* from √jīv 'living' + *mukta* 'released'",
-  "aliases": ["jivanmukta", "jīvan-mukta", "jīvanmukta", "Jīvanmukta", "jivanmukti", "jīvanmukti"],
+  "aliases": [
+    "jivanmukta",
+    "jīvan-mukta",
+    "jīvanmukta",
+    "Jīvanmukta",
+    "jivanmukti",
+    "jīvanmukti",
+    "Jīvanmukti"
+  ],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
   "invariant_definition": "A *jīvanmukta* is one liberated before bodily death. The category is not a generic label for a saint or mystic. It is a doctrinal test case for what a school thinks bondage is. If bondage is fundamentally a cognitive misidentification, liberation can in principle occur while the body continues in ordinary *vyavahāra*; if bondage includes a real karmic embodiment that must be left behind before the final state is possible, then liberation-in-life is incoherent. The term therefore gathers several adjacent issues: the status of *prārabdha-karma*, whether knowledge merely removes ignorance or also changes ontological location, whether agency persists conventionally, and whether post-realization conduct still falls under *dharma*. Advaita makes the category central. Other Vedāntic schools either reject it outright or sharply qualify any analogous notion of holy life before death. Trika Śaivism admits an important analog in recognition while embodied.",
@@ -11,24 +19,44 @@
     {
       "school": "Advaita",
       "definition": "The *jīvanmukta* is the knower in whom *avidyā* has been removed while *prārabdha-karma* still sustains bodily appearance. Nothing essential remains to be attained, yet ordinary transactions continue until the body falls away. The key distinction is between binding agency and residual functioning: action may occur, but the appropriation \"I am the doer\" no longer structures experience. Later Advaita works make this the central lived form of freedom.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 4.1.13-15", "Naiṣkarmya-Siddhi 4", "Pañcadaśī 7", "Jīvanmukti-Viveka 1"]
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 4.1.13-15",
+        "Naiṣkarmya-Siddhi 4",
+        "Pañcadaśī 7",
+        "Jīvanmukti-Viveka 1"
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
       "definition": "The strong Advaita doctrine of liberation while embodied is denied. One may live as a surrendered devotee and enjoy firm God-centered orientation before death, but full release requires the departure from the body and the soul's ascent to the Lord's abode. The distinction is metaphysical: liberation is not merely a corrected cognition within this life, but a completed transition in the soul's condition and location.",
-      "primary_loci": ["Śrī-Bhāṣya 4.4.1-22", "Vedārtha-Saṅgraha §§137-144"]
+      "primary_loci": [
+        "Śrī-Bhāṣya 4.4.1-22",
+        "Vedārtha-Saṅgraha §§137-144"
+      ]
     },
     {
       "school": "Tattva-vāda",
       "definition": "*Jīvanmukti* is rejected as incoherent. So long as the soul remains embodied under *karma*, it has not yet entered the liberated state. The opposition to Advaita is direct: liberation is not compatible with continued karmic embodiment because the self's distinct relation to Viṣṇu and to its own body is real, not merely a misreading removable without ontological transition.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya (Madhva) 4.4.1-21", "Anu-Vyākhyāna 4.4"]
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya (Madhva) 4.4.1-21",
+        "Anu-Vyākhyāna 4.4"
+      ]
     },
     {
       "school": "Trika / Kashmir Śaivism",
       "definition": "A close analog is fully admitted: recognition of one's identity with Śiva can occur while embodied, and the realized person continues to act, perceive, and enjoy without falling back into contracted selfhood. The world is not denied; rather, it is re-seen as one's own expression. In that sense embodied liberation is entirely intelligible within the Trika framework, though the explanatory apparatus differs from Advaita.",
-      "primary_loci": ["Pratyabhijñā-Hṛdaya 12, 16-18", "Tantrāloka 1.21ff"]
+      "primary_loci": [
+        "Pratyabhijñā-Hṛdaya 12, 16-18",
+        "Tantrāloka 1.21ff"
+      ]
     }
   ],
-  "see_also": ["videhamukti", "moksa", "prarabdha", "jnana", "samsara"],
+  "see_also": [
+    "videhamukti",
+    "moksa",
+    "prarabdha",
+    "jnana",
+    "samsara"
+  ],
   "translator_note": "'Liberated while living' is accurate. Problems arise when English readers treat the category as an honorific for any revered sage. In Sanskrit debate it is a precise thesis about the compatibility of realization and ongoing embodiment, and different schools accept or reject it for principled metaphysical reasons."
 }

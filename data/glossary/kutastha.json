@@ -3,7 +3,16 @@
   "term_iast": "kūṭastha",
   "term_devanagari": "कूटस्थ",
   "literal": "standing firm like an anvil or peak, immovable; from kūṭa 'anvil, summit' + stha 'standing'",
-  "aliases": ["kutastha", "kūṭastha", "Kūṭastha", "kūṭasthaḥ", "kūṭasthe", "kutastha-caitanya"],
+  "aliases": [
+    "kutastha",
+    "kūṭastha",
+    "Kūṭastha",
+    "kūṭasthaḥ",
+    "kūṭasthe",
+    "kutastha-caitanya",
+    "kūṭastha-caitanya",
+    "Kūṭastha-caitanya"
+  ],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
   "invariant_definition": "The immutable or anvil-like standing consciousness: that which remains unchanged while changes occur around it. In Vedānta, especially Advaita, the term marks the self precisely insofar as it does not participate in the modifications it illumines. It therefore sits with *sākṣin*, *akṣara*, *antaḥkaraṇa-vṛtti*, and *cidābhāsa*: mental events arise, agency is superimposed, memory appears serial, yet the witness that makes these manifest does not move with them. In the *Bhagavad-Gītā* the word also carries a broader sense of stability under change, and later commentators exploit that elasticity. The point is not abstract changelessness alone. The term answers a pressure internal to Indian theories of knowledge and liberation: if the knower were modified in the same way as each cognition, recognition across states and release from adventitious conditions would become unintelligible. *Kūṭastha* is thus a metaphysical claim about what must remain unmodified if bondage is to be adventitious rather than intrinsic.",
@@ -11,19 +20,37 @@
     {
       "school": "Advaita",
       "definition": "*Kūṭastha-caitanya* is consciousness in its immutable aspect, distinguished from *cidābhāsa*, the reflected consciousness that appears to think, will, and remember through the mind. The term is functionally equivalent to the witness self under the aspect of strict non-modification. Bondage and agency belong to the reflected complex; the *kūṭastha* neither acts nor changes, which is why liberation is disclosure rather than production of a new state in the self.",
-      "primary_loci": ["Pañcadaśī 1.10-21", "Pañcadaśī 7.213-221 [NOT YET RETRIEVED]", "Bhagavad-Gītā-Bhāṣya 15.16", "Vedānta-Paribhāṣā, pratyakṣa-pariccheda"]
+      "primary_loci": [
+        "Pañcadaśī 1.10-21",
+        "Pañcadaśī 7.213-221 [NOT YET RETRIEVED]",
+        "Bhagavad-Gītā-Bhāṣya 15.16",
+        "Vedānta-Paribhāṣā, pratyakṣa-pariccheda"
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
       "definition": "The Gītā usage of *kūṭastha* is accepted as describing what remains stable amid change, but the technical Advaita contrast between *kūṭastha* and *cidābhāsa* is not. The individual self is enduring and not reducible to bodily change, yet it is still a real atomic self whose knowledge expands and contracts. Thus immutability cannot mean that all state-differences are only apparent superimpositions on one undifferentiated consciousness.",
-      "primary_loci": ["Gītā-Bhāṣya (Rāmānuja) 6.8", "Gītā-Bhāṣya (Rāmānuja) 12.3", "Gītā-Bhāṣya (Rāmānuja) 15.16"]
+      "primary_loci": [
+        "Gītā-Bhāṣya (Rāmānuja) 6.8",
+        "Gītā-Bhāṣya (Rāmānuja) 12.3",
+        "Gītā-Bhāṣya (Rāmānuja) 15.16"
+      ]
     },
     {
       "school": "Tattva-vāda",
       "definition": "Madhva accepts the scriptural description of an enduring self and of Viṣṇu as transcending change, but rejects the Advaita inference that changelessness entails one all-pervading consciousness. The self remains numerically distinct and dependent throughout; its persistence does not erase plurality. In Gītā exegesis, *kūṭastha* marks stability, not the non-dual witness abstracted from all real distinctions.",
-      "primary_loci": ["Gītā-Tātparya-Nirṇaya 6.8 [NOT YET RETRIEVED]", "Gītā-Tātparya-Nirṇaya 12.3 [NOT YET RETRIEVED]", "Gītā-Tātparya-Nirṇaya 15.16-17 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Gītā-Tātparya-Nirṇaya 6.8 [NOT YET RETRIEVED]",
+        "Gītā-Tātparya-Nirṇaya 12.3 [NOT YET RETRIEVED]",
+        "Gītā-Tātparya-Nirṇaya 15.16-17 [NOT YET RETRIEVED]"
+      ]
     }
   ],
-  "see_also": ["saksin", "atman", "cidabhasa", "vrtti"],
+  "see_also": [
+    "saksin",
+    "atman",
+    "cidabhasa",
+    "vrtti"
+  ],
   "translator_note": "The lazy gloss is 'the immutable.' That is not false, but it hides the argumentative use of the term. In Advaita especially, *kūṭastha* is not a decorative epithet for permanence; it distinguishes unmodified witness-consciousness from the reflected, mentally mediated knower. Translating it as 'unchanging self' without that contrast invites a generic spiritual reading and loses the debate with theories that allow real contraction, expansion, or plurality of selves."
 }

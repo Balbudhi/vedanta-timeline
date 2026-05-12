@@ -3,26 +3,50 @@
   "term_iast": "ṭīkā",
   "term_devanagari": "टीका",
   "literal": "gloss, explanatory note, running sub-commentary",
-  "aliases": ["tika", "ṭīkā", "Ṭīkā", "ṭīkām", "tika-grantha"],
+  "aliases": [
+    "tika",
+    "ṭīkā",
+    "Ṭīkā",
+    "ṭīkām",
+    "tika-grantha",
+    "tīkā",
+    "Tīkā"
+  ],
   "invariant_definition": "A *ṭīkā* is a closer-grained gloss on a prior commentary or root text, usually proceeding line by line or phrase by phrase. If the *bhāṣya* is where a school declares its broad position, the *ṭīkā* is often where that position is made technically usable. It resolves compressed syntax, distinguishes rival readings, records scholastic objections, and stabilizes micro-doctrines that later sub-schools inherit. In practice many famous *ṭīkā*s do much more than gloss: they become the seedbed for internal divisions, because a single interpretive choice at this level can determine questions such as the locus of *avidyā*, the structure of perception, or the semantics of a *mahāvākya*. The genre therefore belongs to the working laboratory of a tradition's *vyavahāra*. It is where teachers and advanced students learn how to move inside a system rather than merely recognize its slogans.",
   "per_school": [
     {
       "school": "Advaita",
       "definition": "The *ṭīkā* level is decisive because post-Śaṅkara Advaita differentiates itself there. Vāchaspati Miśra's *Bhāmatī* and the *Pañcapādikā-Vivaraṇa* line do not merely clarify Śaṅkara; they generate the Bhāmatī and Vivaraṇa sub-traditions, with real disagreements on the locus of *avidyā*, the status of *akhaṇḍākāra-vṛtti*, and the mechanics of liberation.",
-      "primary_loci": ["Vāchaspati Miśra, Bhāmatī on Brahma-Sūtra-Bhāṣya 1.1.1", "Padmapāda, Pañcapādikā on Brahma-Sūtra-Bhāṣya 1.1.1", "Prakāśātman, Pañcapādikā-Vivaraṇa, varṇaka 1"]
+      "primary_loci": [
+        "Vāchaspati Miśra, Bhāmatī on Brahma-Sūtra-Bhāṣya 1.1.1",
+        "Padmapāda, Pañcapādikā on Brahma-Sūtra-Bhāṣya 1.1.1",
+        "Prakāśātman, Pañcapādikā-Vivaraṇa, varṇaka 1"
+      ]
     },
     {
       "school": "Nyāya / Navya-Nyāya",
       "definition": "In Nyāya the *ṭīkā* becomes a vehicle for technical refinement of inferential and semantic machinery. Vāchaspati Miśra's *Nyāya-Vārttika-Tātparya-Ṭīkā* shows the genre at work: a gloss on an earlier gloss that nonetheless reorders the debate and furnishes the conceptual vocabulary later Naiyāyikas take for granted.",
-      "primary_loci": ["Vāchaspati Miśra, Nyāya-Vārttika-Tātparya-Ṭīkā on Nyāya-Sūtra 1.1.1", "Gaṅgeśa, Tattva-Cintāmaṇi, Pratyakṣa-khaṇḍa 1 [for later uptake of ṭīkā-level distinctions]"]
+      "primary_loci": [
+        "Vāchaspati Miśra, Nyāya-Vārttika-Tātparya-Ṭīkā on Nyāya-Sūtra 1.1.1",
+        "Gaṅgeśa, Tattva-Cintāmaṇi, Pratyakṣa-khaṇḍa 1 [for later uptake of ṭīkā-level distinctions]"
+      ]
     },
     {
       "school": "Tattva-vāda",
       "definition": "The Tattva-vāda (the school often labeled Dvaita) tradition uses the *ṭīkā* level to defend Madhva's terse positions against both Advaitin and Viśiṣṭādvaitin rivals. Jayatīrtha's works exemplify the practical role of the genre: unpacking compressed assertions, specifying distinctions, and turning school theses into argumentatively deployable doctrine.",
-      "primary_loci": ["Jayatīrtha, Tattva-Prakāśikā on Brahma-Sūtra-Bhāṣya 1.1.1", "Jayatīrtha, Pramāṇa-Paddhati 1 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Jayatīrtha, Tattva-Prakāśikā on Brahma-Sūtra-Bhāṣya 1.1.1",
+        "Jayatīrtha, Pramāṇa-Paddhati 1 [NOT YET RETRIEVED]"
+      ]
     }
   ],
-  "see_also": ["bhasya", "varttika", "vivarana", "bhamati", "vivarana-school"],
+  "see_also": [
+    "bhasya",
+    "varttika",
+    "vivarana",
+    "bhamati",
+    "vivarana-school"
+  ],
   "translator_note": "The lazy gloss is 'gloss' or 'sub-commentary.' Those are not wrong, but they understate the genre's doctrinal work. A *ṭīkā* is often where a tradition's fine distinctions are first stabilized and where later sub-schools find their point of divergence. When the philosophical stakes matter, retaining *ṭīkā* is usually safer than flattening it.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"

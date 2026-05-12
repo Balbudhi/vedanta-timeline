@@ -1,0 +1,177 @@
+{
+  "applied": [
+    {
+      "target": "saksin",
+      "variant": "sākṣi",
+      "occurrences": 22
+    },
+    {
+      "target": "vivarta",
+      "variant": "vivarta-vāda",
+      "occurrences": 17
+    },
+    {
+      "target": "upadhi",
+      "variant": "upādhis",
+      "occurrences": 9
+    },
+    {
+      "target": "anubhava",
+      "variant": "anubhāva",
+      "occurrences": 5
+    },
+    {
+      "target": "anubhava",
+      "variant": "anubhāvas",
+      "occurrences": 2
+    },
+    {
+      "target": "prakrti",
+      "variant": "prakṛtis",
+      "occurrences": 2
+    },
+    {
+      "target": "paramarthika",
+      "variant": "paramārthika",
+      "occurrences": 1
+    }
+  ],
+  "capitalization_applied": [
+    {
+      "target": "vivarta",
+      "variant": "Vivartavāda",
+      "occurrences": 3
+    },
+    {
+      "target": "sadhana",
+      "variant": "Sādhanā",
+      "occurrences": 2
+    },
+    {
+      "target": "parinama",
+      "variant": "Pariṇāma-vāda",
+      "occurrences": 2
+    },
+    {
+      "target": "tika",
+      "variant": "Tīkā",
+      "occurrences": 2
+    },
+    {
+      "target": "sutra",
+      "variant": "Sūtras",
+      "occurrences": 2
+    },
+    {
+      "target": "sakti",
+      "variant": "Śaktis",
+      "occurrences": 1
+    },
+    {
+      "target": "bhasya",
+      "variant": "Bhāṣyas",
+      "occurrences": 1
+    },
+    {
+      "target": "varttika",
+      "variant": "Vārttikas",
+      "occurrences": 1
+    },
+    {
+      "target": "anekanta-vada",
+      "variant": "Anekānta-vāda",
+      "occurrences": 1
+    },
+    {
+      "target": "kutastha",
+      "variant": "Kūṭastha-caitanya",
+      "occurrences": 1
+    },
+    {
+      "target": "mahavakya",
+      "variant": "Mahāvākyas",
+      "occurrences": 1
+    }
+  ],
+  "skipped_for_review": [
+    {
+      "variant": "ājñāna",
+      "target": "avidya",
+      "reason": "stem mismatch — needs editorial review",
+      "occurrences": 14
+    },
+    {
+      "variant": "ajñana",
+      "target": "avidya",
+      "reason": "stem mismatch — needs editorial review",
+      "occurrences": 3
+    },
+    {
+      "variant": "tattva-vāda",
+      "target": "dvaita",
+      "reason": "stem mismatch — needs editorial review",
+      "occurrences": 13
+    },
+    {
+      "variant": "dharma-bhūta-jñāna",
+      "target": "dharmabhuta-jnana",
+      "reason": "stem mismatch — needs editorial review",
+      "occurrences": 7
+    },
+    {
+      "variant": "kalyāṇa-guṇas",
+      "target": "guna",
+      "reason": "stem mismatch — needs editorial review",
+      "occurrences": 7
+    },
+    {
+      "variant": "aparokṣa",
+      "target": "aparoksa-jnana",
+      "reason": "stem mismatch — needs editorial review",
+      "occurrences": 4
+    },
+    {
+      "variant": "jñāni",
+      "target": "jnana",
+      "reason": "stem mismatch — needs editorial review",
+      "occurrences": 3
+    },
+    {
+      "variant": "sat-kārya-vāda",
+      "target": "satkarya-vada",
+      "reason": "stem mismatch — needs editorial review",
+      "occurrences": 3
+    },
+    {
+      "variant": "śābda",
+      "target": "sabda",
+      "reason": "homonym exclusion — distinct lexeme per translator note",
+      "occurrences": 2
+    },
+    {
+      "variant": "brahmā",
+      "target": "brahman",
+      "reason": "homonym exclusion — distinct lexeme per translator note",
+      "occurrences": 1
+    },
+    {
+      "variant": "cittavṛtti",
+      "target": "citta",
+      "reason": "stem mismatch — needs editorial review",
+      "occurrences": 1
+    },
+    {
+      "variant": "kārma",
+      "target": "karma",
+      "reason": "homonym exclusion — distinct lexeme per translator note",
+      "occurrences": 1
+    },
+    {
+      "variant": "śarīra-śarīri-bhāva",
+      "target": "sarira-saririn-bhava",
+      "reason": "stem mismatch — needs editorial review",
+      "occurrences": 1
+    }
+  ],
+  "files_changed": 17
+}

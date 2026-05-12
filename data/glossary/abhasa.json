@@ -3,21 +3,44 @@
   "term_iast": "ābhāsa",
   "term_devanagari": "आभास",
   "literal": "appearance, shining forth; from ā- + √bhās 'to shine'",
-  "aliases": ["abhasa", "ābhāsa", "Ābhāsa", "ābhāsaḥ", "abhasavada", "ābhāsa-vāda", "cidabhasa", "cidābhāsa"],
+  "aliases": [
+    "abhasa",
+    "ābhāsa",
+    "Ābhāsa",
+    "ābhāsaḥ",
+    "abhasavada",
+    "ābhāsa-vāda",
+    "cidabhasa",
+    "cidābhāsa",
+    "ābhāsas",
+    "Ābhāsa-vāda"
+  ],
   "invariant_definition": "*Ābhāsa* means an appearing or shining-forth, but that does not by itself mean illusion. The term is important because different schools use the same root to solve different problems of manifestation. In Trika and Pratyabhijñā, *ābhāsa-vāda* says that every finite appearing thing is a real manifestation of one consciousness; plurality is the articulated shining forth of Śiva, not a deception laid over him. In later Advaita, by contrast, *cidābhāsa* names the reflected or derivative appearance of consciousness in the internal organ, the factor that makes the empirical knower and the *pramāṇa* process intelligible without abandoning the witness-consciousness. The shared core is manifestness; the structural difference is whether appearance names real manifestation of the absolute or derivative seeming at the level of embodied cognition. The term therefore marks a fault line between a manifestation ontology and an error-oriented epistemology. In practice it belongs both to cosmology and to first-person epistemology: what appears, to whom, and with what degree of reality.",
   "per_school": [
     {
       "school": "Trika / Kashmir Śaivism",
       "definition": "*Ābhāsa-vāda* teaches that the world is the self-manifestation of Śiva-consciousness. Each finite entity is a real *ābhāsa*, not an unreal mask. The doctrine preserves plurality, difference, and ordinary experience while refusing any ontological gap between manifestation and source: what shines forth is Śiva in that mode. This makes Trika a non-illusionist monism whose central question is not how to escape appearance but how to recognize appearance as divine manifestation.",
-      "primary_loci": ["Tantrāloka 3", "Īśvara-Pratyabhijñā-Vimarśinī 2.4"]
+      "primary_loci": [
+        "Tantrāloka 3",
+        "Īśvara-Pratyabhijñā-Vimarśinī 2.4"
+      ]
     },
     {
       "school": "Advaita",
       "definition": "In Advaita the central use is *cidābhāsa*, the appearance or reflection of consciousness in the *buddhi*. It explains how the empirical subject seems to know, act, remember, and undergo change while the witness-consciousness remains unchanged. Different sub-schools coordinate *cidābhāsa* differently with *pratibimba* and *avaccheda* accounts, but the shared point is that empirical subjectivity is derivative rather than ultimate. The term therefore belongs to the machinery that links *antaḥkaraṇa-vṛtti*, cognition, and the apparent knower.",
-      "primary_loci": ["Pañcadaśī 1.6–18", "Pañcadaśī 7.1–8"]
+      "primary_loci": [
+        "Pañcadaśī 1.6–18",
+        "Pañcadaśī 7.1–8"
+      ]
     }
   ],
-  "see_also": ["buddhi", "saksin", "kutastha", "svatantrya", "maya"],
+  "see_also": [
+    "buddhi",
+    "saksin",
+    "kutastha",
+    "svatantrya",
+    "maya"
+  ],
   "translator_note": "The lazy gloss is 'appearance,' taken to imply unreality. That is wrong in the Śaiva use and incomplete even in Advaita. *Ābhāsa* can mean real manifestation, reflected consciousness, or derivative seeming depending on the doctrinal setting. English should therefore not smuggle in the equation appearance = illusion.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"

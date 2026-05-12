@@ -3,31 +3,60 @@
   "term_iast": "lakṣaṇā",
   "term_devanagari": "लक्षणा",
   "literal": "indication, secondary signification, indirect denotation; from √lakṣ, 'to mark, indicate'",
-  "aliases": ["laksana", "lakṣaṇā", "Lakṣaṇā", "lakṣaṇāyā", "laksana-vrtti", "lakṣaṇā-vṛtti"],
+  "aliases": [
+    "laksana",
+    "lakṣaṇā",
+    "Lakṣaṇā",
+    "lakṣaṇāyā",
+    "laksana-vrtti",
+    "lakṣaṇā-vṛtti",
+    "lakṣaṇa"
+  ],
   "invariant_definition": "*Lakṣaṇā* is secondary signification: the power by which language reaches an intended referent when primary denotation would be impossible, contradictory, or contextually inappropriate. The term belongs to a wider semantic apparatus including *abhidhā*, *tātparya*, and, in poetics, *vyañjanā*. It matters in Vedānta because scriptural sentences about *brahman* routinely outstrip literal predication: one must decide whether a sentence is to be taken directly, by implication, or through some mixed strategy. The classical subtypes are *jahallakṣaṇā*, *ajahallakṣaṇā*, and *jahad-ajahallakṣaṇā*; Advaita's reading of *tat tvam asi* depends on the third, often specified as *bhāga-tyāga-lakṣaṇā*. But *lakṣaṇā* is not an ad hoc escape device invented for *mahāvākya*s. It is a standing theory of linguistic practice shared across Mīmāṃsā, Vedānta, grammar, and poetics, and it governs how one moves from literal wording to intended doctrinal content. Disputes over *lakṣaṇā* are therefore disputes over the semantics of scripture and the metaphysics that semantics licenses.",
   "per_school": [
     {
       "school": "Mīmāṃsā / Vyākaraṇa",
       "definition": "*Lakṣaṇā* is the established recourse when *abhidhā* fails to deliver a coherent or contextually suitable meaning. The concern is not mystical depth but disciplined language-use: how words function in injunction, narrative, and ordinary speech. This wider semantic background is what Vedāntins inherit when they deploy *lakṣaṇā* in doctrinal exegesis.",
-      "primary_loci": ["Śabara-Bhāṣya on Mīmāṃsā-Sūtra 1.1 [NOT YET RETRIEVED]", "Kāśikā on Pāṇini 2.1 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Śabara-Bhāṣya on Mīmāṃsā-Sūtra 1.1 [NOT YET RETRIEVED]",
+        "Kāśikā on Pāṇini 2.1 [NOT YET RETRIEVED]"
+      ]
     },
     {
       "school": "Advaita",
       "definition": "Advaita uses *jahad-ajahallakṣaṇā* or *bhāga-tyāga-lakṣaṇā* to interpret the *mahāvākya* *tat tvam asi*. The incompatible adjuncts are set aside: the cosmic predicates attached to *tat* and the finite predicates attached to *tvam*. What remains is the shared consciousness-content disclosed as identity. This semantic move is central to the school's claim that Upaniṣadic revelation teaches non-duality rather than relation or similarity.",
-      "primary_loci": ["Chāndogya-Upaniṣad-Bhāṣya 6.8.7", "Vedānta-Paribhāṣā, śabda-pariccheda", "Saṅkṣepa-Śārīraka 1.319"]
+      "primary_loci": [
+        "Chāndogya-Upaniṣad-Bhāṣya 6.8.7",
+        "Vedānta-Paribhāṣā, śabda-pariccheda",
+        "Saṅkṣepa-Śārīraka 1.319"
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
       "definition": "Rāmānuja resists the Advaitin use of *lakṣaṇā* where literal *sāmānādhikaraṇya* can already be explained through the body-soul relation. The sentence does not require stripping away real content until only bare consciousness remains; it teaches the self's dependence on Brahman. The dispute is semantic and metaphysical at once: what kind of meaning-operation is needed depends on what kind of relation one thinks actually obtains.",
-      "primary_loci": ["Śrī-Bhāṣya 1.1.1", "Vedārtha-Saṅgraha §§24–30 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Śrī-Bhāṣya 1.1.1",
+        "Vedārtha-Saṅgraha §§24–30 [NOT YET RETRIEVED]"
+      ]
     },
     {
       "school": "Tattva-vāda",
       "definition": "Madhva rejects *bhāga-tyāga-lakṣaṇā* on *tat tvam asi* because it erases the real difference scripture elsewhere teaches. The sentence must therefore be taken by another strategy, whether through alternate parsing, restricted similarity, or context-sensitive construal that preserves difference. *Lakṣaṇā* remains legitimate as a semantic tool, but not as a license for non-dual identity.",
-      "primary_loci": ["Madhva, Tat tvam asi-Khaṇḍana [NOT YET RETRIEVED]", "Vyāsatīrtha, Nyāyāmṛta, lakṣaṇā-bhaṅga [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Madhva, Tat tvam asi-Khaṇḍana [NOT YET RETRIEVED]",
+        "Vyāsatīrtha, Nyāyāmṛta, lakṣaṇā-bhaṅga [NOT YET RETRIEVED]"
+      ]
     }
   ],
-  "see_also": ["sakti", "abhidha", "tat-tvam-asi", "mahavakya", "bhaga-tyaga-laksana", "tatparya", "samanadhikaranya"],
+  "see_also": [
+    "sakti",
+    "abhidha",
+    "tat-tvam-asi",
+    "mahavakya",
+    "bhaga-tyaga-laksana",
+    "tatparya",
+    "samanadhikaranya"
+  ],
   "translator_note": "'Secondary signification' is standard and acceptable, but it can sound like a merely stylistic trope. In these traditions *lakṣaṇā* is part of a technical theory of how words succeed in meaning anything beyond direct denotation. Rendering it as 'metaphor' is usually wrong, because the issue is often exegesis and reference rather than figurative ornament.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"

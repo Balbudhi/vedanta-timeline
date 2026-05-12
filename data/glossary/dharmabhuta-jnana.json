@@ -3,7 +3,13 @@
   "term_iast": "dharmabhūta-jñāna",
   "term_devanagari": "धर्मभूतज्ञान",
   "literal": "knowledge existing as an attributive reality",
-  "aliases": ["dharmabhuta-jnana", "dharmabhūta-jñāna", "dharmabhūtajñāna", "dharma-bhuta-jnana"],
+  "aliases": [
+    "dharmabhuta-jnana",
+    "dharmabhūta-jñāna",
+    "dharmabhūtajñāna",
+    "dharma-bhuta-jnana",
+    "Dharmabhūta-jñāna"
+  ],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
   "invariant_definition": "*Dharmabhūta-jñāna* is a signature Viśiṣṭādvaita doctrine according to which the soul's cognitive disclosure of objects is a real attributive existent, not merely an episodic mental state. The contrast is with both the Advaitin model of *vṛtti* and the simple rendering of knowledge as a passing quality. Viśiṣṭādvaita distinguishes the self as a knowing substance from the knowledge that extends from it toward objects. That knowledge contracts under *karma* in bondage and expands without obstruction in liberation. The doctrine therefore ties epistemology, embodiment, and soteriology into one structure: ignorance is not an inexplicable cosmic illusion but the constriction of a real cognitive power belonging to an equally real individual self. In practical terms, the theory explains how the *jīva* can remain finite and distinct while still genuinely disclosing a world and, in liberation, enjoying the Lord directly.",
@@ -11,9 +17,18 @@
     {
       "school": "Viśiṣṭādvaita",
       "definition": "Viśiṣṭādvaita holds that the *jīva* is a substantive knower and that *dharmabhūta-jñāna* is the real attributive cognition through which objects are revealed. Bondage is marked by contraction of this attribute under *karma*; liberation is marked by its full expansion. The doctrine preserves individuality, realism, and devotional relation while explaining cognitive finitude without invoking beginningless illusion as a separate ontological principle.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§82-88", "Rāmānuja, Śrī-Bhāṣya 2.3.42-53", "Yatīndra-Mata-Dīpikā 8"]
+      "primary_loci": [
+        "Vedārtha-Saṅgraha §§82-88",
+        "Rāmānuja, Śrī-Bhāṣya 2.3.42-53",
+        "Yatīndra-Mata-Dīpikā 8"
+      ]
     }
   ],
-  "see_also": ["jnana", "jiva", "vidya", "anubhava"],
+  "see_also": [
+    "jnana",
+    "jiva",
+    "vidya",
+    "anubhava"
+  ],
   "translator_note": "No short English gloss is fully safe. 'Attribute-knowledge' suggests a thin property; 'substantive knowledge' can sound reified in the wrong way. The term names a precise Viśiṣṭādvaita move: cognition is a real, expansive attribute of the self, and its contraction under *karma* explains bondage. Translating it simply as 'knowledge' erases the doctrine."
 }

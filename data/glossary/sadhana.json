@@ -3,7 +3,17 @@
   "term_iast": "sādhana",
   "term_devanagari": "साधन",
   "literal": "means of accomplishing; from √sādh 'to accomplish, to bring to completion'",
-  "aliases": ["sadhana", "sādhana", "Sādhana", "sādhanaṃ", "sādhanāni", "sadhana-catustaya", "sādhana-catuṣṭaya"],
+  "aliases": [
+    "sadhana",
+    "sādhana",
+    "Sādhana",
+    "sādhanaṃ",
+    "sādhanāni",
+    "sadhana-catustaya",
+    "sādhana-catuṣṭaya",
+    "sādhanā",
+    "Sādhanā"
+  ],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
   "invariant_definition": "*Sādhana* is not generic \"practice\" but the ordered means by which a defined goal, *sādhya*, is to be accomplished. The term therefore belongs to a wider instrumentality vocabulary that includes *upāya*, *adhikāra*, *prayoga*, and the distinction between what can be produced by action and what can only be disclosed by knowledge. In a Mīmāṃsā background, this matters because a ritual act can generate a result through an unseen causal link; in Vedānta, by contrast, the central question is which practices purify, prepare, concentrate, surrender, or disclose. Thus *sādhana* may name ethical discipline, contemplative assimilation, liturgical performance, *upāsanā*, mantra, *bhajana*, or *prapatti*. The practical sequence always expresses metaphysics: if bondage is ignorance, *sādhana* culminates in liberating cognition; if bondage is estrangement from Bhagavān, *sādhana* matures into devotion or surrender; if grace is decisive, *sādhana* prepares receptivity rather than causally producing liberation.",
@@ -11,24 +21,47 @@
     {
       "school": "Advaita",
       "definition": "Advaita sharply distinguishes preparatory *sādhana* from liberating knowledge. The classic prerequisite set is the fourfold discipline, *sādhana-catuṣṭaya*: discrimination, dispassion, the six inner excellences, and desire for liberation. These make one fit for *śravaṇa-manana-nididhyāsana*, which remove ignorance. The point is exact: no amount of practice, as practice, manufactures *brahman*; practice prepares the mind for the rise of *jñāna*.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1", "Vedānta-Sāra §§14-34", "Vivekacūḍāmaṇi 16-32"]
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 1.1.1",
+        "Vedānta-Sāra §§14-34",
+        "Vivekacūḍāmaṇi 16-32"
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
       "definition": "*Sādhana* is structured as God-directed discipline. The core path is *bhakti-yoga* understood as sustained *upāsanā*, while *prapatti* is admitted as an independent means for those incapable of prolonged contemplative practice. The important metaphysical contrast with Advaita is that practice does not merely remove a mistake; it constitutes and intensifies a real relation to the real Lord.",
-      "primary_loci": ["Śrī-Bhāṣya 3.4.26-52", "Vedārtha-Saṅgraha §§137-144", "Śaraṇāgati-Gadya [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Śrī-Bhāṣya 3.4.26-52",
+        "Vedārtha-Saṅgraha §§137-144",
+        "Śaraṇāgati-Gadya [NOT YET RETRIEVED]"
+      ]
     },
     {
       "school": "Tattva-vāda",
       "definition": "*Sādhana* is the disciplined cultivation of *bhakti* grounded in correct knowledge of Viṣṇu's supremacy and the reality of difference. Scriptural study, ethical observance, worship, and remembrance all matter, but they do not erase ontological distinctions. They fit the soul for grace and for the *aparokṣa-jñāna* that culminates in liberation. The instrumental order remains realist throughout.",
-      "primary_loci": ["Anu-Vyākhyāna 3.3", "Mahābhārata-Tātparya-Nirṇaya 1.110ff"]
+      "primary_loci": [
+        "Anu-Vyākhyāna 3.3",
+        "Mahābhārata-Tātparya-Nirṇaya 1.110ff"
+      ]
     },
     {
       "school": "Acintya-Bhedābheda",
       "definition": "The governing category is *sādhana-bhakti*. Rūpa Gosvāmī divides it into rule-governed *vaidhī-bhakti* and affection-led *rāgānugā-bhakti*, both of which mature into *bhāva* and then *prema*. The sequence matters because *sādhana* here does not end in impersonal knowledge but in the stabilization of a particular devotional relation and *rasa*.",
-      "primary_loci": ["Bhakti-Rasāmṛta-Sindhu 1.2.1-5", "Bhakti-Rasāmṛta-Sindhu 1.2.270ff", "Caitanya-Caritāmṛta, Madhya 23.13-15"]
+      "primary_loci": [
+        "Bhakti-Rasāmṛta-Sindhu 1.2.1-5",
+        "Bhakti-Rasāmṛta-Sindhu 1.2.270ff",
+        "Caitanya-Caritāmṛta, Madhya 23.13-15"
+      ]
     }
   ],
-  "see_also": ["sravana", "manana", "nididhyasana", "jnana", "bhakti", "prapatti", "moksa"],
+  "see_also": [
+    "sravana",
+    "manana",
+    "nididhyasana",
+    "jnana",
+    "bhakti",
+    "prapatti",
+    "moksa"
+  ],
   "translator_note": "'Practice' is serviceable but too flat. It can suggest a modern self-help routine or generic religious exercise. *Sādhana* is a technical means-end term: it always presupposes an account of what the goal is and what kind of causal or revelatory sequence can lead to it. The most damaging mistranslation is to render *sādhana* as 'spiritual practice' in the contemporary wellness sense; in the technical literature *sādhana* always carries a determinate *sādhya* (goal) and a doctrinally specified *upāya* (means), and the Advaita / Viśiṣṭādvaita / Tattva-vāda (the school often labeled Dvaita) / Acintya disagreement is precisely about *what* the *sādhya* is and *what kind of causal sequence* the *sādhana* operates through. Genericizing the term as 'practice' dissolves these substantive doctrinal disputes."
 }
