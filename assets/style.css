@@ -221,9 +221,24 @@ body.is-space-pan .timeline-scroller * { cursor: grab !important; }
   float: left;
   margin-top: calc(-1 * var(--era-strip-h));   /* align to top of canvas */
   padding-top: var(--era-strip-h);
+  /* Stack rows in a strict column. Each row is locked to --lane-h, so
+     the rail's vertical positions are guaranteed to match the dot layer's
+     lane_index * --lane-h offsets regardless of how many sub-rows the
+     comparator group expands into. */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 .lane-row {
+  /* Locked row height: rail rows and canvas rows BOTH derive from --lane-h.
+     min/max-height pin the box so a long lane-name with -webkit-line-clamp
+     cannot push a row taller than --lane-h, which would desync the rail
+     from the dot positions (which are computed at lane_index * --lane-h). */
   height: var(--lane-h);
+  min-height: var(--lane-h);
+  max-height: var(--lane-h);
+  box-sizing: border-box;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   padding: 0 12px 0 14px;
@@ -1311,9 +1326,21 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
 .glossary-popover::-webkit-scrollbar { width: 6px; }
 .glossary-popover::-webkit-scrollbar-thumb { background: #d8d8d8; border-radius: 3px; }
 .glossary-popover .gp-close {
-  position: absolute; top: 6px; right: 8px;
+  position: absolute;
+  top: 8px; right: 10px;
+  width: 28px; height: 28px;
+  display: flex; align-items: center; justify-content: center;
   background: none; border: none;
-  font-size: 18px; line-height: 1; cursor: pointer; color: var(--muted);
+  font-size: 20px; line-height: 1;
+  cursor: pointer; color: var(--muted);
+  border-radius: 4px;
+  z-index: 2;
+}
+.glossary-popover .gp-close:hover,
+.glossary-popover .gp-close:focus-visible {
+  color: var(--ink);
+  background: var(--rule-warm);
+  outline: none;
 }
 .glossary-popover .gp-term {
   font-family: "Noto Serif", var(--serif);
@@ -1321,6 +1348,7 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
   font-size: 18px;
   font-weight: 500;
   color: var(--ink);
+  padding-right: 32px; /* clear the X close button */
 }
 .glossary-popover .gp-literal {
   font-family: var(--sans);
@@ -1470,13 +1498,26 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
 .citation-popover::-webkit-scrollbar { width: 6px; }
 .citation-popover::-webkit-scrollbar-thumb { background: #d8d8d8; border-radius: 3px; }
 .citation-popover .cp-close {
-  position: absolute; top: 6px; right: 8px;
+  position: absolute;
+  top: 8px; right: 10px;
+  width: 28px; height: 28px;
+  display: flex; align-items: center; justify-content: center;
   background: none; border: none;
-  font-size: 18px; line-height: 1; cursor: pointer; color: var(--muted);
+  font-size: 20px; line-height: 1;
+  cursor: pointer; color: var(--muted);
+  border-radius: 4px;
+  z-index: 2;
+}
+.citation-popover .cp-close:hover,
+.citation-popover .cp-close:focus-visible {
+  color: var(--ink);
+  background: var(--rule-warm);
+  outline: none;
 }
 .citation-popover .cp-header {
   border-bottom: 1px solid var(--rule);
   padding-bottom: 10px;
+  padding-right: 32px; /* clear the X close button */
   margin-bottom: 12px;
 }
 .citation-popover .cp-locus {
@@ -2975,49 +3016,24 @@ sup.cite-fn .cite-fn-link:hover {
 }
 
 /* =============================================================
-   DRAGGABLE POPOVERS (Fix 2)
+   DRAGGABLE POPOVERS
    Both the glossary popover (.glossary-popover) and the citation
-   popover (.citation-popover) gain a thin drag handle at the top
-   that lets the user reposition them. The handle is invisible on
-   mobile (the popovers render as bottom-sheets there).
+   popover (.citation-popover) are draggable from anywhere on their
+   white body. The JS bails on interactive children (links, buttons,
+   inputs, [data-no-drag]) and on text-selection gestures, so the
+   drag never steals a click. Mobile renders the popovers as
+   bottom-sheets and skips the drag entirely.
    ============================================================= */
-.pop-drag {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 18px;
-  cursor: move;
-  touch-action: none;
-  background:
-    linear-gradient(to bottom, rgba(0,0,0,0.025), transparent);
-  border-radius: 4px 4px 0 0;
-  border-bottom: 1px solid var(--rule);
-}
-.pop-drag::before {
-  content: "";
-  display: block;
-  width: 28px;
-  height: 3px;
-  margin: 6px auto 0;
-  background: var(--muted-soft);
-  border-radius: 2px;
-  opacity: 0.6;
-}
 .glossary-popover,
 .citation-popover {
-  padding-top: 26px;            /* leave room for the drag handle */
+  /* Hint to UAs that pointer gestures here are app-managed (drag),
+     while still letting the scrollbar and text selection work. */
+  touch-action: pan-y;
 }
 .glossary-popover.is-dragging,
 .citation-popover.is-dragging {
-  cursor: move;
+  cursor: grabbing;
   box-shadow: var(--shadow-lg, 0 10px 30px rgba(0,0,0,0.18));
   opacity: 0.97;
-}
-@media (max-width: 720px) {
-  /* Bottom-sheet popovers: hide the drag handle (the sheet has its
-     own pull-bar already; drag would conflict with CSS-fixed pos). */
-  .pop-drag { display: none; }
-  .glossary-popover,
-  .citation-popover { padding-top: 22px; }
+  user-select: none;
 }

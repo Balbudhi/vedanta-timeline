@@ -130,12 +130,19 @@ const COMPARATOR_LANES = [
 const COMPARATOR_GROUP_KEY = "__comparator_group__";
 const COMPARATOR_GROUP_LABEL = "Other darśanas";
 
+// One canonical color per historical period. Used by both views:
+//   • the lanes view era-band overlay (full vertical stripes)
+//   • the network view era-band overlay (same SVG renderer)
+//   • the era-strip labels at the top (text tinted to its period color)
+// Anything tagged with these era names must use the same `fill` everywhere.
+// Modern caps at 2050 (current year + buffer for living thinkers); the
+// chronology axis never extends past this point.
 const ERA_BANDS = [
-  { name: "Pre-Śaṅkara",  low: -800, high:  700, fill: "#a8a29e", fillOpacity: 0.05 },
-  { name: "Classical",    low:  700, high: 1100, fill: "#94a3b8", fillOpacity: 0.06 },
-  { name: "Late-Medieval",low: 1100, high: 1500, fill: "#d97706", fillOpacity: 0.05 },
-  { name: "Early-Modern", low: 1500, high: 1800, fill: "#9333ea", fillOpacity: 0.04 },
-  { name: "Modern",       low: 1800, high: 2050, fill: "#0891b2", fillOpacity: 0.05 },
+  { name: "Pre-Śaṅkara",  low: -800, high:  700, fill: "#a8a29e", fillOpacity: 0.10 },
+  { name: "Classical",    low:  700, high: 1100, fill: "#94a3b8", fillOpacity: 0.12 },
+  { name: "Late-Medieval",low: 1100, high: 1500, fill: "#d97706", fillOpacity: 0.08 },
+  { name: "Early-Modern", low: 1500, high: 1800, fill: "#9333ea", fillOpacity: 0.07 },
+  { name: "Modern",       low: 1800, high: 2050, fill: "#0891b2", fillOpacity: 0.08 },
 ];
 
 const TIER_1 = new Set([
@@ -345,6 +352,12 @@ function scrollToInitialFocus() {
   state.hasInitialScroll = true;
 }
 
+// Hard upper bound on the chronology axis. Modern era caps at 2050 by
+// convention (current year + ~25-year buffer for living thinkers). The
+// auto-fit pass below clamps to this so a single 2050-dated thinker can't
+// push the axis out to 2100.
+const RANGE_HIGH_MAX = 2050;
+
 function computeRange() {
   if (!state.thinkers.length) return;
   let lo = Infinity, hi = -Infinity;
@@ -353,7 +366,9 @@ function computeRange() {
     if (typeof t.dates_high === "number") hi = Math.max(hi, t.dates_high);
   }
   state.range.low = Math.floor(lo / 50) * 50 - 50;
-  state.range.high = Math.ceil(hi / 50) * 50 + 50;
+  // Snap to the next 50-year tick above hi, then clamp to RANGE_HIGH_MAX.
+  const snapped = Math.ceil(hi / 50) * 50 + 50;
+  state.range.high = Math.min(snapped, RANGE_HIGH_MAX);
 }
 
 function updateSubtitle() {
@@ -818,6 +833,9 @@ function renderEraStrip() {
     el.className = "era-label";
     el.style.left = x + "px";
     el.style.width = w + "px";
+    // Tint each label with its canonical period color so lanes-view and
+    // network-view share the same color-vocabulary for periods.
+    el.style.color = era.fill;
     el.textContent = era.name;
     eraStripEl.appendChild(el);
   }
@@ -1134,11 +1152,15 @@ function renderAll() {
 }
 
 // Recompute lane order + filter and re-render. Preserves scroll position
-// horizontally; vertical position resets only when lane count changes meaningfully.
+// in BOTH axes so toggling a chip or expanding the comparator group never
+// makes the user feel the viewport shifted under them — the chronology
+// axis and the visible thinkers stay where the user was looking.
 function rerender() {
   const prevLeft = scroller.scrollLeft;
+  const prevTop = scroller.scrollTop;
   renderAll();
   scroller.scrollLeft = prevLeft;
+  scroller.scrollTop = prevTop;
   renderFilterChips();
 }
 
@@ -1181,39 +1203,136 @@ function wirePanZoom() {
   });
 
   // wheel: vertical wheel pans Y; shift+wheel pans X; ctrl+wheel zooms.
-  // Zoom factor is delta-proportional so trackpad pinch (which fires many
-  // small ctrlKey-flagged wheel events) does not accumulate aggressively.
-  // Mouse-wheel ticks (deltaMode=DOM_DELTA_LINE, large discrete steps)
-  // still produce a perceptible zoom but a softer one than before.
+  //
+  // Smooth-zoom strategy (desktop + trackpad pinch):
+  //   1. During an active zoom gesture, apply a GPU-accelerated CSS
+  //      transform (translateX + scaleX) to `.canvas`. No layout recompute,
+  //      no DOM teardown — just a compositor matrix update. Coalesced into
+  //      requestAnimationFrame so wheel bursts (60-120/s) collapse to one
+  //      paint per frame.
+  //   2. When wheel events stop (~140 ms idle), "commit": fold the visual
+  //      scale into state.pxPerYear, reset the transform, run the full
+  //      computeLayout()+renderAll() once, and adjust scrollLeft so the
+  //      year that was under the cursor stays under the cursor.
+  //
+  // This collapses dozens of full re-renders into one, while giving
+  // immediate (60 fps) visual feedback on every wheel tick.
+  let zoomActive = false;
+  let zoomStartPpy = 0;
+  let zoomVisualSx = 1;       // accumulated scale since zoom-start
+  let zoomTx = 0;             // accumulated translateX in screen px
+  let zoomScrollLeft = 0;     // scroller.scrollLeft frozen at zoom-start
+  let zoomRailOffset = 0;     // canvas natural left within scroller content
+  let zoomScrollerLeft = 0;   // scroller.getBoundingClientRect().left
+  let zoomLastCursorX = 0;    // last clientX (for commit anchor)
+  let zoomRafPending = false;
+  let zoomEndTimer = 0;
+  let zoomPendingFactor = 1;
+  let zoomPendingCursorX = 0;
+  // Re-applies the transform on the next animation frame. Multiple wheel
+  // events within the same frame are coalesced into one matrix update.
+  function scheduleZoomFrame() {
+    if (zoomRafPending) return;
+    zoomRafPending = true;
+    requestAnimationFrame(() => {
+      zoomRafPending = false;
+      // Resolve cx under cursor in canvas coords using the CURRENT transform,
+      // then apply pendingFactor about that anchor.
+      const screenBase = zoomScrollerLeft - zoomScrollLeft + zoomRailOffset;
+      const cursorScreenX = zoomPendingCursorX;
+      const cxAnchor = (cursorScreenX - screenBase - zoomTx) / zoomVisualSx;
+      const factor = zoomPendingFactor;
+      zoomPendingFactor = 1;
+      let newSx = zoomVisualSx * factor;
+      // Clamp visual scale so it can't exceed effective pxPerYear bounds.
+      const minSx = 0.6 / zoomStartPpy;
+      const maxSx = 6 / zoomStartPpy;
+      newSx = Math.max(minSx, Math.min(maxSx, newSx));
+      if (newSx === zoomVisualSx) return;
+      const newTx = cursorScreenX - screenBase - cxAnchor * newSx;
+      zoomVisualSx = newSx;
+      zoomTx = newTx;
+      canvas.style.transform = `translateX(${newTx}px) scaleX(${newSx})`;
+    });
+  }
+  // Folds the visual scale into pxPerYear, re-runs layout, restores scroll.
+  function commitZoom() {
+    if (zoomEndTimer) { clearTimeout(zoomEndTimer); zoomEndTimer = 0; }
+    if (!zoomActive) return;
+    const newPpy = Math.max(0.6, Math.min(6, zoomStartPpy * zoomVisualSx));
+    // Compute the year that's currently under the cursor (in pre-commit coords).
+    const screenBase = zoomScrollerLeft - zoomScrollLeft + zoomRailOffset;
+    const cxAnchor = (zoomLastCursorX - screenBase - zoomTx) / zoomVisualSx;
+    const yearAtCursor = state.range.low + (cxAnchor - PAD_LEFT) / zoomStartPpy;
+    // Reset transform first so subsequent layout/render writes are crisp.
+    canvas.style.transform = "";
+    canvas.style.transformOrigin = "";
+    canvas.style.willChange = "";
+    zoomActive = false;
+    if (newPpy !== state.pxPerYear) {
+      state.pxPerYear = newPpy;
+      computeLayout();
+      renderAll();
+    }
+    // Restore scrollLeft so the same year stays under the cursor.
+    const newCx = PAD_LEFT + (yearAtCursor - state.range.low) * state.pxPerYear;
+    scroller.scrollLeft = newCx + zoomRailOffset - (zoomLastCursorX - zoomScrollerLeft);
+    zoomVisualSx = 1;
+    zoomTx = 0;
+  }
+  function startZoom(e) {
+    zoomActive = true;
+    zoomStartPpy = state.pxPerYear;
+    zoomVisualSx = 1;
+    zoomTx = 0;
+    zoomScrollLeft = scroller.scrollLeft;
+    const rect = scroller.getBoundingClientRect();
+    zoomScrollerLeft = rect.left;
+    zoomRailOffset = state.viewMode === "network" ? 0 : LANE_RAIL_W;
+    canvas.style.transformOrigin = "0 0";
+    canvas.style.willChange = "transform";
+  }
+
   scroller.addEventListener("wheel", (e) => {
     if (e.ctrlKey || e.metaKey) {
       e.preventDefault();
-      const oldPpy = state.pxPerYear;
       // Normalize delta. deltaMode=1 (LINE) → multiply; deltaMode=0 (PIXEL,
       // trackpad pinch) → use raw px. Clamp to keep one tick gentle.
       const rawDelta = e.deltaMode === 1 ? e.deltaY * 16 : e.deltaY;
       const clampedDelta = Math.max(-50, Math.min(50, rawDelta));
-      // Sensitivity: ~halved from previous 1.08 per tick. At 50px wheel,
-      // factor ≈ exp(50 * 0.0018) ≈ 1.094; at 4px trackpad nudge, ≈ 1.007.
+      // Sensitivity matches the previous gesture: factor ≈ exp(-delta*0.0018).
       const factor = Math.exp(-clampedDelta * 0.0018);
-      const newPpy = Math.max(0.6, Math.min(6, oldPpy * factor));
-      if (newPpy === oldPpy) return;
-      // anchor zoom on cursor x position
-      const rect = scroller.getBoundingClientRect();
-      const railOffset = state.viewMode === "network" ? 0 : LANE_RAIL_W;
-      const cursorX = e.clientX - rect.left + scroller.scrollLeft - railOffset;
-      const yearAtCursor = state.range.low + cursorX / state.pxPerYear;
-      state.pxPerYear = newPpy;
-      computeLayout();
-      renderAll();
-      const newCursorX = (yearAtCursor - state.range.low) * state.pxPerYear;
-      scroller.scrollLeft = newCursorX - (e.clientX - rect.left) + railOffset;
+      if (!zoomActive) startZoom(e);
+      // Re-snapshot scroller scrollLeft. If the user vertical-scrolled
+      // between zoom events (non-ctrl wheel may have native scroll), keep
+      // the visual transform consistent by compensating tx for the shift.
+      const newScrollLeft = scroller.scrollLeft;
+      if (newScrollLeft !== zoomScrollLeft) {
+        zoomTx += (newScrollLeft - zoomScrollLeft);
+        zoomScrollLeft = newScrollLeft;
+      }
+      // Accumulate factor and cursor so the rAF callback handles the latest.
+      zoomPendingFactor *= factor;
+      zoomPendingCursorX = e.clientX;
+      zoomLastCursorX = e.clientX;
+      scheduleZoomFrame();
+      // Reset the idle timer; commit only after the wheel burst ends.
+      if (zoomEndTimer) clearTimeout(zoomEndTimer);
+      zoomEndTimer = setTimeout(commitZoom, 140);
     } else if (e.shiftKey) {
       e.preventDefault();
       scroller.scrollLeft += e.deltaY;
     }
     // otherwise: native vertical scroll behavior
   }, { passive: false });
+  // If the user clicks or starts dragging mid-zoom (rare on trackpads),
+  // commit immediately so hit-detection uses the final layout.
+  scroller.addEventListener("pointerdown", () => {
+    if (zoomActive) {
+      if (zoomEndTimer) { clearTimeout(zoomEndTimer); zoomEndTimer = 0; }
+      commitZoom();
+    }
+  }, true);
 
   // Hold-Space → grab cursor + drag-pan everywhere (Figma / Sketch
   // convention). The existing mousedown path already supports drag-pan on
@@ -2263,25 +2382,33 @@ function wireTranslationDisclosures(root, ctx) {
   });
 }
 
-// ---------- popover drag helper (Fix 2) -----------
-// Shared between the glossary popover and the citation popover. Adds:
-//   • A drag handle (an element matching .pop-drag, or the popover itself)
-//     that lets the user reposition the popover by pointer-drag.
-//   • Bounds clamping so the popover stays at least partially on-screen.
+// ---------- popover drag helper -----------
+// Shared between the glossary popover and the citation popover. The popover
+// itself is the drag surface — there is no separate handle bar. We bail on
+// interactive children (links, buttons, inputs, anything marked
+// [data-no-drag]) so clicks on glossary terms, the close button, and the
+// "Open thinker" button still work normally. A 4 px movement threshold lets
+// the user select text without accidentally starting a drag.
+//
+//   • Bounds clamping keeps the popover at least partially on-screen.
 //   • Optional session persistence: pass a storageKey to remember the user's
 //     preferred placement across opens (via localStorage).
-// Skipped on mobile (≤720 px): the popover is a bottom-sheet there and the
+//
+// Skipped on mobile (≤720 px): the popover is a bottom-sheet there and a
 // drag would conflict with the sheet's CSS-fixed positioning.
+const POP_DRAG_THRESHOLD = 4;
+
 function makePopoverDraggable(pop, opts) {
   const isMobile = window.matchMedia("(max-width: 720px)").matches;
   if (isMobile) return;
-  const handle = pop.querySelector(".pop-drag") || pop;
-  let dragging = false;
+  let armed = false;        // pointerdown landed on a draggable region
+  let dragging = false;     // movement has crossed the threshold
   let startX = 0, startY = 0, startLeft = 0, startTop = 0;
+  let activePointerId = null;
 
   function clampLeft(x, el) {
     const w = el.offsetWidth || 400;
-    const minLeft = -w + 100;                       // keep ≥100 px visible
+    const minLeft = -w + 100;                       // keep >=100 px visible
     const maxLeft = window.innerWidth - 100;
     return Math.max(minLeft, Math.min(maxLeft, x));
   }
@@ -2305,39 +2432,71 @@ function makePopoverDraggable(pop, opts) {
     } catch (_) {}
   }
 
-  handle.addEventListener("pointerdown", (e) => {
-    if (e.target.closest("button, a, input, select, textarea")) return;
-    dragging = true;
+  function isInteractiveTarget(target) {
+    if (!target || target.nodeType !== 1) return false;
+    return !!target.closest(
+      "a, button, input, select, textarea, [data-no-drag], [contenteditable=''], [contenteditable='true']",
+    );
+  }
+
+  // A pointerdown inside the popover's scrollbar gutter must scroll, not drag.
+  function isOnScrollbar(e) {
+    const r = pop.getBoundingClientRect();
+    const scrollbarWidth = pop.offsetWidth - pop.clientWidth;
+    return scrollbarWidth > 0 && (e.clientX > r.right - scrollbarWidth - 1);
+  }
+
+  pop.addEventListener("pointerdown", (e) => {
+    if (e.button !== undefined && e.button !== 0) return; // primary button only
+    if (isInteractiveTarget(e.target)) return;
+    if (isOnScrollbar(e)) return;
+    armed = true;
+    dragging = false;
+    activePointerId = e.pointerId;
     startX = e.clientX;
     startY = e.clientY;
     const r = pop.getBoundingClientRect();
     startLeft = r.left;
     startTop = r.top;
-    try { handle.setPointerCapture(e.pointerId); } catch (_) {}
-    pop.classList.add("is-dragging");
-    e.preventDefault();
   });
-  handle.addEventListener("pointermove", (e) => {
-    if (!dragging) return;
+
+  pop.addEventListener("pointermove", (e) => {
+    if (!armed || e.pointerId !== activePointerId) return;
     const dx = e.clientX - startX;
     const dy = e.clientY - startY;
+    if (!dragging) {
+      if (Math.abs(dx) < POP_DRAG_THRESHOLD && Math.abs(dy) < POP_DRAG_THRESHOLD) return;
+      // Don't begin a drag if the user is actively selecting text.
+      const sel = window.getSelection && window.getSelection();
+      if (sel && sel.toString().length > 0) { armed = false; return; }
+      dragging = true;
+      try { pop.setPointerCapture(e.pointerId); } catch (_) {}
+      pop.classList.add("is-dragging");
+      e.preventDefault();
+    }
     pop.style.left = clampLeft(startLeft + dx, pop) + "px";
     pop.style.top = clampTop(startTop + dy, pop) + "px";
   });
+
   const endDrag = (e) => {
-    if (!dragging) return;
+    if (!armed) return;
+    const wasDragging = dragging;
+    armed = false;
     dragging = false;
-    pop.classList.remove("is-dragging");
-    try { handle.releasePointerCapture(e.pointerId); } catch (_) {}
-    if (key) {
-      try {
-        const r = pop.getBoundingClientRect();
-        localStorage.setItem(key, JSON.stringify({ left: r.left, top: r.top }));
-      } catch (_) {}
+    if (wasDragging) {
+      pop.classList.remove("is-dragging");
+      try { pop.releasePointerCapture(e.pointerId); } catch (_) {}
+      if (key) {
+        try {
+          const r = pop.getBoundingClientRect();
+          localStorage.setItem(key, JSON.stringify({ left: r.left, top: r.top }));
+        } catch (_) {}
+      }
     }
+    activePointerId = null;
   };
-  handle.addEventListener("pointerup", endDrag);
-  handle.addEventListener("pointercancel", endDrag);
+  pop.addEventListener("pointerup", endDrag);
+  pop.addEventListener("pointercancel", endDrag);
 }
 
 // ---------- glossary popover -----------
@@ -2367,14 +2526,30 @@ function openGlossary(termKey, anchorEl) {
   const isMobile = window.matchMedia("(max-width: 720px)").matches;
   const pop = document.createElement("div");
   pop.className = "glossary-popover";
+  // One footnote counter for the entire popover so [1] [2] … is continuous
+  // across the invariant definition, per-school rows, and translator note.
+  // Each prose block is run through `md` + `numberCitations`, which replaces
+  // inline `<a class="cite-link">` anchors with `<sup class="cite-fn">[N]</sup>`
+  // and accumulates the locus into `footnotes`. The footnote list is then
+  // appended at the bottom of the popover with click-targets back into the
+  // Citation tab popover (parity with the thinker-prose pipeline).
+  const popCtr = { n: 0 };
+  const invariantR = numberCitations(md(entry.invariant_definition || ""), popCtr);
+  const allFootnotes = invariantR.footnotes.slice();
   const perSchool = (entry.per_school || []).map((s) => {
+    const r = numberCitations(md(s.definition), popCtr);
+    allFootnotes.push(...r.footnotes);
     const tag = s.register_tag
       ? `<span class="gp-regtag" title="register tuple">${escape(s.register_tag)}</span>`
       : "";
-    return `<div class="gp-row"><span class="gp-school">${escape(s.school)}</span><span class="gp-def">${tag}${md(s.definition)}</span></div>`;
+    return `<div class="gp-row"><span class="gp-school">${escape(s.school)}</span><span class="gp-def">${tag}${r.html}</span></div>`;
   }).join("");
+  const translatorR = entry.translator_note
+    ? numberCitations(md(entry.translator_note), popCtr)
+    : { html: "", footnotes: [] };
+  allFootnotes.push(...translatorR.footnotes);
   const translatorNote = entry.translator_note
-    ? `<div class="gp-translator"><span class="gp-label">Translator note</span><div>${md(entry.translator_note)}</div></div>`
+    ? `<div class="gp-translator"><span class="gp-label">Translator note</span><div>${translatorR.html}</div></div>`
     : "";
   const framing = entry.school_framing;
   const framingLabel = (() => {
@@ -2387,6 +2562,10 @@ function openGlossary(termKey, anchorEl) {
       default: return escape(framing.framing_status);
     }
   })();
+  // Framing blocks are methodological prose; we route them through md() only,
+  // not numberCitations, since the inline references are short locus mentions
+  // (e.g. *Anuvyākhyāna* 2.3.66–69) rather than `cite://` anchors that need
+  // footnote numbering.
   const framingBlock = framing
     ? `<div class="gp-framing"><span class="gp-label">School framing</span>
          <div class="gp-framing-status">${framingLabel}</div>
@@ -2394,14 +2573,15 @@ function openGlossary(termKey, anchorEl) {
          ${framing.register_axes_note ? `<div class="gp-axes">${md(framing.register_axes_note)}</div>` : ""}
        </div>`
     : "";
+  const footnoteList = renderFootnoteList(allFootnotes);
   pop.innerHTML = `
-    <div class="pop-drag gp-drag" aria-hidden="true"></div>
-    <button class="gp-close" aria-label="Close">×</button>
+    <button class="gp-close" aria-label="Close" data-no-drag type="button">×</button>
     <div class="gp-term">${escape(entry.term_iast || termKey)}</div>
     ${entry.literal ? `<div class="gp-literal">Literally: <em>${escape(entry.literal)}</em></div>` : ""}
-    <div class="gp-invariant"><span class="gp-label">${entry.invariant_definition && entry.invariant_definition.toLowerCase().includes("no shared invariant") ? "No invariant" : "Invariant"}</span><div>${md(entry.invariant_definition || "")}</div></div>
+    <div class="gp-invariant"><span class="gp-label">${entry.invariant_definition && entry.invariant_definition.toLowerCase().includes("no shared invariant") ? "No invariant" : "Invariant"}</span><div>${invariantR.html}</div></div>
     ${perSchool ? `<div class="gp-perschool"><span class="gp-label">By school</span>${framingBlock}${perSchool}</div>` : ""}
     ${translatorNote}
+    ${footnoteList}
   `;
   let scrim = null;
   if (isMobile) {
@@ -2523,7 +2703,7 @@ async function openCitationPopover(key, anchorEl) {
     `;
   }
 
-  pop.innerHTML = `<div class="pop-drag cp-drag" aria-hidden="true"></div><button class="cp-close" aria-label="Close">×</button>${bodyHtml}`;
+  pop.innerHTML = `<button class="cp-close" aria-label="Close" data-no-drag type="button">×</button>${bodyHtml}`;
 
   let scrim = null;
   if (isMobile) {
@@ -3012,8 +3192,41 @@ function inlineMarkdown(s) {
   return out;
 }
 
+// Pre-escape pass that rewrites two informal citation idioms into the
+// canonical `[X](cite://Y)` form so the downstream URL regex can match them.
+//
+//   1. Angle-bracketed URLs        → `(<cite://X>)`   → `(cite://X)`
+//      (markdown "autolink" punctuation that some authors typed when the URL
+//      contains parens or whitespace; the angle brackets serve no purpose
+//      here because the renderer already tolerates those characters.)
+//   2. Footnote-bracket idiom      → `[[X](cite://Y)]` → `[X](cite://Y)`
+//      (and chained variants like `[[X](cite://Y); [W](cite://Z)]`.) The
+//      outer brackets become noise once the visible text is replaced by a
+//      numbered superscript footnote downstream, so strip them up front.
+//
+// The transformation runs in source space (before HTML-escaping). It only
+// touches text that already contains a `(cite://…)` URL, so non-citation
+// prose is never altered.
+function normalizeCitationSyntax(s) {
+  if (s == null) return s;
+  let out = String(s);
+  out = out.replace(/\(<\s*(cite:\/\/[^>\n]+?)\s*>\)/g, "($1)");
+  out = out.replace(
+    /\[((?:\[[^\]]+?\]\(cite:\/\/[^)\n]+\)(?:[;,]?\s*)?)+)\]/g,
+    "$1",
+  );
+  return out;
+}
+
 function md(s) {
   if (s == null) return "";
+  // Normalize the two citation idioms before escaping so the URL regex can be
+  // anchored on the literal `(cite://…)`:
+  //   • angle-bracketed URLs  → `[X](<cite://…>)`  (markdown autolink form)
+  //   • footnote-style outer brackets → `[[X](cite://…)]` (and chained variants)
+  // Both forms appear in the on-disk JSON and were rendered as raw markdown
+  // before this normalization was added.
+  s = normalizeCitationSyntax(s);
   let out = escape(s);
   // Bold first (longer match), then italic. Inline-italic uses lookbehind/lookahead
   // to forbid whitespace adjacent to the asterisk (avoids math-like "2 * 3"),
@@ -3610,7 +3823,14 @@ async function openArticle(a) {
   }
   const text = await r.text();
   if (dpArticleBody) {
-    dpArticleBody.innerHTML = `<article>${renderMarkdownFull(text)}</article>`;
+    // Render the article body, then post-process the rendered HTML to turn
+    // inline `<a class="cite-link">` anchors into superscript footnote links
+    // and append a footnote list at the bottom. One counter for the whole
+    // article so numbering is continuous (parity with the thinker pipeline).
+    const articleCtr = { n: 0 };
+    const articleR = numberCitations(renderMarkdownFull(text), articleCtr);
+    const fnList = renderFootnoteList(articleR.footnotes);
+    dpArticleBody.innerHTML = `<article>${articleR.html}${fnList}</article>`;
     dpArticleBody.scrollTop = 0;
   }
   panelState.loaded.article = true;
@@ -3625,6 +3845,11 @@ async function openArticle(a) {
 //      handler can open the glossary popover (parity with thinker prose);
 //  (3) preserves cite:// links so the citation popover / panel handler fires.
 function renderMarkdownFull(src) {
+  // Normalize informal citation idioms (`(<cite://X>)`, `[[X](cite://Y)]`)
+  // into the canonical `[X](cite://Y)` form before any escaping runs. The
+  // pass is idempotent and only rewrites text that already contains a
+  // `cite://` URL, so plain prose is untouched.
+  src = normalizeCitationSyntax(src);
   const esc = (s) => s.replace(/[&<>]/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
   // Sanskrit-aside blocks — extracted before any other processing so the inner
   // panes can be rendered recursively without any of the outer-pass regexes

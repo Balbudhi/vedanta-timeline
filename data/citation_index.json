@@ -13656,6 +13656,127 @@
       "pending_acquisition_note": "Pending acquisition; see parishishta/notes/USER_NEEDED.md.",
       "verified": "pending-acquisition",
       "source": "thinker_jsons/sudarsana.json#engaged_works[0]"
+    },
+    "bhaskara/brahma-sutra-bhasya/1.1.2": {
+      "thinker_id": "bhaskara",
+      "work_id": "brahma-sutra-bhasya",
+      "locus": "Bhāskara, Brahma-Sūtra-Bhāṣya 1.1.2",
+      "locus_short": "Bhāskara BSBh 1.1.2",
+      "sanskrit_iast": "",
+      "english_close": "",
+      "source": "pending-acquisition — Bhāskara's *Brahma-Sūtra-Bhāṣya* not yet on disk in clean OCR form; locus preserved.",
+      "verified": "pending-acquisition",
+      "verification_note": "Re-targeted from cite://sankara/brahma-sutra-bhasya/* (audit WRONG-TARGET fix, Phase 3, 2026-05-12). Bhāskara's own *Brahma-Sūtra-Bhāṣya* — distinct from Śaṅkara's — is the host text the prose discusses; passage awaits acquisition. Print edition reference: V. P. Dvivedī, ed., *Brahmasūtra-Bhāṣya* of Bhāskara (Chowkhamba 1903 / Achyut Granthamala 1915)."
+    },
+    "bhaskara/brahma-sutra-bhasya/1.1.4": {
+      "thinker_id": "bhaskara",
+      "work_id": "brahma-sutra-bhasya",
+      "locus": "Bhāskara, Brahma-Sūtra-Bhāṣya 1.1.4",
+      "locus_short": "Bhāskara BSBh 1.1.4",
+      "sanskrit_iast": "",
+      "english_close": "",
+      "source": "pending-acquisition — Bhāskara's *Brahma-Sūtra-Bhāṣya* not yet on disk in clean OCR form; locus preserved.",
+      "verified": "pending-acquisition",
+      "verification_note": "Re-targeted from cite://sankara/brahma-sutra-bhasya/* (audit WRONG-TARGET fix, Phase 3, 2026-05-12). Bhāskara's own *Brahma-Sūtra-Bhāṣya* — distinct from Śaṅkara's — is the host text the prose discusses; passage awaits acquisition. Print edition reference: V. P. Dvivedī, ed., *Brahmasūtra-Bhāṣya* of Bhāskara (Chowkhamba 1903 / Achyut Granthamala 1915)."
+    },
+    "bhaskara/brahma-sutra-bhasya/1.4.25": {
+      "thinker_id": "bhaskara",
+      "work_id": "brahma-sutra-bhasya",
+      "locus": "Bhāskara, Brahma-Sūtra-Bhāṣya 1.4.25",
+      "locus_short": "Bhāskara BSBh 1.4.25",
+      "sanskrit_iast": "",
+      "english_close": "",
+      "source": "pending-acquisition — Bhāskara's *Brahma-Sūtra-Bhāṣya* not yet on disk in clean OCR form; locus preserved.",
+      "verified": "pending-acquisition",
+      "verification_note": "Re-targeted from cite://sankara/brahma-sutra-bhasya/* (audit WRONG-TARGET fix, Phase 3, 2026-05-12). Bhāskara's own *Brahma-Sūtra-Bhāṣya* — distinct from Śaṅkara's — is the host text the prose discusses; passage awaits acquisition. Print edition reference: V. P. Dvivedī, ed., *Brahmasūtra-Bhāṣya* of Bhāskara (Chowkhamba 1903 / Achyut Granthamala 1915)."
+    },
+    "bhaskara/brahma-sutra-bhasya/2.1.14": {
+      "thinker_id": "bhaskara",
+      "work_id": "brahma-sutra-bhasya",
+      "locus": "Bhāskara, Brahma-Sūtra-Bhāṣya 2.1.14",
+      "locus_short": "Bhāskara BSBh 2.1.14",
+      "sanskrit_iast": "",
+      "english_close": "",
+      "source": "pending-acquisition — Bhāskara's *Brahma-Sūtra-Bhāṣya* not yet on disk in clean OCR form; locus preserved.",
+      "verified": "pending-acquisition",
+      "verification_note": "Re-targeted from cite://sankara/brahma-sutra-bhasya/* (audit WRONG-TARGET fix, Phase 3, 2026-05-12). Bhāskara's own *Brahma-Sūtra-Bhāṣya* — distinct from Śaṅkara's — is the host text the prose discusses; passage awaits acquisition. Print edition reference: V. P. Dvivedī, ed., *Brahmasūtra-Bhāṣya* of Bhāskara (Chowkhamba 1903 / Achyut Granthamala 1915)."
+    },
+    "bhaskara/brahma-sutra-bhasya/2.1.14-20": {
+      "thinker_id": "bhaskara",
+      "work_id": "brahma-sutra-bhasya",
+      "locus": "Bhāskara, Brahma-Sūtra-Bhāṣya 2.1.14-20",
+      "locus_short": "Bhāskara BSBh 2.1.14-20",
+      "sanskrit_iast": "",
+      "english_close": "",
+      "source": "pending-acquisition — Bhāskara's *Brahma-Sūtra-Bhāṣya* not yet on disk in clean OCR form; locus preserved.",
+      "verified": "pending-acquisition",
+      "verification_note": "Re-targeted from cite://sankara/brahma-sutra-bhasya/* (audit WRONG-TARGET fix, Phase 3, 2026-05-12). Bhāskara's own *Brahma-Sūtra-Bhāṣya* — distinct from Śaṅkara's — is the host text the prose discusses; passage awaits acquisition. Print edition reference: V. P. Dvivedī, ed., *Brahmasūtra-Bhāṣya* of Bhāskara (Chowkhamba 1903 / Achyut Granthamala 1915)."
+    },
+    "bhaskara/brahma-sutra-bhasya/2.1.14-27": {
+      "thinker_id": "bhaskara",
+      "work_id": "brahma-sutra-bhasya",
+      "locus": "Bhāskara, Brahma-Sūtra-Bhāṣya 2.1.14-27",
+      "locus_short": "Bhāskara BSBh 2.1.14-27",
+      "sanskrit_iast": "",
+      "english_close": "",
+      "source": "pending-acquisition — Bhāskara's *Brahma-Sūtra-Bhāṣya* not yet on disk in clean OCR form; locus preserved.",
+      "verified": "pending-acquisition",
+      "verification_note": "Re-targeted from cite://sankara/brahma-sutra-bhasya/* (audit WRONG-TARGET fix, Phase 3, 2026-05-12). Bhāskara's own *Brahma-Sūtra-Bhāṣya* — distinct from Śaṅkara's — is the host text the prose discusses; passage awaits acquisition. Print edition reference: V. P. Dvivedī, ed., *Brahmasūtra-Bhāṣya* of Bhāskara (Chowkhamba 1903 / Achyut Granthamala 1915)."
+    },
+    "bhaskara/brahma-sutra-bhasya/2.3.43": {
+      "thinker_id": "bhaskara",
+      "work_id": "brahma-sutra-bhasya",
+      "locus": "Bhāskara, Brahma-Sūtra-Bhāṣya 2.3.43",
+      "locus_short": "Bhāskara BSBh 2.3.43",
+      "sanskrit_iast": "",
+      "english_close": "",
+      "source": "pending-acquisition — Bhāskara's *Brahma-Sūtra-Bhāṣya* not yet on disk in clean OCR form; locus preserved.",
+      "verified": "pending-acquisition",
+      "verification_note": "Re-targeted from cite://sankara/brahma-sutra-bhasya/* (audit WRONG-TARGET fix, Phase 3, 2026-05-12). Bhāskara's own *Brahma-Sūtra-Bhāṣya* — distinct from Śaṅkara's — is the host text the prose discusses; passage awaits acquisition. Print edition reference: V. P. Dvivedī, ed., *Brahmasūtra-Bhāṣya* of Bhāskara (Chowkhamba 1903 / Achyut Granthamala 1915)."
+    },
+    "bhaskara/brahma-sutra-bhasya/2.3.43-53": {
+      "thinker_id": "bhaskara",
+      "work_id": "brahma-sutra-bhasya",
+      "locus": "Bhāskara, Brahma-Sūtra-Bhāṣya 2.3.43-53",
+      "locus_short": "Bhāskara BSBh 2.3.43-53",
+      "sanskrit_iast": "",
+      "english_close": "",
+      "source": "pending-acquisition — Bhāskara's *Brahma-Sūtra-Bhāṣya* not yet on disk in clean OCR form; locus preserved.",
+      "verified": "pending-acquisition",
+      "verification_note": "Re-targeted from cite://sankara/brahma-sutra-bhasya/* (audit WRONG-TARGET fix, Phase 3, 2026-05-12). Bhāskara's own *Brahma-Sūtra-Bhāṣya* — distinct from Śaṅkara's — is the host text the prose discusses; passage awaits acquisition. Print edition reference: V. P. Dvivedī, ed., *Brahmasūtra-Bhāṣya* of Bhāskara (Chowkhamba 1903 / Achyut Granthamala 1915)."
+    },
+    "bhaskara/brahma-sutra-bhasya/3.4.1-17": {
+      "thinker_id": "bhaskara",
+      "work_id": "brahma-sutra-bhasya",
+      "locus": "Bhāskara, Brahma-Sūtra-Bhāṣya 3.4.1-17",
+      "locus_short": "Bhāskara BSBh 3.4.1-17",
+      "sanskrit_iast": "",
+      "english_close": "",
+      "source": "pending-acquisition — Bhāskara's *Brahma-Sūtra-Bhāṣya* not yet on disk in clean OCR form; locus preserved.",
+      "verified": "pending-acquisition",
+      "verification_note": "Re-targeted from cite://sankara/brahma-sutra-bhasya/* (audit WRONG-TARGET fix, Phase 3, 2026-05-12). Bhāskara's own *Brahma-Sūtra-Bhāṣya* — distinct from Śaṅkara's — is the host text the prose discusses; passage awaits acquisition. Print edition reference: V. P. Dvivedī, ed., *Brahmasūtra-Bhāṣya* of Bhāskara (Chowkhamba 1903 / Achyut Granthamala 1915)."
+    },
+    "bhaskara/brahma-sutra-bhasya/3.4.26-27": {
+      "thinker_id": "bhaskara",
+      "work_id": "brahma-sutra-bhasya",
+      "locus": "Bhāskara, Brahma-Sūtra-Bhāṣya 3.4.26-27",
+      "locus_short": "Bhāskara BSBh 3.4.26-27",
+      "sanskrit_iast": "",
+      "english_close": "",
+      "source": "pending-acquisition — Bhāskara's *Brahma-Sūtra-Bhāṣya* not yet on disk in clean OCR form; locus preserved.",
+      "verified": "pending-acquisition",
+      "verification_note": "Re-targeted from cite://sankara/brahma-sutra-bhasya/* (audit WRONG-TARGET fix, Phase 3, 2026-05-12). Bhāskara's own *Brahma-Sūtra-Bhāṣya* — distinct from Śaṅkara's — is the host text the prose discusses; passage awaits acquisition. Print edition reference: V. P. Dvivedī, ed., *Brahmasūtra-Bhāṣya* of Bhāskara (Chowkhamba 1903 / Achyut Granthamala 1915)."
+    },
+    "bhaskara/brahma-sutra-bhasya/4.4.1-7": {
+      "thinker_id": "bhaskara",
+      "work_id": "brahma-sutra-bhasya",
+      "locus": "Bhāskara, Brahma-Sūtra-Bhāṣya 4.4.1-7",
+      "locus_short": "Bhāskara BSBh 4.4.1-7",
+      "sanskrit_iast": "",
+      "english_close": "",
+      "source": "pending-acquisition — Bhāskara's *Brahma-Sūtra-Bhāṣya* not yet on disk in clean OCR form; locus preserved.",
+      "verified": "pending-acquisition",
+      "verification_note": "Re-targeted from cite://sankara/brahma-sutra-bhasya/* (audit WRONG-TARGET fix, Phase 3, 2026-05-12). Bhāskara's own *Brahma-Sūtra-Bhāṣya* — distinct from Śaṅkara's — is the host text the prose discusses; passage awaits acquisition. Print edition reference: V. P. Dvivedī, ed., *Brahmasūtra-Bhāṣya* of Bhāskara (Chowkhamba 1903 / Achyut Granthamala 1915)."
     }
   },
   "aliases": {
