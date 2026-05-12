@@ -1060,6 +1060,30 @@
       "date": "2026-05-12",
       "school": "western_classical_greek",
       "depth": "comprehensive"
+    },
+    {
+      "id": "wittgenstein",
+      "slug": "wittgenstein",
+      "title": "Wittgenstein — language-games, hinges, and the limits of the sayable",
+      "subtitle": "A reader's document on the `Tractatus`, `Philosophical Investigations`, and `On Certainty`, written around the problem of language-games, hinges, and the limits of saying.",
+      "kind": "essay",
+      "source_doc": "data/articles/source/wittgenstein.md",
+      "tags": [
+        "Wittgenstein",
+        "Tractatus",
+        "Philosophical-Investigations",
+        "On-Certainty",
+        "language-games",
+        "rule-following",
+        "private-language",
+        "hinges",
+        "showing-and-saying",
+        "western-analytic"
+      ],
+      "school": "western_analytic_20c",
+      "depth": "comprehensive",
+      "word_count_approx": 12207,
+      "date": "2026-05-12"
     }
   ]
 }
