@@ -8,13 +8,13 @@
 
 McGilchrist is a psychiatrist and literary scholar whose work joins clinical neuroscience to large-scale metaphysical history. *The Master and His Emissary* gives the hemispheric thesis and the Greek-to-postmodern cultural arc; *The Matter with Things* expands the empirical case in Vol I ("The Hemispheres and the Means to Truth") and develops the constructive metaphysics in Vol II ("The Unforeseen Nature of Reality").
 
-Cross-engagement: Alfred North Whitehead presses the same temporal mode axis in the metaphysical register, but with the value `process-primary` rather than `both-orthogonal` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: the disagreement with Alfred North Whitehead is at the temporal mode axis itself: `both-orthogonal` here, `process-primary` in [primary text](cite://whitehead/process-and-reality/1.2).
 
 ### The arc
 
 McGilchrist's central claim is structural. The two hemispheres are not equivalent processors dividing labor. They are two fundamentally different *ways of attending* — and through attending, of bringing a world into being. The left attends narrowly, focally, instrumentally, abstracting parts from wholes and operating on already-known representations. The right attends broadly, contextually, vigilantly, taking the whole as primary, open to whatever is novel, embodied, ambiguous, or implicit. The right *presents* the world; the left *re-presents* it. Both are necessary. They are not symmetric.
 
-Cross-engagement: G. W. F. Hegel presses the same social formation axis in the political-social register, but with the value `recognitive-institutional` rather than `civilizational-structure-shift` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: G. W. F. Hegel's reading at [primary text](cite://hegel/phenomenology-of-spirit/17) fills the social formation axis with `recognitive-institutional`. The present section fills it with `civilizational-structure-shift`.
 
 The asymmetry is captured in the title's parable: right is master, left emissary, and modernity is the emissary's usurpation. When the relation is ordered, the left serves what the right discloses; when the left declares sovereignty, the result is a hall of mirrors of representations referring to other representations.
 

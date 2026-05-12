@@ -8,11 +8,11 @@
 
 ### Two lives, one lineage
 
-Cross-engagement: Adi Sankara presses the same manifestation status axis in the metaphysical register, but with the value `sublatable-not-null` rather than `expressive-manifestation` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: at the manifestation status axis the two texts choose differently. Adi Sankara ([primary text](cite://sankara/brahma-sutra-bhasya/1.1.1)) commits to `sublatable-not-null`; this section commits to `expressive-manifestation`.
 
 Sri **Ramakrishna Paramahaṃsa** (1836–1886), village Brahmin from Kamarpukur and priest of the Kālī temple at **Dakshineswar**, left no writings. The standpoint is preserved by **Mahendranath Gupta** ("M") in the Bengali *Kathāmṛta*, translated by Swami Nikhilananda as *The Gospel of Sri Ramakrishna* (1942): a near-stenographic record of conversations across the last four-and-a-half years of Ramakrishna's life.
 
-Cross-engagement: Anandabodha presses the same identity relation axis in the metaphysical register, but with the value `non-otherness` rather than `self-expression-or-appearance` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Anandabodha ([primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352)) and this section take opposite turns on the identity relation axis — `non-otherness` against `self-expression-or-appearance`.
 
 Swami **Vivekananda** (1863–1902, born Narendranath Datta) is Ramakrishna's principal disciple. He met the master in 1881, took *saṃnyāsa* in 1886, represented Hinduism at the 1893 Chicago Parliament, lectured 1893–1900 in America and Britain (the four "Yogas" — *Karma*, *Bhakti*, *Rāja*, *Jñāna*), founded the **Ramakrishna Mission** (1 May 1897) and **Belur Math** (December 1898), died at Belur on 4 July 1902. The nine-volume *Complete Works* (Advaita Ashrama) is the canonical English source.
 
@@ -20,7 +20,7 @@ Swami **Vivekananda** (1863–1902, born Narendranath Datta) is Ramakrishna's pr
 
 The user's reading takes the line **Ramakrishna → Vivekananda → Aurobindo** as a *structural* claim: the philosophical content the user calls Realistic Advaita (T2) is already present, in undeveloped form, in Ramakrishna's *vijñāna* doctrine and in Vivekananda's harmonisation of the four yogas. Aurobindo gives the cosmological and supramental architecture; the Bengali source-material is supplied by the master and his disciple.
 
-Cross-engagement: Akalanka presses the same epistemic authority axis in the epistemological register, but with the value `plural-pramana-realism` rather than `scripture-plus-transformative-experience` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: the disagreement with Akalanka is at the epistemic authority axis itself: `scripture-plus-transformative-experience` here, `plural-pramana-realism` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35).
 
 Swami **Medhananda** (formerly Ayon Maharaj) — *Infinite Paths to Infinite Reality* (Oxford 2018), *Swami Vivekananda's Vedāntic Cosmopolitanism* (Oxford 2022) — provides the contemporary scholarly reconstruction. The user accepts the reading of *content* and adds: (a) the content was articulated decades earlier by Aurobindo as Realistic Adwaita; (b) the move Medhananda treats as outside Śaṅkarite Advaita is already available *inside* Advaita correctly performed (Vivaraṇa, Madhusūdana's *Bhakti-rasāyana*, Kashmir-Śaiva *svātantrya*). Companion document `21_medhananda.md` treats Medhananda's apparatus in detail.
 
@@ -28,7 +28,7 @@ Swami **Medhananda** (formerly Ayon Maharaj) — *Infinite Paths to Infinite Rea
 
 The single most important word in this reader is **vijñāna**. Ramakrishna uses it in a precise technical sense, distinct from its Sanskrit-philosophical sense in (e.g.) Yogācāra Buddhism or Sāṅkhya psychology. In Ramakrishna's idiolect:
 
-Cross-engagement: G. W. F. Hegel presses the same normativity axis in the ethical register, but with the value `ethical-life-in-institutions` rather than `divine-command-or-grace` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a real divergence with G. W. F. Hegel on the normativity axis. The ethical register is shared; the values are not — `divine-command-or-grace` here, `ethical-life-in-institutions` at [primary text](cite://hegel/phenomenology-of-spirit/17).
 
 - *ajñāna* — ignorance: hearing about milk.
 - *jñāna* — knowledge: seeing milk.
@@ -42,9 +42,9 @@ This is the philosophical core. Everything else in the reader — Vivekananda's 
 
 ### The practical, pluralist character of the path
 
-Ramakrishna's Bengali aphorism *যত মত তত পথ* (*yata mat tata path* — "as many faiths, so many paths") is sometimes read as a generic gesture of religious tolerance. The user's reading, following Medhananda, is more demanding: it is **manifestationist pluralism**, not Hickian or perennialist pluralism. The Real has the inherent capacity to be encountered as personal, impersonal, with form, without form, dual, non-dual; each tradition realizes a real aspect; the apparent contradictions are not signs that something must be wrong somewhere, but evidence of the Real's own bivalence (T1, T4). The *parable of the blind men and the elephant*, the *parable of the chameleon under the tree*, are doctrinal — not sentimental — statements.
+Ramakrishna's Bengali aphorism *যত মত তত পথ* (*yata mat tata path* — "as many faiths, so many paths") is sometimes read as a generic gesture of religious tolerance. The user's reading, following Medhananda, is more demanding: it is **manifestationist pluralism**, not Hickian or perennialist pluralism. The Real has the inherent capacity to be encountered as personal, impersonal, with form, without form, dual, non-dual; each tradition realizes a real aspect; the apparent contradictions are not signs that something must be wrong somewhere, but evidence of the Real's own bivalence (T1, T4). The *parable of the blind men and the elephant*, the *parable of the chameleon under the tree*, are doctrinal, not sentimental, statements.
 
-Cross-engagement: Akshapada Gautama presses the same practice-path axis in the soteriological register, but with the value `knowledge-discipline` rather than `transformative-integration` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: against Akshapada Gautama: `transformative-integration` rather than `knowledge-discipline` for the practice-path axis ([primary text](cite://aksapada/nyaya-sutra/1.1.1)).
 
 Vivekananda's *jñāna-bhakti-karma-rāja* synthesis is the practical extension of this. The four "yogas" are not stages on a single ladder; they are **four equal paths** for differently constituted persons (T12, *adhikāra*). Each is structurally complete: each can deliver liberation in its own idiom. This is what Medhananda calls the **yoga-equality** thesis, and it is structurally homologous to T1's *darśana*-register thesis — the same point at the level of practice that the *darśana*-thesis makes at the level of philosophy.
 
@@ -55,7 +55,7 @@ Vivekananda's *jñāna-bhakti-karma-rāja* synthesis is the practical extension 
 - **T6.** The *vijñānī* who "comes down from samādhi" formulates the *paramādvaita* / supramental landing.
 - **T8/T10.** Vivekananda's *Karma-Yoga* "Give up all fruits of work; do good for its own sake" is the paradigmatic statement of *niṣkāma karma* + total surrender.
 
-Cross-engagement: Abhinavagupta presses the same soteric end axis in the soteriological register, but with the value `recognition-or-freedom` rather than `transformation-of-life` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Abhinavagupta ([primary text](cite://abhinavagupta/tantraloka/1.16)) treats the soteric end axis in the soteriological register with the value `recognition-or-freedom`. The present section reads it as `transformation-of-life`.
 
 ### Hindu-nationalist misreading: prohibition
 
@@ -728,7 +728,7 @@ Medhananda's *Religions* 2021 paper "Cutting the Knot" works out the homology in
 
 (3) **Philosophical.** Aurobindo dialectically corners Advaita on the *locus* of avidyā: if the *jīva* perceives the illusion, the *jīva* is itself a product of ignorance — circularity. If Brahman perceives the illusion, Brahman is subject to illusion — contradicts perfection. Śaṅkara's qualified illusionism (*vyāvahārika* vs. *paramārthika*) collapses, on Aurobindo's reading, into thoroughgoing illusionism, since empirical entities have only "unreal reality, real only to our ignorance, unreal to any true knowledge."
 
-The positive doctrine — Realistic Adwaita — has the Real as **Saccidānanda** with **two inseparable aspects**: static *Sat* (the impersonal Absolute) and dynamic *Cit-Śakti* (Consciousness-Force). Cit-Śakti is the explanatory ground of manifestation; the world is a real self-expression of the Divine, not an illusion. The Supramental, not the silent Brahman, is the integrating principle.
+The positive doctrine, Realistic Adwaita, has the Real as **Saccidānanda** with **two inseparable aspects**: static *Sat* (the impersonal Absolute) and dynamic *Cit-Śakti* (Consciousness-Force). Cit-Śakti is the explanatory ground of manifestation; the world is a real self-expression of the Divine, not an illusion. The Supramental, not the silent Brahman, is the integrating principle.
 
 The claim is *exactly* Medhananda's "bivalent ontological realism" — but in Aurobindo's vocabulary and with a developed cosmology of involution and evolution.
 

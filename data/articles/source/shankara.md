@@ -8,7 +8,7 @@
 
 Ādi Śaṅkara (traditional dating c. 788–820 CE; some scholars push the dates earlier, into the 7th century, on the basis of citations in early Pratyabhijñā literature and the absence of references to figures one would expect a 9th-century author to know) is the most influential commentator in the Vedānta tradition and arguably in Indian philosophy as a whole. In a life conventionally given as thirty-two years he produced the three foundational *bhāṣyas* of *Prasthāna-trayī* — the *Brahma-Sūtra-Bhāṣya* (henceforth BSB), commentaries on the ten principal *Upaniṣads* (Īśa, Kena, Kaṭha, Praśna, Muṇḍaka, Māṇḍūkya with Gauḍapāda's *Kārikās*, Aitareya, Taittirīya, Bṛhadāraṇyaka, Chāndogya), and the *Bhagavad-Gītā-Bhāṣya*.
 
-Cross-engagement: Akalanka presses the same substrate structure axis in the metaphysical register, but with the value `many-coordinate-reals` rather than `one-self-standing` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: at the substrate structure axis the two texts choose differently. Akalanka ([primary text](cite://umasvati/tattvartha-sutra/1.34-35)) commits to `many-coordinate-reals`; this section commits to `one-self-standing`.
 
 Around this stable canonical core circulates a second, contested ring. The *prakaraṇa* (introductory) works include the *Upadeśa-sāhasrī* (almost universally accepted as authentic, and the most reliable single window into Śaṅkara's own pedagogy outside the bhāṣyas), the *Ātmabodha*, the *Aparokṣānubhūti*, and the much-anthologized *Vivekacūḍāmaṇi* (whose attribution is more contested than popular editions admit). Then a corona of devotional *stotras*: *Bhaja Govindam*, *Saundarya-laharī*, *Dakṣiṇā-mūrti-stotra*, *Kanakadhārā-stotra*, *Śivānanda-laharī*. Some of these are securely Śaṅkara's, some are traditional ascriptions; what matters for our purposes is that the canonical Śaṅkara of the bhāṣyas and the devotional Śaṅkara of the stotras are continuous, not contradictory — a point we shall labor, because the textbook image of Śaṅkara as the bloodless world-denier cannot accommodate the same author writing *bhaja govindaṁ bhaja govindaṁ govindaṁ bhaja mūḍha-mate* with a straight face.
 
@@ -18,7 +18,7 @@ Across this body of work runs one philosophical thread: *advaita* — *non-duali
 
 This reader is built around a corrective the textual record itself demands. There is a textbook Śaṅkara — the world-denier, the magician's-illusion theorist — and there is the actual Śaṅkara of the *Brahma-Sūtra-Bhāṣya*. They are different.
 
-Cross-engagement: Abhinavagupta presses the same manifestation status axis in the metaphysical register, but with the value `expressive-manifestation` rather than `sublatable-not-null` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: against Abhinavagupta: `sublatable-not-null` rather than `expressive-manifestation` for the manifestation status axis ([primary text](cite://abhinavagupta/tantraloka/1.16)).
 
 The actual Śaṅkara:
 
@@ -34,7 +34,7 @@ The actual Śaṅkara:
 
 The definitive Sanskrit recension of the BSB is the Ānandāśrama Sanskrit Series edition (no. 21, Pune, 1890/1909). The two standard English translations are George Thibaut's *The Vedānta-Sūtras with the Commentary of Śaṅkarāchārya* (SBE 34 [1890], SBE 38 [1896]) and Swami Gambhirananda's *Brahma-Sūtra-Bhāṣya of Śaṅkarācārya* (Advaita Ashrama, 1965). We lean on Gambhirananda for philosophical precision, on Thibaut for the canonical Western-Indological reception. For the Upaniṣad-bhāṣyas: Gambhirananda's *Eight Upaniṣads* (1957–58); Mādhavānanda for Bṛhadāraṇyaka (1934); Gambhirananda for Chāndogya (1983).
 
-Cross-engagement: Arthur Schopenhauer presses the same identity relation axis in the metaphysical register, but with the value `self-expression-or-appearance` rather than `non-otherness` in [primary text](cite://schopenhauer/the-world-as-will-and-representation/1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Arthur Schopenhauer takes the identity relation axis to a different commitment — `self-expression-or-appearance` at [primary text](cite://schopenhauer/the-world-as-will-and-representation/1.1) against `non-otherness` here.
 
 For the sub-commentarial layer: Vācaspati Miśra's *Bhāmatī* (c. 950 CE) and Prakāśātman's *Pañcapādikā-Vivaraṇa* (13th c.); Padmapāda's *Pañcapādikā* originates the Vivaraṇa lineage. Sureśvara's *Naiṣkarmya-Siddhi* and *Bṛhadāraṇyaka-Bhāṣya-Vārtika* are the indispensable conservative counterweight. For the late polemical defense, Madhusūdana Sarasvatī's *Advaita-Siddhi* (c. 16th c.) replies to Vyāsatīrtha's *Nyāyāmṛta*; Madhusūdana's *Siddhānta-Bindu* and his devotional *Bhakti-Rasāyana* embody register-multiplicity within a single late-Advaita thinker (T2).
 
@@ -42,7 +42,7 @@ For the sub-commentarial layer: Vācaspati Miśra's *Bhāmatī* (c. 950 CE) and 
 
 Throughout this reader we preserve Sanskrit technical vocabulary, glossing on first occurrence and trusting the reader to retain it. Initial gloss:
 
-Cross-engagement: Akshapada Gautama presses the same selfhood structure axis in the phenomenological register, but with the value `substantial-self` rather than `witness-self` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Akshapada Gautama takes the selfhood structure axis to a different commitment — `substantial-self` at [primary text](cite://aksapada/nyaya-sutra/1.1.1) against `witness-self` here.
 
 *advaita* (non-duality, "not-two-ness"); *brahman* (the unconditioned Real); *ātman* (the Self); *māyā* (the power of manifestation, often translated "illusion" but more accurately the principle of name-and-form appearance); *avidyā* (ignorance, in technical Advaita usage *bhāvarūpa* — positively existent, not mere absence); *adhyāsa* (superimposition, the structural confusion of subject and object); *vivarta* (apparent modification without real change in the substratum); *pariṇāma* (real transformation); *mithyā* (sublatable, dependent-being); *asat* (non-existent); *anirvacanīya* (indeterminable, escaping the *sat*/*asat* dichotomy); *pāramārthika* (ultimate-level); *vyāvahārika* (empirical-conventional-level); *prātibhāsika* (apparent-illusory-level); *bādhya / bādhita* (sublatable, sublated); *abhāva* (absence, non-existence); *jīvanmukti* (liberation while embodied); *adhyāropa-apavāda* (the pedagogical technique of provisional positing followed by withdrawal); *neti neti* ("not this, not this," the negative method); *sākṣin / sākṣi-cetana* (witness, witness-consciousness); *aham-pratyaya* (the 'I'-cognition); *upādāna-kāraṇa* (material cause); *nimitta-kāraṇa* (efficient cause); *līlā* (play); *kaivalya* (aloneness, completeness-in-itself); *samanvaya* (harmonisation of texts); *tātparya* (purport, intention); *mukhya-śruti* (primary scriptural statement); *gauṇa-śruti* (secondary scriptural statement); *artha-vāda* (laudatory amplification); *bheda-śruti* (difference-affirming passage); *abheda-śruti* (non-difference-affirming passage); *adhikāra* (audience-fitness, eligibility for a teaching); *prasthāna-trayī* (the three textual sources of Vedānta — Upaniṣads, Brahma-Sūtras, Bhagavad-Gītā).
 
@@ -54,19 +54,19 @@ The reading sequence proposed at the end takes you, in order, from the *Adhyāsa
 
 The *Adhyāsa-Bhāṣya* (henceforth AB) is Śaṅkara's introduction to the BSB as a whole. It precedes the commentary on 1.1.1; it is not a commentary on any specific sūtra. It is a philosophical prolegomenon — Śaṅkara's argument for *why* Vedāntic inquiry is needed in the first place, what the basic cognitive predicament of the embodied being is, and what the structure of that predicament reveals about the Self. The AB is the most cited and (in our submission) the most misread portion of Śaṅkara's corpus. Read carelessly, it founds the world-denier caricature. Read carefully, it does the opposite: it establishes that *adhyāsa requires a real substratum* — the rope-snake illusion presupposes a real rope — and uses that requirement to argue for the reality of the witness-consciousness which is *Brahman*.
 
-Cross-engagement: Anandabodha presses the same finite cognition axis in the epistemological register, but with the value `positive-ignorance` rather than `adhyasa-or-superimposition` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Anandabodha's reading at [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352) fills the finite cognition axis with `positive-ignorance`. The present section fills it with `adhyasa-or-superimposition`.
 
 ### The Opening Argument — Subject and Object as Light and Darkness
 
 Śaṅkara opens the *Adhyāsa-Bhāṣya* by saying that subject and object, like light and darkness, cannot be mutually identified, and therefore their attributes cannot be mutually identified either.
 
-Cross-engagement: Ayon Maharaj presses the same epistemic authority axis in the epistemological register, but with the value `comparative-theological-reading` rather than `scripture-dominant` in [primary text](cite://maharaj/infinite-paths-to-infinite-reality/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: on the epistemic authority axis Ayon Maharaj reads `comparative-theological-reading` ([primary text](cite://maharaj/infinite-paths-to-infinite-reality/1)); the present section reads `scripture-dominant`.
 
 **Word-for-word.** *yuṣmad* — "you" (object-pole marker); *asmat* — "I" (subject-pole); *pratyaya-gocarayoḥ* — "of the two whose spheres are these cognitions"; *viṣaya-viṣayiṇoḥ* — "of object and subject"; *tamaḥ-prakāśavat* — "like darkness and light"; *viruddha-svabhāvayoḥ* — "having mutually opposed natures"; *itaretara-bhāvānupapattau* (locative absolute) — "the mutual identification being impossible"; *siddhāyām* — "this being established"; *tad-dharmāṇām api sutarām* — "even more so of their attributes"; *āsīt* — "it would be the case" (imperfect marking the conclusion as already-given).
 
 **My literal English (primary).** "Of the two whose spheres are the 'you'-cognition and the 'I'-cognition — the object and the subject, opposed-in-nature like darkness and light — once their mutual-identification has been established as impossible, *a fortiori* the mutual-identification of their attributes is impossible too."
 
-**For comparison.** Gambhirananda: "Since the object — the content referred to by the 'you'-cognition — and the subject — the content referred to by the 'I'-cognition — being respectively the seen and the seer, are by nature mutually opposed as light and darkness, and their mutual identification is impossible; it follows even more strongly that the attributes of the one cannot be identified with those of the other." Thibaut (SBE 34, pp. 3–4): "The objects of the conception of 'you' (the not-Self) and the conception of 'I' (the Self), pertaining to the spheres of subject and object respectively, being opposed to each other as much as darkness and light, it follows that the one cannot be the other."
+**For comparison.** Gambhirananda: "Since the object — the content referred to by the 'you'-cognition, and the subject, the content referred to by the 'I'-cognition — being respectively the seen and the seer, are by nature mutually opposed as light and darkness, and their mutual identification is impossible; it follows even more strongly that the attributes of the one cannot be identified with those of the other." Thibaut (SBE 34, pp. 3–4): "The objects of the conception of 'you' (the not-Self) and the conception of 'I' (the Self), pertaining to the spheres of subject and object respectively, being opposed to each other as much as darkness and light, it follows that the one cannot be the other."
 
 The standard translations gloss over the locative-absolute *itaretara-bhāvānupapattau siddhāyām* — the conditional-priority operator: *given* substance-non-identity, attribute-non-identity follows *a fortiori* (*sutarām*). Śaṅkara is not asserting the substance-opposition; he treats it as already-given (the imperfect *āsīt*), and squeezes the attribute-conclusion from it.
 
@@ -76,7 +76,7 @@ The opening does two things. First, it sets up the *oppositional structure* of s
 
 Śaṅkara defines *adhyāsa* as the appearing, in another locus, of something previously seen, in the form of memory.
 
-Cross-engagement: Baladeva Vidyabhushana presses the same truth-structure axis in the epistemological register, but with the value `single-absolute-truth` rather than `hierarchical-standpoint-truth` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: same epistemological register, different commitments at the truth-structure axis. Baladeva Vidyabhushana: `single-absolute-truth`, [primary text](cite://badarayana/brahma-sutra/1.1.1). Here: `hierarchical-standpoint-truth`.
 
 **Word-for-word.**
 - *smṛti-rūpaḥ* — "of the form of memory." *Smṛti* is the technical term for *memory*. *Adhyāsa* is not fresh perception, not imagination, not inference — it is a *recognition-overlay*: a memory-trace taking on the appearance of present perception.
@@ -94,7 +94,7 @@ Cross-engagement: Baladeva Vidyabhushana presses the same truth-structure axis i
 
 Śaṅkara's stock examples are the cognition of silver in mother-of-pearl, of a man in a post, and of a snake in a rope.
 
-Cross-engagement: Bannanje Govindacharya presses the same practice-path axis in the soteriological register, but with the value `devotion-and-grace` rather than `knowledge-discipline` in [primary text](cite://madhva/tattva-sankhyana/1-4). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Bannanje Govindacharya lands on `devotion-and-grace` for the practice-path axis ([primary text](cite://madhva/tattva-sankhyana/1-4)); this section lands on `knowledge-discipline`.
 
 **Word-for-word.** *yathā* — "as, just as"; *śuktikāyām* (locative) — "in mother-of-pearl"; *rajata-buddhiḥ* — "the cognition of silver"; *sthāṇau* (locative) — "in a [tree-]post"; *puruṣa-buddhiḥ* — "the cognition of a man"; *rajjau* (locative) — "in a rope"; *sarpa-buddhiḥ* — "the cognition of a snake."
 
@@ -108,7 +108,7 @@ This is why the AB is, in our submission, the *opposite* of a world-denial argum
 
 Śaṅkara surveys four accounts of the *mechanism* of *adhyāsa*. His own preferred account selects and recombines elements from (2), (3), and (4) while rejecting (1).
 
-Cross-engagement: Alfred North Whitehead presses the same soteric end axis in the soteriological register, but with the value `not-soteriological` rather than `identity-with-ground` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: same soteriological register, different commitments at the soteric end axis. Alfred North Whitehead: `not-soteriological`, [primary text](cite://whitehead/process-and-reality/1.2). Here: `identity-with-ground`.
 
 **(1) The Sāṃkhya *tādātmya* account.** Mutual identification of two real entities — Puruṣa and Prakṛti, both ontologically equal. Śaṅkara rejects this: Brahman alone is *pāramārthika-sat*. The Sāṃkhya phenomenology of distinguishable poles is right; its dual ontology is wrong.
 
@@ -137,7 +137,7 @@ This is the load-bearing identification. The *aupaniṣada-puruṣa* — the wit
 **Logical structure of the AB's central argument.**
 
 - P1: All *adhyāsa* requires a real, non-superimposed substratum.
-- P2: The mutual superimposition of subject and object — ordinary cognitive life — is *adhyāsa*.
+- P2: The mutual superimposition of subject and object, ordinary cognitive life, is *adhyāsa*.
 - C: Therefore there is a real, non-superimposed substratum — the *sākṣi-cetana*.
 - Corollary: This substratum is Brahman / Ātman, as the *abheda-śrutis* teach (*tat tvam asi*, *aham brahmāsmi*, *ayam ātmā brahma*, *prajñānaṁ brahma*).
 
@@ -175,7 +175,7 @@ At *Chāndogya Upaniṣad* 6.1.4, Uddālaka says that by knowing one lump of cla
 
 **My literal English.** "Just as, dear one, by a single lump of clay all things made of clay would become known: the modification is something that begins in speech, a mere name; 'clay' alone is what is real."
 
-The hinge phrase *vācārambhaṇaṁ vikāro nāmadheyam* attributes to the modification the predicate "held only by being spoken-of." The modification is real-as-articulated; its means of cognitive grasp is verbal designation, not independent self-establishment. *Mṛttikā ity eva satyam* then says: clay — the substance — is *satyam* (real) in the unconditional sense. This is the lexical seed of the three-tier ontology: empirical *nāma-rūpa* is real as *nāma-rūpa*; the substratum is real as substance; they are not in competition, just register-distinct.
+The hinge phrase *vācārambhaṇaṁ vikāro nāmadheyam* attributes to the modification the predicate "held only by being spoken-of." The modification is real-as-articulated; its means of cognitive grasp is verbal designation, not independent self-establishment. *Mṛttikā ity eva satyam* then says: clay, the substance, is *satyam* (real) in the unconditional sense. This is the lexical seed of the three-tier ontology: empirical *nāma-rūpa* is real as *nāma-rūpa*; the substratum is real as substance; they are not in competition, just register-distinct.
 
 Śaṅkara takes the *vikāra* (pot, bowl, jug) to lack independent being. Its being is the clay's being articulated in *nāma-rūpa*. But *vācārambhaṇam* does not mean the pot is non-existent. The pot holds water, breaks, is bought and sold. What it lacks is *self-established* being. Its being is *para-sattā* — the being-of-another. This is precisely *mithyātva*: ontological dependence, *vyāvahārikally* operative, *pāramārthikally* not self-established.
 
@@ -351,7 +351,7 @@ At *Bṛhadāraṇyaka Upaniṣad* 4.4.19, the text says that whoever knows Brah
 
 Bṛhadāraṇyaka 4.4.19. **My literal English.** "He who knows That as Brahman becomes Brahman alone. Here, not-anything as manyness exists." (For comparison: Mādhavānanda — "Whoever truly knows that Brahman becomes Brahman . Here there is no multiplicity whatsoever.")
 
-The literal *neha nānāsti kiñcana* unpacks word-for-word: *na* (not) + *iha* (here) + *nānā* (manyness, plurality) + *asti* (is) + *kiñcana* (anything-whatsoever). The *kiñcana* is the existential quantifier — "anything-whatsoever" — and what is denied is *nānā*-being, *manyness-being*, of any token. The negation is over the *manyness-claim*, not over *being-as-such*. "Here" (*iha*) is the *jñāna-dṛṣṭi*-context: from the standpoint of the one who has just been told *brahmaiva bhavati*. The translation "no multiplicity whatsoever" reads correctly; what matters is that the negation is *of the manyness-predicate*, not *of being*. The pots remain; their independent-secondness does not.
+The literal *neha nānāsti kiñcana* unpacks word-for-word: *na* (not) + *iha* (here) + *nānā* (manyness, plurality) + *asti* (is) + *kiñcana* (anything-whatsoever). The *kiñcana* is the existential quantifier — "anything-whatsoever" — and what is denied is *nānā*-being, *manyness-being*, of any token. The negation is over the *manyness-claim*, not over *being-as-such*. "Here" (*iha*) is the *jñāna-dṛṣṭi*-context: from the standpoint of the one who has just been told *brahmaiva bhavati*. The translation "no multiplicity whatsoever" reads correctly; the negation is *of the manyness-predicate*, not *of being*. The pots remain; their independent-secondness does not.
 
 The line *neha nānāsti kiñcana* — "here there is no manyness whatsoever" — is the *locus classicus* of Advaita's apparent world-denial. Read flat, it appears to say: there is nothing other than Brahman, no distinctions, no plurality. Madhva and Rāmānuja take this as evidence that Śaṅkara's reading collapses the world into Brahman tout court — eliminating the very plurality of *jīvas* and forms that the rest of scripture (and ordinary experience) plainly attests.
 
@@ -578,7 +578,7 @@ The regress problem (the *jīva* is itself a product of avidyā, yet is its locu
 
 Brahman itself is *both* the substratum of avidyā *and* what avidyā conceals. There is no second locus needed.
 
-The omniscience-problem is met by Prakāśātman's distinction between *śuddha-caitanya* (pure consciousness, untouched) and *pramā-jñāna* (positive cognitive states arising as modifications). Avidyā affects the latter level; the former remains unaffected. Brahman as *Brahman-svarūpa* is never tainted; Brahman as *substrate-of-the-world-appearance* takes on avidyā as its modification. *Mukti*: with the dawn of the right discriminating cognition, avidyā as a whole — at its very root — is annihilated; what remains is Brahman as it always was.
+The omniscience-problem is met by Prakāśātman's distinction between *śuddha-caitanya* (pure consciousness, untouched) and *pramā-jñāna* (positive cognitive states arising as modifications). Avidyā affects the latter level; the former remains unaffected. Brahman as *Brahman-svarūpa* is never tainted; Brahman as *substrate-of-the-world-appearance* takes on avidyā as its modification. *Mukti*: with the dawn of the right discriminating cognition, avidyā as a whole, at its very root, is annihilated; what remains is Brahman as it always was.
 
 ### Why the User's Thesis Adopts the Vivaraṇa, with Kashmir-Shaiva Refinement
 
@@ -701,7 +701,7 @@ The Chāndogya-bhāṣya is also where Śaṅkara works out his most sustained e
 
 ### Māṇḍūkya-Bhāṣya with Gauḍapāda's *Kārikās*
 
-The *Māṇḍūkya Upaniṣad* is the shortest of the principal Upaniṣads — twelve mantras only — and the most ontologically dense. It treats *Om* as the symbol of all reality, analyzes the four states of the Self (*jāgrat*, *svapna*, *suṣupti*, *turīya* — waking, dreaming, deep sleep, the fourth), and identifies the fourth state with Brahman.
+The *Māṇḍūkya Upaniṣad* is the shortest of the principal Upaniṣads, twelve mantras only, and the most ontologically dense. It treats *Om* as the symbol of all reality, analyzes the four states of the Self (*jāgrat*, *svapna*, *suṣupti*, *turīya* — waking, dreaming, deep sleep, the fourth), and identifies the fourth state with Brahman.
 
 The *Māṇḍūkya-Kārikā* by Gauḍapāda — Śaṅkara's *parama-guru* (teacher's teacher), through Govindapāda — is the philosophical expansion of the Upaniṣad in 215 verses. Gauḍapāda's *Kārikā* is the most *vivartavāda*-leaning of the early Advaita texts; it is also where the engagement with Mahāyāna Buddhism (especially the Madhyamaka) is most visible, and where the doctrine of *ajāti-vāda* (non-origination) is given its strongest formulation.
 

@@ -4,63 +4,63 @@
 
 *Māyāvāda-Khaṇḍana* is a short polemical *prakaraṇa* attributed to Madhva (Ānandatīrtha), traditionally placed in the thirteenth century and situated in the Tattvavāda lineage. The work itself has no chapter-division: in the on-disk witness the mūla occupies only printed pp. 2-4 of the pure-Sanskrit file, after which the edition expands into six commentarial layers explicitly listed on the title page as Padmanābha Tīrtha's *Prācīnīkā*, Jayatīrtha's *Ṭīkā*, Vyāsatīrtha's *Mandāramañjarī*, Śrīnivāsa Tīrtha's *Durgamārthavyākhyā*, Pāṇḍuraṅga Keḍāvācārya's *Viṣamapadavākyārthavivaraṇa* [OCR?], and Satyanātha's *Paraśu*. It is best read as a compressed anti-Mayāvāda dossier whose scholastic afterlife is much larger than the root text.
 
-Cross-engagement: Abhinavagupta presses the same substrate structure axis in the metaphysical register, but with the value `one-self-standing` rather than `one-independent-plus-real-dependents` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: the disagreement with Abhinavagupta is at the substrate structure axis itself: `one-independent-plus-real-dependents` here, `one-self-standing` in [primary text](cite://abhinavagupta/tantraloka/1.16).
 
 ## 2. Sampling and scope statement
 
 Engaged at depth: the complete mūla on printed pp. 2-4 of the pure-Sanskrit file, roughly lines 162-251, plus Padmanābha Tīrtha's immediate ṭīkā through printed p. 5 for orientation. Structural summary only: the later restart of the mūla and the long expansions by Jayatīrtha, Vyāsatīrtha, Śrīnivāsa Tīrtha, Pāṇḍuraṅga Keḍāvācārya, and Satyanātha in the remainder of the witness. Flagged but not engaged in depth: the later commentaries' grammatical and *nyāya* disputes around `anyathāpratipādakatva`, `mithyātva`, and `ajñāna-nivṛtti` as a "fifth kind" of mokṣa.
 
-Cross-engagement: Adi Sankara presses the same manifestation status axis in the metaphysical register, but with the value `sublatable-not-null` rather than `dependent-real` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: against Adi Sankara: `dependent-real` rather than `sublatable-not-null` for the manifestation status axis ([primary text](cite://sankara/brahma-sutra-bhasya/1.1.1)).
 
 ## 3. Structural walk-through
 
 ### Opening maṅgala and thesis-statement
 
-Cross-engagement: Anandabodha presses the same identity relation axis in the metaphysical register, but with the value `non-otherness` rather than `image-original-similarity` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Anandabodha takes the identity relation axis to a different commitment — `non-otherness` at [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352) against `image-original-similarity` here.
 
 Printed p. 2 opens with the invocation `narasiṃho 'khilājñānamatadhvāntadivākaraḥ ...` and immediately moves to `vimatam anārambhaṇīyam` (around lines 165-176). Narasiṃha is the light that dispels false cognition; that image is immediately converted into a technical claim: the Mayāvādin's teaching is unfit to be undertaken because it presents reality otherwise than it is. The architecture is already clear: disqualify the rival śāstra, then replace its claimed scriptural purport.
 
-Cross-engagement: Anantakrishna Sastri presses the same finite cognition axis in the epistemological register, but with the value `positive-ignorance` rather than `real-dependent-veiling` in [primary text](cite://sankara/brahma-sutra-bhasya/2.1.14). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: on the finite cognition axis Anantakrishna Sastri reads `positive-ignorance` ([primary text](cite://sankara/brahma-sutra-bhasya/2.1.14)); the present section reads `real-dependent-veiling`.
 
 ### The dilemma over brahmātmaikya
 
 Still on printed p. 2, the mūla's next movement is the dilemma `na hi brahmātmaikyasya yāthārthyaṃ tatpakṣe ... advaitahāneḥ svarūpātireke ... anatireke ... siddhasādhanatā` (lines 175-181). If the identity of Brahman and self is something over and above the self, non-duality is destroyed; if it is not, scripture merely establishes what is already established. This is the text's central anti-Advaita move.
 
-Cross-engagement: Appayya Dikshita presses the same epistemic authority axis in the epistemological register, but with the value `scripture-dominant` rather than `plural-pramana-realism` in [primary text](cite://mandana/brahma-siddhi/3.4). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a real divergence with Appayya Dikshita on the epistemic authority axis. The epistemological register is shared; the values are not — `plural-pramana-realism` here, `scripture-dominant` at [primary text](cite://mandana/brahma-siddhi/3.4).
 
 ### The attack on avidyā and the pramāṇa definition
 
 The same cluster continues with `nirviśeṣatvāc cātmano nānadhigato viśeṣaḥ ... nājñānaṃ kasyacid āvarakam. "anadhigatārthagantṛ pramāṇam" iti tanmatam` (printed p. 2). Madhva's claim is that a self-luminous and featureless self leaves nothing genuinely unapprehended for ignorance to cover, while the opponent's own pramāṇa-theory requires cognition of a previously unapprehended object. The polemic is so against the coherence of the Advaitin's cognitive architecture itself.
 
-Cross-engagement: Bhatta Kallata presses the same determination axis in the logical-dialectical register, but with the value `self-expression` rather than `non-sublatable-difference` in [primary text](cite://bhatta-kallata/spanda-karika/1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Bhatta Kallata works the determination axis in the logical-dialectical register too, but the value is `self-expression`, not `non-sublatable-difference` ([primary text](cite://bhatta-kallata/spanda-karika/1.1)).
 
 ### Consequences for scripture, mokṣa, adhikāra, and sambandha
 
 Printed pp. 2-4 then compress the downstream consequences: `ajñānāsambhavād eva tanmatam akhilam apākṛtam`, `mithyātve caikyasya ... āgamasya syāt`, `satyatā ca bhedasya`, and then `svarūpatvān mokṣasya pūrvam eva siddhatvāt` together with the rejection of the fourth and fifth "types" of liberation. If ignorance is impossible, the Mayāvādin's ontology collapses; if identity is *mithyā*, scripture becomes a revealer of unreality; if mokṣa is the self's own nature, it cannot coherently be produced as ignorance-removal; and once *viṣaya* and *prayojana* fail, *adhikārī* and *sambandha* fail as well.
 
-Cross-engagement: Ananda K. Coomaraswamy presses the same method axis in the methodological register, but with the value `comparative-reading` rather than `formal-proof-or-inference` in [primary text](cite://coomaraswamy/the-transformation-of-nature-in-art/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: the disagreement with Ananda K. Coomaraswamy is at the method axis itself: `formal-proof-or-inference` here, `comparative-reading` in [primary text](cite://coomaraswamy/the-transformation-of-nature-in-art/1).
 
 ### Positive scriptural close: kṣara, akṣara, and Puruṣottama
 
 The text closes with quotation from Bhagavad-Gītā 15 and Kaṭha Upaniṣad: `dvāv imau puruṣau loke ... uttamaḥ puruṣas tv anyaḥ ...`, followed by `indriyebhyaḥ parā hy arthā ... puruṣān na paraṃ kiñcit` (printed pp. 3-4). Scripture so culminates not in an undifferentiated identity-claim but in an ordered ontology terminating in Viṣṇu/Puruṣottama, beyond both the perishable and the imperishable.
 
-Cross-engagement: Akalanka presses the same truth-structure axis in the epistemological register, but with the value `standpoint-conditioned-realism` rather than `single-absolute-truth` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Akalanka ([primary text](cite://umasvati/tattvartha-sutra/1.34-35)) treats the truth-structure axis in the epistemological register with the value `standpoint-conditioned-realism`. The present section reads it as `single-absolute-truth`.
 
 ### The commentarial witness
 
 After the short mūla and Padmanābha's first ṭīkā, the witness restarts the root text and expands it through Jayatīrtha and later authors beginning around line 302. Their role is to make explicit the inferential steps packed into the mūla: what counts as `anārambhaṇīya`, why `anyathāpratipādakatva` is the operative fault, how `brahmātmaikya` would produce `siddhasādhanatā`, and why the "fifth kind" of mokṣa is incoherent.
 
-Cross-engagement: Edmund Husserl presses the same perspectivism axis in the epistemological register, but with the value `standpoint-conditioned-realism` rather than `partial-perspectives-ranked` in [primary text](cite://husserl/ideas-i/31-32). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Edmund Husserl lands on `standpoint-conditioned-realism` for the perspectivism axis ([primary text](cite://husserl/ideas-i/31-32)); this section lands on `partial-perspectives-ranked`.
 
 ## 4. Load-bearing passages — engaged at depth
 
 ### 1. The thesis-inference
 
-Cross-engagement: Akshapada Gautama presses the same practice-path axis in the soteriological register, but with the value `knowledge-discipline` rather than `devotion-and-grace` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: the disagreement with Akshapada Gautama is at the practice-path axis itself: `devotion-and-grace` here, `knowledge-discipline` in [primary text](cite://aksapada/nyaya-sutra/1.1.1).
 
 **Locus:** printed p. 2 of the pure-Sanskrit file, around lines 169-176.
 
-Cross-engagement: Alfred North Whitehead presses the same soteric end axis in the soteriological register, but with the value `not-soteriological` rather than `service-with-distinction-preserved` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: the disagreement with Alfred North Whitehead is at the soteric end axis itself: `service-with-distinction-preserved` here, `not-soteriological` in [primary text](cite://whitehead/process-and-reality/1.2).
 
 **Sanskrit (IAST):** `vimatam anārambhaṇīyam, anyathāpratipādakatvāt, yad itthaṃ tat tathā, yathā sampratipannam.`
 
@@ -74,7 +74,7 @@ Cross-engagement: Alfred North Whitehead presses the same soteric end axis in th
 
 **Locus:** printed p. 2, around lines 175-181.
 
-Cross-engagement: Baladeva Vidyabhushana presses the same causation model axis in the metaphysical register, but with the value `unchanged-ground-with-changing-power` rather than `efficient-material-split` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: same metaphysical register, different commitments at the causation model axis. Baladeva Vidyabhushana: `unchanged-ground-with-changing-power`, [primary text](cite://badarayana/brahma-sutra/1.1.1). Here: `efficient-material-split`.
 
 **Sanskrit (IAST):** `na hi brahmātmaikyasya yāthārthyaṃ tatpakṣe. advaitahāneḥ svarūpātireke. anatireke svaprakāratvād ātmanaḥ siddhasādhanatā.`
 
@@ -116,7 +116,7 @@ This is a powerful realist pressure-point, but it is not yet the position's synt
 
 **Engagement:** The mūla itself states this point in extremely compressed form; Padmanābha's ṭīkā makes the intended target explicit. Madhva is refusing the move whereby Advaita posits an ontologically peculiar ignorance, neither sat nor asat, and then defines liberation as the cessation of precisely that. If the ignorance has no coherent standing, the liberation built on its cessation inherits the incoherence.
 
-What matters here is that the text does not merely reject an opponent's conclusion; it rejects the very ontological slot required to house the conclusion. This is why the attack on mokṣa is tied back to the earlier attack on avidyā. The work's polemical architecture is cumulative.
+The text does not merely reject an opponent's conclusion; it rejects the very ontological slot required to house the conclusion. This is why the attack on mokṣa is tied back to the earlier attack on avidyā. The work's polemical architecture is cumulative.
 
 ### 6. The positive close: Puruṣottama beyond kṣara and akṣara
 

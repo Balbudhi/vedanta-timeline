@@ -8,35 +8,35 @@ This brief gives working custody of K.C. Bhattacharyya's main philosophical move
 
 ### Bibliographical and Biographical Frame
 
-Cross-engagement: Akalanka presses the same substrate structure axis in the metaphysical register, but with the value `many-coordinate-reals` rather than `one-self-standing` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: at the substrate structure axis the two texts choose differently. Akalanka ([primary text](cite://umasvati/tattvartha-sutra/1.34-35)) commits to `many-coordinate-reals`; this section commits to `one-self-standing`.
 
 Krishnachandra Bhattacharyya (1875–1949), educated at Presidency College and Calcutta University, wrote in English and worked across Vedānta, transcendental philosophy, logic, and cultural critique. The core texts here are *Studies in Vedantism* (1909), *The Subject as Freedom* (1930), the posthumous *Studies in Philosophy* I–II (1956, 1958), and "Swaraj in Ideas" (1928; first printed 1954). The 2025 Bhushan-Garfield edition has restored *Subject as Freedom* to circulation.
 
-Cross-engagement: Abhinavagupta presses the same manifestation status axis in the metaphysical register, but with the value `expressive-manifestation` rather than `sublatable-not-null` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: against Abhinavagupta: `sublatable-not-null` rather than `expressive-manifestation` for the manifestation status axis ([primary text](cite://abhinavagupta/tantraloka/1.16)).
 
 ### The Place: The Indian Philosophical Renaissance
 
 KCB belongs to the Indian philosophical renaissance that treated Kant, Hegel, Bradley, and Husserl as live interlocutors while equally treating Śaṅkara, the Jainas, Sāṃkhya, Yoga, and Vedānta as live philosophy. He sits near the apex of that project, and *The Subject as Freedom* enacts "Swaraj in Ideas" by thinking from sovereign categories rather than citation-dependent mimicry.
 
-Cross-engagement: Arthur Schopenhauer presses the same identity relation axis in the metaphysical register, but with the value `self-expression-or-appearance` rather than `non-otherness` in [primary text](cite://schopenhauer/the-world-as-will-and-representation/1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Arthur Schopenhauer takes the identity relation axis to a different commitment — `self-expression-or-appearance` at [primary text](cite://schopenhauer/the-world-as-will-and-representation/1.1) against `non-otherness` here.
 
 ### The Distinctive Method: Working at the Border
 
 KCB works at the boundary between Kantian transcendental philosophy and Advaita Vedānta without reducing either to the other. From Kant he takes reflective inquiry into the conditions of cognition; from Advaita he takes *adhyāropa-apavāda*, provisional positing followed by cancellation. The result is a phenomenology of consciousness in which reflective deepening is an experiment and cancellation never means sheer annihilation: "One has to be a realist to outgrow realism" (*Studies* I, p. 120). This same method supports his pluralism about absolutes and his resistance to Hegelian totalization.
 
-Cross-engagement: Adi Sankara presses the same selfhood structure axis in the phenomenological register, but with the value `witness-self` rather than `relational-self` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: on the selfhood structure axis, Adi Sankara commits to `witness-self` where this section commits to `relational-self` ([primary text](cite://sankara/brahma-sutra-bhasya/1.1.1)).
 
 ### The Central Thread
 
 KCB's central thread is simple: consciousness is freedom from object. That governs *The Subject as Freedom*, his Vedānta essays, his Sāṃkhya reconstruction, and even "Swaraj in Ideas." Around it cluster three load-bearing moves for this project: the graded ascent through bodily, psychic, and spiritual subjectivity; the trinal or alternative absolutes of truth, freedom, and value; and the anti-capture argument that cultural domination happens when alien categories silently supersede one's own.
 
-Cross-engagement: Anandabodha presses the same finite cognition axis in the epistemological register, but with the value `positive-ignorance` rather than `adhyasa-or-superimposition` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Anandabodha's reading at [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352) fills the finite cognition axis with `positive-ignorance`. The present section fills it with `adhyasa-or-superimposition`.
 
 ### Why the User's Thesis Needs KCB
 
 KCB matters here for three reasons. First, he is the cold-philosophical anchor for T11: *The Subject as Freedom* is a phenomenology of an individual subject, not a phenomenology of universal *Geist*. Second, he gives the sharpest modern Indian formulation of T2: "the world being unreal apart from Brahman and real in the reality of Brahman. The latter side is frequently overlooked" (*Studies* I, p. 43). Third, he is the Indian phenomenological counterpart that Aurobindo's metaphysics needs: the Husserl connection is not speculative but attested, since KCB owned *Ideen I* in English and annotated it sympathetically, according to Kalyan Kumar Bagchi's report of Kalidas Bhattacharyya's testimony. Where Husserl brackets the world methodologically, KCB makes freedom-from-object a constitutive structure of consciousness.
 
-Cross-engagement: Akshapada Gautama presses the same epistemic authority axis in the epistemological register, but with the value `plural-pramana-realism` rather than `no-single-authority` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Akshapada Gautama's reading at [primary text](cite://aksapada/nyaya-sutra/1.1.1) fills the epistemic authority axis with `plural-pramana-realism`. The present section fills it with `no-single-authority`.
 
 ### Glossary
 
@@ -49,7 +49,7 @@ Cross-engagement: Akshapada Gautama presses the same epistemic authority axis in
 - ***Swaraj***: self-rule. In Gandhi's political vocabulary first; in KCB's "Swaraj in Ideas" extended to the conceptual-cultural register: sovereignty of one's categories.
 - ***Subject as freedom from object***: KCB's signature phrase for the structure of consciousness itself. Not freedom from a particular object but freedom-from-objectivity-as-such, registered phenomenologically as a graded ascent through bodily, psychic, and spiritual levels.
 
-Cross-engagement: Anantakrishna Sastri presses the same truth-structure axis in the epistemological register, but with the value `hierarchical-standpoint-truth` rather than `alternative-irreducible-truths` in [primary text](cite://sankara/brahma-sutra-bhasya/2.1.14). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: same epistemological register, different commitments at the truth-structure axis. Anantakrishna Sastri: `hierarchical-standpoint-truth`, [primary text](cite://sankara/brahma-sutra-bhasya/2.1.14). Here: `alternative-irreducible-truths`.
 
 ---
 
@@ -57,13 +57,13 @@ Cross-engagement: Anantakrishna Sastri presses the same truth-structure axis in 
 
 *The Subject as Freedom* is KCB's masterwork: an uncited phenomenological treatise moving from the ordinary use of "I" through bodily, psychic, and spiritual subjectivity to the demand for an absolute freedom introspection cannot itself complete. It is at once phenomenology, transcendental analysis, and Advaitic *adhyāropa-apavāda* applied to the idea of subjectivity itself. Citations below refer to the reprint in *Studies* II.
 
-Cross-engagement: Baladeva Vidyabhushana presses the same perspectivism axis in the epistemological register, but with the value `partial-perspectives-ranked` rather than `irreducible-true-perspectives` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Baladeva Vidyabhushana ([primary text](cite://badarayana/brahma-sutra/1.1.1)) treats the perspectivism axis in the epistemological register with the value `partial-perspectives-ranked`. The present section reads it as `irreducible-true-perspectives`.
 
 ### Argument Structure: The Three Broad Stages
 
 Bhattacharyya begins by isolating his terms. The "subject" is what is intended by the word "I." But "I" is unique among words: as ordinarily used it has "a uniquely singular reference" (*Studies* II, p. xxxv). The word "tree" can be used by speaker and hearer to refer to the self-same entity. The word "I" cannot. When KCB says "I" he refers to himself. When the reader hears "I" the reader must understand it as referring to the speaker, not to the reader. The asymmetry is constitutive: the subject is *not* something that can be commonly meant. From this small grammatical observation a vast philosophical consequence follows. Anything that can be meant — anything that can be jointly referred to by speaker and hearer — is, by KCB's careful definition, an *object*. The subject is therefore by definition that which cannot be an object. It is, in the technical sense KCB will develop, what is *known but not thought*: known in introspection, but not thinkable as a meant content.
 
-Cross-engagement: G. W. F. Hegel presses the same normativity axis in the ethical register, but with the value `ethical-life-in-institutions` rather than `self-legislating-subject` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: the disagreement with G. W. F. Hegel is at the normativity axis itself: `self-legislating-subject` here, `ethical-life-in-institutions` in [primary text](cite://hegel/phenomenology-of-spirit/17).
 
 He then identifies three broad stages of subjectivity, which are graded levels of dissociation of the subject from the object:
 
@@ -105,7 +105,7 @@ Spiritual subjectivity has three substages: (i) feeling, (ii) introspection, (ii
 
 The closing chapter (chapter IX, *Studies* II pp. 89–92) draws the consequence. The introspective subject is "free from possible objectivity and is so freedom itself. But it knows itself not as itself but as a distinct subject that is only possibly identical with itself. It is so aware of a demand to know this subject as actually itself. This demand is for the intuition of the subject as absolute freedom" (p. xxxviii). The phenomenology terminates not in a completed knowledge but in a *demand*. The subject is understood as *real* freedom — not merely formal, not merely epistemic — but the phenomenological work alone cannot deliver it as completed.
 
-Cross-engagement: Bannanje Govindacharya presses the same practice-path axis in the soteriological register, but with the value `devotion-and-grace` rather than `knowledge-discipline` in [primary text](cite://madhva/tattva-sankhyana/1-4). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Bannanje Govindacharya lands on `devotion-and-grace` for the practice-path axis ([primary text](cite://madhva/tattva-sankhyana/1-4)); this section lands on `knowledge-discipline`.
 
 Here is the chapter-closing formulation, with KCB's strongest single sentences on the subject:
 
@@ -127,7 +127,7 @@ Set out compactly, the architecture is threefold. Bodily subjectivity is the fir
 
 A passage that the user's thesis must hold up against the brightest light:
 
-Cross-engagement: Alfred North Whitehead presses the same soteric end axis in the soteriological register, but with the value `not-soteriological` rather than `identity-with-ground` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: same soteriological register, different commitments at the soteric end axis. Alfred North Whitehead: `not-soteriological`, [primary text](cite://whitehead/process-and-reality/1.2). Here: `identity-with-ground`.
 
 > "I am never positively conscious of my present individuality, being conscious of it only as what is or can be outgrown, only as I feel freeing myself from it and am free to the extent implied by such feeling. I do not know myself as free but I conceive that I can be free successively as body from the perceived object, as presentation from the body, as feeling from presentation and as introspective function from feeling." (*Studies* II, p. 92)
 

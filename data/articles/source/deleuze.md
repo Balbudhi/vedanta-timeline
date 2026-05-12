@@ -8,11 +8,11 @@
 
 ### A bio arc
 
-Cross-engagement: Abhinavagupta presses the same determination axis in the logical-dialectical register, but with the value `self-expression` rather than `difference-without-negation` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: the disagreement with Abhinavagupta is at the determination axis itself: `difference-without-negation` here, `self-expression` in [primary text](cite://abhinavagupta/tantraloka/1.16).
 
 Gilles Deleuze (1925–1995) is, with Foucault and Derrida, one of the three figures whose work defines "French theory" in the second half of the twentieth century. His trajectory is unusual: he did not pass through phenomenology. Where Sartre, Merleau-Ponty, and Levinas formed themselves on Husserl and Heidegger, Deleuze formed himself on Hume, Nietzsche, Bergson, and Spinoza, and on a strand the Sorbonne curriculum had quietly demoted (the Stoics, Duns Scotus, Leibniz, Maïmon). He is not a phenomenologist who turned anti-phenomenological; he never went through the door.
 
-Cross-engagement: Friedrich Nietzsche works the same method axis in the historical-genealogical register. Here the operative value is `genealogy`; Friedrich Nietzsche lands on that same value in [primary text](cite://nietzsche/beyond-good-and-evil/22). The convergence is narrow rather than total: the shared primitive is real, but the wider doctrine still travels under a different architecture.
+Cross-engagement: at the method axis the two texts coincide; Friedrich Nietzsche treats it as `genealogy` at [primary text](cite://nietzsche/beyond-good-and-evil/22).
 
 He began as a historian of philosophy in a peculiar mode, slow careful monographs on figures he loved (*Empirisme et subjectivité* 1953; *Nietzsche et la philosophie* 1962; *La philosophie critique de Kant* 1963; *Le Bergsonisme* 1966; *Spinoza et le problème de l'expression* 1968), and out of those readings he constructed his own philosophy, arriving in two works of 1968–69: *Différence et Répétition* (his thèse principale) and *Logique du sens*. He liked to say that his way of doing history was a kind of *enculage*: he took the philosopher from behind to produce a child monstrously his and yet recognizably the philosopher's. The monographs do not summarize, they inflect.
 
@@ -22,7 +22,7 @@ In 1969 he met Félix Guattari and the two produced *Capitalisme et Schizophrén
 
 Across the whole career, one thread is continuous, and it is the only thread that matters for the user's project here:
 
-Cross-engagement: Akshapada Gautama presses the same method axis in the methodological register, but with the value `formal-proof-or-inference` rather than `mixed-or-layered` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Akshapada Gautama works the method axis in the methodological register too, but the value is `formal-proof-or-inference`, not `mixed-or-layered` ([primary text](cite://aksapada/nyaya-sutra/1.1.1)).
 
 **Difference is not a derivative of identity. Being is said in one and the same sense of everything that is, but the things of which it is said differ, being is said *of difference itself*.**
 
@@ -43,7 +43,7 @@ Read in this single thread, Deleuze becomes one of the most powerful continental
 
 Each Part takes one major work, keeps the original title and a few indispensable technical terms inline, and gives the argument in English with citations and explication. Translations are based on Patton (*Difference and Repetition*), Massumi (*A Thousand Plateaus*), Lester and Stivale (*The Logic of Sense*), Joughin (*Expressionism in Philosophy: Spinoza*), Conley (*The Fold*), and Tomlinson (*Nietzsche and Philosophy*), with adjustments noted where the English needs tightening.
 
-Cross-engagement: Adi Sankara presses the same soteric end axis in the soteriological register, but with the value `identity-with-ground` rather than `not-soteriological` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a real divergence with Adi Sankara on the soteric end axis. The soteriological register is shared; the values are not — `not-soteriological` here, `identity-with-ground` at [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1).
 
 ### Key Technical Terms
 
@@ -65,7 +65,7 @@ Cross-engagement: Adi Sankara presses the same soteric end axis in the soteriolo
 - **éternel retour**, eternal return. Not the return of the same but the return of difference; both cosmological doctrine and ethical-selective principle.
 - **devenir-imperceptible**, becoming-imperceptible. The limit of *devenir*; the dissolution of the egoic self into the flow of intensities. The Deleuzean counterpart to which the position offers *psychisation* (Aurobindo's psychic deepening) as a different and decisive alternative.
 
-Cross-engagement: Baladeva Vidyabhushana presses the same individuation status axis in the metaphysical register, but with the value `irreducible-dependent` rather than `expressive-singularity` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: on the individuation status axis Baladeva Vidyabhushana reads `irreducible-dependent` ([primary text](cite://badarayana/brahma-sutra/1.1.1)); the present section reads `expressive-singularity`.
 
 Note on *différentiation* (with *t*) vs *différenciation* (with *c*): the doublet is technical in *D&R* (virtual differen*t*iation vs. actual differen*c*iation). Where the doublet is not at stake, "difference" without marking is fine.
 

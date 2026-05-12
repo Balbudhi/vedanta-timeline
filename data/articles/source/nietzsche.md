@@ -8,11 +8,11 @@
 
 ### Why Nietzsche and why now
 
-Cross-engagement: Abhinavagupta presses the same selfhood structure axis in the phenomenological register, but with the value `relational-self` rather than `no-enduring-self` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: at the selfhood structure axis the two texts choose differently. Abhinavagupta ([primary text](cite://abhinavagupta/tantraloka/1.16)) commits to `relational-self`; this section commits to `no-enduring-self`.
 
 Friedrich Nietzsche (1844–1900) is, for the user's thesis, the indispensable Western diagnostician, the philosopher who identified the structural failures of post-Platonic metaphysics and yet remained inside the horizon whose closure he was diagnosing. He performed the most thorough Western critique of the "view from nowhere"; he showed that the grammatical subject is a fiction back-projected from language and moral demand; he articulated, in *Geburt der Tragödie*, a phenomenology of dissolution in the *Ur-Eine* under the *Schleier der Māyā* that comes closer to a *līlā* ontology than any other Western text before Aurobindo. And he refused to fill the cleared space with anything other than a "philosophy of the future" whose central figure is the legislator-philosopher, a refusal that is the precise point of structural divergence: where Nietzsche reads the dissolution of the metaphysical subject as licensing imperious value-creation, the thesis reads the same dissolution as licensing total surrender from fullness, *niṣkāma karma* without ego-arrogation.
 
-Cross-engagement: Adi Sankara presses the same finite cognition axis in the epistemological register, but with the value `adhyasa-or-superimposition` rather than `perspectival-interpretation` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a real divergence with Adi Sankara on the finite cognition axis. The epistemological register is shared; the values are not — `perspectival-interpretation` here, `adhyasa-or-superimposition` at [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1).
 
 This document is a reader's instrument: faithful English translations, selective retention of indispensable German terms inline, and explication clarifying both what Nietzsche says and where his text stands relative to the thesis's commitments.
 
@@ -20,7 +20,7 @@ This document is a reader's instrument: faithful English translations, selective
 
 Nietzsche's published life-work runs 1872–1888, Nachlass to the Turin collapse of 3 January 1889. The 1872 *Geburt der Tragödie* answers Schopenhauer-Wagnerianly: tragedy provides *metaphysischer Trost*. The middle works (*Menschliches* 1878–80, *Morgenröthe* 1881, *Fröhliche Wissenschaft* 1882–87) shed the apparatus and install positivist-genealogical hygiene. The mature works (*Zarathustra* 1883–85, *Jenseits* 1886, *Genealogie* 1887, *Götzen-Dämmerung* and *Antichrist* and *Ecce Homo* 1888) build the late doctrines: *Wille zur Macht*, *ewige Wiederkunft*, *Übermensch*, *Umwerthung aller Werthe*.
 
-Cross-engagement: Akalanka presses the same epistemic authority axis in the epistemological register, but with the value `plural-pramana-realism` rather than `genealogical-critique` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: at the epistemic authority axis the two texts choose differently. Akalanka ([primary text](cite://umasvati/tattvartha-sutra/1.34-35)) commits to `plural-pramana-realism`; this section commits to `genealogical-critique`.
 
 For the thesis, the most useful early Nietzsche is the most metaphysically committed, the 1872 text whose Schopenhauerian scaffolding he later disowned. *Geburt der Tragödie* §1, §16/§17, §24 articulates the closest pre-Aurobindonian Western statement of *līlā* ontology. The mature Nietzsche keeps the phenomenology of dissolution and the will-to-power dynamism but loses the *Ānanda*-character of the *Ur-Eine*. The thesis can recover the early ontology, retain the late phenomenology, and complete what Nietzsche did not, articulating with Aurobindo the *Saccidānanda* ground that the *Ur-Eine* pointed toward but could not sustain.
 
@@ -28,7 +28,7 @@ For the thesis, the most useful early Nietzsche is the most metaphysically commi
 
 *Der Wille zur Macht* (1901, expanded 1906) is a posthumous editorial fiction by Elisabeth Förster-Nietzsche and Peter Gast, drawn from notebooks 1883–1888 according to a plan Nietzsche abandoned. The *Kritische Studienausgabe* (KSA), Colli/Montinari, 1980 (rev. 1988), publishes the Nachlass in original notebook order; Montinari's *Nietzsche lesen* (1982) demonstrates the WzM arrangement is editorial fiction. **Citation discipline:** always KSA volume + notebook + fragment, *KSA 12, 7[60]*, never "*WzM §481*"; cross-reference WzM only when engaging Heidegger.
 
-Cross-engagement: Judith Butler works the same method axis in the historical-genealogical register. Here the operative value is `genealogy`; Judith Butler lands on that same value in [primary text](cite://butler/gender-trouble/3). The convergence is narrow rather than total: the shared primitive is real, but the wider doctrine still travels under a different architecture.
+Cross-engagement: Judith Butler's historical-genealogical-register treatment of the method axis settles on `genealogy` at [primary text](cite://butler/gender-trouble/3), the same value taken up here.
 
 ### Untranslated terms — glossary
 
@@ -42,13 +42,13 @@ Cross-engagement: Judith Butler works the same method axis in the historical-gen
 - ***Apollinisch / Dionysisch***. The two *Kunsttriebe* of *Geburt der Tragödie*, individuation and dissolution.
 - ***Ur-Eine***. "Primordial-One." Schopenhauer's *Wille* renamed under *principium individuationis*. The closest Nietzsche comes to *Saccidānanda* in its *Ānandamaya* aspect.
 
-Cross-engagement: Baladeva Vidyabhushana presses the same perspectivism axis in the epistemological register, but with the value `partial-perspectives-ranked` rather than `perspectives-as-symptoms` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: on the perspectivism axis, Baladeva Vidyabhushana commits to `partial-perspectives-ranked` where this section commits to `perspectives-as-symptoms` ([primary text](cite://badarayana/brahma-sutra/1.1.1)).
 
 ### How to use this document
 
 Structured by text, not theme. Each Part works through structurally decisive passages with German verbatim, English, and explication. Part VII gives compressed reading notes, where Nietzsche confirms, where he challenges, the bilateral-vs-tripartite asymmetry, and a recommended reading sequence by KSA citation. The bias is toward depth in the German: where Kaufmann, Hollingdale, or Del Caro smooth philosophically load-bearing terms, this document foregrounds the original.
 
-Cross-engagement: Ananda K. Coomaraswamy touches the same motive force axis, but not in the same register. This section works it as `will-to-power` in the ethical register; Ananda K. Coomaraswamy approaches it through the aesthetic register in [primary text](cite://coomaraswamy/the-transformation-of-nature-in-art/1). The point of contact is genuine, but the comparison only holds once the register-shift is kept visible.
+Cross-engagement: a cross-register comparison with Ananda K. Coomaraswamy. motive force axis, ethical register, `will-to-power` here; aesthetic register at [primary text](cite://coomaraswamy/the-transformation-of-nature-in-art/1).
 
 ---
 
@@ -56,7 +56,7 @@ Cross-engagement: Ananda K. Coomaraswamy touches the same motive force axis, but
 
 *KSA 1, 9–156. English: Kaufmann (Vintage, 1967); Golffing (Doubleday, 1956). Citations by GT § and KSA page.*
 
-Cross-engagement: Akshapada Gautama presses the same soteric end axis in the soteriological register, but with the value `isolation-or-discriminative-release` rather than `not-soteriological` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a real divergence with Akshapada Gautama on the soteric end axis. The soteriological register is shared; the values are not — `not-soteriological` here, `isolation-or-discriminative-release` at [primary text](cite://aksapada/nyaya-sutra/1.1.1).
 
 *Geburt der Tragödie* is Nietzsche's first major work and, for the thesis, the most useful, though he later distanced himself from its Schopenhauerian apparatus. The early Nietzsche, with the most metaphysical scaffolding, articulates the position closest to the thesis's ontology; the mature Nietzsche, having shed it, keeps the phenomenology but loses the ontological completion. This Part works through §1 (the *Kunsttriebe*; *Schleier der Māyā*), §16/§17 (Schopenhauer's music-metaphysics; *Ur-Eine*; *metaphysischer Trost*), §24 (*künstlerisches Spiel des Willens mit sich selbst*, closest Western articulation of *līlā* prior to Aurobindo), and the 1886 *Versuch einer Selbstkritik*.
 

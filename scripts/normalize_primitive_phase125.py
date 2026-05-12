@@ -262,22 +262,28 @@ def line_number_for_passage(article_path, passage):
     return None
 
 
+_TAIL_PATTERNS = [
+    # Pre-2026 original templates.
+    " The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.",
+    " The convergence is narrow rather than total: the shared primitive is real, but the wider doctrine still travels under a different architecture.",
+    " The point of contact is genuine, but the comparison only holds once the register-shift is kept visible.",
+]
+
+# Post-2026 rotated templates are mostly single-sentence forms with no
+# boilerplate tail. The only remaining tail to strip is from variants that
+# still have a second sentence beginning with "The present section".
+_TAIL_SENTENCE_REGEX = re.compile(
+    r"(?:\s+The present section [^.]*\.)+\s*$"
+)
+
+
 def normalize_brief(passage):
     text = passage.strip()
     text = re.sub(r"^Cross-engagement:\s*", "", text)
     text = re.sub(r"\s*in \[primary text\]\([^)]+\)\.", ".", text)
-    text = text.replace(
-        " The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.",
-        "",
-    )
-    text = text.replace(
-        " The convergence is narrow rather than total: the shared primitive is real, but the wider doctrine still travels under a different architecture.",
-        "",
-    )
-    text = text.replace(
-        " The point of contact is genuine, but the comparison only holds once the register-shift is kept visible.",
-        "",
-    )
+    for pat in _TAIL_PATTERNS:
+        text = text.replace(pat, "")
+    text = _TAIL_SENTENCE_REGEX.sub("", text)
     return text.strip()
 
 

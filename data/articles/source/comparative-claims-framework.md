@@ -4,7 +4,7 @@
 
 The user's serious philosophical conviction is that the Vedāntic schools may not actually be disagreeing once their world-models and language are properly unpacked. This framework operationalizes that conviction into a disciplined comparative method that the site can apply pairwise across all schools — without sentimentalism, without "all paths the same" elision, and without forcing convergence where genuine disagreement exists.
 
-Cross-engagement: Akalanka presses the same substrate structure axis in the metaphysical register, but with the value `many-coordinate-reals` rather than `one-self-standing` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: at the substrate structure axis the two texts choose differently. Akalanka ([primary text](cite://umasvati/tattvartha-sutra/1.34-35)) commits to `many-coordinate-reals`; this section commits to `one-self-standing`.
 
 The framework is built on **honest disambiguation**: at each pairwise comparison, we sort claims into four mutually exclusive verdicts. The site's value is precisely that it does not pre-decide which verdict applies; it reconstructs the world-models in enough rigor that the verdict becomes visible.
 
@@ -12,7 +12,7 @@ The framework is built on **honest disambiguation**: at each pairwise comparison
 
 For any apparent disagreement between two thinkers (or two schools), we classify the claim into exactly one of:
 
-Cross-engagement: Abhinavagupta presses the same determination axis in the logical-dialectical register, but with the value `self-expression` rather than `negation-and-contradiction` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: the disagreement with Abhinavagupta is at the determination axis itself: `negation-and-contradiction` here, `self-expression` in [primary text](cite://abhinavagupta/tantraloka/1.16).
 
 | Verdict | Definition | Example diagnostic |
 |---|---|---|
@@ -27,7 +27,7 @@ Cross-engagement: Abhinavagupta presses the same determination axis in the logic
 
 Every comparative claim is filed under exactly one of:
 
-Cross-engagement: Akshapada Gautama presses the same method axis in the methodological register, but with the value `formal-proof-or-inference` rather than `dialectical-development` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a real divergence with Akshapada Gautama on the method axis. The methodological register is shared; the values are not — `dialectical-development` here, `formal-proof-or-inference` at [primary text](cite://aksapada/nyaya-sutra/1.1.1).
 
 ### 1. Ontology — what fundamentally exists
 
@@ -38,7 +38,7 @@ Sub-axes:
 - **Status of individual selves** (numerically distinct? merely apparently distinct? eternally distinct *aṃśa*-s?)
 - **Modal status of difference itself** (is *bheda* a positive entity or a *vyāvṛtti* — exclusion?)
 
-Cross-engagement: Gaudapada (Samkhya commentator) presses the same temporal mode axis in the metaphysical register, but with the value `substance-primary` rather than `process-primary` in [primary text](cite://isvara-krsna/samkhya-karika/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Gaudapada (Samkhya commentator) takes the temporal mode axis to a different commitment — `substance-primary` at [primary text](cite://isvara-krsna/samkhya-karika/1) against `process-primary` here.
 
 ### 2. Causation — relation between Brahman and world
 
@@ -48,7 +48,7 @@ Sub-axes:
 - **Status of *upādāna* vs. *nimitta* cause** (does Brahman serve both? only one?)
 - **Locus of avidyā** (Brahman? *jīva*? both? a *tṛtīya-padārtha* — third entity?)
 
-Cross-engagement: Alfred North Whitehead presses the same evolution register axis in the historical-genealogical register, but with the value `durational-creative-growth` rather than `sublative-becoming` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a substantive disagreement with Alfred North Whitehead on the evolution register axis — `durational-creative-growth` ([primary text](cite://whitehead/process-and-reality/1.2)) against the present `sublative-becoming`.
 
 ### 3. Epistemology — pramāṇa hierarchy and method
 
@@ -59,7 +59,7 @@ Sub-axes:
 - **Theory of error** (*anyathā-khyāti*, *anirvacanīya-khyāti*, *akhyāti*, *yathārtha-khyāti* — Madhva's all-cognitions-true thesis)
 - **Saving-cognition status**: is liberating cognition *jñāna* (Sureśvara), *bhāvanā* (Maṇḍana), *upāsanā* (Bhāskara, Rāmānuja), *bhakti* (Caitanya, Vallabha), or *prapatti* (Tenkalai)?
 
-Cross-engagement: Adi Sankara presses the same truth-structure axis in the epistemological register, but with the value `hierarchical-standpoint-truth` rather than `single-absolute-truth` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Adi Sankara's reading at [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1) fills the truth-structure axis with `hierarchical-standpoint-truth`. The present section fills it with `single-absolute-truth`.
 
 ### 4. Soteriology — what is liberation
 
@@ -70,7 +70,7 @@ Sub-axes:
 - **Effective means** (*jñāna* alone? *jñāna* + *karma*? *bhakti*? *prapatti*? *līlā*-recognition?)
 - **Role of grace** (*kṛpā*) vs. effort (*sādhana*) — the Vaḍakalai/Tenkalai monkey/cat distinction in fully-systematized form
 
-Cross-engagement: Baladeva Vidyabhushana presses the same perspectivism axis in the epistemological register, but with the value `partial-perspectives-ranked` rather than `sublated-into-higher-whole` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Baladeva Vidyabhushana takes the perspectivism axis to a different commitment — `partial-perspectives-ranked` at [primary text](cite://badarayana/brahma-sutra/1.1.1) against `sublated-into-higher-whole` here.
 
 ### 5. Ethics-and-Devotion — role of bhakti, dharma, and surrender
 
@@ -81,13 +81,13 @@ Sub-axes:
 - **Status of the personal Lord** (*Iśvara*) — provisional? ultimate? identical to Brahman? superior to nirguṇa-Brahman?
 - **Surrender** (*prapatti*, *śaraṇāgati*, *ātma-nivedana*) as supplementary to other paths or as itself sufficient
 
-Cross-engagement: Jagadguru Ramabhadracharya presses the same normativity axis in the ethical register, but with the value `divine-command-or-grace` rather than `ethical-life-in-institutions` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a real divergence with Jagadguru Ramabhadracharya on the normativity axis. The ethical register is shared; the values are not — `ethical-life-in-institutions` here, `divine-command-or-grace` at [primary text](cite://badarayana/brahma-sutra/1.1.1).
 
 ## Worked example: Madhva–Advaita on the central ontological claim
 
 **Surface formulations.**
 
-Cross-engagement: Haridas Chaudhuri presses the same social formation axis in the political-social register, but with the value `civilizational-structure-shift` rather than `recognitive-institutional` in [primary text](cite://chaudhuri/integral-yoga/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a real divergence with Haridas Chaudhuri on the social formation axis. The political-social register is shared; the values are not — `recognitive-institutional` here, `civilizational-structure-shift` at [primary text](cite://chaudhuri/integral-yoga/1).
 
 - Madhva: "Viṣṇu alone is *svatantra* (independent reality); all else — souls, world, time, space — is *paratantra* (dependent reality). The *jīva* is *eternally distinct* from Viṣṇu and *eternally subordinate*."
 - Advaita (Śaṅkara): "Brahman alone is *pāramārthika-sat* (absolutely real); the world and the individual *jīva* are *vyāvahārika* (empirically real but *mithyā*). The *ātman* is *abhinna* (non-different) from Brahman."
@@ -117,7 +117,7 @@ Cross-engagement: Haridas Chaudhuri presses the same social formation axis in th
 
 **The user's specific challenge.** *Bhaja-Govindam*, *Saundarya-Laharī*, *Śivānanda-Laharī* (all `school-ascribed` to Śaṅkara) use Viśiṣṭādvaitan-sounding devotional language ("eternally yours, like a wave in the ocean," *Bhavāni tvaṃ dāse mayi vitara dṛṣṭiṃ sakaruṇām*). The Advaita living tradition embraces these as Śaṅkara's. So is the gap between Advaita-as-school and Viśiṣṭādvaita actually narrower than the academic *bhāṣya*-only level suggests?
 
-Cross-engagement: Anandabodha presses the same soteric end axis in the soteriological register, but with the value `identity-with-ground` rather than `recognition-or-freedom` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: on the soteric end axis, Anandabodha commits to `identity-with-ground` where this section commits to `recognition-or-freedom` ([primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352)).
 
 **Verdict.** This is a meta-claim about *how to identify a school*, not a first-order doctrinal claim. The site should treat it as a separate axis: **school-as-corpus-of-securely-authored-bhāṣya** vs. **school-as-living-tradition-with-its-stotra-corpus**.
 
@@ -127,7 +127,7 @@ Concretely, every thinker entry's `engaged_works[]` includes `ascription_tier`, 
 
 The site should populate comparative-claim entries for at least the following pairs, in this order of priority:
 
-Cross-engagement: Bannanje Govindacharya presses the same individuation status axis in the metaphysical register, but with the value `irreducible-dependent` rather than `reducible-to-the-whole` in [primary text](cite://madhva/tattva-sankhyana/1-4). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Bannanje Govindacharya ([primary text](cite://madhva/tattva-sankhyana/1-4)) treats the individuation status axis in the metaphysical register with the value `irreducible-dependent`. The present section reads it as `reducible-to-the-whole`.
 
 1. **Advaita ↔ Viśiṣṭādvaita** — Śaṅkara/Sureśvara/Maṇḍana ↔ Yāmuna/Rāmānuja/Vedānta-Deśika. The *sapta-vidhā-anupapatti* axis. The *śarīra-śarīri-bhāva* alternative. Stotra-corpus disambiguation.
 2. **Advaita ↔ Tattva-vāda (Dvaita)** — Madhusūdana ↔ Vyāsatīrtha. The *Advaita-Siddhi* / *Nyāyāmṛta* / *Tarka-Tāṇḍava* triangle. The *mithyātva* axis. The user's T2 polemic-defense.

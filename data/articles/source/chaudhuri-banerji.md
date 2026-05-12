@@ -10,7 +10,7 @@ The controlling framing: a substantial portion of the user's position is already
 
 **Haridas Chaudhuri (1913–1975).** Bengali philosopher, Sri Aurobindo's direct disciple. PhD Calcutta 1949 on Aurobindo's metaphysics ("Integral Idealism"); Aurobindo personally approved the dissertation. In 1950 named Aurobindo's recommended representative to the West; arrived San Francisco 1951. Founded the Cultural Integration Fellowship (mid-1950s); organized the 1957 birthday gathering producing the 1960 *Commemorative Symposium*; in 1968 founded the California Institute of Asian Studies, which became CIIS in 1980 — the institutional home of integral philosophy in the West.
 
-Cross-engagement: Abhinavagupta presses the same manifestation status axis in the metaphysical register, but with the value `expressive-manifestation` rather than `real-transformation` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Abhinavagupta works the manifestation status axis in the metaphysical register too, but the value is `expressive-manifestation`, not `real-transformation` ([primary text](cite://abhinavagupta/tantraloka/1.16)).
 
 Major works: *The Philosophy of Integralism* (Pondicherry 1954; 2nd enlarged ed. 1967, 366 pp.) — the systematic statement, with four new chapters in 1967 bringing the system into dialogue with mid-century continental philosophy; *The Integral Philosophy of Sri Aurobindo: A Commemorative Symposium*, ed. with Spiegelberg (Allen & Unwin 1960; thirty contributors); *Integral Yoga* (1965); *Being, Evolution, and Immortality* (1974, the mature distillation); *Evolution of Integral Consciousness* (1977, posthumous; supramental telos with Gebser anticipations). Plus the CIF lecture archive (≈ 76 audio lectures 1959–1975, CIIS Digital Commons).
 
@@ -34,7 +34,7 @@ Parts I–VI walk the verbatim passages. Part VII names destinations.
 
 The most systematic Aurobindonian-philosophical statement in English. ~250 pp., sixteen chapters; the philosophical companion to *Integral Yoga* (1965). The 1967 edition added Chs. III–V (integral nondualism; existentialism and rationalism; existentialism and essentialism). If you read one Chaudhuri book, this is it. Read end-to-end. Especially Chs. I–IV (framing) and X–XII (integral individual, supermind, cosmology).
 
-Cross-engagement: Alfred North Whitehead presses the same temporal mode axis in the metaphysical register, but with the value `process-primary` rather than `both-orthogonal` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: the disagreement with Alfred North Whitehead is at the temporal mode axis itself: `both-orthogonal` here, `process-primary` in [primary text](cite://whitehead/process-and-reality/1.2).
 
 The 1967 Preface is explicit about the program:
 
@@ -52,7 +52,7 @@ Chaudhuri collapses Aurobindonian terminology — Brahman, Īśvara, Paramātman
 
 Chapter III, added 1967, is the locus of the anti-totalisation argument.
 
-Cross-engagement: G. W. F. Hegel presses the same evolution register axis in the historical-genealogical register, but with the value `sublative-becoming` rather than `real-cosmological-evolution` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: G. W. F. Hegel ([primary text](cite://hegel/phenomenology-of-spirit/17)) and this section take opposite turns on the evolution register axis — `sublative-becoming` against `real-cosmological-evolution`.
 
 > "Bradley and Bosanquet suggest that ultimate reality must be a rationally self-coherent system. It was difficult for them to shake off the hang-over from Hegelian rationalism. Did not Hegel say that all that is real is rational, and all that is rational is real? So the principle of self-consistency must be the ultimate criterion of truth. Ultimate reality must be, on the one hand, all-inclusive, and, on the other, rationally self-coherent. In one word, it must be a system."
 >
@@ -70,7 +70,7 @@ Five theses, all in T1: (i) the Real is beyond all systems — different systems
 
 Chaudhuri pre-empts the postmodern temptation of flat plurality as the final cure for unification-violence:
 
-Cross-engagement: Judith Butler presses the same social formation axis in the political-social register, but with the value `performative-norm-repetition` rather than `civilizational-structure-shift` in [primary text](cite://butler/gender-trouble/3). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: at the social formation axis the two texts choose differently. Judith Butler ([primary text](cite://butler/gender-trouble/3)) commits to `performative-norm-repetition`; this section commits to `civilizational-structure-shift`.
 
 > "Some philosophers interpret the universe pluralistically, whereas some interpret it monistically. But both pluralism and monism presuppose the notion of the absolute as the cosmic whole. Both pluralism and monism are affirmed as absolutely true versions of the universe as a whole. They are put forward as final truths about the absolute."
 >
@@ -86,7 +86,7 @@ Flat pluralism is itself a totalising claim, committed to the absolute it disavo
 
 Chapter III:
 
-Cross-engagement: Baladeva Vidyabhushana presses the same motive force axis in the soteriological register, but with the value `devotion` rather than `bliss-or-delight` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Baladeva Vidyabhushana's reading at [primary text](cite://badarayana/brahma-sutra/1.1.1) fills the motive force axis with `devotion`. The present section fills it with `bliss-or-delight`.
 
 > "Integral nondualism transforms ancient nondualism into an affirmative and dynamic attitude to life by incorporating into it the evolutionary perspective. Ancient nondualism aims at ecstatic union with the eternal. Integral nondualism is dynamic and creative union with the eternal."
 >
@@ -96,13 +96,13 @@ Cross-engagement: Baladeva Vidyabhushana presses the same motive force axis in t
 >
 > — Chaudhuri 1967, p. 32.
 
-T9 in fewer words. "Undivided unity of formless and forms" is the user's non-destructive multiplicative reality; "glory of the creative urge" is *līlā* in English. Crucial qualifier: *from the ultimate standpoint* — forms are equally real with the formless. Denies both Advaita-as-Mayavada (forms unreal) and Hegelian Spirit (forms real-only-as-superseded). The Madhva-Caitanya reading — real distinction as constitutive — sits here.
+T9 in fewer words. "Undivided unity of formless and forms" is the user's non-destructive multiplicative reality; "glory of the creative urge" is *līlā* in English. Crucial qualifier: *from the ultimate standpoint* — forms are equally real with the formless. Denies both Advaita-as-Mayavada (forms unreal) and Hegelian Spirit (forms real-only-as-superseded). The Madhva-Caitanya reading, real distinction as constitutive, sits here.
 
 ### The *Aufhebung* qualification — 1960 Symposium and Chapter III
 
 The move at the heart of T11. From the keynote (treated in Part II), recurring in Ch. III:
 
-Cross-engagement: Adi Sankara presses the same practice-path axis in the soteriological register, but with the value `knowledge-discipline` rather than `transformative-integration` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: against Adi Sankara: `transformative-integration` rather than `knowledge-discipline` for the practice-path axis ([primary text](cite://sankara/brahma-sutra-bhasya/1.1.1)).
 
 > "Common to all forms of nondualism is the conviction that reality in its inmost essence is non-dual, non-verbal, and non-conceptual. It is indeterminable and logically indefinable, but accessible to direct experience on the non-verbal level, to the penetrative insight of spiritual intuition born of the integration of human personality. As non-dual, reality is beyond the scope of application of all human categories including that of number. Strictly speaking, monism, unitarianism, trinitarianism, pluralism, etc., are our different human ways of intellectual comprehension of the various aspects of reality."
 >
@@ -116,7 +116,7 @@ Decisive: "*including that of number*." The most radical anti-totalisation claim
 >
 > — Chaudhuri 1967, p. 64.
 
-Cross-engagement: Akalanka presses the same soteric end axis in the soteriological register, but with the value `isolation-or-discriminative-release` rather than `transformation-of-life` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: at the soteric end axis the two texts choose differently. Akalanka ([primary text](cite://umasvati/tattvartha-sutra/1.34-35)) commits to `isolation-or-discriminative-release`; this section commits to `transformation-of-life`.
 
 > "The supermind transcends and yet unifies the one and the many. The one and the many interpenetrate in the concrete texture of the universe. Being is to be identified neither with the one nor with the many. It is an infinitely rich principle of unity-in-plurality and plurality-in-unity. The manifoldness of the world cannot be reduced to a mere illusion of perception. Nor can the unity of existence be reduced to a mere illusion of intellect. In the organismic structure of the world there is an all-pervasive presence of each in all and all in each. The uniqueness of existing individual things and beings is no less an important aspect of life than their impregnable togetherness in the cosmic whole."
 >
@@ -714,7 +714,7 @@ Verse 15 is the heart of the book. Aurobindo's translation:
 >
 > — Aurobindo, *Iśā Upaniṣad* 15, Aurobindo's translation (CWSA 17), as cited Banerji *Meditations* (2019).
 
-For Banerji this verse names the line dividing *Vidyā* from *Avidyā* — specifically the line dividing the Overmind's Vidyā-Avidyā from the *Vijñāna* of Supermind. The "Fosterer" is the Sun (*Sūrya*) = Supermind; the *Śakti* of Supermind (*Vijñānamayī Śakti*) — the Divine Mother — alone "rends the lid." Hence surrender to the Mother as the exclusive agency for crossing from *Avidyā* to *Vidyā*.
+For Banerji this verse names the line dividing *Vidyā* from *Avidyā* — specifically the line dividing the Overmind's Vidyā-Avidyā from the *Vijñāna* of Supermind. The "Fosterer" is the Sun (*Sūrya*) = Supermind; the *Śakti* of Supermind (*Vijñānamayī Śakti*), the Divine Mother, alone "rends the lid." Hence surrender to the Mother as the exclusive agency for crossing from *Avidyā* to *Vidyā*.
 
 > "The Mother's power and not any human endeavour and *tapasya* can alone rend the lid and tear the covering and shape the vessel and bring down into this world of obscurity and falsehood and death and suffering Truth and Light and Life divine and the immortal's *Ananda*."
 >

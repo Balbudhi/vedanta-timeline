@@ -4,19 +4,19 @@
 
 *Āgama-Prāmāṇya* is an independent Sanskrit polemical treatise by Yāmunācārya (Ālavandār; traditionally c. 10th-11th century CE), an early and decisive architect of the Śrīvaiṣṇava line that later runs through Rāmānuja and Vedānta Deśika. It is not a bhāṣya on a mūla-text, but a self-standing defense of the Pañcarātra revelation against charges of Veda-bāhyatva, social illegitimacy, and doctrinal incoherence; its printed form is a single continuous work with a detailed contents-page rather than internal adhyāya-divisions, and the surviving edition adds an editor's preface and table of contents before the main text. Structurally, the body runs to roughly 87 printed pages in the pure-Sanskrit file and moves from pramāṇa-theory, to cosmological and scriptural defense, to anti-Pāśupata differentiation, to the *Brahma-sūtra* `utpattyasambhavāt` objection, and finally to social-ritual boundary questions around *bhāgavata* status, *devalaka*, *nirmālya*, and *nivedya*.
 
-Cross-engagement: Abhinavagupta presses the same substrate structure axis in the metaphysical register, but with the value `one-self-standing` rather than `one-qualified-by-real-internal-distinctions` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a real divergence with Abhinavagupta on the substrate structure axis. The metaphysical register is shared; the values are not — `one-qualified-by-real-internal-distinctions` here, `one-self-standing` at [primary text](cite://abhinavagupta/tantraloka/1.16).
 
 ## 2. Sampling and scope statement
 
 Engaged at depth: roughly pp. 1-26, 42-64, and 72-84 of the pure-Sanskrit text, plus selected closing lines on p. 87. Those are the stretches for which I followed the argument stepwise, translated passages, and checked how Yāmuna turns objections into constructive theses. Structural summary only: roughly pp. 27-41, 65-71, and 85-87, where I traced the argumentative role of the sections but did not translate every quotation or sub-argument. Flagged but not fully engaged: some OCR-damaged technical asides in the middle pages, and the many quoted *smṛti/purāṇa* citations whose exact wider source-context I did not reconstruct beyond what this file itself gives.
 
-Cross-engagement: Adi Sankara presses the same manifestation status axis in the metaphysical register, but with the value `sublatable-not-null` rather than `dependent-real` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: against Adi Sankara: `dependent-real` rather than `sublatable-not-null` for the manifestation status axis ([primary text](cite://sankara/brahma-sutra-bhasya/1.1.1)).
 
 ## 3. Structural walk-through
 
 The contents-page in the raw OCR gives the text's best explicit segmentation. The opening cluster, up to the heading `vṛttyartha-devatā-pūjanādi-niṣedhaḥ` (contents p. 1; body through pure-Sanskrit pp. 1-10), stages the hostile case: Pañcarātrins are said to be non-Brāhmaṇas, *bhāgavatas* are socially suspect, and temple-service practices supposedly mark them as outside Vedic respectability. This is not yet the text's constructive core; it is the social disqualification strategy that Yāmuna must first neutralize.
 
-Cross-engagement: Anandabodha presses the same identity relation axis in the metaphysical register, but with the value `non-otherness` rather than `body-soul-qualification` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Anandabodha ([primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352)) and this section take opposite turns on the identity relation axis — `non-otherness` against `body-soul-qualification`.
 
 The next unit, `vedasāmyena pañcarātra-tantra-prāmāṇya-nirūpaṇam` together with `pṛthivy-ādīnāṃ vicitra-sanniveśatvādina kāryatvānumānam` (contents pp. 11-12; pure-Sanskrit pp. 11-18), shifts from social suspicion to epistemology and cosmology. Yāmuna argues that the world is inferably an effect and that a superhuman knower of *dharma/adharma* is therefore not gratuitous. Polemically, this opens conceptual room for a revelatory text that is neither reducible to ordinary human speech nor blocked by the limits of perception.
 
@@ -36,7 +36,7 @@ The closing unit, from `devalakādi-śabdārtha-nirūpaṇam` through `nirmālya
 
 **1. Locus:** pure-Sanskrit p. 34, in the defense of verbal authority.
 
-Cross-engagement: Akalanka presses the same epistemic authority axis in the epistemological register, but with the value `plural-pramana-realism` rather than `scripture-dominant` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Akalanka's reading at [primary text](cite://umasvati/tattvartha-sutra/1.34-35) fills the epistemic authority axis with `plural-pramana-realism`. The present section fills it with `scripture-dominant`.
 
 **Sanskrit (IAST):** `naiva śabde svato doṣāḥ prāmāṇya-paripanthinaḥ | santi kintu svatas tasya pramāṇatvam iti sthitiḥ ||`
 
@@ -90,7 +90,7 @@ Word by word: `na eva` = “not ”; `śabde` locative singular, the locus in wh
 
 This work sits squarely on the Yāmuna → Rāmānuja → Vedānta Deśika line. It is upstream of the *Śrī-bhāṣya*'s defense of Pañcarātra and downstream of the broader Vaiṣṇava insistence that divine form, divine names, and liturgical mediation are not optional pedagogical fictions. It is not, however, a primary source for the Bhartṛprapañca → Bhāskara → Madhva → Caitanya → Aurobindo realism-recovery trajectory in the strict sense, nor does it enter the Vivaraṇa-school disputes about *avidyā* that matter for T7. Its polemical world is different: Mīmāṃsaka restriction, anti-Pañcarātra Vedāntins, and rival Tantras, above all Pāśupata.
 
-Cross-engagement: Anantakrishna Sastri presses the same truth-structure axis in the epistemological register, but with the value `hierarchical-standpoint-truth` rather than `single-absolute-truth` in [primary text](cite://sankara/brahma-sutra-bhasya/2.1.14). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Anantakrishna Sastri works the truth-structure axis in the epistemological register too, but the value is `hierarchical-standpoint-truth`, not `single-absolute-truth` ([primary text](cite://sankara/brahma-sutra-bhasya/2.1.14)).
 
 Whom does it refute? By named or quasi-named type: Pāśupata, Śaiva, Kāpālika, Kālāmukha, Bauddha, Jaina/Ārhata, and other *veda-bāhya* systems. By anonymous *pūrva-pakṣin*: the Veda-only critic who says Pañcarātra is socially borne by non-Brāhmaṇas, doctrinally guilty of *jīvotpatti*, textually tainted by apparent Veda-nindā, and epistemically too human to count as pramāṇa. The constructive thesis is narrower than a grand metaphysics: Pañcarātra is Veda-concordant revelation of Nārāyaṇa-Viṣṇu and therefore authoritative for worship, initiation, and salvation.
 
@@ -102,7 +102,7 @@ The principal resistance is equally clear. This is not a charter for “all path
 
 This text gives the corpus a strong pre-Rāmānuja primary source for the claim that Pañcarātra is not a post-Vedic excrescence but a Veda-concordant disclosure of Nārāyaṇa. It is especially useful wherever the position needs hard evidence that divine form, divine name, consecrated offering, and liturgical relation are ontologically serious rather than symbolic concessions.
 
-Cross-engagement: G. W. F. Hegel presses the same normativity axis in the ethical register, but with the value `ethical-life-in-institutions` rather than `divine-command-or-grace` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a real divergence with G. W. F. Hegel on the normativity axis. The ethical register is shared; the values are not — `divine-command-or-grace` here, `ethical-life-in-institutions` at [primary text](cite://hegel/phenomenology-of-spirit/17).
 
 It also sharpens a limitation. Any synthetic use of Vaiṣṇava anti-Māyāvāda materials has to answer Yāmuna's exclusivism rather than quietly absorb it. He will support a realism of manifestation and relation; he will not support a soft ecumenism.
 
