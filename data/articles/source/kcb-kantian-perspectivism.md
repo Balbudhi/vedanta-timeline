@@ -1068,6 +1068,94 @@ It would proceed through the hierarchy of consciousness.
 It would proceed through the claim that the opposition between appearance and reality is not annulled by argument but overcome by spiritual transformation.
 And it would insist that mind's contradictions are not the last word because mind is not the last power.
 
+### 5.1 Documentary control - what the acquired Aurobindo corpus actually says
+
+The first documentary point is negative, but it matters.
+A direct corpus sweep over the acquired Aurobindo files did not yield a substantive engagement with Kant by name.
+The hits had to be checked manually because the string `kant` appears inside proper names.
+What turned up were names such as Nolini Kanta Gupta and Piyush Kanti Ghose.
+What did not turn up was a philosophically explicit discussion of Kant.
+That means the phrase "Aurobindo on Kant" can only be used in a disciplined sense.
+It names a structural relation, not a direct polemical dossier.
+
+This negative result is philosophically productive.
+It forces the comparison to proceed by way of Aurobindo's own theory of consciousness rather than by influence-hunting.
+The place to begin is the opening of *The Life Divine*.
+The acquired witness states:
+
+> "When we speak of It as unknowable, we mean, really, that It escapes the grasp of our thought and speech, instruments which proceed always by the sense of difference and express by the way of definition; but if not knowable by thought, It is attainable by a supreme effort of consciousness. There is even a kind of Knowledge which is one with Identity and by which, in a sense, It can be known." (*The Life Divine* I, p. 14)
+
+This is the formal hinge of the whole comparison.
+The limit of thought is granted.
+Indeed the reason for the limit is stated with unusual clarity.
+Thought and speech work by difference and definition.
+But the conclusion is not critical restraint in Kant's sense.
+The conclusion is a transition to another kind of consciousness.
+There is, Aurobindo says, "a kind of Knowledge which is one with Identity."
+That one sentence tells us why a merely mental or discursive Kantianism cannot be Aurobindo's last word.
+
+The next decisive passage says the same thing from the side of ordinary experience:
+
+> "Its mixed action takes place usually when the mind seeks to become aware of the external world, the object; the pure action when it seeks to become aware of itself, the subject. In the former activity, it is dependent on the senses and forms its perceptions in accordance with their evidence; in the latter it acts in itself and is aware of things directly by a sort of identity with them. ... In reality, all experience is in its secret nature knowledge by identity; but its true character is hidden from us because we have separated ourselves from the rest of the world by exclusion, by the distinction of ourself as subject and everything else as object..." (*The Life Divine* I, pp. 68-69)
+
+The phrase "all experience is in its secret nature knowledge by identity" cannot be overemphasized.
+It is not a stray mystical flourish.
+It is the ontological claim on which Aurobindo's whole anti-dualist epistemology rests.
+The subject-object distinction is not denied as a fact of mental life.
+It is denied the status of primordial truth.
+It is the result of exclusion.
+Kant, by contrast, treats the subject-object articulation as built into the conditions of finite cognition.
+This is why the two philosophers are not merely offering different answers to the same question.
+They begin from different conceptions of consciousness itself.
+
+The extension of this immediate self-awareness to metaphysical knowledge is then stated without ambiguity:
+
+> "If then we can extend our faculty of mental self-awareness to awareness of the Self beyond and outside us, Atman or Brahman of the Upanishads, we may become possessors in experience of the truths which form the contents of the Atman or Brahman in the universe. It is on this possibility that Indian Vedanta has based itself. It has sought through knowledge of the Self the knowledge of the universe." (*The Life Divine* I, p. 70)
+
+That is the point at which Aurobindo's project steps decisively beyond critical philosophy.
+He does not stop at the limit of mental objectification.
+He treats the limit as the occasion for a transformation of consciousness.
+The issue is no longer what discursive reason can justify.
+It is what consciousness can become.
+
+This is also where the comparison with KCB becomes exact.
+KCB ends *The Subject as Freedom* at the demand for intuition of the subject as absolute freedom.
+Aurobindo begins from a structurally comparable dissatisfaction with objectifying thought but then moves far beyond the demand into a cosmological architecture.
+The acquired *Life Divine* witness shows what authorizes the move for him:
+
+> "A knowledge by identity using the powers of the integrated being for richness of instrumentation would be the principle of the supramental life." (*The Life Divine* II, p. 1042)
+
+and:
+
+> "In the supramental gnosis all this luminous immediate grasp of the truth of things, truth-sense, truth-vision, truth-thought would get back into its source of identity-consciousness and subsist as a single body of its knowledge. The identity-consciousness would lead and contain everything..." (*The Life Divine* II, pp. 1042-1043)
+
+Mind, then, is not denied.
+It is subordinated.
+Truth-thought becomes derivative.
+Identity-consciousness becomes primary.
+This is Aurobindo's answer to the divided mind's incapacity.
+
+The account of the Infinite confirms the same structure from the side of ontology:
+
+> "The Infinite is illimitably free, free to determine itself infinitely, free from all restraining effect of its own creations." (*The Life Divine* II, p. 347)
+
+> "The Absolute neither creates nor is created,—in the current sense of making or being made; we can speak of creation only in the sense of the Being becoming in form and movement what it already is in substance and status." (*The Life Divine* II, p. 347)
+
+> "The silence of the Spirit and the dynamis of the Spirit are complementary truths and inseparable." (*The Life Divine* II, p. 350)
+
+These lines are philosophically first-rate.
+They also disclose exactly where KCB's reserve becomes useful.
+Aurobindo wants an Infinite that is neither static indeterminacy nor dialectical contradiction, but a freedom of self-determining manifestation.
+The article should acknowledge how strong that ambition is.
+It should also insist that the move from transformed consciousness to total metaphysical architecture is still a move requiring discipline.
+That discipline is what KCB supplies and Aurobindo deliberately relaxes.
+
+The upshot is therefore exact.
+Aurobindo does not explicitly engage Kant by name in the acquired primaries.
+He does, however, formulate a systematic answer to the kind of limitation thesis for which Kant has become emblematic.
+The answer is that mind is not the highest form of consciousness.
+All further comparison must proceed from that point.
+
 ## 6. The Jain doctrine - anekāntavāda and its Hindu reception
 
 The Jaina section is the heart of the article for two reasons.
@@ -1148,14 +1236,13 @@ The inexpressible case enters because the thing cannot always be exhaustively ca
 That is why KCB was right to call the doctrine a realism rather than a relativism.
 The manifoldness belongs to the thing, not merely to our opinions.
 
-The second primary requested by the user, Malliṣeṇa's *Syādvāda-mañjarī*, was not available as a primary text in the on-disk corpus used for this pass.
-That fact must remain visible.
-What is available is the dossier in `data/thinkers/mallisena.json`.
-It is enough to establish the basic role of the work.
-The *Mañjarī* is the canonical late systematic exposition of *syādvāda*.
-It presents the sevenfold predication not as a loose celebration of contradiction but as a rigorous method for tracking the standpoint under which a predication is valid.
-Since the primary text itself was not in the corpus, I will not pretend to quote it.
-But the doctrinal summary confirms what is already evident in Umāsvāti and in KCB's use of the tradition.
+The second primary requested by the user, Malliṣeṇa's *Syādvāda-mañjarī*, is now on disk in the acquired corpus.
+The witness is not ideal.
+It is an archive OCR from a Sanskrit-Hindi edition rather than a clean modern diplomatic text.
+But it is enough to establish the canonical sevenfold scheme in primary form and to prevent the discussion from floating free as hearsay.
+The *Mañjarī* is indeed the canonical late systematic exposition of *syādvāda*.
+It presents the sevenfold predication not as a loose celebration of contradiction but as a rigorous method for tracking the respect under which predication is valid and the point at which simultaneous compression of contrary predicates becomes *avaktavya*.
+That is exactly the sense in which it deepens what is already doctrinally visible in Umāsvāti and conceptually explicit in KCB's own use of the tradition.
 
 KCB's own extension of the Jaina logic is philosophically bolder than a mere historical summary.
 He says that modern realism tends to think togetherness only as the togetherness of positive distincts.
@@ -1174,10 +1261,10 @@ The Jaina alternative is that the real may sustain multiple legitimate predicati
 
 The orthodox Hindu objections now have to be faced.
 The first is Śaṅkara's at *Brahma-sūtra-bhāṣya* 2.2.33-36.
-The exact primary passage was not reopened from a clean direct local witness in this pass.
-So what follows is a standard-locus summary corroborated by the local glossary and thinker dossiers, not a freshly translated direct quote.
-That caveat matters.
-The shape of the argument, however, is stable and clear.
+Here too the article can now be more exact than the earlier draft.
+Both a Sanskrit witness and Thibaut's public-domain English translation are on disk in the acquired corpus.
+So the argument no longer needs to be reported only by secondary summary.
+Its exact pressure can be shown from the text itself.
 
 Śaṅkara's complaint is that mutually opposed predicates cannot inhere in one *dharmin* in the same respect.
 If the same thing is said to be existent and non-existent, then unless the respects are rigorously distinguished, the doctrine collapses into contradiction.
@@ -1216,10 +1303,8 @@ This is still demanding, but it is not epistemic anarchy.
 It means simply that the thing exceeds any one determination without becoming unknowable.
 Indeed the excess is what makes further true predication possible.
 
-Rāmānuja's parallel objection belongs at the same locus, *Śrī-bhāṣya* 2.2.33-36.
-Here again the honesty clause matters.
-The corpus on disk contains only a clean translation file for the opening *catuḥsūtrī* portion of the *Śrī-bhāṣya* and explicitly notes that no clean continuous local witness for the later text was available.
-So the anti-Jaina point here too must be stated as standard doctrine rather than as a fresh philological reconstruction from a local primary.
+Rāmānuja's parallel objection belongs at the same locus, *Śrī-bhāṣya* 2.2.31ff.
+The Sanskrit was not acquired in this pass, but Thibaut's public-domain English translation is on disk and is sufficient to fix the argumentative structure without invention.
 Rāmānuja's objection is structurally similar to Śaṅkara's in one respect and different in another.
 Like Śaṅkara, he refuses the simultaneous inherence of opposed predicates in one thing without a strict difference of respect.
 Unlike Śaṅkara, he is not moving toward a final world-cancellation.
@@ -1282,6 +1367,198 @@ The one converts the first determination into process.
 The other coordinates identity and modification as co-real features of the thing.
 KCB saw this clearly.
 That is why his Jaina essay is not a historical appendix but the conceptual heart of his anti-totalizing realism.
+
+### 6.1 The acquired canonical loci
+
+The fastest way to discipline the Jaina discussion is to place the acquired canonical loci in front of us.
+The opening methodological formula in Umāsvāti is:
+
+> `pramāṇa-nayair-adhigamaḥ`
+>
+> "The categories can be understood with greater accuracy through the approved means of knowledge and the philosophical standpoints." (*Tattvārtha-sūtra* 1.6)
+
+This is already enough to block the lazy reading of *naya* as mere opinion.
+Standpoint is not opposed to valid cognition.
+It is one of the disciplined ways in which valid cognition becomes articulate.
+
+The list of standpoints then follows:
+
+> `naigama-saṃgraha-vyavahāra-rjusūtra-śabda nayāḥ`
+>
+> "The philosophical standpoints are: the common person's view, generic view, practical view, linear view and literal view." (*Tattvārtha-sūtra* 1.34)
+
+In the expanded variant the list continues.
+The doctrinal point, however, is already visible.
+True predication is respect-indexed.
+That does not mean arbitrary subjectivism.
+It means that the thing is complex enough to require formal plurality of access.
+
+The ontological side appears in chapter 5.
+The crucial sequence is:
+
+> `sad dravya-lakṣaṇam`
+>
+> "Existence is the character of a substance."
+
+then:
+
+> `utpāda-vyaya-dhrauvya-yuktaṃ sat`
+>
+> "Origination, cessation and persistence constitute existence."
+
+and then:
+
+> `guṇa-paryāyavad dravyam`
+>
+> "That which possesses qualities and modes is a substance."
+
+Tatia's commentary makes the implications unmistakable:
+
+> "What appear and disappear are modes. What persists is substance. The modes are impermanent, but the substance is permanent. Existence is the combination of impermanence and permanence, modes and substance." (Tatia, p. 135)
+
+This is why the Jaina material matters for the user's own claim.
+The canon is not saying that persistence is unreal.
+It is not saying that change is unreal.
+It is saying that the real has to be described under both heads.
+
+The next सूत्र introduces the logic of foregrounding and backgrounding:
+
+> `arpita-narpita-siddheḥ`
+>
+> "The ungrasped aspect of an object is attested by the grasped one." (*Tattvārtha-sūtra* 5.31/32 local numbering)
+
+That is the canonical form of what KCB later turns into "alternative truths."
+The unspoken aspect is not annihilated.
+It is left unsaid.
+The real exceeds the present predicative cut without thereby becoming unknowable.
+
+### 6.2 Malliṣeṇa's sevenfold predication
+
+The acquired *Syādvāda-mañjarī* witness is OCR-noisy, but the central lines are clear enough to do philosophical work.
+The text enumerates the seven forms as follows:
+
+> `२ स्यान्नास्त्येव ... द्वितीयः`
+
+> `३ स्यादस्त्येव स्यान्नास्त्येवेति क्रमतो विधिनिषेधकल्पनया तृतीयः`
+
+> `४ स्यादवक्तव्यमेवेति युगपद्विधिनिषेधकल्पनया चतुर्थः`
+
+> `५ स्यादस्त्येव स्यादवक्तन्यमेव ... पञ्चमः`
+
+> `६ स्यान्नास्त्येव स्यादवक्तन्यमेव ... षष्ठः`
+
+> `७ स्यादस्त्येव स्यान्नास्त्येव स्यादवक्तन्यमेवेति ... सप्तमः`
+
+The decisive distinction is the one between `क्रमतः` and `युगपत्`.
+The third mode is explicitly sequential.
+The fourth introduces simultaneity, and precisely there the result is *avaktavya*.
+This is not a decorative flourish.
+It means that the doctrine is sensitive to the pressure generated when contrary respects are compressed into one speech-act.
+
+The accompanying explanatory prose in the same witness states the point in plainer language:
+
+> "प्रत्येक वस्तु विधि धर्मसे कथंचित् अस्तित्व रूप ही है..."
+
+> "प्रत्येक वस्तु निषेध धर्मसे कथंचित् नास्तित्व रूप है..."
+
+> "प्रत्येक वस्तु क्रमसे विधि, निषेध दोनों धर्मोंसे कथंचित् अस्तित्व और नास्तित्व दोनों रूप ही है..."
+
+> "प्रत्येक वस्तु एक साथ विधि, निषेध धर्मोंसे कथंचित् अवक्तव्य ही है..."
+
+If one reads the Jaina doctrine as if it were asserting simple flat contradiction, one has not read even this noisy witness carefully enough.
+The structure is one of qualified predication, sequential and simultaneous handling, and explicit recognition that expression itself has limits.
+
+### 6.3 KCB's recovery of the doctrine
+
+Now KCB's famous sentence becomes more exact:
+
+> "The Jaina theory of anekanta or the manifoldness of truth is a form of realism which not only asserts a plurality of determinate truths but also takes each truth to be an indetermination of alternative truths." (*Studies in Philosophy* I, p. 331)
+
+The first half corresponds to *pramāṇa* plus *naya*.
+The second corresponds to the ontology of *dravya* and *paryāya* together with the logic of grasped and ungrasped aspects.
+KCB is not inventing a new doctrine out of whole cloth.
+He is reinscribing the canonical materials in a modern realist idiom.
+
+The next decisive sentence is equally important:
+
+> "The Jaina theory admits identity only in the sense of indeterminate non-distinction; and it takes the two relations to be co-ordinate without subordinating any one to the other." (*Studies in Philosophy* I, p. 333)
+
+This is the whole anti-Hegelian point in miniature.
+Identity is not denied.
+But it is not allowed to dominate and absorb distinction by converting all plurality into moments of a higher totality.
+The relation is co-ordinative, not subordinative.
+
+KCB then drives the point home against Hegel:
+
+> "The Hegelian ... has to admit two utterly different kinds of identity." (*Studies in Philosophy* I, p. 335)
+
+And his conclusion is the line that should govern the whole present article:
+
+> "The last mode may be regarded as implying the other modes but is not therefore in any sense a comprising unity. ... Truth as an indetermination or alternation of truths is but manifold possibility." (*Studies in Philosophy* I, p. 343)
+
+The phrase "not therefore in any sense a comprising unity" is exactly what the earlier thin draft lacked.
+Without it, the article could name KCB's suspicion of Hegel.
+With it, the article can state the precise philosophical alternative.
+
+### 6.4 Śaṅkara and Rāmānuja against the Jainas
+
+Śaṅkara opens his refutation with the compact सूत्र gloss:
+
+> `naikasminn asaṃbhavāt`
+>
+> "On account of the impossibility (of contradictory attributes) in one thing." (*Brahma-sūtra-bhāṣya* 2.2.33)
+
+The Sanskrit witness immediately restates the Jaina sevenfold series:
+
+> `syādasti, syānnāsti, syādasti ca nāsti ca, syādavaktavyaḥ, syādasti cāvaktavyaśca, syānnāsti cāvaktavyaśca, syādasti ca nāsti cāvaktavyaśceti`
+
+and then gives the operative objection:
+
+> `nahy ekasmin dharmiṇi yugapat sadasattvādi-viruddha-dharma-samāveśaḥ saṃbhavati śītoṣṇavat`
+
+Thibaut renders this:
+
+> "it is impossible that contradictory attributes such as being and non-being should at the same time belong to one and the same thing; just as observation teaches us that a thing cannot be hot and cold at the same moment."
+
+This is the strongest version of the Advaitic objection and it has to be granted its force.
+If the Jaina doctrine is read as simple simultaneous contradiction, Śaṅkara wins immediately.
+But that is why the Malliṣeṇa and Umāsvāti materials matter.
+They show that the doctrine is not exhausted by that reading.
+
+The same acquired Śaṅkara passage then turns from logic to the body-sized self:
+
+> `śarīraparimāṇatāyāṃ ca satyām akṛtsno 'sarvagataḥ paricchinna ātmetyato ghaṭādivad anityatvam ātmanaḥ prasajyeta`
+
+That is the second pressure-point.
+Once the Jaina self is scaled to the body, Śaṅkara can argue toward limitation and non-eternity.
+The anti-Jaina polemic is thus not only logical but metaphysical.
+
+Rāmānuja's parallel translation sharpens the issue from another direction:
+
+> "The Jainas further hold that the whole complex of things is of an ambiguous nature in so far as being existent and non-existent, permanent and non-permanent, separate and non-separate."
+
+and then:
+
+> "With the help of this they prove that all things ... to be existing, one and permanent in so far as they are substances, and the opposite in so far as they are paryāyas."
+
+This concession matters.
+Rāmānuja sees that the doctrine works by the substance/mode distinction.
+His objection is therefore more exact than the vulgar dismissal.
+He says:
+
+> "As a substance and particular states qualifying it ... are different things (padārtha), one substance cannot be connected with opposite attributes."
+
+The present article should preserve the force of that reply.
+What it should not do is let the reply erase the doctrinal richness that provoked it.
+For once the Jaina material is read carefully, KCB's recovery can be seen as taking the ontology of aspectual plenitude without being forced into a flat contradiction-theory.
+
+The upshot is now much cleaner than it was in the earlier draft.
+We have canonical Jain texts.
+We have a late scholastic exposition.
+We have KCB's modern recovery.
+We have the Vedāntic counter.
+The problem is no longer underdocumented.
+It is genuinely philosophical.
 
 ## 7. The orthogonality argument - being and becoming
 
@@ -1475,6 +1752,165 @@ It is the Indian logical form of the same refusal.
 One truth does not abolish the alternative truths.
 One axis does not abolish the others.
 The real is not exhausted by the demand for one master description.
+
+### 7.1 Kant's negative discipline
+
+The orthogonality claim has to begin from a textual asymmetry in Kant.
+The *Transcendental Aesthetic* states in the acquired German witness:
+
+> `Der Raum ist kein empirischer Begriff, der von äußeren Erfahrungen abgezogen worden.`
+
+and:
+
+> `Die Zeit ist kein empirischer Begriff, der irgend von einer Erfahrung abgezogen worden.`
+
+Kemp Smith renders:
+
+> "Space is not an empirical concept which has been derived from outer experiences."
+
+> "Time is not an empirical concept that has been derived from any experience."
+
+The immediate philosophical consequence is modest but decisive.
+Temporal and spatial articulation are conditions for appearance.
+They are not thereby licensed to define the essence of the real as such.
+The reality of temporal order for us is affirmed.
+Its right to function as the master-grammar of being is withheld.
+
+The *Antinomy* then explains what happens when one tries to totalize one level of discourse:
+
+> "when it is adequate to reason it is too great for the understanding; and when suited to the understanding, too small for reason. There thus arises a conflict which cannot be avoided, do what we will." (*KrV*, Antinomy introduction)
+
+This matters because every metaphysical absolutization of one descriptive register will generate the same pressure.
+If becoming is made absolutely sovereign, it must either remain too thin for identity or smuggle identity back in under another name.
+
+The decisive asymmetry appears in the ontological proof section:
+
+> `Sein ist offenbar kein reales Prädikat, d.i. ein Begriff von irgend etwas, was zu dem Begriffe eines Dinges hinzukommen könne.`
+
+Kemp Smith's translation is exact:
+
+> "`Being' is obviously not a real predicate; that is, it is not a concept of something which could be added to the concept of a thing."
+
+This is the sentence on which the article's seventh section turns.
+Existence, actuality, presence, occurrence: these posit or instantiate.
+They do not enrich essence by adding a new determination to the concept.
+One hundred actual thalers contain no more conceptual content than one hundred possible thalers.
+What changes is position, not essence-content.
+
+From that point the article's own claim can be stated more rigorously.
+If becoming is treated as actuality in transition, processual realization, temporalization, emergence, or passage, then becoming belongs primarily to the modal and positional side of discourse.
+That does not make it unreal.
+It does mean that one cannot infer from the reality of becoming that becoming supplies the identity-content of the thing.
+
+The practical Kant then adds a second differentiation.
+The acquired *Critique of Practical Reason* witness says:
+
+> "the moral law is the ratio cognoscendi of freedom"
+
+and:
+
+> "We may call the consciousness of this fundamental law a fact of reason"
+
+and:
+
+> "The autonomy of the will is the sole principle of all moral laws"
+
+This prevents the article from using "freedom" loosely.
+Kant's freedom is practical-legislative and indexed to autonomy.
+KCB's freedom is the non-objective positivity of subjectivity.
+Aurobindo's freedom is the Infinite's self-determination and consciousness's release from division.
+The word is shared.
+The registers are not.
+
+### 7.2 Hegel's strongest counter and its price
+
+Hegel's great counter-move is visible immediately in the *Phenomenology* preface.
+The acquired German witness says:
+
+> `die Substanz ... ebensosehr als Subjekt aufzufassen`
+
+> `Das Wahre ist das Ganze.`
+
+> `Es ist das Werden seiner selbst`
+
+Baillie's translation gives the familiar English:
+
+> "everything depends on grasping and expressing the ultimate truth not as Substance but as Subject as well."
+
+> "The truth is the whole."
+
+> "It is the process of its own becoming."
+
+This is the strongest rival to the orthogonality thesis because it refuses the dead opposition between identity and process.
+Hegel does not say that becoming replaces identity.
+He says that genuine identity is self-mediating becoming.
+
+The opening of the *Logic* radicalizes the move:
+
+> `Der Anfang ist also das reine Seyn.`
+
+> `Werden ist das Bestehen des Seyns so sehr als des Nichtseyns`
+
+The question for the present article is not whether this is ingenious.
+It plainly is.
+The question is whether the move solves the identity problem or only renames it.
+For whenever becoming is said to be the becoming of something, or the whole is said to be the truth of its moments, identity has already been presupposed.
+The process is not free-floating.
+It is this process, this whole, this self-return.
+
+That is the exact point of KCB's pressure when he says the Hegelian synthesis becomes at once relation and term.
+Once the relation is asked to become the term, and the term is described as nothing but the relation's self-return, one must ask whether the explanatory order has become circular.
+The Hegelian can answer that the circle is precisely the truth.
+The present objection is that the circle still relies on identity-conditions it claims to have generated from process.
+
+### 7.3 Why the orthogonality claim survives
+
+The orthogonality thesis does not deny that every concrete being is some being-in-becoming.
+What it denies is that the two axes are thereby reducible.
+Identity and modality constantly meet.
+They are not therefore the same question.
+
+Take individuation.
+Any process philosophy still has to say what makes this process one process rather than another.
+It may answer by continuity, internal relation, pattern, self-reference, or causal integrity.
+But in every case some identity-condition is doing work.
+Process alone is too indeterminate.
+
+Conversely, static identity is not enough either.
+No adequate realism can deny temporality, alteration, actualization, sequence, history, and emergence.
+That is why the present article is not defending old static substance metaphysics against every philosophy of becoming.
+It is defending a difference of rank.
+
+The Jaina materials already prepared the right grammar.
+`utpādavyayadhrauvyuktam sat`.
+Origination, cessation, persistence.
+The real requires all three.
+The formula does not dissolve persistence into origination and cessation.
+It does not erase origination and cessation for the sake of persistence.
+It holds them together because the thing itself requires both registers.
+
+KCB's recovery of the doctrine then supplies the anti-totalizing discipline.
+Alternative truths do not automatically converge into one comprising unity.
+That is why the article's own thesis can now be stated with more precision than before.
+Being answers to the question of what persists as the one of the thing.
+Becoming answers to the question of how that thing appears, changes, unfolds, actualizes, and passes.
+In concrete reality the two are inseparable.
+In philosophical explanation they are not interchangeable.
+
+The modern process thinkers do not escape this pressure.
+Bergson's duration remains the duration of a determinate life or consciousness.
+Whitehead's concrescence remains this concrescence and not another.
+Prigogine's irreversibility remains the irreversibility of a definite structure or historical trajectory.
+In every case becoming is real.
+In no case does the reality of becoming abolish the need for identity-conditions.
+
+That is why the orthogonality thesis is not anti-process.
+It is anti-usurpation.
+It opposes only the move by which process is made to answer a question that belongs to identity, or identity is made to erase a question that belongs to process.
+Once that is seen, the user's own central claim can be stated without exaggeration.
+Being and becoming are not enemies.
+They are not synonyms.
+They are co-real and non-reducible axes of philosophical articulation.
 
 ## 8. What KCB does not deliver
 
@@ -1714,9 +2150,10 @@ If one reads KCB first, one may not see how closely he is leaning on the substan
 If one reads Umāsvāti first, KCB's retrieval becomes sharper.
 
 Malliṣeṇa should come next in principle, because the *Syādvāda-mañjarī* is the canonical systematic exposition of the sevenfold predication.
-But since a clean primary text was not in the local corpus for this pass, the practical substitute is to use the dossier in `data/thinkers/mallisena.json` for orientation and then consult an external primary edition later if the argument is to be expanded further.
-That is not ideal.
-It is better than bluffing.
+For the present revised article, an acquired archive witness is in fact on disk.
+It is not a perfect critical edition.
+It is a Sanskrit-Hindi OCR witness and therefore must be handled carefully.
+But it is sufficient to establish the sevenfold structure directly and to prevent the argument from pretending that the text was unavailable.
 
 For the Hindu critiques of *anekānta*, read Śaṅkara at *Brahma-sūtra-bhāṣya* 2.2.33-36 first.
 Then, if a reliable witness is available, read the parallel locus in Rāmānuja's *Śrī-bhāṣya*.
@@ -1782,6 +2219,228 @@ That sequence alone gives the whole backbone:
 
 There is no shorter path through the problem.
 Everything else in the article is commentary, expansion, defense, and qualification of those pivots.
+
+### Documentary note cards
+
+The section above gave reading sequences.
+What follows gives working note cards.
+Each card names a locus, the load-bearing line, and the reason it matters for the present article.
+These note cards are not a substitute for the full reading.
+They are a safeguard against conceptual drift.
+
+Note card 1.
+KCB, *Studies in Philosophy* I, p. 331.
+
+> "The Jaina theory of anekanta or the manifoldness of truth is a form of realism which not only asserts a plurality of determinate truths but also takes each truth to be an indetermination of alternative truths."
+
+Why it matters.
+This is the sentence that blocks both crude relativism and Hegelian absorption.
+It says plurality.
+It says determinate truth.
+It says alternatives.
+It does not say skepticism.
+It does not say contradiction for its own sake.
+
+Note card 2.
+KCB, *Studies in Philosophy* I, pp. 333-335.
+
+> "The Jaina theory admits identity only in the sense of indeterminate non-distinction; and it takes the two relations to be co-ordinate without subordinating any one to the other."
+
+> "The Hegelian ... has to admit two utterly different kinds of identity."
+
+Why it matters.
+These lines state the anti-Hegelian pressure in exact form.
+Identity is not denied.
+But it is denied the right to subordinate distinction through a master-synthesis.
+
+Note card 3.
+KCB, *Studies in Philosophy* I, p. 343.
+
+> "The last mode may be regarded as implying the other modes but is not therefore in any sense a comprising unity."
+
+Why it matters.
+This is the article's strongest anti-totalizing sentence.
+The implication of alternatives does not automatically entitle a whole to absorb them.
+
+Note card 4.
+KCB, *The Subject as Freedom*, ch. I.
+
+> "The subjective cannot be a meaningless word ... and yet if it be a meant content, it would be but object."
+
+Why it matters.
+This is the first decisive anti-objectification move.
+The subject is not an extra object hidden behind objects.
+Any interpretation that turns KCB into a philosopher of interior objects is already wrong here.
+
+Note card 5.
+KCB, *The Subject as Freedom*, ch. X and editor's introduction.
+
+> "The subject is understood as freedom that is real."
+
+> "The introspective subject is free from possible objectivity and is thus freedom itself."
+
+Why it matters.
+Freedom for KCB is not primarily moral-legislative in Kant's sense.
+It is the non-objective reality of subjectivity.
+The comparison with Kant and Aurobindo must keep that register distinct.
+
+Note card 6.
+Umāsvāti, *Tattvārtha-sūtra* 1.6.
+
+> `pramāṇa-nayair-adhigamaḥ`
+
+> "The categories can be understood with greater accuracy through the approved means of knowledge and the philosophical standpoints."
+
+Why it matters.
+The Jaina doctrine does not oppose standpoint to validity.
+It integrates them.
+This is the canonical basis for aspectual realism.
+
+Note card 7.
+Umāsvāti, *Tattvārtha-sūtra* 5.29-5.31.
+
+> `utpāda-vyaya-dhrauvya-yuktaṃ sat`
+
+> "Origination, cessation and persistence constitute existence."
+
+Why it matters.
+This is the canonical Indian formula nearest in spirit to the user's orthogonality claim.
+The real persists.
+The real changes.
+Neither pole is eliminated.
+
+Note card 8.
+Umāsvāti, *Tattvārtha-sūtra* 5.37.
+
+> `guṇa-paryāyavad dravyam`
+
+> "That which possesses qualities and modes is a substance."
+
+Why it matters.
+Substance is not a dead nugget beneath change.
+It is the real as qualified and moded.
+This is why the Jaina materials are philosophically live for the being/becoming argument.
+
+Note card 9.
+Malliṣeṇa, *Syādvāda-mañjarī*, sapta-bhaṅgī passage.
+
+> `स्यादस्त्येव ...`
+
+> `स्यादवक्तव्यमेव ...`
+
+> `क्रमतः ... युगपत् ...`
+
+Why it matters.
+The sevenfold doctrine is not a random multiplication of paradoxes.
+It distinguishes sequential from simultaneous predication and uses *avaktavya* structurally.
+That is why the Vedāntic objection has to be made carefully.
+
+Note card 10.
+Śaṅkara, *Brahma-sūtra-bhāṣya* 2.2.33.
+
+> `naikasminn asaṃbhavāt`
+
+> `nahy ekasmin dharmiṇi yugapat sadasattvādi-viruddha-dharma-samāveśaḥ saṃbhavati śītoṣṇavat`
+
+Why it matters.
+Śaṅkara's objection is strongest against simultaneous contrary predication in one locus.
+The acquired witness makes the pressure exact.
+The article must therefore distinguish KCB's recovery of alternative truth from a naive contradiction-theory.
+
+Note card 11.
+Rāmānuja, *Śrī-bhāṣya* 2.2.31ff. in Thibaut.
+
+> "all things ... to be existing, one and permanent in so far as they are substances, and the opposite in so far as they are paryāyas."
+
+> "one substance cannot be connected with opposite attributes."
+
+Why it matters.
+Rāmānuja accurately sees the Jaina doctrine's dependence on the substance/mode distinction.
+His objection is therefore more exact than a blanket dismissal.
+
+Note card 12.
+Kant, *Critique of Pure Reason*, Aesthetic.
+
+> `Der Raum ist kein empirischer Begriff...`
+
+> `Die Zeit ist kein empirischer Begriff...`
+
+Why it matters.
+Space and time are conditions of appearance.
+Their necessity for experience does not by itself license them as the total grammar of being.
+
+Note card 13.
+Kant, *Critique of Pure Reason*, A598/B626.
+
+> `Sein ist offenbar kein reales Prädikat.`
+
+> "`Being' is obviously not a real predicate."
+
+Why it matters.
+This is the article's central negative control on the slide from modality to identity.
+Existence posits.
+It does not conceptually enrich essence.
+
+Note card 14.
+Kant, *Critique of Practical Reason*.
+
+> "the moral law is the ratio cognoscendi of freedom"
+
+> "We may call the consciousness of this fundamental law a fact of reason"
+
+Why it matters.
+Kantian freedom is practical and law-indexed.
+It must not be confused with KCB's non-objective freedom or Aurobindo's identity-conscious freedom.
+
+Note card 15.
+Hegel, *Phenomenology* Preface.
+
+> `Das Wahre ist das Ganze.`
+
+> `Es ist das Werden seiner selbst.`
+
+Why it matters.
+This is the strongest rival to the article's anti-totalizing claim.
+Hegel says the whole and its becoming are identical in truth.
+KCB and the Jainas supply the best pressure against that move.
+
+Note card 16.
+Hegel, *Science of Logic* opening.
+
+> `Der Anfang ist also das reine Seyn.`
+
+> `Werden ist das Bestehen des Seyns so sehr als des Nichtseyns`
+
+Why it matters.
+This is where becoming becomes the truth of indeterminate being.
+The entire orthogonality dispute can be staged from this opening.
+
+Note card 17.
+Aurobindo, *The Life Divine* I.
+
+> "There is even a kind of Knowledge which is one with Identity..."
+
+> "In reality, all experience is in its secret nature knowledge by identity..."
+
+Why it matters.
+This is the exact point at which Aurobindo answers the kind of limitation thesis associated with Kant.
+He grants the limit of thought.
+He denies that thought is the highest consciousness.
+
+Note card 18.
+Aurobindo, *The Life Divine* II.
+
+> "A knowledge by identity ... would be the principle of the supramental life."
+
+> "The Infinite is illimitably free, free to determine itself infinitely..."
+
+Why it matters.
+This is the point at which Aurobindo moves from epistemology to a total architecture of consciousness and being.
+It is also the point at which KCB's reserve and anti-totalizing discipline become philosophically necessary.
+
+These note cards are the minimal documentary spine of the article.
+If they are lost, the article becomes atmosphere.
+If they are kept in view, even disagreement with the article's larger construction remains answerable to texts.
 
 The same point can be stated by thinker.
 
