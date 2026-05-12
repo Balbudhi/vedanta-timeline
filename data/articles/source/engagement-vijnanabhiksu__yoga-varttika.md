@@ -4,19 +4,19 @@
 
 *Yoga-Vārttika* is Vijñānabhikṣu’s substantial sub-commentary on Vyāsa’s *Yoga-Bhāṣya* on Patañjali’s *Yoga-Sūtra*: not a bare gloss on the sūtras, but a layered commentary on the sūtra-through-bhāṣya tradition. Vijñānabhikṣu is usually placed in the sixteenth century and belongs neither to a simple “classical Yoga” isolation nor to a straightforward Advaita register; the text is better read as a syncretic Sāṃkhya-Yoga work with explicit Vedāntic commitments and a marked bhedābheda tendency. The file’s own prefatory summary states that the work has four `pāda`s and briefly assigns each its function: `samādhi`, `sādhana`, `vibhūti`, and `kaivalya` (pure-Sanskrit file, opening summary at lines 58-76). The most important architectural fact is that Vijñānabhikṣu uses the Yoga frame not only to explicate practice, but to intervene in larger disputes about Vedānta, cognition, world-status, and the relation between `jīva`, `īśvara`, `citta`, and `puruṣa`.
 
-Cross-engagement: Akalanka presses the same substrate structure axis in the metaphysical register, but with the value `many-coordinate-reals` rather than `one-self-standing` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: at the substrate structure axis the two texts choose differently. Akalanka ([primary text](cite://umasvati/tattvartha-sutra/1.34-35)) commits to `many-coordinate-reals`; this section commits to `one-self-standing`.
 
 ## 2. Sampling and scope statement
 
 Engaged at depth: roughly 15% of the file, concentrated in the prefatory `upasaṃhāra`; the first `pāda` around `YS 1.24` and the long doctrinal digression attached to it; the opening of the third `pāda` on `dhāraṇā`; and the fourth `pāda` around `YS 4.2` and `YS 4.24-26`. Structural summary only: the rest of all four `pāda`s, including the long runs on `samāpatti`, the `kleśa` and `aṣṭāṅga` materials, and most of the `vibhūti` catalog. Not engaged: the appended `śuddhipatra` / errata leaves at the end, except insofar as they confirm a few OCR uncertainties.
 
-Cross-engagement: Abhinavagupta presses the same manifestation status axis in the metaphysical register, but with the value `expressive-manifestation` rather than `dependent-real` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a substantive disagreement with Abhinavagupta on the manifestation status axis — `expressive-manifestation` ([primary text](cite://abhinavagupta/tantraloka/1.16)) against the present `dependent-real`.
 
 ## 3. Structural walk-through
 
 The file opens with a programmatic `upasaṃhāra` rather than with `atha yogānuśāsanam`. That opening matters. It first places Yoga within an ordered `darśana` ecology: Vedānta for the highest `adhikārin`, Mīmāṃsā for karmic purification, Sāṃkhya for discriminating `prakṛti` and `puruṣa`, Nyāya-Vaiśeṣika for object-analysis, and Yoga for the `nididhyāsana`-like realization that carries discrimination into direct attainment (opening leaves; page marker not cleanly retrieved). The same prefatory material also states, unusually plainly, that the work will not only expound its own view but also show the strengths and defects of other śāstric positions (lines 58-63). The polemical architecture is therefore announced before the commentary proper begins.
 
-Cross-engagement: Adi Sankara presses the same identity relation axis in the metaphysical register, but with the value `non-otherness` rather than `natural-difference-non-difference` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: on the identity relation axis, Adi Sankara commits to `non-otherness` where this section commits to `natural-difference-non-difference` ([primary text](cite://sankara/brahma-sutra-bhasya/1.1.1)).
 
 The `Samādhi-pāda` ends explicitly on p. 87 and is functionally about what Yoga is for the highest aspirant: `citta-vṛtti-nirodha`, the classification of mental states, `abhyāsa`, `vairāgya`, the graded `samāpatti`s, `īśvara`, `praṇava`, obstacles, and the transition toward `asaṃprajñāta` (p. 87 colophon). But the `pāda` is not merely practical. Already here Vijñānabhikṣu interrupts the flow to attack reflection-theories, self-luminosity theories, and newer Vedāntic readings that collapse the waking world into mere mentality. The result is that the first `pāda` constructs both a phenomenology of meditative cognition and a realist metaphysics of what that cognition is about.
 
@@ -30,11 +30,11 @@ The `Kaivalya-pāda` begins on p. 259 and carries the heaviest metaphysical load
 
 ### Passage 1
 
-Cross-engagement: Akshapada Gautama presses the same epistemic authority axis in the epistemological register, but with the value `plural-pramana-realism` rather than `scripture-dominant` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Akshapada Gautama's reading at [primary text](cite://aksapada/nyaya-sutra/1.1.1) fills the epistemic authority axis with `plural-pramana-realism`. The present section fills it with `scripture-dominant`.
 
 **Locus:** Prefatory `upasaṃhāra`, anti-`nava-vedāntin` discussion of world-status (opening leaves; page marker not cleanly retrieved).
 
-Cross-engagement: Anandabodha presses the same practice-path axis in the soteriological register, but with the value `knowledge-discipline` rather than `meditative-discipline` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: against Anandabodha: `meditative-discipline` rather than `knowledge-discipline` for the practice-path axis ([primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352)).
 
 **Sanskrit (IAST):** `na [OCR? svapnādivad iti] vedāntasūtraṃ ca jāgrat-prapañcasya kevala-mānasatvam eva nirākaroti.`
 
@@ -50,7 +50,7 @@ This is also the right place to see why the text matters for the position’s T2
 
 **Locus:** `Samādhi-pāda`, `YS 1.24`, p. 49.
 
-Cross-engagement: Alfred North Whitehead presses the same soteric end axis in the soteriological register, but with the value `not-soteriological` rather than `identity-with-ground` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: same soteriological register, different commitments at the soteric end axis. Alfred North Whitehead: `not-soteriological`, [primary text](cite://whitehead/process-and-reality/1.2). Here: `identity-with-ground`.
 
 **Sanskrit (IAST):** `kleśa-karma-vipākāśayair aparāmṛṣṭaḥ puruṣa-viśeṣa īśvaraḥ.`
 
@@ -64,7 +64,7 @@ What follows in the long digression is even more important for corpus-placement.
 
 **Locus:** `Vibhūti-pāda`, `YS 3.1`, opening of the `pāda` (immediately after the third-pāda heading; opening page marker not cleanly retrieved).
 
-Cross-engagement: Bannanje Govindacharya presses the same causation model axis in the metaphysical register, but with the value `efficient-material-split` rather than `unchanged-ground-with-changing-power` in [primary text](cite://madhva/tattva-sankhyana/1-4). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Bannanje Govindacharya lands on `efficient-material-split` for the causation model axis ([primary text](cite://madhva/tattva-sankhyana/1-4)); this section lands on `unchanged-ground-with-changing-power`.
 
 **Sanskrit (IAST):** `deśa-bandhaś cittasya dhāraṇā.` 
 `yasmin deśe dhyeyaṃ cintanīyaṃ tatra dhyānādhāra-deśa-viṣaye cittasya tad-ekāgraṃ dhāraṇā ity arthaḥ.`

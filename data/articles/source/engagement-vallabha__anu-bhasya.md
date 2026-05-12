@@ -4,19 +4,19 @@
 
 Vallabha’s *Aṇu-Bhāṣya* is a compact commentary on the *Brahma-Sūtras*, traditionally placed in the late fifteenth to early sixteenth century and belonging to the Śuddhādvaita / Puṣṭimārga world. In the 1921 Mumbai print used here, the volume has several layers: front matter and indices; a running `pratisūtraṃ śrīmad-aṇubhāṣya-tātparyam` synopsis (roughly lines 108-3999 of the pure-Sanskrit file); the full *Aṇu-Bhāṣya* itself (roughly lines 4004-13566); and appended kārikās / lists thereafter. The commentary follows the four-adhyāya, four-pāda architecture of the *Brahma-Sūtras*; the printed edition also announces a later ṭīkā by Śrīdharaśarman, title read from OCR as *Vāṭabodhinī* [OCR?].
 
-Cross-engagement: Akalanka presses the same substrate structure axis in the metaphysical register, but with the value `many-coordinate-reals` rather than `one-self-standing` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: at the substrate structure axis the two texts choose differently. Akalanka ([primary text](cite://umasvati/tattvartha-sutra/1.34-35)) commits to `many-coordinate-reals`; this section commits to `one-self-standing`.
 
 ## 2. Sampling and scope statement
 
 Engaged at structural depth: the full *Aṇu-Bhāṣya* section of the pure-Sanskrit file, from the first-pāda colophon at lines 4003-4004 through the fourth-adhyāya discussion of liberated embodiment and enjoyment (to roughly line 13566). Engaged at close-reading depth: selected passages from 1.2, 2.1, 3.2, 3.3, 4.2, and 4.4, with full analytic treatment given to `lokavat tu līlākaivalyam` (2.1.33). Used for orientation but not translated continuously: the earlier `tātparya` synopsis (lines 108-3999). Not engaged in substance: the appended kārikās and indices after line 13566.
 
-Cross-engagement: Abhinavagupta presses the same manifestation status axis in the metaphysical register, but with the value `expressive-manifestation` rather than `real-transformation` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Abhinavagupta works the manifestation status axis in the metaphysical register too, but the value is `expressive-manifestation`, not `real-transformation` ([primary text](cite://abhinavagupta/tantraloka/1.16)).
 
 ## 3. Structural walk-through
 
 - **Adhyāya 1: samanvaya** (full bhāṣya begins at lines 4003-4004; the synopsis opens at lines 111-262). The opening pāda argues for Brahman as both intelligent and material cause, handles the ineffability objection, and insists that `ānandamaya` is Brahman rather than jīva or prakṛti; the second pāda turns ambiguous upāsanā-texts back into brahma-vākyas rather than jīva-upāsanā (lines 4018-4075). The third pāda shifts to Brahman as support / container (`āyatana`) and keeps doubtful terms from being reassigned to Sāṅkhya categories (lines 4670-4721); the fourth continues that anti-misreading work and ends with `etena sarve vyākhyātā vyākhyātāḥ` (lines 6027-6033). Polemically, this adhyāya is less about external schools than about preventing Vedāntic language from collapsing into non-Brahman referents.
 
-Cross-engagement: Adi Sankara presses the same identity relation axis in the metaphysical register, but with the value `non-otherness` rather than `self-expression-or-appearance` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Adi Sankara lands on `non-otherness` for the identity relation axis ([primary text](cite://sankara/brahma-sutra-bhasya/1.1.1)); this section lands on `self-expression-or-appearance`.
 
 - **Adhyāya 2: avirodha** (lines 6040-7374). The first pāda rejects the Sāṅkhya appeal to Kapila-smṛti, refuses the claim that Brahman cannot be world-cause, defends creation without ulterior lack, and explains inequality through karma rather than divine cruelty; `lokavat tu līlākaivalyam` sits here (lines 6271-6288). The second pāda broadens the attack to atomists, Buddhists, and other external constructions; Vallabha even remarks that some forms of `māyāvāda` survive only in confused minds after these refutations (lines 6355-6359). The third and fourth pādas then repair internal doctrinal tensions about creation-texts, ākāśa, prāṇa, the senses, and name-and-form. This adhyāya is the text’s main anti-Sāṅkhya / anti-Buddhist / anti-atomist engine.
 
@@ -28,11 +28,11 @@ Cross-engagement: Adi Sankara presses the same identity relation axis in the met
 
 ### Passage 1
 
-Cross-engagement: Akshapada Gautama presses the same epistemic authority axis in the epistemological register, but with the value `plural-pramana-realism` rather than `scripture-dominant` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Akshapada Gautama's reading at [primary text](cite://aksapada/nyaya-sutra/1.1.1) fills the epistemic authority axis with `plural-pramana-realism`. The present section fills it with `scripture-dominant`.
 
 **Locus:** 1.2.1, `sarvatra prasiddhopadeśāt` (pure-Sanskrit file, lines 4066-4075).
 
-Cross-engagement: Haridas Chaudhuri presses the same motive force axis in the soteriological register, but with the value `bliss-or-delight` rather than `devotion` in [primary text](cite://chaudhuri/integral-yoga/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Haridas Chaudhuri works the motive force axis in the soteriological register too, but the value is `bliss-or-delight`, not `devotion` ([primary text](cite://chaudhuri/integral-yoga/1)).
 
 **Sanskrit (IAST):** `atha khalv ityādi brahmavākyam eva. kutaḥ? sarvatra prasiddhopadeśāt ... upadeśa eva yukto mananarūpo na tu kācit siddhasya jīvasyopāsanā.`
 
@@ -46,7 +46,7 @@ If the doubtful passages are downgraded to jīva-upāsanā, the first adhyāya l
 
 **Locus:** 2.1.33, `lokavat tu līlākaivalyam` (pure-Sanskrit file, lines 6271-6279).
 
-Cross-engagement: Anandabodha presses the same practice-path axis in the soteriological register, but with the value `knowledge-discipline` rather than `devotion-and-grace` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Anandabodha ([primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352)) and this section take opposite turns on the practice-path axis — `knowledge-discipline` against `devotion-and-grace`.
 
 **Sanskrit (IAST):** `lokavat tu līlākaivalyam. loke līlāyāṃ hi na kiṃcit prayojanam asti. līlāyā eva prayojanatvāt.`
 
@@ -62,7 +62,7 @@ The second sentence is decisive. Vallabha does not say that play has some hidden
 
 **Locus:** 3.2.3, dream-discussion (pure-Sanskrit file, lines 7893-7900).
 
-Cross-engagement: Alfred North Whitehead presses the same soteric end axis in the soteriological register, but with the value `not-soteriological` rather than `loving-participation` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: same soteriological register, different commitments at the soteric end axis. Alfred North Whitehead: `not-soteriological`, [primary text](cite://whitehead/process-and-reality/1.2). Here: `loving-participation`.
 
 **Sanskrit (IAST):** `śākhāniyamābhāvāc ca māyāmātram eva svapna iti na tatkṛtaguṇadoṣasambandhaḥ.`
 
@@ -76,7 +76,7 @@ This shows a realism that still uses `māyā` without reducing the world to `asa
 
 **Locus:** 3.2.5, `parābhidhyānāt tu tirohitaṃ` (pure-Sanskrit file, lines 7914-7928).
 
-Cross-engagement: Baladeva Vidyabhushana presses the same causation model axis in the metaphysical register, but with the value `unchanged-ground-with-changing-power` rather than `real-transformation` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: same metaphysical register, different commitments at the causation model axis. Baladeva Vidyabhushana: `unchanged-ground-with-changing-power`, [primary text](cite://badarayana/brahma-sutra/1.1.1). Here: `real-transformation`.
 
 **Sanskrit (IAST):** `asya jīvasyaiśvaryādi tirohitam. tatra hetoḥ parābhidhyānāt [OCR?]; parasya bhagavato 'bhito dhyānaṃ svasyet asya ca sarvato bhogecchā. tasmād īśvarecchayā jīvasya bhagavaddharmatirobhāvaḥ.`
 

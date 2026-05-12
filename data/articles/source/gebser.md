@@ -8,7 +8,7 @@
 
 ### Bibliography (precise)
 
-Cross-engagement: Alfred North Whitehead touches the same temporal mode axis, but not in the same register. This section works it as `historical-disclosure` in the historical-genealogical register; Alfred North Whitehead approaches it through the metaphysical register in [primary text](cite://whitehead/process-and-reality/1.2). The point of contact is genuine, but the comparison only holds once the register-shift is kept visible.
+Cross-engagement: the temporal mode axis surfaces here in the historical-genealogical register as `historical-disclosure`; Alfred North Whitehead works it from the metaphysical register at [primary text](cite://whitehead/process-and-reality/1.2).
 
 **German.**
 - *Ursprung und Gegenwart. Erster Teil: Die Fundamente der aperspektivischen Welt.* Stuttgart: Deutsche Verlags-Anstalt, 1949.
@@ -17,7 +17,7 @@ Cross-engagement: Alfred North Whitehead touches the same temporal mode axis, bu
 - Paperbound edition (Deutscher Taschenbuch Verlag, Munich, 1973), with another short preface dated Wabern/Berne, February 1973.
 - *Gesamtausgabe* (Collected Works), 8 vols., Schaffhausen: Novalis Verlag, 1975–1980, ed. Rudolf Hämmerli; *Ursprung und Gegenwart* occupies vols. II and III. The standard German citation is to the *Gesamtausgabe*.
 
-Cross-engagement: G. W. F. Hegel presses the same evolution register axis in the historical-genealogical register, but with the value `sublative-becoming` rather than `graded-manifestation-without-evolution` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: G. W. F. Hegel's reading at [primary text](cite://hegel/phenomenology-of-spirit/17) fills the evolution register axis with `sublative-becoming`. The present section fills it with `graded-manifestation-without-evolution`.
 
 **English.**
 - *The Ever-Present Origin*. Translated by Noel Barstad with Algis Mickunas. Athens, Ohio: Ohio University Press, 1985 (single volume containing both *Foundations of the Aperspectival World* and *Manifestations of the Aperspectival World*). xxxii + 643 pp. ISBN 0-8214-0219-6 (hardcover); ISBN 0-8214-0769-4 (paperback). Library of Congress: CB83.G413 1984. Reissued by Ohio University Press in subsequent paperback printings; the text and pagination of all later printings match the 1985 edition. There is no other complete English translation.
@@ -30,7 +30,7 @@ Cross-engagement: G. W. F. Hegel presses the same evolution register axis in the
 
 Hans (later Jean) Gebser was born in Posen (then German, now Polish Poznań) on 20 August 1905. Educated in Breslau, Königsberg, Berlin, and Florence; studied romance philology, Italian, and Spanish literature. Left Germany in 1929, lived in Italy and Spain (the *Rilke und Spanien* period), narrowly escaped Madrid in 1936 at the outbreak of the Spanish Civil War; thence to Paris, and finally settled in Switzerland (Bern, then Wabern bei Bern), where he became a Swiss citizen in 1951. His basic insight — that "perspectivity" was an event in the history of consciousness with a beginning (Renaissance Italy), a peak (Newton-Kant), and an end now visible in modernist art and modern physics — came to him "in a flash" in the winter of 1932–33 in a Spanish cellar. He spent the next seventeen years (his own count, in the 1949 Preface) compiling the evidence. He died in Berne on 14 May 1973.
 
-Cross-engagement: Judith Butler presses the same social formation axis in the political-social register, but with the value `performative-norm-repetition` rather than `civilizational-structure-shift` in [primary text](cite://butler/gender-trouble/3). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: at the social formation axis the two texts choose differently. Judith Butler ([primary text](cite://butler/gender-trouble/3)) commits to `performative-norm-repetition`; this section commits to `civilizational-structure-shift`.
 
 Gebser's social location matters: he was not a professor (until briefly at the Salzburg Hochschule in his last decade) but an independent scholar and writer; he subsisted on patronage and grants (the "economically precarious circumstances" of the 1949 Preface); his network included Karl Kerényi, Jean Keckeis (his intellectual executor), Adolf Portmann, Erich Neumann, and from the late 1950s the German Aurobindo translators around Otto Wolff and Helmut Weiss. He was not a yogi, never visited India, never met Aurobindo (who died in 1950 just as Gebser was finishing his book), and acquired most of his Aurobindo through the German abridgements of *The Life Divine* — first the 1957 Rowohlt edition of *Der integrale Yoga* (Klassiker no. 24), then the broader Pondicherry-Zollikon translations of the early 1960s. The 1966 Preface is therefore the textual residue of Gebser's *encounter*, in print, with the Indian thinker who had reached the same target from the other direction.
 

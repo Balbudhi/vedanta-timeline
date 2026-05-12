@@ -4,13 +4,13 @@
 
 *Vedānta-Pārijāta-Saurabha* is Nimbārka's bhāṣya on the *Brahma-Sūtra*; *Vedānta-Kaustubha* is Śrīnivāsa's fuller exposition of that bhāṣya, printed here in a layered edition that also appears to include a later *Kaustubha-prabhā* sub-commentary [OCR on the title-page name is not fully secure]. The school is Nimbārka Vedānta, classically described as *dvaitādvaita* or *svābhāvika-bhedābheda*. The file itself does not settle exact dates, but both authors belong to the medieval Nimbārka lineage, with Śrīnivāsa later than Nimbārka and earlier than the still later Gauḍīya deployment of related *bhedābheda* idioms. Structurally the text follows the standard four *adhyāya*, sixteen *pāda* architecture of the *Brahma-Sūtra*; the contents section near the end of the pure-Sanskrit file maps the adhikaraṇas and internal pagination in detail (pure-text lines 34116-34659).
 
-Cross-engagement: Abhinavagupta presses the same manifestation status axis in the metaphysical register, but with the value `expressive-manifestation` rather than `dependent-real` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a substantive disagreement with Abhinavagupta on the manifestation status axis — `expressive-manifestation` ([primary text](cite://abhinavagupta/tantraloka/1.16)) against the present `dependent-real`.
 
 ## 2. Sampling and scope statement
 
 Engaged at depth: the opening hermeneutic of 1.1, especially [BS 1.1.1-4](cite://mandana/brahma-siddhi/1.1.1-4) (internal pp. 19-73; pure-text lines 1124-1237 and 1678-1757); the *Ārambhaṇa-adhikaraṇa* in 2.1 (pp. 403-413; lines 11571-11890); the *bhedābheda* and *aṃśa* material in 2.3 (esp. pp. 883-885; lines 23093-23210); and the liberation debates in 4.4 (pp. 1320 and 1336-1345; lines 33028-33045 and 33426-33621). That is a close engagement with selected load-bearing loci totaling roughly thirty pages of the internal Sanskrit pagination.
 
-Cross-engagement: Adi Sankara presses the same identity relation axis in the metaphysical register, but with the value `non-otherness` rather than `natural-difference-non-difference` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: on the identity relation axis, Adi Sankara commits to `non-otherness` where this section commits to `natural-difference-non-difference` ([primary text](cite://sankara/brahma-sutra-bhasya/1.1.1)).
 
 Structural summary only: the remaining *pāda*s, reconstructed from the on-disk contents map and checked against explicit pāda-opening or pāda-closing markers in the body of the text. Not engaged in continuous detail: the whole third-layer sub-commentary where it separates from Śrīnivāsa, the long anti-Buddhist and anti-Sāṅkhya stretches of 2.2 taken page by page, and the closing *sūtrānukramaṇikā*. No claim is made here to have read the whole commentary continuously from first to last; the claim is narrower and defensible.
 
@@ -18,7 +18,7 @@ Structural summary only: the remaining *pāda*s, reconstructed from the on-disk 
 
 **Adhyāya 1: Samanvaya**. The first adhyāya runs from the *jijñāsā*-opening through the great Upaniṣadic identity-loci and their interpretive capture by the commentator (internal pp. 19-364; contents at lines 34116-34234). Pāda 1 establishes that *brahma-jijñāsā* is inquiry into Bhagavān Vāsudeva/Kṛṣṇa, then reads major opening *sūtra*s and several key Vedic terms as directly Brahman-referring; pādas 2-4 widen that method through the *antaryāmin*, *vaiśvānara*, *bhūmā*, *dahara*, *ākāśa*, *jyotis*, and related loci. Polemically, this is already anti-Mīmāṃsā, anti-Sāṅkhya, and anti-nirviśeṣa Advaita: the text does not first offer a neutral ontology and only later weaponize it; its constructive semantics is itself a refutation.
 
-Cross-engagement: Akalanka presses the same epistemic authority axis in the epistemological register, but with the value `plural-pramana-realism` rather than `scripture-dominant` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Akalanka's reading at [primary text](cite://umasvati/tattvartha-sutra/1.34-35) fills the epistemic authority axis with `plural-pramana-realism`. The present section fills it with `scripture-dominant`.
 
 **Adhyāya 2: Avirodha**. The second adhyāya (pp. 372-789; lines 34236-34375) is the text's densest polemical engine. Pāda 1 attacks rival causal accounts and, crucially, rejects *jaganmithyātva*, explicitly defending Brahman as *abhinna-nimittopādāna* and, per the contents map, stabilizing a *brahma-pariṇāma* reading. Pāda 2 turns outward against Sāṅkhya, Vaiśeṣika atomism, several Buddhist schools, Pāśupata, and problematic readings of Pāñcarātra; pādas 3-4 return to cosmology, the self, agency, and the *aṃśa* relation between *jīva* and Brahman. This is where the anti-illusionist and anti-reductionist architecture of the whole commentary becomes unmistakable.
 
@@ -30,11 +30,11 @@ Cross-engagement: Akalanka presses the same epistemic authority axis in the epis
 
 ### Passage 1
 
-Cross-engagement: Baladeva Vidyabhushana presses the same practice-path axis in the soteriological register, but with the value `devotion-and-grace` rather than `knowledge-discipline` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a substantive disagreement with Baladeva Vidyabhushana on the practice-path axis — `devotion-and-grace` ([primary text](cite://badarayana/brahma-sutra/1.1.1)) against the present `knowledge-discipline`.
 
 **Locus**: [BS 1.1.1](cite://mandana/brahma-siddhi/1.1.1), *jijñāsā-adhikaraṇa* (pure-text lines 1175-1180).
 
-Cross-engagement: Akshapada Gautama presses the same soteric end axis in the soteriological register, but with the value `isolation-or-discriminative-release` rather than `identity-with-ground` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Akshapada Gautama works the soteric end axis in the soteriological register too, but the value is `isolation-or-discriminative-release`, not `identity-with-ground` ([primary text](cite://aksapada/nyaya-sutra/1.1.1)).
 
 **Sanskrit (IAST)**:
 

@@ -4,19 +4,19 @@
 
 *Śrī-Bhāṣya* (the *Śārīraka-Mīmāṃsā-Bhāṣya*) is Rāmānuja’s major commentary on Bādarāyaṇa’s *Brahma-Sūtra*, traditionally placed in the late eleventh or early twelfth century and canonical for the Viśiṣṭādvaita lineage. The on-disk text opens by invoking Bodhāyana’s extensive *vṛtti* and presenting itself as a compressed restatement in that line (p. 1), so it is self-consciously a layered commentary. Structurally it follows the *Brahma-Sūtra*’s four *adhyāyas*, each with four *pādas*: adhyāya 1 fixes the Upaniṣadic referent as Brahman; adhyāya 2 defends that thesis against rival systems; adhyāya 3 treats upāsanā, transmigration, and discipline; adhyāya 4 treats death, archirādi-gati, liberation, and non-return.
 
-Cross-engagement: Abhinavagupta presses the same substrate structure axis in the metaphysical register, but with the value `one-self-standing` rather than `one-qualified-by-real-internal-distinctions` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a real divergence with Abhinavagupta on the substrate structure axis. The metaphysical register is shared; the values are not — `one-qualified-by-real-internal-distinctions` here, `one-self-standing` at [primary text](cite://abhinavagupta/tantraloka/1.16).
 
 ## 2. Sampling and scope statement
 
 Engaged at depth: roughly a quarter of the file, concentrated in the opening of adhyāya 1 (especially [BS 1.1.1](cite://mandana/brahma-siddhi/1.1.1) and the *Ānandamayādhikaraṇa*), the anti-Sāṅkhya/Yoga opening of adhyāya 2, the first *pāda* of adhyāya 3 on transmigration and karmic residue, and the liberation arc of adhyāya 4, with quoted close reading of six loci. Structural summary only: the remaining *pādas* of adhyāyas 1-4, tracked through their headings and sampled arguments. Flagged but not fully engaged: many micro-disputes over combining *vidyās* in adhyāya 3.3, several route-order disputes in adhyāya 4.3, and a number of opponent-specific sub-arguments in adhyāya 2.2.
 
-Cross-engagement: Adi Sankara presses the same manifestation status axis in the metaphysical register, but with the value `sublatable-not-null` rather than `dependent-real` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: against Adi Sankara: `dependent-real` rather than `sublatable-not-null` for the manifestation status axis ([primary text](cite://sankara/brahma-sutra-bhasya/1.1.1)).
 
 ## 3. Structural walk-through
 
 - **Adhyāya 1, pāda 1** opens with the *Jijñāsādhikaraṇa* and runs through *Janmādy*, *Śāstrayonitva*, *Samanvaya*, *Īkṣati*, and *Ānandamaya* (opening p. 1). Its burden is lexical and exegetical: “Brahman” is the Lord with auspicious qualities, and the disputed Upaniṣadic loci must refer to that Brahman, not to pradhāna, jīva, or an indeterminate absolute.
 
-Cross-engagement: Anandabodha presses the same identity relation axis in the metaphysical register, but with the value `non-otherness` rather than `body-soul-qualification` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Anandabodha ([primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352)) and this section take opposite turns on the identity relation axis — `non-otherness` against `body-soul-qualification`.
 
 - **Adhyāya 1, pāda 2** begins with *Sarvatraprasiddhyadhikaraṇa* (p. 111). Subjects such as the eater, the inner ruler, and Vaiśvānara are identified with Brahman rather than finite deity, fire, or jīva.
 
@@ -52,7 +52,7 @@ Cross-engagement: Anandabodha presses the same identity relation axis in the met
 
 **1. [BS 1.1.1](cite://mandana/brahma-siddhi/1.1.1), *Jijñāsādhikaraṇa*, pp. 1-2**
 
-Cross-engagement: Akalanka presses the same epistemic authority axis in the epistemological register, but with the value `plural-pramana-realism` rather than `scripture-dominant` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Akalanka's reading at [primary text](cite://umasvati/tattvartha-sutra/1.34-35) fills the epistemic authority axis with `plural-pramana-realism`. The present section fills it with `scripture-dominant`.
 
 **Sanskrit (IAST):** `brahmaṇo jijñāsā brahmajijñāsā ... brahmaśabdena ca svabhāvato nirasta-nikhila-doṣo 'navadhikātiśayā[saṅkhyeya?]-kalyāṇa-guṇa-gaṇaḥ puruṣo[ttama?] 'bhidhīyate ... ataḥ sarveśvara eva jijñāsākarmatāṃ brahma ... jñātum icchā jijñāsā; icchāyā iṣyamāṇa-prādhānyād iṣyamāṇaṃ jñānam iha vidhīyate.`
 
@@ -108,7 +108,7 @@ Here the asymmetry between mukta and Īśvara is explicit. Liberation grants bli
 
 - On the mapped lineages, *Śrī-Bhāṣya* belongs centrally to the Yāmuna -> Rāmānuja -> Vedānta-Deśika chain. It is not part of the Bhartṛprapañca -> Bhāskara -> Madhva -> Caitanya -> Aurobindo trajectory, but it is a major adjacent realism.
 
-Cross-engagement: Anantakrishna Sastri presses the same truth-structure axis in the epistemological register, but with the value `hierarchical-standpoint-truth` rather than `single-absolute-truth` in [primary text](cite://sankara/brahma-sutra-bhasya/2.1.14). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Anantakrishna Sastri works the truth-structure axis in the epistemological register too, but the value is `hierarchical-standpoint-truth`, not `single-absolute-truth` ([primary text](cite://sankara/brahma-sutra-bhasya/2.1.14)).
 
 - Relative to Padmapāda, Prakāśātman, Vidyāraṇya, and Madhusūdana, the text is a direct antagonist. It does not yet name those later authors, but the opening anonymous *pūrvapakṣa* already targets the package “avidyā-nivṛtti is mokṣa; sentence-born knowledge of *tat tvam asi* is sufficient; upāsanā is secondary.”
 
@@ -130,6 +130,6 @@ Cross-engagement: Anantakrishna Sastri presses the same truth-structure axis in 
 
 This text gives the corpus a first-rank primary source for panentheistic realism inside Vedānta: Brahman as both material and efficient cause, the world as the Lord’s body, and liberation as permanent participation rather than erasure. It is especially useful wherever the project needs a rigorous Vaiṣṇava critique of world-negating readings.
 
-Cross-engagement: G. W. F. Hegel presses the same normativity axis in the ethical register, but with the value `ethical-life-in-institutions` rather than `divine-command-or-grace` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a real divergence with G. W. F. Hegel on the normativity axis. The ethical register is shared; the values are not — `divine-command-or-grace` here, `ethical-life-in-institutions` at [primary text](cite://hegel/phenomenology-of-spirit/17).
 
 It also poses a challenge that cannot be skipped. Any synthesis that wants to keep non-dual resources must answer Rāmānuja’s two strongest complaints: Vedānta cannot terminate in a qualityless referent, and liberation cannot be reduced to one-time sentence-cognition plus avidyā-talk. The gain is therefore double: strong citation-support for realism, and a sharpened burden of reply where the position wants to keep more of Advaita than Rāmānuja permits.

@@ -8,11 +8,11 @@
 
 ### The biographical arc, in a single page
 
-Cross-engagement: Akalanka presses the same substrate structure axis in the metaphysical register, but with the value `many-coordinate-reals` rather than `one-self-standing` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: at the substrate structure axis the two texts choose differently. Akalanka ([primary text](cite://umasvati/tattvartha-sutra/1.34-35)) commits to `many-coordinate-reals`; this section commits to `one-self-standing`.
 
 Georg Wilhelm Friedrich Hegel (1770–1831) is born in Stuttgart, son of a Württemberg revenue secretary, in the year Beethoven is born and Kant is publishing the Inaugural Dissertation. He goes to the Tübinger Stift (the Protestant seminary at Tübingen) at eighteen, where his three closest friends are Friedrich Hölderlin and the young Schelling. They share a room, they read Plato together, they plant a "freedom tree" when news of the French Revolution reaches the seminary in 1789, they sketch what one of them, probably Schelling, possibly Hegel, will write up as the *Älteste Systemprogramm des deutschen Idealismus*: a programmatic fragment in which philosophy is to become a new mythology, ethics to be unified with aesthetics, and the state to be abolished as soon as humanity has its own life. It is one of the most striking documents of the late eighteenth century. Whoever its author, all three friends sign on.
 
-Cross-engagement: Abhinavagupta presses the same determination axis in the logical-dialectical register, but with the value `self-expression` rather than `negation-and-contradiction` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: the disagreement with Abhinavagupta is at the determination axis itself: `negation-and-contradiction` here, `self-expression` in [primary text](cite://abhinavagupta/tantraloka/1.16).
 
 After Tübingen Hegel works as a private tutor in Bern (1793–96) and Frankfurt (1797–1800), where he writes the early theological essays, and where Hölderlin's mind begins its final descent. In 1801, Schelling, already a published star, calls Hegel to Jena. The two co-edit the *Kritisches Journal der Philosophie*. The arrangement does not last. By 1807 Hegel has finished the *Phänomenologie des Geistes*, written under the pressure of the Battle of Jena (Napoleon "the World-Soul on horseback" rides past his window as the manuscript goes to press), and Schelling is offended by what Hegel has done with the Absolute. They never reconcile.
 
@@ -22,7 +22,7 @@ Then a long detour: editor of a Bamberg newspaper (1807–08); rector of a *Gymn
 
 The single thread that matters for our purposes, and the reason Hegel cannot be skipped even by those who reject him, is the doctrine of *Aufhebung* and the formula *"Das Wahre ist das Ganze."* Around these orbit a small set of moves:
 
-Cross-engagement: Akshapada Gautama presses the same method axis in the methodological register, but with the value `formal-proof-or-inference` rather than `dialectical-development` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a real divergence with Akshapada Gautama on the method axis. The methodological register is shared; the values are not — `dialectical-development` here, `formal-proof-or-inference` at [primary text](cite://aksapada/nyaya-sutra/1.1.1).
 
 - *Substanz und Subjekt*: the Real must be grasped not only as ground but as self-knowing, self-articulating, self-returning.
 - *Der spekulative Satz*: ordinary subject-predicate judgment breaks down at the level of speculative content.
@@ -39,13 +39,13 @@ These five moves and the *Aufhebung*-rhythm that links them are the architecture
 - **Enzyklopädie der philosophischen Wissenschaften** (1817; 2nd ed. 1827; 3rd ed. 1830). The whole system in compressed paragraph form: Logic → Philosophy of Nature → Philosophy of Spirit. The map. The *Zusätze* (additions, drawn from student notes) are pedagogically useful but not authoritative.
 - **Berlin lectures** (1818–31): on history of philosophy, philosophy of history, philosophy of religion, aesthetics. Posthumously edited; uneven but invaluable for seeing the system applied.
 
-Cross-engagement: Gaudapada (Samkhya commentator) presses the same temporal mode axis in the metaphysical register, but with the value `substance-primary` rather than `process-primary` in [primary text](cite://isvara-krsna/samkhya-karika/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Gaudapada (Samkhya commentator) takes the temporal mode axis to a different commitment — `substance-primary` at [primary text](cite://isvara-krsna/samkhya-karika/1) against `process-primary` here.
 
 ### The user's polemic, stated plainly — and held in suspense
 
 The user holds that Hegel commits a category error: he treats the structure of grammar, subject, predicate, copula, the dialectical movement of contradictories, as the structure of the Real. Nietzsche names the disease in *Götzen-Dämmerung* ("Reason in Philosophy," §5): *"Ich fürchte, wir werden Gott nicht los, weil wir noch an die Grammatik glauben."* The user reads Hegel as the most sophisticated symptom of this disease, and reads *Aufhebung* as a "violence of unification": every difference is allowed to appear only on condition that it can be sublated into a higher identity. The non-identical, the irreducibly singular, the *jīva* in its individual reality, these have no standing in Hegel's system except as moments-on-the-way to *Geist*'s self-knowledge.
 
-Cross-engagement: Alfred North Whitehead presses the same evolution register axis in the historical-genealogical register, but with the value `durational-creative-growth` rather than `sublative-becoming` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a substantive disagreement with Alfred North Whitehead on the evolution register axis — `durational-creative-growth` ([primary text](cite://whitehead/process-and-reality/1.2)) against the present `sublative-becoming`.
 
 This reader takes the polemic seriously and tries to read Hegel non-caricaturally, that is, to read what Hegel actually says before deciding what to reject. The point is not to soften the polemic but to sharpen it: to find where Hegel is genuinely vulnerable to it, where Hegel has anticipated and partially answered it, and where Hegel is closer to the user's own position than the polemic admits.
 
@@ -55,7 +55,7 @@ A note on what will recur. Hegel is, on at least three points, closer to the use
 
 These are technical terms. They do not translate cleanly. Below is the working glossary the rest of this reader will use.
 
-Cross-engagement: Adi Sankara presses the same truth-structure axis in the epistemological register, but with the value `hierarchical-standpoint-truth` rather than `single-absolute-truth` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Adi Sankara's reading at [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1) fills the truth-structure axis with `hierarchical-standpoint-truth`. The present section fills it with `single-absolute-truth`.
 
 - **Aufhebung**, sublation; the threefold movement of canceling, preserving, and elevating. A determination is *aufgehoben* when it is suspended in its immediacy, retained as a moment of a higher determination, and lifted to a more concrete level. No single English word captures the threefold. Keep the German.
 - **Geist**, Spirit; not "ghost" and not "mind" alone. The self-knowing dimension of the Real. In the *Phänomenologie* it is the universal subject that knows itself through the history of consciousness; in the *Enzyklopädie* it is the Idea that has returned from its self-externalization in Nature.
@@ -78,7 +78,7 @@ The reading sequence below keeps the original titles and a few indispensable tec
 
 The *Phänomenologie* is Hegel's first systematic book and his most quoted. It is also the hardest. The conceit: a "science of the experience of consciousness", a phenomenological account of what consciousness goes through as it tries to know its object, written from the perspective of a philosopher who already knows where the path ends but lets the consciousness-under-observation work it out for itself.
 
-Cross-engagement: Baladeva Vidyabhushana presses the same perspectivism axis in the epistemological register, but with the value `partial-perspectives-ranked` rather than `sublated-into-higher-whole` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Baladeva Vidyabhushana takes the perspectivism axis to a different commitment — `partial-perspectives-ranked` at [primary text](cite://badarayana/brahma-sutra/1.1.1) against `sublated-into-higher-whole` here.
 
 The book moves in stages: Consciousness (Sense-Certainty, Perception, Force and Understanding) → Self-Consciousness (Lordship and Bondage; Stoicism, Skepticism, Unhappy Consciousness) → Reason (Observing Reason, Active Reason, the Realization of Self-Consciousness through Itself) → Spirit (true Spirit/*Sittlichkeit*; self-alienated Spirit/*Bildung*; Spirit certain of itself/Morality) → Religion → Absolute Knowing. Each stage shows the previous one's *Gestalt des Bewußtseins* breaking down on its own terms and giving rise to the next.
 
@@ -90,7 +90,7 @@ We will read four passages from the *Vorrede* (the Preface, written last after t
 
 The most quoted sentence of the *Vorrede*, often quoted in isolation and then misread.
 
-Cross-engagement: Jagadguru Ramabhadracharya presses the same normativity axis in the ethical register, but with the value `divine-command-or-grace` rather than `ethical-life-in-institutions` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a real divergence with Jagadguru Ramabhadracharya on the normativity axis. The ethical register is shared; the values are not — `ethical-life-in-institutions` here, `divine-command-or-grace` at [primary text](cite://badarayana/brahma-sutra/1.1.1).
 
 > "The True is the whole. But the whole is nothing other than the essence that consummates itself through its development. Of the Absolute it must be said that it is essentially a result, that only at the end is it what it truly is; and that precisely therein consists its nature, to be actual, Subject, or that which becomes itself."
 
@@ -112,7 +112,7 @@ For the user's position: the move is to keep the processual structure and refuse
 
 The other monumental sentence of the *Vorrede*. Hegel announces here what he takes to be the move that distinguishes his philosophy from Spinoza's.
 
-Cross-engagement: Haridas Chaudhuri presses the same social formation axis in the political-social register, but with the value `civilizational-structure-shift` rather than `recognitive-institutional` in [primary text](cite://chaudhuri/integral-yoga/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a real divergence with Haridas Chaudhuri on the social formation axis. The political-social register is shared; the values are not — `recognitive-institutional` here, `civilizational-structure-shift` at [primary text](cite://chaudhuri/integral-yoga/1).
 
 > "Everything turns, in my view, on grasping and expressing the True not as *Substance*, but just as much as *Subject*."
 
@@ -134,7 +134,7 @@ This is Hegel's most exposed and most fertile claim. The Real *contains its own 
 
 This passage is less famous than the master/slave but, for the polemic about ontologized grammar, decisive. Hegel here describes how ordinary predicative judgment breaks down when applied to speculative content.
 
-Cross-engagement: Anandabodha presses the same soteric end axis in the soteriological register, but with the value `identity-with-ground` rather than `recognition-or-freedom` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: on the soteric end axis, Anandabodha commits to `identity-with-ground` where this section commits to `recognition-or-freedom` ([primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352)).
 
 > "Formally, what has been said can be expressed so: the nature of the judgment or proposition in general, which involves the distinction of subject and predicate within it, is destroyed by the speculative proposition, and the identical proposition into which the former is transformed contains the counter-blow against that relation."
 
@@ -166,7 +166,7 @@ Compare this to Nietzsche's grammar critique. Both Hegel and Nietzsche see that 
 
 The most influential pages of Hegel ever written. The structure of recognition; the dialectic of master and slave; the reversal in which the truth of mastery turns out to be servitude. Marx will inherit the kernel (labor as the formative activity through which humans recognize themselves); Kojève will turn it into the engine of his reading of all of Hegel.
 
-Cross-engagement: Bannanje Govindacharya presses the same individuation status axis in the metaphysical register, but with the value `irreducible-dependent` rather than `reducible-to-the-whole` in [primary text](cite://madhva/tattva-sankhyana/1-4). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Bannanje Govindacharya ([primary text](cite://madhva/tattva-sankhyana/1-4)) treats the individuation status axis in the metaphysical register with the value `irreducible-dependent`. The present section reads it as `reducible-to-the-whole`.
 
 The dialectic begins from a structural claim about self-consciousness:
 

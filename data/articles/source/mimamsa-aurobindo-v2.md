@@ -4,7 +4,7 @@
 
 This is a perspectives-layer document. It does not aim at the historical self-understanding of the classical Mīmāṃsakas. It defends, against the first-pass investigation in `MIMAMSA_AUROBINDO_HYPOTHESIS.md`, a stronger thesis: that the integral yoga articulated by Sri Aurobindo in *The Synthesis of Yoga* and *The Life Divine* is what the original Mīmāṃsā tradition was doing, once the externalization is read at the right depth. The "decline" of *karma-kāṇḍa* is then the loss of the depth-reading rather than the failure of the practice. The reader must hold this throughout: the document records what a particular depth-reading implies about the Mīmāṃsā corpus, not what the Mīmāṃsakas said of themselves. Where the depth-reading and the school's self-understanding diverge, the document marks the divergence and does not paper over it.
 
-Cross-engagement: Akalanka presses the same substrate structure axis in the metaphysical register, but with the value `many-coordinate-reals` rather than `one-self-standing` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: at the substrate structure axis the two texts choose differently. Akalanka ([primary text](cite://umasvati/tattvartha-sutra/1.34-35)) commits to `many-coordinate-reals`; this section commits to `one-self-standing`.
 
 The first-pass document concluded that Hypothesis A (hermeneutic) is supported, B (genealogical-structural) partially, C (causal-diagnostic) novel-but-not-textually-supported. The user's challenge, registered in voice notes of 2026-05-09, is that the verdict on B and C presupposed a particular reading of the Mīmāṃsā evidence — one that took the Mīmāṃsakas' aggressive ritual externalism at face value and concluded that there is no internal register in their texts. The challenge is fair. The Mīmāṃsā corpus, read carefully, has more interior than the first pass allowed. The verdict needs to be rewritten.
 
@@ -14,11 +14,11 @@ The first-pass document concluded that Hypothesis A (hermeneutic) is supported, 
 
 ### 1.1 What the first-pass agent took to be "aggressive externalism"
 
-Cross-engagement: Abhinavagupta presses the same manifestation status axis in the metaphysical register, but with the value `expressive-manifestation` rather than `real-transformation` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Abhinavagupta works the manifestation status axis in the metaphysical register too, but the value is `expressive-manifestation`, not `real-transformation` ([primary text](cite://abhinavagupta/tantraloka/1.16)).
 
 The first pass said: "The Mīmāṃsakas, far from being closet Aurobindonians, are *aggressively* polemical against any reading that locates the truth of dharma somewhere other than in the externally-performable injunction." The supporting evidence offered was: Sucaritamiśra on *Kāśikā* attacks readings that subordinate *vidhi* to *arthavāda*; the Mīmāṃsakas reject the Vedāntic priority of *jñāna-kāṇḍa* over *karma-kāṇḍa*; *apūrva* is described as a sui generis metaphysical entity rather than a state of consciousness. The conclusion drawn was that the Mīmāṃsakas would *reject* an interior reading of their own apparatus.
 
-Cross-engagement: Arthur Schopenhauer presses the same identity relation axis in the metaphysical register, but with the value `self-expression-or-appearance` rather than `non-otherness` in [primary text](cite://schopenhauer/the-world-as-will-and-representation/1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Arthur Schopenhauer takes the identity relation axis to a different commitment — `self-expression-or-appearance` at [primary text](cite://schopenhauer/the-world-as-will-and-representation/1.1) against `non-otherness` here.
 
 That conclusion is too quick. It conflates two distinct theses. The first thesis is that the Mīmāṃsakas reject the priority of *jñāna* over *karma*. They do reject this; that is what *Pūrva*-Mīmāṃsā in opposition to *Uttara*-Mīmāṃsā means. The second thesis is that the Mīmāṃsakas reject any interior dimension of the ritual operation itself. They do not reject this. Several lines of evidence, available in the on-disk corpus and in the secondary literature, show that the Mīmāṃsā tradition has always carried an internal-cognitive register *within* the ritual operation, even when defending the priority of the ritual register against the Vedāntins.
 
@@ -26,7 +26,7 @@ That conclusion is too quick. It conflates two distinct theses. The first thesis
 
 The locus is MS 1.1.2 with Śabara's *Bhāṣya*. The on-disk Sanskrit gives Śabara's gloss in full:
 
-Cross-engagement: Adi Sankara presses the same selfhood structure axis in the phenomenological register, but with the value `witness-self` rather than `psychic-individual` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a substantive disagreement with Adi Sankara on the selfhood structure axis — `witness-self` ([primary text](cite://sankara/brahma-sutra-bhasya/1.1.1)) against the present `psychic-individual`.
 
 > *codaneti kriyāyāḥ pravartakaṃ vacanam āhuḥ … tayā yo lakṣyate, so 'rthaḥ puruṣaṃ niḥśreyasena saṃyunaktīti pratijānīmahe.*
 >
@@ -44,7 +44,7 @@ The first-pass account did not engage MS 1.1.2 with Śabara. Engagement reveals 
 
 Both the Bhāṭṭa and the Prābhākara schools defend a doctrine of *triputī-pratyakṣa* — the threefold structure of cognition, in which every act of cognition simultaneously discloses cognizer, cognized, and the cognition itself. This is a doctrine about the structure of consciousness. It is not a doctrine about ritual procedure.
 
-Cross-engagement: Anandabodha presses the same finite cognition axis in the epistemological register, but with the value `positive-ignorance` rather than `adhyasa-or-superimposition` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Anandabodha's reading at [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352) fills the finite cognition axis with `positive-ignorance`. The present section fills it with `adhyasa-or-superimposition`.
 
 Prabhākara holds that "every cognition of an object [involves] a consciousness of an object, and a consciousness of the cognition that can never be known as an object" (*Tripuṭi-pratyakṣa-vāda*, summarized at the Wikipedia entry, drawing on Śālikanātha's *Prakaraṇa-pañcikā*). The cognition is self-luminous; the cognizer is implied in every cognition as the subject; the object appears as the object; the three are one structure. Kumārila, by contrast, denies that the cognition itself is self-luminous — but, as Elisa Freschi notes (Indian Philosophy Blog, "Does Kumārila accept I-cognition as a kind of perception?", 2026-02-15), *Ślokavārttika*, ātmavāda 142 nevertheless attributes self-luminosity to the *self*, through the simile of light (*jyotiḥ*). The *ātman* is *svayam-prakāśa*. The agent's awareness is at the center of the epistemological apparatus.
 
@@ -54,7 +54,7 @@ This matters because it forecloses the first-pass reading on which the Mīmāṃ
 
 The Mīmāṃsā doctrine of *adhikāra* (qualification for ritual) is on its face an external classificatory matter: who is entitled to perform which rite. But the textual analysis of *adhikāra* shows that the qualification is not exhausted by varṇa-membership or external prerequisites. Śabara distinguishes external capacity (*bahir-bhūta*) from intrinsic capacity (*ātma-vṛtti*) — the latter is a feature of the agent's nature, not of contingent circumstance (Freschi, "Adhikāra and rights," elisafreschi.com, 2024-05-08). The qualified agent is, on Śabara's reading, one whose *intrinsic* capacity — including their desire (*kāma*), their cultivated capability, and their inner disposition — fits them for the rite.
 
-Cross-engagement: Akshapada Gautama presses the same epistemic authority axis in the epistemological register, but with the value `plural-pramana-realism` rather than `scripture-dominant` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Akshapada Gautama's reading at [primary text](cite://aksapada/nyaya-sutra/1.1.1) fills the epistemic authority axis with `plural-pramana-realism`. The present section fills it with `scripture-dominant`.
 
 This converges with what the *Bhagavad-Gītā* later thematises explicitly: that the same outer action performed by an agent of one inner state is one thing, performed by an agent of another inner state is another thing. Mīmāṃsā does not develop the inner-state taxonomy as the Gītā does, but the structural commitment is there: the rite's efficacy presupposes the agent's intrinsic fitness, and the agent's intrinsic fitness is internal.
 
@@ -62,7 +62,7 @@ This converges with what the *Bhagavad-Gītā* later thematises explicitly: that
 
 The *bhāvanā* doctrine, developed by Kumārila and elaborated by Maṇḍana Miśra in the *Vidhi-Viveka*, names two operations:
 
-Cross-engagement: Alfred North Whitehead presses the same temporal mode axis in the metaphysical register, but with the value `process-primary` rather than `both-orthogonal` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: the disagreement with Alfred North Whitehead is at the temporal mode axis itself: `both-orthogonal` here, `process-primary` in [primary text](cite://whitehead/process-and-reality/1.2).
 
 - *śābdī bhāvanā* — what the optative suffix of the *vidhi* does to the hearer's intention; the motivating force the injunction exerts on the hearer prior to action.
 - *ārthī bhāvanā* — what the agent does in performing the enjoined act; the agent's volitional energy directed at the prescribed result.
@@ -75,7 +75,7 @@ The first-pass agent treated *bhāvanā* as a partial concession ("Hypothesis A 
 
 Yes. Two strands matter most.
 
-Cross-engagement: G. W. F. Hegel presses the same evolution register axis in the historical-genealogical register, but with the value `sublative-becoming` rather than `real-cosmological-evolution` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: G. W. F. Hegel ([primary text](cite://hegel/phenomenology-of-spirit/17)) and this section take opposite turns on the evolution register axis — `sublative-becoming` against `real-cosmological-evolution`.
 
 The first strand is Francis X. Clooney's late-career work. His 1990 monograph *Thinking Ritually: Rediscovering the Pūrva Mīmāṃsā of Jaimini* (De Nobili Research Series 17, Vienna) and his 2022 encyclopedia entry "Mīmāṃsā as Introspective Literature and as Philosophy" (in *Hinduism and Tribal Religions*, Springer Encyclopedia of Indian Religions, ed. Long et al., entry 1397) together mark the academic line on which Mīmāṃsā is read as a coherent reflective system whose practitioner's interior orientation is thematised by the school itself. **Neither work is in our corpus**; the engagement is via the title-thesis and known scholarly summary of placement in a major reference work, not via the book bodies. The depth-reading the user is proposing has, in this line, an established academic precedent.
 
@@ -87,7 +87,7 @@ A third, more diffuse strand: the late Frauwallner (*History of Indian Philosoph
 
 The Mīmāṃsakas do *not* externalize everything. They externalize the *referential reading of the ritual instrument* (Agni is the literal fire, soma is the literal pressed plant). They do *not* externalize the agent's volitional structure (*bhāvanā*), the agent's internal qualification (*adhikāra* in its *ātma-vṛtti* sense), the agent's self-luminous awareness (the implicit *triputī* doctrine), or the agent's binding to *niḥśreyasa* (Śabara's gloss on *artha* in MS 1.1.2). The interior is there. The interior is everywhere in the technical apparatus.
 
-Cross-engagement: Baladeva Vidyabhushana presses the same truth-structure axis in the epistemological register, but with the value `single-absolute-truth` rather than `hierarchical-standpoint-truth` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: same epistemological register, different commitments at the truth-structure axis. Baladeva Vidyabhushana: `single-absolute-truth`, [primary text](cite://badarayana/brahma-sutra/1.1.1). Here: `hierarchical-standpoint-truth`.
 
 What the Mīmāṃsakas *deny* is the Vedāntic move that subordinates the *karma-kāṇḍa* to a higher *jñāna-kāṇḍa*, treats the rite as a mere preparation for *jñāna*, or reads the ritual as a metaphor for an inner *upāsanā* that exists independently of the rite. They deny *that*. They do not deny that the rite has an interior. They insist that the rite *includes* its interior — the agent's bhāvanā, the agent's adhikāra, the agent's binding to niḥśreyasa — as constitutive moments of the rite itself. The rite *is* the internal-and-external operation taken together.
 
@@ -99,11 +99,11 @@ This reframing changes the verdict. The depth-reading does not need to *correct*
 
 ### 2.1 The structural claim
 
-Cross-engagement: Bhaktisiddhanta Saraswati presses the same motive force axis in the soteriological register, but with the value `devotion` rather than `bliss-or-delight` in [primary text](cite://mandana/brahma-siddhi/5.29). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: against Bhaktisiddhanta Saraswati: `bliss-or-delight` rather than `devotion` for the motive force axis ([primary text](cite://mandana/brahma-siddhi/5.29)).
 
 Sri Aurobindo's integral yoga is what original Mīmāṃsā was doing once the depth-reading is in play. This is the user's substantive thesis. It admits a precise structural defense.
 
-Cross-engagement: Anantakrishna Sastri presses the same practice-path axis in the soteriological register, but with the value `knowledge-discipline` rather than `transformative-integration` in [primary text](cite://sankara/brahma-sutra-bhasya/2.1.14). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: the disagreement with Anantakrishna Sastri is at the practice-path axis itself: `transformative-integration` here, `knowledge-discipline` in [primary text](cite://sankara/brahma-sutra-bhasya/2.1.14).
 
 The Mīmāṃsā framework involves four central operations:
 
@@ -125,7 +125,7 @@ The structural alignment is exact. The Mīmāṃsaka *codanā* is what Aurobindo
 
 Sureśvara's [*Naiṣkarmya-Siddhi* 1.51–1.70](cite://sureshvara/naishkarmya-siddhi/1.51-1.70) mounts the canonical Advaita argument that ritual is *intrinsically* incapable of liberation. Verse 1.67 (Alston tr. 1959): "The knowledge derived from Vedic revelation demolishes nescience in its form as modified into the factors necessary for action at a single stroke. Hence there can be no association between the two." Sureśvara's argument is that action presupposes the agent-object-action triad, which is itself a modification of *avidyā*; therefore action cannot cooperate with the *jñāna* that destroys *avidyā*; the rite is structurally incapable of producing the result the rite claims to produce.
 
-Cross-engagement: Appayya Dikshita presses the same soteric end axis in the soteriological register, but with the value `identity-with-ground` rather than `transformation-of-life` in [primary text](cite://mandana/brahma-siddhi/3.4). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: same soteriological register, different commitments at the soteric end axis. Appayya Dikshita: `identity-with-ground`, [primary text](cite://mandana/brahma-siddhi/3.4). Here: `transformation-of-life`.
 
 The first-pass investigation took Sureśvara's argument as decisive against the depth-reading. It is not. Sureśvara's argument lands against the *externalized* form of the rite — the rite read as a manipulation of bodies and substances by an agent who takes himself to be a separate metaphysical individual. Against *that* reading of the rite, Sureśvara is right: the externalized rite reinforces the very agent-object-action triad that *avidyā* generates, and so cannot dissolve it.
 

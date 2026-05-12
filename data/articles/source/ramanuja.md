@@ -8,35 +8,35 @@
 
 ### Life and historical placement
 
-Cross-engagement: Abhinavagupta presses the same substrate structure axis in the metaphysical register, but with the value `one-self-standing` rather than `one-qualified-by-real-internal-distinctions` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a real divergence with Abhinavagupta on the substrate structure axis. The metaphysical register is shared; the values are not — `one-qualified-by-real-internal-distinctions` here, `one-self-standing` at [primary text](cite://abhinavagupta/tantraloka/1.16).
 
 Rāmānujācārya (c. 1017–1137) stands between Śaṅkara and Madhva as the first great systematic Śrī-Vaiṣṇava Vedāntin. He inherits the Tamil–Sanskrit synthesis of the Āḻvārs, Nāthamuni, and Yāmunācārya, and turns the *Brahma-Sūtra* tradition into a rigorously Vaiṣṇava philosophical project.
 
-Cross-engagement: Adi Sankara presses the same manifestation status axis in the metaphysical register, but with the value `sublatable-not-null` rather than `dependent-real` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: against Adi Sankara: `dependent-real` rather than `sublatable-not-null` for the manifestation status axis ([primary text](cite://sankara/brahma-sutra-bhasya/1.1.1)).
 
 ### The six major works
 
 The core texts for this reader are the *Śrī-Bhāṣya* (especially the *saptavidhānupapatti* in 1.1.1), the *Vedārtha-Saṅgraha* (the clearest free-standing statement of *saviśeṣa* Brahman, *paryudāsa*, and *aprthak-siddhi*), and the *Gītā-Bhāṣya* (the body-soul reading of the *Gītā*). The shorter *Vedānta-Dīpa*, *Vedānta-Sāra*, and the three *Gadyas* complete the picture.
 
-Cross-engagement: Anandabodha presses the same identity relation axis in the metaphysical register, but with the value `non-otherness` rather than `body-soul-qualification` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Anandabodha ([primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352)) and this section take opposite turns on the identity relation axis — `non-otherness` against `body-soul-qualification`.
 
 ### Viśiṣṭādvaita — the doctrine in one sentence
 
 Rāmānuja's position can be stated in one line: one Brahman, intrinsically qualified by real modes (*cit* and *acit*), under the asymmetric mode-substance relation called *aprthak-siddha-viśeṣaṇa-viśeṣya-bhāva*. That is how he makes both *bheda* and *abheda* texts true at once: difference names real qualifications, non-difference names their inseparability from the one substance.
 
-Cross-engagement: Akalanka presses the same epistemic authority axis in the epistemological register, but with the value `plural-pramana-realism` rather than `scripture-dominant` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Akalanka's reading at [primary text](cite://umasvati/tattvartha-sutra/1.34-35) fills the epistemic authority axis with `plural-pramana-realism`. The present section fills it with `scripture-dominant`.
 
 ### Position within the post-Śaṅkara trajectory
 
 Rāmānuja is pivotal in the realist trajectory of Vedānta because he supplies both a sustained internal critique of Advaita's *avidyā* doctrine and a positive ontology able to preserve unity without erasing difference: *aprthak-siddhi*, the body-soul framework, and the *paryudāsa* reading of the *nirguṇa* texts.
 
-Cross-engagement: Anantakrishna Sastri presses the same truth-structure axis in the epistemological register, but with the value `hierarchical-standpoint-truth` rather than `single-absolute-truth` in [primary text](cite://sankara/brahma-sutra-bhasya/2.1.14). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Anantakrishna Sastri works the truth-structure axis in the epistemological register too, but the value is `hierarchical-standpoint-truth`, not `single-absolute-truth` ([primary text](cite://sankara/brahma-sutra-bhasya/2.1.14)).
 
 ### Minimal glossary
 
 **aprthak-siddhi** — inseparable establishment; a mode cannot exist apart from its substance.
 
-Cross-engagement: G. W. F. Hegel presses the same normativity axis in the ethical register, but with the value `ethical-life-in-institutions` rather than `divine-command-or-grace` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a real divergence with G. W. F. Hegel on the normativity axis. The ethical register is shared; the values are not — `divine-command-or-grace` here, `ethical-life-in-institutions` at [primary text](cite://hegel/phenomenology-of-spirit/17).
 
 **prakāra / prakārin** — mode / mode-bearer; the structural pair underpinning *aprthak-siddhi*.
 
@@ -54,7 +54,7 @@ Cross-engagement: G. W. F. Hegel presses the same normativity axis in the ethica
 
 Part I gives the seven *anupapattis* with premise → inference → conclusion. Part II gives the positive ontology of *aprthak-siddhi* and *śarīra-śarīrī-bhāva*. Part III treats the *Vedārtha-Saṅgraha* on *saviśeṣa* Brahman and *paryudāsa*. Part IV samples the *Gītā-Bhāṣya*. Part V differentiates Rāmānuja from Śaṅkara, Bhāskara, Madhva, and Caitanya. Part VI closes with a compact assessment.
 
-Cross-engagement: Akshapada Gautama presses the same practice-path axis in the soteriological register, but with the value `knowledge-discipline` rather than `devotion-and-grace` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: the disagreement with Akshapada Gautama is at the practice-path axis itself: `devotion-and-grace` here, `knowledge-discipline` in [primary text](cite://aksapada/nyaya-sutra/1.1.1).
 
 ---
 
@@ -78,7 +78,7 @@ The question is genuinely posed; the *Mahāsiddhānta* is the answer that *nirvi
 
 *Where does avidyā reside?* The opening claim of this section is that the substrate of *avidyā* would have to be either the *jīva* or Brahman, yet both options fail: the former by circularity, the latter by contradiction with Brahman's pure consciousness.
 
-Cross-engagement: Alfred North Whitehead presses the same soteric end axis in the soteriological register, but with the value `not-soteriological` rather than `service-with-distinction-preserved` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: the disagreement with Alfred North Whitehead is at the soteric end axis itself: `service-with-distinction-preserved` here, `not-soteriological` in [primary text](cite://whitehead/process-and-reality/1.2).
 
 (Sanskrit reconstructed from Thibaut SBE 48 pp. 26–35 and Lipner *Face of Truth* pp. 34–37; the structural argument is uncontroversial in the secondary literature, the exact verbal form should be cross-checked against the Karmarkar edition.)
 
@@ -104,7 +104,7 @@ Appeals to *anādi* also miss the point. Beginninglessness is a temporal claim; 
 
 *What does avidyā conceal? How?* Rāmānuja's point here is that if featureless consciousness is said to be concealed, one must still name what exactly is being concealed, and that cannot be done without reintroducing distinguishing content into what was supposed to be without distinction.
 
-Cross-engagement: Baladeva Vidyabhushana presses the same causation model axis in the metaphysical register, but with the value `unchanged-ground-with-changing-power` rather than `body-soul-causation` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: the disagreement with Baladeva Vidyabhushana is at the causation model axis itself: `body-soul-causation` here, `unchanged-ground-with-changing-power` in [primary text](cite://badarayana/brahma-sutra/1.1.1).
 
 (Reconstructed from Raghavachar 1956 commentary on the *Mahāsiddhānta*, pp. 22–28.)
 
@@ -130,7 +130,7 @@ This is already continuous with the later *paryudāsa* hermeneutic. If *neti net
 
 *What is the intrinsic nature of avidyā?*
 
-Cross-engagement: Bannanje Govindacharya presses the same individuation status axis in the metaphysical register, but with the value `irreducible-dependent` rather than `qualified-mode` in [primary text](cite://madhva/tattva-sankhyana/1-4). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: on the individuation status axis, Bannanje Govindacharya commits to `irreducible-dependent` where this section commits to `qualified-mode` ([primary text](cite://madhva/tattva-sankhyana/1-4)).
 
 Rāmānuja's verdict here is that the alleged status of being neither real nor unreal cannot be established either in experience or in scripture.
 

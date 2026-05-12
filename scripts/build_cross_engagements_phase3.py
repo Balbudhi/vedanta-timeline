@@ -191,28 +191,109 @@ def relation(entry):
     return "disagrees"
 
 
+import hashlib as _hashlib
+
+# Rotated cross-engagement templates. Five variants per relation type, picked
+# deterministically by hashing the data slots. The variants share the same
+# data fields and the same load-bearing claim; they vary only the sentence
+# shape and discourse vocabulary, to keep the surrounding prose from reading
+# as a 30-token boilerplate the way the prior single-template form did.
+
+_AGREES_VARIANTS = [
+    "Cross-engagement: {name} settles on `{value}` for the {axis} axis at {cite}.",
+    "Cross-engagement: on the {axis} axis the agreement with {name} is precise. {name} fixes `{value}` at {cite}.",
+    "Cross-engagement: a narrow point of contact with {name} — `{value}` shared on the {axis} axis at {cite}.",
+    "Cross-engagement: {name} reads the {axis} axis as `{value}` in the {register} register; see {cite}.",
+    "Cross-engagement: on this one axis ({axis}) {name} arrives at `{value}` ({cite}).",
+    "Cross-engagement: at the {axis} axis the two texts coincide; {name} treats it as `{value}` at {cite}.",
+    "Cross-engagement: same value at the {axis} axis — {name} arrives at `{value}` from a different direction in {cite}, with the {register}-register reading lining up at the joint.",
+    "Cross-engagement: this section and {name} land at the same point on the {axis} axis ({cite}, `{value}`).",
+    "Cross-engagement: {name}'s {register}-register treatment of the {axis} axis settles on `{value}` at {cite}, the same value taken up here.",
+    "Cross-engagement: both texts read the {axis} axis as `{value}` ({cite}, {name}).",
+    "Cross-engagement: agreement with {name} restricted to the {axis} axis: `{value}` in the {register} register at {cite}.",
+    "Cross-engagement: shared commitment at the {axis} axis. {name} commits to `{value}` in {cite}.",
+    "Cross-engagement: {name} ({cite}) takes the {axis} axis the same way: `{value}`, {register} register.",
+    "Cross-engagement: across architectures, one shared joint. {name} and the present section both treat the {axis} axis as `{value}` ({cite}).",
+    "Cross-engagement: on the {axis} axis the present section meets {name}'s reading at {cite}, with `{value}` as the operative commitment.",
+]
+
+_DISAGREES_VARIANTS = [
+    "Cross-engagement: {name} works the {axis} axis in the {register} register too, but the value is `{target_value}`, not `{source_value}` ({cite}).",
+    "Cross-engagement: on the {axis} axis, {name} commits to `{target_value}` where this section commits to `{source_value}` ({cite}).",
+    "Cross-engagement: {name} ({cite}) treats the {axis} axis in the {register} register with the value `{target_value}`. The present section reads it as `{source_value}`.",
+    "Cross-engagement: a substantive disagreement with {name} on the {axis} axis — `{target_value}` ({cite}) against the present `{source_value}`.",
+    "Cross-engagement: {name} lands on `{target_value}` for the {axis} axis ({cite}); this section lands on `{source_value}`.",
+    "Cross-engagement: the disagreement with {name} is at the {axis} axis itself: `{source_value}` here, `{target_value}` in {cite}.",
+    "Cross-engagement: on the {axis} axis {name} reads `{target_value}` ({cite}); the present section reads `{source_value}`.",
+    "Cross-engagement: {name} takes the {axis} axis to a different commitment — `{target_value}` at {cite} against `{source_value}` here.",
+    "Cross-engagement: a real divergence with {name} on the {axis} axis. The {register} register is shared; the values are not — `{source_value}` here, `{target_value}` at {cite}.",
+    "Cross-engagement: at the {axis} axis the two texts choose differently. {name} ({cite}) commits to `{target_value}`; this section commits to `{source_value}`.",
+    "Cross-engagement: {name} ({cite}) and this section take opposite turns on the {axis} axis — `{target_value}` against `{source_value}`.",
+    "Cross-engagement: same {register} register, different commitments at the {axis} axis. {name}: `{target_value}`, {cite}. Here: `{source_value}`.",
+    "Cross-engagement: against {name}: `{source_value}` rather than `{target_value}` for the {axis} axis ({cite}).",
+    "Cross-engagement: {name}'s reading at {cite} fills the {axis} axis with `{target_value}`. The present section fills it with `{source_value}`.",
+    "Cross-engagement: divergence at the {axis} axis. The present commitment is `{source_value}`; {name}'s is `{target_value}` ({cite}).",
+]
+
+_TRANSPOSES_VARIANTS = [
+    "Cross-engagement: {name} works the same {axis} axis but in a different register. Here: `{source_value}` in the {source_register} register; {name}: {target_register} register at {cite}.",
+    "Cross-engagement: the {axis} axis appears in both texts in different registers. This section: `{source_value}`, {source_register} register. {name}: {target_register} register, {cite}.",
+    "Cross-engagement: {name} treats the {axis} axis from the {target_register} register ({cite}); the present section is in the {source_register} register with `{source_value}`.",
+    "Cross-engagement: same axis ({axis}), different registers — `{source_value}` in the {source_register} register here, {target_register} register in {cite}.",
+    "Cross-engagement: this section places the {axis} axis in the {source_register} register with `{source_value}`; {name} places it in the {target_register} register at {cite}.",
+    "Cross-engagement: register-shifted contact with {name}. The {axis} axis is shared; the {source_register} reading (`{source_value}`) here and the {target_register} reading in {cite} are not interchangeable.",
+    "Cross-engagement: {name} works the {axis} axis from the {target_register} side ({cite}); this section from the {source_register} side with `{source_value}`.",
+    "Cross-engagement: the {axis} axis bridges two registers — {source_register} (`{source_value}`) here, {target_register} in {cite} ({name}).",
+    "Cross-engagement: register-shift across the {axis} axis. Here: {source_register}, `{source_value}`. There: {name}, {target_register}, {cite}.",
+    "Cross-engagement: {name} touches the {axis} axis from the {target_register} register at {cite}; the present section from the {source_register} register with `{source_value}`.",
+    "Cross-engagement: {name}'s {target_register}-register treatment ({cite}) cuts the {axis} axis differently from this section's {source_register}-register `{source_value}`.",
+    "Cross-engagement: a cross-register comparison with {name}. {axis} axis, {source_register} register, `{source_value}` here; {target_register} register at {cite}.",
+    "Cross-engagement: {name} ({cite}) and this section meet on the {axis} axis from different sides — {target_register} register against {source_register} register, with `{source_value}` as this section's commitment.",
+    "Cross-engagement: the {axis} axis surfaces here in the {source_register} register as `{source_value}`; {name} works it from the {target_register} register at {cite}.",
+    "Cross-engagement: register-asymmetric agreement on the {axis} axis. {name} approaches it through the {target_register} register ({cite}); this section through the {source_register} register with `{source_value}`.",
+]
+
+
+def _variant_index(key: str, n: int) -> int:
+    return _hashlib.sha1(key.encode("utf-8")).digest()[0] % n
+
+
 def make_paragraph(entry):
     target = entry["target"]
     axis = PRIMITIVE_LABELS.get(entry["primitive"], entry["primitive"])
     rel = relation(entry)
     cite = f"[primary text]({target['primary']})"
     if rel == "agrees":
-        return (
-            f"Cross-engagement: {target['name']} works the same {axis} axis in the {entry['register']} register. "
-            f"Here the operative value is `{entry['source_value']}`; {target['name']} lands on that same value in "
-            f"{cite}. The convergence is narrow rather than total: the shared primitive is real, but the wider doctrine still travels under a different architecture."
+        key = f"agrees|{target['name']}|{axis}|{entry['register']}|{entry['source_value']}|{cite}"
+        tpl = _AGREES_VARIANTS[_variant_index(key, len(_AGREES_VARIANTS))]
+        return tpl.format(
+            name=target["name"], axis=axis,
+            register=entry["register"], value=entry["source_value"], cite=cite,
         )
     if rel == "transposes-register":
-        return (
-            f"Cross-engagement: {target['name']} touches the same {axis} axis, but not in the same register. "
-            f"This section works it as `{entry['source_value']}` in the {entry['register']} register; "
-            f"{target['name']} approaches it through the {target['register']} register in {cite}. "
-            f"The point of contact is genuine, but the comparison only holds once the register-shift is kept visible."
+        key = (
+            f"transposes|{target['name']}|{axis}|{entry['source_value']}|"
+            f"{entry['register']}|{target['register']}|{cite}"
         )
-    return (
-        f"Cross-engagement: {target['name']} presses the same {axis} axis in the {entry['register']} register, "
-        f"but with the value `{target['value']}` rather than `{entry['source_value']}` in {cite}. "
-        f"The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way."
+        tpl = _TRANSPOSES_VARIANTS[_variant_index(key, len(_TRANSPOSES_VARIANTS))]
+        return tpl.format(
+            name=target["name"], axis=axis,
+            source_value=entry["source_value"],
+            source_register=entry["register"],
+            target_register=target["register"],
+            cite=cite,
+        )
+    key = (
+        f"disagrees|{target['name']}|{axis}|{entry['register']}|"
+        f"{target['value']}|{entry['source_value']}|{cite}"
+    )
+    tpl = _DISAGREES_VARIANTS[_variant_index(key, len(_DISAGREES_VARIANTS))]
+    return tpl.format(
+        name=target["name"], axis=axis,
+        register=entry["register"],
+        target_value=target["value"],
+        source_value=entry["source_value"],
+        cite=cite,
     )
 
 

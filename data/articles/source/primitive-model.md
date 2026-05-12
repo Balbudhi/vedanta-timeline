@@ -4,7 +4,7 @@
 
 A compact analytic framework. Grant a small number of structural primitives — each a precisely-defined axis with a small range of values — and from each consistent assignment derive a Vedāntic school's position. The point is not to flatten the schools but to make their actual structure visible, so that the difference between two schools is exhibited as a small, named delta in primitive-space rather than as an unanalyzable doctrinal incommensurability.
 
-Cross-engagement: Akalanka presses the same substrate structure axis in the metaphysical register, but with the value `many-coordinate-reals` rather than `one-self-standing` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: at the substrate structure axis the two texts choose differently. Akalanka ([primary text](cite://umasvati/tattvartha-sutra/1.34-35)) commits to `many-coordinate-reals`; this section commits to `one-self-standing`.
 
 This document is the analytic complement to `COMPARATIVE_CLAIMS_FRAMEWORK.md`. The four-verdict schema there asks *what kind of disagreement is this?*; the primitive model here asks *what is the minimal world-model difference that produces this disagreement?* A pair of schools that share every primitive value except one cannot be in incommensurable disagreement; a pair that diverges on five primitives may be.
 
@@ -16,12 +16,12 @@ The model operates under the project's hard constraints. *Mithyā ≠ asat*: the
 
 Nine axes, each with a small enumerated range. A school's position is, to first order, a tuple in the product space of these axes. (Genuine sub-school variation is captured by allowing two or more thinkers within a school to assign different values on a contested axis — e.g., Bhāmatī vs Vivaraṇa on `locus_of_avidya`.)
 
-Cross-engagement: Abhinavagupta presses the same manifestation status axis in the metaphysical register, but with the value `expressive-manifestation` rather than `sublatable-not-null` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: against Abhinavagupta: `sublatable-not-null` rather than `expressive-manifestation` for the manifestation status axis ([primary text](cite://abhinavagupta/tantraloka/1.16)).
 
 ### P1. `substrate_structure`
 *How many fundamental substances and in what dependence-relation?*
 
-Cross-engagement: Arthur Schopenhauer presses the same identity relation axis in the metaphysical register, but with the value `self-expression-or-appearance` rather than `non-otherness` in [primary text](cite://schopenhauer/the-world-as-will-and-representation/1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Arthur Schopenhauer takes the identity relation axis to a different commitment — `self-expression-or-appearance` at [primary text](cite://schopenhauer/the-world-as-will-and-representation/1.1) against `non-otherness` here.
 
 Range:
 - `one-substance` — exactly one ontological substrate; everything that exists is either identical with it or a mode/appearance/transformation of it. (Advaita, Śuddhādvaita, Avibhāga-advaita, Pratyabhijñā.)
@@ -32,7 +32,7 @@ Range:
 ### P2. `mode_status`
 *What is the ontological status of the world and finite selves qua not-being-the-substrate?*
 
-Cross-engagement: Akshapada Gautama presses the same selfhood structure axis in the phenomenological register, but with the value `substantial-self` rather than `witness-self` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Akshapada Gautama takes the selfhood structure axis to a different commitment — `substantial-self` at [primary text](cite://aksapada/nyaya-sutra/1.1.1) against `witness-self` here.
 
 Range:
 - `real-dependent-mode` — modes are fully real, their reality consisting in their dependence on the substrate. (Viśiṣṭādvaita; Madhva on *paratantra*; Vallabha on *jagat*.)
@@ -44,7 +44,7 @@ Range:
 ### P3. `identity_relation_jiva_brahman`
 *What is the relation between the individual self and the supreme reality?*
 
-Cross-engagement: Anandabodha presses the same finite cognition axis in the epistemological register, but with the value `positive-ignorance` rather than `adhyasa-or-superimposition` in [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Anandabodha's reading at [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352) fills the finite cognition axis with `positive-ignorance`. The present section fills it with `adhyasa-or-superimposition`.
 
 Range:
 - `numerical-identity` — the *jīva* is, on final analysis, numerically identical with Brahman; apparent multiplicity is *upādhi*-conditioned. (Advaita: the *sākṣin/kūṭastha* IS Brahman.)
@@ -57,7 +57,7 @@ Range:
 ### P4. `causation_substrate_to_world`
 *What kind of causal relation holds between Brahman and the world?*
 
-Cross-engagement: Ayon Maharaj presses the same epistemic authority axis in the epistemological register, but with the value `comparative-theological-reading` rather than `scripture-dominant` in [primary text](cite://maharaj/infinite-paths-to-infinite-reality/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: on the epistemic authority axis Ayon Maharaj reads `comparative-theological-reading` ([primary text](cite://maharaj/infinite-paths-to-infinite-reality/1)); the present section reads `scripture-dominant`.
 
 Range:
 - `vivarta` — apparent transformation; substrate is unchanged, world is its appearance. (Classical Advaita post-Maṇḍana; Sureśvara, Vivaraṇa.)
@@ -71,7 +71,7 @@ Range:
 ### P5. `locus_of_avidya`
 *Where does ignorance reside, and what is its ontological status?* (Applies primarily to schools admitting *avidyā*; for schools that don't, this axis is `n/a` and the school is identified by that fact.)
 
-Cross-engagement: Baladeva Vidyabhushana presses the same truth-structure axis in the epistemological register, but with the value `single-absolute-truth` rather than `hierarchical-standpoint-truth` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: same epistemological register, different commitments at the truth-structure axis. Baladeva Vidyabhushana: `single-absolute-truth`, [primary text](cite://badarayana/brahma-sutra/1.1.1). Here: `hierarchical-standpoint-truth`.
 
 Range:
 - `brahman-as-locus` — *avidyā* has Brahman as its locus, with Brahman as both locus (*āśraya*) and content (*viṣaya*) under different aspects. (Vivaraṇa: Prakāśātman, Sarvajñātman.)
@@ -83,7 +83,7 @@ Range:
 ### P6. `bheda_count`
 *How many irreducible differences (*bheda*) does the school treat as real-at-the-final-level?*
 
-Cross-engagement: Bannanje Govindacharya presses the same practice-path axis in the soteriological register, but with the value `devotion-and-grace` rather than `knowledge-discipline` in [primary text](cite://madhva/tattva-sankhyana/1-4). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Bannanje Govindacharya lands on `devotion-and-grace` for the practice-path axis ([primary text](cite://madhva/tattva-sankhyana/1-4)); this section lands on `knowledge-discipline`.
 
 Range:
 - `0` — no *bheda* is real; all difference is *vyāvahārika*. (Advaita.)
@@ -94,7 +94,7 @@ Range:
 ### P7. `epistemic_authority_structure`
 *What is the *pramāṇa* hierarchy and the role of immediate experience?*
 
-Cross-engagement: Alfred North Whitehead presses the same soteric end axis in the soteriological register, but with the value `not-soteriological` rather than `identity-with-ground` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: same soteriological register, different commitments at the soteric end axis. Alfred North Whitehead: `not-soteriological`, [primary text](cite://whitehead/process-and-reality/1.2). Here: `identity-with-ground`.
 
 Range:
 - `sruti-supreme-with-anubhava-confirming` — *śruti* is the sole source of supra-empirical truth; *anubhava* (immediate experience) confirms it but is not an independent *pramāṇa* for Brahman-knowledge. (Śaṅkara, classical Advaita.)

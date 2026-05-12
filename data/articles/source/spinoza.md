@@ -8,11 +8,11 @@
 
 ### Bio: lens-grinder of The Hague
 
-Cross-engagement: Akalanka presses the same substrate structure axis in the metaphysical register, but with the value `many-coordinate-reals` rather than `one-self-standing` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: at the substrate structure axis the two texts choose differently. Akalanka ([primary text](cite://umasvati/tattvartha-sutra/1.34-35)) commits to `many-coordinate-reals`; this section commits to `one-self-standing`.
 
 Baruch Spinoza was born in Amsterdam on **24 November 1632**, into the Sephardic *Nação* that had fled the Iberian Inquisitions. Educated in the *Talmud Torah* school of the Portuguese Synagogue (Hebrew Bible, Maimonides, Crescas, ibn Ezra, Gersonides), then in Latin under the ex-Jesuit Franciscus van den Enden (c. 1654), he absorbed Descartes, Hobbes, the late Scholastics, and the Collegiant-Mennonite-Quaker sectarians who became his closest friends.
 
-Cross-engagement: Abhinavagupta presses the same manifestation status axis in the metaphysical register, but with the value `expressive-manifestation` rather than `dependent-real` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a substantive disagreement with Abhinavagupta on the manifestation status axis — `expressive-manifestation` ([primary text](cite://abhinavagupta/tantraloka/1.16)) against the present `dependent-real`.
 
 In **July 1656**, at 23, the synagogue council pronounced against him the harshest *cherem* in the surviving Amsterdam register — excommunication, anathema, prohibition on contact within four cubits or on reading his writings. The *cherem* document does not list the doctrines, but the surrounding evidence (Juan de Prado, the Inquisitor Solano y Robles, the lost *Apologia*) converges on his already-formed conviction that scripture is a human document, the soul not separately immortal, and "God" not the personal creator of the *Tanakh*. The Amsterdam *Nação*, a recently-emancipated diaspora on the sufferance of the Calvinist States, had its own reasons for severity.
 
@@ -22,7 +22,7 @@ Spinoza did not contest. He took the Latinized name *Benedictus*, lived as a len
 
 Six titles, in approximate compositional order:
 
-Cross-engagement: Adi Sankara presses the same identity relation axis in the metaphysical register, but with the value `non-otherness` rather than `self-expression-or-appearance` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Adi Sankara lands on `non-otherness` for the identity relation axis ([primary text](cite://sankara/brahma-sutra-bhasya/1.1.1)); this section lands on `self-expression-or-appearance`.
 
 **1. *Tractatus de Intellectus Emendatione*** (TIE, c. 1661, unfinished). The methodological clearing: the young Spinoza thinks his way out of the *bona fortuna* of wealth, fame, and pleasure into the search for the *summum bonum* — union of mind with nature. Autobiographical preface to the *Ethica* in everything but name.
 
@@ -42,7 +42,7 @@ Of the seventy-eight surviving letters, two are decisive for our reading: Letter
 
 Within the *Ethica*, three structures bear the weight of everything else.
 
-Cross-engagement: Alfred North Whitehead presses the same temporal mode axis in the metaphysical register, but with the value `process-primary` rather than `substance-primary` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Alfred North Whitehead lands on `process-primary` for the temporal mode axis ([primary text](cite://whitehead/process-and-reality/1.2)); this section lands on `substance-primary`.
 
 **(i) Substance / attribute / mode.** Pars I builds the architecture: substance is one (Prop. 14); attributes are infinite, each expressing the whole essence under its own form (Def. IV, Prop. 10 schol.); modes are affections of attributes (Def. V), and the totality of modes is *natura naturata* (Prop. 29 schol.). This is the Western articulation of one-Real-said-in-many-senses — structural ancestor of Deleuze's univocity and of *acintya-bhedābheda*.
 
@@ -54,7 +54,7 @@ Cross-engagement: Alfred North Whitehead presses the same temporal mode axis in 
 
 **(a) Necessitarianism rules out *līlā*.** Spinoza's God acts *ex solis suæ naturæ legibus* (E1p17); E1p33 closes the modal margin entirely. The *svātantrya* of Trika is unsayable in Spinoza's grammar by Def. VII alone.
 
-Cross-engagement: Akshapada Gautama presses the same soteric end axis in the soteriological register, but with the value `isolation-or-discriminative-release` rather than `not-soteriological` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a real divergence with Akshapada Gautama on the soteric end axis. The soteriological register is shared; the values are not — `not-soteriological` here, `isolation-or-discriminative-release` at [primary text](cite://aksapada/nyaya-sutra/1.1.1).
 
 **(b) *Deus sive Natura* is too tight.** Pars IV Praefatio's *Deum, seu Naturam* is convertibility, not perspectival distinction. Brahman is not nature *simpliciter*; manifestation is the play of *svātantrya*; the distinction between Saccidānanda-as-such and manifestation is the room for *līlā*. Spinoza closes that distinction.
 
@@ -64,7 +64,7 @@ Cross-engagement: Akshapada Gautama presses the same soteric end axis in the sot
 
 The third divergence is most softened by recent scholarship. **Don Garrett** (NYU), in *Nature and Necessity in Spinoza's Philosophy* (OUP 2018) and "Spinoza's Conatus Argument" (2002), has been recovering — against the Hegelian shadow — a Spinoza in whom finite modes are not absorbed into substance but enjoy real individuation. Hegel's "acosmism" is a misdiagnosis. The *conatus* doctrine (E3p6–7) is the doctrine of real individuality; modes are *quasi-substances*. We give Garrett substantial space, with a further section on Melamed (Hopkins), Della Rocca (Yale), and Macherey (Lille).
 
-Cross-engagement: Baladeva Vidyabhushana presses the same causation model axis in the metaphysical register, but with the value `unchanged-ground-with-changing-power` rather than `immanent-expression` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a substantive disagreement with Baladeva Vidyabhushana on the causation model axis — `unchanged-ground-with-changing-power` ([primary text](cite://badarayana/brahma-sutra/1.1.1)) against the present `immanent-expression`.
 
 ### The surrounding texts that matter for this project
 

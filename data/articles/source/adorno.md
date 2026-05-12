@@ -8,29 +8,29 @@
 
 ### Biographical arc
 
-Cross-engagement: Karl Marx works the same finite cognition axis in the political-social register. Here the operative value is `genealogically-produced-illusion`; Karl Marx lands on that same value in [primary text](cite://marx/capital/1.4). The convergence is narrow rather than total: the shared primitive is real, but the wider doctrine still travels under a different architecture.
+Cross-engagement: on the finite cognition axis the present section meets Karl Marx's reading at [primary text](cite://marx/capital/1.4), with `genealogically-produced-illusion` as the operative commitment.
 
 Theodor Wiesengrund-Adorno (Frankfurt, 1903 – Visp, 1969) was raised in a household combining assimilated Jewish bourgeoisie and Catholic vocal culture; piano with his aunt Agathe, Kant on Saturdays with Kracauer. He matriculated at Frankfurt in 1921 (doctorate on Husserl, 1924, under Cornelius), then to Vienna 1925 for composition with Berg and piano with Steuermann; encounters with Schoenberg and Karl Kraus. *Habilitation* on Kierkegaard's aesthetic (1931, under Tillich); inaugural lecture *Die Aktualität der Philosophie* (1931) already announces the program: philosophy after the collapse of Idealist systems must read its objects as *constellations* rather than deduce them from a principle. *Venia legendi* revoked 1933; Oxford 1934–37; New York 1938; Pacific Palisades 1941–49, where with Horkheimer he wrote *Dialektik der Aufklärung* (1944/47) and the aphorisms that became *Minima Moralia* (1951). Returned to Frankfurt 1949, succeeded Horkheimer as Institute director 1958. Late: *Negative Dialektik* (1966), *Ästhetische Theorie* (posthumous, 1970). Died of heart attack 1969, months after the SDS-aligned student left occupied the Institute.
 
-Cross-engagement: Akshapada Gautama presses the same method axis in the methodological register, but with the value `formal-proof-or-inference` rather than `dialectical-development` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a real divergence with Akshapada Gautama on the method axis. The methodological register is shared; the values are not — `dialectical-development` here, `formal-proof-or-inference` at [primary text](cite://aksapada/nyaya-sutra/1.1.1).
 
 ### Frankfurt School arc
 
 The arc that matters for this Reader: Lukács's *Geschichte und Klassenbewußtsein* (*Verdinglichung*) → Horkheimer's *Traditionelle und kritische Theorie* (1937) → *Dialektik der Aufklärung* → *Negative Dialektik*. The shift to keep clear is between 1937 and 1944. Horkheimer's 1937 essay still imagines a critical theory locatable at the standpoint of an emancipatory historical subject. By 1944 that confidence is gone. The Soviet betrayal, the Holocaust, the smooth functioning of the American culture industry persuade Adorno and Horkheimer that the dialectic of history has produced no liberatory subject. What is left is the *Bestimmte Negation* of the existing — *Dialektik ist konsequentes Bewußtsein der Nichtidentität*. The diagnosis no longer issues in a positive program; it issues in vigilance.
 
-Cross-engagement: Judith Butler presses the same normativity axis in the political-social register, but with the value `disciplinary-power` rather than `class-structured-social-relation` in [primary text](cite://butler/gender-trouble/3). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: divergence at the normativity axis. The present commitment is `class-structured-social-relation`; Judith Butler's is `disciplinary-power` ([primary text](cite://butler/gender-trouble/3)).
 
 ### The relation to Hegel: *das Ganze ist das Unwahre*
 
 Adorno's most famous sentence, *Minima Moralia* §29, inverts Hegel's *Phänomenologie* Preface: *Das Wahre ist das Ganze* → *Das Ganze ist das Unwahre*. Hegel: the truth of any partial moment is its place in the self-articulating whole. Adorno: under capitalism, fascism, the culture industry, administered life, the totality has become a *Verblendungszusammenhang*, a coherence of delusion. Each moment lies because each moment fits. To tell the truth one must refuse to fit. Truth becomes the figure of the splinter, the leftover, the *Nichtidentische* the system has not yet absorbed. Adorno does not reject the dialectic; he rejects only the *positive* moment, the *Aufhebung* that resolves contradiction into higher unity.
 
-Cross-engagement: G. W. F. Hegel presses the same social formation axis in the political-social register, but with the value `recognitive-institutional` rather than `commodity-fetish-social-form` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: G. W. F. Hegel's reading at [primary text](cite://hegel/phenomenology-of-spirit/17) fills the social formation axis with `recognitive-institutional`. The present section fills it with `commodity-fetish-social-form`.
 
 ### The user's interest: the strongest critic of Hegelian totalization
 
 The user's polemic against Hegel charges *Aufhebung* as a violence of unification: each difference admitted only on condition of being sublated into a higher identity; the non-identical *jīva* has standing only as a *Moment* on the way to *Geist*. Adorno makes the easy settlement of this polemic impossible: he is the strongest critic of Hegelian totalization who reads Hegel from inside, with full technical respect, and arrives — by Hegel's own dialectical means — at the thesis that *Identitätsdenken* is the violence Hegel's system performs at the level of theory and capitalist society performs at the level of practice. Adorno is therefore not the user's ally but the harder target.
 
-Cross-engagement: Abhinavagupta works the same motive force axis in the aesthetic register. Here the operative value is `aesthetic-rapture`; Abhinavagupta lands on that same value in [primary text](cite://abhinavagupta/tantraloka/1.16). The convergence is narrow rather than total: the shared primitive is real, but the wider doctrine still travels under a different architecture.
+Cross-engagement: this section and Abhinavagupta land at the same point on the motive force axis ([primary text](cite://abhinavagupta/tantraloka/1.16), `aesthetic-rapture`).
 
 Two specifics. First, the *Meditationen zur Metaphysik* tie *Identitätsdenken* to the actual extermination of those reduced to *Exemplare* of a category: pure identity confirmed as death; poems after Auschwitz barbaric; all post-Auschwitz culture *Müll* unless it grasps its complicity. The user's thesis — *līlā*, divine self-veiling, purpose-free action — has to answer to this thread, not bypass it. Second, Adorno's positive horizon, *Versöhnung* that *liberates the non-identical*, sounds like something the user could endorse — but Adorno rules out, by *Bilderverbot*, any positive *image* of that reconciled state. The user's thesis, by contrast, has positive content (Saccidānanda, *līlā*, supramental as actual ontological register). That is exactly where the line falls.
 
@@ -48,7 +48,7 @@ Two specifics. First, the *Meditationen zur Metaphysik* tie *Identitätsdenken* 
 - *Verdinglichung*. "Reification." Lukács's term, taken over: the appearance of human relations as relations between things. Adorno generalizes it: the consciousness that takes its categories as natural facts is reified consciousness.
 - *Versöhnung*. "Reconciliation." The negative-dialectical horizon: a state in which the non-identical would be released from the spell of identity. Permitted only as the negation of the existing; never as a positive image.
 
-Cross-engagement: Adi Sankara touches the same soteric end axis, but not in the same register. This section works it as `ethical-vigilance-without-final-fusion` in the ethical register; Adi Sankara approaches it through the soteriological register in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The point of contact is genuine, but the comparison only holds once the register-shift is kept visible.
+Cross-engagement: Adi Sankara touches the soteric end axis from the soteriological register at [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1); the present section from the ethical register with `ethical-vigilance-without-final-fusion`.
 
 ---
 

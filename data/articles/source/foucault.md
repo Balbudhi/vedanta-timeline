@@ -10,11 +10,11 @@ The brief follows Foucault's own self-periodization, not the standard textbook f
 
 ### Life and arc
 
-Cross-engagement: Karl Marx works the same manifestation status axis in the political-social register. Here the operative value is `socially-or-discursively-stabilized`; Karl Marx lands on that same value in [primary text](cite://marx/capital/1.4). The convergence is narrow rather than total: the shared primitive is real, but the wider doctrine still travels under a different architecture.
+Cross-engagement: same value at the manifestation status axis — Karl Marx arrives at `socially-or-discursively-stabilized` from a different direction in [primary text](cite://marx/capital/1.4), with the political-social-register reading lining up at the joint.
 
 Paul-Michel Foucault was born in Poitiers in 1926, into a provincial bourgeois family of physicians; he died in Paris on 25 June 1984, of complications of AIDS, the first major French intellectual to do so publicly. Between those years he produced a body of work that, more than any other twentieth-century French philosopher except perhaps Deleuze, restructured the international Anglophone reception of "theory" — and produced, in passing, the conceptual furniture (*disciplinary power, biopower, panopticism, discourse, the deployment of sexuality, the care of the self*) on which most contemporary social thought now relies whether it knows it or not.
 
-Cross-engagement: Abhinavagupta presses the same selfhood structure axis in the phenomenological register, but with the value `relational-self` rather than `split-or-produced-subject` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: divergence at the selfhood structure axis. The present commitment is `split-or-produced-subject`; Abhinavagupta's is `relational-self` ([primary text](cite://abhinavagupta/tantraloka/1.16)).
 
 Foucault himself, in the 1983-84 retrospective texts, divided the work into three axes, corresponding to three "modes of objectification" of the human subject: the *axe du savoir* (knowledge), the *axe du pouvoir* (power), and the *axe de l'éthique* (ethics — the relation of the self to itself). In strict chronology these are sequential phases; in Foucault's own re-description they are co-implicated angles on a single question. Both framings are useful, and this brief uses them in conjunction: chronological order gives the texture of the development, but the three-axis self-periodization is what Foucault eventually said the work had been about.
 
@@ -30,7 +30,7 @@ It must be said at the outset, because the standard Anglophone reception persist
 
 Across the three axes one question runs continuously, and Foucault said so: *what are the historically specific conditions under which something appears as true, as known, as a possible object of inquiry, and as a possible kind of subject?* The archaeological axis answers in terms of the *épistémè* and the rules of formation of statements; the genealogical in terms of power as the immanent condition for the production of subjects and objects of knowledge; the ethical in terms of *pratiques de soi* as the partly free work by which a subject constitutes itself within and against the historical field. The vocabulary changes; the question is one.
 
-Cross-engagement: Theodor W. Adorno works the same finite cognition axis in the political-social register. Here the operative value is `genealogically-produced-illusion`; Theodor W. Adorno lands on that same value in [primary text](cite://adorno/negative-dialectics/2). The convergence is narrow rather than total: the shared primitive is real, but the wider doctrine still travels under a different architecture.
+Cross-engagement: across architectures, one shared joint. Theodor W. Adorno and the present section both treat the finite cognition axis as `genealogically-produced-illusion` ([primary text](cite://adorno/negative-dialectics/2)).
 
 Three thematic vectors organize his thought:
 
@@ -44,7 +44,7 @@ Three thematic vectors organize his thought:
 
 For the user's thesis, Foucault is a productively double figure: largely an ally on the *register-distinction* axis (T1) and the *anti-Cartesian-subject* axis (T11), a polemical opposite where the reception promotes his methodological caution to a totalizing metaphysics. Foucault's *épistémè* — the conditions of possibility for statements within a period, not a claim about the Real — is the closest twentieth-century European analog of the register-thesis. His dismantling of "man" as the empirico-transcendental doublet is congenial to the user's view that the Cartesian, Kantian, and Hegelian subjects are not the deepest fact about subjectivity. Foucault would never take the further metaphysical step (one Real said in many senses); but the register-analytic without the metaphysical step is in him in clean form, and the late-period recovery of *epimeleia heautou* maps with structural precision onto *sādhanā*. The user's polemic engages where the *useful local diagnosis* — schools, prisons, hospitals, sexological discourses do produce the subjects they claim merely to study — is silently raised to a *totalizing metaphysics in which there is nothing but power*. That metaphysics the user rejects, and Foucault himself, by 1982, was already withdrawing from. The detail of agreement and disagreement is laid out in Part VI; what matters at the outset is that this is the relation of a careful reader to a partial fellow-traveler, not of an opponent.
 
-Cross-engagement: Adi Sankara presses the same epistemic authority axis in the epistemological register, but with the value `scripture-dominant` rather than `genealogical-critique` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Adi Sankara ([primary text](cite://sankara/brahma-sutra-bhasya/1.1.1)) treats the epistemic authority axis in the epistemological register with the value `scripture-dominant`. The present section reads it as `genealogical-critique`.
 
 ### Glossary
 
@@ -63,7 +63,7 @@ Cross-engagement: Adi Sankara presses the same epistemic authority axis in the e
 - ***souci de soi / epimeleia heautou*** — the care of the self; the practice by which a classical or Hellenistic-Roman subject worked on itself in order to become a subject capable of truth.
 - ***ascèse / askēsis*** — exercise; the technical practice (of writing, of reading, of meditation, of memorization, of dietary regimen) by which the care of the self is enacted.
 
-Cross-engagement: Bannanje Govindacharya touches the same determination axis, but not in the same register. This section works it as `genealogical-exposure` in the historical-genealogical register; Bannanje Govindacharya approaches it through the logical-dialectical register in [primary text](cite://madhva/tattva-sankhyana/1-4). The point of contact is genuine, but the comparison only holds once the register-shift is kept visible.
+Cross-engagement: Bannanje Govindacharya ([primary text](cite://madhva/tattva-sankhyana/1-4)) and this section meet on the determination axis from different sides — logical-dialectical register against historical-genealogical register, with `genealogical-exposure` as this section's commitment.
 
 ---
 
@@ -71,11 +71,11 @@ Cross-engagement: Bannanje Govindacharya touches the same determination axis, bu
 
 ### The opening scene: Borges and the "table"
 
-Cross-engagement: Friedrich Nietzsche works the same method axis in the historical-genealogical register. Here the operative value is `genealogy`; Friedrich Nietzsche lands on that same value in [primary text](cite://nietzsche/beyond-good-and-evil/22). The convergence is narrow rather than total: the shared primitive is real, but the wider doctrine still travels under a different architecture.
+Cross-engagement: at the method axis the two texts coincide; Friedrich Nietzsche treats it as `genealogy` at [primary text](cite://nietzsche/beyond-good-and-evil/22).
 
 *Les mots et les choses* opens, famously, with Borges. Foucault reports laughter at "a certain Chinese encyclopedia" in which animals are divided into "(a) belonging to the Emperor, (b) embalmed, (c) tame, (d) suckling pigs, (e) sirens, (f) fabulous, (g) stray dogs, (h) included in the present classification, (i) frenzied, (j) innumerable, (k) drawn with a very fine camelhair brush, (l) et cetera, (m) having just broken the water pitcher, (n) that from a long way off look like flies." The laughter, he says, comes from a *malaise*: the limit of our own thought. What the encyclopedia abolishes is not the proximity of things but the very *site* in which they could be juxtaposed.
 
-Cross-engagement: Akshapada Gautama presses the same method axis in the methodological register, but with the value `formal-proof-or-inference` rather than `dialectical-development` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: a real divergence with Akshapada Gautama on the method axis. The methodological register is shared; the values are not — `dialectical-development` here, `formal-proof-or-inference` at [primary text](cite://aksapada/nyaya-sutra/1.1.1).
 
 > What is impossible is not the neighboring of things, but the site itself in which they could be neighbors. Where could they be juxtaposed except in the non-place of language?
 
@@ -91,7 +91,7 @@ The history will not be a Whiggish history of *progress* (knowledge-improving-to
 
 The Renaissance — for Foucault, roughly the sixteenth century, with Paracelsus, Crollius, della Porta as canonical figures — operates by *similitude* (*ressemblance*). To know is to find resemblances and trace them across the world. There are four cardinal forms:
 
-Cross-engagement: Judith Butler works the same normativity axis in the political-social register. Here the operative value is `disciplinary-power`; Judith Butler lands on that same value in [primary text](cite://butler/gender-trouble/3). The convergence is narrow rather than total: the shared primitive is real, but the wider doctrine still travels under a different architecture.
+Cross-engagement: at the normativity axis the two texts coincide; Judith Butler treats it as `disciplinary-power` at [primary text](cite://butler/gender-trouble/3).
 
 **(i) *convenientia*** — convenience, neighborhood-by-juxtaposition: things resemble each other because they are close. The plant resembles the animal because it is rooted to it; the soul resembles the body because it is housed in it. Resemblance is *spatial*.
 
@@ -109,7 +109,7 @@ The collapse comes around 1650. Don Quichotte is already a "negative" of the Ren
 
 The Classical age (roughly 1650–1800: Descartes, Port-Royal, Linnaeus, Cuvier-as-yet-not-quite, the *Encyclopédie*) operates by *representation*. The word *représentation* in Foucault is not a casual term: it names the entire operation by which a sign now stands for the thing not by *being similar* to it but by being able to *take its place* in a system of differences. The sign no longer carries the weight of resemblance; it discriminates and orders.
 
-Cross-engagement: G. W. F. Hegel presses the same social formation axis in the political-social register, but with the value `recognitive-institutional` rather than `disciplinary-production-of-subjects` in [primary text](cite://hegel/phenomenology-of-spirit/17). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: the disagreement with G. W. F. Hegel is at the social formation axis itself: `disciplinary-production-of-subjects` here, `recognitive-institutional` in [primary text](cite://hegel/phenomenology-of-spirit/17).
 
 Three operations characterize the Classical *épistémè*:
 
@@ -129,7 +129,7 @@ This is decisive. In the Classical *épistémè* there is no philosophical "man.
 
 The Classical *épistémè* collapses across the late eighteenth and early nineteenth centuries. Three movements describe the collapse, parallel across three domains:
 
-Cross-engagement: Akalanka touches the same practice-path axis, but not in the same register. This section works it as `critical-genealogical-work` in the ethical register; Akalanka approaches it through the soteriological register in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The point of contact is genuine, but the comparison only holds once the register-shift is kept visible.
+Cross-engagement: Akalanka treats the practice-path axis from the soteriological register ([primary text](cite://umasvati/tattvartha-sutra/1.34-35)); the present section is in the ethical register with `critical-genealogical-work`.
 
 **(i) Natural history → biology.** Cuvier's comparative anatomy (1795 onward) introduces *the organism* as a hierarchical, functional integration whose visible characters depend on an *inner* principle of organization (life). What had been classifiable on the surface of the table now requires reference to a depth that is not on the surface. *Life* enters the field as the unrepresentable condition of biological knowledge.
 

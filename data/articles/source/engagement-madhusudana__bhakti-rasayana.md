@@ -4,45 +4,45 @@
 
 *Bhagavad-bhakti-rasāyana* is a short but technically dense Advaita Vedānta bhakti treatise by Madhusūdana Sarasvatī, traditionally placed in the late sixteenth to early seventeenth century. The on-disk witness is a three-*ullāsa* work, announced in the *viṣayānukramaṇī* at pure-Sanskrit file lines 422-540 and concluded at lines 4972-4991, 6399-6421, and 6876-6897 respectively. The first *ullāsa* explicitly carries an authorial *ṭīkā* in this edition; the later two are presented here without that same authorial layer and with the later Hindi apparatus. Structurally, the work moves from bhakti as *puruṣārtha*, to a taxonomy of bhakti’s emotional forms, to a rasa-theory defense using Vedānta, Sāṅkhya, Mīmāṃsā, and alaṅkāra categories.
 
-Cross-engagement: Akalanka presses the same substrate structure axis in the metaphysical register, but with the value `many-coordinate-reals` rather than `one-self-standing` in [primary text](cite://umasvati/tattvartha-sutra/1.34-35). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: at the substrate structure axis the two texts choose differently. Akalanka ([primary text](cite://umasvati/tattvartha-sutra/1.34-35)) commits to `many-coordinate-reals`; this section commits to `one-self-standing`.
 
 ## 2. Sampling and scope statement
 
 Because printed page numerals are unstable in the OCR, the locators below use line ranges in the pure-Sanskrit file. Engaged at depth: the opening and doctrinal core of *prathamollāsa* (roughly lines 574-2105), the central classificatory and polemical stretches of *dvitīyollāsa* (4993-5905 and 6328-6401), and the opening and concluding arguments of *tṛtīyollāsa* (6423-6780). Structural summary only: the remainder of *prathamollāsa* and *dvitīyollāsa*, especially the long sequences of exempla and the eleven-stage bhakti ascent, which I tracked by headings and transitions but did not translate continuously. Not engaged except for orientation: the Hindi front matter, biographical preface, and publisher material before line 422 and after line 6889.
 
-Cross-engagement: Abhinavagupta presses the same manifestation status axis in the metaphysical register, but with the value `expressive-manifestation` rather than `sublatable-not-null` in [primary text](cite://abhinavagupta/tantraloka/1.16). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: against Abhinavagupta: `sublatable-not-null` rather than `expressive-manifestation` for the manifestation status axis ([primary text](cite://abhinavagupta/tantraloka/1.16)).
 
 ## 3. Structural walk-through
 
 ### *Prathamollāsa*: bhakti as *puruṣārtha*, its definition, and its ontological mechanics
 
-Cross-engagement: Arthur Schopenhauer presses the same identity relation axis in the metaphysical register, but with the value `self-expression-or-appearance` rather than `non-otherness` in [primary text](cite://schopenhauer/the-world-as-will-and-representation/1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Arthur Schopenhauer takes the identity relation axis to a different commitment — `self-expression-or-appearance` at [primary text](cite://schopenhauer/the-world-as-will-and-representation/1.1) against `non-otherness` here.
 
 The first *ullāsa* opens with the claim that bhakti toward Mukunda is either mixed with the standard rasas or stands independently as a supreme human end (lines 574-581). It then frames itself against karma and jñāna by absorbing aṣṭāṅgayoga into jñānayoga while refusing to make bhakti merely instrumental (631-760). The core constructive move is that bhakti is a stable *bhagavad-ākāratā* arising in a mind made fluid through hearing and related *bhagavad-dharma*; once the mind has “melted,” the form that enters it persists as *sthāyibhāva* (1578-1650). The latter half argues that this *sthāyibhāva* is a manifestation of *parānanda* itself and that bhakti-rasa exceeds laukika rasa because its *ālambana* is Bhagavān rather than finite objects (1929-2105). The close turns to the eleven *bhūmikā*s of devotional ascent and to Bhāgavata exempla. Polemically, the *ullāsa* opposes both the reduction of bhakti to a subsidiary means and its reduction to a merely analogous affect.
 
-Cross-engagement: Akshapada Gautama presses the same selfhood structure axis in the phenomenological register, but with the value `substantial-self` rather than `witness-self` in [primary text](cite://aksapada/nyaya-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Akshapada Gautama takes the selfhood structure axis to a different commitment — `substantial-self` at [primary text](cite://aksapada/nyaya-sutra/1.1.1) against `witness-self` here.
 
 ### *Dvitīyollāsa*: what counts as bhakti proper, what only prepares it, and how bhakti mixes with rasa
 
 The second *ullāsa* announces itself as the treatment of bhakti’s *viśeṣa* after the general account of the first (4993-5006). Bhakti is now subdivided according to the distinct causes of mental melting, so Madhusūdana classifies the relevant affective states, beginning from kāma and moving through anger, fear, sorrow, laughter, wonder, generosity, and the rest (5012 onward). The decisive argument comes at lines 5544-5604: not every affect that may be morally or spiritually useful counts as bhakti-rasa. *Dharmotsāha*, *dayotsāha*, *jugupsā*, and *śama* may prepare the way, but they are not direct bhakti-rasa; envy-based or fear-based hostility toward God also fails because it is *prīti-virodhin* (5584-5625). Madhusūdana then marks which mixed rasas are admissible when Bhagavān is the *ālambana*, distinguishes three unmixed bhakti-rasas, and finally ranks Bhagavad-rati over deva-rati by insisting that only the former discloses full *parānanda* (6332-6401). The polemical target is any generalized rasa theory that flattens Bhagavad-rati into ordinary deva-rati.
 
-Cross-engagement: Adi Sankara presses the same finite cognition axis in the epistemological register, but with the value `adhyasa-or-superimposition` rather than `positive-ignorance` in [primary text](cite://sankara/brahma-sutra-bhasya/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Adi Sankara lands on `adhyasa-or-superimposition` for the finite cognition axis ([primary text](cite://sankara/brahma-sutra-bhasya/1.1.1)); this section lands on `positive-ignorance`.
 
 ### *Tṛtīyollāsa*: what rasa is, where it abides, how language manifests it
 
 The third *ullāsa* begins with four explicit questions: what rasa is, where it resides, what manifests it, and what sort of cognition its apprehension is (6423-6441). It first gives the classical answer that *sthāyibhāva* manifested through *vibhāva*, *anubhāva*, and *vyabhicāribhāva* is rasa (6428-6449), then deepens it by way of *dhvani* theory and verbal manifestation (6609-6740). Its strongest doctrinal move comes near the close: rasa is the manifestation of self-luminous bliss itself, and this can be defended not only by rasa-theory but also by Mīmāṃsā debates on verbal cognition and by Vedāntic claims about *parānanda* (6739-6780). The final conclusion is that words, whether taken as independent or context-bound, manifest *parānanda* in accordance with the relevant auxiliaries (6869-6878). Polemically, this *ullāsa* turns outward most explicitly toward the *tārkika*, the rasa-theorist, and the Mīmāṃsaka.
 
-Cross-engagement: Ayon Maharaj presses the same epistemic authority axis in the epistemological register, but with the value `comparative-theological-reading` rather than `scripture-dominant` in [primary text](cite://maharaj/infinite-paths-to-infinite-reality/1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: on the epistemic authority axis Ayon Maharaj reads `comparative-theological-reading` ([primary text](cite://maharaj/infinite-paths-to-infinite-reality/1)); the present section reads `scripture-dominant`.
 
 ## 4. Load-bearing passages — engaged at depth
 
 ### 1. Opening claim
 
-Cross-engagement: Baladeva Vidyabhushana presses the same truth-structure axis in the epistemological register, but with the value `single-absolute-truth` rather than `hierarchical-standpoint-truth` in [primary text](cite://badarayana/brahma-sutra/1.1.1). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: same epistemological register, different commitments at the truth-structure axis. Baladeva Vidyabhushana: `single-absolute-truth`, [primary text](cite://badarayana/brahma-sutra/1.1.1). Here: `hierarchical-standpoint-truth`.
 
 **Locus:** *Prathamollāsa* opening *pratijñā* (lines 576-581).
 
-Cross-engagement: Bannanje Govindacharya presses the same practice-path axis in the soteriological register, but with the value `devotion-and-grace` rather than `knowledge-discipline` in [primary text](cite://madhva/tattva-sankhyana/1-4). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: Bannanje Govindacharya lands on `devotion-and-grace` for the practice-path axis ([primary text](cite://madhva/tattva-sankhyana/1-4)); this section lands on `knowledge-discipline`.
 
 **Sanskrit (IAST):** *navarasamilitaṃ vā kevalaṃ vā pumarthaṃ / paramam iha mukunde bhaktiyogaṃ vadanti / nirupamasukhasaṃvidrūpam aspṛṣṭaduḥkhaṃ / tam ahaṃ [sarvaśāstradṛṣṭyā OCR?] vyañjmi*
 
@@ -54,7 +54,7 @@ Cross-engagement: Bannanje Govindacharya presses the same practice-path axis in 
 
 **Locus:** *Dvitīyollāsa* opening definition (lines 4996-4997).
 
-Cross-engagement: Alfred North Whitehead presses the same soteric end axis in the soteriological register, but with the value `not-soteriological` rather than `identity-with-ground` in [primary text](cite://whitehead/process-and-reality/1.2). The disagreement is structural, not verbal. Both texts are answering the same pressure-point; they are not locating the pressure in the same way.
+Cross-engagement: same soteriological register, different commitments at the soteric end axis. Alfred North Whitehead: `not-soteriological`, [primary text](cite://whitehead/process-and-reality/1.2). Here: `identity-with-ground`.
 
 **Sanskrit (IAST):** *drute citte praviṣṭā yā [OCR? printed as pravisṭayā] govindākāratā sthirā / sā bhaktir ity abhihitā viśeṣas tv adhunocyate*
 
