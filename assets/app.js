@@ -2367,20 +2367,38 @@ function openGlossary(termKey, anchorEl) {
   const isMobile = window.matchMedia("(max-width: 720px)").matches;
   const pop = document.createElement("div");
   pop.className = "glossary-popover";
-  const perSchool = (entry.per_school || []).map((s) =>
-    `<div class="gp-row"><span class="gp-school">${escape(s.school)}</span><span class="gp-def">${md(s.definition)}</span></div>`
-  ).join("");
+  // One footnote counter for the entire popover so [1] [2] … is continuous
+  // across the invariant definition, per-school rows, and translator note.
+  // Each prose block is run through `md` + `numberCitations`, which replaces
+  // inline `<a class="cite-link">` anchors with `<sup class="cite-fn">[N]</sup>`
+  // and accumulates the locus into `footnotes`. The footnote list is then
+  // appended at the bottom of the popover with click-targets back into the
+  // Citation tab popover (parity with the thinker-prose pipeline).
+  const popCtr = { n: 0 };
+  const invariantR = numberCitations(md(entry.invariant_definition || ""), popCtr);
+  const allFootnotes = invariantR.footnotes.slice();
+  const perSchool = (entry.per_school || []).map((s) => {
+    const r = numberCitations(md(s.definition), popCtr);
+    allFootnotes.push(...r.footnotes);
+    return `<div class="gp-row"><span class="gp-school">${escape(s.school)}</span><span class="gp-def">${r.html}</span></div>`;
+  }).join("");
+  const translatorR = entry.translator_note
+    ? numberCitations(md(entry.translator_note), popCtr)
+    : { html: "", footnotes: [] };
+  allFootnotes.push(...translatorR.footnotes);
   const translatorNote = entry.translator_note
-    ? `<div class="gp-translator"><span class="gp-label">Translator note</span><div>${md(entry.translator_note)}</div></div>`
+    ? `<div class="gp-translator"><span class="gp-label">Translator note</span><div>${translatorR.html}</div></div>`
     : "";
+  const footnoteList = renderFootnoteList(allFootnotes);
   pop.innerHTML = `
     <div class="pop-drag gp-drag" aria-hidden="true"></div>
     <button class="gp-close" aria-label="Close">×</button>
     <div class="gp-term">${escape(entry.term_iast || termKey)}</div>
     ${entry.literal ? `<div class="gp-literal">Literally: <em>${escape(entry.literal)}</em></div>` : ""}
-    <div class="gp-invariant"><span class="gp-label">${entry.invariant_definition && entry.invariant_definition.toLowerCase().includes("no shared invariant") ? "No invariant" : "Invariant"}</span><div>${md(entry.invariant_definition || "")}</div></div>
+    <div class="gp-invariant"><span class="gp-label">${entry.invariant_definition && entry.invariant_definition.toLowerCase().includes("no shared invariant") ? "No invariant" : "Invariant"}</span><div>${invariantR.html}</div></div>
     ${perSchool ? `<div class="gp-perschool"><span class="gp-label">By school</span>${perSchool}</div>` : ""}
     ${translatorNote}
+    ${footnoteList}
   `;
   let scrim = null;
   if (isMobile) {
@@ -2991,8 +3009,41 @@ function inlineMarkdown(s) {
   return out;
 }
 
+// Pre-escape pass that rewrites two informal citation idioms into the
+// canonical `[X](cite://Y)` form so the downstream URL regex can match them.
+//
+//   1. Angle-bracketed URLs        → `(<cite://X>)`   → `(cite://X)`
+//      (markdown "autolink" punctuation that some authors typed when the URL
+//      contains parens or whitespace; the angle brackets serve no purpose
+//      here because the renderer already tolerates those characters.)
+//   2. Footnote-bracket idiom      → `[[X](cite://Y)]` → `[X](cite://Y)`
+//      (and chained variants like `[[X](cite://Y); [W](cite://Z)]`.) The
+//      outer brackets become noise once the visible text is replaced by a
+//      numbered superscript footnote downstream, so strip them up front.
+//
+// The transformation runs in source space (before HTML-escaping). It only
+// touches text that already contains a `(cite://…)` URL, so non-citation
+// prose is never altered.
+function normalizeCitationSyntax(s) {
+  if (s == null) return s;
+  let out = String(s);
+  out = out.replace(/\(<\s*(cite:\/\/[^>\n]+?)\s*>\)/g, "($1)");
+  out = out.replace(
+    /\[((?:\[[^\]]+?\]\(cite:\/\/[^)\n]+\)(?:[;,]?\s*)?)+)\]/g,
+    "$1",
+  );
+  return out;
+}
+
 function md(s) {
   if (s == null) return "";
+  // Normalize the two citation idioms before escaping so the URL regex can be
+  // anchored on the literal `(cite://…)`:
+  //   • angle-bracketed URLs  → `[X](<cite://…>)`  (markdown autolink form)
+  //   • footnote-style outer brackets → `[[X](cite://…)]` (and chained variants)
+  // Both forms appear in the on-disk JSON and were rendered as raw markdown
+  // before this normalization was added.
+  s = normalizeCitationSyntax(s);
   let out = escape(s);
   // Bold first (longer match), then italic. Inline-italic uses lookbehind/lookahead
   // to forbid whitespace adjacent to the asterisk (avoids math-like "2 * 3"),
@@ -3589,7 +3640,14 @@ async function openArticle(a) {
   }
   const text = await r.text();
   if (dpArticleBody) {
-    dpArticleBody.innerHTML = `<article>${renderMarkdownFull(text)}</article>`;
+    // Render the article body, then post-process the rendered HTML to turn
+    // inline `<a class="cite-link">` anchors into superscript footnote links
+    // and append a footnote list at the bottom. One counter for the whole
+    // article so numbering is continuous (parity with the thinker pipeline).
+    const articleCtr = { n: 0 };
+    const articleR = numberCitations(renderMarkdownFull(text), articleCtr);
+    const fnList = renderFootnoteList(articleR.footnotes);
+    dpArticleBody.innerHTML = `<article>${articleR.html}${fnList}</article>`;
     dpArticleBody.scrollTop = 0;
   }
   panelState.loaded.article = true;
@@ -3604,6 +3662,11 @@ async function openArticle(a) {
 //      handler can open the glossary popover (parity with thinker prose);
 //  (3) preserves cite:// links so the citation popover / panel handler fires.
 function renderMarkdownFull(src) {
+  // Normalize informal citation idioms (`(<cite://X>)`, `[[X](cite://Y)]`)
+  // into the canonical `[X](cite://Y)` form before any escaping runs. The
+  // pass is idempotent and only rewrites text that already contains a
+  // `cite://` URL, so plain prose is untouched.
+  src = normalizeCitationSyntax(src);
   const esc = (s) => s.replace(/[&<>]/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
   // Sanskrit-aside blocks — extracted before any other processing so the inner
   // panes can be rendered recursively without any of the outer-pass regexes
