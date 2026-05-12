@@ -221,9 +221,24 @@ body.is-space-pan .timeline-scroller * { cursor: grab !important; }
   float: left;
   margin-top: calc(-1 * var(--era-strip-h));   /* align to top of canvas */
   padding-top: var(--era-strip-h);
+  /* Stack rows in a strict column. Each row is locked to --lane-h, so
+     the rail's vertical positions are guaranteed to match the dot layer's
+     lane_index * --lane-h offsets regardless of how many sub-rows the
+     comparator group expands into. */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 .lane-row {
+  /* Locked row height: rail rows and canvas rows BOTH derive from --lane-h.
+     min/max-height pin the box so a long lane-name with -webkit-line-clamp
+     cannot push a row taller than --lane-h, which would desync the rail
+     from the dot positions (which are computed at lane_index * --lane-h). */
   height: var(--lane-h);
+  min-height: var(--lane-h);
+  max-height: var(--lane-h);
+  box-sizing: border-box;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   padding: 0 12px 0 14px;
