@@ -1181,39 +1181,136 @@ function wirePanZoom() {
   });
 
   // wheel: vertical wheel pans Y; shift+wheel pans X; ctrl+wheel zooms.
-  // Zoom factor is delta-proportional so trackpad pinch (which fires many
-  // small ctrlKey-flagged wheel events) does not accumulate aggressively.
-  // Mouse-wheel ticks (deltaMode=DOM_DELTA_LINE, large discrete steps)
-  // still produce a perceptible zoom but a softer one than before.
+  //
+  // Smooth-zoom strategy (desktop + trackpad pinch):
+  //   1. During an active zoom gesture, apply a GPU-accelerated CSS
+  //      transform (translateX + scaleX) to `.canvas`. No layout recompute,
+  //      no DOM teardown — just a compositor matrix update. Coalesced into
+  //      requestAnimationFrame so wheel bursts (60-120/s) collapse to one
+  //      paint per frame.
+  //   2. When wheel events stop (~140 ms idle), "commit": fold the visual
+  //      scale into state.pxPerYear, reset the transform, run the full
+  //      computeLayout()+renderAll() once, and adjust scrollLeft so the
+  //      year that was under the cursor stays under the cursor.
+  //
+  // This collapses dozens of full re-renders into one, while giving
+  // immediate (60 fps) visual feedback on every wheel tick.
+  let zoomActive = false;
+  let zoomStartPpy = 0;
+  let zoomVisualSx = 1;       // accumulated scale since zoom-start
+  let zoomTx = 0;             // accumulated translateX in screen px
+  let zoomScrollLeft = 0;     // scroller.scrollLeft frozen at zoom-start
+  let zoomRailOffset = 0;     // canvas natural left within scroller content
+  let zoomScrollerLeft = 0;   // scroller.getBoundingClientRect().left
+  let zoomLastCursorX = 0;    // last clientX (for commit anchor)
+  let zoomRafPending = false;
+  let zoomEndTimer = 0;
+  let zoomPendingFactor = 1;
+  let zoomPendingCursorX = 0;
+  // Re-applies the transform on the next animation frame. Multiple wheel
+  // events within the same frame are coalesced into one matrix update.
+  function scheduleZoomFrame() {
+    if (zoomRafPending) return;
+    zoomRafPending = true;
+    requestAnimationFrame(() => {
+      zoomRafPending = false;
+      // Resolve cx under cursor in canvas coords using the CURRENT transform,
+      // then apply pendingFactor about that anchor.
+      const screenBase = zoomScrollerLeft - zoomScrollLeft + zoomRailOffset;
+      const cursorScreenX = zoomPendingCursorX;
+      const cxAnchor = (cursorScreenX - screenBase - zoomTx) / zoomVisualSx;
+      const factor = zoomPendingFactor;
+      zoomPendingFactor = 1;
+      let newSx = zoomVisualSx * factor;
+      // Clamp visual scale so it can't exceed effective pxPerYear bounds.
+      const minSx = 0.6 / zoomStartPpy;
+      const maxSx = 6 / zoomStartPpy;
+      newSx = Math.max(minSx, Math.min(maxSx, newSx));
+      if (newSx === zoomVisualSx) return;
+      const newTx = cursorScreenX - screenBase - cxAnchor * newSx;
+      zoomVisualSx = newSx;
+      zoomTx = newTx;
+      canvas.style.transform = `translateX(${newTx}px) scaleX(${newSx})`;
+    });
+  }
+  // Folds the visual scale into pxPerYear, re-runs layout, restores scroll.
+  function commitZoom() {
+    if (zoomEndTimer) { clearTimeout(zoomEndTimer); zoomEndTimer = 0; }
+    if (!zoomActive) return;
+    const newPpy = Math.max(0.6, Math.min(6, zoomStartPpy * zoomVisualSx));
+    // Compute the year that's currently under the cursor (in pre-commit coords).
+    const screenBase = zoomScrollerLeft - zoomScrollLeft + zoomRailOffset;
+    const cxAnchor = (zoomLastCursorX - screenBase - zoomTx) / zoomVisualSx;
+    const yearAtCursor = state.range.low + (cxAnchor - PAD_LEFT) / zoomStartPpy;
+    // Reset transform first so subsequent layout/render writes are crisp.
+    canvas.style.transform = "";
+    canvas.style.transformOrigin = "";
+    canvas.style.willChange = "";
+    zoomActive = false;
+    if (newPpy !== state.pxPerYear) {
+      state.pxPerYear = newPpy;
+      computeLayout();
+      renderAll();
+    }
+    // Restore scrollLeft so the same year stays under the cursor.
+    const newCx = PAD_LEFT + (yearAtCursor - state.range.low) * state.pxPerYear;
+    scroller.scrollLeft = newCx + zoomRailOffset - (zoomLastCursorX - zoomScrollerLeft);
+    zoomVisualSx = 1;
+    zoomTx = 0;
+  }
+  function startZoom(e) {
+    zoomActive = true;
+    zoomStartPpy = state.pxPerYear;
+    zoomVisualSx = 1;
+    zoomTx = 0;
+    zoomScrollLeft = scroller.scrollLeft;
+    const rect = scroller.getBoundingClientRect();
+    zoomScrollerLeft = rect.left;
+    zoomRailOffset = state.viewMode === "network" ? 0 : LANE_RAIL_W;
+    canvas.style.transformOrigin = "0 0";
+    canvas.style.willChange = "transform";
+  }
+
   scroller.addEventListener("wheel", (e) => {
     if (e.ctrlKey || e.metaKey) {
       e.preventDefault();
-      const oldPpy = state.pxPerYear;
       // Normalize delta. deltaMode=1 (LINE) → multiply; deltaMode=0 (PIXEL,
       // trackpad pinch) → use raw px. Clamp to keep one tick gentle.
       const rawDelta = e.deltaMode === 1 ? e.deltaY * 16 : e.deltaY;
       const clampedDelta = Math.max(-50, Math.min(50, rawDelta));
-      // Sensitivity: ~halved from previous 1.08 per tick. At 50px wheel,
-      // factor ≈ exp(50 * 0.0018) ≈ 1.094; at 4px trackpad nudge, ≈ 1.007.
+      // Sensitivity matches the previous gesture: factor ≈ exp(-delta*0.0018).
       const factor = Math.exp(-clampedDelta * 0.0018);
-      const newPpy = Math.max(0.6, Math.min(6, oldPpy * factor));
-      if (newPpy === oldPpy) return;
-      // anchor zoom on cursor x position
-      const rect = scroller.getBoundingClientRect();
-      const railOffset = state.viewMode === "network" ? 0 : LANE_RAIL_W;
-      const cursorX = e.clientX - rect.left + scroller.scrollLeft - railOffset;
-      const yearAtCursor = state.range.low + cursorX / state.pxPerYear;
-      state.pxPerYear = newPpy;
-      computeLayout();
-      renderAll();
-      const newCursorX = (yearAtCursor - state.range.low) * state.pxPerYear;
-      scroller.scrollLeft = newCursorX - (e.clientX - rect.left) + railOffset;
+      if (!zoomActive) startZoom(e);
+      // Re-snapshot scroller scrollLeft. If the user vertical-scrolled
+      // between zoom events (non-ctrl wheel may have native scroll), keep
+      // the visual transform consistent by compensating tx for the shift.
+      const newScrollLeft = scroller.scrollLeft;
+      if (newScrollLeft !== zoomScrollLeft) {
+        zoomTx += (newScrollLeft - zoomScrollLeft);
+        zoomScrollLeft = newScrollLeft;
+      }
+      // Accumulate factor and cursor so the rAF callback handles the latest.
+      zoomPendingFactor *= factor;
+      zoomPendingCursorX = e.clientX;
+      zoomLastCursorX = e.clientX;
+      scheduleZoomFrame();
+      // Reset the idle timer; commit only after the wheel burst ends.
+      if (zoomEndTimer) clearTimeout(zoomEndTimer);
+      zoomEndTimer = setTimeout(commitZoom, 140);
     } else if (e.shiftKey) {
       e.preventDefault();
       scroller.scrollLeft += e.deltaY;
     }
     // otherwise: native vertical scroll behavior
   }, { passive: false });
+  // If the user clicks or starts dragging mid-zoom (rare on trackpads),
+  // commit immediately so hit-detection uses the final layout.
+  scroller.addEventListener("pointerdown", () => {
+    if (zoomActive) {
+      if (zoomEndTimer) { clearTimeout(zoomEndTimer); zoomEndTimer = 0; }
+      commitZoom();
+    }
+  }, true);
 
   // Hold-Space → grab cursor + drag-pan everywhere (Figma / Sketch
   // convention). The existing mousedown path already supports drag-pan on
