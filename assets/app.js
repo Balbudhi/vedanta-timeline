@@ -130,12 +130,19 @@ const COMPARATOR_LANES = [
 const COMPARATOR_GROUP_KEY = "__comparator_group__";
 const COMPARATOR_GROUP_LABEL = "Other darśanas";
 
+// One canonical color per historical period. Used by both views:
+//   • the lanes view era-band overlay (full vertical stripes)
+//   • the network view era-band overlay (same SVG renderer)
+//   • the era-strip labels at the top (text tinted to its period color)
+// Anything tagged with these era names must use the same `fill` everywhere.
+// Modern caps at 2050 (current year + buffer for living thinkers); the
+// chronology axis never extends past this point.
 const ERA_BANDS = [
-  { name: "Pre-Śaṅkara",  low: -800, high:  700, fill: "#a8a29e", fillOpacity: 0.05 },
-  { name: "Classical",    low:  700, high: 1100, fill: "#94a3b8", fillOpacity: 0.06 },
-  { name: "Late-Medieval",low: 1100, high: 1500, fill: "#d97706", fillOpacity: 0.05 },
-  { name: "Early-Modern", low: 1500, high: 1800, fill: "#9333ea", fillOpacity: 0.04 },
-  { name: "Modern",       low: 1800, high: 2050, fill: "#0891b2", fillOpacity: 0.05 },
+  { name: "Pre-Śaṅkara",  low: -800, high:  700, fill: "#a8a29e", fillOpacity: 0.10 },
+  { name: "Classical",    low:  700, high: 1100, fill: "#94a3b8", fillOpacity: 0.12 },
+  { name: "Late-Medieval",low: 1100, high: 1500, fill: "#d97706", fillOpacity: 0.08 },
+  { name: "Early-Modern", low: 1500, high: 1800, fill: "#9333ea", fillOpacity: 0.07 },
+  { name: "Modern",       low: 1800, high: 2050, fill: "#0891b2", fillOpacity: 0.08 },
 ];
 
 const TIER_1 = new Set([
@@ -345,6 +352,12 @@ function scrollToInitialFocus() {
   state.hasInitialScroll = true;
 }
 
+// Hard upper bound on the chronology axis. Modern era caps at 2050 by
+// convention (current year + ~25-year buffer for living thinkers). The
+// auto-fit pass below clamps to this so a single 2050-dated thinker can't
+// push the axis out to 2100.
+const RANGE_HIGH_MAX = 2050;
+
 function computeRange() {
   if (!state.thinkers.length) return;
   let lo = Infinity, hi = -Infinity;
@@ -353,7 +366,9 @@ function computeRange() {
     if (typeof t.dates_high === "number") hi = Math.max(hi, t.dates_high);
   }
   state.range.low = Math.floor(lo / 50) * 50 - 50;
-  state.range.high = Math.ceil(hi / 50) * 50 + 50;
+  // Snap to the next 50-year tick above hi, then clamp to RANGE_HIGH_MAX.
+  const snapped = Math.ceil(hi / 50) * 50 + 50;
+  state.range.high = Math.min(snapped, RANGE_HIGH_MAX);
 }
 
 function updateSubtitle() {
@@ -818,6 +833,9 @@ function renderEraStrip() {
     el.className = "era-label";
     el.style.left = x + "px";
     el.style.width = w + "px";
+    // Tint each label with its canonical period color so lanes-view and
+    // network-view share the same color-vocabulary for periods.
+    el.style.color = era.fill;
     el.textContent = era.name;
     eraStripEl.appendChild(el);
   }
@@ -1134,11 +1152,15 @@ function renderAll() {
 }
 
 // Recompute lane order + filter and re-render. Preserves scroll position
-// horizontally; vertical position resets only when lane count changes meaningfully.
+// in BOTH axes so toggling a chip or expanding the comparator group never
+// makes the user feel the viewport shifted under them — the chronology
+// axis and the visible thinkers stay where the user was looking.
 function rerender() {
   const prevLeft = scroller.scrollLeft;
+  const prevTop = scroller.scrollTop;
   renderAll();
   scroller.scrollLeft = prevLeft;
+  scroller.scrollTop = prevTop;
   renderFilterChips();
 }
 
