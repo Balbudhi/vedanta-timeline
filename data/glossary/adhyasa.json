@@ -3,36 +3,72 @@
   "term_iast": "adhyāsa",
   "term_devanagari": "अध्यास",
   "literal": "superimposition, over-laying; from adhi- + √as 'to place upon'",
-  "aliases": ["adhyasa", "adhyāsa", "Adhyāsa", "adhyāsaḥ", "adhyāsasya", "adhyāropa"],
+  "aliases": [
+    "adhyasa",
+    "adhyāsa",
+    "Adhyāsa",
+    "adhyāsaḥ",
+    "adhyāsasya",
+    "adhyāropa"
+  ],
   "invariant_definition": "*Adhyāsa* is not a generic word for mistake but a technical diagnosis of how self and world get cross-attributed. Śaṅkara's famous formula, *smṛtirūpaḥ paratra pūrva-dṛṣṭāvabhāsaḥ*, says that something previously encountered appears elsewhere; later Advaita, especially Padmapāda in *Pañcapādikā* varṇakas V–VI, sharpens this into a formal account of mutual transference between *ātman* and *anātman*. Bodily properties are read into the self, and the self's luminosity and agency are read into body, sense, and mind. The term therefore sits inside the wider Indian debate over erroneous cognition: Nyāya's *anyathā-khyāti*, Prābhākara *akhyāti*, Bhāṭṭa *viparīta-khyāti*, Yogācāra *ātma-khyāti*, and Advaita *anirvacanīya-khyāti* are competing ways of spelling out what error amounts to. In practice *adhyāsa* explains ordinary predications such as 'I am injured' and 'I know this object,' and it explains why Vedic injunction itself operates only so long as one remains a doer and enjoyer. The concept is therefore simultaneously epistemological, ontological, and soteriological.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Adhyāsa* names **the cognitive structure by which one thing appears as another: the projection of a property onto a substrate where it does not belong** (*Adhyāsa-Bhāṣya*; *Nyāya-Sūtra* 4.2.31–34). All schools that retain the term agree on this structural role (the rope-snake schema). They disagree on (i) whether *adhyāsa* requires an *adhiṣṭhāna* and an *avidyā* (Advaita) or only false cognition (*viparyaya*, Nyāya, Prābhākara).",
+    "register_axes_note": "**Real disagreement** (AF1) between Śaṅkara's *adhyāsa* (Φ+S+M, *smṛti-rūpaḥ paratra pūrva-dṛṣṭa-avabhāsaḥ*) and Madhva's *Mithyātvānumāna-Khaṇḍana* refutation (LD+M). Methodology Case 6: the disagreement is principally at the LD-register, not at the Φ-register; the Φ-analysis of misperception is broadly shared."
+  },
   "per_school": [
     {
       "school": "Advaita",
       "definition": "*Adhyāsa* is the universal beginningless confusion that makes *saṃsāra* and ordinary discourse possible. Śaṅkara gives the programmatic definition; Padmapāda formalizes the structure by distinguishing object-superimposition and cognition-superimposition, and by showing how mutual attribution of self and non-self grounds the empirical knower. On this account all *vyavahāra*, including ritual agency and bondage, presupposes *adhyāsa*. It is removed not by counter-action but by *brahma-jñāna*, because the error lies in false attribution rather than in lack of external performance.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1 (adhyāsa-bhāṣya)", "Pañcapādikā, varṇakas 5–6", "Upadeśa-Sāhasrī 18"]
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 1.1.1 (adhyāsa-bhāṣya)",
+        "Pañcapādikā, varṇakas 5–6",
+        "Upadeśa-Sāhasrī 18"
+      ]
     },
     {
       "school": "Nyāya",
       "definition": "Nyāya rejects *adhyāsa* as a universal metaphysical condition. Error is case-specific and analyzed through *anyathā-khyāti*: a real object, supported by memory and misrelated to the present locus, is apprehended otherwise than it is. The Naiyāyika therefore has no use for a global transfer of self and non-self properties in order to explain cognition or agency. Misidentification is admitted, but it is explained within a realist model of perceiver, object, memory, and defect (*doṣa*).",
-      "primary_loci": ["Nyāya-Sūtra 4.2.31–36", "Nyāya-Bhāṣya 4.2.31–36", "Nyāya-Vārttika 1.1.4"]
+      "primary_loci": [
+        "Nyāya-Sūtra 4.2.31–36",
+        "Nyāya-Bhāṣya 4.2.31–36",
+        "Nyāya-Vārttika 1.1.4"
+      ]
     },
     {
       "school": "Prābhākara Mīmāṃsā",
       "definition": "Prābhākara authors do not need *adhyāsa* because they deny that error is a single false cognition. What occurs is *akhyāti*: one cognition presents the current perceptual datum and another revives a remembered item, while the subject fails to discriminate them. Action follows from non-discrimination, not from a metaphysically projected object. This preserves the school’s commitment to the intrinsic validity of cognition and blocks the Advaitin move from ordinary error to a universal doctrine of world-experience.",
-      "primary_loci": ["Prabhākara, Bṛhatī [NOT YET RETRIEVED]", "Śālikanātha, Prakaraṇa-Pañcikā [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Prabhākara, Bṛhatī [NOT YET RETRIEVED]",
+        "Śālikanātha, Prakaraṇa-Pañcikā [NOT YET RETRIEVED]"
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
       "definition": "Rāmānuja attacks the Advaitin use of *adhyāsa* through the larger critique of *avidyā*. The questions are straightforwardly realist: what is superimposed, where is it located, what carries the error, and how can *śruti* both depend on and remove a condition that has no stable status? The seven *anupapattis* in the *Śrī-Bhāṣya* are not only objections to *avidyā* as a doctrine; they also undermine *adhyāsa* as the explanatory basis of all experience.",
-      "primary_loci": ["Śrī-Bhāṣya 1.1.1", "Vedārtha-Saṅgraha §§14–35"]
+      "primary_loci": [
+        "Śrī-Bhāṣya 1.1.1",
+        "Vedārtha-Saṅgraha §§14–35"
+      ]
     },
     {
       "school": "Tattva-vāda (Dvaita)",
       "definition": "Tattva-vāda refuses *adhyāsa* as an account of the world because it makes real plurality depend on an incoherent ignorance. Madhva and Vyāsatīrtha grant ordinary cases of misperception but deny that the relation between self, God, and world is produced by superimposition. The *jīva* is really distinct, the world is really there, and error is local to finite knowers. The anti-Advaita force of the Tattva-vāda critique is therefore to disconnect episodic illusion from a global metaphysics of appearance.",
-      "primary_loci": ["Madhva, Māyāvāda-Khaṇḍana §§1–8", "Vyāsatīrtha, Nyāyāmṛta, adhyāsa-bhaṅga [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Madhva, Māyāvāda-Khaṇḍana §§1–8",
+        "Vyāsatīrtha, Nyāyāmṛta, adhyāsa-bhaṅga [NOT YET RETRIEVED]"
+      ]
     }
   ],
-  "see_also": ["avidya", "anyatha-khyati", "akhyati", "maya", "atman", "jiva"],
+  "see_also": [
+    "avidya",
+    "anyatha-khyati",
+    "akhyati",
+    "maya",
+    "atman",
+    "jiva"
+  ],
   "translator_note": "The standard gloss is 'superimposition,' which is acceptable if one hears it as a technical error-theory. The lazy alternatives are 'projection' and 'illusion.' 'Projection' imports modern psychological baggage, while 'illusion' suggests a vague unreality and hides the precise issue of cross-attribution between self and non-self. In Advaita the term explains the structure of ordinary first-person life, not just a few optical mistakes.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"

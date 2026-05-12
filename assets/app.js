@@ -2367,11 +2367,32 @@ function openGlossary(termKey, anchorEl) {
   const isMobile = window.matchMedia("(max-width: 720px)").matches;
   const pop = document.createElement("div");
   pop.className = "glossary-popover";
-  const perSchool = (entry.per_school || []).map((s) =>
-    `<div class="gp-row"><span class="gp-school">${escape(s.school)}</span><span class="gp-def">${md(s.definition)}</span></div>`
-  ).join("");
+  const perSchool = (entry.per_school || []).map((s) => {
+    const tag = s.register_tag
+      ? `<span class="gp-regtag" title="register tuple">${escape(s.register_tag)}</span>`
+      : "";
+    return `<div class="gp-row"><span class="gp-school">${escape(s.school)}</span><span class="gp-def">${tag}${md(s.definition)}</span></div>`;
+  }).join("");
   const translatorNote = entry.translator_note
     ? `<div class="gp-translator"><span class="gp-label">Translator note</span><div>${md(entry.translator_note)}</div></div>`
+    : "";
+  const framing = entry.school_framing;
+  const framingLabel = (() => {
+    if (!framing || !framing.framing_status) return "";
+    switch (framing.framing_status) {
+      case "same_concept_different_aspect": return "Same concept, different aspect";
+      case "real_disagreement":              return "Same concept, real disagreement";
+      case "different_concepts":             return "Different concepts (homonymy)";
+      case "mixed":                          return "Mixed — same concept where noted; real disagreement where noted";
+      default: return escape(framing.framing_status);
+    }
+  })();
+  const framingBlock = framing
+    ? `<div class="gp-framing"><span class="gp-label">School framing</span>
+         <div class="gp-framing-status">${framingLabel}</div>
+         ${framing.shared_core ? `<div class="gp-shared-core">${md(framing.shared_core)}</div>` : ""}
+         ${framing.register_axes_note ? `<div class="gp-axes">${md(framing.register_axes_note)}</div>` : ""}
+       </div>`
     : "";
   pop.innerHTML = `
     <div class="pop-drag gp-drag" aria-hidden="true"></div>
@@ -2379,7 +2400,7 @@ function openGlossary(termKey, anchorEl) {
     <div class="gp-term">${escape(entry.term_iast || termKey)}</div>
     ${entry.literal ? `<div class="gp-literal">Literally: <em>${escape(entry.literal)}</em></div>` : ""}
     <div class="gp-invariant"><span class="gp-label">${entry.invariant_definition && entry.invariant_definition.toLowerCase().includes("no shared invariant") ? "No invariant" : "Invariant"}</span><div>${md(entry.invariant_definition || "")}</div></div>
-    ${perSchool ? `<div class="gp-perschool"><span class="gp-label">By school</span>${perSchool}</div>` : ""}
+    ${perSchool ? `<div class="gp-perschool"><span class="gp-label">By school</span>${framingBlock}${perSchool}</div>` : ""}
     ${translatorNote}
   `;
   let scrim = null;

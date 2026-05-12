@@ -3,31 +3,65 @@
   "term_iast": "prapatti",
   "term_devanagari": "प्रपत्ति",
   "literal": "falling-toward, taking-refuge, surrender; from pra- + √pad 'to fall, to go'",
-  "aliases": ["prapatti", "Prapatti", "prapattiḥ", "prapadyate", "saranagati", "śaraṇāgati", "śaraṇam"],
+  "aliases": [
+    "prapatti",
+    "Prapatti",
+    "prapattiḥ",
+    "prapadyate",
+    "saranagati",
+    "śaraṇāgati",
+    "śaraṇam"
+  ],
   "invariant_definition": "*Prapatti* is total taking-refuge in the Lord as both protector and decisive means. It is not mere emotional collapse or generalized piety. In the Śrīvaiṣṇava traditions the act is analyzed through six *aṅgas*: resolve to do what is favorable, avoidance of what is opposed, confidence that the Lord will protect, acceptance of him as guardian, self-offering, and humility. The term lives within a wider apparatus of *upāya*, *upeya*, grace, incapacity, and scriptural promise, especially the *carama-śloka* of the *Bhagavad-Gītā* and the *rahasya-traya*. It is adjacent to *bhakti* but not identical with it: *bhakti* may denote a sustained discipline of contemplation and worship, whereas *prapatti* names an act or settled disposition of self-entrustment that appeals directly to divine rescue. The major disputes concern whether it is an independent path, whether the Lord alone is the true *siddhopāya*, and how much post-surrender agency remains in practice.",
+  "school_framing": {
+    "framing_status": "same_concept_different_aspect",
+    "shared_core": "*Prapatti* names **complete surrender to Bhagavān as the sole *upāya* and *upeya***: the *akiñcana*-*ananyagati* posture in which the *jīva* renounces self-effort and rests in divine *kṛpā* (*Stotra-Ratna* 22–24; *Nyāsa-daśaka*). Viśiṣṭādvaita (Yāmuna, Rāmānuja, Vedānta Deśika), Gauḍīya, and Vallabha all operate with this structural role. Advaita does not use *prapatti* as a primary technical term.",
+    "register_axes_note": "Same S+AD register where used; addressee is the *bhakta*/*prapanna*. Disagreement among the theistic schools is on *prapatti*'s relation to *bhakti-yoga* (Vaḍakalai: *prapatti* as one *upāya* among many; Tenkalai: sole *upāya*). The disagreement is intra-Viśiṣṭādvaita and not at the level of concept-identity."
+  },
   "per_school": [
     {
       "school": "Viśiṣṭādvaita (Rāmānuja)",
       "definition": "In the classical Śrīvaiṣṇava setting, *prapatti* is a legitimate means for the soul that cannot undertake the prolonged discipline of *bhakti-yoga*. Rāmānuja's liturgical and theological texts present it as explicit self-surrender to Nārāyaṇa through Śrī, grounded in the Lord's promise to save. The act does not deny the reality of ritual and moral life, but shifts confidence from self-achievement to divine grace. Its tone is juridical, affective, and metaphysical at once: the soul acknowledges dependence and entrusts its outcome to the Lord.",
-      "primary_loci": ["Śaraṇāgati-Gadya", "Bhagavad-Gītā-Bhāṣya (Rāmānuja) 18.66", "Vedārtha-Saṅgraha [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Śaraṇāgati-Gadya",
+        "Bhagavad-Gītā-Bhāṣya (Rāmānuja) 18.66",
+        "Vedārtha-Saṅgraha [NOT YET RETRIEVED]"
+      ]
     },
     {
       "school": "Viśiṣṭādvaita (Vaḍagalai)",
       "definition": "Vedānta Deśika systematizes *prapatti* as an independent *upāya* while preserving a meaningful role for the *prapanna*'s continued observance of duty. The Lord saves, but the surrendered soul is not thereby exempt from disciplined cooperation. This is the setting of the *markaṭa-nyāya* analogy: the child-monkey still clings while the mother carries. The aim is to safeguard both divine initiative and the ongoing seriousness of practice.",
-      "primary_loci": ["Vedānta Deśika, Rahasya-Traya-Sāra, prapatti-prakaraṇa", "Vedānta Deśika, Nyāsa-Daśaka"]
+      "primary_loci": [
+        "Vedānta Deśika, Rahasya-Traya-Sāra, prapatti-prakaraṇa",
+        "Vedānta Deśika, Nyāsa-Daśaka"
+      ]
     },
     {
       "school": "Viśiṣṭādvaita (Teṅgalai)",
       "definition": "Teṅgalai authors radicalize the logic of surrender. The Lord himself is the effective *siddhopāya*, and the soul's attempt to contribute additional saving effort risks misunderstanding what surrender means. This is the context of the *mārjāra-nyāya*: the kitten is carried entirely by the mother. The stress falls on helplessness, receptivity, and grace rather than on cooperative exertion. *Prapatti* is thus not one technique among others, but the acknowledgment that no other decisive means belongs to the finite self.",
-      "primary_loci": ["Pillai Lokācārya, Mumukṣuppaṭi", "Pillai Lokācārya, Śrī-Vacana-Bhūṣaṇa", "Maṇavāḷa Māmunigaḷ, Mumukṣuppaṭi-Vyākhyāna"]
+      "primary_loci": [
+        "Pillai Lokācārya, Mumukṣuppaṭi",
+        "Pillai Lokācārya, Śrī-Vacana-Bhūṣaṇa",
+        "Maṇavāḷa Māmunigaḷ, Mumukṣuppaṭi-Vyākhyāna"
+      ]
     },
     {
       "school": "Acintya-Bhedābheda",
       "definition": "Gauḍīya authors commonly use *śaraṇāgati* as the indispensable posture of the devotee, but not usually as a separate, fully systematized alternative to *bhakti* in the Śrīvaiṣṇava sense. Taking refuge opens the life of devotion and disposes the soul for *nāma-saṃkīrtana*, service, and growth into *prema*. The emphasis falls less on classifying *prapatti* as a distinct salvific mechanism and more on integrating surrender into the affective and ritual life of *bhakti*.",
-      "primary_loci": ["Bhakti-Sandarbha 236-240", "Hari-Bhakti-Vilāsa 11 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Bhakti-Sandarbha 236-240",
+        "Hari-Bhakti-Vilāsa 11 [NOT YET RETRIEVED]"
+      ]
     }
   ],
-  "see_also": ["bhakti", "saranagati", "siddhopaya", "upeya", "upaya", "prasada"],
+  "see_also": [
+    "bhakti",
+    "saranagati",
+    "siddhopaya",
+    "upeya",
+    "upaya",
+    "prasada"
+  ],
   "translator_note": "'Surrender' is the standard gloss, but it can import military defeat or passive resignation. *Prapatti* is better understood as deliberate self-entrustment under a theology of grace. English paraphrases that reduce it to emotion miss its technical location within debates about means, agency, and divine protection.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"

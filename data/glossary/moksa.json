@@ -17,6 +17,11 @@
   "last_verified_at": "2026-05-10",
   "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "Release from bondage, but not a bare escape from existence. *Mokṣa* names the final state appropriate to what a school takes bondage to be: the nexus of *karma*, rebirth, embodiment, ignorance, misidentification, or estrangement from the Lord. It is therefore defined against adjacent terms such as *saṃsāra*, *bandha*, *apavarga*, and *kaivalya*. In the Mīmāṃsā background, the point is that no finite ritual act can simply manufacture *mokṣa* as a produced result; in the Vedāntic setting, the issue becomes what sort of cognition, devotion, surrender, or divine grace removes the condition that makes rebirth possible. The practical register is inseparable from the metaphysics: Advaita ties *mokṣa* to the removal of *avidyā* through *śravaṇa-manana-nididhyāsana*; Viśiṣṭādvaita and Tattva-vāda (Dvaita) tie it to God-directed knowledge and devotion; Gauḍīya Vaiṣṇavism treats even ordinary *mokṣa* as lower than *prema*. What remains invariant is this: *mokṣa* is the non-returning condition in which the structures that sustain saṃsāric agency, enjoyment, and compulsory embodiment no longer bind.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "Every school that retains the word *mokṣa* (or *apavarga*/*kaivalya*/*nirvāṇa*) means **the non-returning condition in which the structures that sustain saṃsāric agency, enjoyment, and compulsory embodiment no longer bind**. The differentia of *mokṣa* is therefore set by what each school takes *bandha* to be: *avidyā* (Advaita), distance from Bhagavān (Viśiṣṭādvaita, Tattva-vāda, Gauḍīya, Śuddhādvaita), *puruṣa-prakṛti-saṃyoga* (Sāṃkhya-Yoga), *duḥkha-pravṛtti-mithyājñāna* (Nyāya), *prapañca-vikalpa* (Mādhyamaka), karmic *pudgala* (Jainism), or contracted *aiśvarya* (Trika).",
+    "register_axes_note": "**Same concept, different aspect** with respect to the structural role 'non-returning end-state'. **Real disagreement** (AF1) between Advaita (*jīva–Brahman* identity in *mokṣa*) and Tattva-vāda (*jīveśvara-bheda* persists, with *taratamya* among the liberated; *Anuvyākhyāna* 2.3.66–69, *Viṣṇu-Tattva-Vinirṇaya* 3.27) — same M-register, same scope-inside, opposing claims. Gauḍīya treats ordinary *mokṣa* as lower than *prema* (*Bhakti-Rasāmṛta-Sindhu* 1.1.11–16): real disagreement about ranking, not about what *mokṣa* itself names."
+  },
   "per_school": [
     {
       "school": "Advaita",
@@ -44,7 +49,8 @@
           "cite": "cite://vimuktatman/ista-siddhi/1.Jīvanmuktiḥ",
           "locus_short": "IṢ 1.9"
         }
-      ]
+      ],
+      "register_tag": "M+S; mumukṣu"
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -70,7 +76,8 @@
           "cite": "cite://yamuna/stotra-ratna/22-24",
           "locus_short": "YStr 22-24"
         }
-      ]
+      ],
+      "register_tag": "M+S; prapanna"
     },
     {
       "school": "Tattva-vāda",
@@ -98,7 +105,8 @@
           "cite": "cite://madhva/visnu-tattva-vinirnaya/3.27",
           "locus_short": "VTV 3.27"
         }
-      ]
+      ],
+      "register_tag": "M+S; Tattvavādin [REAL-DISAGREEMENT with Advaita on jīveśvara-identity]"
     },
     {
       "school": "Bhedābheda",
@@ -138,7 +146,8 @@
           "cite": "cite://rupa-gosvami/bhakti-rasamrta-sindhu/1.1.16",
           "locus_short": "BRS 1.1.16"
         }
-      ]
+      ],
+      "register_tag": "AD+S; bhakta [REAL-DISAGREEMENT on prema > mokṣa]"
     },
     {
       "school": "Dvaitādvaita",
@@ -164,7 +173,8 @@
           "cite": "cite://nimbarka/dasa-shloki/10",
           "locus_short": "DaŚ 10"
         }
-      ]
+      ],
+      "register_tag": "M+S; bhakta"
     },
     {
       "school": "Śuddhādvaita",
@@ -187,7 +197,8 @@
           "cite": "cite://vallabha/anu-bhasya/1.1.12-19",
           "locus_short": "BSB 1.1.12-19"
         }
-      ]
+      ],
+      "register_tag": "M+S; bhakta"
     },
     {
       "school": "Sāṃkhya",
@@ -210,7 +221,8 @@
           "cite": "cite://isvarakrsna/samkhya-karika/68",
           "locus_short": "SK 68"
         }
-      ]
+      ],
+      "register_tag": "M+S; mumukṣu"
     },
     {
       "school": "Yoga",
@@ -233,7 +245,8 @@
           "cite": "cite://patanjali/yoga-sutra/4.34",
           "locus_short": "YS 4.34"
         }
-      ]
+      ],
+      "register_tag": "S+Mh; yogin"
     },
     {
       "school": "Nyāya-Vaiśeṣika",
@@ -256,7 +269,8 @@
           "cite": "cite://kanada/vaisesika-sutra/5.2.20",
           "locus_short": "VS 5.2.20"
         }
-      ]
+      ],
+      "register_tag": "M+S; reflective reader"
     },
     {
       "school": "Pūrva-Mīmāṃsā",
@@ -285,7 +299,8 @@
           "cite": "cite://nagarjuna/mula-madhyamaka-karika/25.11",
           "locus_short": "MMK 25.11"
         }
-      ]
+      ],
+      "register_tag": "LD+S; reflective reader"
     },
     {
       "school": "Yogācāra",
@@ -302,7 +317,8 @@
           "cite": "cite://vasubandhu/trimsika/30",
           "locus_short": "Triṃśikā 30"
         }
-      ]
+      ],
+      "register_tag": "Φ+S; reflective reader"
     },
     {
       "school": "Pratyabhijñā / Trika",
@@ -325,7 +341,8 @@
           "cite": "cite://utpaladeva/ishvara-pratyabhijna-karika/4.16",
           "locus_short": "ĪPK 4.16"
         }
-      ]
+      ],
+      "register_tag": "M+S; sādhaka"
     },
     {
       "school": "Jainism",
@@ -358,7 +375,8 @@
           "cite": "cite://umasvati/tattvartha-sutra/10.2",
           "locus_short": "TS 10.2"
         }
-      ]
+      ],
+      "register_tag": "M+S; reflective reader"
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",

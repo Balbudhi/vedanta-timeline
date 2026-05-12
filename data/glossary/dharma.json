@@ -15,6 +15,11 @@
   "last_verified_at": "2026-05-10",
   "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "*Dharma* is a load-bearing term across ritual theory, jurisprudence, ontology, yoga, and Buddhist phenomenology. The root sense is 'that which upholds,' but philosophical use immediately splits into several linked registers. In Mīmāṃsā, *dharma* is what is known through Vedic injunction and enacted through prescribed performance; the debate then turns on whether an act is *kratvartha* or *puruṣārtha*, and on how unseen efficacy connects action and result. In epic and social discourse, *dharma* becomes the right ordering of role, relation, and circumstance. In Nyāya-Vaiśeṣika, a *dharma* of a *dharmin* is a property borne by a substance. In Buddhism, *dharma* or *dhamma* can name both the teaching and the elementary factors analyzed as the constituents of experience. Vedānta inherits all these uses but reorders them around liberation: which *dharma* binds, which purifies, which continues as devotion, and whether the highest state lies beyond enjoinment or fulfills it.",
+  "school_framing": {
+    "framing_status": "same_concept_different_aspect",
+    "shared_core": "Across schools that share the *śabda* *dharma*, the term names **that which upholds an order—ritual, ethical, ontological, or soteriological—and orients its bearer toward a highest end**. Mīmāṃsā fixes the *lakṣaṇa* as *codanā-lakṣaṇo 'rtho dharmaḥ* (Jaimini 1.1.2); Vaiśeṣika fixes it as *yataḥ abhyudaya-niḥśreyasa-siddhiḥ sa dharmaḥ* (Vaiśeṣika-Sūtra 1.1.1–2). Both keep the same structural role; the schools then differ on *which* order is load-bearing and on the *register* under which *dharma* speaks (ritual-normative, social, ontological-property, motion-medium, soteriological).",
+    "register_axes_note": "Schools differ along the register axis (RN / Eth / M / S) and the addressee axis (*adhikārin* of ritual vs. *mumukṣu* vs. *bhakta*), not on the underlying word's structural role. Genuine disagreements survive: Mādhyamaka denies the realist *dharma*-ontology that Vaiśeṣika asserts (AF1: same register LD/M, same scope-inside *dharma*-realism, real disagreement); Jainism's *dharmāstikāya* gives *dharma* a *different concept* — motion-medium *dravya*, not normative principle."
+  },
   "per_school": [
     {
       "school": "Advaita",
@@ -22,7 +27,8 @@
       "primary_loci": [
         "Bhakti-Rasāyana 1.1 ṭīkā 12"
       ],
-      "citations": []
+      "citations": [],
+      "register_tag": "P+S; mumukṣu"
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -40,7 +46,8 @@
           "cite": "cite://yamuna/stotra-ratna/22-24",
           "locus_short": "YStr 22-24"
         }
-      ]
+      ],
+      "register_tag": "M+S; bhakta/prapanna"
     },
     {
       "school": "Tattva-vāda",
@@ -54,7 +61,8 @@
           "cite": "cite://madhva/visnu-tattva-vinirnaya/3.21",
           "locus_short": "VTV 3.21"
         }
-      ]
+      ],
+      "register_tag": "M+LD; polemicist/Tattvavādin"
     },
     {
       "school": "Bhedābheda",
@@ -78,7 +86,8 @@
           "cite": "cite://baladeva/tattva-sandarbha-tippani/§23",
           "locus_short": "TS Ṭip. §23"
         }
-      ]
+      ],
+      "register_tag": "AD+S; bhakta"
     },
     {
       "school": "Dvaitādvaita",
@@ -101,7 +110,8 @@
           "cite": "cite://vallabha/anubhasya/1.1.4d",
           "locus_short": "AB 1.1.4d"
         }
-      ]
+      ],
+      "register_tag": "M; bhakta"
     },
     {
       "school": "Sāṃkhya",
@@ -123,7 +133,8 @@
           "cite": "cite://isvarakrsna/samkhya-karika/44",
           "locus_short": "SK 44"
         }
-      ]
+      ],
+      "register_tag": "C+S; mumukṣu"
     },
     {
       "school": "Yoga",
@@ -145,7 +156,8 @@
           "cite": "cite://patanjali/yoga-sutra/4.29",
           "locus_short": "YS 4.29"
         }
-      ]
+      ],
+      "register_tag": "Mh+S; yogin"
     },
     {
       "school": "Nyāya-Vaiśeṣika",
@@ -171,7 +183,8 @@
           "cite": "cite://kanada/vaisesika-sutra/1.1.16",
           "locus_short": "VS 1.1.16"
         }
-      ]
+      ],
+      "register_tag": "M+E; philosophical reader"
     },
     {
       "school": "Pūrva-Mīmāṃsā",
@@ -193,7 +206,8 @@
           "cite": "cite://jaimini/mimamsa-sutra/1.3.1",
           "locus_short": "MS 1.3.1"
         }
-      ]
+      ],
+      "register_tag": "RN+SL+Eth; adhikārin of ritual"
     },
     {
       "school": "Mādhyamaka",
@@ -240,7 +254,8 @@
           "cite": "cite://nagarjuna/mula-madhyamaka-karika/25.24",
           "locus_short": "MMK 25.24"
         }
-      ]
+      ],
+      "register_tag": "LD+S; reflective reader"
     },
     {
       "school": "Yogācāra",
@@ -266,7 +281,8 @@
           "cite": "cite://vasubandhu/trimsika/30",
           "locus_short": "Triṃś 30"
         }
-      ]
+      ],
+      "register_tag": "Φ+E; reflective reader"
     },
     {
       "school": "Pratyabhijñā / Trika",
@@ -289,7 +305,8 @@
           "cite": "cite://abhinavagupta/tantraloka/15.23-29",
           "locus_short": "TA 15.23-29"
         }
-      ]
+      ],
+      "register_tag": "M+S; sādhaka"
     },
     {
       "school": "Jainism",
@@ -316,7 +333,8 @@
           "cite": "cite://umasvati/tattvartha-sutra/10.8",
           "locus_short": "TS 10.8"
         }
-      ]
+      ],
+      "register_tag": "M+C; reflective reader [different concept: motion-medium]"
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",

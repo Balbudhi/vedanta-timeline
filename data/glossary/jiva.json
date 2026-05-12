@@ -18,6 +18,11 @@
     "jīvātmā"
   ],
   "invariant_definition": "The living, embodied subject as bearer of agency, enjoyership, bondage, and rebirth. Unlike *ātman*, which asks what the self is in its strictest metaphysical sense, *jīva* foregrounds the self as it moves through *saṃsāra*: associated with body, mind, subtle body, and the continuity of *karma*. The term therefore sits inside a practical and theoretical scaffold: *kartṛtva* and *bhoktṛtva*, the relation between consciousness and *antaḥkaraṇa*, the mechanism by which *karma* adheres and fructifies, and the question whether individuality is intrinsic, derivative, or only apparent. Vedāntic schools agree that some such locus must be admitted if bondage and liberation are to be intelligible; they disagree on whether the *jīva* is really distinct from *brahman*, a real mode of *brahman*, or only *brahman* under limiting adjuncts. Outside Vedānta, the term can move differently again, most notably in Jainism where *jīva* is a real substance literally encrusted by karmic matter. The entry therefore cannot be reduced to 'individual soul' without losing the doctrinal machinery the word ordinarily presupposes.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Jīva* names **the living, embodied subject as bearer of agency, enjoyership, bondage, and rebirth**: the self under the conditions of *saṃsāra* (Bṛhadāraṇyaka 4.4.5–7). Every school that retains the term agrees on this structural role; they disagree on whether individuality is *upādhi*-conditioned (Advaita, Bhāskara), real-but-modal (Viśiṣṭādvaita), eternally and intrinsically distinct (Tattva-vāda), an *aṃśa-śakti* (Nimbārka, Vallabha), or *acintya-bhedābheda* (Gauḍīya).",
+    "register_axes_note": "**Same concept, real disagreement** among Vedāntins on whether *jīva*'s individuation is *svarūpa*-grounded or *upādhi*-grounded (AF1: cf. Bhāskara vs. Nimbārka, methodology Case 4; Madhva vs. Advaita, methodology Case 3). Sāṃkhya-Yoga uses *puruṣa* for the functional analogue. Buddhists deny any enduring *jīva* (real disagreement, same Φ-register). Jainism treats *jīva* as a real tattva-substance enmeshed in karmic matter — partially *different concept* in its material-bondage construal."
+  },
   "per_school": [
     {
       "school": "Advaita",
@@ -51,7 +56,8 @@
           "cite": "cite://vimuktatman/ista-siddhi/1.Jīvanmuktiḥ",
           "locus_short": "IṢ 1.9"
         }
-      ]
+      ],
+      "register_tag": "M+S; mumukṣu"
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -79,7 +85,8 @@
           "cite": "cite://ramanuja/vedartha-samgraha/§6",
           "locus_short": "VS §6"
         }
-      ]
+      ],
+      "register_tag": "M+S; prapanna"
     },
     {
       "school": "Tattva-vāda",
@@ -107,7 +114,8 @@
           "cite": "cite://raghavendra/tantra-dipika/1.3",
           "locus_short": "TD 1.3"
         }
-      ]
+      ],
+      "register_tag": "M+S; Tattvavādin [REAL-DISAGREEMENT with Advaita on bhedapañcaka]"
     },
     {
       "school": "Bhedābheda",
@@ -146,7 +154,8 @@
           "cite": "cite://caitanya/shikshashtakam/5",
           "locus_short": "Śikṣāṣṭakam 5"
         }
-      ]
+      ],
+      "register_tag": "M+AD; bhakta"
     },
     {
       "school": "Dvaitādvaita",
@@ -174,7 +183,8 @@
           "cite": "cite://srinivasa/vedanta-kaustubha/2.3.42",
           "locus_short": "BS 2.3.42"
         }
-      ]
+      ],
+      "register_tag": "M+S; bhakta"
     },
     {
       "school": "Śuddhādvaita",
@@ -187,7 +197,8 @@
           "cite": "cite://vallabha/anu-bhasya/2.3.43-45",
           "locus_short": "BSB 2.3.43-45"
         }
-      ]
+      ],
+      "register_tag": "M+S; bhakta"
     },
     {
       "school": "Sāṃkhya",
@@ -205,7 +216,8 @@
           "cite": "cite://isvarakrsna/samkhya-karika/62-65",
           "locus_short": "SK 62-65"
         }
-      ]
+      ],
+      "register_tag": "M; reflective reader (puruṣa)"
     },
     {
       "school": "Yoga",
@@ -223,7 +235,8 @@
           "cite": "cite://vyasa/yoga-bhasya/1.24",
           "locus_short": "YBh 1.24"
         }
-      ]
+      ],
+      "register_tag": "Φ+S; yogin (draṣṭṛ under saṃyoga)"
     },
     {
       "school": "Nyāya-Vaiśeṣika",
@@ -254,7 +267,8 @@
           "cite": "cite://kanada/vaisesika-sutra/5.2.20",
           "locus_short": "VaiS 5.2.20"
         }
-      ]
+      ],
+      "register_tag": "M+E; reflective reader"
     },
     {
       "school": "Pūrva-Mīmāṃsā",
@@ -272,7 +286,8 @@
           "cite": "cite://kumarila/sloka-varttika/5.9.11-15",
           "locus_short": "ŚV 5.9.11-15"
         }
-      ]
+      ],
+      "register_tag": "RN+E; adhikārin (yajamāna)"
     },
     {
       "school": "Mādhyamaka",
@@ -310,7 +325,8 @@
           "cite": "cite://nagarjuna/mula-madhyamaka-karika/18.10",
           "locus_short": "MMK 18.10"
         }
-      ]
+      ],
+      "register_tag": "Φ+LD; reflective reader [REAL-DISAGREEMENT: no jīva-substance]"
     },
     {
       "school": "Yogācāra",
@@ -340,7 +356,8 @@
           "cite": "cite://vasubandhu/trimsika/30",
           "locus_short": "Triṃśikā 30"
         }
-      ]
+      ],
+      "register_tag": "Φ+E; reflective reader [REAL-DISAGREEMENT: jīva as upacāra]"
     },
     {
       "school": "Pratyabhijñā / Trika",
@@ -358,7 +375,8 @@
           "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/3.2.2-4",
           "locus_short": "ĪPK 3.2.2-4"
         }
-      ]
+      ],
+      "register_tag": "M+Φ; sādhaka (contracted Śiva)"
     },
     {
       "school": "Jainism",
@@ -376,7 +394,8 @@
           "cite": "cite://umasvati/tattvartha-sutra/2.8-10",
           "locus_short": "TattvS 2.8-10"
         }
-      ]
+      ],
+      "register_tag": "M+S; reflective reader [partially different concept]"
     }
   ],
   "see_also": [

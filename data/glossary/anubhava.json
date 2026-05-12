@@ -3,32 +3,66 @@
   "term_iast": "anubhava",
   "term_devanagari": "अनुभव",
   "literal": "direct undergoing; presentative experience",
-  "aliases": ["anubhava", "Anubhava", "anubhavaḥ", "anubhave", "anubhavena", "anubhuti", "anubhūti"],
+  "aliases": [
+    "anubhava",
+    "Anubhava",
+    "anubhavaḥ",
+    "anubhave",
+    "anubhavena",
+    "anubhuti",
+    "anubhūti"
+  ],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
   "invariant_definition": "*Anubhava* is what is directly had in present cognition. In broad epistemic usage it contrasts with memory, report, and inference; in Vedāntic and devotional usage it often names the lived realization in which what scripture teaches becomes immediately manifest. The term therefore sits between general epistemology and soteriology. It can mean presentative cognition as opposed to *smṛti*, but it can also mean the consummation of *śravaṇa*, *manana*, *nididhyāsana*, or *upāsanā*. That is why classical authors do not oppose *anubhava* to *śabda* in the modern slogan-like way. Rather, they ask how scriptural cognition terminates in direct realization, or how devotion matures into a state in which the Lord is no longer known only by report. In practice *anubhava* is the register in which a school marks that a doctrine has become existentially operative rather than remaining merely discursive.",
+  "school_framing": {
+    "framing_status": "same_concept_different_aspect",
+    "shared_core": "*Anubhava* names **first-hand experiential cognition: cognition as undergone, not merely reported or inferred**. All schools that retain the term agree on this structural role. Vedāntic schools then disagree on whether *brahmānubhava* / *aparokṣa-anubhava* is the terminus of liberating cognition (Advaita) or the *jñāna-prema* of *Bhagavad-anubhava* (Gauḍīya, Viśiṣṭādvaita).",
+    "register_axes_note": "Same Φ+E+S register; differing scope-inside on what the highest *anubhava*'s object is. Real disagreement only at the level of *content* of the highest experience."
+  },
   "per_school": [
     {
       "school": "Advaita",
       "definition": "Advaita uses *anubhava* for the immediate self-disclosure in which the teaching of the Upaniṣads ceases to be merely verbal. The point is not private feeling. It is the culmination of *śravaṇa-manana-nididhyāsana* in non-dual realization, often described as *anubhava-paryanta*. *Śabda* initiates the cognition; *anubhava* is its terminus and confirmation.",
-      "primary_loci": ["Aitareya-Upaniṣad-Bhāṣya, upodghāta", "Upadeśa-Sāhasrī 18", "Brahma-Sūtra-Bhāṣya 1.1.4"]
+      "primary_loci": [
+        "Aitareya-Upaniṣad-Bhāṣya, upodghāta",
+        "Upadeśa-Sāhasrī 18",
+        "Brahma-Sūtra-Bhāṣya 1.1.4"
+      ]
     },
     {
       "school": "Viśiṣṭādvaita",
       "definition": "Viśiṣṭādvaita treats *anubhava* as the deepened experiential fruition of sustained *upāsanā*. One does not leave *śruti* behind; rather, scriptural meditation matures into *para-bhakti* and *para-jñāna*, in which the Lord is directly enjoyed as the indwelling whole. The term therefore belongs to a devotional-practice register as much as to epistemology.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§121-144", "Rāmānuja, Śrī-Bhāṣya 3.2.24-29 [NOT YET RETRIEVED]", "Yatīndra-Mata-Dīpikā 8"]
+      "primary_loci": [
+        "Vedārtha-Saṅgraha §§121-144",
+        "Rāmānuja, Śrī-Bhāṣya 3.2.24-29 [NOT YET RETRIEVED]",
+        "Yatīndra-Mata-Dīpikā 8"
+      ]
     },
     {
       "school": "Tattva-vāda (Dvaita)",
       "definition": "In Tattva-vāda the functional equivalent of liberating *anubhava* is *aparokṣa-jñāna* of Viṣṇu. The emphasis falls on grace-bestowed directness rather than on identity-cognition. What becomes immediate is the Lord's reality and the soul's dependence, not the cancellation of subject-object distinction. Hence *anubhava* remains theistic, hierarchical, and relational.",
-      "primary_loci": ["Madhva, Anu-Vyākhyāna 3.3", "Jayatīrtha, Pramāṇa-Paddhati [NOT YET RETRIEVED for anubhava locus]", "Mahābhārata-Tātparya-Nirṇaya 1.110ff [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Madhva, Anu-Vyākhyāna 3.3",
+        "Jayatīrtha, Pramāṇa-Paddhati [NOT YET RETRIEVED for anubhava locus]",
+        "Mahābhārata-Tātparya-Nirṇaya 1.110ff [NOT YET RETRIEVED]"
+      ]
     },
     {
       "school": "Acintya-Bhedābheda",
       "definition": "Gauḍīya usage tends to reserve the highest experiential language for devotional realization of Bhagavān. Here *anubhava* is not an autonomous inner court of appeal; it is disciplined by *śāstra*, *sādhu*, and *bhajana*. The deepest *anubhava* is relational and affective, culminating in *prema*, not an impersonal absorption that renders devotional distinctions provisional.",
-      "primary_loci": ["Jīva Gosvāmī, Bhakti-Sandarbha §§305-320 [NOT YET RETRIEVED]", "Caitanya-Caritāmṛta, Madhya 22.107-114 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Jīva Gosvāmī, Bhakti-Sandarbha §§305-320 [NOT YET RETRIEVED]",
+        "Caitanya-Caritāmṛta, Madhya 22.107-114 [NOT YET RETRIEVED]"
+      ]
     }
   ],
-  "see_also": ["saksatkara", "aparoksa-jnana", "jnana", "sabda", "pratyaksa"],
+  "see_also": [
+    "saksatkara",
+    "aparoksa-jnana",
+    "jnana",
+    "sabda",
+    "pratyaksa"
+  ],
   "translator_note": "The lazy gloss 'experience' is risky. In modern English it suggests private qualia, lifestyle immediacy, or a criterion independent of doctrine. Classical *anubhava* does not mean any of those things. It names presentative or realized cognition, often as the fruition of prior *śāstric* discipline. It should not be turned into a modern contrast term against scripture or tradition."
 }

@@ -3,31 +3,62 @@
   "term_iast": "anattā",
   "term_devanagari": "अनत्ता",
   "literal": "non-self (Pāli); the refusal of any persisting *atta* as owner, witness, or substrate of the aggregates",
-  "aliases": ["anatta", "anattā", "anattan", "anattatā", "Anattā", "non-self"],
+  "aliases": [
+    "anatta",
+    "anattā",
+    "anattan",
+    "anattatā",
+    "Anattā",
+    "non-self"
+  ],
   "invariant_definition": "The Pāli form of the Buddhist doctrine that no persisting self stands behind experience as owner, controller, or substance. In canonical presentation the target is the five *khandha*s: *rūpa*, *vedanā*, *saññā*, *saṅkhāra*, and *viññāṇa* are each to be seen as impermanent, suffering-prone, and not fit to be regarded as \"this is mine, this I am, this is my self.\" The doctrine therefore sits inside Buddhist *dharma* theory and dependent arising, not beside them. It blocks the move from continuity of memory, agency, or awareness to a substantial *ātman*. In practice it is a discipline of analysis: one examines the aggregates, the sense-bases, and the causal sequence of grasping until appropriation loosens. Mahāyāna developments preserve this personal non-self while extending the analysis from *pudgala-nairātmya* to *dharma-nairātmya*. The doctrine is not annihilationism: Buddhism does not deny the lived stream of consciousness or karmic continuity at the conventional level; it denies that those require a further self-substance.",
+  "school_framing": {
+    "framing_status": "different_concepts",
+    "shared_core": "*Anātman* / *anatta* names **the Buddhist denial that any *ātman* answering to the Upaniṣadic description is found among the *skandhas***. The structural role is denial, not affirmation; it is therefore not a positive concept in the way that Brāhmaṇical *ātman* is.",
+    "register_axes_note": "Methodology AF1: same Φ+E register and same scope-inside as the Brāhmaṇical *ātman* discussion — this is **real disagreement** on the same question, not a register-artifact. The same *śabda* is used to mean opposed claims about whether an enduring subject-pole exists. The schools do not 'describe the same concept from different aspects'; they are answering the same *ātman*-question with opposite answers."
+  },
   "per_school": [
     {
       "school": "Theravāda",
       "definition": "*Anattā* is one of the three marks and a principal object of *vipassanā*. The five *khandha*s and the causal series of dependent arising are analyzed so that no remainder is left over as possessor of the stream. The practical use is diagnostic and liberative: by repeatedly seeing the aggregates as not-self, craving and identification lose their footing. Buddhaghosa's analysis makes the point in Abhidhamma terms: there are only conditioned *dhamma*s and their arising and ceasing, not a hidden subject behind them.",
-      "primary_loci": ["Saṃyutta-Nikāya 22.59 (Anattalakkhaṇa-Sutta)", "Dhammasaṅgaṇī §1ff", "Visuddhimagga XVIII.25–30"]
+      "primary_loci": [
+        "Saṃyutta-Nikāya 22.59 (Anattalakkhaṇa-Sutta)",
+        "Dhammasaṅgaṇī §1ff",
+        "Visuddhimagga XVIII.25–30"
+      ]
     },
     {
       "school": "Sarvāstivāda",
       "definition": "The Sarvāstivādin accepts non-self as *pudgala-nairātmya*: there is no person over and above the *dharma* stream. What remains real are the *dharma*s themselves, each with its own *svabhāva* across the three times. The school therefore rejects the Vātsīputrīya *pudgala* while refusing the later Mahāyāna extension to *dharma-nairātmya*. The target is the personal substrate, not the irreducible constituents recognized by Abhidharma analysis.",
-      "primary_loci": ["Abhidharma-Kośa-Bhāṣya 9.1–43", "Mahā-Vibhāṣā [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Abhidharma-Kośa-Bhāṣya 9.1–43",
+        "Mahā-Vibhāṣā [NOT YET RETRIEVED]"
+      ]
     },
     {
       "school": "Mādhyamaka",
       "definition": "Mādhyamaka retains personal non-self but radicalizes it into universal lack of *svabhāva*. The self is not absent because more basic *dharma*s do the real work; rather, both person and *dharma* are empty when analyzed. This is the shift from *pudgala-nairātmya* to *dharma-nairātmya*. The practical consequence is that attachment to either a personal essence or a metaphysical building-block ontology is equally to be relinquished.",
-      "primary_loci": ["Mūla-Madhyamaka-Kārikā 18.1–12", "Mūla-Madhyamaka-Kārikā 24.18–19"]
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 18.1–12",
+        "Mūla-Madhyamaka-Kārikā 24.18–19"
+      ]
     },
     {
       "school": "Vedānta",
       "definition": "Vedāntic schools reject *anattā* because they take the witness or self to be irreducible, not analyzable away into aggregates or momentary events. Their criticism is not merely verbal: it turns on the claim that recognition, memory, and karmic responsibility require an enduring subject. The Buddhist denial of self is therefore treated as one of the defining *nāstika* positions to be answered in the *Brahma-Sūtra* commentarial tradition.",
-      "primary_loci": ["Brahma-Sūtra 2.2.18–32", "Brahma-Sūtra-Bhāṣya 2.2.18–32"]
+      "primary_loci": [
+        "Brahma-Sūtra 2.2.18–32",
+        "Brahma-Sūtra-Bhāṣya 2.2.18–32"
+      ]
     }
   ],
-  "see_also": ["atman", "anatman", "khandha", "saksin", "tathagatagarbha"],
+  "see_also": [
+    "atman",
+    "anatman",
+    "khandha",
+    "saksin",
+    "tathagatagarbha"
+  ],
   "translator_note": "\"Non-self\" is the least misleading English gloss. \"No-self\" often imports annihilationist baggage, as though Buddhism denied the empirical stream altogether; it does not. The doctrine rejects a substantial self behind the aggregates, not the conventional person, not karmic continuity, and not consciousness as experienced. English \"self\" also carries modern individualist and introspective assumptions that the Buddhist analysis is precisely designed to dismantle.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"

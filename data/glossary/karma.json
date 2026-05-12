@@ -16,6 +16,11 @@
   "last_verified_at": "2026-05-10",
   "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "*Karma* is much broader than the English word 'action.' Its background lies in the grammar of agency: Pāṇinian *kāraka* theory analyzes a process through roles such as *kartṛ*, *karaṇa*, and *karman*, so *karma* already belongs to a structured account of who acts, by what means, and upon what. Philosophical schools then extend that grammar into causal theory. Mīmāṃsā treats *karma* as Veda-enjoined performance under *codanā* and *bhāvanā*, with *apūrva* explaining delayed ritual efficacy. Yoga and Vedānta foreground the sequence of action, residual trace, and fruition - *karma*, *saṃskāra*, and *vipāka* - while Nyāya-Vaiśeṣika often speaks of *adṛṣṭa* as the unseen carryover connecting deed and result. Thus *karma* can name the act, the ritual performance, the residual deposit left by action, or the whole economy by which embodied life is steered. Buddhists reconfigure it around intention and conditioned continuity without a permanent self; Jains construe it as karmic matter binding the *jīva*. Vedānta inherits that whole apparatus and classifies karmic residue as *sañcita*, *prārabdha*, and *āgāmi* while disputing whether *jñāna*, *bhakti*, or disciplined action is decisive for release.",
+  "school_framing": {
+    "framing_status": "same_concept_different_aspect",
+    "shared_core": "All schools that retain the *śabda* *karma* mean **action together with the residual efficacy by which it links agent, cause, and later result**. The grammar is Pāṇinian (the *kāraka* role *karman* fixes 'that which is acted upon'); the metaphysical extension is the action-trace-fruition triad. Schools then differ on (i) the carrier of residual efficacy (*apūrva*, *adṛṣṭa*, *vāsanā*, *karma-pudgala*, *kārma-mala*), (ii) whether agency belongs to *puruṣa* or to *prakṛti*/*citta*/Śiva-*śakti*, and (iii) whether *karma* itself or *jñāna*/*bhakti*/*śūnyatā* removes bondage.",
+    "register_axes_note": "Mīmāṃsā speaks in RN+SL; Advaita and Viśiṣṭādvaita in S+E; Sāṃkhya in C+S; Buddhism in Φ+S without an enduring agent; Jainism gives *karma* a partially *different concept* (literal material *pudgala* adhering to the *jīva*). Where schools share the same register and scope (e.g., whether *karma* can directly produce *mokṣa*), the disagreement is real (Mīmāṃsā vs. Advaita on *jñāna-karma-samuccaya*; AF1)."
+  },
   "per_school": [
     {
       "school": "Advaita",
@@ -44,7 +49,8 @@
           "cite": "cite://sarvajnatman/samksepa-sariraka/1.327",
           "locus_short": "SS I.327"
         }
-      ]
+      ],
+      "register_tag": "S+E; mumukṣu"
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -70,7 +76,8 @@
           "cite": "cite://ramanuja/shri-bhasya/11",
           "locus_short": "ŚrīBh 11"
         }
-      ]
+      ],
+      "register_tag": "M+S; prapanna"
     },
     {
       "school": "Tattva-vāda",
@@ -84,7 +91,8 @@
           "cite": "cite://madhva/anuvyakhyana/1.1.13-15",
           "locus_short": "Anuvy. 1.1.13-15"
         }
-      ]
+      ],
+      "register_tag": "M+S; Tattvavādin"
     },
     {
       "school": "Bhedābheda",
@@ -103,7 +111,8 @@
           "cite": "cite://kesava-kasmiri/krama-dipika/8.96",
           "locus_short": "KD 8.96"
         }
-      ]
+      ],
+      "register_tag": "AD+S; bhakta"
     },
     {
       "school": "Dvaitādvaita",
@@ -138,7 +147,8 @@
           "cite": "cite://isvarakrsna/samkhya-karika/44",
           "locus_short": "SK 44"
         }
-      ]
+      ],
+      "register_tag": "C+S; mumukṣu"
     },
     {
       "school": "Yoga",
@@ -155,7 +165,8 @@
           "cite": "cite://vijnanabhiksu/yoga-varttika/1.23",
           "locus_short": "YV 1.23"
         }
-      ]
+      ],
+      "register_tag": "Φ+S; yogin"
     },
     {
       "school": "Nyāya-Vaiśeṣika",
@@ -188,7 +199,8 @@
           "cite": "cite://annambhatta/tarka-sangraha/71-72",
           "locus_short": "TSaṅg 71-72"
         }
-      ]
+      ],
+      "register_tag": "M+Eth; philosophical reader"
     },
     {
       "school": "Pūrva-Mīmāṃsā",
@@ -221,7 +233,8 @@
           "cite": "cite://shabara/mimamsa-sutra-bhasya/7.4.1-apurva",
           "locus_short": "ŚBh on MS 7.4.1"
         }
-      ]
+      ],
+      "register_tag": "RN+SL; adhikārin"
     },
     {
       "school": "Mādhyamaka",
@@ -234,7 +247,8 @@
           "cite": "cite://nagarjuna/mula-madhyamaka-karika/18.5",
           "locus_short": "MMK 18.5"
         }
-      ]
+      ],
+      "register_tag": "LD+Φ+S; reflective reader"
     },
     {
       "school": "Yogācāra",
@@ -248,7 +262,8 @@
           "cite": "cite://vasubandhu/trimsika/19",
           "locus_short": "Triṃ 19"
         }
-      ]
+      ],
+      "register_tag": "Φ+E; reflective reader"
     },
     {
       "school": "Pratyabhijñā / Trika",
@@ -276,7 +291,8 @@
           "cite": "cite://ksemaraja/pratyabhijna-hrdayam/9",
           "locus_short": "PH 9"
         }
-      ]
+      ],
+      "register_tag": "M+S; sādhaka"
     },
     {
       "school": "Jainism",
@@ -304,7 +320,8 @@
           "cite": "cite://umasvati/tattvartha-sutra/10.2",
           "locus_short": "TS 10.2"
         }
-      ]
+      ],
+      "register_tag": "M+S; reflective reader [partially different concept: material pudgala]"
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",
