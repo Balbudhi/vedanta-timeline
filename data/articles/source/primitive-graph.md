@@ -1,5 +1,304 @@
 # Primitive Graph
 
+## §0 — Scope, register, and language-game discipline
+
+The graph begins with a prior discipline. Before a primitive is assigned, before a comparison is staged, before a verdict is given, the claim has to be placed in its proper register, its proper scope, and its proper language-game. Without that prior placement the graph becomes too easy to misuse: it starts to treat one sentence-form as though it bore the same weight everywhere, and it starts to treat every repeated lexeme as though it named the same object under the same conditions of speech.
+
+This section states the minimum discipline. The full argument lives in the methodology dossier; the present section gives only the load-bearing operational summary.
+
+### §0.1 — The discipline
+
+The discipline articulated in this section is universal across the corpus. It applies to every cross-engagement the graph stages, not only to the worked cases the methodology dossier names. Many cross-tradition and intra-Vedānta disputes dissolve once register-translation is done with care: two authors may use the same word while speaking to different *adhikārins*, under different aims, and with different speech-acts, and the contradiction is then verbal or scope-bound rather than substantive. Many other disputes survive that translation. When two authors occupy the same register, address the same scope, and bind incompatible claims to the same doctrinal pressure-point, the disagreement is real and has to remain real. The point of the discipline is therefore double: dissolve the false disagreements, preserve the true ones.
+
+The method is anti-relativist for that reason. It does not say that every thinker is right in some private idiom. It says only that no verdict should be pronounced until the idiom, the addressee, the speech-act, and the doctrinal aim have been made explicit. That is what lets the graph distinguish a merely shifted register from a genuine collision.
+
+### §0.2 — Register taxonomy (P0 + P1)
+
+The graph uses two layers.
+
+`P0` is the working vocabulary. It is the load-bearing set that should appear everywhere in the corpus. These are the first tags to ask about, and in most comparisons they are sufficient.
+
+`P1` is the optional analytic layer. It is used when `P0` is too coarse and collapses distinctions the text itself is insisting on.
+
+#### P0 — the five working registers
+
+The tri-lingual samples below are mnemonic claim-shapes, not free-standing theses. They are drawn from the kinds of examples the methodology itself uses in §1. Their purpose is only to keep the register-difference in view.
+
+| P0 register | Definition | Sanskrit sample | German sample | English sample |
+|---|---|---|---|---|
+| `P — pedagogical` | A claim about what a teacher says to a student at a stage, often provisionally and under a fitness-condition. | `adhyāropa-apavādaḥ` | `Lehrweg` | `stage-fitted instruction` |
+| `M — metaphysical` | A claim about what is: substrate, dependence, plurality, identity, manifestation. | `brahma asti` | `Substanz hat nur eine Natur` | `many independent reals exist` |
+| `Φ — phenomenological` | A claim about how the world, self, or error is given in lived experience. | `nāma-rūpa-pratītiḥ` | `das Ich ist nicht Gegenstand` | `the world appears as name-and-form` |
+| `S — soteriological` | A claim about liberation, its means, its order, or its consummation. | `tat tvam asi` | `Erlösung durch Erkenntnis` | `through devotion alone` |
+| `T — teleological` | A claim about what a discourse, argument, or text is for. | `samanvayāt` | `Zweck der Kritik` | `the argument aims at disclosure` |
+
+The practical use of `P0` is simple.
+
+Ask first: is this sentence telling us what is the case, how it appears, how it is taught, how liberation proceeds, or what the inquiry is trying to do? If one of those five answers is clear, begin there. Do not rush to a finer label unless a finer label changes the verdict.
+
+`P` is required because the same proposition-shape can function differently at different levels of instruction. A sentence addressed to the novice and a sentence addressed to the realized knower need not contradict one another, even when the surface lexicon remains constant.
+
+`M` is required because many genuine disagreements are ontological and should not be dissolved into pedagogy. If one thinker says finite difference is real and non-sublatable and another says it is sublatable under liberating knowledge, the disagreement is not a matter of tone.
+
+`Φ` is required because some claims are first about the structure of appearing. The question is not yet what reality is in itself, but how self, world, error, or disclosure are present in experience.
+
+`S` is required because many Vedāntic claims are made under the pressure of release rather than under the pressure of neutral description. A soteriological negation should not be read as though it were automatically a metaphysical nullification.
+
+`T` is required because an argument often names its own aim. A sentence may state not the doctrine itself but the work the doctrine is supposed to do: reconcile scriptural passages, refute a rival, prepare a contemplative shift, or expose a contingent origin.
+
+#### P1 — the optional analytic layer
+
+The methodology papers are numerically unstable on the total count. One place speaks of a seventeen-register taxonomy; the explicit list in `SCOPE_REGISTER_FRAMEWORK.md §1` names sixteen labels. `PLAN_v2.md §1` earlier left `S` in the optional layer; the present brief promotes `S` into `P0`. I preserve that mismatch rather than inventing a twelfth residual label.
+
+The named `P1` remainder is therefore:
+
+| P1 register | Use when `P0` is too blunt |
+|---|---|
+| `E — epistemological` | When the claim is about warrant, pramāṇa, reduction, sublatability, or the conditions under which something may be known. |
+| `Eth — ethical` | When the burden falls on obligation, responsibility, or norm of action rather than on liberation or ontology. |
+| `A — aesthetic` | When the text is treating form, presentation, or rasa as such. |
+| `AD — aesthetic-devotional` | When a hymn, devotional poem, or bhakti-rasa text must not be flattened either into pure metaphysics or into bare pedagogy. |
+| `PS — political-social` | When a claim is about collective order, discipline, institution, or social production. |
+| `Mh — methodological` | When the text is stating how inquiry is to proceed rather than stating its substantive result. |
+| `SL — semantic-linguistic` | When the pressure falls on word, sentence, sign, denotation, injunction, or linguistic mediation. |
+| `C — cosmological` | When the issue is world-architecture, emanation, evolution, creation-order, or process-structure. |
+| `LD — logical-dialectical` | When the issue is argument-form, contradiction, refutation, or inferential pressure. |
+| `RN — ritual-normative` | When the text is specifying injunction, rite, or the normativity internal to liturgical action. |
+| `HG — historical-genealogical` | When the claim is about emergence, descent, contingent formation, or historical production. |
+
+The rule of use is strict. `P0` remains the working vocabulary across the corpus. `P1` appears only where `P0` would collapse a real distinction. A sentence can of course carry secondary tags. The point is only that no one should begin with the finest grain when the coarser grain already settles the comparison.
+
+### §0.3 — Scope taxonomy
+
+Register alone is not enough. Two claims can share a register and still miss one another because they differ in scope.
+
+The operational scope-tuple is the *catur-anubandha*:
+
+- *adhikārin* / *adhikārī* — the qualified audience, addressee, or eligible hearer
+- *viṣaya* — the subject-matter under discussion
+- *sambandha* — the relation the text bears to that subject, source, or authority
+- *prayojana* — the purpose, end, or practical aim
+
+The graph uses these four not as scholastic ornament but as live constraints.
+
+#### *Adhikārin*
+
+Who is being addressed?
+
+A sentence addressed to the *mumukṣu* is not automatically addressed to the realized knower, and a sentence addressed to the rival polemicist is not automatically addressed to either of them. The addressee is part of the claim. Śaṅkara's opening *Brahma-Sūtra-Bhāṣya* presupposes a qualified aspirant marked by discrimination, dispassion, discipline, and desire for liberation, not a generic reader [BSB 1.1.1, introductory *adhikāra* discussion].
+
+This matters because a claim can be true-for-the-stage without being the whole doctrine. A sentence fitted to the seeker may be pedagogically indispensable while remaining silent on the final realized stance.
+
+#### *Viṣaya*
+
+What is the claim about, exactly?
+
+The same lexeme can shift *viṣaya*. *Jagat* in one context may mean the lived field of bondage and action. In another it may mean the world recovered under realization as divine manifestation. Unless the `inside` of the abstraction is fixed, the comparison is still premature.
+
+The graph therefore asks two scope questions at once:
+
+- what is inside the abstraction?
+- what is outside it, that is, what the claim is not trying to settle?
+
+That second question is as important as the first. Many apparent contradictions arise because the outside of one claim is silently imported into the inside of another.
+
+#### *Sambandha*
+
+What sort of relation does the sentence bear to the subject-matter?
+
+This is where speech-act enters. The relation may be:
+
+- assertion
+- instruction
+- refutation
+- hymn
+- provisional positing
+- withdrawal
+- reconciliation of scriptural passages
+
+One should never treat a hymn as though it were identical in force to a dialectical refutation merely because both contain the same divine name. The sentence does different work in the discourse.
+
+#### *Prayojana*
+
+What is the claim for?
+
+Some claims are made to liberate. Some are made to defeat an opponent. Some are made to discipline ritual action. Some are made to fix ontology. Some are made to show that apparently conflicting scriptural passages belong to one doctrinal whole. The *prayojana* of the utterance often explains why the same word is being deployed with a different weight.
+
+#### *Adhikāra*
+
+The doctrine of *adhikāra* states the context-sensitivity of utterance with unusual force. The same śāstra can say more than one thing because it is speaking to more than one fitness-condition.
+
+That is not evasiveness. It is a discipline. The pedagogical sentence, the contemplative sentence, the polemical sentence, and the concluding doctrinal sentence do not bear the same burden. The graph therefore treats context-sensitivity as part of the claim rather than as a later apology for inconsistency.
+
+Operationally, every serious comparison should be able to answer four questions before it announces either agreement or disagreement:
+
+1. Who is being addressed?
+2. What exact subject-matter is in scope?
+3. What sort of relation or speech-act is the sentence performing?
+4. What aim does the sentence serve?
+
+### §0.4 — The Sanskrit-grammar layer
+
+The graph is not allowed to use "register" as a free modern metaphor. Its discipline has to be anchored in the indigenous grammar tradition where the text itself already distinguishes word, object, and cognition.
+
+#### Patañjali
+
+In the *Paspaśāhnika*, Patañjali asks what a *śabda* is. He rejects the thing as such, the gesture as such, the sensible quality as such, and the generic form as such. Then he gives the load-bearing sentence:
+
+> *yenoccāritena sāsnā-lāṅgūla-kakuda-khura-viṣāṇināṃ saṃpratyayo bhavati sa śabdaḥ*
+> "That is *śabda* by whose utterance there arises a cognition of the horned, hoofed, tailed, humped bearer of the mark in question."
+> (*Mahābhāṣya*, *Paspaśāhnika*, Kielhorn vol. I, pp. 6-7 [local OCR witness])
+
+He then adds:
+
+> *athavā pratīta-padārthako loke dhvaniḥ śabda ity ucyate*
+> "Or, in ordinary usage, the sound that conveys an understood object is called *śabda*."
+> (*Mahābhāṣya*, *Paspaśāhnika*, Kielhorn vol. I, p. 7 [local OCR witness])
+
+The present graph uses these lines with restraint.
+
+Patañjali does not give us a lazy dyad of sound and thing. The decisive pressure is triangular: uttered sound, understood object, and the cognition generated in the hearer. The methodology's shorthand `śabda / artha / pratyaya` is a disciplined summary of that field, not a license to pretend that every repeated word carries one invariant referent and one invariant concept across traditions.
+
+In cross-translation this means:
+
+- `śabda` asks what word or phrase is being used
+- `artha` asks what object or field that usage is picking out here
+- `pratyaya` asks what cognition, concept, or hearer-side formation is mediating the use
+
+If two thinkers share the same `śabda` but not the same `artha` or `pratyaya`, the graph must say so before it says anything about contradiction.
+
+#### Bhartṛhari: *śabda-brahman* and the P1 extension
+
+Bhartṛhari radicalizes the question by treating meaningful articulation itself as ontologically basic:
+
+> *anādi-nidhanaṃ brahma śabda-tattvaṃ yad akṣaram |
+> vivartate 'rtha-bhāvena prakriyā jagato yataḥ ||*
+> "Beginningless and endless Brahman, the imperishable word-principle, unfolds as meaning; from it proceeds the process of the world."
+> (*Vākyapadīya* I.1, Abhyankar ed.; translation here follows the line of the methodology dossier and the local Sanskrit witness)
+
+This does not turn the graph into a universal *śabda-advaita*. It does, however, sharpen one methodological point: sometimes the Patañjalian triad is too coarse, because the real issue is not merely word versus referent versus cognition, but the level of articulation at which the claim is being made.
+
+That is where the *vāc*-hierarchy enters as a `P1` instrument.
+
+The local witnesses support the sequence *paśyantī / madhyamā / vaikharī*, though the exact verse-numbering at *Vākyapadīya* I.131 is not fully stable in the OCR witnesses [textually-not-fully-confirmed]. The working distinction is nevertheless clear:
+
+- *vaikharī* — articulated audible speech
+- *madhyamā* — interior articulation, thought-formed speech
+- *paśyantī* — undivided pre-articulation or visionary speech
+
+The graph does not use this hierarchy promiscuously. It is an escalation rule. Use it only when the `śabda / artha / pratyaya` triad still leaves a real ambiguity about level.
+
+#### Bhartṛhari: *sphoṭa*
+
+The second `P1` extension is *sphoṭa*. The doctrine lives across *Vākyapadīya* Kāṇḍa I, principally at I.44-52 and I.73-95 in the standard Abhyankar numbering, with the *sphoṭa* / *dhvani* distinction the load-bearing move: the *sphoṭa* is the meaning-bearing unit grasped as a whole, the *dhvani* is the audible noise through which it is conveyed. The local OCR witnesses do not yet permit a stable verbatim citation [NOT YET RETRIEVED — verse-numbering and verbatim text pending clean Abhyankar / Iyer edition].
+
+Whether one accepts the full doctrinal burden of *sphoṭa* is a separate question. The graph needs only the methodological minimum: meaning is not always exhausted by piecemeal phonetic decomposition; sometimes the unit that matters is the burst of sense grasped as one.
+
+The escalation rule is therefore:
+
+- begin with `śabda / artha / pratyaya`
+- if that triad is still too coarse, ask whether the dispute is really about level of articulation
+- if even that remains insufficient, ask whether the relevant unit is a decomposed string or a grasped whole
+
+This is enough for the present graph. The fuller *vyākaraṇa* argument belongs in the methodology dossier.
+
+### §0.5 — Language-game discipline
+
+The nearest late-Western analogue is Wittgenstein's insistence that meaning is use, that use is embedded in a form of life, and that some practical certainties function as hinges rather than as inferred propositions [*Philosophical Investigations* §§23, 43; *On Certainty* §§341-343].
+
+The graph borrows only the discipline, not the genealogy. A claim has a use, that use belongs to a form of life, and some commitments are not being argued from scratch in the local context because they function as the unnoticed hinges of the discourse. A bhāṣya, a hymn, a polemical tract, and a genealogical critique are not playing the same game.
+
+The independence point matters. The Indian grammarians and commentators reach the same methodological sobriety without any historical dependence on Wittgenstein. The resemblance is structural convergence, not influence; the anti-fabrication discipline forbids a fabricated lineage here. Two traditions, without contact, arrived at parallel disciplines for preventing the flattening of meaning across unlike contexts.
+
+In graph-terms the language-game question asks:
+
+- what counts as success here?
+- what grammar of use is being presupposed?
+- what hinges are left standing while the sentence is spoken?
+
+If those are not answered, the comparison has started too early.
+
+### §0.6 — Anti-fabrication rules AF1-AF9
+
+These rules govern when the register-method is and is not allowed to dissolve a disagreement.
+
+`AF1 — Same primary register + same scope-inside + same addressee ⇒ disagreement is real.`
+`If two claims share their primary register, their scope-inside, and their addressee, then the register-reading cannot dissolve the disagreement; the claims are competing directly.`
+Justification: once those three coordinates coincide, procedural harmony would be fabrication.
+
+`AF2 — Differing scope-inside but same register is a register-translation, not a register-difference.`
+`When two claims share a primary register but pick out different scope-inside, the disagreement is apparent at the śabda-level but dissolved at the artha + pratyaya level.`
+Justification: a shifted object-field inside one register is exactly what register-translation is for.
+
+`AF3 — The vāc-hierarchy is not a license.`
+`Bhartṛhari's vāc-hierarchy can be invoked to mark register-differences, but it cannot be invoked to manufacture them.`
+Justification: level-talk is diagnostic only when the text itself forces it.
+
+`AF4 — Acintya is not a universal solvent.`
+`The acintya-śakti move is a legitimate philosophical position when made by a thinker who is making it as a constructive thesis. It is not a license for the methodology to assert acintya as the resolution of any disagreement that resists analysis.`
+Justification: when the graph cannot resolve a dispute, it must preserve the dispute.
+
+`AF5 — The hymn-register is post-realization speech, not a separate doctrine.`
+`The stotra-register is post-realization speech in AD-register; it is not a separate doctrine that competes with the BSB doctrine.`
+Justification: devotional speech may change register without entitling the reader to invent a second metaphysics.
+
+`AF6 — Cross-tradition synergy requires explicit register-translation.`
+`When the methodology proposes that two cross-tradition claims are register-related, the register-translation must be made explicit, with quotation from primary sources on both sides.`
+Justification: vague likeness is not evidence.
+
+`AF7 — When in doubt, mark [REGISTER-CONTESTED].`
+`The methodology adds [REGISTER-CONTESTED] as a tag for cross-engagements where the register-classification itself is disputed.`
+Justification: uncertainty is a flag for review, not a reason to force a verdict.
+
+`AF8 — Continuity through registers does not imply continuity of doctrine.`
+`A single thinker speaking in two registers does not by that fact integrate the two register-claims into a single doctrine.`
+Justification: register-multiplicity and doctrinal identity are not the same question.
+
+`AF9 — When the methodology cannot resolve a disagreement via register-translation, the disagreement is checked against the primitive-graph's 22 primitives. Two thinkers disagreeing on a primitive's value constitutes a substantive disagreement that survives any register-reading.`
+`When Codex's Track B rewrite encounters such a primitive-value disagreement, the cross-engagement block must mark the disagreement as primitive-value-disagreement and not invoke register-translation.`
+Justification: primitive-value conflict is the graph's substantive detector, and once it is triggered the disagreement remains visible as disagreement.
+
+The three canonical `AF9` tests remain:
+
+- Bhāskara `aupādhika-bhedābheda` versus Nimbārka `svābhāvika-bhedābheda` on `identity_relation`
+- K.C. Bhattacharyya `alternative-irreducible-truths` versus Hegel `sublated-into-higher-whole` on `modal_structure_of_truth`
+- Hegel `sublative-becoming` versus Aurobindo `real-cosmological-evolution` on `register_of_evolution`
+
+These are not disputes that register-translation should blur.
+
+### §0.7 — The anchor case: Śaṅkara and Vallabha
+
+The discipline above is universal, but a worked example at the front of the graph is what trains the reader to apply it elsewhere. The Śaṅkara-Vallabha pair below is one such training case. The same five questions — primary register, scope-inside, addressee, speech-act, doctrinal aim — should be put to every cross-engagement in the corpus, whether the pairing is intra-Vedāntic, cross-darśanic, or cross-civilizational.
+
+#### Case 1A — the false contradiction that dissolves
+
+Śaṅkara's discussion of effect and cause at [BSB 2.1.14](cite://sankara/brahma-sutra-bhasya/2.1.14) is addressed to the seeker under *adhyāsa*. Its soteriological pressure is inseparable from its metaphysical claim. The world under that description is the lived world of bondage, name-and-form, and sublatability under liberating knowledge. Vallabha's discussion of `lokavat tu līlākaivalyam` in the *Aṇu-Bhāṣya* at 2.1.33, by contrast, presses the realized-ontological question: *loke līlāyāṃ hi na kiṃcit prayojanam asti. līlāyā eva prayojanatvāt* — creation is not need-driven production but play itself, with no ulterior lack to be repaired (*engagement-vallabha__anu-bhasya.md*, Passage 2, lines 6271-6279; cf. [BSB 2.1.33](cite://sankara/brahma-sutra-bhasya/2.1.33)).
+
+The contradiction therefore dissolves once scope is restored. Śaṅkara is not denying the final reality of divine manifestation at that point. Vallabha is not describing the seeker's world under the burden of superimposition. They are speaking across different *adhikārins* and different *prayojanas*. The shared `śabda` is `jagat`; the shifted `pratyaya` is the state from which that world is being spoken.
+
+That is a genuine `register-translation`. The graph should say so plainly.
+
+#### Case 1B — the real disagreement that survives
+
+Vallabha's third-adhyāya discussion does not permit an easy flattening. At 3.3.33 he states: *tena jñānamārge 'kṣaraviṣayakāṇy eva jñānāni nirūpyante, puruṣottamaviṣayakāṇi neti niścīyate ... akṣarād api cottamaḥ ... bhaktyā mām abhijānāti* (*engagement-vallabha__anu-bhasya.md*, Passage 5, lines 9633-9653). The knowledge-route aimed at *akṣara* is not yet the consummation centered on *puruṣottama*. Bhakti is the route to a distinct and higher object.
+
+That disagreement survives translation. It is not a quarrel about wording. It is an `S`-register dispute about end, path, and consummation. Vallabha ranks the goals. Śaṅkara does not reproduce that ranking in this form. The graph should preserve the disagreement as disagreement.
+
+#### Why this case comes first
+
+The case shows why the method is not relativism: one apparent contradiction dissolves, one real contradiction remains, and the graph has to be able to tell which is which. That is the discipline the rest of the graph applies, case by case, across every comparison it stages.
+
+### §0.8 — Pointer to the full methodology corpus
+
+This section is only the front-end operating manual. For the full argument, the worked cases, the Sanskrit-grammar expansion, the adversarial review, and the execution briefs, see the methodology corpus at `scope_register_methodology/methodology/`:
+
+- `PHASE0_INTERNALIZATION.md`
+- `SCOPE_REGISTER_FRAMEWORK.md`
+- `ADVERSARIAL_REVIEW.md`
+- `PLAN_v2.md`
+- `CORPUS_REWRITE_PLAN.md`
+- `HANDOFF_TO_EXECUTION.md`
+
 ## §1 — What the graph is for
 
 The graph is not a winner-picking machine.
@@ -33,7 +332,7 @@ The current document is built for that wider task.
 
 ## §2 — Reading discipline
 
-The graph is governed by six rules.
+The graph is governed by eight rules.
 
 
 ### Rule 1 — Read the closest stable textual layer first
@@ -90,9 +389,14 @@ The allowed registers for this graph are:
 - metaphysical
 - epistemological
 - phenomenological
+- pedagogical
+- teleological
+- methodological
 - semantic-linguistic
+- cosmological
 - logical-dialectical
 - aesthetic
+- aesthetic-devotional
 - ritual-normative
 - ethical
 - political-social
@@ -131,6 +435,20 @@ Examples:
 - Abhinavagupta's philosophical and ritual-aesthetic articulation
 
 Where the mixed profile is load-bearing, record more than one commitment rather than collapsing the thinker into a false single-value summary.
+
+### Rule 7 — Scope before agreement
+
+Before asserting agreement or disagreement between two thinkers, identify the register, scope, addressee, and speech-act for each claim.
+
+
+Many apparent agreements collapse and many apparent disagreements dissolve under this discipline.
+
+### Rule 8 — The Sanskrit-grammar layer governs cross-translation
+
+When mapping between two technical vocabularies, the *śabda* / *artha* / *pratyaya* triad provides the discipline.
+
+
+Where the triad collapses too coarsely, escalate to Bhartṛhari's *vāc*-hierarchy or the *sphoṭa* doctrine.
 
 ## §3 — Primitive nodes
 
