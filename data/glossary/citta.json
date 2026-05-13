@@ -13,6 +13,11 @@
     "cittavrtti"
   ],
   "invariant_definition": "*Citta* operates in two related but non-identical registers that must be kept apart. In Yoga it names the entire mutable mental field whose *vṛtti*s are to be stilled: memory, imagination, error, sleep, and valid cognition all belong to *citta*. In later Vedāntic psychology it more often names one functional aspect of the *antaḥkaraṇa*: the retaining, dwelling, and recollective layer in which impressions persist as *saṃskāra* and *vāsanā*. The overlap between the two is significant. In both cases *citta* is the operative field in which latent dispositions mature into present cognition and future action. That is why *citta-śuddhi* is a practical constant across schools. Without purification of this field, one remains governed by sedimented tendencies rather than by knowledge. The term must also be distinguished from *cit* or *caitanya*: *citta* is not pure consciousness but the mutable, impression-bearing medium in which consciousness is reflected or through which it operates.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Citta* names **the mental continuum: the field of cognitive episodes whose stabilization is the soteriological target**. Yoga gives the paradigm definition with *yogaś citta-vṛtti-nirodhaḥ* (*YS* 1.2). Buddhist *citta* (especially in Yogācāra) names the cognitive stream itself, structured by *vāsanā* and potentially identical with *ālaya-vijñāna* (*Triṃśikā* 1–5). Advaita treats *citta* as one of the four *antaḥkaraṇa*-functions: the *anusandhāna*-faculty.",
+    "register_axes_note": "**Different concept** at the M-level between Yogācāra's *citta-mātra* (mind-only, vijñapti-stream) and Vedāntic *citta* (one cognitive function within the *antaḥkaraṇa* of a substantial *jīva*). Same Φ-register on the *vṛtti*-stream description. Yoga's *citta* is operationally neutral between these readings (Patañjali's *YS* does not commit on whether *citta* is *prākṛta-pariṇāma* or *vijñapti*-mātra)."
+  },
   "per_school": [
     {
       "school": "Advaita",
@@ -34,7 +39,8 @@
           "cite": "cite://sankara/vivekacudamani/26-local",
           "locus_short": "VC 26"
         }
-      ]
+      ],
+      "register_tag": "Φ+M; mumukṣu (antaḥkaraṇa-function)"
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -51,7 +57,8 @@
           "cite": "cite://ramanuja/gita-bhasya/6.14-19-maccitto",
           "locus_short": "BhGR 6.14-19"
         }
-      ]
+      ],
+      "register_tag": "M+Φ; prapanna"
     },
     {
       "school": "Tattva-vāda",
@@ -69,7 +76,8 @@
           "cite": "cite://jayatirtha/nyaya-sudha/cittavrttinirodha-upasana",
           "locus_short": "NS 10.77"
         }
-      ]
+      ],
+      "register_tag": "M+Φ; Tattvavādin"
     },
     {
       "school": "Bhedābheda",
@@ -78,7 +86,8 @@
         "Bhāskara materials",
         "Yādava-Prakāśa materials"
       ],
-      "citations": []
+      "citations": [],
+      "register_tag": "M+Φ; upāsaka"
     },
     {
       "school": "Acintya-Bhedābheda",
@@ -96,7 +105,8 @@
           "cite": "cite://jiva-gosvami/sat-sandarbha/subhasraya-cittasya",
           "locus_short": "SatS 3900"
         }
-      ]
+      ],
+      "register_tag": "M+AD; bhakta"
     },
     {
       "school": "Dvaitādvaita",

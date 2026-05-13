@@ -12,6 +12,11 @@
     "buddhyā"
   ],
   "invariant_definition": "*Buddhi* is the determinative and discriminative function of the inner apparatus: the point at which a merely presented content becomes a judged or settled cognition. In Sāṃkhya it is the first evolute of *prakṛti* and is often identified with *mahat*, the great principle from which more articulated individuality emerges. In practical psychology it is the faculty of *adhyavasāya*, discrimination, resolve, and decision. That makes it central to epistemology and liberation alike. A cognition is not just sensed; it must be taken as this rather than that, true rather than false, to-be-pursued rather than to-be-avoided. Vedānta preserves this role and asks what exactly happens in *buddhi* when liberating knowledge arises. Advaita answers with *vṛtti* and *cidābhāsa*; Viśiṣṭādvaita and Tattva-vāda (Dvaita) treat it as the real instrument through which the self's knowledge functions. Nyāya-Vaiśeṣika uses *buddhi* differently again, as cognition considered as a quality rather than as an inner faculty. The term therefore sits at the junction of ontological psychology and formal epistemology.",
+  "school_framing": {
+    "framing_status": "same_concept_different_aspect",
+    "shared_core": "*Buddhi* names **the determinative cognitive function: the *adhyavasāya*-faculty that fixes its object as *idam*-such-and-such**, paradigmatically defined at *Sāṃkhya-Kārikā* 23 (*adhyavasāyo buddhiḥ*) and at *YS* 2.6. All Brāhmaṇical schools accept the structural role. Advaita treats *buddhi* as a *vṛtti*-bearing *upādhi* whose *akhaṇḍākāra-vṛtti* is the proximate locus of *brahma-jñāna*. Viśiṣṭādvaita and Tattva-vāda treat *buddhi* as a real *prakṛti*-evolute proper to the *jīva*.",
+    "register_axes_note": "Same Φ+E register, same scope-inside. Real disagreement only at the M-level on whether *buddhi* is an *upādhi* or an integral *prakṛti*-evolute of the *jīva* — same pattern as *antaḥkaraṇa* and *ahaṃkāra*."
+  },
   "per_school": [
     {
       "school": "Advaita",
@@ -30,7 +35,8 @@
           "cite": "cite://sankara/vivekacudamani/26",
           "locus_short": "VC 26"
         }
-      ]
+      ],
+      "register_tag": "Φ+E; mumukṣu"
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -48,7 +54,8 @@
           "cite": "cite://yamuna/atma-siddhi/6",
           "locus_short": "ĀS 6"
         }
-      ]
+      ],
+      "register_tag": "M+Φ; prapanna"
     },
     {
       "school": "Tattva-vāda",
@@ -67,19 +74,22 @@
           "cite": "cite://madhva/upadhi-khandana/5",
           "locus_short": "UpK 5"
         }
-      ]
+      ],
+      "register_tag": "M+Φ; Tattvavādin"
     },
     {
       "school": "Bhedābheda",
       "definition": "[NOT YET RETRIEVED]",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "register_tag": "M+Φ; upāsaka"
     },
     {
       "school": "Acintya-Bhedābheda",
       "definition": "[NOT YET RETRIEVED]",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "register_tag": "M+AD; bhakta"
     },
     {
       "school": "Dvaitādvaita",

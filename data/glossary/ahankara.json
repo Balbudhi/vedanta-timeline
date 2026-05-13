@@ -3,31 +3,73 @@
   "term_iast": "ahaṅkāra",
   "term_devanagari": "अहङ्कार",
   "literal": "the I-maker, ego-fabricator; from aham 'I' + √kṛ 'to make'",
-  "aliases": ["ahankara", "ahaṅkāra", "ahaṃkāra", "Ahaṅkāra", "ahaṅkārasya", "ahankar", "ahamkara"],
+  "aliases": [
+    "ahankara",
+    "ahaṅkāra",
+    "ahaṃkāra",
+    "Ahaṅkāra",
+    "ahaṅkārasya",
+    "ahankar",
+    "ahamkara"
+  ],
   "invariant_definition": "*Ahaṅkāra* is the appropriative function that says 'I' and 'mine' with respect to the body, senses, thoughts, and acts. It is therefore not just pride or vanity. In the classical Sāṃkhya sequence it is a real evolute of *mahat/buddhi* and the point at which the undifferentiated causal order is articulated into the structures required for experience: mind, senses, and subtle elements. In Vedānta and Yoga psychology it becomes the practical name for the doer-appropriator, the node where witness-consciousness is confused with psychophysical process. Hence *ahaṅkāra* is tied to *kartṛtva*, *bhoktṛtva*, bondage, and the grammar of *karma*. Schools disagree on whether this 'I-maker' is merely an apparent superimposition, a real *prakṛti* category, or a real but removable adjunct. But they agree that liberation requires a decisive loosening of *ahaṅkāra*, because without that loosening every cognition is immediately folded back into the posture 'I act', 'I enjoy', 'I suffer'.",
+  "school_framing": {
+    "framing_status": "same_concept_different_aspect",
+    "shared_core": "*Ahaṃkāra* names **the I-maker: the cognitive function that appropriates experience as 'mine' and constitutes the empirical agent-self**. Sāṃkhya-Yoga gives the paradigm definition: *ahaṃkāra* is the *prakṛti*-evolute between *mahat* and the *tanmātras* (*Sāṃkhya-Kārikā* 22–25). Advaita inherits the Sāṃkhya analysis and identifies *ahaṃkāra* with one mode of the *antaḥkaraṇa*. Viśiṣṭādvaita and Tattva-vāda treat *ahaṃkāra* as a real *prakṛti*-function whose appropriations are *upādhi*-relative.",
+    "register_axes_note": "Same Φ+M register, same scope-inside (I-making function). Real disagreement only at the M-level on whether the *ahaṃkāra* belongs to a *jīva* eternally distinct from *Īśvara* (Tattva-vāda, Viśiṣṭādvaita) or to the *adhyāsa*-ridden seeker whose I-appropriation will dissolve at *jñāna* (Advaita)."
+  },
   "per_school": [
     {
       "school": "Sāṃkhya / Yoga",
       "definition": "*Ahaṅkāra* is a real evolute of *prakṛti* arising from *mahat*. From it proceed the mind, the senses, and the subtle elements according to its differentiated modes. Yoga treats the appropriative sense most directly under *asmitā*: the confusion of seer and instrument. Thus *ahaṅkāra* is not an accidental mood but a structural principle of empirical individuality.",
-      "primary_loci": ["Sāṃkhya-Kārikā 24–27", "Yoga-Sūtra 2.6", "Yoga-Sūtra-Bhāṣya 2.6"]
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 24–27",
+        "Yoga-Sūtra 2.6",
+        "Yoga-Sūtra-Bhāṣya 2.6"
+      ],
+      "register_tag": "M+Φ; mumukṣu / yogin (prakṛti-evolute)"
     },
     {
       "school": "Advaita",
       "definition": "*Ahaṅkāra* is the inner-instrument function in which *cidābhāsa* is most explicitly taken to be the self, yielding the claims 'I am the doer' and 'I am the enjoyer'. It is therefore a principal vehicle of *adhyāsa*. The liberated person may continue to exhibit a transactional first-person standpoint so long as *prārabdha* persists, but its binding force is gone because the identification with *ātman* has been severed.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1 (adhyāsa-bhāṣya)", "Bhagavad-Gītā-Bhāṣya 3.27", "Pañcadaśī 7.202–210 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 1.1.1 (adhyāsa-bhāṣya)",
+        "Bhagavad-Gītā-Bhāṣya 3.27",
+        "Pañcadaśī 7.202–210 [NOT YET RETRIEVED]"
+      ],
+      "register_tag": "Φ+S; mumukṣu (antaḥkaraṇa-mode dissolving in jñāna)"
     },
     {
       "school": "Viśiṣṭādvaita",
       "definition": "*Ahaṅkāra* is a real category of the material order with which the *jīva* is karmically associated. What is rejected is not individuality as such, but the false appropriation of what belongs to *prakṛti* and the failure to understand the self's dependence on the Lord. Even in liberation the self does not lose self-awareness; it loses *prākṛta* egoity.",
-      "primary_loci": ["Gītā-Bhāṣya (Rāmānuja) 3.27", "Vedārtha-Saṅgraha §§82–88", "Yatīndra-Mata-Dīpikā 5"]
+      "primary_loci": [
+        "Gītā-Bhāṣya (Rāmānuja) 3.27",
+        "Vedārtha-Saṅgraha §§82–88",
+        "Yatīndra-Mata-Dīpikā 5"
+      ],
+      "register_tag": "M+Φ; prapanna (real upādhi of jīva)"
     },
     {
       "school": "Tattva-vāda",
       "definition": "*Ahaṅkāra* is a real *prakṛti-tattva* and must be distinguished from the self's true individuality. Madhva does not permit liberation to erase personal distinctness; what is removed is the materialized and prideful appropriation that mistakes dependent agency for independence. This preserves a robust first-person reality while still diagnosing bondage through egoic mislocation.",
-      "primary_loci": ["Bhagavad-Gītā-Tātparya 3.27 [NOT YET RETRIEVED]", "Tattva-Saṅkhyāna 5–7", "Brahma-Sūtra-Bhāṣya (Madhva) 2.4 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Bhagavad-Gītā-Tātparya 3.27 [NOT YET RETRIEVED]",
+        "Tattva-Saṅkhyāna 5–7",
+        "Brahma-Sūtra-Bhāṣya (Madhva) 2.4 [NOT YET RETRIEVED]"
+      ],
+      "register_tag": "M+Φ; Tattvavādin (real prakṛti-function)"
     }
   ],
-  "see_also": ["antahkarana", "manas", "buddhi", "citta", "atman", "adhyasa", "kartṛtva", "bhoktrtva"],
+  "see_also": [
+    "antahkarana",
+    "manas",
+    "buddhi",
+    "citta",
+    "atman",
+    "adhyasa",
+    "kartṛtva",
+    "bhoktrtva"
+  ],
   "translator_note": "'Ego' is the routine translation and it is often too thin. It imports Freudian or pop-psychological connotations and reduces a metaphysical-epistemic category to a personality trait. *Ahaṅkāra* is the I-making and mine-making function that turns the psychophysical complex into a claimant of agency and ownership. 'Egoity' or 'I-maker' is often closer than plain 'ego'.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"

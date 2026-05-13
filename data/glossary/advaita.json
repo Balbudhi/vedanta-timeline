@@ -11,6 +11,11 @@
     "advaya"
   ],
   "invariant_definition": "*Advaita* does not mean a generic 'all is one.' It names the denial of a second independent reality, but the force of that denial depends on what kind of difference is being rejected. In Vedānta the term sits inside disputes about *bheda* and *abheda*, cause and effect, the status of the world, and the relation between *brahman*, *jīva*, and *jagat*. Śaṅkara's Advaita makes non-duality numerical and ultimate: only *brahman* is *pāramārthika*, while plurality is *vyāvahārika* and sublatable. Viśiṣṭādvaita preserves non-duality by denying a second substance outside *brahman* while retaining real internal differentiation as *cit* and *acit*. Vallabha's *śuddhādvaita* preserves non-duality while rejecting *māyā* as illusory appearance: the world is a real manifestation of *brahman*. Nimbārka and Caitanya traditions keep non-duality and difference together by treating dependence on *brahman* as irreducible. The term therefore marks a family of claims about how plurality belongs, or fails to belong, within the real; it is not a free-floating synonym for monism.",
+  "school_framing": {
+    "framing_status": "different_concepts",
+    "shared_core": "*Advaita* in the per-school entry's invariant sense names **a non-duality thesis: the position that the ultimate is without internal differentiation and without a real second**. The classical Advaita-Vedānta of Śaṅkara is the principal home (*Brahma-Sūtra-Bhāṣya*; *Upadeśa-Sāhasrī*). Other schools listed in the entry engage *advaita*-language only to reject, qualify, or reinterpret it: the *śabda* is the same but the doctrinal position differs. Methodology AF1: this is a school-position label, not a concept-with-different-aspects.",
+    "register_axes_note": "**Different concepts**: the per-school entries gloss *advaita* as the doctrinal position each school holds (Advaita: *jīva-brahman-aikya*; Viśiṣṭādvaita: *śarīra-śarīrin* unity; Tattva-vāda: *bhedapañcaka*, not unity; etc.). These are competing M-positions, not different aspects of one shared concept. Methodology AF1 applies globally to the term."
+  },
   "per_school": [
     {
       "school": "Advaita",
@@ -34,7 +39,8 @@
           "cite": "cite://sankara/mandukya-bhasya/upaniṣad.7",
           "locus_short": "MāṇḍU 7"
         }
-      ]
+      ],
+      "register_tag": "M+S; mumukṣu (Śaṅkara: jīva-brahman-aikya)"
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -60,7 +66,8 @@
           "cite": "cite://ramanuja/vedartha-samgraha/§6",
           "locus_short": "VS §6"
         }
-      ]
+      ],
+      "register_tag": "M+S; prapanna (śarīra-śarīrin unity)"
     },
     {
       "school": "Tattva-vāda",
@@ -87,7 +94,8 @@
           "cite": "cite://madhva/visnu-tattva-vinirnaya/3.2",
           "locus_short": "VTV 3.2"
         }
-      ]
+      ],
+      "register_tag": "M+LD; Tattvavādin (bhedapañcaka; advaita rejected)"
     },
     {
       "school": "Bhedābheda",
@@ -111,7 +119,8 @@
           "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/2.3",
           "locus_short": "BṛU 2.3"
         }
-      ]
+      ],
+      "register_tag": "M+E; reflective reader (aupādhika)"
     },
     {
       "school": "Acintya-Bhedābheda",
@@ -136,7 +145,8 @@
           "cite": "cite://jiva-gosvami/sat-sandarbha/§45",
           "locus_short": "PS §45"
         }
-      ]
+      ],
+      "register_tag": "M+AD; bhakta (acintya-bhedābheda)"
     },
     {
       "school": "Dvaitādvaita",
@@ -170,7 +180,8 @@
           "cite": "cite://nimbarka/vedanta-parijata-saurabha/2.3.42",
           "locus_short": "VPS 2.3.42"
         }
-      ]
+      ],
+      "register_tag": "M+S; bhakta (svābhāvika)"
     },
     {
       "school": "Śuddhādvaita",
@@ -188,7 +199,8 @@
           "cite": "cite://vallabha/anu-bhasya/1.1.12-19",
           "locus_short": "BSB 1.1.12-19"
         }
-      ]
+      ],
+      "register_tag": "M+S; bhakta (śuddha non-duality without māyā)"
     },
     {
       "school": "Sāṃkhya",
@@ -225,7 +237,8 @@
           "cite": "cite://isvarakrsna/samkhya-karika/19",
           "locus_short": "SK 19"
         }
-      ]
+      ],
+      "register_tag": "M+C; mumukṣu (puruṣa-prakṛti-dvaita)"
     },
     {
       "school": "Yoga",
@@ -253,7 +266,8 @@
           "cite": "cite://vyasa/yoga-bhasya/4.34",
           "locus_short": "YBh 4.34"
         }
-      ]
+      ],
+      "register_tag": "M+Φ; yogin (puruṣa-prakṛti)"
     },
     {
       "school": "Nyāya-Vaiśeṣika",
@@ -276,13 +290,15 @@
           "cite": "cite://vatsyayana/nyaya-bhasya/4.1.43",
           "locus_short": "NBh 4.1.43"
         }
-      ]
+      ],
+      "register_tag": "M+E; reflective reader (pluralist realism)"
     },
     {
       "school": "Pūrva-Mīmāṃsā",
       "definition": "[NOT YET RETRIEVED]",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "register_tag": "RN+E; adhikārin"
     },
     {
       "school": "Mādhyamaka",
@@ -316,7 +332,8 @@
           "cite": "cite://candrakirti/madhyamakavatara/1.2",
           "locus_short": "MAv 1.2"
         }
-      ]
+      ],
+      "register_tag": "LD+M; reflective reader (śūnya, neither dvaita nor advaita)"
     },
     {
       "school": "Yogācāra",
@@ -357,7 +374,8 @@
           "cite": "cite://vasubandhu/trimsika/30",
           "locus_short": "Tr 30"
         }
-      ]
+      ],
+      "register_tag": "M+Φ; reflective reader (vijñapti-mātratā)"
     },
     {
       "school": "Pratyabhijñā / Trika",
@@ -385,7 +403,8 @@
           "cite": "cite://ksemaraja/siva-sutra-varttika/3.6.18",
           "locus_short": "ŚSV 3.6.18"
         }
-      ]
+      ],
+      "register_tag": "M+S; sādhaka (Śiva-advaita with abheda-of-bheda)"
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",

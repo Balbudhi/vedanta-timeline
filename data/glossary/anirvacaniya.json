@@ -12,6 +12,11 @@
     "anirvacanīyā"
   ],
   "invariant_definition": "A specifically Advaita technical verdict meaning 'not decisively characterizable' on the ordinary *sat*/*asat* binary. The term is most at home in the theory of error and in the ontology of *māyā*: the silver seen in nacre, the snake seen in the rope, and the world experienced under ignorance cannot be called fully real, because they are sublated, but cannot be called sheer non-being either, because they appear with positive force. The category is thus bound to *anirvacanīya-khyāti*, to the distinction between *mithyā* and *asat*, and to the claim that *avidyā* is *bhāvarūpa* without being ultimately real. Rival schools reject the category because they keep the real/unreal binary exhaustive and explain error through other *khyāti* theories such as *anyathā-khyāti*, *akhyāti*, or *ātma-khyāti*.",
+  "school_framing": {
+    "framing_status": "real_disagreement",
+    "shared_core": "*Anirvacanīya* names **what cannot be fixed as either *sat* or *asat* without distortion**. Advaita develops the third category to handle *māyā*, *avidyā*, and the objects of error (Maṇḍana's *Brahma-Siddhi* 1.1; *Iṣṭa-Siddhi*; *Advaita-Siddhi*). Nyāya, Viśiṣṭādvaita, and Tattva-vāda refuse the category and read every cognition's object as *sat* (with possible mislocation) or *asat*.",
+    "register_axes_note": "AF1 — same M+LD register, same scope-inside (the modal status of objects of error), opposing claims. Madhva's *Mithyātvānumāna-Khaṇḍana* is the paradigm LD attack: *anirvacanīya* either reduces to *sat* or to *asat*, or issues in *anavasthā*. The Advaitic reply (*Advaita-Siddhi*) is that the binary itself fails as a *prameya*-exhaustive schema. Methodology Case 6: the disagreement is genuine, not register-artifactual."
+  },
   "per_school": [
     {
       "school": "Advaita",
@@ -20,7 +25,8 @@
         "Iṣṭa-Siddhi (Vimuktātman) 1",
         "Khaṇḍana-Khaṇḍa-Khādya, upodghāta",
         "Advaita-Siddhi, anirvacanīyatā-pariccheda"
-      ]
+      ],
+      "register_tag": "M+LD; polemicist/mumukṣu"
     },
     {
       "school": "Nyāya, Viśiṣṭādvaita, and Tattva-vāda (rejection)",
@@ -28,7 +34,8 @@
       "primary_loci": [
         "Vyāsatīrtha, Nyāyāmṛta, mithyātva-bhaṅga",
         "Śrī-Bhāṣya 1.1.1 (sapta-anupapatti)"
-      ]
+      ],
+      "register_tag": "M+LD; polemicist [REAL-DISAGREEMENT: third category rejected]"
     }
   ],
   "see_also": [

@@ -18,6 +18,13 @@
   "last_verified_at": "2026-05-10",
   "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "Power, efficacy, or capacity belonging to something and explaining what it can do. The term ranges across several technical registers, and the depth of an entry depends on keeping those registers distinct. In semantics, *śakti* is a word's denotative power. In metaphysics and theology, it is a real efficacy belonging to a cause or to the divine. In Śākta and Kashmir Śaiva thought, *Śakti* can be spoken of as the very self-manifesting power of the absolute, inseparable from Śiva. In Gauḍīya Vaiṣṇava theology, *śakti* becomes a systematic taxonomy of the Lord's internal, marginal, and external powers. Across these uses, one recurrent issue is the relation between *śakti* and *śaktimat*, power and power-bearer: are they strictly identical, really distinct, inseparable, or analyzable only by scripture? A flat English rendering like \"energy\" obscures that the term often functions as a precise causal or theological category rather than a diffuse vital force.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Śakti* names **a power: a capacity to produce a determinate effect that belongs intrinsically to its *śaktimat***. The structural role — power-of-an-agent — is shared across Vedāntic and Śaiva schools. Schools differ on whether *śakti* is (i) Brahman's own *svarūpa-śakti* (Viśiṣṭādvaita, Tattva-vāda, Gauḍīya, Vallabha, Nimbārka), (ii) *māyā-śakti* of indeterminate ontological status (Advaita), (iii) Śiva's *svātantrya* / *spanda* / *vimarśa* (Trika), or (iv) a *sāmarthya* attached to substance-attribute relations (Nyāya-Vaiśeṣika).",
+    "register_axes_note": [
+      "**Real disagreement** (AF1) on the ontological status of *śakti*: Trika's *svātantrya-śakti* is identical with the *śaktimat* and is the ultimate (Utpaladeva, *ĪPK* 1.5; *Pratyabhijñā-Hṛdaya* 1); Advaita treats *māyā-śakti* as *anirvacanīya*; Tattva-vāda treats *śakti* as real, dependent, and *bheda*-related. Same M-register, same scope-inside, opposing claims. Vaiyākaraṇa *śakti* is the SL-register notion of semantic potency, **a different concept** (Bhartṛhari *VP* III)."
+    ]
+  },
   "per_school": [
     {
       "school": "Advaita",
@@ -35,7 +42,8 @@
           "cite": "cite://madhusudana/siddhanta-bindu/22",
           "locus_short": "Upodghāta 22"
         }
-      ]
+      ],
+      "register_tag": "M+LD; polemicist (māyā-śakti as anirvacanīya)"
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -48,7 +56,8 @@
           "cite": "cite://ramanuja/vedartha-samgraha/§6",
           "locus_short": "Vedārtha-Saṃgraha §6"
         }
-      ]
+      ],
+      "register_tag": "M+S; prapanna (svarūpa-śakti)"
     },
     {
       "school": "Tattva-vāda",
@@ -66,7 +75,8 @@
           "cite": "cite://madhva/upadhi-khandana/13",
           "locus_short": "Upādhi-Khaṇḍana 13"
         }
-      ]
+      ],
+      "register_tag": "M+S; Tattvavādin [REAL-DISAGREEMENT: śakti as bheda-related]"
     },
     {
       "school": "Bhedābheda",
@@ -95,7 +105,8 @@
           "cite": "cite://kesava-kasmiri/krama-dipika/2.18",
           "locus_short": "Kramadīpikā 2.18"
         }
-      ]
+      ],
+      "register_tag": "M+AD; bhakta (acintya-śakti, methodology Case 5)"
     },
     {
       "school": "Dvaitādvaita",
@@ -267,7 +278,8 @@
           "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/3.1.7-8",
           "locus_short": "ĪPK 3.1.7-8"
         }
-      ]
+      ],
+      "register_tag": "M+S; sādhaka [REAL-DISAGREEMENT: svātantrya-śakti as ultimate]"
     },
     {
       "school": "Jainism",
@@ -279,7 +291,8 @@
       "school": "Pāṇinian-Vaiyākaraṇa",
       "definition": "[NOT YET RETRIEVED]",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "register_tag": "SL; reflective reader [different concept: semantic potency]"
     },
     {
       "school": "Śākta",

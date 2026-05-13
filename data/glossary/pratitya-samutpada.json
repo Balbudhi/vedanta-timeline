@@ -13,6 +13,11 @@
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
   "invariant_definition": "*Pratītya-samutpāda* names the principle that nothing arises in isolation — every existent is the joint outcome of conditions other than itself. In the early Buddhist *abhidharma* the principle is given concrete form in the twelve-membered chain (*dvādaśa-aṅga*: *avidyā* → *saṃskāra* → *vijñāna* → *nāma-rūpa* → *ṣaḍ-āyatana* → *sparśa* → *vedanā* → *tṛṣṇā* → *upādāna* → *bhava* → *jāti* → *jarā-maraṇa*). In Nāgārjuna's Mādhyamaka the principle is identified with *śūnyatā* itself: at MMK 24.18, *yaḥ pratītya-samutpādaḥ śūnyatāṃ tāṃ pracakṣmahe* — \"that which is dependent co-arising, that we declare to be emptiness.\" The identification fixes the Mādhyamaka reading of emptiness: to lack *svabhāva* is precisely to arise in dependence on conditions, and the doctrine of dependent arising is not a doctrine of how *svabhāva* bearing entities causally produce one another but a doctrine that there are no *svabhāva* bearing entities to do the producing.",
+  "school_framing": {
+    "framing_status": "same_concept_different_aspect",
+    "shared_core": "*Pratītya-samutpāda* names **dependent co-arising: the ontological-causal structure by which every conditioned *dharma* arises in dependence on others** (*Mahāvagga* I.1; *MMK* 24.18). All Buddhist schools share the structural role; Mādhyamaka reads it as the criterion of *śūnyatā*. Yogācāra reads the twelvefold chain through the *ālaya-vijñāna*'s *vāsanā*-conditioning. Vedānta (Bādarāyaṇa, Śaṅkara) engages the doctrine polemically at BS 2.2.18–27.",
+    "register_axes_note": "Same LD+M register within Buddhism, differing scope-inside on whether the chain depends on a *vijñāna-pariṇāma* substrate. **Real disagreement** with Vedānta: Vedānta requires a Brahman-substrate the Buddhist doctrine denies. Methodology AF1: BS 2.2.18–27 is a genuine LD+M disagreement, not a register-artifact."
+  },
   "per_school": [
     {
       "school": "Mādhyamaka",
@@ -21,7 +26,8 @@
         "Mūla-Madhyamaka-Kārikā 1 (pratyaya-parīkṣā)",
         "Mūla-Madhyamaka-Kārikā 24.18",
         "Mūla-Madhyamaka-Kārikā 26 (dvādaśa-aṅga-parīkṣā)"
-      ]
+      ],
+      "register_tag": "LD+M; reflective reader (śūnyatā-criterion)"
     },
     {
       "school": "Yogācāra",
@@ -29,7 +35,8 @@
       "primary_loci": [
         "Asaṅga, Mahāyāna-Saṅgraha 1–2",
         "Vasubandhu, Triṃśikā 1–17"
-      ]
+      ],
+      "register_tag": "M+Φ; reflective reader (ālaya-conditioning)"
     },
     {
       "school": "Vedānta (Bādarāyaṇa, Śaṅkara)",
@@ -37,7 +44,8 @@
       "primary_loci": [
         "Brahma-Sūtra 2.2.18–32",
         "Brahma-Sūtra-Bhāṣya (Śaṅkara) 2.2.20–25"
-      ]
+      ],
+      "register_tag": "LD+M; polemicist [REAL-DISAGREEMENT: substrate required]"
     }
   ],
   "see_also": [

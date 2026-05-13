@@ -16,6 +16,11 @@
   "last_verified_at": "2026-05-10",
   "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "The Lord as governing consciousness: the principle that rules, orders, and dispenses. In Sanskrit philosophical use, *Īśvara* does more work than the English \"God.\" It is the term around which disputes about causality, providence, the fruits of *karma*, worship, and scriptural authority are organized. Vedānta asks whether *Īśvara* is merely the efficient cause or both efficient and material cause of the world, whether *Īśvara* is the highest description of reality or a conditioned one, and how the Lord stands to *māyā*, *prakṛti*, and bound selves. Yoga uses the term differently again: there *Īśvara* is a special *puruṣa*, untouched by affliction and karmic residue, and functions as a meditative and salvific ideal without needing the full Vedāntic creator-theology. The invariant core is therefore rule, sovereignty, and spiritual authority; the surrounding metaphysical commitments differ sharply. Any translation has to keep that causal and soteriological structure in view.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Īśvara* names **the lord: the ruling-conscious principle with sovereign agency over the world**. The structural role — ruling-conscious-agent — is shared across schools that retain the term. Advaita treats *Īśvara* as *saguṇa-brahman* under *māyā*, with *upāsanā*-status. Viśiṣṭādvaita and Tattva-vāda identify *Īśvara* with Bhagavān as the *paratattva* itself. Yoga admits *Īśvara* as a special *puruṣa* untouched by *kleśa-karma-vipāka* (*YS* 1.24); Nyāya argues for *Īśvara* as the maker-knower from *sthiti-pralaya-ādi-kāraṇāt*.",
+    "register_axes_note": "**Real disagreement** (AF1) on ontological status: Advaita's *Īśvara* is *vyāvahārika* relative to *nirguṇa-brahman*; theistic Vedāntas' *Īśvara* is *pāramārthika*. Yoga's *Īśvara* is **a different concept** at the M-level: a special *puruṣa* among many, not a *jagat-kāraṇa* in Vedāntic sense. Nyāya-Vaiśeṣika's *Īśvara* is also **different in scope**: efficient cause, not material cause."
+  },
   "per_school": [
     {
       "school": "Advaita",
@@ -33,7 +38,8 @@
           "cite": "cite://sarvajnatman/samksepa-sariraka/1.327",
           "locus_short": "SS I.327"
         }
-      ]
+      ],
+      "register_tag": "P+S; mumukṣu (Īśvara as saguṇa-brahman, upāsanā-relative)"
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -55,7 +61,8 @@
           "cite": "cite://vedanta-desika/rahasya-traya-sara/104–105",
           "locus_short": "RTS 104-105"
         }
-      ]
+      ],
+      "register_tag": "M+S; prapanna [REAL-DISAGREEMENT with Advaita on pāramārthikatva]"
     },
     {
       "school": "Tattva-vāda",
@@ -78,7 +85,8 @@
           "cite": "cite://madhva/mayavada-khandana/15.17",
           "locus_short": "Gītā 15.17"
         }
-      ]
+      ],
+      "register_tag": "M+S; Tattvavādin"
     },
     {
       "school": "Bhedābheda",
@@ -96,7 +104,8 @@
           "cite": "cite://ramanuja/vedartha-samgraha/RVas_58-60",
           "locus_short": "RVas 58-60"
         }
-      ]
+      ],
+      "register_tag": "M+S; upāsaka"
     },
     {
       "school": "Acintya-Bhedābheda",
@@ -117,7 +126,8 @@
           "cite": "cite://jiva-gosvami/sat-sandarbha/§45",
           "locus_short": "Paramātma-S. §45"
         }
-      ]
+      ],
+      "register_tag": "M+AD; bhakta"
     },
     {
       "school": "Dvaitādvaita",
@@ -140,7 +150,8 @@
           "cite": "cite://nimbarka/dasa-shloki/2",
           "locus_short": "DaŚ 2"
         }
-      ]
+      ],
+      "register_tag": "M+S; bhakta"
     },
     {
       "school": "Śuddhādvaita",
@@ -168,7 +179,8 @@
           "cite": "cite://vallabha/anu-bhasya/1.1.12-19",
           "locus_short": "BSB 1.1.12-19"
         }
-      ]
+      ],
+      "register_tag": "M+S; bhakta"
     },
     {
       "school": "Sāṃkhya",
@@ -191,7 +203,8 @@
           "cite": "cite://isvarakrsna/samkhya-karika/44",
           "locus_short": "SK 44"
         }
-      ]
+      ],
+      "register_tag": "C; reflective reader [no Īśvara; nirīśvara]"
     },
     {
       "school": "Yoga",
@@ -209,7 +222,8 @@
           "cite": "cite://vijnanabhiksu/yoga-varttika/1.23",
           "locus_short": "YV 1.23"
         }
-      ]
+      ],
+      "register_tag": "M+S; yogin [different concept: viśeṣa-puruṣa, YS 1.24]"
     },
     {
       "school": "Nyāya-Vaiśeṣika",
@@ -232,7 +246,8 @@
           "cite": "cite://annambhatta/tarka-sangraha/74",
           "locus_short": "TS 74"
         }
-      ]
+      ],
+      "register_tag": "M+LD; reflective reader (efficient cause)"
     },
     {
       "school": "Pūrva-Mīmāṃsā",
@@ -250,7 +265,8 @@
           "cite": "cite://sucaritamisra/sloka-varttika/1.96-98",
           "locus_short": "ŚVṬ 96-98"
         }
-      ]
+      ],
+      "register_tag": "RN; adhikārin [no Īśvara role]"
     },
     {
       "school": "Mādhyamaka",
@@ -268,7 +284,8 @@
           "cite": "cite://nagarjuna/mula-madhyamaka-karika/8.2-4",
           "locus_short": "MMK 8.2-4"
         }
-      ]
+      ],
+      "register_tag": "LD; reflective reader [Īśvara-pratiṣedha]"
     },
     {
       "school": "Yogācāra",
@@ -281,7 +298,8 @@
           "cite": "cite://vasubandhu/trimsika/21-24",
           "locus_short": "Tr 21-24"
         }
-      ]
+      ],
+      "register_tag": "Φ; reflective reader [no creator-Īśvara]"
     },
     {
       "school": "Pratyabhijñā / Trika",
@@ -299,13 +317,15 @@
           "cite": "cite://ksemaraja/pratyabhijna-hrdayam/1-4",
           "locus_short": "PH 1-4"
         }
-      ]
+      ],
+      "register_tag": "M+S; sādhaka (Maheśvara as parā-saṃvit)"
     },
     {
       "school": "Jainism",
       "definition": "[NOT YET RETRIEVED]",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "register_tag": "M+C; reflective reader [no creator-Īśvara]"
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",

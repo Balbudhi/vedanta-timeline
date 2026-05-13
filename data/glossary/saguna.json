@@ -3,31 +3,73 @@
   "term_iast": "saguṇa",
   "term_devanagari": "सगुण",
   "literal": "with *guṇa*; sa- + guṇa, where *guṇa* may mean the strands of *prakṛti* or real attributes depending on the school",
-  "aliases": ["saguna", "saguṇa", "Saguṇa", "saguṇa-brahman", "saguṇaṃ", "saguṇasya"],
+  "aliases": [
+    "saguna",
+    "saguṇa",
+    "Saguṇa",
+    "saguṇa-brahman",
+    "saguṇaṃ",
+    "saguṇasya"
+  ],
   "invariant_definition": "*Saguṇa* does not have one stable meaning across Vedānta because the force of *guṇa* itself is disputed. In one register, inherited from Sāṃkhya, the word marks relation to the three strands of *prakṛti* and the cosmological order they generate. In another, more theistic register, it marks possession of real auspicious attributes. Advaita adds a third technical layer: *saguṇa brahman* is *brahman* considered with the adjunct of *māyā*, hence as creator, ruler, omniscient dispenser of *karma*, and proper object of *upāsanā*. Viśiṣṭādvaita, Tattva-vāda (the school often labeled Dvaita), and Caitanya Vaiṣṇava theology reject the idea that this is a lower or merely provisional description. For them the Lord's names, forms, and qualities are fully real and belong to the highest truth, though *nirguṇa* passages still deny material or defective traits. The term therefore lies at the intersection of ontology, devotion, and scriptural hermeneutics. It must not be flattened into the English 'with qualities,' which obscures whether the school is talking about relation to *prakṛti*, *upādhi*, or intrinsic divine attributes.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Saguṇa* names **Brahman / Bhagavān as endowed with *guṇa*s: attributes, powers, or auspicious qualities**. Advaita treats *saguṇa-brahman* as the *upāsanā*-object for the *mumukṣu*, ultimately resolving into *nirguṇa-brahman*. Viśiṣṭādvaita, Tattva-vāda, and Gauḍīya treat *saguṇa* as Brahman's *svarūpa*-itself, the infinite *kalyāṇa-guṇas* being non-different from the *svarūpin* (*Śrī-Bhāṣya* 1.1.1; *Brahma-Sūtra-Bhāṣya* 1.1.1).",
+    "register_axes_note": "**Real disagreement** (AF1) on whether *saguṇa* is *upāsanā*-relative (Advaita: P+S register, addressed to the *mumukṣu* under *adhyāsa*) or *svarūpa*-itself (theistic Vedāntas: M+S register). Same scope-inside (Brahman's relation to attributes), opposing claims on ontological status."
+  },
   "per_school": [
     {
       "school": "Advaita",
       "definition": "*Saguṇa brahman* is *brahman* under the *māyā* adjunct, hence *Īśvara*: creator, sustainer, dissolver, omniscient ruler, giver of *karma-phala*, and object of meditation. This description is real within *vyavahāra* and indispensable for scripture and practice; it is not a mere symbol. But it is not final, because the predicates apply only while the adjunct-structure is presupposed.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 3.2.11–26", "Brahma-Sūtra-Bhāṣya 1.1.20", "Pañcadaśī 6.130–145"]
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 3.2.11–26",
+        "Brahma-Sūtra-Bhāṣya 1.1.20",
+        "Pañcadaśī 6.130–145"
+      ],
+      "register_tag": "P+S; mumukṣu (upāsanā-relative)"
     },
     {
       "school": "Viśiṣṭādvaita",
       "definition": "Brahman is eternally *saguṇa* because Nārāyaṇa's infinite *kalyāṇa-guṇa*s belong to his very *svarūpa*. They are not material accretions and not removable adjuncts. *Nirguṇa* texts are therefore read as denying only *heya-guṇa*s and *prākṛta-guṇa*s. In worship and ontology alike, the personal Lord is the highest truth rather than a lower teaching stage.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§91–137", "Śrī-Bhāṣya 1.1.13", "Yatīndra-Mata-Dīpikā 4"]
+      "primary_loci": [
+        "Vedārtha-Saṅgraha §§91–137",
+        "Śrī-Bhāṣya 1.1.13",
+        "Yatīndra-Mata-Dīpikā 4"
+      ],
+      "register_tag": "M+S; prapanna [REAL-DISAGREEMENT with Advaita: saguṇatva is svarūpa]"
     },
     {
       "school": "Tattva-vāda",
       "definition": "Viṣṇu eternally possesses infinite real attributes and is never reducible to a higher attribute-less substrate. The *saguṇa* description is therefore simply the true description of the supreme. What *nirguṇa* denies is only materiality and defect, not the Lord's real excellences. This preserves the full realism of devotion, hierarchy, and divine agency.",
-      "primary_loci": ["Tattva-Saṅkhyāna 1–4", "Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1", "Viṣṇu-Tattva-Vinirṇaya §§1–10"]
+      "primary_loci": [
+        "Tattva-Saṅkhyāna 1–4",
+        "Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1",
+        "Viṣṇu-Tattva-Vinirṇaya §§1–10"
+      ],
+      "register_tag": "M+S; Tattvavādin"
     },
     {
       "school": "Acintya-Bhedābheda",
       "definition": "*Saguṇa* in the highest sense refers to Bhagavān Kṛṣṇa with his eternal *svarūpa-śakti*, names, form, and *līlā*. The divine attributes are *aprākṛta*, not products of material nature. Thus *saguṇa* does not mean 'conditioned by matter' but 'manifest in the plenitude of divine relational being.' The impersonal *brahmajyoti* is real but subordinate.",
-      "primary_loci": ["Bhagavat-Sandarbha §§1–7", "Kṛṣṇa-Sandarbha §28", "Caitanya-Caritāmṛta, Madhya 20.152–159"]
+      "primary_loci": [
+        "Bhagavat-Sandarbha §§1–7",
+        "Kṛṣṇa-Sandarbha §28",
+        "Caitanya-Caritāmṛta, Madhya 20.152–159"
+      ],
+      "register_tag": "M+AD; bhakta"
     }
   ],
-  "see_also": ["nirguna", "guna", "isvara", "brahman", "kalyana-guna", "heya-guna", "prakrta-guna", "upadhi", "sopadhika"],
+  "see_also": [
+    "nirguna",
+    "guna",
+    "isvara",
+    "brahman",
+    "kalyana-guna",
+    "heya-guna",
+    "prakrta-guna",
+    "upadhi",
+    "sopadhika"
+  ],
   "translator_note": "'With qualities,' 'qualified,' and even 'personal' are all too blunt. They import a modern property-bearing subject and make it sound as though the issue were simply whether God has predicates. The real dispute concerns which predicates are intrinsic, which are material, which are borne by adjuncts, and whether the personal Lord is ultimate or a manifestation at the *vyavahāra* level. In Advaita especially, *saguṇa* does not mean unreal deity or mere symbol; it means real Lord under cosmological relation.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"

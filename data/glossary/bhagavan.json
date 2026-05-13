@@ -14,6 +14,11 @@
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
   "invariant_definition": "A loaded theological title, not a generic word for a god. Classical Vaiṣṇava usage, drawing especially on *Viṣṇu-Purāṇa* 6.5.74, treats *Bhagavān* as the possessor of plenary sovereignty, power, glory, beauty, knowledge, and detachment. The term therefore marks personal plenitude rather than mere rulership: *Bhagavān* is the supreme in a mode accessible to devotion, relation, and praise, yet without ceasing to be metaphysically ultimate. Different schools map it differently onto *brahman* and *Īśvara*. Advaita commonly treats *Bhagavān* as the personal Lord in the *saguṇa* register; Viśiṣṭādvaita and Tattva-vāda (Dvaita) treat it as a genuine name of the highest Lord; Gauḍīya Vaiṣṇavism makes the distinction among *brahman*, *Paramātman*, and *Bhagavān* structurally central and uses it to argue for Kṛṣṇa as *svayaṃ-bhagavān*. In all of these uses, the term should be read against theological debates about whether the personal absolute is ultimate or derivative.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Bhagavān* names **the supreme person possessed of the six *bhaga*s: *aiśvarya*, *vīrya*, *yaśas*, *śrī*, *jñāna*, *vairāgya*** (*Viṣṇu-Purāṇa* 6.5.74). All theistic Vedāntic schools agree on the structural role — *Bhagavān* is the *paratattva* in personal form. Advaita treats *Bhagavān*-discourse as the *upāsanā* surface of *saguṇa-brahman*, resolved at the *pāramārthika* tier into *nirguṇa-brahman*.",
+    "register_axes_note": "**Real disagreement** (AF1) on whether *Bhagavān*-discourse is *pāramārthika* (Viśiṣṭādvaita, Tattva-vāda, Gauḍīya, Vallabha, Nimbārka) or *vyāvahārika* / *upāsanā*-relative (Advaita). Same M-register, same scope-inside, opposing claims on ultimate ontological status. **Same concept, different aspect** when AD-register *stotra* speech is in view: methodology Cases 1 and 7 (Madhusūdana's *Bhakti-Rasāyana* shows the AD-register survives the *jñāna*-completion in Advaita itself)."
+  },
   "per_school": [
     {
       "school": "Advaita Vedānta",
@@ -21,7 +26,8 @@
       "primary_loci": [
         "Bhagavad-Gītā-Bhāṣya 10.12-13",
         "Bhakti-Rasāyana 1.1"
-      ]
+      ],
+      "register_tag": "P+S+AD; mumukṣu and stotrakāra [Bhagavān as upāsanā-relative + AD-survivor]"
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -29,7 +35,8 @@
       "primary_loci": [
         "Vedārtha-Saṅgraha 91-137",
         "Śrī-Bhāṣya 1.1.1"
-      ]
+      ],
+      "register_tag": "M+AD+S; prapanna"
     },
     {
       "school": "Tattva-vāda",
@@ -37,7 +44,8 @@
       "primary_loci": [
         "Tattva-Saṅkhyāna 1-4",
         "Viṣṇu-Tattva-Vinirṇaya 1-10"
-      ]
+      ],
+      "register_tag": "M+S; Tattvavādin"
     },
     {
       "school": "Acintya-Bhedābheda",
@@ -46,7 +54,8 @@
         "Bhāgavata-Purāṇa 1.2.11",
         "Bhāgavata-Purāṇa 1.3.28",
         "Bhagavat-Sandarbha 1-7"
-      ]
+      ],
+      "register_tag": "M+AD; bhakta"
     }
   ],
   "see_also": [
