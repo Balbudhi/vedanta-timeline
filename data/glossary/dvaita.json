@@ -12,6 +12,11 @@
     "Tattvavāda"
   ],
   "invariant_definition": "As a school-name, *Tattva-vāda (the school often labeled Dvaita)* names Madhva's school, not a generic doctrine of two substances. Its native grammar is wider than the English word 'dualism' suggests. The school begins from the asymmetry between the one *svatantra* reality, Viṣṇu, and the plurality of *paratantra* realities, then articulates that plurality through *pañca-bheda*, *taratamya*, and intrinsic *svarūpa-bheda* among *jīvas*. The point is not merely that God and soul differ, but that all the major relations presupposed in scriptural language, action, devotion, bondage, and liberation are real and irreducible. Knowledge does not culminate in the cancellation of these relations, but in their correct apprehension under Viṣṇu's sovereignty. In practice this means that worshipper and Lord, agent and fruit, liberated soul and supreme deity remain distinct without becoming independent. Tattva-vāda is therefore best understood as a hierarchical realist pluralism ordered by dependence, not as a flat binary metaphysics or a mind-body dualism.",
+  "school_framing": {
+    "framing_status": "different_concepts",
+    "shared_core": "*Dvaita* in the per-school entry's invariant sense names **a duality thesis: the position that the *jīva* and *Īśvara* are eternally distinct, with the world's *bheda*s real and beginningless**. The classical home is Madhva's Tattva-vāda (*Brahma-Sūtra-Bhāṣya* 1.1.1; *Anu-vyākhyāna*; *Viṣṇu-Tattva-Vinirṇaya*). Other schools listed engage *dvaita*-language by rejection or reinterpretation. Like *advaita*, the per-school entries list competing M-positions rather than aspects of one concept.",
+    "register_axes_note": "**Different concepts** across the per-school slots: each school's gloss of *dvaita* is its own doctrinal counter-position. **Real disagreement** at the M-register among the listed positions on whether *bheda* is ultimate (Tattva-vāda: yes; Advaita: no). Methodology Case 3 / Case 6."
+  },
   "per_school": [
     {
       "school": "Advaita",
@@ -39,7 +44,8 @@
           "cite": "cite://sankara/mandukya-bhasya/upaniṣad.7",
           "locus_short": "MāṇḍU 7"
         }
-      ]
+      ],
+      "register_tag": "M+S; mumukṣu (Śaṅkara: jīva-brahman-aikya)"
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -73,7 +79,8 @@
           "cite": "cite://ramanuja/vedartha-samgraha/§6",
           "locus_short": "VedS §6"
         }
-      ]
+      ],
+      "register_tag": "M+S; prapanna (śarīra-śarīrin unity)"
     },
     {
       "school": "Tattva-vāda",
@@ -95,7 +102,8 @@
           "cite": "cite://madhva/anuvyakhyana/1.4.112",
           "locus_short": "Anuvy. 1.4.112"
         }
-      ]
+      ],
+      "register_tag": "M+LD; Tattvavādin (bhedapañcaka; advaita rejected)"
     },
     {
       "school": "Bhedābheda",
@@ -119,7 +127,8 @@
           "cite": "cite://bhartrprapanca/brhadaranyaka-commentary-fragments/1.4.10",
           "locus_short": "BṛU 1.4.10"
         }
-      ]
+      ],
+      "register_tag": "M+E; reflective reader (aupādhika)"
     },
     {
       "school": "Acintya-Bhedābheda",
@@ -144,7 +153,8 @@
           "cite": "cite://jiva-gosvami/sat-sandarbha/§45",
           "locus_short": "Paramātma-Sand. §45"
         }
-      ]
+      ],
+      "register_tag": "M+AD; bhakta (acintya-bhedābheda)"
     },
     {
       "school": "Dvaitādvaita",
@@ -174,7 +184,8 @@
           "cite": "cite://nimbarka/vedanta-parijata-saurabha/2.3.44",
           "locus_short": "BS 2.3.44"
         }
-      ]
+      ],
+      "register_tag": "M+S; bhakta (svābhāvika)"
     },
     {
       "school": "Śuddhādvaita",
@@ -202,7 +213,8 @@
           "cite": "cite://vallabha/anu-bhasya/1.1.12-19",
           "locus_short": "BSB 1.1.12-19"
         }
-      ]
+      ],
+      "register_tag": "M+S; bhakta (śuddha non-duality without māyā)"
     },
     {
       "school": "Sāṃkhya",
@@ -228,7 +240,8 @@
           "cite": "cite://isvarakrsna/samkhya-karika/65",
           "locus_short": "SK 65"
         }
-      ]
+      ],
+      "register_tag": "M+C; mumukṣu (puruṣa-prakṛti-dvaita)"
     },
     {
       "school": "Yoga",
@@ -258,7 +271,8 @@
           "cite": "cite://patanjali/yoga-sutra/3.55",
           "locus_short": "YS 3.55"
         }
-      ]
+      ],
+      "register_tag": "M+Φ; yogin (puruṣa-prakṛti)"
     },
     {
       "school": "Nyāya-Vaiśeṣika",
@@ -288,14 +302,16 @@
           "cite": "cite://annambhatta/tarka-sangraha/79",
           "locus_short": "AnTS 79"
         }
-      ]
+      ],
+      "register_tag": "M+E; reflective reader (pluralist realism)"
     },
     {
       "school": "Pūrva-Mīmāṃsā",
       "definition": "NOT-APPLICABLE",
       "primary_loci": [],
       "citations": [],
-      "not_applicable_reason": "In the on-disk Mīmāṃsā corpus, cognate forms such as *dvaidhaṃ* function as classificatory or ritual-analytic markers (for example in guṇa/pradhāna and aṅga/aṅgin analysis), not as a substantive doctrinal category named *dvaita*."
+      "not_applicable_reason": "In the on-disk Mīmāṃsā corpus, cognate forms such as *dvaidhaṃ* function as classificatory or ritual-analytic markers (for example in guṇa/pradhāna and aṅga/aṅgin analysis), not as a substantive doctrinal category named *dvaita*.",
+      "register_tag": "RN+E; adhikārin"
     },
     {
       "school": "Mādhyamaka",
@@ -334,7 +350,8 @@
           "cite": "cite://nagarjuna/mula-madhyamaka-karika/25.24",
           "locus_short": "MMK 25.24"
         }
-      ]
+      ],
+      "register_tag": "LD+M; reflective reader (śūnya, neither dvaita nor advaita)"
     },
     {
       "school": "Yogācāra",
@@ -377,7 +394,8 @@
           "cite": "cite://vasubandhu/trimsika/29",
           "locus_short": "Triṃśikā 29"
         }
-      ]
+      ],
+      "register_tag": "M+Φ; reflective reader (vijñapti-mātratā)"
     },
     {
       "school": "Pratyabhijñā / Trika",
@@ -404,7 +422,8 @@
           "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/4.13",
           "locus_short": "ĪPK 4.13"
         }
-      ]
+      ],
+      "register_tag": "M+S; sādhaka (Śiva-advaita with abheda-of-bheda)"
     },
     {
       "school": "Jainism",
@@ -435,7 +454,8 @@
           "cite": "cite://umasvati/tattvartha-sutra/5.2",
           "locus_short": "TS 5.2"
         }
-      ]
+      ],
+      "register_tag": "M+C; reflective reader (anekānta, neither extreme)"
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",

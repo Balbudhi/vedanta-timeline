@@ -18,6 +18,11 @@
   "last_verified_at": "2026-05-10",
   "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "Part, portion, or share. In Vedānta the term becomes a controlled way of saying that a dependent reality belongs to *brahman* or Bhagavān without immediately collapsing into strict identity. It therefore sits beside *prakāra*, *śakti*, *apṛthak-siddhi*, and the many forms of *bhedābheda*. A major scriptural driver is *Bhagavad-Gītā* 15.7, *mamaivāṃśo jīvaloke jīvabhūtaḥ sanātanaḥ*: the eternal *jīva* is 'my very own *aṃśa*.' Schools then ask what sort of partness this can be. Is the self a literal part of the Lord, a mode inseparable from Him, a dependent energy, or only figuratively called a part because of similarity or subordination? Gauḍīya Vaiṣṇavas distinguish *svāṃśa* manifestations of Bhagavān from *vibhinnāṃśa* selves; Bhāskara reads partness through real transformation; Advaita refuses literal partness because *brahman* is partless; Tattva-vāda (the school often labeled Dvaita) rejects it because the *jīva* is eternally distinct. 'Part' is thus never enough by itself; one must specify the metaphysics of the whole.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Aṃśa* names **a part: a constituent that stands in a part-whole relation to its whole**. The structural role is shared. Vedāntic schools dispute the *jīva*'s status as *aṃśa* of Brahman: Viśiṣṭādvaita and Tattva-vāda treat the *jīva* as real *aṃśa*; Nimbārka and Vallabha treat the *jīva* as *svābhāvika* *aṃśa* / *aṃśa-śakti*; Advaita treats the *jīva* as *aṃśa* of Brahman only *aupacārikally*, since Brahman is *niravayava*.",
+    "register_axes_note": "**Real disagreement** (AF1) on whether Brahman can have *aṃśas* at all. Same M-register, same scope-inside. Advaita reads BS 2.3.43 (*aṃśo nānā-vyapadeśāt*) as a *pedagogical* surface; theistic Vedāntas read the same sūtra as a constructive M-thesis. Methodology Cases 3–5."
+  },
   "per_school": [
     {
       "school": "Advaita",
@@ -34,7 +39,8 @@
           "cite": "cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18",
           "locus_short": "MK 1.16-18"
         }
-      ]
+      ],
+      "register_tag": "P+M; mumukṣu (aṃśa as aupacārika)"
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -47,7 +53,8 @@
           "cite": "cite://ramanuja/vedartha-samgraha/§6",
           "locus_short": "Vedārtha-Saṃgraha §6"
         }
-      ]
+      ],
+      "register_tag": "M+S; prapanna [REAL-DISAGREEMENT: jīva as real aṃśa]"
     },
     {
       "school": "Tattva-vāda",
@@ -64,13 +71,15 @@
           "cite": "cite://madhva/anuvyakhyana/2.3.66-69",
           "locus_short": "Anuvy. 2.3.66-69"
         }
-      ]
+      ],
+      "register_tag": "M+S; Tattvavādin"
     },
     {
       "school": "Bhedābheda",
       "definition": "[NOT YET RETRIEVED]",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "register_tag": "M+S; upāsaka"
     },
     {
       "school": "Acintya-Bhedābheda",
@@ -87,7 +96,8 @@
           "cite": "cite://jiva-gosvami/sat-sandarbha/§45",
           "locus_short": "Paramātma-Sandarbha §45"
         }
-      ]
+      ],
+      "register_tag": "M+AD; bhakta"
     },
     {
       "school": "Dvaitādvaita",
@@ -100,7 +110,8 @@
           "cite": "cite://srinivasa/vedanta-kaustubha/2.3.42",
           "locus_short": "BS 2.3.42"
         }
-      ]
+      ],
+      "register_tag": "M+S; bhakta (svābhāvika aṃśa)"
     },
     {
       "school": "Śuddhādvaita",
@@ -117,7 +128,8 @@
           "cite": "cite://vallabha/anubhasya/2.3.43-45c",
           "locus_short": "BSB 2.3.43-45c"
         }
-      ]
+      ],
+      "register_tag": "M+S; bhakta (aṃśa-śakti)"
     },
     {
       "school": "Sāṃkhya",

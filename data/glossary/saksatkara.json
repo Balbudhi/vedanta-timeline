@@ -3,32 +3,67 @@
   "term_iast": "sākṣātkāra",
   "term_devanagari": "साक्षात्कार",
   "literal": "making directly present; bringing before the eyes",
-  "aliases": ["saksatkara", "sākṣātkāra", "Sākṣātkāra", "sākṣātkārasya", "saksatkar"],
+  "aliases": [
+    "saksatkara",
+    "sākṣātkāra",
+    "Sākṣātkāra",
+    "sākṣātkārasya",
+    "saksatkar"
+  ],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
   "invariant_definition": "*Sākṣātkāra* is direct realization in the sense of making the object immediately present. The visual metaphor is important: the term belongs to the same family as *darśana*, *dṛṣṭi*, and *sākṣin*, and it marks not just correct doctrine but actuality of apprehension. In philosophical usage it often stands near *anubhava* and *aparokṣa-jñāna*, though with a slightly stronger event-character: something previously heard about or meditated upon is now directly present. In devotional practice this becomes *bhagavat-sākṣātkāra*; in non-dualist settings it becomes *ātma-* or *brahma-sākṣātkāra*. The schools agree that liberation involves such immediacy, but they disagree fundamentally about what becomes present: identity with *brahman*, the Lord in his own form, or the reality of dependence and service. The term should therefore not be flattened into generic 'realization' without specifying what sort of metaphysical relation is being realized.",
+  "school_framing": {
+    "framing_status": "same_concept_different_aspect",
+    "shared_core": "*Sākṣātkāra* names **immediate realization: the direct, non-mediated cognition of the highest object that constitutes liberating knowledge**, paralleling *aparokṣa-jñāna*. Advaita identifies *sākṣātkāra* with *brahmā-nubhava* (*Upadeśa-Sāhasrī*). Viśiṣṭādvaita identifies it with *Bhagavat-sākṣātkāra* (*Śrī-Bhāṣya* 1.1.1). Tattva-vāda identifies it with *aparokṣa-jñāna* of Hari, granted by his *prasāda*. Gauḍīya identifies it with *darśana* in *prema-rasa*.",
+    "register_axes_note": "Same Φ+E+S register; same scope-inside (non-mediated terminal cognition). Real disagreement only on the *object* of *sākṣātkāra*: *nirviśeṣa-brahman*, *Bhagavān*, Hari-*aṃśa*, *Bhagavat-prema-mūrti*. Methodology Case 2: Φ-continuity does not entail S-continuity."
+  },
   "per_school": [
     {
       "school": "Advaita",
       "definition": "For Advaita, *brahma-sākṣātkāra* is the immediacy of *ātman-brahman* identity. It is not a fresh object-perception but the culmination of non-dual knowledge in which the ignorance sustaining self-world division is removed. Later Advaita commonly explains this through *akhaṇḍākāra-vṛtti*, though the realized state itself is not another mental episode alongside ordinary perceptions.",
-      "primary_loci": ["Upadeśa-Sāhasrī 18", "Aparokṣānubhūti 1-12", "Pañcadaśī 7.90-108 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Upadeśa-Sāhasrī 18",
+        "Aparokṣānubhūti 1-12",
+        "Pañcadaśī 7.90-108 [NOT YET RETRIEVED]"
+      ],
+      "register_tag": "Φ+E+S; mumukṣu (brahmānubhava)"
     },
     {
       "school": "Viśiṣṭādvaita",
       "definition": "Viśiṣṭādvaita uses the language of direct realization for the mature outcome of *upāsanā* and *bhakti*. What becomes present is not identity but the Lord as the soul's inner ruler and final object of loving cognition. The realized relation preserves difference within inseparability: the devotee does not disappear into Brahman but beholds and enjoys Brahman rightly.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§121-144", "Rāmānuja, Śrī-Bhāṣya 3.2.24-29 [NOT YET RETRIEVED]", "Yatīndra-Mata-Dīpikā 8"]
+      "primary_loci": [
+        "Vedārtha-Saṅgraha §§121-144",
+        "Rāmānuja, Śrī-Bhāṣya 3.2.24-29 [NOT YET RETRIEVED]",
+        "Yatīndra-Mata-Dīpikā 8"
+      ],
+      "register_tag": "Φ+S; prapanna (Bhagavat-sākṣātkāra)"
     },
     {
       "school": "Tattva-vāda (Dvaita)",
       "definition": "In Tattva-vāda, *sākṣātkāra* is direct realization of Viṣṇu and of the soul's dependent status. It is irreducibly relational. The knower, the Lord, and the act of devotion remain distinct even at the highest level. This gives the term a very different metaphysical load than in Advaita, despite superficial overlap in English translation.",
-      "primary_loci": ["Madhva, Anu-Vyākhyāna 3.3", "Madhva, Brahma-Sūtra-Bhāṣya 3.2.24 [NOT YET RETRIEVED]", "Jayatīrtha, Pramāṇa-Paddhati [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Madhva, Anu-Vyākhyāna 3.3",
+        "Madhva, Brahma-Sūtra-Bhāṣya 3.2.24 [NOT YET RETRIEVED]",
+        "Jayatīrtha, Pramāṇa-Paddhati [NOT YET RETRIEVED]"
+      ],
+      "register_tag": "Φ+S; Tattvavādin (Hari-prasāda)"
     },
     {
       "school": "Acintya-Bhedābheda",
       "definition": "Gauḍīya Vaiṣṇava usage tends to construe the highest directness as *bhagavat-sākṣātkāra* or *darśana* within *prema-bhakti*. The Lord becomes present in a way that intensifies personal relation rather than abolishing it. Hence the term belongs to a devotional ontology of encounter, not to a theory of impersonal absorption.",
-      "primary_loci": ["Jīva Gosvāmī, Bhakti-Sandarbha §§305-320 [NOT YET RETRIEVED]", "Caitanya-Caritāmṛta, Madhya 22.107-114 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Jīva Gosvāmī, Bhakti-Sandarbha §§305-320 [NOT YET RETRIEVED]",
+        "Caitanya-Caritāmṛta, Madhya 22.107-114 [NOT YET RETRIEVED]"
+      ],
+      "register_tag": "Φ+AD; bhakta (prema-darśana)"
     }
   ],
-  "see_also": ["anubhava", "aparoksa-jnana", "jnana", "saksin"],
+  "see_also": [
+    "anubhava",
+    "aparoksa-jnana",
+    "jnana",
+    "saksin"
+  ],
   "translator_note": "The lazy gloss 'realization' is too thin unless the context states what is realized and how. Modern English often makes 'realization' sound like a psychological shift or new appreciation. *Sākṣātkāra* is stronger: it marks direct presence. In Vedānta and bhakti traditions that directness is metaphysically structured, not merely emotive."
 }

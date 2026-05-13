@@ -3,31 +3,69 @@
   "term_iast": "antaḥkaraṇa",
   "term_devanagari": "अन्तःकरण",
   "literal": "the inner instrument; from antar 'within' + karaṇa 'instrument'",
-  "aliases": ["antahkarana", "antaḥkaraṇa", "antaḥ-karaṇa", "Antaḥkaraṇa", "antaḥkaraṇasya", "antahkaranam"],
+  "aliases": [
+    "antahkarana",
+    "antaḥkaraṇa",
+    "antaḥ-karaṇa",
+    "Antaḥkaraṇa",
+    "antaḥkaraṇasya",
+    "antahkaranam"
+  ],
   "invariant_definition": "*Antaḥkaraṇa* is the internal instrument through which embodied cognition, memory, deliberation, appropriation, and action become possible. It is not pure consciousness and it is not equivalent to the modern catch-all notion of 'mind'. Rather, it is an instrument-complex situated between self and world. Later Vedāntic usage typically analyzes it fourfold as *manas* (coordination and doubt), *buddhi* (determination), *ahaṅkāra* (appropriation as 'I' and 'mine'), and *citta* (retention and recollection), though some earlier systems work with three functions. The term presupposes a larger apparatus: external senses deliver data, *antaḥkaraṇa-vṛtti*s take object-shaped forms, *saṃskāra*s are deposited and reactivated, and bondage is sustained when this instrument is mistaken for the self or taken as independently agentive. Schools disagree over its ontological status. For Advaita it is an *upādhi* whose modifications structure empirical experience. For realist Vedāntas it is a genuine *prakṛti* product associated with the self under karma. In every case, however, liberation requires a transformed relation to the *antaḥkaraṇa*: purified, stilled, rightly oriented, or finally disidentified from.",
+  "school_framing": {
+    "framing_status": "same_concept_different_aspect",
+    "shared_core": "*Antaḥkaraṇa* names **the inner instrument: the composite cognitive apparatus comprising *manas*, *buddhi*, *ahaṃkāra* (and in Advaita *citta*)** that mediates between *jñātā* and *jñeya*. Sāṃkhya-Yoga formalizes it as the threefold *antaḥkaraṇa* (*Sāṃkhya-Kārikā* 33). Advaita reads the *antaḥkaraṇa* as the *upādhi* that individuates the *kūṭastha-sākṣin* into the *jīva*. Viśiṣṭādvaita and Tattva-vāda treat the *antaḥkaraṇa* as an *aprākṛta* or *prākṛta* instrument truly belonging to the *jīva*.",
+    "register_axes_note": "Same Φ+M register; same scope-inside (inner instrument between subject and object). Real disagreement only at the M-level on whether the *antaḥkaraṇa* is *upādhi* (Advaita) or *svarūpa*-related instrument (theistic Vedāntas). Methodology Case 4 register-pattern."
+  },
   "per_school": [
     {
       "school": "Sāṃkhya / Yoga",
       "definition": "The internal organ is generated within the *prakṛti* sequence and comprises the faculties by which experience is organized and appropriated. Yoga practice is directed toward its *vṛtti*s and *saṃskāra*s because bondage is lived there even though *puruṣa* itself remains untouched. The instrument is real, mutable, and the immediate field of discipline.",
-      "primary_loci": ["Sāṃkhya-Kārikā 23–27", "Yoga-Sūtra 1.2, 1.5–11", "Yoga-Sūtra-Bhāṣya 1.2–4"]
+      "primary_loci": [
+        "Sāṃkhya-Kārikā 23–27",
+        "Yoga-Sūtra 1.2, 1.5–11",
+        "Yoga-Sūtra-Bhāṣya 1.2–4"
+      ],
+      "register_tag": "M+Φ; yogin (threefold antaḥkaraṇa)"
     },
     {
       "school": "Advaita",
       "definition": "*Antaḥkaraṇa* is the operative *upādhi* of the empirical self. Its *vṛtti*s are the immediate vehicles of cognition, and because reflected consciousness appears in it, the one *ātman* seems to become a finite knower, doer, and enjoyer. The liberating cognition arises in this very instrument, yet what it reveals is that the self was never identical with it.",
-      "primary_loci": ["Vedānta-Paribhāṣā, pratyakṣa-pariccheda", "Pañcadaśī 1.14–25", "Vedāntasāra 96–99 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Vedānta-Paribhāṣā, pratyakṣa-pariccheda",
+        "Pañcadaśī 1.14–25",
+        "Vedāntasāra 96–99 [NOT YET RETRIEVED]"
+      ],
+      "register_tag": "Φ+M; mumukṣu (upādhi individuating sākṣin)"
     },
     {
       "school": "Viśiṣṭādvaita",
       "definition": "*Antaḥkaraṇa* is a real product of *prakṛti* through which the embodied self's knowledge is contracted and expressed. It is not illusory, but neither is it the self. In liberation the self's knowledge is no longer mediated by this constricting apparatus in the same karmically limited way.",
-      "primary_loci": ["Śrī-Bhāṣya 2.4 [NOT YET RETRIEVED]", "Yatīndra-Mata-Dīpikā 5"]
+      "primary_loci": [
+        "Śrī-Bhāṣya 2.4 [NOT YET RETRIEVED]",
+        "Yatīndra-Mata-Dīpikā 5"
+      ],
+      "register_tag": "M+Φ; prapanna"
     },
     {
       "school": "Tattva-vāda (Dvaita)",
       "definition": "*Antaḥkaraṇa* is a real internal instrument associated with a real, distinct *jīva*. Madhva's realism blocks any claim that the instrument merely creates apparent individuality; rather, it conditions the functioning of an already distinct knower. Liberation therefore removes bondage and ignorance without collapsing personal plurality.",
-      "primary_loci": ["Tattva-Saṅkhyāna 5–7", "Anu-Vyākhyāna 1.1 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Tattva-Saṅkhyāna 5–7",
+        "Anu-Vyākhyāna 1.1 [NOT YET RETRIEVED]"
+      ],
+      "register_tag": "M+Φ; Tattvavādin"
     }
   ],
-  "see_also": ["manas", "buddhi", "citta", "ahankara", "upadhi", "vrtti", "samskara"],
+  "see_also": [
+    "manas",
+    "buddhi",
+    "citta",
+    "ahankara",
+    "upadhi",
+    "vrtti",
+    "samskara"
+  ],
   "translator_note": "'Mind' is too coarse, and even 'inner organ' can mislead if heard anatomically. *Antaḥkaraṇa* is a technical instrument-complex: the apparatus through which embodied cognition, appropriation, recollection, and deliberation occur. Translating it as if it named a modern unified psyche imports assumptions about subjectivity that the Sanskrit traditions deliberately distribute across several functions.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"

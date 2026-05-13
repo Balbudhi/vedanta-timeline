@@ -15,6 +15,11 @@
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
   "invariant_definition": "A *jīvanmukta* is one liberated before bodily death. The category is not a generic label for a saint or mystic. It is a doctrinal test case for what a school thinks bondage is. If bondage is fundamentally a cognitive misidentification, liberation can in principle occur while the body continues in ordinary *vyavahāra*; if bondage includes a real karmic embodiment that must be left behind before the final state is possible, then liberation-in-life is incoherent. The term therefore gathers several adjacent issues: the status of *prārabdha-karma*, whether knowledge merely removes ignorance or also changes ontological location, whether agency persists conventionally, and whether post-realization conduct still falls under *dharma*. Advaita makes the category central. Other Vedāntic schools either reject it outright or sharply qualify any analogous notion of holy life before death. Trika Śaivism admits an important analog in recognition while embodied.",
+  "school_framing": {
+    "framing_status": "same_concept_different_aspect",
+    "shared_core": "*Jīvanmukta* names **one who is released while still embodied: the realized self in whom liberating cognition has occurred yet whose *prārabdha-karma* still sustains the body**. Advaita is the principal home of the doctrine (*Upadeśa-Sāhasrī*; *Pañcadaśī* VII; *Jīvanmukti-Viveka*). Viśiṣṭādvaita admits a parallel state under *kaiṅkarya* of the *prapanna*. Tattva-vāda restricts liberation to *videhamukti*: there is no *jīvanmukti* in the strict Advaitic sense (*Brahma-Sūtra-Bhāṣya* 4). Trika's *jīvan-mukta* is the *pratyabhijñā*-recognizer who acts as Śiva-*svarūpa*.",
+    "register_axes_note": "**Real disagreement** (AF1) between Advaita and Tattva-vāda on the very possibility of liberation-in-body: same M+S register, opposing claims. **Same concept, different aspect** between Advaita and Trika where both admit embodied liberation but differ on whether the realized agent is *kūṭastha-witness* or *Śiva-svarūpa* active agent."
+  },
   "per_school": [
     {
       "school": "Advaita",
@@ -24,7 +29,8 @@
         "Naiṣkarmya-Siddhi 4",
         "Pañcadaśī 7",
         "Jīvanmukti-Viveka 1"
-      ]
+      ],
+      "register_tag": "M+S; jīvanmukta (Φ+S in self-description)"
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -32,7 +38,8 @@
       "primary_loci": [
         "Śrī-Bhāṣya 4.4.1-22",
         "Vedārtha-Saṅgraha §§137-144"
-      ]
+      ],
+      "register_tag": "M+S; prapanna"
     },
     {
       "school": "Tattva-vāda",
@@ -40,7 +47,8 @@
       "primary_loci": [
         "Brahma-Sūtra-Bhāṣya (Madhva) 4.4.1-21",
         "Anu-Vyākhyāna 4.4"
-      ]
+      ],
+      "register_tag": "M+S; Tattvavādin [REAL-DISAGREEMENT: only videhamukti]"
     },
     {
       "school": "Trika / Kashmir Śaivism",
@@ -48,7 +56,8 @@
       "primary_loci": [
         "Pratyabhijñā-Hṛdaya 12, 16-18",
         "Tantrāloka 1.21ff"
-      ]
+      ],
+      "register_tag": "M+S; sādhaka (jīvanmukta as Śiva-svarūpa)"
     }
   ],
   "see_also": [

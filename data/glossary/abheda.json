@@ -3,31 +3,67 @@
   "term_iast": "abheda",
   "term_devanagari": "अभेद",
   "literal": "non-difference, non-separateness",
-  "aliases": ["abheda", "Abheda", "abhedaḥ", "abhedasya", "abhede"],
+  "aliases": [
+    "abheda",
+    "Abheda",
+    "abhedaḥ",
+    "abhedasya",
+    "abhede"
+  ],
   "invariant_definition": "*Abheda* is non-difference in a technical, not merely lexical, sense. It asks in what respect two items fail to be really distinct: by numerical identity, inseparable dependence, shared substrate, or some other relation. For that reason the term is inseparable from debates about *bheda*, causality, part-whole relation, and the exegesis of identity-statements such as *tat tvam asi*. It also governs how cause and effect may be said to belong together without collapsing into bare sameness. No school treats *abheda* as vague oneness. Advaita takes it as strict non-duality at the highest level. Viśiṣṭādvaita reads non-difference through *aprthak-siddhi*: the mode is not separable from the substantive, though not identical with it. Bhedābheda schools insist that non-difference and difference are both real, while Tattva-vāda (Dvaita) subjects *abheda* passages to reinterpretation through dependence, similarity, or intimacy. In practice the term governs how one reads scripture, how one understands the relation between God and soul, and whether liberation culminates in identity, communion, or ordered dependence.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Abheda* names **non-difference: the identity-relation in which two terms are not distinct in *svarūpa***. All Vedāntic schools admit *abheda*-language in scripture (*tat tvam asi*; *neha nānāsti kiñcana*); they differ on whether *abheda* is the ultimate truth (Advaita), one of two simultaneous truths held together (Bhedābheda, Acintya-Bhedābheda, Dvaitādvaita), or only a relational *aupacārika* gloss on the *sāmānādhikaraṇya* between *śarīrin* and *śarīra* (Viśiṣṭādvaita) or on *sādṛśya* (Tattva-vāda).",
+    "register_axes_note": "**Real disagreement** (AF1) between Advaita (*abheda* alone is *pāramārthika*) and Tattva-vāda (*abheda*-texts must be read as *sādṛśya* under *bhedapañcaka*; *Anuvy.* 2.3.66–69). **Same concept, different aspect** between Advaita and Bhedābheda / Dvaitādvaita / Gauḍīya where *abheda* is one of two simultaneously real aspects rather than the sole ultimate. Methodology Cases 3–5."
+  },
   "per_school": [
     {
       "school": "Advaita",
       "definition": "*Abheda* between *ātman* and *brahman* is the final purport of the Upaniṣads. Apparent difference belongs to *vyavahāra* under *adhyāsa*; *mahāvākya* inquiry removes that superimposed difference and reveals identity that was never absent. Hence *abheda* is not produced by knowledge but disclosed by it. The notion is stricter than similarity, participation, or dependence: liberation is the recognition that the self was never other than Brahman.",
-      "primary_loci": ["Chāndogya-Upaniṣad-Bhāṣya 6.8.7", "Brahma-Sūtra-Bhāṣya 1.1.4", "Upadeśa-Sāhasrī 18"]
+      "primary_loci": [
+        "Chāndogya-Upaniṣad-Bhāṣya 6.8.7",
+        "Brahma-Sūtra-Bhāṣya 1.1.4",
+        "Upadeśa-Sāhasrī 18"
+      ],
+      "register_tag": "M+S; mumukṣu [REAL-DISAGREEMENT with Tattva-vāda on abheda-ultimacy]"
     },
     {
       "school": "Viśiṣṭādvaita",
       "definition": "Rāmānuja accepts *abheda* only as inseparable relation, not as numerical identity. The *jīva* and the world are non-different from Brahman because they are his modes and body; they cannot stand independently and are known only through their relation to him. This is the logic of *aprthak-siddhi*. The Lord and the soul are therefore intimately non-separate without ceasing to be distinct terms in a real whole.",
-      "primary_loci": ["Vedārtha-Saṅgraha §§76–88", "Śrī-Bhāṣya 2.1.15 [NOT YET RETRIEVED]", "Śrī-Bhāṣya 2.3.42–45"]
+      "primary_loci": [
+        "Vedārtha-Saṅgraha §§76–88",
+        "Śrī-Bhāṣya 2.1.15 [NOT YET RETRIEVED]",
+        "Śrī-Bhāṣya 2.3.42–45"
+      ],
+      "register_tag": "M+SL; prapanna (sāmānādhikaraṇya reading)"
     },
     {
       "school": "Tattva-vāda",
       "definition": "Tattva-vāda denies real *abheda* between Viṣṇu and the soul, and between one soul and another. Identity-statements in scripture are accordingly read through dependence, proximity, similarity, or figurative usage, never through collapse of ontological distinction. This is part of Madhva's broader realist hierarchical pluralism: closeness to God, participation in his order, and dependence on him are real without erasing difference.",
-      "primary_loci": ["Viṣṇu-Tattva-Vinirṇaya §§30–40", "Tattva-Saṅkhyāna 1–8"]
+      "primary_loci": [
+        "Viṣṇu-Tattva-Vinirṇaya §§30–40",
+        "Tattva-Saṅkhyāna 1–8"
+      ],
+      "register_tag": "M+LD; Tattvavādin [REAL-DISAGREEMENT: sādṛśya, not svarūpābhidā]"
     },
     {
       "school": "Bhedābheda / Acintya-Bhedābheda",
       "definition": "*Abheda* is affirmed, but always together with *bheda*. Bhāskara explains non-difference through underlying substrate and real transformation; Nimbārka treats difference and non-difference as natural; Gauḍīya authors say the relation between Kṛṣṇa and his powers is real yet finally *acintya*. In all these cases *abheda* does real metaphysical work without swallowing plurality into sheer identity.",
-      "primary_loci": ["Bhāskara, Brahma-Sūtra-Bhāṣya 1.1.4", "Vedānta-Pārijāta-Saurabha 1.1.1–4", "Tattva-Sandarbha §§51–56"]
+      "primary_loci": [
+        "Bhāskara, Brahma-Sūtra-Bhāṣya 1.1.4",
+        "Vedānta-Pārijāta-Saurabha 1.1.1–4",
+        "Tattva-Sandarbha §§51–56"
+      ],
+      "register_tag": "M+S; bhakta (both bheda and abheda)"
     }
   ],
-  "see_also": ["bheda", "bhedabheda", "atman", "brahman", "jiva"],
+  "see_also": [
+    "bheda",
+    "bhedabheda",
+    "atman",
+    "brahman",
+    "jiva"
+  ],
   "translator_note": "The lazy glosses are 'unity' and 'oneness.' Both are too loose. *Abheda* does not mean a warm feeling of unity; it marks a technical denial of real difference in some specified respect. Different schools then specify that respect very differently. English that ignores this turns a metaphysical argument into devotional atmosphere.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"

@@ -13,6 +13,11 @@
     "Mahāvākyas"
   ],
   "invariant_definition": "A *mahāvākya* is not merely an inspiring slogan from the Upaniṣads. It is a sentence-locus treated by Vedānta as doctrinally decisive because sentence meaning, not isolated word meaning, carries the settled purport of *śruti*. The later pedagogical canon usually names four such loci: *prajñānam brahma* (Aitareya Upaniṣad 3.1.3), *aham brahmāsmi* (Bṛhadāraṇyaka Upaniṣad 1.4.10), *tat tvam asi* (Chāndogya Upaniṣad 6.8.7), and *ayam ātmā brahma* (Māṇḍūkya Upaniṣad 2). Their interpretation presupposes an entire hermeneutic apparatus: *śabda-pramāṇa*, *tātparya-liṅga*, *sāmānādhikaraṇya*, and, where needed, *lakṣaṇā*. The schools therefore disagree not over whether these sentences matter, but over what sort of sentence they are. Are they identity statements, qualified co-reference claims, dependence statements, or resemblance statements? That dispute is one of the cleanest places where a school's larger metaphysics shows itself at the level of grammar.",
+  "school_framing": {
+    "framing_status": "real_disagreement",
+    "shared_core": "*Mahāvākya* names **a great sentence: one of the four Upaniṣadic *vākyas* (*tat tvam asi*, *aham brahmāsmi*, *ayam ātmā brahma*, *prajñānam brahma*) whose function is to convey *brahmavidyā***. Advaita treats them as *jñāna-siddha-vākyas* whose *tātparya* is direct identity-instruction (*Upadeśa-Sāhasrī*; *Naiṣkarmya-Siddhi*). Viśiṣṭādvaita reads them as *aikya* under *sāmānādhi-karaṇya* of *śarīrin*-*śarīra* (*Vedārtha-Saṅgraha* §§7-12). Tattva-vāda reads them under *sādṛśya* and *aṃśa*-relation, with *neṣṭa-tādātmya* (*Anuvyākhyāna*). Bhāskara reads them under *aupādhika-bhedābheda*.",
+    "register_axes_note": "**Real disagreement** (AF1) on the *tātparya* and the *vākyārtha* of the same Upaniṣadic *śabda*s. Same SL+S register, same scope-inside (what the *vākya* means), opposing readings. Methodology §4: the same *śabda* carries different *artha* and different *pratyaya* in each school's hermeneutic frame; but here the schools *disagree* on which reading is correct rather than addressing different scopes."
+  },
   "per_school": [
     {
       "school": "Advaita",
@@ -22,7 +27,8 @@
         "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 1.4.10",
         "Brahma-Sūtra-Bhāṣya 1.1.4",
         "Upadeśa-Sāhasrī prose 18"
-      ]
+      ],
+      "register_tag": "SL+S; mumukṣu (jñāna-siddha, direct aikya)"
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -31,7 +37,8 @@
         "Vedārtha-Saṅgraha §§4–10",
         "Śrī-Bhāṣya 1.1.1",
         "Śrī-Bhāṣya 1.1.13"
-      ]
+      ],
+      "register_tag": "SL+S; prapanna [REAL-DISAGREEMENT: sāmānādhikaraṇya reading]"
     },
     {
       "school": "Tattva-vāda",
@@ -40,7 +47,8 @@
         "Madhva, Tat tvam asi-Khaṇḍana [NOT YET RETRIEVED]",
         "Viṣṇu-Tattva-Vinirṇaya §§30–40",
         "Chāndogya-Upaniṣad-Bhāṣya (Madhva) 6.8.7 [NOT YET RETRIEVED]"
-      ]
+      ],
+      "register_tag": "SL+LD; Tattvavādin [REAL-DISAGREEMENT: sādṛśya reading]"
     },
     {
       "school": "Bhedābheda (Bhāskara)",
@@ -48,7 +56,8 @@
       "primary_loci": [
         "Bhāskara, Brahma-Sūtra-Bhāṣya 1.1.4",
         "Bhāskara, Brahma-Sūtra-Bhāṣya 2.1.14 [NOT YET RETRIEVED]"
-      ]
+      ],
+      "register_tag": "SL+S; upāsaka (aupādhika reading, Case 4)"
     }
   ],
   "see_also": [

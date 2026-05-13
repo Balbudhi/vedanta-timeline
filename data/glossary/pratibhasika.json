@@ -3,26 +3,58 @@
   "term_iast": "prātibhāsika",
   "term_devanagari": "प्रातिभासिक",
   "literal": "pertaining to mere appearance or seeming; from *pratibhāsa*, appearance, seeming manifestation",
-  "aliases": ["pratibhasika", "prātibhāsika", "Prātibhāsika", "pratibhasa", "pratibhāsa"],
+  "aliases": [
+    "pratibhasika",
+    "prātibhāsika",
+    "Prātibhāsika",
+    "pratibhasa",
+    "pratibhāsa"
+  ],
   "invariant_definition": "*Prātibhāsika* is the status of what appears and functions for a subject but is corrigible within ordinary cognition itself. The stock examples are rope-snake, shell-silver, mirage water, and dream objects. In Advaita this category matters because it keeps local illusion distinct from the shared waking order: not every appearance is on the same level. The term therefore presupposes an error-theory and a hierarchy of correction. What is *prātibhāsika* is not sheer non-being, since it is experienced and can motivate fear, desire, or action; nor is it *vyāvahārika*, since a later waking cognition defeats it without requiring liberation. Nyāya and Mīmāṃsā theorists also analyze illusion, but usually through competing *khyāti* theories rather than by assigning a separate ontic level called *prātibhāsika*. The category thus belongs most strongly to Advaita's ontology of graded appearance while remaining intelligible against the wider Indian debate about error, superimposition, and the relation between seeming and correction.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Prātibhāsika* names **the merely apparent: the third tier in Advaita's *vyāvahārika*/*pāramārthika*/*prātibhāsika* ontology, fixed by *Pañcadaśī* VI and *Vedānta-Paribhāṣā* I**, where *prātibhāsika* objects (rope-snake, shell-silver) are sublatable by another *vyāvahārika* cognition, not merely by *brahmajñāna*. Nyāya rejects the three-tier ontology and reads error as *anyathā-khyāti* on real constituents. Tattva-vāda similarly rejects the third tier and explains the same cases as defective *jñāna* of real items.",
+    "register_axes_note": "**Real disagreement** (AF1) on whether a *prātibhāsika* tier is required at all (Advaita vs. Nyāya, Tattva-vāda). Same M+E register, opposing claims. Methodology §4's *vyākaraṇa*-corrective is relevant: the *vyāvahārika* / *prātibhāsika* split exists because Advaita needs a tier for error-objects distinct from the *vyāvahārika* world; schools that read error differently (mislocation, anyathā-khyāti) do not need the tier."
+  },
   "per_school": [
     {
       "school": "Advaita",
       "definition": "*Prātibhāsika* objects are locally appearing entities sublated by ordinary *vyāvahārika* cognition. Their importance is methodological: they furnish the model for understanding superimposition and show how appearance can have force without being finally real. The rope-snake is therefore not just an example but a piece of metaphysical pedagogy for explaining *adhyāsa* and *mithyātva*.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.1 (adhyāsa-bhāṣya)", "Iṣṭa-Siddhi 1", "Vedānta-Paribhāṣā, pratyakṣa-pariccheda"]
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 1.1.1 (adhyāsa-bhāṣya)",
+        "Iṣṭa-Siddhi 1",
+        "Vedānta-Paribhāṣā, pratyakṣa-pariccheda"
+      ],
+      "register_tag": "M+E; mumukṣu (three-tier ontology)"
     },
     {
       "school": "Nyāya",
       "definition": "Nyāya accepts the reality of illusion as an erroneous cognition but does not usually treat the illusory object as occupying a distinct ontic tier called *prātibhāsika*. The emphasis falls instead on how error arises, often through mislocation or misapprehension, and how a later cognition corrects it. The contrast with Advaita lies in the explanatory framework rather than in denial that illusions occur.",
-      "primary_loci": ["Nyāya-Sūtra 4.2 [NOT YET RETRIEVED]", "Tattva-Cintāmaṇi, pratyakṣa-khaṇḍa [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Nyāya-Sūtra 4.2 [NOT YET RETRIEVED]",
+        "Tattva-Cintāmaṇi, pratyakṣa-khaṇḍa [NOT YET RETRIEVED]"
+      ],
+      "register_tag": "E+LD; reflective reader [REAL-DISAGREEMENT: anyathā-khyāti, no third tier]"
     },
     {
       "school": "Tattva-vāda",
       "definition": "Mādhva critics allow local illusion but deny that its structure can be extended to the whole experienced world. Rope-snake cases show occasional error within a real world; they do not justify the Advaita move from local falsification to the *mithyātva* of the cosmos. The category is therefore accepted only as a description of episodic mistake, not as a metaphysical template.",
-      "primary_loci": ["Madhva, Mithyātva-Anumāna-Khaṇḍana [NOT YET RETRIEVED]", "Vyāsatīrtha, Nyāyāmṛta, mithyātva-bhaṅga [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Madhva, Mithyātva-Anumāna-Khaṇḍana [NOT YET RETRIEVED]",
+        "Vyāsatīrtha, Nyāyāmṛta, mithyātva-bhaṅga [NOT YET RETRIEVED]"
+      ],
+      "register_tag": "E+LD; Tattvavādin [REAL-DISAGREEMENT: no third tier]"
     }
   ],
-  "see_also": ["vyavaharika", "paramarthika", "satta-traya", "rajju-sarpa", "anirvacaniya", "adhyasa", "khyati"],
+  "see_also": [
+    "vyavaharika",
+    "paramarthika",
+    "satta-traya",
+    "rajju-sarpa",
+    "anirvacaniya",
+    "adhyasa",
+    "khyati"
+  ],
   "translator_note": "'Illusory' is usable only if one immediately marks the contrast with *mithyā*. The danger is that English 'illusion' collapses local perceptual error and the broader Advaita account of the world. 'Merely apparent' is usually better. The term always carries a built-in contrast with the *vyāvahārika* order, not with reality simpliciter.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"

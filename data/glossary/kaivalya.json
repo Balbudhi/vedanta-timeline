@@ -11,6 +11,11 @@
   "last_verified_at": "2026-05-10",
   "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "*Kaivalya* does not mean loneliness. It is the technical state of being \"alone\" in the sense of standing free of what had been falsely or contingently associated with one. In Sāṅkhya and Yoga, that means the isolation of *puruṣa* from *prakṛti* through discriminative knowledge: the guṇas withdraw to their source and consciousness abides in its own form. In Vedāntic usage the term can widen or shift. Some Advaita texts use it nearly synonymously with *mokṣa*, meaning exclusive abiding as *brahman*. Vaiṣṇava theologians, by contrast, often narrow it to a lower attainment in which the self enjoys its own conscious nature apart from matter but without full *bhagavat-prāpti*. The term therefore sits at the junction of ontology and soteriology: whether the highest end is self-isolation, identity with the absolute, or eternal relation to the Lord. Its practical force depends on that larger frame.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Kaivalya* names **the alone-standing condition in which *puruṣa* / *ātman* / *jīva* abides without further involvement in *prakṛti* or *saṃsāra***. The structural role — solitary, non-returning culmination — is shared. Schools differ on what the alone-standing self stands alone *with*: the *kūṭastha* witness identical to Brahman (Advaita), Bhagavān-related *kaiṅkarya* (Viśiṣṭādvaita), the *paratantra-jīva* in *taratamya* with Hari (Tattva-vāda), or *puruṣa* in pure *cit*-standing apart from *prakṛti* (Sāṃkhya-Yoga; *Sāṃkhya-Kārikā* 68; *YS* 4.34).",
+    "register_axes_note": "**Real disagreement** (AF1) on the *kaivalya*-state's content. Sāṃkhya-Yoga's *kaivalya* is *jīveśvara-bheda* without an *Īśvara*-role; Advaita's *kaivalya* is *jīva-brahman-aikya*. Same M+S register, same scope-inside (non-returning terminus), opposing claims on what is realized. **Same concept, different aspect** between Viśiṣṭādvaita and Acintya-Bhedābheda where *kaivalya* is rejected as the highest end and *prema-mukti* is preferred."
+  },
   "per_school": [
     {
       "school": "Advaita",
@@ -33,7 +38,8 @@
           "cite": "cite://sankara/vivekacudamani/567",
           "locus_short": "VC 567"
         }
-      ]
+      ],
+      "register_tag": "M+S; mumukṣu (jīva-brahman-aikya)"
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -51,7 +57,8 @@
           "cite": "cite://ramanuja/gita-bhasya/13-intro",
           "locus_short": "BhG Bhāṣya 13 intro"
         }
-      ]
+      ],
+      "register_tag": "M+S; prapanna [REAL-DISAGREEMENT: kaivalya lower than Bhagavat-prāpti]"
     },
     {
       "school": "Tattva-vāda",
@@ -74,7 +81,8 @@
           "cite": "cite://madhva/anuvyakhyana/2.3.66-69",
           "locus_short": "Anuvy. 2.3.66-69"
         }
-      ]
+      ],
+      "register_tag": "M+S; Tattvavādin (taratamya among the kaivalin)"
     },
     {
       "school": "Bhedābheda",
@@ -83,7 +91,8 @@
         "site/data/thinkers/bhaskara.json",
         "site/data/thinkers/yadava-prakasa.json"
       ],
-      "citations": []
+      "citations": [],
+      "register_tag": "M+S; upāsaka"
     },
     {
       "school": "Acintya-Bhedābheda",
@@ -106,7 +115,8 @@
           "cite": "cite://jiva-gosvami/sat-sandarbha/11.20.34-tika",
           "locus_short": "Sat-Sandarbha on BhP 11.20.34"
         }
-      ]
+      ],
+      "register_tag": "M+AD; bhakta [REAL-DISAGREEMENT: prema > kaivalya]"
     },
     {
       "school": "Dvaitādvaita",
@@ -115,7 +125,8 @@
         "Daśa-Ślokī",
         "Vedānta-Pārijāta-Saurabha"
       ],
-      "citations": []
+      "citations": [],
+      "register_tag": "M+S; bhakta"
     },
     {
       "school": "Śuddhādvaita",
@@ -128,7 +139,8 @@
           "cite": "cite://vallabha/anu-bhasya/gater-athevatvam",
           "locus_short": "AṇuBh gater athevatvam"
         }
-      ]
+      ],
+      "register_tag": "M+S; bhakta"
     },
     {
       "school": "Sāṃkhya",
@@ -146,7 +158,8 @@
           "cite": "cite://isvara-krsna/samkhya-karika/68",
           "locus_short": "SK 68"
         }
-      ]
+      ],
+      "register_tag": "M+S; mumukṣu [REAL-DISAGREEMENT: puruṣa-isolation, no Īśvara]"
     },
     {
       "school": "Yoga",
@@ -164,7 +177,8 @@
           "cite": "cite://vyasa/yoga-bhasya/4.34",
           "locus_short": "YBh 4.34"
         }
-      ]
+      ],
+      "register_tag": "S+Mh; yogin (YS 4.34)"
     },
     {
       "school": "Nyāya-Vaiśeṣika",
@@ -174,7 +188,8 @@
         "Vaiśeṣika-Sūtra 5.2.20"
       ],
       "citations": [],
-      "not_applicable_reason": "The inspected Nyāya-Vaiśeṣika primaries formulate liberation under `apavarga` and `mokṣa`, not under `kaivalya`. (cite://gautama/nyaya-sutra/1.1.22) (cite://kanada/vaisesika-sutra/5.2.20)"
+      "not_applicable_reason": "The inspected Nyāya-Vaiśeṣika primaries formulate liberation under `apavarga` and `mokṣa`, not under `kaivalya`. (cite://gautama/nyaya-sutra/1.1.22) (cite://kanada/vaisesika-sutra/5.2.20)",
+      "register_tag": "M+S; reflective reader"
     },
     {
       "school": "Pūrva-Mīmāṃsā",
@@ -187,7 +202,8 @@
           "cite": "cite://sucaritamisra/sloka-varttika/166",
           "locus_short": "ŚV comm. 166"
         }
-      ]
+      ],
+      "register_tag": "RN; adhikārin [partially different concept]"
     },
     {
       "school": "Mādhyamaka",
@@ -196,7 +212,8 @@
         "Mūla-Madhyamaka-Kārikā 25.19"
       ],
       "citations": [],
-      "not_applicable_reason": "The inspected Mādhyamaka primary presents the school's final end under `nirvāṇa`, not under `kaivalya`. (cite://nagarjuna/mula-madhyamaka-karika/25.19)"
+      "not_applicable_reason": "The inspected Mādhyamaka primary presents the school's final end under `nirvāṇa`, not under `kaivalya`. (cite://nagarjuna/mula-madhyamaka-karika/25.19)",
+      "register_tag": "LD+S; reflective reader [functional analogue: nirvāṇa]"
     },
     {
       "school": "Yogācāra",
@@ -205,7 +222,8 @@
         "Triṃśikā 29-30"
       ],
       "citations": [],
-      "not_applicable_reason": "The inspected Yogācāra primary formulates the consummation as `āśraya-parāvṛtti`, `anāsrava-dhātu`, and `vimuktikāya`, not under the term `kaivalya`. (cite://vasubandhu/trimsika/29-30)"
+      "not_applicable_reason": "The inspected Yogācāra primary formulates the consummation as `āśraya-parāvṛtti`, `anāsrava-dhātu`, and `vimuktikāya`, not under the term `kaivalya`. (cite://vasubandhu/trimsika/29-30)",
+      "register_tag": "Φ+S; reflective reader"
     },
     {
       "school": "Pratyabhijñā / Trika",
@@ -228,7 +246,8 @@
           "cite": "cite://abhinavagupta/paramartha-sara-comm/83",
           "locus_short": "PS comm. 83"
         }
-      ]
+      ],
+      "register_tag": "M+S; sādhaka"
     },
     {
       "school": "Jainism",
@@ -246,7 +265,8 @@
           "cite": "cite://umasvati/tattvartha-sutra/10.1-2",
           "locus_short": "TS 10.1-2"
         }
-      ]
+      ],
+      "register_tag": "M+S; reflective reader (kevala-jñāna context)"
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",

@@ -12,6 +12,11 @@
     "Saccidānanda"
   ],
   "invariant_definition": "A later scholastic compression of several Upaniṣadic predicates used to mark the intrinsic nature of *brahman*: *sat* as irreducible reality, *cit* as self-luminous consciousness, and *ānanda* as plenitude rather than episodic pleasure. The compound should not be read as a loose string of devotional adjectives. It sits inside disputes over *svarūpa-lakṣaṇa* and *taṭastha-lakṣaṇa*, over whether the three terms name one undivided reality or three really distinct divine excellences, and over whether bliss is a phenomenological state, an ontological fullness, or both. In practice the formula functions as a safeguard against reduction: *brahman* is not a bare existent without awareness, not awareness without reality, and not mere consciousness stripped of value or fulfillment. The schools agree on the prestige of the formula while disagreeing about the metaphysics it encodes.",
+  "school_framing": {
+    "framing_status": "same_concept_different_aspect",
+    "shared_core": "*Sac-cid-ānanda* is **the Upaniṣadic *svarūpa-lakṣaṇa* of Brahman: being, consciousness, bliss as the *svarūpa*-indicators of the ultimate** (Taittirīya 2.1; *Bṛhadāraṇyaka* 3.9.28's *vijñānam ānandaṃ brahma*). All Vedāntic schools agree on the structural role — these three terms pick out the *svarūpa* of Brahman, not three separate attributes. Schools differ on whether the triad is a *svarūpa-lakṣaṇa* of the *nirviśeṣa* Absolute (Advaita), an *aṃśa* of Bhagavān's infinite *kalyāṇa-guṇas* (Viśiṣṭādvaita, Tattva-vāda), or the *svarūpa-śakti* of Bhagavān taking the threefold form *sandhinī / saṃvit / hlādinī* (Gauḍīya).",
+    "register_axes_note": "Same M-register, same scope-inside (Brahman's *svarūpa*), differing aspects. Real disagreement only at the level of whether the triad exhausts Brahman's *svarūpa* (Advaita) or is one cluster within an infinite-*guṇa* *svarūpa* (Viśiṣṭādvaita / Tattva-vāda / Vallabha)."
+  },
   "per_school": [
     {
       "school": "Advaita",
@@ -20,7 +25,8 @@
         "Taittirīya-Upaniṣad-Bhāṣya 2.1.1",
         "Taittirīya-Upaniṣad-Bhāṣya 2.7.1",
         "Brahma-Sūtra-Bhāṣya 1.1.4"
-      ]
+      ],
+      "register_tag": "M+S; mumukṣu (svarūpa-lakṣaṇa of nirviśeṣa-brahman)"
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -28,7 +34,8 @@
       "primary_loci": [
         "Vedārtha-Saṅgraha §§125–137",
         "Śrī-Bhāṣya 1.1.1"
-      ]
+      ],
+      "register_tag": "M+S; prapanna (aṃśa of ananta-kalyāṇa-guṇa)"
     },
     {
       "school": "Tattva-vāda (Dvaita)",
@@ -36,7 +43,8 @@
       "primary_loci": [
         "Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1",
         "Anu-Vyākhyāna 1.1 [NOT YET RETRIEVED]"
-      ]
+      ],
+      "register_tag": "M+S; Tattvavādin"
     },
     {
       "school": "Śuddhādvaita (Vallabha)",
@@ -44,7 +52,8 @@
       "primary_loci": [
         "Aṇu-Bhāṣya 1.1.2",
         "Aṇu-Bhāṣya 2.3.42"
-      ]
+      ],
+      "register_tag": "M+S; bhakta"
     }
   ],
   "see_also": [

@@ -3,27 +3,57 @@
   "term_iast": "videha-mukti",
   "term_devanagari": "विदेहमुक्ति",
   "literal": "bodiless liberation; *videha* 'without body' + *mukti*",
-  "aliases": ["videhamukti", "videha-mukti", "videhamukta", "Videhamukti"],
+  "aliases": [
+    "videhamukti",
+    "videha-mukti",
+    "videhamukta",
+    "Videhamukti"
+  ],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus",
   "invariant_definition": "*Videhamukti* is liberation at or after the falling away of the body. The term matters because classical Indian schools do not treat embodiment as a neutral container. The body is the visible locus of karmic continuation, agency, enjoyment, and limitation. To speak of liberation without body is therefore to ask whether the binding causal sequence has been fully exhausted, whether the soul travels by a determinate route such as the *arcirādi-mārga*, and whether liberation is best conceived as postmortem arrival, disembodied abiding, or the final cessation of even residual appearance. Advaita distinguishes *jīvanmukti* from *videhamukti* and so treats the latter as a second-stage completion after knowledge has already freed the knower. Viśiṣṭādvaita and Tattva-vāda (the school often labeled Dvaita) reject that division and make postmortem release the only full liberation. The term thus marks a major fault line in how the relation between knowledge, karma, and embodiment is understood.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Videhamukti* names **release at body-fall: the cessation of further embodiment when *prārabdha-karma* exhausts**. All Vedāntic schools accept the structural role — *mokṣa* becomes complete at body-fall. Advaita pairs *videhamukti* with *jīvanmukti* (the latter being already-released, the former being the body-final terminus). Tattva-vāda treats *videhamukti* as the *only* genuine release (no embodied liberation) and ranks the released *jīvas* in *taratamya*.",
+    "register_axes_note": "**Real disagreement** (AF1) on whether *videhamukti* is the unique liberation-state (Tattva-vāda) or a culmination of an already-realized *jīvanmukti* (Advaita). Same M+S register, opposing claims. Viśiṣṭādvaita reads *vide-hamukti* as entry into *parama-pada* with *kaiṅkarya* (*śaraṇāgati-gadya*; *Vaikuṇṭha-gadya*) — same concept, different content."
+  },
   "per_school": [
     {
       "school": "Advaita",
       "definition": "For Advaita, *videhamukti* is the end of the residual bodily appearance sustained by *prārabdha-karma*. If liberation has already occurred as *jīvanmukti*, bodily death adds no new knowledge and produces no new ontological state; it is only the cessation of the already non-binding embodied continuum. In discussions where *jīvanmukti* is not foregrounded, the term can also mark the point at which the final non-return becomes publicly complete.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 4.1.15", "Brahma-Sūtra-Bhāṣya 4.4.6-7", "Naiṣkarmya-Siddhi 4"]
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 4.1.15",
+        "Brahma-Sūtra-Bhāṣya 4.4.6-7",
+        "Naiṣkarmya-Siddhi 4"
+      ],
+      "register_tag": "M+S; mumukṣu"
     },
     {
       "school": "Viśiṣṭādvaita",
       "definition": "*Videhamukti* is the standard and only complete liberation. At death, the qualified soul departs by the path of light, reaches the Lord's realm, and enters unimpeded *bhagavad-anubhava* and service. The soul remains an individual knower and enjoyer, but now without karmic contraction. The postmortem transition is real and indispensable, not a mere external epilogue to an already complete realization.",
-      "primary_loci": ["Chāndogya-Upaniṣad 5.10.1-2", "Śrī-Bhāṣya 4.3.1-16", "Śrī-Bhāṣya 4.4.1-22"]
+      "primary_loci": [
+        "Chāndogya-Upaniṣad 5.10.1-2",
+        "Śrī-Bhāṣya 4.3.1-16",
+        "Śrī-Bhāṣya 4.4.1-22"
+      ],
+      "register_tag": "M+S; prapanna"
     },
     {
       "school": "Tattva-vāda",
       "definition": "Liberation is necessarily *videha*. Only after the abandonment of the karmically conditioned body does the soul attain the appropriate liberated state under Viṣṇu's grace. The route, the differentiated status of souls, and the persistence of real plurality all remain intact. This is why Tattva-vāda denies *jīvanmukti*: as long as bodily bondage remains, the liberated condition has not yet been reached.",
-      "primary_loci": ["Chāndogya-Upaniṣad 5.10.1-2", "Brahma-Sūtra-Bhāṣya (Madhva) 4.3.1-16", "Brahma-Sūtra-Bhāṣya (Madhva) 4.4.1-21"]
+      "primary_loci": [
+        "Chāndogya-Upaniṣad 5.10.1-2",
+        "Brahma-Sūtra-Bhāṣya (Madhva) 4.3.1-16",
+        "Brahma-Sūtra-Bhāṣya (Madhva) 4.4.1-21"
+      ],
+      "register_tag": "M+S; Tattvavādin [REAL-DISAGREEMENT: only mode of release]"
     }
   ],
-  "see_also": ["jivanmukta", "moksa", "prarabdha", "samsara"],
+  "see_also": [
+    "jivanmukta",
+    "moksa",
+    "prarabdha",
+    "samsara"
+  ],
   "translator_note": "'Postmortem liberation' is often clearer than 'bodiless liberation,' since the latter can suggest a merely ghostly state. The Sanskrit term belongs to a doctrinal dispute about whether embodied life can already be free or whether bodily death is an essential soteriological event."
 }

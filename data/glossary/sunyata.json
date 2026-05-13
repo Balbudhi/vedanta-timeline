@@ -3,31 +3,73 @@
   "term_iast": "śūnyatā",
   "term_devanagari": "शून्यता",
   "literal": "emptiness, voidness; absence of intrinsic own-being",
-  "aliases": ["sunyata", "śūnyatā", "Śūnyatā", "śūnyatāyāḥ", "śūnyatāṃ", "śūnya", "shunyata"],
+  "aliases": [
+    "sunyata",
+    "śūnyatā",
+    "Śūnyatā",
+    "śūnyatāyāḥ",
+    "śūnyatāṃ",
+    "śūnya",
+    "shunyata"
+  ],
   "invariant_definition": "*Śūnyatā* names the absence of *svabhāva*. Its classical force is therefore anti-essentialist, not nihilist. Nāgārjuna's equation of *śūnyatā* with *pratītya-samutpāda* fixes the point: to be empty is to exist only dependently, through causes, conditions, conceptual imputation, and mutual relation, never through an isolated intrinsic nature. The doctrine sits together with the *catuṣkoṭi* and the two truths. The *catuṣkoṭi* blocks every attempt to rest ontology on a self-grounded thesis; the two truths explain how ordinary discourse and practice continue without metaphysical reification. In *prayoga*, *śūnyatā* is a therapy against grasping: one loosens fixation on entities, selves, views, and even on emptiness itself. The term should therefore not be taken as a hidden absolute, a cosmic void, or a synonym for sheer non-being. It is a claim about how things lack independent being, not a claim that nothing appears or that causal life is denied.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Śūnyatā* names **the emptiness of *svabhāva*: the ontological structure that no dharma has self-standing essential nature**, fixed by *Mūla-Madhyamaka-Kārikā* 24.18 (*yaḥ pratītyasamutpādaḥ śūnyatāṃ tāṃ pracakṣmahe*). Mādhyamaka and Yogācāra share the structural role. They differ on whether *śūnyatā* is (i) the absence of *svabhāva* alone (Mādhyamaka) or (ii) the *parinispanna* absence of *parikalpita* on the *paratantra* substrate (Yogācāra, *Madhyānta-Vibhāga* I.1).",
+    "register_axes_note": "Same LD+M register, same scope-inside, real disagreement on substrate: Yogācāra's *śūnyatā* presupposes *para-tantra-svabhāva* as bearer; Mādhyamaka's *śūnyatā* presupposes none (*sarva-dharma-nairātmya*). Methodology AF1 holds. **Real disagreement** with Advaita: Advaita's *nirviśeṣa-brahman* is a positive substrate; Mādhyamaka's *śūnyatā* is non-substantialist (*Madhyamakāvatāra* 6)."
+  },
   "per_school": [
     {
       "school": "Mādhyamaka",
       "definition": "*Śūnyatā* is identical with dependent arising and therefore with the refusal of *svabhāva*. Nāgārjuna's method is purely dialectical: any thesis that treats a thing as self-grounded collapses under analysis. Candrakīrti emphasizes that this is enough; emptiness is not a further positive entity behind the world. The two truths preserve ordinary commerce, language, ethics, and practice while denying that any of them disclose independent essences.",
-      "primary_loci": ["Mūla-Madhyamaka-Kārikā 24.8–10", "Mūla-Madhyamaka-Kārikā 24.18–19", "Vigraha-Vyāvartanī 29"]
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 24.8–10",
+        "Mūla-Madhyamaka-Kārikā 24.18–19",
+        "Vigraha-Vyāvartanī 29"
+      ],
+      "register_tag": "LD+M; reflective reader (no svabhāva)"
     },
     {
       "school": "Yogācāra",
       "definition": "Yogācāra treats emptiness through the *trisvabhāva* analysis. What is empty is the imagined *grāhya-grāhaka* duality projected upon the dependent cognitive flow. The *paratantra* is not affirmed as an independent substance; it is the dependently arisen stream whose purified mode is the *pariniṣpanna*. The term therefore functions less as a universal negative than as an analysis of how duality is falsely imposed upon cognition.",
-      "primary_loci": ["Vasubandhu, Triṃśikā 20–25", "Vasubandhu, Trisvabhāva-Nirdeśa 1–5", "Asaṅga, Mahāyāna-Saṅgraha 2.13–26"]
+      "primary_loci": [
+        "Vasubandhu, Triṃśikā 20–25",
+        "Vasubandhu, Trisvabhāva-Nirdeśa 1–5",
+        "Asaṅga, Mahāyāna-Saṅgraha 2.13–26"
+      ],
+      "register_tag": "M+E; reflective reader (parinispanna on paratantra)"
     },
     {
       "school": "Advaita",
       "definition": "Advaita does not accept *śūnyatā* as the final truth because it holds that the sublation of the world reveals *brahman*, not mere absence. Even so, the school is forced into sustained comparison because its doctrine of the world's *anirvacanīya* status resembles the four-corner refusal in form. Advaitins therefore insist on the difference between denying independent reality to the world and denying a *pāramārthika* substrate altogether.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 2.2.32", "Māṇḍūkya-Kārikā 2.32", "Bhāmatī ad Brahma-Sūtra-Bhāṣya 2.2.32"]
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 2.2.32",
+        "Māṇḍūkya-Kārikā 2.32",
+        "Bhāmatī ad Brahma-Sūtra-Bhāṣya 2.2.32"
+      ],
+      "register_tag": "M+LD; mumukṣu [REAL-DISAGREEMENT: positive substrate vs. śūnya]"
     },
     {
       "school": "Viśiṣṭādvaita and Tattva-vāda (Dvaita)",
       "definition": "The realist Vedāntic schools ordinarily read *śūnyatā* polemically as a slide toward *asat* or *vaināśika* denial, because for them a world without real dependence on a real Lord collapses into unintelligibility. Their criticism is doctrinally productive even when it overshoots the Mādhyamaka target. The point of dispute is whether denying *svabhāva* leaves enough reality for causation, scripture, devotion, and liberation to remain coherent.",
-      "primary_loci": ["Śrī-Bhāṣya 2.2.27–32", "Madhva, Tattva-Saṅkhyāna 1–8"]
+      "primary_loci": [
+        "Śrī-Bhāṣya 2.2.27–32",
+        "Madhva, Tattva-Saṅkhyāna 1–8"
+      ],
+      "register_tag": "M+LD; polemicist [REAL-DISAGREEMENT: śūnya-vāda rejected]"
     }
   ],
-  "see_also": ["pratitya-samutpada", "catuskoti", "paramartha-satya", "samvrti-satya", "anirvacaniya", "asat", "svatantra", "paratantra", "mithya"],
+  "see_also": [
+    "pratitya-samutpada",
+    "catuskoti",
+    "paramartha-satya",
+    "samvrti-satya",
+    "anirvacaniya",
+    "asat",
+    "svatantra",
+    "paratantra",
+    "mithya"
+  ],
   "translator_note": "\"Emptiness\" is standard but dangerous because English readers often hear either a nihilistic blank or a mystical substance called Emptiness. Both are wrong. *Śūnyatā* does not mean *asat*, and it does not name a metaphysical thing behind appearances. It names the lack of intrinsic own-being in dependently arisen things. Translating it as \"void\" usually imports even worse baggage and should be avoided unless a text is being discussed polemically.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"

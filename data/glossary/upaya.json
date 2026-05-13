@@ -13,6 +13,11 @@
     "upāyas"
   ],
   "invariant_definition": "*Upāya* is a means, but in Indian philosophical usage it is usually an efficacious path-component embedded in a larger account of causality, fitness, and goal. The term therefore sits beside *upeya* (what is to be reached), *adhikāra* (eligibility), *sādhana*, and often *phala*. In ritual contexts an *upāya* is what brings about a result not available by ordinary causation; in epistemic contexts it can mean a reliable route to knowledge; in soteriology it names the path by which bondage is actually undone. Different traditions thus ask different questions: is the means knowledge, devotion, surrender, meditative cultivation, ritual action, divine grace, or pedagogical accommodation? Is the means independent, merely preparatory, or already identical with the goal? In practice *upāya* is the grammar by which traditions organize spiritual method, rank practices, and explain why one path works for one kind of aspirant and not for another.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Upāya* names **a means: the operational path or technique whose deployment brings about a determinate end**. The structural role is shared. Vedāntic schools dispute *which* *upāya* effects *mokṣa* — *jñāna* alone (Advaita), *bhakti-yoga* with *prapatti* (Viśiṣṭādvaita), *prapatti* alone (Tenkalai Śrīvaiṣṇavism), *rāgānuga-bhakti* (Gauḍīya). Trika maps four *upāya*s by adhikāra (*ānavopāya*, *śāktopāya*, *śāmbhavopāya*, *anupāya*; *Tantrāloka* I, II). Mahāyāna's *upāya-kauśalya* is **a different concept**: the bodhisattva's pedagogical skillful-means, not the path of one's own release.",
+    "register_axes_note": "**Same concept, different aspect** within Vedānta: schools agree on the structural role and disagree on which *upāya* is *mokṣa-sādhana*. **Different concept** in Mahāyāna where *upāya* is the bodhisattva's pedagogical resource (*Saddharma-Puṇḍarīka* 2; *Vimalakīrti-Nirdeśa*). Trika's four *upāyas* are P+Mh: pedagogically scoped to *adhikāra*."
+  },
   "per_school": [
     {
       "school": "Advaita",
@@ -21,7 +26,8 @@
         "Upadeśa-Sāhasrī, prose 1.1–1.4",
         "Brahma-Sūtra-Bhāṣya 1.1.4",
         "Bhagavad-Gītā-Bhāṣya 4.38"
-      ]
+      ],
+      "register_tag": "S+P; mumukṣu (jñāna-niṣṭhā)"
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -30,7 +36,8 @@
         "Bhagavad-Gītā 18.66",
         "Rāmānuja, Śaraṇāgati-Gadya 1",
         "Vedānta-Deśika, Rahasya-Traya-Sāra, upāya-prakaraṇa"
-      ]
+      ],
+      "register_tag": "S+P; prapanna (bhakti-yoga + prapatti)"
     },
     {
       "school": "Acintya-Bhedābheda",
@@ -39,7 +46,8 @@
         "Bhakti-Sandarbha §§213–250",
         "Bhakti-Rasāmṛta-Sindhu 1.2.233–234",
         "Caitanya-Caritāmṛta, Ādi 17.21–22"
-      ]
+      ],
+      "register_tag": "S+AD; bhakta (rāgānuga-bhakti)"
     },
     {
       "school": "Mahāyāna Buddhism",
@@ -48,7 +56,8 @@
         "Saddharma-Puṇḍarīka-Sūtra ch. 2",
         "Vimalakīrti-Nirdeśa-Sūtra 2 [NOT YET RETRIEVED]",
         "Bodhicaryāvatāra 9.1–4 [NOT YET RETRIEVED]"
-      ]
+      ],
+      "register_tag": "P+S; bodhisattva [different concept: upāya-kauśalya]"
     },
     {
       "school": "Trika / Kashmir Śaivism",
@@ -56,7 +65,8 @@
       "primary_loci": [
         "Tantrāloka 2–5",
         "Śiva-Sūtra-Vimarśinī 1.1 [NOT YET RETRIEVED]"
-      ]
+      ],
+      "register_tag": "P+Mh; sādhaka (four upāyas by adhikāra)"
     }
   ],
   "see_also": [

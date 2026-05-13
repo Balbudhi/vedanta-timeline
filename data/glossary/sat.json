@@ -12,6 +12,11 @@
     "sad-rupa"
   ],
   "invariant_definition": "Being or reality, but in technical contexts more than the bare copula 'is'. *Sat* marks what stands up under ontological and causal analysis. The term therefore appears in several linked debates: whether only the ultimate is *sat* in the strict sense or whether dependent realities are also genuinely *sat*; whether effects arise from what already is, as *sat-kārya-vāda* argues, or from prior non-manifestation; and how *sat* differs from both *asat* and, in Advaita, *mithyā*. Upaniṣadic usage gives the term high metaphysical weight, especially in *sad eva somya idam agra āsīt*; later schools then ask what exactly counts as 'what is'. For Advaita, *sat* in the strict sense belongs only to *brahman*. For realist Vedāntas and Sāṃkhya, dependent entities are also real, though not equally independent. A translation that treats *sat* as mere existence misses this layered use in causality, ontology, and soteriology.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Sat* names **what stands up under ontological and causal analysis: the determinate referent of *asti***. All schools that use the term agree on this structural role — *sat* is not the bare copula but what survives scrutiny. They differ on (i) whether *sat* in the strict sense belongs only to the unconditioned (Advaita) or also to dependent reals (Viśiṣṭādvaita, Tattva-vāda, Śuddhādvaita, Sāṃkhya, Nyāya-Vaiśeṣika, Yoga, Jainism, Trika), (ii) whether effects pre-exist in the cause (*satkārya-vāda*) or arise anew (*asatkārya-vāda*), and (iii) whether the *sat*/*asat* binary is exhaustive (most schools: yes) or admits an *anirvacanīya* third (Advaita).",
+    "register_axes_note": "Schools differ along the M-register axis (which entities carry *sattā* in the strict sense) and the LD-register axis (what *sat* as a predicate can support). **Real disagreement** (AF1) between Advaita (*sat* in the strict sense only of Brahman; *Māṇḍūkya-Bhāṣya* 7) and Tattva-vāda (*sat* of the *bhedapañcaka*; *Anuvyākhyāna* 1.4.111–112) — same M-register, same scope-inside, opposing claims. **Different concept** in Mādhyamaka and Yogācāra: *sat* is framed inside the two-truths / *arthakriyā-sāmarthya* economy, not the substance-attribute economy of the Brāhmaṇical schools."
+  },
   "per_school": [
     {
       "school": "Advaita",
@@ -39,7 +44,8 @@
           "cite": "cite://madhusudana/advaita-siddhi/1",
           "locus_short": "Advaita-Siddhi 1"
         }
-      ]
+      ],
+      "register_tag": "M+E; mumukṣu [REAL-DISAGREEMENT with realist Vedāntas on strict-sense sat]"
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -54,7 +60,8 @@
           "cite": "cite://ramanuja/vedartha-samgraha/§6",
           "locus_short": "Vedārtha-Saṅgraha §6"
         }
-      ]
+      ],
+      "register_tag": "M+S; prapanna"
     },
     {
       "school": "Tattva-vāda",
@@ -73,13 +80,15 @@
           "cite": "cite://madhva/anuvyakhyana/2.3.66-69",
           "locus_short": "Anuvy. 2.3.66-69"
         }
-      ]
+      ],
+      "register_tag": "M+S; Tattvavādin [REAL-DISAGREEMENT with Advaita on bhedapañcaka-sattva]"
     },
     {
       "school": "Bhedābheda",
       "definition": "[NOT YET RETRIEVED]",
       "primary_loci": [],
-      "citations": []
+      "citations": [],
+      "register_tag": "M+S; upāsaka"
     },
     {
       "school": "Acintya-Bhedābheda",
@@ -102,7 +111,8 @@
           "cite": "cite://jiva-gosvami/sat-sandarbha/§45",
           "locus_short": "Paramātma-Sandarbha §45"
         }
-      ]
+      ],
+      "register_tag": "M+AD; bhakta"
     },
     {
       "school": "Dvaitādvaita",
@@ -120,7 +130,8 @@
           "cite": "cite://nimbarka/dasa-shloki/2",
           "locus_short": "DaŚ 2"
         }
-      ]
+      ],
+      "register_tag": "M+S; bhakta"
     },
     {
       "school": "Śuddhādvaita",
@@ -138,7 +149,8 @@
           "cite": "cite://vallabha/anu-bhasya/1.4.26",
           "locus_short": "BSB 1.4.26"
         }
-      ]
+      ],
+      "register_tag": "M+S; bhakta"
     },
     {
       "school": "Sāṃkhya",
@@ -156,7 +168,8 @@
           "cite": "cite://isvarakrsna/samkhya-karika/9-commentary",
           "locus_short": "SK 9 comm."
         }
-      ]
+      ],
+      "register_tag": "M+C; mumukṣu (satkārya-vāda)"
     },
     {
       "school": "Yoga",
@@ -179,7 +192,8 @@
           "cite": "cite://vyasa-bhasya/yoga-sutra-bhasya/4.12",
           "locus_short": "YBh 4.12"
         }
-      ]
+      ],
+      "register_tag": "M+Φ; yogin (dharmin persistence)"
     },
     {
       "school": "Nyāya-Vaiśeṣika",
@@ -192,7 +206,8 @@
           "cite": "cite://kanada/vaisesika-sutra/1.2.4-8",
           "locus_short": "VS 1.2.4-8"
         }
-      ]
+      ],
+      "register_tag": "M+E; reflective reader (sattā as sāmānya)"
     },
     {
       "school": "Pūrva-Mīmāṃsā",
@@ -210,7 +225,8 @@
           "cite": "cite://jaimini/mimamsa-sutra/1.1.2",
           "locus_short": "MS 1.1.2"
         }
-      ]
+      ],
+      "register_tag": "E+RN; adhikārin"
     },
     {
       "school": "Mādhyamaka",
@@ -228,7 +244,8 @@
           "cite": "cite://nagarjuna/mula-madhyamaka-karika/24.9",
           "locus_short": "MMK 24.9"
         }
-      ]
+      ],
+      "register_tag": "LD+M; reflective reader [different framing: two-truths]"
     },
     {
       "school": "Yogācāra",
@@ -246,7 +263,8 @@
           "cite": "cite://dharmakirti/pramana-varttika/2.3",
           "locus_short": "Pramāṇavārttika 2.3"
         }
-      ]
+      ],
+      "register_tag": "E+M; reflective reader [different framing: arthakriyā-sat]"
     },
     {
       "school": "Pratyabhijñā / Trika",
@@ -264,7 +282,8 @@
           "cite": "cite://utpaladeva/isvara-pratyabhijna-karika/2.4.3",
           "locus_short": "ĪPK 2.4.3"
         }
-      ]
+      ],
+      "register_tag": "M+S; sādhaka"
     },
     {
       "school": "Jainism",
@@ -282,7 +301,8 @@
           "cite": "cite://umasvati/tattvartha-sutra/5.29",
           "locus_short": "TS 5.29"
         }
-      ]
+      ],
+      "register_tag": "M+C; reflective reader (sat as utpāda-vyaya-dhrauvya)"
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",
