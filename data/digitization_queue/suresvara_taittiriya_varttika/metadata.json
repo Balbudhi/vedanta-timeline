@@ -1,0 +1,47 @@
+{
+  "work_slug": "suresvara_taittiriya_varttika",
+  "work_title_iast": "Taittirīya-Upaniṣad-Bhāṣya-Vārttikam",
+  "thinker_id": "sureshvara",
+  "edition": "Ānandāśrama Sanskrit Series No. 13, *Taittirīya-Upaniṣad-Vārttika-Bhāṣya with Tīkā by Sureśvarācārya*, Pune, 1889",
+  "year": "1889",
+  "editor": "Anandashram editorial board",
+  "publisher": "Ānandāśrama Press, Pune",
+  "language_primary": "sanskrit",
+  "secondary_languages": [],
+  "script": "devanagari",
+  "commentaries_included": [
+    "Ānandagiri's Tīkā",
+    "Śaṅkara's Taittirīya-Bhāṣya (base)"
+  ],
+  "source_url": "https://archive.org/details/gOtp_taitiriya-upanishad-bhashya-vartika-by-sureshvara-acharya-1889-anand-ashram-press",
+  "source_item_id": "gOtp_taitiriya-upanishad-bhashya-vartika-by-sureshvara-acharya-1889-anand-ashram-press",
+  "license": "public_domain",
+  "expected_text_units": {
+    "kind": "varttikas",
+    "approximate_count": 1100,
+    "source_for_estimate": "Sureśvara's TUBV has roughly 1100 vārttikas across the three vallīs of the Taittirīya"
+  },
+  "ground_truth_available": true,
+  "ground_truth_source": "R. Balasubramanian, *The Taittirīyopaniṣad-Bhāṣya-Vārttika of Sureśvara* (Madras 1974) — full English with Sanskrit base; PDF at archive.org `taittiriyavartika` and centreforbrahmavidya.org.",
+  "first_page_visual_quality": "clean",
+  "first_page_visual_quality_notes": "Heuristic (KB/page ~906): exceptional high-DPI scan. Producer 'BookChanger 4.6.3'. 225 pages.",
+  "ocr_friendliness_notes": "Three-text Anandashram layout (Śaṅkara base + Sureśvara vārttika + Ānandagiri ṭīkā) is the same region-segmentation challenge as BUBV, but a much smaller corpus and a much cleaner scan. Better OCR development target than BUBV.",
+  "priority_tier": "A10",
+  "downloaded_at": "2026-05-19",
+  "downloaded_by": "corpus-chat-lane3",
+  "sha256": "3e5805690b3dd07d609d0c609981119c53df9a8601319d9dcbb1d9b8f38e3bbb",
+  "size_bytes": 204034480,
+  "pdfinfo": {
+    "pages": 225,
+    "page_size": "580.8 x 767.2 pts",
+    "encrypted": false,
+    "linearized": null,
+    "producer": "BookChanger 4.6.3",
+    "creator": null,
+    "title": null
+  },
+  "ocr_friendliness_score": 4,
+  "ia_filename": "Taitiriya Upanishad Bhashya Vartika by Sureshvara Acharya 1889 - Anand Ashram Press.pdf",
+  "_acquisition_lane": "lane3-digitization-prep",
+  "_phase2_ocr_status": "not_started"
+}
