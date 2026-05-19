@@ -1,0 +1,46 @@
+{
+  "work_slug": "citsukha_tattva_pradipika",
+  "work_title_iast": "Tattva-Pradīpikā (Cit-Sukhī)",
+  "thinker_id": "citsukha",
+  "edition": "Nirṇayasāgara Press 1931, ed. Raghunātha Kāśīnātha Śāstrī, with Nayana-Prasādinī commentary of Pratyagsvarūpa-Bhagavān",
+  "year": "1931",
+  "editor": "Raghunātha Kāśīnātha Śāstrī",
+  "publisher": "Nirṇayasāgara Press, Mumbai",
+  "language_primary": "sanskrit",
+  "secondary_languages": [],
+  "script": "devanagari",
+  "commentaries_included": [
+    "Nayana-Prasādinī (Pratyagsvarūpa-Bhagavān)"
+  ],
+  "source_url": "https://archive.org/details/SKEw_tattva-pradipika-chitsukhi-of-chitsukhacharya-with-commentary-nayana-prasadini-b",
+  "source_item_id": "SKEw_tattva-pradipika-chitsukhi-of-chitsukhacharya-with-commentary-nayana-prasadini-b",
+  "license": "public_domain",
+  "expected_text_units": {
+    "kind": "paragraphs",
+    "approximate_count": 400,
+    "source_for_estimate": "Four paricchedas across 412 pages; ground-truth count via Phase 2 segmentation"
+  },
+  "ground_truth_available": false,
+  "ground_truth_source": "No mature digital comparator; SARIT and GRETIL hold partial texts only.",
+  "first_page_visual_quality": "clean",
+  "first_page_visual_quality_notes": "Heuristic (KB/page ~560): high-DPI scan. Producer 'BookChanger 4.6.3' typical of recent high-quality archive.org uploads.",
+  "ocr_friendliness_notes": "Nirṇayasāgara 1931 typesetting is among the cleanest of pre-WWII Sanskrit printing. Two-text layout (mūla + Nayana-Prasādinī) requires region segmentation.",
+  "priority_tier": "A3",
+  "downloaded_at": "2026-05-19",
+  "downloaded_by": "corpus-chat-lane3",
+  "sha256": "cba787273519186d2f55d3303572034b2c069af7f992a2fe6e43cef6ff1072c0",
+  "size_bytes": 230627016,
+  "pdfinfo": {
+    "pages": 412,
+    "page_size": "381.5 x 550.9 pts",
+    "encrypted": false,
+    "linearized": null,
+    "producer": "BookChanger 4.6.3",
+    "creator": null,
+    "title": null
+  },
+  "ocr_friendliness_score": 4,
+  "ia_filename": "Tattva Pradipika Chitsukhi of Chitsukhacharya with Commentary Nayana Prasadini by Raghunath Kashinath Shastri 1931 - Nirnay Sagar Press.pdf",
+  "_acquisition_lane": "lane3-digitization-prep",
+  "_phase2_ocr_status": "not_started"
+}
