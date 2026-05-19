@@ -1,0 +1,200 @@
+{
+  "text_id": "yamuna-isvara-siddhi",
+  "thinker_id": "yamuna",
+  "work_title_iast": "Īśvara-Siddhi",
+  "work_title_devanagari": "ईश्वरसिद्धि",
+  "source_file": "data/sources/sanskrit/vedanta/full_corpus/yamuna_isvara_siddhi_gretil.txt",
+  "source_script": "iast",
+  "tokenizer": "fallback_whitespace",
+  "normalizer": "indic_transliteration",
+  "ingested_at": "2026-05-19",
+  "ingested_by": "corpus-chat-lane1",
+  "structure_recovered": true,
+  "verse_count": 18,
+  "token_count_approx": 1299,
+  "verses": [
+    {
+      "verse_id": "v_1",
+      "adhyaya": 1,
+      "pada": null,
+      "sutra_or_verse_num": "1",
+      "sanskrit_devanagari": "तत्र कस्यचिद् एकस्य वशे विश्वं प्रवर्तते ।\nइति साधयितुं पूर्वं पूर्वपक्षं प्रचक्ष्महे",
+      "sanskrit_iast": "tatra kasyacid ekasya vaśe viśvaṃ pravartate |\niti sādhayituṃ pūrvaṃ pūrvapakṣaṃ pracakṣmahe",
+      "source_line_start": 1,
+      "source_line_end": 2
+    },
+    {
+      "verse_id": "v_2",
+      "adhyaya": 2,
+      "pada": null,
+      "sutra_or_verse_num": "2",
+      "sanskrit_devanagari": "तत्र मीमांसकाः प्राहुः -- नायं सर्वार्थदर्शनशक्तिसम्पन्नः पुरुषो ऽभ्युपगमम् अर्हति, अतिपतितसकलसाधकप्रमाणसम्भावनाभूमित्वात् स्फुटविविधबाधकत्वाच् च / तथा हि -- अस्य प्रत्यक्षम् अन्यद् वा साधकं भवेत् ? प्रत्यक्षम् अपि लौकिकं यौगिकं वा ?(यिस्_प्९३८८)\nव्यवस्थितमितस्वार्थं न तावद् इह लौकिकम् ।\nसाधनं तेन सर्वार्थतज्ज्ञानादेर् असिद्धितः",
+      "sanskrit_iast": "tatra mīmāṃsakāḥ prāhuḥ -- nāyaṃ sarvārthadarśanaśaktisampannaḥ puruṣo 'bhyupagamam arhati, atipatitasakalasādhakapramāṇasambhāvanābhūmitvāt sphuṭavividhabādhakatvāc ca / tathā hi -- asya pratyakṣam anyad vā sādhakaṃ bhavet ? pratyakṣam api laukikaṃ yaugikaṃ vā ?(YIs_p9388)\nvyavasthitamitasvārthaṃ na tāvad iha laukikam |\nsādhanaṃ tena sarvārthatajjñānāder asiddhitaḥ",
+      "source_line_start": 4,
+      "source_line_end": 7
+    },
+    {
+      "verse_id": "v_3",
+      "adhyaya": 3,
+      "pada": null,
+      "sutra_or_verse_num": "3",
+      "sanskrit_devanagari": "सर्वार्थदर्शनशक्तिशालिनम् अवगमयता हि देशकालस्वभावविप्रकर्षव्यवधानजुषः सर्व एवार्थास् दर्शनं शक्तिश् च गोचरयितव्यानि / न च विद्यमानेन्द्रियसन्निकर्षयोग्यकतिपयविषयनियतवृत्तेर् लौकिकप्रत्यक्षस्य निरवधिर् अयं महिमा संभावनाभूमिर् इति कथम् इव तद् इह साधनम् इति मन्येमहि /(यिस्_प्९८३९)\nनापि योगिप्रत्यक्षम् अस्य साधकम्; यतः --(यिस्_प्१०१९४)\nप्रत्यक्षत्वे तद् अप्य् एवं विद्यमानैकगोचरम् ।\nभूतादिगोचरं नैव प्रत्यक्षं प्रतिभादिवत्",
+      "sanskrit_iast": "sarvārthadarśanaśaktiśālinam avagamayatā hi deśakālasvabhāvaviprakarṣavyavadhānajuṣaḥ sarva evārthās darśanaṃ śaktiś ca gocarayitavyāni / na ca vidyamānendriyasannikarṣayogyakatipayaviṣayaniyatavṛtter laukikapratyakṣasya niravadhir ayaṃ mahimā saṃbhāvanābhūmir iti katham iva tad iha sādhanam iti manyemahi /(YIs_p9839)\nnāpi yogipratyakṣam asya sādhakam; yataḥ --(YIs_p10194)\npratyakṣatve tad apy evaṃ vidyamānaikagocaram |\nbhūtādigocaraṃ naiva pratyakṣaṃ pratibhādivat",
+      "source_line_start": 9,
+      "source_line_end": 14
+    },
+    {
+      "verse_id": "v_4",
+      "adhyaya": 4,
+      "pada": null,
+      "sutra_or_verse_num": "4",
+      "sanskrit_devanagari": "तत् खलु योगिविज्ञानम् ऐन्द्रियकं न वा ? ऐन्द्रियकम् अपि बहिरिन्द्रियसम्भवम् आन्तरकरणजनितं वा ? बहिरिन्द्रियाणि तावत् समधिगतनिजविषयसन्निकर्षसहकारीणि तद्गोचरज्ञानजननानीति जगति विदितम् / अतो न रसनादिभिर् अजातातिवृत्तव्यवहितादिसकलविषयवेदनप्रसङ्गः / न चाविद्यमानैर् अजातादिभिः संभवति सन्निकर्षः; तस्य ह्य् आश्रयत्वाद् आश्रयाभावे तदसम्भवात् / अतो ऽपेक्षितो ऽर्थसन्निकर्षः / सहकारिविरहे कथम् इन्द्रियाण्य् अतीतादिविषयसाक्षात्काराय कल्पेरन् ? / भवति च -- यद् यत्सहकारि यत्कार्यजननम्, तत् तदभावे न तज् जनयति ; यथा क्षितिसलिलसहकारि अङ्कुरकार्यजननबीजं क्षित्याद्यभावे ऽङ्कुरम् / अर्थसन्निकर्षसहकारीणि बहिरिन्द्रियाणि ज्ञानजननानीति तान्य् अपि नातीते ऽनागते वार्थे ज्ञानं जनयन्तीति न तद् उपजनितं प्रत्यक्षं यथोक्तविषयनियमम् अतिक्रामति /(यिस्_प्१०४१४)\nनाप्य् अन्तरकरणसम्भवम्, आन्तरगोचर एव सुखादौ स्वान्तस्वातन्त्र्यात् / बाह्यविषयमितिषु च मनसो निरङ्कुशकरणताङ्गीकारे हि कृतं चक्षुरादिभिः / अतश् च कश्चिद् अन्धो बधिरो वा भवेत् / भवति चात्र विमतिपदं मनो बहिरिन्द्रियनिरपेक्षं न बाह्यप्रत्यक्षगोचरे प्रवर्तते, तत्र तत्तन्त्रवृत्तित्वात् / यद्य् अत्र यत्तन्त्रवृत्ति न तत् तन्निरपेक्षं तत्र प्रवर्तते, यथालोकापेक्षप्रवृत्ति चक्षुः स्वगोचरे ऽन्धतमस इति / न च सिद्धाउषधमन्त्रतपःसमाधिमहिमसमासादितातिशयानीन्द्रियाणि कदाचिद् अपजहति समधिगतविषयनियमम् इति सम्भवति; सांसिद्धिकसामार्थाविर्भावैकफलत्वात् तेषाम्, सामर्थ्यस्य च प्रतिनियमात् / न खलु सुप्रयुक्तभेषजशतविहितसंस्कारम् अपि श्रोत्रं रूपरसविभावावगमाय कल्पते / भवति च -- विवादाध्यासितबाह्याभ्यन्तरकरणपाटवातिशयो ऽनुल्लङ्घितसीमा, ऐन्द्रियकप्रकर्षत्वात्, दृश्यमानतत्प्रकर्षवद् इत्य् ऐन्द्रियकं ज्ञानं नातीतादि गोचरयति /(यिस्_प्११३०८)\nभावनाप्रकर्षपर्यन्तजन्मनस् तु सत्य् अपि विशदनिर्भासत्वे प्राच्यानुभवगोचराद् अनधिकम् अधिकं वाध्यवस्यतः स्मृतिविभ्रमस्रोतसोर् अन्यतरावर्तपरिवर्तिनः कुतः प्रामाण्यकूलप्रतिलभः ? कुतस्तरां च प्रत्यक्षतयोत्तम्भनम् ? / प्रत्यक्षस्य वा सतः कथम् इव विदितविषयनियमव्यतिक्रमः ? अतिक्रामतो वा कुतः प्रत्यक्षत्वम् इति न विश्वानुभवाइश्वर्यशालिनि प्रत्यक्षं प्रमाणम् /(यिस्_प्१२२९९)\nनापि प्रमाणान्तरम् / तत् खल्व् अनुमानम् आगमो वा ? अनुमानम् अपि विशेषतो दृष्टं सामान्यतो दृष्टं वा ? तत्र सकलपदवीदवीयसि भवति न तावत् स्वलक्षणसाक्षात्कारपूर्वकाविनाभावावधारणाधीनोदयत्वाद् इदम् अनुमानम् उदेतुम् अलम् / न ह्य् अनवगतचरहुतभुजस् तदविनाभावितया धूमम् अनुसन्धातुम् ईशते / न च सर्वार्थनिर्माणसाक्षात्कारपटीयसि लिङ्गं सामान्यतो दृष्टम् अपि किञ्चन लभते /(यिस्_प्१२७३९)\nनन्व् एकचेतनाधीनं विवादाध्यासितं जगत् ।\nअचेतनेनानारब्धत्वाद् अरोगस्वशरीरवत्",
+      "sanskrit_iast": "tat khalu yogivijñānam aindriyakaṃ na vā ? aindriyakam api bahirindriyasambhavam āntarakaraṇajanitaṃ vā ? bahirindriyāṇi tāvat samadhigatanijaviṣayasannikarṣasahakārīṇi tadgocarajñānajananānīti jagati viditam / ato na rasanādibhir ajātātivṛttavyavahitādisakalaviṣayavedanaprasaṅgaḥ / na cāvidyamānair ajātādibhiḥ saṃbhavati sannikarṣaḥ; tasya hy āśrayatvād āśrayābhāve tadasambhavāt / ato 'pekṣito 'rthasannikarṣaḥ / sahakārivirahe katham indriyāṇy atītādiviṣayasākṣātkārāya kalperan ? / bhavati ca -- yad yatsahakāri yatkāryajananam, tat tadabhāve na taj janayati ; yathā kṣitisalilasahakāri aṅkurakāryajananabījaṃ kṣityādyabhāve 'ṅkuram / arthasannikarṣasahakārīṇi bahirindriyāṇi jñānajananānīti tāny api nātīte 'nāgate vārthe jñānaṃ janayantīti na tad upajanitaṃ pratyakṣaṃ yathoktaviṣayaniyamam atikrāmati /(YIs_p10414)\nnāpy antarakaraṇasambhavam, āntaragocara eva sukhādau svāntasvātantryāt / bāhyaviṣayamitiṣu ca manaso niraṅkuśakaraṇatāṅgīkāre hi kṛtaṃ cakṣurādibhiḥ / ataś ca kaścid andho badhiro vā bhavet / bhavati cātra vimatipadaṃ mano bahirindriyanirapekṣaṃ na bāhyapratyakṣagocare pravartate, tatra tattantravṛttitvāt / yady atra yattantravṛtti na tat tannirapekṣaṃ tatra pravartate, yathālokāpekṣapravṛtti cakṣuḥ svagocare 'ndhatamasa iti / na ca siddhāuṣadhamantratapaḥsamādhimahimasamāsāditātiśayānīndriyāṇi kadācid apajahati samadhigataviṣayaniyamam iti sambhavati; sāṃsiddhikasāmārthāvirbhāvaikaphalatvāt teṣām, sāmarthyasya ca pratiniyamāt / na khalu suprayuktabheṣajaśatavihitasaṃskāram api śrotraṃ rūparasavibhāvāvagamāya kalpate / bhavati ca -- vivādādhyāsitabāhyābhyantarakaraṇapāṭavātiśayo 'nullaṅghitasīmā, aindriyakaprakarṣatvāt, dṛśyamānatatprakarṣavad ity aindriyakaṃ jñānaṃ nātītādi gocarayati /(YIs_p11308)\nbhāvanāprakarṣaparyantajanmanas tu saty api viśadanirbhāsatve prācyānubhavagocarād anadhikam adhikaṃ vādhyavasyataḥ smṛtivibhramasrotasor anyatarāvartaparivartinaḥ kutaḥ prāmāṇyakūlapratilabhaḥ ? kutastarāṃ ca pratyakṣatayottambhanam ? / pratyakṣasya vā sataḥ katham iva viditaviṣayaniyamavyatikramaḥ ? atikrāmato vā kutaḥ pratyakṣatvam iti na viśvānubhavāiśvaryaśālini pratyakṣaṃ pramāṇam /(YIs_p12299)\nnāpi pramāṇāntaram / tat khalv anumānam āgamo vā ? anumānam api viśeṣato dṛṣṭaṃ sāmānyato dṛṣṭaṃ vā ? tatra sakalapadavīdavīyasi bhavati na tāvat svalakṣaṇasākṣātkārapūrvakāvinābhāvāvadhāraṇādhīnodayatvād idam anumānam udetum alam / na hy anavagatacarahutabhujas tadavinābhāvitayā dhūmam anusandhātum īśate / na ca sarvārthanirmāṇasākṣātkārapaṭīyasi liṅgaṃ sāmānyato dṛṣṭam api kiñcana labhate /(YIs_p12739)\nnanv ekacetanādhīnaṃ vivādādhyāsitaṃ jagat |\nacetanenānārabdhatvād arogasvaśarīravat",
+      "source_line_start": 16,
+      "source_line_end": 25
+    },
+    {
+      "verse_id": "v_5",
+      "adhyaya": 5,
+      "pada": null,
+      "sutra_or_verse_num": "5",
+      "sanskrit_devanagari": "तथा सर्वार्थनिर्माणसाक्षात्करणकौशलम् ।\nकार्यत्वाद् एव जगतस् तत्कर्तुर् अनुमीयताम्",
+      "sanskrit_iast": "tathā sarvārthanirmāṇasākṣātkaraṇakauśalam |\nkāryatvād eva jagatas tatkartur anumīyatām",
+      "source_line_start": 27,
+      "source_line_end": 28
+    },
+    {
+      "verse_id": "v_6",
+      "adhyaya": 6,
+      "pada": null,
+      "sutra_or_verse_num": "6",
+      "sanskrit_devanagari": "सर्वं हि कार्यम् उपादानोपकरणसम्प्रदानप्रयोजनसंवेदिचेतनरचितम् अवगतं घटमणिकगृहादि / कार्यं च विमतिपदम् अवनिगिरिमहार्णवादीति तद् अपि तथाविधबुद्धिमद्धेतुकम् अध्यवसीयते / न च कार्यत्वम् असिद्धम् इति वाच्यम्, अवयवसन्निवेशादिभिर् हेतुभिस् तत्सिद्धेः / इह चान्यावयविभ्यः प्रभृति आद्व्यणुकम् अखिलम् अवयवि क्रमनिहीयमाननानावयवव्यतिषङ्गविशेषजनितम् अवगतम् इत्य् अन्तत उपादानं चतुर्विधाः परमाणवः प्रपञ्चस्य / तेषाम् आदिपरिस्पन्दस्य तदनुगुणादृष्टविशिष्टतत्तत्क्षेत्रज्ञसंयोगासमवायिकारणक इति उपकरणम् अपि समस्तक्षेत्रज्ञवर्तिनि धर्माधर्मलक्षणान्य् अदृष्टानि / प्रयोजनं पुनस्तदभिनिर्वर्तितविचित्रार्थक्रियाकारश् चेतनोपकारपकारभेदो ऽपयन्तः / तदुपभुजस्त एव क्षेत्रज्ञाः सम्प्रदानम् / न चामी स्वसमवायिनाव् अपि धर्माधर्मावलम् अवलोकयितुम् इति तदतिरेकी निखिलभुवननिर्माणनिपुणो ऽधिकरणसिद्धान्तसमधिगतनिरतिशयसहजसकलविषयसंविदैश्वर्यशक्त्यतिशयः पुरुषधौरेयकः किम् इति न सामान्यतोदृष्टलिङ्गाद् अनुमीयते ?(यिस्_प्१३४५६)\nतद् इदम् अविदितानुमानवृत्तस्य स्वमतिरचिततरलतर्कोल्लसितम् इति परिहसन्ति मीमांसकाः / तथा हि -- किम् इदम् एकचेतनाधीनत्वं नामाभिप्रेतं तनुभुवनादेः ? / तदायत्तत्वम् इति चेत्;(यिस्_प्१४५६०)\nकिम् अस्य तस्मिन्न् आयत्तं किं नु जन्माथ वा स्थितिः ।\nप्रवृत्तिर् वाद्ययोस् तावत् साध्यहीनं निदर्शनम्",
+      "sanskrit_iast": "sarvaṃ hi kāryam upādānopakaraṇasampradānaprayojanasaṃvedicetanaracitam avagataṃ ghaṭamaṇikagṛhādi / kāryaṃ ca vimatipadam avanigirimahārṇavādīti tad api tathāvidhabuddhimaddhetukam adhyavasīyate / na ca kāryatvam asiddham iti vācyam, avayavasanniveśādibhir hetubhis tatsiddheḥ / iha cānyāvayavibhyaḥ prabhṛti ādvyaṇukam akhilam avayavi kramanihīyamānanānāvayavavyatiṣaṅgaviśeṣajanitam avagatam ity antata upādānaṃ caturvidhāḥ paramāṇavaḥ prapañcasya / teṣām ādiparispandasya tadanuguṇādṛṣṭaviśiṣṭatattatkṣetrajñasaṃyogāsamavāyikāraṇaka iti upakaraṇam api samastakṣetrajñavartini dharmādharmalakṣaṇāny adṛṣṭāni / prayojanaṃ punastadabhinirvartitavicitrārthakriyākāraś cetanopakārapakārabhedo 'payantaḥ / tadupabhujasta eva kṣetrajñāḥ sampradānam / na cāmī svasamavāyināv api dharmādharmāvalam avalokayitum iti tadatirekī nikhilabhuvananirmāṇanipuṇo 'dhikaraṇasiddhāntasamadhigataniratiśayasahajasakalaviṣayasaṃvidaiśvaryaśaktyatiśayaḥ puruṣadhaureyakaḥ kim iti na sāmānyatodṛṣṭaliṅgād anumīyate ?(YIs_p13456)\ntad idam aviditānumānavṛttasya svamatiracitataralatarkollasitam iti parihasanti mīmāṃsakāḥ / tathā hi -- kim idam ekacetanādhīnatvaṃ nāmābhipretaṃ tanubhuvanādeḥ ? / tadāyattatvam iti cet;(YIs_p14560)\nkim asya tasminn āyattaṃ kiṃ nu janmātha vā sthitiḥ |\npravṛttir vādyayos tāvat sādhyahīnaṃ nidarśanam",
+      "source_line_start": 30,
+      "source_line_end": 35
+    },
+    {
+      "verse_id": "v_7",
+      "adhyaya": 7,
+      "pada": null,
+      "sutra_or_verse_num": "7",
+      "sanskrit_devanagari": "न खलु शरीरम् एकचेतनाधीनोत्पत्तिस्थिति / ये हि यद्देहाधीनसुखदुःखोपभोगभागिनः, भवति हि तदुचितादृष्टशालिनां सर्वेषाम् एव तेषां तद्देहिन इव तदुत्पत्तिस्थितिनिमित्तत्वम् / अपि च शरीरावयविनः स्वावयवसमवायलक्षणा स्थितिर् अवयव्यतिषङ्गविशेषाद् ऋते न चेतयितारं परम् अपेक्षते / या पुनस् तदपेक्षिणी प्राणनलक्षणा स्थितिः, न सा पक्षीकृते क्षित्यादौ सम्भवतीति स्थितिम् अपि नैकरूपां पक्षसपक्षानुयायिनीम् उदीक्षामहे / एकचेतनाधीनप्रवृत्तित्वे तु प्रबलबहुजनसरभसप्रयत्नप्रचाल्यैर् उपलतरुरथादिभिर् व्यभिचारः / आरब्धत्वाद् एव चैतत्साध्यसिद्धाबधिकम् इदम् उपादानविशेषवचनम् /(यिस्_प्१४९४१)\nचेतनाधीनतामात्रसाह्दने सिद्धसाध्यता ।\nचेतनैर् भोक्तृभिर् भोग्यः कर्मभिर् जन्यते हि नः",
+      "sanskrit_iast": "na khalu śarīram ekacetanādhīnotpattisthiti / ye hi yaddehādhīnasukhaduḥkhopabhogabhāginaḥ, bhavati hi taducitādṛṣṭaśālināṃ sarveṣām eva teṣāṃ taddehina iva tadutpattisthitinimittatvam / api ca śarīrāvayavinaḥ svāvayavasamavāyalakṣaṇā sthitir avayavyatiṣaṅgaviśeṣād ṛte na cetayitāraṃ param apekṣate / yā punas tadapekṣiṇī prāṇanalakṣaṇā sthitiḥ, na sā pakṣīkṛte kṣityādau sambhavatīti sthitim api naikarūpāṃ pakṣasapakṣānuyāyinīm udīkṣāmahe / ekacetanādhīnapravṛttitve tu prabalabahujanasarabhasaprayatnapracālyair upalatarurathādibhir vyabhicāraḥ / ārabdhatvād eva caitatsādhyasiddhābadhikam idam upādānaviśeṣavacanam /(YIs_p14941)\ncetanādhīnatāmātrasāhdane siddhasādhyatā |\ncetanair bhoktṛbhir bhogyaḥ karmabhir janyate hi naḥ",
+      "source_line_start": 37,
+      "source_line_end": 40
+    },
+    {
+      "verse_id": "v_8",
+      "adhyaya": 8,
+      "pada": null,
+      "sutra_or_verse_num": "8",
+      "sanskrit_devanagari": "युक्तं चैतत् -- यदुभयवादिसिद्धानाम् एव चेतनानां कर्तृत्वाभ्युपगमः; लाघवात् / न चोपादानाद्यनभिज्ञतया तत्प्रतिक्षेपः /(यिस्_प्१५७८४)\nउपादानं पृथिव्यादि यागदानादि साधनम् ।\nसाक्षात्कर्तुं क्षमन्ते यत् सर्व एव च चेतनाः",
+      "sanskrit_iast": "yuktaṃ caitat -- yadubhayavādisiddhānām eva cetanānāṃ kartṛtvābhyupagamaḥ; lāghavāt / na copādānādyanabhijñatayā tatpratikṣepaḥ /(YIs_p15784)\nupādānaṃ pṛthivyādi yāgadānādi sādhanam |\nsākṣātkartuṃ kṣamante yat sarva eva ca cetanāḥ",
+      "source_line_start": 42,
+      "source_line_end": 45
+    },
+    {
+      "verse_id": "v_9",
+      "adhyaya": 9,
+      "pada": null,
+      "sutra_or_verse_num": "9",
+      "sanskrit_devanagari": "अद्यवद् एव विश्वम्भरादयः क्रमप्राप्तागन्तुकोपचयापचयैकदेशशालिनो न युगपद् एव निरवशेषविलयजननभागिन इत्यन्तिमपरमाणुसाक्षात्कारो न कर्तृभावोपयोगी /(यिस्_प्१६०८९)\nकर्मणः शक्तिरूपं यद्पूर्वादिपदास्पदम् ।\nमा भूत् प्रत्यक्षता तस्य शक्तिमद् ध्य् अक्षगोचरः",
+      "sanskrit_iast": "adyavad eva viśvambharādayaḥ kramaprāptāgantukopacayāpacayaikadeśaśālino na yugapad eva niravaśeṣavilayajananabhāgina ityantimaparamāṇusākṣātkāro na kartṛbhāvopayogī /(YIs_p16089)\nkarmaṇaḥ śaktirūpaṃ yadpūrvādipadāspadam |\nmā bhūt pratyakṣatā tasya śaktimad dhy akṣagocaraḥ",
+      "source_line_start": 47,
+      "source_line_end": 50
+    },
+    {
+      "verse_id": "v_10",
+      "adhyaya": 10,
+      "pada": null,
+      "sutra_or_verse_num": "10",
+      "sanskrit_devanagari": "न खलु कुलालादयः कुम्भादिकार्यम् आरभमाणास् तदुपादानोपकरणभूतमृद्दण्डचक्रादिकार्योत्पादनशक्तिं साक्षात्कृत्य तत् तद् आरभन्ते / यदि परं शक्तिम् अविदुषाम् अभिलषितसाधने तदुपादानादिव्यवहारो ऽनुपपन्नः, इह तु --(यिस्_प्१६४४७)\nआगमाद् अवगम्यन्ते विचित्राः कर्मशक्तयः ।\nतेन कर्मभिर् आत्मानः सर्वं निर्मिमतां पृथक्",
+      "sanskrit_iast": "na khalu kulālādayaḥ kumbhādikāryam ārabhamāṇās tadupādānopakaraṇabhūtamṛddaṇḍacakrādikāryotpādanaśaktiṃ sākṣātkṛtya tat tad ārabhante / yadi paraṃ śaktim aviduṣām abhilaṣitasādhane tadupādānādivyavahāro 'nupapannaḥ, iha tu --(YIs_p16447)\nāgamād avagamyante vicitrāḥ karmaśaktayaḥ |\ntena karmabhir ātmānaḥ sarvaṃ nirmimatāṃ pṛthak",
+      "source_line_start": 52,
+      "source_line_end": 55
+    },
+    {
+      "verse_id": "v_11",
+      "adhyaya": 11,
+      "pada": null,
+      "sutra_or_verse_num": "11",
+      "sanskrit_devanagari": "अपि च तद् एव चेतनकर्ट्र्कं जगति परिदृश्यते, यद् एव शक्यक्रियं शक्यज्ञानोपादानादि च / न च तथा महीमहीश्वरमहार्णवादीति कथम् इव तत्तत्कार्यत्वम् ? कथन्तरां च तदुपादानोपकरणादेः साक्षात्कारगोचरता ? यादृशं हि कार्यम् उपादानाद्यभिज्ञपूर्वकम् अवगतं घटमणिकादि, तादृशम् एव हि तथाविधबुद्धिमद्धेतुकत्वानुमानाय प्रभवति /(यिस्_प्१६८५९)\nअपि चानीश्वरेण परिमितशक्तिज्ञानेन विग्रहवतानवाप्तकामेन कृतम् अवगतं घटादिकार्यम् इति तथाविधं बोद्धारम् उपस्थापयन् हेतुर् अभिमतपुरुषसार्वज्ञ्यसर्वाइश्वर्यादिविपर्ययसाधनादिविरुद्धः स्यात् / न चैवं सति सर्वानुमानव्यवहारोच्छेदप्रसङ्गः शङ्कितव्यः / प्रमाणान्तरगोचरे हि लिङ्गिनि लिङ्गबलाद् आपततो विपरीतविशेषांस् तत्प्रमाणम् एव प्रतिरुणद्धि / इह पुनर् अतिपतितसकलमानान्तरकर्मभावे सर्वनिर्माणनिपुणे सिषाधयिषिते यावन्तो ऽन्वयव्यतिरेकावधारिताविनाभावभाजो धर्मास् तान् अप्य् अविशेषेणोपस्थापयति /(यिस्_प्१७२६४)\nअपि च --(यिस्_प्१७८६८)\nस्वार्थकारुण्यभावेन व्याप्ताः प्रेक्षावतः क्रियाः ।\nईश्वरस्योभयाभावाज् जगत्सर्गो न युज्यते",
+      "sanskrit_iast": "api ca tad eva cetanakarṭrkaṃ jagati paridṛśyate, yad eva śakyakriyaṃ śakyajñānopādānādi ca / na ca tathā mahīmahīśvaramahārṇavādīti katham iva tattatkāryatvam ? kathantarāṃ ca tadupādānopakaraṇādeḥ sākṣātkāragocaratā ? yādṛśaṃ hi kāryam upādānādyabhijñapūrvakam avagataṃ ghaṭamaṇikādi, tādṛśam eva hi tathāvidhabuddhimaddhetukatvānumānāya prabhavati /(YIs_p16859)\napi cānīśvareṇa parimitaśaktijñānena vigrahavatānavāptakāmena kṛtam avagataṃ ghaṭādikāryam iti tathāvidhaṃ boddhāram upasthāpayan hetur abhimatapuruṣasārvajñyasarvāiśvaryādiviparyayasādhanādiviruddhaḥ syāt / na caivaṃ sati sarvānumānavyavahārocchedaprasaṅgaḥ śaṅkitavyaḥ / pramāṇāntaragocare hi liṅgini liṅgabalād āpatato viparītaviśeṣāṃs tatpramāṇam eva pratiruṇaddhi / iha punar atipatitasakalamānāntarakarmabhāve sarvanirmāṇanipuṇe siṣādhayiṣite yāvanto 'nvayavyatirekāvadhāritāvinābhāvabhājo dharmās tān apy aviśeṣeṇopasthāpayati /(YIs_p17264)\napi ca --(YIs_p17868)\nsvārthakāruṇyabhāvena vyāptāḥ prekṣāvataḥ kriyāḥ |\nīśvarasyobhayābhāvāj jagatsargo na yujyate",
+      "source_line_start": 57,
+      "source_line_end": 64
+    },
+    {
+      "verse_id": "v_12",
+      "adhyaya": 12,
+      "pada": null,
+      "sutra_or_verse_num": "12",
+      "sanskrit_devanagari": "अवाप्तकामत्वान् न तावद् आत्मार्थे सृजति; प्रलयसमये प्रलीनसकलकरणकलेवरादिभोगोपकरणतया च चेतनानां दुःखाभावाद् दुःखिदर्शनजनितकृपाप्रयुक्तिर् अपि नास्तीति व्यापकभूतस्वार्थकारुण्यनिवृत्तेर् व्याप्यभूतया प्रेक्षावत्प्रवृत्त्यापि निवर्तितव्यम् /(यिस्_प्१८०५२)\nसुखैकतानं जनयेज् जगत्करुणया सृजन् ।\nतत्कर्मानुविधायित्वे हीयेतास्य स्वतन्त्रता",
+      "sanskrit_iast": "avāptakāmatvān na tāvad ātmārthe sṛjati; pralayasamaye pralīnasakalakaraṇakalevarādibhogopakaraṇatayā ca cetanānāṃ duḥkhābhāvād duḥkhidarśanajanitakṛpāprayuktir api nāstīti vyāpakabhūtasvārthakāruṇyanivṛtter vyāpyabhūtayā prekṣāvatpravṛttyāpi nivartitavyam /(YIs_p18052)\nsukhaikatānaṃ janayej jagatkaruṇayā sṛjan |\ntatkarmānuvidhāyitve hīyetāsya svatantratā",
+      "source_line_start": 66,
+      "source_line_end": 69
+    },
+    {
+      "verse_id": "v_13",
+      "adhyaya": 13,
+      "pada": null,
+      "sutra_or_verse_num": "13",
+      "sanskrit_devanagari": "न चोपादानादिसाक्षात्कारिणि एव कर्तृत्वम् इत्य् अपि नियमः; उपादानम् उपकरणं चाविदुष एवात्मनो ज्ञानादिषु कर्तृत्वात् /(यिस्_प्१८५०२)\nअतः --(यिस्_प्१८६५३)\nअसिद्धत्वाद् विरुद्धत्वाद् अनैकान्त्याच् च वर्णितात् ।\nकार्यत्वहेतोर् जगतो न यथोदितकर्तृता",
+      "sanskrit_iast": "na copādānādisākṣātkāriṇi eva kartṛtvam ity api niyamaḥ; upādānam upakaraṇaṃ cāviduṣa evātmano jñānādiṣu kartṛtvāt /(YIs_p18502)\nataḥ --(YIs_p18653)\nasiddhatvād viruddhatvād anaikāntyāc ca varṇitāt |\nkāryatvahetor jagato na yathoditakartṛtā",
+      "source_line_start": 71,
+      "source_line_end": 76
+    },
+    {
+      "verse_id": "v_14",
+      "adhyaya": 14,
+      "pada": null,
+      "sutra_or_verse_num": "14",
+      "sanskrit_devanagari": "प्रयोगश् च भवति -- महीमहीधरादि कार्यं न भवति, प्रसिद्धकार्यविलक्षणत्वात्, गगनवत्; अशक्यदर्शनोपादानोपकरणत्वाद् वा, व्यतिरेकेण घटादिवत् / परमाणवो न प्रत्यक्षाः निरतिशयसूक्ष्मद्रव्यत्वात्, तथैव घटादिवत् / विमतिविषयः काले न लोकशून्यः, कालत्वाद् इदानीन्तनकालवत् / तनुभुवनादीश्वरकर्तृकं न भवति कार्यत्वात् तद्वद् एव / ईश्वरः कर्ता न भवति प्रयोजनरहितत्वाद् अशरीरत्वाद् वा मुक्तात्मवद् इति /(यिस्_प्१८८३१)\nअत्र ब्रूमो न कार्यत्वं क्षित्यादौ शक्यनिह्नवम् ।\nसभागत्वात् क्रियावत्त्वान् महत्त्वेन विशेषितात्",
+      "sanskrit_iast": "prayogaś ca bhavati -- mahīmahīdharādi kāryaṃ na bhavati, prasiddhakāryavilakṣaṇatvāt, gaganavat; aśakyadarśanopādānopakaraṇatvād vā, vyatirekeṇa ghaṭādivat / paramāṇavo na pratyakṣāḥ niratiśayasūkṣmadravyatvāt, tathaiva ghaṭādivat / vimativiṣayaḥ kāle na lokaśūnyaḥ, kālatvād idānīntanakālavat / tanubhuvanādīśvarakartṛkaṃ na bhavati kāryatvāt tadvad eva / īśvaraḥ kartā na bhavati prayojanarahitatvād aśarīratvād vā muktātmavad iti /(YIs_p18831)\natra brūmo na kāryatvaṃ kṣityādau śakyanihnavam |\nsabhāgatvāt kriyāvattvān mahattvena viśeṣitāt",
+      "source_line_start": 78,
+      "source_line_end": 81
+    },
+    {
+      "verse_id": "v_15",
+      "adhyaya": 15,
+      "pada": null,
+      "sutra_or_verse_num": "15",
+      "sanskrit_devanagari": "तादृशाद् एव मूर्तत्वाद् बाह्यप्रत्यक्षतान्वितात् ।\nससामान्यविशेषत्वाद् इत्यादिभ्यो घटादिवत्",
+      "sanskrit_iast": "tādṛśād eva mūrtatvād bāhyapratyakṣatānvitāt |\nsasāmānyaviśeṣatvād ityādibhyo ghaṭādivat",
+      "source_line_start": 83,
+      "source_line_end": 84
+    },
+    {
+      "verse_id": "v_16",
+      "adhyaya": 16,
+      "pada": null,
+      "sutra_or_verse_num": "16",
+      "sanskrit_devanagari": "न चेदृश एव सन्निवेशः कार्यः, नेतर इत्य् अवयवसन्निवेशविशेषप्रतिनियतं रूपभेदम् उदीक्षामहे / यत् तु शक्यक्रियं शक्यज्ञानोपादानोपकरणं च क्रियत इति, तद् अस्तु नाम / किन् तु ते क्रियाज्ञानशक्ती क्रियाज्ञानाभ्याम् एव समधिगमनीये / ते च क्षित्यादिषु यथोक्तसाधनबलसमुपस्थापिते इति न विशेषः प्रसिद्धप्राकारगोपुरादिकार्येभ्यस् तनुभुवनादेः / न चैतावान् एव क्रियागोचर इति विषयनियमः कश्चित् क्रियाया दृष्टः; येनेदम् अशक्यक्रियम् अध्यवस्येम / सिद्धे च कार्यत्वे तदुपादानादिसक्षात्करणतदधिष्ठानतत्प्रेरणनिपुणः पुरुषविशेषः सिध्यत्य् एव /(यिस्_प्१९६०३)\nअधिष्ठानं च तत्प्रवृत्त्यनुगुणसङ्कल्पवदीश्वरसन्निकर्षः, क्षेत्रज्ञेनेव स्वशरीरादौ / स च द्रव्यैः संयोगलक्षणः, तद्गुणैस् तु संयुक्तसमवायरूपः / प्रवृत्तिश् च परमाणूनां परिस्पन्दलक्षणा; धर्माधर्मयोस् तु फलोदयानुकूलतादृशदेशकालादिसहकारिसहितता / ताभ्यां धर्माधर्माभ्याम् एव फलम्, चेतनानधिष्ठितानां सर्वेषाम् एतेषाम् अचैतन्येनाकिञ्चित्करत्वात् / न हि चेतनेन वर्धकिनानधिष्ठिता वासी देशकालादिसहकारिशतसमधिगमे ऽपि यूपादीन्य् उपादयितुम् अलम् / बीजाङ्कुरादयस् तु पक्षान्तर्भूता इति तैर् व्यभिचारवचनम् अनभिज्ञतयैव श्रोत्रियाणाम् / एतेन सुखादिभिर् व्यभिचारो ऽपि प्रत्युक्तः / न चोभयवादिसिद्धतामात्रेण क्षेत्रज्ञानाम् एवेदृशाधिष्ठातृत्वकल्पनम् उचितम्; तेषां सूक्ष्मव्यवहितादिदर्शनाशक्तेर् निश्चितत्वात् / दृष्टानुसारिणी हि सर्वत्र कल्पना; न दृष्टविरोधिनी / न चैवम् ईश्वरस्याशक्तिर् निश्चिता; प्रमाणान्तरतस् तत्सिद्धेः / यथोदितप्रमाणबलेन सिध्यन् सांसिद्धिकसर्वार्थदर्शनतत्प्रेरणशक्तिसम्पन्न एव सिध्यति; कार्यत्वस्य समर्थकर्तृपूर्वकत्वेन प्रतिबन्धात् /(यिस्_प्२०२३९)\nयत् तु परिमितशक्तिज्ञानानैश्वर्याद्यापादनाद् धर्मविशेषविपरीतसाधनत्वम् उद्भावितम्, तद् अतिस्थवीयः, अप्रयोजकत्वात् तेषाम् / न हि किञ्चित् क्रियमाणं कर्तुर् अर्थान्तरविषयम् असामर्थ्यम् अज्ञानं वा स्वोत्पत्तये ऽपेक्षते; स्वसम्पादनसमर्थकर्तृमात्राक्षेपात् केवलव्यतिरेकासिद्धेः / तावतैवोपपद्यमाने कार्योदये सम्बन्धिनो ऽकिञ्चित्करस्यार्थान्तरविषयस्याभावस्य हेतुत्वकल्पनानुपपत्तेः / अपि च किं तदितरसमस्तवस्तुविषयम् अज्ञानादि व्यापकम्, उत कतिपयगोचरम् इति विवेचनीयम् / न तावद् अशेषविषयम्, अनुपलब्धेः / न खलु कुम्भकारः कुम्भातिरेकि किम् अपि न विजानाति / अथ कतिपयविषयम् ? तद् अपि न, अनियतविषयतया तस्य तस्य व्यभिचारदर्शनात् / न चास्ति किञ्चिद्व्यवस्थितम्, यद् अविद्यादिमान् एव कर्तृताम् अनुभवति /(यिस्_प्२१३५६)\nन च शरीरिणैव कर्त्रा भाव्यम्, शरीरग्रहणेनैवानैकान्त्यात् / न खलु शरीरविशिष्टस् सन्न् एवायम् आत्मा शरीरम् उपादत्ते, अयोगिनो युगपदनेकशरीरग्रहणायोगात् / पूर्वदेहपरित्यागेन देहान्तरप्रापककर्मप्रेरितप्राणसहाय एव देहान्तरं प्रविशतीत्य् उपपादितम् आत्मचिन्तायाम् /(यिस्_प्२२१७०)\nकिञ्चिद् आत्मा शरीरम् अधितिष्ठतो ऽधिष्ठानक्रियाकर्मभूतस्य देहस्याधिष्ठातृदश(देह?)अनुप्रवेशो ऽनुपपन्नः, युगपद् एकक्रियायाम् एकस्य कर्मकर्तृत्वविरोधात् / अधितिष्ठासितदेहसंयोगवत एव तत्प्रवृत्त्यनुगुणप्रयत्नयोगलक्षणम् अधिष्ठानं दृष्टम् इति चेत्; अस्त्व् एकतत्त्व(स्त्व)सम्बद्धस्याधिष्ठानानुपपत्तेः प्रेर्यवस्तुसम्बन्धिना प्रेरकेण भवितव्यम् इति; न यतो ऽन्यद् अप्य् अधिष्ठीयमानं मानदण्डादि स्वसम्बन्धिनैवाधिष्ठीयते / तेनाधिष्ठानक्रियापेक्षिताधिष्ठेयपदार्थसम्बन्धमात्रातिरेकेण देहसम्बन्धो नामापरो नादर्तव्यः / अस्ति चेश्वरस्यापि जगदुपादानोपकरणैस् सम्बन्ध इत्य् उक्तम् एव /(यिस्_प्२२४९८)\nअथ स्वदेहव्यतिरिक्ते वस्तुनि प्रवृत्तिविशेषकरत्वं देहद्वारेणैव / दृष्टं हि दण्डचक्रादिषु करसंयोगादिना कुलालादेः प्रवर्तयितृत्वम् इत्य् उच्येत; तद् अपि न; अभिध्यानमात्रेणैव परशरीरगतगरनिरसनच्(व्?)इसारणदर्शनात् / कथम् असति शरीरे परप्रेरणात्मकः सङ्कल्प इति चेत्; किं शरीरं सङ्कल्पयति, येन तदभावे न भवेत् ? / करणम् इति चेन् न; मनसः करणत्वात् / किम् असतीश्वरस्य मनः ? बाढम् / नन्व् एवं विग्रहधर्माधर्मानाश्वर्यादयः साधारणधर्माः प्रादुःष्युः / मैवम्; कार्यत्वाक्षिप्तसमर्थकर्तृमत्त्वाद्(त्त्वार्थ?) द्रढिम्नैवापासत्वात् / मनसो नित्येन्द्रियतया देहापगमे ऽपि सम्बन्धाभ्युपगमाद् अनैकान्तिकश् च / यावद् धि दृष्टानुगुणं व्याप्तयुपयोगि, तावद् अनुज्ञायते / न चास्मदादेर् मनसाप्य् अचिन्त्यरचनस्यापर्यन्तविस्तारस्य महाभूतभौतिकप्रपञ्चस्य प्रादेशिकशरीरकः किञ्चिज्ज्ञः पुण्यपापपरवशगतिर् अलं निर्माणायेत्य् अपरिमितज्ञानाइश्वर्यशक्तिः शरीराद्यनपेक्षः सङ्कल्पाद् एव सकलभुवननिर्माणक्षमः कर्ता सिद्धः /(यिस्_प्२३१८२)\nईदृशेन कर्त्रा घटादिषु कार्यत्वस्य सम्बन्धो न दृष्ट इति चेत्; अतिगहनगिरितटाधिष्ठानेनातिप्रकृष्टादृष्टचरेन्धननिवहसम्बन्धिना हुतवहविशेषेण महानसादौ धूमस्य वा किं सम्बन्धो दृष्टः ? येन धूमविशेषदर्शनाद् गिरिशिखरे तथाविधाग्निर् अनुमीयते / यादृशो धूमो यत्रावगतः तत्रैव तादृशस् तत्सम्पादनसमर्थो दृष्तान्तभूमाव् अपरिदृष्टो ऽपि सामान्यव्याप्तिबलेन पक्षधर्मतावशात् सिध्यतीति चेत्; तद् इदम् अस्माभिर् अभिधीयमानं किम् इति न हृदयम् अधिरोहति भवताम् / इहापि कार्यत्वं समर्थकर्तृपूर्वकत्वेन घटादिषु विदितसम्बन्धनियमं क्ष्तित्यादिषु दृश्यमानं स्वसम्पादनसमर्थम् अदृष्टपूर्वम् एव बुद्धिमत्कर्तारम् उपस्थापयति / यथैव हि देशकालेन्धनपरिमाणादिविशेषानादरेण धूमस्य स्वोदयानुगुणहुतवहमात्रेण सम्बन्धनियमः, तथैवानीश्वरत्वाकिञ्चिज्ज्ञत्वशरीरित्वपुण्यपापपरवशत्वम् अनुष्यत्वादिविशेषप्रहाणेन कार्यस्य स्वनिर्माणसमर्थबुद्धिमत्कर्तृमात्रेण सम्बन्धनियमनिश्चय इति न कश्चिद्विशेषः /(यिस्_प्२४२३८)\nअपि च विभुद्रव्यसंयोगिनः परिस्पन्दवतश् च सर्वत्र स्पर्शवत्त्वाव्यभिचारे ऽपि ज्ञानसुखादिनित्यद्रव्यविशेषगुणानुमितात्मसंयोगिनो मनसः कथम् इव स्पर्शरहिततत्वम् ? कथं च वायवीयद्रव्यस्य महिमगुणशालिनो नियताधिष्ठानस्पर्शनत्वनियमदर्शने ऽपि त्वगिन्द्रिये तद्विपर्ययः ? तैजसस्य वा रूपस्पर्शयोर् अन्यत्तरस्य वा प्राकट्यनियमे ऽपि रूपोपलम्भसाधनतानुमिततैजसभावस्य चक्षुषो नियमेन तदुभयानुद्भवाभ्युपगमः ? / अथ कार्यदर्शनानुमितसद्भावानां तैजसादिभावे ऽपि तत्तद्विशेषणां योग्यानुपलब्धिबाधितत्वात् तदभ्युपगमे ऽनेकनियमभङ्गप्रसङ्गाच् च तथाभ्युपगमः, हन्त तर्हि प्रकृतविषये ऽपि प्रसञ्जितधर्मविशेषाणाम् अनुपलम्भबाधाविशेषाद् अनेकनियमदर्शनविघातप्रसङ्गाच् च तथाभ्युपगम इति सर्वं समानम् अन्यत्राभिनिवेशात् /(यिस्_प्२५२८४)\nदृश्यन्ते हि नीतयः / यथा विवादास्पदं परमाण्वादि प्रेक्षावत्प्रेरितं चेष्टते, अचेतनत्वात्; यद् अचेतनं तत् तथा, यथा तथाविधं कन्दुकादि / तथा विवादाध्यासिता बाह्याभ्यन्तरप्रवृत्तयः प्रकृत्युपकरणप्रत्यक्षपूर्विकाः कार्यत्वात् तद्वद् एव ।(यिस्_प्२६१५२)\nप्रत्यक्षं तत् प्रमेयत्वात् पदार्थत्वाद् घटादिवत्/\nएकेच्छानुविधायीदम् अचैतन्यात् स्वदेहवत्",
+      "sanskrit_iast": "na cedṛśa eva sanniveśaḥ kāryaḥ, netara ity avayavasanniveśaviśeṣapratiniyataṃ rūpabhedam udīkṣāmahe / yat tu śakyakriyaṃ śakyajñānopādānopakaraṇaṃ ca kriyata iti, tad astu nāma / kin tu te kriyājñānaśaktī kriyājñānābhyām eva samadhigamanīye / te ca kṣityādiṣu yathoktasādhanabalasamupasthāpite iti na viśeṣaḥ prasiddhaprākāragopurādikāryebhyas tanubhuvanādeḥ / na caitāvān eva kriyāgocara iti viṣayaniyamaḥ kaścit kriyāyā dṛṣṭaḥ; yenedam aśakyakriyam adhyavasyema / siddhe ca kāryatve tadupādānādisakṣātkaraṇatadadhiṣṭhānatatpreraṇanipuṇaḥ puruṣaviśeṣaḥ sidhyaty eva /(YIs_p19603)\nadhiṣṭhānaṃ ca tatpravṛttyanuguṇasaṅkalpavadīśvarasannikarṣaḥ, kṣetrajñeneva svaśarīrādau / sa ca dravyaiḥ saṃyogalakṣaṇaḥ, tadguṇais tu saṃyuktasamavāyarūpaḥ / pravṛttiś ca paramāṇūnāṃ parispandalakṣaṇā; dharmādharmayos tu phalodayānukūlatādṛśadeśakālādisahakārisahitatā / tābhyāṃ dharmādharmābhyām eva phalam, cetanānadhiṣṭhitānāṃ sarveṣām eteṣām acaitanyenākiñcitkaratvāt / na hi cetanena vardhakinānadhiṣṭhitā vāsī deśakālādisahakāriśatasamadhigame 'pi yūpādīny upādayitum alam / bījāṅkurādayas tu pakṣāntarbhūtā iti tair vyabhicāravacanam anabhijñatayaiva śrotriyāṇām / etena sukhādibhir vyabhicāro 'pi pratyuktaḥ / na cobhayavādisiddhatāmātreṇa kṣetrajñānām evedṛśādhiṣṭhātṛtvakalpanam ucitam; teṣāṃ sūkṣmavyavahitādidarśanāśakter niścitatvāt / dṛṣṭānusāriṇī hi sarvatra kalpanā; na dṛṣṭavirodhinī / na caivam īśvarasyāśaktir niścitā; pramāṇāntaratas tatsiddheḥ / yathoditapramāṇabalena sidhyan sāṃsiddhikasarvārthadarśanatatpreraṇaśaktisampanna eva sidhyati; kāryatvasya samarthakartṛpūrvakatvena pratibandhāt /(YIs_p20239)\nyat tu parimitaśaktijñānānaiśvaryādyāpādanād dharmaviśeṣaviparītasādhanatvam udbhāvitam, tad atisthavīyaḥ, aprayojakatvāt teṣām / na hi kiñcit kriyamāṇaṃ kartur arthāntaraviṣayam asāmarthyam ajñānaṃ vā svotpattaye 'pekṣate; svasampādanasamarthakartṛmātrākṣepāt kevalavyatirekāsiddheḥ / tāvataivopapadyamāne kāryodaye sambandhino 'kiñcitkarasyārthāntaraviṣayasyābhāvasya hetutvakalpanānupapatteḥ / api ca kiṃ taditarasamastavastuviṣayam ajñānādi vyāpakam, uta katipayagocaram iti vivecanīyam / na tāvad aśeṣaviṣayam, anupalabdheḥ / na khalu kumbhakāraḥ kumbhātireki kim api na vijānāti / atha katipayaviṣayam ? tad api na, aniyataviṣayatayā tasya tasya vyabhicāradarśanāt / na cāsti kiñcidvyavasthitam, yad avidyādimān eva kartṛtām anubhavati /(YIs_p21356)\nna ca śarīriṇaiva kartrā bhāvyam, śarīragrahaṇenaivānaikāntyāt / na khalu śarīraviśiṣṭas sann evāyam ātmā śarīram upādatte, ayogino yugapadanekaśarīragrahaṇāyogāt / pūrvadehaparityāgena dehāntaraprāpakakarmapreritaprāṇasahāya eva dehāntaraṃ praviśatīty upapāditam ātmacintāyām /(YIs_p22170)\nkiñcid ātmā śarīram adhitiṣṭhato 'dhiṣṭhānakriyākarmabhūtasya dehasyādhiṣṭhātṛdaśa(deha?)anupraveśo 'nupapannaḥ, yugapad ekakriyāyām ekasya karmakartṛtvavirodhāt / adhitiṣṭhāsitadehasaṃyogavata eva tatpravṛttyanuguṇaprayatnayogalakṣaṇam adhiṣṭhānaṃ dṛṣṭam iti cet; astv ekatattva(stva)sambaddhasyādhiṣṭhānānupapatteḥ preryavastusambandhinā prerakeṇa bhavitavyam iti; na yato 'nyad apy adhiṣṭhīyamānaṃ mānadaṇḍādi svasambandhinaivādhiṣṭhīyate / tenādhiṣṭhānakriyāpekṣitādhiṣṭheyapadārthasambandhamātrātirekeṇa dehasambandho nāmāparo nādartavyaḥ / asti ceśvarasyāpi jagadupādānopakaraṇais sambandha ity uktam eva /(YIs_p22498)\natha svadehavyatirikte vastuni pravṛttiviśeṣakaratvaṃ dehadvāreṇaiva / dṛṣṭaṃ hi daṇḍacakrādiṣu karasaṃyogādinā kulālādeḥ pravartayitṛtvam ity ucyeta; tad api na; abhidhyānamātreṇaiva paraśarīragatagaranirasanac(v?)isāraṇadarśanāt / katham asati śarīre parapreraṇātmakaḥ saṅkalpa iti cet; kiṃ śarīraṃ saṅkalpayati, yena tadabhāve na bhavet ? / karaṇam iti cen na; manasaḥ karaṇatvāt / kim asatīśvarasya manaḥ ? bāḍham / nanv evaṃ vigrahadharmādharmānāśvaryādayaḥ sādhāraṇadharmāḥ prāduḥṣyuḥ / maivam; kāryatvākṣiptasamarthakartṛmattvād(ttvārtha?) draḍhimnaivāpāsatvāt / manaso nityendriyatayā dehāpagame 'pi sambandhābhyupagamād anaikāntikaś ca / yāvad dhi dṛṣṭānuguṇaṃ vyāptayupayogi, tāvad anujñāyate / na cāsmadāder manasāpy acintyaracanasyāparyantavistārasya mahābhūtabhautikaprapañcasya prādeśikaśarīrakaḥ kiñcijjñaḥ puṇyapāpaparavaśagatir alaṃ nirmāṇāyety aparimitajñānāiśvaryaśaktiḥ śarīrādyanapekṣaḥ saṅkalpād eva sakalabhuvananirmāṇakṣamaḥ kartā siddhaḥ /(YIs_p23182)\nīdṛśena kartrā ghaṭādiṣu kāryatvasya sambandho na dṛṣṭa iti cet; atigahanagiritaṭādhiṣṭhānenātiprakṛṣṭādṛṣṭacarendhananivahasambandhinā hutavahaviśeṣeṇa mahānasādau dhūmasya vā kiṃ sambandho dṛṣṭaḥ ? yena dhūmaviśeṣadarśanād giriśikhare tathāvidhāgnir anumīyate / yādṛśo dhūmo yatrāvagataḥ tatraiva tādṛśas tatsampādanasamartho dṛṣtāntabhūmāv aparidṛṣṭo 'pi sāmānyavyāptibalena pakṣadharmatāvaśāt sidhyatīti cet; tad idam asmābhir abhidhīyamānaṃ kim iti na hṛdayam adhirohati bhavatām / ihāpi kāryatvaṃ samarthakartṛpūrvakatvena ghaṭādiṣu viditasambandhaniyamaṃ kṣtityādiṣu dṛśyamānaṃ svasampādanasamartham adṛṣṭapūrvam eva buddhimatkartāram upasthāpayati / yathaiva hi deśakālendhanaparimāṇādiviśeṣānādareṇa dhūmasya svodayānuguṇahutavahamātreṇa sambandhaniyamaḥ, tathaivānīśvaratvākiñcijjñatvaśarīritvapuṇyapāpaparavaśatvam anuṣyatvādiviśeṣaprahāṇena kāryasya svanirmāṇasamarthabuddhimatkartṛmātreṇa sambandhaniyamaniścaya iti na kaścidviśeṣaḥ /(YIs_p24238)\napi ca vibhudravyasaṃyoginaḥ parispandavataś ca sarvatra sparśavattvāvyabhicāre 'pi jñānasukhādinityadravyaviśeṣaguṇānumitātmasaṃyogino manasaḥ katham iva sparśarahitatatvam ? kathaṃ ca vāyavīyadravyasya mahimaguṇaśālino niyatādhiṣṭhānasparśanatvaniyamadarśane 'pi tvagindriye tadviparyayaḥ ? taijasasya vā rūpasparśayor anyattarasya vā prākaṭyaniyame 'pi rūpopalambhasādhanatānumitataijasabhāvasya cakṣuṣo niyamena tadubhayānudbhavābhyupagamaḥ ? / atha kāryadarśanānumitasadbhāvānāṃ taijasādibhāve 'pi tattadviśeṣaṇāṃ yogyānupalabdhibādhitatvāt tadabhyupagame 'nekaniyamabhaṅgaprasaṅgāc ca tathābhyupagamaḥ, hanta tarhi prakṛtaviṣaye 'pi prasañjitadharmaviśeṣāṇām anupalambhabādhāviśeṣād anekaniyamadarśanavighātaprasaṅgāc ca tathābhyupagama iti sarvaṃ samānam anyatrābhiniveśāt /(YIs_p25284)\ndṛśyante hi nītayaḥ / yathā vivādāspadaṃ paramāṇvādi prekṣāvatpreritaṃ ceṣṭate, acetanatvāt; yad acetanaṃ tat tathā, yathā tathāvidhaṃ kandukādi / tathā vivādādhyāsitā bāhyābhyantarapravṛttayaḥ prakṛtyupakaraṇapratyakṣapūrvikāḥ kāryatvāt tadvad eva |(YIs_p26152)\npratyakṣaṃ tat prameyatvāt padārthatvād ghaṭādivat/\nekecchānuvidhāyīdam acaitanyāt svadehavat",
+      "source_line_start": 86,
+      "source_line_end": 105
+    },
+    {
+      "verse_id": "v_17",
+      "adhyaya": 17,
+      "pada": null,
+      "sutra_or_verse_num": "17",
+      "sanskrit_devanagari": "एकेनाभिष्ठिताः कार्यं कुर्वते सर्वचेतनाः ।\nदेहसम्बन्धसापेक्षकार्यकृत्त्वात् त्वगादिवत्",
+      "sanskrit_iast": "ekenābhiṣṭhitāḥ kāryaṃ kurvate sarvacetanāḥ |\ndehasambandhasāpekṣakāryakṛttvāt tvagādivat",
+      "source_line_start": 107,
+      "source_line_end": 108
+    },
+    {
+      "verse_id": "v_18",
+      "adhyaya": 18,
+      "pada": null,
+      "sutra_or_verse_num": "18",
+      "sanskrit_devanagari": "एकप्रधानपुरुषं विवादाध्यासितं जगत् ।\nचेतनाचेतनात्मत्वाद् एकराजकदेशवत्",
+      "sanskrit_iast": "ekapradhānapuruṣaṃ vivādādhyāsitaṃ jagat |\ncetanācetanātmatvād ekarājakadeśavat",
+      "source_line_start": 110,
+      "source_line_end": 111
+    }
+  ],
+  "caveats": [
+    "Stripped GRETIL header (43 lines)."
+  ]
+}

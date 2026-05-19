@@ -1,0 +1,660 @@
+{
+  "text_id": "yamuna-stotra-ratna",
+  "thinker_id": "yamuna",
+  "work_title_iast": "Stotra-Ratna",
+  "work_title_devanagari": "स्तोत्ररत्न",
+  "source_file": "data/sources/sanskrit/vedanta/full_corpus/yamuna_stotra_ratna_gretil.txt",
+  "source_script": "iast",
+  "tokenizer": "fallback_whitespace",
+  "normalizer": "indic_transliteration",
+  "ingested_at": "2026-05-19",
+  "ingested_by": "corpus-chat-lane1",
+  "structure_recovered": true,
+  "verse_count": 64,
+  "token_count_approx": 921,
+  "verses": [
+    {
+      "verse_id": "v_1",
+      "adhyaya": 1,
+      "pada": null,
+      "sutra_or_verse_num": "1",
+      "sanskrit_devanagari": "नमो ऽचिन्त्याद्भुताक्लिष्टज्ञानवैराग्यराशये ।\nनाथाय मुनये ऽगाधभगवद्भक्तिसिन्धवे",
+      "sanskrit_iast": "namo 'cintyādbhutākliṣṭajñānavairāgyarāśaye |\nnāthāya munaye 'gādhabhagavadbhaktisindhave",
+      "source_line_start": 1,
+      "source_line_end": 2
+    },
+    {
+      "verse_id": "v_2",
+      "adhyaya": 2,
+      "pada": null,
+      "sutra_or_verse_num": "2",
+      "sanskrit_devanagari": "तस्मै नमो मधुजिदङ्घ्रिसरोजतत्त्वज्ञानानुरागमहिमातिशयान्तसीम्ने ।\nनाथाय नाथमुनये ऽत्र परत्र चापि नित्यं यदीयचरणौ शरणं मदीयम्",
+      "sanskrit_iast": "tasmai namo madhujidaṅghrisarojatattvajñānānurāgamahimātiśayāntasīmne |\nnāthāya nāthamunaye 'tra paratra cāpi nityaṃ yadīyacaraṇau śaraṇaṃ madīyam",
+      "source_line_start": 4,
+      "source_line_end": 5
+    },
+    {
+      "verse_id": "v_3",
+      "adhyaya": 3,
+      "pada": null,
+      "sutra_or_verse_num": "3",
+      "sanskrit_devanagari": "भूयो नमो ऽपरिमिताच्युतभक्तितत्त्वज्ञानामृताब्धिपरिवाहशुभैर् वचोभिः ।\nलोके ऽवतीर्णपरमार्थसमग्रभक्तियोगाय नाथमुनये यमिनां वराय",
+      "sanskrit_iast": "bhūyo namo 'parimitācyutabhaktitattvajñānāmṛtābdhiparivāhaśubhair vacobhiḥ |\nloke 'vatīrṇaparamārthasamagrabhaktiyogāya nāthamunaye yamināṃ varāya",
+      "source_line_start": 7,
+      "source_line_end": 8
+    },
+    {
+      "verse_id": "v_4",
+      "adhyaya": 4,
+      "pada": null,
+      "sutra_or_verse_num": "4",
+      "sanskrit_devanagari": "तत्त्वेन यश् चिदचिदीश्वरतत्स्वभावभोगापवर्गतदुपायगतीर् उदारः ।\nसंदर्शयन् निरमिमीत पुराणरत्नं तस्मै नमो मुनिविराय पराशराय",
+      "sanskrit_iast": "tattvena yaś cidacidīśvaratatsvabhāvabhogāpavargatadupāyagatīr udāraḥ |\nsaṃdarśayan niramimīta purāṇaratnaṃ tasmai namo munivirāya parāśarāya",
+      "source_line_start": 10,
+      "source_line_end": 11
+    },
+    {
+      "verse_id": "v_5",
+      "adhyaya": 5,
+      "pada": null,
+      "sutra_or_verse_num": "5",
+      "sanskrit_devanagari": "माता पिता युवतयस् तनया विभूतिः सर्वं यद् एव नियमेन मदन्वयानाम् ।\nआद्यस्य नः कुलपतेर् वकुलाभिरामं श्रीमत् तदङ्घ्रियुगलं प्रणमामि मूर्ध्ना",
+      "sanskrit_iast": "mātā pitā yuvatayas tanayā vibhūtiḥ sarvaṃ yad eva niyamena madanvayānām |\nādyasya naḥ kulapater vakulābhirāmaṃ śrīmat tadaṅghriyugalaṃ praṇamāmi mūrdhnā",
+      "source_line_start": 13,
+      "source_line_end": 14
+    },
+    {
+      "verse_id": "v_6",
+      "adhyaya": 6,
+      "pada": null,
+      "sutra_or_verse_num": "6",
+      "sanskrit_devanagari": "यन् मूर्ध्नि मे श्रुतिशिरस्सु च भाति यस्मिन्न् अस्मन्मनोरथपथः सकलः समेति ।\nस्तोष्यामि नः कुलधनं कुलदैवतं तत् पादारविन्दम् अरविन्दविलोचनस्य",
+      "sanskrit_iast": "yan mūrdhni me śrutiśirassu ca bhāti yasminn asmanmanorathapathaḥ sakalaḥ sameti |\nstoṣyāmi naḥ kuladhanaṃ kuladaivataṃ tat pādāravindam aravindavilocanasya",
+      "source_line_start": 16,
+      "source_line_end": 17
+    },
+    {
+      "verse_id": "v_7",
+      "adhyaya": 7,
+      "pada": null,
+      "sutra_or_verse_num": "7",
+      "sanskrit_devanagari": "तत्त्वेन यस्य महिमार्णवशीकराणुः शक्यो न मातुम् अपि शर्वपितामहाद्यैः ।\nकर्तुं तदीयमहिमस्तुतिम् उद्यताय मह्यं नमो ऽस्तु कवये निरपत्रपाय",
+      "sanskrit_iast": "tattvena yasya mahimārṇavaśīkarāṇuḥ śakyo na mātum api śarvapitāmahādyaiḥ |\nkartuṃ tadīyamahimastutim udyatāya mahyaṃ namo 'stu kavaye nirapatrapāya",
+      "source_line_start": 19,
+      "source_line_end": 20
+    },
+    {
+      "verse_id": "v_8",
+      "adhyaya": 8,
+      "pada": null,
+      "sutra_or_verse_num": "8",
+      "sanskrit_devanagari": "यद् वा श्रमावधि यथामति वाप्य् अशक्तः स्तौम्य् एवम् एव खलु ते ऽपि सदा स्तुवन्तः ।\nवेदाश् चतुर् मुखमुखाश् च; महार्णवान्तः को मज्जतोर् अणुकुलाचलयोर् विशेषः ?",
+      "sanskrit_iast": "yad vā śramāvadhi yathāmati vāpy aśaktaḥ staumy evam eva khalu te 'pi sadā stuvantaḥ |\nvedāś catur mukhamukhāś ca; mahārṇavāntaḥ ko majjator aṇukulācalayor viśeṣaḥ ?",
+      "source_line_start": 22,
+      "source_line_end": 23
+    },
+    {
+      "verse_id": "v_9",
+      "adhyaya": 9,
+      "pada": null,
+      "sutra_or_verse_num": "9",
+      "sanskrit_devanagari": "किं चैष शक्त्यतिशयेन न ते ऽनुकम्प्यः स्तोतापि तु स्तुतिकृतेन परिश्रमेण ।\nतत्र श्रमस् तु सुलभो मम मन्दबुद्धेर् इत्य् उद्यमो ऽयम् उचितो मम चाब्जनेत्र !",
+      "sanskrit_iast": "kiṃ caiṣa śaktyatiśayena na te 'nukampyaḥ stotāpi tu stutikṛtena pariśrameṇa |\ntatra śramas tu sulabho mama mandabuddher ity udyamo 'yam ucito mama cābjanetra !",
+      "source_line_start": 25,
+      "source_line_end": 26
+    },
+    {
+      "verse_id": "v_10",
+      "adhyaya": 10,
+      "pada": null,
+      "sutra_or_verse_num": "10",
+      "sanskrit_devanagari": "नावेक्षसे त्यदि ततो भुवनान्य् अमूनि नालं प्रभो भवितुम् एव कुतः प्रवृत्तिः ? ।\nएवं निसर्गसुहृदि त्वयि सर्वजन्त्âüः स्वामिन् ! चित्रम् इदम् आश्रितवत्सलत्वम्",
+      "sanskrit_iast": "nāvekṣase tyadi tato bhuvanāny amūni nālaṃ prabho bhavitum eva kutaḥ pravṛttiḥ ? |\nevaṃ nisargasuhṛdi tvayi sarvajantâüḥ svāmin ! citram idam āśritavatsalatvam",
+      "source_line_start": 28,
+      "source_line_end": 29
+    },
+    {
+      "verse_id": "v_11",
+      "adhyaya": 11,
+      "pada": null,
+      "sutra_or_verse_num": "11",
+      "sanskrit_devanagari": "स्वाभाविकानवधिकातिशयेशितृत्वं नारायण ! त्वयि न मृष्यति वैदिकः कः ? ।\nब्रह्मा शिवः शतमखः परमस्वराड् इत्य् एते ऽपि यस्य महिमार्णवविप्रषस् ते",
+      "sanskrit_iast": "svābhāvikānavadhikātiśayeśitṛtvaṃ nārāyaṇa ! tvayi na mṛṣyati vaidikaḥ kaḥ ? |\nbrahmā śivaḥ śatamakhaḥ paramasvarāḍ ity ete 'pi yasya mahimārṇavavipraṣas te",
+      "source_line_start": 31,
+      "source_line_end": 32
+    },
+    {
+      "verse_id": "v_12",
+      "adhyaya": 12,
+      "pada": null,
+      "sutra_or_verse_num": "12",
+      "sanskrit_devanagari": "कश् श्रीः श्रियः ? परमसत्त्वसमाश्रयः कः ? कः पुण्डरीकनयनः ? पुरुषोत्तमः कः ? ।\nकस्यायुतायुतैककलांशकांशे विश्वं विचित्रचिदचित्प्रविभागवृत्तम्",
+      "sanskrit_iast": "kaś śrīḥ śriyaḥ ? paramasattvasamāśrayaḥ kaḥ ? kaḥ puṇḍarīkanayanaḥ ? puruṣottamaḥ kaḥ ? |\nkasyāyutāyutaikakalāṃśakāṃśe viśvaṃ vicitracidacitpravibhāgavṛttam",
+      "source_line_start": 34,
+      "source_line_end": 35
+    },
+    {
+      "verse_id": "v_13",
+      "adhyaya": 13,
+      "pada": null,
+      "sutra_or_verse_num": "13",
+      "sanskrit_devanagari": "वेदापहारगुरुपातकदैत्यपीडापद्विमोचनमहिष्ठफलप्रदानैः ।\nको ऽन्यः प्रजापशुपती परिपाति ? कस्य पादोदकेन स शिवः स्वशिरोधृतेन ?",
+      "sanskrit_iast": "vedāpahāragurupātakadaityapīḍāpadvimocanamahiṣṭhaphalapradānaiḥ |\nko 'nyaḥ prajāpaśupatī paripāti ? kasya pādodakena sa śivaḥ svaśirodhṛtena ?",
+      "source_line_start": 37,
+      "source_line_end": 38
+    },
+    {
+      "verse_id": "v_14",
+      "adhyaya": 14,
+      "pada": null,
+      "sutra_or_verse_num": "14",
+      "sanskrit_devanagari": "कस्योदरे हरविरिञ्चमुखः प्रपञ्चः ? को रक्षतीमम् ? अजनिष्ट च कस्य नाभेः ? ।\nक्रान्त्वा निगीर्य पुनर् उद्गिरति त्वदन्यः कः ? केन वैष परवान् इति शक्यशङ्कः ?",
+      "sanskrit_iast": "kasyodare haraviriñcamukhaḥ prapañcaḥ ? ko rakṣatīmam ? ajaniṣṭa ca kasya nābheḥ ? |\nkrāntvā nigīrya punar udgirati tvadanyaḥ kaḥ ? kena vaiṣa paravān iti śakyaśaṅkaḥ ?",
+      "source_line_start": 40,
+      "source_line_end": 41
+    },
+    {
+      "verse_id": "v_15",
+      "adhyaya": 15,
+      "pada": null,
+      "sutra_or_verse_num": "15",
+      "sanskrit_devanagari": "त्वां शीलरूपचरितैः परमप्रकृष्टसत्त्वेन सात्त्विकतया प्रबलैश् च शास्त्रैः ।\nप्रख्यातदैवपरमार्थविदां मतैश् च नैवासुरप्रकृतयः प्रभवन्ति बोद्धुम्",
+      "sanskrit_iast": "tvāṃ śīlarūpacaritaiḥ paramaprakṛṣṭasattvena sāttvikatayā prabalaiś ca śāstraiḥ |\nprakhyātadaivaparamārthavidāṃ mataiś ca naivāsuraprakṛtayaḥ prabhavanti boddhum",
+      "source_line_start": 43,
+      "source_line_end": 44
+    },
+    {
+      "verse_id": "v_16",
+      "adhyaya": 16,
+      "pada": null,
+      "sutra_or_verse_num": "16",
+      "sanskrit_devanagari": "उल्लङ्घितत्रिविधसीमसमातिशायिसंभावनं तव परिब्रढिमस्वभावम् ।\nमायाबलेन भवतापि निगुह्यमानं पश्यन्ति केचिद् अनिशं त्वदनन्यभावाः",
+      "sanskrit_iast": "ullaṅghitatrividhasīmasamātiśāyisaṃbhāvanaṃ tava paribraḍhimasvabhāvam |\nmāyābalena bhavatāpi niguhyamānaṃ paśyanti kecid aniśaṃ tvadananyabhāvāḥ",
+      "source_line_start": 46,
+      "source_line_end": 47
+    },
+    {
+      "verse_id": "v_17",
+      "adhyaya": 17,
+      "pada": null,
+      "sutra_or_verse_num": "17",
+      "sanskrit_devanagari": "यद् अण्डम् अण्डान्तरगोचरं च यद्दशोत्तराण्य् आवरणानि यानि च ।\nगुणाः प्रधानं पुरुषः परं पदं परात् परं ब्रह्म च ते विभूतयः",
+      "sanskrit_iast": "yad aṇḍam aṇḍāntaragocaraṃ ca yaddaśottarāṇy āvaraṇāni yāni ca |\nguṇāḥ pradhānaṃ puruṣaḥ paraṃ padaṃ parāt paraṃ brahma ca te vibhūtayaḥ",
+      "source_line_start": 49,
+      "source_line_end": 50
+    },
+    {
+      "verse_id": "v_18",
+      "adhyaya": 18,
+      "pada": null,
+      "sutra_or_verse_num": "18",
+      "sanskrit_devanagari": "वशी वदान्यो गुणवान् ऋजुः शुचिर् मृदुर् दयालुर् मधुरः स्थिरः समः ।\nकृती कृतज्ञस् त्वम् अपि स्वभावतः समस्तकल्याणगुणामृतोदधिः",
+      "sanskrit_iast": "vaśī vadānyo guṇavān ṛjuḥ śucir mṛdur dayālur madhuraḥ sthiraḥ samaḥ |\nkṛtī kṛtajñas tvam api svabhāvataḥ samastakalyāṇaguṇāmṛtodadhiḥ",
+      "source_line_start": 52,
+      "source_line_end": 53
+    },
+    {
+      "verse_id": "v_19",
+      "adhyaya": 19,
+      "pada": null,
+      "sutra_or_verse_num": "19",
+      "sanskrit_devanagari": "उपर्य् उपर्य् अब्जभुवो ऽपि पूरुषान् प्रकल्प्य ते ये शतम् इत्य् अनुक्रमात् ।\nगिरस् त्वद् एकैकगुणाव्धीप्सया सदा स्थिता नोद्यमतो ऽतिशेरते",
+      "sanskrit_iast": "upary upary abjabhuvo 'pi pūruṣān prakalpya te ye śatam ity anukramāt |\ngiras tvad ekaikaguṇāvdhīpsayā sadā sthitā nodyamato 'tiśerate",
+      "source_line_start": 55,
+      "source_line_end": 56
+    },
+    {
+      "verse_id": "v_20",
+      "adhyaya": 20,
+      "pada": null,
+      "sutra_or_verse_num": "20",
+      "sanskrit_devanagari": "त्वदाश्रितानां जगदुद्भवस्थितप्रणाशसंसारविमोचनादयः ।\nभवन्ति लीलाविधयश् च वैदिकास् त्वदीयगम्भीरमनोऽनुसारिणः",
+      "sanskrit_iast": "tvadāśritānāṃ jagadudbhavasthitapraṇāśasaṃsāravimocanādayaḥ |\nbhavanti līlāvidhayaś ca vaidikās tvadīyagambhīramano'nusāriṇaḥ",
+      "source_line_start": 58,
+      "source_line_end": 59
+    },
+    {
+      "verse_id": "v_21",
+      "adhyaya": 21,
+      "pada": null,
+      "sutra_or_verse_num": "21",
+      "sanskrit_devanagari": "नमो नमो वाङ्मनसातिभूमये नमो नमो वाङ्मनसैकभूमये ।\nनमो नमो ऽनन्तमहाविभूतये नमो नमो ऽनन्तदयैकसन्धिवे",
+      "sanskrit_iast": "namo namo vāṅmanasātibhūmaye namo namo vāṅmanasaikabhūmaye |\nnamo namo 'nantamahāvibhūtaye namo namo 'nantadayaikasandhive",
+      "source_line_start": 61,
+      "source_line_end": 62
+    },
+    {
+      "verse_id": "v_22",
+      "adhyaya": 22,
+      "pada": null,
+      "sutra_or_verse_num": "22",
+      "sanskrit_devanagari": "न धर्मनिष्ठो ऽस्मि, न चात्मवेदी, न भक्तिमांस् त्वच्चरणारविन्दे ।\nअकिञ्चनो ऽनन्यगतिः शरण्य ! त्वत्पादमूलं शरणं प्रपद्ये",
+      "sanskrit_iast": "na dharmaniṣṭho 'smi, na cātmavedī, na bhaktimāṃs tvaccaraṇāravinde |\nakiñcano 'nanyagatiḥ śaraṇya ! tvatpādamūlaṃ śaraṇaṃ prapadye",
+      "source_line_start": 64,
+      "source_line_end": 65
+    },
+    {
+      "verse_id": "v_23",
+      "adhyaya": 23,
+      "pada": null,
+      "sutra_or_verse_num": "23",
+      "sanskrit_devanagari": "न निन्दितं कर्म तद् अस्ति लोके सहस्रशो यन् न मया व्यधायि ।\nसो ऽहं विपाकावसरे मुकुन्द ! क्रन्दामि सम्प्रत्य् अगतिस् तवाग्रे",
+      "sanskrit_iast": "na ninditaṃ karma tad asti loke sahasraśo yan na mayā vyadhāyi |\nso 'haṃ vipākāvasare mukunda ! krandāmi sampraty agatis tavāgre",
+      "source_line_start": 67,
+      "source_line_end": 68
+    },
+    {
+      "verse_id": "v_24",
+      "adhyaya": 24,
+      "pada": null,
+      "sutra_or_verse_num": "24",
+      "sanskrit_devanagari": "निमज्जतो ऽनन्त ! भवार्णवान्तश् चिराय मे कूलम् इवासि लब्धः ।\nत्वयापि लब्धं भगवन्न् इदानीम् अनुत्तमं पात्रम् इदं दयायाः",
+      "sanskrit_iast": "nimajjato 'nanta ! bhavārṇavāntaś cirāya me kūlam ivāsi labdhaḥ |\ntvayāpi labdhaṃ bhagavann idānīm anuttamaṃ pātram idaṃ dayāyāḥ",
+      "source_line_start": 70,
+      "source_line_end": 71
+    },
+    {
+      "verse_id": "v_25",
+      "adhyaya": 25,
+      "pada": null,
+      "sutra_or_verse_num": "25",
+      "sanskrit_devanagari": "अभूतपूर्वं मम भावि किं वा सर्वं सहे मे सहजं हि दुःखम् ।\nकिं तु त्वदग्रे शरणागतानां पराभवो नाथ ! न ते ऽनुरूपः",
+      "sanskrit_iast": "abhūtapūrvaṃ mama bhāvi kiṃ vā sarvaṃ sahe me sahajaṃ hi duḥkham |\nkiṃ tu tvadagre śaraṇāgatānāṃ parābhavo nātha ! na te 'nurūpaḥ",
+      "source_line_start": 73,
+      "source_line_end": 74
+    },
+    {
+      "verse_id": "v_26",
+      "adhyaya": 26,
+      "pada": null,
+      "sutra_or_verse_num": "26",
+      "sanskrit_devanagari": "निरासकस्यापि न तावद् उत्सहे महेश ! हातुं तव पादपङ्कजम् ।\nरुषा निरस्तो ऽपि शिशुः स्तनन्धयो न जातु मातुश् चरणौ जिहासति",
+      "sanskrit_iast": "nirāsakasyāpi na tāvad utsahe maheśa ! hātuṃ tava pādapaṅkajam |\nruṣā nirasto 'pi śiśuḥ stanandhayo na jātu mātuś caraṇau jihāsati",
+      "source_line_start": 76,
+      "source_line_end": 77
+    },
+    {
+      "verse_id": "v_27",
+      "adhyaya": 27,
+      "pada": null,
+      "sutra_or_verse_num": "27",
+      "sanskrit_devanagari": "तवामृतस्यन्दिनि पादकङ्कजे निवेशितात्मा कथम् अन्यद् इच्छति ।\nस्थिते ऽरविन्दे मकरन्दनिर्भरे मधुव्रतो नेक्षुरकं हि वीक्षते",
+      "sanskrit_iast": "tavāmṛtasyandini pādakaṅkaje niveśitātmā katham anyad icchati |\nsthite 'ravinde makarandanirbhare madhuvrato nekṣurakaṃ hi vīkṣate",
+      "source_line_start": 79,
+      "source_line_end": 80
+    },
+    {
+      "verse_id": "v_28",
+      "adhyaya": 28,
+      "pada": null,
+      "sutra_or_verse_num": "28",
+      "sanskrit_devanagari": "त्वदङ्घ्रिम् उद्दिश्य कदापि केनचिद् यथा तथा वापि सकृत् कुतो ऽञ्जलिः ।\nतदैव मुष्णात्य् अशुभाब्य् अशेषतः शुभानि पुष्णाति न जातु हीयते",
+      "sanskrit_iast": "tvadaṅghrim uddiśya kadāpi kenacid yathā tathā vāpi sakṛt kuto 'ñjaliḥ |\ntadaiva muṣṇāty aśubhāby aśeṣataḥ śubhāni puṣṇāti na jātu hīyate",
+      "source_line_start": 82,
+      "source_line_end": 83
+    },
+    {
+      "verse_id": "v_29",
+      "adhyaya": 29,
+      "pada": null,
+      "sutra_or_verse_num": "29",
+      "sanskrit_devanagari": "उदीर्णसंसारदवाशुशुक्षणिं क्षणेन निर्वाप्य परां च निर्वृतिम् ।\nप्रयच्छति त्वच्चरणारुणाम्बुजद्वयानुरागामृतसिन्धुशीकरः",
+      "sanskrit_iast": "udīrṇasaṃsāradavāśuśukṣaṇiṃ kṣaṇena nirvāpya parāṃ ca nirvṛtim |\nprayacchati tvaccaraṇāruṇāmbujadvayānurāgāmṛtasindhuśīkaraḥ",
+      "source_line_start": 85,
+      "source_line_end": 86
+    },
+    {
+      "verse_id": "v_30",
+      "adhyaya": 30,
+      "pada": null,
+      "sutra_or_verse_num": "30",
+      "sanskrit_devanagari": "विलासविक्रान्तपरावरालयं नमस्यदार्तिक्षपणे कृतक्षणम् ।\nधनं मदीयं तव पादपङ्कजं कदा नु साक्षात्करवाणि चक्षुषा ?",
+      "sanskrit_iast": "vilāsavikrāntaparāvarālayaṃ namasyadārtikṣapaṇe kṛtakṣaṇam |\ndhanaṃ madīyaṃ tava pādapaṅkajaṃ kadā nu sākṣātkaravāṇi cakṣuṣā ?",
+      "source_line_start": 88,
+      "source_line_end": 89
+    },
+    {
+      "verse_id": "v_31",
+      "adhyaya": 31,
+      "pada": null,
+      "sutra_or_verse_num": "31",
+      "sanskrit_devanagari": "कदा पुनः शङ्खरथाङ्गकल्पकध्वजारविन्दाङ्कुशवज्रलाञ्छनम् ।\nत्रिविक्रम ! त्वच्चरणाम्बुजद्वयं मदीयमूर्धानम् अलङ्करिष्यति",
+      "sanskrit_iast": "kadā punaḥ śaṅkharathāṅgakalpakadhvajāravindāṅkuśavajralāñchanam |\ntrivikrama ! tvaccaraṇāmbujadvayaṃ madīyamūrdhānam alaṅkariṣyati",
+      "source_line_start": 91,
+      "source_line_end": 92
+    },
+    {
+      "verse_id": "v_32",
+      "adhyaya": 32,
+      "pada": null,
+      "sutra_or_verse_num": "32",
+      "sanskrit_devanagari": "विराजमानोज्ज्वलपीतवाससं स्मितातसीसूनसमामलच्छविम् ।\nनिमग्ननाभिं तनुमध्यमुन्नतं विशालवक्षस्स्थलशोभिलक्षणम्",
+      "sanskrit_iast": "virājamānojjvalapītavāsasaṃ smitātasīsūnasamāmalacchavim |\nnimagnanābhiṃ tanumadhyamunnataṃ viśālavakṣassthalaśobhilakṣaṇam",
+      "source_line_start": 94,
+      "source_line_end": 95
+    },
+    {
+      "verse_id": "v_33",
+      "adhyaya": 33,
+      "pada": null,
+      "sutra_or_verse_num": "33",
+      "sanskrit_devanagari": "चकासतं ज्याकिणकर्कशैः शुभैश् चतुर्भिर् आजानुविलम्भिर् भुहैः ।\nप्रियावतंसोत्पलकर्णभूषणश्लथालकाबन्धविमर्दशंसिभिः",
+      "sanskrit_iast": "cakāsataṃ jyākiṇakarkaśaiḥ śubhaiś caturbhir ājānuvilambhir bhuhaiḥ |\npriyāvataṃsotpalakarṇabhūṣaṇaślathālakābandhavimardaśaṃsibhiḥ",
+      "source_line_start": 97,
+      "source_line_end": 98
+    },
+    {
+      "verse_id": "v_34",
+      "adhyaya": 34,
+      "pada": null,
+      "sutra_or_verse_num": "34",
+      "sanskrit_devanagari": "उदग्रपीनांसविलम्बिकुण्डलालकावलीबन्धुरकन्बुकन्धरम् ।\nमुखश्रिया न्यक्कृतपूर्णनिर्मलामृतांशुबिम्बाम्बुरुहोज्ज्वलश्रियम्",
+      "sanskrit_iast": "udagrapīnāṃsavilambikuṇḍalālakāvalībandhurakanbukandharam |\nmukhaśriyā nyakkṛtapūrṇanirmalāmṛtāṃśubimbāmburuhojjvalaśriyam",
+      "source_line_start": 100,
+      "source_line_end": 101
+    },
+    {
+      "verse_id": "v_35",
+      "adhyaya": 35,
+      "pada": null,
+      "sutra_or_verse_num": "35",
+      "sanskrit_devanagari": "प्रबुद्धमुग्धाम्बुजचारुलोचनं सविभ्रमभ्रूलतम् उज्ज्वलाधरम् ।\nशुचिस्मितं कोमलगण्डम् उन्नसं ललाटपर्यन्तविलम्बितालकम्",
+      "sanskrit_iast": "prabuddhamugdhāmbujacārulocanaṃ savibhramabhrūlatam ujjvalādharam |\nśucismitaṃ komalagaṇḍam unnasaṃ lalāṭaparyantavilambitālakam",
+      "source_line_start": 103,
+      "source_line_end": 104
+    },
+    {
+      "verse_id": "v_36",
+      "adhyaya": 36,
+      "pada": null,
+      "sutra_or_verse_num": "36",
+      "sanskrit_devanagari": "स्फुरत्किरीटाङ्गदहारकण्ढिकामणीन्द्रकाञ्चीगुणनूपुरादिभिः ।\nरथाङ्गशङ्खासिगदाधनुर्वरैर् लसत्तुलस्या वनमालयोज्ज्वलम्",
+      "sanskrit_iast": "sphuratkirīṭāṅgadahārakaṇḍhikāmaṇīndrakāñcīguṇanūpurādibhiḥ |\nrathāṅgaśaṅkhāsigadādhanurvarair lasattulasyā vanamālayojjvalam",
+      "source_line_start": 106,
+      "source_line_end": 107
+    },
+    {
+      "verse_id": "v_37",
+      "adhyaya": 37,
+      "pada": null,
+      "sutra_or_verse_num": "37",
+      "sanskrit_devanagari": "चकर्थ यस्या भवनं भुजान्तरं तव प्रियं धाम यदीयजन्मभूः ।\nजगत्समस्तं यदपाङ्गसंश्रयं यदर्थम् अम्भोधिर् अमन्थ्य् अबन्धि च",
+      "sanskrit_iast": "cakartha yasyā bhavanaṃ bhujāntaraṃ tava priyaṃ dhāma yadīyajanmabhūḥ |\njagatsamastaṃ yadapāṅgasaṃśrayaṃ yadartham ambhodhir amanthy abandhi ca",
+      "source_line_start": 109,
+      "source_line_end": 110
+    },
+    {
+      "verse_id": "v_38",
+      "adhyaya": 38,
+      "pada": null,
+      "sutra_or_verse_num": "38",
+      "sanskrit_devanagari": "स्ववैश्वरूप्येण सदानुभूतयाप्य् अपूर्ववद्विस्मयमादधानया ।\nगुणेन रूपेण विलासचेष्टितैस् सदा तवैवोचितया तव श्रिया",
+      "sanskrit_iast": "svavaiśvarūpyeṇa sadānubhūtayāpy apūrvavadvismayamādadhānayā |\nguṇena rūpeṇa vilāsaceṣṭitais sadā tavaivocitayā tava śriyā",
+      "source_line_start": 112,
+      "source_line_end": 113
+    },
+    {
+      "verse_id": "v_39",
+      "adhyaya": 39,
+      "pada": null,
+      "sutra_or_verse_num": "39",
+      "sanskrit_devanagari": "तया सहासीनम् अनन्तभोगिनि प्रकृष्टविज्ञानबलैकधामनि ।\nफणामणिव्रातमयूखमण्डलप्रकाशमानोदरदिव्यधामनि",
+      "sanskrit_iast": "tayā sahāsīnam anantabhogini prakṛṣṭavijñānabalaikadhāmani |\nphaṇāmaṇivrātamayūkhamaṇḍalaprakāśamānodaradivyadhāmani",
+      "source_line_start": 115,
+      "source_line_end": 116
+    },
+    {
+      "verse_id": "v_40",
+      "adhyaya": 40,
+      "pada": null,
+      "sutra_or_verse_num": "40",
+      "sanskrit_devanagari": "निवासशय्यासनपादुकांशुकोपधानवर्षातपवारणादिभिः ।\nशरीरभेदैस् तव शेषतां गतैर् यथोचितं श्ष इतीरिते जनैः",
+      "sanskrit_iast": "nivāsaśayyāsanapādukāṃśukopadhānavarṣātapavāraṇādibhiḥ |\nśarīrabhedais tava śeṣatāṃ gatair yathocitaṃ śṣa itīrite janaiḥ",
+      "source_line_start": 118,
+      "source_line_end": 119
+    },
+    {
+      "verse_id": "v_41",
+      "adhyaya": 41,
+      "pada": null,
+      "sutra_or_verse_num": "41",
+      "sanskrit_devanagari": "दासस् सखा वाहनम् आसनं ध्वजो यस् ते वितानं व्यजनं त्रयीमयः ।\nउपस्थितं तेन पुरो गरुत्मता त्वदङ्घ्रिसम्मर्दकिणाङ्कशोभना",
+      "sanskrit_iast": "dāsas sakhā vāhanam āsanaṃ dhvajo yas te vitānaṃ vyajanaṃ trayīmayaḥ |\nupasthitaṃ tena puro garutmatā tvadaṅghrisammardakiṇāṅkaśobhanā",
+      "source_line_start": 121,
+      "source_line_end": 122
+    },
+    {
+      "verse_id": "v_42",
+      "adhyaya": 42,
+      "pada": null,
+      "sutra_or_verse_num": "42",
+      "sanskrit_devanagari": "त्वदीयभुक्तोज्जिहितशेषभोजिना त्वया निसृष्टात्मभरेण यद्यथा ।\nप्रियेण सेनापतिना न्यवेदि तत्तथानुजानन्तम् उदारवीक्षनैः",
+      "sanskrit_iast": "tvadīyabhuktojjihitaśeṣabhojinā tvayā nisṛṣṭātmabhareṇa yadyathā |\npriyeṇa senāpatinā nyavedi tattathānujānantam udāravīkṣanaiḥ",
+      "source_line_start": 124,
+      "source_line_end": 125
+    },
+    {
+      "verse_id": "v_43",
+      "adhyaya": 43,
+      "pada": null,
+      "sutra_or_verse_num": "43",
+      "sanskrit_devanagari": "हताखिलक्लेशमलैः स्वभावतस् त्वदानुकूल्यैकरसैस् तवोचितैः ।\nगृहीततत्तत्परिचारसाधनैर् निषेव्यमाणं सचिवैर् यथोचितं",
+      "sanskrit_iast": "hatākhilakleśamalaiḥ svabhāvatas tvadānukūlyaikarasais tavocitaiḥ |\ngṛhītatattatparicārasādhanair niṣevyamāṇaṃ sacivair yathocitaṃ",
+      "source_line_start": 127,
+      "source_line_end": 128
+    },
+    {
+      "verse_id": "v_44",
+      "adhyaya": 44,
+      "pada": null,
+      "sutra_or_verse_num": "44",
+      "sanskrit_devanagari": "अपूर्वनानारसभावनिर्भद्रप्रबद्धया मुग्धविदघलीलया ।\nक्षणाणुवत् क्षिप्तपरादिकालया प्रहर्षयन्तं महिषीं महाभुजनम्",
+      "sanskrit_iast": "apūrvanānārasabhāvanirbhadraprabaddhayā mugdhavidaghalīlayā |\nkṣaṇāṇuvat kṣiptaparādikālayā praharṣayantaṃ mahiṣīṃ mahābhujanam",
+      "source_line_start": 130,
+      "source_line_end": 131
+    },
+    {
+      "verse_id": "v_45",
+      "adhyaya": 45,
+      "pada": null,
+      "sutra_or_verse_num": "45",
+      "sanskrit_devanagari": "अचिन्त्यदिव्याद्भुतनित्ययौवनस्वभावलावण्यमयामृतोदधिम् ।\nश्रियः श्रियं भक्तजनैकजीवितं समर्थम् आपत्सखम् अर्थिकल्पकम्",
+      "sanskrit_iast": "acintyadivyādbhutanityayauvanasvabhāvalāvaṇyamayāmṛtodadhim |\nśriyaḥ śriyaṃ bhaktajanaikajīvitaṃ samartham āpatsakham arthikalpakam",
+      "source_line_start": 133,
+      "source_line_end": 134
+    },
+    {
+      "verse_id": "v_46",
+      "adhyaya": 46,
+      "pada": null,
+      "sutra_or_verse_num": "46",
+      "sanskrit_devanagari": "भगवन्तम् एवानुचरन् निरन्तरं प्रशान्तनिश्शेषमनोरथान्तरः ।\nकदाहम् ऐकान्तिकनित्यकिङ्करः प्रहर्षयिष्यामि सनाथजीवितः",
+      "sanskrit_iast": "bhagavantam evānucaran nirantaraṃ praśāntaniśśeṣamanorathāntaraḥ |\nkadāham aikāntikanityakiṅkaraḥ praharṣayiṣyāmi sanāthajīvitaḥ",
+      "source_line_start": 136,
+      "source_line_end": 137
+    },
+    {
+      "verse_id": "v_47",
+      "adhyaya": 47,
+      "pada": null,
+      "sutra_or_verse_num": "47",
+      "sanskrit_devanagari": "धिग् अशुचिम् अविनीतं निर्भयं माम् अलज्जं परमपुरुष यो ऽहम् योगिवर्याग्रगण्यैः ।\nविध्शिवसनकाद्यैर् ध्यातुम् अत्यन्तदूरं तव परिजनभावं कामये कामवृत्तः",
+      "sanskrit_iast": "dhig aśucim avinītaṃ nirbhayaṃ mām alajjaṃ paramapuruṣa yo 'ham yogivaryāgragaṇyaiḥ |\nvidhśivasanakādyair dhyātum atyantadūraṃ tava parijanabhāvaṃ kāmaye kāmavṛttaḥ",
+      "source_line_start": 139,
+      "source_line_end": 140
+    },
+    {
+      "verse_id": "v_48",
+      "adhyaya": 48,
+      "pada": null,
+      "sutra_or_verse_num": "48",
+      "sanskrit_devanagari": "अपराधसहस्रभाजनं पतितं भीमभवार्णवोदरे ।\nअतगिं शरणागतं हरे कृपया केवलम् आत्मसात्कुरु",
+      "sanskrit_iast": "aparādhasahasrabhājanaṃ patitaṃ bhīmabhavārṇavodare |\natagiṃ śaraṇāgataṃ hare kṛpayā kevalam ātmasātkuru",
+      "source_line_start": 142,
+      "source_line_end": 143
+    },
+    {
+      "verse_id": "v_49",
+      "adhyaya": 49,
+      "pada": null,
+      "sutra_or_verse_num": "49",
+      "sanskrit_devanagari": "अविवेकघनान्धदिङ्मुखे बहुधा सन्ततदुःखवर्षिणि ।\nभगवन् भवदुर्दिने पथः स्खलितं माम् अवलोकयाचियुत",
+      "sanskrit_iast": "avivekaghanāndhadiṅmukhe bahudhā santataduḥkhavarṣiṇi |\nbhagavan bhavadurdine pathaḥ skhalitaṃ mām avalokayāciyuta",
+      "source_line_start": 145,
+      "source_line_end": 146
+    },
+    {
+      "verse_id": "v_50",
+      "adhyaya": 50,
+      "pada": null,
+      "sutra_or_verse_num": "50",
+      "sanskrit_devanagari": "न मृषा परमार्थम् एव मे शृनु विज्ञापनम् एकम् अग्रतः ।\nयदि मे न दयिष्यसे ततो दयनीयस् तव नाथ दुर्लभः",
+      "sanskrit_iast": "na mṛṣā paramārtham eva me śṛnu vijñāpanam ekam agrataḥ |\nyadi me na dayiṣyase tato dayanīyas tava nātha durlabhaḥ",
+      "source_line_start": 148,
+      "source_line_end": 149
+    },
+    {
+      "verse_id": "v_51",
+      "adhyaya": 51,
+      "pada": null,
+      "sutra_or_verse_num": "51",
+      "sanskrit_devanagari": "तद् अहं त्वद् ऋते न नाथवान् मद् ऋते त्वं दयनीयवान् न च ।\nविधिनिर्मितम् एतम् अन्वयं भगवान् पलय मा स्म जीहपः",
+      "sanskrit_iast": "tad ahaṃ tvad ṛte na nāthavān mad ṛte tvaṃ dayanīyavān na ca |\nvidhinirmitam etam anvayaṃ bhagavān palaya mā sma jīhapaḥ",
+      "source_line_start": 151,
+      "source_line_end": 152
+    },
+    {
+      "verse_id": "v_52",
+      "adhyaya": 52,
+      "pada": null,
+      "sutra_or_verse_num": "52",
+      "sanskrit_devanagari": "वपुरादिषु यो ऽपि को ऽपि वा गुणतो ऽसानि यथातथाविधः ।\nतद् अयं तव पादपद्मयोर् अहम् अद्यैव मया समर्पितः",
+      "sanskrit_iast": "vapurādiṣu yo 'pi ko 'pi vā guṇato 'sāni yathātathāvidhaḥ |\ntad ayaṃ tava pādapadmayor aham adyaiva mayā samarpitaḥ",
+      "source_line_start": 154,
+      "source_line_end": 155
+    },
+    {
+      "verse_id": "v_53",
+      "adhyaya": 53,
+      "pada": null,
+      "sutra_or_verse_num": "53",
+      "sanskrit_devanagari": "मम नाथ यद् अस्ति यो ऽस्म्य् अहं सकलं तद् धि तवैव माधव ।\nनियतस्वम् इति प्रबुद्धधीर् अथ वा किं नु समर्पयामि ते",
+      "sanskrit_iast": "mama nātha yad asti yo 'smy ahaṃ sakalaṃ tad dhi tavaiva mādhava |\nniyatasvam iti prabuddhadhīr atha vā kiṃ nu samarpayāmi te",
+      "source_line_start": 157,
+      "source_line_end": 158
+    },
+    {
+      "verse_id": "v_54",
+      "adhyaya": 54,
+      "pada": null,
+      "sutra_or_verse_num": "54",
+      "sanskrit_devanagari": "अवबोधितवान् इमां यथा मयि नित्यां भवदीयतां स्वयम् ।\nकृपयैवम् अनन्यभोग्यतां भगवन् भक्तिम् अपि प्रयच्छ मे",
+      "sanskrit_iast": "avabodhitavān imāṃ yathā mayi nityāṃ bhavadīyatāṃ svayam |\nkṛpayaivam ananyabhogyatāṃ bhagavan bhaktim api prayaccha me",
+      "source_line_start": 160,
+      "source_line_end": 161
+    },
+    {
+      "verse_id": "v_55",
+      "adhyaya": 55,
+      "pada": null,
+      "sutra_or_verse_num": "55",
+      "sanskrit_devanagari": "तव दास्यसुखैकसङ्घिनां भवनेषु अस्त्व् अपि कीटजन्म मे ।\nइतरावसथेषु मा स्म भूद् अपि मे जन्म चतुर्मुखात्मना",
+      "sanskrit_iast": "tava dāsyasukhaikasaṅghināṃ bhavaneṣu astv api kīṭajanma me |\nitarāvasatheṣu mā sma bhūd api me janma caturmukhātmanā",
+      "source_line_start": 163,
+      "source_line_end": 164
+    },
+    {
+      "verse_id": "v_56",
+      "adhyaya": 56,
+      "pada": null,
+      "sutra_or_verse_num": "56",
+      "sanskrit_devanagari": "सकृत् त्वदाकारविलोकनाशया तृणीकृतानुत्तमभुक्तिमुक्तिभिः ।\nमहात्मभिर् माम् अवलोक्यतां नय क्षणे ऽपि ते यद् विरहो ऽतिदुस्सहः",
+      "sanskrit_iast": "sakṛt tvadākāravilokanāśayā tṛṇīkṛtānuttamabhuktimuktibhiḥ |\nmahātmabhir mām avalokyatāṃ naya kṣaṇe 'pi te yad viraho 'tidussahaḥ",
+      "source_line_start": 166,
+      "source_line_end": 167
+    },
+    {
+      "verse_id": "v_57",
+      "adhyaya": 57,
+      "pada": null,
+      "sutra_or_verse_num": "57",
+      "sanskrit_devanagari": "न देहं न प्राणान् न च सुखम् अशेषाभिलषितं न चात्मानं नान्यत् कि अपि तव शेषत्वविभवात्\nबहिर्भूतं नाथ क्षणम् अपि सहे यातु शतधा विनाशं तत् सत्यं मधुमथन विज्ञापनम् इदम्",
+      "sanskrit_iast": "na dehaṃ na prāṇān na ca sukham aśeṣābhilaṣitaṃ na cātmānaṃ nānyat ki api tava śeṣatvavibhavāt\nbahirbhūtaṃ nātha kṣaṇam api sahe yātu śatadhā vināśaṃ tat satyaṃ madhumathana vijñāpanam idam",
+      "source_line_start": 169,
+      "source_line_end": 170
+    },
+    {
+      "verse_id": "v_58",
+      "adhyaya": 58,
+      "pada": null,
+      "sutra_or_verse_num": "58",
+      "sanskrit_devanagari": "दुरन्तस्यानादेर् अपरिहरणीयस्य महतो निहीनाचारो ऽहं नृपशुर् अशुभस्यास्पदम् अपि\nदयासिन्धो बन्धो निरवधिकवात्सल्यजलधे तव स्मारं स्मारं गुणगणम् इतीच्छामि गतभीः",
+      "sanskrit_iast": "durantasyānāder apariharaṇīyasya mahato nihīnācāro 'haṃ nṛpaśur aśubhasyāspadam api\ndayāsindho bandho niravadhikavātsalyajaladhe tava smāraṃ smāraṃ guṇagaṇam itīcchāmi gatabhīḥ",
+      "source_line_start": 172,
+      "source_line_end": 173
+    },
+    {
+      "verse_id": "v_59",
+      "adhyaya": 59,
+      "pada": null,
+      "sutra_or_verse_num": "59",
+      "sanskrit_devanagari": "अनिच्छन्न् अप्य् एवं यदि पुनर् इतीच्छन्न् इव रजस्तमश्छन्नच् छद्मस्तुतिवचनभङ्गीं अरचयम् ।\nतथापीत्थंरूपं वचनम् अवलम्ब्यापि कृपया त्वम् एवैवम्भूतं धरणिधर मे शिक्षय मनः",
+      "sanskrit_iast": "anicchann apy evaṃ yadi punar itīcchann iva rajastamaśchannac chadmastutivacanabhaṅgīṃ aracayam |\ntathāpītthaṃrūpaṃ vacanam avalambyāpi kṛpayā tvam evaivambhūtaṃ dharaṇidhara me śikṣaya manaḥ",
+      "source_line_start": 175,
+      "source_line_end": 176
+    },
+    {
+      "verse_id": "v_60",
+      "adhyaya": 60,
+      "pada": null,
+      "sutra_or_verse_num": "60",
+      "sanskrit_devanagari": "पिता त्वं माता त्वं दयिततनयस् त्वं प्रियसुहृत् त्वम् एव त्वं मित्रम् गुरुर् असि गतिश् चासि जगताम् ।\nत्वदीयस् त्वध्बृत्यस् तव परिजनस् त्वद्गतिर् अहं प्रपन्नश् चैवं सत्य् अहम् अपि तवैवास्मि हि भरः",
+      "sanskrit_iast": "pitā tvaṃ mātā tvaṃ dayitatanayas tvaṃ priyasuhṛt tvam eva tvaṃ mitram gurur asi gatiś cāsi jagatām |\ntvadīyas tvadhbṛtyas tava parijanas tvadgatir ahaṃ prapannaś caivaṃ saty aham api tavaivāsmi hi bharaḥ",
+      "source_line_start": 178,
+      "source_line_end": 179
+    },
+    {
+      "verse_id": "v_61",
+      "adhyaya": 61,
+      "pada": null,
+      "sutra_or_verse_num": "61",
+      "sanskrit_devanagari": "जनित्वाहं वंशे महति जगति ख्यअतयशसां शुचीनां युक्तानां गुणपुरुषतत्त्वस्थितिविदाम्\nनिसर्गाद् एव त्वच्चरणकमलाइकान्तमनसाम् अधो ऽधः पापात्मा शरणद निमज्जामि तमसि",
+      "sanskrit_iast": "janitvāhaṃ vaṃśe mahati jagati khyaatayaśasāṃ śucīnāṃ yuktānāṃ guṇapuruṣatattvasthitividām\nnisargād eva tvaccaraṇakamalāikāntamanasām adho 'dhaḥ pāpātmā śaraṇada nimajjāmi tamasi",
+      "source_line_start": 181,
+      "source_line_end": 182
+    },
+    {
+      "verse_id": "v_62",
+      "adhyaya": 62,
+      "pada": null,
+      "sutra_or_verse_num": "62",
+      "sanskrit_devanagari": "अमर्यादः क्षुद्रश् चलमतिर् असूयप्रसवभूः कृतघ्नो दुर्मानी स्मरपरवशो वञ्चनपरः ।\nनृशंसः पापिष्ठः कथम् अहम् इतो दुःखजलधेर् अपाराद् उत्तीर्णस् तव परिचरेयं चरणयोः",
+      "sanskrit_iast": "amaryādaḥ kṣudraś calamatir asūyaprasavabhūḥ kṛtaghno durmānī smaraparavaśo vañcanaparaḥ |\nnṛśaṃsaḥ pāpiṣṭhaḥ katham aham ito duḥkhajaladher apārād uttīrṇas tava paricareyaṃ caraṇayoḥ",
+      "source_line_start": 184,
+      "source_line_end": 185
+    },
+    {
+      "verse_id": "v_63",
+      "adhyaya": 63,
+      "pada": null,
+      "sutra_or_verse_num": "63",
+      "sanskrit_devanagari": "रघुवर यद् अभूस् त्वं तादृशो वायसस्य प्रणत इति दयालुर् यच् च चैद्यस्य कृष्ण ।\nप्रतिभवम् अपराद्धुर् मुग्ध सायुज्यदो ऽभूर् वद किम् अपदम् आगस् तस्य ते ऽसि क्षमायाः",
+      "sanskrit_iast": "raghuvara yad abhūs tvaṃ tādṛśo vāyasasya praṇata iti dayālur yac ca caidyasya kṛṣṇa |\npratibhavam aparāddhur mugdha sāyujyado 'bhūr vada kim apadam āgas tasya te 'si kṣamāyāḥ",
+      "source_line_start": 187,
+      "source_line_end": 188
+    },
+    {
+      "verse_id": "v_64",
+      "adhyaya": 64,
+      "pada": null,
+      "sutra_or_verse_num": "64",
+      "sanskrit_devanagari": "ननु प्रपन्नस् सकृद् एव नाथ तवाहं अस्मीति च याचमानः ।\nतवानुकम्प्यस् स्मर्तः प्रतिज्ञानां मदेकवर्जं किम् इदं व्रतं ते",
+      "sanskrit_iast": "nanu prapannas sakṛd eva nātha tavāhaṃ asmīti ca yācamānaḥ |\ntavānukampyas smartaḥ pratijñānāṃ madekavarjaṃ kim idaṃ vrataṃ te",
+      "source_line_start": 190,
+      "source_line_end": 191
+    }
+  ],
+  "caveats": [
+    "Stripped GRETIL header (43 lines)."
+  ]
+}
