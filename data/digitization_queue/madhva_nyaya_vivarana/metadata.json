@@ -1,0 +1,40 @@
+{
+  "work_slug": "madhva_nyaya_vivarana",
+  "work_title_iast": "Nyāya-Vivaraṇa",
+  "thinker_id": "madhva",
+  "edition": "Pūrṇaprajña Vidyāpīṭha (Bangalore), *Nyāya-Vivaraṇa of Madhva with Pañcikā of Jayatīrtha, Bhāva-Bodha of Raghuttama-tīrtha and Nigūḍhārtha-Prabodhinī*. Within Bannañje's Sarvamūla-Granthāḥ the work is in the Sūtra-Prasthānam volume.",
+  "year": "20th c. PPVP Sanskrit edition",
+  "editor": "PPVP editorial board / Bannañje Govindācārya (in Sarvamūla)",
+  "publisher": "Pūrṇaprajña Vidyāpīṭha, Bangalore",
+  "language_primary": "sanskrit",
+  "secondary_languages": [],
+  "script": "devanagari",
+  "commentaries_included": [
+    "Pañcikā (Jayatīrtha)",
+    "Bhāva-Bodha (Raghuttama-tīrtha)",
+    "Nigūḍhārtha-Prabodhinī"
+  ],
+  "source_url": "https://sites.google.com/view/madhwapracharavedike/dvaita-scanned-books",
+  "source_item_id_pending": "Sūtra-Prasthānam volume of Bannañje Sarvamūla — exact archive.org item id to be identified by hand",
+  "candidate_items": [
+    "Sūtra-Prasthānam / Gītā-Prasthānam volume — co-located with A.6 Gītā-Bhāṣya search"
+  ],
+  "license": "public_domain",
+  "expected_text_units": {
+    "kind": "paragraphs",
+    "approximate_count": 100,
+    "source_for_estimate": "Compact Sanskrit prose summary of Madhva's nyāya method"
+  },
+  "ground_truth_available": false,
+  "ground_truth_source": "No mature digital comparator.",
+  "_phase2_ocr_status": "blocked_pdf_pending_volume_id",
+  "_action_required": "Navigate Madhwapracharavedike index, identify the Sūtra-Prasthānam archive.org item id, then download.",
+  "priority_tier": "A8",
+  "downloaded_at": null,
+  "downloaded_by": "corpus-chat-lane3",
+  "sha256": null,
+  "size_bytes": null,
+  "pdfinfo": null,
+  "_acquisition_lane": "lane3-digitization-prep",
+  "_acquisition_status": "sub_volume_identification_pending"
+}
