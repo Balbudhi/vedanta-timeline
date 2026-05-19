@@ -1,0 +1,4160 @@
+{
+  "text_id": "umasvati-tattvartha-sutra",
+  "thinker_id": "umasvati",
+  "work_title_iast": "Tattvārtha-Sūtra",
+  "work_title_devanagari": "तत्त्वार्थसूत्र",
+  "source_file": "data/sources/sanskrit/comparator/umasvati_tattvartha_sutra.txt",
+  "source_script": "devanagari",
+  "tokenizer": "fallback_whitespace",
+  "normalizer": "indic_transliteration",
+  "ingested_at": "2026-05-19",
+  "ingested_by": "corpus-chat-lane1",
+  "structure_recovered": false,
+  "verse_count": 414,
+  "token_count_approx": 1134,
+  "verses": [
+    {
+      "verse_id": "c_00001",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "प्रथमोऽध्यायः",
+      "sanskrit_iast": "prathamo'dhyāyaḥ",
+      "source_line_start": 1,
+      "source_line_end": 1
+    },
+    {
+      "verse_id": "c_00002",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सम्यग्दर्शन ज्ञान चारित्राणि मोक्षमार्गः।।",
+      "sanskrit_iast": "samyagdarśana jñāna cāritrāṇi mokṣamārgaḥ||",
+      "source_line_start": 3,
+      "source_line_end": 3
+    },
+    {
+      "verse_id": "c_00003",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तत्त्वार्थश्रद्धानं सम्यग्दर्शनम्।।",
+      "sanskrit_iast": "tattvārthaśraddhānaṃ samyagdarśanam||",
+      "source_line_start": 5,
+      "source_line_end": 5
+    },
+    {
+      "verse_id": "c_00004",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तन्निसर्गादधिगमाद्वा।।",
+      "sanskrit_iast": "tannisargādadhigamādvā||",
+      "source_line_start": 7,
+      "source_line_end": 7
+    },
+    {
+      "verse_id": "c_00005",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "जीवजीवास्रव बन्धसंवरनिर्जरामोक्षास्तत्त्वम्।।",
+      "sanskrit_iast": "jīvajīvāsrava bandhasaṃvaranirjarāmokṣāstattvam||",
+      "source_line_start": 9,
+      "source_line_end": 9
+    },
+    {
+      "verse_id": "c_00006",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "नामस्थापना द्रव्य भावतस्तन्न्यासः।।",
+      "sanskrit_iast": "nāmasthāpanā dravya bhāvatastannyāsaḥ||",
+      "source_line_start": 11,
+      "source_line_end": 11
+    },
+    {
+      "verse_id": "c_00007",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "प्रमाणनयैरधिगमः।।",
+      "sanskrit_iast": "pramāṇanayairadhigamaḥ||",
+      "source_line_start": 13,
+      "source_line_end": 13
+    },
+    {
+      "verse_id": "c_00008",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "निर्देशस्वामित्वसाधनाधिकरण स्थितिविधानतः।।",
+      "sanskrit_iast": "nirdeśasvāmitvasādhanādhikaraṇa sthitividhānataḥ||",
+      "source_line_start": 15,
+      "source_line_end": 15
+    },
+    {
+      "verse_id": "c_00009",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सत्संख्याक्षेत्र स्पर्शनकालान्तर भावाल्पबहुत्त्वैश्च।।",
+      "sanskrit_iast": "satsaṃkhyākṣetra sparśanakālāntara bhāvālpabahuttvaiśca||",
+      "source_line_start": 17,
+      "source_line_end": 17
+    },
+    {
+      "verse_id": "c_00010",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "मतिश्रुतावधिमनः पर्यय केवलानि ज्ञानम्।।",
+      "sanskrit_iast": "matiśrutāvadhimanaḥ paryaya kevalāni jñānam||",
+      "source_line_start": 19,
+      "source_line_end": 19
+    },
+    {
+      "verse_id": "c_00011",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तत्प्रमाणे।।",
+      "sanskrit_iast": "tatpramāṇe||",
+      "source_line_start": 21,
+      "source_line_end": 21
+    },
+    {
+      "verse_id": "c_00012",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "आद्ये परोक्षम्।।",
+      "sanskrit_iast": "ādye parokṣam||",
+      "source_line_start": 23,
+      "source_line_end": 23
+    },
+    {
+      "verse_id": "c_00013",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "प्रत्यक्षमन्यत्।।",
+      "sanskrit_iast": "pratyakṣamanyat||",
+      "source_line_start": 25,
+      "source_line_end": 25
+    },
+    {
+      "verse_id": "c_00014",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "मतिःस्मृतिः संज्ञाचिन्ताभिनिबोध इत्यानर्थान्तरम्।।",
+      "sanskrit_iast": "matiḥsmṛtiḥ saṃjñācintābhinibodha ityānarthāntaram||",
+      "source_line_start": 27,
+      "source_line_end": 27
+    },
+    {
+      "verse_id": "c_00015",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तदिन्द्रयानिन्द्रियनिमित्तम्।।",
+      "sanskrit_iast": "tadindrayānindriyanimittam||",
+      "source_line_start": 29,
+      "source_line_end": 29
+    },
+    {
+      "verse_id": "c_00016",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अवग्रहेहावाय धारणाः।।",
+      "sanskrit_iast": "avagrahehāvāya dhāraṇāḥ||",
+      "source_line_start": 31,
+      "source_line_end": 31
+    },
+    {
+      "verse_id": "c_00017",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "बहुबहुविधक्षिप्रानिः सृतानुक्त ध्रुवाणां सेतराणाम्।।",
+      "sanskrit_iast": "bahubahuvidhakṣiprāniḥ sṛtānukta dhruvāṇāṃ setarāṇām||",
+      "source_line_start": 33,
+      "source_line_end": 33
+    },
+    {
+      "verse_id": "c_00018",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अर्थस्य।।",
+      "sanskrit_iast": "arthasya||",
+      "source_line_start": 35,
+      "source_line_end": 35
+    },
+    {
+      "verse_id": "c_00019",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "व्यञ्जनस्यावग्रहः।।",
+      "sanskrit_iast": "vyañjanasyāvagrahaḥ||",
+      "source_line_start": 37,
+      "source_line_end": 37
+    },
+    {
+      "verse_id": "c_00020",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "न चक्षुरनिन्द्रियाभ्याम्।।",
+      "sanskrit_iast": "na cakṣuranindriyābhyām||",
+      "source_line_start": 39,
+      "source_line_end": 39
+    },
+    {
+      "verse_id": "c_00021",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "श्रुतं मतिपूर्वं ह्यनेकद्वादशभेदम्।।",
+      "sanskrit_iast": "śrutaṃ matipūrvaṃ hyanekadvādaśabhedam||",
+      "source_line_start": 41,
+      "source_line_end": 41
+    },
+    {
+      "verse_id": "c_00022",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "भवप्रत्ययोऽवधिर्देवनारकाणाम्।।",
+      "sanskrit_iast": "bhavapratyayo'vadhirdevanārakāṇām||",
+      "source_line_start": 43,
+      "source_line_end": 43
+    },
+    {
+      "verse_id": "c_00023",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "क्षयोपशमनिमित्तः षड्विकल्पः शेषाणाम्।।",
+      "sanskrit_iast": "kṣayopaśamanimittaḥ ṣaḍvikalpaḥ śeṣāṇām||",
+      "source_line_start": 45,
+      "source_line_end": 45
+    },
+    {
+      "verse_id": "c_00024",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "ऋजुविपुलमती मनः पर्ययः।।",
+      "sanskrit_iast": "ṛjuvipulamatī manaḥ paryayaḥ||",
+      "source_line_start": 47,
+      "source_line_end": 47
+    },
+    {
+      "verse_id": "c_00025",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "विशुद्ध्यप्रतिपाताभ्यां तद्विशेषः।।",
+      "sanskrit_iast": "viśuddhyapratipātābhyāṃ tadviśeṣaḥ||",
+      "source_line_start": 49,
+      "source_line_end": 49
+    },
+    {
+      "verse_id": "c_00026",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "विशुद्धिक्षेत्रस्वामिविषयोऽवधिमनः पर्यययोः।।",
+      "sanskrit_iast": "viśuddhikṣetrasvāmiviṣayo'vadhimanaḥ paryayayoḥ||",
+      "source_line_start": 51,
+      "source_line_end": 51
+    },
+    {
+      "verse_id": "c_00027",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "मतिश्रुतयोर्निबन्धो द्रव्येष्वस्रवपार्यायेषु।।",
+      "sanskrit_iast": "matiśrutayornibandho dravyeṣvasravapāryāyeṣu||",
+      "source_line_start": 53,
+      "source_line_end": 53
+    },
+    {
+      "verse_id": "c_00028",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "रूपिष्ववधेः।।",
+      "sanskrit_iast": "rūpiṣvavadheḥ||",
+      "source_line_start": 55,
+      "source_line_end": 55
+    },
+    {
+      "verse_id": "c_00029",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तदनन्तभागे मनः पर्यस्य।।",
+      "sanskrit_iast": "tadanantabhāge manaḥ paryasya||",
+      "source_line_start": 57,
+      "source_line_end": 57
+    },
+    {
+      "verse_id": "c_00030",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सर्वद्रव्यपर्यायेषु केवलस्य।।",
+      "sanskrit_iast": "sarvadravyaparyāyeṣu kevalasya||",
+      "source_line_start": 59,
+      "source_line_end": 59
+    },
+    {
+      "verse_id": "c_00031",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "एकादीनि भाज्यानियुगपदेकस्मिन्नाचतुर्भ्यः।।",
+      "sanskrit_iast": "ekādīni bhājyāniyugapadekasminnācaturbhyaḥ||",
+      "source_line_start": 61,
+      "source_line_end": 61
+    },
+    {
+      "verse_id": "c_00032",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "मतिश्रुतावधयो विपर्ययश्च।।",
+      "sanskrit_iast": "matiśrutāvadhayo viparyayaśca||",
+      "source_line_start": 63,
+      "source_line_end": 63
+    },
+    {
+      "verse_id": "c_00033",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सदसतोरविशेषाद्यदृच्छोपलब्धेरुन्मत्तवत्।।",
+      "sanskrit_iast": "sadasatoraviśeṣādyadṛcchopalabdherunmattavat||",
+      "source_line_start": 65,
+      "source_line_end": 65
+    },
+    {
+      "verse_id": "c_00034",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "नैगमसंग्रहव्यवहारर्जु सूत्रशब्द समभिरूढैवंभूता नयाः।।",
+      "sanskrit_iast": "naigamasaṃgrahavyavahārarju sūtraśabda samabhirūḍhaivaṃbhūtā nayāḥ||",
+      "source_line_start": 67,
+      "source_line_end": 67
+    },
+    {
+      "verse_id": "c_00035",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "इति प्रथमोऽध्यायः।।",
+      "sanskrit_iast": "iti prathamo'dhyāyaḥ||",
+      "source_line_start": 69,
+      "source_line_end": 69
+    },
+    {
+      "verse_id": "c_00036",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "द्वितीयोऽध्यायः",
+      "sanskrit_iast": "dvitīyo'dhyāyaḥ",
+      "source_line_start": 71,
+      "source_line_end": 71
+    },
+    {
+      "verse_id": "c_00037",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "औपशमिकक्षायिकौ भावौ मिश्रश्च जीलस्य स्वतत्त्वमौदयिक पारिणामिको च।।",
+      "sanskrit_iast": "aupaśamikakṣāyikau bhāvau miśraśca jīlasya svatattvamaudayika pāriṇāmiko ca||",
+      "source_line_start": 73,
+      "source_line_end": 73
+    },
+    {
+      "verse_id": "c_00038",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "द्विनवाष्टादशैकविंशातित्रिभेदा यथाक्रमम्।।",
+      "sanskrit_iast": "dvinavāṣṭādaśaikaviṃśātitribhedā yathākramam||",
+      "source_line_start": 75,
+      "source_line_end": 75
+    },
+    {
+      "verse_id": "c_00039",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सम्यक्त्व चारित्रे।।",
+      "sanskrit_iast": "samyaktva cāritre||",
+      "source_line_start": 77,
+      "source_line_end": 77
+    },
+    {
+      "verse_id": "c_00040",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "ज्ञानदर्शन दानलाभभोगोप भोगवीर्याणि च।।",
+      "sanskrit_iast": "jñānadarśana dānalābhabhogopa bhogavīryāṇi ca||",
+      "source_line_start": 79,
+      "source_line_end": 79
+    },
+    {
+      "verse_id": "c_00041",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "ज्ञानाज्ञान दर्शन लब्ध्यश्चतुस्त्रि त्रिपञ्चभेदाः सम्यक्त्व चारित्र संयमासंयमाश्च।।",
+      "sanskrit_iast": "jñānājñāna darśana labdhyaścatustri tripañcabhedāḥ samyaktva cāritra saṃyamāsaṃyamāśca||",
+      "source_line_start": 81,
+      "source_line_end": 81
+    },
+    {
+      "verse_id": "c_00042",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "गतिकषायलिङ्ग मिथ्यादर्शना ज्ञानासंयता सिद्ध लेश्याश्चतुश्चतुस्त्र्येकैकैकैकषड्भेदाः।।",
+      "sanskrit_iast": "gatikaṣāyaliṅga mithyādarśanā jñānāsaṃyatā siddha leśyāścatuścatustryekaikaikaikaṣaḍbhedāḥ||",
+      "source_line_start": 83,
+      "source_line_end": 83
+    },
+    {
+      "verse_id": "c_00043",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "जीवभव्याभव्यत्वानि च।।",
+      "sanskrit_iast": "jīvabhavyābhavyatvāni ca||",
+      "source_line_start": 85,
+      "source_line_end": 85
+    },
+    {
+      "verse_id": "c_00044",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "उपयोगो लक्षणम्।।",
+      "sanskrit_iast": "upayogo lakṣaṇam||",
+      "source_line_start": 87,
+      "source_line_end": 87
+    },
+    {
+      "verse_id": "c_00045",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "स द्विविधोऽष्टचतुर्भेद।।",
+      "sanskrit_iast": "sa dvividho'ṣṭacaturbheda||",
+      "source_line_start": 89,
+      "source_line_end": 89
+    },
+    {
+      "verse_id": "c_00046",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "संसारिणो मुक्ताश्च।।",
+      "sanskrit_iast": "saṃsāriṇo muktāśca||",
+      "source_line_start": 91,
+      "source_line_end": 91
+    },
+    {
+      "verse_id": "c_00047",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "समनस्कामनस्काः।।",
+      "sanskrit_iast": "samanaskāmanaskāḥ||",
+      "source_line_start": 93,
+      "source_line_end": 93
+    },
+    {
+      "verse_id": "c_00048",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "संसारिणस्त्रसस्थावराः।।",
+      "sanskrit_iast": "saṃsāriṇastrasasthāvarāḥ||",
+      "source_line_start": 95,
+      "source_line_end": 95
+    },
+    {
+      "verse_id": "c_00049",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "पृथिव्यप्तेजोवायुवनस्पतयः स्थावराः।।",
+      "sanskrit_iast": "pṛthivyaptejovāyuvanaspatayaḥ sthāvarāḥ||",
+      "source_line_start": 97,
+      "source_line_end": 97
+    },
+    {
+      "verse_id": "c_00050",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "द्वीन्द्रियादयस्त्रसाः।।",
+      "sanskrit_iast": "dvīndriyādayastrasāḥ||",
+      "source_line_start": 99,
+      "source_line_end": 99
+    },
+    {
+      "verse_id": "c_00051",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "पंचेद्रियाणि।।",
+      "sanskrit_iast": "paṃcedriyāṇi||",
+      "source_line_start": 101,
+      "source_line_end": 101
+    },
+    {
+      "verse_id": "c_00052",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "द्विविधानि।।",
+      "sanskrit_iast": "dvividhāni||",
+      "source_line_start": 103,
+      "source_line_end": 103
+    },
+    {
+      "verse_id": "c_00053",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "निर्वृत्युपकरणे द्रव्येन्द्रियम्।।",
+      "sanskrit_iast": "nirvṛtyupakaraṇe dravyendriyam||",
+      "source_line_start": 105,
+      "source_line_end": 105
+    },
+    {
+      "verse_id": "c_00054",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "लब्ध्युपयोगौ भावेन्द्रियम्।।",
+      "sanskrit_iast": "labdhyupayogau bhāvendriyam||",
+      "source_line_start": 107,
+      "source_line_end": 107
+    },
+    {
+      "verse_id": "c_00055",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "स्पर्शनरसन घ्राणचक्षुःश्रोत्राणि।।",
+      "sanskrit_iast": "sparśanarasana ghrāṇacakṣuḥśrotrāṇi||",
+      "source_line_start": 109,
+      "source_line_end": 109
+    },
+    {
+      "verse_id": "c_00056",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "स्पर्शनरसन्गन्धवर्णशब्दास्तदर्थाः।।",
+      "sanskrit_iast": "sparśanarasangandhavarṇaśabdāstadarthāḥ||",
+      "source_line_start": 111,
+      "source_line_end": 111
+    },
+    {
+      "verse_id": "c_00057",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "श्रुतमनिन्द्रियस्य।।",
+      "sanskrit_iast": "śrutamanindriyasya||",
+      "source_line_start": 113,
+      "source_line_end": 113
+    },
+    {
+      "verse_id": "c_00058",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "वनस्पत्यन्तानामेकम्।।",
+      "sanskrit_iast": "vanaspatyantānāmekam||",
+      "source_line_start": 115,
+      "source_line_end": 115
+    },
+    {
+      "verse_id": "c_00059",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "कृमिपिपीलिका भ्रमर मनुष्यादीनामेकैक वृद्धानि।।",
+      "sanskrit_iast": "kṛmipipīlikā bhramara manuṣyādīnāmekaika vṛddhāni||",
+      "source_line_start": 117,
+      "source_line_end": 117
+    },
+    {
+      "verse_id": "c_00060",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "संज्ञिनः समनस्काः।।",
+      "sanskrit_iast": "saṃjñinaḥ samanaskāḥ||",
+      "source_line_start": 119,
+      "source_line_end": 119
+    },
+    {
+      "verse_id": "c_00061",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "विग्रहगतौ कर्मयोगः।।",
+      "sanskrit_iast": "vigrahagatau karmayogaḥ||",
+      "source_line_start": 121,
+      "source_line_end": 121
+    },
+    {
+      "verse_id": "c_00062",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अनुश्रेणि गतिः।।",
+      "sanskrit_iast": "anuśreṇi gatiḥ||",
+      "source_line_start": 123,
+      "source_line_end": 123
+    },
+    {
+      "verse_id": "c_00063",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अविग्रहा जीवस्य।।",
+      "sanskrit_iast": "avigrahā jīvasya||",
+      "source_line_start": 125,
+      "source_line_end": 125
+    },
+    {
+      "verse_id": "c_00064",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "विग्रहवती च संसारिणः प्राक् चतुर्भ्यः।।",
+      "sanskrit_iast": "vigrahavatī ca saṃsāriṇaḥ prāk caturbhyaḥ||",
+      "source_line_start": 127,
+      "source_line_end": 127
+    },
+    {
+      "verse_id": "c_00065",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "एक समयाविग्रहा।।",
+      "sanskrit_iast": "eka samayāvigrahā||",
+      "source_line_start": 129,
+      "source_line_end": 129
+    },
+    {
+      "verse_id": "c_00066",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "एकं द्वौ त्रीन्वानाहारकः।।",
+      "sanskrit_iast": "ekaṃ dvau trīnvānāhārakaḥ||",
+      "source_line_start": 131,
+      "source_line_end": 131
+    },
+    {
+      "verse_id": "c_00067",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "संमूच्छंनगर्भौपरादा जन्म।।",
+      "sanskrit_iast": "saṃmūcchaṃnagarbhauparādā janma||",
+      "source_line_start": 133,
+      "source_line_end": 133
+    },
+    {
+      "verse_id": "c_00068",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सचित्तशीतसंवृताःसेतरा मिश्राश्चैकशस्तद्योनयः।।",
+      "sanskrit_iast": "sacittaśītasaṃvṛtāḥsetarā miśrāścaikaśastadyonayaḥ||",
+      "source_line_start": 135,
+      "source_line_end": 135
+    },
+    {
+      "verse_id": "c_00069",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "जरायुजाण्डजपोतानां गर्भः।।",
+      "sanskrit_iast": "jarāyujāṇḍajapotānāṃ garbhaḥ||",
+      "source_line_start": 137,
+      "source_line_end": 137
+    },
+    {
+      "verse_id": "c_00070",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "देवनारकाणामुपपादः।।",
+      "sanskrit_iast": "devanārakāṇāmupapādaḥ||",
+      "source_line_start": 139,
+      "source_line_end": 139
+    },
+    {
+      "verse_id": "c_00071",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "शेषाणां संमबर्च्छनम्।।",
+      "sanskrit_iast": "śeṣāṇāṃ saṃmabarcchanam||",
+      "source_line_start": 141,
+      "source_line_end": 141
+    },
+    {
+      "verse_id": "c_00072",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "औदारिकवैक्रियिका हारकदैजसकार्मणानि शरीराणि।।",
+      "sanskrit_iast": "audārikavaikriyikā hārakadaijasakārmaṇāni śarīrāṇi||",
+      "source_line_start": 143,
+      "source_line_end": 143
+    },
+    {
+      "verse_id": "c_00073",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "परं परं सूक्ष्मम्।।",
+      "sanskrit_iast": "paraṃ paraṃ sūkṣmam||",
+      "source_line_start": 145,
+      "source_line_end": 145
+    },
+    {
+      "verse_id": "c_00074",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "प्रदेशतोऽसंख्येयगुणंप्राक् तैजसात्।।",
+      "sanskrit_iast": "pradeśato'saṃkhyeyaguṇaṃprāk taijasāt||",
+      "source_line_start": 147,
+      "source_line_end": 147
+    },
+    {
+      "verse_id": "c_00075",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अनन्तगुणे परे।।",
+      "sanskrit_iast": "anantaguṇe pare||",
+      "source_line_start": 149,
+      "source_line_end": 149
+    },
+    {
+      "verse_id": "c_00076",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अप्रतीघाते।।",
+      "sanskrit_iast": "apratīghāte||",
+      "source_line_start": 151,
+      "source_line_end": 151
+    },
+    {
+      "verse_id": "c_00077",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अनादिसंबन्धे च।।",
+      "sanskrit_iast": "anādisaṃbandhe ca||",
+      "source_line_start": 153,
+      "source_line_end": 153
+    },
+    {
+      "verse_id": "c_00078",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सर्वस्य।।",
+      "sanskrit_iast": "sarvasya||",
+      "source_line_start": 155,
+      "source_line_end": 155
+    },
+    {
+      "verse_id": "c_00079",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तदादीनि भाज्यानियुगपदेकस्मिन्ना चतुर्भ्यः।।",
+      "sanskrit_iast": "tadādīni bhājyāniyugapadekasminnā caturbhyaḥ||",
+      "source_line_start": 157,
+      "source_line_end": 157
+    },
+    {
+      "verse_id": "c_00080",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "निरूपभोगमन्त्यम्।।",
+      "sanskrit_iast": "nirūpabhogamantyam||",
+      "source_line_start": 159,
+      "source_line_end": 159
+    },
+    {
+      "verse_id": "c_00081",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "गर्भसमबर्च्छनजमाद्यम्।।",
+      "sanskrit_iast": "garbhasamabarcchanajamādyam||",
+      "source_line_start": 161,
+      "source_line_end": 161
+    },
+    {
+      "verse_id": "c_00082",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "औपपादिकं वैग्रियिकम्।।",
+      "sanskrit_iast": "aupapādikaṃ vaigriyikam||",
+      "source_line_start": 163,
+      "source_line_end": 163
+    },
+    {
+      "verse_id": "c_00083",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "लब्धिप्रत्ययं च।।",
+      "sanskrit_iast": "labdhipratyayaṃ ca||",
+      "source_line_start": 165,
+      "source_line_end": 165
+    },
+    {
+      "verse_id": "c_00084",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तैजसमपि।।",
+      "sanskrit_iast": "taijasamapi||",
+      "source_line_start": 167,
+      "source_line_end": 167
+    },
+    {
+      "verse_id": "c_00085",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "शुभं विशुद्धमव्याघाति चाहारकं प्रमत्तसंयतस्यैव।।",
+      "sanskrit_iast": "śubhaṃ viśuddhamavyāghāti cāhārakaṃ pramattasaṃyatasyaiva||",
+      "source_line_start": 169,
+      "source_line_end": 169
+    },
+    {
+      "verse_id": "c_00086",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "वानकसंमूर्च्छिनो नपुंसकानि।।",
+      "sanskrit_iast": "vānakasaṃmūrcchino napuṃsakāni||",
+      "source_line_start": 171,
+      "source_line_end": 171
+    },
+    {
+      "verse_id": "c_00087",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "न देवाः।।",
+      "sanskrit_iast": "na devāḥ||",
+      "source_line_start": 173,
+      "source_line_end": 173
+    },
+    {
+      "verse_id": "c_00088",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "शेषस्त्रवेदाः।।",
+      "sanskrit_iast": "śeṣastravedāḥ||",
+      "source_line_start": 175,
+      "source_line_end": 175
+    },
+    {
+      "verse_id": "c_00089",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "औपपादिक चरमोत्तमदेहाऽसंख्येय वर्षायुषोनवर्त्यायुषः।।",
+      "sanskrit_iast": "aupapādika caramottamadehā'saṃkhyeya varṣāyuṣonavartyāyuṣaḥ||",
+      "source_line_start": 177,
+      "source_line_end": 177
+    },
+    {
+      "verse_id": "c_00090",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "इति द्वितीयोऽध्यायः।।",
+      "sanskrit_iast": "iti dvitīyo'dhyāyaḥ||",
+      "source_line_start": 179,
+      "source_line_end": 179
+    },
+    {
+      "verse_id": "c_00091",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तृतीयोऽध्यायः",
+      "sanskrit_iast": "tṛtīyo'dhyāyaḥ",
+      "source_line_start": 181,
+      "source_line_end": 181
+    },
+    {
+      "verse_id": "c_00092",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "रत्नशर्कराबालुकापंक धूमतमोमहातमः प्रभा भूमयो घनाम्बुवाताकाश प्रतिष्ठाः सप्ताधोऽधः।।",
+      "sanskrit_iast": "ratnaśarkarābālukāpaṃka dhūmatamomahātamaḥ prabhā bhūmayo ghanāmbuvātākāśa pratiṣṭhāḥ saptādho'dhaḥ||",
+      "source_line_start": 183,
+      "source_line_end": 183
+    },
+    {
+      "verse_id": "c_00093",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तासु त्रिंशत्पंचविंशति पंचदशदशत्रिपंचोनैकनरकशतसहस्राणि पंच चैव यथाक्रमम्।।",
+      "sanskrit_iast": "tāsu triṃśatpaṃcaviṃśati paṃcadaśadaśatripaṃconaikanarakaśatasahasrāṇi paṃca caiva yathākramam||",
+      "source_line_start": 185,
+      "source_line_end": 185
+    },
+    {
+      "verse_id": "c_00094",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "नारका नित्याशुभतरलेश्यापरिणाम देहवेदनाविक्रियाः।।",
+      "sanskrit_iast": "nārakā nityāśubhataraleśyāpariṇāma dehavedanāvikriyāḥ||",
+      "source_line_start": 187,
+      "source_line_end": 187
+    },
+    {
+      "verse_id": "c_00095",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "परस्परोदीरितदुःखाः।।",
+      "sanskrit_iast": "parasparodīritaduḥkhāḥ||",
+      "source_line_start": 189,
+      "source_line_end": 189
+    },
+    {
+      "verse_id": "c_00096",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "संक्लिष्टासुरोदीरितदुःखाश्च प्राक् चतुर्थ्याः।।",
+      "sanskrit_iast": "saṃkliṣṭāsurodīritaduḥkhāśca prāk caturthyāḥ||",
+      "source_line_start": 191,
+      "source_line_end": 191
+    },
+    {
+      "verse_id": "c_00097",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तेष्वेकत्रि सप्त दशसप्तदशत्दवा विंशति त्रयस्त्रिंशत्सागरोपमासत्त्वानां परा स्थितः।।",
+      "sanskrit_iast": "teṣvekatri sapta daśasaptadaśatdavā viṃśati trayastriṃśatsāgaropamāsattvānāṃ parā sthitaḥ||",
+      "source_line_start": 193,
+      "source_line_end": 193
+    },
+    {
+      "verse_id": "c_00098",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "जम्बूद्वीप लवणोदादयः शुभनामानो द्वीपसमुद्रा।।",
+      "sanskrit_iast": "jambūdvīpa lavaṇodādayaḥ śubhanāmāno dvīpasamudrā||",
+      "source_line_start": 195,
+      "source_line_end": 195
+    },
+    {
+      "verse_id": "c_00099",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "द्विर्द्विर्विष्कम्भाः पूर्वपूर्वपरिक्षेपिणो वलयाकृतयः।।",
+      "sanskrit_iast": "dvirdvirviṣkambhāḥ pūrvapūrvaparikṣepiṇo valayākṛtayaḥ||",
+      "source_line_start": 197,
+      "source_line_end": 197
+    },
+    {
+      "verse_id": "c_00100",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तन्मध्ये मेरुनाभिर्वृत्तो योजनशतसहस्रविषकम्भो जम्बूद्वीपः।।",
+      "sanskrit_iast": "tanmadhye merunābhirvṛtto yojanaśatasahasraviṣakambho jambūdvīpaḥ||",
+      "source_line_start": 199,
+      "source_line_end": 199
+    },
+    {
+      "verse_id": "c_00101",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "भरतहेमवतहरिविदेह रम्यक हैरण्ेयवतैरावतवर्षाः क्षेत्राणि।।",
+      "sanskrit_iast": "bharatahemavataharivideha ramyaka hairaṇeyavatairāvatavarṣāḥ kṣetrāṇi||",
+      "source_line_start": 201,
+      "source_line_end": 201
+    },
+    {
+      "verse_id": "c_00102",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तद्विभाजिनः पूर्वापरायता हिमवन्महाहिमवन्निषधनीलरुक्मि शिखरिणो वर्णधरपर्वताः।।",
+      "sanskrit_iast": "tadvibhājinaḥ pūrvāparāyatā himavanmahāhimavanniṣadhanīlarukmi śikhariṇo varṇadharaparvatāḥ||",
+      "source_line_start": 203,
+      "source_line_end": 203
+    },
+    {
+      "verse_id": "c_00103",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "हेमार्जुनतपनीय वैडूर्यरजत रेममयाः।।",
+      "sanskrit_iast": "hemārjunatapanīya vaiḍūryarajata remamayāḥ||",
+      "source_line_start": 205,
+      "source_line_end": 205
+    },
+    {
+      "verse_id": "c_00104",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "मणिविचिक्षपर्श्वा उपरि मूले च तुल्यविस्ताराः।।",
+      "sanskrit_iast": "maṇivicikṣaparśvā upari mūle ca tulyavistārāḥ||",
+      "source_line_start": 207,
+      "source_line_end": 207
+    },
+    {
+      "verse_id": "c_00105",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "पद्ममहापद्मतिगिञ्छकेसरि महापुण्डरीकपुण्जरीकाहृदास्तेषामुपरि।।",
+      "sanskrit_iast": "padmamahāpadmatigiñchakesari mahāpuṇḍarīkapuṇjarīkāhṛdāsteṣāmupari||",
+      "source_line_start": 209,
+      "source_line_end": 209
+    },
+    {
+      "verse_id": "c_00106",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "प्रथमो योजनसहस्रायामस्तदर्धविषकम्भो ह्रदः।।",
+      "sanskrit_iast": "prathamo yojanasahasrāyāmastadardhaviṣakambho hradaḥ||",
+      "source_line_start": 211,
+      "source_line_end": 211
+    },
+    {
+      "verse_id": "c_00107",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "दशयोजनावगाहः।।",
+      "sanskrit_iast": "daśayojanāvagāhaḥ||",
+      "source_line_start": 213,
+      "source_line_end": 213
+    },
+    {
+      "verse_id": "c_00108",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तन्मध्ये योजनं पुष्करम्।।",
+      "sanskrit_iast": "tanmadhye yojanaṃ puṣkaram||",
+      "source_line_start": 215,
+      "source_line_end": 215
+    },
+    {
+      "verse_id": "c_00109",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तद्द्विगुणद्विगुणाह्रदः पुष्कराणि च।।",
+      "sanskrit_iast": "taddviguṇadviguṇāhradaḥ puṣkarāṇi ca||",
+      "source_line_start": 217,
+      "source_line_end": 217
+    },
+    {
+      "verse_id": "c_00110",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तन्निवासिन्यो देव्यः श्री ह्रीधृतिकीर्तिबुद्धिलक्ष्म्यः पल्योपमस्थितयः ससामानिक परिषत्काः।।",
+      "sanskrit_iast": "tannivāsinyo devyaḥ śrī hrīdhṛtikīrtibuddhilakṣmyaḥ palyopamasthitayaḥ sasāmānika pariṣatkāḥ||",
+      "source_line_start": 219,
+      "source_line_end": 219
+    },
+    {
+      "verse_id": "c_00111",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "गंगासिन्धु रोहिद्रोहितास्याहरिद्धरिकान्तै सीतासीतोदानारीनरकान्ता सुवर्ण रूप्यकूला रक्तारक्तोदाः सरितस्तन्मध्यगाः।।",
+      "sanskrit_iast": "gaṃgāsindhu rohidrohitāsyāhariddharikāntai sītāsītodānārīnarakāntā suvarṇa rūpyakūlā raktāraktodāḥ saritastanmadhyagāḥ||",
+      "source_line_start": 221,
+      "source_line_end": 221
+    },
+    {
+      "verse_id": "c_00112",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "द्वयोर्द्वयोः पूर्वाः पूर्वगाः।।",
+      "sanskrit_iast": "dvayordvayoḥ pūrvāḥ pūrvagāḥ||",
+      "source_line_start": 223,
+      "source_line_end": 223
+    },
+    {
+      "verse_id": "c_00113",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "शेषास्त्वपरगाः।।",
+      "sanskrit_iast": "śeṣāstvaparagāḥ||",
+      "source_line_start": 225,
+      "source_line_end": 225
+    },
+    {
+      "verse_id": "c_00114",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "चतुर्दशनदीसहस्रपरिवृता गंगासिन्ध्वादयो नद्यः।।",
+      "sanskrit_iast": "caturdaśanadīsahasraparivṛtā gaṃgāsindhvādayo nadyaḥ||",
+      "source_line_start": 227,
+      "source_line_end": 227
+    },
+    {
+      "verse_id": "c_00115",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "भरतः षड्विंशतिपंचयोजनशतविस्तारः षट्चैकोनविंशतिभागायोजनस्य।।",
+      "sanskrit_iast": "bharataḥ ṣaḍviṃśatipaṃcayojanaśatavistāraḥ ṣaṭcaikonaviṃśatibhāgāyojanasya||",
+      "source_line_start": 229,
+      "source_line_end": 229
+    },
+    {
+      "verse_id": "c_00116",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तद्द्विगुणद्विगुणविस्तारा वर्षधरवर्षा विदेहान्ताः।।",
+      "sanskrit_iast": "taddviguṇadviguṇavistārā varṣadharavarṣā videhāntāḥ||",
+      "source_line_start": 231,
+      "source_line_end": 231
+    },
+    {
+      "verse_id": "c_00117",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "उत्तर दक्षिणतुल्याः।।",
+      "sanskrit_iast": "uttara dakṣiṇatulyāḥ||",
+      "source_line_start": 233,
+      "source_line_end": 233
+    },
+    {
+      "verse_id": "c_00118",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तथोत्तरः।।",
+      "sanskrit_iast": "tathottaraḥ||",
+      "source_line_start": 235,
+      "source_line_end": 235
+    },
+    {
+      "verse_id": "c_00119",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "विदेहेषु संख्येयकालाः।।",
+      "sanskrit_iast": "videheṣu saṃkhyeyakālāḥ||",
+      "source_line_start": 237,
+      "source_line_end": 237
+    },
+    {
+      "verse_id": "c_00120",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "भरतस्य विष्कम्भो जम्बूद्वीपस्य नवतिशतभागः।।",
+      "sanskrit_iast": "bharatasya viṣkambho jambūdvīpasya navatiśatabhāgaḥ||",
+      "source_line_start": 239,
+      "source_line_end": 239
+    },
+    {
+      "verse_id": "c_00121",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "द्विर्धातकीखण्डे।।",
+      "sanskrit_iast": "dvirdhātakīkhaṇḍe||",
+      "source_line_start": 241,
+      "source_line_end": 241
+    },
+    {
+      "verse_id": "c_00122",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "पुष्कारर्धे च।।",
+      "sanskrit_iast": "puṣkārardhe ca||",
+      "source_line_start": 243,
+      "source_line_end": 243
+    },
+    {
+      "verse_id": "c_00123",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "प्राङ्मानुषोत्तरान्मनुष्याः।।",
+      "sanskrit_iast": "prāṅmānuṣottarānmanuṣyāḥ||",
+      "source_line_start": 245,
+      "source_line_end": 245
+    },
+    {
+      "verse_id": "c_00124",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "आर्या म्लेच्छाश्च।।",
+      "sanskrit_iast": "āryā mlecchāśca||",
+      "source_line_start": 247,
+      "source_line_end": 247
+    },
+    {
+      "verse_id": "c_00125",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "भरतैरावतविदेहाः कर्मभूमयोऽन्यत्र देवकुरूत्तरकुरुभ्यः।।",
+      "sanskrit_iast": "bharatairāvatavidehāḥ karmabhūmayo'nyatra devakurūttarakurubhyaḥ||",
+      "source_line_start": 249,
+      "source_line_end": 249
+    },
+    {
+      "verse_id": "c_00126",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "नृस्थितीपरावरे त्रिपल्योपमान्तर्मुहूर्त।।",
+      "sanskrit_iast": "nṛsthitīparāvare tripalyopamāntarmuhūrta||",
+      "source_line_start": 251,
+      "source_line_end": 251
+    },
+    {
+      "verse_id": "c_00127",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तिर्यग्योनिजानां च।।",
+      "sanskrit_iast": "tiryagyonijānāṃ ca||",
+      "source_line_start": 253,
+      "source_line_end": 253
+    },
+    {
+      "verse_id": "c_00128",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "इति तृतीयोऽध्यायः।।",
+      "sanskrit_iast": "iti tṛtīyo'dhyāyaḥ||",
+      "source_line_start": 255,
+      "source_line_end": 255
+    },
+    {
+      "verse_id": "c_00129",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "चतुर्थोऽध्यायः",
+      "sanskrit_iast": "caturtho'dhyāyaḥ",
+      "source_line_start": 257,
+      "source_line_end": 257
+    },
+    {
+      "verse_id": "c_00130",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "देवाश्चतुर्णिकायाः।।",
+      "sanskrit_iast": "devāścaturṇikāyāḥ||",
+      "source_line_start": 259,
+      "source_line_end": 259
+    },
+    {
+      "verse_id": "c_00131",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "आदितस्त्रिषु पीतानत्लेश्याः।।",
+      "sanskrit_iast": "āditastriṣu pītānatleśyāḥ||",
+      "source_line_start": 261,
+      "source_line_end": 261
+    },
+    {
+      "verse_id": "c_00132",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "दशाष्टपञ्चद्वादशविकल्पाः कल्पोपपन्नपर्यन्ताः।।",
+      "sanskrit_iast": "daśāṣṭapañcadvādaśavikalpāḥ kalpopapannaparyantāḥ||",
+      "source_line_start": 263,
+      "source_line_end": 263
+    },
+    {
+      "verse_id": "c_00133",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "इन्द्रसामानिक त्रायस्त्रिशपारिषदात्मरक्ष लोकपालीनाक प्रकीर्ण काभियोग्य किल्बिषि काश्चैकशः।।",
+      "sanskrit_iast": "indrasāmānika trāyastriśapāriṣadātmarakṣa lokapālīnāka prakīrṇa kābhiyogya kilbiṣi kāścaikaśaḥ||",
+      "source_line_start": 265,
+      "source_line_end": 265
+    },
+    {
+      "verse_id": "c_00134",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "त्रायस्त्रिंशलोकपालवर्ज्या व्यन्तरज्योतिष्काः।।",
+      "sanskrit_iast": "trāyastriṃśalokapālavarjyā vyantarajyotiṣkāḥ||",
+      "source_line_start": 267,
+      "source_line_end": 267
+    },
+    {
+      "verse_id": "c_00135",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "पूर्वयोर्द्वीन्द्रा।।",
+      "sanskrit_iast": "pūrvayordvīndrā||",
+      "source_line_start": 269,
+      "source_line_end": 269
+    },
+    {
+      "verse_id": "c_00136",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "कायप्रवीचाराः।।",
+      "sanskrit_iast": "kāyapravīcārāḥ||",
+      "source_line_start": 271,
+      "source_line_end": 271
+    },
+    {
+      "verse_id": "c_00137",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "शेषाः स्पर्शरूपशब्दमनः प्रवचाराः।।",
+      "sanskrit_iast": "śeṣāḥ sparśarūpaśabdamanaḥ pravacārāḥ||",
+      "source_line_start": 273,
+      "source_line_end": 273
+    },
+    {
+      "verse_id": "c_00138",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "परेऽप्रवचीराः।।",
+      "sanskrit_iast": "pare'pravacīrāḥ||",
+      "source_line_start": 275,
+      "source_line_end": 275
+    },
+    {
+      "verse_id": "c_00139",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "भवनवासिनोऽसुरनाविद्युत्सुपर्णाग्निवातस्तनितोद धिद्वीपदिक्कुमाराः।।",
+      "sanskrit_iast": "bhavanavāsino'suranāvidyutsuparṇāgnivātastanitoda dhidvīpadikkumārāḥ||",
+      "source_line_start": 277,
+      "source_line_end": 277
+    },
+    {
+      "verse_id": "c_00140",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "व्यन्तराः किन्नरकिंपुरुष महोरग गन्धर्वयक्षराक्षसभूतपिशाचाः।।",
+      "sanskrit_iast": "vyantarāḥ kinnarakiṃpuruṣa mahoraga gandharvayakṣarākṣasabhūtapiśācāḥ||",
+      "source_line_start": 279,
+      "source_line_end": 279
+    },
+    {
+      "verse_id": "c_00141",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "ज्योतिष्काः सूर्याचन्द्रमसौ ग्रहनक्षत्रप्रकीर्णकतारकाश्च।।",
+      "sanskrit_iast": "jyotiṣkāḥ sūryācandramasau grahanakṣatraprakīrṇakatārakāśca||",
+      "source_line_start": 281,
+      "source_line_end": 281
+    },
+    {
+      "verse_id": "c_00142",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "मेरुप्रदिक्षिणा नित्यगतयो नृलोके।।",
+      "sanskrit_iast": "merupradikṣiṇā nityagatayo nṛloke||",
+      "source_line_start": 283,
+      "source_line_end": 283
+    },
+    {
+      "verse_id": "c_00143",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तत्कृतः कालविभागः।।",
+      "sanskrit_iast": "tatkṛtaḥ kālavibhāgaḥ||",
+      "source_line_start": 285,
+      "source_line_end": 285
+    },
+    {
+      "verse_id": "c_00144",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "बहिरवस्थिताः।।",
+      "sanskrit_iast": "bahiravasthitāḥ||",
+      "source_line_start": 287,
+      "source_line_end": 287
+    },
+    {
+      "verse_id": "c_00145",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "वैमानिकाः।।",
+      "sanskrit_iast": "vaimānikāḥ||",
+      "source_line_start": 289,
+      "source_line_end": 289
+    },
+    {
+      "verse_id": "c_00146",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "कल्पोपपन्नाः कल्पाताताश्च।।",
+      "sanskrit_iast": "kalpopapannāḥ kalpātātāśca||",
+      "source_line_start": 291,
+      "source_line_end": 291
+    },
+    {
+      "verse_id": "c_00147",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "उपर्युपरि।।",
+      "sanskrit_iast": "uparyupari||",
+      "source_line_start": 293,
+      "source_line_end": 293
+    },
+    {
+      "verse_id": "c_00148",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सौधर्मैशानसानत्कुमार माहेन्द्र ब्रह्मब्रह्मोत्तर लान्तवकापिष्ठ शुक्रमहाशुक्रशतारसहस्रारेष्वानतप्राणयोरारणाच्युतयोर्नवसुग्रैवेयकेषु विजय वैजयन्त ययन्तापराजितेषु सर्वार्थसिद्धौ च।।",
+      "sanskrit_iast": "saudharmaiśānasānatkumāra māhendra brahmabrahmottara lāntavakāpiṣṭha śukramahāśukraśatārasahasrāreṣvānataprāṇayorāraṇācyutayornavasugraiveyakeṣu vijaya vaijayanta yayantāparājiteṣu sarvārthasiddhau ca||",
+      "source_line_start": 295,
+      "source_line_end": 295
+    },
+    {
+      "verse_id": "c_00149",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "स्थिति प्रभावसुखद्युतलेश्याविशुद्धीन्द्रियावधिविषयतोऽधिकाः।।",
+      "sanskrit_iast": "sthiti prabhāvasukhadyutaleśyāviśuddhīndriyāvadhiviṣayato'dhikāḥ||",
+      "source_line_start": 297,
+      "source_line_end": 297
+    },
+    {
+      "verse_id": "c_00150",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "गतिशरीरपरिग्रहाभिमानतो हीनाः।।",
+      "sanskrit_iast": "gatiśarīraparigrahābhimānato hīnāḥ||",
+      "source_line_start": 299,
+      "source_line_end": 299
+    },
+    {
+      "verse_id": "c_00151",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "पीतपद्मशुक्ललेश्या द्वित्रिशेषेषु।।",
+      "sanskrit_iast": "pītapadmaśuklaleśyā dvitriśeṣeṣu||",
+      "source_line_start": 301,
+      "source_line_end": 301
+    },
+    {
+      "verse_id": "c_00152",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "प्राग्ग्रैवेयकेभ्यः कल्पाः।।",
+      "sanskrit_iast": "prāggraiveyakebhyaḥ kalpāḥ||",
+      "source_line_start": 303,
+      "source_line_end": 303
+    },
+    {
+      "verse_id": "c_00153",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "ब्रह्मलोकालया लौकान्तिकाः।।",
+      "sanskrit_iast": "brahmalokālayā laukāntikāḥ||",
+      "source_line_start": 305,
+      "source_line_end": 305
+    },
+    {
+      "verse_id": "c_00154",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सारस्वतादित्य व ह्रयरुणगर्दतोयुषिताव्यावाधारिष्टाश्च।।",
+      "sanskrit_iast": "sārasvatāditya va hrayaruṇagardatoyuṣitāvyāvādhāriṣṭāśca||",
+      "source_line_start": 307,
+      "source_line_end": 307
+    },
+    {
+      "verse_id": "c_00155",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "विजयादिषु द्विचरमाः।।",
+      "sanskrit_iast": "vijayādiṣu dvicaramāḥ||",
+      "source_line_start": 309,
+      "source_line_end": 309
+    },
+    {
+      "verse_id": "c_00156",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "औपपादिक मनुष्येभ्यः शेषास्तिर्यग्योनयः।।",
+      "sanskrit_iast": "aupapādika manuṣyebhyaḥ śeṣāstiryagyonayaḥ||",
+      "source_line_start": 311,
+      "source_line_end": 311
+    },
+    {
+      "verse_id": "c_00157",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "स्थितिसुरनागसुपर्णद्वीपशेषाणां सागरोपमत्रिपल्योपमार्द्ध हीनमिताः।।",
+      "sanskrit_iast": "sthitisuranāgasuparṇadvīpaśeṣāṇāṃ sāgaropamatripalyopamārddha hīnamitāḥ||",
+      "source_line_start": 313,
+      "source_line_end": 313
+    },
+    {
+      "verse_id": "c_00158",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सौधर्मेशालयोः सागरोपमेऽधिके।।",
+      "sanskrit_iast": "saudharmeśālayoḥ sāgaropame'dhike||",
+      "source_line_start": 315,
+      "source_line_end": 315
+    },
+    {
+      "verse_id": "c_00159",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सानत्कुमार माहेन्द्रयो सप्त।।",
+      "sanskrit_iast": "sānatkumāra māhendrayo sapta||",
+      "source_line_start": 317,
+      "source_line_end": 317
+    },
+    {
+      "verse_id": "c_00160",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "त्रिसप्तनवैकादशत्रयोदश पञ्चदशभिरधिकानि तु।।",
+      "sanskrit_iast": "trisaptanavaikādaśatrayodaśa pañcadaśabhiradhikāni tu||",
+      "source_line_start": 319,
+      "source_line_end": 319
+    },
+    {
+      "verse_id": "c_00161",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "आरणाच्युततादूर्ध्वमेकैकेननवसु ग्रैवेयकेषु विजयादिषु सर्वार्थसिद्धौ च।।",
+      "sanskrit_iast": "āraṇācyutatādūrdhvamekaikenanavasu graiveyakeṣu vijayādiṣu sarvārthasiddhau ca||",
+      "source_line_start": 321,
+      "source_line_end": 321
+    },
+    {
+      "verse_id": "c_00162",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अपरापल्योपममधिकम्।।",
+      "sanskrit_iast": "aparāpalyopamamadhikam||",
+      "source_line_start": 323,
+      "source_line_end": 323
+    },
+    {
+      "verse_id": "c_00163",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "परतः परतः पूर्वा पूर्वाऽनन्तरा।।",
+      "sanskrit_iast": "parataḥ parataḥ pūrvā pūrvā'nantarā||",
+      "source_line_start": 325,
+      "source_line_end": 325
+    },
+    {
+      "verse_id": "c_00164",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "नारकाणां च द्वितीयादिषु।।",
+      "sanskrit_iast": "nārakāṇāṃ ca dvitīyādiṣu||",
+      "source_line_start": 327,
+      "source_line_end": 327
+    },
+    {
+      "verse_id": "c_00165",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "दशवर्षज्ञसहस्राणि प्रथमायाम्।।",
+      "sanskrit_iast": "daśavarṣajñasahasrāṇi prathamāyām||",
+      "source_line_start": 329,
+      "source_line_end": 329
+    },
+    {
+      "verse_id": "c_00166",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "भवनेषु च।।",
+      "sanskrit_iast": "bhavaneṣu ca||",
+      "source_line_start": 331,
+      "source_line_end": 331
+    },
+    {
+      "verse_id": "c_00167",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "व्यन्तराणां च।।",
+      "sanskrit_iast": "vyantarāṇāṃ ca||",
+      "source_line_start": 333,
+      "source_line_end": 333
+    },
+    {
+      "verse_id": "c_00168",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "परापल्योपममधिकम्।।",
+      "sanskrit_iast": "parāpalyopamamadhikam||",
+      "source_line_start": 335,
+      "source_line_end": 335
+    },
+    {
+      "verse_id": "c_00169",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "ज्योतिष्कणां च।।",
+      "sanskrit_iast": "jyotiṣkaṇāṃ ca||",
+      "source_line_start": 337,
+      "source_line_end": 337
+    },
+    {
+      "verse_id": "c_00170",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तदष्टभागोऽपरा।।",
+      "sanskrit_iast": "tadaṣṭabhāgo'parā||",
+      "source_line_start": 339,
+      "source_line_end": 339
+    },
+    {
+      "verse_id": "c_00171",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "लौकान्तिकानामष्टौ सागरोपमाणि सर्वेषाम्।।",
+      "sanskrit_iast": "laukāntikānāmaṣṭau sāgaropamāṇi sarveṣām||",
+      "source_line_start": 341,
+      "source_line_end": 341
+    },
+    {
+      "verse_id": "c_00172",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "इति चतुर्थोऽध्यायः।।",
+      "sanskrit_iast": "iti caturtho'dhyāyaḥ||",
+      "source_line_start": 343,
+      "source_line_end": 343
+    },
+    {
+      "verse_id": "c_00173",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "पञ्चमोऽध्यायः",
+      "sanskrit_iast": "pañcamo'dhyāyaḥ",
+      "source_line_start": 345,
+      "source_line_end": 345
+    },
+    {
+      "verse_id": "c_00174",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अजीवकाया धर्माधर्माकाशपुद्गलाः।।",
+      "sanskrit_iast": "ajīvakāyā dharmādharmākāśapudgalāḥ||",
+      "source_line_start": 347,
+      "source_line_end": 347
+    },
+    {
+      "verse_id": "c_00175",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "द्रव्याणि।।",
+      "sanskrit_iast": "dravyāṇi||",
+      "source_line_start": 349,
+      "source_line_end": 349
+    },
+    {
+      "verse_id": "c_00176",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "जीवाश्च।।",
+      "sanskrit_iast": "jīvāśca||",
+      "source_line_start": 351,
+      "source_line_end": 351
+    },
+    {
+      "verse_id": "c_00177",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "नित्यावस्थितान्यरूपाणि।।",
+      "sanskrit_iast": "nityāvasthitānyarūpāṇi||",
+      "source_line_start": 353,
+      "source_line_end": 353
+    },
+    {
+      "verse_id": "c_00178",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "रूपिणः पुद्गलाः।।",
+      "sanskrit_iast": "rūpiṇaḥ pudgalāḥ||",
+      "source_line_start": 355,
+      "source_line_end": 355
+    },
+    {
+      "verse_id": "c_00179",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "आकाशादेकद्रव्याणि।।",
+      "sanskrit_iast": "ākāśādekadravyāṇi||",
+      "source_line_start": 357,
+      "source_line_end": 357
+    },
+    {
+      "verse_id": "c_00180",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "निष्क्रियाणि च।।",
+      "sanskrit_iast": "niṣkriyāṇi ca||",
+      "source_line_start": 359,
+      "source_line_end": 359
+    },
+    {
+      "verse_id": "c_00181",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "असंख्योयाः प्रदेशा धर्माधर्मेकजीवानाम्।।",
+      "sanskrit_iast": "asaṃkhyoyāḥ pradeśā dharmādharmekajīvānām||",
+      "source_line_start": 361,
+      "source_line_end": 361
+    },
+    {
+      "verse_id": "c_00182",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "आकाशस्यानन्ताः।।",
+      "sanskrit_iast": "ākāśasyānantāḥ||",
+      "source_line_start": 363,
+      "source_line_end": 363
+    },
+    {
+      "verse_id": "c_00183",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "संख्येयासंख्येयाश्च पुद्गलानाम्।।",
+      "sanskrit_iast": "saṃkhyeyāsaṃkhyeyāśca pudgalānām||",
+      "source_line_start": 365,
+      "source_line_end": 365
+    },
+    {
+      "verse_id": "c_00184",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "नाणोः।।",
+      "sanskrit_iast": "nāṇoḥ||",
+      "source_line_start": 367,
+      "source_line_end": 367
+    },
+    {
+      "verse_id": "c_00185",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "लोकाकाशेऽवगाहः।।",
+      "sanskrit_iast": "lokākāśe'vagāhaḥ||",
+      "source_line_start": 369,
+      "source_line_end": 369
+    },
+    {
+      "verse_id": "c_00186",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "धर्माधर्मयोः कृस्ने।।",
+      "sanskrit_iast": "dharmādharmayoḥ kṛsne||",
+      "source_line_start": 371,
+      "source_line_end": 371
+    },
+    {
+      "verse_id": "c_00187",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "एकप्रदेशादिषु भाज्यः पुद्गलानाम्।।",
+      "sanskrit_iast": "ekapradeśādiṣu bhājyaḥ pudgalānām||",
+      "source_line_start": 373,
+      "source_line_end": 373
+    },
+    {
+      "verse_id": "c_00188",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "असंख्येयभागादिषु जीवानाम्।।",
+      "sanskrit_iast": "asaṃkhyeyabhāgādiṣu jīvānām||",
+      "source_line_start": 375,
+      "source_line_end": 375
+    },
+    {
+      "verse_id": "c_00189",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "प्रदेशसंहार विसर्पाभ्या प्रदीपवत्।।",
+      "sanskrit_iast": "pradeśasaṃhāra visarpābhyā pradīpavat||",
+      "source_line_start": 377,
+      "source_line_end": 377
+    },
+    {
+      "verse_id": "c_00190",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "गतिस्थ्त्युपग्रहौ धर्माधर्मयोरुपकारः।।",
+      "sanskrit_iast": "gatisthtyupagrahau dharmādharmayorupakāraḥ||",
+      "source_line_start": 379,
+      "source_line_end": 379
+    },
+    {
+      "verse_id": "c_00191",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "आकाशस्यावगाहः।।",
+      "sanskrit_iast": "ākāśasyāvagāhaḥ||",
+      "source_line_start": 381,
+      "source_line_end": 381
+    },
+    {
+      "verse_id": "c_00192",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "शरीरवाङ्मनः प्राणापानाः पुद्गलनानाम्।।",
+      "sanskrit_iast": "śarīravāṅmanaḥ prāṇāpānāḥ pudgalanānām||",
+      "source_line_start": 383,
+      "source_line_end": 383
+    },
+    {
+      "verse_id": "c_00193",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सुखदुःखजीवितमरणोपग्रहाश्च।।",
+      "sanskrit_iast": "sukhaduḥkhajīvitamaraṇopagrahāśca||",
+      "source_line_start": 385,
+      "source_line_end": 385
+    },
+    {
+      "verse_id": "c_00194",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "परस्परोपग्रहो जीवानाम्।।",
+      "sanskrit_iast": "parasparopagraho jīvānām||",
+      "source_line_start": 387,
+      "source_line_end": 387
+    },
+    {
+      "verse_id": "c_00195",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "वर्तनापरिणामक्रियाः परत्वापरत्वे च कालस्य।।",
+      "sanskrit_iast": "vartanāpariṇāmakriyāḥ paratvāparatve ca kālasya||",
+      "source_line_start": 389,
+      "source_line_end": 389
+    },
+    {
+      "verse_id": "c_00196",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "स्पर्शरसगन्धवर्णवन्तः पुद्गलाः।।",
+      "sanskrit_iast": "sparśarasagandhavarṇavantaḥ pudgalāḥ||",
+      "source_line_start": 391,
+      "source_line_end": 391
+    },
+    {
+      "verse_id": "c_00197",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "शब्दसौक्ष्म्यस्थौल्य संस्थान भेदतश्छायातपोद्योतवन्तश्च।।",
+      "sanskrit_iast": "śabdasaukṣmyasthaulya saṃsthāna bhedataśchāyātapodyotavantaśca||",
+      "source_line_start": 393,
+      "source_line_end": 393
+    },
+    {
+      "verse_id": "c_00198",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अणवः स्कन्धाश्च।।",
+      "sanskrit_iast": "aṇavaḥ skandhāśca||",
+      "source_line_start": 395,
+      "source_line_end": 395
+    },
+    {
+      "verse_id": "c_00199",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "भेदसंघातेभ्य उत्पद्यन्ते।।",
+      "sanskrit_iast": "bhedasaṃghātebhya utpadyante||",
+      "source_line_start": 397,
+      "source_line_end": 397
+    },
+    {
+      "verse_id": "c_00200",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "भेदादुणुः।।",
+      "sanskrit_iast": "bhedāduṇuḥ||",
+      "source_line_start": 399,
+      "source_line_end": 399
+    },
+    {
+      "verse_id": "c_00201",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "भेदसंघाताभ्यां चाक्षुषः।।",
+      "sanskrit_iast": "bhedasaṃghātābhyāṃ cākṣuṣaḥ||",
+      "source_line_start": 401,
+      "source_line_end": 401
+    },
+    {
+      "verse_id": "c_00202",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सद्द्रव्यलक्षणम्।।",
+      "sanskrit_iast": "saddravyalakṣaṇam||",
+      "source_line_start": 403,
+      "source_line_end": 403
+    },
+    {
+      "verse_id": "c_00203",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "उत्पादव्ययध्रौव्युक्तं सत्।।",
+      "sanskrit_iast": "utpādavyayadhrauvyuktaṃ sat||",
+      "source_line_start": 405,
+      "source_line_end": 405
+    },
+    {
+      "verse_id": "c_00204",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तदभावाव्ययं नित्यम्।।",
+      "sanskrit_iast": "tadabhāvāvyayaṃ nityam||",
+      "source_line_start": 407,
+      "source_line_end": 407
+    },
+    {
+      "verse_id": "c_00205",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अर्पितानर्पितसिद्धेः।।",
+      "sanskrit_iast": "arpitānarpitasiddheḥ||",
+      "source_line_start": 409,
+      "source_line_end": 409
+    },
+    {
+      "verse_id": "c_00206",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "स्निग्धरुक्षत्वाद् बन्धः।।",
+      "sanskrit_iast": "snigdharukṣatvād bandhaḥ||",
+      "source_line_start": 411,
+      "source_line_end": 411
+    },
+    {
+      "verse_id": "c_00207",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "न जघन्यगुणानाम्।।",
+      "sanskrit_iast": "na jaghanyaguṇānām||",
+      "source_line_start": 413,
+      "source_line_end": 413
+    },
+    {
+      "verse_id": "c_00208",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "गुणसाम्ये सदृशानाम्।।",
+      "sanskrit_iast": "guṇasāmye sadṛśānām||",
+      "source_line_start": 415,
+      "source_line_end": 415
+    },
+    {
+      "verse_id": "c_00209",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "द्वयाधिकादिगुणानां तु।।",
+      "sanskrit_iast": "dvayādhikādiguṇānāṃ tu||",
+      "source_line_start": 417,
+      "source_line_end": 417
+    },
+    {
+      "verse_id": "c_00210",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "बन्धेऽधिकौ पारिणामिकौ च।।",
+      "sanskrit_iast": "bandhe'dhikau pāriṇāmikau ca||",
+      "source_line_start": 419,
+      "source_line_end": 419
+    },
+    {
+      "verse_id": "c_00211",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "गुणपर्ययवत् द्रव्यम्।।",
+      "sanskrit_iast": "guṇaparyayavat dravyam||",
+      "source_line_start": 421,
+      "source_line_end": 421
+    },
+    {
+      "verse_id": "c_00212",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "कालश्च।।",
+      "sanskrit_iast": "kālaśca||",
+      "source_line_start": 423,
+      "source_line_end": 423
+    },
+    {
+      "verse_id": "c_00213",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सोऽनन्तसमयः।।",
+      "sanskrit_iast": "so'nantasamayaḥ||",
+      "source_line_start": 425,
+      "source_line_end": 425
+    },
+    {
+      "verse_id": "c_00214",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "द्रव्यश्रया निर्गुणा गुणाः।।",
+      "sanskrit_iast": "dravyaśrayā nirguṇā guṇāḥ||",
+      "source_line_start": 427,
+      "source_line_end": 427
+    },
+    {
+      "verse_id": "c_00215",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तद्भावः परिणामः।।",
+      "sanskrit_iast": "tadbhāvaḥ pariṇāmaḥ||",
+      "source_line_start": 429,
+      "source_line_end": 429
+    },
+    {
+      "verse_id": "c_00216",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "इति पञ्चमोऽध्यायः।।",
+      "sanskrit_iast": "iti pañcamo'dhyāyaḥ||",
+      "source_line_start": 431,
+      "source_line_end": 431
+    },
+    {
+      "verse_id": "c_00217",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "षष्ठोऽध्यायः",
+      "sanskrit_iast": "ṣaṣṭho'dhyāyaḥ",
+      "source_line_start": 433,
+      "source_line_end": 433
+    },
+    {
+      "verse_id": "c_00218",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "कायवाङ्मनः कर्म योगः।।",
+      "sanskrit_iast": "kāyavāṅmanaḥ karma yogaḥ||",
+      "source_line_start": 435,
+      "source_line_end": 435
+    },
+    {
+      "verse_id": "c_00219",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "स आस्रवः।।",
+      "sanskrit_iast": "sa āsravaḥ||",
+      "source_line_start": 437,
+      "source_line_end": 437
+    },
+    {
+      "verse_id": "c_00220",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "शुभः पुण्यस्याशुभः पापस्य।।",
+      "sanskrit_iast": "śubhaḥ puṇyasyāśubhaḥ pāpasya||",
+      "source_line_start": 439,
+      "source_line_end": 439
+    },
+    {
+      "verse_id": "c_00221",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सकषायाकषाययोः सांपरायिकेर्यापथयोः।।",
+      "sanskrit_iast": "sakaṣāyākaṣāyayoḥ sāṃparāyikeryāpathayoḥ||",
+      "source_line_start": 441,
+      "source_line_end": 441
+    },
+    {
+      "verse_id": "c_00222",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "इन्द्रियकषायाव्रत क्रियाः पञ्चचतुः पञ्चपञ्चपबिंशतिसंख्याः पूर्वस्य भेदाः।।",
+      "sanskrit_iast": "indriyakaṣāyāvrata kriyāḥ pañcacatuḥ pañcapañcapabiṃśatisaṃkhyāḥ pūrvasya bhedāḥ||",
+      "source_line_start": 443,
+      "source_line_end": 443
+    },
+    {
+      "verse_id": "c_00223",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तीव्रमन्दज्ञाताज्ञात भावाधिकरण वर्यिविशेषेभ्यस्तद्विशेषः।।",
+      "sanskrit_iast": "tīvramandajñātājñāta bhāvādhikaraṇa varyiviśeṣebhyastadviśeṣaḥ||",
+      "source_line_start": 445,
+      "source_line_end": 445
+    },
+    {
+      "verse_id": "c_00224",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अधिकरणं जीवाजीवाः।।",
+      "sanskrit_iast": "adhikaraṇaṃ jīvājīvāḥ||",
+      "source_line_start": 447,
+      "source_line_end": 447
+    },
+    {
+      "verse_id": "c_00225",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "आद्यं संरम्भ समारम्भारम्भ योग कृतकारितानुमत कषायविशेषेस्त्रिस्त्रिस्त्रिश्चतुश्चैकशः।।",
+      "sanskrit_iast": "ādyaṃ saṃrambha samārambhārambha yoga kṛtakāritānumata kaṣāyaviśeṣestristristriścatuścaikaśaḥ||",
+      "source_line_start": 449,
+      "source_line_end": 449
+    },
+    {
+      "verse_id": "c_00226",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "निर्वर्तनानिक्षेपसंयोग निसर्गा द्विजतुर्द्वि्वत्रिभेदाः परम्।।",
+      "sanskrit_iast": "nirvartanānikṣepasaṃyoga nisargā dvijaturdvivatribhedāḥ param||",
+      "source_line_start": 451,
+      "source_line_end": 451
+    },
+    {
+      "verse_id": "c_00227",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तत्प्रदोष निह्रवमात्सर्यान्तरायासादनोपघाता ज्ञानदर्शनावरणयोः।।",
+      "sanskrit_iast": "tatpradoṣa nihravamātsaryāntarāyāsādanopaghātā jñānadarśanāvaraṇayoḥ||",
+      "source_line_start": 453,
+      "source_line_end": 453
+    },
+    {
+      "verse_id": "c_00228",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "दुःख शोकतापा क्रन्दन वधपरिदेवनान्यित्मपरोभयस्थान्यसद्वेघस्य।।",
+      "sanskrit_iast": "duḥkha śokatāpā krandana vadhaparidevanānyitmaparobhayasthānyasadveghasya||",
+      "source_line_start": 455,
+      "source_line_end": 455
+    },
+    {
+      "verse_id": "c_00229",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "भूतव्रत्यनुकम्पादानसराग संयमादियोगः क्षान्तिः शौचमिति सद्वेद्यस्य।।",
+      "sanskrit_iast": "bhūtavratyanukampādānasarāga saṃyamādiyogaḥ kṣāntiḥ śaucamiti sadvedyasya||",
+      "source_line_start": 457,
+      "source_line_end": 457
+    },
+    {
+      "verse_id": "c_00230",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "केवलिश्रुतसंघ धर्म देवावर्णवादो दर्शनमोहस्य।।",
+      "sanskrit_iast": "kevaliśrutasaṃgha dharma devāvarṇavādo darśanamohasya||",
+      "source_line_start": 459,
+      "source_line_end": 459
+    },
+    {
+      "verse_id": "c_00231",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "कषायोदयात्तीव्रपरिणामश्चारित्रमोहस्य।।",
+      "sanskrit_iast": "kaṣāyodayāttīvrapariṇāmaścāritramohasya||",
+      "source_line_start": 461,
+      "source_line_end": 461
+    },
+    {
+      "verse_id": "c_00232",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "बह्वारम्भपरिग्रहत्वं नारकसयायुषः।।",
+      "sanskrit_iast": "bahvārambhaparigrahatvaṃ nārakasayāyuṣaḥ||",
+      "source_line_start": 463,
+      "source_line_end": 463
+    },
+    {
+      "verse_id": "c_00233",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "मायातिर्यग्योनस्य।।",
+      "sanskrit_iast": "māyātiryagyonasya||",
+      "source_line_start": 465,
+      "source_line_end": 465
+    },
+    {
+      "verse_id": "c_00234",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अलपारम्भपरिग्रहत्वं मानुषस्य।।",
+      "sanskrit_iast": "alapārambhaparigrahatvaṃ mānuṣasya||",
+      "source_line_start": 467,
+      "source_line_end": 467
+    },
+    {
+      "verse_id": "c_00235",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "स्वभावमार्दवं चं।।",
+      "sanskrit_iast": "svabhāvamārdavaṃ caṃ||",
+      "source_line_start": 469,
+      "source_line_end": 469
+    },
+    {
+      "verse_id": "c_00236",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "निःशीलव्रतत्वं च सर्वेषाम्।।",
+      "sanskrit_iast": "niḥśīlavratatvaṃ ca sarveṣām||",
+      "source_line_start": 471,
+      "source_line_end": 471
+    },
+    {
+      "verse_id": "c_00237",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सरागसंयम संयमासंयमा काम निर्जराबालतपांसि दैवस्य।।",
+      "sanskrit_iast": "sarāgasaṃyama saṃyamāsaṃyamā kāma nirjarābālatapāṃsi daivasya||",
+      "source_line_start": 473,
+      "source_line_end": 473
+    },
+    {
+      "verse_id": "c_00238",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सम्यक्त्वं च।।",
+      "sanskrit_iast": "samyaktvaṃ ca||",
+      "source_line_start": 475,
+      "source_line_end": 475
+    },
+    {
+      "verse_id": "c_00239",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "योगवक्रता विसंवादनंचाशुभस्य नाम्नः।।",
+      "sanskrit_iast": "yogavakratā visaṃvādanaṃcāśubhasya nāmnaḥ||",
+      "source_line_start": 477,
+      "source_line_end": 477
+    },
+    {
+      "verse_id": "c_00240",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तद्विपरीतं शुभस्य।।",
+      "sanskrit_iast": "tadviparītaṃ śubhasya||",
+      "source_line_start": 479,
+      "source_line_end": 479
+    },
+    {
+      "verse_id": "c_00241",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "दर्शनविशुद्धिर्निनय सम्पन्नता शीलवव्रतेष्वनतीचारोऽभीक्ष्ण ज्ञानोपयोगसंवेगौ शक्ति तस्त्यागतपसी साधु समाधिर्वैयावृत्त्यकरण मर्हदाचार्य बहुश्रुत प्रवचन भक्ति रावश्य का परिहाणिर्मार्गं प्रभवनाप्रवचन वत्सलत्व मितितीर्थकरत्वस्य।।",
+      "sanskrit_iast": "darśanaviśuddhirninaya sampannatā śīlavavrateṣvanatīcāro'bhīkṣṇa jñānopayogasaṃvegau śakti tastyāgatapasī sādhu samādhirvaiyāvṛttyakaraṇa marhadācārya bahuśruta pravacana bhakti rāvaśya kā parihāṇirmārgaṃ prabhavanāpravacana vatsalatva mititīrthakaratvasya||",
+      "source_line_start": 481,
+      "source_line_end": 481
+    },
+    {
+      "verse_id": "c_00242",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "परात्मनिन्दा प्रशंसे सदसद्गुणोच्छादनोद्भावने च नीचैर्गौत्रस्य।।",
+      "sanskrit_iast": "parātmanindā praśaṃse sadasadguṇocchādanodbhāvane ca nīcairgautrasya||",
+      "source_line_start": 483,
+      "source_line_end": 483
+    },
+    {
+      "verse_id": "c_00243",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तद्विपर्ययो नीचैर्वृत्त्यनुत्सकौ चोत्तरस्य।।",
+      "sanskrit_iast": "tadviparyayo nīcairvṛttyanutsakau cottarasya||",
+      "source_line_start": 485,
+      "source_line_end": 485
+    },
+    {
+      "verse_id": "c_00244",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "विघ्नकरणमन्तरायस्य।।",
+      "sanskrit_iast": "vighnakaraṇamantarāyasya||",
+      "source_line_start": 487,
+      "source_line_end": 487
+    },
+    {
+      "verse_id": "c_00245",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "इति षष्ठोऽध्यायः।।",
+      "sanskrit_iast": "iti ṣaṣṭho'dhyāyaḥ||",
+      "source_line_start": 489,
+      "source_line_end": 489
+    },
+    {
+      "verse_id": "c_00246",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सप्तमोऽध्यायः",
+      "sanskrit_iast": "saptamo'dhyāyaḥ",
+      "source_line_start": 491,
+      "source_line_end": 491
+    },
+    {
+      "verse_id": "c_00247",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सप्तमोऽध्याय:",
+      "sanskrit_iast": "saptamo'dhyāya:",
+      "source_line_start": 493,
+      "source_line_end": 493
+    },
+    {
+      "verse_id": "c_00248",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "हिंसाऽनृतस्तेयाब्रह्मपरिग्रहेभ्यो विरतिर्व्रतम् |१|",
+      "sanskrit_iast": "hiṃsā'nṛtasteyābrahmaparigrahebhyo viratirvratam |1|",
+      "source_line_start": 495,
+      "source_line_end": 495
+    },
+    {
+      "verse_id": "c_00249",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "देश-सर्वतोऽणुमहती |२|",
+      "sanskrit_iast": "deśa-sarvato'ṇumahatī |2|",
+      "source_line_start": 497,
+      "source_line_end": 497
+    },
+    {
+      "verse_id": "c_00250",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तत्स्थैर्यार्थं भावना: पंच पंच |३|",
+      "sanskrit_iast": "tatsthairyārthaṃ bhāvanā: paṃca paṃca |3|",
+      "source_line_start": 499,
+      "source_line_end": 499
+    },
+    {
+      "verse_id": "c_00251",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "वाङ्मनोगुप्तीर्यादाननिक्षेपण-समित्यालोकितपान-भोजनानि पंच |४|",
+      "sanskrit_iast": "vāṅmanoguptīryādānanikṣepaṇa-samityālokitapāna-bhojanāni paṃca |4|",
+      "source_line_start": 501,
+      "source_line_end": 501
+    },
+    {
+      "verse_id": "c_00252",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "क्रोध-लोभ-भीरुत्व-हास्य-प्रत्याख्यानान्यनुवीचिभाषणं च पंच |५|",
+      "sanskrit_iast": "krodha-lobha-bhīrutva-hāsya-pratyākhyānānyanuvīcibhāṣaṇaṃ ca paṃca |5|",
+      "source_line_start": 503,
+      "source_line_end": 503
+    },
+    {
+      "verse_id": "c_00253",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "शून्यागार-विमोचितावास-परोपरोधाकरण-भैक्ष्यशुद्धि- सद्धर्माविसंवादा: पञ्च |६|",
+      "sanskrit_iast": "śūnyāgāra-vimocitāvāsa-paroparodhākaraṇa-bhaikṣyaśuddhi- saddharmāvisaṃvādā: pañca |6|",
+      "source_line_start": 505,
+      "source_line_end": 505
+    },
+    {
+      "verse_id": "c_00254",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "स्त्रीरागकथाश्रवण-तन्मनोहरांगनिरीक्षण-पूर्वरतानुस्मरण-वृष्येष्टरस-स्वशरीरसंस्कार-त्यागा: पञ्च |७|",
+      "sanskrit_iast": "strīrāgakathāśravaṇa-tanmanoharāṃganirīkṣaṇa-pūrvaratānusmaraṇa-vṛṣyeṣṭarasa-svaśarīrasaṃskāra-tyāgā: pañca |7|",
+      "source_line_start": 507,
+      "source_line_end": 507
+    },
+    {
+      "verse_id": "c_00255",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "मनोज्ञामनोज्ञेन्द्रियविषय-राग-द्वेषवर्जनानि पञ्च |८|",
+      "sanskrit_iast": "manojñāmanojñendriyaviṣaya-rāga-dveṣavarjanāni pañca |8|",
+      "source_line_start": 509,
+      "source_line_end": 509
+    },
+    {
+      "verse_id": "c_00256",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "हिंसादिष्विहामुत्रापायावद्यदर्शनम् |९|",
+      "sanskrit_iast": "hiṃsādiṣvihāmutrāpāyāvadyadarśanam |9|",
+      "source_line_start": 511,
+      "source_line_end": 511
+    },
+    {
+      "verse_id": "c_00257",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "दु:खमेव वा |१०|",
+      "sanskrit_iast": "du:khameva vā |10|",
+      "source_line_start": 513,
+      "source_line_end": 513
+    },
+    {
+      "verse_id": "c_00258",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "मैत्री-प्रमोद-कारुण्य-माध्यस्थानि च सत्त्व-गुणाधिक-क्लिश्यमानाविनेयेषु |११|",
+      "sanskrit_iast": "maitrī-pramoda-kāruṇya-mādhyasthāni ca sattva-guṇādhika-kliśyamānāvineyeṣu |11|",
+      "source_line_start": 515,
+      "source_line_end": 515
+    },
+    {
+      "verse_id": "c_00259",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "जगत्कायस्वभावौ वा संवेग-वैराग्यार्थम् |१२|",
+      "sanskrit_iast": "jagatkāyasvabhāvau vā saṃvega-vairāgyārtham |12|",
+      "source_line_start": 517,
+      "source_line_end": 517
+    },
+    {
+      "verse_id": "c_00260",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "प्रमत्तयोगात्प्राणव्यपरोपणं हिंसा |१३|",
+      "sanskrit_iast": "pramattayogātprāṇavyaparopaṇaṃ hiṃsā |13|",
+      "source_line_start": 519,
+      "source_line_end": 519
+    },
+    {
+      "verse_id": "c_00261",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "असदभिधानमनृतम् |१४|",
+      "sanskrit_iast": "asadabhidhānamanṛtam |14|",
+      "source_line_start": 521,
+      "source_line_end": 521
+    },
+    {
+      "verse_id": "c_00262",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अदत्तादानं स्तेयम् |१५|",
+      "sanskrit_iast": "adattādānaṃ steyam |15|",
+      "source_line_start": 523,
+      "source_line_end": 523
+    },
+    {
+      "verse_id": "c_00263",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "मैथुनमब्रह्म |१६|",
+      "sanskrit_iast": "maithunamabrahma |16|",
+      "source_line_start": 525,
+      "source_line_end": 525
+    },
+    {
+      "verse_id": "c_00264",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "मूर्छा परिग्रह: |१७|",
+      "sanskrit_iast": "mūrchā parigraha: |17|",
+      "source_line_start": 527,
+      "source_line_end": 527
+    },
+    {
+      "verse_id": "c_00265",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "नि:शल्यो व्रती |१८|",
+      "sanskrit_iast": "ni:śalyo vratī |18|",
+      "source_line_start": 529,
+      "source_line_end": 529
+    },
+    {
+      "verse_id": "c_00266",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अगार्यनगारश्च |१९|",
+      "sanskrit_iast": "agāryanagāraśca |19|",
+      "source_line_start": 531,
+      "source_line_end": 531
+    },
+    {
+      "verse_id": "c_00267",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अणुव्रतोऽगारी |२०|",
+      "sanskrit_iast": "aṇuvrato'gārī |20|",
+      "source_line_start": 533,
+      "source_line_end": 533
+    },
+    {
+      "verse_id": "c_00268",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "दिग्देशानर्थदण्डविरति-सामायिक-प्रोषधोपवासोपभोग-परिभोगपरिमाणातिथिसंविभागव्रत-सम्पन्नश्च |२१|",
+      "sanskrit_iast": "digdeśānarthadaṇḍavirati-sāmāyika-proṣadhopavāsopabhoga-paribhogaparimāṇātithisaṃvibhāgavrata-sampannaśca |21|",
+      "source_line_start": 535,
+      "source_line_end": 535
+    },
+    {
+      "verse_id": "c_00269",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "मारणान्तिकीं सल्लेखनां जोषिता |२२|",
+      "sanskrit_iast": "māraṇāntikīṃ sallekhanāṃ joṣitā |22|",
+      "source_line_start": 537,
+      "source_line_end": 537
+    },
+    {
+      "verse_id": "c_00270",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "शंका-कांक्षा-विचिकित्साऽन्यदृष्टिप्रशंसा-संस्तवा: सम्यग्दृष्टेरतीचारा: |२३|",
+      "sanskrit_iast": "śaṃkā-kāṃkṣā-vicikitsā'nyadṛṣṭipraśaṃsā-saṃstavā: samyagdṛṣṭeratīcārā: |23|",
+      "source_line_start": 539,
+      "source_line_end": 539
+    },
+    {
+      "verse_id": "c_00271",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "व्रतशीलेषु पञ्च पञ्च यथाक्रमम् |२४|",
+      "sanskrit_iast": "vrataśīleṣu pañca pañca yathākramam |24|",
+      "source_line_start": 541,
+      "source_line_end": 541
+    },
+    {
+      "verse_id": "c_00272",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "बन्ध-वधच्छेदातिभारारोपणान्नपाननिरोधा: |२५|",
+      "sanskrit_iast": "bandha-vadhacchedātibhārāropaṇānnapānanirodhā: |25|",
+      "source_line_start": 543,
+      "source_line_end": 543
+    },
+    {
+      "verse_id": "c_00273",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "मिथ्योपदेश-रहोभ्याख्यान-कूटलेखक्रिया-न्यासापहार-साकारमन्त्रभेदा: |२६|",
+      "sanskrit_iast": "mithyopadeśa-rahobhyākhyāna-kūṭalekhakriyā-nyāsāpahāra-sākāramantrabhedā: |26|",
+      "source_line_start": 545,
+      "source_line_end": 545
+    },
+    {
+      "verse_id": "c_00274",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "स्तेनप्रयोग-तदाहृतादान-विरुद्धराज्यातिक्रम-हीनाधिकमानोन्मान-प्रतिरूपकव्यवहारा: |२७|",
+      "sanskrit_iast": "stenaprayoga-tadāhṛtādāna-viruddharājyātikrama-hīnādhikamānonmāna-pratirūpakavyavahārā: |27|",
+      "source_line_start": 547,
+      "source_line_end": 547
+    },
+    {
+      "verse_id": "c_00275",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "परविवाहकरणेत्वरिका-परिगृहीतापरिगृहीतागमनानंगक्रीडा-कामतीव्राभिनिवेशा: |२८|",
+      "sanskrit_iast": "paravivāhakaraṇetvarikā-parigṛhītāparigṛhītāgamanānaṃgakrīḍā-kāmatīvrābhiniveśā: |28|",
+      "source_line_start": 549,
+      "source_line_end": 549
+    },
+    {
+      "verse_id": "c_00276",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "क्षेत्र-वास्तु-हिरण्य-सुवर्ण-धन-धान्य-दासी-दास-कुप्यप्रमाणातिक्रमा: |२९|",
+      "sanskrit_iast": "kṣetra-vāstu-hiraṇya-suvarṇa-dhana-dhānya-dāsī-dāsa-kupyapramāṇātikramā: |29|",
+      "source_line_start": 551,
+      "source_line_end": 551
+    },
+    {
+      "verse_id": "c_00277",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "ऊर्ध्वाधस्तिर्यग्व्यतिक्रम-क्षेत्रवृद्धि-स्मृत्यंतराधानानि |३०|",
+      "sanskrit_iast": "ūrdhvādhastiryagvyatikrama-kṣetravṛddhi-smṛtyaṃtarādhānāni |30|",
+      "source_line_start": 553,
+      "source_line_end": 553
+    },
+    {
+      "verse_id": "c_00278",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "आनयन-प्रेष्यप्रयोग-शब्द-रूपानुपात-पुद्गलक्षेपा: |३१|",
+      "sanskrit_iast": "ānayana-preṣyaprayoga-śabda-rūpānupāta-pudgalakṣepā: |31|",
+      "source_line_start": 555,
+      "source_line_end": 555
+    },
+    {
+      "verse_id": "c_00279",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "कन्दर्प-कौत्कुच्य-मौखर्या-समीक्ष्याधिकरणोपभोगपरिभोगानर्थक्यानि |३२|",
+      "sanskrit_iast": "kandarpa-kautkucya-maukharyā-samīkṣyādhikaraṇopabhogaparibhogānarthakyāni |32|",
+      "source_line_start": 557,
+      "source_line_end": 557
+    },
+    {
+      "verse_id": "c_00280",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "योग-दुष्प्रणिधानानादर-स्मृत्यनुपस्थानानि |३३|",
+      "sanskrit_iast": "yoga-duṣpraṇidhānānādara-smṛtyanupasthānāni |33|",
+      "source_line_start": 559,
+      "source_line_end": 559
+    },
+    {
+      "verse_id": "c_00281",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अप्रत्यवेक्षिताप्रमार्जितोत्सर्गादान-संस्तरोपक्रमणानादर-स्मृत्यनुपस्थानानि |३४|",
+      "sanskrit_iast": "apratyavekṣitāpramārjitotsargādāna-saṃstaropakramaṇānādara-smṛtyanupasthānāni |34|",
+      "source_line_start": 561,
+      "source_line_end": 561
+    },
+    {
+      "verse_id": "c_00282",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सचित्त-संबंध-सम्मिश्राभिषव-दु:पक्वाहारा: |३५|",
+      "sanskrit_iast": "sacitta-saṃbaṃdha-sammiśrābhiṣava-du:pakvāhārā: |35|",
+      "source_line_start": 563,
+      "source_line_end": 563
+    },
+    {
+      "verse_id": "c_00283",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सचित्तनिक्षेपापिधान- परव्यपदेश-मात्सर्यकालातिक्रमा: |३६|",
+      "sanskrit_iast": "sacittanikṣepāpidhāna- paravyapadeśa-mātsaryakālātikramā: |36|",
+      "source_line_start": 565,
+      "source_line_end": 565
+    },
+    {
+      "verse_id": "c_00284",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "जीवित-मरणाशंसा-मित्रानुराग-सुखानुबन्ध-निदानानि |३७|",
+      "sanskrit_iast": "jīvita-maraṇāśaṃsā-mitrānurāga-sukhānubandha-nidānāni |37|",
+      "source_line_start": 567,
+      "source_line_end": 567
+    },
+    {
+      "verse_id": "c_00285",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अनुग्रहार्थं स्वस्यातिसर्गो दानम् |३८|",
+      "sanskrit_iast": "anugrahārthaṃ svasyātisargo dānam |38|",
+      "source_line_start": 569,
+      "source_line_end": 569
+    },
+    {
+      "verse_id": "c_00286",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "विधि-द्रव्य-दातृ-पात्र-विशेषात्तद्विशेष: |३९|",
+      "sanskrit_iast": "vidhi-dravya-dātṛ-pātra-viśeṣāttadviśeṣa: |39|",
+      "source_line_start": 571,
+      "source_line_end": 571
+    },
+    {
+      "verse_id": "c_00287",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "।। इति तत्त्वार्थसूत्रे मोक्षशास्त्रे सप्तमोऽध्याय: ।।७।।",
+      "sanskrit_iast": "|| iti tattvārthasūtre mokṣaśāstre saptamo'dhyāya: ||7||",
+      "source_line_start": 573,
+      "source_line_end": 573
+    },
+    {
+      "verse_id": "c_00288",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अष्टमोऽध्यायः",
+      "sanskrit_iast": "aṣṭamo'dhyāyaḥ",
+      "source_line_start": 575,
+      "source_line_end": 575
+    },
+    {
+      "verse_id": "c_00289",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "हिंसाव-तस्तेयाब्रह्मपरिग्रहेभ्यौ विरतिर्व्रतम।।",
+      "sanskrit_iast": "hiṃsāva-tasteyābrahmaparigrahebhyau viratirvratama||",
+      "source_line_start": 577,
+      "source_line_end": 577
+    },
+    {
+      "verse_id": "c_00290",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "देशसर्वतोऽणुमहती।।",
+      "sanskrit_iast": "deśasarvato'ṇumahatī||",
+      "source_line_start": 579,
+      "source_line_end": 579
+    },
+    {
+      "verse_id": "c_00291",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तत्स्थैर्याथा भावनाः पाञ्च पञ्च।।",
+      "sanskrit_iast": "tatsthairyāthā bhāvanāḥ pāñca pañca||",
+      "source_line_start": 581,
+      "source_line_end": 581
+    },
+    {
+      "verse_id": "c_00292",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "वाङ्गमनोगुप्तीर्यादान निक्षेपण समित्यालोकितपान भोजनानि पंच।।",
+      "sanskrit_iast": "vāṅgamanoguptīryādāna nikṣepaṇa samityālokitapāna bhojanāni paṃca||",
+      "source_line_start": 583,
+      "source_line_end": 583
+    },
+    {
+      "verse_id": "c_00293",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "क्रोधलोभ भीरुत्व हास्य प्रत्याख्यानान्युवी चिभाषणं च पंच।।",
+      "sanskrit_iast": "krodhalobha bhīrutva hāsya pratyākhyānānyuvī cibhāṣaṇaṃ ca paṃca||",
+      "source_line_start": 585,
+      "source_line_end": 585
+    },
+    {
+      "verse_id": "c_00294",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "शून्यागार विमोचिता वासपरोधा करण भैक्षशुद्धिसमधर्माविसंवादाः पंच।।",
+      "sanskrit_iast": "śūnyāgāra vimocitā vāsaparodhā karaṇa bhaikṣaśuddhisamadharmāvisaṃvādāḥ paṃca||",
+      "source_line_start": 587,
+      "source_line_end": 587
+    },
+    {
+      "verse_id": "c_00295",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "स्त्रीराग कथा श्रवणतन्मनोहरांग निरीक्षणपूर्व रतानुसम् रण वृष्येष्ट सरस्वशरीर संस्कार त्यागाः पंच।।",
+      "sanskrit_iast": "strīrāga kathā śravaṇatanmanoharāṃga nirīkṣaṇapūrva ratānusam raṇa vṛṣyeṣṭa sarasvaśarīra saṃskāra tyāgāḥ paṃca||",
+      "source_line_start": 589,
+      "source_line_end": 589
+    },
+    {
+      "verse_id": "c_00296",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "मनोज्ञामनोत्रज्ञन्द्रिय विषय रागद्वेष वर्जनानि पंच।।",
+      "sanskrit_iast": "manojñāmanotrajñandriya viṣaya rāgadveṣa varjanāni paṃca||",
+      "source_line_start": 591,
+      "source_line_end": 591
+    },
+    {
+      "verse_id": "c_00297",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "हिंसादिष्वहामुत्रा पायावद्यदर्शनम्।।",
+      "sanskrit_iast": "hiṃsādiṣvahāmutrā pāyāvadyadarśanam||",
+      "source_line_start": 593,
+      "source_line_end": 593
+    },
+    {
+      "verse_id": "c_00298",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "दुःखमेव वा।।",
+      "sanskrit_iast": "duḥkhameva vā||",
+      "source_line_start": 595,
+      "source_line_end": 595
+    },
+    {
+      "verse_id": "c_00299",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "मैत्रीप्रमोद कारुण्यमाध्यस्थ्यानि च सत्त्वगुणाधिक क्लिश्यमानाविनयेषु।।",
+      "sanskrit_iast": "maitrīpramoda kāruṇyamādhyasthyāni ca sattvaguṇādhika kliśyamānāvinayeṣu||",
+      "source_line_start": 597,
+      "source_line_end": 597
+    },
+    {
+      "verse_id": "c_00300",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "जगत्कायस्व भावौ वा संवेग वैराग्यर्थम्।।",
+      "sanskrit_iast": "jagatkāyasva bhāvau vā saṃvega vairāgyartham||",
+      "source_line_start": 599,
+      "source_line_end": 599
+    },
+    {
+      "verse_id": "c_00301",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "प्रमत्तयोगात्प्राणव्यपरोपणं हिंसा।।",
+      "sanskrit_iast": "pramattayogātprāṇavyaparopaṇaṃ hiṃsā||",
+      "source_line_start": 601,
+      "source_line_end": 601
+    },
+    {
+      "verse_id": "c_00302",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "असदभिधानमनृतम्।।",
+      "sanskrit_iast": "asadabhidhānamanṛtam||",
+      "source_line_start": 603,
+      "source_line_end": 603
+    },
+    {
+      "verse_id": "c_00303",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अदत्तादानं स्तेयम्।।",
+      "sanskrit_iast": "adattādānaṃ steyam||",
+      "source_line_start": 605,
+      "source_line_end": 605
+    },
+    {
+      "verse_id": "c_00304",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "मैथुनमब्रह्म।।",
+      "sanskrit_iast": "maithunamabrahma||",
+      "source_line_start": 607,
+      "source_line_end": 607
+    },
+    {
+      "verse_id": "c_00305",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "मूर्च्छा परिग्रहः।।",
+      "sanskrit_iast": "mūrcchā parigrahaḥ||",
+      "source_line_start": 609,
+      "source_line_end": 609
+    },
+    {
+      "verse_id": "c_00306",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "निःशल्यो व्रती।।",
+      "sanskrit_iast": "niḥśalyo vratī||",
+      "source_line_start": 611,
+      "source_line_end": 611
+    },
+    {
+      "verse_id": "c_00307",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अगार्यनगारश्च।।",
+      "sanskrit_iast": "agāryanagāraśca||",
+      "source_line_start": 613,
+      "source_line_end": 613
+    },
+    {
+      "verse_id": "c_00308",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अणुव्रतोऽगारी।।",
+      "sanskrit_iast": "aṇuvrato'gārī||",
+      "source_line_start": 615,
+      "source_line_end": 615
+    },
+    {
+      "verse_id": "c_00309",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "दिग्देशानर्थदण्ड विरतिसामायिक प्रोष धोपवासोपभोगपरिभोगपरिमाणातिथिसंविभागव्रतसंपन्नश्च।।",
+      "sanskrit_iast": "digdeśānarthadaṇḍa viratisāmāyika proṣa dhopavāsopabhogaparibhogaparimāṇātithisaṃvibhāgavratasaṃpannaśca||",
+      "source_line_start": 617,
+      "source_line_end": 617
+    },
+    {
+      "verse_id": "c_00310",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "मारणान्तिकीं सल्लेखना जोषिता।।",
+      "sanskrit_iast": "māraṇāntikīṃ sallekhanā joṣitā||",
+      "source_line_start": 619,
+      "source_line_end": 619
+    },
+    {
+      "verse_id": "c_00311",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "शंकाकाङक्षाविचिकत्सान्यदृष्टि प्रशंसा संस्तवाः सम्यग्दृष्टेरतीचाराः।।",
+      "sanskrit_iast": "śaṃkākāṅakṣāvicikatsānyadṛṣṭi praśaṃsā saṃstavāḥ samyagdṛṣṭeratīcārāḥ||",
+      "source_line_start": 621,
+      "source_line_end": 621
+    },
+    {
+      "verse_id": "c_00312",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "व्रतशीलेषु पञ्च पञ्च यथाक्रमम्।।",
+      "sanskrit_iast": "vrataśīleṣu pañca pañca yathākramam||",
+      "source_line_start": 623,
+      "source_line_end": 623
+    },
+    {
+      "verse_id": "c_00313",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "बन्धवधच्छेदातिभारोपणान्नपाननिरोधाः।।",
+      "sanskrit_iast": "bandhavadhacchedātibhāropaṇānnapānanirodhāḥ||",
+      "source_line_start": 625,
+      "source_line_end": 625
+    },
+    {
+      "verse_id": "c_00314",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "मिथ्योपदेश रहोभ्याख्यानकूटलेखक्रिया न्यासापहार साकारमन्त्र भेदाः।।",
+      "sanskrit_iast": "mithyopadeśa rahobhyākhyānakūṭalekhakriyā nyāsāpahāra sākāramantra bhedāḥ||",
+      "source_line_start": 627,
+      "source_line_end": 627
+    },
+    {
+      "verse_id": "c_00315",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "स्तेन प्रयोगतदाह्वतादान विरुद्धराज्यातिक्रमहीनाधिक मनोन्मान प्रतिरुपक व्यवहाराः।।",
+      "sanskrit_iast": "stena prayogatadāhvatādāna viruddharājyātikramahīnādhika manonmāna pratirupaka vyavahārāḥ||",
+      "source_line_start": 629,
+      "source_line_end": 629
+    },
+    {
+      "verse_id": "c_00316",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "परविवाहक रणेत्वरिका परिगृहीता गमनानाङ्गक्रीडा कामतीव्राभिनिवेशाः।।",
+      "sanskrit_iast": "paravivāhaka raṇetvarikā parigṛhītā gamanānāṅgakrīḍā kāmatīvrābhiniveśāḥ||",
+      "source_line_start": 631,
+      "source_line_end": 631
+    },
+    {
+      "verse_id": "c_00317",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "क्षेत्रवास्तुहिरण्य सुवर्णधन धान्य दासीदास कुप्य प्रमाणतिक्रमाः।।",
+      "sanskrit_iast": "kṣetravāstuhiraṇya suvarṇadhana dhānya dāsīdāsa kupya pramāṇatikramāḥ||",
+      "source_line_start": 633,
+      "source_line_end": 633
+    },
+    {
+      "verse_id": "c_00318",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "ऊर्ध्वाधस्तिर्य ग्व्यतिक्रमःक्षेत्र वृद्धिस्मृत्यन्तराधानानि।।",
+      "sanskrit_iast": "ūrdhvādhastirya gvyatikramaḥkṣetra vṛddhismṛtyantarādhānāni||",
+      "source_line_start": 635,
+      "source_line_end": 635
+    },
+    {
+      "verse_id": "c_00319",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "आनयन प्रेष्य प्रयोग शव्दरुपानुपात पुद्गलक्षेपाः।।",
+      "sanskrit_iast": "ānayana preṣya prayoga śavdarupānupāta pudgalakṣepāḥ||",
+      "source_line_start": 637,
+      "source_line_end": 637
+    },
+    {
+      "verse_id": "c_00320",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "कन्दर्पकौत्कुच्य मौखर्यासमीक्ष्याधिकरणोपभोग परिभोगानर्थक्यानि।।",
+      "sanskrit_iast": "kandarpakautkucya maukharyāsamīkṣyādhikaraṇopabhoga paribhogānarthakyāni||",
+      "source_line_start": 639,
+      "source_line_end": 639
+    },
+    {
+      "verse_id": "c_00321",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "योगदुष्प्रणिधानानाद रस्मृत्यनुपस्थानानि।।",
+      "sanskrit_iast": "yogaduṣpraṇidhānānāda rasmṛtyanupasthānāni||",
+      "source_line_start": 641,
+      "source_line_end": 641
+    },
+    {
+      "verse_id": "c_00322",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अप्रत्यवेक्षिता प्रमार्जितोत्सर्गादानसंस्तरोपक्रमणा नादर स्मृत्यनुपस्थानानि।।",
+      "sanskrit_iast": "apratyavekṣitā pramārjitotsargādānasaṃstaropakramaṇā nādara smṛtyanupasthānāni||",
+      "source_line_start": 643,
+      "source_line_end": 643
+    },
+    {
+      "verse_id": "c_00323",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सचित्त सम्बन्धसंमिश्राभिषवदुः पक्वाहाराः।।",
+      "sanskrit_iast": "sacitta sambandhasaṃmiśrābhiṣavaduḥ pakvāhārāḥ||",
+      "source_line_start": 645,
+      "source_line_end": 645
+    },
+    {
+      "verse_id": "c_00324",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सचित्तनिक्षेपा पिधानपरव्य पदेशमात्सर्यकालातिक्रमाः।।",
+      "sanskrit_iast": "sacittanikṣepā pidhānaparavya padeśamātsaryakālātikramāḥ||",
+      "source_line_start": 647,
+      "source_line_end": 647
+    },
+    {
+      "verse_id": "c_00325",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "जीवितमरणासंसमित्रानुराग सुखानुबन्ध निदानानि।।",
+      "sanskrit_iast": "jīvitamaraṇāsaṃsamitrānurāga sukhānubandha nidānāni||",
+      "source_line_start": 649,
+      "source_line_end": 649
+    },
+    {
+      "verse_id": "c_00326",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अनुग्रहार्थ स्यस्यातिसर्गो दानम्।।",
+      "sanskrit_iast": "anugrahārtha syasyātisargo dānam||",
+      "source_line_start": 651,
+      "source_line_end": 651
+    },
+    {
+      "verse_id": "c_00327",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "विधिद्रव्यदातृपात्रविशेषात्तद्विशेषः।।",
+      "sanskrit_iast": "vidhidravyadātṛpātraviśeṣāttadviśeṣaḥ||",
+      "source_line_start": 653,
+      "source_line_end": 653
+    },
+    {
+      "verse_id": "c_00328",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "मिथ्यादर्शनाविरतिप्रमादकषाययोगा बन्धहेतवः।।",
+      "sanskrit_iast": "mithyādarśanāviratipramādakaṣāyayogā bandhahetavaḥ||",
+      "source_line_start": 655,
+      "source_line_end": 655
+    },
+    {
+      "verse_id": "c_00329",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सकषायत्वाज्जीवः कर्मणोयोग्यान् पुद्गनानादत्ते स बन्धः।।",
+      "sanskrit_iast": "sakaṣāyatvājjīvaḥ karmaṇoyogyān pudganānādatte sa bandhaḥ||",
+      "source_line_start": 657,
+      "source_line_end": 657
+    },
+    {
+      "verse_id": "c_00330",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "प्रकृतिस्थित्यनुभवप्रदेशास्तद्विधयः।।",
+      "sanskrit_iast": "prakṛtisthityanubhavapradeśāstadvidhayaḥ||",
+      "source_line_start": 659,
+      "source_line_end": 659
+    },
+    {
+      "verse_id": "c_00331",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "आद्यो ज्ञान दर्शनावरणवेदनीय मोहनीयायुर्नामगोत्रान्तरायाः।।",
+      "sanskrit_iast": "ādyo jñāna darśanāvaraṇavedanīya mohanīyāyurnāmagotrāntarāyāḥ||",
+      "source_line_start": 661,
+      "source_line_end": 661
+    },
+    {
+      "verse_id": "c_00332",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "पञ्चनवद्व्यष्टाविंशति चतुर्द्विचत्वारिंशद्द्विपञ्च भेदा यथाक्रमम्।।",
+      "sanskrit_iast": "pañcanavadvyaṣṭāviṃśati caturdvicatvāriṃśaddvipañca bhedā yathākramam||",
+      "source_line_start": 663,
+      "source_line_end": 663
+    },
+    {
+      "verse_id": "c_00333",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "मतिश्रुतावधिमनः पर्ययकेवलानाम्।।",
+      "sanskrit_iast": "matiśrutāvadhimanaḥ paryayakevalānām||",
+      "source_line_start": 665,
+      "source_line_end": 665
+    },
+    {
+      "verse_id": "c_00334",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "चक्षुरचक्षुर वधिकेवलानां निद्रा निद्रा निद्रापचला प्रचलास्त्यनगृद्धयश्च।।",
+      "sanskrit_iast": "cakṣuracakṣura vadhikevalānāṃ nidrā nidrā nidrāpacalā pracalāstyanagṛddhayaśca||",
+      "source_line_start": 667,
+      "source_line_end": 667
+    },
+    {
+      "verse_id": "c_00335",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सदसद्वेद्ये।।",
+      "sanskrit_iast": "sadasadvedye||",
+      "source_line_start": 669,
+      "source_line_end": 669
+    },
+    {
+      "verse_id": "c_00336",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "दर्शनचारित्रमोहनीया कषाय कषाय बेदनीयाख्या स्त्रिद्विनवषोडशभेदाः सम्यक्त्व मिथ्यात्वतदुभयान्य कषायकषायौ \nहास्य रत्यरतिशोक भय जुगुप्सास्त्रीपुन्नपुंसक बेदा अनन्तानुबन्ध्य प्रत्याख्यान प्रत्याख्यान संज्वलन विकल्पाश्चैकशः \nक्रोधमान माया लोभाः।।",
+      "sanskrit_iast": "darśanacāritramohanīyā kaṣāya kaṣāya bedanīyākhyā stridvinavaṣoḍaśabhedāḥ samyaktva mithyātvatadubhayānya kaṣāyakaṣāyau \nhāsya ratyaratiśoka bhaya jugupsāstrīpunnapuṃsaka bedā anantānubandhya pratyākhyāna pratyākhyāna saṃjvalana vikalpāścaikaśaḥ \nkrodhamāna māyā lobhāḥ||",
+      "source_line_start": 671,
+      "source_line_end": 673
+    },
+    {
+      "verse_id": "c_00337",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "नारकतैर्यग्योनमानुदैवानि।।",
+      "sanskrit_iast": "nārakatairyagyonamānudaivāni||",
+      "source_line_start": 675,
+      "source_line_end": 675
+    },
+    {
+      "verse_id": "c_00338",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "गतिजातिशरीराङ्गोपाङ्गनिर्माण बन्धसंघात संस्थानसंहनन स्पर्श रस गन्ध वर्णनुपूर्व्यागुरुलघूपघातपरघातातपोद्योतोच्छवास \nनिहायोगतयः प्रत्येकशरोत्रस सुभगसुस्वरशुभसूक्ष्मपर्याप्ति स्थिरादेय यशः कीर्तिसेतराणितीर्थकरत्वं च।।",
+      "sanskrit_iast": "gatijātiśarīrāṅgopāṅganirmāṇa bandhasaṃghāta saṃsthānasaṃhanana sparśa rasa gandha varṇanupūrvyāgurulaghūpaghātaparaghātātapodyotocchavāsa \nnihāyogatayaḥ pratyekaśarotrasa subhagasusvaraśubhasūkṣmaparyāpti sthirādeya yaśaḥ kīrtisetarāṇitīrthakaratvaṃ ca||",
+      "source_line_start": 677,
+      "source_line_end": 678
+    },
+    {
+      "verse_id": "c_00339",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "उच्चैनींचैश्च।।",
+      "sanskrit_iast": "uccainīṃcaiśca||",
+      "source_line_start": 680,
+      "source_line_end": 680
+    },
+    {
+      "verse_id": "c_00340",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "दानलाभोगोपभोगवीर्याणाम्।।",
+      "sanskrit_iast": "dānalābhogopabhogavīryāṇām||",
+      "source_line_start": 682,
+      "source_line_end": 682
+    },
+    {
+      "verse_id": "c_00341",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "आदितस्तिसृणामन्रायस्य च त्रिंशत्सागरोपमकोटी कोटयः परा स्थितः।।",
+      "sanskrit_iast": "āditastisṛṇāmanrāyasya ca triṃśatsāgaropamakoṭī koṭayaḥ parā sthitaḥ||",
+      "source_line_start": 684,
+      "source_line_end": 684
+    },
+    {
+      "verse_id": "c_00342",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सप्ततिरमोहनीयस्य।।",
+      "sanskrit_iast": "saptatiramohanīyasya||",
+      "source_line_start": 686,
+      "source_line_end": 686
+    },
+    {
+      "verse_id": "c_00343",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "विंशतिर्नामगोत्रयोः।।",
+      "sanskrit_iast": "viṃśatirnāmagotrayoḥ||",
+      "source_line_start": 688,
+      "source_line_end": 688
+    },
+    {
+      "verse_id": "c_00344",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "त्रयस्त्रिशत्सागरोपमाण्यायुषः।।",
+      "sanskrit_iast": "trayastriśatsāgaropamāṇyāyuṣaḥ||",
+      "source_line_start": 690,
+      "source_line_end": 690
+    },
+    {
+      "verse_id": "c_00345",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अपरा द्वादश मुहूर्त्ता वेदनीयस्य।।",
+      "sanskrit_iast": "aparā dvādaśa muhūrttā vedanīyasya||",
+      "source_line_start": 692,
+      "source_line_end": 692
+    },
+    {
+      "verse_id": "c_00346",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "नामगौत्रयोरष्टौ।।",
+      "sanskrit_iast": "nāmagautrayoraṣṭau||",
+      "source_line_start": 694,
+      "source_line_end": 694
+    },
+    {
+      "verse_id": "c_00347",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "शेषाणामन्तर्मुहर्ताः।।",
+      "sanskrit_iast": "śeṣāṇāmantarmuhartāḥ||",
+      "source_line_start": 696,
+      "source_line_end": 696
+    },
+    {
+      "verse_id": "c_00348",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "विपाकोऽनुभवः।।",
+      "sanskrit_iast": "vipāko'nubhavaḥ||",
+      "source_line_start": 698,
+      "source_line_end": 698
+    },
+    {
+      "verse_id": "c_00349",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "स यथानाम।।",
+      "sanskrit_iast": "sa yathānāma||",
+      "source_line_start": 700,
+      "source_line_end": 700
+    },
+    {
+      "verse_id": "c_00350",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "ततश्च निर्जरा।।",
+      "sanskrit_iast": "tataśca nirjarā||",
+      "source_line_start": 702,
+      "source_line_end": 702
+    },
+    {
+      "verse_id": "c_00351",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "नामप्रत्ययाः सर्वतो योग विशेषात्सूक्ष्मैकक्षेत्रावगाह स्थिताः सर्वात्म प्रदेशोष्वनन्तान्त प्रदेशाः।।",
+      "sanskrit_iast": "nāmapratyayāḥ sarvato yoga viśeṣātsūkṣmaikakṣetrāvagāha sthitāḥ sarvātma pradeśoṣvanantānta pradeśāḥ||",
+      "source_line_start": 704,
+      "source_line_end": 704
+    },
+    {
+      "verse_id": "c_00352",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सद्वेद्यशुभायुर्नामगोत्राणि पुण्यम्।।",
+      "sanskrit_iast": "sadvedyaśubhāyurnāmagotrāṇi puṇyam||",
+      "source_line_start": 706,
+      "source_line_end": 706
+    },
+    {
+      "verse_id": "c_00353",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अतोऽन्यत्पापम्।।",
+      "sanskrit_iast": "ato'nyatpāpam||",
+      "source_line_start": 708,
+      "source_line_end": 708
+    },
+    {
+      "verse_id": "c_00354",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "इत्यष्टमोऽध्यायः।।",
+      "sanskrit_iast": "ityaṣṭamo'dhyāyaḥ||",
+      "source_line_start": 710,
+      "source_line_end": 710
+    },
+    {
+      "verse_id": "c_00355",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "नवमोऽध्यायः",
+      "sanskrit_iast": "navamo'dhyāyaḥ",
+      "source_line_start": 712,
+      "source_line_end": 712
+    },
+    {
+      "verse_id": "c_00356",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "आस्रवनिरोधः संवरः।।",
+      "sanskrit_iast": "āsravanirodhaḥ saṃvaraḥ||",
+      "source_line_start": 714,
+      "source_line_end": 714
+    },
+    {
+      "verse_id": "c_00357",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "स गुप्ति समिति धर्मानुप्रेक्षापरीषहजयचारित्रैः।।",
+      "sanskrit_iast": "sa gupti samiti dharmānuprekṣāparīṣahajayacāritraiḥ||",
+      "source_line_start": 716,
+      "source_line_end": 716
+    },
+    {
+      "verse_id": "c_00358",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तपसा निर्जरा च।।",
+      "sanskrit_iast": "tapasā nirjarā ca||",
+      "source_line_start": 718,
+      "source_line_end": 718
+    },
+    {
+      "verse_id": "c_00359",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सम्यग्योग निग्रहो गुप्तिः।।",
+      "sanskrit_iast": "samyagyoga nigraho guptiḥ||",
+      "source_line_start": 720,
+      "source_line_end": 720
+    },
+    {
+      "verse_id": "c_00360",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "ईर्याभाषैषणा दान निक्षेपोत्सर्गा समितयः।।",
+      "sanskrit_iast": "īryābhāṣaiṣaṇā dāna nikṣepotsargā samitayaḥ||",
+      "source_line_start": 722,
+      "source_line_end": 722
+    },
+    {
+      "verse_id": "c_00361",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "उत्तमक्षमामार्दवार्जवसत्य शौचसंयम तपस्त्यागा किञ्चन्य ब्रह्मचर्याणि धर्मः।।",
+      "sanskrit_iast": "uttamakṣamāmārdavārjavasatya śaucasaṃyama tapastyāgā kiñcanya brahmacaryāṇi dharmaḥ||",
+      "source_line_start": 724,
+      "source_line_end": 724
+    },
+    {
+      "verse_id": "c_00362",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अनित्याशरण संसारैकत्वान्यत्वाशुच्यास्रवसंवर निर्जरा लोकबोधि दुर्लभ धर्मस्वाख्यातत्त्वानुचिन्तनमनुप्रेक्षाः।।",
+      "sanskrit_iast": "anityāśaraṇa saṃsāraikatvānyatvāśucyāsravasaṃvara nirjarā lokabodhi durlabha dharmasvākhyātattvānucintanamanuprekṣāḥ||",
+      "source_line_start": 726,
+      "source_line_end": 726
+    },
+    {
+      "verse_id": "c_00363",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "मार्गाच्यवननिर्जरार्थ परिषोढव्याः परीषहाः।।",
+      "sanskrit_iast": "mārgācyavananirjarārtha pariṣoḍhavyāḥ parīṣahāḥ||",
+      "source_line_start": 728,
+      "source_line_end": 728
+    },
+    {
+      "verse_id": "c_00364",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "क्षुत्पिपासाशीतोष्णदंशमशकनाग्न्यारतिस्त्री चर्यानिषद्याशय्या क्रोध वधयाचनालाभ रोग तृणस्पर्श मल सत्कार पुरस्कार प्रज्ञानां दर्शनानि।।",
+      "sanskrit_iast": "kṣutpipāsāśītoṣṇadaṃśamaśakanāgnyāratistrī caryāniṣadyāśayyā krodha vadhayācanālābha roga tṛṇasparśa mala satkāra puraskāra prajñānāṃ darśanāni||",
+      "source_line_start": 730,
+      "source_line_end": 730
+    },
+    {
+      "verse_id": "c_00365",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सूक्ष्मसांपरायछद्मस्थवीतरागयोश्चतुर्दश।",
+      "sanskrit_iast": "sūkṣmasāṃparāyachadmasthavītarāgayoścaturdaśa|",
+      "source_line_start": 732,
+      "source_line_end": 732
+    },
+    {
+      "verse_id": "c_00366",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "एकादश जिने।।",
+      "sanskrit_iast": "ekādaśa jine||",
+      "source_line_start": 734,
+      "source_line_end": 734
+    },
+    {
+      "verse_id": "c_00367",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "बादरसांपराये सर्वे।।",
+      "sanskrit_iast": "bādarasāṃparāye sarve||",
+      "source_line_start": 736,
+      "source_line_end": 736
+    },
+    {
+      "verse_id": "c_00368",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "ज्ञानवरणे प्रज्ञाज्ञाने।।",
+      "sanskrit_iast": "jñānavaraṇe prajñājñāne||",
+      "source_line_start": 738,
+      "source_line_end": 738
+    },
+    {
+      "verse_id": "c_00369",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "दर्शनमोहान्तराययोरदर्शनालाभौ।।",
+      "sanskrit_iast": "darśanamohāntarāyayoradarśanālābhau||",
+      "source_line_start": 740,
+      "source_line_end": 740
+    },
+    {
+      "verse_id": "c_00370",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "चारित्रमोह नाग्यानरतिस्त्रि निषद्याक्रोशयाननासत्कार पुरस्काराः।।",
+      "sanskrit_iast": "cāritramoha nāgyānaratistri niṣadyākrośayānanāsatkāra puraskārāḥ||",
+      "source_line_start": 742,
+      "source_line_end": 742
+    },
+    {
+      "verse_id": "c_00371",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "वेदनीये शेषाः।।",
+      "sanskrit_iast": "vedanīye śeṣāḥ||",
+      "source_line_start": 744,
+      "source_line_end": 744
+    },
+    {
+      "verse_id": "c_00372",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "एकादयो भाज्या युगपदेकस्मिन्नै कोनविंशतेः।।",
+      "sanskrit_iast": "ekādayo bhājyā yugapadekasminnai konaviṃśateḥ||",
+      "source_line_start": 746,
+      "source_line_end": 746
+    },
+    {
+      "verse_id": "c_00373",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सामायिकच्छेदोपस्थापना परिहार विशुद्धिसूक्ष्म सांपराय यथाख्यातमितिचारित्रम्।।",
+      "sanskrit_iast": "sāmāyikacchedopasthāpanā parihāra viśuddhisūkṣma sāṃparāya yathākhyātamiticāritram||",
+      "source_line_start": 748,
+      "source_line_end": 748
+    },
+    {
+      "verse_id": "c_00374",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अनशानावमोदर्यवृत्तिपरिसंख्यानरसपरित्यागविविक्तसय्यासनकायक्लेशा बाह्य तपः।।",
+      "sanskrit_iast": "anaśānāvamodaryavṛttiparisaṃkhyānarasaparityāgaviviktasayyāsanakāyakleśā bāhya tapaḥ||",
+      "source_line_start": 750,
+      "source_line_end": 750
+    },
+    {
+      "verse_id": "c_00375",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "प्रायश्चिविनय वैया वृत्त्यस्वाध्याय व्युत्सर्गध्यानान्युत्तरम्।।",
+      "sanskrit_iast": "prāyaścivinaya vaiyā vṛttyasvādhyāya vyutsargadhyānānyuttaram||",
+      "source_line_start": 752,
+      "source_line_end": 752
+    },
+    {
+      "verse_id": "c_00376",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "नवचतुर्दश पञ्चद्विभेदा यथाक्रमं प्रागध्यानात्।।",
+      "sanskrit_iast": "navacaturdaśa pañcadvibhedā yathākramaṃ prāgadhyānāt||",
+      "source_line_start": 754,
+      "source_line_end": 754
+    },
+    {
+      "verse_id": "c_00377",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "आलोचनप्रतिक्रमणतदुभय विवेक व्युतसर्गत पश्छेदपरिहारोपस्थापनाः।।",
+      "sanskrit_iast": "ālocanapratikramaṇatadubhaya viveka vyutasargata paśchedaparihāropasthāpanāḥ||",
+      "source_line_start": 756,
+      "source_line_end": 756
+    },
+    {
+      "verse_id": "c_00378",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "ज्ञानदर्शन चारित्रोपचाराः।।",
+      "sanskrit_iast": "jñānadarśana cāritropacārāḥ||",
+      "source_line_start": 758,
+      "source_line_end": 758
+    },
+    {
+      "verse_id": "c_00379",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "आचार्योपाध्याय तपस्विशैक्ष ग्लानगण कुल संघ साधु मनोज्ञानाम्।।",
+      "sanskrit_iast": "ācāryopādhyāya tapasviśaikṣa glānagaṇa kula saṃgha sādhu manojñānām||",
+      "source_line_start": 760,
+      "source_line_end": 760
+    },
+    {
+      "verse_id": "c_00380",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "वाचनापृच्छानानुप्रेक्षाऽऽम्नायधर्मोपदेशाः।।",
+      "sanskrit_iast": "vācanāpṛcchānānuprekṣā''mnāyadharmopadeśāḥ||",
+      "source_line_start": 762,
+      "source_line_end": 762
+    },
+    {
+      "verse_id": "c_00381",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "बाह्याभ्यन्तरोपध्योः।।",
+      "sanskrit_iast": "bāhyābhyantaropadhyoḥ||",
+      "source_line_start": 764,
+      "source_line_end": 764
+    },
+    {
+      "verse_id": "c_00382",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "उत्तमसंहननस्यैकाग्रचिन्तानिरोधो ध्यानमान्तर्मुहूर्तात्।।",
+      "sanskrit_iast": "uttamasaṃhananasyaikāgracintānirodho dhyānamāntarmuhūrtāt||",
+      "source_line_start": 766,
+      "source_line_end": 766
+    },
+    {
+      "verse_id": "c_00383",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "आर्तरौद्रधर्म्यशुक्लानि।",
+      "sanskrit_iast": "ārtaraudradharmyaśuklāni|",
+      "source_line_start": 768,
+      "source_line_end": 768
+    },
+    {
+      "verse_id": "c_00384",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "परे मोक्षहेतू।।",
+      "sanskrit_iast": "pare mokṣahetū||",
+      "source_line_start": 770,
+      "source_line_end": 770
+    },
+    {
+      "verse_id": "c_00385",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "आर्तममनोज्ञस्य साप्रयोगे तद्विप्रयोगाय स्मृतिसमन्वाहारः।।",
+      "sanskrit_iast": "ārtamamanojñasya sāprayoge tadviprayogāya smṛtisamanvāhāraḥ||",
+      "source_line_start": 772,
+      "source_line_end": 772
+    },
+    {
+      "verse_id": "c_00386",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "विपरीतं मनोज्ञस्य।।",
+      "sanskrit_iast": "viparītaṃ manojñasya||",
+      "source_line_start": 774,
+      "source_line_end": 774
+    },
+    {
+      "verse_id": "c_00387",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "वेदनायाश्च।।",
+      "sanskrit_iast": "vedanāyāśca||",
+      "source_line_start": 776,
+      "source_line_end": 776
+    },
+    {
+      "verse_id": "c_00388",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "निदानं च।।",
+      "sanskrit_iast": "nidānaṃ ca||",
+      "source_line_start": 778,
+      "source_line_end": 778
+    },
+    {
+      "verse_id": "c_00389",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तदविरतदेशविरतप्रमत्तसंयतानाम्।।",
+      "sanskrit_iast": "tadaviratadeśaviratapramattasaṃyatānām||",
+      "source_line_start": 780,
+      "source_line_end": 780
+    },
+    {
+      "verse_id": "c_00390",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "हिंसानृतस्तेय विषय संरक्षणेभ्यो रोद्रमविरतदेशविरतयोः।।",
+      "sanskrit_iast": "hiṃsānṛtasteya viṣaya saṃrakṣaṇebhyo rodramaviratadeśaviratayoḥ||",
+      "source_line_start": 782,
+      "source_line_end": 782
+    },
+    {
+      "verse_id": "c_00391",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "आज्ञापायविपाकसंस्थानविचयाय धर्म्यम्।।",
+      "sanskrit_iast": "ājñāpāyavipākasaṃsthānavicayāya dharmyam||",
+      "source_line_start": 784,
+      "source_line_end": 784
+    },
+    {
+      "verse_id": "c_00392",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "शुक्ले चाद्ये पूर्वविदः।।",
+      "sanskrit_iast": "śukle cādye pūrvavidaḥ||",
+      "source_line_start": 786,
+      "source_line_end": 786
+    },
+    {
+      "verse_id": "c_00393",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "परे केवलिनः।।",
+      "sanskrit_iast": "pare kevalinaḥ||",
+      "source_line_start": 788,
+      "source_line_end": 788
+    },
+    {
+      "verse_id": "c_00394",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "पृथक्त्वैकत्ववितर्कसूक्ष्म क्रियाप्रतिपा दिव्युपरत क्रियानिवर्तीनि।।",
+      "sanskrit_iast": "pṛthaktvaikatvavitarkasūkṣma kriyāpratipā divyuparata kriyānivartīni||",
+      "source_line_start": 790,
+      "source_line_end": 790
+    },
+    {
+      "verse_id": "c_00395",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "त्र्येक योग काययोगा योगानाम्।।",
+      "sanskrit_iast": "tryeka yoga kāyayogā yogānām||",
+      "source_line_start": 792,
+      "source_line_end": 792
+    },
+    {
+      "verse_id": "c_00396",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "एकाश्रयेसवितर्कवीचारे पूर्वे।।",
+      "sanskrit_iast": "ekāśrayesavitarkavīcāre pūrve||",
+      "source_line_start": 794,
+      "source_line_end": 794
+    },
+    {
+      "verse_id": "c_00397",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अवीचार द्वितीयम्।।",
+      "sanskrit_iast": "avīcāra dvitīyam||",
+      "source_line_start": 796,
+      "source_line_end": 796
+    },
+    {
+      "verse_id": "c_00398",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "वितर्कः श्रुतम्।।",
+      "sanskrit_iast": "vitarkaḥ śrutam||",
+      "source_line_start": 798,
+      "source_line_end": 798
+    },
+    {
+      "verse_id": "c_00399",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "वीचारोऽर्थव्यञ्जन योग संक्रान्तिः।।",
+      "sanskrit_iast": "vīcāro'rthavyañjana yoga saṃkrāntiḥ||",
+      "source_line_start": 800,
+      "source_line_end": 800
+    },
+    {
+      "verse_id": "c_00400",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "सम्यग्दृष्टि श्रावक विरतानन्त वियोजक दर्शन मोहक्षप कोपशमकोपशान्तमोहक्षपकक्षीणमोहजिनाः क्रमशोऽसंख्येय गुणनिर्जराः।।",
+      "sanskrit_iast": "samyagdṛṣṭi śrāvaka viratānanta viyojaka darśana mohakṣapa kopaśamakopaśāntamohakṣapakakṣīṇamohajināḥ kramaśo'saṃkhyeya guṇanirjarāḥ||",
+      "source_line_start": 802,
+      "source_line_end": 802
+    },
+    {
+      "verse_id": "c_00401",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "पुलाकबकुशकुशीलनिर्ग्रन्थस्नातकाः निर्गन्थाः।।",
+      "sanskrit_iast": "pulākabakuśakuśīlanirgranthasnātakāḥ nirganthāḥ||",
+      "source_line_start": 804,
+      "source_line_end": 804
+    },
+    {
+      "verse_id": "c_00402",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "संयम श्रुतप्रतिसेवना तीर्थलिंगलेश्योपपादस्थान विकल्पतः साध्याः।।",
+      "sanskrit_iast": "saṃyama śrutapratisevanā tīrthaliṃgaleśyopapādasthāna vikalpataḥ sādhyāḥ||",
+      "source_line_start": 806,
+      "source_line_end": 806
+    },
+    {
+      "verse_id": "c_00403",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "इति नवमोऽध्यायः।।",
+      "sanskrit_iast": "iti navamo'dhyāyaḥ||",
+      "source_line_start": 808,
+      "source_line_end": 808
+    },
+    {
+      "verse_id": "c_00404",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "दशमोऽध्यायः",
+      "sanskrit_iast": "daśamo'dhyāyaḥ",
+      "source_line_start": 810,
+      "source_line_end": 810
+    },
+    {
+      "verse_id": "c_00405",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "मोहक्षयाज्ज्ञान दर्शनावरणान्तरायक्षयाच्च केवलम्।।",
+      "sanskrit_iast": "mohakṣayājjñāna darśanāvaraṇāntarāyakṣayācca kevalam||",
+      "source_line_start": 812,
+      "source_line_end": 812
+    },
+    {
+      "verse_id": "c_00406",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "बन्धहेत्व भावनिर्जराभ्यां कृत्स्न कर्मविप्रमोक्षो मोक्षः।।",
+      "sanskrit_iast": "bandhahetva bhāvanirjarābhyāṃ kṛtsna karmavipramokṣo mokṣaḥ||",
+      "source_line_start": 814,
+      "source_line_end": 814
+    },
+    {
+      "verse_id": "c_00407",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "औपशमिकादिभव्यत्वानां च।",
+      "sanskrit_iast": "aupaśamikādibhavyatvānāṃ ca|",
+      "source_line_start": 816,
+      "source_line_end": 816
+    },
+    {
+      "verse_id": "c_00408",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "अन्यत्र केवल सम्यक्त्वज्ञान दर्शन सिद्धत्वेभ्यः।।",
+      "sanskrit_iast": "anyatra kevala samyaktvajñāna darśana siddhatvebhyaḥ||",
+      "source_line_start": 818,
+      "source_line_end": 818
+    },
+    {
+      "verse_id": "c_00409",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "तदनन्तरमूर्ध्वं गच्छत्यालोगन्तात्।।",
+      "sanskrit_iast": "tadanantaramūrdhvaṃ gacchatyālogantāt||",
+      "source_line_start": 820,
+      "source_line_end": 820
+    },
+    {
+      "verse_id": "c_00410",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "पूर्व प्रयोगादसंगत्वाद्बन्धच्छेदात्तथागतिपरिणामाच्च।।",
+      "sanskrit_iast": "pūrva prayogādasaṃgatvādbandhacchedāttathāgatipariṇāmācca||",
+      "source_line_start": 822,
+      "source_line_end": 822
+    },
+    {
+      "verse_id": "c_00411",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "आविद्धकुलाल चक्रबद्व्यपगतलेपालांबुवदेरण्डबीजादग्निशिखाबच्च।।",
+      "sanskrit_iast": "āviddhakulāla cakrabadvyapagatalepālāṃbuvaderaṇḍabījādagniśikhābacca||",
+      "source_line_start": 824,
+      "source_line_end": 824
+    },
+    {
+      "verse_id": "c_00412",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "धर्मास्तिकाया भावात्।।",
+      "sanskrit_iast": "dharmāstikāyā bhāvāt||",
+      "source_line_start": 826,
+      "source_line_end": 826
+    },
+    {
+      "verse_id": "c_00413",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "क्षेत्र कालगतिंलिग तीर्थ चारित्र प्रत्येकबुद्धबोधित ज्ञानावगाहनान्तरसंख्याल्पबहुत्वतः साध्याः।।",
+      "sanskrit_iast": "kṣetra kālagatiṃliga tīrtha cāritra pratyekabuddhabodhita jñānāvagāhanāntarasaṃkhyālpabahutvataḥ sādhyāḥ||",
+      "source_line_start": 828,
+      "source_line_end": 828
+    },
+    {
+      "verse_id": "c_00414",
+      "adhyaya": null,
+      "pada": null,
+      "sutra_or_verse_num": null,
+      "sanskrit_devanagari": "इति दशमोऽध्यायः।।",
+      "sanskrit_iast": "iti daśamo'dhyāyaḥ||",
+      "source_line_start": 830,
+      "source_line_end": 831
+    }
+  ],
+  "caveats": [
+    "Primary segmenter `verse_marker` recovered no structure; fell back to `prose_paragraph(fallback)`."
+  ]
+}
