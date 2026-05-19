@@ -9,3 +9,10 @@ node_modules/
 # Source tab fetches from data/sources/ (the in-repo mirror) on the live
 # site; this symlink is for local dev only.
 /materials
+
+# External-source ingest (Lane 2, 2026-05-19): bulk dumps and unpacked text
+# trees are too large to commit. The manifest, READMEs, sha256sums, and
+# pointer files live in-repo; the actual blobs live on /nas alongside.
+data/external/dcs/dump/dcs_repo/
+data/external/gretil/1_sanskr.zip
+data/external/gretil/1_sanskr/

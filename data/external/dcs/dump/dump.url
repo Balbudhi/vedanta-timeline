@@ -1,0 +1,11 @@
+repository: https://github.com/OliverHellwig/sanskrit.git
+default_branch: master
+resolved_commit: 04e0778d3dc971030229179e25eea043d06ff397
+fetched_at: 2026-05-19T23:35:00Z
+fetched_by: corpus-chat-lane2
+local_path_on_nas: /nas/ucb/eeshan/corpus_worktrees/external-ingest/data/external/dcs/dump/dcs_repo
+size_mb: 720
+notes: |
+  Shallow clone with --depth 1; .git directory removed after the clone
+  to save 344 MB. To re-pin a future run, clone the same commit hash;
+  upstream is a research repo with no tagged releases.
