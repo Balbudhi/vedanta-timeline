@@ -1,0 +1,49 @@
+{
+  "work_slug": "baladeva_govinda_bhasya",
+  "work_title_iast": "Govinda-Bhāṣya",
+  "thinker_id": "baladeva",
+  "edition": "Kṛṣṇadāsa Bābā 1965 edition (Vikrama Saṃvat 2022); Sanskrit text with Hindi anvaya and translation",
+  "year": "1965",
+  "editor": "Kṛṣṇadāsa Bābā",
+  "publisher": "Kṛṣṇadāsa Bābā / Kusum Sarovar, Vraja",
+  "language_primary": "sanskrit",
+  "secondary_languages": [
+    "hindi"
+  ],
+  "script": "devanagari",
+  "commentaries_included": [
+    "anvaya-and-Hindi-translation-by-Krsnadasa-Baba"
+  ],
+  "source_url": "https://archive.org/details/GovindaBhasya.KrsnadasBaba",
+  "source_item_id": "GovindaBhasya.KrsnadasBaba",
+  "license": "public_domain",
+  "expected_text_units": {
+    "kind": "sutras",
+    "approximate_count": 555,
+    "source_for_estimate": "Brahma-Sūtra canonical count (4 chapters × 4 pādas × variable adhikaraṇas; standard total 555)"
+  },
+  "ground_truth_available": true,
+  "ground_truth_source": "GRETIL Brahma-Sūtra mūla and Govinda-Bhāṣya Sanskrit transcriptions for spot-comparison; Bhanu Swami 2018 English (ISBN 978-1-980-71071-4) for sense-checking",
+  "first_page_visual_quality": "heavy_bleed",
+  "first_page_visual_quality_notes": "Heuristic (KB/page ~170): mid-range scan. Producer 'PDFArea Image to PDF Converter' suggests post-processed page images — typical OCR-friendliness moderate.",
+  "ocr_friendliness_notes": "Image-PDF assembled from page scans; expect standard Devanagari OCR difficulties (saṃyukta-akṣaras, mātrā-on-mātrā). Hindi anvaya rows below the Sanskrit mūla complicate line segmentation.",
+  "priority_tier": "A1",
+  "ocr_notes_phase2": "Will need column/region masking to separate Sanskrit mūla from Hindi anvaya.",
+  "downloaded_at": "2026-05-19",
+  "downloaded_by": "corpus-chat-lane3",
+  "sha256": "976aab92da7f222e7b0dec67084c4fea1de51bce3d7cec4a0f5a8391a791cfb2",
+  "size_bytes": 60145994,
+  "pdfinfo": {
+    "pages": 364,
+    "page_size": "1024.0 x 1365.0 pts",
+    "encrypted": false,
+    "linearized": null,
+    "producer": "PDFArea Image to PDF Converter Free (http://pdfarea.com)",
+    "creator": null,
+    "title": null
+  },
+  "ocr_friendliness_score": 2,
+  "ia_filename": "Govinda-bhasya.Krsnadas Baba.pdf",
+  "_acquisition_lane": "lane3-digitization-prep",
+  "_phase2_ocr_status": "not_started"
+}
