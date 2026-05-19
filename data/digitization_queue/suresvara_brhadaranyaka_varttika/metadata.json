@@ -1,0 +1,47 @@
+{
+  "work_slug": "suresvara_brhadaranyaka_varttika",
+  "work_title_iast": "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya-Vārttikam",
+  "thinker_id": "sureshvara",
+  "edition": "K.S. Āgāśe, *Bṛhadāraṇyaka-Upaniṣad-Bhāṣya-Vārttikam of Sureśvarācārya with the Śāstra-Prakāśikā of Ānandagiri*, Ānandāśrama Sanskrit Series No. 16, 3 vols., Pune, 1892–1893 (reprinted 1937). Single PDF item bundles all three volumes.",
+  "year": "1892–1893 (reprinted 1937)",
+  "editor": "K.S. Āgāśe",
+  "publisher": "Ānandāśrama Press, Pune",
+  "language_primary": "sanskrit",
+  "secondary_languages": [],
+  "script": "devanagari",
+  "commentaries_included": [
+    "Śāstra-Prakāśikā (Ānandagiri)",
+    "Śaṅkara's Bṛhadāraṇyaka-Bhāṣya (the base text Sureśvara is vārttika-ing)"
+  ],
+  "source_url": "https://archive.org/details/BrihadaranyakaBhashyaVartikam2",
+  "source_item_id": "BrihadaranyakaBhashyaVartikam2",
+  "license": "public_domain",
+  "expected_text_units": {
+    "kind": "varttikas",
+    "approximate_count": 11550,
+    "source_for_estimate": "Sureśvara's BUBV has 11,550 vārttikas (Hiriyanna count); 968-page PDF aligns"
+  },
+  "ground_truth_available": true,
+  "ground_truth_source": "A.J. Alston, *Realisation of the Absolute* (8 vols, Shanti Sadan 1989–1996) — full English vehicle, secondhand only; partial GRETIL fragments.",
+  "first_page_visual_quality": "compressed_legible",
+  "first_page_visual_quality_notes": "Heuristic (KB/page ~52): low-bitrate JPEG2000 compression — typical of Adobe Acrobat 9.0 Image Conversion archive uploads. The KB/page proxy under-reads quality here; Anandashram 1892 typesetting is renowned for clarity. Expect *legible* scan despite small file size.",
+  "ocr_friendliness_notes": "Three commentaries (Śaṅkara mūla-bhāṣya, Sureśvara vārttika, Ānandagiri ṭīkā) on a single page is the *worst* region-segmentation challenge in the priority-12. Reference: Anandashram three-column format with vārttika numbering. Will require trained layout model.",
+  "priority_tier": "A9",
+  "downloaded_at": "2026-05-19",
+  "downloaded_by": "corpus-chat-lane3",
+  "sha256": "afffa5babd27b21356027e159f62ba7bdea85e20b259b6b2c1c5a7d898831ec6",
+  "size_bytes": 49186929,
+  "pdfinfo": {
+    "pages": 968,
+    "page_size": "399.8 x 656.6 pts",
+    "encrypted": false,
+    "linearized": null,
+    "producer": "Adobe Acrobat 9.0 Image Conversion Plug-in",
+    "creator": "Adobe Acrobat 9.0",
+    "title": null
+  },
+  "ocr_friendliness_score": 1,
+  "ia_filename": "Brihadaranyaka Bhashya Vartikam 2.pdf",
+  "_acquisition_lane": "lane3-digitization-prep",
+  "_phase2_ocr_status": "not_started"
+}
