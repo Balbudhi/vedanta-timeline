@@ -1,0 +1,48 @@
+{
+  "work_slug": "vedanta_desika_shatadushani",
+  "work_title_iast": "Śatadūṣaṇī",
+  "thinker_id": "vedanta-desika",
+  "edition": "Acharya Shiv Prasad Dwivedi (ed.), *Shatadushani of Vedanta Desika*, Chaukhamba Sanskrit Pratishthan, Varanasi (Sanskrit + Hindi). Earlier vehicle: N.S. Anantakṛṣṇa Śāstrī, Sri Vani Vilas Press / Calcutta Sanskrit Series, early 20th c.",
+  "year": "unknown (modern Chaukhamba reprint)",
+  "editor": "Acharya Shiv Prasad Dwivedi (Chaukhamba)",
+  "publisher": "Chaukhamba Sanskrit Pratishthan",
+  "language_primary": "sanskrit",
+  "secondary_languages": [
+    "hindi"
+  ],
+  "script": "devanagari",
+  "commentaries_included": [],
+  "source_url": null,
+  "purchase_info": {
+    "asin": "B00KIT4Q3U",
+    "platforms": [
+      "Amazon India",
+      "Exotic India"
+    ],
+    "price_inr_range": "700-1500",
+    "alternate_sources": [
+      "Sri Vaishnavasri (Chennai)",
+      "Vānamāmalai Maṭha",
+      "Ahobila Maṭha publication wing"
+    ],
+    "indexed_ebook_check": "https://ibiblio.org/sripedia/ebooks/vdesikan/works.html — Sripedia eBook index may carry an indexed PDF; needs hand check"
+  },
+  "license": "modern_print_in_copyright",
+  "expected_text_units": {
+    "kind": "vadas",
+    "approximate_count": 66,
+    "source_for_estimate": "Śatadūṣaṇī's 'hundred refutations' (despite name, surviving manuscript = 66 vādas)"
+  },
+  "ground_truth_available": false,
+  "ground_truth_source": "No free comparator. Once acquired, the Anantakṛṣṇa Śāstrī edition is the historical text-critical reference.",
+  "_phase2_ocr_status": "blocked_no_pdf_available",
+  "_action_required": "Order Chaukhamba Dwivedi edition (Amazon ASIN B00KIT4Q3U) or Sri Vaishnavasri print copy; alternatively check Sripedia eBook index for indexed PDF.",
+  "priority_tier": "A11",
+  "downloaded_at": null,
+  "downloaded_by": "corpus-chat-lane3",
+  "sha256": null,
+  "size_bytes": null,
+  "pdfinfo": null,
+  "_acquisition_lane": "lane3-digitization-prep",
+  "_acquisition_status": "print_only_purchase_required"
+}
