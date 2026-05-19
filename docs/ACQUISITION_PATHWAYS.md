@@ -18,6 +18,7 @@ A standing caveat: archive.org PDFs of the 1880s–1930s editions (Anandāśrama
 - **Best digital source (Sanskrit + English).** Bhanu Swami's 2018 Sanskrit-with-English edition; Amazon Kindle, ISBN 978-1-980-71071-4, c. USD 10.
 - **Cost.** Free PDF; print c. USD 10–25.
 - **Verdict.** Immediately downloadable.
+- **Status (2026-05-19, lane3).** `pdf_acquired` — `/nas/ucb/eeshan/digitization_queue/baladeva_govinda_bhasya/source.pdf` (60.1 MB, 364 pp, sha256 `976aab92…`); metadata.json complete.
 
 ### A.2. Bhāskara — *Brahma-Sūtra-Bhāṣya*
 
@@ -26,6 +27,7 @@ A standing caveat: archive.org PDFs of the 1880s–1930s editions (Anandāśrama
 - **Best digital source (free).** Archive.org item `BrahmaSutraBhashyaOfBhaskarNos.70185209Year1915ChowkhambaSanskritSeries` — the complete Chowkhamba edition, free PDF, c. 73 MB.
 - **Reprint in print.** Chaukhamba Sanskrit Pratishthan reprints periodically; mlbd.in and chaukhamba.com normally list it for c. INR 1,500–2,500.
 - **Verdict.** Immediately downloadable.
+- **Status (2026-05-19, lane3).** `pdf_acquired` — `/nas/ucb/eeshan/digitization_queue/bhaskara_brahma_sutra_bhasya/source.pdf` (76.7 MB, 268 pp, sha256 `a02e4616…`); metadata.json complete.
 
 ### A.3. Citsukha — *Tattva-Pradīpikā* (Cit-Sukhī)
 
@@ -34,6 +36,7 @@ A standing caveat: archive.org PDFs of the 1880s–1930s editions (Anandāśrama
 - **Best digital source (free).** Archive.org item `SKEw_tattva-pradipika-chitsukhi-of-chitsukhacharya-with-commentary-nayana-prasadini-b` — Nirṇayasāgara 1931 edition, full PDF.
 - **Cost.** Free PDF; Chaukhamba reprint c. INR 1,200.
 - **Verdict.** Immediately downloadable.
+- **Status (2026-05-19, lane3).** `pdf_acquired` — `/nas/ucb/eeshan/digitization_queue/citsukha_tattva_pradipika/source.pdf` (230.6 MB, 412 pp, sha256 `cba78727…`); metadata.json complete; clean high-DPI scan.
 
 ### A.4. Jayatīrtha — *Tattva-Prakāśikā* on Madhva's BSB
 
@@ -43,6 +46,7 @@ A standing caveat: archive.org PDFs of the 1880s–1930s editions (Anandāśrama
 - **Print purchase.** Pūrṇaprajña Vidyāpīṭha bookstall (Bangalore — `pejawaravishwa.org/ppvp/`); Akhila Bhāratīya Mādhva Mahā Maṇḍala (Udupi).
 - **Cost.** Free PDF; Panchamukhi 4-vol set rare on the secondhand market, INR 4,000–8,000.
 - **Verdict.** Free PDF available, but verify edition.
+- **Status (2026-05-19, lane3).** `pdf_pending_edition_id` — PDF downloaded to `/nas/ucb/eeshan/digitization_queue/jayatirtha_tattva_prakashika/source.pdf` (922 KB, 328 pp, sha256 `2c441bb1…`). File size and `Acrobat Distiller 8.0.0` producer strongly suggest a *born-digital text PDF*, not a scan; edition still not stated on the archive.org metadata page. Visual inspection and edition identification queued for human review before any quotation can be made. Metadata.json flagged `edition_verification_required: true`.
 
 ### A.5. Madhusūdana Sarasvatī — *Gūḍhārtha-Dīpikā* on the Gītā
 
@@ -52,6 +56,7 @@ A standing caveat: archive.org PDFs of the 1880s–1930s editions (Anandāśrama
 - **Print purchase.** Advaita Ashrama (`shop.advaitaashrama.org`) c. INR 600. Vedanta Press (Hollywood) carries the Gambhirananda edition.
 - **Cost.** Free PDF; print c. USD 15.
 - **Verdict.** Immediately downloadable; the Gambhirananda PDF is the citable scholarly text.
+- **Status (2026-05-19, lane3).** `pdf_acquired` — `/nas/ucb/eeshan/digitization_queue/madhusudana_gudhartha_dipika/source.pdf` (501.9 MB, 1052 pp, sha256 `4b279eb6…`); Gambhirananda Sanskrit+English; metadata.json complete; clean high-DPI scan.
 
 ### A.6. Madhva — *Gītā-Bhāṣya*
 
@@ -61,6 +66,7 @@ A standing caveat: archive.org PDFs of the 1880s–1930s editions (Anandāśrama
 - **Print purchase.** `madhwakart.com` lists the Sarvamūla complete set.
 - **Cost.** Free PDF; complete print set c. INR 8,000–15,000.
 - **Verdict.** Immediately downloadable via the Madhwapracharavedike index.
+- **Status (2026-05-19, lane3).** `pdf_pending_volume_id` — not downloaded. Madhwapracharavedike index (`sites.google.com/view/madhwapracharavedike/dvaita-scanned-books`) is the entry point; the *Sūtra-Prasthānam / Gītā-Prasthānam* sub-volume of Bannañje's Sarvamūla is the bearer. Candidate items inspected (`Prasthanathrayi-UpanishathPrashthana` = wrong sub-volume; `SankirnaGranthah` = wrong sub-volume; `SriBhagavataTatparyaNirnayaEBook` = wrong sub-volume). Specific Gītā-Prasthānam archive.org item id remains to be identified by hand. Skeleton metadata.json with `_phase2_ocr_status: blocked_pdf_pending_volume_id` written.
 
 ### A.7. Madhva — *Gītā-Tātparya-Nirṇaya*
 
@@ -69,6 +75,7 @@ A standing caveat: archive.org PDFs of the 1880s–1930s editions (Anandāśrama
 - **Best digital source (free).** Archive.org item `anandatirthabhagavatpadacharyavirachitahgitatatparyanirnayaheditedbydprahladachar1987` — the Prahlādācar 1987 edition, full PDF. Also `gitatatparya-nirnaya-sri-madhvacharya-d.-prahladachar` and `geeta-bhashya-tatparya-nirnaya-by-madhvacharya` (Nagesh D. Sonde, Sanskrit + English).
 - **Cost.** Free PDF; print rare.
 - **Verdict.** Immediately downloadable; the 1987 Prahlādācar PDF is the citable scholarly text.
+- **Status (2026-05-19, lane3).** `pdf_acquired` — `/nas/ucb/eeshan/digitization_queue/madhva_gita_tatparya_nirnaya/source.pdf` (10.7 MB, 371 pp, sha256 `9b7e8f5a…`); producer `PDFsharp 1.50.4589` and low KB/page proxy suggest born-digital or near-text PDF; metadata.json complete.
 
 ### A.8. Madhva — *Nyāya-Vivaraṇa*
 
@@ -77,6 +84,7 @@ A standing caveat: archive.org PDFs of the 1880s–1930s editions (Anandāśrama
 - **Best digital source (free).** Best entry-point is the Madhwapracharavedike index (`sites.google.com/view/madhwapracharavedike/dvaita-scanned-books`); the *Sūtra-Prasthānam* volume of the Bannañje set is the bearer. Verify which sub-volume.
 - **Cost.** Free PDF (within the Sarvamūla set on archive.org); print c. INR 1,500 standalone.
 - **Verdict.** Locatable but identification of the specific volume must be done by hand.
+- **Status (2026-05-19, lane3).** `pdf_pending_volume_id` — same Sūtra-Prasthānam sub-volume identification as A.6; co-located in Bannañje's Sarvamūla and to be acquired in the same operation. Skeleton metadata.json with `_phase2_ocr_status: blocked_pdf_pending_volume_id` written.
 
 ### A.9. Sureśvara — *Bṛhadāraṇyaka-Bhāṣya-Vārttika*
 
@@ -86,6 +94,7 @@ A standing caveat: archive.org PDFs of the 1880s–1930s editions (Anandāśrama
 - **English vehicle.** A.J. Alston, *Sureśvara's Vārttika on the Bṛhadāraṇyaka* (8 vols of his *Realisation of the Absolute*, Shanti Sadan, London, 1989–1996); secondhand only — abebooks.co.uk c. GBP 250–400 per set.
 - **Cost.** Free PDF; in print Chaukhamba reprint c. INR 3,500 (set of 2 vols, Exotic India listing).
 - **Verdict.** Immediately downloadable.
+- **Status (2026-05-19, lane3).** `pdf_acquired` — `/nas/ucb/eeshan/digitization_queue/suresvara_brhadaranyaka_varttika/source.pdf` (49.2 MB, 968 pp, sha256 `afffa5ba…`); Anandashram three-volume bundle; the small KB/page is a compression artefact (Adobe Acrobat 9.0 Image Conversion), not a degraded scan; expected legible. Three-text layout (Śaṅkara mūla + Sureśvara vārttika + Ānandagiri ṭīkā) flagged as a region-segmentation challenge for Phase 2 OCR.
 
 ### A.10. Sureśvara — *Taittirīya-Bhāṣya-Vārttika*
 
@@ -94,6 +103,7 @@ A standing caveat: archive.org PDFs of the 1880s–1930s editions (Anandāśrama
 - **English vehicle.** R. Balasubramanian, *The Taittirīyopaniṣad-Bhāṣya-Vārttika of Sureśvara*, Centre for Advanced Study in Philosophy, University of Madras, 1974; PDF on `centreforbrahmavidya.org/files/books/TaittiriyaUpanishadBhashyaVartika.pdf` and on archive.org `taittiriyavartika`.
 - **Cost.** Free PDF.
 - **Verdict.** Immediately downloadable; the 1889 Anandashram PDF is the citable Sanskrit; Balasubramanian is the citable English.
+- **Status (2026-05-19, lane3).** `pdf_acquired` — `/nas/ucb/eeshan/digitization_queue/suresvara_taittiriya_varttika/source.pdf` (204.0 MB, 225 pp, sha256 `3e580569…`); clean high-DPI scan; recommended Phase 2 development target ahead of BUBV (same layout challenge, smaller corpus, cleaner scan).
 
 ### A.11. Vedānta-Deśika — *Śatadūṣaṇī*
 
@@ -103,6 +113,7 @@ A standing caveat: archive.org PDFs of the 1880s–1930s editions (Anandāśrama
 - **Print purchase.** Chaukhamba Sanskrit Pratishthan / Acharya Shiv Prasad Dwivedi edition, ASIN B00KIT4Q3U, listed on Amazon and Exotic India; INR 700–1,200. Sri Vaishnavasri (Chennai) and Vānamāmalai Maṭha occasionally print run.
 - **Cost.** Print INR 1,000–1,500; secondhand Anantakṛṣṇa Śāstrī rare.
 - **Verdict.** Almost certainly purchasable in print but not yet found as a free PDF; recommend ordering the Dwivedi Chaukhamba edition or scanning Sripedia for an indexed eBook.
+- **Status (2026-05-19, lane3).** `print_only` — no PDF download. Purchase Acharya Shiv Prasad Dwivedi Chaukhamba edition (Amazon ASIN B00KIT4Q3U, c. INR 700–1,500) or scan Sripedia eBook index (`https://ibiblio.org/sripedia/ebooks/vdesikan/works.html`) for an indexed PDF. Skeleton metadata.json with `_phase2_ocr_status: blocked_no_pdf_available` and full purchase_info block written.
 
 ### A.12. Vidyāraṇya — *Vivaraṇa-Prameya-Saṅgraha*
 
@@ -112,12 +123,51 @@ A standing caveat: archive.org PDFs of the 1880s–1930s editions (Anandāśrama
 - **Print purchase.** Chaukhamba reprint via Exotic India, ISBN 9788172701611, c. INR 600.
 - **Cost.** Free PDF.
 - **Verdict.** Immediately downloadable. The 2005 Dvivedī PDF is materially better than the 1893 archive currently on disk and should replace the existing degraded file as the citable Sanskrit text.
+- **Status (2026-05-19, lane3).** `pdf_acquired` — `/nas/ucb/eeshan/digitization_queue/vidyaranya_vivarana_prameya_sangraha/source.pdf` (504.3 MB, 946 pp, sha256 `e8a78ca5…`); 2005 Dvivedī critical edition; clean high-DPI scan; flagged as the priority replacement target per §C.1.
+
+---
+
+## §A status summary (lane3, 2026-05-19)
+
+| Priority | Work | Status |
+|----------|------|--------|
+| A.1 | Baladeva *Govinda-Bhāṣya* | `pdf_acquired` |
+| A.2 | Bhāskara *Brahma-Sūtra-Bhāṣya* | `pdf_acquired` |
+| A.3 | Citsukha *Tattva-Pradīpikā* | `pdf_acquired` |
+| A.4 | Jayatīrtha *Tattva-Prakāśikā* | `pdf_pending_edition_id` |
+| A.5 | Madhusūdana *Gūḍhārtha-Dīpikā* | `pdf_acquired` |
+| A.6 | Madhva *Gītā-Bhāṣya* | `pdf_pending_volume_id` |
+| A.7 | Madhva *Gītā-Tātparya-Nirṇaya* | `pdf_acquired` |
+| A.8 | Madhva *Nyāya-Vivaraṇa* | `pdf_pending_volume_id` |
+| A.9 | Sureśvara *Bṛhadāraṇyaka-Vārttika* | `pdf_acquired` |
+| A.10 | Sureśvara *Taittirīya-Vārttika* | `pdf_acquired` |
+| A.11 | Vedānta-Deśika *Śatadūṣaṇī* | `print_only` |
+| A.12 | Vidyāraṇya *Vivaraṇa-Prameya-Saṃgraha* | `pdf_acquired` |
+
+Acquired count: 8 / 12 (1.6 GB total). Pending hand-identification: 3 (A.4, A.6, A.8). Print-only: 1 (A.11). PDFs at `/nas/ucb/eeshan/digitization_queue/<slug>/source.pdf`; metadata.json per work at `data/digitization_queue/<slug>/metadata.json` in this repo.
 
 ---
 
 ## §B. The Broader 267 Texts — Categorial Acquisition Plan
 
 Rather than enumerate 267 individual records I group the bulk into ten categorial baskets. For each, the institutional point of contact that holds the largest fraction is identified, with the digital surrogate where one exists.
+
+**Inventory status (2026-05-19, lane3).** A machine-readable inventory of the named §B texts is at `data/digitization_queue_267.json` in this repo (66 named texts across the 10 baskets; priority buckets P0/P1/P2 assigned by cross-reference with `data/thinkers/*.json` `engaged_works`). §B prose names ~57 texts directly; my inventory adds 9 more by basket-level extrapolation and tags each with `acquisition_status` (`free_pdf_available` / `register_required` / `print_purchase_required` / `manuscript_only`). The remaining ~210 texts under the 267 total are subsumed under basket-level "etc." and require individual library-catalogue harvest (Muktabodha registration, Adyar Library Series catalogue scrape, Madhwapracharavedike index enumeration); these are queued for follow-up. Per-basket status summarized below.
+
+| Basket | Named texts | Primary access route | Acquisition status |
+|--------|-------------|----------------------|--------------------|
+| B.1 Madhva Sarvamūla remaining | 7 | Madhwapracharavedike index | `free_pdf_available` (index nav required) |
+| B.2 Jayatīrtha / Vyāsatīrtha | 7 | PPSM Bangalore; harshala_rajesh uploader | Mixed; 3 direct PDFs, 4 search-required |
+| B.3 Tenkaḷai Maṇipravāḷa | 5 | EFEO Pondicherry | `manuscript_only` (4); `free_pdf_available` (1: Rahasya-Traya-Sāra on disk) |
+| B.4 Pāñcarātra Saṃhitās | 9 | Adyar Library; Tirupati RSV | Mixed; 4 direct PDFs, 5 print-or-search |
+| B.5 Kashmir Śaiva (KSTS) | 10 | Muktabodha (75 KSTS volumes) | `register_required` (9); on-disk (1: Īśvara-Pratyabhijñā) |
+| B.6 Śaiva-Siddhānta Āgamas | 9 | IFP Pondicherry / Muktabodha | `register_required` (all) |
+| B.7 Śrīvidyā / Tripurā | 4 | Adyar; Sampurnanand | `register_required` / `partial_coverage` |
+| B.8 Pāśupata | 1 | Trivandrum Sanskrit Series CXLIII | `free_pdf_available` (direct URL) |
+| B.9 Caitanya-Vaiṣṇava beyond Jīva | 4 | vidyabhusanaproject uploader; BBT | `free_pdf_available` (1 direct, 3 uploader-search) |
+| B.10 Smārta-Advaita lateral | 9 | Ambuda; Sringeri; archive.org | Mostly `free_pdf_available` (search-required) |
+
+
 
 ### B.1. Madhva *Sarvamūla-Granthāḥ* — the remaining 30+ titles
 *Daśa-Prakaraṇa* (10 short polemical tracts), *Tantra-Sāra-Saṅgraha*, *Yati-Praṇava-Kalpa*, *Mahābhārata-Tātparya-Nirṇaya* (already partly on disk), *Bhāgavata-Tātparya-Nirṇaya*, *Anu-Vyākhyāna* (already on disk), the ten Upaniṣad-Bhāṣyas, etc. **Single point of access:** Bannañje Govindācārya's *Sarvamūla-Granthāḥ* (Akhila Bhāratīya Mādhva Mahā Maṇḍala, Udupi). **Digital:** the Madhwapracharavedike index (`sites.google.com/view/madhwapracharavedike/dvaita-scanned-books`) collects the archive.org uploads of the entire set across nine archive.org items. **Action:** systematic batch download of the nine Sarvamūla volumes; inventory their per-title contents against the 267 list.
