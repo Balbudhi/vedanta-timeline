@@ -1,19 +1,23 @@
 /* =============================================================
    Koi Hor Nahi Hai Mera — song data + render
    -------------------------------------------------------------
-   LINES: every distinct line of the song, keyed by id.
-   Edit the `english` field freely — the refrain (and any
-   line repeated by reference) updates everywhere at once.
-   `words` is the word-by-word breakdown shown on click; the
-   `roman` field of each word must match a substring of the
-   line's roman text (case-insensitive) so the hover-highlight
-   can find it.
+   LINES: every distinct line of the song, keyed by id. Edit the
+   `english` string to revise a translation; refs in SEQUENCE
+   propagate (the refrain is stored once and re-used).
+
+   English markup format:
+     {N:phrase}  or  {N,M:phrase}
+   Each {N:…} marks `phrase` as the English rendering of the
+   word at index N in `words` (0-indexed). Hovering that word in
+   the Romanized line highlights the matching English span (and
+   shows the gloss in a tooltip). Phrases without {N:…} are
+   plain text. Multiple word indices may share a phrase.
    ============================================================= */
 
 const LINES = {
   invocation: {
     roman: "Maa meri sachiyaan jota wali maata, teri sada hi jai",
-    english: "My Mother, O Mother of the true sacred flames — may victory always be Yours.",
+    english: "{1:My} {0:Mother}, {5:O Mother} {4:of} the {2:true sacred} {3:flames} — may {8:victory} {7:always} be {6:Yours}.",
     words: [
       { roman: "Maa",        gloss: "Mother" },
       { roman: "meri",       gloss: "my" },
@@ -24,13 +28,12 @@ const LINES = {
       { roman: "teri",       gloss: "Your" },
       { roman: "sada hi",    gloss: "always" },
       { roman: "jai",        gloss: "victory, glory, praise" }
-    ],
-    note: "Addressed to the Goddess as bearer of the sacred flame (jyotī̃-wālī mātā) — Vaishno Devi / Jwala Ji / Shakta register."
+    ]
   },
 
   refrain: {
     roman: "Main ladd phadya ae tera, koi hor nahi ae mera",
-    english: "I have held onto Your hem; I have no one else but You.",
+    english: "{0:I} {3:have} {2:held onto} {4:Your} {1:hem}; {6:I have no} {5:one else} {7:but You}.",
     words: [
       { roman: "Main",     gloss: "I" },
       { roman: "ladd",     gloss: "hem / edge of the garment (the pallu)" },
@@ -40,25 +43,23 @@ const LINES = {
       { roman: "koi hor",  gloss: "anyone else" },
       { roman: "nahi ae",  gloss: "there is not" },
       { roman: "mera",     gloss: "mine, belonging to me" }
-    ],
-    note: "Not abstract faith — a child physically clutching the Mother's garment-edge."
+    ]
   },
 
   v1a: {
     roman: "Asi saah chhad jaavange",
-    english: "We will eventually let go of our breath.",
+    english: "{0:We} {3:will} eventually {2:let go} of our {1:breath}.",
     words: [
       { roman: "Asi",        gloss: "we" },
       { roman: "saah",       gloss: "breath" },
       { roman: "chhad",      gloss: "leaving, releasing" },
       { roman: "jaavange",   gloss: "will go (future, 1pl.)" }
-    ],
-    note: "i.e. ‘we will die.’"
+    ]
   },
 
   v1b: {
     roman: "Pher baajaa maaroge, asi mud nahiyo aavange",
-    english: "Then You will call out to us, but we will not return.",
+    english: "{0:Then} {2:You will} {1:call out} to us, but {3:we} {6:will} {5:not} {4:return}.",
     words: [
       { roman: "Pher",       gloss: "then, afterwards" },
       { roman: "baajaa",     gloss: "calls, cries (vocative summons)" },
@@ -67,13 +68,12 @@ const LINES = {
       { roman: "mud",        gloss: "back, again" },
       { roman: "nahiyo",     gloss: "not (emphatic negation)" },
       { roman: "aavange",    gloss: "will come" }
-    ],
-    note: "‘bāj māranā’ = to call out / summon. Devotional paradox: ‘call me now, before death.’"
+    ]
   },
 
   v2a: {
     roman: "Is zindagi ton ki laina, maa",
-    english: "What is there to gain from this life anyway, Mother?",
+    english: "{3:What} {4:is there to gain} {2:from} {0:this} {1:life} anyway, {5:Mother}?",
     words: [
       { roman: "Is",         gloss: "this" },
       { roman: "zindagi",    gloss: "life" },
@@ -86,20 +86,19 @@ const LINES = {
 
   v2b: {
     roman: "Darshan na hoya, pher jee ke ki laina",
-    english: "If I do not get to see You, what is the point of living?",
+    english: "If I {1:do not get} to {0:see You}, {4:what is the point} {3:of living}?",
     words: [
       { roman: "Darshan",    gloss: "sacred sight; reciprocal seeing of the deity" },
       { roman: "na hoya",    gloss: "did not happen / has not occurred" },
       { roman: "pher",       gloss: "then" },
       { roman: "jee ke",     gloss: "by living" },
       { roman: "ki laina",   gloss: "what is there to gain" }
-    ],
-    note: "Darśan is not mere seeing — it is mutual presence: the devotee sees the deity and is seen."
+    ]
   },
 
   v3a: {
     roman: "Asi dar tere aavange",
-    english: "We will come to Your door just like this.",
+    english: "{0:We} {3:will come} to {2:Your} {1:door} just like this.",
     words: [
       { roman: "Asi",        gloss: "we" },
       { roman: "dar",        gloss: "door, threshold, court (shrine)" },
@@ -110,7 +109,7 @@ const LINES = {
 
   v3b: {
     roman: "Saun apni paavegi, tainu chhad ke na jaavange",
-    english: "Even if You make us swear on our own lives, we will not leave You.",
+    english: "Even if {2:You make us} {0:swear} on {1:our own} lives, we {5:will not} {4:leave} {3:You}.",
     words: [
       { roman: "Saun",       gloss: "oath" },
       { roman: "apni",       gloss: "(Your) own" },
@@ -123,7 +122,7 @@ const LINES = {
 
   v4a: {
     roman: "Eh zindagi teri ae, maa",
-    english: "This life is already Yours, Mother.",
+    english: "{0:This} {1:life} {3:is} already {2:Yours}, {4:Mother}.",
     words: [
       { roman: "Eh",         gloss: "this" },
       { roman: "zindagi",    gloss: "life" },
@@ -135,7 +134,7 @@ const LINES = {
 
   v4b: {
     roman: "Kado pheraa aa jaave, is mitti di dheri ae",
-    english: "Who knows when the final call will come? This body is just a pile of dust.",
+    english: "{0:Who knows when} {1:the final call} {2:will come}? {3:This} body {7:is} just a {6:pile} {5:of} {4:dust}.",
     words: [
       { roman: "Kado",       gloss: "when (who knows when)" },
       { roman: "pheraa",     gloss: "turn, cycle, summons" },
@@ -145,13 +144,12 @@ const LINES = {
       { roman: "di",         gloss: "of" },
       { roman: "dheri",      gloss: "heap, pile" },
       { roman: "ae",         gloss: "is" }
-    ],
-    note: "‘miṭṭī dī ḍherī’ — a heap of dust. Stark mortality imagery."
+    ]
   },
 
   v5a: {
     roman: "Tere charna ch reh laange",
-    english: "We will just stay at Your feet.",
+    english: "{3:We will just stay} {2:at} {0:Your} {1:feet}.",
     words: [
       { roman: "Tere",       gloss: "Your" },
       { roman: "charna",     gloss: "feet (sacred, oblique plural)" },
@@ -162,7 +160,7 @@ const LINES = {
 
   v5b: {
     roman: "Tu saanu maaf kar deyi, asi hass ke seh laange",
-    english: "Forgive us, and we will endure everything with a smile.",
+    english: "{2:Forgive} {1:us}, and {3:we} {5:will endure} everything {4:with a smile}.",
     words: [
       { roman: "Tu",         gloss: "You" },
       { roman: "saanu",      gloss: "us (dative)" },
@@ -175,7 +173,7 @@ const LINES = {
 
   v6a: {
     roman: "Tera ho ke main aavanga, maa",
-    english: "I will come back belonging only to You, Mother.",
+    english: "{2:I} {3:will come back} {1:belonging} only {0:to You}, {4:Mother}.",
     words: [
       { roman: "Tera",       gloss: "Yours" },
       { roman: "ho ke",      gloss: "having become" },
@@ -187,7 +185,7 @@ const LINES = {
 
   v6b: {
     roman: "Tu vi pher rovengi, je chhad tainu jaavanga",
-    english: "Even You will cry then, if I ever leave You.",
+    english: "{0:Even You} {2:will cry} {1:then}, {3:if} {6:I} ever {4:leave} {5:You}.",
     words: [
       { roman: "Tu vi",      gloss: "You too" },
       { roman: "pher",       gloss: "then" },
@@ -196,13 +194,12 @@ const LINES = {
       { roman: "chhad",      gloss: "leaving" },
       { roman: "tainu",      gloss: "You (acc.)" },
       { roman: "jaavanga",   gloss: "I go (1sg. fut.)" }
-    ],
-    note: "Bhakti intimacy: the devotee imagines mutual emotional dependence with the deity."
+    ]
   },
 
   v7a: {
     roman: "Tere reham bathere ne, maa",
-    english: "Your mercies are countless, Mother.",
+    english: "{0:Your} {1:mercies} {3:are} {2:countless}, {4:Mother}.",
     words: [
       { roman: "Tere",       gloss: "Your" },
       { roman: "reham",      gloss: "mercies, graces" },
@@ -214,7 +211,7 @@ const LINES = {
 
   v7b: {
     roman: "Khushiya dikha de vi maa, nahi te hanju bathere ne",
-    english: "Show us happiness, Mother, otherwise there are so many tears.",
+    english: "{1:Show} us {0:happiness}, {3:Mother}, {4:otherwise} there {6:are so many} {5:tears}.",
     words: [
       { roman: "Khushiya",   gloss: "joys, happiness" },
       { roman: "dikha de",   gloss: "show (imperative)" },
@@ -228,7 +225,7 @@ const LINES = {
 
   v8a: {
     roman: "Asi pher vi nahi bolange, maa",
-    english: "Even then, we will not say a word of complaint, Mother.",
+    english: "{1:Even then}, {0:we} {2:will not say a word of complaint}, {3:Mother}.",
     words: [
       { roman: "Asi",        gloss: "we" },
       { roman: "pher vi",    gloss: "even then, still" },
@@ -239,7 +236,7 @@ const LINES = {
 
   v8b: {
     roman: "Ikk vaari dass te jaa, dukh kihde agge pholange",
-    english: "Just tell us once, who else is there to share our sorrows with?",
+    english: "{2:Just} {1:tell} us {0:once}, {4:who else} {5:is there to share} {3:our sorrows} with?",
     words: [
       { roman: "Ikk vaari",  gloss: "just once" },
       { roman: "dass",       gloss: "tell" },
@@ -247,13 +244,12 @@ const LINES = {
       { roman: "dukh",       gloss: "sorrows, pains" },
       { roman: "kihde agge", gloss: "before whom" },
       { roman: "pholange",   gloss: "will unfurl, open out" }
-    ],
-    note: "‘pholṇā’ = to spread/unfold something out — here, to open one's heart."
+    ]
   },
 
   outro1: {
     roman: "Eh likh ke main jaavanga, maa",
-    english: "I will leave this world writing these very words, Mother:",
+    english: "{2:I} {3:will leave this world} {1:writing} {0:these very words}, {4:Mother}:",
     words: [
       { roman: "Eh",         gloss: "this" },
       { roman: "likh ke",    gloss: "having written" },
@@ -265,7 +261,7 @@ const LINES = {
 
   outro2: {
     roman: "Agle janam vi maa, tera putt kahavanga",
-    english: "Even in my next life, Mother, I will be called Your son.",
+    english: "{1:Even} in my {0:next life}, {2:Mother}, {5:I will be called} {3:Your} {4:son}.",
     words: [
       { roman: "Agle janam", gloss: "in the next birth" },
       { roman: "vi",         gloss: "also, even" },
@@ -278,7 +274,7 @@ const LINES = {
 
   closing: {
     roman: "Koi hor nahi ae mera",
-    english: "I have no one else but You.",
+    english: "{1:I have no} {0:one else} {2:but You}.",
     words: [
       { roman: "Koi hor",    gloss: "anyone else" },
       { roman: "nahi ae",    gloss: "is not" },
@@ -351,29 +347,41 @@ function escapeHtml(s) {
   }[c]));
 }
 
-/* Tokenize the roman line into <span class="w">…</span> spans,
-   matching each word entry to its position in the line so hover
-   can link the span to its breakdown row. Multi-word tokens
-   ("koi hor", "reh laange") are matched as a single span. */
+/* Parse english markup `{N:phrase}` or `{N,M:phrase}` into spans
+   tagged with data-word-i (space-separated indices). */
+function renderEnglishWithSpans(english) {
+  const re = /\{([\d,\s]+):([^}]*)\}/g;
+  let out = "";
+  let last = 0;
+  let m;
+  while ((m = re.exec(english)) !== null) {
+    if (m.index > last) out += escapeHtml(english.slice(last, m.index));
+    const indices = m[1].split(",").map(s => s.trim()).filter(Boolean).join(" ");
+    out += `<span class="we" data-word-i="${indices}">${escapeHtml(m[2])}</span>`;
+    last = m.index + m[0].length;
+  }
+  if (last < english.length) out += escapeHtml(english.slice(last));
+  return out;
+}
+
+/* Tokenize the roman line into hoverable spans, matching each
+   word entry to its position so hover can link span → english. */
 function renderRomanWithSpans(roman, words) {
   if (!words || !words.length) return escapeHtml(roman);
-
   let html = "";
   let cursor = 0;
   const lower = roman.toLowerCase();
-
   for (let i = 0; i < words.length; i++) {
     const token = words[i].roman;
     const idx = lower.indexOf(token.toLowerCase(), cursor);
     if (idx === -1) {
-      // Couldn't locate this word — append the rest as plain text and bail.
       html += escapeHtml(roman.slice(cursor));
       cursor = roman.length;
       break;
     }
     if (idx > cursor) html += escapeHtml(roman.slice(cursor, idx));
     const surface = roman.slice(idx, idx + token.length);
-    html += `<span class="w" data-word-i="${i}" tabindex="0">${escapeHtml(surface)}</span>`;
+    html += `<span class="w" data-word-i="${i}" data-gloss="${escapeHtml(words[i].gloss)}" tabindex="0">${escapeHtml(surface)}</span>`;
     cursor = idx + token.length;
   }
   if (cursor < roman.length) html += escapeHtml(roman.slice(cursor));
@@ -384,38 +392,14 @@ function renderLine(line, repeats, sectionLabel, instanceId) {
   const repBadge = repeats && repeats > 1
     ? `<span class="rep" aria-label="repeated ${repeats} times">×${repeats}</span>`
     : "";
-
   const sectionHead = sectionLabel
     ? `<div class="section-label">${escapeHtml(sectionLabel)}</div>`
     : "";
-
-  const noteHtml = line.note
-    ? `<div class="line-note">${escapeHtml(line.note)}</div>`
-    : "";
-
-  const breakdownRows = (line.words || []).map((w, i) => `
-    <tr data-word-i="${i}">
-      <td class="bd-roman">${escapeHtml(w.roman)}</td>
-      <td class="bd-gloss">${escapeHtml(w.gloss)}</td>
-    </tr>`).join("");
-
   return `
     ${sectionHead}
     <article class="line" id="${instanceId}">
-      <div class="line-body">
-        <div class="line-roman">${renderRomanWithSpans(line.roman, line.words)}${repBadge}</div>
-        <div class="line-english">${escapeHtml(line.english)}</div>
-        ${noteHtml}
-      </div>
-      <button class="line-toggle" type="button" aria-expanded="false" aria-controls="${instanceId}-bd">
-        <span class="line-toggle-caret" aria-hidden="true"></span>
-        <span class="line-toggle-label">Word by word</span>
-      </button>
-      <div class="line-breakdown" id="${instanceId}-bd" hidden>
-        <table>
-          <tbody>${breakdownRows}</tbody>
-        </table>
-      </div>
+      <div class="line-roman">${renderRomanWithSpans(line.roman, line.words)}${repBadge}</div>
+      <div class="line-english">${renderEnglishWithSpans(line.english)}</div>
     </article>
   `;
 }
@@ -423,20 +407,17 @@ function renderLine(line, repeats, sectionLabel, instanceId) {
 function render() {
   const root = document.getElementById("songRoot");
   if (!root) return;
-
   let html = "";
   SEQUENCE.forEach((entry, idx) => {
     const line = LINES[entry.ref];
     if (!line) return;
-    const instanceId = `ln-${idx}-${entry.ref}`;
-    html += renderLine(line, entry.repeats, entry.sectionLabel, instanceId);
+    html += renderLine(line, entry.repeats, entry.sectionLabel, `ln-${idx}-${entry.ref}`);
   });
   root.innerHTML = html;
-
   wireInteractions(root);
 }
 
-/* Word-tooltip element (single, reused). */
+/* ----- Tooltip (single, reused) ----- */
 let tooltipEl = null;
 function ensureTooltip() {
   if (tooltipEl) return tooltipEl;
@@ -447,118 +428,120 @@ function ensureTooltip() {
   document.body.appendChild(tooltipEl);
   return tooltipEl;
 }
-
-function showTooltip(span, gloss) {
+function showTooltip(span, text) {
   const tip = ensureTooltip();
-  tip.textContent = gloss;
+  tip.textContent = text;
   tip.hidden = false;
   const r = span.getBoundingClientRect();
-  // Position above the word, centered.
   tip.style.left = "0px";
-  tip.style.top = "0px";
+  tip.style.top  = "0px";
   const tr = tip.getBoundingClientRect();
+  const margin = 8;
   let left = r.left + r.width / 2 - tr.width / 2 + window.scrollX;
   let top  = r.top - tr.height - 8 + window.scrollY;
-  // Keep within viewport horizontally.
-  const margin = 8;
-  if (left < margin + window.scrollX) left = margin + window.scrollX;
+  const minLeft = window.scrollX + margin;
   const maxLeft = window.scrollX + document.documentElement.clientWidth - tr.width - margin;
+  if (left < minLeft) left = minLeft;
   if (left > maxLeft) left = maxLeft;
-  // Flip below if no room above.
   if (top < window.scrollY + margin) top = r.bottom + 8 + window.scrollY;
   tip.style.left = left + "px";
   tip.style.top  = top + "px";
 }
+function hideTooltip() { if (tooltipEl) tooltipEl.hidden = true; }
 
-function hideTooltip() {
+/* ----- Activation: highlight roman word + matching english span(s) ----- */
+function activate(span) {
+  const article = span.closest(".line");
+  if (!article) return;
+  const i = span.dataset.wordI;
+  span.classList.add("is-hi");
+  article.querySelectorAll(".we").forEach(el => {
+    const idx = el.dataset.wordI.split(/\s+/);
+    if (idx.includes(i)) el.classList.add("is-hi");
+  });
+  showTooltip(span, span.dataset.gloss || "");
+}
+function deactivate(span) {
+  const article = span.closest(".line");
+  if (!article) return;
+  const i = span.dataset.wordI;
+  span.classList.remove("is-hi");
+  article.querySelectorAll(".we").forEach(el => {
+    const idx = el.dataset.wordI.split(/\s+/);
+    if (idx.includes(i)) el.classList.remove("is-hi");
+  });
+  hideTooltip();
+}
+function deactivateAll(root) {
   if (tooltipEl) tooltipEl.hidden = true;
+  root.querySelectorAll(".w.is-hi, .we.is-hi").forEach(el => el.classList.remove("is-hi"));
 }
 
 function wireInteractions(root) {
-  // Toggle breakdown panel.
-  root.addEventListener("click", e => {
-    const toggle = e.target.closest(".line-toggle");
-    if (toggle) {
-      const article = toggle.closest(".line");
-      const bd = article.querySelector(".line-breakdown");
-      const open = !bd.hidden;
-      bd.hidden = open;
-      toggle.setAttribute("aria-expanded", String(!open));
-      article.classList.toggle("is-open", !open);
-      return;
-    }
-    // Click on a word: also opens the breakdown (preview → reveal).
-    const word = e.target.closest(".w");
-    if (word) {
-      const article = word.closest(".line");
-      const bd = article.querySelector(".line-breakdown");
-      const t  = article.querySelector(".line-toggle");
-      if (bd && bd.hidden) {
-        bd.hidden = false;
-        t.setAttribute("aria-expanded", "true");
-        article.classList.add("is-open");
-      }
-      const i = word.dataset.wordI;
-      const row = bd.querySelector(`tr[data-word-i="${i}"]`);
-      if (row) {
-        row.classList.add("flash");
-        row.scrollIntoView({ block: "nearest", behavior: "smooth" });
-        setTimeout(() => row.classList.remove("flash"), 900);
-      }
-    }
-  });
+  let stickyWord = null;   // the word currently "tapped/clicked" — survives mouseleave
+  let hoverWord  = null;   // the word currently under mouse — clears on mouseleave
 
-  // Hover: show tooltip + sync-highlight the matching breakdown row.
+  // Desktop hover.
   root.addEventListener("mouseover", e => {
-    const word = e.target.closest(".w");
-    if (!word) return;
-    const article = word.closest(".line");
-    const i = word.dataset.wordI;
-    const id = article.id;
-    // Find the line's data via the rendered table — gloss is the second cell.
-    const row = article.querySelector(`.line-breakdown tr[data-word-i="${i}"]`);
-    if (!row) return;
-    const gloss = row.querySelector(".bd-gloss").textContent;
-    showTooltip(word, gloss);
-    word.classList.add("is-hi");
-    row.classList.add("is-hi");
+    const w = e.target.closest(".w");
+    if (!w || w === hoverWord) return;
+    if (hoverWord && hoverWord !== stickyWord) deactivate(hoverWord);
+    hoverWord = w;
+    activate(w);
   });
   root.addEventListener("mouseout", e => {
-    const word = e.target.closest(".w");
-    if (!word) return;
-    hideTooltip();
-    word.classList.remove("is-hi");
-    const article = word.closest(".line");
-    const i = word.dataset.wordI;
-    const row = article.querySelector(`.line-breakdown tr[data-word-i="${i}"]`);
-    if (row) row.classList.remove("is-hi");
+    const w = e.target.closest(".w");
+    if (!w) return;
+    const to = e.relatedTarget;
+    if (to && w.contains(to)) return;
+    if (w !== stickyWord) deactivate(w);
+    if (hoverWord === w) hoverWord = null;
   });
 
-  // Keyboard focus: same as hover.
+  // Tap / click: pin the highlight (mobile-friendly).
+  // Re-tapping the same word un-pins; tapping elsewhere clears.
+  root.addEventListener("click", e => {
+    const w = e.target.closest(".w");
+    if (!w) return;
+    e.stopPropagation();
+    if (stickyWord === w) {
+      stickyWord = null;
+      deactivate(w);
+      return;
+    }
+    if (stickyWord) deactivate(stickyWord);
+    stickyWord = w;
+    activate(w);
+  });
+  // Tap outside any word: clear sticky highlight.
+  document.addEventListener("click", () => {
+    if (stickyWord) { deactivate(stickyWord); stickyWord = null; }
+  });
+
+  // Keyboard focus mirrors hover for accessibility.
   root.addEventListener("focusin", e => {
-    const word = e.target.closest(".w");
-    if (!word) return;
-    const article = word.closest(".line");
-    const i = word.dataset.wordI;
-    const row = article.querySelector(`.line-breakdown tr[data-word-i="${i}"]`);
-    if (!row) return;
-    showTooltip(word, row.querySelector(".bd-gloss").textContent);
-    word.classList.add("is-hi");
-    row.classList.add("is-hi");
+    const w = e.target.closest(".w");
+    if (!w) return;
+    activate(w);
   });
   root.addEventListener("focusout", e => {
-    const word = e.target.closest(".w");
-    if (!word) return;
-    hideTooltip();
-    word.classList.remove("is-hi");
-    const article = word.closest(".line");
-    const i = word.dataset.wordI;
-    const row = article.querySelector(`.line-breakdown tr[data-word-i="${i}"]`);
-    if (row) row.classList.remove("is-hi");
+    const w = e.target.closest(".w");
+    if (!w || w === stickyWord) return;
+    deactivate(w);
   });
 
-  // Hide tooltip on scroll.
-  window.addEventListener("scroll", hideTooltip, { passive: true });
+  // Hide tooltip on scroll (re-anchor would jump anyway).
+  window.addEventListener("scroll", () => {
+    if (tooltipEl) tooltipEl.hidden = true;
+  }, { passive: true });
+
+  // Esc clears sticky.
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape") {
+      if (stickyWord) { deactivate(stickyWord); stickyWord = null; }
+      else deactivateAll(root);
+    }
+  });
 }
 
 document.addEventListener("DOMContentLoaded", render);

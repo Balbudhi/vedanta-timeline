@@ -84,17 +84,13 @@ html, body {
   padding-bottom: 8px;
   border-bottom: 1px solid var(--hairline);
 }
-/* First section label sits closer to the hero. */
 .song-root > .section-label:first-child { margin-top: 0; }
 
 /* ---------- Line card ---------- */
 .line {
-  margin: 0 0 22px;
+  margin: 0 0 24px;
   padding: 0;
-  position: relative;
 }
-.line-body { position: relative; }
-
 .line-roman {
   font-family: var(--serif);
   font-size: 20px;
@@ -110,16 +106,6 @@ html, body {
   line-height: 1.55;
   color: var(--ink-soft);
   margin: 0;
-}
-.line-note {
-  font-family: var(--sans);
-  font-size: 12px;
-  line-height: 1.55;
-  color: var(--muted);
-  margin: 10px 0 0;
-  padding-left: 12px;
-  border-left: 2px solid var(--hairline);
-  font-style: italic;
 }
 
 /* Repetition badge (×4, ×2). */
@@ -139,7 +125,7 @@ html, body {
   user-select: none;
 }
 
-/* ---------- Word spans (hover + click) ---------- */
+/* ---------- Roman word spans (hover targets) ---------- */
 .line-roman .w {
   cursor: pointer;
   border-radius: 2px;
@@ -147,99 +133,31 @@ html, body {
   margin: 0 -1px;
   transition: background-color 120ms ease, color 120ms ease;
   outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 .line-roman .w:hover,
 .line-roman .w.is-hi,
 .line-roman .w:focus-visible {
-  background: #fff3d6;     /* warm highlight */
+  background: #fff3d6;
   color: var(--ink);
 }
 .line-roman .w:focus-visible {
   box-shadow: 0 0 0 2px rgba(180, 130, 30, 0.32);
 }
 
-/* ---------- Toggle button (Word by word) ---------- */
-.line-toggle {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  margin: 12px 0 0;
-  padding: 3px 9px 3px 7px;
-  font-family: var(--sans);
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  color: var(--muted);
-  background: transparent;
-  border: 1px solid var(--rule);
-  border-radius: 3px;
-  cursor: pointer;
-  user-select: none;
-  transition: color 120ms, border-color 120ms, background 120ms;
+/* ---------- English mapped spans (highlight target) ---------- */
+.line-english .we {
+  border-radius: 2px;
+  padding: 0 1px;
+  margin: 0 -1px;
+  transition: background-color 120ms ease, color 120ms ease;
 }
-.line-toggle:hover {
-  color: var(--ink);
-  border-color: var(--muted-soft);
-  background: var(--bg);
-}
-.line-toggle-caret {
-  width: 0; height: 0;
-  border-left: 4px solid currentColor;
-  border-top: 3px solid transparent;
-  border-bottom: 3px solid transparent;
-  transition: transform 160ms ease;
-}
-.line.is-open .line-toggle-caret {
-  transform: rotate(90deg);
-}
-.line-toggle-label { line-height: 1; }
-
-/* ---------- Breakdown panel ---------- */
-.line-breakdown {
-  margin: 12px 0 0;
-  padding: 12px 16px;
-  background: var(--bg);
-  border: 1px solid var(--hairline);
-  border-radius: 4px;
-  animation: bd-fade 180ms ease;
-}
-@keyframes bd-fade {
-  from { opacity: 0; transform: translateY(-2px); }
-  to   { opacity: 1; transform: none; }
-}
-.line-breakdown table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 13.5px;
-  line-height: 1.45;
-}
-.line-breakdown td {
-  padding: 5px 6px;
-  vertical-align: top;
-  border-bottom: 1px solid var(--hairline);
-}
-.line-breakdown tr:last-child td { border-bottom: none; }
-.line-breakdown .bd-roman {
-  font-family: var(--serif);
-  font-weight: 500;
-  color: var(--ink);
-  width: 32%;
-  white-space: nowrap;
-}
-.line-breakdown .bd-gloss {
-  font-family: var(--serif);
-  font-style: italic;
-  color: var(--ink-soft);
-}
-.line-breakdown tr.is-hi td {
-  background: #fff8e6;
-}
-.line-breakdown tr.flash td {
+.line-english .we.is-hi {
   background: #fde9b8;
-  transition: background 700ms ease;
+  color: var(--ink);
 }
 
-/* ---------- Word tooltip (hover preview) ---------- */
+/* ---------- Word tooltip ---------- */
 .word-tooltip {
   position: absolute;
   z-index: 50;
@@ -273,12 +191,23 @@ html, body {
 
 /* ---------- Mobile ---------- */
 @media (max-width: 720px) {
-  .song-page { padding: 36px 18px 96px; }
-  .song-title { font-size: 28px; }
-  .line-roman { font-size: 18px; }
-  .line-english { font-size: 15px; }
-  .line-breakdown { padding: 10px 12px; }
-  .line-breakdown table { font-size: 13px; }
-  .line-breakdown .bd-roman { width: 38%; }
-  .word-tooltip { max-width: 220px; font-size: 12.5px; }
+  .song-page { padding: 32px 16px 80px; }
+  .song-title { font-size: 26px; }
+  .song-attrib { font-size: 12px; }
+  .song-intro { font-size: 14.5px; }
+  .song-hint { font-size: 11px; padding: 9px 12px; margin: 22px 0 30px; }
+  .section-label { font-size: 10px; margin: 36px 0 14px; }
+  .line { margin-bottom: 22px; }
+  .line-roman { font-size: 17.5px; line-height: 1.5; }
+  .line-english { font-size: 14.5px; line-height: 1.55; }
+  .rep { font-size: 10px; padding: 1px 6px; }
+  .word-tooltip { max-width: 220px; font-size: 12.5px; padding: 5px 9px; }
+}
+
+/* Touch devices: expand tap target slightly and disable hover-only styles
+   so the highlight only appears on real activation. */
+@media (hover: none) {
+  .line-roman .w { padding: 2px 2px; }
+  .line-roman .w:hover { background: transparent; color: inherit; }
+  .line-roman .w.is-hi { background: #fff3d6; color: var(--ink); }
 }
