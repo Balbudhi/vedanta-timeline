@@ -1,0 +1,48 @@
+{
+  "work_slug": "madhusudana_gudhartha_dipika",
+  "work_title_iast": "Gūḍhārtha-Dīpikā on the Bhagavad-Gītā",
+  "thinker_id": "madhusudana",
+  "edition": "Advaita Ashrama (Belur Math) edition, Swami Gambhirananda, *Bhagavadgītā with the Annotation Gūḍhārtha-Dīpikā*, 1998 (Sanskrit + English)",
+  "year": "1998",
+  "editor": "Swami Gambhirananda",
+  "publisher": "Advaita Ashrama, Calcutta",
+  "language_primary": "sanskrit",
+  "secondary_languages": [
+    "english"
+  ],
+  "script": "devanagari",
+  "commentaries_included": [
+    "English translation and notes by Swami Gambhirananda"
+  ],
+  "source_url": "https://archive.org/details/tDyP_bhagavad-gita-with-gudharth-deepika-by-madhusudan-sarasvati-translated-by-swami-",
+  "source_item_id": "tDyP_bhagavad-gita-with-gudharth-deepika-by-madhusudan-sarasvati-translated-by-swami-",
+  "license": "public_domain",
+  "expected_text_units": {
+    "kind": "verses",
+    "approximate_count": 700,
+    "source_for_estimate": "Bhagavad-Gītā canonical 700 ślokas, each with Madhusūdana's gloss"
+  },
+  "ground_truth_available": true,
+  "ground_truth_source": "Embedded English translation by Gambhirananda is itself a high-quality bilingual comparator; GRETIL Gītā mūla provides verse-level ground truth.",
+  "first_page_visual_quality": "clean",
+  "first_page_visual_quality_notes": "Heuristic (KB/page ~466): high-DPI scan. Producer 'BookChanger 4.6.3'. 1052 pages of clean Advaita Ashrama typesetting.",
+  "ocr_friendliness_notes": "Bilingual Sanskrit/English layout requires script-detection and region masking. The Sanskrit Devanagari portion is typical Belur Math house style — clean. English portion is straightforward Latin OCR.",
+  "priority_tier": "A5",
+  "downloaded_at": "2026-05-19",
+  "downloaded_by": "corpus-chat-lane3",
+  "sha256": "4b279eb68d1c31434027c49a9fe2cd561fb918a55f671203a67cedeba61dc864",
+  "size_bytes": 501890314,
+  "pdfinfo": {
+    "pages": 1052,
+    "page_size": "425.7 x 708.3 pts",
+    "encrypted": false,
+    "linearized": null,
+    "producer": "BookChanger 4.6.3",
+    "creator": null,
+    "title": null
+  },
+  "ocr_friendliness_score": 4,
+  "ia_filename": "Bhagavad Gita with Gudharth Deepika by Madhusudan Sarasvati Translated by Swami Gambhiranand - Advait Ashram.pdf",
+  "_acquisition_lane": "lane3-digitization-prep",
+  "_phase2_ocr_status": "not_started"
+}
