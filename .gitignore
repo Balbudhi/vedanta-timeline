@@ -9,3 +9,4 @@ node_modules/
 # Source tab fetches from data/sources/ (the in-repo mirror) on the live
 # site; this symlink is for local dev only.
 /materials
+__pycache__/
