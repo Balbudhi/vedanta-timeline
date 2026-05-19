@@ -1,0 +1,565 @@
+{
+  "generated_at": "2026-05-19",
+  "generated_by": "corpus-chat-lane1",
+  "ingested": [
+    {
+      "text_id": "sharma-advaitasiddhi-vs-nyayamrta",
+      "source_file": "data/sources/sanskrit/_kashmir_saivism/AdvaitasiddhiVsNyayamrta.txt",
+      "verse_count": 2636,
+      "token_count_approx": 71305,
+      "structure_recovered": false,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Secondary scholarship by B.N.K. Sharma, not a primary Sanskrit text; OCR-quality English with embedded Sanskrit citations."
+      ]
+    },
+    {
+      "text_id": "candrakirti-madhyamakavatara",
+      "source_file": "data/sources/sanskrit/buddhist/candrakirti_madhyamakavatara.txt",
+      "verse_count": 41,
+      "token_count_approx": 4408,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": []
+    },
+    {
+      "text_id": "dharmakirti-pramana-varttika",
+      "source_file": "data/sources/sanskrit/buddhist/dharmakirti_pramana_varttika.txt",
+      "verse_count": 1768,
+      "token_count_approx": 8395,
+      "structure_recovered": false,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Primary segmenter `verse_marker` recovered no structure; fell back to `prose_paragraph(fallback)`."
+      ]
+    },
+    {
+      "text_id": "nagarjuna-mula-madhyamaka-karika",
+      "source_file": "data/sources/sanskrit/buddhist/nagarjuna_mula_madhyamaka_karika.txt",
+      "verse_count": 448,
+      "token_count_approx": 5465,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": []
+    },
+    {
+      "text_id": "nagarjuna-vigraha-vyavartani",
+      "source_file": "data/sources/sanskrit/buddhist/nagarjuna_vigraha_vyavartani.txt",
+      "verse_count": 70,
+      "token_count_approx": 4817,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": []
+    },
+    {
+      "text_id": "vasubandhu-trimsika",
+      "source_file": "data/sources/sanskrit/buddhist/vasubandhu_trimsika.txt",
+      "verse_count": 30,
+      "token_count_approx": 260,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": []
+    },
+    {
+      "text_id": "vasubandhu-vimsatika",
+      "source_file": "data/sources/sanskrit/buddhist/vasubandhu_vimsatika.txt",
+      "verse_count": 22,
+      "token_count_approx": 1635,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": []
+    },
+    {
+      "text_id": "jiva-sat-sandarbha",
+      "source_file": "data/sources/sanskrit/caitanya_gaudiya/jiva_sat_sandarbha.txt",
+      "verse_count": 9662,
+      "token_count_approx": 191831,
+      "structure_recovered": false,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (44 lines)."
+      ]
+    },
+    {
+      "text_id": "rupa-bhakti-rasamrta-sindhu",
+      "source_file": "data/sources/sanskrit/caitanya_gaudiya/rupa_bhakti_rasamrta_sindhu.txt",
+      "verse_count": 2127,
+      "token_count_approx": 29129,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (45 lines)."
+      ]
+    },
+    {
+      "text_id": "aksapada-nyaya-sutra",
+      "source_file": "data/sources/sanskrit/comparator/aksapada_nyaya_sutra.txt",
+      "verse_count": 65,
+      "token_count_approx": 2826,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": []
+    },
+    {
+      "text_id": "badarayana-brahma-sutra",
+      "source_file": "data/sources/sanskrit/comparator/badarayana_brahma_sutra.txt",
+      "verse_count": 545,
+      "token_count_approx": 1757,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": []
+    },
+    {
+      "text_id": "isvarakrsna-samkhya-karika",
+      "source_file": "data/sources/sanskrit/comparator/isvarakrsna_samkhya_karika.txt",
+      "verse_count": 72,
+      "token_count_approx": 772,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": []
+    },
+    {
+      "text_id": "jaimini-mimamsa-sutra",
+      "source_file": "data/sources/sanskrit/comparator/jaimini_mimamsa_sutra.txt",
+      "verse_count": 6,
+      "token_count_approx": 13727,
+      "structure_recovered": false,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Primary segmenter `verse_marker` recovered no structure; fell back to `prose_paragraph(fallback)`."
+      ]
+    },
+    {
+      "text_id": "kanada-vaisesika-sutra",
+      "source_file": "data/sources/sanskrit/comparator/kanada_vaisesika_sutra.txt",
+      "verse_count": 5,
+      "token_count_approx": 1825,
+      "structure_recovered": false,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Primary segmenter `verse_marker` recovered no structure; fell back to `prose_paragraph(fallback)`."
+      ]
+    },
+    {
+      "text_id": "patanjali-yoga-sutra",
+      "source_file": "data/sources/sanskrit/comparator/patanjali_yoga_sutra.txt",
+      "verse_count": 195,
+      "token_count_approx": 666,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": []
+    },
+    {
+      "text_id": "shabara-mimamsa-sutra-bhasya",
+      "source_file": "data/sources/sanskrit/comparator/shabara_mimamsa_sutra_bhasya.txt",
+      "verse_count": 1185,
+      "token_count_approx": 146501,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": []
+    },
+    {
+      "text_id": "umasvati-tattvartha-sutra",
+      "source_file": "data/sources/sanskrit/comparator/umasvati_tattvartha_sutra.txt",
+      "verse_count": 414,
+      "token_count_approx": 1134,
+      "structure_recovered": false,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Primary segmenter `verse_marker` recovered no structure; fell back to `prose_paragraph(fallback)`."
+      ]
+    },
+    {
+      "text_id": "vatsyayana-nyaya-bhasya",
+      "source_file": "data/sources/sanskrit/comparator/vatsyayana_nyaya_bhasya.txt",
+      "verse_count": 476,
+      "token_count_approx": 37009,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": []
+    },
+    {
+      "text_id": "vyasa-yoga-bhasya",
+      "source_file": "data/sources/sanskrit/comparator/vyasa_yoga_bhasya.txt",
+      "verse_count": 183,
+      "token_count_approx": 11836,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": []
+    },
+    {
+      "text_id": "abhinavagupta-tantraloka-ch06-kalopaya-kalacakra",
+      "source_file": "data/sources/sanskrit/kala_cakra/abhinavagupta_tantraloka_chapter06_kalopaya_kalacakra.txt",
+      "verse_count": 250,
+      "token_count_approx": 2000,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": []
+    },
+    {
+      "text_id": "abhinavagupta-isvarapratyabhijna-vimarsini",
+      "source_file": "data/sources/sanskrit/kashmir_shaiva/abhinavagupta_ipv.txt",
+      "verse_count": 377,
+      "token_count_approx": 30813,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (56 lines)."
+      ]
+    },
+    {
+      "text_id": "abhinavagupta-paramartha-sara",
+      "source_file": "data/sources/sanskrit/kashmir_shaiva/abhinavagupta_paramartha_sara.txt",
+      "verse_count": 105,
+      "token_count_approx": 1115,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (43 lines)."
+      ]
+    },
+    {
+      "text_id": "abhinavagupta-tantrasara",
+      "source_file": "data/sources/sanskrit/kashmir_shaiva/abhinavagupta_tantrasara.txt",
+      "verse_count": 53,
+      "token_count_approx": 11012,
+      "structure_recovered": false,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (44 lines)."
+      ]
+    },
+    {
+      "text_id": "ksemaraja-pratyabhijna-hrdayam",
+      "source_file": "data/sources/sanskrit/kashmir_shaiva/ksemaraja_pratyabhijna_hrdayam.txt",
+      "verse_count": 20,
+      "token_count_approx": 2596,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (45 lines)."
+      ]
+    },
+    {
+      "text_id": "spanda-karika",
+      "source_file": "data/sources/sanskrit/kashmir_shaiva/spanda_karika.txt",
+      "verse_count": 52,
+      "token_count_approx": 552,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Authorship traditionally to Vasugupta or Bhaṭṭa Kallaṭa; ascription contested.",
+        "Stripped GRETIL header (43 lines)."
+      ]
+    },
+    {
+      "text_id": "utpaladeva-isvara-pratyabhijna-karika",
+      "source_file": "data/sources/sanskrit/kashmir_shaiva/utpaladeva_isvara_pratyabhijna_karika.txt",
+      "verse_count": 190,
+      "token_count_approx": 5032,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (51 lines)."
+      ]
+    },
+    {
+      "text_id": "kumarila-sloka-varttika-with-comm",
+      "source_file": "data/sources/sanskrit/mimamsa/kumarila_sloka_varttika_comm.txt",
+      "verse_count": 998,
+      "token_count_approx": 31488,
+      "structure_recovered": false,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (51 lines)."
+      ]
+    },
+    {
+      "text_id": "madhava-jaiminiya-nyaya-mala-vistara",
+      "source_file": "data/sources/sanskrit/mimamsa/madhava_jaimini_nyaya_mala.txt",
+      "verse_count": 815,
+      "token_count_approx": 38960,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (56 lines)."
+      ]
+    },
+    {
+      "text_id": "sucaritamisra-sloka-varttika-kasika",
+      "source_file": "data/sources/sanskrit/mimamsa/sucaritamisra_sloka_varttika.txt",
+      "verse_count": 2601,
+      "token_count_approx": 126427,
+      "structure_recovered": false,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (46 lines)."
+      ]
+    },
+    {
+      "text_id": "annambhatta-tarka-sangraha",
+      "source_file": "data/sources/sanskrit/nyaya/annambhatta_tarka_sangraha.txt",
+      "verse_count": 80,
+      "token_count_approx": 1224,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (43 lines)."
+      ]
+    },
+    {
+      "text_id": "annambhatta-tarka-sangraha-dipika",
+      "source_file": "data/sources/sanskrit/nyaya/annambhatta_tarka_sangraha_comm.txt",
+      "verse_count": 3379,
+      "token_count_approx": 77507,
+      "structure_recovered": false,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "File interleaves Tarka-Saṃgraha mūla, Dīpikā auto-commentary, and Bālapriyā subcommentary; structure not recovered by lane-1 (prose paragraphs only). Lane 4 should re-segment by `ants_NXY` markers.",
+        "Stripped GRETIL header (51 lines)."
+      ]
+    },
+    {
+      "text_id": "dharmakirti-nyaya-bindu",
+      "source_file": "data/sources/sanskrit/nyaya/dharmakirti_nyaya_bindu.txt",
+      "verse_count": 13,
+      "token_count_approx": 2292,
+      "structure_recovered": false,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (45 lines).",
+        "Primary segmenter `verse_marker` recovered no structure; fell back to `prose_paragraph(fallback)`."
+      ]
+    },
+    {
+      "text_id": "gautama-nyaya-sutra",
+      "source_file": "data/sources/sanskrit/nyaya/nyaya_sutra_gautama.txt",
+      "verse_count": 65,
+      "token_count_approx": 2826,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Duplicate-class of comparator/aksapada_nyaya_sutra.txt; kept distinct as nyaya/ may carry different edition.",
+        "Stripped GRETIL header (46 lines)."
+      ]
+    },
+    {
+      "text_id": "udayana-nyaya-kusumanjali",
+      "source_file": "data/sources/sanskrit/nyaya/udayana_nyaya_kusumanjali.txt",
+      "verse_count": 75,
+      "token_count_approx": 18760,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (46 lines)."
+      ]
+    },
+    {
+      "text_id": "kapila-samkhya-sutra",
+      "source_file": "data/sources/sanskrit/samkhya/samkhya_sutra_kapila.txt",
+      "verse_count": 7,
+      "token_count_approx": 3225,
+      "structure_recovered": false,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (47 lines).",
+        "Primary segmenter `verse_marker` recovered no structure; fell back to `prose_paragraph(fallback)`."
+      ]
+    },
+    {
+      "text_id": "gaudapada-mandukya-karika",
+      "source_file": "data/sources/sanskrit/vedanta/full_corpus/gaudapada_mandukya_karika_gretil.txt",
+      "verse_count": 211,
+      "token_count_approx": 2705,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (55 lines)."
+      ]
+    },
+    {
+      "text_id": "madhusudana-siddhanta-bindu",
+      "source_file": "data/sources/sanskrit/vedanta/full_corpus/madhusudana_siddhanta_bindu_gretil.txt",
+      "verse_count": 24,
+      "token_count_approx": 5955,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (44 lines)."
+      ]
+    },
+    {
+      "text_id": "madhva-anuvyakhyana",
+      "source_file": "data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt",
+      "verse_count": 1804,
+      "token_count_approx": 17313,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (46 lines)."
+      ]
+    },
+    {
+      "text_id": "mandana-brahma-siddhi",
+      "source_file": "data/sources/sanskrit/vedanta/full_corpus/mandana_misra_brahma_siddhi_gretil.txt",
+      "verse_count": 208,
+      "token_count_approx": 22520,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (57 lines)."
+      ]
+    },
+    {
+      "text_id": "shankara-upadesa-sahasri",
+      "source_file": "data/sources/sanskrit/vedanta/full_corpus/shankara_upadesa_sahasri_gretil.txt",
+      "verse_count": 785,
+      "token_count_approx": 12016,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (45 lines)."
+      ]
+    },
+    {
+      "text_id": "shankara-vivekacudamani",
+      "source_file": "data/sources/sanskrit/vedanta/full_corpus/shankara_vivekacudamani_gretil.txt",
+      "verse_count": 578,
+      "token_count_approx": 6711,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Authorship `school-ascribed` per CORPUS_PLAN.md, not securely Śaṅkara.",
+        "Stripped GRETIL header (44 lines)."
+      ]
+    },
+    {
+      "text_id": "vyasatirtha-tarka-tandava",
+      "source_file": "data/sources/sanskrit/vedanta/full_corpus/vyasatirtha_tarka_tandava_gretil.txt",
+      "verse_count": 9497,
+      "token_count_approx": 125783,
+      "structure_recovered": false,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (49 lines)."
+      ]
+    },
+    {
+      "text_id": "yamuna-atma-siddhi",
+      "source_file": "data/sources/sanskrit/vedanta/full_corpus/yamuna_atma_siddhi_gretil.txt",
+      "verse_count": 46,
+      "token_count_approx": 24337,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (47 lines)."
+      ]
+    },
+    {
+      "text_id": "yamuna-isvara-siddhi",
+      "source_file": "data/sources/sanskrit/vedanta/full_corpus/yamuna_isvara_siddhi_gretil.txt",
+      "verse_count": 18,
+      "token_count_approx": 1299,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (43 lines)."
+      ]
+    },
+    {
+      "text_id": "yamuna-samvit-siddhi",
+      "source_file": "data/sources/sanskrit/vedanta/full_corpus/yamuna_samvit_siddhi_gretil.txt",
+      "verse_count": 439,
+      "token_count_approx": 2260,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (48 lines)."
+      ]
+    },
+    {
+      "text_id": "yamuna-stotra-ratna",
+      "source_file": "data/sources/sanskrit/vedanta/full_corpus/yamuna_stotra_ratna_gretil.txt",
+      "verse_count": 64,
+      "token_count_approx": 921,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (43 lines)."
+      ]
+    },
+    {
+      "text_id": "jayatirtha-nyaya-sudha",
+      "source_file": "data/sources/sanskrit/vedanta/jayatirtha_nyaya_sudha.txt",
+      "verse_count": 10510,
+      "token_count_approx": 191794,
+      "structure_recovered": false,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (72 lines)."
+      ]
+    },
+    {
+      "text_id": "madhva-mahabharata-tatparya-nirnaya",
+      "source_file": "data/sources/sanskrit/vedanta/madhva_mahabharata_tatparya.txt",
+      "verse_count": 5084,
+      "token_count_approx": 63123,
+      "structure_recovered": true,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (43 lines)."
+      ]
+    },
+    {
+      "text_id": "ramanuja-gita-bhasya",
+      "source_file": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
+      "verse_count": 1576,
+      "token_count_approx": 39678,
+      "structure_recovered": false,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (47 lines)."
+      ]
+    },
+    {
+      "text_id": "ramanuja-vedartha-sangraha",
+      "source_file": "data/sources/sanskrit/vedanta/ramanuja_vedartha_sangraha.txt",
+      "verse_count": 144,
+      "token_count_approx": 11856,
+      "structure_recovered": false,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (43 lines)."
+      ]
+    },
+    {
+      "text_id": "shankara-brahma-sutra-bhasya",
+      "source_file": "data/sources/sanskrit/vedanta/shankara_brahma_sutra_bhasya.txt",
+      "verse_count": 1736,
+      "token_count_approx": 82124,
+      "structure_recovered": false,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (50 lines)."
+      ]
+    },
+    {
+      "text_id": "vacaspati-bhamati",
+      "source_file": "data/sources/sanskrit/vedanta/vacaspati_bhamati.txt",
+      "verse_count": 1533,
+      "token_count_approx": 77702,
+      "structure_recovered": false,
+      "tokenizer": "fallback_whitespace",
+      "caveats": [
+        "Stripped GRETIL header (48 lines)."
+      ]
+    }
+  ],
+  "skipped": [],
+  "todo": [
+    {
+      "text_id": "bhagavad-gita-chapters",
+      "reason": "Per-chapter JSON lives at ~/Dev/Gita/ on a local machine, not on rnn; deferred until copied to NAS."
+    }
+  ]
+}
