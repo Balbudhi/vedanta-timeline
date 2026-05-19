@@ -1,0 +1,1070 @@
+{
+  "text_id": "abhinavagupta-paramartha-sara",
+  "thinker_id": "abhinavagupta",
+  "work_title_iast": "Paramārtha-Sāra",
+  "work_title_devanagari": "परमार्थसार",
+  "source_file": "data/sources/sanskrit/kashmir_shaiva/abhinavagupta_paramartha_sara.txt",
+  "source_script": "iast",
+  "tokenizer": "fallback_whitespace",
+  "normalizer": "indic_transliteration",
+  "ingested_at": "2026-05-19",
+  "ingested_by": "corpus-chat-lane1",
+  "structure_recovered": true,
+  "verse_count": 105,
+  "token_count_approx": 1115,
+  "verses": [
+    {
+      "verse_id": "v_1",
+      "adhyaya": 1,
+      "pada": null,
+      "sutra_or_verse_num": "1",
+      "sanskrit_devanagari": "परं परस्थं गहनाद् अनादिम् एकं निविष्टं बहुधा गुहासु ।\nसर्वालयं सर्वचराचरस्थं त्वाम् एव शम्भुं शरणं प्रपद्ये",
+      "sanskrit_iast": "paraṃ parasthaṃ gahanād anādim ekaṃ niviṣṭaṃ bahudhā guhāsu |\nsarvālayaṃ sarvacarācarasthaṃ tvām eva śambhuṃ śaraṇaṃ prapadye",
+      "source_line_start": 1,
+      "source_line_end": 2
+    },
+    {
+      "verse_id": "v_2",
+      "adhyaya": 2,
+      "pada": null,
+      "sutra_or_verse_num": "2",
+      "sanskrit_devanagari": "गर्भाधिवासपूर्वकमरणान्तकदुःखचक्रविभ्रान्तः ।\nआधारम् भगवन्तं शिष्यः पप्रच्छ परमार्थम्",
+      "sanskrit_iast": "garbhādhivāsapūrvakamaraṇāntakaduḥkhacakravibhrāntaḥ |\nādhāram bhagavantaṃ śiṣyaḥ papraccha paramārtham",
+      "source_line_start": 4,
+      "source_line_end": 5
+    },
+    {
+      "verse_id": "v_3",
+      "adhyaya": 3,
+      "pada": null,
+      "sutra_or_verse_num": "3",
+      "sanskrit_devanagari": "आधारकारिकाभिः तं गुरुर् अभिभाषति स्म तत्सारम् ।\nकथयत्य् अभिनवगुप्तः शिवशासनदृष्टियोगेन",
+      "sanskrit_iast": "ādhārakārikābhiḥ taṃ gurur abhibhāṣati sma tatsāram |\nkathayaty abhinavaguptaḥ śivaśāsanadṛṣṭiyogena",
+      "source_line_start": 7,
+      "source_line_end": 8
+    },
+    {
+      "verse_id": "v_4",
+      "adhyaya": 4,
+      "pada": null,
+      "sutra_or_verse_num": "4",
+      "sanskrit_devanagari": "निजशक्तिवैभवभराद् अ.ङ्दचतुष्टयम् इदं विभागेन ।\nशक्तिर् माया प्रकृतिः पृथ्वी चेति प्रभावितं प्रभुणा",
+      "sanskrit_iast": "nijaśaktivaibhavabharād a.ṅdacatuṣṭayam idaṃ vibhāgena |\nśaktir māyā prakṛtiḥ pṛthvī ceti prabhāvitaṃ prabhuṇā",
+      "source_line_start": 10,
+      "source_line_end": 11
+    },
+    {
+      "verse_id": "v_5",
+      "adhyaya": 5,
+      "pada": null,
+      "sutra_or_verse_num": "5",
+      "sanskrit_devanagari": "तत्रान्तर् विश्वम् इदं विचित्रतनुकरणभुवनसंतानम् ।\nभोक्ता च तत्र देही शिव एव गृहीतपशुभावः",
+      "sanskrit_iast": "tatrāntar viśvam idaṃ vicitratanukaraṇabhuvanasaṃtānam |\nbhoktā ca tatra dehī śiva eva gṛhītapaśubhāvaḥ",
+      "source_line_start": 13,
+      "source_line_end": 14
+    },
+    {
+      "verse_id": "v_6",
+      "adhyaya": 6,
+      "pada": null,
+      "sutra_or_verse_num": "6",
+      "sanskrit_devanagari": "नानाविधवर्णानां रूपं धत्ते यथामलः स्फटिकः ।\nसुरमानुषपशुपादपरूपत्वं तद्वद् ईशो ऽपि",
+      "sanskrit_iast": "nānāvidhavarṇānāṃ rūpaṃ dhatte yathāmalaḥ sphaṭikaḥ |\nsuramānuṣapaśupādaparūpatvaṃ tadvad īśo 'pi",
+      "source_line_start": 16,
+      "source_line_end": 17
+    },
+    {
+      "verse_id": "v_7",
+      "adhyaya": 7,
+      "pada": null,
+      "sutra_or_verse_num": "7",
+      "sanskrit_devanagari": "गच्छति गच्छति जल इव हिमकरबिम्बं स्थिते स्थितिं याति ।\nतनुकरणभुवनवर्गे तथायम् आत्मा महेशानः",
+      "sanskrit_iast": "gacchati gacchati jala iva himakarabimbaṃ sthite sthitiṃ yāti |\ntanukaraṇabhuvanavarge tathāyam ātmā maheśānaḥ",
+      "source_line_start": 19,
+      "source_line_end": 20
+    },
+    {
+      "verse_id": "v_8",
+      "adhyaya": 8,
+      "pada": null,
+      "sutra_or_verse_num": "8",
+      "sanskrit_devanagari": "राहुर् अदृश्यो ऽपि यथा शशिबिम्बस्थः प्रकाशते तद्वत् ।\nसर्वगतो ऽप्य् अयम् आत्मा विषयाश्रयणेन धीमुकुरे",
+      "sanskrit_iast": "rāhur adṛśyo 'pi yathā śaśibimbasthaḥ prakāśate tadvat |\nsarvagato 'py ayam ātmā viṣayāśrayaṇena dhīmukure",
+      "source_line_start": 22,
+      "source_line_end": 23
+    },
+    {
+      "verse_id": "v_9",
+      "adhyaya": 9,
+      "pada": null,
+      "sutra_or_verse_num": "9",
+      "sanskrit_devanagari": "आदर्शे मलरहिते यद्वद् वदनं विभाति तद्वद् अयम् ।\nशिवशक्तिपातविमले धीतत्त्वे भाति भारूपः",
+      "sanskrit_iast": "ādarśe malarahite yadvad vadanaṃ vibhāti tadvad ayam |\nśivaśaktipātavimale dhītattve bhāti bhārūpaḥ",
+      "source_line_start": 25,
+      "source_line_end": 26
+    },
+    {
+      "verse_id": "v_10",
+      "adhyaya": 10,
+      "pada": null,
+      "sutra_or_verse_num": "10",
+      "sanskrit_devanagari": "भारूपं परिपूर्णं स्वात्मनि विश्रान्तितो महानन्दम् ।\nइच्छसंवित्करणैर् निर्भरितम् अनन्तशक्तिपरिपूर्णम्",
+      "sanskrit_iast": "bhārūpaṃ paripūrṇaṃ svātmani viśrāntito mahānandam |\nicchasaṃvitkaraṇair nirbharitam anantaśaktiparipūrṇam",
+      "source_line_start": 28,
+      "source_line_end": 29
+    },
+    {
+      "verse_id": "v_11",
+      "adhyaya": 11,
+      "pada": null,
+      "sutra_or_verse_num": "11",
+      "sanskrit_devanagari": "सर्वविकल्पविहीनं शुद्धं शान्तं लयोदयविहीनम् ।\nयत् परतत्त्वं तस्मिन् विभाति षट्ट्रिंशदात्म जगत्",
+      "sanskrit_iast": "sarvavikalpavihīnaṃ śuddhaṃ śāntaṃ layodayavihīnam |\nyat paratattvaṃ tasmin vibhāti ṣaṭṭriṃśadātma jagat",
+      "source_line_start": 31,
+      "source_line_end": 32
+    },
+    {
+      "verse_id": "v_12",
+      "adhyaya": 12,
+      "pada": null,
+      "sutra_or_verse_num": "12",
+      "sanskrit_devanagari": "दर्पणबिम्बे यद्वन् नगरग्रामादिचित्रम् अविभागि ।\nभाति विभागेनैव च परस्परं दर्पणाद् अपि च",
+      "sanskrit_iast": "darpaṇabimbe yadvan nagaragrāmādicitram avibhāgi |\nbhāti vibhāgenaiva ca parasparaṃ darpaṇād api ca",
+      "source_line_start": 34,
+      "source_line_end": 35
+    },
+    {
+      "verse_id": "v_13",
+      "adhyaya": 13,
+      "pada": null,
+      "sutra_or_verse_num": "13",
+      "sanskrit_devanagari": "विमलतमपरमभैरवबोधात् तद्वद् विभागशून्यम् अपि ।\nअन्योन्यं च ततो ऽपि च विभक्तम् आभाति जगद् एतत्",
+      "sanskrit_iast": "vimalatamaparamabhairavabodhāt tadvad vibhāgaśūnyam api |\nanyonyaṃ ca tato 'pi ca vibhaktam ābhāti jagad etat",
+      "source_line_start": 37,
+      "source_line_end": 38
+    },
+    {
+      "verse_id": "v_14",
+      "adhyaya": 14,
+      "pada": null,
+      "sutra_or_verse_num": "14",
+      "sanskrit_devanagari": "शिवशक्तिसदाशिवताम् ईश्वरविद्यामयीं च तत्त्वदशाम् ।\nशक्तीनां पञ्चानां विभक्तभावेन भासयति",
+      "sanskrit_iast": "śivaśaktisadāśivatām īśvaravidyāmayīṃ ca tattvadaśām |\nśaktīnāṃ pañcānāṃ vibhaktabhāvena bhāsayati",
+      "source_line_start": 40,
+      "source_line_end": 41
+    },
+    {
+      "verse_id": "v_15",
+      "adhyaya": 15,
+      "pada": null,
+      "sutra_or_verse_num": "15",
+      "sanskrit_devanagari": "परमं यत् स्वातन्त्र्यं दुर्घटसंपादनं महेशस्य ।\nदेवी मायाशक्तिः स्वात्मावरणं शिवस्य इतत्",
+      "sanskrit_iast": "paramaṃ yat svātantryaṃ durghaṭasaṃpādanaṃ maheśasya |\ndevī māyāśaktiḥ svātmāvaraṇaṃ śivasya itat",
+      "source_line_start": 43,
+      "source_line_end": 44
+    },
+    {
+      "verse_id": "v_16",
+      "adhyaya": 16,
+      "pada": null,
+      "sutra_or_verse_num": "16",
+      "sanskrit_devanagari": "मायापरिग्रहवशाद् बोधो मलिनः पुमान् पशुर् भवति ।\nकालकलानियतिबलाद् रागाविद्यावशेन संबद्धः",
+      "sanskrit_iast": "māyāparigrahavaśād bodho malinaḥ pumān paśur bhavati |\nkālakalāniyatibalād rāgāvidyāvaśena saṃbaddhaḥ",
+      "source_line_start": 46,
+      "source_line_end": 47
+    },
+    {
+      "verse_id": "v_17",
+      "adhyaya": 17,
+      "pada": null,
+      "sutra_or_verse_num": "17",
+      "sanskrit_devanagari": "अधुनैव किंचिद् एवेदम् एव सर्वात्मनैव जानामि ।\nमायासहितं कञ्चुकषट्कम् अणोर् अन्तरङ्गम् इदम् उक्तम्",
+      "sanskrit_iast": "adhunaiva kiṃcid evedam eva sarvātmanaiva jānāmi |\nmāyāsahitaṃ kañcukaṣaṭkam aṇor antaraṅgam idam uktam",
+      "source_line_start": 49,
+      "source_line_end": 50
+    },
+    {
+      "verse_id": "v_18",
+      "adhyaya": 18,
+      "pada": null,
+      "sutra_or_verse_num": "18",
+      "sanskrit_devanagari": "कम्बुकम् इव त.ङ्दुलकणविनिविष्टं भिन्नम् अप्य् अभिदा ।\nभजते तत् तु विशुद्धिं शिवमार्गौन्मुख्ययोगेन",
+      "sanskrit_iast": "kambukam iva ta.ṅdulakaṇaviniviṣṭaṃ bhinnam apy abhidā |\nbhajate tat tu viśuddhiṃ śivamārgaunmukhyayogena",
+      "source_line_start": 52,
+      "source_line_end": 53
+    },
+    {
+      "verse_id": "v_19",
+      "adhyaya": 19,
+      "pada": null,
+      "sutra_or_verse_num": "19",
+      "sanskrit_devanagari": "सुखदुःखमोहमात्रं निश्चयसंकल्पनाभिमानाच् च ।\nप्रकृतिर् अथान्तःकरनं बुद्धिमनोऽहंकृतिक्रमशः",
+      "sanskrit_iast": "sukhaduḥkhamohamātraṃ niścayasaṃkalpanābhimānāc ca |\nprakṛtir athāntaḥkaranaṃ buddhimano'haṃkṛtikramaśaḥ",
+      "source_line_start": 55,
+      "source_line_end": 56
+    },
+    {
+      "verse_id": "v_20",
+      "adhyaya": 20,
+      "pada": null,
+      "sutra_or_verse_num": "20",
+      "sanskrit_devanagari": "श्रोत्रं त्वगक्षिरसना घ्राणं बुद्धीन्द्रियाणि शब्दादौ ।\nवाक्पाणिपादपायूपस्थं कर्मेन्द्रियाणि पुनः",
+      "sanskrit_iast": "śrotraṃ tvagakṣirasanā ghrāṇaṃ buddhīndriyāṇi śabdādau |\nvākpāṇipādapāyūpasthaṃ karmendriyāṇi punaḥ",
+      "source_line_start": 58,
+      "source_line_end": 59
+    },
+    {
+      "verse_id": "v_21",
+      "adhyaya": 21,
+      "pada": null,
+      "sutra_or_verse_num": "21",
+      "sanskrit_devanagari": "एषां ग्राह्यो विषयः सूक्ष्मः प्रविभागवर्जितो यः स्यात् ।\nतन्मात्रपञ्चकं तत् शब्दः स्पर्शो महो रसो गन्धः",
+      "sanskrit_iast": "eṣāṃ grāhyo viṣayaḥ sūkṣmaḥ pravibhāgavarjito yaḥ syāt |\ntanmātrapañcakaṃ tat śabdaḥ sparśo maho raso gandhaḥ",
+      "source_line_start": 61,
+      "source_line_end": 62
+    },
+    {
+      "verse_id": "v_22",
+      "adhyaya": 22,
+      "pada": null,
+      "sutra_or_verse_num": "22",
+      "sanskrit_devanagari": "एतत्संसर्गवशात् स्थूलो विषयस् तु भूतपञ्चकताम् ।\nअभ्येति नभः पवनस् तेजः सलिलं च पृथ्वी च",
+      "sanskrit_iast": "etatsaṃsargavaśāt sthūlo viṣayas tu bhūtapañcakatām |\nabhyeti nabhaḥ pavanas tejaḥ salilaṃ ca pṛthvī ca",
+      "source_line_start": 64,
+      "source_line_end": 65
+    },
+    {
+      "verse_id": "v_23",
+      "adhyaya": 23,
+      "pada": null,
+      "sutra_or_verse_num": "23",
+      "sanskrit_devanagari": "तुष इव त.ङ्दुलकणिकाम् आवृणुते प्रकृतिपूर्वकः सर्गः ।\nपृथ्वीपर्यन्तो ऽयं चैतन्यं देहभावेन",
+      "sanskrit_iast": "tuṣa iva ta.ṅdulakaṇikām āvṛṇute prakṛtipūrvakaḥ sargaḥ |\npṛthvīparyanto 'yaṃ caitanyaṃ dehabhāvena",
+      "source_line_start": 67,
+      "source_line_end": 68
+    },
+    {
+      "verse_id": "v_24",
+      "adhyaya": 24,
+      "pada": null,
+      "sutra_or_verse_num": "24",
+      "sanskrit_devanagari": "परम् आवरणं मल इह सूक्ष्मं मायादिकञ्चुकं स्थूलम् ।\nबाह्यं विग्रहरूपं कोशत्रयवेष्टितो ह्य् आत्मा",
+      "sanskrit_iast": "param āvaraṇaṃ mala iha sūkṣmaṃ māyādikañcukaṃ sthūlam |\nbāhyaṃ vigraharūpaṃ kośatrayaveṣṭito hy ātmā",
+      "source_line_start": 70,
+      "source_line_end": 71
+    },
+    {
+      "verse_id": "v_25",
+      "adhyaya": 25,
+      "pada": null,
+      "sutra_or_verse_num": "25",
+      "sanskrit_devanagari": "अज्ञानतिमिरयोगाद् एकम् अपि स्वं स्वभावम् आत्मानम् ।\nग्राह्यग्राहकनानावैचित्र्येणावबुध्येत",
+      "sanskrit_iast": "ajñānatimirayogād ekam api svaṃ svabhāvam ātmānam |\ngrāhyagrāhakanānāvaicitryeṇāvabudhyeta",
+      "source_line_start": 73,
+      "source_line_end": 74
+    },
+    {
+      "verse_id": "v_26",
+      "adhyaya": 26,
+      "pada": null,
+      "sutra_or_verse_num": "26",
+      "sanskrit_devanagari": "रसफाणितशर्करिकागुडख.ङ्दाद्या यथेक्षुरस एव ।\nतद्वद् अवस्था भेदाः सर्वे परमात्मनः शम्भोः",
+      "sanskrit_iast": "rasaphāṇitaśarkarikāguḍakha.ṅdādyā yathekṣurasa eva |\ntadvad avasthā bhedāḥ sarve paramātmanaḥ śambhoḥ",
+      "source_line_start": 76,
+      "source_line_end": 77
+    },
+    {
+      "verse_id": "v_27",
+      "adhyaya": 27,
+      "pada": null,
+      "sutra_or_verse_num": "27",
+      "sanskrit_devanagari": "विज्ञानान्तर्यामिप्राणविराड्देहजातिपि.ङ्दान्ताः ।\nव्यवहारमात्रम् एतत् परमार्थेन तु न सन्त्य् एव",
+      "sanskrit_iast": "vijñānāntaryāmiprāṇavirāḍdehajātipi.ṅdāntāḥ |\nvyavahāramātram etat paramārthena tu na santy eva",
+      "source_line_start": 79,
+      "source_line_end": 80
+    },
+    {
+      "verse_id": "v_28",
+      "adhyaya": 28,
+      "pada": null,
+      "sutra_or_verse_num": "28",
+      "sanskrit_devanagari": "रज्ज्वां नास्ति भुजङ्गस् त्रासं कुरुते च मृत्युपर्यन्तम् ।\nभ्रान्तेर् महती शक्तिर् न विवेक्तुं शक्यते नाम",
+      "sanskrit_iast": "rajjvāṃ nāsti bhujaṅgas trāsaṃ kurute ca mṛtyuparyantam |\nbhrānter mahatī śaktir na vivektuṃ śakyate nāma",
+      "source_line_start": 82,
+      "source_line_end": 83
+    },
+    {
+      "verse_id": "v_29",
+      "adhyaya": 29,
+      "pada": null,
+      "sutra_or_verse_num": "29",
+      "sanskrit_devanagari": "तद्वद् धर्माधर्मस्वर्निरयोत्पत्तिमरणसुखदुःखम् ।\nवर्णाश्रमादि चात्मन्य् असद् अपि विभ्रमबलाद् भवति",
+      "sanskrit_iast": "tadvad dharmādharmasvarnirayotpattimaraṇasukhaduḥkham |\nvarṇāśramādi cātmany asad api vibhramabalād bhavati",
+      "source_line_start": 85,
+      "source_line_end": 86
+    },
+    {
+      "verse_id": "v_30",
+      "adhyaya": 30,
+      "pada": null,
+      "sutra_or_verse_num": "30",
+      "sanskrit_devanagari": "एतत् तद् अन्धकारं यद् भावेषु प्रकाशमानतया ।\nआत्मानतिरिक्तेष्व् अपि भवत्य् अनात्माभिमानो ऽयम्",
+      "sanskrit_iast": "etat tad andhakāraṃ yad bhāveṣu prakāśamānatayā |\nātmānatirikteṣv api bhavaty anātmābhimāno 'yam",
+      "source_line_start": 88,
+      "source_line_end": 89
+    },
+    {
+      "verse_id": "v_31",
+      "adhyaya": 31,
+      "pada": null,
+      "sutra_or_verse_num": "31",
+      "sanskrit_devanagari": "तिमिराद् अपि तिमिरम् इदं ग.ङ्दस्योपरि महान् अयं स्फोटः ।\nयद् अनात्मन्य् अपि देहप्राणदाव् आत्ममानित्वम्",
+      "sanskrit_iast": "timirād api timiram idaṃ ga.ṅdasyopari mahān ayaṃ sphoṭaḥ |\nyad anātmany api dehaprāṇadāv ātmamānitvam",
+      "source_line_start": 91,
+      "source_line_end": 92
+    },
+    {
+      "verse_id": "v_32",
+      "adhyaya": 32,
+      "pada": null,
+      "sutra_or_verse_num": "32",
+      "sanskrit_devanagari": "देहप्राणविमर्शनधीज्ञाननभःप्रपञ्चयोगेन ।\nआत्मानम् वेष्टयते चित्रं जालेन जालकार इव",
+      "sanskrit_iast": "dehaprāṇavimarśanadhījñānanabhaḥprapañcayogena |\nātmānam veṣṭayate citraṃ jālena jālakāra iva",
+      "source_line_start": 94,
+      "source_line_end": 95
+    },
+    {
+      "verse_id": "v_33",
+      "adhyaya": 33,
+      "pada": null,
+      "sutra_or_verse_num": "33",
+      "sanskrit_devanagari": "स्वज्ञानविभवभासनयोगेनोद्वेष्टयेन् निजात्मानम् ।\nइति बन्धमोक्षचित्रां क्रीडां प्रतनोति परमशिवः",
+      "sanskrit_iast": "svajñānavibhavabhāsanayogenodveṣṭayen nijātmānam |\niti bandhamokṣacitrāṃ krīḍāṃ pratanoti paramaśivaḥ",
+      "source_line_start": 97,
+      "source_line_end": 98
+    },
+    {
+      "verse_id": "v_34",
+      "adhyaya": 34,
+      "pada": null,
+      "sutra_or_verse_num": "34",
+      "sanskrit_devanagari": "सृष्टिस्थितिसंहारा जाग्रत्स्वप्नौ सुषुप्तम् इति तस्मिन् ।\nभान्ति तुरीये धामनि तथापि तैर् नावृतं भाति",
+      "sanskrit_iast": "sṛṣṭisthitisaṃhārā jāgratsvapnau suṣuptam iti tasmin |\nbhānti turīye dhāmani tathāpi tair nāvṛtaṃ bhāti",
+      "source_line_start": 100,
+      "source_line_end": 101
+    },
+    {
+      "verse_id": "v_35",
+      "adhyaya": 35,
+      "pada": null,
+      "sutra_or_verse_num": "35",
+      "sanskrit_devanagari": "जाग्रद् विश्वं भेदात् स्वप्नस् तेजः प्रकाशमाहात्म्यात् ।\nप्राज्ञः सुप्तावस्था ज्ञानघनत्वात् ततः परं तुर्यम्",
+      "sanskrit_iast": "jāgrad viśvaṃ bhedāt svapnas tejaḥ prakāśamāhātmyāt |\nprājñaḥ suptāvasthā jñānaghanatvāt tataḥ paraṃ turyam",
+      "source_line_start": 103,
+      "source_line_end": 104
+    },
+    {
+      "verse_id": "v_36",
+      "adhyaya": 36,
+      "pada": null,
+      "sutra_or_verse_num": "36",
+      "sanskrit_devanagari": "जलधरधूमरजोभिर् मलिनीक्रियते यथा न गगनतलम् ।\nतद्वन् मायाविकृतिभिर् अपरामृष्टः परः पुरुषः",
+      "sanskrit_iast": "jaladharadhūmarajobhir malinīkriyate yathā na gaganatalam |\ntadvan māyāvikṛtibhir aparāmṛṣṭaḥ paraḥ puruṣaḥ",
+      "source_line_start": 106,
+      "source_line_end": 107
+    },
+    {
+      "verse_id": "v_37",
+      "adhyaya": 37,
+      "pada": null,
+      "sutra_or_verse_num": "37",
+      "sanskrit_devanagari": "एकस्मिन् घटगगने रजसा व्याप्ते भवन्ति नान्यानि ।\nमलिनानि तद्वद् एते जीवाः सुखदुःखभेदजुषः",
+      "sanskrit_iast": "ekasmin ghaṭagagane rajasā vyāpte bhavanti nānyāni |\nmalināni tadvad ete jīvāḥ sukhaduḥkhabhedajuṣaḥ",
+      "source_line_start": 109,
+      "source_line_end": 110
+    },
+    {
+      "verse_id": "v_38",
+      "adhyaya": 38,
+      "pada": null,
+      "sutra_or_verse_num": "38",
+      "sanskrit_devanagari": "शान्ते शान्त इवायं हृष्टे हृष्टो विमोहवति मूढः ।\nतत्त्वगणे सति भगवान् न पुनः परमार्थतः स तथा",
+      "sanskrit_iast": "śānte śānta ivāyaṃ hṛṣṭe hṛṣṭo vimohavati mūḍhaḥ |\ntattvagaṇe sati bhagavān na punaḥ paramārthataḥ sa tathā",
+      "source_line_start": 112,
+      "source_line_end": 113
+    },
+    {
+      "verse_id": "v_39",
+      "adhyaya": 39,
+      "pada": null,
+      "sutra_or_verse_num": "39",
+      "sanskrit_devanagari": "यद् अनात्मन्य् अपि तद्रूपावभासनं तत् पुरा निराकृत्य ।\nआत्मन्य् अनात्मरूपां भ्रान्तिं विदलयति परमात्मा",
+      "sanskrit_iast": "yad anātmany api tadrūpāvabhāsanaṃ tat purā nirākṛtya |\nātmany anātmarūpāṃ bhrāntiṃ vidalayati paramātmā",
+      "source_line_start": 115,
+      "source_line_end": 116
+    },
+    {
+      "verse_id": "v_40",
+      "adhyaya": 40,
+      "pada": null,
+      "sutra_or_verse_num": "40",
+      "sanskrit_devanagari": "इत्थं विभ्रमयुगलकसमूलविच्छेदने कृतार्थस्य ।\nकर्तव्यान्तरकलना न जातु परयोगिनो भवति",
+      "sanskrit_iast": "itthaṃ vibhramayugalakasamūlavicchedane kṛtārthasya |\nkartavyāntarakalanā na jātu parayogino bhavati",
+      "source_line_start": 118,
+      "source_line_end": 119
+    },
+    {
+      "verse_id": "v_41",
+      "adhyaya": 41,
+      "pada": null,
+      "sutra_or_verse_num": "41",
+      "sanskrit_devanagari": "पृथिवी प्रकृतिर् माया त्रितयम् इदं वेद्यरूपतापतितम् ।\nअद्वैतभावनबलाद् भवति हि सन्मात्रपरिशेषम्",
+      "sanskrit_iast": "pṛthivī prakṛtir māyā tritayam idaṃ vedyarūpatāpatitam |\nadvaitabhāvanabalād bhavati hi sanmātrapariśeṣam",
+      "source_line_start": 121,
+      "source_line_end": 122
+    },
+    {
+      "verse_id": "v_42",
+      "adhyaya": 42,
+      "pada": null,
+      "sutra_or_verse_num": "42",
+      "sanskrit_devanagari": "रशनाकु.ङ्दलकटकं भेदत्यागेन दृश्यते यथा हेम ।\nतद्वद् भेदत्यागे सन्मात्रं सर्वम् आभाति",
+      "sanskrit_iast": "raśanāku.ṅdalakaṭakaṃ bhedatyāgena dṛśyate yathā hema |\ntadvad bhedatyāge sanmātraṃ sarvam ābhāti",
+      "source_line_start": 124,
+      "source_line_end": 125
+    },
+    {
+      "verse_id": "v_43",
+      "adhyaya": 43,
+      "pada": null,
+      "sutra_or_verse_num": "43",
+      "sanskrit_devanagari": "तद् ब्रह्म परं शुद्धं शान्तं अभेदात्मकं समं सकलम् ।\nअमृतं सत्यं शक्तौ विश्राम्यति भास्वरूपायाम्",
+      "sanskrit_iast": "tad brahma paraṃ śuddhaṃ śāntaṃ abhedātmakaṃ samaṃ sakalam |\namṛtaṃ satyaṃ śaktau viśrāmyati bhāsvarūpāyām",
+      "source_line_start": 127,
+      "source_line_end": 128
+    },
+    {
+      "verse_id": "v_44",
+      "adhyaya": 44,
+      "pada": null,
+      "sutra_or_verse_num": "44",
+      "sanskrit_devanagari": "इष्यत इति वेद्यत इति संपाद्यत इति च भास्वरूपेण ।\nअपरामृष्टं यद् अपि तु नभःप्रसूनत्वम् अभ्येति",
+      "sanskrit_iast": "iṣyata iti vedyata iti saṃpādyata iti ca bhāsvarūpeṇa |\naparāmṛṣṭaṃ yad api tu nabhaḥprasūnatvam abhyeti",
+      "source_line_start": 130,
+      "source_line_end": 131
+    },
+    {
+      "verse_id": "v_45",
+      "adhyaya": 45,
+      "pada": null,
+      "sutra_or_verse_num": "45",
+      "sanskrit_devanagari": "शक्तित्रिशूलपरिगमयोगेन समस्तम् अपि परमेशे ।\nशिवनामनि परमार्थे विसृज्यते देवदेवेन",
+      "sanskrit_iast": "śaktitriśūlaparigamayogena samastam api parameśe |\nśivanāmani paramārthe visṛjyate devadevena",
+      "source_line_start": 133,
+      "source_line_end": 134
+    },
+    {
+      "verse_id": "v_46",
+      "adhyaya": 46,
+      "pada": null,
+      "sutra_or_verse_num": "46",
+      "sanskrit_devanagari": "पुनर् अपि च पञ्चशक्तिप्रसरणक्रमेण बहिर् अपि तत् ।\nअ.ङ्दत्रयं विचित्रं सृष्टं बहिरात्मलाभेन",
+      "sanskrit_iast": "punar api ca pañcaśaktiprasaraṇakrameṇa bahir api tat |\na.ṅdatrayaṃ vicitraṃ sṛṣṭaṃ bahirātmalābhena",
+      "source_line_start": 136,
+      "source_line_end": 137
+    },
+    {
+      "verse_id": "v_47",
+      "adhyaya": 47,
+      "pada": null,
+      "sutra_or_verse_num": "47",
+      "sanskrit_devanagari": "इति शक्तिचक्रयन्त्रं क्रीडायोगेन वाहयन् देवः ।\nअहम् एव शुद्धरूपः शक्तिमहाचक्रनायकपदस्थः",
+      "sanskrit_iast": "iti śakticakrayantraṃ krīḍāyogena vāhayan devaḥ |\naham eva śuddharūpaḥ śaktimahācakranāyakapadasthaḥ",
+      "source_line_start": 139,
+      "source_line_end": 140
+    },
+    {
+      "verse_id": "v_48",
+      "adhyaya": 48,
+      "pada": null,
+      "sutra_or_verse_num": "48",
+      "sanskrit_devanagari": "मय्य् एव भाति विश्वं दर्पण इव निर्मले घतादीनि ।\nमत्तः प्रसरति सर्वं स्वप्नविचित्रत्वम् इव सुप्तात्",
+      "sanskrit_iast": "mayy eva bhāti viśvaṃ darpaṇa iva nirmale ghatādīni |\nmattaḥ prasarati sarvaṃ svapnavicitratvam iva suptāt",
+      "source_line_start": 142,
+      "source_line_end": 143
+    },
+    {
+      "verse_id": "v_49",
+      "adhyaya": 49,
+      "pada": null,
+      "sutra_or_verse_num": "49",
+      "sanskrit_devanagari": "अहम् एव विश्वरूपः करचरनादिस्वभाव इव देहः ।\nसर्वस्मिन् अहम् एव स्फुरामि भावेषु भास्वरूपम् इव",
+      "sanskrit_iast": "aham eva viśvarūpaḥ karacaranādisvabhāva iva dehaḥ |\nsarvasmin aham eva sphurāmi bhāveṣu bhāsvarūpam iva",
+      "source_line_start": 145,
+      "source_line_end": 146
+    },
+    {
+      "verse_id": "v_50",
+      "adhyaya": 50,
+      "pada": null,
+      "sutra_or_verse_num": "50",
+      "sanskrit_devanagari": "द्रष्टा श्रोता घ्राता देहेन्द्रियवर्जितो ऽप्य् अकर्तापि ।\nसिद्धान्तागमतर्कांश् चित्रान् अहम् एव रचयामि",
+      "sanskrit_iast": "draṣṭā śrotā ghrātā dehendriyavarjito 'py akartāpi |\nsiddhāntāgamatarkāṃś citrān aham eva racayāmi",
+      "source_line_start": 148,
+      "source_line_end": 149
+    },
+    {
+      "verse_id": "v_51",
+      "adhyaya": 51,
+      "pada": null,
+      "sutra_or_verse_num": "51",
+      "sanskrit_devanagari": "इत्थं द्वैतविकल्पे गलिते प्रविलङ्घ्य मोहिनीं मायाम् ।\nसलिले सलिलं क्षीरे क्षीरम् इव ब्रह्मणि लयी स्यात्",
+      "sanskrit_iast": "itthaṃ dvaitavikalpe galite pravilaṅghya mohinīṃ māyām |\nsalile salilaṃ kṣīre kṣīram iva brahmaṇi layī syāt",
+      "source_line_start": 151,
+      "source_line_end": 152
+    },
+    {
+      "verse_id": "v_52",
+      "adhyaya": 52,
+      "pada": null,
+      "sutra_or_verse_num": "52",
+      "sanskrit_devanagari": "इत्थं तत्त्वसमूहे भावनया शिवमयत्वम् अभियाते ।\nकः शोकः को मोहः सर्वं ब्रह्मावलोकयतः",
+      "sanskrit_iast": "itthaṃ tattvasamūhe bhāvanayā śivamayatvam abhiyāte |\nkaḥ śokaḥ ko mohaḥ sarvaṃ brahmāvalokayataḥ",
+      "source_line_start": 154,
+      "source_line_end": 155
+    },
+    {
+      "verse_id": "v_53",
+      "adhyaya": 53,
+      "pada": null,
+      "sutra_or_verse_num": "53",
+      "sanskrit_devanagari": "कर्मफलं शुभम् अशुभं मिथ्याज्ञानेन संगमाद् एव ।\nविषमो हि सङ्गदोषस् तस्करयोगो ऽप्य् अतस्करस्येव",
+      "sanskrit_iast": "karmaphalaṃ śubham aśubhaṃ mithyājñānena saṃgamād eva |\nviṣamo hi saṅgadoṣas taskarayogo 'py ataskarasyeva",
+      "source_line_start": 157,
+      "source_line_end": 158
+    },
+    {
+      "verse_id": "v_54",
+      "adhyaya": 54,
+      "pada": null,
+      "sutra_or_verse_num": "54",
+      "sanskrit_devanagari": "लोकव्यवहारकृतां य इहाविद्याम् उपासते मूढाः ।\nते यान्ति जन्ममृत्यू धर्माधर्मार्गलाबद्धाः",
+      "sanskrit_iast": "lokavyavahārakṛtāṃ ya ihāvidyām upāsate mūḍhāḥ |\nte yānti janmamṛtyū dharmādharmārgalābaddhāḥ",
+      "source_line_start": 160,
+      "source_line_end": 161
+    },
+    {
+      "verse_id": "v_55",
+      "adhyaya": 55,
+      "pada": null,
+      "sutra_or_verse_num": "55",
+      "sanskrit_devanagari": "अज्ञानकालनिचितं धर्माधर्मात्मकं तु कर्मापि ।\nचिरसंचितम् इव तूलं नश्यति विज्ञानदीप्तिवशात्",
+      "sanskrit_iast": "ajñānakālanicitaṃ dharmādharmātmakaṃ tu karmāpi |\ncirasaṃcitam iva tūlaṃ naśyati vijñānadīptivaśāt",
+      "source_line_start": 163,
+      "source_line_end": 164
+    },
+    {
+      "verse_id": "v_56",
+      "adhyaya": 56,
+      "pada": null,
+      "sutra_or_verse_num": "56",
+      "sanskrit_devanagari": "ज्ञानप्राप्तौ कृतम् अपि न फलाय ततो ऽस्य जन्म कथम् ।\nगतजन्मबन्धयोगो भाति शिवार्कः स्वदीधितिभिः",
+      "sanskrit_iast": "jñānaprāptau kṛtam api na phalāya tato 'sya janma katham |\ngatajanmabandhayogo bhāti śivārkaḥ svadīdhitibhiḥ",
+      "source_line_start": 166,
+      "source_line_end": 167
+    },
+    {
+      "verse_id": "v_57",
+      "adhyaya": 57,
+      "pada": null,
+      "sutra_or_verse_num": "57",
+      "sanskrit_devanagari": "तुषकम्बुककिंशारुकमुक्तं बीजं यथाङ्कुरं कुरुते ।\nनैव तथाणवमायाकर्मविमुक्तो भवाङ्कुरं ह्य् आत्मा",
+      "sanskrit_iast": "tuṣakambukakiṃśārukamuktaṃ bījaṃ yathāṅkuraṃ kurute |\nnaiva tathāṇavamāyākarmavimukto bhavāṅkuraṃ hy ātmā",
+      "source_line_start": 169,
+      "source_line_end": 170
+    },
+    {
+      "verse_id": "v_58",
+      "adhyaya": 58,
+      "pada": null,
+      "sutra_or_verse_num": "58",
+      "sanskrit_devanagari": "आत्मज्ञो न कुतश्चन बिभेति सर्वं हि तस्य निजरूपम् ।\nनैव च शोचति यस्मात् परमार्थे नाशिता नास्ति",
+      "sanskrit_iast": "ātmajño na kutaścana bibheti sarvaṃ hi tasya nijarūpam |\nnaiva ca śocati yasmāt paramārthe nāśitā nāsti",
+      "source_line_start": 172,
+      "source_line_end": 173
+    },
+    {
+      "verse_id": "v_59",
+      "adhyaya": 59,
+      "pada": null,
+      "sutra_or_verse_num": "59",
+      "sanskrit_devanagari": "अतिगूढहृदयगञ्जप्ररूढपरमार्थरत्नसंचयतः ।\nअहम् एवेति महेश्वरभावे का दुर्गतिः कस्य",
+      "sanskrit_iast": "atigūḍhahṛdayagañjaprarūḍhaparamārtharatnasaṃcayataḥ |\naham eveti maheśvarabhāve kā durgatiḥ kasya",
+      "source_line_start": 175,
+      "source_line_end": 176
+    },
+    {
+      "verse_id": "v_60",
+      "adhyaya": 60,
+      "pada": null,
+      "sutra_or_verse_num": "60",
+      "sanskrit_devanagari": "मोक्षस्य नैव किंचिद् धामास्ति न चापि गमनम् अन्यत्र ।\nअज्ञानग्रन्थिभिदा स्वशक्त्यभिव्यक्तता मोक्षः",
+      "sanskrit_iast": "mokṣasya naiva kiṃcid dhāmāsti na cāpi gamanam anyatra |\najñānagranthibhidā svaśaktyabhivyaktatā mokṣaḥ",
+      "source_line_start": 178,
+      "source_line_end": 179
+    },
+    {
+      "verse_id": "v_61",
+      "adhyaya": 61,
+      "pada": null,
+      "sutra_or_verse_num": "61",
+      "sanskrit_devanagari": "भिन्नाज्ञानग्रन्थिर् गतसंदेहः पराकृतभ्रान्तिः ।\nप्रक्षीणपुण्यपापो विग्रहयोगे ऽप्य् असौ मुक्तः",
+      "sanskrit_iast": "bhinnājñānagranthir gatasaṃdehaḥ parākṛtabhrāntiḥ |\nprakṣīṇapuṇyapāpo vigrahayoge 'py asau muktaḥ",
+      "source_line_start": 181,
+      "source_line_end": 182
+    },
+    {
+      "verse_id": "v_62",
+      "adhyaya": 62,
+      "pada": null,
+      "sutra_or_verse_num": "62",
+      "sanskrit_devanagari": "अग्न्यभिदग्धं बीजं यथा प्ररोहासमर्थताम् एति ।\nज्ञानाग्निदग्धम् एवं कर्म न जन्मप्रदं भवति",
+      "sanskrit_iast": "agnyabhidagdhaṃ bījaṃ yathā prarohāsamarthatām eti |\njñānāgnidagdham evaṃ karma na janmapradaṃ bhavati",
+      "source_line_start": 184,
+      "source_line_end": 185
+    },
+    {
+      "verse_id": "v_63",
+      "adhyaya": 63,
+      "pada": null,
+      "sutra_or_verse_num": "63",
+      "sanskrit_devanagari": "परिमितबुद्धित्वेन हि कर्मोचितभाविदेहभावनया ।\nसङ्कुचिता चितिर् एतद्देहध्वंसे तथा भाति",
+      "sanskrit_iast": "parimitabuddhitvena hi karmocitabhāvidehabhāvanayā |\nsaṅkucitā citir etaddehadhvaṃse tathā bhāti",
+      "source_line_start": 187,
+      "source_line_end": 188
+    },
+    {
+      "verse_id": "v_64",
+      "adhyaya": 64,
+      "pada": null,
+      "sutra_or_verse_num": "64",
+      "sanskrit_devanagari": "यदि पुनर् अमलं बोधं सर्वसमुत्तीर्नबोद्धृकर्तृमयम् ।\nविततम् अनस्तमितोदितभारूपम् सत्यसंकल्पम्",
+      "sanskrit_iast": "yadi punar amalaṃ bodhaṃ sarvasamuttīrnaboddhṛkartṛmayam |\nvitatam anastamitoditabhārūpam satyasaṃkalpam",
+      "source_line_start": 190,
+      "source_line_end": 191
+    },
+    {
+      "verse_id": "v_65",
+      "adhyaya": 65,
+      "pada": null,
+      "sutra_or_verse_num": "65",
+      "sanskrit_devanagari": "दिक्कालकलनविकलं ध्रुवम् अव्ययम् ईश्वरं सुपरिपूर्णम् ।\nबहुतरशक्तिव्रातप्रलयोदयविरचनैककर्तारम्",
+      "sanskrit_iast": "dikkālakalanavikalaṃ dhruvam avyayam īśvaraṃ suparipūrṇam |\nbahutaraśaktivrātapralayodayaviracanaikakartāram",
+      "source_line_start": 193,
+      "source_line_end": 194
+    },
+    {
+      "verse_id": "v_66",
+      "adhyaya": 66,
+      "pada": null,
+      "sutra_or_verse_num": "66",
+      "sanskrit_devanagari": "सृष्ट्यादिविधिसुवेधसम् आत्मानं शिवमयं विबुध्येत ।\nकथम् इव संसारी स्याद् विततस्य कुतः क्व वा सरणम्",
+      "sanskrit_iast": "sṛṣṭyādividhisuvedhasam ātmānaṃ śivamayaṃ vibudhyeta |\nkatham iva saṃsārī syād vitatasya kutaḥ kva vā saraṇam",
+      "source_line_start": 196,
+      "source_line_end": 197
+    },
+    {
+      "verse_id": "v_67",
+      "adhyaya": 67,
+      "pada": null,
+      "sutra_or_verse_num": "67",
+      "sanskrit_devanagari": "इति युक्तिभिर् अपि सिद्धं यत्कर्म ज्ञानिनो न सफलं तत् ।\nन ममेदम् अपि तु तस्येति दार्ढ्यतो न हि फलं लोके",
+      "sanskrit_iast": "iti yuktibhir api siddhaṃ yatkarma jñānino na saphalaṃ tat |\nna mamedam api tu tasyeti dārḍhyato na hi phalaṃ loke",
+      "source_line_start": 199,
+      "source_line_end": 200
+    },
+    {
+      "verse_id": "v_68",
+      "adhyaya": 68,
+      "pada": null,
+      "sutra_or_verse_num": "68",
+      "sanskrit_devanagari": "इत्थं सकलविकल्पान् प्रतिबुद्धो भावनासमीरणतः ।\nआत्मज्योतिषि दीप्ते जुह्वज् ज्योतिर्मयो भवति",
+      "sanskrit_iast": "itthaṃ sakalavikalpān pratibuddho bhāvanāsamīraṇataḥ |\nātmajyotiṣi dīpte juhvaj jyotirmayo bhavati",
+      "source_line_start": 202,
+      "source_line_end": 203
+    },
+    {
+      "verse_id": "v_69",
+      "adhyaya": 69,
+      "pada": null,
+      "sutra_or_verse_num": "69",
+      "sanskrit_devanagari": "अश्नन् यद् वा तद् वा संवीतो येन केनचिच् छान्तः ।\nयत्र क्वचन निवासी विमुच्यते सर्वभूतात्मा",
+      "sanskrit_iast": "aśnan yad vā tad vā saṃvīto yena kenacic chāntaḥ |\nyatra kvacana nivāsī vimucyate sarvabhūtātmā",
+      "source_line_start": 205,
+      "source_line_end": 206
+    },
+    {
+      "verse_id": "v_70",
+      "adhyaya": 70,
+      "pada": null,
+      "sutra_or_verse_num": "70",
+      "sanskrit_devanagari": "हयमेधशतसहस्राण्य् अपि कुरुते ब्रह्मघातलक्षाणि ।\nपरमार्थविन् न पुण्यैर् न च पापैः स्पृश्यते विमलः",
+      "sanskrit_iast": "hayamedhaśatasahasrāṇy api kurute brahmaghātalakṣāṇi |\nparamārthavin na puṇyair na ca pāpaiḥ spṛśyate vimalaḥ",
+      "source_line_start": 208,
+      "source_line_end": 209
+    },
+    {
+      "verse_id": "v_71",
+      "adhyaya": 71,
+      "pada": null,
+      "sutra_or_verse_num": "71",
+      "sanskrit_devanagari": "मदहर्षकोपमन्मथविषादभयलोभमोहपरिवर्जी ।\nनिःस्तोत्रवषट्कारो जड इव विचरेद् अवादमतिः",
+      "sanskrit_iast": "madaharṣakopamanmathaviṣādabhayalobhamohaparivarjī |\nniḥstotravaṣaṭkāro jaḍa iva vicared avādamatiḥ",
+      "source_line_start": 211,
+      "source_line_end": 212
+    },
+    {
+      "verse_id": "v_72",
+      "adhyaya": 72,
+      "pada": null,
+      "sutra_or_verse_num": "72",
+      "sanskrit_devanagari": "मदहर्षप्रभृतिर् अयं वर्गः प्रभवति विभेदसंमोहात् ।\nअद्वैतात्मविबोधस् तेन कथं स्पृश्यतां नाम",
+      "sanskrit_iast": "madaharṣaprabhṛtir ayaṃ vargaḥ prabhavati vibhedasaṃmohāt |\nadvaitātmavibodhas tena kathaṃ spṛśyatāṃ nāma",
+      "source_line_start": 214,
+      "source_line_end": 215
+    },
+    {
+      "verse_id": "v_73",
+      "adhyaya": 73,
+      "pada": null,
+      "sutra_or_verse_num": "73",
+      "sanskrit_devanagari": "स्तुत्यं वा होतव्यं नास्ति व्यतिरिक्तम् अस्य किंचन च ।\nस्तोत्रादिना स तुष्येन् मुक्तस् तन् निर्नमस्कृतिवषट्कः",
+      "sanskrit_iast": "stutyaṃ vā hotavyaṃ nāsti vyatiriktam asya kiṃcana ca |\nstotrādinā sa tuṣyen muktas tan nirnamaskṛtivaṣaṭkaḥ",
+      "source_line_start": 217,
+      "source_line_end": 218
+    },
+    {
+      "verse_id": "v_74",
+      "adhyaya": 74,
+      "pada": null,
+      "sutra_or_verse_num": "74",
+      "sanskrit_devanagari": "षट्त्रिंशत्तत्त्वभृतं विग्रहरचनागवाक्षपरिपूर्णम् ।\nनिजम् अन्यद् अथ शरीरं घटादि वा तस्य देवगृहम्",
+      "sanskrit_iast": "ṣaṭtriṃśattattvabhṛtaṃ vigraharacanāgavākṣaparipūrṇam |\nnijam anyad atha śarīraṃ ghaṭādi vā tasya devagṛham",
+      "source_line_start": 220,
+      "source_line_end": 221
+    },
+    {
+      "verse_id": "v_75",
+      "adhyaya": 75,
+      "pada": null,
+      "sutra_or_verse_num": "75",
+      "sanskrit_devanagari": "तत्र च परमात्ममहाभैरवशिवदेवतां स्वशक्तियुताम् ।\nआत्मामर्शनविमलद्रव्यैः परिपूजयन्न् आस्ते",
+      "sanskrit_iast": "tatra ca paramātmamahābhairavaśivadevatāṃ svaśaktiyutām |\nātmāmarśanavimaladravyaiḥ paripūjayann āste",
+      "source_line_start": 223,
+      "source_line_end": 224
+    },
+    {
+      "verse_id": "v_76",
+      "adhyaya": 76,
+      "pada": null,
+      "sutra_or_verse_num": "76",
+      "sanskrit_devanagari": "बहिरन्तरपरिकल्पनभेदमहाबीजनिचयम् अर्पयतः ।\nतस्यातिदीप्तसंविज्ज्वलने यत्नाद् विना भवति होमः",
+      "sanskrit_iast": "bahirantaraparikalpanabhedamahābījanicayam arpayataḥ |\ntasyātidīptasaṃvijjvalane yatnād vinā bhavati homaḥ",
+      "source_line_start": 226,
+      "source_line_end": 227
+    },
+    {
+      "verse_id": "v_77",
+      "adhyaya": 77,
+      "pada": null,
+      "sutra_or_verse_num": "77",
+      "sanskrit_devanagari": "ध्यानम् अनस्तमितं पुनर् एष हि भगवान् विचित्ररूपाणि ।\nसृजति तद् एव ध्यानं संकल्पालिखितसत्यरूपत्वम्",
+      "sanskrit_iast": "dhyānam anastamitaṃ punar eṣa hi bhagavān vicitrarūpāṇi |\nsṛjati tad eva dhyānaṃ saṃkalpālikhitasatyarūpatvam",
+      "source_line_start": 229,
+      "source_line_end": 230
+    },
+    {
+      "verse_id": "v_78",
+      "adhyaya": 78,
+      "pada": null,
+      "sutra_or_verse_num": "78",
+      "sanskrit_devanagari": "भुवनावलीं समस्तां तत्त्वक्रमकल्पनाम् अथाक्षगणम् ।\nअन्तर्बोधे परिवर्तयति च यत् सो ऽस्य जप उदितः",
+      "sanskrit_iast": "bhuvanāvalīṃ samastāṃ tattvakramakalpanām athākṣagaṇam |\nantarbodhe parivartayati ca yat so 'sya japa uditaḥ",
+      "source_line_start": 232,
+      "source_line_end": 233
+    },
+    {
+      "verse_id": "v_79",
+      "adhyaya": 79,
+      "pada": null,
+      "sutra_or_verse_num": "79",
+      "sanskrit_devanagari": "सर्वं समया दृष्ट्या यत् पश्यति यच् च संविदं मनुते ।\nविश्वश्मशाननिरतां विग्रहखट्वाङ्गकल्पनाकलिताम्",
+      "sanskrit_iast": "sarvaṃ samayā dṛṣṭyā yat paśyati yac ca saṃvidaṃ manute |\nviśvaśmaśānaniratāṃ vigrahakhaṭvāṅgakalpanākalitām",
+      "source_line_start": 235,
+      "source_line_end": 236
+    },
+    {
+      "verse_id": "v_80",
+      "adhyaya": 80,
+      "pada": null,
+      "sutra_or_verse_num": "80",
+      "sanskrit_devanagari": "विश्वरसासवपूर्णं निजकरगं वेद्यख.ङ्दककपालम् ।\nरसयति च यत् तद् एतद् व्रतम् अस्य सुदुर्लभं च सुलभं च",
+      "sanskrit_iast": "viśvarasāsavapūrṇaṃ nijakaragaṃ vedyakha.ṅdakakapālam |\nrasayati ca yat tad etad vratam asya sudurlabhaṃ ca sulabhaṃ ca",
+      "source_line_start": 238,
+      "source_line_end": 239
+    },
+    {
+      "verse_id": "v_81",
+      "adhyaya": 81,
+      "pada": null,
+      "sutra_or_verse_num": "81",
+      "sanskrit_devanagari": "इति जन्मनाशहीनं परमार्थमहेश्वराख्यम् उपलभ्य ।\nउपलब्धृताप्रकाशात् कृतकृत्यस् तिष्ठति यथेष्टम्",
+      "sanskrit_iast": "iti janmanāśahīnaṃ paramārthamaheśvarākhyam upalabhya |\nupalabdhṛtāprakāśāt kṛtakṛtyas tiṣṭhati yatheṣṭam",
+      "source_line_start": 241,
+      "source_line_end": 242
+    },
+    {
+      "verse_id": "v_82",
+      "adhyaya": 82,
+      "pada": null,
+      "sutra_or_verse_num": "82",
+      "sanskrit_devanagari": "व्यापिनम् अभिहितम् इत्थं सर्वात्मानं विधूतनानात्वम् ।\nनिरुपमपरमानन्दं यो वेत्ति स तन्मयो भवति",
+      "sanskrit_iast": "vyāpinam abhihitam itthaṃ sarvātmānaṃ vidhūtanānātvam |\nnirupamaparamānandaṃ yo vetti sa tanmayo bhavati",
+      "source_line_start": 244,
+      "source_line_end": 245
+    },
+    {
+      "verse_id": "v_83",
+      "adhyaya": 83,
+      "pada": null,
+      "sutra_or_verse_num": "83",
+      "sanskrit_devanagari": "तीर्थे श्वपचगृहे वा नष्टस्मृतिर् अपि परित्यजन् देहम् ।\nज्ञानसमकालमुक्तः कैवल्यं याति हतशोकः",
+      "sanskrit_iast": "tīrthe śvapacagṛhe vā naṣṭasmṛtir api parityajan deham |\njñānasamakālamuktaḥ kaivalyaṃ yāti hataśokaḥ",
+      "source_line_start": 247,
+      "source_line_end": 248
+    },
+    {
+      "verse_id": "v_84",
+      "adhyaya": 84,
+      "pada": null,
+      "sutra_or_verse_num": "84",
+      "sanskrit_devanagari": "पुण्याय तीर्थसेवा निरयाय श्वपचसदननिधनगतिः ।\nपुण्यापुण्यकलङ्कस्पर्शाभावे तु किं तेन",
+      "sanskrit_iast": "puṇyāya tīrthasevā nirayāya śvapacasadananidhanagatiḥ |\npuṇyāpuṇyakalaṅkasparśābhāve tu kiṃ tena",
+      "source_line_start": 250,
+      "source_line_end": 251
+    },
+    {
+      "verse_id": "v_85",
+      "adhyaya": 85,
+      "pada": null,
+      "sutra_or_verse_num": "85",
+      "sanskrit_devanagari": "तुषकम्बुकसुपृथक्कृतत.ङ्दुलकणतुषदलान्तरक्षेपः ।\nत.ङ्दुलकणस्य कुरुते न पुनस् तद्रूपतादात्म्यम्",
+      "sanskrit_iast": "tuṣakambukasupṛthakkṛtata.ṅdulakaṇatuṣadalāntarakṣepaḥ |\nta.ṅdulakaṇasya kurute na punas tadrūpatādātmyam",
+      "source_line_start": 253,
+      "source_line_end": 254
+    },
+    {
+      "verse_id": "v_86",
+      "adhyaya": 86,
+      "pada": null,
+      "sutra_or_verse_num": "86",
+      "sanskrit_devanagari": "तद्वत् कञ्चुकपटलीपृथक्कृता संविद् अत्र संस्कारात् ।\nतिष्ठन्त्य् अपि मुक्तात्मा तत्स्पर्शविवर्जिता भवति",
+      "sanskrit_iast": "tadvat kañcukapaṭalīpṛthakkṛtā saṃvid atra saṃskārāt |\ntiṣṭhanty api muktātmā tatsparśavivarjitā bhavati",
+      "source_line_start": 256,
+      "source_line_end": 257
+    },
+    {
+      "verse_id": "v_87",
+      "adhyaya": 87,
+      "pada": null,
+      "sutra_or_verse_num": "87",
+      "sanskrit_devanagari": "कुशलतमशिल्पिकल्पितविमलीभावः समुद्गकोपाधेः ।\nमलिनो ऽपि मणिर् उपाधेर् विच्छेदे स्वच्छपरमार्थः",
+      "sanskrit_iast": "kuśalatamaśilpikalpitavimalībhāvaḥ samudgakopādheḥ |\nmalino 'pi maṇir upādher vicchede svacchaparamārthaḥ",
+      "source_line_start": 259,
+      "source_line_end": 260
+    },
+    {
+      "verse_id": "v_88",
+      "adhyaya": 88,
+      "pada": null,
+      "sutra_or_verse_num": "88",
+      "sanskrit_devanagari": "एवं सद्गुरुशासनविमलस्थिति वेदनं तनूपाधेः ।\nमुक्तम् अप्य् उपाध्यन्तरशून्यम् इवाभाति शिवरूपम्",
+      "sanskrit_iast": "evaṃ sadguruśāsanavimalasthiti vedanaṃ tanūpādheḥ |\nmuktam apy upādhyantaraśūnyam ivābhāti śivarūpam",
+      "source_line_start": 262,
+      "source_line_end": 263
+    },
+    {
+      "verse_id": "v_89",
+      "adhyaya": 89,
+      "pada": null,
+      "sutra_or_verse_num": "89",
+      "sanskrit_devanagari": "शास्त्रादिप्रामाण्याद् अविचलितश्रद्धयापि तन्मयताम् ।\nप्राप्तः स एव पूर्वं स्वर्गं नरकं मनुष्यत्वम्",
+      "sanskrit_iast": "śāstrādiprāmāṇyād avicalitaśraddhayāpi tanmayatām |\nprāptaḥ sa eva pūrvaṃ svargaṃ narakaṃ manuṣyatvam",
+      "source_line_start": 265,
+      "source_line_end": 266
+    },
+    {
+      "verse_id": "v_90",
+      "adhyaya": 90,
+      "pada": null,
+      "sutra_or_verse_num": "90",
+      "sanskrit_devanagari": "अन्त्यः क्षणस् तु तस्मिन् पुण्यां पापां च वा स्थितिं पुष्यन् ।\nमूढानां सहकारीभावं गच्छति गतौ तु न स हेतुः",
+      "sanskrit_iast": "antyaḥ kṣaṇas tu tasmin puṇyāṃ pāpāṃ ca vā sthitiṃ puṣyan |\nmūḍhānāṃ sahakārībhāvaṃ gacchati gatau tu na sa hetuḥ",
+      "source_line_start": 268,
+      "source_line_end": 269
+    },
+    {
+      "verse_id": "v_91",
+      "adhyaya": 91,
+      "pada": null,
+      "sutra_or_verse_num": "91",
+      "sanskrit_devanagari": "ये ऽपि तदात्मत्वेन विदुः पशुपक्षिसरीसृपादयः स्वगतिम् ।\nते ऽपि पुरातनसंबोधसंस्कृतास् तां गतिं यान्ति",
+      "sanskrit_iast": "ye 'pi tadātmatvena viduḥ paśupakṣisarīsṛpādayaḥ svagatim |\nte 'pi purātanasaṃbodhasaṃskṛtās tāṃ gatiṃ yānti",
+      "source_line_start": 271,
+      "source_line_end": 272
+    },
+    {
+      "verse_id": "v_92",
+      "adhyaya": 92,
+      "pada": null,
+      "sutra_or_verse_num": "92",
+      "sanskrit_devanagari": "स्वर्गमयो निरयमयस् तद् अयं देहान्तरालगः पुरुषः ।\nतद्भङ्गे स्वौचित्याद् देहान्तरयोगम् अभ्येति",
+      "sanskrit_iast": "svargamayo nirayamayas tad ayaṃ dehāntarālagaḥ puruṣaḥ |\ntadbhaṅge svaucityād dehāntarayogam abhyeti",
+      "source_line_start": 274,
+      "source_line_end": 275
+    },
+    {
+      "verse_id": "v_93",
+      "adhyaya": 93,
+      "pada": null,
+      "sutra_or_verse_num": "93",
+      "sanskrit_devanagari": "एवं ज्ञानावसरे स्वात्मा सकृद् अस्य यादृग् अवभातः ।\nतादृश एव तदासौ न देहपाते ऽन्यथा भवति",
+      "sanskrit_iast": "evaṃ jñānāvasare svātmā sakṛd asya yādṛg avabhātaḥ |\ntādṛśa eva tadāsau na dehapāte 'nyathā bhavati",
+      "source_line_start": 277,
+      "source_line_end": 278
+    },
+    {
+      "verse_id": "v_94",
+      "adhyaya": 94,
+      "pada": null,
+      "sutra_or_verse_num": "94",
+      "sanskrit_devanagari": "करणगणसंप्रमोषः स्मृतिनाशः श्वासकलिलता च्छेदः ।\nमर्मसु रुजाविशेषाः शरीरसंस्कारजो भोगः",
+      "sanskrit_iast": "karaṇagaṇasaṃpramoṣaḥ smṛtināśaḥ śvāsakalilatā cchedaḥ |\nmarmasu rujāviśeṣāḥ śarīrasaṃskārajo bhogaḥ",
+      "source_line_start": 280,
+      "source_line_end": 281
+    },
+    {
+      "verse_id": "v_95",
+      "adhyaya": 95,
+      "pada": null,
+      "sutra_or_verse_num": "95",
+      "sanskrit_devanagari": "स कथं विग्रहयोगे सति न भवेत् तेन मोहयोगे ऽपि ।\nमरणावसरे ज्ञानि न च्यवते स्वात्मपरमार्थात्",
+      "sanskrit_iast": "sa kathaṃ vigrahayoge sati na bhavet tena mohayoge 'pi |\nmaraṇāvasare jñāni na cyavate svātmaparamārthāt",
+      "source_line_start": 283,
+      "source_line_end": 284
+    },
+    {
+      "verse_id": "v_96",
+      "adhyaya": 96,
+      "pada": null,
+      "sutra_or_verse_num": "96",
+      "sanskrit_devanagari": "परमार्थमार्गम् एनं झटिति यदा गुरुमुखात् समभ्येति ।\nअतितीव्रशक्तिपातात् तदैव निर्विघ्नम् एव शिवः",
+      "sanskrit_iast": "paramārthamārgam enaṃ jhaṭiti yadā gurumukhāt samabhyeti |\natitīvraśaktipātāt tadaiva nirvighnam eva śivaḥ",
+      "source_line_start": 286,
+      "source_line_end": 287
+    },
+    {
+      "verse_id": "v_97",
+      "adhyaya": 97,
+      "pada": null,
+      "sutra_or_verse_num": "97",
+      "sanskrit_devanagari": "सर्वोत्तीर्णं रूपं सोपानपदक्रमेण संश्रयतः ।\nपरतत्त्वरूढिलाभे पर्यन्ते शिवमयीभावः",
+      "sanskrit_iast": "sarvottīrṇaṃ rūpaṃ sopānapadakrameṇa saṃśrayataḥ |\nparatattvarūḍhilābhe paryante śivamayībhāvaḥ",
+      "source_line_start": 289,
+      "source_line_end": 290
+    },
+    {
+      "verse_id": "v_98",
+      "adhyaya": 98,
+      "pada": null,
+      "sutra_or_verse_num": "98",
+      "sanskrit_devanagari": "तस्य तु परमार्थमयीं धाराम् अगतस्य मध्यविश्रान्तेः ।\nतत्पदलाभोत्सुकचेतसो ऽपि मरणं कदाचित् स्यात्",
+      "sanskrit_iast": "tasya tu paramārthamayīṃ dhārām agatasya madhyaviśrānteḥ |\ntatpadalābhotsukacetaso 'pi maraṇaṃ kadācit syāt",
+      "source_line_start": 292,
+      "source_line_end": 293
+    },
+    {
+      "verse_id": "v_99",
+      "adhyaya": 99,
+      "pada": null,
+      "sutra_or_verse_num": "99",
+      "sanskrit_devanagari": "योगभ्रष्टः शास्त्रे कथितो ऽसौ चित्रभोगभुवनपतिः ।\nविश्रान्तिस्थानवशाद् भूत्वा जन्मान्तरे शिवीभवति",
+      "sanskrit_iast": "yogabhraṣṭaḥ śāstre kathito 'sau citrabhogabhuvanapatiḥ |\nviśrāntisthānavaśād bhūtvā janmāntare śivībhavati",
+      "source_line_start": 295,
+      "source_line_end": 296
+    },
+    {
+      "verse_id": "v_100",
+      "adhyaya": 100,
+      "pada": null,
+      "sutra_or_verse_num": "100",
+      "sanskrit_devanagari": "परमार्थमार्गम् एनं ह्य् अभ्यस्याप्राप्य योगम् अपि नाम ।\nसुरलोकभोगभागी मुदितमना मोदते सुचिरम्",
+      "sanskrit_iast": "paramārthamārgam enaṃ hy abhyasyāprāpya yogam api nāma |\nsuralokabhogabhāgī muditamanā modate suciram",
+      "source_line_start": 298,
+      "source_line_end": 299
+    },
+    {
+      "verse_id": "v_101",
+      "adhyaya": 101,
+      "pada": null,
+      "sutra_or_verse_num": "101",
+      "sanskrit_devanagari": "विषयेषु सार्वभौमः सर्वजनैः पूज्यते यथा राजा ।\nभुवनेषु सर्वदैवैर् योगभ्रष्टस् तथा पूज्यः",
+      "sanskrit_iast": "viṣayeṣu sārvabhaumaḥ sarvajanaiḥ pūjyate yathā rājā |\nbhuvaneṣu sarvadaivair yogabhraṣṭas tathā pūjyaḥ",
+      "source_line_start": 301,
+      "source_line_end": 302
+    },
+    {
+      "verse_id": "v_102",
+      "adhyaya": 102,
+      "pada": null,
+      "sutra_or_verse_num": "102",
+      "sanskrit_devanagari": "महता कालेन पुनर् मानुष्यं प्राप्य योगम् अभ्यस्य ।\nप्राप्नोति दिव्यम् अमृतम् यस्माद् आवर्तते न पुनः",
+      "sanskrit_iast": "mahatā kālena punar mānuṣyaṃ prāpya yogam abhyasya |\nprāpnoti divyam amṛtam yasmād āvartate na punaḥ",
+      "source_line_start": 304,
+      "source_line_end": 305
+    },
+    {
+      "verse_id": "v_103",
+      "adhyaya": 103,
+      "pada": null,
+      "sutra_or_verse_num": "103",
+      "sanskrit_devanagari": "तस्मात् सन्मार्गे ऽस्मिन् निरतो यः कश्चिद् एति स शिवत्वम् ।\nइति मत्वा परमार्थे यथा तथापि प्रयतनीयम्",
+      "sanskrit_iast": "tasmāt sanmārge 'smin nirato yaḥ kaścid eti sa śivatvam |\niti matvā paramārthe yathā tathāpi prayatanīyam",
+      "source_line_start": 307,
+      "source_line_end": 308
+    },
+    {
+      "verse_id": "v_104",
+      "adhyaya": 104,
+      "pada": null,
+      "sutra_or_verse_num": "104",
+      "sanskrit_devanagari": "इदम् अभिनवगुप्तोदितसंक्षेपं ध्यायतः परं ब्रह्म ।\nअचिराद् एव शिवत्वं निजहृदयावेशम् अभ्येति",
+      "sanskrit_iast": "idam abhinavaguptoditasaṃkṣepaṃ dhyāyataḥ paraṃ brahma |\nacirād eva śivatvaṃ nijahṛdayāveśam abhyeti",
+      "source_line_start": 310,
+      "source_line_end": 311
+    },
+    {
+      "verse_id": "v_105",
+      "adhyaya": 105,
+      "pada": null,
+      "sutra_or_verse_num": "105",
+      "sanskrit_devanagari": "आर्याशतेन तद् इदं संक्षिप्तं शास्त्रसारम् अतिगूढम् ।\nअभिनवगुप्तेन मया शिवचरणस्मरणदीप्तेन",
+      "sanskrit_iast": "āryāśatena tad idaṃ saṃkṣiptaṃ śāstrasāram atigūḍham |\nabhinavaguptena mayā śivacaraṇasmaraṇadīptena",
+      "source_line_start": 313,
+      "source_line_end": 314
+    }
+  ],
+  "caveats": [
+    "Stripped GRETIL header (43 lines)."
+  ]
+}
