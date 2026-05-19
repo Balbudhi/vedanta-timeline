@@ -1,0 +1,284 @@
+/* =============================================================
+   Koi Hor Nahi Hai Mera — page styles
+   Inherits tokens from style.css (--serif, --sans, --ink, etc.)
+   ============================================================= */
+
+html, body {
+  background: var(--bg-warm);
+}
+
+.song-page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 64px 28px 120px;
+  color: var(--ink);
+  font-family: var(--serif);
+}
+
+/* ---------- Hero ---------- */
+.song-hero {
+  margin: 0 0 56px;
+  padding: 0 0 28px;
+  border-bottom: 1px solid var(--rule);
+  text-align: center;
+}
+.song-eyebrow {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 14px;
+}
+.song-title {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-style: italic;
+  font-size: 38px;
+  line-height: 1.15;
+  margin: 0 0 12px;
+  color: var(--ink);
+  letter-spacing: -0.005em;
+}
+.song-attrib {
+  font-family: var(--sans);
+  font-size: 12.5px;
+  color: var(--muted);
+  margin: 0 0 18px;
+  letter-spacing: 0.02em;
+}
+.song-intro {
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--ink-soft);
+  text-align: left;
+  margin: 24px 0 0;
+  font-style: italic;
+}
+.song-intro p { margin: 0 0 10px; }
+.song-intro p:last-child { margin-bottom: 0; }
+
+/* ---------- Reading hint ---------- */
+.song-hint {
+  font-family: var(--sans);
+  font-size: 11.5px;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin: 28px 0 40px;
+  padding: 10px 14px;
+  border-left: 2px solid var(--rule-warm);
+  background: var(--bg);
+}
+
+/* ---------- Section labels (Refrain, I, II, ...) ---------- */
+.section-label {
+  font-family: var(--sans);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted-soft);
+  margin: 44px 0 18px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--hairline);
+}
+/* First section label sits closer to the hero. */
+.song-root > .section-label:first-child { margin-top: 0; }
+
+/* ---------- Line card ---------- */
+.line {
+  margin: 0 0 22px;
+  padding: 0;
+  position: relative;
+}
+.line-body { position: relative; }
+
+.line-roman {
+  font-family: var(--serif);
+  font-size: 20px;
+  line-height: 1.45;
+  color: var(--ink);
+  margin: 0 0 6px;
+  letter-spacing: 0.002em;
+}
+.line-english {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  margin: 0;
+}
+.line-note {
+  font-family: var(--sans);
+  font-size: 12px;
+  line-height: 1.55;
+  color: var(--muted);
+  margin: 10px 0 0;
+  padding-left: 12px;
+  border-left: 2px solid var(--hairline);
+  font-style: italic;
+}
+
+/* Repetition badge (×4, ×2). */
+.rep {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 1px 7px;
+  font-family: var(--sans);
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  background: var(--bg-warmer);
+  border-radius: 10px;
+  vertical-align: 0.18em;
+  white-space: nowrap;
+  user-select: none;
+}
+
+/* ---------- Word spans (hover + click) ---------- */
+.line-roman .w {
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 0 1px;
+  margin: 0 -1px;
+  transition: background-color 120ms ease, color 120ms ease;
+  outline: none;
+}
+.line-roman .w:hover,
+.line-roman .w.is-hi,
+.line-roman .w:focus-visible {
+  background: #fff3d6;     /* warm highlight */
+  color: var(--ink);
+}
+.line-roman .w:focus-visible {
+  box-shadow: 0 0 0 2px rgba(180, 130, 30, 0.32);
+}
+
+/* ---------- Toggle button (Word by word) ---------- */
+.line-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 12px 0 0;
+  padding: 3px 9px 3px 7px;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  background: transparent;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  cursor: pointer;
+  user-select: none;
+  transition: color 120ms, border-color 120ms, background 120ms;
+}
+.line-toggle:hover {
+  color: var(--ink);
+  border-color: var(--muted-soft);
+  background: var(--bg);
+}
+.line-toggle-caret {
+  width: 0; height: 0;
+  border-left: 4px solid currentColor;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  transition: transform 160ms ease;
+}
+.line.is-open .line-toggle-caret {
+  transform: rotate(90deg);
+}
+.line-toggle-label { line-height: 1; }
+
+/* ---------- Breakdown panel ---------- */
+.line-breakdown {
+  margin: 12px 0 0;
+  padding: 12px 16px;
+  background: var(--bg);
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+  animation: bd-fade 180ms ease;
+}
+@keyframes bd-fade {
+  from { opacity: 0; transform: translateY(-2px); }
+  to   { opacity: 1; transform: none; }
+}
+.line-breakdown table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+  line-height: 1.45;
+}
+.line-breakdown td {
+  padding: 5px 6px;
+  vertical-align: top;
+  border-bottom: 1px solid var(--hairline);
+}
+.line-breakdown tr:last-child td { border-bottom: none; }
+.line-breakdown .bd-roman {
+  font-family: var(--serif);
+  font-weight: 500;
+  color: var(--ink);
+  width: 32%;
+  white-space: nowrap;
+}
+.line-breakdown .bd-gloss {
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--ink-soft);
+}
+.line-breakdown tr.is-hi td {
+  background: #fff8e6;
+}
+.line-breakdown tr.flash td {
+  background: #fde9b8;
+  transition: background 700ms ease;
+}
+
+/* ---------- Word tooltip (hover preview) ---------- */
+.word-tooltip {
+  position: absolute;
+  z-index: 50;
+  max-width: 280px;
+  padding: 6px 10px;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  box-shadow: var(--shadow-md);
+  pointer-events: none;
+}
+
+/* ---------- Footer ---------- */
+.song-footer {
+  margin: 64px 0 0;
+  padding: 24px 0 0;
+  border-top: 1px solid var(--rule);
+  font-family: var(--sans);
+  font-size: 11.5px;
+  color: var(--muted);
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.song-footer a { color: var(--muted); text-decoration: none; border-bottom: 1px dotted var(--muted-soft); }
+.song-footer a:hover { color: var(--ink); border-bottom-color: var(--ink); }
+
+/* ---------- Mobile ---------- */
+@media (max-width: 720px) {
+  .song-page { padding: 36px 18px 96px; }
+  .song-title { font-size: 28px; }
+  .line-roman { font-size: 18px; }
+  .line-english { font-size: 15px; }
+  .line-breakdown { padding: 10px 12px; }
+  .line-breakdown table { font-size: 13px; }
+  .line-breakdown .bd-roman { width: 38%; }
+  .word-tooltip { max-width: 220px; font-size: 12.5px; }
+}
