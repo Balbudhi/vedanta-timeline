@@ -1,0 +1,42 @@
+{
+  "work_slug": "madhva_gita_bhasya",
+  "work_title_iast": "Gītā-Bhāṣya",
+  "thinker_id": "madhva",
+  "edition": "Bannañje Govindācārya (ed.), Sarvamūla-Granthāḥ — Prasthāna-trayī : Sūtra-Prasthānam / Gītā-Prasthānam volume; Akhila Bhāratīya Mādhva Mahā Maṇḍala, Udupi/Bangalore, multiple volumes 1969–2008. Alternative: 1894 Bombay Sanskrit Series (Padmanābhācārya).",
+  "year": "1969–2008 (Bannañje set)",
+  "editor": "Bannañje Govindācārya",
+  "publisher": "Akhila Bhāratīya Mādhva Mahā Maṇḍala (Udupi/Bangalore)",
+  "language_primary": "sanskrit",
+  "secondary_languages": [],
+  "script": "devanagari",
+  "commentaries_included": [
+    "Prameya-Dīpikā (Jayatīrtha)",
+    "Nyāya-Dīpikā (Raghuttama-tīrtha)"
+  ],
+  "source_url": "https://sites.google.com/view/madhwapracharavedike/dvaita-scanned-books",
+  "source_item_id_pending": "Prasthāna-trayī : Gītā-Prasthānam volume — exact archive.org item id to be identified by hand",
+  "candidate_items": [
+    "Prasthanathrayi-UpanishathPrashthana (confirmed Upaniṣat-Prasthānam — wrong sub-volume)",
+    "SankirnaGranthah (Sankīrṇa-Granthāḥ — wrong sub-volume)",
+    "SriBhagavataTatparyaNirnayaEBook (Purāṇa-Prasthānam — wrong sub-volume)",
+    "Sūtra-Prasthānam / Gītā-Prasthānam volume — to be located via Madhwapracharavedike index navigation"
+  ],
+  "license": "public_domain",
+  "expected_text_units": {
+    "kind": "verses",
+    "approximate_count": 700,
+    "source_for_estimate": "Madhva's bhāṣya runs through the Gītā's 700 ślokas"
+  },
+  "ground_truth_available": true,
+  "ground_truth_source": "Nagesh D. Sonde Sanskrit+English (archive.org `geeta-bhashya-tatparya-nirnaya-by-madhvacharya`) is a downstream comparator.",
+  "_phase2_ocr_status": "blocked_pdf_pending_volume_id",
+  "_action_required": "Navigate Madhwapracharavedike index, identify the Sūtra-Prasthānam / Gītā-Prasthānam archive.org item id, then download.",
+  "priority_tier": "A6",
+  "downloaded_at": null,
+  "downloaded_by": "corpus-chat-lane3",
+  "sha256": null,
+  "size_bytes": null,
+  "pdfinfo": null,
+  "_acquisition_lane": "lane3-digitization-prep",
+  "_acquisition_status": "sub_volume_identification_pending"
+}
