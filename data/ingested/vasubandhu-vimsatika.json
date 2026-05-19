@@ -1,0 +1,238 @@
+{
+  "text_id": "vasubandhu-vimsatika",
+  "thinker_id": "vasubandhu",
+  "work_title_iast": "Viṃśatikā",
+  "work_title_devanagari": "विंशतिका",
+  "source_file": "data/sources/sanskrit/buddhist/vasubandhu_vimsatika.txt",
+  "source_script": "iast",
+  "tokenizer": "fallback_whitespace",
+  "normalizer": "indic_transliteration",
+  "ingested_at": "2026-05-19",
+  "ingested_by": "corpus-chat-lane1",
+  "structure_recovered": true,
+  "verse_count": 22,
+  "token_count_approx": 1635,
+  "verses": [
+    {
+      "verse_id": "v_1",
+      "adhyaya": 1,
+      "pada": null,
+      "sutra_or_verse_num": "1",
+      "sanskrit_devanagari": "विंशतिकाविज्ञप्तिमात्रतासिद्धि\nमाहायाने त्रैधातुकं विज्ञप्तिमात्रं व्यवस्थाप्यते । चित्तमात्रं भो जिनपुत्रा यद् उत त्रैधातुकम् इति सूत्रात् । चित्तं मनो विज्ञानं विज्ञप्तिश् चेति पर्यायाः । चित्तम् अत्र ससंप्रयोगम् अभिप्रेतं । मत्रम् इत्य् अर्थप्रतिषेधार्थं ।\nविज्ञप्तिमात्रम् एवेदम् असदर्थावभासनात् ।\nयद्वत् तैमिरिकस्यासत् केशोण्डुकादिदर्शनं",
+      "sanskrit_iast": "Viṃśatikāvijñaptimātratāsiddhi\nmāhāyāne traidhātukaṃ vijñaptimātraṃ vyavasthāpyate | cittamātraṃ bho jinaputrā yad uta traidhātukam iti sūtrāt | cittaṃ mano vijñānaṃ vijñaptiś ceti paryāyāḥ | cittam atra sasaṃprayogam abhipretaṃ | matram ity arthapratiṣedhārthaṃ |\nvijñaptimātram evedam asadarthāvabhāsanāt |\nyadvat taimirikasyāsat keśoṇḍukādidarśanaṃ",
+      "source_line_start": 1,
+      "source_line_end": 7
+    },
+    {
+      "verse_id": "v_2",
+      "adhyaya": 2,
+      "pada": null,
+      "sutra_or_verse_num": "2",
+      "sanskrit_devanagari": "अत्र चोद्यते । कश्चिद् अर्थो नास्ति /\nन देशकालनियमः संतानानियमो न च ।\nन च कृत्यक्रिया युक्ता विज्ञप्तिर् यदि नार्थतः",
+      "sanskrit_iast": "atra codyate | kaścid artho nāsti /\nna deśakālaniyamaḥ saṃtānāniyamo na ca |\nna ca kṛtyakriyā yuktā vijñaptir yadi nārthataḥ",
+      "source_line_start": 9,
+      "source_line_end": 13
+    },
+    {
+      "verse_id": "v_3",
+      "adhyaya": 3,
+      "pada": null,
+      "sutra_or_verse_num": "3",
+      "sanskrit_devanagari": "किम् उक्तं भवति । यदि विना रूपाद्यर्थेन रूपादिविज्ञप्तिर् उत्पद्यते न रूपाद्यर्थात् । कस्मात् क्वचिद् देश उत्पद्यते न सर्वत्र । तत्रैव च देशे कदाचिद् उत्पद्यते न सर्वदा । तद्देशकालप्रतिष्ठितानां सर्वेषां संतानानियम उत्पद्यते न केवलम् एकस्य । यथा तैमिरिकाणां संताने केशाद्याभासो नान्येषां । कस्माद् यत् तैमिरिकैः केशभ्रमरादि दृश्यते तेन केशादिक्रिया न क्रियते न च तद् अन्यैर् न क्रियते । यद् अन्नपानवस्त्रविषायुधादि स्वप्ने दृश्यते तेनान्नादिक्रिया न क्रियते न च तद् अन्यैर् न क्रियते । गन्धर्वनगरेणासत्त्वान् नगरक्रिया न क्रियते न च तद् अन्यैर् न क्रियते । तस्माद् असदभावावभासने देशकालनियमः संतानानियमः कृत्यक्रिया च न युज्यते । न खलु न युज्यते । यस्मात् ।\nदेशादिनियमः सिद्धः स्वप्नवत्\nस्वप्न इव स्वप्नवत् । कथं तावत् । स्वप्ने विनाप्य् अर्थेन क्वचिद् एव देशे किंचिद् भ्रमरारामस्त्रीपुरूषादिकं दृश्यते न सर्वत्र । तत्रैव च देशे कदाचिद् दृश्यते न सर्वकालम् इति सिद्धो विनाप्य् अर्थेन देशकालनियमः ।\nप्रेतवत् पुनः ।\nसंतानानियमः\n(व्व्स्_४)\nसिद्ध इति वर्तते । प्रेतानाम् इव प्रेतवत् । कथं सिद्धः समं ।\nसर्वैः पूयनद्यादिदर्शने",
+      "sanskrit_iast": "kim uktaṃ bhavati | yadi vinā rūpādyarthena rūpādivijñaptir utpadyate na rūpādyarthāt | kasmāt kvacid deśa utpadyate na sarvatra | tatraiva ca deśe kadācid utpadyate na sarvadā | taddeśakālapratiṣṭhitānāṃ sarveṣāṃ saṃtānāniyama utpadyate na kevalam ekasya | yathā taimirikāṇāṃ saṃtāne keśādyābhāso nānyeṣāṃ | kasmād yat taimirikaiḥ keśabhramarādi dṛśyate tena keśādikriyā na kriyate na ca tad anyair na kriyate | yad annapānavastraviṣāyudhādi svapne dṛśyate tenānnādikriyā na kriyate na ca tad anyair na kriyate | gandharvanagareṇāsattvān nagarakriyā na kriyate na ca tad anyair na kriyate | tasmād asadabhāvāvabhāsane deśakālaniyamaḥ saṃtānāniyamaḥ kṛtyakriyā ca na yujyate | na khalu na yujyate | yasmāt |\ndeśādiniyamaḥ siddhaḥ svapnavat\nsvapna iva svapnavat | kathaṃ tāvat | svapne vināpy arthena kvacid eva deśe kiṃcid bhramarārāmastrīpurūṣādikaṃ dṛśyate na sarvatra | tatraiva ca deśe kadācid dṛśyate na sarvakālam iti siddho vināpy arthena deśakālaniyamaḥ |\npretavat punaḥ |\nsaṃtānāniyamaḥ\n(Vvs_4)\nsiddha iti vartate | pretānām iva pretavat | kathaṃ siddhaḥ samaṃ |\nsarvaiḥ pūyanadyādidarśane",
+      "source_line_start": 15,
+      "source_line_end": 29
+    },
+    {
+      "verse_id": "v_4",
+      "adhyaya": 4,
+      "pada": null,
+      "sutra_or_verse_num": "4",
+      "sanskrit_devanagari": "पूयपूर्णा नदी पूयनदी । घृतघटवत् । तुल्यकर्मविपाकावस्था हि प्रेताः सर्वे ऽपि पूयपूर्णां नदीं पश्यन्ति नैक एव । यथा पूयपूर्णाम् एवं मूत्रपुरीषादिपूर्णां दण्डासिधरैश् च पुरुषैर् अधिष्ठिताम् इत्य् आदिग्रहणेन । एवं संतानानियमो विज्ञप्तिनाम् असत्य् अप्य् अर्थे सिद्धः ॥\nस्वप्नोपघातवत् कृत्यक्रिया\nसिद्ध इति वेदितव्यं । यथा स्वप्ने द्वयसमापत्तिम् अन्तरेण शुक्रविसर्गलक्षणः स्वप्नोपघातः । एवं तावद् अन्यान्यैर् दृष्टान्तैर् देशकालनियमादिचतुष्टयं सिद्धं ।\nनरकवत् पुनः ।\nसर्वं\nसिद्धम् इति वेदितव्यं । नरकेष्व् इव नरकवत् । कथं सिद्धं ।\nनरकपालादिदर्शने तैश् च बाधने",
+      "sanskrit_iast": "pūyapūrṇā nadī pūyanadī | ghṛtaghaṭavat | tulyakarmavipākāvasthā hi pretāḥ sarve 'pi pūyapūrṇāṃ nadīṃ paśyanti naika eva | yathā pūyapūrṇām evaṃ mūtrapurīṣādipūrṇāṃ daṇḍāsidharaiś ca puruṣair adhiṣṭhitām ity ādigrahaṇena | evaṃ saṃtānāniyamo vijñaptinām asaty apy arthe siddhaḥ ||\nsvapnopaghātavat kṛtyakriyā\nsiddha iti veditavyaṃ | yathā svapne dvayasamāpattim antareṇa śukravisargalakṣaṇaḥ svapnopaghātaḥ | evaṃ tāvad anyānyair dṛṣṭāntair deśakālaniyamādicatuṣṭayaṃ siddhaṃ |\nnarakavat punaḥ |\nsarvaṃ\nsiddham iti veditavyaṃ | narakeṣv iva narakavat | kathaṃ siddhaṃ |\nnarakapālādidarśane taiś ca bādhane",
+      "source_line_start": 31,
+      "source_line_end": 43
+    },
+    {
+      "verse_id": "v_5",
+      "adhyaya": 5,
+      "pada": null,
+      "sutra_or_verse_num": "5",
+      "sanskrit_devanagari": "यथा हि नरकेषु नारकाणां नरकपालादिदर्शनं देशकालनियमेन सिद्धं । श्ववायसायसपर्वताद्यागमनगमनदर्शनं चेत्य् आदिग्रहणेन । सर्वेषां च नैकस्यैव तैश् च तद्बाधनं सिद्धम् असत्स्व् अपि नरकपालादिषु समानस्वकर्मविपाकाधिपत्यात् । तथान्यत्रापि सर्वम् एतद् देशकालनियमादिचतुष्तयं सिद्धम् इति वेदितव्यं ॥\nकिं पुनः कारणं नरकपालास् ते च श्वानो वायसाश् च सत्त्वा नेष्यन्ते । अयोगात् । न हि ते नारका युज्यन्ते । तथैव तद्दुःखाप्रतिसंवेदनात् । परस्परं यातयताम् इमे नारका इमे नरकपाला इति व्यवस्था न स्यात् । तुल्याकृतिप्रमाणबलानां च परस्परं यातयतां न तथा भयं स्यात् । दाहदुःखं च प्रदीप्तायाम् अयोमय्यां भूमाव् असहमानाः कथं तत्र परान् यातयेयुः । अनारकाणां वा नरके कुतः संभवः । कथं तावत् तिरश्चां स्वर्गसंभवः । एवं नरकेषु तिर्यक्प्रेतविशेषाणां नरकपालादीनां संभवः स्यात् ।\nतिरश्चां संभवः स्वर्गे यथा न नरके तथा ।\nन प्रेतानां यतस् तज्जं दुःखं नानुभवन्ति ते",
+      "sanskrit_iast": "yathā hi narakeṣu nārakāṇāṃ narakapālādidarśanaṃ deśakālaniyamena siddhaṃ | śvavāyasāyasaparvatādyāgamanagamanadarśanaṃ cety ādigrahaṇena | sarveṣāṃ ca naikasyaiva taiś ca tadbādhanaṃ siddham asatsv api narakapālādiṣu samānasvakarmavipākādhipatyāt | tathānyatrāpi sarvam etad deśakālaniyamādicatuṣtayaṃ siddham iti veditavyaṃ ||\nkiṃ punaḥ kāraṇaṃ narakapālās te ca śvāno vāyasāś ca sattvā neṣyante | ayogāt | na hi te nārakā yujyante | tathaiva tadduḥkhāpratisaṃvedanāt | parasparaṃ yātayatām ime nārakā ime narakapālā iti vyavasthā na syāt | tulyākṛtipramāṇabalānāṃ ca parasparaṃ yātayatāṃ na tathā bhayaṃ syāt | dāhaduḥkhaṃ ca pradīptāyām ayomayyāṃ bhūmāv asahamānāḥ kathaṃ tatra parān yātayeyuḥ | anārakāṇāṃ vā narake kutaḥ saṃbhavaḥ | kathaṃ tāvat tiraścāṃ svargasaṃbhavaḥ | evaṃ narakeṣu tiryakpretaviśeṣāṇāṃ narakapālādīnāṃ saṃbhavaḥ syāt |\ntiraścāṃ saṃbhavaḥ svarge yathā na narake tathā |\nna pretānāṃ yatas tajjaṃ duḥkhaṃ nānubhavanti te",
+      "source_line_start": 45,
+      "source_line_end": 51
+    },
+    {
+      "verse_id": "v_6",
+      "adhyaya": 6,
+      "pada": null,
+      "sutra_or_verse_num": "6",
+      "sanskrit_devanagari": "ये हि तिर्यञ्चः स्वर्गे संभवन्ति ते तद्भाजनलोकसुखसंवर्तनीयेन कर्मणा तत्र संभूतास् तज्जं सुखं प्रत्यनुभवन्ति । न चैव नरकपालादयो नारकं दुःखं प्रत्यनुभवन्ति । तस्मान् न तिरश्चां संभवो युक्तो नापि प्रेतानां ॥\nतेषां तर्हि (व्व्स्_५) नारकाणां कर्मभिस् तत्र भूतविशेषाः संभवन्ति वर्णाकृतिप्रमाणबलविशिष्टा ये नरकपालादिसंज्ञां प्रतिलभन्ते । तथा च परिणमन्ति । यद् द्विधां हस्तविक्षेपादिक्रियां कुर्वन्तो दृश्यन्ते भयोत्पादनार्थं । यथा मेषाकृतयः पर्वता आगच्छन्तो गच्छन्तो ऽयःशाल्मलीवने च कण्टका अधोमुखीभवन्त ऊर्द्ध्वमुखीभवन्तश् चेति । न ते न संभवन्त्य् एव ।\nयदि तत्कर्मभिस् तत्र भूतानां संभवस् तथा ।\nइष्यते परिणामश् च किं विज्ञानस्य नेष्यते",
+      "sanskrit_iast": "ye hi tiryañcaḥ svarge saṃbhavanti te tadbhājanalokasukhasaṃvartanīyena karmaṇā tatra saṃbhūtās tajjaṃ sukhaṃ pratyanubhavanti | na caiva narakapālādayo nārakaṃ duḥkhaṃ pratyanubhavanti | tasmān na tiraścāṃ saṃbhavo yukto nāpi pretānāṃ ||\nteṣāṃ tarhi (Vvs_5) nārakāṇāṃ karmabhis tatra bhūtaviśeṣāḥ saṃbhavanti varṇākṛtipramāṇabalaviśiṣṭā ye narakapālādisaṃjñāṃ pratilabhante | tathā ca pariṇamanti | yad dvidhāṃ hastavikṣepādikriyāṃ kurvanto dṛśyante bhayotpādanārthaṃ | yathā meṣākṛtayaḥ parvatā āgacchanto gacchanto 'yaḥśālmalīvane ca kaṇṭakā adhomukhībhavanta ūrddhvamukhībhavantaś ceti | na te na saṃbhavanty eva |\nyadi tatkarmabhis tatra bhūtānāṃ saṃbhavas tathā |\niṣyate pariṇāmaś ca kiṃ vijñānasya neṣyate",
+      "source_line_start": 53,
+      "source_line_end": 59
+    },
+    {
+      "verse_id": "v_7",
+      "adhyaya": 7,
+      "pada": null,
+      "sutra_or_verse_num": "7",
+      "sanskrit_devanagari": "विज्ञानस्यैव तत्कर्मभिस् तथा परिणामः कस्मान् नेष्यते किं पुनर् भूतानि कल्प्यन्ते ॥\nअपि च ।\nकर्मणो वासनान्यत्र फलम् अन्यत्र कल्प्यते ।\nतत्रैव नेष्यते यत्र वासना किं नु कारणं",
+      "sanskrit_iast": "vijñānasyaiva tatkarmabhis tathā pariṇāmaḥ kasmān neṣyate kiṃ punar bhūtāni kalpyante ||\napi ca |\nkarmaṇo vāsanānyatra phalam anyatra kalpyate |\ntatraiva neṣyate yatra vāsanā kiṃ nu kāraṇaṃ",
+      "source_line_start": 61,
+      "source_line_end": 67
+    },
+    {
+      "verse_id": "v_8",
+      "adhyaya": 8,
+      "pada": null,
+      "sutra_or_verse_num": "8",
+      "sanskrit_devanagari": "येन हि कर्मणा नारकाणां तत्र तादृशो भूतानां संभवः कल्प्यते परिणामश् च तस्य कर्मणो वासना तेषां विज्ञानसंतानसंनिविष्टा नान्यत्र । यत्रैव च वासना तत्रैव तस्याः फलं तादृशो विज्ञानपरिणामः किं नेष्यते । यत्र वासना नास्ति तत्र तस्याः फलं कल्प्यत इति किम् अत्र कारणं ॥\nआगमः कारणं । यदि विज्ञानम् एव रूपादिप्रतिभासं स्यान् न रूपादिको ऽर्थस् तदा रूपाद्यायतनास्तित्वं भगवता नोक्तं स्यात् । अकारणम् एतद् यस्मात् ।\nरूपाद्यायतनास्तित्वं तद्विनेयजनं प्रति ।\nअभिप्रायवशाद् उक्तम् उपपादुकसत्त्ववत्",
+      "sanskrit_iast": "yena hi karmaṇā nārakāṇāṃ tatra tādṛśo bhūtānāṃ saṃbhavaḥ kalpyate pariṇāmaś ca tasya karmaṇo vāsanā teṣāṃ vijñānasaṃtānasaṃniviṣṭā nānyatra | yatraiva ca vāsanā tatraiva tasyāḥ phalaṃ tādṛśo vijñānapariṇāmaḥ kiṃ neṣyate | yatra vāsanā nāsti tatra tasyāḥ phalaṃ kalpyata iti kim atra kāraṇaṃ ||\nāgamaḥ kāraṇaṃ | yadi vijñānam eva rūpādipratibhāsaṃ syān na rūpādiko 'rthas tadā rūpādyāyatanāstitvaṃ bhagavatā noktaṃ syāt | akāraṇam etad yasmāt |\nrūpādyāyatanāstitvaṃ tadvineyajanaṃ prati |\nabhiprāyavaśād uktam upapādukasattvavat",
+      "source_line_start": 69,
+      "source_line_end": 75
+    },
+    {
+      "verse_id": "v_9",
+      "adhyaya": 9,
+      "pada": null,
+      "sutra_or_verse_num": "9",
+      "sanskrit_devanagari": "यथास्ति सत्त्व उपपादुक इत्य् उक्तं भगवता अभिप्रायवशाच् चित्तसंतत्यनुच्छेदम् आयत्याम् अभिप्रेत्य ।\nनास्तीह सत्त्व आत्मा वा धर्मास् त्व् एते सहेतुकाः\nइति वचनात् । एवं रूपाद्यायतनास्तित्वम् अप्य् उक्तं भगवता तद्देशनाविनेयजनम् अधिकृत्येत्य् आभिप्रायिकं तद् वचनं ॥\nको ऽत्र अभिप्रायः ।\nयतः स्वबीजाद् विज्ञप्तिर् यदाभासा प्रवर्तते ।\nद्विविधायतनत्वेन ते तस्या मुनिर् अब्रवीत्",
+      "sanskrit_iast": "yathāsti sattva upapāduka ity uktaṃ bhagavatā abhiprāyavaśāc cittasaṃtatyanucchedam āyatyām abhipretya |\nnāstīha sattva ātmā vā dharmās tv ete sahetukāḥ\niti vacanāt | evaṃ rūpādyāyatanāstitvam apy uktaṃ bhagavatā taddeśanāvineyajanam adhikṛtyety ābhiprāyikaṃ tad vacanaṃ ||\nko 'tra abhiprāyaḥ |\nyataḥ svabījād vijñaptir yadābhāsā pravartate |\ndvividhāyatanatvena te tasyā munir abravīt",
+      "source_line_start": 77,
+      "source_line_end": 87
+    },
+    {
+      "verse_id": "v_10",
+      "adhyaya": 10,
+      "pada": null,
+      "sutra_or_verse_num": "10",
+      "sanskrit_devanagari": "किम् उक्तं भवति । रूपप्रतिभासा विज्ञप्तिर् यतः स्वबीजात् परिणामविशेषप्राप्ताद् उत्पद्यते तच् च बीजं यत् प्रतिभासा च सा ते तस्या विज्ञप्तेश् चक्षूरूपायतनत्वेन (व्व्स्_६) यथाक्रमं भगवान् अब्रवीत् । एवं यावत् स्प्रष्टव्यप्रतिभासा विज्ञप्तिर् यतः स्वबीजात् परिणामविशेषप्राप्ताद् उत्पद्यते तच् च बीजं यत् प्रतिभासा च सा ते तस्या कायस्प्रष्टव्यायतनत्वेन यथाक्रनं भगवान् अब्रवीद् इत्य् अयम् अभिप्रायः ॥\nएवं पुनर् अभिप्रायवशेन देशयित्वा को गुणाः ।\nतथा पुद्गलनैरात्म्यप्रवेशो हि\nतथा हि देश्यमाने पुद्गलनैरात्म्यं प्रविशन्ति । द्वयाद् विज्ञानषट्कं प्रवर्तते । न तु कश्चिद् एको द्रष्टास्ति न यावन् मन्तेत्य् एवं विदित्वा ये पुद्गलनैरात्म्यदेशनाविनेयास् ते पुद्गलनैरात्म्यं प्रविशन्ति ।\nअन्यथा पुनः ।\nदेशना धर्मनैरात्म्यप्रवेशः\nअन्यथेति विज्ञप्तिमात्रदेशना । कथं धर्मनैरात्म्यप्रवेशः । विज्ञप्तिमात्रम् इदं रूपादिधर्मप्रतिभासम् उत्पद्यते न तु रूपादिलक्षणो धर्मः को ऽप्य् अस्तीति विदित्वा । यदि तर्हि सर्वथा धर्मो नास्ति तद् अपि विज्ञप्तिमात्रं नास्तीति कथं तर्हि व्यवस्थाप्यते । न खलु सर्वथा धर्मो नास्तीत्य् एवं धर्मनैरात्म्यप्रवेशो भवति । अपि तु ।\nकल्पितात्मना",
+      "sanskrit_iast": "kim uktaṃ bhavati | rūpapratibhāsā vijñaptir yataḥ svabījāt pariṇāmaviśeṣaprāptād utpadyate tac ca bījaṃ yat pratibhāsā ca sā te tasyā vijñapteś cakṣūrūpāyatanatvena (Vvs_6) yathākramaṃ bhagavān abravīt | evaṃ yāvat spraṣṭavyapratibhāsā vijñaptir yataḥ svabījāt pariṇāmaviśeṣaprāptād utpadyate tac ca bījaṃ yat pratibhāsā ca sā te tasyā kāyaspraṣṭavyāyatanatvena yathākranaṃ bhagavān abravīd ity ayam abhiprāyaḥ ||\nevaṃ punar abhiprāyavaśena deśayitvā ko guṇāḥ |\ntathā pudgalanairātmyapraveśo hi\ntathā hi deśyamāne pudgalanairātmyaṃ praviśanti | dvayād vijñānaṣaṭkaṃ pravartate | na tu kaścid eko draṣṭāsti na yāvan mantety evaṃ viditvā ye pudgalanairātmyadeśanāvineyās te pudgalanairātmyaṃ praviśanti |\nanyathā punaḥ |\ndeśanā dharmanairātmyapraveśaḥ\nanyatheti vijñaptimātradeśanā | kathaṃ dharmanairātmyapraveśaḥ | vijñaptimātram idaṃ rūpādidharmapratibhāsam utpadyate na tu rūpādilakṣaṇo dharmaḥ ko 'py astīti viditvā | yadi tarhi sarvathā dharmo nāsti tad api vijñaptimātraṃ nāstīti kathaṃ tarhi vyavasthāpyate | na khalu sarvathā dharmo nāstīty evaṃ dharmanairātmyapraveśo bhavati | api tu |\nkalpitātmanā",
+      "source_line_start": 89,
+      "source_line_end": 103
+    },
+    {
+      "verse_id": "v_11",
+      "adhyaya": 11,
+      "pada": null,
+      "sutra_or_verse_num": "11",
+      "sanskrit_devanagari": "यो बालैर् धर्माणां स्वभावो ग्राह्यग्राहकादिः परिकल्पतस् तेन कल्पितेनात्मना तेषां नैरात्म्यं न त्व् अनभिलाप्येनात्मना यो बुद्धानां विषय इति । एवं विज्ञप्तिमात्रस्यापि विज्ञप्त्यन्तरपरिकल्पितेनात्मना नैरात्म्यप्रवेशात् विज्ञप्तिमात्रव्यवस्थापनया सर्वधर्माणां नैरात्म्यप्रवेशो भवति न तु तदस्तित्वापवादात् । इतरथा हि विज्ञप्तेर् अपि विज्ञप्त्यन्तरम् अर्थः स्याद् इति विज्ञप्तिमात्रत्वं न सिध्येतार्थवतीत्वाद् विज्ञप्तीनां ॥\nकथं पुनर् इदं प्रत्येतव्यम् अनेनाभिप्रायेण भगवता रूपाद्यायतनास्तित्वम् उक्तं न पुनः सन्त्य् एव तानि यानि रूपादिविज्ञप्तीनां प्रत्येकं विषयीभवन्ति इति । यस्मात् ।\nन तद् एकं न चानेकं विषयः परमाणुशः ।\nन च ते संहता यस्मात् परमाणुर् न सिध्यति",
+      "sanskrit_iast": "yo bālair dharmāṇāṃ svabhāvo grāhyagrāhakādiḥ parikalpatas tena kalpitenātmanā teṣāṃ nairātmyaṃ na tv anabhilāpyenātmanā yo buddhānāṃ viṣaya iti | evaṃ vijñaptimātrasyāpi vijñaptyantaraparikalpitenātmanā nairātmyapraveśāt vijñaptimātravyavasthāpanayā sarvadharmāṇāṃ nairātmyapraveśo bhavati na tu tadastitvāpavādāt | itarathā hi vijñapter api vijñaptyantaram arthaḥ syād iti vijñaptimātratvaṃ na sidhyetārthavatītvād vijñaptīnāṃ ||\nkathaṃ punar idaṃ pratyetavyam anenābhiprāyeṇa bhagavatā rūpādyāyatanāstitvam uktaṃ na punaḥ santy eva tāni yāni rūpādivijñaptīnāṃ pratyekaṃ viṣayībhavanti iti | yasmāt |\nna tad ekaṃ na cānekaṃ viṣayaḥ paramāṇuśaḥ |\nna ca te saṃhatā yasmāt paramāṇur na sidhyati",
+      "source_line_start": 105,
+      "source_line_end": 111
+    },
+    {
+      "verse_id": "v_12",
+      "adhyaya": 12,
+      "pada": null,
+      "sutra_or_verse_num": "12",
+      "sanskrit_devanagari": "इति । किम् उक्तं भवति । यत् तद्रूपादिकम् आयतनं रूपादिविज्ञप्तीनां प्रत्येकं विषयः स्यात् तद् एकं वा स्याद् यथावयविरूपं कल्प्यते वैशेषिकैः । अनेकं वा परमाणुशः । संहता वा त एव परमाणवः । न तावद् एकं विषयो भवत्य् अवयवेभ्यो ऽन्यस्यावयविरूपस्य क्वचिद् अप्य् अग्रहणात् । नाप्य् अनेकं परमाणूनां (व्व्स्_७) प्रत्येकम् अग्रहणात् । नापि ते संहता विषयीभवन्ति । यस्मात् परमाणुर् एकं द्रव्यं न सिध्यति ॥\nकथं न सिध्यति । यस्मात् ।\nषट्केन युगपद् योगात् परमाणोः षडंशता ।\nषड्भ्यो दिग्भ्यः षड्भिः परमाणुभिर् युगपद् योगे सति परमाणोः षडंशता प्राप्नोति । एकस्य यो देशस् तत्रान्यस्यासंभवात् ।\nषण्णां समानदेशत्वात् पिण्डः स्याद्\nअणुमात्रकः",
+      "sanskrit_iast": "iti | kim uktaṃ bhavati | yat tadrūpādikam āyatanaṃ rūpādivijñaptīnāṃ pratyekaṃ viṣayaḥ syāt tad ekaṃ vā syād yathāvayavirūpaṃ kalpyate vaiśeṣikaiḥ | anekaṃ vā paramāṇuśaḥ | saṃhatā vā ta eva paramāṇavaḥ | na tāvad ekaṃ viṣayo bhavaty avayavebhyo 'nyasyāvayavirūpasya kvacid apy agrahaṇāt | nāpy anekaṃ paramāṇūnāṃ (Vvs_7) pratyekam agrahaṇāt | nāpi te saṃhatā viṣayībhavanti | yasmāt paramāṇur ekaṃ dravyaṃ na sidhyati ||\nkathaṃ na sidhyati | yasmāt |\nṣaṭkena yugapad yogāt paramāṇoḥ ṣaḍaṃśatā |\nṣaḍbhyo digbhyaḥ ṣaḍbhiḥ paramāṇubhir yugapad yoge sati paramāṇoḥ ṣaḍaṃśatā prāpnoti | ekasya yo deśas tatrānyasyāsaṃbhavāt |\nṣaṇṇāṃ samānadeśatvāt piṇḍaḥ syād\naṇumātrakaḥ",
+      "source_line_start": 113,
+      "source_line_end": 123
+    },
+    {
+      "verse_id": "v_13",
+      "adhyaya": 13,
+      "pada": null,
+      "sutra_or_verse_num": "13",
+      "sanskrit_devanagari": "अथ य एवैकस्य परमाणोर् देशः स एव षण्णां । तेन सर्वेषां समानदेशत्वात् सर्वः पिण्डः परमाणुमात्रः स्यात् परस्पराव्यतिरेकाद् इति न कश्चित् पिण्डो दृश्यः स्यात् ॥\nनैव हि परमाणवः संयुज्यन्ते निरवयवत्वात् । मा भूद् एष दोषप्रसङ्गः । संहतास् तु परस्परं संयुज्यन्त इति काश्मीरवैभाषिकास् त इदं प्रष्टव्याः । यः परमाणूनां संघातो न स तेभ्यो ऽर्थान्तरम् इति ।\nपरमाणोर् असंयोगात् तत्संघाते ऽस्ति कस्य सः ।\nसंयोग इति वर्तते ।\nन चानवयवत्वेन तत्संयोगो न सिध्यति",
+      "sanskrit_iast": "atha ya evaikasya paramāṇor deśaḥ sa eva ṣaṇṇāṃ | tena sarveṣāṃ samānadeśatvāt sarvaḥ piṇḍaḥ paramāṇumātraḥ syāt parasparāvyatirekād iti na kaścit piṇḍo dṛśyaḥ syāt ||\nnaiva hi paramāṇavaḥ saṃyujyante niravayavatvāt | mā bhūd eṣa doṣaprasaṅgaḥ | saṃhatās tu parasparaṃ saṃyujyanta iti kāśmīravaibhāṣikās ta idaṃ praṣṭavyāḥ | yaḥ paramāṇūnāṃ saṃghāto na sa tebhyo 'rthāntaram iti |\nparamāṇor asaṃyogāt tatsaṃghāte 'sti kasya saḥ |\nsaṃyoga iti vartate |\nna cānavayavatvena tatsaṃyogo na sidhyati",
+      "source_line_start": 125,
+      "source_line_end": 133
+    },
+    {
+      "verse_id": "v_14",
+      "adhyaya": 14,
+      "pada": null,
+      "sutra_or_verse_num": "14",
+      "sanskrit_devanagari": "अथ संघाता अप्य् अन्योन्यं न संयुज्यन्ते । न तर्हि परमाणूनां निरवयवत्वात् संयोगो न सिध्यतीति वक्तव्यं । सावयवस्यापि हि संघातस्य संयोगानभ्युपगमात् । तस्मात् परमाणुर् एकं द्रव्यं न सिध्यति । यदि च परमाणोः संयोग इष्यते यदि वा नेष्यते ।\nदिग्भागभेदी यस्यास्ति तस्यैकत्वं न युज्यते ।\nअन्यो हि परमाणोः पूर्वदिग्भागो यावद् अधोदिग्भाग इति दिग्भागभेदे सति कथं तदात्मकस्य परमाणोर् एकत्वं योक्ष्यते ।\nछायावृती कथ वा\nयद्य् एकैकस्य परमाणोर् दिग्भागभेदो न स्याद् आदित्योदये कथम् अन्यत्र छाया भवत्य् अन्यत्रातपः । न हि तस्यान्यः प्रदेशो ऽस्ति यत्रातपो न स्यात् । आवरणं च कथं भवति परमाणोः परमाण्वन्तरेण यदि दिग्भागभेदो नेष्यते । न हि कश्चिद् अपि परमाणोः परभागो ऽस्ति यत्रागमनाद् अन्येनान्यस्य प्रतिघातः स्यात् । असति च प्रतिघाते सर्वेषां समानदेशत्वात् सर्वः संघातः (व्व्स्_८) परमाणुमात्रः स्याद् इत्य् उक्तं । किम् एवं नेष्यते पिण्डस्य ते छायावृती न परमाणोर् इति । किं खलु परमाणुभ्यो ऽन्यः पिण्ड इष्यते यस्य ते स्यातां । नेत्य् आह ।\nअन्यो न पिण्डश् चेन् न तस्य ते",
+      "sanskrit_iast": "atha saṃghātā apy anyonyaṃ na saṃyujyante | na tarhi paramāṇūnāṃ niravayavatvāt saṃyogo na sidhyatīti vaktavyaṃ | sāvayavasyāpi hi saṃghātasya saṃyogānabhyupagamāt | tasmāt paramāṇur ekaṃ dravyaṃ na sidhyati | yadi ca paramāṇoḥ saṃyoga iṣyate yadi vā neṣyate |\ndigbhāgabhedī yasyāsti tasyaikatvaṃ na yujyate |\nanyo hi paramāṇoḥ pūrvadigbhāgo yāvad adhodigbhāga iti digbhāgabhede sati kathaṃ tadātmakasya paramāṇor ekatvaṃ yokṣyate |\nchāyāvṛtī katha vā\nyady ekaikasya paramāṇor digbhāgabhedo na syād ādityodaye katham anyatra chāyā bhavaty anyatrātapaḥ | na hi tasyānyaḥ pradeśo 'sti yatrātapo na syāt | āvaraṇaṃ ca kathaṃ bhavati paramāṇoḥ paramāṇvantareṇa yadi digbhāgabhedo neṣyate | na hi kaścid api paramāṇoḥ parabhāgo 'sti yatrāgamanād anyenānyasya pratighātaḥ syāt | asati ca pratighāte sarveṣāṃ samānadeśatvāt sarvaḥ saṃghātaḥ (Vvs_8) paramāṇumātraḥ syād ity uktaṃ | kim evaṃ neṣyate piṇḍasya te chāyāvṛtī na paramāṇor iti | kiṃ khalu paramāṇubhyo 'nyaḥ piṇḍa iṣyate yasya te syātāṃ | nety āha |\nanyo na piṇḍaś cen na tasya te",
+      "source_line_start": 135,
+      "source_line_end": 145
+    },
+    {
+      "verse_id": "v_15",
+      "adhyaya": 15,
+      "pada": null,
+      "sutra_or_verse_num": "15",
+      "sanskrit_devanagari": "यदि नान्यः परमाणुभ्यः पिण्ड इष्यते न ते तस्येति सिद्धं भवति । संनिवेशपरिकल्प एषः परमाणुः संघात इति वा ॥\nकिम् अनया चिन्तया लक्षणं / तु रूपादि यदि न प्रतिषिध्यते । किं पुनस् तेषां लक्षणं । चक्षुरादिविषयत्वं नीलादित्वं च । तद् एवेदं संप्रधार्यते । यत् तच् चक्षुरादीनां विषयो नीलपीतादिकम् इष्यते किं तद् एकं द्रव्यम् अथ वा तद् अनेकम् इति । किं चातः । अनेकत्वे दोष उक्तं ।\nएकत्वे न क्रमेणेतिर् युगपन् न ग्रहाग्रहौ ।\nविच्छिन्नानेकवृत्तिश् च सूक्ष्मानीक्षा च नो भवेत्",
+      "sanskrit_iast": "yadi nānyaḥ paramāṇubhyaḥ piṇḍa iṣyate na te tasyeti siddhaṃ bhavati | saṃniveśaparikalpa eṣaḥ paramāṇuḥ saṃghāta iti vā ||\nkim anayā cintayā lakṣaṇaṃ / tu rūpādi yadi na pratiṣidhyate | kiṃ punas teṣāṃ lakṣaṇaṃ | cakṣurādiviṣayatvaṃ nīlāditvaṃ ca | tad evedaṃ saṃpradhāryate | yat tac cakṣurādīnāṃ viṣayo nīlapītādikam iṣyate kiṃ tad ekaṃ dravyam atha vā tad anekam iti | kiṃ cātaḥ | anekatve doṣa uktaṃ |\nekatve na krameṇetir yugapan na grahāgrahau |\nvicchinnānekavṛttiś ca sūkṣmānīkṣā ca no bhavet",
+      "source_line_start": 147,
+      "source_line_end": 153
+    },
+    {
+      "verse_id": "v_16",
+      "adhyaya": 16,
+      "pada": null,
+      "sutra_or_verse_num": "16",
+      "sanskrit_devanagari": "यदि यावद् विच्छिन्नं नानेकं चक्षुषो विषयस् तद् एकं द्रव्यं कल्प्यते पृथिव्यां क्रमेणेतिर् न स्याद् गमनम् इत्य् अर्थः । सकृत्पादक्षेपेण सर्वस्य गतत्वात् । अर्वाग्भागस्य च ग्रहणं परभागस्य चाग्रहणं युगपन् न स्यात् । न हि तस्यैव तदानीं ग्रहणं चाग्रहणं च युक्तम् । विच्छिन्नस्य चानेकस्य हस्त्यश्वादिकस्यैकत्र वृत्तिर् न स्याद् यत्रैव ह्य् एकं तत्रैवापरम् इति कथं तयोर् विच्छेद इष्यते । कथं वा तद् एकं यत् प्राप्तं च ताभ्यां न च प्राप्तम् अन्तराले तच् छून्यग्रहणात् । सूक्ष्माणां चौदकजन्तूनां स्थूलैः समानरूपाणाम् अनीक्षणं न स्याद् । यदि लक्षणभेदाद् एव द्रव्यान्तरत्वं कल्प्यते नान्यथा । तस्माद् अवश्यं परमाणुशो भेदः कल्पयितव्यः । स चैको न सिध्यति । तस्यासिद्धौ रूपादीनां चक्षुरादिविषयत्वम् असिद्धम् इति सिद्धं विज्ञप्तिमात्रं भवतीति ॥\nप्रमाणवशाद् अस्तित्वं नास्तित्वं वा निर्धार्यते सर्वेषां च प्रमाणानां प्रत्यक्षं प्रमाणं गरिष्टम् इत्य् असत्य् अर्थे कथम् इयं बुद्धिर् भवति प्रत्यक्षम् इति ।\nप्रत्यक्षबुद्धिः स्वप्नादौ यथा\nविनाप्य् अर्थेनेति पूर्वम् एव ज्ञापितं\nसा च यदा तदा ।\nन सो ऽर्थो दृश्यते तस्य प्रत्यक्षत्वं कथं मतं",
+      "sanskrit_iast": "yadi yāvad vicchinnaṃ nānekaṃ cakṣuṣo viṣayas tad ekaṃ dravyaṃ kalpyate pṛthivyāṃ krameṇetir na syād gamanam ity arthaḥ | sakṛtpādakṣepeṇa sarvasya gatatvāt | arvāgbhāgasya ca grahaṇaṃ parabhāgasya cāgrahaṇaṃ yugapan na syāt | na hi tasyaiva tadānīṃ grahaṇaṃ cāgrahaṇaṃ ca yuktam | vicchinnasya cānekasya hastyaśvādikasyaikatra vṛttir na syād yatraiva hy ekaṃ tatraivāparam iti kathaṃ tayor viccheda iṣyate | kathaṃ vā tad ekaṃ yat prāptaṃ ca tābhyāṃ na ca prāptam antarāle tac chūnyagrahaṇāt | sūkṣmāṇāṃ caudakajantūnāṃ sthūlaiḥ samānarūpāṇām anīkṣaṇaṃ na syād | yadi lakṣaṇabhedād eva dravyāntaratvaṃ kalpyate nānyathā | tasmād avaśyaṃ paramāṇuśo bhedaḥ kalpayitavyaḥ | sa caiko na sidhyati | tasyāsiddhau rūpādīnāṃ cakṣurādiviṣayatvam asiddham iti siddhaṃ vijñaptimātraṃ bhavatīti ||\npramāṇavaśād astitvaṃ nāstitvaṃ vā nirdhāryate sarveṣāṃ ca pramāṇānāṃ pratyakṣaṃ pramāṇaṃ gariṣṭam ity asaty arthe katham iyaṃ buddhir bhavati pratyakṣam iti |\npratyakṣabuddhiḥ svapnādau yathā\nvināpy artheneti pūrvam eva jñāpitaṃ\nsā ca yadā tadā |\nna so 'rtho dṛśyate tasya pratyakṣatvaṃ kathaṃ mataṃ",
+      "source_line_start": 155,
+      "source_line_end": 165
+    },
+    {
+      "verse_id": "v_17",
+      "adhyaya": 17,
+      "pada": null,
+      "sutra_or_verse_num": "17",
+      "sanskrit_devanagari": "यदा च सा प्रत्यक्षबुद्धिर् भवतीदं मे प्रत्यक्षम् इति तदा न सो ऽर्थो दृश्यते मनोविज्ञानेनैव परिच्छेदाच् चक्षुर्विज्ञानस्य च तदा निरुद्धत्वाद् इति कथं तस्य प्रत्यक्षत्वम् इष्टं । विशेषेण तु क्षणिकस्य विषयस्य तदानीं (व्व्स्_९) निरुद्धम् एवं तद् रूपं रसादिकं वा ॥\nनाननुभूतं मनोविज्ञानेन स्मर्यत इत्य् अवश्यम् अर्थानुभवेन भवितव्यं तच् च दर्शनम् इत्य् एवं तद्विषयस्य रूपादेः प्रत्यक्षत्वं मतं । असिद्धम् इदम् अनुभूतस्यार्थस्य स्मरणं भवतीति । यस्मात् ।\nउक्तं यथा तदाभासा विज्ञप्तिः\nविनाप्य् अर्थेन यथार्थाभासा चक्षुर्विज्ञानादिका विज्ञप्तिर् उत्पद्यते तथोक्तं ।\nस्मरणं ततः ।\nततो हि विज्ञप्तेः स्मृतिसंप्रयुक्ता तत्प्रतिभासैव रूपादिविकल्पिका मनोविज्ञप्तिर् उत्पद्यत इति न स्मृत्युत्पादाद् अर्थानुभवः सिध्यति । यदि यथा स्वप्ने विज्ञप्तिर् अभूतार्थविषया तथा जाग्रतो ऽपि स्यात् तथैव तदभावं लोकः स्वयम् अवगच्छेत् । न चैवं भवति । तस्मान् न स्वप्न इवार्थोपलब्धिः सर्वा निरर्थिका । इदम् अज्ञापकं । यस्मात् ।\nस्वप्नदृग्विषयाभावं नाप्रबुद्धो ऽविगच्छति",
+      "sanskrit_iast": "yadā ca sā pratyakṣabuddhir bhavatīdaṃ me pratyakṣam iti tadā na so 'rtho dṛśyate manovijñānenaiva paricchedāc cakṣurvijñānasya ca tadā niruddhatvād iti kathaṃ tasya pratyakṣatvam iṣṭaṃ | viśeṣeṇa tu kṣaṇikasya viṣayasya tadānīṃ (Vvs_9) niruddham evaṃ tad rūpaṃ rasādikaṃ vā ||\nnānanubhūtaṃ manovijñānena smaryata ity avaśyam arthānubhavena bhavitavyaṃ tac ca darśanam ity evaṃ tadviṣayasya rūpādeḥ pratyakṣatvaṃ mataṃ | asiddham idam anubhūtasyārthasya smaraṇaṃ bhavatīti | yasmāt |\nuktaṃ yathā tadābhāsā vijñaptiḥ\nvināpy arthena yathārthābhāsā cakṣurvijñānādikā vijñaptir utpadyate tathoktaṃ |\nsmaraṇaṃ tataḥ |\ntato hi vijñapteḥ smṛtisaṃprayuktā tatpratibhāsaiva rūpādivikalpikā manovijñaptir utpadyata iti na smṛtyutpādād arthānubhavaḥ sidhyati | yadi yathā svapne vijñaptir abhūtārthaviṣayā tathā jāgrato 'pi syāt tathaiva tadabhāvaṃ lokaḥ svayam avagacchet | na caivaṃ bhavati | tasmān na svapna ivārthopalabdhiḥ sarvā nirarthikā | idam ajñāpakaṃ | yasmāt |\nsvapnadṛgviṣayābhāvaṃ nāprabuddho 'vigacchati",
+      "source_line_start": 167,
+      "source_line_end": 179
+    },
+    {
+      "verse_id": "v_18",
+      "adhyaya": 18,
+      "pada": null,
+      "sutra_or_verse_num": "18",
+      "sanskrit_devanagari": "एवं वितथविकल्पाभ्यासवासनानिद्रया प्रसुप्तो लोकः स्वप्न इवाभूतम् अर्थं पश्यन् न प्रबुद्धस् तदभावं यथावन् नावगच्छति । यदा तु तत्प्रतिपक्षलोकोत्तरनिर्विकल्पज्ञानलाभात् प्रबुद्धो भवति तदा तत्पृष्ठलब्धशुद्धलौकिकज्ञानसंमुखीभावाद् विषयाभावं यथावद् अवगच्छतीति समानम् एतत् ॥\nयदि स्वसंतानपरिणामविशेषाद् एव सत्वानाम् अर्थप्रतिभासा विज्ञप्तय उत्पद्यन्ते नार्थविशेषात् । तदा य एष पापकल्याणमित्रसंपर्कात् सदसद्धर्मश्रवणाच् च विज्ञप्तिनियमः सत्त्वानां स कथं सिध्यति असति सदसत्संपर्के तद्देशनायां च ।\nअन्योन्याधिपतित्वेन विज्ञप्तिनियमो मिथः ।\nसर्वेषां हि सत्त्वानाम् अन्योन्यविज्ञप्त्याधिपत्येन मिथो विज्ञप्तेर् नियमो भवति यथायोगं । मिथ इति परस्परतः । अतः संतानान्तरविज्ञप्तिविशेषात् संतानान्तरे विज्ञप्तिविशेष उत्पद्यते नार्थविशेषात् । यदि यथा स्वप्ने निरर्थिका विज्ञप्तिर् एवं जाग्रतो ऽपि स्यात् कस्मात् कुशलाकुशलसमुदाचारो सुप्तासुप्तयोस् तुल्यं फलम् इष्टानिष्टम् आयत्यां न भवति । यस्मात् ।\nमिद्धेनोपहतं चित्तं स्वप्ने तेनासमं फलं",
+      "sanskrit_iast": "evaṃ vitathavikalpābhyāsavāsanānidrayā prasupto lokaḥ svapna ivābhūtam arthaṃ paśyan na prabuddhas tadabhāvaṃ yathāvan nāvagacchati | yadā tu tatpratipakṣalokottaranirvikalpajñānalābhāt prabuddho bhavati tadā tatpṛṣṭhalabdhaśuddhalaukikajñānasaṃmukhībhāvād viṣayābhāvaṃ yathāvad avagacchatīti samānam etat ||\nyadi svasaṃtānapariṇāmaviśeṣād eva satvānām arthapratibhāsā vijñaptaya utpadyante nārthaviśeṣāt | tadā ya eṣa pāpakalyāṇamitrasaṃparkāt sadasaddharmaśravaṇāc ca vijñaptiniyamaḥ sattvānāṃ sa kathaṃ sidhyati asati sadasatsaṃparke taddeśanāyāṃ ca |\nanyonyādhipatitvena vijñaptiniyamo mithaḥ |\nsarveṣāṃ hi sattvānām anyonyavijñaptyādhipatyena mitho vijñapter niyamo bhavati yathāyogaṃ | mitha iti parasparataḥ | ataḥ saṃtānāntaravijñaptiviśeṣāt saṃtānāntare vijñaptiviśeṣa utpadyate nārthaviśeṣāt | yadi yathā svapne nirarthikā vijñaptir evaṃ jāgrato 'pi syāt kasmāt kuśalākuśalasamudācāro suptāsuptayos tulyaṃ phalam iṣṭāniṣṭam āyatyāṃ na bhavati | yasmāt |\nmiddhenopahataṃ cittaṃ svapne tenāsamaṃ phalaṃ",
+      "source_line_start": 181,
+      "source_line_end": 189
+    },
+    {
+      "verse_id": "v_19",
+      "adhyaya": 19,
+      "pada": null,
+      "sutra_or_verse_num": "19",
+      "sanskrit_devanagari": "इदम् अत्र कारणां न त्व् अर्थसद्भावः ॥\nयदि विज्ञाप्तिमात्रम् एवेदं न कस्यचित् कायो ऽस्ति न वाक् ॥\nकथम् उपक्रम्यमाणानाम् औरभ्रिकादिभिर् उरभ्रादीनां (व्व्स्_१०) मरणं भव्ति । अतत्कृते वा तन्मरणे कथम् औरभ्रिकादीनां प्राणातिपातावद्येन योगो भवति ।\nमरणम् परविज्ञप्तिविशेषाद् विक्रिया यथा ।\nस्मृतिलोपादिकान्येषां पिशाचादिमनोवशात्",
+      "sanskrit_iast": "idam atra kāraṇāṃ na tv arthasadbhāvaḥ ||\nyadi vijñāptimātram evedaṃ na kasyacit kāyo 'sti na vāk ||\nkatham upakramyamāṇānām aurabhrikādibhir urabhrādīnāṃ (Vvs_10) maraṇaṃ bhavti | atatkṛte vā tanmaraṇe katham aurabhrikādīnāṃ prāṇātipātāvadyena yogo bhavati |\nmaraṇam paravijñaptiviśeṣād vikriyā yathā |\nsmṛtilopādikānyeṣāṃ piśācādimanovaśāt",
+      "source_line_start": 191,
+      "source_line_end": 199
+    },
+    {
+      "verse_id": "v_20",
+      "adhyaya": 20,
+      "pada": null,
+      "sutra_or_verse_num": "20",
+      "sanskrit_devanagari": "यथा हि पिशाचादिमनोवशाद् अन्येषां स्मृतिलोपस्वप्नदर्शनभूतग्रहावेशविकारा भवन्ति । ऋद्धिवन् मनोवशाच् च । यथा सारणस्यार्यमहाकात्यायनाधिष्ठानात् स्वप्नदर्शनं । आरण्यकर्षिमनःप्रदोषाच् च वेमचित्रपराजयः । तथा परविज्ञप्तिविशेषाधिपत्यात् परेषां जीवितेन्द्रियविरोधिनी काचिद् विक्रियोत्पद्यते यया सभागसंततिविच्छेदाख्यं मरणं भवतीति वेदितव्यं ॥\nकथं वा दण्डकारण्यशून्यत्वम् ऋषिकोपतः ।\nयदि परविज्ञप्तिविशेषाधिपत्यात् सत्त्वानां मरणं नेष्यते । मनोदण्डस्य हि महासावद्यत्वं साधयता भगवतोपालिर् गृहपतिः पृष्टः । कच्चित् ते गृहपते श्रुतं केन तानि दण्डकारण्यानि मातङ्गारण्यानि कलिङ्गारण्यानि शून्यानि मेध्यीभूतानि । तेनोक्तं । श्रुतं मे भो गौतम ऋषीणां मनःप्रदोषेणेति ।\nमनोदण्डो महावद्यः कथं वा तेन सिध्यति",
+      "sanskrit_iast": "yathā hi piśācādimanovaśād anyeṣāṃ smṛtilopasvapnadarśanabhūtagrahāveśavikārā bhavanti | ṛddhivan manovaśāc ca | yathā sāraṇasyāryamahākātyāyanādhiṣṭhānāt svapnadarśanaṃ | āraṇyakarṣimanaḥpradoṣāc ca vemacitraparājayaḥ | tathā paravijñaptiviśeṣādhipatyāt pareṣāṃ jīvitendriyavirodhinī kācid vikriyotpadyate yayā sabhāgasaṃtativicchedākhyaṃ maraṇaṃ bhavatīti veditavyaṃ ||\nkathaṃ vā daṇḍakāraṇyaśūnyatvam ṛṣikopataḥ |\nyadi paravijñaptiviśeṣādhipatyāt sattvānāṃ maraṇaṃ neṣyate | manodaṇḍasya hi mahāsāvadyatvaṃ sādhayatā bhagavatopālir gṛhapatiḥ pṛṣṭaḥ | kaccit te gṛhapate śrutaṃ kena tāni daṇḍakāraṇyāni mātaṅgāraṇyāni kaliṅgāraṇyāni śūnyāni medhyībhūtāni | tenoktaṃ | śrutaṃ me bho gautama ṛṣīṇāṃ manaḥpradoṣeṇeti |\nmanodaṇḍo mahāvadyaḥ kathaṃ vā tena sidhyati",
+      "source_line_start": 201,
+      "source_line_end": 207
+    },
+    {
+      "verse_id": "v_21",
+      "adhyaya": 21,
+      "pada": null,
+      "sutra_or_verse_num": "21",
+      "sanskrit_devanagari": "यद्य् एवं कल्प्यते । तदभिप्रसन्नैर् अमानुषैस् तद्वासिनः सत्त्वा उत्सादिता न त्व् ऋषीणां मनःप्रदोषान् मृता इत्य् एवं सति कथं तेन कर्मणा मनोदण्डः कायवाग्दण्डाभ्यां महावद्यतमः सिद्धो भवति । तन्मनःप्रदोषमात्रेण तावतां सत्त्वानां मरणात् सिध्यति ॥\nयदि विज्ञप्तिमात्रम् एवेदं परचित्तविदः किं परचित्तं जानन्त्य् अथ न । किं चातः । यदि न जानन्ति कथं परचित्तविदो भवन्ति । अथ जानन्ति ।\nपरचित्तविदां ज्ञानम् अयथार्थं कथं यथा ।\nस्वचित्तज्ञानं\nतद् अपि कथम् अयथार्थ ।\nअज्ञानाद् यथा बुद्धस्य गोचरः",
+      "sanskrit_iast": "yady evaṃ kalpyate | tadabhiprasannair amānuṣais tadvāsinaḥ sattvā utsāditā na tv ṛṣīṇāṃ manaḥpradoṣān mṛtā ity evaṃ sati kathaṃ tena karmaṇā manodaṇḍaḥ kāyavāgdaṇḍābhyāṃ mahāvadyatamaḥ siddho bhavati | tanmanaḥpradoṣamātreṇa tāvatāṃ sattvānāṃ maraṇāt sidhyati ||\nyadi vijñaptimātram evedaṃ paracittavidaḥ kiṃ paracittaṃ jānanty atha na | kiṃ cātaḥ | yadi na jānanti kathaṃ paracittavido bhavanti | atha jānanti |\nparacittavidāṃ jñānam ayathārthaṃ kathaṃ yathā |\nsvacittajñānaṃ\ntad api katham ayathārtha |\najñānād yathā buddhasya gocaraḥ",
+      "source_line_start": 209,
+      "source_line_end": 219
+    },
+    {
+      "verse_id": "v_22",
+      "adhyaya": 22,
+      "pada": null,
+      "sutra_or_verse_num": "22",
+      "sanskrit_devanagari": "यथा तन्निरभिलाप्येनात्मना बुद्धानां गोचरः । तथा तदज्ञानात् तदुभयं न यथार्थं वितथप्रतिभासतया ग्राह्यग्राहकविकल्पस्याप्रहीणत्वात् ॥\nअनन्तविनिश्चयप्रभेदागाम्भीर्यायां विज्ञप्तिमात्रतायां ।\nविज्ञप्तिमात्रतासिद्धिः स्वशक्तिसदृशी मया ।\nकृतेयं सर्वथा सा तु न चिन्त्या\n(व्व्स्_११)\nसर्वप्रकारा तु सा मादृशैश् चिन्तयितुं न शक्यते । तर्काविषयत्वात् । कस्य पुनः सा सर्वथा गोचर इत्य् आह ।\nबुद्धगोचरः",
+      "sanskrit_iast": "yathā tannirabhilāpyenātmanā buddhānāṃ gocaraḥ | tathā tadajñānāt tadubhayaṃ na yathārthaṃ vitathapratibhāsatayā grāhyagrāhakavikalpasyāprahīṇatvāt ||\nanantaviniścayaprabhedāgāmbhīryāyāṃ vijñaptimātratāyāṃ |\nvijñaptimātratāsiddhiḥ svaśaktisadṛśī mayā |\nkṛteyaṃ sarvathā sā tu na cintyā\n(Vvs_11)\nsarvaprakārā tu sā mādṛśaiś cintayituṃ na śakyate | tarkāviṣayatvāt | kasya punaḥ sā sarvathā gocara ity āha |\nbuddhagocaraḥ",
+      "source_line_start": 221,
+      "source_line_end": 233
+    }
+  ],
+  "caveats": []
+}

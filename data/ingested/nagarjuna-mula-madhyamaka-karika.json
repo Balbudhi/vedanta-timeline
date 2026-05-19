@@ -1,0 +1,4498 @@
+{
+  "text_id": "nagarjuna-mula-madhyamaka-karika",
+  "thinker_id": "nagarjuna",
+  "work_title_iast": "Mūla-Madhyamaka-Kārikā",
+  "work_title_devanagari": "मूलमध्यमककारिका",
+  "source_file": "data/sources/sanskrit/buddhist/nagarjuna_mula_madhyamaka_karika.txt",
+  "source_script": "iast",
+  "tokenizer": "fallback_whitespace",
+  "normalizer": "indic_transliteration",
+  "ingested_at": "2026-05-19",
+  "ingested_by": "corpus-chat-lane1",
+  "structure_recovered": true,
+  "verse_count": 448,
+  "token_count_approx": 5465,
+  "verses": [
+    {
+      "verse_id": "v_1_1",
+      "adhyaya": 1,
+      "pada": 1,
+      "sutra_or_verse_num": "1.1",
+      "sanskrit_devanagari": "मूलमध्यमककारिका\nन स्वतो नापि परतो न द्वाभ्यां नाप्य् अहेतुतः  /\nउत्पन्ना जातु विद्यन्ते भावाः क्व चन के चन",
+      "sanskrit_iast": "Mūlamadhyamakakārikā\nna svato nāpi parato na dvābhyāṃ nāpy ahetutaḥ  /\nutpannā jātu vidyante bhāvāḥ kva cana ke cana",
+      "source_line_start": 1,
+      "source_line_end": 5
+    },
+    {
+      "verse_id": "v_1_2",
+      "adhyaya": 1,
+      "pada": 2,
+      "sutra_or_verse_num": "1.2",
+      "sanskrit_devanagari": "चत्वारः प्रत्यया हेतुर् आरम्बणम् अनन्तरम्  /\nतथैवाधिपतेयं च प्रत्ययो नास्ति पञ्चमः",
+      "sanskrit_iast": "catvāraḥ pratyayā hetur ārambaṇam anantaram  /\ntathaivādhipateyaṃ ca pratyayo nāsti pañcamaḥ",
+      "source_line_start": 7,
+      "source_line_end": 9
+    },
+    {
+      "verse_id": "v_1_3",
+      "adhyaya": 1,
+      "pada": 3,
+      "sutra_or_verse_num": "1.3",
+      "sanskrit_devanagari": "न हि स्वभावो भावानां प्रत्ययादिषु विद्यते  /\nअविद्यमाने स्वभावे परभावो न विद्यते",
+      "sanskrit_iast": "na hi svabhāvo bhāvānāṃ pratyayādiṣu vidyate  /\navidyamāne svabhāve parabhāvo na vidyate",
+      "source_line_start": 11,
+      "source_line_end": 13
+    },
+    {
+      "verse_id": "v_1_4",
+      "adhyaya": 1,
+      "pada": 4,
+      "sutra_or_verse_num": "1.4",
+      "sanskrit_devanagari": "क्रिया न प्रत्ययवती नाप्रत्ययवती क्रिया  /\nप्रत्यया नाक्रियावन्तः क्रियावन्तश् च सन्त्य् उत",
+      "sanskrit_iast": "kriyā na pratyayavatī nāpratyayavatī kriyā  /\npratyayā nākriyāvantaḥ kriyāvantaś ca santy uta",
+      "source_line_start": 15,
+      "source_line_end": 17
+    },
+    {
+      "verse_id": "v_1_5",
+      "adhyaya": 1,
+      "pada": 5,
+      "sutra_or_verse_num": "1.5",
+      "sanskrit_devanagari": "उत्पद्यते प्रतीत्येमान् इतीमे प्रत्ययाः किल  /\nयावन् नोत्पद्यत इमे तावन् नाप्रत्ययाः कथम्",
+      "sanskrit_iast": "utpadyate pratītyemān itīme pratyayāḥ kila  /\nyāvan notpadyata ime tāvan nāpratyayāḥ katham",
+      "source_line_start": 19,
+      "source_line_end": 21
+    },
+    {
+      "verse_id": "v_1_6",
+      "adhyaya": 1,
+      "pada": 6,
+      "sutra_or_verse_num": "1.6",
+      "sanskrit_devanagari": "नैवासतो नैव सतः प्रत्ययो ऽर्थस्य युज्यते  /\nअसतः प्रत्ययः कस्य सतश् च प्रत्ययेन किम्",
+      "sanskrit_iast": "naivāsato naiva sataḥ pratyayo 'rthasya yujyate  /\nasataḥ pratyayaḥ kasya sataś ca pratyayena kim",
+      "source_line_start": 23,
+      "source_line_end": 25
+    },
+    {
+      "verse_id": "v_1_7",
+      "adhyaya": 1,
+      "pada": 7,
+      "sutra_or_verse_num": "1.7",
+      "sanskrit_devanagari": "न सन् नासन् न सद् असन् धर्मो निर्वर्तते यदा  /\nकथं निर्वर्तको हेतुर् एवं सति हि युज्यते",
+      "sanskrit_iast": "na san nāsan na sad asan dharmo nirvartate yadā  /\nkathaṃ nirvartako hetur evaṃ sati hi yujyate",
+      "source_line_start": 27,
+      "source_line_end": 29
+    },
+    {
+      "verse_id": "v_1_8",
+      "adhyaya": 1,
+      "pada": 8,
+      "sutra_or_verse_num": "1.8",
+      "sanskrit_devanagari": "अनारम्बण एवायं सन् धर्म उपदिश्यते  /\nअथानारम्बणे धर्मे कुत आरम्बणं पुनः",
+      "sanskrit_iast": "anārambaṇa evāyaṃ san dharma upadiśyate  /\nathānārambaṇe dharme kuta ārambaṇaṃ punaḥ",
+      "source_line_start": 31,
+      "source_line_end": 33
+    },
+    {
+      "verse_id": "v_1_9",
+      "adhyaya": 1,
+      "pada": 9,
+      "sutra_or_verse_num": "1.9",
+      "sanskrit_devanagari": "अनुत्पन्नेषु धर्मेषु निरोधो नोपपद्यते  /\nनानन्तरम् अतो युक्तं निरुद्धे प्रत्ययश् च कः",
+      "sanskrit_iast": "anutpanneṣu dharmeṣu nirodho nopapadyate  /\nnānantaram ato yuktaṃ niruddhe pratyayaś ca kaḥ",
+      "source_line_start": 35,
+      "source_line_end": 37
+    },
+    {
+      "verse_id": "v_1_10",
+      "adhyaya": 1,
+      "pada": 10,
+      "sutra_or_verse_num": "1.10",
+      "sanskrit_devanagari": "भावानां निःस्वभावानां न सत्ता विद्यते यतः  /\nसतीदम् अस्मिन् भवतीत्य् एतन् नैवोपपद्यते",
+      "sanskrit_iast": "bhāvānāṃ niḥsvabhāvānāṃ na sattā vidyate yataḥ  /\nsatīdam asmin bhavatīty etan naivopapadyate",
+      "source_line_start": 39,
+      "source_line_end": 41
+    },
+    {
+      "verse_id": "v_1_11",
+      "adhyaya": 1,
+      "pada": 11,
+      "sutra_or_verse_num": "1.11",
+      "sanskrit_devanagari": "न च व्यस्तसमस्तेषु प्रत्ययेष्वस्ति तत् फलम्  /\nप्रत्ययेभ्यः कथं तच् च भवेन् न प्रत्ययेषु यत्",
+      "sanskrit_iast": "na ca vyastasamasteṣu pratyayeṣvasti tat phalam  /\npratyayebhyaḥ kathaṃ tac ca bhaven na pratyayeṣu yat",
+      "source_line_start": 43,
+      "source_line_end": 45
+    },
+    {
+      "verse_id": "v_1_12",
+      "adhyaya": 1,
+      "pada": 12,
+      "sutra_or_verse_num": "1.12",
+      "sanskrit_devanagari": "अथासद् अपि तत् तेभ्यः प्रत्ययेभ्यः प्रवर्तते  /\nअप्रत्ययेभ्यो ऽपि कस्मान् नाभिप्रवर्तते फलम्",
+      "sanskrit_iast": "athāsad api tat tebhyaḥ pratyayebhyaḥ pravartate  /\napratyayebhyo 'pi kasmān nābhipravartate phalam",
+      "source_line_start": 47,
+      "source_line_end": 49
+    },
+    {
+      "verse_id": "v_1_13",
+      "adhyaya": 1,
+      "pada": 13,
+      "sutra_or_verse_num": "1.13",
+      "sanskrit_devanagari": "फलं च प्रत्ययमयं प्रत्ययाश्चास्वयंमयाः  /\nफलमस्वमयेभ्यो यत्तत्प्रत्ययमयं कथम्",
+      "sanskrit_iast": "phalaṃ ca pratyayamayaṃ pratyayāścāsvayaṃmayāḥ  /\nphalamasvamayebhyo yattatpratyayamayaṃ katham",
+      "source_line_start": 51,
+      "source_line_end": 53
+    },
+    {
+      "verse_id": "v_1_14",
+      "adhyaya": 1,
+      "pada": 14,
+      "sutra_or_verse_num": "1.14",
+      "sanskrit_devanagari": "तस्मान् न प्रत्ययमयं नाप्रत्ययमयं फलम्  /\nसंविद्यते फलाभावात् प्रत्ययाप्रत्ययाः कुतः",
+      "sanskrit_iast": "tasmān na pratyayamayaṃ nāpratyayamayaṃ phalam  /\nsaṃvidyate phalābhāvāt pratyayāpratyayāḥ kutaḥ",
+      "source_line_start": 55,
+      "source_line_end": 57
+    },
+    {
+      "verse_id": "v_2_1",
+      "adhyaya": 2,
+      "pada": 1,
+      "sutra_or_verse_num": "2.1",
+      "sanskrit_devanagari": "***********************************************************\nगतं न गम्यते तावद् अगतं नैव गम्यते  /\nगतागतविनिर्मुक्तं गम्यमानं न गम्यते",
+      "sanskrit_iast": "***********************************************************\ngataṃ na gamyate tāvad agataṃ naiva gamyate  /\ngatāgatavinirmuktaṃ gamyamānaṃ na gamyate",
+      "source_line_start": 59,
+      "source_line_end": 63
+    },
+    {
+      "verse_id": "v_2_2",
+      "adhyaya": 2,
+      "pada": 2,
+      "sutra_or_verse_num": "2.2",
+      "sanskrit_devanagari": "चेष्टा यत्र गतिस् तत्र गम्यमाने च सा यतः  /\nन गते नागते चेष्टा गम्यमाने गतिस् ततः",
+      "sanskrit_iast": "ceṣṭā yatra gatis tatra gamyamāne ca sā yataḥ  /\nna gate nāgate ceṣṭā gamyamāne gatis tataḥ",
+      "source_line_start": 65,
+      "source_line_end": 67
+    },
+    {
+      "verse_id": "v_2_3",
+      "adhyaya": 2,
+      "pada": 3,
+      "sutra_or_verse_num": "2.3",
+      "sanskrit_devanagari": "गम्यमानस्य गमनं कथं नामोपपत्स्यते  /\nगम्यमानं विगमनं यदा नैवोपपद्यते",
+      "sanskrit_iast": "gamyamānasya gamanaṃ kathaṃ nāmopapatsyate  /\ngamyamānaṃ vigamanaṃ yadā naivopapadyate",
+      "source_line_start": 69,
+      "source_line_end": 71
+    },
+    {
+      "verse_id": "v_2_4",
+      "adhyaya": 2,
+      "pada": 4,
+      "sutra_or_verse_num": "2.4",
+      "sanskrit_devanagari": "गम्यमानस्य गमनं यस्य तस्य प्रसज्यते  /\nऋते गतेर् गम्यमानं गम्यमानं हि गम्यते",
+      "sanskrit_iast": "gamyamānasya gamanaṃ yasya tasya prasajyate  /\nṛte gater gamyamānaṃ gamyamānaṃ hi gamyate",
+      "source_line_start": 73,
+      "source_line_end": 75
+    },
+    {
+      "verse_id": "v_2_5",
+      "adhyaya": 2,
+      "pada": 5,
+      "sutra_or_verse_num": "2.5",
+      "sanskrit_devanagari": "गम्यमानस्य गमने प्रसक्तं गमनद्वयम्  /\nयेन तद् गम्यमानं च यच् चात्र गमनं पुनः",
+      "sanskrit_iast": "gamyamānasya gamane prasaktaṃ gamanadvayam  /\nyena tad gamyamānaṃ ca yac cātra gamanaṃ punaḥ",
+      "source_line_start": 77,
+      "source_line_end": 79
+    },
+    {
+      "verse_id": "v_2_6",
+      "adhyaya": 2,
+      "pada": 6,
+      "sutra_or_verse_num": "2.6",
+      "sanskrit_devanagari": "द्वौ गन्तारौ प्रसज्येते प्रसक्ते गमनद्वये  /\nगन्तारं हि तिरस्कृत्य गमनं नोपपद्यते",
+      "sanskrit_iast": "dvau gantārau prasajyete prasakte gamanadvaye  /\ngantāraṃ hi tiraskṛtya gamanaṃ nopapadyate",
+      "source_line_start": 81,
+      "source_line_end": 83
+    },
+    {
+      "verse_id": "v_2_7",
+      "adhyaya": 2,
+      "pada": 7,
+      "sutra_or_verse_num": "2.7",
+      "sanskrit_devanagari": "गन्तारं चेत् तिरस्कृत्य गमनं नोपपद्यते  /\nगमने ऽसति गन्ताथ कुत एव भविष्यति",
+      "sanskrit_iast": "gantāraṃ cet tiraskṛtya gamanaṃ nopapadyate  /\ngamane 'sati gantātha kuta eva bhaviṣyati",
+      "source_line_start": 85,
+      "source_line_end": 87
+    },
+    {
+      "verse_id": "v_2_8",
+      "adhyaya": 2,
+      "pada": 8,
+      "sutra_or_verse_num": "2.8",
+      "sanskrit_devanagari": "गन्ता न गच्छति तावद् अगन्ता नैव गच्छति  /\nअन्यो गन्तुर् अगन्तुश् च कस् तृतीयो ऽथ गच्छति",
+      "sanskrit_iast": "gantā na gacchati tāvad agantā naiva gacchati  /\nanyo gantur agantuś ca kas tṛtīyo 'tha gacchati",
+      "source_line_start": 89,
+      "source_line_end": 91
+    },
+    {
+      "verse_id": "v_2_9",
+      "adhyaya": 2,
+      "pada": 9,
+      "sutra_or_verse_num": "2.9",
+      "sanskrit_devanagari": "गन्ता तावद् गच्छतीति कथम् एवोपपत्स्यते  /\nगमनेन विना गन्ता यदा नैवोपपद्यते",
+      "sanskrit_iast": "gantā tāvad gacchatīti katham evopapatsyate  /\ngamanena vinā gantā yadā naivopapadyate",
+      "source_line_start": 93,
+      "source_line_end": 95
+    },
+    {
+      "verse_id": "v_2_10",
+      "adhyaya": 2,
+      "pada": 10,
+      "sutra_or_verse_num": "2.10",
+      "sanskrit_devanagari": "पक्षो गन्ता गच्छतीति यस्य तस्य प्रसज्यते  /\nगमनेन विना गन्ता गन्तुर् गमनम् इच्छतः",
+      "sanskrit_iast": "pakṣo gantā gacchatīti yasya tasya prasajyate  /\ngamanena vinā gantā gantur gamanam icchataḥ",
+      "source_line_start": 97,
+      "source_line_end": 99
+    },
+    {
+      "verse_id": "v_2_11",
+      "adhyaya": 2,
+      "pada": 11,
+      "sutra_or_verse_num": "2.11",
+      "sanskrit_devanagari": "गमने द्वे प्रसज्येते गन्ता यद्युत गच्छति  /\nगन्तेति चाज्यते येन गन्ता सन् यच् च गच्छति",
+      "sanskrit_iast": "gamane dve prasajyete gantā yadyuta gacchati  /\nganteti cājyate yena gantā san yac ca gacchati",
+      "source_line_start": 101,
+      "source_line_end": 103
+    },
+    {
+      "verse_id": "v_2_12",
+      "adhyaya": 2,
+      "pada": 12,
+      "sutra_or_verse_num": "2.12",
+      "sanskrit_devanagari": "गते नारभ्यते गन्तुं गन्तुं नारभ्यते ऽगते  /\nनारभ्यते गम्यमाने गन्तुम् आरभ्यते कुह",
+      "sanskrit_iast": "gate nārabhyate gantuṃ gantuṃ nārabhyate 'gate  /\nnārabhyate gamyamāne gantum ārabhyate kuha",
+      "source_line_start": 105,
+      "source_line_end": 107
+    },
+    {
+      "verse_id": "v_2_13",
+      "adhyaya": 2,
+      "pada": 13,
+      "sutra_or_verse_num": "2.13",
+      "sanskrit_devanagari": "न पूर्वं गमनारम्भाद् गम्यमानं न वा गतम्  /\nयत्रारभ्येत गमनम् अगते गमनं कुतः",
+      "sanskrit_iast": "na pūrvaṃ gamanārambhād gamyamānaṃ na vā gatam  /\nyatrārabhyeta gamanam agate gamanaṃ kutaḥ",
+      "source_line_start": 109,
+      "source_line_end": 111
+    },
+    {
+      "verse_id": "v_2_14",
+      "adhyaya": 2,
+      "pada": 14,
+      "sutra_or_verse_num": "2.14",
+      "sanskrit_devanagari": "गतं किं गम्यमानं किम् अगतं किं विकल्प्यते  /\nअदृश्यमान आरम्भे गमनस्यैव सर्वथा",
+      "sanskrit_iast": "gataṃ kiṃ gamyamānaṃ kim agataṃ kiṃ vikalpyate  /\nadṛśyamāna ārambhe gamanasyaiva sarvathā",
+      "source_line_start": 113,
+      "source_line_end": 115
+    },
+    {
+      "verse_id": "v_2_15",
+      "adhyaya": 2,
+      "pada": 15,
+      "sutra_or_verse_num": "2.15",
+      "sanskrit_devanagari": "गन्ता न तिष्ठति तावद् अगन्ता नैव तिष्ठति  /\nअन्यो गन्तुर् अगन्तुश् च कस् तृतीयो ऽथ तिष्ठति",
+      "sanskrit_iast": "gantā na tiṣṭhati tāvad agantā naiva tiṣṭhati  /\nanyo gantur agantuś ca kas tṛtīyo 'tha tiṣṭhati",
+      "source_line_start": 117,
+      "source_line_end": 119
+    },
+    {
+      "verse_id": "v_2_16",
+      "adhyaya": 2,
+      "pada": 16,
+      "sutra_or_verse_num": "2.16",
+      "sanskrit_devanagari": "गन्ता तावत् तिष्ठतीति कथम् एवोपपत्स्यते  /\nगमनेन विना गन्ता यदा नैवोपपद्यते",
+      "sanskrit_iast": "gantā tāvat tiṣṭhatīti katham evopapatsyate  /\ngamanena vinā gantā yadā naivopapadyate",
+      "source_line_start": 121,
+      "source_line_end": 123
+    },
+    {
+      "verse_id": "v_2_17",
+      "adhyaya": 2,
+      "pada": 17,
+      "sutra_or_verse_num": "2.17",
+      "sanskrit_devanagari": "न तिष्ठति गम्यमानान् न गतान् नागताद् अपि  /\nगमनं संप्रवृत्तिश् च निवृत्तिश् च गतेः समा",
+      "sanskrit_iast": "na tiṣṭhati gamyamānān na gatān nāgatād api  /\ngamanaṃ saṃpravṛttiś ca nivṛttiś ca gateḥ samā",
+      "source_line_start": 125,
+      "source_line_end": 127
+    },
+    {
+      "verse_id": "v_2_18",
+      "adhyaya": 2,
+      "pada": 18,
+      "sutra_or_verse_num": "2.18",
+      "sanskrit_devanagari": "यद् एव गमनं गन्ता स एवेति न युज्यते  /\nअन्य एव पुनर् गन्ता गतेर् इति न युज्यते",
+      "sanskrit_iast": "yad eva gamanaṃ gantā sa eveti na yujyate  /\nanya eva punar gantā gater iti na yujyate",
+      "source_line_start": 129,
+      "source_line_end": 131
+    },
+    {
+      "verse_id": "v_2_19",
+      "adhyaya": 2,
+      "pada": 19,
+      "sutra_or_verse_num": "2.19",
+      "sanskrit_devanagari": "यद् एव गमनं गन्ता स एव हि भवेद् यदि  /\nएकीभावः प्रसज्येत कर्तुः कर्मण एव च",
+      "sanskrit_iast": "yad eva gamanaṃ gantā sa eva hi bhaved yadi  /\nekībhāvaḥ prasajyeta kartuḥ karmaṇa eva ca",
+      "source_line_start": 133,
+      "source_line_end": 135
+    },
+    {
+      "verse_id": "v_2_20",
+      "adhyaya": 2,
+      "pada": 20,
+      "sutra_or_verse_num": "2.20",
+      "sanskrit_devanagari": "अन्य एव पुनर् गन्ता गतेर् यदि विकल्प्यते  /\nगमनं स्याद् ऋते गन्तुर् गन्ता स्याद् गमनाद् ऋते",
+      "sanskrit_iast": "anya eva punar gantā gater yadi vikalpyate  /\ngamanaṃ syād ṛte gantur gantā syād gamanād ṛte",
+      "source_line_start": 137,
+      "source_line_end": 139
+    },
+    {
+      "verse_id": "v_2_21",
+      "adhyaya": 2,
+      "pada": 21,
+      "sutra_or_verse_num": "2.21",
+      "sanskrit_devanagari": "एकीभावेन वा सिद्धिर् नानाभावेन वा ययोः  /\nन विद्यते तयोः सिद्धिः कथं नु खलु विद्यते",
+      "sanskrit_iast": "ekībhāvena vā siddhir nānābhāvena vā yayoḥ  /\nna vidyate tayoḥ siddhiḥ kathaṃ nu khalu vidyate",
+      "source_line_start": 141,
+      "source_line_end": 143
+    },
+    {
+      "verse_id": "v_2_22",
+      "adhyaya": 2,
+      "pada": 22,
+      "sutra_or_verse_num": "2.22",
+      "sanskrit_devanagari": "गत्या ययाज्यते गन्ता गतिं तां स न गच्छति  /\nयस्मान् न गतिपूर्वो ऽस्ति कश्चिद् किंचिद् धि गच्छति",
+      "sanskrit_iast": "gatyā yayājyate gantā gatiṃ tāṃ sa na gacchati  /\nyasmān na gatipūrvo 'sti kaścid kiṃcid dhi gacchati",
+      "source_line_start": 145,
+      "source_line_end": 147
+    },
+    {
+      "verse_id": "v_2_23",
+      "adhyaya": 2,
+      "pada": 23,
+      "sutra_or_verse_num": "2.23",
+      "sanskrit_devanagari": "गत्या ययाज्यते गन्ता ततो ऽन्यां स न गच्छति  /\nगती द्वे नोपपद्येते यस्माद् एके तु गन्तरि",
+      "sanskrit_iast": "gatyā yayājyate gantā tato 'nyāṃ sa na gacchati  /\ngatī dve nopapadyete yasmād eke tu gantari",
+      "source_line_start": 149,
+      "source_line_end": 151
+    },
+    {
+      "verse_id": "v_2_24",
+      "adhyaya": 2,
+      "pada": 24,
+      "sutra_or_verse_num": "2.24",
+      "sanskrit_devanagari": "सद्भूतो गमनं गन्ता त्रिप्रकारं न गच्छति  /\nनासद्भूतो ऽपि गमनं त्रिप्रकारं स गच्छति",
+      "sanskrit_iast": "sadbhūto gamanaṃ gantā triprakāraṃ na gacchati  /\nnāsadbhūto 'pi gamanaṃ triprakāraṃ sa gacchati",
+      "source_line_start": 153,
+      "source_line_end": 155
+    },
+    {
+      "verse_id": "v_2_25",
+      "adhyaya": 2,
+      "pada": 25,
+      "sutra_or_verse_num": "2.25",
+      "sanskrit_devanagari": "गमनं सदसद्भूतः त्रिप्रकारं न गच्छति  /\nतस्माद् गतिश् च गन्ता च गन्तव्यं च न विद्यते",
+      "sanskrit_iast": "gamanaṃ sadasadbhūtaḥ triprakāraṃ na gacchati  /\ntasmād gatiś ca gantā ca gantavyaṃ ca na vidyate",
+      "source_line_start": 157,
+      "source_line_end": 159
+    },
+    {
+      "verse_id": "v_3_1",
+      "adhyaya": 3,
+      "pada": 1,
+      "sutra_or_verse_num": "3.1",
+      "sanskrit_devanagari": "***********************************************************\nदर्शनं श्रवणं घ्राणं रसनं स्पर्शनं मनः  /\nइन्द्रियाणि षड् एतेषां द्रष्टव्यादीनि गोचरः",
+      "sanskrit_iast": "***********************************************************\ndarśanaṃ śravaṇaṃ ghrāṇaṃ rasanaṃ sparśanaṃ manaḥ  /\nindriyāṇi ṣaḍ eteṣāṃ draṣṭavyādīni gocaraḥ",
+      "source_line_start": 161,
+      "source_line_end": 165
+    },
+    {
+      "verse_id": "v_3_2",
+      "adhyaya": 3,
+      "pada": 2,
+      "sutra_or_verse_num": "3.2",
+      "sanskrit_devanagari": "स्वम् आत्मानं दर्शनं हि तत् तम् एव न पश्यति  /\nन पश्यति यद् आत्मानं कथं द्रक्ष्यति तत् परान्",
+      "sanskrit_iast": "svam ātmānaṃ darśanaṃ hi tat tam eva na paśyati  /\nna paśyati yad ātmānaṃ kathaṃ drakṣyati tat parān",
+      "source_line_start": 167,
+      "source_line_end": 169
+    },
+    {
+      "verse_id": "v_3_3",
+      "adhyaya": 3,
+      "pada": 3,
+      "sutra_or_verse_num": "3.3",
+      "sanskrit_devanagari": "न पर्याप्तो ऽग्निदृष्टान्तो दर्शनस्य प्रसिद्धये  /\nसदर्शनः स प्रत्युक्तो गम्यमानगतागतैः",
+      "sanskrit_iast": "na paryāpto 'gnidṛṣṭānto darśanasya prasiddhaye  /\nsadarśanaḥ sa pratyukto gamyamānagatāgataiḥ",
+      "source_line_start": 171,
+      "source_line_end": 173
+    },
+    {
+      "verse_id": "v_3_4",
+      "adhyaya": 3,
+      "pada": 4,
+      "sutra_or_verse_num": "3.4",
+      "sanskrit_devanagari": "नापश्यमानं भवति यदा किं चन दर्शनम्  /\nदर्शनं पश्यतीत्य् एवं कथम् एतत् तु युज्यते",
+      "sanskrit_iast": "nāpaśyamānaṃ bhavati yadā kiṃ cana darśanam  /\ndarśanaṃ paśyatīty evaṃ katham etat tu yujyate",
+      "source_line_start": 175,
+      "source_line_end": 177
+    },
+    {
+      "verse_id": "v_3_5",
+      "adhyaya": 3,
+      "pada": 5,
+      "sutra_or_verse_num": "3.5",
+      "sanskrit_devanagari": "पश्यति दर्शनं नैव नैव पश्यत्य् अदर्शनम्  /\nव्याख्यातो दर्शनेनैव द्रष्टा चाप्य् अवगम्यताम्",
+      "sanskrit_iast": "paśyati darśanaṃ naiva naiva paśyaty adarśanam  /\nvyākhyāto darśanenaiva draṣṭā cāpy avagamyatām",
+      "source_line_start": 179,
+      "source_line_end": 181
+    },
+    {
+      "verse_id": "v_3_6",
+      "adhyaya": 3,
+      "pada": 6,
+      "sutra_or_verse_num": "3.6",
+      "sanskrit_devanagari": "द्रष्टा नास्त्य् अतिरस्कृत्य तिरस्कृत्य च दर्शनम्  /\nद्रष्टव्यं दर्शनं चैव द्रष्टर्य् असति ते कुतः",
+      "sanskrit_iast": "draṣṭā nāsty atiraskṛtya tiraskṛtya ca darśanam  /\ndraṣṭavyaṃ darśanaṃ caiva draṣṭary asati te kutaḥ",
+      "source_line_start": 183,
+      "source_line_end": 185
+    },
+    {
+      "verse_id": "v_3_7",
+      "adhyaya": 3,
+      "pada": 7,
+      "sutra_or_verse_num": "3.7",
+      "sanskrit_devanagari": "प्रतीत्य मातापितरौ यथोक्तः पुत्रसंभवः /\nचक्षूरूपे प्रतीत्यैवमुक्तो विज्ञानसंभवः",
+      "sanskrit_iast": "pratītya mātāpitarau yathoktaḥ putrasaṃbhavaḥ /\ncakṣūrūpe pratītyaivamukto vijñānasaṃbhavaḥ",
+      "source_line_start": 187,
+      "source_line_end": 189
+    },
+    {
+      "verse_id": "v_3_8",
+      "adhyaya": 3,
+      "pada": 8,
+      "sutra_or_verse_num": "3.8",
+      "sanskrit_devanagari": "द्रष्टव्यदर्शनाभावाद् विज्ञानादिचतुष्टयम्  /\nनास्तीत्य् उपादानादीनि भविष्यन्ति पुनः कथम्",
+      "sanskrit_iast": "draṣṭavyadarśanābhāvād vijñānādicatuṣṭayam  /\nnāstīty upādānādīni bhaviṣyanti punaḥ katham",
+      "source_line_start": 191,
+      "source_line_end": 193
+    },
+    {
+      "verse_id": "v_3_9",
+      "adhyaya": 3,
+      "pada": 9,
+      "sutra_or_verse_num": "3.9",
+      "sanskrit_devanagari": "व्याख्यातं श्रवणं घ्राणं रसनं स्पर्शनं मनः  /\nदर्शनेनैव जानीयाच् छ्रोतृश्रोतव्यकादि च",
+      "sanskrit_iast": "vyākhyātaṃ śravaṇaṃ ghrāṇaṃ rasanaṃ sparśanaṃ manaḥ  /\ndarśanenaiva jānīyāc chrotṛśrotavyakādi ca",
+      "source_line_start": 195,
+      "source_line_end": 197
+    },
+    {
+      "verse_id": "v_4_1",
+      "adhyaya": 4,
+      "pada": 1,
+      "sutra_or_verse_num": "4.1",
+      "sanskrit_devanagari": "***********************************************************\nरूपकारणनिर्मुक्तं न रूपम् उपलभ्यते  /\nरूपेणापि न निर्मुक्तं दृश्यते रूपकारणम्",
+      "sanskrit_iast": "***********************************************************\nrūpakāraṇanirmuktaṃ na rūpam upalabhyate  /\nrūpeṇāpi na nirmuktaṃ dṛśyate rūpakāraṇam",
+      "source_line_start": 199,
+      "source_line_end": 203
+    },
+    {
+      "verse_id": "v_4_2",
+      "adhyaya": 4,
+      "pada": 2,
+      "sutra_or_verse_num": "4.2",
+      "sanskrit_devanagari": "रूपकारणनिर्मुक्ते रूपे रूपं प्रसज्यते  /\nआहेतुकं न चास्त्य् अर्थः कश्चिद् आहेतुकः क्व चित्",
+      "sanskrit_iast": "rūpakāraṇanirmukte rūpe rūpaṃ prasajyate  /\nāhetukaṃ na cāsty arthaḥ kaścid āhetukaḥ kva cit",
+      "source_line_start": 205,
+      "source_line_end": 207
+    },
+    {
+      "verse_id": "v_4_3",
+      "adhyaya": 4,
+      "pada": 3,
+      "sutra_or_verse_num": "4.3",
+      "sanskrit_devanagari": "रूपेण तु विनिर्मुक्तं यदि स्याद् रूपकारणम्  /\nअकार्यकं कारणं स्याद् नास्त्य् अकार्यं च कारणम्",
+      "sanskrit_iast": "rūpeṇa tu vinirmuktaṃ yadi syād rūpakāraṇam  /\nakāryakaṃ kāraṇaṃ syād nāsty akāryaṃ ca kāraṇam",
+      "source_line_start": 209,
+      "source_line_end": 211
+    },
+    {
+      "verse_id": "v_4_4",
+      "adhyaya": 4,
+      "pada": 4,
+      "sutra_or_verse_num": "4.4",
+      "sanskrit_devanagari": "रूपे सत्य् एव रूपस्य कारणं नोपपद्यते  /\nरूपे ऽसत्य् एव रूपस्य कारणं नोपपद्यते",
+      "sanskrit_iast": "rūpe saty eva rūpasya kāraṇaṃ nopapadyate  /\nrūpe 'saty eva rūpasya kāraṇaṃ nopapadyate",
+      "source_line_start": 213,
+      "source_line_end": 215
+    },
+    {
+      "verse_id": "v_4_5",
+      "adhyaya": 4,
+      "pada": 5,
+      "sutra_or_verse_num": "4.5",
+      "sanskrit_devanagari": "निष्कारणं पुना रूपं नैव नैवोपपद्यते  /\nतस्माद् रूपगतान् कांश्चिन् न विकल्पान् विकल्पयेत्",
+      "sanskrit_iast": "niṣkāraṇaṃ punā rūpaṃ naiva naivopapadyate  /\ntasmād rūpagatān kāṃścin na vikalpān vikalpayet",
+      "source_line_start": 217,
+      "source_line_end": 219
+    },
+    {
+      "verse_id": "v_4_6",
+      "adhyaya": 4,
+      "pada": 6,
+      "sutra_or_verse_num": "4.6",
+      "sanskrit_devanagari": "न कारणस्य सदृशं कार्यम् इत्य् उपपद्यते  /\nन कारणस्यासदृशं कार्यम् इत्य् उपपद्यते",
+      "sanskrit_iast": "na kāraṇasya sadṛśaṃ kāryam ity upapadyate  /\nna kāraṇasyāsadṛśaṃ kāryam ity upapadyate",
+      "source_line_start": 221,
+      "source_line_end": 223
+    },
+    {
+      "verse_id": "v_4_7",
+      "adhyaya": 4,
+      "pada": 7,
+      "sutra_or_verse_num": "4.7",
+      "sanskrit_devanagari": "वेदनाचित्तसंज्ञानां संस्काराणां च सर्वशः  /\nसर्वेषाम् एव भावानां रूपेणैव समः क्रमः",
+      "sanskrit_iast": "vedanācittasaṃjñānāṃ saṃskārāṇāṃ ca sarvaśaḥ  /\nsarveṣām eva bhāvānāṃ rūpeṇaiva samaḥ kramaḥ",
+      "source_line_start": 225,
+      "source_line_end": 227
+    },
+    {
+      "verse_id": "v_4_8",
+      "adhyaya": 4,
+      "pada": 8,
+      "sutra_or_verse_num": "4.8",
+      "sanskrit_devanagari": "विग्रहे यः परीहारं कृते शून्यतया वदेत्  /\nसर्वं तस्यापरिहृतं समं साध्येन जायते",
+      "sanskrit_iast": "vigrahe yaḥ parīhāraṃ kṛte śūnyatayā vadet  /\nsarvaṃ tasyāparihṛtaṃ samaṃ sādhyena jāyate",
+      "source_line_start": 229,
+      "source_line_end": 231
+    },
+    {
+      "verse_id": "v_4_9",
+      "adhyaya": 4,
+      "pada": 9,
+      "sutra_or_verse_num": "4.9",
+      "sanskrit_devanagari": "व्याख्याने य उपालम्भं कृते शून्यतया वदेत्  /\nसर्वं तस्यानुपालब्धं समं साध्येन जायते",
+      "sanskrit_iast": "vyākhyāne ya upālambhaṃ kṛte śūnyatayā vadet  /\nsarvaṃ tasyānupālabdhaṃ samaṃ sādhyena jāyate",
+      "source_line_start": 233,
+      "source_line_end": 235
+    },
+    {
+      "verse_id": "v_5_1",
+      "adhyaya": 5,
+      "pada": 1,
+      "sutra_or_verse_num": "5.1",
+      "sanskrit_devanagari": "***********************************************************\nनाकाशं विद्यते किंचित् पूर्वम् आकाशलक्षणात्  /\nअलक्षणं प्रसज्येत स्यात् पूर्वं यदि लक्षणात्",
+      "sanskrit_iast": "***********************************************************\nnākāśaṃ vidyate kiṃcit pūrvam ākāśalakṣaṇāt  /\nalakṣaṇaṃ prasajyeta syāt pūrvaṃ yadi lakṣaṇāt",
+      "source_line_start": 237,
+      "source_line_end": 241
+    },
+    {
+      "verse_id": "v_5_2",
+      "adhyaya": 5,
+      "pada": 2,
+      "sutra_or_verse_num": "5.2",
+      "sanskrit_devanagari": "अलक्षणो न कश्चिच् च भावः संविद्यते क्व चित्  /\nअसत्य् अलक्षणे भावे क्रमतां कुह लक्षणम्",
+      "sanskrit_iast": "alakṣaṇo na kaścic ca bhāvaḥ saṃvidyate kva cit  /\nasaty alakṣaṇe bhāve kramatāṃ kuha lakṣaṇam",
+      "source_line_start": 243,
+      "source_line_end": 245
+    },
+    {
+      "verse_id": "v_5_3",
+      "adhyaya": 5,
+      "pada": 3,
+      "sutra_or_verse_num": "5.3",
+      "sanskrit_devanagari": "नालक्षणे लक्षणस्य प्रवृत्तिर् न सलक्षणे  /\nसलक्षणालक्षणाभ्यां नाप्य् अन्यत्र प्रवर्तते",
+      "sanskrit_iast": "nālakṣaṇe lakṣaṇasya pravṛttir na salakṣaṇe  /\nsalakṣaṇālakṣaṇābhyāṃ nāpy anyatra pravartate",
+      "source_line_start": 247,
+      "source_line_end": 249
+    },
+    {
+      "verse_id": "v_5_4",
+      "adhyaya": 5,
+      "pada": 4,
+      "sutra_or_verse_num": "5.4",
+      "sanskrit_devanagari": "लक्षणासंप्रवृत्तौ च न लक्ष्यम् उपपद्यते  /\nलक्ष्यस्यानुपपत्तौ च लक्षणस्याप्य् असंभवः",
+      "sanskrit_iast": "lakṣaṇāsaṃpravṛttau ca na lakṣyam upapadyate  /\nlakṣyasyānupapattau ca lakṣaṇasyāpy asaṃbhavaḥ",
+      "source_line_start": 251,
+      "source_line_end": 253
+    },
+    {
+      "verse_id": "v_5_5",
+      "adhyaya": 5,
+      "pada": 5,
+      "sutra_or_verse_num": "5.5",
+      "sanskrit_devanagari": "तस्मान् न विद्यते लक्ष्यं लक्षणं नैव विद्यते  /\nलक्ष्यलक्षणनिर्मुक्तो नैव भावो ऽपि विद्यते",
+      "sanskrit_iast": "tasmān na vidyate lakṣyaṃ lakṣaṇaṃ naiva vidyate  /\nlakṣyalakṣaṇanirmukto naiva bhāvo 'pi vidyate",
+      "source_line_start": 255,
+      "source_line_end": 257
+    },
+    {
+      "verse_id": "v_5_6",
+      "adhyaya": 5,
+      "pada": 6,
+      "sutra_or_verse_num": "5.6",
+      "sanskrit_devanagari": "अविद्यमाने भावे च कस्याभावो भविष्यति  /\nभावाभावविधर्मा च भावाभावाव् अवैति कः",
+      "sanskrit_iast": "avidyamāne bhāve ca kasyābhāvo bhaviṣyati  /\nbhāvābhāvavidharmā ca bhāvābhāvāv avaiti kaḥ",
+      "source_line_start": 259,
+      "source_line_end": 261
+    },
+    {
+      "verse_id": "v_5_7",
+      "adhyaya": 5,
+      "pada": 7,
+      "sutra_or_verse_num": "5.7",
+      "sanskrit_devanagari": "तस्मान्न भावो नाभावो न लक्ष्यं नापि लक्षणम्  /\nआकाशम् आकाशसमा धातवः पञ्च ये ऽपरे",
+      "sanskrit_iast": "tasmānna bhāvo nābhāvo na lakṣyaṃ nāpi lakṣaṇam  /\nākāśam ākāśasamā dhātavaḥ pañca ye 'pare",
+      "source_line_start": 263,
+      "source_line_end": 265
+    },
+    {
+      "verse_id": "v_5_8",
+      "adhyaya": 5,
+      "pada": 8,
+      "sutra_or_verse_num": "5.8",
+      "sanskrit_devanagari": "अस्तित्वं ये तु पश्यन्ति नास्तित्वं चाल्पबुद्धयः  /\nभावानां ते न पश्यन्ति द्रष्टव्योपशमं शिवम्",
+      "sanskrit_iast": "astitvaṃ ye tu paśyanti nāstitvaṃ cālpabuddhayaḥ  /\nbhāvānāṃ te na paśyanti draṣṭavyopaśamaṃ śivam",
+      "source_line_start": 267,
+      "source_line_end": 269
+    },
+    {
+      "verse_id": "v_6_1",
+      "adhyaya": 6,
+      "pada": 1,
+      "sutra_or_verse_num": "6.1",
+      "sanskrit_devanagari": "***********************************************************\nरागाद् यदि भवेत् पूर्वं रक्तो रागतिरस्कृतः  /\nतं प्रतीत्य भवेद् रागो रक्ते रागो भवेत् सति",
+      "sanskrit_iast": "***********************************************************\nrāgād yadi bhavet pūrvaṃ rakto rāgatiraskṛtaḥ  /\ntaṃ pratītya bhaved rāgo rakte rāgo bhavet sati",
+      "source_line_start": 271,
+      "source_line_end": 275
+    },
+    {
+      "verse_id": "v_6_2",
+      "adhyaya": 6,
+      "pada": 2,
+      "sutra_or_verse_num": "6.2",
+      "sanskrit_devanagari": "रक्ते ऽसति पुना रागः कुत एव भविष्यति  /\nसति वासति वा रागे रक्ते ऽप्य् एष समः क्रमः",
+      "sanskrit_iast": "rakte 'sati punā rāgaḥ kuta eva bhaviṣyati  /\nsati vāsati vā rāge rakte 'py eṣa samaḥ kramaḥ",
+      "source_line_start": 277,
+      "source_line_end": 279
+    },
+    {
+      "verse_id": "v_6_3",
+      "adhyaya": 6,
+      "pada": 3,
+      "sutra_or_verse_num": "6.3",
+      "sanskrit_devanagari": "सहैव पुनर् उद्भूतिर् न युक्ता रागरक्तयोः  /\nभवेतां रागरक्तौ हि निरपेक्षौ परस्परम्",
+      "sanskrit_iast": "sahaiva punar udbhūtir na yuktā rāgaraktayoḥ  /\nbhavetāṃ rāgaraktau hi nirapekṣau parasparam",
+      "source_line_start": 281,
+      "source_line_end": 283
+    },
+    {
+      "verse_id": "v_6_4",
+      "adhyaya": 6,
+      "pada": 4,
+      "sutra_or_verse_num": "6.4",
+      "sanskrit_devanagari": "नैकत्वे सहभावो ऽस्ति न तेनैव हि तत् सह  /\nपृथक्त्वे सहभावो ऽथ कुत एव भविष्यति",
+      "sanskrit_iast": "naikatve sahabhāvo 'sti na tenaiva hi tat saha  /\npṛthaktve sahabhāvo 'tha kuta eva bhaviṣyati",
+      "source_line_start": 285,
+      "source_line_end": 287
+    },
+    {
+      "verse_id": "v_6_5",
+      "adhyaya": 6,
+      "pada": 5,
+      "sutra_or_verse_num": "6.5",
+      "sanskrit_devanagari": "एकत्वे सहभावश् चेत् स्यात् सहायं विनापि सः  /\nपृथक्त्वे सहभावश् चेत् स्यात् सहायं विनापि सः",
+      "sanskrit_iast": "ekatve sahabhāvaś cet syāt sahāyaṃ vināpi saḥ  /\npṛthaktve sahabhāvaś cet syāt sahāyaṃ vināpi saḥ",
+      "source_line_start": 289,
+      "source_line_end": 291
+    },
+    {
+      "verse_id": "v_6_6",
+      "adhyaya": 6,
+      "pada": 6,
+      "sutra_or_verse_num": "6.6",
+      "sanskrit_devanagari": "पृथक्त्वे सहभावश् च यदि किं रागरक्तयोः  /\nसिद्धः पृथक्पृथग्भावः सहभावो यतस् तयोः",
+      "sanskrit_iast": "pṛthaktve sahabhāvaś ca yadi kiṃ rāgaraktayoḥ  /\nsiddhaḥ pṛthakpṛthagbhāvaḥ sahabhāvo yatas tayoḥ",
+      "source_line_start": 293,
+      "source_line_end": 295
+    },
+    {
+      "verse_id": "v_6_7",
+      "adhyaya": 6,
+      "pada": 7,
+      "sutra_or_verse_num": "6.7",
+      "sanskrit_devanagari": "सिद्धः पृथक्पृथग्भावो यदि वा रागरक्तयोः  /\nसहभावं किमर्थम् तु परिकल्पयसे तयोः",
+      "sanskrit_iast": "siddhaḥ pṛthakpṛthagbhāvo yadi vā rāgaraktayoḥ  /\nsahabhāvaṃ kimartham tu parikalpayase tayoḥ",
+      "source_line_start": 297,
+      "source_line_end": 299
+    },
+    {
+      "verse_id": "v_6_8",
+      "adhyaya": 6,
+      "pada": 8,
+      "sutra_or_verse_num": "6.8",
+      "sanskrit_devanagari": "पृथग् न सिध्यतीत्य् एवं सहभावं विकाङ्क्षसि  /\nसहभावप्रसिद्ध्यर्थं पृथक्त्वं भूय इच्छसि",
+      "sanskrit_iast": "pṛthag na sidhyatīty evaṃ sahabhāvaṃ vikāṅkṣasi  /\nsahabhāvaprasiddhyarthaṃ pṛthaktvaṃ bhūya icchasi",
+      "source_line_start": 301,
+      "source_line_end": 303
+    },
+    {
+      "verse_id": "v_6_9",
+      "adhyaya": 6,
+      "pada": 9,
+      "sutra_or_verse_num": "6.9",
+      "sanskrit_devanagari": "पृथग्भावाप्रसिद्धेश् च सहभावो न सिध्यति  /\nकतमस्मिन् पृथग्भावे सहभावं सतीच्छसि",
+      "sanskrit_iast": "pṛthagbhāvāprasiddheś ca sahabhāvo na sidhyati  /\nkatamasmin pṛthagbhāve sahabhāvaṃ satīcchasi",
+      "source_line_start": 305,
+      "source_line_end": 307
+    },
+    {
+      "verse_id": "v_6_10",
+      "adhyaya": 6,
+      "pada": 10,
+      "sutra_or_verse_num": "6.10",
+      "sanskrit_devanagari": "एवं रक्तेन रागस्य सिद्धिर् न सह नासह  /\nरागवत् सर्वधर्माणां सिद्धिर् न सह नासह",
+      "sanskrit_iast": "evaṃ raktena rāgasya siddhir na saha nāsaha  /\nrāgavat sarvadharmāṇāṃ siddhir na saha nāsaha",
+      "source_line_start": 309,
+      "source_line_end": 311
+    },
+    {
+      "verse_id": "v_7_1",
+      "adhyaya": 7,
+      "pada": 1,
+      "sutra_or_verse_num": "7.1",
+      "sanskrit_devanagari": "***********************************************************\nयदि संस्कृत उत्पादस् तत्र युक्ता त्रिलक्षणी  /\nअथासंस्कृत उत्पादः कथं संस्कृतलक्षणम्",
+      "sanskrit_iast": "***********************************************************\nyadi saṃskṛta utpādas tatra yuktā trilakṣaṇī  /\nathāsaṃskṛta utpādaḥ kathaṃ saṃskṛtalakṣaṇam",
+      "source_line_start": 313,
+      "source_line_end": 317
+    },
+    {
+      "verse_id": "v_7_2",
+      "adhyaya": 7,
+      "pada": 2,
+      "sutra_or_verse_num": "7.2",
+      "sanskrit_devanagari": "उत्पादाद्यास् त्रयो व्यस्ता नालं लक्षणकर्मणि  /\nसंस्कृतस्य समस्ताः स्युर् एकत्र कथम् एकदा",
+      "sanskrit_iast": "utpādādyās trayo vyastā nālaṃ lakṣaṇakarmaṇi  /\nsaṃskṛtasya samastāḥ syur ekatra katham ekadā",
+      "source_line_start": 319,
+      "source_line_end": 321
+    },
+    {
+      "verse_id": "v_7_3",
+      "adhyaya": 7,
+      "pada": 3,
+      "sutra_or_verse_num": "7.3",
+      "sanskrit_devanagari": "उत्पादस्थितिभङ्गानाम् अन्यत् संस्कृतलक्षणम्  /\nअस्ति चेद् अनवस्थैवं नास्ति चेत् ते न संस्कृताः",
+      "sanskrit_iast": "utpādasthitibhaṅgānām anyat saṃskṛtalakṣaṇam  /\nasti ced anavasthaivaṃ nāsti cet te na saṃskṛtāḥ",
+      "source_line_start": 323,
+      "source_line_end": 325
+    },
+    {
+      "verse_id": "v_7_4",
+      "adhyaya": 7,
+      "pada": 4,
+      "sutra_or_verse_num": "7.4",
+      "sanskrit_devanagari": "उत्पादोत्पाद उत्पादो मूलोत्पादस्य केवलम्  /\nउत्पादोत्पादम् उत्पादो मौलो जनयते पुनः",
+      "sanskrit_iast": "utpādotpāda utpādo mūlotpādasya kevalam  /\nutpādotpādam utpādo maulo janayate punaḥ",
+      "source_line_start": 327,
+      "source_line_end": 329
+    },
+    {
+      "verse_id": "v_7_5",
+      "adhyaya": 7,
+      "pada": 5,
+      "sutra_or_verse_num": "7.5",
+      "sanskrit_devanagari": "उत्पादोत्पाद उत्पादो मूलोत्पादस्य ते यदि  /\nमौलेनाजनितस् तं ते स कथं जनयिष्यति",
+      "sanskrit_iast": "utpādotpāda utpādo mūlotpādasya te yadi  /\nmaulenājanitas taṃ te sa kathaṃ janayiṣyati",
+      "source_line_start": 331,
+      "source_line_end": 333
+    },
+    {
+      "verse_id": "v_7_6",
+      "adhyaya": 7,
+      "pada": 6,
+      "sutra_or_verse_num": "7.6",
+      "sanskrit_devanagari": "स ते मौलेन जनितो मौलं जनयते यदि  /\nमौलः स तेनाजनितस् तम् उत्पादयते कथम्",
+      "sanskrit_iast": "sa te maulena janito maulaṃ janayate yadi  /\nmaulaḥ sa tenājanitas tam utpādayate katham",
+      "source_line_start": 335,
+      "source_line_end": 337
+    },
+    {
+      "verse_id": "v_7_7",
+      "adhyaya": 7,
+      "pada": 7,
+      "sutra_or_verse_num": "7.7",
+      "sanskrit_devanagari": "अयम् उत्पाद्यमानस् ते कामम् उत्पादयेद् इमम्  /\nयदीमम् उत्पादयितुम् अजातः शक्नुयाद् अयम्",
+      "sanskrit_iast": "ayam utpādyamānas te kāmam utpādayed imam  /\nyadīmam utpādayitum ajātaḥ śaknuyād ayam",
+      "source_line_start": 339,
+      "source_line_end": 341
+    },
+    {
+      "verse_id": "v_7_8",
+      "adhyaya": 7,
+      "pada": 8,
+      "sutra_or_verse_num": "7.8",
+      "sanskrit_devanagari": "प्रदीपः स्वपरात्मानौ संप्रकाशयते यथा  /\nउत्पादः स्वपरात्मानाव् उभाव् उत्पादयेत् तथा",
+      "sanskrit_iast": "pradīpaḥ svaparātmānau saṃprakāśayate yathā  /\nutpādaḥ svaparātmānāv ubhāv utpādayet tathā",
+      "source_line_start": 343,
+      "source_line_end": 345
+    },
+    {
+      "verse_id": "v_7_9",
+      "adhyaya": 7,
+      "pada": 9,
+      "sutra_or_verse_num": "7.9",
+      "sanskrit_devanagari": "प्रदीपे नान्धकारो ऽस्ति यत्र चासौ प्रतिष्ठितः  /\nकिं प्रकाशयते दीपः प्रकाशो हि तमोवधः",
+      "sanskrit_iast": "pradīpe nāndhakāro 'sti yatra cāsau pratiṣṭhitaḥ  /\nkiṃ prakāśayate dīpaḥ prakāśo hi tamovadhaḥ",
+      "source_line_start": 347,
+      "source_line_end": 349
+    },
+    {
+      "verse_id": "v_7_10",
+      "adhyaya": 7,
+      "pada": 10,
+      "sutra_or_verse_num": "7.10",
+      "sanskrit_devanagari": "कथम् उत्पद्यमानेन प्रदीपेन तमो हतम्  /\nनोत्पद्यमानो हि तमः प्रदीपः प्राप्नुते यदा",
+      "sanskrit_iast": "katham utpadyamānena pradīpena tamo hatam  /\nnotpadyamāno hi tamaḥ pradīpaḥ prāpnute yadā",
+      "source_line_start": 351,
+      "source_line_end": 353
+    },
+    {
+      "verse_id": "v_7_11",
+      "adhyaya": 7,
+      "pada": 11,
+      "sutra_or_verse_num": "7.11",
+      "sanskrit_devanagari": "अप्राप्यैव प्रदीपेन यदि वा निहतं तमः  /\nइहस्थः सर्वलोकस्थं स तमो निहनिष्यति",
+      "sanskrit_iast": "aprāpyaiva pradīpena yadi vā nihataṃ tamaḥ  /\nihasthaḥ sarvalokasthaṃ sa tamo nihaniṣyati",
+      "source_line_start": 355,
+      "source_line_end": 357
+    },
+    {
+      "verse_id": "v_7_12",
+      "adhyaya": 7,
+      "pada": 12,
+      "sutra_or_verse_num": "7.12",
+      "sanskrit_devanagari": "प्रदीपः स्वपरात्मानौ संप्रकाशयते यदि  /\nतमो ऽपि स्वपरात्मानौ छादयिष्यत्य् असंशयम्",
+      "sanskrit_iast": "pradīpaḥ svaparātmānau saṃprakāśayate yadi  /\ntamo 'pi svaparātmānau chādayiṣyaty asaṃśayam",
+      "source_line_start": 359,
+      "source_line_end": 361
+    },
+    {
+      "verse_id": "v_7_13",
+      "adhyaya": 7,
+      "pada": 13,
+      "sutra_or_verse_num": "7.13",
+      "sanskrit_devanagari": "अनुत्पन्नो ऽयम् उत्पादः स्वात्मानं जनयेत् कथम्  /\nअथोत्पन्नो जनयते जाते किं जन्यते पुनः",
+      "sanskrit_iast": "anutpanno 'yam utpādaḥ svātmānaṃ janayet katham  /\nathotpanno janayate jāte kiṃ janyate punaḥ",
+      "source_line_start": 363,
+      "source_line_end": 365
+    },
+    {
+      "verse_id": "v_7_14",
+      "adhyaya": 7,
+      "pada": 14,
+      "sutra_or_verse_num": "7.14",
+      "sanskrit_devanagari": "नोत्पद्यमानं नोत्पन्नं नानुत्पन्नं कथं चन  /\nउत्पद्यते तद् आख्यातं गम्यमानगतागतैः",
+      "sanskrit_iast": "notpadyamānaṃ notpannaṃ nānutpannaṃ kathaṃ cana  /\nutpadyate tad ākhyātaṃ gamyamānagatāgataiḥ",
+      "source_line_start": 367,
+      "source_line_end": 369
+    },
+    {
+      "verse_id": "v_7_15",
+      "adhyaya": 7,
+      "pada": 15,
+      "sutra_or_verse_num": "7.15",
+      "sanskrit_devanagari": "उत्पद्यमानम् उत्पत्ताव् इदं न क्रमते यदा  /\nकथम् उत्पद्यमानं तु प्रतीत्योत्पत्तिम् उच्यते",
+      "sanskrit_iast": "utpadyamānam utpattāv idaṃ na kramate yadā  /\nkatham utpadyamānaṃ tu pratītyotpattim ucyate",
+      "source_line_start": 371,
+      "source_line_end": 373
+    },
+    {
+      "verse_id": "v_7_16",
+      "adhyaya": 7,
+      "pada": 16,
+      "sutra_or_verse_num": "7.16",
+      "sanskrit_devanagari": "प्रतीत्य यद् यद् भवति तत् तच् छान्तं स्वभावतः  /\nतस्माद् उत्पद्यमानं च शान्तम् उत्पत्तिर् एव च",
+      "sanskrit_iast": "pratītya yad yad bhavati tat tac chāntaṃ svabhāvataḥ  /\ntasmād utpadyamānaṃ ca śāntam utpattir eva ca",
+      "source_line_start": 375,
+      "source_line_end": 377
+    },
+    {
+      "verse_id": "v_7_17",
+      "adhyaya": 7,
+      "pada": 17,
+      "sutra_or_verse_num": "7.17",
+      "sanskrit_devanagari": "यदि कश्चिद् अनुत्पन्नो भावः संविद्यते क्व चित्  /\nउत्पद्येत स किं तस्मिन् भाव उत्पद्यते ऽसति",
+      "sanskrit_iast": "yadi kaścid anutpanno bhāvaḥ saṃvidyate kva cit  /\nutpadyeta sa kiṃ tasmin bhāva utpadyate 'sati",
+      "source_line_start": 379,
+      "source_line_end": 381
+    },
+    {
+      "verse_id": "v_7_18",
+      "adhyaya": 7,
+      "pada": 18,
+      "sutra_or_verse_num": "7.18",
+      "sanskrit_devanagari": "उत्पद्यमानम् उत्पादो यदि चोत्पादयत्य् अयम्  /\nउत्पादयेत् तम् उत्पादम् उत्पादः कतमः पुनः",
+      "sanskrit_iast": "utpadyamānam utpādo yadi cotpādayaty ayam  /\nutpādayet tam utpādam utpādaḥ katamaḥ punaḥ",
+      "source_line_start": 383,
+      "source_line_end": 385
+    },
+    {
+      "verse_id": "v_7_19",
+      "adhyaya": 7,
+      "pada": 19,
+      "sutra_or_verse_num": "7.19",
+      "sanskrit_devanagari": "अन्य उत्पादयत्य् एनं यद्य् उत्पादो ऽनवस्थितिः  /\nअथानुत्पाद उत्पन्नः सर्वम् उत्पद्यतां तथा",
+      "sanskrit_iast": "anya utpādayaty enaṃ yady utpādo 'navasthitiḥ  /\nathānutpāda utpannaḥ sarvam utpadyatāṃ tathā",
+      "source_line_start": 387,
+      "source_line_end": 389
+    },
+    {
+      "verse_id": "v_7_20",
+      "adhyaya": 7,
+      "pada": 20,
+      "sutra_or_verse_num": "7.20",
+      "sanskrit_devanagari": "सतश् च तावद् उत्पत्तिर् असतश् च न युज्यते  /\nन सतश् चासतश् चेति पूर्वम् एवोपपादितम्",
+      "sanskrit_iast": "sataś ca tāvad utpattir asataś ca na yujyate  /\nna sataś cāsataś ceti pūrvam evopapāditam",
+      "source_line_start": 391,
+      "source_line_end": 393
+    },
+    {
+      "verse_id": "v_7_21",
+      "adhyaya": 7,
+      "pada": 21,
+      "sutra_or_verse_num": "7.21",
+      "sanskrit_devanagari": "निरुध्यमानस्योत्पत्तिर् न भावस्योपपद्यते  /\nयश् चानिरुध्यमानस् तु स भावो नोपपद्यते",
+      "sanskrit_iast": "nirudhyamānasyotpattir na bhāvasyopapadyate  /\nyaś cānirudhyamānas tu sa bhāvo nopapadyate",
+      "source_line_start": 395,
+      "source_line_end": 397
+    },
+    {
+      "verse_id": "v_7_22",
+      "adhyaya": 7,
+      "pada": 22,
+      "sutra_or_verse_num": "7.22",
+      "sanskrit_devanagari": "नास्थितस् तिष्ठते भावः स्थितो भावो न तिष्ठति  /\nन तिष्ठते तिष्ठमानः को ऽनुत्पन्नश् च तिष्ठति",
+      "sanskrit_iast": "nāsthitas tiṣṭhate bhāvaḥ sthito bhāvo na tiṣṭhati  /\nna tiṣṭhate tiṣṭhamānaḥ ko 'nutpannaś ca tiṣṭhati",
+      "source_line_start": 399,
+      "source_line_end": 401
+    },
+    {
+      "verse_id": "v_7_23",
+      "adhyaya": 7,
+      "pada": 23,
+      "sutra_or_verse_num": "7.23",
+      "sanskrit_devanagari": "स्थितिर् निरुध्यमानस्य न भावस्योपपद्यते  /\nयश् चानिरुध्यमानस् तु स भावो नोपपद्यते",
+      "sanskrit_iast": "sthitir nirudhyamānasya na bhāvasyopapadyate  /\nyaś cānirudhyamānas tu sa bhāvo nopapadyate",
+      "source_line_start": 403,
+      "source_line_end": 405
+    },
+    {
+      "verse_id": "v_7_24",
+      "adhyaya": 7,
+      "pada": 24,
+      "sutra_or_verse_num": "7.24",
+      "sanskrit_devanagari": "जरामरणधर्मेषु सर्वभावेषु सर्वदा  /\nतिष्ठन्ति कतमे भावा ये जरामरणं विना",
+      "sanskrit_iast": "jarāmaraṇadharmeṣu sarvabhāveṣu sarvadā  /\ntiṣṭhanti katame bhāvā ye jarāmaraṇaṃ vinā",
+      "source_line_start": 407,
+      "source_line_end": 409
+    },
+    {
+      "verse_id": "v_7_25",
+      "adhyaya": 7,
+      "pada": 25,
+      "sutra_or_verse_num": "7.25",
+      "sanskrit_devanagari": "स्थित्यान्यया स्थितेः स्थानं तयैव च न युज्यते  /\nउत्पादस्य यथोत्पादो नात्मना न परात्मना",
+      "sanskrit_iast": "sthityānyayā sthiteḥ sthānaṃ tayaiva ca na yujyate  /\nutpādasya yathotpādo nātmanā na parātmanā",
+      "source_line_start": 411,
+      "source_line_end": 413
+    },
+    {
+      "verse_id": "v_7_26",
+      "adhyaya": 7,
+      "pada": 26,
+      "sutra_or_verse_num": "7.26",
+      "sanskrit_devanagari": "निरुध्यते नानिरुद्धं न निरुद्धं निरुध्यते  /\nतथा निरुध्यमानं च किम् अजातं निरुध्यते",
+      "sanskrit_iast": "nirudhyate nāniruddhaṃ na niruddhaṃ nirudhyate  /\ntathā nirudhyamānaṃ ca kim ajātaṃ nirudhyate",
+      "source_line_start": 415,
+      "source_line_end": 417
+    },
+    {
+      "verse_id": "v_7_27",
+      "adhyaya": 7,
+      "pada": 27,
+      "sutra_or_verse_num": "7.27",
+      "sanskrit_devanagari": "स्थितस्य तावद् भावस्य निरोधो नोपपद्यते  /\nनास्थितस्यापि भावस्य निरोध उपपद्यते",
+      "sanskrit_iast": "sthitasya tāvad bhāvasya nirodho nopapadyate  /\nnāsthitasyāpi bhāvasya nirodha upapadyate",
+      "source_line_start": 419,
+      "source_line_end": 421
+    },
+    {
+      "verse_id": "v_7_28",
+      "adhyaya": 7,
+      "pada": 28,
+      "sutra_or_verse_num": "7.28",
+      "sanskrit_devanagari": "तयैवावस्थयावस्था न हि सैव निरुध्यते  /\nअन्ययावस्थयावस्था न चान्यैव निरुध्यते",
+      "sanskrit_iast": "tayaivāvasthayāvasthā na hi saiva nirudhyate  /\nanyayāvasthayāvasthā na cānyaiva nirudhyate",
+      "source_line_start": 423,
+      "source_line_end": 425
+    },
+    {
+      "verse_id": "v_7_29",
+      "adhyaya": 7,
+      "pada": 29,
+      "sutra_or_verse_num": "7.29",
+      "sanskrit_devanagari": "यदैव सर्वधर्माणाम् उत्पादो नोपपद्यते  /\nतदैवं सर्वधर्माणां निरोधो नोपपद्यते",
+      "sanskrit_iast": "yadaiva sarvadharmāṇām utpādo nopapadyate  /\ntadaivaṃ sarvadharmāṇāṃ nirodho nopapadyate",
+      "source_line_start": 427,
+      "source_line_end": 429
+    },
+    {
+      "verse_id": "v_7_30",
+      "adhyaya": 7,
+      "pada": 30,
+      "sutra_or_verse_num": "7.30",
+      "sanskrit_devanagari": "सतश् च तावद् भावस्य निरोधो नोपपद्यते  /\nएकत्वे न हि भावश् च नाभावश् चोपपद्यते",
+      "sanskrit_iast": "sataś ca tāvad bhāvasya nirodho nopapadyate  /\nekatve na hi bhāvaś ca nābhāvaś copapadyate",
+      "source_line_start": 431,
+      "source_line_end": 433
+    },
+    {
+      "verse_id": "v_7_31",
+      "adhyaya": 7,
+      "pada": 31,
+      "sutra_or_verse_num": "7.31",
+      "sanskrit_devanagari": "असतो ऽपि न भावस्य निरोध उपपद्यते  /\nन द्वितीयस्य शिरसश् छेदनं विद्यते यथा",
+      "sanskrit_iast": "asato 'pi na bhāvasya nirodha upapadyate  /\nna dvitīyasya śirasaś chedanaṃ vidyate yathā",
+      "source_line_start": 435,
+      "source_line_end": 437
+    },
+    {
+      "verse_id": "v_7_32",
+      "adhyaya": 7,
+      "pada": 32,
+      "sutra_or_verse_num": "7.32",
+      "sanskrit_devanagari": "न स्वात्मना निरोधो ऽस्ति निरोधो न परात्मना  /\nउत्पादस्य यथोत्पादो नात्मना न परात्मना",
+      "sanskrit_iast": "na svātmanā nirodho 'sti nirodho na parātmanā  /\nutpādasya yathotpādo nātmanā na parātmanā",
+      "source_line_start": 439,
+      "source_line_end": 441
+    },
+    {
+      "verse_id": "v_7_33",
+      "adhyaya": 7,
+      "pada": 33,
+      "sutra_or_verse_num": "7.33",
+      "sanskrit_devanagari": "उत्पादस्थितिभङ्गानाम् असिद्धेर् नास्ति संस्कृतम्  /\nसंस्कृतस्याप्रसिद्धौ च कथं सेत्स्यत्य् असंस्कृतम्",
+      "sanskrit_iast": "utpādasthitibhaṅgānām asiddher nāsti saṃskṛtam  /\nsaṃskṛtasyāprasiddhau ca kathaṃ setsyaty asaṃskṛtam",
+      "source_line_start": 443,
+      "source_line_end": 445
+    },
+    {
+      "verse_id": "v_7_34",
+      "adhyaya": 7,
+      "pada": 34,
+      "sutra_or_verse_num": "7.34",
+      "sanskrit_devanagari": "यथा माया यथा स्वप्नो गन्धर्वनगरं यथा  /\nतथोत्पादस् तथा स्थानं तथा भङ्ग उदाहृतम्",
+      "sanskrit_iast": "yathā māyā yathā svapno gandharvanagaraṃ yathā  /\ntathotpādas tathā sthānaṃ tathā bhaṅga udāhṛtam",
+      "source_line_start": 447,
+      "source_line_end": 449
+    },
+    {
+      "verse_id": "v_8_1",
+      "adhyaya": 8,
+      "pada": 1,
+      "sutra_or_verse_num": "8.1",
+      "sanskrit_devanagari": "***********************************************************\nसद्भूतः कारकः कर्म सद्भूतं न करोत्ययम्  /\nकारको नाप्य् असद्भूतः कर्मासद्भूतम् ईहते",
+      "sanskrit_iast": "***********************************************************\nsadbhūtaḥ kārakaḥ karma sadbhūtaṃ na karotyayam  /\nkārako nāpy asadbhūtaḥ karmāsadbhūtam īhate",
+      "source_line_start": 451,
+      "source_line_end": 455
+    },
+    {
+      "verse_id": "v_8_2",
+      "adhyaya": 8,
+      "pada": 2,
+      "sutra_or_verse_num": "8.2",
+      "sanskrit_devanagari": "सद्भूतस्य क्रिया नास्ति कर्म च स्याद् अकर्तृकम्  /\nसद्भूतस्य क्रिया नास्ति कर्ता च स्याद् अकर्मकः",
+      "sanskrit_iast": "sadbhūtasya kriyā nāsti karma ca syād akartṛkam  /\nsadbhūtasya kriyā nāsti kartā ca syād akarmakaḥ",
+      "source_line_start": 457,
+      "source_line_end": 459
+    },
+    {
+      "verse_id": "v_8_3",
+      "adhyaya": 8,
+      "pada": 3,
+      "sutra_or_verse_num": "8.3",
+      "sanskrit_devanagari": "करोति यद्य् असद्भूतो ऽसद्भूतं कर्म कारकः  /\nअहेतुकं भवेत् कर्म कर्ता चाहेतुको भवेत्",
+      "sanskrit_iast": "karoti yady asadbhūto 'sadbhūtaṃ karma kārakaḥ  /\nahetukaṃ bhavet karma kartā cāhetuko bhavet",
+      "source_line_start": 461,
+      "source_line_end": 463
+    },
+    {
+      "verse_id": "v_8_4",
+      "adhyaya": 8,
+      "pada": 4,
+      "sutra_or_verse_num": "8.4",
+      "sanskrit_devanagari": "हेताव् असति कार्यं च कारणं च न विद्यते  /\nतदभावे क्रिया कर्ता कारणं च न विद्यते",
+      "sanskrit_iast": "hetāv asati kāryaṃ ca kāraṇaṃ ca na vidyate  /\ntadabhāve kriyā kartā kāraṇaṃ ca na vidyate",
+      "source_line_start": 465,
+      "source_line_end": 467
+    },
+    {
+      "verse_id": "v_8_5",
+      "adhyaya": 8,
+      "pada": 5,
+      "sutra_or_verse_num": "8.5",
+      "sanskrit_devanagari": "धर्माधर्मौ न विद्येते क्रियादीनाम् असंभवे  /\nधर्मे चासत्य् अधर्मे च फलं तज्जं न विद्यते",
+      "sanskrit_iast": "dharmādharmau na vidyete kriyādīnām asaṃbhave  /\ndharme cāsaty adharme ca phalaṃ tajjaṃ na vidyate",
+      "source_line_start": 469,
+      "source_line_end": 471
+    },
+    {
+      "verse_id": "v_8_6",
+      "adhyaya": 8,
+      "pada": 6,
+      "sutra_or_verse_num": "8.6",
+      "sanskrit_devanagari": "फले ऽसति न मोक्षाय न स्वर्गायोपपद्यते  /\nमार्गः सर्वक्रियाणां च नैरर्थक्यं प्रसज्यते",
+      "sanskrit_iast": "phale 'sati na mokṣāya na svargāyopapadyate  /\nmārgaḥ sarvakriyāṇāṃ ca nairarthakyaṃ prasajyate",
+      "source_line_start": 473,
+      "source_line_end": 475
+    },
+    {
+      "verse_id": "v_8_7",
+      "adhyaya": 8,
+      "pada": 7,
+      "sutra_or_verse_num": "8.7",
+      "sanskrit_devanagari": "कारकः सदसद्भूतः सदसत् कुरुते न तत्  /\nपरस्परविरुद्धं हि सच् चासच् चैकतः कुतः",
+      "sanskrit_iast": "kārakaḥ sadasadbhūtaḥ sadasat kurute na tat  /\nparasparaviruddhaṃ hi sac cāsac caikataḥ kutaḥ",
+      "source_line_start": 477,
+      "source_line_end": 479
+    },
+    {
+      "verse_id": "v_8_8",
+      "adhyaya": 8,
+      "pada": 8,
+      "sutra_or_verse_num": "8.8",
+      "sanskrit_devanagari": "सता च क्रियते नासन् नासता क्रियते च सत्  /\nकर्त्रा सर्वे प्रसज्यन्ते दोषास् तत्र त एव हि",
+      "sanskrit_iast": "satā ca kriyate nāsan nāsatā kriyate ca sat  /\nkartrā sarve prasajyante doṣās tatra ta eva hi",
+      "source_line_start": 481,
+      "source_line_end": 483
+    },
+    {
+      "verse_id": "v_8_9",
+      "adhyaya": 8,
+      "pada": 9,
+      "sutra_or_verse_num": "8.9",
+      "sanskrit_devanagari": "नासद्भूतं न सद्भूतः सदसद्भूतम् एव वा  /\nकरोति कारकः कर्म पूर्वोक्तैर् एव हेतुभिः",
+      "sanskrit_iast": "nāsadbhūtaṃ na sadbhūtaḥ sadasadbhūtam eva vā  /\nkaroti kārakaḥ karma pūrvoktair eva hetubhiḥ",
+      "source_line_start": 485,
+      "source_line_end": 487
+    },
+    {
+      "verse_id": "v_8_10",
+      "adhyaya": 8,
+      "pada": 10,
+      "sutra_or_verse_num": "8.10",
+      "sanskrit_devanagari": "नासद्भूतो ऽपि सद्भूतं सदसद्भूतम् एव वा  /\nकरोति कारकः कर्म पूर्वोक्तैर् एव हेतुभिः",
+      "sanskrit_iast": "nāsadbhūto 'pi sadbhūtaṃ sadasadbhūtam eva vā  /\nkaroti kārakaḥ karma pūrvoktair eva hetubhiḥ",
+      "source_line_start": 489,
+      "source_line_end": 491
+    },
+    {
+      "verse_id": "v_8_11",
+      "adhyaya": 8,
+      "pada": 11,
+      "sutra_or_verse_num": "8.11",
+      "sanskrit_devanagari": "करोति सदसद्भूतो न सन् नासच् च कारकः  /\nकर्म तत् तु विजानीयात् पूर्वोक्तैर् एव हेतुभिः",
+      "sanskrit_iast": "karoti sadasadbhūto na san nāsac ca kārakaḥ  /\nkarma tat tu vijānīyāt pūrvoktair eva hetubhiḥ",
+      "source_line_start": 493,
+      "source_line_end": 495
+    },
+    {
+      "verse_id": "v_8_12",
+      "adhyaya": 8,
+      "pada": 12,
+      "sutra_or_verse_num": "8.12",
+      "sanskrit_devanagari": "प्रतीत्य कारकः कर्म तं प्रतीत्य च कारकम्  /\nकर्म प्रवर्तते नान्यत् पश्यामः सिद्धिकारणम्",
+      "sanskrit_iast": "pratītya kārakaḥ karma taṃ pratītya ca kārakam  /\nkarma pravartate nānyat paśyāmaḥ siddhikāraṇam",
+      "source_line_start": 497,
+      "source_line_end": 499
+    },
+    {
+      "verse_id": "v_8_13",
+      "adhyaya": 8,
+      "pada": 13,
+      "sutra_or_verse_num": "8.13",
+      "sanskrit_devanagari": "एवं विद्याद् उपादानं व्युत्सर्गाद् इति कर्मणः  /\nकर्तुश् च कर्मकर्तृभ्यां शेषान् भावान् विभावयेत्",
+      "sanskrit_iast": "evaṃ vidyād upādānaṃ vyutsargād iti karmaṇaḥ  /\nkartuś ca karmakartṛbhyāṃ śeṣān bhāvān vibhāvayet",
+      "source_line_start": 501,
+      "source_line_end": 503
+    },
+    {
+      "verse_id": "v_9_1",
+      "adhyaya": 9,
+      "pada": 1,
+      "sutra_or_verse_num": "9.1",
+      "sanskrit_devanagari": "***********************************************************\nदर्शनश्रवणादीनि वेदनादीनि चाप्य् अथ  /\nभवन्ति यस्य प्राग् एभ्यः सो ऽस्तीत्य् एके वदन्त्युत",
+      "sanskrit_iast": "***********************************************************\ndarśanaśravaṇādīni vedanādīni cāpy atha  /\nbhavanti yasya prāg ebhyaḥ so 'stīty eke vadantyuta",
+      "source_line_start": 505,
+      "source_line_end": 509
+    },
+    {
+      "verse_id": "v_9_2",
+      "adhyaya": 9,
+      "pada": 2,
+      "sutra_or_verse_num": "9.2",
+      "sanskrit_devanagari": "कथं ह्य् अविद्यमानस्य दर्शनादि भविष्यति  /\nभावस्य तस्मात् प्राग् एभ्यः सो ऽस्ति भावो व्यवस्थितः",
+      "sanskrit_iast": "kathaṃ hy avidyamānasya darśanādi bhaviṣyati  /\nbhāvasya tasmāt prāg ebhyaḥ so 'sti bhāvo vyavasthitaḥ",
+      "source_line_start": 511,
+      "source_line_end": 513
+    },
+    {
+      "verse_id": "v_9_3",
+      "adhyaya": 9,
+      "pada": 3,
+      "sutra_or_verse_num": "9.3",
+      "sanskrit_devanagari": "दर्शनश्रवणादिभ्यो वेदनादिभ्य एव च  /\nयः प्राग् व्यवस्थितो भावः केन प्रज्ञप्यते ऽथ सः",
+      "sanskrit_iast": "darśanaśravaṇādibhyo vedanādibhya eva ca  /\nyaḥ prāg vyavasthito bhāvaḥ kena prajñapyate 'tha saḥ",
+      "source_line_start": 515,
+      "source_line_end": 517
+    },
+    {
+      "verse_id": "v_9_4",
+      "adhyaya": 9,
+      "pada": 4,
+      "sutra_or_verse_num": "9.4",
+      "sanskrit_devanagari": "विनापि दर्शनादीनि यदि चासौ व्यवस्थितः  /\nअमून्य् अपि भविष्यन्ति विना तेन न संशयः",
+      "sanskrit_iast": "vināpi darśanādīni yadi cāsau vyavasthitaḥ  /\namūny api bhaviṣyanti vinā tena na saṃśayaḥ",
+      "source_line_start": 519,
+      "source_line_end": 521
+    },
+    {
+      "verse_id": "v_9_5",
+      "adhyaya": 9,
+      "pada": 5,
+      "sutra_or_verse_num": "9.5",
+      "sanskrit_devanagari": "अज्यते केनचित् कश्चित् किंचित् केन चिद् अज्यते  /\nकुतः किंचिद् विना कश्चित् किंचित् किंचिद् विना कुतः",
+      "sanskrit_iast": "ajyate kenacit kaścit kiṃcit kena cid ajyate  /\nkutaḥ kiṃcid vinā kaścit kiṃcit kiṃcid vinā kutaḥ",
+      "source_line_start": 523,
+      "source_line_end": 525
+    },
+    {
+      "verse_id": "v_9_6",
+      "adhyaya": 9,
+      "pada": 6,
+      "sutra_or_verse_num": "9.6",
+      "sanskrit_devanagari": "सर्वेभ्यो दर्शनादिभ्यः कश्चित् पूर्वो न विद्यते  /\nअज्यते दर्शनादिनाम् अन्येन पुनर् अन्यदा",
+      "sanskrit_iast": "sarvebhyo darśanādibhyaḥ kaścit pūrvo na vidyate  /\najyate darśanādinām anyena punar anyadā",
+      "source_line_start": 527,
+      "source_line_end": 529
+    },
+    {
+      "verse_id": "v_9_7",
+      "adhyaya": 9,
+      "pada": 7,
+      "sutra_or_verse_num": "9.7",
+      "sanskrit_devanagari": "सर्वेभ्यो दर्शनादिभ्यो यदि पूर्वो न विद्यते  /\nएकैकस्मात् कथं पूर्वो दर्शनादेः स विद्यते",
+      "sanskrit_iast": "sarvebhyo darśanādibhyo yadi pūrvo na vidyate  /\nekaikasmāt kathaṃ pūrvo darśanādeḥ sa vidyate",
+      "source_line_start": 531,
+      "source_line_end": 533
+    },
+    {
+      "verse_id": "v_9_8",
+      "adhyaya": 9,
+      "pada": 8,
+      "sutra_or_verse_num": "9.8",
+      "sanskrit_devanagari": "द्रष्टा स एव स श्रोता स एव यदि वेदकः  /\nएकैकस्माद् भवेत् पूर्वम् एवं चैतन् न युज्यते",
+      "sanskrit_iast": "draṣṭā sa eva sa śrotā sa eva yadi vedakaḥ  /\nekaikasmād bhavet pūrvam evaṃ caitan na yujyate",
+      "source_line_start": 535,
+      "source_line_end": 537
+    },
+    {
+      "verse_id": "v_9_9",
+      "adhyaya": 9,
+      "pada": 9,
+      "sutra_or_verse_num": "9.9",
+      "sanskrit_devanagari": "द्रष्टान्य एव श्रोतान्यो वेदको ऽन्यः पुनर् यदि  /\nसति स्याद् द्रष्टरि श्रोता बहुत्वं चात्मनां भवेत्",
+      "sanskrit_iast": "draṣṭānya eva śrotānyo vedako 'nyaḥ punar yadi  /\nsati syād draṣṭari śrotā bahutvaṃ cātmanāṃ bhavet",
+      "source_line_start": 539,
+      "source_line_end": 541
+    },
+    {
+      "verse_id": "v_9_10",
+      "adhyaya": 9,
+      "pada": 10,
+      "sutra_or_verse_num": "9.10",
+      "sanskrit_devanagari": "दर्शनश्रवणादीनि वेदनादीनि चाप्य् अथ  /\nभवन्ति येभ्यस् तेष्व् एष भूतेष्व् अपि न विद्यते",
+      "sanskrit_iast": "darśanaśravaṇādīni vedanādīni cāpy atha  /\nbhavanti yebhyas teṣv eṣa bhūteṣv api na vidyate",
+      "source_line_start": 543,
+      "source_line_end": 545
+    },
+    {
+      "verse_id": "v_9_11",
+      "adhyaya": 9,
+      "pada": 11,
+      "sutra_or_verse_num": "9.11",
+      "sanskrit_devanagari": "दर्शनश्रवणादीनि वेदनादीनि चाप्य् अथ  /\nन विद्यते चेद् यस्य स न विद्यन्त इमान्य् अपि",
+      "sanskrit_iast": "darśanaśravaṇādīni vedanādīni cāpy atha  /\nna vidyate ced yasya sa na vidyanta imāny api",
+      "source_line_start": 547,
+      "source_line_end": 549
+    },
+    {
+      "verse_id": "v_9_12",
+      "adhyaya": 9,
+      "pada": 12,
+      "sutra_or_verse_num": "9.12",
+      "sanskrit_devanagari": "प्राक् च यो दर्शनादिभ्यः सांप्रतं चोर्ध्वम् एव च  /\nन विद्यते ऽस्ति नास्तीति निवृत्तास् तत्र कल्पनाः",
+      "sanskrit_iast": "prāk ca yo darśanādibhyaḥ sāṃprataṃ cordhvam eva ca  /\nna vidyate 'sti nāstīti nivṛttās tatra kalpanāḥ",
+      "source_line_start": 551,
+      "source_line_end": 553
+    },
+    {
+      "verse_id": "v_10_1",
+      "adhyaya": 10,
+      "pada": 1,
+      "sutra_or_verse_num": "10.1",
+      "sanskrit_devanagari": "***********************************************************\nयद् इन्धनं स चेद् अग्निर् एकत्वं कर्तृकर्मणोः  /\nअन्यश् चेद् इन्धनाद् अग्निर् इन्धनाद् अप्य् ऋते भवेत्",
+      "sanskrit_iast": "***********************************************************\nyad indhanaṃ sa ced agnir ekatvaṃ kartṛkarmaṇoḥ  /\nanyaś ced indhanād agnir indhanād apy ṛte bhavet",
+      "source_line_start": 555,
+      "source_line_end": 559
+    },
+    {
+      "verse_id": "v_10_2",
+      "adhyaya": 10,
+      "pada": 2,
+      "sutra_or_verse_num": "10.2",
+      "sanskrit_devanagari": "नित्यप्रदीप्त एव स्याद् अप्रदीपनहेतुकः  /\nपुनरारम्भवैयर्थ्यम् एवं चाकर्मकः सति",
+      "sanskrit_iast": "nityapradīpta eva syād apradīpanahetukaḥ  /\npunarārambhavaiyarthyam evaṃ cākarmakaḥ sati",
+      "source_line_start": 561,
+      "source_line_end": 563
+    },
+    {
+      "verse_id": "v_10_3",
+      "adhyaya": 10,
+      "pada": 3,
+      "sutra_or_verse_num": "10.3",
+      "sanskrit_devanagari": "परत्र निरपेक्षत्वाद् अप्रदीपनहेतुकः  /\nपुनरारम्भवैयर्थ्यं नित्यदीप्तः प्रसज्यते",
+      "sanskrit_iast": "paratra nirapekṣatvād apradīpanahetukaḥ  /\npunarārambhavaiyarthyaṃ nityadīptaḥ prasajyate",
+      "source_line_start": 565,
+      "source_line_end": 567
+    },
+    {
+      "verse_id": "v_10_4",
+      "adhyaya": 10,
+      "pada": 4,
+      "sutra_or_verse_num": "10.4",
+      "sanskrit_devanagari": "तत्रैतत् स्याद् इध्यमानम् इन्धनं भवतीति चेत्  /\nकेनेध्यताम् इन्धनं तत् तावन्मात्रम् इदं यदा",
+      "sanskrit_iast": "tatraitat syād idhyamānam indhanaṃ bhavatīti cet  /\nkenedhyatām indhanaṃ tat tāvanmātram idaṃ yadā",
+      "source_line_start": 569,
+      "source_line_end": 571
+    },
+    {
+      "verse_id": "v_10_5",
+      "adhyaya": 10,
+      "pada": 5,
+      "sutra_or_verse_num": "10.5",
+      "sanskrit_devanagari": "अन्यो न प्राप्स्यते ऽप्रप्तो न धक्ष्यत्य् अदहन् पुनः  /\nन निर्वास्यत्य् अनिर्वाणः स्थास्यते वा स्वलिङ्गवान्",
+      "sanskrit_iast": "anyo na prāpsyate 'prapto na dhakṣyaty adahan punaḥ  /\nna nirvāsyaty anirvāṇaḥ sthāsyate vā svaliṅgavān",
+      "source_line_start": 573,
+      "source_line_end": 575
+    },
+    {
+      "verse_id": "v_10_6",
+      "adhyaya": 10,
+      "pada": 6,
+      "sutra_or_verse_num": "10.6",
+      "sanskrit_devanagari": "अन्य एवन्धनाद् अग्निर् इन्धनं प्राप्नुयाद् यदि  /\nस्त्री संप्राप्नोति पुरुषं पुरुषश् च स्त्रियं यथा",
+      "sanskrit_iast": "anya evandhanād agnir indhanaṃ prāpnuyād yadi  /\nstrī saṃprāpnoti puruṣaṃ puruṣaś ca striyaṃ yathā",
+      "source_line_start": 577,
+      "source_line_end": 579
+    },
+    {
+      "verse_id": "v_10_7",
+      "adhyaya": 10,
+      "pada": 7,
+      "sutra_or_verse_num": "10.7",
+      "sanskrit_devanagari": "अन्य एवेन्धनाद् अग्निर् इन्धनं कामम् आप्नुयात्  /\nअग्नीन्धने यदि स्याताम् अन्योन्येन तिरस्कृते",
+      "sanskrit_iast": "anya evendhanād agnir indhanaṃ kāmam āpnuyāt  /\nagnīndhane yadi syātām anyonyena tiraskṛte",
+      "source_line_start": 581,
+      "source_line_end": 583
+    },
+    {
+      "verse_id": "v_10_8",
+      "adhyaya": 10,
+      "pada": 8,
+      "sutra_or_verse_num": "10.8",
+      "sanskrit_devanagari": "यदीन्धनम् अपेक्ष्याग्निर् अपेक्ष्याग्निं यदीन्धनम्  /\nकतरत् पूर्वनिष्पन्नं यद् अपेक्ष्याग्निर् इन्धनम्",
+      "sanskrit_iast": "yadīndhanam apekṣyāgnir apekṣyāgniṃ yadīndhanam  /\nkatarat pūrvaniṣpannaṃ yad apekṣyāgnir indhanam",
+      "source_line_start": 585,
+      "source_line_end": 587
+    },
+    {
+      "verse_id": "v_10_9",
+      "adhyaya": 10,
+      "pada": 9,
+      "sutra_or_verse_num": "10.9",
+      "sanskrit_devanagari": "यदीन्धनम् अपेक्ष्याग्निर् अग्नेः सिद्धस्य साधनम्  /\nएवं सतीन्धनं चापि भविष्यति निरग्निकम्",
+      "sanskrit_iast": "yadīndhanam apekṣyāgnir agneḥ siddhasya sādhanam  /\nevaṃ satīndhanaṃ cāpi bhaviṣyati niragnikam",
+      "source_line_start": 589,
+      "source_line_end": 591
+    },
+    {
+      "verse_id": "v_10_10",
+      "adhyaya": 10,
+      "pada": 10,
+      "sutra_or_verse_num": "10.10",
+      "sanskrit_devanagari": "यो ऽपेक्ष्य सिध्यते भावस् तम् एवापेक्ष्य सिध्यति  /\nयदि यो ऽपेक्षितव्यः स सिध्यतां कम् अपेक्ष्य कः",
+      "sanskrit_iast": "yo 'pekṣya sidhyate bhāvas tam evāpekṣya sidhyati  /\nyadi yo 'pekṣitavyaḥ sa sidhyatāṃ kam apekṣya kaḥ",
+      "source_line_start": 593,
+      "source_line_end": 595
+    },
+    {
+      "verse_id": "v_10_11",
+      "adhyaya": 10,
+      "pada": 11,
+      "sutra_or_verse_num": "10.11",
+      "sanskrit_devanagari": "यो ऽपेक्ष्य सिध्यते भावः सो ऽसिद्धो ऽपेक्षते कथम्  /\nअथाप्य् अपेक्षते सिद्धस् त्व् अपेक्षास्य न युज्यते",
+      "sanskrit_iast": "yo 'pekṣya sidhyate bhāvaḥ so 'siddho 'pekṣate katham  /\nathāpy apekṣate siddhas tv apekṣāsya na yujyate",
+      "source_line_start": 597,
+      "source_line_end": 599
+    },
+    {
+      "verse_id": "v_10_12",
+      "adhyaya": 10,
+      "pada": 12,
+      "sutra_or_verse_num": "10.12",
+      "sanskrit_devanagari": "अपेक्ष्येन्धनम् अग्निर् न नानपेक्ष्याग्निर् इन्धनम्  /\nअपेक्ष्येन्धनम् अग्निं न नानपेक्ष्याग्निम् इन्धनम्",
+      "sanskrit_iast": "apekṣyendhanam agnir na nānapekṣyāgnir indhanam  /\napekṣyendhanam agniṃ na nānapekṣyāgnim indhanam",
+      "source_line_start": 601,
+      "source_line_end": 603
+    },
+    {
+      "verse_id": "v_10_13",
+      "adhyaya": 10,
+      "pada": 13,
+      "sutra_or_verse_num": "10.13",
+      "sanskrit_devanagari": "आगच्छत्य् अन्यतो नाग्निर् इन्धने ऽग्निर् न विद्यते  /\nअत्रेन्धने शेषम् उक्तं गम्यमानगतागतैः",
+      "sanskrit_iast": "āgacchaty anyato nāgnir indhane 'gnir na vidyate  /\natrendhane śeṣam uktaṃ gamyamānagatāgataiḥ",
+      "source_line_start": 605,
+      "source_line_end": 607
+    },
+    {
+      "verse_id": "v_10_14",
+      "adhyaya": 10,
+      "pada": 14,
+      "sutra_or_verse_num": "10.14",
+      "sanskrit_devanagari": "इन्धनं पुनर् अग्निर् न नाग्निर् अन्यत्र चेन्धनात्  /\nनाग्निर् इन्धनवान् नाग्नाव् इन्धनानि न तेषु सः",
+      "sanskrit_iast": "indhanaṃ punar agnir na nāgnir anyatra cendhanāt  /\nnāgnir indhanavān nāgnāv indhanāni na teṣu saḥ",
+      "source_line_start": 609,
+      "source_line_end": 611
+    },
+    {
+      "verse_id": "v_10_15",
+      "adhyaya": 10,
+      "pada": 15,
+      "sutra_or_verse_num": "10.15",
+      "sanskrit_devanagari": "अग्नीन्धनाभ्यां व्याख्यात आत्मोपादानयोः क्रमः  /\nसर्वो निरवशेषेण सार्धं घटपटादिभिः",
+      "sanskrit_iast": "agnīndhanābhyāṃ vyākhyāta ātmopādānayoḥ kramaḥ  /\nsarvo niravaśeṣeṇa sārdhaṃ ghaṭapaṭādibhiḥ",
+      "source_line_start": 613,
+      "source_line_end": 615
+    },
+    {
+      "verse_id": "v_10_16",
+      "adhyaya": 10,
+      "pada": 16,
+      "sutra_or_verse_num": "10.16",
+      "sanskrit_devanagari": "आत्मनश् च सतत्त्वं ये भावानां च पृथक् पृथक्  /\nनिर्दिशन्ति न तान् मन्ये शासनस्यार्थकोविदान्",
+      "sanskrit_iast": "ātmanaś ca satattvaṃ ye bhāvānāṃ ca pṛthak pṛthak  /\nnirdiśanti na tān manye śāsanasyārthakovidān",
+      "source_line_start": 617,
+      "source_line_end": 619
+    },
+    {
+      "verse_id": "v_11_1",
+      "adhyaya": 11,
+      "pada": 1,
+      "sutra_or_verse_num": "11.1",
+      "sanskrit_devanagari": "***********************************************************\nपूर्वा प्रज्ञायते कोटिर् नेत्य् उवाच महामुनिः  /\nसंसारो ऽनवराग्रो हि नास्यादिर् नापि पश्चिमम्",
+      "sanskrit_iast": "***********************************************************\npūrvā prajñāyate koṭir nety uvāca mahāmuniḥ  /\nsaṃsāro 'navarāgro hi nāsyādir nāpi paścimam",
+      "source_line_start": 621,
+      "source_line_end": 625
+    },
+    {
+      "verse_id": "v_11_2",
+      "adhyaya": 11,
+      "pada": 2,
+      "sutra_or_verse_num": "11.2",
+      "sanskrit_devanagari": "नैवाग्रं नावरं यस्य तस्य मध्यं कुतो भवेत्  /\nतस्मान् नात्रोपपद्यन्ते पूर्वापरसहक्रमाः",
+      "sanskrit_iast": "naivāgraṃ nāvaraṃ yasya tasya madhyaṃ kuto bhavet  /\ntasmān nātropapadyante pūrvāparasahakramāḥ",
+      "source_line_start": 627,
+      "source_line_end": 629
+    },
+    {
+      "verse_id": "v_11_3",
+      "adhyaya": 11,
+      "pada": 3,
+      "sutra_or_verse_num": "11.3",
+      "sanskrit_devanagari": "पूर्वं जातिर् यदि भवेज् जरामरणम् उत्तरम्  /\nनिर्जरा मरणा जातिर् भवेज् जायेत चामृतः",
+      "sanskrit_iast": "pūrvaṃ jātir yadi bhavej jarāmaraṇam uttaram  /\nnirjarā maraṇā jātir bhavej jāyeta cāmṛtaḥ",
+      "source_line_start": 631,
+      "source_line_end": 633
+    },
+    {
+      "verse_id": "v_11_4",
+      "adhyaya": 11,
+      "pada": 4,
+      "sutra_or_verse_num": "11.4",
+      "sanskrit_devanagari": "पश्चाज् जातिर् यदि भवेज् जरामरणम् आदितः  /\nअहेतुकम् अजातस्य स्याज् जरामरणं कथम्",
+      "sanskrit_iast": "paścāj jātir yadi bhavej jarāmaraṇam āditaḥ  /\nahetukam ajātasya syāj jarāmaraṇaṃ katham",
+      "source_line_start": 635,
+      "source_line_end": 637
+    },
+    {
+      "verse_id": "v_11_5",
+      "adhyaya": 11,
+      "pada": 5,
+      "sutra_or_verse_num": "11.5",
+      "sanskrit_devanagari": "न जरामरणं चैव जातिश् च सह युज्यते  /\nम्रियेत जायमानश् च स्याच् चाहेतुकतोभयोः",
+      "sanskrit_iast": "na jarāmaraṇaṃ caiva jātiś ca saha yujyate  /\nmriyeta jāyamānaś ca syāc cāhetukatobhayoḥ",
+      "source_line_start": 639,
+      "source_line_end": 641
+    },
+    {
+      "verse_id": "v_11_6",
+      "adhyaya": 11,
+      "pada": 6,
+      "sutra_or_verse_num": "11.6",
+      "sanskrit_devanagari": "यत्र न प्रभवन्त्य् एते पूर्वापरसहक्रमाः  /\nप्रपञ्चयन्ति तां जातिं तज् जरामरणं च किम्",
+      "sanskrit_iast": "yatra na prabhavanty ete pūrvāparasahakramāḥ  /\nprapañcayanti tāṃ jātiṃ taj jarāmaraṇaṃ ca kim",
+      "source_line_start": 643,
+      "source_line_end": 645
+    },
+    {
+      "verse_id": "v_11_7",
+      "adhyaya": 11,
+      "pada": 7,
+      "sutra_or_verse_num": "11.7",
+      "sanskrit_devanagari": "कार्यं च कारणं चैव लक्ष्यं लक्षणम् एव च  /\nवेदना वेदकश् चैव सन्त्य् अर्था ये च के चन",
+      "sanskrit_iast": "kāryaṃ ca kāraṇaṃ caiva lakṣyaṃ lakṣaṇam eva ca  /\nvedanā vedakaś caiva santy arthā ye ca ke cana",
+      "source_line_start": 647,
+      "source_line_end": 649
+    },
+    {
+      "verse_id": "v_11_8",
+      "adhyaya": 11,
+      "pada": 8,
+      "sutra_or_verse_num": "11.8",
+      "sanskrit_devanagari": "पूर्वा न विद्यते कोटिः संसारस्य न केवलम्  /\nसर्वेषाम् अपि भावानां पूर्वा कोटी न विद्यते",
+      "sanskrit_iast": "pūrvā na vidyate koṭiḥ saṃsārasya na kevalam  /\nsarveṣām api bhāvānāṃ pūrvā koṭī na vidyate",
+      "source_line_start": 651,
+      "source_line_end": 653
+    },
+    {
+      "verse_id": "v_12_1",
+      "adhyaya": 12,
+      "pada": 1,
+      "sutra_or_verse_num": "12.1",
+      "sanskrit_devanagari": "***********************************************************\nस्वयं कृतं परकृतं द्वाभ्यां कृतम् अहेतुकम्  /\nदुःखम् इत्य् एक इच्छन्ति तच् च कार्यं न युज्यते",
+      "sanskrit_iast": "***********************************************************\nsvayaṃ kṛtaṃ parakṛtaṃ dvābhyāṃ kṛtam ahetukam  /\nduḥkham ity eka icchanti tac ca kāryaṃ na yujyate",
+      "source_line_start": 655,
+      "source_line_end": 659
+    },
+    {
+      "verse_id": "v_12_2",
+      "adhyaya": 12,
+      "pada": 2,
+      "sutra_or_verse_num": "12.2",
+      "sanskrit_devanagari": "स्वयं कृतं यदि भवेत् प्रतीत्य न ततो भवेत्  /\nस्कन्धान् इमान् अमी स्कन्धाः संभवन्ति प्रतीत्य हि",
+      "sanskrit_iast": "svayaṃ kṛtaṃ yadi bhavet pratītya na tato bhavet  /\nskandhān imān amī skandhāḥ saṃbhavanti pratītya hi",
+      "source_line_start": 661,
+      "source_line_end": 663
+    },
+    {
+      "verse_id": "v_12_3",
+      "adhyaya": 12,
+      "pada": 3,
+      "sutra_or_verse_num": "12.3",
+      "sanskrit_devanagari": "यद्य् अमीभ्य इमे ऽन्ये स्युर् एभ्यो वामी परे यदि  /\nभवेत् परकृतं दुःखं परैर् एभिर् अमी कृताः",
+      "sanskrit_iast": "yady amībhya ime 'nye syur ebhyo vāmī pare yadi  /\nbhavet parakṛtaṃ duḥkhaṃ parair ebhir amī kṛtāḥ",
+      "source_line_start": 665,
+      "source_line_end": 667
+    },
+    {
+      "verse_id": "v_12_4",
+      "adhyaya": 12,
+      "pada": 4,
+      "sutra_or_verse_num": "12.4",
+      "sanskrit_devanagari": "स्वपुद्गलकृतं दुःखं यदि दुःखं पुनर् विना  /\nस्वपुद्गलः स कतमो येन दुःखं स्वयं कृतम्",
+      "sanskrit_iast": "svapudgalakṛtaṃ duḥkhaṃ yadi duḥkhaṃ punar vinā  /\nsvapudgalaḥ sa katamo yena duḥkhaṃ svayaṃ kṛtam",
+      "source_line_start": 669,
+      "source_line_end": 671
+    },
+    {
+      "verse_id": "v_12_5",
+      "adhyaya": 12,
+      "pada": 5,
+      "sutra_or_verse_num": "12.5",
+      "sanskrit_devanagari": "परपुद्गलजं दुःखं यदि यस्मै प्रदीयते  /\nपरेण कृत्वा तद् दुःखं स दुःखेन विना कुतः",
+      "sanskrit_iast": "parapudgalajaṃ duḥkhaṃ yadi yasmai pradīyate  /\npareṇa kṛtvā tad duḥkhaṃ sa duḥkhena vinā kutaḥ",
+      "source_line_start": 673,
+      "source_line_end": 675
+    },
+    {
+      "verse_id": "v_12_6",
+      "adhyaya": 12,
+      "pada": 6,
+      "sutra_or_verse_num": "12.6",
+      "sanskrit_devanagari": "परपुद्गलजं दुःखं यदि कः परपुद्गलः  /\nविना दुःखेन यः कृत्वा परस्मै प्रहिणोति तत्",
+      "sanskrit_iast": "parapudgalajaṃ duḥkhaṃ yadi kaḥ parapudgalaḥ  /\nvinā duḥkhena yaḥ kṛtvā parasmai prahiṇoti tat",
+      "source_line_start": 677,
+      "source_line_end": 679
+    },
+    {
+      "verse_id": "v_12_7",
+      "adhyaya": 12,
+      "pada": 7,
+      "sutra_or_verse_num": "12.7",
+      "sanskrit_devanagari": "स्वयं कृतस्याप्रसिद्धेर् दुःखं परकृतं कुतः  /\nपरो हि दुःखं यत् कुर्यात् तत् तस्य स्यात् स्वयं कृतम्",
+      "sanskrit_iast": "svayaṃ kṛtasyāprasiddher duḥkhaṃ parakṛtaṃ kutaḥ  /\nparo hi duḥkhaṃ yat kuryāt tat tasya syāt svayaṃ kṛtam",
+      "source_line_start": 681,
+      "source_line_end": 683
+    },
+    {
+      "verse_id": "v_12_8",
+      "adhyaya": 12,
+      "pada": 8,
+      "sutra_or_verse_num": "12.8",
+      "sanskrit_devanagari": "न तावत् स्वकृतं दुःखं न हि तेनैव तत् कृतम्  /\nपरो नात्मकृतश् चेत् स्याद् दुःखं परकृतं कथम्",
+      "sanskrit_iast": "na tāvat svakṛtaṃ duḥkhaṃ na hi tenaiva tat kṛtam  /\nparo nātmakṛtaś cet syād duḥkhaṃ parakṛtaṃ katham",
+      "source_line_start": 685,
+      "source_line_end": 687
+    },
+    {
+      "verse_id": "v_12_9",
+      "adhyaya": 12,
+      "pada": 9,
+      "sutra_or_verse_num": "12.9",
+      "sanskrit_devanagari": "स्याद् उभाभ्यां कृतं दुःखं स्याद् एकैककृतं यदि  /\nपराकारास्वयंकारं दुःखम् अहेतुकं कुतः",
+      "sanskrit_iast": "syād ubhābhyāṃ kṛtaṃ duḥkhaṃ syād ekaikakṛtaṃ yadi  /\nparākārāsvayaṃkāraṃ duḥkham ahetukaṃ kutaḥ",
+      "source_line_start": 689,
+      "source_line_end": 691
+    },
+    {
+      "verse_id": "v_12_10",
+      "adhyaya": 12,
+      "pada": 10,
+      "sutra_or_verse_num": "12.10",
+      "sanskrit_devanagari": "न केवलं हि दुःखस्य चातुर्विध्यं न विद्यते  /\nबाह्यानाम् अपि भावानां चातुर्विध्यं न विद्यते",
+      "sanskrit_iast": "na kevalaṃ hi duḥkhasya cāturvidhyaṃ na vidyate  /\nbāhyānām api bhāvānāṃ cāturvidhyaṃ na vidyate",
+      "source_line_start": 693,
+      "source_line_end": 695
+    },
+    {
+      "verse_id": "v_13_1",
+      "adhyaya": 13,
+      "pada": 1,
+      "sutra_or_verse_num": "13.1",
+      "sanskrit_devanagari": "***********************************************************\nतन् मृषा मोषधर्म यद् भगवान् इत्य् अभाषत  /\nसर्वे च मोषधर्माणः संस्कारास् तेन ते मृषा",
+      "sanskrit_iast": "***********************************************************\ntan mṛṣā moṣadharma yad bhagavān ity abhāṣata  /\nsarve ca moṣadharmāṇaḥ saṃskārās tena te mṛṣā",
+      "source_line_start": 697,
+      "source_line_end": 701
+    },
+    {
+      "verse_id": "v_13_2",
+      "adhyaya": 13,
+      "pada": 2,
+      "sutra_or_verse_num": "13.2",
+      "sanskrit_devanagari": "तन् मृषा मोषधर्म यद् यदि किं तत्र मुष्यते  /\nएतत् तूक्तं भगवता शून्यतापरिदीपकम्",
+      "sanskrit_iast": "tan mṛṣā moṣadharma yad yadi kiṃ tatra muṣyate  /\netat tūktaṃ bhagavatā śūnyatāparidīpakam",
+      "source_line_start": 703,
+      "source_line_end": 705
+    },
+    {
+      "verse_id": "v_13_3",
+      "adhyaya": 13,
+      "pada": 3,
+      "sutra_or_verse_num": "13.3",
+      "sanskrit_devanagari": "भावानां निःस्वभावत्वम् अन्यथाभावदर्शनात्  /\nनास्वभावश् च भावो ऽस्ति भावानां शून्यता यतः",
+      "sanskrit_iast": "bhāvānāṃ niḥsvabhāvatvam anyathābhāvadarśanāt  /\nnāsvabhāvaś ca bhāvo 'sti bhāvānāṃ śūnyatā yataḥ",
+      "source_line_start": 707,
+      "source_line_end": 709
+    },
+    {
+      "verse_id": "v_13_4",
+      "adhyaya": 13,
+      "pada": 4,
+      "sutra_or_verse_num": "13.4",
+      "sanskrit_devanagari": "कस्य स्याद् अन्यथाभावः स्वभावश् चेन् न विद्यते  /\nकस्य स्याद् अन्यथाभावः स्वभावो यदि विद्यते",
+      "sanskrit_iast": "kasya syād anyathābhāvaḥ svabhāvaś cen na vidyate  /\nkasya syād anyathābhāvaḥ svabhāvo yadi vidyate",
+      "source_line_start": 711,
+      "source_line_end": 713
+    },
+    {
+      "verse_id": "v_13_5",
+      "adhyaya": 13,
+      "pada": 5,
+      "sutra_or_verse_num": "13.5",
+      "sanskrit_devanagari": "तस्यैव नान्यथाभावो नाप्य् अन्यस्यैव युज्यते  /\nयुवा न जीर्यते यस्माद् यस्माज् जीर्णो न जीर्यते",
+      "sanskrit_iast": "tasyaiva nānyathābhāvo nāpy anyasyaiva yujyate  /\nyuvā na jīryate yasmād yasmāj jīrṇo na jīryate",
+      "source_line_start": 715,
+      "source_line_end": 717
+    },
+    {
+      "verse_id": "v_13_6",
+      "adhyaya": 13,
+      "pada": 6,
+      "sutra_or_verse_num": "13.6",
+      "sanskrit_devanagari": "तस्य चेद् अन्यथाभावः क्षीरम् एव भवेद् दधि  /\nक्षीराद् अन्यस्य कस्यचिद् दधिभावो भविष्यति",
+      "sanskrit_iast": "tasya ced anyathābhāvaḥ kṣīram eva bhaved dadhi  /\nkṣīrād anyasya kasyacid dadhibhāvo bhaviṣyati",
+      "source_line_start": 719,
+      "source_line_end": 721
+    },
+    {
+      "verse_id": "v_13_7",
+      "adhyaya": 13,
+      "pada": 7,
+      "sutra_or_verse_num": "13.7",
+      "sanskrit_devanagari": "यद्य् अशून्यं भवेत् किंचित् स्याच् छून्यम् इति किं चन  /\nन किंचिद् अस्त्य् अशून्यं च कुतः शून्यं भविष्यति",
+      "sanskrit_iast": "yady aśūnyaṃ bhavet kiṃcit syāc chūnyam iti kiṃ cana  /\nna kiṃcid asty aśūnyaṃ ca kutaḥ śūnyaṃ bhaviṣyati",
+      "source_line_start": 723,
+      "source_line_end": 725
+    },
+    {
+      "verse_id": "v_13_8",
+      "adhyaya": 13,
+      "pada": 8,
+      "sutra_or_verse_num": "13.8",
+      "sanskrit_devanagari": "शून्यता सर्वदृष्टीनां प्रोक्ता निःसरणं जिनैः  /\nयेषां तु शून्यतादृष्टिस् तान् असाध्यान् बभाषिरे",
+      "sanskrit_iast": "śūnyatā sarvadṛṣṭīnāṃ proktā niḥsaraṇaṃ jinaiḥ  /\nyeṣāṃ tu śūnyatādṛṣṭis tān asādhyān babhāṣire",
+      "source_line_start": 727,
+      "source_line_end": 729
+    },
+    {
+      "verse_id": "v_14_1",
+      "adhyaya": 14,
+      "pada": 1,
+      "sutra_or_verse_num": "14.1",
+      "sanskrit_devanagari": "द्रष्टव्यं दर्शनं द्रष्टा त्रीण्य् एतानि द्विशो द्विशः  /\nसर्वशश् च न संसर्गम् अन्योन्येन व्रजन्त्य् उत",
+      "sanskrit_iast": "draṣṭavyaṃ darśanaṃ draṣṭā trīṇy etāni dviśo dviśaḥ  /\nsarvaśaś ca na saṃsargam anyonyena vrajanty uta",
+      "source_line_start": 731,
+      "source_line_end": 733
+    },
+    {
+      "verse_id": "v_14_2",
+      "adhyaya": 14,
+      "pada": 2,
+      "sutra_or_verse_num": "14.2",
+      "sanskrit_devanagari": "एवं रागश् च रक्तश् च रञ्जनीयं च दृश्यताम्  /\nत्रैधेन शेषाः क्लेशाश् च शेषाण्य् आयतनानि च",
+      "sanskrit_iast": "evaṃ rāgaś ca raktaś ca rañjanīyaṃ ca dṛśyatām  /\ntraidhena śeṣāḥ kleśāś ca śeṣāṇy āyatanāni ca",
+      "source_line_start": 735,
+      "source_line_end": 737
+    },
+    {
+      "verse_id": "v_14_3",
+      "adhyaya": 14,
+      "pada": 3,
+      "sutra_or_verse_num": "14.3",
+      "sanskrit_devanagari": "अन्येनान्यस्य संसर्गस् तच् चान्यत्वं न विद्यते  /\nद्रष्टव्यप्रभृतीनां यन् न संसर्गं व्रजन्त्य् अतः",
+      "sanskrit_iast": "anyenānyasya saṃsargas tac cānyatvaṃ na vidyate  /\ndraṣṭavyaprabhṛtīnāṃ yan na saṃsargaṃ vrajanty ataḥ",
+      "source_line_start": 739,
+      "source_line_end": 741
+    },
+    {
+      "verse_id": "v_14_4",
+      "adhyaya": 14,
+      "pada": 4,
+      "sutra_or_verse_num": "14.4",
+      "sanskrit_devanagari": "न च केवलम् अन्यत्वं द्रष्टव्यादेर् न विद्यते  /\nकस्यचित् केनचित् सार्धं नान्यत्वम् उपपद्यते",
+      "sanskrit_iast": "na ca kevalam anyatvaṃ draṣṭavyāder na vidyate  /\nkasyacit kenacit sārdhaṃ nānyatvam upapadyate",
+      "source_line_start": 743,
+      "source_line_end": 745
+    },
+    {
+      "verse_id": "v_14_5",
+      "adhyaya": 14,
+      "pada": 5,
+      "sutra_or_verse_num": "14.5",
+      "sanskrit_devanagari": "अन्यद् अन्यत् प्रतीत्यान्यन् नान्यद् अन्यद् ऋते ऽन्यतः  /\nयत् प्रतीत्य च यत् तस्मात् तद् अन्यन् नोपपद्यते",
+      "sanskrit_iast": "anyad anyat pratītyānyan nānyad anyad ṛte 'nyataḥ  /\nyat pratītya ca yat tasmāt tad anyan nopapadyate",
+      "source_line_start": 747,
+      "source_line_end": 749
+    },
+    {
+      "verse_id": "v_14_6",
+      "adhyaya": 14,
+      "pada": 6,
+      "sutra_or_verse_num": "14.6",
+      "sanskrit_devanagari": "यद्य् अन्यद् अन्यद् अन्यस्माद् अन्यस्माद् अप्य् ऋते भवेत्  /\nतद् अन्यद् अन्यद् अन्यस्माद् ऋते नास्ति च नास्त्य् अतः",
+      "sanskrit_iast": "yady anyad anyad anyasmād anyasmād apy ṛte bhavet  /\ntad anyad anyad anyasmād ṛte nāsti ca nāsty ataḥ",
+      "source_line_start": 751,
+      "source_line_end": 753
+    },
+    {
+      "verse_id": "v_14_7",
+      "adhyaya": 14,
+      "pada": 7,
+      "sutra_or_verse_num": "14.7",
+      "sanskrit_devanagari": "नान्यस्मिन् विद्यते ऽन्यत्वम् अनन्यस्मिन् न विद्यते  /\nअविद्यमाने चान्यत्वे नास्त्य् अन्यद् वा तद् एव वा",
+      "sanskrit_iast": "nānyasmin vidyate 'nyatvam ananyasmin na vidyate  /\navidyamāne cānyatve nāsty anyad vā tad eva vā",
+      "source_line_start": 755,
+      "source_line_end": 757
+    },
+    {
+      "verse_id": "v_14_8",
+      "adhyaya": 14,
+      "pada": 8,
+      "sutra_or_verse_num": "14.8",
+      "sanskrit_devanagari": "न तेन तस्य संसर्गो नान्येनान्यस्य युज्यते  /\nसंसृज्यमानं संसृष्टं संस्रष्टा च न विद्यते",
+      "sanskrit_iast": "na tena tasya saṃsargo nānyenānyasya yujyate  /\nsaṃsṛjyamānaṃ saṃsṛṣṭaṃ saṃsraṣṭā ca na vidyate",
+      "source_line_start": 759,
+      "source_line_end": 761
+    },
+    {
+      "verse_id": "v_15_1",
+      "adhyaya": 15,
+      "pada": 1,
+      "sutra_or_verse_num": "15.1",
+      "sanskrit_devanagari": "***********************************************************\nन संभवः स्वभावस्य युक्तः प्रत्ययहेतुभिः  /\nहेतुप्रत्ययसंभूतः स्वभावः कृतको भवेत्",
+      "sanskrit_iast": "***********************************************************\nna saṃbhavaḥ svabhāvasya yuktaḥ pratyayahetubhiḥ  /\nhetupratyayasaṃbhūtaḥ svabhāvaḥ kṛtako bhavet",
+      "source_line_start": 763,
+      "source_line_end": 767
+    },
+    {
+      "verse_id": "v_15_2",
+      "adhyaya": 15,
+      "pada": 2,
+      "sutra_or_verse_num": "15.2",
+      "sanskrit_devanagari": "स्वभावः कृतको नाम भविष्यति पुनः कथम्  /\nअकृत्रिमः स्वभावो हि निरपेक्षः परत्र च",
+      "sanskrit_iast": "svabhāvaḥ kṛtako nāma bhaviṣyati punaḥ katham  /\nakṛtrimaḥ svabhāvo hi nirapekṣaḥ paratra ca",
+      "source_line_start": 769,
+      "source_line_end": 771
+    },
+    {
+      "verse_id": "v_15_3",
+      "adhyaya": 15,
+      "pada": 3,
+      "sutra_or_verse_num": "15.3",
+      "sanskrit_devanagari": "कुतः स्वभावस्याभावे परभावो भविष्यति  /\nस्वभावः परभावस्य परभावो हि कथ्यते",
+      "sanskrit_iast": "kutaḥ svabhāvasyābhāve parabhāvo bhaviṣyati  /\nsvabhāvaḥ parabhāvasya parabhāvo hi kathyate",
+      "source_line_start": 773,
+      "source_line_end": 775
+    },
+    {
+      "verse_id": "v_15_4",
+      "adhyaya": 15,
+      "pada": 4,
+      "sutra_or_verse_num": "15.4",
+      "sanskrit_devanagari": "स्वभावपरभावाभ्याम् ऋते भावः कुतः पुनः  /\nस्वभावे परभावे च सति भावो हि सिध्यति",
+      "sanskrit_iast": "svabhāvaparabhāvābhyām ṛte bhāvaḥ kutaḥ punaḥ  /\nsvabhāve parabhāve ca sati bhāvo hi sidhyati",
+      "source_line_start": 777,
+      "source_line_end": 779
+    },
+    {
+      "verse_id": "v_15_5",
+      "adhyaya": 15,
+      "pada": 5,
+      "sutra_or_verse_num": "15.5",
+      "sanskrit_devanagari": "भावस्य चेद् अप्रसिद्धिर् अभावो नैव सिध्यति  /\nभावस्य ह्य् अन्यथाभावम् अभावं ब्रुवते जनाः",
+      "sanskrit_iast": "bhāvasya ced aprasiddhir abhāvo naiva sidhyati  /\nbhāvasya hy anyathābhāvam abhāvaṃ bruvate janāḥ",
+      "source_line_start": 781,
+      "source_line_end": 783
+    },
+    {
+      "verse_id": "v_15_6",
+      "adhyaya": 15,
+      "pada": 6,
+      "sutra_or_verse_num": "15.6",
+      "sanskrit_devanagari": "स्वभावं परभावं च भावं चाभावम् एव च  /\nये पश्यन्ति न पश्यन्ति ते तत्त्वं बुद्धशासने",
+      "sanskrit_iast": "svabhāvaṃ parabhāvaṃ ca bhāvaṃ cābhāvam eva ca  /\nye paśyanti na paśyanti te tattvaṃ buddhaśāsane",
+      "source_line_start": 785,
+      "source_line_end": 787
+    },
+    {
+      "verse_id": "v_15_7",
+      "adhyaya": 15,
+      "pada": 7,
+      "sutra_or_verse_num": "15.7",
+      "sanskrit_devanagari": "कात्यायनाववादे चास्तीति नास्तीति चोभयम्  /\nप्रतिषिद्धं भगवता भावाभावविभाविना",
+      "sanskrit_iast": "kātyāyanāvavāde cāstīti nāstīti cobhayam  /\npratiṣiddhaṃ bhagavatā bhāvābhāvavibhāvinā",
+      "source_line_start": 789,
+      "source_line_end": 791
+    },
+    {
+      "verse_id": "v_15_8",
+      "adhyaya": 15,
+      "pada": 8,
+      "sutra_or_verse_num": "15.8",
+      "sanskrit_devanagari": "यद्य् अस्तित्वं प्रकृत्या स्यान् न भवेद् अस्य नास्तिता  /\nप्रकृतेर् अन्यथाभावो न हि जातूपपद्यते",
+      "sanskrit_iast": "yady astitvaṃ prakṛtyā syān na bhaved asya nāstitā  /\nprakṛter anyathābhāvo na hi jātūpapadyate",
+      "source_line_start": 793,
+      "source_line_end": 795
+    },
+    {
+      "verse_id": "v_15_9",
+      "adhyaya": 15,
+      "pada": 9,
+      "sutra_or_verse_num": "15.9",
+      "sanskrit_devanagari": "प्रकृतौ कस्य वासत्याम् अन्यथात्वं भविष्यति  /\nप्रकृतौ कस्य वा सत्याम् अन्यथात्वं भविष्यति",
+      "sanskrit_iast": "prakṛtau kasya vāsatyām anyathātvaṃ bhaviṣyati  /\nprakṛtau kasya vā satyām anyathātvaṃ bhaviṣyati",
+      "source_line_start": 797,
+      "source_line_end": 799
+    },
+    {
+      "verse_id": "v_15_10",
+      "adhyaya": 15,
+      "pada": 10,
+      "sutra_or_verse_num": "15.10",
+      "sanskrit_devanagari": "अस्तीति शाश्वतग्राहो नास्तीत्य् उच्छेददर्शनम्  /\nतस्माद् अस्तित्वनास्तित्वे नाश्रीयेत विचक्षणः",
+      "sanskrit_iast": "astīti śāśvatagrāho nāstīty ucchedadarśanam  /\ntasmād astitvanāstitve nāśrīyeta vicakṣaṇaḥ",
+      "source_line_start": 801,
+      "source_line_end": 803
+    },
+    {
+      "verse_id": "v_15_11",
+      "adhyaya": 15,
+      "pada": 11,
+      "sutra_or_verse_num": "15.11",
+      "sanskrit_devanagari": "अस्ति यद् धि स्वभावेन न तन् नास्तीति शाश्वतम्  /\nनास्तीदानीम् अभूत् पूर्वम् इत्य् उच्छेदः प्रसज्यते",
+      "sanskrit_iast": "asti yad dhi svabhāvena na tan nāstīti śāśvatam  /\nnāstīdānīm abhūt pūrvam ity ucchedaḥ prasajyate",
+      "source_line_start": 805,
+      "source_line_end": 807
+    },
+    {
+      "verse_id": "v_16_1",
+      "adhyaya": 16,
+      "pada": 1,
+      "sutra_or_verse_num": "16.1",
+      "sanskrit_devanagari": "***********************************************************\nसंस्काराः संसरन्ति चेन् न नित्याः संसरन्ति ते  /\nसंसरन्ति च नानित्याः सत्त्वे ऽप्य् एष समः क्रमः",
+      "sanskrit_iast": "***********************************************************\nsaṃskārāḥ saṃsaranti cen na nityāḥ saṃsaranti te  /\nsaṃsaranti ca nānityāḥ sattve 'py eṣa samaḥ kramaḥ",
+      "source_line_start": 809,
+      "source_line_end": 813
+    },
+    {
+      "verse_id": "v_16_2",
+      "adhyaya": 16,
+      "pada": 2,
+      "sutra_or_verse_num": "16.2",
+      "sanskrit_devanagari": "पुद्गलः संसरति चेत् स्कन्धायतनधातुषु  /\nपञ्चधा मृग्यमाणो ऽसौ नास्ति कः संसरिष्यति",
+      "sanskrit_iast": "pudgalaḥ saṃsarati cet skandhāyatanadhātuṣu  /\npañcadhā mṛgyamāṇo 'sau nāsti kaḥ saṃsariṣyati",
+      "source_line_start": 815,
+      "source_line_end": 817
+    },
+    {
+      "verse_id": "v_16_3",
+      "adhyaya": 16,
+      "pada": 3,
+      "sutra_or_verse_num": "16.3",
+      "sanskrit_devanagari": "उपादानाद् उपादानं संसरन् विभवो भवेत्  /\nविभवश् चानुपादानः कः स किं संसरिष्यति",
+      "sanskrit_iast": "upādānād upādānaṃ saṃsaran vibhavo bhavet  /\nvibhavaś cānupādānaḥ kaḥ sa kiṃ saṃsariṣyati",
+      "source_line_start": 819,
+      "source_line_end": 821
+    },
+    {
+      "verse_id": "v_16_4",
+      "adhyaya": 16,
+      "pada": 4,
+      "sutra_or_verse_num": "16.4",
+      "sanskrit_devanagari": "संस्काराणां न निर्वाणं कथं चिद् उपपद्यते  /\nसत्त्वस्यापि न निर्वाणं कथं चिद् उपपद्यते",
+      "sanskrit_iast": "saṃskārāṇāṃ na nirvāṇaṃ kathaṃ cid upapadyate  /\nsattvasyāpi na nirvāṇaṃ kathaṃ cid upapadyate",
+      "source_line_start": 823,
+      "source_line_end": 825
+    },
+    {
+      "verse_id": "v_16_5",
+      "adhyaya": 16,
+      "pada": 5,
+      "sutra_or_verse_num": "16.5",
+      "sanskrit_devanagari": "न बध्यन्ते न मुच्यन्त उदयव्ययधर्मिणः  /\nसंस्काराः पूर्ववत् सत्त्वो बध्यते न न मुच्यते",
+      "sanskrit_iast": "na badhyante na mucyanta udayavyayadharmiṇaḥ  /\nsaṃskārāḥ pūrvavat sattvo badhyate na na mucyate",
+      "source_line_start": 827,
+      "source_line_end": 829
+    },
+    {
+      "verse_id": "v_16_6",
+      "adhyaya": 16,
+      "pada": 6,
+      "sutra_or_verse_num": "16.6",
+      "sanskrit_devanagari": "बन्धनं चेद् उपादानं सोपादानो न बध्यते  /\nबध्यते नानुपादानः किमवस्थो ऽथ बध्यते",
+      "sanskrit_iast": "bandhanaṃ ced upādānaṃ sopādāno na badhyate  /\nbadhyate nānupādānaḥ kimavastho 'tha badhyate",
+      "source_line_start": 831,
+      "source_line_end": 833
+    },
+    {
+      "verse_id": "v_16_7",
+      "adhyaya": 16,
+      "pada": 7,
+      "sutra_or_verse_num": "16.7",
+      "sanskrit_devanagari": "बध्नीयाद् बन्धनं कामं बन्ध्यात् पूर्वं भवेद् यदि  /\nन चास्ति तच् छेषम् उक्तं गम्यमानगतागतैः",
+      "sanskrit_iast": "badhnīyād bandhanaṃ kāmaṃ bandhyāt pūrvaṃ bhaved yadi  /\nna cāsti tac cheṣam uktaṃ gamyamānagatāgataiḥ",
+      "source_line_start": 835,
+      "source_line_end": 837
+    },
+    {
+      "verse_id": "v_16_8",
+      "adhyaya": 16,
+      "pada": 8,
+      "sutra_or_verse_num": "16.8",
+      "sanskrit_devanagari": "बद्धो न मुच्यते तावद् अबद्धो नैव मुच्यते  /\nस्यातां बद्धे मुच्यमाने युगपद् बन्धमोक्षणे",
+      "sanskrit_iast": "baddho na mucyate tāvad abaddho naiva mucyate  /\nsyātāṃ baddhe mucyamāne yugapad bandhamokṣaṇe",
+      "source_line_start": 839,
+      "source_line_end": 841
+    },
+    {
+      "verse_id": "v_16_9",
+      "adhyaya": 16,
+      "pada": 9,
+      "sutra_or_verse_num": "16.9",
+      "sanskrit_devanagari": "निर्वास्याम्य् अनुपादानो निर्वाणं मे भविष्यति  /\nइति येषां ग्रहस् तेषाम् उपादानमहाग्रहः",
+      "sanskrit_iast": "nirvāsyāmy anupādāno nirvāṇaṃ me bhaviṣyati  /\niti yeṣāṃ grahas teṣām upādānamahāgrahaḥ",
+      "source_line_start": 843,
+      "source_line_end": 845
+    },
+    {
+      "verse_id": "v_16_10",
+      "adhyaya": 16,
+      "pada": 10,
+      "sutra_or_verse_num": "16.10",
+      "sanskrit_devanagari": "न निर्वाणसमारोपो न संसारापकर्षणम्  /\nयत्र कस् तत्र संसारो निर्वाणं किं विकल्प्यते",
+      "sanskrit_iast": "na nirvāṇasamāropo na saṃsārāpakarṣaṇam  /\nyatra kas tatra saṃsāro nirvāṇaṃ kiṃ vikalpyate",
+      "source_line_start": 847,
+      "source_line_end": 849
+    },
+    {
+      "verse_id": "v_17_1",
+      "adhyaya": 17,
+      "pada": 1,
+      "sutra_or_verse_num": "17.1",
+      "sanskrit_devanagari": "आत्मसंयमकं चेतः परानुग्राहकं च यत्  /\nमैत्रं स धरमस् तद् बीजं फलस्य प्रेत्य चेह च",
+      "sanskrit_iast": "ātmasaṃyamakaṃ cetaḥ parānugrāhakaṃ ca yat  /\nmaitraṃ sa dharamas tad bījaṃ phalasya pretya ceha ca",
+      "source_line_start": 851,
+      "source_line_end": 853
+    },
+    {
+      "verse_id": "v_17_2",
+      "adhyaya": 17,
+      "pada": 2,
+      "sutra_or_verse_num": "17.2",
+      "sanskrit_devanagari": "चेतना चेतयित्वा च कर्मोक्तं परमर्षिणा  /\nतस्यानेकविधो भेदः कर्मणः परिकीर्तितः",
+      "sanskrit_iast": "cetanā cetayitvā ca karmoktaṃ paramarṣiṇā  /\ntasyānekavidho bhedaḥ karmaṇaḥ parikīrtitaḥ",
+      "source_line_start": 855,
+      "source_line_end": 857
+    },
+    {
+      "verse_id": "v_17_3",
+      "adhyaya": 17,
+      "pada": 3,
+      "sutra_or_verse_num": "17.3",
+      "sanskrit_devanagari": "तत्र यच् चेतनेत्य् उक्तं कर्म तन् मानसं स्मृतम्  /\nचेतयित्वा च यत् तूक्तं तत् तु कायिकवाचिकम्",
+      "sanskrit_iast": "tatra yac cetanety uktaṃ karma tan mānasaṃ smṛtam  /\ncetayitvā ca yat tūktaṃ tat tu kāyikavācikam",
+      "source_line_start": 859,
+      "source_line_end": 861
+    },
+    {
+      "verse_id": "v_17_4",
+      "adhyaya": 17,
+      "pada": 4,
+      "sutra_or_verse_num": "17.4",
+      "sanskrit_devanagari": "वाग्विष्पन्दो ऽविरतयो याश् चाविज्ञप्तिसंज्ञिताः  /\nअविज्ञप्तय एवान्याः स्मृता विरतयस् तथा",
+      "sanskrit_iast": "vāgviṣpando 'viratayo yāś cāvijñaptisaṃjñitāḥ  /\navijñaptaya evānyāḥ smṛtā viratayas tathā",
+      "source_line_start": 863,
+      "source_line_end": 865
+    },
+    {
+      "verse_id": "v_17_5",
+      "adhyaya": 17,
+      "pada": 5,
+      "sutra_or_verse_num": "17.5",
+      "sanskrit_devanagari": "परिभोगान्वयं पुण्यम् अपुण्यं च तथाविधम्  /\nचेतना चेति सप्तैते धर्माः कर्माञ्जनाः स्मृताः",
+      "sanskrit_iast": "paribhogānvayaṃ puṇyam apuṇyaṃ ca tathāvidham  /\ncetanā ceti saptaite dharmāḥ karmāñjanāḥ smṛtāḥ",
+      "source_line_start": 867,
+      "source_line_end": 869
+    },
+    {
+      "verse_id": "v_17_6",
+      "adhyaya": 17,
+      "pada": 6,
+      "sutra_or_verse_num": "17.6",
+      "sanskrit_devanagari": "तिष्ठत्य् आ पाककालाच् चेत् कर्म तन् नित्यताम् इयात्  /\nनिरुद्धं चेन् निरुद्धं सत् किं फलं जनयिष्यति",
+      "sanskrit_iast": "tiṣṭhaty ā pākakālāc cet karma tan nityatām iyāt  /\nniruddhaṃ cen niruddhaṃ sat kiṃ phalaṃ janayiṣyati",
+      "source_line_start": 871,
+      "source_line_end": 873
+    },
+    {
+      "verse_id": "v_17_7",
+      "adhyaya": 17,
+      "pada": 7,
+      "sutra_or_verse_num": "17.7",
+      "sanskrit_devanagari": "यो ऽङ्कुरप्रभृतिर् बीजात् संतानो ऽभिप्रवर्तते  /\nततः फलम् ऋते बीजात् स च नाभिप्रवर्तते",
+      "sanskrit_iast": "yo 'ṅkuraprabhṛtir bījāt saṃtāno 'bhipravartate  /\ntataḥ phalam ṛte bījāt sa ca nābhipravartate",
+      "source_line_start": 875,
+      "source_line_end": 877
+    },
+    {
+      "verse_id": "v_17_8",
+      "adhyaya": 17,
+      "pada": 8,
+      "sutra_or_verse_num": "17.8",
+      "sanskrit_devanagari": "बीजाच् च यस्मात् संतानः संतानाच् च फलोद्भवः  /\nबीजपूर्वं फलं तस्मान् नोच्छिन्नं नापि शाश्वतम्",
+      "sanskrit_iast": "bījāc ca yasmāt saṃtānaḥ saṃtānāc ca phalodbhavaḥ  /\nbījapūrvaṃ phalaṃ tasmān nocchinnaṃ nāpi śāśvatam",
+      "source_line_start": 879,
+      "source_line_end": 881
+    },
+    {
+      "verse_id": "v_17_9",
+      "adhyaya": 17,
+      "pada": 9,
+      "sutra_or_verse_num": "17.9",
+      "sanskrit_devanagari": "यस् तस्माच् चित्तसंतानश् चेतसो ऽभिप्रवर्तते  /\nततः फलम् ऋते चित्तात् स च नाभिप्रवर्तते",
+      "sanskrit_iast": "yas tasmāc cittasaṃtānaś cetaso 'bhipravartate  /\ntataḥ phalam ṛte cittāt sa ca nābhipravartate",
+      "source_line_start": 883,
+      "source_line_end": 885
+    },
+    {
+      "verse_id": "v_17_10",
+      "adhyaya": 17,
+      "pada": 10,
+      "sutra_or_verse_num": "17.10",
+      "sanskrit_devanagari": "चित्ताच् च यस्मात् संतानः संतानाच् च फलोद्भवः  /\nकर्मपूर्वं फलं तस्मान् नोच्छिन्नं नापि शाश्वतम्",
+      "sanskrit_iast": "cittāc ca yasmāt saṃtānaḥ saṃtānāc ca phalodbhavaḥ  /\nkarmapūrvaṃ phalaṃ tasmān nocchinnaṃ nāpi śāśvatam",
+      "source_line_start": 887,
+      "source_line_end": 889
+    },
+    {
+      "verse_id": "v_17_11",
+      "adhyaya": 17,
+      "pada": 11,
+      "sutra_or_verse_num": "17.11",
+      "sanskrit_devanagari": "धर्मस्य साधनोपायाः शुक्लाः कर्मपथा दश  /\nफलं कामगुणाः पञ्च धर्मस्य प्रेत्य चेह च",
+      "sanskrit_iast": "dharmasya sādhanopāyāḥ śuklāḥ karmapathā daśa  /\nphalaṃ kāmaguṇāḥ pañca dharmasya pretya ceha ca",
+      "source_line_start": 891,
+      "source_line_end": 893
+    },
+    {
+      "verse_id": "v_17_12",
+      "adhyaya": 17,
+      "pada": 12,
+      "sutra_or_verse_num": "17.12",
+      "sanskrit_devanagari": "बहवश् च महान्तश् च दोषाः स्युर् यदि कल्पना  /\nस्याद् एषा तेन नैवैषा कल्पनात्रोपपद्यते",
+      "sanskrit_iast": "bahavaś ca mahāntaś ca doṣāḥ syur yadi kalpanā  /\nsyād eṣā tena naivaiṣā kalpanātropapadyate",
+      "source_line_start": 895,
+      "source_line_end": 897
+    },
+    {
+      "verse_id": "v_17_13",
+      "adhyaya": 17,
+      "pada": 13,
+      "sutra_or_verse_num": "17.13",
+      "sanskrit_devanagari": "इमां पुनः प्रवक्ष्यामि कल्पनां यात्र योज्यते  /\nबुद्धैः प्रत्येकबुद्धैश् च श्रावकैश् चानुवर्णिताम्",
+      "sanskrit_iast": "imāṃ punaḥ pravakṣyāmi kalpanāṃ yātra yojyate  /\nbuddhaiḥ pratyekabuddhaiś ca śrāvakaiś cānuvarṇitām",
+      "source_line_start": 899,
+      "source_line_end": 901
+    },
+    {
+      "verse_id": "v_17_14",
+      "adhyaya": 17,
+      "pada": 14,
+      "sutra_or_verse_num": "17.14",
+      "sanskrit_devanagari": "पत्त्रं यथा ऽविप्रणाशस्तथर्णम् इव कर्म च  /\nचतुर्विधो धातुतः स प्रकृत्याव्याकृतश् च सः",
+      "sanskrit_iast": "pattraṃ yathā 'vipraṇāśastatharṇam iva karma ca  /\ncaturvidho dhātutaḥ sa prakṛtyāvyākṛtaś ca saḥ",
+      "source_line_start": 903,
+      "source_line_end": 905
+    },
+    {
+      "verse_id": "v_17_15",
+      "adhyaya": 17,
+      "pada": 15,
+      "sutra_or_verse_num": "17.15",
+      "sanskrit_devanagari": "प्रहाणतो न प्रहेयो भावनाहेय एव वा  /\nतस्माद् अविप्रणाशेन जायते कर्मणां फलम्",
+      "sanskrit_iast": "prahāṇato na praheyo bhāvanāheya eva vā  /\ntasmād avipraṇāśena jāyate karmaṇāṃ phalam",
+      "source_line_start": 907,
+      "source_line_end": 909
+    },
+    {
+      "verse_id": "v_17_16",
+      "adhyaya": 17,
+      "pada": 16,
+      "sutra_or_verse_num": "17.16",
+      "sanskrit_devanagari": "प्रहाणतः प्रहेयः स्यात् कर्मणः संक्रमेण वा  /\nयदि दोषाः प्रसज्येरंस् तत्र कर्मवधादयः",
+      "sanskrit_iast": "prahāṇataḥ praheyaḥ syāt karmaṇaḥ saṃkrameṇa vā  /\nyadi doṣāḥ prasajyeraṃs tatra karmavadhādayaḥ",
+      "source_line_start": 911,
+      "source_line_end": 913
+    },
+    {
+      "verse_id": "v_17_17",
+      "adhyaya": 17,
+      "pada": 17,
+      "sutra_or_verse_num": "17.17",
+      "sanskrit_devanagari": "सर्वेषां विसभागानां सभागानां च कर्मणाम्  /\nप्रतिसंधौ सधातूनाम् एक उत्पद्यते तु सः",
+      "sanskrit_iast": "sarveṣāṃ visabhāgānāṃ sabhāgānāṃ ca karmaṇām  /\npratisaṃdhau sadhātūnām eka utpadyate tu saḥ",
+      "source_line_start": 915,
+      "source_line_end": 917
+    },
+    {
+      "verse_id": "v_17_18",
+      "adhyaya": 17,
+      "pada": 18,
+      "sutra_or_verse_num": "17.18",
+      "sanskrit_devanagari": "कर्मणः कर्मणो दृष्टे धर्म उत्पद्यते तु सः  /\nद्विप्रकारस्य सर्वस्य विपक्वे ऽपि च तिष्ठति",
+      "sanskrit_iast": "karmaṇaḥ karmaṇo dṛṣṭe dharma utpadyate tu saḥ  /\ndviprakārasya sarvasya vipakve 'pi ca tiṣṭhati",
+      "source_line_start": 919,
+      "source_line_end": 921
+    },
+    {
+      "verse_id": "v_17_19",
+      "adhyaya": 17,
+      "pada": 19,
+      "sutra_or_verse_num": "17.19",
+      "sanskrit_devanagari": "फलव्यतिक्रमाद् वा स मरणाद् वा निरुध्यते  /\nअनास्रवं सास्रवं च विभागं तत्र लक्षयेत्",
+      "sanskrit_iast": "phalavyatikramād vā sa maraṇād vā nirudhyate  /\nanāsravaṃ sāsravaṃ ca vibhāgaṃ tatra lakṣayet",
+      "source_line_start": 923,
+      "source_line_end": 925
+    },
+    {
+      "verse_id": "v_17_20",
+      "adhyaya": 17,
+      "pada": 20,
+      "sutra_or_verse_num": "17.20",
+      "sanskrit_devanagari": "शून्यता च न चोच्छेदः संसारश् च न शाश्वतम्  /\nकर्मणो ऽविप्रणाशश् च धर्मो बुद्धेन देशितः",
+      "sanskrit_iast": "śūnyatā ca na cocchedaḥ saṃsāraś ca na śāśvatam  /\nkarmaṇo 'vipraṇāśaś ca dharmo buddhena deśitaḥ",
+      "source_line_start": 927,
+      "source_line_end": 929
+    },
+    {
+      "verse_id": "v_17_21",
+      "adhyaya": 17,
+      "pada": 21,
+      "sutra_or_verse_num": "17.21",
+      "sanskrit_devanagari": "कर्म नोत्पद्यते कस्मान् निःस्वभावं यतस् ततः  /\nयस्माच् च तद् अनुत्पन्नं न तस्माद् विप्रणश्यति",
+      "sanskrit_iast": "karma notpadyate kasmān niḥsvabhāvaṃ yatas tataḥ  /\nyasmāc ca tad anutpannaṃ na tasmād vipraṇaśyati",
+      "source_line_start": 931,
+      "source_line_end": 933
+    },
+    {
+      "verse_id": "v_17_22",
+      "adhyaya": 17,
+      "pada": 22,
+      "sutra_or_verse_num": "17.22",
+      "sanskrit_devanagari": "कर्म स्वभावतश् चेत् स्याच् छाश्वतं स्याद् असंशयम्  /\nअकृतं च भवेत् कर्म क्रियते न हि शाश्वतम्",
+      "sanskrit_iast": "karma svabhāvataś cet syāc chāśvataṃ syād asaṃśayam  /\nakṛtaṃ ca bhavet karma kriyate na hi śāśvatam",
+      "source_line_start": 935,
+      "source_line_end": 937
+    },
+    {
+      "verse_id": "v_17_23",
+      "adhyaya": 17,
+      "pada": 23,
+      "sutra_or_verse_num": "17.23",
+      "sanskrit_devanagari": "अकृताभ्यागमभयं स्यात् कर्माकृतकं यदि  /\nअब्रह्मचर्यवासश् च दोषस्तत्र प्रसज्यते",
+      "sanskrit_iast": "akṛtābhyāgamabhayaṃ syāt karmākṛtakaṃ yadi  /\nabrahmacaryavāsaś ca doṣastatra prasajyate",
+      "source_line_start": 939,
+      "source_line_end": 941
+    },
+    {
+      "verse_id": "v_17_24",
+      "adhyaya": 17,
+      "pada": 24,
+      "sutra_or_verse_num": "17.24",
+      "sanskrit_devanagari": "व्यवहारा विरुध्यन्ते सर्व एव न संशयः  /\nपुण्यपापकृतोर् नैव प्रविभागश् च युज्यते",
+      "sanskrit_iast": "vyavahārā virudhyante sarva eva na saṃśayaḥ  /\npuṇyapāpakṛtor naiva pravibhāgaś ca yujyate",
+      "source_line_start": 943,
+      "source_line_end": 945
+    },
+    {
+      "verse_id": "v_17_25",
+      "adhyaya": 17,
+      "pada": 25,
+      "sutra_or_verse_num": "17.25",
+      "sanskrit_devanagari": "तद् विपक्वविपाकं च पुनर् एव विपक्ष्यति  /\nकर्म व्यवस्थितं यस्मात् तस्मात् स्वाभाविकं यदि",
+      "sanskrit_iast": "tad vipakvavipākaṃ ca punar eva vipakṣyati  /\nkarma vyavasthitaṃ yasmāt tasmāt svābhāvikaṃ yadi",
+      "source_line_start": 947,
+      "source_line_end": 949
+    },
+    {
+      "verse_id": "v_17_26",
+      "adhyaya": 17,
+      "pada": 26,
+      "sutra_or_verse_num": "17.26",
+      "sanskrit_devanagari": "कर्म क्लेशात्मकं चेदं ते च क्लेशा न तत्त्वतः  /\nन चेत् ते तत्त्वतः क्लेशाः कर्म स्यात् तत्त्वतः कथम्",
+      "sanskrit_iast": "karma kleśātmakaṃ cedaṃ te ca kleśā na tattvataḥ  /\nna cet te tattvataḥ kleśāḥ karma syāt tattvataḥ katham",
+      "source_line_start": 951,
+      "source_line_end": 953
+    },
+    {
+      "verse_id": "v_17_27",
+      "adhyaya": 17,
+      "pada": 27,
+      "sutra_or_verse_num": "17.27",
+      "sanskrit_devanagari": "कर्म क्लेशाश् च देहानां प्रत्ययाः समुदाहृताः  /\nकर्म क्लेशाश् च ते शून्या यदि देहेषु का कथा",
+      "sanskrit_iast": "karma kleśāś ca dehānāṃ pratyayāḥ samudāhṛtāḥ  /\nkarma kleśāś ca te śūnyā yadi deheṣu kā kathā",
+      "source_line_start": 955,
+      "source_line_end": 957
+    },
+    {
+      "verse_id": "v_17_28",
+      "adhyaya": 17,
+      "pada": 28,
+      "sutra_or_verse_num": "17.28",
+      "sanskrit_devanagari": "अविद्यानिवृतो जन्तुस् तृष्णासंयोजनश् च सः  /\nस भोक्ता स च न कर्तुर् अन्यो न च स एव सः",
+      "sanskrit_iast": "avidyānivṛto jantus tṛṣṇāsaṃyojanaś ca saḥ  /\nsa bhoktā sa ca na kartur anyo na ca sa eva saḥ",
+      "source_line_start": 959,
+      "source_line_end": 961
+    },
+    {
+      "verse_id": "v_17_29",
+      "adhyaya": 17,
+      "pada": 29,
+      "sutra_or_verse_num": "17.29",
+      "sanskrit_devanagari": "न प्रत्ययसमुत्पन्नं नाप्रत्ययसमुत्थितम्  /\nअस्ति यस्माद् इदं कर्म तस्मात् कर्तापि नास्त्य् अतः",
+      "sanskrit_iast": "na pratyayasamutpannaṃ nāpratyayasamutthitam  /\nasti yasmād idaṃ karma tasmāt kartāpi nāsty ataḥ",
+      "source_line_start": 963,
+      "source_line_end": 965
+    },
+    {
+      "verse_id": "v_17_30",
+      "adhyaya": 17,
+      "pada": 30,
+      "sutra_or_verse_num": "17.30",
+      "sanskrit_devanagari": "कर्म चेन् नास्ति कर्ता च कुतः स्यात् कर्मजं फलम्  /\nअसत्य् अथ फले भोक्ता कुत एव भविष्यति",
+      "sanskrit_iast": "karma cen nāsti kartā ca kutaḥ syāt karmajaṃ phalam  /\nasaty atha phale bhoktā kuta eva bhaviṣyati",
+      "source_line_start": 967,
+      "source_line_end": 969
+    },
+    {
+      "verse_id": "v_17_31",
+      "adhyaya": 17,
+      "pada": 31,
+      "sutra_or_verse_num": "17.31",
+      "sanskrit_devanagari": "यथा निर्मितकं शास्ता निर्मिमीत र्द्धिसंपदा  /\nनिर्मितो निर्मिमीतान्यं स च निर्मितकः पुनः",
+      "sanskrit_iast": "yathā nirmitakaṃ śāstā nirmimīta rddhisaṃpadā  /\nnirmito nirmimītānyaṃ sa ca nirmitakaḥ punaḥ",
+      "source_line_start": 971,
+      "source_line_end": 973
+    },
+    {
+      "verse_id": "v_17_32",
+      "adhyaya": 17,
+      "pada": 32,
+      "sutra_or_verse_num": "17.32",
+      "sanskrit_devanagari": "तथा निर्मितकाकारः कर्ता यत् कर्म तत् कृतम्  /\nतद्यथा निर्मितेनान्यो निर्मितो निर्मितस् तथा",
+      "sanskrit_iast": "tathā nirmitakākāraḥ kartā yat karma tat kṛtam  /\ntadyathā nirmitenānyo nirmito nirmitas tathā",
+      "source_line_start": 975,
+      "source_line_end": 977
+    },
+    {
+      "verse_id": "v_17_33",
+      "adhyaya": 17,
+      "pada": 33,
+      "sutra_or_verse_num": "17.33",
+      "sanskrit_devanagari": "क्लेशाः कर्माणि देहाश् च कर्तारश् च फलानि च  /\nगन्धर्वनगराकारा मरीचिस्वप्नसंनिभाः",
+      "sanskrit_iast": "kleśāḥ karmāṇi dehāś ca kartāraś ca phalāni ca  /\ngandharvanagarākārā marīcisvapnasaṃnibhāḥ",
+      "source_line_start": 979,
+      "source_line_end": 981
+    },
+    {
+      "verse_id": "v_18_1",
+      "adhyaya": 18,
+      "pada": 1,
+      "sutra_or_verse_num": "18.1",
+      "sanskrit_devanagari": "***********************************************************\nआत्मा स्कन्धा यदि भवेद् उदयव्ययभाग् भवेत्  /\nस्कन्धेभ्यो ऽन्यो यदि भवेद् भवेद् अस्कन्धलक्षणः",
+      "sanskrit_iast": "***********************************************************\nātmā skandhā yadi bhaved udayavyayabhāg bhavet  /\nskandhebhyo 'nyo yadi bhaved bhaved askandhalakṣaṇaḥ",
+      "source_line_start": 983,
+      "source_line_end": 987
+    },
+    {
+      "verse_id": "v_18_2",
+      "adhyaya": 18,
+      "pada": 2,
+      "sutra_or_verse_num": "18.2",
+      "sanskrit_devanagari": "आत्मन्य् असति चात्मीयं कुत एव भविष्यति  /\nनिर्ममो निरहंकारः शमाद् आत्मात्मनीनयोः",
+      "sanskrit_iast": "ātmany asati cātmīyaṃ kuta eva bhaviṣyati  /\nnirmamo nirahaṃkāraḥ śamād ātmātmanīnayoḥ",
+      "source_line_start": 989,
+      "source_line_end": 991
+    },
+    {
+      "verse_id": "v_18_3",
+      "adhyaya": 18,
+      "pada": 3,
+      "sutra_or_verse_num": "18.3",
+      "sanskrit_devanagari": "निर्ममो निरहंकारो यश् च सो ऽपि न विद्यते  /\nनिर्ममं निरहंकारं यः पश्यति न पश्यति",
+      "sanskrit_iast": "nirmamo nirahaṃkāro yaś ca so 'pi na vidyate  /\nnirmamaṃ nirahaṃkāraṃ yaḥ paśyati na paśyati",
+      "source_line_start": 993,
+      "source_line_end": 995
+    },
+    {
+      "verse_id": "v_18_4",
+      "adhyaya": 18,
+      "pada": 4,
+      "sutra_or_verse_num": "18.4",
+      "sanskrit_devanagari": "ममेत्य् अहम् इति क्षीणे बहिर्धाध्यात्मम् एव च  /\nनिरुध्यत उपादानं तत्क्षयाज् जन्मनः क्षयः",
+      "sanskrit_iast": "mamety aham iti kṣīṇe bahirdhādhyātmam eva ca  /\nnirudhyata upādānaṃ tatkṣayāj janmanaḥ kṣayaḥ",
+      "source_line_start": 997,
+      "source_line_end": 999
+    },
+    {
+      "verse_id": "v_18_5",
+      "adhyaya": 18,
+      "pada": 5,
+      "sutra_or_verse_num": "18.5",
+      "sanskrit_devanagari": "कर्मक्लेशक्षयान् मोक्षः कर्मक्लेशा विकल्पतः  /\nते प्रपञ्चात् प्रपञ्चस् तु शून्यतायां निरुध्यते",
+      "sanskrit_iast": "karmakleśakṣayān mokṣaḥ karmakleśā vikalpataḥ  /\nte prapañcāt prapañcas tu śūnyatāyāṃ nirudhyate",
+      "source_line_start": 1001,
+      "source_line_end": 1003
+    },
+    {
+      "verse_id": "v_18_6",
+      "adhyaya": 18,
+      "pada": 6,
+      "sutra_or_verse_num": "18.6",
+      "sanskrit_devanagari": "आत्मेत्य् अपि प्रज्ञपितम् अनात्मेत्य् अपि देशितम्  /\nबुद्धैर् नात्मा न चानात्मा कश्चिद् इत्य् अपि देशितम्",
+      "sanskrit_iast": "ātmety api prajñapitam anātmety api deśitam  /\nbuddhair nātmā na cānātmā kaścid ity api deśitam",
+      "source_line_start": 1005,
+      "source_line_end": 1007
+    },
+    {
+      "verse_id": "v_18_7",
+      "adhyaya": 18,
+      "pada": 7,
+      "sutra_or_verse_num": "18.7",
+      "sanskrit_devanagari": "निवृत्तम् अभिधातव्यं निवृत्तश् चित्तगोचरः  /\nअनुत्पन्नानिरुद्धा हि निर्वाणम् इव धर्मता",
+      "sanskrit_iast": "nivṛttam abhidhātavyaṃ nivṛttaś cittagocaraḥ  /\nanutpannāniruddhā hi nirvāṇam iva dharmatā",
+      "source_line_start": 1009,
+      "source_line_end": 1011
+    },
+    {
+      "verse_id": "v_18_8",
+      "adhyaya": 18,
+      "pada": 8,
+      "sutra_or_verse_num": "18.8",
+      "sanskrit_devanagari": "सर्वं तथ्यं न वा तथ्यं तथ्यं चातथ्यम् एव च  /\nनैवातथ्यं नैव तथ्यम् एतद् बुद्धानुशासनम्",
+      "sanskrit_iast": "sarvaṃ tathyaṃ na vā tathyaṃ tathyaṃ cātathyam eva ca  /\nnaivātathyaṃ naiva tathyam etad buddhānuśāsanam",
+      "source_line_start": 1013,
+      "source_line_end": 1015
+    },
+    {
+      "verse_id": "v_18_9",
+      "adhyaya": 18,
+      "pada": 9,
+      "sutra_or_verse_num": "18.9",
+      "sanskrit_devanagari": "अपरप्रत्ययं शान्तं प्रपञ्चैर् अप्रपञ्चितम्  /\nनिर्विकल्पम् अनानार्थम् एतत् तत्त्वस्य लक्षणम्",
+      "sanskrit_iast": "aparapratyayaṃ śāntaṃ prapañcair aprapañcitam  /\nnirvikalpam anānārtham etat tattvasya lakṣaṇam",
+      "source_line_start": 1017,
+      "source_line_end": 1019
+    },
+    {
+      "verse_id": "v_18_10",
+      "adhyaya": 18,
+      "pada": 10,
+      "sutra_or_verse_num": "18.10",
+      "sanskrit_devanagari": "प्रतीत्य यद् यद् भवति न हि तावत् तद् एव तत्  /\nन चान्यदपि तत्तस्मान्नोच्छिन्नं नापि शाश्वतम्",
+      "sanskrit_iast": "pratītya yad yad bhavati na hi tāvat tad eva tat  /\nna cānyadapi tattasmānnocchinnaṃ nāpi śāśvatam",
+      "source_line_start": 1021,
+      "source_line_end": 1023
+    },
+    {
+      "verse_id": "v_18_11",
+      "adhyaya": 18,
+      "pada": 11,
+      "sutra_or_verse_num": "18.11",
+      "sanskrit_devanagari": "अनेकार्थम् अनानार्थम् अनुच्छेदम् अशाश्वतम्  /\nएतत् तल् लोकनाथानां बुद्धानां शासनामृतम्",
+      "sanskrit_iast": "anekārtham anānārtham anucchedam aśāśvatam  /\netat tal lokanāthānāṃ buddhānāṃ śāsanāmṛtam",
+      "source_line_start": 1025,
+      "source_line_end": 1027
+    },
+    {
+      "verse_id": "v_18_12",
+      "adhyaya": 18,
+      "pada": 12,
+      "sutra_or_verse_num": "18.12",
+      "sanskrit_devanagari": "संबुद्धानाम् अनुत्पादे श्रावकाणां पुनः क्षये  /\nज्ञानं प्रत्येकबुद्धानाम् असंसर्गात् प्रवर्तते",
+      "sanskrit_iast": "saṃbuddhānām anutpāde śrāvakāṇāṃ punaḥ kṣaye  /\njñānaṃ pratyekabuddhānām asaṃsargāt pravartate",
+      "source_line_start": 1029,
+      "source_line_end": 1031
+    },
+    {
+      "verse_id": "v_19_1",
+      "adhyaya": 19,
+      "pada": 1,
+      "sutra_or_verse_num": "19.1",
+      "sanskrit_devanagari": "***********************************************************\nप्रत्युत्पन्नो ऽनागतश् च यद्य् अतीतम् अपेक्ष्य हि  /\nप्रत्युत्पन्नो ऽनागतश् च काले ऽतीते भविष्यतः",
+      "sanskrit_iast": "***********************************************************\npratyutpanno 'nāgataś ca yady atītam apekṣya hi  /\npratyutpanno 'nāgataś ca kāle 'tīte bhaviṣyataḥ",
+      "source_line_start": 1033,
+      "source_line_end": 1037
+    },
+    {
+      "verse_id": "v_19_2",
+      "adhyaya": 19,
+      "pada": 2,
+      "sutra_or_verse_num": "19.2",
+      "sanskrit_devanagari": "प्रत्युत्पन्नो ऽनागतश् च न स्तस् तत्र पुनर् यदि  /\nप्रत्युत्पन्नो ऽनागतश् च स्यातां कथम् अपेक्ष्य तम्",
+      "sanskrit_iast": "pratyutpanno 'nāgataś ca na stas tatra punar yadi  /\npratyutpanno 'nāgataś ca syātāṃ katham apekṣya tam",
+      "source_line_start": 1039,
+      "source_line_end": 1041
+    },
+    {
+      "verse_id": "v_19_3",
+      "adhyaya": 19,
+      "pada": 3,
+      "sutra_or_verse_num": "19.3",
+      "sanskrit_devanagari": "अनपेक्ष्य पुनः सिद्धिर् नातीतं विद्यते तयोः  /\nप्रत्युत्पन्नो ऽनागतश् च तस्मात् कालो न विद्यते",
+      "sanskrit_iast": "anapekṣya punaḥ siddhir nātītaṃ vidyate tayoḥ  /\npratyutpanno 'nāgataś ca tasmāt kālo na vidyate",
+      "source_line_start": 1043,
+      "source_line_end": 1045
+    },
+    {
+      "verse_id": "v_19_4",
+      "adhyaya": 19,
+      "pada": 4,
+      "sutra_or_verse_num": "19.4",
+      "sanskrit_devanagari": "एतेनैवावशिष्टौ द्वौ क्रमेण परिवर्तकौ  /\nउत्तमाधममध्यादीन् एकत्वादींश् च लक्षयेत्",
+      "sanskrit_iast": "etenaivāvaśiṣṭau dvau krameṇa parivartakau  /\nuttamādhamamadhyādīn ekatvādīṃś ca lakṣayet",
+      "source_line_start": 1047,
+      "source_line_end": 1049
+    },
+    {
+      "verse_id": "v_19_5",
+      "adhyaya": 19,
+      "pada": 5,
+      "sutra_or_verse_num": "19.5",
+      "sanskrit_devanagari": "नास्थितो गृह्यते कालः स्थितः कालो न विद्यते  /\nयो गृह्येतागृहीतश् च कालः प्रज्ञप्यते कथम्",
+      "sanskrit_iast": "nāsthito gṛhyate kālaḥ sthitaḥ kālo na vidyate  /\nyo gṛhyetāgṛhītaś ca kālaḥ prajñapyate katham",
+      "source_line_start": 1051,
+      "source_line_end": 1053
+    },
+    {
+      "verse_id": "v_19_6",
+      "adhyaya": 19,
+      "pada": 6,
+      "sutra_or_verse_num": "19.6",
+      "sanskrit_devanagari": "भावं प्रतीत्य कालश् चेत् कालो भावाद् ऋते कुतः  /\nन च कश् चन भावो ऽस्ति कुतः कालो भविष्यति",
+      "sanskrit_iast": "bhāvaṃ pratītya kālaś cet kālo bhāvād ṛte kutaḥ  /\nna ca kaś cana bhāvo 'sti kutaḥ kālo bhaviṣyati",
+      "source_line_start": 1055,
+      "source_line_end": 1057
+    },
+    {
+      "verse_id": "v_20_1",
+      "adhyaya": 20,
+      "pada": 1,
+      "sutra_or_verse_num": "20.1",
+      "sanskrit_devanagari": "***********************************************************\nहेतोश् च प्रत्ययानां च सामग्र्या जायते यदि  /\nफलमस्ति च सामग्र्यां सामग्र्या जायते कथम्",
+      "sanskrit_iast": "***********************************************************\nhetoś ca pratyayānāṃ ca sāmagryā jāyate yadi  /\nphalamasti ca sāmagryāṃ sāmagryā jāyate katham",
+      "source_line_start": 1059,
+      "source_line_end": 1063
+    },
+    {
+      "verse_id": "v_20_2",
+      "adhyaya": 20,
+      "pada": 2,
+      "sutra_or_verse_num": "20.2",
+      "sanskrit_devanagari": "हेतोश् च प्रत्ययानां च सामग्र्या जायते यदि  /\nफलं नास्ति च सामग्र्यां सामग्र्या जायते कथम्",
+      "sanskrit_iast": "hetoś ca pratyayānāṃ ca sāmagryā jāyate yadi  /\nphalaṃ nāsti ca sāmagryāṃ sāmagryā jāyate katham",
+      "source_line_start": 1065,
+      "source_line_end": 1067
+    },
+    {
+      "verse_id": "v_20_3",
+      "adhyaya": 20,
+      "pada": 3,
+      "sutra_or_verse_num": "20.3",
+      "sanskrit_devanagari": "हेतोश् च प्रत्ययानां च सामग्र्याम् अस्ति चेत् फलम्  /\nगृह्येत ननु सामग्र्यां सामग्र्यां च न गृह्यते",
+      "sanskrit_iast": "hetoś ca pratyayānāṃ ca sāmagryām asti cet phalam  /\ngṛhyeta nanu sāmagryāṃ sāmagryāṃ ca na gṛhyate",
+      "source_line_start": 1069,
+      "source_line_end": 1071
+    },
+    {
+      "verse_id": "v_20_4",
+      "adhyaya": 20,
+      "pada": 4,
+      "sutra_or_verse_num": "20.4",
+      "sanskrit_devanagari": "हेतोश् च प्रत्ययानां च सामग्र्यां नास्ति चेत् फलम्  /\nहेतवः प्रत्ययाश् च स्युर् अहेतुप्रत्ययैः समाः",
+      "sanskrit_iast": "hetoś ca pratyayānāṃ ca sāmagryāṃ nāsti cet phalam  /\nhetavaḥ pratyayāś ca syur ahetupratyayaiḥ samāḥ",
+      "source_line_start": 1073,
+      "source_line_end": 1075
+    },
+    {
+      "verse_id": "v_20_5",
+      "adhyaya": 20,
+      "pada": 5,
+      "sutra_or_verse_num": "20.5",
+      "sanskrit_devanagari": "हेतुं फलस्य दत्त्वा च यदि हेतुर् निरुध्यते  /\nयद् दत्तं यन् निरुधं च हेतोर् आत्मद्वयं भवेत्",
+      "sanskrit_iast": "hetuṃ phalasya dattvā ca yadi hetur nirudhyate  /\nyad dattaṃ yan nirudhaṃ ca hetor ātmadvayaṃ bhavet",
+      "source_line_start": 1077,
+      "source_line_end": 1079
+    },
+    {
+      "verse_id": "v_20_6",
+      "adhyaya": 20,
+      "pada": 6,
+      "sutra_or_verse_num": "20.6",
+      "sanskrit_devanagari": "हेतुं फलस्यादत्त्वा च यदि हेतुर् निरुध्यते  /\nहेतौ निरुद्धे जातं तत् फलम् आहेतुकं भवेत्",
+      "sanskrit_iast": "hetuṃ phalasyādattvā ca yadi hetur nirudhyate  /\nhetau niruddhe jātaṃ tat phalam āhetukaṃ bhavet",
+      "source_line_start": 1081,
+      "source_line_end": 1083
+    },
+    {
+      "verse_id": "v_20_7",
+      "adhyaya": 20,
+      "pada": 7,
+      "sutra_or_verse_num": "20.7",
+      "sanskrit_devanagari": "फलं सहैव सामग्र्या यदि प्रादुर्भवेत् पुनः  /\nएककालौ प्रसज्येते जनको यश् च जन्यते",
+      "sanskrit_iast": "phalaṃ sahaiva sāmagryā yadi prādurbhavet punaḥ  /\nekakālau prasajyete janako yaś ca janyate",
+      "source_line_start": 1085,
+      "source_line_end": 1087
+    },
+    {
+      "verse_id": "v_20_8",
+      "adhyaya": 20,
+      "pada": 8,
+      "sutra_or_verse_num": "20.8",
+      "sanskrit_devanagari": "पूर्वम् एव च सामग्र्याः फलं प्रादुर्भवेद् यदि  /\nहेतुप्रत्ययनिर्मुक्तं फलम् आहेतुकं भवेत्",
+      "sanskrit_iast": "pūrvam eva ca sāmagryāḥ phalaṃ prādurbhaved yadi  /\nhetupratyayanirmuktaṃ phalam āhetukaṃ bhavet",
+      "source_line_start": 1089,
+      "source_line_end": 1091
+    },
+    {
+      "verse_id": "v_20_9",
+      "adhyaya": 20,
+      "pada": 9,
+      "sutra_or_verse_num": "20.9",
+      "sanskrit_devanagari": "निरुद्धे चेत् फलं हेतौ हेतोः संक्रमणं भवेत्  /\nपूर्वजातस्य हेतोश् च पुनर्जन्म प्रसज्यते",
+      "sanskrit_iast": "niruddhe cet phalaṃ hetau hetoḥ saṃkramaṇaṃ bhavet  /\npūrvajātasya hetoś ca punarjanma prasajyate",
+      "source_line_start": 1093,
+      "source_line_end": 1095
+    },
+    {
+      "verse_id": "v_20_10",
+      "adhyaya": 20,
+      "pada": 10,
+      "sutra_or_verse_num": "20.10",
+      "sanskrit_devanagari": "जनयेत् फलम् उत्पन्नं निरुद्धो ऽस्तंगतः कथम्  /\nहेतुस् तिष्ठन्न् अपि कथं फलेन जनयेद् वृतः",
+      "sanskrit_iast": "janayet phalam utpannaṃ niruddho 'staṃgataḥ katham  /\nhetus tiṣṭhann api kathaṃ phalena janayed vṛtaḥ",
+      "source_line_start": 1097,
+      "source_line_end": 1099
+    },
+    {
+      "verse_id": "v_20_11",
+      "adhyaya": 20,
+      "pada": 11,
+      "sutra_or_verse_num": "20.11",
+      "sanskrit_devanagari": "अथावृतः फलेनासौ कतमज् जनयेत् फलम्  /\nन ह्य् अदृष्ट्वा न दृष्ट्वापि हेतुर् जनयते फलम्",
+      "sanskrit_iast": "athāvṛtaḥ phalenāsau katamaj janayet phalam  /\nna hy adṛṣṭvā na dṛṣṭvāpi hetur janayate phalam",
+      "source_line_start": 1101,
+      "source_line_end": 1103
+    },
+    {
+      "verse_id": "v_20_12",
+      "adhyaya": 20,
+      "pada": 12,
+      "sutra_or_verse_num": "20.12",
+      "sanskrit_devanagari": "नातीतस्य ह्य् अतीतेन फलस्य सह हेतुना  /\nनाजातेन न जातेन संगतिर् जातु विद्यते",
+      "sanskrit_iast": "nātītasya hy atītena phalasya saha hetunā  /\nnājātena na jātena saṃgatir jātu vidyate",
+      "source_line_start": 1105,
+      "source_line_end": 1107
+    },
+    {
+      "verse_id": "v_20_13",
+      "adhyaya": 20,
+      "pada": 13,
+      "sutra_or_verse_num": "20.13",
+      "sanskrit_devanagari": "न जातस्य ह्य् अजातेन फलस्य सह हेतुना  /\nनातीतेन न जातेन संगतिर् जातु विद्यते",
+      "sanskrit_iast": "na jātasya hy ajātena phalasya saha hetunā  /\nnātītena na jātena saṃgatir jātu vidyate",
+      "source_line_start": 1109,
+      "source_line_end": 1111
+    },
+    {
+      "verse_id": "v_20_14",
+      "adhyaya": 20,
+      "pada": 14,
+      "sutra_or_verse_num": "20.14",
+      "sanskrit_devanagari": "नाजातस्य हि जातेन फलस्य सह हेतुना  /\nनाजातेन न नष्टेन संगतिर् जातु विद्यते",
+      "sanskrit_iast": "nājātasya hi jātena phalasya saha hetunā  /\nnājātena na naṣṭena saṃgatir jātu vidyate",
+      "source_line_start": 1113,
+      "source_line_end": 1115
+    },
+    {
+      "verse_id": "v_20_15",
+      "adhyaya": 20,
+      "pada": 15,
+      "sutra_or_verse_num": "20.15",
+      "sanskrit_devanagari": "असत्यां संगतौ हेतुः कथं जनयते फलम्  /\nसत्यां वा संगतौ हेतुः कथं जनयते फलम्",
+      "sanskrit_iast": "asatyāṃ saṃgatau hetuḥ kathaṃ janayate phalam  /\nsatyāṃ vā saṃgatau hetuḥ kathaṃ janayate phalam",
+      "source_line_start": 1117,
+      "source_line_end": 1119
+    },
+    {
+      "verse_id": "v_20_16",
+      "adhyaya": 20,
+      "pada": 16,
+      "sutra_or_verse_num": "20.16",
+      "sanskrit_devanagari": "हेतुः फलेन शून्यश् चेत् कथं जनयते फलम्  /\nहेतुः फलेनाशून्यश् चेत् कथं जनयते फलम्",
+      "sanskrit_iast": "hetuḥ phalena śūnyaś cet kathaṃ janayate phalam  /\nhetuḥ phalenāśūnyaś cet kathaṃ janayate phalam",
+      "source_line_start": 1121,
+      "source_line_end": 1123
+    },
+    {
+      "verse_id": "v_20_17",
+      "adhyaya": 20,
+      "pada": 17,
+      "sutra_or_verse_num": "20.17",
+      "sanskrit_devanagari": "फलं नोत्पत्स्यते ऽशून्यम् अशून्यं न निरोत्स्यते  /\nअनिरुद्धम् अनुत्पन्नम् अशून्यं तद् भविष्यति",
+      "sanskrit_iast": "phalaṃ notpatsyate 'śūnyam aśūnyaṃ na nirotsyate  /\naniruddham anutpannam aśūnyaṃ tad bhaviṣyati",
+      "source_line_start": 1125,
+      "source_line_end": 1127
+    },
+    {
+      "verse_id": "v_20_18",
+      "adhyaya": 20,
+      "pada": 18,
+      "sutra_or_verse_num": "20.18",
+      "sanskrit_devanagari": "कथम् उत्पत्स्यते शून्यं कथं शून्यं निरोत्स्यते  /\nशून्यम् अप्य् अनिरुद्धं तद् अनुत्पन्नं प्रसज्यते",
+      "sanskrit_iast": "katham utpatsyate śūnyaṃ kathaṃ śūnyaṃ nirotsyate  /\nśūnyam apy aniruddhaṃ tad anutpannaṃ prasajyate",
+      "source_line_start": 1129,
+      "source_line_end": 1131
+    },
+    {
+      "verse_id": "v_20_19",
+      "adhyaya": 20,
+      "pada": 19,
+      "sutra_or_verse_num": "20.19",
+      "sanskrit_devanagari": "हेतोः फलस्य चैकत्वं न हि जातूपपद्यते  /\nहेतोः फलस्य चान्यत्वं न हि जातूपपद्यते",
+      "sanskrit_iast": "hetoḥ phalasya caikatvaṃ na hi jātūpapadyate  /\nhetoḥ phalasya cānyatvaṃ na hi jātūpapadyate",
+      "source_line_start": 1133,
+      "source_line_end": 1135
+    },
+    {
+      "verse_id": "v_20_20",
+      "adhyaya": 20,
+      "pada": 20,
+      "sutra_or_verse_num": "20.20",
+      "sanskrit_devanagari": "एकत्वे फलहेत्वोः स्याद् ऐक्यं जनकजन्ययोः  /\nपृथक्त्वे फलहेत्वोः स्यात् तुल्यो हेतुर् अहेतुना",
+      "sanskrit_iast": "ekatve phalahetvoḥ syād aikyaṃ janakajanyayoḥ  /\npṛthaktve phalahetvoḥ syāt tulyo hetur ahetunā",
+      "source_line_start": 1137,
+      "source_line_end": 1139
+    },
+    {
+      "verse_id": "v_20_21",
+      "adhyaya": 20,
+      "pada": 21,
+      "sutra_or_verse_num": "20.21",
+      "sanskrit_devanagari": "फलं स्वभावसद्भूतं किं हेतुर् जनयिष्यति  /\nफलं स्वभावासद्भूतं किं हेतुर् जनयिष्यति",
+      "sanskrit_iast": "phalaṃ svabhāvasadbhūtaṃ kiṃ hetur janayiṣyati  /\nphalaṃ svabhāvāsadbhūtaṃ kiṃ hetur janayiṣyati",
+      "source_line_start": 1141,
+      "source_line_end": 1143
+    },
+    {
+      "verse_id": "v_20_22",
+      "adhyaya": 20,
+      "pada": 22,
+      "sutra_or_verse_num": "20.22",
+      "sanskrit_devanagari": "न चाजनयमानस्य हेतुत्वम् उपपद्यते  /\nहेतुत्वानुपपत्तौ च फलं कस्य भविष्यति",
+      "sanskrit_iast": "na cājanayamānasya hetutvam upapadyate  /\nhetutvānupapattau ca phalaṃ kasya bhaviṣyati",
+      "source_line_start": 1145,
+      "source_line_end": 1147
+    },
+    {
+      "verse_id": "v_20_23",
+      "adhyaya": 20,
+      "pada": 23,
+      "sutra_or_verse_num": "20.23",
+      "sanskrit_devanagari": "न च प्रत्ययहेतूनाम् इयम् आत्मानम् आत्मना  /\nया सामग्री जनयते सा कथं जनयेत् फलम्",
+      "sanskrit_iast": "na ca pratyayahetūnām iyam ātmānam ātmanā  /\nyā sāmagrī janayate sā kathaṃ janayet phalam",
+      "source_line_start": 1149,
+      "source_line_end": 1151
+    },
+    {
+      "verse_id": "v_20_24",
+      "adhyaya": 20,
+      "pada": 24,
+      "sutra_or_verse_num": "20.24",
+      "sanskrit_devanagari": "न सामग्रीकृतं फलं नासामग्रीकृतं फलम्  /\nअस्ति प्रत्ययसामग्री कुत एव फलं विना",
+      "sanskrit_iast": "na sāmagrīkṛtaṃ phalaṃ nāsāmagrīkṛtaṃ phalam  /\nasti pratyayasāmagrī kuta eva phalaṃ vinā",
+      "source_line_start": 1153,
+      "source_line_end": 1155
+    },
+    {
+      "verse_id": "v_21_1",
+      "adhyaya": 21,
+      "pada": 1,
+      "sutra_or_verse_num": "21.1",
+      "sanskrit_devanagari": "***********************************************************\nविना वा सह वा नास्ति विभवः संभवेन वै  /\nविना वा सह वा नास्ति संभवो विभवेन वै",
+      "sanskrit_iast": "***********************************************************\nvinā vā saha vā nāsti vibhavaḥ saṃbhavena vai  /\nvinā vā saha vā nāsti saṃbhavo vibhavena vai",
+      "source_line_start": 1157,
+      "source_line_end": 1161
+    },
+    {
+      "verse_id": "v_21_2",
+      "adhyaya": 21,
+      "pada": 2,
+      "sutra_or_verse_num": "21.2",
+      "sanskrit_devanagari": "भविष्यति कथं नाम विभवः संभवं विना  /\nविनैव जन्म मरणं विभवो नोद्भवं विना",
+      "sanskrit_iast": "bhaviṣyati kathaṃ nāma vibhavaḥ saṃbhavaṃ vinā  /\nvinaiva janma maraṇaṃ vibhavo nodbhavaṃ vinā",
+      "source_line_start": 1163,
+      "source_line_end": 1165
+    },
+    {
+      "verse_id": "v_21_3",
+      "adhyaya": 21,
+      "pada": 3,
+      "sutra_or_verse_num": "21.3",
+      "sanskrit_devanagari": "संभवेनैव विभवः कथं सह भविष्यति  /\nन जन्म मरणं चैवं तुल्यकालं हि विद्यते",
+      "sanskrit_iast": "saṃbhavenaiva vibhavaḥ kathaṃ saha bhaviṣyati  /\nna janma maraṇaṃ caivaṃ tulyakālaṃ hi vidyate",
+      "source_line_start": 1167,
+      "source_line_end": 1169
+    },
+    {
+      "verse_id": "v_21_4",
+      "adhyaya": 21,
+      "pada": 4,
+      "sutra_or_verse_num": "21.4",
+      "sanskrit_devanagari": "भविष्यति कथं नाम संभवो विभवं विना  /\nअनित्यता हि भावेषु न कदाचिन् न विद्यते",
+      "sanskrit_iast": "bhaviṣyati kathaṃ nāma saṃbhavo vibhavaṃ vinā  /\nanityatā hi bhāveṣu na kadācin na vidyate",
+      "source_line_start": 1171,
+      "source_line_end": 1173
+    },
+    {
+      "verse_id": "v_21_5",
+      "adhyaya": 21,
+      "pada": 5,
+      "sutra_or_verse_num": "21.5",
+      "sanskrit_devanagari": "संभवो विभवेनैव कथं सह भविष्यति  /\nन जन्म मरणं चैव तुल्यकालं हि विद्यते",
+      "sanskrit_iast": "saṃbhavo vibhavenaiva kathaṃ saha bhaviṣyati  /\nna janma maraṇaṃ caiva tulyakālaṃ hi vidyate",
+      "source_line_start": 1175,
+      "source_line_end": 1177
+    },
+    {
+      "verse_id": "v_21_6",
+      "adhyaya": 21,
+      "pada": 6,
+      "sutra_or_verse_num": "21.6",
+      "sanskrit_devanagari": "सहान्योन्येन वा सिद्धिर् विनान्योन्येन वा ययोः  /\nन विद्यते तयोः सिद्धिः कथं नु खलु विद्यते",
+      "sanskrit_iast": "sahānyonyena vā siddhir vinānyonyena vā yayoḥ  /\nna vidyate tayoḥ siddhiḥ kathaṃ nu khalu vidyate",
+      "source_line_start": 1179,
+      "source_line_end": 1181
+    },
+    {
+      "verse_id": "v_21_7",
+      "adhyaya": 21,
+      "pada": 7,
+      "sutra_or_verse_num": "21.7",
+      "sanskrit_devanagari": "क्षयस्य संभवो नास्ति नाक्षयस्यास्ति संभवः  /\nक्षयस्य विभवो नास्ति विभवो नाक्षयस्य च",
+      "sanskrit_iast": "kṣayasya saṃbhavo nāsti nākṣayasyāsti saṃbhavaḥ  /\nkṣayasya vibhavo nāsti vibhavo nākṣayasya ca",
+      "source_line_start": 1183,
+      "source_line_end": 1185
+    },
+    {
+      "verse_id": "v_21_8",
+      "adhyaya": 21,
+      "pada": 8,
+      "sutra_or_verse_num": "21.8",
+      "sanskrit_devanagari": "संभवो विभवश् चैव विना भावं न विद्यते  /\nसंभवं विभवं चैव विना भावो न विद्यते",
+      "sanskrit_iast": "saṃbhavo vibhavaś caiva vinā bhāvaṃ na vidyate  /\nsaṃbhavaṃ vibhavaṃ caiva vinā bhāvo na vidyate",
+      "source_line_start": 1187,
+      "source_line_end": 1189
+    },
+    {
+      "verse_id": "v_21_9",
+      "adhyaya": 21,
+      "pada": 9,
+      "sutra_or_verse_num": "21.9",
+      "sanskrit_devanagari": "संभवो विभवश् चैव न शून्यस्योपपद्यते  /\nसंभवो विभवश् चैव नाशून्यस्योपपद्यते",
+      "sanskrit_iast": "saṃbhavo vibhavaś caiva na śūnyasyopapadyate  /\nsaṃbhavo vibhavaś caiva nāśūnyasyopapadyate",
+      "source_line_start": 1191,
+      "source_line_end": 1193
+    },
+    {
+      "verse_id": "v_21_10",
+      "adhyaya": 21,
+      "pada": 10,
+      "sutra_or_verse_num": "21.10",
+      "sanskrit_devanagari": "संभवो विभवश् चैव नैक इत्य् उपपद्यते  /\nसंभवो विभवश् चैव न नानेत्य् उपपद्यते",
+      "sanskrit_iast": "saṃbhavo vibhavaś caiva naika ity upapadyate  /\nsaṃbhavo vibhavaś caiva na nānety upapadyate",
+      "source_line_start": 1195,
+      "source_line_end": 1197
+    },
+    {
+      "verse_id": "v_21_11",
+      "adhyaya": 21,
+      "pada": 11,
+      "sutra_or_verse_num": "21.11",
+      "sanskrit_devanagari": "दृश्यते संभवश्चैव विभवश् चैव ते भवेत्  /\nदृश्यते संभवश्चैव मोहाद् विभव एव च",
+      "sanskrit_iast": "dṛśyate saṃbhavaścaiva vibhavaś caiva te bhavet  /\ndṛśyate saṃbhavaścaiva mohād vibhava eva ca",
+      "source_line_start": 1199,
+      "source_line_end": 1201
+    },
+    {
+      "verse_id": "v_21_12",
+      "adhyaya": 21,
+      "pada": 12,
+      "sutra_or_verse_num": "21.12",
+      "sanskrit_devanagari": "न भावाज् जायते भावो भावो ऽभावान् न जायते  /\nनाभावाज् जायते ऽभावो ऽभावो भावान् न जायते",
+      "sanskrit_iast": "na bhāvāj jāyate bhāvo bhāvo 'bhāvān na jāyate  /\nnābhāvāj jāyate 'bhāvo 'bhāvo bhāvān na jāyate",
+      "source_line_start": 1203,
+      "source_line_end": 1205
+    },
+    {
+      "verse_id": "v_21_13",
+      "adhyaya": 21,
+      "pada": 13,
+      "sutra_or_verse_num": "21.13",
+      "sanskrit_devanagari": "न स्वतो जायते भावः परतो नैव जायते  /\nन स्वतः परतश् चैव जायते जायते कुतः",
+      "sanskrit_iast": "na svato jāyate bhāvaḥ parato naiva jāyate  /\nna svataḥ parataś caiva jāyate jāyate kutaḥ",
+      "source_line_start": 1207,
+      "source_line_end": 1209
+    },
+    {
+      "verse_id": "v_21_14",
+      "adhyaya": 21,
+      "pada": 14,
+      "sutra_or_verse_num": "21.14",
+      "sanskrit_devanagari": "भावम् अभ्युपपन्नस्य शाश्वतोच्छेददर्शनम्  /\nप्रसज्यते स भावो हि नित्यो ऽनित्यो ऽथ वा भवेत्",
+      "sanskrit_iast": "bhāvam abhyupapannasya śāśvatocchedadarśanam  /\nprasajyate sa bhāvo hi nityo 'nityo 'tha vā bhavet",
+      "source_line_start": 1211,
+      "source_line_end": 1213
+    },
+    {
+      "verse_id": "v_21_15",
+      "adhyaya": 21,
+      "pada": 15,
+      "sutra_or_verse_num": "21.15",
+      "sanskrit_devanagari": "भावम् अभ्युपपन्नस्य नैवोच्छेदो न शाश्वतम्  /\nउदयव्ययसंतानः फलहेत्वोर् भवः स हि",
+      "sanskrit_iast": "bhāvam abhyupapannasya naivocchedo na śāśvatam  /\nudayavyayasaṃtānaḥ phalahetvor bhavaḥ sa hi",
+      "source_line_start": 1215,
+      "source_line_end": 1217
+    },
+    {
+      "verse_id": "v_21_16",
+      "adhyaya": 21,
+      "pada": 16,
+      "sutra_or_verse_num": "21.16",
+      "sanskrit_devanagari": "उदयव्ययसंतानः फलहेत्वोर् भवः स चेत्  /\nव्ययस्यापुनरुत्पत्तेर् हेतूच्छेदः प्रसज्यते",
+      "sanskrit_iast": "udayavyayasaṃtānaḥ phalahetvor bhavaḥ sa cet  /\nvyayasyāpunarutpatter hetūcchedaḥ prasajyate",
+      "source_line_start": 1219,
+      "source_line_end": 1221
+    },
+    {
+      "verse_id": "v_21_17",
+      "adhyaya": 21,
+      "pada": 17,
+      "sutra_or_verse_num": "21.17",
+      "sanskrit_devanagari": "सद्भावस्य स्वभावेन नासद्भावश् च युज्यते  /\nनिर्वाणकाले चोच्छेदः प्रशमाद् भवसंततेः",
+      "sanskrit_iast": "sadbhāvasya svabhāvena nāsadbhāvaś ca yujyate  /\nnirvāṇakāle cocchedaḥ praśamād bhavasaṃtateḥ",
+      "source_line_start": 1223,
+      "source_line_end": 1225
+    },
+    {
+      "verse_id": "v_21_18",
+      "adhyaya": 21,
+      "pada": 18,
+      "sutra_or_verse_num": "21.18",
+      "sanskrit_devanagari": "चरमे न निरुद्धे च प्रथमो युज्यते भवः  /\nचरमे नानिरुद्धे च प्रथमो युज्यते भवः",
+      "sanskrit_iast": "carame na niruddhe ca prathamo yujyate bhavaḥ  /\ncarame nāniruddhe ca prathamo yujyate bhavaḥ",
+      "source_line_start": 1227,
+      "source_line_end": 1229
+    },
+    {
+      "verse_id": "v_21_19",
+      "adhyaya": 21,
+      "pada": 19,
+      "sutra_or_verse_num": "21.19",
+      "sanskrit_devanagari": "निरुध्यमाने चरमे प्रथमो यदि जायते  /\nनिरुध्यमान एकः स्याज् जायमानो ऽपरो भवेत्",
+      "sanskrit_iast": "nirudhyamāne carame prathamo yadi jāyate  /\nnirudhyamāna ekaḥ syāj jāyamāno 'paro bhavet",
+      "source_line_start": 1231,
+      "source_line_end": 1233
+    },
+    {
+      "verse_id": "v_21_20",
+      "adhyaya": 21,
+      "pada": 20,
+      "sutra_or_verse_num": "21.20",
+      "sanskrit_devanagari": "न चेन् निरुध्यमानश् च जायमानश् च युज्यते  /\nसार्धं च म्रियते येषु तेषु स्कन्धेषु जायते",
+      "sanskrit_iast": "na cen nirudhyamānaś ca jāyamānaś ca yujyate  /\nsārdhaṃ ca mriyate yeṣu teṣu skandheṣu jāyate",
+      "source_line_start": 1235,
+      "source_line_end": 1237
+    },
+    {
+      "verse_id": "v_21_21",
+      "adhyaya": 21,
+      "pada": 21,
+      "sutra_or_verse_num": "21.21",
+      "sanskrit_devanagari": "एवं त्रिष्व् अपि कालेषु न युक्ता भवसंततिः  /\nत्रिषु कालेषु या नास्ति सा कथं भवसंततिः",
+      "sanskrit_iast": "evaṃ triṣv api kāleṣu na yuktā bhavasaṃtatiḥ  /\ntriṣu kāleṣu yā nāsti sā kathaṃ bhavasaṃtatiḥ",
+      "source_line_start": 1239,
+      "source_line_end": 1241
+    },
+    {
+      "verse_id": "v_22_1",
+      "adhyaya": 22,
+      "pada": 1,
+      "sutra_or_verse_num": "22.1",
+      "sanskrit_devanagari": "***********************************************************\nस्कन्धा न नान्यः स्कन्धेभ्यो नास्मिन् स्कन्धा न तेषु सः  /\nतथागतः स्कन्धवान् न कतमो ऽत्र तथागतः",
+      "sanskrit_iast": "***********************************************************\nskandhā na nānyaḥ skandhebhyo nāsmin skandhā na teṣu saḥ  /\ntathāgataḥ skandhavān na katamo 'tra tathāgataḥ",
+      "source_line_start": 1243,
+      "source_line_end": 1247
+    },
+    {
+      "verse_id": "v_22_2",
+      "adhyaya": 22,
+      "pada": 2,
+      "sutra_or_verse_num": "22.2",
+      "sanskrit_devanagari": "बुद्धः स्कन्धान् उपादाय यदि नास्ति स्वभावतः  /\nस्वभावतश् च यो नास्ति कुतः स परभावतः",
+      "sanskrit_iast": "buddhaḥ skandhān upādāya yadi nāsti svabhāvataḥ  /\nsvabhāvataś ca yo nāsti kutaḥ sa parabhāvataḥ",
+      "source_line_start": 1249,
+      "source_line_end": 1251
+    },
+    {
+      "verse_id": "v_22_3",
+      "adhyaya": 22,
+      "pada": 3,
+      "sutra_or_verse_num": "22.3",
+      "sanskrit_devanagari": "प्रतीत्य परभावं यः सो ऽनात्मेत्य् उपपद्यते  /\nयश् चानात्मा स च कथं भविष्यति तथागतः",
+      "sanskrit_iast": "pratītya parabhāvaṃ yaḥ so 'nātmety upapadyate  /\nyaś cānātmā sa ca kathaṃ bhaviṣyati tathāgataḥ",
+      "source_line_start": 1253,
+      "source_line_end": 1255
+    },
+    {
+      "verse_id": "v_22_4",
+      "adhyaya": 22,
+      "pada": 4,
+      "sutra_or_verse_num": "22.4",
+      "sanskrit_devanagari": "यदि नास्ति स्वभावश् च परभावः कथं भवेत्  /\nस्वभावपरभावाभ्याम् ऋते कः स तथागतः",
+      "sanskrit_iast": "yadi nāsti svabhāvaś ca parabhāvaḥ kathaṃ bhavet  /\nsvabhāvaparabhāvābhyām ṛte kaḥ sa tathāgataḥ",
+      "source_line_start": 1257,
+      "source_line_end": 1259
+    },
+    {
+      "verse_id": "v_22_5",
+      "adhyaya": 22,
+      "pada": 5,
+      "sutra_or_verse_num": "22.5",
+      "sanskrit_devanagari": "स्कन्धान् यद्य् अनुपादाय भवेत् कश्चित् तथागतः  /\nस इदानीम् उपादद्याद् उपादाय ततो भवेत्",
+      "sanskrit_iast": "skandhān yady anupādāya bhavet kaścit tathāgataḥ  /\nsa idānīm upādadyād upādāya tato bhavet",
+      "source_line_start": 1261,
+      "source_line_end": 1263
+    },
+    {
+      "verse_id": "v_22_6",
+      "adhyaya": 22,
+      "pada": 6,
+      "sutra_or_verse_num": "22.6",
+      "sanskrit_devanagari": "स्कन्धांश् चाप्य् अनुपादाय नास्ति कश्चित् तथागतः  /\nयश् च नास्त्य् अनुपादाय स उपादास्यते कथम्",
+      "sanskrit_iast": "skandhāṃś cāpy anupādāya nāsti kaścit tathāgataḥ  /\nyaś ca nāsty anupādāya sa upādāsyate katham",
+      "source_line_start": 1265,
+      "source_line_end": 1267
+    },
+    {
+      "verse_id": "v_22_7",
+      "adhyaya": 22,
+      "pada": 7,
+      "sutra_or_verse_num": "22.7",
+      "sanskrit_devanagari": "न भवत्य् अनुपादत्तम् उपादानं च किं चन  /\nन चास्ति निरुपादानः कथं चन तथागतः",
+      "sanskrit_iast": "na bhavaty anupādattam upādānaṃ ca kiṃ cana  /\nna cāsti nirupādānaḥ kathaṃ cana tathāgataḥ",
+      "source_line_start": 1269,
+      "source_line_end": 1271
+    },
+    {
+      "verse_id": "v_22_8",
+      "adhyaya": 22,
+      "pada": 8,
+      "sutra_or_verse_num": "22.8",
+      "sanskrit_devanagari": "तत्त्वान्यत्वेन यो नास्ति मृग्यमाणश् च पञ्चधा  /\nउपादानेन स कथं प्रज्ञप्यते तथागतः",
+      "sanskrit_iast": "tattvānyatvena yo nāsti mṛgyamāṇaś ca pañcadhā  /\nupādānena sa kathaṃ prajñapyate tathāgataḥ",
+      "source_line_start": 1273,
+      "source_line_end": 1275
+    },
+    {
+      "verse_id": "v_22_9",
+      "adhyaya": 22,
+      "pada": 9,
+      "sutra_or_verse_num": "22.9",
+      "sanskrit_devanagari": "यद् अपीदम् उपादानं तत् स्वभावान् न विद्यते  /\nस्वभावतश् च यन् नास्ति कुतस् तत् परभावतः",
+      "sanskrit_iast": "yad apīdam upādānaṃ tat svabhāvān na vidyate  /\nsvabhāvataś ca yan nāsti kutas tat parabhāvataḥ",
+      "source_line_start": 1277,
+      "source_line_end": 1279
+    },
+    {
+      "verse_id": "v_22_10",
+      "adhyaya": 22,
+      "pada": 10,
+      "sutra_or_verse_num": "22.10",
+      "sanskrit_devanagari": "एवं शून्यम् उपादानम् उपादाता च सर्वशः  /\nप्रज्ञप्यते च शून्येन कथं शून्यस् तथागतः",
+      "sanskrit_iast": "evaṃ śūnyam upādānam upādātā ca sarvaśaḥ  /\nprajñapyate ca śūnyena kathaṃ śūnyas tathāgataḥ",
+      "source_line_start": 1281,
+      "source_line_end": 1283
+    },
+    {
+      "verse_id": "v_22_11",
+      "adhyaya": 22,
+      "pada": 11,
+      "sutra_or_verse_num": "22.11",
+      "sanskrit_devanagari": "शून्यम् इति न वक्तव्यम् अशून्यम् इति वा भवेत्  /\nउभयं नोभयं चेति प्रज्ञप्त्यर्थं तु कथ्यते",
+      "sanskrit_iast": "śūnyam iti na vaktavyam aśūnyam iti vā bhavet  /\nubhayaṃ nobhayaṃ ceti prajñaptyarthaṃ tu kathyate",
+      "source_line_start": 1285,
+      "source_line_end": 1287
+    },
+    {
+      "verse_id": "v_22_12",
+      "adhyaya": 22,
+      "pada": 12,
+      "sutra_or_verse_num": "22.12",
+      "sanskrit_devanagari": "शाश्वताशाश्वताद्य् अत्र कुतः शान्ते चतुष्टयम्  /\nअन्तानन्तादि चाप्य् अत्र कुतः शान्ते चतुष्टयम्",
+      "sanskrit_iast": "śāśvatāśāśvatādy atra kutaḥ śānte catuṣṭayam  /\nantānantādi cāpy atra kutaḥ śānte catuṣṭayam",
+      "source_line_start": 1289,
+      "source_line_end": 1291
+    },
+    {
+      "verse_id": "v_22_13",
+      "adhyaya": 22,
+      "pada": 13,
+      "sutra_or_verse_num": "22.13",
+      "sanskrit_devanagari": "घनग्राहो गृहीतस् तु येनास्तीति तथागतः  /\nनास्तीति स विकल्पयन् निर्वृतस्यापि कल्पयेत्",
+      "sanskrit_iast": "ghanagrāho gṛhītas tu yenāstīti tathāgataḥ  /\nnāstīti sa vikalpayan nirvṛtasyāpi kalpayet",
+      "source_line_start": 1293,
+      "source_line_end": 1295
+    },
+    {
+      "verse_id": "v_22_14",
+      "adhyaya": 22,
+      "pada": 14,
+      "sutra_or_verse_num": "22.14",
+      "sanskrit_devanagari": "स्वभावतश् च शून्ये ऽस्मिंश् चिन्ता नैवोपपद्यते  /\nपरं निरोधाद् भवति बुद्धो न भवतीति वा",
+      "sanskrit_iast": "svabhāvataś ca śūnye 'smiṃś cintā naivopapadyate  /\nparaṃ nirodhād bhavati buddho na bhavatīti vā",
+      "source_line_start": 1297,
+      "source_line_end": 1299
+    },
+    {
+      "verse_id": "v_22_15",
+      "adhyaya": 22,
+      "pada": 15,
+      "sutra_or_verse_num": "22.15",
+      "sanskrit_devanagari": "प्रपञ्चयन्ति ये बुद्धं प्रपञ्चातीतम् अव्ययम्  /\nते प्रपञ्चहताः सर्वे न पश्यन्ति तथागतम्",
+      "sanskrit_iast": "prapañcayanti ye buddhaṃ prapañcātītam avyayam  /\nte prapañcahatāḥ sarve na paśyanti tathāgatam",
+      "source_line_start": 1301,
+      "source_line_end": 1303
+    },
+    {
+      "verse_id": "v_22_16",
+      "adhyaya": 22,
+      "pada": 16,
+      "sutra_or_verse_num": "22.16",
+      "sanskrit_devanagari": "तथागतो यत्स्वभावस् तत्स्वभावम् इदं जगत्  /\nतथागतो निःस्वभावो निःस्वभावम् इदं जगत्",
+      "sanskrit_iast": "tathāgato yatsvabhāvas tatsvabhāvam idaṃ jagat  /\ntathāgato niḥsvabhāvo niḥsvabhāvam idaṃ jagat",
+      "source_line_start": 1305,
+      "source_line_end": 1307
+    },
+    {
+      "verse_id": "v_23_1",
+      "adhyaya": 23,
+      "pada": 1,
+      "sutra_or_verse_num": "23.1",
+      "sanskrit_devanagari": "***********************************************************\nसंकल्पप्रभवो रागो द्वेषो मोहश् च कथ्यते  /\nशुभाशुभविपर्यासान् संभवन्ति प्रतीत्य हि",
+      "sanskrit_iast": "***********************************************************\nsaṃkalpaprabhavo rāgo dveṣo mohaś ca kathyate  /\nśubhāśubhaviparyāsān saṃbhavanti pratītya hi",
+      "source_line_start": 1309,
+      "source_line_end": 1313
+    },
+    {
+      "verse_id": "v_23_2",
+      "adhyaya": 23,
+      "pada": 2,
+      "sutra_or_verse_num": "23.2",
+      "sanskrit_devanagari": "शुभाशुभविपर्यासान् संभवन्ति प्रतीत्य ये  /\nते स्वभावान् न विद्यन्ते तस्मात् क्लेशा न तत्त्वतः",
+      "sanskrit_iast": "śubhāśubhaviparyāsān saṃbhavanti pratītya ye  /\nte svabhāvān na vidyante tasmāt kleśā na tattvataḥ",
+      "source_line_start": 1315,
+      "source_line_end": 1317
+    },
+    {
+      "verse_id": "v_23_3",
+      "adhyaya": 23,
+      "pada": 3,
+      "sutra_or_verse_num": "23.3",
+      "sanskrit_devanagari": "आत्मनो ऽस्तित्वनास्तित्वे न कथं चिच् च सिध्यतः  /\nतं विनास्तित्वनास्तित्वे क्लेशानां सिध्यतः कथम्",
+      "sanskrit_iast": "ātmano 'stitvanāstitve na kathaṃ cic ca sidhyataḥ  /\ntaṃ vināstitvanāstitve kleśānāṃ sidhyataḥ katham",
+      "source_line_start": 1319,
+      "source_line_end": 1321
+    },
+    {
+      "verse_id": "v_23_4",
+      "adhyaya": 23,
+      "pada": 4,
+      "sutra_or_verse_num": "23.4",
+      "sanskrit_devanagari": "कस्य चिद् धि भवन्तीमे क्लेशाः स च न सिध्यति  /\nकश्चिद् आहो विना कंचित् सन्ति क्लेशा न कस्यचित्",
+      "sanskrit_iast": "kasya cid dhi bhavantīme kleśāḥ sa ca na sidhyati  /\nkaścid āho vinā kaṃcit santi kleśā na kasyacit",
+      "source_line_start": 1323,
+      "source_line_end": 1325
+    },
+    {
+      "verse_id": "v_23_5",
+      "adhyaya": 23,
+      "pada": 5,
+      "sutra_or_verse_num": "23.5",
+      "sanskrit_devanagari": "स्वकायदृष्टिवत् क्लेशाः क्लिष्टे सन्ति न पञ्चधा  /\nस्वकायदृष्टिवत् क्लिष्टं क्लेशेष्व् अपि न पञ्चधा",
+      "sanskrit_iast": "svakāyadṛṣṭivat kleśāḥ kliṣṭe santi na pañcadhā  /\nsvakāyadṛṣṭivat kliṣṭaṃ kleśeṣv api na pañcadhā",
+      "source_line_start": 1327,
+      "source_line_end": 1329
+    },
+    {
+      "verse_id": "v_23_6",
+      "adhyaya": 23,
+      "pada": 6,
+      "sutra_or_verse_num": "23.6",
+      "sanskrit_devanagari": "स्वभावतो न विद्यन्ते शुभाशुभविपर्ययाः  /\nप्रतीत्य कतमान् क्लेशाः शुभाशुभविपर्ययान्",
+      "sanskrit_iast": "svabhāvato na vidyante śubhāśubhaviparyayāḥ  /\npratītya katamān kleśāḥ śubhāśubhaviparyayān",
+      "source_line_start": 1331,
+      "source_line_end": 1333
+    },
+    {
+      "verse_id": "v_23_7",
+      "adhyaya": 23,
+      "pada": 7,
+      "sutra_or_verse_num": "23.7",
+      "sanskrit_devanagari": "रूपशब्दरसस्पर्शा गन्धा धर्माश् च षड्विधम्  /\nवस्तु रागस्य दोषस्य मोहस्य च विकल्प्यते",
+      "sanskrit_iast": "rūpaśabdarasasparśā gandhā dharmāś ca ṣaḍvidham  /\nvastu rāgasya doṣasya mohasya ca vikalpyate",
+      "source_line_start": 1335,
+      "source_line_end": 1337
+    },
+    {
+      "verse_id": "v_23_8",
+      "adhyaya": 23,
+      "pada": 8,
+      "sutra_or_verse_num": "23.8",
+      "sanskrit_devanagari": "रूपशब्दरसस्पर्शा गन्धा धर्माश् च केवलाः  /\nगन्धर्वनगराकारा मरीचिस्वप्नसंनिभाः",
+      "sanskrit_iast": "rūpaśabdarasasparśā gandhā dharmāś ca kevalāḥ  /\ngandharvanagarākārā marīcisvapnasaṃnibhāḥ",
+      "source_line_start": 1339,
+      "source_line_end": 1341
+    },
+    {
+      "verse_id": "v_23_9",
+      "adhyaya": 23,
+      "pada": 9,
+      "sutra_or_verse_num": "23.9",
+      "sanskrit_devanagari": "अशुभं वा शुभं वापि कुतस् तेषु भविष्यति  /\nमायापुरुषकल्पेषु प्रतिबिम्बसमेषु च",
+      "sanskrit_iast": "aśubhaṃ vā śubhaṃ vāpi kutas teṣu bhaviṣyati  /\nmāyāpuruṣakalpeṣu pratibimbasameṣu ca",
+      "source_line_start": 1343,
+      "source_line_end": 1345
+    },
+    {
+      "verse_id": "v_23_10",
+      "adhyaya": 23,
+      "pada": 10,
+      "sutra_or_verse_num": "23.10",
+      "sanskrit_devanagari": "अनपेक्ष्य शुभं नास्त्य् अशुभं प्रज्ञपयेमहि  /\nयत् प्रतीत्य शुभं तस्माच् छुभं नैवोपपद्यते",
+      "sanskrit_iast": "anapekṣya śubhaṃ nāsty aśubhaṃ prajñapayemahi  /\nyat pratītya śubhaṃ tasmāc chubhaṃ naivopapadyate",
+      "source_line_start": 1347,
+      "source_line_end": 1349
+    },
+    {
+      "verse_id": "v_23_11",
+      "adhyaya": 23,
+      "pada": 11,
+      "sutra_or_verse_num": "23.11",
+      "sanskrit_devanagari": "अनपेक्ष्याशुभं नास्ति शुभं प्रज्ञपयेमहि  /\nयत् प्रतीत्याशुभं तस्माद् अशुभं नैव विद्यते",
+      "sanskrit_iast": "anapekṣyāśubhaṃ nāsti śubhaṃ prajñapayemahi  /\nyat pratītyāśubhaṃ tasmād aśubhaṃ naiva vidyate",
+      "source_line_start": 1351,
+      "source_line_end": 1353
+    },
+    {
+      "verse_id": "v_23_12",
+      "adhyaya": 23,
+      "pada": 12,
+      "sutra_or_verse_num": "23.12",
+      "sanskrit_devanagari": "अविद्यमाने च शुभे कुतो रागो भविष्यति  /\nअशुभे ऽविद्यमाने च कुतो द्वेषो भविष्यति",
+      "sanskrit_iast": "avidyamāne ca śubhe kuto rāgo bhaviṣyati  /\naśubhe 'vidyamāne ca kuto dveṣo bhaviṣyati",
+      "source_line_start": 1355,
+      "source_line_end": 1357
+    },
+    {
+      "verse_id": "v_23_13",
+      "adhyaya": 23,
+      "pada": 13,
+      "sutra_or_verse_num": "23.13",
+      "sanskrit_devanagari": "अनित्ये नित्यम् इत्य् एवं यदि ग्राहो विपर्ययः  /\nनानित्यं विद्यते शून्ये कुतो ग्राहो विपर्ययः",
+      "sanskrit_iast": "anitye nityam ity evaṃ yadi grāho viparyayaḥ  /\nnānityaṃ vidyate śūnye kuto grāho viparyayaḥ",
+      "source_line_start": 1359,
+      "source_line_end": 1361
+    },
+    {
+      "verse_id": "v_23_14",
+      "adhyaya": 23,
+      "pada": 14,
+      "sutra_or_verse_num": "23.14",
+      "sanskrit_devanagari": "अनित्ये नित्यम् इत्य् एवं यदि ग्राहो विपर्ययः  /\nअनित्यम् इत्य् अपि ग्राहः शून्ये किं न विपर्ययः",
+      "sanskrit_iast": "anitye nityam ity evaṃ yadi grāho viparyayaḥ  /\nanityam ity api grāhaḥ śūnye kiṃ na viparyayaḥ",
+      "source_line_start": 1363,
+      "source_line_end": 1365
+    },
+    {
+      "verse_id": "v_23_15",
+      "adhyaya": 23,
+      "pada": 15,
+      "sutra_or_verse_num": "23.15",
+      "sanskrit_devanagari": "येन गृह्णाति यो ग्राहो ग्रहीता यच् च गृह्यते  /\nउपशान्तानि सर्वाणि तस्माद् ग्राहो न विद्यते",
+      "sanskrit_iast": "yena gṛhṇāti yo grāho grahītā yac ca gṛhyate  /\nupaśāntāni sarvāṇi tasmād grāho na vidyate",
+      "source_line_start": 1367,
+      "source_line_end": 1369
+    },
+    {
+      "verse_id": "v_23_16",
+      "adhyaya": 23,
+      "pada": 16,
+      "sutra_or_verse_num": "23.16",
+      "sanskrit_devanagari": "अविद्यमाने ग्राहे च मिथ्या वा सम्यग् एव वा  /\nभवेद् विपर्ययः कस्य भवेत् कस्याविपर्ययः",
+      "sanskrit_iast": "avidyamāne grāhe ca mithyā vā samyag eva vā  /\nbhaved viparyayaḥ kasya bhavet kasyāviparyayaḥ",
+      "source_line_start": 1371,
+      "source_line_end": 1373
+    },
+    {
+      "verse_id": "v_23_17",
+      "adhyaya": 23,
+      "pada": 17,
+      "sutra_or_verse_num": "23.17",
+      "sanskrit_devanagari": "न चापि विपरीतस्य संभवन्ति विपर्ययाः  /\nन चाप्य् अविपरीतस्य संभवन्ति विपर्ययाः",
+      "sanskrit_iast": "na cāpi viparītasya saṃbhavanti viparyayāḥ  /\nna cāpy aviparītasya saṃbhavanti viparyayāḥ",
+      "source_line_start": 1375,
+      "source_line_end": 1377
+    },
+    {
+      "verse_id": "v_23_18",
+      "adhyaya": 23,
+      "pada": 18,
+      "sutra_or_verse_num": "23.18",
+      "sanskrit_devanagari": "न विपर्यस्यमानस्य संभवन्ति विपर्ययाः  /\nविमृशस्व स्वयं कस्य संभवन्ति विपर्ययाः",
+      "sanskrit_iast": "na viparyasyamānasya saṃbhavanti viparyayāḥ  /\nvimṛśasva svayaṃ kasya saṃbhavanti viparyayāḥ",
+      "source_line_start": 1379,
+      "source_line_end": 1381
+    },
+    {
+      "verse_id": "v_23_19",
+      "adhyaya": 23,
+      "pada": 19,
+      "sutra_or_verse_num": "23.19",
+      "sanskrit_devanagari": "अनुत्पन्नाः कथं नाम भविष्यन्ति विपर्ययाः  /\nविपर्ययेष्व् अजातेषु विपर्ययगतः कुतः",
+      "sanskrit_iast": "anutpannāḥ kathaṃ nāma bhaviṣyanti viparyayāḥ  /\nviparyayeṣv ajāteṣu viparyayagataḥ kutaḥ",
+      "source_line_start": 1383,
+      "source_line_end": 1385
+    },
+    {
+      "verse_id": "v_23_20",
+      "adhyaya": 23,
+      "pada": 20,
+      "sutra_or_verse_num": "23.20",
+      "sanskrit_devanagari": "न स्वतो जायते भावः परतो नैव जायते  /\nन स्वतः परतश् चेति विपर्ययगतः कुतः",
+      "sanskrit_iast": "na svato jāyate bhāvaḥ parato naiva jāyate  /\nna svataḥ parataś ceti viparyayagataḥ kutaḥ",
+      "source_line_start": 1387,
+      "source_line_end": 1389
+    },
+    {
+      "verse_id": "v_23_21",
+      "adhyaya": 23,
+      "pada": 21,
+      "sutra_or_verse_num": "23.21",
+      "sanskrit_devanagari": "आत्मा च शुचि नित्यं च सुखं च यदि विद्यते  /\nआत्मा च शुचि नित्यं च सुखं च न विपर्ययः",
+      "sanskrit_iast": "ātmā ca śuci nityaṃ ca sukhaṃ ca yadi vidyate  /\nātmā ca śuci nityaṃ ca sukhaṃ ca na viparyayaḥ",
+      "source_line_start": 1391,
+      "source_line_end": 1393
+    },
+    {
+      "verse_id": "v_23_22",
+      "adhyaya": 23,
+      "pada": 22,
+      "sutra_or_verse_num": "23.22",
+      "sanskrit_devanagari": "नात्मा च शुचि नित्यं च सुखं च यदि विद्यते  /\nअनात्मा ऽशुच्य् अनित्यं च नैव दुःखं च विद्यते",
+      "sanskrit_iast": "nātmā ca śuci nityaṃ ca sukhaṃ ca yadi vidyate  /\nanātmā 'śucy anityaṃ ca naiva duḥkhaṃ ca vidyate",
+      "source_line_start": 1395,
+      "source_line_end": 1397
+    },
+    {
+      "verse_id": "v_23_23",
+      "adhyaya": 23,
+      "pada": 23,
+      "sutra_or_verse_num": "23.23",
+      "sanskrit_devanagari": "एवं निरुध्यते ऽविद्या विपर्ययनिरोधनात्  /\nअविद्यायां निरुद्धायां संस्काराद्यं निरुध्यते",
+      "sanskrit_iast": "evaṃ nirudhyate 'vidyā viparyayanirodhanāt  /\navidyāyāṃ niruddhāyāṃ saṃskārādyaṃ nirudhyate",
+      "source_line_start": 1399,
+      "source_line_end": 1401
+    },
+    {
+      "verse_id": "v_23_24",
+      "adhyaya": 23,
+      "pada": 24,
+      "sutra_or_verse_num": "23.24",
+      "sanskrit_devanagari": "यदि भूताः स्वभावेन क्लेशाः केचिद् धि कस्यचित्  /\nकथं नाम प्रहीयेरन् कः स्वभावं प्रहास्यति",
+      "sanskrit_iast": "yadi bhūtāḥ svabhāvena kleśāḥ kecid dhi kasyacit  /\nkathaṃ nāma prahīyeran kaḥ svabhāvaṃ prahāsyati",
+      "source_line_start": 1403,
+      "source_line_end": 1405
+    },
+    {
+      "verse_id": "v_23_25",
+      "adhyaya": 23,
+      "pada": 25,
+      "sutra_or_verse_num": "23.25",
+      "sanskrit_devanagari": "यद्य् अभूताः स्वभावेन क्लेशाः केचिद् धि कस्यचित्  /\nकथं नाम प्रहीयेरन् को ऽसद्भावं प्रहास्यति",
+      "sanskrit_iast": "yady abhūtāḥ svabhāvena kleśāḥ kecid dhi kasyacit  /\nkathaṃ nāma prahīyeran ko 'sadbhāvaṃ prahāsyati",
+      "source_line_start": 1407,
+      "source_line_end": 1409
+    },
+    {
+      "verse_id": "v_24_1",
+      "adhyaya": 24,
+      "pada": 1,
+      "sutra_or_verse_num": "24.1",
+      "sanskrit_devanagari": "***********************************************************\nयदि शून्यम् इदं सर्वम् उदयो नास्ति न व्ययः  /\nचतुर्णाम् आर्यसत्यानाम् अभावस् ते प्रसज्यते",
+      "sanskrit_iast": "***********************************************************\nyadi śūnyam idaṃ sarvam udayo nāsti na vyayaḥ  /\ncaturṇām āryasatyānām abhāvas te prasajyate",
+      "source_line_start": 1411,
+      "source_line_end": 1415
+    },
+    {
+      "verse_id": "v_24_2",
+      "adhyaya": 24,
+      "pada": 2,
+      "sutra_or_verse_num": "24.2",
+      "sanskrit_devanagari": "परिज्ञा च प्रहाणं च भावना साक्षिकर्म च  /\nचतुर्णाम् आर्यसत्यानाम् अभावान् नोपपद्यते",
+      "sanskrit_iast": "parijñā ca prahāṇaṃ ca bhāvanā sākṣikarma ca  /\ncaturṇām āryasatyānām abhāvān nopapadyate",
+      "source_line_start": 1417,
+      "source_line_end": 1419
+    },
+    {
+      "verse_id": "v_24_3",
+      "adhyaya": 24,
+      "pada": 3,
+      "sutra_or_verse_num": "24.3",
+      "sanskrit_devanagari": "तदभावान् न विद्यन्ते चत्वार्य् आर्यफलानि च  /\nफलाभावे फलस्था नो न सन्ति प्रतिपन्नकाः",
+      "sanskrit_iast": "tadabhāvān na vidyante catvāry āryaphalāni ca  /\nphalābhāve phalasthā no na santi pratipannakāḥ",
+      "source_line_start": 1421,
+      "source_line_end": 1423
+    },
+    {
+      "verse_id": "v_24_4",
+      "adhyaya": 24,
+      "pada": 4,
+      "sutra_or_verse_num": "24.4",
+      "sanskrit_devanagari": "संघो नास्ति न चेत् सन्ति ते ऽष्टौ पुरुषपुद्गलाः  /\nअभावाच् चार्यसत्यानां सद्धर्मो ऽपि न विद्यते",
+      "sanskrit_iast": "saṃgho nāsti na cet santi te 'ṣṭau puruṣapudgalāḥ  /\nabhāvāc cāryasatyānāṃ saddharmo 'pi na vidyate",
+      "source_line_start": 1425,
+      "source_line_end": 1427
+    },
+    {
+      "verse_id": "v_24_5",
+      "adhyaya": 24,
+      "pada": 5,
+      "sutra_or_verse_num": "24.5",
+      "sanskrit_devanagari": "धर्मे चासति संघे च कथं बुद्धो भविष्यति  /\nएवं त्रीण्य् अपि रत्नानि ब्रुवाणः प्रतिबाधसे",
+      "sanskrit_iast": "dharme cāsati saṃghe ca kathaṃ buddho bhaviṣyati  /\nevaṃ trīṇy api ratnāni bruvāṇaḥ pratibādhase",
+      "source_line_start": 1429,
+      "source_line_end": 1431
+    },
+    {
+      "verse_id": "v_24_6",
+      "adhyaya": 24,
+      "pada": 6,
+      "sutra_or_verse_num": "24.6",
+      "sanskrit_devanagari": "शून्यतां फलसद्भावम् अधर्मं धर्मम् एव च  /\nसर्वसंव्यवहारांश् च लौकिकान् प्रतिबाधसे",
+      "sanskrit_iast": "śūnyatāṃ phalasadbhāvam adharmaṃ dharmam eva ca  /\nsarvasaṃvyavahārāṃś ca laukikān pratibādhase",
+      "source_line_start": 1433,
+      "source_line_end": 1435
+    },
+    {
+      "verse_id": "v_24_7",
+      "adhyaya": 24,
+      "pada": 7,
+      "sutra_or_verse_num": "24.7",
+      "sanskrit_devanagari": "अत्र ब्रूमः शून्यतायां न त्वं वेत्सि प्रयोजनम्  /\nशून्यतां शून्यतार्थं च तत एवं विहन्यसे",
+      "sanskrit_iast": "atra brūmaḥ śūnyatāyāṃ na tvaṃ vetsi prayojanam  /\nśūnyatāṃ śūnyatārthaṃ ca tata evaṃ vihanyase",
+      "source_line_start": 1437,
+      "source_line_end": 1439
+    },
+    {
+      "verse_id": "v_24_8",
+      "adhyaya": 24,
+      "pada": 8,
+      "sutra_or_verse_num": "24.8",
+      "sanskrit_devanagari": "द्वे सत्ये समुपाश्रित्य बुद्धानां धर्मदेशना  /\nलोकसंवृतिसत्यं च सत्यं च परमार्थतः",
+      "sanskrit_iast": "dve satye samupāśritya buddhānāṃ dharmadeśanā  /\nlokasaṃvṛtisatyaṃ ca satyaṃ ca paramārthataḥ",
+      "source_line_start": 1441,
+      "source_line_end": 1443
+    },
+    {
+      "verse_id": "v_24_9",
+      "adhyaya": 24,
+      "pada": 9,
+      "sutra_or_verse_num": "24.9",
+      "sanskrit_devanagari": "ये ऽनयोर् न विजानन्ति विभागं सत्ययोर् द्वयोः  /\nते तत्त्वं न विजानन्ति गम्भीरं बुद्धशासने",
+      "sanskrit_iast": "ye 'nayor na vijānanti vibhāgaṃ satyayor dvayoḥ  /\nte tattvaṃ na vijānanti gambhīraṃ buddhaśāsane",
+      "source_line_start": 1445,
+      "source_line_end": 1447
+    },
+    {
+      "verse_id": "v_24_10",
+      "adhyaya": 24,
+      "pada": 10,
+      "sutra_or_verse_num": "24.10",
+      "sanskrit_devanagari": "व्यवहारम् अनाश्रित्य परमार्थो न देश्यते  /\nपरमार्थम् अनागम्य निर्वाणं नाधिगम्यते",
+      "sanskrit_iast": "vyavahāram anāśritya paramārtho na deśyate  /\nparamārtham anāgamya nirvāṇaṃ nādhigamyate",
+      "source_line_start": 1449,
+      "source_line_end": 1451
+    },
+    {
+      "verse_id": "v_24_11",
+      "adhyaya": 24,
+      "pada": 11,
+      "sutra_or_verse_num": "24.11",
+      "sanskrit_devanagari": "विनाशयति दुर्दृष्ता शून्यता मन्दमेधसम्  /\nसर्पो यथा दुर्गृहीतो विद्या वा दुष्प्रसाधिता",
+      "sanskrit_iast": "vināśayati durdṛṣtā śūnyatā mandamedhasam  /\nsarpo yathā durgṛhīto vidyā vā duṣprasādhitā",
+      "source_line_start": 1453,
+      "source_line_end": 1455
+    },
+    {
+      "verse_id": "v_24_12",
+      "adhyaya": 24,
+      "pada": 12,
+      "sutra_or_verse_num": "24.12",
+      "sanskrit_devanagari": "अतश् च प्रत्युदावृत्तं चित्तं देशयितुं मुनेः  /\nधर्मं मत्वास्य धर्मस्य मन्दैर् दुरवगाहताम्",
+      "sanskrit_iast": "ataś ca pratyudāvṛttaṃ cittaṃ deśayituṃ muneḥ  /\ndharmaṃ matvāsya dharmasya mandair duravagāhatām",
+      "source_line_start": 1457,
+      "source_line_end": 1459
+    },
+    {
+      "verse_id": "v_24_13",
+      "adhyaya": 24,
+      "pada": 13,
+      "sutra_or_verse_num": "24.13",
+      "sanskrit_devanagari": "शून्यतायाम् अधिलयं यं पुनः कुरुते भवान्  /\nदोषप्रसङ्गो नास्माकं स शून्ये नोपपद्यते",
+      "sanskrit_iast": "śūnyatāyām adhilayaṃ yaṃ punaḥ kurute bhavān  /\ndoṣaprasaṅgo nāsmākaṃ sa śūnye nopapadyate",
+      "source_line_start": 1461,
+      "source_line_end": 1463
+    },
+    {
+      "verse_id": "v_24_14",
+      "adhyaya": 24,
+      "pada": 14,
+      "sutra_or_verse_num": "24.14",
+      "sanskrit_devanagari": "सर्वं च युज्यते तस्य शून्यता यस्य युज्यते  /\nसर्वं न युज्यते तस्य शून्यं यस्य न युज्यते",
+      "sanskrit_iast": "sarvaṃ ca yujyate tasya śūnyatā yasya yujyate  /\nsarvaṃ na yujyate tasya śūnyaṃ yasya na yujyate",
+      "source_line_start": 1465,
+      "source_line_end": 1467
+    },
+    {
+      "verse_id": "v_24_15",
+      "adhyaya": 24,
+      "pada": 15,
+      "sutra_or_verse_num": "24.15",
+      "sanskrit_devanagari": "स त्वं दोषान् आत्मनीयान् अस्मासु परिपातयन्  /\nअश्वम् एवाभिरूढः सन्न् अश्वम् एवासि विस्मृतः",
+      "sanskrit_iast": "sa tvaṃ doṣān ātmanīyān asmāsu paripātayan  /\naśvam evābhirūḍhaḥ sann aśvam evāsi vismṛtaḥ",
+      "source_line_start": 1469,
+      "source_line_end": 1471
+    },
+    {
+      "verse_id": "v_24_16",
+      "adhyaya": 24,
+      "pada": 16,
+      "sutra_or_verse_num": "24.16",
+      "sanskrit_devanagari": "स्वभावाद् यदि भावानां सद्भावम् अनुपश्यसि  /\nअहेतुप्रत्ययान् भावांस् त्वम् एवं सति पश्यसि",
+      "sanskrit_iast": "svabhāvād yadi bhāvānāṃ sadbhāvam anupaśyasi  /\nahetupratyayān bhāvāṃs tvam evaṃ sati paśyasi",
+      "source_line_start": 1473,
+      "source_line_end": 1475
+    },
+    {
+      "verse_id": "v_24_17",
+      "adhyaya": 24,
+      "pada": 17,
+      "sutra_or_verse_num": "24.17",
+      "sanskrit_devanagari": "कार्यं च कारणं चैव कर्तारं करणं क्रियाम्  /\nउत्पादं च निरोधं च फलं च प्रतिबाधसे",
+      "sanskrit_iast": "kāryaṃ ca kāraṇaṃ caiva kartāraṃ karaṇaṃ kriyām  /\nutpādaṃ ca nirodhaṃ ca phalaṃ ca pratibādhase",
+      "source_line_start": 1477,
+      "source_line_end": 1479
+    },
+    {
+      "verse_id": "v_24_18",
+      "adhyaya": 24,
+      "pada": 18,
+      "sutra_or_verse_num": "24.18",
+      "sanskrit_devanagari": "यः प्रतीत्यसमुत्पादः शून्यतां तां प्रचक्ष्महे  /\nसा प्रज्ञप्तिर् उपादाय प्रतिपत् सैव मध्यमा",
+      "sanskrit_iast": "yaḥ pratītyasamutpādaḥ śūnyatāṃ tāṃ pracakṣmahe  /\nsā prajñaptir upādāya pratipat saiva madhyamā",
+      "source_line_start": 1481,
+      "source_line_end": 1483
+    },
+    {
+      "verse_id": "v_24_19",
+      "adhyaya": 24,
+      "pada": 19,
+      "sutra_or_verse_num": "24.19",
+      "sanskrit_devanagari": "अप्रतीत्य समुत्पन्नो धर्मः कश्चिन् न विद्यते  /\nयस्मात् तस्माद् अशून्यो हि धर्मः कश्चिन् न विद्यते",
+      "sanskrit_iast": "apratītya samutpanno dharmaḥ kaścin na vidyate  /\nyasmāt tasmād aśūnyo hi dharmaḥ kaścin na vidyate",
+      "source_line_start": 1485,
+      "source_line_end": 1487
+    },
+    {
+      "verse_id": "v_24_20",
+      "adhyaya": 24,
+      "pada": 20,
+      "sutra_or_verse_num": "24.20",
+      "sanskrit_devanagari": "यद्य् अशून्यम् इदं सर्वम् उदयो नास्ति न व्ययः  /\nचतुर्णाम् आर्यसत्यानाम् अभावस् ते प्रसज्यते",
+      "sanskrit_iast": "yady aśūnyam idaṃ sarvam udayo nāsti na vyayaḥ  /\ncaturṇām āryasatyānām abhāvas te prasajyate",
+      "source_line_start": 1489,
+      "source_line_end": 1491
+    },
+    {
+      "verse_id": "v_24_21",
+      "adhyaya": 24,
+      "pada": 21,
+      "sutra_or_verse_num": "24.21",
+      "sanskrit_devanagari": "अप्रतीत्य समुत्पन्नं कुतो दुःखं भविष्यति  /\nअनित्यम् उक्तं दुःखं हि तत् स्वाभाव्ये न विद्यते",
+      "sanskrit_iast": "apratītya samutpannaṃ kuto duḥkhaṃ bhaviṣyati  /\nanityam uktaṃ duḥkhaṃ hi tat svābhāvye na vidyate",
+      "source_line_start": 1493,
+      "source_line_end": 1495
+    },
+    {
+      "verse_id": "v_24_22",
+      "adhyaya": 24,
+      "pada": 22,
+      "sutra_or_verse_num": "24.22",
+      "sanskrit_devanagari": "स्वभावतो विद्यमानं किं पुनः समुदेष्यते  /\nतस्मात् समुदयो नास्ति शून्यतां प्रतिबाधतः",
+      "sanskrit_iast": "svabhāvato vidyamānaṃ kiṃ punaḥ samudeṣyate  /\ntasmāt samudayo nāsti śūnyatāṃ pratibādhataḥ",
+      "source_line_start": 1497,
+      "source_line_end": 1499
+    },
+    {
+      "verse_id": "v_24_23",
+      "adhyaya": 24,
+      "pada": 23,
+      "sutra_or_verse_num": "24.23",
+      "sanskrit_devanagari": "न निरोधः स्वभावेन सतो दुःखस्य विद्यते  /\nस्वभावपर्यवस्थानान् निरोधं प्रतिबाधसे",
+      "sanskrit_iast": "na nirodhaḥ svabhāvena sato duḥkhasya vidyate  /\nsvabhāvaparyavasthānān nirodhaṃ pratibādhase",
+      "source_line_start": 1501,
+      "source_line_end": 1503
+    },
+    {
+      "verse_id": "v_24_24",
+      "adhyaya": 24,
+      "pada": 24,
+      "sutra_or_verse_num": "24.24",
+      "sanskrit_devanagari": "स्वाभाव्ये सति मार्गस्य भावना नोपपद्यते  /\nअथासौ भाव्यते मार्गः स्वाभाव्यं ते न विद्यते",
+      "sanskrit_iast": "svābhāvye sati mārgasya bhāvanā nopapadyate  /\nathāsau bhāvyate mārgaḥ svābhāvyaṃ te na vidyate",
+      "source_line_start": 1505,
+      "source_line_end": 1507
+    },
+    {
+      "verse_id": "v_24_25",
+      "adhyaya": 24,
+      "pada": 25,
+      "sutra_or_verse_num": "24.25",
+      "sanskrit_devanagari": "यदा दुःखं समुदयो निरोधश् च न विद्यते  /\nमार्गो दुःखनिरोधत्वात् कतमः प्रापयिष्यति",
+      "sanskrit_iast": "yadā duḥkhaṃ samudayo nirodhaś ca na vidyate  /\nmārgo duḥkhanirodhatvāt katamaḥ prāpayiṣyati",
+      "source_line_start": 1509,
+      "source_line_end": 1511
+    },
+    {
+      "verse_id": "v_24_26",
+      "adhyaya": 24,
+      "pada": 26,
+      "sutra_or_verse_num": "24.26",
+      "sanskrit_devanagari": "स्वभावेनापरिज्ञानं यदि तस्य पुनः कथम्  /\nपरिज्ञानं ननु किल स्वभावः समवस्थितः",
+      "sanskrit_iast": "svabhāvenāparijñānaṃ yadi tasya punaḥ katham  /\nparijñānaṃ nanu kila svabhāvaḥ samavasthitaḥ",
+      "source_line_start": 1513,
+      "source_line_end": 1515
+    },
+    {
+      "verse_id": "v_24_27",
+      "adhyaya": 24,
+      "pada": 27,
+      "sutra_or_verse_num": "24.27",
+      "sanskrit_devanagari": "प्रहाणसाक्षात्करणे भावना चैवम् एव ते  /\nपरिज्ञावन् न युज्यन्ते चत्वार्य् अपि फलानि च",
+      "sanskrit_iast": "prahāṇasākṣātkaraṇe bhāvanā caivam eva te  /\nparijñāvan na yujyante catvāry api phalāni ca",
+      "source_line_start": 1517,
+      "source_line_end": 1519
+    },
+    {
+      "verse_id": "v_24_28",
+      "adhyaya": 24,
+      "pada": 28,
+      "sutra_or_verse_num": "24.28",
+      "sanskrit_devanagari": "स्वभावेनानधिगतं यत् फलं तत् पुनः कथम्  /\nशक्यं समधिगन्तुं स्यात् स्वभावं परिगृह्णतः",
+      "sanskrit_iast": "svabhāvenānadhigataṃ yat phalaṃ tat punaḥ katham  /\nśakyaṃ samadhigantuṃ syāt svabhāvaṃ parigṛhṇataḥ",
+      "source_line_start": 1521,
+      "source_line_end": 1523
+    },
+    {
+      "verse_id": "v_24_29",
+      "adhyaya": 24,
+      "pada": 29,
+      "sutra_or_verse_num": "24.29",
+      "sanskrit_devanagari": "फलाभावे फलस्था नो न सन्ति प्रतिपन्नकाः  /\nसंघो नास्ति न चेत् सन्ति ते ऽष्टौ पुरुषपुद्गलाः",
+      "sanskrit_iast": "phalābhāve phalasthā no na santi pratipannakāḥ  /\nsaṃgho nāsti na cet santi te 'ṣṭau puruṣapudgalāḥ",
+      "source_line_start": 1525,
+      "source_line_end": 1527
+    },
+    {
+      "verse_id": "v_24_30",
+      "adhyaya": 24,
+      "pada": 30,
+      "sutra_or_verse_num": "24.30",
+      "sanskrit_devanagari": "अभावाच् चार्यसत्यानां सद्धर्मो ऽपि न विद्यते  /\nधर्मे चासति संघे च कथं बुद्धो भविष्यति",
+      "sanskrit_iast": "abhāvāc cāryasatyānāṃ saddharmo 'pi na vidyate  /\ndharme cāsati saṃghe ca kathaṃ buddho bhaviṣyati",
+      "source_line_start": 1529,
+      "source_line_end": 1531
+    },
+    {
+      "verse_id": "v_24_31",
+      "adhyaya": 24,
+      "pada": 31,
+      "sutra_or_verse_num": "24.31",
+      "sanskrit_devanagari": "अप्रतीत्यापि बोधिं च तव बुद्धः प्रसज्यते  /\nअप्रतीत्यापि बुद्धं च तव बोधिः प्रसज्यते",
+      "sanskrit_iast": "apratītyāpi bodhiṃ ca tava buddhaḥ prasajyate  /\napratītyāpi buddhaṃ ca tava bodhiḥ prasajyate",
+      "source_line_start": 1533,
+      "source_line_end": 1535
+    },
+    {
+      "verse_id": "v_24_32",
+      "adhyaya": 24,
+      "pada": 32,
+      "sutra_or_verse_num": "24.32",
+      "sanskrit_devanagari": "यश् चाबुद्धः स्वभावेन स बोधाय घटन्न् अपि  /\nन बोधिसत्त्वचर्यायां बोधिं ते ऽधिगमिष्यति",
+      "sanskrit_iast": "yaś cābuddhaḥ svabhāvena sa bodhāya ghaṭann api  /\nna bodhisattvacaryāyāṃ bodhiṃ te 'dhigamiṣyati",
+      "source_line_start": 1537,
+      "source_line_end": 1539
+    },
+    {
+      "verse_id": "v_24_33",
+      "adhyaya": 24,
+      "pada": 33,
+      "sutra_or_verse_num": "24.33",
+      "sanskrit_devanagari": "न च धर्मम् अधर्मं वा कश्चिज् जातु करिष्यति  /\nकिम् अषून्यस्य कर्तव्यं स्वभावः क्रियते न हि",
+      "sanskrit_iast": "na ca dharmam adharmaṃ vā kaścij jātu kariṣyati  /\nkim aṣūnyasya kartavyaṃ svabhāvaḥ kriyate na hi",
+      "source_line_start": 1541,
+      "source_line_end": 1543
+    },
+    {
+      "verse_id": "v_24_34",
+      "adhyaya": 24,
+      "pada": 34,
+      "sutra_or_verse_num": "24.34",
+      "sanskrit_devanagari": "विना धर्मम् अधर्मं च फलं हि तव विद्यते  /\nधर्माधर्मनिमित्तं च फलं तव न विद्यते",
+      "sanskrit_iast": "vinā dharmam adharmaṃ ca phalaṃ hi tava vidyate  /\ndharmādharmanimittaṃ ca phalaṃ tava na vidyate",
+      "source_line_start": 1545,
+      "source_line_end": 1547
+    },
+    {
+      "verse_id": "v_24_35",
+      "adhyaya": 24,
+      "pada": 35,
+      "sutra_or_verse_num": "24.35",
+      "sanskrit_devanagari": "धर्माधर्मनिमित्तं वा यदि ते विद्यते फलम्  /\nधर्माधर्मसमुत्पन्नम् अशून्यं ते कथं फलम्",
+      "sanskrit_iast": "dharmādharmanimittaṃ vā yadi te vidyate phalam  /\ndharmādharmasamutpannam aśūnyaṃ te kathaṃ phalam",
+      "source_line_start": 1549,
+      "source_line_end": 1551
+    },
+    {
+      "verse_id": "v_24_36",
+      "adhyaya": 24,
+      "pada": 36,
+      "sutra_or_verse_num": "24.36",
+      "sanskrit_devanagari": "सर्वसंव्य्वहारांश् च लौकिकान् प्रतिबाधसे  /\nयत् प्रतीत्यसमुत्पादशून्यतां प्रतिबाधसे",
+      "sanskrit_iast": "sarvasaṃvyvahārāṃś ca laukikān pratibādhase  /\nyat pratītyasamutpādaśūnyatāṃ pratibādhase",
+      "source_line_start": 1553,
+      "source_line_end": 1555
+    },
+    {
+      "verse_id": "v_24_37",
+      "adhyaya": 24,
+      "pada": 37,
+      "sutra_or_verse_num": "24.37",
+      "sanskrit_devanagari": "न कर्तव्यं भवेत् किंचिद् अनारब्धा भवेत् क्रिया  /\nकारकः स्याद् अकुर्वाणः शून्यतां प्रतिबाधतः",
+      "sanskrit_iast": "na kartavyaṃ bhavet kiṃcid anārabdhā bhavet kriyā  /\nkārakaḥ syād akurvāṇaḥ śūnyatāṃ pratibādhataḥ",
+      "source_line_start": 1557,
+      "source_line_end": 1559
+    },
+    {
+      "verse_id": "v_24_38",
+      "adhyaya": 24,
+      "pada": 38,
+      "sutra_or_verse_num": "24.38",
+      "sanskrit_devanagari": "अजातम् अनिरुद्धं च कूटश्थं च भविष्यति  /\nविचित्राभिर् अवस्थाभिः स्वभावे रहितं जगत्",
+      "sanskrit_iast": "ajātam aniruddhaṃ ca kūṭaśthaṃ ca bhaviṣyati  /\nvicitrābhir avasthābhiḥ svabhāve rahitaṃ jagat",
+      "source_line_start": 1561,
+      "source_line_end": 1563
+    },
+    {
+      "verse_id": "v_24_39",
+      "adhyaya": 24,
+      "pada": 39,
+      "sutra_or_verse_num": "24.39",
+      "sanskrit_devanagari": "असंप्राप्तस्य च प्राप्तिर् दुःखपर्यन्तकर्म च  /\nसर्वक्लेशप्रहाणं च यद्य् अशून्यं न विद्यते",
+      "sanskrit_iast": "asaṃprāptasya ca prāptir duḥkhaparyantakarma ca  /\nsarvakleśaprahāṇaṃ ca yady aśūnyaṃ na vidyate",
+      "source_line_start": 1565,
+      "source_line_end": 1567
+    },
+    {
+      "verse_id": "v_24_40",
+      "adhyaya": 24,
+      "pada": 40,
+      "sutra_or_verse_num": "24.40",
+      "sanskrit_devanagari": "यः प्रतीत्यसमुत्पादं पश्यतीदं स पश्यति  /\nदुःखं समुदयं चैव निरोधं मार्गम् एव च",
+      "sanskrit_iast": "yaḥ pratītyasamutpādaṃ paśyatīdaṃ sa paśyati  /\nduḥkhaṃ samudayaṃ caiva nirodhaṃ mārgam eva ca",
+      "source_line_start": 1569,
+      "source_line_end": 1571
+    },
+    {
+      "verse_id": "v_25_1",
+      "adhyaya": 25,
+      "pada": 1,
+      "sutra_or_verse_num": "25.1",
+      "sanskrit_devanagari": "***********************************************************\nयदि शून्यम् इदं सर्वम् उदयो नास्ति न व्ययः  /\nप्रहाणाद् वा निरोधाद् वा कस्य निर्वाणम् इष्यते",
+      "sanskrit_iast": "***********************************************************\nyadi śūnyam idaṃ sarvam udayo nāsti na vyayaḥ  /\nprahāṇād vā nirodhād vā kasya nirvāṇam iṣyate",
+      "source_line_start": 1573,
+      "source_line_end": 1577
+    },
+    {
+      "verse_id": "v_25_2",
+      "adhyaya": 25,
+      "pada": 2,
+      "sutra_or_verse_num": "25.2",
+      "sanskrit_devanagari": "यद्य् अशून्यम् इदं सर्वम् उदयो नास्ति न व्ययः  /\nप्रहाणाद् वा निरोधाद् वा कस्य निर्वाणम् इष्यते",
+      "sanskrit_iast": "yady aśūnyam idaṃ sarvam udayo nāsti na vyayaḥ  /\nprahāṇād vā nirodhād vā kasya nirvāṇam iṣyate",
+      "source_line_start": 1579,
+      "source_line_end": 1581
+    },
+    {
+      "verse_id": "v_25_3",
+      "adhyaya": 25,
+      "pada": 3,
+      "sutra_or_verse_num": "25.3",
+      "sanskrit_devanagari": "अप्रहीणम् असंप्राप्तम् अनुच्छिन्नम् अशाश्वतम्  /\nअनिरुद्धम् अनुत्पन्नम् एतन् निर्वाणम् उच्यते",
+      "sanskrit_iast": "aprahīṇam asaṃprāptam anucchinnam aśāśvatam  /\naniruddham anutpannam etan nirvāṇam ucyate",
+      "source_line_start": 1583,
+      "source_line_end": 1585
+    },
+    {
+      "verse_id": "v_25_4",
+      "adhyaya": 25,
+      "pada": 4,
+      "sutra_or_verse_num": "25.4",
+      "sanskrit_devanagari": "भावस् तावन् न निर्वाणं जरामरणलक्षणम्  /\nप्रसज्येतास्ति भावो हि न जरामरणं विना",
+      "sanskrit_iast": "bhāvas tāvan na nirvāṇaṃ jarāmaraṇalakṣaṇam  /\nprasajyetāsti bhāvo hi na jarāmaraṇaṃ vinā",
+      "source_line_start": 1587,
+      "source_line_end": 1589
+    },
+    {
+      "verse_id": "v_25_5",
+      "adhyaya": 25,
+      "pada": 5,
+      "sutra_or_verse_num": "25.5",
+      "sanskrit_devanagari": "भावश् च यदि निर्वाणं निर्वाणं संस्कृतं भवेत्  /\nनासंस्कृतो हि विद्यते भावः क्व चन कश् चन",
+      "sanskrit_iast": "bhāvaś ca yadi nirvāṇaṃ nirvāṇaṃ saṃskṛtaṃ bhavet  /\nnāsaṃskṛto hi vidyate bhāvaḥ kva cana kaś cana",
+      "source_line_start": 1591,
+      "source_line_end": 1593
+    },
+    {
+      "verse_id": "v_25_6",
+      "adhyaya": 25,
+      "pada": 6,
+      "sutra_or_verse_num": "25.6",
+      "sanskrit_devanagari": "भावश् च यदि निर्वाणम् अनुपादाय तत् कथम्  /\nनिर्वाणं नानुपादाय कश्चिद् भावो हि विद्यते",
+      "sanskrit_iast": "bhāvaś ca yadi nirvāṇam anupādāya tat katham  /\nnirvāṇaṃ nānupādāya kaścid bhāvo hi vidyate",
+      "source_line_start": 1595,
+      "source_line_end": 1597
+    },
+    {
+      "verse_id": "v_25_7",
+      "adhyaya": 25,
+      "pada": 7,
+      "sutra_or_verse_num": "25.7",
+      "sanskrit_devanagari": "भावो यदि न निर्वाणम् अभावः किं भविष्यति  /\nनिर्वाणं यत्र भावो न नाभावस् तत्र विद्यते",
+      "sanskrit_iast": "bhāvo yadi na nirvāṇam abhāvaḥ kiṃ bhaviṣyati  /\nnirvāṇaṃ yatra bhāvo na nābhāvas tatra vidyate",
+      "source_line_start": 1599,
+      "source_line_end": 1601
+    },
+    {
+      "verse_id": "v_25_8",
+      "adhyaya": 25,
+      "pada": 8,
+      "sutra_or_verse_num": "25.8",
+      "sanskrit_devanagari": "यद्य् अभावश् च निर्वाणम् अनुपादाय तत् कथम्  /\nनिर्वाणं न ह्य् अभावो ऽस्ति यो ऽनुपादाय विद्यते",
+      "sanskrit_iast": "yady abhāvaś ca nirvāṇam anupādāya tat katham  /\nnirvāṇaṃ na hy abhāvo 'sti yo 'nupādāya vidyate",
+      "source_line_start": 1603,
+      "source_line_end": 1605
+    },
+    {
+      "verse_id": "v_25_9",
+      "adhyaya": 25,
+      "pada": 9,
+      "sutra_or_verse_num": "25.9",
+      "sanskrit_devanagari": "य आजवंजवीभाव उपादाय प्रतीत्य वा  /\nसो ऽप्रतीत्यानुपादाय निर्वाणम् उपदिश्यते",
+      "sanskrit_iast": "ya ājavaṃjavībhāva upādāya pratītya vā  /\nso 'pratītyānupādāya nirvāṇam upadiśyate",
+      "source_line_start": 1607,
+      "source_line_end": 1609
+    },
+    {
+      "verse_id": "v_25_10",
+      "adhyaya": 25,
+      "pada": 10,
+      "sutra_or_verse_num": "25.10",
+      "sanskrit_devanagari": "प्रहाणं चाब्रवीच् छास्ता भवस्य विभवस्य च  /\nतस्मान् न भावो नाभावो निर्वाणम् इति युज्यते",
+      "sanskrit_iast": "prahāṇaṃ cābravīc chāstā bhavasya vibhavasya ca  /\ntasmān na bhāvo nābhāvo nirvāṇam iti yujyate",
+      "source_line_start": 1611,
+      "source_line_end": 1613
+    },
+    {
+      "verse_id": "v_25_11",
+      "adhyaya": 25,
+      "pada": 11,
+      "sutra_or_verse_num": "25.11",
+      "sanskrit_devanagari": "भवेद् अभावो भावश् च निर्वाणम् उभयं यदि  /\nभवेद् अभावो भावश् च मोक्षस् तच् च न युज्यते",
+      "sanskrit_iast": "bhaved abhāvo bhāvaś ca nirvāṇam ubhayaṃ yadi  /\nbhaved abhāvo bhāvaś ca mokṣas tac ca na yujyate",
+      "source_line_start": 1615,
+      "source_line_end": 1617
+    },
+    {
+      "verse_id": "v_25_12",
+      "adhyaya": 25,
+      "pada": 12,
+      "sutra_or_verse_num": "25.12",
+      "sanskrit_devanagari": "भवेद् अभावो भावश् च निर्वाणम् उभयं यदि  /\nनानुपादाय निर्वाणम् उपादायोभयं हि तत्",
+      "sanskrit_iast": "bhaved abhāvo bhāvaś ca nirvāṇam ubhayaṃ yadi  /\nnānupādāya nirvāṇam upādāyobhayaṃ hi tat",
+      "source_line_start": 1619,
+      "source_line_end": 1621
+    },
+    {
+      "verse_id": "v_25_13",
+      "adhyaya": 25,
+      "pada": 13,
+      "sutra_or_verse_num": "25.13",
+      "sanskrit_devanagari": "भवेद् अभावो भावश् च निर्वाणम् उभयं कथम्  /\nअसंस्कृतं हि निर्वाणं भावाभावौ च संस्कृतौ",
+      "sanskrit_iast": "bhaved abhāvo bhāvaś ca nirvāṇam ubhayaṃ katham  /\nasaṃskṛtaṃ hi nirvāṇaṃ bhāvābhāvau ca saṃskṛtau",
+      "source_line_start": 1623,
+      "source_line_end": 1625
+    },
+    {
+      "verse_id": "v_25_14",
+      "adhyaya": 25,
+      "pada": 14,
+      "sutra_or_verse_num": "25.14",
+      "sanskrit_devanagari": "भवेद् अभावो भावश् च निर्वाण उभयं कथम्  /\nतयोर् अभावो ह्य् एकत्र प्रकाशतमसोर् इव",
+      "sanskrit_iast": "bhaved abhāvo bhāvaś ca nirvāṇa ubhayaṃ katham  /\ntayor abhāvo hy ekatra prakāśatamasor iva",
+      "source_line_start": 1627,
+      "source_line_end": 1629
+    },
+    {
+      "verse_id": "v_25_15",
+      "adhyaya": 25,
+      "pada": 15,
+      "sutra_or_verse_num": "25.15",
+      "sanskrit_devanagari": "नैवाभावो नैव भावो निर्वाणम् इति या ऽञ्जना  /\nअभावे चैव भावे च सा सिद्धे सति सिध्यति",
+      "sanskrit_iast": "naivābhāvo naiva bhāvo nirvāṇam iti yā 'ñjanā  /\nabhāve caiva bhāve ca sā siddhe sati sidhyati",
+      "source_line_start": 1631,
+      "source_line_end": 1633
+    },
+    {
+      "verse_id": "v_25_16",
+      "adhyaya": 25,
+      "pada": 16,
+      "sutra_or_verse_num": "25.16",
+      "sanskrit_devanagari": "नैवाभावो नैव भावो निर्वाणं यदि विद्यते  /\nनैवाभावो नैव भाव इति केन तद् अज्यते",
+      "sanskrit_iast": "naivābhāvo naiva bhāvo nirvāṇaṃ yadi vidyate  /\nnaivābhāvo naiva bhāva iti kena tad ajyate",
+      "source_line_start": 1635,
+      "source_line_end": 1637
+    },
+    {
+      "verse_id": "v_25_17",
+      "adhyaya": 25,
+      "pada": 17,
+      "sutra_or_verse_num": "25.17",
+      "sanskrit_devanagari": "परं निरोधाद् भगवान् भवतीत्य् एव नाज्यते  /\nन भवत्य् उभयं चेति नोभयं चेति नाज्यते",
+      "sanskrit_iast": "paraṃ nirodhād bhagavān bhavatīty eva nājyate  /\nna bhavaty ubhayaṃ ceti nobhayaṃ ceti nājyate",
+      "source_line_start": 1639,
+      "source_line_end": 1641
+    },
+    {
+      "verse_id": "v_25_18",
+      "adhyaya": 25,
+      "pada": 18,
+      "sutra_or_verse_num": "25.18",
+      "sanskrit_devanagari": "तिष्ठमानो ऽपि भगवान् भवतीत्य् एव नाज्यते  /\nन भवत्य् उभयं चेति नोभयं चेति नाज्यते",
+      "sanskrit_iast": "tiṣṭhamāno 'pi bhagavān bhavatīty eva nājyate  /\nna bhavaty ubhayaṃ ceti nobhayaṃ ceti nājyate",
+      "source_line_start": 1643,
+      "source_line_end": 1645
+    },
+    {
+      "verse_id": "v_25_19",
+      "adhyaya": 25,
+      "pada": 19,
+      "sutra_or_verse_num": "25.19",
+      "sanskrit_devanagari": "न संसारस्य निर्वाणात् किंचिद् अस्ति विशेषणम्  /\nन निर्वाणस्य संसारात् किंचिद् अस्ति विशेषणम्",
+      "sanskrit_iast": "na saṃsārasya nirvāṇāt kiṃcid asti viśeṣaṇam  /\nna nirvāṇasya saṃsārāt kiṃcid asti viśeṣaṇam",
+      "source_line_start": 1647,
+      "source_line_end": 1649
+    },
+    {
+      "verse_id": "v_25_20",
+      "adhyaya": 25,
+      "pada": 20,
+      "sutra_or_verse_num": "25.20",
+      "sanskrit_devanagari": "निर्वाणस्य च या कोटिः कोटिः संसरणस्य च  /\nन तयोर् अन्तरं किंचित् सुसूक्ष्मम् अपि विद्यते",
+      "sanskrit_iast": "nirvāṇasya ca yā koṭiḥ koṭiḥ saṃsaraṇasya ca  /\nna tayor antaraṃ kiṃcit susūkṣmam api vidyate",
+      "source_line_start": 1651,
+      "source_line_end": 1653
+    },
+    {
+      "verse_id": "v_25_21",
+      "adhyaya": 25,
+      "pada": 21,
+      "sutra_or_verse_num": "25.21",
+      "sanskrit_devanagari": "परं निरोधाद् अन्ताद्याः शाश्वताद्याश् च दृष्टयः  /\nनिर्वाणम् अपरान्तं च पूर्वान्तं च समाश्रिताः",
+      "sanskrit_iast": "paraṃ nirodhād antādyāḥ śāśvatādyāś ca dṛṣṭayaḥ  /\nnirvāṇam aparāntaṃ ca pūrvāntaṃ ca samāśritāḥ",
+      "source_line_start": 1655,
+      "source_line_end": 1657
+    },
+    {
+      "verse_id": "v_25_22",
+      "adhyaya": 25,
+      "pada": 22,
+      "sutra_or_verse_num": "25.22",
+      "sanskrit_devanagari": "शून्येषु सर्वधर्मेषु किम् अनन्तं किम् अन्तवत्  /\nकिम् अनन्तम् अन्तवच् च नानन्तं नान्तवच् च किम्",
+      "sanskrit_iast": "śūnyeṣu sarvadharmeṣu kim anantaṃ kim antavat  /\nkim anantam antavac ca nānantaṃ nāntavac ca kim",
+      "source_line_start": 1659,
+      "source_line_end": 1661
+    },
+    {
+      "verse_id": "v_25_23",
+      "adhyaya": 25,
+      "pada": 23,
+      "sutra_or_verse_num": "25.23",
+      "sanskrit_devanagari": "किं तद् एव किम् अन्यत् किं शाश्वतं किम् अशाश्वतम्  /\nअशाश्वतं शाश्वतं च किं वा नोभयम् अप्य् अथ",
+      "sanskrit_iast": "kiṃ tad eva kim anyat kiṃ śāśvataṃ kim aśāśvatam  /\naśāśvataṃ śāśvataṃ ca kiṃ vā nobhayam apy atha",
+      "source_line_start": 1663,
+      "source_line_end": 1665
+    },
+    {
+      "verse_id": "v_25_24",
+      "adhyaya": 25,
+      "pada": 24,
+      "sutra_or_verse_num": "25.24",
+      "sanskrit_devanagari": "सर्वोपलम्भोपशमः प्रपञ्चोपशमः शिवः  /\nन क्व चित् कस्यचित् कश्चिद् धर्मो बुद्धेन देशितः",
+      "sanskrit_iast": "sarvopalambhopaśamaḥ prapañcopaśamaḥ śivaḥ  /\nna kva cit kasyacit kaścid dharmo buddhena deśitaḥ",
+      "source_line_start": 1667,
+      "source_line_end": 1669
+    },
+    {
+      "verse_id": "v_26_1",
+      "adhyaya": 26,
+      "pada": 1,
+      "sutra_or_verse_num": "26.1",
+      "sanskrit_devanagari": "***********************************************************\nपुनर्भवाय संस्कारान् अविद्यानिवृतस् त्रिधा  /\nअभिसंस्कुरुते यांस् तैर् गतिं गच्छति कर्मभिः",
+      "sanskrit_iast": "***********************************************************\npunarbhavāya saṃskārān avidyānivṛtas tridhā  /\nabhisaṃskurute yāṃs tair gatiṃ gacchati karmabhiḥ",
+      "source_line_start": 1671,
+      "source_line_end": 1675
+    },
+    {
+      "verse_id": "v_26_2",
+      "adhyaya": 26,
+      "pada": 2,
+      "sutra_or_verse_num": "26.2",
+      "sanskrit_devanagari": "विज्ञानं संनिविशते संस्कारप्रत्ययं गतौ  /\nसंनिविष्टे ऽथ विज्ञाने नामरूपं निषिच्यते",
+      "sanskrit_iast": "vijñānaṃ saṃniviśate saṃskārapratyayaṃ gatau  /\nsaṃniviṣṭe 'tha vijñāne nāmarūpaṃ niṣicyate",
+      "source_line_start": 1677,
+      "source_line_end": 1679
+    },
+    {
+      "verse_id": "v_26_3",
+      "adhyaya": 26,
+      "pada": 3,
+      "sutra_or_verse_num": "26.3",
+      "sanskrit_devanagari": "निषिक्ते नामरूपे तु षडायतनसंभवः  /\nषडायतनम् आगम्य संस्पर्शः संप्रवर्तते",
+      "sanskrit_iast": "niṣikte nāmarūpe tu ṣaḍāyatanasaṃbhavaḥ  /\nṣaḍāyatanam āgamya saṃsparśaḥ saṃpravartate",
+      "source_line_start": 1681,
+      "source_line_end": 1683
+    },
+    {
+      "verse_id": "v_26_4",
+      "adhyaya": 26,
+      "pada": 4,
+      "sutra_or_verse_num": "26.4",
+      "sanskrit_devanagari": "चक्षुः प्रतीत्य रूपं च समन्वाहारम् एव च  /\nनामरूपं प्रतीत्यैवं विज्ञानं संप्रवर्तते",
+      "sanskrit_iast": "cakṣuḥ pratītya rūpaṃ ca samanvāhāram eva ca  /\nnāmarūpaṃ pratītyaivaṃ vijñānaṃ saṃpravartate",
+      "source_line_start": 1685,
+      "source_line_end": 1687
+    },
+    {
+      "verse_id": "v_26_5",
+      "adhyaya": 26,
+      "pada": 5,
+      "sutra_or_verse_num": "26.5",
+      "sanskrit_devanagari": "संनिपातस् त्रयाणां यो रूपविज्ञानचक्षुषाम्  /\nस्पर्शः स तस्मात् स्पर्शाच् च वेदना संप्रवर्तते",
+      "sanskrit_iast": "saṃnipātas trayāṇāṃ yo rūpavijñānacakṣuṣām  /\nsparśaḥ sa tasmāt sparśāc ca vedanā saṃpravartate",
+      "source_line_start": 1689,
+      "source_line_end": 1691
+    },
+    {
+      "verse_id": "v_26_6",
+      "adhyaya": 26,
+      "pada": 6,
+      "sutra_or_verse_num": "26.6",
+      "sanskrit_devanagari": "वेदनाप्रत्यया तृष्णा वेदनार्थं हि तृष्यते  /\nतृष्यमाण उपादानम् उपादत्ते चतुर्विधम्",
+      "sanskrit_iast": "vedanāpratyayā tṛṣṇā vedanārthaṃ hi tṛṣyate  /\ntṛṣyamāṇa upādānam upādatte caturvidham",
+      "source_line_start": 1693,
+      "source_line_end": 1695
+    },
+    {
+      "verse_id": "v_26_7",
+      "adhyaya": 26,
+      "pada": 7,
+      "sutra_or_verse_num": "26.7",
+      "sanskrit_devanagari": "उपादाने सति भव उपादातुः प्रवर्तते  /\nस्याद् धि यद्य् अनुपादानो मुच्येत न भवेद् भवः",
+      "sanskrit_iast": "upādāne sati bhava upādātuḥ pravartate  /\nsyād dhi yady anupādāno mucyeta na bhaved bhavaḥ",
+      "source_line_start": 1697,
+      "source_line_end": 1699
+    },
+    {
+      "verse_id": "v_26_8",
+      "adhyaya": 26,
+      "pada": 8,
+      "sutra_or_verse_num": "26.8",
+      "sanskrit_devanagari": "पञ्च स्कन्धाः स च भवो भवाज् जातिः प्रवर्तते  /\nजरामरणदुःखादि शोकाः सपरिदेवनाः",
+      "sanskrit_iast": "pañca skandhāḥ sa ca bhavo bhavāj jātiḥ pravartate  /\njarāmaraṇaduḥkhādi śokāḥ saparidevanāḥ",
+      "source_line_start": 1701,
+      "source_line_end": 1703
+    },
+    {
+      "verse_id": "v_26_9",
+      "adhyaya": 26,
+      "pada": 9,
+      "sutra_or_verse_num": "26.9",
+      "sanskrit_devanagari": "दौर्मनस्यम् उपायासा जातेर् एतत् प्रवर्तते  /\nकेवलस्यैवम् एतस्य दुःखस्कन्धस्य संभवः",
+      "sanskrit_iast": "daurmanasyam upāyāsā jāter etat pravartate  /\nkevalasyaivam etasya duḥkhaskandhasya saṃbhavaḥ",
+      "source_line_start": 1705,
+      "source_line_end": 1707
+    },
+    {
+      "verse_id": "v_26_10",
+      "adhyaya": 26,
+      "pada": 10,
+      "sutra_or_verse_num": "26.10",
+      "sanskrit_devanagari": "संसारमूलं संस्कारान् अविद्वान् संस्करोत्य् अतः  /\nअविद्वान् कारकस् तस्मान् न विद्वांस् तत्त्वदर्शनात्",
+      "sanskrit_iast": "saṃsāramūlaṃ saṃskārān avidvān saṃskaroty ataḥ  /\navidvān kārakas tasmān na vidvāṃs tattvadarśanāt",
+      "source_line_start": 1709,
+      "source_line_end": 1711
+    },
+    {
+      "verse_id": "v_26_11",
+      "adhyaya": 26,
+      "pada": 11,
+      "sutra_or_verse_num": "26.11",
+      "sanskrit_devanagari": "अविद्यायां निरुद्धायां संस्काराणाम् असंभवः  /\nअविद्याया निरोधस् तु ज्ञानस्यास्यैव भावनात्",
+      "sanskrit_iast": "avidyāyāṃ niruddhāyāṃ saṃskārāṇām asaṃbhavaḥ  /\navidyāyā nirodhas tu jñānasyāsyaiva bhāvanāt",
+      "source_line_start": 1713,
+      "source_line_end": 1715
+    },
+    {
+      "verse_id": "v_26_12",
+      "adhyaya": 26,
+      "pada": 12,
+      "sutra_or_verse_num": "26.12",
+      "sanskrit_devanagari": "तस्य तस्य निरोधेन तत् तन् नाभिप्रवर्तते  /\nदुःखस्कन्धः केवलो ऽयम् एवं सम्यग् निरुध्यते",
+      "sanskrit_iast": "tasya tasya nirodhena tat tan nābhipravartate  /\nduḥkhaskandhaḥ kevalo 'yam evaṃ samyag nirudhyate",
+      "source_line_start": 1717,
+      "source_line_end": 1719
+    },
+    {
+      "verse_id": "v_27_1",
+      "adhyaya": 27,
+      "pada": 1,
+      "sutra_or_verse_num": "27.1",
+      "sanskrit_devanagari": "***********************************************************\nअभूम् अतीतम् अध्वानं नाभूवम् इति दृष्टयः  /\nयास् ताः शाश्वतलोकाद्याः पूर्वान्तं समुपाश्रिताः",
+      "sanskrit_iast": "***********************************************************\nabhūm atītam adhvānaṃ nābhūvam iti dṛṣṭayaḥ  /\nyās tāḥ śāśvatalokādyāḥ pūrvāntaṃ samupāśritāḥ",
+      "source_line_start": 1721,
+      "source_line_end": 1725
+    },
+    {
+      "verse_id": "v_27_2",
+      "adhyaya": 27,
+      "pada": 2,
+      "sutra_or_verse_num": "27.2",
+      "sanskrit_devanagari": "दृष्टयो न भविष्यामि किम् अन्यो ऽनागते ऽध्वनि  /\nभविष्यामीति चान्ताद्या अपरान्तं समाश्रिताः",
+      "sanskrit_iast": "dṛṣṭayo na bhaviṣyāmi kim anyo 'nāgate 'dhvani  /\nbhaviṣyāmīti cāntādyā aparāntaṃ samāśritāḥ",
+      "source_line_start": 1727,
+      "source_line_end": 1729
+    },
+    {
+      "verse_id": "v_27_3",
+      "adhyaya": 27,
+      "pada": 3,
+      "sutra_or_verse_num": "27.3",
+      "sanskrit_devanagari": "अभूम् अतीतम् अध्वानम् इत्य् एतन् नोपपद्यते  /\nयो हि जन्मसु पूर्वेषु स एव न भवत्य् अयम्",
+      "sanskrit_iast": "abhūm atītam adhvānam ity etan nopapadyate  /\nyo hi janmasu pūrveṣu sa eva na bhavaty ayam",
+      "source_line_start": 1731,
+      "source_line_end": 1733
+    },
+    {
+      "verse_id": "v_27_4",
+      "adhyaya": 27,
+      "pada": 4,
+      "sutra_or_verse_num": "27.4",
+      "sanskrit_devanagari": "स एवात्मेति तु भवेद् उपादानं विशिष्यते  /\nउपादानविनिर्मुक्त आत्मा ते कतमः पुनः",
+      "sanskrit_iast": "sa evātmeti tu bhaved upādānaṃ viśiṣyate  /\nupādānavinirmukta ātmā te katamaḥ punaḥ",
+      "source_line_start": 1735,
+      "source_line_end": 1737
+    },
+    {
+      "verse_id": "v_27_5",
+      "adhyaya": 27,
+      "pada": 5,
+      "sutra_or_verse_num": "27.5",
+      "sanskrit_devanagari": "उपादानविनिर्मुक्तो नास्त्य् आत्मेति कृते सति  /\nस्याद् उपादानम् एवात्मा नास्ति चात्मेति वः पुनः",
+      "sanskrit_iast": "upādānavinirmukto nāsty ātmeti kṛte sati  /\nsyād upādānam evātmā nāsti cātmeti vaḥ punaḥ",
+      "source_line_start": 1739,
+      "source_line_end": 1741
+    },
+    {
+      "verse_id": "v_27_6",
+      "adhyaya": 27,
+      "pada": 6,
+      "sutra_or_verse_num": "27.6",
+      "sanskrit_devanagari": "न चोपादानम् एवात्मा व्येति तत् समुदेति च  /\nकथं हि नामोपादानम् उपादाता भविष्यति",
+      "sanskrit_iast": "na copādānam evātmā vyeti tat samudeti ca  /\nkathaṃ hi nāmopādānam upādātā bhaviṣyati",
+      "source_line_start": 1743,
+      "source_line_end": 1745
+    },
+    {
+      "verse_id": "v_27_7",
+      "adhyaya": 27,
+      "pada": 7,
+      "sutra_or_verse_num": "27.7",
+      "sanskrit_devanagari": "अन्यः पुनर् उपादानाद् आत्मा नैवोपपद्यते  /\nगृह्येत ह्य् अनुपादानो यद्य् अन्यो न च गृह्यते",
+      "sanskrit_iast": "anyaḥ punar upādānād ātmā naivopapadyate  /\ngṛhyeta hy anupādāno yady anyo na ca gṛhyate",
+      "source_line_start": 1747,
+      "source_line_end": 1749
+    },
+    {
+      "verse_id": "v_27_8",
+      "adhyaya": 27,
+      "pada": 8,
+      "sutra_or_verse_num": "27.8",
+      "sanskrit_devanagari": "एवं नान्य उपादानान् न चोपादानम् एव सः  /\nआत्मा नास्त्य् अनुपादानो नापि नास्त्य् एष निश्चयः",
+      "sanskrit_iast": "evaṃ nānya upādānān na copādānam eva saḥ  /\nātmā nāsty anupādāno nāpi nāsty eṣa niścayaḥ",
+      "source_line_start": 1751,
+      "source_line_end": 1753
+    },
+    {
+      "verse_id": "v_27_9",
+      "adhyaya": 27,
+      "pada": 9,
+      "sutra_or_verse_num": "27.9",
+      "sanskrit_devanagari": "नाभूम् अतीतम् अध्वानम् इत्य् एतन् नोपपद्यते  /\nयो हि जन्मसु पूर्वेषु ततो ऽन्यो न भवत्य् अयम्",
+      "sanskrit_iast": "nābhūm atītam adhvānam ity etan nopapadyate  /\nyo hi janmasu pūrveṣu tato 'nyo na bhavaty ayam",
+      "source_line_start": 1755,
+      "source_line_end": 1757
+    },
+    {
+      "verse_id": "v_27_10",
+      "adhyaya": 27,
+      "pada": 10,
+      "sutra_or_verse_num": "27.10",
+      "sanskrit_devanagari": "यदि ह्य् अयं भवेद् अन्यः प्रत्याख्यायापि तं भवेत्  /\nतथैव च स संतिष्ठेत् तत्र जायेत चामृतः",
+      "sanskrit_iast": "yadi hy ayaṃ bhaved anyaḥ pratyākhyāyāpi taṃ bhavet  /\ntathaiva ca sa saṃtiṣṭhet tatra jāyeta cāmṛtaḥ",
+      "source_line_start": 1759,
+      "source_line_end": 1761
+    },
+    {
+      "verse_id": "v_27_11",
+      "adhyaya": 27,
+      "pada": 11,
+      "sutra_or_verse_num": "27.11",
+      "sanskrit_devanagari": "उच्छेदः कर्मणां नाशः कृतम् अन्येन कर्म च  /\nप्रतिसंवेदयेद् अन्य एवम् आदि प्रसज्यते",
+      "sanskrit_iast": "ucchedaḥ karmaṇāṃ nāśaḥ kṛtam anyena karma ca  /\npratisaṃvedayed anya evam ādi prasajyate",
+      "source_line_start": 1763,
+      "source_line_end": 1765
+    },
+    {
+      "verse_id": "v_27_12",
+      "adhyaya": 27,
+      "pada": 12,
+      "sutra_or_verse_num": "27.12",
+      "sanskrit_devanagari": "नाप्य् अभूत्वा समुद्भूतो दोषो ह्य् अत्र प्रसज्यते  /\nकृतको वा भवेद् आत्मा संभूतो वाप्य् अहेतुकः",
+      "sanskrit_iast": "nāpy abhūtvā samudbhūto doṣo hy atra prasajyate  /\nkṛtako vā bhaved ātmā saṃbhūto vāpy ahetukaḥ",
+      "source_line_start": 1767,
+      "source_line_end": 1769
+    },
+    {
+      "verse_id": "v_27_13",
+      "adhyaya": 27,
+      "pada": 13,
+      "sutra_or_verse_num": "27.13",
+      "sanskrit_devanagari": "एवं दृष्तिर् अतीते या नाभूम् अहम् अभूम् अहम्  /\nउभयं नोभयं चेति नैषा समुपपद्यते",
+      "sanskrit_iast": "evaṃ dṛṣtir atīte yā nābhūm aham abhūm aham  /\nubhayaṃ nobhayaṃ ceti naiṣā samupapadyate",
+      "source_line_start": 1771,
+      "source_line_end": 1773
+    },
+    {
+      "verse_id": "v_27_14",
+      "adhyaya": 27,
+      "pada": 14,
+      "sutra_or_verse_num": "27.14",
+      "sanskrit_devanagari": "अध्वन्य् अनागते किं नु भविष्यामीति दर्शनम्  /\nन भविष्यामि चेत्य् एतद् अतीतेनाध्वना समम्",
+      "sanskrit_iast": "adhvany anāgate kiṃ nu bhaviṣyāmīti darśanam  /\nna bhaviṣyāmi cety etad atītenādhvanā samam",
+      "source_line_start": 1775,
+      "source_line_end": 1777
+    },
+    {
+      "verse_id": "v_27_15",
+      "adhyaya": 27,
+      "pada": 15,
+      "sutra_or_verse_num": "27.15",
+      "sanskrit_devanagari": "स देवः स मनुष्यश् चेद् एवं भवति शाश्वतम्  /\nअनुत्पन्नश् च देवः स्याज् जायते न हि शाश्वतम्",
+      "sanskrit_iast": "sa devaḥ sa manuṣyaś ced evaṃ bhavati śāśvatam  /\nanutpannaś ca devaḥ syāj jāyate na hi śāśvatam",
+      "source_line_start": 1779,
+      "source_line_end": 1781
+    },
+    {
+      "verse_id": "v_27_16",
+      "adhyaya": 27,
+      "pada": 16,
+      "sutra_or_verse_num": "27.16",
+      "sanskrit_devanagari": "देवाद् अन्यो मनुष्यश् चेद् अशाश्वतम् अतो भवेत्  /\nदेवाद् अन्यो मनुष्यश् चेत् संततिर् नोपपद्यते",
+      "sanskrit_iast": "devād anyo manuṣyaś ced aśāśvatam ato bhavet  /\ndevād anyo manuṣyaś cet saṃtatir nopapadyate",
+      "source_line_start": 1783,
+      "source_line_end": 1785
+    },
+    {
+      "verse_id": "v_27_17",
+      "adhyaya": 27,
+      "pada": 17,
+      "sutra_or_verse_num": "27.17",
+      "sanskrit_devanagari": "दिव्यो यद्य् एकदेशः स्याद् एक्देशश् च मानुषः  /\nअशाश्वतं शाश्वतं च भवेत् तच् च न युज्यते",
+      "sanskrit_iast": "divyo yady ekadeśaḥ syād ekdeśaś ca mānuṣaḥ  /\naśāśvataṃ śāśvataṃ ca bhavet tac ca na yujyate",
+      "source_line_start": 1787,
+      "source_line_end": 1789
+    },
+    {
+      "verse_id": "v_27_18",
+      "adhyaya": 27,
+      "pada": 18,
+      "sutra_or_verse_num": "27.18",
+      "sanskrit_devanagari": "अशाश्वतं शाश्वतं च प्रसिद्धम् उभयं यदि  /\nसिद्धे न शाश्वतं कामं नैवाशाश्वतम् इत्य् अपि",
+      "sanskrit_iast": "aśāśvataṃ śāśvataṃ ca prasiddham ubhayaṃ yadi  /\nsiddhe na śāśvataṃ kāmaṃ naivāśāśvatam ity api",
+      "source_line_start": 1791,
+      "source_line_end": 1793
+    },
+    {
+      "verse_id": "v_27_19",
+      "adhyaya": 27,
+      "pada": 19,
+      "sutra_or_verse_num": "27.19",
+      "sanskrit_devanagari": "कुतश्चिद् आगतः कश्चित् किंचिद् गच्छेत् पुनः क्व चित्  /\nयदि तस्माद् अनादिस् तु संसारः स्यान् न चास्ति सः",
+      "sanskrit_iast": "kutaścid āgataḥ kaścit kiṃcid gacchet punaḥ kva cit  /\nyadi tasmād anādis tu saṃsāraḥ syān na cāsti saḥ",
+      "source_line_start": 1795,
+      "source_line_end": 1797
+    },
+    {
+      "verse_id": "v_27_20",
+      "adhyaya": 27,
+      "pada": 20,
+      "sutra_or_verse_num": "27.20",
+      "sanskrit_devanagari": "नास्ति चेच् छाश्वतः कश्चित् को भविष्यत्य् अशाश्वतः  /\nशाश्वतो ऽशाश्वतश् चापि द्वाभ्याम् आभ्यां तिरस्कृतः",
+      "sanskrit_iast": "nāsti cec chāśvataḥ kaścit ko bhaviṣyaty aśāśvataḥ  /\nśāśvato 'śāśvataś cāpi dvābhyām ābhyāṃ tiraskṛtaḥ",
+      "source_line_start": 1799,
+      "source_line_end": 1801
+    },
+    {
+      "verse_id": "v_27_21",
+      "adhyaya": 27,
+      "pada": 21,
+      "sutra_or_verse_num": "27.21",
+      "sanskrit_devanagari": "अन्तवान् यदि लोकः स्यात् परलोकः कथं भवेत्  /\nअथाप्य् अनन्तवाल् लोकः परलोकः कथं भवेत्",
+      "sanskrit_iast": "antavān yadi lokaḥ syāt paralokaḥ kathaṃ bhavet  /\nathāpy anantavāl lokaḥ paralokaḥ kathaṃ bhavet",
+      "source_line_start": 1803,
+      "source_line_end": 1805
+    },
+    {
+      "verse_id": "v_27_22",
+      "adhyaya": 27,
+      "pada": 22,
+      "sutra_or_verse_num": "27.22",
+      "sanskrit_devanagari": "स्कन्धानाम् एष संतानो यस्माद् दीपार्चिषाम् इव  /\nतस्मान् नानन्तवत्त्वं च नान्तवत्त्वं च युज्यते",
+      "sanskrit_iast": "skandhānām eṣa saṃtāno yasmād dīpārciṣām iva  /\ntasmān nānantavattvaṃ ca nāntavattvaṃ ca yujyate",
+      "source_line_start": 1807,
+      "source_line_end": 1809
+    },
+    {
+      "verse_id": "v_27_23",
+      "adhyaya": 27,
+      "pada": 23,
+      "sutra_or_verse_num": "27.23",
+      "sanskrit_devanagari": "पूर्वे यदि च भज्येरन्न् उत्पद्येरन् न चाप्य् अमी  /\nस्कन्धाः स्कन्धान् प्रतीत्येमान् अथ लोको ऽन्तवान् भवेत्",
+      "sanskrit_iast": "pūrve yadi ca bhajyerann utpadyeran na cāpy amī  /\nskandhāḥ skandhān pratītyemān atha loko 'ntavān bhavet",
+      "source_line_start": 1811,
+      "source_line_end": 1813
+    },
+    {
+      "verse_id": "v_27_24",
+      "adhyaya": 27,
+      "pada": 24,
+      "sutra_or_verse_num": "27.24",
+      "sanskrit_devanagari": "पूर्वे यदि न भज्येरन्न् उत्पद्येरन् न चाप्यमी  /\nस्कन्धाः स्कन्धान् प्रतीत्येमाल् लोको ऽनन्तो भवेद् अथ",
+      "sanskrit_iast": "pūrve yadi na bhajyerann utpadyeran na cāpyamī  /\nskandhāḥ skandhān pratītyemāl loko 'nanto bhaved atha",
+      "source_line_start": 1815,
+      "source_line_end": 1817
+    },
+    {
+      "verse_id": "v_27_25",
+      "adhyaya": 27,
+      "pada": 25,
+      "sutra_or_verse_num": "27.25",
+      "sanskrit_devanagari": "अन्तवान् एकदेशश् चेद् एकदेशस् त्व् अनन्तवान्  /\nस्याद् अन्तवान् अनन्तश् च लोकस् तच् च न युज्यते",
+      "sanskrit_iast": "antavān ekadeśaś ced ekadeśas tv anantavān  /\nsyād antavān anantaś ca lokas tac ca na yujyate",
+      "source_line_start": 1819,
+      "source_line_end": 1821
+    },
+    {
+      "verse_id": "v_27_26",
+      "adhyaya": 27,
+      "pada": 26,
+      "sutra_or_verse_num": "27.26",
+      "sanskrit_devanagari": "कथं तावद् उपादातुर् एकदेशो विनङ्क्ष्यते  /\nन नङ्क्ष्यते चैकदेश एवं चैतन् न युज्यते",
+      "sanskrit_iast": "kathaṃ tāvad upādātur ekadeśo vinaṅkṣyate  /\nna naṅkṣyate caikadeśa evaṃ caitan na yujyate",
+      "source_line_start": 1823,
+      "source_line_end": 1825
+    },
+    {
+      "verse_id": "v_27_27",
+      "adhyaya": 27,
+      "pada": 27,
+      "sutra_or_verse_num": "27.27",
+      "sanskrit_devanagari": "उपादानैकदेशश् च कथं नाम विनङ्क्ष्यते  /\nन नङ्क्ष्यते चैकदेशो नैतद् अप्य् उपपद्यते",
+      "sanskrit_iast": "upādānaikadeśaś ca kathaṃ nāma vinaṅkṣyate  /\nna naṅkṣyate caikadeśo naitad apy upapadyate",
+      "source_line_start": 1827,
+      "source_line_end": 1829
+    },
+    {
+      "verse_id": "v_27_28",
+      "adhyaya": 27,
+      "pada": 28,
+      "sutra_or_verse_num": "27.28",
+      "sanskrit_devanagari": "अन्तवच् चाप्य् अनन्तं च प्रसिद्धम् उभयं यदि  /\nसिद्धे नैवान्तवत् कामं नैवानन्तवद् इत्य् अपि",
+      "sanskrit_iast": "antavac cāpy anantaṃ ca prasiddham ubhayaṃ yadi  /\nsiddhe naivāntavat kāmaṃ naivānantavad ity api",
+      "source_line_start": 1831,
+      "source_line_end": 1833
+    },
+    {
+      "verse_id": "v_27_29",
+      "adhyaya": 27,
+      "pada": 29,
+      "sutra_or_verse_num": "27.29",
+      "sanskrit_devanagari": "अथ वा सर्वभावानां शून्यत्वाच् छाश्वतादयः  /\nक्व कस्य कतमाः कस्मात् संभविष्यन्ति दृष्टयः",
+      "sanskrit_iast": "atha vā sarvabhāvānāṃ śūnyatvāc chāśvatādayaḥ  /\nkva kasya katamāḥ kasmāt saṃbhaviṣyanti dṛṣṭayaḥ",
+      "source_line_start": 1835,
+      "source_line_end": 1837
+    },
+    {
+      "verse_id": "v_27_30",
+      "adhyaya": 27,
+      "pada": 30,
+      "sutra_or_verse_num": "27.30",
+      "sanskrit_devanagari": "सर्वदृष्टिप्रहाणाय यः सद्धर्मम् अदेशयत्  /\nअनुकम्पाम् उपादाय तं नमस्यामि गौतमम्",
+      "sanskrit_iast": "sarvadṛṣṭiprahāṇāya yaḥ saddharmam adeśayat  /\nanukampām upādāya taṃ namasyāmi gautamam",
+      "source_line_start": 1839,
+      "source_line_end": 1841
+    }
+  ],
+  "caveats": []
+}
