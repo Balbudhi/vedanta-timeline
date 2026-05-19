@@ -1,0 +1,47 @@
+{
+  "work_slug": "madhva_gita_tatparya_nirnaya",
+  "work_title_iast": "Gītā-Tātparya-Nirṇaya",
+  "thinker_id": "madhva",
+  "edition": "D. Prahlādācar (ed.), *Gītā-Tātparya-Nirṇaya of Ānandatīrtha-Bhagavatpādācārya, with the Nyāya-Dīpikā of Jayatīrtha and the Bhāva-Dīpa of Raghavendra-tīrtha*, Pūrṇaprajña Saṃśodhana Mandiram, Bangalore, 1987",
+  "year": "1987",
+  "editor": "D. Prahlādācar",
+  "publisher": "Pūrṇaprajña Saṃśodhana Mandiram, Bangalore",
+  "language_primary": "sanskrit",
+  "secondary_languages": [],
+  "script": "devanagari",
+  "commentaries_included": [
+    "Nyāya-Dīpikā (Jayatīrtha)",
+    "Bhāva-Dīpa (Rāghavendra-tīrtha)"
+  ],
+  "source_url": "https://archive.org/details/anandatirthabhagavatpadacharyavirachitahgitatatparyanirnayaheditedbydprahladachar1987",
+  "source_item_id": "anandatirthabhagavatpadacharyavirachitahgitatatparyanirnayaheditedbydprahladachar1987",
+  "license": "public_domain",
+  "expected_text_units": {
+    "kind": "verses",
+    "approximate_count": 700,
+    "source_for_estimate": "Madhva's prose tātparya-comments running through the Gītā's 700 ślokas plus three sub-commentaries"
+  },
+  "ground_truth_available": true,
+  "ground_truth_source": "Nagesh D. Sonde Sanskrit+English (archive.org `geeta-bhashya-tatparya-nirnaya-by-madhvacharya`) is a comparator for sense; Madhwapracharavedike has the Bannañje edition for textual cross-check.",
+  "first_page_visual_quality": "born_digital_text_likely",
+  "first_page_visual_quality_notes": "Heuristic (KB/page ~29): producer 'PDFsharp 1.50.4589' + 10.6 MB / 371 pp suggests a born-digital text or near-text PDF, not a high-DPI scan. Likely ideal for direct text extraction.",
+  "ocr_friendliness_notes": "If born-digital, pdftotext-grade. If image-PDF, low-DPI 1987 typescript — expect moderate OCR difficulty. Three commentaries stacked on one page require careful region segmentation.",
+  "priority_tier": "A7",
+  "downloaded_at": "2026-05-19",
+  "downloaded_by": "corpus-chat-lane3",
+  "sha256": "9b7e8f5a81142af98f402de920ffe572b5d4eec277cd670b407cc5bc7773955f",
+  "size_bytes": 10650865,
+  "pdfinfo": {
+    "pages": 371,
+    "page_size": "373.0 x 526.0 pts",
+    "encrypted": false,
+    "linearized": null,
+    "producer": "PDFsharp 1.50.4589 (www.pdfsharp.com)",
+    "creator": "NAPS2",
+    "title": "Отсканированное изображение"
+  },
+  "ocr_friendliness_score": 1,
+  "ia_filename": "AnandatIrtha-bhagavat-pAdAchArya-virachitaH-gItA-tAtparya-nirNayaH-edited by D-Prahladachar-1987.pdf",
+  "_acquisition_lane": "lane3-digitization-prep",
+  "_phase2_ocr_status": "not_started"
+}
