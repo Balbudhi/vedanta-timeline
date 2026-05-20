@@ -31,6 +31,17 @@ html, body {
   font-family: var(--kh-serif);
 }
 
+/* ---------- Hint above the lyrics ---------- */
+.song-hint {
+  margin: -48px 0 56px;
+  text-align: center;
+  font-family: var(--kh-serif);
+  font-size: 15px;
+  color: var(--kh-ink-soft);
+  letter-spacing: 0.02em;
+  font-weight: 400;
+}
+
 /* ---------- Hero ---------- */
 .song-hero {
   margin: 0 0 72px;
