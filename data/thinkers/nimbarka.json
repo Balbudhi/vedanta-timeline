@@ -69,6 +69,46 @@
       "entry_status": "reviewed",
       "source_status": "degraded-on-disk",
       "source_status_note": "Sanskrit text not on disk in clean form; the wave-2 Vrindavan 1905 three-commentary edition does not contain the Dasa-Sloki separately. Citations should be sourced via Roma Bose 1940 Vedanta-Parijata-Saurabha vol 1 introduction, OR via Bhandarkar 1913, Vaisnavism, Saivism and Minor Religious Systems."
+    },
+    {
+      "work_id": "krishna-stava-raja",
+      "title": "Krishna-Stava-Raja",
+      "title_iast": "Kṛṣṇa-Stava-Rāja",
+      "alternate_titles": [],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed to Nimbārka by the Sanaka-Sampradāya transmission; the school treats it as part of the Nimbārkīya devotional corpus complementing the doctrinal *Vedānta-Pārijāta-Saurabha*.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
+      ],
+      "genre": "stotra",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A devotional Sanskrit *stotra* on Kṛṣṇa traditionally ascribed to Nimbārka. The hymn is the principal *stotra*-form in which Nimbārka's *svābhāvika-bhedābheda* — the doctrine of natural simultaneous difference and non-difference between *jīva*, *jagat*, and Brahman — is articulated in devotional register, with Kṛṣṇa (jointly with Rādhā in the school's mature theology) as the supreme reality. The work supplies the affective complement to the school's doctrinal-philosophical front in the *Vedānta-Pārijāta-Saurabha* and is part of the Sanaka-Sampradāya's liturgical-devotional core.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "mantra-rahasya-shodashi",
+      "title": "Mantra-Rahasya-Shodashi",
+      "title_iast": "Mantra-Rahasya-Ṣoḍaśī",
+      "alternate_titles": [],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed to Nimbārka by the Sanaka-Sampradāya; sixteen verses on the school's mantra-rahasya doctrine.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
+      ],
+      "genre": "rahasya",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A sixteen-verse Sanskrit *rahasya*-text traditionally ascribed to Nimbārka, articulating the school's mantra-doctrine: the eighteen-syllable Kṛṣṇa-mantra of the Nimbārka tradition is treated as the *upāsanā*-vehicle through which the *jīva* realizes its *svābhāvika-bhedābheda* relation to Brahman. The work is short and condensed, in the *rahasya*-genre conventional to the Vaiṣṇava-Vedānta schools, and supplies the esoteric-initiatory complement to the doctrinal *Vedānta-Pārijāta-Saurabha* and the devotional *Kṛṣṇa-Stava-Rāja*. Within the school it functions analogously to Vallabha's *Ṣoḍaśa-Granthāḥ* in the Puṣṭi-mārga or the *rahasya*-corpus in Śrīvaiṣṇavism: a compressed esoteric pedagogical text.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
     }
   ],
   "key_passages": [
