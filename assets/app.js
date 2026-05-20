@@ -64,7 +64,6 @@ const LANE_ORDER = [
   "pancaratra-comparator",
   "virashaiva-comparator",
   "bhairava-tantra-comparator",
-  "cross-tradition",
 ];
 
 const LANE_DISPLAY = {
@@ -132,7 +131,6 @@ const COMPARATOR_LANES = [
   "kashmir-shaiva-dualist", "shakta-kalakula", "shakta-srividya",
   "pasupata-comparator", "pancaratra-comparator",
   "virashaiva-comparator", "bhairava-tantra-comparator",
-  "cross-tradition",
 ];
 const COMPARATOR_GROUP_KEY = "__comparator_group__";
 const COMPARATOR_GROUP_LABEL = "Other darśanas";
@@ -445,6 +443,11 @@ function laneIndex(token) {
 
 function isThinkerVisible(t) {
   const tok = t.school_color_token || "proto";
+  // Cross-tradition entries (Western interlocutors and modern comparators
+  // like Hegel, Leibniz, Bergson, Deleuze, Foucault, McGilchrist) remain
+  // in the corpus for article cross-references but do not appear as dots
+  // on the timeline — the timeline is for the Indic darśanas only.
+  if (tok === "cross-tradition") return false;
   if (VEDANTA_LANES.has(tok)) return state.visibleLanes.has(tok);
   return state.visibleLanes.has(COMPARATOR_GROUP_KEY);
 }
