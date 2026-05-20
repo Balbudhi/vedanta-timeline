@@ -23,9 +23,9 @@ html, body {
 }
 
 .song-page {
-  max-width: 860px;
+  max-width: 760px;
   margin: 0 auto;
-  padding: 80px 40px 140px;
+  padding: 80px 36px 140px;
   color: var(--kh-ink);
   font-family: var(--kh-serif);
 }
@@ -39,11 +39,11 @@ html, body {
 }
 .song-title {
   font-family: var(--kh-serif);
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
-  font-size: 50px;
+  font-size: 48px;
   line-height: 1.15;
-  margin: 0 0 18px;
+  margin: 0 0 16px;
   color: var(--kh-ink);
   letter-spacing: 0.005em;
 }
@@ -137,31 +137,30 @@ html, body {
 
 /* ---------- Line block ---------- */
 .line {
-  margin: 0 0 38px;
-  padding: 10px 18px;
-  margin-left: -18px;
-  margin-right: -18px;
-  text-align: center;
-  border-top: 1px solid transparent;
-  transition: background-color 240ms ease, border-top-color 240ms ease;
+  margin: 0 0 36px;
+  padding: 6px 16px;
+  margin-left: -16px;
+  margin-right: -16px;
+  text-align: left;
+  border-radius: 4px;
+  transition: background-color 280ms ease;
 }
 .line.is-singing {
-  background: rgba(244, 234, 208, 0.05);
-  border-top-color: var(--kh-rule);
+  background: rgba(244, 234, 208, 0.06);
 }
 .line-roman {
   font-family: var(--kh-serif);
   font-size: 25px;
   line-height: 1.5;
   color: var(--kh-ink);
-  margin: 0 0 10px;
+  margin: 0 0 8px;
   letter-spacing: 0.005em;
-  font-weight: 500;
+  font-weight: 400;
 }
 .line-english {
   font-family: var(--kh-serif);
   font-style: normal;
-  font-size: 22px;
+  font-size: 21px;
   line-height: 1.55;
   color: var(--kh-ink-soft);
   margin: 0;
@@ -217,21 +216,22 @@ html, body {
   color: var(--kh-ink);
 }
 
-/* ---------- Word tooltip (DARK red, cream text) ---------- */
+/* ---------- Word tooltip ---------- */
 .word-tooltip {
   position: absolute;
   z-index: 50;
   max-width: 340px;
-  padding: 11px 15px;
+  padding: 12px 16px;
   font-family: var(--kh-serif);
-  font-style: italic;
+  font-style: normal;
   font-size: 17px;
   line-height: 1.5;
   color: var(--kh-ink);
-  background: var(--kh-bg);
-  border: 1px solid rgba(244, 234, 208, 0.35);
-  border-radius: 3px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.40);
+  background: #1a0306;                /* darker than body for clear separation */
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.55),
+              0 2px 8px  rgba(0, 0, 0, 0.30);
   pointer-events: none;
 }
 
@@ -241,9 +241,9 @@ html, body {
   .song-title { font-size: 38px; line-height: 1.15; }
   .song-attrib em { font-size: 18px; }
   .song-hero { margin-bottom: 56px; padding-bottom: 28px; }
-  .line { margin-bottom: 32px; padding: 6px 14px; margin-left: -14px; margin-right: -14px; }
-  .line-roman { font-size: 22px; line-height: 1.55; }
-  .line-english { font-size: 20px; line-height: 1.55; }
+  .line { margin-bottom: 32px; padding: 5px 12px; margin-left: -12px; margin-right: -12px; }
+  .line-roman { font-size: 22px; line-height: 1.55; font-weight: 400; }
+  .line-english { font-size: 19px; line-height: 1.55; }
   .rep { font-size: 15px; padding: 2px 11px; margin-left: 12px; }
   .word-tooltip {
     max-width: 82vw;
