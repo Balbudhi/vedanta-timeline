@@ -2235,7 +2235,8 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
   border-color: var(--ink);
   background: var(--bg-warm);
 }
-.articles-modal-inner .close-btn {
+.articles-modal-inner .close-btn,
+.about-card .close-btn {
   position: absolute;
   top: 12px;
   right: 14px;
@@ -3219,92 +3220,91 @@ sup.cite-fn .cite-fn-link:hover {
 }
 
 /* =============================================================
-   DARK THEME
+   DARK THEME — truly-black palette
    ============================================================= */
-/* Dark palette. Off-white on warm deep-charcoal (not pure black on
-   pure white) — this is a content-heavy reading site with diacritic-
-   heavy IAST text, and pure-black backgrounds wash out the marks.
-   Applied via the [data-theme="dark"] attribute set on <html> by
-   app.js. Every color token defined in :root is overridden here. */
+/* True dark theme: near-pure black canvas, surface elevations are
+   subtle warm-grey steps (not brown plateaus), accent colors are
+   saturated enough to read clearly on the deep ground. */
 html[data-theme="dark"] {
-  --bg:           #13110e;
-  --bg-warm:      #1c1a16;
-  --bg-warmer:    #25221c;
-  --pane-bg:      #17150f;
-  --ink:          #e8e4d8;
-  --ink-soft:     #cfcbbf;
-  --muted:        #8d8879;
-  --muted-soft:   #6a6657;
-  --rule:         #2d2a23;
-  --rule-warm:    #38342c;
-  --hairline:     #24221c;
-  --shadow-sm:    0 1px 3px rgba(0,0,0,.38);
-  --shadow-md:    0 4px 12px rgba(0,0,0,.45);
+  --bg:           #050505;
+  --bg-warm:      #0c0c0b;
+  --bg-warmer:    #131312;
+  --pane-bg:      #080807;
+  --ink:          #ece8d8;
+  --ink-soft:     #b5b0a0;
+  --muted:        #6e695c;
+  --muted-soft:   #4a463c;
+  --rule:         #1f1d18;
+  --rule-warm:    #2a2820;
+  --hairline:     #15140f;
+  --shadow-sm:    0 1px 3px rgba(0,0,0,.6);
+  --shadow-md:    0 6px 18px rgba(0,0,0,.7);
+  --shadow-lg:    0 18px 44px rgba(0,0,0,.75);
 
-  --label-bg:     rgba(28,26,22,0.92);
-  --label-bg-soft: rgba(28,26,22,0.82);
-  --close-btn-bg: rgba(28,26,22,0.95);
-  --scrollbar-thumb: #3a352c;
-  --scrollbar-thumb-hover: #57513f;
-  --dot-border:   #13110e;
-  --on-ink:       #13110e;
+  --label-bg:     rgba(10,10,9,0.96);
+  --label-bg-soft: rgba(10,10,9,0.86);
+  --close-btn-bg: transparent;
+  --scrollbar-thumb: #2c2a22;
+  --scrollbar-thumb-hover: #45413a;
+  --dot-border:   #050505;
+  --on-ink:       #050505;
 
-  /* School palette — desaturated + brightened so colored chips and
-     dots stay legible on the dark canvas. Same hues, lifted L*. */
-  --c-advaita: #6ea3f8;
-  --c-vishishtadvaita: #50c298;
-  --c-dvaita: #f0a651;
-  --c-bhedabheda: #c79df6;
-  --c-acintya: #f48abb;
-  --c-shuddha: #f06e8f;
-  --c-avibhaga: #5fc6dc;
-  --c-trika: #a3b1c8;
-  --c-cross: #a3b1c8;
-  --c-proto: #a8a39a;
+  /* School palette — saturated to register as accents on the deep
+     canvas, not pastel washouts. */
+  --c-advaita: #82b6ff;
+  --c-vishishtadvaita: #4dd49c;
+  --c-dvaita: #ffae5c;
+  --c-bhedabheda: #cfa6ff;
+  --c-acintya: #ff96c5;
+  --c-shuddha: #ff7a96;
+  --c-avibhaga: #5fd0e5;
+  --c-trika: #b5c2da;
+  --c-cross: #b5c2da;
+  --c-proto: #ada89e;
 }
 
-/* Subtle overrides for surfaces that are intentionally pale-warm
-   (notes, callouts, perspective bubbles). Map them to dark warm
-   surfaces so the visual "callout" intent is preserved. */
+/* Surface elevation: cards lift modestly off the canvas. */
 html[data-theme="dark"] .work-card { background: var(--bg-warm); }
 html[data-theme="dark"] .compclaim-card { background: var(--bg-warm); }
-html[data-theme="dark"] .source-status--present { background: #16241a; color: #7adc97; }
+html[data-theme="dark"] .source-status--present { background: #0c1f13; color: #6fd897; }
 html[data-theme="dark"] .source-status--present .dot { background: #4ade80; }
-html[data-theme="dark"] .source-status--missing { background: #2a1f10; color: #f0bb6c; }
+html[data-theme="dark"] .source-status--missing { background: #1f1408; color: #f0a955; }
 html[data-theme="dark"] .source-status--missing .dot { background: #f59e0b; }
 
-/* Translator-note and pending-acquisition warm cream surfaces. */
+/* Translator notes / pending callouts — deep elevated surface with
+   a 1px rule, not a sepia patch. */
 html[data-theme="dark"] .glossary-popover .gp-translator,
 html[data-theme="dark"] .citation-popover .cp-pending,
 html[data-theme="dark"] .perspective-bubble,
 html[data-theme="dark"] .compclaim-note,
 html[data-theme="dark"] .articles-modal .articles-list .article-card,
 html[data-theme="dark"] .perspective-card {
-  background: #251c10;
+  background: #100f0d;
   color: var(--ink);
+  border: 1px solid var(--rule);
 }
 
-/* Verdict pills — keep the hue, darken the surface. */
+/* Verdict pills — saturated fg on a near-black tinted surface. */
 html[data-theme="dark"] .compclaim-card[data-verdict="genuine-disagreement"],
 html[data-theme="dark"] .compclaim-card[data-verdict="real-disagreement"] {
-  --verdict-color: #f87171; --verdict-bg: #311414; --verdict-fg: #fca5a5;
+  --verdict-color: #ff6b6b; --verdict-bg: #1a0a0a; --verdict-fg: #ff9a9a;
 }
 html[data-theme="dark"] .compclaim-card[data-verdict="terminological"],
 html[data-theme="dark"] .compclaim-card[data-verdict="terminological-equivalence"] {
-  --verdict-color: #93c5fd; --verdict-bg: #13213a; --verdict-fg: #bfdbfe;
+  --verdict-color: #82b6ff; --verdict-bg: #0a1322; --verdict-fg: #b8d4ff;
 }
 html[data-theme="dark"] .compclaim-card[data-verdict="parallel-structure"],
 html[data-theme="dark"] .compclaim-card[data-verdict="shared-presupposition"] {
-  --verdict-color: #6ee7b7; --verdict-bg: #122a20; --verdict-fg: #a7f3d0;
+  --verdict-color: #4dd49c; --verdict-bg: #081a12; --verdict-fg: #95ecc0;
 }
 html[data-theme="dark"] .compclaim-card[data-verdict="contested"] {
-  --verdict-color: #fbbf24; --verdict-bg: #2a1d0b; --verdict-fg: #fde68a;
+  --verdict-color: #ffae5c; --verdict-bg: #190f04; --verdict-fg: #ffd190;
 }
 
-/* Glossary popover school-framing tints. */
+/* Glossary popover school-framing — quiet steel-blue, not warm. */
 html[data-theme="dark"] .glossary-popover .gp-framing {
-  background: #1a1f2a;
-  border-left-color: #7a96c8;
+  background: #0c1019;
+  border-left-color: #6f8fc0;
 }
 html[data-theme="dark"] .glossary-popover .gp-framing-status,
 html[data-theme="dark"] .glossary-popover .gp-shared-core { color: var(--ink); }
@@ -3312,20 +3312,25 @@ html[data-theme="dark"] .glossary-popover .gp-axes { color: var(--ink-soft); }
 html[data-theme="dark"] .glossary-popover .gp-regtag {
   color: var(--ink-soft); background: var(--bg-warmer);
 }
-html[data-theme="dark"] .glossary-popover .gp-translator .gp-label { color: #f0bb6c; }
+html[data-theme="dark"] .glossary-popover .gp-translator .gp-label { color: #f0a955; }
 
 /* Coverage pills inside translation pane. */
-html[data-theme="dark"] .dp-translation-body .tx-coverage-full .tx-coverage-tag { color: #7adc97; background: #16241a; }
-html[data-theme="dark"] .dp-translation-body .tx-coverage-selection .tx-coverage-tag { color: #f0bb6c; background: #2a1f10; }
-html[data-theme="dark"] .dp-translation-body .tx-coverage-placeholder .tx-coverage-tag { color: #f48aaa; background: #2a1314; }
+html[data-theme="dark"] .dp-translation-body .tx-coverage-full .tx-coverage-tag { color: #6fd897; background: #0c1f13; }
+html[data-theme="dark"] .dp-translation-body .tx-coverage-selection .tx-coverage-tag { color: #f0a955; background: #1f1408; }
+html[data-theme="dark"] .dp-translation-body .tx-coverage-placeholder .tx-coverage-tag { color: #ff8aa5; background: #1f0b0c; }
 
-/* Close button on mobile — pale background ring */
-html[data-theme="dark"] .close-btn { background: var(--close-btn-bg); }
+/* Close button — flat icon, no fill. The previous "pale background
+   ring" treatment read as a heavy pill against the dark canvas. */
+html[data-theme="dark"] .close-btn {
+  background: transparent;
+  color: var(--ink-soft);
+}
+html[data-theme="dark"] .close-btn:hover { color: var(--ink); background: transparent; }
 
 /* Solo-filter pill hover */
 html[data-theme="dark"] .filter-solo-pill:hover { background: var(--ink); color: var(--on-ink); }
 
-/* "Perspective open" CTA — keep the strong fill but in inverse */
+/* "Perspective open" CTA — strong fill in inverse */
 html[data-theme="dark"] .perspective-open { background: var(--ink); color: var(--on-ink); }
 html[data-theme="dark"] .perspective-open:hover { background: var(--ink-soft); }
 
@@ -3333,13 +3338,23 @@ html[data-theme="dark"] .perspective-open:hover { background: var(--ink-soft); }
 html[data-theme="dark"] .network-legend { background: var(--bg-warm); }
 
 /* SVG timeline strokes use a few hard-coded greys. */
-html[data-theme="dark"] .lineage-edge--polemical { stroke: #6a7280; }
+html[data-theme="dark"] .lineage-edge--polemical { stroke: #50534a; }
 
-/* Topbar sticky background — keep solid for legibility while panning */
-html[data-theme="dark"] .topbar { background: var(--bg); }
+/* Topbar — exactly the canvas color, no perceptible band. */
+html[data-theme="dark"] .topbar {
+  background: var(--bg);
+  border-bottom-color: var(--hairline);
+}
 
-/* Modals: backdrop dim */
+/* Lane-rail group row — make the comparator group blend into the
+   canvas rather than reading as a separate "elevated" lane. */
+html[data-theme="dark"] .lane-row.lane-row--group {
+  background: var(--bg-warm);
+}
+html[data-theme="dark"] .lane-row.lane-row--group:hover { background: var(--bg-warmer); }
+
+/* Modals: pure-black backdrop dim */
 html[data-theme="dark"] .articles-modal,
 html[data-theme="dark"] .about-modal {
-  background: rgba(0,0,0,0.65);
+  background: rgba(0,0,0,0.78);
 }

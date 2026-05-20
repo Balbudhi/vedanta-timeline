@@ -199,7 +199,7 @@ const state = {
   // Filter state: which top-level lane tokens are currently visible.
   // Comparator group is a single virtual lane until expanded.
   visibleLanes: new Set([...VEDANTA_LANES, COMPARATOR_GROUP_KEY]),
-  comparatorExpanded: false,
+  comparatorExpanded: true,
   // Effective render order, recomputed when filter / expansion changes.
   renderLanes: [],
   laneToIndex: new Map(),
@@ -4265,13 +4265,13 @@ function renderMarkdownFull(src) {
     const sk = skMatch ? skMatch[1].trim() : "";
     const en = enMatch ? enMatch[1].trim() : "";
     asides.push({ sk, en, sourceLang });
-    return ` SKASIDE${asides.length - 1} `;
+    return `SKASIDE${asides.length - 1}`;
   });
   // Pull out fenced code blocks (preserve verbatim).
   const blocks = [];
   src = src.replace(/```([\s\S]*?)```/g, (_, body) => {
     blocks.push(`<pre><code>${esc(body)}</code></pre>`);
-    return ` BLOCK${blocks.length-1} `;
+    return `BLOCK${blocks.length-1}`;
   });
   // Tables (simple GFM)
   src = src.replace(/((?:^\|.*\|\s*\n)+)/gm, (m) => {
@@ -4294,7 +4294,7 @@ function renderMarkdownFull(src) {
     (_m, visible, key) => {
       const i = citeStash.length;
       citeStash.push({ visible, key });
-      return ` CITESTASH${i} `;
+      return `CITESTASH${i}`;
     },
   );
   const linkStash = [];
@@ -4303,7 +4303,7 @@ function renderMarkdownFull(src) {
     (_m, visible, href) => {
       const i = linkStash.length;
       linkStash.push({ visible, href });
-      return ` LINKSTASH${i} `;
+      return `LINKSTASH${i}`;
     },
   );
   // Standard markdown
@@ -4324,17 +4324,17 @@ function renderMarkdownFull(src) {
     out = out.replace(state.glossaryRegex, (m) => `<span class="term" data-term="${escape(m)}">${m}</span>`);
   }
   // Re-inflate citation + link placeholders.
-  out = out.replace(/ CITESTASH(\d+) /g, (_m, i) => {
+  out = out.replace(/CITESTASH(\d+)/g, (_m, i) => {
     const c = citeStash[+i];
     return `<a href="cite://${c.key}" class="cite-link">${c.visible}</a>`;
   });
-  out = out.replace(/ LINKSTASH(\d+) /g, (_m, i) => {
+  out = out.replace(/LINKSTASH(\d+)/g, (_m, i) => {
     const l = linkStash[+i];
     return `<a href="${l.href}" target="_blank" rel="noopener">${l.visible}</a>`;
   });
   // restore code blocks and sanskrit-aside blocks
-  out = out.replace(/ BLOCK(\d+) /g, (_, i) => blocks[+i]);
-  out = out.replace(/ SKASIDE(\d+) /g, (_, i) => {
+  out = out.replace(/BLOCK(\d+)/g, (_, i) => blocks[+i]);
+  out = out.replace(/SKASIDE(\d+)/g, (_, i) => {
     const a = asides[+i];
     // Recursively render each pane so inline markdown / cite links / glossary
     // tagging work inside the panes.
