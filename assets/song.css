@@ -17,20 +17,10 @@ html, body {
   background: var(--bg-warm);
 }
 
-/* Thin red bar at the top of the page. */
-body::before {
-  content: "";
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  height: 3px;
-  background: linear-gradient(90deg, var(--kh-red-deep) 0%, var(--kh-red) 40%, #d97706 80%, #f5b800 100%);
-  z-index: 100;
-}
-
 .song-page {
-  max-width: 720px;
+  max-width: 760px;
   margin: 0 auto;
-  padding: 72px 28px 120px;
+  padding: 64px 30px 120px;
   color: var(--ink);
   font-family: var(--serif);
 }
@@ -46,62 +36,55 @@ body::before {
   font-family: var(--serif);
   font-weight: 500;
   font-style: italic;
-  font-size: 42px;
+  font-size: 50px;
   line-height: 1.1;
-  margin: 0 0 14px;
+  margin: 0 0 16px;
   color: var(--kh-red-deep);
   letter-spacing: -0.005em;
 }
 .song-attrib {
-  font-family: var(--sans);
-  font-size: 12.5px;
-  color: var(--muted);
   margin: 0;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  font-weight: 500;
 }
 .song-attrib em {
   font-family: var(--serif);
   font-style: italic;
   font-weight: 500;
-  text-transform: none;
-  letter-spacing: 0;
   color: var(--kh-red);
-  font-size: 14px;
+  font-size: 19px;
+  letter-spacing: 0.01em;
 }
 
 /* ---------- Section labels (Refrain, I, II, ...) ---------- */
 .section-label {
   font-family: var(--sans);
-  font-size: 10.5px;
+  font-size: 11.5px;
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--kh-red);
-  margin: 48px 0 20px;
-  padding-bottom: 8px;
+  margin: 52px 0 22px;
+  padding-bottom: 9px;
   border-bottom: 1px solid var(--kh-red-soft);
 }
 .song-root > .section-label:first-child { margin-top: 0; }
 
 /* ---------- Line card ---------- */
 .line {
-  margin: 0 0 24px;
+  margin: 0 0 28px;
   padding: 0;
 }
 .line-roman {
   font-family: var(--serif);
-  font-size: 20px;
+  font-size: 23px;
   line-height: 1.45;
   color: var(--ink);
-  margin: 0 0 6px;
+  margin: 0 0 7px;
   letter-spacing: 0.002em;
 }
 .line-english {
   font-family: var(--serif);
   font-style: italic;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.55;
   color: var(--ink-soft);
   margin: 0;
@@ -110,10 +93,10 @@ body::before {
 /* Repetition badge. */
 .rep {
   display: inline-block;
-  margin-left: 10px;
-  padding: 1px 8px;
+  margin-left: 12px;
+  padding: 2px 9px;
   font-family: var(--sans);
-  font-size: 10.5px;
+  font-size: 11.5px;
   font-weight: 600;
   letter-spacing: 0.04em;
   color: var(--kh-red);
@@ -162,11 +145,11 @@ body::before {
 .word-tooltip {
   position: absolute;
   z-index: 50;
-  max-width: 300px;
-  padding: 8px 12px;
+  max-width: 320px;
+  padding: 9px 13px;
   font-family: var(--serif);
   font-style: italic;
-  font-size: 14.5px;
+  font-size: 16px;
   line-height: 1.45;
   color: var(--ink);
   background: #fffdf7;
@@ -178,20 +161,19 @@ body::before {
 
 /* ---------- Mobile ---------- */
 @media (max-width: 720px) {
-  .song-page { padding: 40px 18px 80px; }
-  .song-title { font-size: 30px; }
-  .song-attrib { font-size: 11.5px; }
-  .song-attrib em { font-size: 13.5px; }
-  .section-label { font-size: 10px; margin: 40px 0 16px; }
-  .line { margin-bottom: 22px; }
-  .line-roman { font-size: 18px; line-height: 1.5; }
-  .line-english { font-size: 15px; line-height: 1.55; }
-  .rep { font-size: 10px; padding: 1px 7px; }
+  .song-page { padding: 40px 20px 80px; }
+  .song-title { font-size: 34px; }
+  .song-attrib em { font-size: 17px; }
+  .section-label { font-size: 10.5px; margin: 42px 0 18px; }
+  .line { margin-bottom: 24px; }
+  .line-roman { font-size: 20px; line-height: 1.5; }
+  .line-english { font-size: 16.5px; line-height: 1.55; }
+  .rep { font-size: 11px; padding: 1px 8px; }
   .word-tooltip {
-    max-width: 78vw;
-    font-size: 15.5px;
+    max-width: 80vw;
+    font-size: 16.5px;
     line-height: 1.5;
-    padding: 10px 14px;
+    padding: 11px 14px;
   }
 }
 
