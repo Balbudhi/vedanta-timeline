@@ -133,6 +133,93 @@ a { color: inherit; }
   border-color: var(--ink);
 }
 
+/* Glossary search field. Sits in the topbar between the icon buttons
+   and the right edge; on narrow viewports it collapses to icon-only
+   until focused. Results render absolutely-positioned beneath the
+   topbar as a fixed-position popover (managed by popoverManager). */
+.topbar-search {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  height: 32px;
+  padding: 0 10px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: var(--bg);
+  flex-shrink: 1;
+  min-width: 0;
+  max-width: 240px;
+  transition: border-color 140ms ease;
+}
+.topbar-search:focus-within { border-color: var(--ink); }
+.topbar-search-icon { color: var(--muted); flex-shrink: 0; margin-right: 6px; }
+.topbar-search input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: var(--sans);
+  font-size: 12.5px;
+  color: var(--ink);
+  width: 100%;
+  min-width: 0;
+}
+.topbar-search input::placeholder { color: var(--muted); }
+.topbar-search-results {
+  position: fixed;
+  top: calc(var(--topbar-h) + 4px);
+  right: 14px;
+  width: min(420px, calc(100vw - 28px));
+  max-height: min(420px, calc(100dvh - var(--topbar-h) - 24px));
+  overflow-y: auto;
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  box-shadow: 0 14px 38px rgba(0,0,0,0.14);
+  z-index: 340;
+}
+.topbar-search-results[hidden] { display: none; }
+.topbar-search-result {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 9px 14px;
+  cursor: pointer;
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--ink);
+  border-bottom: 1px solid var(--hairline);
+  transition: background 120ms ease;
+}
+.topbar-search-result:last-child { border-bottom: none; }
+.topbar-search-result:hover,
+.topbar-search-result.is-active {
+  background: var(--bg-warm);
+}
+.topbar-search-result .ts-term {
+  font-weight: 600;
+  font-family: var(--serif);
+  font-size: 14.5px;
+}
+.topbar-search-result .ts-gloss {
+  display: block;
+  margin-top: 2px;
+  font-size: 11.5px;
+  color: var(--muted);
+  font-family: var(--sans);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.topbar-search-empty {
+  padding: 12px 14px;
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--muted);
+  font-style: italic;
+}
+
 /* =============================================================
    STAGE / PANES
    ============================================================= */
@@ -208,19 +295,36 @@ body.is-space-pan .timeline-scroller * { cursor: grab !important; }
   margin-top: var(--era-strip-h);
 }
 
-/* sticky lane rail */
+/* horizontally-sticky lane rail.
+   IMPORTANT: `top` MUST NOT be set. With both `left` and `top` the rail
+   pins vertically as well as horizontally, which makes the labels stop
+   tracking the dots underneath when the user scrolls down — the labels
+   stay glued to the top of the scroller while the dots scroll past.
+   That desync was the visible symptom of clicking the "Other darśanas"
+   group to expand the comparator sub-lanes: layout grew, `scrollTop`
+   clamped to a non-zero value, sticky-vertical pinning engaged, and
+   the rail rows stopped matching the dot rows underneath. Keep `left:0`
+   only so the rail follows horizontal pan but moves with vertical scroll.
+
+   To keep rail row 0 aligned with canvas row 0 (the canvas sits below
+   the sticky era-strip, so its content starts at `--era-strip-h`),
+   give the rail a matching `margin-top` instead of the previous
+   "negative margin + padding" hack (which only worked because it relied
+   on vertical sticky pinning to re-set the baseline). */
 .lane-rail {
   position: sticky;
   left: 0;
-  top: var(--era-strip-h);
   width: var(--lane-rail-w);
   background: var(--bg);
   border-right: 1px solid var(--rule);
   box-shadow: 2px 0 6px rgba(0,0,0,.04);
   z-index: 8;
   float: left;
-  margin-top: calc(-1 * var(--era-strip-h));   /* align to top of canvas */
-  padding-top: var(--era-strip-h);
+  /* Rail's first row must sit at the same in-flow y as the canvas's
+     first dot row. The canvas is positioned at era-strip-h (sticky strip
+     above it) + era-strip-h (its own margin-top) = 2 * era-strip-h below
+     the scroller content origin. Match that exactly with margin-top. */
+  margin-top: calc(2 * var(--era-strip-h));
   /* Stack rows in a strict column. Each row is locked to --lane-h, so
      the rail's vertical positions are guaranteed to match the dot layer's
      lane_index * --lane-h offsets regardless of how many sub-rows the

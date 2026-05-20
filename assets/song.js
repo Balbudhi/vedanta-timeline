@@ -584,7 +584,60 @@ function setupKaraoke() {
   });
 }
 
+/* =============================================================
+   AUDIO PLAYER — custom controls bound to the hidden <audio>
+   ============================================================= */
+
+function fmtTime(s) {
+  if (!isFinite(s)) return "—:—";
+  const m = Math.floor(s / 60);
+  const sec = Math.floor(s % 60).toString().padStart(2, "0");
+  return `${m}:${sec}`;
+}
+
+function setupAudioPlayer() {
+  const audio   = document.getElementById("songAudio");
+  const btn     = document.getElementById("apPlayPause");
+  const progEl  = document.getElementById("apProgress");
+  const barEl   = document.getElementById("apProgressBar");
+  const tCurEl  = document.getElementById("apTimeCurrent");
+  const tTotEl  = document.getElementById("apTimeTotal");
+  if (!audio || !btn) return;
+
+  btn.addEventListener("click", () => {
+    if (audio.paused) audio.play();
+    else audio.pause();
+  });
+  audio.addEventListener("play",  () => { btn.classList.add("is-playing");    btn.setAttribute("aria-label", "Pause"); });
+  audio.addEventListener("pause", () => { btn.classList.remove("is-playing"); btn.setAttribute("aria-label", "Play");  });
+
+  audio.addEventListener("loadedmetadata", () => {
+    tTotEl.textContent = fmtTime(audio.duration);
+  });
+  audio.addEventListener("timeupdate", () => {
+    const pct = audio.duration ? (audio.currentTime / audio.duration) * 100 : 0;
+    barEl.style.width = pct + "%";
+    tCurEl.textContent = fmtTime(audio.currentTime);
+  });
+
+  progEl.addEventListener("click", e => {
+    if (!audio.duration) return;
+    const r = progEl.getBoundingClientRect();
+    audio.currentTime = ((e.clientX - r.left) / r.width) * audio.duration;
+  });
+
+  // Spacebar play/pause when not focused in a form field.
+  document.addEventListener("keydown", e => {
+    if (e.key !== " " && e.code !== "Space") return;
+    const t = e.target;
+    if (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable)) return;
+    e.preventDefault();
+    if (audio.paused) audio.play(); else audio.pause();
+  });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   render();
+  setupAudioPlayer();
   setupKaraoke();
 });

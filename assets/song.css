@@ -11,6 +11,11 @@
   --kh-saffron-deep:#8a5408;
   --kh-amber:      #ffe18a;
   --kh-amber-soft: #fff4d1;
+
+  /* Page-local font overrides. Lora for body (warm humanist serif),
+     Cormorant Garamond for the title (devotional display). */
+  --kh-serif:        "Lora", "EB Garamond", Georgia, "Times New Roman", serif;
+  --kh-display:      "Cormorant Garamond", "EB Garamond", Georgia, serif;
 }
 
 html, body {
@@ -20,9 +25,9 @@ html, body {
 .song-page {
   max-width: 760px;
   margin: 0 auto;
-  padding: 64px 30px 120px;
+  padding: 56px 30px 140px;   /* extra bottom padding so fixed player doesn't cover the last line */
   color: var(--ink);
-  font-family: var(--serif);
+  font-family: var(--kh-serif);
 }
 
 /* ---------- Hero ---------- */
@@ -33,12 +38,12 @@ html, body {
   text-align: center;
 }
 .song-title {
-  font-family: var(--serif);
+  font-family: var(--kh-display);
   font-weight: 500;
   font-style: italic;
-  font-size: 50px;
-  line-height: 1.1;
-  margin: 0 0 16px;
+  font-size: 52px;
+  line-height: 1.05;
+  margin: 0 0 18px;
   color: var(--kh-red-deep);
   letter-spacing: -0.005em;
 }
@@ -46,38 +51,80 @@ html, body {
   margin: 0;
 }
 .song-attrib em {
-  font-family: var(--serif);
+  font-family: var(--kh-display);
   font-style: italic;
   font-weight: 500;
   color: var(--kh-red);
-  font-size: 19px;
+  font-size: 22px;
   letter-spacing: 0.01em;
 }
 
-/* ---------- Audio bar (sticks to bottom of viewport) ---------- */
-.audio-bar {
-  position: sticky;
-  bottom: 0;
+/* ---------- Audio player (custom, fixed at bottom of viewport) ---------- */
+.audio-player {
+  position: fixed;
   left: 0;
   right: 0;
-  margin: 0 -30px 32px;
-  padding: 10px 24px;
-  background: rgba(251, 250, 247, 0.94);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  bottom: 0;
+  height: 54px;
+  padding: 0 20px;
+  background: rgba(251, 250, 247, 0.96);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
   border-top: 1px solid var(--kh-red-soft);
-  z-index: 30;
   display: flex;
+  align-items: center;
+  gap: 14px;
+  z-index: 40;
+}
+.ap-btn {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: none;
+  background: var(--kh-red-deep);
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+  padding: 0;
+  transition: background-color 140ms ease, transform 120ms ease;
 }
-.audio-bar audio {
-  width: 100%;
-  max-width: 680px;
-  height: 36px;
+.ap-btn:hover { background: var(--kh-red); }
+.ap-btn:active { transform: scale(0.94); }
+.ap-btn .ap-icon-play { margin-left: 2px; }       /* optical centering of the play triangle */
+.ap-btn .ap-icon-pause { display: none; }
+.ap-btn.is-playing .ap-icon-play  { display: none; }
+.ap-btn.is-playing .ap-icon-pause { display: inline-block; }
+
+.ap-progress {
+  flex: 1;
+  height: 4px;
+  background: var(--kh-red-soft);
+  border-radius: 2px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
 }
-.audio-bar audio::-webkit-media-controls-panel {
-  background: var(--bg-warm);
+.ap-progress-bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, var(--kh-red-deep), var(--kh-saffron));
+  border-radius: 2px;
+  transition: width 140ms linear;
 }
+.ap-time {
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  min-width: 36px;
+  text-align: center;
+}
+.ap-time-total { color: var(--muted-soft); }
+.audio-player audio { display: none; }
 
 /* ---------- Section labels (Refrain, I, II, ...) ---------- */
 .section-label {
@@ -108,17 +155,17 @@ html, body {
   border-left-color: var(--kh-red);
 }
 .line-roman {
-  font-family: var(--serif);
-  font-size: 23px;
+  font-family: var(--kh-serif);
+  font-size: 22px;
   line-height: 1.45;
   color: var(--ink);
-  margin: 0 0 7px;
+  margin: 0 0 6px;
   letter-spacing: 0.002em;
 }
 .line-english {
-  font-family: var(--serif);
+  font-family: var(--kh-serif);
   font-style: italic;
-  font-size: 18px;
+  font-size: 17.5px;
   line-height: 1.55;
   color: var(--ink-soft);
   margin: 0;
@@ -181,9 +228,9 @@ html, body {
   z-index: 50;
   max-width: 320px;
   padding: 9px 13px;
-  font-family: var(--serif);
+  font-family: var(--kh-serif);
   font-style: italic;
-  font-size: 16px;
+  font-size: 15.5px;
   line-height: 1.45;
   color: var(--ink);
   background: #fffdf7;
