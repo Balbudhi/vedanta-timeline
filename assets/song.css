@@ -31,10 +31,10 @@ html, body {
   font-family: var(--kh-serif);
 }
 
-/* ---------- Hint above the lyrics ---------- */
+/* ---------- Hint inside the hero, above the divider ---------- */
 /* Centered chip with a thin curved outline, no fill. */
 .song-hint {
-  margin: -48px 0 56px;
+  margin: 24px 0 0;
   text-align: center;
 }
 .song-hint span {
@@ -81,9 +81,9 @@ html, body {
 .song-credit {
   margin: 14px 0 0;
   font-family: var(--kh-serif);
-  font-size: 14px;
-  color: var(--kh-ink-mid);
-  letter-spacing: 0.05em;
+  font-size: 17px;
+  color: var(--kh-ink-soft);
+  letter-spacing: 0.04em;
   font-weight: 400;
 }
 
