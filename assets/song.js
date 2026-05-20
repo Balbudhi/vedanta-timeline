@@ -536,15 +536,6 @@ function setupKaraoke() {
   if (!audio || !TIMINGS.length) return;
 
   let activeIdx = -1;
-  let userScrolled = false;
-  let scrollResetTimer = null;
-
-  // Track manual scroll so we don't fight the user.
-  window.addEventListener("scroll", () => {
-    userScrolled = true;
-    if (scrollResetTimer) clearTimeout(scrollResetTimer);
-    scrollResetTimer = setTimeout(() => { userScrolled = false; }, 4000);
-  }, { passive: true });
 
   audio.addEventListener("timeupdate", () => {
     const t = audio.currentTime;
@@ -559,14 +550,10 @@ function setupKaraoke() {
     if (!article) return;
     article.classList.add("is-singing");
 
-    // Gentle auto-scroll, but only if the user isn't actively scrolling.
-    if (!userScrolled) {
-      const rect = article.getBoundingClientRect();
-      const viewportH = window.innerHeight;
-      if (rect.top < 80 || rect.bottom > viewportH - 100) {
-        article.scrollIntoView({ behavior: "smooth", block: "center" });
-      }
-    }
+    // Always follow the song — auto-scroll the active line to the
+    // vertical center on every line change. (If the listener wants
+    // to scroll back, they have until the next line change.)
+    article.scrollIntoView({ behavior: "smooth", block: "center" });
   });
 
   // Click a line to jump audio there (only if it has a timing).
