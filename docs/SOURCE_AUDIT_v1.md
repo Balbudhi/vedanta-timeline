@@ -134,7 +134,7 @@ These are GRETIL-style or born-digital IAST e-texts that the heuristic mis-class
 ### Heuristic-DEGRADED, confirmed DEGRADED
 
 - `_more/SribhasyaOfRamanujaPart1Chatuhsutri1959R.D.Karmakar.txt` (Karmakar 1959; OCR fragmented, mixed Devanāgarī fragments with corrupted Latin runs)
-- `samkhya_metaphysics/wezler_motegi_yuktidipika_vol1_1998.txt` (Wezler-Motegi 1998 Yukti-Dīpikā vol 1; OCR is severely damaged. The companion `wezler_motegi_yuktidipika_vol1_1998.pdf` is **CLEAN** by heuristic — the PDF retains the embedded text layer; the .txt extraction is what's broken. **Recommend re-extracting from the PDF.**)
+- `sankhya_metaphysics/wezler_motegi_yuktidipika_vol1_1998.txt` (Wezler-Motegi 1998 Yukti-Dīpikā vol 1; OCR is severely damaged. The companion `wezler_motegi_yuktidipika_vol1_1998.pdf` is **CLEAN** by heuristic — the PDF retains the embedded text layer; the .txt extraction is what's broken. **Recommend re-extracting from the PDF.**)
 - `vedanta/full_corpus/madhusudana_bhakti_rasayana_archive.pdf` (heuristic-DEGRADED PDF)
 - `vedanta/full_corpus/padmapada_pancapadika_venkataramiah_1948_archive.pdf` (heuristic-DEGRADED PDF; the Venkataramiah English translation; supplemented now by the Vizianagaram djvu txt — both marginal)
 - `vedanta/full_corpus/shankara_upadesa_sahasri_mayeda_1992_archive.pdf` (heuristic-DEGRADED PDF; the GRETIL e-text `shankara_upadesa_sahasri_gretil.txt` IS the same Mayeda edition transcribed cleanly, so this PDF is already redundant)

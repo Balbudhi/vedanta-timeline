@@ -173,24 +173,24 @@
       ]
     },
     {
-      "school": "Sāṃkhya",
-      "definition": "For Sāṃkhya, *bheda* is first the differentiated unfolding of *guṇa-pariṇāma*: plurality in the cognitive apparatus is explained through distinct transformations of the *guṇas* together with the difference of the objects grasped [[SK 27](cite://isvarakrsna/samkhya-karika/27)] [[SS 2.27](cite://kapila/samkhya-sutra/2.27)]. Bondage persists through *aviveka*, the failure to discriminate *pradhāna* from what is not it, so release requires a completed *viveka* rather than the erasure of plurality into an undifferentiated absolute [[SS 1.57](cite://kapila/samkhya-sutra/1.57)].",
+      "school": "Sāṅkhya",
+      "definition": "For Sāṅkhya, *bheda* is first the differentiated unfolding of *guṇa-pariṇāma*: plurality in the cognitive apparatus is explained through distinct transformations of the *guṇas* together with the difference of the objects grasped [[SK 27](cite://isvarakrsna/sankhya-karika/27)] [[SS 2.27](cite://kapila/sankhya-sutra/2.27)]. Bondage persists through *aviveka*, the failure to discriminate *pradhāna* from what is not it, so release requires a completed *viveka* rather than the erasure of plurality into an undifferentiated absolute [[SS 1.57](cite://kapila/sankhya-sutra/1.57)].",
       "primary_loci": [
-        "Sāṃkhya-Kārikā 27",
-        "Sāṃkhya-Sūtra 1.57",
-        "Sāṃkhya-Sūtra 2.27"
+        "Sāṅkhya-Kārikā 27",
+        "Sāṅkhya-Sūtra 1.57",
+        "Sāṅkhya-Sūtra 2.27"
       ],
       "citations": [
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/27",
+          "cite": "cite://isvarakrsna/sankhya-karika/27",
           "locus_short": "SK 27"
         },
         {
-          "cite": "cite://kapila/samkhya-sutra/1.57",
+          "cite": "cite://kapila/sankhya-sutra/1.57",
           "locus_short": "SS 1.57"
         },
         {
-          "cite": "cite://kapila/samkhya-sutra/2.27",
+          "cite": "cite://kapila/sankhya-sutra/2.27",
           "locus_short": "SS 2.27"
         }
       ]

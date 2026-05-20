@@ -156,8 +156,8 @@
     ],
     "short_description": "Non-Vedāntic figures (e.g., Bhartṛhari) included only insofar as their thought feeds Vedāntic argument."
   },
-  "samkhya-comparator": {
-    "display_name": "Sāṃkhya",
+  "sankhya-comparator": {
+    "display_name": "Sāṅkhya",
     "color_hex": "#16a34a",
     "color_palette": [
       "#dcfce7",
@@ -214,7 +214,7 @@
       "#14b8a6",
       "#134e4a"
     ],
-    "short_description": "Pātañjala-Yoga: the praxis-darśana that holds the Sāṃkhya twenty-five-tattva ontology within an eight-limbed disciplinary frame, admits īśvara as a special puruṣa, and supplies the standard pre-modern phenomenology of samādhi inherited by every Vedāntic school."
+    "short_description": "Pātañjala-Yoga: the praxis-darśana that holds the Sāṅkhya twenty-five-tattva ontology within an eight-limbed disciplinary frame, admits īśvara as a special puruṣa, and supplies the standard pre-modern phenomenology of samādhi inherited by every Vedāntic school."
   },
   "vaisesika-comparator": {
     "display_name": "Vaiśeṣika",

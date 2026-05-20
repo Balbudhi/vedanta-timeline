@@ -80,7 +80,7 @@ caitanya_gaudiya/rupa_padyavali.txt	txt	CLEAN	100004	GRETIL plain-text e-text
 caitanya_gaudiya/rupa_ujjvala_nilamani.txt	txt	CLEAN	275755	GRETIL plain-text e-text
 comparator/aksapada_nyaya_sutra.txt	txt	CLEAN	49907	alpha=0.86 short=0.00 junk=0.00 iast=1543 dev=0 words=966 | non-GRETIL but clean-looking
 comparator/badarayana_brahma_sutra.txt	txt	CLEAN	27435	alpha=0.77 short=0.01 junk=0.00 iast=1117 dev=0 words=1081 | non-GRETIL but clean-looking
-comparator/isvarakrsna_samkhya_karika.txt	txt	CLEAN	10204	alpha=0.91 short=0.00 junk=0.00 iast=1529 dev=0 words=1240 | non-GRETIL but clean-looking
+comparator/ SANKHYAPLACEHOLDER0 .txt	txt	CLEAN	10204	alpha=0.91 short=0.00 junk=0.00 iast=1529 dev=0 words=1240 | non-GRETIL but clean-looking
 comparator/jaimini_mimamsa_sutra.txt	txt	CLEAN	167641	alpha=0.78 short=0.00 junk=0.00 iast=1103 dev=0 words=1059 | non-GRETIL but clean-looking
 comparator/kanada_vaisesika_sutra.txt	txt	CLEAN	23117	alpha=0.79 short=0.00 junk=0.00 iast=1361 dev=0 words=1108 | non-GRETIL but clean-looking
 comparator/patanjali_yoga_sutra.txt	txt	DEGRADED	13267	alpha=0.81 short=0.00 junk=1.00 iast=1491 dev=0 words=875
@@ -138,40 +138,40 @@ pralaya_cosmology/surya_siddhanta_GRETIL.htm	htm	CLEAN	85035	GRETIL plain-text e
 pralaya_cosmology/visnu_purana_GRETIL.htm	htm	CLEAN	900960	GRETIL plain-text e-text
 pralaya_cosmology/visnu_purana_critical_GRETIL.htm	htm	CLEAN	1025286	GRETIL plain-text e-text
 rgveda_aufrecht.txt	txt	CLEAN	1494070	GRETIL plain-text e-text
-samkhya/samkhya_karika_isvarakrsna.txt	txt	CLEAN	23044	GRETIL plain-text e-text
-samkhya/samkhya_karika_with_comm.txt	txt	CLEAN	153691	GRETIL plain-text e-text
-samkhya/samkhya_karika_with_comm2.txt	txt	CLEAN	93739	GRETIL plain-text e-text
-samkhya/samkhya_karika_with_comm3.txt	txt	CLEAN	108967	GRETIL plain-text e-text
-samkhya/samkhya_sutra_kapila.txt	txt	CLEAN	56744	GRETIL plain-text e-text
-samkhya/samkhya_tattva_pradipa.txt	txt	CLEAN	38434	GRETIL plain-text e-text
-samkhya/samkhya_tattva_vivecana_simananda.txt	txt	CLEAN	60049	GRETIL plain-text e-text
-samkhya_metaphysics/bhavaganesa_tattvayatharthyadipana_GRETIL.htm	htm	CLEAN	65904	GRETIL plain-text e-text
-samkhya_metaphysics/caraka_samhita_GRETIL.htm	htm	CLEAN	424960	GRETIL plain-text e-text
-samkhya_metaphysics/garbe_samkhyapravacanabhasya_vijnanabhiksu.txt	txt	CLEAN	515353	alpha=0.92 short=0.15 junk=0.04 iast=0 dev=0 words=1385 | non-GRETIL but clean-looking
-samkhya_metaphysics/gaudapadabhasya_on_karika_GRETIL.htm	htm	CLEAN	105638	GRETIL plain-text e-text
-samkhya_metaphysics/isvarakrsna_samkhyakarika_GRETIL.htm	htm	CLEAN	15968	GRETIL plain-text e-text
-samkhya_metaphysics/isvarakrsna_samkhyakarika_ruzsa_GRETIL.htm	htm	CLEAN	35323	GRETIL plain-text e-text
-samkhya_metaphysics/jayamangala_samkara_on_karika_GRETIL.htm	htm	CLEAN	127773	GRETIL plain-text e-text
-samkhya_metaphysics/kavirajayati_samkhyatattvapradipa_GRETIL.htm	htm	CLEAN	43904	GRETIL plain-text e-text
-samkhya_metaphysics/kesava_samkhyatattvapradipika_GRETIL.htm	htm	CLEAN	17451	GRETIL plain-text e-text
-samkhya_metaphysics/mahabharata_06_bhismaparvan_with_gita_GRETIL.htm	htm	CLEAN	970224	GRETIL plain-text e-text
-samkhya_metaphysics/mahabharata_12_shantiparvan_GRETIL.htm	htm	CLEAN	2509247	GRETIL plain-text e-text
-samkhya_metaphysics/matharavrtti_on_karika_GRETIL.htm	htm	CLEAN	165824	GRETIL plain-text e-text
-samkhya_metaphysics/samkhyaparibhasa_GRETIL.htm	htm	CLEAN	40188	GRETIL plain-text e-text
-samkhya_metaphysics/samkhyapravacanabhasya_DLI.txt	txt	CLEAN	526592	alpha=0.91 short=0.07 junk=0.02 iast=0 dev=0 words=1393 | non-GRETIL but clean-looking
-samkhya_metaphysics/samkhyasutravivarana_GRETIL.htm	htm	CLEAN	23077	GRETIL plain-text e-text
-samkhya_metaphysics/sarvopakarani_on_tattvasamasa_GRETIL.htm	htm	CLEAN	20023	GRETIL plain-text e-text
-samkhya_metaphysics/simanandadiksita_samkhyatattvavivecana_GRETIL.htm	htm	CLEAN	77484	GRETIL plain-text e-text
-samkhya_metaphysics/sinha_samkhya_philosophy_aniruddha_vijnanabhiksu_mahadeva.txt	txt	CLEAN	406244	alpha=0.88 short=0.12 junk=0.01 iast=0 dev=0 words=1109 | non-GRETIL but clean-looking
-samkhya_metaphysics/tattvamimamsa_GRETIL.htm	htm	CLEAN	27997	GRETIL plain-text e-text
-samkhya_metaphysics/tattvasamasa_4versions_GRETIL.htm	htm	CLEAN	9562	GRETIL plain-text e-text
-samkhya_metaphysics/tattvasamasasutravrtti_kramadipika_GRETIL.htm	htm	CLEAN	40367	GRETIL plain-text e-text
-samkhya_metaphysics/vijnanabhiksu_samkhyasara_GRETIL.htm	htm	CLEAN	73875	GRETIL plain-text e-text
-samkhya_metaphysics/wezler_motegi_yuktidipika_vol1_1998.pdf	pdf	CLEAN	10080983	pdf pages=393 sampled=4 | alpha=0.88 short=0.06 junk=0.00 iast=0 dev=0 words=1249 | non-GRETIL but clean-looking
-samkhya_metaphysics/wezler_motegi_yuktidipika_vol1_1998.txt	txt	DEGRADED	1363302	alpha=0.33 short=0.13 junk=0.06 iast=0 dev=3163 words=453
-samkhya_metaphysics/yuktidipika_anonymous_GRETIL.htm	htm	CLEAN	534233	GRETIL plain-text e-text
-samkhya_metaphysics/yuktidipika_vol2_djvu.txt	txt	CLEAN	646504	alpha=0.92 short=0.09 junk=0.02 iast=0 dev=0 words=1375 | non-GRETIL but clean-looking
-samkhya_metaphysics/yuktidipika_vol2_shivkumar_bhargava.pdf	pdf	ACCEPTABLE	173512797	pdf pages=420 sampled=4 | alpha=0.86 short=0.12 junk=0.09 iast=0 dev=0 words=742
+sankhya/sankhya_karika_isvarakrsna.txt	txt	CLEAN	23044	GRETIL plain-text e-text
+sankhya/ SANKHYAPLACEHOLDER1 .txt	txt	CLEAN	153691	GRETIL plain-text e-text
+sankhya/ SANKHYAPLACEHOLDER2 2.txt	txt	CLEAN	93739	GRETIL plain-text e-text
+sankhya/ SANKHYAPLACEHOLDER3 3.txt	txt	CLEAN	108967	GRETIL plain-text e-text
+sankhya/ SANKHYAPLACEHOLDER4 .txt	txt	CLEAN	56744	GRETIL plain-text e-text
+sankhya/sankhya_tattva_pradipa.txt	txt	CLEAN	38434	GRETIL plain-text e-text
+sankhya/sankhya_tattva_vivecana_simananda.txt	txt	CLEAN	60049	GRETIL plain-text e-text
+sankhya_metaphysics/bhavaganesa_tattvayatharthyadipana_GRETIL.htm	htm	CLEAN	65904	GRETIL plain-text e-text
+sankhya_metaphysics/caraka_samhita_GRETIL.htm	htm	CLEAN	424960	GRETIL plain-text e-text
+sankhya_metaphysics/garbe_sankhyapravacanabhasya_vijnanabhiksu.txt	txt	CLEAN	515353	alpha=0.92 short=0.15 junk=0.04 iast=0 dev=0 words=1385 | non-GRETIL but clean-looking
+sankhya_metaphysics/gaudapadabhasya_on_karika_GRETIL.htm	htm	CLEAN	105638	GRETIL plain-text e-text
+sankhya_metaphysics/isvarakrsna_sankhyakarika_GRETIL.htm	htm	CLEAN	15968	GRETIL plain-text e-text
+sankhya_metaphysics/isvarakrsna_sankhyakarika_ruzsa_GRETIL.htm	htm	CLEAN	35323	GRETIL plain-text e-text
+sankhya_metaphysics/jayamangala_samkara_on_karika_GRETIL.htm	htm	CLEAN	127773	GRETIL plain-text e-text
+sankhya_metaphysics/kavirajayati_sankhyatattvapradipa_GRETIL.htm	htm	CLEAN	43904	GRETIL plain-text e-text
+sankhya_metaphysics/kesava_sankhyatattvapradipika_GRETIL.htm	htm	CLEAN	17451	GRETIL plain-text e-text
+sankhya_metaphysics/mahabharata_06_bhismaparvan_with_gita_GRETIL.htm	htm	CLEAN	970224	GRETIL plain-text e-text
+sankhya_metaphysics/mahabharata_12_shantiparvan_GRETIL.htm	htm	CLEAN	2509247	GRETIL plain-text e-text
+sankhya_metaphysics/matharavrtti_on_karika_GRETIL.htm	htm	CLEAN	165824	GRETIL plain-text e-text
+sankhya_metaphysics/sankhyaparibhasa_GRETIL.htm	htm	CLEAN	40188	GRETIL plain-text e-text
+sankhya_metaphysics/sankhyapravacanabhasya_DLI.txt	txt	CLEAN	526592	alpha=0.91 short=0.07 junk=0.02 iast=0 dev=0 words=1393 | non-GRETIL but clean-looking
+sankhya_metaphysics/sankhyasutravivarana_GRETIL.htm	htm	CLEAN	23077	GRETIL plain-text e-text
+sankhya_metaphysics/sarvopakarani_on_tattvasamasa_GRETIL.htm	htm	CLEAN	20023	GRETIL plain-text e-text
+sankhya_metaphysics/simanandadiksita_sankhyatattvavivecana_GRETIL.htm	htm	CLEAN	77484	GRETIL plain-text e-text
+sankhya_metaphysics/sinha_sankhya_philosophy_aniruddha_vijnanabhiksu_mahadeva.txt	txt	CLEAN	406244	alpha=0.88 short=0.12 junk=0.01 iast=0 dev=0 words=1109 | non-GRETIL but clean-looking
+sankhya_metaphysics/tattvamimamsa_GRETIL.htm	htm	CLEAN	27997	GRETIL plain-text e-text
+sankhya_metaphysics/tattvasamasa_4versions_GRETIL.htm	htm	CLEAN	9562	GRETIL plain-text e-text
+sankhya_metaphysics/tattvasamasasutravrtti_kramadipika_GRETIL.htm	htm	CLEAN	40367	GRETIL plain-text e-text
+sankhya_metaphysics/vijnanabhiksu_sankhyasara_GRETIL.htm	htm	CLEAN	73875	GRETIL plain-text e-text
+sankhya_metaphysics/wezler_motegi_yuktidipika_vol1_1998.pdf	pdf	CLEAN	10080983	pdf pages=393 sampled=4 | alpha=0.88 short=0.06 junk=0.00 iast=0 dev=0 words=1249 | non-GRETIL but clean-looking
+sankhya_metaphysics/wezler_motegi_yuktidipika_vol1_1998.txt	txt	DEGRADED	1363302	alpha=0.33 short=0.13 junk=0.06 iast=0 dev=3163 words=453
+sankhya_metaphysics/yuktidipika_anonymous_GRETIL.htm	htm	CLEAN	534233	GRETIL plain-text e-text
+sankhya_metaphysics/yuktidipika_vol2_djvu.txt	txt	CLEAN	646504	alpha=0.92 short=0.09 junk=0.02 iast=0 dev=0 words=1375 | non-GRETIL but clean-looking
+sankhya_metaphysics/yuktidipika_vol2_shivkumar_bhargava.pdf	pdf	ACCEPTABLE	173512797	pdf pages=420 sampled=4 | alpha=0.86 short=0.12 junk=0.09 iast=0 dev=0 words=742
 upanishads/aitareya_with_shankara.txt	txt	CLEAN	64088	GRETIL plain-text e-text
 upanishads/brhadaranyaka_with_shankara.txt	txt	CLEAN	962569	GRETIL plain-text e-text
 upanishads/chandogya_with_shankara.txt	txt	CLEAN	597570	GRETIL plain-text e-text

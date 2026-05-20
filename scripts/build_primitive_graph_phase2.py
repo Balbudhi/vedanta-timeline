@@ -493,7 +493,7 @@ BASE_PROFILES = {
         c("practice_path", "meditative-discipline", "soteriological"),
         c("soteric_end", "isolation-or-discriminative-release", "soteriological"),
     ],
-    "Sāṃkhya": [
+    "Sāṅkhya": [
         c("substrate_structure", "many-coordinate-reals", "metaphysical"),
         c("manifestation_status", "real-transformation", "metaphysical"),
         c("causation_model", "real-transformation", "metaphysical"),
@@ -971,8 +971,8 @@ ARTICLE_STUBS = {
     },
     "anirban": {
         "name": "Anirvan",
-        "school": "Sāṃkhya",
-        "core_thesis": "Article-backed thinker stub created during primitives_v2 Phase 2 from `data/articles/source/samkhya-anirban.md`.",
+        "school": "Sāṅkhya",
+        "core_thesis": "Article-backed thinker stub created during primitives_v2 Phase 2 from `data/articles/source/sankhya-anirban.md`.",
     },
 }
 

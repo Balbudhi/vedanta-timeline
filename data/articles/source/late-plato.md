@@ -2054,7 +2054,7 @@ to leave these matters.
 ### 17. The rule of comparison
 
 Comparisons with Vedānta,
-Sāṃkhya, Trika, or the
+Sāṅkhya, Trika, or the
 Gītā can be illuminating
 here.  They can also become
 intellectually cheap.  The

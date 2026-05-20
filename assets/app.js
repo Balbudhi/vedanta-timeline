@@ -42,7 +42,7 @@ const LANE_ORDER = [
   "acintya",
   "shuddha",
   "avibhaga",
-  "samkhya-comparator",
+  "sankhya-comparator",
   "yoga-comparator",
   "nyaya-comparator",
   "navya-nyaya-comparator",
@@ -73,7 +73,7 @@ const LANE_DISPLAY = {
   "acintya": "Acintya-Bhedābheda",
   "shuddha": "Śuddhādvaita",
   "avibhaga": "Avibhāgādvaita",
-  "samkhya-comparator": "Sāṃkhya",
+  "sankhya-comparator": "Sāṅkhya",
   "yoga-comparator": "Yoga",
   "nyaya-comparator": "Nyāya",
   "navya-nyaya-comparator": "Navya-Nyāya",
@@ -117,7 +117,7 @@ const VEDANTA_LANES = new Set([
 ]);
 // Other darśanas / cross-tradition collapse into one virtual group lane by default.
 const COMPARATOR_LANES = [
-  "samkhya-comparator", "yoga-comparator", "nyaya-comparator",
+  "sankhya-comparator", "yoga-comparator", "nyaya-comparator",
   "navya-nyaya-comparator", "vaisesika-comparator", "mimamsa-comparator",
   "jaina-comparator", "carvaka-comparator",
   "madhyamaka-comparator", "yogacara-comparator", "buddhist-pramana-comparator",
@@ -459,7 +459,7 @@ function colorFor(thinker, paletteIdx = 2) {
     bhedabheda: "#9333ea", acintya: "#db2777", shuddha: "#be123c",
     avibhaga: "#0891b2", "trika-comparator": "#475569",
     "cross-tradition": "#475569", proto: "#6b7280",
-    "samkhya-comparator": "#16a34a", "yoga-comparator": "#14b8a6",
+    "sankhya-comparator": "#16a34a", "yoga-comparator": "#14b8a6",
     "nyaya-comparator": "#ca8a04", "navya-nyaya-comparator": "#a16207",
     "vaisesika-comparator": "#6d28d9", "mimamsa-comparator": "#7c3aed",
     "jaina-comparator": "#65a30d", "carvaka-comparator": "#57534e",
@@ -489,7 +489,7 @@ const NETWORK_PAD_BOTTOM = 60;
 // Hand-tuned so lineages naturally separate; greedy avoidance perturbs from here.
 const SCHOOL_BAND = {
   // Comparators ABOVE (top third)
-  "samkhya-comparator":         0.08,
+  "sankhya-comparator":         0.08,
   "yoga-comparator":            0.11,
   "nyaya-comparator":           0.14,
   "navya-nyaya-comparator":     0.17,

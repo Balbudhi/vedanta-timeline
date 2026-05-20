@@ -21,14 +21,14 @@ Range:
 - `one-substance` — exactly one ontological substrate; everything that exists is either identical with it or a mode/appearance/transformation of it. (Advaita, Śuddhādvaita, Avibhāga-advaita, Pratyabhijñā.)
 - `one-substance-with-real-internal-distinctions` — one substrate, but with real *aṃśa*-parts or *viśeṣa*-distinguishers internal to it. (Viśiṣṭādvaita, classical Bhedābheda in some readings, Acintya-Bhedābheda.)
 - `hierarchical-dependent` — one wholly independent reality (*svatantra*) and a real plurality of dependent realities (*paratantra*) whose being is asymmetrically grounded in the independent. Dependence is the *form* of their reality, not its negation. (Madhva.)
-- `many-substances-coordinate` — irreducibly many fundamental substances on the same ontological footing. (Sāṃkhya, Nyāya-Vaiśeṣika; *not* Vedānta — included only as the contrast Vedānta uniformly rejects.)
+- `many-substances-coordinate` — irreducibly many fundamental substances on the same ontological footing. (Sāṅkhya, Nyāya-Vaiśeṣika; *not* Vedānta — included only as the contrast Vedānta uniformly rejects.)
 
 ### P2. `mode_status`
 *What is the ontological status of the world and finite selves qua not-being-the-substrate?*
 
 Range:
 - `real-dependent-mode` — modes are fully real, their reality consisting in their dependence on the substrate. (Viśiṣṭādvaita; Madhva on *paratantra*; Vallabha on *jagat*.)
-- `real-pariṇāma` — modes are real transformations of the substrate; the substrate genuinely undergoes (or "appears to undergo without alteration") modification. (Bhāskara's *aupādhika*; Vallabha's *avikṛta-pariṇāma*; Sāṃkhya as comparator.)
+- `real-pariṇāma` — modes are real transformations of the substrate; the substrate genuinely undergoes (or "appears to undergo without alteration") modification. (Bhāskara's *aupādhika*; Vallabha's *avikṛta-pariṇāma*; Sāṅkhya as comparator.)
 - `mithya-not-asat` — modes are *sad-asad-vilakṣaṇa*: neither absolutely real nor absolutely unreal; *vyāvahārika* under the substrate, but not *asat*. (Advaita.) **Distinct from `unreal-asat` by axis-fiat.**
 - `acintya-bhedabheda` — modes are simultaneously identical with and distinct from the substrate, where the conjunction is *acintya* (beyond the law of non-contradiction as a metaphysical, not merely epistemic, claim). (Caitanya/Jīva Gosvāmī; with care, Nimbārka's *svābhāvika-bhedābheda* as a non-acintya neighbor.)
 - `unreal-asat` — modes are simply non-existent. (No Vedānta school occupies this; the Mādhyamika comparator approximates it; Madhva's polemic *charges* Advaita with it, which the user's T2 rejects.)
@@ -49,7 +49,7 @@ Range:
 
 Range:
 - `vivarta` — apparent transformation; substrate is unchanged, world is its appearance. (Classical Advaita post-Maṇḍana; Sureśvara, Vivaraṇa.)
-- `pariṇāma-satkārya` — real transformation; effect pre-exists in the cause and is genuinely produced. (Sāṃkhya; Bhāskara on *jagat*.)
+- `pariṇāma-satkārya` — real transformation; effect pre-exists in the cause and is genuinely produced. (Sāṅkhya; Bhāskara on *jagat*.)
 - `avikṛta-pariṇāma` — substrate transforms without alteration of its essential nature; the transformation is real but the substrate's *svarūpa* is preserved. (Vallabha; close to Acintya-Bhedābheda.)
 - `nimitta-and-upādāna-by-real-dependence` — Brahman is both efficient and material cause, where "material" means *the locus on which the world's being depends*, not *the stuff the world is made of*. (Madhva's distinctive reading.)
 - `body-soul-causation` — Brahman is cause as the *śarīrī* of a real body that includes *cit* and *acit*; *pariṇāma* applies to the body, not to Brahman's *svarūpa*. (Rāmānuja.)
@@ -89,7 +89,7 @@ Range:
 *What is the structure of liberation?*
 
 Range:
-- `kaivalya-isolation` — isolation of pure consciousness from non-conscious matter. (Sāṃkhya, comparator.)
+- `kaivalya-isolation` — isolation of pure consciousness from non-conscious matter. (Sāṅkhya, comparator.)
 - `identity-without-distinction` — *aikya*: the *jīva*-as-such was never anything other than Brahman; "liberation" is the cessation of *adhyāsa*. (Advaita.)
 - `union-with-internal-distinction-preserved` — the *jīva* attains *sāyujya* with Brahman while retaining its *aṃśa*-status. (Viśiṣṭādvaita.)
 - `eternal-service-with-irreducible-distinction` — *mukti* is *bhakti*-mediated *aparokṣa-jñāna* of Viṣṇu, with *jīva*-distinction permanent and *taratamya* preserved. (Madhva.)
@@ -117,7 +117,7 @@ Each classical analogy compresses a specific tuple of primitive values. Reading 
 | Wave and ocean | *taraṅga-jala-nyāya* | `substrate = one`; `mode_status = real-dependent-mode`; `identity = aṃśa-aprthak-siddha`. Modes are real, not illusory; their being is the ocean's being-as-undulated. | Viśiṣṭādvaita-leaning; Vallabha; *not* Advaita in its strict reading (Advaita uses it only loosely, with disclaimers). |
 | Spark and fire | *agni-visphuliṅga-nyāya* | `substrate = one`; `identity = bhedabheda` (one substance, distinct identities); from *Bṛhadāraṇyaka* 2.1.20. The sparks are *of* the fire (same substance) but *are not* the fire (distinct identity). | Bhedābheda — Bhāskara, Yādava, Nimbārka; later Acintya-Bhedābheda re-reads it under `acintya`. |
 | Rope and snake | *rajju-sarpa-nyāya* | `substrate = one (real)`; `mode_status = mithya-not-asat`; `causation = vivarta`. The substrate is real; the appearance is *not asat* (it was experienced) but is sublated on cognition of the substrate. | Advaita (Śaṅkara, Sureśvara). Critical: the snake is neither *sat* (it isn't there) nor *asat* (you saw it). This is where `mithya-not-asat` gets its content. |
-| Pot and clay | *mṛd-ghaṭa-nyāya* | `substrate = one`; `causation = pariṇāma-satkārya`; `mode_status = real-pariṇāma`. The pot is real-as-modification of real clay. From *Chāndogya* 6.1.4. | Sāṃkhya for the cosmological *prakṛti*-claim; Bhāskara and Vallabha for Vedāntic *pariṇāma*; Advaita explicitly *re-interprets* this passage as *vivarta*-supporting via the "name-and-form" reading. |
+| Pot and clay | *mṛd-ghaṭa-nyāya* | `substrate = one`; `causation = pariṇāma-satkārya`; `mode_status = real-pariṇāma`. The pot is real-as-modification of real clay. From *Chāndogya* 6.1.4. | Sāṅkhya for the cosmological *prakṛti*-claim; Bhāskara and Vallabha for Vedāntic *pariṇāma*; Advaita explicitly *re-interprets* this passage as *vivarta*-supporting via the "name-and-form" reading. |
 | Reflection in mirror / reflected sun in water | *bimba-pratibimba-nyāya*, *jala-sūryaka-nyāya* | Two readings: **(a) Vivaraṇa-Advaitic** — `substrate = one`; `identity = numerical-identity`; the reflection has no independent substance, only conventional locus. **(b) Madhva-realist** — `substrate = hierarchical-dependent`; `identity = bimba-pratibimba-with-eternal-distinction`; the reflection has its own real *svarūpa*, asymmetrically grounded in the *bimba*. | The *same analogy carries opposite primitive content depending on whether the image is treated as substantively-empty (Sarvajñātman) or substantively-real-but-dependent (Madhva). This is the canonical case of analogy-underdetermines-doctrine.* |
 | King and servant | *rāja-bhṛtya-nyāya* | `substrate = hierarchical-dependent`; `identity = bimba-pratibimba`; `bheda_count = 5`; `mokṣa = eternal-service`. Full ontological distinction with asymmetric dependence. | Madhva. |
 | Body and soul | *śarīra-śarīrī-bhāva* | `substrate = one-substance-with-real-internal-distinctions`; `identity = aṃśa-aprthak-siddha`; `causation = body-soul-causation`. The body is real, distinct from the soul, yet inseparable and *for-the-soul*. | Rāmānuja. The defining Viśiṣṭādvaitic primitive. |

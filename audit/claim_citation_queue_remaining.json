@@ -285,7 +285,7 @@
       "issues": [
         {
           "field": "core_thesis",
-          "snippet": "Article-backed thinker stub created during primitives_v2 Phase 2 from `data/articles/source/samkhya-anirban.md`."
+          "snippet": "Article-backed thinker stub created during primitives_v2 Phase 2 from `data/articles/source/sankhya-anirban.md`."
         }
       ]
     },
@@ -1090,7 +1090,7 @@
       "issues": [
         {
           "field": "dates_notes",
-          "snippet": "Direct disciple of Vijñānabhikṣu; dated by manuscript and by the colophons of the Tattva-Yāthārthya-Dīpana and the Pradīpa on the Sāṃkhya-Pravacana-Bhāṣya, both of which describe him as Bhikṣu's pupil."
+          "snippet": "Direct disciple of Vijñānabhikṣu; dated by manuscript and by the colophons of the Tattva-Yāthārthya-Dīpana and the Pradīpa on the Sāṅkhya-Pravacana-Bhāṣya, both of which describe him as Bhikṣu's pupil."
         },
         {
           "field": "engaged_works[0].ascription_notes",
@@ -1099,8 +1099,8 @@
         },
         {
           "field": "engaged_works[1].ascription_notes",
-          "work_id": "pradipa-on-samkhya-pravacana-bhasya",
-          "snippet": "Securely authored sub-commentary on Vijñānabhikṣu's Sāṃkhya-Pravacana-Bhāṣya."
+          "work_id": "pradipa-on-sankhya-pravacana-bhasya",
+          "snippet": "Securely authored sub-commentary on Vijñānabhikṣu's Sāṅkhya-Pravacana-Bhāṣya."
         }
       ]
     },
@@ -1734,17 +1734,17 @@
       ]
     },
     {
-      "thinker_id": "gaudapada-samkhya",
+      "thinker_id": "gaudapada-sankhya",
       "issue_count": 2,
       "issues": [
         {
           "field": "dates_notes",
-          "snippet": "The author of the Sāṃkhya-Kārikā-Bhāṣya is conventionally distinguished from the Vedānta Gauḍapāda of the Māṇḍūkya-Kārikā by Larson (1979, Classical Sāṃkhya, p. 152) and Frauwallner (Geschichte I, pp. 226–229), on the grounds that the Sāṃkh"
+          "snippet": "The author of the Sāṅkhya-Kārikā-Bhāṣya is conventionally distinguished from the Vedānta Gauḍapāda of the Māṇḍūkya-Kārikā by Larson (1979, Classical Sāṅkhya, p. 152) and Frauwallner (Geschichte I, pp. 226–229), on the grounds that the Sāṃkh"
         },
         {
           "field": "engaged_works[0].ascription_notes",
-          "work_id": "samkhya-karika-bhasya",
-          "snippet": "Securely ascribed within the Sāṃkhya commentarial tradition to the Sāṃkhya Gauḍapāda; the identification with the Vedānta Gauḍapāda of the Māṇḍūkya-Kārikā is rejected by mainstream scholarship (Larson"
+          "work_id": "sankhya-karika-bhasya",
+          "snippet": "Securely ascribed within the Sāṅkhya commentarial tradition to the Sāṅkhya Gauḍapāda; the identification with the Vedānta Gauḍapāda of the Māṇḍūkya-Kārikā is rejected by mainstream scholarship (Larson"
         }
       ]
     },
@@ -2060,11 +2060,11 @@
       "issues": [
         {
           "field": "dates_notes",
-          "snippet": "Dated by the terminus ante quem of Paramārtha's mid-sixth-century Chinese translation of the Sāṃkhya-Kārikā together with its commentary; Larson (1979, Classical Sāṃkhya) and Frauwallner (Geschichte der indischen Philosophie I) converge on "
+          "snippet": "Dated by the terminus ante quem of Paramārtha's mid-sixth-century Chinese translation of the Sāṅkhya-Kārikā together with its commentary; Larson (1979, Classical Sāṅkhya) and Frauwallner (Geschichte der indischen Philosophie I) converge on "
         },
         {
           "field": "engaged_works[0].ascription_notes",
-          "work_id": "samkhya-karika",
+          "work_id": "sankhya-karika",
           "snippet": "Securely ascribed to Īśvarakṛṣṇa by colophon and by uniform commentarial attestation across Gauḍapāda, Māṭhara, Yuktidīpikā, and Vāchaspati Miśra."
         }
       ]
@@ -5339,12 +5339,12 @@
         },
         {
           "field": "core_thesis",
-          "snippet": "The *Yoga-Sūtra-Bhāṣya* — the *Pātañjala-Yoga-Śāstra*'s only intra-traditional commentary — holds Sāṃkhya metaphysics within the Yoga frame and discharges what the *sūtras* leave compressed. The metaphysics is Sāṃkhya: twenty-five *tattvas*"
+          "snippet": "The *Yoga-Sūtra-Bhāṣya* — the *Pātañjala-Yoga-Śāstra*'s only intra-traditional commentary — holds Sāṅkhya metaphysics within the Yoga frame and discharges what the *sūtras* leave compressed. The metaphysics is Sāṅkhya: twenty-five *tattvas*"
         },
         {
           "field": "engaged_works[0].summary",
           "work_id": "yoga-sutra-bhasya",
-          "snippet": "Prose commentary on Patañjali's *Yoga-Sūtra* across all four *pādas* — *samādhi*, *sādhana*, *vibhūti*, *kaivalya*. The *bhāṣya* installs the Sāṃkhya twenty-five-*tattva* ontology as the metaphysical "
+          "snippet": "Prose commentary on Patañjali's *Yoga-Sūtra* across all four *pādas* — *samādhi*, *sādhana*, *vibhūti*, *kaivalya*. The *bhāṣya* installs the Sāṅkhya twenty-five-*tattva* ontology as the metaphysical "
         },
         {
           "field": "engaged_works[0].ascription_notes",

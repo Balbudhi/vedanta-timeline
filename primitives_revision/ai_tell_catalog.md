@@ -86,7 +86,7 @@ mimamsa-aurobindo-v2.md:98
 prigogine.md:315
 primitive-model.md:73
 ramanuja.md:99,389,479
-samkhya-anirban.md:544
+sankhya-anirban.md:544
 shankara.md:396,416,430,442,605,661
 spinoza.md:565
 vedanta-realist-history.md:248
@@ -148,7 +148,7 @@ mimamsa-aurobindo-v2.md:124
 nietzsche.md:17,28,29,101,327,553,555,557,559,563,565,573,598,617,625,643,645,653,655,657
 prigogine.md:167
 ramanuja.md:449
-samkhya-anirban.md:155
+sankhya-anirban.md:155
 shankara.md:253
 spinoza.md:499
 vedanta-realist-history.md:135,275,897
@@ -220,7 +220,7 @@ nietzsche.md: 19,39,75,137,171,199,216,280,282,290,347,353,363,377,402,505,517,5
 prigogine.md: 13,17,21,23,25,31,35,37,43,51,72,76,82,84,100,104,116,124,132,136,143,151,155,169,175,177,181,189,209,216,222,228,252,271,273,295,297,299,307,315,323,345
 primitive-model.md: 74,192
 ramanuja.md: 3,11,15,23,43,51,53,57,83,105,127,161,215,235,271,287,295,301,307,365,367,371,379,385,393,399,407,409,417,419,449,457,463,533,565,573,577,579,595
-samkhya-anirban.md: 3,15,61,63,79,85,109,117,123,125,145,147,175,177,185,215,229,249,259,301,311,403,409,433,441,477,520,538,586,625,643,669,671,675
+sankhya-anirban.md: 3,15,61,63,79,85,109,117,123,125,145,147,175,177,185,215,229,249,259,301,311,403,409,433,441,477,520,538,586,625,643,669,671,675
 shankara.md: 9,11,51,81,93,181,183,187,247,345,383,527,539,605,617,638,645,653,657,671,681,689,697,707,731,772,783,805,821,853
 spinoza.md: 3,11,13,21,55,59,61,188,194,296,302,348,424,451,517,551,561,589,607,615,617,627
 vedanta-realist-history.md: 7,13,21,23,29,31,33,54,58,64,80,82,88,115,117,119,123,164,182,205,221,236,250,273,277,281,316,322,324,326,328,363,413,436,470,478,496,532,534,538,544,554,564,584,586,588,595,599,629,641,667,671,675,703,719,721,727,735,741,762,770,794,812,861,863,871,875,877,881,887,897,909,923,927,929
@@ -288,7 +288,7 @@ nietzsche.md: 3,39,75,91,101,177,234,282,302,347,424,432,440,475,517,553,555,557
 prigogine.md: 11,17,21,23,25,35,37,43,58,63,76,80,92,100,104,112,116,132,134,136,147,161,183,207,209,216,228,250,252,265,269,273,277,295,297,299,335
 primitive-model.md: 126
 ramanuja.md: 3,53,127,171,199,253,261,271,287,295,325,339,355,365,393,397,399,409,419,431,449,455,463,479,529,579,595
-samkhya-anirban.md: 15,61,63,75,79,123,125,177,185,229,271,350,371,409,433,457,499,538,566,572,643,669
+sankhya-anirban.md: 15,61,63,75,79,123,125,177,185,229,271,350,371,409,433,457,499,538,566,572,643,669
 shankara.md: 73,126,162,187,206,247,349,367,505,527,569,636,638,653,655,663,673,681,689,697,699,731,750,791,815,843,853
 spinoza.md: 11,13,21,59,61,156,160,162,166,252,270,362,424,451,517,551,585,587,595,615,627,649
 vedanta-realist-history.md: 13,19,29,31,42,54,64,66,78,82,88,117,164,182,205,398,413,436,478,532,534,554,564,584,588,595,599,629,671,731,735,741,762,794,809,812,863,877,881,891,897,907,915,927
@@ -366,7 +366,7 @@ These thirty lines are the first pass. They are all prose written for the site, 
 28. `kc-bhattacharyya.md:244`
     Replace with: `The first line marks the decisive point: many truths may still be reducible; alternative truths are not.`
 29. `kala-cakra-clock-structures.md:686`
-    Replace with: `T4 appears here as a cross-school compatibility claim: Sāṃkhya and the *kāla-cakra* materials can be read as compositional and temporal complements.`
+    Replace with: `T4 appears here as a cross-school compatibility claim: Sāṅkhya and the *kāla-cakra* materials can be read as compositional and temporal complements.`
 30. `leibniz.md:418`
     Replace with: `The position also requires a stronger compossibility doctrine than Leibniz's: not only many possible worlds, but many true registers within one world.`
 

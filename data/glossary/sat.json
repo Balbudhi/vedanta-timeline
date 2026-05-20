@@ -11,10 +11,10 @@
     "satsya",
     "sad-rupa"
   ],
-  "invariant_definition": "Being or reality, but in technical contexts more than the bare copula 'is'. *Sat* marks what stands up under ontological and causal analysis. The term therefore appears in several linked debates: whether only the ultimate is *sat* in the strict sense or whether dependent realities are also genuinely *sat*; whether effects arise from what already is, as *sat-kārya-vāda* argues, or from prior non-manifestation; and how *sat* differs from both *asat* and, in Advaita, *mithyā*. Upaniṣadic usage gives the term high metaphysical weight, especially in *sad eva somya idam agra āsīt*; later schools then ask what exactly counts as 'what is'. For Advaita, *sat* in the strict sense belongs only to *brahman*. For realist Vedāntas and Sāṃkhya, dependent entities are also real, though not equally independent. A translation that treats *sat* as mere existence misses this layered use in causality, ontology, and soteriology.",
+  "invariant_definition": "Being or reality, but in technical contexts more than the bare copula 'is'. *Sat* marks what stands up under ontological and causal analysis. The term therefore appears in several linked debates: whether only the ultimate is *sat* in the strict sense or whether dependent realities are also genuinely *sat*; whether effects arise from what already is, as *sat-kārya-vāda* argues, or from prior non-manifestation; and how *sat* differs from both *asat* and, in Advaita, *mithyā*. Upaniṣadic usage gives the term high metaphysical weight, especially in *sad eva somya idam agra āsīt*; later schools then ask what exactly counts as 'what is'. For Advaita, *sat* in the strict sense belongs only to *brahman*. For realist Vedāntas and Sāṅkhya, dependent entities are also real, though not equally independent. A translation that treats *sat* as mere existence misses this layered use in causality, ontology, and soteriology.",
   "school_framing": {
     "framing_status": "mixed",
-    "shared_core": "*Sat* names **what stands up under ontological and causal analysis: the determinate referent of *asti***. All schools that use the term agree on this structural role — *sat* is not the bare copula but what survives scrutiny. They differ on (i) whether *sat* in the strict sense belongs only to the unconditioned (Advaita) or also to dependent reals (Viśiṣṭādvaita, Tattva-vāda, Śuddhādvaita, Sāṃkhya, Nyāya-Vaiśeṣika, Yoga, Jainism, Trika), (ii) whether effects pre-exist in the cause (*satkārya-vāda*) or arise anew (*asatkārya-vāda*), and (iii) whether the *sat*/*asat* binary is exhaustive (most schools: yes) or admits an *anirvacanīya* third (Advaita).",
+    "shared_core": "*Sat* names **what stands up under ontological and causal analysis: the determinate referent of *asti***. All schools that use the term agree on this structural role — *sat* is not the bare copula but what survives scrutiny. They differ on (i) whether *sat* in the strict sense belongs only to the unconditioned (Advaita) or also to dependent reals (Viśiṣṭādvaita, Tattva-vāda, Śuddhādvaita, Sāṅkhya, Nyāya-Vaiśeṣika, Yoga, Jainism, Trika), (ii) whether effects pre-exist in the cause (*satkārya-vāda*) or arise anew (*asatkārya-vāda*), and (iii) whether the *sat*/*asat* binary is exhaustive (most schools: yes) or admits an *anirvacanīya* third (Advaita).",
     "register_axes_note": "Schools differ along the M-register axis (which entities carry *sattā* in the strict sense) and the LD-register axis (what *sat* as a predicate can support). **Real disagreement** (AF1) between Advaita (*sat* in the strict sense only of Brahman; *Māṇḍūkya-Bhāṣya* 7) and Tattva-vāda (*sat* of the *bhedapañcaka*; *Anuvyākhyāna* 1.4.111–112) — same M-register, same scope-inside, opposing claims. **Different concept** in Mādhyamaka and Yogācāra: *sat* is framed inside the two-truths / *arthakriyā-sāmarthya* economy, not the substance-attribute economy of the Brāhmaṇical schools."
   },
   "per_school": [
@@ -153,19 +153,19 @@
       "register_tag": "M+S; bhakta"
     },
     {
-      "school": "Sāṃkhya",
-      "definition": "In Sāṃkhya, *sat* is governed by *satkārya-vāda*: the effect is real in its cause, since what is wholly *asat* cannot be produced, causes are selectively appropriated, and like emerges from like. [[SK 9](cite://isvarakrsna/samkhya-karika/9)] The classical commentary makes the point explicit as *sad eva sad bhavati*, so *mahad* and the rest are already present in *pradhāna* prior to manifestation and emergence is a disclosure of what is causally there. [[SK 9 comm.](cite://isvarakrsna/samkhya-karika/9-commentary)]",
+      "school": "Sāṅkhya",
+      "definition": "In Sāṅkhya, *sat* is governed by *satkārya-vāda*: the effect is real in its cause, since what is wholly *asat* cannot be produced, causes are selectively appropriated, and like emerges from like. [[SK 9](cite://isvarakrsna/sankhya-karika/9)] The classical commentary makes the point explicit as *sad eva sad bhavati*, so *mahad* and the rest are already present in *pradhāna* prior to manifestation and emergence is a disclosure of what is causally there. [[SK 9 comm.](cite://isvarakrsna/sankhya-karika/9-commentary)]",
       "primary_loci": [
-        "Sāṃkhya-Kārikā 9",
-        "Sāṃkhya-Kārikā commentary on 9"
+        "Sāṅkhya-Kārikā 9",
+        "Sāṅkhya-Kārikā commentary on 9"
       ],
       "citations": [
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/9",
+          "cite": "cite://isvarakrsna/sankhya-karika/9",
           "locus_short": "SK 9"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/9-commentary",
+          "cite": "cite://isvarakrsna/sankhya-karika/9-commentary",
           "locus_short": "SK 9 comm."
         }
       ],

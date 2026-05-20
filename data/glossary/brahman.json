@@ -17,7 +17,7 @@
   "school_framing": {
     "framing_status": "mixed",
     "shared_core": "Within Vedānta, *brahman* names **the ultimate referent of Upaniṣadic inquiry: that from which the world arises, by which it is sustained, into which it resolves, and on knowing which saṃsāra is ended** (Taittirīya 3.1.1; *janmādy asya yataḥ*, Brahma-Sūtra 1.1.2). Every Vedāntic school agrees that *brahman* is the purport of the Upaniṣads and the *jagat-kāraṇa*. They differ on whether *brahman* is *nirviśeṣa* (Advaita) or *saviśeṣa* (Viśiṣṭādvaita, Tattva-vāda, Gauḍīya, Nimbārka, Vallabha), and on how *jīva* and world stand to it (apparent appearance, real mode, real *aṃśa*, real *pariṇāma*, *acintya-bhedābheda*).",
-    "register_axes_note": "Vedāntic schools speak in the same M-register about the same scope-inside (*jagat-kāraṇa*, *jñeya*); they genuinely disagree (AF1) on whether differentiation belongs to *brahman* itself. Non-Vedāntic appearances are partial or *different concept*: Mīmāṃsā's *brahman*-language is ritual-priestly, not metaphysical; Sāṃkhya commentary glosses it as *avyakta/prakṛti*; Buddhists have no *brahman* as substrate but use *paramārtha/tathatā* as functional analogues."
+    "register_axes_note": "Vedāntic schools speak in the same M-register about the same scope-inside (*jagat-kāraṇa*, *jñeya*); they genuinely disagree (AF1) on whether differentiation belongs to *brahman* itself. Non-Vedāntic appearances are partial or *different concept*: Mīmāṃsā's *brahman*-language is ritual-priestly, not metaphysical; Sāṅkhya commentary glosses it as *avyakta/prakṛti*; Buddhists have no *brahman* as substrate but use *paramārtha/tathatā* as functional analogues."
   },
   "per_school": [
     {
@@ -212,19 +212,19 @@
       "register_tag": "M+S; bhakta"
     },
     {
-      "school": "Sāṃkhya",
-      "definition": "Where brahma-language appears in the Sāṃkhya commentarial corpus, it is glossed as avyakta/prakṛti, the bahudhātmaka unmanifest source from which mahat and the later evolutes proceed [[SK 22 comm.](cite://mathara/samkhya-karika-vrtti/22)]. Liberation therefore lies not in identity with a single brahman but in aikāntika, ātyantika kaivalya, attained when pradhāna has completed its puruṣārtha and no further body is produced for the knower [[SK 68 comm.](cite://mathara/samkhya-karika-vrtti/68)].",
+      "school": "Sāṅkhya",
+      "definition": "Where brahma-language appears in the Sāṅkhya commentarial corpus, it is glossed as avyakta/prakṛti, the bahudhātmaka unmanifest source from which mahat and the later evolutes proceed [[SK 22 comm.](cite://mathara/sankhya-karika-vrtti/22)]. Liberation therefore lies not in identity with a single brahman but in aikāntika, ātyantika kaivalya, attained when pradhāna has completed its puruṣārtha and no further body is produced for the knower [[SK 68 comm.](cite://mathara/sankhya-karika-vrtti/68)].",
       "primary_loci": [
-        "Sāṃkhya-Kārikā 22, Māṭhara-vṛtti",
-        "Sāṃkhya-Kārikā 68, Māṭhara-vṛtti"
+        "Sāṅkhya-Kārikā 22, Māṭhara-vṛtti",
+        "Sāṅkhya-Kārikā 68, Māṭhara-vṛtti"
       ],
       "citations": [
         {
-          "cite": "cite://mathara/samkhya-karika-vrtti/22",
+          "cite": "cite://mathara/sankhya-karika-vrtti/22",
           "locus_short": "SK 22 comm."
         },
         {
-          "cite": "cite://mathara/samkhya-karika-vrtti/68",
+          "cite": "cite://mathara/sankhya-karika-vrtti/68",
           "locus_short": "SK 68 comm."
         }
       ],
@@ -250,7 +250,7 @@
       "register_tag": "Φ+M; yogin"
     },
     {
-      "school": "Sāṃkhya-Yoga (synthetic)",
+      "school": "Sāṅkhya-Yoga (synthetic)",
       "definition": "In the Bhikṣu synthesis, *brahman* is not approached through an epistemic thinning of *māyā* into mere *avidyā*; in *Śvetāśvatara* 4.10 *māyā* is read as *prakṛti* itself, preserving a real causal apparatus for manifestation [[VĀB 1.1.5](cite://vijnanabhiksu/vijnanamrta-bhasya/1.1.5)]. The *jīva* is *brahmaṇo 'ṃśaḥ* in an expressive and dependent sense, like a son to a father, and yogic *īśvara-praṇidhāna* is accordingly a *samādhi-bhāvanā* oriented to a *puruṣa-viśeṣa* untouched by *kleśa-karma-vipākāśaya* [[VĀB 2.3.43](cite://vijnanabhiksu/vijnanamrta-bhasya/2.3.43); [YV 1.23](cite://vijnanabhiksu/yoga-varttika/1.23); [YV 1.24](cite://vijnanabhiksu/yoga-varttika/1.24)].",
       "primary_loci": [
         "Vijñānāmṛta-Bhāṣya 1.1.5",

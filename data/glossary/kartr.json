@@ -18,7 +18,7 @@
   ],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "glossary-wave2-codex54",
-  "invariant_definition": "*Kartṛ* is the agent-role within Pāṇinian *kāraka* analysis, defined at Aṣṭādhyāyī 1.4.54 as *svatantraḥ kartā* — 'the agent is the independent one' — namely the participant in the action whose self-direction (*svatantratva*) coordinates the other *kāraka*-roles toward the *kriyā*. The grammatical definition is doctrinally explosive: it makes *kartṛtva* (agency) consist in *svātantrya* (independence). Because the schools disagree radically about *who or what is independent*, the analysis of *kartṛ* becomes the fault-line for Indian theories of self, freedom, and divine causality. The abstract noun *kartṛtva* names the property of being-an-agent. The classic dispute: in Sāṃkhya, *prakṛti*-derived *buddhi* is the *kartṛ* — *puruṣa* is impassible witness; in Advaita, *kartṛtva* is *avidyā*-imposed superimposition on the actionless *ātman*; in Viśiṣṭādvaita and Tattva-vāda (Dvaita), the *jīva* is a real *kartṛ* whose agency is nevertheless dependent (*paratantra*) on the Lord; in Trika, the only true *kartṛ* is Śiva, and finite agency is the contracted self-recognition of his *svātantrya-śakti*. The *kartṛtva-bhoktṛtva* (agent-experiencer) doublet appears in nearly every Vedānta school as the marker of bound *jīva*-status; *mokṣa* is variously the dissolution, transformation, or perfection of *kartṛtva*. The grammatical-philosophical point: agency is not a brute given but a *role* in a structured analysis, whose attribution requires identifying the locus of independence.",
+  "invariant_definition": "*Kartṛ* is the agent-role within Pāṇinian *kāraka* analysis, defined at Aṣṭādhyāyī 1.4.54 as *svatantraḥ kartā* — 'the agent is the independent one' — namely the participant in the action whose self-direction (*svatantratva*) coordinates the other *kāraka*-roles toward the *kriyā*. The grammatical definition is doctrinally explosive: it makes *kartṛtva* (agency) consist in *svātantrya* (independence). Because the schools disagree radically about *who or what is independent*, the analysis of *kartṛ* becomes the fault-line for Indian theories of self, freedom, and divine causality. The abstract noun *kartṛtva* names the property of being-an-agent. The classic dispute: in Sāṅkhya, *prakṛti*-derived *buddhi* is the *kartṛ* — *puruṣa* is impassible witness; in Advaita, *kartṛtva* is *avidyā*-imposed superimposition on the actionless *ātman*; in Viśiṣṭādvaita and Tattva-vāda (Dvaita), the *jīva* is a real *kartṛ* whose agency is nevertheless dependent (*paratantra*) on the Lord; in Trika, the only true *kartṛ* is Śiva, and finite agency is the contracted self-recognition of his *svātantrya-śakti*. The *kartṛtva-bhoktṛtva* (agent-experiencer) doublet appears in nearly every Vedānta school as the marker of bound *jīva*-status; *mokṣa* is variously the dissolution, transformation, or perfection of *kartṛtva*. The grammatical-philosophical point: agency is not a brute given but a *role* in a structured analysis, whose attribution requires identifying the locus of independence.",
   "per_school": [
     {
       "school": "Advaita",
@@ -181,24 +181,24 @@
       ]
     },
     {
-      "school": "Sāṃkhya",
-      "definition": "In Sāṃkhya, the conscious *puruṣa* is a witness and seer whose essential status is *sākṣitva*, *draṣṭṛtva*, and *akartṛbhāva*; the guṇas are the ones that function as agents [[SK 19-20](cite://isvarakrsna/samkhya-karika/19-20)]. The commentarial tradition makes the point explicit: *mahadādi-liṅga* performs cognitive and conative functions, while the puruṣa is called a doer only by conjunction, *kartṛsaṃsargāt karteva*, though in truth it is *akartā* [[SK Comm. 20](cite://isvarakrsna/samkhya-karika-comm/20)]. Accordingly bondage, transmigration, and release strictly belong to *prakṛti* and its evolutes, not to the puruṣa itself [[SK Comm. 62](cite://isvarakrsna/samkhya-karika-comm/62)].",
+      "school": "Sāṅkhya",
+      "definition": "In Sāṅkhya, the conscious *puruṣa* is a witness and seer whose essential status is *sākṣitva*, *draṣṭṛtva*, and *akartṛbhāva*; the guṇas are the ones that function as agents [[SK 19-20](cite://isvarakrsna/sankhya-karika/19-20)]. The commentarial tradition makes the point explicit: *mahadādi-liṅga* performs cognitive and conative functions, while the puruṣa is called a doer only by conjunction, *kartṛsaṃsargāt karteva*, though in truth it is *akartā* [[SK Comm. 20](cite://isvarakrsna/sankhya-karika-comm/20)]. Accordingly bondage, transmigration, and release strictly belong to *prakṛti* and its evolutes, not to the puruṣa itself [[SK Comm. 62](cite://isvarakrsna/sankhya-karika-comm/62)].",
       "primary_loci": [
-        "Sāṃkhya-Kārikā 19-20",
-        "Sāṃkhya-Kārikā commentary on 20",
-        "Sāṃkhya-Kārikā commentary on 62"
+        "Sāṅkhya-Kārikā 19-20",
+        "Sāṅkhya-Kārikā commentary on 20",
+        "Sāṅkhya-Kārikā commentary on 62"
       ],
       "citations": [
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/19-20",
+          "cite": "cite://isvarakrsna/sankhya-karika/19-20",
           "locus_short": "SK 19-20"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika-comm/20",
+          "cite": "cite://isvarakrsna/sankhya-karika-comm/20",
           "locus_short": "SK Comm. 20"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika-comm/62",
+          "cite": "cite://isvarakrsna/sankhya-karika-comm/62",
           "locus_short": "SK Comm. 62"
         }
       ]
@@ -412,5 +412,5 @@
     "antaryamin",
     "pratyabhijna"
   ],
-  "translator_note": "'Agent' is the standard gloss and is acceptable, but the Pāṇinian definition (*svatantraḥ kartā*) couples *kartṛtva* tightly to *svātantrya* (independence) — a connection the English 'agent' obscures. The deeper translation problem: in Sāṃkhya and Advaita the conscious self (*puruṣa*, *ātman*) is *not* the *kartṛ*, while in Viśiṣṭādvaita, Tattva-vāda, and Trika the *kartṛ*-question reaches up to the divine. Translating *kartṛtva* as 'agency' often imports a modern free-will picture that the Indian schools are precisely arguing about; readers should be alerted that 'agency' here is a contested technical role, not a default psychological capacity."
+  "translator_note": "'Agent' is the standard gloss and is acceptable, but the Pāṇinian definition (*svatantraḥ kartā*) couples *kartṛtva* tightly to *svātantrya* (independence) — a connection the English 'agent' obscures. The deeper translation problem: in Sāṅkhya and Advaita the conscious self (*puruṣa*, *ātman*) is *not* the *kartṛ*, while in Viśiṣṭādvaita, Tattva-vāda, and Trika the *kartṛ*-question reaches up to the divine. Translating *kartṛtva* as 'agency' often imports a modern free-will picture that the Indian schools are precisely arguing about; readers should be alerted that 'agency' here is a contested technical role, not a default psychological capacity."
 }

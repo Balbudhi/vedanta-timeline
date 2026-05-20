@@ -105,24 +105,24 @@
       "citations": []
     },
     {
-      "school": "Sāṃkhya",
-      "definition": "*Rasa* in Sāṃkhya is a sensible object within the bhogya-side of prakṛti rather than an autonomous aesthetic absolute: the system counts *rasana* among the eleven indriyas and thereby fixes taste as one determinate domain of experience [[SK 26](cite://isvarakrsna/samkhya-karika/26)]. The commentarial tradition makes the point explicit by invoking the six tastes as evidence that enjoyed objects require a distinct *bhoktṛ* over against the aggregate of the enjoyed [[SK 17 comm.](cite://isvarakrsna/samkhya-karika/17-commentary)]. At the level of emanation, *rasa-tanmātra* is the subtle determinant from which water emerges in the standard series of bhūta-production [[SK 22 comm.](cite://isvarakrsna/samkhya-karika/22-commentary)].",
+      "school": "Sāṅkhya",
+      "definition": "*Rasa* in Sāṅkhya is a sensible object within the bhogya-side of prakṛti rather than an autonomous aesthetic absolute: the system counts *rasana* among the eleven indriyas and thereby fixes taste as one determinate domain of experience [[SK 26](cite://isvarakrsna/sankhya-karika/26)]. The commentarial tradition makes the point explicit by invoking the six tastes as evidence that enjoyed objects require a distinct *bhoktṛ* over against the aggregate of the enjoyed [[SK 17 comm.](cite://isvarakrsna/sankhya-karika/17-commentary)]. At the level of emanation, *rasa-tanmātra* is the subtle determinant from which water emerges in the standard series of bhūta-production [[SK 22 comm.](cite://isvarakrsna/sankhya-karika/22-commentary)].",
       "primary_loci": [
-        "Sāṃkhya-Kārikā 26",
-        "Sāṃkhya-Kārikā 17 commentary",
-        "Sāṃkhya-Kārikā 22 commentary"
+        "Sāṅkhya-Kārikā 26",
+        "Sāṅkhya-Kārikā 17 commentary",
+        "Sāṅkhya-Kārikā 22 commentary"
       ],
       "citations": [
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/26",
+          "cite": "cite://isvarakrsna/sankhya-karika/26",
           "locus_short": "SK 26"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/17-commentary",
+          "cite": "cite://isvarakrsna/sankhya-karika/17-commentary",
           "locus_short": "SK 17 comm."
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/22-commentary",
+          "cite": "cite://isvarakrsna/sankhya-karika/22-commentary",
           "locus_short": "SK 22 comm."
         }
       ]

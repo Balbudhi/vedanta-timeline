@@ -77,7 +77,7 @@ Cross-engagement: the disagreement with Alfred North Whitehead is at the tempora
 
 Aurobindo is read here *literally*: the supramental is a real new register, not a poetic name for *jñāna* or Hegelian *Vernunft*; involution-evolution is a real cosmological-historical process; the psychic being is ontologically irreducible; the supramental descent of 29 February 1956 is a real terrestrial event. Reductive readings produce a domesticated Aurobindo easy to assimilate to whichever Western system the reader prefers, at the cost of erasing the structural moves that make Aurobindo *Aurobindo*.
 
-Where this reader cross-references T1, T7, T11, etc., those are the user's thesis numbers from `POSITION_BRIEF.md`. Aurobindo is not the user, and the user goes beyond Aurobindo at multiple points. Companion readers `12_samkhya_anirban.md` and `13_kala_cakra_clock_structures.md` are co-readings.
+Where this reader cross-references T1, T7, T11, etc., those are the user's thesis numbers from `POSITION_BRIEF.md`. Aurobindo is not the user, and the user goes beyond Aurobindo at multiple points. Companion readers `12_sankhya_anirban.md` and `13_kala_cakra_clock_structures.md` are co-readings.
 
 ---
 
@@ -220,7 +220,7 @@ The architecture:
 
 - **Comprehending** = self-awareness by identity = the Advaitic ground, *nirviśeṣa* Brahman, Deleuze's univocal voice, McGilchrist's Master.
 - **Apprehending** = self-awareness by distinction = the Vaiṣṇava ground held in *acintya-bhedābheda*, Madhva's *viśeṣa*, the ground of relational devotion.
-- **Projecting** = real-distinct individuality in lived perspective = the psychic being's situated knowing, Sāṃkhya's plurality of *puruṣa*-s, the Mother's executive activity.
+- **Projecting** = real-distinct individuality in lived perspective = the psychic being's situated knowing, Sāṅkhya's plurality of *puruṣa*-s, the Mother's executive activity.
 
 These are not stacked higher/lower. They are the simultaneous self-statement of one Real-Idea. The Supermind is not above its projections; it is the condition under which all three are one act.
 
@@ -271,7 +271,7 @@ The Overmind already admits both Nirguna and Saguna as supreme aspects of one Re
 
 ### II.I.2 — *Brahman, Puruṣa, Īśvara — Maya, Prakṛti, Śakti*
 
-Six terms in two triads: Brahman/Maya (integral being / creative wisdom); Puruṣa/Prakṛti (person-witness / executive nature); Īśvara/Śakti (Lord / consciousness-force-as-action). Each darśana privileges one pair: Advaita the Brahman-Maya; Sāṃkhya-Yoga the Puruṣa-Prakṛti; Tantra and Śakta the Īśvara-Śakti. Aurobindo reads these as three registers of one architecture — the philosophical infrastructure for T1.
+Six terms in two triads: Brahman/Maya (integral being / creative wisdom); Puruṣa/Prakṛti (person-witness / executive nature); Īśvara/Śakti (Lord / consciousness-force-as-action). Each darśana privileges one pair: Advaita the Brahman-Maya; Sāṅkhya-Yoga the Puruṣa-Prakṛti; Tantra and Śakta the Īśvara-Śakti. Aurobindo reads these as three registers of one architecture — the philosophical infrastructure for T1.
 
 ### II.I.5–6 — *The Cosmic Illusion: Mind, Dream and Hallucination / Reality and the Cosmic Illusion*
 

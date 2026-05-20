@@ -226,13 +226,13 @@
       "for_thinker_id": "medhananda"
     },
     {
-      "slug": "samkhya-anirban",
-      "title": "Reading Sāṃkhya with Anirban Bandyopadhyay — three-guṇa metaphysics and contemporary biophysics",
-      "subtitle": "Īśvarakṛṣṇa's *Sāṃkhya-Kārikā* with Gauḍapāda and Vācaspati Miśra, in counterpoint with Anirban Bandyopadhyay's Phase Prime Metric formalization of the three guṇas.",
+      "slug": "sankhya-anirban",
+      "title": "Reading Sāṅkhya with Anirban Bandyopadhyay — three-guṇa metaphysics and contemporary biophysics",
+      "subtitle": "Īśvarakṛṣṇa's *Sāṅkhya-Kārikā* with Gauḍapāda and Vācaspati Miśra, in counterpoint with Anirban Bandyopadhyay's Phase Prime Metric formalization of the three guṇas.",
       "kind": "essay",
-      "source_doc": "data/articles/source/samkhya-anirban.md",
+      "source_doc": "data/articles/source/sankhya-anirban.md",
       "tags": [
-        "Sāṃkhya",
+        "Sāṅkhya",
         "Yoga-Sūtras",
         "Īśvarakṛṣṇa",
         "Gauḍapāda",
@@ -834,14 +834,14 @@
     {
       "slug": "engagement-vijnanabhiksu__vijnanamrta-bhasya",
       "title": "Vijñānabhikṣu's *Vijñānāmṛta-Bhāṣya* on the Brahma-Sūtras",
-      "subtitle": "Vijñānabhikṣu's *avibhāgādvaita* — non-duality-by-non-difference rather than identity, the synthesis of Sāṃkhya and Vedānta, and the late-medieval reframing of *jīva*–Brahman relation.",
+      "subtitle": "Vijñānabhikṣu's *avibhāgādvaita* — non-duality-by-non-difference rather than identity, the synthesis of Sāṅkhya and Vedānta, and the late-medieval reframing of *jīva*–Brahman relation.",
       "kind": "engagement",
       "source_doc": "data/articles/source/engagement-vijnanabhiksu__vijnanamrta-bhasya.md",
       "tags": [
         "Vijñānabhikṣu",
         "avibhāgādvaita",
         "Brahma-Sūtra",
-        "Sāṃkhya-Vedānta-synthesis"
+        "Sāṅkhya-Vedānta-synthesis"
       ],
       "word_count_approx": 2406,
       "date": "2026-05-10",

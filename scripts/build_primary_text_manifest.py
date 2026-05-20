@@ -5,7 +5,7 @@ Walks materials/primary_texts/ (relative to project root, parallel to site/)
 and emits site/data/primary_text_manifest.json. Each entry records:
   - path        (relative to materials/primary_texts/)
   - language    (top-level dir: sanskrit, german, french, …)
-  - category    (sub-dir, e.g. vedanta, samkhya, hegel)
+  - category    (sub-dir, e.g. vedanta, sankhya, hegel)
   - title       (best-guess from filename / first line)
   - size_bytes
   - line_count

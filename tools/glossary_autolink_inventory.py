@@ -54,7 +54,7 @@ KNOWN_SANSKRIT_PLAIN = {
     "upanishad", "yoga", "samadhi", "guna", "prakrti", "purusa", "purusha",
     "maya", "avidya", "isvara", "ishvara", "antahkarana", "ahankara",
     "buddhi", "manas", "citta", "sat", "cit", "ananda", "sakti", "shakti",
-    "siva", "shiva", "visnu", "vishnu", "nyaya", "vaisesika", "samkhya",
+    "siva", "shiva", "visnu", "vishnu", "nyaya", "vaisesika", "sankhya",
     "sankhya", "mimamsa", "yogacara", "madhyamaka", "sruti", "smrti",
     "smriti", "sastra", "shastra", "tarka", "pramana", "sabda", "shabda",
     "pratyaksa", "anumana", "upamana", "arthapatti", "anupalabdhi",

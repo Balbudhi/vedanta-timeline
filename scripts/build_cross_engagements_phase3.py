@@ -57,7 +57,7 @@ ARTICLE_TO_PRIMARY = {
     "primitive-graph": "madhva",
     "primitive-model": "sankara",
     "ramanuja": "ramanuja",
-    "samkhya-anirban": "anirban",
+    "sankhya-anirban": "anirban",
     "shankara": "sankara",
     "spinoza": "spinoza",
     "vedanta-realist-history": "madhva",

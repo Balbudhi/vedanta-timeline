@@ -14,7 +14,7 @@
     "ātmānam",
     "ātmanā"
   ],
-  "invariant_definition": "The self in the strict sense: not body, not sense-organ, not *manas*, not *ahaṅkāra*, but the subject for whom experience occurs and to whom ownership is ordinarily ascribed. The term carries a large technical burden. Upaniṣadic inquiry approaches it through negation (*neti neti*), through the three-state analysis of waking, dream, and deep sleep, and through the witness register later called *sākṣin*. Vedāntic debates then ask whether that witnessing self is identical with *brahman*, a mode of *brahman*, or an eternally distinct knower. The term is also sharpened polemically by nearby positions: Sāṃkhya's *puruṣa*, Nyāya's enduring self as substrate of cognition, and the Buddhist denial that any permanent *ātman* can be found behind the five aggregates. In practice, *ātman* is the term one reaches for when the question is not merely who lives this embodied life, but what the referent of 'I' really is once misidentification with body, role, and psychophysical process has been corrected.",
+  "invariant_definition": "The self in the strict sense: not body, not sense-organ, not *manas*, not *ahaṅkāra*, but the subject for whom experience occurs and to whom ownership is ordinarily ascribed. The term carries a large technical burden. Upaniṣadic inquiry approaches it through negation (*neti neti*), through the three-state analysis of waking, dream, and deep sleep, and through the witness register later called *sākṣin*. Vedāntic debates then ask whether that witnessing self is identical with *brahman*, a mode of *brahman*, or an eternally distinct knower. The term is also sharpened polemically by nearby positions: Sāṅkhya's *puruṣa*, Nyāya's enduring self as substrate of cognition, and the Buddhist denial that any permanent *ātman* can be found behind the five aggregates. In practice, *ātman* is the term one reaches for when the question is not merely who lives this embodied life, but what the referent of 'I' really is once misidentification with body, role, and psychophysical process has been corrected.",
   "school_framing": {
     "framing_status": "mixed",
     "shared_core": "Within the Brāhmaṇical schools, *ātman* names **the strict referent of 'I' after the body-mind complex has been bracketed: the subject for whom experience occurs and who persists through embodiment** (Bṛhadāraṇyaka 2.4, 3.7, 4.3–4). All Brāhmaṇical schools admit such a referent and treat *neti neti* (BṛU 2.3.6) as its delimitative method. They disagree on whether the witness-self is identical with *brahman* (Advaita), a real mode of *brahman* (Viśiṣṭādvaita), an eternally distinct atom-knower (Tattva-vāda, Nimbārka, Nyāya-Vaiśeṣika), or self-luminous consciousness as agent (Trika).",
@@ -206,27 +206,27 @@
       "register_tag": "M+S; bhakta"
     },
     {
-      "school": "Sāṃkhya",
-      "definition": "*Ātman* is functionally the *puruṣa*: a plurality of conscious subjects inferred from the composite character of psychophysical life, from the inversion between the *guṇas* and awareness, from enjoyership, and from the orientation of practice toward *kaivalya* [[SK 17](cite://isvarakrsna/samkhya-karika/isk_17)] [[SK 18](cite://isvarakrsna/samkhya-karika/isk_18)]. The self is accordingly *sākṣin*, *draṣṭṛ*, *madhyastha*, and *akartṛ*; agency belongs to the *guṇas* and their evolutes, while the *puruṣa* remains udāsīna [[SK 19](cite://isvarakrsna/samkhya-karika/isk_19)]. Liberation is the cessation of misidentification once prakṛti has displayed itself to the *puruṣa* and withdraws, not any real alteration in the self [[SK 59](cite://isvarakrsna/samkhya-karika/isk_59)].",
+      "school": "Sāṅkhya",
+      "definition": "*Ātman* is functionally the *puruṣa*: a plurality of conscious subjects inferred from the composite character of psychophysical life, from the inversion between the *guṇas* and awareness, from enjoyership, and from the orientation of practice toward *kaivalya* [[SK 17](cite://isvarakrsna/sankhya-karika/isk_17)] [[SK 18](cite://isvarakrsna/sankhya-karika/isk_18)]. The self is accordingly *sākṣin*, *draṣṭṛ*, *madhyastha*, and *akartṛ*; agency belongs to the *guṇas* and their evolutes, while the *puruṣa* remains udāsīna [[SK 19](cite://isvarakrsna/sankhya-karika/isk_19)]. Liberation is the cessation of misidentification once prakṛti has displayed itself to the *puruṣa* and withdraws, not any real alteration in the self [[SK 59](cite://isvarakrsna/sankhya-karika/isk_59)].",
       "primary_loci": [
-        "Sāṃkhya-Kārikā 17-19",
-        "Sāṃkhya-Kārikā 59"
+        "Sāṅkhya-Kārikā 17-19",
+        "Sāṅkhya-Kārikā 59"
       ],
       "citations": [
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/isk_17",
+          "cite": "cite://isvarakrsna/sankhya-karika/isk_17",
           "locus_short": "SK 17"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/isk_18",
+          "cite": "cite://isvarakrsna/sankhya-karika/isk_18",
           "locus_short": "SK 18"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/isk_19",
+          "cite": "cite://isvarakrsna/sankhya-karika/isk_19",
           "locus_short": "SK 19"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/isk_59",
+          "cite": "cite://isvarakrsna/sankhya-karika/isk_59",
           "locus_short": "SK 59"
         }
       ],

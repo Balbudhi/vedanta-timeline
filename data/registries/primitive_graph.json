@@ -2104,7 +2104,7 @@
         "primitive": "causation_model",
         "value": "unchanged-ground-with-changing-power",
         "register": "metaphysical",
-        "citation_locus": "cite://vijnanabhiksu/samkhya-pravacana-bhasya/1.61-67",
+        "citation_locus": "cite://vijnanabhiksu/sankhya-pravacana-bhasya/1.61-67",
         "confidence": "low"
       },
       {
@@ -2112,7 +2112,7 @@
         "primitive": "epistemic_authority",
         "value": "scripture-dominant",
         "register": "epistemological",
-        "citation_locus": "cite://vijnanabhiksu/samkhya-pravacana-bhasya/1.61-67",
+        "citation_locus": "cite://vijnanabhiksu/sankhya-pravacana-bhasya/1.61-67",
         "confidence": "medium"
       },
       {
@@ -2120,7 +2120,7 @@
         "primitive": "identity_relation",
         "value": "natural-difference-non-difference",
         "register": "metaphysical",
-        "citation_locus": "cite://vijnanabhiksu/samkhya-pravacana-bhasya/1.61-67",
+        "citation_locus": "cite://vijnanabhiksu/sankhya-pravacana-bhasya/1.61-67",
         "confidence": "low"
       },
       {
@@ -2128,7 +2128,7 @@
         "primitive": "manifestation_status",
         "value": "dependent-real",
         "register": "metaphysical",
-        "citation_locus": "cite://vijnanabhiksu/samkhya-pravacana-bhasya/1.61-67",
+        "citation_locus": "cite://vijnanabhiksu/sankhya-pravacana-bhasya/1.61-67",
         "confidence": "medium"
       },
       {
@@ -2136,7 +2136,7 @@
         "primitive": "practice_path",
         "value": "meditative-discipline",
         "register": "soteriological",
-        "citation_locus": "cite://vijnanabhiksu/samkhya-pravacana-bhasya/1.61-67",
+        "citation_locus": "cite://vijnanabhiksu/sankhya-pravacana-bhasya/1.61-67",
         "confidence": "low"
       },
       {
@@ -2144,7 +2144,7 @@
         "primitive": "soteric_end",
         "value": "identity-with-ground",
         "register": "soteriological",
-        "citation_locus": "cite://vijnanabhiksu/samkhya-pravacana-bhasya/1.61-67",
+        "citation_locus": "cite://vijnanabhiksu/sankhya-pravacana-bhasya/1.61-67",
         "confidence": "low"
       },
       {
@@ -2152,7 +2152,7 @@
         "primitive": "substrate_structure",
         "value": "one-self-standing",
         "register": "metaphysical",
-        "citation_locus": "cite://vijnanabhiksu/samkhya-pravacana-bhasya/1.61-67",
+        "citation_locus": "cite://vijnanabhiksu/sankhya-pravacana-bhasya/1.61-67",
         "confidence": "low"
       },
       {
@@ -3404,59 +3404,59 @@
         "confidence": "medium"
       },
       {
-        "thinker": "gaudapada-samkhya",
+        "thinker": "gaudapada-sankhya",
         "primitive": "causation_model",
         "value": "real-transformation",
         "register": "metaphysical",
-        "citation_locus": "cite://isvara-krsna/samkhya-karika/1",
+        "citation_locus": "cite://isvara-krsna/sankhya-karika/1",
         "confidence": "medium"
       },
       {
-        "thinker": "gaudapada-samkhya",
+        "thinker": "gaudapada-sankhya",
         "primitive": "manifestation_status",
         "value": "real-transformation",
         "register": "metaphysical",
-        "citation_locus": "cite://isvara-krsna/samkhya-karika/1",
+        "citation_locus": "cite://isvara-krsna/sankhya-karika/1",
         "confidence": "medium"
       },
       {
-        "thinker": "gaudapada-samkhya",
+        "thinker": "gaudapada-sankhya",
         "primitive": "practice_path",
         "value": "knowledge-discipline",
         "register": "soteriological",
-        "citation_locus": "cite://isvara-krsna/samkhya-karika/1",
+        "citation_locus": "cite://isvara-krsna/sankhya-karika/1",
         "confidence": "medium"
       },
       {
-        "thinker": "gaudapada-samkhya",
+        "thinker": "gaudapada-sankhya",
         "primitive": "selfhood_structure",
         "value": "substantial-self",
         "register": "phenomenological",
-        "citation_locus": "cite://isvara-krsna/samkhya-karika/1",
+        "citation_locus": "cite://isvara-krsna/sankhya-karika/1",
         "confidence": "medium"
       },
       {
-        "thinker": "gaudapada-samkhya",
+        "thinker": "gaudapada-sankhya",
         "primitive": "soteric_end",
         "value": "isolation-or-discriminative-release",
         "register": "soteriological",
-        "citation_locus": "cite://isvara-krsna/samkhya-karika/1",
+        "citation_locus": "cite://isvara-krsna/sankhya-karika/1",
         "confidence": "medium"
       },
       {
-        "thinker": "gaudapada-samkhya",
+        "thinker": "gaudapada-sankhya",
         "primitive": "substrate_structure",
         "value": "many-coordinate-reals",
         "register": "metaphysical",
-        "citation_locus": "cite://isvara-krsna/samkhya-karika/1",
+        "citation_locus": "cite://isvara-krsna/sankhya-karika/1",
         "confidence": "medium"
       },
       {
-        "thinker": "gaudapada-samkhya",
+        "thinker": "gaudapada-sankhya",
         "primitive": "temporal_mode",
         "value": "substance-primary",
         "register": "metaphysical",
-        "citation_locus": "cite://isvara-krsna/samkhya-karika/1",
+        "citation_locus": "cite://isvara-krsna/sankhya-karika/1",
         "confidence": "medium"
       },
       {
@@ -4112,7 +4112,7 @@
         "primitive": "causation_model",
         "value": "real-transformation",
         "register": "metaphysical",
-        "citation_locus": "cite://isvara-krsna/samkhya-karika/9",
+        "citation_locus": "cite://isvara-krsna/sankhya-karika/9",
         "confidence": "medium"
       },
       {
@@ -4120,7 +4120,7 @@
         "primitive": "manifestation_status",
         "value": "real-transformation",
         "register": "metaphysical",
-        "citation_locus": "cite://isvara-krsna/samkhya-karika/9",
+        "citation_locus": "cite://isvara-krsna/sankhya-karika/9",
         "confidence": "medium"
       },
       {
@@ -4128,7 +4128,7 @@
         "primitive": "practice_path",
         "value": "knowledge-discipline",
         "register": "soteriological",
-        "citation_locus": "cite://isvara-krsna/samkhya-karika/9",
+        "citation_locus": "cite://isvara-krsna/sankhya-karika/9",
         "confidence": "medium"
       },
       {
@@ -4136,7 +4136,7 @@
         "primitive": "selfhood_structure",
         "value": "substantial-self",
         "register": "phenomenological",
-        "citation_locus": "cite://isvara-krsna/samkhya-karika/9",
+        "citation_locus": "cite://isvara-krsna/sankhya-karika/9",
         "confidence": "medium"
       },
       {
@@ -4144,7 +4144,7 @@
         "primitive": "soteric_end",
         "value": "isolation-or-discriminative-release",
         "register": "soteriological",
-        "citation_locus": "cite://isvara-krsna/samkhya-karika/9",
+        "citation_locus": "cite://isvara-krsna/sankhya-karika/9",
         "confidence": "medium"
       },
       {
@@ -4152,7 +4152,7 @@
         "primitive": "substrate_structure",
         "value": "many-coordinate-reals",
         "register": "metaphysical",
-        "citation_locus": "cite://isvara-krsna/samkhya-karika/9",
+        "citation_locus": "cite://isvara-krsna/sankhya-karika/9",
         "confidence": "medium"
       },
       {
@@ -4160,7 +4160,7 @@
         "primitive": "temporal_mode",
         "value": "substance-primary",
         "register": "metaphysical",
-        "citation_locus": "cite://isvara-krsna/samkhya-karika/9",
+        "citation_locus": "cite://isvara-krsna/sankhya-karika/9",
         "confidence": "medium"
       },
       {
@@ -10979,13 +10979,13 @@
       },
       {
         "thinker": "bergson",
-        "counter_thinker": "gaudapada-samkhya",
+        "counter_thinker": "gaudapada-sankhya",
         "primitive": "temporal_mode",
         "agreement_type": "genuine-disagreement",
         "register": "metaphysical",
-        "brief": "Gaudapada (Samkhya commentator) presses the same temporal mode axis in the metaphysical register, but with the value `substance-primary` rather than `process-primary`.",
+        "brief": "Gaudapada (Sankhya commentator) presses the same temporal mode axis in the metaphysical register, but with the value `substance-primary` rather than `process-primary`.",
         "citations": [
-          "cite://isvara-krsna/samkhya-karika/1"
+          "cite://isvara-krsna/sankhya-karika/1"
         ]
       },
       {
@@ -11518,13 +11518,13 @@
       },
       {
         "thinker": "hegel",
-        "counter_thinker": "gaudapada-samkhya",
+        "counter_thinker": "gaudapada-sankhya",
         "primitive": "temporal_mode",
         "agreement_type": "genuine-disagreement",
         "register": "metaphysical",
-        "brief": "Gaudapada (Samkhya commentator) presses the same temporal mode axis in the metaphysical register, but with the value `substance-primary` rather than `process-primary`.",
+        "brief": "Gaudapada (Sankhya commentator) presses the same temporal mode axis in the metaphysical register, but with the value `substance-primary` rather than `process-primary`.",
         "citations": [
-          "cite://isvara-krsna/samkhya-karika/1"
+          "cite://isvara-krsna/sankhya-karika/1"
         ]
       },
       {
@@ -12509,13 +12509,13 @@
       },
       {
         "thinker": "prigogine",
-        "counter_thinker": "gaudapada-samkhya",
+        "counter_thinker": "gaudapada-sankhya",
         "primitive": "temporal_mode",
         "agreement_type": "genuine-disagreement",
         "register": "metaphysical",
-        "brief": "Gaudapada (Samkhya commentator) presses the same temporal mode axis in the metaphysical register, but with the value `substance-primary` rather than `process-primary`.",
+        "brief": "Gaudapada (Sankhya commentator) presses the same temporal mode axis in the metaphysical register, but with the value `substance-primary` rather than `process-primary`.",
         "citations": [
-          "cite://isvara-krsna/samkhya-karika/1"
+          "cite://isvara-krsna/sankhya-karika/1"
         ]
       },
       {
@@ -13411,13 +13411,13 @@
       },
       {
         "thinker": "whitehead",
-        "counter_thinker": "gaudapada-samkhya",
+        "counter_thinker": "gaudapada-sankhya",
         "primitive": "temporal_mode",
         "agreement_type": "genuine-disagreement",
         "register": "metaphysical",
-        "brief": "Gaudapada (Samkhya commentator) presses the same temporal mode axis in the metaphysical register, but with the value `substance-primary` rather than `process-primary`.",
+        "brief": "Gaudapada (Sankhya commentator) presses the same temporal mode axis in the metaphysical register, but with the value `substance-primary` rather than `process-primary`.",
         "citations": [
-          "cite://isvara-krsna/samkhya-karika/1"
+          "cite://isvara-krsna/sankhya-karika/1"
         ]
       },
       {

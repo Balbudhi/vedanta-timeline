@@ -11,7 +11,7 @@ Your job is to produce an updated `per_school[]` array (and only that) for this 
 - Aliases (for grep): `<ALIASES>`
 - Currently present schools: `<CURRENT_SCHOOLS>`
 - Schools with citation-evidence already in `site/data/citation_index.json`: `<EVIDENCE_SCHOOLS>`
-- Canonical schools to attempt (where the school has substantive treatment of this term): Advaita, Viśiṣṭādvaita, Tattva-vāda, Bhedābheda, Acintya-Bhedābheda, Dvaitādvaita, Śuddhādvaita, Sāṃkhya, Yoga, Nyāya-Vaiśeṣika, Pūrva-Mīmāṃsā, Mādhyamaka, Yogācāra, Pratyabhijñā / Trika. (Add Jainism, Pāṇinian-Vaiyākaraṇa where the term is technical there.)
+- Canonical schools to attempt (where the school has substantive treatment of this term): Advaita, Viśiṣṭādvaita, Tattva-vāda, Bhedābheda, Acintya-Bhedābheda, Dvaitādvaita, Śuddhādvaita, Sāṅkhya, Yoga, Nyāya-Vaiśeṣika, Pūrva-Mīmāṃsā, Mādhyamaka, Yogācāra, Pratyabhijñā / Trika. (Add Jainism, Pāṇinian-Vaiyākaraṇa where the term is technical there.)
 
 ## What to do
 

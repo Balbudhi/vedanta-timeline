@@ -1,52 +1,49 @@
 /* =============================================================
    Koi Hor Nahi Hai Mera — page styles
-   One ground (deep red), one ink (warm cream). No gold accents,
-   no gradients, no chrome. Hairline rules. Restraint.
+   One ground, one ink, one font. Restraint.
    ============================================================= */
 
 :root {
-  /* One red, one ink. Everything derives from these two. */
-  --kh-bg:        #6e0f15;
-  --kh-bg-deep:   #4a070d;             /* very dark red — only used for the audio player */
-  --kh-ink:       #f4ead0;             /* warm light-yellow cream — single text tone */
-  --kh-ink-soft:  rgba(244, 234, 208, 0.62);
-  --kh-ink-faint: rgba(244, 234, 208, 0.16);
-  --kh-rule:      rgba(244, 234, 208, 0.13);
+  /* One red, one cream. Everything derives. */
+  --kh-bg:        #3a070c;                       /* deep oxblood — body + player + tooltip */
+  --kh-ink:       #f4ead0;                       /* warm light-yellow cream */
+  --kh-ink-soft:  rgba(244, 234, 208, 0.65);
+  --kh-ink-mid:   rgba(244, 234, 208, 0.28);
+  --kh-rule:      rgba(244, 234, 208, 0.14);
 
-  /* Fonts. Cardo handles macrons and under-dot retroflex marks
-     more cleanly than Lora/Spectral; Source Serif 4 is the
-     modern backup. Title uses the same family at a larger size
-     to keep the typographic system simple. */
-  --kh-serif:   "Cardo", "Source Serif 4", "EB Garamond", Georgia, serif;
+  /* One font, everywhere. Alegreya — humanist serif with
+     rounded letterforms and clean extended-Latin marks. */
+  --kh-serif:   "Alegreya", "Source Serif 4", "EB Garamond", Georgia, serif;
 }
 
 html, body {
   background: var(--kh-bg);
   color: var(--kh-ink);
+  font-family: var(--kh-serif);
 }
 
 .song-page {
-  max-width: 720px;
+  max-width: 860px;
   margin: 0 auto;
-  padding: 72px 32px 140px;
+  padding: 80px 40px 140px;
   color: var(--kh-ink);
   font-family: var(--kh-serif);
 }
 
 /* ---------- Hero ---------- */
 .song-hero {
-  margin: 0 0 64px;
-  padding: 0 0 32px;
+  margin: 0 0 72px;
+  padding: 0 0 36px;
   border-bottom: 1px solid var(--kh-rule);
   text-align: center;
 }
 .song-title {
   font-family: var(--kh-serif);
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
-  font-size: 44px;
+  font-size: 50px;
   line-height: 1.15;
-  margin: 0 0 16px;
+  margin: 0 0 18px;
   color: var(--kh-ink);
   letter-spacing: 0.005em;
 }
@@ -58,29 +55,29 @@ html, body {
   font-style: normal;
   font-weight: 400;
   color: var(--kh-ink-soft);
-  font-size: 18px;
+  font-size: 21px;
   letter-spacing: 0.02em;
   text-transform: none;
 }
 
-/* ---------- Audio player (fixed, minimal) ---------- */
+/* ---------- Audio player (fixed, blends into body) ---------- */
 .audio-player {
   position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
-  height: 56px;
-  padding: 0 22px;
-  background: var(--kh-bg-deep);
+  height: 60px;
+  padding: 0 28px;
+  background: var(--kh-bg);
   border-top: 1px solid var(--kh-rule);
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 18px;
   z-index: 40;
 }
 .ap-btn {
-  width: 32px;
-  height: 32px;
+  width: 34px;
+  height: 34px;
   border-radius: 50%;
   border: 1px solid var(--kh-ink);
   background: transparent;
@@ -95,7 +92,7 @@ html, body {
 }
 .ap-btn:hover { background: rgba(244, 234, 208, 0.10); }
 .ap-btn:active { transform: scale(0.94); }
-.ap-btn .ap-icon-play { margin-left: 2px; }
+.ap-btn .ap-icon-play  { margin-left: 2px; }
 .ap-btn .ap-icon-pause { display: none; }
 .ap-btn.is-playing .ap-icon-play  { display: none; }
 .ap-btn.is-playing .ap-icon-pause { display: inline-block; }
@@ -103,7 +100,7 @@ html, body {
 .ap-progress {
   flex: 1;
   height: 1px;
-  background: var(--kh-ink-faint);
+  background: var(--kh-rule);
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -116,23 +113,23 @@ html, body {
 }
 .ap-time {
   font-family: var(--kh-serif);
-  font-size: 12.5px;
+  font-size: 14px;
   color: var(--kh-ink-soft);
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
-  min-width: 34px;
+  min-width: 36px;
   text-align: center;
   letter-spacing: 0.02em;
 }
-.ap-time-total { color: rgba(244, 234, 208, 0.42); }
+.ap-time-total { color: var(--kh-ink-mid); }
 .audio-player audio { display: none; }
 
-/* ---------- Line card ---------- */
+/* ---------- Line block ---------- */
 .line {
-  margin: 0 0 30px;
-  padding: 6px 16px 6px 16px;
-  margin-left: -16px;
-  margin-right: -16px;
+  margin: 0 0 38px;
+  padding: 8px 18px;
+  margin-left: -18px;
+  margin-right: -18px;
   border-left: 1px solid transparent;
   transition: background-color 240ms ease, border-color 240ms ease;
 }
@@ -142,41 +139,42 @@ html, body {
 }
 .line-roman {
   font-family: var(--kh-serif);
-  font-size: 23px;
-  line-height: 1.55;
+  font-size: 25px;
+  line-height: 1.5;
   color: var(--kh-ink);
-  margin: 0 0 6px;
+  margin: 0 0 10px;
   letter-spacing: 0.005em;
-  font-weight: 400;
+  font-weight: 500;
 }
 .line-english {
   font-family: var(--kh-serif);
   font-style: italic;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 1.55;
   color: var(--kh-ink-soft);
   margin: 0;
+  font-weight: 400;
 }
 
-/* Repetition badge — minimal, no fill, hairline border. */
+/* Repetition badge — single cream tone, hairline pill. */
 .rep {
   display: inline-block;
-  margin-left: 12px;
-  padding: 1px 8px;
+  margin-left: 14px;
+  padding: 2px 11px;
   font-family: var(--kh-serif);
-  font-size: 12.5px;
+  font-size: 15px;
   font-weight: 400;
   color: var(--kh-ink-soft);
   background: transparent;
   border: 1px solid var(--kh-rule);
   border-radius: 999px;
-  vertical-align: 0.22em;
+  vertical-align: 0.18em;
   white-space: nowrap;
   user-select: none;
   letter-spacing: 0.02em;
 }
 
-/* ---------- Roman word spans (hover targets) ---------- */
+/* ---------- Word spans (hover targets) ---------- */
 .line-roman .w {
   cursor: pointer;
   padding: 0 2px;
@@ -207,48 +205,48 @@ html, body {
   color: var(--kh-ink);
 }
 
-/* ---------- Word tooltip ---------- */
+/* ---------- Word tooltip (DARK red, cream text) ---------- */
 .word-tooltip {
   position: absolute;
   z-index: 50;
-  max-width: 320px;
-  padding: 9px 13px;
+  max-width: 340px;
+  padding: 11px 15px;
   font-family: var(--kh-serif);
   font-style: italic;
-  font-size: 15.5px;
+  font-size: 17px;
   line-height: 1.5;
-  color: var(--kh-bg);
-  background: var(--kh-ink);
-  border: none;
-  border-radius: 2px;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.30);
+  color: var(--kh-ink);
+  background: var(--kh-bg);
+  border: 1px solid rgba(244, 234, 208, 0.35);
+  border-radius: 3px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.40);
   pointer-events: none;
 }
 
 /* ---------- Mobile ---------- */
 @media (max-width: 720px) {
-  .song-page { padding: 48px 22px 110px; }
-  .song-title { font-size: 34px; line-height: 1.15; }
-  .song-attrib em { font-size: 16px; }
-  .line { margin-bottom: 26px; padding: 6px 14px; margin-left: -14px; margin-right: -14px; }
-  .line-roman { font-size: 21px; line-height: 1.55; }
-  .line-english { font-size: 16px; line-height: 1.55; }
-  .rep { font-size: 12px; padding: 1px 7px; }
+  .song-page { padding: 52px 22px 120px; }
+  .song-title { font-size: 38px; line-height: 1.15; }
+  .song-attrib em { font-size: 18px; }
+  .song-hero { margin-bottom: 56px; padding-bottom: 28px; }
+  .line { margin-bottom: 32px; padding: 6px 14px; margin-left: -14px; margin-right: -14px; }
+  .line-roman { font-size: 22px; line-height: 1.55; }
+  .line-english { font-size: 18px; line-height: 1.55; }
+  .rep { font-size: 13.5px; padding: 1px 9px; margin-left: 12px; }
   .word-tooltip {
-    max-width: 80vw;
-    font-size: 16px;
+    max-width: 82vw;
+    font-size: 17px;
     line-height: 1.5;
-    padding: 10px 14px;
+    padding: 11px 14px;
   }
 
   .audio-player {
-    height: 60px;
-    padding: 0 16px;
+    height: 62px;
+    padding: 0 18px;
     gap: 14px;
   }
   .ap-btn { width: 36px; height: 36px; }
-  .ap-btn svg { width: 14px; height: 14px; }
-  .ap-time { font-size: 12px; min-width: 32px; }
+  .ap-time { font-size: 13px; min-width: 32px; }
 }
 
 @media (max-width: 380px) {

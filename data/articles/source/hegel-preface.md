@@ -31,7 +31,7 @@ This already commits Hegel to a methodological principle. A philosophy cannot an
 
 Hegel's second principle is the most quoted (TWA 3, p. 23):
 
-Cross-engagement: Gaudapada (Samkhya commentator) takes the temporal mode axis to a different commitment — `substance-primary` at [primary text](cite://isvara-krsna/samkhya-karika/1) against `process-primary` here.
+Cross-engagement: Gaudapada (Sankhya commentator) takes the temporal mode axis to a different commitment — `substance-primary` at [primary text](cite://isvara-krsna/sankhya-karika/1) against `process-primary` here.
 
 ::: sanskrit-aside
 :::: german

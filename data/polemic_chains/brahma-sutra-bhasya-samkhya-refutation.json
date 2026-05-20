@@ -1,17 +1,17 @@
 {
-  "chain_id": "brahma-sutra-bhasya-samkhya-refutation",
-  "title": "Brahma-Sūtra anumāna-virodha against Sāṃkhya pradhāna",
+  "chain_id": "brahma-sutra-bhasya-sankhya-refutation",
+  "title": "Brahma-Sūtra anumāna-virodha against Sāṅkhya pradhāna",
   "attacker": "badarayana",
   "attacker_text": "Brahma-Sūtra 2.1.1–11 and 2.2.1–10 (the avirodha-adhyāya), with Śaṅkara's bhāṣya as the principal commentarial unfolding; supplemented by Rāmānuja's Śrī-Bhāṣya 2.1–2 and Madhva's Brahma-Sūtra-Bhāṣya 2.1–2",
   "target_school_token": "cross-tradition",
-  "target_position_summary": "Classical Sāṃkhya (Īśvarakṛṣṇa's Sāṃkhya-Kārikā tradition) — pradhāna (the unmanifest mūla-prakṛti composed of three guṇas in equilibrium) as the primordial material cause of the manifest world, distinct from puruṣa (a plurality of pure consciousnesses); evolution by inference (anumāna-pūrvaka); kaivalya as the isolation of puruṣa from prakṛti.",
+  "target_position_summary": "Classical Sāṅkhya (Īśvarakṛṣṇa's Sāṅkhya-Kārikā tradition) — pradhāna (the unmanifest mūla-prakṛti composed of three guṇas in equilibrium) as the primordial material cause of the manifest world, distinct from puruṣa (a plurality of pure consciousnesses); evolution by inference (anumāna-pūrvaka); kaivalya as the isolation of puruṣa from prakṛti.",
   "arguments": [
     {
       "name": "argument-1: BS 2.1.4 — pradhāna would be cetana, not acetana",
       "premises": [
         "The world exhibits intelligent design (purposeful arrangement of organs for embodied agents, etc.).",
         "The cause of an effect with cetana-arrangement must itself contain the principle of cetanā.",
-        "Sāṃkhya pradhāna is, by definition, acetana — pure inert prakṛti without consciousness.",
+        "Sāṅkhya pradhāna is, by definition, acetana — pure inert prakṛti without consciousness.",
         "The pradhāna therefore cannot account for the cetana-features of its alleged effect."
       ],
       "inference": "An acetana cause cannot produce a cetana-arranged effect.",
@@ -21,42 +21,42 @@
         "positions_actually_attacked": [
           {
             "thinker_id": "kasakrtsna",
-            "position": "Indirectly engaged through the broader anumāna-pūrvaka cosmology Sāṃkhya inherits."
+            "position": "Indirectly engaged through the broader anumāna-pūrvaka cosmology Sāṅkhya inherits."
           }
         ],
         "positions_left_intact": [
           {
             "thinker_id": "vijnanabhiksu",
-            "position": "Vijñānabhikṣu's harmonising Sāṃkhya-Vedānta reading reframes pradhāna as Brahman's śakti, evading the cetana/acetana dichotomy. The argument as stated does not engage this later Sāṃkhya reformation."
+            "position": "Vijñānabhikṣu's harmonising Sāṅkhya-Vedānta reading reframes pradhāna as Brahman's śakti, evading the cetana/acetana dichotomy. The argument as stated does not engage this later Sāṅkhya reformation."
           }
         ],
         "later_responses": [
           {
             "thinker_id": "vijnanabhiksu",
-            "response_text": "Sāṃkhya-Sūtra-Vṛtti and Vijñānāmṛta-Bhāṣya — argues that the cetana/acetana dichotomy presupposes a cosmological independence of pradhāna that the harmonising reading rejects",
-            "verdict": "the harmonising move accepts the original argument's force against independent-pradhāna and reframes Sāṃkhya as Brahman-internal."
+            "response_text": "Sāṅkhya-Sūtra-Vṛtti and Vijñānāmṛta-Bhāṣya — argues that the cetana/acetana dichotomy presupposes a cosmological independence of pradhāna that the harmonising reading rejects",
+            "verdict": "the harmonising move accepts the original argument's force against independent-pradhāna and reframes Sāṅkhya as Brahman-internal."
           }
         ]
       },
-      "user_thesis_test": "Substantive against classical independent-pradhāna Sāṃkhya. The harmonising response is not a register-clarification but a doctrinal reformation — Vijñānabhikṣu's Sāṃkhya is no longer the same Sāṃkhya."
+      "user_thesis_test": "Substantive against classical independent-pradhāna Sāṅkhya. The harmonising response is not a register-clarification but a doctrinal reformation — Vijñānabhikṣu's Sāṅkhya is no longer the same Sāṅkhya."
     },
     {
       "name": "argument-2: BS 2.1.7 — pradhāna would have no self-limiting principle (the equilibrium-disturbance problem)",
       "premises": [
-        "Sāṃkhya holds that the three guṇas (sattva, rajas, tamas) are in equilibrium in the unmanifest pradhāna.",
+        "Sāṅkhya holds that the three guṇas (sattva, rajas, tamas) are in equilibrium in the unmanifest pradhāna.",
         "The manifest world arises through disturbance of this equilibrium.",
-        "But on Sāṃkhya's own account, no factor external to pradhāna can disturb its equilibrium (puruṣa is causally inert; there is no other independent factor).",
+        "But on Sāṅkhya's own account, no factor external to pradhāna can disturb its equilibrium (puruṣa is causally inert; there is no other independent factor).",
         "Yet the equilibrium-state, by definition, is not such as to disturb itself.",
-        "Therefore the manifestation of the world is unaccounted-for on the Sāṃkhya scheme."
+        "Therefore the manifestation of the world is unaccounted-for on the Sāṅkhya scheme."
       ],
       "inference": "Pradhāna cannot self-disturb without a principle external to itself.",
-      "conclusion": "Either Sāṃkhya must admit such a principle (in which case it is no longer self-sufficient) or it cannot explain manifestation.",
+      "conclusion": "Either Sāṅkhya must admit such a principle (in which case it is no longer self-sufficient) or it cannot explain manifestation.",
       "premise_status": "primary-text-attested",
       "what_it_touches": {
         "positions_actually_attacked": [
           {
             "thinker_id": "kasakrtsna",
-            "position": "Same as above; Sāṃkhya cosmology generally."
+            "position": "Same as above; Sāṅkhya cosmology generally."
           }
         ],
         "positions_left_intact": [
@@ -68,30 +68,30 @@
         "later_responses": [
           {
             "thinker_id": "vijnanabhiksu",
-            "response_text": "Sāṃkhya-Sūtra-Vṛtti — argues that Brahman, qua antaryāmin, supplies the disturbing factor; manifestation is Brahman's līlā operating on prakṛti as its śakti",
-            "verdict": "harmonisation again; classical Sāṃkhya is functionally abandoned."
+            "response_text": "Sāṅkhya-Sūtra-Vṛtti — argues that Brahman, qua antaryāmin, supplies the disturbing factor; manifestation is Brahman's līlā operating on prakṛti as its śakti",
+            "verdict": "harmonisation again; classical Sāṅkhya is functionally abandoned."
           }
         ]
       },
-      "user_thesis_test": "Substantive against classical independent Sāṃkhya. Vijñānabhikṣu's harmonising response reads the polemic as a real difficulty and accepts the implication that Sāṃkhya needs Brahman."
+      "user_thesis_test": "Substantive against classical independent Sāṅkhya. Vijñānabhikṣu's harmonising response reads the polemic as a real difficulty and accepts the implication that Sāṅkhya needs Brahman."
     },
     {
-      "name": "argument-3: BS 2.2.1–10 — Sāṃkhya's anumāna-pūrvaka method is dialectically defective",
+      "name": "argument-3: BS 2.2.1–10 — Sāṅkhya's anumāna-pūrvaka method is dialectically defective",
       "premises": [
-        "Sāṃkhya establishes pradhāna by inference from manifest effects to unmanifest cause (anumāna-pūrvaka).",
-        "But the inferential apparatus presupposes that the cause-effect relation is determinable; this presupposition is itself defended by Sāṃkhya only by appeal to the very same inferential apparatus.",
-        "Further, scriptural pramāṇa (śabda) is the appropriate authority for supra-empirical questions like the ultimate cause; Sāṃkhya's reliance on inference where śruti is available is methodologically subordinate.",
+        "Sāṅkhya establishes pradhāna by inference from manifest effects to unmanifest cause (anumāna-pūrvaka).",
+        "But the inferential apparatus presupposes that the cause-effect relation is determinable; this presupposition is itself defended by Sāṅkhya only by appeal to the very same inferential apparatus.",
+        "Further, scriptural pramāṇa (śabda) is the appropriate authority for supra-empirical questions like the ultimate cause; Sāṅkhya's reliance on inference where śruti is available is methodologically subordinate.",
         "The śruti-attested cause is Brahman (cetana); the inference-attested cause is pradhāna (acetana); on the proper hierarchy of pramāṇas, śruti overrides inference in this domain.",
-        "Hence Sāṃkhya's pradhāna-doctrine fails on methodological grounds even before the substantive cosmological objections."
+        "Hence Sāṅkhya's pradhāna-doctrine fails on methodological grounds even before the substantive cosmological objections."
       ],
       "inference": "Inference cannot establish the ultimate cause of the world against śruti.",
-      "conclusion": "Sāṃkhya's methodology is disqualified for the inquiry at hand.",
+      "conclusion": "Sāṅkhya's methodology is disqualified for the inquiry at hand.",
       "premise_status": "primary-text-attested",
       "what_it_touches": {
         "positions_actually_attacked": [
           {
             "thinker_id": "kasakrtsna",
-            "position": "Sāṃkhya as a darśana, methodologically."
+            "position": "Sāṅkhya as a darśana, methodologically."
           }
         ],
         "positions_left_intact": [
@@ -112,13 +112,13 @@
           }
         ]
       },
-      "user_thesis_test": "Substantive at the methodological level. The disagreement over pramāṇa-hierarchy is genuinely substantive and persists across all Vedāntic schools' treatment of Sāṃkhya."
+      "user_thesis_test": "Substantive at the methodological level. The disagreement over pramāṇa-hierarchy is genuinely substantive and persists across all Vedāntic schools' treatment of Sāṅkhya."
     }
   ],
-  "user_thesis_summary": "The Brahma-Sūtra anti-Sāṃkhya polemic engages a non-Vedāntic darśana and is therefore not directly testable for the perspectivism hypothesis at the inter-Vedāntic level. However, two important observations follow. First, all three major Vedāntic schools (Advaita, Viśiṣṭādvaita, Tattva-vāda (the school often labeled Dvaita)) accept the substantive conclusion of the polemic (Brahman, not pradhāna, is the ultimate cause), even though they disagree on what 'cause' here means. The polemic is therefore one of the rare cases of inter-Vedāntic doctrinal alignment. Second, Vijñānabhikṣu's harmonising Sāṃkhya-Vedānta is precisely the move the user's perspectivism hypothesis would predict: Sāṃkhya's pradhāna is reread as Brahman's śakti, and the original disagreement is dissolved into a register-difference (Sāṃkhya talks the cosmological-process register; Vedānta talks the substrate register). The reformation accepts the polemic's substantive force while preserving Sāṃkhya as a partial-perspective on the same metaphysics. This is a clean test-case for the perspectivism hypothesis, and the historical evidence (Vijñānabhikṣu's reform) supports it. Verdict: substantive against classical Sāṃkhya; partially-dissolves under Vijñānabhikṣu's harmonising reformation, in a way that supports the user's perspectivism hypothesis applied to Sāṃkhya-Vedānta.",
+  "user_thesis_summary": "The Brahma-Sūtra anti-Sāṅkhya polemic engages a non-Vedāntic darśana and is therefore not directly testable for the perspectivism hypothesis at the inter-Vedāntic level. However, two important observations follow. First, all three major Vedāntic schools (Advaita, Viśiṣṭādvaita, Tattva-vāda (the school often labeled Dvaita)) accept the substantive conclusion of the polemic (Brahman, not pradhāna, is the ultimate cause), even though they disagree on what 'cause' here means. The polemic is therefore one of the rare cases of inter-Vedāntic doctrinal alignment. Second, Vijñānabhikṣu's harmonising Sāṅkhya-Vedānta is precisely the move the user's perspectivism hypothesis would predict: Sāṅkhya's pradhāna is reread as Brahman's śakti, and the original disagreement is dissolved into a register-difference (Sāṅkhya talks the cosmological-process register; Vedānta talks the substrate register). The reformation accepts the polemic's substantive force while preserving Sāṅkhya as a partial-perspective on the same metaphysics. This is a clean test-case for the perspectivism hypothesis, and the historical evidence (Vijñānabhikṣu's reform) supports it. Verdict: substantive against classical Sāṅkhya; partially-dissolves under Vijñānabhikṣu's harmonising reformation, in a way that supports the user's perspectivism hypothesis applied to Sāṅkhya-Vedānta.",
   "primary_source_loci": [
-    "Brahma-Sūtra 2.1.1–11 (the introductory anti-Sāṃkhya argumentation in the avirodha-adhyāya)",
-    "Brahma-Sūtra 2.2.1–10 (the systematic anti-Sāṃkhya refutation)",
+    "Brahma-Sūtra 2.1.1–11 (the introductory anti-Sāṅkhya argumentation in the avirodha-adhyāya)",
+    "Brahma-Sūtra 2.2.1–10 (the systematic anti-Sāṅkhya refutation)",
     "Śaṅkara, BSB ad loc. (the principal commentarial unfolding)",
     "Rāmānuja, Śrī-Bhāṣya ad loc.",
     "Madhva, BSB ad loc."
@@ -126,15 +126,15 @@
   "scholarly_apparatus": [
     {
       "scholar": "Gerald Larson",
-      "work": "Classical Sāṃkhya (Motilal, 1969; 2nd ed. 1979)",
+      "work": "Classical Sāṅkhya (Motilal, 1969; 2nd ed. 1979)",
       "page_or_section": "ch. 4 on Vedāntic critiques",
-      "position": "Documents the Vedāntic anti-Sāṃkhya tradition and notes that the polemic is most effective against the strict-independent-pradhāna reading, less so against Vijñānabhikṣu's later harmonising reading."
+      "position": "Documents the Vedāntic anti-Sāṅkhya tradition and notes that the polemic is most effective against the strict-independent-pradhāna reading, less so against Vijñānabhikṣu's later harmonising reading."
     },
     {
       "scholar": "Andrew Nicholson",
       "work": "Unifying Hinduism (Columbia, 2010)",
       "page_or_section": "ch. on Vijñānabhikṣu",
-      "position": "Reads Vijñānabhikṣu's Sāṃkhya-Vedānta synthesis as a deliberate response to the Vedāntic anti-Sāṃkhya polemic and a precursor to the modern 'six darśanas as facets of one truth' framing."
+      "position": "Reads Vijñānabhikṣu's Sāṅkhya-Vedānta synthesis as a deliberate response to the Vedāntic anti-Sāṅkhya polemic and a precursor to the modern 'six darśanas as facets of one truth' framing."
     }
   ],
   "entry_status": "reviewed",

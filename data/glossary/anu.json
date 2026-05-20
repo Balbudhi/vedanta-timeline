@@ -143,24 +143,24 @@
       "not_applicable_reason": "In the indexed Vallabha materials, the jīva is doctrinally handled as Brahman's aṃśa within avikṛta-pariṇāma rather than as an atomically or minutely measured self [[BSB 2.3.43-45](cite://vallabha/anu-bhasya/2.3.43-45)]."
     },
     {
-      "school": "Sāṃkhya",
-      "definition": "In Sāṃkhya, aṇutva does not characterize the puruṣa: the Kārikā tradition explicitly describes puruṣa as vyāpī, niravayava, and unlike the vyakta-complex, while the Sūtras assign atomic measure instead to the transmigrating liṅgaśarīra [[SKMV 11](cite://isvarakrsna/samkhya-karika-commentary/11); [KapSS 3.14](cite://kapila/samkhya-sutra/3.14)]. The same Sūtra collection denies vyāpakatva to manas, so minuteness belongs to the subtle psychical apparatus rather than to the witnessing self [[KapSS 5.69-71](cite://kapila/samkhya-sutra/5.69-71)].",
+      "school": "Sāṅkhya",
+      "definition": "In Sāṅkhya, aṇutva does not characterize the puruṣa: the Kārikā tradition explicitly describes puruṣa as vyāpī, niravayava, and unlike the vyakta-complex, while the Sūtras assign atomic measure instead to the transmigrating liṅgaśarīra [[SKMV 11](cite://isvarakrsna/sankhya-karika-commentary/11); [KapSS 3.14](cite://kapila/sankhya-sutra/3.14)]. The same Sūtra collection denies vyāpakatva to manas, so minuteness belongs to the subtle psychical apparatus rather than to the witnessing self [[KapSS 5.69-71](cite://kapila/sankhya-sutra/5.69-71)].",
       "primary_loci": [
-        "Sāṃkhya-Kārikā with commentary on SK 11",
-        "Sāṃkhya-Sūtra 3.14",
-        "Sāṃkhya-Sūtra 5.69-71"
+        "Sāṅkhya-Kārikā with commentary on SK 11",
+        "Sāṅkhya-Sūtra 3.14",
+        "Sāṅkhya-Sūtra 5.69-71"
       ],
       "citations": [
         {
-          "cite": "cite://isvarakrsna/samkhya-karika-commentary/11",
+          "cite": "cite://isvarakrsna/sankhya-karika-commentary/11",
           "locus_short": "SKMV 11"
         },
         {
-          "cite": "cite://kapila/samkhya-sutra/3.14",
+          "cite": "cite://kapila/sankhya-sutra/3.14",
           "locus_short": "KapSS 3.14"
         },
         {
-          "cite": "cite://kapila/samkhya-sutra/5.69-71",
+          "cite": "cite://kapila/sankhya-sutra/5.69-71",
           "locus_short": "KapSS 5.69-71"
         }
       ]

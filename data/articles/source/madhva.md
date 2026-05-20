@@ -12,7 +12,7 @@ Madhvācārya, also called Ānandatīrtha and Pūrṇaprajña, was born near Udu
 
 Cross-engagement: against Adi Sankara: `dependent-real` rather than `sublatable-not-null` for the manifestation status axis ([primary text](cite://sankara/brahma-sutra-bhasya/1.1.1)).
 
-Within Vedānta historiography Madhva is traditionally called the founder of *Tattva-vāda* (often labeled Dvaita Vedānta). That label is misleading. Madhva's own technical name is *Tattva-vāda* — the doctrine of *tattvas*, of realities. "Dualism" carries Cartesian, Manichean, and Zoroastrian connotations that are inappropriate: none of those models is asymmetric in the way Madhva's is. Madhva's structure is *one* independent reality (*svatantra*), Viṣṇu, and a vast plurality of dependent realities (*asvatantra*) which are real in their own right but exist as continuously sustained modes of dependence. The structure is *aseity-and-participation-in-aseity*, closer in shape to Aquinas's *esse per se / esse per participationem* than to Sāṃkhya or Cartesianism.
+Within Vedānta historiography Madhva is traditionally called the founder of *Tattva-vāda* (often labeled Dvaita Vedānta). That label is misleading. Madhva's own technical name is *Tattva-vāda* — the doctrine of *tattvas*, of realities. "Dualism" carries Cartesian, Manichean, and Zoroastrian connotations that are inappropriate: none of those models is asymmetric in the way Madhva's is. Madhva's structure is *one* independent reality (*svatantra*), Viṣṇu, and a vast plurality of dependent realities (*asvatantra*) which are real in their own right but exist as continuously sustained modes of dependence. The structure is *aseity-and-participation-in-aseity*, closer in shape to Aquinas's *esse per se / esse per participationem* than to Sāṅkhya or Cartesianism.
 
 Read in this light, the *viśeṣa* doctrine is not ad hoc patching but a serious technical contribution to the substance-attribute problem; the *māyā-vāda khaṇḍana* is not sectarian grumbling but a formal argument that identifies a real load-bearing problem in Śaṅkara's system, never answered on its own terms — only repositioned, by Madhusūdana, by Vivaraṇa-school authors, and (the user's reading) by Aurobindo.
 
@@ -154,7 +154,7 @@ Second leg, the pragmatic-transcendental argument. If the world were *mithyā* i
 
 Third leg, scriptural. Several *śruti*-passages are decisive once one reads them at *mukhyārtha*. Taittirīya 2.1: *annaṃ brahmeti vyajānāt* — "he understood food to be Brahman" — does not mean food *is* Brahman in identity (this would make digestion a transformation of Brahman); it means food is Brahman's manifestation, Brahman's product, Brahman's creature. Bhagavad-Gītā 9.10: *mayādhyakṣeṇa prakṛtiḥ sūyate sa-carācaram* — "under my superintendence *prakṛti* gives birth to the moving and unmoving" — explicitly distinguishes the superintending Lord from the *prakṛti* that gives birth. The *adhyakṣa* is *not* what is superintended; the relation is *bheda*. This is the canonical Vaiṣṇava locus and it is not amenable to *gauṇārtha* without strain.
 
-**Anticipated objection.** Is real eternal *prakṛti* not Sāṃkhya-style dualism? Reply: Madhva's *prakṛti* is *asvatantra* — its eternity is that of a continuously-sustained entity, not an independent ultimate. Sāṃkhya's *prakṛti* is *svatantra*; Madhva's is dependent. The categorial difference is in the *svatantra/asvatantra* divide.
+**Anticipated objection.** Is real eternal *prakṛti* not Sāṅkhya-style dualism? Reply: Madhva's *prakṛti* is *asvatantra* — its eternity is that of a continuously-sustained entity, not an independent ultimate. Sāṅkhya's *prakṛti* is *svatantra*; Madhva's is dependent. The categorial difference is in the *svatantra/asvatantra* divide.
 
 ### *Bheda* 3 — *Jīva–Jīva-bheda*: Soul and Soul
 
@@ -368,7 +368,7 @@ Bondage, pain, limitation are not optional features of experience that can be ca
 
 ### Madhva's positive alternative
 
-AV 1.1.13 (Part I) is the *positive* alternative to *vivarta*: a *governed-dependence* account. The world is real; its reality is its continuous being-sustained by Viṣṇu's *anugraha*. Not *vivarta*, not Sāṃkhya-style self-sufficient *pariṇāma*, but *Viṣṇu-superintended pariṇāma* of *prakṛti*. *Avidyā* does no explanatory work; the world remains fully real.
+AV 1.1.13 (Part I) is the *positive* alternative to *vivarta*: a *governed-dependence* account. The world is real; its reality is its continuous being-sustained by Viṣṇu's *anugraha*. Not *vivarta*, not Sāṅkhya-style self-sufficient *pariṇāma*, but *Viṣṇu-superintended pariṇāma* of *prakṛti*. *Avidyā* does no explanatory work; the world remains fully real.
 
 Bondage is *real*, and liberation is its *real* removal — not recognition-as-illusory. Real removal requires a real cause: Viṣṇu's *anugraha*. *Jñāna* is instrumental — *jñāna* of Viṣṇu's nature pleases Viṣṇu — but grace is the efficient cause. The conjunction of *bhakti* and *jñāna* is an entailment of the ontology, not an ad hoc concession.
 
@@ -450,25 +450,25 @@ The argument against *vivarta-vāda*:
 
 The argument is sharp. It puts the Advaitin in a dilemma about the very text on which Advaita is built. Either the sūtras are real (and they teach realism) or they are *mithyā* (and they cannot teach anything *pāramārthika*). Either way, the *Brahma-Sūtras* are not evidence *for* pure Advaita.
 
-### [BSB 1.4.21–22](cite://sankara/brahma-sutra-bhasya/1.4.21-22): Against Sāṃkhya, with *Prakṛti* Preserved
+### [BSB 1.4.21–22](cite://sankara/brahma-sutra-bhasya/1.4.21-22): Against Sāṅkhya, with *Prakṛti* Preserved
 
-The sūtras 1.4.21 (*prakṛtyaiva*) and surrounding adhikaraṇas concern the Sāṃkhya account of creation. For Bādarāyaṇa, Sāṃkhya is the primary rival to be defeated before Brahman-as-cause can be established. All three major Vedāntins — Śaṅkara, Rāmānuja, Madhva — defeat Sāṃkhya here. The disagreement is over what survives the defeat.
+The sūtras 1.4.21 (*prakṛtyaiva*) and surrounding adhikaraṇas concern the Sāṅkhya account of creation. For Bādarāyaṇa, Sāṅkhya is the primary rival to be defeated before Brahman-as-cause can be established. All three major Vedāntins — Śaṅkara, Rāmānuja, Madhva — defeat Sāṅkhya here. The disagreement is over what survives the defeat.
 
 Madhva's argument:
 
-(i) Sāṃkhya's claim is that *prakṛti* (unconscious primordial matter, in equilibrium of the three *guṇas*) causes the world through proximity to *puruṣa* (consciousness) but without *puruṣa*'s active agency.
+(i) Sāṅkhya's claim is that *prakṛti* (unconscious primordial matter, in equilibrium of the three *guṇas*) causes the world through proximity to *puruṣa* (consciousness) but without *puruṣa*'s active agency.
 
-(ii) An unconscious entity cannot self-organize *for a purpose* — particularly, for the purpose of *puruṣa*'s liberation, which is the teleological frame Sāṃkhya itself invokes — without an intelligent designer. The teleological structure of the universe (the ordered evolutionary sequence: *mahattattva* → *ahaṃkāra* → *tanmātras* → bhūtas, sense-organs, motor organs) is too determinate, too oriented, to be the product of unconscious matter alone.
+(ii) An unconscious entity cannot self-organize *for a purpose* — particularly, for the purpose of *puruṣa*'s liberation, which is the teleological frame Sāṅkhya itself invokes — without an intelligent designer. The teleological structure of the universe (the ordered evolutionary sequence: *mahattattva* → *ahaṃkāra* → *tanmātras* → bhūtas, sense-organs, motor organs) is too determinate, too oriented, to be the product of unconscious matter alone.
 
 (iii) Therefore there must be an intelligent efficient cause directing *prakṛti*. That cause is Viṣṇu.
 
-So far, the argument is shared with Śaṅkara and Rāmānuja. The decisive difference: in Madhva's defeat of Sāṃkhya, *prakṛti* survives as a *real* eternal-with-modification material substrate. *Prakṛti* is not collapsed into *māyā* (Śaṅkara's move); it is not collapsed into Brahman's body (Rāmānuja's move); it is preserved as a real *asvatantra* substance under Viṣṇu's *adhyakṣa*. The *bheda* between Viṣṇu and *prakṛti* is preserved through the entire causal account.
+So far, the argument is shared with Śaṅkara and Rāmānuja. The decisive difference: in Madhva's defeat of Sāṅkhya, *prakṛti* survives as a *real* eternal-with-modification material substrate. *Prakṛti* is not collapsed into *māyā* (Śaṅkara's move); it is not collapsed into Brahman's body (Rāmānuja's move); it is preserved as a real *asvatantra* substance under Viṣṇu's *adhyakṣa*. The *bheda* between Viṣṇu and *prakṛti* is preserved through the entire causal account.
 
 The encoding verse, AV 1.1.13, repeated here in context, again says that substance, action, time, intrinsic nature, and *jīva* exist only by Viṣṇu's sustaining grace.
 
 Substance, action, time, intrinsic nature, and *jīva* — these exist by [Viṣṇu's] grace and do not exist when he withdraws.
 
-This is the positive theology that survives the defeat of Sāṃkhya. *Prakṛti* (substance), *karma* (action), *kāla* (time), *svabhāva* (intrinsic nature of each *jīva*), and *jīvas* are all real, eternal-with-modification, and continuously sustained by Viṣṇu. Not pantheism, not Advaita, not Sāṃkhya: a *governed-dependence* account where the world is real because and as Viṣṇu sustains it.
+This is the positive theology that survives the defeat of Sāṅkhya. *Prakṛti* (substance), *karma* (action), *kāla* (time), *svabhāva* (intrinsic nature of each *jīva*), and *jīvas* are all real, eternal-with-modification, and continuously sustained by Viṣṇu. Not pantheism, not Advaita, not Sāṅkhya: a *governed-dependence* account where the world is real because and as Viṣṇu sustains it.
 
 ### [BSB 2.1.14](cite://sankara/brahma-sutra-bhasya/2.1.14): *Tad-Ananyatva* — The Decisive Disagreement
 
@@ -636,7 +636,7 @@ Madhva is the rigorous articulation of what the realist trajectory needs at the 
 
 **The *sākṣin* doctrine names the epistemological instrument T8 deploys.** Right action as the lawful unfolding of *sākṣi-caitanya* presupposes a real, non-mediated, authoritative *pramāṇa* — exactly the position Madhva defends. T8's extension (the *sākṣin* as locus of the divine's self-presence) goes beyond Madhva, but the formal foundation is his.
 
-**The *svatantra/asvatantra* divide preserves singular ground without symmetric dualism.** One independent, many dependents, real distinctions, real causation. The shape blocks both Sāṃkhya pluralism and Advaita's *nirviśeṣa* monism — the architecture the trajectory requires before the supramental simultaneity layer can be added.
+**The *svatantra/asvatantra* divide preserves singular ground without symmetric dualism.** One independent, many dependents, real distinctions, real causation. The shape blocks both Sāṅkhya pluralism and Advaita's *nirviśeṣa* monism — the architecture the trajectory requires before the supramental simultaneity layer can be added.
 
 ### IX.2 Where Madhva is one-sided
 
@@ -682,7 +682,7 @@ For first engagement with Madhva's actual texts, in order:
 
 **3. *Viṣṇu-Tattva-Vinirṇaya*** next. Pandurangi's 1991 translation. The condensed *bheda* defense is a useful synthesis of arguments scattered through the *Anuvyākhyāna*. Short enough to read in a sitting; substantial enough to repay re-reading.
 
-**4. *Brahma-Sūtra-Bhāṣya*** targeted at the *māyā-vāda* chapters. Adhyāya 1 Pāda 1 sūtras 1–4 (the foundation); Adhyāya 1 Pāda 4 sūtras 21–22 (against Sāṃkhya); Adhyāya 2 Pāda 1 sūtras 13–14 (the *ananyatva* discussion). Read with the four classical commentators (Jayatīrtha, Vyāsatīrtha, Vādirāja, Rāghavendra) where available; in English, Pandurangi's edition gives the access.
+**4. *Brahma-Sūtra-Bhāṣya*** targeted at the *māyā-vāda* chapters. Adhyāya 1 Pāda 1 sūtras 1–4 (the foundation); Adhyāya 1 Pāda 4 sūtras 21–22 (against Sāṅkhya); Adhyāya 2 Pāda 1 sūtras 13–14 (the *ananyatva* discussion). Read with the four classical commentators (Jayatīrtha, Vyāsatīrtha, Vādirāja, Rāghavendra) where available; in English, Pandurangi's edition gives the access.
 
 **5. *Tattvodyota* and the *Khaṇḍana-Traya*** for polemical sharpening. These are short and combative; useful as case studies in Madhva's argumentative style but less central than the works above.
 

@@ -489,9 +489,9 @@ Vallabha's *Aṇubhāṣya* and the broader Puṣṭi-Mārga tradition supply pe
 
 The phrase *śuddhādvaita* is often mistranslated as if Vallabha were simply repeating Śaṅkara and adding devotion. He is not. He is insisting that one can have non-duality without explaining away the world's positive reality. That makes him one of the cleanest witnesses in the tradition for a robustly affirmative world-metaphysics.
 
-### Vijñānabhikṣu: syncretic Vedānta with Sāṃkhya and Yoga retained
+### Vijñānabhikṣu: syncretic Vedānta with Sāṅkhya and Yoga retained
 
-Vijñānabhikṣu's importance lies in his refusal to let the great systems remain mutually exclusive. In the *Vijñānāmṛta-Bhāṣya* and *Yoga-Vārttika* he works at the seam between Vedānta, Sāṃkhya, and Yoga. He is not simply "eclectic" in the weak sense. He is trying to retain the explanatory force of Sāṃkhya-Yoga categories within a broader Vedāntic frame.
+Vijñānabhikṣu's importance lies in his refusal to let the great systems remain mutually exclusive. In the *Vijñānāmṛta-Bhāṣya* and *Yoga-Vārttika* he works at the seam between Vedānta, Sāṅkhya, and Yoga. He is not simply "eclectic" in the weak sense. He is trying to retain the explanatory force of Sāṅkhya-Yoga categories within a broader Vedāntic frame.
 
 This matters for the present history because it shows once more that the hard textbook partitions are late pedagogical conveniences. Indian philosophers repeatedly worked across them.
 
@@ -545,11 +545,11 @@ This gives him an especially sharp place in the history. Rāmānuja preserves wo
 
 ### Vijñānabhikṣu: the late synthetic seam
 
-Vijñānabhikṣu is the most important late precedent for cross-*darśana* coordination. In the *Vijñānāmṛta-Bhāṣya* on the *Brahma-Sūtra* and the *Yoga-Vārttika* on Vyāsa's *Yoga-Bhāṣya*, he refuses the pedagogical map that says one must pick Vedānta, Sāṃkhya, or Yoga as if the others were merely false.
+Vijñānabhikṣu is the most important late precedent for cross-*darśana* coordination. In the *Vijñānāmṛta-Bhāṣya* on the *Brahma-Sūtra* and the *Yoga-Vārttika* on Vyāsa's *Yoga-Bhāṣya*, he refuses the pedagogical map that says one must pick Vedānta, Sāṅkhya, or Yoga as if the others were merely false.
 
-His procedure is not modern pluralism. It is more disciplined and more hierarchical. Sāṃkhya's *prakṛti* architecture is retained because it explains real process. Yoga's disciplined phenomenology is retained because it explains practice. Vedānta supplies the larger frame within which those explanatory powers are re-situated. In other words, Bhikṣu is not flattening the schools. He is coordinating them.
+His procedure is not modern pluralism. It is more disciplined and more hierarchical. Sāṅkhya's *prakṛti* architecture is retained because it explains real process. Yoga's disciplined phenomenology is retained because it explains practice. Vedānta supplies the larger frame within which those explanatory powers are re-situated. In other words, Bhikṣu is not flattening the schools. He is coordinating them.
 
-This matters for the present history because it proves that late Sanskrit intellectual life repeatedly resisted the clean compartmentalization later textbooks impose. The same thinker can hold that Vedānta has primacy while still refusing to junk the explanatory apparatus of Sāṃkhya and Yoga. That is precisely the kind of crowded realism a serious history of Vedānta must preserve.
+This matters for the present history because it proves that late Sanskrit intellectual life repeatedly resisted the clean compartmentalization later textbooks impose. The same thinker can hold that Vedānta has primacy while still refusing to junk the explanatory apparatus of Sāṅkhya and Yoga. That is precisely the kind of crowded realism a serious history of Vedānta must preserve.
 
 ## Part V — The Śrīvaiṣṇava Line
 
@@ -890,7 +890,7 @@ That is methodologically important. The modern English-language recovery of real
 
 ### Why the artificial separation is false
 
-By this point the pattern should be obvious. The same thinkers keep crossing the boundaries modern description imposes on them. Philosophers write hymns. Devotional theologians write logic. Tantra supplies cosmology for problems Vedānta addresses abstractly. Sāṃkhya and Yoga categories are retained inside Vedāntic syntheses. The tidy boxes are ours, not theirs.
+By this point the pattern should be obvious. The same thinkers keep crossing the boundaries modern description imposes on them. Philosophers write hymns. Devotional theologians write logic. Tantra supplies cosmology for problems Vedānta addresses abstractly. Sāṅkhya and Yoga categories are retained inside Vedāntic syntheses. The tidy boxes are ours, not theirs.
 
 The costs of maintaining those boxes are real. One misreads Śaṅkara as pure negation, Madhusūdana as only a logician, Rāmānuja as only a theologian, Madhva as only a polemicist, and Trika as only esotericism. The integrated intellectual ecology disappears.
 

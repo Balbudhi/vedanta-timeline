@@ -113,7 +113,7 @@ TERMS = {
             "Tattva-vāda": "M+LD; polemicist/Tattvavādin",
             "Acintya-Bhedābheda": "AD+S; bhakta",
             "Śuddhādvaita": "M; bhakta",
-            "Sāṃkhya": "C+S; mumukṣu",
+            "Sāṅkhya": "C+S; mumukṣu",
             "Yoga": "Mh+S; yogin",
             "Nyāya-Vaiśeṣika": "M+E; philosophical reader",
             "Pūrva-Mīmāṃsā": "RN+SL+Eth; adhikārin of ritual",
@@ -138,7 +138,7 @@ TERMS = {
                 "*karma* itself or *jñāna*/*bhakti*/*śūnyatā* removes bondage."
             ),
             "register_axes_note": (
-                "Mīmāṃsā speaks in RN+SL; Advaita and Viśiṣṭādvaita in S+E; Sāṃkhya "
+                "Mīmāṃsā speaks in RN+SL; Advaita and Viśiṣṭādvaita in S+E; Sāṅkhya "
                 "in C+S; Buddhism in Φ+S without an enduring agent; Jainism gives "
                 "*karma* a partially *different concept* (literal material "
                 "*pudgala* adhering to the *jīva*). Where schools share the same "
@@ -152,7 +152,7 @@ TERMS = {
             "Viśiṣṭādvaita": "M+S; prapanna",
             "Tattva-vāda": "M+S; Tattvavādin",
             "Acintya-Bhedābheda": "AD+S; bhakta",
-            "Sāṃkhya": "C+S; mumukṣu",
+            "Sāṅkhya": "C+S; mumukṣu",
             "Yoga": "Φ+S; yogin",
             "Nyāya-Vaiśeṣika": "M+Eth; philosophical reader",
             "Pūrva-Mīmāṃsā": "RN+SL; adhikārin",
@@ -173,7 +173,7 @@ TERMS = {
                 "is therefore set by what each school takes *bandha* to be: "
                 "*avidyā* (Advaita), distance from Bhagavān (Viśiṣṭādvaita, "
                 "Tattva-vāda, Gauḍīya, Śuddhādvaita), *puruṣa-prakṛti-saṃyoga* "
-                "(Sāṃkhya-Yoga), *duḥkha-pravṛtti-mithyājñāna* (Nyāya), "
+                "(Sāṅkhya-Yoga), *duḥkha-pravṛtti-mithyājñāna* (Nyāya), "
                 "*prapañca-vikalpa* (Mādhyamaka), karmic *pudgala* (Jainism), or "
                 "contracted *aiśvarya* (Trika)."
             ),
@@ -196,7 +196,7 @@ TERMS = {
             "Acintya-Bhedābheda": "AD+S; bhakta [REAL-DISAGREEMENT on prema > mokṣa]",
             "Dvaitādvaita": "M+S; bhakta",
             "Śuddhādvaita": "M+S; bhakta",
-            "Sāṃkhya": "M+S; mumukṣu",
+            "Sāṅkhya": "M+S; mumukṣu",
             "Yoga": "S+Mh; yogin",
             "Nyāya-Vaiśeṣika": "M+S; reflective reader",
             "Mādhyamaka": "LD+S; reflective reader",
@@ -226,7 +226,7 @@ TERMS = {
                 "(AF1) on whether differentiation belongs to *brahman* itself. "
                 "Non-Vedāntic appearances are partial or *different concept*: "
                 "Mīmāṃsā's *brahman*-language is ritual-priestly, not metaphysical; "
-                "Sāṃkhya commentary glosses it as *avyakta/prakṛti*; Buddhists "
+                "Sāṅkhya commentary glosses it as *avyakta/prakṛti*; Buddhists "
                 "have no *brahman* as substrate but use *paramārtha/tathatā* as "
                 "functional analogues."
             ),
@@ -239,9 +239,9 @@ TERMS = {
             "Acintya-Bhedābheda": "M+AD; bhakta",
             "Dvaitādvaita": "M+S; bhakta",
             "Śuddhādvaita": "M+S; bhakta",
-            "Sāṃkhya": "C; reflective reader [different concept: avyakta/prakṛti]",
+            "Sāṅkhya": "C; reflective reader [different concept: avyakta/prakṛti]",
             "Yoga": "Φ+M; yogin",
-            "Sāṃkhya-Yoga (synthetic)": "M+S; yogin",
+            "Sāṅkhya-Yoga (synthetic)": "M+S; yogin",
             "Nyāya-Vaiśeṣika": "M+E; reflective reader [functional analogue: Īśvara]",
             "Pūrva-Mīmāṃsā": "RN; adhikārin [different concept: priestly designata]",
             "Mādhyamaka": "LD+M; reflective reader [no brahman; functional analogue paramārtha/tathatā]",
@@ -283,7 +283,7 @@ TERMS = {
             "Acintya-Bhedābheda": "M+AD; bhakta",
             "Dvaitādvaita": "M+S; bhakta",
             "Śuddhādvaita": "M+S; bhakta",
-            "Sāṃkhya": "M+E; reflective reader (puruṣa)",
+            "Sāṅkhya": "M+E; reflective reader (puruṣa)",
             "Yoga": "Φ+E; yogin (draṣṭṛ/puruṣa)",
             "Nyāya-Vaiśeṣika": "M+E; reflective reader (substrate of cognition)",
             "Pūrva-Mīmāṃsā": "RN+E; adhikārin",
@@ -310,7 +310,7 @@ TERMS = {
                 "**Same concept, real disagreement** among Vedāntins on whether "
                 "*jīva*'s individuation is *svarūpa*-grounded or *upādhi*-grounded "
                 "(AF1: cf. Bhāskara vs. Nimbārka, methodology Case 4; Madhva vs. "
-                "Advaita, methodology Case 3). Sāṃkhya-Yoga uses *puruṣa* for the "
+                "Advaita, methodology Case 3). Sāṅkhya-Yoga uses *puruṣa* for the "
                 "functional analogue. Buddhists deny any enduring *jīva* (real "
                 "disagreement, same Φ-register). Jainism treats *jīva* as a real "
                 "tattva-substance enmeshed in karmic matter — partially "
@@ -324,7 +324,7 @@ TERMS = {
             "Acintya-Bhedābheda": "M+AD; bhakta",
             "Dvaitādvaita": "M+S; bhakta",
             "Śuddhādvaita": "M+S; bhakta",
-            "Sāṃkhya": "M; reflective reader (puruṣa)",
+            "Sāṅkhya": "M; reflective reader (puruṣa)",
             "Yoga": "Φ+S; yogin (draṣṭṛ under saṃyoga)",
             "Nyāya-Vaiśeṣika": "M+E; reflective reader",
             "Pūrva-Mīmāṃsā": "RN+E; adhikārin (yajamāna)",
@@ -345,7 +345,7 @@ TERMS = {
                 "Schools that retain the term agree on this structural role; they "
                 "disagree on whether *māyā* is *brahman*'s own real *śakti* "
                 "(Vaiṣṇava schools, Trika), Brahman's *anirvacanīya* upādhi "
-                "(Advaita), or simply *prakṛti* (Sāṃkhya-Bhikṣu reading)."
+                "(Advaita), or simply *prakṛti* (Sāṅkhya-Bhikṣu reading)."
             ),
             "register_axes_note": (
                 "**Real disagreement** between Advaita (*māyā* as *anirvacanīya*, "
@@ -419,7 +419,7 @@ TERMS = {
                 "constitutive-of-*prapatti* (Viśiṣṭādvaita; Yāmuna, Vedānta "
                 "Deśika), the *sahakāri* of *jñāna* (Śuddhādvaita), the supreme "
                 "*puruṣārtha* above *mokṣa* (Gauḍīya; Rūpa Gosvāmī), or one of the "
-                "*bhāvas* operating in the *liṅga* (Sāṃkhya, *Sāṃkhya-Kārikā* 23)."
+                "*bhāvas* operating in the *liṅga* (Sāṅkhya, *Sāṅkhya-Kārikā* 23)."
             ),
             "register_axes_note": (
                 "Same structural role; the schools speak in different registers "
@@ -436,12 +436,12 @@ TERMS = {
             "shared_core": (
                 "*Prakṛti* names **the materially manifesting principle: the "
                 "*upādāna* of evolved form**, marked by the three *guṇas* "
-                "(*Sāṃkhya-Kārikā* 11–13). Sāṃkhya gives the paradigm definition; "
+                "(*Sāṅkhya-Kārikā* 11–13). Sāṅkhya gives the paradigm definition; "
                 "Yoga inherits it; Vedāntic schools then reinterpret *prakṛti* as "
                 "*brahman*'s real or modal power, not an independent substance."
             ),
             "register_axes_note": (
-                "**Real disagreement** (AF1) between Sāṃkhya (*prakṛti* "
+                "**Real disagreement** (AF1) between Sāṅkhya (*prakṛti* "
                 "*svatantra*, independent of *puruṣa*) and Vedāntic schools "
                 "(*prakṛti* either *brahman*'s *śakti* or *brahman*'s *aṃśa*). "
                 "Same M-register, same scope-inside ('the material principle'), "
@@ -455,17 +455,17 @@ TERMS = {
             "shared_core": (
                 "*Puruṣa* names **the conscious witnessing pole that stands "
                 "uncombined with material change, for whose sake *prakṛti* "
-                "operates** (*Sāṃkhya-Kārikā* 17–19; YS 1.16, 2.20). All schools "
+                "operates** (*Sāṅkhya-Kārikā* 17–19; YS 1.16, 2.20). All schools "
                 "that retain the term agree on this witness-structure. Vedāntic "
-                "schools then disagree on whether *puruṣa* is plural (Sāṃkhya, "
+                "schools then disagree on whether *puruṣa* is plural (Sāṅkhya, "
                 "Yoga, Tattva-vāda, Viśiṣṭādvaita) or one with *brahman* (Advaita)."
             ),
             "register_axes_note": (
-                "**Real disagreement** on plurality of *puruṣa*s (Sāṃkhya/Yoga: "
+                "**Real disagreement** on plurality of *puruṣa*s (Sāṅkhya/Yoga: "
                 "many; Advaita: *eka*) — same M+E register, same scope-inside, "
                 "opposing claims (AF1). **Same concept, different aspect** when "
                 "Vaiṣṇava schools use *Puruṣottama* in a saviśeṣa M+AD register "
-                "while Sāṃkhya keeps the term strictly Φ+E."
+                "while Sāṅkhya keeps the term strictly Φ+E."
             ),
         },
     },
@@ -474,9 +474,9 @@ TERMS = {
             "framing_status": "different_concepts",
             "shared_core": (
                 "The *śabda* *guṇa* is genuinely homonymous across schools and "
-                "must not be conflated. (a) In Sāṃkhya-Yoga and Vedānta cosmology, "
+                "must not be conflated. (a) In Sāṅkhya-Yoga and Vedānta cosmology, "
                 "*guṇa* names **one of the three modes of *prakṛti*: *sattva*, "
-                "*rajas*, *tamas*** (*Sāṃkhya-Kārikā* 12–13). (b) In Vaiśeṣika, "
+                "*rajas*, *tamas*** (*Sāṅkhya-Kārikā* 12–13). (b) In Vaiśeṣika, "
                 "*guṇa* is **the second of the *padārthas*: an attribute inherent "
                 "in a *dravya*** (*Vaiśeṣika-Sūtra* 1.1.15). (c) In theistic "
                 "Vedānta, *brahman* / *Bhagavān* is endowed with *ananta-kalyāṇa-"
@@ -520,7 +520,7 @@ TERMS = {
                 "cognition is established as veridical** (Nyāya-Sūtra 1.1.3; "
                 "*Pramāṇa-samuccaya* 1). Every school that operates with the term "
                 "agrees on this structural role. Schools differ on (i) which "
-                "*pramāṇa*s are admitted (Cārvāka: 1, Buddhists: 2, Sāṃkhya/Yoga: "
+                "*pramāṇa*s are admitted (Cārvāka: 1, Buddhists: 2, Sāṅkhya/Yoga: "
                 "3, Nyāya: 4, Mīmāṃsā/Vedānta: 6) and (ii) the criterion of "
                 "validity (*svataḥ-prāmāṇya* vs. *parataḥ-prāmāṇya*)."
             ),
@@ -580,15 +580,15 @@ TERMS = {
             "shared_core": (
                 "*Sākṣin* names **the witness-consciousness: the non-objectual "
                 "subject-pole that knows mental episodes without itself being a "
-                "mental episode** (BṛU 4.3.7; *Sāṃkhya-Kārikā* 19). Advaita, "
-                "Sāṃkhya-Yoga, and Viśiṣṭādvaita all admit this structural role. "
+                "mental episode** (BṛU 4.3.7; *Sāṅkhya-Kārikā* 19). Advaita, "
+                "Sāṅkhya-Yoga, and Viśiṣṭādvaita all admit this structural role. "
                 "Tattva-vāda further appeals to *sākṣi-pratyakṣa* as an epistemic "
                 "ground for *jīveśvara-bheda*."
             ),
             "register_axes_note": (
                 "Same Φ+E register; same scope-inside ('non-objectual subject-"
                 "pole'). Real disagreement only on whether the *sākṣin* is "
-                "ultimately one (Advaita) or many (Sāṃkhya, Tattva-vāda, "
+                "ultimately one (Advaita) or many (Sāṅkhya, Tattva-vāda, "
                 "Viśiṣṭādvaita), and on whether *sākṣi-pratyakṣa* can decide "
                 "metaphysical questions (Tattva-vāda: yes; Advaita: only "
                 "phenomenologically)."
@@ -795,8 +795,8 @@ TERMS = {
             "framing_status": "real_disagreement",
             "shared_core": (
                 "*Satkārya-vāda* names **the thesis that the effect pre-exists "
-                "in its material cause prior to manifestation** (*Sāṃkhya-Kārikā* "
-                "9). Sāṃkhya and Vedāntic schools that accept it (Viśiṣṭādvaita, "
+                "in its material cause prior to manifestation** (*Sāṅkhya-Kārikā* "
+                "9). Sāṅkhya and Vedāntic schools that accept it (Viśiṣṭādvaita, "
                 "Tattva-vāda's mode of it, Vallabha, Nimbārka) share the "
                 "structural claim. Nyāya-Vaiśeṣika defends *asatkārya-vāda*: the "
                 "effect is a genuinely new substance produced by inherence in a "
@@ -816,8 +816,8 @@ TERMS = {
             "framing_status": "real_disagreement",
             "shared_core": (
                 "*Pariṇāma* names **real transformation: the cause undergoes "
-                "actual modification to produce the effect** (*Sāṃkhya-Kārikā* "
-                "16–22; YS 3.13). Sāṃkhya, Yoga, Viśiṣṭādvaita, Tattva-vāda, "
+                "actual modification to produce the effect** (*Sāṅkhya-Kārikā* "
+                "16–22; YS 3.13). Sāṅkhya, Yoga, Viśiṣṭādvaita, Tattva-vāda, "
                 "Bhāskara, Nimbārka, and Vallabha (under *avikṛta-pariṇāma*) all "
                 "accept *pariṇāma*-vāda in some form. Advaita defends *vivarta-"
                 "vāda* against it: the cause undergoes only apparent, not real, "
@@ -840,7 +840,7 @@ TERMS = {
                 "as something other than itself without undergoing real "
                 "modification**, paradigmatically the rope-snake schema. "
                 "Advaita's *vivarta-vāda* is the principal home of the doctrine; "
-                "all *pariṇāmavādin* schools (Sāṃkhya, Viśiṣṭādvaita, Tattva-"
+                "all *pariṇāmavādin* schools (Sāṅkhya, Viśiṣṭādvaita, Tattva-"
                 "vāda, Vallabha) reject it as inadequate to *jagat-kāraṇatva*."
             ),
             "register_axes_note": (

@@ -472,7 +472,7 @@ The T2 trajectory (Bhartṛprapañca → Bhāskara → Madhva → Caitanya → A
 >
 > — Banerji 2022, *Monsoon* p. 71.
 
-Even what is called "dualistic" (Dvaitādvaita) is, on inspection, *paradoxically non-dualist*. All major Vedāntic schools share a non-dualistic ground; they differ in *the kind of nondualism* they propose. The structural form of T1 within Vedānta. User extends into the broader six-darśana frame: Advaita, Viśiṣṭādvaita, Sāṃkhya, Nyāya–Vaiśeṣika, Mīmāṃsā, Yoga as register-specific approaches to the same Real.
+Even what is called "dualistic" (Dvaitādvaita) is, on inspection, *paradoxically non-dualist*. All major Vedāntic schools share a non-dualistic ground; they differ in *the kind of nondualism* they propose. The structural form of T1 within Vedānta. User extends into the broader six-darśana frame: Advaita, Viśiṣṭādvaita, Sāṅkhya, Nyāya–Vaiśeṣika, Mīmāṃsā, Yoga as register-specific approaches to the same Real.
 
 ### T7 with Aurobindo's own technical term — *ājñāna*
 
@@ -590,7 +590,7 @@ The interlocking upward + downward triangles of *Puruṣa* and *Prakṛti* form 
 >
 > — Banerji *Seven Quartets* p. 266.
 
-Banerji's organization of the Seven Quartets as a *yantra* — dynamic processual diagram, not hierarchical taxonomy — is the structural homologue of the user's T1: Sāṃkhya-Yoga, Vedānta, Tantra, Vaiṣṇavism all simultaneously present, none reduced to the others, mutually constitutive. Vedantic and Tantric poles are *means* for each other; the Quartets do not collapse into a single linear progression. The user's six-darśana register thesis with *adhikāra* discipline is the formal inheritance of Banerji's processual *yantra*.
+Banerji's organization of the Seven Quartets as a *yantra* — dynamic processual diagram, not hierarchical taxonomy — is the structural homologue of the user's T1: Sāṅkhya-Yoga, Vedānta, Tantra, Vaiṣṇavism all simultaneously present, none reduced to the others, mutually constitutive. Vedantic and Tantric poles are *means* for each other; the Quartets do not collapse into a single linear progression. The user's six-darśana register thesis with *adhikāra* discipline is the formal inheritance of Banerji's processual *yantra*.
 
 **T1 — integral as ontology of experience, not theoretical totalisation** (Introduction p. 11):
 
@@ -873,7 +873,7 @@ Where Chaudhuri/Banerji have drawn the line weaker or not at all. The user's rea
 
 **2. McGilchrist's hemispheric thesis as cognitive-neuroscientific corroboration.** Neither Chaudhuri nor Banerji had this material. McGilchrist's *The Master and His Emissary* (2009) and *The Matter with Things* (2021) provide a cognitive-neuroscientific articulation of "non-duality of duality and non-duality" structurally identical to Aurobindo's supramental — but McGilchrist did not know Aurobindo, and the Aurobindonian community has not yet engaged McGilchrist seriously. The user's project's McGilchrist integration is a genuine contribution.
 
-**3. Six-darśana register-precision plus *adhikāra* plus standpoint discipline.** Chaudhuri has the perspectivism move ("All philosophical systems are only relatively valid from a particular standpoint"); he does not have the granular six-darśana taxonomy. Banerji has experience-concept methodology; he does not have the formal *adhikāra* discipline as a publication-level taxonomy of speech-registers (bound speech, seeker speech, knower speech, ritual speech, polemical speech, limit speech). The explicit register-precision (Advaita = ground; Viśiṣṭādvaita = qualified non-duality of Self and modes; Sāṃkhya = metaphysics of form; Nyāya–Vaiśeṣika = knowables/categorial realism; Mīmāṃsā = is/ought of dharmic action; Yoga = somato-psychic praxis) is the user's. So is the framing as Nicholson-Vijñānabhikṣu historiography (the early-modern moment when "Hindu philosophy" was unified into "the six darśanas" in a particular register).
+**3. Six-darśana register-precision plus *adhikāra* plus standpoint discipline.** Chaudhuri has the perspectivism move ("All philosophical systems are only relatively valid from a particular standpoint"); he does not have the granular six-darśana taxonomy. Banerji has experience-concept methodology; he does not have the formal *adhikāra* discipline as a publication-level taxonomy of speech-registers (bound speech, seeker speech, knower speech, ritual speech, polemical speech, limit speech). The explicit register-precision (Advaita = ground; Viśiṣṭādvaita = qualified non-duality of Self and modes; Sāṅkhya = metaphysics of form; Nyāya–Vaiśeṣika = knowables/categorial realism; Mīmāṃsā = is/ought of dharmic action; Yoga = somato-psychic praxis) is the user's. So is the framing as Nicholson-Vijñānabhikṣu historiography (the early-modern moment when "Hindu philosophy" was unified into "the six darśanas" in a particular register).
 
 **4. The Sarvāmnāya bridge.** Timalsina's Nepali Śaiva-Śākta consecrated lineage as a structural mandala that includes Madhva, Rāmānuja, Śaṅkara, even (inclusivist) Cārvāka — performed at the level of cold philosophy, not just practice. Not in Chaudhuri or Banerji at this level of explicitness, even though Chaudhuri's Sri Yantra and Banerji's *Philo-Sophia* both gesture in the direction. The user's T4 is one of the strongest novel contributions in conversation with the Banerji line.
 

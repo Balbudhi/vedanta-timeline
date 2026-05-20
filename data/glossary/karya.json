@@ -14,7 +14,7 @@
   ],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "glossary-wave2-codex54",
-  "invariant_definition": "*Kārya* is the gerundive of √kṛ — literally 'that which is to be done' or 'that which is to be effected.' In technical Indian usage it has two principal senses, both indispensable. (1) In Pāṇinian *kāraka* analysis it is one designation for the *karman*-role: the effect or result the agent's action terminates upon. (2) In causal theory — and this is where the great Indian metaphysical disputes live — *kārya* is the effect-side of the *kāraṇa-kārya* relation: the produced or unfolded result whose ontological status is contested. The *satkārya-vāda* of Sāṃkhya holds that the *kārya* pre-exists in the *kāraṇa* and that production is merely manifestation (*āvirbhāva*) of what was already latent (Sāṃkhya-Kārikā 9: *asad-akaraṇād upādāna-grahaṇāt sarva-sambhavābhāvāt śaktasya śakya-karaṇāt kāraṇa-bhāvāc ca sat kāryam*). The *asat-kārya-vāda* (or *ārambha-vāda*) of Nyāya-Vaiśeṣika holds the contrary: *kārya* is genuinely new, a fresh *samavāya*-bound entity not present in its causes prior to production. Vedānta inherits the *satkārya* side of the dispute and then bifurcates internally over what kind of *satkārya*: *vivarta-vāda* (Advaita — the *kārya* is only an apparent transformation of *brahman*), *pariṇāma-vāda* (Bhāskara, Rāmānuja, Madhva, with variations — real transformation of cause into effect), and *avikṛta-pariṇāma-vāda* (Vallabha — real transformation without modification). The deeper conceptual point: *kārya* is never just 'effect' — it is the metaphysically loaded ontological status of the produced, which carries with it commitments about novelty, identity, and persistence.",
+  "invariant_definition": "*Kārya* is the gerundive of √kṛ — literally 'that which is to be done' or 'that which is to be effected.' In technical Indian usage it has two principal senses, both indispensable. (1) In Pāṇinian *kāraka* analysis it is one designation for the *karman*-role: the effect or result the agent's action terminates upon. (2) In causal theory — and this is where the great Indian metaphysical disputes live — *kārya* is the effect-side of the *kāraṇa-kārya* relation: the produced or unfolded result whose ontological status is contested. The *satkārya-vāda* of Sāṅkhya holds that the *kārya* pre-exists in the *kāraṇa* and that production is merely manifestation (*āvirbhāva*) of what was already latent (Sāṅkhya-Kārikā 9: *asad-akaraṇād upādāna-grahaṇāt sarva-sambhavābhāvāt śaktasya śakya-karaṇāt kāraṇa-bhāvāc ca sat kāryam*). The *asat-kārya-vāda* (or *ārambha-vāda*) of Nyāya-Vaiśeṣika holds the contrary: *kārya* is genuinely new, a fresh *samavāya*-bound entity not present in its causes prior to production. Vedānta inherits the *satkārya* side of the dispute and then bifurcates internally over what kind of *satkārya*: *vivarta-vāda* (Advaita — the *kārya* is only an apparent transformation of *brahman*), *pariṇāma-vāda* (Bhāskara, Rāmānuja, Madhva, with variations — real transformation of cause into effect), and *avikṛta-pariṇāma-vāda* (Vallabha — real transformation without modification). The deeper conceptual point: *kārya* is never just 'effect' — it is the metaphysically loaded ontological status of the produced, which carries with it commitments about novelty, identity, and persistence.",
   "per_school": [
     {
       "school": "Advaita",
@@ -104,26 +104,26 @@
       ]
     },
     {
-      "school": "Sāṃkhya",
-      "definition": "Sāṃkhya states satkārya-vāda explicitly: the kārya is sat because production does not bring an unreal thing into being, but manifests what is already grounded in its cause. [cite://isvara-krsna/samkhya-karika/9] The unmanifest is further established because the effect is constituted by the qualities of the cause, and because the system itself is articulated through the differentiation of kāraṇa and kārya within one evolving prakṛti. [cite://isvara-krsna/samkhya-karika/14-15]",
+      "school": "Sāṅkhya",
+      "definition": "Sāṅkhya states satkārya-vāda explicitly: the kārya is sat because production does not bring an unreal thing into being, but manifests what is already grounded in its cause. [cite://isvara-krsna/sankhya-karika/9] The unmanifest is further established because the effect is constituted by the qualities of the cause, and because the system itself is articulated through the differentiation of kāraṇa and kārya within one evolving prakṛti. [cite://isvara-krsna/sankhya-karika/14-15]",
       "primary_loci": [
-        "Sāṃkhya-Kārikā 9",
-        "Sāṃkhya-Kārikā 14-15"
+        "Sāṅkhya-Kārikā 9",
+        "Sāṅkhya-Kārikā 14-15"
       ],
       "citations": [
         {
-          "cite": "cite://isvara-krsna/samkhya-karika/9",
+          "cite": "cite://isvara-krsna/sankhya-karika/9",
           "locus_short": "SK 9"
         },
         {
-          "cite": "cite://isvara-krsna/samkhya-karika/14-15",
+          "cite": "cite://isvara-krsna/sankhya-karika/14-15",
           "locus_short": "SK 14-15"
         }
       ]
     },
     {
       "school": "Yoga",
-      "definition": "Yoga inherits the Sāṃkhya understanding of causation: the guṇas are a kārya-kāraṇātmaka continuum, and kaivalya is described through their reabsorption once their work for puruṣa is complete. [cite://vyasa-bhasya/yoga-sutra-bhasya/4.34] Accordingly, the effect-side is not eliminated as sheer non-being; it is resolved by pratiprasava when puruṣārtha is exhausted. [cite://vyasa-bhasya/yoga-sutra-bhasya/4.34]",
+      "definition": "Yoga inherits the Sāṅkhya understanding of causation: the guṇas are a kārya-kāraṇātmaka continuum, and kaivalya is described through their reabsorption once their work for puruṣa is complete. [cite://vyasa-bhasya/yoga-sutra-bhasya/4.34] Accordingly, the effect-side is not eliminated as sheer non-being; it is resolved by pratiprasava when puruṣārtha is exhausted. [cite://vyasa-bhasya/yoga-sutra-bhasya/4.34]",
       "primary_loci": [
         "Yoga-Sūtra-Bhāṣya on YS 4.34"
       ],
@@ -249,5 +249,5 @@
     "vivarta",
     "avikrta-parinama"
   ],
-  "translator_note": "'Effect' is the standard gloss but disguises the ontological commitments. Saying 'effect' in English imports a Humean or post-Cartesian event-sequence picture; *kārya* is much more loaded — it presupposes a position on whether the produced is genuinely new (Vaiśeṣika) or pre-existed in latent form (Sāṃkhya/Vedānta). The other common error is conflating *kārya* with *karman*: *karman* is the patient-role within the act-grammar; *kārya* is the metaphysical effect-side of the cause-effect relation. They overlap (both are 'that which is to be done') but have different technical homes."
+  "translator_note": "'Effect' is the standard gloss but disguises the ontological commitments. Saying 'effect' in English imports a Humean or post-Cartesian event-sequence picture; *kārya* is much more loaded — it presupposes a position on whether the produced is genuinely new (Vaiśeṣika) or pre-existed in latent form (Sāṅkhya/Vedānta). The other common error is conflating *kārya* with *karman*: *karman* is the patient-role within the act-grammar; *kārya* is the metaphysical effect-side of the cause-effect relation. They overlap (both are 'that which is to be done') but have different technical homes."
 }

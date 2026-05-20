@@ -110,7 +110,7 @@ This is why the AB is, in our submission, the *opposite* of a world-denial argum
 
 Cross-engagement: same soteriological register, different commitments at the soteric end axis. Alfred North Whitehead: `not-soteriological`, [primary text](cite://whitehead/process-and-reality/1.2). Here: `identity-with-ground`. [register: S / scope: philosophically trained comparative reader; final end of inquiry; cross-tradition comparison staged by this article; prevent smuggling metaphysical resemblance into soteriological equivalence / language-game: comparative philosophy / status: [REAL-DISAGREEMENT] / source: Adhyāsa-Bhāṣya telos; Whitehead, *Process and Reality* I.2]
 
-**(1) The Sāṃkhya *tādātmya* account.** Mutual identification of two real entities, Puruṣa and Prakṛti, both ontologically equal. Śaṅkara rejects this: Brahman alone is *pāramārthika-sat*. The Sāṃkhya phenomenology of distinguishable poles is right; its dual ontology is wrong.
+**(1) The Sāṅkhya *tādātmya* account.** Mutual identification of two real entities, Puruṣa and Prakṛti, both ontologically equal. Śaṅkara rejects this: Brahman alone is *pāramārthika-sat*. The Sāṅkhya phenomenology of distinguishable poles is right; its dual ontology is wrong.
 
 **(2) The "two-things-appearing-as-one" account.** *Adhyāsa* is seeing one thing where there is only the other, a confusion of substrate. The substrate is real; the appearance overlays it. Śaṅkara accepts the structural insight (substrate real, overlay borrowed from prior cognition) but not the implication that the overlay is a fully independent real entity. The snake-overlay is *avabhāsa*, appearance.
 
@@ -227,7 +227,7 @@ The sūtra states the objection in sharpest form: a *kṛta-kṛtya* has no moti
 - *lokavat*, "as in the world"; the *-vat* indicates analogy with empirical observation.
 - *tu*, "but" (adversative, marking the *siddhānta* against 2.1.32's *pūrva-pakṣa*).
 - *līlā*, "play, sport; effortless activity without external motive." Used of children's play, a king at leisure, dance, the gestures of love.
-- *kaivalyam*, "alone-ness, completeness-in-itself"; built on *kevala* (alone, only). In Yoga-Sāṃkhya it is the technical term for the Puruṣa's *summum bonum* at liberation. Here as *karmadhāraya* with *līlā*: "play alone, nothing but play," with exclusive force.
+- *kaivalyam*, "alone-ness, completeness-in-itself"; built on *kevala* (alone, only). In Yoga-Sāṅkhya it is the technical term for the Puruṣa's *summum bonum* at liberation. Here as *karmadhāraya* with *līlā*: "play alone, nothing but play," with exclusive force.
 
 **My literal English (primary).** "But it is nothing but play, as in the world."
 
@@ -343,7 +343,7 @@ The textbook account, that Śaṅkara reduces *bheda-śrutis* to *ārtha-vāda*,
 
 ### Why This Matters for T1 and T4
 
-T1 and T4 generalize *samanvaya* from text-registers to *darśana*-registers: Advaita is register-correct for the comprehending pole; Viśiṣṭādvaita for the qualified-non-dual; Madhva for the difference-affirming; Sāṃkhya for the metaphysics-of-form; Nyāya for categorial realism. Each is register-true within its own properly delimited scope; none is simple error. Śaṅkara's *samanvaya*, generalized across the Indian philosophical landscape, is T1. [register: T + P / scope: reader of the user's wider methodology; inter-darśana comparison; methodological extension beyond Śaṅkara's own textual remit; determine how far textual harmonization can be generalized / language-game: meta-methodological reconstruction / status: reconstruction; not a claim made by Śaṅkara's text itself / source: BSB 1.1.4]
+T1 and T4 generalize *samanvaya* from text-registers to *darśana*-registers: Advaita is register-correct for the comprehending pole; Viśiṣṭādvaita for the qualified-non-dual; Madhva for the difference-affirming; Sāṅkhya for the metaphysics-of-form; Nyāya for categorial realism. Each is register-true within its own properly delimited scope; none is simple error. Śaṅkara's *samanvaya*, generalized across the Indian philosophical landscape, is T1. [register: T + P / scope: reader of the user's wider methodology; inter-darśana comparison; methodological extension beyond Śaṅkara's own textual remit; determine how far textual harmonization can be generalized / language-game: meta-methodological reconstruction / status: reconstruction; not a claim made by Śaṅkara's text itself / source: BSB 1.1.4]
 
 ---
 
@@ -403,7 +403,7 @@ We now consolidate the lexicographic and ontological precision that the correcti
 
 **(1) *Pāramārthika-sattā*, ultimate-level being.** Brahman alone, *nirviśeṣa* (without differentiating qualities), *nirvikāra* (without modification), *nityā* (eternal), *advitīyam* (without-a-second). This alone is *sat* in the absolute, unconditional sense, being that depends on nothing, being that is not modified by anything, being that is identical with consciousness and bliss.
 
-**(2) *Vyāvahārika-sattā*, empirical/conventional being.** The world of names, forms, causes, effects, persons, transactions, knowledge, error. Pots and stars, governments and grammars, perceptions and inferences. This is *sat* at its own level, functionally operative, causally efficacious, subject to its own internal lawfulness. Not dismissed as nothing. *Vyāvahārika-sattā* is the level at which all empirical Indian philosophy, Nyāya, Vaiśeṣika, Mīmāṃsā, Sāṃkhya, does its work, and Śaṅkara *grants* this work its register-validity.
+**(2) *Vyāvahārika-sattā*, empirical/conventional being.** The world of names, forms, causes, effects, persons, transactions, knowledge, error. Pots and stars, governments and grammars, perceptions and inferences. This is *sat* at its own level, functionally operative, causally efficacious, subject to its own internal lawfulness. Not dismissed as nothing. *Vyāvahārika-sattā* is the level at which all empirical Indian philosophy, Nyāya, Vaiśeṣika, Mīmāṃsā, Sāṅkhya, does its work, and Śaṅkara *grants* this work its register-validity.
 
 **(3) *Prātibhāsika-sattā*, apparent/illusory being.** The snake in the rope, silver in shell, water in mirage, dream-objects. These are real-as-appearances within a particular cognitive episode but are *canceled even at the empirical level* once the substratum is correctly perceived. The snake is sublated when you see the rope (you don't need to attain *brahma-jñāna* to dispel the rope-snake illusion; ordinary daylight suffices).
 
@@ -480,7 +480,7 @@ But this is not Śaṅkara's settled position. *Vivartavāda* as a developed tec
 
 In later Advaita systematisation, the central metaphysical distinction in causation-doctrine is:
 
-**Pariṇāma** (real transformation, modification). The cause genuinely *becomes* the effect, modifying itself in the process. Milk genuinely becomes yogurt, the milk is *transformed*, not merely "appearing as" yogurt. The pre-yogurt milk is gone; the post-yogurt yogurt is genuinely a new state of the same substance. This is the Sāṃkhya causation-doctrine (Prakṛti *pariṇāma*-s into the manifest world) and Bhāskara's Vedānta-doctrine (Brahman genuinely transforms into the world; the *bheda* and *abheda* aspects are both real, *bhedābheda*-style).
+**Pariṇāma** (real transformation, modification). The cause genuinely *becomes* the effect, modifying itself in the process. Milk genuinely becomes yogurt, the milk is *transformed*, not merely "appearing as" yogurt. The pre-yogurt milk is gone; the post-yogurt yogurt is genuinely a new state of the same substance. This is the Sāṅkhya causation-doctrine (Prakṛti *pariṇāma*-s into the manifest world) and Bhāskara's Vedānta-doctrine (Brahman genuinely transforms into the world; the *bheda* and *abheda* aspects are both real, *bhedābheda*-style).
 
 **Vivarta** (apparent transformation, illusory modification). The substratum remains *unchanged*; only an *appearance* arises on it, without any genuine change in the substratum. The rope "appears as" snake without the rope becoming a snake. The substratum is uninvolved in the appearance except as its *adhiṣṭhāna*. In later Advaita, this is the doctrine of Brahman's relation to the world: Brahman is the *vivarta-upādāna* (the cause-in-a-vivarta-relation); the world is the *vivarta* (the appearance).
 

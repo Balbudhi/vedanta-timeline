@@ -19,7 +19,7 @@
   "invariant_definition": "Release from bondage, but not a bare escape from existence. *Mokṣa* names the final state appropriate to what a school takes bondage to be: the nexus of *karma*, rebirth, embodiment, ignorance, misidentification, or estrangement from the Lord. It is therefore defined against adjacent terms such as *saṃsāra*, *bandha*, *apavarga*, and *kaivalya*. In the Mīmāṃsā background, the point is that no finite ritual act can simply manufacture *mokṣa* as a produced result; in the Vedāntic setting, the issue becomes what sort of cognition, devotion, surrender, or divine grace removes the condition that makes rebirth possible. The practical register is inseparable from the metaphysics: Advaita ties *mokṣa* to the removal of *avidyā* through *śravaṇa-manana-nididhyāsana*; Viśiṣṭādvaita and Tattva-vāda (Dvaita) tie it to God-directed knowledge and devotion; Gauḍīya Vaiṣṇavism treats even ordinary *mokṣa* as lower than *prema*. What remains invariant is this: *mokṣa* is the non-returning condition in which the structures that sustain saṃsāric agency, enjoyment, and compulsory embodiment no longer bind.",
   "school_framing": {
     "framing_status": "mixed",
-    "shared_core": "Every school that retains the word *mokṣa* (or *apavarga*/*kaivalya*/*nirvāṇa*) means **the non-returning condition in which the structures that sustain saṃsāric agency, enjoyment, and compulsory embodiment no longer bind**. The differentia of *mokṣa* is therefore set by what each school takes *bandha* to be: *avidyā* (Advaita), distance from Bhagavān (Viśiṣṭādvaita, Tattva-vāda, Gauḍīya, Śuddhādvaita), *puruṣa-prakṛti-saṃyoga* (Sāṃkhya-Yoga), *duḥkha-pravṛtti-mithyājñāna* (Nyāya), *prapañca-vikalpa* (Mādhyamaka), karmic *pudgala* (Jainism), or contracted *aiśvarya* (Trika).",
+    "shared_core": "Every school that retains the word *mokṣa* (or *apavarga*/*kaivalya*/*nirvāṇa*) means **the non-returning condition in which the structures that sustain saṃsāric agency, enjoyment, and compulsory embodiment no longer bind**. The differentia of *mokṣa* is therefore set by what each school takes *bandha* to be: *avidyā* (Advaita), distance from Bhagavān (Viśiṣṭādvaita, Tattva-vāda, Gauḍīya, Śuddhādvaita), *puruṣa-prakṛti-saṃyoga* (Sāṅkhya-Yoga), *duḥkha-pravṛtti-mithyājñāna* (Nyāya), *prapañca-vikalpa* (Mādhyamaka), karmic *pudgala* (Jainism), or contracted *aiśvarya* (Trika).",
     "register_axes_note": "**Same concept, different aspect** with respect to the structural role 'non-returning end-state'. **Real disagreement** (AF1) between Advaita (*jīva–Brahman* identity in *mokṣa*) and Tattva-vāda (*jīveśvara-bheda* persists, with *taratamya* among the liberated; *Anuvyākhyāna* 2.3.66–69, *Viṣṇu-Tattva-Vinirṇaya* 3.27) — same M-register, same scope-inside, opposing claims. Gauḍīya treats ordinary *mokṣa* as lower than *prema* (*Bhakti-Rasāmṛta-Sindhu* 1.1.11–16): real disagreement about ranking, not about what *mokṣa* itself names."
   },
   "per_school": [
@@ -201,24 +201,24 @@
       "register_tag": "M+S; bhakta"
     },
     {
-      "school": "Sāṃkhya",
-      "definition": "Sāṃkhya treats liberation as the end for which prakṛti's entire evolution is undertaken with respect to each distinct puruṣa, so that the cosmos is teleologically ordered toward vimokṣa rather than toward a single collective consummation [[SK 56](cite://isvarakrsna/samkhya-karika/56)]. The decisive means is repeated analysis of the tattvas, which issues in a pure and non-errant discriminative knowledge expressed as the total withdrawal of self-ascription from prakṛti and its products [[SK 64](cite://isvarakrsna/samkhya-karika/64)]. When that knowledge has done its work and the body finally falls away, the result is kaivalya in the strict sense: both certain and final [[SK 68](cite://isvarakrsna/samkhya-karika/68)].",
+      "school": "Sāṅkhya",
+      "definition": "Sāṅkhya treats liberation as the end for which prakṛti's entire evolution is undertaken with respect to each distinct puruṣa, so that the cosmos is teleologically ordered toward vimokṣa rather than toward a single collective consummation [[SK 56](cite://isvarakrsna/sankhya-karika/56)]. The decisive means is repeated analysis of the tattvas, which issues in a pure and non-errant discriminative knowledge expressed as the total withdrawal of self-ascription from prakṛti and its products [[SK 64](cite://isvarakrsna/sankhya-karika/64)]. When that knowledge has done its work and the body finally falls away, the result is kaivalya in the strict sense: both certain and final [[SK 68](cite://isvarakrsna/sankhya-karika/68)].",
       "primary_loci": [
-        "Sāṃkhya-Kārikā 56",
-        "Sāṃkhya-Kārikā 64",
-        "Sāṃkhya-Kārikā 68"
+        "Sāṅkhya-Kārikā 56",
+        "Sāṅkhya-Kārikā 64",
+        "Sāṅkhya-Kārikā 68"
       ],
       "citations": [
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/56",
+          "cite": "cite://isvarakrsna/sankhya-karika/56",
           "locus_short": "SK 56"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/64",
+          "cite": "cite://isvarakrsna/sankhya-karika/64",
           "locus_short": "SK 64"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/68",
+          "cite": "cite://isvarakrsna/sankhya-karika/68",
           "locus_short": "SK 68"
         }
       ],

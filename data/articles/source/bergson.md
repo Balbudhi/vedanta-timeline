@@ -40,7 +40,7 @@ Around these four books cluster the lectures and shorter pieces: *Le rire* (1900
 
 Bergson is a philosopher of *one* problem, said in many domains. The problem is: **how does intellect falsify the real, and what kind of cognition restores it?** His answer: intellect, as evolved instrument of action on solids, decomposes movement into immobilities, duration into spatial intervals, life into mechanism, novelty into recombination of the already-given. This is not an error to be diagnosed and discarded — intellect is supremely useful for what it was made to do (cut the world into manipulable objects, predict their behavior for purposes of action). It becomes an error only when extended beyond its competence, when one takes the spatial-quantitative model as a description of reality rather than as a tool. The corrective is *intuition*: a cognition that places itself inside the moving object instead of circling it from outside, that "sympathizes" with what it knows, that grasps the qualitative, the durational, the ontologically novel. Intuition is not anti-intellectual; it is supra-intellectual; it requires effort, training, philosophical discipline, and is the special task of metaphysics.
 
-Cross-engagement: Gaudapada (Samkhya commentator) takes the temporal mode axis to a different commitment — `substance-primary` at [primary text](cite://isvara-krsna/samkhya-karika/1) against `process-primary` here.
+Cross-engagement: Gaudapada (Sankhya commentator) takes the temporal mode axis to a different commitment — `substance-primary` at [primary text](cite://isvara-krsna/sankhya-karika/1) against `process-primary` here.
 
 The same problem cycles through the books in different domains:
 
@@ -181,7 +181,7 @@ A perceived red is the contraction of trillions of electromagnetic vibrations in
 
 The Paul/Palmer rendering loses *simple* in *intuition simple*. The one-ness of consciousness is the contraction of the many vibrations of matter; matter is many-spread-out, consciousness is many-contracted-into-one.
 
-Bergson is not a dualist, not a materialist, not an idealist; he is closest to a *neutral monism*, except that the neutral term — image — is dynamic, duration at some rhythm. The structural Indian analog is the Sāṃkhya *guṇa*-spectrum (tamas at the matter end, sattva at the mind end). What Bergson articulates is *matter and mind as different rhythms of the same becoming* — close to the Aurobindonian doctrine that all ontological levels are degrees of one Saccidānanda differently veiled. He lacks the Saccidānanda end (rhythm so high it becomes identity-with-self) and the doctrine of involution by which the high end produces the low end. He has the spectrum but not its source.
+Bergson is not a dualist, not a materialist, not an idealist; he is closest to a *neutral monism*, except that the neutral term — image — is dynamic, duration at some rhythm. The structural Indian analog is the Sāṅkhya *guṇa*-spectrum (tamas at the matter end, sattva at the mind end). What Bergson articulates is *matter and mind as different rhythms of the same becoming* — close to the Aurobindonian doctrine that all ontological levels are degrees of one Saccidānanda differently veiled. He lacks the Saccidānanda end (rhythm so high it becomes identity-with-self) and the doctrine of involution by which the high end produces the low end. He has the spectrum but not its source.
 
 ### What Bergson achieves and what he does not
 

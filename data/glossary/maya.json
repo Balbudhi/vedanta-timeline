@@ -17,7 +17,7 @@
   "invariant_definition": "*Māyā* has no single pan-Indian meaning. The thinnest common core is this: it names a power or condition through which manifest plurality is produced, sustained, or experienced. Beyond that, the term becomes school-specific. In Vedic and purāṇic usage it can mean divine skill, wondrous power, or formative capacity. In Advaita it becomes the cosmic register of *avidyā*, the principle by which the non-dual appears as manifold without undergoing real modification. In realist Vedāntas it names a real divine power, often identified with *prakṛti* or with the Lord's external energy. In Trika it is not illusion at all but a real self-contractive phase of Śiva's *svātantrya*, linked to the *kañcuka* analysis and the production of differentiated subjects and objects. The term therefore sits amid disputes over causality, *pariṇāma* versus *vivarta*, the status of the world, and the relation between God and manifestation. In practice *māyā* explains embodiment, limitation, and cosmic display, but what sort of explanation this is depends entirely on the metaphysics of the school using it.",
   "school_framing": {
     "framing_status": "mixed",
-    "shared_core": "*Māyā* names **the power by which the One appears as many; the veiling-projecting structure that lets phenomenal multiplicity stand without compromising the unity of its source** (Śvetāśvatara 4.10; *māyāṃ tu prakṛtiṃ vidyāt māyinaṃ tu maheśvaram*). Schools that retain the term agree on this structural role; they disagree on whether *māyā* is *brahman*'s own real *śakti* (Vaiṣṇava schools, Trika), Brahman's *anirvacanīya* upādhi (Advaita), or simply *prakṛti* (Sāṃkhya-Bhikṣu reading).",
+    "shared_core": "*Māyā* names **the power by which the One appears as many; the veiling-projecting structure that lets phenomenal multiplicity stand without compromising the unity of its source** (Śvetāśvatara 4.10; *māyāṃ tu prakṛtiṃ vidyāt māyinaṃ tu maheśvaram*). Schools that retain the term agree on this structural role; they disagree on whether *māyā* is *brahman*'s own real *śakti* (Vaiṣṇava schools, Trika), Brahman's *anirvacanīya* upādhi (Advaita), or simply *prakṛti* (Sāṅkhya-Bhikṣu reading).",
     "register_axes_note": "**Real disagreement** between Advaita (*māyā* as *anirvacanīya*, *mithyā*, sublatable by *jñāna*) and Tattva-vāda (*māyā* as *Viṣṇu-saṅkalpa*, real, never sublated; *Viṣṇu-Tattva-Vinirṇaya* 3.21–22) — same M-register, same scope-inside, opposing claims (AF1). **Same concept, different aspect** when the schools describe māyā's epistemic effect on *jīva* versus its causal role in cosmogony."
   },
   "per_school": [
@@ -159,30 +159,30 @@
       ]
     },
     {
-      "school": "Sāṃkhya",
-      "definition": "Classical Sāṃkhya does not make *māyā* a load-bearing cosmological principle; the work later attached to that term is assigned instead to *pradhāna/prakṛti*, whose activity proceeds for the sake of the *puruṣa*'s release [[SK 57](cite://isvarakrsna/samkhya-karika/57)]. Bondage and release are not states of *puruṣa* but processes of *prakṛti* itself, which alone 'transmigrates,' 'is bound,' and 'is released' through its own forms [[SK 62](cite://isvarakrsna/samkhya-karika/62)][[SK 63](cite://isvarakrsna/samkhya-karika/63)]. The nearest functional analogue to *māyā* is therefore *viparyaya* or non-discriminative entanglement, removed by the knowledge expressed as 'I am not, nothing is mine, I am not this,' after which *prakṛti* ceases its productive unfolding [[SK 64](cite://isvarakrsna/samkhya-karika/64)][[SK 65](cite://isvarakrsna/samkhya-karika/65)].",
+      "school": "Sāṅkhya",
+      "definition": "Classical Sāṅkhya does not make *māyā* a load-bearing cosmological principle; the work later attached to that term is assigned instead to *pradhāna/prakṛti*, whose activity proceeds for the sake of the *puruṣa*'s release [[SK 57](cite://isvarakrsna/sankhya-karika/57)]. Bondage and release are not states of *puruṣa* but processes of *prakṛti* itself, which alone 'transmigrates,' 'is bound,' and 'is released' through its own forms [[SK 62](cite://isvarakrsna/sankhya-karika/62)][[SK 63](cite://isvarakrsna/sankhya-karika/63)]. The nearest functional analogue to *māyā* is therefore *viparyaya* or non-discriminative entanglement, removed by the knowledge expressed as 'I am not, nothing is mine, I am not this,' after which *prakṛti* ceases its productive unfolding [[SK 64](cite://isvarakrsna/sankhya-karika/64)][[SK 65](cite://isvarakrsna/sankhya-karika/65)].",
       "primary_loci": [
-        "Sāṃkhya-Kārikā 57, 62-65"
+        "Sāṅkhya-Kārikā 57, 62-65"
       ],
       "citations": [
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/57",
+          "cite": "cite://isvarakrsna/sankhya-karika/57",
           "locus_short": "SK 57"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/62",
+          "cite": "cite://isvarakrsna/sankhya-karika/62",
           "locus_short": "SK 62"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/63",
+          "cite": "cite://isvarakrsna/sankhya-karika/63",
           "locus_short": "SK 63"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/64",
+          "cite": "cite://isvarakrsna/sankhya-karika/64",
           "locus_short": "SK 64"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/65",
+          "cite": "cite://isvarakrsna/sankhya-karika/65",
           "locus_short": "SK 65"
         }
       ]
@@ -214,8 +214,8 @@
       ]
     },
     {
-      "school": "Sāṃkhya-Yoga (synthetic)",
-      "definition": "Vijñānabhikṣu explicitly glosses *māyā* as *prakṛti* and *māyin* as Maheśvara, so the term denotes the cosmological non-conscious principle rather than an epistemic indeterminable [[VĀB 1.1.5](cite://vijnanabhiksu/vijnanamrta-bhasya/1.1.5)]. This is the late synthetic Sāṃkhya-Yoga-Vedānta line preserved on disk: *māyā* is relocated into the ontology of *prakṛti*-governed manifestation under the Lord [[VĀB 1.1.5](cite://vijnanabhiksu/vijnanamrta-bhasya/1.1.5)].",
+      "school": "Sāṅkhya-Yoga (synthetic)",
+      "definition": "Vijñānabhikṣu explicitly glosses *māyā* as *prakṛti* and *māyin* as Maheśvara, so the term denotes the cosmological non-conscious principle rather than an epistemic indeterminable [[VĀB 1.1.5](cite://vijnanabhiksu/vijnanamrta-bhasya/1.1.5)]. This is the late synthetic Sāṅkhya-Yoga-Vedānta line preserved on disk: *māyā* is relocated into the ontology of *prakṛti*-governed manifestation under the Lord [[VĀB 1.1.5](cite://vijnanabhiksu/vijnanamrta-bhasya/1.1.5)].",
       "primary_loci": [
         "Vijñānāmṛta-Bhāṣya on Brahma-Sūtra 1.1.5"
       ],

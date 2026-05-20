@@ -483,7 +483,7 @@ McGilchrist is not doing the user's work; the gaps:
 
 - **No serious engagement with the Indian darśana tradition.** He mentions *Brahman*, *ṛta*, the Upaniṣads in passing; no Sanskrit, no Madhva, Caitanya, Abhinavagupta, Madhusūdana, Aurobindo. He arrives at "non-duality of duality and non-duality" at the close of his life's work; the Indian tradition arrived at the same formula early and developed it continuously.
 - **No Aurobindonian supramental cosmology.** Ch. 27 defends teleology with restraint; he does not have Aurobindo's confidence about cosmic direction. The tetrad (Higher Mind, Illumined Mind, Intuitive Mind, Overmind) and the case for an actual supramental *descent* (29 February 1956 in the Mother's record) is outside his framework.
-- **No Sāṃkhya guṇa-physics.** Ch. 25 is panentheist-leaning but lacks the *tattva*-scheme — *guṇas*, the mathematics of their proportion. Bandyopadhyay's biophysics is what makes this rigorous; McGilchrist does not have it.
+- **No Sāṅkhya guṇa-physics.** Ch. 25 is panentheist-leaning but lacks the *tattva*-scheme — *guṇas*, the mathematics of their proportion. Bandyopadhyay's biophysics is what makes this rigorous; McGilchrist does not have it.
 - **No Madhva on real difference.** He defends real difference at the metaphysical level but lacks Madhva's five-fold *bheda* and *viśeṣa* as the ontological device making difference and identity simultaneously coherent.
 - **No Vivaraṇa-Tantra-Madhusūdana scaffolding for ignorance.** *Tzimtzum* is good but Christian-Kabbalistic; Brahman as both *āśraya* and *viṣaya* of avidyā (Vivaraṇa), avidyā as *bhāvarūpa* (Madhusūdana), māyā as *svātantrya* (Kashmir Shaiva) is technically more refined.
 
@@ -511,7 +511,7 @@ Two further confirmations belong here. McGilchrist shows that the sacred can be 
 
 Six incompletenesses remain.
 
-1. **No darśana-level differentiation.** McGilchrist does not distinguish Advaita, Viśiṣṭādvaita, Tattva-vāda (Dvaita), Bhedābheda, Trika, and Sāṃkhya as separate registers.
+1. **No darśana-level differentiation.** McGilchrist does not distinguish Advaita, Viśiṣṭādvaita, Tattva-vāda (Dvaita), Bhedābheda, Trika, and Sāṅkhya as separate registers.
 
 2. **No phenomenology of the psychic being.** He offers a phenomenology of attention, not of the evolving individual center comparable to the user's T11 requirement.
 
@@ -521,7 +521,7 @@ Six incompletenesses remain.
 
 5. **No progressive supramental cosmology.** Teleology appears, but not Aurobindo's involution-evolution-transformation sequence.
 
-6. **No integration with guṇa-metaphysics or cyclical cosmology.** The Sāṃkhya and Kāla-cakra materials central to the user's thesis remain outside his frame.
+6. **No integration with guṇa-metaphysics or cyclical cosmology.** The Sāṅkhya and Kāla-cakra materials central to the user's thesis remain outside his frame.
 
 7. **No explicit doctrine of registers.** He has multiple modes of access to truth and multiple layers of reality, but he does not crystallize these into a darśana-style register theory. The user's position can therefore use him diagnostically and corroboratively, but not as the architect of the full comparative framework.
 

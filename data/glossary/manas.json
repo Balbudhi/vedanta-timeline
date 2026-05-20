@@ -11,11 +11,11 @@
     "manasā",
     "manaḥ"
   ],
-  "invariant_definition": "*Manas* is the coordinating and oscillating inner organ that gathers sensory data, attends, compares, doubts, imagines, and turns toward one option rather than another. It is therefore not equivalent to the whole of 'mind'. In the standard fourfold analysis, *manas* presents and wavers, *buddhi* determines, *ahaṅkāra* appropriates, and *citta* retains. Nyāya-Vaiśeṣika sharpens one side of this picture by treating *manas* as an atomic internal sense whose serial contact explains why cognitions occur one at a time; Yogācāra repurposes the term for a self-grasping consciousness in its own way. Vedānta usually preserves the Sāṃkhya-style functional analysis and relies on *manas* to explain distraction, indecision, fantasy, and the need for meditative restraint. In practice, instruction aimed at concentration and recollection works first on *manas*, because it is where the senses are gathered or scattered and where an intention is either stabilized or lost.",
+  "invariant_definition": "*Manas* is the coordinating and oscillating inner organ that gathers sensory data, attends, compares, doubts, imagines, and turns toward one option rather than another. It is therefore not equivalent to the whole of 'mind'. In the standard fourfold analysis, *manas* presents and wavers, *buddhi* determines, *ahaṅkāra* appropriates, and *citta* retains. Nyāya-Vaiśeṣika sharpens one side of this picture by treating *manas* as an atomic internal sense whose serial contact explains why cognitions occur one at a time; Yogācāra repurposes the term for a self-grasping consciousness in its own way. Vedānta usually preserves the Sāṅkhya-style functional analysis and relies on *manas* to explain distraction, indecision, fantasy, and the need for meditative restraint. In practice, instruction aimed at concentration and recollection works first on *manas*, because it is where the senses are gathered or scattered and where an intention is either stabilized or lost.",
   "school_framing": {
     "framing_status": "same_concept_different_aspect",
-    "shared_core": "*Manas* names **the sense-coordinating cognitive function: the inner sense (*antar-indriya*) that synthesizes discrete sense-data and presents them to *buddhi***. *Sāṃkhya-Kārikā* 27 fixes *manas* as the *saṅkalpaka* function. *Nyāya-Sūtra* 1.1.16 treats it as an atomic internal sense. All Brāhmaṇical schools share the structural role.",
-    "register_axes_note": "Same Φ+E register, same scope-inside. Real disagreement only at the M-level: Nyāya-Vaiśeṣika treats *manas* as *aṇu* (atomic), Sāṃkhya as a *prakṛti*-evolute, Advaita as an *upādhi*-mode. Methodology AF1 holds on the *aṇu* question between Nyāya and Sāṃkhya."
+    "shared_core": "*Manas* names **the sense-coordinating cognitive function: the inner sense (*antar-indriya*) that synthesizes discrete sense-data and presents them to *buddhi***. *Sāṅkhya-Kārikā* 27 fixes *manas* as the *saṅkalpaka* function. *Nyāya-Sūtra* 1.1.16 treats it as an atomic internal sense. All Brāhmaṇical schools share the structural role.",
+    "register_axes_note": "Same Φ+E register, same scope-inside. Real disagreement only at the M-level: Nyāya-Vaiśeṣika treats *manas* as *aṇu* (atomic), Sāṅkhya as a *prakṛti*-evolute, Advaita as an *upādhi*-mode. Methodology AF1 holds on the *aṇu* question between Nyāya and Sāṅkhya."
   },
   "per_school": [
     {
@@ -103,14 +103,14 @@
       "citations": []
     },
     {
-      "school": "Sāṃkhya",
-      "definition": "In classical Sāṃkhya, *manas* is *ubhayātmaka*: it counts as an *indriya* and its distinctive function is *saṃkalpa*. [cite://isvara-krsna/samkhya-karika/27] Because it stands in the same sāttvika line as the other faculties, it mediates both cognitive and active operations without being the determining *buddhi* or the witnessing *puruṣa*. [cite://isvara-krsna/samkhya-karika/27]",
+      "school": "Sāṅkhya",
+      "definition": "In classical Sāṅkhya, *manas* is *ubhayātmaka*: it counts as an *indriya* and its distinctive function is *saṃkalpa*. [cite://isvara-krsna/sankhya-karika/27] Because it stands in the same sāttvika line as the other faculties, it mediates both cognitive and active operations without being the determining *buddhi* or the witnessing *puruṣa*. [cite://isvara-krsna/sankhya-karika/27]",
       "primary_loci": [
-        "Sāṃkhya-Kārikā 27"
+        "Sāṅkhya-Kārikā 27"
       ],
       "citations": [
         {
-          "cite": "cite://isvara-krsna/samkhya-karika/27",
+          "cite": "cite://isvara-krsna/sankhya-karika/27",
           "locus_short": "SK 27"
         }
       ]

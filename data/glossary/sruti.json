@@ -171,19 +171,19 @@
       ]
     },
     {
-      "school": "Sāṃkhya",
-      "definition": "For Sāṃkhya, *āptaśruti* or *āptāgama* is one member of the threefold *pramāṇa*-scheme, alongside perception and inference, and its authority is that of reliable testimony rather than of a sui generis revelatory organ [[SK 5](cite://isvarakrsna/samkhya-karika/5)]. Its proper field is the *parokṣa* and *atīndriya*: what is not secured by perception may still be established from the trustworthy tradition of the competent speaker [[SK 6](cite://isvarakrsna/samkhya-karika/6)].",
+      "school": "Sāṅkhya",
+      "definition": "For Sāṅkhya, *āptaśruti* or *āptāgama* is one member of the threefold *pramāṇa*-scheme, alongside perception and inference, and its authority is that of reliable testimony rather than of a sui generis revelatory organ [[SK 5](cite://isvarakrsna/sankhya-karika/5)]. Its proper field is the *parokṣa* and *atīndriya*: what is not secured by perception may still be established from the trustworthy tradition of the competent speaker [[SK 6](cite://isvarakrsna/sankhya-karika/6)].",
       "primary_loci": [
-        "Sāṃkhya-Kārikā 5",
-        "Sāṃkhya-Kārikā 6"
+        "Sāṅkhya-Kārikā 5",
+        "Sāṅkhya-Kārikā 6"
       ],
       "citations": [
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/5",
+          "cite": "cite://isvarakrsna/sankhya-karika/5",
           "locus_short": "SK 5"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/6",
+          "cite": "cite://isvarakrsna/sankhya-karika/6",
           "locus_short": "SK 6"
         }
       ]
@@ -207,7 +207,7 @@
       ]
     },
     {
-      "school": "Sāṃkhya-Yoga (synthetic)",
+      "school": "Sāṅkhya-Yoga (synthetic)",
       "definition": "In the Bhikṣu synthesis, śruti fixes the cosmological use of *māyā* by prescribing that the term denotes *prakṛti*, already known from other śruti and smṛti, under the lordship of Maheśvara [[VĀB 1.1.5](cite://vijnanabhiksu/vijnanamrta-bhasya/1.1.5)]. This is a realist hermeneutic of causal disclosure rather than of merely illusory appearance, and the appeal to scripture is what secures that reading [[VĀB 1.1.5](cite://vijnanabhiksu/vijnanamrta-bhasya/1.1.5)].",
       "primary_loci": [
         "Vijñānāmṛta-Bhāṣya 1.1.5"

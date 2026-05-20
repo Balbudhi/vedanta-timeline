@@ -23,7 +23,7 @@
   "school_framing": {
     "framing_status": "mixed",
     "shared_core": "*Jīva* names **the living, embodied subject as bearer of agency, enjoyership, bondage, and rebirth**: the self under the conditions of *saṃsāra* (Bṛhadāraṇyaka 4.4.5–7). Every school that retains the term agrees on this structural role; they disagree on whether individuality is *upādhi*-conditioned (Advaita, Bhāskara), real-but-modal (Viśiṣṭādvaita), eternally and intrinsically distinct (Tattva-vāda), an *aṃśa-śakti* (Nimbārka, Vallabha), or *acintya-bhedābheda* (Gauḍīya).",
-    "register_axes_note": "**Same concept, real disagreement** among Vedāntins on whether *jīva*'s individuation is *svarūpa*-grounded or *upādhi*-grounded (AF1: cf. Bhāskara vs. Nimbārka, methodology Case 4; Madhva vs. Advaita, methodology Case 3). Sāṃkhya-Yoga uses *puruṣa* for the functional analogue. Buddhists deny any enduring *jīva* (real disagreement, same Φ-register). Jainism treats *jīva* as a real tattva-substance enmeshed in karmic matter — partially *different concept* in its material-bondage construal."
+    "register_axes_note": "**Same concept, real disagreement** among Vedāntins on whether *jīva*'s individuation is *svarūpa*-grounded or *upādhi*-grounded (AF1: cf. Bhāskara vs. Nimbārka, methodology Case 4; Madhva vs. Advaita, methodology Case 3). Sāṅkhya-Yoga uses *puruṣa* for the functional analogue. Buddhists deny any enduring *jīva* (real disagreement, same Φ-register). Jainism treats *jīva* as a real tattva-substance enmeshed in karmic matter — partially *different concept* in its material-bondage construal."
   },
   "per_school": [
     {
@@ -203,19 +203,19 @@
       "register_tag": "M+S; bhakta"
     },
     {
-      "school": "Sāṃkhya",
-      "definition": "In Sāṃkhya, what later inter-school idiom often calls *jīva* is the *puruṣa*: a plurality of conscious subjects established from enjoyership, superintendence, and the very orientation toward *kaivalya* [[SK 17-19](cite://isvarakrsna/samkhya-karika/17-19)]. The commerce of bondage, transmigration, and release belongs strictly to *prakṛti* and its evolutes; the *puruṣa* is neither agent nor patient, but the spectator for whose sake *prakṛti* binds, displays itself, and withdraws [[SK 62-65](cite://isvarakrsna/samkhya-karika/62-65)].",
+      "school": "Sāṅkhya",
+      "definition": "In Sāṅkhya, what later inter-school idiom often calls *jīva* is the *puruṣa*: a plurality of conscious subjects established from enjoyership, superintendence, and the very orientation toward *kaivalya* [[SK 17-19](cite://isvarakrsna/sankhya-karika/17-19)]. The commerce of bondage, transmigration, and release belongs strictly to *prakṛti* and its evolutes; the *puruṣa* is neither agent nor patient, but the spectator for whose sake *prakṛti* binds, displays itself, and withdraws [[SK 62-65](cite://isvarakrsna/sankhya-karika/62-65)].",
       "primary_loci": [
-        "Sāṃkhya-Kārikā 17-19",
-        "Sāṃkhya-Kārikā 62-65"
+        "Sāṅkhya-Kārikā 17-19",
+        "Sāṅkhya-Kārikā 62-65"
       ],
       "citations": [
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/17-19",
+          "cite": "cite://isvarakrsna/sankhya-karika/17-19",
           "locus_short": "SK 17-19"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/62-65",
+          "cite": "cite://isvarakrsna/sankhya-karika/62-65",
           "locus_short": "SK 62-65"
         }
       ],

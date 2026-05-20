@@ -594,7 +594,7 @@ The verse is cited to widen the notion of causality beyond crude production. *Ab
 - No finite verb is explicit.
 
 **Note:**
-The appeal to the Yoga tradition is characteristic of Vijñānabhikṣu. He regularly uses Sāṃkhya-Yoga materials to thicken Vedāntic categories rather than to oppose them.
+The appeal to the Yoga tradition is characteristic of Vijñānabhikṣu. He regularly uses Sāṅkhya-Yoga materials to thicken Vedāntic categories rather than to oppose them.
 
 ---
 

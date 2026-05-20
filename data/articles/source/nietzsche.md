@@ -360,7 +360,7 @@ The *Blitz*-argument: when lightning flashes, there is one event, the flashing. 
 
 GM I.13 articulates by genealogical route what the Gītā articulates by spiritual-instructive route: no doer behind the deed. *Niṣkāma karma* is the recognition that the ego-doer is a fiction. Direction differs, Nietzsche dissolves the doer *downward* into drives; the Gītā dissolves it *upward* into the witness, but the deconstruction is the same.
 
-GM I.13's structural lack: after *das Thun ist Alles*, what is the witness? Nietzsche denies any. Classical Sāṃkhya resolves: action belongs to *prakṛti*, witnessing to *puruṣa*. The witness is not vulnerable to GM I.13 because it is not a substance back-projected from grammar but the *condition* under which experience can occur (Yoga's *vṛtti/sākṣi*).
+GM I.13's structural lack: after *das Thun ist Alles*, what is the witness? Nietzsche denies any. Classical Sāṅkhya resolves: action belongs to *prakṛti*, witnessing to *puruṣa*. The witness is not vulnerable to GM I.13 because it is not a substance back-projected from grammar but the *condition* under which experience can occur (Yoga's *vṛtti/sākṣi*).
 
 The lambs/birds figure makes two claims at once: (a) the doer is a fiction; (b) slave morality is reactive moralization. The thesis accepts (a) without (b). *Dharma*, *adhikāra*, *ahiṃsā* give an ethical structure that is neither slave nor master morality, bird and lamb both participate in lawful *līlā* according to their natures.
 

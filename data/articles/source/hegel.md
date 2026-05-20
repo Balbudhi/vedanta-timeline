@@ -39,7 +39,7 @@ These five moves and the *Aufhebung*-rhythm that links them are the architecture
 - **Enzyklopädie der philosophischen Wissenschaften** (1817; 2nd ed. 1827; 3rd ed. 1830). The whole system in compressed paragraph form: Logic → Philosophy of Nature → Philosophy of Spirit. The map. The *Zusätze* (additions, drawn from student notes) are pedagogically useful but not authoritative.
 - **Berlin lectures** (1818–31): on history of philosophy, philosophy of history, philosophy of religion, aesthetics. Posthumously edited; uneven but invaluable for seeing the system applied.
 
-Cross-engagement: Gaudapada (Samkhya commentator) takes the temporal mode axis to a different commitment — `substance-primary` at [primary text](cite://isvara-krsna/samkhya-karika/1) against `process-primary` here.
+Cross-engagement: Gaudapada (Sankhya commentator) takes the temporal mode axis to a different commitment — `substance-primary` at [primary text](cite://isvara-krsna/sankhya-karika/1) against `process-primary` here.
 
 ### The user's polemic, stated plainly — and held in suspense
 

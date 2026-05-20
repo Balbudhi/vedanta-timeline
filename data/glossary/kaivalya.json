@@ -13,8 +13,8 @@
   "invariant_definition": "*Kaivalya* does not mean loneliness. It is the technical state of being \"alone\" in the sense of standing free of what had been falsely or contingently associated with one. In Sāṅkhya and Yoga, that means the isolation of *puruṣa* from *prakṛti* through discriminative knowledge: the guṇas withdraw to their source and consciousness abides in its own form. In Vedāntic usage the term can widen or shift. Some Advaita texts use it nearly synonymously with *mokṣa*, meaning exclusive abiding as *brahman*. Vaiṣṇava theologians, by contrast, often narrow it to a lower attainment in which the self enjoys its own conscious nature apart from matter but without full *bhagavat-prāpti*. The term therefore sits at the junction of ontology and soteriology: whether the highest end is self-isolation, identity with the absolute, or eternal relation to the Lord. Its practical force depends on that larger frame.",
   "school_framing": {
     "framing_status": "mixed",
-    "shared_core": "*Kaivalya* names **the alone-standing condition in which *puruṣa* / *ātman* / *jīva* abides without further involvement in *prakṛti* or *saṃsāra***. The structural role — solitary, non-returning culmination — is shared. Schools differ on what the alone-standing self stands alone *with*: the *kūṭastha* witness identical to Brahman (Advaita), Bhagavān-related *kaiṅkarya* (Viśiṣṭādvaita), the *paratantra-jīva* in *taratamya* with Hari (Tattva-vāda), or *puruṣa* in pure *cit*-standing apart from *prakṛti* (Sāṃkhya-Yoga; *Sāṃkhya-Kārikā* 68; *YS* 4.34).",
-    "register_axes_note": "**Real disagreement** (AF1) on the *kaivalya*-state's content. Sāṃkhya-Yoga's *kaivalya* is *jīveśvara-bheda* without an *Īśvara*-role; Advaita's *kaivalya* is *jīva-brahman-aikya*. Same M+S register, same scope-inside (non-returning terminus), opposing claims on what is realized. **Same concept, different aspect** between Viśiṣṭādvaita and Acintya-Bhedābheda where *kaivalya* is rejected as the highest end and *prema-mukti* is preferred."
+    "shared_core": "*Kaivalya* names **the alone-standing condition in which *puruṣa* / *ātman* / *jīva* abides without further involvement in *prakṛti* or *saṃsāra***. The structural role — solitary, non-returning culmination — is shared. Schools differ on what the alone-standing self stands alone *with*: the *kūṭastha* witness identical to Brahman (Advaita), Bhagavān-related *kaiṅkarya* (Viśiṣṭādvaita), the *paratantra-jīva* in *taratamya* with Hari (Tattva-vāda), or *puruṣa* in pure *cit*-standing apart from *prakṛti* (Sāṅkhya-Yoga; *Sāṅkhya-Kārikā* 68; *YS* 4.34).",
+    "register_axes_note": "**Real disagreement** (AF1) on the *kaivalya*-state's content. Sāṅkhya-Yoga's *kaivalya* is *jīveśvara-bheda* without an *Īśvara*-role; Advaita's *kaivalya* is *jīva-brahman-aikya*. Same M+S register, same scope-inside (non-returning terminus), opposing claims on what is realized. **Same concept, different aspect** between Viśiṣṭādvaita and Acintya-Bhedābheda where *kaivalya* is rejected as the highest end and *prema-mukti* is preferred."
   },
   "per_school": [
     {
@@ -143,19 +143,19 @@
       "register_tag": "M+S; bhakta"
     },
     {
-      "school": "Sāṃkhya",
-      "definition": "Īśvarakṛṣṇa defines `kaivalya` as the `puruṣa`'s `mādhyasthya`, `draṣṭṛtva`, and `akartṛbhāva`, that is, pure witnesshood in separation from the operations of `prakṛti`. (cite://isvara-krsna/samkhya-karika/19) When the body-complex has served its purpose and `pradhāna` ceases its activity, the `puruṣa` attains `kaivalya` in the double sense of `aikāntika` and `ātyantika` finality. (cite://isvara-krsna/samkhya-karika/68)",
+      "school": "Sāṅkhya",
+      "definition": "Īśvarakṛṣṇa defines `kaivalya` as the `puruṣa`'s `mādhyasthya`, `draṣṭṛtva`, and `akartṛbhāva`, that is, pure witnesshood in separation from the operations of `prakṛti`. (cite://isvara-krsna/sankhya-karika/19) When the body-complex has served its purpose and `pradhāna` ceases its activity, the `puruṣa` attains `kaivalya` in the double sense of `aikāntika` and `ātyantika` finality. (cite://isvara-krsna/sankhya-karika/68)",
       "primary_loci": [
-        "Sāṃkhya-Kārikā 19",
-        "Sāṃkhya-Kārikā 68"
+        "Sāṅkhya-Kārikā 19",
+        "Sāṅkhya-Kārikā 68"
       ],
       "citations": [
         {
-          "cite": "cite://isvara-krsna/samkhya-karika/19",
+          "cite": "cite://isvara-krsna/sankhya-karika/19",
           "locus_short": "SK 19"
         },
         {
-          "cite": "cite://isvara-krsna/samkhya-karika/68",
+          "cite": "cite://isvara-krsna/sankhya-karika/68",
           "locus_short": "SK 68"
         }
       ],

@@ -87,7 +87,7 @@ TERMS = {
                 "not the bare copula but what survives scrutiny. They differ "
                 "on (i) whether *sat* in the strict sense belongs only to "
                 "the unconditioned (Advaita) or also to dependent reals "
-                "(Viśiṣṭādvaita, Tattva-vāda, Śuddhādvaita, Sāṃkhya, Nyāya-"
+                "(Viśiṣṭādvaita, Tattva-vāda, Śuddhādvaita, Sāṅkhya, Nyāya-"
                 "Vaiśeṣika, Yoga, Jainism, Trika), (ii) whether effects "
                 "pre-exist in the cause (*satkārya-vāda*) or arise anew "
                 "(*asatkārya-vāda*), and (iii) whether the *sat*/*asat* "
@@ -116,7 +116,7 @@ TERMS = {
             "Acintya-Bhedābheda": "M+AD; bhakta",
             "Dvaitādvaita": "M+S; bhakta",
             "Śuddhādvaita": "M+S; bhakta",
-            "Sāṃkhya": "M+C; mumukṣu (satkārya-vāda)",
+            "Sāṅkhya": "M+C; mumukṣu (satkārya-vāda)",
             "Yoga": "M+Φ; yogin (dharmin persistence)",
             "Nyāya-Vaiśeṣika": "M+E; reflective reader (sattā as sāmānya)",
             "Pūrva-Mīmāṃsā": "E+RN; adhikārin",
@@ -135,9 +135,9 @@ TERMS = {
                 "criterion the school imposes on being**. Advaita treats "
                 "*asat* strictly (the rabbit's horn, *vandhyā-putra*: what "
                 "cannot even appear), so the world is *mithyā* and not "
-                "*asat* (BSB 2.1.14). Sāṃkhya excludes *asat* from causal "
+                "*asat* (BSB 2.1.14). Sāṅkhya excludes *asat* from causal "
                 "production altogether (*nāsato vidyate bhāvaḥ*; "
-                "*Sāṃkhya-Kārikā* 9). Tattva-vāda allows only the *sat*/"
+                "*Sāṅkhya-Kārikā* 9). Tattva-vāda allows only the *sat*/"
                 "*asat* binary and locates *mithyātva* under *asat*-equivalent "
                 "(*Mithyātvānumāna-Khaṇḍana*)."
             ),
@@ -145,7 +145,7 @@ TERMS = {
                 "**Real disagreement** (AF1) on whether the *sat*/*asat* "
                 "binary is exhaustive: Advaita inserts *anirvacanīya* "
                 "between them; Tattva-vāda denies the third. Same M+LD "
-                "register, same scope-inside, opposing claims. Sāṃkhya's "
+                "register, same scope-inside, opposing claims. Sāṅkhya's "
                 "use is principally causal-modal (what can be produced), "
                 "not ontological-classificatory — a register-difference "
                 "from the Advaita/Tattva-vāda contest."
@@ -153,7 +153,7 @@ TERMS = {
         },
         "register_tags": {
             "Advaita": "M+LD; mumukṣu",
-            "Sāṃkhya": "M+C; mumukṣu (causal-modal use)",
+            "Sāṅkhya": "M+C; mumukṣu (causal-modal use)",
             "Tattva-vāda": "M+LD; Tattvavādin [REAL-DISAGREEMENT on binary exhaustiveness]",
         },
     },
@@ -346,7 +346,7 @@ TERMS = {
             "Acintya-Bhedābheda": "M+AD; bhakta",
             "Dvaitādvaita": "M+S; bhakta",
             "Śuddhādvaita": "M+S; bhakta",
-            "Sāṃkhya": "C; reflective reader [no Īśvara; nirīśvara]",
+            "Sāṅkhya": "C; reflective reader [no Īśvara; nirīśvara]",
             "Yoga": "M+S; yogin [different concept: viśeṣa-puruṣa, YS 1.24]",
             "Nyāya-Vaiśeṣika": "M+LD; reflective reader (efficient cause)",
             "Pūrva-Mīmāṃsā": "RN; adhikārin [no Īśvara role]",
@@ -502,11 +502,11 @@ TERMS = {
                 "(Advaita), Bhagavān-related *kaiṅkarya* (Viśiṣṭādvaita), "
                 "the *paratantra-jīva* in *taratamya* with Hari (Tattva-"
                 "vāda), or *puruṣa* in pure *cit*-standing apart from "
-                "*prakṛti* (Sāṃkhya-Yoga; *Sāṃkhya-Kārikā* 68; *YS* 4.34)."
+                "*prakṛti* (Sāṅkhya-Yoga; *Sāṅkhya-Kārikā* 68; *YS* 4.34)."
             ),
             "register_axes_note": (
                 "**Real disagreement** (AF1) on the *kaivalya*-state's "
-                "content. Sāṃkhya-Yoga's *kaivalya* is *jīveśvara-bheda* "
+                "content. Sāṅkhya-Yoga's *kaivalya* is *jīveśvara-bheda* "
                 "without an *Īśvara*-role; Advaita's *kaivalya* is *jīva-"
                 "brahman-aikya*. Same M+S register, same scope-inside "
                 "(non-returning terminus), opposing claims on what is "
@@ -523,7 +523,7 @@ TERMS = {
             "Acintya-Bhedābheda": "M+AD; bhakta [REAL-DISAGREEMENT: prema > kaivalya]",
             "Dvaitādvaita": "M+S; bhakta",
             "Śuddhādvaita": "M+S; bhakta",
-            "Sāṃkhya": "M+S; mumukṣu [REAL-DISAGREEMENT: puruṣa-isolation, no Īśvara]",
+            "Sāṅkhya": "M+S; mumukṣu [REAL-DISAGREEMENT: puruṣa-isolation, no Īśvara]",
             "Yoga": "S+Mh; yogin (YS 4.34)",
             "Nyāya-Vaiśeṣika": "M+S; reflective reader",
             "Pūrva-Mīmāṃsā": "RN; adhikārin [partially different concept]",
@@ -735,10 +735,10 @@ TERMS = {
             "shared_core": (
                 "*Ahaṃkāra* names **the I-maker: the cognitive function "
                 "that appropriates experience as 'mine' and constitutes "
-                "the empirical agent-self**. Sāṃkhya-Yoga gives the "
+                "the empirical agent-self**. Sāṅkhya-Yoga gives the "
                 "paradigm definition: *ahaṃkāra* is the *prakṛti*-evolute "
-                "between *mahat* and the *tanmātras* (*Sāṃkhya-Kārikā* "
-                "22–25). Advaita inherits the Sāṃkhya analysis and "
+                "between *mahat* and the *tanmātras* (*Sāṅkhya-Kārikā* "
+                "22–25). Advaita inherits the Sāṅkhya analysis and "
                 "identifies *ahaṃkāra* with one mode of the *antaḥkaraṇa*. "
                 "Viśiṣṭādvaita and Tattva-vāda treat *ahaṃkāra* as a real "
                 "*prakṛti*-function whose appropriations are *upādhi*-"
@@ -754,7 +754,7 @@ TERMS = {
             ),
         },
         "register_tags": {
-            "Sāṃkhya / Yoga": "M+Φ; mumukṣu / yogin (prakṛti-evolute)",
+            "Sāṅkhya / Yoga": "M+Φ; mumukṣu / yogin (prakṛti-evolute)",
             "Advaita": "Φ+S; mumukṣu (antaḥkaraṇa-mode dissolving in jñāna)",
             "Viśiṣṭādvaita": "M+Φ; prapanna (real upādhi of jīva)",
             "Tattva-vāda": "M+Φ; Tattvavādin (real prakṛti-function)",
@@ -767,8 +767,8 @@ TERMS = {
                 "*Antaḥkaraṇa* names **the inner instrument: the composite "
                 "cognitive apparatus comprising *manas*, *buddhi*, "
                 "*ahaṃkāra* (and in Advaita *citta*)** that mediates "
-                "between *jñātā* and *jñeya*. Sāṃkhya-Yoga formalizes it "
-                "as the threefold *antaḥkaraṇa* (*Sāṃkhya-Kārikā* 33). "
+                "between *jñātā* and *jñeya*. Sāṅkhya-Yoga formalizes it "
+                "as the threefold *antaḥkaraṇa* (*Sāṅkhya-Kārikā* 33). "
                 "Advaita reads the *antaḥkaraṇa* as the *upādhi* that "
                 "individuates the *kūṭastha-sākṣin* into the *jīva*. "
                 "Viśiṣṭādvaita and Tattva-vāda treat the *antaḥkaraṇa* as "
@@ -784,7 +784,7 @@ TERMS = {
             ),
         },
         "register_tags": {
-            "Sāṃkhya / Yoga": "M+Φ; yogin (threefold antaḥkaraṇa)",
+            "Sāṅkhya / Yoga": "M+Φ; yogin (threefold antaḥkaraṇa)",
             "Advaita": "Φ+M; mumukṣu (upādhi individuating sākṣin)",
             "Viśiṣṭādvaita": "M+Φ; prapanna",
             "Tattva-vāda (Dvaita)": "M+Φ; Tattvavādin",
@@ -797,7 +797,7 @@ TERMS = {
                 "*Buddhi* names **the determinative cognitive function: "
                 "the *adhyavasāya*-faculty that fixes its object as "
                 "*idam*-such-and-such**, paradigmatically defined at "
-                "*Sāṃkhya-Kārikā* 23 (*adhyavasāyo buddhiḥ*) and at *YS* "
+                "*Sāṅkhya-Kārikā* 23 (*adhyavasāyo buddhiḥ*) and at *YS* "
                 "2.6. All Brāhmaṇical schools accept the structural role. "
                 "Advaita treats *buddhi* as a *vṛtti*-bearing *upādhi* "
                 "whose *akhaṇḍākāra-vṛtti* is the proximate locus of "
@@ -827,7 +827,7 @@ TERMS = {
                 "*Manas* names **the sense-coordinating cognitive function: "
                 "the inner sense (*antar-indriya*) that synthesizes "
                 "discrete sense-data and presents them to *buddhi***. "
-                "*Sāṃkhya-Kārikā* 27 fixes *manas* as the *saṅkalpaka* "
+                "*Sāṅkhya-Kārikā* 27 fixes *manas* as the *saṅkalpaka* "
                 "function. *Nyāya-Sūtra* 1.1.16 treats it as an atomic "
                 "internal sense. All Brāhmaṇical schools share the "
                 "structural role."
@@ -835,9 +835,9 @@ TERMS = {
             "register_axes_note": (
                 "Same Φ+E register, same scope-inside. Real disagreement "
                 "only at the M-level: Nyāya-Vaiśeṣika treats *manas* as "
-                "*aṇu* (atomic), Sāṃkhya as a *prakṛti*-evolute, Advaita "
+                "*aṇu* (atomic), Sāṅkhya as a *prakṛti*-evolute, Advaita "
                 "as an *upādhi*-mode. Methodology AF1 holds on the *aṇu* "
-                "question between Nyāya and Sāṃkhya."
+                "question between Nyāya and Sāṅkhya."
             ),
         },
         "register_tags": {

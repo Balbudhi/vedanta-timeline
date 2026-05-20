@@ -11,10 +11,10 @@
     "buddhau",
     "buddhyā"
   ],
-  "invariant_definition": "*Buddhi* is the determinative and discriminative function of the inner apparatus: the point at which a merely presented content becomes a judged or settled cognition. In Sāṃkhya it is the first evolute of *prakṛti* and is often identified with *mahat*, the great principle from which more articulated individuality emerges. In practical psychology it is the faculty of *adhyavasāya*, discrimination, resolve, and decision. That makes it central to epistemology and liberation alike. A cognition is not just sensed; it must be taken as this rather than that, true rather than false, to-be-pursued rather than to-be-avoided. Vedānta preserves this role and asks what exactly happens in *buddhi* when liberating knowledge arises. Advaita answers with *vṛtti* and *cidābhāsa*; Viśiṣṭādvaita and Tattva-vāda (Dvaita) treat it as the real instrument through which the self's knowledge functions. Nyāya-Vaiśeṣika uses *buddhi* differently again, as cognition considered as a quality rather than as an inner faculty. The term therefore sits at the junction of ontological psychology and formal epistemology.",
+  "invariant_definition": "*Buddhi* is the determinative and discriminative function of the inner apparatus: the point at which a merely presented content becomes a judged or settled cognition. In Sāṅkhya it is the first evolute of *prakṛti* and is often identified with *mahat*, the great principle from which more articulated individuality emerges. In practical psychology it is the faculty of *adhyavasāya*, discrimination, resolve, and decision. That makes it central to epistemology and liberation alike. A cognition is not just sensed; it must be taken as this rather than that, true rather than false, to-be-pursued rather than to-be-avoided. Vedānta preserves this role and asks what exactly happens in *buddhi* when liberating knowledge arises. Advaita answers with *vṛtti* and *cidābhāsa*; Viśiṣṭādvaita and Tattva-vāda (Dvaita) treat it as the real instrument through which the self's knowledge functions. Nyāya-Vaiśeṣika uses *buddhi* differently again, as cognition considered as a quality rather than as an inner faculty. The term therefore sits at the junction of ontological psychology and formal epistemology.",
   "school_framing": {
     "framing_status": "same_concept_different_aspect",
-    "shared_core": "*Buddhi* names **the determinative cognitive function: the *adhyavasāya*-faculty that fixes its object as *idam*-such-and-such**, paradigmatically defined at *Sāṃkhya-Kārikā* 23 (*adhyavasāyo buddhiḥ*) and at *YS* 2.6. All Brāhmaṇical schools accept the structural role. Advaita treats *buddhi* as a *vṛtti*-bearing *upādhi* whose *akhaṇḍākāra-vṛtti* is the proximate locus of *brahma-jñāna*. Viśiṣṭādvaita and Tattva-vāda treat *buddhi* as a real *prakṛti*-evolute proper to the *jīva*.",
+    "shared_core": "*Buddhi* names **the determinative cognitive function: the *adhyavasāya*-faculty that fixes its object as *idam*-such-and-such**, paradigmatically defined at *Sāṅkhya-Kārikā* 23 (*adhyavasāyo buddhiḥ*) and at *YS* 2.6. All Brāhmaṇical schools accept the structural role. Advaita treats *buddhi* as a *vṛtti*-bearing *upādhi* whose *akhaṇḍākāra-vṛtti* is the proximate locus of *brahma-jñāna*. Viśiṣṭādvaita and Tattva-vāda treat *buddhi* as a real *prakṛti*-evolute proper to the *jīva*.",
     "register_axes_note": "Same Φ+E register, same scope-inside. Real disagreement only at the M-level on whether *buddhi* is an *upādhi* or an integral *prakṛti*-evolute of the *jīva* — same pattern as *antaḥkaraṇa* and *ahaṃkāra*."
   },
   "per_school": [
@@ -104,29 +104,29 @@
       "citations": []
     },
     {
-      "school": "Sāṃkhya",
-      "definition": "In Sāṃkhya, *buddhi* is explicitly glossed as *adhyavasāya*, determinative ascertainment [[KapSS 2.13](cite://kapila/samkhya-sutra/2.13)] [[SK 23](cite://isvarakrsna/samkhya-karika/23)]. It is the inner instrument that takes in the whole field of objects and thereby makes possible the *puruṣa*'s experience [[SK 35](cite://isvarakrsna/samkhya-karika/35)] [[SK 37](cite://isvarakrsna/samkhya-karika/37)]. Its *sāttvika* condition is marked by *dharma*, *jñāna*, *vairāgya*, and *aiśvarya*, so the determinative and discriminative work of *buddhi* is structurally central to Sāṃkhya's path of discernment [[SK 23](cite://isvarakrsna/samkhya-karika/23)].",
+      "school": "Sāṅkhya",
+      "definition": "In Sāṅkhya, *buddhi* is explicitly glossed as *adhyavasāya*, determinative ascertainment [[KapSS 2.13](cite://kapila/sankhya-sutra/2.13)] [[SK 23](cite://isvarakrsna/sankhya-karika/23)]. It is the inner instrument that takes in the whole field of objects and thereby makes possible the *puruṣa*'s experience [[SK 35](cite://isvarakrsna/sankhya-karika/35)] [[SK 37](cite://isvarakrsna/sankhya-karika/37)]. Its *sāttvika* condition is marked by *dharma*, *jñāna*, *vairāgya*, and *aiśvarya*, so the determinative and discriminative work of *buddhi* is structurally central to Sāṅkhya's path of discernment [[SK 23](cite://isvarakrsna/sankhya-karika/23)].",
       "primary_loci": [
-        "Sāṃkhya-Sūtra 2.13",
-        "Sāṃkhya-Kārikā 23",
-        "Sāṃkhya-Kārikā 35",
-        "Sāṃkhya-Kārikā 37"
+        "Sāṅkhya-Sūtra 2.13",
+        "Sāṅkhya-Kārikā 23",
+        "Sāṅkhya-Kārikā 35",
+        "Sāṅkhya-Kārikā 37"
       ],
       "citations": [
         {
-          "cite": "cite://kapila/samkhya-sutra/2.13",
+          "cite": "cite://kapila/sankhya-sutra/2.13",
           "locus_short": "KapSS 2.13"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/23",
+          "cite": "cite://isvarakrsna/sankhya-karika/23",
           "locus_short": "SK 23"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/35",
+          "cite": "cite://isvarakrsna/sankhya-karika/35",
           "locus_short": "SK 35"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/37",
+          "cite": "cite://isvarakrsna/sankhya-karika/37",
           "locus_short": "SK 37"
         }
       ]

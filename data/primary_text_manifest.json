@@ -548,7 +548,7 @@
       "work_id": "brahma-sutra"
     },
     {
-      "path": "sanskrit/comparator/isvarakrsna_samkhya_karika.txt",
+      "path": "sanskrit/comparator/ SANKHYAPLACEHOLDER0 .txt",
       "language": "sanskrit",
       "category": "comparator",
       "title": "duḥkhatrayābhighātāj jijñāsā tadabhighātake hetau /",
@@ -557,11 +557,11 @@
       "edition": null,
       "format": "plain-text",
       "thinker_id": "isvara-krsna",
-      "work_id": "samkhya-karika",
+      "work_id": "sankhya-karika",
       "additional_owners": [
         {
           "thinker_id": "isvarakrsna",
-          "work_id": "samkhya-karika"
+          "work_id": "sankhya-karika"
         }
       ]
     },

@@ -13,25 +13,25 @@
     "prakriti",
     "prakṛtis"
   ],
-  "invariant_definition": "*Prakṛti* is the material-causal side of manifestation: the unmanifest substrate whose equilibrium of *guṇa*s, once disturbed, unfolds as *mahat*, *ahaṅkāra*, the subtle elements, the gross elements, the body, and the cognitive apparatus. The term therefore does not mean 'nature' in the modern contrast between nature and culture. It names the causal matrix presupposed by embodiment, *saṃsāra*, and the whole debate over whether the effect pre-exists in the cause. In Sāṃkhya it is *avyakta* and *pradhāna*: unconscious, eternal, and independent of *puruṣa* even while acting for *puruṣa*'s experience and liberation. Vedānta takes over the causal grammar but refuses that independence. *Prakṛti* is then redescribed as *māyā*, *acit*, external *śakti*, or dependent material principle under *brahman* or Īśvara. Across these redescriptions one point remains stable: the body, senses, pleasure-pain apparatus, and inner instrument belong to the *prakṛti* side, not to consciousness as such. The disputes concern whether *prakṛti* is ultimate or dependent, whether its transformations are fully real or only *vyāvahārika*, and whether the Lord stands to it as controller, substrate, or merely apparent possessor of an *upādhi*.",
+  "invariant_definition": "*Prakṛti* is the material-causal side of manifestation: the unmanifest substrate whose equilibrium of *guṇa*s, once disturbed, unfolds as *mahat*, *ahaṅkāra*, the subtle elements, the gross elements, the body, and the cognitive apparatus. The term therefore does not mean 'nature' in the modern contrast between nature and culture. It names the causal matrix presupposed by embodiment, *saṃsāra*, and the whole debate over whether the effect pre-exists in the cause. In Sāṅkhya it is *avyakta* and *pradhāna*: unconscious, eternal, and independent of *puruṣa* even while acting for *puruṣa*'s experience and liberation. Vedānta takes over the causal grammar but refuses that independence. *Prakṛti* is then redescribed as *māyā*, *acit*, external *śakti*, or dependent material principle under *brahman* or Īśvara. Across these redescriptions one point remains stable: the body, senses, pleasure-pain apparatus, and inner instrument belong to the *prakṛti* side, not to consciousness as such. The disputes concern whether *prakṛti* is ultimate or dependent, whether its transformations are fully real or only *vyāvahārika*, and whether the Lord stands to it as controller, substrate, or merely apparent possessor of an *upādhi*.",
   "school_framing": {
     "framing_status": "mixed",
-    "shared_core": "*Prakṛti* names **the materially manifesting principle: the *upādāna* of evolved form**, marked by the three *guṇas* (*Sāṃkhya-Kārikā* 11–13). Sāṃkhya gives the paradigm definition; Yoga inherits it; Vedāntic schools then reinterpret *prakṛti* as *brahman*'s real or modal power, not an independent substance.",
-    "register_axes_note": "**Real disagreement** (AF1) between Sāṃkhya (*prakṛti* *svatantra*, independent of *puruṣa*) and Vedāntic schools (*prakṛti* either *brahman*'s *śakti* or *brahman*'s *aṃśa*). Same M-register, same scope-inside ('the material principle'), opposing claims on its dependence-status."
+    "shared_core": "*Prakṛti* names **the materially manifesting principle: the *upādāna* of evolved form**, marked by the three *guṇas* (*Sāṅkhya-Kārikā* 11–13). Sāṅkhya gives the paradigm definition; Yoga inherits it; Vedāntic schools then reinterpret *prakṛti* as *brahman*'s real or modal power, not an independent substance.",
+    "register_axes_note": "**Real disagreement** (AF1) between Sāṅkhya (*prakṛti* *svatantra*, independent of *puruṣa*) and Vedāntic schools (*prakṛti* either *brahman*'s *śakti* or *brahman*'s *aṃśa*). Same M-register, same scope-inside ('the material principle'), opposing claims on its dependence-status."
   },
   "per_school": [
     {
-      "school": "Sāṃkhya / Yoga",
-      "definition": "*Prakṛti* is the independent unconscious root cause (*pradhāna*, *avyakta*) constituted by the three *guṇa*s. Because Sāṃkhya is *satkārya-vādin*, the manifest world is an actual evolution of what was already present in *prakṛti* in unmanifest form. Its disequilibrium issues in *mahat*, *ahaṅkāra*, the *tanmātras*, the elements, and the body-mind complex. Yoga accepts the same ontology but subordinates it to the practical isolation of *puruṣa* through discriminative knowledge.",
+      "school": "Sāṅkhya / Yoga",
+      "definition": "*Prakṛti* is the independent unconscious root cause (*pradhāna*, *avyakta*) constituted by the three *guṇa*s. Because Sāṅkhya is *satkārya-vādin*, the manifest world is an actual evolution of what was already present in *prakṛti* in unmanifest form. Its disequilibrium issues in *mahat*, *ahaṅkāra*, the *tanmātras*, the elements, and the body-mind complex. Yoga accepts the same ontology but subordinates it to the practical isolation of *puruṣa* through discriminative knowledge.",
       "primary_loci": [
-        "Sāṃkhya-Kārikā 3, 11–16",
-        "Sāṃkhya-Kārikā 20–22",
+        "Sāṅkhya-Kārikā 3, 11–16",
+        "Sāṅkhya-Kārikā 20–22",
         "Yoga-Sūtra-Bhāṣya 2.18–19"
       ]
     },
     {
       "school": "Advaita",
-      "definition": "*Prakṛti* is admitted as the material-causal order only at the *vyāvahārika* level and is functionally identified with *māyā*. The Sāṃkhya thesis that *pradhāna* is an independent ultimate cause is rejected. Body, senses, and *antaḥkaraṇa* belong to *prakṛti*; *ātman* does not. Hence bondage is explained through *upādhi* and *adhyāsa*, not through any real modification of *brahman*. *Prakṛti* is thus indispensable to the appearance of the world but not ultimately self-standing.",
+      "definition": "*Prakṛti* is admitted as the material-causal order only at the *vyāvahārika* level and is functionally identified with *māyā*. The Sāṅkhya thesis that *pradhāna* is an independent ultimate cause is rejected. Body, senses, and *antaḥkaraṇa* belong to *prakṛti*; *ātman* does not. Hence bondage is explained through *upādhi* and *adhyāsa*, not through any real modification of *brahman*. *Prakṛti* is thus indispensable to the appearance of the world but not ultimately self-standing.",
       "primary_loci": [
         "Brahma-Sūtra-Bhāṣya 1.4.3",
         "Brahma-Sūtra-Bhāṣya 2.2.1–10",
@@ -41,7 +41,7 @@
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "*Prakṛti* is real *acit*: one of the eternal reals constituting the body of *brahman*. It is dependent, not independent, but its transformations are real. Rāmānuja therefore accepts the causal work that Sāṃkhya assigns to *prakṛti* while denying that it could stand apart from the Lord. Bound embodiment, the senses, and the changing world are all genuine transformations of *prakṛti* governed from within by Nārāyaṇa.",
+      "definition": "*Prakṛti* is real *acit*: one of the eternal reals constituting the body of *brahman*. It is dependent, not independent, but its transformations are real. Rāmānuja therefore accepts the causal work that Sāṅkhya assigns to *prakṛti* while denying that it could stand apart from the Lord. Bound embodiment, the senses, and the changing world are all genuine transformations of *prakṛti* governed from within by Nārāyaṇa.",
       "primary_loci": [
         "Vedārtha-Saṅgraha §§91–95",
         "Śrī-Bhāṣya 1.4.3",
@@ -76,7 +76,7 @@
     "acit",
     "satkaryavada"
   ],
-  "translator_note": "'Nature' is the standard lazy gloss and is usually wrong. It imports a modern nature-versus-culture contrast and suggests forests, animals, or the non-human environment. *Prakṛti* instead names the material-causal substrate presupposed by Sāṃkhya causality, guṇa theory, and embodiment. 'Matter' is closer, but even that can import post-Cartesian or physicalist assumptions foreign to the Sanskrit debates. In most contexts the safest practice is to leave *prakṛti* untranslated and specify whether the school treats it as independent root cause, dependent *acit*, or external divine *śakti*.",
+  "translator_note": "'Nature' is the standard lazy gloss and is usually wrong. It imports a modern nature-versus-culture contrast and suggests forests, animals, or the non-human environment. *Prakṛti* instead names the material-causal substrate presupposed by Sāṅkhya causality, guṇa theory, and embodiment. 'Matter' is closer, but even that can import post-Cartesian or physicalist assumptions foreign to the Sanskrit debates. In most contexts the safest practice is to leave *prakṛti* untranslated and specify whether the school treats it as independent root cause, dependent *acit*, or external divine *śakti*.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"
 }

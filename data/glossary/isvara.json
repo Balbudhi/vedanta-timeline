@@ -183,24 +183,24 @@
       "register_tag": "M+S; bhakta"
     },
     {
-      "school": "Sāṃkhya",
-      "definition": "Sāṃkhya does not require Īśvara as a constitutive explanatory principle, and the Sāṃkhya-Sūtra states this negatively by declaring Īśvara unestablished, since the hypothesized Lord can be coherently identified as neither liberated nor unliberated [[SS 1.92-1.94](cite://kapila/samkhya-sutra/1.92-1.94)]. The dispensation of results is likewise not transferred to a divine governor, because karma itself is said to suffice for phalaniṣpatti, while ascent, descent, and release are explained through dharma, adharma, and discriminative knowledge [[SS 5.2-5.9](cite://kapila/samkhya-sutra/5.2-5.9)] [[SK 44](cite://isvarakrsna/samkhya-karika/44)].",
+      "school": "Sāṅkhya",
+      "definition": "Sāṅkhya does not require Īśvara as a constitutive explanatory principle, and the Sāṅkhya-Sūtra states this negatively by declaring Īśvara unestablished, since the hypothesized Lord can be coherently identified as neither liberated nor unliberated [[SS 1.92-1.94](cite://kapila/sankhya-sutra/1.92-1.94)]. The dispensation of results is likewise not transferred to a divine governor, because karma itself is said to suffice for phalaniṣpatti, while ascent, descent, and release are explained through dharma, adharma, and discriminative knowledge [[SS 5.2-5.9](cite://kapila/sankhya-sutra/5.2-5.9)] [[SK 44](cite://isvarakrsna/sankhya-karika/44)].",
       "primary_loci": [
-        "Sāṃkhya-Sūtra 1.92-1.94",
-        "Sāṃkhya-Sūtra 5.2-5.9",
-        "Sāṃkhya-Kārikā 44"
+        "Sāṅkhya-Sūtra 1.92-1.94",
+        "Sāṅkhya-Sūtra 5.2-5.9",
+        "Sāṅkhya-Kārikā 44"
       ],
       "citations": [
         {
-          "cite": "cite://kapila/samkhya-sutra/1.92-1.94",
+          "cite": "cite://kapila/sankhya-sutra/1.92-1.94",
           "locus_short": "SS 1.92-1.94"
         },
         {
-          "cite": "cite://kapila/samkhya-sutra/5.2-5.9",
+          "cite": "cite://kapila/sankhya-sutra/5.2-5.9",
           "locus_short": "SS 5.2-5.9"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/44",
+          "cite": "cite://isvarakrsna/sankhya-karika/44",
           "locus_short": "SK 44"
         }
       ],

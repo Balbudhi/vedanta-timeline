@@ -2,7 +2,7 @@
 
 ## 1. What the text is
 
-*Vijñānāmṛta-Bhāṣya*, also called the *Ṛju-Bhāṣya*, is Vijñānabhikṣu’s commentary on the *Brahma-Sūtras*. The on-disk edition preserves a complete four-adhyāya, four-pāda bhāṣya, preceded by extensive editorial matter. That same introductory material places Vijñānabhikṣu broadly in the sixteenth century; the file does not prove a stricter date. Doctrinally, the work is a late bhedābheda Vedānta heavily mediated by Sāṃkhya-Yoga: Brahman is supreme, prakṛti and puruṣa are real dependent powers, and the world is defended against both sheer falsity and mere symbolism.
+*Vijñānāmṛta-Bhāṣya*, also called the *Ṛju-Bhāṣya*, is Vijñānabhikṣu’s commentary on the *Brahma-Sūtras*. The on-disk edition preserves a complete four-adhyāya, four-pāda bhāṣya, preceded by extensive editorial matter. That same introductory material places Vijñānabhikṣu broadly in the sixteenth century; the file does not prove a stricter date. Doctrinally, the work is a late bhedābheda Vedānta heavily mediated by Sāṅkhya-Yoga: Brahman is supreme, prakṛti and puruṣa are real dependent powers, and the world is defended against both sheer falsity and mere symbolism.
 
 Cross-engagement: at the substrate structure axis the two texts choose differently. Akalanka ([primary text](cite://umasvati/tattvartha-sutra/1.34-35)) commits to `many-coordinate-reals`; this section commits to `one-self-standing`.
 

@@ -19,7 +19,7 @@ from build_primitive_graph_phase2 import DEPENDENCIES, PRIMITIVES  # noqa: E402
 
 ARTICLE_BY_THINKER = {
     "adorno": "data/articles/source/adorno.md",
-    "anirban": "data/articles/source/samkhya-anirban.md",
+    "anirban": "data/articles/source/sankhya-anirban.md",
     "aurobindo": "data/articles/source/aurobindo.md",
     "bergson": "data/articles/source/bergson.md",
     "caitanya": "data/articles/source/caitanya.md",

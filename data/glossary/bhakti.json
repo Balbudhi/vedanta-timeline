@@ -16,7 +16,7 @@
   "invariant_definition": "*Bhakti* is participatory devotion to a real Lord. Because the root √*bhaj* means to share, partake, or belong-to, the term is wider than 'devotion' in the sense of private feeling. It includes cognition, affect, ritual address, remembrance, praise, service, and self-offering ordered toward Viṣṇu, Kṛṣṇa, Śiva, Devī, or another genuinely divine *iṣṭa-devatā* according to the school. *Bhakti* lives alongside terms such as *upāsanā*, *smaraṇa*, *kīrtana*, *arcana*, *dāsya*, *prema*, and sometimes *prapatti* or *rasa*. The main disputes concern what sort of state it is: preparatory discipline, continuous contemplative remembrance, the soul's abiding relational mode, or the highest end beyond liberation conceived as mere release. In practice it names things one does and undergoes, not just a sentiment one has. Because the deity is real for the traditions that foreground *bhakti*, the term should not be flattened into symbolism or reduced to emotional piety.",
   "school_framing": {
     "framing_status": "same_concept_different_aspect",
-    "shared_core": "*Bhakti* names **the directed, affective-cognitive orientation of the self toward the supreme reality—Bhagavān, Iṣṭa-devatā, or Brahman—as a means and/or end of liberation**. Every theistic school agrees on this structural role (Nārada-Bhakti-Sūtra; *Bhakti-Rasāmṛta-Sindhu* 1.1.11). The schools differ on whether *bhakti* is preparatory (Advaita: *gauṇa-bhakti* under *adhikāra*), constitutive-of-*prapatti* (Viśiṣṭādvaita; Yāmuna, Vedānta Deśika), the *sahakāri* of *jñāna* (Śuddhādvaita), the supreme *puruṣārtha* above *mokṣa* (Gauḍīya; Rūpa Gosvāmī), or one of the *bhāvas* operating in the *liṅga* (Sāṃkhya, *Sāṃkhya-Kārikā* 23).",
+    "shared_core": "*Bhakti* names **the directed, affective-cognitive orientation of the self toward the supreme reality—Bhagavān, Iṣṭa-devatā, or Brahman—as a means and/or end of liberation**. Every theistic school agrees on this structural role (Nārada-Bhakti-Sūtra; *Bhakti-Rasāmṛta-Sindhu* 1.1.11). The schools differ on whether *bhakti* is preparatory (Advaita: *gauṇa-bhakti* under *adhikāra*), constitutive-of-*prapatti* (Viśiṣṭādvaita; Yāmuna, Vedānta Deśika), the *sahakāri* of *jñāna* (Śuddhādvaita), the supreme *puruṣārtha* above *mokṣa* (Gauḍīya; Rūpa Gosvāmī), or one of the *bhāvas* operating in the *liṅga* (Sāṅkhya, *Sāṅkhya-Kārikā* 23).",
     "register_axes_note": "Same structural role; the schools speak in different registers (S/AD/Eth) and to different addressees. Madhusūdana's *Bhakti-Rasāyana* (methodology Case 7) shows that the *jñānin* and the *bhakta* register can co-exist in one author; AF8 — two-register coherence does not collapse the AD vs. S distinction."
   },
   "per_school": [
@@ -172,11 +172,11 @@
       ]
     },
     {
-      "school": "Sāṃkhya",
+      "school": "Sāṅkhya",
       "definition": "NOT-APPLICABLE",
       "primary_loci": [],
       "citations": [],
-      "not_applicable_reason": "In the available Sāṃkhya corpus, mokṣa is tied to tattvajñāna and the late upāsanā notices are ancillary or expressly non-liberating, so there is no developed Sāṃkhya doctrine of bhakti in the present sense."
+      "not_applicable_reason": "In the available Sāṅkhya corpus, mokṣa is tied to tattvajñāna and the late upāsanā notices are ancillary or expressly non-liberating, so there is no developed Sāṅkhya doctrine of bhakti in the present sense."
     },
     {
       "school": "Yoga",

@@ -13,7 +13,7 @@
   ],
   "last_verified_at": "2026-05-10",
   "last_verified_by": "glossary-wave2-codex54",
-  "invariant_definition": "*Anumāna* is cognition generated through a sign-relation rather than direct presentation. Its classical Nyāya form presupposes *pakṣa* (the subject under consideration), *sādhya* (what is to be established), *hetu* or *liṅga* (the inferential mark), and *vyāpti* (invariable concomitance), typically secured through agreement in presence and absence across *sapakṣa* and *vipakṣa* cases. The public five-member form of inference is pedagogical; the deeper issue is what licenses the transition from observed sign to unobserved fact. Navya-Nyāya sharpens this with *avacchedaka* language; Buddhist logic recasts it through *trairūpya*; Vedānta uses it extensively in polemic while denying that *brahman* is inferable as just one more unperceived object. The term therefore belongs to a large inferential apparatus, not merely to 'reasoning' in general. In practice, *anumāna* governs everything from fire-from-smoke cases to anti-Sāṃkhya and anti-Buddhist arguments about causality, selfhood, and scriptural authority.",
+  "invariant_definition": "*Anumāna* is cognition generated through a sign-relation rather than direct presentation. Its classical Nyāya form presupposes *pakṣa* (the subject under consideration), *sādhya* (what is to be established), *hetu* or *liṅga* (the inferential mark), and *vyāpti* (invariable concomitance), typically secured through agreement in presence and absence across *sapakṣa* and *vipakṣa* cases. The public five-member form of inference is pedagogical; the deeper issue is what licenses the transition from observed sign to unobserved fact. Navya-Nyāya sharpens this with *avacchedaka* language; Buddhist logic recasts it through *trairūpya*; Vedānta uses it extensively in polemic while denying that *brahman* is inferable as just one more unperceived object. The term therefore belongs to a large inferential apparatus, not merely to 'reasoning' in general. In practice, *anumāna* governs everything from fire-from-smoke cases to anti-Sāṅkhya and anti-Buddhist arguments about causality, selfhood, and scriptural authority.",
   "school_framing": {
     "framing_status": "same_concept_different_aspect",
     "shared_core": "*Anumāna* names **inferential cognition: cognition of a *sādhya* by means of a *liṅga* whose *vyāpti* with the *sādhya* is established** (*Nyāya-Sūtra* 1.1.5; *Hetu-bindu*). All schools agree on the *liṅga-paramarśa* structure. They differ on the *vyāpti*-grounding (Buddhists: *svabhāva-* and *kārya-hetu* with *tādātmya*/*tad-utpatti*; Nyāya: *sāhacarya* + *upādhi-rāhitya*) and on the number of *avayava*s (Nyāya: 5; Buddhist: 2 or 3).",
@@ -142,27 +142,27 @@
       ]
     },
     {
-      "school": "Sāṃkhya",
-      "definition": "Sāṃkhya accepts three pramāṇas: dṛṣṭa, anumāna, and āptavacana (cite://isvarakrsna/samkhya-karika/4). It defines anumāna as liṅga-liṅgi-pūrvaka and assigns it a specific task in reaching atīndriya objects that are not available to perception (cite://isvarakrsna/samkhya-karika/5 cite://isvarakrsna/samkhya-karika/6). The Sāṃkhya-Sūtra gives the same pramāṇa a tighter logical definition as cognition of the correlated item from apprehended pratibandha (cite://kapila/samkhya-sutra/1.100).",
+      "school": "Sāṅkhya",
+      "definition": "Sāṅkhya accepts three pramāṇas: dṛṣṭa, anumāna, and āptavacana (cite://isvarakrsna/sankhya-karika/4). It defines anumāna as liṅga-liṅgi-pūrvaka and assigns it a specific task in reaching atīndriya objects that are not available to perception (cite://isvarakrsna/sankhya-karika/5 cite://isvarakrsna/sankhya-karika/6). The Sāṅkhya-Sūtra gives the same pramāṇa a tighter logical definition as cognition of the correlated item from apprehended pratibandha (cite://kapila/sankhya-sutra/1.100).",
       "primary_loci": [
-        "Sāṃkhya-Kārikā 4-6",
-        "Sāṃkhya-Sūtra 1.100"
+        "Sāṅkhya-Kārikā 4-6",
+        "Sāṅkhya-Sūtra 1.100"
       ],
       "citations": [
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/4",
+          "cite": "cite://isvarakrsna/sankhya-karika/4",
           "locus_short": "SK 4"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/5",
+          "cite": "cite://isvarakrsna/sankhya-karika/5",
           "locus_short": "SK 5"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/6",
+          "cite": "cite://isvarakrsna/sankhya-karika/6",
           "locus_short": "SK 6"
         },
         {
-          "cite": "cite://kapila/samkhya-sutra/1.100",
+          "cite": "cite://kapila/sankhya-sutra/1.100",
           "locus_short": "SS 1.100"
         }
       ]

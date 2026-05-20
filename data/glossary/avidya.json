@@ -166,24 +166,24 @@
       ]
     },
     {
-      "school": "Sāṃkhya",
-      "definition": "In Sāṃkhya, the operative equivalent of `avidyā` is `viparyaya` or `ajñāna`: bondage is opposed to `tattvajñāna`, and the commentary on Kārikā 44 glosses this contrary cognition as the self-misidentification \"I am admirable, I am the enjoyer,\" by which one binds oneself into embodied existence (cite://isvarakrsna/samkhya-karika/44, cite://isvarakrsna/samkhya-karika-with-commentary/44--viparyaya-as-ajñana). The Sāṃkhya-Sūtra tradition makes the point polemically explicit by denying that bondage can arise from `avidyā` as a distinct non-real factor, so the school's explanatory burden falls on false identification and its removal by discriminative knowledge rather than on an `avidyā`-substance (cite://kapila/samkhya-sutra/1.20--na-avidyato-py-avastuna-bandhayogat).",
+      "school": "Sāṅkhya",
+      "definition": "In Sāṅkhya, the operative equivalent of `avidyā` is `viparyaya` or `ajñāna`: bondage is opposed to `tattvajñāna`, and the commentary on Kārikā 44 glosses this contrary cognition as the self-misidentification \"I am admirable, I am the enjoyer,\" by which one binds oneself into embodied existence (cite://isvarakrsna/sankhya-karika/44, cite://isvarakrsna/sankhya-karika-with-commentary/44--viparyaya-as-ajñana). The Sāṅkhya-Sūtra tradition makes the point polemically explicit by denying that bondage can arise from `avidyā` as a distinct non-real factor, so the school's explanatory burden falls on false identification and its removal by discriminative knowledge rather than on an `avidyā`-substance (cite://kapila/sankhya-sutra/1.20--na-avidyato-py-avastuna-bandhayogat).",
       "primary_loci": [
-        "Sāṃkhya-Kārikā 44",
-        "Sāṃkhya-Kārikā commentary on 44",
-        "Sāṃkhya-Sūtra 1.20"
+        "Sāṅkhya-Kārikā 44",
+        "Sāṅkhya-Kārikā commentary on 44",
+        "Sāṅkhya-Sūtra 1.20"
       ],
       "citations": [
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/44",
+          "cite": "cite://isvarakrsna/sankhya-karika/44",
           "locus_short": "SK 44"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika-with-commentary/44--viparyaya-as-ajñana",
+          "cite": "cite://isvarakrsna/sankhya-karika-with-commentary/44--viparyaya-as-ajñana",
           "locus_short": "SKK 44"
         },
         {
-          "cite": "cite://kapila/samkhya-sutra/1.20--na-avidyato-py-avastuna-bandhayogat",
+          "cite": "cite://kapila/sankhya-sutra/1.20--na-avidyato-py-avastuna-bandhayogat",
           "locus_short": "SS 1.20"
         }
       ]

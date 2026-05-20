@@ -38,7 +38,7 @@ Sub-axes:
 - **Status of individual selves** (numerically distinct? merely apparently distinct? eternally distinct *aṃśa*-s?)
 - **Modal status of difference itself** (is *bheda* a positive entity or a *vyāvṛtti* — exclusion?)
 
-Cross-engagement: Gaudapada (Samkhya commentator) takes the temporal mode axis to a different commitment — `substance-primary` at [primary text](cite://isvara-krsna/samkhya-karika/1) against `process-primary` here.
+Cross-engagement: Gaudapada (Sankhya commentator) takes the temporal mode axis to a different commitment — `substance-primary` at [primary text](cite://isvara-krsna/sankhya-karika/1) against `process-primary` here.
 
 ### 2. Causation — relation between Brahman and world
 

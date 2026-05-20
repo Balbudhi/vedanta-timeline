@@ -9,11 +9,11 @@
     "asatva",
     "asad-rupa"
   ],
-  "invariant_definition": "Non-being in the strict sense: what has no ontological standing and no possibility of manifestation, the stock examples being the barren woman's son, the sky-flower, and the hare's horn. The term matters not only as a negative label but inside causal debates. Sāṃkhya and Vedānta argue that a real effect cannot arise from sheer *asat*; Nyāya and Vaiśeṣika preserve the *sat*/*asat* binary while explaining production through prior absence rather than pre-existent effect. Advaita adds a further caution: the world is not *asat*. It appears, supports transaction, and is later sublated; that is why the school needs *mithyā* instead of collapsing appearance into sheer non-being. Any translation that turns *asat* into a vague 'unreal' risks erasing this entire three-way distinction among the real, the sublatable, and the absolutely non-existent.",
+  "invariant_definition": "Non-being in the strict sense: what has no ontological standing and no possibility of manifestation, the stock examples being the barren woman's son, the sky-flower, and the hare's horn. The term matters not only as a negative label but inside causal debates. Sāṅkhya and Vedānta argue that a real effect cannot arise from sheer *asat*; Nyāya and Vaiśeṣika preserve the *sat*/*asat* binary while explaining production through prior absence rather than pre-existent effect. Advaita adds a further caution: the world is not *asat*. It appears, supports transaction, and is later sublated; that is why the school needs *mithyā* instead of collapsing appearance into sheer non-being. Any translation that turns *asat* into a vague 'unreal' risks erasing this entire three-way distinction among the real, the sublatable, and the absolutely non-existent.",
   "school_framing": {
     "framing_status": "mixed",
-    "shared_core": "*Asat* names **what is excluded from *sat* under the criterion the school imposes on being**. Advaita treats *asat* strictly (the rabbit's horn, *vandhyā-putra*: what cannot even appear), so the world is *mithyā* and not *asat* (BSB 2.1.14). Sāṃkhya excludes *asat* from causal production altogether (*nāsato vidyate bhāvaḥ*; *Sāṃkhya-Kārikā* 9). Tattva-vāda allows only the *sat*/*asat* binary and locates *mithyātva* under *asat*-equivalent (*Mithyātvānumāna-Khaṇḍana*).",
-    "register_axes_note": "**Real disagreement** (AF1) on whether the *sat*/*asat* binary is exhaustive: Advaita inserts *anirvacanīya* between them; Tattva-vāda denies the third. Same M+LD register, same scope-inside, opposing claims. Sāṃkhya's use is principally causal-modal (what can be produced), not ontological-classificatory — a register-difference from the Advaita/Tattva-vāda contest."
+    "shared_core": "*Asat* names **what is excluded from *sat* under the criterion the school imposes on being**. Advaita treats *asat* strictly (the rabbit's horn, *vandhyā-putra*: what cannot even appear), so the world is *mithyā* and not *asat* (BSB 2.1.14). Sāṅkhya excludes *asat* from causal production altogether (*nāsato vidyate bhāvaḥ*; *Sāṅkhya-Kārikā* 9). Tattva-vāda allows only the *sat*/*asat* binary and locates *mithyātva* under *asat*-equivalent (*Mithyātvānumāna-Khaṇḍana*).",
+    "register_axes_note": "**Real disagreement** (AF1) on whether the *sat*/*asat* binary is exhaustive: Advaita inserts *anirvacanīya* between them; Tattva-vāda denies the third. Same M+LD register, same scope-inside, opposing claims. Sāṅkhya's use is principally causal-modal (what can be produced), not ontological-classificatory — a register-difference from the Advaita/Tattva-vāda contest."
   },
   "per_school": [
     {
@@ -26,10 +26,10 @@
       "register_tag": "M+LD; mumukṣu"
     },
     {
-      "school": "Sāṃkhya",
+      "school": "Sāṅkhya",
       "definition": "*Asat* cannot generate a real effect. The classic *asad-akaraṇāt* argument denies production from sheer non-being and thereby grounds *sat-kārya-vāda*. What appears in production must already exist in causal form; otherwise causation would be unintelligible.",
       "primary_loci": [
-        "Sāṃkhya-Kārikā 9"
+        "Sāṅkhya-Kārikā 9"
       ],
       "register_tag": "M+C; mumukṣu (causal-modal use)"
     },

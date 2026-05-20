@@ -63,7 +63,7 @@ After that he held the George V Professorship of Mental and Moral Philosophy at 
 That is already enough to locate him.
 He belongs to the generation for whom the university had become the new scholastic arena.
 The Sanskrit *tol* had not vanished.
-But the place where one encountered Kant, Hegel, Bradley, Bosanquet, and Husserl while still reading Śaṅkara, Sāṃkhya, Yoga, and the Jainas as living philosophy was the late-colonial university.
+But the place where one encountered Kant, Hegel, Bradley, Bosanquet, and Husserl while still reading Śaṅkara, Sāṅkhya, Yoga, and the Jainas as living philosophy was the late-colonial university.
 KCB is one of the clearest products of that world.
 He is neither a "traditional pandit" in the crude sociological sense nor a derivative Anglicized academic.
 He is what the Bengali philosophical renaissance made possible at its strongest.
@@ -126,7 +126,7 @@ That phrase, "Swaraj in Ideas," should not be reduced to cultural nationalism in
 It does not mean provincial closure.
 It means intellectual adulthood.
 It means that one does not cite Kant or Hegel or Bradley as metropolitan guarantors.
-It also means that one does not cite Śaṅkara or the Jainas or Sāṃkhya in a merely antiquarian spirit.
+It also means that one does not cite Śaṅkara or the Jainas or Sāṅkhya in a merely antiquarian spirit.
 One reads them all as live possibilities.
 This article tries to do something of that sort because it has no choice.
 The topic itself sits at the border of Kant, Hegel, KCB, Aurobindo, and the Jainas.
@@ -2070,7 +2070,7 @@ The reading sequence below is designed for exactly that.
 
 Start with *Studies in Philosophy* I.
 This is not because it is easier.
-It is because the constructive interpretations of Vedānta, Sāṃkhya, Yoga, and the Jainas give the method in action.
+It is because the constructive interpretations of Vedānta, Sāṅkhya, Yoga, and the Jainas give the method in action.
 One sees KCB thinking through another tradition rather than declaiming his own system.
 The early sections of *Studies in Vedantism* show the interpretive method.
 The essay on Śaṅkara's doctrine of *māyā* gives the *bhāva-rūpa* and *anirvacanīya* resources.

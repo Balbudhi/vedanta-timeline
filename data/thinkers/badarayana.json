@@ -32,7 +32,7 @@
     {
       "thinker_id": "patanjali",
       "direction": "refutes",
-      "note": "Brahma-Sūtra 2.1.3 (etena yogaḥ pratyuktaḥ) extends the previous adhikaraṇa's Sāṃkhya-refutation to Yoga, on the grounds that Yoga shares the Sāṃkhya pradhāna-kāraṇa-vāda."
+      "note": "Brahma-Sūtra 2.1.3 (etena yogaḥ pratyuktaḥ) extends the previous adhikaraṇa's Sāṅkhya-refutation to Yoga, on the grounds that Yoga shares the Sāṅkhya pradhāna-kāraṇa-vāda."
     },
     {
       "thinker_id": "lakulisha",
@@ -119,7 +119,7 @@
   "last_verified_by": "wave-rigor-opus",
   "polemic_chain_ids": [
     "brahma-sutra-bhasya-buddhism-refutation",
-    "brahma-sutra-bhasya-samkhya-refutation",
+    "brahma-sutra-bhasya-sankhya-refutation",
     "brahma-sutra-bhasya-vaisesika-refutation"
   ],
   "primitive_commitments": [

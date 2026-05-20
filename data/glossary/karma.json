@@ -19,7 +19,7 @@
   "school_framing": {
     "framing_status": "same_concept_different_aspect",
     "shared_core": "All schools that retain the *śabda* *karma* mean **action together with the residual efficacy by which it links agent, cause, and later result**. The grammar is Pāṇinian (the *kāraka* role *karman* fixes 'that which is acted upon'); the metaphysical extension is the action-trace-fruition triad. Schools then differ on (i) the carrier of residual efficacy (*apūrva*, *adṛṣṭa*, *vāsanā*, *karma-pudgala*, *kārma-mala*), (ii) whether agency belongs to *puruṣa* or to *prakṛti*/*citta*/Śiva-*śakti*, and (iii) whether *karma* itself or *jñāna*/*bhakti*/*śūnyatā* removes bondage.",
-    "register_axes_note": "Mīmāṃsā speaks in RN+SL; Advaita and Viśiṣṭādvaita in S+E; Sāṃkhya in C+S; Buddhism in Φ+S without an enduring agent; Jainism gives *karma* a partially *different concept* (literal material *pudgala* adhering to the *jīva*). Where schools share the same register and scope (e.g., whether *karma* can directly produce *mokṣa*), the disagreement is real (Mīmāṃsā vs. Advaita on *jñāna-karma-samuccaya*; AF1)."
+    "register_axes_note": "Mīmāṃsā speaks in RN+SL; Advaita and Viśiṣṭādvaita in S+E; Sāṅkhya in C+S; Buddhism in Φ+S without an enduring agent; Jainism gives *karma* a partially *different concept* (literal material *pudgala* adhering to the *jīva*). Where schools share the same register and scope (e.g., whether *karma* can directly produce *mokṣa*), the disagreement is real (Mīmāṃsā vs. Advaita on *jñāna-karma-samuccaya*; AF1)."
   },
   "per_school": [
     {
@@ -127,24 +127,24 @@
       "citations": []
     },
     {
-      "school": "Sāṃkhya",
-      "definition": "*Karma* in Sāṃkhya is absorbed into the economy of the *liṅga* and its *bhāvas*: the subtle body transmigrates as permeated by dispositions, while *dharma* and cognate states are counted among the operative *bhāvas* rooted in the internal apparatus [[SK 40](cite://isvarakrsna/samkhya-karika/40)] [[SK 43](cite://isvarakrsna/samkhya-karika/43)]. The vertical ordering of rebirth is then specified through *dharma* and *adharma*: the former carries one upward, the latter downward, whereas bondage persists through *viparyaya* and ceases only through *jñāna* [[SK 44](cite://isvarakrsna/samkhya-karika/44)]. Accordingly, karmic efficacy belongs to prakṛti's saṃsāric machinery rather than to *puruṣa*, whose liberation is the result of discriminative knowledge rather than of action as such [[SK 40](cite://isvarakrsna/samkhya-karika/40)] [[SK 44](cite://isvarakrsna/samkhya-karika/44)].",
+      "school": "Sāṅkhya",
+      "definition": "*Karma* in Sāṅkhya is absorbed into the economy of the *liṅga* and its *bhāvas*: the subtle body transmigrates as permeated by dispositions, while *dharma* and cognate states are counted among the operative *bhāvas* rooted in the internal apparatus [[SK 40](cite://isvarakrsna/sankhya-karika/40)] [[SK 43](cite://isvarakrsna/sankhya-karika/43)]. The vertical ordering of rebirth is then specified through *dharma* and *adharma*: the former carries one upward, the latter downward, whereas bondage persists through *viparyaya* and ceases only through *jñāna* [[SK 44](cite://isvarakrsna/sankhya-karika/44)]. Accordingly, karmic efficacy belongs to prakṛti's saṃsāric machinery rather than to *puruṣa*, whose liberation is the result of discriminative knowledge rather than of action as such [[SK 40](cite://isvarakrsna/sankhya-karika/40)] [[SK 44](cite://isvarakrsna/sankhya-karika/44)].",
       "primary_loci": [
-        "Sāṃkhya-Kārikā 40",
-        "Sāṃkhya-Kārikā 43",
-        "Sāṃkhya-Kārikā 44"
+        "Sāṅkhya-Kārikā 40",
+        "Sāṅkhya-Kārikā 43",
+        "Sāṅkhya-Kārikā 44"
       ],
       "citations": [
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/40",
+          "cite": "cite://isvarakrsna/sankhya-karika/40",
           "locus_short": "SK 40"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/43",
+          "cite": "cite://isvarakrsna/sankhya-karika/43",
           "locus_short": "SK 43"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/44",
+          "cite": "cite://isvarakrsna/sankhya-karika/44",
           "locus_short": "SK 44"
         }
       ],

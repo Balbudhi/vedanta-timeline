@@ -16,7 +16,7 @@ Cross-engagement: against Abhinavagupta: `sublatable-not-null` rather than `expr
 
 ### The Place: The Indian Philosophical Renaissance
 
-KCB belongs to the Indian philosophical renaissance that treated Kant, Hegel, Bradley, and Husserl as live interlocutors while equally treating Śaṅkara, the Jainas, Sāṃkhya, Yoga, and Vedānta as live philosophy. He sits near the apex of that project, and *The Subject as Freedom* enacts "Swaraj in Ideas" by thinking from sovereign categories rather than citation-dependent mimicry.
+KCB belongs to the Indian philosophical renaissance that treated Kant, Hegel, Bradley, and Husserl as live interlocutors while equally treating Śaṅkara, the Jainas, Sāṅkhya, Yoga, and Vedānta as live philosophy. He sits near the apex of that project, and *The Subject as Freedom* enacts "Swaraj in Ideas" by thinking from sovereign categories rather than citation-dependent mimicry.
 
 Cross-engagement: Arthur Schopenhauer takes the identity relation axis to a different commitment — `self-expression-or-appearance` at [primary text](cite://schopenhauer/the-world-as-will-and-representation/1.1) against `non-otherness` here.
 
@@ -28,7 +28,7 @@ Cross-engagement: on the selfhood structure axis, Adi Sankara commits to `witnes
 
 ### The Central Thread
 
-KCB's central thread is simple: consciousness is freedom from object. That governs *The Subject as Freedom*, his Vedānta essays, his Sāṃkhya reconstruction, and even "Swaraj in Ideas." Around it cluster three load-bearing moves for this project: the graded ascent through bodily, psychic, and spiritual subjectivity; the trinal or alternative absolutes of truth, freedom, and value; and the anti-capture argument that cultural domination happens when alien categories silently supersede one's own.
+KCB's central thread is simple: consciousness is freedom from object. That governs *The Subject as Freedom*, his Vedānta essays, his Sāṅkhya reconstruction, and even "Swaraj in Ideas." Around it cluster three load-bearing moves for this project: the graded ascent through bodily, psychic, and spiritual subjectivity; the trinal or alternative absolutes of truth, freedom, and value; and the anti-capture argument that cultural domination happens when alien categories silently supersede one's own.
 
 Cross-engagement: Anandabodha's reading at [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352) fills the finite cognition axis with `positive-ignorance`. The present section fills it with `adhyasa-or-superimposition`.
 
@@ -145,7 +145,7 @@ Three points matter before leaving Part I. The treatise is uncited, enacting the
 
 ## Part II — *Studies in Philosophy* Vol I
 
-Vol I gathers KCB's tradition-specific reconstructions: Vedānta, Sāṃkhya, Yoga, and Jaina *anekānta*. What unites them is one method: let a system state its strongest claim, then track what survives reflective cancellation. The sections below keep only the parts most load-bearing for the user's thesis.
+Vol I gathers KCB's tradition-specific reconstructions: Vedānta, Sāṅkhya, Yoga, and Jaina *anekānta*. What unites them is one method: let a system state its strongest claim, then track what survives reflective cancellation. The sections below keep only the parts most load-bearing for the user's thesis.
 
 ### Vedānta: The Method of Constructive Interpretation
 
@@ -213,9 +213,9 @@ Two more pages from the same essay matter for the user's methodological discipli
 
 The first sentence states KCB's "absolute relativity" doctrine: that truth is relative to the spiritual status of the knower, but that this relativity is itself absolute. This is *not* relativism. It is the realist recognition that there are different *adhikāras* (different audiences, different stages of spiritual realization), and that what is true *for a given adhikāra* is genuinely true and is not constructed by the individual but cosmically determined. The user's methodological principle 1 (*adhikāra*: persons not interchangeable; statements must be read for both truth-value and audience-fit) and methodological principle 3 (standpoint discipline) are KCB's exact philosophical commitments. The second sentence makes the further point that *adhikāra* is itself a form of spiritual realism: to know one's actual standpoint is to be a realist *in* the spiritual sphere, not merely in the natural sphere.
 
-### Sāṃkhya: Reflection as the Beginning of Freedom
+### Sāṅkhya: Reflection as the Beginning of Freedom
 
-KCB's Sāṃkhya tracts (*Studies in Sāṃkhya Philosophy*, including the chapters "Pain as Evil" and "Reflection as Spiritual Function") perform one of the most original reconstructions of a classical Indian system in twentieth-century philosophy. The opening claim:
+KCB's Sāṅkhya tracts (*Studies in Sāṅkhya Philosophy*, including the chapters "Pain as Evil" and "Reflection as Spiritual Function") perform one of the most original reconstructions of a classical Indian system in twentieth-century philosophy. The opening claim:
 
 > "Indian philosophy starts with the belief in the attainability of mukti. Mukti, whatever else it implies, is understood as absolute freedom from pain." (*Studies* I, p. 135)
 
@@ -223,15 +223,15 @@ KCB then develops a phenomenology of pain. Reflection on pain immediately genera
 
 The most consequential single line:
 
-> "Reflection or knowledge is at no stage to Samkhya a sadhana or means to freedom but is the beginning of freedom." (*Studies* I, p. 141)
+> "Reflection or knowledge is at no stage to Sankhya a sadhana or means to freedom but is the beginning of freedom." (*Studies* I, p. 141)
 
 Reflection *is* freedom-in-its-beginning. Not a means to freedom. Not a discipline that produces freedom. The very reflective movement itself is the first lighting-up of the freedom that becomes complete in *kaivalya*. This is a genuinely radical formulation, and it bears on T11: subjectivity-as-freedom-from-object is not a goal to be reached but a structure already operative wherever there is reflective consciousness. Reflection is freedom in its first phenomenological form.
 
-The contrast between Sāṃkhya and Yoga that KCB draws in "Reflection as Spiritual Function" sharpens this further:
+The contrast between Sāṅkhya and Yoga that KCB draws in "Reflection as Spiritual Function" sharpens this further:
 
-> "The freeing movement of reflection... to Yoga it is a strain or effort... while to Samkhya it is absolute spontaneity continuous with the flow of life." (*Studies* I, p. 145)
+> "The freeing movement of reflection... to Yoga it is a strain or effort... while to Sankhya it is absolute spontaneity continuous with the flow of life." (*Studies* I, p. 145)
 
-Sāṃkhya: reflection as spontaneous, continuous with the flow of life. Yoga: reflection as effort, as discipline. KCB: "Samkhya so presents a religion of spiritual naturalness or reflective spontaneity" (p. 130). For the user's T8 (sākṣi-caitanya, lawful unfolding rather than pramāṇa-caitanya as epistemic-bully mastery), the Sāṃkhya formulation gives the philosophical articulation of right action as *spontaneous lawful unfolding* rather than effortful mastery. The witness consciousness is not laboriously constructed; it is the spontaneous reflective movement of life itself, recognized as such.
+Sāṅkhya: reflection as spontaneous, continuous with the flow of life. Yoga: reflection as effort, as discipline. KCB: "Sankhya so presents a religion of spiritual naturalness or reflective spontaneity" (p. 130). For the user's T8 (sākṣi-caitanya, lawful unfolding rather than pramāṇa-caitanya as epistemic-bully mastery), the Sāṅkhya formulation gives the philosophical articulation of right action as *spontaneous lawful unfolding* rather than effortful mastery. The witness consciousness is not laboriously constructed; it is the spontaneous reflective movement of life itself, recognized as such.
 
 ### Yoga: Surrender of the Willing Itself
 
@@ -267,7 +267,7 @@ This is also where KCB's anti-Hegelianism is at its most philosophically discipl
 
 ### Summary of Vol I's Contribution
 
-Vol I gives five things in one place: constructive-interpretive license, the decisive *mithyā ≠ asat* formulation, the *bhāva-rūpa anirvacanīya* analysis of illusion, the Sāṃkhya account of reflection as the beginning of freedom, and the Jaina realism of alternative truths. It does not deliver the full T7 or the *vijñāna* landing, but it gives the philosophical climb on which both depend.
+Vol I gives five things in one place: constructive-interpretive license, the decisive *mithyā ≠ asat* formulation, the *bhāva-rūpa anirvacanīya* analysis of illusion, the Sāṅkhya account of reflection as the beginning of freedom, and the Jaina realism of alternative truths. It does not deliver the full T7 or the *vijñāna* landing, but it gives the philosophical climb on which both depend.
 
 ---
 
@@ -541,7 +541,7 @@ Three further confirmations deserve to be made explicit.
 
 **Swaraj — anti-capture.** "Swaraj in Ideas" gives the diagnostic vocabulary: ghost-possession, supersession without comparison or competition, hybrid sterility, the non-nativist proviso.
 
-**T8 — *Sākṣi-caitanya* as lawful unfolding.** The Sāṃkhya reconstruction — "Reflection or knowledge is at no stage to Samkhya a sadhana or means to freedom but is the beginning of freedom" (*Studies* I, p. 141) — gives the philosophical articulation of right action as spontaneous lawful unfolding.
+**T8 — *Sākṣi-caitanya* as lawful unfolding.** The Sāṅkhya reconstruction — "Reflection or knowledge is at no stage to Sankhya a sadhana or means to freedom but is the beginning of freedom" (*Studies* I, p. 141) — gives the philosophical articulation of right action as spontaneous lawful unfolding.
 
 **Plural absolutes as methodological protection.** The trinal absolute does more than multiply options. It protects the comparative philosopher from allowing one preferred grammar to become covertly universal. For the user's thesis that is methodologically decisive.
 
@@ -579,4 +579,4 @@ That final combination also explains why KCB remains so teachable. One can enter
 
 ### Recommended Reading Sequence
 
-(1) *The Subject as Freedom* (1930) — Bhushan-Garfield Oxford 2025 edition; (2) "Swaraj in Ideas" (1928); (3) *Studies* Vol I "Sankara's Doctrine of Maya" and "The Advaita and its Spiritual Significance"; (4) *Studies* Vol II "Concept of the Absolute and its Alternative Forms" (CAAF); (5) *Studies* Vol I Sāṃkhya tracts and "The Jaina Theory of Anekānta"; (6) *Studies in Vedantism* (1909); (7) *Studies* Vol II logical-methodological tracts; (8) *Studies in Kant*. Items 1–5 are core.
+(1) *The Subject as Freedom* (1930) — Bhushan-Garfield Oxford 2025 edition; (2) "Swaraj in Ideas" (1928); (3) *Studies* Vol I "Sankara's Doctrine of Maya" and "The Advaita and its Spiritual Significance"; (4) *Studies* Vol II "Concept of the Absolute and its Alternative Forms" (CAAF); (5) *Studies* Vol I Sāṅkhya tracts and "The Jaina Theory of Anekānta"; (6) *Studies in Vedantism* (1909); (7) *Studies* Vol II logical-methodological tracts; (8) *Studies in Kant*. Items 1–5 are core.

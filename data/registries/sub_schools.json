@@ -227,7 +227,7 @@
     "display_name": "Avibhāga-Advaita",
     "parent_school_color_token": "avibhaga",
     "shade": 3,
-    "short_description": "Vijñānabhikṣu's harmonizing Vedānta + Sāṃkhya + Yoga thesis: Brahman and world are inseparable (avibhāga) yet not numerically identical.",
+    "short_description": "Vijñānabhikṣu's harmonizing Vedānta + Sāṅkhya + Yoga thesis: Brahman and world are inseparable (avibhāga) yet not numerically identical.",
     "representative_thinker_ids": ["vijnanabhiksu"]
   },
   "proto-vedanta-sutra-author": {
@@ -307,25 +307,25 @@
     "short_description": "Bhartṛhari's grammarian thesis that Brahman is essentially śabda; influences Maṇḍana but is not Vedāntic proper.",
     "representative_thinker_ids": ["bhartrhari"]
   },
-  "samkhya-classical": {
-    "display_name": "Classical Sāṃkhya",
-    "parent_school_color_token": "samkhya-comparator",
+  "sankhya-classical": {
+    "display_name": "Classical Sāṅkhya",
+    "parent_school_color_token": "sankhya-comparator",
     "shade": 3,
-    "short_description": "Īśvarakṛṣṇa's Sāṃkhya-Kārikā: the canonical statement of the twenty-five tattvas, satkārya-vāda, and the three guṇas as constitutive of prakṛti.",
+    "short_description": "Īśvarakṛṣṇa's Sāṅkhya-Kārikā: the canonical statement of the twenty-five tattvas, satkārya-vāda, and the three guṇas as constitutive of prakṛti.",
     "representative_thinker_ids": ["isvara-krsna"]
   },
-  "samkhya-classical-commentarial": {
-    "display_name": "Classical Sāṃkhya commentarial",
-    "parent_school_color_token": "samkhya-comparator",
+  "sankhya-classical-commentarial": {
+    "display_name": "Classical Sāṅkhya commentarial",
+    "parent_school_color_token": "sankhya-comparator",
     "shade": 2,
-    "short_description": "The early commentary stratum on the Sāṃkhya-Kārikā (Gauḍapāda's Bhāṣya) that fixes the school's reading of the kārikās.",
-    "representative_thinker_ids": ["gaudapada-samkhya"]
+    "short_description": "The early commentary stratum on the Sāṅkhya-Kārikā (Gauḍapāda's Bhāṣya) that fixes the school's reading of the kārikās.",
+    "representative_thinker_ids": ["gaudapada-sankhya"]
   },
-  "yoga-samkhya-synthesis": {
-    "display_name": "Yoga-Sāṃkhya synthesis",
+  "yoga-sankhya-synthesis": {
+    "display_name": "Yoga-Sāṅkhya synthesis",
     "parent_school_color_token": "yoga-comparator",
     "shade": 4,
-    "short_description": "Vyāsa's Yoga-Sūtra-Bhāṣya: Sāṃkhya metaphysics held within the Pātañjala-Yoga frame, with īśvara as a special puruṣa untouched by kleśa-karma-vipāka-āśaya.",
+    "short_description": "Vyāsa's Yoga-Sūtra-Bhāṣya: Sāṅkhya metaphysics held within the Pātañjala-Yoga frame, with īśvara as a special puruṣa untouched by kleśa-karma-vipāka-āśaya.",
     "representative_thinker_ids": ["vyasa-bhasya"]
   },
   "aksapada-nyaya": {

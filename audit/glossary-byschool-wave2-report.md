@@ -48,14 +48,14 @@ and disagree at the M+S register on whether *prārabdha* can sustain a fully
 realized body. The disagreement is `[REAL-DISAGREEMENT]` per AF1, but the
 *concept* is shared — not two unrelated technical terms.
 
-### `kaivalya` — Sāṃkhya / Advaita / Viśiṣṭādvaita / Gauḍīya now framed under
+### `kaivalya` — Sāṅkhya / Advaita / Viśiṣṭādvaita / Gauḍīya now framed under
 a shared structural role
 
 The previous BY-SCHOOL display read as four independent religious end-states.
 The audit identifies the shared structural role ("non-returning condition in
 which the structures that sustain saṃsāric agency no longer bind") and tags the
-Advaita-Sāṃkhya disagreement as a `[REAL-DISAGREEMENT]` on the *content* of
-that state (Sāṃkhya: *puruṣa-isolation* with no *Īśvara* role; Advaita:
+Advaita-Sāṅkhya disagreement as a `[REAL-DISAGREEMENT]` on the *content* of
+that state (Sāṅkhya: *puruṣa-isolation* with no *Īśvara* role; Advaita:
 *jīva-brahman-aikya*). Viśiṣṭādvaita and Acintya-Bhedābheda's ranking
 *kaivalya* as lower than *prema-mukti* is tagged separately as a
 `[REAL-DISAGREEMENT]` on the *ranking* of *mukti*-modes, not on what *kaivalya*
@@ -99,7 +99,7 @@ Tagged inline within each `register_tag` field with `[REAL-DISAGREEMENT ...]`:
   and on the scope of attribute-denial
 - `isvara`, `bhagavan` — *pāramārthikatva* vs. *vyāvahārikatva* contest
 - `sakti` — Trika *svātantrya-śakti* vs. Tattva-vāda *bheda*-related *śakti*
-- `kaivalya` — multi-way: Advaita vs. Sāṃkhya (no *Īśvara*) vs.
+- `kaivalya` — multi-way: Advaita vs. Sāṅkhya (no *Īśvara*) vs.
   Acintya-Bhedābheda (*prema > kaivalya*)
 - `jivanmukta`, `videhamukti` — Tattva-vāda denies *jīvanmukti* possibility
 - `mahavakya` — entire term marked `real_disagreement`
@@ -121,11 +121,11 @@ the primary-text basis was not on disk in this worktree:
   entries cite *Vedāntic* commentary on Brahman's *śakti* without isolating a
   *śakti*-specific register beyond the M+S baseline; left untagged for honesty
   per AF7)
-- `buddhi`, `manas`, `citta`, `amsa` — 11 of 16 schools each (Sāṃkhya, Yoga,
+- `buddhi`, `manas`, `citta`, `amsa` — 11 of 16 schools each (Sāṅkhya, Yoga,
   Nyāya-Vaiśeṣika, Pūrva-Mīmāṃsā, Mādhyamaka, Yogācāra, Pratyabhijñā, Jainism,
   Pāṇinian-Vaiyākaraṇa); register-pattern is shared but distinct primary-text
   citations were not freshly audited in this pass
-- `syad-vada` — Sāṃkhya / Yoga / Buddhist / Vaiyākaraṇa slots (entry uses these
+- `syad-vada` — Sāṅkhya / Yoga / Buddhist / Vaiyākaraṇa slots (entry uses these
   schools only obliquely; left untagged)
 
 These are queued for Wave 3 along with the remaining 80+ untouched terms.
@@ -138,7 +138,7 @@ These are queued for Wave 3 along with the remaining 80+ untouched terms.
 - AF2: no primary-text paraphrase from memory. Where the entry's existing
   primary-text citations did not directly underwrite the register-claim, the
   `register_tag` was withheld rather than fabricated.
-- AF3: Advaita vs. Tattva-vāda, Bhāskara vs. Nimbārka, Sāṃkhya vs. Advaita,
+- AF3: Advaita vs. Tattva-vāda, Bhāskara vs. Nimbārka, Sāṅkhya vs. Advaita,
   Mādhyamaka vs. Vedānta — disagreements preserved.
 - AF4: cross-tradition mappings (Mahāyāna *upāya-kauśalya* vs. Vedāntic
   *upāya*; KCB's affinity with *syādvāda*) flagged as different-concept or

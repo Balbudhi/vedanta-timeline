@@ -182,24 +182,24 @@
       ]
     },
     {
-      "school": "Sāṃkhya",
-      "definition": "Classical Sāṃkhya does not give Viṣṇu a doctrinal role; its nearest analogue is the rejected hypothesis of Īśvara [[SS 1.92](cite://kapila/samkhya-sutra/1.92)]. The *Sāṃkhya-Sūtra* says both that the fruition of results does not depend on an Īśvara-overseer because karma itself suffices, and that Īśvara is not established for lack of pramāṇa [[SS 5.2](cite://kapila/samkhya-sutra/5.2)] [[SS 5.10](cite://kapila/samkhya-sutra/5.10)].",
+      "school": "Sāṅkhya",
+      "definition": "Classical Sāṅkhya does not give Viṣṇu a doctrinal role; its nearest analogue is the rejected hypothesis of Īśvara [[SS 1.92](cite://kapila/sankhya-sutra/1.92)]. The *Sāṅkhya-Sūtra* says both that the fruition of results does not depend on an Īśvara-overseer because karma itself suffices, and that Īśvara is not established for lack of pramāṇa [[SS 5.2](cite://kapila/sankhya-sutra/5.2)] [[SS 5.10](cite://kapila/sankhya-sutra/5.10)].",
       "primary_loci": [
-        "Sāṃkhya-Sūtra 1.92",
-        "Sāṃkhya-Sūtra 5.2",
-        "Sāṃkhya-Sūtra 5.10"
+        "Sāṅkhya-Sūtra 1.92",
+        "Sāṅkhya-Sūtra 5.2",
+        "Sāṅkhya-Sūtra 5.10"
       ],
       "citations": [
         {
-          "cite": "cite://kapila/samkhya-sutra/1.92",
+          "cite": "cite://kapila/sankhya-sutra/1.92",
           "locus_short": "SS 1.92"
         },
         {
-          "cite": "cite://kapila/samkhya-sutra/5.2",
+          "cite": "cite://kapila/sankhya-sutra/5.2",
           "locus_short": "SS 5.2"
         },
         {
-          "cite": "cite://kapila/samkhya-sutra/5.10",
+          "cite": "cite://kapila/sankhya-sutra/5.10",
           "locus_short": "SS 5.10"
         }
       ]

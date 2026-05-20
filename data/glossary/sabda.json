@@ -188,24 +188,24 @@
       ]
     },
     {
-      "school": "Sāṃkhya",
-      "definition": "Sāṃkhya admits three pramāṇas, and the third is *āptavacana* alongside perception and inference [[SK 4](cite://isvarakrsna/samkhya-karika/4)]. Kārikā 5 glosses this third source as *āptaśruti* or *āptavacana*, so verbal cognition enters the system as authoritative transmission rather than as a separate theory of linguistic manifestation [[SK 5](cite://isvarakrsna/samkhya-karika/5)]. It is especially required for what remains *parokṣa* and *atīndriya* even after inference, which the text says is to be established from *āptāgama* [[SK 6](cite://isvarakrsna/samkhya-karika/6)].",
+      "school": "Sāṅkhya",
+      "definition": "Sāṅkhya admits three pramāṇas, and the third is *āptavacana* alongside perception and inference [[SK 4](cite://isvarakrsna/sankhya-karika/4)]. Kārikā 5 glosses this third source as *āptaśruti* or *āptavacana*, so verbal cognition enters the system as authoritative transmission rather than as a separate theory of linguistic manifestation [[SK 5](cite://isvarakrsna/sankhya-karika/5)]. It is especially required for what remains *parokṣa* and *atīndriya* even after inference, which the text says is to be established from *āptāgama* [[SK 6](cite://isvarakrsna/sankhya-karika/6)].",
       "primary_loci": [
-        "Īśvarakṛṣṇa, Sāṃkhya-Kārikā 4",
-        "Īśvarakṛṣṇa, Sāṃkhya-Kārikā 5",
-        "Īśvarakṛṣṇa, Sāṃkhya-Kārikā 6"
+        "Īśvarakṛṣṇa, Sāṅkhya-Kārikā 4",
+        "Īśvarakṛṣṇa, Sāṅkhya-Kārikā 5",
+        "Īśvarakṛṣṇa, Sāṅkhya-Kārikā 6"
       ],
       "citations": [
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/4",
+          "cite": "cite://isvarakrsna/sankhya-karika/4",
           "locus_short": "SK 4"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/5",
+          "cite": "cite://isvarakrsna/sankhya-karika/5",
           "locus_short": "SK 5"
         },
         {
-          "cite": "cite://isvarakrsna/samkhya-karika/6",
+          "cite": "cite://isvarakrsna/sankhya-karika/6",
           "locus_short": "SK 6"
         }
       ]
