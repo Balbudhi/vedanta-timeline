@@ -2677,90 +2677,180 @@ function buildGlossaryRegex() {
   );
 }
 
+// Open the glossary popover.
+//   • termKey   — surface form the user clicked. If null/undefined, the
+//                 popover opens with the search input focused and no term
+//                 selected (summoned from the topbar Glossary button).
+//   • anchorEl  — element to anchor the popover against on desktop. If
+//                 null, the popover is anchored to the topbar Glossary
+//                 button (or top-right of the viewport as a last resort).
 function openGlossary(termKey, anchorEl) {
-  const entry = state.glossary.get(termKey);
-  if (!entry) return;
-  // Single-popover discipline: any other open popover (glossary, citation,
-  // top-bar search results) is dismissed before this one opens.
+  // If a termKey was passed but is not in the glossary, abort silently
+  // (matches the previous behaviour of "click-only" entry points).
+  if (termKey != null && !state.glossary.get(termKey)) return;
+  // Single-popover discipline: any other open popover (glossary, citation)
+  // is dismissed before this one opens.
   popoverManager.closeAll();
   // Belt-and-braces cleanup in case a popover failed to register itself.
   document.querySelectorAll(".glossary-popover, .gloss-scrim").forEach((el) => el.remove());
   const isMobile = window.matchMedia("(max-width: 720px)").matches;
   const pop = document.createElement("div");
   pop.className = "glossary-popover";
-  // One footnote counter for the entire popover so [1] [2] … is continuous
-  // across the invariant definition, per-school rows, and translator note.
-  // Each prose block is run through `md` + `numberCitations`, which replaces
-  // inline `<a class="cite-link">` anchors with `<sup class="cite-fn">[N]</sup>`
-  // and accumulates the locus into `footnotes`. The footnote list is then
-  // appended at the bottom of the popover with click-targets back into the
-  // Citation tab popover (parity with the thinker-prose pipeline).
-  const popCtr = { n: 0 };
-  const invariantR = numberCitations(md(entry.invariant_definition || ""), popCtr);
-  const allFootnotes = invariantR.footnotes.slice();
-  const perSchool = (entry.per_school || []).map((s) => {
-    const r = numberCitations(md(s.definition), popCtr);
-    allFootnotes.push(...r.footnotes);
-    const tag = s.register_tag
-      ? `<span class="gp-regtag" title="register tuple">${escape(s.register_tag)}</span>`
-      : "";
-    return `<div class="gp-row"><span class="gp-school">${escape(s.school)}</span><span class="gp-def">${tag}${r.html}</span></div>`;
-  }).join("");
-  const translatorR = entry.translator_note
-    ? numberCitations(md(entry.translator_note), popCtr)
-    : { html: "", footnotes: [] };
-  allFootnotes.push(...translatorR.footnotes);
-  const translatorNote = entry.translator_note
-    ? `<div class="gp-translator"><span class="gp-label">Translator note</span><div>${translatorR.html}</div></div>`
-    : "";
-  const framing = entry.school_framing;
-  const framingLabel = (() => {
-    if (!framing || !framing.framing_status) return "";
-    switch (framing.framing_status) {
-      case "same_concept_different_aspect": return "Same concept, different aspect";
-      case "real_disagreement":              return "Same concept, real disagreement";
-      case "different_concepts":             return "Different concepts (homonymy)";
-      case "mixed":                          return "Mixed — same concept where noted; real disagreement where noted";
-      default: return escape(framing.framing_status);
-    }
-  })();
-  // Framing blocks are methodological prose; we route them through md() only,
-  // not numberCitations, since the inline references are short locus mentions
-  // (e.g. *Anuvyākhyāna* 2.3.66–69) rather than `cite://` anchors that need
-  // footnote numbering.
-  const framingBlock = framing
-    ? `<div class="gp-framing"><span class="gp-label">School framing</span>
-         <div class="gp-framing-status">${framingLabel}</div>
-         ${framing.shared_core ? `<div class="gp-shared-core">${md(framing.shared_core)}</div>` : ""}
-         ${framing.register_axes_note ? `<div class="gp-axes">${md(framing.register_axes_note)}</div>` : ""}
-       </div>`
-    : "";
-  const footnoteList = renderFootnoteList(allFootnotes);
-  // Heading: prefer the surface form the user actually clicked when it
-  // differs from the canonical term_iast (alias resolution makes them
-  // diverge — e.g. clicking "guṇātīta" used to silently open "guṇa";
-  // clicking "sat-cit-ānanda" used to silently open "saccidānanda").
-  // Show the canonical form as an eyebrow so the alias relation is
-  // visible rather than masked.
-  const canonical = entry.term_iast || entry.term_key || termKey;
-  const surface = termKey;
-  // Diacritic-insensitive equality check: distinguish "lakṣaṇa" vs
-  // "lakṣaṇā" (long-vs-short -a) — those are *different* lemmas in the
-  // Sanskrit grammatical tradition even when one resolves the other.
-  const showAlias = String(surface).normalize("NFC") !== String(canonical).normalize("NFC");
-  const heading = showAlias
-    ? `<div class="gp-eyebrow">Listed under <em>${escape(canonical)}</em></div>
-       <div class="gp-term">${escape(surface)}</div>`
-    : `<div class="gp-term">${escape(canonical)}</div>`;
+  const fallbackAnchor = anchorEl || document.getElementById("glossaryBtn");
+
+  // The popover is rendered in two parts:
+  //   • a persistent search row at the top (input + close button)
+  //   • a body region that swaps between "term view" (definition + per-school
+  //     rows + footnotes) and "search-results view" as the user types.
+  // The search-results view is purely transient; clicking a result re-renders
+  // the body in "term view" without closing the popover.
   pop.innerHTML = `
-    <button class="gp-close" aria-label="Close" data-no-drag type="button">×</button>
-    ${heading}
-    ${entry.literal ? `<div class="gp-literal">Literally: <em>${escape(entry.literal)}</em></div>` : ""}
-    <div class="gp-invariant"><span class="gp-label">${entry.invariant_definition && entry.invariant_definition.toLowerCase().includes("no shared invariant") ? "No invariant" : "Invariant"}</span><div>${invariantR.html}</div></div>
-    ${perSchool ? `<div class="gp-perschool"><span class="gp-label">By school</span>${framingBlock}${perSchool}</div>` : ""}
-    ${translatorNote}
-    ${footnoteList}
+    <div class="gp-search-row">
+      <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><circle cx="7" cy="7" r="4.5" stroke="currentColor" stroke-width="1.4" fill="none"/><path d="M10.5 10.5L13.5 13.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+      <input class="gp-search-input" type="search" placeholder="Look up another term…" autocomplete="off" spellcheck="false" aria-label="Search the Sanskrit glossary" data-no-drag />
+      <button class="gp-close" aria-label="Close" data-no-drag type="button">×</button>
+    </div>
+    <div class="gp-body"></div>
   `;
+  const bodyEl = pop.querySelector(".gp-body");
+  const inputEl = pop.querySelector(".gp-search-input");
+
+  // Render the per-term view (definition, per-school rows, framing, footnotes).
+  function renderTermView(key) {
+    const entry = state.glossary.get(key);
+    if (!entry) { bodyEl.innerHTML = ""; return; }
+    // One footnote counter for the entire body so [1] [2] … is continuous
+    // across the invariant definition, per-school rows, and translator note.
+    const popCtr = { n: 0 };
+    const invariantR = numberCitations(md(entry.invariant_definition || ""), popCtr);
+    const allFootnotes = invariantR.footnotes.slice();
+    const perSchool = (entry.per_school || []).map((s) => {
+      const r = numberCitations(md(s.definition), popCtr);
+      allFootnotes.push(...r.footnotes);
+      const tag = s.register_tag
+        ? `<span class="gp-regtag" title="register tuple">${escape(s.register_tag)}</span>`
+        : "";
+      return `<div class="gp-row"><span class="gp-school">${escape(s.school)}</span><span class="gp-def">${tag}${r.html}</span></div>`;
+    }).join("");
+    const translatorR = entry.translator_note
+      ? numberCitations(md(entry.translator_note), popCtr)
+      : { html: "", footnotes: [] };
+    allFootnotes.push(...translatorR.footnotes);
+    const translatorNote = entry.translator_note
+      ? `<div class="gp-translator"><span class="gp-label">Translator note</span><div>${translatorR.html}</div></div>`
+      : "";
+    const framing = entry.school_framing;
+    const framingLabel = (() => {
+      if (!framing || !framing.framing_status) return "";
+      switch (framing.framing_status) {
+        case "same_concept_different_aspect": return "Same concept, different aspect";
+        case "real_disagreement":              return "Same concept, real disagreement";
+        case "different_concepts":             return "Different concepts (homonymy)";
+        case "mixed":                          return "Mixed — same concept where noted; real disagreement where noted";
+        default: return escape(framing.framing_status);
+      }
+    })();
+    // Framing blocks are methodological prose; we route them through md() only,
+    // not numberCitations, since the inline references are short locus mentions
+    // (e.g. *Anuvyākhyāna* 2.3.66–69) rather than `cite://` anchors that need
+    // footnote numbering.
+    const framingBlock = framing
+      ? `<div class="gp-framing"><span class="gp-label">School framing</span>
+           <div class="gp-framing-status">${framingLabel}</div>
+           ${framing.shared_core ? `<div class="gp-shared-core">${md(framing.shared_core)}</div>` : ""}
+           ${framing.register_axes_note ? `<div class="gp-axes">${md(framing.register_axes_note)}</div>` : ""}
+         </div>`
+      : "";
+    const footnoteList = renderFootnoteList(allFootnotes);
+    // Heading: prefer the surface form the user actually clicked when it
+    // differs from the canonical term_iast (alias resolution makes them
+    // diverge — e.g. clicking "guṇātīta" used to silently open "guṇa").
+    const canonical = entry.term_iast || entry.term_key || key;
+    const surface = key;
+    const showAlias = String(surface).normalize("NFC") !== String(canonical).normalize("NFC");
+    const heading = showAlias
+      ? `<div class="gp-eyebrow">Listed under <em>${escape(canonical)}</em></div>
+         <div class="gp-term">${escape(surface)}</div>`
+      : `<div class="gp-term">${escape(canonical)}</div>`;
+    bodyEl.innerHTML = `
+      ${heading}
+      ${entry.literal ? `<div class="gp-literal">Literally: <em>${escape(entry.literal)}</em></div>` : ""}
+      <div class="gp-invariant"><span class="gp-label">${entry.invariant_definition && entry.invariant_definition.toLowerCase().includes("no shared invariant") ? "No invariant" : "Invariant"}</span><div>${invariantR.html}</div></div>
+      ${perSchool ? `<div class="gp-perschool"><span class="gp-label">By school</span>${framingBlock}${perSchool}</div>` : ""}
+      ${translatorNote}
+      ${footnoteList}
+    `;
+  }
+
+  // Render the search-results view inside the body. The first row is
+  // highlighted (`is-active`) so Enter opens it.
+  function renderResultsView(q) {
+    const rows = rankSearchResults(q);
+    if (!rows.length) {
+      bodyEl.innerHTML = `<p class="gp-search-empty">No glossary entries match "${escape(q)}".</p>`;
+      return;
+    }
+    bodyEl.innerHTML = `<div class="gp-results" role="listbox">${rows.map((r, i) => `
+      <button class="gp-result${i === 0 ? " is-active" : ""}" data-key="${escape(r.key)}" type="button" role="option">
+        <span class="ts-term">${escape(r.canonical)}</span>
+        ${r.literal ? `<span class="ts-gloss">${escape(r.literal)}</span>` : (r.blurb ? `<span class="ts-gloss">${escape(r.blurb)}</span>` : "")}
+      </button>`).join("")}</div>`;
+  }
+
+  // Render the "empty" body — shown when the popover was summoned with no
+  // term and no search query yet.
+  function renderEmptyView() {
+    const n = state.glossary.size
+      ? [...new Set([...state.glossary.values()].map((e) => e.term_iast || e.term_key))].length
+      : 0;
+    bodyEl.innerHTML = `<p class="gp-search-hint">Start typing to search ${n ? `over ${n} entries` : "the glossary"}. Diacritics are optional — "atman" matches "ātman".</p>`;
+  }
+
+  // Initial body content.
+  if (termKey) renderTermView(termKey);
+  else renderEmptyView();
+
+  // Search-input handlers. As the user types, the body region becomes the
+  // results list; clearing the input restores the previously-selected term
+  // (or the empty hint when the popover was summoned with no term).
+  inputEl.addEventListener("input", () => {
+    const q = inputEl.value;
+    if (!normalizeDia(q)) {
+      if (termKey) renderTermView(termKey);
+      else renderEmptyView();
+      return;
+    }
+    renderResultsView(q);
+  });
+  inputEl.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") { e.preventDefault(); closeGloss(); return; }
+    if (e.key !== "ArrowDown" && e.key !== "ArrowUp" && e.key !== "Enter") return;
+    const items = bodyEl.querySelectorAll(".gp-result");
+    if (!items.length) return;
+    let activeIdx = -1;
+    items.forEach((el, i) => { if (el.classList.contains("is-active")) activeIdx = i; });
+    if (e.key === "Enter") {
+      e.preventDefault();
+      const target = activeIdx >= 0 ? items[activeIdx] : items[0];
+      if (target) target.click();
+      return;
+    }
+    e.preventDefault();
+    let nextIdx = activeIdx;
+    if (e.key === "ArrowDown") nextIdx = (activeIdx + 1) % items.length;
+    if (e.key === "ArrowUp") nextIdx = (activeIdx - 1 + items.length) % items.length;
+    items.forEach((el, i) => el.classList.toggle("is-active", i === nextIdx));
+    items[nextIdx].scrollIntoView({ block: "nearest" });
+  });
+  bodyEl.addEventListener("click", (e) => {
+    const btn = e.target.closest(".gp-result");
+    if (!btn) return;
+    const key = btn.dataset.key;
+    termKey = key;
+    inputEl.value = "";
+    renderTermView(key);
+  });
+
   let scrim = null;
   if (isMobile) {
     scrim = document.createElement("div");
@@ -2771,15 +2861,21 @@ function openGlossary(termKey, anchorEl) {
     scrim.addEventListener("click", () => closeGloss());
   } else {
     document.body.appendChild(pop);
-    const r = anchorEl.getBoundingClientRect();
     pop.style.position = "fixed";
-    const popH = pop.offsetHeight || 240;
-    const placeBelow = (r.bottom + popH + 8) < window.innerHeight;
-    pop.style.top = (placeBelow ? r.bottom + 8 : Math.max(10, r.top - popH - 8)) + "px";
-    // Popover width is 420 px (see .glossary-popover in style.css); leave a
-    // 10 px gutter so it never clips against the viewport's right edge or
-    // is occluded by the detail-pane scrollbar.
-    pop.style.left = Math.max(10, Math.min(r.left, window.innerWidth - 430)) + "px";
+    if (fallbackAnchor) {
+      const r = fallbackAnchor.getBoundingClientRect();
+      const popH = pop.offsetHeight || 240;
+      const placeBelow = (r.bottom + popH + 8) < window.innerHeight;
+      pop.style.top = (placeBelow ? r.bottom + 8 : Math.max(10, r.top - popH - 8)) + "px";
+      // Popover width is 420 px (see .glossary-popover in style.css); leave a
+      // 10 px gutter so it never clips against the viewport's right edge or
+      // is occluded by the detail-pane scrollbar.
+      pop.style.left = Math.max(10, Math.min(r.left, window.innerWidth - 430)) + "px";
+    } else {
+      // No anchor available — pin under the topbar at right edge.
+      pop.style.top = "60px";
+      pop.style.left = Math.max(10, window.innerWidth - 440) + "px";
+    }
   }
   function closeGloss() {
     pop.remove();
@@ -2789,9 +2885,12 @@ function openGlossary(termKey, anchorEl) {
     popoverManager.notifyClosed(closeGloss);
   }
   function outsideClose(e) {
-    if (!pop.contains(e.target) && e.target !== anchorEl && e.target !== scrim) {
-      closeGloss();
-    }
+    if (pop.contains(e.target)) return;
+    if (e.target === anchorEl || e.target === scrim) return;
+    // Don't auto-close when the user clicks the Glossary topbar button —
+    // that button is the open/close affordance for the summon path.
+    if (e.target.closest && e.target.closest("#glossaryBtn")) return;
+    closeGloss();
   }
   function escClose(e) { if (e.key === "Escape") closeGloss(); }
   pop.querySelector(".gp-close").addEventListener("click", closeGloss);
@@ -2800,6 +2899,13 @@ function openGlossary(termKey, anchorEl) {
   document.addEventListener("keydown", escClose);
   makePopoverDraggable(pop, { storageKey: "vedanta-gloss-popover-pos" });
   popoverManager.open(closeGloss);
+
+  // When the popover was summoned (no term selected), focus the input so
+  // the user can start typing immediately. Defer so the mobile bottom-sheet
+  // animation isn't cancelled by the keyboard pop-up.
+  if (!termKey) {
+    setTimeout(() => inputEl.focus(), 30);
+  }
 }
 
 // ---------- citation popover (clickable primary-source citations) -----------
@@ -3888,11 +3994,10 @@ if (filterSoloPill) {
   });
 }
 
-// ---------- glossary search popover -----------
-// Summoned by the #searchBtn in the topbar. The same `openGlossary(termKey,
-// anchorEl)` path that powers in-prose terms is reused on result-click, so
-// the term-popover presentation is identical. The search popover itself
-// is managed by popoverManager so the single-popover rule still holds.
+// ---------- glossary search index -----------
+// The search input lives inside the glossary popover itself (see
+// openGlossary above). These helpers build and rank the candidate list;
+// the popover consumes them through `rankSearchResults`.
 
 // Normalises diacritics so "atman" matches "ātman".
 function normalizeDia(s) {

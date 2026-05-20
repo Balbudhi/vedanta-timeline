@@ -5,16 +5,16 @@
 
 :root {
   /* One red, one cream. Everything derives. */
-  --kh-bg:        #3a070c;                       /* deep oxblood — body + player + tooltip */
+  --kh-bg:        #6b0e16;                       /* richer, more vibrant deep red */
   --kh-ink:       #f4ead0;                       /* warm light-yellow cream */
-  --kh-ink-soft:  rgba(244, 234, 208, 0.65);
+  --kh-ink-soft:  rgba(244, 234, 208, 0.68);
   --kh-ink-mid:   rgba(244, 234, 208, 0.28);
-  --kh-rule:      rgba(244, 234, 208, 0.14);
+  --kh-rule:      rgba(244, 234, 208, 0.18);
 
-  /* Libre Baskerville — the classic book serif used by poetry
-     presses and scripture publishers. Restrained, neutral,
-     no stylized flourishes. Strong extended-Latin marks. */
-  --kh-serif:   "Libre Baskerville", "EB Garamond", Georgia, "Times New Roman", serif;
+  /* Cormorant Garamond — Garamond revival, elegant and well-
+     spaced. Designed by Christian Thalmann; one of the
+     loveliest open fonts for poetry/devotional bodies. */
+  --kh-serif:   "Cormorant Garamond", "EB Garamond", Georgia, "Times New Roman", serif;
 }
 
 html, body {
@@ -42,11 +42,11 @@ html, body {
   font-family: var(--kh-serif);
   font-weight: 400;
   font-style: normal;
-  font-size: 42px;
-  line-height: 1.2;
-  margin: 0 0 16px;
+  font-size: 56px;
+  line-height: 1.15;
+  margin: 0 0 18px;
   color: var(--kh-ink);
-  letter-spacing: 0;
+  letter-spacing: 0.005em;
 }
 .song-attrib {
   margin: 0;
@@ -56,8 +56,8 @@ html, body {
   font-style: normal;
   font-weight: 400;
   color: var(--kh-ink-soft);
-  font-size: 18px;
-  letter-spacing: 0.02em;
+  font-size: 22px;
+  letter-spacing: 0.04em;
   text-transform: none;
 }
 
@@ -151,69 +151,74 @@ html, body {
 }
 .line-roman {
   font-family: var(--kh-serif);
-  font-size: 21px;
-  line-height: 1.55;
+  font-size: 26px;
+  line-height: 1.5;
   color: var(--kh-ink);
-  margin: 0 0 8px;
-  letter-spacing: 0;
+  margin: 0 0 10px;
+  letter-spacing: 0.005em;
   font-weight: 400;
 }
 .line-english {
   font-family: var(--kh-serif);
   font-style: normal;
-  font-size: 18px;
-  line-height: 1.6;
+  font-size: 22px;
+  line-height: 1.55;
   color: var(--kh-ink-soft);
   margin: 0;
   font-weight: 400;
+  letter-spacing: 0.005em;
 }
 
 /* Repetition badge — single cream tone, hairline pill. */
 .rep {
   display: inline-block;
-  margin-left: 12px;
-  padding: 2px 11px;
+  margin-left: 14px;
+  padding: 2px 12px;
   font-family: var(--kh-serif);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   color: var(--kh-ink);
   background: transparent;
   border: 1px solid rgba(244, 234, 208, 0.32);
   border-radius: 999px;
-  vertical-align: 0.22em;
+  vertical-align: 0.18em;
   white-space: nowrap;
   user-select: none;
   letter-spacing: 0.02em;
 }
 
 /* ---------- Word spans (hover targets) ---------- */
+/* Outline-only highlight (no filled box). box-shadow is used
+   so the layout doesn't shift when the ring appears. */
 .line-roman .w {
   cursor: pointer;
-  padding: 0 2px;
-  margin: 0 -2px;
-  transition: background-color 120ms ease;
+  padding: 1px 3px;
+  margin: 0 -3px;
+  transition: box-shadow 140ms ease, color 140ms ease;
   outline: none;
   -webkit-tap-highlight-color: transparent;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 .line-roman .w:hover,
 .line-roman .w.is-hi,
 .line-roman .w:focus-visible {
-  background: rgba(244, 234, 208, 0.16);
+  background: transparent;
+  box-shadow: inset 0 0 0 1px rgba(244, 234, 208, 0.55);
 }
 .line-roman .w:focus-visible {
-  box-shadow: 0 0 0 1px rgba(244, 234, 208, 0.5);
+  box-shadow: inset 0 0 0 1px rgba(244, 234, 208, 0.8);
 }
 
 /* ---------- English mapped spans (highlight target) ---------- */
 .line-english .we {
-  padding: 0 2px;
-  margin: 0 -2px;
-  transition: background-color 120ms ease, color 120ms ease;
-  border-radius: 2px;
+  padding: 1px 3px;
+  margin: 0 -3px;
+  transition: box-shadow 140ms ease, color 140ms ease;
+  border-radius: 3px;
 }
 .line-english .we.is-hi {
-  background: rgba(244, 234, 208, 0.16);
+  background: transparent;
+  box-shadow: inset 0 0 0 1px rgba(244, 234, 208, 0.45);
   color: var(--kh-ink);
 }
 
@@ -239,13 +244,13 @@ html, body {
 /* ---------- Mobile ---------- */
 @media (max-width: 720px) {
   .song-page { padding: 52px 22px 120px; }
-  .song-title { font-size: 32px; line-height: 1.2; }
-  .song-attrib em { font-size: 16px; }
+  .song-title { font-size: 40px; line-height: 1.15; }
+  .song-attrib em { font-size: 19px; }
   .song-hero { margin-bottom: 56px; padding-bottom: 28px; }
   .line { margin-bottom: 32px; padding: 5px 12px; margin-left: -12px; margin-right: -12px; }
-  .line-roman { font-size: 19px; line-height: 1.55; font-weight: 400; }
-  .line-english { font-size: 17px; line-height: 1.6; }
-  .rep { font-size: 13px; padding: 2px 10px; margin-left: 10px; }
+  .line-roman { font-size: 23px; line-height: 1.55; font-weight: 400; }
+  .line-english { font-size: 20px; line-height: 1.55; }
+  .rep { font-size: 14px; padding: 2px 11px; margin-left: 12px; }
   .word-tooltip {
     max-width: 82vw;
     font-size: 17px;
