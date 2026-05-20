@@ -1,0 +1,84 @@
+{
+  "work_slug": "citsukha_tattva_pradipika",
+  "spec_version": "1.0",
+  "spec_generated_at": "2026-05-19",
+  "spec_generated_by": "corpus-chat-lane7",
+  "source_pdf": "/nas/ucb/eeshan/digitization_queue/citsukha_tattva_pradipika/source.pdf",
+  "source_pdf_sha256": "cba787273519186d2f55d3303572034b2c069af7f992a2fe6e43cef6ff1072c0",
+  "source_pdf_size_bytes": 230627016,
+  "lane3_metadata_ref": "data/digitization_queue/citsukha_tattva_pradipika/metadata.json",
+  "lane3_metadata_absolute": "/nas/ucb/eeshan/digitization_queue/citsukha_tattva_pradipika/metadata.json",
+  "pdf_inspection": {
+    "total_pages": 412,
+    "page_dimensions_pt": "362.1 x 539.8",
+    "is_text_layer_native": false,
+    "is_image_scan": true,
+    "image_dpi_estimate": 250
+  },
+  "visual_quality": {
+    "first_5_pages_rendered": [
+      "data/digitization_specs/citsukha_tattva_pradipika/p1.png",
+      "data/digitization_specs/citsukha_tattva_pradipika/p2.png",
+      "data/digitization_specs/citsukha_tattva_pradipika/p3.png",
+      "data/digitization_specs/citsukha_tattva_pradipika/p4.png",
+      "data/digitization_specs/citsukha_tattva_pradipika/p5.png"
+    ],
+    "first_5_pages_on_disk": [
+      "/nas/ucb/eeshan/corpus_worktrees/digitization-specs/data/digitization_specs/citsukha_tattva_pradipika/p1.png",
+      "/nas/ucb/eeshan/corpus_worktrees/digitization-specs/data/digitization_specs/citsukha_tattva_pradipika/p2.png",
+      "/nas/ucb/eeshan/corpus_worktrees/digitization-specs/data/digitization_specs/citsukha_tattva_pradipika/p3.png",
+      "/nas/ucb/eeshan/corpus_worktrees/digitization-specs/data/digitization_specs/citsukha_tattva_pradipika/p4.png",
+      "/nas/ucb/eeshan/corpus_worktrees/digitization-specs/data/digitization_specs/citsukha_tattva_pradipika/p5.png"
+    ],
+    "quality_class": "clean",
+    "ocr_friendliness_score": 4,
+    "skew_detected": false,
+    "skew_angle_deg_estimate": null,
+    "marginalia_density": "medium",
+    "commentary_around_mula": true,
+    "heuristic_mean_intensity": 194.7,
+    "heuristic_edge_density": 0.0175,
+    "heuristic_quality_class": "moderate_bleed",
+    "heuristic_score": 3,
+    "heuristic_scored_on": "p3.png",
+    "lane3_quality_class_raw": "clean",
+    "notes": "Lane-3 said 'clean'; Lane-7 heuristic says 'moderate_bleed' (mean_intensity=194.7, edge_density=0.0175). Trusting Lane-3 for quality_class field; heuristic recorded under visual_quality.heuristic_*."
+  },
+  "structural_expectations": {
+    "kind": "paragraphs",
+    "expected_unit_count": 400,
+    "expected_unit_count_source": "Four paricchedas across 412 pages; ground-truth count via Phase 2 segmentation",
+    "expected_chapter_count": 4,
+    "front_matter_pages_estimate": 8,
+    "back_matter_pages_estimate": 4
+  },
+  "ground_truth": {
+    "digital_comparator_available": false,
+    "comparator_source": "none",
+    "comparator_url_or_path": null,
+    "comparator_coverage": "none",
+    "comparator_notes": "No digital comparator found in Lane-1 manifest or Lane-3 metadata. Phase-2 validation must rely on internal consensus + Codex judge."
+  },
+  "phase2_run_plan": {
+    "ocr_engine_primary": "surya",
+    "ocr_engines_secondary": [
+      "qwen2.5-vl-72b-awq",
+      "internvl-2.5-78b-awq"
+    ],
+    "judge_layer": "codex-5.4",
+    "estimated_pages_per_hour": 30,
+    "estimated_total_hours_4xA100": 13.7,
+    "sbatch_partition_target": "sched_mit_sloan_gpu_r8",
+    "blocking_dependencies": [
+      "PHASE_1_COMPLETE_sentinel:/nas/ucb/eeshan/prakriya/docs/PHASE_1_COMPLETE_2026-05-19.md",
+      "prakriya.ocr_api.propose_correction",
+      "philosophy_ocr.consensus",
+      "philosophy_ocr.verify_lexical",
+      "philosophy_ocr.judge_codex"
+    ]
+  },
+  "expected_unit_count_check": {
+    "method": "Adopted Lane-3 metadata's expected_text_units.approximate_count without independent TOC scrape. Verified that the source basis (canonical sūtra/vārttika count) is recorded in expected_unit_count_source.",
+    "approximation_basis": "Four paricchedas across 412 pages; ground-truth count via Phase 2 segmentation"
+  }
+}

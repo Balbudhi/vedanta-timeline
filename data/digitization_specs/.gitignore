@@ -1,0 +1,3 @@
+# Rendered PDF pages (PNGs) are heavy (~1-7 MB each) and live on /nas; we keep
+# the spec JSON + per-slug README in git and exclude the binaries.
+*/p*.png

@@ -1,0 +1,84 @@
+{
+  "work_slug": "baladeva_govinda_bhasya",
+  "spec_version": "1.0",
+  "spec_generated_at": "2026-05-19",
+  "spec_generated_by": "corpus-chat-lane7",
+  "source_pdf": "/nas/ucb/eeshan/digitization_queue/baladeva_govinda_bhasya/source.pdf",
+  "source_pdf_sha256": "976aab92da7f222e7b0dec67084c4fea1de51bce3d7cec4a0f5a8391a791cfb2",
+  "source_pdf_size_bytes": 60145994,
+  "lane3_metadata_ref": "data/digitization_queue/baladeva_govinda_bhasya/metadata.json",
+  "lane3_metadata_absolute": "/nas/ucb/eeshan/digitization_queue/baladeva_govinda_bhasya/metadata.json",
+  "pdf_inspection": {
+    "total_pages": 364,
+    "page_dimensions_pt": "1024.0 x 1365.0",
+    "is_text_layer_native": false,
+    "is_image_scan": true,
+    "image_dpi_estimate": 72
+  },
+  "visual_quality": {
+    "first_5_pages_rendered": [
+      "data/digitization_specs/baladeva_govinda_bhasya/p1.png",
+      "data/digitization_specs/baladeva_govinda_bhasya/p2.png",
+      "data/digitization_specs/baladeva_govinda_bhasya/p3.png",
+      "data/digitization_specs/baladeva_govinda_bhasya/p4.png",
+      "data/digitization_specs/baladeva_govinda_bhasya/p5.png"
+    ],
+    "first_5_pages_on_disk": [
+      "/nas/ucb/eeshan/corpus_worktrees/digitization-specs/data/digitization_specs/baladeva_govinda_bhasya/p1.png",
+      "/nas/ucb/eeshan/corpus_worktrees/digitization-specs/data/digitization_specs/baladeva_govinda_bhasya/p2.png",
+      "/nas/ucb/eeshan/corpus_worktrees/digitization-specs/data/digitization_specs/baladeva_govinda_bhasya/p3.png",
+      "/nas/ucb/eeshan/corpus_worktrees/digitization-specs/data/digitization_specs/baladeva_govinda_bhasya/p4.png",
+      "/nas/ucb/eeshan/corpus_worktrees/digitization-specs/data/digitization_specs/baladeva_govinda_bhasya/p5.png"
+    ],
+    "quality_class": "heavy_bleed",
+    "ocr_friendliness_score": 2,
+    "skew_detected": true,
+    "skew_angle_deg_estimate": -2.0,
+    "marginalia_density": "medium",
+    "commentary_around_mula": true,
+    "heuristic_mean_intensity": 133.08,
+    "heuristic_edge_density": 0.0386,
+    "heuristic_quality_class": "heavy_bleed",
+    "heuristic_score": 2,
+    "heuristic_scored_on": "p3.png",
+    "lane3_quality_class_raw": "heavy_bleed",
+    "notes": "Lane-3 quality class and Lane-7 heuristic agree."
+  },
+  "structural_expectations": {
+    "kind": "sutras",
+    "expected_unit_count": 555,
+    "expected_unit_count_source": "Brahma-Sūtra canonical count (4 chapters × 4 pādas × variable adhikaraṇas; standard total 555)",
+    "expected_chapter_count": 4,
+    "front_matter_pages_estimate": 8,
+    "back_matter_pages_estimate": 4
+  },
+  "ground_truth": {
+    "digital_comparator_available": true,
+    "comparator_source": "gretil",
+    "comparator_url_or_path": "GRETIL Brahma-Sūtra mūla and Govinda-Bhāṣya Sanskrit transcriptions for spot-comparison; Bhanu Swami 2018 English (ISBN 978-1-980-71071-4) for sense-checking",
+    "comparator_coverage": "partial",
+    "comparator_notes": "Recorded from Lane-3 ground_truth_source field; not yet ingested into Lane-1. Phase-2 OCR validation should fetch or transcribe a sample for resolution-rate scoring."
+  },
+  "phase2_run_plan": {
+    "ocr_engine_primary": "surya",
+    "ocr_engines_secondary": [
+      "qwen2.5-vl-72b-awq",
+      "internvl-2.5-78b-awq"
+    ],
+    "judge_layer": "codex-5.4",
+    "estimated_pages_per_hour": 30,
+    "estimated_total_hours_4xA100": 12.1,
+    "sbatch_partition_target": "sched_mit_sloan_gpu_r8",
+    "blocking_dependencies": [
+      "PHASE_1_COMPLETE_sentinel:/nas/ucb/eeshan/prakriya/docs/PHASE_1_COMPLETE_2026-05-19.md",
+      "prakriya.ocr_api.propose_correction",
+      "philosophy_ocr.consensus",
+      "philosophy_ocr.verify_lexical",
+      "philosophy_ocr.judge_codex"
+    ]
+  },
+  "expected_unit_count_check": {
+    "method": "Adopted Lane-3 metadata's expected_text_units.approximate_count without independent TOC scrape. Verified that the source basis (canonical sūtra/vārttika count) is recorded in expected_unit_count_source.",
+    "approximation_basis": "Brahma-Sūtra canonical count (4 chapters × 4 pādas × variable adhikaraṇas; standard total 555)"
+  }
+}

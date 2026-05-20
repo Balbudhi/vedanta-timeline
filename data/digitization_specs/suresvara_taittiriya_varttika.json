@@ -1,0 +1,84 @@
+{
+  "work_slug": "suresvara_taittiriya_varttika",
+  "spec_version": "1.0",
+  "spec_generated_at": "2026-05-19",
+  "spec_generated_by": "corpus-chat-lane7",
+  "source_pdf": "/nas/ucb/eeshan/digitization_queue/suresvara_taittiriya_varttika/source.pdf",
+  "source_pdf_sha256": "3e5805690b3dd07d609d0c609981119c53df9a8601319d9dcbb1d9b8f38e3bbb",
+  "source_pdf_size_bytes": 204034480,
+  "lane3_metadata_ref": "data/digitization_queue/suresvara_taittiriya_varttika/metadata.json",
+  "lane3_metadata_absolute": "/nas/ucb/eeshan/digitization_queue/suresvara_taittiriya_varttika/metadata.json",
+  "pdf_inspection": {
+    "total_pages": 225,
+    "page_dimensions_pt": "476.8 x 697.6",
+    "is_text_layer_native": false,
+    "is_image_scan": true,
+    "image_dpi_estimate": 279
+  },
+  "visual_quality": {
+    "first_5_pages_rendered": [
+      "data/digitization_specs/suresvara_taittiriya_varttika/p1.png",
+      "data/digitization_specs/suresvara_taittiriya_varttika/p2.png",
+      "data/digitization_specs/suresvara_taittiriya_varttika/p3.png",
+      "data/digitization_specs/suresvara_taittiriya_varttika/p4.png",
+      "data/digitization_specs/suresvara_taittiriya_varttika/p5.png"
+    ],
+    "first_5_pages_on_disk": [
+      "/nas/ucb/eeshan/corpus_worktrees/digitization-specs/data/digitization_specs/suresvara_taittiriya_varttika/p1.png",
+      "/nas/ucb/eeshan/corpus_worktrees/digitization-specs/data/digitization_specs/suresvara_taittiriya_varttika/p2.png",
+      "/nas/ucb/eeshan/corpus_worktrees/digitization-specs/data/digitization_specs/suresvara_taittiriya_varttika/p3.png",
+      "/nas/ucb/eeshan/corpus_worktrees/digitization-specs/data/digitization_specs/suresvara_taittiriya_varttika/p4.png",
+      "/nas/ucb/eeshan/corpus_worktrees/digitization-specs/data/digitization_specs/suresvara_taittiriya_varttika/p5.png"
+    ],
+    "quality_class": "clean",
+    "ocr_friendliness_score": 4,
+    "skew_detected": false,
+    "skew_angle_deg_estimate": null,
+    "marginalia_density": "high",
+    "commentary_around_mula": true,
+    "heuristic_mean_intensity": 204.15,
+    "heuristic_edge_density": 0.0509,
+    "heuristic_quality_class": "moderate_bleed",
+    "heuristic_score": 3,
+    "heuristic_scored_on": "p3.png",
+    "lane3_quality_class_raw": "clean",
+    "notes": "Lane-3 said 'clean'; Lane-7 heuristic says 'moderate_bleed' (mean_intensity=204.15, edge_density=0.0509). Trusting Lane-3 for quality_class field; heuristic recorded under visual_quality.heuristic_*."
+  },
+  "structural_expectations": {
+    "kind": "varttikas",
+    "expected_unit_count": 1100,
+    "expected_unit_count_source": "Sureśvara's TUBV has roughly 1100 vārttikas across the three vallīs of the Taittirīya",
+    "expected_chapter_count": 3,
+    "front_matter_pages_estimate": 8,
+    "back_matter_pages_estimate": 4
+  },
+  "ground_truth": {
+    "digital_comparator_available": true,
+    "comparator_source": "other_external",
+    "comparator_url_or_path": "R. Balasubramanian, *The Taittirīyopaniṣad-Bhāṣya-Vārttika of Sureśvara* (Madras 1974) — full English with Sanskrit base; PDF at archive.org `taittiriyavartika` and centreforbrahmavidya.org.",
+    "comparator_coverage": "full",
+    "comparator_notes": "Recorded from Lane-3 ground_truth_source field; not yet ingested into Lane-1. Phase-2 OCR validation should fetch or transcribe a sample for resolution-rate scoring."
+  },
+  "phase2_run_plan": {
+    "ocr_engine_primary": "surya",
+    "ocr_engines_secondary": [
+      "qwen2.5-vl-72b-awq",
+      "internvl-2.5-78b-awq"
+    ],
+    "judge_layer": "codex-5.4",
+    "estimated_pages_per_hour": 30,
+    "estimated_total_hours_4xA100": 7.5,
+    "sbatch_partition_target": "sched_mit_sloan_gpu_r8",
+    "blocking_dependencies": [
+      "PHASE_1_COMPLETE_sentinel:/nas/ucb/eeshan/prakriya/docs/PHASE_1_COMPLETE_2026-05-19.md",
+      "prakriya.ocr_api.propose_correction",
+      "philosophy_ocr.consensus",
+      "philosophy_ocr.verify_lexical",
+      "philosophy_ocr.judge_codex"
+    ]
+  },
+  "expected_unit_count_check": {
+    "method": "Adopted Lane-3 metadata's expected_text_units.approximate_count without independent TOC scrape. Verified that the source basis (canonical sūtra/vārttika count) is recorded in expected_unit_count_source.",
+    "approximation_basis": "Sureśvara's TUBV has roughly 1100 vārttikas across the three vallīs of the Taittirīya"
+  }
+}

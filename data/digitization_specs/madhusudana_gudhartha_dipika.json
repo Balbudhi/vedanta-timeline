@@ -1,0 +1,84 @@
+{
+  "work_slug": "madhusudana_gudhartha_dipika",
+  "spec_version": "1.0",
+  "spec_generated_at": "2026-05-19",
+  "spec_generated_by": "corpus-chat-lane7",
+  "source_pdf": "/nas/ucb/eeshan/digitization_queue/madhusudana_gudhartha_dipika/source.pdf",
+  "source_pdf_sha256": "4b279eb68d1c31434027c49a9fe2cd561fb918a55f671203a67cedeba61dc864",
+  "source_pdf_size_bytes": 501890314,
+  "lane3_metadata_ref": "data/digitization_queue/madhusudana_gudhartha_dipika/metadata.json",
+  "lane3_metadata_absolute": "/nas/ucb/eeshan/digitization_queue/madhusudana_gudhartha_dipika/metadata.json",
+  "pdf_inspection": {
+    "total_pages": 1052,
+    "page_dimensions_pt": "425.7 x 708.3",
+    "is_text_layer_native": false,
+    "is_image_scan": true,
+    "image_dpi_estimate": 241
+  },
+  "visual_quality": {
+    "first_5_pages_rendered": [
+      "data/digitization_specs/madhusudana_gudhartha_dipika/p1.png",
+      "data/digitization_specs/madhusudana_gudhartha_dipika/p2.png",
+      "data/digitization_specs/madhusudana_gudhartha_dipika/p3.png",
+      "data/digitization_specs/madhusudana_gudhartha_dipika/p4.png",
+      "data/digitization_specs/madhusudana_gudhartha_dipika/p5.png"
+    ],
+    "first_5_pages_on_disk": [
+      "/nas/ucb/eeshan/corpus_worktrees/digitization-specs/data/digitization_specs/madhusudana_gudhartha_dipika/p1.png",
+      "/nas/ucb/eeshan/corpus_worktrees/digitization-specs/data/digitization_specs/madhusudana_gudhartha_dipika/p2.png",
+      "/nas/ucb/eeshan/corpus_worktrees/digitization-specs/data/digitization_specs/madhusudana_gudhartha_dipika/p3.png",
+      "/nas/ucb/eeshan/corpus_worktrees/digitization-specs/data/digitization_specs/madhusudana_gudhartha_dipika/p4.png",
+      "/nas/ucb/eeshan/corpus_worktrees/digitization-specs/data/digitization_specs/madhusudana_gudhartha_dipika/p5.png"
+    ],
+    "quality_class": "clean",
+    "ocr_friendliness_score": 4,
+    "skew_detected": false,
+    "skew_angle_deg_estimate": null,
+    "marginalia_density": "medium",
+    "commentary_around_mula": true,
+    "heuristic_mean_intensity": 216.72,
+    "heuristic_edge_density": 0.0038,
+    "heuristic_quality_class": "moderate_bleed",
+    "heuristic_score": 4,
+    "heuristic_scored_on": "p3.png",
+    "lane3_quality_class_raw": "clean",
+    "notes": "Lane-3 said 'clean'; Lane-7 heuristic says 'moderate_bleed' (mean_intensity=216.72, edge_density=0.0038). Trusting Lane-3 for quality_class field; heuristic recorded under visual_quality.heuristic_*."
+  },
+  "structural_expectations": {
+    "kind": "verses",
+    "expected_unit_count": 700,
+    "expected_unit_count_source": "Bhagavad-Gītā canonical 700 ślokas, each with Madhusūdana's gloss",
+    "expected_chapter_count": null,
+    "front_matter_pages_estimate": 8,
+    "back_matter_pages_estimate": 4
+  },
+  "ground_truth": {
+    "digital_comparator_available": true,
+    "comparator_source": "gretil",
+    "comparator_url_or_path": "Embedded English translation by Gambhirananda is itself a high-quality bilingual comparator; GRETIL Gītā mūla provides verse-level ground truth.",
+    "comparator_coverage": "full",
+    "comparator_notes": "Recorded from Lane-3 ground_truth_source field; not yet ingested into Lane-1. Phase-2 OCR validation should fetch or transcribe a sample for resolution-rate scoring."
+  },
+  "phase2_run_plan": {
+    "ocr_engine_primary": "surya",
+    "ocr_engines_secondary": [
+      "qwen2.5-vl-72b-awq",
+      "internvl-2.5-78b-awq"
+    ],
+    "judge_layer": "codex-5.4",
+    "estimated_pages_per_hour": 30,
+    "estimated_total_hours_4xA100": 35.1,
+    "sbatch_partition_target": "sched_mit_sloan_gpu_r8",
+    "blocking_dependencies": [
+      "PHASE_1_COMPLETE_sentinel:/nas/ucb/eeshan/prakriya/docs/PHASE_1_COMPLETE_2026-05-19.md",
+      "prakriya.ocr_api.propose_correction",
+      "philosophy_ocr.consensus",
+      "philosophy_ocr.verify_lexical",
+      "philosophy_ocr.judge_codex"
+    ]
+  },
+  "expected_unit_count_check": {
+    "method": "Adopted Lane-3 metadata's expected_text_units.approximate_count without independent TOC scrape. Verified that the source basis (canonical sūtra/vārttika count) is recorded in expected_unit_count_source.",
+    "approximation_basis": "Bhagavad-Gītā canonical 700 ślokas, each with Madhusūdana's gloss"
+  }
+}

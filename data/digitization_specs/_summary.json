@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-05-19",
+  "generated_by": "corpus-chat-lane7",
+  "specs": [
+    {
+      "slug": "baladeva_govinda_bhasya",
+      "pages": 364,
+      "quality_class": "heavy_bleed",
+      "ocr_score": 2,
+      "hours_4xA100": 12.1,
+      "comparator": "gretil"
+    },
+    {
+      "slug": "bhaskara_brahma_sutra_bhasya",
+      "pages": 268,
+      "quality_class": "moderate_bleed",
+      "ocr_score": 3,
+      "hours_4xA100": 8.9,
+      "comparator": "none"
+    },
+    {
+      "slug": "citsukha_tattva_pradipika",
+      "pages": 412,
+      "quality_class": "clean",
+      "ocr_score": 4,
+      "hours_4xA100": 13.7,
+      "comparator": "none"
+    },
+    {
+      "slug": "jayatirtha_tattva_prakashika",
+      "pages": 328,
+      "quality_class": "text_pdf",
+      "ocr_score": 1,
+      "hours_4xA100": 10.9,
+      "comparator": "none"
+    },
+    {
+      "slug": "madhusudana_gudhartha_dipika",
+      "pages": 1052,
+      "quality_class": "clean",
+      "ocr_score": 4,
+      "hours_4xA100": 35.1,
+      "comparator": "gretil"
+    },
+    {
+      "slug": "madhva_gita_tatparya_nirnaya",
+      "pages": 371,
+      "quality_class": "text_pdf",
+      "ocr_score": 1,
+      "hours_4xA100": 12.4,
+      "comparator": "other_external"
+    },
+    {
+      "slug": "suresvara_brhadaranyaka_varttika",
+      "pages": 968,
+      "quality_class": "moderate_bleed",
+      "ocr_score": 1,
+      "hours_4xA100": 32.3,
+      "comparator": "gretil"
+    },
+    {
+      "slug": "suresvara_taittiriya_varttika",
+      "pages": 225,
+      "quality_class": "clean",
+      "ocr_score": 4,
+      "hours_4xA100": 7.5,
+      "comparator": "other_external"
+    },
+    {
+      "slug": "vidyaranya_vivarana_prameya_sangraha",
+      "pages": 946,
+      "quality_class": "clean",
+      "ocr_score": 4,
+      "hours_4xA100": 31.5,
+      "comparator": "none"
+    }
+  ]
+}
