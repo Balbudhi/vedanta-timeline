@@ -128,7 +128,7 @@ const LINES = {
 
   v4b: {
     roman: "Kado pherā ā jāve, is miṭṭī dī ḍherī ae",
-    english: "{0:Who knows when} {1:the turn} {2:will come}? {3:This} {7:is} just a {6:pile} {5:of} {4:dust}.",
+    english: "{0:Who knows when} {1:the final turn} {2:will come}? {3:This} body {7:is} a {6:heap} {5:of} {4:earth}.",
     words: [
       { roman: "Kado",       gloss: "when" },
       { roman: "pherā",      gloss: "a turn, a round, a visit" },
