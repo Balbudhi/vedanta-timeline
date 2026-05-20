@@ -2,6 +2,7 @@
 node_modules/
 *.log
 .snap-tool/
+.claude/
 # Developer-side symlink used by the local server to serve primary texts at
 # /materials/primary_texts/<...>. The citation panel's Source tab fetches
 # from that path. Deployment provisions the same path separately.
