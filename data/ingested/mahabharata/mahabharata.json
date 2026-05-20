@@ -1,0 +1,167 @@
+{
+  "text_id": "mahabharata",
+  "thinker_id": "vyasa",
+  "work_title_iast": "Mahābhārata (Bhandarkar critical edition)",
+  "work_title_devanagari": "महाभारतम्",
+  "source": "GRETIL / Bhandarkar Critical Edition (Pune, 1933-1966)",
+  "source_url_base": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/",
+  "editor": "V.S. Sukthankar, S.K. Belvalkar, P.L. Vaidya, et al.",
+  "encoder_chain": "Muneo Tokunaga et al. -> John Smith (Cambridge) -> GRETIL (BORI © 1999)",
+  "license": "GRETIL: usage permitted with attribution; retain per-text headers",
+  "source_script": "iast",
+  "tokenizer": "fallback_whitespace",
+  "normalizer": "indic_transliteration",
+  "ingested_at": "2026-05-19",
+  "ingested_by": "corpus-chat-lane9",
+  "structure_recovered": true,
+  "ascription_tier": "traditional-multi-author",
+  "verse_count": 73898,
+  "token_count_approx": 1233333,
+  "parva_count": 18,
+  "parvans": [
+    {
+      "parva_num": 1,
+      "parva_name_iast": "Ādi",
+      "parva_name_devanagari": "आदिपर्व",
+      "verse_count": 7208,
+      "token_count_approx": 146426,
+      "file": "parva_01_adi.json"
+    },
+    {
+      "parva_num": 2,
+      "parva_name_iast": "Sabhā",
+      "parva_name_devanagari": "सभापर्व",
+      "verse_count": 2402,
+      "token_count_approx": 57928,
+      "file": "parva_02_sabha.json"
+    },
+    {
+      "parva_num": 3,
+      "parva_name_iast": "Vana (Āraṇyaka)",
+      "parva_name_devanagari": "वनपर्व",
+      "verse_count": 10324,
+      "token_count_approx": 153377,
+      "file": "parva_03_vana.json"
+    },
+    {
+      "parva_num": 4,
+      "parva_name_iast": "Virāṭa",
+      "parva_name_devanagari": "विराटपर्व",
+      "verse_count": 1829,
+      "token_count_approx": 53325,
+      "file": "parva_04_virata.json"
+    },
+    {
+      "parva_num": 5,
+      "parva_name_iast": "Udyoga",
+      "parva_name_devanagari": "उद्योगपर्व",
+      "verse_count": 6070,
+      "token_count_approx": 87054,
+      "file": "parva_05_udyoga.json"
+    },
+    {
+      "parva_num": 6,
+      "parva_name_iast": "Bhīṣma",
+      "parva_name_devanagari": "भीष्मपर्व",
+      "verse_count": 5412,
+      "token_count_approx": 71229,
+      "file": "parva_06_bhisma.json"
+    },
+    {
+      "parva_num": 7,
+      "parva_name_iast": "Droṇa",
+      "parva_name_devanagari": "द्रोणपर्व",
+      "verse_count": 8157,
+      "token_count_approx": 122387,
+      "file": "parva_07_drona.json"
+    },
+    {
+      "parva_num": 8,
+      "parva_name_iast": "Karṇa",
+      "parva_name_devanagari": "कर्णपर्व",
+      "verse_count": 3874,
+      "token_count_approx": 72478,
+      "file": "parva_08_karna.json"
+    },
+    {
+      "parva_num": 9,
+      "parva_name_iast": "Śalya",
+      "parva_name_devanagari": "शल्यपर्व",
+      "verse_count": 3317,
+      "token_count_approx": 45388,
+      "file": "parva_09_shalya.json"
+    },
+    {
+      "parva_num": 10,
+      "parva_name_iast": "Sauptika",
+      "parva_name_devanagari": "सौप्तिकपर्व",
+      "verse_count": 774,
+      "token_count_approx": 10142,
+      "file": "parva_10_sauptika.json"
+    },
+    {
+      "parva_num": 11,
+      "parva_name_iast": "Strī",
+      "parva_name_devanagari": "स्त्रीपर्व",
+      "verse_count": 731,
+      "token_count_approx": 9886,
+      "file": "parva_11_stri.json"
+    },
+    {
+      "parva_num": 12,
+      "parva_name_iast": "Śānti",
+      "parva_name_devanagari": "शान्तिपर्व",
+      "verse_count": 12873,
+      "token_count_approx": 185109,
+      "file": "parva_12_shanti.json"
+    },
+    {
+      "parva_num": 13,
+      "parva_name_iast": "Anuśāsana",
+      "parva_name_devanagari": "अनुशासनपर्व",
+      "verse_count": 6542,
+      "token_count_approx": 138700,
+      "file": "parva_13_anushasana.json"
+    },
+    {
+      "parva_num": 14,
+      "parva_name_iast": "Aśvamedhika",
+      "parva_name_devanagari": "अश्वमेधिकपर्व",
+      "verse_count": 2745,
+      "token_count_approx": 56796,
+      "file": "parva_14_ashvamedhika.json"
+    },
+    {
+      "parva_num": 15,
+      "parva_name_iast": "Āśramavāsika",
+      "parva_name_devanagari": "आश्रमवासिकपर्व",
+      "verse_count": 1064,
+      "token_count_approx": 13864,
+      "file": "parva_15_ashramavasika.json"
+    },
+    {
+      "parva_num": 16,
+      "parva_name_iast": "Mausala",
+      "parva_name_devanagari": "मौसलपर्व",
+      "verse_count": 274,
+      "token_count_approx": 3990,
+      "file": "parva_16_mausala.json"
+    },
+    {
+      "parva_num": 17,
+      "parva_name_iast": "Mahāprasthānika",
+      "parva_name_devanagari": "महाप्रस्थानिकपर्व",
+      "verse_count": 107,
+      "token_count_approx": 1574,
+      "file": "parva_17_mahaprasthanika.json"
+    },
+    {
+      "parva_num": 18,
+      "parva_name_iast": "Svargārohaṇa",
+      "parva_name_devanagari": "स्वर्गारोहणपर्व",
+      "verse_count": 195,
+      "token_count_approx": 3680,
+      "file": "parva_18_svargarohana.json"
+    }
+  ]
+}

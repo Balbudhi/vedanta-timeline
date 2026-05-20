@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-05-19",
+  "generated_by": "corpus-chat-lane9",
+  "host": "rnn.ist.berkeley.edu",
+  "branch": "corpus/mahabharata-2026-05-19",
+  "notes": "Lane 9 sidecar manifest. Fetches the GRETIL per-parvan Mahābhārata (BORI Critical Edition). Per-file URL fetches only, 1 req/sec throttle. Each parvan: original .htm preserved, plus a cleaned plain-text .txt extract retaining the canonical verse marker `PP,AAA.VVV<suffix>`. All material is plain-text, fits comfortably under GitHub file limits, so source files are committed in-repo (data/external/gretil/files/mahabharata/) rather than gitignored. Lane 9 also writes per-parvan ingested JSON to data/ingested/mahabharata/ with both IAST and Devanāgarī surface forms.",
+  "source_id": "gretil_mahabharata",
+  "source_name": "GRETIL Mahābhārata — Bhandarkar Critical Edition (Pune, 1933-1966)",
+  "homepage": "https://gretil.sub.uni-goettingen.de/gretil.html",
+  "editor": "V.S. Sukthankar, S.K. Belvalkar, P.L. Vaidya, et al.",
+  "encoder_chain": "Muneo Tokunaga et al. (initial digitization) -> John Smith (Cambridge, revision) -> GRETIL (BORI © 1999)",
+  "license": "GRETIL: usage permitted with attribution; per-text encoder header must be preserved",
+  "license_note": "GRETIL surfaces no front-page LICENSE; de-facto policy is usage-with-attribution. The BORI copyright in the per-text header is retained verbatim in each archived .htm.",
+  "fetch_method": "per_file_curl",
+  "throttle_seconds": 1,
+  "user_agent": "vedanta-timeline-corpus-chat-lane9 (eeshan.tripathii@gmail.com)",
+  "encoding": "utf-8",
+  "source_script": "iast",
+  "verse_marker_format": "PP,AAA.VVV<suffix>  (PP=parvan, AAA=adhyāya, VVV=verse; suffix-codes: a/c/etc=pāda label, *NNNN_LL=apparatus passage, @NNN_LL=variant)",
+  "files": [
+    {"parva_num": 1,  "parva_name_iast": "Ādi",            "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_01_u.htm", "local_path": "data/external/gretil/files/mahabharata/mbh_01_adi.htm",            "size_bytes": 1954426, "sha256": "b4202584cd859d1b7bcacc754af8034a88e5963934b87e0495d8d12d79b8daa2"},
+    {"parva_num": 2,  "parva_name_iast": "Sabhā",          "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_02_u.htm", "local_path": "data/external/gretil/files/mahabharata/mbh_02_sabha.htm",          "size_bytes":  798847, "sha256": "91d36d8a3daec975dae80fcfbd243af765917c8415ae84d0d071e54dcc4a8764"},
+    {"parva_num": 3,  "parva_name_iast": "Vana (Āraṇyaka)","url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_03_u.htm", "local_path": "data/external/gretil/files/mahabharata/mbh_03_vana.htm",           "size_bytes": 1980413, "sha256": "018668ae4468c0e14d557e4380e409144f68a53d3b76f941b345b7dba57884b8"},
+    {"parva_num": 4,  "parva_name_iast": "Virāṭa",         "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_04_u.htm", "local_path": "data/external/gretil/files/mahabharata/mbh_04_virata.htm",         "size_bytes":  772377, "sha256": "c117476099ffc173b74753d0689e88dc488a05fcf74bd4e93ad7278e101cdccf"},
+    {"parva_num": 5,  "parva_name_iast": "Udyoga",         "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_05_u.htm", "local_path": "data/external/gretil/files/mahabharata/mbh_05_udyoga.htm",         "size_bytes": 1101108, "sha256": "8d4e900978735b39c9636d472571d43ef947631fe5939cc1cbf303a0d5df9e57"},
+    {"parva_num": 6,  "parva_name_iast": "Bhīṣma",         "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_06_u.htm", "local_path": "data/external/gretil/files/mahabharata/mbh_06_bhisma.htm",         "size_bytes":  970224, "sha256": "b4c0df2b3187a0d638b0581df4378af13ca7d1ea7c89abe0aa2510bfbb82e6fd"},
+    {"parva_num": 7,  "parva_name_iast": "Droṇa",          "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_07_u.htm", "local_path": "data/external/gretil/files/mahabharata/mbh_07_drona.htm",          "size_bytes": 1665210, "sha256": "aaaf837757f8debc593a4b2764ae513525e7570abaa5eb58bc7afc581a1b3778"},
+    {"parva_num": 8,  "parva_name_iast": "Karṇa",          "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_08_u.htm", "local_path": "data/external/gretil/files/mahabharata/mbh_08_karna.htm",          "size_bytes":  997457, "sha256": "964496f5040e86ff3789f60a40a1f6971a018f849ee666bb9e60eb351e550d2d"},
+    {"parva_num": 9,  "parva_name_iast": "Śalya",          "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_09_u.htm", "local_path": "data/external/gretil/files/mahabharata/mbh_09_shalya.htm",         "size_bytes":  596256, "sha256": "48fc84e3a66ba0f5aa1d9ab4b9376c90157a081f1033fdcb47861be3ff81cd76"},
+    {"parva_num": 10, "parva_name_iast": "Sauptika",       "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_10_u.htm", "local_path": "data/external/gretil/files/mahabharata/mbh_10_sauptika.htm",       "size_bytes":  136511, "sha256": "687b36d6f3b079d4e33d14189289511e1d4e208192fa762f3d053a4da734cc36"},
+    {"parva_num": 11, "parva_name_iast": "Strī",           "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_11_u.htm", "local_path": "data/external/gretil/files/mahabharata/mbh_11_stri.htm",           "size_bytes":  133819, "sha256": "4c538724f1499ff0265563b72670af71115ca6d059eb7bb73f54de7cb69564e0"},
+    {"parva_num": 12, "parva_name_iast": "Śānti",          "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_12_u.htm", "local_path": "data/external/gretil/files/mahabharata/mbh_12_shanti.htm",         "size_bytes": 2509247, "sha256": "a99d44fed0ad3dd2a41e7cd218f0495af1a8ae4fea936ed027401c309995bd55"},
+    {"parva_num": 13, "parva_name_iast": "Anuśāsana",      "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_13_u.htm", "local_path": "data/external/gretil/files/mahabharata/mbh_13_anushasana.htm",     "size_bytes": 2003636, "sha256": "e0dd60debb8cee054a19c78386f274731e87bec52d5ebf25674a471803a8b3ee"},
+    {"parva_num": 14, "parva_name_iast": "Aśvamedhika",    "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_14_u.htm", "local_path": "data/external/gretil/files/mahabharata/mbh_14_ashvamedhika.htm",   "size_bytes":  746495, "sha256": "1b1016860aaf9385b190f2b30b4c38bd26f61d4eac0c73a03862e94f2c7e2c3c"},
+    {"parva_num": 15, "parva_name_iast": "Āśramavāsika",   "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_15_u.htm", "local_path": "data/external/gretil/files/mahabharata/mbh_15_ashramavasika.htm",  "size_bytes":  179511, "sha256": "cc335153f6c39c80cf165f330249ad9c4d94aa22a02a63efe8ebffc94ec1bfb7"},
+    {"parva_num": 16, "parva_name_iast": "Mausala",        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_16_u.htm", "local_path": "data/external/gretil/files/mahabharata/mbh_16_mausala.htm",        "size_bytes":   57412, "sha256": "96a72cfde189e6b849c740cfcf93ab7b30dc1cbb690146d1f3c9d56a3167bfd1"},
+    {"parva_num": 17, "parva_name_iast": "Mahāprasthānika","url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_17_u.htm", "local_path": "data/external/gretil/files/mahabharata/mbh_17_mahaprasthanika.htm","size_bytes":   24028, "sha256": "5e524dd3d4b037bb21017c92409c0928748560a2c8af8e575741cf9e34e2e42a"},
+    {"parva_num": 18, "parva_name_iast": "Svargārohaṇa",   "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_18_u.htm", "local_path": "data/external/gretil/files/mahabharata/mbh_18_svargarohana.htm",   "size_bytes":   53559, "sha256": "ec2beb1bad56f7030fcd1cb8f9fbcfb32456eae710e36bfd3da7635a24064f32"}
+  ],
+  "ingested_outputs": {
+    "work_card": "data/ingested/mahabharata/mahabharata.json",
+    "per_parva_jsons": "data/ingested/mahabharata/parva_<NN>_<slug>.json (18 files)",
+    "cleaned_plain_text": "data/external/gretil/files/mahabharata/mbh_<NN>_<slug>.txt (18 files)"
+  },
+  "totals": {
+    "parva_count": 18,
+    "verse_count": 73898,
+    "token_count_approx_whitespace": 1233333,
+    "source_html_bytes_total": 16680036,
+    "ingested_json_bytes_approx": 26214400
+  },
+  "blockers_and_followups": [
+    {
+      "kind": "thinker_card_missing",
+      "detail": "data/thinkers/vyasa.json does not exist. Lane 9 declines to author it (out of mandate). Lane 8 should add Vyāsa with engaged_works[] including {text_id: 'mahabharata', ascription_tier: 'traditional-multi-author'}. Existing vyasa-bhasya.json is the Yoga-Sūtra-Bhāṣya author (sometimes identified with the same Vyāsa, but the project keeps them as separate thinker cards)."
+    },
+    {
+      "kind": "tokenizer_fallback",
+      "detail": "prakriya.ocr_api.tokenize is unimportable on rnn (Python 3.8). Lane 9 uses whitespace tokenization; token_count_approx is therefore whitespace-token count (~1.23M), not the morpheme count (~1.8M). Lane 6 / DCS can supplement with morphology when wiring is complete."
+    },
+    {
+      "kind": "apparatus_inclusion",
+      "detail": "Bhandarkar CE separates 'constituted text' from apparatus passages (*NNNN_LL) and variants (@NNN_LL). Lane 9 currently folds apparatus pādas onto the nearest constituted verse-id when they share a (parva, adhyāya, verse) triple. Apparatus material that introduces a new triple (e.g., 'verse 0' invocations) is retained as a standalone verse. Downstream translators should treat pada_count > 2 as a signal of apparatus inclusion."
+    }
+  ]
+}
