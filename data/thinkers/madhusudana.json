@@ -147,6 +147,66 @@
       "summary": "Sustained Advaita Gītā-commentary — 'illumination of the hidden meaning' — that reads the *Bhagavad-Gītā* through the Vivaraṇa lens while preserving the *bhakti*-register defended in the *Bhakti-Rasāyana*. The commentary maps the eighteen chapters onto a three-*kāṇḍa* structure (six chapters of *karma*, six of *bhakti*, six of *jñāna*) (*Gūḍhārtha-Dīpikā*, *upodghāta* and on *Bhagavad-Gītā* 6.46–47); treats Kṛṣṇa as *Saguṇa-Brahman* whose recognition as *Nirguṇa-Brahman* is the soteriological climax (*Gūḍhārtha-Dīpikā* on *Bhagavad-Gītā* 7.7, 10.20, 11.54–55); and gives technically careful Advaita readings of the controversial verses. *Bhagavad-Gītā* 18.66's *sarva-dharmān parityajya* is read as *sannyāsa* enabling *jñāna-niṣṭhā* (*Gūḍhārtha-Dīpikā* on *Bhagavad-Gītā* 18.66); *Bhagavad-Gītā* 9 and 12 on *bhakti* are read with full affective seriousness, not reduced to *upāsanā* (*Gūḍhārtha-Dīpikā* on *Bhagavad-Gītā* 9.13–14, 12.6–8). The *Gūḍhārtha-Dīpikā* is one of the four classical Advaita Gītā-commentaries, alongside Śaṅkara, Ānandagiri, and Nīlakaṇṭha. It is the standard reference for post-fifteenth-century Advaita that retains *bhakti* in the operative register.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
+    },
+    {
+      "work_id": "vedanta-kalpa-latika",
+      "title": "Vedanta-Kalpa-Latika",
+      "title_iast": "Vedānta-Kalpa-Latikā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored short Advaitic prakaraṇa by Madhusūdana Sarasvatī.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A short Advaitic *prakaraṇa* by Madhusūdana Sarasvatī (\"the creeper-vine of the Vedānta-wishing-tree\"). The work compresses the school's doctrinal apparatus — *adhyāsa*, *māyā* as the *upādāna* of *Īśvara*, *jīva-Brahman* identity via *jahad-ajahal-lakṣaṇā* at *tat tvam asi*, *mokṣa* as *brahma-jñāna* — into a pedagogical *prakaraṇa* form for advanced students. It is the natural complement to the *Siddhānta-Bindu* (Madhusūdana's gloss on Śaṅkara's *Daśa-Ślokī*) on the introductory-pedagogical front and to the *Advaita-Siddhi* on the polemical front. The work is part of the modern Sringeri pāṭhaśālā curriculum and supplies the school's standard short compendium of late-Vivaraṇa Advaita.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "prasthana-bheda",
+      "title": "Prasthana-Bheda",
+      "title_iast": "Prasthāna-Bheda",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored doxographic treatise by Madhusūdana Sarasvatī.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A short Sanskrit doxographic treatise by Madhusūdana Sarasvatī enumerating and classifying the philosophical schools (*prasthānas*) of the Sanskrit tradition. The work treats the *āstika* and *nāstika* darśanas, the Vedānta sub-schools, and the *Upaniṣad-*, *sūtra-*, *smṛti-*, and *purāṇa-*based traditions, ranking them by their *prasthāna* (starting-point) within the *śabda-pramāṇa* economy. It is the principal pre-modern Vedāntic doxography composed in Madhusūdana's own voice (as distinct from his polemical *Advaita-Siddhi*) and is structurally comparable to — though shorter than — Mādhava-Vidyāraṇya's *Sarva-Darśana-Saṃgraha*. The work matters for the comparative-claims engine because it supplies Madhusūdana's own taxonomy of the schools that the *Advaita-Siddhi* polemicizes against, and is one of the canonical witnesses to the late-medieval Advaita self-positioning within the broader Sanskrit philosophical landscape.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "sankshepa-shariraka-sara-samgraha",
+      "title": "Sankshepa-Shariraka-Sara-Samgraha",
+      "title_iast": "Saṃkṣepa-Śārīraka-Sāra-Saṃgraha",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored sub-commentarial digest on Sarvajñātman's *Saṃkṣepa-Śārīraka*, ascribed to Madhusūdana by the school transmission.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A sub-commentarial digest of the principal doctrinal moves of Sarvajñātman's *Saṃkṣepa-Śārīraka* — the eleventh-century verse-summary of Śaṅkara's *Brahma-Sūtra-Bhāṣya* in approximately 2,300 verses. Madhusūdana's digest extracts and re-stitches the doctrinal core of the *Saṃkṣepa* at the school's contested loci: the *jahad-ajahal-lakṣaṇā* reading of *tat tvam asi* at *Saṃkṣepa* 1.169–171, the *brahmāśraya-avidyā* doctrine, the *abhāva-pratiyogi-jñāna*-argument against *jīvāśraya-avidyā*. The work is in continuity with Madhusūdana's wider effort to consolidate the Vivaraṇa-line of late Advaita — Sarvajñātman, Prakāśātman, Citsukha, Vidyāraṇya — into a single transmissible polemical apparatus, of which the *Advaita-Siddhi* is the magnum opus and the *Saṃkṣepa-Śārīraka-Sāra-Saṃgraha* the propaedeutic-digest counterpart.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
     }
   ],
   "key_passages": [
