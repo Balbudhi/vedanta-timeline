@@ -230,14 +230,14 @@ const LINES = {
 
   v8b: {
     roman: "Ikk vārī dass te jā, dukh kihde agge pholānge",
-    english: "{2:Just} {1:tell} me {0:once}, {4:who else} {5:is there to share} {3:my sorrows} with?",
+    english: "{2:Just} {1:tell} me {0:once}, {4:before who else} can I let {3:my sorrows} {5:blossom}?",
     words: [
       { roman: "Ikk vārī",   gloss: "just once" },
       { roman: "dass",       gloss: "tell" },
       { roman: "te jā",      gloss: "go on, do tell" },
       { roman: "dukh",       gloss: "sorrows, pains" },
       { roman: "kihde agge", gloss: "before whom" },
-      { roman: "pholānge",   gloss: "will spread open, will unfurl — as in opening one’s heart" }
+      { roman: "pholānge",   gloss: "I will let blossom — from phūl (flower); sorrows opening like petals" }
     ]
   },
 
@@ -526,4 +526,65 @@ function wireInteractions(root) {
   });
 }
 
-document.addEventListener("DOMContentLoaded", render);
+/* =============================================================
+   KARAOKE — sync line highlight to audio playback time
+   ============================================================= */
+
+function setupKaraoke() {
+  const audio = document.getElementById("songAudio");
+  const TIMINGS = window.SONG_TIMINGS || [];
+  if (!audio || !TIMINGS.length) return;
+
+  let activeIdx = -1;
+  let userScrolled = false;
+  let scrollResetTimer = null;
+
+  // Track manual scroll so we don't fight the user.
+  window.addEventListener("scroll", () => {
+    userScrolled = true;
+    if (scrollResetTimer) clearTimeout(scrollResetTimer);
+    scrollResetTimer = setTimeout(() => { userScrolled = false; }, 4000);
+  }, { passive: true });
+
+  audio.addEventListener("timeupdate", () => {
+    const t = audio.currentTime;
+    const idx = TIMINGS.findIndex(seg => t >= seg.start && t < seg.end);
+    if (idx === activeIdx) return;
+    activeIdx = idx;
+
+    document.querySelectorAll(".line.is-singing").forEach(el => el.classList.remove("is-singing"));
+    if (idx < 0) return;
+
+    const article = document.getElementById(`ln-${idx}-${SEQUENCE[idx].ref}`);
+    if (!article) return;
+    article.classList.add("is-singing");
+
+    // Gentle auto-scroll, but only if the user isn't actively scrolling.
+    if (!userScrolled) {
+      const rect = article.getBoundingClientRect();
+      const viewportH = window.innerHeight;
+      if (rect.top < 80 || rect.bottom > viewportH - 100) {
+        article.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    }
+  });
+
+  // Click a line to jump audio there (only if it has a timing).
+  document.getElementById("songRoot").addEventListener("click", e => {
+    if (e.target.closest(".w")) return;            // word click handled elsewhere
+    const article = e.target.closest(".line");
+    if (!article) return;
+    const m = article.id.match(/^ln-(\d+)-/);
+    if (!m) return;
+    const i = parseInt(m[1], 10);
+    const seg = TIMINGS[i];
+    if (!seg) return;
+    audio.currentTime = seg.start;
+    audio.play();
+  });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  render();
+  setupKaraoke();
+});

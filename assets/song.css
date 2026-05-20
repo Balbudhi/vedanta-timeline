@@ -54,6 +54,31 @@ html, body {
   letter-spacing: 0.01em;
 }
 
+/* ---------- Audio bar (sticks to bottom of viewport) ---------- */
+.audio-bar {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 -30px 32px;
+  padding: 10px 24px;
+  background: rgba(251, 250, 247, 0.94);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-top: 1px solid var(--kh-red-soft);
+  z-index: 30;
+  display: flex;
+  justify-content: center;
+}
+.audio-bar audio {
+  width: 100%;
+  max-width: 680px;
+  height: 36px;
+}
+.audio-bar audio::-webkit-media-controls-panel {
+  background: var(--bg-warm);
+}
+
 /* ---------- Section labels (Refrain, I, II, ...) ---------- */
 .section-label {
   font-family: var(--sans);
@@ -71,7 +96,16 @@ html, body {
 /* ---------- Line card ---------- */
 .line {
   margin: 0 0 28px;
-  padding: 0;
+  padding: 8px 14px 8px 14px;
+  margin-left: -14px;
+  margin-right: -14px;
+  border-left: 3px solid transparent;
+  border-radius: 2px;
+  transition: background-color 240ms ease, border-color 240ms ease;
+}
+.line.is-singing {
+  background: #fff8e6;
+  border-left-color: var(--kh-red);
 }
 .line-roman {
   font-family: var(--serif);
