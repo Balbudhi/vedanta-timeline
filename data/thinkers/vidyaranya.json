@@ -125,6 +125,26 @@
       "summary": "Doxographical *saṃgraha* presenting sixteen *darśanas* in ascending order of claimed approximation to truth, beginning with the Cārvāka and culminating in Śaṅkara's Advaita. Each chapter expounds a school in its own technical idiom: Bauddha, Jaina, Rāmānujīya, Pūrṇaprajña (Madhva), Nakulīśa-Pāśupata, Śaiva, Pratyabhijñā, Raseśvara, Aulūkya (Vaiśeṣika), Akṣapāda (Nyāya), Jaimini, Pāṇinīya, Sāṃkhya, Pātañjala, and finally Śāṅkara. The work is universally cited as a principal Sanskrit source for opposed-school positions. Institutionally it is the single most influential pre-modern Indian doxography. Methodologically it is a paradigm of *pūrvapakṣa*-fidelity: schools are presented in their own voice with their canonical citations before being relativized to the Advaita climax. Some modern scholars debate the exact compositional role of Mādhava as against his collaborators; the work is firmly within the Vidyāraṇya–Sāyaṇa Vijayanagara scholarly project.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
+    },
+    {
+      "work_id": "anubhuti-prakasha",
+      "title": "Anubhuti-Prakasha",
+      "title_iast": "Anubhūti-Prakāśa",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Advaita Upaniṣadic verse-summary attributed to Vidyāraṇya by stable manuscript tradition and the Sringeri pāṭhaśālā curriculum.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
+      ],
+      "genre": "verse-summary",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Sanskrit verse-summary of the principal Upaniṣads from the Advaita standpoint, in twenty *prakaraṇas* covering the *daśa-upaniṣads* and several minor Upaniṣads. The work is the natural complement to the *Pañcadaśī*: where the latter sequences the school's doctrinal topics, the *Anubhūti-Prakāśa* sequences the canonical Upaniṣads themselves, supplying a verse-form Advaitin reading of each. The treatment of the *mahā-vākyas* — *tat tvam asi* (Chāndogya 6.8.7), *aham brahmāsmi* (Bṛhadāraṇyaka 1.4.10), *prajñānam brahma* (Aitareya 3.1.3), *ayam ātmā brahma* (Māṇḍūkya 2) — follows the *jahad-ajahal-lakṣaṇā* identity-reading codified at Śaṅkara's *Chāndogya-Bhāṣya* on 6.8.7 and elaborated at Sarvajñātman's *Saṃkṣepa-Śārīraka* 1.169–171. The work is one of the principal vehicles through which the school's Upaniṣad-reading is transmitted at the pāṭhaśālā level.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
     }
   ],
   "key_passages": [
