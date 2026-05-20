@@ -3226,28 +3226,28 @@ sup.cite-fn .cite-fn-link:hover {
    subtle warm-grey steps (not brown plateaus), accent colors are
    saturated enough to read clearly on the deep ground. */
 html[data-theme="dark"] {
-  --bg:           #050505;
-  --bg-warm:      #0c0c0b;
-  --bg-warmer:    #131312;
-  --pane-bg:      #080807;
+  --bg:           #0c0b09;
+  --bg-warm:      #14120f;
+  --bg-warmer:    #1c1a16;
+  --pane-bg:      #0f0e0c;
   --ink:          #ece8d8;
   --ink-soft:     #b5b0a0;
   --muted:        #6e695c;
   --muted-soft:   #4a463c;
-  --rule:         #1f1d18;
-  --rule-warm:    #2a2820;
-  --hairline:     #15140f;
+  --rule:         #25221d;
+  --rule-warm:    #2f2c25;
+  --hairline:     #1a1814;
   --shadow-sm:    0 1px 3px rgba(0,0,0,.6);
   --shadow-md:    0 6px 18px rgba(0,0,0,.7);
   --shadow-lg:    0 18px 44px rgba(0,0,0,.75);
 
-  --label-bg:     rgba(10,10,9,0.96);
-  --label-bg-soft: rgba(10,10,9,0.86);
+  --label-bg:     rgba(20,18,15,0.96);
+  --label-bg-soft: rgba(20,18,15,0.86);
   --close-btn-bg: transparent;
-  --scrollbar-thumb: #2c2a22;
-  --scrollbar-thumb-hover: #45413a;
-  --dot-border:   #050505;
-  --on-ink:       #050505;
+  --scrollbar-thumb: #2f2c24;
+  --scrollbar-thumb-hover: #47433a;
+  --dot-border:   #0c0b09;
+  --on-ink:       #0c0b09;
 
   /* School palette — saturated to register as accents on the deep
      canvas, not pastel washouts. */
@@ -3358,3 +3358,58 @@ html[data-theme="dark"] .articles-modal,
 html[data-theme="dark"] .about-modal {
   background: rgba(0,0,0,0.78);
 }
+
+/* Filter chips — in dark mode the default selected state uses
+   var(--ink) (light cream) as a pill background, which (a) shouts
+   against the dark canvas and (b) collides with the hardcoded
+   #cbd5e1 SOLO color downstream (light text on light pill). Render
+   chips as dark surfaces with light ink instead. */
+html[data-theme="dark"] .filter-chip {
+  background: var(--bg-warm);
+  border-color: var(--rule);
+  color: var(--ink-soft);
+}
+html[data-theme="dark"] .filter-chip:hover {
+  background: var(--bg-warmer);
+  border-color: var(--ink-soft);
+  color: var(--ink);
+}
+html[data-theme="dark"] .filter-chip.is-on {
+  background: var(--bg-warmer);
+  border-color: var(--ink-soft);
+  color: var(--ink);
+}
+html[data-theme="dark"] .filter-chip.is-on .chip-swatch {
+  box-shadow: 0 0 0 1.5px var(--ink);
+}
+html[data-theme="dark"] .filter-chip-solo {
+  border-color: var(--rule);
+  color: var(--muted);
+  background: var(--bg-warm);
+}
+html[data-theme="dark"] .filter-chip-wrap.is-on .filter-chip-solo {
+  border-color: var(--ink-soft);
+  background: var(--bg-warmer);
+  color: var(--ink-soft);
+  border-left-color: var(--rule);
+}
+html[data-theme="dark"] .filter-chip-solo:hover {
+  background: var(--bg-warmer);
+  color: var(--ink);
+}
+html[data-theme="dark"] .filter-chip-wrap.is-on .filter-chip-solo:hover {
+  background: var(--ink);
+  color: var(--on-ink);
+}
+html[data-theme="dark"] .filter-chip--preset {
+  background: transparent;
+  border-color: var(--rule);
+  color: var(--ink-soft);
+}
+html[data-theme="dark"] .filter-chip--preset:hover {
+  border-color: var(--ink-soft);
+  color: var(--ink);
+}
+html[data-theme="dark"] .filter-bulk-btn { color: var(--muted); }
+html[data-theme="dark"] .filter-bulk-btn:hover { color: var(--ink); }
+html[data-theme="dark"] .filter-drawer { background: var(--bg); }
