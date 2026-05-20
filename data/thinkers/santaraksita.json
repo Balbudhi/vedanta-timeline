@@ -1,0 +1,62 @@
+{
+  "id": "santaraksita",
+  "name": "Śāntarakṣita",
+  "name_iast": "Śāntarakṣita",
+  "alternate_names": ["Bodhisattva Ācārya"],
+  "dates_low": 725,
+  "dates_high": 788,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Conventionally dated c. 725–788 CE on the basis of Tibetan historical records (he was invited by King Trisong Detsen to Tibet and died there in 788, founded Samye monastery c. 779). Indian materials are silent on his death date; the Tibetan date is therefore the firm anchor. Frauwallner and Lindtner accept these dates without significant revision.",
+  "school": "Mādhyamaka",
+  "school_color_token": "madhyamaka-comparator",
+  "sub_school": "Yogācāra-Mādhyamaka-Svātantrika",
+  "sub_school_shade": 3,
+  "lineage_in": ["bhaviveka", "dharmakirti"],
+  "lineage_out": ["kamalasila"],
+  "lineage_polemical": [],
+  "core_thesis": "Śāntarakṣita is the principal synthesizer of late Indian Buddhist philosophy. The *Tattva-Saṅgraha* (Compendium of Reality, 3645 verses in 26 chapters) is the most ambitious doxographical-polemical work surviving from any Indian darśana — a systematic refutation of every non-Buddhist position then on the field (Sāṅkhya prakṛti, Nyāya-Vaiśeṣika padārtha-realism, Vaiśeṣika atomism, Mīmāṃsā śabda-eternality, the Brahmanical Īśvara-arguments, the doctrine of the substantial Self, the doctrine of *jāti* as a real universal, the Cārvāka materialist position) together with an internal Buddhist critique that positions the *yogācāra-mādhyamaka-svātantrika* synthesis as the school's mature self-understanding. The synthesis runs at two levels. At the conventional level (*saṃvṛti*) Śāntarakṣita accepts the Yogācāra account: external objects are not independently real, and the world of experience is to be analyzed in terms of consciousness-only (*cittamātra*). At the ultimate level (*paramārtha*) he is Mādhyamika: even consciousness itself is empty of own-being, and the Yogācāra cittamātra is therefore a propaedeutic stage rather than the final analysis. The signature argument is the *sarva-dharma-niḥsvabhāvatā-sādhana* — the demonstration that all dharmas are empty of own-being — articulated as a positive autonomous inference (svatantra-anumāna) rather than as bare prasaṅga, which places him in Bhāviveka's Svātantrika lineage against Candrakīrti's Prāsaṅgika. The *Madhyamakālaṅkāra* (Ornament of the Middle Way) supplies the more compact statement of this two-level synthesis and is the principal source for the school's later Tibetan reception.",
+  "engaged_works": [
+    {
+      "work_id": "tattva-sangraha-santaraksita",
+      "title": "Tattva-Sangraha",
+      "title_iast": "Tattva-Saṅgraha",
+      "alternate_titles": ["Compendium of Reality"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Śāntarakṣita; Kamalaśīla supplies the standard *Pañjikā* commentary. Sanskrit text extant in full (Krishnamacharya edition 1926, Shastri edition 1968). Jha's English translation (1937) is the standard reference. Not to be confused with Sadyojyotis's *Tattva-Saṅgraha* (a much shorter Śaiva kārikā-treatise).",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Frauwallner 1961, Landmarks in the History of Indian Logic; Jha translation introduction." }
+      ],
+      "genre": "shastra",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Twenty-six chapters of doxographical-polemical refutation followed by the positive articulation of the Buddhist position. Chapters 1–6 refute Sāṅkhya prakṛti, the doctrine of a substantial self, and the doctrine of God (*Īśvara-Parīkṣā*). Chapters 7–12 refute the doctrine of substance (Vaiśeṣika dravya), the doctrine of quality (guṇa), the doctrine of action (karman), the doctrine of universals (sāmānya), the doctrine of particularity (viśeṣa), and the doctrine of inherence (samavāya) — the six Vaiśeṣika padārthas treated systematically. Chapters 13–17 refute the doctrine of substance-words, the doctrine of meaning-relation, and the Mīmāṃsā doctrine of śabda-eternality. Chapters 18–24 treat the Buddhist categories — momentariness, the means of knowledge (*pramāṇa-vāda*, in dialogue with Dignāga and Dharmakīrti), the negation of universals on the Buddhist construal (*apohavāda*), and the doctrine of liberation. Chapter 25 treats the *atīndriya-artha-darśana* (the supernormal perception of yogins) and chapter 26 the establishment of the trustworthiness of the Buddha. The Pañjikā by Kamalaśīla supplies the indispensable exegetical apparatus."
+    },
+    {
+      "work_id": "madhyamakalankara",
+      "title": "Madhyamakalankara",
+      "title_iast": "Madhyamakālaṅkāra",
+      "alternate_titles": ["Ornament of the Middle Way"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Śāntarakṣita with his own *Madhyamakālaṅkāra-Vṛtti*. Sanskrit lost; Tibetan translation Toh. 3884; reconstructed and studied by Ichigō (1985) and Blumenthal (2004).",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Ichigō 1985 critical edition; Blumenthal 2004 The Ornament of the Middle Way." }
+      ],
+      "genre": "shastra",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Ninety-seven verses with autocommentary articulating the two-level synthesis. The opening verses establish that no entity, whether singular or plural, can sustain analysis under either the Sautrāntika realist or the Yogācāra idealist construal: the *neither-one-nor-many* argument (*ekāneka-viyoga*) is the canonical Mādhyamaka analysis Śāntarakṣita deploys against every substantialist option. The middle verses develop the conventional-level acceptance of Yogācāra cittamātra: at the level of saṃvṛti, the world of experience is reasonably analyzed as consciousness-only and the postulation of external objects is unnecessary. The final verses cancel even this analysis at the level of paramārtha: consciousness too is empty of own-being. The treatise is the canonical statement of Yogācāra-Mādhyamaka-Svātantrika as a coherent doctrinal position and the principal text through which Indian Mādhyamaka is transmitted to Tibet."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Śāntarakṣita is the founder of monastic Buddhism in Tibet (Samye monastery, c. 779 CE) and the principal channel through which Indian Mādhyamaka enters the Tibetan tradition. His Yogācāra-Mādhyamaka-Svātantrika synthesis is canonized in the Tibetan dGe-lugs doxography as one of the four classical Mādhyamaka subschools and is the position of the rNying-ma tradition. Sanskrit Vedāntic engagement targets the Mādhyamaka position in general rather than Śāntarakṣita specifically; the *Tattva-Saṅgraha*'s detailed refutations of Brahmanical positions document the state of Indian inter-darśana debate in the eighth century with a thoroughness unmatched by any other surviving source.",
+  "entry_status": "draft",
+  "entry_owner_agent": "thinker-corpus-expansion-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "thinker-corpus-expansion-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "substrate_structure", "value": "no-substrate", "register": "metaphysical", "citation_locus": "Madhyamakālaṅkāra vv. 1–10", "confidence": "high" },
+    { "primitive": "method_of_critique", "value": "autonomous-inference", "register": "logical-dialectical", "citation_locus": "Madhyamakālaṅkāra", "confidence": "high" }
+  ],
+  "cross_engagements": []
+}

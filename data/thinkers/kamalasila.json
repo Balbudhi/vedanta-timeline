@@ -1,0 +1,77 @@
+{
+  "id": "kamalasila",
+  "name": "Kamalaśīla",
+  "name_iast": "Kamalaśīla",
+  "alternate_names": [],
+  "dates_low": 740,
+  "dates_high": 795,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Conventionally dated c. 740–795 CE on the basis of his being Śāntarakṣita's direct disciple (Śāntarakṣita d. 788) and his participation in the famous *Bsam-yas Debate* with the Chinese Chan master Heshang Moheyan, traditionally dated to the 790s. The Tibetan historical literature is the firm anchor; Indian sources are silent.",
+  "school": "Mādhyamaka",
+  "school_color_token": "madhyamaka-comparator",
+  "sub_school": "Yogācāra-Mādhyamaka-Svātantrika",
+  "sub_school_shade": 3,
+  "lineage_in": ["santaraksita"],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Kamalaśīla is Śāntarakṣita's principal disciple and the consolidator of the Yogācāra-Mādhyamaka-Svātantrika position. His three *Bhāvanā-Krama* (Stages of Meditation) treatises supply the canonical Mādhyamaka articulation of the gradualist path — meditative analysis (*vipaśyanā*) supported by calm-abiding (*śamatha*), proceeding step by step through the analytic dissolution of svabhāva-construals, culminating in the non-conceptual realization of emptiness. The first *Bhāvanā-Krama* is the principal text and is the Indian Mādhyamaka's most explicit statement that the bodhisattva-path is gradual rather than sudden: there is no shortcut by which non-conceptual realization can be achieved without prior analytic investigation. The position is articulated against the Chan-style claim (which Kamalaśīla encounters historically in the figure of Heshang Moheyan) that the cultivation of non-conceptual awareness without prior analysis is itself the path; Kamalaśīla argues that such cultivation, in the absence of analytic prajñā, cannot dissolve the substantialist habit-energies and so cannot constitute the bodhisattva-path. The *Tattva-Saṅgraha-Pañjikā* (the principal commentary on Śāntarakṣita's *Tattva-Saṅgraha*) supplies the technical apparatus for the polemical chapters, and the *Madhyamakāloka* (Light of the Middle Way) extends the *Madhyamakālaṅkāra*'s analysis with additional articulations of the *neither-one-nor-many* argument and of the relationship between conventional Yogācāra and ultimate Mādhyamaka.",
+  "engaged_works": [
+    {
+      "work_id": "bhavana-krama-i",
+      "title": "Bhavana-Krama I",
+      "title_iast": "Bhāvanā-Krama I",
+      "alternate_titles": ["First Stages of Meditation"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Kamalaśīla. The first of three Bhāvanā-Krama treatises. Sanskrit text extant (Tucci 1958 edition, Minor Buddhist Texts II). The three together survive in Tibetan translation (Toh. 3915–3917).",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Tucci 1958 critical edition; Sharma 1997 study and translation." }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A prose treatise on the cultivation of the bodhisattva-path articulated in terms of the integration of *śamatha* (calm-abiding) and *vipaśyanā* (analytic insight). The treatise establishes that the bodhisattva-path requires both: śamatha without vipaśyanā produces stabilization without liberation, and vipaśyanā without śamatha produces conceptual understanding without transformative realization. The analytic content of vipaśyanā is the Mādhyamaka analysis of emptiness — the *neither-one-nor-many* argument and its corollaries — and the meditative result is the non-conceptual realization of emptiness that the analytic investigation prepares. The position is articulated against the suddenist claim that non-conceptual awareness can be cultivated directly. The treatise is the principal Indian Mādhyamaka source for the gradualist account of the path and is the doctrinal seed of Tsong-kha-pa's *Lam Rim* tradition in Tibet."
+    },
+    {
+      "work_id": "tattva-sangraha-panjika",
+      "title": "Tattva-Sangraha-Panjika",
+      "title_iast": "Tattva-Saṅgraha-Pañjikā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Kamalaśīla as the principal commentary on his teacher Śāntarakṣita's Tattva-Saṅgraha. The Pañjikā is transmitted with the root-text in the standard editions (Krishnamacharya 1926, Shastri 1968).",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Frauwallner 1961." }
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A complete prose commentary on Śāntarakṣita's twenty-six-chapter doxographical-polemical *Tattva-Saṅgraha*. The Pañjikā supplies the exegetical apparatus that makes the root-text's compressed verse-arguments usable: identifying the opponent's exact position, citing the relevant primary sources, articulating the precise logical structure of the refutation, and drawing out the implications for the constructive Yogācāra-Mādhyamaka-Svātantrika position. Without the Pañjikā the *Tattva-Saṅgraha* is largely unreadable; with it the pair forms the most thorough doxographical resource on eighth-century Indian inter-darśana debate available from any source."
+    },
+    {
+      "work_id": "madhyamakaloka",
+      "title": "Madhyamakaloka",
+      "title_iast": "Madhyamakāloka",
+      "alternate_titles": ["Light of the Middle Way"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Kamalaśīla. Sanskrit lost; Tibetan translation Toh. 3887. Studied by Keira (2004) and others.",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Keira 2004 study of the Madhyamakāloka." }
+      ],
+      "genre": "shastra",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "An extended prose treatise developing the Madhyamaka analysis of emptiness with particular attention to the relationship between conventional Yogācāra and ultimate Madhyamaka — the structural premise of the school. The treatise refines the *neither-one-nor-many* argument with additional case-studies and engages systematically with the alternative Madhyamaka positions of the period (Bhāviveka, Candrakīrti, and the Buddhapālita lineage). The text is the most extended Indian articulation of the Yogācāra-Madhyamaka-Svātantrika synthesis and is the principal philosophical resource for the later Tibetan elaboration of the position."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Kamalaśīla is the principal channel through which the Yogācāra-Madhyamaka-Svātantrika position enters Tibet, and the *Bsam-yas Debate* — in which the Indian gradualist position is traditionally held to have prevailed over the Chinese suddenist position — is the foundational event of Tibetan Buddhist doctrinal identity. The historical reality of the debate is contested by modern scholarship (Demiéville 1952, Le Concile de Lhasa; Gomez 1983), but its doctrinal significance for the Tibetan tradition is uncontested. Sanskrit Vedāntic engagement with Kamalaśīla is indirect and proceeds via the Mādhyamaka heading.",
+  "entry_status": "draft",
+  "entry_owner_agent": "thinker-corpus-expansion-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "thinker-corpus-expansion-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "substrate_structure", "value": "no-substrate", "register": "metaphysical", "citation_locus": "Madhyamakāloka", "confidence": "high" },
+    { "primitive": "practice_path", "value": "gradualist-analytic-meditation", "register": "soteriological", "citation_locus": "Bhāvanā-Krama I", "confidence": "high" }
+  ],
+  "cross_engagements": []
+}

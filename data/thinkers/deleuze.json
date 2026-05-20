@@ -3,6 +3,7 @@
   "name": "Gilles Deleuze",
   "name_iast": "Gilles Deleuze",
   "school": "Continental Philosophy",
+  "school_color_token": "cross-tradition",
   "entry_status": "stub-from-article-phase2",
   "core_thesis": "Article-backed thinker stub created during primitives_v2 Phase 2 from `data/articles/source/deleuze.md`.",
   "primitive_commitments": [

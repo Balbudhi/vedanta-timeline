@@ -1,0 +1,48 @@
+{
+  "id": "allama-prabhu",
+  "name": "Allama Prabhu",
+  "name_iast": "Allama Prabhu",
+  "alternate_names": ["Allamaprabhu", "Prabhudeva"],
+  "dates_low": 1130,
+  "dates_high": 1196,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Conventionally dated by the standard accounts of the twelfth-century Kalyāṇa Vīraśaiva movement to c. 1130–1196 CE. The principal evidence is the corpus of Vacanas (Kannada free-verse devotional utterances) attributed to him and the hagiographical record in the *Śūnya-Sampādane* anthology. Ramanujan 1973 (*Speaking of Śiva*) translation introduction and the modern Kannada literary-historical scholarship converge on this window.",
+  "school": "Vīraśaiva",
+  "school_color_token": "virashaiva-comparator",
+  "sub_school": "Kalyāṇa Vīraśaiva (Vacanakāra)",
+  "sub_school_shade": 2,
+  "lineage_in": [],
+  "lineage_out": ["basava"],
+  "lineage_polemical": [],
+  "core_thesis": "Allama Prabhu is the principal philosophical voice of the twelfth-century Kalyāṇa Vīraśaiva movement and, in the tradition's own self-understanding, the spiritual head of the *Anubhava-Maṇṭapa* (the Hall of Experience) where Basava, Akkamahādevi, and the other Vacanakāras gathered. The corpus of Vacanas attributed to him (approximately 1300 in the standard editions, with significant variation in attribution among the manuscripts) is the most philosophically dense of the major Vacanakāra corpora: shorter, more cryptic, and more sustained in negation than the more devotional vacanas of Basava or Akkamahādevi. The doctrinal position articulated in the corpus is *śūnya-sampādane* (the achievement of the void) — a non-dualism in which the bound soul (*aṅga*) and the supreme principle (*liṅga*) are realized as ultimately non-distinct, with the realization characterized phenomenologically as the dissolution of the substantialist sense of self into the *bayalu* (Kannada for emptiness, vast space, the void). The position is structurally close to Advaita Vedānta on the question of ultimate non-duality but distinguishes itself in two respects: it preserves the Śaiva theological framework throughout — the ultimate is articulated as Śiva-Liṅga rather than as Brahman without further determination — and it grounds the realization in the personal experience of the Vacanakāra rather than in the textual authority of the Veda (the Vacanas are explicit in subordinating Vedic authority to lived realization). Allama's vacanas are particularly notable for their use of paradoxical and apophatic figures — the *bedagina vacana* (riddle-vacana) genre — that resist propositional interpretation and demand the reader's experiential engagement. The corpus is therefore both philosophy and pedagogy: a body of utterances designed to provoke the realization it describes.",
+  "engaged_works": [
+    {
+      "work_id": "allama-vacanas",
+      "title": "Vacanas of Allama Prabhu",
+      "title_iast": "Allama-Vacana-Saṃkalana",
+      "alternate_titles": ["Allama Prabhu Vacanagalu"],
+      "ascription_tier": "attributed",
+      "ascription_notes": "The corpus of approximately 1300 vacanas conventionally attributed to Allama Prabhu in the standard Kannada editions. The attribution of individual vacanas is sometimes contested (some appear in multiple Vacanakāra corpora) but the bulk of the corpus is uniformly attributed in the manuscript tradition.",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Halakatti 1923 collected edition; modern Karnataka State Vacana publications; Ramanujan 1973 selection and translation." }
+      ],
+      "genre": "vacana",
+      "language": "kannada",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Approximately 1300 free-verse Kannada utterances, each typically four to ten lines long, signed with the *aṅkita* (signature) *Guheśvara* (Lord of the Cave). The corpus addresses the principal questions of Vacanakāra spirituality — the relation of the soul to Śiva, the structure of bondage and liberation, the proper conduct of the *jaṅgama* (the wandering Śaiva mendicant), the role of the *guru* and the *liṅga*, the critique of Brahmanical ritualism and caste — in a register of compressed, often paradoxical, often cryptic utterance. The principal doctrinal content is the *śūnya-sampādane* — the realization of the void in which the apparent distinction between soul and Śiva dissolves. The corpus is the most philosophically sustained of the major Vacanakāra collections and is the principal source for the Vīraśaiva non-dualist position articulated experientially rather than scholastically. Modern English translations: Ramanujan 1973 (selection, *Speaking of Śiva*); H. S. Shivaprakash 2010 (*I Keep Vigil of Rudra*)."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Allama Prabhu is the spiritual head of the *Anubhava-Maṇṭapa* in the Vīraśaiva tradition's self-understanding and is the natural philosophical complement to Basava's more social-reformist vacanas. The corpus is the principal source for the *śūnya-sampādane* position and is the seed of the later scholastic Vīraśaiva tradition that articulates the position more systematically (the *Śaṭ-Sthala* literature, the *Liṅgaṅga-Sāmarasya* doctrine). Modern Karnataka social-reform movements (the twentieth-century recovery of the Vacana literature, the Kuvempu and Devanur Mahadeva responses) treat Allama as the canonical philosophical voice of the tradition. Sanskrit-tradition engagement is minimal; the Vacanakāras are a Kannada vernacular movement and reach Sanskrit doxography only through the much later scholastic Vīraśaiva treatises.",
+  "entry_status": "draft",
+  "entry_owner_agent": "thinker-corpus-expansion-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "thinker-corpus-expansion-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "substrate_structure", "value": "non-dual-void", "register": "metaphysical", "citation_locus": "Allama Vacanas (bayalu/śūnya-sampādane)", "confidence": "high" },
+    { "primitive": "pramana_authority", "value": "lived-realization-over-text", "register": "epistemological", "citation_locus": "Allama Vacanas", "confidence": "high" },
+    { "primitive": "soteric_end", "value": "non-dual-liṅga-aṅga-merger", "register": "soteriological", "citation_locus": "Allama Vacanas", "confidence": "high" }
+  ],
+  "cross_engagements": []
+}

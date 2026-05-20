@@ -1,0 +1,63 @@
+{
+  "id": "atisha",
+  "name": "Atiśa Dīpaṅkara Śrījñāna",
+  "name_iast": "Atiśa Dīpaṅkara Śrījñāna",
+  "alternate_names": ["Atiśa", "Dīpaṅkara Śrījñāna", "Jo-bo-rje"],
+  "dates_low": 982,
+  "dates_high": 1054,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Conventionally dated 982–1054 CE on the basis of the Tibetan historical record, which is unusually firm for an Indian figure of this period. Atiśa arrived in Tibet in 1042 at the invitation of the western Tibetan king Yeshe-Ö and Jang-chub-Ö, and the Tibetan biographical literature documents his subsequent activities with hagiographic but historically usable detail. Eimer 1979 (Rnam thar rgyas pa, the standard biographical edition).",
+  "school": "Mādhyamaka",
+  "school_color_token": "madhyamaka-comparator",
+  "sub_school": "Late Vikramaśīla Mādhyamaka",
+  "sub_school_shade": 3,
+  "lineage_in": ["nagarjuna", "candrakirti", "santideva"],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Atiśa Dīpaṅkara Śrījñāna is the principal late Vikramaśīla Mādhyamika and the founder, through his Tibetan disciples, of the *bKa'-gdams-pa* lineage that becomes the Tibetan dGe-lugs school under Tsong-kha-pa. The *Bodhi-Patha-Pradīpa* (Lamp for the Path to Awakening) is a brief verse-treatise of sixty-eight stanzas articulating the bodhisattva-path under the three-fold scheme that becomes the structural framework of the Tibetan *Lam Rim* (Stages of the Path) tradition: the *adhama-puruṣa* (the disciple of lesser capacity, who pursues a favorable rebirth), the *madhyama-puruṣa* (the disciple of middling capacity, who pursues individual liberation), and the *uttama-puruṣa* (the disciple of highest capacity, the bodhisattva, who pursues full awakening for the sake of all sentient beings). The treatise's systematic articulation of the bodhisattva-path supplies the structural template for Tsong-kha-pa's *Lam Rim Chen Mo* and for the entire subsequent Tibetan tradition of staged-path treatises. Atiśa's distinctive doctrinal position within Mādhyamaka is the Prāsaṅgika reading of Candrakīrti, articulated against the Yogācāra-Madhyamaka-Svātantrika of Śāntarakṣita and Kamalaśīla — Atiśa was the principal vehicle through which the Prāsaṅgika became the dominant Madhyamaka in Tibet. The *Madhyamakopadeśa* (Instructions on the Middle Way) is the parallel shorter treatise on the philosophical content of the path. The *Caryā-Saṅgraha-Pradīpa* (Lamp of the Collected Practice) treats the practical means of the bodhisattva-path. Atiśa's historical importance is therefore double: he is a significant late Indian Mādhyamika in his own right, and he is the principal channel through which Indian Mādhyamaka in its mature Prāsaṅgika form is transmitted to Tibet.",
+  "engaged_works": [
+    {
+      "work_id": "bodhi-patha-pradipa",
+      "title": "Bodhi-Patha-Pradipa",
+      "title_iast": "Bodhi-Patha-Pradīpa",
+      "alternate_titles": ["Lamp for the Path to Awakening", "Byang-chub Lam-gyi sgron-ma"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Atiśa. Sanskrit text largely lost; Tibetan translation Toh. 3947 with Atiśa's own autocommentary (the *Bodhi-Patha-Pradīpa-Pañjikā*). Sherburne 1983 English translation and study.",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Eimer 1978 critical edition of the Tibetan; Sherburne 1983." }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Sixty-eight verses in Sanskrit (extant principally through Tibetan translation) articulating the bodhisattva-path under the three-capacity scheme. The opening verses introduce the scheme — disciples of lesser, middling, and higher capacity — and the body of the treatise treats the practices appropriate to each stage. The disciple of higher capacity practices the six perfections (*pāramitā*), takes the bodhisattva-vows, cultivates bodhicitta, and pursues the conjoined practice of *upāya* (skillful means) and *prajñā* (wisdom). The treatise concludes with the articulation of the relation between *sūtra-yāna* and *mantra-yāna* — the latter accelerating the path but requiring the foundational practices of the former. The treatise is the most influential Indian Mādhyamaka articulation of the staged-path scheme and is the structural template for the Tibetan *Lam Rim* tradition. Atiśa's autocommentary (the *Pañjikā*) supplies the indispensable exegetical apparatus."
+    },
+    {
+      "work_id": "madhyamakopadesha",
+      "title": "Madhyamakopadesha",
+      "title_iast": "Madhyamakopadeśa",
+      "alternate_titles": ["Instructions on the Middle Way"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Atiśa. Extant in Tibetan translation. Studied by Apple 2019 (*Atiśa Dīpaṃkara: Illuminator of the Awakened Mind*).",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Apple 2019 study and translation." }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A short treatise articulating the Prāsaṅgika Madhyamaka analysis of emptiness as the philosophical content of the path. The treatise treats the *neither-one-nor-many* analysis, the *catuṣkoṭi* refutation of the four extreme positions, and the relation between conventional and ultimate truths in the Prāsaṅgika reading of Candrakīrti. The position is articulated against the Svātantrika alternative of Śāntarakṣita and Kamalaśīla — Atiśa explicitly defends the Prāsaṅgika reading and is the principal Indian channel through which it becomes the dominant Tibetan Madhyamaka."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Atiśa is the founder of the Tibetan *bKa'-gdams-pa* (later dGe-lugs) lineage through his principal disciple 'Brom-ston (1004–1064) and is therefore one of the two most influential Indian figures (alongside Padmasambhava) in Tibetan Buddhist history. The *Bodhi-Patha-Pradīpa* is the structural template for Tsong-kha-pa's *Lam Rim Chen Mo* (Great Treatise on the Stages of the Path) and for the entire Tibetan staged-path tradition. The Prāsaṅgika Madhyamaka becomes the dominant Tibetan position through Atiśa's transmission, against the Svātantrika alternative that had been favored earlier through Śāntarakṣita and Kamalaśīla. Sanskrit Vedāntic engagement is minimal — by Atiśa's period the Buddhist scholastic tradition in India is in decline and Vedāntic engagement targets earlier figures.",
+  "entry_status": "draft",
+  "entry_owner_agent": "thinker-corpus-expansion-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "thinker-corpus-expansion-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "substrate_structure", "value": "no-substrate", "register": "metaphysical", "citation_locus": "Madhyamakopadeśa", "confidence": "high" },
+    { "primitive": "practice_path", "value": "graded-path-three-capacities", "register": "soteriological", "citation_locus": "Bodhi-Patha-Pradīpa", "confidence": "high" },
+    { "primitive": "method_of_critique", "value": "prasanga-refutation", "register": "logical-dialectical", "citation_locus": "Madhyamakopadeśa", "confidence": "high" }
+  ],
+  "cross_engagements": []
+}

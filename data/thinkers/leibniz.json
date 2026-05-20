@@ -3,6 +3,7 @@
   "name": "G. W. Leibniz",
   "name_iast": "G. W. Leibniz",
   "school": "Modern Philosophy",
+  "school_color_token": "cross-tradition",
   "entry_status": "stub-from-article-phase2",
   "core_thesis": "Article-backed thinker stub created during primitives_v2 Phase 2 from `data/articles/source/leibniz.md`.",
   "primitive_commitments": [

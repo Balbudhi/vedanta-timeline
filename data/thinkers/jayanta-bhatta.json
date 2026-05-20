@@ -1,0 +1,65 @@
+{
+  "id": "jayanta-bhatta",
+  "name": "Jayanta Bhaṭṭa",
+  "name_iast": "Jayanta Bhaṭṭa",
+  "alternate_names": [],
+  "dates_low": 840,
+  "dates_high": 900,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Conventionally dated c. 840–900 CE on the basis of his explicit self-identification as a Kashmiri at the court of Śaṅkaravarman of Utpala (r. 883–902) and on the citation chain in the *Nyāya-Mañjarī* (which cites Dharmakīrti and Kumārila and is in turn cited by Vācaspati Miśra c. 950). Bhattacharya 1956 and Granoff 1978 (Philosophy and Argument in Late Vedānta) converge on this window.",
+  "school": "Nyāya",
+  "school_color_token": "nyaya-comparator",
+  "sub_school": "Pre-Navya Nyāya",
+  "sub_school_shade": 3,
+  "lineage_in": ["aksapada", "vatsyayana", "uddyotakara"],
+  "lineage_out": ["udayana"],
+  "lineage_polemical": [
+    { "thinker_id": "dharmakirti", "direction": "refutes", "note": "Jayanta's *Nyāya-Mañjarī* mounts the canonical Nyāya defense of the Veda's authority against Dharmakīrti's Buddhist critique, articulated as the *Āgama-Prāmāṇya-Vāda* (the section on scriptural authority) and as the sustained engagement with Dharmakīrti's analysis of inference, perception, and śabda." },
+    { "thinker_id": "kumarila", "direction": "engages", "note": "Jayanta engages Kumārila's Mīmāṃsā doctrines extensively — particularly the Mīmāṃsā doctrine of the eternity of *śabda* and the doctrine that perception cannot grasp universals — though he is doctrinally closer to the Mīmāṃsā position than to the Buddhist." }
+  ],
+  "core_thesis": "Jayanta Bhaṭṭa is the principal articulator of pre-Navya Nyāya in its mature ninth-century form and the author of the most comprehensive surviving Nyāya treatise of the pre-Udayana period. The *Nyāya-Mañjarī* (Cluster of Flowers of Nyāya) is structured as an extended commentary on the sūtra-sequence of Akṣapāda Gautama's *Nyāya-Sūtra*, but it is in substance an independent treatise that systematically engages every disputed issue of late-first-millennium darśanic debate. The treatise's defining contribution is the sustained defense of *śabda-prāmāṇya* (the validity of scriptural testimony as an independent means of knowledge) against the Buddhist reduction of śabda to inference, and the sustained defense of the Veda's authority against the Buddhist scriptures' counter-claim. Jayanta develops a sophisticated theory of *āpta-vacana* (trustworthy utterance) on which the Veda's authority rests on its having no human author (*apauruṣeyatva*) and on the structural reliability of its content — a position that is closer to the Mīmāṃsā than to a theistic Naiyāyika view but is articulated within Nyāya rather than Mīmāṃsā categories. The treatise also supplies sustained engagements with Dharmakīrti's analysis of inference (the Buddhist *trairūpya* — the three marks of a valid *hetu* — is examined and modified), with the Buddhist doctrine of *apoha* (the Nyāya defense of real universals against the apoha-theory), and with the Buddhist analysis of perception (the Nyāya defense of the distinction between *nirvikalpaka* and *savikalpaka* perception against the Buddhist claim that all *savikalpaka* perception is conceptual construction). The *Nyāya-Kalikā* is the shorter introductory treatise on the same materials. The position is structurally continuous with the Uddyotakara line of early Nyāya, refined through the cumulative engagement with Dharmakīrti's challenge, and is the immediate precursor to Udayana's mature systematic Navya-Nyāya.",
+  "engaged_works": [
+    {
+      "work_id": "nyaya-manjari",
+      "title": "Nyaya-Manjari",
+      "title_iast": "Nyāya-Mañjarī",
+      "alternate_titles": ["Cluster of Flowers of Nyāya"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Jayanta Bhaṭṭa. Sanskrit text extant in multiple editions (Sūryanārāyaṇa Śukla 1936, the Kashi Sanskrit Series; revised editions). The standard English study is Bhattacharyya 1978 (Jayanta Bhaṭṭa's Nyāyamañjarī: The Compendium of Indian Speculative Logic).",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Bhattacharya 1956 introduction; Granoff 1978; Watson 2018." }
+      ],
+      "genre": "shastra",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Twelve *āhnikas* (daily lessons) covering the sixteen *padārthas* of the *Nyāya-Sūtra*. The first āhnika treats the foundational issues of how Nyāya is to be conducted and what is established by the science. The second āhnika treats perception (*pratyakṣa*), with sustained engagement with the Buddhist analysis. The third treats inference (*anumāna*), the fourth analogy (*upamāna*). The fifth and sixth — the longest and philosophically most ambitious of the twelve — treat *śabda* (verbal testimony) and contain the canonical Nyāya defense of the Veda's authority (the *Āgama-Prāmāṇya-Vāda*). The remaining āhnikas treat the other padārthas (*prameya*, *saṃśaya*, *prayojana*, *dṛṣṭānta*, etc.) and supply the Nyāya engagement with the rival darśanas (Sāṅkhya, Mīmāṃsā, Buddhist, Cārvāka) on each topic. The treatise is the most comprehensive surviving witness to the state of late-first-millennium Indian inter-darśana debate written from a Nyāya standpoint and the principal source for the pre-Udayana Nyāya position."
+    },
+    {
+      "work_id": "nyaya-kalika",
+      "title": "Nyaya-Kalika",
+      "title_iast": "Nyāya-Kalikā",
+      "alternate_titles": ["Bud of Nyāya"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Jayanta Bhaṭṭa as a shorter introductory treatise. Sanskrit text extant (multiple editions).",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Standard Nyāya doxographical literature." }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A short prose treatise on the sixteen *padārthas* of the *Nyāya-Sūtra*, intended as a propaedeutic to the *Nyāya-Mañjarī*'s more extended treatment. The treatise supplies the standard Nyāya definitions and arguments in compressed form and is the natural starting point for the study of Jayanta's position."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Jayanta Bhaṭṭa is cited extensively by Vācaspati Miśra (c. 950) and by Udayana (c. 1050), and is the principal Nyāya source for the late-first-millennium Buddhist-Nyāya debate. His treatment of *śabda-prāmāṇya* is the standard Nyāya position throughout the subsequent commentarial tradition. The play *Āgama-Ḍambara* (literally Much Ado About Scripture; sometimes attributed to him though the attribution is disputed) is a satirical drama on the doctrinal debates of ninth-century Kashmir and is a unique cultural document of the period.",
+  "entry_status": "draft",
+  "entry_owner_agent": "thinker-corpus-expansion-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "thinker-corpus-expansion-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "pramana_authority", "value": "veda-as-apta-vacana", "register": "epistemological", "citation_locus": "Nyāya-Mañjarī āhnika 5–6", "confidence": "high" },
+    { "primitive": "universals_status", "value": "real-jati", "register": "semantic-ontological", "citation_locus": "Nyāya-Mañjarī", "confidence": "high" }
+  ],
+  "cross_engagements": []
+}

@@ -1,0 +1,64 @@
+{
+  "id": "parthasarathi",
+  "name": "Pārthasārathi Miśra",
+  "name_iast": "Pārthasārathi Miśra",
+  "alternate_names": [],
+  "dates_low": 1075,
+  "dates_high": 1150,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Conventionally dated c. 1075–1150 CE on the basis of the citation chain. He cites Maṇḍana, Sucarita (the early-eleventh-century Bhaṭṭa commentator) and Pārtha himself is cited by Mādhava (c. 1300) in the *Sarva-Darśana-Saṅgraha*. Jha's editions and translations (1939, *Śāstra-Dīpikā*) and the standard Mīmāṃsā secondary literature accept this window.",
+  "school": "Mīmāṃsā",
+  "school_color_token": "mimamsa-comparator",
+  "sub_school": "Bhāṭṭa Mīmāṃsā",
+  "sub_school_shade": 3,
+  "lineage_in": ["jaimini", "shabara", "kumarila"],
+  "lineage_out": [],
+  "lineage_polemical": [
+    { "thinker_id": "prabhakara", "direction": "refutes", "note": "Pārthasārathi's *Nyāya-Ratna-Mālā* is structured in part as a defense of the Bhāṭṭa position against the Prābhākara alternative on the principal disputed Mīmāṃsā questions — the *anvitābhidhāna* vs. *abhihitānvaya* analysis of the relation between word-meaning and sentence-meaning, the *svataḥ-prāmāṇya* vs. *paratah-prāmāṇya* analysis of how cognitions are known to be valid, and the doctrine of *triputi-pratyakṣa* (the threefold reflexive structure of perception)." }
+  ],
+  "core_thesis": "Pārthasārathi Miśra is the principal post-Kumārila articulator of the Bhāṭṭa Mīmāṃsā position and the author of the most comprehensive surviving Bhāṭṭa treatise of the medieval period. The *Śāstra-Dīpikā* (Lamp of the Mīmāṃsā Science) is a sustained commentary on the *Jaimini-Sūtra* and on Kumārila's *Tantra-Vārttika* and *Ṭuptīkā*; it functions as the standard Bhāṭṭa textbook for the subsequent centuries. The *Nyāya-Ratna-Mālā* (Garland of the Jewels of Nyāya) is the shorter prakaraṇa-treatise on Mīmāṃsā epistemology. Three doctrinal positions are central. First, the Bhāṭṭa analysis of *śabda-bodha* (the cognition produced by language) is the *abhihitānvaya* analysis: words first denote their individual meanings, and the relation among these denoted meanings is then constructed by the hearer through inference of the speaker's intended construction — against the Prābhākara *anvitābhidhāna* analysis on which words denote already-related meanings. Second, the Bhāṭṭa analysis of *prāmāṇya* (the validity of a cognition) is *svataḥ-prāmāṇya*: a cognition is intrinsically valid and the inquirer's task is only the elimination of doubt about its validity, not the positive establishment of it — against the Naiyāyika *paratah-prāmāṇya* on which the validity must be positively inferred from the success of the action the cognition motivates. Third, the Bhāṭṭa account of perception includes the doctrine of *triputi-pratyakṣa*: every perception has a threefold structure consisting of the perceiver, the perceived, and the perception itself, all three known together in the act of perception. The treatise is the principal Bhāṭṭa source for the late medieval and early modern engagement with Vedānta on the question of liberation: Pārthasārathi accepts the Mīmāṃsā doctrine that the Veda enjoins action and the Bhāṭṭa doctrine that *jñāna* alone is insufficient for *mokṣa*, against the Advaita reading of the Veda as predominantly *jñāna-kāṇḍa*.",
+  "engaged_works": [
+    {
+      "work_id": "shastra-dipika",
+      "title": "Shastra-Dipika",
+      "title_iast": "Śāstra-Dīpikā",
+      "alternate_titles": ["Lamp of the Mīmāṃsā Science"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Pārthasārathi Miśra. Sanskrit text extant in multiple editions (Ananandāśrama Sanskrit Series; Chowkhamba edition). The Jha translation (1939) is the standard English reference.",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Jha 1939 translation introduction; the standard Mīmāṃsā commentarial tradition uniformly attributes the work to Pārthasārathi." }
+      ],
+      "genre": "shastra",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A sustained Bhāṭṭa commentary on the *Jaimini-Sūtra* and on Kumārila's *Tantra-Vārttika* and *Ṭuptīkā*, organized by the standard twelve-adhyāya structure of the root-sūtra. The first adhyāya treats the foundational questions of Mīmāṃsā: the definition of dharma, the validity of the Veda, the analysis of the categories of injunction and mantra, the analysis of the categories of meaning. The treatise's most cited passages are in the first adhyāya: the defense of the eternality of *śabda* (against the Naiyāyika analysis of śabda as produced), the defense of *svataḥ-prāmāṇya*, the Bhāṭṭa analysis of *śabda-bodha*. The remaining adhyāyas treat the principal Mīmāṃsā ritual-categories — the relation of subsidiary to principal acts, the role of mantras, the analysis of the deities to whom oblations are offered (the Mīmāṃsā position is famously deflationary: *devatā* is just the name in the dative case in the mantra, not a substantial divine recipient). The *Śāstra-Dīpikā* is the principal mature Bhāṭṭa text and the standard textbook for the subsequent tradition."
+    },
+    {
+      "work_id": "nyaya-ratna-mala",
+      "title": "Nyaya-Ratna-Mala",
+      "title_iast": "Nyāya-Ratna-Mālā",
+      "alternate_titles": ["Garland of the Jewels of Nyāya"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Pārthasārathi Miśra. Sanskrit text extant.",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Standard Mīmāṃsā doxographical tradition." }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A topically organized prakaraṇa-treatise on Mīmāṃsā epistemology and on the principal Bhāṭṭa–Prābhākara disputes. The treatise is structured as a series of *nyāya-ratna* (jewel-arguments), each treating a single disputed question with the Bhāṭṭa position defended against the Prābhākara, Naiyāyika, and Buddhist alternatives. The treatments of *prāmāṇya-vāda* (the doctrine of intrinsic validity) and *anyathā-khyāti* (the Bhāṭṭa analysis of erroneous cognition as the apprehension of one thing as another) are particularly important and are cited throughout the subsequent Mīmāṃsā literature."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Pārthasārathi Miśra is the standard Bhāṭṭa textbook author for the late medieval and early modern period. His positions are cited extensively in the subsequent Mīmāṃsā literature (Mādhava's *Jaiminīya-Nyāya-Mālā-Vistara*, Khaṇḍadeva's *Bhāṭṭa-Dīpikā*, Āpadeva's *Mīmāṃsā-Nyāya-Prakāśa*) and supply the canonical formulation of the Bhāṭṭa position. Vedāntic engagement: the Bhāṭṭa positions on *svataḥ-prāmāṇya* and on the role of *jñāna* in liberation are systematically engaged by the Advaita tradition (Maṇḍana's *Brahma-Siddhi*, Sureśvara's *Naiṣkarmya-Siddhi*, and the later Vivaraṇa school) — the Bhāṭṭa positions are doctrinal opponents on the question of the predominance of *jñāna* over *karma* for liberation, and the Bhāṭṭa *svataḥ-prāmāṇya* is broadly accepted by the Advaita tradition as the analysis of how Vedic knowledge-statements are known to be true.",
+  "entry_status": "draft",
+  "entry_owner_agent": "thinker-corpus-expansion-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "thinker-corpus-expansion-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "pramana_authority", "value": "veda-self-validating", "register": "epistemological", "citation_locus": "Śāstra-Dīpikā adhyāya 1", "confidence": "high" },
+    { "primitive": "soteric_end", "value": "ritual-action-with-knowledge", "register": "soteriological", "citation_locus": "Śāstra-Dīpikā", "confidence": "high" }
+  ],
+  "cross_engagements": []
+}

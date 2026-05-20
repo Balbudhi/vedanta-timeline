@@ -1,0 +1,61 @@
+{
+  "id": "bhasarvajna",
+  "name": "Bhāsarvajña",
+  "name_iast": "Bhāsarvajña",
+  "alternate_names": [],
+  "dates_low": 860,
+  "dates_high": 920,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Conventionally dated c. 860–920 CE on the basis of his being approximately contemporary with Jayanta Bhaṭṭa and on the citation chain in the *Nyāya-Sāra* and its auto-commentary *Nyāya-Bhūṣaṇa*. Yogīndrānanda's edition (1968) and the standard secondary literature converge on this window.",
+  "school": "Nyāya",
+  "school_color_token": "nyaya-comparator",
+  "sub_school": "Pre-Navya Nyāya (Śaiva-leaning)",
+  "sub_school_shade": 3,
+  "lineage_in": ["aksapada", "vatsyayana", "uddyotakara"],
+  "lineage_out": ["udayana"],
+  "lineage_polemical": [],
+  "core_thesis": "Bhāsarvajña is a near-contemporary of Jayanta Bhaṭṭa and the author of an idiosyncratic systematic Nyāya treatise that diverges from mainstream pre-Navya Nyāya on several technical points. The *Nyāya-Sāra* is a brief verse-treatise organizing the Nyāya material under a simplified scheme of three pramāṇas — *pratyakṣa*, *anumāna*, and *āgama* — rather than the standard four (which would add *upamāna*). The auto-commentary *Nyāya-Bhūṣaṇa* (Ornament of Nyāya) is the much longer prose elaboration and is the principal philosophical resource. The treatise's distinctive moves include: (i) a Śaiva-leaning theistic Nyāya in which the standard *Īśvara*-arguments are deployed in support of a recognizably Śaiva Īśvara rather than the more denominationally neutral Naiyāyika Īśvara of Uddyotakara and the later Udayana — Bhāsarvajña was personally a Pāśupata initiate, which colors his theology; (ii) the reduction of *upamāna* to inference, departing from the standard Nyāya position; (iii) a sustained engagement with the Buddhist analysis of perception that grants more to the Buddhist than mainstream Nyāya — Bhāsarvajña accepts that *savikalpaka* perception involves a conceptual element in a way that is closer to Dignāga than to the strict Nyāya distinction between *nirvikalpaka* and *savikalpaka* as two genuinely distinct cognitive events. The work is therefore the Nyāya treatise most influenced by the Buddhist epistemological school and the principal evidence that mainstream Naiyāyikas of the period had to engage seriously with Dharmakīrti's analysis.",
+  "engaged_works": [
+    {
+      "work_id": "nyaya-sara",
+      "title": "Nyaya-Sara",
+      "title_iast": "Nyāya-Sāra",
+      "alternate_titles": ["Essence of Nyāya"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Bhāsarvajña as the verse-root for the auto-commentarial *Nyāya-Bhūṣaṇa*. Sanskrit text extant.",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Yogīndrānanda 1968 critical edition." }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A brief verse-treatise organizing the Nyāya material under three pramāṇas. The treatise's brevity and the corresponding density of the auto-commentary make the *Nyāya-Sāra* essentially a mnemonic shell for the *Nyāya-Bhūṣaṇa*'s much larger philosophical content."
+    },
+    {
+      "work_id": "nyaya-bhushana",
+      "title": "Nyaya-Bhushana",
+      "title_iast": "Nyāya-Bhūṣaṇa",
+      "alternate_titles": ["Ornament of Nyāya"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Bhāsarvajña as the auto-commentary on his own *Nyāya-Sāra*. Sanskrit text edited by Yogīndrānanda (1968).",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Yogīndrānanda 1968." }
+      ],
+      "genre": "bhasya",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "An extended prose auto-commentary on the *Nyāya-Sāra* and the principal philosophical resource for Bhāsarvajña's position. The treatise treats perception in its Buddhist-engaging form, inference in its standard Nyāya form (with the *trairūpya* of the *hetu* defended against the Buddhist), and *āgama* (scriptural testimony) with explicit theistic implications: the Veda's authority is grounded in its having Īśvara — specifically Śiva — as its author, against the Mīmāṃsā doctrine of *apauruṣeyatva*. The treatise's *Īśvara-Vāda* section is the most theologically explicit Nyāya defense of theism from the period and is the natural Naiyāyika companion-text to the Pāśupata theological literature."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Bhāsarvajña stands somewhat outside the principal Nyāya doxographical line; his work is cited but his idiosyncratic departures from mainstream Nyāya (the three-pramāṇa scheme, the reduction of *upamāna* to inference, the more concessive engagement with the Buddhist analysis of perception) are not adopted by the subsequent tradition. Udayana and the Navya-Nyāya tradition return to the standard four-pramāṇa scheme and to the strict *nirvikalpaka*/*savikalpaka* distinction. Bhāsarvajña's principal historical importance is the documentation of how seriously the Buddhist epistemological challenge was being engaged within Nyāya in the late ninth century and the natural Naiyāyika partner-text to the Pāśupata theological tradition.",
+  "entry_status": "draft",
+  "entry_owner_agent": "thinker-corpus-expansion-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "thinker-corpus-expansion-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "pramana_authority", "value": "veda-with-divine-author", "register": "epistemological", "citation_locus": "Nyāya-Bhūṣaṇa Īśvara-Vāda", "confidence": "high" }
+  ],
+  "cross_engagements": []
+}

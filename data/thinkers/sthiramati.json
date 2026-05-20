@@ -1,0 +1,64 @@
+{
+  "id": "sthiramati",
+  "name": "Sthiramati",
+  "name_iast": "Sthiramati",
+  "alternate_names": [],
+  "dates_low": 470,
+  "dates_high": 550,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Conventionally dated c. 470–550 CE on the basis of his being demonstrably a generation or two after Vasubandhu (whose late dates are typically fixed c. 400–480) and approximately contemporary with Dharmapāla (530–561). The dating rests on Xuanzang's pilgrimage records and on the citation chain in the *Cheng Weishi Lun* synthesis. Frauwallner (1951, On the Date of the Buddhist Master of the Law Vasubandhu) and the modern consensus accept c. 470–550.",
+  "school": "Yogācāra",
+  "school_color_token": "yogacara-comparator",
+  "sub_school": "Valabhī Yogācāra",
+  "sub_school_shade": 3,
+  "lineage_in": ["asanga", "vasubandhu"],
+  "lineage_out": [],
+  "lineage_polemical": [
+    { "thinker_id": "dharmakirti", "direction": "is-engaged-by", "note": "The mature Yogācāra-pramāṇa synthesis of Dharmakīrti engages the Sthiramati line of commentarial Yogācāra; the precise extent of direct citation is contested but the structural engagement is uncontested in the Tibetan and Chinese reception." }
+  ],
+  "core_thesis": "Sthiramati is the principal commentator on Vasubandhu's Yogācāra treatises and the main exponent of the Valabhī-centered branch of the school (against the Nālandā branch represented by Dharmapāla). Three works are central. The *Triṃśikā-Bhāṣya* — Sthiramati's commentary on Vasubandhu's *Triṃśikā-Vijñapti-Mātratā-Siddhi* — is the principal exegetical apparatus through which the thirty verses of Vasubandhu's compressed treatise are made philosophically usable, and is the basis for the doctrine that the *ālaya-vijñāna* (storehouse-consciousness) is the substrate of all defiled and undefiled phenomena and is itself the locus of the transformative basis-shift (*āśraya-parāvṛtti*) constitutive of awakening. The *Madhyānta-Vibhāga-Bhāṣya-Ṭīkā* — Sthiramati's sub-commentary on Vasubandhu's commentary on Maitreya's *Madhyānta-Vibhāga* — supplies the canonical Yogācāra treatment of the three natures (*tri-svabhāva*: the imagined *parikalpita*, the dependent *paratantra*, and the perfected *pariniṣpanna*) as the school's principal ontological scheme. The *Mahāyāna-Sūtra-Alaṅkāra-Vṛtti-Bhāṣya* — Sthiramati's sub-commentary on Vasubandhu's commentary on Maitreya/Asaṅga's *Mahāyāna-Sūtra-Alaṅkāra* — supplies the school's treatment of the bodhisattva-path articulated under the Yogācāra ontology. Sthiramati's distinctive position within Yogācāra is the *nirākāra-vijñāna-vāda* tendency: he treats the conscious episode itself as the locus of phenomenal content without positing the *ākāra* (the form or image carried by the cognition) as an independently real cognitive object — a position that places him against Dharmapāla's *sākāra-vijñāna-vāda*. The contrast structures the later doxographical split between the two branches of Indian Yogācāra and is the seed of the analogous *nirākāra*/*sākāra* dispute that continues into Ratnākaraśānti and Jñānaśrīmitra.",
+  "engaged_works": [
+    {
+      "work_id": "trimsika-bhasya",
+      "title": "Trimsika-Bhasya",
+      "title_iast": "Triṃśikā-Bhāṣya",
+      "alternate_titles": ["Sthiramati on the Triṃśikā"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Sthiramati as the commentary on Vasubandhu's Triṃśikā-Vijñapti-Mātratā-Siddhi. Sanskrit text extant (Lévi 1925 edition, the principal source on which all subsequent editions depend).",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Lévi 1925 critical edition introduction; the Tibetan canon attribution is uniform." }
+      ],
+      "genre": "bhasya",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A prose commentary on Vasubandhu's thirty verses establishing the doctrine of vijñapti-mātratā (representation-only). The commentary articulates the Yogācāra ontology in detail: the eight consciousnesses (the six sense-consciousnesses, the *manas* or ego-consciousness, the *ālaya-vijñāna* as the substrate); the three natures (the imagined, the dependent, the perfected); the basis-shift (*āśraya-parāvṛtti*) as the structural transformation that converts the ālaya-vijñāna from a substrate of saṃsāra to a substrate of awakening; and the relationship of this ontology to the doctrine of emptiness as the perfected nature. The commentary is the principal Indian exegetical apparatus for the Triṃśikā and is the basis for the entire Chinese Yogācāra (Faxiang) tradition through Paramārtha's translation and Xuanzang's synthesis."
+    },
+    {
+      "work_id": "madhyanta-vibhaga-tika",
+      "title": "Madhyanta-Vibhaga-Bhashya-Tika",
+      "title_iast": "Madhyānta-Vibhāga-Bhāṣya-Ṭīkā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Sthiramati as the sub-commentary on Vasubandhu's bhāṣya on Maitreya's Madhyānta-Vibhāga. Sanskrit text edited by Yamaguchi (1934).",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Yamaguchi 1934 edition; Stanley 1988 study." }
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A sub-commentary supplying the technical apparatus for Vasubandhu's commentary on the *Madhyānta-Vibhāga* (the Distinction between the Middle and the Extremes). The sub-commentary treats the three natures, the four meditative purifications, and the eight stages of the bodhisattva-path in their Yogācāra articulation. The treatment of the three natures is the principal Indian Yogācāra source for the school's claim that the *paratantra* (the dependent nature, the causal-conditional flow of conscious episodes) is the ontological locus of the school's analysis: when the paratantra is misapprehended as having the structure of subject-object duality it is the *parikalpita* (the imagined), and when it is correctly seen as empty of that duality it is the *pariniṣpanna* (the perfected)."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Sthiramati's commentaries are the principal exegetical apparatus for the Indian Yogācāra and the basis for the school's reception in both East Asia and Tibet. The Chinese Faxiang tradition (through Xuanzang's *Cheng Weishi Lun*) synthesizes Sthiramati's and Dharmapāla's positions; the Tibetan tradition tends to treat Sthiramati as the canonical exegete of Vasubandhu. The Sanskrit Vedāntic engagement targets the Yogācāra position under the *vijñānavāda* heading at *Brahma-Sūtra* 2.2.28–32 without naming Sthiramati; the position critiqued in those adhikaraṇas is closer to Sthiramati's articulation than to any alternative.",
+  "entry_status": "draft",
+  "entry_owner_agent": "thinker-corpus-expansion-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "thinker-corpus-expansion-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "substrate_structure", "value": "consciousness-only", "register": "metaphysical", "citation_locus": "Triṃśikā-Bhāṣya", "confidence": "high" },
+    { "primitive": "selfhood_structure", "value": "no-enduring-self", "register": "phenomenological", "citation_locus": "Triṃśikā-Bhāṣya", "confidence": "high" }
+  ],
+  "cross_engagements": []
+}

@@ -3,6 +3,7 @@
   "name": "Anirvan",
   "name_iast": "Anirvan",
   "school": "Sāṅkhya",
+  "school_color_token": "sankhya-comparator",
   "entry_status": "stub-from-article-phase2",
   "core_thesis": "Article-backed thinker stub created during primitives_v2 Phase 2 from `data/articles/source/sankhya-anirban.md`.",
   "primitive_commitments": [

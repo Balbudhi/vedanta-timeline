@@ -1,0 +1,63 @@
+{
+  "id": "dharmapala",
+  "name": "Dharmapāla",
+  "name_iast": "Dharmapāla",
+  "alternate_names": [],
+  "dates_low": 530,
+  "dates_high": 561,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Conventionally dated c. 530–561 CE on the basis of the traditional accounts of his short life as the abbot of Nālandā. The Chinese pilgrim Xuanzang's seventh-century records identify him as Śīlabhadra's teacher and as the principal Nālandā Yogācāra commentator of the immediately pre-Dignāgan generation. Frauwallner (1959) accepts these dates.",
+  "school": "Yogācāra",
+  "school_color_token": "yogacara-comparator",
+  "sub_school": "Nālandā Yogācāra",
+  "sub_school_shade": 3,
+  "lineage_in": ["asanga", "vasubandhu"],
+  "lineage_out": [],
+  "lineage_polemical": [
+    { "thinker_id": "sthiramati", "direction": "engages", "note": "Dharmapāla's *sākāra-vijñāna-vāda* position — that conscious episodes carry as their internal structure an *ākāra* (image, form) of the object — is articulated against the Valabhī tendency represented by Sthiramati, who treats the conscious episode as the locus of phenomenal content without the ākāra as a distinct internal posit. The contrast structures the principal doxographical division within mature Indian Yogācāra." }
+  ],
+  "core_thesis": "Dharmapāla is the principal Nālandā Yogācāra commentator of the immediately pre-Dignāgan generation and the source of the *sākāra-vijñāna-vāda* (the doctrine that consciousness carries internal images) position that defines one of the two principal branches of Indian Yogācāra. His commentary on Vasubandhu's *Triṃśikā* (lost in Sanskrit, partially preserved through Xuanzang's *Cheng Weishi Lun* synthesis) articulates the school against Sthiramati on the question of whether the *ākāra* — the phenomenal form or image carried by a conscious episode — is an internal posit of the cognition itself or whether the cognition has phenomenal content without such an internal posit. Dharmapāla's position is *sākāra* (with-image): the cognition has, as part of its own internal structure, the image-form of its intentional object, and this image is the immediate datum of conscious experience. Against the alternative interpretation that this image is an external object, Dharmapāla maintains that the image is internal to the consciousness; against the alternative interpretation that the cognition has no internal structure beyond bare awareness, he maintains that the image is part of the cognition's own structure. The position is the doctrinal seed of the long Indian debate about sākāra and nirākāra that runs through Dharmakīrti, Prajñākaragupta, Ratnākaraśānti, and Jñānaśrīmitra; it also supplies the technical apparatus through which Xuanzang's Chinese Faxiang school articulates the Yogācāra position. The *Vijñapti-Mātratā-Siddhi* (the synthesis Xuanzang compiles in 659 CE on the basis of ten Indian Yogācāra commentators) treats Dharmapāla as the principal exegete and is therefore the largest surviving textual witness of his position.",
+  "engaged_works": [
+    {
+      "work_id": "dharmapala-trimsika-vrtti",
+      "title": "Dharmapala's Trimsika-Vrtti",
+      "title_iast": "Triṃśikā-Vṛtti (Dharmapāla)",
+      "alternate_titles": [],
+      "ascription_tier": "attributed",
+      "ascription_notes": "Attributed to Dharmapāla; the Sanskrit text is lost. The position is reconstructed from Xuanzang's *Cheng Weishi Lun* (T1585, the *Vijñapti-Mātratā-Siddhi-Śāstra*), which is explicitly a synthesis of ten Yogācāra commentators with Dharmapāla as the principal voice. The reconstruction is therefore mediated and partial.",
+      "ascription_evidence": [
+        { "kind": "transmission-mediated", "description": "Xuanzang Cheng Weishi Lun colophons; Lusthaus 2002, Buddhist Phenomenology." }
+      ],
+      "genre": "bhasya",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A commentary on Vasubandhu's Triṃśikā-Vijñapti-Mātratā-Siddhi, surviving principally through citation and synthesis in Xuanzang's Cheng Weishi Lun. The commentary articulates the *sākāra-vijñāna-vāda* position: the conscious episode carries an internal image (*ākāra*) of its intentional object, and this image is the immediate datum of phenomenal experience. The position is structured against the Sthiramati line of commentarial Yogācāra and supplies the technical vocabulary for the Yogācāra account of perception, judgment, and erroneous cognition. The Chinese transmission preserves enough of the position to reconstruct it with confidence; the precise form of the original Sanskrit prose is lost."
+    },
+    {
+      "work_id": "alambana-pariksa-vrtti",
+      "title": "Alambana-Pariksa-Vrtti",
+      "title_iast": "Ālambana-Parīkṣā-Vṛtti",
+      "alternate_titles": [],
+      "ascription_tier": "attributed",
+      "ascription_notes": "Attributed to Dharmapāla as a commentary on Dignāga's *Ālambana-Parīkṣā*. The Sanskrit is lost; survives through Chinese translation (T1625, by Yijing).",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Frauwallner 1959; Tola and Dragonetti 2004." }
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A commentary on Dignāga's brief but doctrinally pivotal *Ālambana-Parīkṣā* (Investigation of the Object). Dignāga argues there that neither external atoms nor aggregates of atoms can serve as the genuine *ālambana* (intentional object) of cognition, and that the genuine ālambana must be internal to the cognition itself — the canonical Yogācāra argument for vijñapti-mātratā from the analysis of perception. Dharmapāla's commentary articulates the *sākāra* reading: the internal ālambana is the *ākāra* the cognition carries. The commentary is the principal exegetical apparatus for Dignāga's argument and is the channel through which the Yogācāra epistemological tradition picks up the *sākāra* position."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Dharmapāla is the principal Yogācāra exegete for the Chinese Faxiang tradition; Xuanzang's *Cheng Weishi Lun* is structured as a synthesis with Dharmapāla as the central voice, and the Chinese tradition reads the Yogācāra position substantially through him rather than through Sthiramati. The Tibetan tradition, by contrast, reads Yogācāra more through Sthiramati. The bifurcated reception is therefore not a mere accident of transmission but reflects the genuine doctrinal division within mature Indian Yogācāra. Sanskrit Vedāntic polemic treats the Yogācāra position under the *vijñānavāda* heading without distinguishing the *sākāra* and *nirākāra* branches.",
+  "entry_status": "draft",
+  "entry_owner_agent": "thinker-corpus-expansion-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "thinker-corpus-expansion-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "substrate_structure", "value": "consciousness-only", "register": "metaphysical", "citation_locus": "reconstructed from Cheng Weishi Lun", "confidence": "medium" }
+  ],
+  "cross_engagements": []
+}

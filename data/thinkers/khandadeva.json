@@ -1,0 +1,61 @@
+{
+  "id": "khandadeva",
+  "name": "Khaṇḍadeva",
+  "name_iast": "Khaṇḍadeva",
+  "alternate_names": ["Khaṇḍadeva Miśra"],
+  "dates_low": 1600,
+  "dates_high": 1665,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Conventionally dated c. 1600–1665 CE on the basis of his association with the Vārāṇasī Mīmāṃsā circle of the early seventeenth century and on the colophon evidence in the *Bhāṭṭa-Dīpikā*. The standard Mīmāṃsā secondary literature accepts this window (Verpoorten 1987, Mīmāṃsā Literature in the History of Indian Literature series).",
+  "school": "Mīmāṃsā",
+  "school_color_token": "mimamsa-comparator",
+  "sub_school": "Early Modern Bhāṭṭa Mīmāṃsā",
+  "sub_school_shade": 4,
+  "lineage_in": ["jaimini", "shabara", "kumarila", "parthasarathi"],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Khaṇḍadeva is the principal early-modern Bhāṭṭa Mīmāṃsā commentator and the author of the most influential post-Pārthasārathi Mīmāṃsā treatises. The *Bhāṭṭa-Dīpikā* (Lamp of the Bhāṭṭa Position) is a systematic commentary on the *Jaimini-Sūtra* organized adhikaraṇa by adhikaraṇa, articulating the Bhāṭṭa position with the technical precision of seventeenth-century Vārāṇasī scholasticism — the same intellectual milieu that produced the mature Navya-Nyāya of Gadādhara and Raghunātha and the Advaita engagement with Navya-Nyāya methods of Dharmarāja Adhvarīndra. The *Bhāṭṭa-Kaustubha* (Jewel of the Bhāṭṭa Position) is the parallel topical treatise on the disputed Bhāṭṭa–Prābhākara questions. Khaṇḍadeva's distinctive contribution to mature Mīmāṃsā is the use of Navya-Nyāya logical-analytic methods to articulate Mīmāṃsā doctrines with a precision unavailable to the medieval tradition — the *abhihitānvaya* theory of meaning is restated with the Navya-Nyāya apparatus of *paryāptyananta-vyāpyatva* and *avacchedaka-bheda*; the *svataḥ-prāmāṇya* doctrine is restated with explicit attention to the alternative *paratah* analyses available in the contemporary Navya-Nyāya literature. The treatises are the standard mature Bhāṭṭa references for the early-modern period and the principal source through which the school enters the modern scholastic tradition.",
+  "engaged_works": [
+    {
+      "work_id": "bhatta-dipika",
+      "title": "Bhatta-Dipika",
+      "title_iast": "Bhāṭṭa-Dīpikā",
+      "alternate_titles": ["Lamp of the Bhāṭṭa Position"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Khaṇḍadeva. Sanskrit text extant in multiple editions (Chowkhamba Sanskrit Series; the Madras Government Oriental Series).",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Verpoorten 1987 reference; standard early-modern Mīmāṃsā doxography." }
+      ],
+      "genre": "shastra",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A systematic adhikaraṇa-by-adhikaraṇa commentary on the *Jaimini-Sūtra* articulating the Bhāṭṭa position with seventeenth-century Vārāṇasī scholastic precision. The treatise's distinctive feature is its use of Navya-Nyāya logical-analytic methods to clarify the Mīmāṃsā doctrines — definitions are stated with explicit attention to *lakṣaṇa-doṣas* (faults of definition), arguments are restated with the Navya-Nyāya apparatus of pervasion and conditioning relations, and the principal Bhāṭṭa positions are defended against both the Prābhākara alternatives and the contemporary Navya-Nyāya critiques. The treatment of the first adhyāya is the most philosophically dense; the remaining adhyāyas treat the standard Mīmāṃsā ritual-categories with the same scholastic precision."
+    },
+    {
+      "work_id": "bhatta-kaustubha",
+      "title": "Bhatta-Kaustubha",
+      "title_iast": "Bhāṭṭa-Kaustubha",
+      "alternate_titles": ["Jewel of the Bhāṭṭa Position"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Khaṇḍadeva.",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Standard early-modern Mīmāṃsā doxography." }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A topical treatise on the disputed Bhāṭṭa–Prābhākara questions. The treatise covers the principal disputed points — the *abhihitānvaya*/*anvitābhidhāna* analysis of *śabda-bodha*, the *anyathā-khyāti*/*akhyāti* analysis of error, the *svataḥ-prāmāṇya* analysis of valid cognition — with the Bhāṭṭa position defended in each case. The treatise is shorter and more polemically focused than the *Bhāṭṭa-Dīpikā* and is the natural starting point for the study of Khaṇḍadeva's position."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Khaṇḍadeva is the standard early-modern Bhāṭṭa author and is cited extensively in the contemporary Vārāṇasī scholastic literature. His engagement with Navya-Nyāya methods is parallel to Āpadeva's *Mīmāṃsā-Nyāya-Prakāśa* — Āpadeva supplies the more accessible introduction, Khaṇḍadeva the more technically demanding treatment. The two together are the principal early-modern Bhāṭṭa textbooks and the standard references for the modern study of the school.",
+  "entry_status": "draft",
+  "entry_owner_agent": "thinker-corpus-expansion-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "thinker-corpus-expansion-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "pramana_authority", "value": "veda-self-validating", "register": "epistemological", "citation_locus": "Bhāṭṭa-Dīpikā adhyāya 1", "confidence": "high" }
+  ],
+  "cross_engagements": []
+}

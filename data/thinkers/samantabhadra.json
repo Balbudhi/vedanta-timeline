@@ -1,0 +1,62 @@
+{
+  "id": "samantabhadra",
+  "name": "Samantabhadra",
+  "name_iast": "Samantabhadra",
+  "alternate_names": ["Samantabhadra Svāmī"],
+  "dates_low": 530,
+  "dates_high": 620,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Conventionally dated c. 530–620 CE on the basis of his being a generation or so before Akalaṅka (c. 720–780) and on the citation chain in the *Āpta-Mīmāṃsā*. The dating is contested within a wider window (some Digambara accounts place him in the second century CE), but the modern philological consensus (Dixit 1971, Soni 1991) accepts a sixth-century placement.",
+  "school": "Jaina",
+  "school_color_token": "jaina-comparator",
+  "sub_school": "Digambara Jaina Logic",
+  "sub_school_shade": 2,
+  "lineage_in": ["umasvati", "kundakunda", "siddhasena-divakara"],
+  "lineage_out": ["akalanka"],
+  "lineage_polemical": [],
+  "core_thesis": "Samantabhadra is the principal early Digambara Jaina logician and the author of the foundational treatises that articulate the Jaina critique of single-perspective ontologies and the Jaina defense of the omniscience of the Jina. The *Āpta-Mīmāṃsā* (Examination of the Trustworthy Source, also called *Devāgama-Stotra* from its opening verse) is a verse-treatise of 114 stanzas systematically refuting the principal one-sided ontologies — the Vedāntin's identity-position (every plurality is ultimately one), the Buddhist's plurality-position (every unity is ultimately many), the Sāṅkhya's substance-position (the cause exists in the effect), the Nyāya-Vaiśeṣika's emergence-position (the effect is newly produced), the Mīmāṃsaka's eternalism (the Veda is timeless), the Buddhist's momentariness (everything is destroyed each moment) — by drawing out the unwelcome consequences of each one-sided characterization and articulating the Jaina multi-perspectival alternative in each case. The treatise's method is structurally similar to Madhyamaka prasaṅga in its refutation of the alternatives but is constructively different in articulating a positive Jaina multi-perspectival realism rather than a denial of all positions. The *Yukty-Anuśāsana* (Discourse on Reasoning) is the parallel shorter treatise on the application of *yukti* (reasoning) to the Jaina doctrines. The *Svayambhū-Stotra* (Hymn to the Self-Existent Ones) is a devotional-philosophical hymn to the twenty-four Jinas that supplies the school's mature articulation of the trustworthiness of the Jina's teaching — the *āpta* of the *Āpta-Mīmāṃsā*'s title — grounded in the Jina's omniscience (*kevala-jñāna*). Together the corpus is the foundation of the systematic Jaina philosophical engagement with the rival darśanas and is the principal source through which the Digambara tradition develops the analytic apparatus that Akalaṅka and Manikyanandi systematize.",
+  "engaged_works": [
+    {
+      "work_id": "apta-mimamsa",
+      "title": "Apta-Mimamsa",
+      "title_iast": "Āpta-Mīmāṃsā",
+      "alternate_titles": ["Devāgama-Stotra", "Examination of the Trustworthy Source"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Samantabhadra. Sanskrit verse text extant with the principal medieval commentary *Aṣṭa-Sahasrī* by Vidyānandin and the shorter *Aṣṭa-Śatī* by Akalaṅka — the title *Aṣṭa-Sahasrī* (Eight-Thousand) refers to the commentary's expansion of the 114-verse root-text into an extended prose treatment.",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Modern Digambara doxographical tradition; Soni 1991 study; standard Jaina secondary literature." }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "One hundred and fourteen verses in ten *paricchedas* (sections) systematically refuting the principal one-sided ontologies and articulating the Jaina multi-perspectival alternative. The opening verses (1–3) establish the project: the Jina is the *āpta* (trustworthy source) precisely because his teaching captures the multi-aspectual character of the real, against the one-sided characterizations of the rival darśanas. Each subsequent *paricchedā* treats a single contrastive pair — being and non-being, unity and plurality, permanence and impermanence, expressibility and inexpressibility, causal pre-existence and causal emergence, knowledge and ignorance, action and inaction, bondage and liberation, faith and reasoning — refuting each one-sided position and articulating the Jaina synthesis that holds both poles in conditional simultaneity (*syāt*). The treatise is the foundational text of Digambara philosophical method and the principal source for the school's engagement with the rival darśanas. Akalaṅka's commentary *Aṣṭa-Śatī* and Vidyānandin's much longer *Aṣṭa-Sahasrī* are the two principal medieval expansions."
+    },
+    {
+      "work_id": "svayambhu-stotra",
+      "title": "Svayambhu-Stotra",
+      "title_iast": "Svayambhū-Stotra",
+      "alternate_titles": ["Hymn to the Self-Existent Ones"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Samantabhadra.",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Standard Digambara doxographical tradition." }
+      ],
+      "genre": "stotra",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A devotional-philosophical hymn to the twenty-four Tīrthaṅkaras in 143 verses, with each *jina* praised through a brief articulation of one or more doctrinal positions associated with him. The hymn is distinctive within the *stotra* literature for the philosophical content of its praises — each verse condenses a doctrinal point and supplies the systematic Digambara articulation of the school's positions in compressed devotional register. The treatise is the bridge between the school's analytic and devotional traditions and the principal source for understanding the *āpta-vāda* — the doctrine that the Jina's teaching is the criterion of truth — in its proper devotional setting."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Samantabhadra is the principal early Digambara philosophical author and the foundation of the school's subsequent scholastic tradition. The *Āpta-Mīmāṃsā* is the canonical treatise that defines the Digambara analytic method, and its commentarial tradition (Akalaṅka's *Aṣṭa-Śatī*, Vidyānandin's *Aṣṭa-Sahasrī*) supplies the most ambitious Jaina engagement with the rival darśanas. Sanskrit Vedāntic engagement with the Jaina position proceeds through the *Brahma-Sūtra* 2.2.33–36 critique of *anekānta-vāda* without naming Samantabhadra directly; the position critiqued in those adhikaraṇas is articulated more thoroughly in the *Āpta-Mīmāṃsā* than in any other source.",
+  "entry_status": "draft",
+  "entry_owner_agent": "thinker-corpus-expansion-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "thinker-corpus-expansion-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "method_of_critique", "value": "multi-perspectival-realism", "register": "logical-dialectical", "citation_locus": "Āpta-Mīmāṃsā paricchedas 1–10", "confidence": "high" },
+    { "primitive": "pramana_authority", "value": "omniscient-jina-as-apta", "register": "epistemological", "citation_locus": "Āpta-Mīmāṃsā vv. 1–3", "confidence": "high" }
+  ],
+  "cross_engagements": []
+}

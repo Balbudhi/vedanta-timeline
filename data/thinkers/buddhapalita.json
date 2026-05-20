@@ -1,0 +1,49 @@
+{
+  "id": "buddhapalita",
+  "name": "Buddhapālita",
+  "name_iast": "Buddhapālita",
+  "alternate_names": [],
+  "dates_low": 470,
+  "dates_high": 550,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Conventionally placed in the late fifth to mid sixth century CE. The dating rests on his being demonstrably earlier than Bhāviveka (c. 500–570) — Bhāviveka's *Prajñā-Pradīpa* (Lamp of Wisdom) is a sustained polemic against Buddhapālita's commentary on the *Mūlamadhyamakakārikā* — and on his being cited by Candrakīrti (c. 600–650) as the school-defining predecessor. Lindtner (1982) and the Tibetan tradition (which makes him a contemporary of Bhāviveka but doctrinally the precursor) converge on the c. 470–550 window.",
+  "school": "Mādhyamaka",
+  "school_color_token": "madhyamaka-comparator",
+  "sub_school": "Prāsaṅgika (founding)",
+  "sub_school_shade": 2,
+  "lineage_in": ["nagarjuna", "aryadeva"],
+  "lineage_out": ["candrakirti"],
+  "lineage_polemical": [
+    { "thinker_id": "bhaviveka", "direction": "is-refuted-by", "note": "Bhāviveka's *Prajñā-Pradīpa* mounts the canonical Svātantrika critique of Buddhapālita: that prasaṅga-style refutation by drawing out an opponent's unwelcome consequences is dialectically insufficient and that the Mādhyamaka must deploy autonomous inferences (*svatantra-anumāna*) with independently grounded premises. The dispute is the historical seed of the Prāsaṅgika–Svātantrika division that the Tibetan tradition later canonizes." }
+  ],
+  "core_thesis": "Buddhapālita is the first commentator on Nāgārjuna's *Mūlamadhyamakakārikā* to develop a sustained methodological self-consciousness about the form of Mādhyamaka argumentation. His commentary (the *Buddhapālita-Mūlamadhyamakavṛtti*) refutes substantialist positions exclusively by *prasaṅga* — drawing out the unwelcome consequences of the opponent's own premises — and refuses to deploy positive autonomous inferences of the Mādhyamaka's own. The methodological premise is that Mādhyamaka has no positive thesis of its own (Nāgārjuna *Vigrahavyāvartanī* v. 29: *yadi kācana pratijñā syān me*; if I had any thesis); to advance an autonomous inference would import the very svabhāva-commitments the school denies. Buddhapālita's commentary on *Mūlamadhyamakakārikā* 1.1 (*na svato nāpi parato na dvābhyāṃ nāpy ahetutaḥ / utpannā jātu vidyante bhāvāḥ kvacana kecana*; entities are not produced from self, from other, from both, or without cause) deploys the four-cornered refutation by drawing out the consequences of each horn, with no Mādhyamaka counter-thesis posited. The position will be canonized, against Bhāviveka, in Candrakīrti's *Prasannapadā* — Candrakīrti explicitly defends Buddhapālita against Bhāviveka's critique and identifies the prasaṅga-only method as the school's correct procedure.",
+  "engaged_works": [
+    {
+      "work_id": "buddhapalita-vrtti",
+      "title": "Buddhapalita-Mulamadhyamakavrtti",
+      "title_iast": "Buddhapālita-Mūlamadhyamakavṛtti",
+      "alternate_titles": ["Buddhapālita-Vṛtti"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Buddhapālita. Extant only in Tibetan translation (Toh. 3842); the Sanskrit is lost. Edited and translated by Saito (1984, A Study of the Buddhapālita-Mūlamadhyamakavṛtti).",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Saito 1984; Lindtner 1982." }
+      ],
+      "genre": "bhasya",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A complete prose commentary on Nāgārjuna's twenty-seven-chapter *Mūlamadhyamakakārikā*. The commentary is methodologically distinctive in restricting itself to prasaṅga-style refutation — for each of Nāgārjuna's verses, Buddhapālita draws out the contradictory or otherwise unwelcome consequences that follow from any substantialist construal, without offering an autonomous Mādhyamaka counter-thesis. The treatment of MMK 1.1 (no entity is produced from self, other, both, or neither) is the standard test case: Buddhapālita refutes each horn by drawing out the consequences for the opponent. Bhāviveka's *Prajñā-Pradīpa* will argue that this method is inadequate because it leaves the Mādhyamaka without a positive doctrine to communicate; Candrakīrti's *Prasannapadā* will argue that this is precisely the point. The Buddhapālita-Vṛtti is therefore the doctrinal origin of the Prāsaṅgika–Svātantrika division."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Buddhapālita's historical importance is preserved primarily through Candrakīrti's defense of him against Bhāviveka in the *Prasannapadā* ch. 1; the Tibetan dGe-lugs tradition canonizes the resulting position as the *Thal-'gyur-ba* (Prāsaṅgika) school against the *Rang-rgyud-pa* (Svātantrika) of Bhāviveka and Śāntarakṣita. Sanskrit Vedāntic polemic does not engage Buddhapālita directly; the engagement is with Nāgārjuna under the *śūnyavāda* heading, with the methodological refinements of the Prāsaṅgika–Svātantrika division registered, if at all, only as variant readings of the same denied position.",
+  "entry_status": "draft",
+  "entry_owner_agent": "thinker-corpus-expansion-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "thinker-corpus-expansion-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "method_of_critique", "value": "prasanga-refutation", "register": "logical-dialectical", "citation_locus": "Buddhapālita-Vṛtti on MMK 1.1", "confidence": "high" },
+    { "primitive": "substrate_structure", "value": "no-substrate", "register": "metaphysical", "citation_locus": "Buddhapālita-Vṛtti", "confidence": "high" }
+  ],
+  "cross_engagements": []
+}

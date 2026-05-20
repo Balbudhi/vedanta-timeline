@@ -1,0 +1,63 @@
+{
+  "id": "santideva",
+  "name": "Śāntideva",
+  "name_iast": "Śāntideva",
+  "alternate_names": [],
+  "dates_low": 685,
+  "dates_high": 763,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Conventionally dated c. 685–763 CE on the basis of his association with Nālandā and the citation pattern in his two principal works. The traditional account placing him at Nālandā during the reigns of Devapāla or his predecessor is congruent with the philological evidence. Crosby and Skilton (1995) and the Saito (1996) study converge on this window.",
+  "school": "Mādhyamaka",
+  "school_color_token": "madhyamaka-comparator",
+  "sub_school": "Prāsaṅgika",
+  "sub_school_shade": 2,
+  "lineage_in": ["nagarjuna", "aryadeva", "buddhapalita", "candrakirti"],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Śāntideva is the principal articulator of the Mādhyamaka bodhisattva-path in its literary and devotional aspect. The *Bodhicaryāvatāra* (Introduction to the Bodhisattva's Practice, ten chapters of verse) is the canonical Mahāyāna manual of the six perfections (*pāramitā*) considered as the bodhisattva's actual practice: generosity, ethics, patience, energy, meditative absorption, and wisdom. The ninth chapter — the *Prajñā-Pāramitā* chapter — is the principal text's philosophical core and is the most accessible Indian Mādhyamaka articulation of emptiness as the content of the perfection of wisdom. Śāntideva there defends the Prāsaṅgika position (in the lineage of Candrakīrti against Bhāviveka's Svātantrika) — emptiness is established not by autonomous inference but by drawing out the unwelcome consequences of any substantialist construal of the categories under analysis. The eighth chapter on meditation supplies the canonical Mahāyāna meditation on the exchange of self and other (*parātma-parivartana*): the bodhisattva cultivates the disposition to take on the suffering of others and to give one's own happiness in exchange, as the structural expression of the bodhisattva's commitment to all sentient beings. The *Śikṣā-Samuccaya* (Compendium of Training) is the parallel anthology of sūtra-citations organized by topic — a doxographical resource for the bodhisattva-path that documents the state of the Mahāyāna sūtra canon in seventh- and eighth-century Nālandā with a thoroughness preserved in no other source.",
+  "engaged_works": [
+    {
+      "work_id": "bodhicaryavatara",
+      "title": "Bodhicaryavatara",
+      "title_iast": "Bodhicaryāvatāra",
+      "alternate_titles": ["Bodhisattvacaryāvatāra", "Introduction to the Bodhisattva's Practice"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Śāntideva. Sanskrit text extant (Vaidya 1960 edition, Buddhist Sanskrit Texts 12). Multiple English translations: Wallace 1997 (Snow Lion), Crosby and Skilton 1995 (Oxford), Padmakara Translation Group 1997. The standard Prajñākaramati commentary (*Bodhicaryāvatāra-Pañjikā*) supplies the exegetical apparatus for ch. 9.",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Crosby and Skilton 1995 introduction; Saito 1996." }
+      ],
+      "genre": "shastra",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Ten chapters of verse on the bodhisattva-path. Chapters 1–3 treat the cultivation of bodhicitta — the aspiration to attain awakening for the sake of all beings — and supply the canonical Mahāyāna articulation of the bodhisattva-vow. Chapters 4–6 treat ethics, patience, and energy as the practical foundations of the path. Chapter 7 treats the perfection of energy (*vīrya-pāramitā*). Chapter 8 treats meditative absorption (*dhyāna-pāramitā*) and contains the canonical meditation on the exchange of self and other. Chapter 9 — the *Prajñā-Pāramitā* chapter — is the philosophical core: a sustained articulation of emptiness in the Prāsaṅgika lineage, refuting the substantialist construals of the categories under analysis (the self, the world, the objects of cognition, the cognitive process itself) by drawing out the unwelcome consequences without offering an autonomous Mādhyamaka counter-thesis. Chapter 10 is a closing dedication of merit. The Prajñā-Pāramitā chapter is the most-studied Indian Mādhyamaka text in the Tibetan curriculum and the principal philosophical content of the work."
+    },
+    {
+      "work_id": "shiksa-samuccaya",
+      "title": "Shiksa-Samuccaya",
+      "title_iast": "Śikṣā-Samuccaya",
+      "alternate_titles": ["Compendium of Training"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Śāntideva. Sanskrit text extant (Bendall 1897–1902 edition, the Bibliotheca Buddhica series). English translation by Bendall and Rouse 1922 (Royal Asiatic Society).",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Bendall edition introduction; Goodman 2016 The Training Anthology of Śāntideva." }
+      ],
+      "genre": "shastra",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "An anthology of citations from over a hundred Mahāyāna sūtras, organized by topic under nineteen chapters treating the bodhisattva's discipline. The work documents the sūtra-canon used at Nālandā in Śāntideva's time and is the principal source for several Mahāyāna sūtras (the *Ākāśagarbha*, the *Vajra-Dhvaja*, the *Adhyāśaya-Saṃcodana*) that survive only or principally through citation here. The doctrinal content reinforces the *Bodhicaryāvatāra*'s positions on bodhicitta, the perfections, the exchange of self and other, and emptiness. The Compendium is therefore both an independent treatise and a sūtra-doxography of exceptional historical importance for the reconstruction of the Mahāyāna canon."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "The *Bodhicaryāvatāra* is the most widely studied Mahāyāna treatise in the Tibetan curriculum and the principal Indian source for the bodhisattva-path as a literary-devotional practice. The ninth chapter is the standard Tibetan introduction to Prāsaṅgika Mādhyamaka and is the subject of an extensive commentarial tradition culminating in the dGe-lugs and rNying-ma readings. Sanskrit Vedāntic engagement is indirect; the Mādhyamaka positions Śāntideva defends are critiqued under the *śūnyavāda* heading without his name being foregrounded.",
+  "entry_status": "draft",
+  "entry_owner_agent": "thinker-corpus-expansion-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "thinker-corpus-expansion-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "substrate_structure", "value": "no-substrate", "register": "metaphysical", "citation_locus": "Bodhicaryāvatāra ch. 9", "confidence": "high" },
+    { "primitive": "method_of_critique", "value": "prasanga-refutation", "register": "logical-dialectical", "citation_locus": "Bodhicaryāvatāra ch. 9", "confidence": "high" },
+    { "primitive": "practice_path", "value": "bodhisattva-perfections", "register": "soteriological", "citation_locus": "Bodhicaryāvatāra ch. 1–8", "confidence": "high" }
+  ],
+  "cross_engagements": []
+}

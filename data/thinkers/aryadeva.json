@@ -1,0 +1,48 @@
+{
+  "id": "aryadeva",
+  "name": "Āryadeva",
+  "name_iast": "Āryadeva",
+  "alternate_names": ["Kāṇadeva", "Deva"],
+  "dates_low": 170,
+  "dates_high": 270,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Conventionally placed in the late second to mid third century CE as the direct disciple of Nāgārjuna. The dating rests on Tibetan and Chinese hagiographies (especially Candrakīrti's reference to him as Nāgārjuna's principal heir) and on the absence of citation of post-third-century materials in the Catuḥśataka. Lang (1986, Āryadeva's Catuḥśataka) and Lindtner (1982) accept a c. 170–270 CE window. The conflation with the Vajrayāna Āryadeva of the Caryāmelāpaka-Pradīpa is rejected by modern scholarship.",
+  "school": "Mādhyamaka",
+  "school_color_token": "madhyamaka-comparator",
+  "sub_school": "Early Mādhyamaka",
+  "sub_school_shade": 2,
+  "lineage_in": ["nagarjuna"],
+  "lineage_out": ["buddhapalita", "bhaviveka", "candrakirti"],
+  "lineage_polemical": [],
+  "core_thesis": "Āryadeva is Nāgārjuna's principal heir and the second-generation systematizer of Mādhyamaka. The *Catuḥśataka* (Four Hundred Verses, sixteen chapters of twenty-five verses each) does not so much restate Nāgārjuna's metaphysical analysis of emptiness (*śūnyatā*) as deploy it against the full range of substantialist positions then available — Vaiśeṣika padārtha-realism, Sāṅkhya prakṛti-parināmavāda, the substantial-self of the early ātmavādins, and the dharma-svabhāva of the Sarvāstivāda. Where Nāgārjuna's *Mūlamadhyamakakārikā* mounts a sustained internal critique of the categories of dependent origination (*Mūlamadhyamakakārikā* ch. 24 on *pratītya-samutpāda*), Āryadeva turns the same critical apparatus outward against rival darśanas; his contribution is the demonstration that the prasaṅga-style refutation extends to every available substantialist alternative, not just to the Abhidharmic categories Nāgārjuna had foregrounded. The eighth and ninth chapters of the Catuḥśataka develop the canonical Mādhyamaka treatment of the bodhisattva's pedagogical practice and the four errors (apprehending the impermanent as permanent, the painful as pleasant, the impure as pure, the not-self as self); the latter chapters mount the metaphysical refutations. Doctrinally the position is austere: there is no positive doctrine of ultimate reality to be defended, only the relentless demonstration that every positive metaphysical thesis collapses under analysis (Catuḥśataka ch. 14–16). The text supplies the prasaṅga method later canonized in Candrakīrti's *Prasannapadā* — the refutation by drawing out the unwelcome consequences of the opponent's position without committing to a counter-position of one's own — and is therefore the doctrinal bridge between Nāgārjuna and the mature Prāsaṅgika tradition.",
+  "engaged_works": [
+    {
+      "work_id": "catuhsataka",
+      "title": "Catuhsataka",
+      "title_iast": "Catuḥśataka",
+      "alternate_titles": ["Four Hundred Verses", "Catuḥśatakaśāstra"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Āryadeva. Extant in full only in Tibetan translation (Toh. 3846); the Sanskrit survives for portions of chapters 8–16 (recovered by Haraprasad Shastri 1914; revised editions by Vaidya 1960 and Lang 1986). The Chinese tradition transmits two Kumārajīva-related translations of subset materials (T1570, T1571).",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Lang 1986, Āryadeva's Catuḥśataka; Lindtner 1982, Nagarjuniana; the Tibetan canon attribution is uniform across the Kanjur recensions." }
+      ],
+      "genre": "shastra",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Sixteen chapters of twenty-five verses each. The first eight chapters treat the practical-pedagogical side of the bodhisattva-path — the rejection of the four viparyāsas, the cultivation of provisional understanding, and the gradual approach to emptiness; the last eight chapters mount the metaphysical refutations of substantialist positions. Chapter 9 refutes the substantial self; chapter 10 the Brahmanical Ātman in its Upaniṣadic and Sāṅkhya forms; chapters 11–12 the doctrines of time and motion (extending Nāgārjuna MMK ch. 19 on time and ch. 2 on motion); chapters 13–15 the categories of view, sense-faculty, and object; chapter 16 the disciple's progress on the path. Candrakīrti's *Catuḥśataka-Ṭīkā* is the principal commentary and the channel through which the text enters the mature Prāsaṅgika tradition. The Catuḥśataka is the canonical demonstration that prasaṅga as a method extends beyond Abhidharmic interlocutors to the full Brahmanical-darśana terrain — a structural premise of all later Mādhyamaka."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Āryadeva is invariably named with Nāgārjuna in the Tibetan and East Asian doxographical literature as the joint founder of the school (the Sanlun school of East Asia takes Nāgārjuna's *Mūlamadhyamakakārikā*, Āryadeva's *Catuḥśataka*, and Nāgārjuna's *Dvādaśamukha-śāstra* as its three foundational treatises). Indian Vedāntic engagement targets the Mādhyamaka position primarily through Nāgārjuna's name; Āryadeva is rarely named directly in Sanskrit Vedāntic polemic but the structure of the position critiqued under the *śūnyavāda* heading reflects the synthesized Nāgārjuna-Āryadeva position more than Nāgārjuna alone.",
+  "entry_status": "draft",
+  "entry_owner_agent": "thinker-corpus-expansion-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "thinker-corpus-expansion-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "substrate_structure", "value": "no-substrate", "register": "metaphysical", "citation_locus": "Catuḥśataka ch. 14–16", "confidence": "high" },
+    { "primitive": "selfhood_structure", "value": "no-enduring-self", "register": "phenomenological", "citation_locus": "Catuḥśataka ch. 9–10", "confidence": "high" },
+    { "primitive": "method_of_critique", "value": "prasanga-refutation", "register": "logical-dialectical", "citation_locus": "Catuḥśataka ch. 11–16", "confidence": "high" }
+  ],
+  "cross_engagements": []
+}

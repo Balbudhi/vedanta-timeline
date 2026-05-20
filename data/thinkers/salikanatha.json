@@ -1,0 +1,64 @@
+{
+  "id": "salikanatha",
+  "name": "Śālikanātha Miśra",
+  "name_iast": "Śālikanātha Miśra",
+  "alternate_names": [],
+  "dates_low": 800,
+  "dates_high": 900,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Conventionally dated c. 800–900 CE on the basis of his being demonstrably the principal Prābhākara commentator and on his citation by later Mīmāṃsakas (Pārthasārathi, Sucarita) and by Vācaspati Miśra. The precise dates within this window are not securely fixed; Jha's *Prabhākara School of Pūrva-Mīmāṃsā* (1911) accepts a ninth-century placement.",
+  "school": "Mīmāṃsā",
+  "school_color_token": "mimamsa-comparator",
+  "sub_school": "Prābhākara Mīmāṃsā",
+  "sub_school_shade": 3,
+  "lineage_in": ["jaimini", "shabara", "prabhakara"],
+  "lineage_out": [],
+  "lineage_polemical": [
+    { "thinker_id": "kumarila", "direction": "engages", "note": "Śālikanātha's *Ṛju-Vimalā* and *Prakaraṇa-Pañcikā* defend the Prābhākara position against the Bhāṭṭa positions on the principal disputed questions; the Bhāṭṭa–Prābhākara debate is most fully articulated in this exchange." }
+  ],
+  "core_thesis": "Śālikanātha Miśra is the principal articulator and systematizer of the Prābhākara branch of Mīmāṃsā and the author of the canonical commentarial corpus for the school. His *Ṛju-Vimalā* (Straight and Spotless) is the principal commentary on Prabhākara's *Bṛhatī* (which is itself a commentary on Śabara's *Bhāṣya* on the *Jaimini-Sūtra*) and is the standard medium through which the dense Prabhākara doctrine is transmitted. The *Prakaraṇa-Pañcikā* (Five Topical Treatises) is the parallel set of independent prakaraṇa-treatises on the principal disputed Mīmāṃsā questions. Three doctrinal positions are central. First, the Prābhākara analysis of *śabda-bodha* (the cognition produced by language) is the *anvitābhidhāna* analysis: words primarily denote already-related meanings (the meaning of a word is the action-related contribution it makes to the construction of the injunction's meaning), not isolated meanings later constructed into a unity — against the Bhāṭṭa *abhihitānvaya*. Second, the Prābhākara analysis of erroneous cognition is *akhyāti* (the doctrine of non-apprehension): there is no genuine erroneous cognition, only the failure to apprehend the distinction between two genuine cognitions (the *rajju-sarpa-bhrama* — taking a rope for a snake — is the failure to apprehend the difference between the present rope-cognition and a memory of a snake, not the positive apprehension of a snake where none exists). The position is the canonical Prābhākara *khyāti-vāda* and is structurally analogous to the Buddhist position that all cognitions are veridical with respect to what they actually present. Third, the Prābhākara analysis of *kārya* (action-orientation) treats the principal content of the Veda as the injunction-form (*kārya*) rather than the propositional content; the Veda speaks of what is to be done, and even the apparently descriptive portions of the Veda are subordinated to this injunction-content. The position structures the Prābhākara analysis of liberation as well: the path is the performance of enjoined ritual action without the desire for the fruit, and not the cultivation of *jñāna* of any propositional content. The position is therefore the principal Brahmanical alternative to the Advaita reading of the Veda as predominantly *jñāna-kāṇḍa*.",
+  "engaged_works": [
+    {
+      "work_id": "rju-vimala",
+      "title": "Rju-Vimala",
+      "title_iast": "Ṛju-Vimalā",
+      "alternate_titles": ["Straight and Spotless"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Śālikanātha as the principal commentary on Prabhākara's *Bṛhatī*. Sanskrit text extant (Ramanatha Sastri 1962 edition, the Madras University Sanskrit Series). Without the *Ṛju-Vimalā* the *Bṛhatī* would be largely unreadable.",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Ramanatha Sastri 1962 edition; Jha 1911 study." }
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A sustained sub-commentary on Prabhākara's *Bṛhatī* (which is itself a sub-commentary on Śabara's *Bhāṣya*) following the structure of the *Jaimini-Sūtra*. The commentary's principal philosophical content is in the first adhyāya, where the foundational doctrines of the Prābhākara school are articulated: the *anvitābhidhāna* theory of meaning, the *akhyāti* analysis of error, the analysis of *kārya* as the principal content of the Veda. The treatise is the principal extant witness to Prabhākara's actual position (the *Bṛhatī* alone being too compressed to read independently) and is the standard medium for the school's reception in the subsequent commentarial tradition."
+    },
+    {
+      "work_id": "prakarana-pancika",
+      "title": "Prakarana-Pancika",
+      "title_iast": "Prakaraṇa-Pañcikā",
+      "alternate_titles": ["Five Topical Treatises"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Śālikanātha as a set of independent topical treatises. Sanskrit text edited by A. Subrahmanya Sastri (1961, the Banaras Hindu University Sanskrit Series).",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Subrahmanya Sastri 1961 edition; the standard Mīmāṃsā doxographical tradition." }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A set of nine (despite the title) prakaraṇa-treatises on the principal disputed Prābhākara questions. The treatises cover: the analysis of *kārya* (the action-content of the Veda), the analysis of *prāmāṇya* (the validity of cognitions), the analysis of *śabda-bodha* (verbal cognition), the analysis of *anumāna* (inference), the analysis of *vākyārtha* (sentence-meaning), the analysis of *vyavahāra* (linguistic usage), the analysis of *upamāna* (analogy), the analysis of *abhāva* (absence — the Prābhākara position is famously that *abhāva* is not a real padārtha, against the Vaiśeṣika and Bhāṭṭa positions), and the analysis of *artha-prakaraṇa* (the topical context of usage). The treatises supply the most accessible introduction to mature Prābhākara doctrine and are the standard textbooks for the school's subsequent reception."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Śālikanātha is the principal Prābhākara author cited in the subsequent Mīmāṃsā literature; the Prabhākara school's positions reach Bhāṭṭa polemicists and Vedāntins through Śālikanātha's articulation rather than directly through Prabhākara's *Bṛhatī*. The Advaita tradition engages the Prābhākara position systematically — Sureśvara's *Naiṣkarmya-Siddhi* is structured in part as an Advaita response to the Prābhākara doctrine that the Veda's content is principally *kārya*. The Navya-Nyāya tradition engages the *anvitābhidhāna* theory and the *akhyāti* analysis of error as principal targets.",
+  "entry_status": "draft",
+  "entry_owner_agent": "thinker-corpus-expansion-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "thinker-corpus-expansion-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "pramana_authority", "value": "veda-self-validating", "register": "epistemological", "citation_locus": "Prakaraṇa-Pañcikā on prāmāṇya", "confidence": "high" },
+    { "primitive": "soteric_end", "value": "ritual-action-without-desire", "register": "soteriological", "citation_locus": "Prakaraṇa-Pañcikā on kārya", "confidence": "high" }
+  ],
+  "cross_engagements": []
+}

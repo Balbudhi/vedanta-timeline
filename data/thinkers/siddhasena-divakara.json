@@ -1,0 +1,62 @@
+{
+  "id": "siddhasena-divakara",
+  "name": "Siddhasena Divākara",
+  "name_iast": "Siddhasena Divākara",
+  "alternate_names": ["Siddhasena"],
+  "dates_low": 400,
+  "dates_high": 500,
+  "dates_tier": "reconstructed",
+  "dates_notes": "Conventionally dated c. 400–500 CE on the basis of internal evidence and citation patterns. The dating is debated within a wider window (some scholars accept a third-century placement, others a sixth-century placement); the consensus from Dixit 1971 (Jaina Ontology) and the modern Jaina scholarship places him in the fifth century as the principal pre-Akalaṅka logician. His sectarian affiliation (Śvetāmbara or Digambara) is contested by the two traditions but is doctrinally significant only in minor respects.",
+  "school": "Jaina",
+  "school_color_token": "jaina-comparator",
+  "sub_school": "Early Jaina Logic",
+  "sub_school_shade": 2,
+  "lineage_in": ["umasvati"],
+  "lineage_out": ["akalanka", "haribhadra"],
+  "lineage_polemical": [],
+  "core_thesis": "Siddhasena Divākara is the principal early Jaina logician and the author of the foundational treatises that articulate the Jaina analytical apparatus — *anekāntavāda* (the doctrine of multi-perspectivism), *naya-vāda* (the doctrine of standpoints), and *syād-vāda* (the doctrine of conditional predication) — in a form usable for systematic philosophical engagement with the rival darśanas. The *Sanmati-Tarka* (Inference of the Right View, also called *Sammati-Prakaraṇa*) is the principal extant work and is composed in Prakrit (Jaina Māhārāṣṭrī) verse with the doctrinal content articulated in three *kāṇḍas*. The first *kāṇḍa* treats *naya-vāda*: the seven standpoints — *naigama*, *saṅgraha*, *vyavahāra*, *ṛju-sūtra*, *śabda*, *samabhirūḍha*, *evambhūta* — under which a given object may be characterized, with each standpoint capturing one aspect of the object's multi-aspectual reality without exhausting it. The second *kāṇḍa* treats the analysis of cognition (*jñāna*) and the relation between the five kinds of Jaina knowledge (*mati*, *śruta*, *avadhi*, *manaḥparyaya*, *kevala*). The third *kāṇḍa* treats *syād-vāda*: the seven-valued predicate-modifier *syāt* (it may be) used to make explicit the conditional character of every assertion — the seven conditional assertions (*sapta-bhaṅgī*) giving the seven possible combinations of predication and non-predication. The *Nyāyāvatāra* (Descent of Logic) is the shorter and more polemical companion-treatise — composed in Sanskrit verse — that articulates the Jaina position on inference and on the means of knowledge in dialogue with the Buddhist pramāṇa school (particularly Dignāga). The position defended is the Jaina realist multi-perspectivism: real entities have a plurality of aspects (substance, quality, mode, origination, persistence, cessation), and any single-perspective characterization misses the others; the Jaina analytic apparatus is precisely the means for articulating the multi-aspectual character of the real without collapsing it into a single-aspect simplification.",
+  "engaged_works": [
+    {
+      "work_id": "sanmati-tarka",
+      "title": "Sanmati-Tarka",
+      "title_iast": "Sanmati-Tarka",
+      "alternate_titles": ["Sammati-Prakaraṇa", "Sammai-Suttaṃ"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Siddhasena Divākara. Prakrit text extant with the standard medieval commentary by Abhayadeva Sūri. Edited by Sukhlal Sanghavi and Bechardas Doshi (1939, the Jaina Sanskrit Series). English study by Bhatt 1962.",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Sanghavi and Doshi 1939 critical edition; Dixit 1971 study of Jaina ontology." }
+      ],
+      "genre": "prakarana",
+      "language": "prakrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Three *kāṇḍas* of Prakrit verse on the foundational Jaina analytic apparatus. The first *kāṇḍa* on *naya-vāda* treats the seven standpoints as a systematic means of characterizing an object from each of its principal perspectives — substance vs. mode, general vs. specific, etymological vs. literal usage. The second *kāṇḍa* on the analysis of cognition treats the five kinds of Jaina knowledge as a hierarchy from sensory cognition through omniscience. The third *kāṇḍa* on *syād-vāda* treats the seven conditional predications (the *sapta-bhaṅgī*) as the formal apparatus that makes the multi-aspectual character of any real entity articulable in propositional form: *syād asti* (it may be — affirming a positive aspect), *syād nāsti* (it may not be — affirming a negative aspect), *syād asti nāsti* (it may both be and not be — affirming both aspects in different respects), *syād avaktavyaḥ* (it may be inexpressible — affirming the simultaneity of both aspects under a single predicate), and the three further conditional combinations. The treatise is the principal early Jaina articulation of the school's analytic apparatus and the foundation for the subsequent scholastic tradition of Akalaṅka, Haribhadra, and Hemacandra."
+    },
+    {
+      "work_id": "nyayavatara",
+      "title": "Nyayavatara",
+      "title_iast": "Nyāyāvatāra",
+      "alternate_titles": ["Descent of Logic"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Siddhasena Divākara. Sanskrit verse text extant with multiple commentaries (Siddharṣigaṇi's *Vivṛti* is the standard medieval commentary).",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Vidyabhushana 1909 edition and translation; the standard Jaina logical-tradition reference." }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A short Sanskrit verse-treatise (thirty-two verses) articulating the Jaina position on inference and on the pramāṇas in dialogue with the Buddhist pramāṇa school of Dignāga. The treatise is significant as the first extant Jaina text composed in Sanskrit rather than Prakrit and as the principal early Jaina engagement with the Sanskrit pramāṇa-tradition. The doctrinal content includes the Jaina classification of pramāṇas (*pratyakṣa* and *parokṣa*, with the latter further divided), the Jaina analysis of inference (the *parokṣa-jñāna* of the absent *sādhya* from the present *hetu*), and a brief articulation of the Jaina position on the means of knowledge against the Buddhist alternatives. The treatise is the principal seed of the later Akalaṅka and Manikyanandi tradition of Jaina logic."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Siddhasena Divākara is the principal early Jaina logician and the foundation of the subsequent Jaina scholastic tradition. His articulation of *anekānta*, *naya*, and *syād-vāda* is the canonical Jaina apparatus through which the school engages the rival darśanas — particularly the Buddhist no-self position and the Vedāntic ātman-position — and is preserved as the school's distinctive analytic contribution to Indian philosophy. Sanskrit-tradition Vedāntic engagement: the Jaina position is critiqued at *Brahma-Sūtra* 2.2.33–36 under the heading of *anekānta-vāda* (the doctrine of multi-perspectivism), with Śaṅkara's *Bhāṣya* mounting the standard Vedāntic charge that *syād-vāda* generates a vicious indeterminacy that makes any positive statement impossible — a critique the Jaina tradition rejects on the ground that *syād-vāda* is not indeterminate but precisely articulated as multi-aspectual.",
+  "entry_status": "draft",
+  "entry_owner_agent": "thinker-corpus-expansion-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "thinker-corpus-expansion-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "method_of_critique", "value": "multi-perspectival-realism", "register": "logical-dialectical", "citation_locus": "Sanmati-Tarka kāṇḍa 1", "confidence": "high" },
+    { "primitive": "substrate_structure", "value": "multi-aspectual-substance", "register": "metaphysical", "citation_locus": "Sanmati-Tarka kāṇḍa 3", "confidence": "high" }
+  ],
+  "cross_engagements": []
+}

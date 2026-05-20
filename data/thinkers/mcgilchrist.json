@@ -3,6 +3,7 @@
   "name": "Iain McGilchrist",
   "name_iast": "Iain McGilchrist",
   "school": "Cross-tradition",
+  "school_color_token": "cross-tradition",
   "entry_status": "stub-from-article-phase2",
   "core_thesis": "Article-backed thinker stub created during primitives_v2 Phase 2 from `data/articles/source/mcgilchrist.md`.",
   "primitive_commitments": [
