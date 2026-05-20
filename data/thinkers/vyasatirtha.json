@@ -113,6 +113,26 @@
       "summary": "A sub-sub-commentary on Jayatīrtha's *Tattva-Prakāśikā*, and so a third-order text on Madhva's *Brahma-Sūtra-Bhāṣya*. The full stack is *sūtra* → Madhva's *bhāṣya* → Jayatīrtha's *Tattva-Prakāśikā* → Vyāsatīrtha's *Tātparya-Candrikā*; Rāghavendra's *Candrikā-Prakāśa* and other late *prakāśa*-glosses build on the *Candrikā* in turn.\n\nThe text moves through the *sūtra*s *adhikaraṇa* by *adhikaraṇa*, taking each of Jayatīrtha's glosses and doing three things with it. First, it defends the gloss against opposed readings developed in the intervening generations — especially the Appayya-line attacks on Madhva's authenticity as a Vedāntin (Appayya Dīkṣita's *Madhva-Tantra-Mukha-Bhañjana*) and the Vivaraṇa-line refinements of Advaitic exegesis (Prakāśātman's *Pañca-Pādikā-Vivaraṇa*). Second, it extends the gloss into *Navya-Nyāya* form where Jayatīrtha had argued in older *prācīna* style; the formal apparatus that the *Nyāyāmṛta* deploys is here applied to the exegetical front (most visibly at *Tātparya-Candrikā* on [*Brahma-Sūtra* 1.1.1](cite://badarayana/brahma-sutra/1.1.1) and 2.3.43). Third, it draws explicit connections to the *Anuvyākhyāna*–*Nyāya-Sudhā* sequence, so that the school's commentarial layers cohere as a single argued position rather than as four texts on the same topic.\n\nThe text is less polemical than the *Nyāyāmṛta* and *Tāṇḍava*. Its function is exegetical-consolidating. For the school's reading of the *Brahma-Sūtra* itself, it is the standard reference.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
+    },
+    {
+      "work_id": "bhedojjivana",
+      "title": "Bhedojjivana",
+      "title_iast": "Bhedojjīvana",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Mādhva polemical treatise by Vyāsatīrtha defending *bheda* against the Advaita *abheda-śruti* readings.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Sanskrit polemical treatise (\"the reviving of difference\") by Vyāsatīrtha in defense of *bheda* — real, non-sublatable difference between Brahman, the *jīvas*, and the *jagat* — against the Advaitin readings of the so-called *abheda-śrutis*: the *mahā-vākyas* (*tat tvam asi*, *aham brahmāsmi*, *prajñānam brahma*) and the negative-attribution passages (*neti neti*, *Bṛhadāraṇyaka* 2.3.6; *yato vāco nivartante*, *Taittirīya* 2.4). The work runs systematically through the canonical Advaitin loci and supplies the Mādhva counter-reading at each — *tat tvam asi* as *atat tvam asi* with the school's lexical apparatus, *aham brahmāsmi* as the *jīva*'s recognition of dependence rather than identity, *neti neti* as the inexhaustibility of Brahman's attributes rather than their unreality. The work is the natural complement to the *Nyāyāmṛta* on the philosophical-polemical front and to the *Tarka-Tāṇḍava* on the logical-polemical front. It is load-bearing for the Advaita-Dvaita ontology comparative-claims because it states the school's most condensed *bheda*-defense.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
     }
   ],
   "key_passages": [
