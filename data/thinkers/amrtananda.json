@@ -1,0 +1,70 @@
+{
+  "id": "amrtananda",
+  "name": "Amrtananda-natha",
+  "name_iast": "Amṛtānandanātha",
+  "alternate_names": [
+    "Amṛtānanda",
+    "Amṛtānanda-yogin"
+  ],
+  "dates_low": 1300,
+  "dates_high": 1400,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Dated to the fourteenth century on the basis of his position in the Śrīvidyā lineage between Puṇyānanda (twelfth–thirteenth century, author of the Kāma-Kalā-Vilāsa) and the later Śrīvidyā commentators including Śivānanda Yogin and Lakṣmīdhara. The Yoginī-Hṛdaya-Dīpikā colophon and the citation chain through the Setubandha and the Saubhāgya-Bhāskara fix the date range. Modern scholarship (Padoux; Brooks; Goudriaan-Gupta) accepts the fourteenth-century placement.",
+  "school": "Bhairava-tantra",
+  "school_color_token": "shakta-srividya",
+  "sub_school": "Śrīvidyā synthesis",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [
+    "bhaskararaya"
+  ],
+  "lineage_polemical": [],
+  "core_thesis": "Amṛtānandanātha is the principal fourteenth-century Śrīvidyā synthesist — the figure through whom the Kashmirian non-dual Śaiva-Śākta metaphysics is fully integrated into the South-Indian Śrīvidyā tradition of the worship of the goddess Lalitā-Tripurasundarī. His two major works are central. The *Dīpikā* on the *Yoginī-Hṛdaya* — Amṛtānanda's commentary on the second half of the *Vāmakeśvarī-Mata-Tantra* (the principal Śrīvidyā tantra; its two halves are the *Nityā-Ṣoḍaśikārṇava* and the *Yoginī-Hṛdaya*) — is the principal medieval commentary on the *Yoginī-Hṛdaya* and the document through which the Śrīvidyā's mantra-and-cakra cosmology (the *Śrī-Cakra* with its forty-three triangles, the *Śrī-Vidyā* with its fifteen syllables, the *Lalitā* with her retinue of fifteen *nityās* and their attendants) is articulated philosophically within a non-dual recognitional framework derived from the Pratyabhijñā and Krama traditions. The *Cidvilāsa-Stava* — Amṛtānanda's hymnic philosophical poem — articulates the metaphysics of consciousness as *cit-vilāsa* (the play of awareness): the universe is the playful self-manifestation of the goddess as the universal consciousness, and the *Śrī-Cakra* is the diagrammatic and ritual articulation of that self-manifestation. The synthesis is foundational for the developed Sarvāmnāya tradition because Amṛtānanda is the figure through whom (i) the Kashmirian non-dual Śaiva-Śākta metaphysics is welded to (ii) the South-Indian goddess-tantra ritual programme, with the result that (iii) the Śrīvidyā becomes the principal modern Sanskrit-pandit non-dual goddess tradition. Bhāskararāya in the eighteenth century writes his *Setubandha* commentary on the *Nityā-Ṣoḍaśikārṇava* and his *Saubhāgya-Bhāskara* on the *Lalitā-Sahasranāma* explicitly within the lineage Amṛtānanda founds.",
+  "engaged_works": [
+    {
+      "work_id": "yogini-hrdaya-dipika",
+      "title": "Yogini-Hrdaya-Dipika",
+      "title_iast": "Yoginī-Hṛdaya-Dīpikā",
+      "alternate_titles": [
+        "Dīpikā on the Yoginī-Hṛdaya"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Amṛtānandanātha; standard medieval Śrīvidyā commentary on the Yoginī-Hṛdaya half of the Vāmakeśvarī-Mata-Tantra. Edited in the Sanskrit editions (Kashi Sanskrit Series; cf. Padoux's translation of the Yoginī-Hṛdaya with the Dīpikā).",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Padoux's edition and French translation of the Yoginī-Hṛdaya with the Dīpikā (1994; English revised edition 2013 with R. Jeanty); standard reference in Brooks (*The Secret of the Three Cities*, 1990)." }
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A commentary on the *Yoginī-Hṛdaya* — the second half of the *Vāmakeśvarī-Mata-Tantra* — articulating the Śrīvidyā's mantra-and-cakra cosmology within a non-dual recognitional framework. The opening sections treat the *Śrī-Cakra*'s structural articulation (the central *bindu*; the inverted *trikoṇa*; the *aṣṭāra* of eight triangles; the *antar-daśāra* of ten inner triangles; the *bahir-daśāra* of ten outer triangles; the *caturdaśāra* of fourteen triangles; the *aṣṭa-dala-padma* of the eight-petalled lotus; the *ṣoḍaśa-dala-padma* of the sixteen-petalled lotus; the *bhūpura* of the three-fold square enclosure — forty-three triangles total). The middle sections treat the *Śrī-Vidyā* (the fifteen-syllable mantra of the goddess) and the *ṣoḍaśī* (the sixteen-syllable secret extension). The closing sections treat the *cakra-pūjā* programme — the ritual worship of the *nityā*-deities at each level of the *Śrī-Cakra* — and the recognitional soteriology in which the *Śrī-Cakra* is recognized as the diagrammatic articulation of the *sādhaka*'s own consciousness."
+    },
+    {
+      "work_id": "cidvilasa-stava",
+      "title": "Cidvilasa-Stava",
+      "title_iast": "Cidvilāsa-Stava",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored hymnic philosophical poem by Amṛtānandanātha; transmitted in the Śrīvidyā lineage as a foundational hymn.",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Standard reference in Brooks and in the Sanskrit Śrīvidyā stava-collections." }
+      ],
+      "genre": "stotra",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A hymnic philosophical poem articulating the metaphysics of consciousness as *cit-vilāsa* — the play of awareness. The universe is the playful self-manifestation of the goddess as universal consciousness; the *Śrī-Cakra* is the diagrammatic and ritual articulation of that self-manifestation. The hymn weaves together the recognitional soteriology of the Pratyabhijñā (the Kashmirian non-dual Śaiva inheritance), the Krama analysis of consciousness-as-sequence (the Mahānaya inheritance), and the Śrīvidyā ritual programme into a single devotional articulation. It is one of the principal Śrīvidyā stotra-works and is treated by the subsequent Śrīvidyā tradition (notably Bhāskararāya) as a foundational source for the school's self-understanding."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Amṛtānandanātha is the indispensable medieval figure through whom the Kashmirian non-dual Śaiva-Śākta metaphysics enters the developed South-Indian Śrīvidyā. The lineage Amṛtānanda → Śivānanda Yogin → Lakṣmīdhara → Bhāskararāya is the spine of the modern Śrīvidyā tradition. Modern scholarship — Padoux's translation of the Yoginī-Hṛdaya with the Dīpikā (1994/2013) and Brooks's *The Secret of the Three Cities* (1990) — establishes him as the principal medieval Śrīvidyā synthesist. The Sarvāmnāya integration tradition treats the Śrīvidyā as the principal modern living non-dual Śākta lineage, and Amṛtānanda is its founding theologian.",
+  "entry_status": "draft",
+  "entry_owner_agent": "channel-primary-sources-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "channel-primary-sources-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "manifestation_status", "value": "expressive-manifestation", "register": "metaphysical", "citation_locus": "Cidvilāsa-Stava", "confidence": "high" },
+    { "primitive": "practice_path", "value": "transformative-integration", "register": "soteriological", "citation_locus": "Yoginī-Hṛdaya-Dīpikā", "confidence": "high" },
+    { "primitive": "substrate_structure", "value": "one-conscious-self-displaying", "register": "metaphysical", "citation_locus": "Cidvilāsa-Stava", "confidence": "high" }
+  ],
+  "cross_engagements": []
+}

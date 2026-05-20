@@ -1,0 +1,62 @@
+{
+  "id": "svacchanda-tantra",
+  "name": "Svacchanda-Tantra (position-entry)",
+  "name_iast": "Svacchanda-Tantra",
+  "alternate_names": [
+    "Svacchanda-Bhairava-Tantra",
+    "Svacchanda"
+  ],
+  "dates_low": 600,
+  "dates_high": 850,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "This is a position-entry, not an author-entry. The Svacchanda-Tantra is anonymous and is internally datable to the seventh–ninth centuries CE on the basis of (i) Kṣemarāja's eleventh-century *Svacchanda-Tantra-Uddyota* commentary treating it as established scriptural authority, (ii) its position as a developed Bhairava-tantra within the Mantra-pīṭha of the Śaiva canon as classified by Sanderson, and (iii) its absorption of earlier Saiddhāntika cosmological vocabulary. Modern scholarship (Sanderson, Hatley) places it in the seventh–ninth century range.",
+  "school": "Bhairava-tantra",
+  "school_color_token": "bhairava-tantra-comparator",
+  "sub_school": "Mantra-pīṭha (principal Bhairava-tantra)",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [
+    "abhinavagupta",
+    "ksemaraja"
+  ],
+  "lineage_polemical": [
+    { "thinker_id": "ksemaraja", "direction": "mutual", "note": "Kṣemarāja's *Svacchanda-Tantra-Uddyota* is the principal commentary on the Svacchanda-Tantra and the document through which the tantra's authority is fixed for the Kashmirian non-dual Śaiva reception. The relation is engaged-from-within: Kṣemarāja is doing the non-dual philosophy of a tantra whose ritual programme is more theistically dualist than the Trika." },
+    { "thinker_id": "abhinavagupta", "direction": "mutual", "note": "Abhinavagupta cites the Svacchanda-Tantra extensively in the *Tantrāloka* and treats it as one of the principal Bhairava-tantras of the Mantra-pīṭha, alongside the Mālinī-Vijaya." }
+  ],
+  "core_thesis": "The *Svacchanda-Tantra* is the principal Bhairava-tantra of the *Mantra-pīṭha* — the section of the Śaiva canon devoted to mantric ritual centered on Bhairava as the deity of revelation. The work is anonymous, in fifteen *paṭalas*, presenting itself as a dialogue between Bhairava and the goddess on the worship of Svacchanda-Bhairava (Bhairava-as-autonomy, the Self-Willed Lord). Its commitments are three. First, the *Svacchanda*-Bhairava is the supreme deity, distinct in iconography and mantra from the Aghora-Bhairava of other Bhairava-tantras and from the supreme Śiva of the Saiddhāntika tradition; the *Svacchanda-mantra* (the *Aghora-mantra* extended into a Svacchanda-form) is the central liturgical instrument. Second, the cosmological articulation is the developed *adhva* (path) schema — the six *adhvans* (*varṇa*, *mantra*, *pada*, *kalā*, *tattva*, *bhuvana*) as the six articulations of the cosmos that the *dīkṣā* ritual traverses to purify the soul. Third, the ritual programme is articulated in extensive detail: the *dīkṣā* of the initiate, the daily *pūjā* of Svacchanda-Bhairava with mantra-cosmology, and the post-initiatic disciplines including the *yāga* (sacrifice) and the *japa* (mantra-repetition). The tantra's ritual programme is more theistically saturated than the Trika's metaphysically saturated *Mālinī-Vijaya*, and Kṣemarāja's *Svacchanda-Tantra-Uddyota* is the principal interpretive vehicle through which the tantra's ritual authority is reread within the Kashmirian non-dual Śaiva framework. The text is a principal source of the developed Kashmirian Śaiva ritual canon and one of the principal Bhairava-tantras Abhinavagupta's *Tantrāloka* engages.",
+  "engaged_works": [
+    {
+      "work_id": "svacchanda-tantra-text",
+      "title": "Svacchanda-Tantra",
+      "title_iast": "Svacchanda-Tantra",
+      "alternate_titles": [
+        "Svacchanda-Bhairava-Tantra"
+      ],
+      "composition_dates_low": 600,
+      "composition_dates_high": 850,
+      "composition_dates_notes": "Anonymous; dated by Kṣemarāja's eleventh-century treatment as established scriptural authority and by the developed character of its Bhairava-tantra apparatus.",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Anonymous; ascribed by tradition to Bhairava revelation. The text presents itself as a dialogue between Bhairava and the goddess.",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Sanderson's essays on the Śaiva canon; Arraj 1988 (PhD dissertation on the Svacchanda-Tantra); Hatley's essays on early Bhairava-tantras." }
+      ],
+      "genre": "rahasya",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Fifteen *paṭalas* in dialogue between Bhairava and the goddess, articulating the worship of Svacchanda-Bhairava. The opening *paṭalas* (1–4) establish the deity, his mantra, and the iconography. The middle *paṭalas* (5–10) develop the *adhva*-cosmology (the six *adhvans* — *varṇa*, *mantra*, *pada*, *kalā*, *tattva*, *bhuvana* — as the six articulations of the cosmos traversed by *dīkṣā*) and the *dīkṣā* ritual programme. The closing *paṭalas* (11–15) develop the daily and occasional rituals, the *yāga*, the *japa*, and the post-initiatic disciplines. Kṣemarāja's *Svacchanda-Tantra-Uddyota* is the principal commentary and the document through which the tantra's authority is reread within the Kashmirian non-dual framework."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "The Svacchanda-Tantra is the principal Bhairava-tantra of the Mantra-pīṭha and the principal ritual-centered counterpart to the metaphysically-centered Mālinī-Vijaya. Kṣemarāja's *Svacchanda-Tantra-Uddyota* is the principal Kashmirian commentary and the document through which the tantra's ritual programme is integrated into the developed non-dual Śaiva-Śākta synthesis. Modern scholarship (Sanderson; Arraj; Hatley) treats the Svacchanda as one of the principal source-texts for understanding the Bhairava-tantra ritual canon. **None of these scholars' works is on disk in our corpus; all cited via field-standard summary.**",
+  "entry_status": "draft",
+  "entry_owner_agent": "channel-primary-sources-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "channel-primary-sources-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "epistemic_authority", "value": "scripture-plus-transformative-experience", "register": "epistemological", "citation_locus": "Svacchanda-Tantra", "confidence": "low" },
+    { "primitive": "manifestation_status", "value": "expressive-manifestation", "register": "metaphysical", "citation_locus": "Svacchanda-Tantra", "confidence": "low" },
+    { "primitive": "practice_path", "value": "transformative-integration", "register": "soteriological", "citation_locus": "Svacchanda-Tantra (dīkṣā chapters)", "confidence": "low" }
+  ],
+  "cross_engagements": []
+}

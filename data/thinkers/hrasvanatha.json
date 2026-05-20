@@ -1,0 +1,52 @@
+{
+  "id": "hrasvanatha",
+  "name": "Hrasvanatha",
+  "name_iast": "Hrasvanātha",
+  "alternate_names": [
+    "Hrasva",
+    "Vāmana-datta (in some Kashmirian lineage lists, though identification is contested)"
+  ],
+  "dates_low": 950,
+  "dates_high": 1050,
+  "dates_tier": "lineage-internal",
+  "dates_notes": "Dated internally within the Kālīkula-Krama lineage transmitted by Maheśvarānanda's *Mahārtha-Mañjarī-Parimala* and by Abhinavagupta's *Tantrāloka* chapter 4 (on the Krama). The Krama-Sadbhāva is internally datable to the tenth–eleventh centuries CE by its position in the citation chain that runs from Jñānanetra (the legendary founder of Kashmirian Krama) through Hrasvanātha to Cidambarānanda and Maheśvarānanda. The corpus accepts Sanderson's placement within the late-tenth to mid-eleventh-century Kashmirian Krama horizon.",
+  "school": "Bhairava-tantra",
+  "school_color_token": "shakta-kalakula",
+  "sub_school": "Kashmirian Krama / Kālīkula",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [
+    "mahesvarananda"
+  ],
+  "lineage_polemical": [],
+  "core_thesis": "Hrasvanātha is a key transmissional figure in the Kashmirian Krama (Kālīkula) lineage and the principal voice associated with the *Krama-Sadbhāva* — the Krama's authoritative scripture on the twelve-fold rising of the Kālīs through the *cakras* of cognition. The Krama is a distinctive Śākta sub-tradition of the wider Kashmirian non-dual Śaiva-Śākta synthesis: it shares the Trika's metaphysics of recognition (*pratyabhijñā*) but locates the structure of consciousness in a sequential (*krama*) unfolding of twelve goddesses (the twelve Kālīs) representing the phases of cognition itself — the rising (*udaya*), the abiding (*sthiti*), the resorption (*saṃhāra*), and the unspeakable beyond (*anākhya*) of any object of awareness, articulated four times across the *bāhya* (external), *antar* (internal), *sthāna* (positional), and *prāṇa* (vital-breath) cycles. Hrasvanātha is the Kashmirian master credited with articulating this twelve-fold scheme into the systematic form that becomes standard in subsequent Krama transmission. His teaching is the immediate source for Cidambarānanda's *Mahānaya-Prakāśa* (a Mahānaya-Krama systematization) and is the substrate of the Krama dimension of Maheśvarānanda's *Mahārtha-Mañjarī*. The doctrinal point of the Krama is that consciousness is not a static reflective substrate but the sequential self-display of awareness through these twelve moments, each of which is one of the Kālīs; liberation is not the abolition of the sequence but the *recognition* of each phase as the Kālī it is — the *kālī-krama-vimarśa*, the discriminative awareness of the Kālī-sequence as one's own nature.",
+  "engaged_works": [
+    {
+      "work_id": "krama-sadbhava",
+      "title": "Krama-Sadbhava",
+      "title_iast": "Krama-Sadbhāva",
+      "alternate_titles": [],
+      "ascription_tier": "lineage-attributed",
+      "ascription_notes": "Attributed to the Hrasvanātha lineage by the internal Krama tradition (Maheśvarānanda's commentaries; the citations in Abhinavagupta's Tantrāloka chapter 4); the precise authorship and the relation of the text to a hypothetical earlier tantra of the same name are debated in modern scholarship (Sanderson; Rastogi).",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Sanderson's essays on the Krama; Rastogi's *Krama Tantricism of Kashmir* (1979)." }
+      ],
+      "genre": "rahasya",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "The Krama-Sadbhāva is the Krama's authoritative scripture on the twelve-fold rising of the Kālīs. It articulates the four-fold cycle (*udaya* — rising; *sthiti* — abiding; *saṃhāra* — resorption; *anākhya* — the unspeakable) and the four-fold positional schema (*bāhya* — external object; *antar* — internal cognition; *sthāna* — the position from which cognition arises; *prāṇa* — the vital-breath substrate), giving sixteen positions of which the standardized Krama practice articulates twelve as the twelve Kālīs whose worship is the Krama discipline. The work is the immediate substrate for the developed Krama systematizations of Cidambarānanda's *Mahānaya-Prakāśa* and Maheśvarānanda's *Mahārtha-Mañjarī-Parimala*. Hrasvanātha's role is the master through whom the *Krama-Sadbhāva* enters the Kashmirian lineage as the school's authoritative scripture."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Hrasvanātha is the principal Kashmirian master of the developed Krama and the immediate source for the *Mahānaya* synthesis that Cidambarānanda and Maheśvarānanda later articulate. The Krama is a distinctive Śākta sub-tradition within the wider Kashmirian non-dual Śaiva-Śākta synthesis: Abhinavagupta's *Tantrāloka* chapter 4 (on the *śākta-upāya*) is structured around the Krama's twelve-Kālī scheme, and Maheśvarānanda's *Mahārtha-Mañjarī* is a south-Indian Mahārtha (Krama) summa. Modern scholarship — Sanderson, Rastogi, Padoux — establishes Hrasvanātha as a key but partly obscure transmissional figure; the lineage-internal evidence is dominant since the *Krama-Sadbhāva* and other Krama sources circulated in restricted initiatory transmission rather than as open Sanskrit textual production.",
+  "entry_status": "draft",
+  "entry_owner_agent": "channel-primary-sources-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "channel-primary-sources-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "manifestation_status", "value": "expressive-manifestation", "register": "metaphysical", "citation_locus": "Krama-Sadbhāva (twelve-Kālī scheme)", "confidence": "medium" },
+    { "primitive": "practice_path", "value": "transformative-integration", "register": "soteriological", "citation_locus": "Krama-Sadbhāva (twelve-Kālī worship)", "confidence": "medium" }
+  ],
+  "cross_engagements": []
+}

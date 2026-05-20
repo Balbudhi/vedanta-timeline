@@ -1,0 +1,82 @@
+{
+  "id": "dharmottara",
+  "name": "Dharmottara",
+  "name_iast": "Dharmottara",
+  "alternate_names": [],
+  "dates_low": 740,
+  "dates_high": 800,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Conventionally dated c. 740–800 CE on the basis of his position in the post-Dharmakīrti commentarial chain: he succeeds Devendrabuddhi and Śākyabuddhi (the first generation of immediate Dharmakīrti expositors) and precedes Prajñākaragupta, and the Kashmirian local tradition transmits him as roughly contemporary with Jayanta-Bhaṭṭa's grandfather. Frauwallner and Steinkellner accept the late-eighth-century placement; see Krasser's editorial work on the Pramāṇa-Viniścaya-Ṭīkā.",
+  "school": "Buddhist Pramāṇa",
+  "school_color_token": "buddhist-pramana-comparator",
+  "sub_school": "Sautrāntika-Yogācāra commentarial",
+  "sub_school_shade": 3,
+  "lineage_in": [
+    "dharmakirti"
+  ],
+  "lineage_out": [],
+  "lineage_polemical": [
+    { "thinker_id": "jayanta-bhatta", "direction": "is-refuted-by", "note": "Jayanta-Bhaṭṭa's Nyāya-Mañjarī engages the Dharmottara line of Buddhist pramāṇa-theory as the Kashmirian Naiyāyika opponent; the apoha and pratyakṣa-laksaṇa analyses of Dharmottara are the proximate target for Jayanta's Naiyāyika rejoinders." },
+    { "thinker_id": "vacaspati", "direction": "is-refuted-by", "note": "Vāchaspati Miśra's Nyāya-Vārttika-Tātparya-Ṭīkā, in defending the Naiyāyika analysis of pramāṇa against the developed Buddhist Pramāṇa school, takes Dharmottara as a principal post-Dharmakīrti voice the Naiyāyika rejoinder must address alongside Dharmakīrti himself." }
+  ],
+  "core_thesis": "Dharmottara is the most influential of the Kashmirian commentators on Dharmakīrti and the principal source through which the developed Sautrāntika-Yogācāra pramāṇa-system is transmitted in both Tibet and the Sanskrit cosmopolis. Three works are central. The *Pramāṇa-Viniścaya-Ṭīkā* — Dharmottara's sub-commentary on Dharmakīrti's *Pramāṇa-Viniścaya* — is the most extensive of his works and the principal exegetical apparatus for the *Pramāṇa-Viniścaya*'s three chapters on pratyakṣa, svārtha-anumāna, and parārtha-anumāna. The *Nyāya-Bindu-Ṭīkā* — Dharmottara's sub-commentary on Dharmakīrti's compact *Nyāya-Bindu* — became the standard textbook for the pramāṇa-system across the medieval Sanskrit world; it survives in Sanskrit (in contrast to most of the Dharmakīrti commentarial corpus which survives only in Tibetan) and is the document through which non-Kashmirian Buddhist and Brahmanical readers learn the developed Dharmakīrtian system. The *Apoha-Prakaraṇa* — a short independent treatise on the *apoha* (exclusion) theory of meaning — develops Dharmakīrti's analysis of how universals are constructed through the negation of dissimilars and is a principal text in the post-Dharmakīrti apoha-tradition. Dharmottara's distinctive contributions are three. First, his analysis of the *prāmāṇya* (validity) of cognition fixes the standard Buddhist Pramāṇa position that validity is *para-tas* (extrinsic, established by subsequent successful action) against the Mīmāṃsā position of intrinsic validity. Second, his treatment of the *pratyakṣa-lakṣaṇa* (the definition of perception as kalpanā-apoḍha and abhrānta) sharpens Dharmakīrti's account of how perception excludes conceptual construction. Third, his analysis of *apoha* refines the Dignāga-Dharmakīrti theory by distinguishing the *anya-apoha* (external exclusion) from the *buddhi-pratibimba* (the conceptual image internal to cognition) as two distinct moments of meaning-constitution. The cumulative effect is to fix the form in which Dharmakīrti's pramāṇa-system enters the late first-millennium debate.",
+  "engaged_works": [
+    {
+      "work_id": "pramana-viniscaya-tika",
+      "title": "Pramana-Viniscaya-Tika",
+      "title_iast": "Pramāṇa-Viniścaya-Ṭīkā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Dharmottara as a sub-commentary on Dharmakīrti's Pramāṇa-Viniścaya. The Sanskrit is partly extant; the Tibetan translation in the Tengyur is the principal complete witness. Krasser's modern editorial work is the standard.",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Krasser's editions; Steinkellner and Frauwallner studies." }
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "An extensive sub-commentary on Dharmakīrti's *Pramāṇa-Viniścaya* (Determination of the Means of Valid Cognition), in three chapters tracking the source-text's analysis of perception (pratyakṣa), inference-for-oneself (svārtha-anumāna), and inference-for-others (parārtha-anumāna). The *Ṭīkā* is the principal expansion of Dharmakīrti's compact verse-and-autocommentary form into the full philosophical apparatus required for school-level transmission. Major contributions include Dharmottara's analysis of *prāmāṇya* as extrinsic (*para-tas*), established through the cognition's *avisaṃvāda* (non-deceiving) character verified by subsequent successful action; the analysis of *pratyakṣa* as *kalpanā-apoḍha* (free of conceptual construction) and *abhrānta* (non-erroneous), with the four-fold classification of perception (sense, mental, self-awareness, yogic); the analysis of *svabhāva-pratibandha* (intrinsic connection) as the metaphysical ground of inferential necessity through either causal connection (*tadutpatti*) or identity (*tādātmya*)."
+    },
+    {
+      "work_id": "nyaya-bindu-tika",
+      "title": "Nyaya-Bindu-Tika",
+      "title_iast": "Nyāya-Bindu-Ṭīkā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Dharmottara as a sub-commentary on Dharmakīrti's Nyāya-Bindu. Sanskrit text extant; standard edition Stcherbatsky 1918 (Bibliotheca Buddhica VII).",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Stcherbatsky 1918 edition; standard Sanskrit textbook of the school." }
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Sub-commentary on Dharmakīrti's *Nyāya-Bindu* (the Drop of Reasoning), the compact textbook articulating the Dharmakīrtian pramāṇa-system in three brief chapters. The *Ṭīkā* unfolds the source-text's terse statements into the school's standard exposition: the two pramāṇas (pratyakṣa, anumāna) and the rejection of *śabda* and other proposed pramāṇas as reducible to inference; the definition of pratyakṣa with its four-fold classification; the definition of anumāna with the three-characteristic logical mark (*tri-rūpa-liṅga*) and the classification of valid and invalid reasons. The work survives in Sanskrit and was the standard medieval textbook of the school across South Asia and Tibet."
+    },
+    {
+      "work_id": "apoha-prakarana",
+      "title": "Apoha-Prakarana",
+      "title_iast": "Apoha-Prakaraṇa",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored short independent treatise on apoha-vāda; transmitted in Sanskrit and Tibetan.",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Frauwallner edition; subsequent editorial work by Akamatsu." }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A compact independent treatise on the *apoha* (exclusion) theory of meaning, developing Dignāga's and Dharmakīrti's analysis of how general terms refer not to positive universals but to mental images constituted by the negation of dissimilars (*anya-apoha*). Dharmottara's refinement distinguishes two moments: the *anya-apoha* proper (the external exclusion-relation among real particulars) and the *buddhi-pratibimba* (the conceptual image internal to cognition that serves as the immediate object of word-cognition). The work is one of the principal Indian sources for the post-Dharmakīrti apoha tradition and is engaged extensively by Jñānaśrīmitra and Ratnakīrti."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Dharmottara's commentaries are the principal medieval textbook tradition of the Dharmakīrtian pramāṇa-system. The Nyāya-Bindu-Ṭīkā is the document through which the system enters the Sanskrit-Brahmanical engagement (Jayanta, Vāchaspati, the Navya-Naiyāyikas all read Dharmakīrti through Dharmottara). In the Tibetan tradition Dharmottara is canonized as one of the indispensable second-generation expositors of Dharmakīrti. Khenpo Tsultrim Gyamtso Rinpoche's *Progressive Stages of Meditation on Emptiness* lists the Sautrāntika view through Dharmakīrti's epistemology as the second of the six progressive views, with Dharmottara as the principal commentator who fixes that view for school transmission.",
+  "entry_status": "draft",
+  "entry_owner_agent": "channel-primary-sources-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "channel-primary-sources-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "epistemic_authority", "value": "pramana-restricted", "register": "epistemological", "citation_locus": "Pramāṇa-Viniścaya-Ṭīkā", "confidence": "high" },
+    { "primitive": "selfhood_structure", "value": "no-enduring-self", "register": "phenomenological", "citation_locus": "Nyāya-Bindu-Ṭīkā", "confidence": "medium" }
+  ],
+  "cross_engagements": []
+}

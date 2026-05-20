@@ -1,0 +1,53 @@
+{
+  "id": "cidambarananda",
+  "name": "Cidambarananda",
+  "name_iast": "Cidambarānanda",
+  "alternate_names": [
+    "Cidānanda (in some manuscript variants)"
+  ],
+  "dates_low": 1050,
+  "dates_high": 1175,
+  "dates_tier": "lineage-internal",
+  "dates_notes": "Dated by his position in the Kashmirian / South-Indian Krama transmission chain between Hrasvanātha (tenth–eleventh century) and Maheśvarānanda (thirteenth century, who treats the Cidambarānanda lineage as the immediate predecessor of his own Mahārtha synthesis). The Mahānaya-Prakāśa survives in two distinct recensions whose mutual relation is unsettled; the corpus follows Rastogi's placement of the Cidambarānanda recension in the eleventh–twelfth century.",
+  "school": "Bhairava-tantra",
+  "school_color_token": "shakta-kalakula",
+  "sub_school": "Mahānaya-Krama",
+  "sub_school_shade": 3,
+  "lineage_in": [
+    "hrasvanatha"
+  ],
+  "lineage_out": [
+    "mahesvarananda"
+  ],
+  "lineage_polemical": [],
+  "core_thesis": "Cidambarānanda is the principal commentator on the *Mahānaya-Prakāśa* — the systematic Mahānaya (Great Way) articulation of the Krama-Kālīkula tradition. The Mahānaya is the Krama's mature self-presentation as a complete Śākta non-dualism distinct from the Trika and from the Pratyabhijñā, with its own scriptural canon (the *Krama-Sadbhāva*, the *Devī-Pañcaśataka*, and the related Krama-tantras), its own twelve-Kālī ontology, and its own initiatory transmission. The *Mahānaya-Prakāśa* — a Sanskrit verse-treatise in nine *prakaraṇas* — articulates the doctrine systematically: the metaphysics of the twelve Kālīs as the structure of consciousness, the four-fold cycle (*udaya*, *sthiti*, *saṃhāra*, *anākhya*) and the four-fold positional schema (*bāhya*, *antar*, *sthāna*, *prāṇa*), the *cakra-pūjā* of the twelve Kālīs, the *mantra-cosmology* of the Mahānaya, and the recognitional soteriology in which liberation consists in the *vimarśa* (discriminative awareness) of each Kālī as one's own nature. Cidambarānanda's commentarial work — including verse-commentary and prose exposition preserved in the lineage manuscript tradition — is the principal interpretive vehicle through which the *Mahānaya-Prakāśa*'s doctrine is articulated for school-internal transmission. His significance for the Sarvāmnāya / six-āmnāya integration tradition is that he is the principal Krama voice in the lineage chain whose terminus is Maheśvarānanda's *Mahārtha-Mañjarī*; the Mahānaya/Mahārtha synthesis is the south-Indian flowering of the Kashmirian Krama, and Cidambarānanda is the indispensable intermediate figure.",
+  "engaged_works": [
+    {
+      "work_id": "mahanaya-prakasa-commentary",
+      "title": "Mahanaya-Prakasa (with Cidambarananda's commentary)",
+      "title_iast": "Mahānaya-Prakāśa",
+      "alternate_titles": [],
+      "ascription_tier": "lineage-attributed",
+      "ascription_notes": "The *Mahānaya-Prakāśa* survives in two distinct recensions (the Trivandrum Sanskrit Series edition and a second recension preserved separately); the commentarial layer attributed to Cidambarānanda is preserved in the lineage manuscript tradition. The precise authorship of the root verses and the relation between root and commentary are debated; the corpus follows Sanderson and Rastogi in treating Cidambarānanda as the principal lineage-internal commentator and partial systematizer.",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Rastogi's *Krama Tantricism of Kashmir* (1979); Sanderson's essays on the Krama; the Trivandrum Sanskrit Series edition of the Mahānaya-Prakāśa." }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Sanskrit verse-treatise in nine *prakaraṇas* with Cidambarānanda's commentarial layer, articulating the Mahānaya-Krama doctrine systematically. The opening *prakaraṇas* establish the metaphysics of the twelve Kālīs and the four-fold cycle (*udaya* — rising; *sthiti* — abiding; *saṃhāra* — resorption; *anākhya* — the unspeakable beyond). The middle *prakaraṇas* develop the four-fold positional schema (*bāhya*, *antar*, *sthāna*, *prāṇa*) and the *cakra-pūjā* of the twelve Kālīs. The closing *prakaraṇas* develop the recognitional soteriology — liberation as the *vimarśa* of the Kālī-sequence as one's own nature — and the *mantra-cosmology* of the Mahānaya. The work is the principal Sanskrit textual vehicle of the Mahānaya-Krama and the immediate substrate of Maheśvarānanda's *Mahārtha-Mañjarī-Parimala*."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Cidambarānanda's commentarial work is the principal interpretive vehicle through which the *Mahānaya-Prakāśa* enters the Mahārtha synthesis articulated by Maheśvarānanda in the thirteenth-century South India. The lineage chain Hrasvanātha → Cidambarānanda → Maheśvarānanda is the spine of the Krama / Mahānaya / Mahārtha tradition. Modern scholarship (Sanderson; Rastogi; Padoux) treats Cidambarānanda as a partly obscure but indispensable transmissional figure; the lineage-internal evidence is dominant since the Krama transmission was restricted-initiatory rather than open scholastic.",
+  "entry_status": "draft",
+  "entry_owner_agent": "channel-primary-sources-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "channel-primary-sources-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "manifestation_status", "value": "expressive-manifestation", "register": "metaphysical", "citation_locus": "Mahānaya-Prakāśa", "confidence": "medium" },
+    { "primitive": "practice_path", "value": "transformative-integration", "register": "soteriological", "citation_locus": "Mahānaya-Prakāśa", "confidence": "medium" }
+  ],
+  "cross_engagements": []
+}

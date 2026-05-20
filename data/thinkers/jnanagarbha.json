@@ -1,0 +1,57 @@
+{
+  "id": "jnanagarbha",
+  "name": "Jnanagarbha",
+  "name_iast": "Jñānagarbha",
+  "alternate_names": [],
+  "dates_low": 700,
+  "dates_high": 760,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Conventionally dated c. 700–760 CE on the basis of his position as Śāntarakṣita's teacher (Śāntarakṣita is firmly dated c. 725–788) and his independence from Bhāviveka, whose Svātantrika-Madhyamaka apparatus he both inherits and reshapes. Eckel's editorial work (1987 on the Satya-Dvaya-Vibhaṅga) places him in the first half of the eighth century.",
+  "school": "Mādhyamaka",
+  "school_color_token": "madhyamaka-comparator",
+  "sub_school": "Yogācāra-Svātantrika-Madhyamaka (early)",
+  "sub_school_shade": 3,
+  "lineage_in": [
+    "bhaviveka"
+  ],
+  "lineage_out": [
+    "santaraksita",
+    "kamalasila"
+  ],
+  "lineage_polemical": [
+    { "thinker_id": "candrakirti", "direction": "mutual", "note": "Jñānagarbha continues the Svātantrika commitment to autonomous inference that Candrakīrti rejects on Prāsaṅgika grounds; the school-distinction Candrakīrti opens between Prāsaṅgika and Svātantrika positions Jñānagarbha as a principal Svātantrika voice the Prāsaṅgika tradition must address." }
+  ],
+  "core_thesis": "Jñānagarbha is the transitional figure between Bhāviveka's classical Svātantrika-Madhyamaka and the Yogācāra-Svātantrika synthesis that Śāntarakṣita and Kamalaśīla complete. His one major surviving work is the *Satya-Dvaya-Vibhaṅga* (Distinguishing the Two Truths), in twelve verses with autocommentary (*vṛtti*), the first systematic Mādhyamaka treatise devoted exclusively to the two-truths doctrine. The work's positions are three. First, *saṃvṛti-satya* (conventional truth) is itself subdivided into *tathya-saṃvṛti* (correct convention — what is accepted as true at the conventional level, what produces effective action) and *mithyā-saṃvṛti* (mistaken convention — what is repudiated even conventionally, such as mirages and dream-objects qua dream-objects). The Mādhyamaka analysis affirms the former at its proper level while subjecting it to ultimate-level emptiness analysis. Second, *paramārtha-satya* (ultimate truth) is itself given a two-fold articulation: the *paryāya-paramārtha* (the figurative ultimate — the negative conceptual articulation 'all things are empty' that operates within discursive thought) and the *aparyāya-paramārtha* (the non-figurative ultimate — the direct non-conceptual realization in which even the conceptual articulation of emptiness is transcended). Third, Jñānagarbha argues against the Yogācāra position that *paratantra* (the dependent nature) is ultimately real: the *paratantra* is itself empty of own-being, and the Yogācāra reification of *vijñāna* as ultimately existent is rejected — but the analysis of consciousness as the conventional reality through which phenomena appear is accepted as a useful conventional articulation. The combined position is the seed of the Yogācāra-Svātantrika synthesis Śāntarakṣita develops: a Mādhyamaka that uses Yogācāra analysis at the conventional level while retaining the Mādhyamaka rejection of any ultimate existent. Khenpo Tsultrim Gyamtso Rinpoche's *Progressive Stages of Meditation on Emptiness* lists Jñānagarbha (alongside Bhāviveka) as a principal Svātantrika voice on the fourth of the six progressive views.",
+  "engaged_works": [
+    {
+      "work_id": "satya-dvaya-vibhanga",
+      "title": "Satya-Dvaya-Vibhanga",
+      "title_iast": "Satya-Dvaya-Vibhaṅga",
+      "alternate_titles": [
+        "Distinguishing the Two Truths",
+        "Satya-Dvaya-Vibhaṅga-Kārikā with auto-Vṛtti"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Jñānagarbha; survives in Tibetan translation in the Tengyur (the Sanskrit is lost). The standard critical edition and English translation are Eckel 1987 (To See the Buddha: A Philosopher's Quest for the Meaning of Emptiness).",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Eckel 1987 critical edition and translation; the standard reference." }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Twelve verses with autocommentary (*vṛtti*), the first systematic Mādhyamaka treatise dedicated exclusively to the two-truths doctrine. The opening verses establish the subdivision of *saṃvṛti-satya* into *tathya-saṃvṛti* (correct convention — what is endorsed even by the Mādhyamaka at the conventional level) and *mithyā-saṃvṛti* (mistaken convention — what is rejected even conventionally). The middle verses develop the subdivision of *paramārtha-satya* into *paryāya-paramārtha* (the figurative ultimate, the conceptual articulation of emptiness) and *aparyāya-paramārtha* (the non-figurative ultimate, the non-conceptual realization). The closing verses develop the polemic against the Yogācāra reification of *paratantra* — the *paratantra* is itself empty, and the Yogācāra analysis must be used at the conventional level only — and against the Naiyāyika-Vaiśeṣika position that real universals and real distinctions can be established at the ultimate level. Śāntarakṣita's sub-commentary (*Satya-Dvaya-Vibhaṅga-Pañjikā*) extends the analysis and integrates it into the developed Yogācāra-Svātantrika synthesis."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Jñānagarbha is the principal source of the developed two-truths analysis that becomes standard in late Indian Mādhyamaka. Śāntarakṣita's commentary on the *Satya-Dvaya-Vibhaṅga* canonizes Jñānagarbha as the immediate philosophical predecessor of the mature Yogācāra-Svātantrika synthesis; the Tibetan doxographical tradition treats him (via Śāntarakṣita and Kamalaśīla) as one of the founders of the school. Modern engagement is dominated by Eckel's 1987 translation and study; subsequent scholarship (Tillemans, Dreyfus) treats Jñānagarbha within the broader analysis of the Svātantrika–Prāsaṅgika distinction.",
+  "entry_status": "draft",
+  "entry_owner_agent": "channel-primary-sources-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "channel-primary-sources-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "modal_structure_of_truth", "value": "two-truths-graded", "register": "epistemological", "citation_locus": "Satya-Dvaya-Vibhaṅga", "confidence": "high" },
+    { "primitive": "substrate_structure", "value": "empty-of-own-being", "register": "metaphysical", "citation_locus": "Satya-Dvaya-Vibhaṅga", "confidence": "high" }
+  ],
+  "cross_engagements": []
+}

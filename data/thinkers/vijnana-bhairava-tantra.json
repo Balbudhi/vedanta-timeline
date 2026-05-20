@@ -1,0 +1,61 @@
+{
+  "id": "vijnana-bhairava-tantra",
+  "name": "Vijnana-Bhairava-Tantra (position-entry)",
+  "name_iast": "Vijñāna-Bhairava-Tantra",
+  "alternate_names": [
+    "Vijñāna-Bhairava",
+    "VBT"
+  ],
+  "dates_low": 700,
+  "dates_high": 900,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "This is a position-entry, not an author-entry. The Vijñāna-Bhairava-Tantra is anonymous and is internally datable to the eighth–ninth centuries CE on the basis of its citation by Kṣemarāja, Śivopādhyāya (the eighteenth-century commentator), and references in the Tantrāloka-tradition. Modern scholarship — Singh's translation, Padoux, Silburn — accepts the eighth–ninth-century placement.",
+  "school": "Bhairava-tantra",
+  "school_color_token": "bhairava-tantra-comparator",
+  "sub_school": "Trika dhāraṇā-tantra",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [
+    "ksemaraja",
+    "abhinavagupta"
+  ],
+  "lineage_polemical": [
+    { "thinker_id": "ksemaraja", "direction": "mutual", "note": "Kṣemarāja's commentary (the *Uddyota* or *Vivṛti*) on the Vijñāna-Bhairava-Tantra is the principal Kashmirian interpretive vehicle. The relation is engaged-from-within: Kṣemarāja is doing the non-dual Śaiva philosophy of the source-tantra's 112 *dhāraṇās*." },
+    { "thinker_id": "abhinavagupta", "direction": "mutual", "note": "Abhinavagupta's *Tantrāloka* draws on the Vijñāna-Bhairava-Tantra as one of the principal source-tantras for the Trika's analysis of *upāya* (means) and *dhāraṇā* (focused awareness); the 112 *dhāraṇās* of the Vijñāna-Bhairava are integrated into Abhinavagupta's analysis of the *śākta-upāya* (the Śakti-means)." }
+  ],
+  "core_thesis": "The *Vijñāna-Bhairava-Tantra* is the central Trika dhāraṇā-tantra — the manual of 112 *dhāraṇās* (focused awareness practices, contemplative techniques) by which the practitioner directly encounters Bhairava-consciousness as one's own nature. The work is anonymous, comparatively short (162 verses on the standard reckoning), presenting itself as a dialogue between the goddess (Bhairavī) and Bhairava in which the goddess asks for the supreme teaching and Bhairava responds with the 112 techniques. The techniques are organized not as a sequential path but as 112 equivalent doorways — each *dhāraṇā* is a sufficient means to recognize Bhairava-consciousness, and any one suffices for the practitioner whose disposition fits it. The techniques range across breath (*prāṇa*-techniques: focusing awareness in the pause between in-breath and out-breath; following the breath into the *dvādaśānta* twelve-fingers above the head), sense-perception (*indriya*-techniques: dissolving into the experience of music, taste, or visual beauty), emotion (*bhāva*-techniques: focusing awareness in the moment of intense emotion, the moment of yawning, the moment of sneezing), thought (*saṃkalpa*-techniques: focusing in the gap between thoughts, the moment of being startled), and *void*-contemplation (*śūnya*-techniques: contemplating the void of space, of consciousness, of identity). The unifying point is that any focused awareness, sustained, opens onto Bhairava-consciousness; the tantra's framework is non-prescriptive variety rather than ritual hierarchy. The work is central to the Trika as the principal manual of the *śākta-upāya* and is the document through which the school's contemplative programme is articulated for the practitioner who is past the ritual stage. Kṣemarāja's commentary (the *Uddyota* — its precise authorship is debated; some manuscripts attribute the commentary to Śivopādhyāya, an eighteenth-century commentator) is the principal interpretive vehicle.",
+  "engaged_works": [
+    {
+      "work_id": "vijnana-bhairava-tantra-text",
+      "title": "Vijnana-Bhairava-Tantra",
+      "title_iast": "Vijñāna-Bhairava-Tantra",
+      "alternate_titles": [],
+      "composition_dates_low": 700,
+      "composition_dates_high": 900,
+      "composition_dates_notes": "Anonymous; dated by its citation chain in Kashmirian non-dual Śaiva commentarial literature and by the developed character of its dhāraṇā apparatus.",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Anonymous; ascribed by tradition to Bhairava revelation. The text presents itself as a dialogue between the goddess and Bhairava.",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Singh's translation and commentary (1979); Silburn's French translation (1961); Padoux; standard reference in Trika scholarship." }
+      ],
+      "genre": "rahasya",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "162 verses in dialogue between the goddess Bhairavī and Bhairava. The opening verses (1–22) establish the frame: the goddess asks for the supreme nature of Bhairava-consciousness, and Bhairava responds that his supreme nature is beyond all attributes and all instruments of cognition and is to be encountered directly through *dhāraṇā* (focused awareness). The body of the text (verses 23–138) gives the 112 *dhāraṇās* — breath-based, sense-based, emotion-based, thought-based, and void-based techniques, each a sufficient doorway to Bhairava-consciousness. The closing verses (139–162) treat the *jīvanmukti* (liberation-while-living) of the practitioner who has realized Bhairava-consciousness and the universal character of that realization (the realized practitioner sees all things as Bhairava). The work is one of the principal Trika source-tantras and is the canonical Sanskrit text of the developed *śākta-upāya* contemplative programme."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "The Vijñāna-Bhairava-Tantra is the principal Trika dhāraṇā-tantra and the document through which the school's contemplative programme is articulated for the practitioner past the ritual stage. The Kashmirian commentary tradition (Kṣemarāja; the *Uddyota* whose authorship is debated) is the principal interpretive vehicle. Modern scholarship — Singh's English translation (1979), Silburn's French translation (1961), Padoux — has established the tantra as one of the most accessible and most frequently cited Trika sources for the modern reader. **None of these scholars' works is on disk in our corpus; all cited via field-standard summary.**",
+  "entry_status": "draft",
+  "entry_owner_agent": "channel-primary-sources-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "channel-primary-sources-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "epistemic_authority", "value": "scripture-plus-transformative-experience", "register": "epistemological", "citation_locus": "Vijñāna-Bhairava-Tantra", "confidence": "medium" },
+    { "primitive": "manifestation_status", "value": "expressive-manifestation", "register": "metaphysical", "citation_locus": "Vijñāna-Bhairava-Tantra", "confidence": "medium" },
+    { "primitive": "practice_path", "value": "transformative-integration", "register": "soteriological", "citation_locus": "Vijñāna-Bhairava-Tantra verses 23–138", "confidence": "high" },
+    { "primitive": "soteric_end", "value": "recognition-or-freedom", "register": "soteriological", "citation_locus": "Vijñāna-Bhairava-Tantra", "confidence": "medium" }
+  ],
+  "cross_engagements": []
+}

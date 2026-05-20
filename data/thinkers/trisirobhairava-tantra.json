@@ -1,0 +1,61 @@
+{
+  "id": "trisirobhairava-tantra",
+  "name": "Trisirobhairava-Tantra (position-entry)",
+  "name_iast": "Triśirobhairava-Tantra",
+  "alternate_names": [
+    "Triśiro-Mata",
+    "Triśirobhairava"
+  ],
+  "dates_low": 600,
+  "dates_high": 900,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "This is a position-entry, not an author-entry. The Triśirobhairava-Tantra is anonymous and largely lost as a continuous text; what survives is a large body of citations and paraphrases in Abhinavagupta's *Tantrāloka* and Jayaratha's *Tantrāloka-Viveka*, together with related material in other Kashmirian commentarial sources. The text is internally datable to the seventh–ninth centuries CE on the basis of its position as a developed Bhairava-tantra cited by Abhinavagupta as established scriptural authority (Sanderson; Hatley).",
+  "school": "Bhairava-tantra",
+  "school_color_token": "bhairava-tantra-comparator",
+  "sub_school": "Vidyā-pīṭha / Trika source-tantras",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [
+    "abhinavagupta",
+    "jayaratha"
+  ],
+  "lineage_polemical": [
+    { "thinker_id": "abhinavagupta", "direction": "mutual", "note": "The Triśirobhairava-Tantra is one of the principal source-tantras Abhinavagupta cites in the *Tantrāloka*, alongside the Mālinī-Vijaya and the Siddha-Yogeśvarī-Mata. The relation is engaged-from-within: Abhinavagupta is doing the philosophy of the source-tantra, not refuting it." }
+  ],
+  "core_thesis": "The *Triśirobhairava-Tantra* is one of the principal Bhairava-tantras of the *Vidyā-pīṭha* — the section of the Śaiva canon devoted to the goddess-centered tantras — and one of the principal source-texts cited by Abhinavagupta as scriptural authority for the Trika. The tantra is named for the three-headed (*tri-śiras*) Bhairava and articulates the three-fold (*trika*) structure of supreme consciousness as Śiva, Śakti, and Nara (or as the three goddesses Parā, Parāparā, and Aparā) in a developed Bhairava-tantra ritual and metaphysical programme. The work is largely lost as a continuous text but is reconstructable from the extensive citation chain in Abhinavagupta's *Tantrāloka* and Jayaratha's *Tantrāloka-Viveka*. Its principal contributions are three. First, the *trika*-articulation of supreme consciousness into the three goddesses Parā (the supreme), Parāparā (the supreme-and-non-supreme), and Aparā (the non-supreme) — a doctrine that gives the Trika its name and that Abhinavagupta develops as the structural foundation of the school. Second, the *kuṇḍalinī*-and-*cakra* yoga articulated as the rising of consciousness through the three-fold articulation of the goddess. Third, the ritual programme of *yāga* (sacrifice), *mantra*, and *dīkṣā* (initiation) in the goddess-centered Vidyā-pīṭha mode. The text's significance is that Abhinavagupta's *Tantrāloka* cites it more often than any source other than the *Mālinī-Vijaya*; without the Triśirobhairava, the developed Trika is incomplete.",
+  "engaged_works": [
+    {
+      "work_id": "trisirobhairava-tantra-text",
+      "title": "Trisirobhairava-Tantra",
+      "title_iast": "Triśirobhairava-Tantra",
+      "alternate_titles": [
+        "Triśiro-Mata"
+      ],
+      "composition_dates_low": 600,
+      "composition_dates_high": 900,
+      "composition_dates_notes": "Anonymous; dated by Abhinavagupta's tenth-century treatment as established scriptural authority and by the developed character of its Bhairava-tantra apparatus.",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Anonymous; ascribed by tradition to Bhairava revelation. The text is largely lost as a continuous source and is principally reconstructable from the citation chain in Abhinavagupta's *Tantrāloka* and Jayaratha's *Tantrāloka-Viveka*.",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Sanderson's essays on the Śaiva canon; Hatley's essays on the Vidyā-pīṭha; the citation analysis in modern scholarship on the Tantrāloka." }
+      ],
+      "genre": "rahasya",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A largely lost Bhairava-tantra of the Vidyā-pīṭha, reconstructable from the extensive citation chain in Abhinavagupta's *Tantrāloka* and Jayaratha's *Tantrāloka-Viveka*. The work articulates the *trika*-structure of supreme consciousness as Śiva-Śakti-Nara or as the three goddesses Parā, Parāparā, and Aparā; the *kuṇḍalinī*-and-*cakra* yoga in the three-fold articulation; and the goddess-centered Vidyā-pīṭha ritual programme of *yāga*, *mantra*, and *dīkṣā*. The text is one of the principal source-tantras of the Trika and the document Abhinavagupta cites second most often (after the *Mālinī-Vijaya*) as scriptural authority."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "The Triśirobhairava-Tantra is one of the principal source-tantras of the Trika as Abhinavagupta presents it. The work is largely lost but its citations in the *Tantrāloka* and *Tantrāloka-Viveka* are extensive enough that modern scholarship (Sanderson; Hatley) treats it as a reconstructable position even in the absence of a continuous text. **None of the modern scholars' works is on disk in our corpus; all cited via field-standard summary.**",
+  "entry_status": "draft",
+  "entry_owner_agent": "channel-primary-sources-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "channel-primary-sources-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "epistemic_authority", "value": "scripture-plus-transformative-experience", "register": "epistemological", "citation_locus": "Triśirobhairava-Tantra (reconstructed)", "confidence": "low" },
+    { "primitive": "manifestation_status", "value": "expressive-manifestation", "register": "metaphysical", "citation_locus": "Triśirobhairava-Tantra (reconstructed)", "confidence": "low" },
+    { "primitive": "soteric_end", "value": "recognition-or-freedom", "register": "soteriological", "citation_locus": "Triśirobhairava-Tantra (reconstructed)", "confidence": "low" }
+  ],
+  "cross_engagements": []
+}

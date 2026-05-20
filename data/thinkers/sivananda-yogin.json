@@ -1,0 +1,56 @@
+{
+  "id": "sivananda-yogin",
+  "name": "Sivananda Yogin",
+  "name_iast": "Śivānanda Yogin",
+  "alternate_names": [
+    "Śivānanda",
+    "Śivānanda-nātha"
+  ],
+  "dates_low": 1200,
+  "dates_high": 1350,
+  "dates_tier": "lineage-internal",
+  "dates_notes": "Conventionally placed in the thirteenth–fourteenth century on the basis of his position in the Sarvāmnāya / six-āmnāya integration tradition immediately following Maheśvarānanda (1225–1300) and preceding the developed Śrīvidyā synthesists Amṛtānanda and Lakṣmīdhara. Identification is contested: more than one Śivānanda is attested in the South-Indian tantric record, and the precise relation of the Śivānanda associated with the six-āmnāya schema to the Śivānanda of the *Ṛju-Vimarśinī* commentary on the *Nityā-Ṣoḍaśikārṇava* and to other Śivānandas is debated in modern scholarship (Brooks; Padoux). The corpus follows the working identification of one Śivānanda Yogin as a key Sarvāmnāya integrator while flagging the ID-uncertainty.",
+  "school": "Bhairava-tantra",
+  "school_color_token": "shakta-srividya",
+  "sub_school": "Sarvāmnāya / six-āmnāya integration",
+  "sub_school_shade": 3,
+  "lineage_in": [
+    "mahesvarananda"
+  ],
+  "lineage_out": [
+    "bhaskararaya"
+  ],
+  "lineage_polemical": [],
+  "core_thesis": "Śivānanda Yogin is the principal medieval articulator of the *six-āmnāya* (six-stream) schema by which the Sarvāmnāya synthesis tradition organizes the entire tantric canon as the six-faced revelation of Śiva. The six *āmnāyas* — *pūrva* (eastern), *paścima* (western), *uttara* (northern), *dakṣiṇa* (southern), *ūrdhva* (upper), and *adhara* (lower) — are the six revelatory streams, each associated with a face of Śiva and a particular tantric corpus: the *pūrva-āmnāya* with the Trika and the *Mālinī-Vijaya*; the *paścima-āmnāya* with the Kubjikā tradition and the *Kubjikā-Mata*; the *uttara-āmnāya* with the Krama / Kālīkula and the *Krama-Sadbhāva*; the *dakṣiṇa-āmnāya* with the Śrīvidyā and the *Vāmakeśvarī-Mata*; the *ūrdhva-āmnāya* with the transcendent and the *Para* form of the goddess; and the *adhara-āmnāya* with the lower-tantric and the worldly powers. Śivānanda's significance is that he is one of the principal medieval voices who articulates the integrative claim that all six *āmnāyas* are one revelation of one Śiva-Śakti, and that their separate practitioner-communities are partial vantages on one tantric whole. The work most closely associated with him in the Sarvāmnāya line is the *Ṛju-Vimarśinī* — a commentary on the *Nityā-Ṣoḍaśikārṇava* (the first half of the *Vāmakeśvarī-Mata-Tantra*, the principal Śrīvidyā tantra) — which articulates the Śrīvidyā within the wider six-āmnāya integrative framework. Although the precise identity of Śivānanda is contested in modern scholarship — multiple Śivānandas circulate in the medieval South-Indian tantric record, and the corpus accepts this ID-uncertainty rather than collapsing it — the figure named in the Sarvāmnāya lineage as the articulator of the six-āmnāya schema is one indispensable hinge between Maheśvarānanda's thirteenth-century Mahārtha synthesis and Bhāskararāya's eighteenth-century mature Śrīvidyā theology.",
+  "engaged_works": [
+    {
+      "work_id": "rju-vimarsini",
+      "title": "Rju-Vimarsini",
+      "title_iast": "Ṛju-Vimarśinī",
+      "alternate_titles": [
+        "Commentary on the Nityā-Ṣoḍaśikārṇava"
+      ],
+      "ascription_tier": "lineage-attributed",
+      "ascription_notes": "Attributed to Śivānanda by the Śrīvidyā commentarial tradition; precise authorship is debated in modern scholarship since multiple Śivānandas are attested in the South-Indian tantric record. The corpus flags the ID-uncertainty while recording the traditional ascription.",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Brooks 1990 (*The Secret of the Three Cities*); the Sanskrit edition in the principal Śrīvidyā collections; Padoux's references in the Yoginī-Hṛdaya translation." }
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Commentary on the *Nityā-Ṣoḍaśikārṇava* (the Ocean of the Sixteen Nityās), the first half of the *Vāmakeśvarī-Mata-Tantra* and the principal Śrīvidyā tantric source. The commentary articulates the worship of the fifteen (and esoteric sixteenth) *nityā*-deities, the *Śrī-Vidyā* mantra-cosmology, and the *Śrī-Cakra*'s structural levels, within the wider six-āmnāya integrative framework that places the Śrīvidyā as the *dakṣiṇa-āmnāya* and relates it to the other five revelatory streams. The work is the principal medieval *Nityā-Ṣoḍaśikārṇava* commentary in the lineage and is one of the immediate predecessors of Bhāskararāya's *Setubandha* commentary on the same source-text."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Śivānanda Yogin (as the figure named in the Sarvāmnāya tradition with the six-āmnāya schema) is one of the principal medieval articulators of the integrative claim that the six revelatory streams of the tantric canon are one revelation. The schema enters the mature Śrīvidyā through Bhāskararāya, who treats the Śrīvidyā as the *dakṣiṇa-āmnāya* within a six-stream unity. Modern scholarship (Brooks 1990; Sanderson; Padoux) flags the identity-uncertainty: multiple Śivānandas appear in the South-Indian tantric record, and the precise relation of the six-āmnāya articulator to the *Ṛju-Vimarśinī* commentator is debated. The corpus records the traditional ascription and the ID-uncertainty in the same entry rather than resolving the uncertainty by fiat.",
+  "entry_status": "draft",
+  "entry_owner_agent": "channel-primary-sources-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "channel-primary-sources-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "manifestation_status", "value": "expressive-manifestation", "register": "metaphysical", "citation_locus": "Ṛju-Vimarśinī on Nityā-Ṣoḍaśikārṇava", "confidence": "medium" },
+    { "primitive": "practice_path", "value": "transformative-integration", "register": "soteriological", "citation_locus": "Ṛju-Vimarśinī on Nityā-Ṣoḍaśikārṇava", "confidence": "medium" }
+  ],
+  "cross_engagements": []
+}

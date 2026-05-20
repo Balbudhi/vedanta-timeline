@@ -1,0 +1,61 @@
+{
+  "id": "bhojaraja",
+  "name": "Bhoja-raja",
+  "name_iast": "Bhoja-rāja",
+  "alternate_names": [
+    "Bhojadeva",
+    "Bhoja of Dhārā"
+  ],
+  "dates_low": 1010,
+  "dates_high": 1055,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Paramāra king of Mālwā (ruled c. 1010–1055 CE from Dhārā); dating fixed by epigraphy and dynastic chronicle. The Rāja-Mārtaṇḍa colophon ascribes the work to King Bhoja in his own name; the polymath authorship across grammar (Sarasvatī-Kaṇṭhābharaṇa), poetics (Śṛṅgāra-Prakāśa), architecture (Samarāṅgaṇa-Sūtradhāra), and Yoga is a single intellectual programme of the Paramāra court.",
+  "school": "Yoga",
+  "school_color_token": "yoga-comparator",
+  "sub_school": "Yoga-Sūtra commentarial",
+  "sub_school_shade": 3,
+  "lineage_in": [
+    "patanjali",
+    "vyasa-bhasya"
+  ],
+  "lineage_out": [
+    "vijnanabhiksu"
+  ],
+  "lineage_polemical": [
+    { "thinker_id": "vacaspati", "direction": "mutual", "note": "Bhoja's Rāja-Mārtaṇḍa is roughly contemporary with Vāchaspati Miśra's Tattva-Vaiśāradī and represents an independent eleventh-century commentarial vehicle on the Yoga-Sūtra. Where Vāchaspati reads through Vyāsa-Bhāṣya, Bhoja often comments directly on the sūtras themselves; the relation is mutual cross-commentarial engagement rather than polemic." }
+  ],
+  "core_thesis": "Bhoja-rāja, the Paramāra king of Mālwā, is the principal eleventh-century non-Brahmanical-pandit commentator on the *Yoga-Sūtra*. His *Rāja-Mārtaṇḍa* — the Royal Sun — is a *vṛtti* directly on Patañjali's sūtras (in contrast to Vāchaspati's *Tattva-Vaiśāradī*, which is a *ṭīkā* on Vyāsa's *Bhāṣya*), making it the principal medieval Yoga-Sūtra commentary that does not pass through Vyāsa. The work is distinctive on three counts. First, Bhoja's commentarial method is direct sūtra-by-sūtra paraphrase with selective philosophical elaboration; he does not reproduce the full Vyāsa-Bhāṣya apparatus, and where his reading diverges from Vyāsa's (notably on *citta-vṛtti-nirodha* at *YS* 1.2, the *kriyā-yoga* analysis at *YS* 2.1–2, and the *kaivalya*-doctrine of the fourth *pāda*) the divergence is registered as a substantive alternative. Second, Bhoja's analysis of *samādhi* is closer to a king's-handbook clarity than to a pandit's scholastic exhaustiveness, and the *Rāja-Mārtaṇḍa* is the principal source through which the developed Yoga-Sūtra system reaches the medieval royal courts and the non-pandit literate class. Third, Bhoja's reading of the theism of *YS* 1.23–29 (*īśvara-praṇidhāna*) is more pronouncedly devotional than Vāchaspati's, and the *Rāja-Mārtaṇḍa* is the principal medieval source for a theistic Yoga-Sūtra reading that connects the school's *īśvara* with the wider Śaiva and Vaiṣṇava devotional traditions of the Paramāra-period royal courts. Edwin Bryant's modern translation of the Yoga-Sūtras lists the *Rāja-Mārtaṇḍa* as one of the four principal classical commentaries (alongside Vyāsa, Vāchaspati, and Vijñānabhikṣu) that the modern English-language Yoga-Sūtra reception engages.",
+  "engaged_works": [
+    {
+      "work_id": "raja-martanda",
+      "title": "Raja-Martanda",
+      "title_iast": "Rāja-Mārtaṇḍa",
+      "alternate_titles": [
+        "Bhoja-Vṛtti",
+        "Pātañjala-Yoga-Sūtra-Vṛtti"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by King Bhoja of Dhārā; the colophon ascribes it to Bhoja in his own name, and the work is referenced by Bhoja's other surviving compositions and by subsequent Yoga-Sūtra commentators including Vijñānabhikṣu.",
+      "ascription_evidence": [
+        { "kind": "scholarly-consensus", "description": "Modern academic consensus; standard Sanskrit editions and references in Larson and Bhattacharya's Yoga-Sūtra volume of the Encyclopedia of Indian Philosophies." }
+      ],
+      "genre": "vrtti",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A direct *vṛtti* on the *Yoga-Sūtra* of Patañjali — Bhoja's reading of the four *pādas* (Samādhi, Sādhana, Vibhūti, Kaivalya) without the intermediary of Vyāsa's *Bhāṣya*. The first *pāda* unfolds the analysis of *citta-vṛtti-nirodha* (the cessation of mental modifications) with Bhoja's distinctive emphasis on the five *vṛtti*-types as the natural categories of mental activity that the discipline progressively quiets; the analysis of *samādhi* into *samprajñāta* and *asamprajñāta* (with-content and without-content) follows the standard distinction; the analysis of *īśvara-praṇidhāna* at *YS* 1.23–29 articulates the school's qualified theism. The second *pāda* unfolds the *kriyā-yoga* (the three-fold preparatory yoga of *tapas*, *svādhyāya*, *īśvara-praṇidhāna*) and the eight *aṅgas* of *aṣṭāṅga-yoga*; the third *pāda* on the *vibhūtis* (supernormal powers as natural consequences of *saṃyama* on appropriate objects); the fourth *pāda* on *kaivalya* as the soul's isolation from *prakṛti* in the standard Sāṅkhya-Yoga dualist ontology. The work's significance for Yoga-Sūtra reception is that it is the only major medieval commentary that reads Patañjali directly rather than through Vyāsa, and is therefore the principal alternative voice in the medieval commentarial chain. Vijñānabhikṣu's *Yoga-Vārttika* and Rāmānanda Sarasvatī's *Maṇi-Prabhā* both treat the *Rāja-Mārtaṇḍa* as standard reference."
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "The *Rāja-Mārtaṇḍa* is the principal medieval Yoga-Sūtra commentary outside the Vyāsa-Bhāṣya line and is the document through which the developed Yoga-Sūtra system enters the medieval royal courts. Vijñānabhikṣu's *Yoga-Vārttika* treats it as standard reference; the modern English-language Yoga-Sūtra reception (Bryant 2009, *The Yoga Sūtras of Patañjali*) lists it among the four principal classical commentaries that must be engaged. Bhoja's other surviving works — the *Sarasvatī-Kaṇṭhābharaṇa* on Sanskrit grammar, the *Śṛṅgāra-Prakāśa* on poetics, the *Samarāṅgaṇa-Sūtradhāra* on architecture — exhibit the polymath programme of the Paramāra royal court within which the Yoga-Sūtra commentary is one component.",
+  "entry_status": "draft",
+  "entry_owner_agent": "channel-primary-sources-opus-4-7",
+  "last_verified_at": "2026-05-19",
+  "last_verified_by": "channel-primary-sources-opus-4-7",
+  "primitive_commitments": [
+    { "primitive": "practice_path", "value": "meditative-discipline", "register": "soteriological", "citation_locus": "Rāja-Mārtaṇḍa on YS 2.28–55", "confidence": "high" },
+    { "primitive": "substrate_structure", "value": "purusa-prakrti-dualism", "register": "metaphysical", "citation_locus": "Rāja-Mārtaṇḍa on YS 2.18–22", "confidence": "high" },
+    { "primitive": "soteric_end", "value": "isolation-of-self", "register": "soteriological", "citation_locus": "Rāja-Mārtaṇḍa on YS 4.32–34", "confidence": "high" }
+  ],
+  "cross_engagements": []
+}
