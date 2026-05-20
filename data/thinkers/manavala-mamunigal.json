@@ -111,6 +111,46 @@
       "summary": "A Tamil-Maṇipravāḷa commentary on Nāmmāḻvār's *Tiruvāymoḻi* — the 1,102-verse Tamil hymn-cycle treated as *Drāviḍa-Veda* and doctrinally authoritative in the Tenkalai school. The commentary stands in the line of the earlier Tenkalai *vyākhyāna*-s — Tirukkurukai-pirān-piḷḷān's *Āṛāyirappaḍi*, Naṅjīyar's *Onpadināyirappaḍi*, Periyavāccān-piḷḷai's *Irupattu-nālāyirappaḍi*, Vaḍakku-tiru-vīdhi-piḷḷai's *Muppattāṛāyirappaḍi* — citing them throughout and reading every *pāsuram* under the *rahasya*-doctrine of Pillai-Lokācārya. Each *pāsuram* is read at three registers simultaneously: devotional (the Āḻvār's longing, separation, return), doctrinal (Brahman *saviśeṣa*, *cit*-*acit*-*Īśvara*, *śeṣatva*), and soteriological (*prapatti* enacted, *kṛpā* received, *kaiṅkarya* anticipated). The Āḻvār's surrender to Bhagavān at Śrīraṅgam (vyākhyāna on *Tiruvāymoḻi* 5.8 and 6.10, *agalakillen* and *akalakillen*) is taken as the lived enactment of *prapatti* in its fullest form, and so as the operative paradigm of the school's soteriology. The doctrinal opening at vyākhyāna on *Tiruvāymoḻi* 1.1.1 (*uyarvaṟa uyar-nalam*) establishes the Tamil hymn's Veda-equivalence in interpretive force. The work cements the Tenkalai claim that Nāmmāḻvār's Tamil *prabandham* is *śruti*-equivalent and that experiential surrender is the school's primary norm, complementing — and on Tenkalai reading exceeding in directness — the Sanskrit Vedānta tradition.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
+    },
+    {
+      "work_id": "tattva-trayam-vyakhyana",
+      "title": "Tattva-Trayam-Vyakhyana",
+      "title_iast": "Tattva-Trayam-Vyākhyāna",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Tamil-maṇipravāḷa commentary by Maṇavāḷa Māmunigal on Piḷḷai Lokācārya's *Tattva-Trayam*.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
+      ],
+      "genre": "tika",
+      "language": "tamil-manipravala",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Maṇavāḷa Māmunigal's Tamil-maṇipravāḷa commentary on Piḷḷai Lokācārya's *Tattva-Trayam* — the Tenkalai-school *rahasya* enumerating the three *tattvas*: *cit* (the conscious *jīva*), *acit* (non-conscious matter), and *Īśvara* (Nārāyaṇa-with-Śrī as the supreme *śarīrin*). The commentary fixes the standard Tenkalai reading of the *jīva*'s *seśa-tva* (servitude to Nārāyaṇa as the *jīva*'s constitutive nature) and the *para-tantra-tva* (radical other-dependence of the *jīva*) against the Vaḍakalai reading that admits a stronger role for human *yatna* (effort) in the *upāya*-economy. Read together with the *Mumukṣuppaḍi-Vyākhyāna* and the *Śrī-Vacana-Bhūṣaṇa-Vyākhyāna*, this commentary forms the core of the Tenkalai *rahasya*-curriculum: the *Mumukṣuppaḍi* on the *mantra-trayam*, the *Tattva-Trayam* on the ontology, and the *Śrī-Vacana-Bhūṣaṇa* on the *prapatti*-soteriology.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "sri-vacana-bhushana-vyakhyana",
+      "title": "Sri-Vacana-Bhushana-Vyakhyana",
+      "title_iast": "Śrī-Vacana-Bhūṣaṇa-Vyākhyāna",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Tamil-maṇipravāḷa commentary by Maṇavāḷa Māmunigal on Piḷḷai Lokācārya's *Śrī-Vacana-Bhūṣaṇa*.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
+      ],
+      "genre": "tika",
+      "language": "tamil-manipravala",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Maṇavāḷa Māmunigal's Tamil-maṇipravāḷa commentary on Piḷḷai Lokācārya's *Śrī-Vacana-Bhūṣaṇa* — the Tenkalai school's most condensed *rahasya* on the *prapatti*-soteriology, in 463 *cūrṇikās*. The commentary fixes the standard Tenkalai readings of the *carama-śloka* (Bhagavad-Gītā 18.66), of the *upāya*-*upeya* relation, and of the *kainkarya-prāpti* doctrine. The treatment of the *Madhya-Pada* (cūrṇikās on the Tenkalai *upāya*-doctrine) is the load-bearing front against the Vaḍakalai *karma-sahakṛta-jñāna-bhakti-yoga* reading: Māmunigal defends Piḷḷai Lokācārya's position that *prapatti* (and not *bhakti-yoga*) is the operative *upāya*, that the *upāya* requires no human *yatna* once entered into, and that the *upeya* (*kainkarya* in *parama-pada*) follows by Nārāyaṇa's *karuṇā* alone. The work is the central document of the Tenkalai-Vaḍakalai theological divergence and is treated by the school as the soteriological capstone of the Śrīvaiṣṇava *rahasya*-tradition.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
     }
   ],
   "key_passages": [],
