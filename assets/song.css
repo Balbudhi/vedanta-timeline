@@ -1,32 +1,45 @@
 /* =============================================================
    Koi Hor Nahi Hai Mera — page styles
-   Inherits tokens from style.css and layers red+saffron accents.
+   Inverted palette: deep oxblood-red ground, cream + gold text.
+   The aim is a ceremonial / temple register, not a greeting card.
    ============================================================= */
 
 :root {
+  /* Ground & ink (the new inverted palette) */
+  --kh-bg:        #6b121a;   /* deep oxblood, body ground */
+  --kh-bg-deep:   #3e0a10;   /* darker red for the audio player chrome */
+  --kh-text:      #fff5d6;   /* warm cream — primary text */
+  --kh-text-soft: #ead4a0;   /* muted cream-gold — secondary text */
+  --kh-rule:      rgba(255, 245, 214, 0.16);  /* hairline on red */
+
+  /* Accents */
+  --kh-gold:        #ffd84d;   /* primary gold accent */
+  --kh-gold-deep:   #d4a920;   /* deeper gold for hover/border */
+  --kh-saffron:     #f5b800;   /* saffron, for highlights */
+  --kh-saffron-warm:#ffe18a;   /* warm saffron-amber */
+
+  /* Legacy red tokens still referenced elsewhere in the file. */
   --kh-red:        #b91c2c;
   --kh-red-deep:   #8e1620;
   --kh-red-soft:   #fdeeec;
-  --kh-saffron:    #b8740a;
-  --kh-saffron-deep:#8a5408;
   --kh-amber:      #ffe18a;
   --kh-amber-soft: #fff4d1;
 
-  /* Page-local font overrides. Lora for body (warm humanist serif),
-     Cormorant Garamond for the title (devotional display). */
-  --kh-serif:        "Lora", "EB Garamond", Georgia, "Times New Roman", serif;
-  --kh-display:      "Cormorant Garamond", "EB Garamond", Georgia, serif;
+  /* Page-local fonts. Lora (body), Cormorant Garamond (display). */
+  --kh-serif:   "Lora", "EB Garamond", Georgia, "Times New Roman", serif;
+  --kh-display: "Cormorant Garamond", "EB Garamond", Georgia, serif;
 }
 
 html, body {
-  background: var(--bg-warm);
+  background: var(--kh-bg);
+  color: var(--kh-text);
 }
 
 .song-page {
   max-width: 760px;
   margin: 0 auto;
   padding: 56px 30px 140px;   /* extra bottom padding so fixed player doesn't cover the last line */
-  color: var(--ink);
+  color: var(--kh-text);
   font-family: var(--kh-serif);
 }
 
@@ -34,32 +47,33 @@ html, body {
 .song-hero {
   margin: 0 0 56px;
   padding: 0 0 28px;
-  border-bottom: 1px solid var(--kh-red-soft);
+  border-bottom: 1px solid var(--kh-rule);
   text-align: center;
 }
 .song-title {
   font-family: var(--kh-display);
   font-weight: 500;
-  font-style: italic;
-  font-size: 52px;
+  font-style: normal;            /* no italic */
+  font-size: 54px;
   line-height: 1.05;
   margin: 0 0 18px;
-  color: var(--kh-red-deep);
-  letter-spacing: -0.005em;
+  color: var(--kh-text);
+  letter-spacing: 0.005em;
 }
 .song-attrib {
   margin: 0;
 }
 .song-attrib em {
   font-family: var(--kh-display);
-  font-style: italic;
+  font-style: normal;            /* no italic */
   font-weight: 500;
-  color: var(--kh-red);
+  color: var(--kh-gold);
   font-size: 22px;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
-/* ---------- Audio player (custom, fixed at bottom of viewport) ---------- */
+/* ---------- Audio player (fixed at bottom of viewport) ---------- */
 .audio-player {
   position: fixed;
   left: 0;
@@ -67,10 +81,10 @@ html, body {
   bottom: 0;
   height: 54px;
   padding: 0 20px;
-  background: rgba(251, 250, 247, 0.96);
+  background: rgba(40, 8, 12, 0.92);
   backdrop-filter: blur(14px) saturate(140%);
   -webkit-backdrop-filter: blur(14px) saturate(140%);
-  border-top: 1px solid var(--kh-red-soft);
+  border-top: 1px solid rgba(255, 216, 77, 0.22);
   display: flex;
   align-items: center;
   gap: 14px;
@@ -81,8 +95,8 @@ html, body {
   height: 34px;
   border-radius: 50%;
   border: none;
-  background: var(--kh-red-deep);
-  color: #fff;
+  background: var(--kh-gold);
+  color: var(--kh-bg-deep);
   cursor: pointer;
   display: inline-flex;
   align-items: center;
@@ -91,9 +105,9 @@ html, body {
   padding: 0;
   transition: background-color 140ms ease, transform 120ms ease;
 }
-.ap-btn:hover { background: var(--kh-red); }
+.ap-btn:hover { background: var(--kh-saffron-warm); }
 .ap-btn:active { transform: scale(0.94); }
-.ap-btn .ap-icon-play { margin-left: 2px; }       /* optical centering of the play triangle */
+.ap-btn .ap-icon-play { margin-left: 2px; }
 .ap-btn .ap-icon-pause { display: none; }
 .ap-btn.is-playing .ap-icon-play  { display: none; }
 .ap-btn.is-playing .ap-icon-pause { display: inline-block; }
@@ -101,7 +115,7 @@ html, body {
 .ap-progress {
   flex: 1;
   height: 4px;
-  background: var(--kh-red-soft);
+  background: rgba(255, 245, 214, 0.18);
   border-radius: 2px;
   cursor: pointer;
   position: relative;
@@ -110,20 +124,20 @@ html, body {
 .ap-progress-bar {
   height: 100%;
   width: 0%;
-  background: linear-gradient(90deg, var(--kh-red-deep), var(--kh-saffron));
+  background: linear-gradient(90deg, var(--kh-gold), var(--kh-saffron-warm));
   border-radius: 2px;
   transition: width 140ms linear;
 }
 .ap-time {
   font-family: var(--sans);
   font-size: 12px;
-  color: var(--muted);
+  color: var(--kh-text-soft);
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
   min-width: 36px;
   text-align: center;
 }
-.ap-time-total { color: var(--muted-soft); }
+.ap-time-total { color: rgba(234, 212, 160, 0.6); }
 .audio-player audio { display: none; }
 
 /* ---------- Section labels (Refrain, I, II, ...) ---------- */
@@ -133,10 +147,10 @@ html, body {
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--kh-red);
+  color: var(--kh-gold);
   margin: 52px 0 22px;
   padding-bottom: 9px;
-  border-bottom: 1px solid var(--kh-red-soft);
+  border-bottom: 1px solid var(--kh-rule);
 }
 .song-root > .section-label:first-child { margin-top: 0; }
 
@@ -151,14 +165,14 @@ html, body {
   transition: background-color 240ms ease, border-color 240ms ease;
 }
 .line.is-singing {
-  background: #fff8e6;
-  border-left-color: var(--kh-red);
+  background: rgba(255, 216, 77, 0.10);
+  border-left-color: var(--kh-gold);
 }
 .line-roman {
   font-family: var(--kh-serif);
   font-size: 22px;
   line-height: 1.45;
-  color: var(--ink);
+  color: var(--kh-text);
   margin: 0 0 6px;
   letter-spacing: 0.002em;
 }
@@ -167,7 +181,7 @@ html, body {
   font-style: italic;
   font-size: 17.5px;
   line-height: 1.55;
-  color: var(--ink-soft);
+  color: var(--kh-text-soft);
   margin: 0;
 }
 
@@ -180,9 +194,9 @@ html, body {
   font-size: 11.5px;
   font-weight: 600;
   letter-spacing: 0.04em;
-  color: var(--kh-red);
-  background: var(--kh-red-soft);
-  border: 1px solid #f6d4cf;
+  color: var(--kh-gold);
+  background: rgba(255, 216, 77, 0.10);
+  border: 1px solid rgba(255, 216, 77, 0.34);
   border-radius: 10px;
   vertical-align: 0.18em;
   white-space: nowrap;
@@ -202,11 +216,11 @@ html, body {
 .line-roman .w:hover,
 .line-roman .w.is-hi,
 .line-roman .w:focus-visible {
-  background: var(--kh-amber);
-  color: var(--ink);
+  background: var(--kh-gold);
+  color: var(--kh-bg-deep);
 }
 .line-roman .w:focus-visible {
-  box-shadow: 0 0 0 2px rgba(185, 28, 44, 0.28);
+  box-shadow: 0 0 0 2px rgba(255, 216, 77, 0.45);
 }
 
 /* ---------- English mapped spans (highlight target) ---------- */
@@ -217,9 +231,9 @@ html, body {
   transition: background-color 120ms ease, color 120ms ease;
 }
 .line-english .we.is-hi {
-  background: var(--kh-amber-soft);
-  color: var(--ink);
-  box-shadow: inset 0 -1px 0 rgba(185, 28, 44, 0.18);
+  background: rgba(255, 216, 77, 0.22);
+  color: var(--kh-text);
+  box-shadow: inset 0 -1px 0 rgba(255, 216, 77, 0.55);
 }
 
 /* ---------- Word tooltip ---------- */
@@ -232,19 +246,19 @@ html, body {
   font-style: italic;
   font-size: 15.5px;
   line-height: 1.45;
-  color: var(--ink);
-  background: #fffdf7;
-  border: 1px solid var(--kh-amber);
+  color: var(--kh-bg-deep);
+  background: #fff8e0;
+  border: 1px solid var(--kh-gold);
   border-radius: 4px;
-  box-shadow: 0 6px 18px rgba(142, 22, 32, 0.10), 0 1px 2px rgba(0,0,0,0.04);
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.30), 0 1px 2px rgba(0,0,0,0.10);
   pointer-events: none;
 }
 
 /* ---------- Mobile ---------- */
 @media (max-width: 720px) {
   .song-page { padding: 40px 20px 80px; }
-  .song-title { font-size: 34px; }
-  .song-attrib em { font-size: 17px; }
+  .song-title { font-size: 36px; }
+  .song-attrib em { font-size: 17px; letter-spacing: 0.08em; }
   .section-label { font-size: 10.5px; margin: 42px 0 18px; }
   .line { margin-bottom: 24px; }
   .line-roman { font-size: 20px; line-height: 1.5; }
@@ -262,6 +276,6 @@ html, body {
 @media (hover: none) {
   .line-roman .w { padding: 2px 3px; margin: 0 -3px; }
   .line-roman .w:hover { background: transparent; color: inherit; }
-  .line-roman .w.is-hi { background: var(--kh-amber); color: var(--ink); }
+  .line-roman .w.is-hi { background: var(--kh-gold); color: var(--kh-bg-deep); }
   .line-english .we { padding: 1px 2px; }
 }

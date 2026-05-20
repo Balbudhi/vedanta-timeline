@@ -4085,6 +4085,7 @@ async function ensureArticlesLoaded() {
 }
 
 articlesBtn.addEventListener("click", async () => {
+  popoverManager.closeAll();
   await ensureArticlesLoaded();
   articlesModal.classList.add("is-open");
   articlesModal.setAttribute("aria-hidden", "false");
