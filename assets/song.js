@@ -1,27 +1,23 @@
 /* =============================================================
    Koi Hor Nahi Hai Mera — song data + render
    -------------------------------------------------------------
-   Roman text uses ISO 15919–style diacritics for Punjabi:
-     ā ī ū      long vowels
-     ṭ ṭh ḍ ḍh ṇ  retroflex stops/nasal
-     ṛ          Punjabi retroflex flap (Gurmukhi ੜ)
-     ñ          palatal nasal (before c/j)
-     ś          palatal sibilant (Gurmukhi ਸ਼)
-     ṁ          anusvāra / vowel nasalization
-     c / ch     unaspirated / aspirated palatal stops (Gurmukhi ਚ / ਛ)
-     kk, tt, ss …  adhak gemination (Gurmukhi ੱ)
+   Roman transliteration: macrons (ā ī ū) for long vowels,
+   ṛ for the Punjabi retroflex flap (ੜ), ṭ/ḍ/ḍh for retroflex
+   stops where they meaningfully differ. Terminal vowel
+   nasalization is dropped (no anusvāra); medial nasal-before-
+   consonant is written as plain n. ch = ਚ, chh = ਛ, sh = ਸ਼.
    ============================================================= */
 
 const LINES = {
   invocation: {
-    roman: "Māṁ merī saccīāṁ jotāṁ vālī mātā, terī sadā hī jai",
+    roman: "Mā merī sachīyā jotā wālī mātā, terī sadā hī jai",
     english: "{1:My} {0:Mother}, {5:O Mother} {4:of} the {2:true, eternal} {3:sacred flames} — may {8:victory} {7:always} be {6:Yours}.",
     words: [
-      { roman: "Māṁ",        gloss: "Mother" },
+      { roman: "Mā",         gloss: "Mother" },
       { roman: "merī",       gloss: "my" },
-      { roman: "saccīāṁ",    gloss: "true, genuine, eternal" },
-      { roman: "jotāṁ",      gloss: "sacred flames; the divine jyoti" },
-      { roman: "vālī",       gloss: "bearer of, associated with" },
+      { roman: "sachīyā",    gloss: "true, genuine, eternal" },
+      { roman: "jotā",       gloss: "sacred flames; the divine jyoti" },
+      { roman: "wālī",       gloss: "bearer of, associated with" },
       { roman: "mātā",       gloss: "Mother Goddess" },
       { roman: "terī",       gloss: "Your" },
       { roman: "sadā hī",    gloss: "always, forever" },
@@ -30,252 +26,252 @@ const LINES = {
   },
 
   refrain: {
-    roman: "Maiṁ laṛ phaṛiyā e terā, koī hor nahīṁ e merā",
+    roman: "Main laṛ phaṛyā ae terā, koī hor nahī ae merā",
     english: "{0:I} {3:have} {2:held onto} {4:Your} {1:hem}; {6:I have no} {5:one else} {7:but You}.",
     words: [
-      { roman: "Maiṁ",     gloss: "I" },
+      { roman: "Main",     gloss: "I" },
       { roman: "laṛ",      gloss: "the hem, the edge of Your garment" },
-      { roman: "phaṛiyā",  gloss: "have grasped, have held" },
-      { roman: "e",        gloss: "is — used here as the auxiliary ‘have’" },
+      { roman: "phaṛyā",   gloss: "have grasped, have held" },
+      { roman: "ae",       gloss: "is — used here as the auxiliary ‘have’" },
       { roman: "terā",     gloss: "Yours" },
       { roman: "koī hor",  gloss: "anyone else" },
-      { roman: "nahīṁ e",  gloss: "there is not" },
+      { roman: "nahī ae",  gloss: "there is not" },
       { roman: "merā",     gloss: "mine" }
     ]
   },
 
   v1a: {
-    roman: "Asīṁ sāh chaḍḍ jāvāṁge",
+    roman: "Asī sāh chhaḍ jāvānge",
     english: "{0:We} {3:will} eventually {2:let go} of our {1:breath}.",
     words: [
-      { roman: "Asīṁ",       gloss: "we" },
+      { roman: "Asī",        gloss: "we" },
       { roman: "sāh",        gloss: "breath" },
-      { roman: "chaḍḍ",      gloss: "releasing, letting go" },
-      { roman: "jāvāṁge",    gloss: "we will go" }
+      { roman: "chhaḍ",      gloss: "releasing, letting go" },
+      { roman: "jāvānge",    gloss: "we will go" }
     ]
   },
 
   v1b: {
-    roman: "Pher bājāṁ māroge, asīṁ muṛ nahīoṁ āvāṁge",
+    roman: "Pher bājā māroge, asī muṛ nahīyo āvānge",
     english: "{0:Then} {2:You will} {1:call out} to us, but {3:we} {6:will} {5:not} {4:return}.",
     words: [
       { roman: "Pher",       gloss: "then, afterwards" },
-      { roman: "bājāṁ",      gloss: "cries, calls (out to)" },
+      { roman: "bājā",       gloss: "cries, calls (out to)" },
       { roman: "māroge",     gloss: "You will strike, You will call out" },
-      { roman: "asīṁ",       gloss: "we" },
+      { roman: "asī",        gloss: "we" },
       { roman: "muṛ",        gloss: "back, again" },
-      { roman: "nahīoṁ",     gloss: "not (emphatic)" },
-      { roman: "āvāṁge",     gloss: "we will come" }
+      { roman: "nahīyo",     gloss: "not (emphatic)" },
+      { roman: "āvānge",     gloss: "we will come" }
     ]
   },
 
   v2a: {
-    roman: "Is zindagī toṁ kī laiṇā, māṁ",
+    roman: "Is zindagī ton kī lainā, mā",
     english: "{3:What} {4:is there to gain} {2:from} {0:this} {1:life} anyway, {5:Mother}?",
     words: [
       { roman: "Is",         gloss: "this" },
       { roman: "zindagī",    gloss: "life" },
-      { roman: "toṁ",        gloss: "from" },
+      { roman: "ton",        gloss: "from" },
       { roman: "kī",         gloss: "what" },
-      { roman: "laiṇā",      gloss: "is there to take, is there to gain" },
-      { roman: "māṁ",        gloss: "Mother" }
+      { roman: "lainā",      gloss: "is there to take, is there to gain" },
+      { roman: "mā",         gloss: "Mother" }
     ]
   },
 
   v2b: {
-    roman: "Darśan nā hoiā, pher jī ke kī laiṇā",
+    roman: "Darshan nā hoyā, pher jī ke kī lainā",
     english: "If I {1:do not get} to {0:see You}, {4:what is the point} {3:of living}?",
     words: [
-      { roman: "Darśan",     gloss: "sacred sight — the reciprocal seeing of the deity" },
-      { roman: "nā hoiā",    gloss: "has not occurred, did not happen" },
+      { roman: "Darshan",    gloss: "sacred sight — the reciprocal seeing of the deity" },
+      { roman: "nā hoyā",    gloss: "has not occurred, did not happen" },
       { roman: "pher",       gloss: "then" },
       { roman: "jī ke",      gloss: "by living" },
-      { roman: "kī laiṇā",   gloss: "what is there to gain" }
+      { roman: "kī lainā",   gloss: "what is there to gain" }
     ]
   },
 
   v3a: {
-    roman: "Asīṁ dar tere āvāṁge",
+    roman: "Asī dar tere āvānge",
     english: "{0:We} {3:will come} to {2:Your} {1:door} just like this.",
     words: [
-      { roman: "Asīṁ",       gloss: "we" },
+      { roman: "Asī",        gloss: "we" },
       { roman: "dar",        gloss: "door, threshold of Your shrine" },
       { roman: "tere",       gloss: "Your" },
-      { roman: "āvāṁge",     gloss: "we will come" }
+      { roman: "āvānge",     gloss: "we will come" }
     ]
   },
 
   v3b: {
-    roman: "Sauṁh āpṇī pāveṁgī, tainūṁ chaḍḍ ke nā jāvāṁge",
+    roman: "Saun apnī pāvengī, tainū chhaḍ ke nā jāvānge",
     english: "Even if {2:You make us} {0:swear} on {1:our own} lives, we {5:will not} {4:leave} {3:You}.",
     words: [
-      { roman: "Sauṁh",         gloss: "oath" },
-      { roman: "āpṇī",          gloss: "Your own" },
-      { roman: "pāveṁgī",       gloss: "You will place the oath upon us" },
-      { roman: "tainūṁ",        gloss: "You" },
-      { roman: "chaḍḍ ke",      gloss: "leaving, having left" },
-      { roman: "nā jāvāṁge",    gloss: "we will not go" }
+      { roman: "Saun",          gloss: "oath" },
+      { roman: "apnī",          gloss: "Your own" },
+      { roman: "pāvengī",       gloss: "You will place the oath upon us" },
+      { roman: "tainū",         gloss: "You" },
+      { roman: "chhaḍ ke",      gloss: "leaving, having left" },
+      { roman: "nā jāvānge",    gloss: "we will not go" }
     ]
   },
 
   v4a: {
-    roman: "Eh zindagī terī e, māṁ",
+    roman: "Eh zindagī terī ae, mā",
     english: "{0:This} {1:life} {3:is} already {2:Yours}, {4:Mother}.",
     words: [
       { roman: "Eh",         gloss: "this" },
       { roman: "zindagī",    gloss: "life" },
       { roman: "terī",       gloss: "Yours" },
-      { roman: "e",          gloss: "is" },
-      { roman: "māṁ",        gloss: "Mother" }
+      { roman: "ae",         gloss: "is" },
+      { roman: "mā",         gloss: "Mother" }
     ]
   },
 
   v4b: {
-    roman: "Kadoṁ pherā ā jāve, is miṭṭī dī ḍherī e",
+    roman: "Kado pherā ā jāve, is miṭṭī dī ḍherī ae",
     english: "{0:Who knows when} {1:the final call} {2:will come}? {3:This} body {7:is} just a {6:pile} {5:of} {4:dust}.",
     words: [
-      { roman: "Kadoṁ",      gloss: "whenever, who knows when" },
+      { roman: "Kado",       gloss: "whenever, who knows when" },
       { roman: "pherā",      gloss: "the turn, the cycle, the final summons" },
       { roman: "ā jāve",     gloss: "may come" },
       { roman: "is",         gloss: "this" },
       { roman: "miṭṭī",      gloss: "earth, dust, clay" },
       { roman: "dī",         gloss: "of" },
       { roman: "ḍherī",      gloss: "heap, pile" },
-      { roman: "e",          gloss: "is" }
+      { roman: "ae",         gloss: "is" }
     ]
   },
 
   v5a: {
-    roman: "Tere carnāṁ ’c reh lāṁge",
+    roman: "Tere charnā ’ch reh lānge",
     english: "{3:We will just stay} {2:at} {0:Your} {1:feet}.",
     words: [
       { roman: "Tere",       gloss: "Your" },
-      { roman: "carnāṁ",     gloss: "Your sacred feet" },
-      { roman: "’c",         gloss: "at, in (contraction of vicc)" },
-      { roman: "reh lāṁge",  gloss: "we will stay, we will remain" }
+      { roman: "charnā",     gloss: "Your sacred feet" },
+      { roman: "’ch",        gloss: "at, in (contraction of vicc)" },
+      { roman: "reh lānge",  gloss: "we will stay, we will remain" }
     ]
   },
 
   v5b: {
-    roman: "Tūṁ sānūṁ māf kar deīṁ, asīṁ hass ke seh lāṁge",
+    roman: "Tū sānū māf kar deyī, asī hass ke seh lānge",
     english: "{2:Forgive} {1:us}, and {3:we} {5:will endure} everything {4:with a smile}.",
     words: [
-      { roman: "Tūṁ",            gloss: "You" },
-      { roman: "sānūṁ",          gloss: "us" },
-      { roman: "māf kar deīṁ",   gloss: "forgive — a gentle, respectful command" },
-      { roman: "asīṁ",           gloss: "we" },
+      { roman: "Tū",             gloss: "You" },
+      { roman: "sānū",           gloss: "us" },
+      { roman: "māf kar deyī",   gloss: "forgive — a gentle, respectful command" },
+      { roman: "asī",            gloss: "we" },
       { roman: "hass ke",        gloss: "smiling, with a smile" },
-      { roman: "seh lāṁge",      gloss: "we will endure, we will bear it" }
+      { roman: "seh lānge",      gloss: "we will endure, we will bear it" }
     ]
   },
 
   v6a: {
-    roman: "Terā ho ke maiṁ āvāṁgā, māṁ",
+    roman: "Terā ho ke main āvāngā, mā",
     english: "{2:I} {3:will come back} {1:belonging} only {0:to You}, {4:Mother}.",
     words: [
       { roman: "Terā",       gloss: "Yours" },
       { roman: "ho ke",      gloss: "having become" },
-      { roman: "maiṁ",       gloss: "I" },
-      { roman: "āvāṁgā",     gloss: "I will come" },
-      { roman: "māṁ",        gloss: "Mother" }
+      { roman: "main",       gloss: "I" },
+      { roman: "āvāngā",     gloss: "I will come" },
+      { roman: "mā",         gloss: "Mother" }
     ]
   },
 
   v6b: {
-    roman: "Tūṁ vī pher roveṁgī, je chaḍḍ tainūṁ jāvāṁgā",
+    roman: "Tū vī pher rovengī, je chhaḍ tainū jāvāngā",
     english: "{0:Even You} {2:will cry} {1:then}, {3:if} {6:I} ever {4:leave} {5:You}.",
     words: [
-      { roman: "Tūṁ vī",     gloss: "You too" },
+      { roman: "Tū vī",      gloss: "You too" },
       { roman: "pher",       gloss: "then" },
-      { roman: "roveṁgī",    gloss: "You will weep" },
+      { roman: "rovengī",    gloss: "You will weep" },
       { roman: "je",         gloss: "if" },
-      { roman: "chaḍḍ",      gloss: "leaving" },
-      { roman: "tainūṁ",     gloss: "You" },
-      { roman: "jāvāṁgā",    gloss: "I will go" }
+      { roman: "chhaḍ",      gloss: "leaving" },
+      { roman: "tainū",      gloss: "You" },
+      { roman: "jāvāngā",    gloss: "I will go" }
     ]
   },
 
   v7a: {
-    roman: "Tere rehm bathere ne, māṁ",
+    roman: "Tere reham bathere ne, mā",
     english: "{0:Your} {1:mercies} {3:are} {2:countless}, {4:Mother}.",
     words: [
       { roman: "Tere",       gloss: "Your" },
-      { roman: "rehm",       gloss: "mercies, graces" },
+      { roman: "reham",      gloss: "mercies, graces" },
       { roman: "bathere",    gloss: "countless, abundant" },
       { roman: "ne",         gloss: "are" },
-      { roman: "māṁ",        gloss: "Mother" }
+      { roman: "mā",         gloss: "Mother" }
     ]
   },
 
   v7b: {
-    roman: "Khuśīāṁ dikhā de vī māṁ, nahīṁ te hañjū bathere ne",
+    roman: "Khushīyā dikhā de vī mā, nahī te hanjū bathere ne",
     english: "{1:Show} us {0:happiness}, {3:Mother}, {4:otherwise} there {6:are so many} {5:tears}.",
     words: [
-      { roman: "Khuśīāṁ",    gloss: "joys, happiness" },
+      { roman: "Khushīyā",   gloss: "joys, happiness" },
       { roman: "dikhā de",   gloss: "show us" },
       { roman: "vī",         gloss: "at least, also" },
-      { roman: "māṁ",        gloss: "Mother" },
-      { roman: "nahīṁ te",   gloss: "otherwise" },
-      { roman: "hañjū",      gloss: "tears" },
+      { roman: "mā",         gloss: "Mother" },
+      { roman: "nahī te",    gloss: "otherwise" },
+      { roman: "hanjū",      gloss: "tears" },
       { roman: "bathere ne", gloss: "are plentiful, are many" }
     ]
   },
 
   v8a: {
-    roman: "Asīṁ pher vī nahīṁ bolāṁge, māṁ",
+    roman: "Asī pher vī nahī bolānge, mā",
     english: "{1:Even then}, {0:we} {2:will not say a word of complaint}, {3:Mother}.",
     words: [
-      { roman: "Asīṁ",            gloss: "we" },
-      { roman: "pher vī",         gloss: "even then, still" },
-      { roman: "nahīṁ bolāṁge",   gloss: "will not speak, will not complain" },
-      { roman: "māṁ",             gloss: "Mother" }
+      { roman: "Asī",            gloss: "we" },
+      { roman: "pher vī",        gloss: "even then, still" },
+      { roman: "nahī bolānge",   gloss: "will not speak, will not complain" },
+      { roman: "mā",             gloss: "Mother" }
     ]
   },
 
   v8b: {
-    roman: "Ikk vārī dass te jā, dukkh kihde agge pholāṁge",
+    roman: "Ikk vārī dass te jā, dukh kihde agge pholānge",
     english: "{2:Just} {1:tell} us {0:once}, {4:who else} {5:is there to share} {3:our sorrows} with?",
     words: [
       { roman: "Ikk vārī",   gloss: "just once" },
       { roman: "dass",       gloss: "tell" },
       { roman: "te jā",      gloss: "go on, do tell" },
-      { roman: "dukkh",      gloss: "sorrows, pains" },
+      { roman: "dukh",       gloss: "sorrows, pains" },
       { roman: "kihde agge", gloss: "before whom" },
-      { roman: "pholāṁge",   gloss: "will spread open, will unfurl — as in opening one’s heart" }
+      { roman: "pholānge",   gloss: "will spread open, will unfurl — as in opening one’s heart" }
     ]
   },
 
   outro1: {
-    roman: "Eh likh ke maiṁ jāvāṁgā, māṁ",
+    roman: "Eh likh ke main jāvāngā, mā",
     english: "{2:I} {3:will leave this world} {1:writing} {0:these very words}, {4:Mother}:",
     words: [
       { roman: "Eh",         gloss: "this, these very words" },
       { roman: "likh ke",    gloss: "having written" },
-      { roman: "maiṁ",       gloss: "I" },
-      { roman: "jāvāṁgā",    gloss: "I will go, I will depart" },
-      { roman: "māṁ",        gloss: "Mother" }
+      { roman: "main",       gloss: "I" },
+      { roman: "jāvāngā",    gloss: "I will go, I will depart" },
+      { roman: "mā",         gloss: "Mother" }
     ]
   },
 
   outro2: {
-    roman: "Agle janam vī māṁ, terā putt kahāvāṁgā",
+    roman: "Agle janam vī mā, terā putt kahāvāngā",
     english: "{1:Even} in my {0:next life}, {2:Mother}, {5:I will be called} {3:Your} {4:son}.",
     words: [
       { roman: "Agle janam", gloss: "in the next birth" },
       { roman: "vī",         gloss: "also, even" },
-      { roman: "māṁ",        gloss: "Mother" },
+      { roman: "mā",         gloss: "Mother" },
       { roman: "terā",       gloss: "Your" },
       { roman: "putt",       gloss: "son — a deeply tender word in Punjabi" },
-      { roman: "kahāvāṁgā",  gloss: "I will be called" }
+      { roman: "kahāvāngā",  gloss: "I will be called" }
     ]
   },
 
   closing: {
-    roman: "Koī hor nahīṁ e merā",
+    roman: "Koī hor nahī ae merā",
     english: "{1:I have no} {0:one else} {2:but You}.",
     words: [
       { roman: "Koī hor",    gloss: "anyone else" },
-      { roman: "nahīṁ e",    gloss: "there is not" },
+      { roman: "nahī ae",    gloss: "there is not" },
       { roman: "merā",       gloss: "mine" }
     ]
   }
