@@ -377,7 +377,13 @@ function computeRange() {
 }
 
 function updateSubtitle() {
-  const n = state.thinkers.length;
+  // Count only the thinkers that actually render on the timeline.
+  // Cross-tradition entries (Hegel, Kant, etc.) are in the corpus for
+  // article cross-references but aren't dots on the map; the subtitle
+  // should reflect what the reader sees.
+  const n = state.thinkers.filter((t) =>
+    (t.school_color_token || "proto") !== "cross-tradition"
+  ).length;
   const span = state.range.high - state.range.low;
   subtitleEl.textContent = `${n} thinkers across ~${span} years.`;
 }
