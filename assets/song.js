@@ -281,49 +281,49 @@ const LINES = {
    Each entry references a line id and an optional repetition count.
    `sectionLabel` adds a small heading above the next line. */
 const SEQUENCE = [
-  { ref: "invocation", sectionLabel: "Invocation" },
+  { ref: "invocation" },
 
-  { ref: "refrain", repeats: 4, sectionLabel: "Refrain" },
+  { ref: "refrain", repeats: 4 },
 
-  { ref: "v1a", repeats: 4, sectionLabel: "I" },
+  { ref: "v1a", repeats: 4 },
   { ref: "v1b", repeats: 4 },
 
   { ref: "refrain", repeats: 2 },
 
-  { ref: "v2a", repeats: 4, sectionLabel: "II" },
+  { ref: "v2a", repeats: 4 },
   { ref: "v2b", repeats: 4 },
 
   { ref: "refrain", repeats: 4 },
 
-  { ref: "v3a", repeats: 4, sectionLabel: "III" },
+  { ref: "v3a", repeats: 4 },
   { ref: "v3b", repeats: 2 },
 
   { ref: "refrain", repeats: 4 },
 
-  { ref: "v4a", repeats: 4, sectionLabel: "IV" },
+  { ref: "v4a", repeats: 4 },
   { ref: "v4b", repeats: 2 },
 
   { ref: "refrain", repeats: 4 },
 
-  { ref: "v5a", repeats: 4, sectionLabel: "V" },
+  { ref: "v5a", repeats: 4 },
   { ref: "v5b", repeats: 4 },
 
   { ref: "refrain", repeats: 2 },
 
-  { ref: "v6a", repeats: 4, sectionLabel: "VI" },
+  { ref: "v6a", repeats: 4 },
   { ref: "v6b", repeats: 2 },
 
   { ref: "refrain", repeats: 2 },
 
-  { ref: "v7a", repeats: 4, sectionLabel: "VII" },
+  { ref: "v7a", repeats: 4 },
   { ref: "v7b", repeats: 2 },
 
   { ref: "refrain", repeats: 4 },
 
-  { ref: "v8a", repeats: 4, sectionLabel: "VIII" },
+  { ref: "v8a", repeats: 4 },
   { ref: "v8b", repeats: 4 },
 
-  { ref: "outro1", repeats: 4, sectionLabel: "Coda" },
+  { ref: "outro1", repeats: 4 },
   { ref: "outro2", repeats: 4 },
 
   { ref: "refrain", repeats: 6 },
