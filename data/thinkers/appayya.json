@@ -126,6 +126,46 @@
       "summary": "Commentary on the *Ānanda-Laharī* — the first half (verses 1–41) of the *Saundarya-Laharī* traditionally ascribed to Śaṅkara, devoted to the metaphysical-theological exposition of the Goddess (*Tripurasundarī* / *Lalitā*) as identical with the supreme, with the *śrī-cakra* (especially *Saundarya-Laharī* vv. 8–11, 32) and *kuṇḍalinī* references (*Saundarya-Laharī* vv. 9, 10, 35–41) that anchor the Śrīvidyā tradition. Appayya's *Vyākhyā* reads each verse simultaneously as devotional address, as Śrīvidyā ritual specification, and as Śiva-Advaita doctrinal exposition. The trans-school *siddhānta*-discipline already exercised in the *Śivārka-Maṇi-Dīpikā* is extended here into the devotional-poetic register. For each contested verse the commentary supplies three readings: a *Bhāmatī*-Advaita reading where the *Ānanda-Laharī*'s identity-language can be construed monistically (illustrative on *Saundarya-Laharī* v. 1, *śivaḥ śaktyā yukto*); a Śiva-Advaita reading where Śiva-Śakti polarity is in play; and a Śrīvidyā ritual reading where the verse encodes a *cakra*-element or *mantra*-component. The work is a key witness to Appayya's mature integration of Advaitic non-duality, Śaiva-devotional theology, and Śrīvidyā ritual within a single coherent *siddhānta*-frame, and occupies an important place in the late-medieval Śrīvidyā commentarial corpus.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
+    },
+    {
+      "work_id": "naya-manjari",
+      "title": "Naya-Manjari",
+      "title_iast": "Naya-Mañjarī",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Appayya Dīkṣita treatise; sometimes treated together with the *Vedānta-Kalpa-Taru-Parimala* sub-section.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Sanskrit *prakaraṇa* by Appayya Dīkṣita on the *naya*-s (interpretive standpoints) at work in the *Brahma-Sūtra* commentarial tradition. The work catalogs the alternative readings — Advaita, Viśiṣṭādvaita, Dvaita, Bhedābheda — of contested *sūtra*-loci and exhibits Appayya's characteristic plural-reading method: each *naya* is presented sympathetically before the school-aligned reading is adjudicated. The work is part of the wider Appayya programme — which spans the *Siddhānta-Leśa-Saṃgraha* on the Advaita side, the *Śivārka-Maṇi-Dīpikā* on the Śaivādvaita side, and the *Catur-Mata-Sāra-Saṃgraha* on the comparative Vaiṣṇava-Vedānta side — to map the Vedānta-Sūtra commentarial landscape onto a single composite frame. The treatment is structurally important for the comparative-claims engine because each *naya* on a given *sūtra* yields a candidate comparative-claim edge in the corpus.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "catur-mata-sara-samgraha",
+      "title": "Catur-Mata-Sara-Samgraha",
+      "title_iast": "Catur-Mata-Sāra-Saṃgraha",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored compendium of the four Vaiṣṇava-Vedānta systems by Appayya Dīkṣita.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Sanskrit compendium by Appayya Dīkṣita on the four Vaiṣṇava-Vedānta systems: Śrīvaiṣṇava (Rāmānuja's Viśiṣṭādvaita), Mādhva (Tattva-vāda), Nimbārkīya (Svābhāvika-Bhedābheda), and Vallabhīya (Śuddhādvaita). Each *mata* is presented in its own voice — its school-internal *pramāṇa*-doctrine, its reading of the *Brahma-Sūtra* opening, its handling of the *mahā-vākyas*, its soteriology — before any cross-school comparison. The work is one of the principal pre-modern Sanskrit comparative-doxographies of the Vedāntic Vaiṣṇava schools (distinct from the Mādhava-Vidyāraṇya *Sarva-Darśana-Saṃgraha*, which is broader and treats all six āstika darśanas). It is especially valuable for the corpus's comparative-claims engine: each section supplies the school's own *siddhānta*-statement against which the cross-school comparative edges are drawn.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
     }
   ],
   "key_passages": [],
