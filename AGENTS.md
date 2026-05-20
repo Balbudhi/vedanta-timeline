@@ -8,6 +8,8 @@ These rules prevent the recurrence.
 
 1. **Stage by path, never by wildcard.** Do not run `git add -A`, `git add .`, `git add -u`, or `git commit -a`. Stage the specific files you changed: `git add path/to/file1 path/to/dir/file2`. If you do not know which files are yours, run `git diff --name-only` *before* you start and again before you commit; the delta is your scope.
 
+1a. **Verify the staged diff before committing.** Even after `git add <file>`, another agent's unstaged edits to that same file get caught in your commit. Run `git diff --cached` immediately before `git commit` and confirm the diff only contains your scope. If it contains other agents' work, **`git restore --staged <file>` and break your edits out into a path-scoped patch** (e.g. apply your changes to a separate working copy, or use `git add -p` to interactively pick only your hunks). The 2026-05-19 dark-theme commit (`00fde3a`) bundled the search-merge agent's `.search-popover` deletion alongside the dark-theme rewrite because this check was skipped.
+
 2. **Commit your own scope, do not adopt other agents' uncommitted work.** If `git status` shows modifications outside your scope at commit time, those belong to another agent. Do not stage them. Do not stash them blindly either — the other agent may be mid-edit. Leave them alone.
 
 3. **One coherent logical change per commit.** Commit messages must accurately describe the diff. If your changes span two unrelated logical units, write two commits.

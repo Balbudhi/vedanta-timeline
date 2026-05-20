@@ -15,4 +15,14 @@ Four agents (UI pass: search-popover + dark theme + click-bounce + glossary rege
 
 **Going forward**: `AGENTS.md` is now in place. New agents reading the repo will scope-stage and commit their own logical change. Do not rewrite the polluted history above; it will mislead future bisects, but force-pushing `main` is worse.
 
+## 2026-05-19 (later) — main-thread agent commit pollution
+
+The main-thread Claude session (the one that authored AGENTS.md) violated its own rule once: while a search-popover-merge agent was actively editing `assets/style.css`, the main thread also edited the dark-theme block of the same file. `git add assets/style.css` staged the whole file — picking up the search-popover-merge agent's `.search-popover` deletion alongside the dark-theme rewrite.
+
+| SHA | Message | Actually contains |
+|---|---|---|
+| `00fde3a` | "UI: deeper dark-theme palette, saturated accent surfaces" | The deeper dark-theme palette rewrite (~80 lines), AND the search-merge agent's deletion of the standalone `.search-popover` CSS (~80 lines). Both changes are real and correct; only the message is incomplete. |
+
+Lesson: even with the explicit rule in place, the failure mode is `git add <single-file>` when another agent has unstaged changes in that file. The defense is `git diff --cached` before `git commit` to verify the staged diff matches the intended scope. Adding this to AGENTS.md.
+
 **If you need to bisect across this range**: use `git log -- <path>` filtered by file, not commit subjects.
