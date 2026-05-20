@@ -1,0 +1,813 @@
+{
+  "generated_at": "2026-05-20T00:10:47.749750+00:00",
+  "generated_by": "corpus-chat-lane5",
+  "branch": "corpus/external-unblock-2026-05-19",
+  "hard_cap_mb": 300,
+  "cumulative_bytes_fetched": 138008604,
+  "lane5_additions": [
+    {
+      "slug": "gretil_panini_astadhyayi",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/1_gram/panini_u.htm",
+      "format": "html_plain",
+      "license": "GRETIL \u2014 attribution required (per-text encoder header)",
+      "target_path": "data/external/gretil/files/panini_astadhyayi.htm",
+      "engaged_works_match": [
+        "panini/astadhyayi"
+      ],
+      "fetched_at": "2026-05-20T00:08:26.553183+00:00",
+      "fetch_status": "fetched",
+      "sha256": "9e596d215613da179beaae93b8757d4d168448e63627b2b023f3d69e4fa93d71",
+      "size_kb": 173.01
+    },
+    {
+      "slug": "gretil_patanjali_mahabhasya",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/1_gram/pmbhassu.htm",
+      "format": "html_plain",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/patanjali_mahabhasya.htm",
+      "engaged_works_match": [
+        "patanjali/mahabhasya"
+      ],
+      "fetched_at": "2026-05-20T00:08:27.733062+00:00",
+      "fetch_status": "fetched",
+      "sha256": "6d0e0f65aeaf114af894631538f8c4622ffc914660eb9a4c5df4f38115b9e998",
+      "size_kb": 6475.93
+    },
+    {
+      "slug": "gretil_jayaditya_vamana_kasika",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/1_gram/jvkasipu.htm",
+      "format": "html_plain",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/jayaditya_vamana_kasika.htm",
+      "engaged_works_match": [
+        "jayaditya-vamana/kasika"
+      ],
+      "fetched_at": "2026-05-20T00:08:29.930587+00:00",
+      "fetch_status": "fetched",
+      "sha256": "e78965557a6fad30157832af2533bae6e4219ac6a7b22d00dab834528a9ff353",
+      "size_kb": 2745.11
+    },
+    {
+      "slug": "gretil_panini_astadhyayi_corpustei",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_pANini-aSTAdhyAyI.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/panini_astadhyayi_corpustei.txt",
+      "engaged_works_match": [
+        "panini/astadhyayi"
+      ],
+      "fetched_at": "2026-05-20T00:08:31.774949+00:00",
+      "fetch_status": "fetched",
+      "sha256": "5e5025df180b77fe22e148e70fb506157a6364f4d195c2d58ced51f9d99491d7",
+      "size_kb": 167.63
+    },
+    {
+      "slug": "gretil_patanjali_mahabhasya_corpustei",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_pataJjali-vyAkaraNamahAbhASya.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/patanjali_mahabhasya_corpustei.txt",
+      "engaged_works_match": [
+        "patanjali/mahabhasya"
+      ],
+      "fetched_at": "2026-05-20T00:08:32.811580+00:00",
+      "fetch_status": "fetched",
+      "sha256": "5fe5e81603bc74db629b8a55964e3b58df73b958fa1b5a6fb5e12d86ffc43f18",
+      "size_kb": 4716.53
+    },
+    {
+      "slug": "gretil_varadaraja_laghusiddhantakaumudi",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_varadarAja-laghusiddhAntakaumudI.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/varadaraja_laghusiddhantakaumudi.txt",
+      "engaged_works_match": [
+        "varadaraja/laghu-siddhanta-kaumudi"
+      ],
+      "fetched_at": "2026-05-20T00:08:34.919898+00:00",
+      "fetch_status": "fetched",
+      "sha256": "40bcf0e25ccf28d0a2435754fa97c9644b1c85b35aff67a0a4dd634758f4703b",
+      "size_kb": 230.54
+    },
+    {
+      "slug": "gretil_bhartrhari_vakyapadiya",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_bhartRhari-vAkyapadIya.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/bhartrhari_vakyapadiya.txt",
+      "engaged_works_match": [
+        "bhartrhari/vakyapadiya"
+      ],
+      "fetched_at": "2026-05-20T00:08:36.096597+00:00",
+      "fetch_status": "fetched",
+      "sha256": "e22e54f50626356f9735b6e6861721714e739cecf8fbce3f1e1780465a3ae849",
+      "size_kb": 250.71
+    },
+    {
+      "slug": "gretil_bhartrhari_vakyapadiya_1-3",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_bhartRhari-vAkyapadIya1-3.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/bhartrhari_vakyapadiya_1-3.txt",
+      "engaged_works_match": [
+        "bhartrhari/vakyapadiya"
+      ],
+      "fetched_at": "2026-05-20T00:08:37.277521+00:00",
+      "fetch_status": "failed",
+      "error": "curl: (22) The requested URL returned error: 404 \n"
+    },
+    {
+      "slug": "gretil_nagarjuna_mulamadhyamakakarika",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_nAgArjuna-mUlamadhyamakakArikA.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/nagarjuna_mulamadhyamakakarika.txt",
+      "engaged_works_match": [
+        "nagarjuna/mulamadhyamakakarika"
+      ],
+      "fetched_at": "2026-05-20T00:08:37.797117+00:00",
+      "fetch_status": "fetched",
+      "sha256": "3baf073f3f597cd1a17655ca9969fa98f941b1bb758b753cf12cf278a2393056",
+      "size_kb": 57.0
+    },
+    {
+      "slug": "gretil_vasubandhu_abhidharmakosa",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_vasubandhu-abhidharmakoza.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/vasubandhu_abhidharmakosa.txt",
+      "engaged_works_match": [
+        "vasubandhu/abhidharmakosa"
+      ],
+      "fetched_at": "2026-05-20T00:08:39.190954+00:00",
+      "fetch_status": "fetched",
+      "sha256": "fde8b181f18441ee4bb707ef52ac62342c28779dce28246fe27c9eb32f39438f",
+      "size_kb": 81.21
+    },
+    {
+      "slug": "gretil_vasubandhu_abhidharmakosabhasya",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_vasubandhu-abhidharmakozabhASya.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/vasubandhu_abhidharmakosabhasya.txt",
+      "engaged_works_match": [
+        "vasubandhu/abhidharmakosa-bhasya"
+      ],
+      "fetched_at": "2026-05-20T00:08:40.242100+00:00",
+      "fetch_status": "fetched",
+      "sha256": "9e7f5be0825fa482fa99d953365efdf818954c298e03ad6040fab092d1a9e4c6",
+      "size_kb": 1087.31
+    },
+    {
+      "slug": "gretil_vasubandhu_trimsika",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_vasubandhu-triMzikAvijJaptikArikA.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/vasubandhu_trimsika.txt",
+      "engaged_works_match": [
+        "vasubandhu/trimsika"
+      ],
+      "fetched_at": "2026-05-20T00:08:41.949349+00:00",
+      "fetch_status": "fetched",
+      "sha256": "f65d3d47f4b9aaf3ca634743c809b37972ec60bbed55dae24f12f205788ea641",
+      "size_kb": 5.66
+    },
+    {
+      "slug": "gretil_vasubandhu_vimsatika",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_vasubandhu-viMzatikA-vijJaptimAtratAsiddhi.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/vasubandhu_vimsatika.txt",
+      "engaged_works_match": [
+        "vasubandhu/vimsatika"
+      ],
+      "fetched_at": "2026-05-20T00:08:42.480180+00:00",
+      "fetch_status": "fetched",
+      "sha256": "20ed117e6c96227c9c64a5881a774933353ee656c82dd13b28620e10e33f91e7",
+      "size_kb": 20.14
+    },
+    {
+      "slug": "gretil_candrakirti_prasannapada",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_candrakIrti-prasannapada.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/candrakirti_prasannapada.txt",
+      "engaged_works_match": [
+        "candrakirti/prasannapada"
+      ],
+      "fetched_at": "2026-05-20T00:08:43.688524+00:00",
+      "fetch_status": "fetched",
+      "sha256": "5d15c1fd7f3dba8825fbaa6360278280569a2ea41ffabbd33b17b443880eaa7c",
+      "size_kb": 596.21
+    },
+    {
+      "slug": "gretil_dharmakirti_pramanavarttika_karika",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_dharmakIrti-pramANavArttikakArikA.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/dharmakirti_pramanavarttika_karika.txt",
+      "engaged_works_match": [
+        "dharmakirti/pramanavarttika"
+      ],
+      "fetched_at": "2026-05-20T00:08:45.405166+00:00",
+      "fetch_status": "fetched",
+      "sha256": "1a31c9ff20a9fa66659a63e799896359209828fdd4c6f87f14192c92837567f7",
+      "size_kb": 142.52
+    },
+    {
+      "slug": "gretil_dharmakirti_nyayabindu",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_dharmakIrti-nyAyabindu.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/dharmakirti_nyayabindu.txt",
+      "engaged_works_match": [
+        "dharmakirti/nyayabindu"
+      ],
+      "fetched_at": "2026-05-20T00:08:46.443382+00:00",
+      "fetch_status": "fetched",
+      "sha256": "3659a737f51ba3584037ca5de0c295b182eca35101b03fecd166c6d484d931ff",
+      "size_kb": 24.3
+    },
+    {
+      "slug": "gretil_dharmakirti_hetubindu",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_dharmakIrti-hetubindu.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/dharmakirti_hetubindu.txt",
+      "engaged_works_match": [
+        "dharmakirti/hetubindu"
+      ],
+      "fetched_at": "2026-05-20T00:08:47.155125+00:00",
+      "fetch_status": "fetched",
+      "sha256": "f59fcf9b10c7505d1759fc72b43e855d4cd1a6e1cd2c7e985f91c073fb1624ba",
+      "size_kb": 50.93
+    },
+    {
+      "slug": "gretil_dignaga_prajnaparamita_pindartha",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_dignAga-prajJApAramitApiNDArtha.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/dignaga_prajnaparamita_pindartha.txt",
+      "engaged_works_match": [
+        "dignaga/prajnaparamita-pindartha"
+      ],
+      "fetched_at": "2026-05-20T00:08:48.363691+00:00",
+      "fetch_status": "fetched",
+      "sha256": "b205c1af8cd8853c00f32acc7f3a6d7aad5c706a45534cfab0e447e9804bd9cc",
+      "size_kb": 9.13
+    },
+    {
+      "slug": "gretil_asanga_abhidharmasamuccaya",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_asaGga-abhidharmasamuccaya.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/asanga_abhidharmasamuccaya.txt",
+      "engaged_works_match": [
+        "asanga/abhidharmasamuccaya"
+      ],
+      "fetched_at": "2026-05-20T00:08:49.242511+00:00",
+      "fetch_status": "fetched",
+      "sha256": "0926a177185e7e73ef5e2a26a94a36542b3395a14ffbd89c64b976ae27bd89b3",
+      "size_kb": 224.96
+    },
+    {
+      "slug": "gretil_asanga_mahayanasutralamkara",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_asaGga-mahAyAnasUtrAlaMkAra.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/asanga_mahayanasutralamkara.txt",
+      "engaged_works_match": [
+        "asanga/mahayanasutralamkara"
+      ],
+      "fetched_at": "2026-05-20T00:08:50.794475+00:00",
+      "fetch_status": "fetched",
+      "sha256": "807e21cea40bfaa2eb555d62c5635dbd1d4212326888c8ee9b12f45340b0afa3",
+      "size_kb": 373.83
+    },
+    {
+      "slug": "gretil_abhinavagupta_tantraloka",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_abhinavagupta-tantrAloka.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/abhinavagupta_tantraloka.txt",
+      "engaged_works_match": [
+        "abhinavagupta/tantraloka"
+      ],
+      "fetched_at": "2026-05-20T00:08:51.986732+00:00",
+      "fetch_status": "fetched",
+      "sha256": "185c5b3ab743503f81d3144d1b5f833ef1b7d4bfa6ab13350d283b1a4b98755b",
+      "size_kb": 753.36
+    },
+    {
+      "slug": "gretil_abhinavagupta_tantrasara",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_abhinavagupta-tantrasAra.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/abhinavagupta_tantrasara.txt",
+      "engaged_works_match": [
+        "abhinavagupta/tantrasara"
+      ],
+      "fetched_at": "2026-05-20T00:08:53.357999+00:00",
+      "fetch_status": "fetched",
+      "sha256": "d64d5c950d2c423e3c3472bd483ecbebe6f8ec7b93d653f45ee4225ef6b61473",
+      "size_kb": 127.89
+    },
+    {
+      "slug": "gretil_abhinavagupta_ipv",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_abhinavagupta-IzvarapratyabhijJAvimarzinI.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/abhinavagupta_ipv.txt",
+      "engaged_works_match": [
+        "abhinavagupta/isvara-pratyabhijna-vimarsini"
+      ],
+      "fetched_at": "2026-05-20T00:08:54.387045+00:00",
+      "fetch_status": "fetched",
+      "sha256": "b6ddc15cf4b24c1351a6465cd9369dc577c95184bd1180200ebde65bbf492954",
+      "size_kb": 348.93
+    },
+    {
+      "slug": "gretil_abhinavagupta_paramarthasara",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_abhinavagupta-paramArthasAra.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/abhinavagupta_paramarthasara.txt",
+      "engaged_works_match": [
+        "abhinavagupta/paramartha-sara"
+      ],
+      "fetched_at": "2026-05-20T00:08:55.615845+00:00",
+      "fetch_status": "fetched",
+      "sha256": "63321ef68e7d294d932dd1ac18cbc454a03fa0bb9d470109946f303747e916f3",
+      "size_kb": 15.28
+    },
+    {
+      "slug": "gretil_ksemaraja_pratyabhijnahrdaya",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_kSemarAja-pratyabhijJAhRdaya.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/ksemaraja_pratyabhijnahrdaya.txt",
+      "engaged_works_match": [
+        "ksemaraja/pratyabhijna-hrdayam"
+      ],
+      "fetched_at": "2026-05-20T00:08:56.312748+00:00",
+      "fetch_status": "fetched",
+      "sha256": "564dbc62d072f78081727384a1f74b1f8afa11efe753ba47d0f7b0266f2cf437",
+      "size_kb": 41.07
+    },
+    {
+      "slug": "gretil_utpaladeva_isvarapratyabhijna_karika_with_vrtti",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_utpaladeva-IzvarapratyabhijJAkArikA-with-vRtti.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/utpaladeva_isvarapratyabhijna_karika_with_vrtti.txt",
+      "engaged_works_match": [
+        "utpaladeva/isvara-pratyabhijna-karika"
+      ],
+      "fetched_at": "2026-05-20T00:08:57.515949+00:00",
+      "fetch_status": "fetched",
+      "sha256": "9adcd6e6bbcc8081c032c13067208dfa713489dd3a8c4811d390d0f9794e0d56",
+      "size_kb": 66.33
+    },
+    {
+      "slug": "gretil_vasugupta_spandakarika",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_vasugupta-spandakArikA.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/vasugupta_spandakarika.txt",
+      "engaged_works_match": [
+        "vasugupta/spanda-karika",
+        "bhatta-kallata/spanda-karika"
+      ],
+      "fetched_at": "2026-05-20T00:08:58.576871+00:00",
+      "fetch_status": "fetched",
+      "sha256": "2619668d2dd3e7aa2916182d0de7f775b7a235c1e6e1a424f7690aa318627ba3",
+      "size_kb": 7.87
+    },
+    {
+      "slug": "gretil_vasugupta_spandakarika_comm",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_vasugupta-spandakArikA-comm.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/vasugupta_spandakarika_comm.txt",
+      "engaged_works_match": [
+        "vasugupta/spanda-karika+commentary"
+      ],
+      "fetched_at": "2026-05-20T00:08:59.296305+00:00",
+      "fetch_status": "fetched",
+      "sha256": "e18c027a48c392d65f2444b1add8de7b410087efebb1fa124dba7643c7069f48",
+      "size_kb": 102.41
+    },
+    {
+      "slug": "gretil_jaimini_mimamsasutra",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_jaimini-mImAMsAsUtra.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/jaimini_mimamsasutra.txt",
+      "engaged_works_match": [
+        "jaimini/mimamsa-sutra"
+      ],
+      "fetched_at": "2026-05-20T00:09:00.833210+00:00",
+      "fetch_status": "fetched",
+      "sha256": "667c98aadce28c945fcfcf32d4020a4cc049c84f71dab281b49c858a8953583b",
+      "size_kb": 162.82
+    },
+    {
+      "slug": "gretil_kumarila_tantravarttika_2",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_kumArila-tantravArttika-2.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/kumarila_tantravarttika_2.txt",
+      "engaged_works_match": [
+        "kumarila/tantra-varttika"
+      ],
+      "fetched_at": "2026-05-20T00:09:01.885657+00:00",
+      "fetch_status": "failed",
+      "error": "curl: (22) The requested URL returned error: 404 \n"
+    },
+    {
+      "slug": "gretil_mandanamizra_brahmasiddhi",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_mandanamizra-brahmasiddhi.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/mandanamizra_brahmasiddhi.txt",
+      "engaged_works_match": [
+        "mandana-misra/brahma-siddhi"
+      ],
+      "fetched_at": "2026-05-20T00:09:02.449617+00:00",
+      "fetch_status": "fetched",
+      "sha256": "70a8fea5901fffa1ebbcc6abca5223cf5cb0b226abd9f9fff04a22d2f2cbea88",
+      "size_kb": 306.53
+    },
+    {
+      "slug": "gretil_vacaspatimisra_bhamati",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_vAcaspatimizra-bhAmati.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/vacaspatimisra_bhamati.txt",
+      "engaged_works_match": [
+        "vacaspati-misra/bhamati"
+      ],
+      "fetched_at": "2026-05-20T00:09:04.176291+00:00",
+      "fetch_status": "fetched",
+      "sha256": "d93694daa8837920c947723fddc31fa9b3179975c9705c1064cd473586813f15",
+      "size_kb": 1139.34
+    },
+    {
+      "slug": "gretil_udayana_nyayakusumanjali",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_udayana-nyAyakusumAJjali.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL \u2014 attribution required",
+      "target_path": "data/external/gretil/files/udayana_nyayakusumanjali.txt",
+      "engaged_works_match": [
+        "udayana/nyaya-kusumanjali"
+      ],
+      "fetched_at": "2026-05-20T00:09:05.733253+00:00",
+      "fetch_status": "fetched",
+      "sha256": "b7342cb5b2b64891cf859f04d2ec9f0501963652990706c7875c361e9646b10a",
+      "size_kb": 265.27
+    },
+    {
+      "slug": "cologne_mw_xml",
+      "source": "cologne_sanskrit_lexicon",
+      "url": "https://www.sanskrit-lexicon.uni-koeln.de/scans/MWScan/2020/downloads/mwxml.zip",
+      "format": "xml_zip",
+      "license": "Cologne Digital Sanskrit Dictionaries \u2014 license per mwheader.xml (typically CC-BY-SA / academic-use)",
+      "target_path": "data/external/cologne/mwxml.zip",
+      "engaged_works_match": [
+        "lexicon/monier-williams"
+      ],
+      "fetched_at": "2026-05-20T00:09:21.744492+00:00",
+      "fetch_status": "fetched",
+      "sha256": "baa03b2f1fca62e99da6b896e084cbbf2356af054a907f8a047a5b83642769b8",
+      "size_kb": 11411.9
+    },
+    {
+      "slug": "cologne_mw_txt",
+      "source": "cologne_sanskrit_lexicon",
+      "url": "https://www.sanskrit-lexicon.uni-koeln.de/scans/MWScan/2020/downloads/mwtxt.zip",
+      "format": "txt_zip",
+      "license": "Cologne Digital Sanskrit Dictionaries",
+      "target_path": "data/external/cologne/mwtxt.zip",
+      "engaged_works_match": [
+        "lexicon/monier-williams"
+      ],
+      "fetched_at": "2026-05-20T00:09:24.118134+00:00",
+      "fetch_status": "fetched",
+      "sha256": "7d1199a22a6657287504e352905462272abfcc6ede75a7a0cd55e07ac1282d4f",
+      "size_kb": 10588.79
+    },
+    {
+      "slug": "cologne_apte_xml",
+      "source": "cologne_sanskrit_lexicon",
+      "url": "https://www.sanskrit-lexicon.uni-koeln.de/scans/APScan/2020/downloads/apxml.zip",
+      "format": "xml_zip",
+      "license": "Cologne Digital Sanskrit Dictionaries",
+      "target_path": "data/external/cologne/apxml.zip",
+      "engaged_works_match": [
+        "lexicon/apte"
+      ],
+      "fetched_at": "2026-05-20T00:09:26.265859+00:00",
+      "fetch_status": "fetched",
+      "sha256": "b6f67e7b688234f92307d5c4a99084130f05030bc9b27ead6db6555c124c6004",
+      "size_kb": 6137.8
+    },
+    {
+      "slug": "cologne_apte_txt",
+      "source": "cologne_sanskrit_lexicon",
+      "url": "https://www.sanskrit-lexicon.uni-koeln.de/scans/APScan/2020/downloads/aptxt.zip",
+      "format": "txt_zip",
+      "license": "Cologne Digital Sanskrit Dictionaries",
+      "target_path": "data/external/cologne/aptxt.zip",
+      "engaged_works_match": [
+        "lexicon/apte"
+      ],
+      "fetched_at": "2026-05-20T00:09:28.121086+00:00",
+      "fetch_status": "fetched",
+      "sha256": "1a376f935efd07f23c75a35994d6aa21eded2170f02aa26eabd697cac8270b70",
+      "size_kb": 5736.92
+    },
+    {
+      "slug": "ksts_tantraloka_abhinavagupta",
+      "source": "archive_org_kashmir_series",
+      "url": "https://archive.org/download/in.ernet.dli.2015.322378/2015.322378.Tantraloka.pdf",
+      "format": "pdf",
+      "license": "Public domain (pre-1928 KSTS imprint, redistributed by DLI/archive.org)",
+      "target_path": "data/external/muktabodha_via_egangotri/ksts_tantraloka_abhinavagupta.pdf",
+      "engaged_works_match": [
+        "abhinavagupta/tantraloka"
+      ],
+      "fetched_at": "2026-05-20T00:10:40.013628+00:00",
+      "fetch_status": "fetched",
+      "sha256": "dfd5488b9659b12b1d487dfd151fcf69cfa32e14243273617937797a8cd64e6a",
+      "size_kb": 10257.84
+    },
+    {
+      "slug": "ksts_paramarthasara_abhinavagupta",
+      "source": "archive_org_kashmir_series",
+      "url": "https://archive.org/download/in.ernet.dli.2015.322387/2015.322387.Paramarthasarah.pdf",
+      "format": "pdf",
+      "license": "Public domain (KSTS imprint via DLI)",
+      "target_path": "data/external/muktabodha_via_egangotri/ksts_paramarthasara_abhinavagupta.pdf",
+      "engaged_works_match": [
+        "abhinavagupta/paramartha-sara"
+      ],
+      "fetched_at": "2026-05-20T00:10:40.466165+00:00",
+      "fetch_status": "fetched",
+      "sha256": "3cdb1d9297936aeb236da64486a3cea14857f926d1f1374ce4b03f393dcfbe80",
+      "size_kb": 8261.76
+    },
+    {
+      "slug": "ksts_tantrasara_abhinavagupta",
+      "source": "archive_org_kashmir_series",
+      "url": "https://archive.org/download/in.ernet.dli.2015.322321/2015.322321.The-Tantrasara.pdf",
+      "format": "pdf",
+      "license": "Public domain (KSTS imprint via DLI)",
+      "target_path": "data/external/muktabodha_via_egangotri/ksts_tantrasara_abhinavagupta.pdf",
+      "engaged_works_match": [
+        "abhinavagupta/tantrasara"
+      ],
+      "fetched_at": "2026-05-20T00:10:42.188563+00:00",
+      "fetch_status": "fetched",
+      "sha256": "57b883eaf430c221a6d1917cc98f2cc987e2208c42ee1caee2fb69e4ecbf8ef8",
+      "size_kb": 10954.68
+    },
+    {
+      "slug": "ksts_ipv_part1_abhinavagupta",
+      "source": "archive_org_kashmir_series",
+      "url": "https://archive.org/download/IshvaraPratyabhijnaAbhinavaguptaPart1KashmirSanskritSeries22/IshvaraPratyabhijnaAbhinavaguptaPart1Kss22.pdf",
+      "format": "pdf",
+      "license": "Public domain (KSTS imprint via egangotri/IA)",
+      "target_path": "data/external/muktabodha_via_egangotri/ksts_ipv_part1_abhinavagupta.pdf",
+      "engaged_works_match": [
+        "abhinavagupta/isvara-pratyabhijna-vimarsini"
+      ],
+      "fetched_at": "2026-05-20T00:10:43.284306+00:00",
+      "fetch_status": "fetched",
+      "sha256": "8ca3840d650c3c2eb22f8d2007521a914ee3f3f62efea28bec1e97a83531f5e8",
+      "size_kb": 21424.24
+    },
+    {
+      "slug": "ksts_ipv_part2_abhinavagupta",
+      "source": "archive_org_kashmir_series",
+      "url": "https://archive.org/download/IshvaraPratyabhijnaAbhinavaguptaPart2KashmirSanskritSeries33/IshvaraPratyabhijnaAbhinavaguptaPart2Kss33.pdf",
+      "format": "pdf",
+      "license": "Public domain (KSTS imprint via egangotri/IA)",
+      "target_path": "data/external/muktabodha_via_egangotri/ksts_ipv_part2_abhinavagupta.pdf",
+      "engaged_works_match": [
+        "abhinavagupta/isvara-pratyabhijna-vimarsini"
+      ],
+      "fetched_at": "2026-05-20T00:10:45.133143+00:00",
+      "fetch_status": "fetched",
+      "sha256": "6449a42ecf56a83c43f1b8fac79b172102a6ed065af6162af1c52faff6c3e2f1",
+      "size_kb": 15990.14
+    },
+    {
+      "slug": "ksts_pratyabhijnahrdayam_ksemaraja",
+      "source": "archive_org_kashmir_series",
+      "url": "https://archive.org/download/Pratyabhijnahrdayam/Pratyabhijnahrdayam_part_1.pdf",
+      "format": "pdf",
+      "license": "Public domain (KSTS imprint via egangotri/IA)",
+      "target_path": "data/external/muktabodha_via_egangotri/ksts_pratyabhijnahrdayam_ksemaraja.pdf",
+      "engaged_works_match": [
+        "ksemaraja/pratyabhijna-hrdayam"
+      ],
+      "fetched_at": "2026-05-20T00:10:45.597644+00:00",
+      "fetch_status": "fetched",
+      "sha256": "c029c6792508ce7e5557e4faaede1f07214329e728b5793a4b628fa2acffc78e",
+      "size_kb": 4244.94
+    },
+    {
+      "slug": "ksts_sutras_vasugupta_sivasutra_vimarsini",
+      "source": "archive_org_kashmir_series",
+      "url": "https://archive.org/download/in.ernet.dli.2015.322584/2015.322584.The-Sutras.pdf",
+      "format": "pdf",
+      "license": "Public domain (KSTS imprint via DLI)",
+      "target_path": "data/external/muktabodha_via_egangotri/ksts_sutras_vasugupta_sivasutra_vimarsini.pdf",
+      "engaged_works_match": [
+        "vasugupta/siva-sutra",
+        "ksemaraja/siva-sutra-vimarsini"
+      ],
+      "fetched_at": "2026-05-20T00:10:46.673159+00:00",
+      "fetch_status": "fetched",
+      "sha256": "bcbdf9428bbe2f88fb2f9d9d10ee0491742b492e1c6be44c77cb8e8caf758a6f",
+      "size_kb": 8995.27
+    },
+    {
+      "slug": "kaiyata_pradipa_mahabhasya_commentary",
+      "source": "manifest_only",
+      "url": "candidate: https://archive.org/search?query=%22Pradipa%22+Kaiyata+Mahabhashya (KSTS / Anand\u0101\u015brama scan)",
+      "format": "pdf",
+      "license": "TBD (pre-1928 imprint expected public domain)",
+      "engaged_works_match": [
+        "kaiyata/pradipa"
+      ],
+      "fetch_status": "manifest_only",
+      "note": "P\u0101\u1e47inian layer-C commentary (Kaiya\u1e6da Prad\u012bpa on Pata\u00f1jali Mah\u0101bh\u0101\u1e63ya). Not on GRETIL. Sanskrit Library at Brown (sanskritlibrary.org) ships TEI XML; archive.org has KSTS/Anand\u0101\u015brama print scans. Next session: locate KSTS volume number + archive.org identifier.",
+      "fetched_at": "2026-05-20T00:12:42.517969+00:00"
+    },
+    {
+      "slug": "nagesa_uddyota_mahabhasya_commentary",
+      "source": "manifest_only",
+      "url": "candidate: https://archive.org/search?query=Uddyota+Nagesha+Mahabhashya",
+      "format": "pdf",
+      "license": "TBD (pre-1928 imprint expected public domain)",
+      "engaged_works_match": [
+        "nagesa-bhatta/uddyota"
+      ],
+      "fetch_status": "manifest_only",
+      "note": "P\u0101\u1e47inian layer-C commentary (N\u0101ge\u015ba Uddyota on Kaiya\u1e6da Prad\u012bpa). Not on GRETIL. Archive.org has Anand\u0101\u015brama/Chowkhamba scans.",
+      "fetched_at": "2026-05-20T00:12:42.517990+00:00"
+    },
+    {
+      "slug": "vasudeva_diksita_balamanorama_siddhantakaumudi_commentary",
+      "source": "manifest_only",
+      "url": "candidate: https://archive.org/search?query=Balamanorama+Siddhanta+Kaumudi",
+      "format": "pdf",
+      "license": "TBD",
+      "engaged_works_match": [
+        "vasudeva-diksita/balamanorama"
+      ],
+      "fetch_status": "manifest_only",
+      "note": "P\u0101\u1e47inian layer-C commentary (V\u0101sudeva-D\u012bk\u1e63ita B\u0101lamanoram\u0101 on Bha\u1e6d\u1e6doji Siddh\u0101nta-Kaumud\u012b). Not on GRETIL. Sanskrit Library may have XML; archive.org has Nir\u1e47aya-S\u0101gara scans.",
+      "fetched_at": "2026-05-20T00:12:42.517996+00:00"
+    },
+    {
+      "slug": "jnanendra_sarasvati_tattvabodhini_siddhantakaumudi_commentary",
+      "source": "manifest_only",
+      "url": "candidate: https://archive.org/search?query=Tattvabodhini+Siddhanta+Kaumudi",
+      "format": "pdf",
+      "license": "TBD",
+      "engaged_works_match": [
+        "jnanendra-sarasvati/tattvabodhini"
+      ],
+      "fetch_status": "manifest_only",
+      "note": "P\u0101\u1e47inian layer-C commentary (J\u00f1\u0101nendra-Sarasvat\u012b Tattvabodhin\u012b on Siddh\u0101nta-Kaumud\u012b). Not on GRETIL. Anand\u0101\u015brama print scan on archive.org.",
+      "fetched_at": "2026-05-20T00:12:42.517998+00:00"
+    },
+    {
+      "slug": "bhattoji_siddhantakaumudi_full",
+      "source": "manifest_only",
+      "url": "candidate: https://archive.org/search?query=%22Siddhanta+Kaumudi%22+Bhattoji",
+      "format": "pdf",
+      "license": "Public domain (pre-1928 imprint)",
+      "engaged_works_match": [
+        "bhattoji/siddhanta-kaumudi"
+      ],
+      "fetch_status": "manifest_only",
+      "note": "GRETIL has only Varadar\u0101ja's Laghu-Siddh\u0101nta-Kaumud\u012b (fetched: gretil_varadaraja_laghusiddhantakaumudi). The full Bha\u1e6d\u1e6doji Siddh\u0101nta-Kaumud\u012b is on archive.org as Nir\u1e47aya-S\u0101gara / Anand\u0101\u015brama scans. Fetch when engaged.",
+      "fetched_at": "2026-05-20T00:12:42.518004+00:00"
+    },
+    {
+      "slug": "ksts_index_unfetched_other_volumes",
+      "source": "manifest_only",
+      "url": "https://archive.org/details/in.ernet.dli.2015.281055 (catalogue) + https://egangotri.org/2021/02/24/ksts-series-listing/",
+      "format": "pdf",
+      "license": "Public domain (pre-1928 KSTS imprints)",
+      "engaged_works_match": [],
+      "fetch_status": "manifest_only",
+      "note": "Remaining ~68 KSTS volumes (out of 75) are on archive.org/egangotri. Lane 5 fetched 7 engaged ones (Tantr\u0101loka, Param\u0101rtha-S\u0101ra, Tantras\u0101ra, IPV pt.1+2, Pratyabhij\u00f1\u0101-H\u1e5bdaya, \u015aiva-S\u016btra-Vimar\u015bin\u012b). Pull more only when specific works become engaged. See data/external/muktabodha_via_egangotri/.",
+      "fetched_at": "2026-05-20T00:12:42.518010+00:00"
+    },
+    {
+      "slug": "ipv_vivrti_vimarsini_abhinavagupta_extended",
+      "source": "archive_org_kashmir_series",
+      "url": "https://archive.org/download/IshvaraPratyabhijnaVivritiVimarshiniAbhinavaguptaPart1KashmirSanskrit/",
+      "format": "pdf",
+      "license": "Public domain (KSTS imprint)",
+      "engaged_works_match": [
+        "abhinavagupta/isvara-pratyabhijna-vivrti-vimarsini"
+      ],
+      "fetch_status": "manifest_only",
+      "note": "IPV-Viv\u1e5bti-Vimar\u015bin\u012b parts 1\u20133 (KSTS 60, 62, 65). Engaged work per data/thinkers/abhinavagupta.json. Three parts \u00d7 ~25-40 MB each = up to 100 MB if fetched. Defer to next session \u2014 already over cap headroom for non-priority works.",
+      "fetched_at": "2026-05-20T00:12:42.518017+00:00"
+    },
+    {
+      "slug": "spanda_nirnaya_ksemaraja",
+      "source": "manifest_only",
+      "url": "candidate: https://archive.org/search?query=Spanda+Nirnaya+Kshemaraja+KSTS",
+      "format": "pdf",
+      "license": "Public domain (KSTS imprint)",
+      "engaged_works_match": [
+        "ksemaraja/spanda-nirnaya"
+      ],
+      "fetch_status": "manifest_only",
+      "note": "K\u1e63emar\u0101ja Spanda-Nir\u1e47aya commentary. Engaged work in data/thinkers/ksemaraja.json. KSTS volume \u2014 locate exact archive.org identifier next session.",
+      "fetched_at": "2026-05-20T00:12:42.518020+00:00"
+    },
+    {
+      "slug": "indica_et_buddhica_archived",
+      "source": "indica_et_buddhica",
+      "url": "https://indica-et-buddhica.com/ (publisher only \u2014 TEI repositorium removed)",
+      "format": "tei",
+      "license": "Was CC-BY-SA",
+      "engaged_works_match": [
+        "vasubandhu/*",
+        "dharmakirti/*",
+        "candrakirti/*",
+        "nagarjuna/*"
+      ],
+      "fetch_status": "archived_unavailable",
+      "note": "Site reachable but /repositorium and /textus paths are 404. Operator restructured as publisher catalogue only. Wayback Machine recovery recommended \u2014 see data/external/indica_et_buddhica/STATUS.md. Vasubandhu, Dharmak\u012brti, Candrak\u012brti, N\u0101g\u0101rjuna TEI editions targeted here are now substituted by GRETIL plaintext (slugs gretil_vasubandhu_*, gretil_dharmakirti_*, gretil_candrakirti_prasannapada, gretil_nagarjuna_mulamadhyamakakarika in this manifest).",
+      "fetched_at": "2026-05-20T00:12:42.518026+00:00"
+    },
+    {
+      "slug": "gretil_bhartrhari_vakyapadiya_1-3_unavailable",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_bhartRhari-vAkyapadIya1-3.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL",
+      "engaged_works_match": [
+        "bhartrhari/vakyapadiya"
+      ],
+      "fetch_status": "failed_404",
+      "note": "URL listed in GRETIL index but returned 404 on fetch attempt 2026-05-19. The full sa_bhartRhari-vAkyapadIya.txt was successfully fetched (slug gretil_bhartrhari_vakyapadiya) and is the primary witness. The k\u0101\u1e47\u1e0da-1-3 split file appears to have been removed; the merged file supersedes it.",
+      "fetched_at": "2026-05-20T00:12:42.518031+00:00"
+    },
+    {
+      "slug": "gretil_kumarila_tantravarttika_2_unavailable",
+      "source": "gretil",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_kumArila-tantravArttika-2.txt",
+      "format": "tei_plaintext",
+      "license": "GRETIL",
+      "engaged_works_match": [
+        "kumarila/tantra-varttika"
+      ],
+      "fetch_status": "failed_404",
+      "note": "URL listed in GRETIL index but returned 404 on fetch 2026-05-19. Re-probe in next session; alternative filename or split file may exist.",
+      "fetched_at": "2026-05-20T00:12:42.518036+00:00"
+    }
+  ]
+}

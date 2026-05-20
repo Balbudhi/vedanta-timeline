@@ -1,0 +1,299 @@
+[
+  {
+    "slug": "gretil_panini_astadhyayi",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/1_gram/panini_u.htm",
+    "format": "html_plain",
+    "license": "GRETIL — attribution required (per-text encoder header)",
+    "target": "data/external/gretil/files/panini_astadhyayi.htm",
+    "engaged_works_match": ["panini/astadhyayi"]
+  },
+  {
+    "slug": "gretil_patanjali_mahabhasya",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/1_gram/pmbhassu.htm",
+    "format": "html_plain",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/patanjali_mahabhasya.htm",
+    "engaged_works_match": ["patanjali/mahabhasya"]
+  },
+  {
+    "slug": "gretil_jayaditya_vamana_kasika",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/1_gram/jvkasipu.htm",
+    "format": "html_plain",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/jayaditya_vamana_kasika.htm",
+    "engaged_works_match": ["jayaditya-vamana/kasika"]
+  },
+  {
+    "slug": "gretil_panini_astadhyayi_corpustei",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_pANini-aSTAdhyAyI.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/panini_astadhyayi_corpustei.txt",
+    "engaged_works_match": ["panini/astadhyayi"]
+  },
+  {
+    "slug": "gretil_patanjali_mahabhasya_corpustei",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_pataJjali-vyAkaraNamahAbhASya.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/patanjali_mahabhasya_corpustei.txt",
+    "engaged_works_match": ["patanjali/mahabhasya"]
+  },
+  {
+    "slug": "gretil_varadaraja_laghusiddhantakaumudi",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_varadarAja-laghusiddhAntakaumudI.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/varadaraja_laghusiddhantakaumudi.txt",
+    "engaged_works_match": ["varadaraja/laghu-siddhanta-kaumudi"]
+  },
+  {
+    "slug": "gretil_bhartrhari_vakyapadiya",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_bhartRhari-vAkyapadIya.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/bhartrhari_vakyapadiya.txt",
+    "engaged_works_match": ["bhartrhari/vakyapadiya"]
+  },
+  {
+    "slug": "gretil_bhartrhari_vakyapadiya_1-3",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_bhartRhari-vAkyapadIya1-3.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/bhartrhari_vakyapadiya_1-3.txt",
+    "engaged_works_match": ["bhartrhari/vakyapadiya"]
+  },
+  {
+    "slug": "gretil_nagarjuna_mulamadhyamakakarika",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_nAgArjuna-mUlamadhyamakakArikA.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/nagarjuna_mulamadhyamakakarika.txt",
+    "engaged_works_match": ["nagarjuna/mulamadhyamakakarika"]
+  },
+  {
+    "slug": "gretil_vasubandhu_abhidharmakosa",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_vasubandhu-abhidharmakoza.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/vasubandhu_abhidharmakosa.txt",
+    "engaged_works_match": ["vasubandhu/abhidharmakosa"]
+  },
+  {
+    "slug": "gretil_vasubandhu_abhidharmakosabhasya",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_vasubandhu-abhidharmakozabhASya.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/vasubandhu_abhidharmakosabhasya.txt",
+    "engaged_works_match": ["vasubandhu/abhidharmakosa-bhasya"]
+  },
+  {
+    "slug": "gretil_vasubandhu_trimsika",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_vasubandhu-triMzikAvijJaptikArikA.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/vasubandhu_trimsika.txt",
+    "engaged_works_match": ["vasubandhu/trimsika"]
+  },
+  {
+    "slug": "gretil_vasubandhu_vimsatika",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_vasubandhu-viMzatikA-vijJaptimAtratAsiddhi.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/vasubandhu_vimsatika.txt",
+    "engaged_works_match": ["vasubandhu/vimsatika"]
+  },
+  {
+    "slug": "gretil_candrakirti_prasannapada",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_candrakIrti-prasannapada.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/candrakirti_prasannapada.txt",
+    "engaged_works_match": ["candrakirti/prasannapada"]
+  },
+  {
+    "slug": "gretil_dharmakirti_pramanavarttika_karika",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_dharmakIrti-pramANavArttikakArikA.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/dharmakirti_pramanavarttika_karika.txt",
+    "engaged_works_match": ["dharmakirti/pramanavarttika"]
+  },
+  {
+    "slug": "gretil_dharmakirti_nyayabindu",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_dharmakIrti-nyAyabindu.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/dharmakirti_nyayabindu.txt",
+    "engaged_works_match": ["dharmakirti/nyayabindu"]
+  },
+  {
+    "slug": "gretil_dharmakirti_hetubindu",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_dharmakIrti-hetubindu.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/dharmakirti_hetubindu.txt",
+    "engaged_works_match": ["dharmakirti/hetubindu"]
+  },
+  {
+    "slug": "gretil_dignaga_prajnaparamita_pindartha",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_dignAga-prajJApAramitApiNDArtha.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/dignaga_prajnaparamita_pindartha.txt",
+    "engaged_works_match": ["dignaga/prajnaparamita-pindartha"]
+  },
+  {
+    "slug": "gretil_asanga_abhidharmasamuccaya",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_asaGga-abhidharmasamuccaya.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/asanga_abhidharmasamuccaya.txt",
+    "engaged_works_match": ["asanga/abhidharmasamuccaya"]
+  },
+  {
+    "slug": "gretil_asanga_mahayanasutralamkara",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_asaGga-mahAyAnasUtrAlaMkAra.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/asanga_mahayanasutralamkara.txt",
+    "engaged_works_match": ["asanga/mahayanasutralamkara"]
+  },
+  {
+    "slug": "gretil_abhinavagupta_tantraloka",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_abhinavagupta-tantrAloka.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/abhinavagupta_tantraloka.txt",
+    "engaged_works_match": ["abhinavagupta/tantraloka"]
+  },
+  {
+    "slug": "gretil_abhinavagupta_tantrasara",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_abhinavagupta-tantrasAra.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/abhinavagupta_tantrasara.txt",
+    "engaged_works_match": ["abhinavagupta/tantrasara"]
+  },
+  {
+    "slug": "gretil_abhinavagupta_ipv",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_abhinavagupta-IzvarapratyabhijJAvimarzinI.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/abhinavagupta_ipv.txt",
+    "engaged_works_match": ["abhinavagupta/isvara-pratyabhijna-vimarsini"]
+  },
+  {
+    "slug": "gretil_abhinavagupta_paramarthasara",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_abhinavagupta-paramArthasAra.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/abhinavagupta_paramarthasara.txt",
+    "engaged_works_match": ["abhinavagupta/paramartha-sara"]
+  },
+  {
+    "slug": "gretil_ksemaraja_pratyabhijnahrdaya",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_kSemarAja-pratyabhijJAhRdaya.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/ksemaraja_pratyabhijnahrdaya.txt",
+    "engaged_works_match": ["ksemaraja/pratyabhijna-hrdayam"]
+  },
+  {
+    "slug": "gretil_utpaladeva_isvarapratyabhijna_karika_with_vrtti",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_utpaladeva-IzvarapratyabhijJAkArikA-with-vRtti.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/utpaladeva_isvarapratyabhijna_karika_with_vrtti.txt",
+    "engaged_works_match": ["utpaladeva/isvara-pratyabhijna-karika"]
+  },
+  {
+    "slug": "gretil_vasugupta_spandakarika",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_vasugupta-spandakArikA.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/vasugupta_spandakarika.txt",
+    "engaged_works_match": ["vasugupta/spanda-karika", "bhatta-kallata/spanda-karika"]
+  },
+  {
+    "slug": "gretil_vasugupta_spandakarika_comm",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_vasugupta-spandakArikA-comm.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/vasugupta_spandakarika_comm.txt",
+    "engaged_works_match": ["vasugupta/spanda-karika+commentary"]
+  },
+  {
+    "slug": "gretil_jaimini_mimamsasutra",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_jaimini-mImAMsAsUtra.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/jaimini_mimamsasutra.txt",
+    "engaged_works_match": ["jaimini/mimamsa-sutra"]
+  },
+  {
+    "slug": "gretil_kumarila_tantravarttika_2",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_kumArila-tantravArttika-2.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/kumarila_tantravarttika_2.txt",
+    "engaged_works_match": ["kumarila/tantra-varttika"]
+  },
+  {
+    "slug": "gretil_mandanamizra_brahmasiddhi",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_mandanamizra-brahmasiddhi.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/mandanamizra_brahmasiddhi.txt",
+    "engaged_works_match": ["mandana-misra/brahma-siddhi"]
+  },
+  {
+    "slug": "gretil_vacaspatimisra_bhamati",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_vAcaspatimizra-bhAmati.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/vacaspatimisra_bhamati.txt",
+    "engaged_works_match": ["vacaspati-misra/bhamati"]
+  },
+  {
+    "slug": "gretil_udayana_nyayakusumanjali",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_udayana-nyAyakusumAJjali.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL — attribution required",
+    "target": "data/external/gretil/files/udayana_nyayakusumanjali.txt",
+    "engaged_works_match": ["udayana/nyaya-kusumanjali"]
+  }
+]

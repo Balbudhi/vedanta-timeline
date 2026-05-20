@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "ksts_tantraloka_abhinavagupta",
+    "source": "archive_org_kashmir_series",
+    "url": "https://archive.org/download/in.ernet.dli.2015.322378/2015.322378.Tantraloka.pdf",
+    "format": "pdf",
+    "license": "Public domain (pre-1928 KSTS imprint, redistributed by DLI/archive.org)",
+    "target": "data/external/muktabodha_via_egangotri/ksts_tantraloka_abhinavagupta.pdf",
+    "engaged_works_match": ["abhinavagupta/tantraloka"]
+  },
+  {
+    "slug": "ksts_paramarthasara_abhinavagupta",
+    "source": "archive_org_kashmir_series",
+    "url": "https://archive.org/download/in.ernet.dli.2015.322387/2015.322387.Paramarthasarah.pdf",
+    "format": "pdf",
+    "license": "Public domain (KSTS imprint via DLI)",
+    "target": "data/external/muktabodha_via_egangotri/ksts_paramarthasara_abhinavagupta.pdf",
+    "engaged_works_match": ["abhinavagupta/paramartha-sara"]
+  },
+  {
+    "slug": "ksts_tantrasara_abhinavagupta",
+    "source": "archive_org_kashmir_series",
+    "url": "https://archive.org/download/in.ernet.dli.2015.322321/2015.322321.The-Tantrasara.pdf",
+    "format": "pdf",
+    "license": "Public domain (KSTS imprint via DLI)",
+    "target": "data/external/muktabodha_via_egangotri/ksts_tantrasara_abhinavagupta.pdf",
+    "engaged_works_match": ["abhinavagupta/tantrasara"]
+  },
+  {
+    "slug": "ksts_ipv_part1_abhinavagupta",
+    "source": "archive_org_kashmir_series",
+    "url": "https://archive.org/download/IshvaraPratyabhijnaAbhinavaguptaPart1KashmirSanskritSeries22/IshvaraPratyabhijnaAbhinavaguptaPart1Kss22.pdf",
+    "format": "pdf",
+    "license": "Public domain (KSTS imprint via egangotri/IA)",
+    "target": "data/external/muktabodha_via_egangotri/ksts_ipv_part1_abhinavagupta.pdf",
+    "engaged_works_match": ["abhinavagupta/isvara-pratyabhijna-vimarsini"]
+  },
+  {
+    "slug": "ksts_ipv_part2_abhinavagupta",
+    "source": "archive_org_kashmir_series",
+    "url": "https://archive.org/download/IshvaraPratyabhijnaAbhinavaguptaPart2KashmirSanskritSeries33/IshvaraPratyabhijnaAbhinavaguptaPart2Kss33.pdf",
+    "format": "pdf",
+    "license": "Public domain (KSTS imprint via egangotri/IA)",
+    "target": "data/external/muktabodha_via_egangotri/ksts_ipv_part2_abhinavagupta.pdf",
+    "engaged_works_match": ["abhinavagupta/isvara-pratyabhijna-vimarsini"]
+  },
+  {
+    "slug": "ksts_pratyabhijnahrdayam_ksemaraja",
+    "source": "archive_org_kashmir_series",
+    "url": "https://archive.org/download/Pratyabhijnahrdayam/Pratyabhijnahrdayam_part_1.pdf",
+    "format": "pdf",
+    "license": "Public domain (KSTS imprint via egangotri/IA)",
+    "target": "data/external/muktabodha_via_egangotri/ksts_pratyabhijnahrdayam_ksemaraja.pdf",
+    "engaged_works_match": ["ksemaraja/pratyabhijna-hrdayam"]
+  },
+  {
+    "slug": "ksts_sutras_vasugupta_sivasutra_vimarsini",
+    "source": "archive_org_kashmir_series",
+    "url": "https://archive.org/download/in.ernet.dli.2015.322584/2015.322584.The-Sutras.pdf",
+    "format": "pdf",
+    "license": "Public domain (KSTS imprint via DLI)",
+    "target": "data/external/muktabodha_via_egangotri/ksts_sutras_vasugupta_sivasutra_vimarsini.pdf",
+    "engaged_works_match": ["vasugupta/siva-sutra", "ksemaraja/siva-sutra-vimarsini"]
+  }
+]

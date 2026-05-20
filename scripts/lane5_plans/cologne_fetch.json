@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "cologne_mw_xml",
+    "source": "cologne_sanskrit_lexicon",
+    "url": "https://www.sanskrit-lexicon.uni-koeln.de/scans/MWScan/2020/downloads/mwxml.zip",
+    "format": "xml_zip",
+    "license": "Cologne Digital Sanskrit Dictionaries — license per mwheader.xml (typically CC-BY-SA / academic-use)",
+    "target": "data/external/cologne/mwxml.zip",
+    "engaged_works_match": ["lexicon/monier-williams"]
+  },
+  {
+    "slug": "cologne_mw_txt",
+    "source": "cologne_sanskrit_lexicon",
+    "url": "https://www.sanskrit-lexicon.uni-koeln.de/scans/MWScan/2020/downloads/mwtxt.zip",
+    "format": "txt_zip",
+    "license": "Cologne Digital Sanskrit Dictionaries",
+    "target": "data/external/cologne/mwtxt.zip",
+    "engaged_works_match": ["lexicon/monier-williams"]
+  },
+  {
+    "slug": "cologne_apte_xml",
+    "source": "cologne_sanskrit_lexicon",
+    "url": "https://www.sanskrit-lexicon.uni-koeln.de/scans/APScan/2020/downloads/apxml.zip",
+    "format": "xml_zip",
+    "license": "Cologne Digital Sanskrit Dictionaries",
+    "target": "data/external/cologne/apxml.zip",
+    "engaged_works_match": ["lexicon/apte"]
+  },
+  {
+    "slug": "cologne_apte_txt",
+    "source": "cologne_sanskrit_lexicon",
+    "url": "https://www.sanskrit-lexicon.uni-koeln.de/scans/APScan/2020/downloads/aptxt.zip",
+    "format": "txt_zip",
+    "license": "Cologne Digital Sanskrit Dictionaries",
+    "target": "data/external/cologne/aptxt.zip",
+    "engaged_works_match": ["lexicon/apte"]
+  }
+]

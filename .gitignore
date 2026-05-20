@@ -9,3 +9,9 @@ node_modules/
 # Source tab fetches from data/sources/ (the in-repo mirror) on the live
 # site; this symlink is for local dev only.
 /materials
+
+# Lane 5 external-source mirror — large binaries (>10 MB) gitignored.
+# SHA-256 + manifest entry preserved in data/external_ingest_manifest_lane5.json.
+data/external/muktabodha_via_egangotri/*.pdf
+data/external/cologne/mwxml.zip
+data/external/cologne/mwtxt.zip

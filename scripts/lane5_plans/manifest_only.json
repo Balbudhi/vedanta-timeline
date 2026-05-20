@@ -1,0 +1,112 @@
+[
+  {
+    "slug": "kaiyata_pradipa_mahabhasya_commentary",
+    "source": "manifest_only",
+    "url": "candidate: https://archive.org/search?query=%22Pradipa%22+Kaiyata+Mahabhashya (KSTS / Anandāśrama scan)",
+    "format": "pdf",
+    "license": "TBD (pre-1928 imprint expected public domain)",
+    "engaged_works_match": ["kaiyata/pradipa"],
+    "fetch_status": "manifest_only",
+    "note": "Pāṇinian layer-C commentary (Kaiyaṭa Pradīpa on Patañjali Mahābhāṣya). Not on GRETIL. Sanskrit Library at Brown (sanskritlibrary.org) ships TEI XML; archive.org has KSTS/Anandāśrama print scans. Next session: locate KSTS volume number + archive.org identifier."
+  },
+  {
+    "slug": "nagesa_uddyota_mahabhasya_commentary",
+    "source": "manifest_only",
+    "url": "candidate: https://archive.org/search?query=Uddyota+Nagesha+Mahabhashya",
+    "format": "pdf",
+    "license": "TBD (pre-1928 imprint expected public domain)",
+    "engaged_works_match": ["nagesa-bhatta/uddyota"],
+    "fetch_status": "manifest_only",
+    "note": "Pāṇinian layer-C commentary (Nāgeśa Uddyota on Kaiyaṭa Pradīpa). Not on GRETIL. Archive.org has Anandāśrama/Chowkhamba scans."
+  },
+  {
+    "slug": "vasudeva_diksita_balamanorama_siddhantakaumudi_commentary",
+    "source": "manifest_only",
+    "url": "candidate: https://archive.org/search?query=Balamanorama+Siddhanta+Kaumudi",
+    "format": "pdf",
+    "license": "TBD",
+    "engaged_works_match": ["vasudeva-diksita/balamanorama"],
+    "fetch_status": "manifest_only",
+    "note": "Pāṇinian layer-C commentary (Vāsudeva-Dīkṣita Bālamanoramā on Bhaṭṭoji Siddhānta-Kaumudī). Not on GRETIL. Sanskrit Library may have XML; archive.org has Nirṇaya-Sāgara scans."
+  },
+  {
+    "slug": "jnanendra_sarasvati_tattvabodhini_siddhantakaumudi_commentary",
+    "source": "manifest_only",
+    "url": "candidate: https://archive.org/search?query=Tattvabodhini+Siddhanta+Kaumudi",
+    "format": "pdf",
+    "license": "TBD",
+    "engaged_works_match": ["jnanendra-sarasvati/tattvabodhini"],
+    "fetch_status": "manifest_only",
+    "note": "Pāṇinian layer-C commentary (Jñānendra-Sarasvatī Tattvabodhinī on Siddhānta-Kaumudī). Not on GRETIL. Anandāśrama print scan on archive.org."
+  },
+  {
+    "slug": "bhattoji_siddhantakaumudi_full",
+    "source": "manifest_only",
+    "url": "candidate: https://archive.org/search?query=%22Siddhanta+Kaumudi%22+Bhattoji",
+    "format": "pdf",
+    "license": "Public domain (pre-1928 imprint)",
+    "engaged_works_match": ["bhattoji/siddhanta-kaumudi"],
+    "fetch_status": "manifest_only",
+    "note": "GRETIL has only Varadarāja's Laghu-Siddhānta-Kaumudī (fetched: gretil_varadaraja_laghusiddhantakaumudi). The full Bhaṭṭoji Siddhānta-Kaumudī is on archive.org as Nirṇaya-Sāgara / Anandāśrama scans. Fetch when engaged."
+  },
+  {
+    "slug": "ksts_index_unfetched_other_volumes",
+    "source": "manifest_only",
+    "url": "https://archive.org/details/in.ernet.dli.2015.281055 (catalogue) + https://egangotri.org/2021/02/24/ksts-series-listing/",
+    "format": "pdf",
+    "license": "Public domain (pre-1928 KSTS imprints)",
+    "engaged_works_match": [],
+    "fetch_status": "manifest_only",
+    "note": "Remaining ~68 KSTS volumes (out of 75) are on archive.org/egangotri. Lane 5 fetched 7 engaged ones (Tantrāloka, Paramārtha-Sāra, Tantrasāra, IPV pt.1+2, Pratyabhijñā-Hṛdaya, Śiva-Sūtra-Vimarśinī). Pull more only when specific works become engaged. See data/external/muktabodha_via_egangotri/."
+  },
+  {
+    "slug": "ipv_vivrti_vimarsini_abhinavagupta_extended",
+    "source": "archive_org_kashmir_series",
+    "url": "https://archive.org/download/IshvaraPratyabhijnaVivritiVimarshiniAbhinavaguptaPart1KashmirSanskrit/",
+    "format": "pdf",
+    "license": "Public domain (KSTS imprint)",
+    "engaged_works_match": ["abhinavagupta/isvara-pratyabhijna-vivrti-vimarsini"],
+    "fetch_status": "manifest_only",
+    "note": "IPV-Vivṛti-Vimarśinī parts 1–3 (KSTS 60, 62, 65). Engaged work per data/thinkers/abhinavagupta.json. Three parts × ~25-40 MB each = up to 100 MB if fetched. Defer to next session — already over cap headroom for non-priority works."
+  },
+  {
+    "slug": "spanda_nirnaya_ksemaraja",
+    "source": "manifest_only",
+    "url": "candidate: https://archive.org/search?query=Spanda+Nirnaya+Kshemaraja+KSTS",
+    "format": "pdf",
+    "license": "Public domain (KSTS imprint)",
+    "engaged_works_match": ["ksemaraja/spanda-nirnaya"],
+    "fetch_status": "manifest_only",
+    "note": "Kṣemarāja Spanda-Nirṇaya commentary. Engaged work in data/thinkers/ksemaraja.json. KSTS volume — locate exact archive.org identifier next session."
+  },
+  {
+    "slug": "indica_et_buddhica_archived",
+    "source": "indica_et_buddhica",
+    "url": "https://indica-et-buddhica.com/ (publisher only — TEI repositorium removed)",
+    "format": "tei",
+    "license": "Was CC-BY-SA",
+    "engaged_works_match": ["vasubandhu/*", "dharmakirti/*", "candrakirti/*", "nagarjuna/*"],
+    "fetch_status": "archived_unavailable",
+    "note": "Site reachable but /repositorium and /textus paths are 404. Operator restructured as publisher catalogue only. Wayback Machine recovery recommended — see data/external/indica_et_buddhica/STATUS.md. Vasubandhu, Dharmakīrti, Candrakīrti, Nāgārjuna TEI editions targeted here are now substituted by GRETIL plaintext (slugs gretil_vasubandhu_*, gretil_dharmakirti_*, gretil_candrakirti_prasannapada, gretil_nagarjuna_mulamadhyamakakarika in this manifest)."
+  },
+  {
+    "slug": "gretil_bhartrhari_vakyapadiya_1-3_unavailable",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_bhartRhari-vAkyapadIya1-3.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL",
+    "engaged_works_match": ["bhartrhari/vakyapadiya"],
+    "fetch_status": "failed_404",
+    "note": "URL listed in GRETIL index but returned 404 on fetch attempt 2026-05-19. The full sa_bhartRhari-vAkyapadIya.txt was successfully fetched (slug gretil_bhartrhari_vakyapadiya) and is the primary witness. The kāṇḍa-1-3 split file appears to have been removed; the merged file supersedes it."
+  },
+  {
+    "slug": "gretil_kumarila_tantravarttika_2_unavailable",
+    "source": "gretil",
+    "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_kumArila-tantravArttika-2.txt",
+    "format": "tei_plaintext",
+    "license": "GRETIL",
+    "engaged_works_match": ["kumarila/tantra-varttika"],
+    "fetch_status": "failed_404",
+    "note": "URL listed in GRETIL index but returned 404 on fetch 2026-05-19. Re-probe in next session; alternative filename or split file may exist."
+  }
+]
