@@ -398,6 +398,86 @@
       "summary": "A *tātparya-nirṇaya* on the *Bhāgavata-Purāṇa*: not a verse-by-verse commentary but a determination of doctrinal purport, made by selecting and glossing key verses to show that the *Bhāgavata* teaches *Tattva-vāda* rather than any monist reading. The genre is what the *Gītā-Tātparya-Nirṇaya* and the *Mahābhārata-Tātparya-Nirṇaya* are.\n\nMadhva treats the *Bhāgavata* as a *prasthāna*-text co-equal with *Upaniṣad*, *Brahma-Sūtra*, and *Gītā*. The elevation is unusual within Vedānta and anticipates by roughly three centuries the Gauḍīya use of the same text. Its consequence is that *Bhāgavata*-internal locutions become decisive for the school's theology.\n\nThe interpretive labor is concentrated on the *Bhāgavata*'s apparent identity-statements. *Ahaṁ sarvasya prabhavaḥ* (*Bhāg.* 10.85) and *vāsudevaḥ sarvam iti* (*Bhāg.* 11.5.49) are read as cosmological-dependence claims rather than as metaphysical-identity claims. The *līlās* of Kṛṣṇa are read as ontologically real and continuous with Viṣṇu's *svarūpa*, not as appearances on a deeper undifferentiated ground. *Bhakti* is fixed as the unique direct cause of *aparokṣa-jñāna* — the verse-anchors here become standard internal references for the school's later soteriology.\n\nThe text supplies many of the verse-citations on which subsequent Mādhva and Gauḍīya devotional metaphysics are built.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
+    },
+    {
+      "work_id": "rg-bhashya",
+      "title": "Rg-Bhashya",
+      "title_iast": "Ṛg-Bhāṣya",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Sanskrit commentary on the first 40 sūktas of Ṛgveda Maṇḍala 1, included in the *Sarva-Mūla-Granthāḥ* of Madhva.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
+      ],
+      "genre": "upanisad-bhashya",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Madhva's Sanskrit commentary on the first forty *sūktas* of Ṛgveda Maṇḍala 1, included as a constituent of the *Sarva-Mūla-Granthāḥ* (Bannañje, ed., *Sarva-Mūla*, vol. with *Ṛg-Bhāṣya*). The work is the foundation of Madhva's *Vedic*-exegetical method: the Ṛgvedic hymns are read as *paratantra-prakāśaka* speech whose ultimate *pratipādya* is Viṣṇu, and the typical Mādhva exegetical move — *abhidhā-vṛtti* re-read through the school's *paratantra* lexical-and-etymological apparatus — is fully exhibited at the *agni-sūkta* (Ṛg 1.1) and the *vāgāmbhṛṇī-sūkta* (Ṛg 1.164) loci. Bannañje's introduction to the *Sarva-Mūla* *Ṛg-Bhāṣya* volume treats it as one of the school's principal documents of the *Vedic*-Vaiṣṇava reading and the locus where Madhva's *paratantra*-lexical method is most aggressively applied. The work supplies the Tattva-vāda foundation for the school's reading of *Vedic*-sūkta passages cited at every later Mādhva polemical front.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "aitareya-upanisad-bhashya",
+      "title": "Aitareya-Upanisad-Bhashya",
+      "title_iast": "Aitareya-Upaniṣad-Bhāṣya",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Madhva Upaniṣad-bhāṣya; included in the *Sarva-Mūla-Granthāḥ*.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
+      ],
+      "genre": "upanisad-bhashya",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Madhva's Sanskrit commentary on the *Aitareya-Upaniṣad* (Bannañje, ed., *Sarva-Mūla*, Upaniṣat-Prasthāna volume). The locus classicus of the Mādhva reading is the *prajñānam brahma* *mahā-vākya* of *Aitareya* 3.1.3, where Madhva — against the Advaitin identity-reading — construes *prajñānam* as a designation of Viṣṇu's *cit*-attribute and reads the predication on the school's *svatantra*-*paratantra* template. The commentary on the cosmogonic opening (*Aitareya* 1.1.1–4) supplies the Mādhva *sṛṣṭi*-doctrine in its *Vedic*-exegetical formulation. The work is one of the school's principal Upaniṣadic *bhāṣyas* and the canonical Mādhva counter to the Advaitin and Viśiṣṭādvaitin readings of the same *mahā-vākya*.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "chandogya-upanisad-bhashya",
+      "title": "Chandogya-Upanisad-Bhashya",
+      "title_iast": "Chāndogya-Upaniṣad-Bhāṣya",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Madhva Upaniṣad-bhāṣya; included in the *Sarva-Mūla-Granthāḥ*.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
+      ],
+      "genre": "upanisad-bhashya",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Madhva's Sanskrit commentary on the *Chāndogya-Upaniṣad* (Bannañje, ed., *Sarva-Mūla*, Upaniṣat-Prasthāna volume). The school's reading of the *Sad-Vidyā* of *Chāndogya* 6 — and especially of the *tat tvam asi* *mahā-vākya* at *Chāndogya* 6.8.7 — is the load-bearing front of the commentary: against Śaṅkara's *jahad-ajahal-lakṣaṇā* identity-reading and Rāmānuja's *ghaṭaka-śruti* body-soul reading, Madhva reads *tat tvam asi* as *atat tvam asi* (or with a non-identifying *sambandha*), preserving the *svatantra*-*paratantra* distinction between Brahman and the *jīva* at the *mahā-vākya* locus itself. The commentary on the *Bhūman-Vidyā* (*Chāndogya* 7) and the *Sandilya-Vidyā* (*Chāndogya* 3.14) supply the Mādhva readings of the principal *upāsanā*-prescriptions. The work is one of the school's most contested polemical fronts and the natural complement to the *Brahma-Sūtra-Bhāṣya* and the *Anuvyākhyāna* at the Vedānta-exegetical core.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "dasa-prakarana-remainder",
+      "title": "Dasa-Prakarana (remainder: Katha-Lakshana, Pramana-Lakshana, Tattva-Viveka, Sad-Achara-Smriti)",
+      "title_iast": "Daśa-Prakaraṇa (Kathā-Lakṣaṇa, Pramāṇa-Lakṣaṇa, Tattva-Viveka, Sad-Ācāra-Smṛti)",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored bundle of four of the *Daśa-Prakaraṇa* polemical treatises not previously individuated (the other six — Tattvodyota, Māyāvāda-Khaṇḍana, Mithyātvānumāna-Khaṇḍana, Upādhi-Khaṇḍana, Viṣṇu-Tattva-Vinirṇaya, plus Tattva-Saṅkhyāna and Karma-Nirṇaya — already have individual work-entries in this thinker file).",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "The remainder of Madhva's *Daśa-Prakaraṇa*, the school's ten short polemical treatises preserved together in the *Sarva-Mūla-Granthāḥ*. Bundled here as a single sub-loci work-entry covering *Kathā-Lakṣaṇa* (on the rules of philosophical disputation), *Pramāṇa-Lakṣaṇa* (on the school's pramāṇa-taxonomy and the realist plural-pramāṇa programme), *Tattva-Viveka* (on the school's *tattva*-enumeration and the *svatantra*-*paratantra* ontology), and *Sad-Ācāra-Smṛti* (on the school's ritual-ethical norms). The other six of the *Daśa-Prakaraṇa* are individually represented (*Tattvodyota*, *Māyāvāda-Khaṇḍana*, *Mithyātvānumāna-Khaṇḍana*, *Upādhi-Khaṇḍana*, *Viṣṇu-Tattva-Vinirṇaya*, plus *Tattva-Saṅkhyāna* and *Karma-Nirṇaya*). Bannañje's *Sarva-Mūla* edition treats the ten as a coherent polemical front against Advaita; modern Mādhva scholastic curricula sequence them after the *Brahma-Sūtra-Bhāṣya* and the *Anuvyākhyāna*.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
     }
   ],
   "key_passages": [
