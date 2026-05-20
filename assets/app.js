@@ -1325,6 +1325,102 @@ function wirePanZoom() {
     }
     // otherwise: native vertical scroll behavior
   }, { passive: false });
+
+  // Safari-only pinch gestures (iOS + macOS Safari fire `gesture*` events
+  // for trackpad/touch pinches in addition to wheel). Mirror the wheel
+  // codepath so pinch produces the same smooth visual scale + commit
+  // behaviour. Chrome / Firefox fall back to the touchmove pinch below.
+  let gestureStartScale = 1;
+  scroller.addEventListener("gesturestart", (e) => {
+    e.preventDefault();
+    gestureStartScale = e.scale || 1;
+    if (!zoomActive) startZoom(e);
+    zoomPendingCursorX = e.clientX || (window.innerWidth / 2);
+    zoomLastCursorX = zoomPendingCursorX;
+  });
+  scroller.addEventListener("gesturechange", (e) => {
+    e.preventDefault();
+    if (!zoomActive) startZoom(e);
+    // Convert absolute gesture scale into a multiplicative factor relative
+    // to the last gesturechange. Without this the zoom would re-apply the
+    // full pinch each frame and runaway.
+    const cur = e.scale || 1;
+    const factor = cur / gestureStartScale;
+    gestureStartScale = cur;
+    zoomPendingFactor *= factor;
+    zoomPendingCursorX = e.clientX || zoomPendingCursorX;
+    zoomLastCursorX = zoomPendingCursorX;
+    scheduleZoomFrame();
+    if (zoomEndTimer) clearTimeout(zoomEndTimer);
+    zoomEndTimer = setTimeout(commitZoom, 140);
+  });
+  scroller.addEventListener("gestureend", (e) => {
+    e.preventDefault();
+    commitZoom();
+  });
+
+  // Two-finger touch pinch for non-Safari mobile (Chrome/Firefox on
+  // Android). Tracks the distance between the two pointers; the ratio
+  // since the last move becomes the zoom factor. Pan-while-pinching is
+  // intentionally NOT supported here — the existing drag handler covers
+  // single-touch pan, and a hybrid behaviour would fight Safari's
+  // built-in gesture handling.
+  const activeTouches = new Map();
+  let pinchPrevDist = 0;
+  function touchPairDist() {
+    const arr = [...activeTouches.values()];
+    if (arr.length < 2) return 0;
+    const [a, b] = arr;
+    const dx = a.x - b.x, dy = a.y - b.y;
+    return Math.hypot(dx, dy);
+  }
+  function touchPairMidX() {
+    const arr = [...activeTouches.values()];
+    if (arr.length < 2) return 0;
+    return (arr[0].x + arr[1].x) / 2;
+  }
+  scroller.addEventListener("touchstart", (e) => {
+    for (const t of e.changedTouches) {
+      activeTouches.set(t.identifier, { x: t.clientX, y: t.clientY });
+    }
+    if (activeTouches.size === 2) {
+      pinchPrevDist = touchPairDist();
+      if (!zoomActive) startZoom({ clientX: touchPairMidX() });
+      zoomPendingCursorX = touchPairMidX();
+      zoomLastCursorX = zoomPendingCursorX;
+    }
+  }, { passive: true });
+  scroller.addEventListener("touchmove", (e) => {
+    if (activeTouches.size < 2) return;
+    for (const t of e.changedTouches) {
+      if (activeTouches.has(t.identifier)) {
+        activeTouches.set(t.identifier, { x: t.clientX, y: t.clientY });
+      }
+    }
+    const d = touchPairDist();
+    if (pinchPrevDist > 0 && d > 0) {
+      const factor = d / pinchPrevDist;
+      pinchPrevDist = d;
+      if (!zoomActive) startZoom({ clientX: touchPairMidX() });
+      zoomPendingFactor *= factor;
+      zoomPendingCursorX = touchPairMidX();
+      zoomLastCursorX = zoomPendingCursorX;
+      scheduleZoomFrame();
+      if (zoomEndTimer) clearTimeout(zoomEndTimer);
+      zoomEndTimer = setTimeout(commitZoom, 140);
+      e.preventDefault();
+    }
+  }, { passive: false });
+  function clearPinch(e) {
+    for (const t of e.changedTouches) activeTouches.delete(t.identifier);
+    if (activeTouches.size < 2) {
+      pinchPrevDist = 0;
+      if (zoomActive) commitZoom();
+    }
+  }
+  scroller.addEventListener("touchend", clearPinch, { passive: true });
+  scroller.addEventListener("touchcancel", clearPinch, { passive: true });
+
   // If the user clicks or starts dragging mid-zoom (rare on trackpads),
   // commit immediately so hit-detection uses the final layout.
   scroller.addEventListener("pointerdown", () => {
@@ -2382,6 +2478,41 @@ function wireTranslationDisclosures(root, ctx) {
   });
 }
 
+// ---------- popover manager (single-popover discipline) -----------
+// Centralises the rule "only one popover is open at a time". Every popover
+// (glossary, citation, topbar-search results) registers its close function;
+// opening a new one closes whatever was open before.
+//
+// Without this discipline, glossary + citation could stack (closing one
+// would leave the other open), and the new top-bar glossary search results
+// would race against any open popover. A singleton keeps the rule cheap and
+// explicit, and centralises Esc / outside-click behaviour for free.
+const popoverManager = (() => {
+  let activeClose = null;
+  return {
+    open(closeFn) {
+      // Close whatever was open first. The close function is responsible
+      // for removing its own DOM + scrim + listeners; we just invoke it.
+      if (activeClose && activeClose !== closeFn) {
+        try { activeClose(); } catch (_) {}
+      }
+      activeClose = closeFn;
+    },
+    // Called by a popover's own close function as it tears down, so the
+    // manager doesn't try to re-invoke it.
+    notifyClosed(closeFn) {
+      if (activeClose === closeFn) activeClose = null;
+    },
+    closeAll() {
+      if (activeClose) {
+        const fn = activeClose;
+        activeClose = null;
+        try { fn(); } catch (_) {}
+      }
+    },
+  };
+})();
+
 // ---------- popover drag helper -----------
 // Shared between the glossary popover and the citation popover. The popover
 // itself is the drag surface — there is no separate handle bar. We bail on
@@ -2521,7 +2652,10 @@ function buildGlossaryRegex() {
 function openGlossary(termKey, anchorEl) {
   const entry = state.glossary.get(termKey);
   if (!entry) return;
-  // close any existing popover + scrim
+  // Single-popover discipline: any other open popover (glossary, citation,
+  // top-bar search results) is dismissed before this one opens.
+  popoverManager.closeAll();
+  // Belt-and-braces cleanup in case a popover failed to register itself.
   document.querySelectorAll(".glossary-popover, .gloss-scrim").forEach((el) => el.remove());
   const isMobile = window.matchMedia("(max-width: 720px)").matches;
   const pop = document.createElement("div");
@@ -2574,9 +2708,25 @@ function openGlossary(termKey, anchorEl) {
        </div>`
     : "";
   const footnoteList = renderFootnoteList(allFootnotes);
+  // Heading: prefer the surface form the user actually clicked when it
+  // differs from the canonical term_iast (alias resolution makes them
+  // diverge — e.g. clicking "guṇātīta" used to silently open "guṇa";
+  // clicking "sat-cit-ānanda" used to silently open "saccidānanda").
+  // Show the canonical form as an eyebrow so the alias relation is
+  // visible rather than masked.
+  const canonical = entry.term_iast || entry.term_key || termKey;
+  const surface = termKey;
+  // Diacritic-insensitive equality check: distinguish "lakṣaṇa" vs
+  // "lakṣaṇā" (long-vs-short -a) — those are *different* lemmas in the
+  // Sanskrit grammatical tradition even when one resolves the other.
+  const showAlias = String(surface).normalize("NFC") !== String(canonical).normalize("NFC");
+  const heading = showAlias
+    ? `<div class="gp-eyebrow">Listed under <em>${escape(canonical)}</em></div>
+       <div class="gp-term">${escape(surface)}</div>`
+    : `<div class="gp-term">${escape(canonical)}</div>`;
   pop.innerHTML = `
     <button class="gp-close" aria-label="Close" data-no-drag type="button">×</button>
-    <div class="gp-term">${escape(entry.term_iast || termKey)}</div>
+    ${heading}
     ${entry.literal ? `<div class="gp-literal">Literally: <em>${escape(entry.literal)}</em></div>` : ""}
     <div class="gp-invariant"><span class="gp-label">${entry.invariant_definition && entry.invariant_definition.toLowerCase().includes("no shared invariant") ? "No invariant" : "Invariant"}</span><div>${invariantR.html}</div></div>
     ${perSchool ? `<div class="gp-perschool"><span class="gp-label">By school</span>${framingBlock}${perSchool}</div>` : ""}
@@ -2598,13 +2748,17 @@ function openGlossary(termKey, anchorEl) {
     const popH = pop.offsetHeight || 240;
     const placeBelow = (r.bottom + popH + 8) < window.innerHeight;
     pop.style.top = (placeBelow ? r.bottom + 8 : Math.max(10, r.top - popH - 8)) + "px";
-    pop.style.left = Math.max(10, Math.min(r.left, window.innerWidth - 400)) + "px";
+    // Popover width is 420 px (see .glossary-popover in style.css); leave a
+    // 10 px gutter so it never clips against the viewport's right edge or
+    // is occluded by the detail-pane scrollbar.
+    pop.style.left = Math.max(10, Math.min(r.left, window.innerWidth - 430)) + "px";
   }
   function closeGloss() {
     pop.remove();
     if (scrim) scrim.remove();
     document.removeEventListener("click", outsideClose);
     document.removeEventListener("keydown", escClose);
+    popoverManager.notifyClosed(closeGloss);
   }
   function outsideClose(e) {
     if (!pop.contains(e.target) && e.target !== anchorEl && e.target !== scrim) {
@@ -2617,6 +2771,7 @@ function openGlossary(termKey, anchorEl) {
   setTimeout(() => document.addEventListener("click", outsideClose), 0);
   document.addEventListener("keydown", escClose);
   makePopoverDraggable(pop, { storageKey: "vedanta-gloss-popover-pos" });
+  popoverManager.open(closeGloss);
 }
 
 // ---------- citation popover (clickable primary-source citations) -----------
@@ -2638,7 +2793,10 @@ function lookupCitationEntry(key) {
 
 async function openCitationPopover(key, anchorEl) {
   await loadCitationIndex();
-  // Close any existing popover + scrim
+  // Single-popover discipline (managed centrally so we don't have to keep
+  // every popover's class name in sync here). The belt-and-braces cleanup
+  // below catches stragglers if a popover failed to register itself.
+  popoverManager.closeAll();
   document.querySelectorAll(".citation-popover, .glossary-popover, .gloss-scrim, .cite-scrim")
     .forEach((el) => el.remove());
 
@@ -2727,6 +2885,7 @@ async function openCitationPopover(key, anchorEl) {
     if (scrim) scrim.remove();
     document.removeEventListener("click", outsideClose);
     document.removeEventListener("keydown", escClose);
+    popoverManager.notifyClosed(closeCite);
   }
   function outsideClose(e) {
     if (!pop.contains(e.target) && e.target !== anchorEl && e.target !== scrim) {
@@ -2745,6 +2904,7 @@ async function openCitationPopover(key, anchorEl) {
   setTimeout(() => document.addEventListener("click", outsideClose), 0);
   document.addEventListener("keydown", escClose);
   makePopoverDraggable(pop, { storageKey: "vedanta-cite-popover-pos" });
+  popoverManager.open(closeCite);
 }
 
 // ---------- Citation tab + Source tab (in the unified panel) -----------
@@ -3700,11 +3860,152 @@ if (filterSoloPill) {
   });
 }
 
+// ---------- topbar glossary search -----------
+// Type-to-search over the loaded glossary. The same `openGlossary(termKey,
+// anchorEl)` path that powers in-prose terms is reused, so the popover
+// presentation is identical (including the surface-form / canonical-form
+// header). The search input becomes the anchorEl, which keeps positioning
+// sensible on desktop and lets the bottom-sheet behaviour fire on mobile.
+const topbarSearchInput = document.getElementById("topbarSearchInput");
+const topbarSearchResults = document.getElementById("topbarSearchResults");
+const topbarSearchWrap = document.getElementById("topbarSearch");
+
+// Normalises diacritics so "atman" matches "ātman". This is a coverage helper
+// for the search field only — it does NOT alter the glossary regex used by
+// the autolink pass.
+function normalizeDia(s) {
+  return String(s || "")
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .toLowerCase();
+}
+
+function topbarSearchCandidates() {
+  const seen = new Set();
+  const out = [];
+  for (const [key, entry] of state.glossary) {
+    // Skip aliases that point to the same canonical so we don't list
+    // every form separately.
+    const canonical = entry.term_iast || entry.term_key || key;
+    if (seen.has(canonical)) continue;
+    seen.add(canonical);
+    out.push({
+      key,
+      canonical,
+      literal: entry.literal || "",
+      // First sentence of the invariant — used as the secondary line.
+      blurb: (entry.invariant_definition || "").split(/[.\n]/)[0].slice(0, 90),
+    });
+  }
+  return out;
+}
+
+let topbarSearchIndex = null;
+function ensureTopbarSearchIndex() {
+  if (topbarSearchIndex) return topbarSearchIndex;
+  topbarSearchIndex = topbarSearchCandidates().map((c) => ({
+    ...c,
+    norm: normalizeDia(c.canonical),
+    normLiteral: normalizeDia(c.literal),
+  }));
+  return topbarSearchIndex;
+}
+
+function renderTopbarSearchResults(q) {
+  if (!topbarSearchResults) return;
+  ensureTopbarSearchIndex();
+  const norm = normalizeDia(q);
+  if (!norm) {
+    topbarSearchResults.hidden = true;
+    topbarSearchResults.innerHTML = "";
+    return;
+  }
+  // Two-tier ranking: prefix matches first, substring matches after. Cap
+  // at 30 so the list stays scannable; the user can narrow further.
+  const prefix = [];
+  const sub = [];
+  for (const c of topbarSearchIndex) {
+    if (c.norm.startsWith(norm)) prefix.push(c);
+    else if (c.norm.includes(norm) || c.normLiteral.includes(norm)) sub.push(c);
+    if (prefix.length + sub.length >= 60) break;
+  }
+  const rows = prefix.concat(sub).slice(0, 30);
+  if (!rows.length) {
+    topbarSearchResults.innerHTML = `<p class="topbar-search-empty">No glossary entries match "${escape(q)}".</p>`;
+    topbarSearchResults.hidden = false;
+    return;
+  }
+  topbarSearchResults.innerHTML = rows.map((r, i) => `
+    <button class="topbar-search-result${i === 0 ? " is-active" : ""}" data-key="${escape(r.key)}" type="button" role="option">
+      <span class="ts-term">${escape(r.canonical)}</span>
+      ${r.literal ? `<span class="ts-gloss">${escape(r.literal)}</span>` : (r.blurb ? `<span class="ts-gloss">${escape(r.blurb)}</span>` : "")}
+    </button>
+  `).join("");
+  topbarSearchResults.hidden = false;
+}
+
+function closeTopbarSearch() {
+  if (topbarSearchResults) {
+    topbarSearchResults.hidden = true;
+    topbarSearchResults.innerHTML = "";
+  }
+}
+
+if (topbarSearchInput && topbarSearchResults && topbarSearchWrap) {
+  topbarSearchInput.addEventListener("input", () => {
+    renderTopbarSearchResults(topbarSearchInput.value);
+  });
+  topbarSearchInput.addEventListener("focus", () => {
+    if (topbarSearchInput.value) renderTopbarSearchResults(topbarSearchInput.value);
+  });
+  // Keyboard navigation: ArrowDown/Up moves selection, Enter opens.
+  topbarSearchInput.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      e.preventDefault();
+      topbarSearchInput.value = "";
+      closeTopbarSearch();
+      topbarSearchInput.blur();
+      return;
+    }
+    if (e.key !== "ArrowDown" && e.key !== "ArrowUp" && e.key !== "Enter") return;
+    const items = topbarSearchResults.querySelectorAll(".topbar-search-result");
+    if (!items.length) return;
+    let activeIdx = -1;
+    items.forEach((el, i) => { if (el.classList.contains("is-active")) activeIdx = i; });
+    if (e.key === "Enter") {
+      e.preventDefault();
+      const target = activeIdx >= 0 ? items[activeIdx] : items[0];
+      if (target) target.click();
+      return;
+    }
+    e.preventDefault();
+    let nextIdx = activeIdx;
+    if (e.key === "ArrowDown") nextIdx = (activeIdx + 1) % items.length;
+    if (e.key === "ArrowUp") nextIdx = (activeIdx - 1 + items.length) % items.length;
+    items.forEach((el, i) => el.classList.toggle("is-active", i === nextIdx));
+    items[nextIdx].scrollIntoView({ block: "nearest" });
+  });
+  topbarSearchResults.addEventListener("click", (e) => {
+    const btn = e.target.closest(".topbar-search-result");
+    if (!btn) return;
+    const key = btn.dataset.key;
+    closeTopbarSearch();
+    openGlossary(key, topbarSearchInput);
+  });
+  // Outside click closes the results panel.
+  document.addEventListener("click", (e) => {
+    if (topbarSearchResults.hidden) return;
+    if (topbarSearchWrap.contains(e.target)) return;
+    if (e.target.closest(".glossary-popover")) return;
+    closeTopbarSearch();
+  });
+}
+
 // ---------- about modal -----------
 const aboutBtn = document.getElementById("aboutBtn");
 const aboutModal = document.getElementById("aboutModal");
 const closeAbout = document.getElementById("closeAbout");
-aboutBtn.addEventListener("click", () => { aboutModal.classList.add("is-open"); aboutModal.setAttribute("aria-hidden", "false"); });
+aboutBtn.addEventListener("click", () => { popoverManager.closeAll(); aboutModal.classList.add("is-open"); aboutModal.setAttribute("aria-hidden", "false"); });
 closeAbout.addEventListener("click", () => { aboutModal.classList.remove("is-open"); aboutModal.setAttribute("aria-hidden", "true"); });
 aboutModal.addEventListener("click", (e) => {
   if (e.target === aboutModal) { aboutModal.classList.remove("is-open"); aboutModal.setAttribute("aria-hidden", "true"); }

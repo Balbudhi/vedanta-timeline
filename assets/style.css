@@ -1454,6 +1454,28 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
   color: var(--ink);
   padding-right: 32px; /* clear the X close button */
 }
+/* Eyebrow shown when the surface form the user clicked differs from the
+   canonical term_iast (alias resolution). Makes the alias relation visible
+   instead of silent — clicking "guṇātīta" now says "Listed under guṇa". */
+.glossary-popover .gp-eyebrow {
+  font-family: var(--sans);
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 3px;
+  padding-right: 32px;
+}
+.glossary-popover .gp-eyebrow em {
+  font-style: italic;
+  font-family: "Noto Serif", var(--serif);
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  font-size: 12.5px;
+  color: var(--ink-soft);
+}
 .glossary-popover .gp-literal {
   font-family: var(--sans);
   font-size: 12px;
@@ -2576,6 +2598,42 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
   .topbar .subtitle { display: none; }
   .topbar-btn--icon { padding: 7px 8px; }
   .topbar-btn--icon .btn-text { display: none; }
+  /* Mobile: collapse the search input to icon-only until focused, then
+     expand to fill the remaining row. Results panel anchors to the
+     full screen width so long term titles never clip. */
+  .topbar-search {
+    height: 32px;
+    padding: 0 8px;
+    max-width: 32px;
+    overflow: hidden;
+    transition: max-width 180ms ease;
+  }
+  .topbar-search:focus-within { max-width: 100%; flex: 1 1 auto; }
+  .topbar-search input { font-size: 14px; }
+  .topbar-search-icon { margin-right: 0; }
+  .topbar-search:focus-within .topbar-search-icon { margin-right: 6px; }
+  .topbar-search-results {
+    left: 8px;
+    right: 8px;
+    width: auto;
+    max-height: 70dvh;
+  }
+  /* Detail-pane tabbar must scroll horizontally on narrow viewports —
+     otherwise the "Translation" tab wraps mid-word at 375 px width. */
+  .dp-tabbar {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scrollbar-width: thin;
+  }
+  .dp-tab {
+    flex-shrink: 0;
+    white-space: nowrap;
+    padding: 0 10px;
+    letter-spacing: 0.05em;
+    font-size: 10.5px;
+  }
+  .dp-tab-spacer { min-width: 12px; }
+  .dp-close { flex-shrink: 0; }
   /* In reading mode, expose the "Back to timeline" label so the user can find their way back. */
   body.is-reading-mode #readingModeBtn .btn-text { display: inline; }
   body.is-reading-mode #readingModeBtn { padding: 7px 11px; }
