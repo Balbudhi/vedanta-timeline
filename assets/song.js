@@ -610,15 +610,36 @@ function setupAudioPlayer() {
   audio.addEventListener("pause", () => { btn.classList.remove("is-playing"); btn.setAttribute("aria-label", "Play");  });
 
   audio.addEventListener("timeupdate", () => {
+    if (isDragging) return;                       // don't fight the user
     const pct = audio.duration ? (audio.currentTime / audio.duration) * 100 : 0;
     barEl.style.width = pct + "%";
   });
 
-  progEl.addEventListener("click", e => {
+  // Drag-to-seek on the progress bar. Pointer events unify mouse + touch.
+  let isDragging = false;
+  const seekFromPointer = e => {
     if (!audio.duration) return;
     const r = progEl.getBoundingClientRect();
-    audio.currentTime = ((e.clientX - r.left) / r.width) * audio.duration;
+    const x = e.clientX - r.left;
+    const pct = Math.max(0, Math.min(1, x / r.width));
+    audio.currentTime = pct * audio.duration;
+    barEl.style.width = (pct * 100) + "%";
+  };
+  progEl.addEventListener("pointerdown", e => {
+    isDragging = true;
+    progEl.setPointerCapture(e.pointerId);
+    seekFromPointer(e);
   });
+  progEl.addEventListener("pointermove", e => {
+    if (isDragging) seekFromPointer(e);
+  });
+  const endDrag = e => {
+    if (!isDragging) return;
+    isDragging = false;
+    try { progEl.releasePointerCapture(e.pointerId); } catch (_) {}
+  };
+  progEl.addEventListener("pointerup", endDrag);
+  progEl.addEventListener("pointercancel", endDrag);
 
   // Spacebar play/pause when not focused in a form field.
   document.addEventListener("keydown", e => {

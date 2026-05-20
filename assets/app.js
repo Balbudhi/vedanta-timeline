@@ -2635,10 +2635,38 @@ function makePopoverDraggable(pop, opts) {
 // (ā, ī, ū, ṛ, ṝ, ḷ, ḹ, ṅ, ñ, ṭ, ḍ, ṇ, ś, ṣ, ṃ, ḥ) as word breaks, so
 // "karman" against the term "karma" matched as `karma|n`. We instead
 // require the preceding and following characters to be *not* a Latin
-// letter, IAST diacritic, or digit. This makes "karman" non-matching
-// for the term "karma" while keeping "karma," "karma." "(karma)"
-// "*karma*" and "karma-yoga" matchable.
-const IAST_LETTER_CLASS = "A-Za-z0-9āīūṛṝḷḹṅñṭḍṇśṣṃḥĀĪŪṚṜḶḸṄÑṬḌṆŚṢṂḤ";
+// letter, IAST diacritic, or digit.
+//
+// Letter class covers: ASCII letters + digits, every long-vowel /
+// retroflex / sibilant diacritic in standard IAST (Kyoto-Harvard
+// and ISO 15919 compatible), the alternate anusvāra `ṁ`, ISO-15919
+// long-mid vowels `ē`/`ō` (used by some Dravidian source texts), the
+// Dravidian retroflex `ḻ`, the alveolar `ṟ`/`ṉ`. Both cases included.
+//
+// Hyphens, periods, commas, parens, asterisks, apostrophes, etc. are
+// NOT in the class, so `karma-yoga`, `(karma)`, `*karma*`, and
+// `karma.` all match correctly.
+//
+// SANDHI / COMPOUND CAVEAT — not handled:
+//   • Internal sandhi: `tat+tvam → tattvam`. The regex sees `tattvam`
+//     as one token; if only `tat` and `tvam` are in the glossary they
+//     do not split out. (Splitting would require a sandhi-undo pass
+//     against the glossary as a dictionary — substantial follow-up.)
+//   • Compound boundaries without hyphens: `sāṅkhyaśāstra` won't match
+//     the prefix `sāṅkhya` because `ś` is in the letter class. This
+//     is correct: arbitrary prefix matching produces false positives
+//     (`saṅghaśakti` ≠ `saṅgha` + `śakti` in general).
+//   • Inflected forms: `karmaṇaḥ` against the term `karman` will not
+//     match because `karma` is the surface boundary and `ṇaḥ` is in
+//     the letter class. Inflected forms must be added as explicit
+//     aliases on the canonical entry.
+// TODO(sandhi): if/when a sandhi-undo pass is added, run it BEFORE
+// this regex on prose text and produce a `<span data-term-resolved>`
+// wrapper so the click target stays the surface form.
+const IAST_LETTER_CLASS =
+  "A-Za-z0-9" +
+  "āīūṛṝḷḹṅñṭḍṇśṣṃḥĀĪŪṚṜḶḸṄÑṬḌṆŚṢṂḤ" +
+  "ṁṀēōĒŌḻṟṉḺṞṈ";
 function buildGlossaryRegex() {
   if (state.glossary.size === 0) return;
   const keys = [...state.glossary.keys()].sort((a, b) => b.length - a.length);

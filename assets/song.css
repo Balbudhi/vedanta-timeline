@@ -98,16 +98,26 @@ html, body {
 
 .ap-progress {
   flex: 1;
+  position: relative;
+  padding: 14px 0;             /* invisible vertical hit area for grabbing */
+  cursor: pointer;
+  touch-action: none;          /* let pointer events drive seek, not page scroll */
+}
+.ap-progress::before {         /* the visible 1px track */
+  content: "";
+  position: absolute;
+  left: 0; right: 0; top: 50%;
   height: 1px;
   background: var(--kh-rule);
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
+  transform: translateY(-50%);
 }
 .ap-progress-bar {
-  height: 100%;
+  position: absolute;
+  left: 0; top: 50%;
+  height: 1px;
   width: 0%;
   background: var(--kh-ink);
+  transform: translateY(-50%);
   transition: width 140ms linear;
 }
 .ap-time {
@@ -128,15 +138,16 @@ html, body {
 /* ---------- Line block ---------- */
 .line {
   margin: 0 0 38px;
-  padding: 8px 18px;
+  padding: 10px 18px;
   margin-left: -18px;
   margin-right: -18px;
-  border-left: 1px solid transparent;
-  transition: background-color 240ms ease, border-color 240ms ease;
+  text-align: center;
+  border-top: 1px solid transparent;
+  transition: background-color 240ms ease, border-top-color 240ms ease;
 }
 .line.is-singing {
-  background: rgba(244, 234, 208, 0.06);
-  border-left-color: var(--kh-ink);
+  background: rgba(244, 234, 208, 0.05);
+  border-top-color: var(--kh-rule);
 }
 .line-roman {
   font-family: var(--kh-serif);
