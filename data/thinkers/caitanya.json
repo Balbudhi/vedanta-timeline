@@ -75,6 +75,46 @@
       "summary": "Caitanya's doctrine is preserved in three converging streams of disciple-record. The first is biographical: Kṛṣṇadāsa Kavirāja's *Caitanya-Caritāmṛta* and Vṛndāvana-dāsa's *Caitanya-Bhāgavata*, both in Bengali with embedded Sanskrit verse, transmit extended doctrinal dialogues. The most consequential are the conversation with Rāmānanda Rāya on the graded structure of *sādhana* and *rasa* (*Caitanya-Caritāmṛta*, *Madhya-līlā* 8), and the *daśa-mūla* teachings preserved at *Madhya-līlā* 6 (Caitanya–Sārvabhauma) and 20–25 (Caitanya–Sanātana, Caitanya–Rūpa, Caitanya–Prakāśānanda). The second is systematic-theological: the Six Gosvāmīs of Vṛndāvana — Rūpa, Sanātana, Jīva, and the others — articulate Caitanya's position under his commission as *acintya-bhedābheda*, with *acintya-śakti* the load-bearing concept (*Tattva-Sandarbha* §51 ff.) and Jīva Gosvāmī's *Ṣaṭ-Sandarbha* the canonical systematic statement. The third is liturgical-ritual: Sanātana's *Hari-Bhakti-Vilāsa* (twenty *vilāsas* on initiation, deity-worship, and the annual *vrata*-cycle) fixes the school's practice. Reading Caitanya's doctrine therefore requires triangulation across hagiographical, theological, and ritual sources, with the *Śikṣāṣṭakam* (eight verses, transmitted at *Caitanya-Caritāmṛta*, *Antya-līlā* 20) as the only fixed first-person datum. The methodological caution is real but not crippling: the Gosvāmīs treat themselves as drawing out what was settled in Caitanya's teaching, and the doctrinal coherence between the *Śikṣāṣṭakam* and the *Sandarbhas* gives independent warrant for that self-understanding.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
+    },
+    {
+      "work_id": "ramananda-samvada",
+      "title": "Ramananda-Samvada",
+      "title_iast": "Rāmānanda-Saṃvāda",
+      "alternate_titles": [],
+      "ascription_tier": "school-ascribed",
+      "ascription_notes": "Doctrinal dialogue preserved in Kṛṣṇadāsa Kavirāja, *Caitanya-Caritāmṛta* 2.8. The dialogue is school-ascribed in that its Caitanya-voice is mediated by a disciple-text composed roughly a century later; the substance is treated by the Gauḍīya tradition as Caitanya's own teaching.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
+      ],
+      "genre": "dialogue",
+      "language": "bengali",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "The Caitanya–Rāmānanda Rāya dialogue preserved in *Caitanya-Caritāmṛta* 2.8 is, after the *Śikṣāṣṭakam*, the single most-cited Caitanya doctrinal source. Across the conversation Rāmānanda Rāya proposes a sequence of soteriological ideals — *varṇāśrama-dharma*, *karma-tyāga*, *karma-arpaṇa*, *jñāna-miśrā-bhakti*, *jñāna-śūnyā-bhakti*, *prema-bhakti* — and Caitanya at each step pushes deeper, until the final settled position is *gopī-bhāva*-grounded *mādhurya-prema* under Rādhā's mode (CC 2.8.55ff.). The dialogue does the doctrinal work of articulating, in Caitanya's direct voice, the hierarchy of bhakti-modes that the Gosvāmīs then systematize in the *Bhakti-Rasāmṛta-Sindhu* (Rūpa, 1541) and the *Sat-Sandarbhas* (Jīva). Currently the v1 entry bundles this dialogue under \"doctrine recorded by disciples\"; v2 separates it as a work-entry because it is the principal locus from which the Gauḍīya rasa-theology genealogically descends.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "dasha-mula-shiksha",
+      "title": "Dasha-Mula-Shiksha",
+      "title_iast": "Daśa-Mūla-Śikṣā",
+      "alternate_titles": [],
+      "ascription_tier": "school-ascribed",
+      "ascription_notes": "School-ascribed: the ten foundational principles attributed to Caitanya are articulated in *Caitanya-Caritāmṛta* 2.6 and systematized by Bhaktivinoda Ṭhākura in his nineteenth-century *Daśa-Mūla-Śikṣā* gloss. The original ten-point formulation is treated by the school as Caitanya's teaching.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern academic consensus."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "bengali",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "The Daśa-Mūla-Śikṣā is the ten-point doctrinal summary attributed to Caitanya, traditionally enumerated as: (1) the Vedas as *pramāṇa*; (2) Hari as *para-tattva*; (3) Hari as the cause of all causes; (4) the energies (*śaktis*) of Hari; (5) the *jīva* as *taṭastha-śakti*; (6) the *jīva* in bondage by *māyā*; (7) the *jīva* in liberation; (8) the *acintya-bheda-abheda* relation between the *jīva* and Hari; (9) bhakti as the sole means (*abhidheya*); and (10) prema as the supreme end (*prayojana*). The formulation is given in *Caitanya-Caritāmṛta* 2.6 and is the doctrinal-summary form by which the Gauḍīya school passes Caitanya's siddhānta to its students. Bhaktivinoda Ṭhākura's nineteenth-century *Daśa-Mūla-Śikṣā* makes it a free-standing pedagogical text; that downstream gloss is treated under bhaktivinoda's entry, while this work-id refers to the original Caitanya-attributed formulation.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
     }
   ],
   "key_passages": [],
