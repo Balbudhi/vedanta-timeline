@@ -1,0 +1,4083 @@
+{
+  "generated_at_unix": 1779236021,
+  "wall_clock_seconds": 338.64,
+  "input_root": "/nas/ucb/eeshan/corpus_worktrees/external-ingest/data/external/dcs/dump/dcs_repo/dcs/data/conllu/files",
+  "output_path": "/nas/ucb/eeshan/dcs_morphology_gold/dcs_morphology_gold.jsonl",
+  "output_sha256": "9a6e7cb155aa19a32c8b1af95de7a586f4abda2ea9ccaa8efa3c73f87bdc1215",
+  "output_size_bytes": 3374672522,
+  "total_files_processed": 15900,
+  "total_tokens_emitted": 5688416,
+  "total_compound_ranges": 1024841,
+  "kind_counts": {
+    "indeclinable": 1026525,
+    "subanta": 2862038,
+    "compound_member": 792492,
+    "krdanta": 483640,
+    "tinanta": 523721,
+    "compound_range": 1024841
+  },
+  "upos_counts": {
+    "INTJ": 8026,
+    "NOUN": 2395188,
+    "PRON": 586225,
+    "ADV": 339182,
+    "VERB": 1007361,
+    "PART": 414178,
+    "ADJ": 601222,
+    "CONJ": 203247,
+    "SCONJ": 31499,
+    "NUM": 71895,
+    "ADP": 30393
+  },
+  "tinanta_total": 476859,
+  "tinanta_gana_resolved": 129002,
+  "tinanta_gana_resolution_rate": 0.2705,
+  "dhatupatha_unique_cleans": 1622,
+  "per_text": {
+    "Abhidharmakośa": {
+      "kind_counts": {
+        "indeclinable": 204,
+        "subanta": 557,
+        "compound_member": 254,
+        "krdanta": 54,
+        "tinanta": 22,
+        "compound_range": 269
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 22,
+        "krdanta_tuples": 42,
+        "subanta_tuples": 557
+      }
+    },
+    "Abhidharmakośabhāṣya": {
+      "kind_counts": {
+        "indeclinable": 42,
+        "subanta": 38,
+        "tinanta": 9,
+        "compound_range": 24,
+        "compound_member": 16,
+        "krdanta": 13
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 9,
+        "krdanta_tuples": 7,
+        "subanta_tuples": 38
+      }
+    },
+    "Abhidhānacintāmaṇi": {
+      "kind_counts": {
+        "compound_range": 982,
+        "krdanta": 88,
+        "subanta": 2939,
+        "compound_member": 883,
+        "tinanta": 64,
+        "indeclinable": 497
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 63,
+        "krdanta_tuples": 50,
+        "subanta_tuples": 2933
+      }
+    },
+    "Abhinavacintāmaṇi": {
+      "kind_counts": {
+        "subanta": 1301,
+        "compound_range": 523,
+        "compound_member": 618,
+        "krdanta": 168,
+        "tinanta": 174,
+        "indeclinable": 343
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 174,
+        "krdanta_tuples": 127,
+        "subanta_tuples": 1300
+      }
+    },
+    "Acintyastava": {
+      "kind_counts": {
+        "compound_range": 177,
+        "krdanta": 122,
+        "subanta": 369,
+        "tinanta": 48,
+        "indeclinable": 233,
+        "compound_member": 138
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 48,
+        "krdanta_tuples": 110,
+        "subanta_tuples": 348
+      }
+    },
+    "Agastīyaratnaparīkṣā": {
+      "kind_counts": {
+        "subanta": 296,
+        "compound_range": 96,
+        "indeclinable": 128,
+        "compound_member": 111,
+        "tinanta": 41,
+        "krdanta": 32
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 41,
+        "krdanta_tuples": 28,
+        "subanta_tuples": 295
+      }
+    },
+    "Agnipurāṇa": {
+      "kind_counts": {
+        "subanta": 4417,
+        "compound_range": 1642,
+        "compound_member": 1048,
+        "tinanta": 741,
+        "krdanta": 899,
+        "indeclinable": 1258
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 580,
+        "krdanta_tuples": 578,
+        "subanta_tuples": 4283
+      }
+    },
+    "Aitareya-Āraṇyaka": {
+      "kind_counts": {
+        "subanta": 5825,
+        "krdanta": 468,
+        "indeclinable": 2427,
+        "tinanta": 1205,
+        "compound_range": 927,
+        "compound_member": 358
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1122,
+        "krdanta_tuples": 386,
+        "subanta_tuples": 5632
+      }
+    },
+    "Aitareyabrāhmaṇa": {
+      "kind_counts": {
+        "subanta": 30505,
+        "indeclinable": 12831,
+        "compound_member": 1575,
+        "tinanta": 7790,
+        "krdanta": 2542,
+        "compound_range": 4439
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 6967,
+        "krdanta_tuples": 2006,
+        "subanta_tuples": 29672
+      }
+    },
+    "Aitareyopaniṣad": {
+      "kind_counts": {
+        "subanta": 486,
+        "indeclinable": 169,
+        "tinanta": 120,
+        "krdanta": 57,
+        "compound_member": 16
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 120,
+        "krdanta_tuples": 29,
+        "subanta_tuples": 478
+      }
+    },
+    "Amarakośa": {
+      "kind_counts": {
+        "subanta": 8474,
+        "compound_range": 2309,
+        "compound_member": 1620,
+        "tinanta": 301,
+        "indeclinable": 1346,
+        "krdanta": 227
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 301,
+        "krdanta_tuples": 151,
+        "subanta_tuples": 8468
+      }
+    },
+    "Amaraughaśāsana": {
+      "kind_counts": {
+        "compound_range": 234,
+        "compound_member": 365,
+        "subanta": 436,
+        "tinanta": 51,
+        "indeclinable": 115,
+        "krdanta": 53
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 51,
+        "krdanta_tuples": 44,
+        "subanta_tuples": 436
+      }
+    },
+    "Amaruśataka": {
+      "kind_counts": {
+        "compound_range": 774,
+        "compound_member": 592,
+        "krdanta": 507,
+        "subanta": 1466,
+        "tinanta": 183,
+        "indeclinable": 473
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 180,
+        "krdanta_tuples": 325,
+        "subanta_tuples": 1361
+      }
+    },
+    "Amṛtabindūpaniṣat": {
+      "kind_counts": {
+        "indeclinable": 19,
+        "subanta": 47,
+        "krdanta": 11,
+        "compound_range": 10,
+        "compound_member": 12,
+        "tinanta": 8
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 8,
+        "krdanta_tuples": 4,
+        "subanta_tuples": 47
+      }
+    },
+    "Arthaśāstra": {
+      "kind_counts": {
+        "subanta": 8777,
+        "compound_range": 3912,
+        "indeclinable": 2731,
+        "compound_member": 5934,
+        "krdanta": 1683,
+        "tinanta": 1290
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1288,
+        "krdanta_tuples": 1157,
+        "subanta_tuples": 8734
+      }
+    },
+    "Atharvaprāyaścittāni": {
+      "kind_counts": {
+        "indeclinable": 1665,
+        "subanta": 4015,
+        "compound_range": 852,
+        "tinanta": 1123,
+        "compound_member": 337,
+        "krdanta": 708
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1111,
+        "krdanta_tuples": 420,
+        "subanta_tuples": 3769
+      }
+    },
+    "Atharvaveda (Paippalāda)": {
+      "kind_counts": {
+        "subanta": 18952,
+        "tinanta": 4713,
+        "krdanta": 1450,
+        "indeclinable": 5118,
+        "compound_member": 979,
+        "compound_range": 2078
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 4556,
+        "krdanta_tuples": 1260,
+        "subanta_tuples": 16631
+      }
+    },
+    "Atharvaveda (Śaunaka)": {
+      "kind_counts": {
+        "subanta": 43621,
+        "tinanta": 10925,
+        "krdanta": 3634,
+        "indeclinable": 10836,
+        "compound_member": 2233,
+        "compound_range": 4714
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 10370,
+        "krdanta_tuples": 3176,
+        "subanta_tuples": 39521
+      }
+    },
+    "Atharvavedapariśiṣṭa": {
+      "kind_counts": {
+        "indeclinable": 381,
+        "compound_range": 308,
+        "compound_member": 266,
+        "subanta": 773,
+        "krdanta": 114,
+        "tinanta": 161
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 160,
+        "krdanta_tuples": 81,
+        "subanta_tuples": 767
+      }
+    },
+    "Avadānaśataka": {
+      "kind_counts": {
+        "subanta": 9541,
+        "krdanta": 2445,
+        "compound_range": 3388,
+        "compound_member": 3673,
+        "indeclinable": 2633,
+        "tinanta": 1598
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1544,
+        "krdanta_tuples": 1619,
+        "subanta_tuples": 9312
+      }
+    },
+    "Ayurvedarasāyana": {
+      "kind_counts": {
+        "indeclinable": 777,
+        "subanta": 1900,
+        "tinanta": 218,
+        "compound_range": 954,
+        "compound_member": 1037,
+        "krdanta": 181
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 218,
+        "krdanta_tuples": 135,
+        "subanta_tuples": 1898
+      }
+    },
+    "Aṣṭasāhasrikā": {
+      "kind_counts": {
+        "indeclinable": 9079,
+        "subanta": 20082,
+        "krdanta": 3937,
+        "tinanta": 4533,
+        "compound_range": 9506,
+        "compound_member": 5826
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 4525,
+        "krdanta_tuples": 2833,
+        "subanta_tuples": 19844
+      }
+    },
+    "Aṣṭādhyāyī": {
+      "kind_counts": {
+        "subanta": 7922,
+        "compound_range": 3208,
+        "indeclinable": 2413,
+        "compound_member": 4756,
+        "krdanta": 276,
+        "tinanta": 88
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 87,
+        "krdanta_tuples": 182,
+        "subanta_tuples": 7922
+      }
+    },
+    "Aṣṭāvakragīta": {
+      "kind_counts": {
+        "subanta": 1978,
+        "tinanta": 372,
+        "indeclinable": 1255,
+        "krdanta": 454,
+        "compound_range": 729,
+        "compound_member": 513
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 369,
+        "krdanta_tuples": 303,
+        "subanta_tuples": 1824
+      }
+    },
+    "Aṣṭāṅgahṛdayasaṃhitā": {
+      "kind_counts": {
+        "compound_range": 22142,
+        "compound_member": 31780,
+        "subanta": 47462,
+        "krdanta": 7843,
+        "tinanta": 5789,
+        "indeclinable": 14641
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 5786,
+        "krdanta_tuples": 5758,
+        "subanta_tuples": 46113
+      }
+    },
+    "Aṣṭāṅganighaṇṭu": {
+      "kind_counts": {
+        "subanta": 3505,
+        "krdanta": 136,
+        "compound_range": 467,
+        "compound_member": 385,
+        "tinanta": 48,
+        "indeclinable": 403
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 48,
+        "krdanta_tuples": 77,
+        "subanta_tuples": 2514
+      }
+    },
+    "Aṣṭāṅgasaṃgraha": {
+      "kind_counts": {
+        "compound_range": 544,
+        "indeclinable": 398,
+        "subanta": 990,
+        "tinanta": 70,
+        "compound_member": 641,
+        "krdanta": 88
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 70,
+        "krdanta_tuples": 57,
+        "subanta_tuples": 990
+      }
+    },
+    "Baudhāyanadharmasūtra": {
+      "kind_counts": {
+        "krdanta": 1234,
+        "subanta": 6962,
+        "indeclinable": 3055,
+        "tinanta": 1562,
+        "compound_member": 1938,
+        "compound_range": 2277
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1544,
+        "krdanta_tuples": 746,
+        "subanta_tuples": 6834
+      }
+    },
+    "Baudhāyanagṛhyasūtra": {
+      "kind_counts": {
+        "compound_range": 2290,
+        "indeclinable": 3216,
+        "subanta": 7594,
+        "krdanta": 1094,
+        "compound_member": 1373,
+        "tinanta": 1722
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1703,
+        "krdanta_tuples": 488,
+        "subanta_tuples": 7206
+      }
+    },
+    "Baudhāyanaśrautasūtra": {
+      "kind_counts": {
+        "subanta": 19917,
+        "indeclinable": 7753,
+        "krdanta": 3273,
+        "tinanta": 6427,
+        "compound_member": 1835,
+        "compound_range": 5047
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 6382,
+        "krdanta_tuples": 1657,
+        "subanta_tuples": 18687
+      }
+    },
+    "Bhadrabāhucarita": {
+      "kind_counts": {
+        "compound_range": 46,
+        "krdanta": 33,
+        "compound_member": 52,
+        "subanta": 97,
+        "tinanta": 15,
+        "indeclinable": 13
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 14,
+        "krdanta_tuples": 18,
+        "subanta_tuples": 93
+      }
+    },
+    "Bhairavastava": {
+      "kind_counts": {
+        "compound_range": 38,
+        "krdanta": 9,
+        "compound_member": 76,
+        "subanta": 84,
+        "tinanta": 16,
+        "indeclinable": 19
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 15,
+        "krdanta_tuples": 3,
+        "subanta_tuples": 73
+      }
+    },
+    "Bhallaṭaśataka": {
+      "kind_counts": {
+        "subanta": 1307,
+        "compound_range": 432,
+        "compound_member": 479,
+        "tinanta": 186,
+        "indeclinable": 557,
+        "krdanta": 281
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 184,
+        "krdanta_tuples": 190,
+        "subanta_tuples": 1258
+      }
+    },
+    "Bhramarāṣṭaka": {
+      "kind_counts": {
+        "compound_range": 57,
+        "compound_member": 37,
+        "subanta": 102,
+        "krdanta": 29,
+        "tinanta": 17,
+        "indeclinable": 31
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 17,
+        "krdanta_tuples": 17,
+        "subanta_tuples": 99
+      }
+    },
+    "Bhāgavatapurāṇa": {
+      "kind_counts": {
+        "compound_range": 15290,
+        "compound_member": 12986,
+        "subanta": 40588,
+        "indeclinable": 10380,
+        "tinanta": 6007,
+        "krdanta": 7840
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 5234,
+        "krdanta_tuples": 5073,
+        "subanta_tuples": 38586
+      }
+    },
+    "Bhāradvājagṛhyasūtra": {
+      "kind_counts": {
+        "subanta": 6295,
+        "tinanta": 1540,
+        "compound_range": 1828,
+        "indeclinable": 2317,
+        "compound_member": 677,
+        "krdanta": 814
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1516,
+        "krdanta_tuples": 395,
+        "subanta_tuples": 5815
+      }
+    },
+    "Bhāradvājaśrautasūtra": {
+      "kind_counts": {
+        "compound_member": 1281,
+        "subanta": 10989,
+        "tinanta": 3743,
+        "krdanta": 1818,
+        "indeclinable": 4317,
+        "compound_range": 2869
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 3724,
+        "krdanta_tuples": 982,
+        "subanta_tuples": 10457
+      }
+    },
+    "Bhāratamañjarī": {
+      "kind_counts": {
+        "compound_range": 20582,
+        "subanta": 41405,
+        "tinanta": 7247,
+        "indeclinable": 11352,
+        "compound_member": 15244,
+        "krdanta": 10407
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 5878,
+        "krdanta_tuples": 6122,
+        "subanta_tuples": 39876
+      }
+    },
+    "Bhāvaprakāśa": {
+      "kind_counts": {
+        "subanta": 7003,
+        "tinanta": 717,
+        "indeclinable": 1562,
+        "krdanta": 678,
+        "compound_range": 2644,
+        "compound_member": 3104
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 711,
+        "krdanta_tuples": 516,
+        "subanta_tuples": 6999
+      }
+    },
+    "Bodhicaryāvatāra": {
+      "kind_counts": {
+        "subanta": 6061,
+        "compound_range": 3258,
+        "indeclinable": 3098,
+        "krdanta": 1131,
+        "compound_member": 2238,
+        "tinanta": 1242
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1239,
+        "krdanta_tuples": 804,
+        "subanta_tuples": 5713
+      }
+    },
+    "Brahmabindūpaniṣat": {
+      "kind_counts": {
+        "indeclinable": 81,
+        "subanta": 145,
+        "krdanta": 37,
+        "compound_range": 46,
+        "compound_member": 36,
+        "tinanta": 23
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 23,
+        "krdanta_tuples": 32,
+        "subanta_tuples": 139
+      }
+    },
+    "Buddhacarita": {
+      "kind_counts": {
+        "subanta": 8828,
+        "compound_range": 4391,
+        "compound_member": 2778,
+        "krdanta": 1923,
+        "indeclinable": 3920,
+        "tinanta": 1616
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1551,
+        "krdanta_tuples": 1085,
+        "subanta_tuples": 8532
+      }
+    },
+    "Bījanighaṇṭu": {
+      "kind_counts": {
+        "compound_range": 126,
+        "subanta": 437,
+        "indeclinable": 95,
+        "tinanta": 7,
+        "krdanta": 94,
+        "compound_member": 141
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 7,
+        "krdanta_tuples": 86,
+        "subanta_tuples": 434
+      }
+    },
+    "Bṛhadāraṇyakopaniṣad": {
+      "kind_counts": {
+        "subanta": 10821,
+        "indeclinable": 4455,
+        "compound_member": 456,
+        "krdanta": 849,
+        "tinanta": 2433,
+        "compound_range": 1369
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 2402,
+        "krdanta_tuples": 607,
+        "subanta_tuples": 10427
+      }
+    },
+    "Bṛhatkathāślokasaṃgraha": {
+      "kind_counts": {
+        "compound_range": 10338,
+        "compound_member": 8999,
+        "subanta": 27945,
+        "tinanta": 4803,
+        "indeclinable": 12491,
+        "krdanta": 7964
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 3588,
+        "krdanta_tuples": 5086,
+        "subanta_tuples": 25572
+      }
+    },
+    "Carakasaṃhitā": {
+      "kind_counts": {
+        "compound_range": 22606,
+        "indeclinable": 16669,
+        "subanta": 43663,
+        "tinanta": 6085,
+        "krdanta": 6633,
+        "compound_member": 21802
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 6052,
+        "krdanta_tuples": 4616,
+        "subanta_tuples": 43264
+      }
+    },
+    "Carakatattvapradīpikā": {
+      "kind_counts": {
+        "indeclinable": 20,
+        "compound_range": 29,
+        "compound_member": 38,
+        "subanta": 50,
+        "krdanta": 7,
+        "tinanta": 6
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 6,
+        "krdanta_tuples": 5,
+        "subanta_tuples": 50
+      }
+    },
+    "Caurapañcaśikā": {
+      "kind_counts": {
+        "compound_range": 264,
+        "indeclinable": 216,
+        "subanta": 381,
+        "compound_member": 393,
+        "krdanta": 117,
+        "tinanta": 76
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 76,
+        "krdanta_tuples": 49,
+        "subanta_tuples": 350
+      }
+    },
+    "Chāndogyopaniṣad": {
+      "kind_counts": {
+        "indeclinable": 3814,
+        "subanta": 8682,
+        "tinanta": 2242,
+        "krdanta": 707,
+        "compound_member": 460,
+        "compound_range": 967
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 2206,
+        "krdanta_tuples": 524,
+        "subanta_tuples": 8354
+      }
+    },
+    "Commentary on Amaraughaśāsana": {
+      "kind_counts": {
+        "subanta": 282,
+        "compound_range": 131,
+        "compound_member": 181,
+        "krdanta": 65,
+        "indeclinable": 104,
+        "tinanta": 41
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 41,
+        "krdanta_tuples": 44,
+        "subanta_tuples": 282
+      }
+    },
+    "Commentary on the Kādambarīsvīkaraṇasūtramañjarī": {
+      "kind_counts": {
+        "indeclinable": 342,
+        "subanta": 831,
+        "krdanta": 137,
+        "compound_range": 466,
+        "compound_member": 511,
+        "tinanta": 81
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 81,
+        "krdanta_tuples": 92,
+        "subanta_tuples": 830
+      }
+    },
+    "Commentary on the Kāvyālaṃkāravṛtti": {
+      "kind_counts": {
+        "subanta": 187,
+        "indeclinable": 74,
+        "compound_range": 100,
+        "krdanta": 24,
+        "tinanta": 31,
+        "compound_member": 82
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 31,
+        "krdanta_tuples": 15,
+        "subanta_tuples": 186
+      }
+    },
+    "Daśakumāracarita": {
+      "kind_counts": {
+        "compound_range": 8767,
+        "compound_member": 8152,
+        "subanta": 14446,
+        "krdanta": 4600,
+        "tinanta": 2237,
+        "indeclinable": 5753
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1598,
+        "krdanta_tuples": 2222,
+        "subanta_tuples": 13566
+      }
+    },
+    "Devīkālottarāgama": {
+      "kind_counts": {
+        "compound_range": 295,
+        "subanta": 603,
+        "indeclinable": 257,
+        "compound_member": 207,
+        "tinanta": 101,
+        "krdanta": 95
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 101,
+        "krdanta_tuples": 69,
+        "subanta_tuples": 579
+      }
+    },
+    "Devīmāhātmya": {
+      "kind_counts": {
+        "subanta": 98,
+        "tinanta": 17,
+        "compound_range": 41,
+        "compound_member": 28,
+        "krdanta": 20,
+        "indeclinable": 29
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 14,
+        "krdanta_tuples": 17,
+        "subanta_tuples": 93
+      }
+    },
+    "Dhanurveda": {
+      "kind_counts": {
+        "compound_range": 694,
+        "compound_member": 500,
+        "subanta": 1507,
+        "tinanta": 247,
+        "indeclinable": 611,
+        "krdanta": 275
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 245,
+        "krdanta_tuples": 227,
+        "subanta_tuples": 1502
+      }
+    },
+    "Dhanvantarinighaṇṭu": {
+      "kind_counts": {
+        "compound_range": 1270,
+        "subanta": 4206,
+        "indeclinable": 678,
+        "krdanta": 166,
+        "compound_member": 1662,
+        "tinanta": 227
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 227,
+        "krdanta_tuples": 160,
+        "subanta_tuples": 4206
+      }
+    },
+    "Divyāvadāna": {
+      "kind_counts": {
+        "subanta": 33464,
+        "compound_range": 14119,
+        "tinanta": 5608,
+        "indeclinable": 10750,
+        "compound_member": 8780,
+        "krdanta": 8847
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 5498,
+        "krdanta_tuples": 5752,
+        "subanta_tuples": 31822
+      }
+    },
+    "Drāhyāyaṇaśrautasūtra": {
+      "kind_counts": {
+        "indeclinable": 2273,
+        "compound_range": 1703,
+        "compound_member": 730,
+        "subanta": 5451,
+        "tinanta": 1306,
+        "krdanta": 964
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1298,
+        "krdanta_tuples": 568,
+        "subanta_tuples": 5234
+      }
+    },
+    "Garbhopaniṣat": {
+      "kind_counts": {
+        "indeclinable": 61,
+        "compound_range": 94,
+        "compound_member": 120,
+        "subanta": 314,
+        "krdanta": 29,
+        "tinanta": 35
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 35,
+        "krdanta_tuples": 19,
+        "subanta_tuples": 305
+      }
+    },
+    "Garuḍapurāṇa": {
+      "kind_counts": {
+        "compound_range": 17479,
+        "compound_member": 14122,
+        "subanta": 38033,
+        "indeclinable": 13661,
+        "tinanta": 5104,
+        "krdanta": 4819
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 4917,
+        "krdanta_tuples": 3313,
+        "subanta_tuples": 37552
+      }
+    },
+    "Gautamadharmasūtra": {
+      "kind_counts": {
+        "subanta": 2582,
+        "compound_member": 1424,
+        "indeclinable": 945,
+        "krdanta": 415,
+        "tinanta": 330,
+        "compound_range": 834
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 330,
+        "krdanta_tuples": 241,
+        "subanta_tuples": 2570
+      }
+    },
+    "Gaṇakārikā": {
+      "kind_counts": {
+        "subanta": 59,
+        "indeclinable": 22,
+        "krdanta": 4,
+        "compound_range": 22,
+        "compound_member": 9,
+        "tinanta": 1
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1,
+        "krdanta_tuples": 2,
+        "subanta_tuples": 31
+      }
+    },
+    "Gheraṇḍasaṃhitā": {
+      "kind_counts": {
+        "compound_range": 948,
+        "compound_member": 981,
+        "subanta": 2613,
+        "tinanta": 546,
+        "krdanta": 362,
+        "indeclinable": 879
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 546,
+        "krdanta_tuples": 179,
+        "subanta_tuples": 2590
+      }
+    },
+    "Gobhilagṛhyasūtra": {
+      "kind_counts": {
+        "indeclinable": 1699,
+        "compound_member": 669,
+        "subanta": 3543,
+        "tinanta": 860,
+        "krdanta": 628,
+        "compound_range": 812
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 856,
+        "krdanta_tuples": 274,
+        "subanta_tuples": 3461
+      }
+    },
+    "Gokarṇapurāṇasāraḥ": {
+      "kind_counts": {
+        "compound_range": 2277,
+        "compound_member": 1915,
+        "subanta": 7400,
+        "krdanta": 1434,
+        "tinanta": 1535,
+        "indeclinable": 2413
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1372,
+        "krdanta_tuples": 697,
+        "subanta_tuples": 7091
+      }
+    },
+    "Gopathabrāhmaṇa": {
+      "kind_counts": {
+        "indeclinable": 7059,
+        "subanta": 16463,
+        "tinanta": 4285,
+        "compound_member": 1119,
+        "krdanta": 1533,
+        "compound_range": 3138
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 3776,
+        "krdanta_tuples": 1182,
+        "subanta_tuples": 16088
+      }
+    },
+    "Gorakṣaśataka": {
+      "kind_counts": {
+        "indeclinable": 242,
+        "compound_range": 218,
+        "compound_member": 232,
+        "subanta": 746,
+        "tinanta": 129,
+        "krdanta": 120
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 128,
+        "krdanta_tuples": 83,
+        "subanta_tuples": 745
+      }
+    },
+    "Gītagovinda": {
+      "kind_counts": {
+        "subanta": 2497,
+        "compound_range": 1087,
+        "compound_member": 1711,
+        "indeclinable": 647,
+        "tinanta": 581,
+        "krdanta": 584
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 578,
+        "krdanta_tuples": 297,
+        "subanta_tuples": 2319
+      }
+    },
+    "Gūḍhārthadīpikā": {
+      "kind_counts": {
+        "compound_range": 1087,
+        "subanta": 2529,
+        "tinanta": 279,
+        "indeclinable": 605,
+        "krdanta": 402,
+        "compound_member": 1007
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 278,
+        "krdanta_tuples": 276,
+        "subanta_tuples": 2526
+      }
+    },
+    "Gṛhastharatnākara": {
+      "kind_counts": {
+        "indeclinable": 292,
+        "compound_range": 322,
+        "compound_member": 272,
+        "subanta": 753,
+        "krdanta": 155,
+        "tinanta": 70
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 69,
+        "krdanta_tuples": 85,
+        "subanta_tuples": 752
+      }
+    },
+    "Haribhaktivilāsa": {
+      "kind_counts": {
+        "subanta": 13259,
+        "tinanta": 1871,
+        "compound_range": 5494,
+        "indeclinable": 5258,
+        "krdanta": 2249,
+        "compound_member": 6247
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1857,
+        "krdanta_tuples": 1385,
+        "subanta_tuples": 13110
+      }
+    },
+    "Harivaṃśa": {
+      "kind_counts": {
+        "subanta": 45015,
+        "tinanta": 6522,
+        "compound_range": 13651,
+        "indeclinable": 14402,
+        "compound_member": 11183,
+        "krdanta": 8853
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 5373,
+        "krdanta_tuples": 6356,
+        "subanta_tuples": 43002
+      }
+    },
+    "Harṣacarita": {
+      "kind_counts": {
+        "compound_range": 7050,
+        "subanta": 11866,
+        "compound_member": 10413,
+        "krdanta": 4464,
+        "tinanta": 1389,
+        "indeclinable": 5371
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1056,
+        "krdanta_tuples": 2390,
+        "subanta_tuples": 11666
+      }
+    },
+    "Haṃsadūta": {
+      "kind_counts": {
+        "subanta": 1691,
+        "krdanta": 385,
+        "compound_range": 879,
+        "compound_member": 1035,
+        "tinanta": 287,
+        "indeclinable": 508
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 280,
+        "krdanta_tuples": 199,
+        "subanta_tuples": 1560
+      }
+    },
+    "Haṃsasaṃdeśa": {
+      "kind_counts": {
+        "subanta": 768,
+        "krdanta": 219,
+        "compound_range": 378,
+        "compound_member": 414,
+        "indeclinable": 152,
+        "tinanta": 78
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 78,
+        "krdanta_tuples": 139,
+        "subanta_tuples": 735
+      }
+    },
+    "Haṭhayogapradīpikā": {
+      "kind_counts": {
+        "compound_member": 1079,
+        "subanta": 2671,
+        "tinanta": 506,
+        "krdanta": 450,
+        "compound_range": 984,
+        "indeclinable": 953
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 506,
+        "krdanta_tuples": 286,
+        "subanta_tuples": 2654
+      }
+    },
+    "Hiraṇyakeśigṛhyasūtra": {
+      "kind_counts": {
+        "subanta": 5872,
+        "tinanta": 1377,
+        "compound_member": 565,
+        "indeclinable": 1814,
+        "krdanta": 755,
+        "compound_range": 1428
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1363,
+        "krdanta_tuples": 352,
+        "subanta_tuples": 5280
+      }
+    },
+    "Hiraṇyakeśiśrautasūtra": {
+      "kind_counts": {
+        "compound_range": 129,
+        "compound_member": 67,
+        "subanta": 433,
+        "indeclinable": 138,
+        "tinanta": 132,
+        "krdanta": 61
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 132,
+        "krdanta_tuples": 35,
+        "subanta_tuples": 410
+      }
+    },
+    "Hitopadeśa": {
+      "kind_counts": {
+        "subanta": 11569,
+        "krdanta": 2861,
+        "tinanta": 2353,
+        "compound_range": 3940,
+        "compound_member": 2960,
+        "indeclinable": 5297
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 2254,
+        "krdanta_tuples": 1873,
+        "subanta_tuples": 11080
+      }
+    },
+    "Indu (ad AHS)": {
+      "kind_counts": {
+        "subanta": 9,
+        "compound_range": 4,
+        "compound_member": 6,
+        "krdanta": 3
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 0,
+        "krdanta_tuples": 2,
+        "subanta_tuples": 9
+      }
+    },
+    "Jaiminigṛhyasūtra": {
+      "kind_counts": {
+        "indeclinable": 1308,
+        "subanta": 3870,
+        "krdanta": 497,
+        "compound_member": 488,
+        "tinanta": 946,
+        "compound_range": 864
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 935,
+        "krdanta_tuples": 231,
+        "subanta_tuples": 3596
+      }
+    },
+    "Jaiminīya-Upaniṣad-Brāhmaṇa": {
+      "kind_counts": {
+        "subanta": 12320,
+        "indeclinable": 5657,
+        "tinanta": 3115,
+        "krdanta": 917,
+        "compound_member": 358,
+        "compound_range": 1980
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 2697,
+        "krdanta_tuples": 714,
+        "subanta_tuples": 11700
+      }
+    },
+    "Jaiminīyabrāhmaṇa": {
+      "kind_counts": {
+        "subanta": 28066,
+        "tinanta": 8370,
+        "indeclinable": 13300,
+        "krdanta": 2486,
+        "compound_member": 1513,
+        "compound_range": 5644
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 7007,
+        "krdanta_tuples": 1887,
+        "subanta_tuples": 27375
+      }
+    },
+    "Jaiminīyaśrautasūtra": {
+      "kind_counts": {
+        "subanta": 2187,
+        "krdanta": 344,
+        "tinanta": 624,
+        "indeclinable": 757,
+        "compound_range": 525,
+        "compound_member": 176
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 613,
+        "krdanta_tuples": 217,
+        "subanta_tuples": 2037
+      }
+    },
+    "Janmamaraṇavicāra": {
+      "kind_counts": {
+        "compound_range": 613,
+        "compound_member": 823,
+        "krdanta": 275,
+        "indeclinable": 605,
+        "subanta": 1404,
+        "tinanta": 152
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 152,
+        "krdanta_tuples": 191,
+        "subanta_tuples": 1400
+      }
+    },
+    "Kaiyadevanighaṇṭu": {
+      "kind_counts": {
+        "subanta": 1239,
+        "compound_range": 266,
+        "compound_member": 423,
+        "indeclinable": 100,
+        "tinanta": 31,
+        "krdanta": 33
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 31,
+        "krdanta_tuples": 29,
+        "subanta_tuples": 1239
+      }
+    },
+    "Kathāsaritsāgara": {
+      "kind_counts": {
+        "subanta": 52459,
+        "tinanta": 9325,
+        "compound_range": 23370,
+        "compound_member": 14340,
+        "indeclinable": 22035,
+        "krdanta": 13139
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 7423,
+        "krdanta_tuples": 7285,
+        "subanta_tuples": 49061
+      }
+    },
+    "Kauśikasūtra": {
+      "kind_counts": {
+        "indeclinable": 4177,
+        "subanta": 11549,
+        "tinanta": 3123,
+        "compound_range": 3067,
+        "compound_member": 1898,
+        "krdanta": 2086
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 3087,
+        "krdanta_tuples": 1187,
+        "subanta_tuples": 10765
+      }
+    },
+    "Kauśikasūtradārilabhāṣya": {
+      "kind_counts": {
+        "tinanta": 43,
+        "indeclinable": 80,
+        "subanta": 257,
+        "compound_range": 116,
+        "compound_member": 97,
+        "krdanta": 45
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 43,
+        "krdanta_tuples": 28,
+        "subanta_tuples": 254
+      }
+    },
+    "Kauśikasūtrakeśavapaddhati": {
+      "kind_counts": {
+        "compound_range": 62,
+        "compound_member": 39,
+        "subanta": 159,
+        "krdanta": 25,
+        "indeclinable": 51,
+        "tinanta": 39
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 39,
+        "krdanta_tuples": 9,
+        "subanta_tuples": 154
+      }
+    },
+    "Kauṣītakagṛhyasūtra": {
+      "kind_counts": {
+        "subanta": 332,
+        "krdanta": 47,
+        "compound_range": 109,
+        "compound_member": 53,
+        "indeclinable": 138,
+        "tinanta": 71
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 69,
+        "krdanta_tuples": 28,
+        "subanta_tuples": 318
+      }
+    },
+    "Kauṣītakibrāhmaṇa": {
+      "kind_counts": {
+        "subanta": 7956,
+        "indeclinable": 4017,
+        "compound_member": 513,
+        "tinanta": 2104,
+        "krdanta": 741,
+        "compound_range": 1501
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 2007,
+        "krdanta_tuples": 609,
+        "subanta_tuples": 7813
+      }
+    },
+    "Kauṣītakyupaniṣad": {
+      "kind_counts": {
+        "subanta": 495,
+        "indeclinable": 157,
+        "krdanta": 34,
+        "tinanta": 128,
+        "compound_member": 50,
+        "compound_range": 100
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 128,
+        "krdanta_tuples": 27,
+        "subanta_tuples": 470
+      }
+    },
+    "Kaṭhopaniṣad": {
+      "kind_counts": {
+        "subanta": 1156,
+        "indeclinable": 401,
+        "tinanta": 267,
+        "krdanta": 188,
+        "compound_range": 273,
+        "compound_member": 117
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 257,
+        "krdanta_tuples": 137,
+        "subanta_tuples": 1114
+      }
+    },
+    "Kaṭhāraṇyaka": {
+      "kind_counts": {
+        "tinanta": 1053,
+        "subanta": 3357,
+        "indeclinable": 1264,
+        "krdanta": 147,
+        "compound_member": 140,
+        "compound_range": 561
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 987,
+        "krdanta_tuples": 111,
+        "subanta_tuples": 3173
+      }
+    },
+    "Khādiragṛhyasūtra": {
+      "kind_counts": {
+        "indeclinable": 718,
+        "subanta": 1629,
+        "compound_member": 321,
+        "tinanta": 381,
+        "krdanta": 309,
+        "compound_range": 188
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 381,
+        "krdanta_tuples": 134,
+        "subanta_tuples": 1588
+      }
+    },
+    "Kirātārjunīya": {
+      "kind_counts": {
+        "subanta": 8510,
+        "tinanta": 1140,
+        "krdanta": 2455,
+        "compound_range": 3648,
+        "indeclinable": 2531,
+        "compound_member": 3803
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1126,
+        "krdanta_tuples": 1324,
+        "subanta_tuples": 8324
+      }
+    },
+    "Kokilasaṃdeśa": {
+      "kind_counts": {
+        "subanta": 2052,
+        "indeclinable": 560,
+        "krdanta": 575,
+        "tinanta": 287,
+        "compound_range": 1155,
+        "compound_member": 1166
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 285,
+        "krdanta_tuples": 335,
+        "subanta_tuples": 1935
+      }
+    },
+    "Kumārasaṃbhava": {
+      "kind_counts": {
+        "tinanta": 705,
+        "subanta": 4852,
+        "compound_range": 2025,
+        "compound_member": 2185,
+        "indeclinable": 1341,
+        "krdanta": 1178
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 631,
+        "krdanta_tuples": 599,
+        "subanta_tuples": 4656
+      }
+    },
+    "Kādambarīsvīkaraṇasūtramañjarī": {
+      "kind_counts": {
+        "compound_range": 73,
+        "compound_member": 91,
+        "subanta": 128,
+        "indeclinable": 28,
+        "krdanta": 15,
+        "tinanta": 4
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 4,
+        "krdanta_tuples": 7,
+        "subanta_tuples": 128
+      }
+    },
+    "Kālikāpurāṇa": {
+      "kind_counts": {
+        "subanta": 1979,
+        "tinanta": 360,
+        "indeclinable": 858,
+        "krdanta": 235,
+        "compound_range": 890,
+        "compound_member": 661
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 360,
+        "krdanta_tuples": 130,
+        "subanta_tuples": 1914
+      }
+    },
+    "Kāmasūtra": {
+      "kind_counts": {
+        "compound_range": 4105,
+        "indeclinable": 3979,
+        "compound_member": 3536,
+        "subanta": 8427,
+        "krdanta": 1664,
+        "tinanta": 1303
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1302,
+        "krdanta_tuples": 1104,
+        "subanta_tuples": 8363
+      }
+    },
+    "Kātyāyanasmṛti": {
+      "kind_counts": {
+        "krdanta": 1771,
+        "compound_range": 2293,
+        "compound_member": 2002,
+        "subanta": 6215,
+        "tinanta": 1165,
+        "indeclinable": 3164
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1158,
+        "krdanta_tuples": 1483,
+        "subanta_tuples": 6190
+      }
+    },
+    "Kātyāyanaśrautasūtra": {
+      "kind_counts": {
+        "compound_range": 2013,
+        "indeclinable": 2413,
+        "subanta": 6002,
+        "compound_member": 1900,
+        "krdanta": 1050,
+        "tinanta": 1163
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1160,
+        "krdanta_tuples": 477,
+        "subanta_tuples": 5846
+      }
+    },
+    "Kāvyādarśa": {
+      "kind_counts": {
+        "compound_range": 858,
+        "compound_member": 841,
+        "subanta": 2203,
+        "tinanta": 301,
+        "krdanta": 311,
+        "indeclinable": 806
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 292,
+        "krdanta_tuples": 201,
+        "subanta_tuples": 2101
+      }
+    },
+    "Kāvyālaṃkāra": {
+      "kind_counts": {
+        "krdanta": 439,
+        "subanta": 2661,
+        "compound_range": 1398,
+        "compound_member": 1040,
+        "indeclinable": 1073,
+        "tinanta": 380
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 374,
+        "krdanta_tuples": 302,
+        "subanta_tuples": 2602
+      }
+    },
+    "Kāvyālaṃkāravṛtti": {
+      "kind_counts": {
+        "subanta": 42,
+        "krdanta": 5,
+        "compound_range": 18,
+        "compound_member": 17,
+        "indeclinable": 7
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 0,
+        "krdanta_tuples": 2,
+        "subanta_tuples": 42
+      }
+    },
+    "Kāśikāvṛtti": {
+      "kind_counts": {
+        "compound_range": 499,
+        "compound_member": 515,
+        "subanta": 1310,
+        "tinanta": 241,
+        "indeclinable": 705,
+        "krdanta": 104
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 235,
+        "krdanta_tuples": 86,
+        "subanta_tuples": 1298
+      }
+    },
+    "Kāṭhakagṛhyasūtra": {
+      "kind_counts": {
+        "compound_member": 508,
+        "indeclinable": 1344,
+        "subanta": 4078,
+        "tinanta": 877,
+        "krdanta": 517,
+        "compound_range": 826
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 858,
+        "krdanta_tuples": 250,
+        "subanta_tuples": 3791
+      }
+    },
+    "Kāṭhakasaṃhitā": {
+      "kind_counts": {
+        "compound_range": 3861,
+        "subanta": 21860,
+        "krdanta": 1654,
+        "tinanta": 6410,
+        "indeclinable": 7815,
+        "compound_member": 1155
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 5365,
+        "krdanta_tuples": 1245,
+        "subanta_tuples": 21472
+      }
+    },
+    "Kūrmapurāṇa": {
+      "kind_counts": {
+        "compound_range": 18042,
+        "krdanta": 6720,
+        "indeclinable": 13511,
+        "subanta": 43793,
+        "compound_member": 11428,
+        "tinanta": 6476
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 5964,
+        "krdanta_tuples": 4200,
+        "subanta_tuples": 42635
+      }
+    },
+    "Kṛṣiparāśara": {
+      "kind_counts": {
+        "subanta": 1808,
+        "krdanta": 241,
+        "compound_range": 917,
+        "compound_member": 807,
+        "tinanta": 281,
+        "indeclinable": 726
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 280,
+        "krdanta_tuples": 159,
+        "subanta_tuples": 1788
+      }
+    },
+    "Kṛṣṇāmṛtamahārṇava": {
+      "kind_counts": {
+        "krdanta": 288,
+        "subanta": 1638,
+        "tinanta": 267,
+        "compound_range": 506,
+        "compound_member": 499,
+        "indeclinable": 612
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 267,
+        "krdanta_tuples": 215,
+        "subanta_tuples": 1620
+      }
+    },
+    "Lalitavistara": {
+      "kind_counts": {
+        "indeclinable": 4470,
+        "subanta": 10302,
+        "krdanta": 2245,
+        "compound_range": 5682,
+        "tinanta": 1879,
+        "compound_member": 6413
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1787,
+        "krdanta_tuples": 1345,
+        "subanta_tuples": 10111
+      }
+    },
+    "Laṅkāvatārasūtra": {
+      "kind_counts": {
+        "indeclinable": 2208,
+        "subanta": 5281,
+        "krdanta": 943,
+        "compound_range": 3175,
+        "compound_member": 4315,
+        "tinanta": 852
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 837,
+        "krdanta_tuples": 596,
+        "subanta_tuples": 5126
+      }
+    },
+    "Liṅgapurāṇa": {
+      "kind_counts": {
+        "subanta": 65301,
+        "compound_range": 29346,
+        "compound_member": 19709,
+        "krdanta": 10129,
+        "indeclinable": 24706,
+        "tinanta": 7754
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 7131,
+        "krdanta_tuples": 6288,
+        "subanta_tuples": 63490
+      }
+    },
+    "Madanapālanighaṇṭu": {
+      "kind_counts": {
+        "subanta": 4009,
+        "compound_range": 1024,
+        "krdanta": 114,
+        "compound_member": 1653,
+        "tinanta": 161,
+        "indeclinable": 249
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 161,
+        "krdanta_tuples": 100,
+        "subanta_tuples": 4003
+      }
+    },
+    "Mahābhārata": {
+      "kind_counts": {
+        "tinanta": 104342,
+        "compound_range": 203717,
+        "compound_member": 125221,
+        "subanta": 592070,
+        "krdanta": 112709,
+        "indeclinable": 213545
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 86455,
+        "krdanta_tuples": 76031,
+        "subanta_tuples": 561130
+      }
+    },
+    "Mahācīnatantra": {
+      "kind_counts": {
+        "subanta": 292,
+        "tinanta": 43,
+        "compound_range": 85,
+        "compound_member": 86,
+        "indeclinable": 78,
+        "krdanta": 47
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 40,
+        "krdanta_tuples": 22,
+        "subanta_tuples": 266
+      }
+    },
+    "Maitrāyaṇīsaṃhitā": {
+      "kind_counts": {
+        "subanta": 39428,
+        "tinanta": 10061,
+        "indeclinable": 10858,
+        "compound_member": 2030,
+        "krdanta": 2998,
+        "compound_range": 5722
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 8857,
+        "krdanta_tuples": 2428,
+        "subanta_tuples": 36719
+      }
+    },
+    "Manusmṛti": {
+      "kind_counts": {
+        "subanta": 19009,
+        "krdanta": 3122,
+        "compound_member": 4001,
+        "indeclinable": 8110,
+        "tinanta": 3418,
+        "compound_range": 5217
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 3382,
+        "krdanta_tuples": 2293,
+        "subanta_tuples": 18874
+      }
+    },
+    "Matsyapurāṇa": {
+      "kind_counts": {
+        "compound_range": 29573,
+        "compound_member": 18187,
+        "subanta": 62851,
+        "krdanta": 10473,
+        "tinanta": 9529,
+        "indeclinable": 21802
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 8508,
+        "krdanta_tuples": 7124,
+        "subanta_tuples": 60725
+      }
+    },
+    "Maṇimāhātmya": {
+      "kind_counts": {
+        "compound_range": 196,
+        "compound_member": 259,
+        "krdanta": 72,
+        "subanta": 415,
+        "tinanta": 55,
+        "indeclinable": 112
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 55,
+        "krdanta_tuples": 58,
+        "subanta_tuples": 403
+      }
+    },
+    "Meghadūta": {
+      "kind_counts": {
+        "subanta": 1558,
+        "compound_range": 751,
+        "compound_member": 849,
+        "krdanta": 431,
+        "tinanta": 184,
+        "indeclinable": 371
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 182,
+        "krdanta_tuples": 233,
+        "subanta_tuples": 1456
+      }
+    },
+    "Mugdhāvabodhinī": {
+      "kind_counts": {
+        "compound_range": 7132,
+        "compound_member": 6424,
+        "subanta": 14082,
+        "krdanta": 3166,
+        "tinanta": 1891,
+        "indeclinable": 4603
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1889,
+        "krdanta_tuples": 2325,
+        "subanta_tuples": 14054
+      }
+    },
+    "Mukundamālā": {
+      "kind_counts": {
+        "tinanta": 72,
+        "compound_range": 203,
+        "subanta": 427,
+        "compound_member": 265,
+        "krdanta": 52,
+        "indeclinable": 93
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 72,
+        "krdanta_tuples": 28,
+        "subanta_tuples": 405
+      }
+    },
+    "Muṇḍakopaniṣad": {
+      "kind_counts": {
+        "subanta": 738,
+        "tinanta": 119,
+        "compound_member": 91,
+        "indeclinable": 222,
+        "krdanta": 115,
+        "compound_range": 4
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 119,
+        "krdanta_tuples": 92,
+        "subanta_tuples": 734
+      }
+    },
+    "Mānavagṛhyasūtra": {
+      "kind_counts": {
+        "compound_range": 1082,
+        "compound_member": 545,
+        "indeclinable": 1424,
+        "subanta": 4357,
+        "tinanta": 1062,
+        "krdanta": 569
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1040,
+        "krdanta_tuples": 268,
+        "subanta_tuples": 4042
+      }
+    },
+    "Mānavaśrautasūtra": {
+      "kind_counts": {
+        "subanta": 636,
+        "tinanta": 199,
+        "krdanta": 103,
+        "compound_range": 182,
+        "compound_member": 68,
+        "indeclinable": 215
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 198,
+        "krdanta_tuples": 53,
+        "subanta_tuples": 597
+      }
+    },
+    "Mātṛkābhedatantra": {
+      "kind_counts": {
+        "compound_range": 1464,
+        "compound_member": 1435,
+        "subanta": 3810,
+        "indeclinable": 1372,
+        "krdanta": 419,
+        "tinanta": 806
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 806,
+        "krdanta_tuples": 271,
+        "subanta_tuples": 3728
+      }
+    },
+    "Mīmāṃsāsūtrabhāṣya": {
+      "kind_counts": {
+        "subanta": 6479,
+        "krdanta": 1239,
+        "compound_range": 2904,
+        "compound_member": 1879,
+        "indeclinable": 4878,
+        "tinanta": 1569
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1532,
+        "krdanta_tuples": 928,
+        "subanta_tuples": 6425
+      }
+    },
+    "Mūlamadhyamakārikāḥ": {
+      "kind_counts": {
+        "compound_range": 1091,
+        "indeclinable": 2098,
+        "subanta": 2707,
+        "compound_member": 455,
+        "tinanta": 795,
+        "krdanta": 492
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 792,
+        "krdanta_tuples": 386,
+        "subanta_tuples": 2678
+      }
+    },
+    "Mṛgendratantra": {
+      "kind_counts": {
+        "subanta": 1624,
+        "krdanta": 245,
+        "indeclinable": 530,
+        "compound_range": 792,
+        "compound_member": 718,
+        "tinanta": 211
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 203,
+        "krdanta_tuples": 159,
+        "subanta_tuples": 1586
+      }
+    },
+    "Mṛgendraṭīkā": {
+      "kind_counts": {
+        "indeclinable": 4719,
+        "subanta": 9372,
+        "compound_range": 5198,
+        "compound_member": 5508,
+        "krdanta": 1698,
+        "tinanta": 1119
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1108,
+        "krdanta_tuples": 1115,
+        "subanta_tuples": 9207
+      }
+    },
+    "Narasiṃhapurāṇa": {
+      "kind_counts": {
+        "subanta": 251,
+        "krdanta": 41,
+        "compound_range": 82,
+        "indeclinable": 104,
+        "tinanta": 36,
+        "compound_member": 71
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 35,
+        "krdanta_tuples": 23,
+        "subanta_tuples": 238
+      }
+    },
+    "Narmamālā": {
+      "kind_counts": {
+        "compound_range": 1409,
+        "subanta": 2472,
+        "compound_member": 1508,
+        "krdanta": 641,
+        "tinanta": 314,
+        "indeclinable": 648
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 277,
+        "krdanta_tuples": 374,
+        "subanta_tuples": 2428
+      }
+    },
+    "Nibandhasaṃgraha": {
+      "kind_counts": {
+        "subanta": 3248,
+        "indeclinable": 1396,
+        "tinanta": 467,
+        "compound_range": 890,
+        "compound_member": 1731,
+        "krdanta": 514
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 466,
+        "krdanta_tuples": 368,
+        "subanta_tuples": 3236
+      }
+    },
+    "Nighaṇṭuśeṣa": {
+      "kind_counts": {
+        "compound_range": 228,
+        "tinanta": 32,
+        "subanta": 1702,
+        "krdanta": 2,
+        "compound_member": 69,
+        "indeclinable": 198
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 32,
+        "krdanta_tuples": 1,
+        "subanta_tuples": 1701
+      }
+    },
+    "Nirukta": {
+      "kind_counts": {
+        "subanta": 1731,
+        "krdanta": 207,
+        "compound_range": 669,
+        "indeclinable": 1010,
+        "tinanta": 451,
+        "compound_member": 314
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 443,
+        "krdanta_tuples": 160,
+        "subanta_tuples": 1696
+      }
+    },
+    "Nyāyabhāṣya": {
+      "kind_counts": {
+        "subanta": 435,
+        "indeclinable": 178,
+        "compound_range": 209,
+        "compound_member": 220,
+        "krdanta": 62,
+        "tinanta": 63
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 63,
+        "krdanta_tuples": 50,
+        "subanta_tuples": 434
+      }
+    },
+    "Nyāyabindu": {
+      "kind_counts": {
+        "indeclinable": 40,
+        "compound_member": 73,
+        "subanta": 108,
+        "tinanta": 2,
+        "krdanta": 14,
+        "compound_range": 42
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 2,
+        "krdanta_tuples": 11,
+        "subanta_tuples": 108
+      }
+    },
+    "Nyāyasūtra": {
+      "kind_counts": {
+        "compound_range": 919,
+        "compound_member": 1377,
+        "krdanta": 139,
+        "subanta": 1375,
+        "indeclinable": 499,
+        "tinanta": 6
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 6,
+        "krdanta_tuples": 61,
+        "subanta_tuples": 1375
+      }
+    },
+    "Nādabindūpaniṣat": {
+      "kind_counts": {
+        "indeclinable": 57,
+        "subanta": 149,
+        "compound_range": 42,
+        "krdanta": 20,
+        "compound_member": 30,
+        "tinanta": 18
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 18,
+        "krdanta_tuples": 19,
+        "subanta_tuples": 148
+      }
+    },
+    "Nāradasmṛti": {
+      "kind_counts": {
+        "compound_range": 2009,
+        "compound_member": 1791,
+        "subanta": 6394,
+        "indeclinable": 2654,
+        "tinanta": 1044,
+        "krdanta": 1453
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1037,
+        "krdanta_tuples": 1144,
+        "subanta_tuples": 6354
+      }
+    },
+    "Nāḍīparīkṣā": {
+      "kind_counts": {
+        "compound_range": 364,
+        "compound_member": 299,
+        "subanta": 785,
+        "indeclinable": 227,
+        "tinanta": 129,
+        "krdanta": 114
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 129,
+        "krdanta_tuples": 77,
+        "subanta_tuples": 784
+      }
+    },
+    "Nāṭyaśāstra": {
+      "kind_counts": {
+        "krdanta": 903,
+        "subanta": 3591,
+        "compound_range": 1851,
+        "compound_member": 1219,
+        "tinanta": 430,
+        "indeclinable": 1706
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 415,
+        "krdanta_tuples": 700,
+        "subanta_tuples": 3515
+      }
+    },
+    "Nāṭyaśāstravivṛti": {
+      "kind_counts": {
+        "indeclinable": 639,
+        "compound_range": 672,
+        "compound_member": 674,
+        "subanta": 1016,
+        "krdanta": 156,
+        "tinanta": 118
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 118,
+        "krdanta_tuples": 120,
+        "subanta_tuples": 1008
+      }
+    },
+    "Padārthacandrikā": {
+      "kind_counts": {
+        "subanta": 16,
+        "compound_range": 9,
+        "indeclinable": 2,
+        "krdanta": 3,
+        "compound_member": 7
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 0,
+        "krdanta_tuples": 1,
+        "subanta_tuples": 16
+      }
+    },
+    "Paramānandīyanāmamālā": {
+      "kind_counts": {
+        "tinanta": 3,
+        "subanta": 129,
+        "compound_range": 46,
+        "compound_member": 51,
+        "indeclinable": 18,
+        "krdanta": 10
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 2,
+        "krdanta_tuples": 10,
+        "subanta_tuples": 129
+      }
+    },
+    "Paraśurāmakalpasūtra": {
+      "kind_counts": {
+        "compound_range": 391,
+        "indeclinable": 158,
+        "subanta": 666,
+        "tinanta": 38,
+        "compound_member": 632,
+        "krdanta": 228
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 38,
+        "krdanta_tuples": 37,
+        "subanta_tuples": 660
+      }
+    },
+    "Parāśaradharmasaṃhitā": {
+      "kind_counts": {
+        "compound_range": 1394,
+        "indeclinable": 1647,
+        "compound_member": 1210,
+        "subanta": 3787,
+        "krdanta": 727,
+        "tinanta": 812
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 796,
+        "krdanta_tuples": 492,
+        "subanta_tuples": 3735
+      }
+    },
+    "Parāśarasmṛtiṭīkā": {
+      "kind_counts": {
+        "indeclinable": 1751,
+        "compound_range": 1714,
+        "compound_member": 1351,
+        "subanta": 3426,
+        "krdanta": 583,
+        "tinanta": 485
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 483,
+        "krdanta_tuples": 422,
+        "subanta_tuples": 3409
+      }
+    },
+    "Pañcaviṃśabrāhmaṇa": {
+      "kind_counts": {
+        "indeclinable": 5273,
+        "subanta": 16930,
+        "tinanta": 4862,
+        "compound_range": 2650,
+        "krdanta": 1281,
+        "compound_member": 983
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 3960,
+        "krdanta_tuples": 1029,
+        "subanta_tuples": 16510
+      }
+    },
+    "Pañcārthabhāṣya": {
+      "kind_counts": {
+        "compound_range": 5154,
+        "compound_member": 4815,
+        "subanta": 9795,
+        "krdanta": 1917,
+        "tinanta": 1822,
+        "indeclinable": 5063
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1817,
+        "krdanta_tuples": 1465,
+        "subanta_tuples": 9683
+      }
+    },
+    "Prasannapadā": {
+      "kind_counts": {
+        "indeclinable": 71,
+        "subanta": 143,
+        "compound_range": 79,
+        "compound_member": 48,
+        "krdanta": 17,
+        "tinanta": 24
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 24,
+        "krdanta_tuples": 15,
+        "subanta_tuples": 143
+      }
+    },
+    "Pāraskaragṛhyasūtra": {
+      "kind_counts": {
+        "indeclinable": 1514,
+        "compound_member": 607,
+        "subanta": 4436,
+        "krdanta": 517,
+        "tinanta": 1057,
+        "compound_range": 1018
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1045,
+        "krdanta_tuples": 255,
+        "subanta_tuples": 4045
+      }
+    },
+    "Pāśupatasūtra": {
+      "kind_counts": {
+        "compound_range": 109,
+        "indeclinable": 85,
+        "subanta": 245,
+        "compound_member": 58,
+        "tinanta": 69,
+        "krdanta": 42
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 66,
+        "krdanta_tuples": 27,
+        "subanta_tuples": 241
+      }
+    },
+    "Rasahṛdayatantra": {
+      "kind_counts": {
+        "tinanta": 512,
+        "subanta": 3236,
+        "compound_range": 1904,
+        "compound_member": 2093,
+        "krdanta": 1015,
+        "indeclinable": 1264
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 512,
+        "krdanta_tuples": 652,
+        "subanta_tuples": 3233
+      }
+    },
+    "Rasakāmadhenu": {
+      "kind_counts": {
+        "compound_range": 1923,
+        "compound_member": 1930,
+        "krdanta": 758,
+        "tinanta": 472,
+        "subanta": 3500,
+        "indeclinable": 1215
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 472,
+        "krdanta_tuples": 489,
+        "subanta_tuples": 3495
+      }
+    },
+    "Rasamañjarī": {
+      "kind_counts": {
+        "compound_range": 3022,
+        "compound_member": 2794,
+        "krdanta": 1047,
+        "subanta": 5964,
+        "indeclinable": 1686,
+        "tinanta": 1088
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1088,
+        "krdanta_tuples": 687,
+        "subanta_tuples": 5954
+      }
+    },
+    "Rasaprakāśasudhākara": {
+      "kind_counts": {
+        "compound_range": 3827,
+        "compound_member": 3179,
+        "krdanta": 1347,
+        "indeclinable": 3003,
+        "subanta": 6905,
+        "tinanta": 1176
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1175,
+        "krdanta_tuples": 1045,
+        "subanta_tuples": 6858
+      }
+    },
+    "Rasaratnasamuccaya": {
+      "kind_counts": {
+        "compound_range": 6903,
+        "subanta": 12681,
+        "compound_member": 7341,
+        "krdanta": 2662,
+        "tinanta": 1740,
+        "indeclinable": 3672
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1730,
+        "krdanta_tuples": 1734,
+        "subanta_tuples": 12633
+      }
+    },
+    "Rasaratnasamuccayabodhinī": {
+      "kind_counts": {
+        "subanta": 2609,
+        "compound_range": 1687,
+        "compound_member": 1734,
+        "tinanta": 304,
+        "indeclinable": 1139,
+        "krdanta": 644
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 304,
+        "krdanta_tuples": 328,
+        "subanta_tuples": 2609
+      }
+    },
+    "Rasaratnasamuccayadīpikā": {
+      "kind_counts": {
+        "subanta": 38,
+        "indeclinable": 16,
+        "compound_range": 18,
+        "compound_member": 19,
+        "tinanta": 4,
+        "krdanta": 5
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 4,
+        "krdanta_tuples": 4,
+        "subanta_tuples": 38
+      }
+    },
+    "Rasaratnasamuccayaṭīkā": {
+      "kind_counts": {
+        "indeclinable": 2177,
+        "compound_range": 3011,
+        "compound_member": 3190,
+        "subanta": 4745,
+        "tinanta": 685,
+        "krdanta": 1383
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 684,
+        "krdanta_tuples": 849,
+        "subanta_tuples": 4744
+      }
+    },
+    "Rasaratnākara": {
+      "kind_counts": {
+        "compound_range": 13137,
+        "compound_member": 10289,
+        "subanta": 23667,
+        "indeclinable": 7929,
+        "tinanta": 5483,
+        "krdanta": 5393
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 5483,
+        "krdanta_tuples": 3413,
+        "subanta_tuples": 22970
+      }
+    },
+    "Rasasaṃketakalikā": {
+      "kind_counts": {
+        "subanta": 2162,
+        "krdanta": 392,
+        "compound_range": 1151,
+        "compound_member": 1177,
+        "tinanta": 291,
+        "indeclinable": 524
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 291,
+        "krdanta_tuples": 283,
+        "subanta_tuples": 2161
+      }
+    },
+    "Rasataraṅgiṇī": {
+      "kind_counts": {
+        "compound_range": 659,
+        "compound_member": 556,
+        "subanta": 1185,
+        "indeclinable": 481,
+        "tinanta": 178,
+        "krdanta": 284
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 178,
+        "krdanta_tuples": 205,
+        "subanta_tuples": 1184
+      }
+    },
+    "Rasendracintāmaṇi": {
+      "kind_counts": {
+        "indeclinable": 1963,
+        "compound_range": 3325,
+        "compound_member": 3373,
+        "subanta": 5842,
+        "krdanta": 1205,
+        "tinanta": 927
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 921,
+        "krdanta_tuples": 776,
+        "subanta_tuples": 5825
+      }
+    },
+    "Rasendracūḍāmaṇi": {
+      "kind_counts": {
+        "compound_range": 4349,
+        "compound_member": 4551,
+        "subanta": 7962,
+        "tinanta": 972,
+        "krdanta": 1887,
+        "indeclinable": 2548
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 967,
+        "krdanta_tuples": 1256,
+        "subanta_tuples": 7952
+      }
+    },
+    "Rasendrasārasaṃgraha": {
+      "kind_counts": {
+        "compound_range": 1370,
+        "subanta": 2645,
+        "indeclinable": 831,
+        "compound_member": 1266,
+        "tinanta": 435,
+        "krdanta": 499
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 435,
+        "krdanta_tuples": 330,
+        "subanta_tuples": 2641
+      }
+    },
+    "Rasikapriyā": {
+      "kind_counts": {
+        "subanta": 151,
+        "compound_range": 79,
+        "tinanta": 20,
+        "krdanta": 34,
+        "compound_member": 113,
+        "indeclinable": 28
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 16,
+        "krdanta_tuples": 12,
+        "subanta_tuples": 150
+      }
+    },
+    "Rasikasaṃjīvanī": {
+      "kind_counts": {
+        "subanta": 65,
+        "indeclinable": 44,
+        "krdanta": 16,
+        "compound_range": 35,
+        "compound_member": 28,
+        "tinanta": 13
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 13,
+        "krdanta_tuples": 15,
+        "subanta_tuples": 63
+      }
+    },
+    "Rasādhyāya": {
+      "kind_counts": {
+        "subanta": 3084,
+        "compound_range": 1514,
+        "compound_member": 1125,
+        "tinanta": 537,
+        "krdanta": 818,
+        "indeclinable": 1077
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 537,
+        "krdanta_tuples": 504,
+        "subanta_tuples": 3064
+      }
+    },
+    "Rasādhyāyaṭīkā": {
+      "kind_counts": {
+        "compound_range": 1646,
+        "indeclinable": 1489,
+        "subanta": 3306,
+        "krdanta": 1070,
+        "compound_member": 1526,
+        "tinanta": 389
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 389,
+        "krdanta_tuples": 426,
+        "subanta_tuples": 3295
+      }
+    },
+    "Rasārṇava": {
+      "kind_counts": {
+        "subanta": 14770,
+        "indeclinable": 4814,
+        "compound_range": 7356,
+        "compound_member": 6890,
+        "krdanta": 2459,
+        "tinanta": 3003
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 2984,
+        "krdanta_tuples": 1732,
+        "subanta_tuples": 14667
+      }
+    },
+    "Rasārṇavakalpa": {
+      "kind_counts": {
+        "subanta": 2147,
+        "compound_range": 1165,
+        "compound_member": 964,
+        "krdanta": 393,
+        "indeclinable": 788,
+        "tinanta": 506
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 506,
+        "krdanta_tuples": 275,
+        "subanta_tuples": 2140
+      }
+    },
+    "Ratnadīpikā": {
+      "kind_counts": {
+        "subanta": 721,
+        "compound_range": 352,
+        "compound_member": 381,
+        "indeclinable": 199,
+        "tinanta": 93,
+        "krdanta": 74
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 93,
+        "krdanta_tuples": 64,
+        "subanta_tuples": 720
+      }
+    },
+    "Ratnaṭīkā": {
+      "kind_counts": {
+        "compound_range": 1275,
+        "compound_member": 761,
+        "krdanta": 435,
+        "subanta": 2888,
+        "indeclinable": 1116,
+        "tinanta": 245
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 245,
+        "krdanta_tuples": 165,
+        "subanta_tuples": 1123
+      }
+    },
+    "Rājamārtaṇḍa": {
+      "kind_counts": {
+        "subanta": 373,
+        "compound_range": 167,
+        "compound_member": 190,
+        "krdanta": 54,
+        "tinanta": 49,
+        "indeclinable": 99
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 49,
+        "krdanta_tuples": 28,
+        "subanta_tuples": 370
+      }
+    },
+    "Rājanighaṇṭu": {
+      "kind_counts": {
+        "compound_range": 8678,
+        "compound_member": 11300,
+        "krdanta": 1582,
+        "subanta": 29309,
+        "indeclinable": 6418,
+        "tinanta": 1360
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1357,
+        "krdanta_tuples": 1388,
+        "subanta_tuples": 29154
+      }
+    },
+    "Rāmāyaṇa": {
+      "kind_counts": {
+        "compound_range": 45358,
+        "compound_member": 33562,
+        "krdanta": 30841,
+        "subanta": 133747,
+        "tinanta": 20210,
+        "indeclinable": 43208
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 17127,
+        "krdanta_tuples": 19936,
+        "subanta_tuples": 125832
+      }
+    },
+    "Saddharmapuṇḍarīkasūtra": {
+      "kind_counts": {
+        "indeclinable": 5827,
+        "subanta": 15301,
+        "krdanta": 2606,
+        "tinanta": 2488,
+        "compound_range": 6751,
+        "compound_member": 5686
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 2389,
+        "krdanta_tuples": 1820,
+        "subanta_tuples": 14763
+      }
+    },
+    "Sarvadarśanasaṃgraha": {
+      "kind_counts": {
+        "subanta": 439,
+        "compound_range": 261,
+        "compound_member": 264,
+        "indeclinable": 195,
+        "krdanta": 97,
+        "tinanta": 57
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 56,
+        "krdanta_tuples": 70,
+        "subanta_tuples": 432
+      }
+    },
+    "Sarvāṅgasundarā": {
+      "kind_counts": {
+        "compound_range": 2075,
+        "compound_member": 2038,
+        "subanta": 4244,
+        "indeclinable": 1675,
+        "tinanta": 485,
+        "krdanta": 660
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 480,
+        "krdanta_tuples": 481,
+        "subanta_tuples": 4232
+      }
+    },
+    "Saundarānanda": {
+      "kind_counts": {
+        "subanta": 8797,
+        "indeclinable": 4055,
+        "compound_range": 4595,
+        "compound_member": 2623,
+        "tinanta": 1592,
+        "krdanta": 1941
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1536,
+        "krdanta_tuples": 1217,
+        "subanta_tuples": 8548
+      }
+    },
+    "Saṃvitsiddhi": {
+      "kind_counts": {
+        "subanta": 1300,
+        "compound_range": 704,
+        "indeclinable": 874,
+        "compound_member": 797,
+        "tinanta": 218,
+        "krdanta": 214
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 214,
+        "krdanta_tuples": 139,
+        "subanta_tuples": 1259
+      }
+    },
+    "Saṅghabhedavastu": {
+      "kind_counts": {
+        "subanta": 3952,
+        "tinanta": 685,
+        "compound_range": 1115,
+        "compound_member": 929,
+        "indeclinable": 1258,
+        "krdanta": 818
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 677,
+        "krdanta_tuples": 586,
+        "subanta_tuples": 3802
+      }
+    },
+    "Skandapurāṇa": {
+      "kind_counts": {
+        "subanta": 8379,
+        "compound_range": 3762,
+        "compound_member": 2197,
+        "indeclinable": 3096,
+        "krdanta": 1471,
+        "tinanta": 1336
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1142,
+        "krdanta_tuples": 888,
+        "subanta_tuples": 7855
+      }
+    },
+    "Skandapurāṇa (Revākhaṇḍa)": {
+      "kind_counts": {
+        "compound_range": 24917,
+        "compound_member": 17556,
+        "subanta": 57235,
+        "indeclinable": 18594,
+        "krdanta": 10807,
+        "tinanta": 9141
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 8608,
+        "krdanta_tuples": 7284,
+        "subanta_tuples": 54927
+      }
+    },
+    "Smaradīpikā": {
+      "kind_counts": {
+        "compound_range": 237,
+        "compound_member": 275,
+        "subanta": 476,
+        "indeclinable": 198,
+        "krdanta": 55,
+        "tinanta": 27
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 26,
+        "krdanta_tuples": 47,
+        "subanta_tuples": 475
+      }
+    },
+    "Spandakārikā": {
+      "kind_counts": {
+        "indeclinable": 170,
+        "compound_range": 184,
+        "krdanta": 72,
+        "subanta": 312,
+        "compound_member": 144,
+        "tinanta": 59
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 58,
+        "krdanta_tuples": 49,
+        "subanta_tuples": 305
+      }
+    },
+    "Spandakārikānirṇaya": {
+      "kind_counts": {
+        "indeclinable": 2274,
+        "compound_range": 2510,
+        "krdanta": 984,
+        "compound_member": 2881,
+        "subanta": 3963,
+        "tinanta": 548
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 543,
+        "krdanta_tuples": 643,
+        "subanta_tuples": 3885
+      }
+    },
+    "Sphuṭārthāvyākhyā": {
+      "kind_counts": {
+        "indeclinable": 104,
+        "compound_range": 93,
+        "subanta": 121,
+        "tinanta": 28,
+        "compound_member": 92,
+        "krdanta": 34
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 28,
+        "krdanta_tuples": 13,
+        "subanta_tuples": 121
+      }
+    },
+    "Suśrutasaṃhitā": {
+      "kind_counts": {
+        "compound_range": 33952,
+        "indeclinable": 25082,
+        "subanta": 64294,
+        "tinanta": 9652,
+        "compound_member": 36409,
+        "krdanta": 11284
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 9634,
+        "krdanta_tuples": 8174,
+        "subanta_tuples": 64114
+      }
+    },
+    "Sāmavidhānabrāhmaṇa": {
+      "kind_counts": {
+        "subanta": 2671,
+        "indeclinable": 997,
+        "tinanta": 623,
+        "compound_member": 443,
+        "krdanta": 451,
+        "compound_range": 580
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 622,
+        "krdanta_tuples": 265,
+        "subanta_tuples": 2580
+      }
+    },
+    "Sātvatatantra": {
+      "kind_counts": {
+        "compound_range": 2132,
+        "compound_member": 1869,
+        "subanta": 5784,
+        "tinanta": 539,
+        "indeclinable": 1153,
+        "krdanta": 716
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 501,
+        "krdanta_tuples": 372,
+        "subanta_tuples": 3675
+      }
+    },
+    "Sāṃkhyakārikā": {
+      "kind_counts": {
+        "compound_range": 221,
+        "compound_member": 221,
+        "subanta": 560,
+        "krdanta": 55,
+        "indeclinable": 183,
+        "tinanta": 54
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 54,
+        "krdanta_tuples": 46,
+        "subanta_tuples": 555
+      }
+    },
+    "Sāṃkhyakārikābhāṣya": {
+      "kind_counts": {
+        "compound_range": 1924,
+        "compound_member": 1799,
+        "indeclinable": 2017,
+        "subanta": 4909,
+        "tinanta": 696,
+        "krdanta": 573
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 694,
+        "krdanta_tuples": 453,
+        "subanta_tuples": 4889
+      }
+    },
+    "Sāṃkhyatattvakaumudī": {
+      "kind_counts": {
+        "indeclinable": 1432,
+        "compound_range": 1264,
+        "compound_member": 1302,
+        "subanta": 2451,
+        "tinanta": 352,
+        "krdanta": 400
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 352,
+        "krdanta_tuples": 302,
+        "subanta_tuples": 2441
+      }
+    },
+    "Sūryasiddhānta": {
+      "kind_counts": {
+        "compound_range": 495,
+        "compound_member": 781,
+        "subanta": 927,
+        "krdanta": 178,
+        "indeclinable": 182,
+        "tinanta": 74
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 74,
+        "krdanta_tuples": 137,
+        "subanta_tuples": 921
+      }
+    },
+    "Sūryaśataka": {
+      "kind_counts": {
+        "compound_range": 127,
+        "compound_member": 168,
+        "subanta": 269,
+        "indeclinable": 68,
+        "krdanta": 65,
+        "tinanta": 27
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 27,
+        "krdanta_tuples": 37,
+        "subanta_tuples": 251
+      }
+    },
+    "Sūryaśatakaṭīkā": {
+      "kind_counts": {
+        "subanta": 1217,
+        "compound_range": 529,
+        "tinanta": 115,
+        "krdanta": 224,
+        "compound_member": 406,
+        "indeclinable": 366
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 115,
+        "krdanta_tuples": 159,
+        "subanta_tuples": 1183
+      }
+    },
+    "Taittirīyabrāhmaṇa": {
+      "kind_counts": {
+        "subanta": 8113,
+        "tinanta": 2783,
+        "indeclinable": 3078,
+        "compound_range": 1212,
+        "krdanta": 721,
+        "compound_member": 369
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 2131,
+        "krdanta_tuples": 533,
+        "subanta_tuples": 7868
+      }
+    },
+    "Taittirīyasaṃhitā": {
+      "kind_counts": {
+        "subanta": 26006,
+        "compound_range": 4922,
+        "tinanta": 8870,
+        "indeclinable": 9566,
+        "compound_member": 1550,
+        "krdanta": 1997
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 7954,
+        "krdanta_tuples": 1549,
+        "subanta_tuples": 25033
+      }
+    },
+    "Taittirīyopaniṣad": {
+      "kind_counts": {
+        "indeclinable": 487,
+        "compound_member": 119,
+        "subanta": 1449,
+        "tinanta": 277,
+        "krdanta": 130,
+        "compound_range": 343
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 255,
+        "krdanta_tuples": 101,
+        "subanta_tuples": 1387
+      }
+    },
+    "Taittirīyāraṇyaka": {
+      "kind_counts": {
+        "subanta": 3799,
+        "tinanta": 1286,
+        "krdanta": 294,
+        "compound_range": 441,
+        "indeclinable": 1413,
+        "compound_member": 165
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1238,
+        "krdanta_tuples": 221,
+        "subanta_tuples": 3616
+      }
+    },
+    "Tantrasāra": {
+      "kind_counts": {
+        "compound_range": 2764,
+        "compound_member": 3304,
+        "subanta": 6590,
+        "indeclinable": 2828,
+        "krdanta": 944,
+        "tinanta": 549
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 547,
+        "krdanta_tuples": 487,
+        "subanta_tuples": 4634
+      }
+    },
+    "Tantrākhyāyikā": {
+      "kind_counts": {
+        "tinanta": 636,
+        "subanta": 3574,
+        "compound_range": 1438,
+        "compound_member": 1228,
+        "indeclinable": 1726,
+        "krdanta": 1147
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 510,
+        "krdanta_tuples": 733,
+        "subanta_tuples": 3348
+      }
+    },
+    "Tantrāloka": {
+      "kind_counts": {
+        "compound_range": 10408,
+        "compound_member": 10640,
+        "subanta": 17898,
+        "indeclinable": 7766,
+        "krdanta": 2989,
+        "tinanta": 2018
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1991,
+        "krdanta_tuples": 2098,
+        "subanta_tuples": 17801
+      }
+    },
+    "Tarkasaṃgraha": {
+      "kind_counts": {
+        "krdanta": 120,
+        "subanta": 908,
+        "compound_range": 437,
+        "compound_member": 612,
+        "tinanta": 31,
+        "indeclinable": 307
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 31,
+        "krdanta_tuples": 79,
+        "subanta_tuples": 905
+      }
+    },
+    "Tattvavaiśāradī": {
+      "kind_counts": {
+        "subanta": 75,
+        "indeclinable": 43,
+        "compound_range": 50,
+        "compound_member": 53,
+        "krdanta": 19,
+        "tinanta": 13
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 13,
+        "krdanta_tuples": 12,
+        "subanta_tuples": 75
+      }
+    },
+    "Toḍalatantra": {
+      "kind_counts": {
+        "compound_range": 1237,
+        "compound_member": 1064,
+        "subanta": 2670,
+        "tinanta": 501,
+        "krdanta": 340,
+        "indeclinable": 888
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 501,
+        "krdanta_tuples": 172,
+        "subanta_tuples": 2602
+      }
+    },
+    "Trikāṇḍaśeṣa": {
+      "kind_counts": {
+        "compound_range": 171,
+        "subanta": 635,
+        "compound_member": 85,
+        "indeclinable": 127,
+        "krdanta": 11,
+        "tinanta": 46
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 46,
+        "krdanta_tuples": 10,
+        "subanta_tuples": 635
+      }
+    },
+    "Uḍḍāmareśvaratantra": {
+      "kind_counts": {
+        "subanta": 4593,
+        "krdanta": 808,
+        "compound_range": 1812,
+        "compound_member": 2080,
+        "tinanta": 1135,
+        "indeclinable": 2307
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1134,
+        "krdanta_tuples": 418,
+        "subanta_tuples": 4541
+      }
+    },
+    "Vaikhānasadharmasūtra": {
+      "kind_counts": {
+        "indeclinable": 749,
+        "compound_range": 1077,
+        "compound_member": 1248,
+        "subanta": 2292,
+        "krdanta": 567,
+        "tinanta": 357
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 356,
+        "krdanta_tuples": 266,
+        "subanta_tuples": 2268
+      }
+    },
+    "Vaikhānasagṛhyasūtra": {
+      "kind_counts": {
+        "indeclinable": 1440,
+        "compound_member": 1068,
+        "subanta": 4253,
+        "tinanta": 716,
+        "krdanta": 686,
+        "compound_range": 1611
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 712,
+        "krdanta_tuples": 194,
+        "subanta_tuples": 4090
+      }
+    },
+    "Vaikhānasaśrautasūtra": {
+      "kind_counts": {
+        "compound_range": 3940,
+        "indeclinable": 5189,
+        "subanta": 13175,
+        "tinanta": 3359,
+        "compound_member": 2170,
+        "krdanta": 2901
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 3331,
+        "krdanta_tuples": 1399,
+        "subanta_tuples": 12569
+      }
+    },
+    "Vaitānasūtra": {
+      "kind_counts": {
+        "indeclinable": 1805,
+        "subanta": 5143,
+        "compound_member": 802,
+        "tinanta": 1033,
+        "krdanta": 639,
+        "compound_range": 847
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1019,
+        "krdanta_tuples": 480,
+        "subanta_tuples": 4709
+      }
+    },
+    "Vaiśeṣikasūtra": {
+      "kind_counts": {
+        "compound_range": 562,
+        "indeclinable": 307,
+        "subanta": 1059,
+        "tinanta": 32,
+        "compound_member": 603,
+        "krdanta": 132
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 32,
+        "krdanta_tuples": 105,
+        "subanta_tuples": 1053
+      }
+    },
+    "Vaiśeṣikasūtravṛtti": {
+      "kind_counts": {
+        "subanta": 3924,
+        "compound_range": 2255,
+        "compound_member": 2248,
+        "indeclinable": 1617,
+        "krdanta": 520,
+        "tinanta": 371
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 369,
+        "krdanta_tuples": 372,
+        "subanta_tuples": 3904
+      }
+    },
+    "Varāhapurāṇa": {
+      "kind_counts": {
+        "subanta": 339,
+        "tinanta": 54,
+        "compound_range": 134,
+        "indeclinable": 111,
+        "compound_member": 62,
+        "krdanta": 56
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 48,
+        "krdanta_tuples": 36,
+        "subanta_tuples": 326
+      }
+    },
+    "Vasiṣṭhadharmasūtra": {
+      "kind_counts": {
+        "compound_range": 1732,
+        "indeclinable": 2131,
+        "compound_member": 1417,
+        "subanta": 4569,
+        "krdanta": 805,
+        "tinanta": 1087
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1070,
+        "krdanta_tuples": 552,
+        "subanta_tuples": 4545
+      }
+    },
+    "Vetālapañcaviṃśatikā": {
+      "kind_counts": {
+        "krdanta": 112,
+        "subanta": 375,
+        "indeclinable": 114,
+        "tinanta": 43,
+        "compound_range": 151,
+        "compound_member": 170
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 43,
+        "krdanta_tuples": 69,
+        "subanta_tuples": 362
+      }
+    },
+    "Viṃśatikākārikā": {
+      "kind_counts": {
+        "compound_range": 81,
+        "compound_member": 85,
+        "subanta": 136,
+        "indeclinable": 92,
+        "krdanta": 12,
+        "tinanta": 18
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 17,
+        "krdanta_tuples": 9,
+        "subanta_tuples": 135
+      }
+    },
+    "Viṃśatikāvṛtti": {
+      "kind_counts": {
+        "indeclinable": 513,
+        "tinanta": 147,
+        "compound_range": 428,
+        "subanta": 715,
+        "krdanta": 102,
+        "compound_member": 383
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 145,
+        "krdanta_tuples": 86,
+        "subanta_tuples": 709
+      }
+    },
+    "Viṣṇupurāṇa": {
+      "kind_counts": {
+        "subanta": 44747,
+        "compound_range": 17917,
+        "compound_member": 13669,
+        "krdanta": 7133,
+        "tinanta": 7024,
+        "indeclinable": 15049
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 6387,
+        "krdanta_tuples": 4843,
+        "subanta_tuples": 42808
+      }
+    },
+    "Viṣṇusmṛti": {
+      "kind_counts": {
+        "compound_range": 3777,
+        "compound_member": 3997,
+        "subanta": 8946,
+        "krdanta": 1595,
+        "indeclinable": 3369,
+        "tinanta": 1389
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1383,
+        "krdanta_tuples": 1051,
+        "subanta_tuples": 8810
+      }
+    },
+    "Vājasaneyisaṃhitā (Mādhyandina)": {
+      "kind_counts": {
+        "subanta": 10220,
+        "tinanta": 2605,
+        "indeclinable": 1543,
+        "compound_range": 1142,
+        "compound_member": 632,
+        "krdanta": 687
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 2481,
+        "krdanta_tuples": 616,
+        "subanta_tuples": 8920
+      }
+    },
+    "Vārāhagṛhyasūtra": {
+      "kind_counts": {
+        "indeclinable": 846,
+        "krdanta": 316,
+        "compound_member": 370,
+        "subanta": 2648,
+        "tinanta": 660,
+        "compound_range": 605
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 644,
+        "krdanta_tuples": 132,
+        "subanta_tuples": 2442
+      }
+    },
+    "Vārāhaśrautasūtra": {
+      "kind_counts": {
+        "subanta": 13515,
+        "compound_range": 3615,
+        "compound_member": 1723,
+        "indeclinable": 4306,
+        "tinanta": 3587,
+        "krdanta": 1977
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 3530,
+        "krdanta_tuples": 1099,
+        "subanta_tuples": 12713
+      }
+    },
+    "Vātūlanāthasūtras": {
+      "kind_counts": {
+        "compound_range": 27,
+        "compound_member": 46,
+        "subanta": 30,
+        "indeclinable": 5,
+        "tinanta": 1,
+        "krdanta": 2
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1,
+        "krdanta_tuples": 1,
+        "subanta_tuples": 30
+      }
+    },
+    "Vātūlanāthasūtravṛtti": {
+      "kind_counts": {
+        "compound_range": 460,
+        "compound_member": 902,
+        "krdanta": 180,
+        "subanta": 630,
+        "indeclinable": 287,
+        "tinanta": 63
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 63,
+        "krdanta_tuples": 85,
+        "subanta_tuples": 629
+      }
+    },
+    "Vṛddhayamasmṛti": {
+      "kind_counts": {
+        "subanta": 197,
+        "indeclinable": 100,
+        "compound_range": 82,
+        "compound_member": 68,
+        "krdanta": 33,
+        "tinanta": 44
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 44,
+        "krdanta_tuples": 9,
+        "subanta_tuples": 193
+      }
+    },
+    "Yogaratnākara": {
+      "kind_counts": {
+        "compound_range": 1531,
+        "compound_member": 1729,
+        "subanta": 2970,
+        "indeclinable": 794,
+        "krdanta": 499,
+        "tinanta": 489
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 489,
+        "krdanta_tuples": 338,
+        "subanta_tuples": 2964
+      }
+    },
+    "Yogasūtra": {
+      "kind_counts": {
+        "indeclinable": 93,
+        "compound_range": 299,
+        "compound_member": 416,
+        "subanta": 587,
+        "krdanta": 45,
+        "tinanta": 3
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 3,
+        "krdanta_tuples": 26,
+        "subanta_tuples": 389
+      }
+    },
+    "Yogasūtrabhāṣya": {
+      "kind_counts": {
+        "indeclinable": 2032,
+        "subanta": 4370,
+        "compound_range": 2169,
+        "compound_member": 2220,
+        "krdanta": 801,
+        "tinanta": 589
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 583,
+        "krdanta_tuples": 576,
+        "subanta_tuples": 4338
+      }
+    },
+    "Yājñavalkyasmṛti": {
+      "kind_counts": {
+        "compound_range": 2441,
+        "compound_member": 2648,
+        "subanta": 6777,
+        "krdanta": 1359,
+        "tinanta": 914,
+        "indeclinable": 2582
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 909,
+        "krdanta_tuples": 972,
+        "subanta_tuples": 6703
+      }
+    },
+    "Ānandakanda": {
+      "kind_counts": {
+        "compound_range": 20794,
+        "compound_member": 19969,
+        "krdanta": 6237,
+        "subanta": 38468,
+        "tinanta": 7394,
+        "indeclinable": 11750
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 7371,
+        "krdanta_tuples": 4065,
+        "subanta_tuples": 38188
+      }
+    },
+    "Āpastambadharmasūtra": {
+      "kind_counts": {
+        "indeclinable": 2065,
+        "subanta": 4401,
+        "tinanta": 896,
+        "compound_member": 1082,
+        "krdanta": 853,
+        "compound_range": 1276
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 892,
+        "krdanta_tuples": 558,
+        "subanta_tuples": 4383
+      }
+    },
+    "Āpastambagṛhyasūtra": {
+      "kind_counts": {
+        "indeclinable": 482,
+        "subanta": 1649,
+        "tinanta": 289,
+        "compound_member": 316,
+        "krdanta": 396,
+        "compound_range": 268
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 289,
+        "krdanta_tuples": 116,
+        "subanta_tuples": 1637
+      }
+    },
+    "Āpastambaśrautasūtra": {
+      "kind_counts": {
+        "compound_range": 4072,
+        "indeclinable": 6040,
+        "compound_member": 2125,
+        "subanta": 18130,
+        "tinanta": 4776,
+        "krdanta": 2786
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 4727,
+        "krdanta_tuples": 1542,
+        "subanta_tuples": 17071
+      }
+    },
+    "Āryāsaptaśatī": {
+      "kind_counts": {
+        "subanta": 5216,
+        "krdanta": 1227,
+        "compound_range": 2308,
+        "compound_member": 2634,
+        "tinanta": 891,
+        "indeclinable": 1843
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 882,
+        "krdanta_tuples": 733,
+        "subanta_tuples": 4918
+      }
+    },
+    "Āyurvedadīpikā": {
+      "kind_counts": {
+        "compound_range": 9656,
+        "compound_member": 9423,
+        "subanta": 16036,
+        "krdanta": 2888,
+        "tinanta": 2187,
+        "indeclinable": 8390
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 2185,
+        "krdanta_tuples": 2094,
+        "subanta_tuples": 15950
+      }
+    },
+    "Āśvalāyanagṛhyasūtra": {
+      "kind_counts": {
+        "krdanta": 623,
+        "subanta": 3690,
+        "tinanta": 831,
+        "compound_member": 513,
+        "indeclinable": 1389,
+        "compound_range": 655
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 824,
+        "krdanta_tuples": 328,
+        "subanta_tuples": 3477
+      }
+    },
+    "Āśvālāyanaśrautasūtra": {
+      "kind_counts": {
+        "compound_range": 533,
+        "compound_member": 424,
+        "subanta": 3715,
+        "krdanta": 345,
+        "indeclinable": 1245,
+        "tinanta": 517
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 501,
+        "krdanta_tuples": 246,
+        "subanta_tuples": 3441
+      }
+    },
+    "Śatakatraya": {
+      "kind_counts": {
+        "compound_range": 1558,
+        "compound_member": 1922,
+        "indeclinable": 1403,
+        "krdanta": 773,
+        "subanta": 4057,
+        "tinanta": 547
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 541,
+        "krdanta_tuples": 495,
+        "subanta_tuples": 3982
+      }
+    },
+    "Śatapathabrāhmaṇa": {
+      "kind_counts": {
+        "subanta": 75858,
+        "krdanta": 5969,
+        "indeclinable": 37298,
+        "tinanta": 21784,
+        "compound_member": 3230,
+        "compound_range": 21552
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 20078,
+        "krdanta_tuples": 4433,
+        "subanta_tuples": 73890
+      }
+    },
+    "Śikṣāsamuccaya": {
+      "kind_counts": {
+        "subanta": 306,
+        "compound_range": 169,
+        "compound_member": 211,
+        "krdanta": 72,
+        "tinanta": 54,
+        "indeclinable": 149
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 53,
+        "krdanta_tuples": 47,
+        "subanta_tuples": 301
+      }
+    },
+    "Śira'upaniṣad": {
+      "kind_counts": {
+        "indeclinable": 263,
+        "subanta": 1059,
+        "compound_range": 134,
+        "compound_member": 54,
+        "tinanta": 138,
+        "krdanta": 71
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 129,
+        "krdanta_tuples": 57,
+        "subanta_tuples": 1010
+      }
+    },
+    "Śivapurāṇa": {
+      "kind_counts": {
+        "compound_range": 186,
+        "subanta": 425,
+        "krdanta": 94,
+        "compound_member": 115,
+        "indeclinable": 134,
+        "tinanta": 59
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 57,
+        "krdanta_tuples": 49,
+        "subanta_tuples": 409
+      }
+    },
+    "Śivasūtra": {
+      "kind_counts": {
+        "subanta": 149,
+        "compound_range": 84,
+        "compound_member": 109,
+        "indeclinable": 25,
+        "krdanta": 11,
+        "tinanta": 5
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 5,
+        "krdanta_tuples": 10,
+        "subanta_tuples": 149
+      }
+    },
+    "Śivasūtravārtika": {
+      "kind_counts": {
+        "subanta": 2229,
+        "compound_range": 1078,
+        "compound_member": 1657,
+        "indeclinable": 803,
+        "krdanta": 422,
+        "tinanta": 234
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 234,
+        "krdanta_tuples": 259,
+        "subanta_tuples": 2205
+      }
+    },
+    "Śukasaptati": {
+      "kind_counts": {
+        "krdanta": 1268,
+        "subanta": 4326,
+        "compound_range": 2016,
+        "compound_member": 1138,
+        "tinanta": 871,
+        "indeclinable": 2075
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 841,
+        "krdanta_tuples": 892,
+        "subanta_tuples": 4099
+      }
+    },
+    "Śvetāśvataropaniṣad": {
+      "kind_counts": {
+        "compound_member": 296,
+        "subanta": 1199,
+        "tinanta": 185,
+        "indeclinable": 308,
+        "krdanta": 159,
+        "compound_range": 7
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 185,
+        "krdanta_tuples": 112,
+        "subanta_tuples": 1173
+      }
+    },
+    "Śyainikaśāstra": {
+      "kind_counts": {
+        "compound_range": 1318,
+        "compound_member": 1062,
+        "subanta": 2267,
+        "indeclinable": 1108,
+        "tinanta": 369,
+        "krdanta": 470
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 368,
+        "krdanta_tuples": 311,
+        "subanta_tuples": 2261
+      }
+    },
+    "Śāktavijñāna": {
+      "kind_counts": {
+        "subanta": 190,
+        "indeclinable": 95,
+        "compound_range": 101,
+        "compound_member": 74,
+        "krdanta": 37,
+        "tinanta": 31
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 31,
+        "krdanta_tuples": 30,
+        "subanta_tuples": 189
+      }
+    },
+    "Śārṅgadharasaṃhitā": {
+      "kind_counts": {
+        "compound_range": 1408,
+        "indeclinable": 746,
+        "subanta": 2578,
+        "compound_member": 1186,
+        "krdanta": 495,
+        "tinanta": 612
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 612,
+        "krdanta_tuples": 263,
+        "subanta_tuples": 2574
+      }
+    },
+    "Śārṅgadharasaṃhitādīpikā": {
+      "kind_counts": {
+        "indeclinable": 3095,
+        "subanta": 6442,
+        "compound_range": 3670,
+        "compound_member": 2956,
+        "tinanta": 819,
+        "krdanta": 1454
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 819,
+        "krdanta_tuples": 972,
+        "subanta_tuples": 6439
+      }
+    },
+    "Śāṅkhāyanagṛhyasūtra": {
+      "kind_counts": {
+        "indeclinable": 1680,
+        "subanta": 4470,
+        "tinanta": 867,
+        "krdanta": 595,
+        "compound_member": 670,
+        "compound_range": 807
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 856,
+        "krdanta_tuples": 290,
+        "subanta_tuples": 4228
+      }
+    },
+    "Śāṅkhāyanaśrautasūtra": {
+      "kind_counts": {
+        "subanta": 12151,
+        "tinanta": 2216,
+        "compound_range": 2466,
+        "compound_member": 1201,
+        "indeclinable": 3831,
+        "krdanta": 1487
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 2159,
+        "krdanta_tuples": 802,
+        "subanta_tuples": 11434
+      }
+    },
+    "Śāṅkhāyanāraṇyaka": {
+      "kind_counts": {
+        "subanta": 7134,
+        "indeclinable": 2742,
+        "tinanta": 1735,
+        "compound_member": 515,
+        "krdanta": 621,
+        "compound_range": 1510
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1706,
+        "krdanta_tuples": 464,
+        "subanta_tuples": 6778
+      }
+    },
+    "Ṛgveda": {
+      "kind_counts": {
+        "subanta": 103949,
+        "tinanta": 23682,
+        "compound_member": 4526,
+        "krdanta": 9617,
+        "indeclinable": 28198,
+        "compound_range": 9373
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 22095,
+        "krdanta_tuples": 8351,
+        "subanta_tuples": 95143
+      }
+    },
+    "Ṛgvedakhilāni": {
+      "kind_counts": {
+        "compound_range": 637,
+        "tinanta": 994,
+        "compound_member": 376,
+        "subanta": 4702,
+        "indeclinable": 1022,
+        "krdanta": 411
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 941,
+        "krdanta_tuples": 346,
+        "subanta_tuples": 4149
+      }
+    },
+    "Ṛgvedavedāṅgajyotiṣa": {
+      "kind_counts": {
+        "compound_range": 41,
+        "compound_member": 47,
+        "subanta": 96,
+        "krdanta": 10,
+        "tinanta": 9,
+        "indeclinable": 23
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 9,
+        "krdanta_tuples": 7,
+        "subanta_tuples": 96
+      }
+    },
+    "Ṛgvidhāna": {
+      "kind_counts": {
+        "subanta": 396,
+        "compound_member": 96,
+        "krdanta": 74,
+        "indeclinable": 143,
+        "tinanta": 63,
+        "compound_range": 53
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 62,
+        "krdanta_tuples": 53,
+        "subanta_tuples": 396
+      }
+    },
+    "Ṛtusaṃhāra": {
+      "kind_counts": {
+        "compound_range": 778,
+        "compound_member": 1032,
+        "subanta": 1327,
+        "krdanta": 389,
+        "indeclinable": 223,
+        "tinanta": 162
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 162,
+        "krdanta_tuples": 189,
+        "subanta_tuples": 1317
+      }
+    },
+    "Ṣaḍviṃśabrāhmaṇa": {
+      "kind_counts": {
+        "subanta": 4105,
+        "indeclinable": 1617,
+        "compound_range": 833,
+        "tinanta": 1096,
+        "krdanta": 345,
+        "compound_member": 377
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 1021,
+        "krdanta_tuples": 264,
+        "subanta_tuples": 3955
+      }
+    },
+    "Ṭikanikayātrā": {
+      "kind_counts": {
+        "compound_range": 344,
+        "compound_member": 475,
+        "subanta": 727,
+        "tinanta": 72,
+        "indeclinable": 228,
+        "krdanta": 113
+      },
+      "resolved_tuples": {
+        "tinanta_tuples": 72,
+        "krdanta_tuples": 75,
+        "subanta_tuples": 726
+      }
+    }
+  }
+}
