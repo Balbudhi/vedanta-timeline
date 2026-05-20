@@ -8,25 +8,24 @@
    English markup format:
      {N:phrase}  or  {N,M:phrase}
    Each {N:…} marks `phrase` as the English rendering of the
-   word at index N in `words` (0-indexed). Hovering that word in
-   the Romanized line highlights the matching English span (and
-   shows the gloss in a tooltip). Phrases without {N:…} are
-   plain text. Multiple word indices may share a phrase.
+   word at index N in `words` (0-indexed). Hovering that word
+   highlights the matching English span (and shows the gloss
+   in a tooltip). Multiple word indices may share a phrase.
    ============================================================= */
 
 const LINES = {
   invocation: {
     roman: "Maa meri sachiyaan jota wali maata, teri sada hi jai",
-    english: "{1:My} {0:Mother}, {5:O Mother} {4:of} the {2:true sacred} {3:flames} — may {8:victory} {7:always} be {6:Yours}.",
+    english: "{1:My} {0:Mother}, {5:O Mother} {4:of} the {2:true, eternal} {3:sacred flames} — may {8:victory} {7:always} be {6:Yours}.",
     words: [
       { roman: "Maa",        gloss: "Mother" },
       { roman: "meri",       gloss: "my" },
-      { roman: "sachiyaan",  gloss: "true / genuine (fem. pl., modifying ‘flames’)" },
-      { roman: "jota",       gloss: "flames; the divine jyoti" },
-      { roman: "wali",       gloss: "possessor of, associated with" },
+      { roman: "sachiyaan",  gloss: "true, genuine, eternal" },
+      { roman: "jota",       gloss: "sacred flames; the divine jyoti" },
+      { roman: "wali",       gloss: "bearer of, associated with" },
       { roman: "maata",      gloss: "Mother Goddess" },
       { roman: "teri",       gloss: "Your" },
-      { roman: "sada hi",    gloss: "always" },
+      { roman: "sada hi",    gloss: "always, forever" },
       { roman: "jai",        gloss: "victory, glory, praise" }
     ]
   },
@@ -36,13 +35,13 @@ const LINES = {
     english: "{0:I} {3:have} {2:held onto} {4:Your} {1:hem}; {6:I have no} {5:one else} {7:but You}.",
     words: [
       { roman: "Main",     gloss: "I" },
-      { roman: "ladd",     gloss: "hem / edge of the garment (the pallu)" },
-      { roman: "phadya",   gloss: "have grasped, have caught hold of" },
-      { roman: "ae",       gloss: "is (auxiliary: ‘have’)" },
+      { roman: "ladd",     gloss: "the hem, the edge of Your garment" },
+      { roman: "phadya",   gloss: "have grasped, have held" },
+      { roman: "ae",       gloss: "is — used here as the auxiliary ‘have’" },
       { roman: "tera",     gloss: "Yours" },
       { roman: "koi hor",  gloss: "anyone else" },
       { roman: "nahi ae",  gloss: "there is not" },
-      { roman: "mera",     gloss: "mine, belonging to me" }
+      { roman: "mera",     gloss: "mine" }
     ]
   },
 
@@ -52,8 +51,8 @@ const LINES = {
     words: [
       { roman: "Asi",        gloss: "we" },
       { roman: "saah",       gloss: "breath" },
-      { roman: "chhad",      gloss: "leaving, releasing" },
-      { roman: "jaavange",   gloss: "will go (future, 1pl.)" }
+      { roman: "chhad",      gloss: "releasing, letting go" },
+      { roman: "jaavange",   gloss: "we will go" }
     ]
   },
 
@@ -62,12 +61,12 @@ const LINES = {
     english: "{0:Then} {2:You will} {1:call out} to us, but {3:we} {6:will} {5:not} {4:return}.",
     words: [
       { roman: "Pher",       gloss: "then, afterwards" },
-      { roman: "baajaa",     gloss: "calls, cries (vocative summons)" },
-      { roman: "maaroge",    gloss: "will strike / call out" },
+      { roman: "baajaa",     gloss: "cries, calls (out to)" },
+      { roman: "maaroge",    gloss: "You will strike, You will call out" },
       { roman: "asi",        gloss: "we" },
       { roman: "mud",        gloss: "back, again" },
-      { roman: "nahiyo",     gloss: "not (emphatic negation)" },
-      { roman: "aavange",    gloss: "will come" }
+      { roman: "nahiyo",     gloss: "not (emphatic)" },
+      { roman: "aavange",    gloss: "we will come" }
     ]
   },
 
@@ -79,7 +78,7 @@ const LINES = {
       { roman: "zindagi",    gloss: "life" },
       { roman: "ton",        gloss: "from" },
       { roman: "ki",         gloss: "what" },
-      { roman: "laina",      gloss: "is there to take (gerundive)" },
+      { roman: "laina",      gloss: "is there to take, is there to gain" },
       { roman: "maa",        gloss: "Mother" }
     ]
   },
@@ -88,8 +87,8 @@ const LINES = {
     roman: "Darshan na hoya, pher jee ke ki laina",
     english: "If I {1:do not get} to {0:see You}, {4:what is the point} {3:of living}?",
     words: [
-      { roman: "Darshan",    gloss: "sacred sight; reciprocal seeing of the deity" },
-      { roman: "na hoya",    gloss: "did not happen / has not occurred" },
+      { roman: "Darshan",    gloss: "sacred sight — the reciprocal seeing of the deity" },
+      { roman: "na hoya",    gloss: "has not occurred, did not happen" },
       { roman: "pher",       gloss: "then" },
       { roman: "jee ke",     gloss: "by living" },
       { roman: "ki laina",   gloss: "what is there to gain" }
@@ -101,9 +100,9 @@ const LINES = {
     english: "{0:We} {3:will come} to {2:Your} {1:door} just like this.",
     words: [
       { roman: "Asi",        gloss: "we" },
-      { roman: "dar",        gloss: "door, threshold, court (shrine)" },
+      { roman: "dar",        gloss: "door, threshold of Your shrine" },
       { roman: "tere",       gloss: "Your" },
-      { roman: "aavange",    gloss: "will come" }
+      { roman: "aavange",    gloss: "we will come" }
     ]
   },
 
@@ -112,11 +111,11 @@ const LINES = {
     english: "Even if {2:You make us} {0:swear} on {1:our own} lives, we {5:will not} {4:leave} {3:You}.",
     words: [
       { roman: "Saun",       gloss: "oath" },
-      { roman: "apni",       gloss: "(Your) own" },
-      { roman: "paavegi",    gloss: "will place (the oath on us)" },
-      { roman: "tainu",      gloss: "You (accusative)" },
+      { roman: "apni",       gloss: "Your own" },
+      { roman: "paavegi",    gloss: "You will place the oath upon us" },
+      { roman: "tainu",      gloss: "You" },
       { roman: "chhad ke",   gloss: "leaving, having left" },
-      { roman: "na jaavange",gloss: "will not go" }
+      { roman: "na jaavange",gloss: "we will not go" }
     ]
   },
 
@@ -136,8 +135,8 @@ const LINES = {
     roman: "Kado pheraa aa jaave, is mitti di dheri ae",
     english: "{0:Who knows when} {1:the final call} {2:will come}? {3:This} body {7:is} just a {6:pile} {5:of} {4:dust}.",
     words: [
-      { roman: "Kado",       gloss: "when (who knows when)" },
-      { roman: "pheraa",     gloss: "turn, cycle, summons" },
+      { roman: "Kado",       gloss: "whenever, who knows when" },
+      { roman: "pheraa",     gloss: "the turn, the cycle, the final summons" },
       { roman: "aa jaave",   gloss: "may come" },
       { roman: "is",         gloss: "this" },
       { roman: "mitti",      gloss: "earth, dust, clay" },
@@ -152,9 +151,9 @@ const LINES = {
     english: "{3:We will just stay} {2:at} {0:Your} {1:feet}.",
     words: [
       { roman: "Tere",       gloss: "Your" },
-      { roman: "charna",     gloss: "feet (sacred, oblique plural)" },
-      { roman: "ch",         gloss: "in / at (postposition)" },
-      { roman: "reh laange", gloss: "we will remain (compound verb)" }
+      { roman: "charna",     gloss: "Your sacred feet" },
+      { roman: "ch",         gloss: "at, in" },
+      { roman: "reh laange", gloss: "we will stay, we will remain" }
     ]
   },
 
@@ -163,11 +162,11 @@ const LINES = {
     english: "{2:Forgive} {1:us}, and {3:we} {5:will endure} everything {4:with a smile}.",
     words: [
       { roman: "Tu",         gloss: "You" },
-      { roman: "saanu",      gloss: "us (dative)" },
-      { roman: "maaf kar deyi", gloss: "forgive (imperative, respectful)" },
+      { roman: "saanu",      gloss: "us" },
+      { roman: "maaf kar deyi", gloss: "forgive — a gentle, respectful command" },
       { roman: "asi",        gloss: "we" },
-      { roman: "hass ke",    gloss: "smiling, having laughed" },
-      { roman: "seh laange", gloss: "will endure (compound verb)" }
+      { roman: "hass ke",    gloss: "smiling, with a smile" },
+      { roman: "seh laange", gloss: "we will endure, we will bear it" }
     ]
   },
 
@@ -178,7 +177,7 @@ const LINES = {
       { roman: "Tera",       gloss: "Yours" },
       { roman: "ho ke",      gloss: "having become" },
       { roman: "main",       gloss: "I" },
-      { roman: "aavanga",    gloss: "will come (1sg.)" },
+      { roman: "aavanga",    gloss: "I will come" },
       { roman: "maa",        gloss: "Mother" }
     ]
   },
@@ -189,11 +188,11 @@ const LINES = {
     words: [
       { roman: "Tu vi",      gloss: "You too" },
       { roman: "pher",       gloss: "then" },
-      { roman: "rovengi",    gloss: "will weep (2sg. fem.)" },
+      { roman: "rovengi",    gloss: "You will weep" },
       { roman: "je",         gloss: "if" },
       { roman: "chhad",      gloss: "leaving" },
-      { roman: "tainu",      gloss: "You (acc.)" },
-      { roman: "jaavanga",   gloss: "I go (1sg. fut.)" }
+      { roman: "tainu",      gloss: "You" },
+      { roman: "jaavanga",   gloss: "I will go" }
     ]
   },
 
@@ -204,7 +203,7 @@ const LINES = {
       { roman: "Tere",       gloss: "Your" },
       { roman: "reham",      gloss: "mercies, graces" },
       { roman: "bathere",    gloss: "countless, abundant" },
-      { roman: "ne",         gloss: "are (plural copula)" },
+      { roman: "ne",         gloss: "are" },
       { roman: "maa",        gloss: "Mother" }
     ]
   },
@@ -214,12 +213,12 @@ const LINES = {
     english: "{1:Show} us {0:happiness}, {3:Mother}, {4:otherwise} there {6:are so many} {5:tears}.",
     words: [
       { roman: "Khushiya",   gloss: "joys, happiness" },
-      { roman: "dikha de",   gloss: "show (imperative)" },
+      { roman: "dikha de",   gloss: "show us" },
       { roman: "vi",         gloss: "at least, also" },
       { roman: "maa",        gloss: "Mother" },
       { roman: "nahi te",    gloss: "otherwise" },
       { roman: "hanju",      gloss: "tears" },
-      { roman: "bathere ne", gloss: "are plentiful" }
+      { roman: "bathere ne", gloss: "are plentiful, are many" }
     ]
   },
 
@@ -229,7 +228,7 @@ const LINES = {
     words: [
       { roman: "Asi",        gloss: "we" },
       { roman: "pher vi",    gloss: "even then, still" },
-      { roman: "nahi bolange",gloss: "will not speak / complain" },
+      { roman: "nahi bolange",gloss: "will not speak, will not complain" },
       { roman: "maa",        gloss: "Mother" }
     ]
   },
@@ -240,10 +239,10 @@ const LINES = {
     words: [
       { roman: "Ikk vaari",  gloss: "just once" },
       { roman: "dass",       gloss: "tell" },
-      { roman: "te jaa",     gloss: "and go (idiomatic: ‘do tell’)" },
+      { roman: "te jaa",     gloss: "go on, do tell" },
       { roman: "dukh",       gloss: "sorrows, pains" },
       { roman: "kihde agge", gloss: "before whom" },
-      { roman: "pholange",   gloss: "will unfurl, open out" }
+      { roman: "pholange",   gloss: "will spread open, will unfurl — as in opening one’s heart" }
     ]
   },
 
@@ -251,10 +250,10 @@ const LINES = {
     roman: "Eh likh ke main jaavanga, maa",
     english: "{2:I} {3:will leave this world} {1:writing} {0:these very words}, {4:Mother}:",
     words: [
-      { roman: "Eh",         gloss: "this" },
+      { roman: "Eh",         gloss: "this, these very words" },
       { roman: "likh ke",    gloss: "having written" },
       { roman: "main",       gloss: "I" },
-      { roman: "jaavanga",   gloss: "will go, will depart" },
+      { roman: "jaavanga",   gloss: "I will go, I will depart" },
       { roman: "maa",        gloss: "Mother" }
     ]
   },
@@ -267,8 +266,8 @@ const LINES = {
       { roman: "vi",         gloss: "also, even" },
       { roman: "maa",        gloss: "Mother" },
       { roman: "tera",       gloss: "Your" },
-      { roman: "putt",       gloss: "son (emotionally charged in Punjabi)" },
-      { roman: "kahavanga",  gloss: "will be called" }
+      { roman: "putt",       gloss: "son — a deeply tender word in Punjabi" },
+      { roman: "kahavanga",  gloss: "I will be called" }
     ]
   },
 
@@ -277,7 +276,7 @@ const LINES = {
     english: "{1:I have no} {0:one else} {2:but You}.",
     words: [
       { roman: "Koi hor",    gloss: "anyone else" },
-      { roman: "nahi ae",    gloss: "is not" },
+      { roman: "nahi ae",    gloss: "there is not" },
       { roman: "mera",       gloss: "mine" }
     ]
   }
@@ -347,8 +346,6 @@ function escapeHtml(s) {
   }[c]));
 }
 
-/* Parse english markup `{N:phrase}` or `{N,M:phrase}` into spans
-   tagged with data-word-i (space-separated indices). */
 function renderEnglishWithSpans(english) {
   const re = /\{([\d,\s]+):([^}]*)\}/g;
   let out = "";
@@ -364,8 +361,6 @@ function renderEnglishWithSpans(english) {
   return out;
 }
 
-/* Tokenize the roman line into hoverable spans, matching each
-   word entry to its position so hover can link span → english. */
 function renderRomanWithSpans(roman, words) {
   if (!words || !words.length) return escapeHtml(roman);
   let html = "";
@@ -449,7 +444,6 @@ function showTooltip(span, text) {
 }
 function hideTooltip() { if (tooltipEl) tooltipEl.hidden = true; }
 
-/* ----- Activation: highlight roman word + matching english span(s) ----- */
 function activate(span) {
   const article = span.closest(".line");
   if (!article) return;
@@ -478,10 +472,9 @@ function deactivateAll(root) {
 }
 
 function wireInteractions(root) {
-  let stickyWord = null;   // the word currently "tapped/clicked" — survives mouseleave
-  let hoverWord  = null;   // the word currently under mouse — clears on mouseleave
+  let stickyWord = null;
+  let hoverWord  = null;
 
-  // Desktop hover.
   root.addEventListener("mouseover", e => {
     const w = e.target.closest(".w");
     if (!w || w === hoverWord) return;
@@ -498,8 +491,6 @@ function wireInteractions(root) {
     if (hoverWord === w) hoverWord = null;
   });
 
-  // Tap / click: pin the highlight (mobile-friendly).
-  // Re-tapping the same word un-pins; tapping elsewhere clears.
   root.addEventListener("click", e => {
     const w = e.target.closest(".w");
     if (!w) return;
@@ -513,12 +504,10 @@ function wireInteractions(root) {
     stickyWord = w;
     activate(w);
   });
-  // Tap outside any word: clear sticky highlight.
   document.addEventListener("click", () => {
     if (stickyWord) { deactivate(stickyWord); stickyWord = null; }
   });
 
-  // Keyboard focus mirrors hover for accessibility.
   root.addEventListener("focusin", e => {
     const w = e.target.closest(".w");
     if (!w) return;
@@ -530,12 +519,10 @@ function wireInteractions(root) {
     deactivate(w);
   });
 
-  // Hide tooltip on scroll (re-anchor would jump anyway).
   window.addEventListener("scroll", () => {
     if (tooltipEl) tooltipEl.hidden = true;
   }, { passive: true });
 
-  // Esc clears sticky.
   document.addEventListener("keydown", e => {
     if (e.key === "Escape") {
       if (stickyWord) { deactivate(stickyWord); stickyWord = null; }
