@@ -11,7 +11,7 @@
 const LINES = {
   invocation: {
     roman: "Mā merī sachīyā jotā wālī mātā, terī sadā hī jai",
-    english: "{1:My} {0:Mother}, {5:O Mother} {4:of} the {2:true, eternal} {3:sacred flames} — may {8:victory} {7:always} be {6:Yours}.",
+    english: "{1:My} {0,5:mother} — the {2:true} {3:sacred flames} — {6:You} are {7:eternally} {8:victorious}.",
     words: [
       { roman: "Mā",         gloss: "Mother" },
       { roman: "merī",       gloss: "my" },
@@ -27,7 +27,7 @@ const LINES = {
 
   refrain: {
     roman: "Main laṛ phaṛyā ae terā, koī hor nahī ae merā",
-    english: "{0:I} {3:have} {2:held onto} {4:Your} {1:hem}; {6:I have no} {5:one else} {7:but You}.",
+    english: "{0:I} {3:have} {2:grabbed onto} the {1:hem} of {4:Your} {1:dress}; {6,7:I have no} {5:one else}.",
     words: [
       { roman: "Main",     gloss: "I" },
       { roman: "laṛ",      gloss: "the hem, the edge of Your garment" },
@@ -42,7 +42,7 @@ const LINES = {
 
   v1a: {
     roman: "Asī sāh chhaḍ jāvānge",
-    english: "{0:We} {3:will} eventually {2:let go} of our {1:breath}.",
+    english: "{0:My} {1:breath} {3:is going to} {2:abandon} {0:me}.",
     words: [
       { roman: "Asī",        gloss: "we" },
       { roman: "sāh",        gloss: "breath" },
@@ -53,7 +53,7 @@ const LINES = {
 
   v1b: {
     roman: "Pher bājā māroge, asī muṛ nahīyo āvānge",
-    english: "{0:Then} {2:You will} {1:call out} to us, but {3:we} {6:will} {5:not} {4:return}.",
+    english: "{0:Then} {2:You will} {1:cry out} — and {3:I} {5,6:will not} {4:turn back}.",
     words: [
       { roman: "Pher",       gloss: "then, afterwards" },
       { roman: "bājā",       gloss: "cries, calls (out to)" },
@@ -67,7 +67,7 @@ const LINES = {
 
   v2a: {
     roman: "Is zindagī ton kī lainā, mā",
-    english: "{3:What} {4:is there to gain} {2:from} {0:this} {1:life} anyway, {5:Mother}?",
+    english: "{3:What} {4:is there to get} {2:from} {0:this} {1:life} anyway, {5:Mother}?",
     words: [
       { roman: "Is",         gloss: "this" },
       { roman: "zindagī",    gloss: "life" },
@@ -80,7 +80,7 @@ const LINES = {
 
   v2b: {
     roman: "Darshan nā hoyā, pher jī ke kī lainā",
-    english: "If I {1:do not get} to {0:see You}, {4:what is the point} {3:of living}?",
+    english: "If {1:I do not get} to {0:see You}, {4:what will I gain} {3:from living}?",
     words: [
       { roman: "Darshan",    gloss: "sacred sight — the reciprocal seeing of the deity" },
       { roman: "nā hoyā",    gloss: "has not occurred, did not happen" },
@@ -92,7 +92,7 @@ const LINES = {
 
   v3a: {
     roman: "Asī dar tere āvānge",
-    english: "{0:We} {3:will come} to {2:Your} {1:door} just like this.",
+    english: "{0:I} {3:will come} to {2:Your} {1:door} just like this.",
     words: [
       { roman: "Asī",        gloss: "we" },
       { roman: "dar",        gloss: "door, threshold of Your shrine" },
@@ -103,7 +103,7 @@ const LINES = {
 
   v3b: {
     roman: "Saun apnī pāvengī, tainū chhaḍ ke nā jāvānge",
-    english: "Even if {2:You make us} {0:swear} on {1:our own} lives, we {5:will not} {4:leave} {3:You}.",
+    english: "Even if {2:You place} {1:Your own} {0:oath} upon me, {5:I will never} {4:leave} {3:You}.",
     words: [
       { roman: "Saun",          gloss: "oath" },
       { roman: "apnī",          gloss: "Your own" },
@@ -128,7 +128,7 @@ const LINES = {
 
   v4b: {
     roman: "Kado pherā ā jāve, is miṭṭī dī ḍherī ae",
-    english: "{0:Who knows when} {1:the final call} {2:will come}? {3:This} body {7:is} just a {6:pile} {5:of} {4:dust}.",
+    english: "{0:Who knows when} {1:the turn} {2:will come}? {3:This} {7:is} just a {6:pile} {5:of} {4:dust}.",
     words: [
       { roman: "Kado",       gloss: "whenever, who knows when" },
       { roman: "pherā",      gloss: "the turn, the cycle, the final summons" },
@@ -143,7 +143,7 @@ const LINES = {
 
   v5a: {
     roman: "Tere charnā ’ch reh lānge",
-    english: "{3:We will just stay} {2:at} {0:Your} {1:feet}.",
+    english: "{3:I will just stay} {2:at} {0:Your} {1:feet}.",
     words: [
       { roman: "Tere",       gloss: "Your" },
       { roman: "charnā",     gloss: "Your sacred feet" },
@@ -154,7 +154,7 @@ const LINES = {
 
   v5b: {
     roman: "Tū sānū māf kar deyī, asī hass ke seh lānge",
-    english: "{2:Forgive} {1:us}, and {3:we} {5:will endure} everything {4:with a smile}.",
+    english: "{0:You} {2:forgive} {1:me}, and {3:I} {5:will do everything} {4:laughingly}.",
     words: [
       { roman: "Tū",             gloss: "You" },
       { roman: "sānū",           gloss: "us" },
@@ -167,7 +167,7 @@ const LINES = {
 
   v6a: {
     roman: "Terā ho ke main āvāngā, mā",
-    english: "{2:I} {3:will come back} {1:belonging} only {0:to You}, {4:Mother}.",
+    english: "{2:I} {3:will only come back} {1:belonging} {0:to You}, {4:Mother}.",
     words: [
       { roman: "Terā",       gloss: "Yours" },
       { roman: "ho ke",      gloss: "having become" },
@@ -179,7 +179,7 @@ const LINES = {
 
   v6b: {
     roman: "Tū vī pher rovengī, je chhaḍ tainū jāvāngā",
-    english: "{0:Even You} {2:will cry} {1:then}, {3:if} {6:I} ever {4:leave} {5:You}.",
+    english: "{0:Even You} {2:will cry} {1:then}, {3:if} {6:I} ever {4:left} {5:You}.",
     words: [
       { roman: "Tū vī",      gloss: "You too" },
       { roman: "pher",       gloss: "then" },
@@ -193,7 +193,7 @@ const LINES = {
 
   v7a: {
     roman: "Tere reham bathere ne, mā",
-    english: "{0:Your} {1:mercies} {3:are} {2:countless}, {4:Mother}.",
+    english: "{0:Your} {1:grace} {3:is} {2:infinite}, {4:Mother}.",
     words: [
       { roman: "Tere",       gloss: "Your" },
       { roman: "reham",      gloss: "mercies, graces" },
@@ -205,7 +205,7 @@ const LINES = {
 
   v7b: {
     roman: "Khushīyā dikhā de vī mā, nahī te hanjū bathere ne",
-    english: "{1:Show} us {0:happiness}, {3:Mother}, {4:otherwise} there {6:are so many} {5:tears}.",
+    english: "{1:Show me} {0:happiness}, {3:Mother}. {4:Otherwise}, {5:tears} {6:are plentiful}.",
     words: [
       { roman: "Khushīyā",   gloss: "joys, happiness" },
       { roman: "dikhā de",   gloss: "show us" },
@@ -219,7 +219,7 @@ const LINES = {
 
   v8a: {
     roman: "Asī pher vī nahī bolānge, mā",
-    english: "{1:Even then}, {0:we} {2:will not say a word of complaint}, {3:Mother}.",
+    english: "{1:Even then}, {0:I} {2:will not say a word of complaint}, {3:Mother}.",
     words: [
       { roman: "Asī",            gloss: "we" },
       { roman: "pher vī",        gloss: "even then, still" },
@@ -230,7 +230,7 @@ const LINES = {
 
   v8b: {
     roman: "Ikk vārī dass te jā, dukh kihde agge pholānge",
-    english: "{2:Just} {1:tell} us {0:once}, {4:who else} {5:is there to share} {3:our sorrows} with?",
+    english: "{2:Just} {1:tell} me {0:once}, {4:who else} {5:is there to share} {3:my sorrows} with?",
     words: [
       { roman: "Ikk vārī",   gloss: "just once" },
       { roman: "dass",       gloss: "tell" },
@@ -243,7 +243,7 @@ const LINES = {
 
   outro1: {
     roman: "Eh likh ke main jāvāngā, mā",
-    english: "{2:I} {3:will leave this world} {1:writing} {0:these very words}, {4:Mother}:",
+    english: "{1:Writing} {0:this}, {2:I} {3:will leave}, {4:Mother}:",
     words: [
       { roman: "Eh",         gloss: "this, these very words" },
       { roman: "likh ke",    gloss: "having written" },
@@ -255,7 +255,7 @@ const LINES = {
 
   outro2: {
     roman: "Agle janam vī mā, terā putt kahāvāngā",
-    english: "{1:Even} in my {0:next life}, {2:Mother}, {5:I will be called} {3:Your} {4:son}.",
+    english: "{1:Even} {0:in the next life}, {2:Mother}, {5:I will be called} {3:Your} {4:son}.",
     words: [
       { roman: "Agle janam", gloss: "in the next birth" },
       { roman: "vī",         gloss: "also, even" },
@@ -268,7 +268,7 @@ const LINES = {
 
   closing: {
     roman: "Koī hor nahī ae merā",
-    english: "{1:I have no} {0:one else} {2:but You}.",
+    english: "{1,2:I have no} {0:one else}.",
     words: [
       { roman: "Koī hor",    gloss: "anyone else" },
       { roman: "nahī ae",    gloss: "there is not" },
