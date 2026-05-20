@@ -142,100 +142,29 @@ a { color: inherit; }
   border-color: var(--ink);
 }
 
-/* Glossary search popover (summoned by #searchBtn in the topbar).
-   The popover is created on demand by openSearchPopover() and routed
-   through popoverManager so the single-popover rule still holds. */
-.search-popover {
-  position: fixed;
-  top: calc(var(--topbar-h) + 8px);
-  right: 14px;
-  width: min(440px, calc(100vw - 28px));
-  max-height: min(520px, calc(100dvh - var(--topbar-h) - 24px));
-  background: var(--bg);
-  border: 1px solid var(--rule);
-  border-radius: 8px;
-  box-shadow: 0 18px 44px rgba(0,0,0,0.16);
-  z-index: 340;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
+/* Topbar circular icon button — used for Theme and About. Small (~32 px)
+   icon-only circles. The 44 px tap target is restored on touch screens
+   via a transparent ::before below. */
+.topbar-btn--circle {
+  width: 32px;
+  height: 32px;
+  min-height: 32px;
+  padding: 0;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
 }
-.search-popover .sp-input-row {
-  display: flex; align-items: center; gap: 8px;
-  padding: 10px 12px;
-  border-bottom: 1px solid var(--rule);
-  background: var(--bg);
-}
-.search-popover .sp-input-row svg { color: var(--muted); flex-shrink: 0; }
-.search-popover input {
-  flex: 1 1 auto;
-  border: none;
-  outline: none;
-  background: transparent;
-  font-family: var(--sans);
-  font-size: 14px;
-  color: var(--ink);
-  min-width: 0;
-}
-.search-popover input::placeholder { color: var(--muted); }
-.search-popover .sp-close {
-  background: none; border: none;
-  font-size: 22px; line-height: 1;
-  cursor: pointer; padding: 2px 6px;
-  color: var(--muted);
-}
-.search-popover .sp-close:hover { color: var(--ink); }
-.search-popover .sp-results {
-  flex: 1 1 auto;
-  overflow-y: auto;
-  background: var(--bg);
-}
-.sp-result {
-  display: block;
-  width: 100%;
-  text-align: left;
-  background: none;
-  border: none;
-  padding: 10px 14px;
-  cursor: pointer;
-  font-family: var(--sans);
-  font-size: 13px;
-  color: var(--ink);
-  border-bottom: 1px solid var(--hairline);
-  transition: background 120ms ease;
-}
-.sp-result:last-child { border-bottom: none; }
-.sp-result:hover,
-.sp-result.is-active {
-  background: var(--bg-warm);
-}
-.sp-result .ts-term {
-  font-weight: 600;
-  font-family: var(--serif);
-  font-size: 14.5px;
-}
-.sp-result .ts-gloss {
-  display: block;
-  margin-top: 2px;
-  font-size: 11.5px;
-  color: var(--muted);
-  font-family: var(--sans);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.sp-empty {
-  padding: 16px 14px;
-  font-family: var(--sans);
-  font-size: 12px;
-  color: var(--muted);
-  font-style: italic;
-}
-.sp-hint {
-  padding: 14px 14px;
-  font-family: var(--sans);
-  font-size: 12px;
-  color: var(--muted);
+.topbar-btn--circle svg { display: block; flex-shrink: 0; }
+@media (pointer: coarse) {
+  .topbar-btn--circle::before {
+    content: "";
+    position: absolute;
+    inset: -6px;
+    /* Invisible 44×44 hit target on touch devices. */
+  }
 }
 
 /* Theme toggle icon swap — sun shown in light mode, moon in dark. */
@@ -1465,15 +1394,13 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
 .glossary-popover::-webkit-scrollbar { width: 6px; }
 .glossary-popover::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 3px; }
 .glossary-popover .gp-close {
-  position: absolute;
-  top: 8px; right: 10px;
+  flex-shrink: 0;
   width: 28px; height: 28px;
   display: flex; align-items: center; justify-content: center;
   background: none; border: none;
   font-size: 20px; line-height: 1;
   cursor: pointer; color: var(--muted);
   border-radius: 4px;
-  z-index: 2;
 }
 .glossary-popover .gp-close:hover,
 .glossary-popover .gp-close:focus-visible {
@@ -1481,13 +1408,90 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
   background: var(--rule-warm);
   outline: none;
 }
+
+/* In-popover search row — search input + close button pinned to the top.
+   The body region below scrolls; this row stays put so the user can keep
+   searching while reading. */
+.glossary-popover .gp-search-row {
+  display: flex; align-items: center; gap: 8px;
+  margin: -16px -20px 12px;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--rule);
+  background: var(--bg);
+  position: sticky;
+  top: -16px;
+  z-index: 3;
+}
+.glossary-popover .gp-search-row svg {
+  color: var(--muted); flex-shrink: 0;
+}
+.glossary-popover .gp-search-input {
+  flex: 1 1 auto;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: var(--sans);
+  font-size: 14px;
+  color: var(--ink);
+  min-width: 0;
+  padding: 4px 0;
+}
+.glossary-popover .gp-search-input::placeholder { color: var(--muted); }
+
+.glossary-popover .gp-results { display: block; }
+.glossary-popover .gp-result {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 10px 4px;
+  margin: 0 -4px;
+  cursor: pointer;
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--ink);
+  border-bottom: 1px solid var(--hairline);
+  transition: background 120ms ease;
+  border-radius: 3px;
+}
+.glossary-popover .gp-result:last-child { border-bottom: none; }
+.glossary-popover .gp-result:hover,
+.glossary-popover .gp-result.is-active {
+  background: var(--bg-warm);
+}
+.glossary-popover .gp-result .ts-term {
+  font-weight: 600;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 14.5px;
+}
+.glossary-popover .gp-result .ts-gloss {
+  display: block;
+  margin-top: 2px;
+  font-size: 11.5px;
+  color: var(--muted);
+  font-family: var(--sans);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.glossary-popover .gp-search-empty,
+.glossary-popover .gp-search-hint {
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--muted);
+  padding: 8px 2px;
+  margin: 0;
+}
+.glossary-popover .gp-search-empty { font-style: italic; }
+
 .glossary-popover .gp-term {
   font-family: "Noto Serif", var(--serif);
   font-style: italic;
   font-size: 18px;
   font-weight: 500;
   color: var(--ink);
-  padding-right: 32px; /* clear the X close button */
 }
 /* Eyebrow shown when the surface form the user clicked differs from the
    canonical term_iast (alias resolution). Makes the alias relation visible
@@ -1500,7 +1504,6 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
   text-transform: uppercase;
   color: var(--muted);
   margin-bottom: 3px;
-  padding-right: 32px;
 }
 .glossary-popover .gp-eyebrow em {
   font-style: italic;
@@ -1615,10 +1618,15 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
     margin: -10px auto 14px;
   }
   .glossary-popover .gp-close {
-    top: 14px; right: 14px;
     font-size: 24px;
     width: 32px; height: 32px;
     display: flex; align-items: center; justify-content: center;
+  }
+  /* Match mobile padding so the sticky search row's negative margin
+     bleeds correctly to the bottom-sheet edges. */
+  .glossary-popover .gp-search-row {
+    margin: -22px -22px 12px;
+    top: -22px;
   }
   .glossary-popover .gp-term { font-size: 22px; }
   .glossary-popover .gp-row { font-size: 14px; }
@@ -2633,20 +2641,6 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
   .topbar .subtitle { display: none; }
   .topbar-btn--icon { padding: 7px 8px; }
   .topbar-btn--icon .btn-text { display: none; }
-  /* Mobile: search popover becomes a bottom-sheet for consistency with
-     the glossary-term popover. */
-  .search-popover {
-    top: auto;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    max-height: 70dvh;
-    border-radius: 14px 14px 0 0;
-    border-left: none;
-    border-right: none;
-    border-bottom: none;
-  }
   /* Detail-pane tabbar must scroll horizontally on narrow viewports —
      otherwise the "Translation" tab wraps mid-word at 375 px width. */
   .dp-tabbar {
