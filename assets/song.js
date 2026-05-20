@@ -16,9 +16,9 @@ const LINES = {
       { roman: "Mā",         gloss: "Mother" },
       { roman: "merī",       gloss: "my" },
       { roman: "sachīyā",    gloss: "true, genuine, eternal" },
-      { roman: "jotā",       gloss: "sacred flames; the divine jyoti" },
+      { roman: "jotā",       gloss: "flames, sacred lamp-flames" },
       { roman: "wālī",       gloss: "bearer of, associated with" },
-      { roman: "mātā",       gloss: "Mother Goddess" },
+      { roman: "mātā",       gloss: "mother" },
       { roman: "terī",       gloss: "Your" },
       { roman: "sadā hī",    gloss: "always, forever" },
       { roman: "jai",        gloss: "victory, glory, praise" }
@@ -30,9 +30,9 @@ const LINES = {
     english: "{0:I} {3:have} {2:grabbed onto} the {1:hem} of {4:Your} {1:dress}; {6,7:I have no} {5:one else}.",
     words: [
       { roman: "Main",     gloss: "I" },
-      { roman: "laṛ",      gloss: "the hem, the edge of Your garment" },
+      { roman: "laṛ",      gloss: "hem, edge of a garment" },
       { roman: "phaṛyā",   gloss: "have grasped, have held" },
-      { roman: "ae",       gloss: "is — used here as the auxiliary ‘have’" },
+      { roman: "ae",       gloss: "is" },
       { roman: "terā",     gloss: "Yours" },
       { roman: "koī hor",  gloss: "anyone else" },
       { roman: "nahī ae",  gloss: "there is not" },
@@ -46,7 +46,7 @@ const LINES = {
     words: [
       { roman: "Asī",        gloss: "we" },
       { roman: "sāh",        gloss: "breath" },
-      { roman: "chhaḍ",      gloss: "releasing, letting go" },
+      { roman: "chhaḍ",      gloss: "leave, let go" },
       { roman: "jāvānge",    gloss: "we will go" }
     ]
   },
@@ -56,8 +56,8 @@ const LINES = {
     english: "{0:Then} {2:You will} {1:cry out} — and {3:I} {5,6:will not} {4:turn back}.",
     words: [
       { roman: "Pher",       gloss: "then, afterwards" },
-      { roman: "bājā",       gloss: "cries, calls (out to)" },
-      { roman: "māroge",     gloss: "You will strike, You will call out" },
+      { roman: "bājā",       gloss: "horn, instrument (in idiom 'bājā mārnā' = to call out, to summon)" },
+      { roman: "māroge",     gloss: "you will strike, you will sound" },
       { roman: "asī",        gloss: "we" },
       { roman: "muṛ",        gloss: "back, again" },
       { roman: "nahīyo",     gloss: "not (emphatic)" },
@@ -73,7 +73,7 @@ const LINES = {
       { roman: "zindagī",    gloss: "life" },
       { roman: "ton",        gloss: "from" },
       { roman: "kī",         gloss: "what" },
-      { roman: "lainā",      gloss: "is there to take, is there to gain" },
+      { roman: "lainā",      gloss: "to take, to get" },
       { roman: "mā",         gloss: "Mother" }
     ]
   },
@@ -82,11 +82,11 @@ const LINES = {
     roman: "Darshan nā hoyā, pher jī ke kī lainā",
     english: "If {1:I do not get} to {0:see You}, {4:what will I gain} {3:from living}?",
     words: [
-      { roman: "Darshan",    gloss: "sacred sight — the reciprocal seeing of the deity" },
-      { roman: "nā hoyā",    gloss: "has not occurred, did not happen" },
+      { roman: "Darshan",    gloss: "sacred sight, seeing" },
+      { roman: "nā hoyā",    gloss: "did not happen, has not occurred" },
       { roman: "pher",       gloss: "then" },
-      { roman: "jī ke",      gloss: "by living" },
-      { roman: "kī lainā",   gloss: "what is there to gain" }
+      { roman: "jī ke",      gloss: "by living, having lived" },
+      { roman: "kī lainā",   gloss: "what to take, what to get" }
     ]
   },
 
@@ -95,7 +95,7 @@ const LINES = {
     english: "{0:I} {3:will come} to {2:Your} {1:door} just like this.",
     words: [
       { roman: "Asī",        gloss: "we" },
-      { roman: "dar",        gloss: "door, threshold of Your shrine" },
+      { roman: "dar",        gloss: "door, threshold" },
       { roman: "tere",       gloss: "Your" },
       { roman: "āvānge",     gloss: "we will come" }
     ]
@@ -103,13 +103,13 @@ const LINES = {
 
   v3b: {
     roman: "Saun apnī pāvengī, tainū chhaḍ ke nā jāvānge",
-    english: "Even if {2:You place} {1:Your own} {0:oath} upon me, {5:I will never} {4:leave} {3:You}.",
+    english: "Even if {2:You have me swear by} {1:Your own} {0:oath}, {5:I will never} {4:leave} {3:You}.",
     words: [
       { roman: "Saun",          gloss: "oath" },
-      { roman: "apnī",          gloss: "Your own" },
-      { roman: "pāvengī",       gloss: "You will place the oath upon us" },
+      { roman: "apnī",          gloss: "one's own, your own" },
+      { roman: "pāvengī",       gloss: "you will place, you will put (in idiom 'saun pāuṇā' = to impose an oath)" },
       { roman: "tainū",         gloss: "You" },
-      { roman: "chhaḍ ke",      gloss: "leaving, having left" },
+      { roman: "chhaḍ ke",      gloss: "having left, leaving" },
       { roman: "nā jāvānge",    gloss: "we will not go" }
     ]
   },
@@ -130,8 +130,8 @@ const LINES = {
     roman: "Kado pherā ā jāve, is miṭṭī dī ḍherī ae",
     english: "{0:Who knows when} {1:the turn} {2:will come}? {3:This} {7:is} just a {6:pile} {5:of} {4:dust}.",
     words: [
-      { roman: "Kado",       gloss: "whenever, who knows when" },
-      { roman: "pherā",      gloss: "the turn, the cycle, the final summons" },
+      { roman: "Kado",       gloss: "when" },
+      { roman: "pherā",      gloss: "a turn, a round, a visit" },
       { roman: "ā jāve",     gloss: "may come" },
       { roman: "is",         gloss: "this" },
       { roman: "miṭṭī",      gloss: "earth, dust, clay" },
@@ -146,8 +146,8 @@ const LINES = {
     english: "{3:I will just stay} {2:at} {0:Your} {1:feet}.",
     words: [
       { roman: "Tere",       gloss: "Your" },
-      { roman: "charnā",     gloss: "Your sacred feet" },
-      { roman: "’ch",        gloss: "at, in (contraction of vicc)" },
+      { roman: "charnā",     gloss: "feet" },
+      { roman: "’ch",        gloss: "in, at (contraction of vicc)" },
       { roman: "reh lānge",  gloss: "we will stay, we will remain" }
     ]
   },
@@ -158,10 +158,10 @@ const LINES = {
     words: [
       { roman: "Tū",             gloss: "You" },
       { roman: "sānū",           gloss: "us" },
-      { roman: "māf kar deyī",   gloss: "forgive — a gentle, respectful command" },
+      { roman: "māf kar deyī",   gloss: "please forgive (gentle imperative)" },
       { roman: "asī",            gloss: "we" },
-      { roman: "hass ke",        gloss: "smiling, with a smile" },
-      { roman: "seh lānge",      gloss: "we will endure, we will bear it" }
+      { roman: "hass ke",        gloss: "laughing, smiling" },
+      { roman: "seh lānge",      gloss: "we will bear, we will endure" }
     ]
   },
 
@@ -196,8 +196,8 @@ const LINES = {
     english: "{0:Your} {1:grace} {3:is} {2:infinite}, {4:Mother}.",
     words: [
       { roman: "Tere",       gloss: "Your" },
-      { roman: "reham",      gloss: "mercies, graces" },
-      { roman: "bathere",    gloss: "countless, abundant" },
+      { roman: "reham",      gloss: "mercy, grace" },
+      { roman: "bathere",    gloss: "many, plentiful" },
       { roman: "ne",         gloss: "are" },
       { roman: "mā",         gloss: "Mother" }
     ]
@@ -207,13 +207,13 @@ const LINES = {
     roman: "Khushīyā dikhā de vī mā, nahī te hanjū bathere ne",
     english: "{1:Show me} {0:happiness}, {3:Mother}. {4:Otherwise}, {5:tears} {6:are plentiful}.",
     words: [
-      { roman: "Khushīyā",   gloss: "joys, happiness" },
-      { roman: "dikhā de",   gloss: "show us" },
-      { roman: "vī",         gloss: "at least, also" },
+      { roman: "Khushīyā",   gloss: "joys, happinesses" },
+      { roman: "dikhā de",   gloss: "show, let see" },
+      { roman: "vī",         gloss: "also, even" },
       { roman: "mā",         gloss: "Mother" },
       { roman: "nahī te",    gloss: "otherwise" },
       { roman: "hanjū",      gloss: "tears" },
-      { roman: "bathere ne", gloss: "are plentiful, are many" }
+      { roman: "bathere ne", gloss: "are many, are plentiful" }
     ]
   },
 
@@ -223,7 +223,7 @@ const LINES = {
     words: [
       { roman: "Asī",            gloss: "we" },
       { roman: "pher vī",        gloss: "even then, still" },
-      { roman: "nahī bolānge",   gloss: "will not speak, will not complain" },
+      { roman: "nahī bolānge",   gloss: "we will not speak" },
       { roman: "mā",             gloss: "Mother" }
     ]
   },
@@ -234,10 +234,10 @@ const LINES = {
     words: [
       { roman: "Ikk vārī",   gloss: "just once" },
       { roman: "dass",       gloss: "tell" },
-      { roman: "te jā",      gloss: "go on, do tell" },
-      { roman: "dukh",       gloss: "sorrows, pains" },
+      { roman: "te jā",      gloss: "and go" },
+      { roman: "dukh",       gloss: "sorrow, pain" },
       { roman: "kihde agge", gloss: "before whom" },
-      { roman: "pholānge",   gloss: "I will let blossom — from phūl (flower); sorrows opening like petals" }
+      { roman: "pholānge",   gloss: "(we) will blossom, will spread open" }
     ]
   },
 
@@ -245,10 +245,10 @@ const LINES = {
     roman: "Eh likh ke main jāvāngā, mā",
     english: "{1:Writing} {0:this}, {2:I} {3:will leave}, {4:Mother}:",
     words: [
-      { roman: "Eh",         gloss: "this, these very words" },
+      { roman: "Eh",         gloss: "this" },
       { roman: "likh ke",    gloss: "having written" },
       { roman: "main",       gloss: "I" },
-      { roman: "jāvāngā",    gloss: "I will go, I will depart" },
+      { roman: "jāvāngā",    gloss: "I will go" },
       { roman: "mā",         gloss: "Mother" }
     ]
   },
@@ -257,11 +257,11 @@ const LINES = {
     roman: "Agle janam vī mā, terā putt kahāvāngā",
     english: "{1:Even} {0:in the next life}, {2:Mother}, {5:I will be called} {3:Your} {4:son}.",
     words: [
-      { roman: "Agle janam", gloss: "in the next birth" },
+      { roman: "Agle janam", gloss: "next birth, next life" },
       { roman: "vī",         gloss: "also, even" },
       { roman: "mā",         gloss: "Mother" },
       { roman: "terā",       gloss: "Your" },
-      { roman: "putt",       gloss: "son — a deeply tender word in Punjabi" },
+      { roman: "putt",       gloss: "son" },
       { roman: "kahāvāngā",  gloss: "I will be called" }
     ]
   },
