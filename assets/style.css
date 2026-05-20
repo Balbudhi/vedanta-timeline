@@ -498,15 +498,27 @@ body.is-space-pan .timeline-scroller * { cursor: grab !important; }
   cursor: pointer;
   transform: translate(-50%, -50%);
   outline: none;
+  /* Hover/focus/active raise the dot above its neighbors so when 44x44
+     touch hit-targets overlap (dense regions, fanned clusters), the
+     visually-top dot also wins the click — eliminates the "click
+     bounces between two adjacent dots" symptom. */
+  z-index: 1;
 }
-/* invisible 44x44 hit area for touch (centered on the dot) */
-.thinker-dot::before {
-  content: "";
-  position: absolute;
-  left: 50%; top: 50%;
-  width: 44px; height: 44px;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
+.thinker-dot:hover,
+.thinker-dot:focus-within,
+.thinker-dot.is-active { z-index: 7; }
+/* Invisible touch hit area — only on coarse pointers (touch). On
+   desktop, the visible dot + label are already easy to click and the
+   44x44 padding causes hit-target overlap that bounces adjacent clicks. */
+@media (pointer: coarse) {
+  .thinker-dot::before {
+    content: "";
+    position: absolute;
+    left: 50%; top: 50%;
+    width: 44px; height: 44px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+  }
 }
 .thinker-dot .node {
   background: var(--dot-color);
@@ -3215,4 +3227,130 @@ sup.cite-fn .cite-fn-link:hover {
   box-shadow: var(--shadow-lg, 0 10px 30px rgba(0,0,0,0.18));
   opacity: 0.97;
   user-select: none;
+}
+
+/* =============================================================
+   DARK THEME
+   ============================================================= */
+/* Dark palette. Off-white on warm deep-charcoal (not pure black on
+   pure white) — this is a content-heavy reading site with diacritic-
+   heavy IAST text, and pure-black backgrounds wash out the marks.
+   Applied via the [data-theme="dark"] attribute set on <html> by
+   app.js. Every color token defined in :root is overridden here. */
+html[data-theme="dark"] {
+  --bg:           #13110e;
+  --bg-warm:      #1c1a16;
+  --bg-warmer:    #25221c;
+  --pane-bg:      #17150f;
+  --ink:          #e8e4d8;
+  --ink-soft:     #cfcbbf;
+  --muted:        #8d8879;
+  --muted-soft:   #6a6657;
+  --rule:         #2d2a23;
+  --rule-warm:    #38342c;
+  --hairline:     #24221c;
+  --shadow-sm:    0 1px 3px rgba(0,0,0,.38);
+  --shadow-md:    0 4px 12px rgba(0,0,0,.45);
+
+  --label-bg:     rgba(28,26,22,0.92);
+  --label-bg-soft: rgba(28,26,22,0.82);
+  --close-btn-bg: rgba(28,26,22,0.95);
+  --scrollbar-thumb: #3a352c;
+  --scrollbar-thumb-hover: #57513f;
+  --dot-border:   #13110e;
+  --on-ink:       #13110e;
+
+  /* School palette — desaturated + brightened so colored chips and
+     dots stay legible on the dark canvas. Same hues, lifted L*. */
+  --c-advaita: #6ea3f8;
+  --c-vishishtadvaita: #50c298;
+  --c-dvaita: #f0a651;
+  --c-bhedabheda: #c79df6;
+  --c-acintya: #f48abb;
+  --c-shuddha: #f06e8f;
+  --c-avibhaga: #5fc6dc;
+  --c-trika: #a3b1c8;
+  --c-cross: #a3b1c8;
+  --c-proto: #a8a39a;
+}
+
+/* Subtle overrides for surfaces that are intentionally pale-warm
+   (notes, callouts, perspective bubbles). Map them to dark warm
+   surfaces so the visual "callout" intent is preserved. */
+html[data-theme="dark"] .work-card { background: var(--bg-warm); }
+html[data-theme="dark"] .compclaim-card { background: var(--bg-warm); }
+html[data-theme="dark"] .source-status--present { background: #16241a; color: #7adc97; }
+html[data-theme="dark"] .source-status--present .dot { background: #4ade80; }
+html[data-theme="dark"] .source-status--missing { background: #2a1f10; color: #f0bb6c; }
+html[data-theme="dark"] .source-status--missing .dot { background: #f59e0b; }
+
+/* Translator-note and pending-acquisition warm cream surfaces. */
+html[data-theme="dark"] .glossary-popover .gp-translator,
+html[data-theme="dark"] .citation-popover .cp-pending,
+html[data-theme="dark"] .perspective-bubble,
+html[data-theme="dark"] .compclaim-note,
+html[data-theme="dark"] .articles-modal .articles-list .article-card,
+html[data-theme="dark"] .perspective-card {
+  background: #251c10;
+  color: var(--ink);
+}
+
+/* Verdict pills — keep the hue, darken the surface. */
+html[data-theme="dark"] .compclaim-card[data-verdict="genuine-disagreement"],
+html[data-theme="dark"] .compclaim-card[data-verdict="real-disagreement"] {
+  --verdict-color: #f87171; --verdict-bg: #311414; --verdict-fg: #fca5a5;
+}
+html[data-theme="dark"] .compclaim-card[data-verdict="terminological"],
+html[data-theme="dark"] .compclaim-card[data-verdict="terminological-equivalence"] {
+  --verdict-color: #93c5fd; --verdict-bg: #13213a; --verdict-fg: #bfdbfe;
+}
+html[data-theme="dark"] .compclaim-card[data-verdict="parallel-structure"],
+html[data-theme="dark"] .compclaim-card[data-verdict="shared-presupposition"] {
+  --verdict-color: #6ee7b7; --verdict-bg: #122a20; --verdict-fg: #a7f3d0;
+}
+html[data-theme="dark"] .compclaim-card[data-verdict="contested"] {
+  --verdict-color: #fbbf24; --verdict-bg: #2a1d0b; --verdict-fg: #fde68a;
+}
+
+/* Glossary popover school-framing tints. */
+html[data-theme="dark"] .glossary-popover .gp-framing {
+  background: #1a1f2a;
+  border-left-color: #7a96c8;
+}
+html[data-theme="dark"] .glossary-popover .gp-framing-status,
+html[data-theme="dark"] .glossary-popover .gp-shared-core { color: var(--ink); }
+html[data-theme="dark"] .glossary-popover .gp-axes { color: var(--ink-soft); }
+html[data-theme="dark"] .glossary-popover .gp-regtag {
+  color: var(--ink-soft); background: var(--bg-warmer);
+}
+html[data-theme="dark"] .glossary-popover .gp-translator .gp-label { color: #f0bb6c; }
+
+/* Coverage pills inside translation pane. */
+html[data-theme="dark"] .dp-translation-body .tx-coverage-full .tx-coverage-tag { color: #7adc97; background: #16241a; }
+html[data-theme="dark"] .dp-translation-body .tx-coverage-selection .tx-coverage-tag { color: #f0bb6c; background: #2a1f10; }
+html[data-theme="dark"] .dp-translation-body .tx-coverage-placeholder .tx-coverage-tag { color: #f48aaa; background: #2a1314; }
+
+/* Close button on mobile — pale background ring */
+html[data-theme="dark"] .close-btn { background: var(--close-btn-bg); }
+
+/* Solo-filter pill hover */
+html[data-theme="dark"] .filter-solo-pill:hover { background: var(--ink); color: var(--on-ink); }
+
+/* "Perspective open" CTA — keep the strong fill but in inverse */
+html[data-theme="dark"] .perspective-open { background: var(--ink); color: var(--on-ink); }
+html[data-theme="dark"] .perspective-open:hover { background: var(--ink-soft); }
+
+/* Network-legend bullets / school-color-chips */
+html[data-theme="dark"] .network-legend { background: var(--bg-warm); }
+
+/* SVG timeline strokes use a few hard-coded greys. */
+html[data-theme="dark"] .lineage-edge--polemical { stroke: #6a7280; }
+
+/* Topbar sticky background — keep solid for legibility while panning */
+html[data-theme="dark"] .topbar { background: var(--bg); }
+
+/* Modals: backdrop dim */
+html[data-theme="dark"] .articles-modal,
+html[data-theme="dark"] .about-modal {
+  background: rgba(0,0,0,0.65);
 }

@@ -600,8 +600,6 @@ function setupAudioPlayer() {
   const btn     = document.getElementById("apPlayPause");
   const progEl  = document.getElementById("apProgress");
   const barEl   = document.getElementById("apProgressBar");
-  const tCurEl  = document.getElementById("apTimeCurrent");
-  const tTotEl  = document.getElementById("apTimeTotal");
   if (!audio || !btn) return;
 
   btn.addEventListener("click", () => {
@@ -611,13 +609,9 @@ function setupAudioPlayer() {
   audio.addEventListener("play",  () => { btn.classList.add("is-playing");    btn.setAttribute("aria-label", "Pause"); });
   audio.addEventListener("pause", () => { btn.classList.remove("is-playing"); btn.setAttribute("aria-label", "Play");  });
 
-  audio.addEventListener("loadedmetadata", () => {
-    tTotEl.textContent = fmtTime(audio.duration);
-  });
   audio.addEventListener("timeupdate", () => {
     const pct = audio.duration ? (audio.currentTime / audio.duration) * 100 : 0;
     barEl.style.width = pct + "%";
-    tCurEl.textContent = fmtTime(audio.currentTime);
   });
 
   progEl.addEventListener("click", e => {
