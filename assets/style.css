@@ -21,6 +21,15 @@
   --shadow-sm:    0 1px 3px rgba(0,0,0,.04);
   --shadow-md:    0 4px 12px rgba(0,0,0,.06);
 
+  /* chrome tokens — surfaces, labels, etc. */
+  --label-bg:     rgba(255,255,255,0.92);
+  --label-bg-soft: rgba(255,255,255,0.85);
+  --close-btn-bg: rgba(255,255,255,0.95);
+  --scrollbar-thumb: #d8d8d8;
+  --scrollbar-thumb-hover: #b8b8b8;
+  --dot-border:   #fff;
+  --on-ink:       #fff;
+
   /* layout */
   --topbar-h: 48px;
   --lane-h: 96px;
@@ -129,62 +138,65 @@ a { color: inherit; }
 .topbar-btn--icon svg { display: block; flex-shrink: 0; }
 .topbar-btn.is-active {
   background: var(--ink);
-  color: #fff;
+  color: var(--on-ink);
   border-color: var(--ink);
 }
 
-/* Glossary search field. Sits in the topbar between the icon buttons
-   and the right edge; on narrow viewports it collapses to icon-only
-   until focused. Results render absolutely-positioned beneath the
-   topbar as a fixed-position popover (managed by popoverManager). */
-.topbar-search {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  height: 32px;
-  padding: 0 10px;
-  border: 1px solid var(--rule);
-  border-radius: 4px;
+/* Glossary search popover (summoned by #searchBtn in the topbar).
+   The popover is created on demand by openSearchPopover() and routed
+   through popoverManager so the single-popover rule still holds. */
+.search-popover {
+  position: fixed;
+  top: calc(var(--topbar-h) + 8px);
+  right: 14px;
+  width: min(440px, calc(100vw - 28px));
+  max-height: min(520px, calc(100dvh - var(--topbar-h) - 24px));
   background: var(--bg);
-  flex-shrink: 1;
-  min-width: 0;
-  max-width: 240px;
-  transition: border-color 140ms ease;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  box-shadow: 0 18px 44px rgba(0,0,0,0.16);
+  z-index: 340;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
-.topbar-search:focus-within { border-color: var(--ink); }
-.topbar-search-icon { color: var(--muted); flex-shrink: 0; margin-right: 6px; }
-.topbar-search input {
+.search-popover .sp-input-row {
+  display: flex; align-items: center; gap: 8px;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--rule);
+  background: var(--bg);
+}
+.search-popover .sp-input-row svg { color: var(--muted); flex-shrink: 0; }
+.search-popover input {
+  flex: 1 1 auto;
   border: none;
   outline: none;
   background: transparent;
   font-family: var(--sans);
-  font-size: 12.5px;
+  font-size: 14px;
   color: var(--ink);
-  width: 100%;
   min-width: 0;
 }
-.topbar-search input::placeholder { color: var(--muted); }
-.topbar-search-results {
-  position: fixed;
-  top: calc(var(--topbar-h) + 4px);
-  right: 14px;
-  width: min(420px, calc(100vw - 28px));
-  max-height: min(420px, calc(100dvh - var(--topbar-h) - 24px));
+.search-popover input::placeholder { color: var(--muted); }
+.search-popover .sp-close {
+  background: none; border: none;
+  font-size: 22px; line-height: 1;
+  cursor: pointer; padding: 2px 6px;
+  color: var(--muted);
+}
+.search-popover .sp-close:hover { color: var(--ink); }
+.search-popover .sp-results {
+  flex: 1 1 auto;
   overflow-y: auto;
   background: var(--bg);
-  border: 1px solid var(--rule);
-  border-radius: 6px;
-  box-shadow: 0 14px 38px rgba(0,0,0,0.14);
-  z-index: 340;
 }
-.topbar-search-results[hidden] { display: none; }
-.topbar-search-result {
+.sp-result {
   display: block;
   width: 100%;
   text-align: left;
   background: none;
   border: none;
-  padding: 9px 14px;
+  padding: 10px 14px;
   cursor: pointer;
   font-family: var(--sans);
   font-size: 13px;
@@ -192,17 +204,17 @@ a { color: inherit; }
   border-bottom: 1px solid var(--hairline);
   transition: background 120ms ease;
 }
-.topbar-search-result:last-child { border-bottom: none; }
-.topbar-search-result:hover,
-.topbar-search-result.is-active {
+.sp-result:last-child { border-bottom: none; }
+.sp-result:hover,
+.sp-result.is-active {
   background: var(--bg-warm);
 }
-.topbar-search-result .ts-term {
+.sp-result .ts-term {
   font-weight: 600;
   font-family: var(--serif);
   font-size: 14.5px;
 }
-.topbar-search-result .ts-gloss {
+.sp-result .ts-gloss {
   display: block;
   margin-top: 2px;
   font-size: 11.5px;
@@ -212,13 +224,24 @@ a { color: inherit; }
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.topbar-search-empty {
-  padding: 12px 14px;
+.sp-empty {
+  padding: 16px 14px;
   font-family: var(--sans);
   font-size: 12px;
   color: var(--muted);
   font-style: italic;
 }
+.sp-hint {
+  padding: 14px 14px;
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* Theme toggle icon swap — sun shown in light mode, moon in dark. */
+.theme-icon-sun, .theme-icon-moon { display: block; }
+html[data-theme="dark"] .theme-icon-sun { display: none; }
+html:not([data-theme="dark"]) .theme-icon-moon { display: none; }
 
 /* =============================================================
    STAGE / PANES
@@ -286,8 +309,8 @@ body.is-space-pan .timeline-scroller * { cursor: grab !important; }
   scroll-behavior: auto;
 }
 .timeline-scroller::-webkit-scrollbar { width: 8px; height: 8px; }
-.timeline-scroller::-webkit-scrollbar-thumb { background: #d8d8d8; border-radius: 4px; }
-.timeline-scroller::-webkit-scrollbar-thumb:hover { background: #b8b8b8; }
+.timeline-scroller::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 4px; }
+.timeline-scroller::-webkit-scrollbar-thumb:hover { background: var(--scrollbar-thumb-hover); }
 
 .canvas {
   position: relative;
@@ -410,7 +433,7 @@ body.is-space-pan .timeline-scroller * { cursor: grab !important; }
   position: sticky;
   top: 0;
   height: var(--era-strip-h);
-  background: rgba(255,255,255,0.92);
+  background: var(--label-bg);
   backdrop-filter: blur(4px);
   border-bottom: 1px solid var(--hairline);
   z-index: 7;
@@ -488,7 +511,7 @@ body.is-space-pan .timeline-scroller * { cursor: grab !important; }
 .thinker-dot .node {
   background: var(--dot-color);
   border-radius: 50%;
-  border: 2px solid #fff;
+  border: 2px solid var(--dot-border);
   box-shadow: 0 0 0 1px var(--dot-color);
   transition: transform 180ms ease, box-shadow 180ms ease;
 }
@@ -503,7 +526,7 @@ body.is-space-pan .timeline-scroller * { cursor: grab !important; }
 }
 .thinker-dot.is-active .node {
   transform: scale(1.3);
-  box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--dot-color), 0 0 0 8px rgba(0,0,0,.06);
+  box-shadow: 0 0 0 2px var(--dot-border), 0 0 0 4px var(--dot-color), 0 0 0 8px rgba(0,0,0,.06);
 }
 .thinker-dot:focus-visible .node {
   outline: 2px solid var(--dot-color);
@@ -573,7 +596,7 @@ body.is-space-pan .timeline-scroller * { cursor: grab !important; }
   font-size: 11px; font-weight: 500;
   letter-spacing: -0.005em;
   color: var(--ink);
-  background: rgba(255,255,255,0.92);
+  background: var(--label-bg);
   padding: 1px 4px;
   border-radius: 2px;
   pointer-events: none;     /* clicks go to the parent .label button */
@@ -586,7 +609,7 @@ body.is-space-pan .timeline-scroller * { cursor: grab !important; }
   font-size: 10px;
   color: var(--muted);
   margin-top: 1px;
-  background: rgba(255,255,255,0.85);
+  background: var(--label-bg-soft);
   padding: 0 3px;
   border-radius: 2px;
   pointer-events: none;
@@ -910,7 +933,7 @@ body.is-detail-open .detail-pane {
 }
 .school-pill {
   background: var(--dot-color);
-  color: #fff;
+  color: var(--on-ink);
 }
 .tier-pill {
   background: var(--rule-warm);
@@ -969,7 +992,7 @@ body.is-detail-open .detail-pane {
 
 /* work card */
 .work-card {
-  background: #ffffff;
+  background: var(--bg);
   border: 1px solid var(--rule);
   border-left: 4px solid var(--dot-color);
   border-radius: 4px;
@@ -1188,7 +1211,7 @@ body.is-detail-open .detail-pane {
 
 /* comparative claim cards */
 .compclaim-card {
-  background: #ffffff;
+  background: var(--bg);
   border: 1px solid var(--rule);
   border-left: 4px solid var(--verdict-color, var(--rule));
   border-radius: 4px;
@@ -1302,7 +1325,7 @@ body.is-detail-open .detail-pane {
   font-size: 13px;
   font-weight: 600;
   background: var(--ink);
-  color: #ffffff;
+  color: var(--on-ink);
   border: none;
   border-radius: 3px;
   padding: 8px 14px;
@@ -1428,7 +1451,7 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
   line-height: 1.55;
 }
 .glossary-popover::-webkit-scrollbar { width: 6px; }
-.glossary-popover::-webkit-scrollbar-thumb { background: #d8d8d8; border-radius: 3px; }
+.glossary-popover::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 3px; }
 .glossary-popover .gp-close {
   position: absolute;
   top: 8px; right: 10px;
@@ -1622,7 +1645,7 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
   position: fixed;
 }
 .citation-popover::-webkit-scrollbar { width: 6px; }
-.citation-popover::-webkit-scrollbar-thumb { background: #d8d8d8; border-radius: 3px; }
+.citation-popover::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 3px; }
 .citation-popover .cp-close {
   position: absolute;
   top: 8px; right: 10px;
@@ -2438,7 +2461,7 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
 .filter-chip.is-on {
   background: var(--ink);
   border-color: var(--ink);
-  color: #fff;
+  color: var(--on-ink);
 }
 .filter-chip.is-on .chip-swatch { box-shadow: 0 0 0 1.5px #fff; }
 .filter-chip .chip-swatch {
@@ -2513,7 +2536,7 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
   background: rgba(0,0,0,0.04);
 }
 .filter-chip-wrap.is-on .filter-chip-solo:hover {
-  color: #fff;
+  color: var(--on-ink);
   background: var(--ink);
 }
 /* Subtle pill shown in the topbar when solo-mode is active. */
@@ -2524,7 +2547,7 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
   padding: 0 10px;
   margin-left: -4px;
   background: var(--ink);
-  color: #fff;
+  color: var(--on-ink);
   border: none;
   border-radius: 999px;
   font-family: var(--sans);
@@ -2598,25 +2621,19 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
   .topbar .subtitle { display: none; }
   .topbar-btn--icon { padding: 7px 8px; }
   .topbar-btn--icon .btn-text { display: none; }
-  /* Mobile: collapse the search input to icon-only until focused, then
-     expand to fill the remaining row. Results panel anchors to the
-     full screen width so long term titles never clip. */
-  .topbar-search {
-    height: 32px;
-    padding: 0 8px;
-    max-width: 32px;
-    overflow: hidden;
-    transition: max-width 180ms ease;
-  }
-  .topbar-search:focus-within { max-width: 100%; flex: 1 1 auto; }
-  .topbar-search input { font-size: 14px; }
-  .topbar-search-icon { margin-right: 0; }
-  .topbar-search:focus-within .topbar-search-icon { margin-right: 6px; }
-  .topbar-search-results {
-    left: 8px;
-    right: 8px;
-    width: auto;
+  /* Mobile: search popover becomes a bottom-sheet for consistency with
+     the glossary-term popover. */
+  .search-popover {
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
     max-height: 70dvh;
+    border-radius: 14px 14px 0 0;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
   }
   /* Detail-pane tabbar must scroll horizontally on narrow viewports —
      otherwise the "Translation" tab wraps mid-word at 375 px width. */
@@ -2672,7 +2689,7 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
   .lane-row.lane-row--sub .lane-name { font-size: 11px; }
   .filter-drawer-inner { padding: 12px 14px 14px; }
   .close-btn {
-    background: rgba(255,255,255,0.95);
+    background: var(--close-btn-bg);
     backdrop-filter: blur(6px);
     border: 1px solid var(--rule);
     border-radius: 50%;
@@ -2730,7 +2747,7 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
 .view-toggle-btn:hover { background: var(--bg-warm); }
 .view-toggle-btn.is-active {
   background: var(--ink);
-  color: #fff;
+  color: var(--on-ink);
 }
 
 /* =============================================================
@@ -2758,7 +2775,7 @@ body.view-network .lineage-edge { stroke-width: 1.1px; }
   top: 10px;
   right: 14px;
   z-index: 9;
-  background: rgba(255,255,255,0.96);
+  background: var(--close-btn-bg);
   backdrop-filter: blur(6px);
   border: 1px solid var(--rule);
   border-radius: 6px;

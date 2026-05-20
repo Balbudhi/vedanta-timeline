@@ -69,7 +69,6 @@ html, body {
   height: 60px;
   padding: 0 28px;
   background: var(--kh-bg);
-  border-top: 1px solid var(--kh-rule);
   display: flex;
   align-items: center;
   gap: 18px;
@@ -113,15 +112,17 @@ html, body {
 }
 .ap-time {
   font-family: var(--kh-serif);
-  font-size: 14px;
-  color: var(--kh-ink-soft);
+  font-size: 16px;
+  color: var(--kh-ink);
   font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
   white-space: nowrap;
-  min-width: 36px;
+  min-width: 40px;
   text-align: center;
   letter-spacing: 0.02em;
+  font-weight: 400;
 }
-.ap-time-total { color: var(--kh-ink-mid); }
+.ap-time-total { color: var(--kh-ink-soft); }
 .audio-player audio { display: none; }
 
 /* ---------- Line block ---------- */
@@ -149,7 +150,7 @@ html, body {
 .line-english {
   font-family: var(--kh-serif);
   font-style: italic;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.55;
   color: var(--kh-ink-soft);
   margin: 0;
@@ -160,13 +161,13 @@ html, body {
 .rep {
   display: inline-block;
   margin-left: 14px;
-  padding: 2px 11px;
+  padding: 2px 12px;
   font-family: var(--kh-serif);
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 400;
-  color: var(--kh-ink-soft);
+  color: var(--kh-ink);
   background: transparent;
-  border: 1px solid var(--kh-rule);
+  border: 1px solid rgba(244, 234, 208, 0.32);
   border-radius: 999px;
   vertical-align: 0.18em;
   white-space: nowrap;
@@ -231,8 +232,8 @@ html, body {
   .song-hero { margin-bottom: 56px; padding-bottom: 28px; }
   .line { margin-bottom: 32px; padding: 6px 14px; margin-left: -14px; margin-right: -14px; }
   .line-roman { font-size: 22px; line-height: 1.55; }
-  .line-english { font-size: 18px; line-height: 1.55; }
-  .rep { font-size: 13.5px; padding: 1px 9px; margin-left: 12px; }
+  .line-english { font-size: 20px; line-height: 1.55; }
+  .rep { font-size: 15px; padding: 2px 11px; margin-left: 12px; }
   .word-tooltip {
     max-width: 82vw;
     font-size: 17px;
@@ -246,7 +247,7 @@ html, body {
     gap: 14px;
   }
   .ap-btn { width: 36px; height: 36px; }
-  .ap-time { font-size: 13px; min-width: 32px; }
+  .ap-time { font-size: 15px; min-width: 36px; }
 }
 
 @media (max-width: 380px) {

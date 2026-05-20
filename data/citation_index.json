@@ -7990,9 +7990,9 @@
       "locus_short": "SK 40",
       "sanskrit_iast": "pūrvotpannam asaktaṃ niyataṃ mahadādisūkṣmaparyantam / saṃsarati nirupabhogaṃ bhāvair adhivāsitaṃ liṅgam //",
       "english_close": "The subtle body, produced previously, unattached, fixed, extending from mahat down to the subtle elements, transmigrates without enjoyment, permeated by the bhāvas.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER0 .txt#isk_40",
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_40",
       "verified": false,
-      "verification_note": "IAST fragment not found in best-match source file ( SANKHYAPLACEHOLDER1 /sankhya_karika_isvarakrsna.txt)."
+      "verification_note": "IAST fragment not found in best-match source file (sanskrit/samkhya/sankhya_karika_isvarakrsna.txt)."
     },
     "isvarakrsna/sankhya-karika/43": {
       "thinker_id": "isvarakrsna",
@@ -8001,7 +8001,7 @@
       "locus_short": "SK 43",
       "sanskrit_iast": "sāṃsiddhikāś ca bhāvāḥ prākṛtikā vaikṛtāś ca dharmādyāḥ / dṛṣṭāḥ karaṇāśrayiṇaḥ kāryāśrayiṇaś ca kalalādyāḥ //",
       "english_close": "The states beginning with dharma are seen as innate, natural, and derivative; they rest in the instruments, and, like the embryonic stages and the rest, they also rest in the effect.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER2 .txt#isk_43",
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_43",
       "verified": true
     },
     "isvarakrsna/sankhya-karika/44": {
@@ -8011,7 +8011,7 @@
       "locus_short": "SK 44",
       "sanskrit_iast": "dharmeṇa gamanam ūrdhvaṃ gamanam adhastād bhavaty adharmeṇa / jñānena cāpavargo viparyayād iṣyate bandhaḥ //",
       "english_close": "By dharma there is ascent upward; by adharma there is descent downward. By knowledge there is release; by the opposite, bondage is held to occur.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER3 .txt#isk_44",
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_44",
       "verified": true
     },
     "kanada/vaisesika-sutra/1.1.1": {
@@ -8103,7 +8103,7 @@
       "locus_short": "SK 22 comm.",
       "sanskrit_iast": "prakṛtiḥ pradhānam adhikurute | brahma avyaktaṃ bahudhātmakaṃ māyeti paryāyāḥ | tasyāḥ prakṛter mahān utpadyate prathamaḥ kaścit |",
       "english_close": "Prakṛti acts as the pradhāna. 'Brahma', 'avyakta', 'bahudhātmaka', and 'māyā' are synonyms. From that prakṛti the mahat first arises.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER4 / SANKHYAPLACEHOLDER5 .txt#329"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_karika_with_comm.txt#329"
     },
     "mathara/sankhya-karika-vrtti/68": {
       "thinker_id": "mathara",
@@ -8112,7 +8112,7 @@
       "locus_short": "SK 68 comm.",
       "sanskrit_iast": "prāpte śarīrabhede caritārthatvāt pradhānavinivṛttau / aikāntikam ātyantikam ubhayaṃ kaivalyam āpnoti // ... pradhānaṃ ca kṛtaprayojanaṃ bhūyo 'nyat śarīraṃ dvitīyaṃ nārabhate viduṣaḥ |",
       "english_close": "When the body is broken and pradhāna has ceased because its task is accomplished, one attains kaivalya that is both definitive and final. Pradhāna, having fulfilled its purpose, does not undertake another body for the knower.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER6 / SANKHYAPLACEHOLDER7 .txt#733"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_karika_with_comm.txt#733"
     },
     "vyasa/yoga-bhasya/1.24-1.25": {
       "thinker_id": "vyasa",
@@ -8220,7 +8220,7 @@
       "locus_short": "SK 17",
       "sanskrit_iast": "saṅghātaparārthatvāt triguṇādiviparyayād adhiṣṭhānāt / puruṣo 'sti bhoktṛbhāvāt kaivalyārthapravṛtteś ca //",
       "english_close": "The *puruṣa* exists because aggregates are for another, because of the inversion from the three guṇas and the like, because of an underlying support, because of enjoyership, and because activity is directed toward *kaivalya*.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER8 .txt#L49"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#L49"
     },
     "isvarakrsna/sankhya-karika/isk_18": {
       "thinker_id": "isvarakrsna",
@@ -8229,7 +8229,7 @@
       "locus_short": "SK 18",
       "sanskrit_iast": "janmamaraṇakaraṇānāṃ pratiniyamād ayugapatpravṛtteś ca / puruṣabahutvaṃ siddhaṃ traiguṇyaviparyayāc caiva //",
       "english_close": "The plurality of *puruṣas* is established from the specific allotment of birth, death, and instruments, from the non-simultaneity of activity, and again from the inversion relative to the guṇas.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER9 .txt#L52"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#L52"
     },
     "isvarakrsna/sankhya-karika/isk_19": {
       "thinker_id": "isvarakrsna",
@@ -8238,7 +8238,7 @@
       "locus_short": "SK 19",
       "sanskrit_iast": "tasmāc ca viparyāsāt siddhaṃ sākṣitvam asya puruṣasya / kaivalyaṃ mādhyasthyaṃ draṣṭṛtvam akartṛbhāvaś ca //",
       "english_close": "From that inversion are established for this *puruṣa* witnesshood, isolation, neutrality, seerhood, and non-agency.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER10 .txt#L55"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#L55"
     },
     "isvarakrsna/sankhya-karika/isk_59": {
       "thinker_id": "isvarakrsna",
@@ -8247,7 +8247,7 @@
       "locus_short": "SK 59",
       "sanskrit_iast": "raṅgasya darśayitvā nivartate nartakī yathā nṛtyāt / puruṣasya tathātmānaṃ prakāśya vinivartate prakṛtiḥ //",
       "english_close": "As a dancer withdraws after displaying herself upon the stage, so prakṛti withdraws after revealing herself to the *puruṣa*.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER11 .txt#L175"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#L175"
     },
     "patanjali/yoga-sutra/ys_2.20": {
       "thinker_id": "patanjali",
@@ -8418,7 +8418,7 @@
       "locus_short": "SK 17",
       "sanskrit_iast": "saṅghātaparārthatvāt triguṇādiviparyayād adhiṣṭhānāt / puruṣo 'sti bhoktṛbhāvāt kaivalyārthapravṛtteś ca //",
       "english_close": "Puruṣa exists because the composite exists for another, because of the opposite of the three guṇa-s and the rest, because of superintendence, because of the condition of being an experiencer, and because of striving for isolation.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER12 .txt#isk_17"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_17"
     },
     "isvarakrsna/sankhya-karika/18": {
       "thinker_id": "isvarakrsna",
@@ -8427,7 +8427,7 @@
       "locus_short": "SK 18",
       "sanskrit_iast": "janmamaraṇakaraṇānāṃ pratiniyamād ayugapatpravṛtteś ca / puruṣabahutvaṃ siddhaṃ traiguṇyaviparyayāc caiva //",
       "english_close": "The plurality of puruṣa-s is established because births, deaths, and instruments are individually ordered, because activities do not occur all at once, and because of the opposite of the three guṇa-s.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER13 .txt#isk_18"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_18"
     },
     "isvarakrsna/sankhya-karika/19": {
       "thinker_id": "isvarakrsna",
@@ -8436,7 +8436,7 @@
       "locus_short": "SK 19",
       "sanskrit_iast": "tasmāc ca viparyāsāt siddhaṃ sākṣitvam asya puruṣasya / kaivalyaṃ mādhyasthyaṃ draṣṭṛtvam akartṛbhāvaś ca //",
       "english_close": "And from that contrariety, the witnesshood of this puruṣa is established, along with isolation, neutrality, the status of seer, and non-agency.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER14 .txt#isk_19"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_19"
     },
     "isvarakrsna/sankhya-karika/20": {
       "thinker_id": "isvarakrsna",
@@ -8445,7 +8445,7 @@
       "locus_short": "SK 20",
       "sanskrit_iast": "tasmāt tatsaṃyogād acetanaṃ cetanāvad iva liṅgam / guṇakartṛtve 'pi tathā karteva bhavaty udāsīnaḥ //",
       "english_close": "From conjunction with that, the non-conscious subtle body appears as if conscious; and although the guṇa-s are the agents, the indifferent one becomes as if an agent.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER15 .txt#isk_20"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_20"
     },
     "isvarakrsna/sankhya-karika/21": {
       "thinker_id": "isvarakrsna",
@@ -8454,7 +8454,7 @@
       "locus_short": "SK 21",
       "sanskrit_iast": "puruṣasya darśanārthaṃ kaivalyārthaṃ tathā pradhānasya / paṅgvandhavad ubhayor api saṃyogas tatkṛtaḥ sargaḥ //",
       "english_close": "For the sake of the puruṣa's seeing, and likewise for the sake of isolation, the conjunction of the two occurs like the lame and the blind; from that creation arises.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER16 .txt#isk_21"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_21"
     },
     "isvarakrsna/sankhya-karika/65": {
       "thinker_id": "isvarakrsna",
@@ -8463,7 +8463,7 @@
       "locus_short": "SK 65",
       "sanskrit_iast": "tena nivṛttaprasavām arthavaśāt saptarūpavinivṛttām / prakṛtiṃ paśyati puruṣaḥ prekṣakavad avasthitaḥ svasthaḥ //",
       "english_close": "Then the puruṣa, poised in itself like a spectator, sees prakṛti, whose productivity has ceased and which, because its purpose is fulfilled, has withdrawn its seven forms.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER17 .txt#isk_65"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_65"
     },
     "ksemaraja/pratyabhijna-hrdayam/10": {
       "thinker_id": "ksemaraja",
@@ -8679,7 +8679,7 @@
       "locus_short": "SK 9",
       "sanskrit_iast": "asadakaraṇād upādānagrahaṇāt sarvasambhavābhāvāt / śaktasya śakyakaraṇāt kāraṇabhāvāc ca sat kāryam //",
       "english_close": "Because the non-existent cannot be produced, because a material basis is selectively appropriated, because not everything arises from everything, because a capable cause produces only what it can produce, and because the effect has the character of the cause, the effect is real in the cause.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER18 .txt#isk_9"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_9"
     },
     "isvarakrsna/sankhya-karika/9-commentary": {
       "thinker_id": "isvarakrsna",
@@ -8688,7 +8688,7 @@
       "locus_short": "SK 9 comm.",
       "sanskrit_iast": "iha loke sad eva sad bhavati | asataḥ karaṇaṃ nāsti ... tasmāt paśyāmaḥ sarvasambhavābhāvād api mahadādi kāryaṃ pradhāne sad eva sad bhavatīti.",
       "english_close": "In ordinary experience, only what is real comes forth from what is real; production from the unreal does not occur. Therefore mahat and the rest are to be understood as already real in pradhāna before manifestation.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER19 / SANKHYAPLACEHOLDER20 .txt#skmv_9"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_karika_with_comm.txt#skmv_9"
     },
     "patanjali/yoga-sutra/4.12": {
       "thinker_id": "patanjali",
@@ -8769,7 +8769,7 @@
       "locus_short": "SK 31",
       "sanskrit_iast": "svāṃ svāṃ pratipadyante parasparākūtahaitukīṃ vṛttim /\npuruṣārtha eva heturna kenacitkāryate karaṇam //",
       "english_close": "They undertake their respective functions, each occasioned by the intention of the others. The purpose of puruṣa alone is the motive; the instrument is not made to act by anything else.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER21 / SANKHYAPLACEHOLDER22 3.txt#isk_31"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_karika_with_comm3.txt#isk_31"
     },
     "isvarakrsna/sankhya-karika/32": {
       "thinker_id": "isvarakrsna",
@@ -8778,7 +8778,7 @@
       "locus_short": "SK 32",
       "sanskrit_iast": "karaṇaṃ trayodaśavidham, tadāharaṇadhāraṇaprakāśakaram /\nkāryaṃ ca tasya daśadhā, hāryaṃ dhāryaṃ prakāśyaṃ ca //",
       "english_close": "The instrument is of thirteen kinds, effecting bringing, holding, and illuminating. Its field is tenfold: what is to be brought, held, and illuminated.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER23 / SANKHYAPLACEHOLDER24 3.txt#isk_32"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_karika_with_comm3.txt#isk_32"
     },
     "isvarakrsna/sankhya-karika/33": {
       "thinker_id": "isvarakrsna",
@@ -8787,7 +8787,7 @@
       "locus_short": "SK 33",
       "sanskrit_iast": "antaḥkaraṇaṃ trividhaṃ daśadhā bāhyaṃ trayasya viṣayākhyam /\nsāmpratakālaṃ bāhyaṃ trikālamābhyantaraṃ karaṇam //",
       "english_close": "The internal instrument is threefold; the external is tenfold and is called the object-domain of those three. The external instrument operates in the present time; the internal instrument is tri-temporal.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER25 / SANKHYAPLACEHOLDER26 3.txt#isk_33"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_karika_with_comm3.txt#isk_33"
     },
     "vyasa/yoga-bhasya/3.47-48": {
       "thinker_id": "vyasa",
@@ -8922,7 +8922,7 @@
       "locus_short": "SK 23",
       "sanskrit_iast": "adhyavasāyo buddhir dharmo jñānaṃ virāga aiśvaryam / sāttvikam etad rūpaṃ tāmasam asmād viparyastam //",
       "english_close": "Buddhi is ascertainment. Dharma, knowledge, dispassion, and lordly power are its sāttvika form; the contrary to this is tāmasa.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER27 .txt#isk_23"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_23"
     },
     "isvarakrsna/sankhya-karika/64": {
       "thinker_id": "isvarakrsna",
@@ -8931,7 +8931,7 @@
       "locus_short": "SK 64",
       "sanskrit_iast": "evaṃ tattvābhyāsān nāsmi na me nāham ity apariśeṣam / aviparyayād viśuddhaṃ kevalam utpadyate jñānam //",
       "english_close": "Thus, through repeated practice concerning the tattvas, there arises, exhaustively, the purified and isolated knowledge: 'I am not this, it is not mine, I am not [the tattvas],' free from error.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER28 .txt#isk_64"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_64"
     },
     "patanjali/yoga-sutra/1.6-9": {
       "thinker_id": "patanjali",
@@ -9120,7 +9120,7 @@
       "locus_short": "SK 17-19",
       "sanskrit_iast": "saṅghātaparārthatvāt triguṇādiviparyayād adhiṣṭhānāt / puruṣo 'sti bhoktṛbhāvāt kaivalyārthapravṛtteś ca // janmamaraṇakaraṇānāṃ pratiniyamād ayugapatpravṛtteś ca / puruṣabahutvaṃ siddhaṃ traiguṇyaviparyayāc caiva // tasmāc ca viparyāsāt siddhaṃ sākṣitvam asya puruṣasya / kaivalyaṃ mādhyasthyaṃ draṣṭṛtvam akartṛbhāvaś ca //",
       "english_close": "Puruṣa exists because the composite exists for another, because of the opposite of the three guṇa-s and the rest, because of superintendence, because of enjoyership, and because of striving for kaivalya. The plurality of puruṣa-s is established because births, deaths, and instruments are individually ordered, because activity does not occur all at once, and because of the opposite of the three guṇa-s. From that very contrariety are established its witnesshood, neutrality, seerhood, and non-agency.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER29 .txt#L49-L56"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#L49-L56"
     },
     "isvarakrsna/sankhya-karika/62-65": {
       "thinker_id": "isvarakrsna",
@@ -9129,7 +9129,7 @@
       "locus_short": "SK 62-65",
       "sanskrit_iast": "tasmān na badhyate nāpi mucyate nāpi saṃsarati kaścit / saṃsarati badhyate mucyate ca nānāśrayā prakṛtiḥ // rūpaiḥ saptabhir evaṃ badhnāty ātmānam ātmanā prakṛtiḥ / saiva ca puruṣasyārthaṃ prati vimocayaty ekarūpeṇa // evaṃ tattvābhyāsān nāsmi na me nāham ity apariśeṣam / aviparyayād viśuddhaṃ kevalam utpadyate jñānam // tena nivṛttaprasavām arthavaśāt saptarūpavinivṛttām / prakṛtiṃ paśyati puruṣaḥ prekṣakavad avasthitaḥ svasthaḥ //",
       "english_close": "Therefore no one is really bound, released, or transmigrating; it is prakṛti, resting on various bases, that transmigrates, is bound, and is released. By seven forms prakṛti binds itself by itself, and by a single form it releases itself for the sake of puruṣa. Through repeated practice of the tattva-s there arises the pure knowledge, leaving nothing over, that 'I am not, nothing is mine, I am not this.' Then the puruṣa, established in itself like a spectator, sees prakṛti, whose production has ceased and whose seven forms have withdrawn because its purpose is fulfilled.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER30 .txt#L184-L194"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#L184-L194"
     },
     "patanjali/yoga-sutra/2.17-25": {
       "thinker_id": "patanjali",
@@ -9228,7 +9228,7 @@
       "locus_short": "KapSS 3.14",
       "sanskrit_iast": "aṇuparimāṇaṃ tatkṛtiśruteḥ",
       "english_close": "It is of atomic measure, because scripture states its making of that [body].",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER31 / SANKHYAPLACEHOLDER32 .txt#481"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_sutra_kapila.txt#481"
     },
     "kapila/sankhya-sutra/5.69-71": {
       "thinker_id": "kapila",
@@ -9237,7 +9237,7 @@
       "locus_short": "KapSS 5.69-71",
       "sanskrit_iast": "na vyāpakatvaṃ manasaḥ karaṇatvād indriyatvād vā vāsyādivac cakṣurādivac ca / sakriyatvāt gatiśruteḥ / na nirbhāgatvaṃ tadyogāt ghaṭavat",
       "english_close": "Mind is not pervasive, because it is an instrument, or an organ, like an adze or like the eye and the rest. It is active, because scripture speaks of its movement. It is not partless, because it stands in conjunction, like a pot.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER33 / SANKHYAPLACEHOLDER34 .txt#821"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_sutra_kapila.txt#821"
     },
     "isvarakrsna/sankhya-karika-commentary/11": {
       "thinker_id": "isvarakrsna",
@@ -9246,7 +9246,7 @@
       "locus_short": "SKMV 11",
       "sanskrit_iast": "tad yathā vyaktād visadṛśaṃ pradhānaṃ tathā pradhānasadharmā puruṣaḥ | tathā hi ahetumān nityo vyāpī niṣkriya eko 'nāśrito 'liṅgo niravayavaḥ svatantra iti",
       "english_close": "Just as the pradhāna is unlike the manifest, so the puruṣa has the same properties as the pradhāna: it is uncaused, eternal, pervasive, inactive, one, unsupported, without a mark, partless, and independent.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER35 / SANKHYAPLACEHOLDER36 .txt#224"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_karika_with_comm.txt#224"
     },
     "vyasa/yoga-bhasya/1.40": {
       "thinker_id": "vyasa",
@@ -9372,7 +9372,7 @@
       "locus_short": "SK 59",
       "sanskrit_iast": "raṅgasya darśayitvā nivartate nartakī yathā nṛtyāt / puruṣasya tathātmānaṃ prakāśya vinivartate prakṛtiḥ //",
       "english_close": "As a dancer withdraws after displaying herself upon the stage, so prakṛti withdraws after revealing herself to the puruṣa.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER37 .txt#isk_59"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_59"
     },
     "kapila/sankhya-sutra/5.61": {
       "thinker_id": "kapila",
@@ -9381,7 +9381,7 @@
       "locus_short": "KapSS 5.61",
       "sanskrit_iast": "nādvaitam ātmano liṅgāt tadbhedapratīteḥ",
       "english_close": "The self is not nondual, because the sign gives apprehension of its difference.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER38 / SANKHYAPLACEHOLDER39 .txt#kapss_5.61"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_sutra_kapila.txt#kapss_5.61"
     },
     "patanjali/yoga-sutra/2.17": {
       "thinker_id": "patanjali",
@@ -9516,7 +9516,7 @@
       "locus_short": "SS 3.76",
       "sanskrit_iast": "tatvābhyāsān neti netīti tyāgāt vivekasiddhiḥ",
       "english_close": "From repeated practice of the tattvas, through the rejection 'not this, not this', there is the accomplishment of discrimination.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER40 / SANKHYAPLACEHOLDER41 .txt#kapss_3.76"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_sutra_kapila.txt#kapss_3.76"
     },
     "isvarakrsna/sankhya-karika/67": {
       "thinker_id": "isvarakrsna",
@@ -9525,7 +9525,7 @@
       "locus_short": "SK 67",
       "sanskrit_iast": "samyagjñānādhigamād dharmādīnām akāraṇaprāptau / tiṣṭhati saṃskāravaśāc cakrabhramavad dhṛtaśarīraḥ //",
       "english_close": "With the attainment of right knowledge, dharma and the other factors cease to be causally operative; yet, by force of residual impressions, one remains embodied like a wheel that keeps turning.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER42 .txt#isk_67"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_67"
     },
     "patanjali/yoga-sutra/2.26": {
       "thinker_id": "patanjali",
@@ -9642,7 +9642,7 @@
       "locus_short": "SK 57",
       "sanskrit_iast": "vatsavivṛddhinimittaṃ kṣīrasya yathā pravṛttir ajñasya /\npuruṣavimokṣanimittaṃ tathā pravṛttiḥ pradhānasya //",
       "english_close": "Just as milk, though unconscious, acts for the calf's growth, so the activity of pradhāna is for the sake of the puruṣa's release.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER43 .txt#isk_57"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_57"
     },
     "isvarakrsna/sankhya-karika/62": {
       "thinker_id": "isvarakrsna",
@@ -9651,7 +9651,7 @@
       "locus_short": "SK 62",
       "sanskrit_iast": "tasmān na badhyate nāpi mucyate nāpi saṃsarati kaścit /\nsaṃsarati badhyate mucyate ca nānāśrayā prakṛtiḥ //",
       "english_close": "Therefore no one is bound, released, or transmigrates; prakṛti, resting on diverse bases, transmigrates, is bound, and is released.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER44 .txt#isk_62"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_62"
     },
     "isvarakrsna/sankhya-karika/63": {
       "thinker_id": "isvarakrsna",
@@ -9660,7 +9660,7 @@
       "locus_short": "SK 63",
       "sanskrit_iast": "rūpaiḥ saptabhir evaṃ badhnāty ātmānam ātmanā prakṛtiḥ /\nsaiva ca puruṣasyārthaṃ prati vimocayaty ekarūpeṇa //",
       "english_close": "Through seven forms, prakṛti thus binds itself by itself, and for the sake of puruṣa it releases itself by a single form.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER45 .txt#isk_63"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_63"
     },
     "patanjali/yoga-sutra/2.5": {
       "thinker_id": "patanjali",
@@ -9777,7 +9777,7 @@
       "locus_short": "SK 27",
       "sanskrit_iast": "ubhayātmakam atra manaḥ saṅkalpakam indriyaṃ ca sādharmyāt / guṇapariṇāmaviśeṣān nānātvaṃ grāhyabhedāc ca //",
       "english_close": "Here the mind is of both kinds, being a conceptualizer and also an organ because of homology; plurality arises from distinctions in the transformations of the guṇas and from difference in the objects grasped.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER46 .txt#isk_27"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_27"
     },
     "kapila/sankhya-sutra/1.57": {
       "thinker_id": "kapila",
@@ -9786,7 +9786,7 @@
       "locus_short": "SS 1.57",
       "sanskrit_iast": "pradhānāvivekāt anyāvivekasya taddhāne hānaṃ |",
       "english_close": "From non-discrimination of pradhāna comes the other non-discrimination; when that is removed, the rest are removed.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER47 / SANKHYAPLACEHOLDER48 .txt#kapss_1.57"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_sutra_kapila.txt#kapss_1.57"
     },
     "kapila/sankhya-sutra/2.27": {
       "thinker_id": "kapila",
@@ -9795,7 +9795,7 @@
       "locus_short": "SS 2.27",
       "sanskrit_iast": "guṇapariṇāmabhedānnānātvamavasthāvat |",
       "english_close": "Plurality is due to difference in the transformations of the guṇas, as with distinct states.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER49 / SANKHYAPLACEHOLDER50 .txt#kapss_2.27"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_sutra_kapila.txt#kapss_2.27"
     },
     "vyasa/yoga-bhasya/3.49": {
       "thinker_id": "vyasa",
@@ -9921,7 +9921,7 @@
       "locus_short": "SS 1.149",
       "sanskrit_iast": "janmāduvyavasthātaḥ puruṣabahutvaṃ",
       "english_close": "The plurality of puruṣas follows from the ordered distribution of birth and the rest.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER51 / SANKHYAPLACEHOLDER52 .txt#kapss_1.149"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_sutra_kapila.txt#kapss_1.149"
     },
     "kapila/sankhya-sutra/1.154": {
       "thinker_id": "kapila",
@@ -9930,7 +9930,7 @@
       "locus_short": "SS 1.154",
       "sanskrit_iast": "nādvaitaśrutivirodho jātiparatvāt",
       "english_close": "There is no conflict with the non-dual scripture, because it is directed to the genus.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER53 / SANKHYAPLACEHOLDER54 .txt#kapss_1.154"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_sutra_kapila.txt#kapss_1.154"
     },
     "kapila/sankhya-sutra/6.46": {
       "thinker_id": "kapila",
@@ -9939,7 +9939,7 @@
       "locus_short": "SS 6.46",
       "sanskrit_iast": "upādhiścet tatsiddhau punardvaitaṃ",
       "english_close": "If it is an upādhi, then once that is admitted duality appears again.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER55 / SANKHYAPLACEHOLDER56 .txt#kapss_6.46"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_sutra_kapila.txt#kapss_6.46"
     },
     "vyasa/yoga-bhasya/3.50": {
       "thinker_id": "vyasa",
@@ -10020,7 +10020,7 @@
       "locus_short": "SK 19-20",
       "sanskrit_iast": "tasmāc ca viparyāsāt siddhaṃ sākṣitvam asya puruṣasya /\nkaivalyaṃ mādhyasthyaṃ draṣṭṛtvam akartṛbhāvaś ca //\n\ntasmāt tatsaṃyogād acetanaṃ cetanāvad iva liṅgam /\nguṇakartṛtve 'pi tathā karteva bhavaty udāsīnaḥ //",
       "english_close": "Therefore, from that inversion it is established that this puruṣa is a witness; and likewise isolation, neutrality, seerhood, and non-agenthood. Therefore, through conjunction with that, the non-conscious subtle body appears as if conscious; though the guṇas are the agents, the indifferent puruṣa appears as if a doer.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER57 .txt#L55"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#L55"
     },
     "isvarakrsna/sankhya-karika-comm/20": {
       "thinker_id": "isvarakrsna",
@@ -10029,7 +10029,7 @@
       "locus_short": "SK Comm. 20",
       "sanskrit_iast": "yasmāc cetanasvabhāvaḥ puruṣaḥ, tasmāt tatsaṃyogād acetanaṃ mahadādi liṅgam adhyavasāyābhimānasaṅkalpālocanādiṣu vṛttiṣu cetanāvat pravartate | ... sattvādayo guṇāḥ kartāras taiḥ saṃyuktaḥ puruṣo 'pi akartāpi kartā bhavati | kartṛsaṃsargāt karteva | paraṃ paramārthatayā akartā puruṣaḥ //",
       "english_close": "Since the puruṣa is conscious by nature, the non-conscious subtle body beginning with mahat behaves as if conscious in functions such as determination, egoity, intention, and cognition through conjunction with it. The guṇas beginning with sattva are the doers; the puruṣa, though non-agent, appears as a doer through association with those agents. In ultimate truth, however, the puruṣa is not an agent.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER58 / SANKHYAPLACEHOLDER59 .txt#L313"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_karika_with_comm.txt#L313"
     },
     "isvarakrsna/sankhya-karika-comm/62": {
       "thinker_id": "isvarakrsna",
@@ -10038,7 +10038,7 @@
       "locus_short": "SK Comm. 62",
       "sanskrit_iast": "puruṣo na badhyate sarvagatatvāt, avikāratvāt, niṣkriyatvāt, akartṛtvāt | ... saṃsarati badhyate mucyate ca nānāśrayā prakṛtiḥ | prakṛtir ātmānaṃ badhnāti, mocayati, saṃsarati ca |",
       "english_close": "The puruṣa is not bound, because it is all-pervasive, unchanging, inactive, and non-agent. It is prakṛti, taking on various bases, that transmigrates, is bound, and is released; prakṛti binds itself, releases itself, and transmigrates.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER60 / SANKHYAPLACEHOLDER61 .txt#L692"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_karika_with_comm.txt#L692"
     },
     "vyasa/yoga-bhasya/2.18": {
       "thinker_id": "vyasa",
@@ -10200,7 +10200,7 @@
       "locus_short": "SS 1.20",
       "sanskrit_iast": "nāvidyāto 'py avastunā bandhāyogāt",
       "english_close": "Nor does bondage arise from avidyā either, since bondage from a non-entity is impossible.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER62 / SANKHYAPLACEHOLDER63 .txt#L85"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_sutra_kapila.txt#L85"
     },
     "isvarakrsna/sankhya-karika-with-commentary/44--viparyaya-as-ajñana": {
       "thinker_id": "isvarakrsna",
@@ -10209,7 +10209,7 @@
       "locus_short": "SKK 44",
       "sanskrit_iast": "jñānasya viparyayo 'jñānaṃ, tenājñānenāhaṃ darśanīyaḥ subhago 'haṃ bhoktāham iti manyate | tenājñānena manuṣyatiryagdeveṣv ātmānaṃ nibadhnāti |",
       "english_close": "The contrary of knowledge is ignorance. Through that ignorance one thinks, 'I am admirable; I am fortunate; I am the enjoyer.' Through that ignorance one binds oneself among humans, animals, and gods.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER64 / SANKHYAPLACEHOLDER65 .txt#L538"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_karika_with_comm.txt#L538"
     },
     "vatsyayana/nyaya-bhasya/4.2.1--mithyajnana-moha-anatmany-atmagrahah": {
       "thinker_id": "vatsyayana",
@@ -10371,7 +10371,7 @@
       "locus_short": "SK 4",
       "sanskrit_iast": "dṛṣṭam anumānam āptavacanaṃ ca sarvapramāṇasiddhatvāt / trividhaṃ pramāṇam iṣṭaṃ prameyasiddhiḥ pramāṇād dhi //",
       "english_close": "Perception, inference, and authoritative testimony: because all the means of knowledge are accounted for there, a threefold pramāṇa is accepted, for the establishment of the knowable depends on pramāṇa.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER66 / SANKHYAPLACEHOLDER67 .txt#154"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_karika_with_comm.txt#154"
     },
     "isvarakrsna/sankhya-karika/4-commentary": {
       "thinker_id": "isvarakrsna",
@@ -10380,7 +10380,7 @@
       "locus_short": "SK 4 comm.",
       "sanskrit_iast": "pratyakṣānumānābhyāṃ yo 'rthaḥ sādhayituṃ na śakyas tatrāptavacanam ... nanv arthāpattiḥ sambhavo 'bhāvaḥ pratibhā aitihyam upamānaṃ ceti prabhṛtīni santi bahūni pramāṇāntarāṇi katham atra trividhaṃ pramāṇam iti saṅgatiḥ | atrocyate sarvapramāṇasiddhatvāt | sarvāṇi hi pramāṇāni pramāṇatraye 'viruddhāni ... tasmāt triṣv evānyad antarbhavatīti yuktam abhihitaṃ trividhaṃ pramāṇam |",
       "english_close": "Where an object cannot be established by perception and inference, there authoritative testimony operates. But if one asks about further pramāṇas such as postulation, possibility, non-apprehension, intuition, report, and comparison, the reply is that all such pramāṇas are non-discrepant with the triad, so the rest are included within the three alone.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER68 / SANKHYAPLACEHOLDER69 .txt#157"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_karika_with_comm.txt#157"
     },
     "kapila/sankhya-sutra/1.87-1.101": {
       "thinker_id": "kapila",
@@ -10389,7 +10389,7 @@
       "locus_short": "SS 1.87-1.101",
       "sanskrit_iast": "dvayorekatarasyavāpy asannikṛṣṭārthaparicchittiḥ pramā, tatsādhakatamaṃ yat tat trividhaṃ pramāṇaṃ | yat saṃbaddhaṃ sat tadākārollekhi vijñānaṃ tat pratyakṣaṃ | pratibandhadṛśaḥ pratibaddhajñānam anumānaṃ | āptopadeśaḥ śabdaḥ |",
       "english_close": "True cognition is the ascertainment of an object not immediately present to one or both parties; that which is most effective in bringing it about is the threefold pramāṇa. Cognition marking the form of a present connected object is perception; constrained cognition arising from a seen entailment is inference; the teaching of a trustworthy person is verbal testimony.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER70 / SANKHYAPLACEHOLDER71 .txt#214"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_sutra_kapila.txt#214"
     },
     "patanjali/yoga-sutra/1.6-1.7": {
       "thinker_id": "patanjali",
@@ -10515,7 +10515,7 @@
       "locus_short": "SK 46-48",
       "sanskrit_iast": "eṣa pratyayasargo viparyayāśaktituṣṭisiddhyākhyaḥ / guṇavaiṣamyavimardena tasya bhedās tu pañcāśat // pañca viparyayabhedā bhavanty aśakteś ca karaṇavaikalyāt / aṣṭāviṃśatibhedā tuṣṭir navadhāṣṭadhā siddhiḥ // bhedas tamaso 'ṣṭavidho mohasya ca daśavidho mahāmohaḥ / tāmisro 'ṣṭādaśadhā tathā bhavaty andhatāmisraḥ //",
       "english_close": "This creation of cognitions is named viparyaya, incapacity, contentment, and accomplishment; through the clash produced by the inequality of the guṇas it has fifty divisions. There are five divisions of viparyaya. The forms of tamas are eightfold, of moha and mahāmoha tenfold, and of tāmisra and andhatāmisra eighteenfold.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER72 .txt#isk_46"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_46"
     },
     "patanjali/yoga-sutra/1.8": {
       "thinker_id": "patanjali",
@@ -10632,7 +10632,7 @@
       "locus_short": "SK 56",
       "sanskrit_iast": "ity eṣa prakṛtikṛto mahadādiviṣayabhūtaparyantaḥ / pratipuruṣavimokṣārthaṃ svārtha iva parārtha ārambhaḥ //",
       "english_close": "Thus this evolution produced by prakṛti, extending from mahat down to the elements and their objects, though for another, proceeds as if for itself, for the sake of each puruṣa's liberation.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER73 .txt#isk_56"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_56"
     },
     "isvarakrsna/sankhya-karika/68": {
       "thinker_id": "isvarakrsna",
@@ -10641,7 +10641,7 @@
       "locus_short": "SK 68",
       "sanskrit_iast": "prāpte śarīrabhede caritārthatvāt pradhānavinivṛttau / aikāntikam ātyantikam ubhayaṃ kaivalyam āpnoti //",
       "english_close": "When bodily disjunction occurs, and pradhāna has ceased because its purpose has been fulfilled, one attains kaivalya in both senses: certain and absolute.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER74 .txt#isk_68"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_68"
     },
     "patanjali/yoga-sutra/4.34": {
       "thinker_id": "patanjali",
@@ -10704,7 +10704,7 @@
       "locus_short": "SK 26",
       "sanskrit_iast": "buddhī'ndriyāṇi cakṣuḥ śrotra-ghrāṇa-rasana-tvag-ākhyāni / vāk-pāṇi-pāda-pāyūpasthān karm'endriyāṇy āhuḥ //",
       "english_close": "The faculties of cognition are called eye, ear, nose, tongue, and skin; the faculties of action are said to be speech, hands, feet, anus, and genitals.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER75 /sankhya_karika_isvarakrsna.txt#163"
+      "source": "materials/primary_texts/sanskrit/samkhya/sankhya_karika_isvarakrsna.txt#163"
     },
     "isvarakrsna/sankhya-karika/17-commentary": {
       "thinker_id": "isvarakrsna",
@@ -10713,7 +10713,7 @@
       "locus_short": "SK 17 comm.",
       "sanskrit_iast": "iha madhurāmlatiktalavaṇakaṭukaṣāyāḥ ṣaḍ rasāḥ | etaiḥ ṣaḍbhī rasair yuktaṃ bhojanaṃ dṛṣṭvā bhoktā sādhyate | asti bhoktā yasyedaṃ bhojanam | evam idaṃ vyaktāvyaktaṃ dṛṣṭvā sādhayāmo 'sty asau paramātmā puruṣo yasyedaṃ bhoktur vyaktāvyaktaṃ bhogyam iti |",
       "english_close": "Here there are six tastes: sweet, sour, bitter, salty, pungent, and astringent. Seeing food furnished with these six tastes, one establishes an enjoyer: there is an enjoyer for whom this food exists. So too, seeing the manifest and unmanifest, we establish a puruṣa for whom this manifest-unmanifest is the enjoyed.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER76 / SANKHYAPLACEHOLDER77 .txt#290"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_karika_with_comm.txt#290"
     },
     "isvarakrsna/sankhya-karika/22-commentary": {
       "thinker_id": "isvarakrsna",
@@ -10722,7 +10722,7 @@
       "locus_short": "SK 22 comm.",
       "sanskrit_iast": "tatra śabdatanmātrād ākāśam, sparśatanmātrād vāyuḥ, rūpatanmātrāt tejaḥ, rasatanmātrād āpaḥ, gandhatanmātrāt pṛthivī ityādikrameṇa pūrvapūrvānupraveśenaikadvitricatuṣpañcaguṇāny ākāśādipṛthvīparyantāni mahābhūtānīti sṛṣṭikramaḥ |",
       "english_close": "From sound-tanmātra comes space, from touch-tanmātra air, from form-tanmātra fire, from taste-tanmātra water, and from smell-tanmātra earth; thus, in sequence, the great elements arise.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER78 / SANKHYAPLACEHOLDER79 .txt#329"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_karika_with_comm.txt#329"
     },
     "patanjali/yoga-sutra/1.35-bhasya": {
       "thinker_id": "patanjali",
@@ -10848,7 +10848,7 @@
       "locus_short": "SS 1.92-1.94",
       "sanskrit_iast": "īśvarāsiddheḥ / muktāmuktayoḥ atyatarābhāvān na tatsiddhiḥ / ubhayathāpy asatkaratvaṃ",
       "english_close": "Īśvara is unestablished. Since he can be neither wholly liberated nor wholly unliberated, that postulate is not established. In either case the hypothesis is ineffective.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER80 / SANKHYAPLACEHOLDER81 .txt#223"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_sutra_kapila.txt#223"
     },
     "kapila/sankhya-sutra/5.2-5.9": {
       "thinker_id": "kapila",
@@ -10857,7 +10857,7 @@
       "locus_short": "SS 5.2-5.9",
       "sanskrit_iast": "neśvarādhiṣṭhite phalaniṣpattiḥ karmaṇā tatsiddheḥ / svopakārādadhiṣṭhānaṃ lokavat / na rāgādṛte tatsiddhiḥ pratiniyatakāraṇatvāt / tadyoge 'pi na nityamuktaḥ",
       "english_close": "The production of results does not depend on governance by Īśvara, because that is established through karma itself. Governance is for one's own benefit, as in the world. Nor is such governance established without desire, since action has determinate causes; and even if such conjunction were admitted, he would not be eternally liberated.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER82 / SANKHYAPLACEHOLDER83 .txt#689"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_sutra_kapila.txt#689"
     },
     "vatsyayana/nyaya-bhasya/4.1.19-21": {
       "thinker_id": "vatsyayana",
@@ -10947,7 +10947,7 @@
       "locus_short": "SK 5",
       "sanskrit_iast": "prativiṣayādhyavasāyo dṛṣṭaṃ trividham anumānam ākhyātam / tal liṅgaliṅgipūrvakam āptaśrutir āptavacanaṃ tu //",
       "english_close": "Perceptual ascertainment with respect to each object is perception, and inference is declared to be threefold. Trustworthy śruti, however, is authoritative utterance.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER84 .txt#isk_5"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_5"
     },
     "isvarakrsna/sankhya-karika/6": {
       "thinker_id": "isvarakrsna",
@@ -10956,7 +10956,7 @@
       "locus_short": "SK 6",
       "sanskrit_iast": "sāmānyatas tu dṛṣṭād atīndriyāṇāṃ pratītir anumānāt / tasmād api cāsiddhaṃ parokṣam āptāgamāt sādhyam //",
       "english_close": "From what is generally observed there is inferential cognition of the supersensible; and what, though beyond direct perception, is not established even from that is to be proved from reliable tradition.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER85 .txt#isk_6"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_6"
     },
     "vyasa-bhasya/yoga-sutra-bhasya/1.7": {
       "thinker_id": "vyasa-bhasya",
@@ -11064,7 +11064,7 @@
       "locus_short": "SK 11-14",
       "sanskrit_iast": "triguṇam aviveki viṣayaḥ sāmānyam acetana prasavadharmi / vyaktaṃ tathā pradhānaṃ tadviparītas tathā ca pumān // prītyaprītiviṣādātmakāḥ prakāśapravṛttiniyamārthāḥ / anyo 'nyābhibhavāśrayajananamithunavṛttayaś ca guṇāḥ // sattvaṃ laghu prakāśakam iṣṭam upaṣṭambhakaṃ calaṃ ca rajaḥ / guru varaṇakam eva tamaḥ pradīpavac cārthato vṛttiḥ // avivekyādiḥ siddhas traiguṇyāt tadviparyayābhāvāt / kāraṇaguṇātmakatvāt kāryasyāvyaktam api siddham //",
       "english_close": "The manifest and the primal source are tri-guṇic, non-discriminating, objective, common, non-conscious, and productive; puruṣa is the opposite. The guṇas are of the nature of pleasure, pain, and delusion, and of illumination, activity, and restraint; they operate by mutual overpowering, support, generation, and coupling. Sattva is light and illuminating, rajas mobile and stimulating, tamas heavy and obscuring. Because the effect is constituted by the guṇas of the cause, the unmanifest too is established.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER86 .txt#L31-L41"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#L31-L41"
     },
     "isvarakrsna/sankhya-karika/60": {
       "thinker_id": "isvarakrsna",
@@ -11073,7 +11073,7 @@
       "locus_short": "SK 60",
       "sanskrit_iast": "nānāvidhair upāyair upakāriṇy anupakāriṇaḥ puṃsaḥ / guṇavaty aguṇasya satas tasyārtham apārthakaṃ carati //",
       "english_close": "For the sake of the guṇaless puruṣa, though he does nothing for her, prakṛti, endowed with guṇas, moves in many ways as a benefactor.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER87 .txt#L178-L179"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#L178-L179"
     },
     "patanjali/yoga-sutra/1.16": {
       "thinker_id": "patanjali",
@@ -11208,7 +11208,7 @@
       "locus_short": "SK 46-49",
       "sanskrit_iast": "eṣa pratyayasargo viparyayāśaktituṣṭisiddhyākhyaḥ /\nguṇavaiṣamyavimardena tasya bhedās tu pañcāśat //\npañca viparyayabhedā bhavanty aśakteś ca karaṇavaikalyāt /\naṣṭāviṃśatibhedā tuṣṭir navadhāṣṭadhā siddhiḥ //\nbhedas tamaso 'ṣṭavidho mohasya ca daśavidho mahāmohaḥ /\ntāmisro 'ṣṭādaśadhā tathā bhavaty andhatāmisraḥ //\nekādaśendriyavadhāḥ saha buddhivadhair aśaktir uddiṣṭā /\nsaptadaśa vadhā buddher viparyayāt tuṣṭisiddhīnām //",
       "english_close": "This creation of cognitions is called error, incapacity, contentment, and accomplishment; through the conflict and inequality of the guṇas it has fifty divisions. There are five kinds of error, and incapacity, due to defect in the instruments, has twenty-eight divisions. Incapacity is specified as the eleven failures of the senses together with the failures of the buddhi.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER88 .txt#136-145"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#136-145"
     },
     "vyasa/yoga-bhasya/2.6": {
       "thinker_id": "vyasa",
@@ -11343,7 +11343,7 @@
       "locus_short": "SS 1.92",
       "sanskrit_iast": "īśvarāsiddheḥ",
       "english_close": "Because Īśvara is not established.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER89 / SANKHYAPLACEHOLDER90 .txt#L223"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_sutra_kapila.txt#L223"
     },
     "kapila/sankhya-sutra/5.2": {
       "thinker_id": "kapila",
@@ -11352,7 +11352,7 @@
       "locus_short": "SS 5.2",
       "sanskrit_iast": "neśvarādhiṣṭhite phalaniṣpattiḥ karmaṇā tatsiddheḥ",
       "english_close": "The production of the result does not depend on an Īśvara-overseer, because it is accomplished by karma.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER91 / SANKHYAPLACEHOLDER92 .txt#L689"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_sutra_kapila.txt#L689"
     },
     "kapila/sankhya-sutra/5.10": {
       "thinker_id": "kapila",
@@ -11361,7 +11361,7 @@
       "locus_short": "SS 5.10",
       "sanskrit_iast": "pramāṇābhāvānna tatsiddhiḥ",
       "english_close": "Its establishment fails because there is no pramāṇa.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER93 / SANKHYAPLACEHOLDER94 .txt#L705"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_sutra_kapila.txt#L705"
     },
     "patanjali/yoga-sutra/1.24": {
       "thinker_id": "patanjali",
@@ -11442,7 +11442,7 @@
       "locus_short": "SK 10",
       "sanskrit_iast": "hetumad anityam avyāpi sakriyam anekam āśritaṃ liṅgam / sāvayavaṃ paratantraṃ vyaktaṃ viparītam avyaktam //",
       "english_close": "The manifest is caused, impermanent, non-pervasive, active, manifold, dependent, marked, composite, and subordinate; the unmanifest is the reverse.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER95 .txt#L28-L29"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#L28-L29"
     },
     "vyasa/yoga-bhasya/3.44": {
       "thinker_id": "vyasa",
@@ -11586,7 +11586,7 @@
       "locus_short": "KapSS 2.13",
       "sanskrit_iast": "adhyavasāyo buddhiḥ",
       "english_close": "Buddhi is determinative ascertainment.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER96 / SANKHYAPLACEHOLDER97 .txt#387"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_sutra_kapila.txt#387"
     },
     "isvarakrsna/sankhya-karika/35": {
       "thinker_id": "isvarakrsna",
@@ -11595,7 +11595,7 @@
       "locus_short": "SK 35",
       "sanskrit_iast": "sāntaḥkaraṇā buddhiḥ sarvaṃ viṣayam avagāhate yasmāt / tasmāt trividhaṃ karaṇaṃ dvāri dvārāṇi śeṣāṇi //",
       "english_close": "Because buddhi, together with the internal organ, apprehends every object, the instrument is threefold, while the rest are merely doors.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER98 .txt#103"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#103"
     },
     "isvarakrsna/sankhya-karika/37": {
       "thinker_id": "isvarakrsna",
@@ -11604,7 +11604,7 @@
       "locus_short": "SK 37",
       "sanskrit_iast": "sarvaṃ pratyupabhogaṃ yasmāt puruṣasya sādhayati buddhiḥ / saiva ca viśinaṣṭi tataḥ pradhānapuruṣāntaraṃ sūkṣmam //",
       "english_close": "Because buddhi accomplishes the whole range of experience for puruṣa, it is also that which discriminates the subtle difference between pradhāna and puruṣa.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER99 .txt#109"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#109"
     },
     "patanjali/yoga-sutra/4.22": {
       "thinker_id": "patanjali",
@@ -11703,7 +11703,7 @@
       "locus_short": "SS 1.100",
       "sanskrit_iast": "pratibandhadṛśaḥ pratibaddhajñānamanumānaṃ |",
       "english_close": "Inference is cognition of the correlated item for one who sees the relation of constraint.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER100 / SANKHYAPLACEHOLDER101 .txt#239"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_sutra_kapila.txt#239"
     },
     "aksapada/nyaya-sutra/1.1.5": {
       "thinker_id": "aksapada",
@@ -11874,7 +11874,7 @@
       "locus_short": "SK 19",
       "sanskrit_iast": "kaivalyaṃ mādhyasthyaṃ draṣṭṛtvam akartṛbhāvaś ca.",
       "english_close": "Kaivalya is neutrality, witnesshood, and the state of non-agency.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER102 /sankhya_karika_isvarakrsna.txt#143"
+      "source": "materials/primary_texts/sanskrit/samkhya/sankhya_karika_isvarakrsna.txt#143"
     },
     "isvara-krsna/sankhya-karika/68": {
       "thinker_id": "isvara-krsna",
@@ -11883,7 +11883,7 @@
       "locus_short": "SK 68",
       "sanskrit_iast": "aikāntikam ātyantikam ubhayaṃ kaivalyam āpnoti.",
       "english_close": "It attains kaivalya in both senses: definitive and final.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER103 /sankhya_karika_isvarakrsna.txt#291"
+      "source": "materials/primary_texts/sanskrit/samkhya/sankhya_karika_isvarakrsna.txt#291"
     },
     "vyasa/yoga-bhasya/2.25": {
       "thinker_id": "vyasa",
@@ -11964,7 +11964,7 @@
       "locus_short": "SK 27",
       "sanskrit_iast": "ubhayātmakam atra manaḥ saṃkalpakam indriyaṃ ca sādharmyāt",
       "english_close": "Here mind has a double character: it is the faculty of conceptual projection, and, because of common origin, it is also an indriya.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER104 /sankhya_karika_isvarakrsna.txt#SK_27"
+      "source": "materials/primary_texts/sanskrit/samkhya/sankhya_karika_isvarakrsna.txt#SK_27"
     },
     "patanjali/yoga-sutra/1.35": {
       "thinker_id": "patanjali",
@@ -12153,7 +12153,7 @@
       "locus_short": "SS 4.14",
       "sanskrit_iast": "iṣukāravannaikacittasya samādhihāniḥ |",
       "english_close": "As with the arrow-maker, the loss of samādhi does not occur for one whose citta is not dispersed.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER105 / SANKHYAPLACEHOLDER106 .txt#647"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_sutra_kapila.txt#647"
     },
     "ramanuja/gita-bhasya/6.11-12-yatacittendriya": {
       "thinker_id": "ramanuja",
@@ -12243,7 +12243,7 @@
       "locus_short": "SK 9",
       "sanskrit_iast": "asadakaraṇād upādānagrahaṇāt sarvasambhavābhāvāt / śaktasya śakyakaraṇāt kāraṇabhāvāc ca sat kāryam //",
       "english_close": "The effect is existent: because the non-existent is not produced; because a material cause is taken up; because not everything arises from everything; because the potent produces only the producible; and because of the nature of the cause.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER107 .txt#25-26"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#25-26"
     },
     "isvara-krsna/sankhya-karika/14-15": {
       "thinker_id": "isvara-krsna",
@@ -12252,7 +12252,7 @@
       "locus_short": "SK 14-15",
       "sanskrit_iast": "avivekyādiḥ siddhas traiguṇyāt tadviparyayābhāvāt / kāraṇaguṇātmakatvāt kāryasyāvyaktam api siddham // bhedānāṃ parimāṇāt samanvayāc chaktitaḥ pravṛtteś ca / kāraṇakāryavibhāgād avibhāgād vaiśvarūpyasya //",
       "english_close": "The unmanifest too is established because the effect is constituted by the qualities of the cause. From the limitedness of differentiations, from coherence, from operation through potency, from the division of cause and effect, and from the undividedness of the all-formed whole.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER108 .txt#40-44"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#40-44"
     },
     "vyasa-bhasya/yoga-sutra-bhasya/4.34": {
       "thinker_id": "vyasa-bhasya",
@@ -12333,7 +12333,7 @@
       "locus_short": "SK 58",
       "sanskrit_iast": "autsukyanivṛttyarthaṃ yathā kriyāsu pravartate lokaḥ /\npuruṣasya vimokṣārthaṃ pravartate tadvad avyaktam //",
       "english_close": "Just as people engage in actions to remove restlessness, so the unmanifest proceeds for the sake of the puruṣa's release.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER109 .txt#isk_58"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_58"
     },
     "patanjali/yoga-sutra/2.1": {
       "thinker_id": "patanjali",
@@ -12612,7 +12612,7 @@
       "locus_short": "SK comm. 9",
       "sanskrit_iast": "asti nāstīti varākā jīvakāḥ | naivāsti na ca nāsti | eṣa bauddhānāṃ pakṣaḥ ... asadakaraṇād upādānagrahaṇāt sarvasambhavābhāvāt / śaktasya śakyakaraṇāt kāraṇabhāvāc ca sat kāryam",
       "english_close": "The Jainas say 'it is and it is not'; the Buddhists say 'it neither is nor is not'; against them it is said that the effect is real, because the unreal cannot be produced, because an appropriate material cause is taken, because not everything arises from everything, because the capable produces only the producible, and because of causal continuity.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER110 / SANKHYAPLACEHOLDER111 .txt#skmv_9"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_karika_with_comm.txt#skmv_9"
     },
     "vyasa/yoga-bhasya/1.30": {
       "thinker_id": "vyasa",
@@ -12693,7 +12693,7 @@
       "locus_short": "SK comm 20",
       "sanskrit_iast": "tathā sattvādayo guṇāḥ kartāras taiḥ saṃyuktaḥ puruṣo 'pi akartāpi kartā bhavati | kartṛsaṃsargāt karteva | paraṃ paramārthatayā akartā puruṣaḥ ||",
       "english_close": "Thus the guṇas beginning with sattva are the agents. The puruṣa, though in fact a non-agent, appears as an agent through conjunction with them. But in the ultimate sense the puruṣa is non-agent.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER112 / SANKHYAPLACEHOLDER113 .txt#313"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_karika_with_comm.txt#313"
     },
     "vyasa-bhasya/yoga-sutra-bhasya/3.13": {
       "thinker_id": "vyasa-bhasya",
@@ -12783,7 +12783,7 @@
       "locus_short": "SS 1.89",
       "sanskrit_iast": "yat saṃbaddhaṃ sat tadākārollekhi vijñānaṃ tat pratyakṣaṃ",
       "english_close": "Perception is cognition that, with respect to a presently connected object, marks out that very object's form.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER114 / SANKHYAPLACEHOLDER115 .txt#217"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_sutra_kapila.txt#217"
     },
     "isvara-krsna/sankhya-karika/4-commentary-pratyaksa": {
       "thinker_id": "isvara-krsna",
@@ -12792,7 +12792,7 @@
       "locus_short": "SK 4 comm.",
       "sanskrit_iast": "dṛṣṭam iti pratyakṣaparyāyaḥ | akṣam indriyaṃ pratītya yad utpadyate jñānaṃ tat pratyakṣaṃ dṛṣṭam ucyate | ... prathamam idaṃ mukhyaṃ sakalapramāṇānām",
       "english_close": "\"Seen\" is a synonym for perception. The cognition that arises by relying on a sense-organ is called perception, and it is the first and chief among all pramāṇas.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER116 / SANKHYAPLACEHOLDER117 .txt#157"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_karika_with_comm.txt#157"
     },
     "isvara-krsna/sankhya-karika/6-commentary-vyakta-pratyaksa": {
       "thinker_id": "isvara-krsna",
@@ -12801,7 +12801,7 @@
       "locus_short": "SK 6 comm.",
       "sanskrit_iast": "atra pradhānapuruṣāv atīndriyau tayoḥ sāmānyatodṛṣṭād anumānāt siddhiḥ ... vyaktaṃ tu pratyakṣeṇaiva sādhitam iti",
       "english_close": "Pradhāna and puruṣa are suprasensuous and are established by inference, whereas the manifest is established precisely by perception.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER118 / SANKHYAPLACEHOLDER119 .txt#182"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_karika_with_comm.txt#182"
     },
     "patanjali/yoga-sutra/1.7-pramanani": {
       "thinker_id": "patanjali",
@@ -12981,7 +12981,7 @@
       "locus_short": "SK 38",
       "sanskrit_iast": "tanmātrāṇy aviśeṣās tebhyo bhūtāni pañca pañcabhyaḥ /\nete smṛtā viśeṣāḥ śāntā ghorāś ca mūḍhāś ca //",
       "english_close": "The tanmātras are the non-particulars; from those arise the five gross elements, each from its corresponding source. These are remembered as the particulars, peaceful, fierce, and deluded.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER120 .txt#isk_38"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_38"
     },
     "isvarakrsna/sankhya-karika/41": {
       "thinker_id": "isvarakrsna",
@@ -12990,7 +12990,7 @@
       "locus_short": "SK 41",
       "sanskrit_iast": "citraṃ yathāśrayamṛte sthāṇvādibhyo vinā yathā chāyā /\ntadvad vināviśeṣais tiṣṭhati na nirāśrayaṃ liṅgam //",
       "english_close": "Just as a picture cannot stand without a support, and a shadow cannot stand without post and the like, so the subtle body does not stand without the particulars and cannot stand without a substrate.",
-      "source": "materials/primary_texts/sanskrit/comparator/ SANKHYAPLACEHOLDER121 .txt#isk_41"
+      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_41"
     },
     "patanjali/yoga-sutra/2.19": {
       "thinker_id": "patanjali",
@@ -13116,7 +13116,7 @@
       "locus_short": "SS 1.34-1.44",
       "sanskrit_iast": "sthirakāryāsiddheḥ kṣaṇikatvam / na pratyabhijñābādhāt / na vijñānamātraṃ bāhyapratīteḥ / tadabhāve tadabhāvāt śūnyaṃ tarhi / śūnyaṃ tattvaṃ, bhāvo vinaśyati, vastudharmatvāt vināśasya.",
       "english_close": "Momentariness is untenable because a stable effect would not be possible; no, because recognition blocks it. Reality is not mere cognition, because external objects are apprehended. If that were absent, one would have emptiness; but destruction is only a property of a thing, not the whole of reality.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER122 / SANKHYAPLACEHOLDER123 .txt#kapss_1.34"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_sutra_kapila.txt#kapss_1.34"
     },
     "vyasa/yoga-bhasya/1.32-kṣaṇika-citta-nirāsa": {
       "thinker_id": "vyasa",
@@ -13152,7 +13152,7 @@
       "locus_short": "SK 29 comm.",
       "sanskrit_iast": "asmin prāṇe yat spandanakarma tat katamena kṛtam ity atrocyate --- trayodaśavidhena karaṇena kṛtam ... tadvat prāṇe yat spandanakarma tat sarveṣām indriyāṇāṃ sāmānyam",
       "english_close": "The motion called spanda in the vital breath is produced by the thirteenfold organ-complex; thus that spanda is common to all the senses.",
-      "source": "materials/primary_texts/ SANKHYAPLACEHOLDER124 / SANKHYAPLACEHOLDER125 .txt#407"
+      "source": "materials/primary_texts/sanskrit/samkhya/samkhya_karika_with_comm.txt#407"
     },
     "vyasa-bhasya/yoga-sutra-bhasya/2.3": {
       "thinker_id": "vyasa-bhasya",

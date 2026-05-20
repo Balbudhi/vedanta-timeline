@@ -3860,19 +3860,13 @@ if (filterSoloPill) {
   });
 }
 
-// ---------- topbar glossary search -----------
-// Type-to-search over the loaded glossary. The same `openGlossary(termKey,
-// anchorEl)` path that powers in-prose terms is reused, so the popover
-// presentation is identical (including the surface-form / canonical-form
-// header). The search input becomes the anchorEl, which keeps positioning
-// sensible on desktop and lets the bottom-sheet behaviour fire on mobile.
-const topbarSearchInput = document.getElementById("topbarSearchInput");
-const topbarSearchResults = document.getElementById("topbarSearchResults");
-const topbarSearchWrap = document.getElementById("topbarSearch");
+// ---------- glossary search popover -----------
+// Summoned by the #searchBtn in the topbar. The same `openGlossary(termKey,
+// anchorEl)` path that powers in-prose terms is reused on result-click, so
+// the term-popover presentation is identical. The search popover itself
+// is managed by popoverManager so the single-popover rule still holds.
 
-// Normalises diacritics so "atman" matches "ātman". This is a coverage helper
-// for the search field only — it does NOT alter the glossary regex used by
-// the autolink pass.
+// Normalises diacritics so "atman" matches "ātman".
 function normalizeDia(s) {
   return String(s || "")
     .normalize("NFD")
@@ -3880,12 +3874,10 @@ function normalizeDia(s) {
     .toLowerCase();
 }
 
-function topbarSearchCandidates() {
+function buildSearchCandidates() {
   const seen = new Set();
   const out = [];
   for (const [key, entry] of state.glossary) {
-    // Skip aliases that point to the same canonical so we don't list
-    // every form separately.
     const canonical = entry.term_iast || entry.term_key || key;
     if (seen.has(canonical)) continue;
     seen.add(canonical);
@@ -3893,82 +3885,85 @@ function topbarSearchCandidates() {
       key,
       canonical,
       literal: entry.literal || "",
-      // First sentence of the invariant — used as the secondary line.
       blurb: (entry.invariant_definition || "").split(/[.\n]/)[0].slice(0, 90),
     });
   }
   return out;
 }
 
-let topbarSearchIndex = null;
-function ensureTopbarSearchIndex() {
-  if (topbarSearchIndex) return topbarSearchIndex;
-  topbarSearchIndex = topbarSearchCandidates().map((c) => ({
+let _searchIndex = null;
+function ensureSearchIndex() {
+  if (_searchIndex) return _searchIndex;
+  _searchIndex = buildSearchCandidates().map((c) => ({
     ...c,
     norm: normalizeDia(c.canonical),
     normLiteral: normalizeDia(c.literal),
   }));
-  return topbarSearchIndex;
+  return _searchIndex;
 }
 
-function renderTopbarSearchResults(q) {
-  if (!topbarSearchResults) return;
-  ensureTopbarSearchIndex();
+function rankSearchResults(q) {
+  ensureSearchIndex();
   const norm = normalizeDia(q);
-  if (!norm) {
-    topbarSearchResults.hidden = true;
-    topbarSearchResults.innerHTML = "";
-    return;
-  }
-  // Two-tier ranking: prefix matches first, substring matches after. Cap
-  // at 30 so the list stays scannable; the user can narrow further.
+  if (!norm) return [];
   const prefix = [];
   const sub = [];
-  for (const c of topbarSearchIndex) {
+  for (const c of _searchIndex) {
     if (c.norm.startsWith(norm)) prefix.push(c);
     else if (c.norm.includes(norm) || c.normLiteral.includes(norm)) sub.push(c);
     if (prefix.length + sub.length >= 60) break;
   }
-  const rows = prefix.concat(sub).slice(0, 30);
-  if (!rows.length) {
-    topbarSearchResults.innerHTML = `<p class="topbar-search-empty">No glossary entries match "${escape(q)}".</p>`;
-    topbarSearchResults.hidden = false;
-    return;
-  }
-  topbarSearchResults.innerHTML = rows.map((r, i) => `
-    <button class="topbar-search-result${i === 0 ? " is-active" : ""}" data-key="${escape(r.key)}" type="button" role="option">
-      <span class="ts-term">${escape(r.canonical)}</span>
-      ${r.literal ? `<span class="ts-gloss">${escape(r.literal)}</span>` : (r.blurb ? `<span class="ts-gloss">${escape(r.blurb)}</span>` : "")}
-    </button>
-  `).join("");
-  topbarSearchResults.hidden = false;
+  return prefix.concat(sub).slice(0, 30);
 }
 
-function closeTopbarSearch() {
-  if (topbarSearchResults) {
-    topbarSearchResults.hidden = true;
-    topbarSearchResults.innerHTML = "";
-  }
-}
+function openSearchPopover() {
+  // Single-popover discipline.
+  popoverManager.closeAll();
+  document.querySelectorAll(".search-popover").forEach((el) => el.remove());
 
-if (topbarSearchInput && topbarSearchResults && topbarSearchWrap) {
-  topbarSearchInput.addEventListener("input", () => {
-    renderTopbarSearchResults(topbarSearchInput.value);
-  });
-  topbarSearchInput.addEventListener("focus", () => {
-    if (topbarSearchInput.value) renderTopbarSearchResults(topbarSearchInput.value);
-  });
-  // Keyboard navigation: ArrowDown/Up moves selection, Enter opens.
-  topbarSearchInput.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") {
-      e.preventDefault();
-      topbarSearchInput.value = "";
-      closeTopbarSearch();
-      topbarSearchInput.blur();
+  const pop = document.createElement("div");
+  pop.className = "search-popover";
+  pop.setAttribute("role", "dialog");
+  pop.setAttribute("aria-label", "Search the Sanskrit glossary");
+  pop.innerHTML = `
+    <div class="sp-input-row">
+      <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><circle cx="7" cy="7" r="4.5" stroke="currentColor" stroke-width="1.4" fill="none"/><path d="M10.5 10.5L13.5 13.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+      <input id="searchPopInput" type="search" placeholder="Type a Sanskrit term…" autocomplete="off" spellcheck="false" aria-label="Search the Sanskrit glossary" />
+      <button class="sp-close" type="button" aria-label="Close">×</button>
+    </div>
+    <div class="sp-results" id="searchPopResults" role="listbox">
+      <p class="sp-hint">Start typing to search ${state.glossary.size ? `over ${[...new Set([...state.glossary.values()].map((e) => e.term_iast || e.term_key))].length} entries` : "the glossary"}. Diacritics are optional — "atman" matches "ātman".</p>
+    </div>
+  `;
+  document.body.appendChild(pop);
+
+  const input = pop.querySelector("#searchPopInput");
+  const resultsEl = pop.querySelector("#searchPopResults");
+  const closeBtn = pop.querySelector(".sp-close");
+
+  function renderResults(q) {
+    const rows = rankSearchResults(q);
+    if (!normalizeDia(q)) {
+      resultsEl.innerHTML = `<p class="sp-hint">Start typing to search the glossary. Diacritics are optional — "atman" matches "ātman".</p>`;
       return;
     }
+    if (!rows.length) {
+      resultsEl.innerHTML = `<p class="sp-empty">No glossary entries match "${escape(q)}".</p>`;
+      return;
+    }
+    resultsEl.innerHTML = rows.map((r, i) => `
+      <button class="sp-result${i === 0 ? " is-active" : ""}" data-key="${escape(r.key)}" type="button" role="option">
+        <span class="ts-term">${escape(r.canonical)}</span>
+        ${r.literal ? `<span class="ts-gloss">${escape(r.literal)}</span>` : (r.blurb ? `<span class="ts-gloss">${escape(r.blurb)}</span>` : "")}
+      </button>
+    `).join("");
+  }
+
+  input.addEventListener("input", () => renderResults(input.value));
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") { e.preventDefault(); closeSearch(); return; }
     if (e.key !== "ArrowDown" && e.key !== "ArrowUp" && e.key !== "Enter") return;
-    const items = topbarSearchResults.querySelectorAll(".topbar-search-result");
+    const items = resultsEl.querySelectorAll(".sp-result");
     if (!items.length) return;
     let activeIdx = -1;
     items.forEach((el, i) => { if (el.classList.contains("is-active")) activeIdx = i; });
@@ -3985,19 +3980,76 @@ if (topbarSearchInput && topbarSearchResults && topbarSearchWrap) {
     items.forEach((el, i) => el.classList.toggle("is-active", i === nextIdx));
     items[nextIdx].scrollIntoView({ block: "nearest" });
   });
-  topbarSearchResults.addEventListener("click", (e) => {
-    const btn = e.target.closest(".topbar-search-result");
+  resultsEl.addEventListener("click", (e) => {
+    const btn = e.target.closest(".sp-result");
     if (!btn) return;
     const key = btn.dataset.key;
-    closeTopbarSearch();
-    openGlossary(key, topbarSearchInput);
+    // Closing the search popover is implicit via popoverManager when
+    // openGlossary fires `popoverManager.closeAll()` on entry.
+    openGlossary(key, btn);
   });
-  // Outside click closes the results panel.
-  document.addEventListener("click", (e) => {
-    if (topbarSearchResults.hidden) return;
-    if (topbarSearchWrap.contains(e.target)) return;
-    if (e.target.closest(".glossary-popover")) return;
-    closeTopbarSearch();
+
+  function closeSearch() {
+    pop.remove();
+    document.removeEventListener("keydown", escClose);
+    document.removeEventListener("mousedown", outsideClose);
+    popoverManager.notifyClosed(closeSearch);
+  }
+  function escClose(e) { if (e.key === "Escape") closeSearch(); }
+  function outsideClose(e) {
+    if (pop.contains(e.target)) return;
+    if (e.target.closest && e.target.closest("#searchBtn")) return;
+    closeSearch();
+  }
+  closeBtn.addEventListener("click", closeSearch);
+  document.addEventListener("keydown", escClose);
+  // Defer outside-click handler so the opening click doesn't dismiss.
+  setTimeout(() => document.addEventListener("mousedown", outsideClose), 0);
+  popoverManager.open(closeSearch);
+
+  // Focus the input on next tick so the bottom-sheet animation (if any)
+  // doesn't get cancelled by the iOS keyboard pop-up.
+  setTimeout(() => input.focus(), 30);
+}
+
+const searchBtn = document.getElementById("searchBtn");
+if (searchBtn) {
+  searchBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    openSearchPopover();
+  });
+}
+
+// ---------- theme toggle -----------
+// Light / dark theme with localStorage persistence. Initial theme is the
+// stored value if any; otherwise the system preference. Applied as a
+// `data-theme` attribute on <html> so every CSS rule can branch on it.
+const THEME_KEY = "vedanta-theme";
+function resolveInitialTheme() {
+  try {
+    const stored = localStorage.getItem(THEME_KEY);
+    if (stored === "dark" || stored === "light") return stored;
+  } catch (_) {}
+  if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) return "dark";
+  return "light";
+}
+function applyTheme(theme) {
+  if (theme === "dark") {
+    document.documentElement.setAttribute("data-theme", "dark");
+  } else {
+    document.documentElement.removeAttribute("data-theme");
+  }
+}
+applyTheme(resolveInitialTheme());
+
+const themeBtn = document.getElementById("themeBtn");
+if (themeBtn) {
+  themeBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    const current = document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light";
+    const next = current === "dark" ? "light" : "dark";
+    applyTheme(next);
+    try { localStorage.setItem(THEME_KEY, next); } catch (_) {}
   });
 }
 

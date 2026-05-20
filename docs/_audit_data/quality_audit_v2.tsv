@@ -80,7 +80,7 @@ caitanya_gaudiya/rupa_padyavali.txt	txt	CLEAN	100004	GRETIL plain-text e-text
 caitanya_gaudiya/rupa_ujjvala_nilamani.txt	txt	CLEAN	275755	GRETIL plain-text e-text
 comparator/aksapada_nyaya_sutra.txt	txt	CLEAN	49907	alpha=0.86 short=0.00 junk=0.00 iast=1543 dev=0 words=966 | non-GRETIL but clean-looking
 comparator/badarayana_brahma_sutra.txt	txt	CLEAN	27435	alpha=0.77 short=0.01 junk=0.00 iast=1117 dev=0 words=1081 | non-GRETIL but clean-looking
-comparator/ SANKHYAPLACEHOLDER0 .txt	txt	CLEAN	10204	alpha=0.91 short=0.00 junk=0.00 iast=1529 dev=0 words=1240 | non-GRETIL but clean-looking
+comparator/isvarakrsna_samkhya_karika.txt	txt	CLEAN	10204	alpha=0.91 short=0.00 junk=0.00 iast=1529 dev=0 words=1240 | non-GRETIL but clean-looking
 comparator/jaimini_mimamsa_sutra.txt	txt	CLEAN	167641	alpha=0.78 short=0.00 junk=0.00 iast=1103 dev=0 words=1059 | non-GRETIL but clean-looking
 comparator/kanada_vaisesika_sutra.txt	txt	CLEAN	23117	alpha=0.79 short=0.00 junk=0.00 iast=1361 dev=0 words=1108 | non-GRETIL but clean-looking
 comparator/patanjali_yoga_sutra.txt	txt	DEGRADED	13267	alpha=0.81 short=0.00 junk=1.00 iast=1491 dev=0 words=875
@@ -139,10 +139,10 @@ pralaya_cosmology/visnu_purana_GRETIL.htm	htm	CLEAN	900960	GRETIL plain-text e-t
 pralaya_cosmology/visnu_purana_critical_GRETIL.htm	htm	CLEAN	1025286	GRETIL plain-text e-text
 rgveda_aufrecht.txt	txt	CLEAN	1494070	GRETIL plain-text e-text
 sankhya/sankhya_karika_isvarakrsna.txt	txt	CLEAN	23044	GRETIL plain-text e-text
-sankhya/ SANKHYAPLACEHOLDER1 .txt	txt	CLEAN	153691	GRETIL plain-text e-text
-sankhya/ SANKHYAPLACEHOLDER2 2.txt	txt	CLEAN	93739	GRETIL plain-text e-text
-sankhya/ SANKHYAPLACEHOLDER3 3.txt	txt	CLEAN	108967	GRETIL plain-text e-text
-sankhya/ SANKHYAPLACEHOLDER4 .txt	txt	CLEAN	56744	GRETIL plain-text e-text
+sankhya/samkhya_karika_with_comm.txt	txt	CLEAN	153691	GRETIL plain-text e-text
+sankhya/samkhya_karika_with_comm2.txt	txt	CLEAN	93739	GRETIL plain-text e-text
+sankhya/samkhya_karika_with_comm3.txt	txt	CLEAN	108967	GRETIL plain-text e-text
+sankhya/samkhya_sutra_kapila.txt	txt	CLEAN	56744	GRETIL plain-text e-text
 sankhya/sankhya_tattva_pradipa.txt	txt	CLEAN	38434	GRETIL plain-text e-text
 sankhya/sankhya_tattva_vivecana_simananda.txt	txt	CLEAN	60049	GRETIL plain-text e-text
 sankhya_metaphysics/bhavaganesa_tattvayatharthyadipana_GRETIL.htm	htm	CLEAN	65904	GRETIL plain-text e-text

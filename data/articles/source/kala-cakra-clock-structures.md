@@ -745,7 +745,7 @@ For the user's continued engagement with the kāla-cakra / nested-clock-structur
 
 9. **Vimalaprabhā commentary, Volume I (Upadhyaya / Dwivedi / Bahulkar 1986)** — the section on the threefold kāla-cakra (outer / inner / alternative). On disk at `upadhyaya_vimalaprabha_vol1_text.pdf`. The OCR of the Devanāgarī edition is unfortunately broken at the encoding layer; for serious engagement, the printed Sarnath edition or a clean re-scan is required. The structural content of the threefold kāla-cakra is, however, recoverable through the system's intrinsic numerics (12 / 360 / 21,600) and through the parallel Trika treatment in Abhinavagupta's *Tantrāloka* chapter 6.
 
-10. **Yuktidīpikā** (Wezler-Motegi 1998 critical edition) — the metaphysical arguments for *satkārya-vāda* and *pariṇāma-vāda*, plus the polemical engagements with Buddhists and Naiyāyikas. On disk at `materials/primary_texts/ SANKHYAPLACEHOLDER0 _metaphysics/wezler_motegi_yuktidipika_vol1_1998.pdf`. The English translation (Shiv Kumar / Bhargava 1990–92, Vol. II) is also on disk; pick chapters by topic. The arguments in the verses 1–10 commentary on the *Sāṅkhya-Kārikā* are the most metaphysically dense.
+10. **Yuktidīpikā** (Wezler-Motegi 1998 critical edition) — the metaphysical arguments for *satkārya-vāda* and *pariṇāma-vāda*, plus the polemical engagements with Buddhists and Naiyāyikas. On disk at `materials/primary_texts/sanskrit/samkhya_metaphysics/wezler_motegi_yuktidipika_vol1_1998.pdf`. The English translation (Shiv Kumar / Bhargava 1990–92, Vol. II) is also on disk; pick chapters by topic. The arguments in the verses 1–10 commentary on the *Sāṅkhya-Kārikā* are the most metaphysically dense.
 
 11. **Vijñānabhikṣu, *Sāṅkhya-Pravacana-Bhāṣya*** (Garbe 1895 edition). On disk in OCR'd form at `garbe_sankhyapravacanabhasya_vijnanabhiksu.txt`. The chapters on *prakṛti*-Brahman relation (book 1, *adhyāya* on *prakṛti*-evolutes; book 6 on liberation) are most directly relevant.
 
@@ -791,5 +791,5 @@ The reader is closed. The work continues.
 
 ---
 
-*End of `reader/13_kala_cakra_clock_structures.md`. Companion: `reader/12_sankhya_anirban.md`. Source materials: `materials/anirban/clock_structures/`, `materials/primary_texts/ SANKHYAPLACEHOLDER1 _metaphysics/`, `materials/primary_texts/sanskrit/pralaya_cosmology/`, `materials/primary_texts/sanskrit/kala_cakra/`. Compiled: 2026-05-08.*
+*End of `reader/13_kala_cakra_clock_structures.md`. Companion: `reader/12_sankhya_anirban.md`. Source materials: `materials/anirban/clock_structures/`, `materials/primary_texts/sanskrit/samkhya_metaphysics/`, `materials/primary_texts/sanskrit/pralaya_cosmology/`, `materials/primary_texts/sanskrit/kala_cakra/`. Compiled: 2026-05-08.*
 
