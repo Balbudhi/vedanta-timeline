@@ -1,0 +1,52 @@
+{
+  "term_key": "samipya",
+  "term_iast": "sāmīpya",
+  "term_devanagari": "सामीप्य",
+  "literal": "nearness, proximity (to the Lord); from sam- + ā- + ap- + -ya (abstract)",
+  "aliases": [
+    "samipya",
+    "sāmīpya",
+    "Sāmīpya",
+    "sāmīpyam"
+  ],
+  "invariant_definition": "*Sāmīpya* is one of the four classical Vaiṣṇava types of *mukti*: proximity to Bhagavān. The released *jīva* abides in the Lord's immediate presence without identity. In the standard list (*sālokya*, *sāmīpya*, *sārūpya*, *sāyujya*) *sāmīpya* sits between residence in the Lord's realm and similarity of form, marking spatial-relational closeness as a distinct mode. The doctrine preserves the relational structure that strict identity-readings of *mokṣa* would dissolve: a *jīva* who is near the Lord is one who can serve, gaze, hear, address. As with the other modes, schools rank *sāmīpya* differently — Viśiṣṭādvaita and Madhva treat it as a real but intermediate mode within a *taratamya*-stratified eschatology; Gauḍīya theology often prizes relational proximity in a specific *rasa* over the formally higher *sāyujya*; Advaita treats the list as accommodation to *saguṇa-upāsanā*.",
+  "per_school": [
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Sāmīpya* names the mode of liberated existence in which the *jīva* dwells in immediate proximity to Bhagavān, available for service. Together with *sārūpya* and *sāyujya* it figures in the *paramapada* eschatology; *kainkarya* — eternal service — is the operative culmination.",
+      "primary_loci": [
+        "Yatīndramata-Dīpikā, mokṣa-pariccheda [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "Accepted within Madhva's *taratamya*-stratified *mokṣa*. The proximity is real but never collapses into identity; *svarūpa-bheda* of the *jīva* is preserved throughout.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya (Madhva) 4.4 [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "In the Gauḍīya scale *sāmīpya* and the relational *muktis* in general are preferable to *sāyujya*. The deeper category, however, is *bhāva*-specific *sevā* in a particular *rasa*: proximity is meaningful as enabling specific *līlā*-participation.",
+      "primary_loci": [
+        "Bhakti-Rasāmṛta-Sindhu 1.1, 1.3 [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Advaita",
+      "definition": "The four-fold list belongs to *vyavahāra* and to devotional accommodations. *Sāmīpya* is not *mokṣa* in the strict Advaitic sense, which is identity-realization, but a preparatory or alternative outcome for those whose *adhikāra* lies with *saguṇa*-worship.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 4.4 (concluding adhikaraṇas)"
+      ]
+    }
+  ],
+  "see_also": [
+    "sarupya",
+    "sayujya",
+    "moksa",
+    "videhamukti",
+    "bhakti",
+    "taratamya"
+  ],
+  "translator_note": "'Proximity to the Lord' is the standard gloss. Preserve in Sanskrit when the four-fold taxonomy is in play."
+}

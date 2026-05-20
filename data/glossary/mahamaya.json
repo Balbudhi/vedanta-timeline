@@ -1,0 +1,71 @@
+{
+  "term_key": "mahamaya",
+  "term_iast": "mahāmāyā",
+  "term_devanagari": "महामाया",
+  "literal": "the great māyā; mahā- 'great, supreme' + māyā 'measuring-out, formative power, appearance'",
+  "aliases": [
+    "mahamaya",
+    "mahāmāyā",
+    "Mahāmāyā",
+    "maha-maya",
+    "mahā-māyā",
+    "mahamayayah",
+    "mahāmāyāyāḥ"
+  ],
+  "invariant_definition": "*Mahāmāyā* is the superlative of *māyā*. Across schools it names the highest, most comprehensive level of the power by which the One appears as world. The shared structural claim is that ordinary *māyā* is *śakti* operating at the cosmic register, and *mahā-* marks this as supreme rather than local: not the magician's trick, but the world-forming and world-veiling capacity at the scale of total manifestation. Beyond this thin core the term diverges sharply. In Advaita it is cosmic *māyā* in its highest aspect, often coordinated with *Īśvara*. In Śākta and Tantric usage *Mahāmāyā* is the supreme Goddess herself, identical with the Absolute and not merely its instrument. In Caitanya Vaiṣṇavism it names the external energy (*bahiraṅgā-śakti*) of Bhagavān, sharply distinguished from *yogamāyā*, the internal energy that arranges Kṛṣṇa's own *līlā*. Engaging the term therefore requires asking, in each context, whether *mahāmāyā* is *brahman*'s adjunct, the Goddess as ultimate, or one specific energy among several within a divine economy.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "In Vidyāraṇya and the later Advaita tradition *mahāmāyā* is *māyā* taken at its widest cosmic scope, the principle by which *brahman* appears as the whole order of name and form. It is sometimes paired with *avidyā*: *mahāmāyā* as the cosmic register associated with *Īśvara*, *avidyā* as the individual register associated with the *jīva*. As with *māyā*, it is *anirvacanīya*: neither *sat* nor *asat*, sublatable by *jñāna* and never an ultimate.",
+      "primary_loci": [
+        "Pañcadaśī 6 (māyā-viveka)",
+        "Vivekacūḍāmaṇi, verses on māyā [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Śākta / Devī tradition",
+      "definition": "Here *Mahāmāyā* is not an instrument but the Goddess herself: the supreme reality at once world-binding and world-liberating. The *Devī-Māhātmya* explicitly identifies her: she is the great *māyā* by whom even Hari is plunged into yogic sleep, and by whose grace beings are released from the world she herself sustains (*Devī-Māhātmya* 1.55-58). The same identification appears across the *Devī-Bhāgavata* and Śākta-tantric ritual where the Goddess is hailed as *Mahāmāyā* alongside *Mahālakṣmī*, *Mahākālī*, *Mahāsarasvatī*.",
+      "primary_loci": [
+        "Devī-Māhātmya (Mārkaṇḍeya-Purāṇa) 1.55-58",
+        "Devī-Māhātmya 11 (Nārāyaṇī-stuti) [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "Caitanya Vaiṣṇavism takes from the *Brahma-Saṃhitā* and the *Bhāgavata* a strict distinction between *mahāmāyā* and *yogamāyā*. *Mahāmāyā* is Bhagavān's external energy (*bahiraṅgā-śakti*), the shadow-like power that administers the material cosmos and the bondage of conditioned *jīvas*. *Yogamāyā* is the internal energy (*antaraṅgā*) that arranges Kṛṣṇa's *vrajalīlā* and conceals his divinity from devotees for the sake of *rasa*. *Bhāgavata* 1.7.4–5 distinguishes the *māyā* of the Lord by which the conditioned see themselves as bound; *Brahma-Saṃhitā* 5.44 describes the *sṛṣṭi-sthiti-pralaya* power as shadow-like (*chāyeva yasya*).",
+      "primary_loci": [
+        "Brahma-Saṃhitā 5.44",
+        "Bhāgavata-Purāṇa 1.7.4-5",
+        "Caitanya-Caritāmṛta, Ādi 5 [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "Vallabha's tradition uses *māyā* sparingly and reserves world-forming agency for Brahman's own *līlā* and *pariṇāma*. When *mahāmāyā* appears it is treated as Bhagavān's encompassing power of self-manifestation, not as a sublatable veil. The Pātañjala-style 'illusionist' reading is rejected on the same grounds as the school's general resistance to *vivarta*: name and form are *kārya-dharmas* of real Brahman, not screens over it.",
+      "primary_loci": [
+        "Aṇu-Bhāṣya on Brahma-Sūtra 1.1.4 [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "Trika does not foreground *mahāmāyā* as a technical term separate from *māyā* and *māyā-tattva*; the corresponding work is done by *svātantrya-śakti* in its world-projecting aspect. Where the term does appear in Śākta-tinged Kashmiri sources, it is read as the supreme self-contractive power of Śiva-Śakti by which differentiation is genuinely manifested rather than illusorily projected.",
+      "primary_loci": []
+    },
+    {
+      "school": "Buddhist (comparator)",
+      "definition": "The historical Buddha's mother is named *Mahāmāyā* in the Pāli and Sanskrit biographical literature; the name does not carry the Vedic-Tantric metaphysical load there. Philosophically, Yogācāra deploys *māyā* and *māyopama* as a simile for parikalpita objecthood; *mahāmāyā* is not a standard category-term in the doctrinal literature, though Buddhist tantric traditions later absorb a Goddess called *Mahāmāyā* with iconographic and ritual specificity.",
+      "primary_loci": [
+        "Lalitavistara, opening chapters [NOT YET RETRIEVED]"
+      ]
+    }
+  ],
+  "see_also": [
+    "maya",
+    "avidya",
+    "sakti",
+    "prakrti",
+    "lila",
+    "svatantrya"
+  ],
+  "translator_note": "Translate context-sensitively. In Advaita 'great māyā' is acceptable if the reader knows *māyā* is not 'illusion.' In Śākta sources, leave *Mahāmāyā* untranslated or render as 'the Great Goddess Mahāmāyā,' since she is the supreme reality, not a power over against it. In Gauḍīya sources, the term must be paired with its contrast *yogamāyā* to be intelligible: rendering both as 'illusion' destroys the doctrine."
+}

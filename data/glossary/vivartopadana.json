@@ -1,0 +1,64 @@
+{
+  "term_key": "vivartopadana",
+  "term_iast": "vivartopādāna",
+  "term_devanagari": "विवर्तोपादान",
+  "literal": "appearing material cause; vivarta 'apparent modification' + upādāna 'material cause'",
+  "aliases": [
+    "vivartopadana",
+    "vivartopādāna",
+    "Vivartopādāna",
+    "vivarta-upādāna",
+    "vivarta-upadana-karana"
+  ],
+  "invariant_definition": "*Vivartopādāna* (or *vivarta-upādāna-kāraṇa*) is the Advaitic technical formulation: Brahman is the material cause of the world only in the *vivarta* mode — appearing as the world without itself undergoing any real modification. The pair contrast is with *pariṇāmi-upādāna-kāraṇa*, the really modifying material cause exemplified by clay becoming pot or milk becoming curd. Both stand in opposition to a denial that Brahman is material cause at all (the Mīmāṃsaka and theistic-non-Vedāntic positions). The doctrine threads the *Brahma-Sūtra*'s claim of *abhinna-nimitta-upādāna-kāraṇa* through Advaita's commitment to Brahman's *avikṛtatva*: Brahman is what the world really is (so identity of cause and effect is preserved), but no actual transformation occurs (so Brahman remains unmodified). *Vivartopādāna* is therefore the precise locus of Advaita's central ontological claim and the target of every rival Vedāntic critique — Bhāskara, Rāmānuja, Vallabha, and Madhva each reject it for a different *pariṇāmi*- or *abhinna*-reading.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "Brahman is *vivartopādāna*: the rope as cause-of-the-snake illustrates the form of explanation. The rope is what the snake really is, without itself becoming the snake. Brahman is what the world really is, without itself becoming the world. Sublation of the appearing-effect leaves the cause unchanged. *Vivarta* is contrasted with *pariṇāma* by classical Advaitins (Sureśvara, Vidyāraṇya) precisely on this point.",
+      "primary_loci": [
+        "Vivaraṇa-Prameya-Saṃgraha [NOT YET RETRIEVED]",
+        "Pañcadaśī 13 (vivarta-pariṇāma distinction)"
+      ]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Rejected. Rāmānuja argues that *vivartopādāna* collapses into either *asat-kārya-vāda* or admission of *anirvacanīya* entities, both unacceptable. Bhagavān is *abhinna-nimitta-upādāna* in the *pariṇāmi* sense: his *cit-acit* body undergoes real *pariṇāma* while his *svarūpa* remains unmodified.",
+      "primary_loci": [
+        "Śrī-Bhāṣya 1.4.23-27 (refutation of vivartopādāna)",
+        "Vedārtha-Saṃgraha §§55-70"
+      ]
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "Rejected at the root: the *Māyāvāda-Khaṇḍana* and the *Brahma-Sūtra-Bhāṣya* deny any reading on which Brahman is the material cause in the Advaitic sense. Hari is *nimitta-kāraṇa* only; *prakṛti* is the material substrate; the world is a real, distinct creation.",
+      "primary_loci": [
+        "Māyāvāda-Khaṇḍana",
+        "Brahma-Sūtra-Bhāṣya (Madhva) 1.4.23 [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "Rejected in favor of *pariṇāmi-upādāna*. Brahman is the *samavāyi-kāraṇa*; name and form are real *kārya-dharmas*; the world is a real *pariṇāma* without compromising Brahman's *avikṛtatva* in the alaukika manner of gold and its products.",
+      "primary_loci": [
+        "Aṇu-Bhāṣya on Brahma-Sūtra 1.1.4",
+        "Aṇu-Bhāṣya on Brahma-Sūtra 1.4.26"
+      ]
+    },
+    {
+      "school": "Bhedābheda (Bhāskara)",
+      "definition": "Rejected. Bhāskara's *pariṇāmi-upādāna*-vāda explicitly contests the Advaitic move; the world is a real *aupādhika pariṇāma* of Brahman, comparable to the modification of milk into curd. The dispute fixes Bhāskara's *aupādhika-bhedābheda* in opposition to Śaṅkara.",
+      "primary_loci": [
+        "Bhāskara, Brahma-Sūtra-Bhāṣya 2.1.14 [NOT YET RETRIEVED]"
+      ]
+    }
+  ],
+  "see_also": [
+    "vivarta",
+    "upadana-karana",
+    "parinama",
+    "avikrta-parinama",
+    "avidya",
+    "mithya"
+  ],
+  "translator_note": "Leave the term in Sanskrit. The English 'apparent material cause' is technically defensible but loses the polemical charge: the entire force of *vivarta* is that what looks like a modification is not one. Where the contrast with *pariṇāmi-upādāna* is in play, both terms should be preserved."
+}

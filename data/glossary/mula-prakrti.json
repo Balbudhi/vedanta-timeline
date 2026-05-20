@@ -1,0 +1,65 @@
+{
+  "term_key": "mula-prakrti",
+  "term_iast": "mūla-prakṛti",
+  "term_devanagari": "मूलप्रकृति",
+  "literal": "root-nature, the primal unmanifest substrate; mūla 'root' + prakṛti 'nature, primordial matter'",
+  "aliases": [
+    "mula-prakrti",
+    "mūla-prakṛti",
+    "Mūla-prakṛti",
+    "mūlaprakṛti",
+    "mūla-prakṛteḥ",
+    "mūla-prakṛter"
+  ],
+  "invariant_definition": "*Mūla-prakṛti* names the root or primal *prakṛti*: the unmanifest, undifferentiated equilibrium of *sattva*, *rajas*, and *tamas* prior to any evolute. In classical Sāṅkhya it is *avyakta-pradhāna*, the non-conscious causal substrate from which all manifest evolutes proceed and into which they return; it is itself uncaused, ubiquitous, and one. The term enters Vedānta through the *Brahma-Sūtra* polemic against Sāṅkhya, and is then reabsorbed differently by each school: identified with *māyā* in some Advaita formulations, treated as Bhagavān's *acit* energy in Viśiṣṭādvaita and Acintya-Bhedābheda, and explicitly retained as a real substance in Vijñānabhikṣu's late synthetic Sāṅkhya-Yoga-Vedānta. The dispute over *mūla-prakṛti* is therefore a dispute over whether there is a non-conscious eternal substrate alongside *brahman*/Bhagavān, and if so, what its dependence-relation is.",
+  "per_school": [
+    {
+      "school": "Sāṅkhya",
+      "definition": "*Mūla-prakṛti* is the unmanifest *pradhāna*, the eternal equilibrium of the three *guṇas* from which *mahat* and the rest of the twenty-three evolutes proceed. It is *avikṛta*, itself uncaused; it acts for the sake of *puruṣa*'s liberation; its productive activity ceases when *vivekakhyāti* is attained.",
+      "primary_loci": [
+        "Sāṅkhya-Kārikā 3 (mūla-prakṛti avikṛtir)",
+        "Sāṅkhya-Kārikā 21-22 (puruṣārtha and evolutes)"
+      ]
+    },
+    {
+      "school": "Advaita",
+      "definition": "Advaita does not admit an eternal non-conscious substrate alongside Brahman. Where the term appears in Advaitic contexts it is read as *māyā* in its causal aspect — *avyākṛta* — qualifying Brahman and itself *anirvacanīya*. The *Brahma-Sūtra* refutation of Sāṅkhya at 2.2.1ff is read by Śaṅkara as foreclosing any reading on which *pradhāna* is the world's independent cause.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 1.1.5-11 (anti-Sāṅkhya)",
+        "Brahma-Sūtra-Bhāṣya 2.2.1-10"
+      ]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Prakṛti* is real and eternal but always Bhagavān's *acit-vibhūti*, his body in the *śarīra-śarīrin* analysis. It is never an independent cause. Where *mūla-prakṛti* is invoked, it is the undifferentiated state of this acit-energy prior to cosmic differentiation; the analysis preserves Sāṅkhya's evolute scheme while subordinating *prakṛti* to the Lord.",
+      "primary_loci": [
+        "Vedārtha-Saṃgraha §§110-120 [NOT YET RETRIEVED]",
+        "Śrī-Bhāṣya 2.1.14 (śarīra-śarīrin)"
+      ]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Mūla-prakṛti* is the undifferentiated state of Bhagavān's *bahiraṅgā-śakti* (*mahāmāyā*), eternally available to him and quiescent until the glance of *puruṣa-avatāras*. Jīva Gosvāmin systematizes this with the *Bhāgavata*'s account of *mahā-puruṣa* impregnating *prakṛti*.",
+      "primary_loci": [
+        "Paramātma-Sandarbha §§51-56 [NOT YET RETRIEVED]",
+        "Bhāgavata-Purāṇa 3.26 (kāpila account)"
+      ]
+    },
+    {
+      "school": "Sāṅkhya-Yoga (synthetic — Vijñānabhikṣu)",
+      "definition": "Vijñānabhikṣu retains *mūla-prakṛti* as a real eternal substrate under the Lord. *Māyā* is identified with *prakṛti*, *māyin* with Maheśvara; the resulting picture is a *bhedābheda*-like theistic Sāṅkhya in which *prakṛti* is the ontological non-conscious principle and Bhagavān its presiding *Īśvara*.",
+      "primary_loci": [
+        "Vijñānāmṛta-Bhāṣya on Brahma-Sūtra 1.1.5"
+      ]
+    }
+  ],
+  "see_also": [
+    "prakrti",
+    "purusa",
+    "guna",
+    "maya",
+    "avikrta-parinama",
+    "sarira-saririn-bhava"
+  ],
+  "translator_note": "'Primordial matter' is acceptable in Sāṅkhya contexts; 'root-nature' is closer to the etymology and is preferable when contrasting *mūla* (root) with *vikṛti* (evolute). Translating as 'Nature' (capitalized) is fine if the reader has been warned that it is non-conscious and pluralistically conceived."
+}

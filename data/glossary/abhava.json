@@ -1,0 +1,71 @@
+{
+  "term_key": "abhava",
+  "term_iast": "abhāva",
+  "term_devanagari": "अभाव",
+  "literal": "non-being, absence, negation; from a- (privative) + bhāva 'being'",
+  "aliases": [
+    "abhava",
+    "abhāva",
+    "Abhāva",
+    "abhāvaḥ",
+    "abhāvasya",
+    "abhāvāḥ",
+    "abhāve"
+  ],
+  "invariant_definition": "*Abhāva* names absence treated as itself an item to be reckoned with — not merely a privation of cognition but a genuine cognitive object. Vaiśeṣika makes it the seventh *padārtha* alongside the six *bhāva-padārthas*; Mīmāṃsā gives it the status of an independent *pramāṇa* (*anupalabdhi*) to explain how one knows that something is not there. The technical apparatus distinguishes four varieties: *prāgabhāva* (prior absence — the absence of the pot before it is made), *pradhvaṃsābhāva* (posterior absence — the absence of the pot after it is broken), *anyonyābhāva* (mutual absence — the absence of pot-ness in cloth), and *atyantābhāva* (absolute absence — the absence of horns in a hare). Vedānta is split: realists (Madhva, Rāmānuja) take *abhāva* seriously as a real condition; Advaita admits it only at the *vyāvahārika* level, since at the *pāramārthika* level only non-dual *brahman* is.",
+  "per_school": [
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "*Abhāva* is the seventh category, partitioned into the four classical varieties. Its mode of knowing is debated: some accept *anupalabdhi*; others reduce *abhāva*-cognition to perception of a bare *adhikaraṇa* in its 'absence-qualified' state. Either way, absence is an objective feature of the world, not a mere failure to cognize.",
+      "primary_loci": [
+        "Vaiśeṣika-Sūtra 9.1-12 (abhāva treatment)",
+        "Tarka-Saṃgraha, abhāva-pariccheda"
+      ]
+    },
+    {
+      "school": "Bhāṭṭa Mīmāṃsā",
+      "definition": "Kumārila treats *anupalabdhi* as a sixth *pramāṇa*: the cognition of *abhāva* through non-apprehension of what would have been apprehended had it been present. The doctrine is essential to Bhāṭṭa epistemology and to the realist defense of inference and verbal testimony.",
+      "primary_loci": [
+        "Ślokavārttika, abhāva-pariccheda"
+      ]
+    },
+    {
+      "school": "Prābhākara Mīmāṃsā",
+      "definition": "Prabhākara denies *abhāva* the status of an independent category or *pramāṇa*: what is taken to be cognition of absence is cognition of the bare locus, *kevalādhikaraṇa-jñāna*. The contrast with Bhāṭṭa is one of the school-defining disputes within Mīmāṃsā.",
+      "primary_loci": [
+        "Bṛhatī, anupalabdhi section [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Advaita",
+      "definition": "At *vyavahāra* Advaita accepts the *abhāva*-vocabulary and works with Mīmāṃsā's *anupalabdhi*. At *paramārtha* the very framework dissolves: there is no second item whose non-presence could be reckoned. The Advaitic point against the Naiyāyika is that absence cannot itself be a stable categorial entity if the categories themselves are *anirvacanīya*.",
+      "primary_loci": [
+        "Vedānta-Paribhāṣā, anupalabdhi-pariccheda",
+        "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 2.4.14 [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "Madhva makes *abhāva* real and important: the irreducible differences (*pañca-bheda*) require that absences (e.g. of identity between *jīva* and Hari) be genuinely there in the world, not merely a way of speaking. Sarvajña-Ātman's and other Advaitins' attempts to soften *abhāva* are accordingly resisted.",
+      "primary_loci": [
+        "Anu-Vyākhyāna 1.1 [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Mādhyamaka",
+      "definition": "Nāgārjuna treats *abhāva* in parallel with *bhāva*: neither obtains *svabhāvataḥ*; cessation is not the becoming-real of a non-existent absence. The *Svabhāva-parīkṣā* explicitly attacks the assumption that *abhāva* could underwrite an account of cessation.",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 15.5-11"
+      ]
+    }
+  ],
+  "see_also": [
+    "bhava",
+    "pramana",
+    "anumana",
+    "pratyaksa",
+    "panca-bheda",
+    "anirvacaniya"
+  ],
+  "translator_note": "'Absence' is the standard rendering, but 'non-being' is sometimes called for in cosmological or ontological contexts. The four-fold typology should be preserved untranslated on first occurrence and glossed inline; English 'absence' alone cannot carry *prāgabhāva* vs *atyantābhāva*."
+}

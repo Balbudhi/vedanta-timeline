@@ -1,0 +1,54 @@
+{
+  "term_key": "jnana-kanda",
+  "term_iast": "jñāna-kāṇḍa",
+  "term_devanagari": "ज्ञानकाण्ड",
+  "literal": "the knowledge-portion (of the Veda); jñāna 'knowledge' + kāṇḍa 'section, division'",
+  "aliases": [
+    "jnana-kanda",
+    "jñāna-kāṇḍa",
+    "Jñāna-kāṇḍa",
+    "jñānakāṇḍa"
+  ],
+  "invariant_definition": "*Jñāna-kāṇḍa* names the knowledge-section of the Veda — the Upaniṣads — in contrast with *karma-kāṇḍa*, the ritual-action section (the *Saṃhitā* and *Brāhmaṇa* layers). The pairing is doctrinally loaded: the question of how the two *kāṇḍas* relate is the question of what Vedānta is. Mīmāṃsakas hold that the Veda is fundamentally injunctive, *karma-kāṇḍa* is primary, and the Upaniṣads either subserve *karma* or supply *arthavāda*. Advaita reverses this: *jñāna-kāṇḍa* contains the *mahāvākyas* whose direct cognition produces liberation, while *karma-kāṇḍa* is preparatory at best. Viśiṣṭādvaita and Tattva-vāda preserve both *kāṇḍas* as authoritative and read *jñāna-kāṇḍa* through *upāsanā* / *bhakti* rather than as superseding ritual. The dispute about *jñāna-kāṇḍa* versus *karma-kāṇḍa* is the foundational hermeneutic axis around which the schools organize themselves.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Jñāna-kāṇḍa* is supreme and yields *mokṣa* directly; *karma-kāṇḍa* is preparatory (*citta-śuddhi*) and finally transcended. The relation is hierarchical: ritual is real at *vyavahāra* but does not by itself produce liberation. Śaṅkara argues this against the Mīmāṃsaka claim of Vedic injunctive primacy in the *adhikaraṇa*-by-*adhikaraṇa* exposition of the *Brahma-Sūtra*.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 1.1.1 (anti-Mīmāṃsaka)",
+        "Brahma-Sūtra-Bhāṣya 3.4.1-27 (jñāna-karma-samuccaya rejected)"
+      ]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Both *kāṇḍas* are real and authoritative. *Karma-kāṇḍa* prescribes the rites that purify and obligate; *jñāna-kāṇḍa* discloses the Lord and structures *upāsanā* / *bhakti*; the final means is *prapatti* / *bhakti-yoga* informed by both. The Mīmāṃsaka-Advaita opposition is rejected from both sides.",
+      "primary_loci": [
+        "Śrī-Bhāṣya 1.1.1 (introduction)",
+        "Vedārtha-Saṃgraha §§1-15"
+      ]
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "Both *kāṇḍas* authoritative; *jñāna-kāṇḍa* discloses Hari and the *taratamya*-structured cosmos; *karma-kāṇḍa* prescribes the ritual life of the *adhikārin*. *Jñāna* and *karma* are coordinated rather than ranked as means and end in the Advaitic register.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1 [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "The Veda is fundamentally injunctive; *karma-kāṇḍa* is the heart of *śruti*; Upaniṣadic passages either subserve ritual (as *vidyās* connected to *karma*) or function as *arthavāda* — laudatory commentary on injunction. The Mīmāṃsaka reading is precisely what *jñāna-kāṇḍa*-primacy denies.",
+      "primary_loci": [
+        "Mīmāṃsā-Sūtra 1.1.1-5 (codanā-lakṣaṇa)"
+      ]
+    }
+  ],
+  "see_also": [
+    "karma-kanda",
+    "sruti",
+    "mahavakya",
+    "vidya",
+    "upaya",
+    "moksa"
+  ],
+  "translator_note": "'Knowledge-section' is acceptable. The hermeneutic dispute is not capturable in a single English phrase: the deeper question is what kind of text the Veda is — a system of injunctions or a corpus of disclosures — and translation must keep the pair *jñāna-/karma-kāṇḍa* visible."
+}

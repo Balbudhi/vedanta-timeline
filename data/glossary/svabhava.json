@@ -1,0 +1,74 @@
+{
+  "term_key": "svabhava",
+  "term_iast": "svabhāva",
+  "term_devanagari": "स्वभाव",
+  "literal": "own-being, intrinsic nature; sva- 'own' + bhāva 'being'",
+  "aliases": [
+    "svabhava",
+    "svabhāva",
+    "Svabhāva",
+    "svabhāvasya",
+    "svabhāvāt",
+    "svabhāvika",
+    "svābhāvika"
+  ],
+  "invariant_definition": "*Svabhāva* names what something is by itself, in its own right, independent of other things. The term is doctrinally charged because to assert *svabhāva* of an item is to commit to its having a self-standing reality apart from relations to other items. Hindu realist traditions assent: substances, qualities, *jīvas*, and Brahman have their *svabhāvas*. Mādhyamaka Buddhism makes denial of *svabhāva* its central thesis: nothing whatsoever holds *svabhāva*, because everything is *pratītya-samutpanna*. Within Vedānta the term is used to distinguish *svābhāvika* (intrinsic) from *aupādhika* (conditioned) differences and identities. Nimbārka's *svābhāvika-bhedābheda* makes both difference and non-difference belong to the *svarūpa* itself. The term therefore sits exactly where Indian metaphysics most sharply divides — between traditions that secure reality by anchoring things in their own natures and traditions that deny the very intelligibility of such anchoring.",
+  "per_school": [
+    {
+      "school": "Mādhyamaka",
+      "definition": "Nāgārjuna defines *svabhāva* as that which is not made, not dependent on another, and unchanging — and then argues that no such thing can be found among arisen entities. Origination, motion, the *skandhas*, *nirvāṇa*, even the doctrine of emptiness itself are *niḥsvabhāva*. The denial is not nihilism: it is the claim that being dependently arisen *just is* being empty of *svabhāva*.",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 15.1-2 (svabhāva-parīkṣā)",
+        "Mūla-Madhyamaka-Kārikā 24.18 (yaḥ pratītya-samutpādaḥ)"
+      ]
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "Realist categorial metaphysics presupposes *svabhāva* throughout: substances have their natures, qualities inhere by their nature, the categories themselves are irreducible. Against Buddhist denial, Naiyāyikas argue that the very intelligibility of pratītya-samutpāda already presupposes natured relata.",
+      "primary_loci": [
+        "Nyāya-Sūtra 4.1.14ff (refutation of niḥsvabhāva)",
+        "Vaiśeṣika-Sūtra 1.1 (padārtha analysis)"
+      ]
+    },
+    {
+      "school": "Advaita",
+      "definition": "*Brahman* alone has unqualified *svabhāva*: *sat-cit-ānanda* is its *svarūpa-lakṣaṇa*. World-objects are *aupādhika*, lacking *svabhāva* in the strict sense. The Advaitic position therefore agrees with Mādhyamaka that ordinary entities lack *svabhāva*, but secures a non-relational ground in *brahman* that Mādhyamaka denies. This is the structural point of departure between the two non-dualisms.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 2.2.18-32 (refutation of Buddhist schools)",
+        "Brahma-Sūtra-Bhāṣya 2.1.14 (tādātmya / svabhāva-bheda)"
+      ]
+    },
+    {
+      "school": "Bhedābheda (Nimbārka)",
+      "definition": "*Svābhāvika-bhedābheda*: both *bheda* and *abheda* are intrinsic — belong to *svarūpa* — rather than being effects of *upādhi*. The doctrine is the school's signature contrast with Bhāskara, for whom difference is *aupādhika*. The grammar of *svabhāva* does the entire work of differentiating the two Bhedābheda positions.",
+      "primary_loci": [
+        "Vedānta-Pārijāta-Saurabha 1.4 [NOT YET RETRIEVED]",
+        "Daśa-Ślokī 4"
+      ]
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "Each *jīva* has a *svabhāva* that determines its eligibility — *mukti-yogya*, *nitya-saṃsārī*, *tamo-yogya* — and is irreducible to environment or karma. This *svabhāva* is what Hari knows from beginningless time; the doctrine of *taratamya* among liberated *jīvas* depends on it.",
+      "primary_loci": [
+        "Mahābhārata-Tātparya-Nirṇaya 1.4 [NOT YET RETRIEVED]",
+        "Brahma-Sūtra-Bhāṣya (Madhva) 3.4 (mukti-yogya analysis)"
+      ]
+    },
+    {
+      "school": "Sāṅkhya",
+      "definition": "*Svabhāva* operates as one of the rival accounts of the world's origin that Sāṅkhya considers: world-events as arising from intrinsic natures of things rather than from *Īśvara* or *karma*. Sāṅkhya's own answer is *pradhāna*-causality, but the discussion of *svabhāva-vāda* is preserved in the doxographic background.",
+      "primary_loci": [
+        "Sāṅkhya-Kārikā 27ff [NOT YET RETRIEVED]"
+      ]
+    }
+  ],
+  "see_also": [
+    "svarupa",
+    "upadhi",
+    "bhedabheda",
+    "sunyata",
+    "pratitya-samutpada",
+    "taratamya"
+  ],
+  "translator_note": "'Intrinsic nature' is acceptable for realist contexts; 'own-being' is closer for Mādhyamaka, where the word is being negated and the etymology matters. Translating *svabhāva* as 'essence' imports Aristotelian baggage and should be avoided."
+}

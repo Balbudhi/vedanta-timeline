@@ -1,0 +1,71 @@
+{
+  "term_key": "bhrama",
+  "term_iast": "bhrama",
+  "term_devanagari": "भ्रम",
+  "literal": "wandering, confusion, error; from √bhram 'to wander, wheel about'",
+  "aliases": [
+    "bhrama",
+    "Bhrama",
+    "bhramaḥ",
+    "bhramasya",
+    "bhrānti",
+    "bhrāntiḥ"
+  ],
+  "invariant_definition": "*Bhrama* (and its close partner *bhrānti*) names erroneous cognition — taking what is not so for what is. It is the phenomenon at issue in the classical *khyāti-vāda* debates: the standard cases are rope-snake, shell-silver, mirage-water, and double-moon. Every system that explains liberation as removal of cognitive error needs an account of *bhrama* — what its content is, what its substrate is, and how it terminates. The school-defining theories of error (*akhyāti*, *anyathākhyāti*, *ātma-khyāti*, *asat-khyāti*, *anirvacanīya-khyāti*, *yathārtha-khyāti*) are all rival explanations of *bhrama*. The term therefore functions as a phenomenological touchstone, and the test of a metaphysics is whether it can save what is given in *bhrama* (the rope-snake is *presented*, not merely thought of) while explaining what is corrected when truth supervenes.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Bhrama* is the model for *adhyāsa* and ultimately for the cosmic illusion: the snake-content is *anirvacanīya*, neither *sat* nor *asat*, sublatable by correct cognition. Advaitic *anirvacanīya-khyāti* makes the rope-snake the small-scale analogue of the world-Brahman relation: real substrate, *anirvacanīya* superimposition, removal by knowledge.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya, adhyāsa-bhāṣya",
+        "Iṣṭa-Siddhi 1.1 (anirvacanīya defense) [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Nyāya",
+      "definition": "*Bhrama* is *anyathā-khyāti*: a real object known elsewhere is apprehended here under a mistaken relational mode. The snake is real (encountered before), and the present cognition relates it incorrectly to the perceptual base. This realist account preserves the practical efficacy of error without invoking *anirvacanīya* entities.",
+      "primary_loci": [
+        "Nyāya-Sūtra 4.2.31-36",
+        "Nyāya-Bhāṣya on the same"
+      ]
+    },
+    {
+      "school": "Prābhākara Mīmāṃsā",
+      "definition": "*Akhyāti*: there is no false cognition properly speaking; what is taken for *bhrama* is a failure to discriminate two veridical cognitions (this-cognition and snake-memory). Falsity is a failure to discriminate, not the presence of a positively false content.",
+      "primary_loci": [
+        "Bṛhatī, khyāti section [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Bhāṭṭa Mīmāṃsā",
+      "definition": "*Viparīta-khyāti*: error is genuinely false apprehension, with the property of one thing wrongly attributed to another. Bhāṭṭa thereby rejects Prābhākara *akhyāti* but also Naiyāyika *anyathā-khyāti*'s relational analysis.",
+      "primary_loci": [
+        "Ślokavārttika, viparyaya section [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "*Ātma-khyāti*: the content presented in *bhrama* is itself a transformation of *vijñāna*. The 'external' object never was outside in the first place; *bhrama* is the model not for a special class of cognitions but for all object-positing cognition whatever, since *bāhyārtha* itself is *parikalpita*.",
+      "primary_loci": [
+        "Triṃśikā 17, 20"
+      ]
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "Madhva rejects *anirvacanīya-khyāti* and develops *abhinava-anyathā-khyāti* / *yathārtha-khyāti* variants in which apparent *bhrama* is explained without admitting indeterminable entities. The polemical context is anti-Advaita: if *bhrama* requires *anirvacanīya*, the door is open to *māyāvāda*.",
+      "primary_loci": [
+        "Tattva-Saṅkhyāna [NOT YET RETRIEVED]",
+        "Māyāvāda-Khaṇḍana"
+      ]
+    }
+  ],
+  "see_also": [
+    "anyatha-khyati",
+    "akhyati",
+    "adhyasa",
+    "anirvacaniya",
+    "mithya",
+    "pratibhasika"
+  ],
+  "translator_note": "'Error' is acceptable; 'illusion' tilts the reader toward an Advaitic reading and should be avoided when neutral exposition is needed. The technical *khyāti*-theories should be retained in Sanskrit on first mention; rendering them all as 'theories of error' obscures their differences."
+}

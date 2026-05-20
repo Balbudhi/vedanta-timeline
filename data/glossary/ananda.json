@@ -1,0 +1,67 @@
+{
+  "term_key": "ananda",
+  "term_iast": "ānanda",
+  "term_devanagari": "आनन्द",
+  "literal": "bliss, beatitude, the fullness of being; from ā- + √nand 'to rejoice'",
+  "aliases": [
+    "ananda",
+    "ānanda",
+    "Ānanda",
+    "ānandaḥ",
+    "ānandasya",
+    "anandamaya",
+    "ānanda-maya"
+  ],
+  "invariant_definition": "*Ānanda* names the affective-axiological dimension of the highest reality. The locus classicus is the Taittirīya Upaniṣad's *ānanda-mīmāṃsā* (3.5–6) and the *ānandavallī*'s scale of beatitudes culminating in *brahmānanda*. In the Vedāntic formula *sat-cit-ānanda* it is the third member: Brahman is *being*, *consciousness*, and *bliss*, not as three properties but (in Advaita) as three glosses on a single nature, or (in Viśiṣṭādvaita and Tattva-vāda) as three really distinguishable aspects/qualities. The term carries the heavy load of explaining why liberation is desirable: not merely cessation of suffering but positive participation in the highest. Schools differ sharply on whether *ānanda* in *brahman* is identical with the *ātman*'s nature (so that liberation is uncovering of one's own *ānanda*) or is the Lord's *ānanda* directly enjoyed by the released *jīva* without identity. Devotional traditions add a further layer: *ānanda* is *prema-ānanda*, structured by *rasa* and relational, not the bliss of solitary self-disclosure.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Ānanda* is the *svarūpa-lakṣaṇa* of Brahman: not a quality enjoyed by Brahman but Brahman's very nature, identical with *sat* and *cit*. The *ānandamaya-kośa* of the Taittirīya is treated carefully — it names a sheath, not Brahman itself; Brahman is *ānanda* unconditionally and is reached by penetrating beyond all five *kośas*. Worldly pleasures are reflected fragments of this unbroken *ānanda* (*Bṛhadāraṇyaka* 4.3.32).",
+      "primary_loci": [
+        "Taittirīya-Upaniṣad-Bhāṣya 2.5, 3.6 (ānanda-mīmāṃsā)",
+        "Brahma-Sūtra-Bhāṣya 1.1.12-19 (ānandamaya-adhikaraṇa)"
+      ]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Ānanda* is Bhagavān's intrinsic *svarūpa-guṇa* — alongside *jñāna* — and at the same time, by *aprthak-siddhi*, the *ātman*'s nature in his dependence on the Lord. The released *jīva* enjoys Bhagavat-*ānanda* face to face; *ānanda* is not identity-bliss but *anubhava* of the *saviśeṣa* Lord.",
+      "primary_loci": [
+        "Śrī-Bhāṣya 1.1.12-19 (ānandamaya-adhikaraṇa)",
+        "Vedārtha-Saṃgraha §§40-55"
+      ]
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "Hari's *ānanda* is supreme; each *jīva* has its own *ānanda*-capacity in a hierarchy of *taratamya*. In *mokṣa* the *jīva* enjoys *ānanda* commensurate with its *svarūpa-bheda* and never reaches Hari's. *Ānanda* is therefore stratified and qualitative, not equalizing.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya (Madhva) 1.1.12-19 [NOT YET RETRIEVED]",
+        "Mahābhārata-Tātparya-Nirṇaya 1.4"
+      ]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Ānanda* is structured as *prema-ānanda* — the relational bliss of Kṛṣṇa-prema in a specific *rasa*. The *hlādinī-śakti* is Bhagavān's own *ānanda*-power, and the devotee's bliss is participation in it. *Brahmānanda* in the Advaitic sense is considered vastly inferior to *prema-ānanda* in the Gauḍīya scale.",
+      "primary_loci": [
+        "Bhakti-Rasāmṛta-Sindhu 1.1 (prayojana)",
+        "Caitanya-Caritāmṛta, Ādi 4 [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "*Ānanda* is the second of the five *śaktis* (*cit-ānanda-icchā-jñāna-kriyā*) constituting Śiva's nature. It is *vimarśa* as self-delighting; the universe is Śiva's *ānanda* spilling outward in self-manifestation. The dynamism of *ānanda* here contrasts with Advaita's stiller *svarūpa-lakṣaṇa* reading.",
+      "primary_loci": [
+        "Tantrāloka 3 (śakti analysis) [NOT YET RETRIEVED]",
+        "Parā-Trīśikā-Vivaraṇa, opening sections"
+      ]
+    }
+  ],
+  "see_also": [
+    "saccidananda",
+    "brahman",
+    "prema",
+    "rasa",
+    "anubhava",
+    "moksa"
+  ],
+  "translator_note": "'Bliss' is the standard rendering and is acceptable. It picks up English connotations of intense pleasure that should be qualified: *ānanda* is the standing condition of fullness rather than a felt rush. In devotional contexts pair with the appropriate *rasa* qualifier."
+}

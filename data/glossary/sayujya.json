@@ -1,0 +1,63 @@
+{
+  "term_key": "sayujya",
+  "term_iast": "sāyujya",
+  "term_devanagari": "सायुज्य",
+  "literal": "union, conjunction (with the Lord); from sa- 'with' + √yuj 'to join' + -ya (abstract)",
+  "aliases": [
+    "sayujya",
+    "sāyujya",
+    "Sāyujya",
+    "sāyujyam"
+  ],
+  "invariant_definition": "*Sāyujya* is the fourth and apparently culminating mode in the standard Vaiṣṇava list of four *muktis* (*sālokya*, *sāmīpya*, *sārūpya*, *sāyujya*): union with the Lord. The school-defining question is what kind of union this is. Advaita reads *sāyujya* as identity-realization, the cancellation of *bheda*. Viśiṣṭādvaita reads it as the deepest *aprthak-siddhi* — the *jīva* shares in Bhagavān's nature without losing its substantial distinction. Madhva insists that *sāyujya* never compromises *svarūpa-bheda*: the *jīva* enters Hari but is not Hari. Gauḍīya theology often demotes *sāyujya* in the hierarchy because it dissolves the relational structure of *rasa* and *sevā*: better an eternal embodied servant in *vraja* than a featureless union with the impersonal Absolute. *Sāyujya* therefore functions as a precision test: a school's metaphysics of *jīva* and Brahman is exposed by how it reads this last term.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Sāyujya* in the strict sense is *brahmaikya*: the realization of identity, in which the apparent distinction between *jīva* and *brahman* is canceled together with the *avidyā* that supported it. The other three modes (*sālokya*, etc.) are accommodations to *saguṇa-upāsanā* and yield lesser results.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 4.4.4-7 (avibhāgena dṛṣṭatvāt)",
+        "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 4.4.6"
+      ]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Sāyujya* is the deepest union compatible with *aprthak-siddhi*: the *jīva* enjoys *bhoga-sāmya* with Bhagavān — equality of bliss-experience — but never *kartṛtva-sāmya* or numerical identity. The Lord's *svarūpa-aiśvarya* remains his alone; the *jīva* is in him and like him.",
+      "primary_loci": [
+        "Śrī-Bhāṣya 4.4 (concluding adhikaraṇas)",
+        "Vedārtha-Saṃgraha §§140-150"
+      ]
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "Madhva accepts *sāyujya* but reads it under the strong constraint of *svarūpa-bheda*: the *jīva* enters Hari, even abides in his body, but is never Hari. *Sāyujya* is real union of presence and dependence, not numerical or essential identity. The polemic against the Advaitic identity-reading is constant.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya (Madhva) 4.4 [NOT YET RETRIEVED]",
+        "Viṣṇu-Tattva-Vinirṇaya, mokṣa sections"
+      ]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Sāyujya* is the lowest of the four *muktis* in much of Gauḍīya literature, sometimes treated as a state to be avoided because it dissolves the relational structure necessary for *prema-rasa*. The school's *prayojana* is not *sāyujya* but eternal *sevā* in a specific *bhāva*, often in *vraja-līlā*.",
+      "primary_loci": [
+        "Bhakti-Rasāmṛta-Sindhu 1.1 (prayojana)",
+        "Caitanya-Caritāmṛta, Madhya 19 [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "The analogue is *śiva-yojanikā* or *śivatva-prāpti* — the *aṇu*-self recognized as Śiva. Trika does not use the four-fold Vaiṣṇava taxonomy but its conception of union is closer to Advaita's: recognition rather than acquisition.",
+      "primary_loci": [
+        "Pratyabhijñā-Hṛdayam 18-20"
+      ]
+    }
+  ],
+  "see_also": [
+    "sarupya",
+    "samipya",
+    "moksa",
+    "videhamukti",
+    "aprthak-siddhi",
+    "pratyabhijna"
+  ],
+  "translator_note": "'Union with the Lord' is the closest gloss. 'Absorption' is misleading — it tilts Advaitic; 'merger' tilts dissolutionist. Where the school distinguishes *sāyujya* from *brahmaikya* the Sanskrit must be retained."
+}

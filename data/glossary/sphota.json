@@ -1,0 +1,64 @@
+{
+  "term_key": "sphota",
+  "term_iast": "sphoṭa",
+  "term_devanagari": "स्फोट",
+  "literal": "bursting forth, that which is revealed in an instant; from √sphuṭ 'to burst, to disclose'",
+  "aliases": [
+    "sphota",
+    "sphoṭa",
+    "Sphoṭa",
+    "sphoṭaḥ",
+    "sphoṭasya",
+    "śabda-sphoṭa",
+    "pada-sphoṭa"
+  ],
+  "invariant_definition": "*Sphoṭa* is the Bhartṛharian doctrine of the unitary linguistic sign: the meaning-bearing unit (word, sentence) is not a sequence of sounds aggregated in time but a single integral entity revealed (*sphuṭati*) all at once by the successively heard phonemes. The phonemes are *dhvani* — physical noise that suggests the *sphoṭa* — while the *sphoṭa* itself is grasped instantaneously and bears meaning. The doctrine is the linguistic-philosophical centerpiece of *Vyākaraṇa-darśana* and is connected by Bhartṛhari to the metaphysical thesis that *śabda-brahman* is the ground of all manifestation. Mīmāṃsā and Nyāya reject *sphoṭa*: meaning is borne by the sequence of phonemes themselves, made operative through *saṃskāras* of memory. The doctrine matters to Vedānta because Mandana Miśra and later Advaitins use *sphoṭa*-related arguments to defend the unitary cognition of *mahāvākyas*, and because Bhartṛhari's *śabda-brahman* lurks in the background of Vedāntic accounts of *śruti*.",
+  "per_school": [
+    {
+      "school": "Vyākaraṇa-darśana",
+      "definition": "Bhartṛhari makes *sphoṭa* the meaning-bearing unit and *dhvani* the physical sound. The *sphoṭa* is eternal and partless; phonemes are not parts of it but indicators. *Śabda-brahman*, of which the world is *vivarta*, is the ultimate metaphysical correlate. *Vākya-sphoṭa* (sentence-sphoṭa) is generally privileged over word-sphoṭa for explaining understanding.",
+      "primary_loci": [
+        "Vākyapadīya 1.1-5 (śabda-brahman)",
+        "Vākyapadīya 1.44ff (sphoṭa-doctrine)"
+      ]
+    },
+    {
+      "school": "Bhāṭṭa Mīmāṃsā",
+      "definition": "Kumārila rejects *sphoṭa* in detail: phonemes themselves bear meaning when arrayed in sequence; their *saṃskāras* in memory account for the unity of understanding without positing a partless meaning-entity. The polemic is one of the standard set pieces of Mīmāṃsā linguistic philosophy.",
+      "primary_loci": [
+        "Ślokavārttika, sphoṭa-vāda chapter"
+      ]
+    },
+    {
+      "school": "Nyāya",
+      "definition": "Naiyāyikas align with Mīmāṃsā in rejecting *sphoṭa*: meaning is conventional (*sāṅketika*) and borne by the phonemes through *saṅketa*. The unity of cognition is explained by *anuvyavasāya* and memory, not by an additional unitary entity.",
+      "primary_loci": [
+        "Nyāya-Mañjarī, śabda-pariccheda [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Advaita",
+      "definition": "Maṇḍana Miśra in *Sphoṭa-Siddhi* defends a version of *sphoṭa* and connects it to the unitary grasp of *tat tvam asi*. Advaita generally accepts a sympathetic reading of grammarian doctrine even where it does not endorse the full metaphysical thesis: the unitary character of meaning-bearing utterance is congenial to the school's account of *mahāvākya*-cognition.",
+      "primary_loci": [
+        "Maṇḍana, Sphoṭa-Siddhi",
+        "Brahma-Sūtra-Bhāṣya 1.3.28 (śabda-nityatva)"
+      ]
+    },
+    {
+      "school": "Buddhist (Apoha-vāda)",
+      "definition": "Dignāga's *apoha*-theory is the standard Buddhist alternative to both *sphoṭa* and Naiyāyika realism: words signify by exclusion of the other (*anya-apoha*) rather than by either picking out universals or revealing partless meaning-units.",
+      "primary_loci": [
+        "Pramāṇa-Samuccaya 5 (apoha-pariccheda)"
+      ]
+    }
+  ],
+  "see_also": [
+    "sabda",
+    "apoha",
+    "mahavakya",
+    "vivarta",
+    "pramana",
+    "tatparya"
+  ],
+  "translator_note": "Leave *sphoṭa* untranslated; English 'word-burst' or 'meaning-revelation' is misleading. The doctrine is technical enough that no English equivalent does it justice. When the contrast is with *dhvani*, render *dhvani* as 'phonemic sound' to keep the distinction visible."
+}

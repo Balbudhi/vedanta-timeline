@@ -1,0 +1,63 @@
+{
+  "term_key": "darsana",
+  "term_iast": "darśana",
+  "term_devanagari": "दर्शन",
+  "literal": "seeing, view, vision; from √dṛś 'to see'",
+  "aliases": [
+    "darsana",
+    "darśana",
+    "Darśana",
+    "darśanaṃ",
+    "darśanasya",
+    "darshan",
+    "ṣaḍ-darśana"
+  ],
+  "invariant_definition": "*Darśana* names both an act of seeing and the standing intellectual viewpoint produced by such seeing. In philosophical usage it is the standard pan-Indian term for a 'system' — a coherent disciplined account of reality, knowledge, and the path. The classical doxographies enumerate *ṣaḍ-darśana*: Nyāya, Vaiśeṣika, Sāṅkhya, Yoga, Mīmāṃsā, Vedānta. The term implicitly claims something philosophically heavy: a doctrine is not a mere theory but a way of seeing, ratified ultimately by a higher form of direct vision (*sākṣātkāra*, *aparokṣa-jñāna*). In devotional and Tantric contexts *darśana* also names the literal seeing of a deity or guru, which is itself treated as a sacramental cognitive event with metaphysical consequence. The polysemy is itself doctrinally significant: schools that distinguish sharply between conceptual knowledge and immediate vision use *darśana* to mark the seam.",
+  "per_school": [
+    {
+      "school": "Doxographic / Pan-Indian",
+      "definition": "*Darśana* names the disciplined systems themselves. The conventional list *ṣaḍ-darśana* groups them in pairs (Nyāya/Vaiśeṣika, Sāṅkhya/Yoga, Mīmāṃsā/Vedānta), with Cārvāka, Jaina, and Buddhist *darśanas* added in fuller surveys (Mādhava's *Sarva-Darśana-Saṃgraha*).",
+      "primary_loci": [
+        "Mādhava, Sarva-Darśana-Saṃgraha, opening sections"
+      ]
+    },
+    {
+      "school": "Advaita",
+      "definition": "*Darśana* of *brahman* in Advaita is not a fresh object-perception but the immediate self-disclosure that constitutes liberation; the word is therefore used carefully against any objectifying reading. *Brahma-darśana* is glossed as *brahma-sākṣātkāra* and explicated through *aparokṣa-jñāna*.",
+      "primary_loci": [
+        "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 4.4.7 [NOT YET RETRIEVED]",
+        "Upadeśa-Sāhasrī, prose chapters"
+      ]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Bhagavat-darśana* is the direct vision of the Lord, the experiential pole of *upāsanā* / *bhakti*. It is not identity-disclosure but face-to-face cognition of the *saviśeṣa* Lord in his eternal form, prepared by *jñāna* and consummated by *prasāda*.",
+      "primary_loci": [
+        "Śrī-Bhāṣya 1.1.1 (concluding section)"
+      ]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Darśana* of Kṛṣṇa is structured by *rasa*: the devotee sees the Lord in a specific relational mode (*śānta*, *dāsya*, *sakhya*, *vātsalya*, *mādhurya*). *Darśana* is therefore not generic vision but relational presence, conditioned by *bhāva* and consummated in *prema*. Iconic and ritual *darśana* of the deity is treated as continuous with the *līlā*-vision of the eternally awakened devotee.",
+      "primary_loci": [
+        "Bhakti-Rasāmṛta-Sindhu 1.2 (vaidhī-/rāgānugā-bhakti)"
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "*Darśana* in Pratyabhijñā is the *pratyabhijñā*-event itself: recognition that the apparent finite cognizer is Śiva. The verb-noun structure of the term (seeing-and-view) makes it apt for a doctrine in which the cognitive act is also the metaphysical realization.",
+      "primary_loci": [
+        "Īśvara-Pratyabhijñā-Vimarśinī, opening verses [NOT YET RETRIEVED]"
+      ]
+    }
+  ],
+  "see_also": [
+    "saksatkara",
+    "aparoksa-jnana",
+    "anubhava",
+    "pratyaksa",
+    "pratyabhijna",
+    "sravana"
+  ],
+  "translator_note": "'Philosophical system' is acceptable for doxographic uses; 'vision' or 'sight' for ritual and devotional uses; 'view' is the right Buddhist gloss (Pāli *diṭṭhi*). Never reduce *darśana* to 'theory' — it carries the claim that the doctrine has been *seen*, not merely argued."
+}

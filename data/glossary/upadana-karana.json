@@ -1,0 +1,74 @@
+{
+  "term_key": "upadana-karana",
+  "term_iast": "upādāna-kāraṇa",
+  "term_devanagari": "उपादानकारण",
+  "literal": "material cause; upādāna 'taking up, raw material' + kāraṇa 'cause'",
+  "aliases": [
+    "upadana-karana",
+    "upādāna-kāraṇa",
+    "Upādāna-kāraṇa",
+    "upādāna",
+    "upādānakāraṇa",
+    "upadana"
+  ],
+  "invariant_definition": "*Upādāna-kāraṇa* is the material cause: the substrate that itself takes on the effect, as clay is the material cause of a pot. It contrasts with *nimitta-kāraṇa* (efficient cause, e.g. the potter) and, where the threefold scheme is used, *sahakāri-kāraṇa* (auxiliary cause). The Vedāntic question is whether *brahman* is *upādāna-kāraṇa* of the world, and if so, how. Schools converge on the *Brahma-Sūtra*'s claim that *brahman* is both material and efficient cause (*abhinna-nimitta-upādāna*) but interpret this dramatically differently: as *vivarta-upādāna* (Advaita: appearing-cause, without real modification), as *pariṇāmi-upādāna* (Bhāskara, Vallabha: really modifying material cause), or as cause that genuinely transforms its *acit* and *cit* body while remaining unchanged in its own *svarūpa* (Rāmānuja). The choice fixes the school's entire ontology of the world's reality.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Brahman* is *upādāna-kāraṇa* of the world only in the *vivarta* mode: it appears as the world without itself undergoing modification. The substrate is not transformed; only the appearance is. This *vivarta-upādāna* doctrine is what allows Advaita to retain the *Brahma-Sūtra* claim of *abhinna-nimitta-upādāna* while denying real change to *brahman*.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 1.4.23 (upādānaṃ ca)",
+        "Brahma-Sūtra-Bhāṣya 2.1.14 (tādātmyam)"
+      ]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Bhagavān is *upādāna-kāraṇa* in the sense that his *cit-acit-prapañca* body undergoes real *pariṇāma* — coarsening at creation, withdrawal at dissolution — while his *svarūpa* remains unaltered. The doctrine threads the needle between Advaitic *vivarta* and a fully naive *pariṇāma*-vāda.",
+      "primary_loci": [
+        "Śrī-Bhāṣya 1.4.23-27 (upādānatva)",
+        "Vedārtha-Saṃgraha §§120-130 [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Bhedābheda (Bhāskara)",
+      "definition": "*Brahman* is *pariṇāmi-upādāna-kāraṇa*: the world is a real transformation of *brahman* under *upādhi*, comparable to milk becoming curd. The transformation is genuine but conditioned; *aupādhika-bhedābheda* coordinates the metaphor.",
+      "primary_loci": [
+        "Bhāskara, Brahma-Sūtra-Bhāṣya 1.1.4 [NOT YET RETRIEVED]",
+        "Bhāskara, Brahma-Sūtra-Bhāṣya 2.1.14"
+      ]
+    },
+    {
+      "school": "Śuddhādvaita",
+      "definition": "Vallabha makes Brahman the *samavāyi-kāraṇa* of name and form, which are *kārya-dharmas*. The world is a real *pariṇāma* of Brahman, but Brahman is *avikṛta* in the alaukika manner illustrated by gold and its products. *Vivarta* is rejected; the world is real because its material cause is real.",
+      "primary_loci": [
+        "Aṇu-Bhāṣya on Brahma-Sūtra 1.1.4",
+        "Aṇu-Bhāṣya on Brahma-Sūtra 1.4.26"
+      ]
+    },
+    {
+      "school": "Sāṅkhya",
+      "definition": "*Mūla-prakṛti* is the *upādāna-kāraṇa* of the manifest order; *puruṣa* is neither material nor efficient cause, only the witnessing condition for whose sake *prakṛti* unfolds. The dispute with theistic Vedānta is precisely about whether a non-conscious *upādāna* is intelligible without a conscious *adhiṣṭhātṛ*.",
+      "primary_loci": [
+        "Sāṅkhya-Kārikā 8-9, 56",
+        "Brahma-Sūtra 1.1.5-11 (anti-Sāṅkhya response)"
+      ]
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "*Upādāna* is the inherent (*samavāyi*) cause: that in which the effect inheres. The threefold scheme *samavāyi / asamavāyi / nimitta* substitutes for *upādāna / sahakāri / nimitta* in Vaiśeṣika analysis. The world is composed of eternal atoms and the *adṛṣṭa*-driven efficient cause is *Īśvara*.",
+      "primary_loci": [
+        "Padārtha-Dharma-Saṃgraha (Praśastapāda), cause section",
+        "Nyāya-Sūtra 4.1.14ff"
+      ]
+    }
+  ],
+  "see_also": [
+    "nimitta-karana",
+    "vivarta",
+    "parinama",
+    "karana",
+    "karya",
+    "satkarya-vada"
+  ],
+  "translator_note": "'Material cause' is the conventional rendering and is acceptable, but it carries Aristotelian baggage that misleads in *vivarta*-contexts. When the school's doctrine is the difference between *vivarta-* and *pariṇāmi-upādāna*, the Sanskrit qualifier must be preserved."
+}

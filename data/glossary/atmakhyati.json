@@ -1,0 +1,55 @@
+{
+  "term_key": "atmakhyati",
+  "term_iast": "ātma-khyāti",
+  "term_devanagari": "आत्मख्याति",
+  "literal": "self-appearance (theory); ātman 'self, [here] consciousness-internal' + khyāti 'appearing, cognition'",
+  "aliases": [
+    "atmakhyati",
+    "ātma-khyāti",
+    "Ātma-khyāti",
+    "ātmakhyāti",
+    "atma-khyati"
+  ],
+  "invariant_definition": "*Ātma-khyāti* is the Yogācāra theory of erroneous cognition: in cases like rope-snake the apparent snake is not an external entity at all but a transformation of *vijñāna* itself. There is no need to posit an external snake known elsewhere (Nyāya *anyathā-khyāti*) nor an *anirvacanīya* superimposed content (Advaita *anirvacanīya-khyāti*) nor a positive false content (Bhāṭṭa *viparīta-khyāti*): the snake-appearance is consciousness-internal, a *parikalpita* construction within the *vijñāna*-stream. *Ātma-khyāti* is one of the standard *khyāti-vāda* positions enumerated by Vedāntic doxographers (alongside *akhyāti*, *anyathā-khyāti*, *asat-khyāti*, and the rest) and is the position with which the Vedāntic schools must reckon as the Yogācāra alternative. Implicitly it generalizes: if the rope-snake snake is consciousness-internal, so is every other object — *bāhyārtha-niṣedha* is built into the doctrine.",
+  "per_school": [
+    {
+      "school": "Yogācāra",
+      "definition": "The cognition called 'snake' has *ātman* — its substrate-content — internal to *vijñāna* itself, not external. Vasubandhu's *Viṃśatikā* argues that the standard objections to *bāhyārtha-niṣedha* (dream-experience showing space-time regularity, intersubjective agreement, causal efficacy, instruction) are all met by a non-realist account. The *khyāti* in question is thus *ātma-khyāti*: appearance of the self (the *vijñāna*'s own state) misconstrued as object.",
+      "primary_loci": [
+        "Viṃśatikā 1-5",
+        "Triṃśikā 17, 20"
+      ]
+    },
+    {
+      "school": "Advaita",
+      "definition": "Advaita acknowledges *ātma-khyāti* in the doxography as the Yogācāra position and partially shares the move against external realism, but rejects the reduction of all appearance to *vijñāna*-transformations. The substrate of error must be a real *adhiṣṭhāna* (Brahman/rope), not a momentary *vijñāna*-stream; otherwise the asymmetry between substrate and superimposed content is lost.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 2.2.28-31 (refutation of vijñāna-vāda)"
+      ]
+    },
+    {
+      "school": "Nyāya",
+      "definition": "*Ātma-khyāti* is rejected: the explanatory work it does can be done by *anyathā-khyāti* without abandoning realism about external objects. Vasubandhu's arguments are systematically engaged in *Nyāya-Sūtra* 4.2 and the *Nyāya-Bhāṣya*.",
+      "primary_loci": [
+        "Nyāya-Sūtra 4.2.26-37",
+        "Nyāya-Bhāṣya on the same"
+      ]
+    },
+    {
+      "school": "Mīmāṃsā",
+      "definition": "Rejected by both Bhāṭṭa and Prābhākara on broadly realist grounds; the rite-centered hermeneutic project requires that the objects of ritual cognition be external and stable. *Ātma-khyāti* would undermine the realist substrate Mīmāṃsā depends on.",
+      "primary_loci": [
+        "Ślokavārttika, śūnya-vāda and vijñāna-vāda chapters"
+      ]
+    }
+  ],
+  "see_also": [
+    "bhrama",
+    "anyatha-khyati",
+    "akhyati",
+    "vijnapti-matrata",
+    "alaya-vijnana",
+    "trisvabhava"
+  ],
+  "translator_note": "Leave in Sanskrit; *khyāti*-vocabulary should be preserved as a technical set. 'Self-appearance theory' is approximate but acceptable in expository prose."
+}

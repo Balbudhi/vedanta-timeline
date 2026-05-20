@@ -1,0 +1,54 @@
+{
+  "term_key": "sarupya",
+  "term_iast": "sārūpya",
+  "term_devanagari": "सारूप्य",
+  "literal": "having-the-same-form (as the Lord); from sa- 'with' + rūpa 'form' + -ya (abstract)",
+  "aliases": [
+    "sarupya",
+    "sārūpya",
+    "Sārūpya",
+    "sārūpyam"
+  ],
+  "invariant_definition": "*Sārūpya* is one of the four classical types of *mukti* enumerated in Vaiṣṇava and Pāñcarātra literature: the liberated *jīva* acquires a form like that of Bhagavān. The standard list is *sālokya* (residence in the same realm), *sāmīpya* (proximity to the Lord), *sārūpya* (similarity of form), and *sāyujya* (union with the Lord). A fifth — *sārṣṭi* (sharing in the Lord's powers) — is sometimes added. The four are organized as a hierarchy, but the ordering differs across schools and the highest is differently identified: Advaita reads *sāyujya* as identity-realization; Madhva ranks *sāyujya* highest only with the strong caveat that no *jīva* loses *svarūpa-bheda*; Gauḍīya tradition explicitly subordinates *sāyujya* (often treated as inferior, since it dissolves *rasa*) to the relational forms. *Sārūpya* therefore sits in a contested taxonomy of liberation, with each school using the list to mark exactly how proximate the released *jīva* becomes to the Lord without losing its conditions for relationship.",
+  "per_school": [
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Sārūpya* names one mode of liberated existence: the *jīva* in *paramapada* acquires a form like Bhagavān's — luminous, free, but always a servant. The four (or five) modes are accepted, but the operative culmination is *kainkarya*, eternal service, which does not collapse into identity.",
+      "primary_loci": [
+        "Yatīndramata-Dīpikā, mokṣa-pariccheda [NOT YET RETRIEVED]",
+        "Bhagavad-Gītā-Bhāṣya (Rāmānuja) 18.65-66"
+      ]
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "Madhva accepts the four-fold taxonomy but underlines *svarūpa-bheda*: even in *sārūpya* and *sāyujya* the *jīva* never loses its constitutive distinction from Hari. The hierarchy is real and *taratamya*-stratified by *adhikāra* and *svabhāva*.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya (Madhva) 4.4 [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Sārūpya* is one of the lower modes of *mukti* in the Gauḍīya scale. *Sāyujya* is often classified as inferior or even rejected because it dissolves the relational structure of *rasa*; the school prefers *sevā-rasa* in a specific *bhāva*, accessible through *prema-bhakti*, to any of the four formal *muktis*.",
+      "primary_loci": [
+        "Bhakti-Rasāmṛta-Sindhu 1.1 (prayojana)",
+        "Caitanya-Caritāmṛta, Madhya 19-20 [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Advaita",
+      "definition": "The four-fold taxonomy belongs to *vyavahāra* and to Vaiṣṇava devotional schemes; for Advaita, *mokṣa* in the strict sense is *brahma-jñāna* and identity-realization, not the acquisition of a celestial form. *Sārūpya* and *sālokya* are read as preliminary or as accommodations to *saguṇa-upāsanā*.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 4.4 (concluding adhikaraṇas)"
+      ]
+    }
+  ],
+  "see_also": [
+    "samipya",
+    "sayujya",
+    "moksa",
+    "mukti-yogya",
+    "videhamukti",
+    "bhakti"
+  ],
+  "translator_note": "'Similarity of form to the Lord' is acceptable. Do not translate as 'being-the-same-as,' which collapses it into *sāyujya*. The four-fold list should be retained in Sanskrit on first occurrence."
+}

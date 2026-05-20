@@ -1,0 +1,56 @@
+{
+  "term_key": "nityasiddha",
+  "term_iast": "nityasiddha",
+  "term_devanagari": "नित्यसिद्ध",
+  "literal": "eternally accomplished, never not-liberated; nitya 'eternal' + siddha 'accomplished, perfect'",
+  "aliases": [
+    "nityasiddha",
+    "nitya-siddha",
+    "Nityasiddha",
+    "nityasiddhāḥ",
+    "nityasūri",
+    "nitya-sūri"
+  ],
+  "invariant_definition": "*Nityasiddha* (or *nityasūri*) names a class of beings who are not bound *jīvas* who became liberated but who have never been bound at all — eternally accomplished, eternally in the Lord's presence. The category is doctrinally important in Viśiṣṭādvaita and Tattva-vāda where it underwrites the existence of beings such as Garuḍa, Viṣvaksena, and Śeṣa: these are not graduates of *saṃsāra* but eternally free attendants of Bhagavān in *paramapada*. The doctrine forces a tripartite division of selves: *baddha* (bound), *mukta* (those who have attained release from bondage), and *nitya* (those never bound). For Advaita the category has no metaphysical purchase: every appearing *jīva* is, at the level of *paramārtha*, identical with Brahman and so already *nitya-mukta* in a different sense, but no doctrinal class of *nityasiddhas* alongside other *jīvas* is recognized. For Gauḍīya theology *nityasiddhas* are the eternal associates of Kṛṣṇa in *vraja*, whose status grounds the doctrine of *rāgānuga-bhakti*: the *sādhaka* aspires not to a generic *mokṣa* but to participation alongside specific *nityasiddhas*.",
+  "per_school": [
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Nityasūris* are eternally free attendants of Nārāyaṇa in *paramapada* — Garuḍa, Viṣvaksena, Ananta. The category is distinct from *muktas* (released *jīvas*) and structurally necessary: not every being in Vaikuṇṭha is a former *saṃsārin*. The three-fold division *baddha*/*mukta*/*nitya* organizes the school's account of the *cit*-realm.",
+      "primary_loci": [
+        "Yatīndramata-Dīpikā, cit-pariccheda [NOT YET RETRIEVED]",
+        "Śrī-Bhāṣya 1.1.1 (concluding section)"
+      ]
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "Madhva accepts *nityasiddhas* (Lakṣmī, Vāyu, Brahmā, Sarasvatī, and others) within the *taratamya*-stratified hierarchy. Their *svarūpa* never undergoes *saṃsāra*; they are eternally proximate to Hari. The category structurally supports the doctrine of *taratamya* among liberated beings as well.",
+      "primary_loci": [
+        "Mahābhārata-Tātparya-Nirṇaya, opening sections [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Nityasiddhas* are the eternal associates of Kṛṣṇa in *vraja* (the gopas, gopīs, and parikara) and in other *līlās*. *Rāgānuga-bhakti* is defined by following in the wake of a specific *nityasiddha* whose *bhāva* the *sādhaka* aspires to enter. The doctrine therefore plays a constitutive role in the school's account of practice.",
+      "primary_loci": [
+        "Bhakti-Rasāmṛta-Sindhu 1.2 (rāgānuga-bhakti)",
+        "Caitanya-Caritāmṛta, Madhya 22-24 [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Advaita",
+      "definition": "No category of *nityasiddhas* alongside ordinary *jīvas* is admitted at *paramārtha*; in *vyavahāra* the Vaiṣṇava cosmology is acknowledged but reread. Sometimes *Īśvara* and certain *upāsanā*-objects are described as eternally accomplished, but only in the *saguṇa* register.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 4.4 (concluding adhikaraṇas)"
+      ]
+    }
+  ],
+  "see_also": [
+    "moksa",
+    "mukti-yogya",
+    "nitya-samsari",
+    "videhamukti",
+    "bhakti",
+    "taratamya"
+  ],
+  "translator_note": "'Eternally accomplished' or 'eternally liberated' is acceptable. The category is structural rather than ornamental — translators should not collapse it into 'angels' or 'archangels,' which imports a different theology."
+}

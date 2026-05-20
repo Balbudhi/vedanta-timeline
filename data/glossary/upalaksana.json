@@ -1,0 +1,55 @@
+{
+  "term_key": "upalaksana",
+  "term_iast": "upalakṣaṇa",
+  "term_devanagari": "उपलक्षण",
+  "literal": "an indicative mark, a secondary characteristic; upa- + lakṣaṇa 'mark, defining sign'",
+  "aliases": [
+    "upalaksana",
+    "upalakṣaṇa",
+    "Upalakṣaṇa",
+    "upalakṣaṇam",
+    "upalakṣaṇasya"
+  ],
+  "invariant_definition": "*Upalakṣaṇa* names an indicative or extrinsic mark used to pick out a referent without itself belonging to the referent's *svarūpa*. The standard example: when a house is identified by the crow sitting on its roof ('the house with the crow'), the crow is *upalakṣaṇa* — a contingent feature used for identification, not part of what the house is. The pair contrast is with *viśeṣaṇa* (qualifier) and with *svarūpa-lakṣaṇa* (intrinsic defining mark). *Upalakṣaṇa* matters enormously in Vedāntic exegesis because so much of the dispute over Upaniṣadic identity-statements turns on whether predicates of Brahman are *svarūpa-lakṣaṇa* (essential), *viśeṣaṇa* (qualifying), or *upalakṣaṇa* (merely indicative). Advaitins are systematic users of the category: predicates such as 'creator,' 'preserver,' 'destroyer' are *taṭastha-lakṣaṇa* of Brahman, functioning as *upalakṣaṇa*-style markers rather than constituting Brahman's *svarūpa*.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "Predicates that apply to Brahman through its *vyāvahārika* role (cause of the world, *Īśvara*, etc.) are *taṭastha-lakṣaṇa* and function as *upalakṣaṇa*. *Sat-cit-ānanda* is, by contrast, *svarūpa-lakṣaṇa*. The distinction is the principal exegetical tool by which Advaita reads cosmological predicates of Brahman without taking them as essential constituents.",
+      "primary_loci": [
+        "Vedānta-Paribhāṣā, viṣaya-pariccheda",
+        "Brahma-Sūtra-Bhāṣya 1.1.2 (janmādy asya yataḥ — taṭastha-lakṣaṇa)"
+      ]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Rāmānuja resists the Advaitic move that turns cosmological predicates into *upalakṣaṇa*. For him, predicates of Bhagavān are *viśeṣaṇas* — real qualifiers — because Bhagavān is *saviśeṣa*: the predicates belong to him intrinsically as the substantive who has *cit* and *acit* as body. *Upalakṣaṇa* is therefore restricted to genuinely contingent marks.",
+      "primary_loci": [
+        "Śrī-Bhāṣya 1.1.1 (sāmānādhikaraṇya analysis)",
+        "Vedārtha-Saṃgraha §§80-95"
+      ]
+    },
+    {
+      "school": "Mīmāṃsā",
+      "definition": "*Upalakṣaṇa* is a working tool in ritual hermeneutics: a procedural mark sometimes indicates a class of rites without itself being a part of the procedure. The grammar of *upalakṣaṇa* in Mīmāṃsā exegesis is one of the historical sources for the Vedāntic deployment of the same distinction.",
+      "primary_loci": [
+        "Mīmāṃsā-Sūtra commentaries on viṣaya-vāky a [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Vyākaraṇa",
+      "definition": "In grammatical analysis *upalakṣaṇa* names a generalizing use of a particular instance: a stated rule or example *upalakṣayati* a wider class without being limited to the literal case. The technique is sometimes invoked when commentators justify extending a sūtra beyond its literal scope.",
+      "primary_loci": [
+        "Mahābhāṣya passages on upalakṣaṇa [NOT YET RETRIEVED]"
+      ]
+    }
+  ],
+  "see_also": [
+    "laksana",
+    "visesa",
+    "svarupa",
+    "tatparya",
+    "mahavakya",
+    "bhasya"
+  ],
+  "translator_note": "'Indicative mark' or 'extrinsic mark' is acceptable. Where Advaita is using *upalakṣaṇa* against *viśeṣaṇa* exegetically, the technical pair should be preserved in Sanskrit; English 'qualifier' vs 'identifier' can stand in but should be glossed with the originals."
+}

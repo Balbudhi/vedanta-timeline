@@ -1,0 +1,65 @@
+{
+  "term_key": "bhavana",
+  "term_iast": "bhāvanā",
+  "term_devanagari": "भावना",
+  "literal": "causing to be, bringing into being, cultivation, contemplative imagination; causative of √bhū",
+  "aliases": [
+    "bhavana",
+    "bhāvanā",
+    "Bhāvanā",
+    "bhāvanāyāḥ",
+    "bhāvanāyām",
+    "bhavanaa"
+  ],
+  "invariant_definition": "*Bhāvanā* names a productive cultivation: the bringing-into-being of a state, disposition, or result through repeated practice or operative meaning. In Mīmāṃsā it is the technical name for the productive force that makes a Vedic injunction perform its work: every *vidhi* is parsed as *bhāvanā* analyzed into the result to be brought about (*sādhya*), the means (*sādhana*), and the procedure (*itikartavyatā*). In Yoga and contemplative traditions *bhāvanā* is the disciplined cultivation of a chosen counter-cognition until it becomes habitual and finally direct realization. In Buddhist usage (*bhāvanā*) it is one of the three modes of wisdom (*śruta-cintā-bhāvanā-mayī prajñā*), and the standard term for meditative cultivation as such. In devotional theology *bhāvanā* shades into *smaraṇa* and *rāga* — sustained inner cultivation of a *bhāva*. Behind the spread of uses is one structural claim: certain results are not given but cultivated into being.",
+  "per_school": [
+    {
+      "school": "Bhāṭṭa Mīmāṃsā",
+      "definition": "Kumārila's *bhāvanā*-analysis is the spine of Mīmāṃsaka injunction-theory. *Śabda-bhāvanā* (verbal productive force) and *artha-bhāvanā* (material productive force) are distinguished; every Vedic *vidhi* is exhaustively analyzed into the three components *sādhya*, *sādhana*, *itikartavyatā*. The doctrine is the framework in which *codanā*, *apūrva*, and the agent's relation to the result are systematically related.",
+      "primary_loci": [
+        "Tantra-Vārttika 2.1 (bhāvanā analysis)",
+        "Ślokavārttika, codanā-sūtra section"
+      ]
+    },
+    {
+      "school": "Prābhākara Mīmāṃsā",
+      "definition": "Prabhākara accepts *bhāvanā* but reads injunction primarily through *kārya* / *niyoga* — the duty-form. *Bhāvanā* is repositioned to the side of the apprehended task rather than as a productive force analyzable into *sādhya-sādhana-itikartavyatā*. The internal Mīmāṃsā dispute is partly about which is more fundamental.",
+      "primary_loci": [
+        "Bṛhatī, codanā section [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Yoga",
+      "definition": "*Bhāvanā* (or its variants in commentary) is the cultivation of *pratipakṣa-bhāvanā* — counter-cultivation of opposing thoughts when obstructive cognitions arise — and more broadly the deliberate production of meditative states until they become *saṃskāra* and ultimately *samādhi*. The technique presupposes that repeated cultivation can transform what is currently merely thought into what is directly given.",
+      "primary_loci": [
+        "Yoga-Sūtra 2.33 (pratipakṣa-bhāvanā)",
+        "Yoga-Bhāṣya 1.32-33"
+      ]
+    },
+    {
+      "school": "Advaita",
+      "definition": "*Bhāvanā* appears in *upāsanā*-discussion as the meditative cultivation that prepares the *adhikārin* for *jñāna*. Advaita is careful: *brahma-jñāna* itself is not produced by *bhāvanā* (since *brahman* is not a product), but the conditions for its arising are. *Prasaṅkhyāna-vāda*, the position that liberating cognition is itself a *bhāvanā*, is criticized by Sureśvara.",
+      "primary_loci": [
+        "Naiṣkarmya-Siddhi 1 (against prasaṅkhyāna-vāda)",
+        "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya-Vārttika [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Buddhist",
+      "definition": "*Bhāvanā* is the third mode of *prajñā* after hearing and reflection: meditative cultivation. It is the standard Pāli and Sanskrit term for the entire program of mental development (Pāli *citta-bhāvanā*, *mettā-bhāvanā*). Mādhyamaka and Yogācāra absorb the term: *bhāvanā* of emptiness or of *vijñapti-mātratā* is the path of seeing made operative.",
+      "primary_loci": [
+        "Visuddhimagga (entire, on bhāvanā)",
+        "Bodhicaryāvatāra 8-9 [NOT YET RETRIEVED]"
+      ]
+    }
+  ],
+  "see_also": [
+    "vidya",
+    "manana",
+    "nididhyasana",
+    "upaya",
+    "sadhana",
+    "smrti"
+  ],
+  "translator_note": "'Meditation' is too narrow for the Mīmāṃsā use; 'cultivation' is the closest single word. In Mīmāṃsā contexts retain the term and gloss it as 'productive force of injunction' with the *sādhya/sādhana/itikartavyatā* triad. In contemplative contexts 'meditative cultivation' is fine."
+}

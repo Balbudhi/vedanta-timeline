@@ -1,0 +1,66 @@
+{
+  "term_key": "bhava",
+  "term_iast": "bhāva",
+  "term_devanagari": "भाव",
+  "literal": "being, existence, becoming, state, mood, affective disposition; from √bhū 'to be, become'",
+  "aliases": [
+    "bhava",
+    "bhāva",
+    "Bhāva",
+    "bhāvaḥ",
+    "bhāvasya",
+    "bhāvāḥ",
+    "bhāvena",
+    "bhāvanā"
+  ],
+  "invariant_definition": "*Bhāva* is one of the most semantically loaded short words in Sanskrit philosophical writing. At minimum it names being-in-some-mode: existence considered not abstractly but as a determinate condition, state, or presence. In Nyāya-Vaiśeṣika it stands in technical opposition to *abhāva* (absence), partitioning the realm of *prameya*. In aesthetic and devotional theory it names an affective state, the precursor or component of *rasa*. In Caitanya Vaiṣṇavism *bhāva* is the technical name for the inner devotional condition that precedes mature *prema*. In Buddhist usage *bhava* (the same root, slightly different inflection) is the tenth link of dependent origination — 'becoming,' the process by which a self-stream propels itself into a next existence. The unity is structural rather than semantic: *bhāva* is whatever names a determinate mode of being, often in contrast either to its absence or to its further development.",
+  "per_school": [
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "*Bhāva* names the positive entities — substance, quality, action, generality, particularity, inherence — over against *abhāva*. The categorial scheme is built on this primary disjunction: every cognizable item is either a *bhāva* or an *abhāva*. *Bhāva-padārtha-s* are then individuated by their categories and inhere or relate by specific relations.",
+      "primary_loci": [
+        "Vaiśeṣika-Sūtra 1.1.4-5",
+        "Tarka-Saṃgraha, padārtha section"
+      ]
+    },
+    {
+      "school": "Advaita",
+      "definition": "*Bhāva* appears chiefly in compound and adverbial usage rather than as a master category: *brahma-bhāva*, *jñāna-bhāva*, *ahaṃ-bhāva*. When used technically, it names a determinate state which the analysis is bound to relate to the unmodified witness. Liberation is sometimes glossed as *brahma-bhāva-prāpti* but the gloss must not be misread as the acquisition of a new state by an unchanging self.",
+      "primary_loci": [
+        "Upadeśa-Sāhasrī, prose 2 [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "*Bhāva* is the technical name for the inner devotional state that arises from the maturation of *sādhana-bhakti* and immediately precedes *prema*. Rūpa Gosvāmin in the *Bhakti-Rasāmṛta-Sindhu* defines *bhāva-bhakti* as a sprouting *prema* characterized by a transparent state of *citta* softened by *kṛpā*. *Bhāva* in the *rasa-* analysis is also subdivided into *sthāyi-*, *vyabhicāri-*, and *sāttvika-bhāvas*.",
+      "primary_loci": [
+        "Bhakti-Rasāmṛta-Sindhu 1.3 (bhāva-bhakti)",
+        "Bhakti-Rasāmṛta-Sindhu 2.3 (sthāyi-bhāvas) [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Alaṅkāra-Śāstra",
+      "definition": "In poetics *bhāva* is the affective state of a character or of the audience, the substrate from which *rasa* is rendered. *Sthāyi-bhāvas* are the eight (or nine) durable emotions; *vyabhicāri-bhāvas* are transient supportive states; *sāttvika-bhāvas* are involuntary somatic signs. The Vaiṣṇava theology of *rasa* takes this framework over and rereads it theologically.",
+      "primary_loci": [
+        "Nāṭya-Śāstra 6-7 [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Buddhist (Abhidharma / Mādhyamaka)",
+      "definition": "In the *pratītyasamutpāda* sequence *bhava* is the tenth link: 'becoming,' specifically the productive condition that issues in *jāti* (birth) given prior *upādāna* (clinging). Mādhyamaka analysis subjects *bhāva* and *abhāva* to the same critique: neither holds *svabhāva*; arising and ceasing are alike empty.",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 15 (svabhāva-parīkṣā)",
+        "Saṃyutta-Nikāya 12 (paṭicca-samuppāda discourses) [NOT YET RETRIEVED]"
+      ]
+    }
+  ],
+  "see_also": [
+    "abhava",
+    "rasa",
+    "prema",
+    "bhakti",
+    "svabhava",
+    "pratitya-samutpada"
+  ],
+  "translator_note": "Translate by context. 'Being' is right for the Nyāya category; 'state' or 'mood' for aesthetic and devotional uses; 'becoming' for the Buddhist link of dependent origination. Never collapse the Nyāya and aesthetic senses — they share only the verbal root."
+}

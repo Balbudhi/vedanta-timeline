@@ -1,0 +1,55 @@
+{
+  "term_key": "vidhi-mukha",
+  "term_iast": "vidhi-mukha",
+  "term_devanagari": "विधिमुख",
+  "literal": "facing-the-injunction; vidhi 'injunction' + mukha 'face, mode, register'",
+  "aliases": [
+    "vidhi-mukha",
+    "vidhi-mukhaḥ",
+    "vidhimukha",
+    "Vidhi-mukha"
+  ],
+  "invariant_definition": "*Vidhi-mukha* names the injunctive mode or face of a passage: the register in which the text addresses the agent through *vidhi* — what is to be done. It is paired with *siddha-mukha* (the established-fact mode, the register of what is the case) and sometimes with *artha-vāda* (laudatory commentary). The Mīmāṃsaka holds that *vidhi-mukha* is the Veda's primary speech-act: Vedic sentences are fundamentally injunctive, and propositional content is intelligible only as serving injunction. Advaita disputes this with respect to the Upaniṣads: *mahāvākyas* are *siddha-mukha*, statements of what is the case (the *jīva*'s identity with Brahman), not injunctions. The dispute over *vidhi-mukha* versus *siddha-mukha* is therefore a dispute about Vedic speech-acts and ultimately about whether Vedic authority is bound to the injunctive form. In ritual contexts more locally, *vidhi-mukha* organizes the analysis of how a sentence functions as a *vidhi* — original, restrictive, or excluding (*apūrva-vidhi*, *niyama-vidhi*, *parisaṅkhyā-vidhi*).",
+  "per_school": [
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "The Veda speaks *vidhi-mukhena*: it enjoins; propositional content is at the service of injunction. The *bhāvanā*-analysis (*sādhya-sādhana-itikartavyatā*) operates wherever a passage is read in *vidhi-mukha*. Three classical sub-types — *apūrva-*, *niyama-*, *parisaṅkhyā-vidhi* — distinguish original, restrictive, and excluding injunctions.",
+      "primary_loci": [
+        "Mīmāṃsā-Sūtra 1.1.1-5 (codanā-lakṣaṇa)",
+        "Tantra-Vārttika 1.1 (vidhi types)"
+      ]
+    },
+    {
+      "school": "Advaita",
+      "definition": "*Mahāvākyas* are read in *siddha-mukha*: 'thou art that' is not an injunction to become that but a statement that one already is that. The Mīmāṃsaka attempt to force all Vedic speech into *vidhi-mukha* is rejected as an over-extension. Śaṅkara's polemic in the opening adhikaraṇas of the *Brahma-Sūtra-Bhāṣya* turns on this point.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 1.1.1, 1.1.4",
+        "Upadeśa-Sāhasrī, prose 1 [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Both *vidhi-mukha* and *siddha-mukha* are operative: ritual passages are injunctive, but theological passages disclose the saviśeṣa Lord; *upāsanā*-passages combine both. Rāmānuja resists collapse in either direction.",
+      "primary_loci": [
+        "Śrī-Bhāṣya 1.1.1 (sāmānādhikaraṇya)",
+        "Vedārtha-Saṃgraha §§30-50"
+      ]
+    },
+    {
+      "school": "Bhāṭṭa Mīmāṃsā / linguistic uses",
+      "definition": "The classification of injunctions into *apūrva-*, *niyama-*, *parisaṅkhyā-vidhi* and the discussion of how *vidhi-mukha* interacts with *arthavāda* belong to the technical machinery of Bhāṭṭa hermeneutics. Vedāntic schools borrow this machinery selectively in their own exegesis.",
+      "primary_loci": [
+        "Tantra-Vārttika 1.2, 1.3 [NOT YET RETRIEVED]"
+      ]
+    }
+  ],
+  "see_also": [
+    "sruti",
+    "tatparya",
+    "bhavana",
+    "karma-kanda",
+    "jnana-kanda",
+    "mahavakya"
+  ],
+  "translator_note": "'Injunctive mode' or 'injunctive face' is acceptable. The pair *vidhi-mukha* / *siddha-mukha* should be preserved in technical exposition because the dispute between Mīmāṃsā and Advaita is precisely about which face the Upaniṣads wear."
+}

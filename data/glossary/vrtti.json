@@ -1,0 +1,66 @@
+{
+  "term_key": "vrtti",
+  "term_iast": "vṛtti",
+  "term_devanagari": "वृत्ति",
+  "literal": "turning, mode, function, modification; from √vṛt 'to turn, to be in operation'",
+  "aliases": [
+    "vrtti",
+    "vṛtti",
+    "Vṛtti",
+    "vṛttayaḥ",
+    "vṛtteḥ",
+    "vṛttau",
+    "citta-vṛtti",
+    "antaḥkaraṇa-vṛtti",
+    "akhaṇḍākāra-vṛtti"
+  ],
+  "invariant_definition": "*Vṛtti* names a mode, modification, or functional state — most often a state of mind or of an inner organ as it 'turns toward' an object. In Yoga it is the technical term for any state of *citta* whatever (*citta-vṛtti*), so the whole discipline is defined by their restraint. In Advaita it is the term for a modification of the *antaḥkaraṇa* by which an object enters the field of cognition: cognition is the *antaḥkaraṇa-vṛtti* assuming the *ākāra* (form) of its object, illumined by the reflected witness. Outside these technical settings, *vṛtti* can also mean a sub-commentary, a livelihood, or a grammatical rule's operative form. The Vedāntic and Yogic uses converge on a structural claim: experience is constituted not by direct contact between self and object but by a determinate modal state of an intermediate instrument.",
+  "per_school": [
+    {
+      "school": "Yoga",
+      "definition": "Pātañjala Yoga makes *vṛtti* its master term: *yogaḥ citta-vṛtti-nirodhaḥ*. Five kinds are enumerated — *pramāṇa, viparyaya, vikalpa, nidrā, smṛti* — each *kliṣṭa* or *akliṣṭa*. The point is not that *vṛttis* are unreal but that liberation is the cessation of their dominance, after which *puruṣa* abides in its *svarūpa*.",
+      "primary_loci": [
+        "Yoga-Sūtra 1.2-11",
+        "Yoga-Bhāṣya on 1.2-11"
+      ]
+    },
+    {
+      "school": "Advaita",
+      "definition": "Cognition occurs when an *antaḥkaraṇa-vṛtti* extends to an object and takes on its form; the reflected witness illumines this modified *antaḥkaraṇa* and the object is known. Liberating knowledge is treated as a special *vṛtti*: the *akhaṇḍākāra-vṛtti*, which takes the form of unbroken Brahman and destroys *avidyā* together with itself.",
+      "primary_loci": [
+        "Vedānta-Paribhāṣā, pratyakṣa-pariccheda",
+        "Vivaraṇa-Prameya-Saṃgraha [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Cognition is analyzed primarily in terms of *dharmabhūta-jñāna* — the attributive consciousness of the self — extending and contracting toward objects rather than in terms of *antaḥkaraṇa-vṛtti* in the Advaitic sense. Where the term *vṛtti* appears it is read as a real modal state of the cognitive substance, not as illusory delimitation.",
+      "primary_loci": [
+        "Śrī-Bhāṣya 1.1.1 (jñāna-svarūpa section)"
+      ]
+    },
+    {
+      "school": "Sāṅkhya",
+      "definition": "*Vṛtti* operates in the analysis of *buddhi*'s modes: the *adhyavasāya* of *buddhi* takes specific forms as it engages objects through the senses. The system's vocabulary for these modes is closely paralleled by Yoga and was eventually formalized by Yoga rather than by classical Sāṅkhya itself.",
+      "primary_loci": [
+        "Sāṅkhya-Kārikā 23 (buddher adhyavasāyo)"
+      ]
+    },
+    {
+      "school": "Pāṇinīya / Vyākaraṇa",
+      "definition": "In grammar *vṛtti* names a derivational operative form (e.g. compound, taddhita, kṛt) and, in commentarial usage, a particular genre of sub-commentary (e.g. *Kāśikā-Vṛtti*). The Vedāntic semantic load — modal state — is absent here, but the etymological root 'operative turning' is the same.",
+      "primary_loci": [
+        "Kāśikā-Vṛtti, opening [NOT YET RETRIEVED]"
+      ]
+    }
+  ],
+  "see_also": [
+    "antahkarana",
+    "akhandakara-vrtti",
+    "citta",
+    "buddhi",
+    "dharmabhuta-jnana",
+    "pramana"
+  ],
+  "translator_note": "'Modification' or 'mental modification' is acceptable in Yoga contexts but loses precision in Advaita, where *vṛtti* is a specific epistemic vehicle, not a generic mental occurrence. Where the school is making a structural point about how cognition is mediated, leave *vṛtti* untranslated and gloss inline."
+}

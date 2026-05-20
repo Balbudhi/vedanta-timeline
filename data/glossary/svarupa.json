@@ -1,0 +1,75 @@
+{
+  "term_key": "svarupa",
+  "term_iast": "svarūpa",
+  "term_devanagari": "स्वरूप",
+  "literal": "own-form, intrinsic nature; from sva- 'one's own' + rūpa 'form'",
+  "aliases": [
+    "svarupa",
+    "svarūpa",
+    "Svarūpa",
+    "svarūpasya",
+    "svarūpataḥ",
+    "svarūpeṇa",
+    "svarūpa-bheda",
+    "svarūpa-lakṣaṇa"
+  ],
+  "invariant_definition": "*Svarūpa* names a thing's own constitutive form, what it is in itself as opposed to what it is by adjunct (*upādhi*), relation, or accidental qualification. The term carries the load of intrinsic identity: a thing's *svarūpa* is what survives the stripping away of conditioning factors. Vedānta uses *svarūpa* in two paired registers: as the essential nature of the self (*ātma-svarūpa*) and as the essential nature of Brahman (*brahma-svarūpa*), with disputes turning on whether these are identical, structurally one but distinguishable, or related by inseparable but real difference. In epistemology *svarūpa-lakṣaṇa* contrasts with *taṭastha-lakṣaṇa*, marking the difference between defining by intrinsic constitution and defining by extrinsic mark. The term anchors most school-defining moves: whether bondage belongs to *svarūpa* or only to its conditions, whether plurality is *svābhāvika* or *aupādhika*, and what is realized when liberation occurs.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Svarūpa-lakṣaṇa* of Brahman is *sat-cit-ānanda*: not three attributes inhering in a substance, but glosses on a single non-dual essence. The *ātman*'s *svarūpa* is identical with this Brahman-*svarūpa*; bondage, agency, and finitude are *aupādhika*, not *svābhāvika*. Hence liberation is recognition of an already-constituted *svarūpa*, not its production.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 1.1.2",
+        "Taittirīya-Upaniṣad-Bhāṣya 2.1 (satyaṃ jñānam anantaṃ brahma)"
+      ]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Bhagavān's *svarūpa* is *jñāna-ānanda*, ontologically distinct from his *guṇas* (the auspicious qualities) and his *vibhūti* (cit-acit body). The *jīva*'s *svarūpa* is *jñāna-svarūpa* and at the same time *jñāna-āśraya*, and its relation to Bhagavān is *aprthak-siddha* — inseparable but really distinct. *Svarūpa* therefore carries the weight of Rāmānuja's whole anti-Advaitic move: real distinction is built into the constitutive natures themselves.",
+      "primary_loci": [
+        "Śrī-Bhāṣya 1.1.1",
+        "Vedārtha-Saṃgraha §§133-140"
+      ]
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "Each *jīva* has an irreducible *svarūpa-bheda*: not just numerical distinction but qualitative difference belonging to its own form. This *svarūpa-bheda* grounds the doctrine of *taratamya* and forecloses any reading on which release dissolves the *jīva* into Hari. Hari himself has a *svarūpa* in which *guṇa* and *guṇin* are non-different yet really distinguishable through *viśeṣa*.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya (Madhva) 1.1.1",
+        "Viṣṇu-Tattva-Vinirṇaya, opening sections"
+      ]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "Bhagavān's *svarūpa-śakti* is the internal energy that constitutes his own essential being and his eternal *līlā*; this is distinguished from *taṭasthā-śakti* (the *jīvas*) and *bahiraṅgā-śakti* (*mahāmāyā*). The *jīva*'s *svarūpa* is *cid-aṃśa* of Bhagavān, eternal servant in a specific *rasa*. Bondage masks but does not destroy the *svarūpa*; *sādhana* uncovers it.",
+      "primary_loci": [
+        "Bhakti-Sandarbha §§1-3",
+        "Caitanya-Caritāmṛta, Madhya 20 [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Bhedābheda",
+      "definition": "For Bhāskara, *svarūpa-bheda* between Brahman and *jīva* would compromise the *abheda*-śruti; difference is therefore *aupādhika*, real but conditional. Nimbārka's *svābhāvika-bhedābheda* moves the other way: difference belongs to the *svarūpa* itself, simultaneously with non-difference. The dispute is precisely about whether *svarūpa* can sustain both *bheda* and *abheda* together.",
+      "primary_loci": [
+        "Bhāskara, Brahma-Sūtra-Bhāṣya 1.4.21 [NOT YET RETRIEVED]",
+        "Nimbārka, Daśa-Ślokī 4"
+      ]
+    },
+    {
+      "school": "Nyāya",
+      "definition": "*Svarūpa-sambandha* is one of the standard relational categories: a relation that holds by the very nature of the relata rather than through a third entity (as *samavāya* would). It does work in accounts of *abhāva*'s relation to its locus and in puzzles about the relation of property and property-bearer.",
+      "primary_loci": [
+        "Tarka-Saṃgraha, sambandha section [NOT YET RETRIEVED]"
+      ]
+    }
+  ],
+  "see_also": [
+    "upadhi",
+    "atman",
+    "brahman",
+    "laksana",
+    "aprthak-siddhi",
+    "saccidananda"
+  ],
+  "translator_note": "'Essence' captures only part. *Svarūpa* is not Aristotelian *to ti ēn einai*, and not a bare property cluster; it is the form a thing has as itself, often paired explicitly with *taṭastha* (extrinsic-mark) definition. Where the school is making a point about intrinsic versus conditioned difference, leave the term untranslated."
+}

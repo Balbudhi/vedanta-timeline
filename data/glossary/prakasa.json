@@ -1,0 +1,66 @@
+{
+  "term_key": "prakasa",
+  "term_iast": "prakāśa",
+  "term_devanagari": "प्रकाश",
+  "literal": "shining, light, manifestation, luminosity; from pra- + √kāś 'to shine'",
+  "aliases": [
+    "prakasa",
+    "prakāśa",
+    "Prakāśa",
+    "prakāśaḥ",
+    "prakāśasya",
+    "svayam-prakasa",
+    "svayaṃ-prakāśa",
+    "prakaśa"
+  ],
+  "invariant_definition": "*Prakāśa* names the luminous, manifesting character of consciousness — what makes objects available to awareness in the first place. The metaphor is visual: as light is that by which colors and forms become visible without itself being colored, consciousness is that by which contents become known without being a content alongside them. *Svayaṃ-prakāśa* is the technical claim that consciousness is self-luminous: it manifests itself without requiring a further cognition to make it manifest, on pain of regress. Schools agree that some such doctrine is needed to forestall an infinite regress of cognitions cognizing cognitions; they disagree on whether the self-luminous is *brahman*-as-pure-witness (Advaita), the substantial *ātman* together with its attributive consciousness (Viśiṣṭādvaita), or the supreme dynamic *prakāśa-vimarśa* unity that is Śiva (Pratyabhijñā). In Trika *prakāśa* is paired with *vimarśa* (reflexive self-awareness), making consciousness a luminosity that knows itself as luminous.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Brahman*/*ātman* is *svayaṃ-prakāśa*: it does not require another cognition to be cognized, since the supposition that it does opens a regress. *Cidābhāsa* — reflected consciousness — is by contrast manifesting only through the substrate's luminosity. The doctrine is load-bearing for Advaita's account of the witness and for its rejection of cognition-of-cognition theories.",
+      "primary_loci": [
+        "Bṛhadāraṇyaka-Upaniṣad-Bhāṣya 4.3.6-7 (svayaṃ-jyoti)",
+        "Pañcadaśī 1, 6"
+      ]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "The *ātman* is *svayaṃ-prakāśa* in the sense that it manifests itself to itself as a knowing-substance; but it is also *prakāśa* for-another, namely Bhagavān, who is the *antaryāmin*. *Jñāna* as *dharma-bhūta* is the attributive luminosity by which objects are revealed to the *ātman*-substance.",
+      "primary_loci": [
+        "Śrī-Bhāṣya 1.1.1 (self-luminosity section)",
+        "Yatīndramata-Dīpikā, jñāna-pariccheda [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "The *ātman* is *svayaṃ-prakāśa*, but its luminosity is dependent on Hari's *prasāda*; ultimately only Hari is *svatantra-prakāśa*. The doctrine works to preserve hierarchy: every other luminosity is in some sense derivative.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya (Madhva) 2.3.18 [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Pratyabhijñā / Trika",
+      "definition": "*Prakāśa* is the foundational descriptor of Śiva's nature, but it is always paired with *vimarśa*, the reflexive 'I-awareness' that knows the *prakāśa* as itself. Pure self-luminosity without *vimarśa* would be inert; Trika therefore rejects an Advaitic conception of consciousness as bare *prakāśa* and reconstructs the *ātman* as *prakāśa-vimarśa-maya*.",
+      "primary_loci": [
+        "Īśvara-Pratyabhijñā-Kārikā 1.5.10-14",
+        "Pratyabhijñā-Hṛdayam, 1-5"
+      ]
+    },
+    {
+      "school": "Nyāya",
+      "definition": "Nyāya rejects *svayaṃ-prakāśa* as a doctrine of consciousness. Cognitions are not self-manifesting; they are themselves known by subsequent *anuvyavasāya*. The point is not regress-acceptance but a different account of what *anuvyavasāya* does, defended in detail against Mīmāṃsaka and Vedāntic objections.",
+      "primary_loci": [
+        "Nyāya-Mañjarī, on jñāna-vedyatva [NOT YET RETRIEVED]"
+      ]
+    }
+  ],
+  "see_also": [
+    "saksin",
+    "anubhava",
+    "vimarsa",
+    "cidabhasa",
+    "atman",
+    "dharmabhuta-jnana"
+  ],
+  "translator_note": "'Light' is the obvious gloss but seriously underdetermined: in Advaita and Trika *prakāśa* is the metaphysical category of consciousness itself, not an analogy. 'Manifestation' captures the function but loses the visual metaphor. Best to leave untranslated when paired with *vimarśa* or in *svayaṃ-prakāśa*."
+}

@@ -1,0 +1,63 @@
+{
+  "term_key": "karma-kanda",
+  "term_iast": "karma-kāṇḍa",
+  "term_devanagari": "कर्मकाण्ड",
+  "literal": "the action-portion (of the Veda); karma 'ritual action' + kāṇḍa 'section, division'",
+  "aliases": [
+    "karma-kanda",
+    "karma-kāṇḍa",
+    "Karma-kāṇḍa",
+    "karmakāṇḍa"
+  ],
+  "invariant_definition": "*Karma-kāṇḍa* names the ritual-action section of the Veda — the *Saṃhitās* and *Brāhmaṇas* — whose principal content is *vidhi* (injunction), *niṣedha* (prohibition), and the procedural apparatus for sacrifice. It is paired with *jñāna-kāṇḍa* (the Upaniṣads) and the question of the relation between them organizes the hermeneutics of every Vedānta school. For Pūrva-Mīmāṃsā *karma-kāṇḍa* is the Veda's primary substance; Vedic authority is fundamentally injunctive, and the entire *bhāvanā*-apparatus is constructed to explain how injunctions produce results. For Advaita *karma-kāṇḍa* is real and binding at *vyavahāra* but ultimately superseded by *jñāna*. For Viśiṣṭādvaita and Tattva-vāda it remains permanently authoritative and is integrated with *upāsanā* / *bhakti* rather than transcended. The doctrinal status of *karma-kāṇḍa* is thus a stand-in for the larger question of how ritual life relates to liberation.",
+  "per_school": [
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "*Karma-kāṇḍa* is the Veda's substance; *codanā* (injunction) is the *lakṣaṇa* of *dharma*; *apūrva* (the productive unseen capacity of the rite) and *bhāvanā* (the injunctive force) explain how rites yield results. The Upaniṣads either subserve ritual or supply *arthavāda*; they do not constitute an independent path.",
+      "primary_loci": [
+        "Mīmāṃsā-Sūtra 1.1.1-5",
+        "Tantra-Vārttika 1.1 (bhāvanā analysis)"
+      ]
+    },
+    {
+      "school": "Advaita",
+      "definition": "*Karma-kāṇḍa* is preparatory: *nitya-naimittika-karma* purifies the *antaḥkaraṇa* and makes the *adhikārin* fit for *śravaṇa-manana-nididhyāsana*. Liberation itself, however, is not a *karma-phala*; *karma* and *jñāna* cannot be combined to yield *mokṣa* (*jñāna-karma-samuccaya* rejected). After realization the ritual obligations no longer hold of the *jīvanmukta*.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 3.4.1-27",
+        "Bhagavad-Gītā-Bhāṣya 18.66 (sarva-dharmān parityajya)"
+      ]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Karma-kāṇḍa* is permanently authoritative; *nitya-naimittika-karma* is prescribed for the *adhikārin* throughout life and is integrated with *bhakti-yoga* / *prapatti* rather than transcended. Liberation is by *Bhagavat-prasāda* in response to *prapatti*, but the ritual obligations of the embodied *jīva* do not lapse.",
+      "primary_loci": [
+        "Gītā-Bhāṣya (Rāmānuja) 3.3-8",
+        "Vedārtha-Saṃgraha §§110-125"
+      ]
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "Both *kāṇḍas* are authoritative throughout life; *karma* is the *adhikāra* of the embodied *jīva*, integrated with *bhakti* toward Hari. Madhva is sharply critical of Advaita's softening of ritual obligation; *karma* is not preparatory in a way that admits eventual transcendence.",
+      "primary_loci": [
+        "Gītā-Bhāṣya (Madhva) [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "definition": "Caitanya tradition relativizes *karma-kāṇḍa* sharply in favor of *bhakti*: in *Kali-yuga* the prescribed means is *harināma-saṅkīrtana*, and elaborate ritual is downgraded as an *adhikāra*-relative concession. The contrast with Mīmāṃsā is sharper here than in the other Vedāntic schools.",
+      "primary_loci": [
+        "Bhakti-Rasāmṛta-Sindhu 1.2 (vaidhī-bhakti)",
+        "Bhāgavata-Purāṇa 11.5.32 (kṛṣṇa-varṇaṃ)"
+      ]
+    }
+  ],
+  "see_also": [
+    "jnana-kanda",
+    "sruti",
+    "dharma",
+    "bhavana",
+    "bhakti",
+    "moksa"
+  ],
+  "translator_note": "'Action-section' or 'ritual-section' is acceptable. *Karma* in *karma-kāṇḍa* means specifically *Vedic ritual action*, not the broader karma-of-saṃsāra. The English 'karma' carries the wrong connotations; render as 'ritual action' on first mention."
+}

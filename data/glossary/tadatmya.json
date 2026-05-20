@@ -1,0 +1,64 @@
+{
+  "term_key": "tadatmya",
+  "term_iast": "tādātmya",
+  "term_devanagari": "तादात्म्य",
+  "literal": "having-that-as-self, identity-with-that; from tat 'that' + ātman 'self' + -ya (abstract)",
+  "aliases": [
+    "tadatmya",
+    "tādātmya",
+    "Tādātmya",
+    "tādātmyam",
+    "tādātmyasya"
+  ],
+  "invariant_definition": "*Tādātmya* names a peculiarly tight relation: one entity has another as its very self, such that the two are not merely conjoined or co-located but share a single identity-condition. The relation is invoked wherever the Vedāntic schools need a way of asserting closeness short of bare numerical identity (which would erase distinction) and stronger than mere conjunction (which would erase the unity). It is the technical relation Rāmānuja uses for the *śarīra-śarīrin* analysis: the body has the soul as its self, *aprthak-siddha* but really distinct. Śaṅkara uses *tādātmya* in his explanation of how *brahman* can be said to be the world without thereby becoming many. In Nyāya *tādātmya-sambandha* is one of the standard ways of explaining identity-statements such as 'this is that.' In Buddhist epistemology the relation does work in defining the *anumāna*'s ground (the *liṅga* must stand in *tādātmya* or *tadutpatti* to the *sādhya*). The term sits exactly at the boundary between identity and difference, which makes it a precision instrument across the schools.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Tādātmya* explains the *Brahma-Sūtra* claim of identity between cause and effect without committing Brahman to becoming-many. The cloth has *tādātmya* with the threads; the world has *tādātmya* with Brahman; but the relation is ultimately reread under *vivarta*, so that *tādātmya* at the substrate level is consistent with *mithyātva* of the appearing distinction.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 2.1.14 (tādātmyam)",
+        "Brahma-Sūtra-Bhāṣya 2.1.18"
+      ]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "*Tādātmya* is built into the *śarīra-śarīrin* doctrine: the *cid-acid-prapañca* has Bhagavān as its *ātman*, and Bhagavān has the *cid-acid-prapañca* as his *śarīra*. The relation is *aprthak-siddhi* — inseparable existence — and grounds the school's reading of *sāmānādhikaraṇya* in Upaniṣadic identity-statements.",
+      "primary_loci": [
+        "Śrī-Bhāṣya 1.1.1 (śarīra-śarīrin)",
+        "Vedārtha-Saṃgraha §§70-80 (sāmānādhikaraṇya)"
+      ]
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "Madhva acknowledges *tādātmya* in expository contexts but reads it through *viśeṣa* and *sa-viśeṣa-abheda*: difference and identity coexist in the same locus through real distinguishability without numerical addition. The doctrine avoids both Advaita's collapse and a naive duality of unrelated entities.",
+      "primary_loci": [
+        "Tattva-Saṅkhyāna [NOT YET RETRIEVED]",
+        "Anu-Vyākhyāna 1.1 [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Nyāya",
+      "definition": "*Tādātmya-sambandha* is the relation underlying identity-statements: 'this is that' is true when the referent of 'this' and the referent of 'that' stand in *tādātmya*. It is distinguished from *samavāya* (inherence) and *saṃyoga* (conjunction). The relation also enters the analysis of *vyāpti* in inference.",
+      "primary_loci": [
+        "Tarka-Saṃgraha, sambandha section",
+        "Tattva-Cintāmaṇi, anumāna-khaṇḍa [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Buddhist (Pramāṇa)",
+      "definition": "In Dharmakīrtian inference theory, the *liṅga* must stand to the *sādhya* either in *tādātmya* (essential identity, e.g. 'tree' to 'oak') or *tadutpatti* (causal generation, e.g. smoke to fire). The doctrine is foundational to the Buddhist account of why inference is reliable without recourse to permanent universals.",
+      "primary_loci": [
+        "Pramāṇa-Vārttika 1, svārthānumāna chapter [NOT YET RETRIEVED]"
+      ]
+    }
+  ],
+  "see_also": [
+    "aprthak-siddhi",
+    "sarira-saririn-bhava",
+    "abheda",
+    "bheda",
+    "visesa",
+    "anumana"
+  ],
+  "translator_note": "'Identity' is too strong and erases the school-defining distinction; 'sameness-of-self' is awkward but more accurate. In Viśiṣṭādvaita contexts always pair with *aprthak-siddhi* in exposition. In Nyāya and Buddhist contexts 'identity-relation' is acceptable provided the contrast with *samavāya* / *tadutpatti* is marked."
+}

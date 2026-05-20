@@ -1,0 +1,71 @@
+{
+  "term_key": "nimitta-karana",
+  "term_iast": "nimitta-kāraṇa",
+  "term_devanagari": "निमित्तकारण",
+  "literal": "efficient cause, instrumental occasion; nimitta 'occasion, mark' + kāraṇa 'cause'",
+  "aliases": [
+    "nimitta-karana",
+    "nimitta-kāraṇa",
+    "Nimitta-kāraṇa",
+    "nimittakāraṇa",
+    "nimitta"
+  ],
+  "invariant_definition": "*Nimitta-kāraṇa* is the efficient or operative cause: that which brings about an effect without itself becoming the effect. The potter is *nimitta-kāraṇa* of the pot whose *upādāna-kāraṇa* is the clay. The Vedāntic dispute does not turn on whether such a cause is needed but on whether it is identical with the material cause: the *Brahma-Sūtra* affirms *abhinna-nimitta-upādāna-kāraṇa* of Brahman, but the schools interpret this identity in opposite ways. Naiyāyikas, by contrast, take *Īśvara* to be the *nimitta-kāraṇa* of the cosmos while atoms are the material cause; this gives a sharply theistic-but-not-pantheistic picture which Vedāntins of all stripes reject by insisting on *brahmaikya*. In Mīmāṃsā the term enters discussions of *adṛṣṭa* and the relation of agency to ritual result. Across these uses *nimitta* tracks what makes something happen, and the philosophical disputes localize what kind of cause that is.",
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "Brahman is both *nimitta-* and *upādāna-kāraṇa*; the *nimitta*-role is conceived not as a real act of producing but as the appearance of producing within the *vivarta*-frame. Since no real modification occurs in Brahman, *nimittatva* and *upādānatva* coincide in the appearing-cause register.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 1.4.23",
+        "Brahma-Sūtra-Bhāṣya 1.1.2 (janmādy asya yataḥ)"
+      ]
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Bhagavān is *abhinna-nimitta-upādāna*: the same Bhagavān who is the material cause through his *acit* and *cit* body is the efficient cause through his *saṅkalpa*. The identity is not collapse but the unity of the *śarīrin* who acts and the *śarīra* that is transformed.",
+      "primary_loci": [
+        "Śrī-Bhāṣya 1.4.23-27",
+        "Vedārtha-Saṃgraha §§125-135 [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "Madhva refuses *abhinna-nimitta-upādāna* in the Advaitic sense: Hari is *nimitta-kāraṇa* but *prakṛti* is the material cause; the world is a real, distinct creation. The Brahma-Sūtra's identity claim is read minimally — Hari is the supreme efficient cause and the ordainer of the material substrate, not the substrate itself.",
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya (Madhva) 1.4.23-27 [NOT YET RETRIEVED]"
+      ]
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "*Īśvara* is *nimitta-kāraṇa* of the cosmos: he combines the eternal atoms under the constraint of *adṛṣṭa* (accumulated karmic merit-demerit of the *jīvas*). He is not the material cause; the atoms are. The doctrine is the Naiyāyika theistic alternative both to non-theistic Sāṅkhya and to Vedāntic *abhinna-kāraṇa*.",
+      "primary_loci": [
+        "Nyāya-Sūtra 4.1.19-21",
+        "Nyāya-Mañjarī, Īśvara section"
+      ]
+    },
+    {
+      "school": "Sāṅkhya",
+      "definition": "*Prakṛti* unfolds for the sake of *puruṣa*; there is no *Īśvara* as separate *nimitta-kāraṇa*. The 'occasion' is the proximity of *puruṣa* and the equilibrium-disturbance among *guṇas*; this is sometimes glossed in the commentaries with the metaphor of the magnet that moves iron without doing anything.",
+      "primary_loci": [
+        "Sāṅkhya-Kārikā 21 (puruṣasya darśanārthaṃ)",
+        "Sāṅkhya-Sūtra 1.92 (nirīśvara)"
+      ]
+    },
+    {
+      "school": "Mīmāṃsā",
+      "definition": "*Nimitta* enters Mīmāṃsā analysis of ritual occasions and the relation of *codanā* to its result; *naimittika* rites are those whose performance is occasioned by particular conditions. The cosmological *nimitta-kāraṇa* of the world is not a Mīmāṃsaka concern, since Vedic ritual rather than cosmogony is the discipline's center of gravity.",
+      "primary_loci": [
+        "Mīmāṃsā-Sūtra 1.1 (codanā-lakṣaṇa)"
+      ]
+    }
+  ],
+  "see_also": [
+    "upadana-karana",
+    "karana",
+    "karya",
+    "isvara",
+    "adrsta",
+    "satkarya-vada"
+  ],
+  "translator_note": "'Efficient cause' is acceptable but again Aristotelian. In Naiyāyika theistic contexts 'operative cause' captures the agentive role of *Īśvara*. The exact relation of *nimitta* to *upādāna* should not be flattened into a single English word: the dispute among Vedāntic schools is precisely about how these relate."
+}
