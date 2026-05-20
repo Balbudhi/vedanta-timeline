@@ -127,5 +127,31 @@
         "cite://umasvati/tattvartha-sutra/1.34-35"
       ]
     }
-  ]
+  ],
+  "engaged_works": [
+    {
+      "work_id": "de-la-grammatologie",
+      "title": "De la grammatologie",
+      "title_iast": "De la grammatologie",
+      "alternate_titles": [],
+      "composition_dates_low": 1967,
+      "composition_dates_high": 1967,
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored modern monograph; bibliographic ascription is uncontroversial.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern bibliographic record."
+        }
+      ],
+      "genre": "monograph",
+      "language": "french",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Derrida's programmatic deconstruction of the phonocentric privilege of speech over writing in the Western philosophical tradition. The book traces the metaphysics of presence — the assumption that meaning is fully present to consciousness in the spoken word — through Plato, Rousseau, Saussure, and Lévi-Strauss, and argues that writing is not a derivative supplement to speech but the prior condition (*archi-écriture*) of any system of differential traces. The technical apparatus includes *différance*, the *supplement*, the *trace*, and the *pharmakon*. The work is the founding text of Derridean deconstruction. The comparative corpus reads its critique of presence-metaphysics as a structurally distinct (though sometimes superficially compared) move from the Advaita *adhyāsa*-doctrine: Derrida deconstructs presence as a metaphysical privilege without committing to any positive ontology, whereas Śaṅkara's critique of the *adhyāsa*-relation issues in the positive ontology of *nirviśeṣa Brahman* as self-luminous *cit*.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": []
 }

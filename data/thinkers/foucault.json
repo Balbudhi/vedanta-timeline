@@ -178,5 +178,31 @@
         "cite://umasvati/tattvartha-sutra/1.34-35"
       ]
     }
-  ]
+  ],
+  "engaged_works": [
+    {
+      "work_id": "les-mots-et-les-choses",
+      "title": "Les mots et les choses",
+      "title_iast": "Les mots et les choses",
+      "alternate_titles": [],
+      "composition_dates_low": 1966,
+      "composition_dates_high": 1966,
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored modern monograph; bibliographic ascription is uncontroversial.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern bibliographic record."
+        }
+      ],
+      "genre": "monograph",
+      "language": "french",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Foucault's archaeological history of the human sciences, tracing successive *épistémès* — the Renaissance episteme of resemblance, the Classical episteme of representation, the Modern episteme of man as empirico-transcendental doublet. The book argues that \"man\" is a recent historical formation, contingent on the Modern episteme, and likely to disappear if the episteme shifts. The technical apparatus includes the analytic of finitude, the doublet structures (transcendental/empirical, cogito/unthought, return/retreat of the origin), and the table as the figure of the Classical episteme. The work is read in the comparative corpus as the principal modern Western statement of the historicity of philosophical anthropology — a thesis with no direct Vedāntic parallel but with structural affinities to Buddhist and Pratyabhijñā analyses of the constructed character of the *aham-pratyaya*.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": []
 }

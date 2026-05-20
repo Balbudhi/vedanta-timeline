@@ -110,5 +110,53 @@
         "cite://badarayana/brahma-sutra/1.1.1"
       ]
     }
-  ]
+  ],
+  "engaged_works": [
+    {
+      "work_id": "order-out-of-chaos",
+      "title": "Order Out of Chaos",
+      "title_iast": "Order Out of Chaos",
+      "alternate_titles": [],
+      "composition_dates_low": 1984,
+      "composition_dates_high": 1984,
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored modern monograph; bibliographic ascription is uncontroversial.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern bibliographic record."
+        }
+      ],
+      "genre": "monograph",
+      "language": "english",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Prigogine and Stengers' joint book on the philosophical implications of non-equilibrium thermodynamics, dissipative structures, and the irreversibility of time. The argument is that the classical-mechanical reversible-time picture is a limiting idealization, and that the actual physics of complex open systems exhibits irreversible, history-dependent, far-from-equilibrium dynamics — the \"dissipative structures\" for which Prigogine received the 1977 Nobel Prize. The book is read in the comparative corpus as a contemporary Western interlocutor of the Vedāntic doctrine of *parināma* / *vivarta* and of process metaphysics more generally — sharing with Whitehead the rejection of substance-snapshot ontology in favor of a process-and-event ontology, but supplied by physics rather than by metaphysical analysis. The Bergson-Prigogine dialogue (Prigogine writes admiringly of Bergson) is one of the principal twentieth-century scientific defenses of the durational-process metaphysics that the Vedānta-corpus engages.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "end-of-certainty",
+      "title": "The End of Certainty",
+      "title_iast": "The End of Certainty",
+      "alternate_titles": [],
+      "composition_dates_low": 1997,
+      "composition_dates_high": 1997,
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored modern monograph; bibliographic ascription is uncontroversial.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern bibliographic record."
+        }
+      ],
+      "genre": "monograph",
+      "language": "english",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Prigogine's later technical-philosophical statement on the implications of chaos theory, non-integrable dynamical systems, and Poincaré resonances for the foundations of physics. The book argues that time-irreversibility is not a phenomenological artifact but a fundamental feature of the dynamics of certain large-Poincaré-system classes, and that this finding overturns the classical-Laplacian deterministic worldview. Read in the comparative corpus as a contemporary scientific witness to the process-metaphysics tradition (Whitehead, Bergson, Aurobindo) against the substance-snapshot tradition (classical mechanics, mainstream analytic metaphysics).",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": []
 }

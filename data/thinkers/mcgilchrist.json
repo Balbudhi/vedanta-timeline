@@ -70,5 +70,53 @@
       ],
       "source_article": "data/articles/source/mcgilchrist.md"
     }
-  ]
+  ],
+  "engaged_works": [
+    {
+      "work_id": "master-and-his-emissary",
+      "title": "The Master and His Emissary",
+      "title_iast": "The Master and His Emissary",
+      "alternate_titles": [],
+      "composition_dates_low": 2009,
+      "composition_dates_high": 2009,
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored modern monograph; bibliographic ascription is uncontroversial.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern bibliographic record."
+        }
+      ],
+      "genre": "monograph",
+      "language": "english",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "McGilchrist's argument that the two cerebral hemispheres attend to the world in fundamentally different ways — the right hemisphere with a broad, contextual, embodied, novelty-sensitive attention; the left hemisphere with a narrow, abstract, decontextualized, manipulative attention — and that Western intellectual history exhibits a slow imbalance toward left-hemispheric dominance with serious cultural-philosophical consequences. The work draws on neuropsychology (especially split-brain studies and stroke pathology), philosophy of mind, and intellectual history. McGilchrist is read in the comparative corpus as a contemporary Western interlocutor of the Indian *jñāna*-traditions on the nature of attention, embodiment, and the constituted character of the manipulative ego — with structural affinities to both Aurobindo's critique of the mental-rational mode in *The Life Divine* and the Yogācāra analysis of the *manas* / *vijñāna* operations.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "matter-with-things",
+      "title": "The Matter With Things",
+      "title_iast": "The Matter With Things",
+      "alternate_titles": [],
+      "composition_dates_low": 2021,
+      "composition_dates_high": 2021,
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored modern monograph; bibliographic ascription is uncontroversial.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern bibliographic record."
+        }
+      ],
+      "genre": "monograph",
+      "language": "english",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "McGilchrist's 1500-page sequel to *The Master and His Emissary*, extending the hemispheric-attention thesis into a comprehensive critique of contemporary epistemology, ontology, and metaphysics. The work argues that the dominance of left-hemispheric modes of attention has produced systematic distortions in modern science, philosophy, and culture, and proposes a corrective metaphysics in which the relations of attention, value, and the real are taken to be constitutive rather than derivative. Read in the comparative corpus as a contemporary Western analogue of the Aurobindonian critique of mental-rational consciousness and of the broader Vedāntic doctrine that the world is constituted by *cit* / *vimarśa* rather than presenting itself as a substance-property complex to a detached observer.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": []
 }

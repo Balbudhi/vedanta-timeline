@@ -93,5 +93,53 @@
         "cite://badarayana/brahma-sutra/1.1.1"
       ]
     }
-  ]
+  ],
+  "engaged_works": [
+    {
+      "work_id": "difference-et-repetition",
+      "title": "Différence et répétition",
+      "title_iast": "Différence et répétition",
+      "alternate_titles": [],
+      "composition_dates_low": 1968,
+      "composition_dates_high": 1968,
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored modern monograph; bibliographic ascription is uncontroversial.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern bibliographic record."
+        }
+      ],
+      "genre": "monograph",
+      "language": "french",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Deleuze's doctoral thesis and his magnum opus on the metaphysics of difference. The book argues that the philosophical tradition from Plato through Hegel has subordinated difference to identity — treating difference as the difference of one thing from another, mediated through a prior identity — and that this subordination is to be reversed: difference is primary and identity is a constituted, secondary effect. The technical apparatus includes the doctrines of virtual multiplicity (against possibility), of differentiation/differenciation, of the three syntheses of time (habit, memory, eternal return), and of the dark precursor as the differentiator that puts heterogeneous series in communication. The work is read in the comparative corpus as an explicit modern Western counter-position to *abheda*-monism: Deleuzian primary difference is incompatible with the Advaita doctrine of *jīva-brahma-aikya*, and is closest (with strong qualifications) to the Mādhva *svatantra-paratantra* ontology and the Pratyabhijñā *vimarśa-sphurana* dynamics. The book is also the principal philosophical source for the corpus's comparative-claims engine on the question \"is difference reducible?\"",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "logique-du-sens",
+      "title": "Logique du sens",
+      "title_iast": "Logique du sens",
+      "alternate_titles": [],
+      "composition_dates_low": 1969,
+      "composition_dates_high": 1969,
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored modern monograph; bibliographic ascription is uncontroversial.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern bibliographic record."
+        }
+      ],
+      "genre": "monograph",
+      "language": "french",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Deleuze's sequel-companion to *Différence et répétition*, treating the structure of sense through thirty-four \"series\" — paradoxes, distributions, dynamic genesis. The text develops the Stoic incorporeals (lekta, time, place, void) as the model for a non-substantial, event-based ontology of sense, and reads Lewis Carroll alongside Stoic logic to articulate the surface-topology of meaning. The work is the principal Deleuzian treatment of the structure of *vāc* / *artha* — the relation between speech, sense, and reference — and is read in the comparative corpus alongside the Mīmāṃsā *śābda-bodha* tradition and Bhartṛhari's *Vākyapadīya* on the *sphoṭa*-doctrine.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": []
 }

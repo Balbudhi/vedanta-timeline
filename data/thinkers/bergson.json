@@ -110,5 +110,53 @@
         "cite://umasvati/tattvartha-sutra/1.34-35"
       ]
     }
-  ]
+  ],
+  "engaged_works": [
+    {
+      "work_id": "matiere-et-memoire",
+      "title": "Matière et mémoire",
+      "title_iast": "Matière et mémoire",
+      "alternate_titles": [],
+      "composition_dates_low": 1896,
+      "composition_dates_high": 1896,
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored modern monograph; bibliographic ascription is uncontroversial.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern bibliographic record."
+        }
+      ],
+      "genre": "monograph",
+      "language": "french",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Bergson's second major work, on the relation between body and mind, perception and memory. The text develops the doctrine of \"pure memory\" as a non-spatial, durational reality distinct from the cerebrally-instantiated motor habits Bergson attributes to the body, and argues that perception is selective rather than constitutive — the brain limits and channels a wider field of images rather than producing experience from sensory data. The work is the principal early articulation of Bergsonian *durée* and the durational theory of consciousness that Bergson later extends to cosmology in *L'Évolution créatrice*. It is read in the Vedāntic-Sāṃkhya comparative corpus as a parallel to the *antaḥkaraṇa* / *vāsanā* / *smṛti* tripartite analysis: pure memory plays a role structurally analogous to *saṃskāra* / *vāsanā* in the Yoga and Sāṃkhya traditions, and the selectivity-of-perception thesis runs parallel to the *vṛtti-nirodha* analysis of Yoga-Sūtra 1.2.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "evolution-creatrice",
+      "title": "L'Évolution créatrice",
+      "title_iast": "L'Évolution créatrice",
+      "alternate_titles": [],
+      "composition_dates_low": 1907,
+      "composition_dates_high": 1907,
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored modern monograph; bibliographic ascription is uncontroversial.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern bibliographic record."
+        }
+      ],
+      "genre": "monograph",
+      "language": "french",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Bergson's late masterwork, in which the durational analysis of consciousness is extended into a metaphysics of life. The central concept is *élan vital* — the creative impulse driving evolution non-mechanically, non-finalistically, through divergent lines (the plant, the arthropod, the vertebrate, the human). Bergson criticizes both Darwinian mechanism and Spencerian finalism as variants of the same intellectual error: the spatialization of time, the substitution of completed states for the durational creative act. The work is the principal twentieth-century vitalist metaphysics outside the Anglo-American tradition and is one of the explicit interlocutors of Aurobindo's *Life Divine* (Aurobindo cites and engages Bergson in the supramental-evolution chapters). The Vedāntic-comparative frame reads the *élan vital* as structurally analogous — though metaphysically not identical — to the *prāṇa* / *cit-śakti* / *parā-prakṛti* lineages in the Sāṃkhya and Tantric traditions.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": []
 }

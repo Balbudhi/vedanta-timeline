@@ -127,5 +127,31 @@
         "cite://adorno/negative-dialectics/2"
       ]
     }
-  ]
+  ],
+  "engaged_works": [
+    {
+      "work_id": "totalite-et-infini",
+      "title": "Totalité et Infini",
+      "title_iast": "Totalité et Infini",
+      "alternate_titles": [],
+      "composition_dates_low": 1961,
+      "composition_dates_high": 1961,
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored modern monograph; bibliographic ascription is uncontroversial.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern bibliographic record."
+        }
+      ],
+      "genre": "monograph",
+      "language": "french",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Levinas's major work, articulating an ethics-as-first-philosophy in which the encounter with the Other (*autrui*) is the original phenomenon and the basis of selfhood, language, and reason. The text argues against the totalizing ontologies of Western philosophy from Parmenides through Heidegger, in which the Other is reduced to the Same through the operation of an embracing concept, and proposes instead an ethics of the face (*visage*) in which the Other escapes the totality through the infinite that opens in their absolute alterity. The work is the principal twentieth-century Western philosophical statement of ethical alterity and is read in the comparative corpus as a direct counter-position to the Advaita doctrine of *jīva-brahma-aikya*: Levinasian alterity is constitutively irreducible, whereas the Advaita position is that the apparent alterity of the Other is *adhyasta* on the underlying non-different *ātman*. The dialogue is one of the principal comparative-claims fronts the corpus addresses.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": []
 }

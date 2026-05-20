@@ -127,5 +127,53 @@
         "cite://badarayana/brahma-sutra/1.1.1"
       ]
     }
-  ]
+  ],
+  "engaged_works": [
+    {
+      "work_id": "veda-mimamsa",
+      "title": "Veda Mīmāṃsā",
+      "title_iast": "Veda Mīmāṃsā",
+      "alternate_titles": [],
+      "composition_dates_low": 1961,
+      "composition_dates_high": 1965,
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored modern monograph; bibliographic ascription is uncontroversial.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern bibliographic record."
+        }
+      ],
+      "genre": "monograph",
+      "language": "bengali",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Anirvan's three-volume Bengali commentary on the Ṛgveda, in the tradition of Sri Aurobindo's *Secret of the Veda* but pushing the symbolic-psychological reading of Vedic ritual further. The work treats the Vedic *yajña* as an interior process of consciousness — the *agni* as the ascending will of aspiration, *soma* as the descending grace of inspiration — and reads the *sūktas* as the records of integral spiritual-psychological discoveries. The three volumes cover successive layers of the Ṛgvedic corpus; Volume 1 supplies the methodological introduction and treats the *agni-sūktas*; volumes 2 and 3 extend the reading across the *indra-* and *soma-* corpora. The work is the principal post-Aurobindonian Bengali continuation of the symbolic-Vedic reading and is one of the few twentieth-century Bengali-language Vedānta-Sāṃkhya hybrid texts of major scholarly weight.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "letters-from-a-baul",
+      "title": "Letters from a Baul: Life within Life",
+      "title_iast": "Letters from a Baul: Life within Life",
+      "alternate_titles": [],
+      "composition_dates_low": 1983,
+      "composition_dates_high": 1983,
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored modern monograph; bibliographic ascription is uncontroversial.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern bibliographic record."
+        }
+      ],
+      "genre": "monograph",
+      "language": "english",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "An English-language compilation of Anirvan's correspondence on the inner life, the discipline of awareness, and the relation between formal Vedānta-Sāṃkhya doctrine and the lived spiritual journey. The Baul-tradition title gestures toward the Bengali wandering-mystic lineage that Anirvan (Pranab-darshan in some renderings) felt close to. The work supplies the experiential-pedagogical complement to the doctrinal *Veda Mīmāṃsā* — letters to disciples on the working of *prāṇa*, the discipline of attention, the integration of life within the inner life. The work is read alongside Aurobindo's *Letters on Yoga* in the comparative corpus as one of the principal twentieth-century Indian epistolary records of integral spiritual practice.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": []
 }

@@ -59,5 +59,31 @@
         "cite://butler/gender-trouble/3"
       ]
     }
-  ]
+  ],
+  "engaged_works": [
+    {
+      "work_id": "ursprung-und-gegenwart",
+      "title": "Ursprung und Gegenwart",
+      "title_iast": "Ursprung und Gegenwart",
+      "alternate_titles": [],
+      "composition_dates_low": 1949,
+      "composition_dates_high": 1953,
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored modern monograph; bibliographic ascription is uncontroversial.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern bibliographic record."
+        }
+      ],
+      "genre": "monograph",
+      "language": "german",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Gebser's magnum opus on the historical succession of structures of consciousness — archaic, magic, mythic, mental-rational, and the emerging integral (*aperspektivische*) structure. The work argues that each structure is a mode of world-disclosure with its own time-form, space-form, and characteristic mode of consciousness, and that the modern crisis (technological, ecological, spiritual) is the breakdown of the mental-rational structure and the difficult emergence of the integral. Gebser is read in the comparative corpus as a structurally direct interlocutor of Aurobindo's supramental-evolution doctrine (Aurobindo and Gebser were contemporaries; both posit a coming integral mode of consciousness as the next phase of the species). The integral structure in Gebser corresponds in some respects — though not in all — to Aurobindo's *vijñāna* / *supermind* in *The Life Divine*. Translated into English as *The Ever-Present Origin* (Ohio University Press, 1985).",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": []
 }
