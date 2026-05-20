@@ -2845,6 +2845,10 @@ function openGlossary(termKey, anchorEl) {
   bodyEl.addEventListener("click", (e) => {
     const btn = e.target.closest(".gp-result");
     if (!btn) return;
+    // Stop propagation so the document-level outside-click handler doesn't
+    // see a now-detached node (renderTermView replaces innerHTML below) and
+    // close the popover.
+    e.stopPropagation();
     const key = btn.dataset.key;
     termKey = key;
     inputEl.value = "";
@@ -4049,107 +4053,14 @@ function rankSearchResults(q) {
   return prefix.concat(sub).slice(0, 30);
 }
 
-function openSearchPopover() {
-  // Single-popover discipline.
-  popoverManager.closeAll();
-  document.querySelectorAll(".search-popover").forEach((el) => el.remove());
-
-  const pop = document.createElement("div");
-  pop.className = "search-popover";
-  pop.setAttribute("role", "dialog");
-  pop.setAttribute("aria-label", "Search the Sanskrit glossary");
-  pop.innerHTML = `
-    <div class="sp-input-row">
-      <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><circle cx="7" cy="7" r="4.5" stroke="currentColor" stroke-width="1.4" fill="none"/><path d="M10.5 10.5L13.5 13.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
-      <input id="searchPopInput" type="search" placeholder="Type a Sanskrit term…" autocomplete="off" spellcheck="false" aria-label="Search the Sanskrit glossary" />
-      <button class="sp-close" type="button" aria-label="Close">×</button>
-    </div>
-    <div class="sp-results" id="searchPopResults" role="listbox">
-      <p class="sp-hint">Start typing to search ${state.glossary.size ? `over ${[...new Set([...state.glossary.values()].map((e) => e.term_iast || e.term_key))].length} entries` : "the glossary"}. Diacritics are optional — "atman" matches "ātman".</p>
-    </div>
-  `;
-  document.body.appendChild(pop);
-
-  const input = pop.querySelector("#searchPopInput");
-  const resultsEl = pop.querySelector("#searchPopResults");
-  const closeBtn = pop.querySelector(".sp-close");
-
-  function renderResults(q) {
-    const rows = rankSearchResults(q);
-    if (!normalizeDia(q)) {
-      resultsEl.innerHTML = `<p class="sp-hint">Start typing to search the glossary. Diacritics are optional — "atman" matches "ātman".</p>`;
-      return;
-    }
-    if (!rows.length) {
-      resultsEl.innerHTML = `<p class="sp-empty">No glossary entries match "${escape(q)}".</p>`;
-      return;
-    }
-    resultsEl.innerHTML = rows.map((r, i) => `
-      <button class="sp-result${i === 0 ? " is-active" : ""}" data-key="${escape(r.key)}" type="button" role="option">
-        <span class="ts-term">${escape(r.canonical)}</span>
-        ${r.literal ? `<span class="ts-gloss">${escape(r.literal)}</span>` : (r.blurb ? `<span class="ts-gloss">${escape(r.blurb)}</span>` : "")}
-      </button>
-    `).join("");
-  }
-
-  input.addEventListener("input", () => renderResults(input.value));
-  input.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") { e.preventDefault(); closeSearch(); return; }
-    if (e.key !== "ArrowDown" && e.key !== "ArrowUp" && e.key !== "Enter") return;
-    const items = resultsEl.querySelectorAll(".sp-result");
-    if (!items.length) return;
-    let activeIdx = -1;
-    items.forEach((el, i) => { if (el.classList.contains("is-active")) activeIdx = i; });
-    if (e.key === "Enter") {
-      e.preventDefault();
-      const target = activeIdx >= 0 ? items[activeIdx] : items[0];
-      if (target) target.click();
-      return;
-    }
-    e.preventDefault();
-    let nextIdx = activeIdx;
-    if (e.key === "ArrowDown") nextIdx = (activeIdx + 1) % items.length;
-    if (e.key === "ArrowUp") nextIdx = (activeIdx - 1 + items.length) % items.length;
-    items.forEach((el, i) => el.classList.toggle("is-active", i === nextIdx));
-    items[nextIdx].scrollIntoView({ block: "nearest" });
-  });
-  resultsEl.addEventListener("click", (e) => {
-    const btn = e.target.closest(".sp-result");
-    if (!btn) return;
-    const key = btn.dataset.key;
-    // Closing the search popover is implicit via popoverManager when
-    // openGlossary fires `popoverManager.closeAll()` on entry.
-    openGlossary(key, btn);
-  });
-
-  function closeSearch() {
-    pop.remove();
-    document.removeEventListener("keydown", escClose);
-    document.removeEventListener("mousedown", outsideClose);
-    popoverManager.notifyClosed(closeSearch);
-  }
-  function escClose(e) { if (e.key === "Escape") closeSearch(); }
-  function outsideClose(e) {
-    if (pop.contains(e.target)) return;
-    if (e.target.closest && e.target.closest("#searchBtn")) return;
-    closeSearch();
-  }
-  closeBtn.addEventListener("click", closeSearch);
-  document.addEventListener("keydown", escClose);
-  // Defer outside-click handler so the opening click doesn't dismiss.
-  setTimeout(() => document.addEventListener("mousedown", outsideClose), 0);
-  popoverManager.open(closeSearch);
-
-  // Focus the input on next tick so the bottom-sheet animation (if any)
-  // doesn't get cancelled by the iOS keyboard pop-up.
-  setTimeout(() => input.focus(), 30);
-}
-
-const searchBtn = document.getElementById("searchBtn");
-if (searchBtn) {
-  searchBtn.addEventListener("click", (e) => {
+// Topbar Glossary button: open the glossary popover with the search input
+// focused and no term selected. The same popover is also opened from any
+// inline Sanskrit term (with that term's definition pre-rendered).
+const glossaryBtn = document.getElementById("glossaryBtn");
+if (glossaryBtn) {
+  glossaryBtn.addEventListener("click", (e) => {
     e.stopPropagation();
-    openSearchPopover();
+    openGlossary(null, glossaryBtn);
   });
 }
 

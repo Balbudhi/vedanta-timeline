@@ -1609,14 +1609,9 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
     line-height: 1.6;
     animation: gloss-slide-up 240ms cubic-bezier(.4,.0,.2,1);
   }
-  .glossary-popover::before {
-    content: "";
-    display: block;
-    width: 36px; height: 4px;
-    background: var(--rule);
-    border-radius: 2px;
-    margin: -10px auto 14px;
-  }
+  /* Bottom-sheet drag-handle disabled: the in-popover search row now sits
+     at the top of the sheet and provides the visual anchor. */
+  .glossary-popover::before { content: none; }
   .glossary-popover .gp-close {
     font-size: 24px;
     width: 32px; height: 32px;
