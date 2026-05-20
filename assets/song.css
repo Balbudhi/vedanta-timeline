@@ -1,105 +1,90 @@
 /* =============================================================
    Koi Hor Nahi Hai Mera — page styles
-   Inverted palette: deep oxblood-red ground, cream + gold text.
-   The aim is a ceremonial / temple register, not a greeting card.
+   One ground (deep red), one ink (warm cream). No gold accents,
+   no gradients, no chrome. Hairline rules. Restraint.
    ============================================================= */
 
 :root {
-  /* Ground & ink (the new inverted palette) */
-  --kh-bg:        #6b121a;   /* deep oxblood, body ground */
-  --kh-bg-deep:   #3e0a10;   /* darker red for the audio player chrome */
-  --kh-text:      #fff5d6;   /* warm cream — primary text */
-  --kh-text-soft: #ead4a0;   /* muted cream-gold — secondary text */
-  --kh-rule:      rgba(255, 245, 214, 0.16);  /* hairline on red */
+  /* One red, one ink. Everything derives from these two. */
+  --kh-bg:        #6e0f15;
+  --kh-bg-deep:   #4a070d;             /* very dark red — only used for the audio player */
+  --kh-ink:       #f4ead0;             /* warm light-yellow cream — single text tone */
+  --kh-ink-soft:  rgba(244, 234, 208, 0.62);
+  --kh-ink-faint: rgba(244, 234, 208, 0.16);
+  --kh-rule:      rgba(244, 234, 208, 0.13);
 
-  /* Accents */
-  --kh-gold:        #ffd84d;   /* primary gold accent */
-  --kh-gold-deep:   #d4a920;   /* deeper gold for hover/border */
-  --kh-saffron:     #f5b800;   /* saffron, for highlights */
-  --kh-saffron-warm:#ffe18a;   /* warm saffron-amber */
-
-  /* Legacy red tokens still referenced elsewhere in the file. */
-  --kh-red:        #b91c2c;
-  --kh-red-deep:   #8e1620;
-  --kh-red-soft:   #fdeeec;
-  --kh-amber:      #ffe18a;
-  --kh-amber-soft: #fff4d1;
-
-  /* Page-local fonts. Spectral handles the macrons (ā ī ū) and
-     under-dot retroflex marks (ṛ ṭ ḍ) cleanly without compressing
-     the line — Lora's marks crowd the cap-height. Cormorant
-     Garamond stays for the display title. */
-  --kh-serif:   "Spectral", "EB Garamond", Georgia, "Times New Roman", serif;
-  --kh-display: "Cormorant Garamond", "EB Garamond", Georgia, serif;
+  /* Fonts. Cardo handles macrons and under-dot retroflex marks
+     more cleanly than Lora/Spectral; Source Serif 4 is the
+     modern backup. Title uses the same family at a larger size
+     to keep the typographic system simple. */
+  --kh-serif:   "Cardo", "Source Serif 4", "EB Garamond", Georgia, serif;
 }
 
 html, body {
   background: var(--kh-bg);
-  color: var(--kh-text);
+  color: var(--kh-ink);
 }
 
 .song-page {
-  max-width: 760px;
+  max-width: 720px;
   margin: 0 auto;
-  padding: 56px 30px 140px;   /* extra bottom padding so fixed player doesn't cover the last line */
-  color: var(--kh-text);
+  padding: 72px 32px 140px;
+  color: var(--kh-ink);
   font-family: var(--kh-serif);
 }
 
 /* ---------- Hero ---------- */
 .song-hero {
-  margin: 0 0 56px;
-  padding: 0 0 28px;
+  margin: 0 0 64px;
+  padding: 0 0 32px;
   border-bottom: 1px solid var(--kh-rule);
   text-align: center;
 }
 .song-title {
-  font-family: var(--kh-display);
-  font-weight: 500;
-  font-style: normal;            /* no italic */
-  font-size: 54px;
-  line-height: 1.05;
-  margin: 0 0 18px;
-  color: var(--kh-text);
+  font-family: var(--kh-serif);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 1.15;
+  margin: 0 0 16px;
+  color: var(--kh-ink);
   letter-spacing: 0.005em;
 }
 .song-attrib {
   margin: 0;
 }
 .song-attrib em {
-  font-family: var(--kh-display);
-  font-style: normal;            /* no italic */
-  font-weight: 500;
-  color: var(--kh-gold);
-  font-size: 22px;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  font-family: var(--kh-serif);
+  font-style: normal;
+  font-weight: 400;
+  color: var(--kh-ink-soft);
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  text-transform: none;
 }
 
-/* ---------- Audio player (fixed at bottom of viewport) ---------- */
+/* ---------- Audio player (fixed, minimal) ---------- */
 .audio-player {
   position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
-  height: 54px;
-  padding: 0 20px;
-  background: rgba(40, 8, 12, 0.92);
-  backdrop-filter: blur(14px) saturate(140%);
-  -webkit-backdrop-filter: blur(14px) saturate(140%);
-  border-top: 1px solid rgba(255, 216, 77, 0.22);
+  height: 56px;
+  padding: 0 22px;
+  background: var(--kh-bg-deep);
+  border-top: 1px solid var(--kh-rule);
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 16px;
   z-index: 40;
 }
 .ap-btn {
-  width: 34px;
-  height: 34px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
-  border: none;
-  background: var(--kh-gold);
-  color: var(--kh-bg-deep);
+  border: 1px solid var(--kh-ink);
+  background: transparent;
+  color: var(--kh-ink);
   cursor: pointer;
   display: inline-flex;
   align-items: center;
@@ -108,7 +93,7 @@ html, body {
   padding: 0;
   transition: background-color 140ms ease, transform 120ms ease;
 }
-.ap-btn:hover { background: var(--kh-saffron-warm); }
+.ap-btn:hover { background: rgba(244, 234, 208, 0.10); }
 .ap-btn:active { transform: scale(0.94); }
 .ap-btn .ap-icon-play { margin-left: 2px; }
 .ap-btn .ap-icon-pause { display: none; }
@@ -117,9 +102,8 @@ html, body {
 
 .ap-progress {
   flex: 1;
-  height: 4px;
-  background: rgba(255, 245, 214, 0.18);
-  border-radius: 2px;
+  height: 1px;
+  background: var(--kh-ink-faint);
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -127,116 +111,100 @@ html, body {
 .ap-progress-bar {
   height: 100%;
   width: 0%;
-  background: linear-gradient(90deg, var(--kh-gold), var(--kh-saffron-warm));
-  border-radius: 2px;
+  background: var(--kh-ink);
   transition: width 140ms linear;
 }
 .ap-time {
-  font-family: var(--sans);
-  font-size: 12px;
-  color: var(--kh-text-soft);
+  font-family: var(--kh-serif);
+  font-size: 12.5px;
+  color: var(--kh-ink-soft);
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
-  min-width: 36px;
+  min-width: 34px;
   text-align: center;
+  letter-spacing: 0.02em;
 }
-.ap-time-total { color: rgba(234, 212, 160, 0.6); }
+.ap-time-total { color: rgba(244, 234, 208, 0.42); }
 .audio-player audio { display: none; }
-
-/* ---------- Section labels (Refrain, I, II, ...) ---------- */
-.section-label {
-  font-family: var(--sans);
-  font-size: 11.5px;
-  font-weight: 700;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--kh-gold);
-  margin: 52px 0 22px;
-  padding-bottom: 9px;
-  border-bottom: 1px solid var(--kh-rule);
-}
-.song-root > .section-label:first-child { margin-top: 0; }
 
 /* ---------- Line card ---------- */
 .line {
-  margin: 0 0 28px;
-  padding: 8px 14px 8px 14px;
-  margin-left: -14px;
-  margin-right: -14px;
-  border-left: 3px solid transparent;
-  border-radius: 2px;
+  margin: 0 0 30px;
+  padding: 6px 16px 6px 16px;
+  margin-left: -16px;
+  margin-right: -16px;
+  border-left: 1px solid transparent;
   transition: background-color 240ms ease, border-color 240ms ease;
 }
 .line.is-singing {
-  background: rgba(255, 216, 77, 0.10);
-  border-left-color: var(--kh-gold);
+  background: rgba(244, 234, 208, 0.06);
+  border-left-color: var(--kh-ink);
 }
 .line-roman {
   font-family: var(--kh-serif);
-  font-size: 22px;
-  line-height: 1.6;            /* extra room so macrons don't crowd the line above */
-  color: var(--kh-text);
-  margin: 0 0 8px;
-  letter-spacing: 0.008em;     /* tiny breathing room for the diacritics */
+  font-size: 23px;
+  line-height: 1.55;
+  color: var(--kh-ink);
+  margin: 0 0 6px;
+  letter-spacing: 0.005em;
+  font-weight: 400;
 }
 .line-english {
   font-family: var(--kh-serif);
   font-style: italic;
-  font-size: 17.5px;
-  line-height: 1.6;
-  color: var(--kh-text-soft);
+  font-size: 17px;
+  line-height: 1.55;
+  color: var(--kh-ink-soft);
   margin: 0;
 }
 
-/* Repetition badge. */
+/* Repetition badge — minimal, no fill, hairline border. */
 .rep {
   display: inline-block;
   margin-left: 12px;
-  padding: 2px 9px;
-  font-family: var(--sans);
-  font-size: 11.5px;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  color: var(--kh-gold);
-  background: rgba(255, 216, 77, 0.10);
-  border: 1px solid rgba(255, 216, 77, 0.34);
-  border-radius: 10px;
-  vertical-align: 0.18em;
+  padding: 1px 8px;
+  font-family: var(--kh-serif);
+  font-size: 12.5px;
+  font-weight: 400;
+  color: var(--kh-ink-soft);
+  background: transparent;
+  border: 1px solid var(--kh-rule);
+  border-radius: 999px;
+  vertical-align: 0.22em;
   white-space: nowrap;
   user-select: none;
+  letter-spacing: 0.02em;
 }
 
 /* ---------- Roman word spans (hover targets) ---------- */
 .line-roman .w {
   cursor: pointer;
-  border-radius: 3px;
   padding: 0 2px;
   margin: 0 -2px;
-  transition: background-color 120ms ease, color 120ms ease;
+  transition: background-color 120ms ease;
   outline: none;
   -webkit-tap-highlight-color: transparent;
+  border-radius: 2px;
 }
 .line-roman .w:hover,
 .line-roman .w.is-hi,
 .line-roman .w:focus-visible {
-  background: var(--kh-gold);
-  color: var(--kh-bg-deep);
+  background: rgba(244, 234, 208, 0.16);
 }
 .line-roman .w:focus-visible {
-  box-shadow: 0 0 0 2px rgba(255, 216, 77, 0.45);
+  box-shadow: 0 0 0 1px rgba(244, 234, 208, 0.5);
 }
 
 /* ---------- English mapped spans (highlight target) ---------- */
 .line-english .we {
-  border-radius: 3px;
   padding: 0 2px;
   margin: 0 -2px;
   transition: background-color 120ms ease, color 120ms ease;
+  border-radius: 2px;
 }
 .line-english .we.is-hi {
-  background: rgba(255, 216, 77, 0.22);
-  color: var(--kh-text);
-  box-shadow: inset 0 -1px 0 rgba(255, 216, 77, 0.55);
+  background: rgba(244, 234, 208, 0.16);
+  color: var(--kh-ink);
 }
 
 /* ---------- Word tooltip ---------- */
@@ -248,59 +216,49 @@ html, body {
   font-family: var(--kh-serif);
   font-style: italic;
   font-size: 15.5px;
-  line-height: 1.45;
-  color: var(--kh-bg-deep);
-  background: #fff8e0;
-  border: 1px solid var(--kh-gold);
-  border-radius: 4px;
-  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.30), 0 1px 2px rgba(0,0,0,0.10);
+  line-height: 1.5;
+  color: var(--kh-bg);
+  background: var(--kh-ink);
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.30);
   pointer-events: none;
 }
 
 /* ---------- Mobile ---------- */
-/* Keep type sizes close to desktop. Small text hurts the
-   diacritic rendering (ā ī ū ṛ ṭ ḍ) — under-dots and macrons
-   collapse visually below ~20px. */
 @media (max-width: 720px) {
-  .song-page { padding: 40px 18px 110px; }
-  .song-title { font-size: 42px; line-height: 1.05; }
-  .song-attrib em { font-size: 20px; letter-spacing: 0.06em; }
-  .section-label { font-size: 11px; margin: 42px 0 18px; }
-  .line { margin-bottom: 26px; padding: 8px 12px; margin-left: -12px; margin-right: -12px; }
-  .line-roman { font-size: 22px; line-height: 1.5; }
-  .line-english { font-size: 17px; line-height: 1.55; }
-  .rep { font-size: 11px; padding: 2px 8px; }
+  .song-page { padding: 48px 22px 110px; }
+  .song-title { font-size: 34px; line-height: 1.15; }
+  .song-attrib em { font-size: 16px; }
+  .line { margin-bottom: 26px; padding: 6px 14px; margin-left: -14px; margin-right: -14px; }
+  .line-roman { font-size: 21px; line-height: 1.55; }
+  .line-english { font-size: 16px; line-height: 1.55; }
+  .rep { font-size: 12px; padding: 1px 7px; }
   .word-tooltip {
     max-width: 80vw;
-    font-size: 16.5px;
+    font-size: 16px;
     line-height: 1.5;
-    padding: 11px 14px;
+    padding: 10px 14px;
   }
 
-  /* Audio player on mobile: slightly taller for a better tap target,
-     tighter padding, smaller time labels so the progress bar still
-     gets meaningful width. */
   .audio-player {
     height: 60px;
-    padding: 0 14px;
-    gap: 11px;
+    padding: 0 16px;
+    gap: 14px;
   }
-  .ap-btn { width: 40px; height: 40px; }
-  .ap-btn svg { width: 16px; height: 16px; }
-  .ap-time { font-size: 11.5px; min-width: 32px; }
+  .ap-btn { width: 36px; height: 36px; }
+  .ap-btn svg { width: 14px; height: 14px; }
+  .ap-time { font-size: 12px; min-width: 32px; }
 }
 
-/* Very narrow screens — hide the total-time label so the progress
-   bar can stretch. The current time still shows. */
 @media (max-width: 380px) {
-  .audio-player { padding: 0 12px; gap: 9px; }
+  .audio-player { padding: 0 14px; gap: 10px; }
   .ap-time-total { display: none; }
 }
 
-/* Touch devices: larger tap targets and disable hover-only styles. */
+/* Touch devices: hover-only styles off. */
 @media (hover: none) {
   .line-roman .w { padding: 2px 3px; margin: 0 -3px; }
-  .line-roman .w:hover { background: transparent; color: inherit; }
-  .line-roman .w.is-hi { background: var(--kh-gold); color: var(--kh-bg-deep); }
-  .line-english .we { padding: 1px 2px; }
+  .line-roman .w:hover { background: transparent; }
+  .line-roman .w.is-hi { background: rgba(244, 234, 208, 0.18); }
 }
