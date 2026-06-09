@@ -2,6 +2,38 @@
   "version": "2",
   "articles": [
     {
+      "slug": "sin-avidya-primary-sources",
+      "title": "Sin, punishment, forgiveness — what the primary sources actually say",
+      "subtitle": "An investigative reading-dossier prompted by a friend's essay *Reconciling Sin and Avidya*: every concept nearest to “sin” — *pāpa, enas, āgas, kilbiṣa, doṣa, aparādha, pratyavāya, prāyaścitta, ṛṇa, naraka, daṇḍa, kṣamā* — in the original language, with what Vivekānanda, Sri Aurobindo, and the Mother say in their own words.",
+      "kind": "essay",
+      "source_doc": "data/articles/source/sin-avidya-primary-sources.md",
+      "tags": [
+        "sin",
+        "avidyā",
+        "pāpa",
+        "enas",
+        "doṣa",
+        "pratyavāya",
+        "prāyaścitta",
+        "naraka",
+        "Varũa",
+        "Bhagavad-Gītā",
+        "Nyāya",
+        "Yoga-sūtra",
+        "Manu",
+        "Rāmānuja",
+        "Śaṅkara",
+        "Vivekānanda",
+        "Aurobindo",
+        "The Mother",
+        "forgiveness",
+        "grace",
+        "primary-sources"
+      ],
+      "word_count_approx": 6768,
+      "date": "2026-06-09"
+    },
+    {
       "slug": "mimamsa-symbolism-shift",
       "title": "Mīmāṃsā under the symbolism-shift reading",
       "subtitle": "Pūrva-Mīmāṃsā as a coherent practice-philosophy whose externalized form is intact while the symbol-environment that activated it has changed.",
