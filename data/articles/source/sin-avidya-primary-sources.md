@@ -78,32 +78,33 @@ A pattern is already visible. The cluster splits into **stain** (kilbiṣa, mala
 
 ---
 
-## Part II — The Vedic layer: Varuṇa, debt, and the one place it looks most like "sin"
+## Part II — The Vedic layer: Varuṇa, the Truth, and the one place it looks most like "sin"
 
-If anywhere in the Indian canon resembles the Semitic structure of *transgression → a god's wrath → a plea for pardon*, it is the Varuṇa hymns of the Ṛgveda. Here the worshipper does not transcend sin; he confesses it and begs to be loosed.
+If anywhere in the Indian canon resembles the structure of *transgression → a god's wrath → a plea for pardon*, it is the Varuṇa hymns of the Ṛgveda. Here the worshipper does not transcend sin; he confesses it and begs to be loosed. But the words he uses already carry a particular charge, and the Aurobindonian school of Vedic interpretation (Sri Aurobindo's reading of Varuṇa as the lord of the wide Truth, carried forward in the SAKSI / R. L. Kashyap edition of Maṇḍala 7) brings it out. Varuṇa is not a tribunal-god but the keeper of *ṛta*, the vast Truth and right order; *enas* is the **crookedness** that strays from that straight order; and — decisively — sin is committed *acittī*, "through un-consciousness," the very privation of *cit* that the later tradition will name *avidyā*. The translations below are my own, made from the Sanskrit in that register.
 
-> **Ṛgveda 7.86.3** — *pṛcche tad eno varuṇa didṛkṣ' …samānam in me kavayaś cid āhur ayaṃ ha tubhyaṃ varuṇo hṛṇīte*
-> "I ask after that **sin** (*enas*), O Varuṇa, desiring to see it… The seers all tell me one thing: *this Varuṇa is angry with you.*"
+> **Ṛgveda 7.86.3** — *pṛcche tad eno varuṇa didṛkṣur upo emi cikituṣo vipṛccham · samānam in me kavayaś cid āhur ayaṃ ha tubhyaṃ varuṇo hṛṇīte*
+> "That **crookedness** (*enas*) I seek out, O Varuṇa, longing to look upon it; I go to the awakened seers to question them. One and the same word the wise ones speak to me: *it is Varuṇa who is wroth with thee.*" — The "wrath" is the recoil of the violated Truth, not the temper of a judge.
 
-> **Ṛgveda 7.86.4** — *kim āga āsa varuṇa jyeṣṭhaṃ yat stotāraṃ jighāṃsasi sakhāyam*
-> "What was the chief **transgression** (*āgas*), O Varuṇa, that you would slay your friend, the singer? Declare it to me… freed from it, swiftly I would come to you with homage."
+> **Ṛgveda 7.86.4** — *kim āga āsa varuṇa jyeṣṭhaṃ yat stotāraṃ jighāṃsasi sakhāyam · pra tan me voco dūḷabha svadhāvo 'va tvānenā namasā tura iyām*
+> "What was that greatest **offence** (*āgas*), O Varuṇa, that thou wouldst strike down the singer, thy own friend? Declare it to me, O undeceivable, self-poised one; **loosed from the sin** (*ava… anenā*), with swift obeisance would I come to thee."
 
-The structure is unmistakably confessional — and yet the *content* already leans toward ignorance. The very next verses ask the god to **loosen** sin like a tether, and trace wrongdoing to *thoughtlessness*:
+The posture is confession — yet what is confessed bends at once toward *unknowing*. The next verses ask the god to **untie** sin like a knot, and trace the wrong not to a sovereign evil will but to a clouding of consciousness:
 
-> **Ṛgveda 7.86.5** — *ava drugdhāni pitryā sṛjā no 'va yā vayaṃ cakṛmā tanūbhiḥ… sṛjā vatsaṃ na dāmno vasiṣṭham*
-> "Release (*ava sṛja*) from us the treacheries of our fathers, and those we ourselves have done with our bodies… release Vasiṣṭha **like a calf from its rope** (*dāman*)."
+> **Ṛgveda 7.86.5** — *ava drugdhāni pitryā sṛjā no 'va yā vayaṃ cakṛmā tanūbhiḥ · ava rājan paśutṛpaṃ na tāyuṃ sṛjā vatsaṃ na dāmno vasiṣṭham*
+> "**Loose away** (*ava sṛja*) from us the falsehoods (*drugdhāni*, from *druh*, the treachery against the Truth) of our fathers, and those we have wrought with our own bodies. Set Vasiṣṭha free, O king, as one frees a cattle-thief — **as a calf is loosed from the cord** (*vatsaṃ na dāmnaḥ*)." — Sin is a *bond*, a knot in the cord; release is the untying.
 
-> **Ṛgveda 7.86.6** — *na sa svo dakṣo varuṇa dhrutiḥ sā surā manyur vibhīdako acittiḥ*
-> "It was **not my own will** (*na svo dakṣaḥ*), Varuṇa, that led me astray: it was liquor, anger, dice, **thoughtlessness** (*acittiḥ*)."
+> **Ṛgveda 7.86.6** — *na sa svo dakṣo varuṇa dhrutiḥ sā surā manyur vibhīdako acittiḥ · asti jyāyān kanīyasa upāre svapnaś caned anṛtasya prayotā*
+> "It was **not my own power-of-will** (*na svaḥ dakṣaḥ*) that did it, Varuṇa — it was a leading-astray: wine, wrath, the dice, and **un-consciousness** (*acittiḥ*). The elder stands in the lapse of the younger; not even sleep keeps off the **Untruth** (*anṛta*)." — The Veda's own diagnosis: the cause of *enas* is *acittiḥ*, the failure of awareness — and *anṛta*, the Falsehood opposed to *ṛta*.
 
-> **Ṛgveda 7.89.5** — *…acittī yat tava dharmā yuyopima mā nas tasmād enaso deva rīriṣaḥ*
-> "Whatever law of yours we have disturbed **through thoughtlessness** (*acittī*) — for that **sin** (*enas*), O god, do not destroy us."
+> **Ṛgveda 7.89.5** — *yat kiṃ cedaṃ varuṇa daivye jane 'bhidroham manuṣyāś carāmasi · acittī yat tava dharmā yuyopima mā nas tasmād enaso deva rīriṣaḥ*
+> "Whatever **wrong** (*abhidroha*) we men work against the divine kind, O Varuṇa, whatever **law** (*dharman*) of thine we have disturbed **through un-consciousness** (*acittī*) — for that **crookedness** (*enas*), O god, do us no hurt."
 
-And the plea is for **grace**, the god relenting:
+And the plea is finally for **grace** — the vast one relenting:
 
-> **Ṛgveda 7.89.4** — *mṛḷā sukṣatra mṛḷaya* — "Be gracious (*mṛḷa*), O mighty one, be gracious."
+> **Ṛgveda 7.89.4** — *apām madhye tasthivāṃsaṃ tṛṣṇāvidaj jaritāram · mṛḷā sukṣatra mṛḷaya*
+> "Thy singer, standing in the very midst of the waters, **thirst** has seized — **have grace** (*mṛḷa*), O strong-and-pure-in-power, **have grace** (*mṛḷaya*)."
 
-So even in the layer most like "sin-and-pardon," two indigenous notes already sound: sin is structured as **debt/bondage to be loosened** (the calf, the rope; *ṛṇa*), and it is committed *acittī*, **through want of awareness** — "not my own will." The seed of the avidyā-reading is here in the oldest stratum.
+So even in the stratum most like "sin-and-pardon," two indigenous notes already sound that the rest of the tradition will amplify. Sin is structured as a **bond / debt to be loosed** (the calf, the cord; cf. *ṛṇa*, "debt / minus"), and it is incurred *acittī* — **through un-consciousness, "not my own will."** The privation the Veda blames for sin is precisely a privation of *cit*; rename it *avidyā* and the Upaniṣadic turn is already in view.
 
 ---
 
@@ -393,6 +394,6 @@ A neutral summary, so the differences are visible side by side. Each row is what
 ## Method, sources, and confidence
 
 - **Primary texts, original language.** Sanskrit from the Ṛgveda (Varuṇa hymns 7.86, 7.89), Bṛhadāraṇyaka, Chāndogya, Kaṭha, and Īśā Upaniṣads, the Bhagavad-Gītā, Manu-smṛti, the Nyāya-sūtra with Vātsyāyana's *Bhāṣya*, the Yoga-sūtra with Vyāsa's *Bhāṣya*, the Brahma-sūtra with Śaṅkara's *Bhāṣya*, and Rāmānuja's *Gītā-bhāṣya*. Vivekananda from the *Complete Works* (English) and *Bartaman Bhārat* (Bengali). Sri Aurobindo from *The Life Divine*, *Essays on the Gita*, and *Letters on Yoga* (English originals). The Mother from *Mother's Agenda*, *Words of the Mother*, and *Prières et Méditations* (French originals).
-- **Translations** are my own, made deliberately literal, with grammatical force (case, voice, compound type) preserved where English allows.
+- **Translations** are my own, made deliberately literal, with grammatical force (case, voice, compound type) preserved where English allows. For the **Ṛgveda** specifically, the renderings are made in the Aurobindonian interpretive register — following Sri Aurobindo's reading of Varuṇa as the keeper of the wide Truth (*ṛta*) and the SAKSI / R. L. Kashyap *Rig Veda Saṃhita, Maṇḍala 7* — translated afresh from the Sanskrit rather than after the standard ritualistic (Griffith/Wilson) reading; no other translator's wording is reproduced.
 - **Etymologies** follow the attested grammatical/lexical tradition (Uṇādi-sūtras, Pāṇini, Monier-Williams, Apte). Where a derivation is disputed (e.g. *prāyaścitta*, *daṇḍa*) or popular-but-unattested (the √pat etymology of *pāpa*), this is stated.
 - **Verification.** The Sanskrit, Vivekananda, Aurobindo, and Mother citations were each checked against a primary-source text. Two items are flagged as tradition-wide formulations rather than single verbatim lines: the Mīmāṃsā maxim *akaraṇe pratyavāyaḥ*, and the Manu hell-enumerations (cited by chapter). Everything else was located verbatim at the stated locus.
