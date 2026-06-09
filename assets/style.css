@@ -2279,7 +2279,9 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
   color: var(--ink);
 }
 .dp-article-body > article, .dp-translation-body > article {
-  max-width: 680px;
+  /* No fixed reading-measure cap: the article column fills the panel, so
+     dragging the panel's left-edge handle wider also widens the text. */
+  max-width: none;
   margin: 0 auto;
   font-family: var(--serif);
   font-size: 14px;

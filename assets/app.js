@@ -4437,7 +4437,9 @@ function wireDetailPaneResize() {
   function applyWidth(px) {
     const vw = window.innerWidth;
     const min = 360;
-    const max = Math.max(min, vw - 320);
+    // Reserve only a thin sliver of canvas so the panel can be dragged
+    // nearly full-width for wide-format reading.
+    const max = Math.max(min, vw - 120);
     const clamped = Math.min(max, Math.max(min, px));
     document.body.style.setProperty("--pane-w-detail", clamped + "px");
     return clamped;
