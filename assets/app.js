@@ -4141,8 +4141,9 @@ async function ensureArticlesLoaded() {
     return;
   }
   articlesList.innerHTML = "";
-  // Hide superseded articles; only show the latest of each lineage.
-  const visible = articlesManifest.articles.filter((a) => a.status !== "superseded");
+  // Hide superseded articles (only show the latest of each lineage) and
+  // unpublished ones (taken offline; source kept on disk for easy re-publish).
+  const visible = articlesManifest.articles.filter((a) => a.status !== "superseded" && a.status !== "unpublished");
   // Five user-facing buckets. Superseded `perspective-investigation` drafts are
   // hidden by the `status === "superseded"` filter above; the kind label is kept
   // on disk for the historical record but does not surface as a section.

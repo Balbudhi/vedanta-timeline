@@ -19,9 +19,15 @@
         "contemporary-reader",
         "interpretive-layer"
       ],
-      "for_thinker_ids": ["jaimini", "shabara", "kumarila", "prabhakara"],
+      "for_thinker_ids": [
+        "jaimini",
+        "shabara",
+        "kumarila",
+        "prabhakara"
+      ],
       "word_count_approx": 4254,
-      "date": "2026-05-10"
+      "date": "2026-05-10",
+      "status": "unpublished"
     },
     {
       "slug": "vedanta-realist-history",
@@ -51,7 +57,8 @@
         "bhedābheda"
       ],
       "word_count_approx": 15592,
-      "date": "2026-05-10"
+      "date": "2026-05-10",
+      "status": "unpublished"
     },
     {
       "slug": "shankara",
@@ -71,7 +78,8 @@
       ],
       "word_count_approx": 16599,
       "date": "2026-05-10",
-      "for_thinker_id": "shankara"
+      "for_thinker_id": "shankara",
+      "status": "unpublished"
     },
     {
       "slug": "ramanuja",
@@ -89,7 +97,8 @@
       ],
       "word_count_approx": 13213,
       "date": "2026-05-10",
-      "for_thinker_id": "ramanuja"
+      "for_thinker_id": "ramanuja",
+      "status": "unpublished"
     },
     {
       "slug": "madhva",
@@ -108,7 +117,8 @@
       ],
       "word_count_approx": 15701,
       "date": "2026-05-10",
-      "for_thinker_id": "madhva"
+      "for_thinker_id": "madhva",
+      "status": "unpublished"
     },
     {
       "slug": "caitanya",
@@ -129,7 +139,8 @@
       ],
       "word_count_approx": 15649,
       "date": "2026-05-10",
-      "for_thinker_id": "caitanya"
+      "for_thinker_id": "caitanya",
+      "status": "unpublished"
     },
     {
       "slug": "aurobindo",
@@ -150,7 +161,8 @@
       ],
       "word_count_approx": 18068,
       "date": "2026-05-10",
-      "for_thinker_id": "aurobindo"
+      "for_thinker_id": "aurobindo",
+      "status": "unpublished"
     },
     {
       "slug": "chaudhuri-banerji",
@@ -168,7 +180,8 @@
         "vijñāna"
       ],
       "word_count_approx": 17921,
-      "date": "2026-05-10"
+      "date": "2026-05-10",
+      "status": "unpublished"
     },
     {
       "slug": "kc-bhattacharyya",
@@ -185,7 +198,8 @@
       ],
       "word_count_approx": 11971,
       "date": "2026-05-10",
-      "for_thinker_id": "kc-bhattacharyya"
+      "for_thinker_id": "kc-bhattacharyya",
+      "status": "unpublished"
     },
     {
       "slug": "vivekananda-ramakrishna",
@@ -204,7 +218,8 @@
       ],
       "word_count_approx": 14873,
       "date": "2026-05-10",
-      "for_thinker_id": "vivekananda"
+      "for_thinker_id": "vivekananda",
+      "status": "unpublished"
     },
     {
       "slug": "medhananda",
@@ -223,7 +238,8 @@
       ],
       "word_count_approx": 17145,
       "date": "2026-05-10",
-      "for_thinker_id": "medhananda"
+      "for_thinker_id": "medhananda",
+      "status": "unpublished"
     },
     {
       "slug": "sankhya-anirban",
@@ -244,7 +260,8 @@
         "Deleuze"
       ],
       "word_count_approx": 15307,
-      "date": "2026-05-10"
+      "date": "2026-05-10",
+      "status": "unpublished"
     },
     {
       "slug": "kala-cakra-clock-structures",
@@ -262,7 +279,8 @@
         "cyclical-time"
       ],
       "word_count_approx": 16030,
-      "date": "2026-05-10"
+      "date": "2026-05-10",
+      "status": "unpublished"
     },
     {
       "slug": "deleuze",
@@ -282,7 +300,8 @@
         "Duns-Scotus"
       ],
       "word_count_approx": 15919,
-      "date": "2026-05-10"
+      "date": "2026-05-10",
+      "status": "unpublished"
     },
     {
       "slug": "nietzsche",
@@ -300,7 +319,8 @@
         "Zarathustra"
       ],
       "word_count_approx": 14277,
-      "date": "2026-05-10"
+      "date": "2026-05-10",
+      "status": "unpublished"
     },
     {
       "slug": "hegel",
@@ -317,7 +337,8 @@
         "Substanz-als-Subjekt"
       ],
       "word_count_approx": 15443,
-      "date": "2026-05-10"
+      "date": "2026-05-10",
+      "status": "unpublished"
     },
     {
       "slug": "spinoza",
@@ -336,7 +357,8 @@
         "parallelism"
       ],
       "word_count_approx": 14334,
-      "date": "2026-05-10"
+      "date": "2026-05-10",
+      "status": "unpublished"
     },
     {
       "slug": "kcb-kantian-perspectivism",
@@ -368,7 +390,8 @@
         "madhva"
       ],
       "word_count_approx": 9050,
-      "date": "2026-05-11"
+      "date": "2026-05-11",
+      "status": "unpublished"
     },
     {
       "slug": "leibniz",
@@ -387,7 +410,8 @@
         "Clarke-correspondence"
       ],
       "word_count_approx": 15233,
-      "date": "2026-05-10"
+      "date": "2026-05-10",
+      "status": "unpublished"
     },
     {
       "slug": "heidegger",
@@ -407,7 +431,8 @@
       ],
       "word_count_approx": 16914,
       "date": "2026-05-10",
-      "for_thinker_id": "heidegger"
+      "for_thinker_id": "heidegger",
+      "status": "unpublished"
     },
     {
       "slug": "husserl",
@@ -427,7 +452,8 @@
       ],
       "word_count_approx": 13180,
       "date": "2026-05-10",
-      "for_thinker_id": "husserl"
+      "for_thinker_id": "husserl",
+      "status": "unpublished"
     },
     {
       "slug": "adorno",
@@ -446,7 +472,8 @@
       ],
       "word_count_approx": 12325,
       "date": "2026-05-10",
-      "for_thinker_id": "adorno"
+      "for_thinker_id": "adorno",
+      "status": "unpublished"
     },
     {
       "slug": "bergson",
@@ -465,7 +492,8 @@
       ],
       "word_count_approx": 13598,
       "date": "2026-05-10",
-      "for_thinker_id": "bergson"
+      "for_thinker_id": "bergson",
+      "status": "unpublished"
     },
     {
       "slug": "whitehead",
@@ -484,7 +512,8 @@
       ],
       "word_count_approx": 17587,
       "date": "2026-05-10",
-      "for_thinker_id": "whitehead"
+      "for_thinker_id": "whitehead",
+      "status": "unpublished"
     },
     {
       "slug": "prigogine",
@@ -503,7 +532,8 @@
       ],
       "word_count_approx": 14708,
       "date": "2026-05-10",
-      "for_thinker_id": "prigogine"
+      "for_thinker_id": "prigogine",
+      "status": "unpublished"
     },
     {
       "slug": "derrida",
@@ -522,7 +552,8 @@
       ],
       "word_count_approx": 13072,
       "date": "2026-05-10",
-      "for_thinker_id": "derrida"
+      "for_thinker_id": "derrida",
+      "status": "unpublished"
     },
     {
       "slug": "foucault",
@@ -542,7 +573,8 @@
       ],
       "word_count_approx": 16886,
       "date": "2026-05-10",
-      "for_thinker_id": "foucault"
+      "for_thinker_id": "foucault",
+      "status": "unpublished"
     },
     {
       "slug": "levinas",
@@ -561,7 +593,8 @@
       ],
       "word_count_approx": 14289,
       "date": "2026-05-10",
-      "for_thinker_id": "levinas"
+      "for_thinker_id": "levinas",
+      "status": "unpublished"
     },
     {
       "slug": "mcgilchrist",
@@ -578,7 +611,8 @@
       ],
       "word_count_approx": 13968,
       "date": "2026-05-10",
-      "for_thinker_id": "mcgilchrist"
+      "for_thinker_id": "mcgilchrist",
+      "status": "unpublished"
     },
     {
       "slug": "gebser",
@@ -596,7 +630,8 @@
       ],
       "word_count_approx": 17542,
       "date": "2026-05-10",
-      "for_thinker_id": "gebser"
+      "for_thinker_id": "gebser",
+      "status": "unpublished"
     },
     {
       "slug": "hegel-preface",
@@ -614,7 +649,8 @@
         "Aufhebung"
       ],
       "word_count_approx": 8401,
-      "date": "2026-05-09"
+      "date": "2026-05-09",
+      "status": "unpublished"
     },
     {
       "slug": "primitive-graph",
@@ -634,7 +670,8 @@
       "supersedes": [
         "primitive-model",
         "comparative-claims-framework"
-      ]
+      ],
+      "status": "unpublished"
     },
     {
       "slug": "primitive-model",
@@ -690,7 +727,8 @@
       ],
       "word_count_approx": 2463,
       "date": "2026-05-10",
-      "source_text_path": "materials/primary_texts/sanskrit/_replaced/madhva_brahma_sutra_bhasya_3comm_vol{1,2,3}_archive_djvu.txt"
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/madhva_brahma_sutra_bhasya_3comm_vol{1,2,3}_archive_djvu.txt",
+      "status": "unpublished"
     },
     {
       "slug": "engagement-madhva__bhagavata-tatparya-nirnaya",
@@ -707,7 +745,8 @@
       ],
       "word_count_approx": 2330,
       "date": "2026-05-10",
-      "source_text_path": "materials/primary_texts/sanskrit/_replaced/madhva_bhagavata_tatparya_nirnaya_archive_djvu.txt"
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/madhva_bhagavata_tatparya_nirnaya_archive_djvu.txt",
+      "status": "unpublished"
     },
     {
       "slug": "engagement-madhva__mayavada-khandana",
@@ -725,7 +764,8 @@
       ],
       "word_count_approx": 2314,
       "date": "2026-05-10",
-      "source_text_path": "materials/primary_texts/sanskrit/_replaced/madhva_mayavada_khandanam_archive_djvu.txt"
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/madhva_mayavada_khandanam_archive_djvu.txt",
+      "status": "unpublished"
     },
     {
       "slug": "engagement-nimbarka_srinivasa__vedanta-parijata-saurabha-kaustubha",
@@ -742,7 +782,8 @@
       ],
       "word_count_approx": 2284,
       "date": "2026-05-10",
-      "source_text_path": "materials/primary_texts/sanskrit/_replaced/nimbarka_brahmasutra_3comm_vrindavan_archive_djvu.txt"
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/nimbarka_brahmasutra_3comm_vrindavan_archive_djvu.txt",
+      "status": "unpublished"
     },
     {
       "slug": "engagement-vallabha__anu-bhasya",
@@ -759,7 +800,8 @@
       ],
       "word_count_approx": 2487,
       "date": "2026-05-10",
-      "source_text_path": "materials/primary_texts/sanskrit/_replaced/vallabha_anubhasya_text_1921_mumbai_archive_djvu.txt"
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/vallabha_anubhasya_text_1921_mumbai_archive_djvu.txt",
+      "status": "unpublished"
     },
     {
       "slug": "engagement-vedanta-desika__pancaratra-raksha",
@@ -776,7 +818,8 @@
       ],
       "word_count_approx": 2450,
       "date": "2026-05-10",
-      "source_text_path": "materials/primary_texts/sanskrit/_replaced/vedanta_desika_pancaratra_raksha_adyar_archive_djvu.txt"
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/vedanta_desika_pancaratra_raksha_adyar_archive_djvu.txt",
+      "status": "unpublished"
     },
     {
       "slug": "engagement-raghavendra__nyaya-sudha-parimala",
@@ -794,7 +837,8 @@
       ],
       "word_count_approx": 2301,
       "date": "2026-05-10",
-      "source_text_path": "materials/primary_texts/sanskrit/_replaced/raghavendra_nyaya_sudha_parimala_ad{1,2,3,4}_krishnacharya_1895_archive_djvu.txt"
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/raghavendra_nyaya_sudha_parimala_ad{1,2,3,4}_krishnacharya_1895_archive_djvu.txt",
+      "status": "unpublished"
     },
     {
       "slug": "engagement-raghavendra__tantra-dipika",
@@ -811,7 +855,8 @@
       ],
       "word_count_approx": 2394,
       "date": "2026-05-10",
-      "source_text_path": "materials/primary_texts/sanskrit/_replaced/tantra_dipika_raghavendra_archive_djvu.txt"
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/tantra_dipika_raghavendra_archive_djvu.txt",
+      "status": "unpublished"
     },
     {
       "slug": "engagement-vidyaranya__vivarana-prameya-sangraha",
@@ -829,7 +874,8 @@
       ],
       "word_count_approx": 2399,
       "date": "2026-05-10",
-      "source_text_path": "materials/primary_texts/sanskrit/vedanta/full_corpus/vidyaranya_vivarana_prameya_sangraha_1893_archive.pdf"
+      "source_text_path": "materials/primary_texts/sanskrit/vedanta/full_corpus/vidyaranya_vivarana_prameya_sangraha_1893_archive.pdf",
+      "status": "unpublished"
     },
     {
       "slug": "engagement-vijnanabhiksu__vijnanamrta-bhasya",
@@ -845,7 +891,8 @@
       ],
       "word_count_approx": 2406,
       "date": "2026-05-10",
-      "source_text_path": "materials/primary_texts/sanskrit/_replaced/vijnanabhiksu_vijnanamrta_bhasya_1979_archive_djvu.txt"
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/vijnanabhiksu_vijnanamrta_bhasya_1979_archive_djvu.txt",
+      "status": "unpublished"
     },
     {
       "slug": "engagement-vijnanabhiksu__yoga-varttika",
@@ -862,7 +909,8 @@
       ],
       "word_count_approx": 2491,
       "date": "2026-05-10",
-      "source_text_path": "materials/primary_texts/sanskrit/_replaced/vijnanabhiksu_yoga_varttika_1884_archive_djvu.txt"
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/vijnanabhiksu_yoga_varttika_1884_archive_djvu.txt",
+      "status": "unpublished"
     },
     {
       "slug": "engagement-yamuna__agama-pramanya",
@@ -879,7 +927,8 @@
       ],
       "word_count_approx": 2212,
       "date": "2026-05-10",
-      "source_text_path": "materials/primary_texts/sanskrit/_replaced/yamuna_agama_pramanya_rama_mishra_1937_archive_djvu.txt"
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/yamuna_agama_pramanya_rama_mishra_1937_archive_djvu.txt",
+      "status": "unpublished"
     },
     {
       "slug": "engagement-madhusudana__bhakti-rasayana",
@@ -896,7 +945,8 @@
       ],
       "word_count_approx": 2437,
       "date": "2026-05-10",
-      "source_text_path": "materials/primary_texts/sanskrit/_replaced/madhusudana_bhakti_rasayana_pandey_archive_djvu.txt"
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/madhusudana_bhakti_rasayana_pandey_archive_djvu.txt",
+      "status": "unpublished"
     },
     {
       "slug": "engagement-ramanuja__sri-bhasya",
@@ -913,7 +963,8 @@
       ],
       "word_count_approx": 2097,
       "date": "2026-05-10",
-      "source_text_path": "materials/primary_texts/sanskrit/_replaced/ramanuja_sribhashya_archive_djvu.txt"
+      "source_text_path": "materials/primary_texts/sanskrit/_replaced/ramanuja_sribhashya_archive_djvu.txt",
+      "status": "unpublished"
     },
     {
       "slug": "mimamsa-aurobindo-v4",
@@ -1037,7 +1088,8 @@
       ],
       "word_count_approx": 11284,
       "date": "2026-05-12",
-      "for_thinker_id": "schelling"
+      "for_thinker_id": "schelling",
+      "status": "unpublished"
     },
     {
       "slug": "late-plato",
@@ -1059,7 +1111,8 @@
       "word_count_approx": 7381,
       "date": "2026-05-12",
       "school": "western_classical_greek",
-      "depth": "comprehensive"
+      "depth": "comprehensive",
+      "status": "unpublished"
     },
     {
       "id": "wittgenstein",
@@ -1083,7 +1136,8 @@
       "school": "western_analytic_20c",
       "depth": "comprehensive",
       "word_count_approx": 13283,
-      "date": "2026-05-12"
+      "date": "2026-05-12",
+      "status": "unpublished"
     },
     {
       "id": "language-perspective-synthesis",
@@ -1117,7 +1171,8 @@
       "school": "synthesis_user_position",
       "depth": "comprehensive_keystone",
       "word_count_approx": 61893,
-      "date": "2026-05-12"
+      "date": "2026-05-12",
+      "status": "unpublished"
     }
   ]
 }
