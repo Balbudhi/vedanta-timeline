@@ -1,6 +1,6 @@
 # Sin, punishment, forgiveness — what the primary sources actually say
 
-*An investigative reading-dossier prompted by a friend's essay, "Reconciling Sin and Avidya." Every concept nearest to "sin" — pāpa, enas, āgas, kilbiṣa, doṣa, aparādha, pratyavāya, prāyaścitta, ṛṇa, naraka, daṇḍa, kṣamā — is gathered here in its **original language**, with locus, transliteration, and a literal translation, alongside what Swami Vivekananda, Sri Aurobindo, and the Mother say in their own words. No translation is used as a source. The aim is a briefing, not a verdict: to lay the texts side by side so the reader can judge.*
+*An investigative reading-dossier prompted by Bhaskar's essay, "Reconciling Sin and Avidya." Every concept nearest to "sin" — pāpa, enas, āgas, kilbiṣa, doṣa, aparādha, pratyavāya, prāyaścitta, ṛṇa, naraka, daṇḍa, kṣamā — is gathered here in its **original language**, with locus, transliteration, and a literal translation, alongside what Swami Vivekananda, Sri Aurobindo, and the Mother say in their own words. No translation is used as a source. The aim is a briefing, not a verdict: to lay the texts side by side so the reader can judge.*
 
 ---
 
@@ -14,15 +14,15 @@ This is a background briefing, assembled from primary texts. Four disciplines we
 
 3. **Verifiable citations.** Each passage was checked against a primary-source text. A handful that could not be independently confirmed are flagged.
 
-4. **Light hand.** The analysis is deliberately thin, and it takes no side. The point is to understand what each position says — the friend's essay, the traditional Hindu sources, Vivekananda, Sri Aurobindo, the Mother — not to argue for or against any of them, and not to reach a verdict on the friend's essay.
+4. **Light hand.** The analysis is deliberately thin, and it takes no side. The point is to understand what each position says — Bhaskar's essay, the traditional Hindu sources, Vivekananda, Sri Aurobindo, the Mother — not to argue for or against any of them, and not to reach a verdict on Bhaskar's essay.
 
-The five questions each position is answering are the same throughout: **What is sin (or its nearest equivalent)? Why do we suffer? Is it our fault? Do we need to be forgiven — and by whom? Are we fundamentally divine or fallen?** The friend's essay is summarised first because it is one of the positions to be understood; the sources then follow, each in its own voice.
+The five questions each position is answering are the same throughout: **What is sin (or its nearest equivalent)? Why do we suffer? Is it our fault? Do we need to be forgiven — and by whom? Are we fundamentally divine or fallen?** Bhaskar's essay is summarised first because it is one of the positions to be understood; the sources then follow, each in its own voice.
 
 ---
 
-## Position 1 — The friend's essay (*Reconciling Sin and Avidya*)
+## Position 1 — Bhaskar's essay (*Reconciling Sin and Avidya*)
 
-The essay ("Reconciling Sin and Avidya, Part 1," by "Maa's Beloved," ~16,500 words) holds that the Christian doctrine of **sin** and the Vedāntic doctrine of **avidyā** (ignorance), usually thought irreconcilable, "are not only fully reconcilable but also deeply illuminate one another." Its spine:
+The essay — "Reconciling Sin and Avidya, Part 1" (~16,500 words), by Bhaskar, writing under the pen-name "Maa's Beloved" — holds that the Christian doctrine of **sin** and the Vedāntic doctrine of **avidyā** (ignorance), usually thought irreconcilable, "are not only fully reconcilable but also deeply illuminate one another." Its spine:
 
 1. **The two reflexes.** It opens on the popular Hindu view — Vivekananda's 1893 Chicago line, "the Hindu refuses to call you sinners," and a Hindu friend's "the Christian sees man as sinful, dirty, condemned; Hinduism… understands that man is instead going from ignorance to Truth" — and the mirror Christian charge that reducing sin to ignorance "avoids any possibility of moral responsibility" and makes "sin lose its weight." Both, he says, rest on misunderstanding.
 
@@ -32,7 +32,7 @@ The essay ("Reconciling Sin and Avidya, Part 1," by "Maa's Beloved," ~16,500 wor
 
 4. **The beatific vision.** In full sight of God, since every good one sought is found wholly in God, one could no longer seek good elsewhere — so sin is impossible there. (He answers the free-will and original-sin objections.) Conclusion: *where there is no ignorance there can be no sin, and where there is sin, ignorance must be nearby.*
 
-5. **Against Aquinas.** Aquinas grants ignorance only as the *indirect* cause of sin (passion and malice being direct). The friend replies that Aquinas means merely *intellectual* ignorance, whereas *avidyā* is ignorance at **every level of being** — intellect, will, sensitive appetite, body, the depths of the soul. So Aquinas's three causes are all avidyā at different levels, and avidyā is the comprehensive root.
+5. **Against Aquinas.** Aquinas grants ignorance only as the *indirect* cause of sin (passion and malice being direct). Bhaskar replies that Aquinas means merely *intellectual* ignorance, whereas *avidyā* is ignorance at **every level of being** — intellect, will, sensitive appetite, body, the depths of the soul. So Aquinas's three causes are all avidyā at different levels, and avidyā is the comprehensive root.
 
 6. **Act vs condition.** Distinguishing *hamartēma* (a sinful act, ≈ Sanskrit *pāpa*) from *hamartia* (the condition, the "law of sin"): *avidyā* **is** sin-as-condition, and is the root cause of sin-as-act.
 
@@ -132,7 +132,7 @@ And the named root — ignorance itself:
 > **Īśā Upaniṣad 7** — *yasmin sarvāṇi bhūtāny ātmaivābhūd vijānataḥ, tatra ko mohaḥ kaḥ śoka ekatvam anupaśyataḥ*
 > "When, for the knower, all beings have become the very Self — then what **delusion** (*moha*), what **grief** (*śoka*), for one who sees oneness?"
 
-The contrast with the Vedic layer is exact. There, sin is an offence and the remedy is the god's *mṛḷa*, his relenting. Here, sin is a *stain that knowledge dissolves* and the remedy is *vidyā*. The friend's claim that "where there is no ignorance there can be no sin" is, on this evidence, less a Christian import than a near-paraphrase of *tatra ko mohaḥ kaḥ śokaḥ*.
+The contrast with the Vedic layer is exact. There, sin is an offence and the remedy is the god's *mṛḷa*, his relenting. Here, sin is a *stain that knowledge dissolves* and the remedy is *vidyā*. Bhaskar's claim that "where there is no ignorance there can be no sin" is, on this evidence, less a Christian import than a near-paraphrase of *tatra ko mohaḥ kaḥ śokaḥ*.
 
 ---
 
@@ -146,7 +146,7 @@ The Bhagavad-Gītā is where *pāpa* is most densely worked, and its logic is ne
 > **Bhagavad-Gītā 5.10** — *…lipyate na sa pāpena padma-patram ivāmbhasā*
 > "One who acts having placed his actions in Brahman, abandoning attachment, is **not smeared by sin** (*na lipyate pāpena*), as a **lotus-leaf** is not wetted by water." — Pāpa as an *adhesive* (√lip, "to smear") that non-attachment repels.
 
-On the **cause** of sin — and this is the verse that most directly answers the friend's question of whether sin is chosen in full knowledge — Arjuna asks why a man sins *against his will*:
+On the **cause** of sin — and this is the verse that most directly answers Bhaskar's question of whether sin is chosen in full knowledge — Arjuna asks why a man sins *against his will*:
 
 > **Bhagavad-Gītā 3.36** — *atha kena prayukto 'yaṃ pāpaṃ carati pūruṣaḥ, anicchann api… balād iva niyojitaḥ*
 > "Impelled by what does a man **commit sin** (*pāpaṃ carati*) **even unwilling** (*anicchan api*), **as though constrained by force** (*balād iva*)?"
@@ -162,7 +162,7 @@ Sin's root, in the Gītā's own words, is *kāma/krodha* operating *balād iva*,
 > **Bhagavad-Gītā 9.30–31** — *api cet su-durācāro bhajate mām ananya-bhāk, sādhur eva sa mantavyaḥ… kṣipraṃ bhavati dharmātmā… na me bhaktaḥ praṇaśyati*
 > "Even a man of **very evil conduct** (*su-durācāra*), if he worships Me undividedly, is to be deemed **righteous** (*sādhu*)… **swiftly he becomes righteous**… My devotee **does not perish** (*na praṇaśyati*)."
 
-And the culminating verse, the one both the friend and the theistic commentators dwell on:
+And the culminating verse, the one both Bhaskar and the theistic commentators dwell on:
 
 ::: sanskrit-aside
 :::: sanskrit
@@ -182,13 +182,13 @@ Two related sin-terms round out the Gītā's vocabulary — *kilbiṣa* (taint) 
 > **Bhagavad-Gītā 4.21** — *…śārīraṃ kevalaṃ karma kurvan nāpnoti kilbiṣam*
 > "Performing action with the body alone, desireless and dispossessed, he **incurs no taint** (*na āpnoti kilbiṣam*)."
 
-The Gītā, then, gives the friend a great deal: sin is *compelled by kāma* (ignorance-driven), it is *dissolved by jñāna*, and it is *removed by the Lord's act of liberation* (18.66) — grace, not effort, not pardon-after-punishment. What it does *not* give is a forensic ledger of guilt; pāpa is an accretion that the right disposition simply never picks up.
+The Gītā, then, gives Bhaskar a great deal: sin is *compelled by kāma* (ignorance-driven), it is *dissolved by jñāna*, and it is *removed by the Lord's act of liberation* (18.66) — grace, not effort, not pardon-after-punishment. What it does *not* give is a forensic ledger of guilt; pāpa is an accretion that the right disposition simply never picks up.
 
 ---
 
 ## Part V — The systematic schools: fault rooted in ignorance
 
-Two darśanas state the friend's "avidyā is the root" thesis in nearly his own terms — and predate any contact with Christianity by a millennium or more.
+Two darśanas state Bhaskar's "avidyā is the root" thesis in nearly his own terms — and predate any contact with Christianity by a millennium or more.
 
 ### Nyāya — false knowledge at the bottom of the chain
 
@@ -207,7 +207,7 @@ And its undoing is *knowledge*, not punishment or pardon:
 > *yadā tu tattvajñānān mithyājñānam apaiti, tadā… doṣā apayanti, doṣāpāye pravṛttir apaiti…*
 > "But when, through **knowledge of reality** (*tattva-jñāna*), false knowledge departs, then the faults depart; the faults gone, activity ceases…"
 
-This is the friend's argument — *where there is sin, ignorance is near; remove the ignorance and the fault dissolves* — stated as a Naiyāyika syllogism. *Doṣa*, the literal "fault," is the *downstream* term; *mithyā-jñāna* is the root.
+This is Bhaskar's argument — *where there is sin, ignorance is near; remove the ignorance and the fault dissolves* — stated as a Naiyāyika syllogism. *Doṣa*, the literal "fault," is the *downstream* term; *mithyā-jñāna* is the root.
 
 ### Yoga — avidyā as the field of all the afflictions
 
@@ -221,7 +221,7 @@ Vyāsa's *Yoga-bhāṣya* on 2.15 names *avidyā* explicitly as the *seed of the
 > *tad asya mahato duḥkha-samudāyasya prabhava-bījam avidyā. tasyāś ca samyag-darśanam abhāva-hetuḥ.* … *yathā cikitsā-śāstraṃ caturvyūham — rogo roga-hetur ārogyaṃ bhaiṣajyam iti — evam idam api śāstraṃ caturvyūham eva.*
 > "The **seed** (*bīja*) of this great mass of suffering is **ignorance** (*avidyā*); and right vision (*samyag-darśana*) is the cause of its absence… As medical science has four divisions — **disease, its cause, health, the remedy** — so this teaching too has four divisions."
 
-The action one performs lays down a *karmāśaya* (a deposit), which, while the affliction-root persists, ripens (*vipāka*) into birth, lifespan, and experience, pleasant or painful by *puṇya/apuṇya* (2.12–14). But the *true* fault, the thing to be cured, is metaphysical ignorance. Sin (*pāpa/apuṇya*) is **downstream fruit**, exactly as the friend says — and the remedy is *darśana*, seeing, not absolution.
+The action one performs lays down a *karmāśaya* (a deposit), which, while the affliction-root persists, ripens (*vipāka*) into birth, lifespan, and experience, pleasant or painful by *puṇya/apuṇya* (2.12–14). But the *true* fault, the thing to be cured, is metaphysical ignorance. Sin (*pāpa/apuṇya*) is **downstream fruit**, exactly as Bhaskar says — and the remedy is *darśana*, seeing, not absolution.
 
 ---
 
@@ -245,14 +245,14 @@ Sin here is a discrete, classified **act**, with consequences that are anything 
 > **Manu-smṛti 12.54** — *bahūn varṣagaṇān ghorān narakān prāpya tat-kṣayāt saṃsārān pratipadyante mahāpātakinaḥ*
 > "Having endured dreadful **hells** (*naraka*) for many cycles of years, the **great sinners** (*mahāpātakin*), at the exhaustion of that, take (degraded) **transmigrations**."
 
-Yet even here, sin is **erasable by expiation**, and *intention* governs — a structure closer to the Christian "voluntary and involuntary" than the friend may expect:
+Yet even here, sin is **erasable by expiation**, and *intention* governs — a structure closer to the Christian "voluntary and involuntary" than Bhaskar may expect:
 
 > **Manu-smṛti 11.45** — *akāmataḥ kṛte pāpe prāyaścittaṃ vidur budhāḥ; kāmakāra-kṛte 'py āhur eke śruti-nidarśanāt*
 > "For a sin done **unintentionally** (*akāmataḥ*), the wise know **expiation** (*prāyaścitta*) applies; some say it applies even for one done **deliberately** (*kāmakāra*), on the authority of śruti."
 
 ### Mīmāṃsā: the omission-sin (pratyavāya)
 
-The friend's distinction between *hamartēma* (act) and *hamartia* (condition) has an unexpected Indian cousin in a *third* category that is neither: the sin of **not acting**. Pūrva-Mīmāṃsā holds that the standing obligatory (*nitya*) rites yield no positive fruit when performed, yet their **omission** generates demerit — the maxim *akaraṇe pratyavāyaḥ*, "in non-performance, sin." Sin here is **failure to discharge a debt** (*ṛṇa*), the karmic "minus" that the grammar of *pratyavāya* ("going back-and-down") already encoded. *(The maxim is pan-Mīmāṃsā/Vedānta; it is a tradition-wide formulation rather than a single verbatim Śabara line, and is flagged as such.)*
+Bhaskar's distinction between *hamartēma* (act) and *hamartia* (condition) has an unexpected Indian cousin in a *third* category that is neither: the sin of **not acting**. Pūrva-Mīmāṃsā holds that the standing obligatory (*nitya*) rites yield no positive fruit when performed, yet their **omission** generates demerit — the maxim *akaraṇe pratyavāyaḥ*, "in non-performance, sin." Sin here is **failure to discharge a debt** (*ṛṇa*), the karmic "minus" that the grammar of *pratyavāya* ("going back-and-down") already encoded. *(The maxim is pan-Mīmāṃsā/Vedānta; it is a tradition-wide formulation rather than a single verbatim Śabara line, and is flagged as such.)*
 
 Strikingly, the great theistic commentator builds **both** kinds of sin — commission *and* omission — into his reading of Gītā 18.66.
 
@@ -283,7 +283,7 @@ Suffering, in classical Vedānta, is not a sentence handed down by a judge; it i
 
 ## Part VII — Swami Vivekananda, in his own words
 
-The friend's essay opens against Vivekananda. So it is worth quoting the famous repudiation in full, from the Chicago address — *and* the places where Vivekananda's "sin" is not soft at all.
+Bhaskar's essay opens against Vivekananda. So it is worth quoting the famous repudiation in full, from the Chicago address — *and* the places where Vivekananda's "sin" is not soft at all.
 
 The repudiation (English is his primary medium here):
 
@@ -306,7 +306,7 @@ And in Bengali, the register is the same — moral failure as *durbalatā* (weak
 > *…ei dāsasulabha durbalatā… He Gaurīnātha, He Jagadambe, āmāy manuṣyatva dāo; Mā, āmār durbalatā kāpuruṣatā dūr kara, āmāy mānuṣa kara.*
 > "…this **slavish weakness** (*dāsasulabha durbalatā*)… O Lord of Gaurī, O Mother of the world, **give me manhood**; Mother, **remove my weakness and cowardice** (*durbalatā, kāpuruṣatā*), make me a man."
 
-So Vivekananda's position is sharper than the friend's framing allows: he does not deny wrongdoing or its seriousness — he **relocates** its name. What Christianity calls "sin," he calls *weakness/error*, and he treats the *label* "sinner," applied to the Self, as the deepest error of all. This is precisely a quarrel over whether *pāpa* is essence or condition — the friend's own *hamartia*/*hamartēma* question, fought on the word "sinner."
+So Vivekananda's position is sharper than Bhaskar's framing allows: he does not deny wrongdoing or its seriousness — he **relocates** its name. What Christianity calls "sin," he calls *weakness/error*, and he treats the *label* "sinner," applied to the Self, as the deepest error of all. This is precisely a quarrel over whether *pāpa* is essence or condition — Bhaskar's own *hamartia*/*hamartēma* question, fought on the word "sinner."
 
 ---
 
@@ -326,7 +326,7 @@ On the "sense of sin" itself, Aurobindo is blunt — it belongs to a *religious*
 
 > **Letters on Yoga** — "Obstacles have to be looked at as something wrong in the machinery of human nature which has to be changed — **they should not be regarded as sins or wrong-doings** which make one despair of oneself."
 
-And on the very pardon/punishment frame the friend works within:
+And on the very pardon/punishment frame Bhaskar works within:
 
 > **Letters on Yoga (on karma and atonement)** — "**It is not a question of pardon or punishment.** The past can be effaced, but only if it is sincerely rejected from within and repaired and atoned for by a change which gets rid of the movements that caused it. A merely external submission, punishment or pardon are of no use."
 
@@ -334,13 +334,13 @@ On Gītā 18.66, Aurobindo reads *sarva-pāpa* not as a debt cancelled but as th
 
 > **Essays on the Gita, "The Supreme Secret"** — "An almighty Power will take up our virtue and sin, our right and wrong… cast away their tangled figures, *sarva-dharmān parityajya*, and **transform all into its transcendent purity.**"
 
-Aurobindo thus stands almost exactly where the friend's *philosophical* conclusion lands (sin is the Ignorance, to be transformed, not a guilt to be pardoned) — but flatly against the friend's *pastoral* recommendation that one cultivate "the sense of sin."
+Aurobindo thus stands almost exactly where Bhaskar's *philosophical* conclusion lands (sin is the Ignorance, to be transformed, not a guilt to be pardoned) — but flatly against Bhaskar's *pastoral* recommendation that one cultivate "the sense of sin."
 
 ---
 
 ## Part IX — The Mother, in her own words
 
-The Mother (Mirra Alfassa) spoke largely in French; the French originals are given, with literal English. Her position is the sharpest negation of "sin" in this dossier — and yet it is built on *grace*, which complicates the friend's "potentiality vs poverty" tension.
+The Mother (Mirra Alfassa) spoke largely in French; the French originals are given, with literal English. Her position is the sharpest negation of "sin" in this dossier — and yet it is built on *grace*, which complicates Bhaskar's "potentiality vs poverty" tension.
 
 On her own consciousness, she denies the categories of sinner/virtuous entirely:
 
@@ -351,7 +351,7 @@ In her notes to disciples, "sin" is denied of the Divine outright, while "mistak
 
 > **Words of the Mother II (CWM 14, "Mistakes")** — "**For the Supreme Lord, sin does not exist** — all defect can be effaced by sincere aspiration and by transformation. **Sin belongs to the world and not to yoga.** … **A mistake recognised is a mistake pardoned.**"
 
-And on the relation of justice, grace, and fault — directly the friend's territory of debt and forgiveness — she sets **Grace above the mechanical law of Justice**:
+And on the relation of justice, grace, and fault — directly Bhaskar's territory of debt and forgiveness — she sets **Grace above the mechanical law of Justice**:
 
 > **Words of the Mother II (CWM 14, "Faith and the Divine Grace," 15 Jan 1933)** — "Justice is the strict logical determinism of the movements of Universal Nature… **The Divine Grace alone has the power to intervene and change the course of Universal Justice.** … How many times in a day we commit faults against Thy work, and **always Thy Grace comes to efface them!**"
 
@@ -363,7 +363,7 @@ Her French *Prayers and Meditations* render "fault" (*faute*) as a *failing agai
 > **Prières et Méditations (29 January 1917, French)** — *"…que de fautes j'ai commises contre Toi… Donne-moi la parfaite compréhension de Ta Loi afin que je n'y faillisse plus."*
 > "…how many **faults** (*fautes*) I have committed against Thee… Give me the **perfect understanding of Thy Law** so that I may **no longer fail** in it."
 
-The one thing she does forbid is the posture the friend's "neurotic shame" warns against — **discouragement**:
+The one thing she does forbid is the posture Bhaskar's "neurotic shame" warns against — **discouragement**:
 
 > **Words of the Mother II (CWM 14, "Difficulties")** — "**This habit of cringing, of getting discouraged**… of abusing yourself and telling yourself, 'There! Again I have made a mistake' — all that is absolute foolishness."
 
@@ -375,7 +375,7 @@ A neutral summary, so the differences are visible side by side. Each row is what
 
 | Position | What "sin" / fault is | Why we suffer | Whose fault | Forgiveness? | Divine or fallen? |
 |---|---|---|---|---|---|
-| **The friend's essay** | *hamartia*, "missing the mark"; a distortion of Truth — and at root **none other than avidyā** | Because of ignorance at every level of the being (intellect, will, appetite, body, soul) | Ours, but as a *condition* (the "law of sin"), not only as acts | Yes — by grace; and one *should* "recognize oneself as a sinner" | **Both**: fallen *and* divine, resolved non-dually |
+| **Bhaskar's essay** | *hamartia*, "missing the mark"; a distortion of Truth — and at root **none other than avidyā** | Because of ignorance at every level of the being (intellect, will, appetite, body, soul) | Ours, but as a *condition* (the "law of sin"), not only as acts | Yes — by grace; and one *should* "recognize oneself as a sinner" | **Both**: fallen *and* divine, resolved non-dually |
 | **Vedic (Varuṇa hymns)** | *enas / āgas* — an offence/transgression against the cosmic order (*ṛta*), structured as a **debt** | A god's wrath provoked by the offence | Partly ours, partly *acittī* — "thoughtlessness," "not my own will" | **Yes** — the god relents (*mṛḷa*); sin is "loosed" like a calf from a rope | (Not yet thematized) |
 | **Upaniṣads** | *pāpa / pāpman* — a **stain** the knower is "not smeared by," even left behind entirely | *avidyā* — "dwelling in the midst of ignorance," the blind led by the blind | One's own ignorance | Not pardoned but **transcended / burnt up / shaken off** by knowledge | **Divine**: the Self is *apahata-pāpman*, intrinsically free of evil |
 | **Bhagavad-Gītā** | *pāpa* as an **accretion** one incurs (*āpnoti*) or is "smeared by" (*lipyate*) | *kāma* and *krodha* drive sin "**as if by force**" (3.36–37) | One's own desire-born compulsion, not sovereign choice | **Dissolved** by the fire of knowledge (4.37); **removed by surrender** — "I shall free you from all sins" (18.66) | **Divine**: the embodied Self is untouched, deathless |
@@ -387,7 +387,7 @@ A neutral summary, so the differences are visible side by side. Each row is what
 | **Sri Aurobindo** | Evil/falsehood are "**creations of the Ignorance and Inconscience**," not rooted in the Real | A self-limiting Ignorance; "the sombre flowers… root in the black soil of the Inconscient" | A wrong movement of the lower Nature, not a guilt | "**Not a question of pardon or punishment**" — the past is effaced by inner change; sin is **outgrown / transformed** | **Divine** in becoming; the "sense of sin" belongs to "the religious, not the yogic mentality" |
 | **The Mother** | "**For the Supreme Lord, sin does not exist**"; only *la vraie chose* (the true thing) done or not done | Imperfection / unconsciousness to be transformed | A "mistake," not a guilt — "a mistake recognised is a mistake pardoned" | **Grace** "alone… changes the course of Universal Justice" and effaces faults | **Divine**: the one real fault is **discouragement**, not sin |
 
-**The two recurring fault-lines.** First, *is "sinner" something to own or to see through?* The Dharmaśāstra and devotional/theistic strata (Manu, Rāmānuja, the Varuṇa hymns) treat sin as real, weighty, and in need of expiation or grace — close to the friend's view. The *jñāna* mainstream (Upaniṣads, Nyāya, Yoga, Śaṅkara) and the modern voices (Vivekananda, Aurobindo, the Mother) treat the *label* "sinner," applied to the Self, as **false** — something to be dispelled by knowledge or grace, not identified with. Second, *is removal by effort or by grace?* Almost every position that speaks of *removal* (Gītā 18.66, Rāmānuja, the Mother, the Varuṇa *mṛḷa*) makes it an act of **grace**, not of technique — even where, as in Nyāya/Yoga, the cure is knowledge. Those two questions are where the positions genuinely divide; the dossier leaves them open for the reader to weigh.
+**The two recurring fault-lines.** First, *is "sinner" something to own or to see through?* The Dharmaśāstra and devotional/theistic strata (Manu, Rāmānuja, the Varuṇa hymns) treat sin as real, weighty, and in need of expiation or grace — close to Bhaskar's view. The *jñāna* mainstream (Upaniṣads, Nyāya, Yoga, Śaṅkara) and the modern voices (Vivekananda, Aurobindo, the Mother) treat the *label* "sinner," applied to the Self, as **false** — something to be dispelled by knowledge or grace, not identified with. Second, *is removal by effort or by grace?* Almost every position that speaks of *removal* (Gītā 18.66, Rāmānuja, the Mother, the Varuṇa *mṛḷa*) makes it an act of **grace**, not of technique — even where, as in Nyāya/Yoga, the cure is knowledge. Those two questions are where the positions genuinely divide; the dossier leaves them open for the reader to weigh.
 
 ---
 
