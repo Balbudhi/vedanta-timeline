@@ -634,17 +634,38 @@ body.is-space-pan .timeline-scroller * { cursor: grab !important; }
 .dp-resize-handle {
   position: absolute;
   top: 0; left: 0; bottom: 0;
-  width: 6px;
-  margin-left: -3px;
-  z-index: 5;
+  /* Wide, fully-inside-the-pane hit area so the edge is easy to grab; the
+     previous 6px-straddling-the-border handle was mostly clipped by the
+     pane's overflow:hidden and nearly impossible to hit. */
+  width: 14px;
+  margin-left: 0;
+  z-index: 30;
   cursor: col-resize;
   background: transparent;
   transition: background 140ms ease;
   touch-action: none;
 }
+/* A always-visible grip so the reader can find the drag edge. */
+.dp-resize-handle::after {
+  content: "";
+  position: absolute;
+  top: 50%; left: 3px;
+  transform: translateY(-50%);
+  width: 3px; height: 34px;
+  border-radius: 3px;
+  background: var(--rule);
+  opacity: 0.55;
+  transition: opacity 140ms ease, background 140ms ease;
+}
 .dp-resize-handle:hover,
 .dp-resize-handle.is-dragging {
-  background: var(--rule);
+  background: color-mix(in srgb, var(--rule) 35%, transparent);
+}
+.dp-resize-handle:hover::after,
+.dp-resize-handle.is-dragging::after {
+  opacity: 1;
+  height: 48px;
+  background: var(--ink);
 }
 body.is-resizing-pane,
 body.is-resizing-pane * {

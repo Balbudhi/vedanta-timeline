@@ -1780,6 +1780,9 @@ function closeDetailPane() { closePanel(); }
 closeDetail.addEventListener("click", closePanel);
 ["pointerdown", "pointerup", "mousedown", "mouseup", "touchstart", "touchend"].forEach((type) => {
   detailPane.addEventListener(type, (e) => {
+    // Exempt the resize handle: this capture-phase guard otherwise swallows
+    // the handle's own mousedown/pointerdown before it can start a drag.
+    if (e.target && e.target.closest && e.target.closest(".dp-resize-handle")) return;
     e.stopPropagation();
   }, true);
 });
@@ -4434,6 +4437,7 @@ function wireDetailPaneResize() {
     detailPane.insertBefore(handle, detailPane.firstChild);
   }
 
+  const stageEl = document.getElementById("stage");
   function applyWidth(px) {
     const vw = window.innerWidth;
     const min = 360;
@@ -4441,6 +4445,11 @@ function wireDetailPaneResize() {
     // nearly full-width for wide-format reading.
     const max = Math.max(min, vw - 120);
     const clamped = Math.min(max, Math.max(min, px));
+    // Force the grid columns directly on the stage element. Setting only the
+    // CSS custom property was not reliably resizing the panel; an inline
+    // grid-template-columns on .stage overrides the stylesheet outright.
+    // minmax(0,1fr) lets the timeline column shrink so the panel can grow.
+    if (stageEl) stageEl.style.gridTemplateColumns = "minmax(0,1fr) " + clamped + "px";
     document.body.style.setProperty("--pane-w-detail", clamped + "px");
     return clamped;
   }
@@ -4450,35 +4459,53 @@ function wireDetailPaneResize() {
     if (Number.isFinite(saved) && saved > 0) applyWidth(saved);
   } catch (_) {}
 
+  // Drag wiring uses window-level mouse/touch listeners (added only while
+  // dragging). This is more robust than pointer-capture, which proved
+  // unreliable here — the handle would highlight but never resize.
   let dragging = false;
   let startX = 0;
   let startW = 0;
-  handle.addEventListener("pointerdown", (e) => {
-    dragging = true;
-    startX = e.clientX;
-    startW = detailPane.getBoundingClientRect().width;
-    try { handle.setPointerCapture(e.pointerId); } catch (_) {}
-    handle.classList.add("is-dragging");
-    document.body.classList.add("is-resizing-pane");
-    e.preventDefault();
-  });
-  handle.addEventListener("pointermove", (e) => {
+
+  const coordX = (e) =>
+    (e.clientX != null ? e.clientX
+      : (e.touches && e.touches[0] ? e.touches[0].clientX
+        : (e.changedTouches && e.changedTouches[0] ? e.changedTouches[0].clientX : 0)));
+
+  function onMove(e) {
     if (!dragging) return;
     // Pane grows to the LEFT as the handle moves left.
-    const dx = startX - e.clientX;
-    applyWidth(startW + dx);
-  });
-  const endDrag = (e) => {
+    applyWidth(startW + (startX - coordX(e)));
+    if (e.cancelable) e.preventDefault();
+  }
+  function onUp() {
     if (!dragging) return;
     dragging = false;
     handle.classList.remove("is-dragging");
     document.body.classList.remove("is-resizing-pane");
-    try { handle.releasePointerCapture(e.pointerId); } catch (_) {}
+    window.removeEventListener("mousemove", onMove);
+    window.removeEventListener("mouseup", onUp);
+    window.removeEventListener("touchmove", onMove);
+    window.removeEventListener("touchend", onUp);
+    window.removeEventListener("touchcancel", onUp);
     const w = detailPane.getBoundingClientRect().width;
     try { localStorage.setItem("dp-width-px", String(Math.round(w))); } catch (_) {}
-  };
-  handle.addEventListener("pointerup", endDrag);
-  handle.addEventListener("pointercancel", endDrag);
+  }
+  function onDown(e) {
+    dragging = true;
+    startX = coordX(e);
+    startW = detailPane.getBoundingClientRect().width;
+    handle.classList.add("is-dragging");
+    document.body.classList.add("is-resizing-pane");
+    window.addEventListener("mousemove", onMove);
+    window.addEventListener("mouseup", onUp);
+    window.addEventListener("touchmove", onMove, { passive: false });
+    window.addEventListener("touchend", onUp);
+    window.addEventListener("touchcancel", onUp);
+    e.preventDefault();
+    e.stopPropagation();
+  }
+  handle.addEventListener("mousedown", onDown);
+  handle.addEventListener("touchstart", onDown, { passive: false });
 
   window.addEventListener("resize", () => {
     const cur = parseFloat(getComputedStyle(detailPane).width);
