@@ -402,9 +402,6 @@ The comparison comes down to a few plain points:
 - **There is always a notion of sin.** Every position reckons with sin — *pāpa* — as a real fault to be overcome, not an illusion to shrug off (some prefer to call it *error* or *weakness*), pictured variously as an act, a debt, a stain, or a condition.
 
 - **Sin is broadly tied to a privation of awareness.** The Veda already traces *enas* to *acittī*, "un-consciousness" (RV 7.86.6, 7.89.5); the Gītā has *kāma* and *krodha* compel sin "as if by force" (3.36–37); the Upaniṣads, Nyāya, and Yoga name the root *avidyā* / *mithyā-jñāna* (Kaṭha 1.2.5; Nyāya-sūtra 1.1.2; Yoga-sūtra 2.3–5).
-
-- **"Grace" and "knowledge" are not rival remedies.** In the unitive strands both name one event — the dispelling of ignorance. The Lord, "out of compassion," *gives* "the lamp of knowledge" that destroys it (Gītā 10.10–11), and the saving knowledge is itself *given to the one the Self chooses* (Kaṭha 1.2.23 = Muṇḍaka 3.2.3).
-
 - **The real divergence is over "sinner."** Every tradition keeps a notion of *sin*; what the *jñāna* texts and the modern voices decline is **"sinner"** as a name for the Self — grounded in the Self that is *apahata-pāpman* and *na lipyate*, and stated plainly by Vivekananda ("weakness," not wickedness), Aurobindo (the "sense of sin" is "religious, not yogic"), and the Mother ("for the Supreme Lord, sin does not exist"). Even the theistic schools, which keep sin fully weighty, locate the soul's truth in dependence on God — *śeṣatva*, *dainya* before Him — not in sinfulness.
 
 This is where the comparison meets Bhaskar's essay, which finds "truth and merit in recognizing oneself as a sinner": on *sin* the traditions agree more than the popular framing allows; on *sinner* they part. The cross-cultural contrast is just that — one tradition makes "sinner" a name to own before a personal God, the other a description to be seen through.
