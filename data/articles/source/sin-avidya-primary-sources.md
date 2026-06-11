@@ -112,27 +112,32 @@ So even in the stratum most like "sin-and-pardon," two indigenous notes already 
 
 By the Upaniṣads the structure inverts. Sin is no longer confessed to a judge; for the knower of the Self it is **left behind, burnt up, shaken off** — rendered inoperative by knowledge. Crucially, the texts also name the *root*: *avidyā*.
 
-> **Bṛhadāraṇyaka Upaniṣad 4.4.22** — *sa na sādhunā karmaṇā bhūyān, no evāsādhunā kanīyān… nainaṃ kṛtākṛte tapataḥ*
-> "He does not become greater by good action, nor less by bad action… **the done and the not-done** (*kṛtākṛte*) **do not afflict him.**"
+> **Bṛhadāraṇyaka Upaniṣad 4.4.22** — *sa vā eṣa mahān aja ātmā yo 'yaṃ vijñānamayaḥ prāṇeṣu · ya eṣo 'ntar-hṛdaya ākāśas tasmiñ chete sarvasya vaśī sarvasyeśānaḥ sarvasyādhipatiḥ · sa na sādhunā karmaṇā bhūyān no evāsādhunā kanīyān · eṣa sarveśvara eṣa bhūtādhipatir eṣa bhūtapālaḥ · eṣa setur vidharaṇa eṣāṃ lokānām asaṃbhedāya · tam etaṃ vedānuvacanena brāhmaṇā vividiṣanti yajñena dānena tapasānāśakena · etam eva viditvā munir bhavati · etam eva pravrājino lokam icchantaḥ pravrajanti · etad dha sma vai tat pūrve vidvāṃsaḥ prajāṃ na kāmayante: kiṃ prajayā kariṣyāmo yeṣāṃ no 'yam ātmāyaṃ loka iti · te ha sma putraiṣaṇāyāś ca vittaiṣaṇāyāś ca lokaiṣaṇāyāś ca vyutthāyātha bhikṣācaryaṃ caranti · yā hy eva putraiṣaṇā sā vittaiṣaṇā, yā vittaiṣaṇā sā lokaiṣaṇā, ubhe hy ete eṣaṇe eva bhavataḥ · sa eṣa neti nety ātmā · agṛhyo na hi gṛhyate, aśīryo na hi śīryate, asaṅgo na hi sajyate, asito na vyathate na riṣyati · etam u haivaite na tarata iti — ataḥ pāpam akaravam ity ataḥ kalyāṇam akaravam iti · ubhe u haivaiṣa ete tarati · nainaṃ kṛtākṛte tapataḥ*
+> "That great unborn Self is the one made of consciousness among the vital breaths. He who is this space within the heart — therein He lies, the controller of all, the lord of all, the ruler of all. He does not become greater by good action, nor lesser by bad action. He is the Lord of all, the overlord of beings, the protector of beings; He is the bridge that holds these worlds apart so that they do not merge. Him the knowers of Brahman seek to know through recitation of the Veda, through sacrifice, gift, and austerity that does not consume; knowing Him alone, one becomes a sage; desiring Him as their world, wandering ascetics go forth. This indeed is why the knowers of old did not desire offspring: 'What shall we do with offspring, we whose Self is this, whose world is this?' And they, rising up above the desire for sons, the desire for wealth, and the desire for worlds, went about as mendicants; for the desire for sons is the desire for wealth, and the desire for wealth is the desire for worlds — both of these are but desires. This Self is 'not this, not this' (*neti neti*): ungraspable, for He is not grasped; indestructible, for He is not destroyed; unattached, for He does not cling; unbound, He does not suffer, He is not injured. These two do not pass beyond Him: 'thus I did evil' and 'thus I did good'; both of these He passes beyond. **The done and the not-done** (*kṛtākṛte*, i.e. good and evil deeds) **do not afflict him.**"
 
-> **Bṛhadāraṇyaka Upaniṣad 4.4.23** — *…taṃ viditvā na lipyate karmaṇā pāpakena… nainaṃ pāpmā tarati, sarvaṃ pāpmānaṃ tarati… vipāpo virajo 'vicikitso brāhmaṇo bhavati*
-> "Knowing It, one is **not stained** (*na lipyate*) by sinful action. Evil (*pāpman*) does not cross over to him — he crosses over all evil; evil does not burn him — he burns up all evil; **free of evil** (*vipāpa*), free of taint, free of doubt, he becomes a knower of Brahman."
+> **Bṛhadāraṇyaka Upaniṣad 4.4.23** — *tad etad ṛcābhyuktam: eṣa nityo mahimā brāhmaṇasya na vardhate karmaṇā no kanīyān · tasyaiva syāt padavit · taṃ viditvā na lipyate karmaṇā pāpakeneti · tasmād evaṃvic chānto dānta uparatas titikṣuḥ samāhito bhūtvātmany evātmānaṃ paśyati, sarvam ātmānaṃ paśyati · nainaṃ pāpmā tarati, sarvaṃ pāpmānaṃ tarati · nainaṃ pāpmā tapati, sarvaṃ pāpmānaṃ tapati · vipāpo virajo 'vicikitso brāhmaṇo bhavati · eṣa brahmalokaḥ samrāḍ iti hovāca yājñavalkyaḥ*
+> "This same is declared by the Ṛc-verse: This eternal greatness of the knower of Brahman is not increased by action, nor made less; one should know its track — knowing It, one is **not stained** (*na lipyate*) by sinful action. Therefore, having become a knower of this, calm, controlled, withdrawn, forbearing, and collected, one sees the Self in the very self, sees all as the Self. Evil (*pāpman*) does not cross over to him — he crosses over all evil; evil does not burn him — he burns up all evil; **free of evil** (*vipāpa*), free of taint, free of doubt, he becomes a knower of Brahman. This is the world of Brahman, O Emperor — so said Yājñavalkya."
 
-> **Chāndogya Upaniṣad 8.4.1** — *…naitaṃ setum… na sukṛtaṃ na duṣkṛtam; sarve pāpmāno 'to nivartante 'pahatapāpman hy eṣa brahmalokaḥ*
-> "The Self is the bridge (*setu*)… neither good deed nor evil deed crosses it; **all sins turn back** (*sarve pāpmāno nivartante*) from it, for this world of Brahman is **intrinsically free of evil** (*apahata-pāpman*)."
+> **Chāndogya Upaniṣad 8.4.1** — *atha ya ātmā sa setur dhṛtir eṣāṃ lokānām asaṃbhedāya · naitaṃ setum ahorātre tarato na jarā na mṛtyur na śoko na sukṛtaṃ na duṣkṛtam · sarve pāpmāno 'to nivartante 'pahatapāpmā hy eṣa brahmalokaḥ*
+> "Now the Self is the bridge (*setu*), the boundary that holds these worlds apart so that they do not merge. Neither day nor night crosses this bridge, nor old age, nor death, nor sorrow, **neither good deed nor evil deed** (*na sukṛtaṃ na duṣkṛtam*); **all sins turn back** (*sarve pāpmāno nivartante*) from it, for this world of Brahman is **intrinsically free of evil** (*apahata-pāpman*)."
 
-> **Chāndogya Upaniṣad 8.13.1** — *aśva iva romāṇi vidhūya pāpaṃ… brahmalokam abhisaṃbhavāmi*
-> "**Shaking off evil** (*pāpaṃ vidhūya*) as a horse shakes its hairs… with self perfected, I attain the uncreated world of Brahman."
+> **Chāndogya Upaniṣad 8.13.1** — *śyāmāc chabalaṃ prapadye śabalāc chyāmaṃ prapadye · aśva iva romāṇi vidhūya pāpaṃ, candra iva rāhor mukhāt pramucya, dhūtvā śarīram akṛtaṃ kṛtātmā brahmalokam abhisaṃbhavāmīty abhisaṃbhavāmi*
+> "From the dark I reach the dappled, from the dappled I reach the dark. **Shaking off evil** (*pāpaṃ vidhūya*) as a horse shakes its hairs, and freeing myself as the moon frees itself from the mouth of Rāhu, I shake off the body and, with self perfected (*kṛtātmā*), I attain the uncreated world of Brahman — yea, I attain it."
 
 And the named root — ignorance itself:
 
-> **Kaṭha Upaniṣad 1.2.5** — *avidyāyām antare vartamānāḥ svayaṃ dhīrāḥ paṇḍitaṃmanyamānāḥ… andhenaiva nīyamānā yathāndhāḥ*
-> "**Dwelling in the midst of ignorance** (*avidyāyām antare vartamānāḥ*), thinking themselves wise, the deluded wander round and round, **like the blind led by the blind.**"
+> **Kaṭha Upaniṣad 1.2.5** — *avidyāyām antare vartamānāḥ svayaṃ dhīrāḥ paṇḍitaṃmanyamānāḥ · dandramyamāṇāḥ pariyanti mūḍhā andhenaiva nīyamānā yathāndhāḥ*
+> "**Dwelling in the midst of ignorance** (*avidyāyām antare vartamānāḥ*), thinking themselves wise and learned, the deluded (*mūḍhāḥ*) wander round and round, staggering to and fro, **like the blind led by the blind.**"
 
 > **Īśā Upaniṣad 7** — *yasmin sarvāṇi bhūtāny ātmaivābhūd vijānataḥ, tatra ko mohaḥ kaḥ śoka ekatvam anupaśyataḥ*
 > "When, for the knower, all beings have become the very Self — then what **delusion** (*moha*), what **grief** (*śoka*), for one who sees oneness?"
 
-The contrast with the Vedic layer is exact. There, sin is an offence and the remedy is the god's *mṛḷa*, his relenting. Here, sin is a *stain that knowledge dissolves* and the remedy is *vidyā*. Bhaskar's claim that "where there is no ignorance there can be no sin" is, on this evidence, less a Christian import than a near-paraphrase of *tatra ko mohaḥ kaḥ śokaḥ*.
+Yet the same Upaniṣadic stratum already qualifies "remedy by knowledge" in a way that anticipates the language of grace: the saving knowledge of the Self is **not won by effort** but **given to the one the Self chooses**.
+
+> **Kaṭha Upaniṣad 1.2.23 (= Muṇḍaka Upaniṣad 3.2.3)** — *nāyam ātmā pravacanena labhyo na medhayā na bahunā śrutena · yam evaiṣa vṛṇute tena labhyas tasyaiṣa ātmā vivṛṇute tanūṃ svām*
+> "This Self is **not to be attained** by exposition, nor by intellect, nor by much hearing (of scripture). **Whom this (Self) chooses** (*yam evaiṣa vṛṇute*) — **by him alone is It attained** (*tena labhyaḥ*); to him this Self reveals its own form."
+
+The line is decisive for the question of grace and knowledge: even the *jñāna* path makes the liberating knowledge something **bestowed** (*vṛṇute*, "chooses, elects"), not merely manufactured by study. The contrast with the Vedic layer is therefore one of idiom more than of mechanism. There, sin is an offence and the remedy is the god's *mṛḷa*, his relenting; here, sin is a *stain that knowledge dissolves* — but the knowledge is itself *given*. Bhaskar's claim that "where there is no ignorance there can be no sin" is, on this evidence, less a Christian import than a near-paraphrase of *tatra ko mohaḥ kaḥ śokaḥ*.
 
 ---
 
@@ -140,27 +145,27 @@ The contrast with the Vedic layer is exact. There, sin is an offence and the rem
 
 The Bhagavad-Gītā is where *pāpa* is most densely worked, and its logic is neither juridical punishment nor pardon but **accrual and dissolution**. Sin is something one *obtains* (*āpnoti*) or is *smeared by* (*lipyate*); disposition, not the outer deed, decides whether it attaches.
 
-> **Bhagavad-Gītā 2.38** — *…tato yuddhāya yujyasva naivaṃ pāpam avāpsyasi*
-> "Holding pleasure and pain, gain and loss, victory and defeat alike — then engage in battle; thus you will **not incur sin** (*pāpam avāpsyasi*)." — Even killing in battle, done in equanimity, generates no pāpa.
+> **Bhagavad-Gītā 2.38** — *sukha-duḥkhe same kṛtvā lābhālābhau jayājayau · tato yuddhāya yujyasva naivaṃ pāpam avāpsyasi*
+> "Having made pleasure and pain, gain and loss, victory and defeat the same, then engage in battle; thus you will **not incur sin** (*pāpam avāpsyasi*)." — Even killing in battle, done in equanimity, generates no pāpa.
 
-> **Bhagavad-Gītā 5.10** — *…lipyate na sa pāpena padma-patram ivāmbhasā*
-> "One who acts having placed his actions in Brahman, abandoning attachment, is **not smeared by sin** (*na lipyate pāpena*), as a **lotus-leaf** is not wetted by water." — Pāpa as an *adhesive* (√lip, "to smear") that non-attachment repels.
+> **Bhagavad-Gītā 5.10** — *brahmaṇy ādhāya karmāṇi saṅgaṃ tyaktvā karoti yaḥ · lipyate na sa pāpena padma-patram ivāmbhasā*
+> "One who, having placed his actions in Brahman and abandoned attachment, acts — he is **not smeared by sin** (*na lipyate pāpena*), as a **lotus-leaf** is not smeared by water." — Pāpa as an *adhesive* (√lip, "to smear") that non-attachment repels.
 
 On the **cause** of sin — and this is the verse that most directly answers Bhaskar's question of whether sin is chosen in full knowledge — Arjuna asks why a man sins *against his will*:
 
-> **Bhagavad-Gītā 3.36** — *atha kena prayukto 'yaṃ pāpaṃ carati pūruṣaḥ, anicchann api… balād iva niyojitaḥ*
-> "Impelled by what does a man **commit sin** (*pāpaṃ carati*) **even unwilling** (*anicchan api*), **as though constrained by force** (*balād iva*)?"
+> **Bhagavad-Gītā 3.36** — *atha kena prayukto 'yaṃ pāpaṃ carati pūruṣaḥ · anicchann api vārṣṇeya balād iva niyojitaḥ*
+> "Impelled by what does this man **commit sin** (*pāpaṃ carati*) **even unwilling** (*anicchan api*), O Vārṣṇeya, **as though constrained by force** (*balād iva niyojitaḥ*)?"
 
 > **Bhagavad-Gītā 3.37** — *kāma eṣa krodha eṣa rajo-guṇa-samudbhavaḥ, mahāśano mahā-pāpmā viddhy enam iha vairiṇam*
 > "It is **desire**, it is **anger** (*kāma… krodha*), born of *rajas* — all-devouring, **the great sinful one** (*mahā-pāpmā*); know it here to be the **enemy** (*vairin*)."
 
 Sin's root, in the Gītā's own words, is *kāma/krodha* operating *balād iva*, "as if by force" — compulsion, an internal enemy, not a sovereign choice. And the remedy is **knowledge** and **surrender**, which *dissolve* even the worst sin rather than punishing it:
 
-> **Bhagavad-Gītā 4.36–37** — *api ced asi pāpebhyaḥ sarvebhyaḥ pāpa-kṛt-tamaḥ, sarvaṃ jñāna-plavenaiva vṛjinaṃ santariṣyasi… jñānāgniḥ sarva-karmāṇi bhasma-sāt kurute*
-> "Even if you are **the most sinful of all sinners**, you will cross all wrong **by the boat of knowledge alone** (*jñāna-plavena*)… the **fire of knowledge** (*jñānāgni*) reduces all karmas **to ash** (*bhasma-sāt*)."
+> **Bhagavad-Gītā 4.36–37** — *api ced asi pāpebhyaḥ sarvebhyaḥ pāpa-kṛt-tamaḥ · sarvaṃ jñāna-plavenaiva vṛjinaṃ santariṣyasi · yathaidhāṃsi samiddho 'gnir bhasma-sāt kurute 'rjuna · jñānāgniḥ sarva-karmāṇi bhasma-sāt kurute tathā*
+> "Even if you are, of all sinners, **the most sinful of all** (*pāpa-kṛt-tamaḥ*), you will cross over all crookedness entirely **by the boat of knowledge alone** (*jñāna-plavena*). As a kindled fire reduces firewood to ashes, O Arjuna, so the **fire of knowledge** (*jñānāgni*) reduces all karmas **to ash** (*bhasma-sāt*)."
 
-> **Bhagavad-Gītā 9.30–31** — *api cet su-durācāro bhajate mām ananya-bhāk, sādhur eva sa mantavyaḥ… kṣipraṃ bhavati dharmātmā… na me bhaktaḥ praṇaśyati*
-> "Even a man of **very evil conduct** (*su-durācāra*), if he worships Me undividedly, is to be deemed **righteous** (*sādhu*)… **swiftly he becomes righteous**… My devotee **does not perish** (*na praṇaśyati*)."
+> **Bhagavad-Gītā 9.30–31** — *api cet su-durācāro bhajate mām ananya-bhāk · sādhur eva sa mantavyaḥ samyag vyavasito hi saḥ · kṣipraṃ bhavati dharmātmā śaśvac-chāntiṃ nigacchati · kaunteya pratijānīhi na me bhaktaḥ praṇaśyati*
+> "Even a man of **very evil conduct** (*su-durācāra*), if he worships Me with undivided devotion, is to be deemed **righteous** (*sādhu*), for he has rightly resolved. **Swiftly he becomes one whose self is righteous** (*dharmātmā*) and attains lasting peace; O son of Kuntī, know for certain — My devotee **does not perish** (*na praṇaśyati*)."
 
 And the culminating verse, the one both Bhaskar and the theistic commentators dwell on:
 
@@ -174,13 +179,18 @@ And the culminating verse, the one both Bhaskar and the theistic commentators dw
 **Bhagavad-Gītā 18.66.** "Having wholly abandoned all *dharmas*, come to Me alone as refuge; **I shall liberate you from all sins** (*sarva-pāpebhyo mokṣayiṣyāmi*) — do not grieve."
 :::
 
+And in the same text the two remedies are shown to be **one act**: out of compassion the Lord *gives* the very knowledge that destroys the darkness of ignorance — grace that operates as the bestowal of *jñāna*:
+
+> **Bhagavad-Gītā 10.10–11** — *teṣāṃ satata-yuktānāṃ bhajatāṃ prīti-pūrvakam · dadāmi buddhi-yogaṃ taṃ yena mām upayānti te · teṣām evānukampārtham aham ajñāna-jaṃ tamaḥ · nāśayāmy ātma-bhāva-stho jñāna-dīpena bhāsvatā*
+> "To those ever-steadfast ones who worship Me with love, **I give** (*dadāmi*) the **yoga of understanding** (*buddhi-yoga*) by which they come to Me. **Out of compassion for them alone** (*teṣām evānukampārtham*), dwelling within their own being, **I destroy the darkness born of ignorance** (*ajñāna-jaṃ tamaḥ*) **with the shining lamp of knowledge** (*jñāna-dīpena bhāsvatā*)." — Here grace (*anukampā*) and knowledge are not two remedies but one: the Lord's grace *is* the giving of the knowledge that dispels ignorance.
+
 Two related sin-terms round out the Gītā's vocabulary — *kilbiṣa* (taint) and *agha* (impurity):
 
 > **Bhagavad-Gītā 3.13** — *yajña-śiṣṭāśinaḥ santo mucyante sarva-kilbiṣaiḥ; bhuñjate te tv aghaṃ pāpā ye pacanty ātma-kāraṇāt*
 > "The good, who eat the remnant of sacrifice, are **freed from all taints** (*kilbiṣa*); but those **sinners** (*pāpāḥ*) who cook for their own sake eat **impurity** (*agha*)."
 
-> **Bhagavad-Gītā 4.21** — *…śārīraṃ kevalaṃ karma kurvan nāpnoti kilbiṣam*
-> "Performing action with the body alone, desireless and dispossessed, he **incurs no taint** (*na āpnoti kilbiṣam*)."
+> **Bhagavad-Gītā 4.21** — *nirāśīr yata-cittātmā tyakta-sarva-parigrahaḥ · śārīraṃ kevalaṃ karma kurvan nāpnoti kilbiṣam*
+> "Free of longing, with mind and self restrained, having relinquished all possessions, performing action with the body alone, he **incurs no taint** (*na āpnoti kilbiṣam*)."
 
 The Gītā, then, gives Bhaskar a great deal: sin is *compelled by kāma* (ignorance-driven), it is *dissolved by jñāna*, and it is *removed by the Lord's act of liberation* (18.66) — grace, not effort, not pardon-after-punishment. What it does *not* give is a forensic ledger of guilt; pāpa is an accretion that the right disposition simply never picks up.
 
@@ -213,8 +223,8 @@ This is Bhaskar's argument — *where there is sin, ignorance is near; remove th
 
 Patañjali makes *avidyā* the first of five *kleśas* (afflictions) and the **ground** in which the others grow:
 
-> **Yoga-sūtra 2.3–2.5** — *avidyāsmitā-rāga-dveṣābhiniveśāḥ kleśāḥ. avidyā kṣetram uttareṣāṃ… anityāśuci-duḥkhānātmasu nitya-śuci-sukhātma-khyātir avidyā.*
-> "The afflictions are **ignorance, egoism, attachment, aversion, and clinging-to-life**. **Ignorance is the field** (*kṣetram*) of the others… Ignorance is taking the non-eternal for eternal, the impure for pure, the painful for pleasant, the not-Self for the Self."
+> **Yoga-sūtra 2.3–2.5** — *avidyāsmitā-rāga-dveṣābhiniveśāḥ kleśāḥ · avidyā kṣetram uttareṣāṃ prasupta-tanu-vicchinnodārāṇām · anityāśuci-duḥkhānātmasu nitya-śuci-sukhātma-khyātir avidyā.*
+> "The afflictions are **ignorance, egoism, attachment, aversion, and clinging-to-life**. **Ignorance is the field** (*kṣetram*) of the subsequent ones, whether they be dormant, attenuated, intercepted, or fully active. Ignorance is taking the non-eternal for eternal, the impure for pure, the painful for pleasant, the not-Self for the Self."
 
 Vyāsa's *Yoga-bhāṣya* on 2.15 names *avidyā* explicitly as the *seed of the whole mass of suffering*, and frames the entire system on the **medical** model — diagnosis, cause, cure — not the juridical one:
 
@@ -234,8 +244,8 @@ The reading so far could make Hinduism sound as if it has *only* the "ignorance"
 > **Manu-smṛti 11.54** — *brahmahatyā surāpānaṃ steyaṃ gurvaṅganāgamaḥ; mahānti pātakāny āhuḥ saṃsargaś cāpi taiḥ saha*
 > "Slaying a Brahmin, drinking liquor, theft, violating the guru's wife — these they call the **great sins** (*mahā-pātaka*); and also **association** with those who do them."
 
-> **Manu-smṛti 11.66** — *…strī-śūdra-viṭ-kṣatra-vadho nāstikyaṃ copapātakam*
-> "Theft of grain, metals, cattle… killing a woman, a Śūdra, a Vaiśya, a Kṣatriya; and **disbelief** (*nāstikya*) — these are **minor sins** (*upapātaka*)."
+> **Manu-smṛti 11.66** — *dhānya-kupya-paśu-steyaṃ madyapa-strī-niṣevaṇam · strī-śūdra-viṭ-kṣatra-vadho nāstikyaṃ copapātakam*
+> "Theft of grain, base metals, or cattle; consorting with a woman who drinks; killing a woman, a Śūdra, a Vaiśya, or a Kṣatriya; and **disbelief** (*nāstikya*) — these are **minor sins** (*upapātaka*)."
 
 Sin here is a discrete, classified **act**, with consequences that are anything but illusory — a special "torment-body" and graded hells:
 
@@ -269,8 +279,8 @@ The compound is precise: *akṛtya-karaṇa* (sins of **commission**) **and** *k
 
 If sin brings real suffering and hell, the Christian-sounding question follows: is the God who ordains this *unjust*? The Brahma-sūtra raises exactly this and answers it — not by appeal to inscrutable will, but by **karma and beginninglessness**:
 
-> **Brahma-sūtra 2.1.34–36** — *vaiṣamya-nairghṛṇye na sāpekṣatvāt… na karmāvibhāgād iti cen nānāditvāt…*
-> "**Partiality and cruelty** (*vaiṣamya-nairghṛṇye*) do **not** (attach to God), **because He is dependent** (on the souls' own karma)… and (if you object that before creation there was no karma to depend on) **no — because it is beginningless** (*anāditvāt*)."
+> **Brahma-sūtra 2.1.34–36** — *vaiṣamya-nairghṛṇye na sāpekṣatvāt tathā hi darśayati · na karmāvibhāgād iti cen nānāditvād upapadyate cāpy upalabhyate ca · sarva-dharmopapatteś ca*
+> "**Partiality and cruelty** (*vaiṣamya-nairghṛṇye*) do **not** (attach to God), **because He is dependent** (on the souls' own karma) — for so (scripture) shows. If you object that before creation there was no division of karma (on which to depend), **no — because (the world-process) is beginningless** (*anāditvāt*); it is reasonable, and it is also observed (to be so). And (this is established) **because all the properties** (of the beginningless cause) **are accounted for**."
 
 Śaṅkara's gloss makes the image concrete — God is like rain:
 
@@ -303,8 +313,8 @@ But the same Vivekananda does **not** dissolve moral seriousness. In Karma-Yoga 
 
 And in Bengali, the register is the same — moral failure as *durbalatā* (weakness) and *kāpuruṣatā* (cowardice), to be cast off, in the closing exhortation of *Bartaman Bhārat* (Udbodhan, 1899):
 
-> *…ei dāsasulabha durbalatā… He Gaurīnātha, He Jagadambe, āmāy manuṣyatva dāo; Mā, āmār durbalatā kāpuruṣatā dūr kara, āmāy mānuṣa kara.*
-> "…this **slavish weakness** (*dāsasulabha durbalatā*)… O Lord of Gaurī, O Mother of the world, **give me manhood**; Mother, **remove my weakness and cowardice** (*durbalatā, kāpuruṣatā*), make me a man."
+> *He Bhārata, ei parānubāda, parānukaraṇa, paramukhāpekṣā, ei dāsasulabha durbalatā, ei ghṛṇita jaghanya niṣṭhuratā — eimātra sambale tumi uccādhikāra lābha karibe? […] He Gaurīnātha, He Jagadambe, āmāy manuṣyatva dāo; Mā, āmār durbalatā kāpuruṣatā dūr kara, āmāy mānuṣa kara.*
+> "O India, with this borrowing-from-others, this imitation-of-others, this dependence-on-others' faces, this **slavish weakness** (*dāsasulabha durbalatā*), this despicable, abominable cruelty — with only this as your provision, will you attain high station? […] O Lord of Gaurī, O Mother of the world, **give me manhood**; Mother, **remove my weakness and cowardice** (*durbalatā, kāpuruṣatā*), make me a man." (The bracketed gap omits intervening lines of the original exhortation.)
 
 So Vivekananda's position is sharper than Bhaskar's framing allows: he does not deny wrongdoing or its seriousness — he **relocates** its name. What Christianity calls "sin," he calls *weakness/error*, and he treats the *label* "sinner," applied to the Self, as the deepest error of all. This is precisely a quarrel over whether *pāpa* is essence or condition — Bhaskar's own *hamartia*/*hamartēma* question, fought on the word "sinner."
 
@@ -344,8 +354,8 @@ The Mother (Mirra Alfassa) spoke largely in French; the French originals are giv
 
 On her own consciousness, she denies the categories of sinner/virtuous entirely:
 
-> **Mother's Agenda, vol. 3 (9 January 1962, French)** — *"Jamais — jamais l'idée qu'on est vertueux ou l'idée qu'on est un pécheur — jamais, jamais. […] C'est faire la vraie chose ou ne pas faire la vraie chose. C'est tout."*
-> "**Never — never the idea that one is virtuous, or that one is a sinner** — never, never. […] It is **doing the true thing or not doing the true thing**. That is all."
+> **Mother's Agenda, vol. 3 (9 January 1962, French)** — *"Jamais — jamais l'idée qu'on est vertueux ou l'idée qu'on est un pécheur — jamais, jamais. […] C'est faire la vraie chose ou ne pas faire la vraie chose. C'est tout. Pas que l'on est vertueux, pécheur — rien, rien de tout ça !"*
+> "**Never — never the idea that one is virtuous, or that one is a sinner** — never, never. […] It is **doing the true thing or not doing the true thing**. That is all. Not that one is virtuous, a sinner — nothing, nothing of all that!" (The bracketed gap is the published transcript's own elision, not a truncation here.)
 
 In her notes to disciples, "sin" is denied of the Divine outright, while "mistake" is retained — but answered by recognition, not punishment:
 
@@ -357,11 +367,11 @@ And on the relation of justice, grace, and fault — directly Bhaskar's territor
 
 Her French *Prayers and Meditations* render "fault" (*faute*) as a *failing against an order of beauty/truth*, effaced by surrender:
 
-> **Prières et Méditations (10 October 1918, French)** — *"…il n'y a plus d'erreurs, de fautes, de manques, d'insuffisance possibles, puisque ce que Tu as voulu, Tu le fais…"*
-> "…there are **no longer any errors, faults, lacks, or insufficiency possible**, since what Thou hast willed, Thou doest."
+> **Prières et Méditations (10 October 1918, French)** — *"Car il suffit d'être docile, plastique, soumis, attentif, afin de Te permettre d'agir librement ; il n'y a plus d'erreurs, de fautes, de manques, d'insuffisance possibles, puisque ce que Tu as voulu, Tu le fais et Tu le fais tel que Tu l'as voulu."*
+> "For it is enough to be docile, plastic, surrendered, attentive, so as to allow Thee to act freely; there are **no longer any errors, faults, lacks, or insufficiency possible**, since what Thou hast willed, Thou doest — and Thou doest it just as Thou hast willed it."
 
-> **Prières et Méditations (29 January 1917, French)** — *"…que de fautes j'ai commises contre Toi… Donne-moi la parfaite compréhension de Ta Loi afin que je n'y faillisse plus."*
-> "…how many **faults** (*fautes*) I have committed against Thee… Give me the **perfect understanding of Thy Law** so that I may **no longer fail** in it."
+> **Prières et Méditations (29 January 1917, French)** — *"Dans le monde des formes un manquement à la Beauté est une faute aussi grande qu'un manquement à la Vérité dans le monde des idées. Ô Seigneur de Beauté, que de fautes j'ai commises contre Toi ; que de fautes je commets encore… Donne-moi la parfaite compréhension de Ta Loi afin que je n'y faillisse plus."*
+> "In the world of forms, a failing in Beauty is as great a **fault** (*faute*) as a failing in Truth in the world of ideas. O Lord of Beauty, how many **faults** (*fautes*) I have committed against Thee; how many faults I still commit… Give me the **perfect understanding of Thy Law** so that I may **no longer fail** in it."
 
 The one thing she does forbid is the posture Bhaskar's "neurotic shame" warns against — **discouragement**:
 
@@ -387,15 +397,23 @@ A neutral summary, so the differences are visible side by side. Each row is what
 | **Sri Aurobindo** | Evil/falsehood are "**creations of the Ignorance and Inconscience**," not rooted in the Real | A self-limiting Ignorance; "the sombre flowers… root in the black soil of the Inconscient" | A wrong movement of the lower Nature, not a guilt | "**Not a question of pardon or punishment**" — the past is effaced by inner change; sin is **outgrown / transformed** | **Divine** in becoming; the "sense of sin" belongs to "the religious, not the yogic mentality" |
 | **The Mother** | "**For the Supreme Lord, sin does not exist**"; only *la vraie chose* (the true thing) done or not done | Imperfection / unconsciousness to be transformed | A "mistake," not a guilt — "a mistake recognised is a mistake pardoned" | **Grace** "alone… changes the course of Universal Justice" and effaces faults | **Divine**: the one real fault is **discouragement**, not sin |
 
-**What actually divides the positions — and what doesn't.** It is tempting to sort them into "sin is real" versus "sin is only ignorance," but that is not where the line falls: *every* position gathered here treats sin — *pāpa*, whether as act or as condition — as **real**. They differ on two narrower questions. First, *what kind of thing sin is, and how it is undone.* One strand (the Vedic Varuṇa hymns, Manu, Mīmāṃsā, Rāmānuja) treats it as a weighty act or debt, removed by expiation, punishment, or the Lord's grace; the other (the Upaniṣads, Nyāya, Yoga, Śaṅkara) treats it as a stain or condition rooted in *avidyā*, dissolved by knowledge. Second, *whether removal is by effort or by grace* — most of the voices that speak of *removal* (Gītā 18.66, Rāmānuja, the Mother, the Varuṇa *mṛḷa*) make it an act of **grace**, even where, as in Nyāya/Yoga, the operative cure is knowledge.
+The comparison comes down to a few plain points:
 
-What the sources do **not** divide on is the **label "sinner"** as a name for the Self. None gathered here make sinfulness the truth of what a person *is*. The *jñāna* texts ground this in the Self that is *apahata-pāpman* ("untouched by evil") and *na lipyate* ("not stained"); the modern voices say it outright — Vivekananda ("it is a sin to call a man so"; the disease is **weakness**, not wickedness), Aurobindo (the "sense of sin" belongs to "the religious, not the yogic mentality"), the Mother ("for the Supreme Lord, sin does not exist"). Even the theistic schools, which keep sin most fully real and weighty, locate the soul's truth in its dependence on God — the eternal *śeṣa*, the accessory-servant — and treat their language of contrition (*dainya*) as humility *before* God, not as the claim that "sinner" is one's essence. So the through-line is the pairing the whole dossier keeps turning up: **sin taken seriously, "sinner" declined as an identity.** Whether that refusal is a strength of the traditions or, as Bhaskar argues, something they should reconsider — and whether the modern case that the "sinner"-identity is really a name for *weakness* meets his case for its "truth and merit" — the dossier leaves to the reader.
+- **There is always a notion of sin.** Every position reckons with sin — *pāpa* — as a real fault to be overcome, not an illusion to shrug off (some prefer to call it *error* or *weakness*), pictured variously as an act, a debt, a stain, or a condition.
+
+- **Sin is broadly tied to a privation of awareness.** The Veda already traces *enas* to *acittī*, "un-consciousness" (RV 7.86.6, 7.89.5); the Gītā has *kāma* and *krodha* compel sin "as if by force" (3.36–37); the Upaniṣads, Nyāya, and Yoga name the root *avidyā* / *mithyā-jñāna* (Kaṭha 1.2.5; Nyāya-sūtra 1.1.2; Yoga-sūtra 2.3–5).
+
+- **"Grace" and "knowledge" are not rival remedies.** In the unitive strands both name one event — the dispelling of ignorance. The Lord, "out of compassion," *gives* "the lamp of knowledge" that destroys it (Gītā 10.10–11), and the saving knowledge is itself *given to the one the Self chooses* (Kaṭha 1.2.23 = Muṇḍaka 3.2.3).
+
+- **The real divergence is over "sinner."** Every tradition keeps a notion of *sin*; what the *jñāna* texts and the modern voices decline is **"sinner"** as a name for the Self — grounded in the Self that is *apahata-pāpman* and *na lipyate*, and stated plainly by Vivekananda ("weakness," not wickedness), Aurobindo (the "sense of sin" is "religious, not yogic"), and the Mother ("for the Supreme Lord, sin does not exist"). Even the theistic schools, which keep sin fully weighty, locate the soul's truth in dependence on God — *śeṣatva*, *dainya* before Him — not in sinfulness.
+
+This is where the comparison meets Bhaskar's essay, which finds "truth and merit in recognizing oneself as a sinner": on *sin* the traditions agree more than the popular framing allows; on *sinner* they part. The cross-cultural contrast is just that — one tradition makes "sinner" a name to own before a personal God, the other a description to be seen through.
 
 ---
 
 ## Method, sources, and confidence
 
-- **Primary texts, original language.** Sanskrit from the Ṛgveda (Varuṇa hymns 7.86, 7.89), Bṛhadāraṇyaka, Chāndogya, Kaṭha, and Īśā Upaniṣads, the Bhagavad-Gītā, Manu-smṛti, the Nyāya-sūtra with Vātsyāyana's *Bhāṣya*, the Yoga-sūtra with Vyāsa's *Bhāṣya*, the Brahma-sūtra with Śaṅkara's *Bhāṣya*, and Rāmānuja's *Gītā-bhāṣya*. Vivekananda from the *Complete Works* (English) and *Bartaman Bhārat* (Bengali). Sri Aurobindo from *The Life Divine*, *Essays on the Gita*, and *Letters on Yoga* (English originals). The Mother from *Mother's Agenda*, *Words of the Mother*, and *Prières et Méditations* (French originals).
+- **Primary texts, original language.** Sanskrit from the Ṛgveda (Varuṇa hymns 7.86, 7.89), Bṛhadāraṇyaka, Chāndogya, Kaṭha, Muṇḍaka, and Īśā Upaniṣads, the Bhagavad-Gītā (incl. 10.10–11 as carried in Rāmānuja's *Gītā-bhāṣya*), Manu-smṛti, the Nyāya-sūtra with Vātsyāyana's *Bhāṣya*, the Yoga-sūtra with Vyāsa's *Bhāṣya*, the Brahma-sūtra with Śaṅkara's *Bhāṣya*, and Rāmānuja's *Gītā-bhāṣya*. Vivekananda from the *Complete Works* (English) and *Bartaman Bhārat* (Bengali). Sri Aurobindo from *The Life Divine*, *Essays on the Gita*, and *Letters on Yoga* (English originals). The Mother from *Mother's Agenda*, *Words of the Mother*, and *Prières et Méditations* (French originals).
 - **Translations** are my own, made deliberately literal, with grammatical force (case, voice, compound type) preserved where English allows. For the **Ṛgveda** specifically, the renderings are made in the Aurobindonian interpretive register — following Sri Aurobindo's reading of Varuṇa as the keeper of the wide Truth (*ṛta*) and the SAKSI / R. L. Kashyap *Rig Veda Saṃhita, Maṇḍala 7* — translated afresh from the Sanskrit rather than after the standard ritualistic (Griffith/Wilson) reading; no other translator's wording is reproduced.
 - **Etymologies** follow the attested grammatical/lexical tradition (Uṇādi-sūtras, Pāṇini, Monier-Williams, Apte). Where a derivation is disputed (e.g. *prāyaścitta*, *daṇḍa*) or popular-but-unattested (the √pat etymology of *pāpa*), this is stated.
 - **Verification.** The Sanskrit, Vivekananda, Aurobindo, and Mother citations were each checked against a primary-source text. Two items are flagged as tradition-wide formulations rather than single verbatim lines: the Mīmāṃsā maxim *akaraṇe pratyavāyaḥ*, and the Manu hell-enumerations (cited by chapter). Everything else was located verbatim at the stated locus.
