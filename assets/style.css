@@ -371,8 +371,6 @@ body.is-space-pan .timeline-scroller * { cursor: grab !important; }
   border-bottom: 1px solid var(--hairline);
   z-index: 7;
   pointer-events: none;
-  /* Bound paint/layout invalidation to the strip itself. */
-  contain: layout paint;
 }
 .era-label {
   position: absolute;
