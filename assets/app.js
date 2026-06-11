@@ -1535,16 +1535,47 @@ function isPanelMobile() {
   return window.matchMedia("(max-width: 720px)").matches;
 }
 
+// ---- detail-panel width (drag-to-resize) ----
+// User-chosen panel width in px, or null to use the CSS default. It is applied
+// as an inline `grid-template-columns` override on #stage only while the panel
+// is OPEN, and cleared on close so the panel column collapses (an inline value
+// would otherwise outrank the closed-state stylesheet and pin the panel open).
+let detailPaneWidthPx = (() => {
+  try {
+    const v = parseFloat(localStorage.getItem("dp-width-px"));
+    return Number.isFinite(v) && v > 0 ? v : null;
+  } catch (_) { return null; }
+})();
+
+function clampPaneWidth(px) {
+  const min = 360;
+  const max = Math.max(min, window.innerWidth - 120); // keep a sliver of canvas
+  return Math.min(max, Math.max(min, px));
+}
+
+// minmax(0,1fr) lets the timeline column shrink so the panel can grow.
+function applyDetailPaneWidth() {
+  if (!stage) return;
+  stage.style.gridTemplateColumns =
+    detailPaneWidthPx == null ? "" : `minmax(0,1fr) ${clampPaneWidth(detailPaneWidthPx)}px`;
+}
+
+function clearDetailPaneWidth() {
+  if (stage) stage.style.gridTemplateColumns = "";
+}
+
 function openPanel(tab) {
   panelState.open = true;
   document.body.classList.add("is-detail-open");
   detailPane.setAttribute("aria-hidden", "false");
+  applyDetailPaneWidth();
   if (tab) setPanelTab(tab);
 }
 
 function closePanel() {
   panelState.open = false;
   document.body.classList.remove("is-detail-open");
+  clearDetailPaneWidth();
   detailPane.setAttribute("aria-hidden", "true");
   state.activeId = null;
   document.querySelectorAll(".thinker-dot").forEach((d) => d.classList.remove("is-active"));
@@ -4442,28 +4473,6 @@ function wireDetailPaneResize() {
     detailPane.insertBefore(handle, detailPane.firstChild);
   }
 
-  const stageEl = document.getElementById("stage");
-  function applyWidth(px) {
-    const vw = window.innerWidth;
-    const min = 360;
-    // Reserve only a thin sliver of canvas so the panel can be dragged
-    // nearly full-width for wide-format reading.
-    const max = Math.max(min, vw - 120);
-    const clamped = Math.min(max, Math.max(min, px));
-    // Force the grid columns directly on the stage element. Setting only the
-    // CSS custom property was not reliably resizing the panel; an inline
-    // grid-template-columns on .stage overrides the stylesheet outright.
-    // minmax(0,1fr) lets the timeline column shrink so the panel can grow.
-    if (stageEl) stageEl.style.gridTemplateColumns = "minmax(0,1fr) " + clamped + "px";
-    document.body.style.setProperty("--pane-w-detail", clamped + "px");
-    return clamped;
-  }
-
-  try {
-    const saved = parseFloat(localStorage.getItem("dp-width-px"));
-    if (Number.isFinite(saved) && saved > 0) applyWidth(saved);
-  } catch (_) {}
-
   // Drag wiring uses window-level mouse/touch listeners (added only while
   // dragging). This is more robust than pointer-capture, which proved
   // unreliable here — the handle would highlight but never resize.
@@ -4476,22 +4485,19 @@ function wireDetailPaneResize() {
       : (e.touches && e.touches[0] ? e.touches[0].clientX
         : (e.changedTouches && e.changedTouches[0] ? e.changedTouches[0].clientX : 0)));
 
-  // rAF-throttle the grid reflow. Each mousemove updates a target width but
-  // the costly `grid-template-columns` write (which reflows the full-width
-  // timeline grid column) runs at most once per animation frame. On Gecko this
-  // turns a per-event reflow storm (~60% dropped frames) into one reflow/frame.
-  let pendingWidth = null;
+  // rAF-throttle the grid reflow: each mousemove records a target width, but the
+  // costly grid-template-columns write (which reflows the full-width timeline
+  // column) runs at most once per animation frame. On Gecko this turns a
+  // per-event reflow storm (~60% dropped frames) into one reflow per frame.
   let resizeRaf = 0;
   function flushWidth() {
     resizeRaf = 0;
-    if (pendingWidth == null) return;
-    applyWidth(pendingWidth);
-    pendingWidth = null;
+    applyDetailPaneWidth();
   }
   function onMove(e) {
     if (!dragging) return;
     // Pane grows to the LEFT as the handle moves left.
-    pendingWidth = startW + (startX - coordX(e));
+    detailPaneWidthPx = clampPaneWidth(startW + (startX - coordX(e)));
     if (!resizeRaf) resizeRaf = requestAnimationFrame(flushWidth);
     if (e.cancelable) e.preventDefault();
   }
@@ -4499,7 +4505,7 @@ function wireDetailPaneResize() {
     if (!dragging) return;
     dragging = false;
     if (resizeRaf) { cancelAnimationFrame(resizeRaf); resizeRaf = 0; }
-    if (pendingWidth != null) { applyWidth(pendingWidth); pendingWidth = null; }
+    applyDetailPaneWidth();
     handle.classList.remove("is-dragging");
     document.body.classList.remove("is-resizing-pane");
     window.removeEventListener("mousemove", onMove);
@@ -4507,8 +4513,7 @@ function wireDetailPaneResize() {
     window.removeEventListener("touchmove", onMove);
     window.removeEventListener("touchend", onUp);
     window.removeEventListener("touchcancel", onUp);
-    const w = detailPane.getBoundingClientRect().width;
-    try { localStorage.setItem("dp-width-px", String(Math.round(w))); } catch (_) {}
+    try { localStorage.setItem("dp-width-px", String(Math.round(detailPaneWidthPx))); } catch (_) {}
   }
   function onDown(e) {
     dragging = true;
@@ -4527,9 +4532,10 @@ function wireDetailPaneResize() {
   handle.addEventListener("mousedown", onDown);
   handle.addEventListener("touchstart", onDown, { passive: false });
 
+  // Re-clamp the chosen width to the new viewport (the panel is only sized
+  // while open; closed, the stylesheet governs the collapsed column).
   window.addEventListener("resize", () => {
-    const cur = parseFloat(getComputedStyle(detailPane).width);
-    if (Number.isFinite(cur)) applyWidth(cur);
+    if (panelState.open) applyDetailPaneWidth();
   });
 }
 
