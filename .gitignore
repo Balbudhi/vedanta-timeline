@@ -11,3 +11,4 @@ node_modules/
 # site; this symlink is for local dev only.
 /materials
 .dns-backup/
+sin_research/
