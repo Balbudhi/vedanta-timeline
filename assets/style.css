@@ -362,11 +362,17 @@ body.is-space-pan .timeline-scroller * { cursor: grab !important; }
   position: sticky;
   top: 0;
   height: var(--era-strip-h);
-  background: var(--label-bg);
-  backdrop-filter: blur(4px);
+  /* Opaque fill (no live backdrop-filter). The strip spans the full canvas
+     width; a sticky `backdrop-filter: blur()` forced Gecko/WebKit to
+     re-rasterize the entire blurred backdrop on every pan frame, blowing the
+     tile budget and flashing blank tiles. The label-bg was already 92% opaque,
+     so a fully-opaque fill is visually equivalent at a fraction of the cost. */
+  background: var(--bg);
   border-bottom: 1px solid var(--hairline);
   z-index: 7;
   pointer-events: none;
+  /* Bound paint/layout invalidation to the strip itself. */
+  contain: layout paint;
 }
 .era-label {
   position: absolute;

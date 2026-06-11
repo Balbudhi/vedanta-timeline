@@ -1270,7 +1270,10 @@ function wirePanZoom() {
       const newTx = cursorScreenX - screenBase - cxAnchor * newSx;
       zoomVisualSx = newSx;
       zoomTx = newTx;
-      canvas.style.transform = `translateX(${newTx}px) scaleX(${newSx})`;
+      // translateZ(0) forces the canvas onto its own composited layer so
+      // Gecko/WebKit treat the per-frame scaleX as a cheap matrix update
+      // instead of re-rasterizing the multi-thousand-px layer each frame.
+      canvas.style.transform = `translate3d(${newTx}px,0,0) scaleX(${newSx})`;
     });
   }
   // Folds the visual scale into pxPerYear, re-runs layout, restores scroll.
@@ -1286,6 +1289,7 @@ function wirePanZoom() {
     canvas.style.transform = "";
     canvas.style.transformOrigin = "";
     canvas.style.willChange = "";
+    canvas.style.backfaceVisibility = "";
     zoomActive = false;
     if (newPpy !== state.pxPerYear) {
       state.pxPerYear = newPpy;
@@ -1309,6 +1313,7 @@ function wirePanZoom() {
     zoomRailOffset = state.viewMode === "network" ? 0 : LANE_RAIL_W;
     canvas.style.transformOrigin = "0 0";
     canvas.style.willChange = "transform";
+    canvas.style.backfaceVisibility = "hidden";
   }
 
   scroller.addEventListener("wheel", (e) => {
@@ -4471,15 +4476,30 @@ function wireDetailPaneResize() {
       : (e.touches && e.touches[0] ? e.touches[0].clientX
         : (e.changedTouches && e.changedTouches[0] ? e.changedTouches[0].clientX : 0)));
 
+  // rAF-throttle the grid reflow. Each mousemove updates a target width but
+  // the costly `grid-template-columns` write (which reflows the full-width
+  // timeline grid column) runs at most once per animation frame. On Gecko this
+  // turns a per-event reflow storm (~60% dropped frames) into one reflow/frame.
+  let pendingWidth = null;
+  let resizeRaf = 0;
+  function flushWidth() {
+    resizeRaf = 0;
+    if (pendingWidth == null) return;
+    applyWidth(pendingWidth);
+    pendingWidth = null;
+  }
   function onMove(e) {
     if (!dragging) return;
     // Pane grows to the LEFT as the handle moves left.
-    applyWidth(startW + (startX - coordX(e)));
+    pendingWidth = startW + (startX - coordX(e));
+    if (!resizeRaf) resizeRaf = requestAnimationFrame(flushWidth);
     if (e.cancelable) e.preventDefault();
   }
   function onUp() {
     if (!dragging) return;
     dragging = false;
+    if (resizeRaf) { cancelAnimationFrame(resizeRaf); resizeRaf = 0; }
+    if (pendingWidth != null) { applyWidth(pendingWidth); pendingWidth = null; }
     handle.classList.remove("is-dragging");
     document.body.classList.remove("is-resizing-pane");
     window.removeEventListener("mousemove", onMove);
