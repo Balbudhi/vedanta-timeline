@@ -1,5 +1,6 @@
 window.GITA_AUDIO = {
   "src": "recitation.mp3",
+  "reciter": "Anurādhā Paudwal",
   "attribution": "Anurādhā Paudwal · Bhagavad-Gītā ch. 2 (archive.org)",
   "verses": [
     {

@@ -154,56 +154,71 @@ html[data-theme="dark"] .gita-rail-link.is-active { border-left-color: #d8c074; 
 .vchip.is-active .vdot { opacity: 1; }
 
 /* ---------- recitation bar ---------- */
-/* Lives in normal flow at the top of the reading (just under the voice
-   chooser). Sticks to the top of its scroll context in BOTH modes: standalone
-   it pins under the sticky toolbar; embedded it pins to the top of the
-   article pane. No viewport-fixed positioning, so the app shell is untouched. */
+/* The last element in the reading flow, sticky to the BOTTOM of the scroll
+   context in BOTH modes — thumb-reachable on a phone. Standalone it pins to the
+   bottom of the viewport; embedded it pins to the bottom of the article pane.
+   No viewport-fixed positioning, so the app shell is untouched. */
 .recite-bar {
-  position: sticky; top: 0; z-index: 30;
-  display: flex; align-items: center; gap: 10px;
-  margin: 0 0 18px; padding: 8px 12px;
+  --recite-fill: #b8740f;
+  position: sticky; bottom: 12px; z-index: 30;
+  display: flex; flex-direction: column; gap: 8px;
+  margin: 24px 0 0; padding: 10px 14px;
   background: var(--bg-warm);
-  border: 1px solid var(--rule); border-radius: 12px;
+  border: 1px solid var(--rule); border-radius: 14px;
+  box-shadow: 0 6px 22px -10px rgba(0,0,0,.28);
   font-family: var(--sans);
 }
-.gita-col .recite-bar { top: 64px; }   /* standalone: clear the sticky voice toolbar */
-.gita-reader .recite-bar { top: 0; }   /* embedded: top of the article pane */
+[data-theme="dark"] .recite-bar { --recite-fill: #e0a43a; }
 
-.rb-play, .rb-all {
+.rb-track-row { display: flex; align-items: center; gap: 10px; }
+.rb-controls { display: flex; align-items: center; gap: 10px; }
+
+.rb-play, .rb-skip {
   flex: none; font-family: var(--sans); cursor: pointer;
   border: 1px solid var(--rule); background: var(--bg); color: var(--ink);
   border-radius: 999px; transition: border-color .15s, background .15s;
 }
-.rb-play { width: 34px; height: 34px; display: grid; place-items: center; padding: 0; }
-.rb-play:hover, .rb-all:hover { border-color: var(--muted-soft); background: var(--bg-warmer); }
+.rb-play { width: 40px; height: 40px; display: grid; place-items: center; padding: 0; }
+.rb-play:hover, .rb-skip:hover { border-color: var(--muted-soft); background: var(--bg-warmer); }
 .rb-icon { width: 0; height: 0; border-style: solid;
-  border-width: 7px 0 7px 11px; border-color: transparent transparent transparent currentColor;
+  border-width: 8px 0 8px 13px; border-color: transparent transparent transparent currentColor;
   margin-left: 2px; }
 .rb-play.is-playing .rb-icon {
-  width: 10px; height: 12px; border: none; margin: 0;
-  border-left: 3.5px solid currentColor; border-right: 3.5px solid currentColor;
+  width: 11px; height: 13px; border: none; margin: 0;
+  border-left: 4px solid currentColor; border-right: 4px solid currentColor;
 }
-.rb-all { font-size: 12px; padding: 6px 12px; white-space: nowrap; }
+/* skip ±15s */
+.rb-skip {
+  height: 36px; padding: 0 11px; color: var(--muted);
+  display: inline-flex; align-items: center; gap: 1px;
+}
+.rb-skip-chev { font-size: 13px; line-height: 1; letter-spacing: -2px; }
+.rb-skip-n { font-size: 11px; font-weight: 700; font-variant-numeric: tabular-nums; }
 
 .rb-progress {
-  --track-h: 5px;
-  position: relative; flex: 1 1 auto; min-width: 60px; height: 18px;
+  --track-h: 6px;
+  position: relative; flex: 1 1 auto; min-width: 60px; height: 20px;
   display: flex; align-items: center; cursor: pointer; touch-action: none;
 }
-.rb-progress::after {                    /* track */
+.rb-progress::after {                    /* unplayed track */
   content: ""; position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%);
-  height: var(--track-h); border-radius: 999px; background: var(--rule); pointer-events: none;
+  height: var(--track-h); border-radius: 999px; background: var(--rule-warm); pointer-events: none;
 }
-.rb-bar {
+.rb-bar {                                /* played portion — warm fill */
   position: absolute; left: 0; top: 50%; transform: translateY(-50%);
   height: var(--track-h); width: 0; border-radius: 999px;
-  background: var(--ink-soft); pointer-events: none;
+  background: var(--recite-fill); pointer-events: none; z-index: 1;
+}
+.rb-bar::after {                         /* playhead knob */
+  content: ""; position: absolute; right: -6px; top: 50%; transform: translate(0, -50%);
+  width: 12px; height: 12px; border-radius: 50%;
+  background: var(--recite-fill); box-shadow: 0 0 0 2px var(--bg-warm);
 }
 .rb-progress:focus-visible { outline: 2px solid var(--muted-soft); outline-offset: 2px; border-radius: 4px; }
 
 .rb-time { flex: none; font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
-.rb-attrib {
-  flex: 0 1 auto; min-width: 0; font-size: 11px; color: var(--muted-soft);
+.rb-reciter {
+  flex: 0 1 auto; min-width: 0; margin-left: auto; font-size: 12px; color: var(--ink-soft);
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
 

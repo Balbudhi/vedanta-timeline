@@ -227,14 +227,20 @@ function fmtTime(s) {
 function renderRecitationBar() {
   if (!hasAudio()) return "";
   const attrib = esc(window.GITA_AUDIO.attribution || "");
+  const reciter = esc(window.GITA_AUDIO.reciter || window.GITA_AUDIO.attribution || "");
   return `<div class="recite-bar" id="reciteBar">
-    <button class="rb-play" id="rbPlay" type="button" aria-label="Play" title="Play / pause (space)"><span class="rb-icon" aria-hidden="true"></span></button>
-    <button class="rb-all" id="rbAll" type="button" title="Play the whole passage from 2.54">Play all 2.54&ndash;72</button>
-    <div class="rb-progress" id="rbProgress" role="slider" aria-label="Seek" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
-      <div class="rb-bar" id="rbBar"></div>
+    <div class="rb-track-row">
+      <div class="rb-progress" id="rbProgress" role="slider" aria-label="Seek" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <div class="rb-bar" id="rbBar"></div>
+      </div>
+      <span class="rb-time" id="rbTime">0:00&thinsp;/&thinsp;0:00</span>
     </div>
-    <span class="rb-time" id="rbTime">0:00&thinsp;/&thinsp;0:00</span>
-    ${attrib ? `<span class="rb-attrib" title="${attrib}">${attrib}</span>` : ""}
+    <div class="rb-controls">
+      <button class="rb-skip" id="rbBack" type="button" aria-label="Back 15 seconds" title="Back 15 seconds"><span class="rb-skip-chev" aria-hidden="true">‹‹</span><span class="rb-skip-n">15</span></button>
+      <button class="rb-play" id="rbPlay" type="button" aria-label="Play" title="Play / pause (space)"><span class="rb-icon" aria-hidden="true"></span></button>
+      <button class="rb-skip" id="rbFwd" type="button" aria-label="Forward 15 seconds" title="Forward 15 seconds"><span class="rb-skip-n">15</span><span class="rb-skip-chev" aria-hidden="true">››</span></button>
+      ${reciter ? `<span class="rb-reciter" title="${attrib}">${reciter}</span>` : ""}
+    </div>
   </div>`;
 }
 
@@ -290,11 +296,13 @@ function render(root, opts) {
   const bar = renderVoiceBar();
   const recite = renderRecitationBar();
   const versesHtml = VERSES.map(v => renderVerse(v, BYVERSE[v.locus] || {})).join("");
-  // Standalone: voice chooser lives in its slot; the recitation bar sits just
-  // under it, at the top of the reading column. Embedded: both live in flow at
-  // the top of .gita-reader (no fixed positioning, so the app pane is unaffected).
-  if (opts.voicebarSlot) { opts.voicebarSlot.innerHTML = bar; root.innerHTML = recite + versesHtml; }
-  else { root.innerHTML = `<div class="gita-reader">${bar}${recite}${versesHtml}</div>`; }
+  // Standalone: voice chooser lives in its slot; the recitation bar is the last
+  // element in the reading column so it sticks to the bottom of the viewport
+  // (thumb-reachable on a phone). Embedded: voicebar at top, recite bar last in
+  // flow, sticky to the bottom of the article pane (no viewport-fixed
+  // positioning, so the app shell is unaffected).
+  if (opts.voicebarSlot) { opts.voicebarSlot.innerHTML = bar; root.innerHTML = versesHtml + recite; }
+  else { root.innerHTML = `<div class="gita-reader">${bar}${versesHtml}${recite}</div>`; }
 
   wireWords();
   wireVoiceBar();
@@ -487,7 +495,8 @@ function wireRecitation() {
   const bar   = ROOT.querySelector("#reciteBar") || document.getElementById("reciteBar");
   if (!bar) return;
   const playBtn = bar.querySelector("#rbPlay");
-  const allBtn  = bar.querySelector("#rbAll");
+  const backBtn = bar.querySelector("#rbBack");
+  const fwdBtn  = bar.querySelector("#rbFwd");
   const progEl  = bar.querySelector("#rbProgress");
   const barEl   = bar.querySelector("#rbBar");
   const timeEl  = bar.querySelector("#rbTime");
@@ -508,19 +517,20 @@ function wireRecitation() {
     timeEl.innerHTML = `${fmtTime(audio.currentTime)} / ${fmtTime(dur)}`;
   };
 
-  const playFrom = (start, limit) => {
-    segLimit = (limit != null) ? limit : null;
-    if (start != null) audio.currentTime = start;
-    audio.play().catch(() => {});
-  };
-
+  // Single play/pause: always resumes from where playback last stopped. Clears
+  // any per-verse limit so pressing play after a one-verse clip keeps going.
   playBtn.addEventListener("click", () => {
     if (audio.paused) { segLimit = null; audio.play().catch(() => {}); }
     else audio.pause();
   });
-  allBtn.addEventListener("click", () => {
-    playFrom(window.GITA_AUDIO.verses[0].start, null);
-  });
+  const skip = (delta) => {
+    const dur = total(); if (!dur) return;
+    segLimit = null;
+    audio.currentTime = Math.max(0, Math.min(dur, audio.currentTime + delta));
+    paint();
+  };
+  backBtn.addEventListener("click", () => skip(-15));
+  fwdBtn.addEventListener("click", () => skip(15));
 
   audio.addEventListener("play",  () => { playBtn.classList.add("is-playing");    playBtn.setAttribute("aria-label", "Pause"); bar.classList.add("is-playing"); });
   audio.addEventListener("pause", () => { playBtn.classList.remove("is-playing"); playBtn.setAttribute("aria-label", "Play");  bar.classList.remove("is-playing"); });
