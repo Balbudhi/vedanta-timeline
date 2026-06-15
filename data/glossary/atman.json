@@ -407,6 +407,46 @@
       "citations": []
     }
   ],
+  "textual_history": {
+    "summary": "The word *ātman* travels from a physical to a metaphysical sense, and the two ends are joined by a genuine semantic continuity rather than by an abrupt jump. The Sanskrit lexeme is connected with a root meaning 'breath' (cf. Greek *atmos* 'vapour'), and the oldest Ṛgvedic uses sit close to that sense: the wind is the *ātman* (breath) that animates, the sun is called 'the ātman of all that moves and stands' (RV 1.115.1), and at death the *ātman* goes to the wind (RV 10.16.3). Already in the Ṛgveda, then, *ātman* names the animating breath-principle and, by extension, the innermost essence of a thing. The Upaniṣads interiorise and deepen this: *ātman* becomes the strict referent of 'I', the self that is sought and that, once found, is identified with brahman — the self 'to be seen, heard, reflected on, contemplated' (Bṛhadāraṇyaka 2.4.5), the self pursued through Prajāpati's long instruction (Chāndogya 8.7ff), the self lodged in the heart and 'smaller than the small' (Kaṭha). The *Bhagavad-Gītā* then deploys *ātman* in two registers at once: the indestructible embodied self, the *dehin* that no weapon cuts (ch. 2), and, in compounds and reflexives, the Self to be governed and known. Unlike *brahman*, whose Ṛgvedic sense (the sacred formula) is semantically distant from its Upaniṣadic sense, *ātman* shows a traceable widening — breath, animating essence, innermost self, the Self that is brahman — so the developmental arc here is closer to genealogy than to mere resonance. Where a link is interpretive rather than textual it is flagged below; note that Aurobindo's *Secret of the Veda*, our Vedic-imagery lens, dwells on the cosmic gods and the Word rather than on *ātman* as such, so it is not pressed into service here.",
+    "stages": [
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 1.115.1 and RV 10.16.3 (Aufrecht ed.; saved at data/sources/sanskrit/vedic/rigveda_aufrecht_gretil.txt)",
+        "sanskrit": "citraṁ devānām ud agād anīkaṁ cakṣur mitrasya varuṇasyāgneḥ | āprā dyāvāpṛthivī antarikṣaṁ sūrya ātmā jagatas tasthuṣaś ca || (RV 10.16.3) sūryaṁ cakṣur gacchatu vātam ātmā dyāṁ ca gaccha pṛthivīṁ ca dharmaṇā",
+        "rendering": "The bright front of the gods has risen, the eye of Mitra, Varuṇa, and Agni; the Sun has filled heaven, earth, and the mid-air — the Sun, the self/breath (ātmā) of all that moves and stands. || (RV 10.16.3, the funeral hymn) Let your eye go to the Sun, your breath/self (ātmā) to the wind; go to heaven and to earth by [the] law, or go to the waters if you are settled there.",
+        "note": "The earliest pole, and it is physical: *ātman* is the animating breath-principle. In 1.115.1 the Sun is the *ātman* — the life-breath and innermost essence — 'of all that moves and stands'; in the funeral hymn 10.16.3 the dead person's *ātman* is dispersed to the wind (vāta), the breath returning to the cosmic breath. Cf. RV 7.87.2, *ātmā te vāto* ('the wind is your breath/self'). The sense 'breath → animating essence → innermost self' is already latent here; the later 'self' meaning grows out of it by continuous extension, not by rupture."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Bṛhadāraṇyaka 2.4.5 (= GRETIL BrhUp 2,4.5; saved at data/sources/sanskrit/vedic/brhadaranyaka_upanisad_gretil.txt)",
+        "sanskrit": "na vā are sarvasya kāmāya sarvaṃ priyaṃ bhavaty ātmanas tu kāmāya sarvaṃ priyaṃ bhavati | ātmā vā are draṣṭavyaḥ śrotavyo mantavyo nididhyāsitavyo maitreyi | ātmano vā are darśanena śravaṇena matyā vijñānenedaṃ sarvaṃ viditam",
+        "rendering": "Not for the sake of all, truly, is all dear, but for the sake of the self (ātman) is all dear. The self, truly, is to be seen, to be heard, to be reflected on, to be contemplated, Maitreyī. By the seeing, the hearing, the reflecting, the understanding of the self, all this is known.",
+        "note": "Here *ātman* is fully interiorised: it is the strict referent of 'I', the one thing for whose sake all else is loved, and the proper object of the contemplative discipline (*śravaṇa-manana-nididhyāsana*) that later Vedānta builds its method on. The breath-sense has receded; what remains is the self as the innermost reality whose knowledge is the knowledge of all. The same chapter's *ahaṃ brahmāsmi* (BṛU 1.4.10) makes this self identical with brahman — the hinge on which the *ātman*=*brahman* equation turns (see the brahman entry's textual_history for the converse)."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Chāndogya 8.7.1 (= GRETIL ChUp 8,7.1; saved at data/sources/sanskrit/vedic/chandogya_upanisad_gretil.txt)",
+        "sanskrit": "ya ātmā apahatapāpmā vijaro vimṛtyur viśoko vijighatso 'pipāsaḥ satyakāmaḥ satyasaṃkalpaḥ so 'nveṣṭavyaḥ sa vijijñāsitavyaḥ | sa sarvāṃś ca lokān āpnoti sarvāṃś ca kāmān yas tam ātmānam anuvidya vijānātīti ha prajāpatir uvāca",
+        "rendering": "The self (ātman) that is free of evil, ageless, deathless, sorrowless, without hunger or thirst, whose desire is the real, whose resolve is the real — that is to be sought out, that is to be inquired into. He attains all worlds and all desires who, having found out that self, knows it — thus spoke Prajāpati.",
+        "note": "The opening of the long 'search for the self' (Chāndogya 8.7–8.12): Prajāpati's teaching to Indra and Virocana, where the *ātman* is progressively distinguished from the bodily reflection, the dream-self, and the deep-sleep self, until the true self — the unconditioned witness — is reached. This is the canonical Upaniṣadic *analysis* of the self by exclusion (a method the tradition formalises as the three-state inquiry and *neti neti*), the inquiry-side counterpart to the bare identity-statements."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Kaṭha 1.2.20 (= GRETIL KaU 2.20; saved at data/sources/sanskrit/vedic/kathopanisad_gretil.txt)",
+        "sanskrit": "aṇor aṇīyān mahato mahīyān ātmāsya jantor nihito guhāyām | tam akratuḥ paśyati vītaśoko dhātuprasādān mahimānam ātmanaḥ",
+        "rendering": "Smaller than the small, greater than the great, the self (ātman) of this creature is set down in the secret place (guhā). One free of [self-]will, free of sorrow, beholds it — the greatness of the self — by the grace/clarity of the ordainer [or: of the faculties].",
+        "note": "The Kaṭha locates the *ātman* in the heart's 'secret place' (guhā) — the same hidden interior where the Ṛgveda lodges the fire and the Taittirīya lodges brahman — and gives it the paradoxical measure 'smaller than the small, greater than the great' (aṇor aṇīyān). The thumb-sized inner self recurs at Kaṭha 2.1.12–13 and 2.3.17. The breath of the Ṛgveda has become the deathless self in the heart; the imagery of the hidden interior is the thread that runs through all three eras."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.20 and 2.23 (verbatim from the embedded Gītā verses in data/sources/sanskrit/vedanta/shankara_gita_bhasya.txt)",
+        "sanskrit": "na jāyate mriyate vā kadācin nāyaṃ bhūtvā bhavitā vā na bhūyaḥ | ajo nityaḥ śāśvato 'yaṃ purāṇo na hanyate hanyamāne śarīre || (2.23) nainaṃ chindanti śastrāṇi nainaṃ dahati pāvakaḥ",
+        "rendering": "It is never born, nor does it die; nor, having been, will it again cease to be. Unborn, eternal, everlasting, ancient, it is not slain when the body is slain. || (2.23) Weapons do not cut it, fire does not burn it.",
+        "note": "The *Gītā*'s second chapter develops *ātman* as the indestructible embodied self, the *dehin* ('the embodied one', 2.13) that puts on and casts off bodies as a person changes garments (2.22) and that no element can harm (2.23–24). Alongside this metaphysical self the *Gītā* uses *ātman* in an ordinary reflexive and empirical register too — 'raise the self by the self' (6.5), 'the self is the friend of the self' (6.5–6) — so the same word carries both the empirical self to be disciplined and the Self that is unborn. The two-fold use is the *Gītā*'s, not a confusion; the translator must let context fix which is meant (see translator_note)."
+      }
+    ]
+  },
   "see_also": [
     "jiva",
     "brahman",

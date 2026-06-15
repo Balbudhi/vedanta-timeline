@@ -65,6 +65,60 @@
       "register_tag": "M+S; bhakta (yoga as disciplined path to the Lord)"
     }
   ],
+  "textual_history": {
+    "summary": "The career of *yoga* is the interiorization of a concrete Vedic act: the *yoking* of horses to a chariot. In the Ṛgveda √yuj is overwhelmingly literal — gods and seers harness steeds (*harī*) before the chariot moves (RV 1.6.1–2) — but already in the same Saṃhitā the verb turns inward in the Sāvitrī hymn, where the inspired seers 'yoke the mind and yoke the thoughts' (*yuñjate mana uta yuñjate dhiyaḥ*, RV 5.81.1). The Upaniṣads make the chariot a sustained allegory of the embodied self (Kaṭha 1.3.3–9 = kau_3.3–9: body the chariot, intellect the charioteer, mind the reins, senses the horses) and there the word *yoga* first names a contemplative discipline — 'the steady holding-back of the senses' (*sthirām indriyadhāraṇām*) which 'they regard as yoga' (Kaṭha 2.3.10–11 = kau_6.10–11). The Śvetāśvatara gives the first connected description of yogic praxis — posture, breath-restraint, the mind held like a chariot 'yoked with vicious horses' (*duṣṭāśva-yuktam iva vāham*, ŚvetUp 2.8–13). Two later crystallizations diverge sharply though both keep the root: Patañjali defines yoga as the *stilling* of mental activity (*yogaś citta-vṛtti-nirodhaḥ*, YS 1.2), an eightfold technology toward *kaivalya*; the *Gītā* by contrast defines it as equanimity (*samatvaṃ yoga ucyate*, 2.48) and as 'skill in action' (*yogaḥ karmasu kauśalam*, 2.50), yoking action itself rather than arresting the mind. The arc from literal harnessing to the *Gītā*'s and Patañjali's senses is partly genealogical (the Kaṭha/Śvetāśvatara chariot imagery is an explicit textual development) and partly resonance: the Veda's horse-yoking is the live metaphor the later technical senses all draw on, not a doctrine they cite.",
+    "stages": [
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 1.6.1–2 (Aufrecht/Saṃhitā numbering)",
+        "sanskrit": "yuñjanti bradhnam aruṣaṁ carantam pari tasthuṣaḥ | rocante rocanā divi || yuñjanty asya kāmyā harī vipakṣasā rathe | śoṇā dhṛṣṇū nṛvāhasā",
+        "rendering": "They yoke the ruddy, tawny one who moves about the standing things; the lights shine in heaven. || They yoke his two beloved bays to the chariot on either side, the red, the bold, the man-bearing.",
+        "note": "The root sense, fully concrete: *yuñjanti*, 'they yoke', the harnessing of Indra's bay steeds (*harī*) before the chariot rolls. This is the literal pole — *yoga* as the action-noun of √yuj, cognate with English 'yoke' — from which every later technical sense is drawn."
+      },
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 5.81.1 (the Sāvitrī hymn, Aufrecht ed.)",
+        "sanskrit": "yuñjate mana uta yuñjate dhiyo viprā viprasya bṛhato vipaścitaḥ | vi hotrā dadhe vayunāvid eka in mahī devasya savituḥ pariṣṭutiḥ",
+        "rendering": "The inspired ones yoke the mind, and they yoke the thoughts — the inspired [seers] of the inspired, vast, far-perceiving [god]. Knowing the ways, he alone has ordained the offerings: great is the praise of the god Savitṛ.",
+        "note": "Within the Saṃhitā itself the verb of harnessing is already turned inward: it is now *mind* and *thoughts* (*manas*, *dhiyaḥ*) that are yoked. Aurobindo translates this very ṛc — 'Men illumined yoke their mind and they yoke their thoughts' — and comments that 'this yoking (yuñjate) becomes their Yoga' (Aurobindo, *The Secret of the Veda*). His is a reading, not a philological proof of a continuous doctrine; but the verse plainly shows the metaphorical use of √yuj for a disciplining of the inner faculties present at the earliest layer."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Kaṭha 1.3.3–6 (= GRETIL kau_3.3–6)",
+        "sanskrit": "ātmānaṃ rathinaṃ viddhi śarīraṃ ratham eva tu | buddhiṃ tu sārathiṃ viddhi manaḥ pragraham eva ca || indriyāṇi hayān āhur viṣayāṃs teṣu gocarān | … | yas tv avijñānavān bhavaty ayuktena manasā sadā | tasyendriyāṇy avaśyāni duṣṭāśvā iva sāratheḥ",
+        "rendering": "Know the self as the rider in the chariot, the body as the chariot itself; know the intellect (buddhi) as the charioteer and the mind as the reins. The senses they call the horses, the sense-objects their range. … He who is without understanding, his mind ever unyoked (ayukta), his senses are unruly, like the vicious horses of a charioteer.",
+        "note": "The Vedic chariot-and-horses becomes a worked allegory of the embodied self, and the yoking-vocabulary (*yukta*/*ayukta*) is moralised: the disciplined person has his sense-horses under rein, the undisciplined (*ayukta*) does not. This is the conceptual bridge between the literal harnessing of RV and the inner discipline that the next verse names *yoga*; note the *Gītā* will reuse *yukta*/*ayukta* in exactly this sense (2.66)."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Kaṭha 2.3.10–11 (= GRETIL kau_6.10–11)",
+        "sanskrit": "yadā pañcāvatiṣṭhante jñānāni manasā saha | buddhiś ca na viceṣṭati tām āhuḥ paramāṃ gatim || tāṃ yogam iti manyante sthirām indriyadhāraṇām | apramattas tadā bhavati yogo hi prabhavāpyayau",
+        "rendering": "When the five knowledges (the senses) stand still together with the mind, and the intellect does not stir — that they call the highest course. || That they regard as yoga: the steady holding of the senses. Then one becomes undistracted; for yoga is the arising and the passing away [it both comes and goes / is the origin and the dissolution].",
+        "note": "The first occurrence of the noun *yoga* in the sense of a contemplative discipline: 'the steady holding of the senses' (*sthirām indriyadhāraṇām*), the senses and mind brought to stillness. The figure of the held-back horse from the chariot allegory is now stated as a defined practice. The closing phrase *yogo hi prabhavāpyayau* is read variously ('yoga is unstable, coming and going' vs. 'yoga is [the means to] the origin and dissolution'); we render literally and flag the ambiguity."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Śvetāśvatara 2.8–9 (= GRETIL SvetUp_2.8–9)",
+        "sanskrit": "trirunnataṃ sthāpya samaṃ śarīraṃ hṛdīndriyāṇi manasā saṃniveśya | brahmoḍupena pratareta vidvān srotāṃsi sarvāṇi bhayāvahāni || prāṇān prapīḍyeha sa yuktaceṣṭaḥ kṣīne prāṇe nāsikayocchvasīta | duṣṭāśvayuktam iva vāham enaṃ vidvān mano dhārayetāpramattaḥ",
+        "rendering": "Holding the body even, with the three [upper parts: chest, neck, head] erect, drawing the senses with the mind into the heart, the knower should cross over all the fearful currents by the raft of Brahman. || Compressing the breaths here, his movements yoked (yukta-ceṣṭa), let him breathe out through the nostrils when the breath is diminished; like a chariot yoked with vicious horses (duṣṭāśva-yuktam iva vāham), let the knower, undistracted, hold the mind.",
+        "note": "The earliest connected description of yogic technique — erect posture, breath-restraint, withdrawal of the senses into the heart. The simile *duṣṭāśva-yuktam iva vāham* ('like a chariot yoked with vicious horses') is the same image as Kaṭha 1.3.5's *duṣṭāśvāḥ*, now turned to the practitioner holding his own mind: the harness-metaphor of √yuj come full circle as conscious self-yoking. (ŚvetUp 2.11–13 add the visionary lights and first signs of yoga; we excerpt the technique-core.)"
+      },
+      {
+        "era": "Yoga-sūtra",
+        "locus": "Yoga-sūtra 1.2–3 (with 2.29 for the eight limbs)",
+        "sanskrit": "yogaś cittavṛttinirodhaḥ || tadā draṣṭuḥ svarūpe 'vasthānam || … || yamaniyamāsanaprāṇāyāmapratyāhāradhāraṇādhyānasamādhayo 'ṣṭāv aṅgāni",
+        "rendering": "Yoga is the stilling (nirodha) of the modifications (vṛtti) of the mind-stuff (citta). Then the seer abides in its own form. … Restraint, observance, posture, breath-regulation, withdrawal, concentration, meditation, and absorption are the eight limbs.",
+        "note": "Patañjali fixes one technical sense as primary: yoga is the *cessation* of mental activity, the eightfold (*aṣṭāṅga*) discipline whose terminus is *kaivalya*, the isolation of *puruṣa*. The Upaniṣadic 'steady holding of the senses' (Kaṭha 2.3.11) is recognisably the ancestor of this *nirodha*, and *dhāraṇā* survives as a limb — but the goal here is isolation, not union. This is the meaning that makes 'union' a mistranslation of Pātañjala yoga."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.48 and 2.50 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "yogasthaḥ kuru karmāṇi saṅgaṃ tyaktvā dhanaṃjaya | siddhy-asiddhyoḥ samo bhūtvā samatvaṃ yoga ucyate || … || buddhi-yukto jahātīha ubhe sukṛta-duṣkṛte | tasmād yogāya yujyasva yogaḥ karmasu kauśalam",
+        "rendering": "Established in yoga, do your works, abandoning attachment, Dhanaṃjaya, having become the same in success and failure — evenness (samatva) is what is called yoga. … || The one yoked-in-intellect (buddhi-yukta) leaves behind here both good and evil deeds; therefore yoke yourself to yoga: yoga is skill in works (yogaḥ karmasu kauśalam).",
+        "note": "The *Gītā* gives its own definitions, distinct from Patañjali's: yoga is *samatva*, the equanimity of one acting without attachment to results, and *karmasu kauśalam*, 'skill in action'. Here the root √yuj is yoked back onto *action itself* (*yogāya yujyasva*, 'yoke yourself to yoga'; *buddhi-yukta*, 'yoked in intellect') rather than to the arrest of the mind. The *Gītā*'s *karma-yoga* and *buddhi-yoga* are thus a genuine divergence from the Pātañjala *nirodha*, both legitimate descendants of the same root."
+      }
+    ]
+  },
   "see_also": [
     "niskama-karma",
     "samadhi",

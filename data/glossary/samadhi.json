@@ -61,6 +61,46 @@
       "register_tag": "M+S; mumukṣu (samādhi as steadiness of buddhi)"
     }
   ],
+  "textual_history": {
+    "summary": "*Samādhi* (sam- 'together' + ā- 'toward' + √dhā 'to place') means literally a 'placing-together' — a gathering of the scattered faculties. Unlike *yoga* and *dharma*, the noun has no prominent Vedic Saṃhitā career in the technical sense; its philosophical life begins when the Upaniṣadic vocabulary of the *collected* and *quieted* mind (the senses brought to stillness, the intellect not stirring) is given a name. The Kaṭha already describes the state — 'when the five senses stand still together with the mind, and the intellect does not stir' (Kaṭha 2.3.10) — without yet using the word. Patañjali then makes *samādhi* a precise term: the eighth and culminating limb of *aṣṭāṅga-yoga* (YS 2.29), in which 'the object alone shines forth, as if emptied of [the act's] own form' (YS 3.3), graded into *samprajñāta* (object-bearing, cognitive) and *asamprajñāta* (objectless, with only latent impressions remaining) (YS 1.17–18). The *Gītā*, roughly contemporary, uses the word more loosely for the *steadied intellect* — the *buddhi* grown immovable (2.53, *samādhāv acalā buddhiḥ*), the equanimous mind no longer scattered by competing sense-pulls (2.44). The later Advaita appropriation (*savikalpa*/*nirvikalpa samādhi*) and its dispute over whether objectless absorption is identical with, or merely auxiliary to, liberating knowledge belongs to the post-classical commentarial period and is treated in the per-school material, not here. The development is largely genealogical for the technical sense (Upaniṣadic stilled mind → Pātañjala eighth limb) and a parallel, looser usage in the *Gītā*; we mark the Yoga-vs-Advaita reading divergence without adjudicating it.",
+    "stages": [
+      {
+        "era": "Upaniṣads",
+        "locus": "Kaṭha 2.3.10 (= GRETIL kau_6.10)",
+        "sanskrit": "yadā pañcāvatiṣṭhante jñānāni manasā saha | buddhiś ca na viceṣṭati tām āhuḥ paramāṃ gatim",
+        "rendering": "When the five knowledges (the senses) stand still together with the mind, and the intellect (buddhi) does not stir — that they call the highest course.",
+        "note": "The state later named *samādhi* is described before the word is technicalised: the senses and mind brought to a standstill, the intellect grown still. The verb *avatiṣṭhante* ('stand still together') is itself close to the sense of *sam-ā-√dhā*, a placing-together of the faculties. This is the conceptual seed; the Upaniṣad here calls the result *yoga* (next verse, 2.3.11), not yet *samādhi*."
+      },
+      {
+        "era": "Yoga-sūtra",
+        "locus": "Yoga-sūtra 3.1–3 (the triad dhāraṇā–dhyāna–samādhi)",
+        "sanskrit": "deśabandhaś cittasya dhāraṇā || tatra pratyayaikatānatā dhyānam || tad evārthamātranirbhāsaṃ svarūpaśūnyam iva samādhiḥ",
+        "rendering": "The binding of the mind-stuff to a place is concentration (dhāraṇā). The one-pointed flow of a single notion there is meditation (dhyāna). That same [meditation], shining forth as the object alone, as if emptied of its own form, is absorption (samādhi).",
+        "note": "Patañjali's structural definition: *samādhi* is the consummation of the inner triad — concentration deepening into meditation, meditation into an absorption so complete that the cognising act's own form 'as it were' drops away and only the object shines (*arthamātra-nirbhāsa*). The three together form *saṃyama* (YS 3.4). This is the technical sense the Upaniṣadic 'stilled mind' has now become."
+      },
+      {
+        "era": "Yoga-sūtra",
+        "locus": "Yoga-sūtra 1.17–18 (saṃprajñāta and asaṃprajñāta)",
+        "sanskrit": "vitarkavicārānandāsmitārūpānugamāt saṃprajñātaḥ || virāmapratyayābhyāsapūrvaḥ saṃskāraśeṣo 'nyaḥ",
+        "rendering": "[Absorption] is 'with-cognition' (saṃprajñāta) when accompanied by [the forms of] reasoning, reflection, bliss, and I-am-ness. || The other [absorption], preceded by the practice of the notion of cessation, has [only] latent impressions remaining.",
+        "note": "The internal analysis: *samprajñāta* absorption still bears cognitive content (reasoning, reflection, bliss, the sense of 'I am'); *asamprajñāta* (here 'the other', *anyaḥ*) is what remains when even that ceases, leaving only the *saṃskāras* — the latent impressions. This grading is Patañjali's distinctive contribution and the proximate technology toward *kaivalya*; the *Gītā*'s usage knows nothing so articulated."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.44 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "bhogaiśvarya-prasaktānāṃ tayāpahṛta-cetasām | vyavasāyātmikā buddhiḥ samādhau na vidhīyate",
+        "rendering": "For those attached to enjoyment and lordship, whose minds are carried off by that [flowery speech], the resolute intellect (vyavasāyātmikā buddhiḥ) is not established in samādhi.",
+        "note": "The *Gītā*'s first use, and already non-technical: *samādhi* is not a graded absorptive state but the condition of the *settled, resolute intellect* — and those distracted by pleasure and power cannot fix the *buddhi* there. The accent falls on single-minded steadiness against scattering, not on Patañjali's object-emptied shining."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.53 (verbatim from Śaṅkara's Gītā-Bhāṣya; cf. 2.54)",
+        "sanskrit": "śruti-vipratipannā te yadā sthāsyati niścalā | samādhāv acalā buddhis tadā yogam avāpsyasi",
+        "rendering": "When your intellect, [now] bewildered by what is heard [of the Vedas], shall stand unmoving, motionless in samādhi — then you will attain yoga.",
+        "note": "*Samādhi* here is glossed by Śaṅkara as the self/mind in which the intellect is gathered — 'samādhīyate cittam asmin iti samādhiḥ', 'that in which the mind is placed-together is samādhi' — and the goal is the *unmoving buddhi*. The accent is again steadiness, feeding the *Gītā*'s identification of yoga with equanimity (2.48). (Our verbatim source, the on-disk Śaṅkara Gītā-Bhāṣya, prints the OCR error 'avāpsyasyi' for the verse's 'avāpsyasi' and 'vipratinnā/pratinnā' in the gloss for 'vipratipannā/pratipannā'; we print the standard readings and flag the source slips.)"
+      }
+    ]
+  },
   "see_also": [
     "yoga",
     "buddhi",

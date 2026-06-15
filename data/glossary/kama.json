@@ -71,6 +71,46 @@
       "register_tag": "Φ+S; reflective reader (kāma-taṇhā as origin of suffering)"
     }
   ],
+  "textual_history": {
+    "summary": "The career of *kāma* runs from cosmogony to soteriology. Its most famous early attestation is the Nāsadīya hymn (Ṛgveda 10.129.4), where, before manifestation, *kāma* arises as the first stirring of the One — 'the first seed of mind' (*manaso retaḥ prathamam*): desire as the primal impulse by which the existent is drawn out of the non-existent. Here *kāma* is not yet a fault but a creative principle. In the Bṛhadāraṇyaka Upaniṣad the term turns inward and soteriological: the person 'full of desire' (*kāmayamāna*) is the one bound to act and so reborn, while the desireless — *akāma*, *niṣkāma*, *āptakāma*, *ātmakāma* — is said to be Brahman already and to reach Brahman (4.4.6), and the cutting of all the desires lodged in the heart is made the very hinge of becoming immortal (4.4.7). The *Bhagavad-Gītā* completes the shift to a moral-psychological diagnosis: brooding on objects breeds attachment, attachment breeds *kāma*, and *kāma* (thwarted) breeds anger (2.62); *kāma* with *krodha* is named the enemy, sprung from *rajas*, all-devouring (3.37), seated in the senses, mind, and intellect, by which it veils knowledge (3.40), and to be slain (3.43). The arc is a genuine genealogy, not mere resonance: the same word names the cosmic seed, the binding craving of the reborn, and the foe to be conquered, with the Upaniṣadic *akāma/niṣkāma* lying directly behind the *Gītā*'s *niṣkāma* ideal.",
+    "stages": [
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 10.129.4 (Nāsadīya-sūkta; Aufrecht ed.)",
+        "sanskrit": "kāmas tad agre sam avartatādhi manaso retaḥ prathamaṁ yad āsīt | sato bandhum asati nir avindan hṛdi pratīṣyā kavayo manīṣā",
+        "rendering": "Desire (kāma) in the beginning came over That — it which was the first seed of mind. Searching with the heart, the seers found by their wisdom the bond of the existent in the non-existent.",
+        "note": "The earliest pole: *kāma* as the primal cosmogonic impulse, the first movement of the One toward manifestation, 'the first seed of mind' (manaso retaḥ prathamam). Here desire is a creative, not a binding, principle. (Our on-disk Aufrecht text reads 'samavartatādhi'; some editions read 'samavartatāgre'. We print the verbatim on-disk reading.) Aurobindo renders the verse: 'It first moved in it as desire which was the first seed of mind' (Aurobindo, The Secret of the Veda, on the Hymn of Creation, X.129) — a reading offered as his interpretation of the subconscient origin, not a philological proof."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Bṛhadāraṇyaka Upaniṣad 4.4.6 (Kāṇva; GRETIL BrhUp_4,4.6)",
+        "sanskrit": "tad eva saktaḥ saha karmaṇaiti liṅgaṃ mano yatra niṣaktam asya | … iti nu kāmayamānaḥ | athākāmayamāno yo 'kāmo niṣkāma āptakāma ātmakāmo na tasya prāṇā utkrāmanti | brahmaiva san brahmāpyeti",
+        "rendering": "To that very thing he goes attached, together with his work, to which his subtle self, his mind, is fastened. … so much for the one who desires (kāmayamāna). But of the one who does not desire — who is without desire, free of desire, whose desire is fulfilled, whose desire is the Self — the breaths do not depart: being Brahman already, he goes to Brahman.",
+        "note": "The decisive inward turn. The *kāmayamāna* ('the one desiring') is bound by his work and reborn; the *akāma / niṣkāma / āptakāma / ātmakāma* is Brahman already. This Upaniṣadic contrast lies directly behind the *Gītā*'s *niṣkāma* ideal — desire as the very mechanism of rebirth, desirelessness as liberation."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Bṛhadāraṇyaka Upaniṣad 4.4.7 (Kāṇva; GRETIL BrhUp_4,4.7); the first hemistich is verbatim identical to Kaṭha 2.3.14 (kau_6.14)",
+        "sanskrit": "yadā sarve pramucyante kāmā ye 'sya hṛdi śritāḥ | atha martyo 'mṛto bhavaty atra brahma samaśnuta iti",
+        "rendering": "When all the desires lodged in his heart are released, then the mortal becomes immortal; here he reaches Brahman.",
+        "note": "The release of *kāma* is made the very condition of immortality. That this verse is shared word-for-word with Kaṭha 6.14 (kau_6.14) shows the formula was a fixed Upaniṣadic locus binding the loosing-of-desire to *amṛtatva*; it is also the bridge between the *kāma* arc and the *mokṣa* arc."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.62 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "dhyāyato viṣayān puṃsaḥ saṅgas teṣūpajāyate | saṅgāt saṃjāyate kāmaḥ kāmāt krodho 'bhijāyate",
+        "rendering": "When a man dwells on the objects of sense, attachment to them is born; from attachment desire (kāma) is born; from desire, anger arises.",
+        "note": "The *Gītā*'s causal psychology of bondage: brooding → attachment → *kāma* → *krodha*. Desire here is the pivot of a chain that ends in delusion and the ruin of discernment (2.63), the mechanism the disciplined knower must break."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 3.37 (verbatim from Śaṅkara's Gītā-Bhāṣya); cf. 3.40, 3.43",
+        "sanskrit": "kāma eṣa krodha eṣa rajo-guṇa-samudbhavaḥ | mahāśano mahā-pāpmā viddhy enam iha vairiṇam",
+        "rendering": "This is desire (kāma), this is anger, born of the rajas-quality — all-devouring, greatly sinful: know this to be the enemy here.",
+        "note": "Desire is named outright the enemy (vairin), sprung from *rajas*. The *Gītā* then localises it: 'the senses, the mind, and the intellect are said to be its seat; through these it veils knowledge and deludes the embodied one' (3.40, indriyāṇi mano buddhir asyādhiṣṭhānam ucyate), and finally commands that it be slain — 'slay the enemy in the form of desire, hard to assail' (3.43, jahi śatruṃ … kāma-rūpaṃ durāsadam). This is the terminus of the arc: the cosmogonic seed has become the foe to be conquered."
+      }
+    ]
+  },
   "see_also": [
     "krodha",
     "raga",

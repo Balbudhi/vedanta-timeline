@@ -373,6 +373,46 @@
       "citations": []
     }
   ],
+  "textual_history": {
+    "summary": "The career of *brahman* runs from a concrete ritual term to the name of the Absolute, and the jump is real. In the Ṛgveda *bráhman* (neuter, from √bṛh 'to swell, make grow') is the sacred formula, the inspired chant or mantra, the soul-power of the uttered Word that swells the gods and the sacrifice — something the poet *fashions* as a craftsman fashions a chariot (RV 5.29.15). Aurobindo, reading the Veda for its inner sense, glosses the word exactly so: 'Brahman in the Veda signifies ordinarily the Vedic Word or mantra in its profoundest aspect as the expression of the intuition arising out of the depths of the soul or being' (Aurobindo, *The Secret of the Veda*); his is an interpretive lens, but it tracks the plain ritual usage of *bráhman* as the formula-power. By the late-Vedic and Upaniṣadic period the term has migrated to the unconditioned reality itself — that from which beings arise, by which they live, into which they return (Taittirīya 3.1.1), defined as 'the real, knowledge, the infinite' (Taittirīya 2.1.1), and declared in the great identity-sentences to be all this (Chāndogya 3.14.1) and one's own self (Chāndogya 6.8.7; Bṛhadāraṇyaka 1.4.10). The *Bhagavad-Gītā* inherits this absolute sense, naming *brahman* the imperishable and the state one 'becomes' (8.3; 14.27). The connective tissue between the two poles is partly genealogical (the same word, carried by the same priestly-Upaniṣadic transmission) and partly a matter of how the tradition itself read its inheritance: the Upaniṣads do not gloss their *brahman* by quoting the Ṛgvedic formula, so the move from 'formula' to 'Absolute' is a documented semantic shift, not a chain of explicit citation. Where the link is resonance rather than textual genealogy, that is marked in the notes below.",
+    "stages": [
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 5.29.15 (Aufrecht ed.; saved at data/sources/sanskrit/vedic/rigveda_aufrecht_gretil.txt)",
+        "sanskrit": "indra brahma kriyamāṇā juṣasva yā te śaviṣṭha navyā akarma | vastreva bhadrā sukṛtā vasūyū rathaṁ na dhīraḥ svapā atakṣam",
+        "rendering": "Indra, take delight in the sacred formulae (brahma) being made — the new ones we have made for you, mightiest. Like fair, well-wrought garments, desiring wealth, as a skilled craftsman fashions a chariot, I have fashioned [them].",
+        "note": "The earliest pole: *bráhman* is the inspired ritual utterance, here explicitly something *made* and *fashioned* (atakṣam, √takṣ 'to chisel, carpenter') like a chariot. It is the soul-power of the chanted Word, not yet a metaphysical absolute. Aurobindo's reading — *bráhman* as 'the Vedic Word or mantra in its profoundest aspect' (*The Secret of the Veda*) — is his interpretive lens on exactly this usage; what the text plainly gives is the formula-power that the priest crafts and Indra is asked to enjoy. Cf. RV 1.10.1 (brahmāṇas tvā … ud vaṁśam iva yemire, 'the chanters have raised you up as [men raise] a beam') and RV 10.71, on the fashioning of the sacred Word."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Chāndogya 3.14.1 (= GRETIL ChUp 3,14.1; saved at data/sources/sanskrit/vedic/chandogya_upanisad_gretil.txt)",
+        "sanskrit": "sarvaṃ khalv idaṃ brahma tajjalān iti śānta upāsīta | atha khalu kratumayaḥ puruṣo yathākratur asmiṃl loke puruṣo bhavati tathetaḥ pretya bhavati | sa kratuṃ kurvīta",
+        "rendering": "All this, truly, is brahman — as that-from-which-it-is-born, that-into-which-it-dissolves, that-by-which-it-breathes (tajjalān); so let one worship, at peace. Now, a person is made of resolve (kratu): as is one's resolve in this world, so does one become on departing hence; therefore let one form resolve.",
+        "note": "The semantic jump is now complete: *brahman* is no longer a formula but the all-encompassing reality, 'all this' (sarvaṃ idaṃ). The cryptic *tajjalān* is the traditional triad — that from which beings are born (ja), into which they dissolve (la), by which they breathe/live (an) — the same causal signature that Taittirīya 3.1 spells out and that Bādarāyaṇa fixes as *janmādy asya yataḥ*. Nothing in the verse cites or echoes the Ṛgvedic formula-sense; the migration from 'sacred utterance' to 'world-ground' is a shift the texts enact rather than narrate."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Taittirīya 2.1.1 and 3.1.1 (= GRETIL TaittU 2.1.1, 3.1.1; saved at data/sources/sanskrit/vedic/taittiriya_upanisad_gretil.txt)",
+        "sanskrit": "satyaṃ jñānam anantaṃ brahma | yo veda nihitaṃ guhāyāṃ parame vyoman | … || (3.1.1) yato vā imāni bhūtāni jāyante | yena jātāni jīvanti | yat prayanty abhisaṃviśanti | tad vijijñāsasva | tad brahmeti",
+        "rendering": "Brahman is the real, knowledge, the infinite (satyaṃ jñānam anantam). Whoever knows it as set down in the secret place (guhā), in the highest heaven … (3.1.1) That from which these beings are born, by which, being born, they live, into which on departing they enter — seek to know That: That is brahman.",
+        "note": "The two definitions that the later Vedānta treats as the standard *svarūpa-* and *taṭastha-lakṣaṇa* of brahman. 2.1.1 gives the essential character ('the real, knowledge, the infinite'); 3.1.1 (Bhṛgu's instruction by Varuṇa) gives the causal mark — origin, sustenance, and dissolution of all beings — which Brahma-Sūtra 1.1.2 (*janmādy asya yataḥ*) crystallises. The 'secret place' (guhā) of 2.1.1 is the same hidden interior where the Ṛgveda lodges Agni; here it houses brahman itself."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Bṛhadāraṇyaka 1.4.10 (= GRETIL BrhUp 1,4.10; saved at data/sources/sanskrit/vedic/brhadaranyaka_upanisad_gretil.txt); Chāndogya 6.8.7 (ChUp 6,8.7)",
+        "sanskrit": "brahma vā idam agra āsīt | tad ātmānam evāvet | ahaṃ brahmāsmīti | tasmāt tat sarvam abhavat || (ChU 6.8.7) sa ya eṣo 'ṇimaitad ātmyam idaṃ sarvam | tat satyam | sa ātmā | tat tvam asi śvetaketo iti",
+        "rendering": "Brahman, truly, was this in the beginning. It knew only itself: 'I am brahman.' Therefore it became all. || (ChU 6.8.7) That which is this finest essence — this whole world has that as its self. That is the real. That is the self. That you are, Śvetaketu.",
+        "note": "The *mahāvākyas*: brahman is now identified with the self and with all that is. *ahaṃ brahmāsmi* ('I am brahman') and *tat tvam asi* ('that you are') make the absolute and the *ātman* co-referential — the move on which the whole later *brahman*/*ātman* equation rests (see the ātman entry's textual_history for the converse arc). Note that the schools divide sharply on how literally to take these identity-sentences (see per_school above); the textual datum is only that the Upaniṣads state the identity."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 8.3 and 14.27 (verbatim from the embedded Gītā verses in data/sources/sanskrit/vedanta/shankara_gita_bhasya.txt)",
+        "sanskrit": "akṣaraṃ brahma paramaṃ svabhāvo 'dhyātmam ucyate | … (14.27) brahmaṇo hi pratiṣṭhāham amṛtasyāvyayasya ca | śāśvatasya ca dharmasya sukhasyaikāntikasya ca",
+        "rendering": "The supreme imperishable is brahman; its own-being is called the over-self (adhyātma) … (14.27) For I am the foundation of brahman — of the immortal and the imperishable, of the eternal law, and of absolute bliss.",
+        "note": "The *Gītā* receives the Upaniṣadic absolute sense fully: brahman is *akṣara*, the imperishable (8.3), and the state one 'becomes' — *brahma-bhūta* (5.24, the same usage the brahmanirvana entry tracks) — knowledge of which ends becoming. The Ṛgvedic formula-sense has dropped away entirely; what survives is *brahman* as the unconditioned reality. 14.27 is doctrinally loaded — Kṛṣṇa makes himself the 'foundation of brahman', a verse the theistic schools press hard against the Advaitic reading; we cite it for the absolute sense of the term, not to adjudicate that dispute."
+      }
+    ]
+  },
   "see_also": [
     "atman",
     "saguna",

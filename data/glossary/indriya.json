@@ -58,6 +58,39 @@
       "register_tag": "M+E; reflective reader (indriya as instrument of pratyakṣa)"
     }
   ],
+  "textual_history": {
+    "summary": "The word *indriya* carries its etymology on its face: it is the *taddhita* derivative of *Indra*, 'a power belonging to Indra'. In the Ṛgveda the term most often means just that — Indra's might, valour, or virile power, the divine force the god holds and the worshipper invokes (e.g. RV 3.37.9, the *indriyāṇi* of Indra among the five peoples; RV 1.84.1). The transfer from divine power to the powers-of-the-embodied-self — the sense-faculties — is a later development, complete by the classical period. In the Upaniṣads the senses are systematised and, decisively, subordinated: the Kaṭha Upaniṣad's chariot allegory makes the *indriyas* the horses, the objects their roads, the mind the reins, the intellect the charioteer, and the *ātman* the rider (1.3.3–4), and ranks them in an ascending hierarchy — objects above the senses, mind above objects, intellect above mind, the great Self above intellect (1.3.10). Sāṅkhya then fixes the canonical inventory: the *indriyas* are eleven, evolutes of the sattvic *ahaṃkāra* — five faculties of knowledge, five of action, and the *manas* as the eleventh, of both natures — and are *instruments* (*karaṇa*) of the witnessing self, not the gross organs (the *golaka*). The *Bhagavad-Gītā* receives both the inventory and the Kaṭha hierarchy and turns them practical: the senses are restless and forcibly carry off the mind (2.60), and the mark of the steadied knower is that he withdraws them as a tortoise draws in its limbs (2.58) and holds them mastered (2.61, 2.68). The arc is thus a real semantic shift — from Indra's *power* to the self's *faculties* — followed by a steady systematisation and a soteriology of sense-restraint.",
+    "stages": [
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 3.37.9 (Aufrecht ed.)",
+        "sanskrit": "indriyāṇi śatakrato yā te janeṣu pañcasu | indra tāni ta ā vṛṇe",
+        "rendering": "The powers of yours, O Śatakratu ('of a hundred resolves'), which are among the five peoples — those of yours, O Indra, I choose for myself.",
+        "note": "The earliest sense of *indriya*: not a sense-faculty but Indra's own *powers* (indriyāṇi), the divine might that the worshipper invokes. The plural names Indra's potencies distributed among the 'five peoples'. Cf. RV 1.84.1, 'ā tvā pṛṇaktv indriyam' ('let the [Soma's] indriya-power fill you'). The faculty-sense is derivative of exactly this divine-power sense."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Kaṭha Upaniṣad 1.3.3–4 (GRETIL kau_3.3–4)",
+        "sanskrit": "ātmānaṃ rathinaṃ viddhi śarīraṃ ratham eva tu | buddhiṃ tu sārathiṃ viddhi manaḥ pragraham eva ca || indriyāṇi hayān āhur viṣayāṃs teṣu gocarān | ātmendriyamanoyuktaṃ bhoktety āhur manīṣiṇaḥ",
+        "rendering": "Know the self as the rider in the chariot, and the body as the chariot; know the intellect as the charioteer, and the mind as the reins. The senses (indriyāṇi), they say, are the horses, and the objects their pastures; the self joined to the senses and the mind, the wise call the enjoyer.",
+        "note": "The canonical chariot allegory. The *indriyas* are now sense-faculties, figured as horses — instruments to be reined, subordinate to mind, intellect, and the self that rides. The same valli ranks the levels of the person: 'objects are higher than the senses, mind higher than objects, intellect higher than mind, the great Self higher than intellect' (1.3.10, kau_3.10, indriyebhyaḥ parā hy arthā…)."
+      },
+      {
+        "era": "Classical Sāṅkhya",
+        "locus": "Sāṅkhya-sūtra (Kāpila) 2.18–19, 2.26, 2.29 (GRETIL kapss_2.18–2.29) — the on-disk witness to the elevenfold scheme the Sāṅkhya-Kārikā 24–27 also gives",
+        "sanskrit": "sātvikaṃ ekādaśakaṃ pravartate vaikṛtād ahaṅkārāt | … karmendriya-buddhīndriyair āntaram ekādaśakam | … ubhayātmakaṃ ca manaḥ | … draṣṭṛtvādir ātmanaḥ karaṇatvam indriyāṇām",
+        "rendering": "The sattvic group of eleven proceeds from the 'transformative' (vaikṛta) ego. … The inner set of eleven consists of the action-faculties and the knowledge-faculties [with the mind]. … And the mind is of both natures [knowing and acting]. … Seer-hood and the rest belong to the self; instrumentality belongs to the senses.",
+        "note": "Sāṅkhya fixes the canonical inventory: the *indriyas* are eleven — five *buddhīndriyas*, five *karmendriyas*, and *manas* as the eleventh, 'of both natures' (ubhayātmaka), the same doctrine as Sāṅkhya-Kārikā 27. Two further sūtras anchor the glossary's invariant: 'draṣṭṛtvādir ātmanaḥ karaṇatvam indriyāṇām' makes the senses mere instruments of the seeing self (kapss_2.29), and 'atīndriyaṃ indriyaṃ bhrāntānām adhiṣṭhāne' (kapss_2.23) holds that the sense is supra-sensible — the deluded mistake its locus, the gross organ (golaka), for the faculty itself. (We cite the on-disk Sāṅkhya-sūtra verbatim; the Sāṅkhya-Kārikā 24–27, the locus usually given, is not present in our sources as primary text.)"
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.58 (verbatim from Śaṅkara's Gītā-Bhāṣya); cf. 2.60–61, 2.68",
+        "sanskrit": "yadā saṃharate cāyaṃ kūrmo 'ṅgānīva sarvaśaḥ | indriyāṇīndriyārthebhyas tasya prajñā pratiṣṭhitā",
+        "rendering": "And when he draws in his senses from the objects of sense on every side, as a tortoise draws in its limbs, then his wisdom is firmly set.",
+        "note": "The *Gītā* makes sense-control the operational test of the steadied knower, taking over the Kaṭha-Sāṅkhya picture of the senses as subordinate instruments. The tortoise simile (2.58) is matched by the warning that 'the turbulent senses forcibly carry off the mind even of the striving sage' (2.60, indriyāṇi pramāthīni haranti prasabhaṃ manaḥ) and the rule that he 'restrain them all and sit absorbed, intent on Me; for whose senses are mastered, his wisdom is firmly set' (2.61, vaśe hi yasyendriyāṇi…), repeated at 2.68."
+      }
+    ]
+  },
   "see_also": [
     "manas",
     "buddhi",

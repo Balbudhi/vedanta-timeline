@@ -343,6 +343,67 @@
       "citations": []
     }
   ],
+  "textual_history": {
+    "summary": "*Dharma* is the abstract noun on √dhṛ, 'to hold, uphold, sustain' — 'that which upholds'. Its Vedic form is the neuter *dhárman*, and there it names the fixed ordinances by which the cosmos and the rite are held in place, closely allied to *ṛta*, the cosmic-and-ritual Order. In the Ṛgveda the gods 'uphold the dharmas' as Viṣṇu strides out the worlds (*ato dharmāṇi dhārayan*, RV 1.22.18), and the primal ordinances are explicitly the first acts of sacrifice — 'the gods sacrificed the sacrifice with the sacrifice; those were the first dharmas' (RV 10.90.16 = 1.164.50). This ritual-ordinance sense hardens, in the Brāhmaṇa-and-Mīmāṃsā line, into *dharma* as Vedically-enjoined duty: Jaimini's foundational definition makes it precisely *codanā-lakṣaṇo 'rtho dharmaḥ*, 'dharma is the good [/object] characterised by [Vedic] injunction' (Mīmāṃsā-sūtra 1.1.2), and the Chāndogya already counts the 'three branches of dharma' (sacrifice, study, charity, and the rest, ChU 2.23.1). Alongside this an *ethical* sense rises in the Upaniṣads: the Taittirīya enjoins 'speak the truth, practise dharma' (TU 1.11.1), and the Bṛhadāraṇyaka makes dharma the supreme ruling principle above even the warrior-power and identifies it with truth — 'that dharma is truth itself' (BĀU 1.4.14). The *Gītā* then inflects dharma toward the social-and-existential: *sva-dharma*, one's own duty of station, whose abandonment is sin (2.31–33), and the cosmic *dharma-saṃsthāpana*, the Lord's periodic re-establishment of dharma when it decays (4.7–8). The arc *ṛta*→*dharman*→*dharma* is partly genealogical (the Vedic *dhárman* is the literal etymological and conceptual ancestor of the later noun) and partly a real semantic broadening, as the word migrates from cosmic-ritual ordinance to enjoined duty to ethical order to station-bound obligation.",
+    "stages": [
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 1.22.18 (Aufrecht/Saṃhitā numbering)",
+        "sanskrit": "trīṇi padā vi cakrame viṣṇur gopā adābhyaḥ | ato dharmāṇi dhārayan",
+        "rendering": "Three steps Viṣṇu strode out, the unassailable guardian — thereby upholding the dharmas (dharmāṇi dhārayan).",
+        "note": "The earliest pole, with the etymology visible on the surface: *dharmāṇi dhārayan*, 'upholding the dharmas', from √dhṛ. *Dharman* (neuter) here are the fixed ordinances or foundations that Viṣṇu's world-measuring strides hold in place — cosmic order rather than human duty. The word is the act-noun of holding, and its first objects are the supports of the world itself."
+      },
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 10.90.16 (Puruṣa-sūkta; verbatim, parallel at RV 1.164.50)",
+        "sanskrit": "yajñena yajñam ayajanta devās tāni dharmāṇi prathamāny āsan | te ha nākam mahimānaḥ sacanta yatra pūrve sādhyāḥ santi devāḥ",
+        "rendering": "With the sacrifice the gods sacrificed the sacrifice; those were the first dharmas (dharmāṇi prathamāni). The mighty ones reached the firmament where the ancient gods, the Sādhyas, are.",
+        "note": "*Dharman* as primal ordinance is here explicitly *ritual*: the first dharmas are the gods' own acts of sacrifice, the archetypal rites by which order was first established. This is the seam between the cosmic *ṛta* and the later Mīmāṃsaka *dharma* of enjoined sacrificial duty: the rite is, from the start, the load-bearing ordinance. (The same verse recurs at RV 1.164.50; we cite the Puruṣa-sūkta locus as the more familiar.)"
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Chāndogya 2.23.1 (= GRETIL ChUp_2.23.1)",
+        "sanskrit": "trayo dharmaskandhāḥ | yajño 'dhyayanaṃ dānam iti prathamaḥ | tapa eva dvitīyaḥ | brahmacāryācāryakulavāsī tṛtīyo 'tyantam ātmānam ācāryakule 'vasādayan | sarva ete puṇyalokā bhavanti | brahmasaṃstho 'mṛtatvam eti",
+        "rendering": "There are three branches of dharma. Sacrifice, study, and almsgiving — that is the first. Austerity alone is the second. The student of sacred knowledge dwelling in the teacher's house, mortifying himself utterly in the teacher's house — [that is] the third. All these attain the worlds of merit; [but] the one grounded in Brahman attains immortality.",
+        "note": "*Dharma* as a classifiable scheme of prescribed observances — the ritual-and-duty sense, here organised into 'branches' (*skandha*). Note the Upaniṣadic reservation already at work: these dharmas win the 'worlds of merit' (*puṇya-loka*), but it is the one 'grounded in Brahman' who reaches immortality — duty-dharma is subordinated to the knowledge of Brahman, anticipating the Vedāntic reordering."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Taittirīya 1.11.1 (Śikṣāvallī; = GRETIL TaittU 1.11)",
+        "sanskrit": "satyaṃ vada | dharmaṃ cara | svādhyāyān mā pramadaḥ | … | satyān na pramaditavyam | dharmān na pramaditavyam",
+        "rendering": "Speak the truth. Practise dharma (dharmaṃ cara). Do not neglect your study. … From truth do not swerve. From dharma do not swerve.",
+        "note": "The graduating teacher's exhortation, and the clearest early *ethical* use: *dharmaṃ cara*, 'practise dharma', set beside truth-telling and study as a way of life to be 'not swerved from'. Śaṅkara, commenting, glosses *dharma* here as 'the general term for what is to be done' (*anuṣṭheyānāṃ sāmānya-vacanam*) — dharma as right conduct in the broad sense, no longer only the rite."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Bṛhadāraṇyaka 1.4.14 (= GRETIL BrhUp 1.4.14)",
+        "sanskrit": "tac chreyo rūpam atyasṛjata dharmam | tad etat kṣatrasya kṣatraṃ yad dharmaḥ | tasmād dharmāt paraṃ nāsti | … | yo vai sa dharmaḥ satyaṃ vai tat | tasmāt satyaṃ vadantam āhur dharmaṃ vadatīti",
+        "rendering": "[Brahman] emitted a still better form, dharma. This dharma is the ruling-power of the ruling-power (kṣatrasya kṣatram); therefore there is nothing higher than dharma. … That which is dharma is truth itself (satyam); therefore of one who speaks the truth they say, 'he speaks dharma'.",
+        "note": "Dharma raised to the supreme normative principle — 'the kṣatra of the kṣatra', that which governs even the warrior-power, 'than which there is nothing higher' — and explicitly identified with *satya*, truth. This is the high-water mark of the *ṛta*→*dharma*→*satya* nexus: the Vedic cosmic Order, now internalised as the truth-grounded moral law that rules even kings. The genealogy from *ṛta* is conceptual rather than verbal (the word *ṛta* is not used here), but the role — the order above all powers — is the same."
+      },
+      {
+        "era": "Brāhmaṇa / Mīmāṃsā",
+        "locus": "Mīmāṃsā-sūtra 1.1.2 (Jaimini; on-disk comparator text)",
+        "sanskrit": "codanālakṣaṇo 'rtho dharmaḥ",
+        "rendering": "Dharma is the good (artha) characterised by [Vedic] injunction (codanā).",
+        "note": "The ritual-ordinance sense made into a formal definition: dharma is precisely whatever the Vedic injunctive utterance (*codanā*) enjoins, knowable only through *śabda* and not through perception (cf. MS 1.1.4–5). This is the Mīmāṃsaka crystallisation of the Brāhmaṇa duty-sense — dharma as enjoined performance — and the foil against which the Gītā's *sva-dharma* and Vedānta's subordination of duty to knowledge are both defined."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.31 and 2.33 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "sva-dharmam api cāvekṣya na vikampitum arhasi | dharmyād dhi yuddhāc chreyo 'nyat kṣatriyasya na vidyate || … || atha cet tvam imaṃ dharmyaṃ saṃgrāmaṃ na kariṣyasi | tataḥ sva-dharmaṃ kīrtiṃ ca hitvā pāpam avāpsyasi",
+        "rendering": "Looking too to your own dharma (sva-dharma), you ought not to waver; for there is no greater good for a warrior than a war consonant with dharma. … || But if you will not wage this dharma-consonant war, then, forsaking your own dharma and your honour, you will incur sin.",
+        "note": "The *Gītā*'s distinctive inflection: *sva-dharma*, the duty proper to one's own station (here the warrior's), whose performance is obligatory and whose abandonment is *pāpa*, sin. Dharma is now station-bound social-and-moral obligation — neither the Vedic cosmic ordinance nor the bare Mīmāṃsaka rite, though Śaṅkara is at pains (on 2.33) to read the warrior's *sva-dharma* as not-adharma even when it involves killing."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 4.7–8 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "yadā yadā hi dharmasya glānir bhavati bhārata | abhyutthānam adharmasya tadātmānaṃ sṛjāmy aham || paritrāṇāya sādhūnāṃ vināśāya ca duṣkṛtām | dharma-saṃsthāpanārthāya saṃbhavāmi yuge yuge",
+        "rendering": "Whenever there is a decline of dharma, Bhārata, and an uprising of adharma, then I send forth myself. || For the protection of the good and the destruction of the evil-doers, for the firm re-establishment of dharma (dharma-saṃsthāpana), I come into being age after age.",
+        "note": "Dharma at its widest in the *Gītā*: the cosmic-moral order whose periodic decline the Lord descends to restore (*dharma-saṃsthāpana*). Here the term has travelled the full distance from the Vedic *dhárman* — the ordinance that upholds the world — to a moral-and-cosmic order that the divine itself underwrites and repairs, the load-bearing sense of √dhṛ now carried by the personal Lord. Śaṅkara glosses *dharma* here as 'characterised by the [system of] varṇa and āśrama' and as 'the means of beings' welfare and highest good'."
+      }
+    ]
+  },
   "see_also": [
     "karma",
     "jnana",

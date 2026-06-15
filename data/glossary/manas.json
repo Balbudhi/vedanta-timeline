@@ -263,6 +263,53 @@
       "citations": []
     }
   ],
+  "textual_history": {
+    "summary": "*Manas*, from √man 'to think' (an inherited Indo-European word: Latin *mens*, Greek *menos*, English 'mind'), is the oldest and most stable of the cluster — it is fully present already in the Ṛgveda, where it names the thinking-and-willing organ seated in the heart, famed above all for its *speed*: the gods' chariot is 'swifter than mind', and mind is 'the swiftest of flying things'. The Saṃhitā already locates desire and intention in *manas* — the cosmogonic 'desire that was the first seed of mind' (RV 10.129.4). The Upaniṣads place *manas* within an explicit hierarchy of faculties, below *buddhi* and above the senses (Kaṭha 1.3.10), and in the chariot allegory cast it as the *reins* that the intellect-charioteer holds (Kaṭha 1.3.3). Classical Sāṅkhya fixes its technical function as *saṅkalpa* — the synthesising, intending operation — and calls it *ubhayātmaka*, partaking of both the cognitive and active senses (SK 27). The *Gītā* inherits all of this and dramatises the practical problem: *manas* is *cañcala*, restless, and 'hard to restrain as the wind' (6.34–35), the very thing meditation must steady. The arc here is genuinely continuous — *manas* keeps the same core sense (the oscillating thought-organ) from Ṛgveda to Gītā; what changes is its placement in an ever more articulated psychology and the increasing emphasis on its restraint.",
+    "stages": [
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 6.9.5 (Aufrecht ed.)",
+        "sanskrit": "dhruvaṁ jyotir nihitaṁ dṛśaye kam mano javiṣṭham patayatsv antaḥ | viśve devāḥ samanasaḥ saketā ekaṁ kratum abhi vi yanti sādhu",
+        "rendering": "A fixed light is set for seeing; mind (manas), the swiftest of things that fly, is within. All the gods, of one mind (sa-manas), of one intent, move rightly toward a single will (kratu).",
+        "note": "The Ṛgvedic *manas* in two of its defining aspects: its proverbial *swiftness* — 'the swiftest of flying things' — and its capacity to be *unified* (*sa-manas*, 'of one mind') and converge on a single *kratu* (will/intent). The mind-as-swift becomes a fixed Vedic topos (cf. the gods' chariot 'manojavas', e.g. RV 1.117.15). This is the seat of thought that the contemplative traditions will later strive to slow and steady; the Saṃhitā already treats its unification as an achievement."
+      },
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 10.129.4 (the Nāsadīya-Sūkta; Aufrecht ed.)",
+        "sanskrit": "kāmas tad agre sam avartatādhi manaso retaḥ prathamaṁ yad āsīt | sato bandhum asati nir avindan hṛdi pratīṣyā kavayo manīṣā",
+        "rendering": "Desire (kāma) arose in the beginning upon that — which was the first seed of mind (manas); searching in the heart with wisdom (manīṣā), the seers found the bond of the existent in the non-existent.",
+        "note": "The creation-hymn locates the origin of differentiation in *manas* and *kāma*: desire is 'the first seed of mind'. Two motifs that persist appear here — *manas* as bound up with desire (which the Gītā's restless mind, full of *kāma*, will inherit), and cognition seated *in the heart* (*hṛdi … manīṣā*), the Vedic identification of the thinking organ with the heart. *Manas* is thus, from the start, the meeting-point of thought and wanting."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Kaṭha Upaniṣad 1.3.3–4 (GRETIL kau_3.3–4)",
+        "sanskrit": "buddhiṃ tu sārathiṃ viddhi manaḥ pragraham eva ca | indriyāṇi hayān āhur viṣayāṃs teṣu gocarān",
+        "rendering": "Know the intellect (buddhi) as the charioteer, and the mind (manas) as the reins; the senses, they say, are the horses, the sense-objects their range.",
+        "note": "In the chariot allegory *manas* is the *reins* (*pragraha*): the link through which the intellect-charioteer governs the senses-horses. The image fixes the standing contrast — *buddhi* determines and drives, *manas* transmits and conveys, the senses pull outward. *Manas* is here neither the self nor the ruling faculty but the indispensable connecting instrument that must be held firm; if loosened, the senses run wild (Kaṭha 1.3.5)."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Kaṭha Upaniṣad 1.3.10 (GRETIL kau_3.10)",
+        "sanskrit": "indriyebhyaḥ parā hy arthā arthebhyaś ca paraṃ manaḥ | manasas tu parā buddhir buddher ātmā mahān paraḥ",
+        "rendering": "Higher than the senses are their objects; higher than the objects, the mind (manas); higher than the mind, the intellect (buddhi); higher than the intellect, the great self.",
+        "note": "The faculty-ladder fixes *manas* one rung above the senses and their objects, and one rung below *buddhi*. This is the precise placement the later *antaḥkaraṇa* psychology systematises: *manas* gathers and presents the sensory field, *buddhi* determines it. The Upaniṣad thus turns the Vedic thought-organ into a graded level of the inner apparatus — a level to be transcended on the way inward to the self."
+      },
+      {
+        "era": "Sāṅkhya",
+        "locus": "Sāṅkhya-Kārikā 27 (on disk: isvarakrsna_samkhya_karika.txt, isk_27)",
+        "sanskrit": "ubhayātmakam atra manaḥ saṅkalpakam indriyaṃ ca sādharmyāt | guṇapariṇāmaviśeṣān nānātvaṃ grāhyabhedāc ca",
+        "rendering": "Here the mind (manas) is of both natures: it is the synthesising/intending faculty (saṅkalpaka) and [also] a sense, by reason of its kinship [with both]. Its diversity [of operations] is from the particular transformations of the guṇas and from the difference of objects grasped.",
+        "note": "Sāṅkhya fixes the technical function: the distinctive work of *manas* is *saṅkalpa* — synthesising the raw sensory data and forming it into a determinate, intended presentation — and it is *ubhayātmaka*, counting on both the cognitive (*buddhīndriya*) and active (*karmendriya*) sides. This is the classical 'inner sense' that mediates between the outer senses and the determining *buddhi*; the Gītā's restless *manas* is this same coordinating organ viewed as a discipline-problem."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 6.34–35 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "cañcalaṃ hi manaḥ kṛṣṇa pramāthi balavad dṛḍham | tasyāhaṃ nigrahaṃ manye vāyor iva suduṣkaram || … asaṃśayaṃ mahābāho mano durṇigrahaṃ calam | abhyāsena tu kaunteya vairāgyeṇaś ca gṛhyate",
+        "rendering": "For the mind (manas) is restless, Kṛṣṇa, turbulent, strong, and obstinate; its restraint I think as hard to achieve as the wind's. … 'Without doubt, mighty-armed one, the mind is hard to restrain and unsteady; yet by practice and by dispassion, Kaunteya, it is held.'",
+        "note": "The *Gītā* makes *manas* the central practical obstacle: Arjuna protests that the mind is *cañcala*, 'restless', and its control as hard as bottling the wind — and Kṛṣṇa concedes the difficulty but answers with *abhyāsa* (practice) and *vairāgya* (dispassion). The Vedic swift mind (stage 1) reappears here as the *problem* of practice: what was praised as the swiftest of flying things is now what must be slowed and gathered. The whole meditative programme of restraint converges on *manas*."
+      }
+    ]
+  },
   "see_also": [
     "antahkarana",
     "buddhi",

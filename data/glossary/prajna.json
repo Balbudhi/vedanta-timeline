@@ -61,6 +61,60 @@
       "register_tag": "M+S; mumukṣu (sthita-prajñā)"
     }
   ],
+  "textual_history": {
+    "summary": "*Prajñā* grows from the Vedic verb pra-√jñā, 'to know forth, to discern the way'. In the Ṛgveda the form is verbal and participial — the Dawn 'knowing well the path of ṛta does not stray', the priest 'knowing' leads the offering — and the cognate cluster *dhī*, *manīṣā*, *kratu* carries the noetic weight; an abstract feminine *prajñā* is not yet a fixed term there. The decisive nominalisation is Upaniṣadic: the Aitareya gathers every cognitive name — perception, will, memory, design — under *prajñāna* and culminates in *prajñānaṃ brahma*, 'consciousness/discernment is Brahman' (Aitareya 3.3, one of the *mahāvākyas*), while the Māṇḍūkya fixes *prājña* as the technical name of the deep-sleep self, the 'mass of cognition' (*prajñānaghana*). Pātañjala Yoga then makes *prajñā* a graded attainment of absorption, climaxing in *ṛtambharā prajñā*, 'truth-bearing insight' (YS 1.48). The *Gītā* coins *sthita-prajña*, 'one whose insight stands firm' (2.54–55), shifting the accent from the content of wisdom to its steadiness. The line from Veda to Gītā is genuine for the *root* and its sense of discerning knowledge; the abstract noun and its specialised senses (deep-sleep knower, absorptive insight) are Upaniṣadic and post-Upaniṣadic developments, not Ṛgvedic data.",
+    "stages": [
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 1.124.3 (Aufrecht ed.; the verse recurs verbatim at RV 5.80.4)",
+        "sanskrit": "eṣā divo duhitā praty adarśi jyotir vasānā samanā purastāt | ṛtasya panthām anv eti sādhu prajānatīva na diśo mināti",
+        "rendering": "This daughter of heaven has appeared opposite, clothing herself in light, [coming] together from the east; she follows well the path of ṛta (the cosmic order) — like one who knows-forth (prajānatī), she does not confuse the directions.",
+        "note": "The Vedic seed of the term is verbal, not the abstract noun: the Dawn (Uṣas) is *prajānatī iva*, 'as one who knows the way', the present participle of pra-√jñā. What is known is the *path of ṛta* — the order one must not transgress. This is *prajñā* in germ: a discerning knowledge that orients action rightly, here cosmologised in the unswerving Dawn. The fixed feminine noun *prajñā* is not yet present in the Saṃhitā; the cognate *dhī* (illumined thought) carries the related load (see the *dhī* stage below)."
+      },
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 3.62.10 (the Gāyatrī; Aufrecht ed.)",
+        "sanskrit": "tat savitur vareṇyam bhargo devasya dhīmahi | dhiyo yo naḥ pracodayāt",
+        "rendering": "May we hold (dhīmahi) that excellent radiance of the god Savitṛ — he who may impel (pracodayāt) our thoughts (dhiyaḥ).",
+        "note": "The Vedic carrier of 'illumined thought' is *dhī*, not yet *prajñā*: the most-recited Vedic verse prays that the Sun-god *impel our dhiyaḥ*, our thoughts/insights. Aurobindo reads exactly this *dhī*-strand as the Veda's inner knowledge, identifying Saraswatī as 'that power of the Truth which we call inspiration … Truth comes to us as a light, a voice, compelling a change of thought' (Aurobindo, *The Secret of the Veda*). His is an interpretive lens, marked as such; what the text plainly gives is the Vedic location of discerning thought under *dhī*/*manīṣā*, the conceptual ground from which the later abstract *prajñā* draws."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Aitareya Upaniṣad 3.2 (= 3.1.2; GRETIL aitup_3.2)",
+        "sanskrit": "yad etad dhṛdayaṃ manaś caitat | sañjñānam ājñānaṃ vijñānaṃ prajñānaṃ medhā dṛṣṭir dhṛtir matir manīṣā jūtiḥ smṛtiḥ saṅkalpaḥ kratur asuḥ kāmo vaśa iti sarvāṇy evaitāni prajñānasya nāmadheyāni bhavanti",
+        "rendering": "This heart and this mind (manas) — perception, command, discernment, knowing-forth (prajñāna), insight, vision, steadiness, thought, conception, impulse, memory, intention, design, life-breath, desire, mastery: all these are but names of prajñāna.",
+        "note": "The Upaniṣad collects the entire cognitive vocabulary — *manas*, *medhā*, *mati*, *saṅkalpa*, *kratu*, *smṛti* — and subordinates every one of them as a 'name of *prajñāna*'. Here *prajñāna* has become the comprehensive abstract noun for cognition-as-such, the ground of which the particular faculties are modes. This is the nominalising step the Saṃhitā had not taken; it sets up the identification in the next verse."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Aitareya Upaniṣad 3.3 (= 3.1.3; GRETIL aitup_3.3)",
+        "sanskrit": "… sarvaṃ tat prajñānetram | prajñāne pratiṣṭhitam | prajñānetro lokaḥ | prajñā pratiṣṭhā | prajñānaṃ brahma",
+        "rendering": "… all this is led by prajñāna (prajñā-netra), is established in prajñāna; the world is led by prajñāna, prajñā is its foundation. Consciousness/discernment is Brahman (prajñānaṃ brahma).",
+        "note": "The *mahāvākya* of the Aitareya, and the high point of the term's career: discerning consciousness is not merely a faculty but is identified with the absolute itself. Śaṅkara, glossing it, distinguishes the *upādhi*-conditioned cognitive operations (*saṃjñāna* etc.) from the 'pure *prajñāna*-form of Brahman' (*śuddhaprajñānarūpasya brahmaṇaḥ*) of which they are limiting modes — the seed of the Advaita reading carried in the per-school material. The Saṃhitā's verbal *prajānan* has become a name of Brahman."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Māṇḍūkya Upaniṣad 5 (GRETIL mandup_5)",
+        "sanskrit": "suṣuptasthāna ekībhūtaḥ prajñānaghana evānandamayo hy ānandabhuk cetomukhaḥ prājñas tṛtīyaḥ pādaḥ",
+        "rendering": "The one whose locus is deep sleep, become unified, a sheer mass of cognition (prajñānaghana), made of bliss indeed, enjoying bliss, having consciousness for its door — he is the prājña (the deep-sleep knower), the third quarter.",
+        "note": "The specialised noun *prājña* names the self in dreamless sleep: cognition no longer dispersed into objects but 'become one', a *prajñāna-ghana*, a solid mass of awareness. (Our GRETIL source prints 'evāndamayo' for the standard 'evānandamayo'; we restore the universally attested reading and flag the source typo.) This is the deep-sleep sense the per-school Advaita entry draws on; the *turīya* of Māṇḍūkya 7 is then defined by negating even this — 'not a mass of cognition' (na prajñānaghanaṃ), 'neither cognitive nor non-cognitive' — so *prājña* marks the highest *state*, not the final reality."
+      },
+      {
+        "era": "Yoga",
+        "locus": "Yoga-Sūtra 1.47–48 (on disk: patanjali_yoga_sutra.txt, ys_1.47–48)",
+        "sanskrit": "nirvicāravaiśāradye 'dhyātmaprasādaḥ || ṛtaṃbharā tatra prajñā",
+        "rendering": "When there is clarity in the supra-reflective [absorption], there is serenity of the inmost self. There, the insight (prajñā) is truth-bearing (ṛtam-bharā).",
+        "note": "Yoga makes *prajñā* a graded cognitive attainment of *samādhi*: as the subtlest absorption clarifies, there arises *ṛtambharā prajñā*, insight 'bearing the truth' — said at YS 1.49 to differ from insight born of testimony and inference because it grasps the particular as it is. Note the Vedic echo carried in the word *ṛtam*: the Dawn 'followed the path of *ṛta*' (stage 1), and here insight 'bears *ṛta*'. The resonance is lexical, not a claimed textual borrowing."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.54–55 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "sthita-prajñasya kā bhāṣā samādhi-sthasya keśava | sthita-dhīḥ kiṃ prabhāṣeta kim āsīta vrajeta kim || … prajahāti yadā kāmān sarvān pārtha mano-gatān | ātmany evātmanā tuṣṭaḥ sthita-prajñas tadocyate",
+        "rendering": "'What is the description of one of steady insight (sthita-prajña), settled in samādhi, Keśava? How would the one of steady thought (sthita-dhī) speak, how sit, how move?' … When one wholly abandons all the desires that come into the mind (manas), content in the self by the self alone — then is one called of steady insight.",
+        "note": "The *Gītā* coins *sthita-prajña*, 'one in whom *prajñā* stands fixed', and glosses it in the same breath with *sthita-dhī*, 'of steady *dhī*' — yoking the late abstract *prajñā* back to the old Vedic word *dhī* (stage 2). The accent shifts decisively from *what* is discerned to the *steadiness* of the discernment: wisdom defined as imperturbability when desire is released. Śaṅkara reads the *prajñā* of the steady one as the settled certainty 'I am the supreme Brahman' (*ahaṃ paraṃ brahma iti prajñā*), folding it into the Advaita identity-knowledge."
+      }
+    ]
+  },
   "see_also": [
     "sthitaprajna",
     "jnana",

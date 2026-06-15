@@ -284,6 +284,53 @@
       "citations": []
     }
   ],
+  "textual_history": {
+    "summary": "*Buddhi*, from √budh 'to wake, to be aware', begins in the Ṛgveda as verbal awakening — *bodhi*, 'awake!', *bubodha*, 'he has noticed' — addressed above all to Agni and the gods, with the abstract noun *buddhi* ('the awakened, determining intellect') scarcely yet a fixed term. The Kaṭha Upaniṣad gives the word its first great philosophical image and its place in a hierarchy: in the chariot allegory *buddhi* is the charioteer (*sārathi*) who drives the senses-horses while *manas* serves as the reins (Kaṭha 1.3.3–4), and in the ladder of faculties *buddhi* stands above *manas* and below the 'great self' (1.3.10). Classical Sāṅkhya then makes *buddhi* a cosmological-psychological principle: it is *mahat*, the first evolute of *prakṛti* (SK 22), defined as *adhyavasāya*, determinative ascertainment (SK 23). The *Gītā* takes this determinative *buddhi* and makes it a discipline — *buddhi-yoga*, the yoke of a single resolute intellect (*vyavasāyātmikā buddhi*, 2.41) against the many-branched indecision of the unresolved, with action-in-equanimity defined as *yoga* (2.50). The genealogy is unusually continuous: the Sāṅkhya *mahat/buddhi* and the Gītā's *buddhi-yoga* both presuppose the Kaṭha hierarchy, and the Kaṭha image (charioteer) is the explicit ancestor of the later faculty-psychology.",
+    "stages": [
+      {
+        "era": "Upaniṣads",
+        "locus": "Kaṭha Upaniṣad 1.3.3–4 (GRETIL kau_3.3–4)",
+        "sanskrit": "ātmānaṃ rathinaṃ viddhi śarīraṃ ratham eva tu | buddhiṃ tu sārathiṃ viddhi manaḥ pragraham eva ca || indriyāṇi hayān āhur viṣayāṃs teṣu gocarān",
+        "rendering": "Know the self as the rider of the chariot, the body as the chariot itself; know the intellect (buddhi) as the charioteer (sārathi), and the mind (manas) as the reins. The senses, they say, are the horses, and the sense-objects their range.",
+        "note": "The founding image of *buddhi* in Indian thought: the discriminating intellect is the *charioteer* who must master the senses-horses by way of the *manas*-reins. The whole later contrast of *buddhi* (determines, governs) against *manas* (presents, conveys) is anchored here. The verse establishes *buddhi* not as the self but as the self's highest instrument — the faculty of control and direction — directly underwriting the Gītā's call to *buddhi-yoga*."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Kaṭha Upaniṣad 1.3.10 (GRETIL kau_3.10)",
+        "sanskrit": "indriyebhyaḥ parā hy arthā arthebhyaś ca paraṃ manaḥ | manasas tu parā buddhir buddher ātmā mahān paraḥ",
+        "rendering": "Higher than the senses are their objects; higher than the objects, the mind (manas); higher than the mind, the intellect (buddhi); higher than the intellect, the great self (ātmā mahān).",
+        "note": "The Kaṭha's faculty-ladder places *buddhi* immediately above *manas* and immediately below the *mahān ātmā*, the 'great self'. This ranking — senses < objects < manas < buddhi < great-self < unmanifest < puruṣa (1.3.11) — is the structural template the Sāṅkhya cosmology and the whole *antaḥkaraṇa* psychology inherit. The phrase *ātmā mahān*, 'great self', is widely read as the prototype of Sāṅkhya's *mahat* = *buddhi*; here, notably, the 'great' is set *above* buddhi, a hierarchy the later systems re-organise."
+      },
+      {
+        "era": "Sāṅkhya",
+        "locus": "Sāṅkhya-Kārikā 22 (on disk: isvarakrsna_samkhya_karika.txt, isk_22)",
+        "sanskrit": "prakṛter mahāṃs tato 'haṅkāras tasmād gaṇaś ca ṣoḍaśakaḥ | tasmād api ṣoḍaśakāt pañcabhyaḥ pañca bhūtāni",
+        "rendering": "From prakṛti, the great one (mahat); from that, the I-maker (ahaṅkāra); from that, the set of sixteen; and from five of those sixteen, the five elements.",
+        "note": "Sāṅkhya makes *buddhi* (under its cosmic name *mahat*, 'the great one') the *first* evolute of unmanifest *prakṛti* — the principle from which I-sense, mind, senses, and elements unfold in series. The Kaṭha's *ātmā mahān* has become *mahat*, the leading product of nature; the term *buddhi* and the term *mahat* are identified by the tradition for this same principle. This is the most ontologically loaded sense of the word: *buddhi* as the architecture of manifested individuality."
+      },
+      {
+        "era": "Sāṅkhya",
+        "locus": "Sāṅkhya-Kārikā 23 (on disk: isvarakrsna_samkhya_karika.txt, isk_23)",
+        "sanskrit": "adhyavasāyo buddhir dharmo jñānaṃ virāga aiśvaryam | sāttvikam etad rūpaṃ tāmasam asmād viparyastam",
+        "rendering": "Buddhi is determination (adhyavasāya); its sāttvika form is virtue, knowledge, dispassion, and lordship; its tāmasa form is the reverse of these.",
+        "note": "The classical definition: *adhyavasāyo buddhiḥ* — *buddhi* is *adhyavasāya*, decisive ascertainment, the function that settles a content as 'this is so, to be done thus'. This is the precise sense the *Gītā* exploits in *vyavasāyātmikā buddhi* (next stage): *vy-ava-so* and *adhi-ava-so* share the root *√so/√si* of resolve. Sāṅkhya thus fixes *buddhi* as the determinative faculty whose *sāttvika* perfection is knowledge and dispassion — the bridge from the Kaṭha charioteer to the Gītā's resolute intellect."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.41 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "vyavasāyātmikā buddhir ekeha kuru-nandana | bahu-śākhā hy anantāś ca buddhayo 'vyavasāyinām",
+        "rendering": "Here the resolute intellect (vyavasāyātmikā buddhi) is single, O joy of the Kurus; but many-branched and endless are the intellects of the irresolute.",
+        "note": "The *Gītā* turns Sāṅkhya's *adhyavasāya*-faculty into a spiritual demand: *vyavasāyātmikā buddhi*, the *buddhi* 'whose essence is resolve', is *one*, set against the infinitely scattered *buddhayaḥ* of those who lack resolution. The determinative faculty of Sāṅkhya (SK 23) becomes the one-pointed will of the practitioner. This is the heart of what the *Gītā* will call *buddhi-yoga* (2.39, 2.49–50), the path of acting through a single steadied intellect."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.50 (verbatim from Śaṅkara's Gītā-Bhāṣya); cf. 2.39 (buddhi-yoga named)",
+        "sanskrit": "buddhi-yukto jahātīha ubhe sukṛta-duṣkṛte | tasmād yogāya yujyasva yogaḥ karmasu kauśalam",
+        "rendering": "One yoked to [this] intellect (buddhi-yukta) casts off here both good and evil deeds; therefore yoke yourself to yoga — yoga is skill in actions.",
+        "note": "The culmination of the *buddhi* arc: action performed through the equanimous, resolute *buddhi* (here *buddhi-yukta*) frees one from the binding fruit of deeds, and this is defined as *yoga* — 'skill in actions' (*karmasu kauśalam*). The Kaṭha charioteer who masters the senses, the Sāṅkhya *buddhi* that determines, and the Gītā's resolute intellect that acts without bondage form a single line. Śaṅkara, at 2.39, parses the two named *buddhis* — *sāṅkhya-buddhi* (knowledge of the actionless self) and *yoga-buddhi* (the intellect set on the means) — making the term the explicit hinge between the two paths."
+      }
+    ]
+  },
   "see_also": [
     "antahkarana",
     "manas",

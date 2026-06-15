@@ -386,6 +386,39 @@
       "not_applicable_reason": "The Pāṇinian-Vaiyākaraṇa tradition's distinctive doctrinal apparatus is grammatical and semantic rather than a school-specific soteriology of mokṣa, so this term is not a native glossary target for that school."
     }
   ],
+  "textual_history": {
+    "summary": "The word *mokṣa* (√muc, 'to release') is largely post-Vedic; what the Upaniṣads chiefly bequeath to the later soteriologies of *mokṣa* and *mukti* is the prior idea of *amṛtatva*, immortality — the deathless condition reached when the bonds of the heart are loosed. The Saṃhitās already prize *amṛtatva*, but the decisive formulation is Upaniṣadic. The Kaṭha Upaniṣad states the conversion sharply: when all the desires lodged in the heart are released, the mortal becomes immortal (2.3.14), and when all the knots of the heart are cut asunder, the mortal becomes immortal — 'this much is the teaching' (2.3.15). The Bṛhadāraṇyaka gives the same formula word-for-word (4.4.7) and adds the language of *vimukti*: the knowers of Brahman go up, released (4.4.8). The trajectory is therefore from *amṛtatva* (a positive deathless attainment) toward *mokṣa/mukti* (release framed against bondage). The *Bhagavad-Gītā* uses *mokṣa* explicitly and fixes it among the ends of life: the *muni* is 'wholly bent on liberation' (*mokṣa-parāyaṇa*) and 'ever free' (5.28), and those who strive 'for release from old age and death' (*jarā-maraṇa-mokṣāya*) take refuge in the Lord and come to know Brahman (7.29). The arc is a genuine genealogy: the Upaniṣadic 'cutting of the knots of the heart → immortality' is the substance that the *Gītā* and the later schools rename and analyse as *mokṣa*. (The school-by-school differentiation of what bondage and release consist in is treated in the per-school material above; this history traces only the development of the term and its governing image.)",
+    "stages": [
+      {
+        "era": "Upaniṣads",
+        "locus": "Kaṭha Upaniṣad 2.3.14–15 (continuous numbering 6.14–15; GRETIL kau_6.14–15)",
+        "sanskrit": "yadā sarve pramucyante kāmā ye 'sya hṛdi śritāḥ | atha martyo 'mṛto bhavaty atra brahma samaśnute || yadā sarve prabhidyante hṛdayasyeha granthayaḥ | atha martyo 'mṛto bhavaty etāvad dhy anuśāsanam",
+        "rendering": "When all the desires lodged in his heart are released, then the mortal becomes immortal; here he reaches Brahman. When all the knots of the heart are cut asunder here, then the mortal becomes immortal — this much is the teaching.",
+        "note": "The classical Upaniṣadic statement of liberation, framed as *amṛtatva* (becoming immortal) rather than by the word *mokṣa*. The mechanism is the *release* (pramucyante, √muc — the very root of *mokṣa*) of desires and the cutting of the heart's *knots* (granthi). The first hemistich is shared verbatim with Bṛhadāraṇyaka 4.4.7, marking a fixed pan-Upaniṣadic formula."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Bṛhadāraṇyaka Upaniṣad 4.4.7–8 (Kāṇva; GRETIL BrhUp_4,4.7–8)",
+        "sanskrit": "yadā sarve pramucyante kāmā ye 'sya hṛdi śritāḥ | atha martyo 'mṛto bhavaty atra brahma samaśnuta iti | … tena dhīrā apiyanti brahmavidaḥ svargaṃ lokam ita ūrdhvaṃ vimuktāḥ",
+        "rendering": "When all the desires lodged in his heart are released, then the mortal becomes immortal; here he reaches Brahman. … By that path the wise, the knowers of Brahman, go up, released (vimukta), to the heavenly world, hence upward.",
+        "note": "The Bṛhadāraṇyaka repeats the Kaṭha formula and introduces the explicit vocabulary of *release*: the brahma-knowers are *vimukta*. The deathless attainment (amṛta) and the language of being-loosed (vi-√muc) here stand side by side — the conceptual seedbed of the later substantive *mokṣa / mukti*. Śaṅkara's on-disk Brahma-sūtra-bhāṣya quotes 4.4.7 ('yadā sarve pramucyante kāmā…') precisely to establish that liberation follows immediately upon brahma-knowledge."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 5.28 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "yatendriya-mano-buddhir munir mokṣa-parāyaṇaḥ | vigatecchā-bhaya-krodho yaḥ sadā mukta eva saḥ",
+        "rendering": "The sage whose senses, mind, and intellect are controlled, wholly bent on liberation (mokṣa-parāyaṇa), free of desire, fear, and anger — he is for ever liberated (mukta).",
+        "note": "Here the word *mokṣa* appears outright, as the avowed goal (mokṣa-parāyaṇa), together with its participial form *mukta*. Śaṅkara glosses 'mokṣa-parāyaṇa' as 'one whose sole resort and highest course is liberation', and 'mukta eva saḥ' as 'there is no other liberation he must still accomplish' — the *Gītā*'s anticipation of *jīvanmukti*. Note that the verse simultaneously names the *muni* and the controlled *indriyas*, knotting this arc to the *muni* and *indriya* histories."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 7.29 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "jarā-maraṇa-mokṣāya mām āśritya yatanti ye | te brahma tad viduḥ kṛtsnam adhyātmaṃ karma cākhilam",
+        "rendering": "Those who strive, taking refuge in Me, for release from old age and death (jarā-maraṇa-mokṣa) — they come to know that Brahman entire, the whole of the self and of action.",
+        "note": "*Mokṣa* is here the explicit soteriological end — 'release from old age and death' — set as the term of striving and made to issue in brahma-knowledge. This is the *Gītā* treating *mokṣa* as the supreme human aim (the *puruṣārtha* of liberation), the developed form of the Upaniṣadic *amṛtatva*: deathlessness now named as release."
+      }
+    ]
+  },
   "see_also": [
     "jivanmukta",
     "videhamukti",

@@ -41,6 +41,39 @@
       "register_tag": "M; reflective reader (contemplative ascetic ideal)"
     }
   ],
+  "textual_history": {
+    "summary": "*Muni* is one of the oldest Indian words for the religious virtuoso, and its earliest profile is strikingly unlike the later 'silent sage'. In the Ṛgveda's Keśin hymn (10.136) the *muni* is the long-haired, wind-girded (*vātaraśana*) ecstatic: clad in soiled tawny rags, 'maddened' by his muni-state (*unmaditā mauneyena*), he rides the wind, traverses the worlds, knows the thoughts of all, and drinks poison from the cup with Rudra — a visionary, shamanic figure of inspired frenzy. The link to *mauna* ('silence') is already latent here in the word *mauneya* ('the muni-condition'), but it is the Upaniṣads that make silence-and-stillness the defining note. The Bṛhadāraṇyaka has the brāhmaṇa, having exhausted learning (*pāṇḍitya*) and child-like simplicity (*bālya*), 'become a muni', and then, having exhausted both non-silence and silence (*amauna* and *mauna*), 'become a brāhmaṇa' (3.5.1) — *muni* now an inward, contemplative station, and the same Upaniṣad's refrain 'knowing this very [Self] one becomes a muni' (4.4.x, etam eva viditvā munir bhavati) ties muni-hood to Self-knowledge. The *Bhagavad-Gītā* completes the interiorisation: the *muni* is the man unshaken in sorrow, free of craving, fear, and anger, 'called a *muni* of steady wisdom' (2.56), and recurs as the *saṃyamī* awake when all beings sleep (2.69). The development is thus a real shift of register — from Vedic ecstatic to Upaniṣadic-Gītā sage of inner silence — within a continuous word; the connecting thread is withdrawal from ordinary life, recast from rapture to stilled self-mastery.",
+    "stages": [
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 10.136.2–3, 7 (the Keśin hymn; Aufrecht ed.)",
+        "sanskrit": "munayo vātaraśanāḥ piśaṅgā vasate malā | vātasyānu dhrājiṁ yanti yad devāso avikṣata || unmaditā mauneyena vātām̐ ā tasthimā vayam | … | keśī viṣasya pātreṇa yad rudreṇāpibat saha",
+        "rendering": "The munis, girded with the wind, wear soiled tawny garments; they follow the rush of the wind when the gods have entered [them]. 'Maddened by the muni-state (mauneya), we have mounted upon the winds.' … The long-haired one, with the cup of poison, when he drank together with Rudra.",
+        "note": "The earliest *muni*: a wind-girded (vātaraśana), long-haired (keśin) ecstatic-visionary, 'maddened' by his muni-condition (mauneya) and companion of Rudra. This is inspired frenzy, not silence — yet the word *mauneya* already contains the *mauna* root that the later tradition foregrounds. (Aufrecht reads the plural 'munayo vātaraśanāḥ'; the singular 'munir vātaraśanaḥ' is sometimes cited. We print the verbatim on-disk plural.)"
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Bṛhadāraṇyaka Upaniṣad 3.5.1 (Kāṇva; GRETIL BrhUp_3,5.1)",
+        "sanskrit": "bālyaṃ ca pāṇḍityaṃ ca nirvidyātha muniḥ | amaunaṃ ca maunaṃ ca nirvidyātha brāhmaṇaḥ",
+        "rendering": "Having done with both child-like simplicity (bālya) and learning (pāṇḍitya), then [he becomes] a muni; having done with both non-silence and silence (amauna and mauna), then [he becomes] a brāhmaṇa.",
+        "note": "The interiorising turn: *muni* is now a contemplative station reached by transcending mere learning, and it is bracketed explicitly with *mauna* — silence. Śaṅkara's on-disk gloss derives *muni* from *manana* (reflection): 'from reflection he becomes a muni, a yogin'. The same Upaniṣad has 'etam eva viditvā munir bhavati' — 'knowing this very [Self], one becomes a muni' (BrhUp 4.4) — binding muni-hood to Self-knowledge rather than to ecstatic vision."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.56 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "duḥkheṣv anudvigna-manāḥ sukheṣu vigata-spṛhaḥ | vīta-rāga-bhaya-krodhaḥ sthita-dhīr munir ucyate",
+        "rendering": "He whose mind is unshaken amid sorrows, who is free of longing amid pleasures, from whom passion, fear, and anger have departed — he is called a muni of steady wisdom.",
+        "note": "The *Gītā* defines the *muni* purely by inner stillness and freedom from the reactive passions — the antithesis of the Vedic ecstatic's frenzy. Śaṅkara glosses 'muni' here as *saṃnyāsin*, the renunciant of steadied wisdom. The interiorisation begun in the Upaniṣads is complete: silence is now stilled mind, not a vow or a trance."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.69 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "yā niśā sarva-bhūtānāṃ tasyāṃ jāgarti saṃyamī | yasyāṃ jāgrati bhūtāni sā niśā paśyato muneḥ",
+        "rendering": "What is night for all beings, therein the self-controlled one (saṃyamī) is awake; that in which [other] beings are awake is night for the muni who sees.",
+        "note": "The *muni* under the aspect of inversion of ordinary awareness: awake to the self while the world sleeps to it, asleep to what the world chases. Here *muni* and its near-synonym *saṃyamī* ('the self-controlled one') name one figure under the two aspects of inner seeing and restraint — the Gītā's settled portrait of the silent sage."
+      }
+    ]
+  },
   "see_also": [
     "sthitaprajna",
     "jivanmukta",

@@ -431,6 +431,53 @@
       "citations": []
     }
   ],
+  "textual_history": {
+    "summary": "*Jñāna* is the abstract noun (√jñā + ana) for 'knowing'. In the Ṛgveda the root is overwhelmingly verbal and participial — *veda*, *jānāti*, *prajānan*, *vidvān* — and the abstract *jñāna* as a fixed term is essentially absent; knowing is something gods and seers *do*, not yet a reified faculty or path. The Upaniṣads make knowing soteriological: the verb-forms of √jñā/√vid mark the difference between bondage and release ('knowing thus, he becomes the All'; 'the knower of Brahman attains the highest'), and *jñāna* / *vijñāna* begin to crystallise as the liberating cognition itself. The classical systems then technicalise it: Sāṅkhya locates *jñāna* among the *sāttvika* states of *buddhi* and identifies the liberating form with discriminative *viveka* (SK 23, 64); Yoga organises it within the modes of *citta* and culminates in *vivekakhyāti* (YS 2.26–28). The *Gītā* gives the term its most influential career, making *jñāna* a *yoga* — a path co-ordinate with *karma* and *bhakti* — distinguishing *jñāna* from its applied realisation *vijñāna* (7.2), and exalting the *jñānī*, the one of knowledge, as dearest of devotees (7.16–18). The arc from Veda to Gītā is real for the *root*; the reification of *jñāna* as the liberating cognition and as a named discipline is an Upaniṣadic-and-later development.",
+    "stages": [
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 3.62.10 (the Gāyatrī; Aufrecht ed.)",
+        "sanskrit": "tat savitur vareṇyam bhargo devasya dhīmahi | dhiyo yo naḥ pracodayāt",
+        "rendering": "May we hold that excellent radiance of the god Savitṛ — he who may impel our thoughts (dhiyaḥ).",
+        "note": "In the Saṃhitā the knowing-words are verbal (*veda*, *jānāti*, *vidvān*) and the noun for inner cognition is *dhī* / *manīṣā*, not the abstract *jñāna*. The Gāyatrī's prayer that the god 'impel our *dhiyaḥ*' is the paradigmatic Vedic statement of illumined thought — knowledge as something kindled from without, not a stored possession. This is the conceptual prehistory of *jñāna*: the term itself stabilises only later, but the value placed on revealed insight is Vedic. (Resonance, not lexical genealogy: the word *jñāna* does not stand here.)"
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Aitareya Upaniṣad 3.3 (= 3.1.3; GRETIL aitup_3.3)",
+        "sanskrit": "… prajñānaṃ brahma",
+        "rendering": "… consciousness/discernment is Brahman (prajñānaṃ brahma).",
+        "note": "The Upaniṣadic turn that *jñāna* later inherits: cognition is no longer merely a means to ritual ends but is identified with the absolute. The Aitareya's *mahāvākya* uses the kindred form *prajñāna*; the same equation underwrites the Upaniṣadic refrain that liberation comes by *knowing* — e.g. the Muṇḍaka's 'the knower of Brahman becomes Brahman' (*brahmavid brahmaiva bhavati*) — where the verbal/abstract of √jñā/√vid carries the soteriological weight. This is the seedbed of the Vedāntic thesis, central to Advaita, that liberating *jñāna* alone removes ignorance."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Kaṭha Upaniṣad 1.3.13 (GRETIL kau_3.13)",
+        "sanskrit": "yacched vāṅmanasī prājñas tad yacchej jñāna ātmani | jñānam ātmani mahati niyacchet tad yacchec chānta ātmani",
+        "rendering": "Let the discerning one (prājña) restrain speech and mind into the [self of] knowledge; let him restrain knowledge (jñāna) into the great self; let him restrain that into the tranquil self.",
+        "note": "Here the noun *jñāna* appears as a stage of the inner ascent — speech and mind are gathered into *jñāna*, *jñāna* into the 'great self' (*mahān ātmā*). The verse stands inside the Kaṭha's faculty-hierarchy (see *buddhi* and *manas*), and several readers identify this *jñāna*-self with *buddhi*. It shows the abstract noun already functioning Upaniṣadically as a level of cognition to be transcended toward the self — a more reflective use than the Saṃhitā's verbs."
+      },
+      {
+        "era": "Sāṅkhya",
+        "locus": "Sāṅkhya-Kārikā 23 (on disk: isvarakrsna_samkhya_karika.txt, isk_23)",
+        "sanskrit": "adhyavasāyo buddhir dharmo jñānaṃ virāga aiśvaryam | sāttvikam etad rūpaṃ tāmasam asmād viparyastam",
+        "rendering": "Buddhi is determination (adhyavasāya); virtue, knowledge (jñāna), dispassion, and lordship [are] its sāttvika form; the tāmasa form is the reverse of this.",
+        "note": "Sāṅkhya places *jñāna* not in the *puruṣa* but among the *sāttvika* dispositions of *buddhi* — knowledge is a state of the determining intellect, paired with virtue and dispassion. The liberating form is the discriminative knowledge that separates *puruṣa* from *prakṛti* (SK 64, *tattvābhyāsān … na asmi na me na aham*), i.e. *jñāna* as *viveka*. This system-internal localisation of *jñāna* in *buddhi* is exactly what the *Gītā* presupposes when it speaks of the *jñāna* gained by *sāṅkhya-buddhi* (cf. 2.39)."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 7.2 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "jñānaṃ te 'haṃ sa-vijñānam idaṃ vakṣyāmy aśeṣataḥ | yaj jñātvā neha bhūyo 'nyaj jñātavyam avaśiṣyate",
+        "rendering": "I shall declare to you in full this knowledge (jñāna) together with its realisation (vijñāna), knowing which nothing further here remains to be known.",
+        "note": "The *Gītā*'s signature distinction: *jñāna* as the doctrinal knowing of the truth, *vijñāna* as its lived, direct realisation. Śaṅkara glosses *jñāna* as the knowledge of the divine reality (*īśvara-tattva-viṣayaṃ*) and *vijñāna* as making it one's own experience (*anubhava*). The verse marks *jñāna* as the totalising, terminal knowledge — 'knowing which, nothing else need be known' — the high Upaniṣadic valuation now framed as the Lord's own teaching."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 7.18 (verbatim from Śaṅkara's Gītā-Bhāṣya); cf. 7.16–17",
+        "sanskrit": "udārāḥ sarva evaite jñānī tv ātmaiva me matam | āsthitaḥ sa hi yuktātmā mām evānuttamāṃ gatim",
+        "rendering": "All these [worshippers] are noble, but the one of knowledge (jñānī) I hold to be my very self; for, integrated, he is fixed on Me alone as the highest goal.",
+        "note": "Of the four kinds who worship, the *jñānī* — the one possessed of *jñāna* — is singled out as 'my very self' (*ātmaiva me*) and 'dearest' (7.17). Here *jñāna* is no longer a state of *buddhi* (Sāṅkhya) but the mark of the supreme devotee: the *Gītā* fuses the knowledge-path with devotion, so that the highest *jñānī* is also the truest *bhakta*. This is the verse on which the whole later debate over *jñāna* versus *bhakti* (see the per-school material) turns."
+      }
+    ]
+  },
   "see_also": [
     "vidya",
     "anubhava",
