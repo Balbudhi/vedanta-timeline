@@ -2824,27 +2824,22 @@ function openGlossary(termKey, anchorEl) {
     // Diachronic "Across the texts": earliest attestations and how the term /
     // its imagery developed (Vedic → Upaniṣadic → classical), with verbatim
     // primary text and our own renderings.
+    // "Across the texts": an encyclopedic one-paragraph summary of how the term's
+    // usage evolved, plus compact citations the reader can look up — NOT the full
+    // verses (kept in the data for grounding, but not rendered).
+    const stripParen = (s) => String(s || "").replace(/\s*\([^)]*\)\s*/g, " ").trim();
     const th = entry.textual_history;
-    const historyBlock = (th && (th.summary || (th.stages && th.stages.length)))
+    const cites = (th && th.stages || []).map((s) => stripParen(s.locus)).filter(Boolean);
+    const historyBlock = (th && th.summary)
       ? `<div class="gp-history"><span class="gp-label">Across the texts</span>
-           ${th.summary ? `<div class="gp-history-summary">${md(th.summary)}</div>` : ""}
-           ${(th.stages || []).map((s) => `
-             <div class="gp-stage">
-               <div class="gp-stage-head">${escape(s.era || "")}${s.locus ? ` · ${escape(s.locus)}` : ""}</div>
-               ${s.sanskrit ? `<div class="gp-stage-sa" lang="sa-Latn">${escape(s.sanskrit)}</div>` : ""}
-               ${s.rendering ? `<div class="gp-stage-en">${md(s.rendering)}</div>` : ""}
-               ${s.note ? `<div class="gp-stage-note">${md(s.note)}</div>` : ""}
-             </div>`).join("")}
+           <div class="gp-history-summary">${md(th.summary)}</div>
+           ${cites.length ? `<div class="gp-history-cites">${cites.map((c) => `<span class="gp-cite">${escape(c)}</span>`).join("")}</div>` : ""}
          </div>`
       : "";
-    // Indo-European / classical cognates, where a genuine analog informs the term.
+    // Cognates: compact tags only (Greek/Latin/…), no markdown, no prose.
     const cog = entry.cognates;
-    const cognatesBlock = (cog && ((cog.items && cog.items.length) || cog.pie_root))
-      ? `<div class="gp-cognates"><span class="gp-label">Cognates</span><div class="gp-cog-body">
-           ${cog.pie_root ? `<div class="gp-cog-root">PIE ${escape(cog.pie_root)}</div>` : ""}
-           ${(cog.items || []).map((i) => `<div class="gp-cog-item"><span class="gp-cog-lang">${escape(i.lang)}</span> <span class="gp-cog-form">${escape(i.form)}</span>${i.sense ? ` — ${escape(i.sense)}` : ""}</div>`).join("")}
-           ${cog.note ? `<div class="gp-cog-note">${md(cog.note)}</div>` : ""}
-         </div></div>`
+    const cognatesBlock = (cog && cog.items && cog.items.length)
+      ? `<div class="gp-cognates"><span class="gp-cog-label">Cognates</span> <span class="gp-cog-tags">${cog.items.map((i) => `<span class="gp-cog-tag">${escape(i.lang)} <i>${escape(i.form)}</i></span>`).join("")}</span></div>`
       : "";
     const footnoteList = renderFootnoteList(allFootnotes);
     // Heading: prefer the surface form the user actually clicked when it

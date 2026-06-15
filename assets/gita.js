@@ -631,22 +631,16 @@ async function openGlossary(key, anchor) {
     const perSchool = (e.per_school || []).map(s =>
       `<div class="gp-row"><span class="gp-school">${esc(s.school)}</span><span class="gp-def">${mdInline(s.definition)}</span></div>`).join("");
     const cog = e.cognates;
-    const cognates = (cog && ((cog.items && cog.items.length) || cog.pie_root))
-      ? `<div class="gp-cognates"><span class="gp-note-label">Cognates</span>
-           ${cog.pie_root ? `<div class="gp-cog-root">PIE ${esc(cog.pie_root)}</div>` : ""}
-           ${(cog.items || []).map(i => `<div class="gp-cog-item"><span class="gp-cog-lang">${esc(i.lang)}</span> <span class="gp-cog-form">${esc(i.form)}</span>${i.sense ? " — " + esc(i.sense) : ""}</div>`).join("")}
-           ${cog.note ? `<div class="gp-cog-note">${mdInline(cog.note)}</div>` : ""}</div>`
+    const cognates = (cog && cog.items && cog.items.length)
+      ? `<div class="gp-cognates"><span class="gp-cog-label">Cognates</span> <span class="gp-cog-tags">${cog.items.map(i => `<span class="gp-cog-tag">${esc(i.lang)} <i>${esc(i.form)}</i></span>`).join("")}</span></div>`
       : "";
     const th = e.textual_history;
-    const history = (th && (th.summary || (th.stages && th.stages.length)))
+    const stripParen = (s) => String(s || "").replace(/\s*\([^)]*\)\s*/g, " ").trim();
+    const cites = (th && th.stages || []).map(s => stripParen(s.locus)).filter(Boolean);
+    const history = (th && th.summary)
       ? `<div class="gp-history"><span class="gp-note-label">Across the texts</span>
-           ${th.summary ? `<div class="gp-history-summary">${mdInline(th.summary)}</div>` : ""}
-           ${(th.stages || []).map(s => `<div class="gp-stage">
-             <div class="gp-stage-head">${esc(s.era || "")}${s.locus ? " · " + esc(s.locus) : ""}</div>
-             ${s.sanskrit ? `<div class="gp-stage-sa" lang="sa-Latn">${esc(s.sanskrit)}</div>` : ""}
-             ${s.rendering ? `<div class="gp-stage-en">${mdInline(s.rendering)}</div>` : ""}
-             ${s.note ? `<div class="gp-stage-note">${mdInline(s.note)}</div>` : ""}
-           </div>`).join("")}</div>`
+           <div class="gp-history-summary">${mdInline(th.summary)}</div>
+           ${cites.length ? `<div class="gp-history-cites">${cites.map(c => `<span class="gp-cite">${esc(c)}</span>`).join("")}</div>` : ""}</div>`
       : "";
     glossEl.innerHTML = `<button class="gp-x" aria-label="Close glossary">×</button>
       <div class="gp-term" id="gpTerm" lang="sa-Latn">${esc(e.term_iast || key)}</div>
