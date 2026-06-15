@@ -1143,7 +1143,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "prati-",
-            "gloss": "firmly, against"
+            "gloss": "firmly"
           },
           {
             "form": "√sthā",
@@ -1233,7 +1233,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "sam-",
-            "gloss": "together, in"
+            "gloss": "fully, together"
           },
           {
             "form": "√hṛ",
@@ -1443,7 +1443,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "prati-",
-            "gloss": "firmly, against"
+            "gloss": "firmly"
           },
           {
             "form": "√sthā",
@@ -2121,7 +2121,7 @@ window.GITA_VERSES = [
           },
           {
             "form": "para",
-            "gloss": "intent on, highest"
+            "gloss": "highest, supreme"
           }
         ]
       },
@@ -2254,7 +2254,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "prati-",
-            "gloss": "firmly, against"
+            "gloss": "firmly"
           },
           {
             "form": "√sthā",
@@ -2362,8 +2362,8 @@ window.GITA_VERSES = [
         "translatable": true,
         "parts": [
           {
-            "form": "√sañj",
-            "gloss": "to cling, attach"
+            "form": "saṅga",
+            "gloss": "attachment, clinging"
           }
         ]
       },
@@ -2443,7 +2443,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "sam-",
-            "gloss": "fully"
+            "gloss": "fully, together"
           },
           {
             "form": "√jan",
@@ -2613,7 +2613,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "sam-",
-            "gloss": "fully"
+            "gloss": "fully, together"
           },
           {
             "form": "√muh",
@@ -2636,7 +2636,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "sam-",
-            "gloss": "fully"
+            "gloss": "fully, together"
           },
           {
             "form": "√muh",
@@ -3469,7 +3469,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "√bhū",
-            "gloss": "to be (here: contemplation)"
+            "gloss": "to cause to be, cultivate (here: contemplation)"
           }
         ]
       },
@@ -4172,7 +4172,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "prati-",
-            "gloss": "firmly, against"
+            "gloss": "firmly"
           },
           {
             "form": "√sthā",
@@ -4331,7 +4331,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "sam-",
-            "gloss": "fully"
+            "gloss": "fully, together"
           },
           {
             "form": "√yam",

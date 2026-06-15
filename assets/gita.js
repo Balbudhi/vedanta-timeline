@@ -13,6 +13,14 @@ function esc(s) {
   }[c]));
 }
 
+// Glossary entries use *italic* / **bold** markdown. Escape first, then render
+// emphasis so asterisks don't show literally.
+function mdInline(s) {
+  return esc(s)
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+    .replace(/\*([^*]+)\*/g, "<em>$1</em>");
+}
+
 /* ---------- grammar jargon → plain English ---------- */
 const ABBR = [
   [/\bnom\./g, "nominative"], [/\bacc\./g, "accusative"], [/\binstr\./g, "instrumental"],
@@ -34,11 +42,7 @@ const CASE_SENSE = {
   nominative: "the subject", vocative: "one addressed",
 };
 function caseSense(plain) {
-  for (const k in CASE_SENSE) if (plain.indexOf(k) === 0 || plain.indexOf(" " + k) >= 0 || plain.indexOf(k) === 0) {
-    if (plain.startsWith(k)) return CASE_SENSE[k];
-  }
-  const first = plain.split(/[ ,]/)[0];
-  return CASE_SENSE[first] || null;
+  return CASE_SENSE[plain.split(/[ ,]/)[0]] || null;
 }
 
 /* ---------- English line: {indices:phrase} → highlightable spans ---------- */
@@ -160,11 +164,11 @@ function renderVerse(v, idx) {
 function renderVoiceBar() {
   if (!VOICES.length) return "";
   const chips = VOICES.map(voice =>
-    `<button class="vchip" data-voice="${esc(voice.id)}" type="button">${esc(voice.name)}</button>`).join("");
+    `<button class="vchip" data-voice="${esc(voice.id)}" type="button" aria-pressed="false">${esc(voice.name)}</button>`).join("");
   return `<div class="voicebar" id="voicebar">
-    <span class="voicebar-label">Read alongside:</span>
-    <div class="voicebar-chips">
-      <button class="vchip vchip-none is-active" data-voice="" type="button">Translation only</button>
+    <span class="voicebar-label" id="voicebarLabel">Read alongside:</span>
+    <div class="voicebar-chips" role="group" aria-labelledby="voicebarLabel">
+      <button class="vchip vchip-none" data-voice="" type="button" aria-pressed="true">Translation only</button>
       ${chips}
     </div>
   </div>`;
@@ -177,7 +181,9 @@ function render() {
   const built = buildVoices(VERSES);
   VOICES = built.voices; BYVERSE = built.byVerse;
 
-  root.innerHTML = renderVoiceBar() + VERSES.map((v, i) => renderVerse(v, i)).join("");
+  const slot = document.getElementById("voicebarSlot");
+  if (slot) slot.innerHTML = renderVoiceBar();
+  root.innerHTML = VERSES.map((v, i) => renderVerse(v, i)).join("");
   wireWords(root);
   wireVoiceBar();
 
@@ -191,8 +197,15 @@ function render() {
 function setActiveVoice(id) {
   const stage = document.getElementById("gitaStage");
   if (stage) stage.setAttribute("data-voice", id);
-  document.querySelectorAll(".vchip").forEach(c =>
-    c.classList.toggle("is-active", (c.dataset.voice || "") === id));
+  let activeName = "Translation only";
+  document.querySelectorAll(".vchip").forEach(c => {
+    const on = (c.dataset.voice || "") === id;
+    c.classList.toggle("is-active", on);
+    c.setAttribute("aria-pressed", on ? "true" : "false");
+    if (on) activeName = c.textContent.trim();
+  });
+  const status = document.getElementById("voiceStatus");
+  if (status) status.textContent = id ? `Showing ${activeName} alongside each verse.` : "Translation only.";
   // Show only the chosen voice's block under each verse (global + consistent).
   document.querySelectorAll(".voice-block").forEach(b => {
     b.style.display = (id && b.dataset.voice === id) ? "block" : "none";
@@ -234,8 +247,8 @@ function deactivate(span) {
   ve.querySelectorAll(".we").forEach(el => { if (el.dataset.wi.split(/\s+/).includes(i)) el.classList.remove("hi"); });
   hideCard();
 }
+let sticky = null, hover = null;
 function wireWords(root) {
-  let sticky = null, hover = null;
   root.addEventListener("mouseover", e => {
     const w = e.target.closest(".w"); if (!w || w === hover) return;
     if (hover && hover !== sticky) deactivate(hover);
@@ -263,9 +276,12 @@ function wireWords(root) {
   root.addEventListener("focusin", e => { const w = e.target.closest(".w"); if (w) activate(w); });
   root.addEventListener("focusout", e => { const w = e.target.closest(".w"); if (!w || w === sticky) return; deactivate(w); });
   document.addEventListener("keydown", e => {
-    if (e.key === "Escape") { if (sticky) { deactivate(sticky); sticky = null; } closeGlossary(); }
+    if (e.key === "Escape") {
+      if (glossEl) { closeGlossary(); return; }      // close glossary first
+      if (sticky) { deactivate(sticky); sticky = null; }
+    }
   });
-  window.addEventListener("scroll", hideCard, { passive: true });
+  window.addEventListener("scroll", () => { hideCard(); }, { passive: true });
 }
 
 let cardEl = null;
@@ -273,7 +289,15 @@ function ensureCard() {
   if (cardEl) return cardEl;
   cardEl = document.createElement("div");
   cardEl.className = "wcard";
+  cardEl.setAttribute("role", "tooltip");
   cardEl.hidden = true;
+  // Leaving the card (when no word is pinned) clears the hover state so the
+  // card + highlight don't linger after the pointer moves away.
+  cardEl.addEventListener("mouseleave", () => {
+    if (sticky) return;
+    if (hover) { deactivate(hover); hover = null; }
+    else hideCard();
+  });
   document.body.appendChild(cardEl);
   return cardEl;
 }
@@ -304,8 +328,10 @@ function showCard(span, w) {
   if (w.glossaryKey) rows.push(`<button class="wc-gl" data-term="${esc(w.glossaryKey)}" type="button">More in glossary →</button>`);
 
   card.innerHTML = rows.join("");
+  card.style.visibility = "hidden";   // measure off-screen to avoid a top-left flash
   card.hidden = false;
   place(card, span);
+  card.style.visibility = "visible";
   const gl = card.querySelector(".wc-gl");
   if (gl) gl.addEventListener("click", ev => { ev.stopPropagation(); openGlossary(gl.dataset.term, gl); });
 }
@@ -322,6 +348,8 @@ function place(el, anchor) {
   const maxL = window.scrollX + document.documentElement.clientWidth - er.width - margin;
   left = Math.max(minL, Math.min(maxL, left));
   if (top < window.scrollY + margin) top = r.bottom + 10 + window.scrollY;
+  const maxT = window.scrollY + window.innerHeight - er.height - margin;
+  if (top > maxT) top = Math.max(window.scrollY + margin, maxT);
   el.style.left = left + "px"; el.style.top = top + "px";
 }
 
@@ -334,33 +362,46 @@ async function loadGloss(key) {
   try { const r = await fetch(GLOSS_BASE + key + ".json"); if (r.ok) e = await r.json(); } catch (_) {}
   glossCache.set(key, e); return e;
 }
-let glossEl = null;
+let glossEl = null, glossReturnFocus = null;
 async function openGlossary(key, anchor) {
   const e = await loadGloss(key);
   closeGlossary();
+  glossReturnFocus = anchor || null;
   glossEl = document.createElement("div");
   glossEl.className = "gpop";
+  glossEl.setAttribute("role", "dialog");
+  glossEl.setAttribute("aria-modal", "false");
+  glossEl.setAttribute("aria-labelledby", "gpTerm");
   if (!e) {
-    glossEl.innerHTML = `<button class="gp-x" aria-label="Close">×</button><div class="gp-term">${esc(key)}</div><p class="gp-def">No glossary entry yet.</p>`;
+    glossEl.innerHTML = `<button class="gp-x" aria-label="Close glossary">×</button><div class="gp-term" id="gpTerm">${esc(key)}</div><p class="gp-def">No glossary entry yet.</p>`;
   } else {
-    glossEl.innerHTML = `<button class="gp-x" aria-label="Close">×</button>
-      <div class="gp-term" lang="sa-Latn">${esc(e.term_iast || key)}</div>
-      ${e.literal ? `<div class="gp-lit">${esc(e.literal)}</div>` : ""}
-      ${e.invariant_definition ? `<p class="gp-def">${esc(e.invariant_definition)}</p>` : ""}
-      ${e.translator_note ? `<p class="gp-note">${esc(e.translator_note)}</p>` : ""}`;
+    glossEl.innerHTML = `<button class="gp-x" aria-label="Close glossary">×</button>
+      <div class="gp-term" id="gpTerm" lang="sa-Latn">${esc(e.term_iast || key)}</div>
+      ${e.literal ? `<div class="gp-lit">${mdInline(e.literal)}</div>` : ""}
+      ${e.invariant_definition ? `<p class="gp-def">${mdInline(e.invariant_definition)}</p>` : ""}
+      ${e.translator_note ? `<p class="gp-note">${mdInline(e.translator_note)}</p>` : ""}`;
   }
   document.body.appendChild(glossEl);
   place(glossEl, anchor);
-  glossEl.querySelector(".gp-x").addEventListener("click", closeGlossary);
+  const x = glossEl.querySelector(".gp-x");
+  x.addEventListener("click", closeGlossary);
+  x.focus();
 }
-function closeGlossary() { if (glossEl) { glossEl.remove(); glossEl = null; } }
+function closeGlossary() {
+  if (!glossEl) return;
+  glossEl.remove(); glossEl = null;
+  if (glossReturnFocus && glossReturnFocus.focus) { try { glossReturnFocus.focus(); } catch (_) {} }
+  glossReturnFocus = null;
+}
+window.addEventListener("scroll", () => { if (glossEl) closeGlossary(); }, { passive: true });
 
 /* ---------- close / back ---------- */
 function wireClose() {
   const b = document.getElementById("gitaClose");
   if (!b) return;
   b.addEventListener("click", () => {
-    if (document.referrer && history.length > 1) history.back();
+    // referrer is always empty (meta no-referrer), so gate on history depth.
+    if (history.length > 1) history.back();
     else window.location.href = "../../";
   });
 }

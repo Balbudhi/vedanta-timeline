@@ -18,14 +18,18 @@
 <body>
   <main class="gita-page">
     <div class="gita-stage" id="gitaStage" data-voice="">
-      <div class="gita-bar">
-        <div class="gita-titles">
-          <h1 class="gita-title">Bhagavad-Gītā 2.54–72</h1>
-          <p class="gita-voices-line">Śaṅkara · Rāmānuja · Madhva · Śrīdhara · Madhusūdana · Aurobindo · across traditions</p>
+      <div class="gita-sticky">
+        <div class="gita-bar">
+          <div class="gita-titles">
+            <h1 class="gita-title">Bhagavad-Gītā 2.54–72</h1>
+            <p class="gita-voices-line">Śaṅkara · Rāmānuja · Madhva · Śrīdhara · Madhusūdana · Aurobindo · across traditions</p>
+          </div>
+          <button class="gita-close" id="gitaClose" type="button" aria-label="Close and return">×</button>
         </div>
-        <button class="gita-close" id="gitaClose" type="button" aria-label="Close and return">×</button>
+        <div id="voicebarSlot"></div>
       </div>
-      <section class="gita-root" id="gitaRoot" aria-live="polite"></section>
+      <section class="gita-root" id="gitaRoot"></section>
+      <div class="sr-only" id="voiceStatus" aria-live="polite"></div>
     </div>
   </main>
 
