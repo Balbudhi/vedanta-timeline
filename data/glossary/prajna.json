@@ -3,6 +3,15 @@
   "term_iast": "prajñā",
   "term_devanagari": "प्रज्ञा",
   "literal": "wisdom, discernment, insight; from pra- (intensive, 'forth, thoroughly') + √jñā 'to know' (pra-√jñā + a, fem.), 'a knowing-forth', heightened or thoroughgoing knowing",
+  "cognates": {
+    "pie_root": "*ǵneh₃- ‘to know’ (the √jñā element)",
+    "items": [
+      {"lang": "Greek", "form": "gnôsis (γνῶσις)", "sense": "knowledge"},
+      {"lang": "Latin", "form": "(co)gnōscere", "sense": "to come to know"},
+      {"lang": "English", "form": "know", "sense": ""}
+    ],
+    "note": "Only the √jñā root is cognate (PIE *ǵneh₃-); the prefix pra- (PIE *pro-, cf. Greek pró, Latin prō, Eng. ‘fore-/for-’) is a separate true cognate. The compound itself has no single Indo-European counterpart."
+  },
   "aliases": [
     "prajna",
     "prajñā",

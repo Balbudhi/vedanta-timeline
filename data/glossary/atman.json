@@ -3,6 +3,16 @@
   "term_iast": "ātman",
   "term_devanagari": "आत्मन्",
   "literal": "self; reflexively, that which one refers to as 'I'; from a root meaning 'breath' (cf. Greek *atmos*) but used in classical Sanskrit purely for the self",
+  "cognates": {
+    "pie_root": "*h₂eth₁-mos / *h₁eh₁tmen- ‘breath’ (a Graeco-Aryan–Germanic breath-root)",
+    "items": [
+      {"lang": "Greek", "form": "atmós (ἀτμός)", "sense": "vapour, steam, breath"},
+      {"lang": "Old High German", "form": "ātum", "sense": "breath"},
+      {"lang": "German", "form": "Atem", "sense": "breath"},
+      {"lang": "Dutch", "form": "adem", "sense": "breath"}
+    ],
+    "note": "True cognate within the breath-word family: Skt. ātmán, Greek atmós, and German Atem all reflect a PIE ‘breath’ root. The match with Germanic ātum/Atem is the firmest; the Sanskrit -tmán formation shows a nasal suffix not present in Greek. No Latin or English native reflex survives."
+  },
   "aliases": [
     "atman",
     "ātman",

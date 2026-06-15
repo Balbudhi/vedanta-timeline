@@ -3,6 +3,16 @@
   "term_iast": "jñāna",
   "term_devanagari": "ज्ञान",
   "literal": "knowing; cognition; knowledge",
+  "cognates": {
+    "pie_root": "*ǵneh₃- ‘to know’",
+    "items": [
+      {"lang": "Greek", "form": "gnôsis (γνῶσις)", "sense": "knowledge"},
+      {"lang": "Latin", "form": "(co)gnōscere", "sense": "to come to know"},
+      {"lang": "Old English", "form": "cnāwan", "sense": "to know"},
+      {"lang": "English", "form": "know; gnosis (via Greek)", "sense": ""}
+    ],
+    "note": "True cognate: Skt. √jñā and the Greek/Latin/Germanic ‘know’-words all descend from PIE *ǵneh₃-. English ‘gnosis’ is a learned Greek borrowing, not an independent reflex, but it shares the same root."
+  },
   "aliases": [
     "jnana",
     "jñāna",

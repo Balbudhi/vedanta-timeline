@@ -3,6 +3,15 @@
   "term_iast": "kāma",
   "term_devanagari": "काम",
   "literal": "desire, longing, the wish for an object; action-noun from √kam 'to desire, to long for' (kam + ghañ → kāma), 'that which is desired' or 'the desiring'",
+  "cognates": {
+    "pie_root": "*keh₂- ‘to desire, to love’",
+    "items": [
+      {"lang": "Latin", "form": "cārus", "sense": "dear, beloved"},
+      {"lang": "Old Irish", "form": "caraid", "sense": "loves"},
+      {"lang": "Old English", "form": "hōre", "sense": "(one who is) desired"}
+    ],
+    "note": "True cognate: Skt. √kam (< *kā- from *keh₂-) and Latin cārus ‘dear’ derive from the same desire-root. The link is well attested across Italic and Celtic; there is no native modern-English reflex in common use."
+  },
   "aliases": [
     "kama",
     "kāma",

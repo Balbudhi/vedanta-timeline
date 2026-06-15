@@ -3,6 +3,15 @@
   "term_iast": "asat",
   "term_devanagari": "असत्",
   "literal": "non-being, non-existent; a- + sat",
+  "cognates": {
+    "pie_root": "privative *n̥- ‘not’ + *h₁es- ‘to be’",
+    "items": [
+      {"lang": "Greek", "form": "a-/an- (ἀ-, ἀν-)", "sense": "not- (privative)"},
+      {"lang": "Latin", "form": "in-", "sense": "not- (privative)"},
+      {"lang": "English", "form": "un-; (cf. Greek a- in ‘atheist’)", "sense": ""}
+    ],
+    "note": "Both elements are true cognates: the Sanskrit privative a-/an- (PIE *n̥-) is the same negative prefix as Greek a-/an-, Latin in-, and English un-; the sat element continues *h₁es- ‘to be’ (see ‘sat’). So asat is, root for root, parallel to Greek an-on ‘non-being’."
+  },
   "aliases": [
     "asat",
     "Asat",

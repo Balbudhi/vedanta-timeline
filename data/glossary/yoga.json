@@ -3,6 +3,15 @@
   "term_iast": "yoga",
   "term_devanagari": "योग",
   "literal": "union, yoking, joining; discipline, method, means; action-noun from √yuj 'to join, to yoke, to harness' (yuj + ghañ → yoga), cognate with English 'yoke'",
+  "cognates": {
+    "pie_root": "*yewg- ‘to join, to yoke’",
+    "items": [
+      {"lang": "Greek", "form": "zugón (ζυγόν)", "sense": "yoke"},
+      {"lang": "Latin", "form": "iugum; iungere", "sense": "yoke; to join"},
+      {"lang": "English", "form": "yoke", "sense": ""}
+    ],
+    "note": "True cognate: Skt. yoga and English ‘yoke’ descend from the same PIE root *yewg-; ‘yoke’ is the inherited Germanic reflex, not a borrowing. Latin iungere also gives Eng. ‘join, junction, conjugate’."
+  },
   "aliases": [
     "yoga",
     "Yoga",

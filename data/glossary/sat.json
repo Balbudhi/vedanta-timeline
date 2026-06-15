@@ -3,6 +3,15 @@
   "term_iast": "sat",
   "term_devanagari": "सत्",
   "literal": "being, existing; present participle of √as 'to be'",
+  "cognates": {
+    "pie_root": "*h₁es- ‘to be’ (sat = the participle *h₁s-n̥t- ‘being’)",
+    "items": [
+      {"lang": "Latin", "form": "est; (prae)sēns ‘being-present’", "sense": "is; present"},
+      {"lang": "Greek", "form": "estí (ἐστί); ón / ónt- (ὄν, ὄντος)", "sense": "is; being (cf. ‘ontology’)"},
+      {"lang": "English", "form": "is; sooth (‘that which is’); sin (via *sont-)", "sense": ""}
+    ],
+    "note": "True cognate, and unusually exact: Skt. sat is the present participle of √as, formed on PIE *h₁s-n̥t-, the very same participial stem behind Greek ón(t)- (‘ontology’), Latin -sēns, and English ‘sooth’ and ‘sin’. The finite verb √as = Latin est = Greek estí = Eng. ‘is’."
+  },
   "aliases": [
     "sat",
     "Sat",

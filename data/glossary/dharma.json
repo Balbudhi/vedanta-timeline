@@ -3,6 +3,15 @@
   "term_iast": "dharma",
   "term_devanagari": "धर्म",
   "literal": "that which holds, supports, sustains; from √dhṛ 'to hold, to bear'",
+  "cognates": {
+    "pie_root": "*dʰer- ‘to hold fast, support’",
+    "items": [
+      {"lang": "Latin", "form": "firmus", "sense": "firm, steadfast"},
+      {"lang": "Latin", "form": "fortis (Old Lat. forctus)", "sense": "strong"},
+      {"lang": "English", "form": "firm (via Latin)", "sense": ""}
+    ],
+    "note": "Skt. √dhṛ < PIE *dʰer- ‘hold, support’ is secure. The Latin firmus/fortis link to the same root is the traditional (Pokorny) reconstruction and is plausible but not universally accepted; Eng. ‘firm’ is a Latin loan, not a native cognate."
+  },
   "aliases": [
     "dharma",
     "Dharma",

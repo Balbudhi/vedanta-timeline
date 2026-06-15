@@ -3,6 +3,16 @@
   "term_iast": "manas",
   "term_devanagari": "मनस्",
   "literal": "thought-organ; from √man 'to think' (cognate with Latin *mens*, Greek *menos*, English 'mind')",
+  "cognates": {
+    "pie_root": "*men- ‘to think’",
+    "items": [
+      {"lang": "Greek", "form": "menos (μένος)", "sense": "spirit, force of mind"},
+      {"lang": "Greek", "form": "mnē- / mémona (μνη-)", "sense": "to be mindful, to remember"},
+      {"lang": "Latin", "form": "mēns (gen. mentis)", "sense": "mind"},
+      {"lang": "English", "form": "mind", "sense": ""}
+    ],
+    "note": "True cognate: Skt. manas and Greek menos are exact formal matches (PIE *men-os), with Latin mēns and English ‘mind’ from the same root."
+  },
   "aliases": [
     "manas",
     "Manas",
