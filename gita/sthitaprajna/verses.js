@@ -15,7 +15,7 @@ window.GITA_VERSES = [
     "devanagari": "स्थितप्रज्ञस्य का भाषा समाधिस्थस्य केशव।\nस्थितधीः किं प्रभाषते किम् आसीत व्रजेत किम्॥",
     "iast": "sthitaprajñasya kā bhāṣā samādhisthasya keśava |\nsthitadhīḥ kiṃ prabhāṣate kim āsīta vrajeta kim ||",
     "sense": "Arjuna asks: the man of settled wisdom, absorbed in samādhi — how does he speak, how does he sit, how does he move? What outwardly marks him?",
-    "english": "{0:Of one whose wisdom stands firm}, {3:settled in samādhi} — {1:what} is the {2:the speech}, {4:Keśava}? {6:How} does {5:the steady-minded one} {7:speak}? {8:How} does he {9:sit}? {11:How} does he {10:move}?",
+    "english": "{0:Of one whose wisdom stands firm}, {3:settled in samādhi} — {1:what} is {2:the speech}, {4:Keśava}? {6:How} does {5:the steady-minded one} {7:speak}? {8:How} does he {9:sit}? {11:How} does he {10:move}?",
     "words": [
       {
         "i": 0,
