@@ -18,7 +18,11 @@
   border: 1px solid var(--rule); border-radius: 14px; padding: 4px 12px; margin-top: 10px; text-decoration: none;
 }
 .dp-standalone:hover { background: var(--bg-warm); color: var(--ink); }
-.gita-reader .voicebar { position: sticky; top: 0; z-index: 5; background: var(--bg); padding-top: 8px; }
+.gita-reader .voicebar {
+  position: sticky; top: 0; z-index: 5; background: var(--bg);
+  padding: 10px 0; margin-bottom: 16px;
+  box-shadow: 0 6px 10px -9px rgba(0,0,0,.25);   /* reads as a clean toolbar, not a transparent overlay */
+}
 
 .sr-only {
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
@@ -70,7 +74,7 @@
 .verse-locus { font-size: 12px; font-weight: 700; color: var(--ink); letter-spacing: .02em; }
 .verse-speaker { font-size: 11px; color: var(--muted-soft); }
 
-.verse-sa { font-size: 17px; line-height: 1.7; font-style: italic; color: var(--muted); margin-bottom: 12px; overflow-wrap: anywhere; }
+.verse-sa { font-size: 17px; line-height: 1.7; font-style: italic; color: var(--ink-soft); margin-bottom: 12px; overflow-wrap: anywhere; }
 
 /* interactive block (pada line + slotted English) — mūla and commentary */
 .ix-pada { font-size: 18px; line-height: 2.15; margin-bottom: 14px; overflow-wrap: anywhere; }
@@ -85,13 +89,15 @@
   text-underline-offset: 3px; text-decoration-thickness: 1px;
   transition: background .12s;
 }
-.w:hover { background: var(--bg-warmer); }
-.w:focus, .w.hi { background: #f3eccf; outline: none; }
+/* hover highlights the matching word(s) in the other language (.hl, set by JS);
+   click pins a stronger highlight (.hi) and opens the card */
+.w:hover, .w.hl, .we:hover, .we.hl { background: #f3eccf; }
+.w:focus, .w.hi, .we.hi { background: #e7d68f; outline: none; }
 .w-name { text-decoration-style: dotted; }
 .we { border-radius: 3px; padding: 0 1px; cursor: pointer; transition: background .12s; }
-.we:hover { background: var(--bg-warmer); }
-.we.hi { background: #f3eccf; }
-html[data-theme="dark"] .w:focus, html[data-theme="dark"] .w.hi, html[data-theme="dark"] .we.hi { background: #3a3622; }
+html[data-theme="dark"] .w:hover, html[data-theme="dark"] .w.hl,
+html[data-theme="dark"] .we:hover, html[data-theme="dark"] .we.hl { background: #34301c; }
+html[data-theme="dark"] .w:focus, html[data-theme="dark"] .w.hi, html[data-theme="dark"] .we.hi { background: #4a4422; }
 
 /* ---------- voices under a verse (only the chosen one shows) ---------- */
 .verse-voices { margin-top: 16px; display: flex; flex-direction: column; gap: 14px; }

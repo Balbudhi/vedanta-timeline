@@ -279,7 +279,28 @@ function pinWord(w) {
   if (sticky) deactivate(sticky);
   sticky = w; activate(w);
 }
+// Hover highlights the corresponding word(s) in the other language WITHOUT
+// opening the card (cards are click-only). Uses a separate .hl class so it
+// never clobbers the pinned (.hi) selection.
+function hoverSet(scopeEl, indices, on) {
+  const set = new Set(indices);
+  scopeEl.querySelectorAll(".w").forEach(el => { if (set.has(el.dataset.wi)) el.classList.toggle("hl", on); });
+  scopeEl.querySelectorAll(".we").forEach(el => { if (el.dataset.wi.split(/\s+/).some(x => set.has(x))) el.classList.toggle("hl", on); });
+}
+function hoverTargets(t) {
+  const sc = t.closest("[data-wscope]"); if (!sc) return null;
+  const idxs = t.classList.contains("w") ? [t.dataset.wi] : t.dataset.wi.split(/\s+/);
+  return { sc, idxs };
+}
 function wireWords() {
+  ROOT.addEventListener("mouseover", e => {
+    const t = e.target.closest(".w, .we"); if (!t) return;
+    const h = hoverTargets(t); if (h) hoverSet(h.sc, h.idxs, true);
+  });
+  ROOT.addEventListener("mouseout", e => {
+    const t = e.target.closest(".w, .we"); if (!t) return;
+    const h = hoverTargets(t); if (h) hoverSet(h.sc, h.idxs, false);
+  });
   ROOT.addEventListener("click", e => {
     const who = e.target.closest(".voice-who-link");
     if (who) { e.stopPropagation(); if (HOST_THINKER) HOST_THINKER(who.dataset.thinker); return; }

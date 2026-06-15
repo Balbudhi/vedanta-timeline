@@ -14684,7 +14684,7 @@ window.GITA_VERSES = [
           {
             "i": 11,
             "iast": "mohena",
-            "gloss": "delusion",
+            "gloss": "by / through delusion",
             "parts": [
               {
                 "form": "moha",

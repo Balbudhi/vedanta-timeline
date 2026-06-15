@@ -3626,8 +3626,7 @@ window.GITA_COMMENTARY = {
               "gloss": "womb"
             }
           ],
-          "morph": "nominative singular masculine",
-          "glossaryKey": "tathagatagarbha"
+          "morph": "nominative singular masculine"
         },
         {
           "i": 38,
@@ -25836,8 +25835,7 @@ window.GITA_COMMENTARY = {
               "gloss": "excluding, except"
             }
           ],
-          "morph": "adverb (accusative)",
-          "glossaryKey": "raga"
+          "morph": "adverb (accusative)"
         },
         {
           "i": 50,
@@ -54728,7 +54726,7 @@ window.GITA_COMMENTARY = {
         },
         {
           "i": 91,
-          "iast": "vīkṣyate",
+          "iast": "vīkṣyante",
           "gloss": "is seen",
           "parts": [
             {
@@ -76385,8 +76383,7 @@ window.GITA_COMMENTARY = {
               "gloss": "womb"
             }
           ],
-          "morph": "locative singular masculine",
-          "glossaryKey": "tathagatagarbha"
+          "morph": "locative singular masculine"
         },
         {
           "i": 546,
