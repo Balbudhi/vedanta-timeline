@@ -1,0 +1,53 @@
+{
+  "term_key": "abhyasa",
+  "term_iast": "abhyāsa",
+  "term_devanagari": "अभ्यास",
+  "literal": "repeated practice, exercise; from abhi- ('toward, repeatedly') + √as 'to throw, to cast' (or √ās 'to sit/apply') in the sense of 'repeated application', hence 'sustained, reiterated practice'",
+  "aliases": [
+    "abhyasa",
+    "abhyāsa",
+    "Abhyāsa",
+    "abhyāsaḥ",
+    "abhyāsena",
+    "abhyāsa-yoga"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Abhyāsa* is sustained, repeated practice — the reiterated effort by which the mind is trained to rest in a chosen condition. In Pātañjala Yoga it is, with *vairāgya* (dispassion), one of the two means of stilling the modifications of the mind (*abhyāsa-vairāgyābhyāṃ tan-nirodhaḥ*, YS 1.12); *abhyāsa* is defined as the effort toward steadiness (*sthitau yatnaḥ*, YS 1.13), which becomes firmly grounded when pursued long, without interruption, and with reverence (YS 1.14). The pairing of practice and dispassion is foundational: practice supplies the positive cultivation of steadiness, dispassion removes the pull of objects that would unsettle it. The *Gītā* takes up the same pair when Kṛṣṇa, conceding that the mind is hard to curb, says it is mastered 'by practice and by dispassion' (*abhyāsena tu kaunteya vairāgyeṇa ca*, 6.35), and it speaks of *abhyāsa-yoga* as a graded path for one who cannot fix the mind directly (12.9–10). Across the tradition *abhyāsa* names the disciplinary, repetitive dimension of any sādhana — whether the steadying of attention, the deepening of meditation, or the reiterated turning of the mind to the truth heard — as against the spontaneous or the merely occasional.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Abhyāsa* names **sustained, repeated practice — the reiterated effort that grounds the mind in a chosen steadiness**, paired across the disciplines with *vairāgya* as the two means of mastering the mind (YS 1.12; Gītā 6.35).",
+    "register_axes_note": "Broadly **shared** as a discipline-term. Differences are of placement, not meaning: Yoga makes *abhyāsa* one of the two means of *nirodha* and defines it precisely (YS 1.13–14); the *Gītā* offers *abhyāsa-yoga* as a concessive path for the unsteady mind (12.9–10); the Vedāntic use extends it to the reiterated turning of the mind to the truth in *nididhyāsana*."
+  },
+  "per_school": [
+    {
+      "school": "Yoga",
+      "definition": "*Abhyāsa* is, with *vairāgya*, one of the two means by which the *citta-vṛttis* are stilled (YS 1.12). It is the effort toward steadiness of mind (YS 1.13) and becomes firmly grounded (*dṛḍha-bhūmi*) only when practiced for a long time, without break, and with earnestness (YS 1.14). Practice and dispassion are complementary: the one cultivates steadiness, the other withdraws the mind from the objects that disturb it; together they carry the practitioner toward *samādhi*.",
+      "primary_loci": [
+        "Yoga-Sūtra 1.12 (abhyāsa-vairāgyābhyāṃ tan-nirodhaḥ)",
+        "Yoga-Sūtra 1.13 (tatra sthitau yatno 'bhyāsaḥ)",
+        "Yoga-Sūtra 1.14 (sa tu dīrgha-kāla-nairantarya-satkārāsevito dṛḍha-bhūmiḥ)"
+      ],
+      "register_tag": "Φ+S; yogin (one of the two means of nirodha)"
+    },
+    {
+      "school": "Bhagavad-Gītā",
+      "definition": "When Arjuna objects that the mind is restless and hard to curb, Kṛṣṇa agrees but says it is held 'by practice and by dispassion' (6.35), taking up the Yoga pair. The *Gītā* further commends *abhyāsa-yoga* as a graded concession: one unable to fix the mind on the Lord directly should seek to reach him by repeated practice (12.9), and failing that, devote oneself to action for his sake (12.10). *Abhyāsa* is thus the entry-level discipline of attention for those not yet capable of steady absorption or direct devotion.",
+      "primary_loci": [
+        "Bhagavad-Gītā 6.35 (abhyāsena tu kaunteya vairāgyeṇa ca gṛhyate)",
+        "Bhagavad-Gītā 12.9-10 (abhyāsa-yoga as a graded path)",
+        "Bhagavad-Gītā 8.8 (abhyāsa-yoga-yuktena cetasā)"
+      ],
+      "register_tag": "M+S; mumukṣu (practice paired with dispassion)"
+    }
+  ],
+  "see_also": [
+    "vairagya",
+    "yoga",
+    "citta-vrtti-nirodha",
+    "samadhi",
+    "nididhyasana",
+    "sadhana"
+  ],
+  "translator_note": "'Practice' is right, but it should carry the force of *repeated, sustained* application — YS 1.14 makes long, uninterrupted, earnest repetition essential, not occasional effort. Keep *abhyāsa* and *vairāgya* together where the texts pair them: they are the two complementary means (positive cultivation and negative withdrawal), and translating one without flagging the other loses the structure of Yoga 1.12 and Gītā 6.35."
+}

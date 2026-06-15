@@ -1,0 +1,53 @@
+{
+  "term_key": "purusartha",
+  "term_iast": "puruṣārtha",
+  "term_devanagari": "पुरुषार्थ",
+  "literal": "the goal of a human being, that which a person seeks; *puruṣa* 'person, human being' + *artha* 'aim, object, purpose' (√arth 'to strive for'), hence 'the end pursued by a person', and in technical use 'that which serves the purpose of the puruṣa'",
+  "aliases": [
+    "purusartha",
+    "puruṣārtha",
+    "Puruṣārtha",
+    "puruṣārthaḥ",
+    "puruṣārthāḥ",
+    "puruṣārthatā"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Puruṣārtha* is a human aim or end — that which a person rightly pursues. The classical tradition enumerates four: *dharma* (righteousness, the ordering of life by duty), *artha* (worldly means, wealth and security), *kāma* (legitimate desire and enjoyment), and *mokṣa* (liberation), the last being the highest and supreme aim (*parama-puruṣārtha*) toward which the soteriological literature is oriented. The scheme places the pursuit of enjoyment and prosperity within a hierarchy governed by *dharma* and crowned by liberation, so that *kāma* and *artha* are legitimate when regulated by *dharma* and subordinated to the final end. The term has a second, more technical life in Sāṅkhya–Yoga, where *puruṣārtha* means 'the purpose of the *puruṣa*' — the end that *prakṛti* serves in displaying itself for the sake of the conscious self, and whose completion (the *puruṣa*'s discriminative vision) is the occasion of *prakṛti*'s withdrawal and the dawn of *kaivalya*. In both registers the word turns on what existence is *for*: in the ethical-soteriological scheme, the ordered goods of a human life culminating in release; in the Sāṅkhya analysis, the very teleology that makes the unfolding of nature intelligible and its cessation possible.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Puruṣārtha* names **a legitimate human aim — classically the four ends *dharma, artha, kāma, mokṣa*, with liberation supreme** — and, in Sāṅkhya–Yoga, 'the purpose of the *puruṣa*' that *prakṛti* serves. The fourfold scheme is broadly shared; the technical Sāṅkhya sense is system-specific.",
+    "register_axes_note": "A **difference of aspect** between the two main uses: *puruṣārtha* as one of the four human goals (an ethics-and-soteriology of ordered ends) and *puruṣārtha* as the teleological 'purpose of the *puruṣa*' in Sāṅkhya–Yoga (a metaphysics of why nature unfolds). The word's literal sense — 'what serves the person's end' — underlies both."
+  },
+  "per_school": [
+    {
+      "school": "Bhagavad-Gītā",
+      "definition": "The *Gītā* presupposes the fourfold scheme of human ends and orders them: *kāma* and *artha* are legitimate only as governed by *dharma* (the Lord declares himself the desire not contrary to *dharma*, 7.11), while *mokṣa* — release from *saṃsāra* and union with the supreme — is the highest aim toward which the whole teaching points. The text's reframing of duty (*svadharma*), desireless action, and devotion is in effect a re-ordering of the *puruṣārthas* around liberation as the *parama-puruṣārtha*, with the lower ends retained but subordinated.",
+      "primary_loci": [
+        "Bhagavad-Gītā 7.11 (dharmāviruddho bhūteṣu kāmo 'smi; legitimate kāma)",
+        "Bhagavad-Gītā 16.21-23 (the ruin of the human ends through unchecked passion)",
+        "Bhagavad-Gītā 18.66 (mokṣa as the supreme end)"
+      ],
+      "register_tag": "M+RN; mumukṣu (the four ends ordered to mokṣa)"
+    },
+    {
+      "school": "Sāṅkhya",
+      "definition": "In Sāṅkhya *puruṣārtha* is 'the purpose of the *puruṣa*': the entire evolution of *prakṛti* is for the sake of the conscious self — its experience (*bhoga*) and its release (*apavarga*). *Prakṛti* unfolds, like a dancer, to display itself before the *puruṣa*, and once that purpose is served — the *puruṣa* having discriminated itself from the *guṇas* — she withdraws (Sāṅkhya-Kārikā 56–59). The teleology of *puruṣārtha* thus both explains why nature manifests and grounds its cessation in *kaivalya*.",
+      "primary_loci": [
+        "Sāṅkhya-Kārikā 31 (the instruments act for the puruṣārtha)",
+        "Sāṅkhya-Kārikā 56-59 (prakṛti's activity for the puruṣa, and its ceasing)",
+        "Yoga-Sūtra 2.18, 2.21 (the seen exists for the sake of the seer)"
+      ],
+      "register_tag": "M+E; reflective reader (the purpose of the puruṣa)"
+    }
+  ],
+  "see_also": [
+    "kama",
+    "dharma",
+    "moksa",
+    "purusa",
+    "kaivalya",
+    "prakrti"
+  ],
+  "translator_note": "In the ethical-soteriological context render 'human aim' or 'human end' (the four *puruṣārthas*); in Sāṅkhya–Yoga render 'the purpose of the *puruṣa*'. Do not let 'goal of man' obscure the technical Sāṅkhya use, where *puruṣārtha* is the teleological reason *prakṛti* acts at all. Keep *artha* here ('aim, purpose') distinct from *artha* as one of the four ends ('wealth, means'), which the same word also denotes within the fourfold list."
+}

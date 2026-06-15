@@ -1,0 +1,43 @@
+{
+  "term_key": "nirvikalpa-samadhi",
+  "term_iast": "nirvikalpa-samādhi",
+  "term_devanagari": "निर्विकल्प-समाधि",
+  "literal": "absorption without distinction; *nir-* 'without' + *vikalpa* 'differentiation, conceptual distinction' (vi- 'apart' + √kḷp 'to arrange, construct') qualifying *samādhi*, hence 'absorption free of the distinction of knower, known, and knowing'",
+  "aliases": [
+    "nirvikalpa-samadhi",
+    "nirvikalpa-samādhi",
+    "nirvikalpaka-samādhi",
+    "nirvikalpa",
+    "Nirvikalpa-samādhi",
+    "nirvikalpa-samādhiḥ"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Nirvikalpa-samādhi* is, in Advaita's adoption of the language of absorption, the higher of two forms: absorption in which the threefold distinction (*vikalpa*) of knower, known, and knowing has dropped away, leaving undivided awareness without an object set over against a subject. It is contrasted with *savikalpa-samādhi*, in which that triad still stands. The pairing is at home in the later prakaraṇa literature (*Vivekacūḍāmaṇi*, *Vedānta-Sāra*, *Pañcadaśī*) rather than in Śaṅkara's own *bhāṣyas*. Its soteriological status is one of the most contested points in Advaita: one strand treats *nirvikalpa-samādhi* as necessary, or nearly so, for the ripening of *brahma-jñāna*; another holds that liberation is by knowledge alone (*jñānād eva mokṣaḥ*), and that *samādhi*, being a state one enters and leaves, cannot itself be liberation, since realized identity, once attained, is permanent and does not lapse when one rises from absorption. *Nirvikalpa-samādhi* runs parallel to Pātañjala Yoga's *asamprajñāta-samādhi* (object-less absorption) without being identical to it: the Advaita term is framed by the dissolution of the knower–known triad and by the question of its relation to non-dual knowledge, whereas the Yoga term is framed by residual impressions, *nirbīja* absorption, and *kaivalya*.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Nirvikalpa-samādhi* names **absorption free of the distinction of knower, known, and knowing — undivided awareness without an object opposed to a subject**, the higher member of the Advaita pair *savikalpa*/*nirvikalpa*. The term is proprietary to (later) Advaita; comparatively it answers to Yoga's *asamprajñāta-samādhi*.",
+    "register_axes_note": "**Real disagreement within Advaita** over whether *nirvikalpa-samādhi* is required for, identical with, or merely auxiliary to *brahma-jñāna*: one side holds liberation is by knowledge alone and a temporary absorbed state cannot be it; another treats the absorption as integral to realization. Toward Yoga the relation is **structural analogy** with *asamprajñāta-samādhi*, not identity."
+  },
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "*Nirvikalpa-samādhi* is the absorption in which the distinction of knower, known, and the act of knowing has lapsed, so that awareness rests undivided. The prakaraṇa texts make it the summit of the *savikalpa*/*nirvikalpa* pair, but the school divides on its function. For one reading it is the discipline through which *akhaṇḍākāra-vṛtti* and *brahma-jñāna* mature; for another, liberation is by knowledge alone, and *nirvikalpa-samādhi*, since it is a state one enters and from which one returns, cannot itself be liberation — for *brahma-jñāna*, once arisen, is permanent and unaffected by the return to ordinary cognition. The contested point is the temporariness of any absorbed state against the claimed permanence of realized identity.",
+      "primary_loci": [
+        "Vivekacūḍāmaṇi (nirvikalpa samādhi)",
+        "Vedānta-Sāra (samādhi among the means)",
+        "Pañcadaśī (status of nirvikalpa samādhi vis-à-vis jñāna)"
+      ],
+      "register_tag": "M+S; mumukṣu [REAL-DISAGREEMENT: nirvikalpa samādhi vs jñāna]"
+    }
+  ],
+  "see_also": [
+    "samadhi",
+    "savikalpa-samadhi",
+    "asamprajnata-samadhi",
+    "akhandakara-vrtti",
+    "jnana",
+    "moksa"
+  ],
+  "translator_note": "Render *nirvikalpa* as 'without distinction' or 'undifferentiated' — the distinction negated is specifically the knower–known–knowing triad, not all mental content in a generic sense. Resist the popular equation 'nirvikalpa-samādhi = enlightenment'; much of Advaita denies exactly that, holding that knowledge, not the temporary absorbed state, is what frees. The term is later-Advaitic; do not project it onto Śaṅkara's own *bhāṣyas*, and keep it distinct from Yoga's *asamprajñāta-samādhi*."
+}

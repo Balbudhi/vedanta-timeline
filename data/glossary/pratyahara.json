@@ -1,0 +1,52 @@
+{
+  "term_key": "pratyahara",
+  "term_iast": "pratyāhāra",
+  "term_devanagari": "प्रत्याहार",
+  "literal": "withdrawal (of the senses); prati- ('back, against') + ā- ('toward') + √hṛ 'to draw, to take', hence 'a drawing-back' — the drawing-in of the senses from their objects",
+  "aliases": [
+    "pratyahara",
+    "pratyāhāra",
+    "Pratyāhāra",
+    "pratyāhāraḥ",
+    "pratyāhāram"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Pratyāhāra* is the withdrawal of the senses — the fifth limb of Pātañjala *aṣṭāṅga-yoga* (YS 2.29), the pivot between the outer limbs (*yama, niyama, āsana, prāṇāyāma*) and the inner triad of concentration, meditation, and absorption (*dhāraṇā, dhyāna, samādhi*). It is defined as the senses' withdrawing from their objects by conforming, as it were, to the nature of the mind itself (*sva-viṣayāsamprayoge citta-svarūpānukāra ivendriyāṇāṃ pratyāhāraḥ*, YS 2.54), so that, the mind being stilled, the senses follow and cease to run out toward their objects; from this follows the supreme mastery of the senses (YS 2.55). *Pratyāhāra* is thus not the violent suppression of the senses but their disengagement — they no longer reach for sound, form, and the rest because the mind to which they are harnessed has turned inward. The conception is closely echoed in the *Gītā*'s image of the *sthitaprajña* who 'draws in his senses from their objects on every side, as a tortoise draws in its limbs' (2.58), and stands behind its account of the disciplined yogin who governs the senses through the higher self. The term names the disciplinary turn inward that makes the higher limbs of yoga possible.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Pratyāhāra* names **the withdrawal of the senses from their objects — their disengagement as the inward-turned mind ceases to send them outward** (YS 2.54). It is a Yoga technical term (the fifth limb), echoed in the *Gītā*'s tortoise image for the sense-controlled sage.",
+    "register_axes_note": "Largely **shared** as a discipline of sense-restraint. The relation between the Yogic limb and the *Gītā*'s *sthitaprajña* is one of **shared aspect**: both describe the senses drawn in from their objects, the Yoga text as a graded technique, the *Gītā* as the mark of the steadied sage."
+  },
+  "per_school": [
+    {
+      "school": "Yoga",
+      "definition": "*Pratyāhāra* is the fifth of the eight limbs (YS 2.29), the withdrawal in which the senses, disjoined from their objects, follow the form of the stilled mind rather than running outward (YS 2.54); from it arises the highest mastery of the senses (YS 2.55). As the hinge between the external and internal limbs, it prepares the practitioner for *dhāraṇā* and the *saṃyama* triad: only when the senses are drawn in can attention be fixed and absorption deepened. It is disengagement consequent on the inward turn of the mind, not forcible suppression.",
+      "primary_loci": [
+        "Yoga-Sūtra 2.29 (pratyāhāra as the fifth aṅga)",
+        "Yoga-Sūtra 2.54 (sva-viṣayāsamprayoge citta-svarūpānukāra ivendriyāṇāṃ pratyāhāraḥ)",
+        "Yoga-Sūtra 2.55 (tataḥ paramā vaśyatendriyāṇām)"
+      ],
+      "register_tag": "Φ+S; yogin (the fifth limb, sense-withdrawal)"
+    },
+    {
+      "school": "Bhagavad-Gītā",
+      "definition": "The *Gītā* does not use the term as a numbered limb but gives its classic image: the *sthitaprajña* who, on every side, draws in his senses from their objects as a tortoise draws in its limbs has wisdom firmly set (2.58). The disciplined yogin governs the roaming senses by yoking them to the higher self (2.61, 6.24–26). Withdrawal of the senses is thus, in the *Gītā*, the practical mark and means of steadiness, consonant with the Yogic *pratyāhāra* though framed within the discourse of equanimity rather than as a stage in a numbered ladder.",
+      "primary_loci": [
+        "Bhagavad-Gītā 2.58 (kūrmo 'ṅgānīva sarvaśaḥ; the tortoise image)",
+        "Bhagavad-Gītā 2.61 (tāni sarvāṇi saṃyamya)",
+        "Bhagavad-Gītā 6.24-26 (drawing the wandering mind and senses inward)"
+      ],
+      "register_tag": "M+S; mumukṣu (sense-withdrawal as the sage's mark)"
+    }
+  ],
+  "see_also": [
+    "indriya",
+    "yoga",
+    "samadhi",
+    "sthitaprajna",
+    "visaya",
+    "citta-vrtti-nirodha"
+  ],
+  "translator_note": "'Withdrawal of the senses' or 'sense-withdrawal' is accurate; avoid 'sense-suppression', since YS 2.54 frames it as the senses' following the inward-turned mind, not their forcible deadening. The tortoise simile of Gītā 2.58 is the best gloss in English: the senses are drawn in, not amputated, and can be put forth again — the point is mastery, not mutilation."
+}

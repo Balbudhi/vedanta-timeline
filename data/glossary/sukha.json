@@ -1,0 +1,53 @@
+{
+  "term_key": "sukha",
+  "term_iast": "sukha",
+  "term_devanagari": "सुख",
+  "literal": "ease, pleasure, happiness; traditionally analyzed as su- ('good, well') + kha ('axle-hole, hub'), 'having a good axle-hole' — i.e. running smoothly, like a wheel well-fitted to its axle; hence comfort, ease. Opposed to duḥkha ('duḥ-kha', running roughly)",
+  "aliases": [
+    "sukha",
+    "Sukha",
+    "sukham",
+    "sukhena",
+    "sukhāni",
+    "saukhya"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Sukha* is ease, pleasure, happiness — the smooth-running counterpart of *duḥkha*. The traditional etymology pictures a wheel whose hub is well-fitted to the axle, so that the term carries from the outset the sense of running well, frictionless ease. Two registers must be kept apart. There is *sukha* as ordinary pleasure — the gratification born of sense-contact, which the *Gītā* analyzes by *guṇa*: pleasure that is *sāttvika* (clear at the end though hard at first), *rājasa* (sweet at first and poison at the end), or *tāmasa* (deluding throughout) (18.37–39). And there is *sukha* in the higher, soteriological register — the unconditioned bliss of the self or of liberation, the 'happiness beyond the senses, grasped by the intellect' that the *Gītā* names *ātyantika sukha* (6.21) and that shades toward *ānanda*. The contemplative traditions are careful that sense-born *sukha*, being dependent on contact and therefore impermanent, is in the long analysis a form of *duḥkha* (the Buddhist *vipariṇāma-dukkhatā*, the suffering inherent in change); true and lasting *sukha* is not the opposite pole of pleasure-and-pain but the peace (*śānti*) that lies beyond the pair, the ease of a self no longer dependent on objects. *Sukha* thus names both what the worldly seek and, transposed, what the liberated are said to attain — but the two are sharply distinguished.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Sukha* names **ease and happiness — the smooth-running counterpart of *duḥkha***, ranging from sense-born pleasure to the unconditioned bliss of the liberated self. The schools share the term and its two registers; they differ on whether any lasting *sukha* is to be found in objects at all.",
+    "register_axes_note": "A recurring **difference of aspect** between *sukha* as sense-pleasure (dependent on contact, graded by *guṇa*, and in the long view itself a kind of *duḥkha*) and *sukha* as the unconditioned ease of liberation (beyond the pleasure–pain pair, near to *ānanda* and *śānti*). The contemplative traditions agree that the first is impermanent and the second alone is sought."
+  },
+  "per_school": [
+    {
+      "school": "Bhagavad-Gītā",
+      "definition": "The *Gītā* distinguishes worldly *sukha*, graded threefold by *guṇa* (18.37–39), from the supreme happiness of the disciplined self. Sense-contacts are 'wombs of suffering, with a beginning and an end' from which the wise take no delight (5.22); the happiness worth seeking is the *ātyantika sukha* — beyond the senses, grasped by the steadied intellect — in which one rests unshaken (6.20–22). The pleasure of the *sthitaprajña* is thus not the opposite of pain but the equanimous ease (*prasāda*, *śānti*) of a mind no longer dependent on objects.",
+      "primary_loci": [
+        "Bhagavad-Gītā 5.22 (ye hi saṃsparśa-jā bhogā duḥkha-yonaya eva te)",
+        "Bhagavad-Gītā 6.20-22 (sukham ātyantikaṃ ... atīndriyam)",
+        "Bhagavad-Gītā 18.37-39 (the threefold sukha by guṇa)"
+      ],
+      "register_tag": "M+S; mumukṣu (sense-pleasure vs the supreme ease)"
+    },
+    {
+      "school": "Buddhist",
+      "definition": "*Sukha* (Pali *sukha*) ranges from pleasant feeling (*sukha-vedanā*) to the refined happiness of the *jhānas*, where it is a constituent factor of absorption before being transcended in the equanimity of the higher attainments. But pleasant feeling, because it is impermanent and changes, is itself caught under *dukkha* through *vipariṇāma-dukkhatā* (the unsatisfactoriness of change). The lasting *sukha* of the path is therefore not pleasant sensation but the peace of *nibbāna*, declared the highest happiness (*nibbānaṃ paramaṃ sukhaṃ*).",
+      "primary_loci": [
+        "the jhāna factors (vitakka, vicāra, pīti, sukha, ekaggatā)",
+        "vipariṇāma-dukkhatā (pleasant feeling as a form of dukkha)",
+        "Dhammapada 203-204 (nibbānaṃ paramaṃ sukhaṃ)"
+      ],
+      "register_tag": "Φ+S; reflective reader (sukha as factor and as nibbāna)"
+    }
+  ],
+  "see_also": [
+    "duhkha",
+    "santi",
+    "ananda",
+    "prasada",
+    "vairagya",
+    "guna"
+  ],
+  "translator_note": "'Happiness', 'pleasure', or 'ease' all serve, but the register must be fixed by context: ordinary *sukha* is sense-born and impermanent (and in the deep analysis itself a form of *duḥkha*), whereas the *sukha* of liberation is the unconditioned ease beyond the pleasure–pain pair, close to *ānanda* and *śānti*. The smooth-running etymology (su-kha, against duḥ-kha) is worth keeping alive: the contrast the traditions draw is precisely between a life that runs well and one that runs roughly."
+}

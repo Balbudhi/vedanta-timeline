@@ -1,0 +1,52 @@
+{
+  "term_key": "jnana-yoga",
+  "term_iast": "jñāna-yoga",
+  "term_devanagari": "ज्ञान-योग",
+  "literal": "the discipline of knowledge; *jñāna* 'knowledge' (√jñā 'to know') + *yoga* 'discipline, yoking', hence 'the yoga whose means is knowledge' — the path that reaches liberation through realized knowledge of the self",
+  "aliases": [
+    "jnana-yoga",
+    "jnanayoga",
+    "Jñāna-yoga",
+    "jñāna-yogaḥ",
+    "jñāna-yogena",
+    "jñāna-niṣṭhā"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Jñāna-yoga* is the discipline of knowledge — the path that reaches liberation through realized knowledge of the self, set by the *Gītā* alongside *karma-yoga*, the path of action, as one of its two great *niṣṭhās* (standings). The *Gītā* announces the pair at the outset: 'in this world a twofold standing was taught by me of old — that of knowledge for the Sāṅkhyas, that of action for the yogins' (3.3). *Jñāna-yoga* is the standing in knowledge (*jñāna-niṣṭhā*) proper to those who have turned from action, in which the self is discriminated from the body, senses, and mind, and known as untouched by action and its fruits; it culminates in the recognition that the embodied self is not the agent (3.27–28, 5.8–9) and in the steady wisdom of the *sthitaprajña*. In Śaṅkara's reading *jñāna-yoga* is the direct and sole means of liberation: action purifies the mind and qualifies one for it, but it is knowledge alone that removes the ignorance constituting bondage (*jñānād eva mokṣaḥ*), so the two paths are for successive qualifications rather than co-ordinate routes to the same goal. Other commentators integrate knowledge more closely with action and devotion. *Jñāna-yoga* thus names both a path (the cultivation of discriminative knowledge through hearing, reflection, and meditation) and the standing in that knowledge once it has matured.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Jñāna-yoga* names **the discipline and standing of knowledge — liberation through realized discrimination of the self from the not-self**, one of the two *Gītā* paths, paired with *karma-yoga* (Gītā 3.3). Schools agree it is the path of knowledge but differ on whether it is the sole liberator.",
+    "register_axes_note": "**Real disagreement** over the relation of the two *niṣṭhās*: Śaṅkara holds *jñāna-yoga* the direct and exclusive means of *mokṣa*, with *karma-yoga* merely preparatory; other Vedāntins make knowledge co-operate with action and devotion rather than supersede them. Same path, contested sufficiency."
+  },
+  "per_school": [
+    {
+      "school": "Bhagavad-Gītā",
+      "definition": "*Jñāna-yoga* is the *jñāna-niṣṭhā* announced at 3.3 as the standing taught for the Sāṅkhyas, the path of those who reach the goal through knowledge. It consists in discriminating the self from the *guṇas* and their workings — knowing that 'the *guṇas* act upon the *guṇas*' while the self does nothing (3.27–28, 5.8–9) — and issues in the equanimous wisdom of the *sthitaprajña*. The *Gītā* praises knowledge highly ('there is no purifier here equal to knowledge', 4.38) while insisting that the embodied cannot simply abandon action, so that the path of knowledge is for those already fit to stand in it.",
+      "primary_loci": [
+        "Bhagavad-Gītā 3.3 (the twofold niṣṭhā: jñāna-yoga and karma-yoga)",
+        "Bhagavad-Gītā 4.38 (na hi jñānena sadṛśaṃ pavitram iha vidyate)",
+        "Bhagavad-Gītā 5.8-9 (the knower sees 'I do nothing at all')"
+      ],
+      "register_tag": "M+S; mumukṣu (the standing in knowledge)"
+    },
+    {
+      "school": "Advaita",
+      "definition": "For Śaṅkara *jñāna-yoga* — the *jñāna-niṣṭhā* of the renunciate — is the direct and only means of liberation, since bondage is constituted by ignorance and only knowledge removes it (*jñānād eva mokṣaḥ*). *Karma-yoga* purifies the mind and qualifies one for this standing but cannot itself produce knowledge or liberation. The two *niṣṭhās* are therefore for distinct qualifications — action for the unpurified, knowledge for the renunciate fit for it — and cannot be combined as joint causes of *mokṣa* (the rejection of *jñāna-karma-samuccaya*).",
+      "primary_loci": [
+        "Gītā-Bhāṣya (Śaṅkara), introduction and on 2.10-11, 3.3 (the two niṣṭhās)",
+        "Gītā-Bhāṣya (Śaṅkara) on 5.12, 18.66 (jñāna as the sole means; rejection of samuccaya)"
+      ],
+      "register_tag": "M+S; mumukṣu [REAL-DISAGREEMENT: jñāna alone liberates]"
+    }
+  ],
+  "see_also": [
+    "jnana",
+    "karma-yoga",
+    "nistha",
+    "samnyasa",
+    "sthitaprajna",
+    "moksa"
+  ],
+  "translator_note": "'The discipline of knowledge' or 'the path of knowledge' is right; the *jñāna* here is realized, discriminative knowledge of the self, not information. Keep it paired with *karma-yoga* as the *Gītā*'s two *niṣṭhās* (3.3), and flag the live dispute: for Śaṅkara *jñāna-yoga* alone liberates and *karma-yoga* only prepares, whereas other commentators refuse to subordinate action and devotion to knowledge in this way."
+}

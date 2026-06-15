@@ -1,0 +1,42 @@
+{
+  "term_key": "abhinivesa",
+  "term_iast": "abhiniveśa",
+  "term_devanagari": "अभिनिवेश",
+  "literal": "clinging (to life), the will to live, tenacious attachment; abhi- ('toward, intently') + ni- ('down, into') + √viś 'to enter, settle', hence 'a settling-into, a dwelling intently upon' — the deep-seated clinging to continued existence",
+  "aliases": [
+    "abhinivesa",
+    "abhiniveśa",
+    "Abhiniveśa",
+    "abhiniveśaḥ",
+    "abhiniveśāḥ"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Abhiniveśa* is, in Pātañjala Yoga, the fifth and deepest of the five afflictions (*kleśas* — *avidyā, asmitā, rāga, dveṣa, abhiniveśa*, YS 2.3): the clinging to life and dread of death. It is defined as self-sustaining and present even in the learned (*svarasa-vāhī viduṣo 'pi tathā rūḍho 'bhiniveśaḥ*, YS 2.9) — an instinctive will to continue that 'flows by its own momentum' and is rooted, the commentators explain, in the memory-impression of past deaths, so that even one who knows clings to existence and shrinks from its ending. As the most deeply embedded affliction it is the one furthest from removal by mere reflection. Like the other *kleśas* it rests ultimately on *avidyā* (YS 2.4), the field in which the rest grow, and is attenuated by *kriyā-yoga* and burnt out as discrimination ripens toward *kaivalya*. The term names something more primal than ordinary *rāga* (attachment to particular objects): it is the attachment to one's own continuance as such, the survival-instinct read as a defilement to be transcended rather than a neutral fact of life.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Abhiniveśa* names **the deep-seated clinging to life and dread of death — the will to continue that flows by its own momentum and persists even in the wise** (YS 2.9). It is a Yoga-specific technical term within the fivefold *kleśa* scheme.",
+    "register_axes_note": "Not a site of inter-school dispute but a single-system technical term. Its conceptual neighbor is the Buddhist *bhava-taṇhā* (craving for existence); both name the clinging to continued being, in different systematic frames, which makes the comparison illuminating but not an identity."
+  },
+  "per_school": [
+    {
+      "school": "Yoga",
+      "definition": "*Abhiniveśa* is the fifth *kleśa* (YS 2.3), defined at YS 2.9 as the clinging to life that is self-sustaining (*svarasa-vāhī*) and rooted even in the learned — the involuntary dread of death and grasping at continuance, which the commentary traces to impressions of dying carried over from past lives. As the most deeply lodged of the afflictions it is grounded, like the rest, in *avidyā* (YS 2.4); it is weakened by *kriyā-yoga* (YS 2.1–2) and finally dissolved as the *kleśas* are reduced and discrimination matures toward *kaivalya*.",
+      "primary_loci": [
+        "Yoga-Sūtra 2.3 (the five kleśas)",
+        "Yoga-Sūtra 2.9 (svarasa-vāhī viduṣo 'pi tathā rūḍho 'bhiniveśaḥ)",
+        "Yoga-Sūtra 2.4 (avidyā as the field of the kleśas)"
+      ],
+      "register_tag": "Φ+S; yogin (the fifth kleśa, clinging to life)"
+    }
+  ],
+  "see_also": [
+    "klesa",
+    "avidya",
+    "asmita",
+    "raga",
+    "trsna",
+    "kaivalya"
+  ],
+  "translator_note": "'Clinging to life' or 'the will to live' is preferable to a generic 'attachment': YS 2.9 specifies the dread of death and the self-sustaining grasp at one's own continuance, deeper and more involuntary than *rāga*'s attachment to particular objects. The phrase 'even in the wise' (*viduṣo 'pi*) is worth preserving — it marks *abhiniveśa* as the most stubborn affliction, not removed by knowledge alone but only as the *kleśas* are progressively burnt out."
+}

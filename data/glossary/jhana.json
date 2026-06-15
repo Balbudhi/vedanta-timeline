@@ -1,0 +1,45 @@
+{
+  "term_key": "jhana",
+  "term_iast": "jhāna",
+  "term_devanagari": "ध्यान",
+  "literal": "meditative absorption; Pali *jhāna*, corresponding to Sanskrit *dhyāna* 'meditation, contemplation' (√dhyai 'to meditate, to contemplate'), hence 'a state of meditative absorption'",
+  "aliases": [
+    "jhana",
+    "jhāna",
+    "Jhāna",
+    "jhānas",
+    "rupa-jhana",
+    "rūpa-jhāna",
+    "arupa-jhana",
+    "arūpa-jhāna"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Jhāna* (Pali; Sanskrit *dhyāna*) is meditative absorption — a state of deepening mental unification cultivated within the training of concentration (*samādhi*). The Buddhist analysis distinguishes four form-sphere absorptions (*rūpa-jhāna*): the first attained with applied and sustained thought (*vitakka, vicāra*), joy (*pīti*), happiness (*sukha*), and one-pointedness (*ekaggatā*); the second leaving behind applied and sustained thought; the third in which joy fades and equanimous happiness remains; the fourth in which even happiness is transcended and there is pure equanimity and mindfulness. Above these, four formless attainments (*arūpa-jhāna*) reach toward boundless space, boundless consciousness, nothingness, and neither-perception-nor-non-perception. The *jhānas* are not themselves liberation: they steady and purify the mind, suppressing the hindrances, so that liberating insight (*paññā*) may arise and uproot ignorance — concentration is the support of wisdom, not its substitute. The term is the Buddhist counterpart of the Sanskrit *dhyāna* and is cognate with the *dhyāna* limb of Pātañjala Yoga; it is cited in the cross-tradition treatment of *samādhi* as the Buddhist articulation of graded absorption, where Yoga has *samprajñāta*/*asamprajñāta* and Advaita *savikalpa*/*nirvikalpa*.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Jhāna* names **graded meditative absorption — progressively unified, equanimous states of concentration**, cultivated as the support of insight. The term is Buddhist (= Sanskrit *dhyāna*); its comparative interest is as the Buddhist analysis of absorption alongside the Yogic and Advaitic schemes.",
+    "register_axes_note": "Within Buddhism the *jhānas* are valued instrumentally: a **difference of aspect** from liberation itself, since concentration steadies the mind but *paññā* frees it. Across traditions the relation to Yoga's *dhyāna*/*samādhi* is one of **shared** structure (graded absorption) with different terminal aims (insight and *nibbāna* versus *kaivalya* or *brahma-jñāna*)."
+  },
+  "per_school": [
+    {
+      "school": "Buddhist",
+      "definition": "*Jhāna* is meditative absorption, analyzed into four *rūpa-jhānas* defined by their successive factors — the first with *vitakka, vicāra, pīti, sukha,* and one-pointedness; the second dropping thought; the third dropping joy; the fourth pure equanimity — and four further *arūpa* attainments. Cultivated under right concentration (*sammā-samādhi*), the *jhānas* suppress the hindrances and purify the mind, but they do not by themselves liberate: it is insight (*paññā*) developed on their foundation that sees and uproots ignorance. Concentration is thus the indispensable support of wisdom, not a substitute for it.",
+      "primary_loci": [
+        "the four rūpa-jhānas and their factors in the suttas",
+        "the four arūpa attainments (ākāsānañcāyatana, etc.)",
+        "Visuddhimagga (the jhāna sections)"
+      ],
+      "register_tag": "Φ+S; reflective reader (absorption as support of paññā)"
+    }
+  ],
+  "see_also": [
+    "samadhi",
+    "prajna",
+    "sukha",
+    "samprajnata-samadhi",
+    "asamprajnata-samadhi",
+    "kaivalya"
+  ],
+  "translator_note": "Leave *jhāna* untranslated or render 'meditative absorption'; avoid 'trance', which imports loss of awareness foreign to the analysis (mindfulness is present throughout, and culminates in the fourth jhāna). Note that *jhāna* is the Pali of Sanskrit *dhyāna* and is cognate with the *dhyāna* limb of Pātañjala Yoga; in cross-tradition discussions of *samādhi* it is the Buddhist scheme of graded absorption, deliberately subordinated to *paññā* rather than identified with liberation."
+}

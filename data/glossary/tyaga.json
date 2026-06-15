@@ -1,0 +1,53 @@
+{
+  "term_key": "tyaga",
+  "term_iast": "tyāga",
+  "term_devanagari": "त्याग",
+  "literal": "abandonment, relinquishment, giving-up; from √tyaj 'to leave, abandon, give up', hence 'the act of letting go'",
+  "aliases": [
+    "tyaga",
+    "tyāga",
+    "Tyāga",
+    "tyāgaḥ",
+    "tyāgam",
+    "parityāga",
+    "phala-tyāga"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Tyāga* is relinquishment — the act of giving up or letting go. In the *Gītā*, where the term is most sharply theorized, it is distinguished from *saṃnyāsa* (renunciation): chapter 18 opens with Arjuna's request to know the difference between the two (18.1), and Kṛṣṇa replies that *saṃnyāsa* is the laying-aside of desire-prompted actions (*kāmya-karma*), while *tyāga* is the relinquishment of the *fruits* of all action (*sarva-karma-phala-tyāga*, 18.2). On this analysis the ideal is not the abandonment of action — which is impossible for the embodied (3.5) and not even enjoined — but the abandonment of attachment to and craving for its results, so that action continues while the binding appropriation of its fruit is released. The *Gītā* further grades *tyāga* by *guṇa*: relinquishment from delusion is *tāmasa*, from fear of trouble *rājasa*, and the giving-up of attachment and fruit while the obligatory act is still performed is *sāttvika* (18.7–9). *Tyāga* thus names the inward act that makes *niṣkāma-karma* possible; it is the disposition, where *saṃnyāsa* in the strict sense is the outward state. In the wider ascetic vocabulary *tyāga* can also name outward renunciation, but the *Gītā*'s distinctive contribution is to relocate the essential renunciation in the relinquishing of fruits rather than of action itself.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Tyāga* names **relinquishment — the giving-up of attachment to, and the fruits of, action, rather than the abandonment of action itself**. The *Gītā* makes the term technical by setting it beside *saṃnyāsa*; the wider tradition uses it more loosely for renunciation in general.",
+    "register_axes_note": "The interesting **difference of aspect** is internal to the *Gītā*'s own usage: *tyāga* (relinquishing fruits while acting) versus *saṃnyāsa* (laying aside desire-prompted action, and in Śaṅkara's reading the formal renunciate state). Same family of giving-up, two distinct objects of the giving-up."
+  },
+  "per_school": [
+    {
+      "school": "Bhagavad-Gītā",
+      "definition": "Arjuna asks the difference between *saṃnyāsa* and *tyāga* (18.1); Kṛṣṇa defines *saṃnyāsa* as the giving-up of desire-prompted actions and *tyāga* as the relinquishment of the fruits of all action (18.2), and declares the latter — performing obligatory action while abandoning attachment and fruit — to be the higher and *sāttvika* form (18.9). The threefold grading by *guṇa* (18.7–9) makes deluded and fear-driven relinquishment defective; only fruit-renouncing action done as duty is praised. *Tyāga* is thus the inward principle of *niṣkāma-karma*.",
+      "primary_loci": [
+        "Bhagavad-Gītā 18.1-2 (saṃnyāsa vs tyāga defined)",
+        "Bhagavad-Gītā 18.7-9 (the threefold tyāga by guṇa)",
+        "Bhagavad-Gītā 18.11 (na hi dehabhṛtā śakyaṃ tyaktuṃ karmāṇy aśeṣataḥ)"
+      ],
+      "register_tag": "M+S; mumukṣu (relinquishment of fruits)"
+    },
+    {
+      "school": "Advaita",
+      "definition": "Śaṅkara reads the *Gītā*'s *tyāga*–*saṃnyāsa* discussion in the light of his own thesis that the formal *saṃnyāsa* of all action is for the knower, while for the active the path is fruit-relinquishing action (*phala-tyāga*) as a purificatory discipline. *Tyāga* of fruits cleanses the mind and fits it for knowledge; the complete giving-up of action proper belongs to the stage of *jñāna-niṣṭhā*. The two terms thus mark, for Śaṅkara, the difference between the preparatory relinquishment that accompanies action and the full renunciation that knowledge makes possible.",
+      "primary_loci": [
+        "Gītā-Bhāṣya (Śaṅkara) on 18.2-12",
+        "Gītā-Bhāṣya (Śaṅkara), introduction to chapter 18 (saṃnyāsa as the renunciate state)"
+      ],
+      "register_tag": "M+S; mumukṣu (phala-tyāga as purification)"
+    }
+  ],
+  "see_also": [
+    "samnyasa",
+    "niskama-karma",
+    "karma",
+    "vairagya",
+    "karma-yoga",
+    "guna"
+  ],
+  "translator_note": "Render *tyāga* as 'relinquishment' or 'giving-up', and reserve 'renunciation' for *saṃnyāsa*, since the *Gītā* deliberately separates the two at 18.1–2. The decisive point the English must carry is that the *Gītā*'s commended *tyāga* is not the abandonment of action — which it calls impossible for the embodied (18.11) — but the abandonment of attachment to its fruits while the obligatory act is still performed."
+}

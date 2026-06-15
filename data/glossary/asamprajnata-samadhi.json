@@ -1,0 +1,45 @@
+{
+  "term_key": "asamprajnata-samadhi",
+  "term_iast": "asamprajñāta-samādhi",
+  "term_devanagari": "असम्प्रज्ञात-समाधि",
+  "literal": "non-cognitive (object-less) absorption; *a-* (privative) + *samprajñāta* 'fully cognized', hence 'the absorption in which nothing is fully cognized' — absorption from which object-cognition is absent",
+  "aliases": [
+    "asamprajnata-samadhi",
+    "asamprajñāta-samādhi",
+    "asaṃprajñāta-samādhi",
+    "asamprajñāta",
+    "asaṃprajñātaḥ",
+    "Asamprajñāta-samādhi",
+    "nirbija-samadhi",
+    "nirbīja-samādhi"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Asamprajñāta-samādhi* is, in Pātañjala Yoga, the higher of the two great forms of *samādhi*: the absorption that follows the cessation of all object-cognition, in which no content is grasped and only latent impressions (*saṃskāra-śeṣa*) remain (YS 1.18). It is reached through the practice whose object is the arrest of cognition (*virāma-pratyaya*) and stands above *samprajñāta-samādhi*, the object-bearing absorption attended by reasoning, reflection, bliss, and I-am-ness. Because even the subtlest cognition has lapsed, *asamprajñāta* is the immediate antechamber of *kaivalya*: when the residual impressions too are burnt and not renewed, it becomes *nirbīja* ('seedless') absorption (YS 1.51), and the *guṇas*, having no further purpose to serve the *puruṣa*, withdraw. The term is technical and tradition-specific; its comparative interest lies in its structural likeness to Advaita's *nirvikalpa-samādhi* (absorption free of the knower–known–knowing distinction), though the two belong to different systems and the Yoga term carries the specific *Yoga-Sūtra* analysis of impressions and the *guṇas*.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Asamprajñāta-samādhi* names **the object-less absorption following the cessation of all cognitive content, retaining only latent impressions** (YS 1.18). The term is proprietary to Pātañjala Yoga; the wider tradition cites it comparatively, as the type-case of object-less absorption against which the object-bearing kind is defined.",
+    "register_axes_note": "Not an inter-school dispute but a single-system technical term. Cross-reference to Advaita's *nirvikalpa-samādhi* is by **structural analogy** (both are the object-less member of a paired division), not identity: the Yoga term entails the apparatus of *saṃskāra-śeṣa*, *nirbīja*, and the withdrawal of the *guṇas*."
+  },
+  "per_school": [
+    {
+      "school": "Yoga",
+      "definition": "*Asamprajñāta-samādhi* is the absorption defined at YS 1.18 as 'preceded by the practice of the cessation-cognition (*virāma-pratyaya*), with impressions alone remaining'. Object-cognition has lapsed; what is left is a residue of *saṃskāras* that maintain the absorption. When this residue too ceases to be renewed and is finally consumed, the absorption is *nirbīja* (seedless, YS 1.51), and *kaivalya* supervenes as the *puruṣa* abides in its own form, the *guṇas* having completed their purpose. It is thus the highest meditative attainment short of liberation itself.",
+      "primary_loci": [
+        "Yoga-Sūtra 1.18 (virāma-pratyayābhyāsa-pūrvaḥ saṃskāra-śeṣo 'nyaḥ)",
+        "Yoga-Sūtra 1.51 (nirbīja-samādhi)",
+        "Yoga-Bhāṣya on 1.18 and 1.51"
+      ],
+      "register_tag": "Φ+S; yogin (object-less absorption, antechamber of kaivalya)"
+    }
+  ],
+  "see_also": [
+    "samadhi",
+    "samprajnata-samadhi",
+    "nirvikalpa-samadhi",
+    "citta-vrtti-nirodha",
+    "kaivalya",
+    "yoga"
+  ],
+  "translator_note": "'Non-cognitive' or 'object-less absorption' is preferable to 'unconscious samādhi' or 'trance': nothing in YS 1.18 says awareness ceases, only that cognition of an object lapses and impressions alone remain. Do not collapse it into Advaita's *nirvikalpa-samādhi*; the pairing is parallel, but *asamprajñāta* belongs to the *Yoga-Sūtra*'s own account, culminating in *nirbīja* absorption and *kaivalya* rather than in *brahma-jñāna*."
+}

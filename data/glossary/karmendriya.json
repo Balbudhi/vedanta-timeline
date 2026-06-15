@@ -1,0 +1,50 @@
+{
+  "term_key": "karmendriya",
+  "term_iast": "karmendriya",
+  "term_devanagari": "कर्मेन्द्रिय",
+  "literal": "organ of action; *karma* 'action' (√kṛ 'to do') + *indriya* 'sense-organ, faculty', hence 'the faculty by which action is performed' — a motor or conative organ",
+  "aliases": [
+    "karmendriya",
+    "Karmendriya",
+    "karmendriyāṇi",
+    "karma-indriya",
+    "karmendriyaiḥ"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Karmendriya* is an organ of action — one of the five conative faculties by which the embodied self acts upon the world: speech, grasping, locomotion, excretion, and generation (the organs of voice, hands, feet, anus, and genitals). It is one of the two classes into which the Sāṅkhya analysis divides the ten external *indriyas*, the other being the five *jñānendriyas*, the organs of perception; with *manas* as the eleventh, common to both, they make up the standard set of instruments through which the self transacts with the world. Like the perceptive organs, the *karmendriyas* are evolutes of *ahaṅkāra* (in its *sāttvika* aspect) and are the subtle faculties of action, not the gross bodily members in which they are seated. The *Gītā* invokes the distinction when it censures the hypocrite who restrains the organs of action while still dwelling on sense-objects in the mind (3.6), and praises instead the one who, controlling the senses by the mind, engages the organs of action without attachment in *karma-yoga* (3.7). The class is defined functionally, by the action it performs, in contrast to the *jñānendriyas*, which are defined by the cognition they yield.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Karmendriya* names **an organ of action — one of the five conative faculties (speech, grasping, locomotion, excretion, generation)** by which the self acts, as against the *jñānendriyas* of perception. The fivefold scheme is shared across Sāṅkhya, Yoga, and Vedānta.",
+    "register_axes_note": "Broadly **shared** as a term of psychological analysis. The *Gītā* uses the distinction ethically (mere restraint of the organs of action without inner control is hypocrisy, 3.6–7); Sāṅkhya–Yoga and Advaita place the same five faculties within their differing ontologies of the subtle body."
+  },
+  "per_school": [
+    {
+      "school": "Sāṅkhya",
+      "definition": "The five *karmendriyas* — the organs of speech, grasping (hands), locomotion (feet), excretion, and generation — are, with the five *jñānendriyas* and *manas*, the eleven *indriyas* evolving from *ahaṅkāra* (Sāṅkhya-Kārikā 24–26). Their functions are speaking, handling, moving, voiding, and procreating (SK 28); they are subtle conative faculties, not the gross bodily members, and operate under the direction of *manas* and the inner instrument. They are defined by the action they perform, the *jñānendriyas* by the cognition they yield.",
+      "primary_loci": [
+        "Sāṅkhya-Kārikā 24-26 (the eleven indriyas from ahaṅkāra)",
+        "Sāṅkhya-Kārikā 28 (vacana, ādāna, viharaṇa, utsarga, ānanda as their functions)"
+      ],
+      "register_tag": "M+E; reflective reader (the five organs of action)"
+    },
+    {
+      "school": "Bhagavad-Gītā",
+      "definition": "The *Gītā* draws on the distinction to expose false restraint: one who sits restraining the organs of action (*karmendriyāṇi*) while mentally dwelling on sense-objects is called a hypocrite (3.6); the worthier course is to control the senses by the mind and engage the organs of action without attachment in *karma-yoga* (3.7). The point is that mere outward inactivity of the conative organs is worthless without inner mastery — the *karmendriyas* are to be rightly employed, not merely stilled.",
+      "primary_loci": [
+        "Bhagavad-Gītā 3.6 (karmendriyāṇi saṃyamya ... mithyācāraḥ)",
+        "Bhagavad-Gītā 3.7 (indriyāṇi ... karmendriyaiḥ karma-yogam asaktaḥ)"
+      ],
+      "register_tag": "M+S; mumukṣu (right employment of the organs of action)"
+    }
+  ],
+  "see_also": [
+    "indriya",
+    "jnanendriya",
+    "manas",
+    "ahankara",
+    "karma-yoga",
+    "samkalpa"
+  ],
+  "translator_note": "Render 'organ of action' or 'conative/motor organ'; keep it distinct from the *jñānendriyas* (organs of perception). As with the perceptive senses, these are the subtle faculties of action, not the physical limbs in which they are seated. The *Gītā*'s point at 3.6–7 turns on the distinction: restraining the *karmendriyas* outwardly while the mind still runs to objects is hypocrisy, not control."
+}

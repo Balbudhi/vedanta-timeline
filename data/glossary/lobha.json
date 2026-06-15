@@ -1,0 +1,53 @@
+{
+  "term_key": "lobha",
+  "term_iast": "lobha",
+  "term_devanagari": "लोभ",
+  "literal": "greed, covetousness; from √lubh 'to desire eagerly, to be greedy, to covet', hence 'the state of grasping after gain'",
+  "aliases": [
+    "lobha",
+    "Lobha",
+    "lobhaḥ",
+    "lobham",
+    "lobhena",
+    "loluptva",
+    "loluptvam"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Lobha* is greed — the grasping desire for gain and the disinclination to part with what one has. It belongs to the standard lists of mind-defiling forces: in the *Gītā* it stands with *kāma* (desire) and *krodha* (anger) as one of the three 'gates of hell' destructive of the self (16.21), and in the later *ari-ṣaḍ-varga* ('six enemies') it is counted with *kāma, krodha, moha, mada,* and *mātsarya*. Greed is closely tied to *kāma*: where *kāma* is the desire for an object not yet possessed, *lobha* is characteristically the craving to acquire more and to retain, the unwillingness to give. In Buddhist analysis *lobha* (Pali *lobha*) is one of the three unwholesome roots (*akusala-mūla*) alongside *dosa* (hatred) and *moha* (delusion), the root from which all grasping and clinging spring. Across the traditions *lobha* is treated not as a neutral appetite but as a defect (*doṣa*) that distorts judgment, drives unjust action, and binds one to *saṃsāra*; its remedy is *vairāgya* (dispassion) and, in the ethical literature, the cultivation of *dāna* (giving) and contentment.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Lobha* names **greed — the grasping desire for gain and the reluctance to give**, listed across traditions among the chief defilements of mind. It is widely shared as a moral-psychological category; schools differ mainly in the taxonomy they place it in.",
+    "register_axes_note": "Largely **shared** as an affliction-term. The *Gītā* groups it with *kāma* and *krodha* as a gate of self-ruin; the smṛti and nīti literature place it in the *ṣaḍ-varga* of inner enemies; Buddhism makes it one of the three unwholesome roots. Same vice, differently catalogued."
+  },
+  "per_school": [
+    {
+      "school": "Bhagavad-Gītā",
+      "definition": "*Lobha* is named at 16.21 with *kāma* and *krodha* as the threefold 'gate of hell' (*trividhaṃ narakasya dvāram*) that ruins the self, and which the seeker is therefore to abandon. It is a mark of the *āsurī sampad* (the demonic endowment) catalogued in chapter 16, and an expression of *rajas*; like the other gates it issues from *kāma* and clouds discernment, so that release from it belongs to the steadying of the *buddhi* and the dispassion of the *sthitaprajña*.",
+      "primary_loci": [
+        "Bhagavad-Gītā 16.21 (kāmaḥ krodhas tathā lobhaḥ; the triple gate)",
+        "Bhagavad-Gītā 14.17 (lobha as a fruit of rajas)",
+        "Bhagavad-Gītā 16.10-18 (the āsurī sampad)"
+      ],
+      "register_tag": "M+S; mumukṣu (one of the three gates of hell)"
+    },
+    {
+      "school": "Buddhist",
+      "definition": "*Lobha* is one of the three unwholesome roots (*akusala-mūla*) — greed, with hatred (*dosa*) and delusion (*moha*) — from which unwholesome action springs. As craving and clinging in their acquisitive aspect it feeds *taṇhā* and so the arising of suffering; its counterpart wholesome root is *alobha* (non-greed, generosity). The path's cultivation of generosity and dispassion is the direct undoing of *lobha*.",
+      "primary_loci": [
+        "the three akusala-mūla (lobha, dosa, moha) in the suttas and Abhidhamma",
+        "Dhammasaṅgaṇī (lobha among the unwholesome states)"
+      ],
+      "register_tag": "Φ+S; reflective reader (unwholesome root)"
+    }
+  ],
+  "see_also": [
+    "kama",
+    "krodha",
+    "moha",
+    "raga",
+    "trsna",
+    "vairagya"
+  ],
+  "translator_note": "'Greed' or 'covetousness' is accurate; avoid the bland 'desire', which is better reserved for *kāma*. The distinction worth preserving is that *lobha* leans toward acquisition and retention — wanting more, unwillingness to give — whereas *kāma* is desire for an object as such. In Buddhist contexts keep it paired with its catalog (*akusala-mūla*) so the systematic force is not lost."
+}

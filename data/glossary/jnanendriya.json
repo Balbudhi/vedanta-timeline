@@ -1,0 +1,52 @@
+{
+  "term_key": "jnanendriya",
+  "term_iast": "jñānendriya",
+  "term_devanagari": "ज्ञानेन्द्रिय",
+  "literal": "organ of knowledge, sense of perception; *jñāna* 'knowledge, cognition' + *indriya* 'sense-organ, faculty', hence 'the faculty by which knowledge of objects arises' — a sense of perception (also *buddhīndriya*, 'organ of cognition')",
+  "aliases": [
+    "jnanendriya",
+    "jñānendriya",
+    "Jñānendriya",
+    "jñānendriyāṇi",
+    "buddhindriya",
+    "buddhīndriya",
+    "buddhīndriyāṇi"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Jñānendriya* (also *buddhīndriya*) is an organ of knowledge — one of the five senses of perception by which cognition of objects arises: hearing, touch, sight, taste, and smell (ear, skin, eye, tongue, nose). It is one of the two classes into which the Sāṅkhya analysis divides the ten external *indriyas*, the other being the five *karmendriyas*, the organs of action. Together with *manas* (which Sāṅkhya counts as an eleventh, common to both classes) these make up the instruments through which the embodied self transacts with the world. The five *jñānendriyas* are evolutes of *ahaṅkāra* in its *sāttvika* aspect and are not the physical organs (the *golakas*) but the subtle perceptive faculties seated in them. In Vedānta the same scheme is taken up: the *jñānendriyas* are the channels through which sense-objects reach the inner instrument, and their governance — drawing them in from their objects (*pratyāhāra*) — is central to the discipline of the *sthitaprajña* and the yogin. The class is defined functionally, by the cognition it yields, in contrast to the *karmendriyas*, which are defined by the action they perform.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Jñānendriya* names **a sense of perception — one of the five organs of knowledge (hearing, touch, sight, taste, smell)** by which cognition of objects arises, as against the *karmendriyas* of action. The fivefold scheme is shared across Sāṅkhya, Yoga, and Vedānta.",
+    "register_axes_note": "Broadly **shared** as a term of psychological analysis. Differences concern the wider ontology in which the senses are placed (evolutes of *ahaṅkāra* in Sāṅkhya–Yoga; instruments of the self under *upādhi* in Advaita), not the identity of the five perceptive faculties."
+  },
+  "per_school": [
+    {
+      "school": "Sāṅkhya",
+      "definition": "The five *jñānendriyas* (*buddhīndriyas*) — ear, skin, eye, tongue, nose — are, with the five *karmendriyas* and *manas*, the eleven *indriyas* that evolve from *ahaṅkāra* (Sāṅkhya-Kārikā 24–26). The organs of perception have hearing, touch, seeing, tasting, and smelling as their functions; they are subtle faculties, not the gross physical organs, and operate together with *manas*, *ahaṅkāra*, and *buddhi* to present objects to the *puruṣa*. They are defined by the cognition they yield, the *karmendriyas* by their action.",
+      "primary_loci": [
+        "Sāṅkhya-Kārikā 24-26 (the eleven indriyas from ahaṅkāra)",
+        "Sāṅkhya-Kārikā 28 (the function of the perceptive organs)"
+      ],
+      "register_tag": "M+E; reflective reader (the five perceptive faculties)"
+    },
+    {
+      "school": "Advaita",
+      "definition": "Advaita adopts the Sāṅkhya enumeration: the five *jñānendriyas* are channels through which sense-objects reach the inner instrument (*antaḥkaraṇa*), themselves evolutes of the *sāttvika* aspect of the elements. They belong to the *upādhi*-conditioned apparatus of the *jīva*, not to the *ātman*, which is their witness. Their restraint and inward withdrawal is integral to the discipline that prepares for knowledge; the self is realized precisely by discriminating it from the senses and their cognitions.",
+      "primary_loci": [
+        "Vedānta-Sāra (the jñānendriyas among the seventeen-fold subtle body)",
+        "Pañcadaśī (the indriyas as instruments of the jīva, witnessed by ātman)"
+      ],
+      "register_tag": "M+S; mumukṣu (perceptive faculties as upādhi)"
+    }
+  ],
+  "see_also": [
+    "indriya",
+    "karmendriya",
+    "manas",
+    "ahankara",
+    "pratyahara",
+    "visaya"
+  ],
+  "translator_note": "Render 'organ of knowledge', 'sense of perception', or 'perceptive faculty'; the synonym *buddhīndriya* names the same five. Keep clear that these are the subtle faculties, not the physical organs (*golaka*): the eye as *jñānendriya* is the power of sight, not the eyeball. The class is defined by the cognition it produces, in deliberate contrast to the *karmendriyas* (organs of action), and the two together with *manas* make up the standard set of eleven *indriyas*."
+}

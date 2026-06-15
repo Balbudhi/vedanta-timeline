@@ -1,0 +1,53 @@
+{
+  "term_key": "citta-vrtti-nirodha",
+  "term_iast": "citta-vṛtti-nirodha",
+  "term_devanagari": "चित्त-वृत्ति-निरोध",
+  "literal": "the stilling of the modifications of the mind-stuff; *citta* 'mind-stuff' + *vṛtti* 'turning, modification, mode' (√vṛt 'to turn') + *nirodha* 'restraint, cessation, stilling' (ni- 'down' + √rudh 'to obstruct'), 'the stopping of the mind's turnings'",
+  "aliases": [
+    "citta-vrtti-nirodha",
+    "citta-vṛtti-nirodha",
+    "cittavṛttinirodha",
+    "cittavṛttinirodhaḥ",
+    "Citta-vṛtti-nirodha",
+    "vṛtti-nirodha",
+    "nirodha"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Citta-vṛtti-nirodha* is the *Yoga-Sūtra*'s own definition of yoga: 'yoga is the stilling of the modifications of the mind-stuff' (*yogaś citta-vṛtti-nirodhaḥ*, YS 1.2). The *citta* is the inner instrument in its capacity to take on forms; its *vṛttis* are the modes it assumes — the five being right cognition, error, conceptual construction, sleep, and memory (YS 1.6). Their *nirodha* is not the destruction of the mind but the arrest of its restless transformation, so that, the turnings stilled, the seer (*draṣṭṛ*) abides in its own form (YS 1.3) rather than appearing to take the shape of the *vṛttis* (YS 1.4). The stilling is achieved 'by practice and dispassion' (*abhyāsa-vairāgyābhyām*, YS 1.12) and is graded through *samprajñāta* and *asamprajñāta samādhi* toward *kaivalya*. The phrase is foundational to Pātañjala Yoga and is frequently cited across the wider tradition as the classical formula for what yoga, in its technical sense, is; it stands in deliberate contrast to the *Gītā*'s looser identifications of yoga with skill in action (2.50) and evenness of mind (*samatvaṃ yoga ucyate*, 2.48).",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Citta-vṛtti-nirodha* names **the stilling of the mind's modifications — the arrest of the *citta*'s restless self-transformation so that the seer rests in its own form** (YS 1.2–4). The formula is proprietary to Pātañjala Yoga; the wider tradition cites it as the definitive technical sense of 'yoga', against which the *Gītā*'s broader uses are measured.",
+    "register_axes_note": "Not a site of doctrinal dispute but a definitional formula. Its comparative function is to mark the **difference of aspect** between Yoga's technical yoga (cessation of *vṛttis*) and the *Gītā*'s yoga as equanimity and skill in action — same word, narrower versus broader scope."
+  },
+  "per_school": [
+    {
+      "school": "Yoga",
+      "definition": "*Citta-vṛtti-nirodha* is the very definition of yoga at YS 1.2. The *vṛttis*, fivefold and either afflicted or unafflicted (YS 1.5–11), are stilled by practice and dispassion (YS 1.12); when stilled, the *draṣṭṛ* abides in its own nature (YS 1.3), no longer apparently conformed to the mind's modes (YS 1.4). The stilling is progressive — through *samprajñāta* absorption with its accompaniments, then *asamprajñāta* in which cognition itself lapses — and issues finally in *kaivalya*, the isolation of the seeing-power. *Nirodha* is thus the organizing aim of the whole system, not the suppression of awareness but the cessation of its dispersal into the mind's turnings.",
+      "primary_loci": [
+        "Yoga-Sūtra 1.2 (yogaś citta-vṛtti-nirodhaḥ)",
+        "Yoga-Sūtra 1.3-4 (tadā draṣṭuḥ svarūpe 'vasthānam)",
+        "Yoga-Sūtra 1.12 (abhyāsa-vairāgyābhyāṃ tan-nirodhaḥ)"
+      ],
+      "register_tag": "Φ+S; yogin (the definition of yoga)"
+    },
+    {
+      "school": "Bhagavad-Gītā",
+      "definition": "The *Gītā* does not define yoga as *citta-vṛtti-nirodha*; its characteristic formulas are broader — yoga as evenness of mind (*samatvaṃ yoga ucyate*, 2.48) and as skill in action (*yogaḥ karmasu kauśalam*, 2.50). Yet the technical idea is not absent: 6.20–23 describes the *citta* coming to rest (*yatroparamate cittam*) and the mind held steady, which the commentators read as the *Gītā*'s nearest approach to the Pātañjala conception of stilled mental modification.",
+      "primary_loci": [
+        "Bhagavad-Gītā 6.20-23 (yatroparamate cittam)",
+        "Bhagavad-Gītā 2.48, 2.50 (the broader definitions of yoga)"
+      ],
+      "register_tag": "M+S; mumukṣu (yoga as steadied citta)"
+    }
+  ],
+  "see_also": [
+    "yoga",
+    "citta",
+    "vrtti",
+    "samadhi",
+    "kaivalya",
+    "vairagya"
+  ],
+  "translator_note": "Translate *nirodha* as 'stilling', 'cessation', or 'restraint of the modifications', not 'suppression' in a forcible-repression sense and not 'control' loosely: YS 1.3 makes clear the point is that the seer rests in its own form, awareness undispersed, not that the mind is violently crushed. Keep 'yoga' in this phrase technical — it is the *Yoga-Sūtra*'s definition, distinct from the *Gītā*'s yoga as equanimity or skill in action."
+}

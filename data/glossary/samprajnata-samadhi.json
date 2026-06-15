@@ -1,0 +1,44 @@
+{
+  "term_key": "samprajnata-samadhi",
+  "term_iast": "samprajñāta-samādhi",
+  "term_devanagari": "सम्प्रज्ञात-समाधि",
+  "literal": "cognitive (object-bearing) absorption; *samprajñāta* 'fully cognized, having clear cognition' (sam- 'fully' + pra- + √jñā 'to know' + past participle -ta) qualifying *samādhi*, hence 'the absorption in which something is fully cognized'",
+  "aliases": [
+    "samprajnata-samadhi",
+    "samprajñāta-samādhi",
+    "saṃprajñāta-samādhi",
+    "samprajñāta",
+    "saṃprajñātaḥ",
+    "Samprajñāta-samādhi",
+    "samprajnata"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Samprajñāta-samādhi* is, in Pātañjala Yoga, the object-bearing form of *samādhi*: absorption in which a content is still 'fully cognized', attended by one or more of the four accompaniments — reasoning (*vitarka*), reflection (*vicāra*), bliss (*ānanda*), and I-am-ness (*asmitā*) (YS 1.17). It is the lower of the two great divisions of *samādhi*, the higher being *asamprajñāta-samādhi* in which cognitive content has ceased. The term is technical and tradition-specific: it belongs to the analysis of absorption in the *samādhi-pāda* of the *Yoga-Sūtra*, where the four accompaniments are read as a ladder of progressively subtler objects (gross object, subtle object, the joy of *sattva*, and the bare sense of being), each of which can be the support of a cognitive absorption. Because a content is still grasped, *samprajñāta* still leaves *saṃskāras* (latent impressions) behind, and is therefore distinguished from the *asamprajñāta* absorption that follows the cessation of cognition and retains only residual impressions (YS 1.18). The term has no exact counterpart in the *Gītā* or in Advaita, though Advaita's *savikalpa-samādhi* (absorption still bearing the knower–known–knowing distinction) plays a structurally analogous role as the lower of a paired division.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Samprajñāta-samādhi* names **the object-bearing absorption in which a content is still cognized, attended by reasoning, reflection, bliss, or I-am-ness** (YS 1.17). The term is essentially proprietary to Pātañjala Yoga; its interest for the wider tradition is comparative, as the type-case of an absorption that still has an object, against which object-less absorption (*asamprajñāta*, and Advaita's *nirvikalpa*) is defined.",
+    "register_axes_note": "Not a site of inter-school disagreement so much as a technical term whose ownership is single. Where other schools are invoked it is by **structural analogy**: Advaita's *savikalpa*/*nirvikalpa* pairing mirrors Yoga's *samprajñāta*/*asamprajñāta* pairing without the terms being interchangeable."
+  },
+  "per_school": [
+    {
+      "school": "Yoga",
+      "definition": "*Samprajñāta-samādhi* is the object-bearing absorption defined at YS 1.17 by its accompaniments — *vitarka* (reasoning upon a gross object), *vicāra* (reflection upon a subtle object), *ānanda* (the bliss of *sattva*), and *asmitā* (the bare sense of being). It is the absorption that still grasps a content and so still deposits *saṃskāras*; the commentarial tradition treats its four forms as a graded refinement of the object of concentration, culminating in the near-objectless *asmitā* absorption, beyond which lies *asamprajñāta*. It is a stage on the way to *kaivalya*, valued precisely as the discipline that thins the *vṛttis* until cognition itself can be suspended.",
+      "primary_loci": [
+        "Yoga-Sūtra 1.17 (vitarka-vicārānandāsmitā-rūpānugamāt saṃprajñātaḥ)",
+        "Yoga-Bhāṣya on 1.17",
+        "Yoga-Sūtra 1.18 (the contrast with asamprajñāta)"
+      ],
+      "register_tag": "Φ+S; yogin (object-bearing absorption)"
+    }
+  ],
+  "see_also": [
+    "samadhi",
+    "asamprajnata-samadhi",
+    "savikalpa-samadhi",
+    "citta-vrtti-nirodha",
+    "kaivalya",
+    "yoga"
+  ],
+  "translator_note": "Render as 'cognitive' or 'object-bearing absorption', not 'conscious samādhi' — the contrast with *asamprajñāta* is not between consciousness and unconsciousness but between absorption that still grasps a content (*prajñā*, here 'cognition of an object') and absorption in which that content has lapsed. Do not equate it with Advaita's *savikalpa-samādhi*: the two pairs run parallel but belong to different analyses, and the accompaniments named at YS 1.17 are specific to the Yoga system."
+}

@@ -1,0 +1,42 @@
+{
+  "term_key": "asmita",
+  "term_iast": "asmitā",
+  "term_devanagari": "अस्मिता",
+  "literal": "I-am-ness, egoity; abstract noun from *asmi* 'I am' (1st-person singular of √as 'to be') + *-tā*, hence 'the state of \"I am\"' — the bare positing of oneself as a subject",
+  "aliases": [
+    "asmita",
+    "asmitā",
+    "Asmitā",
+    "asmitāḥ",
+    "asmitā-mātra"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Asmitā* is 'I-am-ness' — the bare sense of being a self, the positing of 'I am' that attends experience. In Pātañjala Yoga it has a precise technical role. As the second of the five afflictions (*kleśas* — *avidyā, asmitā, rāga, dveṣa, abhiniveśa*, YS 2.3), it is defined as the apparent identification of the power of seeing (the *puruṣa*, *dṛk-śakti*) with the power of sight (the *buddhi*, *darśana-śakti*) as though they were one (*dṛg-darśana-śaktyor ekātmatā iva asmitā*, YS 2.6); it is thus the specific form *avidyā* takes when the witness is conflated with the instrument of cognition. *Asmitā* also names a positive stage of absorption: it is the subtlest of the four accompaniments of *samprajñāta-samādhi* (YS 1.17), the near-objectless absorption resting on the mere sense of being. The two uses are related — the bare 'I am' is both the root affliction underlying ego and, when refined in absorption, the last subtle object before cognition lapses. *Asmitā* is narrower than *ahaṅkāra*: where *ahaṅkāra* is the full ego-principle that appropriates ('I am the doer', 'this is mine'), *asmitā* is the prior, barer positing of subjecthood from which appropriation arises.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Asmitā* names **the bare 'I-am-ness', the positing of oneself as a subject** — in Yoga both the affliction of conflating the seer with the instrument of seeing (YS 2.6) and the subtlest object of cognitive absorption (YS 1.17). The term is chiefly a Yoga technicality; its wider use draws on the same root sense of egoity.",
+    "register_axes_note": "Within Yoga a **difference of aspect** in the term itself: *asmitā* as *kleśa* (the misidentification to be removed) and *asmitā* as the refined object of the highest *samprajñāta* absorption (the last subtle support before *asamprajñāta*). Against *ahaṅkāra* the difference is of **scope**: bare subjecthood versus the full appropriating ego."
+  },
+  "per_school": [
+    {
+      "school": "Yoga",
+      "definition": "*Asmitā* is the second *kleśa*, defined at YS 2.6 as the seeming identity of the seeing-power (*puruṣa*) and the instrument of sight (*buddhi*) — the root form of egoity grounded in *avidyā*. It is also the most refined accompaniment of *samprajñāta-samādhi* (YS 1.17), the absorption resting on the mere sense of being, beyond reasoning, reflection, and bliss; and the *asmitā-mātra* ('mere I-am-ness') is the source of constructed minds (YS 4.4). Its removal, with the other afflictions, belongs to *kriyā-yoga* and the discrimination that ripens toward *kaivalya*.",
+      "primary_loci": [
+        "Yoga-Sūtra 2.3 (avidyāsmitā-rāga-dveṣābhiniveśāḥ kleśāḥ)",
+        "Yoga-Sūtra 2.6 (dṛg-darśana-śaktyor ekātmatevāsmitā)",
+        "Yoga-Sūtra 1.17 (asmitā as accompaniment of samprajñāta-samādhi)"
+      ],
+      "register_tag": "Φ+S; yogin (the second kleśa; subtlest absorption-object)"
+    }
+  ],
+  "see_also": [
+    "klesa",
+    "ahankara",
+    "avidya",
+    "samprajnata-samadhi",
+    "buddhi",
+    "purusa"
+  ],
+  "translator_note": "Render *asmitā* as 'I-am-ness' or 'egoity', not simply 'ego' — that better translates *ahaṅkāra*, which is the appropriating ego-maker, whereas *asmitā* is the barer, prior positing of 'I am' that YS 2.6 defines as conflating the seer with the seen. Keep the two technical uses distinct: the affliction (to be removed) and the subtle absorption-object (cultivated in *samprajñāta-samādhi*) are the same 'I-am-ness' at opposite ends of the path."
+}

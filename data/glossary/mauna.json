@@ -1,0 +1,43 @@
+{
+  "term_key": "mauna",
+  "term_iast": "mauna",
+  "term_devanagari": "मौन",
+  "literal": "silence, the state of being a sage; abstract noun (vṛddhi-derivative with -a) from *muni* 'one who is silent, a sage', hence 'the condition or practice of the muni — silence, taciturnity, contemplative stillness'",
+  "aliases": [
+    "mauna",
+    "Mauna",
+    "maunam",
+    "maunena",
+    "mauni",
+    "maunin"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Mauna* is silence — the characteristic state and discipline of the *muni*, from whose name the abstract noun is formed. It runs along two related axes. As an outward observance it is the keeping of silence, listed in the *Gītā* among the austerities of speech and mind (17.16, *mano-niyamaḥ ... maunam*). But its deeper sense, and the one the contemplative traditions stress, is inward: the stilling of the mind's discursive movement, the silence of mental construction rather than merely of the tongue. On this reading *mauna* is less the refusal to speak than the quieting of the inner commentary, the *manana* turned to rest; the *muni* is one who has become silent in this radical sense, the mind no longer agitated by craving and aversion. The two senses are connected — outward silence is cultivated as a support for inward stillness — but the texts are careful that mere verbal silence without inner quiet is not the *mauna* of the sage. The term thus belongs to the same field as *vairāgya* and the steadiness of the *sthitaprajña*: silence as the outward sign and inward substance of a mind collected and free of disturbance.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Mauna* names **silence — both the outward observance of keeping silent and, more essentially, the inward stilling of the mind's discursive movement that defines the *muni***. The two senses are shared across the traditions; the contemplative weight falls on the inward.",
+    "register_axes_note": "Largely **shared**, with a recurring **difference of aspect** between *mauna* as a disciplinary austerity of speech (the *Gītā*'s *vāṅ-maya tapas*) and *mauna* as the inner silence of a mind no longer constructing — the silence that constitutes the sage rather than merely the practice that approaches it."
+  },
+  "per_school": [
+    {
+      "school": "Bhagavad-Gītā",
+      "definition": "*Mauna* appears among the *Gītā*'s austerities of the mind: silence is named with serenity, gentleness, and self-restraint as the *tapas* of mind and speech (17.16). But the *Gītā*'s ideal sage is the *muni* whose silence is inward — the *sthita-dhīr muniḥ* of 2.56, steady in wisdom, undisturbed by sorrow and unmoved by craving. The commentators accordingly read the deeper *mauna* not as mere wordlessness but as the contemplative stillness of one whose mind rests in the self, the outward observance being its disciplinary support.",
+      "primary_loci": [
+        "Bhagavad-Gītā 17.16 (maunam ātma-vinigrahaḥ; the austerity of mind and speech)",
+        "Bhagavad-Gītā 2.56 (sthita-dhīr muniḥ; the inwardly silent sage)",
+        "Bhagavad-Gītā 6.3 (the muni and the means to yoga)"
+      ],
+      "register_tag": "M+S; mumukṣu (silence as discipline and as inner stillness)"
+    }
+  ],
+  "see_also": [
+    "muni",
+    "sthitaprajna",
+    "vairagya",
+    "samadhi",
+    "santi",
+    "manana"
+  ],
+  "translator_note": "'Silence' is right, but the English should not let the reader take it as mere refusal to speak. The contemplative sense — the inner silence of a mind no longer constructing, the stillness that makes one a *muni* — is the primary one in the soteriological texts; outward *mauna* is its support, and verbal silence without inner quiet is explicitly not the sage's *mauna*. Where the context is the *Gītā*'s list of austerities, 'silence' as a discipline of speech is correct; where it is the description of the sage, 'inner stillness' captures more."
+}

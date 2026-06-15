@@ -1,0 +1,43 @@
+{
+  "term_key": "rtambhara",
+  "term_iast": "ṛtambharā",
+  "term_devanagari": "ऋतम्भरा",
+  "literal": "truth-bearing; *ṛtam* 'the real, cosmic order, truth' + *-bharā* 'bearing, holding' (√bhṛ 'to bear'), a feminine compound qualifying *prajñā* — 'the insight that bears (only) the truth'",
+  "aliases": [
+    "rtambhara",
+    "ṛtambharā",
+    "ṛtaṃbharā",
+    "Ṛtambharā",
+    "ṛtambharā-prajñā",
+    "ṛtaṃbharā prajñā"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Ṛtambharā* is, in Pātañjala Yoga, the epithet of the insight (*prajñā*) that arises at the height of absorption: 'there [in that absorption] the insight is truth-bearing' (*ṛtambharā tatra prajñā*, YS 1.48). The insight so named carries only the real: free of error and verbal-conceptual overlay, it grasps its object as it is, with a content distinct from that of inference and testimony because it bears upon the particular object directly (YS 1.49). It belongs to the upper reaches of *samprajñāta-samādhi*, where reflection (*vicāra*) has become clear (*vaiśāradya*) and the mind settled (*adhyātma-prasāda*, YS 1.47); the impression (*saṃskāra*) it generates is held to obstruct other impressions, clearing the way toward *asamprajñāta* absorption and *kaivalya* (YS 1.50–51). The term is specific to the Yoga system, but it is frequently cited in discussions of *prajñā* across the tradition as the type-case of a cognition that is wisdom in the strict sense — discerning insight into the real, not the accumulation of information.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Ṛtambharā* names **the truth-bearing insight that arises at the height of absorption and grasps its object as it is, free of error and verbal overlay** (YS 1.48–49). The term is proprietary to Pātañjala Yoga; its wider use is as a paradigm of *prajñā* as discerning insight into the real.",
+    "register_axes_note": "Not a contested term but a single-system technical epithet of *prajñā*. Cited comparatively to illustrate the **shared** structural role of *prajñā* as culminating, truth-disclosing wisdom, even though the object disclosed differs by school."
+  },
+  "per_school": [
+    {
+      "school": "Yoga",
+      "definition": "*Ṛtambharā prajñā* is the truth-bearing insight that dawns when, in absorption, reflection has grown lucid and the mind is settled (YS 1.47–48). Its content is held to be of a different order from that of inference and verbal testimony, since it bears directly on the particular as it is (YS 1.49); the *saṃskāra* it leaves overrides other impressions, and when even this insight-impression is stilled, *nirbīja-samādhi* and *kaivalya* follow (YS 1.50–51). It is wisdom proper — the immediate discernment of the real that the whole discipline of absorption is meant to ripen.",
+      "primary_loci": [
+        "Yoga-Sūtra 1.48 (ṛtambharā tatra prajñā)",
+        "Yoga-Sūtra 1.49 (its content distinct from inference and testimony)",
+        "Yoga-Sūtra 1.50-51 (its saṃskāra and nirbīja-samādhi)"
+      ],
+      "register_tag": "Φ+S; yogin (truth-bearing insight)"
+    }
+  ],
+  "see_also": [
+    "prajna",
+    "samadhi",
+    "samprajnata-samadhi",
+    "asamprajnata-samadhi",
+    "kaivalya",
+    "yoga"
+  ],
+  "translator_note": "Render *ṛtambharā* as 'truth-bearing' (insight) rather than the vaguer 'filled with truth'; the force is that this *prajñā* carries only the real, no error. Do not flatten *prajñā* here into 'thought' or 'idea' — at YS 1.48–49 it is precisely the discerning insight whose content differs in kind from inference and testimony because it grasps the particular directly. The term is Yoga-specific; when cited elsewhere it functions as a paradigm of wisdom-as-realization."
+}

@@ -1,0 +1,52 @@
+{
+  "term_key": "karma-yoga",
+  "term_iast": "karma-yoga",
+  "term_devanagari": "कर्म-योग",
+  "literal": "the discipline of action; *karma* 'action' (√kṛ 'to do') + *yoga* 'discipline, yoking', hence 'the yoga whose means is action' — the path of disciplined, fruit-renouncing action",
+  "aliases": [
+    "karma-yoga",
+    "karmayoga",
+    "Karma-yoga",
+    "karma-yogaḥ",
+    "karmayogena",
+    "buddhi-yoga"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Karma-yoga* is the discipline of action — the path of performing one's duty while relinquishing attachment to its fruits. It is one of the two great *niṣṭhās* (standings, paths) the *Gītā* sets out, the other being *jñāna-yoga*, the path of knowledge. The *Gītā* presents *karma-yoga* as the active counterpart of renunciation: since action cannot be wholly abandoned by the embodied (3.5), the seeker is to act without craving the fruit (2.47, *karmaṇy evādhikāras te mā phaleṣu kadācana*), offering action as worship and remaining even-minded in success and failure — for 'evenness of mind is called yoga' (2.48) and 'yoga is skill in action' (2.50). Practiced thus, action purifies the mind (*sattva-śuddhi*) rather than binding it, and prepares it for knowledge. The same path is named *buddhi-yoga* when the accent falls on the steadied intellect that governs the action. In Śaṅkara's reading *karma-yoga* is preparatory: it cleanses the mind and so qualifies the seeker for *jñāna-niṣṭhā*, in which alone liberation is consummated; other commentators give action a more enduring role alongside or within devotion. *Karma-yoga* is thus the *Gītā*'s answer to the apparent conflict between worldly obligation and the spiritual life: not the abandonment of action but its transformation through desireless intention.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Karma-yoga* names **the discipline of fruit-renouncing action — performing duty without attachment to results, as worship and with equanimity** (Gītā 2.47–50; 3). It is one of the two *Gītā* paths, paired with *jñāna-yoga*. Schools agree on its character but differ on its relation to knowledge.",
+    "register_axes_note": "**Real disagreement** among the Vedāntic commentators on the standing of *karma-yoga*: for Śaṅkara it is preparatory (mind-purifying) and superseded by *jñāna-niṣṭhā*; for others it is a co-ordinate or enduring path, woven into devotion. Same practice, contested soteriological weight."
+  },
+  "per_school": [
+    {
+      "school": "Bhagavad-Gītā",
+      "definition": "*Karma-yoga* is established in chapters 2–5 as the path of disciplined action: act, for action is unavoidable (3.5) and the world is sustained by it (3.20–25), but renounce attachment to the fruit (2.47), act with even mind (2.48), and offer action as sacrifice (3.9). So practiced, action does not bind. The *Gītā* declares *karma-yoga* even superior, for the unprepared, to the mere renunciation of action (5.2), since the embodied cannot but act; the essential renunciation is inward (the *tyāga* of fruits), not the cessation of work.",
+      "primary_loci": [
+        "Bhagavad-Gītā 2.47-50 (karmaṇy evādhikāras te; yogaḥ karmasu kauśalam)",
+        "Bhagavad-Gītā 3.4-9, 3.19-25 (the necessity and the manner of action)",
+        "Bhagavad-Gītā 5.2 (karma-yoga superior to mere saṃnyāsa of action)"
+      ],
+      "register_tag": "M+S; mumukṣu (the path of fruit-renouncing action)"
+    },
+    {
+      "school": "Advaita",
+      "definition": "Śaṅkara reads *karma-yoga* as a preparatory discipline (*sattva-śuddhi-dvārā*): performed without desire for fruit, action purifies the mind and qualifies the seeker for *jñāna-niṣṭhā*, in which alone, by knowledge of the self, liberation is reached. The two *niṣṭhās* are for different qualifications — action for the as-yet-unpurified, the standing in knowledge for the renunciate fit for it — and *karma-yoga*, though indispensable as preparation, is not itself the direct cause of *mokṣa*, since liberation is by knowledge alone.",
+      "primary_loci": [
+        "Gītā-Bhāṣya (Śaṅkara), introduction and on 2.10-11, 3.3 (the two niṣṭhās)",
+        "Gītā-Bhāṣya (Śaṅkara) on 5.1-6 (karma-yoga as purifier, jñāna as liberator)"
+      ],
+      "register_tag": "M+S; mumukṣu (karma-yoga as preparation for jñāna)"
+    }
+  ],
+  "see_also": [
+    "yoga",
+    "jnana-yoga",
+    "niskama-karma",
+    "nistha",
+    "tyaga",
+    "samnyasa"
+  ],
+  "translator_note": "'The discipline of action' or 'the path of action' is right; avoid 'work-yoga' or glosses that suggest mere busyness. The decisive content is the renunciation of *fruits* while acting, not action for its own sake. Note the alternate name *buddhi-yoga* (Gītā 2.49) when the accent is on the steadied intellect, and keep *karma-yoga* paired with *jñāna-yoga* as the *Gītā*'s two *niṣṭhās*, whose relation (preparatory or co-ordinate) is itself a point of commentarial dispute."
+}
