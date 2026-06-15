@@ -2837,6 +2837,15 @@ function openGlossary(termKey, anchorEl) {
              </div>`).join("")}
          </div>`
       : "";
+    // Indo-European / classical cognates, where a genuine analog informs the term.
+    const cog = entry.cognates;
+    const cognatesBlock = (cog && ((cog.items && cog.items.length) || cog.pie_root))
+      ? `<div class="gp-cognates"><span class="gp-label">Cognates</span><div class="gp-cog-body">
+           ${cog.pie_root ? `<div class="gp-cog-root">PIE ${escape(cog.pie_root)}</div>` : ""}
+           ${(cog.items || []).map((i) => `<div class="gp-cog-item"><span class="gp-cog-lang">${escape(i.lang)}</span> <span class="gp-cog-form">${escape(i.form)}</span>${i.sense ? ` — ${escape(i.sense)}` : ""}</div>`).join("")}
+           ${cog.note ? `<div class="gp-cog-note">${md(cog.note)}</div>` : ""}
+         </div></div>`
+      : "";
     const footnoteList = renderFootnoteList(allFootnotes);
     // Heading: prefer the surface form the user actually clicked when it
     // differs from the canonical term_iast (alias resolution makes them
@@ -2851,6 +2860,7 @@ function openGlossary(termKey, anchorEl) {
     bodyEl.innerHTML = `
       ${heading}
       ${entry.literal ? `<div class="gp-literal">Literally: <em>${inlineMarkdown(entry.literal)}</em></div>` : ""}
+      ${cognatesBlock}
       <div class="gp-invariant"><span class="gp-label">${entry.invariant_definition && entry.invariant_definition.toLowerCase().includes("no shared invariant") ? "No invariant" : "Invariant"}</span><div>${invariantR.html}</div></div>
       ${perSchool ? `<div class="gp-perschool"><span class="gp-label">By school</span>${framingBlock}${perSchool}</div>` : ""}
       ${historyBlock}

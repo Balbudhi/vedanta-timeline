@@ -340,6 +340,12 @@ html[data-theme="dark"] .wc-gl { color: #d8c074; }
 .gp-stage-sa { font-style: italic; font-size: 12.5px; color: var(--muted); margin: 2px 0; line-height: 1.55; }
 .gp-stage-en { font-size: 12.5px; color: var(--ink-soft); line-height: 1.5; }
 .gp-stage-note { font-size: 12px; color: var(--muted); margin-top: 2px; line-height: 1.5; }
+.gp-cognates { margin: 8px 0; }
+.gp-cog-root { font-size: 11px; color: var(--muted); font-style: italic; margin: 2px 0 4px; }
+.gp-cog-item { font-size: 12.5px; color: var(--ink-soft); margin: 1px 0; }
+.gp-cog-lang { font-weight: 700; color: var(--ink); }
+.gp-cog-form { font-style: italic; }
+.gp-cog-note { font-size: 12px; color: var(--muted); margin-top: 3px; }
 .gpop { max-height: 70vh; overflow-y: auto; }
 
 /* ---- below the comfortable 3-column width: drop the rail to a horizontal strip ---- */

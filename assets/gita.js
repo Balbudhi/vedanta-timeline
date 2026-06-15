@@ -630,6 +630,13 @@ async function openGlossary(key, anchor) {
   else {
     const perSchool = (e.per_school || []).map(s =>
       `<div class="gp-row"><span class="gp-school">${esc(s.school)}</span><span class="gp-def">${mdInline(s.definition)}</span></div>`).join("");
+    const cog = e.cognates;
+    const cognates = (cog && ((cog.items && cog.items.length) || cog.pie_root))
+      ? `<div class="gp-cognates"><span class="gp-note-label">Cognates</span>
+           ${cog.pie_root ? `<div class="gp-cog-root">PIE ${esc(cog.pie_root)}</div>` : ""}
+           ${(cog.items || []).map(i => `<div class="gp-cog-item"><span class="gp-cog-lang">${esc(i.lang)}</span> <span class="gp-cog-form">${esc(i.form)}</span>${i.sense ? " — " + esc(i.sense) : ""}</div>`).join("")}
+           ${cog.note ? `<div class="gp-cog-note">${mdInline(cog.note)}</div>` : ""}</div>`
+      : "";
     const th = e.textual_history;
     const history = (th && (th.summary || (th.stages && th.stages.length)))
       ? `<div class="gp-history"><span class="gp-note-label">Across the texts</span>
@@ -644,6 +651,7 @@ async function openGlossary(key, anchor) {
     glossEl.innerHTML = `<button class="gp-x" aria-label="Close glossary">×</button>
       <div class="gp-term" id="gpTerm" lang="sa-Latn">${esc(e.term_iast || key)}</div>
       ${e.literal ? `<div class="gp-lit">${mdInline(e.literal)}</div>` : ""}
+      ${cognates}
       ${e.invariant_definition ? `<p class="gp-def">${mdInline(e.invariant_definition)}</p>` : ""}
       ${perSchool ? `<div class="gp-schools">${perSchool}</div>` : ""}
       ${history}
