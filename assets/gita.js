@@ -1,365 +1,368 @@
 /* =============================================================
-   Sthitaprajña — BG 2.54–72 reading engine.
-   Renders window.GITA_VERSES (see gita/sthitaprajna/verses.js and
-   gita/sthitaprajna/_build/DESIGN.md).
-
-   IAST only on screen. Per verse: saṃhitā line, an interactive
-   pada-pāṭha (every word tappable → Pāṇinian word-card + English
-   highlight), literal English, and collapsible apparatus:
-   Grammar in full · Commentary voices (voice-by-voice, equal) ·
-   Aurobindo · Across traditions.
+   Bhagavad-Gītā 2.54–72 — reading engine.
+   Renders window.GITA_VERSES (verses.js). Apparatus layers merge in
+   by locus and are presented as ONE unified, selectable set of
+   voices: the ācāryas (commentaries.js), Sri Aurobindo (aurobindo.js),
+   and the cross-tradition parallels (parallels.js) — pick a name, see
+   that voice across every verse. IAST only on screen.
    ============================================================= */
 
-const GLOSSARY_BASE = "../../data/glossary/";
-
-function escapeHtml(s) {
+function esc(s) {
   return String(s == null ? "" : s).replace(/[&<>"']/g, c => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
   }[c]));
 }
 
-/* ----- English line: {indices:phrase} → highlightable spans ----- */
-function renderEnglishWithSpans(english) {
+/* ---------- grammar jargon → plain English ---------- */
+const ABBR = [
+  [/\bnom\./g, "nominative"], [/\bacc\./g, "accusative"], [/\binstr\./g, "instrumental"],
+  [/\bdat\./g, "dative"], [/\babl\./g, "ablative"], [/\bgen\./g, "genitive"],
+  [/\bloc\./g, "locative"], [/\bvoc\./g, "vocative"],
+  [/\bsg\./g, "singular"], [/\bpl\./g, "plural"], [/\bdu\./g, "dual"],
+  [/\bmasc\./g, "masculine"], [/\bfem\./g, "feminine"], [/\bneut\./g, "neuter"],
+  [/\bindic\./g, "indicative"], [/\bpres\./g, "present"], [/\bpart\./g, "participle"],
+  [/\bppp\./g, "past participle"], [/\bopt\./g, "optative"],
+];
+function plainMorph(m) {
+  let s = " " + m + " ";
+  for (const [re, full] of ABBR) s = s.replace(re, full);
+  return s.trim();
+}
+const CASE_SENSE = {
+  genitive: "of", instrumental: "by / with", locative: "in / on",
+  dative: "to / for", ablative: "from", accusative: "the object",
+  nominative: "the subject", vocative: "one addressed",
+};
+function caseSense(plain) {
+  for (const k in CASE_SENSE) if (plain.indexOf(k) === 0 || plain.indexOf(" " + k) >= 0 || plain.indexOf(k) === 0) {
+    if (plain.startsWith(k)) return CASE_SENSE[k];
+  }
+  const first = plain.split(/[ ,]/)[0];
+  return CASE_SENSE[first] || null;
+}
+
+/* ---------- English line: {indices:phrase} → highlightable spans ---------- */
+function renderEnglish(english) {
   const re = /\{([\d,\s]+):([^}]*)\}/g;
   let out = "", last = 0, m;
   while ((m = re.exec(english)) !== null) {
-    if (m.index > last) out += escapeHtml(english.slice(last, m.index));
-    const indices = m[1].split(",").map(s => s.trim()).filter(Boolean).join(" ");
-    out += `<span class="we" data-word-i="${indices}">${escapeHtml(m[2])}</span>`;
+    if (m.index > last) out += esc(english.slice(last, m.index));
+    const idx = m[1].split(",").map(s => s.trim()).filter(Boolean).join(" ");
+    out += `<span class="we" data-wi="${idx}">${esc(m[2])}</span>`;
     last = m.index + m[0].length;
   }
-  if (last < english.length) out += escapeHtml(english.slice(last));
+  if (last < english.length) out += esc(english.slice(last));
   return out;
 }
 
-/* ----- pada-pāṭha: each word a tappable span ----- */
-function renderPadapatha(words) {
+function renderPada(words) {
   return words.map(w => {
-    const cls = w.translatable === false ? "w w-untranslatable" : "w";
-    return `<span class="${cls}" data-word-i="${w.i}" tabindex="0">${escapeHtml(w.iast)}</span>`;
+    const cls = w.translatable === false ? "w w-name" : "w";
+    return `<span class="${cls}" data-wi="${w.i}" tabindex="0">${esc(w.iast)}</span>`;
   }).join(" ");
 }
 
-/* ----- saṃhitā: plain IAST, line-broken on \n ----- */
-function renderSamhita(iast) {
-  return escapeHtml(iast).replace(/\n/g, "<br>");
-}
-
-/* ----- the full word-by-word grammar list (Layer 2) ----- */
-function renderGrammarFull(verse) {
-  const rows = verse.words.map(w => {
-    const bits = [];
-    if (w.stem) bits.push(`stem <em>${escapeHtml(w.stem)}</em>`);
-    if (w.root) bits.push(`root <em>${escapeHtml(w.root)}</em>`);
-    if (w.affix && w.affix !== "—") bits.push(escapeHtml(w.affix));
-    if (w.morph) bits.push(escapeHtml(w.morph));
-    if (w.karaka) bits.push(`<span class="g-karaka">${escapeHtml(w.karaka)}</span>`);
-    let comp = "";
-    if (w.compound) {
-      comp = `<div class="g-compound">${escapeHtml(w.compound.type)}: <em>${escapeHtml(w.compound.vigraha)}</em></div>`;
-    }
-    return `<div class="g-row">
-      <div class="g-pada">${escapeHtml(w.iast)}</div>
-      <div class="g-body"><div class="g-gloss">${escapeHtml(w.gloss)}</div>
-        <div class="g-morph">${bits.join(" · ")}</div>${comp}</div>
-    </div>`;
-  }).join("");
-  const summary = [];
-  if (verse.grammar && verse.grammar.karakaSummary)
-    summary.push(`<p class="g-summary"><span class="g-label">Kāraka</span> ${escapeHtml(verse.grammar.karakaSummary)}</p>`);
-  if (verse.grammar && verse.grammar.verbalModality)
-    summary.push(`<p class="g-summary"><span class="g-label">Verbal modality</span> ${escapeHtml(verse.grammar.verbalModality)}</p>`);
-  return `<div class="g-rows">${rows}</div>${summary.join("")}`;
-}
-
-/* ----- commentary: voice-by-voice, equal, unbiased ----- */
-function renderCommentary(verse, vIdx) {
-  const list = verse.commentaries || [];
-  if (!list.length) return `<p class="apparatus-empty">No commentary on this verse is on file yet.</p>`;
-  const tabs = list.map((c, k) =>
-    `<button class="voice-tab${k === 0 ? " is-active" : ""}" data-voice="${k}" type="button">
-       <span class="voice-name">${escapeHtml(c.author)}</span>
-       <span class="voice-school">${escapeHtml(c.school || "")}</span>
-     </button>`).join("");
-  const panels = list.map((c, k) =>
-    `<div class="voice-panel${k === 0 ? " is-active" : ""}" data-voice="${k}">
-       <div class="voice-head">${escapeHtml(c.author)} · <em>${escapeHtml(c.work || "")}</em>${c.locus ? " · " + escapeHtml(c.locus) : ""}</div>
-       <div class="voice-sanskrit" data-glossable>${escapeHtml(c.sanskrit)}</div>
-       ${c.ourRendering ? `<div class="voice-rendering">${escapeHtml(c.ourRendering)}</div>` : ""}
-     </div>`).join("");
-  return `<div class="voice-tabs" role="tablist">${tabs}</div><div class="voice-panels">${panels}</div>`;
-}
-
-function renderAurobindo(verse) {
-  const list = verse.aurobindo || [];
-  if (!list.length) return `<p class="apparatus-empty">No Aurobindo passage indexed to this verse yet.</p>`;
-  return list.map(a =>
-    `<blockquote class="auro">
-       <div class="auro-text">${escapeHtml(a.text)}</div>
-       <cite>— Sri Aurobindo, <em>${escapeHtml(a.work || "Essays on the Gita")}</em>${a.ref ? ", " + escapeHtml(a.ref) : ""}</cite>
-     </blockquote>`).join("");
-}
-
-function renderCrossTradition(verse) {
-  const list = verse.crossTradition || [];
-  if (!list.length) return `<p class="apparatus-empty">No cross-tradition parallel indexed to this verse yet.</p>`;
-  return list.map(p =>
-    `<div class="parallel">
-       <div class="parallel-head">${escapeHtml(p.school || "")}${p.thinker ? " · " + escapeHtml(p.thinker) : ""} · <em>${escapeHtml(p.work || "")}</em>${p.locus ? " " + escapeHtml(p.locus) : ""}</div>
-       <div class="parallel-sanskrit" data-glossable>${escapeHtml(p.sanskrit)}</div>
-       ${p.ourRendering ? `<div class="parallel-rendering">${escapeHtml(p.ourRendering)}</div>` : ""}
-     </div>`).join("");
-}
-
-function disclosure(label, count, innerHtml) {
-  const badge = count ? `<span class="ap-count">${count}</span>` : "";
-  return `<details class="apparatus">
-    <summary><span class="ap-caret" aria-hidden="true"></span><span class="ap-label">${escapeHtml(label)}</span>${badge}</summary>
-    <div class="ap-body">${innerHtml}</div>
-  </details>`;
-}
-
-function renderVerse(verse, idx) {
-  const speaker = verse.speaker === "arjuna" ? "Arjuna" : verse.speaker === "krishna" ? "Śrī Kṛṣṇa" : "";
-  return `<article class="verse" id="v-${escapeHtml(verse.locus)}" data-verse-idx="${idx}">
-    <header class="verse-head">
-      <span class="verse-locus">${escapeHtml(verse.locus)}</span>
-      ${speaker ? `<span class="verse-speaker">${escapeHtml(speaker)}</span>` : ""}
-      ${verse.meter ? `<span class="verse-meter">${escapeHtml(verse.meter)}</span>` : ""}
-    </header>
-    <div class="verse-samhita">${renderSamhita(verse.iast)}</div>
-    <div class="verse-pada">${renderPadapatha(verse.words)}</div>
-    <div class="verse-english">${renderEnglishWithSpans(verse.english)}</div>
-    ${verse.sense ? `<p class="verse-sense">${escapeHtml(verse.sense)}</p>` : ""}
-    <div class="verse-apparatus">
-      ${disclosure("Grammar in full", null, renderGrammarFull(verse))}
-      ${disclosure("Commentary voices", (verse.commentaries || []).length, renderCommentary(verse))}
-      ${disclosure("Aurobindo on the Gita", (verse.aurobindo || []).length, renderAurobindo(verse))}
-      ${disclosure("Across traditions", (verse.crossTradition || []).length, renderCrossTradition(verse))}
-    </div>
-  </article>`;
-}
-
 /* =============================================================
-   RENDER + WIRE
+   VOICES — unify commentary + Aurobindo + parallels into one set.
+   Each voice: { id, name, school, year, render(locusEntry|entries) }
    ============================================================= */
-let VERSES = [];
-
-// Core verse data lives in verses.js (window.GITA_VERSES). The apparatus
-// layers are authored independently and merged here by locus, so the
-// commentary / Aurobindo / parallels workstreams never touch the same
-// file: window.GITA_COMMENTARY / GITA_AUROBINDO / GITA_PARALLELS are
-// optional maps { "2.54": [ … ] }.
-// Commentary voices are shown voice-by-voice and EQUAL — no ranking. We
-// order them chronologically (a neutral ordering, not a judgment) so no
-// ācārya is privileged by being the data seed.
-const VOICE_CHRONOLOGY = {
-  "Śaṅkara": 700, "Abhinavagupta": 975, "Yāmuna": 1010, "Rāmānuja": 1077,
-  "Madhva": 1238, "Śrīdhara": 1400, "Keśava Kāśmīrī": 1480, "Vallabha": 1490,
-  "Madhusūdana": 1565, "Baladeva": 1720,
+const VOICE_YEAR = {
+  "Śaṅkara": 700, "Abhinavagupta": 975, "Rāmānuja": 1077,
+  "Madhva (Ānandatīrtha)": 1238, "Madhva": 1238,
+  "Śrīdhara Svāmī": 1400, "Śrīdhara": 1400,
+  "Keśava Kāśmīrī": 1480,
+  "Madhusūdana Sarasvatī": 1565, "Madhusūdana": 1565,
+  "Baladeva": 1720, "Sri Aurobindo": 1916,
 };
-function voiceYear(c) {
-  return VOICE_CHRONOLOGY[c.author] != null ? VOICE_CHRONOLOGY[c.author] : 9999;
-}
+function voiceYear(name) { return VOICE_YEAR[name] != null ? VOICE_YEAR[name] : 9000; }
 
-function mergeLayers(verses) {
+// Build, per verse, a map voiceId -> html block. Returns {voices:Set, byVerse:{locus:{voiceId:html}}}
+function buildVoices(verses) {
   const com = window.GITA_COMMENTARY || {};
   const auro = window.GITA_AUROBINDO || {};
   const par = window.GITA_PARALLELS || {};
-  return verses.map(v => ({
-    ...v,
-    commentaries: (v.commentaries || []).concat(com[v.locus] || [])
-      .slice().sort((a, b) => voiceYear(a) - voiceYear(b)),
-    aurobindo: (v.aurobindo || []).concat(auro[v.locus] || []),
-    crossTradition: (v.crossTradition || []).concat(par[v.locus] || []),
-  }));
+  const meta = {};               // voiceId -> {id,name,school,year,order}
+  const byVerse = {};
+
+  function ensure(id, name, school, year) {
+    if (!meta[id]) meta[id] = { id, name, school: school || "", year: year != null ? year : 9000 };
+  }
+  function add(locus, id, html) {
+    (byVerse[locus] = byVerse[locus] || {})[id] = html;
+  }
+
+  for (const v of verses) {
+    const locus = v.locus;
+    // commentary ācāryas (inline + commentaries.js)
+    const coms = (v.commentaries || []).concat(com[locus] || []);
+    for (const c of coms) {
+      const id = "ac:" + c.author;
+      ensure(id, c.author, c.school, voiceYear(c.author));
+      add(locus, id, `
+        <div class="voice-src">${esc(c.work || "")}${c.locus ? " · " + esc(c.locus) : ""}</div>
+        <div class="voice-sa" lang="sa-Latn">${esc(c.sanskrit)}</div>
+        ${c.ourRendering ? `<div class="voice-en">${esc(c.ourRendering)}</div>` : ""}`);
+    }
+    // Sri Aurobindo (English only)
+    const au = auro[locus] || [];
+    if (au.length) {
+      ensure("aurobindo", "Sri Aurobindo", "Integral Yoga", voiceYear("Sri Aurobindo"));
+      add(locus, "aurobindo", au.map(a =>
+        `<div class="voice-src">${esc(a.work || "Essays on the Gita")}${a.ref ? " · " + esc(a.ref) : ""}</div>
+         <div class="voice-en">${esc(a.text)}</div>`).join('<hr class="voice-rule">'));
+    }
+    // Cross-tradition parallels (one combined voice)
+    const ps = par[locus] || [];
+    if (ps.length) {
+      ensure("parallels", "Across traditions", "parallel", 9500);
+      add(locus, "parallels", ps.map(p =>
+        `<div class="voice-src">${esc(p.school || "")}${p.thinker ? " · " + esc(p.thinker) : ""} · ${esc(p.work || "")}${p.locus ? " " + esc(p.locus) : ""}</div>
+         <div class="voice-sa" lang="sa-Latn">${esc(p.sanskrit)}</div>
+         ${p.ourRendering ? `<div class="voice-en">${esc(p.ourRendering)}</div>` : ""}`).join('<hr class="voice-rule">'));
+    }
+  }
+  const voices = Object.values(meta).sort((a, b) =>
+    (a.year - b.year) || a.name.localeCompare(b.name));
+  return { voices, byVerse };
+}
+
+/* =============================================================
+   RENDER
+   ============================================================= */
+let VERSES = [], VOICES = [], BYVERSE = {};
+const VOICE_KEY = "gita-voice";
+
+function speakerLabel(s) {
+  return s === "arjuna" ? "Arjuna" : s === "krishna" ? "Kṛṣṇa" : "";
+}
+
+function renderVerse(v, idx) {
+  const sp = speakerLabel(v.speaker);
+  const vb = BYVERSE[v.locus] || {};
+  const blocks = VOICES.map(voice =>
+    vb[voice.id]
+      ? `<div class="voice-block" data-voice="${esc(voice.id)}">
+           <div class="voice-who">${esc(voice.name)}${voice.school && voice.school !== "parallel" ? ` <span class="voice-school">${esc(voice.school)}</span>` : ""}</div>
+           ${vb[voice.id]}
+         </div>`
+      : "").join("");
+  return `<article class="verse" id="v-${esc(v.locus)}" data-vidx="${idx}">
+    <header class="verse-head">
+      <span class="verse-locus">${esc(v.locus)}</span>${sp ? `<span class="verse-speaker">${esc(sp)}</span>` : ""}
+    </header>
+    <div class="verse-sa" lang="sa-Latn">${esc(v.iast).replace(/\n/g, "<br>")}</div>
+    <div class="verse-pada" lang="sa-Latn">${renderPada(v.words)}</div>
+    <div class="verse-en">${renderEnglish(v.english)}</div>
+    ${blocks ? `<div class="verse-voices">${blocks}</div>` : ""}
+  </article>`;
+}
+
+function renderVoiceBar() {
+  if (!VOICES.length) return "";
+  const chips = VOICES.map(voice =>
+    `<button class="vchip" data-voice="${esc(voice.id)}" type="button">${esc(voice.name)}</button>`).join("");
+  return `<div class="voicebar" id="voicebar">
+    <span class="voicebar-label">Read alongside:</span>
+    <div class="voicebar-chips">
+      <button class="vchip vchip-none is-active" data-voice="" type="button">Translation only</button>
+      ${chips}
+    </div>
+  </div>`;
 }
 
 function render() {
   const root = document.getElementById("gitaRoot");
   if (!root) return;
-  VERSES = mergeLayers(window.GITA_VERSES || []);
-  root.innerHTML = VERSES.map((v, i) => renderVerse(v, i)).join("");
-  wireWordInteractions(root);
-  wireVoiceTabs(root);
-  applyGlossaryToDom(root);
+  VERSES = window.GITA_VERSES || [];
+  const built = buildVoices(VERSES);
+  VOICES = built.voices; BYVERSE = built.byVerse;
+
+  root.innerHTML = renderVoiceBar() + VERSES.map((v, i) => renderVerse(v, i)).join("");
+  wireWords(root);
+  wireVoiceBar();
+
+  // restore persisted voice
+  let saved = "";
+  try { saved = localStorage.getItem(VOICE_KEY) || ""; } catch (_) {}
+  setActiveVoice(saved && VOICES.some(v => v.id === saved) ? saved : "");
 }
 
-/* ----- word ↔ English highlight + word-card popover ----- */
-function wordByIndex(verseEl, i) {
-  const v = VERSES[+verseEl.dataset.verseIdx];
-  return v && v.words.find(w => String(w.i) === String(i));
+/* ---------- voice selection (global, sticky, consistent) ---------- */
+function setActiveVoice(id) {
+  const stage = document.getElementById("gitaStage");
+  if (stage) stage.setAttribute("data-voice", id);
+  document.querySelectorAll(".vchip").forEach(c =>
+    c.classList.toggle("is-active", (c.dataset.voice || "") === id));
+  // Show only the chosen voice's block under each verse (global + consistent).
+  document.querySelectorAll(".voice-block").forEach(b => {
+    b.style.display = (id && b.dataset.voice === id) ? "block" : "none";
+  });
+  document.querySelectorAll(".verse-voices").forEach(wrap => {
+    const sel = id ? `.voice-block[data-voice="${(window.CSS && CSS.escape) ? CSS.escape(id) : id}"]` : null;
+    wrap.style.display = (sel && wrap.querySelector(sel)) ? "block" : "none";
+  });
+  try { localStorage.setItem(VOICE_KEY, id); } catch (_) {}
 }
-
-function activate(span) {
-  const verseEl = span.closest(".verse");
-  if (!verseEl) return;
-  const i = span.dataset.wordI;
-  span.classList.add("is-hi");
-  verseEl.querySelectorAll(".we").forEach(el => {
-    if (el.dataset.wordI.split(/\s+/).includes(i)) el.classList.add("is-hi");
-  });
-  const w = wordByIndex(verseEl, i);
-  if (w) showWordCard(span, w);
-}
-function deactivate(span) {
-  const verseEl = span.closest(".verse");
-  if (!verseEl) return;
-  const i = span.dataset.wordI;
-  span.classList.remove("is-hi");
-  verseEl.querySelectorAll(".we").forEach(el => {
-    if (el.dataset.wordI.split(/\s+/).includes(i)) el.classList.remove("is-hi");
-  });
-  hideWordCard();
-}
-
-function wireWordInteractions(root) {
-  let stickyWord = null, hoverWord = null;
-  root.addEventListener("mouseover", e => {
-    const w = e.target.closest(".w");
-    if (!w || w === hoverWord) return;
-    if (hoverWord && hoverWord !== stickyWord) deactivate(hoverWord);
-    hoverWord = w; activate(w);
-  });
-  root.addEventListener("mouseout", e => {
-    const w = e.target.closest(".w");
-    if (!w) return;
-    const to = e.relatedTarget;
-    if (to && (w.contains(to) || (cardEl && cardEl.contains(to)))) return;
-    if (w !== stickyWord) deactivate(w);
-    if (hoverWord === w) hoverWord = null;
-  });
-  root.addEventListener("click", e => {
-    const w = e.target.closest(".w");
-    if (!w) return;
-    e.stopPropagation();
-    if (stickyWord === w) { stickyWord = null; deactivate(w); return; }
-    if (stickyWord) deactivate(stickyWord);
-    stickyWord = w; activate(w);
-  });
-  document.addEventListener("click", e => {
-    if (cardEl && cardEl.contains(e.target)) return;
-    if (stickyWord) { deactivate(stickyWord); stickyWord = null; }
-  });
-  root.addEventListener("focusin", e => { const w = e.target.closest(".w"); if (w) activate(w); });
-  root.addEventListener("focusout", e => {
-    const w = e.target.closest(".w");
-    if (!w || w === stickyWord) return;
-    deactivate(w);
-  });
-  document.addEventListener("keydown", e => {
-    if (e.key === "Escape") {
-      if (stickyWord) { deactivate(stickyWord); stickyWord = null; }
-      closeGlossary();
-    }
-  });
-  window.addEventListener("scroll", () => hideWordCard(), { passive: true });
-}
-
-/* ----- word-card popover ----- */
-let cardEl = null;
-function ensureCard() {
-  if (cardEl) return cardEl;
-  cardEl = document.createElement("div");
-  cardEl.className = "word-card";
-  cardEl.hidden = true;
-  document.body.appendChild(cardEl);
-  return cardEl;
-}
-function showWordCard(span, w) {
-  const card = ensureCard();
-  const rows = [];
-  rows.push(`<div class="wc-head"><span class="wc-surface">${escapeHtml(w.iast)}</span>${w.morph ? `<span class="wc-morph">${escapeHtml(w.morph)}</span>` : ""}</div>`);
-  rows.push(`<div class="wc-gloss">${escapeHtml(w.gloss)}</div>`);
-  const ana = [];
-  if (w.stem) ana.push(`<b>stem</b> ${escapeHtml(w.stem)}`);
-  if (w.root) ana.push(`<b>root</b> ${escapeHtml(w.root)}`);
-  if (w.affix && w.affix !== "—") ana.push(`<b>affix</b> ${escapeHtml(w.affix)}`);
-  if (ana.length) rows.push(`<div class="wc-ana">${ana.join("<br>")}</div>`);
-  if (w.karaka) rows.push(`<div class="wc-karaka">${escapeHtml(w.karaka)}</div>`);
-  if (w.compound) rows.push(`<div class="wc-compound"><b>${escapeHtml(w.compound.type)}</b><br>${escapeHtml(w.compound.vigraha)}</div>`);
-  if (w.glossaryKey) rows.push(`<button class="wc-gloss-link" data-term="${escapeHtml(w.glossaryKey)}" type="button">Glossary ▸</button>`);
-  card.innerHTML = rows.join("");
-  card.hidden = false;
-  positionPopover(card, span);
-  const gl = card.querySelector(".wc-gloss-link");
-  if (gl) gl.addEventListener("click", ev => { ev.stopPropagation(); openGlossary(gl.dataset.term, gl); });
-}
-function hideWordCard() { if (cardEl) cardEl.hidden = true; }
-
-function positionPopover(el, anchor) {
-  const r = anchor.getBoundingClientRect();
-  el.style.left = "0px"; el.style.top = "0px";
-  const er = el.getBoundingClientRect();
-  const margin = 8;
-  let left = r.left + r.width / 2 - er.width / 2 + window.scrollX;
-  let top = r.top - er.height - 8 + window.scrollY;
-  const minLeft = window.scrollX + margin;
-  const maxLeft = window.scrollX + document.documentElement.clientWidth - er.width - margin;
-  left = Math.max(minLeft, Math.min(maxLeft, left));
-  if (top < window.scrollY + margin) top = r.bottom + 8 + window.scrollY;
-  el.style.left = left + "px";
-  el.style.top = top + "px";
-}
-
-/* ----- voice-by-voice commentary switcher ----- */
-function wireVoiceTabs(root) {
-  root.addEventListener("click", e => {
-    const tab = e.target.closest(".voice-tab");
-    if (!tab) return;
-    const wrap = tab.closest(".ap-body");
-    const k = tab.dataset.voice;
-    wrap.querySelectorAll(".voice-tab").forEach(t => t.classList.toggle("is-active", t.dataset.voice === k));
-    wrap.querySelectorAll(".voice-panel").forEach(p => p.classList.toggle("is-active", p.dataset.voice === k));
+function wireVoiceBar() {
+  const bar = document.getElementById("voicebar");
+  if (!bar) return;
+  bar.addEventListener("click", e => {
+    const chip = e.target.closest(".vchip");
+    if (!chip) return;
+    setActiveVoice(chip.dataset.voice || "");
   });
 }
 
 /* =============================================================
-   GLOSSARY — lazy popover. Loads data/glossary/<key>.json on demand
-   (skips silently if absent). IAST-only display.
+   WORD ↔ English highlight + word-card
    ============================================================= */
-const glossaryCache = new Map();
-async function loadGlossary(key) {
-  if (glossaryCache.has(key)) return glossaryCache.get(key);
-  let entry = null;
-  try {
-    const res = await fetch(GLOSSARY_BASE + key + ".json");
-    if (res.ok) entry = await res.json();
-  } catch (_) { /* offline / missing — skip */ }
-  glossaryCache.set(key, entry);
-  return entry;
+function wordOf(verseEl, i) {
+  const v = VERSES[+verseEl.dataset.vidx];
+  return v && v.words.find(w => String(w.i) === String(i));
+}
+function activate(span) {
+  const ve = span.closest(".verse"); if (!ve) return;
+  const i = span.dataset.wi;
+  span.classList.add("hi");
+  ve.querySelectorAll(".we").forEach(el => { if (el.dataset.wi.split(/\s+/).includes(i)) el.classList.add("hi"); });
+  const w = wordOf(ve, i); if (w) showCard(span, w);
+}
+function deactivate(span) {
+  const ve = span.closest(".verse"); if (!ve) return;
+  const i = span.dataset.wi;
+  span.classList.remove("hi");
+  ve.querySelectorAll(".we").forEach(el => { if (el.dataset.wi.split(/\s+/).includes(i)) el.classList.remove("hi"); });
+  hideCard();
+}
+function wireWords(root) {
+  let sticky = null, hover = null;
+  root.addEventListener("mouseover", e => {
+    const w = e.target.closest(".w"); if (!w || w === hover) return;
+    if (hover && hover !== sticky) deactivate(hover);
+    hover = w; activate(w);
+  });
+  root.addEventListener("mouseout", e => {
+    const w = e.target.closest(".w"); if (!w) return;
+    const to = e.relatedTarget;
+    if (to && (w.contains(to) || (cardEl && cardEl.contains(to)))) return;
+    if (w !== sticky) deactivate(w);
+    if (hover === w) hover = null;
+  });
+  root.addEventListener("click", e => {
+    const w = e.target.closest(".w"); if (!w) return;
+    e.stopPropagation();
+    if (sticky === w) { sticky = null; deactivate(w); return; }
+    if (sticky) deactivate(sticky);
+    sticky = w; activate(w);
+  });
+  document.addEventListener("click", e => {
+    if (cardEl && cardEl.contains(e.target)) return;
+    if (glossEl && glossEl.contains(e.target)) return;
+    if (sticky) { deactivate(sticky); sticky = null; }
+  });
+  root.addEventListener("focusin", e => { const w = e.target.closest(".w"); if (w) activate(w); });
+  root.addEventListener("focusout", e => { const w = e.target.closest(".w"); if (!w || w === sticky) return; deactivate(w); });
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape") { if (sticky) { deactivate(sticky); sticky = null; } closeGlossary(); }
+  });
+  window.addEventListener("scroll", hideCard, { passive: true });
 }
 
+let cardEl = null;
+function ensureCard() {
+  if (cardEl) return cardEl;
+  cardEl = document.createElement("div");
+  cardEl.className = "wcard";
+  cardEl.hidden = true;
+  document.body.appendChild(cardEl);
+  return cardEl;
+}
+function showCard(span, w) {
+  const card = ensureCard();
+  const rows = [];
+  rows.push(`<div class="wc-top"><span class="wc-word" lang="sa-Latn">${esc(w.iast)}</span></div>`);
+  rows.push(`<div class="wc-mean">${esc(w.gloss)}</div>`);
+
+  // built-from pieces (translated morphemes)
+  const parts = w.parts && w.parts.length ? w.parts
+    : (w.compound && w.compound.members ? w.compound.members.map(f => ({ form: f, gloss: "" })) : null);
+  if (parts && (parts.length > 1 || (parts[0] && parts[0].gloss))) {
+    rows.push(`<div class="wc-parts">${parts.map(p =>
+      `<span class="wc-part"><span class="wc-pf" lang="sa-Latn">${esc(p.form)}</span>${p.gloss ? `<span class="wc-pg">${esc(p.gloss)}</span>` : ""}</span>`).join("")}</div>`);
+  }
+
+  // grammar in plain English
+  const gram = [];
+  if (w.morph) {
+    const plain = plainMorph(w.morph);
+    const cs = caseSense(plain);
+    gram.push(`<span class="wc-gram-main">${esc(plain)}</span>${cs ? ` <span class="wc-gram-sense">→ “${esc(cs)}”</span>` : ""}`);
+  }
+  if (w.compound) gram.push(`<span class="wc-gram-cmp">${esc(w.compound.type)}: <span lang="sa-Latn">${esc(w.compound.vigraha)}</span></span>`);
+  if (gram.length) rows.push(`<div class="wc-gram">${gram.join("<br>")}</div>`);
+
+  if (w.glossaryKey) rows.push(`<button class="wc-gl" data-term="${esc(w.glossaryKey)}" type="button">More in glossary →</button>`);
+
+  card.innerHTML = rows.join("");
+  card.hidden = false;
+  place(card, span);
+  const gl = card.querySelector(".wc-gl");
+  if (gl) gl.addEventListener("click", ev => { ev.stopPropagation(); openGlossary(gl.dataset.term, gl); });
+}
+function hideCard() { if (cardEl) cardEl.hidden = true; }
+
+function place(el, anchor) {
+  const r = anchor.getBoundingClientRect();
+  el.style.left = "0px"; el.style.top = "0px";
+  const er = el.getBoundingClientRect();
+  const margin = 10;
+  let left = r.left + r.width / 2 - er.width / 2 + window.scrollX;
+  let top = r.top - er.height - 10 + window.scrollY;
+  const minL = window.scrollX + margin;
+  const maxL = window.scrollX + document.documentElement.clientWidth - er.width - margin;
+  left = Math.max(minL, Math.min(maxL, left));
+  if (top < window.scrollY + margin) top = r.bottom + 10 + window.scrollY;
+  el.style.left = left + "px"; el.style.top = top + "px";
+}
+
+/* ---------- glossary popover (lazy) ---------- */
+const GLOSS_BASE = "../../data/glossary/";
+const glossCache = new Map();
+async function loadGloss(key) {
+  if (glossCache.has(key)) return glossCache.get(key);
+  let e = null;
+  try { const r = await fetch(GLOSS_BASE + key + ".json"); if (r.ok) e = await r.json(); } catch (_) {}
+  glossCache.set(key, e); return e;
+}
 let glossEl = null;
 async function openGlossary(key, anchor) {
-  const entry = await loadGlossary(key);
+  const e = await loadGloss(key);
   closeGlossary();
   glossEl = document.createElement("div");
-  glossEl.className = "glossary-popover";
-  if (!entry) {
-    glossEl.innerHTML = `<button class="gp-close" aria-label="Close">×</button>
-      <div class="gp-term">${escapeHtml(key)}</div>
-      <p class="gp-def">No glossary entry yet for this term.</p>`;
+  glossEl.className = "gpop";
+  if (!e) {
+    glossEl.innerHTML = `<button class="gp-x" aria-label="Close">×</button><div class="gp-term">${esc(key)}</div><p class="gp-def">No glossary entry yet.</p>`;
   } else {
-    const schools = (entry.per_school || []).map(s =>
-      `<div class="gp-school"><span class="gp-school-name">${escapeHtml(s.school)}</span> ${escapeHtml(s.definition)}</div>`).join("");
-    glossEl.innerHTML = `<button class="gp-close" aria-label="Close">×</button>
-      <div class="gp-term">${escapeHtml(entry.term_iast || key)}</div>
-      ${entry.literal ? `<div class="gp-literal">${escapeHtml(entry.literal)}</div>` : ""}
-      ${entry.invariant_definition ? `<p class="gp-def">${escapeHtml(entry.invariant_definition)}</p>` : ""}
-      ${schools ? `<div class="gp-schools">${schools}</div>` : ""}
-      ${entry.translator_note ? `<p class="gp-note">${escapeHtml(entry.translator_note)}</p>` : ""}`;
+    glossEl.innerHTML = `<button class="gp-x" aria-label="Close">×</button>
+      <div class="gp-term" lang="sa-Latn">${esc(e.term_iast || key)}</div>
+      ${e.literal ? `<div class="gp-lit">${esc(e.literal)}</div>` : ""}
+      ${e.invariant_definition ? `<p class="gp-def">${esc(e.invariant_definition)}</p>` : ""}
+      ${e.translator_note ? `<p class="gp-note">${esc(e.translator_note)}</p>` : ""}`;
   }
   document.body.appendChild(glossEl);
-  positionPopover(glossEl, anchor);
-  glossEl.querySelector(".gp-close").addEventListener("click", closeGlossary);
+  place(glossEl, anchor);
+  glossEl.querySelector(".gp-x").addEventListener("click", closeGlossary);
 }
 function closeGlossary() { if (glossEl) { glossEl.remove(); glossEl = null; } }
 
-/* Linkify glossary terms inside commentary/parallel Sanskrit blocks.
-   We only know exact aliases lazily, so for now we make the whole block
-   selectable and rely on the word-cards for the mūla. A future pass can
-   add an alias regex (see app.js buildGlossaryRegex). */
-function applyGlossaryToDom(_root) { /* reserved for alias-regex linkification */ }
+/* ---------- close / back ---------- */
+function wireClose() {
+  const b = document.getElementById("gitaClose");
+  if (!b) return;
+  b.addEventListener("click", () => {
+    if (document.referrer && history.length > 1) history.back();
+    else window.location.href = "../../";
+  });
+}
 
-document.addEventListener("DOMContentLoaded", render);
+document.addEventListener("DOMContentLoaded", () => { render(); wireClose(); });

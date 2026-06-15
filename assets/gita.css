@@ -1,158 +1,128 @@
 /* =============================================================
-   Sthitaprajña — BG 2.54–72 reading page.
-   Reuses tokens from style.css (--serif, --ink, --muted, --rule …).
-   IAST only; mobile-first; progressive disclosure.
+   Bhagavad-Gītā 2.54–72 reading page. Reuses style.css tokens.
+   IAST only; clean reading column on desktop, full-screen on phone.
    ============================================================= */
 
-.gita-page {
-  max-width: 720px;
+.gita-page { background: var(--bg); color: var(--ink); min-height: 100vh; }
+
+.gita-stage {
+  max-width: 680px;
   margin: 0 auto;
-  padding: 32px 20px 120px;
+  padding: 0 22px 140px;
   font-family: var(--serif);
-  color: var(--ink);
+}
+
+/* ---------- top bar: title + close ---------- */
+.gita-bar {
+  position: sticky; top: 0; z-index: 40;
+  display: flex; align-items: center; gap: 14px;
+  padding: 16px 0 12px;
+  background: linear-gradient(var(--bg) 78%, rgba(255,255,255,0));
+}
+html[data-theme="dark"] .gita-bar { background: linear-gradient(var(--bg) 78%, rgba(0,0,0,0)); }
+.gita-titles { flex: 1; min-width: 0; }
+.gita-title { font-size: 19px; font-weight: 600; margin: 0; letter-spacing: .01em; }
+.gita-voices-line { font-family: var(--sans); font-size: 11.5px; color: var(--muted); margin: 2px 0 0; }
+.gita-close {
+  flex: none; width: 34px; height: 34px; border-radius: 50%;
+  border: 1px solid var(--rule); background: var(--bg); color: var(--muted);
+  font-size: 20px; line-height: 1; cursor: pointer; transition: background .12s, color .12s;
+}
+.gita-close:hover { background: var(--bg-warm); color: var(--ink); }
+
+/* ---------- voice bar (sticky chooser) ---------- */
+.voicebar {
+  position: sticky; top: 58px; z-index: 38;
+  display: flex; align-items: center; gap: 10px;
+  padding: 8px 0 12px; margin-bottom: 8px;
+  border-bottom: 1px solid var(--hairline);
   background: var(--bg);
 }
-
-.gita-hero { text-align: center; margin: 16px 0 40px; }
-.gita-title { font-size: 30px; font-weight: 600; letter-spacing: .01em; margin: 0 0 6px; }
-.gita-attrib { font-family: var(--sans); font-size: 13px; color: var(--muted); margin: 0 0 4px; }
-.gita-range { font-family: var(--sans); font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted-soft); margin: 0 0 14px; }
-.gita-lede { font-size: 16px; line-height: 1.55; color: var(--ink-soft); max-width: 56ch; margin: 0 auto; }
-.gita-hint { font-family: var(--sans); font-size: 12px; color: var(--muted-soft); margin-top: 16px; }
+.voicebar-label { font-family: var(--sans); font-size: 11px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted-soft); flex: none; }
+.voicebar-chips { display: flex; gap: 6px; overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 2px; }
+.voicebar-chips::-webkit-scrollbar { height: 0; }
+.vchip {
+  flex: none; cursor: pointer; white-space: nowrap;
+  font-family: var(--sans); font-size: 12.5px; color: var(--ink-soft);
+  background: var(--bg); border: 1px solid var(--rule); border-radius: 16px; padding: 5px 12px;
+  transition: background .12s, border-color .12s, color .12s;
+}
+.vchip:hover { border-color: var(--muted-soft); }
+.vchip.is-active { background: var(--ink); color: var(--on-ink); border-color: var(--ink); }
 
 /* ---------- verse ---------- */
-.verse { padding: 26px 0; border-top: 1px solid var(--hairline); }
+.verse { padding: 22px 0; border-top: 1px solid var(--hairline); }
 .verse:first-of-type { border-top: none; }
-.verse-head { display: flex; align-items: baseline; gap: 12px; font-family: var(--sans); margin-bottom: 12px; }
-.verse-locus { font-size: 13px; font-weight: 700; color: var(--ink); }
-.verse-speaker { font-size: 12px; color: var(--muted); }
-.verse-meter { font-size: 11px; color: var(--muted-soft); margin-left: auto; font-style: italic; }
+.verse-head { display: flex; align-items: baseline; gap: 10px; font-family: var(--sans); margin-bottom: 10px; }
+.verse-locus { font-size: 12px; font-weight: 700; color: var(--ink); letter-spacing: .02em; }
+.verse-speaker { font-size: 11px; color: var(--muted-soft); }
 
-.verse-samhita {
-  font-size: 19px; line-height: 1.7; color: var(--ink);
-  font-style: italic; margin-bottom: 14px;
-}
-.verse-pada {
-  font-size: 17px; line-height: 2.1; margin-bottom: 16px;
-}
-.verse-english {
-  font-size: 16px; line-height: 1.65; color: var(--ink-soft); margin-bottom: 10px;
-}
-.verse-sense {
-  font-family: var(--sans); font-size: 13.5px; line-height: 1.55;
-  color: var(--muted); margin: 0 0 16px; padding-left: 12px;
-  border-left: 2px solid var(--rule);
-}
+.verse-sa { font-size: 17px; line-height: 1.7; font-style: italic; color: var(--muted); margin-bottom: 12px; }
+.verse-pada { font-size: 17px; line-height: 2.15; margin-bottom: 14px; }
+.verse-en { font-size: 16.5px; line-height: 1.7; color: var(--ink); }
 
-/* tappable words + English highlight */
+/* tappable words + highlight */
 .w {
   cursor: pointer; border-radius: 3px; padding: 1px 2px;
-  transition: background .12s, color .12s;
   text-decoration: underline; text-decoration-color: var(--rule);
   text-underline-offset: 3px; text-decoration-thickness: 1px;
+  transition: background .12s;
 }
-.w:hover, .w:focus, .w.is-hi { background: #f4eecf; outline: none; }
-.w-untranslatable { text-decoration-style: dotted; color: var(--ink-soft); }
+.w:hover, .w:focus, .w.hi { background: #f3eccf; outline: none; }
+.w-name { text-decoration-style: dotted; color: var(--ink-soft); }
 .we { border-radius: 3px; padding: 0 1px; transition: background .12s; }
-.we.is-hi { background: #f4eecf; }
+.we.hi { background: #f3eccf; }
+html[data-theme="dark"] .w:hover, html[data-theme="dark"] .w:focus,
+html[data-theme="dark"] .w.hi, html[data-theme="dark"] .we.hi { background: #3a3622; }
 
-html[data-theme="dark"] .w:hover,
-html[data-theme="dark"] .w:focus,
-html[data-theme="dark"] .w.is-hi,
-html[data-theme="dark"] .we.is-hi { background: #3a3622; }
+/* ---------- voices under a verse (only the chosen one shows) ---------- */
+.verse-voices { margin-top: 16px; }
+.voice-block { display: none; border-left: 2px solid var(--rule-warm); padding: 2px 0 2px 14px; }
+.voice-who { font-family: var(--sans); font-size: 13px; font-weight: 600; color: var(--ink); margin-bottom: 4px; }
+.voice-school { font-weight: 400; color: var(--muted-soft); font-size: 11px; }
+.voice-src { font-family: var(--sans); font-size: 11px; color: var(--muted-soft); margin-bottom: 6px; }
+.voice-sa { font-style: italic; font-size: 14.5px; line-height: 1.7; color: var(--muted); margin-bottom: 6px; }
+.voice-en { font-size: 14.5px; line-height: 1.62; color: var(--ink-soft); }
+.voice-rule { border: none; border-top: 1px solid var(--hairline); margin: 12px 0; }
 
-/* ---------- word-card popover ---------- */
-.word-card {
+/* ---------- word-card ---------- */
+.wcard {
   position: absolute; z-index: 60; max-width: 300px;
   background: var(--bg); border: 1px solid var(--rule);
-  border-radius: 8px; box-shadow: var(--shadow-md);
-  padding: 12px 14px; font-family: var(--sans); font-size: 13px;
-  line-height: 1.5; color: var(--ink);
-}
-.wc-head { display: flex; align-items: baseline; gap: 8px; margin-bottom: 4px; }
-.wc-surface { font-family: var(--serif); font-size: 16px; font-weight: 600; }
-.wc-morph { font-size: 11px; color: var(--muted); }
-.wc-gloss { color: var(--ink-soft); margin-bottom: 8px; }
-.wc-ana { font-size: 12px; color: var(--muted); margin-bottom: 6px; }
-.wc-ana b { color: var(--ink-soft); font-weight: 600; }
-.wc-karaka { font-size: 12px; color: var(--muted); font-style: italic; margin-bottom: 6px; }
-.wc-compound { font-size: 12px; color: var(--muted); background: var(--bg-warm); border-radius: 5px; padding: 6px 8px; margin-bottom: 6px; }
-.wc-gloss-link {
-  font-family: var(--sans); font-size: 12px; cursor: pointer;
-  background: none; border: none; color: #8a6d1f; padding: 2px 0; font-weight: 600;
-}
-.wc-gloss-link:hover { text-decoration: underline; }
-
-/* ---------- apparatus (Layer 2 disclosures) ---------- */
-.verse-apparatus { margin-top: 8px; display: flex; flex-direction: column; gap: 4px; }
-.apparatus { border: 1px solid var(--hairline); border-radius: 8px; background: var(--bg-warm); }
-.apparatus > summary {
-  list-style: none; cursor: pointer; display: flex; align-items: center; gap: 8px;
-  padding: 9px 12px; font-family: var(--sans); font-size: 12.5px; color: var(--ink-soft);
-  user-select: none;
-}
-.apparatus > summary::-webkit-details-marker { display: none; }
-.ap-caret { width: 0; height: 0; border-left: 5px solid var(--muted); border-top: 4px solid transparent; border-bottom: 4px solid transparent; transition: transform .15s; }
-.apparatus[open] > summary .ap-caret { transform: rotate(90deg); }
-.ap-label { font-weight: 600; letter-spacing: .02em; }
-.ap-count { margin-left: auto; font-size: 11px; color: var(--muted); background: var(--bg); border: 1px solid var(--rule); border-radius: 10px; padding: 0 7px; }
-.ap-body { padding: 4px 14px 16px; font-size: 14px; line-height: 1.6; }
-.apparatus-empty { color: var(--muted-soft); font-style: italic; font-size: 13px; }
-
-/* grammar-in-full */
-.g-rows { display: flex; flex-direction: column; gap: 10px; margin: 8px 0 14px; }
-.g-row { display: grid; grid-template-columns: 130px 1fr; gap: 12px; align-items: baseline; }
-.g-pada { font-weight: 600; color: var(--ink); }
-.g-gloss { color: var(--ink-soft); }
-.g-morph { font-family: var(--sans); font-size: 12px; color: var(--muted); margin-top: 2px; }
-.g-morph em { font-style: normal; color: var(--ink-soft); }
-.g-karaka { font-style: italic; }
-.g-compound { font-family: var(--sans); font-size: 12px; color: var(--muted); margin-top: 3px; }
-.g-summary { font-family: var(--sans); font-size: 12.5px; color: var(--muted); line-height: 1.55; margin: 8px 0 0; }
-.g-label { font-weight: 700; color: var(--ink-soft); margin-right: 4px; }
-
-/* commentary voices */
-.voice-tabs { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 12px; }
-.voice-tab {
-  cursor: pointer; background: var(--bg); border: 1px solid var(--rule);
-  border-radius: 16px; padding: 5px 12px; font-family: var(--sans);
-  display: flex; flex-direction: column; align-items: flex-start; line-height: 1.2;
-}
-.voice-tab .voice-name { font-size: 13px; font-weight: 600; color: var(--ink); }
-.voice-tab .voice-school { font-size: 10.5px; color: var(--muted-soft); }
-.voice-tab.is-active { border-color: var(--ink); background: var(--bg-warmer); }
-.voice-panel { display: none; }
-.voice-panel.is-active { display: block; }
-.voice-head { font-family: var(--sans); font-size: 12px; color: var(--muted); margin-bottom: 8px; }
-.voice-sanskrit { font-style: italic; font-size: 15px; line-height: 1.7; color: var(--ink); margin-bottom: 8px; }
-.voice-rendering { font-size: 14px; line-height: 1.6; color: var(--ink-soft); }
-
-/* aurobindo + parallels */
-.auro { margin: 10px 0; padding-left: 14px; border-left: 3px solid var(--rule-warm); }
-.auro-text { font-size: 15px; line-height: 1.65; color: var(--ink); }
-.auro cite { display: block; margin-top: 6px; font-family: var(--sans); font-size: 12px; color: var(--muted); font-style: normal; }
-.parallel { margin: 10px 0; }
-.parallel-head { font-family: var(--sans); font-size: 12px; color: var(--muted); margin-bottom: 5px; }
-.parallel-sanskrit { font-style: italic; font-size: 15px; line-height: 1.7; color: var(--ink); margin-bottom: 5px; }
-.parallel-rendering { font-size: 14px; line-height: 1.6; color: var(--ink-soft); }
-
-/* ---------- glossary popover (mirrors app.js styling intent) ---------- */
-.glossary-popover {
-  position: absolute; z-index: 70; max-width: 340px;
-  background: var(--bg); border: 1px solid var(--rule);
   border-radius: 10px; box-shadow: var(--shadow-md);
-  padding: 16px 18px; font-family: var(--sans); font-size: 13px; line-height: 1.55; color: var(--ink);
+  padding: 13px 15px; font-family: var(--sans); font-size: 13px; line-height: 1.5; color: var(--ink);
 }
-.gp-close { position: absolute; top: 6px; right: 8px; border: none; background: none; font-size: 22px; line-height: 1; color: var(--muted); cursor: pointer; }
+.wc-top { margin-bottom: 2px; }
+.wc-word { font-family: var(--serif); font-size: 17px; font-weight: 600; }
+.wc-mean { color: var(--ink); margin-bottom: 9px; font-size: 13.5px; }
+.wc-parts { display: flex; flex-wrap: wrap; gap: 5px 6px; margin-bottom: 9px; }
+.wc-part { display: inline-flex; align-items: baseline; gap: 5px; background: var(--bg-warm); border-radius: 5px; padding: 3px 7px; }
+.wc-pf { font-family: var(--serif); font-style: italic; font-size: 13px; color: var(--ink); }
+.wc-pg { font-size: 11.5px; color: var(--muted); }
+.wc-gram { font-size: 12px; color: var(--muted); line-height: 1.55; margin-bottom: 8px; }
+.wc-gram-main { color: var(--ink-soft); }
+.wc-gram-sense { color: var(--muted); }
+.wc-gram-cmp { color: var(--muted); }
+.wc-gl { font-family: var(--sans); font-size: 12px; cursor: pointer; background: none; border: none; color: #8a6d1f; padding: 0; font-weight: 600; }
+.wc-gl:hover { text-decoration: underline; }
+html[data-theme="dark"] .wc-gl { color: #d8c074; }
+
+/* ---------- glossary popover ---------- */
+.gpop {
+  position: absolute; z-index: 70; max-width: 340px;
+  background: var(--bg); border: 1px solid var(--rule); border-radius: 10px;
+  box-shadow: var(--shadow-md); padding: 16px 18px;
+  font-family: var(--sans); font-size: 13px; line-height: 1.55; color: var(--ink);
+}
+.gp-x { position: absolute; top: 6px; right: 8px; border: none; background: none; font-size: 22px; line-height: 1; color: var(--muted); cursor: pointer; }
 .gp-term { font-family: var(--serif); font-size: 18px; font-weight: 600; margin-bottom: 2px; }
-.gp-literal { font-size: 12.5px; color: var(--muted); font-style: italic; margin-bottom: 8px; }
+.gp-lit { font-size: 12px; color: var(--muted); font-style: italic; margin-bottom: 8px; }
 .gp-def { color: var(--ink-soft); margin: 0 0 8px; }
-.gp-school { margin: 6px 0; font-size: 12.5px; color: var(--ink-soft); }
-.gp-school-name { font-weight: 700; color: var(--ink); }
 .gp-note { font-size: 12px; color: var(--muted); border-top: 1px solid var(--hairline); padding-top: 8px; margin: 8px 0 0; }
 
 @media (max-width: 720px) {
-  .gita-page { padding: 22px 16px 100px; }
-  .g-row { grid-template-columns: 1fr; gap: 2px; }
-  .word-card, .glossary-popover { max-width: calc(100vw - 24px); }
+  .gita-stage { padding: 0 16px 120px; }
+  .voicebar { top: 54px; }
+  .verse-sa, .verse-pada, .verse-en { font-size: 16px; }
+  .wcard, .gpop { max-width: calc(100vw - 24px); }
 }

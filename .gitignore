@@ -16,3 +16,5 @@ sin_research/
 # full Aurobindo epub text (copyrighted — only short cited excerpts ship in
 # aurobindo.js). Local-only.
 gita/sthitaprajna/_build/
+# Raw HTML downloads of primary sources — the cleaned .txt is what we keep.
+data/sources/**/*_RAW.htm

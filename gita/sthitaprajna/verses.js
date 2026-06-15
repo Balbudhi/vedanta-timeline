@@ -36,7 +36,17 @@ window.GITA_VERSES = [
             "sthita",
             "prajñā"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "sthita",
+            "gloss": "stood firm, steady"
+          },
+          {
+            "form": "prajñā",
+            "gloss": "wisdom, insight"
+          }
+        ]
       },
       {
         "i": 1,
@@ -49,7 +59,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. fem.",
         "karaka": "predicate adjective of bhāṣā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "kā",
+            "gloss": "what?"
+          }
+        ]
       },
       {
         "i": 2,
@@ -62,7 +78,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. fem.",
         "karaka": "kartṛ (subject of the implied copula)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "bhāṣā",
+            "gloss": "speech, way of speaking"
+          }
+        ]
       },
       {
         "i": 3,
@@ -83,7 +105,17 @@ window.GITA_VERSES = [
             "samādhi",
             "stha"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "samādhi",
+            "gloss": "deep absorption"
+          },
+          {
+            "form": "stha",
+            "gloss": "standing in, settled"
+          }
+        ]
       },
       {
         "i": 4,
@@ -96,7 +128,13 @@ window.GITA_VERSES = [
         "morph": "voc. sg. masc.",
         "karaka": "āmantraṇa (address)",
         "glossaryKey": null,
-        "translatable": false
+        "translatable": false,
+        "parts": [
+          {
+            "form": "keśava",
+            "gloss": "Keśava (Kṛṣṇa)"
+          }
+        ]
       },
       {
         "i": 5,
@@ -117,7 +155,17 @@ window.GITA_VERSES = [
             "sthita",
             "dhī"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "sthita",
+            "gloss": "stood firm, steady"
+          },
+          {
+            "form": "dhī",
+            "gloss": "intellect, thought"
+          }
+        ]
       },
       {
         "i": 6,
@@ -130,7 +178,13 @@ window.GITA_VERSES = [
         "morph": "interrogative, adverbial",
         "karaka": "kriyāviśeṣaṇa (qualifies prabhāṣate)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "kiṃ",
+            "gloss": "how?"
+          }
+        ]
       },
       {
         "i": 7,
@@ -143,7 +197,17 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 sg., ātmanepada",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "pra-",
+            "gloss": "forth"
+          },
+          {
+            "form": "√bhāṣ",
+            "gloss": "to speak"
+          }
+        ]
       },
       {
         "i": 8,
@@ -156,7 +220,13 @@ window.GITA_VERSES = [
         "morph": "interrogative, adverbial",
         "karaka": "kriyāviśeṣaṇa (qualifies āsīta)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "kim",
+            "gloss": "how?"
+          }
+        ]
       },
       {
         "i": 9,
@@ -169,7 +239,13 @@ window.GITA_VERSES = [
         "morph": "optative, 3 sg., ātmanepada",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√ās",
+            "gloss": "to sit, remain"
+          }
+        ]
       },
       {
         "i": 10,
@@ -182,7 +258,13 @@ window.GITA_VERSES = [
         "morph": "optative, 3 sg.",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√vraj",
+            "gloss": "to walk, move"
+          }
+        ]
       },
       {
         "i": 11,
@@ -195,7 +277,13 @@ window.GITA_VERSES = [
         "morph": "interrogative, adverbial",
         "karaka": "kriyāviśeṣaṇa (qualifies vrajeta)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "kim",
+            "gloss": "how?"
+          }
+        ]
       }
     ],
     "grammar": {
@@ -237,7 +325,17 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 sg., parasmaipada",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "pra-",
+            "gloss": "utterly, forth"
+          },
+          {
+            "form": "√hā",
+            "gloss": "to abandon, cast off"
+          }
+        ]
       },
       {
         "i": 1,
@@ -250,7 +348,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable (relative adverb)",
         "karaka": "kālādhikaraṇa (temporal); correlate of tadā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "yadā",
+            "gloss": "when"
+          }
+        ]
       },
       {
         "i": 2,
@@ -263,7 +367,13 @@ window.GITA_VERSES = [
         "morph": "acc. pl. masc.",
         "karaka": "karman (object of prajahāti)",
         "glossaryKey": "kama",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "kāma",
+            "gloss": "desire"
+          }
+        ]
       },
       {
         "i": 3,
@@ -276,7 +386,13 @@ window.GITA_VERSES = [
         "morph": "acc. pl. masc.",
         "karaka": "viśeṣaṇa of kāmān",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "sarva",
+            "gloss": "all"
+          }
+        ]
       },
       {
         "i": 4,
@@ -289,7 +405,13 @@ window.GITA_VERSES = [
         "morph": "voc. sg. masc.",
         "karaka": "āmantraṇa (address)",
         "glossaryKey": null,
-        "translatable": false
+        "translatable": false,
+        "parts": [
+          {
+            "form": "pārtha",
+            "gloss": "Pārtha (Arjuna)"
+          }
+        ]
       },
       {
         "i": 5,
@@ -310,7 +432,17 @@ window.GITA_VERSES = [
             "manas",
             "gata"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "manas",
+            "gloss": "mind"
+          },
+          {
+            "form": "gata",
+            "gloss": "gone into, arisen"
+          }
+        ]
       },
       {
         "i": 6,
@@ -323,7 +455,13 @@ window.GITA_VERSES = [
         "morph": "loc. sg. masc.",
         "karaka": "adhikaraṇa (locus of tuṣṭaḥ)",
         "glossaryKey": "atman",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "ātman",
+            "gloss": "the self"
+          }
+        ]
       },
       {
         "i": 7,
@@ -336,7 +474,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. masc. (ppp.)",
         "karaka": "predicate of the subject",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√tuṣ",
+            "gloss": "to be content"
+          }
+        ]
       },
       {
         "i": 8,
@@ -349,7 +493,13 @@ window.GITA_VERSES = [
         "morph": "instr. sg. masc.",
         "karaka": "karaṇa (instrument; gloss: by the mind resting on the self alone)",
         "glossaryKey": "atman",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "ātman",
+            "gloss": "the self"
+          }
+        ]
       },
       {
         "i": 9,
@@ -362,7 +512,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable particle",
         "karaka": "avadhāraṇa (restriction)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "eva",
+            "gloss": "only, alone (emphasis)"
+          }
+        ]
       },
       {
         "i": 10,
@@ -383,7 +539,17 @@ window.GITA_VERSES = [
             "sthita",
             "prajñā"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "sthita",
+            "gloss": "stood firm, steady"
+          },
+          {
+            "form": "prajñā",
+            "gloss": "wisdom, insight"
+          }
+        ]
       },
       {
         "i": 11,
@@ -396,7 +562,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable (correlative adverb)",
         "karaka": "correlate of yadā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "tadā",
+            "gloss": "then"
+          }
+        ]
       },
       {
         "i": 12,
@@ -409,7 +581,13 @@ window.GITA_VERSES = [
         "morph": "present, 3 sg., passive (karmaṇi)",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√vac",
+            "gloss": "to say, call"
+          }
+        ]
       }
     ],
     "grammar": {
@@ -451,7 +629,13 @@ window.GITA_VERSES = [
         "morph": "loc. pl. neut.",
         "karaka": "viṣaya-saptamī / nimitta-saptamī (the occasion in which the mind stays unagitated)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "duḥkha",
+            "gloss": "sorrow, pain"
+          }
+        ]
       },
       {
         "i": 1,
@@ -472,7 +656,21 @@ window.GITA_VERSES = [
             "anudvigna",
             "manas"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "an-",
+            "gloss": "un-, not"
+          },
+          {
+            "form": "udvigna",
+            "gloss": "agitated, shaken"
+          },
+          {
+            "form": "manas",
+            "gloss": "mind"
+          }
+        ]
       },
       {
         "i": 2,
@@ -485,7 +683,13 @@ window.GITA_VERSES = [
         "morph": "loc. pl. neut.",
         "karaka": "viṣaya-saptamī / nimitta-saptamī (the occasion in which he is free of longing)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "sukha",
+            "gloss": "pleasure, ease"
+          }
+        ]
       },
       {
         "i": 3,
@@ -506,7 +710,17 @@ window.GITA_VERSES = [
             "vigata",
             "spṛhā"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "vigata",
+            "gloss": "gone away"
+          },
+          {
+            "form": "spṛhā",
+            "gloss": "longing, craving"
+          }
+        ]
       },
       {
         "i": 4,
@@ -529,7 +743,25 @@ window.GITA_VERSES = [
             "bhaya",
             "krodha"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "vīta",
+            "gloss": "departed, gone"
+          },
+          {
+            "form": "rāga",
+            "gloss": "passion, attraction"
+          },
+          {
+            "form": "bhaya",
+            "gloss": "fear"
+          },
+          {
+            "form": "krodha",
+            "gloss": "anger"
+          }
+        ]
       },
       {
         "i": 5,
@@ -550,7 +782,17 @@ window.GITA_VERSES = [
             "sthita",
             "dhī"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "sthita",
+            "gloss": "stood firm, steady"
+          },
+          {
+            "form": "dhī",
+            "gloss": "intellect, thought"
+          }
+        ]
       },
       {
         "i": 6,
@@ -563,7 +805,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. masc.",
         "karaka": "kartṛ (subject of the passive ucyate; that which is called sthitadhīḥ)",
         "glossaryKey": "muni",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "muni",
+            "gloss": "sage, silent one"
+          }
+        ]
       },
       {
         "i": 7,
@@ -576,7 +824,13 @@ window.GITA_VERSES = [
         "morph": "present, 3 sg., passive (karmaṇi)",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√vac",
+            "gloss": "to say, call"
+          }
+        ]
       }
     ],
     "grammar": {
@@ -618,7 +872,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. masc. (relative pronoun)",
         "karaka": "kartṛ (subject of abhinandati / dveṣṭi); correlate of tasya",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "yaḥ",
+            "gloss": "he who"
+          }
+        ]
       },
       {
         "i": 1,
@@ -631,7 +891,17 @@ window.GITA_VERSES = [
         "morph": "indeclinable (locative adverb)",
         "karaka": "adhikaraṇa (sphere of anabhisneha)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "sarva",
+            "gloss": "all"
+          },
+          {
+            "form": "-tra",
+            "gloss": "in, everywhere"
+          }
+        ]
       },
       {
         "i": 2,
@@ -651,7 +921,21 @@ window.GITA_VERSES = [
           "members": [
             "abhisneha"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "an-",
+            "gloss": "without"
+          },
+          {
+            "form": "abhi-",
+            "gloss": "toward"
+          },
+          {
+            "form": "sneha",
+            "gloss": "affection, attachment"
+          }
+        ]
       },
       {
         "i": 3,
@@ -664,7 +948,13 @@ window.GITA_VERSES = [
         "morph": "acc. sg. neut., distributive (vīpsā)",
         "karaka": "viśeṣaṇa of śubhāśubham (object of prāpya)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "tat tat",
+            "gloss": "this and that, each"
+          }
+        ]
       },
       {
         "i": 4,
@@ -677,7 +967,17 @@ window.GITA_VERSES = [
         "morph": "absolutive (gerund)",
         "karaka": "pūrvakāla-kriyā (prior action governing abhinandati / dveṣṭi)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "pra-",
+            "gloss": "forth, up to"
+          },
+          {
+            "form": "√āp",
+            "gloss": "to reach, obtain"
+          }
+        ]
       },
       {
         "i": 5,
@@ -698,7 +998,17 @@ window.GITA_VERSES = [
             "śubha",
             "aśubha"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "śubha",
+            "gloss": "good, favorable"
+          },
+          {
+            "form": "aśubha",
+            "gloss": "bad, unfavorable"
+          }
+        ]
       },
       {
         "i": 6,
@@ -711,7 +1021,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable (negation)",
         "karaka": "pratiṣedha (negates abhinandati)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "na",
+            "gloss": "not"
+          }
+        ]
       },
       {
         "i": 7,
@@ -724,7 +1040,17 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 sg., parasmaipada",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "abhi-",
+            "gloss": "toward"
+          },
+          {
+            "form": "√nand",
+            "gloss": "to rejoice, welcome"
+          }
+        ]
       },
       {
         "i": 8,
@@ -737,7 +1063,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable (negation)",
         "karaka": "pratiṣedha (negates dveṣṭi)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "na",
+            "gloss": "not"
+          }
+        ]
       },
       {
         "i": 9,
@@ -750,7 +1082,13 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 sg., parasmaipada",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√dviṣ",
+            "gloss": "to hate, recoil from"
+          }
+        ]
       },
       {
         "i": 10,
@@ -763,7 +1101,13 @@ window.GITA_VERSES = [
         "morph": "gen. sg. masc.",
         "karaka": "sambandha (possessive genitive of prajñā); correlate of yaḥ",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "tasya",
+            "gloss": "of him, his"
+          }
+        ]
       },
       {
         "i": 11,
@@ -776,7 +1120,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. fem.",
         "karaka": "kartṛ (subject of pratiṣṭhitā)",
         "glossaryKey": "prajna",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "prajñā",
+            "gloss": "wisdom, insight"
+          }
+        ]
       },
       {
         "i": 12,
@@ -789,7 +1139,17 @@ window.GITA_VERSES = [
         "morph": "nom. sg. fem. (ppp., predicate)",
         "karaka": "predicate of prajñā (with implied 'is')",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "prati-",
+            "gloss": "firmly, against"
+          },
+          {
+            "form": "√sthā",
+            "gloss": "to stand, be set"
+          }
+        ]
       }
     ],
     "grammar": {
@@ -831,7 +1191,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable (relative adverb)",
         "karaka": "kālādhikaraṇa (temporal); correlate of an implied tadā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "yadā",
+            "gloss": "when"
+          }
+        ]
       },
       {
         "i": 1,
@@ -844,7 +1210,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable (conjunctive particle)",
         "karaka": "samuccaya (connective)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "ca",
+            "gloss": "and"
+          }
+        ]
       },
       {
         "i": 2,
@@ -857,7 +1229,17 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 sg., ātmanepada",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "sam-",
+            "gloss": "together, in"
+          },
+          {
+            "form": "√hṛ",
+            "gloss": "to draw, take"
+          }
+        ]
       },
       {
         "i": 3,
@@ -870,7 +1252,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. masc. (demonstrative)",
         "karaka": "kartṛ (subject of saṃharate)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "ayam",
+            "gloss": "this one"
+          }
+        ]
       },
       {
         "i": 4,
@@ -883,7 +1271,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. masc.",
         "karaka": "kartṛ of the elliptical comparison (the tortoise as it draws in its limbs)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "kūrma",
+            "gloss": "tortoise"
+          }
+        ]
       },
       {
         "i": 5,
@@ -896,7 +1290,13 @@ window.GITA_VERSES = [
         "morph": "acc. pl. neut.",
         "karaka": "karman within the simile (object of the tortoise's implied 'withdraws')",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "aṅga",
+            "gloss": "limb"
+          }
+        ]
       },
       {
         "i": 6,
@@ -909,7 +1309,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable (particle of comparison)",
         "karaka": "upamā-dyotaka (marks the simile)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "iva",
+            "gloss": "like, as"
+          }
+        ]
       },
       {
         "i": 7,
@@ -922,7 +1328,17 @@ window.GITA_VERSES = [
         "morph": "indeclinable (adverb)",
         "karaka": "kriyāviśeṣaṇa (qualifies saṃharate)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "sarva",
+            "gloss": "all"
+          },
+          {
+            "form": "-śas",
+            "gloss": "in every way, from every side"
+          }
+        ]
       },
       {
         "i": 8,
@@ -935,7 +1351,13 @@ window.GITA_VERSES = [
         "morph": "acc. pl. neut.",
         "karaka": "karman (object of saṃharate)",
         "glossaryKey": "indriya",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "indriya",
+            "gloss": "sense, sense-faculty"
+          }
+        ]
       },
       {
         "i": 9,
@@ -956,7 +1378,17 @@ window.GITA_VERSES = [
             "indriya",
             "artha"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "indriya",
+            "gloss": "sense"
+          },
+          {
+            "form": "artha",
+            "gloss": "object, aim"
+          }
+        ]
       },
       {
         "i": 10,
@@ -969,7 +1401,13 @@ window.GITA_VERSES = [
         "morph": "gen. sg. masc.",
         "karaka": "sambandha (possessive genitive of prajñā); correlate of yadā-clause",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "tasya",
+            "gloss": "of him, his"
+          }
+        ]
       },
       {
         "i": 11,
@@ -982,7 +1420,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. fem.",
         "karaka": "kartṛ (subject of pratiṣṭhitā)",
         "glossaryKey": "prajna",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "prajñā",
+            "gloss": "wisdom, insight"
+          }
+        ]
       },
       {
         "i": 12,
@@ -995,7 +1439,17 @@ window.GITA_VERSES = [
         "morph": "nom. sg. fem. (ppp., predicate)",
         "karaka": "predicate of prajñā (with implied 'is')",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "prati-",
+            "gloss": "firmly, against"
+          },
+          {
+            "form": "√sthā",
+            "gloss": "to stand, be set"
+          }
+        ]
       }
     ],
     "grammar": {
@@ -1037,7 +1491,13 @@ window.GITA_VERSES = [
         "morph": "nom. pl. masc.",
         "karaka": "kartṛ (subject of vinivartante)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "viṣaya",
+            "gloss": "sense-object"
+          }
+        ]
       },
       {
         "i": 1,
@@ -1050,7 +1510,21 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 pl., ātmanepada",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "vi-",
+            "gloss": "away"
+          },
+          {
+            "form": "ni-",
+            "gloss": "back, down"
+          },
+          {
+            "form": "√vṛt",
+            "gloss": "to turn"
+          }
+        ]
       },
       {
         "i": 2,
@@ -1070,7 +1544,17 @@ window.GITA_VERSES = [
           "members": [
             "āhāra"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "nis-",
+            "gloss": "without"
+          },
+          {
+            "form": "āhāra",
+            "gloss": "food, intake"
+          }
+        ]
       },
       {
         "i": 3,
@@ -1083,7 +1567,13 @@ window.GITA_VERSES = [
         "morph": "gen. sg. masc.",
         "karaka": "sambandha (the one for whom the objects fall away)",
         "glossaryKey": "jiva",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "dehin",
+            "gloss": "the embodied one"
+          }
+        ]
       },
       {
         "i": 4,
@@ -1104,7 +1594,17 @@ window.GITA_VERSES = [
             "rasa",
             "varjam"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "rasa",
+            "gloss": "relish, taste"
+          },
+          {
+            "form": "varjam",
+            "gloss": "excepting, leaving out"
+          }
+        ]
       },
       {
         "i": 5,
@@ -1117,7 +1617,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. masc.",
         "karaka": "kartṛ (subject of nivartate)",
         "glossaryKey": "raga",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "rasa",
+            "gloss": "relish, hankering"
+          }
+        ]
       },
       {
         "i": 6,
@@ -1130,7 +1636,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable (emphatic particle)",
         "karaka": "samuccaya / emphasis (on rasaḥ)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "api",
+            "gloss": "even, too"
+          }
+        ]
       },
       {
         "i": 7,
@@ -1143,7 +1655,13 @@ window.GITA_VERSES = [
         "morph": "gen. sg. masc.",
         "karaka": "sambandha (possessive genitive: 'his relish')",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "asya",
+            "gloss": "of this one, his"
+          }
+        ]
       },
       {
         "i": 8,
@@ -1156,7 +1674,13 @@ window.GITA_VERSES = [
         "morph": "acc. sg. neut. (substantive 'the Supreme', object of dṛṣṭvā; or pred. adjective 'as higher')",
         "karaka": "karman (object of dṛṣṭvā)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "para",
+            "gloss": "the Supreme, the higher"
+          }
+        ]
       },
       {
         "i": 9,
@@ -1169,7 +1693,13 @@ window.GITA_VERSES = [
         "morph": "absolutive (gerund)",
         "karaka": "pūrvakāla-kriyā (prior action governing nivartate); the kartṛ is the dehin",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√dṛś",
+            "gloss": "to see"
+          }
+        ]
       },
       {
         "i": 10,
@@ -1182,7 +1712,17 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 sg., ātmanepada",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "ni-",
+            "gloss": "back, down"
+          },
+          {
+            "form": "√vṛt",
+            "gloss": "to turn"
+          }
+        ]
       }
     ],
     "grammar": {
@@ -1224,7 +1764,13 @@ window.GITA_VERSES = [
         "morph": "gen. sg. masc. (pres. act. part.)",
         "karaka": "viśeṣaṇa of puruṣasya (sambandha, gen.)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√yat",
+            "gloss": "to strive, exert"
+          }
+        ]
       },
       {
         "i": 1,
@@ -1237,7 +1783,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable particle",
         "karaka": "kriyāviśeṣaṇa (illative particle)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "hi",
+            "gloss": "for, indeed"
+          }
+        ]
       },
       {
         "i": 2,
@@ -1250,7 +1802,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable particle",
         "karaka": "concessive particle (qualifies yatataḥ)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "api",
+            "gloss": "even"
+          }
+        ]
       },
       {
         "i": 3,
@@ -1263,7 +1821,13 @@ window.GITA_VERSES = [
         "morph": "voc. sg. masc.",
         "karaka": "āmantraṇa (address)",
         "glossaryKey": null,
-        "translatable": false
+        "translatable": false,
+        "parts": [
+          {
+            "form": "kaunteya",
+            "gloss": "Kaunteya (Arjuna)"
+          }
+        ]
       },
       {
         "i": 4,
@@ -1276,7 +1840,13 @@ window.GITA_VERSES = [
         "morph": "gen. sg. masc.",
         "karaka": "sambandha (genitive of relation: 'in the case of the man'; apādāna-like force with haranti — 'they snatch from him')",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "puruṣa",
+            "gloss": "man, person"
+          }
+        ]
       },
       {
         "i": 5,
@@ -1289,7 +1859,13 @@ window.GITA_VERSES = [
         "morph": "gen. sg. masc.",
         "karaka": "viśeṣaṇa of puruṣasya (sambandha, gen.)",
         "glossaryKey": "prajna",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "vipaścit",
+            "gloss": "discerning, wise"
+          }
+        ]
       },
       {
         "i": 6,
@@ -1302,7 +1878,13 @@ window.GITA_VERSES = [
         "morph": "nom. pl. neut.",
         "karaka": "kartṛ (subject of haranti)",
         "glossaryKey": "indriya",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "indriya",
+            "gloss": "sense"
+          }
+        ]
       },
       {
         "i": 7,
@@ -1315,7 +1897,17 @@ window.GITA_VERSES = [
         "morph": "nom. pl. neut.",
         "karaka": "viśeṣaṇa of indriyāṇi",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "pra-",
+            "gloss": "intensely"
+          },
+          {
+            "form": "√math",
+            "gloss": "to churn, agitate"
+          }
+        ]
       },
       {
         "i": 8,
@@ -1328,7 +1920,13 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 pl., parasmaipada",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√hṛ",
+            "gloss": "to carry off, snatch"
+          }
+        ]
       },
       {
         "i": 9,
@@ -1341,7 +1939,13 @@ window.GITA_VERSES = [
         "morph": "adverb (acc. sg. neut.)",
         "karaka": "kriyāviśeṣaṇa (qualifies haranti)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "prasabha",
+            "gloss": "by force, violently"
+          }
+        ]
       },
       {
         "i": 10,
@@ -1354,7 +1958,13 @@ window.GITA_VERSES = [
         "morph": "acc. sg. neut.",
         "karaka": "karman (object of haranti)",
         "glossaryKey": "manas",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "manas",
+            "gloss": "mind"
+          }
+        ]
       }
     ],
     "grammar": {
@@ -1396,7 +2006,13 @@ window.GITA_VERSES = [
         "morph": "acc. pl. neut.",
         "karaka": "viśeṣaṇa of an implied indriyāṇi (karman of saṃyamya)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "tāni",
+            "gloss": "those"
+          }
+        ]
       },
       {
         "i": 1,
@@ -1409,7 +2025,13 @@ window.GITA_VERSES = [
         "morph": "acc. pl. neut.",
         "karaka": "viśeṣaṇa of tāni",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "sarva",
+            "gloss": "all"
+          }
+        ]
       },
       {
         "i": 2,
@@ -1422,7 +2044,17 @@ window.GITA_VERSES = [
         "morph": "absolutive / gerund",
         "karaka": "kriyā (subordinate, prior action)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "sam-",
+            "gloss": "fully, together"
+          },
+          {
+            "form": "√yam",
+            "gloss": "to restrain, hold"
+          }
+        ]
       },
       {
         "i": 3,
@@ -1435,7 +2067,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. masc. (ppp.)",
         "karaka": "predicate of the subject (qualifies the implied 'he')",
         "glossaryKey": "yoga",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√yuj",
+            "gloss": "to yoke, join"
+          }
+        ]
       },
       {
         "i": 4,
@@ -1448,7 +2086,13 @@ window.GITA_VERSES = [
         "morph": "optative, 3 sg., ātmanepada",
         "karaka": "kriyā (main verb)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√ās",
+            "gloss": "to sit, remain"
+          }
+        ]
       },
       {
         "i": 5,
@@ -1469,7 +2113,17 @@ window.GITA_VERSES = [
             "mat",
             "para"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "mat",
+            "gloss": "me"
+          },
+          {
+            "form": "para",
+            "gloss": "intent on, highest"
+          }
+        ]
       },
       {
         "i": 6,
@@ -1482,7 +2136,13 @@ window.GITA_VERSES = [
         "morph": "loc. sg. masc.",
         "karaka": "adhikaraṇa (predicate locative: 'are in the control of')",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "vaśa",
+            "gloss": "control, sway"
+          }
+        ]
       },
       {
         "i": 7,
@@ -1495,7 +2155,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable particle",
         "karaka": "kriyāviśeṣaṇa (causal particle)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "hi",
+            "gloss": "for, indeed"
+          }
+        ]
       },
       {
         "i": 8,
@@ -1508,7 +2174,13 @@ window.GITA_VERSES = [
         "morph": "gen. sg. masc.",
         "karaka": "sambandha (relative genitive; correlate of tasya)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "yasya",
+            "gloss": "of whom"
+          }
+        ]
       },
       {
         "i": 9,
@@ -1521,7 +2193,13 @@ window.GITA_VERSES = [
         "morph": "nom. pl. neut.",
         "karaka": "kartṛ (subject of the implied copula in the relative clause)",
         "glossaryKey": "indriya",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "indriya",
+            "gloss": "sense"
+          }
+        ]
       },
       {
         "i": 10,
@@ -1534,7 +2212,13 @@ window.GITA_VERSES = [
         "morph": "gen. sg. masc.",
         "karaka": "sambandha (correlative genitive; correlate of yasya)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "tasya",
+            "gloss": "of him"
+          }
+        ]
       },
       {
         "i": 11,
@@ -1547,7 +2231,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. fem.",
         "karaka": "kartṛ (subject of pratiṣṭhitā / implied copula)",
         "glossaryKey": "prajna",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "prajñā",
+            "gloss": "wisdom, insight"
+          }
+        ]
       },
       {
         "i": 12,
@@ -1560,7 +2250,17 @@ window.GITA_VERSES = [
         "morph": "nom. sg. fem. (ppp.)",
         "karaka": "predicate of prajñā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "prati-",
+            "gloss": "firmly, against"
+          },
+          {
+            "form": "√sthā",
+            "gloss": "to stand, be set"
+          }
+        ]
       }
     ],
     "grammar": {
@@ -1602,7 +2302,13 @@ window.GITA_VERSES = [
         "morph": "gen. sg. masc. (pres. act. part.)",
         "karaka": "viśeṣaṇa of puṃsaḥ (sambandha, gen.)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√dhyai",
+            "gloss": "to dwell on, brood over"
+          }
+        ]
       },
       {
         "i": 1,
@@ -1615,7 +2321,13 @@ window.GITA_VERSES = [
         "morph": "acc. pl. masc.",
         "karaka": "karman (object of dhyāyataḥ)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "viṣaya",
+            "gloss": "sense-object"
+          }
+        ]
       },
       {
         "i": 2,
@@ -1628,7 +2340,13 @@ window.GITA_VERSES = [
         "morph": "gen. sg. masc.",
         "karaka": "sambandha (genitive of relation: 'in the case of the man')",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "puṃs",
+            "gloss": "man, person"
+          }
+        ]
       },
       {
         "i": 3,
@@ -1641,7 +2359,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. masc.",
         "karaka": "kartṛ (subject of upajāyate)",
         "glossaryKey": "raga",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√sañj",
+            "gloss": "to cling, attach"
+          }
+        ]
       },
       {
         "i": 4,
@@ -1654,7 +2378,13 @@ window.GITA_VERSES = [
         "morph": "loc. pl. masc.",
         "karaka": "viṣayādhikaraṇa (locus/object of the attachment: 'attachment to them')",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "teṣu",
+            "gloss": "in them, toward them"
+          }
+        ]
       },
       {
         "i": 5,
@@ -1667,7 +2397,17 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 sg., ātmanepada",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "upa-",
+            "gloss": "near, into being"
+          },
+          {
+            "form": "√jan",
+            "gloss": "to be born, arise"
+          }
+        ]
       },
       {
         "i": 6,
@@ -1680,7 +2420,13 @@ window.GITA_VERSES = [
         "morph": "abl. sg. masc.",
         "karaka": "apādāna (source: 'from attachment')",
         "glossaryKey": "raga",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "saṅga",
+            "gloss": "attachment, clinging"
+          }
+        ]
       },
       {
         "i": 7,
@@ -1693,7 +2439,17 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 sg., ātmanepada",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "sam-",
+            "gloss": "fully"
+          },
+          {
+            "form": "√jan",
+            "gloss": "to be born, arise"
+          }
+        ]
       },
       {
         "i": 8,
@@ -1706,7 +2462,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. masc.",
         "karaka": "kartṛ (subject of saṃjāyate)",
         "glossaryKey": "kama",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "kāma",
+            "gloss": "desire"
+          }
+        ]
       },
       {
         "i": 9,
@@ -1719,7 +2481,13 @@ window.GITA_VERSES = [
         "morph": "abl. sg. masc.",
         "karaka": "apādāna (source: 'from desire')",
         "glossaryKey": "kama",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "kāma",
+            "gloss": "desire"
+          }
+        ]
       },
       {
         "i": 10,
@@ -1732,7 +2500,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. masc.",
         "karaka": "kartṛ (subject of abhijāyate)",
         "glossaryKey": "krodha",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√krudh",
+            "gloss": "to be angry"
+          }
+        ]
       },
       {
         "i": 11,
@@ -1745,7 +2519,17 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 sg., ātmanepada",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "abhi-",
+            "gloss": "forth, fully"
+          },
+          {
+            "form": "√jan",
+            "gloss": "to be born, arise"
+          }
+        ]
       }
     ],
     "grammar": {
@@ -1787,7 +2571,13 @@ window.GITA_VERSES = [
         "morph": "abl. sg. masc.",
         "karaka": "apādāna (source: 'from anger')",
         "glossaryKey": "krodha",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√krudh",
+            "gloss": "to be angry"
+          }
+        ]
       },
       {
         "i": 1,
@@ -1800,7 +2590,13 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 sg., parasmaipada",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√bhū",
+            "gloss": "to become, arise"
+          }
+        ]
       },
       {
         "i": 2,
@@ -1813,7 +2609,17 @@ window.GITA_VERSES = [
         "morph": "nom. sg. masc.",
         "karaka": "kartṛ (subject of bhavati)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "sam-",
+            "gloss": "fully"
+          },
+          {
+            "form": "√muh",
+            "gloss": "to be deluded"
+          }
+        ]
       },
       {
         "i": 3,
@@ -1826,7 +2632,17 @@ window.GITA_VERSES = [
         "morph": "abl. sg. masc.",
         "karaka": "apādāna (source: 'from delusion')",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "sam-",
+            "gloss": "fully"
+          },
+          {
+            "form": "√muh",
+            "gloss": "to be deluded"
+          }
+        ]
       },
       {
         "i": 4,
@@ -1847,7 +2663,17 @@ window.GITA_VERSES = [
             "smṛti",
             "vibhrama"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "smṛti",
+            "gloss": "memory"
+          },
+          {
+            "form": "vibhrama",
+            "gloss": "confusion, wandering"
+          }
+        ]
       },
       {
         "i": 5,
@@ -1868,7 +2694,17 @@ window.GITA_VERSES = [
             "smṛti",
             "bhraṃśa"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "smṛti",
+            "gloss": "memory"
+          },
+          {
+            "form": "bhraṃśa",
+            "gloss": "collapse, loss"
+          }
+        ]
       },
       {
         "i": 6,
@@ -1889,7 +2725,17 @@ window.GITA_VERSES = [
             "buddhi",
             "nāśa"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "buddhi",
+            "gloss": "intellect"
+          },
+          {
+            "form": "nāśa",
+            "gloss": "destruction, ruin"
+          }
+        ]
       },
       {
         "i": 7,
@@ -1910,7 +2756,17 @@ window.GITA_VERSES = [
             "buddhi",
             "nāśa"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "buddhi",
+            "gloss": "intellect"
+          },
+          {
+            "form": "nāśa",
+            "gloss": "destruction, ruin"
+          }
+        ]
       },
       {
         "i": 8,
@@ -1923,7 +2779,17 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 sg., parasmaipada",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "pra-",
+            "gloss": "utterly"
+          },
+          {
+            "form": "√naś",
+            "gloss": "to perish, be lost"
+          }
+        ]
       }
     ],
     "grammar": {
@@ -1974,7 +2840,21 @@ window.GITA_VERSES = [
             "dveṣa",
             "viyukta"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "rāga",
+            "gloss": "attraction, passion"
+          },
+          {
+            "form": "dveṣa",
+            "gloss": "aversion, hatred"
+          },
+          {
+            "form": "viyukta",
+            "gloss": "disjoined, freed from"
+          }
+        ]
       },
       {
         "i": 1,
@@ -1987,7 +2867,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable particle",
         "karaka": "dyotaka (adversative connective)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "tu",
+            "gloss": "but"
+          }
+        ]
       },
       {
         "i": 2,
@@ -2008,7 +2894,17 @@ window.GITA_VERSES = [
             "vidheya",
             "ātman"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "vidheya",
+            "gloss": "to be controlled, amenable"
+          },
+          {
+            "form": "ātman",
+            "gloss": "self, mind"
+          }
+        ]
       },
       {
         "i": 4,
@@ -2021,7 +2917,13 @@ window.GITA_VERSES = [
         "morph": "instr. pl. neut.",
         "karaka": "karaṇa (instrument of caran)",
         "glossaryKey": "indriya",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "indriya",
+            "gloss": "sense"
+          }
+        ]
       },
       {
         "i": 5,
@@ -2034,7 +2936,13 @@ window.GITA_VERSES = [
         "morph": "acc. pl. masc.",
         "karaka": "karman (object of caran)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "viṣaya",
+            "gloss": "sense-object"
+          }
+        ]
       },
       {
         "i": 6,
@@ -2047,7 +2955,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. masc. (pres. act. participle)",
         "karaka": "kriyā (participial; qualifies the subject)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√car",
+            "gloss": "to move, engage"
+          }
+        ]
       },
       {
         "i": 7,
@@ -2068,7 +2982,17 @@ window.GITA_VERSES = [
             "ātman",
             "vaśya"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "ātman",
+            "gloss": "self"
+          },
+          {
+            "form": "vaśya",
+            "gloss": "under control"
+          }
+        ]
       },
       {
         "i": 8,
@@ -2081,7 +3005,17 @@ window.GITA_VERSES = [
         "morph": "acc. sg. masc.",
         "karaka": "karman (object of adhigacchati)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "pra-",
+            "gloss": "forth"
+          },
+          {
+            "form": "√sad",
+            "gloss": "to settle, grow clear"
+          }
+        ]
       },
       {
         "i": 9,
@@ -2094,7 +3028,17 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 sg., parasmaipada",
         "karaka": "kriyā (main verb)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "adhi-",
+            "gloss": "over, up to"
+          },
+          {
+            "form": "√gam",
+            "gloss": "to go, attain"
+          }
+        ]
       }
     ],
     "grammar": {
@@ -2136,7 +3080,17 @@ window.GITA_VERSES = [
         "morph": "loc. sg. masc.",
         "karaka": "adhikaraṇa (locative absolute / condition: 'serenity being present')",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "pra-",
+            "gloss": "forth"
+          },
+          {
+            "form": "√sad",
+            "gloss": "to settle, grow clear"
+          }
+        ]
       },
       {
         "i": 1,
@@ -2157,7 +3111,17 @@ window.GITA_VERSES = [
             "sarva",
             "duḥkha"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "sarva",
+            "gloss": "all"
+          },
+          {
+            "form": "duḥkha",
+            "gloss": "sorrow, pain"
+          }
+        ]
       },
       {
         "i": 3,
@@ -2170,7 +3134,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. fem.",
         "karaka": "kartṛ (subject of upajāyate)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√hā",
+            "gloss": "to leave, cease"
+          }
+        ]
       },
       {
         "i": 4,
@@ -2183,7 +3153,13 @@ window.GITA_VERSES = [
         "morph": "gen. sg. masc.",
         "karaka": "sambandha (possessive genitive, 'his')",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "asya",
+            "gloss": "of him, his"
+          }
+        ]
       },
       {
         "i": 5,
@@ -2196,7 +3172,17 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 sg., ātmanepada",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "upa-",
+            "gloss": "near, into being"
+          },
+          {
+            "form": "√jan",
+            "gloss": "to be born, arise"
+          }
+        ]
       },
       {
         "i": 6,
@@ -2209,7 +3195,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable particle",
         "karaka": "dyotaka (causal connective)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "hi",
+            "gloss": "for, because"
+          }
+        ]
       },
       {
         "i": 7,
@@ -2230,7 +3222,17 @@ window.GITA_VERSES = [
             "prasanna",
             "cetas"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "prasanna",
+            "gloss": "clear, serene"
+          },
+          {
+            "form": "cetas",
+            "gloss": "mind, thought"
+          }
+        ]
       },
       {
         "i": 9,
@@ -2243,7 +3245,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable (adverb)",
         "karaka": "kriyāviśeṣaṇa (qualifies paryavatiṣṭhate)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "āśu",
+            "gloss": "quickly, soon"
+          }
+        ]
       },
       {
         "i": 10,
@@ -2256,7 +3264,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. fem.",
         "karaka": "kartṛ (subject of paryavatiṣṭhate)",
         "glossaryKey": "buddhi",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√budh",
+            "gloss": "to wake, know (intellect)"
+          }
+        ]
       },
       {
         "i": 11,
@@ -2269,7 +3283,21 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 sg., ātmanepada",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "pari-",
+            "gloss": "all round"
+          },
+          {
+            "form": "ava-",
+            "gloss": "down"
+          },
+          {
+            "form": "√sthā",
+            "gloss": "to stand, be set"
+          }
+        ]
       }
     ],
     "grammar": {
@@ -2311,7 +3339,17 @@ window.GITA_VERSES = [
         "morph": "negated present indic., 3 sg., parasmaipada",
         "karaka": "kriyā (existential, negated)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "na",
+            "gloss": "not"
+          },
+          {
+            "form": "√as",
+            "gloss": "to be, exist"
+          }
+        ]
       },
       {
         "i": 1,
@@ -2324,7 +3362,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. fem.",
         "karaka": "kartṛ (subject of nāsti)",
         "glossaryKey": "buddhi",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√budh",
+            "gloss": "to wake, know (intellect)"
+          }
+        ]
       },
       {
         "i": 2,
@@ -2337,7 +3381,17 @@ window.GITA_VERSES = [
         "morph": "gen. sg. masc. (negated ppp.)",
         "karaka": "sambandha (genitive of possession: 'belonging to / for')",
         "glossaryKey": "yoga",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "a-",
+            "gloss": "un-, not"
+          },
+          {
+            "form": "√yuj",
+            "gloss": "to yoke, join"
+          }
+        ]
       },
       {
         "i": 3,
@@ -2350,7 +3404,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable (negation particle)",
         "karaka": "pratiṣedha (negation; the existence-verb is supplied from nāsti)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "na",
+            "gloss": "not"
+          }
+        ]
       },
       {
         "i": 4,
@@ -2363,7 +3423,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable particle",
         "karaka": "samuccaya (conjunction)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "ca",
+            "gloss": "and"
+          }
+        ]
       },
       {
         "i": 5,
@@ -2376,7 +3442,17 @@ window.GITA_VERSES = [
         "morph": "gen. sg. masc. (negated ppp.)",
         "karaka": "sambandha (genitive: 'for the undisciplined')",
         "glossaryKey": "yoga",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "a-",
+            "gloss": "un-, not"
+          },
+          {
+            "form": "√yuj",
+            "gloss": "to yoke, join"
+          }
+        ]
       },
       {
         "i": 6,
@@ -2389,7 +3465,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. fem.",
         "karaka": "kartṛ (subject of the existence-verb supplied from nāsti)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√bhū",
+            "gloss": "to be (here: contemplation)"
+          }
+        ]
       },
       {
         "i": 7,
@@ -2402,7 +3484,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable (negation particle)",
         "karaka": "pratiṣedha (negation; the existence-verb is supplied from nāsti)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "na",
+            "gloss": "not"
+          }
+        ]
       },
       {
         "i": 8,
@@ -2415,7 +3503,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable particle",
         "karaka": "samuccaya (conjunction)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "ca",
+            "gloss": "and"
+          }
+        ]
       },
       {
         "i": 9,
@@ -2428,7 +3522,17 @@ window.GITA_VERSES = [
         "morph": "gen. sg. masc. (negated pres. act. participle)",
         "karaka": "sambandha (genitive: 'for the non-contemplator')",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "a-",
+            "gloss": "not"
+          },
+          {
+            "form": "√bhū",
+            "gloss": "to cultivate, contemplate"
+          }
+        ]
       },
       {
         "i": 10,
@@ -2441,7 +3545,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. fem.",
         "karaka": "kartṛ (subject of the existence-verb supplied from nāsti)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√śam",
+            "gloss": "to be calm, at peace"
+          }
+        ]
       },
       {
         "i": 11,
@@ -2454,7 +3564,17 @@ window.GITA_VERSES = [
         "morph": "gen. sg. masc. (negated ppp.)",
         "karaka": "sambandha (genitive: 'for the peaceless one')",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "a-",
+            "gloss": "un-, not"
+          },
+          {
+            "form": "√śam",
+            "gloss": "to be calm, at peace"
+          }
+        ]
       },
       {
         "i": 12,
@@ -2467,7 +3587,13 @@ window.GITA_VERSES = [
         "morph": "interrogative adverb",
         "karaka": "apādāna-sense (adverbial, 'from what source'); rhetorical",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "kutaḥ",
+            "gloss": "whence? how?"
+          }
+        ]
       },
       {
         "i": 13,
@@ -2480,7 +3606,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. neut.",
         "karaka": "kartṛ (subject of the implied copula in the rhetorical question)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "sukha",
+            "gloss": "happiness, ease"
+          }
+        ]
       }
     ],
     "grammar": {
@@ -2522,7 +3654,13 @@ window.GITA_VERSES = [
         "morph": "gen. pl. neut.",
         "karaka": "sambandha (genitive governed by anu- in anuvidhīyate: 'follows after the senses')",
         "glossaryKey": "indriya",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "indriya",
+            "gloss": "sense"
+          }
+        ]
       },
       {
         "i": 1,
@@ -2535,7 +3673,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable particle",
         "karaka": "dyotaka (causal connective)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "hi",
+            "gloss": "for, indeed"
+          }
+        ]
       },
       {
         "i": 3,
@@ -2548,7 +3692,13 @@ window.GITA_VERSES = [
         "morph": "gen. pl. neut. (pres. act. participle)",
         "karaka": "viśeṣaṇa of indriyāṇām (sambandha)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√car",
+            "gloss": "to rove, move"
+          }
+        ]
       },
       {
         "i": 5,
@@ -2561,7 +3711,21 @@ window.GITA_VERSES = [
         "morph": "present, 3 sg., passive (karmaṇi)",
         "karaka": "kriyā (of the relative clause)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "anu-",
+            "gloss": "after"
+          },
+          {
+            "form": "vi-",
+            "gloss": "apart"
+          },
+          {
+            "form": "√dhā",
+            "gloss": "to set, direct"
+          }
+        ]
       },
       {
         "i": 6,
@@ -2574,7 +3738,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. neut. (relative pronoun)",
         "karaka": "kartṛ of the (passive) anuvidhīyate; correlate of tat",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "yat",
+            "gloss": "which"
+          }
+        ]
       },
       {
         "i": 7,
@@ -2587,7 +3757,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. neut.",
         "karaka": "kartṛ of the relative clause (antecedent of yat)",
         "glossaryKey": "manas",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "manas",
+            "gloss": "mind"
+          }
+        ]
       },
       {
         "i": 8,
@@ -2600,7 +3776,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. neut. (correlative pronoun)",
         "karaka": "kartṛ (subject of harati); correlate of yat",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "tat",
+            "gloss": "that"
+          }
+        ]
       },
       {
         "i": 9,
@@ -2613,7 +3795,13 @@ window.GITA_VERSES = [
         "morph": "gen. sg. masc.",
         "karaka": "sambandha (possessive genitive on prajñā: 'his wisdom')",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "asya",
+            "gloss": "of him, his"
+          }
+        ]
       },
       {
         "i": 10,
@@ -2626,7 +3814,13 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 sg., parasmaipada",
         "karaka": "kriyā (main verb)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√hṛ",
+            "gloss": "to carry off, seize"
+          }
+        ]
       },
       {
         "i": 11,
@@ -2639,7 +3833,17 @@ window.GITA_VERSES = [
         "morph": "acc. sg. fem.",
         "karaka": "karman (object of harati)",
         "glossaryKey": "prajna",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "pra-",
+            "gloss": "forth"
+          },
+          {
+            "form": "√jñā",
+            "gloss": "to know (wisdom)"
+          }
+        ]
       },
       {
         "i": 12,
@@ -2652,7 +3856,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable particle (comparison)",
         "karaka": "upamāvācaka (marks the upamā)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "iva",
+            "gloss": "like, as"
+          }
+        ]
       },
       {
         "i": 13,
@@ -2665,7 +3875,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. masc.",
         "karaka": "kartṛ (subject of the implied 'carries off' in the simile)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "vāyu",
+            "gloss": "wind"
+          }
+        ]
       },
       {
         "i": 14,
@@ -2678,7 +3894,13 @@ window.GITA_VERSES = [
         "morph": "acc. sg. fem.",
         "karaka": "karman (object of the implied verb in the simile)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "nau",
+            "gloss": "boat"
+          }
+        ]
       },
       {
         "i": 17,
@@ -2691,7 +3913,13 @@ window.GITA_VERSES = [
         "morph": "loc. sg. neut.",
         "karaka": "adhikaraṇa (locus: 'on the water')",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "ambhas",
+            "gloss": "water"
+          }
+        ]
       }
     ],
     "grammar": {
@@ -2733,7 +3961,13 @@ window.GITA_VERSES = [
         "morph": "abl. sg. masc. (used adverbially: 'therefore')",
         "karaka": "hetu (ablative of cause, drawing the conclusion of 2.64–67)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "tasmāt",
+            "gloss": "therefore"
+          }
+        ]
       },
       {
         "i": 1,
@@ -2746,7 +3980,13 @@ window.GITA_VERSES = [
         "morph": "gen. sg. masc. (relative pronoun)",
         "karaka": "sambandha (relative genitive; correlate of tasya)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "yasya",
+            "gloss": "of whom, whose"
+          }
+        ]
       },
       {
         "i": 2,
@@ -2767,7 +4007,17 @@ window.GITA_VERSES = [
             "mahat",
             "bāhu"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "mahat",
+            "gloss": "great, mighty"
+          },
+          {
+            "form": "bāhu",
+            "gloss": "arm"
+          }
+        ]
       },
       {
         "i": 4,
@@ -2780,7 +4030,17 @@ window.GITA_VERSES = [
         "morph": "indeclinable (adverb, 'in every respect')",
         "karaka": "kriyāviśeṣaṇa (qualifies nigṛhītāni)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "sarva",
+            "gloss": "all"
+          },
+          {
+            "form": "-śas",
+            "gloss": "in every way, wholly"
+          }
+        ]
       },
       {
         "i": 5,
@@ -2793,7 +4053,17 @@ window.GITA_VERSES = [
         "morph": "nom. pl. neut. (ppp.)",
         "karaka": "predicate (ppp. predicated of indriyāṇi, with implied 'are')",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "ni-",
+            "gloss": "down, back"
+          },
+          {
+            "form": "√grah",
+            "gloss": "to hold, restrain"
+          }
+        ]
       },
       {
         "i": 6,
@@ -2806,7 +4076,13 @@ window.GITA_VERSES = [
         "morph": "nom. pl. neut.",
         "karaka": "kartṛ / uddeśya (subject held back, predicated by nigṛhītāni)",
         "glossaryKey": "indriya",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "indriya",
+            "gloss": "sense"
+          }
+        ]
       },
       {
         "i": 7,
@@ -2827,7 +4103,17 @@ window.GITA_VERSES = [
             "indriya",
             "artha"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "indriya",
+            "gloss": "sense"
+          },
+          {
+            "form": "artha",
+            "gloss": "object, aim"
+          }
+        ]
       },
       {
         "i": 8,
@@ -2840,7 +4126,13 @@ window.GITA_VERSES = [
         "morph": "gen. sg. masc. (correlative pronoun)",
         "karaka": "sambandha (possessive genitive on prajñā; correlate of yasya)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "tasya",
+            "gloss": "of him, his"
+          }
+        ]
       },
       {
         "i": 9,
@@ -2853,7 +4145,17 @@ window.GITA_VERSES = [
         "morph": "nom. sg. fem.",
         "karaka": "kartṛ (subject of the implied copula with pratiṣṭhitā)",
         "glossaryKey": "prajna",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "pra-",
+            "gloss": "forth"
+          },
+          {
+            "form": "√jñā",
+            "gloss": "to know (wisdom)"
+          }
+        ]
       },
       {
         "i": 10,
@@ -2866,7 +4168,17 @@ window.GITA_VERSES = [
         "morph": "nom. sg. fem. (ppp., with implied 'is')",
         "karaka": "predicate (ppp. predicated of prajñā)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "prati-",
+            "gloss": "firmly, against"
+          },
+          {
+            "form": "√sthā",
+            "gloss": "to stand, be set"
+          }
+        ]
       }
     ],
     "grammar": {
@@ -2908,7 +4220,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. fem. (relative pronoun)",
         "karaka": "viśeṣaṇa of niśā; correlate of sā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "yā",
+            "gloss": "which (rel.)"
+          }
+        ]
       },
       {
         "i": 1,
@@ -2921,7 +4239,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. fem.",
         "karaka": "kartṛ (subject of the implied copula 'is')",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "niśā",
+            "gloss": "night"
+          }
+        ]
       },
       {
         "i": 2,
@@ -2942,7 +4266,17 @@ window.GITA_VERSES = [
             "sarva",
             "bhūta"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "sarva",
+            "gloss": "all"
+          },
+          {
+            "form": "bhūta",
+            "gloss": "being, creature"
+          }
+        ]
       },
       {
         "i": 3,
@@ -2955,7 +4289,13 @@ window.GITA_VERSES = [
         "morph": "loc. sg. fem.",
         "karaka": "adhikaraṇa (locus of jāgarti); correlate of yā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "tasyāṃ",
+            "gloss": "in that"
+          }
+        ]
       },
       {
         "i": 4,
@@ -2968,7 +4308,13 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 sg., parasmaipada",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√jāgṛ",
+            "gloss": "to be awake, keep watch"
+          }
+        ]
       },
       {
         "i": 5,
@@ -2981,7 +4327,17 @@ window.GITA_VERSES = [
         "morph": "nom. sg. masc.",
         "karaka": "kartṛ (subject of jāgarti)",
         "glossaryKey": "muni",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "sam-",
+            "gloss": "fully"
+          },
+          {
+            "form": "√yam",
+            "gloss": "to restrain (the controlled one)"
+          }
+        ]
       },
       {
         "i": 6,
@@ -2994,7 +4350,13 @@ window.GITA_VERSES = [
         "morph": "loc. sg. fem. (relative pronoun)",
         "karaka": "adhikaraṇa (locus of jāgarti); correlate of sā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "yasyāṃ",
+            "gloss": "in which (rel.)"
+          }
+        ]
       },
       {
         "i": 7,
@@ -3007,7 +4369,13 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 pl., parasmaipada",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√jāgṛ",
+            "gloss": "to be awake"
+          }
+        ]
       },
       {
         "i": 8,
@@ -3020,7 +4388,13 @@ window.GITA_VERSES = [
         "morph": "nom. pl. neut.",
         "karaka": "kartṛ (subject of jāgrati)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "bhūta",
+            "gloss": "being, creature"
+          }
+        ]
       },
       {
         "i": 9,
@@ -3033,7 +4407,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. fem.",
         "karaka": "viśeṣaṇa of niśā; correlate of yasyāṃ",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "sā",
+            "gloss": "that"
+          }
+        ]
       },
       {
         "i": 10,
@@ -3046,7 +4426,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. fem.",
         "karaka": "kartṛ (subject of the implied copula 'is')",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "niśā",
+            "gloss": "night"
+          }
+        ]
       },
       {
         "i": 11,
@@ -3059,7 +4445,13 @@ window.GITA_VERSES = [
         "morph": "gen. sg. masc. (pres. act. participle)",
         "karaka": "sambandha / viśeṣaṇa of muneḥ ('for the sage who sees')",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√dṛś",
+            "gloss": "to see (the seeing one)"
+          }
+        ]
       },
       {
         "i": 12,
@@ -3072,7 +4464,13 @@ window.GITA_VERSES = [
         "morph": "gen. sg. masc.",
         "karaka": "sambandha (genitive, 'for the sage')",
         "glossaryKey": "muni",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "muni",
+            "gloss": "sage, silent one"
+          }
+        ]
       }
     ],
     "grammar": {
@@ -3114,7 +4512,17 @@ window.GITA_VERSES = [
         "morph": "acc. sg. masc. (pres. passive participle)",
         "karaka": "viśeṣaṇa of samudram",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "ā-",
+            "gloss": "completely"
+          },
+          {
+            "form": "√pṝ",
+            "gloss": "to fill, be filled"
+          }
+        ]
       },
       {
         "i": 1,
@@ -3135,7 +4543,17 @@ window.GITA_VERSES = [
             "acala",
             "pratiṣṭhā"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "acala",
+            "gloss": "unmoving, fixed"
+          },
+          {
+            "form": "pratiṣṭhā",
+            "gloss": "foundation, standing"
+          }
+        ]
       },
       {
         "i": 2,
@@ -3148,7 +4566,13 @@ window.GITA_VERSES = [
         "morph": "acc. sg. masc.",
         "karaka": "karman (object of praviśanti — the waters enter it)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "samudra",
+            "gloss": "ocean"
+          }
+        ]
       },
       {
         "i": 3,
@@ -3161,7 +4585,13 @@ window.GITA_VERSES = [
         "morph": "nom. pl. fem. (plurale tantum)",
         "karaka": "kartṛ (subject of praviśanti)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "ap",
+            "gloss": "water"
+          }
+        ]
       },
       {
         "i": 4,
@@ -3174,7 +4604,17 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 pl., parasmaipada",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "pra-",
+            "gloss": "forth, in"
+          },
+          {
+            "form": "√viś",
+            "gloss": "to enter, flow into"
+          }
+        ]
       },
       {
         "i": 5,
@@ -3187,7 +4627,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable (relative adverb of comparison)",
         "karaka": "upamāna-dyotaka (correlate of tadvat)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "yadvat",
+            "gloss": "just as"
+          }
+        ]
       },
       {
         "i": 6,
@@ -3200,7 +4646,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable (correlative adverb of comparison)",
         "karaka": "upameya-dyotaka (correlate of yadvat)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "tadvat",
+            "gloss": "so, likewise"
+          }
+        ]
       },
       {
         "i": 7,
@@ -3213,7 +4665,13 @@ window.GITA_VERSES = [
         "morph": "nom. pl. masc.",
         "karaka": "kartṛ (subject of praviśanti, second clause)",
         "glossaryKey": "kama",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "kāma",
+            "gloss": "desire"
+          }
+        ]
       },
       {
         "i": 8,
@@ -3226,7 +4684,13 @@ window.GITA_VERSES = [
         "morph": "acc. sg. masc. (relative pronoun)",
         "karaka": "karman (object of praviśanti — desires enter him); correlate of saḥ",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "yaṃ",
+            "gloss": "whom (rel.)"
+          }
+        ]
       },
       {
         "i": 9,
@@ -3239,7 +4703,17 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 pl., parasmaipada",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "pra-",
+            "gloss": "forth, in"
+          },
+          {
+            "form": "√viś",
+            "gloss": "to enter"
+          }
+        ]
       },
       {
         "i": 10,
@@ -3252,7 +4726,13 @@ window.GITA_VERSES = [
         "morph": "nom. pl. masc.",
         "karaka": "viśeṣaṇa of kāmāḥ",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "sarve",
+            "gloss": "all"
+          }
+        ]
       },
       {
         "i": 11,
@@ -3265,7 +4745,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. masc.",
         "karaka": "kartṛ (subject of āpnoti); correlate of yaṃ",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "saḥ",
+            "gloss": "he, that one"
+          }
+        ]
       },
       {
         "i": 12,
@@ -3278,7 +4764,13 @@ window.GITA_VERSES = [
         "morph": "acc. sg. fem.",
         "karaka": "karman (object of āpnoti)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√śam",
+            "gloss": "to be calm (peace)"
+          }
+        ]
       },
       {
         "i": 13,
@@ -3291,7 +4783,13 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 sg., parasmaipada",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√āp",
+            "gloss": "to attain, obtain"
+          }
+        ]
       },
       {
         "i": 14,
@@ -3304,7 +4802,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable (negative particle)",
         "karaka": "pratiṣedha (negation, governing kāmakāmī)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "na",
+            "gloss": "not"
+          }
+        ]
       },
       {
         "i": 15,
@@ -3325,7 +4829,17 @@ window.GITA_VERSES = [
             "kāma",
             "kāmin"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "kāma",
+            "gloss": "desire"
+          },
+          {
+            "form": "kāmin",
+            "gloss": "desiring, hankering"
+          }
+        ]
       }
     ],
     "grammar": {
@@ -3367,7 +4881,17 @@ window.GITA_VERSES = [
         "morph": "absolutive (gerund)",
         "karaka": "pūrvakāla-kriyā (prior action, of the same kartṛ as carati)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "vi-",
+            "gloss": "away"
+          },
+          {
+            "form": "√hā",
+            "gloss": "to abandon, cast aside"
+          }
+        ]
       },
       {
         "i": 1,
@@ -3380,7 +4904,13 @@ window.GITA_VERSES = [
         "morph": "acc. pl. masc.",
         "karaka": "karman (object of vihāya)",
         "glossaryKey": "kama",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "kāma",
+            "gloss": "desire"
+          }
+        ]
       },
       {
         "i": 2,
@@ -3393,7 +4923,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. masc. (relative pronoun)",
         "karaka": "kartṛ (subject of carati); correlate of saḥ",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "yaḥ",
+            "gloss": "who (rel.)"
+          }
+        ]
       },
       {
         "i": 3,
@@ -3406,7 +4942,13 @@ window.GITA_VERSES = [
         "morph": "acc. pl. masc.",
         "karaka": "viśeṣaṇa of kāmān",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "sarva",
+            "gloss": "all"
+          }
+        ]
       },
       {
         "i": 4,
@@ -3419,7 +4961,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. masc.",
         "karaka": "kartṛ (subject of carati, in apposition to yaḥ)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "puṃs",
+            "gloss": "man, person"
+          }
+        ]
       },
       {
         "i": 5,
@@ -3432,7 +4980,13 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 sg., parasmaipada",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√car",
+            "gloss": "to move, go through life"
+          }
+        ]
       },
       {
         "i": 6,
@@ -3452,7 +5006,17 @@ window.GITA_VERSES = [
           "members": [
             "spṛhā"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "nis-",
+            "gloss": "without"
+          },
+          {
+            "form": "spṛhā",
+            "gloss": "longing, craving"
+          }
+        ]
       },
       {
         "i": 7,
@@ -3472,7 +5036,17 @@ window.GITA_VERSES = [
           "members": [
             "mama"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "nis-",
+            "gloss": "without"
+          },
+          {
+            "form": "mama",
+            "gloss": "mine, possessiveness"
+          }
+        ]
       },
       {
         "i": 8,
@@ -3492,7 +5066,17 @@ window.GITA_VERSES = [
           "members": [
             "ahaṅkāra"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "nis-",
+            "gloss": "without"
+          },
+          {
+            "form": "ahaṅkāra",
+            "gloss": "the I-maker, ego"
+          }
+        ]
       },
       {
         "i": 9,
@@ -3505,7 +5089,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. masc.",
         "karaka": "kartṛ (subject of adhigacchati); correlate of yaḥ",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "saḥ",
+            "gloss": "he, that one"
+          }
+        ]
       },
       {
         "i": 10,
@@ -3518,7 +5108,13 @@ window.GITA_VERSES = [
         "morph": "acc. sg. fem.",
         "karaka": "karman (object of adhigacchati)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√śam",
+            "gloss": "to be calm (peace)"
+          }
+        ]
       },
       {
         "i": 11,
@@ -3531,7 +5127,17 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 sg., parasmaipada",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "adhi-",
+            "gloss": "over, up to"
+          },
+          {
+            "form": "√gam",
+            "gloss": "to go, attain"
+          }
+        ]
       }
     ],
     "grammar": {
@@ -3573,7 +5179,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. fem. (demonstrative)",
         "karaka": "viśeṣaṇa of sthitiḥ",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "eṣā",
+            "gloss": "this"
+          }
+        ]
       },
       {
         "i": 1,
@@ -3586,7 +5198,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. fem.",
         "karaka": "viśeṣaṇa of sthitiḥ",
         "glossaryKey": "brahman",
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "brāhmī",
+            "gloss": "of brahman, brāhmic"
+          }
+        ]
       },
       {
         "i": 2,
@@ -3599,7 +5217,13 @@ window.GITA_VERSES = [
         "morph": "nom. sg. fem.",
         "karaka": "kartṛ (subject of the implied copula 'is')",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "sthiti",
+            "gloss": "state, standing"
+          }
+        ]
       },
       {
         "i": 3,
@@ -3612,7 +5236,13 @@ window.GITA_VERSES = [
         "morph": "voc. sg. masc.",
         "karaka": "āmantraṇa (address)",
         "glossaryKey": null,
-        "translatable": false
+        "translatable": false,
+        "parts": [
+          {
+            "form": "pārtha",
+            "gloss": "Pārtha (Arjuna)"
+          }
+        ]
       },
       {
         "i": 4,
@@ -3625,7 +5255,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable (negative particle)",
         "karaka": "pratiṣedha (negation, governing vimuhyati)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "na",
+            "gloss": "not"
+          }
+        ]
       },
       {
         "i": 5,
@@ -3638,7 +5274,13 @@ window.GITA_VERSES = [
         "morph": "acc. sg. fem. (anaphoric pronoun)",
         "karaka": "karman (object of prāpya)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "enāṃ",
+            "gloss": "it, this (state)"
+          }
+        ]
       },
       {
         "i": 6,
@@ -3651,7 +5293,17 @@ window.GITA_VERSES = [
         "morph": "absolutive (gerund)",
         "karaka": "pūrvakāla-kriyā (prior action of the implied subject)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "pra-",
+            "gloss": "forth, up to"
+          },
+          {
+            "form": "√āp",
+            "gloss": "to reach, attain"
+          }
+        ]
       },
       {
         "i": 7,
@@ -3664,7 +5316,17 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 sg., parasmaipada",
         "karaka": "kriyā (negated by na)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "vi-",
+            "gloss": "astray"
+          },
+          {
+            "form": "√muh",
+            "gloss": "to be deluded"
+          }
+        ]
       },
       {
         "i": 8,
@@ -3677,7 +5339,13 @@ window.GITA_VERSES = [
         "morph": "absolutive (gerund)",
         "karaka": "pūrvakāla-kriyā (prior action of the implied subject)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√sthā",
+            "gloss": "to stand firm, abide"
+          }
+        ]
       },
       {
         "i": 9,
@@ -3690,7 +5358,13 @@ window.GITA_VERSES = [
         "morph": "loc. sg. fem. (demonstrative)",
         "karaka": "adhikaraṇa (locus of sthitvā)",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "asyām",
+            "gloss": "in this (state)"
+          }
+        ]
       },
       {
         "i": 10,
@@ -3711,7 +5385,17 @@ window.GITA_VERSES = [
             "anta",
             "kāla"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "anta",
+            "gloss": "end, final"
+          },
+          {
+            "form": "kāla",
+            "gloss": "time, hour"
+          }
+        ]
       },
       {
         "i": 11,
@@ -3724,7 +5408,13 @@ window.GITA_VERSES = [
         "morph": "indeclinable particle",
         "karaka": "dyotaka (emphatic, 'even [at that hour]')",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "api",
+            "gloss": "even"
+          }
+        ]
       },
       {
         "i": 12,
@@ -3745,7 +5435,17 @@ window.GITA_VERSES = [
             "brahman",
             "nirvāṇa"
           ]
-        }
+        },
+        "parts": [
+          {
+            "form": "brahman",
+            "gloss": "brahman, the Absolute"
+          },
+          {
+            "form": "nirvāṇa",
+            "gloss": "extinction, blowing-out"
+          }
+        ]
       },
       {
         "i": 13,
@@ -3758,7 +5458,13 @@ window.GITA_VERSES = [
         "morph": "present indic., 3 sg., parasmaipada",
         "karaka": "kriyā",
         "glossaryKey": null,
-        "translatable": true
+        "translatable": true,
+        "parts": [
+          {
+            "form": "√ṛ",
+            "gloss": "to reach, go to"
+          }
+        ]
       }
     ],
     "grammar": {
