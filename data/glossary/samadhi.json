@@ -1,0 +1,74 @@
+{
+  "term_key": "samadhi",
+  "term_iast": "samādhi",
+  "term_devanagari": "समाधि",
+  "literal": "putting-together, collectedness, complete composure of mind, meditative absorption; from sam + ā + √dhā 'to place, to set down together'",
+  "aliases": [
+    "samadhi",
+    "samādhi",
+    "Samādhi",
+    "samādhiḥ",
+    "samādhau",
+    "samādhisthasya",
+    "samādhistha"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gita-sthitaprajna-glossary",
+  "invariant_definition": "*Samādhi* is the gathered, fully composed condition of the mind in which attention is collected upon a single object or, in the highest forms, rests without object in undivided awareness. The etymology is exact: a 'placing-together' of the otherwise scattered cognitive faculties. Beyond this shared core the term carries sharply different technical loads. In Pātañjala Yoga it is the eighth and culminating limb of *aṣṭāṅga-yoga* and the title of the whole first *pāda*; it is analyzed into *samprajñāta* (cognitive, object-bearing absorption) and *asamprajñāta* (the supracognitive absorption in which even the seed of cognition is stilled), and it is the proximate means to *kaivalya*. In Advaita the term is taken over and subdivided into *savikalpa* and *nirvikalpa samādhi*, and a genuine debate arises over its soteriological status: whether *nirvikalpa samādhi* is necessary for, identical with, or merely auxiliary to *brahma-jñāna* — the worry being that *samādhi* is a temporary mental state that ends when one rises from it, whereas liberating knowledge, once arisen, is permanent and not lost on returning to ordinary awareness. In the *Bhagavad-Gītā* the word appears in the *sthitaprajña* passage in a looser but pointed sense: the intellect rendered steady and unmoved, fixed in equanimity (2.53–54, *samādhau acalā buddhiḥ*). The term therefore sits at the intersection of a precise yogic technology of absorption and the Vedāntic question of whether absorption is the same thing as knowing the real.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Samādhi* names **the collected, undistracted condition of the mind gathered upon its object or resting objectless in undivided awareness**. The structural role — culminating concentration — is shared. Schools disagree on whether it is the technical eighth limb yielding *kaivalya* (Yoga), a state that may accompany but does not by itself constitute liberating knowledge (much of Advaita), or, more loosely, the steadiness of the equanimous intellect (Gītā).",
+    "register_axes_note": "**Real disagreement** within Advaita and against Yoga over the status of object-less absorption: whether *nirvikalpa samādhi* is required for or identical with *brahma-jñāna*, or whether knowledge — being permanent and self-revealing — does not depend on a temporary mental state at all. **Same concept, different aspect** between Yoga's technical *samādhi* and the Gītā's *samādhi* as steadiness of *buddhi*: both name mental collectedness, at different degrees of technical specification."
+  },
+  "per_school": [
+    {
+      "school": "Yoga",
+      "definition": "*Samādhi* is the eighth limb of *aṣṭāṅga-yoga* and the consummation of *saṃyama* (the triad *dhāraṇā–dhyāna–samādhi* taken together, YS 3.1-4); in *samādhi* the object alone shines forth as if emptied of the cognizing act's own form (YS 3.3). It is divided into *samprajñāta*, object-bearing absorption attended by reasoning, reflection, bliss, and I-sense (YS 1.17), and *asamprajñāta*, the higher absorption that follows the cessation of all cognitive content, leaving only latent impressions (YS 1.18). It is the direct means by which the *vṛttis* are stilled and *vivekakhyāti* ripens toward *kaivalya*; the whole first *pāda* is the *samādhi-pāda*.",
+      "primary_loci": [
+        "Yoga-Sūtra 1.17-18, 1.20",
+        "Yoga-Sūtra 3.1-4 (saṃyama)",
+        "Yoga-Sūtra, samādhi-pāda"
+      ],
+      "register_tag": "Φ+S; yogin (eighth limb, means to kaivalya)"
+    },
+    {
+      "school": "Advaita",
+      "definition": "Advaita adopts *samādhi* and divides it into *savikalpa* (absorption still bearing the subtle distinction of knower, known, and knowing) and *nirvikalpa* (absorption free of that triadic distinction). Its soteriological status is genuinely debated: one strand treats *nirvikalpa samādhi* as a necessary discipline for steadying the mind so that *akhaṇḍākāra-vṛtti* and *brahma-jñāna* may arise; another insists that liberation is by knowledge alone (*jñānād eva mokṣaḥ*), and that *samādhi* — being a state one enters and leaves — cannot itself be liberation, since *brahma-jñāna* once arisen is permanent and unaffected by the return to ordinary cognition. The persistent worry is the temporariness of any absorbed state versus the permanence of realized identity.",
+      "primary_loci": [
+        "Vivekacūḍāmaṇi (savikalpa / nirvikalpa samādhi discussion)",
+        "Śaṅkara, Gītā-Bhāṣya on 2.53-54",
+        "Vedānta-Sāra (samādhi among the means)"
+      ],
+      "register_tag": "M+S; mumukṣu [REAL-DISAGREEMENT: nirvikalpa samādhi vs jñāna]"
+    },
+    {
+      "school": "Sāṅkhya",
+      "definition": "Classical Sāṅkhya does not make *samādhi* a load-bearing technical category in the way Yoga does; its soteriology turns on discriminative knowledge (*viveka*) that distinguishes *puruṣa* from *prakṛti*, after which *prakṛti* withdraws and *kaivalya* follows. Insofar as the term is used, it names the sattvic concentration of the *buddhi* that makes such discrimination possible — but the operative cause of release is the knowledge itself, not the absorbed state as such. The contemplative apparatus is shared with its sister-system Yoga, while the explanatory weight is placed on *jñāna* rather than on *samādhi*.",
+      "primary_loci": [
+        "Sāṅkhya-Kārikā 23 (sattvic buddhi)",
+        "Sāṅkhya-Kārikā 64-66 (viveka and the withdrawal of prakṛti)"
+      ],
+      "register_tag": "M+E; reflective reader (samādhi subordinate to viveka)"
+    },
+    {
+      "school": "Vedānta / Gītā",
+      "definition": "In the *Gītā*'s *sthitaprajña* passage *samādhi* is used not for trance-absorption but for the intellect rendered steady and unshaken — *yadā te buddhir ... samādhau acalā* (2.53), the *buddhi* immovably established (2.54, *samādhi-sthasya*). The accent is on equanimity and the withdrawal of the intellect from the pull of competing sense-impressions, rather than on a graded technology of absorptive states. This usage feeds the wider *Gītā* identification of yoga with equanimity (*samatvaṃ yoga ucyate*, 2.48).",
+      "primary_loci": [
+        "Bhagavad-Gītā 2.44, 2.53-54",
+        "Bhagavad-Gītā 2.48 (samatvaṃ yoga ucyate)"
+      ],
+      "register_tag": "M+S; mumukṣu (samādhi as steadiness of buddhi)"
+    }
+  ],
+  "see_also": [
+    "yoga",
+    "buddhi",
+    "citta",
+    "vrtti",
+    "kaivalya",
+    "prajna",
+    "moksa",
+    "jnana"
+  ],
+  "translator_note": "'Trance' is misleading and 'meditation' too broad. In Yoga *samādhi* is a precise technical stage (the eighth limb), not meditation in general; in Advaita it names savikalpa/nirvikalpa absorption whose relation to liberating knowledge is itself contested; in the *Gītā* sthitaprajña verses it means the steadiness of the intellect, not a trance state. Do not let the English imply that absorption is automatically liberation — much of Advaita denies exactly that, holding that knowledge, not the temporary absorbed state, is what frees."
+}

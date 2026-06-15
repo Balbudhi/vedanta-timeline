@@ -4186,8 +4186,9 @@ async function ensureArticlesLoaded() {
   // Five user-facing buckets. Superseded `perspective-investigation` drafts are
   // hidden by the `status === "superseded"` filter above; the kind label is kept
   // on disk for the historical record but does not surface as a section.
-  const sectionOrder = ["perspective", "essay", "comparative", "framework", "methodology", "engagement", "other"];
+  const sectionOrder = ["reading", "perspective", "essay", "comparative", "framework", "methodology", "engagement", "other"];
   const sectionLabels = {
+    "reading": "Primary-text readings",
     "perspective": "Perspectives",
     "essay": "Per-thinker engagements",
     "comparative": "Comparative readings",
@@ -4197,6 +4198,7 @@ async function ensureArticlesLoaded() {
     "other": "Other",
   };
   const sectionBlurbs = {
+    "reading": "A primary text read word by word — literal translation, full Pāṇinian grammar, the commentators in their own voices, and cross-tradition parallels. Opens as its own reading page.",
     "perspective": "Explicit user-position-driven readings. Flagged with the PERSPECTIVE pill and a reading-discipline preamble.",
     "essay": "Sustained reading-sessions through one thinker's primary corpus, in source language where it matters.",
     "comparative": "Paired analyses across thinkers and schools.",
@@ -4227,12 +4229,23 @@ async function ensureArticlesLoaded() {
       row.className = "article-row";
       row.dataset.slug = a.slug;
       const pillHTML = a.kind === "perspective" ? '<span class="perspective-pill perspective-pill--inline">PERSPECTIVE</span> ' : "";
+      const metaBits = [
+        a.word_count_approx ? "~" + a.word_count_approx.toLocaleString() + " words" : "",
+        a.external_url ? "reading page ↗" : "",
+        a.date ? escape(a.date) : "",
+      ].filter(Boolean).join(" · ");
       row.innerHTML = `
         <p class="article-title">${pillHTML}${md(a.title)}${a.status === "in-progress" ? ' <em style="color:#92400e;font-weight:500">(in progress)</em>' : ""}</p>
         ${a.subtitle ? `<p class="article-subtitle">${md(a.subtitle)}</p>` : ""}
-        <p class="article-meta">${a.word_count_approx ? "~" + a.word_count_approx.toLocaleString() + " words" : ""}${a.date ? " · " + escape(a.date) : ""}</p>
+        <p class="article-meta">${metaBits}</p>
       `;
-      row.addEventListener("click", () => openArticle(a));
+      // External reading pages (e.g. the Gītā word-by-word page) navigate to
+      // their own standalone route; in-app articles open in the Article pane.
+      if (a.external_url) {
+        row.addEventListener("click", () => { window.location.href = a.external_url; });
+      } else {
+        row.addEventListener("click", () => openArticle(a));
+      }
       articlesList.appendChild(row);
     }
   }

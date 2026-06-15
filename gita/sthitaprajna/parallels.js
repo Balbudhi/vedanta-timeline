@@ -1,0 +1,1 @@
+window.GITA_PARALLELS = {};

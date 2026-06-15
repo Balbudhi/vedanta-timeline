@@ -1,0 +1,158 @@
+/* =============================================================
+   Sthitaprajña — BG 2.54–72 reading page.
+   Reuses tokens from style.css (--serif, --ink, --muted, --rule …).
+   IAST only; mobile-first; progressive disclosure.
+   ============================================================= */
+
+.gita-page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 20px 120px;
+  font-family: var(--serif);
+  color: var(--ink);
+  background: var(--bg);
+}
+
+.gita-hero { text-align: center; margin: 16px 0 40px; }
+.gita-title { font-size: 30px; font-weight: 600; letter-spacing: .01em; margin: 0 0 6px; }
+.gita-attrib { font-family: var(--sans); font-size: 13px; color: var(--muted); margin: 0 0 4px; }
+.gita-range { font-family: var(--sans); font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted-soft); margin: 0 0 14px; }
+.gita-lede { font-size: 16px; line-height: 1.55; color: var(--ink-soft); max-width: 56ch; margin: 0 auto; }
+.gita-hint { font-family: var(--sans); font-size: 12px; color: var(--muted-soft); margin-top: 16px; }
+
+/* ---------- verse ---------- */
+.verse { padding: 26px 0; border-top: 1px solid var(--hairline); }
+.verse:first-of-type { border-top: none; }
+.verse-head { display: flex; align-items: baseline; gap: 12px; font-family: var(--sans); margin-bottom: 12px; }
+.verse-locus { font-size: 13px; font-weight: 700; color: var(--ink); }
+.verse-speaker { font-size: 12px; color: var(--muted); }
+.verse-meter { font-size: 11px; color: var(--muted-soft); margin-left: auto; font-style: italic; }
+
+.verse-samhita {
+  font-size: 19px; line-height: 1.7; color: var(--ink);
+  font-style: italic; margin-bottom: 14px;
+}
+.verse-pada {
+  font-size: 17px; line-height: 2.1; margin-bottom: 16px;
+}
+.verse-english {
+  font-size: 16px; line-height: 1.65; color: var(--ink-soft); margin-bottom: 10px;
+}
+.verse-sense {
+  font-family: var(--sans); font-size: 13.5px; line-height: 1.55;
+  color: var(--muted); margin: 0 0 16px; padding-left: 12px;
+  border-left: 2px solid var(--rule);
+}
+
+/* tappable words + English highlight */
+.w {
+  cursor: pointer; border-radius: 3px; padding: 1px 2px;
+  transition: background .12s, color .12s;
+  text-decoration: underline; text-decoration-color: var(--rule);
+  text-underline-offset: 3px; text-decoration-thickness: 1px;
+}
+.w:hover, .w:focus, .w.is-hi { background: #f4eecf; outline: none; }
+.w-untranslatable { text-decoration-style: dotted; color: var(--ink-soft); }
+.we { border-radius: 3px; padding: 0 1px; transition: background .12s; }
+.we.is-hi { background: #f4eecf; }
+
+html[data-theme="dark"] .w:hover,
+html[data-theme="dark"] .w:focus,
+html[data-theme="dark"] .w.is-hi,
+html[data-theme="dark"] .we.is-hi { background: #3a3622; }
+
+/* ---------- word-card popover ---------- */
+.word-card {
+  position: absolute; z-index: 60; max-width: 300px;
+  background: var(--bg); border: 1px solid var(--rule);
+  border-radius: 8px; box-shadow: var(--shadow-md);
+  padding: 12px 14px; font-family: var(--sans); font-size: 13px;
+  line-height: 1.5; color: var(--ink);
+}
+.wc-head { display: flex; align-items: baseline; gap: 8px; margin-bottom: 4px; }
+.wc-surface { font-family: var(--serif); font-size: 16px; font-weight: 600; }
+.wc-morph { font-size: 11px; color: var(--muted); }
+.wc-gloss { color: var(--ink-soft); margin-bottom: 8px; }
+.wc-ana { font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+.wc-ana b { color: var(--ink-soft); font-weight: 600; }
+.wc-karaka { font-size: 12px; color: var(--muted); font-style: italic; margin-bottom: 6px; }
+.wc-compound { font-size: 12px; color: var(--muted); background: var(--bg-warm); border-radius: 5px; padding: 6px 8px; margin-bottom: 6px; }
+.wc-gloss-link {
+  font-family: var(--sans); font-size: 12px; cursor: pointer;
+  background: none; border: none; color: #8a6d1f; padding: 2px 0; font-weight: 600;
+}
+.wc-gloss-link:hover { text-decoration: underline; }
+
+/* ---------- apparatus (Layer 2 disclosures) ---------- */
+.verse-apparatus { margin-top: 8px; display: flex; flex-direction: column; gap: 4px; }
+.apparatus { border: 1px solid var(--hairline); border-radius: 8px; background: var(--bg-warm); }
+.apparatus > summary {
+  list-style: none; cursor: pointer; display: flex; align-items: center; gap: 8px;
+  padding: 9px 12px; font-family: var(--sans); font-size: 12.5px; color: var(--ink-soft);
+  user-select: none;
+}
+.apparatus > summary::-webkit-details-marker { display: none; }
+.ap-caret { width: 0; height: 0; border-left: 5px solid var(--muted); border-top: 4px solid transparent; border-bottom: 4px solid transparent; transition: transform .15s; }
+.apparatus[open] > summary .ap-caret { transform: rotate(90deg); }
+.ap-label { font-weight: 600; letter-spacing: .02em; }
+.ap-count { margin-left: auto; font-size: 11px; color: var(--muted); background: var(--bg); border: 1px solid var(--rule); border-radius: 10px; padding: 0 7px; }
+.ap-body { padding: 4px 14px 16px; font-size: 14px; line-height: 1.6; }
+.apparatus-empty { color: var(--muted-soft); font-style: italic; font-size: 13px; }
+
+/* grammar-in-full */
+.g-rows { display: flex; flex-direction: column; gap: 10px; margin: 8px 0 14px; }
+.g-row { display: grid; grid-template-columns: 130px 1fr; gap: 12px; align-items: baseline; }
+.g-pada { font-weight: 600; color: var(--ink); }
+.g-gloss { color: var(--ink-soft); }
+.g-morph { font-family: var(--sans); font-size: 12px; color: var(--muted); margin-top: 2px; }
+.g-morph em { font-style: normal; color: var(--ink-soft); }
+.g-karaka { font-style: italic; }
+.g-compound { font-family: var(--sans); font-size: 12px; color: var(--muted); margin-top: 3px; }
+.g-summary { font-family: var(--sans); font-size: 12.5px; color: var(--muted); line-height: 1.55; margin: 8px 0 0; }
+.g-label { font-weight: 700; color: var(--ink-soft); margin-right: 4px; }
+
+/* commentary voices */
+.voice-tabs { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 12px; }
+.voice-tab {
+  cursor: pointer; background: var(--bg); border: 1px solid var(--rule);
+  border-radius: 16px; padding: 5px 12px; font-family: var(--sans);
+  display: flex; flex-direction: column; align-items: flex-start; line-height: 1.2;
+}
+.voice-tab .voice-name { font-size: 13px; font-weight: 600; color: var(--ink); }
+.voice-tab .voice-school { font-size: 10.5px; color: var(--muted-soft); }
+.voice-tab.is-active { border-color: var(--ink); background: var(--bg-warmer); }
+.voice-panel { display: none; }
+.voice-panel.is-active { display: block; }
+.voice-head { font-family: var(--sans); font-size: 12px; color: var(--muted); margin-bottom: 8px; }
+.voice-sanskrit { font-style: italic; font-size: 15px; line-height: 1.7; color: var(--ink); margin-bottom: 8px; }
+.voice-rendering { font-size: 14px; line-height: 1.6; color: var(--ink-soft); }
+
+/* aurobindo + parallels */
+.auro { margin: 10px 0; padding-left: 14px; border-left: 3px solid var(--rule-warm); }
+.auro-text { font-size: 15px; line-height: 1.65; color: var(--ink); }
+.auro cite { display: block; margin-top: 6px; font-family: var(--sans); font-size: 12px; color: var(--muted); font-style: normal; }
+.parallel { margin: 10px 0; }
+.parallel-head { font-family: var(--sans); font-size: 12px; color: var(--muted); margin-bottom: 5px; }
+.parallel-sanskrit { font-style: italic; font-size: 15px; line-height: 1.7; color: var(--ink); margin-bottom: 5px; }
+.parallel-rendering { font-size: 14px; line-height: 1.6; color: var(--ink-soft); }
+
+/* ---------- glossary popover (mirrors app.js styling intent) ---------- */
+.glossary-popover {
+  position: absolute; z-index: 70; max-width: 340px;
+  background: var(--bg); border: 1px solid var(--rule);
+  border-radius: 10px; box-shadow: var(--shadow-md);
+  padding: 16px 18px; font-family: var(--sans); font-size: 13px; line-height: 1.55; color: var(--ink);
+}
+.gp-close { position: absolute; top: 6px; right: 8px; border: none; background: none; font-size: 22px; line-height: 1; color: var(--muted); cursor: pointer; }
+.gp-term { font-family: var(--serif); font-size: 18px; font-weight: 600; margin-bottom: 2px; }
+.gp-literal { font-size: 12.5px; color: var(--muted); font-style: italic; margin-bottom: 8px; }
+.gp-def { color: var(--ink-soft); margin: 0 0 8px; }
+.gp-school { margin: 6px 0; font-size: 12.5px; color: var(--ink-soft); }
+.gp-school-name { font-weight: 700; color: var(--ink); }
+.gp-note { font-size: 12px; color: var(--muted); border-top: 1px solid var(--hairline); padding-top: 8px; margin: 8px 0 0; }
+
+@media (max-width: 720px) {
+  .gita-page { padding: 22px 16px 100px; }
+  .g-row { grid-template-columns: 1fr; gap: 2px; }
+  .word-card, .glossary-popover { max-width: calc(100vw - 24px); }
+}

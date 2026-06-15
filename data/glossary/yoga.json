@@ -1,0 +1,78 @@
+{
+  "term_key": "yoga",
+  "term_iast": "yoga",
+  "term_devanagari": "योग",
+  "literal": "union, yoking, joining; discipline, method, means; from √yuj 'to join, to yoke, to harness'",
+  "aliases": [
+    "yoga",
+    "Yoga",
+    "yogaḥ",
+    "yogāt",
+    "yogena",
+    "yoge",
+    "yukta",
+    "yuktaḥ",
+    "ayukta",
+    "ayuktasya",
+    "yogin",
+    "yogī",
+    "yogyuktaḥ"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gita-sthitaprajna-glossary",
+  "invariant_definition": "*Yoga* is one of the most semantically loaded words in the tradition, and its range is held together by the root √yuj, 'to yoke, to join, to harness'. From this single root flow several distinct technical senses. (1) Yoga as discipline or method: a harnessing of the faculties — paradigmatically Patañjali's definition, *yogaḥ citta-vṛtti-nirodhaḥ*, yoga is the stilling of the modifications of the mind (YS 1.2), the eightfold (*aṣṭāṅga*) system aimed at *kaivalya*. (2) Yoga as the *Gītā*'s path of action and equanimity: *samatvaṃ yoga ucyate*, yoga is called evenness of mind (2.48), and *yogaḥ karmasu kauśalam*, yoga is skill in action (2.50) — here yoga is *karma-yoga*, *buddhi-yoga*, the discipline of acting without attachment to fruits. (3) Yoga as union, especially in theistic contexts, the conjoining of the self with the divine. (4) Yoga as method or means in the most general sense, any disciplined procedure toward an end. The same word is also a proper noun: Yoga (capital), one of the six *darśanas*, the Pātañjala school paired with Sāṅkhya. A persistent translation hazard is the conflation of these — the *Gītā*'s yoga of equanimous action is not the same as Patañjali's yoga of mental cessation, even though both descend from √yuj. The agent-noun *yukta* ('the yoked, disciplined one') and *yogin* ('the practitioner of yoga') likewise shift sense with the system in view.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Yoga* names **a disciplined yoking of the faculties toward a higher end — whether the stilling of the mind, equanimity in action, or union with the divine** (root √yuj). The shared element is harnessing-toward-a-goal; the specification of method and goal differs sharply by school, and the word doubles as the proper name of one of the six darśanas.",
+    "register_axes_note": "**Same concept, different aspect** across the senses that share the harnessing-core: Patañjala *citta-vṛtti-nirodha*, the *Gītā*'s *samatva*/*karma-yoga*, and theistic union are all 'yoga' under the root, applied at different objects. **Real disagreement** appears only where the *content* of the goal is contested (isolation of *puruṣa* vs union with the Lord vs equanimous action serving liberation), not over the word's basic force."
+  },
+  "per_school": [
+    {
+      "school": "Yoga",
+      "definition": "In the Pātañjala darśana, *yoga* is defined technically as *citta-vṛtti-nirodha*, the cessation of the modifications of the mind (YS 1.2), upon which the seer abides in its own form (YS 1.3). The system is the eightfold path (*aṣṭāṅga*: *yama, niyama, āsana, prāṇāyāma, pratyāhāra, dhāraṇā, dhyāna, samādhi*, YS 2.29), with *kriyā-yoga* (austerity, study, devotion to Īśvara, YS 2.1) as its operative entry. Yoga here is a precise contemplative technology whose terminus is *kaivalya*, the isolation of *puruṣa* from *prakṛti*. This is the proper-noun school, sister-system to Sāṅkhya, sharing its metaphysics while adding the disciplinary apparatus and Īśvara.",
+      "primary_loci": [
+        "Yoga-Sūtra 1.2-3",
+        "Yoga-Sūtra 2.1, 2.28-29",
+        "Yoga-Sūtra, samādhi-pāda and sādhana-pāda"
+      ],
+      "register_tag": "Φ+S; yogin (citta-vṛtti-nirodha, aṣṭāṅga)"
+    },
+    {
+      "school": "Vedānta / Gītā",
+      "definition": "The *Gītā* uses *yoga* in a family of senses centered on disciplined, attachment-free action and equanimity. It defines yoga as evenness of mind — *samatvaṃ yoga ucyate* (2.48) — and as skill in action — *yogaḥ karmasu kauśalam* (2.50); this is *karma-yoga* and *buddhi-yoga*, acting while renouncing the fruits. Alongside it the text develops *jñāna-yoga* (the discipline of knowledge) and *bhakti-yoga* (the discipline of devotion). The *yukta* is the one established in this equanimity, whose steadied intellect (*buddhi-yoga*) lets him act without being bound; the *ayukta*, the undisciplined, has no steady wisdom and no peace (2.66).",
+      "primary_loci": [
+        "Bhagavad-Gītā 2.48, 2.50, 2.53",
+        "Bhagavad-Gītā 2.66 (ayukta), 6.46-47"
+      ],
+      "register_tag": "M+S; mumukṣu (karma-yoga, buddhi-yoga, samatva)"
+    },
+    {
+      "school": "Sāṅkhya",
+      "definition": "Sāṅkhya is the metaphysical sister-system of Yoga: it supplies the analysis of *puruṣa* and *prakṛti*, the *tattva*-scheme, and the discriminative knowledge (*viveka*) that yields *kaivalya*, while classical Sāṅkhya places the explanatory weight on knowledge rather than on a disciplinary regimen. The relation is often summarized as Sāṅkhya the theory, Yoga the practice — Yoga adopts Sāṅkhya's ontology and adds the eightfold discipline and Īśvara. Where 'yoga' figures in this register it is the practical complement to Sāṅkhya's discernment, not an independent metaphysics.",
+      "primary_loci": [
+        "Sāṅkhya-Kārikā 64-68 (viveka and kaivalya)",
+        "Bhagavad-Gītā 2.39 (the contrast of Sāṅkhya and Yoga buddhi)"
+      ],
+      "register_tag": "M+E; reflective reader (Sāṅkhya theory, Yoga practice)"
+    },
+    {
+      "school": "Theistic (Vaiṣṇava / Śaiva)",
+      "definition": "In theistic registers *yoga* retains the root sense of union or joining and is oriented to the Lord: the disciplined yoking of the self toward conjunction with the divine, often realized as devotion (*bhakti-yoga*). The *Gītā* itself moves toward this in its later chapters, where the highest *yogin* is the one who, with inner self gone to Me, worships with faith (6.47). Here yoga is the disciplined path whose goal is not bare isolation but relation to and reaching of Bhagavān.",
+      "primary_loci": [
+        "Bhagavad-Gītā 6.47, 12.1-2",
+        "Bhagavad-Gītā 9.34 (yukta with mind fixed on the Lord)"
+      ],
+      "register_tag": "M+S; bhakta (yoga as disciplined path to the Lord)"
+    }
+  ],
+  "see_also": [
+    "niskama-karma",
+    "samadhi",
+    "buddhi",
+    "moksa",
+    "kaivalya",
+    "bhakti",
+    "jnana"
+  ],
+  "translator_note": "Do not let one sense swallow the others. The *Gītā*'s yoga of equanimous action (*samatvaṃ yoga ucyate*, 2.48) is not Patañjali's yoga of mental cessation (*citta-vṛtti-nirodha*, YS 1.2), even though both derive from √yuj. Distinguish the proper noun 'Yoga' — one of the six darśanas — from yoga as a practice or method, which any school may employ. 'Union' fits the theistic and root senses but is wrong for the Pātañjala definition, where the goal is the isolation of *puruṣa*, not union. Translate the agent-nouns by their system: *yukta* as 'the disciplined/yoked one', *yogin* as 'practitioner of yoga'."
+}

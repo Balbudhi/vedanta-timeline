@@ -12,3 +12,7 @@ node_modules/
 /materials
 .dns-backup/
 sin_research/
+# Gītā reading-page scratch: grounded-source extracts, audit report, and the
+# full Aurobindo epub text (copyrighted — only short cited excerpts ship in
+# aurobindo.js). Local-only.
+gita/sthitaprajna/_build/

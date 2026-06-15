@@ -1,0 +1,62 @@
+{
+  "term_key": "sthitaprajna",
+  "term_iast": "sthita-prajña",
+  "term_devanagari": "स्थितप्रज्ञ",
+  "literal": "one whose wisdom (prajñā) stands firm (sthita, from √sthā 'to stand'); the man of settled, steady wisdom",
+  "aliases": [
+    "sthitaprajna",
+    "sthitaprajña",
+    "Sthitaprajña",
+    "sthitaprajñasya",
+    "sthitaprajñaḥ",
+    "sthita-prajña",
+    "sthitadhī",
+    "sthitadhīḥ"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gita-sthitaprajna-glossary",
+  "invariant_definition": "*Sthita-prajña* is a *Bhagavad-Gītā* coinage — the term scarcely occurs as a fixed technical word before it — for the person of settled wisdom: one in whom *prajñā* (discerning insight) has become *sthita*, firmly established and no longer shaken by circumstance. It is the answer Kṛṣṇa gives to Arjuna's question at 2.54 — 'what is the description of the man of steady wisdom, established in absorption; how does he speak, sit, move?' — and the portrait runs through the close of chapter 2 (2.55-72). The synonym *sthita-dhī* ('one of steady intellect') is used interchangeably across these verses (2.54, 2.55, 2.56). The marks the text gives are concrete and behavioural: he casts off all desires of the mind and is content in the self by the self (2.55); he is unshaken in sorrow, free of longing in pleasure, and rid of attachment, fear, and anger (2.56); he withdraws his senses from their objects as a tortoise draws in its limbs (2.58); he moves among sense-objects with senses controlled, free of attraction and aversion, and so attains serenity (2.64); and, with the mind disciplined and fixed on the higher self or the Lord, his wisdom is established (2.61). The *sthitaprajña* is thus the *Gītā*'s ideal of the liberated person who lives and acts in the world — the locus where the ethics of *niṣkāma-karma*, the psychology of sense-mastery, and the soteriology of liberation-in-life converge.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Sthita-prajña* names **the person whose discerning wisdom has become permanently steady, who lives and acts in the world unmoved by desire, aversion, fear, and grief** (Bhagavad-Gītā 2.54-72). All commentators take the four behavioural marks — castoff desire, equanimity in pleasure and pain, tortoise-like sense-withdrawal, and senses governed with the mind fixed on the higher reality — as definitive. They disagree on whether this state is final liberation already realized or advanced steadiness on the path, and on what the mind is to be 'fixed upon'.",
+    "register_axes_note": "**Real disagreement** between Advaita, which identifies the *sthitaprajña* with the *jīvanmukta* (liberation already accomplished, the wisdom being identity-knowledge of brahman), and Viśiṣṭādvaita, which reads the same verses as a gradation of *jñāna-niṣṭhā* with the mind fixed on the *paramātman* under Bhagavān — steadiness oriented to the Lord, not bare self-isolation. Same passage, same ideal-person role, divergent accounts of its content and finality."
+  },
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "Śaṅkara reads the *sthitaprajña* as the one in whom the discrimination of self and not-self has matured into firm *brahma-jñāna* — effectively the *jīvanmukta*. The casting-off of all mental desires (2.55) is possible only for one who is already content in the self by the self, i.e. who knows himself as *brahman*; the remaining verses describe the lived comportment of such a knower, whose body-mind continues by *prārabdha-karma* while the binding sense of agency and craving has dissolved. The *sthitaprajña* is therefore not someone striving toward liberation but the liberated-in-life person himself, described from the outside.",
+      "primary_loci": [
+        "Śaṅkara, Gītā-Bhāṣya on 2.54-72",
+        "Bhagavad-Gītā 2.55 (prajahāti yadā kāmān), 2.70-71"
+      ],
+      "register_tag": "M+S; jīvanmukta [REAL-DISAGREEMENT: sthitaprajña = jīvanmukta, already free]"
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Rāmānuja reads 2.55-58 as setting out a graded *jñāna-niṣṭhā*: four ascending marks of the aspirant fixed in self-knowledge — abandoning desires (2.55), unmoved by pleasure and pain (2.56), without excessive attachment to fortune or misfortune (2.57), and withdrawing the senses tortoise-like (2.58). Crucially the mind is not merely isolated in the bare self but disciplined and fixed on the *paramātman* — 'sitting intent on Me' (2.61) — so the steadiness is devotional and Lord-directed. The *sthitaprajña* here is the matured practitioner of disciplined self-knowledge oriented toward Bhagavān, a stage on the way whose consummation is reaching the Lord, not a self-enclosed isolation.",
+      "primary_loci": [
+        "Rāmānuja, Gītā-Bhāṣya on 2.55-58 and 2.61",
+        "Bhagavad-Gītā 2.61, 2.64"
+      ],
+      "register_tag": "M+S; prapanna [gradation of jñāna-niṣṭhā fixed on paramātman]"
+    },
+    {
+      "school": "Vedānta / Gītā",
+      "definition": "Taken at the level of the text itself, the *sthitaprajña* is the integrating ideal of chapter 2: the person whose wisdom is *pratiṣṭhitā* (2.57-58), who has achieved *prasāda* (serenity) through sense-mastery (2.64-65), and who, like the ocean filled yet unmoved by entering rivers, takes in all desires without being disturbed (2.70). The closing verse names this the *brāhmī sthiti*, the brahman-state, attaining which one is not deluded and, abiding in it even at the last hour, reaches *brahma-nirvāṇa* (2.72). It is the bridge between the chapter's teaching on desireless action and its promise of liberation.",
+      "primary_loci": [
+        "Bhagavad-Gītā 2.54-58, 2.64-65, 2.70-72"
+      ],
+      "register_tag": "M+S; mumukṣu (brāhmī sthiti)"
+    }
+  ],
+  "see_also": [
+    "jivanmukta",
+    "prajna",
+    "buddhi",
+    "niskama-karma",
+    "moksa",
+    "indriya",
+    "brahmanirvana"
+  ],
+  "translator_note": "Render as 'person of steady wisdom' or 'one of settled wisdom', not 'wise man' simpliciter — the load-bearing element is *sthita*, the firmness of the wisdom, not merely its presence. The synonym *sthita-dhī* in the same verses is identical in force; do not treat it as a different category. Avoid prejudging the school debate in translation: 'steady wisdom' leaves open whether the figure is the already-liberated *jīvanmukta* (Advaita) or the advanced, Lord-fixed practitioner (Viśiṣṭādvaita)."
+}
